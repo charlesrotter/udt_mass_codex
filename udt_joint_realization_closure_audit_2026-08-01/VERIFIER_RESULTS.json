@@ -1,0 +1,420 @@
+{
+  "amendments": [],
+  "base_commit": "089e2044be1b2e801f9b4f07e83efb5296dc1375",
+  "check_summary": {
+    "failed_ids": [],
+    "passed": 25,
+    "total": 25
+  },
+  "checks": [
+    {
+      "detail": "rows=140 unique=140",
+      "id": "V01_SOURCE_CENSUS",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "mismatches=[]",
+      "id": "V02_CURRENT_SOURCE_BYTES",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "mismatches=[]",
+      "id": "V03_BASE_BLOB_IDENTITIES",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "paths=140 manifest=140",
+      "id": "V04_PATH_AND_MANIFEST_EQUIVALENCE",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "direct=94 package=42 transitive=4 union=140",
+      "id": "V05_UNION_RECONSTRUCTION",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "git_diff_rc=0",
+      "id": "V06_COMMITTED_PREREGISTRATION_UNCHANGED",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "routes=['J01', 'J02', 'J03', 'J04', 'J05', 'J06', 'J07', 'J08'] premises=17",
+      "id": "V07_PREREGISTERED_ROUTE_AND_PREMISE_CENSUS",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "FORMAL_MODULE_FOR_ALL_MEMBERS; BANK_CONTROL_PLUS_COLD_PARSER_REGRESSION; FIXED_REALIZED_SOLUTION_OPEN",
+      "id": "V08_COLD_Q2_FIXED_REALIZATION_REMAINS_OPEN",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "T2=no solve; A3=no on-shell coexistence; Slice-2b=time-live out",
+      "id": "V09_TIME_ANGULAR_AND_STATIC_SCOPE_ATTACK",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "global coframe existence does not supply realized equations",
+      "id": "V10_COMPLETE_COFRAME_IS_OFF_SHELL",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "12/12 completion witnesses absent; 28/28 equation families incomplete; R08 open",
+      "id": "V11_COMPLETION_AND_BOOTSTRAP_ATTACK",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "local map OPEN; same-solution fixed point OPEN_NOT_REGISTERED",
+      "id": "V12_BOOTSTRAP_FIXED_POINT_REMAINS_OPEN",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "complete action and boundary OPEN; C2 and EH remain premise-conditional",
+      "id": "V13_ACTION_ROUTE_ATTACK",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "carrier completion OPEN; Hopfion and P4 stability are static/conditional, not time-live",
+      "id": "V14_HOPFION_AND_STABILITY_ROUTE_ATTACK",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "same nonzero live field and realized pullback remain open",
+      "id": "V15_PARENT_FIXED_REALIZATION_GATE",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "routes=['J01', 'J02', 'J03', 'J04', 'J05', 'J06', 'J07', 'J08'] mismatches={}",
+      "id": "V16_EIGHT_ROUTE_ADJUDICATION",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "mismatches={}",
+      "id": "V17_JOINT_GATE_STATUSES",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "S08=NO_COMPLETE_CONDITIONAL_WITNESS_REGISTERED S11=FORMAL_COMPATIBILITY_ONLY_COMMON_REALIZATION_OPEN",
+      "id": "V18_PRIMARY_OUTCOME_AND_SCOPE",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "controls=['CM1_ZERO_MODE', 'CM2_DIFFERENT_SOLUTIONS', 'CM3_STATIC_UNMUTING', 'CM4_CONDITIONAL_ACTION', 'CM5_BOOTSTRAP_SCHEMA'] all_joint_false=True",
+      "id": "V19_FINITE_SET_NONIMPLICATIONS",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "each delete-one assignment defeats the full gate and satisfies only its weakened gate",
+      "id": "V20_CERTIFICATE_SEMANTIC_NONREDUNDANCY",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "errors=[]",
+      "id": "V21_BASELINE_PRODUCTION_MODEL",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "caught=32/32",
+      "id": "V22_FAIL_CLOSED_MUTATIONS",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "certificate identified, not constructed; action-neutral; conclusion source-bounded",
+      "id": "V23_CERTIFICATE_TYPE_AND_CEILING",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "import_roots=['__future__', 'ast', 'copy', 'csv', 'hashlib', 'json', 'pathlib', 'subprocess']; primary derivation neither imported nor executed",
+      "id": "V24_IMPLEMENTATION_INDEPENDENCE",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "explicit 22-file semantic inventory unchanged by synthetic unrelated finalization file; directory-wide negative control changes",
+      "id": "V25_FINALIZATION_FILE_INVARIANCE",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    }
+  ],
+  "finite_nonimplication_controls": {
+    "CM1_ZERO_MODE": {
+      "formal_static": true,
+      "joint": false,
+      "nonzero_live": false
+    },
+    "CM2_DIFFERENT_SOLUTIONS": {
+      "angular_exists": true,
+      "joint": false,
+      "same_field": false,
+      "time_exists": true
+    },
+    "CM3_STATIC_UNMUTING": {
+      "joint": false,
+      "live_linear_mode": true,
+      "live_on_shell_solution": false,
+      "static_solution": true
+    },
+    "CM4_CONDITIONAL_ACTION": {
+      "complete_boundary": false,
+      "conditional_bulk": true,
+      "joint": false
+    },
+    "CM5_BOOTSTRAP_SCHEMA": {
+      "fixed_point": false,
+      "joint": false,
+      "map_types": true,
+      "maps_defined": false
+    }
+  },
+  "jr_cert_native": {
+    "delete_one_nonredundancy": {
+      "angular_restriction": {
+        "full_certificate_rejects": true,
+        "weakened_certificate_accepts": true
+      },
+      "differentiable_finite_cell_boundary": {
+        "full_certificate_rejects": true,
+        "weakened_certificate_accepts": true
+      },
+      "native_whole_equation": {
+        "full_certificate_rejects": true,
+        "weakened_certificate_accepts": true
+      },
+      "nonzero_angular_live": {
+        "full_certificate_rejects": true,
+        "weakened_certificate_accepts": true
+      },
+      "nonzero_time_live": {
+        "full_certificate_rejects": true,
+        "weakened_certificate_accepts": true
+      },
+      "one_compatible_premise_stack": {
+        "full_certificate_rejects": true,
+        "weakened_certificate_accepts": true
+      },
+      "one_full_field": {
+        "full_certificate_rejects": true,
+        "weakened_certificate_accepts": true
+      },
+      "static_restriction": {
+        "full_certificate_rejects": true,
+        "weakened_certificate_accepts": true
+      },
+      "time_restriction": {
+        "full_certificate_rejects": true,
+        "weakened_certificate_accepts": true
+      }
+    },
+    "qualification": "Semantically nonredundant relative to the preregistered gate; this does not assert syntactic uniqueness or privilege a tuple encoding, action, or implementation.",
+    "semantic_atoms": [
+      "angular_restriction",
+      "differentiable_finite_cell_boundary",
+      "native_whole_equation",
+      "nonzero_angular_live",
+      "nonzero_time_live",
+      "one_compatible_premise_stack",
+      "one_full_field",
+      "static_restriction",
+      "time_restriction"
+    ]
+  },
+  "maximum_conclusion": "Within the frozen 140-source universe, formal static/time/angular compatibility is banked, but no registered route supplies one same nonzero time-live plus angular-live on-shell finite-cell field/equation/boundary/premise certificate. This is not universal nonexistence.",
+  "mutation_summary": {
+    "caught": 32,
+    "results": {
+      "action_first_priority": [
+        "action_priority"
+      ],
+      "angular_live_solved": [
+        "unsupported_live_claim"
+      ],
+      "bootstrap_fixed_point": [
+        "unsupported_live_claim"
+      ],
+      "certificate_drop_angular_restriction": [
+        "certificate_atom_census"
+      ],
+      "certificate_drop_differentiable_finite_cell_boundary": [
+        "certificate_atom_census"
+      ],
+      "certificate_drop_native_whole_equation": [
+        "certificate_atom_census"
+      ],
+      "certificate_drop_nonzero_angular_live": [
+        "certificate_atom_census"
+      ],
+      "certificate_drop_nonzero_time_live": [
+        "certificate_atom_census"
+      ],
+      "certificate_drop_one_compatible_premise_stack": [
+        "certificate_atom_census"
+      ],
+      "certificate_drop_one_full_field": [
+        "certificate_atom_census"
+      ],
+      "certificate_drop_static_restriction": [
+        "certificate_atom_census"
+      ],
+      "certificate_drop_time_restriction": [
+        "certificate_atom_census"
+      ],
+      "coframe_on_shell": [
+        "unsupported_live_claim"
+      ],
+      "complete_action_solution": [
+        "unsupported_live_claim"
+      ],
+      "completion_witness": [
+        "unsupported_live_claim"
+      ],
+      "hopfion_time_persistence": [
+        "unsupported_live_claim"
+      ],
+      "mixed_premise_stack": [
+        "premise_splicing"
+      ],
+      "outcome_upgraded": [
+        "outcome_promotion"
+      ],
+      "route_J01_promotion": [
+        "route_census_or_ruling"
+      ],
+      "route_J02_promotion": [
+        "route_census_or_ruling"
+      ],
+      "route_J03_promotion": [
+        "route_census_or_ruling"
+      ],
+      "route_J04_promotion": [
+        "route_census_or_ruling"
+      ],
+      "route_J05_promotion": [
+        "route_census_or_ruling"
+      ],
+      "route_J06_promotion": [
+        "route_census_or_ruling"
+      ],
+      "route_J07_promotion": [
+        "route_census_or_ruling"
+      ],
+      "route_J08_promotion": [
+        "route_census_or_ruling"
+      ],
+      "source_drop": [
+        "source_count"
+      ],
+      "source_hash_corruption": [
+        "source_integrity"
+      ],
+      "stationary_to_live_lift": [
+        "unsupported_live_claim"
+      ],
+      "time_live_solved": [
+        "unsupported_live_claim"
+      ],
+      "universal_no_go": [
+        "universal_nonexistence"
+      ],
+      "zero_mode_as_witness": [
+        "zero_mode_promotion"
+      ]
+    },
+    "total": 32
+  },
+  "outcome_adjudicated": "FORMAL_COMPATIBILITY_ONLY_COMMON_REALIZATION_OPEN",
+  "package_hash_inventory_policy": {
+    "mode": "EXPLICIT_SEMANTIC_FIXED_SET",
+    "post_verification_and_unrelated_files_ignored": true,
+    "synthetic_addition_invariance_check": "V25_FINALIZATION_FILE_INVARIANCE",
+    "verified_files": [
+      "AUDIT_REPORT.md",
+      "COMMON_OBJECT_TYPE_SCHEMA.tsv",
+      "COMPLETENESS_MAP.md",
+      "COUNTERMODEL_LEDGER.tsv",
+      "DERIVATION_RESULT.json",
+      "DERIVATION_STDOUT.txt",
+      "EXACT_DERIVATION.md",
+      "JOINT_GATE_MATRIX.tsv",
+      "LAY_REPORT.md",
+      "PREMISE_LEDGER.tsv",
+      "PREREGISTRATION.md",
+      "PREREG_SNAPSHOT.json",
+      "ROUTE_ADJUDICATION.tsv",
+      "ROUTE_CANDIDATES.tsv",
+      "SOURCE_ANCHOR_LEDGER.tsv",
+      "SOURCE_INVENTORY.tsv",
+      "SOURCE_MANIFEST.sha256",
+      "SOURCE_PATHS.txt",
+      "STATUS_LEDGER.tsv",
+      "build_preregistration.py",
+      "derive_joint_realization.py",
+      "verify_preregistration.py"
+    ]
+  },
+  "primary_and_preregistration_sha256": {
+    "AUDIT_REPORT.md": "9fa6113a0546c4ac8a36cb19d5352a9dfe8f67bb3b90df7574b88e08727a20e4",
+    "COMMON_OBJECT_TYPE_SCHEMA.tsv": "e65bf5dd88b298fd7448c8b2407bac6ab9dc6facb22afdff0a036ca26bc8519b",
+    "COMPLETENESS_MAP.md": "bbd5fc753688e44b6949a2afaa36e541d6ca431cfe0c56dce0bc77f4a365452f",
+    "COUNTERMODEL_LEDGER.tsv": "c90040327d30e85a3ee587019fc1716a3b66dbe760c21b64ebf3fbc60dd8fe8e",
+    "DERIVATION_RESULT.json": "f97abc4077839a979915df1697d58122426e45a3e1dfeea2ea1f302aad2fe041",
+    "DERIVATION_STDOUT.txt": "4ae8f354965370fc437aeb054200c06c866a3d1824d41486299a1fed35ed4083",
+    "EXACT_DERIVATION.md": "f701c9d7b8dfb60d8605af9c17db4632904c3eb52c2e8f5dbdac5ebaf004437e",
+    "JOINT_GATE_MATRIX.tsv": "20c514dc02d62d1bc6b6a06df4033f0929cf76fd3a148cfc1603ec5b09c8cca7",
+    "LAY_REPORT.md": "8d55bf302baaf364f45e99fc3fac4b2e880842e29a6c332661787413242b9bfa",
+    "PREMISE_LEDGER.tsv": "20741ab35e0cb620c90c4fc41aa818b05ac095875b74360e78ef24d6a0253e38",
+    "PREREGISTRATION.md": "00ca370701430084566ee0b91bc6f06c10cd6c8687107ab2717894454e867577",
+    "PREREG_SNAPSHOT.json": "963d8a4f99ae735a1fe0f2d218f53412f3f5c3952703ccaf593d499c14bf90b9",
+    "ROUTE_ADJUDICATION.tsv": "6fd2ce5c9a9823857eefb2b4ebcfb49b28da1f7882bdc371d4a3ac5a1cb971fa",
+    "ROUTE_CANDIDATES.tsv": "149da888da241bdb693fe5bfd874111a4bd6ab15e1cbc9d3ddf410eaa62b290b",
+    "SOURCE_ANCHOR_LEDGER.tsv": "8532787ced97fb6162fd2ea33c5a2a553562e16d5b69a3aeb54c6f8482ff6fa4",
+    "SOURCE_INVENTORY.tsv": "4965a08ea9ca2f7b37d602eb9cd68c78b89e56e112f61aa1771144f935af3af8",
+    "SOURCE_MANIFEST.sha256": "0ff01b65db45b55ff34e56215c3a132ba9015dcab7a5b77199ed9c7cf19cdd85",
+    "SOURCE_PATHS.txt": "9c010583a8e14eaf452d8da59b8813f84166403a4c7b9945031dadbffda67914",
+    "STATUS_LEDGER.tsv": "74cb43a242527eea6cb92efb0e24c722da1db54d227f81ab012afb44d94793c1",
+    "build_preregistration.py": "60d6e697c1a80c3dd94516000d265706974c14091a9fd8e186039701b6898750",
+    "derive_joint_realization.py": "da95eb5d8710b62a9c451302c5122d2c7fe0f43a432001afd10a009e95f48c39",
+    "verify_preregistration.py": "b7074ac4d67ee01881cc5e77d92529df14d7ccd0efd52cc404e97e5fd78cd5fd"
+  },
+  "route_rulings": {
+    "J01": "NOT_FOUND_IN_FROZEN_RECORD",
+    "J02": "FORMAL_COMPATIBILITY_ONLY",
+    "J03": "LIVE_LIFT_OPEN",
+    "J04": "DIFFERENTIABLE_JOIN_OPEN",
+    "J05": "BOTH_MAPS_AND_FIXED_POINT_OPEN",
+    "J06": "NO_COMPLETE_CONDITIONAL_WITNESS",
+    "J07": "STATIC_FINITE_BOX_ONLY",
+    "J08": "MINIMUM_CERTIFICATE_TYPE_IDENTIFIED"
+  },
+  "schema_version": 1,
+  "source_universe": {
+    "direct_parent_sources": 94,
+    "parent_package_sources": 42,
+    "transitive_premise_sources": 4,
+    "union": 140
+  },
+  "verdict": "PASS",
+  "verification_head": "1f79c4b7d97bc4c904a23f507022cf375e0f36c8",
+  "verifier_script_sha256": "7f9d1aafd5f1b13700e26a0ca50baff3b518fefbae080d49f473fd563bb1b793"
+}

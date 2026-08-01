@@ -1,0 +1,6 @@
+id	control	construction	exact_result	scope
+CM01	SEPARATE_LIVE_SECTORS	U={z,t,a}; time-live={t}; angular-live={a}	each live module is nonempty but no element is live in both	separate sector existence does not imply a common field
+CM02	ZERO_MODE_FALSE_WITNESS	U={z}; all formal restrictions and E,B pass; L_t(z)=L_a(z)=0	formal common member exists but live set is empty	mode-zero recovery cannot witness live coexistence
+CM03	EQUATION_BOUNDARY_MISMATCH	U={p,q}; both live; E=0 only at p; B=0 only at q	equation solution set and boundary solution set are nonempty but disjoint	field liveness does not replace a common problem
+CM04	PREMISE_SPLICE	same symbol u appears on branches A and B; A supplies time/equation while B supplies angular/boundary	no single branch supplies every clause	conditional clauses cannot be merged across premise stacks
+CM05	PROBLEM_WITHOUT_WITNESS	a well-typed E and B are declared on U but their common live zero set is empty	a problem specification alone does not prove existence	deriving an action or equation is not yet joint realization

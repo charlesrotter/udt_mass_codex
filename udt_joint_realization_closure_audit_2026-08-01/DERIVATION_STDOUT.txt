@@ -1,0 +1,4 @@
+outcome=FORMAL_COMPATIBILITY_ONLY_COMMON_REALIZATION_OPEN
+sources=140 routes=8 complete_routes=0 gates=12 schema=12
+checks=31 passed=31 mutations=9
+PASS

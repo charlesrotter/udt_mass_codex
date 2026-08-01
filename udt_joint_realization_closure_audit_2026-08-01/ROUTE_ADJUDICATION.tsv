@@ -1,0 +1,9 @@
+route_id	route	full_field	equation	boundary	same_nonzero_live	premise_stack	ruling	reason
+J01	DIRECT_REGISTERED_WITNESS	NO	NO	NO	NO	PARTIAL	NOT_FOUND_IN_FROZEN_RECORD	No source supplies one full nonzero-live field with its native equation boundary and premise stack.
+J02	FORMAL_PULLBACK_FIBER_PRODUCT	FORMAL_ONLY	NO	NO	NO	PARTIAL	FORMAL_COMPATIBILITY_ONLY	The formal module pullbacks recover exactly but their nonzero live on-shell fiber product is not shown nonempty.
+J03	STATIC_SOLUTION_UNMUTING_LIFT	STATIC_REDUCED_ONLY	REDUCED_STATIONARY_ONLY	PARTIAL_TYPED	NO	PARTIAL	LIVE_LIFT_OPEN	Exact stationary P4 families exist; Slice-2b excludes time-live and T2/A3 do not solve the lift.
+J04	FINITE_CELL_BOUNDARY_COMPLETION	NO	NO	COMPLETION_TYPES_ONLY	NO	PARTIAL	DIFFERENTIABLE_JOIN_OPEN	Twelve completion families are catalogued but every row lacks a complete g-phi-matter witness and density response.
+J05	BOOTSTRAP_SIMULTANEOUS_CLOSURE	NO	TYPE_SKELETON_ONLY	REQUIRED_TYPE_ONLY	NO	WORKING	BOTH_MAPS_AND_FIXED_POINT_OPEN	The two-arrow architecture is exact as a type; neither complete arrow nor a common fixed point is registered.
+J06	ACTION_MEDIATED	CONDITIONAL_SLICES_ONLY	CONDITIONAL_OR_OPEN	OPEN	NO	CONDITIONAL_BRANCHES	NO_COMPLETE_CONDITIONAL_WITNESS	C2/Bach EH and reduced actions remain conditional and no complete action-source-boundary-live solution is supplied.
+J07	CARRIER_TOPOLOGY_MEDIATED	STATIC_CARRIER_ONLY	CONDITIONAL_CARRIER_ACTION	SOLVER_BOUNDARY_ONLY	NO	POSIT_CONDITIONAL	STATIC_FINITE_BOX_ONLY	The full-3D Hopfion is a conditional static finite-box result; carrier selection physical boundary and time persistence remain open.
+J08	MISSING_OBLIGATION_LOCALIZATION	TYPE_IDENTIFIED	TYPE_IDENTIFIED	TYPE_IDENTIFIED	TYPE_IDENTIFIED	TYPE_IDENTIFIED	MINIMUM_CERTIFICATE_TYPE_IDENTIFIED	A native joint-realization problem plus one nonzero-live witness is the smallest complete certificate type; it is not constructed.

@@ -1,0 +1,13 @@
+id	symbol	typed_role	status	obligation_or_limit
+C01	U_full	complete finite-cell configuration space	PARTIAL	must own all metric coframe phi and any matter/global fields used
+C02	Pi_native	one whole-system problem specification	OPEN	Pi_native=(E_native,B_native,P_compatible); an action is one possible package not a required form
+C03	E_native	native equation/response operation on U_full	OPEN	must be one operation across static time and angular restrictions
+C04	B_native	differentiable finite-cell boundary/corner/completion operation	OPEN	must cover the same field and variation domain
+C05	P_compatible	single premise assignment	PARTIAL	cannot merge mutually exclusive action carrier reading posture or completion branches
+C06	r_s,r_t,r_a	restriction maps from one u	FORMAL_PARTIAL	registered module recoveries exist but whole-field ownership and on-shell join remain open
+C07	L_t,L_a	nonzero live predicates	DEFINED_AS_AUDIT_GATE	both must be nonzero for the same u; static or mode-zero controls fail
+C08	u	one realized full field assignment	OPEN	must satisfy Pi_native and all three restrictions
+C09	JR_CERT_NATIVE	(Pi_native,u,proofs of restrictions liveness equation boundary and premise compatibility)	IDENTIFIED_NOT_CONSTRUCTED	smallest complete evidence object for the present question
+C10	bootstrap implementation	possible producer of Pi_native and u	WORKING_TYPE_ONLY	would require both complete arrows and a solved common fixed point
+C11	action implementation	possible producer of E_native and B_native	CONDITIONAL_OR_OPEN	not privileged and does not by itself supply a solution
+C12	persistence join	downstream response or certificate about u	OUT_OF_SCOPE_BLOCKED	cannot be tested before JR_CERT_NATIVE exists

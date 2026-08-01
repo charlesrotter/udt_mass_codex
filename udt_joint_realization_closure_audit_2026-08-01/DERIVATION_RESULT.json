@@ -1,0 +1,276 @@
+{
+  "audit": "UDT_JOINT_REALIZATION_CLOSURE",
+  "checks": [
+    {
+      "detail": "rows=140 unique=140",
+      "id": "D01_SOURCE_COUNT",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "mismatches=[]",
+      "id": "D02_SOURCE_IDENTITIES",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_p4_cold_adversarial_review_2026-08-01/PREMISE_QUANTIFIER_AUDIT.tsv: FIXED_REALIZED_SOLUTION_OPEN",
+      "id": "A01",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_p4_timelive_stage_T2_2026-07-31/AUDIT_REPORT.md: no response law selected, no fork decided, no solve",
+      "id": "A02",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_p4_angular_stage_A3_2026-07-31/AUDIT_REPORT.md: Nonzero angular-live on-shell coexistence is also unproved.",
+      "id": "A03",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_p4_routeA_slice2b_full_cell_2026-07-29/AUDIT_REPORT.md: time-live OUT",
+      "id": "A04",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md: The complete family is off shell.",
+      "id": "A05",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv: S23\tComplete native action\tOPEN",
+      "id": "A06",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv: S24\tFinite-cell differentiable boundary action\tOPEN",
+      "id": "A07",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_bootstrap_clock_angular_closure_audit_2026-07-24/BOOTSTRAP_ROUTE_LEDGER.tsv: OPEN_NOT_REGISTERED_COMPLETE",
+      "id": "A08",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_bootstrap_clock_angular_closure_audit_2026-07-24/COMPLETION_BOOTSTRAP_ATLAS.tsv: FC12_RECIPROCAL_TORIC_DIAGONAL\tNO\tABSENT",
+      "id": "A09",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md: Global/time-live persistence | `OPEN`",
+      "id": "A10",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_stability_foundations_audit_2026-08-01/FIXED_REALIZATION_GATE.tsv: nonempty compatible realized pullback/fiber-product R_live\tOPEN",
+      "id": "A11",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_bootstrap_to_local_response_map_audit_2026-07-25/STATUS_LEDGER.tsv: complete_bootstrap_to_local_map\tOPEN",
+      "id": "A12",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "time=['t'] angular=['a'] joint=[]",
+      "id": "D03_SEPARATE_LIVE_NO_JOIN",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "all structural clauses pass; live predicates false",
+      "id": "D04_ZERO_MODE_REJECTED",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "E0=['p'] B0=['q'] common=[]",
+      "id": "D05_EQUATION_BOUNDARY_DISJOINT",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "branch_pass={'A': False, 'B': False} spliced=True",
+      "id": "D06_PREMISE_SPLICE_REJECTED",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "solution=[]",
+      "id": "D07_PROBLEM_DOES_NOT_IMPLY_WITNESS",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "violations=[]",
+      "id": "D08_CONTRACT",
+      "kind": "GUARD",
+      "pass": true
+    },
+    {
+      "detail": "complete_routes=[]",
+      "id": "D09_ZERO_COMPLETE_ROUTES",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "(Pi_native,u,proofs of restrictions liveness equation boundary and premise compatibility)",
+      "id": "D10_MINIMUM_TYPE_NOT_ACTION_PRIORITY",
+      "kind": "GUARD",
+      "pass": true
+    },
+    {
+      "detail": "violations=['exact_route_census']",
+      "id": "M01_MISSING_ROUTE",
+      "kind": "MUTATION",
+      "pass": true
+    },
+    {
+      "detail": "violations=['G08_must_be_OPEN']",
+      "id": "M02_PROMOTE_NATIVE_EQUATION",
+      "kind": "MUTATION",
+      "pass": true
+    },
+    {
+      "detail": "violations=['G09_must_be_OPEN']",
+      "id": "M03_PROMOTE_BOUNDARY",
+      "kind": "MUTATION",
+      "pass": true
+    },
+    {
+      "detail": "violations=['G06_must_be_OPEN_ON_SAME_FIELD']",
+      "id": "M04_ZERO_MODE_PROMOTION",
+      "kind": "MUTATION",
+      "pass": true
+    },
+    {
+      "detail": "violations=['J06_must_be_NO_COMPLETE_CONDITIONAL_WITNESS', 'no_unearned_complete_route']",
+      "id": "M05_ACTION_CONDITIONAL_PROMOTION",
+      "kind": "MUTATION",
+      "pass": true
+    },
+    {
+      "detail": "violations=['carrier_premise_must_remain_conditional']",
+      "id": "M06_CARRIER_PREMISE_PROMOTION",
+      "kind": "MUTATION",
+      "pass": true
+    },
+    {
+      "detail": "violations=['J01_must_be_NOT_FOUND_IN_FROZEN_RECORD', 'no_unearned_complete_route']",
+      "id": "M07_FALSE_DIRECT_WITNESS",
+      "kind": "MUTATION",
+      "pass": true
+    },
+    {
+      "detail": "violations=['S11_must_be_FORMAL_COMPATIBILITY_ONLY_COMMON_REALIZATION_OPEN']",
+      "id": "M08_OUTCOME_PROMOTION",
+      "kind": "MUTATION",
+      "pass": true
+    },
+    {
+      "detail": "violations=['C09_must_be_IDENTIFIED_NOT_CONSTRUCTED']",
+      "id": "M09_CERTIFICATE_CONSTRUCTION_PROMOTION",
+      "kind": "MUTATION",
+      "pass": true
+    }
+  ],
+  "complete_route_count": 0,
+  "controls": {
+    "equation_boundary_common": [],
+    "premise_branch_pass": {
+      "A": false,
+      "B": false
+    },
+    "separate_live_joint": [],
+    "typed_problem_live_solution": [],
+    "zero_mode_passes_nonlive_clauses": true
+  },
+  "gate_count": 12,
+  "maximum_conclusion": "bounded current-record theorem; no universal no-go, stability theorem, action selection, carrier selection, boundary adoption, or T4 authorization",
+  "mutations": [
+    {
+      "caught": true,
+      "id": "M01_MISSING_ROUTE",
+      "violations": [
+        "exact_route_census"
+      ]
+    },
+    {
+      "caught": true,
+      "id": "M02_PROMOTE_NATIVE_EQUATION",
+      "violations": [
+        "G08_must_be_OPEN"
+      ]
+    },
+    {
+      "caught": true,
+      "id": "M03_PROMOTE_BOUNDARY",
+      "violations": [
+        "G09_must_be_OPEN"
+      ]
+    },
+    {
+      "caught": true,
+      "id": "M04_ZERO_MODE_PROMOTION",
+      "violations": [
+        "G06_must_be_OPEN_ON_SAME_FIELD"
+      ]
+    },
+    {
+      "caught": true,
+      "id": "M05_ACTION_CONDITIONAL_PROMOTION",
+      "violations": [
+        "J06_must_be_NO_COMPLETE_CONDITIONAL_WITNESS",
+        "no_unearned_complete_route"
+      ]
+    },
+    {
+      "caught": true,
+      "id": "M06_CARRIER_PREMISE_PROMOTION",
+      "violations": [
+        "carrier_premise_must_remain_conditional"
+      ]
+    },
+    {
+      "caught": true,
+      "id": "M07_FALSE_DIRECT_WITNESS",
+      "violations": [
+        "J01_must_be_NOT_FOUND_IN_FROZEN_RECORD",
+        "no_unearned_complete_route"
+      ]
+    },
+    {
+      "caught": true,
+      "id": "M08_OUTCOME_PROMOTION",
+      "violations": [
+        "S11_must_be_FORMAL_COMPATIBILITY_ONLY_COMMON_REALIZATION_OPEN"
+      ]
+    },
+    {
+      "caught": true,
+      "id": "M09_CERTIFICATE_CONSTRUCTION_PROMOTION",
+      "violations": [
+        "C09_must_be_IDENTIFIED_NOT_CONSTRUCTED"
+      ]
+    }
+  ],
+  "outcome": "FORMAL_COMPATIBILITY_ONLY_COMMON_REALIZATION_OPEN",
+  "passed": true,
+  "route_count": 8,
+  "schema_count": 12,
+  "source_count": 140
+}

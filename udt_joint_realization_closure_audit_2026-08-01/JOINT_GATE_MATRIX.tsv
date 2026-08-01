@@ -1,0 +1,13 @@
+gate_id	required_object	current_status	source_basis	failure_or_limit
+G01	full configuration space U_full	PARTIAL	metric/coframe and P4 alphabets are registered	complete physical field ownership remains open
+G02	static restriction r_s(u) in M_s	EXACT_IN_REDUCED_STATIONARY_SCOPES	Route-A Slice 2/2b exact stationary solution families	representative and quadratic-class scopes; not a full live solution
+G03	time-live restriction r_t(u) in M_t	FORMAL_EXACT_POINTWISE	P4 T2 and cold Q2 regrade	T2 records no solve and no integration/on-shell closure
+G04	angular-live restriction r_a(u) in M_a	FORMAL_EXACT_POINTWISE	P4 A2/A3 and cold Q2 regrade	nonzero angular-live on-shell coexistence is unproved
+G05	one identical full field u	OPEN	cold Q2 and stability-foundations fixed gate	separate module embeddings or separate solutions cannot be spliced
+G06	nonzero time-live content L_t(u)	OPEN_ON_SAME_FIELD	T2 no-solve statement and Slice-2b time-live exclusion	mode zero is only a recovery control
+G07	nonzero angular-live content L_a(u)	OPEN_ON_SAME_FIELD	A3 explicit on-shell coexistence caveat	formal angular characters are not a realized live field
+G08	native whole-system equation or response E_native[u]=0	OPEN	native-action final ledger S23 and global-coframe off-shell statement	no complete action is required in form but some whole-system operation is required
+G09	differentiable finite-cell boundary/completion B_native[u]=0	OPEN	native-action final ledger S24 and 12-family completion atlas	seal parity wall traces and completion types do not supply the full variational problem
+G10	one compatible premise assignment P	PARTIAL	current premise ledger and cold premise-quantifier audit	action carrier reading posture and completion branches cannot be silently merged
+G11	nonempty live joint pullback R_live	OPEN	G05 through G10	formal common zero mode does not witness nonzero live coexistence
+G12	explicit native joint-realization certificate	ABSENT_IN_FROZEN_RECORD	all eight preregistered routes adjudicated	bounded absence from registered sources; not a universal nonexistence theorem

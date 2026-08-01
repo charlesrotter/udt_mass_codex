@@ -1,0 +1,13 @@
+id	path	required_exact_token	bounded_inference
+A01	udt_p4_cold_adversarial_review_2026-08-01/PREMISE_QUANTIFIER_AUDIT.tsv	FIXED_REALIZED_SOLUTION_OPEN	cold review distinguishes formal module recovery from one realized solution
+A02	udt_p4_timelive_stage_T2_2026-07-31/AUDIT_REPORT.md	no response law selected, no fork decided, no solve	time-live module is not a solved response
+A03	udt_p4_angular_stage_A3_2026-07-31/AUDIT_REPORT.md	Nonzero angular-live on-shell coexistence is also unproved.	angular-live on-shell coexistence is explicitly open
+A04	udt_p4_routeA_slice2b_full_cell_2026-07-29/AUDIT_REPORT.md	time-live OUT	stationary full-cell result cannot itself supply the time-live lift
+A05	udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md	The complete family is off shell.	complete reciprocal configurations prove existence class not realization
+A06	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	"S23	Complete native action	OPEN"	complete action and its equations remain open
+A07	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	"S24	Finite-cell differentiable boundary action	OPEN"	differentiable finite-cell boundary problem remains open
+A08	udt_bootstrap_clock_angular_closure_audit_2026-07-24/BOOTSTRAP_ROUTE_LEDGER.tsv	OPEN_NOT_REGISTERED_COMPLETE	simultaneous metric-matter-boundary bootstrap is typed but absent
+A09	udt_bootstrap_clock_angular_closure_audit_2026-07-24/COMPLETION_BOOTSTRAP_ATLAS.tsv	"FC12_RECIPROCAL_TORIC_DIAGONAL	NO	ABSENT"	last of twelve completion rows also lacks a complete witness and response
+A10	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	Global/time-live persistence | `OPEN`	conditional Hopfion branch cannot supply time-live realization
+A11	udt_stability_foundations_audit_2026-08-01/FIXED_REALIZATION_GATE.tsv	"nonempty compatible realized pullback/fiber-product R_live	OPEN"	parent gate states the exact realization gap
+A12	udt_bootstrap_to_local_response_map_audit_2026-07-25/STATUS_LEDGER.tsv	"complete_bootstrap_to_local_map	OPEN"	neither bootstrap arrow is supplied as a complete map
