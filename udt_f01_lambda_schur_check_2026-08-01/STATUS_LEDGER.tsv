@@ -1,0 +1,15 @@
+object	status	evidence	ceiling
+root_set_in_s_1_3	DERIVED_EXACTLY_ONE	analytic sign/monotonicity proof plus interval bracket	conditional F01 massive crease equation only
+R05_Dirichlet_mu_Schur	CERTIFIED_POSITIVE	FREE_SCHUR_CERTIFICATE.json	local conditional domain
+R05_free_right_mu_Schur	CERTIFIED_POSITIVE	FREE_SCHUR_CERTIFICATE.json	local conditional domain
+R06_Dirichlet_mu_Schur	CERTIFIED_NEGATIVE_WITNESS	NEGATIVE_WITNESS_CERTIFICATE.json	local conditional domain
+R06_free_right_mu_Schur	CERTIFIED_NEGATIVE_WITNESS	NEGATIVE_WITNESS_CERTIFICATE.json	local conditional domain
+R05_Dirichlet_joint_index	DERIVED_ONE	frozen field index one plus positive Schur	local conditional domain
+R05_free_right_joint_index	DERIVED_ONE	frozen field index one plus positive Schur	local conditional domain
+R06_Dirichlet_joint_index	DERIVED_ONE	frozen positive field core plus one negative scalar extension	local conditional domain
+R06_free_right_joint_index	DERIVED_ONE	frozen positive field core plus one negative scalar extension	local conditional domain
+F01_owned_branch_Schur_outcome	SCHUR_SIGN_MIXED_ACROSS_OWNED_BRANCHES	all four rows above	no boundary selection
+F01_local_joint_stable_survivor_under_flat_germ	NONE_IN_TESTED_SCOPE	all four joint indices one	negative is premise-scoped
+free_second_wall_germ	OPEN	outside tile	may change completed boundary form
+full_chain_time_native_stability	OPEN	not tested	no stable matter claim
+global_local_stability_hypothesis	OPEN	PONDER not used as authority	no bootstrap closure

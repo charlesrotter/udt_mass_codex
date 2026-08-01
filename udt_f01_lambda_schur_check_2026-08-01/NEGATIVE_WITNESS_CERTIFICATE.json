@@ -1,0 +1,97 @@
+{
+  "conclusion_ceiling": "R06 has an added negative joint direction for each owned p trace at the unique root; R05 sign, wall-germ curvature, full chain, native stability, matter, and bootstrap remain open",
+  "positive_scale_separation": {
+    "consequence": "for finite nonzero a_F and a_Fprime=2, the Schur sign is independent of the representative a_F",
+    "identity": "Q=Q_field+2*(k*mu)*L+(k*mu)^2*C",
+    "k": "a_Fprime/a_F^2",
+    "representative": "a_F=a_Fprime=2; k=1/2"
+  },
+  "root_uniqueness": {
+    "F_at_left_interval": [
+      "-0.000005132324478664390184908616652897666887566886347374596051767618870507042",
+      "-0.000005132324478664390184908616652897666887566886347374596050009202335589973"
+    ],
+    "F_at_right_interval": [
+      "0.000009034950742300827997332664841038188617594256098670580313798798286222518",
+      "0.000009034950742300827997332664841038188617594256098670580315742300053748"
+    ],
+    "proof": "q(z)=1-z+z^2/2; log(q)<0 on (0,2), >0 on (2,infinity). Its primitive I therefore strictly increases for U>2; I(2)<0, while I(6)>=-2*log(2)+2*log(5)>0. Thus exactly one root occurs for s in (1,3).",
+    "s_bracket": [
+      "1.68102",
+      "1.68103"
+    ]
+  },
+  "scope": "conditional F01 local crease cell; R06 odd zero f/h traces only",
+  "status": "CERTIFIED_R06_ADDED_NEGATIVE_DIRECTION_BOTH_P_TRACE_VARIANTS",
+  "validated_integration": {
+    "coarse_run": {
+      "interval_decimal_digits": 80,
+      "subintervals": 4096
+    },
+    "fine_interval_nested_in_coarse": true,
+    "fine_run": {
+      "interval_decimal_digits": 100,
+      "subintervals": 8192
+    },
+    "method": "outward interval range enclosure on a uniform partition",
+    "x_interval": [
+      -1,
+      1
+    ]
+  },
+  "versions": {
+    "mpmath": "1.3.0",
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "witnesses": {
+    "DIRICHLET": {
+      "certified_negative": true,
+      "coarse_refinement_control_interval": [
+        "-0.6793021655413367804955146820885117308710488638381659059955139956645906",
+        "-0.6308461062224247940723524006994473039789156194548885497486094424713132"
+      ],
+      "f_primitive_coefficients_exact_decimal_rationals": [
+        "0.548985835",
+        "0.229527242",
+        "-0.858813847",
+        "0.294862992"
+      ],
+      "joint_quadratic_form_interval": [
+        "-0.6673532482544708105562227318513415880807385395293728590807537836810689",
+        "-0.6427961867311479972506408589172542038447026109275838286881266220362855"
+      ],
+      "mu": 1,
+      "p_coefficients_exact_decimal_rationals": [
+        "-0.435716777",
+        "1.012907172",
+        "0.127514598",
+        "-0.771628348"
+      ]
+    },
+    "FREE": {
+      "certified_negative": true,
+      "coarse_refinement_control_interval": [
+        "-1.426009606086261462394501014664961342164856502102560056545096825317013",
+        "-1.379015393548332178785715200345187490762469110981785816234337372894149"
+      ],
+      "f_primitive_coefficients_exact_decimal_rationals": [
+        "0.231682354",
+        "0.443879735",
+        "-0.576342529",
+        "0.042284085"
+      ],
+      "joint_quadratic_form_interval": [
+        "-1.414417787892327463954727177194565474632747867916790885908754541837308",
+        "-1.390607716360248398020596515767242260112679678307586329185556227144518"
+      ],
+      "mu": 1,
+      "p_coefficients_exact_decimal_rationals": [
+        "-0.730867811",
+        "0.870467687",
+        "-0.211945617",
+        "-0.177970088"
+      ]
+    }
+  }
+}

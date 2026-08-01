@@ -1,0 +1,24 @@
+{
+  "four_evidence_gates": {
+    "every_premise_audited": true,
+    "full_or_bounded_scope_justified": "all roots in s in (1,3), both R05/R06 angular domains, and both owned p right-trace variants; local conditional F01 only",
+    "independently_verified_load_bearing_premise": true,
+    "preregistered": true
+  },
+  "joint_index": {
+    "R05_DIRICHLET": 1,
+    "R05_FREE": 1,
+    "R06_DIRICHLET": 1,
+    "R06_FREE": 1
+  },
+  "maximum_conclusion": "conditional local F01 lambda/mu Schur signs and joint indices",
+  "outcome": "SCHUR_SIGN_MIXED_ACROSS_OWNED_BRANCHES",
+  "remaining_open": [
+    "free second-wall-germ curvature and physical boundary ownership",
+    "full cell chain and time persistence",
+    "native variation/action/carrier/source/matter/mass",
+    "bootstrap membership and global stability hypothesis"
+  ],
+  "root_count_in_open_interval_1_3": 1,
+  "status": "VERIFIED_BOUNDED_CONDITIONAL"
+}

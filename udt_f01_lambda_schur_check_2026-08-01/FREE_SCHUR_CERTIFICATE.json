@@ -1,0 +1,94 @@
+{
+  "branches": {
+    "DIRICHLET": {
+      "certified_positive": true,
+      "coarse_refinement_control_interval": [
+        "8.304849021399673005309357918849962985965322303223472938469126289290302",
+        "8.401209917583388663204428717168755945546016839050499098937166786236829"
+      ],
+      "dimensionless_nu_schur_interval": [
+        "8.327742169225108477570276421459551463422027591536879350747004055702617",
+        "8.378256031819821535309675832514636862546356569161341229449383278596349"
+      ],
+      "representative_mu_schur_interval": [
+        "2.081935542306277119392569105364887865855506897884219837686751013925654",
+        "2.094564007954955383827418958128659215636589142290335307362345819649087"
+      ]
+    },
+    "FREE": {
+      "certified_positive": true,
+      "coarse_refinement_control_interval": [
+        "8.001939582419260506203819479272227168945645599568057282388909941263929",
+        "8.086890577321713906494384794903118175722198235310835125588835852351809"
+      ],
+      "dimensionless_nu_schur_interval": [
+        "8.022218294191276282182372631758223730359097492357735463756955275936592",
+        "8.066567622641176869213418040302782955253197786019437767356239148707704"
+      ],
+      "representative_mu_schur_interval": [
+        "2.005554573547819070545593157939555932589774373089433865939238818984148",
+        "2.016641905660294217303354510075695738813299446504859441839059787176926"
+      ]
+    }
+  },
+  "conclusion_ceiling": "R05 lambda/mu adds no negative direction beyond the one exact reduced-field direction; wall-germ curvature, full chain, native stability, matter, and bootstrap remain open",
+  "exact_response": {
+    "homogeneous_basis": [
+      "w'/w",
+      "1-1/w"
+    ],
+    "operator": "L[p]=-(w*p')'-s^2*p/w",
+    "particular": "1-log(w)",
+    "source": "s^2*(-1+(1-log(w))/w)",
+    "uniqueness": "left Dirichlet plus either right Dirichlet or the registered free-right Robin condition excludes both homogeneous constants for s>1"
+  },
+  "positive_scale_separation": {
+    "consequence": "sign is independent of finite nonzero a_F when a_Fprime=2",
+    "identity": "S_mu=k^2*S_nu",
+    "k": "a_Fprime/a_F^2",
+    "representative": "a_F=a_Fprime=2; k^2=1/4"
+  },
+  "root_bracket_imported_from_primary_root_certificate": [
+    "1.68102",
+    "1.68103"
+  ],
+  "scope": "conditional F01 local crease cell; R05 free f/h traces only",
+  "status": "CERTIFIED_R05_POSITIVE_SCHUR_BOTH_P_TRACE_VARIANTS",
+  "symbolic_controls": {
+    "dirichlet_homogeneous_kernel_excluded": true,
+    "dirichlet_left": true,
+    "dirichlet_right": true,
+    "free_homogeneous_kernel_excluded": true,
+    "free_left_dirichlet": true,
+    "free_right_inhomogeneous_robin": true,
+    "particular_response": true,
+    "quadratic_identity": true,
+    "v1_homogeneous": true,
+    "v2_homogeneous": true
+  },
+  "validated_integration": {
+    "coarse_run": {
+      "interval_decimal_digits": 80,
+      "subintervals": 4096
+    },
+    "fine_interval_nested_in_coarse": true,
+    "fine_run": {
+      "interval_decimal_digits": 100,
+      "subintervals": 8192
+    },
+    "method": "outward interval range enclosure on a uniform partition",
+    "s_interval": [
+      "1.68102",
+      "1.68103"
+    ],
+    "x_interval": [
+      -1,
+      1
+    ]
+  },
+  "versions": {
+    "mpmath": "1.3.0",
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  }
+}

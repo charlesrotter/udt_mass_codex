@@ -1,0 +1,36 @@
+{
+  "catch_proofs": [
+    "missing_r05_branch",
+    "missing_r06_branch",
+    "r05_zero_crossing",
+    "r06_zero_crossing",
+    "root_left_wrong_sign",
+    "root_right_wrong_sign",
+    "r05_false_label",
+    "r06_false_label",
+    "witness_coefficient_loss",
+    "symbolic_control_loss"
+  ],
+  "catch_proofs_passed": 10,
+  "checks": [
+    "source_manifest_12_unique",
+    "source_manifest_all_bytes_blobs_hashes",
+    "primary_statuses",
+    "root_bracket_opposite_signs",
+    "r05_two_positive_nested_enclosures",
+    "r06_two_negative_nested_enclosures_and_witnesses",
+    "ten_symbolic_response_controls",
+    "diagnostic_four_branch_sign_and_index_corroboration",
+    "conclusion_ceiling_present"
+  ],
+  "checks_passed": 9,
+  "conclusion_ceiling": "conditional local F01 joint index only",
+  "joint_index": {
+    "R05_DIRICHLET": 1,
+    "R05_FREE": 1,
+    "R06_DIRICHLET": 1,
+    "R06_FREE": 1
+  },
+  "primary_outcome": "SCHUR_SIGN_MIXED_ACROSS_OWNED_BRANCHES",
+  "status": "PASS"
+}

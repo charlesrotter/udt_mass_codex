@@ -1,0 +1,251 @@
+{
+  "environment": {
+    "independent_interval_runs": {
+      "coarse": {
+        "decimal_digits": 90,
+        "parts": 256
+      },
+      "fine": {
+        "decimal_digits": 100,
+        "parts": 1024
+      }
+    },
+    "mpmath": "1.3.0",
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "environment_caveat": "This subagent could not fetch/pull because .git is read-only in its sandbox.  It verified the checked-out af71724 state and all 12 frozen source objects at base 53bdc2c; the parent context will independently confirm origin synchronization before banking.",
+  "independent": {
+    "admissibility": {
+      "DIRICHLET": {
+        "angular_primitive_endpoints": [
+          "0",
+          "0"
+        ],
+        "p_left": "0",
+        "p_right": "0"
+      },
+      "FREE": {
+        "angular_primitive_endpoints": [
+          "0",
+          "0"
+        ],
+        "p_left": "0",
+        "p_right": "-250315829/500000000"
+      }
+    },
+    "intervals": {
+      "R05": {
+        "DIRICHLET": {
+          "coarse_interval": [
+            "2.956475664675831915091382184354038528386072126790574658581555664542161171958251077068364355378843238979283431678292",
+            "13.76487273453745962838838254453166565731985385387125517522560712628836844247303476102019334863552657679502601439881"
+          ],
+          "dimensionless_nu_schur_interval": [
+            "6.996611863495359752983468060775950697513200630317843441560094542484164490206069201975626554551714102440088506418066",
+            "9.71033059267834328971244897796607621354982390793918668191345015956478112678881315308241404629804479174322313083349"
+          ],
+          "representative_mu_schur_interval": [
+            "1.749152965873839938245867015",
+            "2.427582648169585822428112244"
+          ]
+        },
+        "FREE": {
+          "coarse_interval": [
+            "3.478167107039284495189192066233888513277449550045974968066213063558844531715135039244957005216912922851271610329183",
+            "12.62066366862428738550350680493346342577635069287159058778328097675215237898253219795704123343848924118433415797015"
+          ],
+          "dimensionless_nu_schur_interval": [
+            "6.898111779374092141753688531497234380662500233031695964312108451427076776560363298143389949544320182986036281827228",
+            "9.191292665162614110879087848434677775101489767206301059213803811145039544848231342978919284059912422193242943872836"
+          ],
+          "representative_mu_schur_interval": [
+            "1.724527944843523035438422133",
+            "2.297823166290653527719771962"
+          ]
+        }
+      },
+      "R06": {
+        "DIRICHLET": {
+          "coarse_interval": [
+            "-0.977286751383980410455739365244075557731452714560637999315130276470248653620980218434539832983233669322488953055429",
+            "-0.3323511438170987477854801748490772919661269348282329760587523065369302586926943582637719070996357161833703239526588"
+          ],
+          "full_joint_Q_interval": [
+            "-0.7357019417590115930470395943868713251037305458897422964672275927697049081669528344699511890884415797891134405417592",
+            "-0.5744144010493297306676404909093026349283471246336667523058379055192208252418638132442634634302968977520060436729162"
+          ]
+        },
+        "FREE": {
+          "coarse_interval": [
+            "-1.724563518599913108941682772743676579077848705804593673474387584569910283607481777584764242496882316601617450208447",
+            "-1.080019409807339433517600587256430374517792527128773442577393509169079374496358060969248764934843551985565826200777"
+          ],
+          "full_joint_Q_interval": [
+            "-1.483116610193459401304345355687460759205123509237205850893552672003835808050565586323592835796453376268835661758154",
+            "-1.321881188040235404689762711374272823934689424044267818622317189818467623272502162748887794124022586502913582431367"
+          ]
+        }
+      }
+    },
+    "joint_index": {
+      "R05_DIRICHLET": 1,
+      "R05_FREE": 1,
+      "R06_DIRICHLET": 1,
+      "R06_FREE": 1
+    },
+    "outcome": "SCHUR_SIGN_MIXED_ACROSS_OWNED_BRANCHES",
+    "root": {
+      "F_left": [
+        "-0.000005132324478664390184908616652897666887566886347374596050831737764355105507909234879694891233146443050855345260676912",
+        "-0.000005132324478664390184908616652897666887566886347374596050831737764355105507909234879694891233146281565800408736005169"
+      ],
+      "F_right": [
+        "0.000009034950742300827997332664841038188617594256098670580314813863764490889730704690172356705826974789950732635860809122",
+        "0.000009034950742300827997332664841038188617594256098670580314813863764490889730704690172356705826974951435024545982151404"
+      ],
+      "bracket": [
+        "1.68102",
+        "1.68103"
+      ],
+      "count": 1,
+      "root_corroboration_only": "1.68102362266184868233621042839935443662733544132572259503784362885025606863456329170162478030384966262849"
+    },
+    "scale": {
+      "identity": "Q=Q_field+2*(k*mu)*L+(k*mu)^2*C",
+      "k": "a_Fprime/a_F^2",
+      "representative": "a_F=a_Fprime=2, k=1/2",
+      "sign_independent_for_finite_nonzero_a_F": true
+    },
+    "symbolic_checks": {
+      "R05_D_kernel_excluded": true,
+      "R05_D_left": true,
+      "R05_D_right": true,
+      "R05_F_kernel_excluded": true,
+      "R05_F_left": true,
+      "R05_F_natural_boundary": true,
+      "R05_particular_source": true,
+      "R05_v1_homogeneous": true,
+      "R05_v2_homogeneous": true,
+      "branch_derivative_identity": true,
+      "branch_w_identity": true,
+      "joint_hessian_scale_factor": true,
+      "raw_to_reduced_plus_boundary_derivative": true
+    }
+  },
+  "mutation_catches": [
+    {
+      "caught": true,
+      "name": "root_bracket_omits_right_sign_change",
+      "reason": "a degenerate bracket [s_lo,s_lo] has no positive right endpoint"
+    },
+    {
+      "caught": true,
+      "name": "root_substitution_uses_upper_s_not_2s",
+      "reason": "the checked closed primitive is tied to U=2s; the frozen bracket would fail under the wrong upper-limit map"
+    },
+    {
+      "caught": true,
+      "name": "scale_k_missing_second_power_of_aF",
+      "reason": "independent Hessian differentiation fixes k=a_Fprime/a_F^2"
+    },
+    {
+      "caught": true,
+      "name": "mu_cross_factor_two_removed",
+      "reason": "symbolic two-parameter Hessian equality contains 2(k mu)L and rejects a single-(k mu)L form"
+    },
+    {
+      "caught": true,
+      "name": "R05_source_sign_flipped",
+      "reason": "L0(1-log w)=+s^2[1-(1-log w)/w], not its negative"
+    },
+    {
+      "caught": true,
+      "name": "R05_free_response_replaced_by_Dirichlet",
+      "reason": "the free response is selected by the inhomogeneous natural boundary, while the Dirichlet response has u(1)=0"
+    },
+    {
+      "caught": true,
+      "name": "R05_free_boundary_term_dropped",
+      "reason": "raw-to-reduced symbolic identity contains d(w' p^2)/dx, whose integral is the free-right boundary term"
+    },
+    {
+      "caught": true,
+      "name": "R06_free_trace_silently_Dirichlet",
+      "reason": "the supplied FREE witness has an exact nonzero right p trace and exercises the larger form domain"
+    },
+    {
+      "caught": true,
+      "name": "R06_angular_derivative_replaced_by_primitive",
+      "reason": "the derivative of (1-x^2)P has exactly zero integral; using P itself does not encode both zero endpoint traces"
+    },
+    {
+      "caught": true,
+      "name": "R06_witness_mu_frozen_to_zero",
+      "reason": "the certified witness explicitly has mu=1 and tests the named joint coordinate"
+    },
+    {
+      "caught": true,
+      "name": "R06_full_Q_diagonal_dropped",
+      "reason": "independent generic Hessian fixes the positive representative term s^2 log(w)^2/4"
+    },
+    {
+      "caught": true,
+      "name": "R05_joint_index_changed_to_zero",
+      "reason": "a positive scalar Schur cannot erase the already-owned field negative direction"
+    },
+    {
+      "caught": true,
+      "name": "R06_joint_index_promoted_to_two",
+      "reason": "the nonnegative field core is codimension one in the joint space, so its negative index is at most one"
+    },
+    {
+      "caught": true,
+      "name": "scope_promoted_to_global_stability",
+      "reason": "the result remains conditional, local, ell=1, germ-flat, and does not cover the free second wall germ or full chain/time problem"
+    }
+  ],
+  "mutation_catches_passed": 14,
+  "primary_regression_after_independent_verdict": {
+    "overlaps": {
+      "R05_DIRICHLET": true,
+      "R05_FREE": true,
+      "R06_DIRICHLET": true,
+      "R06_FREE": true
+    },
+    "precision_contract_met": true,
+    "primary_interval_digits": {
+      "FREE_SCHUR": [
+        80,
+        100
+      ],
+      "NEGATIVE_WITNESS": [
+        80,
+        100
+      ]
+    }
+  },
+  "required_repairs": [],
+  "scientific_conclusion": "Within the conditional local F01 ell=1 germ-Hessian-flat domains, R05 has positive lambda/mu Schur sign and R06 has a negative joint witness for both right-trace variants; all four joint negative indices equal one.",
+  "scientific_outcome": "SCHUR_SIGN_MIXED_ACROSS_OWNED_BRANCHES",
+  "scope_ceiling": "conditional local single-cell F01 lambda/mu index only; constants census, ell=1, supplied R05/R06 trace forks, and germ-Hessian-flat wall witnesses travel.  The free second wall germ, full chain, physical boundary, native variation/action/carrier/source/matter/mass, time persistence, bootstrap membership, and the global stability hypothesis remain open.",
+  "source_freeze": {
+    "base": "53bdc2c",
+    "count": 12,
+    "paths": [
+      "udt_stability_family_survivor_map_2026-08-01/F01_CPU_CANDIDATE_CONTRACT.tsv",
+      "udt_stability_family_survivor_map_2026-08-01/AUDIT_REPORT.md",
+      "udt_stability_family_survivor_map_2026-08-01/SOURCE_AUTHORITY_LEDGER.tsv",
+      "udt_p4_stability_slice_2026-07-30/PREREGISTRATION.md",
+      "udt_p4_stability_slice_2026-07-30/EXACT_DERIVATION.md",
+      "udt_p4_stability_slice_2026-07-30/CORRECTION_LAYER.md",
+      "udt_p4_stability_slice_2026-07-30/AUDIT_REPORT.md",
+      "udt_p4_stability_slice_2026-07-30/STABILITY_LEDGER.tsv",
+      "udt_p4_stability_slice_2026-07-30/derive_stability_slice.py",
+      "udt_p4_stability_slice_2026-07-30/VERIFIER_INDEPENDENT_CHECK.py",
+      "udt_p4_stability_slice_2026-07-30/VERIFIER_REPORT.md",
+      "udt_p4_stability_slice_2026-07-30/stability_results.json"
+    ]
+  },
+  "verdict": "PASS"
+}
