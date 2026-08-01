@@ -5,9 +5,11 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — POST-JULY MASS BRANCHES RECONCILED) ============
+## ============ CURRENT STATE (2026-08-01 — F02 LOCAL DIRICHLET-SECTOR WITNESS EXISTS CONDITIONALLY) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
+`EXACT_DERIVATION.md`, `CONDITION_LEDGER.tsv`, and cold-review closure →
 `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
 `FAMILY_RECONCILIATION.tsv`, and `MECHANISM_EFFECT_MATRIX.tsv` → load-bearing family packages only
 as routed by `SOURCE_INVENTORY.tsv`. Read `PONDER_MATH_ELEGANCE_2026-07-31.md` only as conjectural
@@ -20,6 +22,19 @@ energy-bearing Hopfion model (`F04`), and control/structural/empty/formal classe
 `F06`, `F07`). Exactly three rows are conditional realized families; zero are native realized
 stable-matter families. No candidate reading is promoted to physical mass and no species count is
 justified.
+
+**F02 FOLLOW-ON RESULT (commit `df9f1cd`):**
+`CONDITIONAL_NONPERIODIC_F02_DIRICHLET_HESSIAN_SECTOR_POSITIVITY_WITNESS_EXISTS`.
+The exact local background `ell=g_p=g_f=g_h=c_m=1`, `g_x=0`, `p=lambda=h=0`,
+`f=x/2` satisfies all four Euler rows with the registered jet term already present. It has
+`E0=1/8`; three inherited candidate readings equal `1/4`, while `M_WALL=0` still dissents. Its
+joint Dirichlet Hessian sector lies strictly inside the nonnegative region (`1<pi^4`). The endpoint
+jump is one, so it is explicitly nonperiodic and belongs only to a supplied open/acyclic posture.
+
+**F02 INTERPRETATION:** this closes algebraic coexistence of the local background, acyclic posture,
+and registered Dirichlet sector. It does not produce a completed stationary object or a global/
+physical realization. The external review passed the Euler/Hessian algebra, rejected the broader
+stationary-witness wording, and returned `CLOSED-PASS` after the nonperiodic/local-sector repair.
 
 **MECHANISM RULING:** admitting more structure is not monotonic. Pointwise variation kills F01's
 integrated nonzero branch; restoring its frozen modulus removes an apparent positive slice; two
@@ -37,10 +52,11 @@ classification, required removal of an unsupported next-work ranking, and then r
 `CLOSED-PASS`. Six frozen manifests, the current premise registry, and the `70 passed, 1 xfailed`
 test baseline pass.
 
-**NEXT-WORK STATUS:** F02 simultaneous realization is one admissible bounded test, not a uniquely
-ranked next step. The open F01 complete boundary/Hessian gate, F04 carrier-time-boundary join, and
-F07 common-realization gate are also live. Choosing among them requires an explicit criterion and
-source-backed comparison; the former F01-only next-action wording is superseded.
+**NEXT-WORK STATUS:** the F02 local coexistence test is complete. Its next missing joint is now
+sharp: determine whether any registered complete finite-cell/global branch can retain the
+`p=0`, nonzero-affine-slope landing without importing a physical boundary or `R-A`; cyclic closure
+and supplied `R-A` already kill it, while the surviving open/acyclic posture is not a derived
+physical completion. F01, F04, and F07 remain separate live gates, not ruled out by F02.
 
 **PREMISE STAMPS:** founded `phi` and the native off-shell coframe arena remain `DERIVED`; the P4
 responses, variation censuses, completions, and F01/F02 branches remain `CONDITIONAL`; the `S2`

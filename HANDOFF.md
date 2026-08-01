@@ -6,18 +6,20 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — post-July conditional mass branches reconciled
+## CURRENT — F02 nonperiodic local Dirichlet-sector witness exists conditionally
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
+3. `udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, then its lay report,
+   exact derivation, condition ledger, machine result, and cold-review closure.
+4. `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
    `FAMILY_RECONCILIATION.tsv`, `MECHANISM_EFFECT_MATRIX.tsv`, and the cold-review closure.
-4. Follow `SOURCE_INVENTORY.tsv` into exact F01/F02/F04/F05/F07 packages only when load-bearing.
-5. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
+5. Follow the reconciliation source inventory into exact F01/F02/F04/F05/F07 packages only when load-bearing.
+6. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
    14, and 20. It is not evidence or a premise.
-6. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
+7. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
    load-bearing; CLAUDE.md method sections and task-triggered protocols always apply.
 
 **Current honest result:** multiple recent results had been colloquially described as producing
@@ -26,6 +28,12 @@ geometry-only candidate mass routes; F04 has conditional static energy through a
 and action. F05 classifies completions rather than supplying another matter family. F03 is a
 control, F06 contains exact empty scopes, and F07 is formal architecture. Three conditional
 realized rows exist, but zero native stable-matter families and zero physical mass assignments.
+
+**F02 bounded advance:** one exact local F02 background carries the nonzero affine landing and the
+registered positive Dirichlet Hessian sector at once. With `E0=1/8`, its three agreeing candidate
+readings are `1/4` and the wall reading is `0`. It is deliberately nonperiodic: its angular field
+has endpoint jump one. The open/acyclic posture is supplied and no physical/global completion or
+completed stationary object is claimed.
 
 **Bootstrap status:** global/local mutual determination is a coherent `WORKING POSIT`. Observer
 Reciprocity constrains a future law to be natural/equivariant, but does not create the missing
@@ -43,14 +51,16 @@ nonnegative under an exact inequality, but other completions can remove the bran
 separate carrier/action-conditional energy landscape. “Everything on” was always bounded to a
 registered layer, never the complete UDT theory.
 
-**Next-work boundary:** F02 simultaneous realization is one admissible bounded test. It is not
-ranked above F01's full boundary/Hessian problem, F04's carrier-time-boundary join, or F07's common
-realization gate. Any choice must state an explicit criterion; none licenses coefficient fitting,
-action/carrier adoption, GPU work, or a native-mass claim.
+**Next-work boundary:** for F02 the algebraic-coexistence question is closed; the remaining gate is
+whether a registered complete finite-cell/global branch can retain this landing without importing
+a physical boundary or fold premise. Cyclic closure and supplied `R-A` kill it; the open/acyclic
+posture survives only conditionally. F01, F04, and F07 remain separate. No coefficient fitting,
+action/carrier adoption, GPU work, or native-mass claim is licensed.
 
 **Operational baseline:** preregistration → bounded derivation → independent adversarial replay →
-premise audit → bank and push. Reconciliation: 20 frozen sources, 7 object rows, 16 mechanism rows,
-14/14 catches, external `CLOSED-PASS`. Tests: 70 passed / 1 xfailed.
+premise audit → bank and push. F02: 10/10 primary checks, 11/11 catches, external algebra passes and
+scope `CLOSED-PASS`. Reconciliation: 20 frozen sources, 7 object rows, 16 mechanism rows, 14/14
+catches. Tests: 70 passed / 1 xfailed.
 
 <!-- STARTUP_CURRENT_END -->
 

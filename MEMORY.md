@@ -8,6 +8,8 @@
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then the marked current
 block in `HANDOFF.md`, `CURRENT_SCIENTIFIC_PREMISES.md`, `CURRENT_SCIENTIFIC_PREMISES.tsv`, and
+`udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md` with its exact derivation,
+condition ledger, and cold-review closure, then
 `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md` with its two machine-readable
 tables and cold-review closure. Use its source inventory to enter older family packages only when
 load-bearing. The July 28 frontier and external-review brief are pre-P4 context, not current
@@ -21,6 +23,12 @@ additional variation, wall response, jet stiffness, and completion can preserve,
 repair, or destroy different branches. No current result assigns physical mass. F02, F01, F04,
 and F07 have distinct open gates and no source-backed priority ordering yet. Bootstrap remains a
 working posit and PONDER a conjectural interpretation.
+
+F02 now has one exact conditional local coexistence witness: a nonperiodic affine landing with
+`E0=1/8`, three candidate readings `1/4`, wall reading `0`, and a positive registered Dirichlet
+Hessian sector. It is not a completed stationary/global object. The remaining F02 gate is whether
+any registered complete finite-cell branch preserves the slope: cyclic closure and supplied R-A
+kill it; open/acyclic posture survives only as supplied nonphysical completion data.
 
 Premise guards remain: founded `phi` is derived reciprocal depth; strong local CSN is inactive;
 `c_E` and `G_obs` are observed anchors; bootstrap is a lens, not a filter; θ and the `S2` carrier

@@ -3,8 +3,10 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — POST-JULY MASS-BRANCH RECONCILIATION:**
-Read `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, its lay report,
+**➤ CURRENT SCIENTIFIC FRONTIER — CONDITIONAL F02 LOCAL DIRICHLET-SECTOR WITNESS:**
+Read `udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, its lay report,
+exact derivation, condition ledger, and cold-review closure; then read
+`udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, its lay report,
 `FAMILY_RECONCILIATION.tsv`, `MECHANISM_EFFECT_MATRIX.tsv`, and cold-review closure. Its
 `SOURCE_INVENTORY.tsv` routes to the exact twenty load-bearing packages.
 
@@ -19,6 +21,12 @@ external `CLOSED-PASS` after removing an unsupported priority ranking.
 F02 simultaneous realization, F01 full boundary/Hessian closure, F04 carrier-time-boundary
 closure, and F07 common realization remain separate open gates. No one is presently ranked above
 the others without an explicit criterion.
+
+The F02 follow-on constructs one exact nonperiodic local background with `E0=1/8`, three candidate
+readings `1/4`, dissenting wall reading `0`, and a positive registered Dirichlet Hessian sector.
+This is not a completed stationary or global object. Cyclic completion and supplied fold premise
+`R-A` kill the affine slope; open/acyclic posture leaves it alive but is not a derived physical
+completion. That global-completion join is now the sharp F02 gate.
 
 `PONDER_MATH_ELEGANCE_2026-07-31.md` remains conjectural framing only. Its durable picture is
 taxonomy × stable basin; its saturation/Compton reading is a lead, and its nuclear ladder is a
