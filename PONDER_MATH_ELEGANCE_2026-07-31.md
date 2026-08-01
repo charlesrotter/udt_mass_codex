@@ -574,3 +574,22 @@ Status: LEAD, driver-run. The ladder's yield to date, one line: from banked chai
 theorems + arithmetic — the binding curve, the liquid-drop coefficient set, the valley
 of stability, the fissility window, the table's end, decay energetics, AND the size of
 the nucleus. All falsification targets; all awaiting verifiers; all behind A3.
+
+## 15q. WORKED (the loop closes): two lengths, one stiffness pin, one pure-number target
+The night produced TWO independent lengths: the BASIN scale (the saturation edge's
+M·ℓ = const ⇒ the proton's reduced Compton length, 0.2103 fm) and the SEAM scale (the
+chain spacing from the emergent Coulomb coefficient, r0 = 1.224 fm). Connecting them:
+- **THE STIFFNESS PRODUCT PINNED IN NATURE'S UNITS:** under the particles-at-saturation
+  identification, M·ℓ = ħ/c forces **√(g_p·c_m) = (4/π²)·ħ, i.e. g_p·c_m = 0.1643 ħ²**
+  — the two banked wall stiffnesses now owe the metric exactly one number in Planck
+  units. The ħ-seat conjecture (§14) is now a two-sided equation: derive g_p·c_m from
+  the metric and ħ falls out, or measure ħ and the stiffnesses are fixed.
+- **THE PURE NUMBER THE METRIC OWES:** R* ≡ r0·m_p·c/ħ = **5.820** — the dimensionless
+  seam-spacing-to-Compton ratio. NO closed form claimed (2π−0.46? 6−0.18? — numerology
+  flag raised and refused); banked strictly as a TARGET: the metric's seam geometry must
+  produce ~5.82 or the chain=nucleus identification dies. The framework's α-analog
+  falsification number.
+- **HONESTY:** the fine-structure constant is NOT claimed — e² was an input to r0
+  (circular); α remains the θ-sector's debt, exactly where the coupling menu left it.
+Status: LEAD, driver-run. The ladder now hands the next driver a closed loop: stiffnesses
+in ħ units at one end, a pure number at the other, and the metric in between owing both.
