@@ -1,0 +1,17 @@
+object	status	evidence	scope
+source_universe	FROZEN_135_PATHS	SOURCE_INVENTORY.tsv;base 46c7637	registered source roots only
+massive_root	CERTIFIED_UNIQUE_PARENT_FACT	PRIMARY_CERTIFICATE.json;s bracket	conditional F01 s in (1,3)
+angular_rank_one_endpoint	DERIVED_IN_PARENT_AND_RECHECKED	EXACT_DERIVATION.md;EXACT_CONTROL_LEDGER.tsv	R06 field-core endpoint
+finite_beta_tau_map	DERIVED_CONDITIONAL_SLICE	EXACT_DERIVATION.md;EXACT_CONTROL_LEDGER.tsv	mathematically permitted free second germ not selected
+Dirichlet_field_crossing	CERTIFIED	PRIMARY_CERTIFICATE.json	trace-aligned tau slice
+free_right_field_crossing	CERTIFIED	PRIMARY_CERTIFICATE.json	trace-aligned tau slice
+below_crossing_joint_form	DERIVED_INDEX_ONE	EXACT_DERIVATION.md	eta cannot repair because nu=0 subspace remains
+at_crossing_joint_form	DERIVED_INDEFINITE_FOR_FINITE_ETA	EXACT_DERIVATION.md	n nonzero
+above_crossing_joint_condition	DERIVED_ETA_THRESHOLD	THRESHOLD_SURFACE.tsv	declared two-parameter slice only
+cold_distinct_method_verification	PASS_AFTER_REGISTERED_REPAIR	COLD_REVIEW.md;COLD_RAW.json;COLD_RESULT.json	DOP853 BVP plus 600-element FEM; historical grade retained with caveats
+Dirichlet_R06_endpoint_eta	CERTIFIED_POSITIVE	THRESHOLD_SURFACE.tsv	nu and representative-mu coordinates
+free_right_R06_endpoint_eta	CERTIFIED_POSITIVE	THRESHOLD_SURFACE.tsv	nu and representative-mu coordinates
+tau_physical_selection	OPEN_NOT_SELECTED	PREMISE_LEDGER.tsv	no native response law
+eta_physical_selection	OPEN_NOT_SELECTED	PREMISE_LEDGER.tsv	no native response law
+complete_wall_Hessian	OPEN_NOT_COVERED	PREREGISTRATION.md	other components omitted
+native_stable_matter	OPEN	AUDIT_REPORT.md	no global configuration or persistence

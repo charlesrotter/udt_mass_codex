@@ -1,0 +1,12 @@
+{
+  "all_certified_eta_thresholds_positive": true,
+  "branches": 2,
+  "complete_wall_hessian_covered": false,
+  "computed_controls_passed": 15,
+  "computed_controls_total": 15,
+  "gpu_used": false,
+  "owned_domains_covered": 4,
+  "primary_outcome": "TWO_PARAMETER_CONDITIONAL_STABILITY_THRESHOLD_SURFACE_DERIVED",
+  "sample_nodes_per_branch": 4,
+  "tau_eta_selected": false
+}

@@ -1,0 +1,16 @@
+control	status
+quadratic_identity	PASS
+u_D_equation	PASS
+u_D_boundaries	PASS
+u_F_equation	PASS
+u_F_boundaries	PASS
+phi_D_equation	PASS
+phi_D_boundaries	PASS
+phi_F_equation	PASS
+phi_F_boundaries	PASS
+sherman_morrison	PASS
+finite_beta_elimination	PASS
+tau_beta_zero	PASS
+tau_beta_monotone	PASS
+tau_beta_infinite_limit	PASS
+tau_beta_inverse	PASS

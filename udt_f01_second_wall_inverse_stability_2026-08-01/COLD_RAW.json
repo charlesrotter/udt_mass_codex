@@ -1,0 +1,326 @@
+{
+  "C": "0.069555596609475828",
+  "J_absolute_difference": "0",
+  "J_closed": "2.3268113669274615",
+  "J_quadrature": "2.3268113669274615",
+  "branches": {
+    "DIRICHLET": {
+      "DOP853": {
+        "phi": {
+          "homogeneous_nfev": 3002,
+          "left_boundary_residual": "0",
+          "particular_nfev": 3047,
+          "right_boundary_residual": "0"
+        },
+        "u": {
+          "homogeneous_nfev": 3002,
+          "left_boundary_residual": "0",
+          "particular_nfev": 3047,
+          "right_boundary_residual": "0"
+        }
+      },
+      "FEM": {
+        "elements": 600,
+        "points": {
+          "R06_endpoint": {
+            "expected_negative_count": 0,
+            "lowest_three_matrix_eigenvalues": [
+              "0.0067452242163849371",
+              "0.020069528184248737",
+              "0.05821933917864483"
+            ],
+            "negative_count": 0,
+            "tau": "1.2144690627322612"
+          },
+          "above": {
+            "expected_negative_count": 0,
+            "lowest_three_matrix_eigenvalues": [
+              "0.0034064161004202782",
+              "0.019932348574056395",
+              "0.058067010365761521"
+            ],
+            "negative_count": 0,
+            "tau": "0.87566850290093101"
+          },
+          "below": {
+            "expected_negative_count": 1,
+            "lowest_three_matrix_eigenvalues": [
+              "-0.00054426182040964244",
+              "0.019829060348049952",
+              "0.057913219527069584"
+            ],
+            "negative_count": 1,
+            "tau": "0.48318114876264079"
+          },
+          "near_above": {
+            "expected_negative_count": 0,
+            "lowest_three_matrix_eigenvalues": [
+              "6.9225227675175569e-06",
+              "0.019840961301951926",
+              "0.057933237085246364"
+            ],
+            "negative_count": 0,
+            "tau": "0.53754554418926348"
+          },
+          "near_below": {
+            "expected_negative_count": 1,
+            "lowest_three_matrix_eigenvalues": [
+              "-5.3783621327026497e-06",
+              "0.019840688384711189",
+              "0.057932785656967925"
+            ],
+            "negative_count": 1,
+            "tau": "0.53633107512653122"
+          }
+        },
+        "quadrature_points_per_element": 5,
+        "role": "independent corroboration; analytic rank-one inertia is load-bearing"
+      },
+      "S0": "8.3529943323537097",
+      "crossing_two_by_two_determinant": "-17.346968772070863",
+      "d": "2.9367556916495801",
+      "finite_eta_crossing_obstruction": true,
+      "m_absolute_difference": "2.4424906541753444e-15",
+      "m_direct": "-1.8626554498344416",
+      "m_formula": "-1.8626554498344441",
+      "n_absolute_difference": "8.8817841970012523e-16",
+      "n_direct": "-4.1649692402310574",
+      "n_green": "-4.1649692402310565",
+      "samples": {
+        "1/1": {
+          "S_nu": "-8.3388148157694033",
+          "eta_critical": "8.3388148157694033",
+          "representative_eta_mu_critical": "2.0847037039423508",
+          "t": "1",
+          "tau": "1.2144690627322612"
+        },
+        "1/2": {
+          "S_nu": "-15.71759252073824",
+          "eta_critical": "15.71759252073824",
+          "representative_eta_mu_critical": "3.92939813018456",
+          "t": "0.72102989674425211",
+          "tau": "0.8756685029009309"
+        },
+        "1/4": {
+          "S_nu": "-30.475147930675902",
+          "eta_critical": "30.475147930675902",
+          "representative_eta_mu_critical": "7.6187869826689756",
+          "t": "0.58154484511637827",
+          "tau": "0.70626822298526593"
+        },
+        "3/4": {
+          "S_nu": "-10.79840738409235",
+          "eta_critical": "10.79840738409235",
+          "representative_eta_mu_critical": "2.6996018460230875",
+          "t": "0.86051494837212605",
+          "tau": "1.0450687828165961"
+        }
+      },
+      "t_critical": "0.44205979348850438",
+      "tau_critical": "0.53686794306960084",
+      "tau_infinity": "1.2144690627322612"
+    },
+    "FREE": {
+      "DOP853": {
+        "phi": {
+          "homogeneous_nfev": 3002,
+          "left_boundary_residual": "0",
+          "particular_nfev": 3047,
+          "right_boundary_residual": "0"
+        },
+        "u": {
+          "homogeneous_nfev": 3002,
+          "left_boundary_residual": "0",
+          "particular_nfev": 3047,
+          "right_boundary_residual": "-8.8817841970012523e-16"
+        }
+      },
+      "FEM": {
+        "elements": 600,
+        "points": {
+          "R06_endpoint": {
+            "expected_negative_count": 0,
+            "lowest_three_matrix_eigenvalues": [
+              "0.0047487491812834483",
+              "0.013357280276407441",
+              "0.042545918614881703"
+            ],
+            "negative_count": 0,
+            "tau": "1.2144690627322612"
+          },
+          "above": {
+            "expected_negative_count": 0,
+            "lowest_three_matrix_eigenvalues": [
+              "0.0024780134088872936",
+              "0.012834624884246183",
+              "0.042457088799471868"
+            ],
+            "negative_count": 0,
+            "tau": "0.94400114504553212"
+          },
+          "below": {
+            "expected_negative_count": 1,
+            "lowest_three_matrix_eigenvalues": [
+              "-0.00063858178819854023",
+              "0.012439724327383094",
+              "0.042362731634404349"
+            ],
+            "negative_count": 1,
+            "tau": "0.60617990462292271"
+          },
+          "near_above": {
+            "expected_negative_count": 0,
+            "lowest_three_matrix_eigenvalues": [
+              "5.137503341464305e-06",
+              "0.012503517726668526",
+              "0.042380409928644468"
+            ],
+            "negative_count": 0,
+            "tau": "0.67407416319417646"
+          },
+          "near_below": {
+            "expected_negative_count": 1,
+            "lowest_three_matrix_eigenvalues": [
+              "-6.3129173596546465e-06",
+              "0.012502319851952933",
+              "0.042380088402063268"
+            ],
+            "negative_count": 1,
+            "tau": "0.67285969413144409"
+          }
+        },
+        "quadrature_points_per_element": 5,
+        "role": "independent corroboration; analytic rank-one inertia is load-bearing"
+      },
+      "S0": "8.0443852411645942",
+      "crossing_two_by_two_determinant": "-14.618739609242072",
+      "d": "1.868735794165737",
+      "finite_eta_crossing_obstruction": true,
+      "m_absolute_difference": "1.5543122344752192e-15",
+      "m_direct": "-1.4847077462256832",
+      "m_formula": "-1.4847077462256848",
+      "n_absolute_difference": "4.4408920985006262e-16",
+      "n_direct": "-3.8234460384896338",
+      "n_green": "-3.8234460384896334",
+      "samples": {
+        "1/1": {
+          "S_nu": "-14.061588971696811",
+          "eta_critical": "14.061588971696811",
+          "representative_eta_mu_critical": "3.5153972429242026",
+          "t": "1",
+          "tau": "1.2144690627322612"
+        },
+        "1/2": {
+          "S_nu": "-26.321356315627451",
+          "eta_critical": "26.321356315627451",
+          "representative_eta_mu_critical": "6.5803390789068628",
+          "t": "0.7772953416546966",
+          "tau": "0.94400114504553212"
+        },
+        "1/4": {
+          "S_nu": "-50.840891003488721",
+          "eta_critical": "50.840891003488721",
+          "representative_eta_mu_critical": "12.71022275087218",
+          "t": "0.66594301248204479",
+          "tau": "0.80876718620216748"
+        },
+        "3/4": {
+          "S_nu": "-18.148178086340369",
+          "eta_critical": "18.148178086340369",
+          "representative_eta_mu_critical": "4.5370445215850923",
+          "t": "0.8886476708273483",
+          "tau": "1.0792351038888965"
+        }
+      },
+      "t_critical": "0.5545906833093931",
+      "tau_critical": "0.67353322735880294",
+      "tau_infinity": "1.2144690627322612"
+    }
+  },
+  "command": "python3 udt_f01_second_wall_inverse_stability_2026-08-01/cold_verify_inverse_surface.py",
+  "conclusion_ceiling": "conditional inverse target in one trace-aligned wall-Hessian slice only; no wall response, boundary, action, carrier, source, matter, persistence, mass, or bootstrap law selected",
+  "formulas": {
+    "S_nu": "S0+tau*n^2/(1+tau*m)",
+    "crossing_block_determinant": "-n^2",
+    "eta_critical": "-S_nu",
+    "representative_eta_mu": "eta/4 for a_F=a_Fprime=2",
+    "tau_beta": "s^2*beta/(1+beta*J)",
+    "tau_critical": "-1/m",
+    "tau_infinity": "s^2/J"
+  },
+  "method": {
+    "inertia": "piecewise-linear FEM with five-point Gauss element quadrature",
+    "overlaps": "adaptive quadrature; n evaluated by direct ell(phi) and Green -int(u/w)",
+    "responses": "independent first-order DOP853 particular-plus-homogeneous shooting",
+    "root": "SciPy adaptive quadrature plus Brent bracket solve",
+    "source_identity": "independent Git tree/blob/byte/SHA-256 reconstruction",
+    "symbolic": "independent SymPy beta/tau endpoint, monotonicity, limit, and inverse checks"
+  },
+  "primary_agreement": {
+    "all_checks_pass": true,
+    "checks": {
+      "complete_hessian_not_claimed": true,
+      "dirichlet_J_in_primary_interval": true,
+      "dirichlet_S0_in_primary_interval": true,
+      "dirichlet_eta_1/1_in_primary_interval": true,
+      "dirichlet_eta_1/2_in_primary_interval": true,
+      "dirichlet_eta_1/4_in_primary_interval": true,
+      "dirichlet_eta_3/4_in_primary_interval": true,
+      "dirichlet_n_in_primary_interval": true,
+      "dirichlet_taucrit_in_primary_interval": true,
+      "dirichlet_tauinf_in_primary_interval": true,
+      "dirichlet_tcrit_in_primary_interval": true,
+      "free_J_in_primary_interval": true,
+      "free_S0_in_primary_interval": true,
+      "free_eta_1/1_in_primary_interval": true,
+      "free_eta_1/2_in_primary_interval": true,
+      "free_eta_1/4_in_primary_interval": true,
+      "free_eta_3/4_in_primary_interval": true,
+      "free_n_in_primary_interval": true,
+      "free_taucrit_in_primary_interval": true,
+      "free_tauinf_in_primary_interval": true,
+      "free_tcrit_in_primary_interval": true,
+      "primary_outcome_unchanged": true,
+      "repaired_control_count_15": true,
+      "repaired_semantic_catch_count_at_least_11": true,
+      "tau_eta_not_selected": true
+    },
+    "checks_passed": 25,
+    "checks_total": 25,
+    "independence_caveat": "Primary midpoint verification is a separately coded same-formula reconstruction; the DOP853/FEM cold paths supply the distinct-method check.",
+    "primary_code_imported_or_executed": false
+  },
+  "root_bracket": {
+    "central_root": "1.6810236226618487",
+    "interval": [
+      "1.68102",
+      "1.68103"
+    ],
+    "left_value": "-5.1323244786571909e-06",
+    "right_value": "9.0349507421150221e-06"
+  },
+  "scope": "conditional F01 local massive crease root; both owned p endpoint domains; trace-aligned beta/tau and eta slice only",
+  "sources": {
+    "base_commit": "46c763770f3f71376a0e57338c276ed3981ce36b",
+    "bytes_checked": 1585986,
+    "git_blobs_bytes_sha256_match": true,
+    "identities_checked": 135,
+    "inventory_matches_git_tree": true,
+    "manifest_matches_inventory": true,
+    "selected_paths": 135,
+    "working_tree_bytes_match_frozen_base": true
+  },
+  "symbolic_controls": {
+    "tau_beta_derivative_positive_form": true,
+    "tau_beta_hard_pin_limit": true,
+    "tau_beta_inverse": true,
+    "tau_beta_zero": true
+  },
+  "versions": {
+    "mpmath": "1.3.0",
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "scipy": "1.15.3",
+    "sympy": "1.13.1"
+  }
+}

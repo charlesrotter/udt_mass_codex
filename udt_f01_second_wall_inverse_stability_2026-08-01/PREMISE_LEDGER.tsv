@@ -1,0 +1,21 @@
+item	status	use	remaining_scope
+complete_UDT_metric_coframe	DERIVED	typed off-shell arena	does not select realized response or boundary
+conditional_P4_response	CONDITIONAL	exact local Hessian parent	not a native UDT action or source
+F01_massive_crease_root	CONDITIONAL	unique root in frozen s interval	not a global matter branch
+ell_equals_one	CHOSE	frozen cell normalization	general ell not covered
+Dirichlet_p_endpoint	SUPPLIED_BRANCH_DOMAIN	owned endpoint domain	not selected physical endpoint
+free_right_p_endpoint	SUPPLIED_BRANCH_DOMAIN	owned endpoint domain	not selected physical endpoint
+R05_free_angular_trace	SUPPLIED_BRANCH_ENDPOINT	tau=0 endpoint	not selected boundary behavior
+R06_zero_angular_trace	SUPPLIED_BRANCH_ENDPOINT	tau=tau_infinity field-core endpoint	not selected boundary behavior
+intermediate_tau	FREE_AND_EXPLORED	diagnostic interpolation coordinate	not proved realized or physical
+finite_aligned_beta	FREE_AND_EXPLORED	normalized angular trace-difference second germ deriving tau(beta)	not supplied selected native or physical; absolute one-wall trace not claimed
+eta_nu_wall_curvature	FREE_AND_SOLVED_FOR_THRESHOLD	aggregate second-wall Hessian coordinate	not supplied or selected
+representative_aF_aFprime_2	CHOSE	reports eta_mu=eta/4 only	not universal normalization
+other_wall_Hessian_components	OPEN_NOT_COVERED	none	cross-germs and independent wall matrices omitted
+C2_Bach	INACTIVE_COUNTERFACTUAL	none	requires strong local CSN and has no F01 map
+EH	CONDITIONAL_UNUSED	none	no selected representative or F01 boundary map
+two_stage_action_bridge	OPEN_UNUSED	none	no transfer or boundary map
+bootstrap_global_local_closure	WORKING_POSIT_UNUSED	motivates future comparison	supplies no tau or eta law
+PONDER_stability_picture	INTERPRETATION_ONLY	motivates inverse question	no derivational authority
+physical_boundary_action_carrier_source	OPEN	none	not derived or adopted
+time_persistence_matter_mass	OPEN	none	not tested

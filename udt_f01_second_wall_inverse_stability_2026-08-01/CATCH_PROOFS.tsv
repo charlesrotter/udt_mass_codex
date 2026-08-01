@@ -1,0 +1,15 @@
+mutation	caught
+select_tau	PASS
+promote_full_hessian	PASS
+drop_branch	PASS
+drop_sample	PASS
+negative_eta_threshold	PASS
+lose_factor_four	PASS
+finite_eta_at_crossing	PASS
+eta_repairs_below_crossing	PASS
+promote_outcome	PASS
+select_wall_in_ceiling	PASS
+finite_beta_at_R06_endpoint	PASS
+finite_eta_at_formula_crossing	PASS
+zero_zero_mode_coupling	PASS
+crossing_outside_slice	PASS
