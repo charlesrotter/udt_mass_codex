@@ -1,0 +1,9 @@
+{
+  "candidate_rows": 9,
+  "catch_proofs_passed": 13,
+  "catch_proofs_total": 13,
+  "independent_algebra": "UNTWISTED_MULTICELL_NO_GO__TWIST_REQUIRES_DATA__REGULAR_CAP_NO_GO",
+  "outcome": "OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA",
+  "source_rows": 10,
+  "status": "PASS"
+}

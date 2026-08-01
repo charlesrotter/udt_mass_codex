@@ -1,0 +1,14 @@
+catch	result
+missing_candidate	PASS
+duplicate_candidate	PASS
+unregistered_same_closer_witness	PASS
+open_endpoint_promoted	PASS
+RA_smuggled_into_no_RA	PASS
+onecell_as_multicell	PASS
+twist_ignored	PASS
+mixed_join_silently_closed	PASS
+wall_reading_lost	PASS
+native_mass_promotion	PASS
+global_stability_promotion	PASS
+false_exhaustive_nogo	PASS
+source_mutation	PASS

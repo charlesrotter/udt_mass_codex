@@ -1,0 +1,11 @@
+[PASS] D01_one_cell_period_kills_slopes: single-valued affine f/h on a positive-length one-cell cycle forces both slopes to zero
+[PASS] D02_multicell_positive_period_matrix: for the exact heterogeneous control A=sum L_i G_i^-1 is positive definite; the general proof is the positive quadratic-form sum
+[PASS] D03_untwisted_multicell_momentum_continuity_kills_slopes: ordinary no-source seams give one common momentum c; field closure A c=0 then forces c=0 and every slope G_i^-1 c=0
+[PASS] D03b_homogeneous_multicell_no_go_needs_only_nondegeneracy: with one common response matrix, det A=(sum L_i)^2/det G is nonzero whenever the inherited Delta_G nondegeneracy holds; positivity is not needed
+[PASS] D04_naive_slope_cancellation_has_momentum_jump: the tempting two-cell slopes a and -a cancel the field period but create the nonzero seam momentum jump -2Ga unless a=0
+[PASS] D05_sign_twist_is_algebraically_possible_but_requires_transition: T=-I transports momentum consistently with a slope reversal; this is a conditional bundle-chart witness, not a registered F02 completion
+[PASS] D05b_indefinite_crossmember_cancellation_control: two equal cells with G2=-G1 indefinite have matching momentum and cancelling field periods with nonzero opposite E0; this changes the response member and loses the positive Hessian sector, so it is a cross-family OPEN control, not a completed F02 witness
+[PASS] D06_one_regular_cap_kills_affine_F02_slopes: regular-cap evenness requires df=dbh=0 at the cap; affine F02 profiles therefore have zero slopes globally
+[PASS] D07_two_cap_moment_values_incompatible_with_affine_regularity: the registered two-cap values f(-ell)=-1 and f(+ell)=+1 cannot coexist with the cap-required zero derivative of an affine f
+[PASS] D08_definite_parity_collapse: even affine parity kills slope; odd affine parity kills the intercept, and two definite wall parities eliminate the nonzero F02 landing as banked
+PASS checks=10 outcome=OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA

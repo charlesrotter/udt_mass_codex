@@ -1,0 +1,67 @@
+{
+  "candidate_mass_readings": "THREE_NONZERO_LABELS_REMAIN_LOCAL_CANDIDATES__M_WALL_ZERO__NONE_PROMOTED",
+  "candidate_rows": 9,
+  "checks": [
+    {
+      "detail": "single-valued affine f/h on a positive-length one-cell cycle forces both slopes to zero",
+      "name": "D01_one_cell_period_kills_slopes",
+      "result": "PASS"
+    },
+    {
+      "detail": "for the exact heterogeneous control A=sum L_i G_i^-1 is positive definite; the general proof is the positive quadratic-form sum",
+      "name": "D02_multicell_positive_period_matrix",
+      "result": "PASS"
+    },
+    {
+      "detail": "ordinary no-source seams give one common momentum c; field closure A c=0 then forces c=0 and every slope G_i^-1 c=0",
+      "name": "D03_untwisted_multicell_momentum_continuity_kills_slopes",
+      "result": "PASS"
+    },
+    {
+      "detail": "with one common response matrix, det A=(sum L_i)^2/det G is nonzero whenever the inherited Delta_G nondegeneracy holds; positivity is not needed",
+      "name": "D03b_homogeneous_multicell_no_go_needs_only_nondegeneracy",
+      "result": "PASS"
+    },
+    {
+      "detail": "the tempting two-cell slopes a and -a cancel the field period but create the nonzero seam momentum jump -2Ga unless a=0",
+      "name": "D04_naive_slope_cancellation_has_momentum_jump",
+      "result": "PASS"
+    },
+    {
+      "detail": "T=-I transports momentum consistently with a slope reversal; this is a conditional bundle-chart witness, not a registered F02 completion",
+      "name": "D05_sign_twist_is_algebraically_possible_but_requires_transition",
+      "result": "PASS"
+    },
+    {
+      "detail": "two equal cells with G2=-G1 indefinite have matching momentum and cancelling field periods with nonzero opposite E0; this changes the response member and loses the positive Hessian sector, so it is a cross-family OPEN control, not a completed F02 witness",
+      "name": "D05b_indefinite_crossmember_cancellation_control",
+      "result": "PASS"
+    },
+    {
+      "detail": "regular-cap evenness requires df=dbh=0 at the cap; affine F02 profiles therefore have zero slopes globally",
+      "name": "D06_one_regular_cap_kills_affine_F02_slopes",
+      "result": "PASS"
+    },
+    {
+      "detail": "the registered two-cap values f(-ell)=-1 and f(+ell)=+1 cannot coexist with the cap-required zero derivative of an affine f",
+      "name": "D07_two_cap_moment_values_incompatible_with_affine_regularity",
+      "result": "PASS"
+    },
+    {
+      "detail": "even affine parity kills slope; odd affine parity kills the intercept, and two definite wall parities eliminate the nonzero F02 landing as banked",
+      "name": "D08_definite_parity_collapse",
+      "result": "PASS"
+    }
+  ],
+  "exhaustive_no_witness_proved": false,
+  "native_mass": false,
+  "native_stability": false,
+  "nonzero_complete_witness_found": false,
+  "open_acyclic": "LOCAL_ONLY__PHYSICAL_COMPLETION_OPEN",
+  "ordinary_untwisted_cyclic": "NONZERO_F02_EXCLUDED_FOR_COMMON_NONDEGENERATE_RESPONSE__HETEROGENEOUS_POSITIVE_BLOCKS_ALSO_EXCLUDED",
+  "outcome": "OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA",
+  "regular_cap_completions": "NONZERO_AFFINE_F02_EXCLUDED",
+  "selected_completion": false,
+  "sympy_version": "1.13.1",
+  "transition_twisted_and_mixed_joins": "OPEN_MISSING_COMPLETE_F02_DESCENT_RESPONSE_AND_SEAM_DATA__INDEFINITE_CROSSMEMBER_CONTROL_EXISTS"
+}
