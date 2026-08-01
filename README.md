@@ -4,8 +4,10 @@
 chain below):** `LIVE.md` topmost block → `HANDOFF.md` current block → current premise registry →
 `P4_ARC_SUMMARY_2026-07-31.md` (29 indexed packages through A3) →
 `ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` → the A3 audit report.
-A3 is banked and verified with caveats. The proposed next clean-context review is in
-`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` and requires an explicit go. The orientation
+A3 is banked and verified with caveats. The clean-context review and repair are complete; read
+`udt_p4_cold_adversarial_review_2026-08-01/AUDIT_REPORT.md` and
+`udt_p4_cold_review_repair_2026-08-01/CLOSURE_REPORT.md`. The next authorized work is a
+preregistered CPU-only stability-foundations audit, not T4 or a stability solve. The orientation
 chain below this point is PRE-P4 (2026-07-28 morning and earlier) — historical context
 only; its "latest result" claims are superseded by the P4 arc.
 

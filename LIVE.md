@@ -9,10 +9,12 @@ P4-arc running record) and `archive/LIVE_historical_frontier_through_2026-07-08.
 is lean; older session detail is in `HANDOFF_ARCHIVE.md`. The P4 package index: `P4_ARC_SUMMARY_2026-07-31.md`.
 **If anything disagrees with this file's topmost CURRENT STATE block, that block wins.**
 
-## ============ CURRENT STATE (2026-08-01 — P4 RESPONSE ARC BANKED THROUGH ANGULAR STAGE A3; VERIFIED-WITH-CAVEATS; COLD REVIEW RECOMMENDED BUT NOT AUTHORIZED) ============
+## ============ CURRENT STATE (2026-08-01 — P4 COLD REVIEW + REPAIR CLOSED; STABILITY-FOUNDATIONS AUDIT AUTHORIZED, NOT YET PREREGISTERED) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` →
 `CURRENT_SCIENTIFIC_PREMISES.tsv` → `P4_ARC_SUMMARY_2026-07-31.md` →
+`udt_p4_cold_adversarial_review_2026-08-01/AUDIT_REPORT.md` →
+`udt_p4_cold_review_repair_2026-08-01/CLOSURE_REPORT.md` →
 `ROADMAP_LINEAR_TIME_2026-07-31.md` → `INFLIGHT_STATE.md` → the A3 audit report.
 
 **THE ARC:** the P4 response-framework program (2026-07-28 → 08-01) is BANKED — 29 indexed packages,
@@ -27,6 +29,17 @@ S¹ field θ REGISTERS legally (REGISTERED-POSIT, not adopted) → THE FIRST LIV
 ℤ-lattice is massless-confined, the certified massive chain carries NO θ-momentum, E0 is UNCUT
 everywhere — integers label completion sheets, never states. Nothing adopted as physics
 anywhere. pytest: 70 passed / 1 xfailed.
+
+**COLD ADVERSARIAL CHECKPOINT (COMPLETE):** the clean-context review froze 29 package headline
+bundles plus 8 cross-cutting questions, exploded them to 182 claims, and independently closed with
+exact source anchors. Regrades: **32 RETAINED, 148 NARROWED, 1 CONTRADICTED, 1 OPEN**. The
+contradiction was presentation-level but real: order-four K4 is not the real-point subgroup of
+U(1); only the screen-character image `{+1,-1}` is its real two-torsion. The open claim is
+load-bearing: exact formal pointwise static/time/angular module embeddings do not establish that
+one fixed realized on-shell UDT solution carries them together. The repair is CLOSED-PASS: the
+P4-19 headline is corrected and all 13 discovered transitive dependencies are forward-frozen
+(7 load-bearing + 6 supporting) as post-outcome/non-retroactive evidence. The original 311-path
+preregistration and cold-review package remain unchanged.
 
 **STANDING RULINGS (Charles, 2026-07-29..31):** (1) **θ-ADOPTION DEFERRED** ("premature before
 an unmuting exploration") — θ stays REGISTERED-NOT-ADOPTED; menu/lattices are IF-ADOPTED
@@ -129,16 +142,18 @@ area law; the dichotomy rewritten M·ℓ ≤ (π²/4)√(g_p·c_m) — uncertain
 rules; the solvable slack tower; §7 = Charles's taxonomized-stability spectrum picture:
 species = discrete labels × stable basin, ratios = the payoff); **(3) the roadmap's
 law-adoption CLARIFICATION** (derivation first, observation second, preference never).
-These remain queued for later pondering/tile-drafting with Charles. **(4) `SCOPING_MAP_seam_constants_from_metric_2026-07-31.md`** — the bounded 'is the nuclear reframe a curve fit?' test: it reduces to ONE banked relation (a_F = 2λ) and ONE question (which pairing branch the certified massive chain occupies, what λ there); three pre-committed outcomes (predicts-a_F / kills-the-identification / punts-to-A3); provenance sort included (Bin A banked / Bin B textbook / Bin C conditional). It remains PARKED pending a later ruling. BEHIND THE COLD REVIEW GATE (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+These remain queued for later pondering/tile-drafting with Charles. **(4) `SCOPING_MAP_seam_constants_from_metric_2026-07-31.md`** — the bounded 'is the nuclear reframe a curve fit?' test: it reduces to ONE banked relation (a_F = 2λ) and ONE question (which pairing branch the certified massive chain occupies, what λ there); three pre-committed outcomes (predicts-a_F / kills-the-identification / punts-to-A3); provenance sort included (Bin A banked / Bin B textbook / Bin C conditional). It remains PARKED pending a later ruling. BEHIND THE STABILITY-FOUNDATIONS GATE (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
 
-**RECOMMENDED QUALITY CHECKPOINT — NOT YET LAUNCHED:** A3 and its ordinary blind/same-verifier
-closure are complete. The next recommended gate is the clean-context review described in
-`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` before T4 or any physical adoption. This is
-a review/regrade gate, not permission to derive new physics or replace the in-package verifiers.
-It requires Charles's explicit go.
+**AUTHORIZED NEXT ACTION — FOUNDATIONS ONLY:** Charles authorized a CPU-only preregistered audit
+of the foundations of the stability hypothesis. It must separate (i) metric-geometric persistence,
+(ii) action/carrier-conditional energetic stability, and (iii) global-local bootstrap
+self-consistency. Its first gate is whether one fixed realized configuration can carry the formal
+static, time-live, and angular modules together. It may map and derive what the complete metric
+supplies, but it may not assume a response law, action, S2 carrier, boundary, source, mass, or
+bootstrap equation; it is not T4, a stability solve, adoption, GPU work, or canonization.
 
 **AUTHORITY BOUNDARY:** nothing launches without Charles's go. Still closed: adopting any
 action/response/field as physics, crowning any candidate, settling the census by anything but

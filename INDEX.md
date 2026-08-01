@@ -16,15 +16,19 @@ challenged/not-derived and inactive without explicit owner reauthorization; meas
 bootstrap, Maxwell-like, `X_max`, Hopfion, source, boundary, and mass scopes. Conflict means stop;
 older files do not override the registry's cited controlling evidence.
 
-**➤ CURRENT SCIENTIFIC FRONTIER (2026-08-01 — the P4 arc):**
+**➤ CURRENT SCIENTIFIC FRONTIER (2026-08-01 — P4 cold-reviewed and repaired):**
 **`P4_ARC_SUMMARY_2026-07-31.md`** — the 2026-07-28→08-01 response-framework program: 29 indexed
 packages (package × commit × verdict ledger), the standing owner rulings (θ-adoption DEFERRED;
 TIME FIRST; the owner-kernel provenance correction), the open questions, and the operational
 rules in force. T1–T3 and A1–A3 are banked. A3's bounded result is fixed angular architecture
 without a solution-dependent native mass cut; completion joins remain open. All 29 package directories are named
 in the summary's ledger; each is self-contained (PREREGISTRATION → derivation → ledger → verifier
-record). The next recommended action is a clean-context P4 review before T4/adoption; see
-`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md`. It is not yet authorized.
+record). The clean-context review is complete in
+`udt_p4_cold_adversarial_review_2026-08-01/` and its repair is closed in
+`udt_p4_cold_review_repair_2026-08-01/`: 32 retained, 148 narrowed, 1 contradicted, 1 open;
+the K4/U(1) headline is corrected and 13 transitive dependencies are forward-frozen without
+retroactive preregistration. The next authorized action is a preregistered CPU-only
+stability-foundations audit, not T4 or a stability solve.
 
 SUPERSEDED-AS-FRONTIER (pre-P4, 2026-07-28 morning): `udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md`
 (the higher-isometry audit — still valid as banked evidence, no longer the frontier) and

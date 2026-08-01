@@ -7,7 +7,7 @@
 >
 > **⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`. `main` is stale for this arc.
 
-## CURRENT (2026-08-01 — P4 banked through A3; cold review recommended but not authorized)
+## CURRENT (2026-08-01 — P4 cold review and repair closed; stability-foundations audit authorized)
 
 **Entry path for a fresh AI (bounded, in order):**
 1. `LIVE.md` topmost block — the frontier + next action (wins every disagreement).
@@ -19,8 +19,8 @@
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv` (especially G17/G18), plus `CANON.md`
    C-2026-07-30-1 — the
    premise state incl. the owner-kernel provenance correction.
-5. `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` for the proposed next quality
-   checkpoint; it authorizes nothing.
+5. `udt_p4_cold_adversarial_review_2026-08-01/AUDIT_REPORT.md`, then
+   `udt_p4_cold_review_repair_2026-08-01/CLOSURE_REPORT.md`; the old suggestion is provenance only.
 6. CLAUDE.md method sections (binding, always) + `NEGATIVES_REGISTRY.md` (latest: #78).
 
 **Trajectory in one paragraph:** the P4 program derived UDT's missing law as an INVERSE
@@ -50,9 +50,17 @@ solution-dependent native integer that cuts either conditional massive carrier. 
 `S3` completion joins and angular-live on-shell coexistence remain OPEN. The nuclear ladder is
 `CONSISTENCY-DEMO`, not prediction; its `a_F`–`lambda` branch test remains parked.
 
-**Open on the desk (in order):** (1) the proposed cold adversarial P4 review before T4/adoption,
-requiring a fresh explicit go; (2) posture; (3) census; (4) G18 re-grade; (5) R1 menu and queued
-tiles. No item launches automatically.
+**Cold-review correction:** 182 claims regrade to 32 retained, 148 narrowed, 1 contradicted, and
+1 open. The corrected contradiction is that only K4's `{+1,-1}` screen-character image—not K4
+itself—is U(1)'s real two-torsion. Formal pointwise static/time/angular compatibility does not prove
+one fixed realized on-shell solution. The 13 transitive dependencies are now forward-frozen as
+post-outcome/non-retroactive evidence; the original review freeze is unchanged.
+
+**Authorized bounded next action:** preregister and run a CPU-only stability-foundations audit,
+starting with the fixed-realized on-shell coexistence gate and keeping geometric persistence,
+conditional energetic stability, and bootstrap self-consistency separate. This is not T4 or a
+stability solve and may not adopt an action, response law, carrier, source, boundary, mass, or
+bootstrap equation. Posture, census, G18, R1, and other queued tiles remain parked.
 
 **Operational rules in force:** chunked agent outputs (≤120-line appends; two 64k-ceiling
 agent deaths taught this); anti-hang (CLAUDE.md); the verifier pipeline

@@ -24,9 +24,12 @@ open. A3 found fixed domain/presentation integers and continuous compact-fiber h
 solution-dependent native integer or mass/modulus cut on either conditional massive carrier;
 their two-cap-`S3` completion joins and angular-live on-shell coexistence remain open.
 
-Next recommended gate: the clean-context regrade in
-`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md`, before T4 or adoption. It is not authorized
-without Charles's explicit go. The nuclear ladder remains only `CONSISTENCY-DEMO`; its
+The cold P4 review and its forward repair are complete. Review census: 32 retained, 148 narrowed,
+1 contradicted, 1 open. Only the `{+1,-1}` screen-character image—not order-four K4 itself—is
+U(1)'s real two-torsion; formal pointwise module compatibility does not prove one realized on-shell
+solution. Charles authorized a CPU-only preregistered stability-foundations audit that separates
+geometric persistence, conditional energetic stability, and bootstrap self-consistency. It is not
+T4, adoption, or a stability solve. The nuclear ladder remains only `CONSISTENCY-DEMO`; its
 `a_F`–`lambda` branch audit is still parked.
 
 Premise guards remain: founded `phi` is derived reciprocal depth; strong local CSN is inactive;

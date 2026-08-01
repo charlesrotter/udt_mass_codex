@@ -5,9 +5,11 @@ then P4_ARC_SUMMARY_2026-07-31.md, ROADMAP_LINEAR_TIME_2026-07-31.md, this file,
 audit report. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before DERIVE; lay language with
 Charles; nothing launches without his go).
 
-**THE IN-FLIGHT TASK:** none. A1–A3 are banked. The clean-context audit in
-`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` is recommended before T4/adoption, but it is
-not authorized and nothing launches from this ledger.
+**THE IN-FLIGHT TASK:** integration of the completed cold P4 review and forward repair, followed by
+preregistration of the authorized CPU-only stability-foundations audit. The review regrades are
+32/148/1/1; its K4/U(1) headline and 13-path transitive-freeze defects are independently repaired.
+The next audit starts at the fixed-realized on-shell coexistence gate and separates geometric,
+conditional energetic, and bootstrap stability. It is not T4, a stability solve, or adoption.
 
 **A3 EXECUTION STATUS (2026-08-01): COMPLETE AND BANKED at `e379098`.** Charles gave the explicit
 `A3 go`; `alpha` → `beta` → `gamma` completed. Final derivation checks: 57/57 = 37 substantive +

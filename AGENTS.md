@@ -39,8 +39,10 @@ after the user's actual task makes them load-bearing.
    and `VERIFIED-WITH-CAVEATS`; its exact result and correction layer are in that package. Read
    individual `udt_p4_*` packages only when their exact result becomes
    load-bearing (each is self-contained: PREREGISTRATION → derivation → ledger → verifier record).
-   `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` records the recommended next
-   clean-context review gate; it is not authorization and does not replace package verification.
+   Then read `udt_p4_cold_adversarial_review_2026-08-01/AUDIT_REPORT.md` and
+   `udt_p4_cold_review_repair_2026-08-01/CLOSURE_REPORT.md`. The old review suggestion is
+   historical provenance. The next authorized work is a separately preregistered CPU-only
+   stability-foundations audit, not T4 or a stability solve.
 5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
    historical context only).
 6. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):
@@ -125,8 +127,11 @@ pointwise layers without selecting one physical law. Its massive families, stabi
 integer/noninteger results, and θ consequences retain their complete conditional premise stacks.
 A3's native angular winding census is complete: fixed architecture and continuous holonomy survive,
 but no solution-dependent native integer cuts either conditional massive carrier. The completion
-joins and on-shell coexistence remain open. A genuinely cold clean-context audit of the load-bearing
-P4 chain is recommended next, before T4 or any adoption; it requires Charles's explicit go.
+joins and on-shell coexistence remain open. The genuinely cold clean-context audit and its forward
+repair are complete. Its exact 32/148/1/1 regrades and fixed-realized on-shell open gate control
+future reuse. Charles has authorized a CPU-only preregistered stability-foundations audit; no
+action, response law, carrier, source, boundary, mass, bootstrap equation, T4 solve, or physical
+branch is adopted.
 
 The pre-P4
 higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded
