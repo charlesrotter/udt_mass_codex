@@ -1,0 +1,12 @@
+{
+  "base": "089e2044be1b2e801f9b4f07e83efb5296dc1375",
+  "direct_parent_sources": 94,
+  "parent_package_files": 42,
+  "premise_rows": 17,
+  "route_rows": 8,
+  "source_inventory_sha256": "4965a08ea9ca2f7b37d602eb9cd68c78b89e56e112f61aa1771144f935af3af8",
+  "source_manifest_sha256": "0ff01b65db45b55ff34e56215c3a132ba9015dcab7a5b77199ed9c7cf19cdd85",
+  "source_paths_sha256": "9c010583a8e14eaf452d8da59b8813f84166403a4c7b9945031dadbffda67914",
+  "source_union": 140,
+  "transitive_parent_sources": 4
+}
