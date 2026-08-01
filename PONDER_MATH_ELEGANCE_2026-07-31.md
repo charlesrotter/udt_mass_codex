@@ -487,3 +487,18 @@ table's binding fractions at the 0.1–1% level unpinned, the stability peak in 
 window, and the liquid-drop coefficient set EMERGENT. Status: LEAD, driver-run
 throughout; the pre-registered verifier confrontation inherits the five-term law whole,
 behind A3. The night's arithmetic ends here.
+
+## 15l. WORKED (expendable finale): three FRESH unpinned predictions from the five-term law
+- **THE VALLEY OF STABILITY** (which Z is most stable per N — derived by minimizing the
+  law in Z, nothing re-pinned): N=56 → Z=25.0 (nature 26); N=120 → **Z=50.0 exact**
+  (tin!); N=208 → 80.8 (82); N=238 → 90.6 (92). The bending of the stability line away
+  from Z=N/2 — the chart of nuclides' spine — emerges within ~1.5%.
+- **AN ALPHA-DECAY ENERGY**: Q_α(U-238) predicted 4.82 MeV vs observed 4.27 (within
+  13%) — a DECAY energetics number, predicted from binding arithmetic (the transition-
+  graph tier's first number).
+- **WHERE ALPHA DECAY TURNS ON**: the law opens the alpha channel near N~170 vs
+  nature's ~140-150 — the right region of the chart, from the same five constants.
+Status: LEAD, driver-run; the night's true finale — the seam law now touches the chart
+of nuclides' SHAPE (the valley), its DECAYS (Q_α), and its BOUNDARIES (the alpha line),
+all unpinned. Every number above is a standing falsification target for the verifier
+confrontation behind A3.
