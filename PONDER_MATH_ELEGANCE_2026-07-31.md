@@ -420,3 +420,20 @@ s·N^(−1/3)) — the genuine surface-term shape, which bends the light/mid nuc
 count with cluster coordination + surface deficit BEFORE touching the repulsion again.
 Status: LEAD-grade kill; honest negatives are first-class — this one just saved the next
 session a wrong turn.
+
+## 15i. WORKED: the seam count explored — the re-aim VALIDATES
+3D cluster seam law B/A = aV − S·N^(−1/3) − c·N^(2/3) (volume seams, surface deficit,
+winding repulsion), THREE pins (He-4, Fe-56, Pb-208), zero fits after:
+**every unpinned observable moved toward nature**: Sn-120 → 0.99; C-12/O-16 → 1.08/1.06
+(from 1.12/1.10); the stability peak marched 30 → 37 → **46** across the three toys
+(target ~56–62); fission release → **0.00085 vs observed 0.00090 (within 6%)**. The
+derived coefficients in MeV — volume 11.8, surface 7.2, repulsion 0.078 — carry the
+liquid-drop model's ORDERING AND SIGNS (LD: 15.8, 17.8, 0.71), off by the factors the
+missing asymmetry/pairing terms are known to absorb. Deuteron/triton still fail
+(few-body layer, consistent). VERDICT: the 15h re-aim was CORRECT — the binding curve is
+seam GEOMETRY (coordination + surface) plus winding repulsion; the remaining gap points
+at exactly one named layer (the Z-split/asymmetry term — charge on protons only). The
+progressive ladder 15c→15d→15h→15i is itself the demonstration: each honest kill aimed
+the next step, four toys converging on the liquid-drop structure from the banked chain
+machinery with nothing imported but arithmetic. Status: LEAD, driver-run; the
+pre-registered full confrontation inherits all of this, behind A3.
