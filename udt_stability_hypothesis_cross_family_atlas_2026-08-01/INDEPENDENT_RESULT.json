@@ -1,0 +1,49 @@
+{
+  "caveats": [
+    "The family partition correction is post-preregistration but conservative, explicit, and no-outcome-changing; the original preregistration remains immutable.",
+    "The effective source universe is 1,469 after an explicit post-preregistration correction adding three predeclared, base-identical controlling anchors to the original verified 1,466.",
+    "F02 establishes a conditional sector Hessian dichotomy, not a full isolated basin, common dynamics, or time persistence.",
+    "F04 remains conditional on the round-S2 posit, L2+L4 functional, fixed computational box, boundary mask, staticity, and audited operator.",
+    "The common result is architectural only; no shared metric-native stability operator or bootstrap membership rule was found."
+  ],
+  "checks_passed": 16,
+  "checks_total": 16,
+  "deletion_recompute": {
+    "all_evidence": {
+      "object_inequivalent_stability_support_streams": 2,
+      "original_P4_spine_components": 2
+    },
+    "remove_Hopfion_F04_H07": {
+      "P4_algebra_survives": true,
+      "object_inequivalent_stability_support_streams": 1,
+      "original_P4_spine_components": 2,
+      "original_hypothesis_formulation_survives": true
+    },
+    "remove_P4_F01_F02_H04_H05": {
+      "conditional_Hopfion_exemplar_survives": true,
+      "object_inequivalent_stability_support_streams": 1,
+      "original_July31_algebraic_spine_survives": false,
+      "original_P4_spine_components": 0
+    },
+    "scope": "finite dependency deletion control; not counterfactual physics"
+  },
+  "dependency_edges_recomputed": 14,
+  "failed": [],
+  "families_recomputed": 7,
+  "grammar_cells_recomputed": 70,
+  "hypothesis_claims_recomputed": 8,
+  "mutations_rejected": 27,
+  "mutations_total": 27,
+  "outcome": "HYPOTHESIS_MULTI_FAMILY_SUPPORTED_NOT_DERIVED",
+  "partition_keys_recomputed": 7,
+  "repairs_required": [],
+  "source_bytes_read": 24704923,
+  "source_layer_counts": {
+    "CONTROLLING_ANCHOR_ADDITION_CORRECTION_02": 3,
+    "GLOBAL_LOCAL_PREMISE_PARENT_PACKAGE": 42,
+    "PARENT_PREMISE_AUDIT_SOURCE_UNIVERSE": 1424
+  },
+  "source_paths_read_and_sha256_verified": 1469,
+  "status": "PASS",
+  "verdict": "VERIFIED_WITH_CAVEATS"
+}

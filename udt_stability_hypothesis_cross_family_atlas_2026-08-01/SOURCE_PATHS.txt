@@ -6,6 +6,7 @@ F8_metric_choices_results.md
 HANDOFF.md
 LIVE.md
 P4_ARC_SUMMARY_2026-07-31.md
+PONDER_MATH_ELEGANCE_2026-07-31.md
 PROVENANCE.md
 UDT_GR_TO_UDT_SELECTOR_AUDIT_2026-07-18.md
 UDT_NATIVE_ACTION_COLD_PACKET.md
@@ -1290,6 +1291,8 @@ udt_p4_cold_adversarial_review_2026-08-01/REVIEW_RESULTS.json
 udt_p4_cold_adversarial_review_2026-08-01/SHARED_CODE_CIRCULARITY_MAP.tsv
 udt_p4_cold_review_repair_2026-08-01/CLOSURE_REPORT.md
 udt_p4_cold_review_repair_2026-08-01/TRANSITIVE_DEPENDENCY_FREEZE.tsv
+udt_p4_period_gate_2026-07-30/AUDIT_REPORT.md
+udt_p4_period_gate_2026-07-30/PERIOD_LEDGER.tsv
 udt_p4_routeA_response_inverse_problem_2026-07-29/AUDIT_REPORT.md
 udt_p4_routeA_response_inverse_problem_2026-07-29/CORRECTION_LAYER.md
 udt_p4_routeA_response_inverse_problem_2026-07-29/DERIVATION_STDOUT.txt

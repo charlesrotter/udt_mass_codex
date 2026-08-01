@@ -24,15 +24,31 @@ def sha256(path: Path) -> str:
 def main() -> None:
     source = rows("SOURCE_INVENTORY.tsv")
     paths = [row["path"] for row in source]
-    if len(source) != 1466 or paths != sorted(paths) or len(paths) != len(set(paths)):
+    if len(source) != 1469 or paths != sorted(paths) or len(paths) != len(set(paths)):
         raise RuntimeError("source census/order/uniqueness failure")
     if any(not (ROOT / row["path"]).is_file() or sha256(ROOT / row["path"]) != row["sha256"] for row in source):
         raise RuntimeError("source byte failure")
     layers = {name: sum(row["layer"] == name for row in source) for name in {
-        "PARENT_PREMISE_AUDIT_SOURCE_UNIVERSE", "GLOBAL_LOCAL_PREMISE_PARENT_PACKAGE"
+        "PARENT_PREMISE_AUDIT_SOURCE_UNIVERSE",
+        "GLOBAL_LOCAL_PREMISE_PARENT_PACKAGE",
+        "CONTROLLING_ANCHOR_ADDITION_CORRECTION_02",
     }}
-    if layers != {"PARENT_PREMISE_AUDIT_SOURCE_UNIVERSE": 1424, "GLOBAL_LOCAL_PREMISE_PARENT_PACKAGE": 42}:
+    if layers != {
+        "PARENT_PREMISE_AUDIT_SOURCE_UNIVERSE": 1424,
+        "GLOBAL_LOCAL_PREMISE_PARENT_PACKAGE": 42,
+        "CONTROLLING_ANCHOR_ADDITION_CORRECTION_02": 3,
+    }:
         raise RuntimeError(f"source layer failure: {layers}")
+    required_additions = {
+        "PONDER_MATH_ELEGANCE_2026-07-31.md",
+        "udt_p4_period_gate_2026-07-30/AUDIT_REPORT.md",
+        "udt_p4_period_gate_2026-07-30/PERIOD_LEDGER.tsv",
+    }
+    observed_additions = {
+        row["path"] for row in source if row["layer"] == "CONTROLLING_ANCHOR_ADDITION_CORRECTION_02"
+    }
+    if observed_additions != required_additions:
+        raise RuntimeError(f"correction 02 source failure: {sorted(observed_additions)}")
 
     families = rows("FAMILY_UNIVERSE.tsv")
     claims = rows("HYPOTHESIS_CLAIM_UNIVERSE.tsv")
@@ -46,7 +62,7 @@ def main() -> None:
         raise RuntimeError("premise universe failure")
     if len(outcomes) != 6 or len({row["outcome"] for row in outcomes}) != 6:
         raise RuntimeError("outcome universe failure")
-    print("PASS atlas preregistration: sources=1466 families=7 claims=8 premises=18 outcomes=6")
+    print("PASS atlas preregistration: sources=1469 families=7 claims=8 premises=18 outcomes=6")
 
 
 if __name__ == "__main__":

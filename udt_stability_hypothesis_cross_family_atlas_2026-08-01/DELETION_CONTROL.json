@@ -1,0 +1,19 @@
+{
+  "all_evidence": {
+    "object_inequivalent_stability_support_streams": 2,
+    "original_P4_spine_components": 2
+  },
+  "remove_Hopfion_F04_H07": {
+    "P4_algebra_survives": true,
+    "object_inequivalent_stability_support_streams": 1,
+    "original_P4_spine_components": 2,
+    "original_hypothesis_formulation_survives": true
+  },
+  "remove_P4_F01_F02_H04_H05": {
+    "conditional_Hopfion_exemplar_survives": true,
+    "object_inequivalent_stability_support_streams": 1,
+    "original_July31_algebraic_spine_survives": false,
+    "original_P4_spine_components": 0
+  },
+  "scope": "finite dependency deletion control; not counterfactual physics"
+}

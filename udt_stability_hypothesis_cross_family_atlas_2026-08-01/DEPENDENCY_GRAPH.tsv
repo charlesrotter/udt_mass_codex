@@ -1,0 +1,15 @@
+edge_id	from	to	role	removal_effect
+D01	F01	H04	LOAD_BEARING_NON_HOPF_ALGEBRA	parity-absorption support lost
+D02	F02	H05	LOAD_BEARING_NON_HOPF_ALGEBRA	mass-size-stiffness dichotomy lost
+D03	F04	H07	LOAD_BEARING_EXEMPLAR	full-3D conditional stable exemplar lost
+D04	F05	H06	STRUCTURAL_ONLY	ring/mass closure analogy lost; stability algebra unchanged
+D05	F06	H06	NEGATIVE_EXISTENCE_CONTROL	nonexistence pruning example lost
+D06	F07	H08	OPEN_JOIN_CONTROL	reason time-live/native stability remains blocked obscured
+D07	H04	H03	ORIGINAL_P4_SPINE	one original stability-taxonomy leg lost
+D08	H05	H03	ORIGINAL_P4_SPINE	principal continuous-family pruning law lost
+D09	H07	H03	OBJECT_INEQUIVALENT_SUPPORT	hypothesis survives but present support becomes P4-only
+D10	H06	H03	STRUCTURAL_CONTEXT	global completion interpretation weakens; stability logic survives
+D11	H08	H03	FUTURE_SELECTION_ARCHITECTURE	basin taxonomy remains; universe-level selection interpretation removed
+D12	P07_P08	F04	CONDITIONAL_CARRIER_FUNCTIONAL	Hopfion stability statement becomes undefined, not refuted
+D13	P05_P06	F01_F02	CONDITIONAL_P4_RESPONSE	P4 stability statements become undefined, not transferred to Hopfion
+D14	P12_P13	H08	WORKING_POSIT_PLUS_OPEN_OPERATION	no operational selection exists in either case

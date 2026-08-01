@@ -1,0 +1,9 @@
+{
+  "base": "c77c8b281155dfbd33c05ef57856a26fcf20f1da",
+  "branch": "codex/stability-hypothesis-cross-family-atlas-2026-08-01",
+  "kernel": "Linux 6.8.0-124-generic x86_64",
+  "mode": "CPU-only deterministic source-led lineage and cross-family audit",
+  "network_used_for_science": false,
+  "python": "3.10.12",
+  "pytest": "9.1.1"
+}

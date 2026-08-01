@@ -13,6 +13,11 @@ ROOT = Path(__file__).resolve().parents[1]
 PKG = Path(__file__).resolve().parent
 PARENT = ROOT / "udt_global_local_self_consistency_premise_audit_2026-08-01"
 PARENT_PACKAGE = "udt_global_local_self_consistency_premise_audit_2026-08-01"
+CORRECTION_02_ADDITIONS = (
+    "PONDER_MATH_ELEGANCE_2026-07-31.md",
+    "udt_p4_period_gate_2026-07-30/AUDIT_REPORT.md",
+    "udt_p4_period_gate_2026-07-30/PERIOD_LEDGER.tsv",
+)
 
 
 def sha256(path: Path) -> str:
@@ -39,7 +44,10 @@ def main() -> None:
     if set(parent_paths) & set(layers):
         raise RuntimeError("unexpected source-layer overlap")
     layers.update({path: "GLOBAL_LOCAL_PREMISE_PARENT_PACKAGE" for path in parent_paths})
-    if len(layers) != 1466:
+    if set(CORRECTION_02_ADDITIONS) & set(layers):
+        raise RuntimeError("unexpected correction-layer overlap")
+    layers.update({path: "CONTROLLING_ANCHOR_ADDITION_CORRECTION_02" for path in CORRECTION_02_ADDITIONS})
+    if len(layers) != 1469:
         raise RuntimeError("union count changed")
 
     rows = []
@@ -63,7 +71,10 @@ def main() -> None:
     (PKG / "SOURCE_MANIFEST.sha256").write_text(
         "\n".join(f"{row['sha256']}  ../{row['path']}" for row in rows) + "\n", encoding="utf-8"
     )
-    print(f"PASS preregistration build: sources={len(rows)} parent={len(inherited)} package={len(parent_paths)}")
+    print(
+        f"PASS preregistration build: sources={len(rows)} parent={len(inherited)} "
+        f"package={len(parent_paths)} correction02={len(CORRECTION_02_ADDITIONS)}"
+    )
 
 
 if __name__ == "__main__":

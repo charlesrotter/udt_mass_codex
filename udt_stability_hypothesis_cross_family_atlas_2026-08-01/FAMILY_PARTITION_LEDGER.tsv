@@ -1,0 +1,8 @@
+family_id	effective_partition_key	explicit_exclusion
+F01	P4_SI|MASSIVE|NONEMPTY_OR_CONDITIONAL_MIXED_OR_OPEN|STABILITY_EVALUATED	massive cyclic one-cell and double-crease empty postures -> F06
+F02	P4_SII|MASSIVE|FIELDS_CENSUS|STABILITY_EVALUATED	P4 S-i and massless controls
+F03	P4|MASSLESS|E0_ZERO_OR_TRIAD_CONTROL|CONTROL_ONLY	all isolated-survivor claims
+F04	HOPFION|ROUND_S2_POSIT|FULL3D|STATIC_FINITE_BOX	every P4 configuration family
+F05	P4_PERIOD|CYCLIC|MASSLESS_OR_MULTICELL_MIXED|CLOSURE_CLASSIFICATION	massive cyclic one-cell and double-crease empty postures -> F06
+F06	P4_CLOSED|MASSIVE|N1_CYCLIC_OR_DOUBLE_CREASE|EMPTY	nonempty and conditionally nonempty stability branches
+F07	P4_MODULES|FORMAL_STATIC_TIME_ANGULAR|JOINT_REALIZATION_OPEN|NO_STABILITY_OBJECT	every realized candidate-family claim
