@@ -1,0 +1,32 @@
+{
+  "base": "c9c8b3848a7ff85b7941e803bf87c0ff48b9f98c",
+  "checks": 12,
+  "counts": {
+    "dependencies": 13,
+    "load_bearing": 7,
+    "primary_catches_genuine": 4,
+    "primary_catches_tautological": 1,
+    "primary_checks_saved_pass": 12,
+    "supporting": 6,
+    "tests_passed": 70,
+    "tests_xfailed": 1
+  },
+  "failed": [
+    "primary_changed_review_tree_catch_is_genuine"
+  ],
+  "hashes": {
+    "cold_review_tree": "d1254e1e018d55ead4b57696629163c3d0006db5",
+    "dependency_manifest": "58cf2290cf5e4add8597592a17bd7d188c0b4666c694f2a2ee83bac9fccdf6bb",
+    "freeze": "e74b025264d7f1d4bea3dbb383280bcaba76ea113d83114e507e498318f354ac",
+    "primary_repair_manifest": "255c9c770903f9fc952b1f027a2072f2631fc0245d566734b18f299c99716637",
+    "review_overlay": "217b3146488b82d0135fa7bd5d4d7cf45063ac4a7d2f7e44796352b2ece55f90",
+    "source_inventory": "a7032b94d91218e64ebfb40d0d31375cdfd75cc297aafabcf33d6617f12a199e",
+    "source_manifest": "f150650c940e2d942a455234726ad3e3ce72b20bd175573a65ca0aeea34e8d85",
+    "summary": "85f5b9e7ce6619ba0b286c71291a3eaee61779fcdb81980c0241d0e24a3b2bb8"
+  },
+  "maximum_conclusion": "repair data match the preregistered contract, but primary catch-proof closure is incomplete; no T4, stability, adoption, physics, GPU, navigation, git, or canon conclusion",
+  "passed": 11,
+  "preregistration_commit": "9089c0fcfd3bd8cfaa0121afb42d343593d7bca6",
+  "required_amendment": "Replace the constant '0'*40 != REVIEW_TREE assertion with an in-memory changed-tree candidate passed through the same exact tree-equality predicate used by the production gate; rerun the primary verifier and rebuild its manifest without changing the two repair outputs.",
+  "verdict": "AMENDMENT-REQUIRED"
+}

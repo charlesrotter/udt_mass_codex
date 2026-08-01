@@ -1,0 +1,13 @@
+{"check": "exact_headline_substitution", "detail": "85f5b9e7ce6619ba0b286c71291a3eaee61779fcdb81980c0241d0e24a3b2bb8", "status": "PASS"}
+{"check": "forward_freeze_exact_13_and_bytes", "detail": [], "status": "PASS"}
+{"check": "review_tree_immutable", "detail": {"changed_paths": [], "tree": "d1254e1e018d55ead4b57696629163c3d0006db5"}, "status": "PASS"}
+{"check": "original_overlay_immutable", "detail": "217b3146488b82d0135fa7bd5d4d7cf45063ac4a7d2f7e44796352b2ece55f90", "status": "PASS"}
+{"check": "original_311_source_freeze_immutable", "detail": "311-path preregistration unchanged", "status": "PASS"}
+{"check": "dependency_manifest_exact", "detail": 13, "status": "PASS"}
+{"check": "mutation_scope", "detail": [], "status": "PASS"}
+{"check": "catch_old_headline", "detail": "base headline rejected", "status": "PASS"}
+{"check": "catch_missing_dependency", "detail": "12-row mutation rejected", "status": "PASS"}
+{"check": "catch_changed_dependency_hash", "detail": "hash mutation rejected", "status": "PASS"}
+{"check": "catch_retroactive_promotion", "detail": "retroactive promotion rejected", "status": "PASS"}
+{"check": "catch_changed_review_tree", "detail": {"candidate_tree": "0000000000000000000000000000000000000000", "production_predicate": "review_tree_ok", "rejected": true}, "status": "PASS"}
+{"checks": 12, "counts": {"dependencies": 13, "load_bearing": 7, "supporting": 6}, "failed": [], "hashes": {"dependency_manifest": "58cf2290cf5e4add8597592a17bd7d188c0b4666c694f2a2ee83bac9fccdf6bb", "freeze": "e74b025264d7f1d4bea3dbb383280bcaba76ea113d83114e507e498318f354ac", "review_overlay": "217b3146488b82d0135fa7bd5d4d7cf45063ac4a7d2f7e44796352b2ece55f90", "summary": "85f5b9e7ce6619ba0b286c71291a3eaee61779fcdb81980c0241d0e24a3b2bb8"}, "maximum_conclusion": "two cold-review repair defects only; no T4, stability, adoption, physics, or canon conclusion", "passed": 12, "verdict": "PASS"}

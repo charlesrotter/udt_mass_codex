@@ -1,0 +1,29 @@
+{
+  "checks": 11,
+  "counts": {
+    "amended_primary_checks": 12,
+    "dependencies": 13,
+    "genuine_catches": 5,
+    "load_bearing": 7,
+    "source_manifest_rows": 311,
+    "supporting": 6,
+    "tests_passed": 70,
+    "tests_xfailed": 1
+  },
+  "failed": [],
+  "hashes": {
+    "amended_manifest": "ad3bb083ef94ac76236e9c4ad1b9ad3640f5371abb75c5b456e97c65ede2bd04",
+    "amended_raw": "f1ad2f053416c8f7da3867a85ed603e4a14c6946687c7e4930e413300121ca8c",
+    "amended_results": "06c9f4a704edcaf05835ca66a7572c4b95595064b0ec31b9ead90e30ba52ec63",
+    "amended_verifier": "ffe6d68af4c1983284b8b47920dccb629be994853ad4869d0d1458c5834f6bbc",
+    "dependency_manifest": "58cf2290cf5e4add8597592a17bd7d188c0b4666c694f2a2ee83bac9fccdf6bb",
+    "freeze": "e74b025264d7f1d4bea3dbb383280bcaba76ea113d83114e507e498318f354ac",
+    "review_tree": "d1254e1e018d55ead4b57696629163c3d0006db5",
+    "source_inventory": "a7032b94d91218e64ebfb40d0d31375cdfd75cc297aafabcf33d6617f12a199e",
+    "source_manifest": "f150650c940e2d942a455234726ad3e3ce72b20bd175573a65ca0aeea34e8d85",
+    "summary": "85f5b9e7ce6619ba0b286c71291a3eaee61779fcdb81980c0241d0e24a3b2bb8"
+  },
+  "maximum_conclusion": "the two preregistered cold-review presentation/provenance repairs are second-verifier closed; no T4, stability, science, GPU, adoption, navigation, git, physics, or canon conclusion",
+  "passed": 11,
+  "verdict": "CLOSED-PASS"
+}
