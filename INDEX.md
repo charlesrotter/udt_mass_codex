@@ -3,30 +3,22 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — F01 CONDITIONAL INVERSE WALL-STABILITY SURFACE:**
-Read `udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md`, then
-`udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md` and its lay report, ledgers, precision
-repair, and independent result, then
-`udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md` and its lay report,
-route/map/premise ledgers, repair registration, and cold review, then
-`udt_f01_second_wall_inverse_stability_2026-08-01/AUDIT_REPORT.md` with its exact derivation,
-threshold/status/premise ledgers, transparent repair, and cold DOP853/FEM evidence.
+**➤ CURRENT SCIENTIFIC FRONTIER — POST-JULY MASS-BRANCH RECONCILIATION:**
+Read `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, its lay report,
+`FAMILY_RECONCILIATION.tsv`, `MECHANISM_EFFECT_MATRIX.tsv`, and cold-review closure. Its
+`SOURCE_INVENTORY.tsv` routes to the exact twenty load-bearing packages.
 
-The founded complete metric/coframe supplies a native typed off-shell arena, but no selected
-realized variation, response, persistence, or physical boundary. The inherited `F01–F07` labels
-remain an operational evidence map; three rows are conditional realized families and zero are
-native. The F01 local lambda/mu question is now closed across all four owned conditional domains:
-R05 Schur signs are positive, R06 has exact negative joint witnesses, and every joint index is one.
-There is no F01 local joint-stable survivor under the named P4/`ell=1`/trace/germ-flat premises.
+The record contains two distinct geometry-only candidate mass routes (F01 and F02), one separate
+carrier/action-conditional energy-bearing Hopfion model (F04), and four control, structural, empty,
+or formal classes. Three rows are conditional realized families; zero are native stable matter.
+More admitted structure is nonmonotonic: it can eliminate F01, conditionally repair a restricted
+F01 form, conditionally stabilize an F02 sector, or remove F02 through completion. Nothing assigns
+physical mass or selects a family. The package passes 20 source hashes, 14/14 catches, and an
+external `CLOSED-PASS` after removing an unsupported priority ranking.
 
-The action bridge supplies only partial analogies and zero exact F01 maps. The completed inverse
-tile now derives a nonempty conditional stabilizing region in one two-parameter wall-Hessian
-slice: finite angular trace-difference response must pass a field crossing, and a second direct
-lambda/mu curvature must then exceed an exact positive threshold. Angular pinning alone merely
-moves the negative direction. None of the wall coordinates is selected or native; the complete
-wall Hessian remains open. The proposed next tile is its full symmetry-permitted inverse cone, not
-a coefficient fit, physical boundary, action adoption, family sweep, T4/GPU solve, carrier,
-bootstrap equation, mass, or physical family count.
+F02 simultaneous realization, F01 full boundary/Hessian closure, F04 carrier-time-boundary
+closure, and F07 common realization remain separate open gates. No one is presently ranked above
+the others without an explicit criterion.
 
 `PONDER_MATH_ELEGANCE_2026-07-31.md` remains conjectural framing only. Its durable picture is
 taxonomy × stable basin; its saturation/Compton reading is a lead, and its nuclear ladder is a

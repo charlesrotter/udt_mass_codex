@@ -8,28 +8,19 @@
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then the marked current
 block in `HANDOFF.md`, `CURRENT_SCIENTIFIC_PREMISES.md`, `CURRENT_SCIENTIFIC_PREMISES.tsv`, and
-`udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md`, then
-`udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md` with its lay report, ledgers, precision
-repair, and independent result, then
-`udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md` with its route/map ledgers,
-repair registration, and cold review, then
-`udt_f01_second_wall_inverse_stability_2026-08-01/AUDIT_REPORT.md` with its threshold ledger,
-registered repair, and cold DOP853/FEM review. Expand into older P4/action packages only when load-bearing. The July 28
-frontier and external-review brief are pre-P4 context, not current navigation authority.
+`udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md` with its two machine-readable
+tables and cold-review closure. Use its source inventory to enter older family packages only when
+load-bearing. The July 28 frontier and external-review brief are pre-P4 context, not current
+navigation authority.
 
-Current honest status: the metric supplies a native typed off-shell coframe arena but no selected
-realized variation/response/boundary. `F01–F07` remain operational evidence buckets; exactly three
-rows are conditional realized families and zero are native. F01 is locally closed under its
-conditional germ-flat premises: R05 Schur positive, R06 joint witness negative, all four joint
-indices one, hence no local joint-stable survivor. The action bridge audit finds partial analogies
-but zero exact C2/Bach, EH, or two-stage maps into F01; the second wall germ remains open.
-The two-parameter inverse surface is now derived conditionally: a finite angular trace-difference
-response must pass a certified field crossing, then a positive direct lambda/mu wall curvature is
-required; neither is selected and the complete wall Hessian remains open. Bootstrap remains a
-working posit and PONDER a conjectural interpretation. The proposed next bounded work classifies
-the full symmetry-permitted second-wall Hessian cone before any selector comparison.
-The nuclear ladder remains `CONSISTENCY-DEMO / REIMPLEMENTATION` and the saturation/Compton reading
-remains a lead.
+Current honest status: F01 and F02 are different conditional geometry-only candidate-mass routes;
+F04 is a separate carrier/action-conditional energy model; F05 is a completion classifier rather
+than a family. F03/F06/F07 are control, empty-scope, and formal classes. Exactly three rows are
+conditional realized families and zero are native stable matter. The mechanisms are nonmonotonic:
+additional variation, wall response, jet stiffness, and completion can preserve, conditionally
+repair, or destroy different branches. No current result assigns physical mass. F02, F01, F04,
+and F07 have distinct open gates and no source-backed priority ordering yet. Bootstrap remains a
+working posit and PONDER a conjectural interpretation.
 
 Premise guards remain: founded `phi` is derived reciprocal depth; strong local CSN is inactive;
 `c_E` and `G_obs` are observed anchors; bootstrap is a lens, not a filter; θ and the `S2` carrier

@@ -6,33 +6,26 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — F01 conditional inverse wall-stability surface derived
+## CURRENT — post-July conditional mass branches reconciled
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md`, then its exact
-   derivation, basin gate, and cold review.
-4. `udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md`, then its lay report, ledgers,
-   precision repair, certificates, and independent result.
-5. `udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md`, then its lay report,
-   exact derivation, route/map/premise ledgers, repair registration, and cold review.
-6. `udt_f01_second_wall_inverse_stability_2026-08-01/AUDIT_REPORT.md`, then its lay report, exact
-   derivation, threshold/status/premise ledgers, repair registration/closure, and cold review.
-7. The stability-family ontology, derivation-closure, and global/local premise audits when their
-   family or bootstrap typing becomes load-bearing.
-8. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
+3. `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
+   `FAMILY_RECONCILIATION.tsv`, `MECHANISM_EFFECT_MATRIX.tsv`, and the cold-review closure.
+4. Follow `SOURCE_INVENTORY.tsv` into exact F01/F02/F04/F05/F07 packages only when load-bearing.
+5. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
    14, and 20. It is not evidence or a premise.
-9. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
+6. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
    load-bearing; CLAUDE.md method sections and task-triggered protocols always apply.
 
-**Current honest result:** the complete metric defines a native typed off-shell coframe arena, but
-not its realized variation/response/boundary law. `F01–F07` remain operational evidence buckets;
-only `F01`, `F02`, and `F04` are conditional realized rows, and zero are native. The F01 lambda/mu
-tile is closed locally: R05 Schur signs are positive, R06 has negative joint witnesses, and all four
-owned conditional local joint indices are one. Hence no F01 joint-stable survivor exists under the
-tested germ-flat wall response.
+**Current honest result:** multiple recent results had been colloquially described as producing
+mass, but they are different objects under different conditions. F01 and F02 are distinct
+geometry-only candidate mass routes; F04 has conditional static energy through a posited carrier
+and action. F05 classifies completions rather than supplying another matter family. F03 is a
+control, F06 contains exact empty scopes, and F07 is formal architecture. Three conditional
+realized rows exist, but zero native stable-matter families and zero physical mass assignments.
 
 **Bootstrap status:** global/local mutual determination is a coherent `WORKING POSIT`. Observer
 Reciprocity constrains a future law to be natural/equivariant, but does not create the missing
@@ -43,27 +36,21 @@ them would be circular.
 candidate sectors; stability may prune them; mass may be a basin/global-closure property. The
 saturation/Compton reading is a lead. The nuclear ladder is consistency-demo/reimplementation.
 
-**Bridge result:** `PARTIAL_ANALOGIES_ONLY__F01_BOUNDARY_BRIDGE_OPEN`. C2/Bach, EH, and the
-two-stage ordering have derivative-order or ordering analogies but no exact map into F01's fields,
-background, tangent/trace domain, boundary one-form/Hessian, or second wall germ. Current G04/G10
-also make C2/Bach inactive without explicitly reauthorized strong local CSN. The bridge audit is
-verified after a transparent repair layer; it selects no action or boundary.
+**Why conditional branches differ:** integrated response admits F01 while pointwise response kills
+it. Restoring an omitted F01 modulus removes a favorable slice; extra wall response can repair only
+a restricted unselected form. F02's registered jet stiffness can make one tested sector
+nonnegative under an exact inequality, but other completions can remove the branch. F04 is a
+separate carrier/action-conditional energy landscape. “Everything on” was always bounded to a
+registered layer, never the complete UDT theory.
 
-**Inverse result:** `TWO_PARAMETER_CONDITIONAL_STABILITY_THRESHOLD_SURFACE_DERIVED`, verified with
-historical caveats and cold mathematical `PASS` after the finite-`beta` repair. In the aligned
-trace-difference/direct-lambda slice, angular response must first pass a certified field crossing;
-below it no `eta` helps, at it no finite `eta` helps, and above it the exact threshold is
-`eta>=-S_nu(tau)`. At the R06 hard-pin endpoint the representative direct-`mu` thresholds are about
-`2.08` and `3.52` for the two `p` domains. The response coefficients are explored coordinates,
-not UDT-derived or selected, and the complete wall Hessian remains open.
-
-**Proposed next bounded action:** classify the full symmetry-permitted second-wall Hessian and its
-nonnegative cone on the frozen F01 domains before comparing any native selector. This is proposed,
-not authorized. Stop rather than fit coefficients or launch another family sweep if no realized
-variation/boundary premise supplies the missing law.
+**Next-work boundary:** F02 simultaneous realization is one admissible bounded test. It is not
+ranked above F01's full boundary/Hessian problem, F04's carrier-time-boundary join, or F07's common
+realization gate. Any choice must state an explicit criterion; none licenses coefficient fitting,
+action/carrier adoption, GPU work, or a native-mass claim.
 
 **Operational baseline:** preregistration → bounded derivation → independent adversarial replay →
-premise audit → bank and push. Tests: 70 passed / 1 xfailed.
+premise audit → bank and push. Reconciliation: 20 frozen sources, 7 object rows, 16 mechanism rows,
+14/14 catches, external `CLOSED-PASS`. Tests: 70 passed / 1 xfailed.
 
 <!-- STARTUP_CURRENT_END -->
 

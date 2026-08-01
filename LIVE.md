@@ -5,85 +5,51 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — F01 INVERSE WALL-STABILITY SURFACE DERIVED CONDITIONALLY) ============
+## ============ CURRENT STATE (2026-08-01 — POST-JULY MASS BRANCHES RECONCILED) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md` and its cold review →
-`udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`, status/premise ledgers,
-precision repair, and independent result →
-`udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
-route/map/premise ledgers, repair registration, and cold review →
-`udt_f01_second_wall_inverse_stability_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`, exact
-derivation, threshold/status/premise ledgers, registered repair, and cold review →
-`udt_stability_family_ontology_audit_2026-08-01/AUDIT_REPORT.md`
-and the closure/global-local parents → `PONDER_MATH_ELEGANCE_2026-07-31.md` only as conjectural
-framing, especially §§1, 3–4, 7, 14, and 20.
+`udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
+`FAMILY_RECONCILIATION.tsv`, and `MECHANISM_EFFECT_MATRIX.tsv` → load-bearing family packages only
+as routed by `SOURCE_INVENTORY.tsv`. Read `PONDER_MATH_ELEGANCE_2026-07-31.md` only as conjectural
+framing, never as evidence or a premise.
 
-**NATIVE PARENT RESULT:** `NATIVE_OFFSHELL_PARENT_ARENA_DERIVED__REALIZATION_VARIATION_OPEN`.
-The founded complete metric/coframe supplies a genuine nonempty typed off-shell arena with the
-reciprocal pair plus angular/mixing slots modulo presentation gauge. It does not select a realized
-variation/tangent domain, response or persistence flow, physical boundary, common on-shell object,
-carrier embedding, or bootstrap return. The three realized evidence rows remain conditional and
-zero native realized stability families are known.
+**RESULT:** `MULTIPLE_CONDITIONAL_MASS_BEARING_ROUTES_RECONCILED__NO_NATIVE_STABLE_MASS`.
+The recent record was not one massive branch. It contains two distinct geometry-only candidate
+mass routes (`F01`, constants census; `F02`, fields census), one separate carrier-conditional
+energy-bearing Hopfion model (`F04`), and control/structural/empty/formal classes (`F03`, `F05`,
+`F06`, `F07`). Exactly three rows are conditional realized families; zero are native realized
+stable-matter families. No candidate reading is promoted to physical mass and no species count is
+justified.
 
-**F01 RESULT (commit `42aed84`):** the unique conditional massive crease root is
-`1.68102 < s* < 1.68103`. Across both owned `p` endpoint domains, R05/free angular traces have a
-strictly positive lambda/mu Schur scalar, while R06/supplied odd zero traces have exact strictly
-negative joint witnesses. All four full local conditional joint indices equal one. The apparent R06
-positive survivor was a reduced field slice with `mu` frozen. Outcome:
-`SCHUR_SIGN_MIXED_ACROSS_OWNED_BRANCHES`; verified with nested 80/100-digit primary intervals,
-independent 90/100-digit reconstruction, 14/14 cold catches, six frozen manifests, and the 70/1
-test baseline.
+**MECHANISM RULING:** admitting more structure is not monotonic. Pointwise variation kills F01's
+integrated nonzero branch; restoring its frozen modulus removes an apparent positive slice; two
+unselected wall responses can conditionally repair only a restricted F01 quadratic form. F02 is
+unstable without its registered jet stiffness and conditionally nonnegative in that sector under
+the exact mass-size-stiffness inequality, while cyclic/fold completion can remove its massive
+landing. F04's nonzero static energy and finite-box stability require the posited round-`S2`
+carrier and conditional `L2+L4` functional. Formal time/angular compatibility does not exhibit one
+common nonzero on-shell object.
 
-**INTERPRETATION:** F01 has no local joint-stable survivor under the conditional P4 response,
-`ell=1`, the named supplied trace forks, and germ-Hessian-flat wall witnesses. This is a scoped
-negative, not a refutation of UDT matter or the global stability hypothesis. It demonstrates that
-stability cannot be inferred from a favorable slice while an allowed global coordinate is frozen.
-The free second wall germ and physical boundary remain unowned; the banked jet<=2 layer proves this
-nonownership, while N4 is typed but supplies no equation.
+**EVIDENCE GRADE:** `VERIFIED-WITH-CAVEATS` branch/mechanism reconciliation. Twenty load-bearing
+sources are hash-frozen; all seven object rows and sixteen mechanism axes pass fourteen exercised
+fail-closed catches. A fresh external source-excerpt reconstruction upheld every scientific
+classification, required removal of an unsupported next-work ranking, and then returned
+`CLOSED-PASS`. Six frozen manifests, the current premise registry, and the `70 passed, 1 xfailed`
+test baseline pass.
 
-**PONDER RULING:** taxonomy × stable basin and action-downstream-of-global/local-closure remain
-working interpretations only. The conditional Compton-form edge is a lead. The nuclear ladder is
-`CONSISTENCY-DEMO / REIMPLEMENTATION`, chiefly standard SEMF/WKB structure, and supplies no native
-UDT physics. PONDER is never an input to a derivation.
+**NEXT-WORK STATUS:** F02 simultaneous realization is one admissible bounded test, not a uniquely
+ranked next step. The open F01 complete boundary/Hessian gate, F04 carrier-time-boundary join, and
+F07 common-realization gate are also live. Choosing among them requires an explicit criterion and
+source-backed comparison; the former F01-only next-action wording is superseded.
 
-**ACTION/BOUNDARY BRIDGE RESULT (commit `dc96fba`):**
-`PARTIAL_ANALOGIES_ONLY__F01_BOUNDARY_BRIDGE_OPEN`. Across 12 gates per route, neither the
-historical pre-scale `C2/Bach` class, post-scale `EH`, nor the proposed two-stage ordering supplies
-an exact F01 field/background/tangent/trace/boundary-Hessian map. `C2/Bach` is additionally
-`INACTIVE_WITHOUT_STRONG_CSN_PREMISE__COUNTERFACTUAL_ONLY` under current G04/G10. A computed
-total-derivative counterfamily proves that the same interior Euler equation can carry different
-boundary one-forms and Hessians. The cold rerun passes after three registered evidence repairs.
+**PREMISE STAMPS:** founded `phi` and the native off-shell coframe arena remain `DERIVED`; the P4
+responses, variation censuses, completions, and F01/F02 branches remain `CONDITIONAL`; the `S2`
+carrier is `POSIT` and its `L2+L4` action is `CONDITIONAL`; bootstrap/global-local closure is a
+`WORKING POSIT`; native realized variation/response, physical boundary, time persistence, source,
+carrier emergence, bootstrap return, unconditional mass, and physical family count remain `OPEN`.
 
-**F01 INVERSE WALL-STABILITY RESULT (commit `c765dbc`):**
-`TWO_PARAMETER_CONDITIONAL_STABILITY_THRESHOLD_SURFACE_DERIVED`, evidence grade
-`VERIFIED-WITH-CAVEATS`; cold mathematical status `PASS` after the registered finite-`beta`
-repair. A finite aligned angular trace-difference Hessian gives
-`tau(beta)=s^2 beta/(1+beta J)`: R05 is `beta=0`, and R06 is reached only as
-`beta->infinity`. The field crossing occurs at normalized `t=tau/tau_infinity` in
-`[0.441774,0.442347]` (Dirichlet) and `[0.554199,0.554983]` (free right). Below it no direct
-lambda/mu curvature can repair the field negative direction; at it no finite curvature can repair
-the coupled zero mode; above it the exact conditional threshold is `eta>=-S_nu(tau)`. At the R06
-endpoint the representative `mu^2` thresholds are `[2.06552,2.10393]` and
-`[3.49307,3.53778]`. Fifteen symbolic controls, 14 semantic/schema catches, a 135-source cold
-DOP853/FEM reconstruction, 25/25 independent comparisons, and the 32-file package manifest pass.
-
-**INTERPRETATION:** angular pinning alone moves the negative direction into the lambda/mu block;
-it does not remove it. In this restricted slice a future closure law must coordinate two wall
-responses. Neither `beta`, `tau`, nor `eta` is supplied, selected, native, or physical, and the
-complete wall Hessian is not covered. This is an inverse target, not a stable-matter result.
-
-**PROPOSED NEXT BOUNDED ACTION — NOT YET AUTHORIZED:** before testing a native selector against
-this partial target, classify the complete symmetry-permitted second-wall Hessian and its exact
-nonnegative cone on the same frozen F01 domains, including independent wall matrices and cross
-germs. If that full inverse classification remains nonselective, stop F01 until a realized
-variation/boundary premise is derived or Charles separately authorizes one. No blind family sweep
-or coefficient fitting is justified.
-
-**AUTHORITY BOUNDARY:** complete native action, response/source law, differentiable physical
-boundary, carrier emergence, time persistence, bootstrap membership/return, unconditional mass,
-and physical family/species count remain `OPEN`. No GPU work, canonization, or repository
-reorganization.
+**AUTHORITY BOUNDARY:** no action, response, carrier, boundary, bootstrap law, or family is adopted.
+No GPU work, canonization, or repository reorganization.
 
 <!-- STARTUP_CURRENT_END -->
 
