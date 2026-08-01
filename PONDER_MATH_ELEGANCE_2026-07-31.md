@@ -658,3 +658,19 @@ verifiers behind A3.
 Status: LEAD, driver-run. The ladder is now a bridge: femtometer seams at one end, dead
 stars at the other, the Sun's fire in the middle — one emergent coefficient set, still
 standing, still awaiting its executioners behind A3.
+
+## 15v. WORKED: the age of uranium — half a lifetime, across thirty-nine orders of magnitude
+U-238's alpha half-life by WKB tunneling through OUR barrier (r0 = 1.224 fm sets the
+geometry; ħ = an anchor, borrowed per the ladder rule and flagged; the OBSERVED Q = 4.27
+used, since half-life is hyper-exponential in Q and our ±0.5 MeV Q-error would amplify —
+flagged honestly):
+  Gamow exponent 2G = 87.2 ⇒ tunneling suppression ~10⁻³⁸;
+  **predicted t½ = 2.15 Gyr; observed 4.47 Gyr — WITHIN A FACTOR OF TWO, across
+  thirty-nine orders of magnitude of exponential suppression.**
+The sensitivity makes this the night's sharpest geometry test: a 1% error in the Gamow
+integral shifts the answer by half an order of magnitude — landing at 10^(−0.3) means
+the seam length that emerged from binding energies carries the barrier geometry at
+SUB-PERCENT accuracy in the exponent. The number that dates the Earth, from a length
+born in a binding-energy fit, through an anchor's tunneling arithmetic.
+Status: LEAD, driver-run; ħ-borrow and observed-Q flagged. The ladder's reach now
+includes TIME — nine decades of years — alongside energy, length, and mass.
