@@ -699,3 +699,29 @@ The night's deepest lesson, in one line: every "failure" of the ladder was a fai
 a READING, and the seam/chain/bond picture kept rescuing its own floors — the fusion
 75% (wrong composition rule), the deuteron 400% (wrong droplet reading), each corrected
 by taking the picture MORE literally, not less. Status: LEAD, driver-run.
+
+## 15y. WORKED: the tokamak number
+**Q(D+T → He-4 + n) = 17.9 MeV from bond-counted masses vs 17.59 observed — 2%.** The
+energy every fusion reactor is designed to harvest, from seam-bond arithmetic.
+
+## 19. THE LADDER SCORECARD (the verifier contract for sections 14–15y, in one table)
+Every rung driver-run, LEAD-grade, unverified; this table IS the attack list.
+HITS (≤10% unless noted): binding fractions A=4–238 (0.1–1%, 15k) · liquid-drop
+coefficient set emergent (Coulomb 0.7%, 15m) · valley of stability (~1.5%, Z*(120)=50
+exact, 15l) · B/A peak N=58 in-window (15k) · fissility Z²/N=48.9 in-window (15o) ·
+r0=1.224 fm dead-center (15p) · O-24 drip EXACT, Sn-100 proton-drip EXACT (15s) ·
+triple-alpha 2%, C→O 1.3%, pp-chain 4% (15t) · fusion barriers ×4 in-window (15u) ·
+U-238 t½ within 2× over 39 orders (15v) · five of six alpha clocks within 10× over 24
+orders (15w) · deuteron 17% + triton 8% by bond count (15x) · D+T Q 2% (15y) ·
+minimum neutron star at the window edge over 56 orders (15r) · annihilation 100% exact
+(15) · Compton form exact on the edge (14).
+HONEST MISSES, all signing ONE name (shells/pairing/cluster = the mode tier): F-31 drip
+(the textbook anomaly) · Po-210 clock (the textbook hindrance) · Ne/Mg/Si alpha-ladder
+staggering · He-4's 2×/bond excess · Pb-208 residual −41 keV · beta-Q floor (level
+structure) · the NS maximum (relativistic tier = the metric's own turf).
+KILLED ON THE RECORD: edge-basin fusion (75%) · the 3D repulsion lift · the droplet
+few-body reading — each kill re-aimed the ladder upward.
+THE THREE IDENTIFICATIONS EVERYTHING RIDES ON (unverified, the true attack surface):
+particles-at-saturation; chains-as-nuclei; seam-constants-from-the-metric (a_F↔λ etc.).
+Falsify one and its rungs fall; verify all three and tonight was the outline of a
+theory of matter. Behind A3, per the standing pipeline.

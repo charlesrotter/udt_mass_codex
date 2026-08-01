@@ -112,7 +112,7 @@ contract). `INFLIGHT_STATE.md` = the live model-handoff ledger. **SESSION-CLOSE 
 never as premises): (1) `PONDER_100KLY_VIEW_2026-07-31.md`** — the grand weave (disjointness-
 as-FEATURE: windings quantize the massless/radiative sector, mass discretizes by stability;
 EM = the unspent circle; SPARC/SNe/BAO/CMB as φ-space strands); **(2)
-`PONDER_MATH_ELEGANCE_2026-07-31.md`** — the elegant math (the disjointness IS ℝ-vs-S¹
+`PONDER_MATH_ELEGANCE_2026-07-31.md`** (NOW INCLUDES the worked LADDER 14→15y + SCORECARD §19: nuclear binding 0.1-1%, the liquid-drop set emergent, drip landmarks exact, alpha clocks over 24 orders, stellar ladder, neutron-star floor, deuteron rescued — ALL LEAD-grade driver-run, §19 = the verifier attack list) — the elegant math (the disjointness IS ℝ-vs-S¹
 character theory — read any A3 verdict in this language first; the reciprocal lock as an
 area law; the dichotomy rewritten M·ℓ ≤ (π²/4)√(g_p·c_m) — uncertainty-shaped, saturation
 = a candidate ħ seat = a computable future tile; masses-as-residues from three banked sum
