@@ -455,3 +455,16 @@ to: heavy-sector masses at 1–2% unpinned, the Coulomb constant emergent within
 residuals sitting exactly on nature's own known anomaly sites (few-body, alpha-cluster,
 pairing). Status: LEAD, driver-run; the pre-registered confrontation inherits the
 four-term law + the named seats (off-stability pins; pairing; shells), behind A3.
+
+## 18. (Charles, final architecture insight): the two-tier computational structure — CONFIRMED by tonight's ladder
+Charles's formulation, banked as the program's computational architecture: **the heavy
+PDE solves are needed once per BASIN** — the fundamental catalog (proton, electron, the
+species and their mass ratios, pinned by stability + saturation + sum rules) and the
+SEAM/WALL CONSTANTS each basin type carries; **everything above that layer is ALGEBRA** —
+combinations, bindings, nuclei, elements, chemistry, as tonight demonstrated live: given
+one anchor mass and seam arithmetic, the binding curve, fission energetics, and an
+emergent Coulomb coefficient followed from one-line formulas. This mirrors nature's own
+computational stratification (lattice-QCD-hard for one proton; effective algebraic laws
+for everything built from it) — but here BOTH tiers descend from ONE object, the metric:
+the solves grind its basins, the algebra propagates its seams. Cost structure of the
+whole future program: expensive rarely (the catalog), cheap forever after (the world).
