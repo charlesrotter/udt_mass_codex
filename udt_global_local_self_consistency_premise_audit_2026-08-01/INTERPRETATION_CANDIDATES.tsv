@@ -1,0 +1,13 @@
+candidate_id	interpretation	question	passing_requirement
+I01	METRIC_ONTOLOGY_ENTAILMENT	Does the metric-is-theory rule itself entail two-way global/local determination?	explicit implication beyond claim-trace discipline
+I02	COMPLETE_SOLUTION_ADMISSIBILITY	Does mathematical completeness select a physically realized complete solution?	nonidentity admissibility condition plus selection meaning
+I03	FORWARD_RESTRICTION_READOUT	Does a complete-to-local restriction/readout provide its own return?	derived section inverse adjoint or response operation
+I04	READOUT_GRAPH_FIXED_POINT	Does O=R(X) impose feedback on X?	rank reduction in X after O is internally generated
+I05	FINITE_DOMAIN_CLOSURE	Does a finite domain derive the missing global/local join?	complete boundary/corner law and differentiable return
+I06	OBSERVER_RECIPROCITY_CLOSURE	Does founded observer equivalence generate mutual determination?	nonidentity zero-preserving equivariant return not merely naturality
+I07	INTERNAL_DUAL_PAIR_CLOSURE	Does clock/ruler pairing extend to a whole-configuration response?	complete nondegenerate pairing plus selected level/covector
+I08	VARIATIONAL_SELF_CONSISTENCY	Is a native variational stationarity rule already selected?	derived action variation domain and boundary completion
+I09	STABILITY_SELF_CONSISTENCY	Does persistence/stability supply the global/local return?	unconditional carrier-independent realized stability law
+I10	OBSERVATIONAL_OR_BOOTSTRAP_MATCHING	Do observed anchors or cosmological/micro readouts supply the law?	metric-native operation rather than calibration or discrimination
+I11	WEAK_BOOTSTRAP_EXISTENCE	Does saying a self-consistent universe exists close the operational gap?	typed constructive existence condition not a restatement
+I12	OTHER_FROZEN_SOURCE_ROUTE	Does any other frozen current source supply the complete mutual law?	exact current-authority source satisfying all seven gates

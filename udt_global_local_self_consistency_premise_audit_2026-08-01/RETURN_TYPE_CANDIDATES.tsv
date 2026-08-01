@@ -1,0 +1,9 @@
+type_id	logical_type	minimum_extra_structure	preaudit_status
+T01	SECTION_OR_RIGHT_INVERSE	a chosen section of the forward readout	OPEN_CANDIDATE_TYPE
+T02	LEFT_INVERSE_RECONSTRUCTION	injective complete readout and inverse on its image	OPEN_CANDIDATE_TYPE
+T03	FIXED_POINT_OPERATOR	a nonidentity endomorphism and equality/zero	OPEN_CANDIDATE_TYPE
+T04	VARIATIONAL_EULER_MAP	action variation domain and boundary terms	OPEN_CANDIDATE_TYPE
+T05	BOUNDARY_TO_BULK_EXTENSION	well-posed boundary data and extension rule	OPEN_CANDIDATE_TYPE
+T06	GLOBAL_INTEGRAL_TO_LOCAL_RESPONSE	measure observable response pairing and local owner	OPEN_CANDIDATE_TYPE
+T07	ADMISSIBILITY_RELATION	a nontrivial relation on complete configurations	OPEN_CANDIDATE_TYPE
+T08	SET_VALUED_OR_PROBABILISTIC_RETURN	selection semantics measure/ranking and physical interpretation	OPEN_CANDIDATE_TYPE

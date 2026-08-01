@@ -1,0 +1,4 @@
+layer	paths	rule
+PARENT_1384_SOURCE_UNIVERSE	1384	exact parent frozen inventory
+WHOLE_RECIPROCITY_PARENT_PACKAGE	40	complete tracked package at base
+UNION	1424	sorted unique additions-only union
