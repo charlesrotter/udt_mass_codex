@@ -5,9 +5,11 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — F02 LOCAL DIRICHLET-SECTOR WITNESS EXISTS CONDITIONALLY) ============
+## ============ CURRENT STATE (2026-08-01 — F02 GLOBAL COMPLETION GATE NARROWED; TRANSITION/JOIN DATA OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_f02_global_completion_admissibility_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
+`EXACT_DERIVATION.md`, and `COMPLETION_CENSUS.tsv` →
 `udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
 `EXACT_DERIVATION.md`, `CONDITION_LEDGER.tsv`, and cold-review closure →
 `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
@@ -36,6 +38,17 @@ and registered Dirichlet sector. It does not produce a completed stationary obje
 physical realization. The external review passed the Euler/Hessian algebra, rejected the broader
 stationary-witness wording, and returned `CLOSED-PASS` after the nonperiodic/local-sector repair.
 
+**F02 GLOBAL-COMPLETION RESULT (commit `bafc5d7`):**
+`OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA`. One-cell cycles and every homogeneous multi-cell cycle
+with a common nondegenerate response force all affine slopes to zero; heterogeneous positive-sector
+chains obey the same common-momentum theorem. Regular toric caps independently force `df=dbh=0`,
+so even one cap kills affine F02 slopes, and the registered two-cap `f=+1,-1` values make the
+incompatibility explicit without assuming `R-A`. Raw same-member slope cancellation violates
+momentum matching. Sign-twisted and indefinite cross-member cancellations exist algebraically, but
+their complete F02 coframe/response descent, moving-seam, and J07/J11 laws are not registered.
+Open/acyclic remains local only. Thus no complete nonzero witness was found and no exhaustive no-go
+was earned.
+
 **MECHANISM RULING:** admitting more structure is not monotonic. Pointwise variation kills F01's
 integrated nonzero branch; restoring its frozen modulus removes an apparent positive slice; two
 unselected wall responses can conditionally repair only a restricted F01 quadratic form. F02 is
@@ -52,11 +65,18 @@ classification, required removal of an unsupported next-work ranking, and then r
 `CLOSED-PASS`. Six frozen manifests, the current premise registry, and the `70 passed, 1 xfailed`
 test baseline pass.
 
-**NEXT-WORK STATUS:** the F02 local coexistence test is complete. Its next missing joint is now
-sharp: determine whether any registered complete finite-cell/global branch can retain the
-`p=0`, nonzero-affine-slope landing without importing a physical boundary or `R-A`; cyclic closure
-and supplied `R-A` already kill it, while the surviving open/acyclic posture is not a derived
-physical completion. F01, F04, and F07 remain separate live gates, not ruled out by F02.
+The F02 completion package separately passes 10/10 exact checks, a non-importing independent
+reconstruction, 13/13 catches, premise guards, six frozen manifests / 133 paths, and the same test
+baseline. Its external cold semantic review was blocked by the environment privacy gate despite
+prior general authorization and remains explicitly owed; therefore the completion result stays
+`OPEN` / `VERIFIED-WITH-CAVEATS` and cannot be strengthened.
+
+**NEXT-WORK STATUS:** the F02 global-completion census is complete at the registered-data level.
+Before using it affirmatively, obtain the owed cold semantic review. The remaining mathematical
+joint is no longer “try another loop”: derive the complete F02 transformation/response and first-
+jet seam law for the already typed twisted and cross-family completion rows, or derive a boundary/
+completion selector that decides those data. Neither is currently authorized or supplied. F01,
+F04, and F07 remain separate live gates, not ruled out by F02.
 
 **PREMISE STAMPS:** founded `phi` and the native off-shell coframe arena remain `DERIVED`; the P4
 responses, variation censuses, completions, and F01/F02 branches remain `CONDITIONAL`; the `S2`

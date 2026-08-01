@@ -6,20 +6,22 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — F02 nonperiodic local Dirichlet-sector witness exists conditionally
+## CURRENT — F02 global completion gate narrowed; transition/join data remain open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, then its lay report,
+3. `udt_f02_global_completion_admissibility_2026-08-01/AUDIT_REPORT.md`, then its lay report,
+   exact derivation, completion census, machine result, and external-review status.
+4. `udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, then its lay report,
    exact derivation, condition ledger, machine result, and cold-review closure.
-4. `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
+5. `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
    `FAMILY_RECONCILIATION.tsv`, `MECHANISM_EFFECT_MATRIX.tsv`, and the cold-review closure.
-5. Follow the reconciliation source inventory into exact F01/F02/F04/F05/F07 packages only when load-bearing.
-6. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
+6. Follow the reconciliation source inventory into exact F01/F02/F04/F05/F07 packages only when load-bearing.
+7. `PONDER_MATH_ELEGANCE_2026-07-31.md` as conjectural framing only, especially §§1, 3–4, 7,
    14, and 20. It is not evidence or a premise.
-7. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
+8. `P4_ARC_SUMMARY_2026-07-31.md` and exact P4 packages only when their algebra becomes
    load-bearing; CLAUDE.md method sections and task-triggered protocols always apply.
 
 **Current honest result:** multiple recent results had been colloquially described as producing
@@ -34,6 +36,13 @@ registered positive Dirichlet Hessian sector at once. With `E0=1/8`, its three a
 readings are `1/4` and the wall reading is `0`. It is deliberately nonperiodic: its angular field
 has endpoint jump one. The open/acyclic posture is supplied and no physical/global completion or
 completed stationary object is claimed.
+
+**F02 completion ruling:** `OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA`. Ordinary cycles with one
+common nondegenerate response, and all heterogeneous positive-sector cycles, force zero slopes.
+Regular caps also force zero affine slopes independently of `R-A`. A sign twist and an indefinite
+cross-member cancellation exist algebraically, but their complete coframe/response descent and
+first-jet/moving-seam laws are missing; mixed joins are likewise incomplete. The open strip remains
+local, not physical. No complete nonzero witness and no exhaustive no-go were established.
 
 **Bootstrap status:** global/local mutual determination is a coherent `WORKING POSIT`. Observer
 Reciprocity constrains a future law to be natural/equivariant, but does not create the missing
@@ -51,16 +60,17 @@ nonnegative under an exact inequality, but other completions can remove the bran
 separate carrier/action-conditional energy landscape. “Everything on” was always bounded to a
 registered layer, never the complete UDT theory.
 
-**Next-work boundary:** for F02 the algebraic-coexistence question is closed; the remaining gate is
-whether a registered complete finite-cell/global branch can retain this landing without importing
-a physical boundary or fold premise. Cyclic closure and supplied `R-A` kill it; the open/acyclic
-posture survives only conditionally. F01, F04, and F07 remain separate. No coefficient fitting,
-action/carrier adoption, GPU work, or native-mass claim is licensed.
+**Next-work boundary:** first close the owed external semantic review (the launch was rejected by
+the environment privacy gate). After that, the precise unresolved F02 object is a complete
+transition/response and seam law for the already typed twisted/cross-family rows, not another raw
+loop trial. No such derivation, boundary selector, coefficient fitting, action/carrier adoption,
+GPU work, or native-mass claim is licensed. F01, F04, and F07 remain separate.
 
 **Operational baseline:** preregistration → bounded derivation → independent adversarial replay →
 premise audit → bank and push. F02: 10/10 primary checks, 11/11 catches, external algebra passes and
 scope `CLOSED-PASS`. Reconciliation: 20 frozen sources, 7 object rows, 16 mechanism rows, 14/14
-catches. Tests: 70 passed / 1 xfailed.
+catches. F02 completion: 10/10 primary checks, independent local PASS, 13/13 catches, external cold
+review owed. Tests: 70 passed / 1 xfailed; six frozen manifests / 133 paths unchanged.
 
 <!-- STARTUP_CURRENT_END -->
 

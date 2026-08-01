@@ -3,8 +3,10 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — CONDITIONAL F02 LOCAL DIRICHLET-SECTOR WITNESS:**
-Read `udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, its lay report,
+**➤ CURRENT SCIENTIFIC FRONTIER — F02 COMPLETION GATE NARROWED; TRANSITION/JOIN DATA OPEN:**
+Read `udt_f02_global_completion_admissibility_2026-08-01/AUDIT_REPORT.md`, its lay report,
+exact derivation, completion census, and external-review status; then read
+`udt_f02_stationary_simultaneous_realization_2026-08-01/AUDIT_REPORT.md`, its lay report,
 exact derivation, condition ledger, and cold-review closure; then read
 `udt_post_july_mass_branch_reconciliation_2026-08-01/AUDIT_REPORT.md`, its lay report,
 `FAMILY_RECONCILIATION.tsv`, `MECHANISM_EFFECT_MATRIX.tsv`, and cold-review closure. Its
@@ -24,9 +26,14 @@ the others without an explicit criterion.
 
 The F02 follow-on constructs one exact nonperiodic local background with `E0=1/8`, three candidate
 readings `1/4`, dissenting wall reading `0`, and a positive registered Dirichlet Hessian sector.
-This is not a completed stationary or global object. Cyclic completion and supplied fold premise
-`R-A` kill the affine slope; open/acyclic posture leaves it alive but is not a derived physical
-completion. That global-completion join is now the sharp F02 gate.
+This is not a completed stationary or global object. The completion audit now proves that ordinary
+common-response cycles and regular caps kill the affine slopes (the cap result does not require
+`R-A`). Twisted and indefinite cross-member cancellations exist algebraically, but complete F02
+transition/response and seam laws are not registered; mixed joins share that gap. The result is
+`OPEN_INCOMPLETE_REGISTERED_CLOSURE_DATA`: no complete nonzero witness and no exhaustive no-go.
+The package passes 10/10 primary checks, independent local verification, 13/13 catches, frozen
+manifests, premise guards, and tests. Its external cold semantic review remains owed after an
+environment privacy-gate rejection.
 
 `PONDER_MATH_ELEGANCE_2026-07-31.md` remains conjectural framing only. Its durable picture is
 taxonomy × stable basin; its saturation/Compton reading is a lead, and its nuclear ladder is a
