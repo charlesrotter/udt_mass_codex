@@ -1,0 +1,42 @@
+{
+  "audit": "UDT_STABILITY_FOUNDATIONS_COLD_VERIFIER_2026-08-01",
+  "bankable_as_is": false,
+  "bootstrap": "TWO_ARROW_TYPE_SCHEMA_ONLY",
+  "counts": {
+    "mutation_catches": 7,
+    "normal_checks": 30,
+    "normal_pass": 30,
+    "records": 32,
+    "required_amendments": 2
+  },
+  "current_operational_status_survives": "CONDITIONAL_STABILITY_ONLY",
+  "fixed_realized_on_shell_coexistence": "OPEN",
+  "four_gates": {
+    "bounded_scope_justified": "PASS",
+    "every_premise_audited": "REQUIRES_A1_TRANSITIVE_FREEZE",
+    "independent_load_bearing_recomputation": "PASS",
+    "preregistered": "PASS"
+  },
+  "implementation": "stdlib_only_no_producer_import",
+  "native_action_response_carrier": "OPEN_OR_CONDITIONAL_AS_SOURCE_STAMPED",
+  "primary_outcome_survives": "FOUNDATIONS_PARTIAL_MINIMAL_JOIN_IDENTIFIED",
+  "python_version": "3.10.12",
+  "raw_sha256": "cafbaea0427ee08c3f8ad1e1cbadf780ee55b880f8a2fa3dba4c34ec317c27a4",
+  "records_sha256_basis": "VERIFIER_RAW.jsonl is written from the ordered records below",
+  "required_amendments": [
+    {
+      "detail": "missing direct frozen controlling sources=['udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv', 'udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md', 'udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv', 'udt_global_local_relational_closure_audit_2026-07-25/STATUS_LEDGER.tsv']",
+      "id": "A1_TRANSITIVE_PREMISE_FREEZE",
+      "kind": "REQUIRED_AMENDMENT",
+      "pass": false
+    },
+    {
+      "detail": "replace/qualify literal image intersection by a compatible pullback/fiber-product and require nonzero live sectors whenever live coexistence is claimed",
+      "id": "A2_NONDEGENERATE_REALIZATION_GATE",
+      "kind": "REQUIRED_AMENDMENT",
+      "pass": false
+    }
+  ],
+  "scientific_ceiling_survives": true,
+  "verdict": "PASS-WITH-REQUIRED-AMENDMENTS"
+}

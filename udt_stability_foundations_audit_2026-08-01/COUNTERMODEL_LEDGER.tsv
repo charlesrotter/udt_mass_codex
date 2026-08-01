@@ -1,0 +1,9 @@
+id	shared_data	supplied_law_or_functional	exact_check	verdict	scope_warning
+C01	same scalar configuration q and equilibrium q=0	q_dot=-q	V=q^2/2; dV/dt=-q^2	ASYMPTOTICALLY_STABLE	logic control only; not a UDT law
+C02	same scalar configuration q and equilibrium q=0	q_dot=+q	V=q^2/2; dV/dt=+q^2	UNSTABLE	logic control only; not a UDT law
+C03	same scalar configuration q and equilibrium q=0	q_dot=0	V=q^2/2; dV/dt=0	NEUTRAL	logic control only; not a UDT law
+C04	same scalar configuration q and background q=0	E_plus=q^2/2	Hessian=+1	STRICT_LOCAL_MINIMUM	shows a functional is load-bearing
+C05	same scalar configuration q and background q=0	E_minus=-q^2/2	Hessian=-1	STRICT_LOCAL_MAXIMUM	shows metric/configuration data do not fix energetic sign
+C06	same bootstrap state line B	F(B)=B/2	fixed point 0; derivative 1/2	CONTRACTING_FIXED_POINT	logic control only; no UDT map selected
+C07	same bootstrap state line B	F(B)=2B	fixed point 0; derivative 2	EXPANDING_FIXED_POINT	logic control only; no UDT map selected
+C08	same bootstrap state line B	F(B)=B+1	no fixed point	NO_FIXED_POINT	logic control only; schema does not imply closure

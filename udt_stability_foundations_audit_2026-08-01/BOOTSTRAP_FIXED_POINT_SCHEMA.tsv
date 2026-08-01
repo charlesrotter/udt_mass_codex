@@ -1,0 +1,10 @@
+id	symbol	typed_object	current_status	exact_scope_or_limit
+B01	B	global background/observable state	WORKING_PARTIAL	density/curvature/scale candidates exist; complete ontology open
+B02	A(B)	global-to-local admissibility/equation data	OPEN	must map B to local equations, coefficients, boundaries, or admitted branches
+B03	u in Sol(A(B))	realized local finite-cell solution	OPEN	requires native equation, boundary, and joint static/time/angular realization
+B04	R(u)	local-to-global observable response	OPEN	requires native mass/energy/curvature/source and global aggregation
+B05	B = R(u)	self-consistency equation	DERIVED_AS_TYPE_SCHEMA_ONLY	well-typed once B, A, Sol, and R are independently supplied
+B06	Fix(R o Sol o A)	fixed-point set	OPEN	existence/uniqueness cannot be inferred from the schema
+B07	D(R o Sol o A)	linear response around a fixed point	OPEN	the derivative cannot exist as a determined object before both arrows and branch regularity
+B08	rho=M/V	density quotient	DERIVED_CONDITIONAL	delta rho=(delta M-rho delta V)/V for same-solution native M and V; M is open
+B09	stability of fixed point	bootstrap persistence	OPEN	needs a topology/norm and a specified update or dynamical law; contraction is not assumed

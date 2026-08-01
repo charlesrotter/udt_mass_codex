@@ -1,0 +1,29 @@
+{"detail": {"VERIFIER_INDEPENDENT_CHECK.py": "4ae6fa294c2d7146d8e618d5031bcebf4bfb045753ea5632524c9b243902842e", "VERIFIER_RAW.jsonl": "cafbaea0427ee08c3f8ad1e1cbadf780ee55b880f8a2fa3dba4c34ec317c27a4", "VERIFIER_REPORT.md": "98200cafd7376e63f5ec974d3b0d9a129b6dc20322d3302a7c9059e1471c6bb3", "VERIFIER_RESULTS.json": "374ac4e5c4b35fd2234058f5715e82a6da948c545ecc51a4841de7b53d40b9b1"}, "id": "C01_ORIGINAL_VERIFIER_IMMUTABLE", "kind": "CHECK", "pass": true}
+{"detail": {"PREREG_SNAPSHOT.json": "1f7ea55bdc23b6f6942507f3cd392ed0e50daaa6e969047604979248c7362fe2", "SOURCE_INVENTORY.tsv": "7fac171e72d4430a08a69fe039598845af20e49a6a504fcc2e385483a0d9fc61", "SOURCE_MANIFEST.sha256": "32389f254adf1bac339dea5b9cf65ddf2c95237315b07e26e90053efb7414949", "SOURCE_PATHS.txt": "dcc6d0e546589cd7fa22d89a9405dac5643db3fba7b85a4004405464b879572b"}, "id": "C02_ORIGINAL_PREREG_IMMUTABLE", "kind": "CHECK", "pass": true}
+{"detail": {"mismatches": [], "rows": 94}, "id": "C03_ORIGINAL_94_BYTES", "kind": "CHECK", "pass": true}
+{"detail": {"base": "5adeb59dde063770c0619d37b76b03f735d82038", "maximum_conclusion": "premise-scoped stability-foundations architecture only", "premise_rows": 13, "source_inventory_sha256": "7fac171e72d4430a08a69fe039598845af20e49a6a504fcc2e385483a0d9fc61", "source_manifest_sha256": "32389f254adf1bac339dea5b9cf65ddf2c95237315b07e26e90053efb7414949", "source_paths": 94, "source_paths_sha256": "dcc6d0e546589cd7fa22d89a9405dac5643db3fba7b85a4004405464b879572b"}, "id": "C04_PREREG_SNAPSHOT", "kind": "CHECK", "pass": true}
+{"detail": [], "id": "C05_A1_FREEZE_SCHEMA", "kind": "CHECK", "pass": true}
+{"detail": [], "id": "C06_A1_SOURCE_BYTES", "kind": "CHECK", "pass": true}
+{"detail": {"rows": 4}, "id": "C07_A1_MANIFEST", "kind": "CHECK", "pass": true}
+{"detail": "post-outcome/not-preregistered and forward-only on 4/4 rows", "id": "C08_A1_NONRETROACTIVE", "kind": "CHECK", "pass": true}
+{"detail": "G01 identity; G02 pair action; G06 observed anchors; G12 on-shell-only/open fixed point", "id": "C09_A1_SOURCE_ROLES", "kind": "CHECK", "pass": true}
+{"detail": [], "id": "C10_A2_GATE", "kind": "CHECK", "pass": true}
+{"detail": "restrictions, live conditions, common E/B/premises recorded", "id": "C11_A2_TYPED_PULLBACK", "kind": "CHECK", "pass": true}
+{"detail": ["time_live_nonzero", "angular_live_nonzero"], "id": "C12_A2_STATIC_REJECTED", "kind": "CHECK", "pass": true}
+{"detail": [], "id": "C13_A2_LIVE_SHAPE_ACCEPTED", "kind": "CHECK", "pass": true}
+{"detail": {"producer_calls": 1, "verify_amendments_calls": 6}, "id": "C14_A2_SAME_PREDICATE", "kind": "CHECK", "pass": true}
+{"detail": "17/17 checks; 7/7 mutations; coexistence OPEN", "id": "C15_AMENDED_PRODUCER_RESULT", "kind": "CHECK", "pass": true}
+{"detail": "saved stdout has M07 and 17/7 final count", "id": "C16_AMENDED_PRODUCER_STDOUT", "kind": "CHECK", "pass": true}
+{"detail": {"checks": 10, "raw_sha256": "7a6f8aa8828d1ca86a1bc5a448a377b4b7dc9d2fd7c8c6501e67953f34860671"}, "id": "C17_AMENDMENT_VERIFIER_SAVED_RESULT", "kind": "CHECK", "pass": true}
+{"detail": "exact flow signs and contracting/expanding fixed-point derivatives reproduced", "id": "C18_INDEPENDENT_ALGEBRA", "kind": "CHECK", "pass": true}
+{"detail": "conditional/open statuses and two-arrow schema unchanged", "id": "C19_SCIENTIFIC_CEILING", "kind": "CHECK", "pass": true}
+{"detail": "updated reports retain stop line and OPEN/conditional ceiling", "id": "C20_REPORT_CEILING", "kind": "CHECK", "pass": true}
+{"detail": ["exact_G01_G02_G06_G12"], "id": "CM01_MISSING_SOURCE", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["G01_timing"], "id": "CM02_RETROACTIVE_PROMOTION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["G12_role"], "id": "CM03_ROLE_PROMOTION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["G02_sha256"], "id": "CM04_CHANGED_SOURCE_HASH", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["time_live_nonzero", "angular_live_nonzero"], "id": "CM05_STATIC_AS_LIVE", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["G05_open"], "id": "CM06_JOINT_WITNESS_PROMOTION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["B05_schema_only"], "id": "CM07_SCHEMA_TO_MAP", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "original-verifier hash mutation rejected", "id": "CM08_ORIGINAL_VERIFIER_MUTATION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "EXACT_DERIVATION.md says six mutation catches; amended producer result/stdout contain seven", "id": "CA1_EXACT_DERIVATION_COUNT", "kind": "REQUIRED_AMENDMENT", "pass": false}

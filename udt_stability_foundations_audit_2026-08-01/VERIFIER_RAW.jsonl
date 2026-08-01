@@ -1,0 +1,32 @@
+{"detail": "rows=94 unique=94", "id": "V01_SOURCE_CENSUS", "kind": "SOURCE", "pass": true}
+{"detail": "mismatches=[]", "id": "V02_SOURCE_BYTES", "kind": "SOURCE", "pass": true}
+{"detail": "snapshot hashes and frozen counts reconstructed", "id": "V03_PREREG_FREEZE", "kind": "SOURCE", "pass": true}
+{"detail": "17 requirements; 10 gates; 9 schema rows; 8 controls; 14 statuses; 13 premises", "id": "V04_TABLE_SHAPES", "kind": "STRUCTURE", "pass": true}
+{"detail": "all six ledgers fully populated", "id": "V05_NO_BLANK_CELLS", "kind": "STRUCTURE", "pass": true}
+{"detail": "counts={'GEOMETRIC_PERSISTENCE': 4, 'ENERGETIC_OR_SPECTRAL_STABILITY': 8, 'BOOTSTRAP_SELF_CONSISTENCY': 5}", "id": "V06_THREE_NOTIONS_SEPARATED", "kind": "SEMANTIC", "pass": true}
+{"detail": "G09 POSIT; G12 WORKING on-shell only; G15 finite-box conditional; G16 OPEN", "id": "V07_CURRENT_PREMISE_CEILING", "kind": "SOURCE_SEMANTIC", "pass": true}
+{"detail": "FORMAL_MODULE_FOR_ALL_MEMBERS; BANK_CONTROL_PLUS_COLD_PARSER_REGRESSION; FIXED_REALIZED_SOLUTION_OPEN", "id": "V08_FORMAL_NOT_REALIZED", "kind": "SOURCE_SEMANTIC", "pass": true}
+{"detail": "FORMAL_MODULE_EMBEDDING_NOT_FIXED_REALIZED_SOLUTION", "id": "V09_TIMELIVE_SCOPE", "kind": "SOURCE_SEMANTIC", "pass": true}
+{"detail": "MODE_UNIFORM_FORMAL_MODULE; NOT_EACH_MODE_ON_SHELL", "id": "V10_ANGULAR_SCOPE", "kind": "SOURCE_SEMANTIC", "pass": true}
+{"detail": "CENSUS_COMPLETENESS_NOT_SOLUTION_SPACE_COMPLETENESS", "id": "V11_A3_SCOPE", "kind": "SOURCE_SEMANTIC", "pass": true}
+{"detail": "carrier posit, boundary open, static finite-box conditional, not time-live", "id": "V12_HOPFION_PREMISES_RETAINED", "kind": "SOURCE_SEMANTIC", "pass": true}
+{"detail": "12 scoped rows; NV undefined; out-of-scope sectors explicitly unadjudicated", "id": "V13_P4_STABILITY_PREMISES_RETAINED", "kind": "SOURCE_SEMANTIC", "pass": true}
+{"detail": "complete action OPEN; round-S2 carrier conditional", "id": "V14_ACTION_REMAINS_OPEN", "kind": "SOURCE_SEMANTIC", "pass": true}
+{"detail": "conditional response skeleton; fixed point type-incomplete; complete map OPEN", "id": "V15_BOOTSTRAP_ONLY_SCHEMA", "kind": "SOURCE_SEMANTIC", "pass": true}
+{"detail": "dV/dt coefficients={'stable': Fraction(-1, 1), 'unstable': Fraction(1, 1), 'neutral': Fraction(0, 1)}", "id": "V16_FLOW_COUNTERMODELS", "kind": "INDEPENDENT_ALGEBRA", "pass": true}
+{"detail": "H+=1 H-=-1", "id": "V17_OPPOSITE_HESSIANS", "kind": "INDEPENDENT_ALGEBRA", "pass": true}
+{"detail": "same state line supports contracting, expanding, and no-fixed-point maps", "id": "V18_FIXED_POINT_COUNTERMODELS", "kind": "INDEPENDENT_ALGEBRA", "pass": true}
+{"detail": "rho=5/2; delta_rho=2; quotient_rhs=2", "id": "V19_DENSITY_VARIATION", "kind": "INDEPENDENT_ALGEBRA", "pass": true}
+{"detail": "all three formal images nonempty/full while on-shell-boundary intersection is empty", "id": "V20_FORMAL_REALIZATION_COUNTERMODEL", "kind": "INDEPENDENT_LOGIC", "pass": true}
+{"detail": "realization leaves law verdict open; a supplied stable law can lack any common realized target", "id": "V21_JOINS_NONREDUNDANT", "kind": "INDEPENDENT_LOGIC", "pass": true}
+{"detail": "both joins are type-minimal up to equivalent packaging; no unique action packaging inferred", "id": "V22_TYPE_MINIMALITY", "kind": "INDEPENDENT_LOGIC", "pass": true}
+{"detail": "violations=[]", "id": "V23_BASELINE_CEILING", "kind": "CONTRACT", "pass": true}
+{"detail": "violations=['requirements_R01_R17']", "id": "M01_MISSING_REQUIREMENT", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "violations=['joint_witness_open']", "id": "M02_JOINT_WITNESS_PROMOTION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "violations=['schema_only']", "id": "M03_SCHEMA_TO_MAP", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "violations=['carrier_conditional']", "id": "M04_CARRIER_PROMOTION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "violations=['action_open']", "id": "M05_ACTION_PROMOTION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "same predicate rejects a purely static/mode-zero witness for a live-coexistence claim", "id": "M06_STATIC_ZERO_MODE_AS_LIVE_WITNESS", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "missing direct frozen controlling sources=['udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv', 'udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md', 'udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv', 'udt_global_local_relational_closure_audit_2026-07-25/STATUS_LEDGER.tsv']", "id": "A1_TRANSITIVE_PREMISE_FREEZE", "kind": "REQUIRED_AMENDMENT", "pass": false}
+{"detail": "removing G12 controlling source is rejected by the transitive-authority predicate", "id": "M07_DROP_BOOTSTRAP_AUTHORITY", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "replace/qualify literal image intersection by a compatible pullback/fiber-product and require nonzero live sectors whenever live coexistence is claimed", "id": "A2_NONDEGENERATE_REALIZATION_GATE", "kind": "REQUIRED_AMENDMENT", "pass": false}

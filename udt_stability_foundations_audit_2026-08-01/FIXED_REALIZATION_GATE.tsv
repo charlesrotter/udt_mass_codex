@@ -1,0 +1,11 @@
+id	gate_object	current_status	source_basis	failure_or_limit
+G01	common configuration type U	PARTIAL	metric/coframe/P4 alphabets are registered	field ownership and complete physical object remain open
+G02	static module inclusion i_static	FORMAL_EXACT_IN_SCOPE	banked P4 static module	not a fixed realized solution
+G03	time-live module inclusion i_time	FORMAL_EXACT_IN_SCOPE	banked P4 T2 plus cold regrade	integration/gauge closure and on-shell coexistence open
+G04	angular-live module inclusion i_angular	FORMAL_EXACT_IN_SCOPE	banked P4 angular module plus cold regrade	on-shell coexistence and global completion open
+G05	one common full field assignment u with nonzero time-live and angular-live sectors when live coexistence is claimed	OPEN	P4 cold review Q2 and A2 correction	a shared static or mode-zero member is only a compatibility control, not a live coexistence witness
+G06	native whole-system equation E_native[u]=0	OPEN	native-action final adjudication	complete native action/response/source is open
+G07	one differentiable finite-cell boundary condition B_native[u]=0	OPEN	boundary and native-action ledgers	seal parity alone is insufficient
+G08	one compatible premise stack	PARTIAL	premise registry and cold-review regrades	conditional action/carrier/reading branches must not be silently merged
+G09	nonempty compatible realized pullback/fiber-product R_live	OPEN	G05-G08	formal module images or a common zero mode do not prove this realized live set nonempty
+G10	native stability test on T_u R	BLOCKED_BY_MISSING_JOIN	R03-R17	requires a realized u plus response/certificate/boundary/pairing data

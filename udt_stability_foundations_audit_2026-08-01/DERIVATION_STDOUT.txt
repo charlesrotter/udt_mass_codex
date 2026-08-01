@@ -1,0 +1,25 @@
+D01_SOURCE_COUNT	SUBSTANTIVE	PASS	rows=94 unique=94
+D02_SOURCE_IDENTITY	SUBSTANTIVE	PASS	mismatches=[]
+D03_P4_SCOPE	SUBSTANTIVE	PASS	udt_p4_stability_slice_2026-07-30/STABILITY_LEDGER.tsv contains required scoped token
+D04_COLD_Q2	SUBSTANTIVE	PASS	udt_p4_cold_adversarial_review_2026-08-01/PREMISE_QUANTIFIER_AUDIT.tsv contains required scoped token
+D05_NATIVE_ACTION	SUBSTANTIVE	PASS	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv contains required scoped token
+D06_BOOTSTRAP_MAP	SUBSTANTIVE	PASS	udt_bootstrap_to_local_response_map_audit_2026-07-25/STATUS_LEDGER.tsv contains required scoped token
+D07_HOPFION_SCOPE	SUBSTANTIVE	PASS	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md contains required scoped token
+D08_FLOW_STABLE	SUBSTANTIVE	PASS	dV/dt=-q**2
+D08_FLOW_UNSTABLE	SUBSTANTIVE	PASS	dV/dt=q**2
+D08_FLOW_NEUTRAL	SUBSTANTIVE	PASS	dV/dt=0
+D09_OPPOSITE_HESSIANS	SUBSTANTIVE	PASS	hplus=1 hminus=-1
+D10_BOOTSTRAP_COUNTERMODELS	SUBSTANTIVE	PASS	fixed={'contract': [0], 'expand': [0], 'shift': []} derivatives={'contract': 1/2, 'expand': 2, 'shift': 1}
+D11_REQUIREMENT_COMPLETENESS	GUARD	PASS	rows=17
+D12_GATE_COMPLETENESS	GUARD	PASS	rows=10
+D13_SCHEMA_NOT_MAP	GUARD	PASS	type schema retained; both maps OPEN
+D14_NO_SCOPE_PROMOTION	GUARD	PASS	conditional P4/Hopfion results not promoted
+D15_OUTCOME_CEILING	GUARD	PASS	FOUNDATIONS_PARTIAL_MINIMAL_JOIN_IDENTIFIED
+M01_MISSING_REQUIREMENT	MUTATION_CATCH	PASS	remove R17 rejected: ['requirements_exact_R01_R17']
+M02_PROMOTE_NATIVE_STABILITY	MUTATION_CATCH	PASS	change S08 OPEN to DERIVED_NATIVE rejected: ['S08_must_equal_OPEN']
+M03_INVENT_JOINT_WITNESS	MUTATION_CATCH	PASS	change G05 OPEN to DERIVED rejected: ['G05_must_equal_OPEN']
+M04_SCHEMA_AS_MAP	MUTATION_CATCH	PASS	promote B05 schema to map rejected: ['B05_must_equal_DERIVED_AS_TYPE_SCHEMA_ONLY']
+M05_PROMOTE_CARRIER	MUTATION_CATCH	PASS	promote R12 carrier rejected: ['R12_must_equal_CONDITIONAL_POSIT']
+M06_BLANK_COMPLETENESS_CELL	MUTATION_CATCH	PASS	blank R01 limit rejected: ['no_blank_cells']
+M07_STATIC_ZERO_MODE_AS_LIVE_WITNESS	MUTATION_CATCH	PASS	offer a common static/mode-zero witness as time/angular-live coexistence rejected: ['time_live_nonzero', 'angular_live_nonzero']
+RESULT	PASS	FOUNDATIONS_PARTIAL_MINIMAL_JOIN_IDENTIFIED	checks=17 catches=7

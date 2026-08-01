@@ -1,0 +1,28 @@
+{"detail": {"VERIFIER_INDEPENDENT_CHECK.py": "4ae6fa294c2d7146d8e618d5031bcebf4bfb045753ea5632524c9b243902842e", "VERIFIER_RAW.jsonl": "cafbaea0427ee08c3f8ad1e1cbadf780ee55b880f8a2fa3dba4c34ec317c27a4", "VERIFIER_REPORT.md": "98200cafd7376e63f5ec974d3b0d9a129b6dc20322d3302a7c9059e1471c6bb3", "VERIFIER_RESULTS.json": "374ac4e5c4b35fd2234058f5715e82a6da948c545ecc51a4841de7b53d40b9b1"}, "id": "F01_ORIGINAL_VERIFIER", "kind": "CHECK", "pass": true}
+{"detail": {"CLOSURE_REPORT.md": "a4fc9cea83ad26963b33cec5cb52639d1da8f34d38669478f7e72c271a838604", "CLOSURE_VERIFIER_CHECK.py": "7bd60e02e0fcb02bd4382e813ea2ee634a7b87ab92ed38783144033ea58a2798", "CLOSURE_VERIFIER_RAW.jsonl": "145d76d405c3335fac4e63a932ab8998789fc44eee5ea57397249a28a77a36f1", "CLOSURE_VERIFIER_RESULTS.json": "28303cec55e8112fdc0b32d876159590e8c4105181206b086c997c65dd79a6d5"}, "id": "F02_HISTORICAL_CLOSURE", "kind": "CHECK", "pass": true}
+{"detail": {"PREREG_SNAPSHOT.json": "1f7ea55bdc23b6f6942507f3cd392ed0e50daaa6e969047604979248c7362fe2", "SOURCE_INVENTORY.tsv": "7fac171e72d4430a08a69fe039598845af20e49a6a504fcc2e385483a0d9fc61", "SOURCE_MANIFEST.sha256": "32389f254adf1bac339dea5b9cf65ddf2c95237315b07e26e90053efb7414949", "SOURCE_PATHS.txt": "dcc6d0e546589cd7fa22d89a9405dac5643db3fba7b85a4004405464b879572b"}, "id": "F03_ORIGINAL_PREREG", "kind": "CHECK", "pass": true}
+{"detail": {"AMENDMENT_VERIFIER_RAW.jsonl": "7a6f8aa8828d1ca86a1bc5a448a377b4b7dc9d2fd7c8c6501e67953f34860671", "AMENDMENT_VERIFIER_RESULTS.json": "a4c633af6f7494f4fbd026cdab2b9452985e840e8de6d1cd1ae88e7d678591e3", "AUDIT_REPORT.md": "65e13b80f7cae12e7bf0553c257d1f22fa4b80463198a88eebe653596a9e83d4", "COMPLETENESS_MAP.md": "9784a4fe29840ad1d88fb9121b4924dd9e5a501e9c8ff11b9dc5c2427f21a4e4", "CORRECTION_LAYER.md": "1f7c89593fc695fd6674a73e0b396f3963a0f6d6d3f31450fd10bb17b68537c5", "DERIVATION_RESULT.json": "8eebb99176e07430ea9d82f763b0079cbec28377a0be96a893aa462655e5d0f0", "DERIVATION_STDOUT.txt": "77fedd8ece8c888087a6e893353ac7a668a3b04ea41789c527c394a10bee91f8", "FIXED_REALIZATION_GATE.tsv": "5dd531aea0adfb78aab84b246441513825ac07d81a6c7e0ee730f580f2ddbde9", "LAY_REPORT.md": "23a498ebc2f262d1d05977f30c71e717797ee817c5f142e980dda73c33918c83", "STATUS_LEDGER.tsv": "d93964a670c8a6b8bce64cf993b953da83eb20d6e9aa7cf25707629293062898", "TRANSITIVE_PREMISE_FREEZE.tsv": "acb4a391badfdefa40ff08e08e25ceb0bef98646e3a928bcfc07291f4566803e", "TRANSITIVE_PREMISE_MANIFEST.sha256": "93e8bd58a553ad5dd749975ea7369be3f81b1f6e3ca0cd365e390f733659eab3", "derive_stability_foundations.py": "4bfe6630a271e0e4bcb133f766de5151d882df507372da44716bd8e23ccef264", "verify_amendments.py": "b6944a532b21193816b1bb5691623eda106ff6868cb76c539b2c440968f93481"}, "id": "F04_ONLY_EXACT_DERIVATION_CHANGED", "kind": "CHECK", "pass": true}
+{"detail": {"current_sha256": "b18b41aad95ae4b4a161d2854447e4b42d9ff42d255dd37e882dad0828bdab97", "reconstructed_prior_sha256": "90da1e3d32598306fd6cfe58dc921e4c94247bcf3e51485675d546dcf30a1d03"}, "id": "F05_EXACT_SINGLE_EDIT", "kind": "CHECK", "pass": true}
+{"detail": {"mismatches": [], "rows": 94}, "id": "F06_ORIGINAL_94_SOURCES", "kind": "CHECK", "pass": true}
+{"detail": [], "id": "F07_A1_FREEZE", "kind": "CHECK", "pass": true}
+{"detail": {"manifest_rows": 4, "source_mismatches": []}, "id": "F08_A1_BYTES_MANIFEST", "kind": "CHECK", "pass": true}
+{"detail": "forward-only overlay; original preregistration preserved", "id": "F09_A1_NONRETROACTIVE", "kind": "CHECK", "pass": true}
+{"detail": [], "id": "F10_A2_GATE", "kind": "CHECK", "pass": true}
+{"detail": "full compatible live pullback recorded", "id": "F11_A2_TYPED_DOC", "kind": "CHECK", "pass": true}
+{"detail": ["time_live_nonzero", "angular_live_nonzero"], "id": "F12_A2_STATIC_REJECTED", "kind": "CHECK", "pass": true}
+{"detail": [], "id": "F13_A2_LIVE_SHAPE", "kind": "CHECK", "pass": true}
+{"detail": {"amendment_calls": 6, "producer_calls": 1}, "id": "F14_SAME_PREDICATE", "kind": "CHECK", "pass": true}
+{"detail": "17/17 checks and 7/7 mutations", "id": "F15_PRODUCER_COUNTS", "kind": "CHECK", "pass": true}
+{"detail": "saved producer stdout agrees with corrected exact report", "id": "F16_STDOUT_COUNT", "kind": "CHECK", "pass": true}
+{"detail": "amendment 10/10; historical closure 28/28 and 8/8 with one now-corrected count word", "id": "F17_PRIOR_VERIFIER_COUNTS", "kind": "CHECK", "pass": true}
+{"detail": "fixed realization/action/maps OPEN; conditional results retained", "id": "F18_SCIENTIFIC_CEILING", "kind": "CHECK", "pass": true}
+{"detail": "stable/unstable signs and contract/expand derivatives rechecked exactly", "id": "F19_INDEPENDENT_ALGEBRA", "kind": "CHECK", "pass": true}
+{"detail": ["exact_four"], "id": "FM01_MISSING_SOURCE", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["G01_timing"], "id": "FM02_RETROACTIVE", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["G12_role"], "id": "FM03_ROLE_PROMOTION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["G02_sha"], "id": "FM04_CHANGED_HASH", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["time_live_nonzero", "angular_live_nonzero"], "id": "FM05_STATIC_AS_LIVE", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["G05_open"], "id": "FM06_JOINT_PROMOTION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "schema-to-map mutation rejected", "id": "FM07_SCHEMA_PROMOTION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "historical closure mutation rejected", "id": "FM08_HISTORY_MUTATION", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": "six-count regression reproduces prior rejected byte and is caught", "id": "FM09_COUNT_REGRESSION", "kind": "MUTATION_CATCH", "pass": true}

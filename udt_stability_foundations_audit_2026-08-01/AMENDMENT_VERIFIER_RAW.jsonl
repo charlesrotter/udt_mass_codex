@@ -1,0 +1,10 @@
+{"detail": [], "id": "A01_FREEZE_SCHEMA", "kind": "CHECK", "pass": true}
+{"detail": [], "id": "A02_FREEZE_BYTES", "kind": "CHECK", "pass": true}
+{"detail": "rows=4", "id": "A03_TRANSITIVE_MANIFEST", "kind": "CHECK", "pass": true}
+{"detail": "G05/G09/S03 scoped OPEN", "id": "A04_NONDEGENERATE_GATE", "kind": "CHECK", "pass": true}
+{"detail": "nonzero live sectors and nonliteral intersection recorded", "id": "A05_TYPED_PULLBACK_DOC", "kind": "CHECK", "pass": true}
+{"detail": ["time_live_nonzero", "angular_live_nonzero"], "id": "A06_STATIC_CONTROL_REJECTED", "kind": "CHECK", "pass": true}
+{"detail": [], "id": "A07_NONZERO_LIVE_SHAPE_ACCEPTED", "kind": "CHECK", "pass": true}
+{"detail": ["exact_G01_G02_G06_G12"], "id": "AM01_MISSING_G12", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["registered_identity_G01"], "id": "AM02_CHANGED_HASH", "kind": "MUTATION_CATCH", "pass": true}
+{"detail": ["time_live_nonzero", "angular_live_nonzero"], "id": "AM03_STATIC_AS_LIVE", "kind": "MUTATION_CATCH", "pass": true}

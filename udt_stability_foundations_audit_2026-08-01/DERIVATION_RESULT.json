@@ -1,0 +1,212 @@
+{
+  "algebra": {
+    "bootstrap_derivatives": {
+      "contract": "1/2",
+      "expand": "2",
+      "shift": "1"
+    },
+    "bootstrap_fixed_points": {
+      "contract": [
+        "0"
+      ],
+      "expand": [
+        "0"
+      ],
+      "shift": []
+    },
+    "flow_dVdt": {
+      "neutral": "0",
+      "stable": "-q**2",
+      "unstable": "q**2"
+    },
+    "hessians": {
+      "minus": "-1",
+      "plus": "1"
+    }
+  },
+  "audit": "UDT_STABILITY_FOUNDATIONS_2026-08-01",
+  "base": "5adeb59dde063770c0619d37b76b03f735d82038",
+  "bootstrap_map": "OPEN_TWO_ARROWS_TYPE_SCHEMA_ONLY",
+  "checks": [
+    {
+      "detail": "rows=94 unique=94",
+      "id": "D01_SOURCE_COUNT",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "mismatches=[]",
+      "id": "D02_SOURCE_IDENTITY",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_p4_stability_slice_2026-07-30/STABILITY_LEDGER.tsv contains required scoped token",
+      "id": "D03_P4_SCOPE",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_p4_cold_adversarial_review_2026-08-01/PREMISE_QUANTIFIER_AUDIT.tsv contains required scoped token",
+      "id": "D04_COLD_Q2",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv contains required scoped token",
+      "id": "D05_NATIVE_ACTION",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "udt_bootstrap_to_local_response_map_audit_2026-07-25/STATUS_LEDGER.tsv contains required scoped token",
+      "id": "D06_BOOTSTRAP_MAP",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md contains required scoped token",
+      "id": "D07_HOPFION_SCOPE",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "dV/dt=-q**2",
+      "id": "D08_FLOW_STABLE",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "dV/dt=q**2",
+      "id": "D08_FLOW_UNSTABLE",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "dV/dt=0",
+      "id": "D08_FLOW_NEUTRAL",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "hplus=1 hminus=-1",
+      "id": "D09_OPPOSITE_HESSIANS",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "fixed={'contract': [0], 'expand': [0], 'shift': []} derivatives={'contract': 1/2, 'expand': 2, 'shift': 1}",
+      "id": "D10_BOOTSTRAP_COUNTERMODELS",
+      "kind": "SUBSTANTIVE",
+      "pass": true
+    },
+    {
+      "detail": "rows=17",
+      "id": "D11_REQUIREMENT_COMPLETENESS",
+      "kind": "GUARD",
+      "pass": true
+    },
+    {
+      "detail": "rows=10",
+      "id": "D12_GATE_COMPLETENESS",
+      "kind": "GUARD",
+      "pass": true
+    },
+    {
+      "detail": "type schema retained; both maps OPEN",
+      "id": "D13_SCHEMA_NOT_MAP",
+      "kind": "GUARD",
+      "pass": true
+    },
+    {
+      "detail": "conditional P4/Hopfion results not promoted",
+      "id": "D14_NO_SCOPE_PROMOTION",
+      "kind": "GUARD",
+      "pass": true
+    },
+    {
+      "detail": "FOUNDATIONS_PARTIAL_MINIMAL_JOIN_IDENTIFIED",
+      "id": "D15_OUTCOME_CEILING",
+      "kind": "GUARD",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "bootstrap_schema_rows": 9,
+    "checks": 17,
+    "countermodels": 8,
+    "fixed_realization_gates": 10,
+    "guard_checks": 5,
+    "mutation_catches": 7,
+    "requirements": 17,
+    "status_rows": 14,
+    "substantive_checks": 12
+  },
+  "current_operational_stability": "CONDITIONAL_STABILITY_ONLY",
+  "fixed_realized_on_shell_coexistence": "OPEN",
+  "mutation_catches": [
+    {
+      "id": "M01_MISSING_REQUIREMENT",
+      "mutation": "remove R17",
+      "pass": true,
+      "rejection_reason": [
+        "requirements_exact_R01_R17"
+      ]
+    },
+    {
+      "id": "M02_PROMOTE_NATIVE_STABILITY",
+      "mutation": "change S08 OPEN to DERIVED_NATIVE",
+      "pass": true,
+      "rejection_reason": [
+        "S08_must_equal_OPEN"
+      ]
+    },
+    {
+      "id": "M03_INVENT_JOINT_WITNESS",
+      "mutation": "change G05 OPEN to DERIVED",
+      "pass": true,
+      "rejection_reason": [
+        "G05_must_equal_OPEN"
+      ]
+    },
+    {
+      "id": "M04_SCHEMA_AS_MAP",
+      "mutation": "promote B05 schema to map",
+      "pass": true,
+      "rejection_reason": [
+        "B05_must_equal_DERIVED_AS_TYPE_SCHEMA_ONLY"
+      ]
+    },
+    {
+      "id": "M05_PROMOTE_CARRIER",
+      "mutation": "promote R12 carrier",
+      "pass": true,
+      "rejection_reason": [
+        "R12_must_equal_CONDITIONAL_POSIT"
+      ]
+    },
+    {
+      "id": "M06_BLANK_COMPLETENESS_CELL",
+      "mutation": "blank R01 limit",
+      "pass": true,
+      "rejection_reason": [
+        "no_blank_cells"
+      ]
+    },
+    {
+      "id": "M07_STATIC_ZERO_MODE_AS_LIVE_WITNESS",
+      "mutation": "offer a common static/mode-zero witness as time/angular-live coexistence",
+      "pass": true,
+      "rejection_reason": [
+        "time_live_nonzero",
+        "angular_live_nonzero"
+      ]
+    }
+  ],
+  "native_evolution_or_response": "OPEN",
+  "pass": true,
+  "primary_outcome": "FOUNDATIONS_PARTIAL_MINIMAL_JOIN_IDENTIFIED",
+  "python_version": "3.10.12",
+  "question_posture": "METRIC_LED_OBSERVING_NOT_TARGETING",
+  "sympy_version": "1.13.1"
+}
