@@ -1,0 +1,21 @@
+STAGE A3 — exact angular-live winding census
+requested cumulative stage: gamma
+theta ABSENT; linear time; no completion/posture/fork adopted; no physics
+[SUBSTANTIVE] A01_torus_characters_single_valued: PASS
+[SUBSTANTIVE] A02_real_field_exact_periods_zero: PASS
+[SUBSTANTIVE] A03_mode_is_not_field_winding: PASS
+[SUBSTANTIVE] A04_positive_factor_contraction: PASS
+[SUBSTANTIVE] A05_large_zeta_shear_lattice_automorphism: PASS
+[SUBSTANTIVE] A06_shear_integer_cuts_no_mass_data: PASS
+[SUBSTANTIVE] A07_angular_exact_leg_leaves_real_period_gate: PASS
+[GUARD] A08_native_target_census_has_no_circle: PASS
+[SUBSTANTIVE] A11_fiber_U1_holonomy_large_shear_invariant: PASS
+[SUBSTANTIVE] A12_fiber_U1_holonomy_is_continuous: PASS
+[SUBSTANTIVE] A13_real_lift_has_zero_holonomy_winding: PASS
+[SUBSTANTIVE] A14_angular_mirror_Z2xZ2: PASS
+[SUBSTANTIVE] A15_stratum_m_involution_Z2: PASS
+[SUBSTANTIVE] A16_h_reparam_orientation_degree: PASS
+[GUARD] A09_completion_reading_coverage: PASS
+[GUARD] C1a_period_gate_20_rows_exact: PASS
+[GUARD] C1b_T3_line_branch_exact: PASS
+[SUBSTANTIVE] A10_alpha_integer_provenance_partition: PASS

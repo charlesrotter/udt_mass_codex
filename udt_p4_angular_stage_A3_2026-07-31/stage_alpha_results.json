@@ -1,0 +1,150 @@
+{
+  "bank_inputs": {
+    "T3_ledger_sha256": "981682aea2b0d08df01ae5dd55f2f9b26b6e9386e9502c839af1f07a03b78b18",
+    "period_ledger_sha256": "0eb8866602abbbd04a3e2c4d2b20a6cc5d125dcaa101e0b051016f71542735b7"
+  },
+  "checks": [
+    {
+      "claim": "T2 characters carry integer dual labels (n,m) fixed by domain periods.",
+      "kind": "SUBSTANTIVE",
+      "name": "A01_torus_characters_single_valued",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Every displayed real single-valued field mode gives integral dF=0 on both T2 cycles.",
+      "kind": "SUBSTANTIVE",
+      "name": "A02_real_field_exact_periods_zero",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "The integer Fourier label contracts in the real field target; it is decomposition data, not winding.",
+      "kind": "SUBSTANTIVE",
+      "name": "A03_mode_is_not_field_winding",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "R_+ metric factors are contractible; convexity supplies the positive path.",
+      "kind": "SUBSTANTIVE",
+      "name": "A04_positive_factor_contraction",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "z -> z+n(Pz/Py)y is a GL(2,Z) chart shear with integer degree n.",
+      "kind": "SUBSTANTIVE",
+      "name": "A05_large_zeta_shear_lattice_automorphism",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "The mapping-class integer is presentation/domain data and contains no mass/modulus symbol.",
+      "kind": "SUBSTANTIVE",
+      "name": "A06_shear_integer_cuts_no_mass_data",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Angular-live real field gradients add zero to every banked real period condition.",
+      "kind": "SUBSTANTIVE",
+      "name": "A07_angular_exact_leg_leaves_real_period_gate",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "A1/A2 native FIELD-target census contains no compact target; the owned fiber U1 holonomy is connection data, not a new field target.",
+      "kind": "GUARD",
+      "name": "A08_native_target_census_has_no_circle",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "H_y=exp(2*pi*i*f0*Py/Pz) is invariant under f0 -> f0+n*Pz/Py.",
+      "kind": "SUBSTANTIVE",
+      "name": "A11_fiber_U1_holonomy_large_shear_invariant",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Real f0 sweeps the owned compact-fiber U1 holonomy continuously; no rule sets H_y=1.",
+      "kind": "SUBSTANTIVE",
+      "name": "A12_fiber_U1_holonomy_is_continuous",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "A global real periodic lift gives winding zero; nonzero winding needs separately owned transition monodromy.",
+      "kind": "SUBSTANTIVE",
+      "name": "A13_real_lift_has_zero_holonomy_winding",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "The conditionally granted y/z mirrors form a Z2xZ2 character layer; they pair modes and do not create solution winding.",
+      "kind": "SUBSTANTIVE",
+      "name": "A14_angular_mirror_Z2xZ2",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "The banked chi-branch flip-and-shear is exactly order two on its lawful strata; it is a character cut, not a winding integer.",
+      "kind": "SUBSTANTIVE",
+      "name": "A15_stratum_m_involution_Z2",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Circle reparametrization diffeomorphisms have presentation degree +/-1; the sign is orientation, not a solution integer.",
+      "kind": "SUBSTANTIVE",
+      "name": "A16_h_reparam_orientation_degree",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Every declared completion class is crossed with both spatial readings and all seven alpha seats.",
+      "kind": "GUARD",
+      "name": "A09_completion_reading_coverage",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Independent cycle-by-family mode-zero recovery matches all six fields of all 20 period-gate rows.",
+      "kind": "GUARD",
+      "name": "C1a_period_gate_20_rows_exact",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Mechanical parse: all six T3 linear-time branch-(a) rows recover the static verdicts verbatim.",
+      "kind": "GUARD",
+      "name": "C1b_T3_line_branch_exact",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Alpha integers partition cleanly: mode/mapping-class labels exist, while native real field periods vanish.",
+      "kind": "SUBSTANTIVE",
+      "name": "A10_alpha_integer_provenance_partition",
+      "passed": true,
+      "stage": "alpha"
+    }
+  ],
+  "counts": {
+    "failed": 0,
+    "guard": 4,
+    "substantive": 14,
+    "total": 18
+  },
+  "stage": "alpha",
+  "stamps": [
+    "LINEAR_TIME_ONLY",
+    "THETA_ABSENT",
+    "NO_BRANCH_ADOPTED",
+    "NO_COMPLETION_ADOPTED",
+    "NO_POSTURE_ADOPTED",
+    "NO_PHYSICS"
+  ],
+  "status": "PASS"
+}

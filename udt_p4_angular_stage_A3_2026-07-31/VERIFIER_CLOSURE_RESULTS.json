@@ -1,0 +1,170 @@
+{
+  "checks": [
+    {
+      "detail": "preregistration plus round-one independent checker/results remain byte-exact",
+      "name": "round_one_sources_frozen",
+      "passed": true
+    },
+    {
+      "detail": "exact round-one prefix plus exactly one structured closure section",
+      "name": "report_round_one_prefix_plus_one_closure",
+      "passed": true
+    },
+    {
+      "detail": "single-byte mutation of immutable round-one prefix fails the closure contract",
+      "name": "report_prefix_mutation_rejected",
+      "passed": true
+    },
+    {
+      "detail": "AST recount = 57 unique checks = 37 substantive + 20 guard",
+      "name": "check_census_57",
+      "passed": true
+    },
+    {
+      "detail": "no float literals/evaluation, numeric solvers/backends, GPU, or randomness",
+      "name": "purity_independent",
+      "passed": true
+    },
+    {
+      "detail": "alpha 18; beta 35; gamma 57, each an exact cumulative prefix",
+      "name": "stage_counts_and_prefixes",
+      "passed": true
+    },
+    {
+      "detail": "126 rectangular rows",
+      "name": "parser_ANGULAR_A3_LEDGER.tsv_rectangular",
+      "passed": true
+    },
+    {
+      "detail": "15 fields; 126 rows = alpha 84 + beta 28 + gamma 14",
+      "name": "ledger_header_and_census",
+      "passed": true
+    },
+    {
+      "detail": "all 126 emissions match the full frozen stack and lineage",
+      "name": "F_B3_all_rows_exact",
+      "passed": true
+    },
+    {
+      "detail": "6 cells x 2 readings x all 7 seats",
+      "name": "alpha_cross_exact",
+      "passed": true
+    },
+    {
+      "detail": "all four landed catch-proof guards execute and pass",
+      "name": "exit_wired_catch_checks",
+      "passed": true
+    },
+    {
+      "detail": "20 rectangular rows",
+      "name": "parser_PERIOD_LEDGER.tsv_rectangular",
+      "passed": true
+    },
+    {
+      "detail": "120 rectangular rows",
+      "name": "parser_C1_MODE_ZERO_PERIOD_RECOVERY.tsv_rectangular",
+      "passed": true
+    },
+    {
+      "detail": "own source parser reproduces every emitted digest: 20 rows x 6 fields = 120/120",
+      "name": "C1_120_emitted_comparisons",
+      "passed": true
+    },
+    {
+      "detail": "12 mirror + 12 m-involution + 12 h-degree rows, with branch-correct classifications",
+      "name": "discrete_seats_emitted",
+      "passed": true
+    },
+    {
+      "detail": "mirror Z2xZ2 and general flip-and-shear m involution exact",
+      "name": "discrete_algebra_independent",
+      "passed": true
+    },
+    {
+      "detail": "U1 seat is shear-invariant, nontrivial continuous, and global real lift has winding zero",
+      "name": "holonomy_math_independent",
+      "passed": true
+    },
+    {
+      "detail": "holonomy condition/classification emitted in all 12 alpha cell-reading rows",
+      "name": "holonomy_emitted_all_alpha_cells",
+      "passed": true
+    },
+    {
+      "detail": "104 rectangular rows",
+      "name": "parser_TORIC_CAP_ENUMERATION.tsv_rectangular",
+      "passed": true
+    },
+    {
+      "detail": "104/104 primitive, recorded determinant reproduced, |det|=1",
+      "name": "caps_recomputed_104",
+      "passed": true
+    },
+    {
+      "detail": "Chern=-1, canonical Hopf=-1, Euler(S2)=2",
+      "name": "S3_characteristics_independent",
+      "passed": true
+    },
+    {
+      "detail": "banked two-cap S3 only; same-closer/crease class remains outside and unregistered",
+      "name": "completion_boundary_rechecked",
+      "passed": true
+    },
+    {
+      "detail": "two carriers x two readings; no S3 join, parameter cut, or on-shell coexistence smuggled",
+      "name": "massive_carrier_boundary_emitted",
+      "passed": true
+    },
+    {
+      "detail": "57/57, 126 rows, C1 120/120, and all corrected seats in final JSON",
+      "name": "final_machine_summary",
+      "passed": true
+    },
+    {
+      "detail": "all 18 derivation-manifest entries match actual files",
+      "name": "manifest_all_entries_current",
+      "passed": true
+    },
+    {
+      "detail": "throwaway closure path starts absent",
+      "name": "mutation_workspace_absent",
+      "passed": true
+    },
+    {
+      "detail": "F-B3 insertion point unique",
+      "name": "F_B3_mutation_target_unique",
+      "passed": true
+    },
+    {
+      "detail": "mutated emitted mode layer caused named FAIL and exit 1",
+      "name": "F_B3_external_mutation_exit",
+      "passed": true
+    },
+    {
+      "detail": "independent C1 field unique",
+      "name": "C1_mutation_target_unique",
+      "passed": true
+    },
+    {
+      "detail": "mutated independently coded C1 field caused named FAIL and exit 1",
+      "name": "C1_external_field_mutation_exit",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "failed": 0,
+    "passed": 30,
+    "total": 30
+  },
+  "derivation_artifact_sha256": {
+    "ANGULAR_A3_LEDGER.tsv": "1bf51b309ad41bb424785891cc07feeee6225aa18c33acdc6624fc3a5c72f90d",
+    "C1_MODE_ZERO_PERIOD_RECOVERY.tsv": "52b6a4abb84328af9f0d1969f0ba53da8ab5fb3a0ebfa02ea4594a7e12750fc5",
+    "DERIVATION_STDOUT.txt": "a103d324f8eda40315b301e892cb25dd93ddb91a358ddd2686dd844dbfbc3a69",
+    "angular_A3_results.json": "433a06000e1496be804c5cf8a64564b94cfb309995ba64f999c582302606e2e8",
+    "stage_alpha_results.json": "d7fa9afd2048cafc59889db641ff49885e9029e752a5e167d5fa068c250cb9be",
+    "stage_beta_results.json": "cdfe2076b6204c9b5009f97c5a2998acac623f25a296a55dd3915f93ab02bc81",
+    "stage_gamma_results.json": "62b92285a093844861a6a7f6f02606471cf354eac13b04b9238491db9437fbb4"
+  },
+  "failed": [],
+  "verdict": "CLOSED-PASS"
+}

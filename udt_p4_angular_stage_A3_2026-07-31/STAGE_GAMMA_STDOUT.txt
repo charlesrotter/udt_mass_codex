@@ -1,0 +1,62 @@
+STAGE A3 — exact angular-live winding census
+requested cumulative stage: gamma
+theta ABSENT; linear time; no completion/posture/fork adopted; no physics
+[SUBSTANTIVE] A01_torus_characters_single_valued: PASS
+[SUBSTANTIVE] A02_real_field_exact_periods_zero: PASS
+[SUBSTANTIVE] A03_mode_is_not_field_winding: PASS
+[SUBSTANTIVE] A04_positive_factor_contraction: PASS
+[SUBSTANTIVE] A05_large_zeta_shear_lattice_automorphism: PASS
+[SUBSTANTIVE] A06_shear_integer_cuts_no_mass_data: PASS
+[SUBSTANTIVE] A07_angular_exact_leg_leaves_real_period_gate: PASS
+[GUARD] A08_native_target_census_has_no_circle: PASS
+[SUBSTANTIVE] A11_fiber_U1_holonomy_large_shear_invariant: PASS
+[SUBSTANTIVE] A12_fiber_U1_holonomy_is_continuous: PASS
+[SUBSTANTIVE] A13_real_lift_has_zero_holonomy_winding: PASS
+[SUBSTANTIVE] A14_angular_mirror_Z2xZ2: PASS
+[SUBSTANTIVE] A15_stratum_m_involution_Z2: PASS
+[SUBSTANTIVE] A16_h_reparam_orientation_degree: PASS
+[GUARD] A09_completion_reading_coverage: PASS
+[GUARD] C1a_period_gate_20_rows_exact: PASS
+[GUARD] C1b_T3_line_branch_exact: PASS
+[SUBSTANTIVE] A10_alpha_integer_provenance_partition: PASS
+[GUARD] B00_A1_complete_metric_opening_control: PASS
+[SUBSTANTIVE] B01_full_S3_screen_metric: PASS
+[SUBSTANTIVE] B02_hopf_connection_curvature: PASS
+[SUBSTANTIVE] B03_fixed_chern_and_hopf_representative: PASS
+[SUBSTANTIVE] B04_connection_deformation_preserves_chern: PASS
+[SUBSTANTIVE] B05_hopf_transition_winding_one: PASS
+[SUBSTANTIVE] B05a_hopf_chart_metric_leg_descends: PASS
+[SUBSTANTIVE] B06_cap_census_104_unimodular: PASS
+[SUBSTANTIVE] B07_large_shear_killed_by_two_caps: PASS
+[SUBSTANTIVE] B08_generic_S3_field_breaks_continuous_isometries: PASS
+[SUBSTANTIVE] B09_open_metric_target_contraction: PASS
+[SUBSTANTIVE] B10_coframe_winding_is_metric_presentation: PASS
+[GUARD] B11_no_native_variable_Hopf_map: PASS
+[SUBSTANTIVE] B12_fixed_topology_cuts_no_mass_data: PASS
+[GUARD] B13a_completion_scope_not_smeared: PASS
+[GUARD] B13_massive_carriers_both_enumerated: PASS
+[SUBSTANTIVE] B14_beta_kill_readjudication_complete: PASS
+[SUBSTANTIVE] G01_all_derivative_orders_induction: PASS
+[SUBSTANTIVE] G02_high_jet_witnesses_beyond_alpha: PASS
+[SUBSTANTIVE] G03_arbitrary_high_mode_not_winding: PASS
+[SUBSTANTIVE] G03a_arbitrary_full_S3_mode_not_winding: PASS
+[SUBSTANTIVE] G04_mode_eigenlabel_is_domain_spectral_data: PASS
+[SUBSTANTIVE] G05_real_holonomy_target_remains_continuum: PASS
+[SUBSTANTIVE] G06_fine_feature_counts_not_topological: PASS
+[SUBSTANTIVE] G07_base_S2_fixed_Euler_number: PASS
+[GUARD] G08_masslessness_confinements_rechecked: PASS
+[GUARD] G09_A2_mode_uniform_control: PASS
+[SUBSTANTIVE] G10_smooth_fine_detail_exhaustive: PASS
+[GUARD] G11_gamma_coverage_and_residual_typed: PASS
+[GUARD] F_B2_no_invented_compact_field: PASS
+[GUARD] F_B3_full_stamp_coverage: PASS
+[GUARD] F_B3a_stamp_and_lineage_mutations_rejected: PASS
+[GUARD] F_B7a_C1_field_mutation_rejected: PASS
+[GUARD] F_B2a_forced_trivial_holonomy_rejected: PASS
+[GUARD] F_B4_no_adoption_tokens: PASS
+[GUARD] F_B5_bank_controls_present: PASS
+[GUARD] F_B6_exact_method_guard: PASS
+[GUARD] F_B7_C1_control_pass: PASS
+[SUBSTANTIVE] F_B1_both_flattery_directions_attacked: PASS
+GAMMA COMPLETE AND BANKED
+OUTCOME: OB3-3 MIXED-BY-KIND; fixed domain integers, no native solution winding

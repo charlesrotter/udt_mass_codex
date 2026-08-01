@@ -1,0 +1,207 @@
+{
+  "checks": [
+    {
+      "detail": "20 rectangular data rows",
+      "name": "parser_PERIOD_LEDGER.tsv_rectangular",
+      "passed": true
+    },
+    {
+      "detail": "21 rectangular data rows",
+      "name": "parser_TIMELIVE_T3_LEDGER.tsv_rectangular",
+      "passed": true
+    },
+    {
+      "detail": "104 rectangular data rows",
+      "name": "parser_TORIC_CAP_ENUMERATION.tsv_rectangular",
+      "passed": true
+    },
+    {
+      "detail": "20 distinct full six-field rows",
+      "name": "C1_period_gate_own_parse",
+      "passed": true
+    },
+    {
+      "detail": "six exact branch-a static rows and expected completion census",
+      "name": "C1_T3_line_own_parse",
+      "passed": true
+    },
+    {
+      "detail": "104/104 primitive pairs; recomputed determinant matches and has |det|=1",
+      "name": "caps_104_all_primitive_unimodular",
+      "passed": true
+    },
+    {
+      "detail": "each unimodular cap basis conjugates the shear integrally; both cap lines force n=0",
+      "name": "caps_kill_unipotent_shear_family",
+      "passed": true
+    },
+    {
+      "detail": "Chern=-1, Hopf representative=-1, transition=-1, Euler(S2)=2",
+      "name": "S3_characteristic_data_exact",
+      "passed": true
+    },
+    {
+      "detail": "AST recount gives 48 unique checks = 31 substantive + 17 guard",
+      "name": "independent_check_census",
+      "passed": true
+    },
+    {
+      "detail": "imports=['__future__', 'argparse', 'ast', 'csv', 'hashlib', 'json', 'pathlib', 'sympy', 'sys']; no floats/numeric solvers/backends",
+      "name": "purity_AST_independent",
+      "passed": true
+    },
+    {
+      "detail": "cumulative alpha/beta/gamma banks are exact prefixes",
+      "name": "stage_check_counts_and_prefixes",
+      "passed": true
+    },
+    {
+      "detail": "78 rectangular data rows",
+      "name": "parser_ANGULAR_A3_LEDGER.tsv_rectangular",
+      "passed": true
+    },
+    {
+      "detail": "78 rows partition as {'alpha': 36, 'beta': 28, 'gamma': 14}",
+      "name": "ledger_row_census",
+      "passed": true
+    },
+    {
+      "detail": "two carriers x two spatial readings; no S3 join or on-shell coexistence smuggled",
+      "name": "massive_carrier_scope_rows",
+      "passed": true
+    },
+    {
+      "detail": "FAIL expected: rows do not each carry lock branch, mode, jet-bigrade, and kill-scope lineage",
+      "name": "F_B3_frozen_full_stamp_contract",
+      "passed": false
+    },
+    {
+      "detail": "27 rectangular data rows",
+      "name": "parser_DOORWAY_LEDGER.tsv_rectangular",
+      "passed": true
+    },
+    {
+      "detail": "owned U(1) transition retained; global phase and S2 carrier promotion rejected",
+      "name": "compact_target_provenance_core",
+      "passed": true
+    },
+    {
+      "detail": "exp(2pi i f0 Py/Pz) is large-shear invariant and ranges nontrivially in U(1)",
+      "name": "torus_fiber_holonomy_U1_seat",
+      "passed": true
+    },
+    {
+      "detail": "FAIL expected: banked mirror/m-involution/h-slack discrete layers are absent from A3",
+      "name": "TB3_discrete_and_slack_seat_completeness",
+      "passed": false
+    },
+    {
+      "detail": "FAIL expected: owned compact-fiber U(1) holonomy seat is not adjudicated",
+      "name": "TB3_2_compact_connection_holonomy_completeness",
+      "passed": false
+    },
+    {
+      "detail": "bank supports only the two-cap S3 class; same-closer/crease class is unregistered",
+      "name": "completion_scope_bank",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: ceecb5837ff8",
+      "name": "input_hash_TORIC_CAP_ENUMERATION.tsv",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: 9414bdf2a133",
+      "name": "input_hash_EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: 474cc92bb386",
+      "name": "input_hash_ANGULAR_A1_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: 518361a7796d",
+      "name": "input_hash_EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: 23dac0102060",
+      "name": "input_hash_ANGULAR_A2_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: 0be1f313ca84",
+      "name": "input_hash_EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: fbd16a3d33ae",
+      "name": "input_hash_PREREGISTRATION.md",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: e96192220dc0",
+      "name": "input_hash_DOORWAY_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: 0eb8866602ab",
+      "name": "input_hash_PERIOD_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: d00d3d489c35",
+      "name": "input_hash_EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: 07c4e704a440",
+      "name": "input_hash_EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "banked input unchanged: 981682aea2b0",
+      "name": "input_hash_TIMELIVE_T3_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "detail": "fixed Chern/Hopf/Euler values contain no mass or response parameter",
+      "name": "fixed_integer_no_parameter_symbols",
+      "passed": true
+    },
+    {
+      "detail": "throwaway path starts absent",
+      "name": "mutation_workspace_absent",
+      "passed": true
+    },
+    {
+      "detail": "C1a guard target unique",
+      "name": "mutation_target_unique",
+      "passed": true
+    },
+    {
+      "detail": "mutated guard produced exit 1 and explicit FAIL",
+      "name": "mutation_probe_C1a_exit_wired",
+      "passed": true
+    },
+    {
+      "detail": "FAIL expected: C1a compares a tuplewise copy to its source, so only row count is tested",
+      "name": "F_B7_C1_content_recovery_guard",
+      "passed": false
+    },
+    {
+      "detail": "orthogonal coframe maps, including large classes, do not alter the metric",
+      "name": "coframe_class_metric_invisible",
+      "passed": true
+    }
+  ],
+  "required_amendments": [
+    "F_B3_frozen_full_stamp_contract",
+    "TB3_discrete_and_slack_seat_completeness",
+    "TB3_2_compact_connection_holonomy_completeness",
+    "F_B7_C1_content_recovery_guard"
+  ],
+  "scope": "blind A3 alpha/beta/gamma exact audit; no LIVE/HANDOFF",
+  "verdict": "PASS-WITH-REQUIRED-AMENDMENTS"
+}

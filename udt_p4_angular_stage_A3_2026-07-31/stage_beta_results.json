@@ -1,0 +1,269 @@
+{
+  "bank_inputs": {
+    "T3_ledger_sha256": "981682aea2b0d08df01ae5dd55f2f9b26b6e9386e9502c839af1f07a03b78b18",
+    "period_ledger_sha256": "0eb8866602abbbd04a3e2c4d2b20a6cc5d125dcaa101e0b051016f71542735b7"
+  },
+  "checks": [
+    {
+      "claim": "T2 characters carry integer dual labels (n,m) fixed by domain periods.",
+      "kind": "SUBSTANTIVE",
+      "name": "A01_torus_characters_single_valued",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Every displayed real single-valued field mode gives integral dF=0 on both T2 cycles.",
+      "kind": "SUBSTANTIVE",
+      "name": "A02_real_field_exact_periods_zero",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "The integer Fourier label contracts in the real field target; it is decomposition data, not winding.",
+      "kind": "SUBSTANTIVE",
+      "name": "A03_mode_is_not_field_winding",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "R_+ metric factors are contractible; convexity supplies the positive path.",
+      "kind": "SUBSTANTIVE",
+      "name": "A04_positive_factor_contraction",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "z -> z+n(Pz/Py)y is a GL(2,Z) chart shear with integer degree n.",
+      "kind": "SUBSTANTIVE",
+      "name": "A05_large_zeta_shear_lattice_automorphism",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "The mapping-class integer is presentation/domain data and contains no mass/modulus symbol.",
+      "kind": "SUBSTANTIVE",
+      "name": "A06_shear_integer_cuts_no_mass_data",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Angular-live real field gradients add zero to every banked real period condition.",
+      "kind": "SUBSTANTIVE",
+      "name": "A07_angular_exact_leg_leaves_real_period_gate",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "A1/A2 native FIELD-target census contains no compact target; the owned fiber U1 holonomy is connection data, not a new field target.",
+      "kind": "GUARD",
+      "name": "A08_native_target_census_has_no_circle",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "H_y=exp(2*pi*i*f0*Py/Pz) is invariant under f0 -> f0+n*Pz/Py.",
+      "kind": "SUBSTANTIVE",
+      "name": "A11_fiber_U1_holonomy_large_shear_invariant",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Real f0 sweeps the owned compact-fiber U1 holonomy continuously; no rule sets H_y=1.",
+      "kind": "SUBSTANTIVE",
+      "name": "A12_fiber_U1_holonomy_is_continuous",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "A global real periodic lift gives winding zero; nonzero winding needs separately owned transition monodromy.",
+      "kind": "SUBSTANTIVE",
+      "name": "A13_real_lift_has_zero_holonomy_winding",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "The conditionally granted y/z mirrors form a Z2xZ2 character layer; they pair modes and do not create solution winding.",
+      "kind": "SUBSTANTIVE",
+      "name": "A14_angular_mirror_Z2xZ2",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "The banked chi-branch flip-and-shear is exactly order two on its lawful strata; it is a character cut, not a winding integer.",
+      "kind": "SUBSTANTIVE",
+      "name": "A15_stratum_m_involution_Z2",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Circle reparametrization diffeomorphisms have presentation degree +/-1; the sign is orientation, not a solution integer.",
+      "kind": "SUBSTANTIVE",
+      "name": "A16_h_reparam_orientation_degree",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Every declared completion class is crossed with both spatial readings and all seven alpha seats.",
+      "kind": "GUARD",
+      "name": "A09_completion_reading_coverage",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Independent cycle-by-family mode-zero recovery matches all six fields of all 20 period-gate rows.",
+      "kind": "GUARD",
+      "name": "C1a_period_gate_20_rows_exact",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Mechanical parse: all six T3 linear-time branch-(a) rows recover the static verdicts verbatim.",
+      "kind": "GUARD",
+      "name": "C1b_T3_line_branch_exact",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Alpha integers partition cleanly: mode/mapping-class labels exist, while native real field periods vanish.",
+      "kind": "SUBSTANTIVE",
+      "name": "A10_alpha_integer_provenance_partition",
+      "passed": true,
+      "stage": "alpha"
+    },
+    {
+      "claim": "Mechanical A1 control: the local angular-live metric opening already covers all ten covariant components.",
+      "kind": "GUARD",
+      "name": "B00_A1_complete_metric_opening_control",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "sigma1^2+sigma2^2 equals the round S2-base metric in the full Euler chart.",
+      "kind": "SUBSTANTIVE",
+      "name": "B01_full_S3_screen_metric",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "d sigma3 = -sin(theta) dtheta^dphi; the fiber phase is not a global field.",
+      "kind": "SUBSTANTIVE",
+      "name": "B02_hopf_connection_curvature",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "The registered Hopf bundle has fixed Chern -1; canonical sigma3 has normalized Hopf representative -1.",
+      "kind": "SUBSTANTIVE",
+      "name": "B03_fixed_chern_and_hopf_representative",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "Exact representative has zero added flux; general smooth global perturbations follow by Stokes on closed S2 (Category-A).",
+      "kind": "SUBSTANTIVE",
+      "name": "B04_connection_deformation_preserves_chern",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "The owned circle-valued transition datum has winding -1 (orientation convention); it is not a global field.",
+      "kind": "SUBSTANTIVE",
+      "name": "B05_hopf_transition_winding_one",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "North/south local fiber coordinates reconstruct identical sigma3; metric data descend chart-covariantly.",
+      "kind": "SUBSTANTIVE",
+      "name": "B05a_hopf_chart_metric_leg_descends",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "All 104 banked two-cap pairs are independently recomputed unimodular, hence S3/pi1-trivial.",
+      "kind": "SUBSTANTIVE",
+      "name": "B06_cap_census_104_unimodular",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "In a cap-adapted basis the shear preserves both lines only at n=0; conjugacy covers every unimodular pair (Category-A).",
+      "kind": "SUBSTANTIVE",
+      "name": "B07_large_shear_killed_by_two_caps",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "With all angular instruments on, generic members retain transition covariance, not Hopf/torus isometry.",
+      "kind": "SUBSTANTIVE",
+      "name": "B08_generic_S3_field_breaks_continuous_isometries",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "Diagonal certificate; general SPD(3) convexity is Category-A. Lapse/shift factors add no winding.",
+      "kind": "SUBSTANTIVE",
+      "name": "B09_open_metric_target_contraction",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "A frame rotation, even with nontrivial global frame class, leaves g unchanged; no metric integer results.",
+      "kind": "SUBSTANTIVE",
+      "name": "B10_coframe_winding_is_metric_presentation",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "Mechanical doorway control: no global fiber field and no S2 carrier target are derived.",
+      "kind": "GUARD",
+      "name": "B11_no_native_variable_Hopf_map",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "Chern/Hopf +/-1 are fixed arena data shared by all members, not branch labels or parameter conditions.",
+      "kind": "SUBSTANTIVE",
+      "name": "B12_fixed_topology_cuts_no_mass_data",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "Mechanical scope control: only the banked two-cap class is S3; unregistered crease classes cannot inherit it.",
+      "kind": "GUARD",
+      "name": "B13a_completion_scope_not_smeared",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "Both certified massive-capable carriers are crossed with both spatial readings.",
+      "kind": "GUARD",
+      "name": "B13_massive_carriers_both_enumerated",
+      "passed": true,
+      "stage": "beta"
+    },
+    {
+      "claim": "Cap pi1 kill survives; torus shear re-scopes to presentation; Hopf obstruction survives while fixed c1 remains.",
+      "kind": "SUBSTANTIVE",
+      "name": "B14_beta_kill_readjudication_complete",
+      "passed": true,
+      "stage": "beta"
+    }
+  ],
+  "counts": {
+    "failed": 0,
+    "guard": 8,
+    "substantive": 27,
+    "total": 35
+  },
+  "stage": "beta",
+  "stamps": [
+    "LINEAR_TIME_ONLY",
+    "THETA_ABSENT",
+    "NO_BRANCH_ADOPTED",
+    "NO_COMPLETION_ADOPTED",
+    "NO_POSTURE_ADOPTED",
+    "NO_PHYSICS"
+  ],
+  "status": "PASS"
+}
