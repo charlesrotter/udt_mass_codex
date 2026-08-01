@@ -119,7 +119,7 @@ area law; the dichotomy rewritten M·ℓ ≤ (π²/4)√(g_p·c_m) — uncertain
 rules; the solvable slack tower; §7 = Charles's taxonomized-stability spectrum picture:
 species = discrete labels × stable basin, ratios = the payoff); **(3) the roadmap's
 law-adoption CLARIFICATION** (derivation first, observation second, preference never).
-A3 STILL FIRST; these queue behind it for pondering/tile-drafting with Charles. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
+A3 STILL FIRST; these queue behind it for pondering/tile-drafting with Charles. **(4) `SCOPING_MAP_seam_constants_from_metric_2026-07-31.md`** — the bounded 'is the nuclear reframe a curve fit?' test: it reduces to ONE banked relation (a_F = 2λ) and ONE question (which pairing branch the certified massive chain occupies, what λ there); three pre-committed outcomes (predicts-a_F / kills-the-identification / punts-to-A3); provenance sort included (Bin A banked / Bin B textbook / Bin C conditional). PARKED behind A3 (Charles withdrew 'set A3 aside' 2026-07-31); sequencing his call. BEHIND IT (the desk, in order): the posture question; the census ruling; the G18 re-grade;
 the R1 menu; the queued tiles (resonance census = verifier-required precondition;
 index-exactly-1 numeric; hopfion-bridge at driver discretion; the named unrun seats incl.
 the cycle+pin completion — the only named spatial road to marrying integers and mass).
