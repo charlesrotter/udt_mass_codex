@@ -1,0 +1,19 @@
+{
+  "base": "686336343878e8a9e39a4b72df08d23754243631",
+  "boundary_routes": 6,
+  "boundary_routes_passing": 0,
+  "catch_proofs": 4,
+  "equation_routes": 8,
+  "equation_routes_passing": 0,
+  "governing_source_count": 586,
+  "outcome": "NO_NATIVE_PROBLEM_DERIVED_DOWNSTREAM_STAGES_BLOCKED",
+  "scope_ceiling": "CURRENT_REGISTERED_586_PATH_SOURCE_UNIVERSE_ONLY__NO_UNIVERSAL_NO_GO",
+  "source_anchor_rows": 14,
+  "stage1_pass": false,
+  "stage2_pass": false,
+  "stage3_launched": false,
+  "stage3_solution_certified": false,
+  "stage3_solve_allowed": false,
+  "stage4_certificate_allowed": false,
+  "stage4_certificate_assembled": false
+}

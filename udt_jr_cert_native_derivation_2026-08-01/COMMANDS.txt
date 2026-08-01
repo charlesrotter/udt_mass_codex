@@ -1,0 +1,8 @@
+python3 udt_jr_cert_native_derivation_2026-08-01/verify_preregistration.py
+python3 udt_jr_cert_native_derivation_2026-08-01/verify_transitive_source_freeze.py
+python3 udt_jr_cert_native_derivation_2026-08-01/derive_jr_cert_program.py
+python3 udt_jr_cert_native_derivation_2026-08-01/verify_jr_cert_program.py
+python3 udt_jr_cert_native_derivation_2026-08-01/COLD_VERIFIER_CHECK.py
+python3 udt_jr_cert_native_derivation_2026-08-01/verify_repository_gates.py
+python3 udt_jr_cert_native_derivation_2026-08-01/build_package_manifest.py
+python3 udt_jr_cert_native_derivation_2026-08-01/verify_package_manifest.py

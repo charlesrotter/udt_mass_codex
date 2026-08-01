@@ -1,0 +1,5 @@
+catch_id	equation_pass	boundary_pass	solve_allowed	expected	result
+C01_baseline_both_missing	FALSE	FALSE	FALSE	FALSE	PASS
+C02_equation_only	TRUE	FALSE	FALSE	FALSE	PASS
+C03_boundary_only	FALSE	TRUE	FALSE	FALSE	PASS
+C04_both_present	TRUE	TRUE	TRUE	TRUE	PASS

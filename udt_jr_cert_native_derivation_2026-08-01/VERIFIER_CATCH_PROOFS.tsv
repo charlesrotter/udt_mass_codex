@@ -1,0 +1,15 @@
+mutation	result
+missing_equation_route	PASS_REJECTED
+duplicate_equation_route	PASS_REJECTED
+missing_boundary_route	PASS_REJECTED
+duplicate_boundary_route	PASS_REJECTED
+false_stage1_pass	PASS_REJECTED
+false_stage2_pass	PASS_REJECTED
+unauthorized_solve	PASS_REJECTED
+solve_status_promotion	PASS_REJECTED
+certificate_status_promotion	PASS_REJECTED
+result_solve_promotion	PASS_REJECTED
+result_certificate_promotion	PASS_REJECTED
+source_count_loss	PASS_REJECTED
+outcome_promotion	PASS_REJECTED
+ledger_promotion	PASS_REJECTED

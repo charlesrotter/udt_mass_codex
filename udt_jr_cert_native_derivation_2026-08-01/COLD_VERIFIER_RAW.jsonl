@@ -1,0 +1,118 @@
+{"branch": "codex/jr-cert-native-derivation-2026-08-01", "check_id": "OP01_branch", "status": "PASS"}
+{"check_id": "OP02_head", "head": "148db3b58011984e615c63b5f77874d147c5ae45", "status": "PASS"}
+{"base": "686336343878e8a9e39a4b72df08d23754243631", "check_id": "OP03_base_ancestor", "status": "PASS"}
+{"check_id": "OP04_current_premises", "status": "PASS", "stderr": "", "stdout": "PASS: 18 premise guards, 9 startup controls, 754 candidate dispositions, corrected DOF semantics"}
+{"blobs": 10855, "check_id": "OP05_base_tree", "status": "PASS"}
+{"check_id": "FZ01_counts", "combined": 586, "original": 172, "status": "PASS", "transitive": 414}
+{"check_id": "FZ02_unique_original", "status": "PASS"}
+{"check_id": "FZ03_unique_transitive", "status": "PASS"}
+{"check_id": "FZ04_disjoint", "overlap": [], "status": "PASS"}
+{"check_id": "FZ05_exact_sorted_union", "status": "PASS"}
+{"check_id": "FZ06_program_outputs_excluded", "status": "PASS"}
+{"check_id": "FZ07_inventory_path_alignment", "status": "PASS"}
+{"bytes": 16514116, "check_id": "FZ08_all_base_blobs", "files": 586, "status": "PASS"}
+{"check_id": "FZ09_scope_count", "status": "PASS"}
+{"check_id": "FZ10_scope_enumeration", "package_counts": {"angular_toric_closure_selector_2026-07-19": 19, "asymptotic_boundary_lineage_audit_2026-07-19": 39, "native_boundary_generator_scale_audit_2026-07-19": 33, "udt_complete_screen_response_branch_atlas_2026-07-28": 60, "udt_general_screen_complete_cell_atlas_2026-07-28": 52, "udt_general_screen_dependency_regrade_2026-07-28": 35, "udt_global_functional_dof_constraint_rank_audit_2026-07-26": 41, "udt_higher_isometry_plane_ownership_audit_2026-07-28": 52, "udt_joint_selector_provenance_audit_2026-07-28": 45, "udt_metric_natural_joint_selector_nogo_2026-07-28": 38}, "status": "PASS"}
+{"check_id": "FZ11_SOURCE_MANIFEST.sha256", "status": "PASS"}
+{"check_id": "FZ11_TRANSITIVE_SOURCE_MANIFEST.sha256", "status": "PASS"}
+{"check_id": "FZ12_snapshot", "status": "PASS"}
+{"check_id": "FZ13_freeze_artifact_hashes", "hashes": {"combined_paths": "42986ac87370d9127673810b0b92102d13e57b951bca9d3b0aa13330dd6a9d94", "package_scope": "678c2f30e1eb4a020582041149ca4b966bcbe8702ab79438766535e9321e7b6c", "source_inventory": "d1115314bdf8109a9ac889ef0ee6e50f95969722f72073ff450b27ee81afe9f9", "source_manifest": "c5aed81834196c3cb74ec25437158bfeb31123520f19ce50aa208327ca61fc48", "source_paths": "dad67c4a23a46e497ff499c45bff6fc321d0f54611f9ef8032bf924ed3d7a3be", "transitive_inventory": "67b3522776b15f4310a64ccabf75dd23d5798f7cfe75af75111e24a0e037e8ec", "transitive_manifest": "c1d55e312edac474e70ce505d9bbac2152203ac8d1f38db89edf7a1ade6232a3", "transitive_paths": "0719d36281f8b4d7a4fe534d60b3e5df13c2bf9dd8c5125d8755f3f739c50695"}, "status": "PASS"}
+{"check_id": "RT01_premise_ids", "status": "PASS"}
+{"check_id": "RT02_candidate_ids", "status": "PASS"}
+{"check_id": "RT03_adjudication_ids", "status": "PASS"}
+{"boundary_passes": 0, "check_id": "RT04_all_routes_negative", "equation_passes": 0, "status": "PASS"}
+{"check_id": "RT05_route_fields", "status": "PASS"}
+{"check_id": "RT05b_route_statuses", "status": "PASS"}
+{"check_id": "RT06_primary_anchor_ids", "status": "PASS"}
+{"check_id": "RT07_anchor_A01", "status": "PASS"}
+{"check_id": "RT07_anchor_A02", "status": "PASS"}
+{"check_id": "RT07_anchor_A03", "status": "PASS"}
+{"check_id": "RT07_anchor_A04", "status": "PASS"}
+{"check_id": "RT07_anchor_A05", "status": "PASS"}
+{"check_id": "RT07_anchor_A06", "status": "PASS"}
+{"check_id": "RT07_anchor_A07", "status": "PASS"}
+{"check_id": "RT07_anchor_A08", "status": "PASS"}
+{"check_id": "RT07_anchor_A09", "status": "PASS"}
+{"check_id": "RT07_anchor_A10", "status": "PASS"}
+{"check_id": "RT07_anchor_A11", "status": "PASS"}
+{"check_id": "RT07_anchor_A12", "status": "PASS"}
+{"check_id": "RT07_anchor_A13", "status": "PASS"}
+{"check_id": "RT07_anchor_A14", "status": "PASS"}
+{"anchors": ["A03", "A05"], "check_id": "RT08_anchor_coverage_E01", "status": "PASS"}
+{"anchors": ["A03", "A05"], "check_id": "RT08_anchor_coverage_E02", "status": "PASS"}
+{"anchors": ["A05"], "check_id": "RT08_anchor_coverage_E03", "status": "PASS"}
+{"anchors": ["A01", "A02", "A03", "A04"], "check_id": "RT08_anchor_coverage_E04", "status": "PASS"}
+{"anchors": ["A03", "A04", "A05", "A11", "A12"], "check_id": "RT08_anchor_coverage_E05", "status": "PASS"}
+{"anchors": ["A06", "A07", "A12"], "check_id": "RT08_anchor_coverage_E06", "status": "PASS"}
+{"anchors": ["A08"], "check_id": "RT08_anchor_coverage_E07", "status": "PASS"}
+{"anchors": ["A01", "A02", "A14"], "check_id": "RT08_anchor_coverage_E08", "status": "PASS"}
+{"anchors": ["A05", "A10", "A11"], "check_id": "RT08_anchor_coverage_B01", "status": "PASS"}
+{"anchors": ["A05", "A10", "A11", "A12"], "check_id": "RT08_anchor_coverage_B02", "status": "PASS"}
+{"anchors": ["A08", "A09"], "check_id": "RT08_anchor_coverage_B03", "status": "PASS"}
+{"anchors": ["A06", "A12"], "check_id": "RT08_anchor_coverage_B04", "status": "PASS"}
+{"anchors": ["A11", "A13"], "check_id": "RT08_anchor_coverage_B05", "status": "PASS"}
+{"anchors": ["A09", "A10", "A12", "A14"], "check_id": "RT08_anchor_coverage_B06", "status": "PASS"}
+{"check_id": "RT09_source_first_E01", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_E02", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_E03", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_E04", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_E05", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_E06", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_E07", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_E08", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_B01", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_B02", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_B03", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_B04", "sources": 1, "status": "PASS"}
+{"check_id": "RT09_source_first_B05", "sources": 2, "status": "PASS"}
+{"check_id": "RT09_source_first_B06", "sources": 2, "status": "PASS"}
+{"check_id": "RT10_stages", "status": "PASS"}
+{"check_id": "RT11_outcome", "status": "PASS"}
+{"check_id": "RT12_downstream_block", "status": "PASS"}
+{"check_id": "RT13_count_alignment", "status": "PASS"}
+{"check_id": "RT14_bounded_labels", "status": "PASS"}
+{"check_id": "RT15_conditional_labels", "status": "PASS"}
+{"check_id": "RT16_candidate_phrase_census", "counts": {"complete bootstrap-to-local response map": 1, "complete native action": 18, "differentiable finite-cell boundary": 20, "native whole-system equation": 6}, "status": "PASS"}
+{"check_id": "GE01_determinant", "status": "PASS"}
+{"check_id": "GE02_metric_compatibility", "status": "PASS", "total": 64, "zero": 64}
+{"check_id": "GE03_torsion", "status": "PASS", "total": 64, "zero": 64}
+{"check_id": "GE04_scalar", "expression": "2*(-2*Derivative(phi(x), x)**2 + Derivative(phi(x), (x, 2)))*exp(-2*phi(x))", "status": "PASS"}
+{"check_id": "GE05_Cartan_first", "status": "PASS"}
+{"check_id": "GE06_Cartan_second", "expression": "(-2*Derivative(phi(x), x)**2 + Derivative(phi(x), (x, 2)))*exp(-2*phi(x))", "status": "PASS"}
+{"check_id": "GE07_contracted_Bianchi", "divergence": ["0", "0", "0", "0"], "status": "PASS"}
+{"check_id": "GE08_nonselection_family", "seal_curvatures": ["0", "-4*a**2", "4*b", "-4*a**2"], "status": "PASS"}
+{"check_id": "BD01_odd_seal", "jets": {"normal_first": "a", "normal_second": "0", "normal_third": "6*b", "phi": "0"}, "status": "PASS"}
+{"check_id": "BD02_seal_curvature_free", "curvature": "-4*a**2", "status": "PASS"}
+{"check_id": "BD03_two_derivative_IBP", "flux": "f' delta_f", "status": "PASS"}
+{"check_id": "BD04_four_derivative_IBP", "flux": "f'' delta_f' - f''' delta_f", "status": "PASS"}
+{"check_id": "BD05_operator_dependent_boundary", "fourth_order_flux": "2", "second_order_flux": "0", "status": "PASS"}
+{"check_id": "CP01_algebra_counts", "status": "PASS"}
+{"check_id": "CP02_Bianchi", "status": "PASS"}
+{"check_id": "CP03_seal", "status": "PASS"}
+{"check_id": "CP04_variation", "status": "PASS"}
+{"check_id": "CP05_outcome", "status": "PASS"}
+{"check_id": "PV01_structural_mutation_count", "count": 14, "status": "PASS"}
+{"absent_checks": ["required_text", "[\"exact_test\"]", "[\"remaining_scope\"]", "F6_IDENTITY_PROMOTION", "F7_BOUNDARY_PROMOTION", "F8_CONDITIONAL_PROMOTION", "F12_UNIVERSAL_NO_GO"], "check_id": "PV02_semantic_gap_identified", "status": "PASS"}
+{"check_id": "PV03_no_primary_import", "status": "PASS"}
+{"check_id": "MU_drop_original_source", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_drop_transitive_source", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_create_freeze_overlap", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_reverse_combined_union", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_insert_program_output", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_drop_premise", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_drop_equation_route", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_duplicate_boundary_route", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_erase_route_evidence", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_erase_anchor_text", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_mutate_base_hash", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_drop_scoped_package_file", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_promote_Cartan_identity", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_rename_identity_as_EOM", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_promote_conditional_action", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_promote_seal_trace", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_erase_remaining_scope", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_universal_no_go", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_unauthorized_solve", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_unauthorized_certificate", "disposition": "REJECTED", "status": "PASS"}
+{"check_id": "MU_summary", "rejected": 20, "status": "PASS", "total": 20}
+{"changed_paths": 32, "check_id": "OP06_isolation", "status": "PASS"}

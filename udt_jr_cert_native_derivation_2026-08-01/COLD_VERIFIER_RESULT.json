@@ -1,0 +1,168 @@
+{
+  "base": "686336343878e8a9e39a4b72df08d23754243631",
+  "boundary_controls": {
+    "fourth_order_flux": "f'' delta_f' - f''' delta_f",
+    "odd_family": "a*x+b*x**3",
+    "seal_curvature": "-4*a**2",
+    "seal_normal_first": "a",
+    "seal_normal_third": "6*b",
+    "seal_phi": "0",
+    "second_order_flux": "f' delta_f",
+    "separating_witness": {
+      "fourth": "2",
+      "second": "0"
+    }
+  },
+  "branch": "codex/jr-cert-native-derivation-2026-08-01",
+  "checker_sha256": "1ad975fb0903a8ed413a45638401e7fc2ccfe51c0b75f0e0448d3b76c82a6935",
+  "checks_passed": 118,
+  "checks_total": 118,
+  "comparison_to_primary": {
+    "algebra_match": true,
+    "outcome_match": true,
+    "primary_verifier_semantic_caveat": "primary mutations are structural; cold mutations below supply semantic promotion catches"
+  },
+  "date": "2026-08-01",
+  "findings": [
+    {
+      "id": "CV-F01",
+      "severity": "RETAIN",
+      "text": "No frozen route supplies E_native or matching B_native."
+    },
+    {
+      "id": "CV-F02",
+      "severity": "NONBLOCKING_TOOLING_CAVEAT",
+      "text": "Primary mutations are structural; this cold checker adds source-semantic promotion catches."
+    },
+    {
+      "id": "CV-F03",
+      "severity": "SCOPE_GUARD",
+      "text": "The negative is bounded to the registered 586-path universe; universal no-go is rejected."
+    }
+  ],
+  "four_gates": {
+    "bounded_scope_justified": "YES_586_PATHS",
+    "independent_load_bearing_verification": "YES",
+    "premises_audited": "YES_20_ROWS_PLUS_CURRENT_VERIFIER",
+    "preregistered": "YES"
+  },
+  "freeze": {
+    "artifact_hashes": {
+      "combined_paths": "42986ac87370d9127673810b0b92102d13e57b951bca9d3b0aa13330dd6a9d94",
+      "package_scope": "678c2f30e1eb4a020582041149ca4b966bcbe8702ab79438766535e9321e7b6c",
+      "source_inventory": "d1115314bdf8109a9ac889ef0ee6e50f95969722f72073ff450b27ee81afe9f9",
+      "source_manifest": "c5aed81834196c3cb74ec25437158bfeb31123520f19ce50aa208327ca61fc48",
+      "source_paths": "dad67c4a23a46e497ff499c45bff6fc321d0f54611f9ef8032bf924ed3d7a3be",
+      "transitive_inventory": "67b3522776b15f4310a64ccabf75dd23d5798f7cfe75af75111e24a0e037e8ec",
+      "transitive_manifest": "c1d55e312edac474e70ce505d9bbac2152203ac8d1f38db89edf7a1ade6232a3",
+      "transitive_paths": "0719d36281f8b4d7a4fe534d60b3e5df13c2bf9dd8c5125d8755f3f739c50695"
+    },
+    "bytes": 16514116,
+    "combined": 586,
+    "original": 172,
+    "overlap": 0,
+    "package_counts": {
+      "angular_toric_closure_selector_2026-07-19": 19,
+      "asymptotic_boundary_lineage_audit_2026-07-19": 39,
+      "native_boundary_generator_scale_audit_2026-07-19": 33,
+      "udt_complete_screen_response_branch_atlas_2026-07-28": 60,
+      "udt_general_screen_complete_cell_atlas_2026-07-28": 52,
+      "udt_general_screen_dependency_regrade_2026-07-28": 35,
+      "udt_global_functional_dof_constraint_rank_audit_2026-07-26": 41,
+      "udt_higher_isometry_plane_ownership_audit_2026-07-28": 52,
+      "udt_joint_selector_provenance_audit_2026-07-28": 45,
+      "udt_metric_natural_joint_selector_nogo_2026-07-28": 38
+    },
+    "transitive": 414
+  },
+  "geometry": {
+    "bianchi_divergence": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "cartan_curvature": "(-2*Derivative(phi(x), x)**2 + Derivative(phi(x), (x, 2)))*exp(-2*phi(x))",
+    "determinant": "-1",
+    "metric_compatibility": "64/64",
+    "sample_seal_curvatures": [
+      "0",
+      "-4*a**2",
+      "4*b",
+      "-4*a**2"
+    ],
+    "scalar_curvature": "2*(-2*Derivative(phi(x), x)**2 + Derivative(phi(x), (x, 2)))*exp(-2*phi(x))",
+    "torsion": "64/64"
+  },
+  "head": "148db3b58011984e615c63b5f77874d147c5ae45",
+  "maximum_conclusion": "EXACT_586_PATH_REGISTERED_SOURCE_UNIVERSE_ONLY__NO_UNIVERSAL_NO_GO",
+  "mutations_rejected": [
+    "drop_original_source",
+    "drop_transitive_source",
+    "create_freeze_overlap",
+    "reverse_combined_union",
+    "insert_program_output",
+    "drop_premise",
+    "drop_equation_route",
+    "duplicate_boundary_route",
+    "erase_route_evidence",
+    "erase_anchor_text",
+    "mutate_base_hash",
+    "drop_scoped_package_file",
+    "promote_Cartan_identity",
+    "rename_identity_as_EOM",
+    "promote_conditional_action",
+    "promote_seal_trace",
+    "erase_remaining_scope",
+    "universal_no_go",
+    "unauthorized_solve",
+    "unauthorized_certificate"
+  ],
+  "mutations_total": 20,
+  "primary_outcome": "NO_NATIVE_PROBLEM_DERIVED_DOWNSTREAM_STAGES_BLOCKED",
+  "primary_verifier_review": {
+    "absent_semantic_checks": [
+      "required_text",
+      "[\"exact_test\"]",
+      "[\"remaining_scope\"]",
+      "F6_IDENTITY_PROMOTION",
+      "F7_BOUNDARY_PROMOTION",
+      "F8_CONDITIONAL_PROMOTION",
+      "F12_UNIVERSAL_NO_GO"
+    ],
+    "disposition": "NONBLOCKING_AFTER_COLD_SEMANTIC_MUTATIONS",
+    "structural_mutations": 14
+  },
+  "python": "3.10.12",
+  "raw_sha256": "67627eb069762efc49db797719fb8e33dfdbef330a43694ba3080887447b06dc",
+  "route_results": {
+    "B01": "PHI_TRACE_ONLY_NOT_ALL_FIELD_DIFFERENTIABLE_BOUNDARY",
+    "B02": "MULTIPLE_COMPLETIONS_AND_REGULARITY_NOT_SELECTION",
+    "B03": "OPERATOR_AND_VARIATION_DOMAIN_DEPENDENT_CONDITIONAL",
+    "B04": "SHAPE_CHANNEL_REQUIRED_BUT_MAP_AND_DERIVATIVE_ABSENT",
+    "B05": "CONDITIONAL_CARRIER_AND_SOLVER_BOUNDARY_NOT_NATIVE",
+    "B06": "NO_REGISTERED_COMPLETE_MATCHING_BOUNDARY_OPERATION",
+    "E01": "IDENTITY_RECONSTRUCTION_NOT_SELECTION",
+    "E02": "UNIQUE_CONNECTION_FOR_EACH_METRIC_NOT_REALIZATION_LAW",
+    "E03": "DIFFERENTIAL_IDENTITY_ZERO_DYNAMICAL_RANK",
+    "E04": "KINEMATIC_COMPOSITION_AND_OFF_SHELL_RESPONSE_NOT_EOM",
+    "E05": "CONFIGURATION_AND_COMPLETION_CONSTRAINTS_NOT_WHOLE_EQUATION",
+    "E06": "TWO_ARROW_TYPE_DERIVED_MAPS_AND_FIXED_POINT_OPEN",
+    "E07": "CONDITIONAL_BRANCHES_DO_NOT_BECOME_NATIVE",
+    "E08": "NO_REGISTERED_COMPLETE_NATIVE_OPERATION_IN_FROZEN_CENSUS"
+  },
+  "source_phrase_census": {
+    "complete bootstrap-to-local response map": 1,
+    "complete native action": 18,
+    "differentiable finite-cell boundary": 20,
+    "native whole-system equation": 6
+  },
+  "stage_gates": {
+    "B_native": "OPEN_NOT_DERIVED",
+    "E_native": "OPEN_NOT_DERIVED",
+    "JR_CERT_NATIVE": "NOT_ASSEMBLED",
+    "stage3": "NOT_LAUNCHED"
+  },
+  "sympy": "1.13.1",
+  "verdict": "CLOSED-PASS_BOUNDED"
+}

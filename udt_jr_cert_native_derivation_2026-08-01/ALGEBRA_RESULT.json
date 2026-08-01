@@ -1,0 +1,81 @@
+{
+  "base": "686336343878e8a9e39a4b72df08d23754243631",
+  "cartan_curvature_coefficient": "(-2*Derivative(phi(x), x)**2 + Derivative(phi(x), (x, 2)))*exp(-2*phi(x))",
+  "cartan_dtheta0_coefficient": "exp(-phi(x))*Derivative(phi(x), x)",
+  "cartan_omega01_theta0_coefficient": "-exp(-phi(x))*Derivative(phi(x), x)",
+  "cartan_torsion0_coefficient": "0",
+  "contracted_bianchi_divergence": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "control_scope": "arbitrary_phi_x_reciprocal_diagonal_pair_with_spectator_screen__not_complete_udt",
+  "einstein_tensor_covariant": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "(2*Derivative(phi(x), x)**2 - Derivative(phi(x), (x, 2)))*exp(-2*phi(x))",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "(2*Derivative(phi(x), x)**2 - Derivative(phi(x), (x, 2)))*exp(-2*phi(x))"
+    ]
+  ],
+  "fourth_order_variation_identity": "0",
+  "metric_compatibility_total": 64,
+  "metric_compatibility_zero_count": 64,
+  "metric_determinant": "-1",
+  "nonzero_christoffels": [
+    {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "value": "-Derivative(phi(x), x)"
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "c": 0,
+      "value": "-Derivative(phi(x), x)"
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "c": 0,
+      "value": "-exp(-4*phi(x))*Derivative(phi(x), x)"
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "value": "Derivative(phi(x), x)"
+    }
+  ],
+  "python": "3.10.12",
+  "scalar_curvature": "2*(-2*Derivative(phi(x), x)**2 + Derivative(phi(x), (x, 2)))*exp(-2*phi(x))",
+  "seal_family": {
+    "normal_derivative_at_seal": "a",
+    "phi_at_seal": "0",
+    "scalar_curvature_at_seal": "-4*a**2"
+  },
+  "second_order_variation_identity": "0",
+  "sympy": "1.13.1",
+  "torsion_total": 64,
+  "torsion_zero_count": 64
+}

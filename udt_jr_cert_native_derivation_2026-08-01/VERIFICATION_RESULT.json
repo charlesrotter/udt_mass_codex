@@ -1,0 +1,11 @@
+{
+  "base": "686336343878e8a9e39a4b72df08d23754243631",
+  "boundary_routes": 6,
+  "equation_routes": 8,
+  "outcome": "NO_NATIVE_PROBLEM_DERIVED_DOWNSTREAM_STAGES_BLOCKED",
+  "production_catch_proofs": 4,
+  "source_anchors": 14,
+  "source_files_verified": 586,
+  "status": "PASS",
+  "verifier_mutations_rejected": 14
+}
