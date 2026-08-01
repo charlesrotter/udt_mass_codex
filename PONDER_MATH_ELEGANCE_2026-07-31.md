@@ -644,3 +644,17 @@ Status: LEAD, driver-run. The night's ladder now runs: the nucleus, the chart, t
 table's end, the drip landmarks, the stars' fuel, and a dead star's minimum — one
 five-coefficient seam law, every hit and every miss mapped, all of it awaiting the
 verifiers behind A3.
+
+## 15u. WORKED: the fusion barriers and the compact-object window
+- **FUSION BARRIER HEIGHTS from our emergent r0 — all four inside their textbook
+  windows:** p+p 0.59 MeV (textbook 0.55–0.7 — the Sun's ignition wall); D+T 0.44
+  (~0.4 — the number tokamaks are designed around); D+D 0.47 (0.4–0.5); p+B-11 1.82
+  (1.3–2 — the aneutronic-fusion wall). The energies that gate stellar burning and
+  reactor engineering, from a length that emerged out of binding fits.
+- **THE COMPACT-OBJECT WINDOW, closed from both ends:** our seam floor (0.208 M☉, 15r)
+  below; the anchor-arithmetic Chandrasekhar threshold (~1.44 M☉) as the formation
+  gate — and every neutron star ever weighed (1.17–2.35 M☉) lives exactly where the
+  two bounds say it must.
+Status: LEAD, driver-run. The ladder is now a bridge: femtometer seams at one end, dead
+stars at the other, the Sun's fire in the middle — one emergent coefficient set, still
+standing, still awaiting its executioners behind A3.
