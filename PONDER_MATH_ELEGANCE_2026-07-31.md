@@ -350,3 +350,18 @@ driver-run, no prereg/verifier — but this is the reframe's first contact with 
 measured numbers, and it hit six nuclides at the few-percent level with one constant.
 The full pre-registered confrontation (all nuclides, the 3D repulsion, the pairing
 layer) is a named contract for the next driver, behind A3.
+
+## 15d. WORKED: yes, 15c was the rawest toy — one refinement step, big payoff
+Two pins (Fe-56 + Pb-208), the native repulsion term added (B/A = a_F(1−1/N) − c·N),
+zero fits after: **He-4 → 0.99, Sn-120 → 0.99, Pb-208 → 1.00; FISSION RELEASE → 0.00082
+vs observed 0.00090 (within 9%).** Residuals now point at ONE fix: C-12/O-16 drift to
+~1.08-1.10 and the peak lands at N*=37 (nature ~56-62) — both are the 1D repulsion's
+linear-N scaling overcorrecting; the 3D lift (repulsion ~ N^(2/3)-type, windings on a
+surface not a line) is the single named refinement that should fix both. Deuteron/triton
+still fail (few-body/pairing layer — separate named seat). ACCURACY LADDER, honest:
+(1) 3D repulsion geometry (computable now); (2) per-seam variation + pairing (the
+few-body fix); (3) THE REAL PROGRAM — derive a_F and c FROM THE METRIC (here they are
+empirical pins; the banked wall structure is where a_F lives, the winding sector is
+where c lives — both named derivation targets). Status: LEAD, driver-run; the toy is
+now accurate enough to be worth killing properly — the pre-registered full confrontation
+remains the next driver's contract, behind A3.
