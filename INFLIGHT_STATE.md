@@ -5,10 +5,16 @@ then P4_ARC_SUMMARY_2026-07-31.md, ROADMAP_LINEAR_TIME_2026-07-31.md, this file,
 preregistration. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before DERIVE; lay language with
 Charles; nothing launches without his go).
 
-**THE IN-FLIGHT TASK:** A1 and A2 are banked. A3 is preregistered but NOT launched. Its gate is
-Charles's explicit current-session `A3 go`; absent that exact gate, report readiness and stop.
-After A3 closes through its ordinary verifier pipeline, the clean-context audit in
-`P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` is recommended before T4/adoption.
+**THE IN-FLIGHT TASK:** A1 and A2 are banked. A3 was explicitly authorized on 2026-08-01 and is
+now between derivation and blind verification. After A3 closes through its ordinary verifier
+pipeline, the clean-context audit in `P4_COLD_ADVERSARIAL_REVIEW_SUGGESTION_2026-08-01.md` is
+recommended before T4/adoption.
+
+**A3 EXECUTION STATUS (2026-08-01):** Charles gave the explicit `A3 go`. The derivation agent has
+completed and disk-banked `alpha` → `beta` → `gamma`: 48/48 derivation-side checks pass (31
+substantive, 17 guard), deterministic exit 0. The package and its `OB3-3 MIXED-BY-KIND` outcome are
+UNCOMMITTED/PROVISIONAL pending the required zero-context blind adversarial verifier. Next action:
+dispatch that verifier exactly under R3; do not bank or narrate the result as verified yet.
 
 **INCREMENT LIST (mark each DONE as its commit lands; everything below NOT marked DONE
 is unstarted or in flight):**
