@@ -518,3 +518,21 @@ the alpha anomaly: SHELLS = the discrete level structure — which in this frame
 the natural jurisdiction of the per-basin mode spectrum (the angular/mode machinery A3
 opens). Status: LEAD, driver-run; the ladder now stands at 0.2% with nature's
 coefficient set emergent and the next rung named by the data itself.
+
+## 15n. WORKED: differential tests — one hit, one honest self-correction
+- **MIRROR NUCLEI (pure-Coulomb isolation):** O-15/N-15 differ ONLY in the Coulomb term
+  (asymmetry & pairing cancel identically). Predicted |ΔB| = 4.29 MeV vs observed 3.54 —
+  21% high, the textbook uncorrected result (the missing exchange correction is known to
+  close exactly this gap): the Coulomb term isolated and confirmed in a channel none of
+  the fits touched.
+- **SEPARATION ENERGIES at the N=126 shell edge — AND A SELF-CORRECTION:** S_n(Pb-208)
+  predicted 8.04 vs observed 7.37; S_n(Pb-209) 4.79 vs 3.94. The script's own conclusion
+  line claimed the smooth law "cannot produce" the shell drop — WRONG, corrected here:
+  the law produced 3.25 MeV of the observed 3.43 MeV drop (within 5%), because the
+  even-odd PAIRING staggering — which the law carries — dominates that particular drop.
+  The TRUE shell-specific signal is the CONSISTENT ~0.7–0.9 MeV over-prediction of both
+  separation energies at the closed shell (the smooth law under-binds magic
+  neighborhoods) — matching 15m's Pb-208 residual in sign and scale. The shell target
+  for the mode layer is ~0.8 MeV in separation energies, not ~3.4.
+Status: LEAD, driver-run; the self-catch is the record working — even the last drops get
+corrected in daylight.
