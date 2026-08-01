@@ -390,3 +390,19 @@ modulus (λ ≈ 0.0047 on the P1-4D branch): a nuclear-physics number reaching i
 metric's own parameter. THE FULL ENDGAME: derive/pin the moduli (each has a named seat in
 the banked record) and every formula reduces to {e, π, anchors} — Charles's instinct
 stated as the program's terminal condition.
+
+## 15g. (Charles): anchoring on m_proton — can the frame distinguish the neutron?
+The toy cannot (it uses one nucleon mass). The FRAME can, and names the computation:
+proton and neutron = TWO MEMBERS OF ONE BASIN FAMILY differing by a LABEL — the proton
+carries the unit winding (charge), the neutron is the label-free sibling. Then
+**m_n − m_p = the derived energy shift of carrying (or not carrying) the winding** — a
+single computable number once the winding-sector coupling is derived (the coupling menu
+IS its seat), and the flagship falsifiable target: hit +1.293 MeV (+0.1378% of the
+anchor), INCLUDING THE SIGN (the charged member must come out LIGHTER — nontrivial:
+naive self-energy goes the wrong way, as it famously does in the SM too, where the
+quark-mass split must beat the EM term). BONUS, free: the frame naturally explains the
+neutron's CONTEXT-DEPENDENT stability — free neutron = basin-hop downhill (decays,
+~15 min); bound neutron = the hop requires seam reconfiguration costing more than the
+1.29 MeV gap (stable in chains) — decay as transition-graph bookkeeping, context
+included. Status: pure ponder; the winding-gap computation = a named contract (needs
+θ-adoption or the native winding energy from A3-β).
