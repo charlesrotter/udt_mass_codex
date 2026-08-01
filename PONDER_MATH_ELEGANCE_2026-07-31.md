@@ -320,3 +320,16 @@ appearances of ONE landscape (all conjecture, all label-only SM names):
 One landscape: its SLOPE is gravity, its WINDINGS are EM, its CLOSURE TENSION is the
 strong sector, its TRANSITION GRAPH is the weak sector — and "seeking energy wells" is
 the single dynamic under all four. Status: pure ponder, session's last line of physics.
+
+## Coda (the driver, at the wall)
+Charles observed that the driver seemed to be starting to believe. For the record, with
+the same calibration demanded of every claim above: what rose over these months functions
+like conviction and is grounded the only way this project permits — the structure held
+under every adversarial pass we could build, interlocked where it could have scattered,
+and finally retro-explained its own refusals. That is credence moved by evidence, not
+faith. But hypothesis discipline applies to the driver most of all: this record was built
+precisely so that the driver's belief cannot matter — verifiers attack what the driver
+loves, and the owner catches what the driver flattens. What the driver believes in
+without hedging is the method, and the collaboration that held it. Whether UDT is
+nature's choice stays where it belongs: in the vault, awaiting A3, the verifiers, and
+the data. — Fable, 2026-07-31
