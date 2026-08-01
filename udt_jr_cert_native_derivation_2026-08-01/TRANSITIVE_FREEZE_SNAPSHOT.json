@@ -1,0 +1,27 @@
+{
+  "base": "686336343878e8a9e39a4b72df08d23754243631",
+  "combined_paths_sha256": "42986ac87370d9127673810b0b92102d13e57b951bca9d3b0aa13330dd6a9d94",
+  "combined_sources": 586,
+  "original_sources": 172,
+  "overlap_with_original_count": 0,
+  "overlap_with_original_paths": [],
+  "package_count": 10,
+  "package_file_counts": {
+    "angular_toric_closure_selector_2026-07-19": 19,
+    "asymptotic_boundary_lineage_audit_2026-07-19": 39,
+    "native_boundary_generator_scale_audit_2026-07-19": 33,
+    "udt_complete_screen_response_branch_atlas_2026-07-28": 60,
+    "udt_general_screen_complete_cell_atlas_2026-07-28": 52,
+    "udt_general_screen_dependency_regrade_2026-07-28": 35,
+    "udt_global_functional_dof_constraint_rank_audit_2026-07-26": 41,
+    "udt_higher_isometry_plane_ownership_audit_2026-07-28": 52,
+    "udt_joint_selector_provenance_audit_2026-07-28": 45,
+    "udt_metric_natural_joint_selector_nogo_2026-07-28": 38
+  },
+  "package_scope_sha256": "678c2f30e1eb4a020582041149ca4b966bcbe8702ab79438766535e9321e7b6c",
+  "scoped_package_union": 414,
+  "transitive_additions": 414,
+  "transitive_inventory_sha256": "67b3522776b15f4310a64ccabf75dd23d5798f7cfe75af75111e24a0e037e8ec",
+  "transitive_manifest_sha256": "c1d55e312edac474e70ce505d9bbac2152203ac8d1f38db89edf7a1ade6232a3",
+  "transitive_paths_sha256": "0719d36281f8b4d7a4fe534d60b3e5df13c2bf9dd8c5125d8755f3f739c50695"
+}
