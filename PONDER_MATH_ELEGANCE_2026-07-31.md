@@ -406,3 +406,17 @@ neutron's CONTEXT-DEPENDENT stability — free neutron = basin-hop downhill (dec
 1.29 MeV gap (stable in chains) — decay as transition-graph bookkeeping, context
 included. Status: pure ponder; the winding-gap computation = a named contract (needs
 θ-adoption or the native winding energy from A3-β).
+
+## 15h. WORKED (the last drop): the 3D repulsion lift — REFUTED, and the residual re-aimed
+The 15d conjecture ("the N^(2/3) surface-repulsion lift fixes both residuals") is KILLED
+by its own arithmetic: two-pin 3D law gives mid-range ratios slightly WORSE (C-12 1.12,
+O-16 1.10), the peak moves the WRONG way (N*=30 vs 1D's 37; nature 56–62), fission
+slightly worse (0.00073 vs 0.00082; obs 0.00090). Diagnosis: the mid-range overshoot is
+ROBUST to repulsion scaling ⇒ it is NOT the repulsion term at all. The true suspect,
+named: THE SEAM COUNT — the toy assumes a 1D chain (N−1 seams); a 3D-packed cluster has
+~(coordination/2)·N seams minus a surface deficit ∝ N^(2/3), giving B/A = a_F′(1 −
+s·N^(−1/3)) — the genuine surface-term shape, which bends the light/mid nuclei DOWN
+(the observed direction) where the 1D law cannot. Next driver: replace the chain seam
+count with cluster coordination + surface deficit BEFORE touching the repulsion again.
+Status: LEAD-grade kill; honest negatives are first-class — this one just saved the next
+session a wrong turn.
