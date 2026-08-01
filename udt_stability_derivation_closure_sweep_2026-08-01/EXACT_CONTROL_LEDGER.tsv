@@ -1,0 +1,17 @@
+check_id	group_id	claim	result	detail
+S01	ALL	all seven semantic source anchors resolve	PASS	frozen source texts matched
+G01	Q02	boundary value is independent of the second germ	PASS	b0
+G02	Q02	first germ is independent of the second germ	PASS	b1
+G03	Q02	second germ remains the free parameter kappa	PASS	kappa
+G04	Q02	the free second germ enters the wall Hessian	PASS	kappa*v**2
+G05	Q02	two lower-germ-identical completions have different Hessians	PASS	kappa=0:0;kappa=1:v**2
+G06	Q02	the registered first-germ period source is second-germ blind	PASS	J + b1
+R01	Q03	massless two-cell ring satisfies the exact period law	PASS	E1*L1 + E2*L2
+R02	Q03	three response controls share the same stationary background	PASS	[0, 0, 0]
+R03	Q03	the same ring data admit positive, negative, and flat Hessians	PASS	[1, -1, 0]
+R04	Q03	ring closure does not algebraically contain the response coordinate	PASS	{E1, L2, E2, L1}
+T01	Q04	all three time controls share the same static equilibrium	PASS	q1**2/2 + q2**2/2
+T02	Q04	the shared static equilibrium has inequivalent linearized time laws	PASS	contracting:Matrix([[-1, 0], [0, -1]]);rotating:Matrix([[0, -1], [1, 0]]);frozen:Matrix([[0, 0], [0, 0]])
+T03	Q04	the time controls have contracting, conserving, and frozen energy rates	PASS	{'contracting': -q1**2 - q2**2, 'rotating': 0, 'frozen': 0}
+T04	Q04	one S2 fiber admits inequivalent unit sections	PASS	s0=Matrix([[0, 0, 1]]);s1=Matrix([[cos(theta), sin(theta), 0]])
+T05	Q04	an unspecified bootstrap map admits all, one, or no fixed points	PASS	{'identity': 'all', 'contracting': [0], 'translation': []}

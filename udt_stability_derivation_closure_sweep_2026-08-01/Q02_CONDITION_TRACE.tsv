@@ -1,0 +1,6 @@
+condition_id	registered_layer	source_basis	actual_content	second_germ_effect	ruling
+N4	fourth-order wall variation	A04	typed with 2-jet wall and third-derivative momenta; not run	OPEN_NO_EQUATION	cannot own the germ at the frozen layer
+R9	real periods on completion cycles	A06	cycle balances and supplied seam sources	NONE_IN_DERIVED_FORM	first/global data only
+J11	real affine holonomy	A06	real matrix/classification value on chart loops	NONE_IN_DERIVED_FORM	no wall-Hessian owner
+SEAL_PARITY	fold/glue/open posture wall rules	A04-A05	value and first-germ pins/forces at N2	FREE_ON_TRACE_ACTIVE_POSTURES	same lower data admit B_kappa family
+COMPLETE_CELL	quotient/cyclic/acyclic/open completion	A06	period strength differs by completion	NONE_IN_DERIVED_FORM	no completion branch supplies an equation

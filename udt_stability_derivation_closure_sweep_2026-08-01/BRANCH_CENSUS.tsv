@@ -1,0 +1,15 @@
+branch_id	group_id	branch	coverage	result	source_basis
+B01	Q01	eight registered construction routes	8/8	formal modules only; no JR_CERT_NATIVE	A01-A03
+B02	Q02	fold/quotient wall	covered	active first germ forced/inert at N2; second germ not owned	A04-A06
+B03	Q02	partner/germ-flat stratum	covered	chosen flat witness does not derive second germ	A04-A06
+B04	Q02	glue+pinned first germ	covered	value/first germ pinned; second germ free in Hessian	A04-A06;G01-G06
+B05	Q02	open endpoint	covered	first-germ functions free; no cycle reaches endpoint	A04-A06
+B06	Q02	N4/holonomy/period deeper layer	covered as registered	N4 typed-not-run; real period/holonomy equations contain no second-germ owner	A04-A06
+B07	Q03	massless constant cyclic ring	covered	exact closure witness; response absent	A06;R01-R04
+B08	Q03	all-definite massive cyclic ring	covered	excluded by period/mass law; not instability	A06
+B09	Q03	mixed-sign multicell ring	covered	conditional structural branch; full response/background not certified	A06
+B10	Q04	round-S2 L2+L4 finite-box static branch	covered	conditional static certificate retained	A08
+B11	Q04	physical carrier boundary	covered	open; computational mask cannot substitute	A08-A10
+B12	Q04	carrier section/transport	covered	conditional fiber only; section and transport open	A08;T04
+B13	Q04	native time response	covered	same static data admit inequivalent logic-control flows	A07-A10;T01-T03
+B14	Q04	bootstrap membership	covered	two-arrow architecture coherent; operation absent	A09-A10;T05

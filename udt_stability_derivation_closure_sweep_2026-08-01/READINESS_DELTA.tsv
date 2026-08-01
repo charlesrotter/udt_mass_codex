@@ -1,0 +1,6 @@
+family	before	after	delta	reason
+F01	CPU_EXACT_CHECK_READY_LAMBDA_SCHUR_ONLY	CPU_EXACT_CHECK_READY_LAMBDA_SCHUR_ONLY	NONE	second germ remains unowned; local lambda check stays separately bounded
+F02	BLOCKED_MISSING_FIXED_REALIZATION	BLOCKED_MISSING_FIXED_REALIZATION	NONE	Q01 supplies no common realized object
+F04	BLOCKED_MISSING_TIME_EQUATION	BLOCKED_MISSING_TIME_EQUATION	NONE	time/boundary/section/bootstrap objects remain open
+F05	BLOCKED_MISSING_NATIVE_RESPONSE	BLOCKED_MISSING_NATIVE_RESPONSE	NONE	ring identities do not determine response/domain
+F07	BLOCKED_MISSING_FIXED_REALIZATION	BLOCKED_MISSING_FIXED_REALIZATION	NONE	formal modules do not supply realized field

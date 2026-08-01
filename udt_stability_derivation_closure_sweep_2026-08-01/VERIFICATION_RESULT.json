@@ -1,0 +1,15 @@
+{
+  "catch_proofs_passed": 15,
+  "catch_proofs_total": 15,
+  "exact_controls": 16,
+  "groups": 4,
+  "independent_routes": [
+    "elementary boundary Taylor jet",
+    "finite-dimensional opposite Hessians",
+    "pairwise-distinct flow Jacobians"
+  ],
+  "objects": 15,
+  "source_authorities": 11,
+  "source_universe": 1558,
+  "verdict": "PASS"
+}

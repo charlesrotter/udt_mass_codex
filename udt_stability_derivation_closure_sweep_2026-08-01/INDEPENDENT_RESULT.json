@@ -1,0 +1,36 @@
+{
+  "branches": 14,
+  "checks_passed": 32,
+  "checks_total": 32,
+  "cold_amendments_closed": [
+    "O14 UNDERDETERMINED_NO_NATIVE_OBJECT",
+    "O05 PARTIAL_CONSTRAINT_ONLY",
+    "removed outside-freeze later-coupling prose dependence"
+  ],
+  "cold_correction_commits": [
+    "419a235",
+    "1132319"
+  ],
+  "families": 5,
+  "gpu_processes": 0,
+  "groups": 4,
+  "head": "11323197528fe642d44d51d9494272aac76320a4",
+  "maximum_conclusion": "Within the exact frozen record, three scoped nonimplications and partial constraints close no missing native object and promote no computation readiness.",
+  "mutations_rejected": 21,
+  "mutations_total": 21,
+  "object_status_counts": {
+    "DERIVED_SCOPED_OBSTRUCTION": 3,
+    "FORMAL_COMPATIBILITY_ONLY": 2,
+    "PARTIAL_CONSTRAINT_ONLY": 4,
+    "UNDERDETERMINED_NO_NATIVE_OBJECT": 6
+  },
+  "objects": 15,
+  "original_preregistration": "ef3d788b85ec36d87298c2ea56740f4ae7593a27",
+  "q02_condition_rows": 5,
+  "readiness_promotions": 0,
+  "source_authorities": 11,
+  "source_set_sha256": "07d087dc4d5f7d3c3f43e6411f1ccc5da4a00f6e503d4836048d1e69e83025b3",
+  "source_universe": 1558,
+  "stability_solves": 0,
+  "verdict": "CLOSED_PASS_AFTER_REQUIRED_COLD_AMENDMENTS"
+}

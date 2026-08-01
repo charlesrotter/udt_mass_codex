@@ -1,0 +1,25 @@
+{
+  "environment": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "exact_controls": 16,
+  "exact_controls_passed": 16,
+  "families": 5,
+  "gpu_processes_launched": 0,
+  "gpu_ready_families": 0,
+  "groups": 4,
+  "maximum_conclusion": "The sweep derives scoped nonselection/underdetermination results and partial constraints, but no missing native object closes and no readiness state advances.",
+  "object_status_counts": {
+    "DERIVED_SCOPED_OBSTRUCTION": 3,
+    "FORMAL_COMPATIBILITY_ONLY": 2,
+    "PARTIAL_CONSTRAINT_ONLY": 4,
+    "UNDERDETERMINED_NO_NATIVE_OBJECT": 6
+  },
+  "objects": 15,
+  "outcome": "DERIVATION_SWEEP_MIXED_WITH_SCOPED_OBSTRUCTION",
+  "package": "udt_stability_derivation_closure_sweep_2026-08-01",
+  "readiness_promotions": 0,
+  "source_authorities": 11,
+  "stability_solves_launched": 0
+}
