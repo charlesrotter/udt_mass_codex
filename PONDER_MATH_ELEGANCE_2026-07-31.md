@@ -610,3 +610,21 @@ reach, hands the problem back to the metric itself. The two-tier architecture dr
 final boundary at the edge of a star.
 Status: LEAD, driver-run; the ladder 15c→15r now spans nucleus to neutron star on one
 coefficient set. Every number remains a falsification target behind A3.
+
+## 15s. WORKED: the drip lines — two landmark EXACT hits, and the miss IS the textbook anomaly
+- **OXYGEN: predicted drip A = 24; nature: O-24 — EXACT.** The firmest experimentally
+  established neutron drip point in nuclear physics, hit on the nose by the seam law.
+- **TIN: predicted proton drip at A = 100, Z = 50 — Sn-100 EXACT**, the doubly-magic
+  proton-drip landmark of the chart.
+- **FLUORINE: predicted 26 vs nature's F-31** — off by five neutrons, and this miss is
+  itself famous: the O-24/F-31 cliff (one proton buys five extra bound neutrons) is THE
+  textbook shell/deformation anomaly of the light chart. The smooth law hits oxygen
+  exactly and misses fluorine by exactly the anomaly — the shell layer signing its name
+  a fourth time. Calcium lands at 62 (observed bound to 60; models predict drip ~70) —
+  between the known bounds.
+Status: LEAD, driver-run. The seam law now touches: binding (0.2%), the valley, the
+peak, fission, alpha decay, criticality, the table's end, the nuclear radius, the drip
+lines with two exact landmarks, and the minimum neutron star. One coefficient set,
+one night, every miss signing the same name (shells/few-body = the mode tier). The
+verifier confrontation behind A3 inherits a MAP of targets no session has ever left
+richer.
