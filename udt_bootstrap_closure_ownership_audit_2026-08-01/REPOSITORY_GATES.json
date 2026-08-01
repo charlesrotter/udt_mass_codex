@@ -1,0 +1,9 @@
+{
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "premise_verifier": "18 premise guards; 9 startup controls; 754 candidate dispositions",
+  "primary_checkout": "## grok...origin/grok",
+  "status": "PASS",
+  "tests": "70 passed, 1 xfailed"
+}

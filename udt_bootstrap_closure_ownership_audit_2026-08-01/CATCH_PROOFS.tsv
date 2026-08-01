@@ -1,0 +1,13 @@
+catch_id	failure_class	result
+C01	missing_output	REJECTED
+C02	duplicate_output	REJECTED
+C03	label_promotion	REJECTED
+C04	query_promotion	REJECTED
+C05	conditional_splice	REJECTED
+C06	bootstrap_type_promotion	REJECTED
+C07	permitted_family_promotion	REJECTED
+C08	false_complete_R	REJECTED
+C09	false_native_A	REJECTED
+C10	unauthorized_solve	REJECTED
+C11	tautology_called_selection	REJECTED
+C12	p4_branch_erasure	REJECTED

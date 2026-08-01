@@ -1,0 +1,9 @@
+candidate_id	route	status	nonidentity_operation	exact_blocker	source_anchor
+R01	RECIPROCITY_AND_FRAME_COMPOSITION	KINEMATIC_EQUIVARIANCE_NOT_RETURN	NO	relates descriptions and composes coframes but supplies no realized-profile equation	A08;A13
+R02	FINITE_CELL_REGULARITY_AND_GLUE	PARTIAL_ADMISSIBILITY_NOT_COMPLETE_RETURN	PARTIAL_ONLY	regularity, parity, and join catalogues prune configurations but leave multiple families and no complete interior/global operation	A05;A07;A13
+R03	COFRAME_HOLONOMY_INTEGRABILITY	IDENTITY_OR_CONDITIONAL_GLOBAL_DATA_NOT_RETURN	NO	Cartan/Levi/Bianchi reconstruct or constrain supplied geometry; holonomy remains path/completion data	A05;A13
+R04	BOOTSTRAP_TWO_ARROW_ARCHITECTURE	TYPE_ONLY_NEITHER_ARROW_COMPLETE	NO	A(X,O) and R[X] are typed but neither complete map, derivative, pairing, nor common fixed point is supplied	A12;A13
+R05	P4_RESPONSE_INVERSE_PROBLEM	PERMITTED_FAMILY_NOT_SELECTED_LAW	NO	P4 constrains a response family; cold review and JR retain selection and realized embedding as open	A08;A12;A13
+R06	BOUNDARY_SHAPE_TRANSVERSALITY	OPERATOR_DEPENDENT_NO_NATIVE_PRIMITIVE	NO	moving-boundary channels exist but matching primitive depends on the missing native operator and variation domain	A07;A14
+R07	ACTION_MEDIATED_CONDITIONAL	CONDITIONAL_NOT_PROMOTED	CONDITIONAL_ONLY	Bach, EH, carrier, and reduced P4 actions retain conditional or chosen premises	A09;A13;A14
+R08	OTHER_REGISTERED_RETURN	NO_OTHER_COMPLETE_RETURN_FOUND	NO	complete 586-path JR route census found zero passing native equation routes	A13

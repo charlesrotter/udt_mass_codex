@@ -1,0 +1,9 @@
+claim	status	basis	remaining
+metric_native_geometric_readout	DERIVED_AS_TYPED_PARTIAL_FAMILY	O01-O08	one complete common physical output map
+P4_integrated_readout	CONDITIONAL_BRANCH_OUTPUT	O09 and exact P1/P2 control	branch-independent native ownership
+native_mass_energy_density	OPEN	O10	native functional, normalization, source, same-solution response
+complete_R_metric	NOT_DERIVED_IN_FROZEN_UNIVERSE	B01-B03,B05-B07	common domain, component projection, completion, pairing
+native_return_A	NOT_DERIVED_IN_FROZEN_UNIVERSE	R01-R08 all fail	nonidentity whole-system return operation
+bootstrap_two_arrow_architecture	DERIVED_TYPE_ONLY	R04	both maps, derivative, pairing, common fixed point
+closed_self_consistency_loop	OPEN_NOT_DERIVED	graph control plus absent A	complete R and nonidentity A on one domain
+overall	LOCAL_TO_GLOBAL_MAP_PARTIAL_RETURN_OPEN	11 output families, 8 return routes, exact controls	derive rather than choose the return relation

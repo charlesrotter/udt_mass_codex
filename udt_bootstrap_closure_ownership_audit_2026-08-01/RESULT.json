@@ -1,0 +1,15 @@
+{
+  "assembly_blockers": 7,
+  "complete_output_maps": 0,
+  "gpu_used": false,
+  "graph_nullity": 3,
+  "graph_rank": 2,
+  "outcome": "LOCAL_TO_GLOBAL_MAP_PARTIAL_RETURN_OPEN",
+  "output_candidates": 11,
+  "p4_tie_branch_independent": false,
+  "passing_return_routes": 0,
+  "return_routes": 8,
+  "solve_authorized": false,
+  "source_anchors": 14,
+  "source_paths_verified": 926
+}

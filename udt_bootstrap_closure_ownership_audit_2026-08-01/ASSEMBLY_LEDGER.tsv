@@ -1,0 +1,8 @@
+blocker_id	required_object	status	reason
+B01	ONE_COMMON_COMPLETE_DOMAIN	OPEN	branch-specific queries and supplied completion choices do not share one universal domain
+B02	COMPLETE_METRIC_NATIVE_R	OPEN	partial local/global readouts exist but no complete state map
+B03	NATIVE_COMPONENT_PROJECTION_AND_NORMALIZATION	OPEN	metric primitives do not select a physical observable list or weighting
+B04	NONIDENTITY_RETURN_A	OPEN	zero of eight return routes passes
+B05	BOUNDARY_CORNER_COMPLETION_DOMAIN	OPEN	operator-dependent boundary primitive and completion selection remain absent
+B06	NATIVE_MASS_ENERGY_DENSITY	OPEN	no unconditional functional or same-solution response
+B07	NATIVE_DUAL_PAIRING_OR_RESPONSE_CODOMAIN	OPEN	P4 pairing branches are carried, not selected

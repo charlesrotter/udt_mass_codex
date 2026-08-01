@@ -1,0 +1,10 @@
+{
+  "base": "df2b35fcb6fc709e1ad0639b9f46222d64ee99cd",
+  "branch": "codex/bootstrap-closure-ownership-audit-2026-08-01",
+  "kernel": "Linux 6.8.0-124-generic x86_64",
+  "mode": "CPU-only exact rational and source-led audit",
+  "network_used": false,
+  "python": "3.10.12",
+  "pytest": "9.1.1",
+  "sympy_present_but_not_used_by_primary_derivation": "1.13.1"
+}

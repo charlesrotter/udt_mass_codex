@@ -1,0 +1,58 @@
+{
+  "R_matrix": [
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ]
+  ],
+  "conclusion": "O=R(X) defines a graph and leaves every X admissible when O is free",
+  "control_scope": "finite-dimensional exact logic control; not a candidate UDT law",
+  "graph_constraint_jacobian": [
+    [
+      -1,
+      -2,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      -1,
+      -1,
+      0,
+      1
+    ]
+  ],
+  "graph_nullity": 3,
+  "graph_rank": 2,
+  "o_dimension": 2,
+  "p4_conclusion": "the integrated tie is not a branch-independent metric-native return law",
+  "p4_pairing_branch_controls": [
+    {
+      "E0": 2,
+      "I_p": 0,
+      "P1_integrated_tie": 0,
+      "P2_integrated_tie": 0
+    },
+    {
+      "E0": 2,
+      "I_p": 3,
+      "P1_integrated_tie": 12,
+      "P2_integrated_tie": 0
+    }
+  ],
+  "p4_tie_branch_independent": false,
+  "return_nonuniqueness_conclusion": "R does not determine A",
+  "same_R_inequivalent_return_survivors_on_four_witnesses": {
+    "A_all_zero": 4,
+    "A_identity": 1,
+    "A_plane_x3_zero": 3
+  },
+  "x_dimension": 3
+}
