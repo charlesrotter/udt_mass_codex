@@ -1,0 +1,17 @@
+premise_id	object	status	role	source_basis	limit
+P01	seven-family partition	DERIVED_AUDIT_PARTITION	bounded census	A01-A03	not all possible UDT families
+P02	P4 response/Hessian	CONDITIONAL	F01-F03 stability evidence	A04-A09	not a native whole response law
+P03	P4 ell=1 normalization	CHOSE	certified F01 branch	A04-A07	travels with candidate
+P04	germ-Hessian-flat wall response	CONDITIONAL_WITNESS	F01 lambda-Schur candidate domain	A04-A07	free second-germ curvature remains open
+P05	angular parity	SUPPLIED	F01 branch split	A04-A07	not selected by metric/bootstrap
+P06	round S2 carrier	POSIT	F04 configuration	A12-A13	emergence open
+P07	L2+L4 carrier functional	CONDITIONAL_CHOSEN	F04 static stability	A12-A13	not common with P4
+P08	Hopfion finite computational box/mask	CHOSE_SOLVER_BOUNDARY	F04 static certificate	A12	not physical finite-cell completion
+P09	native physical time equation	OPEN	time persistence gate	A10-A15	zero families promoted
+P10	physical finite-cell boundary	OPEN	global stability gate	A10-A15	computational boundaries do not substitute
+P11	bootstrap membership rule	WORKING_POSIT_OPERATION_OPEN	family selection gate	A13-A15	zero families selected
+P12	complete native action/response/source	OPEN	cross-family operator gate	A10-A15	no operator transfer
+P13	native unconditional mass	OPEN	particle interpretation gate	A13-A15	conditional readouts only
+P14	F05 stability response/domain	ABSENT	ring readiness blocker	A01-A03	period law is not stability
+P15	F07 common realized live field	OPEN	joint-realization blocker	A08-A11	formal embeddings are not a solution
+P16	F06 massive closed scope	EXACT_SCOPED_EMPTY	nonexistence control	A01-A09	regrade if premise scope changes

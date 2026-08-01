@@ -1,0 +1,9 @@
+{
+  "base": "d84fbf9c8686eca4479ec9977cfcef9023f8ce0f",
+  "branch": "codex/stability-family-survivor-map-2026-08-01",
+  "kernel": "Linux 6.8.0-124-generic x86_64",
+  "mode": "CPU-only deterministic evidence and readiness map",
+  "network_used_for_science": false,
+  "python": "3.10.12",
+  "pytest": "9.1.1"
+}

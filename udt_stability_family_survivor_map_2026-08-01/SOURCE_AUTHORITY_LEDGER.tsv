@@ -1,0 +1,16 @@
+anchor_id	path	sha256	role	ruling
+A01	udt_stability_hypothesis_cross_family_atlas_2026-08-01/FAMILY_ATLAS.tsv	9dbab505e50d814d6ee6d318c9fcb40f8260b93e55e8efb371e562e39798ad5b	parent family rulings	seven corrected noninterchangeable families
+A02	udt_stability_hypothesis_cross_family_atlas_2026-08-01/COMMON_GRAMMAR_MATRIX.tsv	6cead505780e5d146205af6f857d708b1d50e59177227c3e29bbc103b2d12f0b	parent closure cells	static, time, and bootstrap states remain separate
+A03	udt_stability_hypothesis_cross_family_atlas_2026-08-01/INDEPENDENT_REVIEW.md	cfe4b38f25eedf5a8824e47134174d3e1c26ed5fff62aef8ac4515709f236b4a	parent cold ceiling	weak architecture only; no species spectrum or shared operator
+A04	udt_p4_stability_slice_2026-07-30/AUDIT_REPORT.md	fd68aa8b1c1858358317e07d9415cb44792f2339938c1bd7d3ac8b74fecc9ae9	P4 S-i/S-ii stability scope	one separately preregistered lambda-Schur next-tile option; full certificate remains open
+A05	udt_p4_stability_slice_2026-07-30/STABILITY_LEDGER.tsv	24daf5e06c789b5e27dad11416eb9d9cd95fe22bc8c971d86d1688fbb317f3f6	P4 branch ledger	controls, empty postures, S-i and S-ii outcomes typed separately
+A06	udt_p4_stability_slice_2026-07-30/EXACT_DERIVATION.md	e1d1391dc3923aa6bfc1512df5c437fc9415f180c90d1f2e76861e91475f201e	P4 exact operators	lambda-Schur and free germ curvature are distinct F01 obstructions
+A07	udt_p4_stability_slice_2026-07-30/CORRECTION_LAYER.md	b495f797a27e2c4b4f34a61ee260a9ae8e952e299ed222b53d33b3a9a00ce2c8	P4 numeric lead ceiling	Galerkin index is corroboration and not a banked lambda-Schur sign
+A08	udt_p4_cold_adversarial_review_2026-08-01/AUDIT_REPORT.md	6f389c914007aff0b8eded3ffa02ba386a8c7b580235674b2bae51649991704c	P4 cold regrade	formal response/census evidence; fixed realized solution remains open
+A09	udt_p4_cold_review_repair_2026-08-01/CLOSURE_REPORT.md	31a2f717989299db69dd0ee5b63fc7575f5894a87297d0c7fc6058d722650cf8	P4 review closure	presentation/provenance closed without physics promotion
+A10	udt_stability_foundations_audit_2026-08-01/AUDIT_REPORT.md	65e13b80f7cae12e7bf0553c257d1f22fa4b80463198a88eebe653596a9e83d4	native stability gate	record is not sufficient for a native stability solve
+A11	udt_stability_foundations_audit_2026-08-01/FIXED_REALIZATION_GATE.tsv	5dd531aea0adfb78aab84b246441513825ac07d81a6c7e0ee730f580f2ddbde9	joint realization prerequisites	realized field, native equation, boundary, and tangent-space test remain open
+A12	native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv	de154fbb7787759864786c04186a26a4605c447d362112bb482acee064d457e4	Hopfion scope	static finite-box conditional; carrier, physical boundary, and time persistence open
+A13	CURRENT_SCIENTIFIC_PREMISES.tsv	69342e40bc69cb89022efa8a3c68db63214040e3efe0f001278d995cd4c7ec0f	premise controller	carrier, action, boundary, mass, time, and bootstrap ceilings retained
+A14	udt_global_local_self_consistency_premise_audit_2026-08-01/AUDIT_REPORT.md	4b50da1d2d37dc07a1690a3659fd88da6eda0c701489802446597def0698e40e	bootstrap ceiling	bootstrap is a distinct unadopted posit with no membership rule
+A15	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	70cab9d5e10b03e0e3418129b67155e01d9f805c4397c69ef8795c4d2aaa5dfd	action/source ceiling	complete native action, source, boundary charge, and mass remain open

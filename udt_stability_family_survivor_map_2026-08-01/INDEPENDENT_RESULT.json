@@ -1,0 +1,43 @@
+{
+  "active_development_families": 5,
+  "base": "d84fbf9c8686eca4479ec9977cfcef9023f8ce0f",
+  "catch_proofs_passed": 26,
+  "catch_proofs_total": 26,
+  "caveats": [
+    "F01 root existence is banked but uniqueness is not; a later contract must isolate every root or prove uniqueness.",
+    "F01 readiness is restricted to germ-Hessian-flat single-cell R05/R06 blocks; the free second germ and whole-chain index remain open.",
+    "Development ranks are working dependency order, not authorization or physics priority.",
+    "Mandatory remote fetch/pull was unavailable because Git metadata is read-only; local base/blob identity was fully verified."
+  ],
+  "checks_passed": 33,
+  "checks_total": 33,
+  "cpu_bounded_solve_ready": 0,
+  "cpu_exact_check_ready": 1,
+  "date": "2026-08-01",
+  "development_groups": 4,
+  "f01": {
+    "all_roots_or_uniqueness_explicit": true,
+    "cell_boundary_owned": true,
+    "conditional_response_owned": true,
+    "exact_target_owned": true,
+    "free_second_germ_separate": true,
+    "free_trace_branch_owned": true,
+    "galerkin_is_free_trace_only": true,
+    "independent_route_specified": true,
+    "local_cell_ceiling": true,
+    "new_mathematical_derivation_required": true,
+    "new_physical_equation_required": false,
+    "odd_zero_trace_branch_owned": true,
+    "root_uniqueness_currently_owned": false,
+    "schur_domain_only_owned": true,
+    "whole_chain_excluded": true
+  },
+  "failures": [],
+  "families_discarded": 0,
+  "family_cells_reconstructed": 84,
+  "gpu_ready": 0,
+  "maximum_conclusion": "The seven-family/84-cell map is verified in its frozen scope. F01 alone owns a separately preregistrable conditional local-cell exact check; no family owns a CPU solve or GPU contract, and no physical stability, persistence, bootstrap, matter, or mass follows.",
+  "raw_sha256": "d8258ddab672d7fb5cbaf710b9ce98cf0efd8bee1845243a0319ace63b40c684",
+  "source_records": 1513,
+  "verdict": "CLOSED_PASS_VERIFIED_WITH_CAVEATS"
+}

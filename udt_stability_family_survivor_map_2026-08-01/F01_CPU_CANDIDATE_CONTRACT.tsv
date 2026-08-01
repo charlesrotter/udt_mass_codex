@@ -1,0 +1,11 @@
+item	value	status	limit
+family	F01 only	FROZEN	no transfer to F02-F07
+branch	R05 free f/h traces and R06 SUPPLIED ODD zero f/h traces on the conditional germ-Hessian-flat crease witness	FROZEN	branch domains remain separate; empty closed postures excluded
+target	sign of the local lambda/mu Schur block at every isolated root of F(s)=integral_-1^1 log(w_s(x)) dx=0, s in (1,3), with w_s(x)=(s^2/2)x^2+(s^2-s)x+1+s^2/2-s	OPEN_BOUNDED	sources prove existence but not root uniqueness; not the free wall-germ curvature
+normalization	ell=1	CHOSE	must travel
+wall_response	banked germ-Hessian-flat witnesses	CONDITIONAL	unrestricted second germ remains open
+existing_anchor	joint Galerkin n-=1 at s approximately 1.68102 and dimensions 13/17/21	CORROBORATION_ONLY	free f/h trace branch only; not a sign certificate and not evidence for the odd-zero-trace branch
+primary_method	rigorous root and integral enclosure of the exact Schur scalar	PROPOSED_NOT_RUN	method must be preregistered
+independent_method	independent spectral/index enclosure without importing primary sign result	PROPOSED_NOT_RUN	same-code replay is insufficient
+certification	raw interval/error bounds exclude zero at every isolated root on each named free-trace and supplied-odd-zero-trace branch	REQUIRED	no tolerance retuning
+maximum_conclusion	local single-cell conditional lambda-Schur sign and branch-local joint index only	FIXED	no whole mixed-chain/full stability, time persistence, matter, or bootstrap selection

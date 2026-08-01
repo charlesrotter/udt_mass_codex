@@ -1,0 +1,8 @@
+family_id	owned_closure	missing_closure	readiness_effect	source_basis
+F01	conditional branch, Hessian, free-trace/odd-zero-trace domains, and F(s)=integral log(w_s)=0 root equation on s in (1,3)	root isolation and lambda-Schur sign; separately free second-germ curvature	lambda-Schur cell alone is CPU exact-check ready without assuming root uniqueness	A04-A09;P02-P05
+F02	conditional sector Hessian and exact continuous threshold	common fixed realization, full boundary and perturbation domain	stronger computation blocked	A01-A11;P02;P09-P12
+F03	control background/domain/Hessian	not applicable as survivor target	control only	A01-A10;P02
+F04	conditional static field, chosen functional, computational finite-box operator	native time equation, carrier emergence, physical boundary	time/GPU work blocked	A10-A15;P06-P12
+F05	period/completion and mass-exclusion identities	stability response and perturbation domain	stability computation blocked	A01-A03;P12;P14
+F06	exact scoped nonexistence	none within empty domain	not applicable	A01-A09;P16
+F07	formal module embeddings	common realized field, native equation, boundary, tangent space	joint-realization audit first	A08-A15;P09-P12;P15

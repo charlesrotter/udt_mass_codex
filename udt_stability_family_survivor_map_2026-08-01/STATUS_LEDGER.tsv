@@ -1,0 +1,11 @@
+claim	status	basis	limit
+family_map	SEVEN_OF_SEVEN_COMPLETE	SURVIVOR_LEDGER.tsv;SURVIVOR_CELL_MATRIX.tsv	registered families only
+conditional_survivor_streams	F01_F02_F04_WITH_INCOMPATIBLE_PREMISES	A01-A12	not three particle species and not one common operator
+controls_structural_empty_formal	F03_CONTROL_F05_STRUCTURAL_F06_EMPTY_F07_FORMAL	A01-A11	not survivor inflation
+cpu_exact_candidates	ONE_F01_LAMBDA_SCHUR	A04-A08	separate preregistration required; free germ curvature remains
+cpu_bounded_solve_candidates	ZERO	READINESS_LEDGER.tsv	missing realization/response/boundary/time prerequisites
+gpu_candidates	ZERO	READINESS_LEDGER.tsv	no family owns the full GPU contract
+active_derivation_queue	FIVE_FAMILIES_IN_FOUR_DEVELOPMENT_GROUPS	DEVELOPMENT_QUEUE.tsv	blocked from computation does not mean abandoned; Q04 is downstream
+time_persistence	ZERO_OF_SEVEN_DERIVED	C09	formal/static/sector labels do not promote
+bootstrap_selection	ZERO_OF_SEVEN_SELECTED	C11;A13-A15	no membership rule
+overall	SURVIVOR_MAP_COMPLETE_WITH_CPU_CANDIDATE	all ledgers	readiness map only; no computation authorized

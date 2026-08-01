@@ -1,0 +1,10 @@
+{
+  "catch_proofs_passed": 37,
+  "catch_proofs_total": 37,
+  "checks_passed": 24,
+  "checks_total": 24,
+  "derive_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "derive_stdout_sha256": "5f95b870df864b194e20c8dad5da810c4aee8ded8d009900a843c23439a8476e",
+  "failed": [],
+  "status": "PASS"
+}
