@@ -10,9 +10,10 @@
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_projector_deformation_neighborhood_audit_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
 `EXACT_DERIVATION.md` → `CENTER_NEIGHBORHOOD_ATLAS.tsv` → `EXACT_SUBFAMILY_ATLAS.tsv` →
-`DEGENERACY_WALL_ATLAS.tsv` → `STATUS_LEDGER.tsv` and `OUTCOME_PREMISE_AUDIT.tsv`. The parent census
-remains in `udt_branchwise_projector_holonomy_census_2026-08-01/`; the conditional response theorem
-remains in `udt_reciprocal_closure_joint_selector_audit_2026-08-01/`.
+`DEGENERACY_WALL_ATLAS.tsv` → `STATUS_LEDGER.tsv` and `OUTCOME_PREMISE_AUDIT.tsv` → the append-only
+external PASS closure in `udt_projector_deformation_neighborhood_review_2026-08-01/`. The parent
+census remains in `udt_branchwise_projector_holonomy_census_2026-08-01/`; the conditional response
+theorem remains in `udt_reciprocal_closure_joint_selector_audit_2026-08-01/`.
 
 **RESULT:** `SIX_COMPLETE_OFFSHELL_CENTERS_LIE_INSIDE_OPEN_FULL_PROFILE_AND_SCREEN_PROJECTOR_NEIGHBORHOODS`.
 All six C01--C06 centers have genuine open `C3` neighborhoods inside the registered stationary
@@ -51,15 +52,16 @@ independent no-SymPy exterior-to-Cartan rational replay passes 49 checks; 24/24 
 fail closed; fifteen source paths are frozen by Git blob/SHA-256. Six frozen manifests / 133 paths,
 premise guards, 1,114 current paths, 101 frontier targets, links, and tests `70 passed, 1 xfailed`
 pass. Package-manifest SHA-256 is
-`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. Fresh external semantic
-review remains `OPEN_NOT_AUTHORIZED`, so the grade is `VERIFIED-WITH-CAVEATS`.
+`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. The authorized fresh
+read-only gpt-5.4 semantic review returned `PASS` with all ten rulings sustained and no mandatory
+repairs; its evidence is commit `5e391c7`. The target remained byte-identical, six review mutations
+fail closed, and the bounded grade is now `VERIFIED-WITH-CAVEATS-AFTER-EXTERNAL-PASS`.
 
-**NEXT JUSTIFIED TEST — PROPOSED, NOT LAUNCHED:** after authorized fresh semantic review, state the
-smallest stability/bootstrap on-shell admissibility rule independently of these outcomes and test
-its intersection with the complete neighborhood/wall atlas. The intersection may be empty,
-disconnected, boundary-only, or broad. Without a native same-solution mass-energy functional, the
-honest next product is a symbolic fixed-point/admissibility formulation and missing-input ledger,
-not an imported density scan.
+**NEXT JUSTIFIED TEST — AUTHORIZED, NOT YET PREREGISTERED:** state the smallest stability/bootstrap
+on-shell admissibility rule independently of these outcomes and test its intersection with the
+complete neighborhood/wall atlas. The intersection may be empty, disconnected, boundary-only, or
+broad. Without a native same-solution mass-energy functional, the honest next product is a symbolic
+fixed-point/admissibility formulation and missing-input ledger, not an imported density scan.
 
 **PREMISE STAMPS:** founded `phi` and reciprocal pair action `DERIVED`; registered complete family
 `CHOSE_EXISTENCE_CONTROL`; functional projector persistence
@@ -69,8 +71,9 @@ physics `OPEN`.
 
 **AUTHORITY BOUNDARY:** no configuration, neighborhood, wall, profile, screen, `lambda`, carrier,
 action, coefficient, boundary, bootstrap law, matter family, or physical interpretation is adopted.
-No external transmission, GPU work, canonization, repository reorganization, or follow-on
-derivation is launched by this block.
+The completed external review authorizes no new science. No further external transmission, GPU
+work, canonization, or repository reorganization is authorized; the distinct CPU-only bootstrap
+formulation must be preregistered before derivation.
 
 <!-- STARTUP_CURRENT_END -->
 

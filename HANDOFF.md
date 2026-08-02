@@ -15,7 +15,9 @@
 3. `udt_projector_deformation_neighborhood_audit_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
    `EXACT_DERIVATION.md`, `CENTER_NEIGHBORHOOD_ATLAS.tsv`, `EXACT_SUBFAMILY_ATLAS.tsv`,
    `DEGENERACY_WALL_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
-4. Read `udt_branchwise_projector_holonomy_census_2026-08-01/` for the parent complete census and
+4. Read the append-only external PASS closure in
+   `udt_projector_deformation_neighborhood_review_2026-08-01/`.
+5. Read `udt_branchwise_projector_holonomy_census_2026-08-01/` for the parent complete census and
    `udt_reciprocal_closure_joint_selector_audit_2026-08-01/` for the conditional response theorem.
    Neither selects an action or on-shell branch.
 
@@ -42,17 +44,19 @@ dynamics, stability, mass, or matter. The `S2` carrier remains `POSIT`; `L2+L4` 
 standard-library exterior-to-Cartan reconstruction 49 checks; 24/24 fail-closed mutations; fifteen
 source hashes; six frozen manifests / 133 paths; current premise guards; 1,114 current paths; 101
 frontier targets; tests `70 passed, 1 xfailed`. Package-manifest SHA-256:
-`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. Fresh external semantic
-review remains open and unauthorized, so the grade is `VERIFIED-WITH-CAVEATS`.
+`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. The authorized fresh
+read-only gpt-5.4 review returned `PASS`, sustained all ten rulings, required no repairs, and left
+the target byte-identical; review evidence commit `5e391c7`. The bounded grade is
+`VERIFIED-WITH-CAVEATS-AFTER-EXTERNAL-PASS`.
 
-**Proposed next action, not launched:** after authorized fresh semantic review, independently state
-the smallest same-solution stability/bootstrap admissibility rule and intersect it with this atlas
-without tuning it toward the positive region. If the native mass-energy functional needed to type
-that rule is absent, bank only the symbolic fixed-point formulation and missing-input ledger.
+**Authorized next action, not yet preregistered:** independently state the smallest same-solution
+stability/bootstrap admissibility rule and intersect it with this atlas without tuning it toward
+the positive region. If the native mass-energy functional needed to type that rule is absent, bank
+only the symbolic fixed-point formulation and missing-input ledger.
 
 **Authority boundary:** no configuration, neighborhood, wall, projector principle, carrier, action,
 coefficient, boundary, bootstrap law, matter family, canonization, reorganization, GPU work,
-external transmission, or further research launch follows automatically.
+further external transmission, or unpreregistered research launch follows automatically.
 
 <!-- STARTUP_CURRENT_END -->
 

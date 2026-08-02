@@ -7,7 +7,8 @@
 Read `udt_projector_deformation_neighborhood_audit_2026-08-01/AUDIT_REPORT.md`, then
 `LAY_REPORT.md`, `EXACT_DERIVATION.md`, `CENTER_NEIGHBORHOOD_ATLAS.tsv`,
 `EXACT_SUBFAMILY_ATLAS.tsv`, `DEGENERACY_WALL_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and
-`OUTCOME_PREMISE_AUDIT.tsv`. The parent complete census is
+`OUTCOME_PREMISE_AUDIT.tsv`, then the append-only external PASS closure in
+`udt_projector_deformation_neighborhood_review_2026-08-01/`. The parent complete census is
 `udt_branchwise_projector_holonomy_census_2026-08-01/`; the antecedent conditional response theorem
 is `udt_reciprocal_closure_joint_selector_audit_2026-08-01/`.
 
@@ -32,10 +33,12 @@ topology, boundary, source, dynamics, stability, mass, and physical family remai
 Preregistration `edf79d5`; evidence `514f6ad`; exact SymPy algebra, 49-check no-SymPy independent
 reconstruction, 24/24 mutation catches, fifteen frozen sources, six frozen manifests / 133 paths,
 premises, navigation, and tests `70 passed, 1 xfailed` pass. Package-manifest SHA-256 is
-`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. Fresh external semantic
-review remains unauthorized, so the result is `VERIFIED-WITH-CAVEATS`. The proposed next test is an
-independently stated same-solution stability/bootstrap admissibility rule intersected with this
-atlas; no external transmission, bootstrap law, density scan, or follow-on work is launched.
+`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. The authorized fresh
+read-only gpt-5.4 semantic review returned `PASS`, sustained all ten rulings, required no repairs,
+and left the target byte-identical; review evidence commit `5e391c7`. The result is
+`VERIFIED-WITH-CAVEATS-AFTER-EXTERNAL-PASS`. The authorized next test is an independently stated
+same-solution stability/bootstrap admissibility rule intersected with this atlas; it remains
+unpreregistered at this checkpoint, and no bootstrap law or density scan has been adopted.
 
 **➤ PARENT SCIENTIFIC FRONTIER — COMPLETE OFF-SHELL PROJECTOR FAMILY FOUND:**
 The exhaustive parent census at `udt_branchwise_projector_holonomy_census_2026-08-01/` remains the
