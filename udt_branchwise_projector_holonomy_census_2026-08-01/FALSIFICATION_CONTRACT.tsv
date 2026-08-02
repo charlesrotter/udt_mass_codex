@@ -1,0 +1,19 @@
+id	falsifier	fires_when	required_ruling
+F01	coordinate_dependence	a frame/chart change moves P without covariant conjugacy	FRAME_DEPENDENT_NOT_INTRINSIC
+F02	unselected_endomorphism	two equally metric-natural operators yield inequivalent projectors	NONUNIQUE_OPERATOR_CHOICE
+F03	eigenvalue_degeneracy	the defining simple eigenvalue crosses or becomes multiple	LOCAL_STRATUM_ONLY_OR_SET_VALUED
+F04	zero_or_null_normalization	the defining vector vanishes or changes causal type	CONTINUATION_OPEN_OR_TYPED_STRATA
+F05	full_holonomy_obstruction	actual curvature/holonomy algebra preserves no proper line/subbundle	NO_REDUCED_HOLONOMY_ON_TESTED_BRANCH
+F06	seam_cap_mismatch	local projectors fail registered transition cap or seam compatibility	NO_GLOBAL_DESCENT
+F07	monodromy_exchange	transport returns a different member of an unordered family	SET_VALUED_ONLY_UNLESS_QUOTIENT_DERIVED
+F08	constant_projector	DP=0 throughout the branch	RELATIVE_CURVATURE_ZERO_CONTROL
+F09	rank_one_only_path_variation	rank(DP)<=1 so commutator area vanishes	LOOP_RESPONSE_ZERO_ON_BRANCH
+F10	ambient_relative_conflation	nonzero total projected curvature comes only from Q R_D Q	NO_RELATIVE_PROJECTOR_CURVATURE_CLAIM
+F11	carrier_backfill	P exists only after inserting S2 carrier or Hopf map	CARRIER_CONDITIONAL_NOT_METRIC_SELECTED
+F12	action_backfill	P or ranking is chosen because L2+L4 or stability benefits	TARGETED_IMPOSITION_REJECTED
+F13	incomplete_branch	the source lacks full equation/domain/boundary/global completion claimed	INCOMPLETE_WITNESS
+F14	offshell_only	branch is a kinematic/off-shell counterfamily	OFFSHELL_CONDITIONAL_ONLY
+F15	pre_july_affirmative_import	positive claim depends on pre-July theory content	PROVENANCE_ONLY_REJECT_AFFIRMATIVE
+F16	missing_candidate_group	a discovery hit or coherent source group lacks disposition	CENSUS_FAIL
+F17	physics_label_filter	a branch is discarded or favored by particle/mass/Hopf resemblance	IMPOSITION_FAIL
+F18	future_family_overreach	a bounded absence is worded as universal no-go	SCOPE_FAIL

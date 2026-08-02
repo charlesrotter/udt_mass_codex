@@ -1,0 +1,16 @@
+id	candidate_class	type_requirement	minimum_tests	must_not_assume
+C01	metric_endomorphism_simple_spectral_line	rank1 eigenprojector from named metric-derived endomorphism	intrinsic uniqueness degeneracy transport descent relative_curvature	preferred endomorphism
+C02	metric_endomorphism_rank2_complement	rank2 complement equivalent to rank1 line in positive rank3 bundle	type_conversion plus C01 gates	positive rank3 bundle
+C03	Killing_line_projector	nonzero nonnull intrinsic Killing line	zeros norm strata normalization transport descent	physical observer
+C04	dphi_line_or_level_complement	nonzero nonnull metric dual of dphi or its complement	causal strata zeros normalization transport descent	global causal type
+C05	holonomy_invariant_line_or_subbundle	actual registered holonomy preserves proper subspace	curvature algebra centralizer local_global scope	reduced holonomy
+C06	toric_orbit_line_or_plane	intrinsic torus action plus named primitive orbit data	basis symmetry walls caps quotient descent	preferred primitive line
+C07	involution_or_seam_eigenspace	intrinsic global involution with eigenspace projector	lift fixed sets seam compatibility global descent	involution existence or choice
+C08	null_or_celestial_direction	selected null ray or section rather than fiber only	section transport trivialization global descent	S2 carrier
+C09	reciprocal_plane_or_full_coframe_reduction	metric-natural reciprocal subbundle of complete coframe	frame equivariance mixing holonomy descent	spectator extension
+C10	curvature_tidal_shape_projector	projector from Ricci Weyl curvature Hessian or shape data	operator provenance spectrum degeneracy smoothness descent	GR field equation or preferred contraction
+C11	set_valued_or_unordered_projector_family	intrinsic finite/continuous set when no unique member exists	set transport monodromy descent	arbitrary tie break
+C12	constant_or_parallel_projector_control	projector exists but DP or relative curvature vanishes	global existence holonomy and zero-response proof	matter significance
+C13	frame_or_chart_dependent_display_projector	projector depends on presentation choice	transformation counterexample	intrinsic status
+C14	no_projector_or_full_isotropy_control	branch selects no proper line/subbundle	symmetry/centralizer proof and scope	negative universalized
+C15	incomplete_or_untyped_candidate	formula or branch lacks required domain/transport/completion data	exact missing gates	completion invented

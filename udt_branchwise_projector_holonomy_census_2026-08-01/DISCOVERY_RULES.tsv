@@ -1,0 +1,11 @@
+id	scope	pattern_or_rule	purpose	selection_limit
+D01	all_base_paths	git ls-tree -r frozen_base	complete fixed source universe	no path omitted by filename
+D02	audit_reports	path ends AUDIT_REPORT.md	package-level primary census	filename does not decide branch status
+D03	text_content	projector|spectral projector|eigenline|eigenbundle|invariant line|rank-one|rank one	direct projector candidates	all hits disposed
+D04	text_content	holonomy|centralizer|parallel subbundle|reduced bundle|preserved line	reduced-holonomy candidates	ambient curvature kept separate
+D05	text_content	complete metric|complete branch|metric branch|metric family|coframe family|complete cell	branch-family nominations	completeness verified from source
+D06	text_content	Killing line|Killing plane|dphi|d phi|null direction|celestial|toric|involution|fixed set	intrinsic-object nominations	typed separately
+D07	package_expansion	all tracked files sharing nominated top-level directory	complete local evidence closure	no cross-package authority inferred
+D08	inbound_references	literal tracked-path references to nominated sources	dependency/provenance closure	reorganization records forensic only
+D09	current_controls	LIVE HANDOFF current premise registry and frontier tables	current authority and guard closure	controls not research candidates
+D10	historical_sources	pre-July cited material	failure counterexample provenance only	no affirmative UDT physics

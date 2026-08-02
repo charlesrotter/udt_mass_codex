@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "base_count_matches_saved": true,
+    "base_exact": true,
+    "base_paths_match_git_tree": true,
+    "base_paths_unique": true,
+    "candidates_15_unique": true,
+    "discovery_10_unique": true,
+    "falsifiers_18_unique": true,
+    "group_count_matches_saved": true,
+    "groups_unique": true,
+    "incomplete_outcome_retained": true,
+    "manifest_hashes_match_saved": true,
+    "no_projector_outcome_retained": true,
+    "premises_22_unique": true,
+    "report_count_matches_saved": true,
+    "report_paths_unique": true,
+    "reports_are_base_tree_subset": true,
+    "text_count_matches_saved": true
+  },
+  "checks_passed": 17,
+  "checks_total": 17,
+  "counts": {
+    "audit_reports": 239,
+    "base_paths": 11456,
+    "candidate_classes": 15,
+    "discovery_rules": 10,
+    "falsifiers": 18,
+    "premises": 22,
+    "text_paths": 11150,
+    "top_groups": 297
+  },
+  "status": "PASS"
+}

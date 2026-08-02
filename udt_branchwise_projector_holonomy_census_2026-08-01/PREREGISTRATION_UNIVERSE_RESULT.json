@@ -1,0 +1,11 @@
+{
+  "audit_report_universe_sha256": "ef9f8120a8df04a5b0f539b9936aa7620a090ed3555cd36ea809e60e3e74232a",
+  "audit_reports": 239,
+  "base": "156b8a57d2e4ce65a588e5f7c2d82d0bd1f88334",
+  "base_tree_manifest_sha256": "c0356f4f732878b6b646074b09dcc5576e916e17cb326ca673cfee9e75a64b52",
+  "base_tree_paths": 11456,
+  "package_group_universe_sha256": "053a1a657b8764e688840c8dc999e9ea651bb25b993e84691a2fbdf9b3d8fb4f",
+  "status": "PASS",
+  "text_discovery_eligible": 11150,
+  "top_groups": 297
+}
