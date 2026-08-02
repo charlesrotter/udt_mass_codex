@@ -3,37 +3,35 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — FC07 COMPLETE OFF-SHELL FULL-SCREEN WITNESSES BUILT; PHYSICAL SELECTION OPEN:**
-Read `udt_torus_bundle_full_screen_witness_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
-`EXACT_DERIVATION.md`, `COMPLETE_WITNESS_CENSUS.tsv`, `METRIC_CONGRUENCE_FIBER_ATLAS.tsv`,
-`INVARIANT_SCREEN_STRATA.tsv`, `PROJECTOR_DESCENT_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and
+**➤ CURRENT SCIENTIFIC FRONTIER — FC07 GLOBAL-TO-LOCAL HARMONIC RESPONSE CHANNEL DERIVED; BOOTSTRAP LOOP OPEN:**
+Read `udt_fc07_cartan_response_return_audit_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
+`EXACT_DERIVATION.md`, `MONODROMY_CARTAN_RESPONSE_ATLAS.tsv`, `HODGE_RETURN_CHANNEL.tsv`,
+`CONSTANT_SCREEN_HOLONOMY_ATLAS.tsv`, `INTRINSIC_SELECTION_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and
 `OUTCOME_PREMISE_AUDIT.tsv`.
 
-All eight frozen FC07 monodromy controls have explicit smooth, nondegenerate, geodesically complete
-off-shell Lorentzian mapping-torus metrics in the chosen constant-depth block extension. Six admit
-global oriented coframes; two orientation-reversing controls are nonorientable and use exact local
-reflection joins. Eight distinct abstract endpoint graphs reduce to seven frozen quadratic metric
-endpoint-congruence operator equality classes because `I` and `-I` act identically on the metric.
+Every nonconstant registered FC07 interpolation has nonzero complete bundle-relative projector
+response throughout its interior. On varying order-four, order-six, and hyperbolic rows, the
+completed spatial metric has one harmonic one-form line; its whole-cell normalization returns a
+locally varying metric-intrinsic ruler projector. Hyperbolic is the only frozen row combining
+forced variation and unique `H1`. Parabolic forces response but retains a two-dimensional harmonic
+ambiguity. These are structural classes, not a physical ranking.
 
-Six controls admit constant invariant positive screens. Parabolic and hyperbolic controls force
-screen variation only within the chosen block/lattice presentation—not from topology alone. The
-coordinate vertical projector descends and integrates in all eight witnesses, but it is neither
-the parent metric-response projector nor parallel when the screen varies. The block extension,
-constant `phi`, zero shift, and zero reciprocal-screen mixing are `CHOSE`; no extension,
-monodromy, action, field equation, response projector, or physical branch is selected.
+Constant-screen minus-identity, order-four, and order-six holonomy select the reciprocal Lorentzian
+two-plane while leaving observer clock/ruler axes free. The full Cartan and curvature algebra is
+exact for arbitrary SPD screen two-jets, but constant `phi`, zero shift, zero pair-screen mixing,
+and the interpolation remain bounded construction choices. The harmonic channel is not a native
+equation or same-solution bootstrap loop.
 
-Preregistration `9b25180`; clarification `481b62d`; evidence `0f0069d`; 22 frozen sources; 116
-production exact checks; 302 independent stdlib checks; 33/33 semantic catches; and a fresh
-zero-context adversarial review with all six required repairs closed. Six frozen manifests / 133
-paths, premise/navigation gates, and tests `70 passed, 1 xfailed` pass. Package-manifest SHA-256 is
-`f4a846c8ead0b078ba75e47f24610ed2953446eb6d1cf8c0c215cf18d2a85f15`; two consecutive full
-replays agree after normalizing only pytest's elapsed-time token. Grade:
-`VERIFIED-WITH-CAVEATS`.
+Preregistration `45ebc7e`; freeze `f9fb990`; evidence `f72b2fa`; 23 sources; 15 anchors; 69 exact
+production checks; 155 independent checks; 25/25 semantic catches; six frozen manifests / 133
+paths; premise/navigation gates; and tests `70 passed, 1 xfailed` pass. Two full replays return
+manifest SHA-256 `7a5b76d59a6e0e8f969e83105c20d268df2f3d990d0c690f19558977cf077994`.
+Grade: `VERIFIED-WITH-CAVEATS`; no fresh external semantic review was run.
 
-Proposed next, not launched: reconstruct the parent metric-derived reciprocal/response projector
-on every FC07 witness and calculate the complete Cartan connection/curvature, preserving all seven
-metric-readout classes and both orientation strata. No selector, action, carrier, density, GPU
-work, or follow-on derivation is authorized by this index.
+Proposed next, not launched: release constant `phi` and pair-screen orthogonality separately on the
+unique-`H1` strata and test whether the founded reciprocal coframe owns the harmonic line. No
+bootstrap closure, `X_max`, selector, action, carrier, density, GPU work, or follow-on derivation is
+authorized by this index.
 
 **➤ PARENT SCIENTIFIC FRONTIER — BOOTSTRAP/PROJECTOR INTERFACE TYPED; COMPLETE INTERSECTION OPEN:**
 `udt_bootstrap_projector_admissibility_interface_2026-08-01/` remains the authority for the six

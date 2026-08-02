@@ -6,56 +6,57 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — FC07 complete off-shell full-screen witnesses built; physical selection remains open
+## CURRENT — FC07 global-to-local harmonic response channel derived; bootstrap loop remains open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_torus_bundle_full_screen_witness_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
-   `EXACT_DERIVATION.md`, `COMPLETE_WITNESS_CENSUS.tsv`, `METRIC_CONGRUENCE_FIBER_ATLAS.tsv`,
-   `INVARIANT_SCREEN_STRATA.tsv`, `PROJECTOR_DESCENT_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and
-   `OUTCOME_PREMISE_AUDIT.tsv`.
-4. Read `udt_completion_parameterized_local_fiber_audit_2026-08-01/` for the parent parametric
-   schemas and `udt_bootstrap_projector_admissibility_interface_2026-08-01/` for the still-open
-   six-level intersection.
+3. `udt_fc07_cartan_response_return_audit_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
+   `EXACT_DERIVATION.md`, the response/Hodge/constant-holonomy/intrinsic-selection tables,
+   `STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
+4. Read `udt_torus_bundle_full_screen_witness_2026-08-01/` for the complete parent witnesses and
+   `udt_bootstrap_projector_admissibility_interface_2026-08-01/` for the still-open six-level
+   intersection.
 
-**Current honest result:** every one of the eight frozen FC07 monodromy controls now has an explicit
-smooth, nondegenerate, geodesically complete off-shell Lorentzian mapping-torus metric in the
-chosen constant-depth block extension. Six admit global oriented coframes; two are nonorientable
-and require exact local reflection joins. The eight abstract transition graphs remain distinct,
-but their quadratic metric endpoint maps form seven frozen equality classes because `I` and `-I`
-act identically on the metric.
+**Current honest result:** every nonconstant registered FC07 interpolation has nonzero complete
+bundle-relative projector response throughout its interior. On varying order-four, order-six, and
+hyperbolic rows, `b1=1` makes the harmonic ruler line unique and metric-intrinsic on the registered
+product; its local amplitude depends on a whole-cell integral. Hyperbolic is the only frozen row
+where both variation and this unique line are forced. Parabolic forces response but retains `b1=2`
+ambiguity. No physical ranking follows.
 
-**Critical scope:** constant `phi`, zero shift, zero reciprocal-screen mixing, and the block
-extension are construction choices. The seven classes are only the eight frozen endpoint-
-congruence operator equality classes—not a classification of all mapping tori. These are complete
-off-shell metrics, not selected physical completions or native equations.
+**Observer-frame companion:** constant-screen minus-identity, order-four, and order-six holonomy
+select the reciprocal Lorentzian two-plane but not preferred clock/ruler axes. This preserves the
+observer-frame family. Identity, flat, multi-harmonic, and nonorientable ambiguity controls remain.
 
-**Screen/projector ruling:** six controls admit constant invariant positive screens. Parabolic and
-hyperbolic monodromy force screen variation only within the chosen block/lattice presentation.
-The coordinate vertical projector descends and integrates in all eight cases, but it is not the
-parent metric-response projector and is not parallel on varying-screen witnesses. Zero physical
-selectors and zero native field equations were introduced.
+**Critical scope:** the exact algebra covers arbitrary SPD screen two-jets in the registered
+constant-depth block family. Constant `phi`, zero shift, zero pair-screen mixing, and the symmetric
+interpolation remain selected controls. The harmonic channel is not a native equation, action,
+matter law, density rule, or universal projector.
 
-**Evidence:** preregistration `9b25180`; clarification `481b62d`; evidence `0f0069d`; 22 frozen
-sources; 116 production exact checks; 302 independent stdlib checks; 33/33 fail-closed mutations;
-and a fresh zero-context adversarial `VERIFIED-WITH-CAVEATS` review whose six required repairs are
-closed. Six frozen manifests / 133 paths, 1,114 current paths, 101 frontier targets, links, and
-tests `70 passed, 1 xfailed` pass. Manifest SHA-256:
-`f4a846c8ead0b078ba75e47f24610ed2953446eb6d1cf8c0c215cf18d2a85f15`. The package's
-replay-determinism correction normalizes only pytest's elapsed-time token; two consecutive full
-replays returned this identical hash.
+**Working interpretation, not a result:** global completion, harmonic dimension, screen response,
+reciprocal-plane structure, and observer-frame freedom may be upstream “lock tumblers.” A native
+matter-source equation may not be well-typed until that background admissibility structure is in
+place. The present audit proves one geometric return mechanism, not that matter uses it.
 
-**Proposed next action, not launched:** reconstruct the parent metric-derived reciprocal/response
-projector across all FC07 witnesses and compute the full Cartan connection/curvature, especially
-where the screen must vary. Retain all seven metric-readout classes and both orientation strata;
-CPU first.
+**Evidence:** preregistration `45ebc7e`; source freeze `f9fb990`; evidence `f72b2fa`; 23 sources;
+15 anchors; 69 exact production checks; 155 independent no-SymPy checks; 25/25 semantic catches;
+six frozen manifests / 133 paths; 1,114 current paths; 101 frontier targets; links; and tests
+`70 passed, 1 xfailed`. Two full replays return manifest SHA-256
+`7a5b76d59a6e0e8f969e83105c20d268df2f3d990d0c690f19558977cf077994`. Grade is
+`VERIFIED-WITH-CAVEATS`; the harmonic realization emerged inside broad preregistered C06 and has
+not received fresh external semantic review.
 
-**Authority boundary:** no extension, monodromy, completion, topology, screen profile, response
-projector, curvature functional, density, carrier, action, bootstrap law, matter interpretation,
-canonization, reorganization, GPU work, external transmission, or follow-on research launch
-follows automatically.
+**Proposed next action, not launched:** release constant `phi` and pair-screen orthogonality one at
+a time on the unique-`H1` strata and test whether the founded reciprocal coframe owns the harmonic
+line. Only a successful ownership result licenses testing a global normalization condition against
+observer-pair dilation, `X_max`, or bootstrap. CPU first.
+
+**Authority boundary:** no completion, monodromy, harmonic class where `b1>1`, observer axis,
+screen profile, action, density, carrier, bootstrap law, `X_max`, matter interpretation,
+canonization, reorganization, GPU work, external transmission, or follow-on launch follows
+automatically.
 
 <!-- STARTUP_CURRENT_END -->
 
