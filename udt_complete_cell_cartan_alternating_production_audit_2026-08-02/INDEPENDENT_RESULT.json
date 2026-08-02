@@ -1,0 +1,31 @@
+{
+  "affine_rank": 1,
+  "cartan_contact_jacobian_determinant": -1,
+  "complete_S3_witness": {
+    "P": "exp(x2/2)_I",
+    "check_point": "(0,0,1,0)",
+    "detP": "exp(x2)_POSITIVE",
+    "domain": "unit_S3_in_R4",
+    "dphi_wedge_dsigma": "NONZERO_ON_TANGENT_E1_E2",
+    "phi": "x1",
+    "sigma": "x2"
+  },
+  "exact_kernel_dimension": 5,
+  "fresh_blind_adversarial_model": false,
+  "koszul_curvature": {
+    "metric_compatibility": "PASS_EXACT",
+    "nonzero_curvature_lower_pairs": 6,
+    "rows_with_nonzero_alternating_projection": 0,
+    "rows_with_nonzero_symmetric_projection": 0,
+    "rows_with_p_sigma_bilinears": 0,
+    "torsion": "ZERO_EXACT"
+  },
+  "production_code_imported": false,
+  "schema": "udt-complete-cell-cartan-alternating-independent-verification-1.0",
+  "semantic_catch_proofs": 11,
+  "source_manifest": {
+    "manifest_sha256": "38eb34a623f844991d4b17f18d239bbcce7248f82f34fd70a3dc0011e04f79a1",
+    "rows": 29
+  },
+  "status": "PASS_VERIFIED_WITH_CAVEATS_NO_FRESH_BLIND_MODEL"
+}

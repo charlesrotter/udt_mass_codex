@@ -1,0 +1,12 @@
+catch_id	mutation	result
+C01	quotient_rank_promoted	PASS_CAUGHT
+C02	exact_kernel_reduced	PASS_CAUGHT
+C03	fixed_coefficient_changed	PASS_CAUGHT
+C04	observer_natural_promotion	PASS_CAUGHT
+C05	split_stamp_removed	PASS_CAUGHT
+C06	primitive_promoted_to_connection	PASS_CAUGHT
+C07	connection_promoted_to_tensor	PASS_CAUGHT
+C08	FC07_rank_promoted	PASS_CAUGHT
+C09	functional_dependence_rank_promoted	PASS_CAUGHT
+C10	degenerate_metric_called_rank_one	PASS_CAUGHT
+C11	complete_S3_witness_removed	PASS_CAUGHT

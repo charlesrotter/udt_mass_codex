@@ -1,0 +1,9 @@
+git commit -m "Preregister complete-cell Cartan production audit"
+git push origin grok
+python3 udt_complete_cell_cartan_alternating_production_audit_2026-08-02/freeze_sources.py
+git commit -m "Freeze Cartan production source universe"
+git push origin grok
+python3 udt_complete_cell_cartan_alternating_production_audit_2026-08-02/run_and_capture.py
+python3 udt_complete_cell_cartan_alternating_production_audit_2026-08-02/build_manifest.py
+python3 udt_complete_cell_cartan_alternating_production_audit_2026-08-02/verify_package.py
+

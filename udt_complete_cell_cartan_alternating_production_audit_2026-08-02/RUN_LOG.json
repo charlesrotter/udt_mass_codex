@@ -1,0 +1,34 @@
+[
+  {
+    "command": [
+      "python3",
+      "/home/udt-admin/udt_mass_codex/udt_complete_cell_cartan_alternating_production_audit_2026-08-02/derive_cartan_alternating.py"
+    ],
+    "exit_code": 0,
+    "label": "DERIVATION"
+  },
+  {
+    "command": [
+      "python3",
+      "/home/udt-admin/udt_mass_codex/udt_complete_cell_cartan_alternating_production_audit_2026-08-02/verify_cartan_alternating_independent.py"
+    ],
+    "exit_code": 0,
+    "label": "INDEPENDENT"
+  },
+  {
+    "command": [
+      "python3",
+      "/home/udt-admin/udt_mass_codex/udt_complete_cell_cartan_alternating_production_audit_2026-08-02/capture_environment.py"
+    ],
+    "exit_code": 0,
+    "label": "ENVIRONMENT"
+  },
+  {
+    "command": [
+      "python3",
+      "/home/udt-admin/udt_mass_codex/udt_complete_cell_cartan_alternating_production_audit_2026-08-02/verify_repository_gates.py"
+    ],
+    "exit_code": 0,
+    "label": "REPOSITORY_GATES"
+  }
+]
