@@ -1,0 +1,22 @@
+premise_id	choice_or_object	status	role	not_supplied
+P01	foundational_reciprocal_pair_action	pinned-by-THEORY:CURRENT_SCIENTIFIC_PREMISES_G01_G02	interpretation_guard	complete_embedding_or_dynamics
+P02	parent_intrinsic_line_and_defect_graph	pinned-by-THEORY:fa7b50e7	global_domain_and_line_input	arbitrary_profile theorem
+P03	parent_kernel_plane_connection	pinned-by-THEORY:fa7b50e7	connection_input	field_equation_or action
+P04	stationarity	CHOSE_EXISTENCE_CONTROL	Killing_clock_and_time_independence	time_live metrics
+P05	S3_completion	CHOSE_EXISTENCE_CONTROL	global_cell	physical topology selection
+P06	four_global_curvature_owners	free-and-explored:FROZEN_PARENT_CONTROLS	branch comparison	physical branch values
+P07	two_twist_scaling_controls	pinned-by-THEORY:frozen_parent_same_shape	algebra control	physical twist values
+P08	twelve_absent_blocked_degenerate_controls	pinned-by-THEORY:parent_atlas	fail_closed ownership	transport without line
+P09	stereographic_chart	pinned-by-THEORY:omitted_point_in_D	global algebraic coverage	preferred physical chart
+P10	Levi_Civita_projection	pinned-by-THEORY:registered_metric	metric transport	independent dynamics
+P11	regular_edge_loop_paths	pinned-by-HABIT:preregistered_exact_probes	finite path atlas	all possible paths
+P12	regular_radii	pinned-by-HABIT:1_over_100_1_over_20_1_over_10	bounded radius response	continuum exhaustive radius
+P13	pole_link_paths	pinned-by-THEORY:local_link_topology_plus_chosen_basis	pole stratum probes	boundary or carrier sphere
+P14	pole_shells_and_link_radius	pinned-by-HABIT:delta_1_over_20_1_over_10_epsilon_1_over_10	bounded pole response	complete asymptotic series
+P15	high_precision_quadrature	pinned-by-HABIT:numeric_certification_method	finite integral evaluation	rig integral closed form
+P16	exact_saturated_ideal_route	free-and-explored:outcome_neutral_algebraic_method	global zero completeness	guaranteed tractability
+P17	orientation	free_and_reversed	signed integral control	preferred orientation
+P18	screen_O2_and_T_n_signs	free_and_transformed	frame naturality	preferred screen axes or line signs
+P19	carrier_Hopf_charge_quantization	OPEN_EXCLUDED	interpretation guard	emergence or selection
+P20	action_source_boundary_density_bootstrap_Xmax_matter_mass_stability	OPEN_OR_CONDITIONAL_EXCLUDED	no role	downstream physics
+P21	GPU_ODE_PDE_relaxation_fitting	EXCLUDED	exact_CPU_and_bounded_quadrature_only	numerical evolution

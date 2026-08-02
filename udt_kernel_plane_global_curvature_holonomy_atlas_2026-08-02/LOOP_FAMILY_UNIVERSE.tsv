@@ -1,0 +1,17 @@
+loop_id	stratum	geometric_role	parameterization	radius_or_shell	basis_role
+R01	C03_inner	regular_edge_meridian	x=rho*cos(t);y=rho*sin(t);z=0	rho=1/100,1/20,1/10	H1_basis_1
+R02	C03_outer	regular_edge_meridian	x=rho*cos(t);y=rho*sin(t);z=2	rho=1/100,1/20,1/10	H1_basis_2
+R03	C13_right	regular_edge_meridian	x=1+rho*cos(t);y=rho*sin(t);z=0	rho=1/100,1/20,1/10	H1_basis_3
+R04	C13_left	regular_edge_meridian	x=-1+rho*cos(t);y=rho*sin(t);z=0	rho=1/100,1/20,1/10	H1_basis_4
+R05	C23_positive	regular_edge_meridian	x=rho*sin(t);y=1+rho*cos(t);z=0	rho=1/100,1/20,1/10	H1_basis_5
+R06	C23_negative	regular_edge_meridian	x=rho*sin(t);y=-1+rho*cos(t);z=0	rho=1/100,1/20,1/10	dependent_sixth_edge_retained
+PN01	north_pole_plus_e0	pole_link_meridian	v=(+sqrt(1-eps^2),eps*cos(t),eps*sin(t));q=(delta*v,+sqrt(1-delta^2))	delta=1/20,1/10;eps=1/10	pole_basis_1
+PN02	north_pole_minus_e0	pole_link_meridian	v=(-sqrt(1-eps^2),eps*cos(t),eps*sin(t));q=(delta*v,+sqrt(1-delta^2))	delta=1/20,1/10;eps=1/10	pole_basis_2
+PN03	north_pole_plus_e1	pole_link_meridian	v=(eps*cos(t),+sqrt(1-eps^2),eps*sin(t));q=(delta*v,+sqrt(1-delta^2))	delta=1/20,1/10;eps=1/10	pole_basis_3
+PN04	north_pole_minus_e1	pole_link_meridian	v=(eps*cos(t),-sqrt(1-eps^2),eps*sin(t));q=(delta*v,+sqrt(1-delta^2))	delta=1/20,1/10;eps=1/10	pole_basis_4
+PN05	north_pole_plus_e2	pole_link_meridian	v=(eps*cos(t),eps*sin(t),+sqrt(1-eps^2));q=(delta*v,+sqrt(1-delta^2))	delta=1/20,1/10;eps=1/10	pole_basis_5
+PS01	south_pole_plus_e0	pole_link_meridian	v=(+sqrt(1-eps^2),eps*cos(t),eps*sin(t));q=(delta*v,-sqrt(1-delta^2))	delta=1/20,1/10;eps=1/10	pole_basis_1
+PS02	south_pole_minus_e0	pole_link_meridian	v=(-sqrt(1-eps^2),eps*cos(t),eps*sin(t));q=(delta*v,-sqrt(1-delta^2))	delta=1/20,1/10;eps=1/10	pole_basis_2
+PS03	south_pole_plus_e1	pole_link_meridian	v=(eps*cos(t),+sqrt(1-eps^2),eps*sin(t));q=(delta*v,-sqrt(1-delta^2))	delta=1/20,1/10;eps=1/10	pole_basis_3
+PS04	south_pole_minus_e1	pole_link_meridian	v=(eps*cos(t),-sqrt(1-eps^2),eps*sin(t));q=(delta*v,-sqrt(1-delta^2))	delta=1/20,1/10;eps=1/10	pole_basis_4
+PS05	south_pole_plus_e2	pole_link_meridian	v=(eps*cos(t),eps*sin(t),+sqrt(1-eps^2));q=(delta*v,-sqrt(1-delta^2))	delta=1/20,1/10;eps=1/10	pole_basis_5
