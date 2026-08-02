@@ -1,0 +1,17 @@
+id	candidate	preregistered_status_space	test
+R00	linear_hodge_projection_of_dphi	ZERO_UNIVERSALLY_OR_COUNTEREXAMPLE	integration by parts against arbitrary harmonic one-form
+R01	single_scalar_F_phi_dphi	EXACT_IF_PRIMITIVE_OR_NONEXACT_EXCEPTION	construct primitive H(phi)
+R02	dphi	EXACT	minimal-basis classification
+R03	dsigma	EXACT	minimal-basis classification
+R04	phi_dphi	EXACT	minimal-basis classification
+R05	sigma_dsigma	EXACT	minimal-basis classification
+R06	phi_dsigma_plus_sigma_dphi	EXACT	product rule
+R07	lambda_half_phi_dsigma_minus_sigma_dphi	NONEXACT_CROSS_MOTIF_OR_COLLAPSE	exterior derivative;period;Hodge projection
+R08	lambda_reference_shift	EXACT_CHANGE_OR_PHYSICAL_CHANGE	constant-shift algebra
+R09	base_only_cross_loop	NONZERO_HARMONIC_WITNESS_OR_ZERO	explicit sinusoidal closed loop
+R10	nontorus_cross_curl	NONZERO_COEXACT_CAPABILITY_OR_ZERO	explicit two-coordinate witness
+R11	upper_right_exact_connection	COHOMOLOGY_ONLY_OR_POINTWISE_OWNERSHIP	global descent;Hodge decomposition
+R12	upper_right_nonclosed_connection	OWNERSHIP_BREAK_OR_HARMONIC_RULER	closure;co-closure;harmonic base form
+R13	complete_frame_naturality	FULLY_NATURAL_OR_SPLIT_RELATIVE	screen-split dependence and reference quotient
+R14	law_selection	SELECTED_OR_AVAILABLE_ONLY	current-premise census
+R15	density_gate	OPENED_OR_CLOSED	require nonidentity return equation rather than readout

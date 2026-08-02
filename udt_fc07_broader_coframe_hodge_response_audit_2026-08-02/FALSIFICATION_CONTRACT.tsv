@@ -1,0 +1,13 @@
+id	claim_under_test	falsifier	maximum_if_survives
+F01	exact forms are harmonic-orthogonal on compact boundaryless cells	one smooth exact form has nonzero inner product with a harmonic form	DERIVED_UNIVERSAL_COMPACT_HODGE
+F02	single-scalar responses do not escape exactness	one smooth F(phi)dphi lacks a local/global primitive on the stated scalar domain	DERIVED_FOR_SINGLE_VALUED_SMOOTH_F
+F03	minimal basis has one nonexact direction modulo exact forms	basis rank modulo exact subspace differs from one	DERIVED_BOUNDED_ALGEBRAIC
+F04	lambda is reference-shift invariant modulo exact forms	constant shift changes its harmonic projection	DERIVED_REFERENCE_QUOTIENT
+F05	cross motif can carry nonzero harmonic response	explicit base-loop witness has zero period	CONSTRUCTIVE_EXISTENCE_NOT_SELECTION
+F06	cross motif can carry local curl	explicit non-torus witness has dphi wedge dsigma zero	CONSTRUCTIVE_EXISTENCE_NOT_SELECTION
+F07	upper-right exact control weakens pointwise ownership	eta1-ds is not exact or eta1 remains pointwise collinear with ds	EXACT_COUNTERCONTROL
+F08	upper-right nonclosed control breaks ruler harmonicity	eta1 is closed and coclosed	EXACT_COUNTERCONTROL
+F09	primitive base harmonic form survives nonclosed control	ds fails closure or co-closure in the explicit metric	EXACT_WITNESS_ONLY
+F10	broadened response is not fully frame-independent	a unique screen scalar and response are derived under arbitrary full coframe mixing	SPLIT_RELATIVE
+F11	available response is not a selected law	an active premise supplies a unique equation and level for lambda	AVAILABLE_UNSELECTED
+F12	density gate remains closed	a native same-solution return equation relates the response to rho_tot	NO_DENSITY_SCAN
