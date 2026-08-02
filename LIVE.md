@@ -5,72 +5,69 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — FC07 GLOBAL-TO-LOCAL HARMONIC RESPONSE CHANNEL DERIVED; BOOTSTRAP LOOP OPEN) ============
+## ============ CURRENT STATE (2026-08-01 — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED; NATIVE RETURN/DENSITY WINDOW OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_fc07_cartan_response_return_audit_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
-`EXACT_DERIVATION.md` → `MONODROMY_CARTAN_RESPONSE_ATLAS.tsv` → `HODGE_RETURN_CHANNEL.tsv` →
-`CONSTANT_SCREEN_HOLONOMY_ATLAS.tsv` → `INTRINSIC_SELECTION_ATLAS.tsv` → `STATUS_LEDGER.tsv` and
-`OUTCOME_PREMISE_AUDIT.tsv`. Then read the complete-witness parent at
-`udt_torus_bundle_full_screen_witness_2026-08-01/` and the six-level interface at
-`udt_bootstrap_projector_admissibility_interface_2026-08-01/`.
+`udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
+`SCOPE_CORRECTION.md` → `EXACT_DERIVATION.md` → `OWNERSHIP_ATLAS.tsv` →
+`BACKGROUND_WINDOW_ATLAS.tsv` → `STATUS_LEDGER.tsv` and `OUTCOME_PREMISE_AUDIT.tsv`. Then read
+the parent response package at `udt_fc07_cartan_response_return_audit_2026-08-01/` and the open
+six-level interface at `udt_bootstrap_projector_admissibility_interface_2026-08-01/`.
 
 **RESULT:**
-`FC07_FULL_SCREEN_CARTAN_AND_CURVATURE_DERIVED__ALL_NONCONSTANT_REGISTERED_INTERPOLATIONS_HAVE_NONZERO_BUNDLE_RELATIVE_PROJECTOR_RESPONSE__THREE_VARYING_UNIQUE_H1_CLASSES_HAVE_A_METRIC_INTRINSIC_GLOBAL_HARMONIC_RULER_CHANNEL__ONE_FORCED_HYPERBOLIC_INSTANCE__THREE_CONSTANT_SUBFAMILIES_HAVE_A_HOLONOMY_FIXED_RECIPROCAL_PLANE_WITHOUT_SELECTED_AXES__NO_UNIVERSAL_PROJECTOR_BOOTSTRAP_CLOSURE_XMAX_SELECTION_DYNAMICS_OR_MATTER`.
-For every nonconstant registered FC07 interpolation, unimodularity forces the screen change to be
-indefinite and full rank, hence the complete rank-one projector response is nonzero throughout the
-cell interior. Order-four, order-six, and hyperbolic varying witnesses additionally have `b1=1`:
-their unique global harmonic one-form line makes the ruler projector metric-intrinsic on the
-registered product, with local amplitude depending on an integral over the complete cell.
+`FOUR_UNIQUE_H1_FC07_COMPLETIONS_HAVE_EXACT_RECIPROCAL_HARMONIC_LINE_OWNERSHIP_FOR_ARBITRARY_SMOOTH_FINITE_DESCENDING_PHI_AND_EVERY_DESCENDING_MEMBER_OF_A_BOUNDED_LOWER_TRIANGULAR_PAIR_SCREEN_MIXING_CLASS_CONTAINING_THE_REGISTERED_E02_MEMBERS__ANGULAR_AREA_MODULATES_THE_LOCAL_HARMONIC_AMPLITUDE_THROUGH_A_COMPLETE_CELL_NORMALIZATION__THE_UNRESCALED_RULER_IS_HARMONIC_IFF_ANGULAR_AREA_IS_CONSTANT__NO_NONTRIVIAL_BACKGROUND_CURVATURE_WINDOW_NATIVE_RETURN_EQUATION_DENSITY_BRIDGE_XMAX_OR_MATTER`.
+On minus-identity, order-four, order-six, and hyperbolic FC07 completions, the complete metric's
+unique harmonic one-form line is exactly the founded reciprocal ruler line after `phi` is allowed
+to vary and throughout the bounded descending lower-triangular mixing family.
 
-**EXACT SCOPE:** the Cartan and curvature algebra is complete for arbitrary SPD screen two-jets in
-the registered constant-depth block family. Constant `phi`, zero shift, zero pair-screen mixing,
-and the flat-step interpolation remain `CHOSE` bounded controls. The harmonic result is global on
-the registered spatial product when `b1=1`; it is not a theorem for every complete UDT metric or
-every possible nonlocal invariant.
+**PHI–ANGULAR JOINT:** the harmonic representative is
+`alpha=theta1/[I sqrt(det(h))]`, with
+`I=integral_cell L exp(phi)/sqrt(det(h)) ds`. The angular sector does not rotate the harmonic line;
+its local area and the complete cell's `phi`/area profile modulate the ruler's local harmonic
+amplitude. The raw, unrescaled `theta1` is spatially harmonic exactly when angular area is constant.
 
-**STRATIFIED RULING:** hyperbolic is the only frozen row combining forced screen variation with a
-unique harmonic line; parabolic also forces nonzero bundle-relative response but has `b1=2`, so its
-ruler selection remains ambiguous. This is a structural intersection, not a physical ranking.
-On constant-screen minus-identity, order-four, and order-six strata, discrete holonomy selects the
-whole Lorentzian reciprocal two-plane while correctly leaving the observer's clock/ruler axes free.
-Identity and the higher-dimensional harmonic/fixed-space controls remain unselected.
+**BACKGROUND RULING:** this ownership machinery exists throughout the smooth compact nondegenerate
+bounded family; it does not itself switch on within a finite curvature interval. Coframe
+degeneration is a domain boundary, and constant angular area is an equality stratum rather than a
+finite range. A limited matter-supporting density/energy/curvature range remains a live bootstrap
+hypothesis, but it must enter through a future native admissibility equation and same-solution
+return law. No native density–curvature bridge exists here.
 
-**WHAT THIS CLOSES:** FC07 now supplies an explicit nonidentity geometric global-to-local channel:
-the complete metric determines a normalized local harmonic field on the unique-`H1` varying
-strata. It is stronger than a pointwise forward curvature readout. It is not bootstrap closure:
-no native equation requires this field, no local admissibility family feeds back to completion,
-and no same-solution mass-energy/density relation is present.
+**EXACT SCOPE/CORRECTION:** stationary torus-invariant FC07 spatial geometry, the four `b1=1`
+completions, and a chosen field-level lower-triangular mixing generalization containing the
+registered pointwise E02 members. Global mixing descent is supplied; J07/J11 are not solved.
+Upper-right, fiber-dependent, time-live, other-cohomology, equation, and matter sectors remain open.
+The original preregistration wording is controlled by the explicit scope correction.
 
-**EVIDENCE:** preregistration `45ebc7e`; source freeze `f9fb990`; evidence `f72b2fa`; 23 frozen
-sources and 15 exact anchors. SymPy 1.13.1 passes 69 exact checks. A no-SymPy `Fraction`
-implementation passes 155 checks, including four independent second-jet coordinate-Riemann
-reconstructions and 16 basis-covariance controls. The semantic verifier catches 25/25 promotions.
-Six frozen manifests / 133 paths, premise guards, 1,114 current paths, 101 frontier targets, links,
-and tests `70 passed, 1 xfailed` pass. Two full replays agree on package-manifest SHA-256
-`7a5b76d59a6e0e8f969e83105c20d268df2f3d990d0c690f19558977cf077994`. Grade:
-`VERIFIED-WITH-CAVEATS`; the specific harmonic realization emerged within broad preregistered C06
-and no fresh external semantic review was run.
+**WHAT THIS CLOSES:** one previously separate lock tumbler is connected: the completion-derived
+harmonic ruler and the foundational reciprocal ruler are the same line on the stated family. The
+normalization is a real global-to-local phi–angular readout, but it does not restrict the geometry
+and therefore is not bootstrap closure.
 
-**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** on the unique-`H1` FC07 strata, release
-constant `phi` and pair-screen orthogonality one at a time and test whether the founded reciprocal
-coframe itself owns the unique harmonic line. If it does, derive the global normalization condition
-on the local reciprocal coframe and only then type-check its relation to observer-pair dilation,
-`X_max`, and the same-solution bootstrap intersection. CPU first.
+**EVIDENCE:** preregistration `37df6a1`; source freeze `08823ce`; evidence `04f11fd`; 16 frozen
+sources and 13 anchors; 45 exact SymPy checks; 68 independent no-SymPy `Fraction` checks; 20/20
+semantic catches; six frozen manifests / 133 paths; 1,114 current paths; 101 frontier targets;
+and tests `70 passed, 1 xfailed`. Two full replays return manifest SHA-256
+`99dab04084eaef666b7665352ac7ddcc054f90f9f13e920605c04efbbfc96120`. Grade is
+`VERIFIED-WITH-CAVEATS`; no fresh zero-context/external semantic review was authorized.
+
+**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** audit whether observer Reciprocity,
+finite-cell seal/composition, or global coframe descent requires any invariant relation between
+Hodge-normalized `alpha` and founded `theta1` beyond projective equality. A successful relation
+must restrict the same local family, not rename unit-period normalization. Only after a return
+relation exists should `rho_tot` be bracketed as an explicit working control. CPU first.
 
 **PREMISE STAMPS:** founded `phi` and reciprocal pair `DERIVED`; complete FC07 witnesses
-`CHOSE_AND_VERIFIED_OFFSHELL`; full Cartan/curvature and unimodular response theorem `DERIVED`;
-harmonic ruler channel `DERIVED_CONDITIONAL_BOUNDED_ON_UNIQUE_H1_REGISTERED_PRODUCT`; constant
-holonomy reciprocal plane `DERIVED_CONDITIONAL_WITH_OBSERVER_AXES_FREE`; observer Reciprocity
-`DERIVED_NATURALITY_CONSTRAINT`; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`;
-`L2+L4` `CONDITIONAL`; universal projector, coframe ownership, `X_max`, `E_native`, complete `R`,
-same-solution return, stability, and matter physics `OPEN`.
+`CHOSE_AND_VERIFIED_OFFSHELL`; unique-`H1` harmonic line `DERIVED`; reciprocal line/projector
+ownership and angular-area modulation `DERIVED_CONDITIONAL_BOUNDED`; arbitrary mixing-field
+promotion `CHOSE_BOUNDED_GENERALIZATION`; global mixing descent `SUPPLIED_CONDITION`; bootstrap
+`WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; native return,
+density bridge/window, `X_max`, action, source, stability, and matter physics `OPEN`.
 
-**AUTHORITY BOUNDARY:** no extension, monodromy, completion, topology, harmonic class where
-`b1>1`, observer axis, screen profile, action, density value/window, carrier, boundary, bootstrap
-law, `X_max`, matter interpretation, or stability result is adopted. No follow-on derivation, GPU
-work, canonization, external transmission, or repository reorganization is authorized by this
-block.
+**AUTHORITY BOUNDARY:** no field promotion, descent law, extension, monodromy, completion,
+observer axis, screen profile, action, density value/window, carrier, bootstrap law, `X_max`,
+matter interpretation, or stability result is adopted. No follow-on derivation, GPU work,
+canonization, external transmission, or repository reorganization is authorized by this block.
 
 <!-- STARTUP_CURRENT_END -->
 

@@ -6,57 +6,56 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — FC07 global-to-local harmonic response channel derived; bootstrap loop remains open
+## CURRENT — FC07 reciprocal–harmonic ownership derived; native return/density window open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_fc07_cartan_response_return_audit_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
-   `EXACT_DERIVATION.md`, the response/Hodge/constant-holonomy/intrinsic-selection tables,
-   `STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
-4. Read `udt_torus_bundle_full_screen_witness_2026-08-01/` for the complete parent witnesses and
+3. `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/AUDIT_REPORT.md`, then
+   `LAY_REPORT.md`, `SCOPE_CORRECTION.md`, `EXACT_DERIVATION.md`, `OWNERSHIP_ATLAS.tsv`,
+   `BACKGROUND_WINDOW_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
+4. Read `udt_fc07_cartan_response_return_audit_2026-08-01/` for the parent harmonic response and
    `udt_bootstrap_projector_admissibility_interface_2026-08-01/` for the still-open six-level
    intersection.
 
-**Current honest result:** every nonconstant registered FC07 interpolation has nonzero complete
-bundle-relative projector response throughout its interior. On varying order-four, order-six, and
-hyperbolic rows, `b1=1` makes the harmonic ruler line unique and metric-intrinsic on the registered
-product; its local amplitude depends on a whole-cell integral. Hyperbolic is the only frozen row
-where both variation and this unique line are forced. Parabolic forces response but retains `b1=2`
-ambiguity. No physical ranking follows.
+**Current honest result:** on all four FC07 `b1=1` completions, the unique metric harmonic line is
+exactly the founded reciprocal ruler line for arbitrary smooth finite descending `phi` and every
+descending member of the tested bounded lower-triangular family. The angular sector modulates the
+harmonic amplitude through local screen area and one complete-cell `phi`/area integral; it does not
+rotate the line. The raw ruler form is harmonic iff screen area is constant.
 
-**Observer-frame companion:** constant-screen minus-identity, order-four, and order-six holonomy
-select the reciprocal Lorentzian two-plane but not preferred clock/ruler axes. This preserves the
-observer-frame family. Identity, flat, multi-harmonic, and nonorientable ambiguity controls remain.
+**Background ruling:** line ownership holds across the smooth compact nondegenerate bounded family,
+so this kinematic joint has no finite curvature window. That does not rule out a limited
+matter-supporting density/energy/curvature window downstream. Such a window still needs a native
+admissibility equation, same-solution return law, and density–curvature bridge.
 
-**Critical scope:** the exact algebra covers arbitrary SPD screen two-jets in the registered
-constant-depth block family. Constant `phi`, zero shift, zero pair-screen mixing, and the symmetric
-interpolation remain selected controls. The harmonic channel is not a native equation, action,
-matter law, density rule, or universal projector.
+**Critical scope:** the function-level mixing family is a `CHOSE` bounded generalization containing
+registered pointwise E02 members; global descent is supplied, not solved. The exact theorem is
+stationary, torus-invariant, lower-triangular, and limited to the four unique-`H1` completions.
+Upper-right, fiber-dependent, time-live, native-equation, and matter sectors remain open.
 
-**Working interpretation, not a result:** global completion, harmonic dimension, screen response,
-reciprocal-plane structure, and observer-frame freedom may be upstream “lock tumblers.” A native
-matter-source equation may not be well-typed until that background admissibility structure is in
-place. The present audit proves one geometric return mechanism, not that matter uses it.
+**Working interpretation, not a result:** one lock tumbler is now connected: the global harmonic
+ruler is the original reciprocal ruler, while the angular sector sets its calibration. The Hodge
+normalization remains a readout rather than an equation; matter may still require the remaining
+background/admissibility tumblers to align.
 
-**Evidence:** preregistration `45ebc7e`; source freeze `f9fb990`; evidence `f72b2fa`; 23 sources;
-15 anchors; 69 exact production checks; 155 independent no-SymPy checks; 25/25 semantic catches;
-six frozen manifests / 133 paths; 1,114 current paths; 101 frontier targets; links; and tests
+**Evidence:** preregistration `37df6a1`; freeze `08823ce`; evidence `04f11fd`; 16 sources; 13
+anchors; 45 exact production checks; 68 independent no-SymPy checks; 20/20 semantic catches; six
+frozen manifests / 133 paths; 1,114 current paths; 101 frontier targets; links; and tests
 `70 passed, 1 xfailed`. Two full replays return manifest SHA-256
-`7a5b76d59a6e0e8f969e83105c20d268df2f3d990d0c690f19558977cf077994`. Grade is
-`VERIFIED-WITH-CAVEATS`; the harmonic realization emerged inside broad preregistered C06 and has
-not received fresh external semantic review.
+`99dab04084eaef666b7665352ac7ddcc054f90f9f13e920605c04efbbfc96120`. Grade is
+`VERIFIED-WITH-CAVEATS`; no fresh zero-context/external semantic review was authorized.
 
-**Proposed next action, not launched:** release constant `phi` and pair-screen orthogonality one at
-a time on the unique-`H1` strata and test whether the founded reciprocal coframe owns the harmonic
-line. Only a successful ownership result licenses testing a global normalization condition against
-observer-pair dilation, `X_max`, or bootstrap. CPU first.
+**Proposed next action, not launched:** audit whether observer Reciprocity, finite-cell
+seal/composition, or global coframe descent requires a relation between normalized `alpha` and
+founded `theta1` beyond projective equality. It must restrict the same local family rather than
+rename the normalization convention. Only then bracket `rho_tot` as an explicit working control.
+CPU first.
 
-**Authority boundary:** no completion, monodromy, harmonic class where `b1>1`, observer axis,
+**Authority boundary:** no field promotion, mixing descent, completion, monodromy, observer axis,
 screen profile, action, density, carrier, bootstrap law, `X_max`, matter interpretation,
-canonization, reorganization, GPU work, external transmission, or follow-on launch follows
-automatically.
+canonization, reorganization, GPU work, external transmission, or follow-on launch follows.
 
 <!-- STARTUP_CURRENT_END -->
 

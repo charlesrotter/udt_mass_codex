@@ -3,35 +3,33 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — FC07 GLOBAL-TO-LOCAL HARMONIC RESPONSE CHANNEL DERIVED; BOOTSTRAP LOOP OPEN:**
-Read `udt_fc07_cartan_response_return_audit_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
-`EXACT_DERIVATION.md`, `MONODROMY_CARTAN_RESPONSE_ATLAS.tsv`, `HODGE_RETURN_CHANNEL.tsv`,
-`CONSTANT_SCREEN_HOLONOMY_ATLAS.tsv`, `INTRINSIC_SELECTION_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and
-`OUTCOME_PREMISE_AUDIT.tsv`.
+**➤ CURRENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED; NATIVE RETURN/DENSITY WINDOW OPEN:**
+Read `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/AUDIT_REPORT.md`, then
+`LAY_REPORT.md`, `SCOPE_CORRECTION.md`, `EXACT_DERIVATION.md`, `OWNERSHIP_ATLAS.tsv`,
+`BACKGROUND_WINDOW_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
 
-Every nonconstant registered FC07 interpolation has nonzero complete bundle-relative projector
-response throughout its interior. On varying order-four, order-six, and hyperbolic rows, the
-completed spatial metric has one harmonic one-form line; its whole-cell normalization returns a
-locally varying metric-intrinsic ruler projector. Hyperbolic is the only frozen row combining
-forced variation and unique `H1`. Parabolic forces response but retains a two-dimensional harmonic
-ambiguity. These are structural classes, not a physical ranking.
+On all four FC07 unique-`H1` completions, the metric's harmonic line is exactly the founded
+reciprocal ruler line for arbitrary smooth finite descending `phi` and every descending member of
+the tested bounded lower-triangular family. The angular sector changes the line's local harmonic
+calibration through `sqrt(det(h))` and one whole-cell `phi`/area integral, but does not rotate it.
+The unrescaled ruler is spatially harmonic iff angular area is constant.
 
-Constant-screen minus-identity, order-four, and order-six holonomy select the reciprocal Lorentzian
-two-plane while leaving observer clock/ruler axes free. The full Cartan and curvature algebra is
-exact for arbitrary SPD screen two-jets, but constant `phi`, zero shift, zero pair-screen mixing,
-and the interpolation remain bounded construction choices. The harmonic channel is not a native
-equation or same-solution bootstrap loop.
+The ownership identity has no finite curvature window inside the smooth compact nondegenerate
+bounded family. This does not eliminate a downstream matter-supporting density/energy/curvature
+window; no native equation, same-solution return, or density–curvature bridge currently supplies
+one. The function-level mixing family is explicitly `CHOSE`, contains the registered pointwise E02
+members, and is conditional on supplied global descent.
 
-Preregistration `45ebc7e`; freeze `f9fb990`; evidence `f72b2fa`; 23 sources; 15 anchors; 69 exact
-production checks; 155 independent checks; 25/25 semantic catches; six frozen manifests / 133
+Preregistration `37df6a1`; freeze `08823ce`; evidence `04f11fd`; 16 sources; 13 anchors; 45 exact
+production checks; 68 independent checks; 20/20 semantic catches; six frozen manifests / 133
 paths; premise/navigation gates; and tests `70 passed, 1 xfailed` pass. Two full replays return
-manifest SHA-256 `7a5b76d59a6e0e8f969e83105c20d268df2f3d990d0c690f19558977cf077994`.
-Grade: `VERIFIED-WITH-CAVEATS`; no fresh external semantic review was run.
+manifest SHA-256 `99dab04084eaef666b7665352ac7ddcc054f90f9f13e920605c04efbbfc96120`.
+Grade: `VERIFIED-WITH-CAVEATS`; no fresh zero-context/external semantic review was run.
 
-Proposed next, not launched: release constant `phi` and pair-screen orthogonality separately on the
-unique-`H1` strata and test whether the founded reciprocal coframe owns the harmonic line. No
-bootstrap closure, `X_max`, selector, action, carrier, density, GPU work, or follow-on derivation is
-authorized by this index.
+Proposed next, not launched: test whether Reciprocity, finite-cell seal/composition, or global
+coframe descent requires a nonconventional relation between normalized `alpha` and founded
+`theta1`. It must restrict the same local family before any density bracketing. No bootstrap
+closure, `X_max`, action, carrier, density, GPU work, or follow-on derivation is authorized.
 
 **➤ PARENT SCIENTIFIC FRONTIER — BOOTSTRAP/PROJECTOR INTERFACE TYPED; COMPLETE INTERSECTION OPEN:**
 `udt_bootstrap_projector_admissibility_interface_2026-08-01/` remains the authority for the six
