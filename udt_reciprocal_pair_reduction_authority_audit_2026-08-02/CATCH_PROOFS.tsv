@@ -1,0 +1,9 @@
+catch_id	mutation	result
+C01	demote_abstract_pair	PASS_CAUGHT
+C02	promote_local_to_unconditional	PASS_CAUGHT
+C03	erase_branch_reductions	PASS_CAUGHT
+C04	promote_universal_reduction	PASS_CAUGHT
+C05	retain_fixed_components	PASS_CAUGHT
+C06	promote_q2_universal	PASS_CAUGHT
+C07	promote_q2_metric_only	PASS_CAUGHT
+C08	promote_physics	PASS_CAUGHT

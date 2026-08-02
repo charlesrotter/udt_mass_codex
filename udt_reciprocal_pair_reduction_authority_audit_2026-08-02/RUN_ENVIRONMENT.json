@@ -1,0 +1,7 @@
+{
+  "device": "CPU_ONLY",
+  "external_dependencies": "NONE",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "python_executable": "/usr/bin/python3"
+}

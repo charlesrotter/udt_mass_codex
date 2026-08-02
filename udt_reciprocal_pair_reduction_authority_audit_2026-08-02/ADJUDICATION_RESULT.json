@@ -1,0 +1,20 @@
+{
+  "abstract_pair": "DERIVED",
+  "branch_reductions": "DERIVED_BOUNDED_EXISTENCE",
+  "catch_proofs": 8,
+  "decision_obligations": 6,
+  "fixed_component_plane": "REFUTED_USE_EQUIVARIANCE",
+  "fresh_zero_context_review": true,
+  "frozen_sources": 29,
+  "headline": "FOUNDED_ABSTRACT_PAIR_DERIVED__LOCAL_PHYSICAL_ALIGNMENT_CONDITIONAL_ON_DECLARED_READOUT__BRANCH_CONDITIONAL_PHYSICAL_REDUCTIONS_EXIST__COMPLETE_UNIVERSAL_REDUCTION_OPEN",
+  "local_alignment": "DERIVED_CONDITIONAL_ON_RECORDED_READOUT",
+  "physics_promoted": false,
+  "q_squared": "DERIVED_GIVEN_REGISTERED_REDUCTION",
+  "q_squared_metric_only": "NOT_DERIVED",
+  "schema": "udt-reciprocal-pair-reduction-authority-1.0",
+  "source_claims": 15,
+  "source_manifest_sha256": "b2e645be98e5d98acfa9936101e9e2373188f79300e890ae95b98f9f6838b02e",
+  "status": "PASS_VERIFIED_FRESH_COLD_REVIEW",
+  "status_rows": 12,
+  "universal_reduction": "OPEN"
+}

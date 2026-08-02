@@ -1,0 +1,26 @@
+[
+  {
+    "label": "ENVIRONMENT",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_reciprocal_pair_reduction_authority_audit_2026-08-02/capture_environment.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "ADJUDICATION",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_reciprocal_pair_reduction_authority_audit_2026-08-02/derive_authority.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "REPOSITORY_GATES",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_reciprocal_pair_reduction_authority_audit_2026-08-02/verify_repository_gates.py"
+    ],
+    "exit_code": 0
+  }
+]
