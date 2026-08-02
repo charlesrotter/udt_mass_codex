@@ -1,0 +1,14 @@
+id	object	status_before_output	pin_class	coverage	excluded_or_open	authority
+P01	founded reciprocal phi and pair action	DERIVED	pinned-by-THEORY	theta0=c_E*exp(-phi)dt;theta1=L*exp(phi)ds	realized profile;dynamics;boundary	CURRENT_SCIENTIFIC_PREMISES.md G01-G02
+P02	measured c_E	OBSERVATIONAL_ANCHOR	pinned-by-THEORY	clock/ruler calibration	native derivation of numerical value	CURRENT_SCIENTIFIC_PREMISES.md G04
+P03	four unique-H1 FC07 completions	DERIVED_KINEMATIC_PLUS_CHOSEN_WITNESSES	free-and-explored	all four retained;no ranking	physical completion selection	udt_fc07_cartan_response_return_audit_2026-08-01/HODGE_RETURN_CHANNEL.tsv
+P04	phi(s)	DERIVED_IDENTITY_OPEN_PROFILE	free-and-explored	arbitrary smooth finite descending profile	equation selecting profile	CURRENT_SCIENTIFIC_PREMISES.md G01
+P05	L>0	FREE	free-and-explored	arbitrary positive coframe scale	absolute scale selection	udt_torus_bundle_full_screen_witness_2026-08-01/PREREGISTRATION.md
+P06	P(s) full screen	CHOSE_COMPLETE_WITNESS_FAMILY	free-and-explored	arbitrary smooth invertible descending 2x2 coframe	non-torus-invariant screen	udt_torus_bundle_full_screen_witness_2026-08-01/EXACT_DERIVATION.md
+P07	u_A(s),b_A(s) lower-triangular mixing	DERIVED_AS_REGISTERED_MODULI_CLASS	free-and-explored	arbitrary smooth descending functions in bounded E02-type coframe	upper-right extension;global physical selection	udt_p4_routeB_extension_selection_2026-07-28/EXACT_DERIVATION.md
+P08	torus invariance and stationary chart	CHOSE_BOUNDED_CONTROL	pinned-by-HABIT_BOUNDED_CONTROL	complete exact FC07 extension of existing witnesses	time-live and y-dependent fields	this preregistration
+P09	unit base cohomology period	FREE_CONVENTION	pinned-by-HABIT_BOUNDED_CONTROL	normalizes representative only;line is convention-independent	physical period/length interpretation	this preregistration
+P10	background curvature/completion moduli	DERIVED_READOUTS	free-and-explored	all values realized by bounded smooth coframes retained	density mapping;field equation	this preregistration
+P11	total proper density rho_tot	OBSERVATIONAL_OR_WORKING_INPUT_EXCLUDED_FROM_EQUATIONS	EXCLUDED_OPEN	no value or relation loaded	native density-curvature/source bridge	CURRENT_SCIENTIFIC_PREMISES.md G12
+P12	bootstrap	WORKING_ON_SHELL_ADMISSIBILITY	EXCLUDED_OPEN	type-check only	native equation;fixed point;density window	CURRENT_SCIENTIFIC_PREMISES.md G12
+P13	S2 carrier;L2+L4;matter source;action	POSIT_OR_CONDITIONAL_OR_OPEN	EXCLUDED_OPEN	none	all matter physics	CURRENT_SCIENTIFIC_PREMISES.md G09-G11
