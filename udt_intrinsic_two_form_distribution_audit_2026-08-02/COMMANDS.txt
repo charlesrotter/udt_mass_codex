@@ -1,0 +1,15 @@
+git checkout grok
+git fetch origin
+git pull --ff-only origin grok
+git status --short --branch
+git log -8 --oneline
+python3 -m py_compile udt_intrinsic_two_form_distribution_audit_2026-08-02/freeze_sources.py
+python3 udt_intrinsic_two_form_distribution_audit_2026-08-02/freeze_sources.py
+python3 -m py_compile udt_intrinsic_two_form_distribution_audit_2026-08-02/derive_distribution_atlas.py udt_intrinsic_two_form_distribution_audit_2026-08-02/verify_semantics.py
+python3 udt_intrinsic_two_form_distribution_audit_2026-08-02/derive_distribution_atlas.py
+python3 udt_intrinsic_two_form_distribution_audit_2026-08-02/verify_semantics.py
+python3 -m py_compile udt_intrinsic_two_form_distribution_audit_2026-08-02/capture_environment.py udt_intrinsic_two_form_distribution_audit_2026-08-02/verify_repository_gates.py
+python3 udt_intrinsic_two_form_distribution_audit_2026-08-02/capture_environment.py
+python3 udt_intrinsic_two_form_distribution_audit_2026-08-02/verify_repository_gates.py
+python3 udt_intrinsic_two_form_distribution_audit_2026-08-02/build_manifest.py
+python3 udt_intrinsic_two_form_distribution_audit_2026-08-02/verify_package.py

@@ -1,0 +1,15 @@
+{
+  "catch_classes": {
+    "EVIDENCE_BACKED_SEMANTIC_GUARD": 1,
+    "EXACT_OUTPUT_OR_ALGEBRA_GUARD": 26,
+    "SEMANTIC_SCOPE_GUARD": 5
+  },
+  "exact_polynomial_regression": true,
+  "fresh_independent_review": "PASS_NO_CORRECTION",
+  "kernel_regression": true,
+  "mutation_catches": 32,
+  "ruler_empty_regression": true,
+  "schema": "udt-intrinsic-two-form-semantic-verification-1.0",
+  "semantic_guards_are_not_independent_algebra": true,
+  "status": "PASS"
+}

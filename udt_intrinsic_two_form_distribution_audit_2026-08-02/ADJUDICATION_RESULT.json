@@ -1,0 +1,23 @@
+{
+  "candidate_count": 18,
+  "candidate_counts": {
+    "blocked": 2,
+    "degenerate": 1,
+    "full_distribution": 6,
+    "zero": 9
+  },
+  "candidate_selected": false,
+  "carrier_or_section_derived": false,
+  "cold_review": "PASS_NO_CORRECTION",
+  "four_gates": "PASS_ALL_FOUR_FOR_BOUNDED_INTRINSIC_DISTRIBUTION_AND_DEGENERATION_ATLAS",
+  "headline": "The six intrinsic nonzero branches carry screen-contained and generic-mixed kernel-line loci, no ruler-aligned locus, and an exact three-great-circle projective extension obstruction.",
+  "nonzero_domain_components": 2,
+  "physics_promoted": false,
+  "projective_extension": "GENERIC_EQUATOR_EXTENSION_WITH_THREE_GREAT_CIRCLE_OBSTRUCTION",
+  "ruler_aligned_nonzero": "EMPTY_EXACT_IN_REGISTERED_ENSEMBLE",
+  "schema": "udt-intrinsic-two-form-adjudication-1.0",
+  "source_manifest_sha256": "48dcc11e79a0395e920c159a88346656011d8784118f11620f6996db040be122",
+  "status": "PASS_VERIFIED_BOUNDED_INTRINSIC_DISTRIBUTION_ATLAS",
+  "time_live_or_on_shell_claimed": false,
+  "zero_locus": "q3=0 union C03 union C13 union C23"
+}

@@ -1,0 +1,1 @@
+{"git_head_at_capture": "7d3c729697b3d64ef692a382767f55287106beb8", "gpu_used": false, "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35", "processor_mode": "CPU_EXACT_SYMBOLIC", "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]", "schema": "udt-intrinsic-two-form-run-environment-1.0", "sympy": "1.13.1"}

@@ -1,0 +1,17 @@
+{
+  "candidate_census_reproduced": true,
+  "complement_component_count": 2,
+  "complement_topology_reproduced": true,
+  "exact_zero_locus_reproduced": true,
+  "grade": "PASS",
+  "hodge_kernel_reproduced": true,
+  "independent_exact_implementation": true,
+  "load_bearing_correction_required": false,
+  "production_functions_imported_or_executed": false,
+  "projective_extension_reproduced": true,
+  "repository_edited": false,
+  "ruler_aligned_empty_reproduced": true,
+  "schema": "udt-intrinsic-two-form-cold-review-1.0",
+  "source_manifest_sha256": "48dcc11e79a0395e920c159a88346656011d8784118f11620f6996db040be122",
+  "type_witnesses_independent": true
+}

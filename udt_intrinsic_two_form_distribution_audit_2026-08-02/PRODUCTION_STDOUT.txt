@@ -1,0 +1,1 @@
+{"candidate_counts": {"blocked": 2, "degenerate": 1, "full_distribution": 6, "zero": 9}, "nonzero_domain_components": 2, "nonzero_types": ["SCREEN_CONTAINED", "GENERIC_MIXED"], "ruler_aligned": "EMPTY_EXACT", "status": "PASS_EXACT_PRODUCTION"}
