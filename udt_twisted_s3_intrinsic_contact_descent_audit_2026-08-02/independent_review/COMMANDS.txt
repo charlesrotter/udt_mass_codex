@@ -1,0 +1,7 @@
+Fresh reviewer scratch commands:
+python3 /tmp/verify_intrinsic_contact_coordinate.py
+python3 /tmp/exact_contact_values.py
+python3 /tmp/verify_intrinsic_contact_manifest.py
+
+Banked normalized replay command:
+python3 udt_twisted_s3_intrinsic_contact_descent_audit_2026-08-02/independent_review/run_independent_capture.py

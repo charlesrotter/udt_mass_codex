@@ -1,0 +1,64 @@
+{
+  "O13_subclassifications": 2,
+  "Phi_contact": "ABSOLUTE_METRIC_SCALAR_EQUALS_PHI_ON_FROZEN_a_EQUALS_R_EQUALS_ONE_WITNESS",
+  "Phi_contact_general_unfrozen_scope": "phi_plus_one_half_log_R_over_a",
+  "absolute_sigma": "REFERENCE_DEPENDENT__DSIGMA_INTRINSIC",
+  "contact_two_form_on_witness": "IDENTICALLY_ZERO",
+  "frozen_sources": 30,
+  "full_GL2_generality_claimed": false,
+  "lambda_certificates": [
+    {
+      "Q": "4*u*(u - 1)*(u + 1)",
+      "Q_S": "4*u**3",
+      "Q_T": "4*u",
+      "Q_derivative": "4*(3*u**2 - 1)",
+      "lambda": -1,
+      "q_S": "-2*u**(3/2)",
+      "q_T": "2*sqrt(u)"
+    },
+    {
+      "Q": "4*(u - 1)*(u + 1)/u",
+      "Q_S": "4*u",
+      "Q_T": "4/u",
+      "Q_derivative": "4*(u**2 + 1)/u**2",
+      "lambda": 0,
+      "q_S": "-2*sqrt(u)",
+      "q_T": "2/sqrt(u)"
+    },
+    {
+      "Q": "4*(u - 1)*(u + 1)/u**3",
+      "Q_S": "4/u",
+      "Q_T": "4/u**3",
+      "Q_derivative": "-4*(u**2 - 3)/u**4",
+      "lambda": 1,
+      "q_S": "-2/sqrt(u)",
+      "q_T": "2/u**(3/2)"
+    }
+  ],
+  "metric_one_form_objects": [
+    "dphi_from_contact",
+    "dsigma_from_contact",
+    "dz_off_null"
+  ],
+  "metric_scalar_objects": [
+    "Q_T",
+    "Q_S",
+    "Q_contact",
+    "Phi_contact_on_frozen_unit_witness"
+  ],
+  "naive_slot_relabel_rejected": true,
+  "negative_contact_points": 0,
+  "null_contact_points": 0,
+  "objects_classified": 22,
+  "on_shell_claimed": false,
+  "physics_promoted": false,
+  "realized_contact_stratum": "Q_POSITIVE_ONLY",
+  "registered_lambda_values": [
+    -1,
+    0,
+    1
+  ],
+  "schema": "udt-twisted-s3-intrinsic-contact-descent-1.0",
+  "status": "PASS_EXACT_PRODUCTION",
+  "universal_claimed": false
+}

@@ -1,0 +1,4 @@
+lambda	Q_T	Q_S	Q	dphi_reconstruction_coefficient	dsigma_reconstruction_coefficient	dz_over_dphi	Q_monotonicity	Q_min	Q_max	realized_stratum
+-1	4*u	4*u**3	4*u*(u - 1)*(u + 1)	1	-2	(3*u**2 - 1)/((u - 1)*(u + 1))	STRICTLY_INCREASING_ON_4_11	240	5280	Q_POSITIVE_ONLY
+0	4/u	4*u	4*(u - 1)*(u + 1)/u	1	0	(u**2 + 1)/((u - 1)*(u + 1))	STRICTLY_INCREASING_ON_4_11	15	480/11	Q_POSITIVE_ONLY
+1	4/u**3	4/u	4*(u - 1)*(u + 1)/u**3	1	2	-(u**2 - 3)/((u - 1)*(u + 1))	STRICTLY_DECREASING_ON_4_11	480/1331	15/16	Q_POSITIVE_ONLY

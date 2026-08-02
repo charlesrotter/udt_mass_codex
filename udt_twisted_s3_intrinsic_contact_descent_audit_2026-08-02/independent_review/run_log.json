@@ -1,0 +1,18 @@
+[
+  {
+    "label": "coordinate",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_twisted_s3_intrinsic_contact_descent_audit_2026-08-02/independent_review/verify_intrinsic_contact_coordinate.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "exact_values",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_twisted_s3_intrinsic_contact_descent_audit_2026-08-02/independent_review/exact_contact_values.py"
+    ],
+    "exit_code": 0
+  }
+]

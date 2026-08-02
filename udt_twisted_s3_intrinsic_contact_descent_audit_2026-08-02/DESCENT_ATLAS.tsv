@@ -1,0 +1,23 @@
+object_id	object	status	exact_scope	open_scope
+O01	clock_line	METRIC_INTRINSIC_LINE_ON_WITNESS	unique timelike Killing line	other branches
+O02	ruler_line	METRIC_INTRINSIC_LINE_ON_WITNESS	nonzero Killing-twist line	twist-free and other branches
+O03	pair_projector	METRIC_TENSOR_ON_WITNESS	sign-independent from O01/O02	on-shell or universal selection
+O04	screen_projector	METRIC_TENSOR_ON_WITNESS	identity minus pair projector	individual screen axes
+O05	oriented_screen_area	ORIENTATION_LINE_NOT_CANONICAL_SIGN	metric supplies unit area density up to sign	selected orientation
+O06	signed_contact_pair	SIGN_LOCAL_SYSTEM_NOT_NUMERIC_SCALAR	screen projections of dTflat,dSflat	ordered signs and orientation
+O07	Q_T	METRIC_SCALAR_ON_WITNESS	half norm squared of projected dTflat	other branches
+O08	Q_S	METRIC_SCALAR_ON_WITNESS	half norm squared of projected dSflat	other branches
+O09	Q_contact	METRIC_SCALAR_ON_WITNESS	Q_S minus Q_T	universal observable status
+O10	contact_causal_strata	Q_POSITIVE_ONLY_ON_WITNESS	exact positive lower bound for every registered lambda	null and negative behavior elsewhere
+O11	dphi_from_contact	METRIC_ONE_FORM_ON_WITNESS	one quarter dlog(Q_S/Q_T)	absolute normalization outside witness
+O12	dsigma_from_contact	METRIC_ONE_FORM_ON_WITNESS	minus one quarter dlog(Q_S Q_T)	absolute area reference
+O13	absolute_phi_sigma	PHI_CONTACT_METRIC_SCALAR_ON_FROZEN_UNIT_WITNESS__SIGMA_REFERENCE_DEPENDENT	phi_contact=one_quarter_log_QS_over_QT_equals_phi;absolute_sigma_needs_dimensionful_reference	general_unfrozen_R_over_a_normalization_and_area_reference
+O14	contact_coordinate_z	REFERENCE_DEPENDENT_ABSOLUTE_DZ_INTRINSIC	T0 changes z by constant	selected dimensional reference
+O15	contact_differential	METRIC_TWO_FORM_IDENTICALLY_ZERO_ON_WITNESS	dz proportional to dphi for all registered lambda	nontrivial values on independent phi/screen branches
+O16	alternating_primitive	AVAILABLE_REFERENCE_DEPENDENT_NOT_SELECTED	exterior derivative zero on witness	law or primitive selection
+O17	split_curvature_contractions	METRIC_SCALARS_AS_A_CLASS_ON_WITNESS	derived projectors remove prior split-authority obstruction	complete values and universal reduction
+O18	individual_screen_axes	SCREEN_O2_GAUGE_NOT_SELECTED	screen plane only	additional section or symmetry
+O19	first_Cartan_screen_slots	FRAME_COEFFICIENTS_NOT_INDIVIDUAL_SCALARS	tensorial combinations may be formed	generic GL2 screen audit on intrinsic branch
+O20	Levi_Civita_connection_slots	CONNECTION_GAUGE_NOT_TENSOR	inhomogeneous local-frame transformation	tensorial curvature or chosen frame
+O21	path_transport_holonomy	PATH_DEPENDENT_NOT_FIXED_BY_LOCAL_DESCENT	connection is metric-derived but path/loop is input	path family and global transport audit
+O22	global_section_carrier	NOT_DERIVED_ADDITIONAL_GLOBAL_DATA	pair and screen bundles do not select a carrier section	carrier emergence and global law

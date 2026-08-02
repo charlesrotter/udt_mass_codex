@@ -1,0 +1,11 @@
+control	result	detail
+T_SIGN	PASS	F_T flips; Q_T,Q_S,Q unchanged
+S_SIGN	PASS	F_S flips; Q_T,Q_S,Q unchanged
+SCREEN_ORIENTATION	PASS	signed q flips; squared contractions unchanged
+K_CONSTANT_RESCALE	PASS	unit line representative changes at most sign
+FULL_FRAME_COVARIANCE	PASS	exact rational Lorentz transform preserves tensor contractions
+NAIVE_SLOT_RELABEL	REJECTED_AS_REQUIRED	naive_Q=9*(qS - qT)*(qS + qT)/16;true_Q=qS**2 - qT**2
+CONSTANT_DEPTH	AUTHORITY_BLOCKED	prior invariant certificate is zero; no intrinsic pair promoted
+TWIST_FREE	PAIR_UNDEFINED	clock certificate can survive but ruler line and pair projector do not
+SLICE_NULL	INELIGIBLE_RETAINED	not crossed or used for descent
+REFERENCE_SHIFT	PASS	absolute logs change; dphi,dsigma,dz unchanged
