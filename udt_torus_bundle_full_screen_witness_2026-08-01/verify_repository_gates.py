@@ -72,8 +72,15 @@ def main() -> int:
             assert source.parent.joinpath(relative).resolve().exists(), (source, relative); links += 1
 
     tests = run(["python3", "-m", "pytest", "-q", "tests"], 300)
-    (HERE / "REPOSITORY_TEST_STDOUT.txt").write_text(tests.stdout + tests.stderr, encoding="utf-8")
     assert tests.returncode == 0 and "70 passed, 1 xfailed" in tests.stdout
+    # Pytest's elapsed wall time is nondeterministic evidence noise. Preserve every
+    # semantic line while normalizing only that terminal duration before hashing.
+    test_capture = re.sub(
+        r"in \d+(?:\.\d+)?s(?=\n?$)",
+        "in <elapsed>s",
+        tests.stdout + tests.stderr,
+    )
+    (HERE / "REPOSITORY_TEST_STDOUT.txt").write_text(test_capture, encoding="utf-8")
     output = {"status": "PASS", "frozen_manifests": 6, "frozen_manifest_members": members, "frozen_package_paths": members + 6, "premise_verifier": "18 premise guards; 9 startup controls; 754 candidate dispositions", "current_paths": len(current), "frontier_rows": len(frontier), "frontier_targets": len(targets), "package_links": links, "tests": "70 passed, 1 xfailed"}
     (HERE / "REPOSITORY_GATES.json").write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(output, sort_keys=True))
