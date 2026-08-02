@@ -1,0 +1,11 @@
+criterion	covered	dropped_or_open	could_host_emergent_structure
+1_FIELDS	phi(s);full P(s);both mixing doublets in chosen lower-triangular field generalization containing E02	field-promotion selection;upper-right coframe extension;y-dependent and time-live fields	YES
+2_ACTION_TERMS	none;pure Hodge geometry	native action and all matter terms	YES
+3_FULL_EQUATIONS	complete spatial harmonic equation for base class	native UDT equations and response in every field direction	YES
+4_DOMAIN_COORDINATES	complete compact mapping torus;stationary torus-invariant coefficients	time dependence;fiber dependence;other global domains	YES
+5_BOUNDARY_REGULARITY	exact smooth descent assumed;degenerate boundaries classified	construction/selection of J07/J11 mixing cocycle	YES
+6_TOPOLOGICAL_SECTOR	all four registered b1=1 monodromies	b1>1 and other completions	YES
+7_DYNAMICAL_CHARACTER	stationary spatial Hodge problem	time-live dynamics	YES
+8_BRANCH_BIFURCATION	four completion rows;constant/varying/area-preserving strata retained	unregistered branches	YES
+9_STABILITY_SPECTRUM	none	all stability questions	YES
+10_REGIME_VALIDITY	all smooth compact nondegenerate members of bounded class	coframe degeneration;noncompact/singular limits;general full metric	YES

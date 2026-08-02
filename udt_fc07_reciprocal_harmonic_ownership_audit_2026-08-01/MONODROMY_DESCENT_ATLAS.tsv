@@ -1,0 +1,5 @@
+candidate_id	monodromy	det_M	det_Mt_minus_I	b1	invariant_fiber_covector	base_harmonic_line	descent_status
+O01	M_MINUS_IDENTITY	1	4	1	NONE	UNIQUE	PASS
+O02	M_ORDER4_ROTATION	1	2	1	NONE	UNIQUE	PASS
+O03	M_ORDER6_ELLIPTIC	1	1	1	NONE	UNIQUE	PASS
+O04	M_HYPERBOLIC	1	-1	1	NONE	UNIQUE	PASS

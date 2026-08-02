@@ -1,0 +1,13 @@
+id	claim	status	exact_scope	open_boundary
+S01	complete lower-triangular spatial metric determinant and inverse	DERIVED	arbitrary positive a;invertible oriented P;arbitrary b	upper-right extension;non-torus-invariant fields
+S02	base-class unit-period harmonic form alpha=theta1/(I*sqrt(det(h)))	DERIVED	compact smooth descending torus-invariant spatial metric	other cohomology dimensions;time-live Hodge problem
+S03	harmonic and founded ruler rank-one projectors coincide	DERIVED_CONDITIONAL_BOUNDED	four b1=1 FC07 completions;every descending lower-triangular member	general complete UDT metric
+S04	clock-screen u and ruler-screen b mixing cancel from ownership	DERIVED_CONDITIONAL_BOUNDED	chosen field-level lower-triangular generalization containing registered E02;conditional on global descent	J07/J11 descent construction;field-promotion selection;upper-right mixing
+S05	angular area and complete-cell phi/area integral modulate harmonic amplitude	DERIVED_CONDITIONAL_BOUNDED	alpha/theta1=1/(I*sqrt(det(h)))	native rule requiring this amplitude
+S06	unrescaled theta1 is spatially harmonic iff angular area is constant	DERIVED_CONDITIONAL_BOUNDED	d_s sqrt(det(h))=0 in stated spatial Hodge problem	whether any premise selects this equality
+S07	nonconstant registered symmetric screen interpolations vary angular area	DERIVED_CONDITIONAL_BOUNDED	det(Delta)<0;flat-step interpolation	other area-preserving paths
+S08	line ownership has no nontrivial curvature/background interval	DERIVED_NEGATIVE_SCOPED	entire smooth compact nondegenerate bounded family	matter-supporting window under future native equations
+S09	unit-period normalization is a global-to-local readout not a return equation	OPEN_RETURN_EQUATION	current Hodge normalization only	native same-solution admissibility feedback
+S10	total density/energy to curvature/completion bridge	OPEN	none loaded	native source relation
+S11	physical completion or monodromy selection	OPEN	all four rows retained	selection law
+S12	Xmax;action;carrier;matter;mass;stability	OPEN_OR_CONDITIONAL_AS_PREVIOUSLY_STAMPED	no new claim	complete downstream physics

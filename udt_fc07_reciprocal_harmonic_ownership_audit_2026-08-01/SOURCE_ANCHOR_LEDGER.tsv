@@ -1,0 +1,14 @@
+path	role	exact_anchor	use
+CURRENT_SCIENTIFIC_PREMISES.md	phi_identity	The founded scalar `phi` is already the additive logarithmic depth	prevents_placeholder_phi_regression
+CURRENT_SCIENTIFIC_PREMISES.md	bootstrap_scope	bootstrap is a working on-shell admissibility hypothesis, not a local equation	prevents_return_equation_promotion
+CURRENT_SCIENTIFIC_PREMISES.md	carrier_scope	the `S^2` carrier is a `POSIT`	prevents_carrier_import
+udt_fc07_cartan_response_return_audit_2026-08-01/EXACT_DERIVATION.md	cohomology_formula	b1(Sigma_M)=1+dim ker(M^T-I).	unique_H1_gate
+udt_fc07_cartan_response_return_audit_2026-08-01/EXACT_DERIVATION.md	parent_harmonic_form	alpha(r) = dr/[I_h sqrt(det h(r))],	parent_formula_to_generalize
+udt_fc07_cartan_response_return_audit_2026-08-01/EXACT_DERIVATION.md	bootstrap_negative	It is not bootstrap closure.	prevents_readout_to_closure_promotion
+udt_fc07_cartan_response_return_audit_2026-08-01/HODGE_RETURN_CHANNEL.tsv	four_unique_rows	M_HYPERBOLIC	frozen_candidate_membership
+udt_torus_bundle_full_screen_witness_2026-08-01/EXACT_DERIVATION.md	parent_metric	g=-c_E^2 exp(-2phi0) dt^2 + L^2 exp(2phi0) ds^2 + dy^T h(s)dy.	constant_phi_base_to_release
+udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md	coframe_nonuniqueness	The active UDT foundation does not yet derive one unique, complete, globally joined	prevents_bounded_class_universalization
+udt_native_global_coframe_definition_audit_2026-07-28/EXACT_DERIVATION.md	founded_pair	H = diag(-1,+1)	base_pair_anchor
+udt_p4_routeB_extension_selection_2026-07-28/EXACT_DERIVATION.md	mixing_footing	X = [[H,0],[C,K]]	lower_triangular_extension_scope
+udt_p4_routeB_extension_selection_2026-07-28/EXACT_DERIVATION.md	global_mixing_gap	two-sided twisted 1-cocycle	global_descent_scope
+udt_bootstrap_projector_admissibility_interface_2026-08-01/EXACT_DERIVATION.md	open_intersection	N_projector intersection Sol(E_native)	native_equation_still_missing
