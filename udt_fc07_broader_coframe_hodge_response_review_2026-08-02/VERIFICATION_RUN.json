@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "udt_fc07_broader_coframe_hodge_response_review_2026-08-02/verify_audit.py"
+  ],
+  "exit_code": 0,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 325,
+  "stdout_sha256": "7480434632d9f4ca5c308a1f6c6fe35be553cfe3beb1138108c7c7f2b0511bd9"
+}

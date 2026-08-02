@@ -1,0 +1,8 @@
+{
+  "cold_review": "fresh_zero_context_read_only",
+  "gpu_used": false,
+  "machine": "x86_64",
+  "mode": "CPU_STDLIB_COLD_REVIEW_CORRECTION",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+}

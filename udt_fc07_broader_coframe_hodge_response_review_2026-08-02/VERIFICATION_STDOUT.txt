@@ -1,0 +1,1 @@
+{"correction_checks": 33, "correction_source_blobs": 10, "density_scan_authorized": false, "law_selected": false, "outcome": "COLD_REVIEW_PASS_AFTER_REQUIRED_CORRECTIONS", "parent_package_entries": 51, "parent_source_blobs": 15, "required_corrections": 7, "semantic_catches": 15, "status": "PASS", "status_overlay_rows": 12}

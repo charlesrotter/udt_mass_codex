@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "udt_fc07_broader_coframe_hodge_response_review_2026-08-02/verify_correction.py"
+  ],
+  "exit_code": 0,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 222,
+  "stdout_sha256": "ace279d35a6b3b4e24ae7cfd76f18a918f12e768232efeba2745418beb68cf65"
+}

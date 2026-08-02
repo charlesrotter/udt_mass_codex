@@ -1,0 +1,10 @@
+{
+  "density_scan_authorized": false,
+  "law_selected": false,
+  "manifest_files": 38,
+  "manifest_sha256": "e106eb92847b7acfd300427921a405158b76b0a7592a42bd40c4ef420c2a122b",
+  "parent_package_unchanged": true,
+  "schema": "udt.fc07.broader_coframe_hodge_response.cold_review.v1",
+  "scientific_grade": "COLD_REVIEW_PASS_AFTER_REQUIRED_CORRECTIONS",
+  "status": "PASS"
+}

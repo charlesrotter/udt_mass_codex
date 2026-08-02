@@ -1,0 +1,16 @@
+catch_id	status	detail
+uniform_quotient	PASS	mutant rejected
+remove_collapse	PASS	mutant rejected
+global_screen_rows	PASS	mutant rejected
+physical_upper_right	PASS	mutant rejected
+priority_restored	PASS	mutant rejected
+ansatz_artifact	PASS	mutant rejected
+epsilon_zero_allowed	PASS	mutant rejected
+curl_is_harmonic	PASS	mutant rejected
+tautological_shift	PASS	mutant rejected
+determinant_descent	PASS	mutant rejected
+current_path_sources	PASS	mutant rejected
+parent_package_bad	PASS	mutant rejected
+parent_sources_bad	PASS	mutant rejected
+law_selected	PASS	mutant rejected
+density_authorized	PASS	mutant rejected

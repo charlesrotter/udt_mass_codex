@@ -1,0 +1,31 @@
+{
+  "baseline_errors": [],
+  "checks_passed": 33,
+  "checks_total": 33,
+  "curl_witness_role": "COEXACT_CAPABILITY_NOT_HARMONIC_PROOF",
+  "current_source_divergences": [
+    "LIVE.md"
+  ],
+  "current_source_matches": 14,
+  "density_scan_authorized": false,
+  "descent_method": "ACTUAL_PULLBACK_AND_COFRAME_TRANSITION",
+  "epsilon_nonzero_required": true,
+  "exact_harmonic_status": "ROBUST_UNCHANGED",
+  "failed_checks": [],
+  "fixed_pullback_status": "MAY_COLLAPSE",
+  "formal_quotient_scope": "FORMAL_FREE_AFFINE_CLASS_ONLY",
+  "implementation": "python_stdlib_fraction_math_git_blob_no_parent_import",
+  "law_selected": false,
+  "outcome": "COLD_REVIEW_PASS_AFTER_REQUIRED_CORRECTIONS",
+  "parent_package_entries": 51,
+  "parent_package_valid": true,
+  "parent_source_blobs": 15,
+  "parent_source_blobs_valid": true,
+  "priority_status": "WITHDRAWN_NO_PRIORITY_CENSUS",
+  "reference_shift_method": "NONTRIVIAL_EXACT_FUNCTION_CHECK",
+  "screen_rows": "LOCAL_WITH_DIAG_1_MINUS1_MINUS1_TRANSITION",
+  "semantic_catches_passed": 15,
+  "semantic_catches_total": 15,
+  "source_replay_method": "RECORDED_GIT_BLOB_BYTES",
+  "upper_right_status": "MATHEMATICAL_COUNTERCONTROL_OUTSIDE_SELECTED_EXTENSION"
+}
