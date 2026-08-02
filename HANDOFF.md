@@ -6,44 +6,43 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-02).** Synchronize it before orientation.
 
-## CURRENT — intrinsic contact descent verified on explicit witness; independent screen response open
+## CURRENT — intrinsic reciprocal projector and independent angular response coexist; selection open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_twisted_s3_intrinsic_contact_descent_audit_2026-08-02/AUDIT_REPORT.md`, then its exact
-   derivation, descent atlas, O13 subclassification, cold-review return, lay report, four gates, and
-   next step.
-4. The all-gate reciprocal-reduction witness only when its parent proof is load-bearing.
+3. `udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/AUDIT_REPORT.md`, then its lay
+   report, exact derivation, result atlas, scope clarification, cold review and post-repair recheck,
+   four gates, and next step.
+4. The prior intrinsic-contact witness only when its parent proof is load-bearing.
 
-**Current honest result:** using the metric-derived clock/ruler projector rather than supplied
-coframe slots makes `Q_T`, `Q_S`, and `Q=Q_S-Q_T` genuine metric scalars on each of the three frozen
-off-shell witness metrics. All occupy only `Q>0`. On frozen `a=R=1`, their ratio also gives the
-absolute branch scalar `Phi_contact=phi`; general unfrozen normalization restores a constant
-`(1/2)log(R/a)` ambiguity.
+**Current honest result:** the full positive angular screen has three independent metric modes:
+area and both shears. Exact invariant Jacobians leave one timelike Killing line on 16 registered
+metrics; nonzero twist closes the intrinsic reciprocal projector on 15. Six explicit complete
+stationary candidates—including full-screen C08-C10 for all registered `lambda`—also carry a
+nonzero intrinsic decomposable depth/area two-form.
 
-**Limitation:** `dsigma=2 lambda dphi`, so the depth–screen alternating form is identically zero.
-The descent/authority problem closes on this witness, but independent angular response does not
-appear in its one-depth isotropic screen. Absolute `sigma`/contact logs, signed components, screen
-axes, connection slots, path holonomy, carrier sections, general screens, dynamics, and selection
-remain conditional, reference-dependent, or open as typed in the atlas.
+**Meaning and limitation:** the prior zero was caused by a screen-area/depth lock, not a complete
+metric no-go. The result proves coexistence, not selection or an equation. Its local-open statement
+is only relative to stationary block-screen metrics retaining `K=partial_t`; one profile per mode
+does not exhaust smooth screens. C14/C15 remain configuration controls rather than intrinsic-contact
+branches, and no carrier, section, dynamics, action, matter, or mass follows.
 
-**Evidence:** preregistration `1cf5c9d7`, 30-source freeze `8dcdf278`, evidence commit `5d9fd62b`;
-22 parent objects, two O13 subclassifications, three lambda certificates, 24/24 catches, and 15
-fresh independent coordinate/Hodge/autodiff checks returned `VERIFIED`. Source manifest
-`b0ea71998dc5e0cb1c2e1aebe4f256c541863e062ceaf30625e304e80765ad4d`; package manifest
-`4d8cbd2c794974ac231a1ea4400d6d14d6f7a995bdfc1eda9efa61de08090458`. Six frozen manifests / 133
-paths, 1,114 current paths, frontier/premise guards, and tests `70 passed, 1 xfailed` pass.
+**Evidence:** preregistration `bb611bdd`; 48-source freeze `4dd35a5e`; evidence commit `614c6b22`;
+source manifest `4117d443c5deb4742d6b11dceabc21460f5afda593c201ff84da9e2eda8eedad`;
+package manifest `7a277968b25044b26a1ec66fb8eeb0dcdbb1aa87fac8ca827201f7a8a293a920`; 34 exact point
+certificates; fresh independent all-point replay with worst nonzero relative error `2.3393e-11`;
+post-repair grade `PASS`; 30/30 typed guards. Six frozen manifests / 133 paths, 1,114 current paths,
+101 frontier targets, premise guards, and tests `70 passed, 1 xfailed` pass.
 
-**Proposed next action, not launched:** in the same complete stationary `S3` arena, independently
-vary screen area and then both shears; classify whether the intrinsic projector survives and map
-all rank-zero/rank-one depth–screen, symmetry, null, degeneracy, and projector-failure strata. Do
-not target a nonzero alternating form.
+**Proposed next action, not launched:** decompose the new intrinsic two-form and Hodge dual through
+the pair/screen projectors; map its kernel/dual line and complete-cell continuation without targeting
+a carrier or selected section. CPU exact anchors only.
 
-**Authority boundary:** no new premise or physics was adopted. No density scan, action, carrier,
-source, bootstrap closure, `X_max`, matter/mass claim, canonization, reorganization, GPU/time-live
-work, external transmission, or follow-on launch follows.
+**Authority boundary:** no new premise or physics was adopted. No density scan, action, carrier or
+section, source, bootstrap closure, `X_max`, matter/mass claim, canonization, reorganization,
+GPU/time-live work, external transmission, or follow-on launch follows.
 
 <!-- STARTUP_CURRENT_END -->
 

@@ -5,72 +5,74 @@
 **⚠ BRANCH: work is on `grok` (2026-08-02).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-02 — INTRINSIC CONTACT DESCENT VERIFIED ON EXPLICIT WITNESS; INDEPENDENT SCREEN RESPONSE OPEN) ============
+## ============ CURRENT STATE (2026-08-02 — INTRINSIC RECIPROCAL PROJECTOR AND INDEPENDENT ANGULAR RESPONSE COEXIST; SELECTION OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_twisted_s3_intrinsic_contact_descent_audit_2026-08-02/AUDIT_REPORT.md` → its exact derivation,
-descent atlas, O13 subclassification, cold-review return, lay report, four gates, and next step → the
-all-gate reciprocal-reduction witness only when its parent proof is load-bearing.
+`udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/AUDIT_REPORT.md` → its lay report,
+exact derivation, result atlas, scope clarification, cold review and post-repair recheck, four gates,
+and next step → the prior intrinsic-contact witness only when its parent proof is load-bearing.
 
 **RESULT:**
-`METRIC_DERIVED_PROJECTOR_MAKES_QT_QS_Q_INTRINSIC_ON_EXPLICIT_WITNESS__Q_POSITIVE__PHI_CONTACT_ABSOLUTE_ON_FROZEN_UNIT_WITNESS__ALTERNATING_CONTACT_TWO_FORM_ZERO__GENERAL_SCREEN_AND_SELECTION_OPEN`.
-This is a `VERIFIED` exact descent atlas for the three frozen `lambda=-1,0,+1` off-shell witness
-metrics. It is not a generic-screen, on-shell, or universal theorem.
+`INTRINSIC_RECIPROCAL_PROJECTOR_AND_INDEPENDENT_ANGULAR_AREA_RESPONSE_COEXIST_ON_EXPLICIT_COMPLETE_STATIONARY_SCREENS__SCREEN_AND_PHYSICAL_SELECTION_OPEN`.
+This is a `VERIFIED_BOUNDED_CONFIGURATION_EXISTENCE` result in one stationary off-shell `R x S3`
+arena. It is not an on-shell, time-live, generic-screen, or universal UDT theorem.
 
-**WHAT CLOSED:** reconstructing the already derived clock/ruler projector before taking Cartan
-slots turns three orientation-free contractions into genuine metric scalars on the witness:
+**WHAT CLOSED:** the positive angular screen has three independent metric modes—area plus both
+shears. Exact curvature invariants identify a unique timelike Killing line on 16 of 17
+nondegenerate registered metrics; nonzero Killing twist then supplies the ruler line and intrinsic
+pair/screen projector on 15. The former zero alternating result was caused by slaving screen area to
+depth. With independent area,
 
 ```text
-Q_T=4 u^(-1-2 lambda),
-Q_S=4 u^(+1-2 lambda),
-Q=Q_S-Q_T=4 u^(-1-2 lambda)(u^2-1).
+dPhi_contact wedge dSigma_contact=(du wedge dV)/(2 u V)
 ```
 
-They are invariant under clock/ruler signs, screen or spacetime orientation, constant Killing
-normalization, and arbitrary passive frame changes. Merely relabeling the old transformed `23`
-slots still fails and is explicitly rejected.
+is nonzero on explicit complete branches while both shears remain active. Exactly six registered
+candidates have both the intrinsic projector and nonzero decomposable two-form: C04, C08-C10, C16,
+and C17. C08-C10 cover all three registered `lambda=-1,0,+1` values.
 
-**DEPTH/SCREEN CONSEQUENCE:** `Q>0` everywhere for all three metrics and `4<=u<=11`; null and
-negative contact strata are absent on this witness, not refuted elsewhere. On the frozen `a=R=1`
-witness, `Phi_contact=(1/4)log(Q_S/Q_T)=phi` is an absolute metric scalar. In the general unfrozen
-constant family it shifts by `(1/2)log(R/a)`, so no universal founded zero follows. `dsigma` is
-intrinsic, while absolute `sigma` and the absolute contact log remain reference-dependent.
+**CONTROL STRATA:** the configuration census is ten zero, seven nonzero decomposable, and one
+degenerate. C14 is symmetry-enhanced and lacks unique projector ownership; C15 has a unique clock
+line but zero twist and therefore no ruler; C16/C17 retain the registered null/sign-changing `Q`
+strata without four-metric degeneration. “Simple” means decomposable two-form; its antisymmetric
+matrix rank is two.
 
-**DECISIVE LIMITATION:** `dsigma=2 lambda dphi`, so
-`dphi wedge dsigma=dphi wedge dz=0` identically. The metric-derived projector closes the previous
-authority obstruction here, but this one-depth isotropic-screen witness contains no independent
-depth–angular alternating response. Signed components, screen axes, connection slots, path
-holonomy, and carrier/global sections still require additional data.
+**OPEN-NEIGHBORHOOD SCOPE:** nonzero parent invariant Jacobians and finite-jet continuity give an
+unquantified local-open coexistence result only inside the stationary block-screen subspace
+retaining `K=partial_t`. Arbitrary time-dependent perturbations need not retain any Killing field.
+One analytic profile per mode does not exhaust smooth `GL(2,R)` screens.
 
-**EVIDENCE:** preregistration `1cf5c9d7`, 30-source freeze `8dcdf278`, evidence commit `5d9fd62b`;
-source-manifest SHA-256 `b0ea71998dc5e0cb1c2e1aebe4f256c541863e062ceaf30625e304e80765ad4d`;
-package-manifest SHA-256 `4d8cbd2c794974ac231a1ea4400d6d14d6f7a995bdfc1eda9efa61de08090458`.
-Twenty-two parent objects, two O13 subclassifications, three exact lambda certificates, ten
-controls, and 24/24 catches pass. A fresh zero-context coordinate/Hodge/autodiff reconstruction
-performed 15 checks with maximum `Q_T,Q_S,Q` error `3.98e-12`, caught and closed the O13 reference
-classification, and returned `VERIFIED`. Six frozen manifests / 133 paths, 1,114 current paths,
-frontier and premise guards, and tests `70 passed, 1 xfailed` pass.
+**EVIDENCE:** preregistration `bb611bdd`; 48-source freeze `4dd35a5e`; evidence commit `614c6b22`;
+source-manifest SHA-256
+`4117d443c5deb4742d6b11dceabc21460f5afda593c201ff84da9e2eda8eedad`; 34 exact point
+certificates; package-manifest SHA-256
+`7a277968b25044b26a1ec66fb8eeb0dcdbb1aa87fac8ca827201f7a8a293a920`; 32 nonzero invariant
+Jacobians and two exact homogeneous zeros. A fresh independent
+CPU coordinate/autodiff implementation replayed all 34 points with worst nonzero relative error
+`2.3393e-11`, plus exact independent determinant/contact/rank checks. Its initial five caveats were
+repaired and the post-repair grade is `PASS`. The 30 fail-closed rows are honestly typed as 19
+exact/algebra guards, two evidence-backed semantic guards, and nine semantic scope guards. Six
+frozen manifests / 133 paths, 1,114 current paths, 101 frontier targets, premise guards, and tests
+`70 passed, 1 xfailed` pass.
 
-**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** in the same complete stationary `S3` arena, release the
-frozen relation `sigma=2 lambda phi` with an independently varying smooth screen determinant and
-then both shears. Classify whether explicit complete metrics retain the unique Killing/twist
-projector and map every rank-zero/rank-one `dphi wedge dsigma`, symmetry-enhanced, twist-free,
-null, degenerate, and projector-failing stratum. Maximum scope remains explicit off-shell witnesses
-or a separately proved neighborhood.
+**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** on the same frozen stationary ensemble, decompose the
+new intrinsic two-form and its Hodge dual through the metric-derived pair/screen projectors. Map its
+kernel and dual line across nonzero, zero, null, symmetry, twist-free, and degenerate strata, then
+test global continuation through the complete cell. Maximum conclusion is an intrinsic
+distribution/degeneracy atlas—not a carrier or selected section.
 
-**PREMISE STAMPS:** abstract reciprocal pair and founded pair action `DERIVED`; local physical
-clock/ruler alignment `DERIVED_CONDITIONAL` on the recorded readout; explicit complete-cell
-rank-two reduction `DERIVED_BOUNDED`; `Q_T,Q_S,Q` `DERIVED_METRIC_SCALARS_ON_WITNESS`;
-`Phi_contact=phi` `DERIVED_ON_FROZEN_UNIT_WITNESS`; absolute `sigma` `REFERENCE_DEPENDENT` and
-`dsigma` `DERIVED_ON_WITNESS`; alternating contact two-form `DERIVED_ZERO_ON_WITNESS`; signed
-contact pair `SIGN_LOCAL_SYSTEM`; witness/on-shell selection, generic-screen intrinsic descent, and
-universal reduction `OPEN`; fixed component plane `REFUTED`; `c_E` `OBSERVED_SCALE_ANCHOR`;
-bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; action,
-source, boundary, density return, `X_max`, stability, mass, and matter remain `OPEN`.
+**PREMISE STAMPS:** reciprocal pair/founded pair action `DERIVED`; registered complete stationary
+configuration family `CHOSE_EXISTENCE_CONTROL`; screen area and two shear modes
+`DERIVED_CONFIGURATION_SPACE`; unique Killing line `DERIVED_BOUNDED_ON_16`; intrinsic pair
+projector `DERIVED_BOUNDED_ON_15`; intrinsic nonzero depth/area two-form
+`DERIVED_EXISTENCE_ON_6`; stationary local openness `DERIVED_CONDITIONAL_ON_C3_CONTINUITY`;
+screen/on-shell/dynamical selection `OPEN`; `c_E` `OBSERVED_SCALE_ANCHOR`; bootstrap
+`WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; action, source,
+boundary, density return, `X_max`, stability, mass, and matter remain `OPEN`.
 
-**AUTHORITY BOUNDARY:** no new postulate or physics was adopted. No action, source, carrier,
-boundary, density/bootstrap return, matter/mass claim, GPU/time-live work, canonization, external
-transmission, repository reorganization, or follow-on derivation is authorized by this block.
+**AUTHORITY BOUNDARY:** no postulate or physics was adopted. No action, source, carrier/section,
+boundary, density/bootstrap return, matter/mass claim, GPU/time-live work, canonization,
+repository reorganization, or follow-on derivation is authorized by this block.
 
 <!-- STARTUP_CURRENT_END -->
 

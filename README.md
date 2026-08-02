@@ -1,19 +1,13 @@
 # UDT repository
 
-**⚠ CURRENT ORIENTATION SPINE (2026-08-01):** `LIVE.md` topmost block → `HANDOFF.md` current
+**⚠ CURRENT ORIENTATION SPINE (2026-08-02):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry →
-`udt_native_stability_configuration_space_audit_2026-08-01/AUDIT_REPORT.md` →
-`udt_f01_lambda_schur_check_2026-08-01/AUDIT_REPORT.md` and its lay/ledger/cold-review evidence →
-`udt_stability_action_boundary_bridge_audit_2026-08-01/AUDIT_REPORT.md` and its
-route/map/repair/cold-review evidence →
-`udt_f01_second_wall_inverse_stability_2026-08-01/AUDIT_REPORT.md` and its
-threshold/repair/cold-review evidence →
-the stability ontology/closure/global-local parents when load-bearing.
-`PONDER_MATH_ELEGANCE_2026-07-31.md` is conjectural framing, never authority. The bridge audit finds
-only partial analogies and no exact action-route map into F01. The inverse audit derives a
-conditional two-coordinate threshold surface but selects no wall response; its proposed successor
-is the complete symmetry-permitted inverse wall-Hessian cone—not action adoption, coefficient
-fitting, T4, GPU work, or global stability.
+`udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/AUDIT_REPORT.md` → its lay report,
+exact derivation, result atlas, scope clarification, review closure, four gates, and next step →
+the prior intrinsic-contact and all-gate reciprocal witnesses only when load-bearing. The current
+bounded result is coexistence of the metric-derived reciprocal projector, all three angular screen
+modes, and an independent nonzero depth/area response on explicit stationary complete branches.
+It selects no screen, equation, carrier, action, source, bootstrap value, matter, or mass.
 
 
 This root is the control and navigation surface for the UDT research record.

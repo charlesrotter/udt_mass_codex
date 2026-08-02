@@ -4,29 +4,25 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-01, reciprocal-closure joint)
+## TOP — CURRENT POINTER (2026-08-02, intrinsic general-screen neighborhood)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
 block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
-`udt_reciprocal_closure_joint_selector_audit_2026-08-01/` in the order routed there.
+`udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/` in the order routed there.
 
-Current honest result: a supplied rank-one orthogonal projector has one exact common geometry
-behind the conditional carrier terms—`L2` is path bending and `L4` is relative loop
-noncommutation/area. Quartic `L4` uniqueness is conditional on rank-one blindness and the bounded
-first-derivative invariant class. Current UDT has not selected that projector, required both
-responses, fixed their ratio, or supplied carrier, action, boundary, dynamics, source, mass, or
-bootstrap return. The strongest status is an open coherent architecture with an exact conditional
-projector-response theorem.
+Current honest result: within one chosen complete stationary `R x S3` arena, all three angular
+metric modes can be active while curvature and twist still derive the reciprocal projector. Six
+registered metrics carry both that projector and a nonzero decomposable depth/area two-form. The
+prior zero was caused by slaving screen area to depth, not by a complete-metric obstruction.
 
-The fresh external gpt-5.4 review sustained all ten scientific rulings and required one wording
-repair distinguishing the frozen pinned SymPy run from the reviewer's own environment. The repair
-is applied; pinned primary, independent rational, mutation, package, frozen-manifest, premise,
-navigation, and test gates pass; the final package is banked at `0b2a305`. The next proposed but
-unlaunched task is a post-July branch census for intrinsic rank-one spectral projectors or
-reduced-holonomy subbundles and their global descent.
+This is a bounded existence/local-open result inside the stationary subspace retaining
+`K=partial_t`; it selects no screen, equation, carrier, action, source, boundary, bootstrap value,
+matter, or mass. The fresh independent all-point review passes after five explicit scope/evidence
+repairs. The next proposed but unlaunched question is whether the new intrinsic two-form and Hodge
+dual define any additional metric-derived line or global distribution.
 
-The prior F01/F02/F04 plural-family reconciliation remains valid and separate. No action, carrier,
-family, or further work is adopted automatically.
+The prior reciprocal-closure and F01/F02/F04 plural-family results remain valid and separate. No
+action, carrier, family, or further work is adopted automatically.
 
 ## PRIOR TOP — F02 CURRENT POINTER (2026-08-01)
 

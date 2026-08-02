@@ -3,36 +3,36 @@
 **⚠ BRANCH: `grok` (2026-08-02)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — INTRINSIC CONTACT DESCENT VERIFIED ON EXPLICIT WITNESS; INDEPENDENT SCREEN RESPONSE OPEN:**
-Read `udt_twisted_s3_intrinsic_contact_descent_audit_2026-08-02/AUDIT_REPORT.md`, then its exact
-derivation, descent atlas, O13 subclassification, cold-review return, lay report, four gates, and
-next step. Consult the all-gate reciprocal-reduction witness only when its parent proof is
+**➤ CURRENT SCIENTIFIC FRONTIER — INTRINSIC RECIPROCAL PROJECTOR AND INDEPENDENT ANGULAR RESPONSE COEXIST; SELECTION OPEN:**
+Read `udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/AUDIT_REPORT.md`, then its lay
+report, exact derivation, result atlas, scope clarification, cold-review and post-repair records,
+four gates, and next step. Consult the prior intrinsic-contact witness only when its parent proof is
 load-bearing.
 
-Reconstructing the metric-derived clock/ruler and screen projectors before taking Cartan slots makes
-`Q_T`, `Q_S`, and `Q=Q_S-Q_T` genuine metric scalars on the three frozen off-shell witnesses. All
-occupy only `Q>0`. On frozen `a=R=1`, `Phi_contact=(1/4)log(Q_S/Q_T)=phi` is an absolute branch
-scalar; a general unfrozen normalization adds `(1/2)log(R/a)` and prevents universal promotion.
+The complete positive angular screen has exact tangent rank three: area plus two shears. Sixteen of
+the 17 nondegenerate registered metrics have a unique timelike Killing line; 15 also have nonzero
+twist and an intrinsic reciprocal pair/screen projector. Independent angular area makes the
+depth/area two-form nonzero without disabling either shear. Exactly C04, C08-C10, C16, and C17 have
+both the intrinsic projector and nonzero decomposable form. C08-C10 cover all three registered
+`lambda` values.
 
-The exact limitation matters: `dsigma=2 lambda dphi`, hence
-`dphi wedge dsigma=dphi wedge dz=0`. The projector closes the former descent/authority obstruction
-on this witness, but its one-depth isotropic screen has no independent depth–angular alternating
-response. Signed contact components, screen axes, first-Cartan/connection slots, path holonomy,
-global sections, generic screens, dynamics, and selection remain non-scalar, reference-dependent,
-conditional, or open as recorded.
+The result is bounded coexistence, not selection. The configuration census is ten zero, seven
+nonzero, and one degenerate; C14 loses unique ownership and C15 loses twist. The local-open theorem
+is relative only to the stationary block-screen subspace retaining `K=partial_t`. One analytic
+profile per mode does not exhaust smooth `GL(2,R)` screens, and no equation or physical branch is
+selected.
 
-Evidence: preregistration `1cf5c9d7`, 30-source freeze `8dcdf278`, evidence commit `5d9fd62b`;
-source manifest `b0ea71998dc5e0cb1c2e1aebe4f256c541863e062ceaf30625e304e80765ad4d`; package manifest
-`4d8cbd2c794974ac231a1ea4400d6d14d6f7a995bdfc1eda9efa61de08090458`; 22 parent objects, two O13
-subclassifications, three exact lambda certificates, 24/24 catches, 15 fresh independent coordinate
-checks, and final cold verdict `VERIFIED`. Frozen/navigation/premise gates and tests
-`70 passed, 1 xfailed` all pass.
+Evidence: preregistration `bb611bdd`; source freeze `4dd35a5e`; evidence commit `614c6b22`; source
+manifest `4117d443c5deb4742d6b11dceabc21460f5afda593c201ff84da9e2eda8eedad`; package manifest
+`7a277968b25044b26a1ec66fb8eeb0dcdbb1aa87fac8ca827201f7a8a293a920`; 34 exact curvature points;
+fresh independent all-point CPU replay; post-repair grade `PASS`; 30/30 guards typed as 19 exact or
+algebraic, two evidence-backed semantic, and nine semantic scope. Frozen/navigation/premise gates
+and tests `70 passed, 1 xfailed` all pass.
 
-Proposed next, not launched: independently vary screen area and then both shears within the same
-complete stationary `S3` arena; classify projector survival and every rank-zero/rank-one,
-symmetry-enhanced, twist-free, null, degenerate, and projector-failing stratum without targeting a
-desired interaction. No action, source, carrier, density/bootstrap return, `X_max`, GPU/time-live
-work, or follow-on derivation is authorized.
+Proposed next, not launched: decompose the intrinsic two-form and Hodge dual through the derived
+pair/screen projectors, map the resulting kernel/dual line and complete-cell continuation, and test
+whether it is new metric information. No carrier, section, action, source, density/bootstrap return,
+`X_max`, GPU/time-live work, or follow-on derivation is authorized.
 
 **➤ PARENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED:**
 `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/` remains the authority for the four
