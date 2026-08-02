@@ -1,0 +1,15 @@
+{
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "navigation": {
+    "current_paths": 1114,
+    "frontier_rows": 306,
+    "frontier_targets": 101,
+    "package_links": 0,
+    "raw_external_review_ephemeral_links_classified": 22
+  },
+  "premise_verifier": "18 premise guards; 9 startup controls; 754 candidate dispositions",
+  "status": "PASS",
+  "tests": "70 passed, 1 xfailed"
+}

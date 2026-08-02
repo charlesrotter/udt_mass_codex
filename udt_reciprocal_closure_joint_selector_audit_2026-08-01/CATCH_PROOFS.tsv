@@ -1,0 +1,11 @@
+id	mutation	expected_failure	exercised_by	result
+M01	remove one-half normalization from projector path norm	L2 identity mismatch	independent_verify.py	PASS_REJECTED
+M02	replace derivative commutator by anticommutator	loop-area identity mismatch	independent_verify.py	PASS_REJECTED
+M03	claim rank-one loop area is nonzero	rank-one exact controls disagree	independent_verify.py	PASS_REJECTED
+M04	claim rank-one path cost is zero	17 positive path controls disagree	independent_verify.py	PASS_REJECTED
+M05	call tr(S2) rank-one blind	exact rank-one value is positive	independent_verify.py	PASS_REJECTED
+M06	claim finite size uniquely fixes c4/c2	two positive ratios give different stationary radii	independent_verify.py	PASS_REJECTED
+M07	promote S2 carrier to derived	current premise G09 remains POSIT	independent_verify.py	PASS_REJECTED
+M08	promote complete action to closed	current premise G16 remains OPEN	independent_verify.py	PASS_REJECTED
+M09	silently activate strong local CSN	current premise G04 remains inactive	independent_verify.py	PASS_REJECTED
+M10	use historical loop proposal as affirmative authority	S05-S06 explicitly forbid affirmative use	independent_verify.py	PASS_REJECTED

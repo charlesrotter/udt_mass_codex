@@ -1,0 +1,11 @@
+id	candidate_object	outcome	exact_reason	remaining_open
+C01	founded scalar reciprocal Maurer-Cartan current	LOOP_FLAT_DERIVED	dJ+J_wedge_J=0 for smooth one-generator depth	singular or enlarged structures
+C02	reducible reciprocal-depth plus full-frame path groupoid	PATH_COMPOSITION_ONLY_CONDITIONAL_EXACT	path labels compose but endpoint descent and response are absent	physical arrows reduction and return law
+C03	nonnull-dphi real two-form 3+3 reduction	LOCAL_RECIPROCAL_REDUCTION_NOT_CARRIER	intrinsic on nonzero nonnull dphi strata but degenerates at null or zero and selects no section	global branch ownership and section
+C04	projective null-direction S2 fiber	FIBER_NOT_SECTION	spatial rotations have no common unit fixed direction	observer reduction section and transport
+C05	full Levi-Civita curvature and holonomy	NOT_MATTER_SPECIFIC	curved carrier-free controls and registered full holonomy witnesses exist	role in a future reduced branch
+C06	full-coframe reciprocal lift and holonomy	OPEN_NONUNIQUE	active extension selector rank zero and full holonomy does not preserve tested lifts	branchwise reduced holonomy or spectral selection
+C07	conditional reciprocal-toric quotient	EXACT_CONDITIONAL_GLOBAL_TOPOLOGY	unit Hopf class follows only after supplied periods action caps quotient orientation	physical global selection response and dynamics
+C08	supplied unit-direction or projective-axis section	CONDITIONAL_PROJECTOR_RESPONSE_THEOREM	projector path norm gives L2 and derivative commutator norm gives area L4	native selection coefficient boundary and time law
+C09	full screen/shear bundle without reduction	LARGER_INVARIANT_FAMILY	registered physical screen and mixing directions survive active selectors	complete branch equations and reduction
+C10	no carrier or no nontrivial closure	CURRENT_FOUNDATION_ALLOWED	no active premise supplies a physical reduction or off-shell response	future metric-native branch law

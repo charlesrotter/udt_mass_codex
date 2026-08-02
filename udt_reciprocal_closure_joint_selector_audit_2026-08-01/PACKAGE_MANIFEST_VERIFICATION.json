@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "all_sha256_match": true,
+    "manifest_complete_exact_file_set": true,
+    "manifest_rows_unique": true
+  },
+  "files_manifested": 34,
+  "manifest_sha256": "f423c7140fee5348547b3ebae5661f2b7ce33043733bdae43189081375bf5a1a",
+  "status": "PASS"
+}

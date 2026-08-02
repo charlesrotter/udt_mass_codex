@@ -1,0 +1,17 @@
+id	object	status	exact_scope	forbidden_overclaim
+R01	scalar reciprocal loop curvature	DERIVED_ZERO	smooth founded one-generator reciprocal character	no singular or enlarged closure possible
+R02	ordinary Levi-Civita holonomy as matter	REFUTED_AS_SPECIFIC_SELECTOR	carrier-free curved control plus current full-holonomy witnesses	curvature irrelevant to matter
+R03	current metric selection of rank-one reciprocal projector	OPEN_NOT_SELECTED	complete active coframe and registered intrinsic-object census	no branch can ever derive one
+R04	unoriented projector target	DERIVED_CONDITIONAL_RP2	given orthogonal rank-one projector P=nnT	current S2 carrier derived
+R05	projector path response	DERIVED_CONDITIONAL_L2	given metric-compatible derivative of supplied P	physical action requires it
+R06	projector relative loop response	DERIVED_CONDITIONAL_AREA_L4	given supplied P; commutator term separated from ambient curvature	total induced curvature or subtraction selected
+R07	area L4 quartic uniqueness	UNIQUE_CONDITIONAL	local parity-even rotationally invariant first-derivative quartic class plus rank-one blindness	unconditional action uniqueness
+R08	rank-one blindness	FREE_CANDIDATE_NOT_DERIVED	same-symmetry tr(S2) countermodel survives	Reciprocity implies it
+R09	both path and loop responses	FREE_CANDIDATE_NOT_DERIVED	historical loop-only premise yields L4 only	L2+L4 follows from loop closure alone
+R10	L2+L4 functional form	CANONICAL_CONDITIONAL_FORM	supplied rank-one P plus both-response positive derivative-minimal premises	complete native action
+R11	relative coefficient c4/c2	OPEN_CONTINUOUS	any positive ratio admits scale balance	finite size selects it without independent scale law
+R12	projector Hopf sector	CONDITIONAL_AVAILABLE	global RP2 map on simply connected compactified domain admits S2 lift	physical boundary topology or carrier emergence
+R13	branchwise spectral or reduced-holonomy projector	COHERENT_CANDIDATE	complete metric branch could select P from an invariant simple line or reduction	registered complete witness exists
+R14	matter as nontrivial reciprocal closure	OPEN_COHERENT_ARCHITECTURE	requires selected P global descent response boundary persistence and source	matter emergence derived
+R15	complete action source boundary mass	OPEN_UNCHANGED	current premise G16	projector identity closes physics
+R16	overall	VERIFIED_WITH_CAVEATS_EXTERNAL_REVIEWED	primary exact and non-importing independent algebra; fresh external review; bounded class	settled native selector theorem

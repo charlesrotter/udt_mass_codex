@@ -1,0 +1,16 @@
+id	fired	observed_control	ruling
+F01	YES	founded scalar Maurer-Cartan curvature vanishes identically	REFUTED
+F02	YES	carrier-free curved product has nonzero curvature and registered controls have full holonomy	REFUTED_AS_SPECIFIC_SELECTOR
+F03	YES	rotation isotropy has zero common fixed-vector nullity and countersections survive	OPEN_NOT_SELECTED
+F04	YES	fiber supplies no section domain boundary or response	TOPOLOGY_INSUFFICIENT
+F05	YES	active complete-coframe selector rank remains zero	OPEN_NONUNIQUE
+F06	YES	tr(S2) has same declared active symmetries and positive rank-one cost	INDEPENDENT_PREMISE_REQUIRED
+F07	NO	inside the rank-one-blind first-derivative quartic class only the area combination survives	UNIQUE_CONDITIONAL
+F08	NO	exact two-invariant solve forces beta=-alpha	UNIQUE_CONDITIONAL
+F09	YES	second-derivative and higher first-derivative counterfamilies remain	UNIQUE_CONDITIONAL_ONLY
+F10	YES	loop-only response yields L4 while L2 requires a separate path-response premise	CONDITIONAL_FORM_ONLY
+F11	YES	continuous positive coefficient ratio preserves all active rules	OPEN_COEFFICIENT
+F12	YES	Rstar rescales continuously with coefficient ratio	CIRCULAR_SELECTOR_REJECTED
+F13	YES	reduction variation boundary source and time law remain absent	INCOMPLETE
+F14	YES	plural branch ecology retains physically unnamed families	NO_FAMILY_ASSIGNMENT
+F15	YES	reciprocal-loop and rank-one-blind premises remain FREE candidates	COHERENT_CANDIDATE_NOT_ADOPTED

@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "both_response_requirement_free": true,
+    "candidate_census_10_unique": true,
+    "catches_10_exercised": true,
+    "coefficient_open": true,
+    "complete_physics_open": true,
+    "external_claim_rulings_10": true,
+    "external_maximum_remains_conditional": true,
+    "external_review_sha256_exact": true,
+    "external_single_repair_applied": true,
+    "external_verdict_exact": true,
+    "falsifier_split_13_2": true,
+    "falsifiers_15_unique": true,
+    "independent_replay": true,
+    "null_outcome_retained": true,
+    "overall_external_reviewed_bounded": true,
+    "preregistration_replay": true,
+    "primary_exact_replay": true,
+    "projector_selection_open": true,
+    "rank_one_blindness_free": true,
+    "report_external_review_complete": true,
+    "report_keeps_conditional_scope": true,
+    "report_no_stale_external_review_pending": true,
+    "report_pinned_replay_wording_repaired": true,
+    "report_rejects_loop_only_L2_promotion": true,
+    "source_integrity_24": true,
+    "status_ledger_16_unique": true
+  },
+  "checks_passed": 26,
+  "checks_total": 26,
+  "status": "PASS"
+}

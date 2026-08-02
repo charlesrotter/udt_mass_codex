@@ -1,0 +1,38 @@
+{
+  "catch_proofs": {
+    "anticommutator_as_loop_curvature": true,
+    "carrier_called_derived": true,
+    "complete_action_called_closed": true,
+    "finite_size_called_unique_coefficient": true,
+    "historical_candidate_called_authority": true,
+    "missing_half_factor_L2": true,
+    "quartic_nonarea_called_rank_one_blind": true,
+    "rank_one_area_promoted_nonzero": true,
+    "rank_one_path_cost_promoted_zero": true,
+    "strong_CSN_silently_activated": true
+  },
+  "catch_proofs_passed": 10,
+  "catch_proofs_total": 10,
+  "checks": {
+    "10_mutation_catches_exercised": true,
+    "17_rank_one_area_zero": true,
+    "17_rank_one_path_cost_positive": true,
+    "24_source_hashes_replayed": true,
+    "25_exact_L2_reconstructions": true,
+    "25_exact_L4_reconstructions": true,
+    "axis_lift_reversal_projector_identity": true,
+    "candidate_joint_explicitly_free": true,
+    "coefficient_ratio_not_fixed_by_stationarity": true,
+    "complete_action_remains_open": true,
+    "current_carrier_remains_posit": true,
+    "nonarea_quartic_countermodel": true,
+    "quartic_rank_one_blind_subspace_dimension_one": true,
+    "rank_two_witness_area_two": true,
+    "scalar_one_generator_commutator_zero": true,
+    "strong_CSN_remains_inactive": true
+  },
+  "checks_passed": 16,
+  "checks_total": 16,
+  "implementation": "stdlib Fraction; no import of production derivation",
+  "status": "PASS"
+}

@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "area_unique_in_two_invariant_class": true,
+    "carrier_free_metric_curvature_nonzero": true,
+    "coefficient_ratio_changes_radius": true,
+    "commutator_lives_on_transverse_plane": true,
+    "commutator_norm_is_area_norm": true,
+    "complement_curvature_is_commutator": true,
+    "dilation_stationarity": true,
+    "dilation_stationary_point_positive": true,
+    "gram_identity_for_area": true,
+    "lift_reversal_invariant": true,
+    "nonarea_countermodel_costs_rank_one": true,
+    "one_parameter_curve_area_zero": true,
+    "one_parameter_curve_second_derivative_cost_nonzero": true,
+    "projector_idempotent": true,
+    "projector_path_norm_is_L2": true,
+    "projector_rank_one": true,
+    "rank_one_blind_condition": true,
+    "rank_one_loop_curvature_zero": true,
+    "rank_one_path_strain_nonzero_formula": true,
+    "rank_two_area_witness": true,
+    "rank_two_commutator_witness": true,
+    "rotation_fixed_vector_nullity_zero": true,
+    "scalar_reciprocal_curvature_zero_for_smooth_phi": true,
+    "sympy_1_14": true
+  },
+  "checks_passed": 24,
+  "checks_total": 24,
+  "derived_identities": {
+    "L2": "(1/2) sum_i tr(d_i P^T d_i P) = tr(S)",
+    "L4": "(1/2) sum_ij ||[d_i P,d_j P]||_F^2 = (tr S)^2-tr(S^2) = sum_ij F_ij^2",
+    "rank_one": "rank(dP)<=1 implies L4=0 while L2 may be nonzero",
+    "scaling_3D": "E2(R)=R E2(1), E4(R)=R^-1 E4(1)"
+  },
+  "status": "PASS",
+  "sympy_version": "1.14.0"
+}

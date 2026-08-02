@@ -1,0 +1,27 @@
+{
+  "accepted_review_sha256": "a6d8801337c9090f2fc139c6ab80ff0de6c1c1de18ead5dd369f815ca9843345",
+  "claim_rulings_sustained": 10,
+  "external_environment": {
+    "primary_sympy_replay": "FAIL_CLOSED_VERSION_MISMATCH",
+    "sympy_available": "1.13.1",
+    "sympy_required": "1.14.0"
+  },
+  "independent_scratch_witnesses": {
+    "general": {
+      "L2": 209,
+      "L4": 28,
+      "area": 28,
+      "trS": 209
+    },
+    "rank_one": {
+      "L2": 273,
+      "L4": 0,
+      "trS": 273
+    }
+  },
+  "mandatory_repairs": 1,
+  "mandatory_repairs_applied": 1,
+  "maximum_conclusion": "OPEN_COHERENT_ARCHITECTURE_WITH_EXACT_CONDITIONAL_PROJECTOR_RESPONSE_THEOREM",
+  "review_mode": "READ_ONLY_EXTERNAL_CODEX_GPT_5_4_MINIMAL_HASH_FROZEN_PAYLOAD",
+  "status": "PASS-WITH-REQUIRED-REPAIRS_REPAIRED"
+}
