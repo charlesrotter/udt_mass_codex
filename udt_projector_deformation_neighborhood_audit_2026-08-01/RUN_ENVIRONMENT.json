@@ -1,0 +1,50 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_projector_deformation_neighborhood_audit_2026-08-01/build_source_manifest.py"
+      ],
+      "exit_code": 0,
+      "label": "SOURCE_FREEZE",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "7be7009f97e71132aa8b09dceab6bc10d4abf088711fd16e5e72e3ad385ce76a"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_projector_deformation_neighborhood_audit_2026-08-01/derive_deformation_neighborhood.py"
+      ],
+      "exit_code": 0,
+      "label": "DERIVATION",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "87bcd9533544830941b3bf866c7b994ba9f53b53b19f105728aaf486485ed8fa"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_projector_deformation_neighborhood_audit_2026-08-01/verify_deformation_neighborhood_independent.py"
+      ],
+      "exit_code": 0,
+      "label": "INDEPENDENT",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "2790a4c6a3c889426ce47da3edcbb94119fc094ae6a91f9d3f2b0bfbc04b989c"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_projector_deformation_neighborhood_audit_2026-08-01/verify_audit.py"
+      ],
+      "exit_code": 0,
+      "label": "VERIFICATION",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "5d176a21f7a8c9679471ca7eb2dc3ae4a2457baadd0f79f0344eb0427e6090d4"
+    }
+  ],
+  "compute": "CPU_ONLY",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "python_executable": "/usr/bin/python3",
+  "schema": "udt.projector_deformation_neighborhood.environment.v1",
+  "sympy": "1.13.1"
+}

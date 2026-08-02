@@ -1,0 +1,16 @@
+claim_id	claim	status	scope_or_limit
+S01	six_frozen_centers_reconstructed	DERIVED_CONDITIONAL_ON_REGISTERED_CONFIGURATION	C01-C06 exact parent determinant and response values
+S02	functional_clock_certificate_neighborhoods	DERIVED_CONDITIONAL_ON_STATIONARY_C3_FAMILY	sufficient three-invariant certificate; no explicit radius
+S03	global_twist_selected_ruler	DERIVED_CONDITIONAL_ON_REGISTERED_COMPLETE_COFRAME	smooth phi;P_in_GL2;a*kappa_nonzero
+S04	rank1_projector_and_rank2_screen	DERIVED_CONDITIONAL_ON_CLOCK_RULER_GATES	unoriented lines; not carrier identity
+S05	global_configuration_neighborhoods	DERIVED_CONDITIONAL_ON_RxS3_FAMILY	compact C0 margins; Lorentzian completeness not claimed
+S06	nonzero_relative_curvature_neighborhoods	DERIVED_CONDITIONAL_ON_STATIONARY_C1_FAMILY	nonzero at P00 implies nonzero somewhere nearby
+S07	continuous_equal_screen_response	DERIVED_EXACT	W23=1+9lambda2/2500 nonzero for every real lambda at P00
+S08	one_shear_response_walls	DERIVED_EXACT	one isolated P00 zero in each registered one-shear plane
+S09	two_shear_response_wall	DERIVED_EXACT	one affine P00 zero line; response elsewhere open
+S10	universal_projector_principle	OPEN	other topologies;nonstationary;nonblock metrics not classified
+S11	S2_carrier	POSIT_NOT_USED	no identification with projector or screen
+S12	L2_plus_L4_action	CONDITIONAL_NOT_USED	response available;integration and coefficient unselected
+S13	bootstrap_on_shell_intersection	OPEN_NOT_RUN	working admissibility hypothesis remains separate
+S14	stability_mass_matter	OPEN	no action;dynamics;source;boundary;mass
+S15	fresh_external_semantic_review	OPEN_NOT_AUTHORIZED	independent local rational implementation complete

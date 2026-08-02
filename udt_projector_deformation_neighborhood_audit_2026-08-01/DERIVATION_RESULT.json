@@ -1,0 +1,23 @@
+{
+  "action_used": false,
+  "all_centers_clock_certificate_nonzero": true,
+  "all_centers_relative_curvature_nonzero": true,
+  "bootstrap_used": false,
+  "carrier_used": false,
+  "center_count": 6,
+  "equal_screen_W23": "(9*lambda**2 + 2500)/2500",
+  "equal_screen_global_minimum": "1",
+  "external_semantic_review": "OPEN_NOT_AUTHORIZED",
+  "functional_open_neighborhood_count": 6,
+  "general_first_jet_complete_zero_condition": "W12=W13=W23=0",
+  "maximum_conclusion": "EACH_C01_C06_CENTER_HAS_AN_OPEN_STATIONARY_COMPLETE_OFFSHELL_CONFIGURATION_NEIGHBORHOOD_WITH_INTRINSIC_PROJECTOR_GATES_AND_NONZERO_RELATIVE_CURVATURE_SOMEWHERE",
+  "on_shell_claimed": false,
+  "schema": "udt.projector_deformation_neighborhood.derivation.v1",
+  "status": "PASS",
+  "symmetric_two_shear_P00_zero_locus": {
+    "lambda": "5*nu/4+25/2",
+    "mu": "-3*nu/4-125/6",
+    "nu": "free_real"
+  },
+  "sympy_version": "1.13.1"
+}

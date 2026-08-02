@@ -1,0 +1,18 @@
+{
+  "center_count": 6,
+  "check_count": 49,
+  "exact_center_responses": [
+    "C01:19/1250,53/1250,634/625",
+    "C02:11/625,103/2500,2509/2500",
+    "C03:1/50,1/25,1",
+    "C04:53/2500,197/5000,10009/10000",
+    "C05:14/625,97/2500,2509/2500",
+    "C06:31/1250,47/1250,634/625"
+  ],
+  "gauge_rotation_samples": 2,
+  "general_probe_count": 4,
+  "implementation": "stdlib_Fraction_full_exterior_to_Cartan_no_SymPy_no_production_import",
+  "schema": "udt.projector_deformation_neighborhood.independent.v1",
+  "status": "PASS",
+  "zero_line_samples": 5
+}

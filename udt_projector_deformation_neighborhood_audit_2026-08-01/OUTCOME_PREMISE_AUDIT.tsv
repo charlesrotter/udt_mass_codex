@@ -1,0 +1,19 @@
+id	object_or_premise	status_after_audit	exact_scope	forbidden_promotion
+O01	C01_C06_centers	SOURCE_CONDITIONAL_OFFSHELL	frozen stationary complete configurations	selected solutions
+O02	profile_deformations	FREE_AND_EXPLORED_FUNCTIONAL_NEIGHBORHOOD	stationary smooth C3 around each center	field equation
+O03	full_screen_deformations	FREE_AND_EXPLORED_FUNCTIONAL_NEIGHBORHOOD	area;two metric shears;O2 coframe gauge	selected angular metric
+O04	intrinsic_clock_line	DERIVED_CONDITIONAL_ON_NONZERO_CERTIFICATE	open C3 neighborhood in stationary family	universal observer
+O05	twist_ruler_line	DERIVED_CONDITIONAL_ON_a_kappa_detP	global in registered S3 coframe	universal carrier direction
+O06	ruler_projector	DERIVED_CONDITIONAL_ON_O04_O05	rank1 in positive u_perp	S2 carrier
+O07	relative_projector_curvature	DERIVED_NONZERO_SOMEWHERE_ON_OPEN_NEIGHBORHOODS	local exact witness plus continuity	global charge or energy
+O08	equal_screen_lambda_axis	DERIVED_NONZERO_P00_RESPONSE_ALL_REAL_LAMBDA	configuration chart only	lambda selection
+O09	shear_zero_strata	DERIVED_LOCAL_RESPONSE_CERTIFICATE_WALLS	P00 in symmetric exponential screen charts	global zero response or instability
+O10	clock_certificate_wall	OPEN_PROPERTY_AFTER_CERTIFICATE_FAILURE	determinant zero only	no intrinsic clock
+O11	displayed_slice_wall	DERIVED_COORDINATE_SLICE_STRATUM	four_metric regular if detP nonzero	causal or physical boundary
+O12	copresence	WORKING_NOT_USED	interpretive frame only	operational access theorem
+O13	S2_carrier	POSIT_EXCLUDED	firewall	metric-derived carrier
+O14	L2_plus_L4	CONDITIONAL_EXCLUDED	antecedent response only	native action
+O15	bootstrap	WORKING_ON_SHELL_ADMISSIBILITY_NOT_USED	later intersection only	local selector or optimizer
+O16	action_source_boundary_density_mass_stability	OPEN	not loaded	complete matter physics
+O17	fresh_external_review	OPEN_NOT_AUTHORIZED	grade caveat	settled verdict
+

@@ -1,0 +1,7 @@
+{
+  "manifest_files": 46,
+  "manifest_sha256": "58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab",
+  "schema": "udt.projector_deformation_neighborhood.package.v1",
+  "scientific_grade": "VERIFIED_WITH_CAVEATS_PENDING_FRESH_EXTERNAL_SEMANTIC_REVIEW",
+  "status": "PASS"
+}

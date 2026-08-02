@@ -1,0 +1,11 @@
+{
+  "centers": 6,
+  "fresh_external_semantic_review": "OPEN_NOT_AUTHORIZED",
+  "functional_openness_gates": 5,
+  "independent_checks": 49,
+  "mutation_catches": 24,
+  "schema": "udt.projector_deformation_neighborhood.verification.v1",
+  "semantic_checks": "FAIL_CLOSED",
+  "status": "PASS",
+  "walls": 7
+}
