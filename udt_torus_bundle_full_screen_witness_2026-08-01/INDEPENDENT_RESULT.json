@@ -1,0 +1,18 @@
+{
+  "anchor_count": 16,
+  "basis_covariance_controls": 16,
+  "check_count": 302,
+  "complete_metric_witnesses": 8,
+  "distinct_metric_operator_pairs": 27,
+  "forced_varying_screen": [
+    "M_PARABOLIC",
+    "M_HYPERBOLIC"
+  ],
+  "global_coframes": 6,
+  "implementation": "stdlib_Fraction_no_production_import",
+  "local_transition_coframes": 2,
+  "metric_fiber_classes": 7,
+  "schema": "udt.torus_bundle_full_screen_witness.independent.v1",
+  "source_count": 22,
+  "status": "PASS"
+}

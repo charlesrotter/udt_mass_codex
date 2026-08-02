@@ -1,0 +1,27 @@
+{
+  "candidate_monodromies": 8,
+  "collapsed_pair": [
+    "M_IDENTITY",
+    "M_MINUS_IDENTITY"
+  ],
+  "complete_metric_witnesses": 8,
+  "constant_screen_subfamily_monodromies": 6,
+  "exact_checks": 116,
+  "forced_varying_screen_monodromies": [
+    "M_PARABOLIC",
+    "M_HYPERBOLIC"
+  ],
+  "global_integrable_projector_witnesses": 8,
+  "global_oriented_coframe_witnesses": 6,
+  "lattice_basis_covariance_controls": 16,
+  "local_transition_coframe_only_witnesses": 2,
+  "maximum_conclusion": "COMPLETE_OFFSHELL_FC07_METRIC_WITNESSES_EXIST_FOR_THE_EIGHT_FROZEN_CONTROLS_IN_THE_CHOSEN_CONSTANT_DEPTH_BLOCK_EXTENSION__SEVEN_FROZEN_ENDPOINT_CONGRUENCE_OPERATOR_CLASSES__NO_EXTENSION_OR_MONODROMY_SELECTION_DYNAMICS_STABILITY_BOOTSTRAP_RESPONSE_PROJECTOR_OR_MATTER_CLAIM",
+  "metric_congruence_fiber_classes": 7,
+  "metric_operator_collapsed_pairs": 1,
+  "metric_operator_distinct_pairs": 27,
+  "native_field_equations": 0,
+  "outcome": "FC07_COMPLETE_OFFSHELL_FULL_SCREEN_METRIC_WITNESS_FAMILY_EXISTS__SEVEN_FROZEN_REPRESENTATIVE_ENDPOINT_CONGRUENCE_FIBERS_FROM_EIGHT_MONODROMIES__NO_PHYSICAL_SELECTION",
+  "physical_completion_selectors": 0,
+  "schema": "udt.torus_bundle_full_screen_witness.result.v1",
+  "status": "PASS"
+}

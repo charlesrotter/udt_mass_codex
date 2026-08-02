@@ -1,0 +1,9 @@
+candidate_id	monodromy_id	basis_controls	transformation	covariance_identity	status
+W01	M_IDENTITY	B_EXCHANGE;B_SHEAR	Mprime=B^-1*M*B;hprime=B^T*h*B	C_Mprime(hprime)=B^T*C_M(h)*B	PASS_EXACT
+W02	M_MINUS_IDENTITY	B_EXCHANGE;B_SHEAR	Mprime=B^-1*M*B;hprime=B^T*h*B	C_Mprime(hprime)=B^T*C_M(h)*B	PASS_EXACT
+W03	M_ORDER4_ROTATION	B_EXCHANGE;B_SHEAR	Mprime=B^-1*M*B;hprime=B^T*h*B	C_Mprime(hprime)=B^T*C_M(h)*B	PASS_EXACT
+W04	M_ORDER6_ELLIPTIC	B_EXCHANGE;B_SHEAR	Mprime=B^-1*M*B;hprime=B^T*h*B	C_Mprime(hprime)=B^T*C_M(h)*B	PASS_EXACT
+W05	M_PARABOLIC	B_EXCHANGE;B_SHEAR	Mprime=B^-1*M*B;hprime=B^T*h*B	C_Mprime(hprime)=B^T*C_M(h)*B	PASS_EXACT
+W06	M_HYPERBOLIC	B_EXCHANGE;B_SHEAR	Mprime=B^-1*M*B;hprime=B^T*h*B	C_Mprime(hprime)=B^T*C_M(h)*B	PASS_EXACT
+W07	M_EXCHANGE	B_EXCHANGE;B_SHEAR	Mprime=B^-1*M*B;hprime=B^T*h*B	C_Mprime(hprime)=B^T*C_M(h)*B	PASS_EXACT
+W08	M_ORIENTATION_REVERSING_GLIDE	B_EXCHANGE;B_SHEAR	Mprime=B^-1*M*B;hprime=B^T*h*B	C_Mprime(hprime)=B^T*C_M(h)*B	PASS_EXACT

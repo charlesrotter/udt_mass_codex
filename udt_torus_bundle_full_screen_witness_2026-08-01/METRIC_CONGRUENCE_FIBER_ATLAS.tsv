@@ -1,0 +1,9 @@
+candidate_id	monodromy_id	metric_congruence_operator_on_a_b_d	metric_fiber_class	class_members	rational_SPD_control_h0	rational_control_h1
+W01	M_IDENTITY	[[1,0,0],[0,1,0],[0,0,1]]	K01	M_IDENTITY;M_MINUS_IDENTITY	[[2,1/3],[1/3,5]]	[[2,1/3],[1/3,5]]
+W02	M_MINUS_IDENTITY	[[1,0,0],[0,1,0],[0,0,1]]	K01	M_IDENTITY;M_MINUS_IDENTITY	[[2,1/3],[1/3,5]]	[[2,1/3],[1/3,5]]
+W03	M_ORDER4_ROTATION	[[0,0,1],[0,-1,0],[1,0,0]]	K02	M_ORDER4_ROTATION	[[2,1/3],[1/3,5]]	[[5,-1/3],[-1/3,2]]
+W04	M_ORDER6_ELLIPTIC	[[0,0,1],[0,-1,1],[1,-2,1]]	K03	M_ORDER6_ELLIPTIC	[[2,1/3],[1/3,5]]	[[5,14/3],[14/3,19/3]]
+W05	M_PARABOLIC	[[1,0,0],[1,1,0],[1,2,1]]	K04	M_PARABOLIC	[[2,1/3],[1/3,5]]	[[2,7/3],[7/3,23/3]]
+W06	M_HYPERBOLIC	[[4,4,1],[2,3,1],[1,2,1]]	K05	M_HYPERBOLIC	[[2,1/3],[1/3,5]]	[[43/3,10],[10,23/3]]
+W07	M_EXCHANGE	[[0,0,1],[0,1,0],[1,0,0]]	K06	M_EXCHANGE	[[2,1/3],[1/3,5]]	[[5,1/3],[1/3,2]]
+W08	M_ORIENTATION_REVERSING_GLIDE	[[1,0,0],[1,-1,0],[1,-2,1]]	K07	M_ORIENTATION_REVERSING_GLIDE	[[2,1/3],[1/3,5]]	[[2,5/3],[5/3,19/3]]

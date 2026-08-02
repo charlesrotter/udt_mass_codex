@@ -1,0 +1,12 @@
+{
+  "complete_metric_witnesses": 8,
+  "forced_varying_screen_classes": 2,
+  "global_coframes": 6,
+  "local_transition_coframes": 2,
+  "metric_fiber_classes": 7,
+  "mutation_catches": 33,
+  "native_field_equations": 0,
+  "physical_selectors": 0,
+  "schema": "udt.torus_bundle_full_screen_witness.verification.v1",
+  "status": "PASS"
+}

@@ -1,0 +1,4 @@
+python3 udt_torus_bundle_full_screen_witness_2026-08-01/run_and_capture.py
+python3 udt_torus_bundle_full_screen_witness_2026-08-01/verify_repository_gates.py
+python3 udt_torus_bundle_full_screen_witness_2026-08-01/build_manifest.py
+python3 udt_torus_bundle_full_screen_witness_2026-08-01/verify_package.py

@@ -1,0 +1,10 @@
+{
+  "agent": "/root/fc07_cold_adversary",
+  "date": "2026-08-01",
+  "independent_algebra": "PASS",
+  "mandatory_repairs": 6,
+  "mandatory_repairs_closed": 6,
+  "repository_mutations_by_reviewer": 0,
+  "schema": "udt.torus_bundle_full_screen_witness.fresh_adversarial.v1",
+  "status": "VERIFIED-WITH-CAVEATS"
+}

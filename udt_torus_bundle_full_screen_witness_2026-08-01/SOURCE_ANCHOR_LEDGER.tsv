@@ -1,0 +1,17 @@
+anchor_id	path	exact_anchor	role
+A01	CURRENT_SCIENTIFIC_PREMISES.tsv	DERIVED_PHI_MAPS_TO_DIAG_EXP_MINUS_PHI_EXP_PLUS_PHI	founded_pair_action
+A02	CURRENT_SCIENTIFIC_PREMISES.tsv	OPEN_SELECTION_WITH_EXACT_EXTENSION_CLASS	physical_extension_open
+A03	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	DIRECT_SUM_SPECTATOR_EXTENSION	chosen_block_witness
+A04	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	PHYSICAL_METRIC_READING	block_not_selected
+A05	udt_global_metric_assembly_atlas_2026-07-22/COMPLETION_CLASS_REGISTRY.tsv	NO_CAP_GL2Z_MAPPING_TORUS	FC07_registered_class
+A06	udt_global_metric_assembly_atlas_2026-07-22/COMPLETION_CLASS_REGISTRY.tsv	ORIENTATION_REVERSING_BUNDLE_GLUE	orientation_overlap
+A07	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	Eight explicit `GL(2,Z)` controls cover identity, finite elliptic, parabolic, hyperbolic, and	monodromy_scope
+A08	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	The parametric family is not reduced to those eight	witnesses_not_exhaustive
+A09	udt_finite_cell_completion_atlas_2026-07-21/COMPATIBILITY_RELATIONS.tsv	all_transformed_jets_through_k_match	jet_descent
+A10	udt_general_screen_complete_cell_atlas_2026-07-28/EXACT_DERIVATION.md	(theta2,theta3)^T = P(x) (sigma1,sigma2)^T,   P in GL(2,R).	full_screen_definition
+A11	udt_general_screen_complete_cell_atlas_2026-07-28/EXACT_DERIVATION.md	h = P^T P	metric_screen_readout
+A12	udt_general_screen_complete_cell_atlas_2026-07-28/EXACT_DERIVATION.md	The fourth slot is local	coframe_gauge_not_metric
+A13	udt_general_screen_complete_cell_atlas_2026-07-28/EXACT_DERIVATION.md	Lens quotients and other transition completions remain conditional on explicit	parent_transition_gap
+A14	udt_general_screen_complete_cell_atlas_2026-07-28/COMPLETION_DESCENT_ATLAS.tsv	CONDITIONAL_TRANSITION_DESCENT_ONLY	FC07_conditional_descent
+A15	udt_completion_parameterized_local_fiber_audit_2026-08-01/AUDIT_REPORT.md	The monodromy and seam results are exact parametric schemas registered by the completion atlases.	parent_schema_scope
+A16	udt_completion_parameterized_local_fiber_audit_2026-08-01/AUDIT_REPORT.md	Curvature did **not** supply an analogous choice-free return.	parent_curvature_ruling
