@@ -1,0 +1,18 @@
+id	object	status_at_base	pin_class	coverage	excluded_or_open	authority
+P01	founded_phi_identity_and_pair_action	DERIVED	pinned-by-THEORY	theta0=c_E exp(-phi)dt;theta1=L exp(phi)ds	profile;dynamics;complete_4D_selection	CURRENT_SCIENTIFIC_PREMISES.tsv G01-G02
+P02	observer_frame_Reciprocity	DERIVED_SCOPED_NATURALITY	pinned-by-THEORY	future physical laws equivariant;zero sets orbit-saturated given zero-preserving codomain	complete action on boundary/completion;law selection	udt_whole_configuration_reciprocity_audit_2026-08-01/EXACT_DERIVATION.md
+P03	internal_dual_Reciprocity	DERIVED_PAIR_REPRESENTATION	pinned-by-THEORY	D(phi)^T K D(phi)=K on founded pair	full response covector;invariant level	udt_whole_configuration_reciprocity_audit_2026-08-01/EXACT_DERIVATION.md
+P04	Xmax_reciprocity	WORKING_CONDITIONAL_SCHEMA	EXCLUDED_OPEN	none	physical join;value;boundary realization	CURRENT_SCIENTIFIC_PREMISES.tsv G14
+P05	finite_cell_finiteness	WORKING_SPLIT	pinned-by-THEORY_SCOPED	compact bounded-completion question	unique topology;join;scale	CURRENT_SCIENTIFIC_PREMISES.tsv G17
+P06	mirror_closure_and_complete_seal_lift	WORKING_CONDITIONAL_NOT_DERIVED	pinned-by-HABIT_CONDITIONAL_CONTROL	parity compatibility test only	closure selection;screen/time-on lift	CURRENT_SCIENTIFIC_PREMISES.tsv G18
+P07	four_FC07_mapping_tori_with_b1_1	DERIVED_KINEMATIC_PLUS_CHOSEN_WITNESSES	free-and-explored	all four retained equally	physical completion selection	udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/CANDIDATE_REGISTRY.tsv
+P08	stationary_torus_invariant_lower_triangular_coframe	CHOSE_BOUNDED_GENERALIZATION	pinned-by-HABIT_BOUNDED_CONTROL	arbitrary smooth descending phi,P,u,b	upper-right;time-live;y-dependent;field promotion	udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/SCOPE_CORRECTION.md
+P09	global_mixing_descent	SUPPLIED_CONDITION	pinned-by-HABIT_BOUNDED_CONTROL	globally descending tested fields	J07/J11 cocycle construction	udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/SCOPE_CORRECTION.md
+P10	compact_spatial_Hodge_theorem	DERIVED_MATHEMATICS	pinned-by-THEORY_MATH	unique harmonic representative in each cohomology class	physical selection of class or scale	udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/EXACT_DERIVATION.md
+P11	primitive_base_period	CHOSE_INTEGRAL_COHOMOLOGY_GENERATOR	pinned-by-HABIT_TOPOLOGICAL_NORMALIZATION	period plus one after orientation	physical ruler length or inverse length	this preregistration
+P12	L_positive_ruler_scale	FREE	free-and-explored	all positive L	absolute scale closure	udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/PREMISE_LEDGER.tsv P05
+P13	phi_and_full_screen	FOUNDED_IDENTITY_OPEN_PROFILE_PLUS_CHOSEN_SCREEN	free-and-explored	arbitrary smooth finite phi and positive D with shape	field equation;physical branch	udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/EXACT_DERIVATION.md
+P14	c_E_and_G_obs	OBSERVED_ANCHORS_RETAINED	pinned-by-THEORY_CALIBRATION	no scale removal	placement sufficient to fix cell length	CURRENT_SCIENTIFIC_PREMISES.tsv G06
+P15	strong_local_CSN	CHALLENGED_INACTIVE	EXCLUDED_OPEN	none	counterfactual only if Charles reauthorizes	CURRENT_SCIENTIFIC_PREMISES.tsv G04
+P16	bootstrap_and_total_density	WORKING_ON_SHELL_ADMISSIBILITY_BUT_EXCLUDED_FROM_EQUATIONS	EXCLUDED_OPEN	type gate only	native return;fixed point;density window	CURRENT_SCIENTIFIC_PREMISES.tsv G12
+P17	action_carrier_source_mass	CONDITIONAL_POSIT_OR_OPEN	EXCLUDED_OPEN	none	complete physics	CURRENT_SCIENTIFIC_PREMISES.tsv G09-G11;G16

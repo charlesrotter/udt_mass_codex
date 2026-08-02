@@ -1,0 +1,11 @@
+id	claim_under_test	falsifier	maximum_if_survives
+F01	projective ownership is the strongest registered relation	one active premise supplies a nonconventional scalar equation that excludes an otherwise admitted smooth member	NOT_DERIVED_SCOPED if no such equation exists
+F02	constant proportionality is not generic	a nonconstant positive D satisfies alpha=k theta1 for constant k	DERIVED_IFF_D_CONSTANT within bounded family
+F03	primitive period is not physical ruler length	an active premise equates the integral H1 generator with dimensional proper length and survives L rescaling	TOPOLOGICAL_NORMALIZATION_ONLY
+F04	nonzero constant dphi-alpha solder is impossible on closed base	a single-valued phi has nonzero integral dphi around base	DERIVED_NO_GO_CLOSED_BASE
+F05	variable solder does not select phi	an active premise determines F rather than defining F=(dphi/alpha)	OPEN_COEFFICIENT_WITH_ZERO_MEAN
+F06	Reciprocity constrains but does not choose coefficient	naturality plus internal dual pairing removes all free L/D witnesses	EQUIVARIANT_FAMILY_NOT_SELECTED
+F07	conditional seal does not choose normalization	all allowed conditional seal realizations force one coefficient/level	CONDITIONAL_COMPATIBILITY_ONLY
+F08	global descent does not choose normalization	descent of full bounded coframe fails for all but one alpha/theta1 coefficient	DESCENT_PRESERVES_SCALAR_FAMILY
+F09	constant flux is a readout rather than return	its value is fixed independently of Hodge normalization and metric data	CONSTANT_TRANSPORT_READOUT_NOT_LEVEL_SELECTION
+F10	no density bracket is licensed	a native same-solution density-to-relation map exists in frozen sources	DENSITY_SCAN_PREMATURE

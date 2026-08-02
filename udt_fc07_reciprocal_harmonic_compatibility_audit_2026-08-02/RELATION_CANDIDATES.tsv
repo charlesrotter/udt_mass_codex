@@ -1,0 +1,17 @@
+id	relation_or_route	question	selection_test	must_retain
+R00	PROJECTIVE_EQUALITY	Does P_alpha=P_theta1 add any scalar constraint?	baseline identity;no scalar restriction	YES
+R01	PRIMITIVE_H1_NORMALIZATION	Does integral_base alpha=1 fix physical ruler length?	distinguish integral cohomology lattice from physical scale	YES
+R02	POINTWISE_EQUALITY	Can alpha=theta1 be derived?	derive necessary and sufficient conditions and dimensional typing	YES
+R03	CONSTANT_PROPORTIONALITY	Can alpha=k theta1 with one global k be derived?	derive iff condition on D and audit source of k	YES
+R04	RAW_RULER_HARMONICITY	Does a registered premise require delta theta1=0?	derive iff condition and premise source	YES
+R05	FIXED_HODGE_CAPACITY_OR_NORM	Is I or norm(alpha)^2 fixed by topology/Reciprocity?	test metric variation and primitive normalization	YES
+R06	FIXED_HARMONIC_FLUX_OR_WEDGE	Does seal/composition fix the constant harmonic flux value?	separate constant-in-s identity from fixed physical level	YES
+R07	CONSTANT_DPHI_SOLDER	Can dphi=k alpha with constant nonzero k close the relation?	test exactness and closed-loop period	YES
+R08	VARIABLE_DPHI_SOLDER	What does dphi=F alpha require?	derive exact zero-period constraint;test whether F is selected	YES
+R09	OBSERVER_NATURALITY	Does observer Reciprocity select the scalar coefficient?	test equivariance versus fixedness and scalar-family freedom	YES
+R10	INTERNAL_DUAL_PAIRING	Does D(phi)^T K D(phi)=K fix alpha/theta1 normalization?	test invariance under L and D screen variations	YES
+R11	FINITE_CELL_COMPOSITION	Do reversal/additive comparison or loop composition fix a period/level?	separate Delta phi;integral theta1;integral alpha	YES
+R12	CONDITIONAL_SEAL_PARITY	Does any currently allowed seal lift fix the coefficient?	test parity compatibility while retaining conditional provenance	YES
+R13	GLOBAL_COFRAME_DESCENT	Does mapping-torus or J07/J11 descent fix the coefficient?	test four monodromies;keep J07/J11 open	YES
+R14	OBSERVATIONAL_ANCHOR_SCALE	Can c_E and G_obs supply the missing inverse length without new data?	dimensional rank and free-L counterfamily	YES
+R15	NO_ADDITIONAL_RELATION	Do all registered routes leave the same local family uncut?	require explicit counterfamily satisfying every active tested premise	YES
