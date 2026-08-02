@@ -1,0 +1,20 @@
+candidate_id	family	center_or_chart	free_data	retained_data	question
+N01	FUNCTIONAL_NEIGHBORHOOD	C01_lambda_minus2	delta_phi_C3;delta_P_C3_full_GL2	a=1/64;stationary_RxS3	all_five_gates_persist_locally
+N02	FUNCTIONAL_NEIGHBORHOOD	C02_lambda_minus1	delta_phi_C3;delta_P_C3_full_GL2	a=1/64;stationary_RxS3	all_five_gates_persist_locally
+N03	FUNCTIONAL_NEIGHBORHOOD	C03_lambda_0	delta_phi_C3;delta_P_C3_full_GL2	a=1/64;stationary_RxS3	all_five_gates_persist_locally
+N04	FUNCTIONAL_NEIGHBORHOOD	C04_lambda_half	delta_phi_C3;delta_P_C3_full_GL2	a=1/64;stationary_RxS3	all_five_gates_persist_locally
+N05	FUNCTIONAL_NEIGHBORHOOD	C05_lambda_1	delta_phi_C3;delta_P_C3_full_GL2	a=1/64;stationary_RxS3	all_five_gates_persist_locally
+N06	FUNCTIONAL_NEIGHBORHOOD	C06_lambda_2	delta_phi_C3;delta_P_C3_full_GL2	a=1/64;stationary_RxS3	all_five_gates_persist_locally
+E01	EXACT_SUBFAMILY	continuous_equal_screen_lambda	lambda_real	phi=phi0;a=1/64;P=exp(lambda_phi)I	relative_curvature_locus
+E02	EXACT_SUBFAMILY	one_shear_S1	lambda;mu	phi=phi0;a=1/64;P=exp(phi(lambdaI+muS1))	projector_response_locus
+E03	EXACT_SUBFAMILY	one_shear_S2	lambda;nu	phi=phi0;a=1/64;P=exp(phi(lambdaI+nuS2))	projector_response_locus
+E04	EXACT_SUBFAMILY	two_shear_symmetric	lambda;mu;nu	phi=phi0;a=1/64;P=exp(phi(lambdaI+muS1+nuS2))	projector_response_locus
+E05	LOCAL_JET_CHART	general_screen_first_jet	L1;L2;L3;P_at_event	phi_first_jet;a=1/64;stationarity	complete_relative_curvature_zero_locus
+C01	CONTROL	twist_off	a=0	other_center_data	clock_twist_ruler_gate
+C02	CONTROL	depth_off	phi_constant_or_zero	registered_complete_coframe	clock_certificate_and_depth_gates
+C03	CONTROL	screen_rank_wall	detP=0	stationary_RxS3	four_metric_degeneracy
+C04	CONTROL	displayed_slice_wall	exp(4phi)=a2	detP_nonzero	coordinate_slice_not_four_metric_boundary
+C05	CONTROL	clock_certificate_wall	det_grad_I1_I2_I3=0	stationary_complete_metric	certificate_only_not_property_no_go
+C06	CONTROL	complete_response_wall	Omega_rel=0	intrinsic_projector_exists	response_vanishes_without_erasing_projector
+C07	CONTROL	coframe_gauge	P_to_Ochi_P	screen_metric_fixed	metric_results_gauge_invariant
+
