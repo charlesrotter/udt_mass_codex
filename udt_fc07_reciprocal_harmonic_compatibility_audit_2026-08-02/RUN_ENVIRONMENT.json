@@ -1,0 +1,56 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "/home/udt-admin/udt_mass_codex/udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/freeze_sources.py"
+      ],
+      "exit_code": 0,
+      "label": "SOURCE_FREEZE",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "88b501483e7c2d5e88d307c2fe4202cdc2b5e9dd1b909fe3d49439d29b400ec3"
+    },
+    {
+      "command": [
+        "python3",
+        "/home/udt-admin/udt_mass_codex/udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/derive_compatibility.py"
+      ],
+      "exit_code": 0,
+      "label": "DERIVATION",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "54fc00a0cfd9b219b38c6b2778145a80ba60cc3f6844613a2e9d382f0a5f4fde"
+    },
+    {
+      "command": [
+        "python3",
+        "/home/udt-admin/udt_mass_codex/udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/verify_compatibility_independent.py"
+      ],
+      "exit_code": 0,
+      "label": "INDEPENDENT",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "9f12d8c515d5adf4d8f88cfff84eb235c74b8791b453d045f65a53b7722e40ab"
+    },
+    {
+      "command": [
+        "python3",
+        "/home/udt-admin/udt_mass_codex/udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/verify_audit.py"
+      ],
+      "exit_code": 0,
+      "label": "VERIFICATION",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "7dde54e57a74547aeda1589f47db1b20618bba412c69115d1ffff1d3ba32a7ee"
+    },
+    {
+      "command": [
+        "python3",
+        "/home/udt-admin/udt_mass_codex/udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/verify_repository_gates.py"
+      ],
+      "exit_code": 0,
+      "label": "REPOSITORY_GATES",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "de7954d9312890826f3dec8293afa3cb529d55319e9834479be64864e19b616f"
+    }
+  ],
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12"
+}

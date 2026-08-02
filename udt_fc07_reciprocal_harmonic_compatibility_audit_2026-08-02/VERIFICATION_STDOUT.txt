@@ -1,0 +1,1 @@
+{"algebra_rows": 18, "candidate_relations": 16, "density_scan_authorized": false, "independent_checks": 39, "outcome": "NO_ADDITIONAL_GEOMETRY_CUTTING_RELATION_DERIVED", "primary_checks": 43, "semantic_catches": 20, "source_anchors": 14, "source_identities": 17, "status": "PASS"}

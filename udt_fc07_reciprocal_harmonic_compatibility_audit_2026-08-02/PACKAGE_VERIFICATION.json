@@ -1,0 +1,9 @@
+{
+  "density_scan_authorized": false,
+  "manifest_files": 47,
+  "manifest_sha256": "fe4d142595f5902b3c05fc746412d255fe025e6a1b406f6f14b389602146c324",
+  "outcome": "NO_ADDITIONAL_GEOMETRY_CUTTING_RELATION_DERIVED",
+  "schema": "udt.fc07.reciprocal_harmonic_compatibility.package.v1",
+  "scientific_grade": "VERIFIED_WITH_CAVEATS",
+  "status": "PASS"
+}

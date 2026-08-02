@@ -1,0 +1,20 @@
+id	object	status	scope_or_condition	open_scope
+S01	reciprocal_harmonic_projector_ownership	DERIVED_CONDITIONAL_BOUNDED	four FC07 b1=1 completions;chosen lower-triangular family;supplied descent	upper-right;time-live;non-torus;physical completion selection
+S02	primitive_alpha_period	DERIVED_TOPOLOGICAL_NORMALIZATION	oriented integral H1 generator	physical ruler length;absolute scale
+S03	theta1_raw_harmonicity	DERIVED_IFF_D_CONSTANT	delta theta1=-D_prime/(aD)	whether any native law requires constant area
+S04	alpha_equals_theta1	NOT_DERIVED	algebraically requires D constant and ell=1 chosen unit	physical normalization law
+S05	alpha_constant_times_theta1	CONDITIONAL_IFF_D_CONSTANT	k=1/ell	selection of constant area and ell
+S06	exact_depth_vs_harmonic_period	DERIVED_DISTINCT	dphi exact zero period;alpha primitive unit period;theta1 positive metric period	native joint
+S07	nonzero_constant_dphi_alpha_solder	REFUTED_IN_BOUNDED_CLOSED_BASE	closed single-valued phi and primitive alpha	time-live/open-boundary/twisted alternatives
+S08	variable_dphi_alpha_solder	IDENTITY_COEFFICIENT_OPEN	F=I D phi_prime/a;integral F alpha=0	metric-native selection of F
+S09	harmonic_flux_and_capacity	DERIVED_READOUT_LEVEL_NOT_SELECTED	fiber flux=1/I;Hodge norm squared=1/I	physical level or return equation
+S10	reciprocal_harmonic_four_wedge	DERIVED_READOUT_LEVEL_NOT_SELECTED	coefficient c_E L/I in bounded coframe	physical response interpretation
+S11	observer_Reciprocity	NATURALITY_GATE_ONLY	future relation must transform equivariantly	law and scalar level
+S12	internal_dual_Reciprocity	PAIR_REPRESENTATION_ONLY	founded two-dimensional clock/ruler pair	full response covector or H1 scale
+S13	finite_cell_composition	THREE_DISTINCT_ADDITIVE_OBJECTS	Delta phi;ell;primitive period	physical joining relation
+S14	physical_seal_relation	OPEN_COMPLETE_SEAL_LIFT	minimal even reflection control fixes no level	coframe;screen;time;Hodge-slice lift
+S15	mapping_torus_descent	PRESERVES_RELATION_FAMILY	four unimodular unique-H1 monodromies	J07/J11 mixing construction;other topologies
+S16	c_E_G_obs_inverse_length	NOT_AVAILABLE	anchors alone dimensionally insufficient	additional native dimensional datum
+S17	density_inverse_length	DIMENSIONALLY_AVAILABLE_IF_RHO_SUPPLIED	sqrt(G_obs rho_tot)/c_E	any native equality or return relation
+S18	additional_geometry_cutting_relation	NOT_DERIVED_SCOPED	all 16 preregistered candidates	future premise or enlarged metric family
+S19	density_window_scan	NOT_AUTHORIZED_NOT_COMPUTABLE	no same-solution return relation	native density-curvature-response bridge

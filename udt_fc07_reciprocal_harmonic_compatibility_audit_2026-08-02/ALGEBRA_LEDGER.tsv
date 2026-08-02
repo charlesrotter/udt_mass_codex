@@ -1,0 +1,19 @@
+id	object	exact_relation	status
+A01	alpha	theta1/(I D)	DERIVED_CONDITIONAL_BOUNDED
+A02	projector	P_alpha=P_theta1	DERIVED_CONDITIONAL_BOUNDED
+A03	raw_harmonicity	delta theta1=-D_prime/(aD)	DERIVED
+A04	constant_proportionality	alpha=k theta1 iff D_prime=0; k=1/ell	DERIVED_IFF
+A05	pointwise_equality	alpha=theta1 iff D_prime=0 and ell=1 chosen unit	DERIVED_IFF_TYPED
+A06	primitive_period	integral alpha=1	TOPOLOGICAL_NORMALIZATION
+A07	physical_period	integral theta1=ell>0	METRIC_READOUT
+A08	exact_depth_period	integral dphi=0 on closed base	DERIVED_GLOBAL
+A09	constant_solder	dphi=k alpha implies k=0 and phi constant	DERIVED_NO_GO_CLOSED_BASE
+A10	variable_solder	F=I D phi_prime/a; integral F alpha=0	IDENTITY_NOT_SELECTOR
+A11	fiber_flux	integral_fiber star alpha=1/I	DERIVED_READOUT
+A12	hodge_energy	norm(alpha)^2_L2=1/I	DERIVED_READOUT
+A13	reciprocal_harmonic_wedge	theta0 wedge alpha wedge theta2 wedge theta3 has coefficient c_E L/I	DERIVED_READOUT
+A14	L_scaling	alpha invariant; theta1 and I scale by q	EXACT_COUNTERFAMILY
+A15	even_reflection_control	theta1 and alpha odd; ratio and projector even	MATHEMATICAL_CONTROL__PHYSICAL_SEAL_LIFT_OPEN
+A16	monodromy_descent	det M=1 preserves D; det(M^T-I) nonzero gives b1=1	DERIVED_FOR_FOUR_WITNESSES
+A17	dimensional_rank	c_E and G_obs cannot form inverse length	DERIVED_DIMENSIONAL
+A18	density_dimensional_opening	sqrt(G_obs rho_tot)/c_E has inverse-length dimensions	DERIVED_DIMENSIONAL_IF_RHO_SUPPLIED__NO_NATIVE_EQUALITY

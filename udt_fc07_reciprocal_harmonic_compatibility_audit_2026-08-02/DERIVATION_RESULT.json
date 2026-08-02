@@ -1,0 +1,78 @@
+{
+  "candidate_outcomes": {
+    "R00": "DERIVED_CONDITIONAL_BOUNDED",
+    "R01": "DERIVED_TOPOLOGICAL_NORMALIZATION_ONLY",
+    "R02": "NOT_DERIVED__ALGEBRAIC_IFF_D_CONSTANT_AND_ELL_EQUALS_ONE",
+    "R03": "CONDITIONAL_IFF_D_CONSTANT",
+    "R04": "DERIVED_IFF_D_CONSTANT__NOT_REQUIRED",
+    "R05": "NOT_FIXED",
+    "R06": "DERIVED_CONSTANT_TRANSPORT_READOUT__LEVEL_NOT_SELECTED",
+    "R07": "NONZERO_CONSTANT_SOLDER_REFUTED_ON_CLOSED_BASE",
+    "R08": "IDENTITY_AVAILABLE__COEFFICIENT_OPEN",
+    "R09": "NATURALITY_GATE_ONLY",
+    "R10": "PAIR_REPRESENTATION_ONLY",
+    "R11": "THREE_DISTINCT_COMPOSITION_OBJECTS",
+    "R12": "OPEN_COMPLETE_SEAL_LIFT__EVEN_REFLECTION_CONTROL_DOES_NOT_FIX_LEVEL",
+    "R13": "DESCENT_PRESERVES_RELATION_FAMILY__J07_J11_OPEN",
+    "R14": "ANCHORS_INSUFFICIENT_FOR_INVERSE_LENGTH",
+    "R15": "SURVIVES__NO_ADDITIONAL_GEOMETRY_CUTTING_RELATION"
+  },
+  "checks_passed": 43,
+  "checks_total": 43,
+  "density_scan_authorized": false,
+  "explicit_witnesses": {
+    "free_scale": "L -> q L leaves alpha fixed and sends theta1,I -> q times themselves",
+    "variable_area": {
+      "D": "1+(3/5)*cos(s)",
+      "I": "5*pi*L/2",
+      "a": "L",
+      "period": "2*pi",
+      "ratio_at_0": "1/(4*pi*L)",
+      "ratio_at_pi": "1/(pi*L)"
+    },
+    "variable_phi_constant_area": {
+      "D": "1",
+      "F": "-6*pi*sin(s)/(cos(s) + 3)**2",
+      "I": "2*pi*L",
+      "exp_phi": "1+cos(s)/3",
+      "ratio": "1/(2*pi*L)",
+      "weighted_F_period": "0"
+    }
+  },
+  "failed_checks": [],
+  "formulae": {
+    "I": "integral_cell a/D ds",
+    "alpha": "theta1/(I*D)",
+    "constant_proportionality_condition": "D_prime=0; k=1/ell",
+    "delta_alpha": "0",
+    "delta_theta1": "-D_prime/(a*D)",
+    "density_dimensional_opening": "sqrt(G_obs*rho_tot)/c_E has inverse-length dimensions if rho_tot is supplied; no native equality derived",
+    "fiber_flux": "1/I",
+    "founded_four_wedge_coefficient": "c_E*L/I",
+    "hodge_norm_squared": "1/I (unit coordinate fiber area)",
+    "pointwise_equality_condition": "D_prime=0 and ell=1 in the chosen unit",
+    "ratio": "1/(I*D)",
+    "variable_solder": "dphi=F*alpha; F=I*D*phi_prime/a; integral F*alpha=0"
+  },
+  "monodromies": {
+    "M_HYPERBOLIC": {
+      "det": 1,
+      "det_MT_minus_I": -1
+    },
+    "M_MINUS_IDENTITY": {
+      "det": 1,
+      "det_MT_minus_I": 4
+    },
+    "M_ORDER4_ROTATION": {
+      "det": 1,
+      "det_MT_minus_I": 2
+    },
+    "M_ORDER6_ELLIPTIC": {
+      "det": 1,
+      "det_MT_minus_I": 1
+    }
+  },
+  "outcome": "NO_ADDITIONAL_GEOMETRY_CUTTING_RELATION_DERIVED",
+  "reason_density_scan_not_authorized": "no native same-solution return relation was derived",
+  "scope": "FC07_B1_ONE_STATIONARY_TORUS_INVARIANT_LOWER_TRIANGULAR_SUPPLIED_DESCENT"
+}

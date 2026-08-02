@@ -1,0 +1,12 @@
+{
+  "checks_passed": 39,
+  "checks_total": 39,
+  "density_scan_authorized": false,
+  "failed_checks": [],
+  "implementation": "python_stdlib_fraction_no_primary_import",
+  "outcome": "NO_ADDITIONAL_GEOMETRY_CUTTING_RELATION_DERIVED",
+  "semantic_catches_passed": 20,
+  "semantic_catches_total": 20,
+  "source_count": 17,
+  "source_hashes_valid": true
+}

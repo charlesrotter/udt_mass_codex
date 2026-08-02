@@ -1,0 +1,17 @@
+candidate_id	outcome	reason
+R00	DERIVED_CONDITIONAL_BOUNDED	P_alpha=P_theta1; scalar coefficient remains free
+R01	DERIVED_TOPOLOGICAL_NORMALIZATION_ONLY	primitive period fixes alpha up to oriented sign, not physical ruler length
+R02	NOT_DERIVED__ALGEBRAIC_IFF_D_CONSTANT_AND_ELL_EQUALS_ONE	equality additionally chooses a unit physical loop length
+R03	CONDITIONAL_IFF_D_CONSTANT	constant coefficient k=1/ell; no registered premise requires D prime zero or fixes ell
+R04	DERIVED_IFF_D_CONSTANT__NOT_REQUIRED	delta theta1=-D prime/(aD)
+R05	NOT_FIXED	Hodge norm squared=1/I and I varies under admitted L/profile changes
+R06	DERIVED_CONSTANT_TRANSPORT_READOUT__LEVEL_NOT_SELECTED	fiber flux=1/I and founded four-wedge coefficient=c_E L/I
+R07	NONZERO_CONSTANT_SOLDER_REFUTED_ON_CLOSED_BASE	period dphi=0 while primitive period alpha=1; only k=0 then phi constant
+R08	IDENTITY_AVAILABLE__COEFFICIENT_OPEN	F=I D phi prime/a and integral F alpha=0; no premise selects F
+R09	NATURALITY_GATE_ONLY	observer Reciprocity transports a future relation but selects no scalar level
+R10	PAIR_REPRESENTATION_ONLY	internal K pairing survives free L and screen-area counterfamilies
+R11	THREE_DISTINCT_COMPOSITION_OBJECTS	Delta phi has zero loop period; theta1 period=ell; alpha period=1
+R12	OPEN_COMPLETE_SEAL_LIFT__EVEN_REFLECTION_CONTROL_DOES_NOT_FIX_LEVEL	physical seal action on coframe/Hodge slice is open; minimal even reflection control preserves line/projector with free normalization
+R13	DESCENT_PRESERVES_RELATION_FAMILY__J07_J11_OPEN	unimodular monodromy preserves D descent; supplied mixing descent fixes no level
+R14	ANCHORS_INSUFFICIENT_FOR_INVERSE_LENGTH	c_E,G_obs alone have no inverse-length solution; supplied rho_tot would allow sqrt(G_obs rho_tot)/c_E dimensionally but no native equality
+R15	SURVIVES__NO_ADDITIONAL_GEOMETRY_CUTTING_RELATION	all active tested premises admit free-L and variable-area counterfamilies

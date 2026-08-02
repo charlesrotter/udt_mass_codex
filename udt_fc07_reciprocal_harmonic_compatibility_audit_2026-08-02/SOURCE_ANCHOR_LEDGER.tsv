@@ -1,0 +1,15 @@
+id	path	role	exact_anchor	use
+S01	CURRENT_SCIENTIFIC_PREMISES.md	phi_identity	The founded scalar `phi` is already the additive logarithmic depth	prevents_placeholder_phi
+S02	CURRENT_SCIENTIFIC_PREMISES.md	bootstrap_scope	bootstrap is a working on-shell admissibility hypothesis, not a local equation	prevents_density_return_promotion
+S03	CURRENT_SCIENTIFIC_PREMISES.tsv	finite_cell_scope	KEPT_MULTIPLY_ANCHORED_SPLIT_FROM_MIRROR_CLAUSE	separates_finiteness_from_mirror
+S04	CURRENT_SCIENTIFIC_PREMISES.tsv	mirror_scope	OWNER_RATIFIED_PROPOSAL_NOT_DERIVED_SPLIT_RULED_2026-07-30	prevents_seal_promotion
+S05	udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/EXACT_DERIVATION.md	parent_relation	Because `alpha=theta1/(I D)`, their covector lines coincide.	load_bearing_formula
+S06	udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/EXACT_DERIVATION.md	raw_harmonicity	theta1 itself is harmonic  iff  d/ds sqrt(det(h))=0.	area_condition
+S07	udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/SCOPE_CORRECTION.md	mixing_scope	CHOSE_BOUNDED_FIELD_GENERALIZATION_CONTAINING_REGISTERED_E02	prevents_field_promotion
+S08	udt_whole_configuration_reciprocity_audit_2026-08-01/EXACT_DERIVATION.md	naturality	A(T_g X, rho_g O) = sigma_g A(X,O).	observer_gate
+S09	udt_whole_configuration_reciprocity_audit_2026-08-01/EXACT_DERIVATION.md	fixedness	Equivalence is not fixedness	prevents_frame_fixed_state
+S10	udt_whole_configuration_reciprocity_audit_2026-08-01/WHOLE_LAW_NATURALITY_LEDGER.tsv	return_gap	OPEN_NOT_DERIVED	naturality_not_law_selection
+S11	udt_native_global_coframe_definition_audit_2026-07-28/EXACT_DERIVATION.md	composition_gap	Composition does not select depth	prevents_cocycle_selector
+S12	udt_p4_routeB_extension_selection_2026-07-28/EXACT_DERIVATION.md	descent_gap	whether a global one exists is exactly the open J07/J11 obligation	prevents_descent_promotion
+S13	udt_mirror_canon_provenance_audit_2026-07-30/PROVENANCE_REPORT.md	mirror_provenance	no CLOSURE derivation exists anywhere in	conditional_seal_only
+S14	udt_bootstrap_projector_admissibility_interface_2026-08-01/EXACT_DERIVATION.md	density_gate	once a native same-solution density readout exists	prevents_premature_density_scan
