@@ -1,0 +1,9 @@
+catch_id	mutation	result
+C01	zero_full_mixed_claim	PASS_CAUGHT
+C02	missing_reverse_pivot	PASS_CAUGHT
+C03	nonzero_narrow_hidden	PASS_CAUGHT
+C04	m_called_mixed	PASS_CAUGHT
+C05	production_law_promotion	PASS_CAUGHT
+C06	branch_scope_globalized	PASS_CAUGHT
+C07	dimension_reference_removed	PASS_CAUGHT
+C08	complete_frame_promotion	PASS_CAUGHT

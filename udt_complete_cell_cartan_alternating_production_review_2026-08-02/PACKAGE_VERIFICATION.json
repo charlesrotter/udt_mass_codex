@@ -1,0 +1,7 @@
+{
+  "entries": 38,
+  "package_manifest_sha256": "a4c240f1ce4c4ca395530fa24d44b739614d92716ae57985408e2546cd880479",
+  "parent_package_manifest_sha256": "cb5b63eff0c44971b35f031366e6db84721045c535effe018db5662648c44f57",
+  "source_manifest_sha256": "b0a253887028ac04b460793db48dfeca1f65c55f48855c3459c354c3cf993beb",
+  "status": "PASS_AFTER_REQUIRED_CORRECTIONS"
+}

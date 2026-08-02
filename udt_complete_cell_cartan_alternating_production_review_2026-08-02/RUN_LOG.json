@@ -1,0 +1,26 @@
+[
+  {
+    "label": "ENVIRONMENT",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_complete_cell_cartan_alternating_production_review_2026-08-02/capture_environment.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "CORRECTION",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_complete_cell_cartan_alternating_production_review_2026-08-02/verify_correction.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "REPOSITORY_GATES",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_complete_cell_cartan_alternating_production_review_2026-08-02/verify_repository_gates.py"
+    ],
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "catch_proofs": 8,
+  "contact_algebra": {
+    "B": "log(|kappa|/(D0*T0))",
+    "affine_quotient_rank": 1,
+    "differential_identity": "-dphi_wedge_dv=dphi_wedge_dsigma",
+    "dimensioned_contact_log": "v=log(|t1|/T0)=B+phi-sigma",
+    "primitive_difference": "lambda_phi_v-lambda_phi_sigma=d(B*phi/2)",
+    "universally_exact_kernel_dimension": 5
+  },
+  "corrected_state": {
+    "branch_scope": "WITHIN_FROZEN_29_SOURCE_AUTHORITY_SET",
+    "contact_log_uses_T0": true,
+    "forward_mixed_rows": 12,
+    "forward_narrow_rows": 0,
+    "headline": "SPLIT_RELATIVE_FIRST_CARTAN_CONTACT_ENCODING_DERIVED__PRIMITIVE_SELECTION_AND_COMPLETE_FRAME_NATURALITY_OPEN",
+    "m_ruling": "mC_HOMOGENEOUS_BUT_EXTRACTION_FROM_TOTAL_A1_REQUIRES_SUPPLIED_DECOMPOSITION",
+    "reverse_mixed_rows": 12,
+    "reverse_narrow_rows": 0,
+    "wording": "ENCODES_AND_RECONSTRUCTS_NOT_NEW_LAW"
+  },
+  "curvature": {
+    "forward": {
+      "mixed_row_count": 12,
+      "narrow_leg_aligned_nonzero_count": 0,
+      "nonzero_lower_curvature_pairs": 6,
+      "pivot": "FORWARD"
+    },
+    "forward_mixed_row_identities": [
+      "Omega01[02]",
+      "Omega01[03]",
+      "Omega02[01]",
+      "Omega02[02]",
+      "Omega02[03]",
+      "Omega03[01]",
+      "Omega03[02]",
+      "Omega03[03]",
+      "Omega12[12]",
+      "Omega12[13]",
+      "Omega13[12]",
+      "Omega13[13]"
+    ],
+    "forward_only_identities": [
+      "Omega01[02]",
+      "Omega01[03]",
+      "Omega02[01]",
+      "Omega03[01]"
+    ],
+    "mixed_identity_set_same": false,
+    "raw_monomial_attribution": "CLOSURE_NORMAL_FORM_DEPENDENT",
+    "reverse": {
+      "mixed_row_count": 12,
+      "narrow_leg_aligned_nonzero_count": 0,
+      "nonzero_lower_curvature_pairs": 6,
+      "pivot": "REVERSE"
+    },
+    "reverse_mixed_row_identities": [
+      "Omega02[02]",
+      "Omega02[03]",
+      "Omega03[02]",
+      "Omega03[03]",
+      "Omega12[12]",
+      "Omega12[13]",
+      "Omega12[23]",
+      "Omega13[12]",
+      "Omega13[13]",
+      "Omega13[23]",
+      "Omega23[12]",
+      "Omega23[13]"
+    ],
+    "reverse_only_identities": [
+      "Omega12[23]",
+      "Omega13[23]",
+      "Omega23[12]",
+      "Omega23[13]"
+    ],
+    "tensorial_mixed_curvature_nogo": "NOT_DERIVED"
+  },
+  "gauge_algebra": {
+    "C_transform": "C_prime=O*C*O^-1",
+    "L1_transform": "L1_prime=(E1O)O^-1+O*L1*O^-1",
+    "m_transform": "m_prime=m",
+    "ruling": "mC_HOMOGENEOUS_BUT_EXTRACTION_FROM_TOTAL_A1_REQUIRES_SUPPLIED_DECOMPOSITION",
+    "t1_transform": "t1_prime=det(O)*t1",
+    "total_transform": "A1_prime=(E1O)O^-1+O*A1*O^-1"
+  },
+  "identity": {
+    "parent_package_entries": 43,
+    "parent_package_manifest_sha256": "cb5b63eff0c44971b35f031366e6db84721045c535effe018db5662648c44f57",
+    "parent_sources": 29,
+    "review_source_manifest_sha256": "b0a253887028ac04b460793db48dfeca1f65c55f48855c3459c354c3cf993beb",
+    "review_sources": 20
+  },
+  "parent_package_modified": false,
+  "schema": "udt-complete-cell-cartan-cold-review-correction-1.0",
+  "status": "PASS_AFTER_REQUIRED_CORRECTIONS"
+}
