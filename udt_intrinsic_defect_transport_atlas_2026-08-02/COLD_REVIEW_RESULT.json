@@ -1,0 +1,16 @@
+{
+  "algebra_failures": 0,
+  "edits_performed_by_reviewer": false,
+  "final_grade": "PASS_WITH_CAVEATS",
+  "independent_coordinate_christoffel_check": "C08_p1_better_than_2e-61",
+  "independent_point_curvature_certificates": 12,
+  "repairs_required_before_bank": 4,
+  "scope_caveats": [
+    "global_Omega_zero_set_open",
+    "finite_kernel_plane_holonomy_open",
+    "pole_turning_asymptotics_open",
+    "full_Levi_Civita_holonomy_open",
+    "no_charge_carrier_substrate_or_branch_selection"
+  ],
+  "status": "PASS_WITH_CAVEATS"
+}

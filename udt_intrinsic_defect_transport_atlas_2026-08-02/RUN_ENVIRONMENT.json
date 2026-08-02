@@ -1,0 +1,11 @@
+{
+  "git_head_at_capture": "9950ebda9fd3b1665ad9f39970bd9d64534c2a29",
+  "gpu_used": false,
+  "machine": "x86_64",
+  "method": "CPU_exact_SymPy_plus_90_digit_mpmath_independent_route",
+  "mpmath": "1.3.0",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

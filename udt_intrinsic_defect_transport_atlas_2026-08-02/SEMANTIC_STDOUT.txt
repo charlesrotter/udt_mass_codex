@@ -1,0 +1,1 @@
+{"candidate_count": 18, "guard_types": {"evidence_independence": 2, "exact_output_or_evidence": 19, "semantic_scope": 15}, "mutation_catches": 36, "object_count": 26, "point_certificate_count": 12, "premise_count": 19, "schema": "udt-defect-transport-semantic-1.0", "semantic_guards_are_independent_algebra": false, "source_count": 86, "status": "PASS_FAIL_CLOSED"}

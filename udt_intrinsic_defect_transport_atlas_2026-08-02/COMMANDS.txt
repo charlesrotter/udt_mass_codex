@@ -1,0 +1,12 @@
+python3 -m py_compile udt_intrinsic_defect_transport_atlas_2026-08-02/derive_defect_transport.py
+python3 udt_intrinsic_defect_transport_atlas_2026-08-02/derive_defect_transport.py
+python3 -m py_compile udt_intrinsic_defect_transport_atlas_2026-08-02/verify_independent.py
+python3 udt_intrinsic_defect_transport_atlas_2026-08-02/verify_independent.py
+python3 -m py_compile udt_intrinsic_defect_transport_atlas_2026-08-02/verify_semantics.py
+python3 udt_intrinsic_defect_transport_atlas_2026-08-02/verify_semantics.py
+python3 udt_intrinsic_defect_transport_atlas_2026-08-02/verify_repository_gates.py
+python3 udt_intrinsic_defect_transport_atlas_2026-08-02/capture_environment.py
+python3 udt_intrinsic_defect_transport_atlas_2026-08-02/derive_adjudication.py
+python3 udt_intrinsic_defect_transport_atlas_2026-08-02/build_manifest.py
+python3 udt_intrinsic_defect_transport_atlas_2026-08-02/verify_package.py
+python3 -m pytest -q tests

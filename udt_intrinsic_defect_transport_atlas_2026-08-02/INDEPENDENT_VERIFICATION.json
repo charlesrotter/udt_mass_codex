@@ -1,0 +1,15 @@
+{
+  "edge_determinants_reproduced": true,
+  "method": "separate_mpmath_90_digit_differentiation_plus_exact_local_algebra",
+  "nonzero_curvature_points": 12,
+  "point_components_compared": 72,
+  "pole_six_axis_zero_set_reproduced": true,
+  "production_module_imported": false,
+  "registered_screen_lambda_curvature_coordinate_triples_distinct_at_p1_p2": true,
+  "schema": "udt-defect-transport-independent-1.0",
+  "status": "PASS_INDEPENDENT_HIGH_PRECISION",
+  "twist_scaling_reproduced": {
+    "C16_over_C08": 4,
+    "C17_over_C08": 5
+  }
+}

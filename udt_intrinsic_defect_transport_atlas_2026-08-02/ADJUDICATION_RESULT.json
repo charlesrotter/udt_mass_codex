@@ -1,0 +1,38 @@
+{
+  "charge_carrier_substrate_or_physics_selected": false,
+  "controls": {
+    "intrinsic_zero": 9,
+    "metric_degenerate": 1,
+    "projector_blocked": 2
+  },
+  "derived": [
+    "defect_graph_H1_Z5",
+    "global_lift_and_w1_zero",
+    "trivial_real_line_connection_and_holonomy",
+    "regular_edge_turning_magnitude_one",
+    "two_six_puncture_pole_links",
+    "metric_anchored_kernel_plane_connection_formula",
+    "exact_twist_scaling"
+  ],
+  "four_gates": {
+    "bounded_scope": true,
+    "independently_verified": true,
+    "premises_audited": true,
+    "preregistered": true
+  },
+  "full_transport_candidates": 6,
+  "observed_exact_bounded": [
+    "12_nonzero_curvature_point_certificates",
+    "four_registered_screen_lambda_coordinate_triples_distinct_at_p1_p2"
+  ],
+  "open": [
+    "global_Omega_zero_set_open",
+    "finite_kernel_plane_holonomy_open",
+    "pole_turning_asymptotics_open",
+    "full_Levi_Civita_holonomy_open",
+    "no_charge_carrier_substrate_or_branch_selection"
+  ],
+  "schema": "udt-defect-transport-adjudication-1.0",
+  "scope": "frozen_stationary_off_shell_18_candidate_ensemble",
+  "status": "VERIFIED_WITH_CAVEATS"
+}

@@ -1,0 +1,9 @@
+{
+  "adjudication_result_sha256": "26db937322a7cdd8ae8e239fdab1221775e571c5587eeb44f59be173e3ddbef3",
+  "connection_points_sha256": "4dd212cbc2c1f940f0ac1283bbb212c2b8af5c4c8df7a5ac36eb32326e907b0c",
+  "entries": 49,
+  "object_status_sha256": "3e10524d3f57947f436a21a1b2edebaffe535d14834fc0c28e4f72e9b380d96f",
+  "package_manifest_sha256": "d66d10b3ee468429c8e729141716d6ca638d81fed2a5f4c65d32b797a1ebf87e",
+  "source_manifest_sha256": "e486cdb7dd1147d0ce4d4fdb547e5c47726947b746e2cb33d471db54031defc8",
+  "status": "PASS_PACKAGE_VERIFIED_WITH_CAVEATS"
+}

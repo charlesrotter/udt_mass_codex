@@ -1,0 +1,1 @@
+{"complement_H1": "Z^5", "curvature_certificates": 12, "curvature_nonzero": 12, "line_w1": "ZERO_ON_ALL_H1_GENERATORS", "projective_meridians": "TRIVIAL_IN_PI1_RP2", "status": "PASS_EXACT_PRODUCTION"}
