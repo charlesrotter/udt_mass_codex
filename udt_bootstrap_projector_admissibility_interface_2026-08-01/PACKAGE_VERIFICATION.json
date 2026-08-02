@@ -1,0 +1,8 @@
+{
+  "manifest_files": 43,
+  "manifest_sha256": "71ee8c41cd308b1467ac7206f20a48a6c4c660596dde86155a4ae879e1210aab",
+  "maximum_conclusion": "EXACT_INTERFACE_AND_MISSING_INPUT_LEDGER_ONLY_NO_BOOTSTRAP_LAW_OR_STABILITY",
+  "schema": "udt.bootstrap_projector_admissibility_interface.package.v1",
+  "scientific_grade": "VERIFIED_WITH_CAVEATS",
+  "status": "PASS"
+}

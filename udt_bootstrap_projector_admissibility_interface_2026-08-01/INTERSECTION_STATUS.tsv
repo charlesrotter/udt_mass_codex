@@ -1,0 +1,6 @@
+object	formula	current_status	selection_status
+projector_neighborhood	N_projector	DEFINED_BOUNDED_OFFSHELL	NO
+readout_graph	Graph(R)={(X,O):O=R[X]}	R_PARTIAL	PROJECTION_ALL_X_WHEN_DEFINED
+bootstrap_membership	Z(A)={(X,O):A(X,O)=0}	A_OPEN	UNCOMPUTABLE
+on_shell_set	Sol(E_native)	E_NATIVE_OPEN	UNCOMPUTABLE
+requested_intersection	N_projector_intersection_Sol(E_native)_intersection_pi_X[Z(A)_intersection_Graph(R)]	OPEN_MISSING_E_R_A	NOT_RUN_NOT_EMPTY_OR_NEGATIVE

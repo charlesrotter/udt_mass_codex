@@ -1,0 +1,38 @@
+{
+  "anchor_count": 12,
+  "candidate_count": 8,
+  "check_count": 94,
+  "implementation": "stdlib_Fraction_and_finite_relations_no_production_import",
+  "reconstructed_finite_controls": {
+    "global_window_graph_intersection": [
+      "x1",
+      "x2"
+    ],
+    "global_window_nonempty_fiber_shapes": 1,
+    "modulated_graph_intersection": [
+      "x0",
+      "x1"
+    ],
+    "modulated_nonempty_fiber_shapes": 3,
+    "readout_graph_projection": [
+      "x0",
+      "x1",
+      "x2",
+      "x3"
+    ],
+    "separable_graph_intersection": [
+      "x1",
+      "x2"
+    ],
+    "separable_nonempty_fiber_shapes": 1
+  },
+  "reconstructed_ranks": {
+    "coupled_plus_graph_generic_r": 2,
+    "global_only_plus_graph": 2,
+    "graph_only": 1,
+    "local_only_plus_graph": 2
+  },
+  "schema": "udt.bootstrap_projector_admissibility_interface.independent.v1",
+  "source_count": 21,
+  "status": "PASS"
+}

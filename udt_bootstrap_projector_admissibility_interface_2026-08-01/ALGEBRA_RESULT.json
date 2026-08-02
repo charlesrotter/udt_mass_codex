@@ -1,0 +1,38 @@
+{
+  "finite_controls": {
+    "global_window_graph_intersection": [
+      "x1",
+      "x2"
+    ],
+    "global_window_nonempty_fiber_shapes": 1,
+    "modulated_graph_intersection": [
+      "x0",
+      "x1"
+    ],
+    "modulated_nonempty_fiber_shapes": 3,
+    "readout_graph_projection": [
+      "x0",
+      "x1",
+      "x2",
+      "x3"
+    ],
+    "separable_graph_intersection": [
+      "x1",
+      "x2"
+    ],
+    "separable_nonempty_fiber_shapes": 1
+  },
+  "graph_equation": "o-r*x=0",
+  "graph_jacobian_nullity": 1,
+  "graph_jacobian_rank": 1,
+  "jacobian_ranks": {
+    "coupled_plus_graph_generic_r": 2,
+    "global_only_plus_graph": 2,
+    "graph_only": 1,
+    "local_only_plus_graph": 2
+  },
+  "operational_minimum": "independent_X_O_nontrivial_both_arguments_nonempty_proper_graph_intersection_observer_natural",
+  "same_solution_intersection": "N_projector \u2229 Sol(E_native) \u2229 pi_X[Z(A) \u2229 Graph(R)]",
+  "schema": "udt.bootstrap_projector_admissibility_interface.algebra.v1",
+  "tuning_refinement": "nonempty_membership_fibers_F_O_change_with_independent_O"
+}

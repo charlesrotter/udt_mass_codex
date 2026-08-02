@@ -1,0 +1,10 @@
+{
+  "bootstrap_promoted": false,
+  "candidate_rows": 8,
+  "complete_intersections": 0,
+  "missing_slots": 9,
+  "mutation_catches": 16,
+  "projector_promoted_to_stability": false,
+  "schema": "udt.bootstrap_projector_admissibility_interface.verification.v1",
+  "status": "PASS"
+}
