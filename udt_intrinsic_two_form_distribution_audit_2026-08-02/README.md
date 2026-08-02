@@ -6,12 +6,13 @@ intrinsic depth/area two-form on the frozen 18-member stationary complete-cell e
 Read in this order:
 
 1. `PREREGISTRATION.md`
-2. `AUDIT_REPORT.md`
-3. `EXACT_DERIVATION.md`
-4. `CANDIDATE_ATLAS.tsv` and `LOCUS_ATLAS.tsv`
-5. `STATUS_LEDGER.tsv` and `FOUR_GATES.md`
-6. `COLD_REVIEW_RETURN.md`
-7. `LAY_REPORT.md` and `NEXT_STEP.md`
+2. `CORRECTION_LAYER.md`
+3. `AUDIT_REPORT.md`
+4. `EXACT_DERIVATION.md`
+5. `CANDIDATE_ATLAS.tsv` and `LOCUS_ATLAS.tsv`
+6. `STATUS_LEDGER.tsv` and `FOUR_GATES.md`
+7. `COLD_REVIEW_RETURN.md`
+8. `LAY_REPORT.md` and `NEXT_STEP.md`
 
 Machine evidence is in `DISTRIBUTION_RESULT.json`, `ADJUDICATION_RESULT.json`,
 `SEMANTIC_VERIFICATION.json`, `REPOSITORY_GATES.json`, the three exact scripts, and the SHA-256

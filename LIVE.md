@@ -24,7 +24,7 @@ theorem.
 W=dPhi_contact wedge dSigma_contact
 ```
 
-has four-dimensional kernel `span(T,N)` wherever nonzero, where
+has kernel `span(T,N)` within the four-dimensional tangent space wherever nonzero, where
 `N_flat=star(T_flat wedge W)` is a metric-derived spacelike line. Exact full-cell algebra gives:
 
 ```text
@@ -49,7 +49,7 @@ profile does not exhaust smooth screens or other completions.
 **EVIDENCE:** preregistration `942e8790`; 64-source freeze `7d3c7296`; evidence commit `04e1d9a9`;
 source-manifest SHA-256
 `48dcc11e79a0395e920c159a88346656011d8784118f11620f6996db040be122`; package-manifest
-SHA-256 `0f121e2a2a941433c6b6d5a9700a8c34190c5247e2302fea843e7c329c52e711`. A fresh exact
+SHA-256 `b45ce7f7fe11ad732089b1036345ada89c27295aeb163a5456180c464d938f91`. A fresh exact
 implementation imported no production functions and independently reproduced the coframe,
 polynomials, zero/type loci, Hodge/kernel signs, extension obstruction, topology, and `6/9/2/1`
 census with `PASS` and no correction. All 32 catches pass (26 exact/algebra, five semantic scope,

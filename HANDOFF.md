@@ -33,7 +33,7 @@ Hopf section, action, source, boundary, bootstrap return, matter, or mass.
 
 **Evidence:** preregistration `942e8790`; source freeze `7d3c7296`; evidence `04e1d9a9`; source
 manifest `48dcc11e79a0395e920c159a88346656011d8784118f11620f6996db040be122`; package manifest
-`0f121e2a2a941433c6b6d5a9700a8c34190c5247e2302fea843e7c329c52e711`; fresh independent exact
+`b45ce7f7fe11ad732089b1036345ada89c27295aeb163a5456180c464d938f91`; fresh independent exact
 `PASS`, no correction; 32/32 typed catches; frozen/navigation/premise gates and tests
 `70 passed, 1 xfailed` pass.
 

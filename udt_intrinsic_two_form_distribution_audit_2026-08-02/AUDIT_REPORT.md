@@ -9,8 +9,8 @@ distribution atlas. Where
 W=dPhi_contact wedge dSigma_contact
 ```
 
-is nonzero, its four-dimensional kernel is exactly the clock line plus one metric-derived spacelike
-line. That spatial line is:
+is nonzero, its kernel inside the four-dimensional tangent space is exactly two-dimensional: the
+clock line plus one metric-derived spacelike line. That spatial line is:
 
 ```text
 SCREEN_CONTAINED on one exact nonempty locus,
