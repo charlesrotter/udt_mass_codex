@@ -1,0 +1,1 @@
+{"branch_count": 6, "check_count": 26, "exact_relative_curvature_witnesses": ["C01:634/625", "C02:2509/2500", "C03:1", "C04:10009/10000", "C05:2509/2500", "C06:634/625"], "implementation": "stdlib_Fraction_no_production_import_no_SymPy", "schema": "udt.branchwise_projector_holonomy_census.independent.v1", "status": "PASS"}

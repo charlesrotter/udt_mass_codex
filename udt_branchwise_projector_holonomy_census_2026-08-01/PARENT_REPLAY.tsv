@@ -1,0 +1,8 @@
+source_package	command_or_gate	result	detail
+udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27	python3 derive_intrinsic_pair_witness.py	PASS	eight candidates replay; C01-C06 all-gate configuration witnesses reproduced
+udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27	python3 verify_intrinsic_pair_independent.py	PASS	Torch/full-Riemann independent replay reproduced parent ruling
+udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27	python3 verify_audit.py	EXPECTED_CURRENT_PATH_GUARD_FAILURE	parent manifest pins older CURRENT_SCIENTIFIC_PREMISES.tsv c05647... while frozen census base/current path is 69342e...; no parent file edited and no scientific algebra failed
+udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27	python3 verify_audit.py	PASS	34 checks and 14 catches; intrinsic screen/projected connection and ambient-holonomy distinction replay
+udt_intrinsic_reciprocal_holonomy_audit_2026-07-27	python3 verify_audit.py	PASS	18 rank-six curvature rows; 36 loop nonclosures; exact -3/25 anchor
+udt_reduced_holonomy_condition_audit_2026-07-27	python3 verify_audit.py	PASS	one regular parallel control; zero nontrivial intrinsic-pair survivors
+branchwise census frozen source manifest	git cat-file blob plus SHA-256	PASS	1270 frozen source paths replay by blob, avoiding mutable-current-path false failure

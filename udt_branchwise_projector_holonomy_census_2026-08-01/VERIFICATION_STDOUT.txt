@@ -1,0 +1,1 @@
+{"branch_object_cases": 18, "catch_proofs": "19/19", "frozen_blob_replay": "PASS", "groups": 280, "hits": 4461, "reports": 239, "schema": "udt.branchwise_projector_holonomy_census.verification.v1", "source_manifest_paths": 1270, "status": "PASS", "twisted_s3_relative_curvature_branches": 6}

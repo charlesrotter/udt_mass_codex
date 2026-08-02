@@ -1,0 +1,70 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_branchwise_projector_holonomy_census_2026-08-01/discover_candidates.py"
+      ],
+      "exit_code": 0,
+      "label": "DISCOVERY",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "e4e608800147c7bbd11ba482d94903c35424325ed254c0696fe9ded103a292c0"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_branchwise_projector_holonomy_census_2026-08-01/extract_report_evidence.py"
+      ],
+      "exit_code": 0,
+      "label": "REPORT_EXTRACT",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "15528b0a16d2f29676445c9b0b06c60ccd551ef09621de2790bfe1b887465757"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_branchwise_projector_holonomy_census_2026-08-01/build_census_ledgers.py"
+      ],
+      "exit_code": 0,
+      "label": "CENSUS_LEDGER",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "d61e1552edc024b9fe98aa9530636491e65d2142439c4d8ac268b9d57ef0f7d2"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_branchwise_projector_holonomy_census_2026-08-01/derive_branchwise_projector_gates.py"
+      ],
+      "exit_code": 0,
+      "label": "DERIVATION",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "6b974d4123f86fa103fd52b52bc6070c27d8281f9280aabef4ced00efa70214c"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_branchwise_projector_holonomy_census_2026-08-01/verify_branchwise_projector_gates_independent.py"
+      ],
+      "exit_code": 0,
+      "label": "INDEPENDENT",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "428001f4638c23088b9c4b37c59c56a5aa9783ff0fc07e4c8d6108835942df18"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_branchwise_projector_holonomy_census_2026-08-01/verify_census.py"
+      ],
+      "exit_code": 0,
+      "label": "VERIFICATION",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "9c1c1e8dbe3bf7058b6ba10f4adad795f968008dbb3eeaf209a2ef188b1e4d28"
+    }
+  ],
+  "compute": "CPU_ONLY",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "python_executable": "/usr/bin/python3",
+  "schema": "udt.branchwise_projector_holonomy_census.environment.v1",
+  "sympy": "1.13.1"
+}

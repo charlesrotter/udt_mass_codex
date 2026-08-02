@@ -1,0 +1,7 @@
+{
+  "manifest_files": 64,
+  "manifest_sha256": "670e1879944a5773f558577e2822973f9a0a121c46e752dd8966374136578f55",
+  "schema": "udt.branchwise_projector_holonomy_census.package.v1",
+  "scientific_grade": "VERIFIED_WITH_CAVEATS_PENDING_FRESH_EXTERNAL_SEMANTIC_REVIEW",
+  "status": "PASS"
+}

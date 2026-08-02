@@ -1,0 +1,7 @@
+python3 udt_branchwise_projector_holonomy_census_2026-08-01/discover_candidates.py
+python3 udt_branchwise_projector_holonomy_census_2026-08-01/extract_report_evidence.py
+python3 udt_branchwise_projector_holonomy_census_2026-08-01/build_census_ledgers.py
+python3 udt_branchwise_projector_holonomy_census_2026-08-01/derive_branchwise_projector_gates.py
+python3 udt_branchwise_projector_holonomy_census_2026-08-01/verify_branchwise_projector_gates_independent.py
+python3 udt_branchwise_projector_holonomy_census_2026-08-01/verify_census.py
+python3 -m pytest -q tests

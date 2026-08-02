@@ -1,0 +1,19 @@
+{
+  "audit_report_groups_with_hits": 237,
+  "audit_report_screen_sha256": "c953302c850ca1a3ea7df451364dad7fb92d1cf0c6b4c635798fa35e332adf02",
+  "audit_reports_screened": 239,
+  "base": "156b8a57d2e4ce65a588e5f7c2d82d0bd1f88334",
+  "binary_or_null_text_paths_skipped": 0,
+  "discovery_groups_sha256": "8080963640750e7c55481688edf07857d48ed7b86f2610c90694789dd78c263b",
+  "discovery_hits_sha256": "4bc6008140855e3281ea8a8ce2aaaee33806b391c987197ebb42c82b6fb7c6b2",
+  "hit_files": 4461,
+  "hit_groups": 280,
+  "rule_file_counts": {
+    "D03": 1139,
+    "D04": 1443,
+    "D05": 679,
+    "D06": 3308
+  },
+  "status": "PASS",
+  "text_paths_scanned": 11150
+}
