@@ -1,35 +1,39 @@
-# INDEX — Repo Map (2026-08-01 lean)
+# INDEX — Repo Map (2026-08-02 lean)
 
-**⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-08-02)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED; NATIVE RETURN/DENSITY WINDOW OPEN:**
-Read `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/AUDIT_REPORT.md`, then
-`LAY_REPORT.md`, `SCOPE_CORRECTION.md`, `EXACT_DERIVATION.md`, `OWNERSHIP_ATLAS.tsv`,
-`BACKGROUND_WINDOW_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
+**➤ CURRENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC COMPATIBILITY AUDITED; EXACT–HARMONIC JOINT OPEN:**
+Read `udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/AUDIT_REPORT.md`, then
+`LAY_REPORT.md`, `EXACT_DERIVATION.md`, `RELATION_OUTCOMES.tsv`, `STATUS_LEDGER.tsv`,
+`OUTCOME_PREMISE_AUDIT.tsv`, and `NEXT_STEP.md`.
 
-On all four FC07 unique-`H1` completions, the metric's harmonic line is exactly the founded
-reciprocal ruler line for arbitrary smooth finite descending `phi` and every descending member of
-the tested bounded lower-triangular family. The angular sector changes the line's local harmonic
-calibration through `sqrt(det(h))` and one whole-cell `phi`/area integral, but does not rotate it.
-The unrescaled ruler is spatially harmonic iff angular area is constant.
+The parent ownership theorem stands: `alpha` and `theta1` share one line/projector on the bounded
+FC07 family. The new 16-route audit finds no active Reciprocity, composition, seal, or descent
+premise that fixes their scalar relation. `dphi`, `theta1`, and `alpha` instead carry zero exact
+period, positive physical length, and primitive topological period. A nonzero constant
+`dphi=k alpha` join is impossible on a closed base; a variable zero-mean coefficient is unselected.
 
-The ownership identity has no finite curvature window inside the smooth compact nondegenerate
-bounded family. This does not eliminate a downstream matter-supporting density/energy/curvature
-window; no native equation, same-solution return, or density–curvature bridge currently supplies
-one. The function-level mixing family is explicitly `CHOSE`, contains the registered pointwise E02
-members, and is conditional on supplied global descent.
+The angular sector supplies one exact cut: raw `theta1` is harmonic, and `alpha=k theta1` has a
+cell-wide coefficient, iff angular area is constant. The harmonic flux/capacity and the constant
+`c_E L/I` wedge are real readouts with unselected levels. Supplied density would make
+`sqrt(G_obs rho_tot)/c_E` dimensionally available as an inverse length, but no native relation
+places it; therefore no density scan or window is licensed.
 
-Preregistration `37df6a1`; freeze `08823ce`; evidence `04f11fd`; 16 sources; 13 anchors; 45 exact
-production checks; 68 independent checks; 20/20 semantic catches; six frozen manifests / 133
-paths; premise/navigation gates; and tests `70 passed, 1 xfailed` pass. Two full replays return
-manifest SHA-256 `99dab04084eaef666b7665352ac7ddcc054f90f9f13e920605c04efbbfc96120`.
-Grade: `VERIFIED-WITH-CAVEATS`; no fresh zero-context/external semantic review was run.
+Preregistration `090f8ee`; freeze `47d5610`; evidence `a6f7ea2`; 17 sources; 14 anchors; 43 exact
+checks; 39 independent checks; 20/20 catches; six frozen manifests / 133 paths; current-path and
+frontier gates; and tests `70 passed, 1 xfailed` pass. Package SHA-256
+`fe4d142595f5902b3c05fc746412d255fe025e6a1b406f6f14b389602146c324`. Grade:
+`VERIFIED-WITH-CAVEATS`; no fresh zero-context/external review.
 
-Proposed next, not launched: test whether Reciprocity, finite-cell seal/composition, or global
-coframe descent requires a nonconventional relation between normalized `alpha` and founded
-`theta1`. It must restrict the same local family before any density bracketing. No bootstrap
-closure, `X_max`, action, carrier, density, GPU work, or follow-on derivation is authorized.
+Proposed next, not launched: broaden the coframe and exhaustively test metric-derived
+exact-to-harmonic response candidates before introducing `rho_tot`. No bootstrap closure, action,
+carrier, density window, `X_max`, GPU work, or follow-on derivation is authorized.
+
+**➤ PARENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED:**
+`udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/` remains the authority for the four
+unique-`H1` completions, exact line/projector ownership, angular-area modulation, and bounded
+mixing-independence theorem.
 
 **➤ PARENT SCIENTIFIC FRONTIER — BOOTSTRAP/PROJECTOR INTERFACE TYPED; COMPLETE INTERSECTION OPEN:**
 `udt_bootstrap_projector_admissibility_interface_2026-08-01/` remains the authority for the six

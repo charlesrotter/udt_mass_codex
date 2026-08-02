@@ -2,72 +2,76 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-08-01).** Synchronize before orientation.
+**⚠ BRANCH: work is on `grok` (2026-08-02).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED; NATIVE RETURN/DENSITY WINDOW OPEN) ============
+## ============ CURRENT STATE (2026-08-02 — FC07 RECIPROCAL–HARMONIC COMPATIBILITY AUDITED; EXACT–HARMONIC JOINT OPEN; NO DENSITY SCAN YET) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
-`SCOPE_CORRECTION.md` → `EXACT_DERIVATION.md` → `OWNERSHIP_ATLAS.tsv` →
-`BACKGROUND_WINDOW_ATLAS.tsv` → `STATUS_LEDGER.tsv` and `OUTCOME_PREMISE_AUDIT.tsv`. Then read
-the parent response package at `udt_fc07_cartan_response_return_audit_2026-08-01/` and the open
-six-level interface at `udt_bootstrap_projector_admissibility_interface_2026-08-01/`.
+`udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/AUDIT_REPORT.md` → `LAY_REPORT.md` →
+`EXACT_DERIVATION.md` → `RELATION_OUTCOMES.tsv` → `STATUS_LEDGER.tsv` →
+`OUTCOME_PREMISE_AUDIT.tsv` → `NEXT_STEP.md`. Then read the parent ownership theorem at
+`udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/` and the open six-level interface at
+`udt_bootstrap_projector_admissibility_interface_2026-08-01/`.
 
-**RESULT:**
-`FOUR_UNIQUE_H1_FC07_COMPLETIONS_HAVE_EXACT_RECIPROCAL_HARMONIC_LINE_OWNERSHIP_FOR_ARBITRARY_SMOOTH_FINITE_DESCENDING_PHI_AND_EVERY_DESCENDING_MEMBER_OF_A_BOUNDED_LOWER_TRIANGULAR_PAIR_SCREEN_MIXING_CLASS_CONTAINING_THE_REGISTERED_E02_MEMBERS__ANGULAR_AREA_MODULATES_THE_LOCAL_HARMONIC_AMPLITUDE_THROUGH_A_COMPLETE_CELL_NORMALIZATION__THE_UNRESCALED_RULER_IS_HARMONIC_IFF_ANGULAR_AREA_IS_CONSTANT__NO_NONTRIVIAL_BACKGROUND_CURVATURE_WINDOW_NATIVE_RETURN_EQUATION_DENSITY_BRIDGE_XMAX_OR_MATTER`.
-On minus-identity, order-four, order-six, and hyperbolic FC07 completions, the complete metric's
-unique harmonic one-form line is exactly the founded reciprocal ruler line after `phi` is allowed
-to vary and throughout the bounded descending lower-triangular mixing family.
+**RESULT:** `NO_ADDITIONAL_GEOMETRY_CUTTING_RELATION_DERIVED`. Across all 16 preregistered routes,
+observer Reciprocity, comparison composition, the current finite-cell/seal record, and supplied
+global coframe descent do not fix a scalar relation between Hodge-normalized `alpha` and founded
+`theta1` beyond their already-derived common line/projector in the bounded FC07 family.
 
-**PHI–ANGULAR JOINT:** the harmonic representative is
-`alpha=theta1/[I sqrt(det(h))]`, with
-`I=integral_cell L exp(phi)/sqrt(det(h)) ds`. The angular sector does not rotate the harmonic line;
-its local area and the complete cell's `phi`/area profile modulate the ruler's local harmonic
-amplitude. The raw, unrescaled `theta1` is spatially harmonic exactly when angular area is constant.
+**THREE-CHANNEL SEPARATION:** `dphi` is an exact local reciprocal-depth change with zero closed-loop
+period; `theta1` is the physical ruler with positive proper period `ell`; `alpha` is the primitive
+harmonic `H1` representative with topological period one. Composition, metric length, and integral
+cohomology govern different objects. A nonzero constant solder `dphi=k alpha` is impossible on a
+closed FC07 base. A variable `F` always exists with `dphi=F alpha` and `integral F alpha=0`, but no
+current premise selects `F`.
 
-**BACKGROUND RULING:** this ownership machinery exists throughout the smooth compact nondegenerate
-bounded family; it does not itself switch on within a finite curvature interval. Coframe
-degeneration is a domain boundary, and constant angular area is an equality stratum rather than a
-finite range. A limited matter-supporting density/energy/curvature range remains a live bootstrap
-hypothesis, but it must enter through a future native admissibility equation and same-solution
-return law. No native density–curvature bridge exists here.
+**ANGULAR AND GLOBAL READOUT:** `theta1` is harmonic—and `alpha=k theta1` with one cell-wide
+coefficient—exactly when angular area `D=sqrt(det(h))` is constant; then `k=1/ell`. No active premise
+requires constant area or fixes `ell`. The fiber flux and Hodge norm are controlled by `1/I`, and
+the complete reciprocal-harmonic wedge has constant coefficient `c_E L/I`. These are derived
+readouts whose level remains unselected, not same-solution return equations.
+
+**DENSITY RULING:** `c_E` and `G_obs` alone cannot form the inverse length needed to compare the
+topological and physical normalizations. If total proper density is independently supplied,
+`sqrt(G_obs rho_tot)/c_E` has the correct inverse-length dimensions. No native equation equates it
+to `1/(I D)`, `1/ell`, or another response, so no density value or admissibility window is scanned.
 
 **EXACT SCOPE/CORRECTION:** stationary torus-invariant FC07 spatial geometry, the four `b1=1`
 completions, and a chosen field-level lower-triangular mixing generalization containing the
 registered pointwise E02 members. Global mixing descent is supplied; J07/J11 are not solved.
-Upper-right, fiber-dependent, time-live, other-cohomology, equation, and matter sectors remain open.
-The original preregistration wording is controlled by the explicit scope correction.
+The complete physical seal/coframe/Hodge-slice lift is open; the simple even-reflection control is
+not physical seal authority. Upper-right, non-torus-invariant, time-live, other-topology, equation,
+and matter sectors remain open.
 
-**WHAT THIS CLOSES:** one previously separate lock tumbler is connected: the completion-derived
-harmonic ruler and the foundational reciprocal ruler are the same line on the stated family. The
-normalization is a real global-to-local phi–angular readout, but it does not restrict the geometry
-and therefore is not bootstrap closure.
+**EVIDENCE:** preregistration `090f8ee`; source freeze `47d5610`; evidence `a6f7ea2`; 17 frozen
+sources and 14 anchors; 43 exact SymPy checks; 39 independent no-SymPy `Fraction` checks; 20/20
+semantic catches; six frozen manifests / 133 paths; 1,114 current paths; 101 frontier targets; and
+tests `70 passed, 1 xfailed`. Package manifest SHA-256
+`fe4d142595f5902b3c05fc746412d255fe025e6a1b406f6f14b389602146c324`. Grade is
+`VERIFIED-WITH-CAVEATS`; the independent implementation was separate but ran in the same warm
+session, with no fresh zero-context/external semantic review.
 
-**EVIDENCE:** preregistration `37df6a1`; source freeze `08823ce`; evidence `04f11fd`; 16 frozen
-sources and 13 anchors; 45 exact SymPy checks; 68 independent no-SymPy `Fraction` checks; 20/20
-semantic catches; six frozen manifests / 133 paths; 1,114 current paths; 101 frontier targets;
-and tests `70 passed, 1 xfailed`. Two full replays return manifest SHA-256
-`99dab04084eaef666b7665352ac7ddcc054f90f9f13e920605c04efbbfc96120`. Grade is
-`VERIFIED-WITH-CAVEATS`; no fresh zero-context/external semantic review was authorized.
-
-**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** audit whether observer Reciprocity,
-finite-cell seal/composition, or global coframe descent requires any invariant relation between
-Hodge-normalized `alpha` and founded `theta1` beyond projective equality. A successful relation
-must restrict the same local family, not rename unit-period normalization. Only after a return
-relation exists should `rho_tot` be bracketed as an explicit working control. CPU first.
+**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** test whether a broader complete coframe
+(upper-right and non-torus-invariant sectors, CPU first) supplies a metric-derived, observer-natural
+exact-to-harmonic response with the required zero-period structure. Enumerate every metric-derived
+candidate rather than targeting a desired bridge. Only after a nonidentity same-solution relation
+survives may `rho_tot` be introduced as an explicit working control.
 
 **PREMISE STAMPS:** founded `phi` and reciprocal pair `DERIVED`; complete FC07 witnesses
 `CHOSE_AND_VERIFIED_OFFSHELL`; unique-`H1` harmonic line `DERIVED`; reciprocal line/projector
 ownership and angular-area modulation `DERIVED_CONDITIONAL_BOUNDED`; arbitrary mixing-field
-promotion `CHOSE_BOUNDED_GENERALIZATION`; global mixing descent `SUPPLIED_CONDITION`; bootstrap
-`WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; native return,
-density bridge/window, `X_max`, action, source, stability, and matter physics `OPEN`.
+promotion `CHOSE_BOUNDED_GENERALIZATION`; primitive period `TOPOLOGICAL_NORMALIZATION`; constant
+depth-harmonic solder `REFUTED_IN_BOUNDED_CLOSED_BASE`; physical seal lift `OPEN`; global mixing
+descent `SUPPLIED_CONDITION`; density scale `DIMENSIONALLY_AVAILABLE_IF_RHO_SUPPLIED` but native
+equality `OPEN`; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4`
+`CONDITIONAL`; native return, density window, `X_max`, action, source, stability, and matter `OPEN`.
 
-**AUTHORITY BOUNDARY:** no field promotion, descent law, extension, monodromy, completion,
-observer axis, screen profile, action, density value/window, carrier, bootstrap law, `X_max`,
-matter interpretation, or stability result is adopted. No follow-on derivation, GPU work,
-canonization, external transmission, or repository reorganization is authorized by this block.
+**AUTHORITY BOUNDARY:** no cohomology normalization is physical length; no even-reflection control
+is a physical seal; and no dimensional density scale is a return equation. No field promotion,
+descent law, extension, completion, action, density value/window, carrier, bootstrap law, `X_max`,
+matter interpretation, or stability result is adopted. No follow-on, GPU work, canonization,
+external transmission, or repository reorganization is authorized by this block.
 
 <!-- STARTUP_CURRENT_END -->
 
