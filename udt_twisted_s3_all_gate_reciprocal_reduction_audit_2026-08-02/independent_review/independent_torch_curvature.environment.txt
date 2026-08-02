@@ -1,0 +1,6 @@
+python_full=3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]
+torch=2.5.1+cu121
+cuda_build=12.1
+run_dtype=torch.float64
+cuda_available=False
+device=cpu

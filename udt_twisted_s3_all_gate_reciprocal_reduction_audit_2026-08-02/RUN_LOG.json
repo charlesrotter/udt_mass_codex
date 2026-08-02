@@ -1,0 +1,42 @@
+[
+  {
+    "label": "ENVIRONMENT",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/capture_environment.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "EXACT_DERIVATION",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/derive_invariant_certificate.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "ADJUDICATION",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/derive_adjudication.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "INDEPENDENT_REVIEW",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/independent_review/run_independent_capture.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "REPOSITORY_GATES",
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/verify_repository_gates.py"
+    ],
+    "exit_code": 0
+  }
+]

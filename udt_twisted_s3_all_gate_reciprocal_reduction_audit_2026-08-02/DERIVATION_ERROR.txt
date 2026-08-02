@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/derive_invariant_certificate.py", line 258, in <module>
+    raise SystemExit(main())
+  File "/home/udt-admin/udt_mass_codex/udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/derive_invariant_certificate.py", line 222, in main
+    result = invariant_jet(profile, lam, a_value, point)
+  File "/home/udt-admin/udt_mass_codex/udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/derive_invariant_certificate.py", line 168, in invariant_jet
+    assert trunc(gamma[upper][lower1][lower2] - gamma[upper][lower2][lower1], 2) == 0
+AssertionError

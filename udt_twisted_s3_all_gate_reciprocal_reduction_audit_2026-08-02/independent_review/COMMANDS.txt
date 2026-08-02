@@ -1,0 +1,6 @@
+# Reviewer-original commands (scratch paths)
+python3 /tmp/independent_torch_curvature.py | tee /tmp/independent_torch_curvature.stdout.json
+python3 -c "import sys,json;sys.path.insert(0,'/tmp');import independent_torch_curvature as m; p=(1/5,1/7,1/11); print(json.dumps([m.run(p,-1,1.0,'primary'),m.run(p,1,1.0,'primary'),m.run(p,0,1.0,'repeated')],indent=2))" | tee /tmp/independent_torch_curvature.additional.stdout.json
+
+# Repository-preserved deterministic replay
+python3 udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/independent_review/run_independent_capture.py
