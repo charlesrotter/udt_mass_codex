@@ -1,0 +1,11 @@
+id	path	role
+S01	udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/PREREGISTRATION.md	parent frozen scope
+S02	udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/EXACT_DERIVATION.md	parent exact claims
+S03	udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/AUDIT_REPORT.md	parent verdict wording
+S04	udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/COMPLETENESS_MAP.md	parent completeness wording
+S05	udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/derive_broader_response.py	parent primary implementation
+S06	udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/verify_broader_response_independent.py	parent independent implementation
+S07	udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/verify_audit.py	parent source/semantic verifier
+S08	udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/SOURCE_MANIFEST.tsv	parent source freeze
+S09	udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/PACKAGE_MANIFEST.sha256	parent package identity
+S10	LIVE.md	current navigation and post-freeze divergence control
