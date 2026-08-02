@@ -3,37 +3,38 @@
 **⚠ BRANCH: `grok` (2026-08-02)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — DEPTH/ANGULAR RESPONSE COLD-REVIEWED AND NARROWED; COMPLETE-FRAME PRODUCTION OPEN:**
-Read `udt_fc07_broader_coframe_hodge_response_review_2026-08-02/AUDIT_REPORT.md`, then
-`CORRECTION_LAYER.md`, `STATUS_OVERLAY.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`; then use the
-unchanged parent package `udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/` for raw
-evidence.
+**➤ CURRENT SCIENTIFIC FRONTIER — COMPLETE-CELL CARTAN CONTACT JOINT DERIVED; FULL-FRAME NATURALITY OPEN:**
+Read `udt_complete_cell_cartan_alternating_production_audit_2026-08-02/AUDIT_REPORT.md`, then its
+lay report, exact derivation, object-production ledger, branch-pullback atlas, and next step.
 
-Exact `dphi` and every smooth single-scalar `F(phi)dphi` have zero harmonic projection on a compact
-boundaryless spatial Hodge cell. In the **formal/free affine two-scalar coefficient class**, founded
-depth and screen-split angular log-area have one alternating direction modulo universally exact
-combinations: `lambda=(phi dsigma-sigma dphi)/2`. A fixed configuration may collapse it. Separate
-controls exhibit a nonzero harmonic signed-area loop and local curl/coexact capability.
+On the actual complete stationary `S3` family, the founded ruler Cartan equation contains
+`t1=kappa exp(phi)/det(P)`. With `sigma=log(|det(P)|/D0)`, this gives exactly
+`-dphi wedge dlog|t1|=dphi wedge dsigma`. The antisymmetric primitive from `phi` and `log|t1|`
+equals the cold-reviewed `lambda` modulo an exact constant-reference term. The alternating class is
+therefore encoded by a real complete-cell first-Cartan contact coefficient inside the registered
+ruler/screen split; it is no longer merely a formal two-scalar combination.
 
-Cold review preserves the parent theorem in scope. Chosen upper-right mathematical controls show
-only that pointwise ownership cannot be extrapolated to arbitrary pair embeddings; they lie outside
-the registered selected extension. Local screen rows descend by transition, not as individual
-global forms. Priority/“first motif” language is withdrawn.
+The `m=kappa exp(-phi)` decomposition is not load-bearing because local screen rotation can mix it
+with skew `L1`. The surviving `phi,t1` route is local-screen-`O(2)` and orientation safe after
+`|t1|`, but arbitrary pair/screen-changing frame descent remains open. Availability is not law
+selection.
 
-The motif remains `AVAILABLE_NOT_SELECTED`. `sigma` is typed by a supplied screen split; no
-complete-frame intrinsic extension, Cartan/curvature production coefficient, response equation,
-or density return is derived. Therefore no density scan or bootstrap window is licensed.
+The formal quotient is rank one with exact kernel dimension five. A complete `S3` off-shell witness
+has nonzero pullback; dependent/constant pullbacks collapse. Every frozen FC07 mapping torus has
+rank zero because `phi` is constant. Exact full curvature on the complete isotropic-screen `S3`
+control has no `phi`/`sigma` bilinear or alternating rows by two independent algebra organizations;
+full `GL(2)` curvature remains open.
 
-The fresh cold review returned `PASS_AFTER_REQUIRED_CORRECTIONS`. Parent package SHA-256 remains
-`5f9cbe9eeae15b82e9d79d290cbc0e8d056b8d8cd7af20c2b1818070c164ae36`; correction
-preregistration `b836df5`, closure `be70210`, 33/33 checks, 15/15 catches, 51/51 parent entries,
-15/15 historical source blobs, frozen/current-path/frontier gates, and tests pass. Review package
-SHA-256 `e106eb92847b7acfd300427921a405158b76b0a7592a42bd40c4ef420c2a122b`.
+Evidence: preregistration `4fd8b6e`, 29-source freeze `26615a7`, evidence `f29d40b`, 11/11 catches,
+six frozen manifests / 133 paths, current-path/frontier gates, and `70 passed, 1 xfailed`. Source
+manifest SHA-256 `38eb34a623f844991d4b17f18d239bbcce7248f82f34fd70a3dc0011e04f79a1`; package-manifest
+SHA-256 `cb5b63eff0c44971b35f031366e6db84721045c535effe018db5662648c44f57`. Evidence grade is
+`VERIFIED-WITH-CAVEATS` because no fresh blind model reviewed this return.
 
-Proposed next, not launched: freeze actual complete-cell first Cartan jets, quotient universally
-exact/presentation directions, retain branch-pullback rank changes, and test whether connection or
-curvature produces the candidate with a fixed coefficient and split-free angular scalar. No
-density, action, carrier, `X_max`, GPU, time-live, or follow-on derivation is authorized.
+Proposed next, not launched: release the isotropic screen within the same complete `S3` family,
+compute full `GL(2)` curvature, quotient screen presentation, and explicitly test pair/screen-
+changing coframes for tensorial descent, a derived reduction, or no descent. No density, action,
+carrier, `X_max`, GPU, time-live, or follow-on derivation is authorized.
 
 **➤ PARENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED:**
 `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/` remains the authority for the four

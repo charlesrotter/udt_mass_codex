@@ -5,87 +5,83 @@
 **⚠ BRANCH: work is on `grok` (2026-08-02).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-02 — DEPTH/ANGULAR RESPONSE COLD-REVIEWED AND NARROWED; COMPLETE-FRAME PRODUCTION OPEN) ============
+## ============ CURRENT STATE (2026-08-02 — COMPLETE-CELL CARTAN CONTACT JOINT DERIVED; FULL-FRAME NATURALITY OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_fc07_broader_coframe_hodge_response_review_2026-08-02/AUDIT_REPORT.md` →
-`CORRECTION_LAYER.md` → `STATUS_OVERLAY.tsv` → `LAY_REPORT.md` → `NEXT_STEP.md`. Then read the
-unaltered parent evidence at `udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/`, the parent
-compatibility package at `udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/`, and the
-six-level interface at `udt_bootstrap_projector_admissibility_interface_2026-08-01/`.
+`udt_complete_cell_cartan_alternating_production_audit_2026-08-02/AUDIT_REPORT.md` →
+`LAY_REPORT.md` → `EXACT_DERIVATION.md` → `OBJECT_PRODUCTION_LEDGER.tsv` →
+`BRANCH_PULLBACK_RANK_ATLAS.tsv` → `NEXT_STEP.md`. Then read the cold-reviewed parent at
+`udt_fc07_broader_coframe_hodge_response_review_2026-08-02/` and its unchanged parent evidence.
 
-**RESULT:** `COLD_REVIEW_PASS_AFTER_REQUIRED_CORRECTIONS`; retained bounded parent outcome
-`MINIMAL_CROSS_SECTOR_RESPONSE_EXISTS__LAW_SELECTION_OPEN`. On every compact,
-oriented, boundaryless Riemannian spatial cell, an exact form has zero harmonic projection. Thus
-`dphi` and every smooth single-scalar response `F(phi)dphi=dH(phi)` cannot alone feed the global
-harmonic channel. This theorem is independent of lower-triangularity and torus invariance in its
-stated Hodge domain.
+**RESULT:** `SPLIT_RELATIVE_DIFFERENTIAL_PRODUCTION_ONLY__PRIMITIVE_AND_NATURALITY_OPEN`, evidence
+grade `VERIFIED-WITH-CAVEATS` because the exact non-importing Koszul reconstruction was performed in
+the same warm context and no fresh blind model reviewed this return.
 
-**COLD-REVIEWED BOUNDED ALTERNATING CANDIDATE:** given the registered oriented screen split,
-`sigma=log(D/D0)` supplies the angular log-area scalar. The **formal/free affine two-scalar
-coefficient class**, modulo combinations universally exact for arbitrary independent
-`(phi,sigma)`, has one alternating direction:
+On the actual complete stationary `S3` general-screen family, the founded ruler structure equation
+contains the contact coefficient
 
 ```text
-lambda=(phi dsigma-sigma dphi)/2,
-dlambda=dphi wedge dsigma.
+dtheta1=dphi wedge theta1+t1 theta2 wedge theta3,
+t1=kappa exp(phi)/det(P).
 ```
 
-A fixed configuration need not realize that formal dimension: `sigma=2phi` collapses `lambda` to
-zero. A separate base-loop control gives a nonzero harmonic coefficient whose integral is signed
-area in depth/angular-area space. A separate non-torus control gives local curl/coexact capability,
-not by itself a harmonic component. Constant changes of the `phi` zero or `D0` alter `lambda` only
-by an exact form. Any historical-priority/“first motif” reading is withdrawn.
+With `sigma=log(|det(P)|/D0)`, the metric/coframe therefore gives the fixed identity
 
-**EXTRAPOLATION LIMIT, NOT A PARENT REVERSAL:** exact-versus-harmonic separation remains fully
-robust. The parent `alpha`/`theta1` common-line theorem also remains exact in its declared
-lower-triangular family. Chosen upper-right mathematical countercontrols show only that pointwise
-ruler/harmonic ownership cannot be extrapolated to arbitrary pair embeddings. They lie outside the
-registered positive-triangular complete-`phi` extension and are not physically adopted. The metric
-and local coframe descend with screen transition `diag(1,-1,-1)`; local `dy,dz` rows are not
-individually global forms.
+```text
+-dphi wedge dlog|t1| = dphi wedge dsigma.
+```
 
-**NATURALITY AND DENSITY RULING:** `lambda` is `AVAILABLE`, not selected. `sigma` remains typed by
-the supplied screen split, and no complete-frame intrinsic replacement or Cartan/curvature
-production coefficient has been derived. No current premise turns the motif into an equation,
-fixes its level, or relates it to `rho_tot`; therefore density bracketing remains unauthorized.
+The antisymmetric primitive built from founded `phi` and `log|t1|` equals
+`lambda=(phi dsigma-sigma dphi)/2` modulo an exact constant-reference term. This is a bounded
+advance over formal availability: an actual complete-cell first-Cartan contact coefficient carries
+the alternating differential class.
 
-**EXACT SCOPE:** universal compact-boundaryless Hodge theorem; the full six-dimensional
-formal/free affine two-scalar coefficient class; the two preregistered explicit upper-right
-controls on the minus-identity FC07 completion.
-Not exhaustive over arbitrary upper-right coframes, the other three monodromies, full Lorentzian
-clock/screen mixing, J07/J11, boundaries, time-live fields, higher derivative/curvature responses,
-action, carrier, source, matter, or bootstrap closure.
+**PRESENTATION CORRECTION:** the separately displayed `m=kappa exp(-phi)` term is not load-bearing.
+Its separation from the skew part of `L1` can mix under a position-dependent screen rotation. The
+surviving `phi,t1` route is invariant under local screen `O(2)` changes and, using `|t1|`, under
+screen orientation. It still depends on the registered ruler/screen split and is not yet a
+complete-frame-natural response.
 
-**EVIDENCE:** parent preregistration/freeze `fe7cf92`, evidence `7c29af5`, and unchanged parent
-manifest SHA-256 `5f9cbe9eeae15b82e9d79d290cbc0e8d056b8d8cd7af20c2b1818070c164ae36`.
-Fresh zero-context cold review returned `PASS_AFTER_REQUIRED_CORRECTIONS`; review preregistration
-`b836df5`, closure `be70210`, 33/33 correction checks, 15/15 catches, 51/51 parent entries, 15/15
-historical source Git blobs, six frozen manifests / 133 paths, 1,114 current paths, 101 frontier
-targets, and tests `70 passed, 1 xfailed`. Review manifest SHA-256
-`e106eb92847b7acfd300427921a405158b76b0a7592a42bd40c4ef420c2a122b`.
+**FORMAL VERSUS BRANCH RANK:** the affine two-scalar quotient remains rank one with a
+five-dimensional universally exact kernel. A smooth complete `S3` off-shell witness has nonzero
+`dphi wedge dsigma`. Functionally dependent, constant-depth, and constant-area pullbacks collapse.
+All eight actual complete FC07 mapping tori collapse because `phi=phi0` is constant. Taxonomy-only
+completion rows without joined Cartan data remain blocked rather than negative.
 
-**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** the cold gate is closed. Freeze the actual
-complete finite-cell first Cartan jets, quotient universally exact and presentation directions,
-track formal versus branch-pullback ranks separately, and test whether connection or curvature
-produces the alternating depth/log-area candidate with a fixed observer-natural coefficient and a
-split-free angular scalar. Retain no-production and multiple-response outcomes. Reconsider density
-only after a nonidentity observer-natural same-solution relation is derived.
+**CONNECTION/CURVATURE LIMIT:** a Levi-Civita connection coefficient is not a tensor and cannot by
+itself be promoted to an observer-natural one-form. Full exact curvature on the complete
+isotropic-screen `S3` control has six nonzero lower-pair blocks but zero `phi`/`sigma` bilinear rows
+and zero alternating projections by two independent algebra organizations. Full `GL(2,R)` shear/
+rotation curvature is still open; the bounded zero is not extrapolated.
+
+**EVIDENCE:** preregistration `4fd8b6e`; 29-source freeze `26615a7`, source-manifest SHA-256
+`38eb34a623f844991d4b17f18d239bbcce7248f82f34fd70a3dc0011e04f79a1`; evidence commit
+`f29d40b`; exact quotient rank `1`, kernel dimension `5`, constructive complete-`S3` witness,
+mandatory FC07 rank-zero control, full torsion/integrability checks, independent Koszul curvature,
+and 11/11 catches. Package-manifest SHA-256
+`cb5b63eff0c44971b35f031366e6db84721045c535effe018db5662648c44f57`. Six frozen manifests / 133
+paths, 1,114 current paths, 101 frontier targets, premise guards, and tests `70 passed, 1 xfailed`.
+
+**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** release the isotropic screen inside the same
+complete stationary `S3` family; compute full `GL(2,R)` curvature, quotient local `O(2)`
+presentation, and test explicit pair/screen-changing coframes. Determine whether the contact joint
+has a tensorial split contraction, a derived-reduction connection law, or no split-free descent.
+Retain all outcomes. Reconsider density only after a nonidentity complete-frame-natural
+same-solution relation survives.
 
 **PREMISE STAMPS:** founded `phi` and reciprocal pair `DERIVED`; exact-form harmonic obstruction
-`DERIVED_MATHEMATICS`; formal alternating direction `COLD_VERIFIED_AVAILABLE_BOUNDED_CLASS` with
-fixed-pullback rank `VARIABLE_OR_COLLAPSIBLE`; harmonic and coexact examples
-`COLD_VERIFIED_SEPARATE_CONSTRUCTIVE_CONTROLS`; screen scalar `DERIVED_GIVEN_TYPED_SPLIT`;
-complete-frame naturality `OPEN`; parent lower-triangular ownership `DERIVED_CONDITIONAL_BOUNDED`;
-upper-right examples `MATHEMATICAL_COUNTERCONTROLS_NOT_PHYSICAL_EXTENSIONS`; physical response law
-and density return `OPEN`; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4`
+`DERIVED_MATHEMATICS`; formal alternating direction `COLD_VERIFIED_AVAILABLE_BOUNDED_CLASS`;
+contact coefficient `t1` `DERIVED_GIVEN_REGISTERED_SPLIT`; alternating Cartan differential
+`DERIVED_GIVEN_REGISTERED_SPLIT`; primitive `AVAILABLE_MODULO_EXACT_REFERENCE`; `m` separation
+`PRESENTATION_DEPENDENT_NOT_LOAD_BEARING`; complete-frame naturality, physical response law, and
+density return `OPEN`; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4`
 `CONDITIONAL`; `X_max`, action, source, stability, mass, and matter remain `OPEN`.
 
-**AUTHORITY BOUNDARY:** an available alternating one-form is not a selected law; a signed loop area
-is not a source or mass; an upper-right countercontrol is not an adopted physical coframe; and a
-dimensionally available density scale is not a return equation. No follow-on, density scan,
-time-live/GPU work, action, carrier, matter solve, canonization, external transmission, or
-repository reorganization is authorized by this block.
+**AUTHORITY BOUNDARY:** Cartan availability is not law selection; the off-shell `S3` witness is not
+a physical branch; the isotropic curvature zero is not a general-screen no-go; and no density,
+source, mass, or bootstrap equation follows. No follow-on, density scan, time-live/GPU work, action,
+carrier, matter solve, canonization, external transmission, or repository reorganization is
+authorized by this block.
 
 <!-- STARTUP_CURRENT_END -->
 

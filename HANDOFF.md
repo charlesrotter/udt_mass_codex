@@ -6,60 +6,49 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-02).** Synchronize it before orientation.
 
-## CURRENT — depth/angular response cold-reviewed and narrowed; complete-frame production open
+## CURRENT — complete-cell Cartan contact joint derived; full-frame naturality open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_fc07_broader_coframe_hodge_response_review_2026-08-02/AUDIT_REPORT.md`, then
-   `CORRECTION_LAYER.md`, `STATUS_OVERLAY.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
-4. Read the unchanged parent package `udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/`,
-   then `udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/` and the open six-level join
-   at `udt_bootstrap_projector_admissibility_interface_2026-08-01/`.
+3. `udt_complete_cell_cartan_alternating_production_audit_2026-08-02/AUDIT_REPORT.md`, then its lay
+   report, exact derivation, object ledger, branch-rank atlas, and next step.
+4. Read `udt_fc07_broader_coframe_hodge_response_review_2026-08-02/` and its unchanged parent only
+   when the formal affine/Hodge theorem or upper-right controls are load-bearing.
 
-**Current honest result:** exact depth alone cannot create a harmonic response on a compact
-boundaryless Hodge cell. The cold-reviewed formal/free affine two-scalar coefficient class has one
-alternating direction modulo combinations universally exact for independent `(phi,sigma)`:
-`lambda=(phi dsigma-sigma dphi)/2`. Fixed configurations can collapse it; `sigma=2phi` gives zero.
+**Current honest result:** on the actual complete stationary `S3` family, the founded ruler Cartan
+equation has `t1=kappa exp(phi)/det(P)`. Therefore
+`-dphi wedge dlog|t1|=dphi wedge dsigma` exactly. The antisymmetric primitive from `phi` and
+`log|t1|` is the cold-reviewed `lambda` modulo an exact reference term. This is actual split-relative
+Cartan production, not yet a selected response law.
 
-**Sharp bounded advance:** one base-loop control gives a nonzero harmonic signed-area readout; a
-separate screen-dependent control gives local curl/coexact capability. Reference shifts are exact.
-This is an available alternating candidate in this audit, not a priority claim, connection/
-curvature output, or guaranteed direction in every fixed configuration.
+**Presentation guard:** `t1` is safe under local screen `O(2)` and orientation after `|t1|`; the
+displayed `m` separation is not and is explicitly non-load-bearing. Arbitrary pair/screen-changing
+frame descent remains open.
 
-**Extrapolation limit:** exact/harmonic separation and the parent lower-triangular ownership theorem
-remain intact. Chosen upper-right controls only refute extrapolation to arbitrary pair embeddings;
-they are outside the selected extension and are not physical UDT coframes. Screen rows descend by
-a transition and are not individually global forms.
+**Branch and curvature scope:** one smooth complete-`S3` off-shell witness has nonzero pullback;
+functionally dependent/constant pullbacks collapse. Every frozen FC07 mapping torus collapses
+because `phi` is constant. Full exact curvature on the isotropic-screen `S3` control contains zero
+`phi`/`sigma` bilinear or alternating rows by production and independent Koszul routes. Full
+general-screen curvature remains open.
 
-**Selection and density ruling:** the motif is available but unselected. Angular log-area still
-depends on the registered screen split, and no actual Cartan connection/curvature expression has
-been shown to produce `lambda` with a fixed coefficient. No return equation connects it to
-`rho_tot`; density remains closed.
+**Evidence:** preregistration `4fd8b6e`, source freeze `26615a7`, evidence `f29d40b`; 29 frozen
+sources, quotient rank `1`, exact kernel `5`, 11/11 catches, six frozen manifests / 133 paths,
+1,114 current paths, 101 frontier targets, and tests `70 passed, 1 xfailed`. Source manifest
+`38eb34a623f844991d4b17f18d239bbcce7248f82f34fd70a3dc0011e04f79a1`; package manifest
+`cb5b63eff0c44971b35f031366e6db84721045c535effe018db5662648c44f57`. Grade remains
+`VERIFIED-WITH-CAVEATS` without a fresh blind model.
 
-**Critical scope:** universal compact-boundaryless Hodge theorem; full six-direction formal/free
-affine two-scalar coefficient class; two preregistered upper-right controls on the minus-identity
-FC07 completion. Generic complete
-coframes, other monodromies, boundaries, J07/J11, time-live, curvature/higher-order responses,
-equations, action, carrier, and matter remain open.
+**Proposed next action, not launched:** release the isotropic screen inside the same complete `S3`
+family, compute full `GL(2)` curvature, quotient screen gauge, and explicitly test pair/screen-
+changing frame descent. Keep tensorial descent, derived-reduction connection, and no-descent
+outcomes alive. No `rho_tot` before a complete-frame-natural same-solution relation survives.
 
-**Evidence:** unchanged parent package SHA-256
-`5f9cbe9eeae15b82e9d79d290cbc0e8d056b8d8cd7af20c2b1818070c164ae36`; cold review
-`PASS_AFTER_REQUIRED_CORRECTIONS`; correction preregistration `b836df5`, closure `be70210`, 33/33
-checks, 15/15 catches, 51/51 parent entries, 15/15 historical source blobs, six frozen manifests /
-133 paths, and tests `70 passed, 1 xfailed`. Review SHA-256
-`e106eb92847b7acfd300427921a405158b76b0a7592a42bd40c4ef420c2a122b`.
-
-**Proposed next action, not launched:** the cold gate is closed. Audit frozen complete-cell first
-Cartan jets for production of the alternating candidate, quotienting universally exact and
-presentation directions and tracking formal versus branch-pullback ranks separately. Keep
-no-production alive. Do not introduce `rho_tot` before a native observer-natural return survives.
-
-**Authority boundary:** availability is not law selection; loop area is not mass/source;
-upper-right controls are not physical adoption. No density scan, action, carrier, bootstrap
-closure, `X_max`, matter claim, canonization, reorganization, GPU/time-live work, external
-transmission, or follow-on launch follows.
+**Authority boundary:** Cartan production is not law selection; an off-shell witness is not a
+physical branch; a bounded curvature zero is not a full no-go. No density scan, action, carrier,
+bootstrap closure, `X_max`, matter claim, canonization, reorganization, GPU/time-live work,
+external transmission, or follow-on launch follows.
 
 <!-- STARTUP_CURRENT_END -->
 
