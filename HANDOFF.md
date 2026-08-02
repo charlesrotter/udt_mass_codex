@@ -6,55 +6,53 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — branchwise projector census finds one complete off-shell positive family
+## CURRENT — projector geometry persists on full functional off-shell neighborhoods
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_branchwise_projector_holonomy_census_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
-   `EXACT_DERIVATION.md`, `BRANCH_OBJECT_GATE_LEDGER.tsv`, `STATUS_LEDGER.tsv`, and
-   `OUTCOME_PREMISE_AUDIT.tsv`.
-4. Use `REPORT_DISPOSITIONS.tsv`, `GROUP_DISPOSITIONS.tsv`, and
-   `DISCOVERY_HIT_DISPOSITIONS.tsv` only for census completeness or source adjudication.
-5. Read `udt_reciprocal_closure_joint_selector_audit_2026-08-01/` for the antecedent conditional
-   path/loop theorem; it does not select the present branch or action.
+3. `udt_projector_deformation_neighborhood_audit_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
+   `EXACT_DERIVATION.md`, `CENTER_NEIGHBORHOOD_ATLAS.tsv`, `EXACT_SUBFAMILY_ATLAS.tsv`,
+   `DEGENERACY_WALL_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
+4. Read `udt_branchwise_projector_holonomy_census_2026-08-01/` for the parent complete census and
+   `udt_reciprocal_closure_joint_selector_audit_2026-08-01/` for the conditional response theorem.
+   Neither selects an action or on-shell branch.
 
-**Current honest result:** the census found one complete global **off-shell configuration family**
-that supplies the missing geometric antecedent. In C01--C06 of the frozen twisted-`S3` family, the
-metric itself identifies a global clock line, twist-selected ruler line, rank-one ruler projector
-in the positive clock-orthogonal rank-three bundle, and its rank-two screen complement. Exact
-relative projector curvature is nonzero at the registered north event in all six cases. Thus the
-prior conditional path/loop response can be instantiated without inserting a projector on these
-named configurations.
+**Current honest result:** the positive geometric antecedent is not confined to the six frozen
+points. Every C01--C06 center lies inside an open `C3` functional neighborhood of stationary smooth
+complete `R x S3` configurations retaining the intrinsic clock certificate, global twist-selected
+ruler, rank-one projector/rank-two screen, global regularity and positive displayed slice, and
+nonzero relative projector curvature somewhere. The released directions include arbitrary small
+profile changes and all three screen-metric modes; screen-frame rotation remains coframe gauge.
 
-**What did not close:** no native equation or bootstrap return selects the configurations. All six
-screen weights survive; ambient holonomy remains full and does not preserve the grading; the
-positive connection is projected and path-covariant, not endpoint-only. The `S2` carrier is still
-`POSIT`, `L2+L4` remains `CONDITIONAL`, and action, coefficient, profile, boundary, source,
-dynamics, stability, mass, and physical-family interpretations remain open.
+**Exact deformation map:** for `P=exp[phi(lambda I+mu S1+nu S2)]`, the north-event equal-screen
+response contains `W23=1+(3lambda/50)^2`, so it never vanishes for real `lambda`. Shear introduces
+real local-response walls: one isolated zero in each one-shear plane and one affine line with both
+shears. They are retained off-shell strata. A north-event zero does not imply response vanishes
+elsewhere and is not an instability.
 
-**Complete census:** 239 reports, 280 discovery groups, and 4,461 literal hits each have one
-disposition. The 18 branch/object rows retain the positive twisted family, a parallel zero-response
-control, local `dphi` strata and their null failure, local spectral lines and degeneracies, toric
-set-valued lines, unselected involutions, the celestial fiber without a section, supplied-plane
-controls, full-holonomy obstruction, isotropy controls, and eleven incomplete completion classes.
+**What closed and what did not:** robustness of the intrinsic-projector/path-loop antecedent closes
+inside this bounded stationary complete configuration family. It does not put anything on shell,
+select a profile, screen, topology, action, coefficient, carrier, or bootstrap law, or establish
+dynamics, stability, mass, or matter. The `S2` carrier remains `POSIT`; `L2+L4` remains
+`CONDITIONAL` and was excluded from the map.
 
-**Evidence:** preregistration `b390d75`; exact algebra 32/32; independent no-SymPy replay 26 checks;
-19/19 mutation catches; 1,270 frozen source blobs; six frozen manifests / 133 paths; current premise
-guards; 1,114 current paths; 101 frontier targets; tests `70 passed, 1 xfailed`. One parent
-monolithic verifier correctly trips over its historically pinned older current-premise hash; its
-actual derivation and independent full-Riemann replay pass, and the frozen manifest is not edited.
-Fresh external review of this package remains unrequested and open.
+**Evidence:** preregistration `edf79d5`; evidence `514f6ad`; exact SymPy derivation; independent
+standard-library exterior-to-Cartan reconstruction 49 checks; 24/24 fail-closed mutations; fifteen
+source hashes; six frozen manifests / 133 paths; current premise guards; 1,114 current paths; 101
+frontier targets; tests `70 passed, 1 xfailed`. Package-manifest SHA-256:
+`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. Fresh external semantic
+review remains open and unauthorized, so the grade is `VERIFIED-WITH-CAVEATS`.
 
-**Proposed next action, not launched:** after authorized external adversarial review, map the full
-deformation neighborhoods of C01--C06 without an action and test persistence of the projector,
-global descent, and relative curvature. Then—and only then—compare the surviving region with an
-independently specified on-shell/bootstrap admissibility rule.
+**Proposed next action, not launched:** after authorized fresh semantic review, independently state
+the smallest same-solution stability/bootstrap admissibility rule and intersect it with this atlas
+without tuning it toward the positive region. If the native mass-energy functional needed to type
+that rule is absent, bank only the symbolic fixed-point formulation and missing-input ledger.
 
-**Authority boundary:** no configuration, projector principle, carrier, action, coefficient,
-boundary, bootstrap law, matter family, canonization, reorganization, GPU work, or further research
-launch follows automatically.
+**Authority boundary:** no configuration, neighborhood, wall, projector principle, carrier, action,
+coefficient, boundary, bootstrap law, matter family, canonization, reorganization, GPU work,
+external transmission, or further research launch follows automatically.
 
 <!-- STARTUP_CURRENT_END -->
 

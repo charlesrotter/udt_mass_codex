@@ -3,33 +3,44 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — COMPLETE OFF-SHELL PROJECTOR FAMILY FOUND; NATIVE SELECTION OPEN:**
-Read `udt_branchwise_projector_holonomy_census_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
-`EXACT_DERIVATION.md`, `BRANCH_OBJECT_GATE_LEDGER.tsv`, `STATUS_LEDGER.tsv`, and
-`OUTCOME_PREMISE_AUDIT.tsv`. Use the three disposition tables only to audit the exhaustive frozen-
-base census. The antecedent conditional response theorem remains in
-`udt_reciprocal_closure_joint_selector_audit_2026-08-01/`.
+**➤ CURRENT SCIENTIFIC FRONTIER — PROJECTOR GEOMETRY PERSISTS ON FUNCTIONAL OFF-SHELL NEIGHBORHOODS:**
+Read `udt_projector_deformation_neighborhood_audit_2026-08-01/AUDIT_REPORT.md`, then
+`LAY_REPORT.md`, `EXACT_DERIVATION.md`, `CENTER_NEIGHBORHOOD_ATLAS.tsv`,
+`EXACT_SUBFAMILY_ATLAS.tsv`, `DEGENERACY_WALL_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and
+`OUTCOME_PREMISE_AUDIT.tsv`. The parent complete census is
+`udt_branchwise_projector_holonomy_census_2026-08-01/`; the antecedent conditional response theorem
+is `udt_reciprocal_closure_joint_selector_audit_2026-08-01/`.
 
-The census found a positive complete-configuration witness. In all six frozen twisted-`S3`
-configurations C01--C06, the metric intrinsically recovers a global clock line and twist-selected
-ruler line. The ruler defines a rank-one projector in the positive clock-orthogonal rank-three
-bundle, with a unique rank-two screen complement. Exact relative projector curvature is nonzero at
-the registered north event for all six configurations; an independent standard-library rational
-implementation reproduces all six fractions exactly.
+Every C01--C06 center lies in an open `C3` functional neighborhood within the registered
+stationary complete `R x S3` off-shell family. Arbitrary small profile changes and the full screen
+area/two-shear metric response preserve the intrinsic clock certificate, global twist-selected
+ruler, rank-one projector/rank-two screen, global regularity, and nonzero relative projector
+curvature somewhere. The result is a continuity theorem in the full released functional
+directions, not a finite grid and not an explicit radius.
 
-This closes the projector antecedent only on named complete **off-shell configurations**. It does
-not select them through a native action or bootstrap return. Full ambient holonomy remains
-`so(1,3)`, the reciprocal grading is path-labelled rather than parallel, and all six `lambda`
-values survive. The `S2` carrier stays `POSIT`; `L2+L4`, its coefficient, and its physical role stay
-`CONDITIONAL`; action, boundary, source, dynamics, stability, mass, and physical family remain
-`OPEN`.
+The exact symmetric-screen chart makes the internal structure visible. Along the entire
+equal-screen axis, `W23=1+(3lambda/50)^2`, so no real `lambda` zero occurs. With shear released,
+one isolated north-event zero occurs in each one-shear plane and one affine zero line occurs in the
+two-shear chart. These local response-certificate walls remain in the atlas; they are not
+instabilities, global zero-response theorems, or physical branches.
 
-The audit dispositioned 239 reports, 280 groups, 4,461 literal hits, and 18 branch/object cases.
-Exact algebra passes 32/32, independent replay 26 checks, mutations 19/19, and 1,270 frozen source
-blobs replay. Six frozen manifests / 133 paths, premises, navigation, and tests
-`70 passed, 1 xfailed` pass. Fresh external semantic review of this package is not yet authorized.
-The proposed next step—only after that review—is a deformation-neighborhood persistence map around
-C01--C06, not adoption of an action or carrier.
+This closes robustness of the projector/path-loop antecedent only in the bounded stationary
+complete configuration family. It does not select any configuration or neighborhood on shell. The
+`S2` carrier remains `POSIT`; `L2+L4` remains `CONDITIONAL`; action, coefficient, profile, screen,
+topology, boundary, source, dynamics, stability, mass, and physical family remain `OPEN`.
+
+Preregistration `edf79d5`; evidence `514f6ad`; exact SymPy algebra, 49-check no-SymPy independent
+reconstruction, 24/24 mutation catches, fifteen frozen sources, six frozen manifests / 133 paths,
+premises, navigation, and tests `70 passed, 1 xfailed` pass. Package-manifest SHA-256 is
+`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. Fresh external semantic
+review remains unauthorized, so the result is `VERIFIED-WITH-CAVEATS`. The proposed next test is an
+independently stated same-solution stability/bootstrap admissibility rule intersected with this
+atlas; no external transmission, bootstrap law, density scan, or follow-on work is launched.
+
+**➤ PARENT SCIENTIFIC FRONTIER — COMPLETE OFF-SHELL PROJECTOR FAMILY FOUND:**
+The exhaustive parent census at `udt_branchwise_projector_holonomy_census_2026-08-01/` remains the
+authority for 239 report, 280 group, 4,461 literal-hit, and 18 branch/object dispositions, including
+all negative, degenerate, set-valued, control, and incomplete cases.
 
 **➤ PRIOR SCIENTIFIC FRONTIER — F02 COMPLETION GATE NARROWED; TRANSITION/JOIN DATA OPEN:**
 Read `udt_f02_global_completion_admissibility_2026-08-01/AUDIT_REPORT.md`, its lay report,

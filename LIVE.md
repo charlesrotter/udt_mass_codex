@@ -5,60 +5,72 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — COMPLETE-BRANCH PROJECTOR WITNESS FOUND; OFF-SHELL AND REVIEW-PENDING) ============
+## ============ CURRENT STATE (2026-08-01 — PROJECTOR GEOMETRY PERSISTS ON FUNCTIONAL OFF-SHELL NEIGHBORHOODS) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_branchwise_projector_holonomy_census_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
-`EXACT_DERIVATION.md` → `BRANCH_OBJECT_GATE_LEDGER.tsv` → `STATUS_LEDGER.tsv` and
-`OUTCOME_PREMISE_AUDIT.tsv`. The antecedent response theorem remains in
-`udt_reciprocal_closure_joint_selector_audit_2026-08-01/`; do not read it as branch selection.
+`udt_projector_deformation_neighborhood_audit_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
+`EXACT_DERIVATION.md` → `CENTER_NEIGHBORHOOD_ATLAS.tsv` → `EXACT_SUBFAMILY_ATLAS.tsv` →
+`DEGENERACY_WALL_ATLAS.tsv` → `STATUS_LEDGER.tsv` and `OUTCOME_PREMISE_AUDIT.tsv`. The parent census
+remains in `udt_branchwise_projector_holonomy_census_2026-08-01/`; the conditional response theorem
+remains in `udt_reciprocal_closure_joint_selector_audit_2026-08-01/`.
 
-**RESULT:** `COMPLETE_OFFSHELL_CONFIGURATION_FAMILY_SUPPLIES_INTRINSIC_RANK_ONE_PROJECTOR_AND_NONZERO_RELATIVE_CURVATURE`.
-The exhaustive frozen-base census dispositioned 239 audit reports, 280 discovery groups, and 4,461
-literal source hits. Eighteen distinct branch/object cases retain positive, negative, set-valued,
-degenerate, control, and incomplete outcomes.
+**RESULT:** `SIX_COMPLETE_OFFSHELL_CENTERS_LIE_INSIDE_OPEN_FULL_PROFILE_AND_SCREEN_PROJECTOR_NEIGHBORHOODS`.
+All six C01--C06 centers have genuine open `C3` neighborhoods inside the registered stationary
+complete `R x S3` family where the metric retains the intrinsic clock certificate, twist-selected
+ruler, rank-one projector/rank-two screen, global regularity and positive displayed slice, and
+nonzero relative projector curvature somewhere.
 
-**BOUNDED POSITIVE:** in all six frozen complete twisted-`S3` configurations C01--C06, the metric
-already identifies a global timelike clock line and a twist-selected global spacelike ruler line.
-The ruler gives a rank-one projector `P_n` in the positive clock-orthogonal rank-three bundle, with
-the intrinsic rank-two screen as complement. Exact north-event reconstruction finds nonzero
-relative projector curvature in all six cases (`634/625`, `2509/2500`, `1`, `10009/10000`,
-`2509/2500`, `634/625`). A no-SymPy `Fraction` implementation reproduces every value exactly.
+**WHAT WAS RELEASED:** arbitrary small smooth profile changes and the complete screen response:
+area, both metric shears, and the `O(2)` coframe-gauge direction. The proof uses exact nonzero center
+margins plus continuity in the correct finite-jet topology; it establishes functional
+neighborhoods, not a finite sampled box or an explicit radius.
 
-**WHAT THIS CLOSES:** the prior projector-response theorem no longer requires an inserted projector
-on these named configurations. Their metric supplies the reduction and a nontrivial path/loop
-geometry. This is `DERIVED_CONDITIONAL_ON_NAMED_REGISTERED_COMPLETE_OFFSHELL_CONFIGURATION`, not a
-universal UDT projector or native carrier.
+**EXACT NEW MAP:** for the symmetric screen chart
+`P=exp[phi(lambda I+mu S1+nu S2)]`, the north-event components are
+`W12=(6lambda+6mu-3nu+50)/2500`,
+`W13=(-3lambda+3mu+6nu+100)/2500`, and
+`W23=1+(9/2500)(lambda^2-mu^2-nu^2)`. Along the full equal-screen axis,
+`W23=1+(3lambda/50)^2>=1`; no real `lambda` zero exists. Releasing shear exposes retained
+response-certificate walls: one isolated zero in each one-shear plane and one affine zero line in
+the two-shear chart. These are local off-shell response strata, not instabilities or physical
+branches, and response elsewhere may remain nonzero.
 
-**WHAT REMAINS OPEN:** these are smooth complete law-neutral configurations, not solutions selected
-by a native action or bootstrap return. All six `lambda` values survive. Full ambient sampled
-holonomy is still `so(1,3)`, so the reciprocal grading is not parallel or endpoint-only; the
-positive object is a covariant intrinsic field with projected connection. `L2+L4` remains a
-conditional response/action, the `S2` carrier remains `POSIT`, and profile, topology, coefficient,
-boundary, source, dynamics, stability, mass, and physical-family assignments remain open.
+**WHAT THIS CLOSES:** the metric-derived projector/path-loop antecedent is robust inside this
+bounded complete configuration family rather than fine-tuned to six points. Maximum status is
+`DERIVED_CONDITIONAL_ON_REGISTERED_STATIONARY_COMPLETE_OFFSHELL_FAMILY`. This strengthens one
+upstream geometric ingredient of the stability hypothesis; it is not a stability calculation.
 
-**EVIDENCE:** preregistration banked at `b390d75`; exact SymPy 1.13.1 algebra passes 32/32;
-independent standard-library rational replay passes 26 checks; 19/19 mutations fail closed; 1,270
-frozen source blobs replay; the four load-bearing parent algebra packages replay except one
-explicitly recorded current-path premise-manifest drift, whose derivation and independent
-full-Riemann calculation pass. Six frozen manifests / 133 paths, premise guards, 1,114 current
-paths, 101 frontier targets, and tests `70 passed, 1 xfailed` pass. Fresh external semantic review
-of this new package is `OPEN_NOT_AUTHORIZED`.
+**WHAT REMAINS OPEN:** no native equation or same-solution bootstrap return selects this family or
+any part of its neighborhood. The `S2` carrier remains `POSIT`; `L2+L4` remains `CONDITIONAL` and
+was not used; action, coefficient, profile, screen, topology, boundary, source, dynamics,
+stability, mass, and physical-family assignments remain open. Nonstationary, non-block, and other
+completion neighborhoods are outside this audit.
 
-**NEXT JUSTIFIED TEST — PROPOSED, NOT LAUNCHED:** after an authorized fresh adversarial review,
-map the full deformation neighborhoods of C01--C06 to determine where intrinsic clock/ruler
-uniqueness, global descent, and nonzero relative projector curvature persist or cross degeneracy
-walls. Only afterward test intersection with an independently registered on-shell/bootstrap rule.
+**EVIDENCE:** preregistration `edf79d5`; evidence commit `514f6ad`; exact SymPy 1.13.1 derivation;
+independent no-SymPy exterior-to-Cartan rational replay passes 49 checks; 24/24 semantic mutations
+fail closed; fifteen source paths are frozen by Git blob/SHA-256. Six frozen manifests / 133 paths,
+premise guards, 1,114 current paths, 101 frontier targets, links, and tests `70 passed, 1 xfailed`
+pass. Package-manifest SHA-256 is
+`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. Fresh external semantic
+review remains `OPEN_NOT_AUTHORIZED`, so the grade is `VERIFIED-WITH-CAVEATS`.
 
-**PREMISE STAMPS:** founded `phi` and reciprocal pair action `DERIVED`; C01--C06 configuration
-formulas `SOURCE_CONDITIONAL_OFFSHELL`; their intrinsic ruler projector and nonzero relative
-curvature `DERIVED_CONDITIONAL_ON_NAMED_CONFIGURATION`; ambient reduced holonomy `REFUTED_ON_THESE_CONFIGURATIONS`;
-`S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; bootstrap `WORKING`; on-shell selection and complete
-matter physics `OPEN`.
+**NEXT JUSTIFIED TEST — PROPOSED, NOT LAUNCHED:** after authorized fresh semantic review, state the
+smallest stability/bootstrap on-shell admissibility rule independently of these outcomes and test
+its intersection with the complete neighborhood/wall atlas. The intersection may be empty,
+disconnected, boundary-only, or broad. Without a native same-solution mass-energy functional, the
+honest next product is a symbolic fixed-point/admissibility formulation and missing-input ledger,
+not an imported density scan.
 
-**AUTHORITY BOUNDARY:** no configuration, profile, `lambda`, projector principle, carrier, action,
-coefficient, boundary, bootstrap law, matter family, or physical interpretation is adopted. No GPU
-work, canonization, repository reorganization, or follow-on derivation is launched by this block.
+**PREMISE STAMPS:** founded `phi` and reciprocal pair action `DERIVED`; registered complete family
+`CHOSE_EXISTENCE_CONTROL`; functional projector persistence
+`DERIVED_CONDITIONAL_ON_REGISTERED_OFFSHELL_FAMILY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`;
+bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; on-shell selection, stability, and complete matter
+physics `OPEN`.
+
+**AUTHORITY BOUNDARY:** no configuration, neighborhood, wall, profile, screen, `lambda`, carrier,
+action, coefficient, boundary, bootstrap law, matter family, or physical interpretation is adopted.
+No external transmission, GPU work, canonization, repository reorganization, or follow-on
+derivation is launched by this block.
 
 <!-- STARTUP_CURRENT_END -->
 
