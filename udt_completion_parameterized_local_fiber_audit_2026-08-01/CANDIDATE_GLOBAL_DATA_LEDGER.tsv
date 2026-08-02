@@ -1,0 +1,13 @@
+candidate_id	global_data_class	question	forbidden_shortcut
+G01	POINTWISE_CURVATURE_DATA	Do curvature tensors/scalars themselves parameterize local admissibility?	forward_readout_called_return
+G02	PRESCRIBED_CURVATURE_LEVEL	Does a globally prescribed curvature value force a natural local fiber?	arbitrary_level_set_called_native
+G03	CURVATURE_SPECTRUM_OR_DISTRIBUTION	Is a choice-free global spectral/distribution object already defined?	operator_domain_measure_or_average_invented
+G04	CURVATURE_INTEGRAL_OR_NORMALIZED_AVERAGE	Is any integral/average native without action or weighting?	integral_weight_or_normalization_invented
+G05	PATH_LOOP_HOLONOMY	Does registered holonomy constrain local data without adding parallelism?	conditional_path_output_called_local_law
+G06	DISCRETE_TOPOLOGY_COMPLETION_LABEL	Does the label alone change local compatibility?	label_called_response
+G07	TRANSITION_MONODROMY_REPRESENTATION	Does overlap/closed-identification descent define ker(M-I) fibers?	supplied_M_called_selected_physics
+G08	SMOOTH_CAP_DEGENERATION_DATA	Do cap regularity conditions define different local jet fibers?	chosen_cap_called_universal_boundary
+G09	SEAM_GLUE_MATCHING_DATA	Do registered seam laws define completion-conditioned local jet fibers?	incomplete_seam_law_filled_by_habit
+G10	COMPLETION_SCOPED_R_GEOM	Does the current partial readout schema include a return to local compatibility?	readout_schema_called_complete_R_or_A
+G11	COMPLETION_CONDITIONED_PROJECTOR_NEIGHBORHOOD	Can N_projector be intersected with derived completion fibers without selection?	projector_outcome_used_to_choose_completion
+G12	COMBINED_CURVATURE_COMPLETION_SELECTOR	Does any current rule select one fiber or completion using curvature?	separate_partial_objects_composed_into_invented_selector
