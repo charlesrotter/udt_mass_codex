@@ -1,0 +1,9 @@
+witness	P	modes	global	purpose
+W00_CONSTANT_ISOTROPIC	exp(u0)I	area_value_only	SMOOTH_COMPLETE_S3	zero_screen_jet_control
+W01_AREA	exp(u(x))I	area	SMOOTH_COMPLETE_S3	area_contact_control
+W02_SHEAR1	exp(uI+q1S1)	area;shear1	SMOOTH_COMPLETE_S3	first_shear_nonzero
+W03_SHEAR2	exp(uI+q2S2)	area;shear2	SMOOTH_COMPLETE_S3	second_shear_nonzero
+W04_TWO_SHEAR	exp(uI+q1S1+q2S2)	area;shear1;shear2	SMOOTH_COMPLETE_S3	full_metric_screen_response
+W05_ROTATION_GAUGE	O(chi)exp(uI+q1S1+q2S2)	area;two_shears;rotation	SMOOTH_COMPLETE_S3	full_coframe_response_and_gauge
+W06_ORIENTATION_REVERSE	reflection_times_W05	same_metric;opposite_screen_orientation	SMOOTH_COMPLETE_S3	reflection_control
+W07_DET_ZERO	detP_zero	undefined	DEGENERATE_NOT_CONFIGURATION	retained_boundary

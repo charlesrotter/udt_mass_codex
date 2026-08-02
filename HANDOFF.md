@@ -6,49 +6,46 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-02).** Synchronize it before orientation.
 
-## CURRENT — complete-cell Cartan contact joint derived; full-frame naturality open
+## CURRENT — full screen exposes a split-preserving contact norm; complete-frame descent open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_complete_cell_cartan_alternating_production_audit_2026-08-02/AUDIT_REPORT.md`, then its lay
-   report, exact derivation, object ledger, branch-rank atlas, and next step.
-4. Read `udt_fc07_broader_coframe_hodge_response_review_2026-08-02/` and its unchanged parent only
-   when the formal affine/Hodge theorem or upper-right controls are load-bearing.
+3. `udt_complete_cell_cartan_alternating_production_review_2026-08-02/AUDIT_REPORT.md`, correction
+   layer, and status overlay; its parent is immutable historical evidence.
+4. `udt_complete_cell_full_gl2_screen_frame_descent_audit_2026-08-02/AUDIT_REPORT.md`, then the lay
+   report, exact derivation, frame-descent atlas, invariant-object atlas, status ledger, and next step.
 
-**Current honest result:** on the actual complete stationary `S3` family, the founded ruler Cartan
-equation has `t1=kappa exp(phi)/det(P)`. Therefore
-`-dphi wedge dlog|t1|=dphi wedge dsigma` exactly. The antisymmetric primitive from `phi` and
-`log|t1|` is the cold-reviewed `lambda` modulo an exact reference term. This is actual split-relative
-Cartan production, not yet a selected response law.
+**Current honest result:** `SPLIT_RELATIVE_ONLY__NO_COMPLETE_FRAME_DESCENT`. The cold review retained
+the first-Cartan contact identity but corrected its meaning to encoding/reconstruction, not a new
+law. It also disproved the parent's broad zero-mixed-curvature wording: twelve mixed rows occur under
+each closure pivot; only a narrow aligned projection is zero.
 
-**Presentation guard:** `t1` is safe under local screen `O(2)` and orientation after `|t1|`; the
-displayed `m` separation is not and is explicitly non-load-bearing. Arbitrary pair/screen-changing
-frame descent remains open.
+With the full `GL(2)` screen retained, `q=(t0,t1)` is a contact Lorentz pair and
+`q_squared=t1^2-t0^2` is invariant under every local frame preserving the reciprocal pair/screen
+reduction. Off its null stratum,
+`dphi wedge dlog(sqrt(|q_squared|)/T0)=-dphi wedge dsigma` exactly.
 
-**Branch and curvature scope:** one smooth complete-`S3` off-shell witness has nonzero pullback;
-functionally dependent/constant pullbacks collapse. Every frozen FC07 mapping torus collapses
-because `phi` is constant. Full exact curvature on the isotropic-screen `S3` control contains zero
-`phi`/`sigma` bilinear or alternating rows by production and independent Koszul routes. Full
-general-screen curvature remains open.
+**Descent guard:** pair/screen-changing local rotations and boosts change `q_squared` while leaving
+the metric unchanged. The Riemann tensor survives, and its scalar contains the contact norm only as
+one entangled term among area, two shears, rotation, depth, and derivatives. No metric-only contact
+law or response selector follows.
 
-**Evidence:** preregistration `4fd8b6e`, source freeze `26615a7`, evidence `f29d40b`; 29 frozen
-sources, quotient rank `1`, exact kernel `5`, 11/11 catches, six frozen manifests / 133 paths,
-1,114 current paths, 101 frontier targets, and tests `70 passed, 1 xfailed`. Source manifest
-`38eb34a623f844991d4b17f18d239bbcce7248f82f34fd70a3dc0011e04f79a1`; package manifest
-`cb5b63eff0c44971b35f031366e6db84721045c535effe018db5662648c44f57`. Grade remains
-`VERIFIED-WITH-CAVEATS` without a fresh blind model.
+**Evidence:** review correction `9cd522c`; full-screen preregistration `d703d44`, source freeze
+`68879ed`, 23 frozen sources, 36/36 curvature rows independently matched, five closure equations,
+six Bianchi checks, Ricci scalar cross-check, and 14/14 catches. Source manifest
+`f5cfe5b53ca4e09eb877b96befa46ddcfb3ddccaec4780a5e9931e84c7934f50`; package manifest
+`fc7dd623fc7f07d4959c0cb8fe267f354e2b2a84e7c62bcf606c2b92e7fb3632`. Six frozen manifests / 133
+paths, 1,114 current paths, 101 frontier targets, and tests `70 passed, 1 xfailed` pass.
 
-**Proposed next action, not launched:** release the isotropic screen inside the same complete `S3`
-family, compute full `GL(2)` curvature, quotient screen gauge, and explicitly test pair/screen-
-changing frame descent. Keep tensorial descent, derived-reduction connection, and no-descent
-outcomes alive. No `rho_tot` before a complete-frame-natural same-solution relation survives.
+**Proposed next action, not launched:** premise-level adjudication of whether the founded reciprocal
+pair is physical reduction data or merely one Lorentz coframe presentation of the metric. Use only
+existing premises; invent no postulate.
 
-**Authority boundary:** Cartan production is not law selection; an off-shell witness is not a
-physical branch; a bounded curvature zero is not a full no-go. No density scan, action, carrier,
-bootstrap closure, `X_max`, matter claim, canonization, reorganization, GPU/time-live work,
-external transmission, or follow-on launch follows.
+**Authority boundary:** the complete `S3` family is an off-shell chosen existence control. No
+density scan, action, carrier, source, bootstrap closure, `X_max`, matter/mass claim, canonization,
+reorganization, GPU/time-live work, external transmission, or follow-on launch follows.
 
 <!-- STARTUP_CURRENT_END -->
 

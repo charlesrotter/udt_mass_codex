@@ -1,0 +1,15 @@
+catch_id	mutation	result
+C01	remove_second_shear	PASS_CAUGHT
+C02	filter_curvature_row	PASS_CAUGHT
+C03	omit_curvature_block	PASS_CAUGHT
+C04	drop_closure_equation	PASS_CAUGHT
+C05	replace_pair_norm_by_t1	PASS_CAUGHT
+C06	deny_pair_boost_invariance	PASS_CAUGHT
+C07	promote_full_frame_descent	PASS_CAUGHT
+C08	define_log_on_null	PASS_CAUGHT
+C09	promote_connection_tensor	PASS_CAUGHT
+C10	claim_scalar_selects_contact	PASS_CAUGHT
+C11	call_ansatz_exit_inconsistency	PASS_CAUGHT
+C12	promote_offshell_witness	PASS_CAUGHT
+C13	globalize_source_scope	PASS_CAUGHT
+C14	promote_physics	PASS_CAUGHT

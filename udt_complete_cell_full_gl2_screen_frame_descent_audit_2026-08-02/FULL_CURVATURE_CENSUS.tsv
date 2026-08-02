@@ -1,0 +1,37 @@
+curvature_pair	two_form_leg	depth_screen	depth_contact	screen_contact	shear_contact	expression
+Omega01	01	NO	NO	NO	NO	-E1_p1 + p1**2 - p2**2 - p3**2
+Omega01	02	YES	YES	NO	NO	(-2*E2_p1 + 2*a*p2 + 2*h1*p2 + 2*h2*p3 + 2*p1*p2 + p3*t1)/2
+Omega01	03	YES	YES	NO	NO	(-2*E3_p1 + 2*a*p3 - 2*h1*p3 + 2*h2*p2 + 2*p1*p3 - p2*t1)/2
+Omega01	12	NO	YES	NO	NO	p3*t0/2
+Omega01	13	NO	YES	NO	NO	-p2*t0/2
+Omega01	23	NO	YES	YES	NO	t0*(a + p1)
+Omega02	01	YES	YES	NO	NO	(-2*E1_p2 + 4*p1*p2 - 2*p3*r + p3*t1)/2
+Omega02	02	YES	NO	NO	NO	-(4*E2_p2 + 4*a*p1 + 4*h1*p1 - 4*p2**2 - 4*p3*u - t0**2)/4
+Omega02	03	YES	YES	NO	NO	(-2*E3_p2 - 2*h2*p1 + p1*t1 + 2*p2*p3 + 2*p3*v)/2
+Omega02	12	NO	NO	YES	YES	-t0*(2*h2 + t1)/4
+Omega02	13	NO	YES	YES	YES	t0*(a + h1 + p1)/2
+Omega02	23	NO	YES	NO	NO	t0*(3*p2 + sigma2)/2
+Omega03	01	YES	YES	NO	NO	(-2*E1_p3 + 4*p1*p3 + 2*p2*r - p2*t1)/2
+Omega03	02	YES	YES	NO	NO	-(2*E2_p3 + 2*h2*p1 + p1*t1 - 2*p2*p3 + 2*p2*u)/2
+Omega03	03	YES	NO	NO	NO	-(4*E3_p3 + 4*a*p1 - 4*h1*p1 + 4*p2*v - 4*p3**2 - t0**2)/4
+Omega03	12	NO	YES	YES	YES	-t0*(a - h1 + p1)/2
+Omega03	13	NO	NO	YES	YES	-t0*(-2*h2 + t1)/4
+Omega03	23	NO	YES	NO	NO	t0*(3*p3 + sigma3)/2
+Omega12	01	NO	YES	NO	NO	p3*t0/2
+Omega12	02	NO	NO	YES	YES	-t0*(2*h2 + t1)/4
+Omega12	03	NO	YES	YES	YES	-t0*(a - h1 + p1)/2
+Omega12	12	YES	NO	YES	YES	-(4*E1_a + 4*E1_h1 + 4*E2_p2 + 4*a**2 + 8*a*h1 + 4*h1**2 + 4*h2**2 + 8*h2*r - 4*h2*t1 + 4*p2**2 - 4*p3*u - t1**2)/4
+Omega12	13	YES	YES	YES	YES	(-2*E1_h2 - 2*E3_p2 - 4*a*h2 + 4*h1*r - 2*h1*t1 + p1*t1 - 2*p2*p3 + 2*p3*v)/2
+Omega12	23	NO	YES	NO	NO	(-2*E2_h2 + 2*E3_a + 2*E3_h1 - 4*h1*u - 4*h2*v + 3*p2*t1 - sigma2*t1)/2
+Omega13	01	NO	YES	NO	NO	-p2*t0/2
+Omega13	02	NO	YES	YES	YES	t0*(a + h1 + p1)/2
+Omega13	03	NO	NO	YES	YES	-t0*(-2*h2 + t1)/4
+Omega13	12	YES	YES	YES	YES	-(2*E1_h2 + 2*E2_p3 + 4*a*h2 - 4*h1*r + 2*h1*t1 + p1*t1 + 2*p2*p3 + 2*p2*u)/2
+Omega13	13	YES	NO	YES	YES	-(4*E1_a - 4*E1_h1 + 4*E3_p3 + 4*a**2 - 8*a*h1 + 4*h1**2 + 4*h2**2 - 8*h2*r + 4*h2*t1 + 4*p2*v + 4*p3**2 - t1**2)/4
+Omega13	23	NO	YES	NO	NO	(-2*E2_a + 2*E2_h1 + 2*E3_h2 + 4*h1*v - 4*h2*u + 3*p3*t1 - sigma3*t1)/2
+Omega23	01	NO	YES	YES	NO	t0*(a + p1)
+Omega23	02	NO	YES	NO	NO	t0*(3*p2 + sigma2)/2
+Omega23	03	NO	YES	NO	NO	t0*(3*p3 + sigma3)/2
+Omega23	12	YES	YES	NO	NO	-(2*E1_u + 2*E2_r + 2*a*p3 + 2*a*u + 2*h1*p3 + 2*h1*u - 2*h2*p2 + 2*h2*v + 2*p2*r - 3*p2*t1 + 2*r*v + sigma2*t1)/2
+Omega23	13	YES	YES	NO	NO	(-2*E1_v - 2*E3_r + 2*a*p2 - 2*a*v - 2*h1*p2 + 2*h1*v - 2*h2*p3 - 2*h2*u - 2*p3*r + 3*p3*t1 + 2*r*u - sigma3*t1)/2
+Omega23	23	NO	NO	YES	NO	(-4*E2_v + 4*E3_u - 4*a**2 + 4*h1**2 + 4*h2**2 + 4*r*t1 + 3*t0**2 - 3*t1**2 - 4*u**2 - 4*v**2)/4

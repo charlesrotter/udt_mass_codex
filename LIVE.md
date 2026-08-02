@@ -5,83 +5,85 @@
 **⚠ BRANCH: work is on `grok` (2026-08-02).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-02 — COMPLETE-CELL CARTAN CONTACT JOINT DERIVED; FULL-FRAME NATURALITY OPEN) ============
+## ============ CURRENT STATE (2026-08-02 — FULL SCREEN EXPOSES SPLIT-PRESERVING CONTACT NORM; COMPLETE-FRAME DESCENT OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_complete_cell_cartan_alternating_production_audit_2026-08-02/AUDIT_REPORT.md` →
-`LAY_REPORT.md` → `EXACT_DERIVATION.md` → `OBJECT_PRODUCTION_LEDGER.tsv` →
-`BRANCH_PULLBACK_RANK_ATLAS.tsv` → `NEXT_STEP.md`. Then read the cold-reviewed parent at
-`udt_fc07_broader_coframe_hodge_response_review_2026-08-02/` and its unchanged parent evidence.
+`udt_complete_cell_cartan_alternating_production_review_2026-08-02/AUDIT_REPORT.md` and correction
+layer → `udt_complete_cell_full_gl2_screen_frame_descent_audit_2026-08-02/AUDIT_REPORT.md` → its lay
+report, exact derivation, frame-descent atlas, invariant-object atlas, status ledger, and next step.
+The unchanged parent Cartan package is historical evidence and must be read through its correction.
 
-**RESULT:** `SPLIT_RELATIVE_DIFFERENTIAL_PRODUCTION_ONLY__PRIMITIVE_AND_NATURALITY_OPEN`, evidence
-grade `VERIFIED-WITH-CAVEATS` because the exact non-importing Koszul reconstruction was performed in
-the same warm context and no fresh blind model reviewed this return.
+**RESULT:** `SPLIT_RELATIVE_ONLY__NO_COMPLETE_FRAME_DESCENT`, evidence grade
+`VERIFIED-WITH-CAVEATS`. The first package received a fresh zero-context adversarial review and is
+`PASS_AFTER_REQUIRED_CORRECTIONS`; the full-screen package has independent exact algebra but no
+second fresh blind review.
 
-On the actual complete stationary `S3` general-screen family, the founded ruler structure equation
-contains the contact coefficient
+**COLD-REVIEW CORRECTION:** the dimensioned contact coordinate is
+`v=log(|t1|/T0)`. The first-Cartan coefficient **encodes/reconstructs** the contact differential; it
+does not produce a new law. `mC` transforms homogeneously under local screen rotations, while its
+extraction from total connection data requires the supplied decomposition. Most importantly, full
+isotropic-control curvature does contain mixed ruler/screen monomials: twelve rows under each of two
+closure pivots, with four identities exchanged. Only the narrow leg-aligned projection is zero. No
+tensorial mixed-curvature no-go was derived. The immutable parent package remains unchanged.
+
+**FULL `GL(2,R)` SCREEN:** area, both shears, screen rotation gauge, and the remaining screen
+anholonomy were retained. Two exact algebra organizations agree on all 36 curvature rows across six
+nonzero blocks, five independent closure equations, six Bianchi components, and the scalar
+curvature. Mixed-sector rows are present: 14 depth/screen, 26 depth/contact, 15 screen/contact, and
+12 shear/contact. These are component counts, not invariant multiplicities.
+
+**STRONGER CONTACT OBJECT:** for the registered reciprocal-pair/screen reduction, the two screen
+contact coefficients form `q=(t0,t1)`. Under local pair boosts and screen `O(2)`,
 
 ```text
-dtheta1=dphi wedge theta1+t1 theta2 wedge theta3,
-t1=kappa exp(phi)/det(P).
+q_squared = t1^2-t0^2
+          = kappa^2/det(P)^2 [exp(2phi)-alpha^2 exp(-2phi)]
 ```
 
-With `sigma=log(|det(P)|/D0)`, the metric/coframe therefore gives the fixed identity
+is invariant. On either non-null stratum it gives exactly
 
 ```text
--dphi wedge dlog|t1| = dphi wedge dsigma.
+dphi wedge dlog(sqrt(|q_squared|)/T0) = -dphi wedge dsigma.
 ```
 
-The antisymmetric primitive built from founded `phi` and `log|t1|` equals
-`lambda=(phi dsigma-sigma dphi)/2` modulo an exact constant-reference term. This is a bounded
-advance over formal availability: an actual complete-cell first-Cartan contact coefficient carries
-the alternating differential class.
+Thus the contact joint survives the whole split-preserving `O(1,1)xO(2)` frame group, not merely a
+fixed ruler presentation. At `q_squared=0` the log is undefined and the null stratum remains open.
 
-**PRESENTATION CORRECTION:** the separately displayed `m=kappa exp(-phi)` term is not load-bearing.
-Its separation from the skew part of `L1` can mix under a position-dependent screen rotation. The
-surviving `phi,t1` route is invariant under local screen `O(2)` changes and, using `|t1|`, under
-screen orientation. It still depends on the registered ruler/screen split and is not yet a
-complete-frame-natural response.
+**DESCENT LIMIT:** exact local pair/screen-changing rotations and boosts alter `q_squared` while
+leaving the metric unchanged. They generally leave the displayed block-screen chart; that is not a
+physical inconsistency. It proves that the contact norm requires the registered reduction and does
+not descend to the metric alone. Full Riemann curvature is frame covariant and contains the contact
+norm, but only entangled with area, two shears, rotation, depth, and derivative terms; it does not
+select a response law.
 
-**FORMAL VERSUS BRANCH RANK:** the affine two-scalar quotient remains rank one with a
-five-dimensional universally exact kernel. A smooth complete `S3` off-shell witness has nonzero
-`dphi wedge dsigma`. Functionally dependent, constant-depth, and constant-area pullbacks collapse.
-All eight actual complete FC07 mapping tori collapse because `phi=phi0` is constant. Taxonomy-only
-completion rows without joined Cartan data remain blocked rather than negative.
+**EVIDENCE:** cold-review correction commit `9cd522c`, review-source manifest
+`b0a253887028ac04b460793db48dfeca1f65c55f48855c3459c354c3cf993beb`, immutable parent-package
+manifest `cb5b63eff0c44971b35f031366e6db84721045c535effe018db5662648c44f57`; full-screen preregistration
+`d703d44`, 23-source freeze `68879ed`, source-manifest SHA-256
+`f5cfe5b53ca4e09eb877b96befa46ddcfb3ddccaec4780a5e9931e84c7934f50`, package-manifest SHA-256
+`fc7dd623fc7f07d4959c0cb8fe267f354e2b2a84e7c62bcf606c2b92e7fb3632`, and 14/14 catches. Six
+frozen manifests / 133 paths, 1,114 current paths, 101 frontier targets, premise guards, and tests
+`70 passed, 1 xfailed` pass.
 
-**CONNECTION/CURVATURE LIMIT:** a Levi-Civita connection coefficient is not a tensor and cannot by
-itself be promoted to an observer-natural one-form. Full exact curvature on the complete
-isotropic-screen `S3` control has six nonzero lower-pair blocks but zero `phi`/`sigma` bilinear rows
-and zero alternating projections by two independent algebra organizations. Full `GL(2,R)` shear/
-rotation curvature is still open; the bounded zero is not extrapolated.
+**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** premise-level adjudication only: does the founded
+reciprocal pair in the two original UDT postulates already constitute physical reduction data, or
+is only the metric physical with all local Lorentz coframes gauge? Existing premises must answer if
+they can; do not invent a new postulate. This decides whether `q_squared` is a genuine UDT object or
+only a useful split-relative diagnostic.
 
-**EVIDENCE:** preregistration `4fd8b6e`; 29-source freeze `26615a7`, source-manifest SHA-256
-`38eb34a623f844991d4b17f18d239bbcce7248f82f34fd70a3dc0011e04f79a1`; evidence commit
-`f29d40b`; exact quotient rank `1`, kernel dimension `5`, constructive complete-`S3` witness,
-mandatory FC07 rank-zero control, full torsion/integrability checks, independent Koszul curvature,
-and 11/11 catches. Package-manifest SHA-256
-`cb5b63eff0c44971b35f031366e6db84721045c535effe018db5662648c44f57`. Six frozen manifests / 133
-paths, 1,114 current paths, 101 frontier targets, premise guards, and tests `70 passed, 1 xfailed`.
+**PREMISE STAMPS:** founded `phi` and reciprocal pair `DERIVED`; `c_E` `OBSERVED_SCALE_ANCHOR`;
+complete stationary `S3` and block-screen family `CHOSE_EXISTENCE_CONTROL`; first-Cartan contact
+encoding `DERIVED_GIVEN_REGISTERED_SPLIT`; `q_squared` `DERIVED_GIVEN_REGISTERED_REDUCTION` and
+split-preserving invariant; full curvature `DERIVED_BOUNDED_FAMILY`; complete-frame contact descent,
+primitive selection, physical response, density return, and bootstrap closure `OPEN`; bootstrap
+`WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; action, source,
+`X_max`, stability, mass, and matter remain `OPEN`.
 
-**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** release the isotropic screen inside the same
-complete stationary `S3` family; compute full `GL(2,R)` curvature, quotient local `O(2)`
-presentation, and test explicit pair/screen-changing coframes. Determine whether the contact joint
-has a tensorial split contraction, a derived-reduction connection law, or no split-free descent.
-Retain all outcomes. Reconsider density only after a nonidentity complete-frame-natural
-same-solution relation survives.
-
-**PREMISE STAMPS:** founded `phi` and reciprocal pair `DERIVED`; exact-form harmonic obstruction
-`DERIVED_MATHEMATICS`; formal alternating direction `COLD_VERIFIED_AVAILABLE_BOUNDED_CLASS`;
-contact coefficient `t1` `DERIVED_GIVEN_REGISTERED_SPLIT`; alternating Cartan differential
-`DERIVED_GIVEN_REGISTERED_SPLIT`; primitive `AVAILABLE_MODULO_EXACT_REFERENCE`; `m` separation
-`PRESENTATION_DEPENDENT_NOT_LOAD_BEARING`; complete-frame naturality, physical response law, and
-density return `OPEN`; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4`
-`CONDITIONAL`; `X_max`, action, source, stability, mass, and matter remain `OPEN`.
-
-**AUTHORITY BOUNDARY:** Cartan availability is not law selection; the off-shell `S3` witness is not
-a physical branch; the isotropic curvature zero is not a general-screen no-go; and no density,
-source, mass, or bootstrap equation follows. No follow-on, density scan, time-live/GPU work, action,
-carrier, matter solve, canonization, external transmission, or repository reorganization is
-authorized by this block.
+**AUTHORITY BOUNDARY:** an invariant of the registered reduction is not yet a metric-only law; full
+curvature containing the contact norm does not select it; an off-shell complete witness is not a
+physical branch. No density scan, time-live/GPU work, action, carrier, matter solve, canonization,
+external transmission, repository reorganization, or follow-on derivation is authorized by this
+block.
 
 <!-- STARTUP_CURRENT_END -->
 

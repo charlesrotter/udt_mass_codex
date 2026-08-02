@@ -1,0 +1,10 @@
+{
+  "catch_proofs": 14,
+  "curvature_blocks": 6,
+  "curvature_rows": 36,
+  "frozen_sources": 23,
+  "independent_closure_equations": 5,
+  "independent_curvature_matches": 36,
+  "source_manifest_sha256": "f5cfe5b53ca4e09eb877b96befa46ddcfb3ddccaec4780a5e9931e84c7934f50",
+  "status": "PASS_VERIFIED_WITH_CAVEATS_NO_FRESH_BLIND_REVIEW"
+}

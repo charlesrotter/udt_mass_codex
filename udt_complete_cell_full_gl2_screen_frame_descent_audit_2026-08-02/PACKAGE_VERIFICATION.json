@@ -1,0 +1,7 @@
+{
+  "entries": 46,
+  "headline": "SPLIT_RELATIVE_ONLY__NO_COMPLETE_FRAME_DESCENT",
+  "package_manifest_sha256": "fc7dd623fc7f07d4959c0cb8fe267f354e2b2a84e7c62bcf606c2b92e7fb3632",
+  "source_manifest_sha256": "f5cfe5b53ca4e09eb877b96befa46ddcfb3ddccaec4780a5e9931e84c7934f50",
+  "status": "PASS_VERIFIED_WITH_CAVEATS_NO_FRESH_BLIND_REVIEW"
+}

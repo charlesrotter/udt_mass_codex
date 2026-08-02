@@ -1,0 +1,10 @@
+source	three_form_leg	equation
+d2theta0	012	-E1_p2 + E2_p1 - a*p2 - h1*p2 - h2*p3 + p1*p2 - p3*r
+d2theta0	013	-E1_p3 + E3_p1 - a*p3 + h1*p3 - h2*p2 + p1*p3 + p2*r
+d2theta0	023	-E2_p3 + E3_p2 - p1*t1 - p2*u - p3*v
+d2theta1	123	E2_p3 - E3_p2 + p1*t1 + p2*u + p3*v
+d2theta2	123	E1_u - E2_h2 + E2_r + E3_a + E3_h1 + a*p3 + a*u + h1*p3 - h1*u - h2*p2 - h2*v + p2*r + r*v
+d2theta3	123	E1_v - E2_a + E2_h1 + E3_h2 + E3_r - a*p2 + a*v + h1*p2 + h1*v + h2*p3 - h2*u + p3*r - r*u
+d2phi	12	E1_p2 - E2_p1 + a*p2 + h1*p2 + h2*p3 - p1*p2 + p3*r
+d2phi	13	E1_p3 - E3_p1 + a*p3 - h1*p3 + h2*p2 - p1*p3 - p2*r
+d2phi	23	E2_p3 - E3_p2 + p1*t1 + p2*u + p3*v
