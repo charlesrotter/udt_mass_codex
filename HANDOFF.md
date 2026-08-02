@@ -6,41 +6,40 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-02).** Synchronize it before orientation.
 
-## CURRENT — one complete-cell metric intrinsically builds the reciprocal pair; selection open
+## CURRENT — intrinsic contact descent verified on explicit witness; independent screen response open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/AUDIT_REPORT.md`, then its exact
-   derivation, candidate and status ledgers, cold-review return, lay report, four gates, and next step.
-4. The reciprocal-pair authority package only when its parent authority argument is load-bearing.
+3. `udt_twisted_s3_intrinsic_contact_descent_audit_2026-08-02/AUDIT_REPORT.md`, then its exact
+   derivation, descent atlas, O13 subclassification, cold-review return, lay report, four gates, and
+   next step.
+4. The all-gate reciprocal-reduction witness only when its parent proof is load-bearing.
 
-**Current honest result:** one explicit preregistered off-shell metric in the registered twisted
-stationary `R x S3` family has exactly one continuous Killing line, including against fully
-time-dependent competing Killing fields. That line is timelike; its nonzero twist supplies a
-global spacelike ruler line. Together they make one smooth, sign-independent, equivariant
-rank-two reduction through the complete cell. Here `complete` means smooth global nondegenerate
-cell geometry, not Lorentzian geodesic completeness.
+**Current honest result:** using the metric-derived clock/ruler projector rather than supplied
+coframe slots makes `Q_T`, `Q_S`, and `Q=Q_S-Q_T` genuine metric scalars on each of the three frozen
+off-shell witness metrics. All occupy only `Q>0`. On frozen `a=R=1`, their ratio also gives the
+absolute branch scalar `Phi_contact=phi`; general unfrozen normalization restores a constant
+`(1/2)log(R/a)` ambiguity.
 
-**Scope guard:** this closes a configuration-existence join, not selection. The analytic profile,
-transverse weight, twist, stationary branch, `S3` completion, and equations of motion remain
-unselected; the witness is off shell. Universal reduction remains `OPEN`. The parent frame ruling
-still requires equivariance rather than a fixed component plane. `q_squared=t1^2-t0^2` remains
-`DERIVED_GIVEN_REGISTERED_REDUCTION` until the branch-intrinsic descent audit is performed.
+**Limitation:** `dsigma=2 lambda dphi`, so the depth–screen alternating form is identically zero.
+The descent/authority problem closes on this witness, but independent angular response does not
+appear in its one-depth isotropic screen. Absolute `sigma`/contact logs, signed components, screen
+axes, connection slots, path holonomy, carrier sections, general screens, dynamics, and selection
+remain conditional, reference-dependent, or open as typed in the atlas.
 
-**Evidence:** preregistration `2f0be5cd`, 21-source freeze `9a815e21`, evidence commit `9275b4fd`;
-13/13 geometric gates, 20/20 semantic catches, and a fresh zero-context independent curvature/Killing
-review returned `VERIFIED`. Source manifest
-`ba78024e5a01ade0b21f6b142d5a583598e55c0a9c245845ef1cbe19a3a4eed6`; package manifest
-`ceb08e87166118524834c0e11f99c423acf00cca5f2bf0a03f2b70c1fd85eb64`; exact certificate
-`876b00e7d94e249b148846d59612b4cef373430bb1b8fb2f34a1f8ee55160d67`. Six frozen manifests / 133
+**Evidence:** preregistration `1cf5c9d7`, 30-source freeze `8dcdf278`, evidence commit `5d9fd62b`;
+22 parent objects, two O13 subclassifications, three lambda certificates, 24/24 catches, and 15
+fresh independent coordinate/Hodge/autodiff checks returned `VERIFIED`. Source manifest
+`b0ea71998dc5e0cb1c2e1aebe4f256c541863e062ceaf30625e304e80765ad4d`; package manifest
+`4d8cbd2c794974ac231a1ea4400d6d14d6f7a995bdfc1eda9efa61de08090458`. Six frozen manifests / 133
 paths, 1,114 current paths, frontier/premise guards, and tests `70 passed, 1 xfailed` pass.
 
-**Proposed next action, not launched:** on this witness, replace the registered pair/screen split by
-the metric-derived projector and determine which full-screen Cartan/contact objects—including
-`q_squared` and null strata—become genuine branch metric scalars and which still require screen,
-path, or global data. Maximum scope is this witness or a separately proved neighborhood.
+**Proposed next action, not launched:** in the same complete stationary `S3` arena, independently
+vary screen area and then both shears; classify whether the intrinsic projector survives and map
+all rank-zero/rank-one depth–screen, symmetry, null, degeneracy, and projector-failure strata. Do
+not target a nonzero alternating form.
 
 **Authority boundary:** no new premise or physics was adopted. No density scan, action, carrier,
 source, bootstrap closure, `X_max`, matter/mass claim, canonization, reorganization, GPU/time-live
