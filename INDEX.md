@@ -3,36 +3,32 @@
 **⚠ BRANCH: `grok` (2026-08-02)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — INTRINSIC RECIPROCAL PROJECTOR AND INDEPENDENT ANGULAR RESPONSE COEXIST; SELECTION OPEN:**
-Read `udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/AUDIT_REPORT.md`, then its lay
-report, exact derivation, result atlas, scope clarification, cold-review and post-repair records,
-four gates, and next step. Consult the prior intrinsic-contact witness only when its parent proof is
-load-bearing.
+**➤ CURRENT SCIENTIFIC FRONTIER — INTRINSIC TWO-FORM DISTRIBUTION MAPPED; THREE-CIRCLE OBSTRUCTION DERIVED:**
+Read `udt_intrinsic_two_form_distribution_audit_2026-08-02/AUDIT_REPORT.md`, then its lay report,
+exact derivation, candidate/locus atlases, status ledger, cold review, four gates, and next step.
+Consult the general-screen parent only when its projector/coexistence proof is load-bearing.
 
-The complete positive angular screen has exact tangent rank three: area plus two shears. Sixteen of
-the 17 nondegenerate registered metrics have a unique timelike Killing line; 15 also have nonzero
-twist and an intrinsic reciprocal pair/screen projector. Independent angular area makes the
-depth/area two-form nonzero without disabling either shear. Exactly C04, C08-C10, C16, and C17 have
-both the intrinsic projector and nonzero decomposable form. C08-C10 cover all three registered
-`lambda` values.
+On six parent-certified intrinsic branches, the nonzero depth/area two-form has kernel exactly equal
+to the clock line plus one metric-derived spacelike line. That line is screen-contained on one exact
+locus, generic-mixed on another exact open locus, and never ruler-aligned in the frozen profile.
+The exhaustive zero set is an equatorial `S2` plus three intersecting great circles; the nonzero
+domain has exactly two connected components.
 
-The result is bounded coexistence, not selection. The configuration census is ten zero, seven
-nonzero, and one degenerate; C14 loses unique ownership and C15 loses twist. The local-open theorem
-is relative only to the stationary block-screen subspace retaining `K=partial_t`. One analytic
-profile per mode does not exhaust smooth `GL(2,R)` screens, and no equation or physical branch is
-selected.
+The sign-independent line extends across the generic equatorial zero sheet but has path-dependent
+limits on all three circles, including their shared poles. This is an exact obstruction for the
+registered line/profile, not a physical defect, carrier, or Hopf-section theorem. Candidate census:
+9 zero, 6 multi-type, 2 blocked, 1 degenerate.
 
-Evidence: preregistration `bb611bdd`; source freeze `4dd35a5e`; evidence commit `614c6b22`; source
-manifest `4117d443c5deb4742d6b11dceabc21460f5afda593c201ff84da9e2eda8eedad`; package manifest
-`7a277968b25044b26a1ec66fb8eeb0dcdbb1aa87fac8ca827201f7a8a293a920`; 34 exact curvature points;
-fresh independent all-point CPU replay; post-repair grade `PASS`; 30/30 guards typed as 19 exact or
-algebraic, two evidence-backed semantic, and nine semantic scope. Frozen/navigation/premise gates
-and tests `70 passed, 1 xfailed` all pass.
+Evidence: preregistration `942e8790`; source freeze `7d3c7296`; evidence `04e1d9a9`; source manifest
+`48dcc11e79a0395e920c159a88346656011d8784118f11620f6996db040be122`; package manifest
+`0f121e2a2a941433c6b6d5a9700a8c34190c5247e2302fea843e7c329c52e711`; fresh independent exact
+`PASS` with no correction; 32/32 typed catches; frozen/navigation/premise gates and tests
+`70 passed, 1 xfailed` pass.
 
-Proposed next, not launched: decompose the intrinsic two-form and Hodge dual through the derived
-pair/screen projectors, map the resulting kernel/dual line and complete-cell continuation, and test
-whether it is new metric information. No carrier, section, action, source, density/bootstrap return,
-`X_max`, GPU/time-live work, or follow-on derivation is authorized.
+Proposed next, not launched: an exact stationary defect/transport atlas for projective
+winding/monodromy and metric connection/holonomy around the three-circle graph. No particle,
+carrier, action, source, density/bootstrap return, `X_max`, GPU/time-live work, or follow-on
+derivation is authorized.
 
 **➤ PARENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED:**
 `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/` remains the authority for the four

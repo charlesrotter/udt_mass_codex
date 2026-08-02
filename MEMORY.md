@@ -4,22 +4,22 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-02, intrinsic general-screen neighborhood)
+## TOP — CURRENT POINTER (2026-08-02, intrinsic two-form distribution)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
 block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
-`udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/` in the order routed there.
+`udt_intrinsic_two_form_distribution_audit_2026-08-02/` in the order routed there.
 
-Current honest result: within one chosen complete stationary `R x S3` arena, all three angular
-metric modes can be active while curvature and twist still derive the reciprocal projector. Six
-registered metrics carry both that projector and a nonzero decomposable depth/area two-form. The
-prior zero was caused by slaving screen area to depth, not by a complete-metric obstruction.
+Current honest result: the six intrinsic nonzero branches carry a metric-derived spacelike kernel
+line. It is screen-contained on one exact locus, generic-mixed on another, and never ruler-aligned
+in the registered profile. Its zero set is an equatorial `S2` plus three great circles. The line
+extends through the generic equator but fails path-independently on the circles. The nonzero domain
+has exactly two components; the exact census is 9 zero, 6 multi-type, 2 blocked, 1 degenerate.
 
-This is a bounded existence/local-open result inside the stationary subspace retaining
-`K=partial_t`; it selects no screen, equation, carrier, action, source, boundary, bootstrap value,
-matter, or mass. The fresh independent all-point review passes after five explicit scope/evidence
-repairs. The next proposed but unlaunched question is whether the new intrinsic two-form and Hodge
-dual define any additional metric-derived line or global distribution.
+This is a bounded stationary/off-shell distribution atlas. It selects no screen, equation,
+carrier, Hopf section, action, source, boundary, bootstrap value, matter, or mass. Fresh independent
+exact review passes with no correction. The proposed but unlaunched next question is the intrinsic
+projective winding/monodromy and metric connection/holonomy of the exact defect graph.
 
 The prior reciprocal-closure and F01/F02/F04 plural-family results remain valid and separate. No
 action, carrier, family, or further work is adopted automatically.

@@ -4,6 +4,20 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 2 intrinsic two-form distribution precedence notice
+
+This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →
+`HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
+`udt_intrinsic_two_form_distribution_audit_2026-08-02/AUDIT_REPORT.md` and its exact evidence.
+
+The current bounded result is an exact metric-distribution atlas on the unchanged stationary
+`R x S3` ensemble. Six intrinsic branches carry a spacelike kernel line where the depth/area
+two-form is nonzero. Screen-contained and generic-mixed loci occur; ruler alignment does not. The
+zero set is an equatorial `S2` plus three great circles. The line extends through the generic
+equator but has a path-dependent obstruction on all three circles. No carrier, Hopf section,
+action, source, dynamics, matter, or physical branch is selected. The proposed defect/transport
+atlas is not launched.
+
 ## August 1 native-parent, F01, and boundary-bridge precedence notice
 
 This file is pre-P4 context, not the current frontier. Current orientation is `LIVE.md` →

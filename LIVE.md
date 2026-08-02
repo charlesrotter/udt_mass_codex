@@ -5,74 +5,74 @@
 **⚠ BRANCH: work is on `grok` (2026-08-02).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-02 — INTRINSIC RECIPROCAL PROJECTOR AND INDEPENDENT ANGULAR RESPONSE COEXIST; SELECTION OPEN) ============
+## ============ CURRENT STATE (2026-08-02 — INTRINSIC TWO-FORM DISTRIBUTION MAPPED; THREE-CIRCLE GLOBAL OBSTRUCTION DERIVED) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/AUDIT_REPORT.md` → its lay report,
-exact derivation, result atlas, scope clarification, cold review and post-repair recheck, four gates,
-and next step → the prior intrinsic-contact witness only when its parent proof is load-bearing.
+`udt_intrinsic_two_form_distribution_audit_2026-08-02/AUDIT_REPORT.md` → its lay report, exact
+derivation, candidate/locus atlases, status ledger, cold review, four gates, and next step → the
+general-screen parent only when its projector/coexistence proof is load-bearing.
 
 **RESULT:**
-`INTRINSIC_RECIPROCAL_PROJECTOR_AND_INDEPENDENT_ANGULAR_AREA_RESPONSE_COEXIST_ON_EXPLICIT_COMPLETE_STATIONARY_SCREENS__SCREEN_AND_PHYSICAL_SELECTION_OPEN`.
-This is a `VERIFIED_BOUNDED_CONFIGURATION_EXISTENCE` result in one stationary off-shell `R x S3`
-arena. It is not an on-shell, time-live, generic-screen, or universal UDT theorem.
+`INTRINSIC_DEPTH_AREA_TWO_FORM_SUPPLIES_A_SPATIAL_KERNEL_LINE_ON_SIX_REGISTERED_BRANCHES__TWO_NONZERO_LINE_TYPES_AND_EXACT_THREE_GREAT_CIRCLE_EXTENSION_OBSTRUCTION`.
+This is a `PASS_VERIFIED_BOUNDED_INTRINSIC_DISTRIBUTION_ATLAS` in the unchanged stationary,
+off-shell `R x S3` ensemble. It is not an on-shell, time-live, arbitrary-profile, or universal UDT
+theorem.
 
-**WHAT CLOSED:** the positive angular screen has three independent metric modes—area plus both
-shears. Exact curvature invariants identify a unique timelike Killing line on 16 of 17
-nondegenerate registered metrics; nonzero Killing twist then supplies the ruler line and intrinsic
-pair/screen projector on 15. The former zero alternating result was caused by slaving screen area to
-depth. With independent area,
+**WHAT CLOSED:** on the six parent-certified intrinsic nonzero branches,
 
 ```text
-dPhi_contact wedge dSigma_contact=(du wedge dV)/(2 u V)
+W=dPhi_contact wedge dSigma_contact
 ```
 
-is nonzero on explicit complete branches while both shears remain active. Exactly six registered
-candidates have both the intrinsic projector and nonzero decomposable two-form: C04, C08-C10, C16,
-and C17. C08-C10 cover all three registered `lambda=-1,0,+1` values.
+has four-dimensional kernel `span(T,N)` wherever nonzero, where
+`N_flat=star(T_flat wedge W)` is a metric-derived spacelike line. Exact full-cell algebra gives:
 
-**CONTROL STRATA:** the configuration census is ten zero, seven nonzero decomposable, and one
-degenerate. C14 is symmetry-enhanced and lacks unique projector ownership; C15 has a unique clock
-line but zero twist and therefore no ruler; C16/C17 retain the registered null/sign-changing `Q`
-strata without four-metric degeneration. “Simple” means decomposable two-form; its antisymmetric
-matrix rank is two.
+```text
+Z(W) = {q3=0} union C03 union C13 union C23,
+S3 minus Z(W) has exactly two connected components,
+RULER_ALIGNED nonzero locus = empty,
+SCREEN_CONTAINED locus = exact and nonempty,
+GENERIC_MIXED locus = exact, nonempty, and open.
+```
 
-**OPEN-NEIGHBORHOOD SCOPE:** nonzero parent invariant Jacobians and finite-jet continuity give an
-unquantified local-open coexistence result only inside the stationary block-screen subspace
-retaining `K=partial_t`. Arbitrary time-dependent perturbations need not retain any Killing field.
-One analytic profile per mode does not exhaust smooth `GL(2,R)` screens.
+The sign-independent line continues uniquely across the equatorial zero sheet away from six axis
+intersections. It fails path-independently at every point of the three intersecting great circles,
+including their shared poles. At `W=0` the kernel is four-dimensional; no residual line is silently
+chosen.
 
-**EVIDENCE:** preregistration `bb611bdd`; 48-source freeze `4dd35a5e`; evidence commit `614c6b22`;
+**CENSUS AND SCOPE:** nine intrinsic candidates remain identically zero; six have both surviving
+nonzero types on different loci; C14/C15 remain projector-blocked configuration controls; C18 is
+metric-degenerate. Screen shears and `lambda` change the metric direction but not this registered
+profile's zero/type partition. No candidate or locus is selected as physical, and one analytic
+profile does not exhaust smooth screens or other completions.
+
+**EVIDENCE:** preregistration `942e8790`; 64-source freeze `7d3c7296`; evidence commit `04e1d9a9`;
 source-manifest SHA-256
-`4117d443c5deb4742d6b11dceabc21460f5afda593c201ff84da9e2eda8eedad`; 34 exact point
-certificates; package-manifest SHA-256
-`7a277968b25044b26a1ec66fb8eeb0dcdbb1aa87fac8ca827201f7a8a293a920`; 32 nonzero invariant
-Jacobians and two exact homogeneous zeros. A fresh independent
-CPU coordinate/autodiff implementation replayed all 34 points with worst nonzero relative error
-`2.3393e-11`, plus exact independent determinant/contact/rank checks. Its initial five caveats were
-repaired and the post-repair grade is `PASS`. The 30 fail-closed rows are honestly typed as 19
-exact/algebra guards, two evidence-backed semantic guards, and nine semantic scope guards. Six
-frozen manifests / 133 paths, 1,114 current paths, 101 frontier targets, premise guards, and tests
-`70 passed, 1 xfailed` pass.
+`48dcc11e79a0395e920c159a88346656011d8784118f11620f6996db040be122`; package-manifest
+SHA-256 `0f121e2a2a941433c6b6d5a9700a8c34190c5247e2302fea843e7c329c52e711`. A fresh exact
+implementation imported no production functions and independently reproduced the coframe,
+polynomials, zero/type loci, Hodge/kernel signs, extension obstruction, topology, and `6/9/2/1`
+census with `PASS` and no correction. All 32 catches pass (26 exact/algebra, five semantic scope,
+one evidence-backed independence). Six frozen manifests / 133 paths, 1,114 current paths, 101
+frontier targets, premise guards, and tests `70 passed, 1 xfailed` pass.
 
-**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** on the same frozen stationary ensemble, decompose the
-new intrinsic two-form and its Hodge dual through the metric-derived pair/screen projectors. Map its
-kernel and dual line across nonzero, zero, null, symmetry, twist-free, and degenerate strata, then
-test global continuation through the complete cell. Maximum conclusion is an intrinsic
-distribution/degeneracy atlas—not a carrier or selected section.
+**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** on the same frozen six intrinsic branches, map the
+projective winding/monodromy and metric connection/holonomy around the exact three-circle defect
+graph, including its poles and equatorial junctions. This is an intrinsic defect/transport atlas,
+not a hunt for a particle or Hopf section.
 
-**PREMISE STAMPS:** reciprocal pair/founded pair action `DERIVED`; registered complete stationary
-configuration family `CHOSE_EXISTENCE_CONTROL`; screen area and two shear modes
-`DERIVED_CONFIGURATION_SPACE`; unique Killing line `DERIVED_BOUNDED_ON_16`; intrinsic pair
-projector `DERIVED_BOUNDED_ON_15`; intrinsic nonzero depth/area two-form
-`DERIVED_EXISTENCE_ON_6`; stationary local openness `DERIVED_CONDITIONAL_ON_C3_CONTINUITY`;
-screen/on-shell/dynamical selection `OPEN`; `c_E` `OBSERVED_SCALE_ANCHOR`; bootstrap
-`WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; action, source,
-boundary, density return, `X_max`, stability, mass, and matter remain `OPEN`.
+**PREMISE STAMPS:** reciprocal pair/founded pair action `DERIVED`; stationary `R x S3` family
+`CHOSE_EXISTENCE_CONTROL`; unique Killing line `DERIVED_BOUNDED_ON_16`; intrinsic pair projector
+`DERIVED_BOUNDED_ON_15`; intrinsic nonzero two-form `DERIVED_EXISTENCE_ON_6`; kernel line and
+zero/type/extension atlas `DERIVED_BOUNDED_ON_THE_6`; global nonsingular continuation of this line
+`OBSTRUCTED_ON_THE_REGISTERED_PROFILE`; screen/on-shell/dynamical selection `OPEN`; `c_E`
+`OBSERVED_SCALE_ANCHOR`; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`;
+`L2+L4` `CONDITIONAL`; action, source, boundary, density return, `X_max`, stability, mass, and matter
+remain `OPEN`.
 
-**AUTHORITY BOUNDARY:** no postulate or physics was adopted. No action, source, carrier/section,
-boundary, density/bootstrap return, matter/mass claim, GPU/time-live work, canonization,
-repository reorganization, or follow-on derivation is authorized by this block.
+**AUTHORITY BOUNDARY:** no postulate or physics was adopted. No defect is a particle; no carrier,
+Hopf section, action, source, boundary, density/bootstrap return, matter/mass claim, GPU/time-live
+work, canonization, repository reorganization, or follow-on derivation is authorized by this block.
 
 <!-- STARTUP_CURRENT_END -->
 

@@ -6,43 +6,44 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-02).** Synchronize it before orientation.
 
-## CURRENT — intrinsic reciprocal projector and independent angular response coexist; selection open
+## CURRENT — intrinsic two-form distribution mapped; three-circle obstruction derived
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/AUDIT_REPORT.md`, then its lay
-   report, exact derivation, result atlas, scope clarification, cold review and post-repair recheck,
-   four gates, and next step.
-4. The prior intrinsic-contact witness only when its parent proof is load-bearing.
+3. `udt_intrinsic_two_form_distribution_audit_2026-08-02/AUDIT_REPORT.md`, then its lay report,
+   exact derivation, candidate/locus atlases, status ledger, cold review, four gates, and next step.
+4. `udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/` only when the parent
+   projector/coexistence proof is load-bearing.
 
-**Current honest result:** the full positive angular screen has three independent metric modes:
-area and both shears. Exact invariant Jacobians leave one timelike Killing line on 16 registered
-metrics; nonzero twist closes the intrinsic reciprocal projector on 15. Six explicit complete
-stationary candidates—including full-screen C08-C10 for all registered `lambda`—also carry a
-nonzero intrinsic decomposable depth/area two-form.
+**Current honest result:** the six parent-certified intrinsic nonzero branches carry a
+metric-derived spacelike kernel line wherever `dPhi_contact wedge dSigma_contact` is nonzero. Its
+complete registered-profile atlas has two realized nonzero types—screen-contained and generic
+mixed—and no ruler-aligned locus. The exact zero set is an equatorial `S2` plus three intersecting
+great circles; the nonzero domain has exactly two components.
 
-**Meaning and limitation:** the prior zero was caused by a screen-area/depth lock, not a complete
-metric no-go. The result proves coexistence, not selection or an equation. Its local-open statement
-is only relative to stationary block-screen metrics retaining `K=partial_t`; one profile per mode
-does not exhaust smooth screens. C14/C15 remain configuration controls rather than intrinsic-contact
-branches, and no carrier, section, dynamics, action, matter, or mass follows.
+**Global ruling:** the sign-independent line extends across the generic equatorial zero sheet but
+fails path-independently at every point of the three circles, including their shared poles. This is
+an exact obstruction for this line/profile, not a carrier no-go or physical defect theorem.
 
-**Evidence:** preregistration `bb611bdd`; 48-source freeze `4dd35a5e`; evidence commit `614c6b22`;
-source manifest `4117d443c5deb4742d6b11dceabc21460f5afda593c201ff84da9e2eda8eedad`;
-package manifest `7a277968b25044b26a1ec66fb8eeb0dcdbb1aa87fac8ca827201f7a8a293a920`; 34 exact point
-certificates; fresh independent all-point replay with worst nonzero relative error `2.3393e-11`;
-post-repair grade `PASS`; 30/30 typed guards. Six frozen manifests / 133 paths, 1,114 current paths,
-101 frontier targets, premise guards, and tests `70 passed, 1 xfailed` pass.
+**Census and limitation:** 9 intrinsic zero, 6 multi-type, 2 projector-blocked, 1 degenerate. The
+result is stationary, off shell, and profile-bounded. It selects no candidate, equation, carrier,
+Hopf section, action, source, boundary, bootstrap return, matter, or mass.
 
-**Proposed next action, not launched:** decompose the new intrinsic two-form and Hodge dual through
-the pair/screen projectors; map its kernel/dual line and complete-cell continuation without targeting
-a carrier or selected section. CPU exact anchors only.
+**Evidence:** preregistration `942e8790`; source freeze `7d3c7296`; evidence `04e1d9a9`; source
+manifest `48dcc11e79a0395e920c159a88346656011d8784118f11620f6996db040be122`; package manifest
+`0f121e2a2a941433c6b6d5a9700a8c34190c5247e2302fea843e7c329c52e711`; fresh independent exact
+`PASS`, no correction; 32/32 typed catches; frozen/navigation/premise gates and tests
+`70 passed, 1 xfailed` pass.
 
-**Authority boundary:** no new premise or physics was adopted. No density scan, action, carrier or
-section, source, bootstrap closure, `X_max`, matter/mass claim, canonization, reorganization,
-GPU/time-live work, external transmission, or follow-on launch follows.
+**Proposed next action, not launched:** map the projective winding/monodromy and metric
+connection/holonomy around the exact defect graph. Keep it an objective stationary CPU
+defect/transport atlas; do not target a particle or carrier.
+
+**Authority boundary:** no new premise or physics was adopted. No follow-on derivation, density
+scan, carrier/section, action/source, bootstrap closure, `X_max`, matter/mass claim, canonization,
+reorganization, GPU/time-live work, or external transmission follows.
 
 <!-- STARTUP_CURRENT_END -->
 
