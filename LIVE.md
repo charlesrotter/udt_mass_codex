@@ -5,60 +5,60 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — RECIPROCAL-CLOSURE JOINT AUDITED; PROJECTOR RESPONSE EXACT-CONDITIONAL) ============
+## ============ CURRENT STATE (2026-08-01 — COMPLETE-BRANCH PROJECTOR WITNESS FOUND; OFF-SHELL AND REVIEW-PENDING) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_reciprocal_closure_joint_selector_audit_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
-`EXACT_DERIVATION.md` → `STATUS_LEDGER.tsv` → `EXTERNAL_ADVERSARIAL_REVIEW.md` and
-`EXTERNAL_REVIEW_REPAIR_PREREGISTRATION.md`. Use `SOURCE_INVENTORY.tsv` to enter the 24 exact
-load-bearing sources. The prior F01/F02/F04 plural-family reconciliation remains valid but is not
-authority for the new projector bridge.
+`udt_branchwise_projector_holonomy_census_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
+`EXACT_DERIVATION.md` → `BRANCH_OBJECT_GATE_LEDGER.tsv` → `STATUS_LEDGER.tsv` and
+`OUTCOME_PREMISE_AUDIT.tsv`. The antecedent response theorem remains in
+`udt_reciprocal_closure_joint_selector_audit_2026-08-01/`; do not read it as branch selection.
 
-**RESULT:**
-`OPEN_COHERENT_ARCHITECTURE_WITH_EXACT_CONDITIONAL_PROJECTOR_RESPONSE_THEOREM`.
-For any complete branch that independently supplies an orthogonal rank-one projector `P`, exact
-algebra gives path strain
-`L2=(1/2) sum_i ||D_i P||^2` and relative loop response
-`L4=(1/2) sum_ij ||[D_i P,D_j P]||^2`. The latter is exactly the squared area form. Within the
-declared parity-even rotational first-derivative quartic class, adding the independent rank-one-
-blindness premise makes `L4` unique up to normalization.
+**RESULT:** `COMPLETE_OFFSHELL_CONFIGURATION_FAMILY_SUPPLIES_INTRINSIC_RANK_ONE_PROJECTOR_AND_NONZERO_RELATIVE_CURVATURE`.
+The exhaustive frozen-base census dispositioned 239 audit reports, 280 discovery groups, and 4,461
+literal source hits. Eighteen distinct branch/object cases retain positive, negative, set-valued,
+degenerate, control, and incomplete outcomes.
 
-**CONCEPTUAL GAIN:** the conditional Hopf model's `L2` and `L4` can be read as path bending and loop
-noncommutation of one supplied geometric reduction, rather than unrelated mechanisms. Its natural
-unoriented target is `RP2`; an `S2` lift is available only under the stated global compactification
-conditions. This is an exact conditional bridge, not native carrier emergence.
+**BOUNDED POSITIVE:** in all six frozen complete twisted-`S3` configurations C01--C06, the metric
+already identifies a global timelike clock line and a twist-selected global spacelike ruler line.
+The ruler gives a rank-one projector `P_n` in the positive clock-orthogonal rank-three bundle, with
+the intrinsic rank-two screen as complement. Exact north-event reconstruction finds nonzero
+relative projector curvature in all six cases (`634/625`, `2509/2500`, `1`, `10009/10000`,
+`2509/2500`, `634/625`). A no-SymPy `Fraction` implementation reproduces every value exactly.
 
-**OPEN SELECTOR GATE:** current UDT premises do not select `P`. Smooth founded scalar reciprocity is
-Abelian and loop-flat; generic Levi-Civita curvature is not matter-specific; the celestial `S2` is
-a fiber rather than a section; complete-coframe selector rank is zero in the registered pointwise
-class; and generic full holonomy obstructs the tested endpoint reductions. Rank-one blindness,
-the requirement that both path and loop response be physical, their coefficient ratio, global
-descent, boundary, dynamics, source, mass, and bootstrap return all remain free or open.
+**WHAT THIS CLOSES:** the prior projector-response theorem no longer requires an inserted projector
+on these named configurations. Their metric supplies the reduction and a nontrivial path/loop
+geometry. This is `DERIVED_CONDITIONAL_ON_NAMED_REGISTERED_COMPLETE_OFFSHELL_CONFIGURATION`, not a
+universal UDT projector or native carrier.
 
-**EVIDENCE:** preregistered at `9c50c53`; accepted external-review/repair preregistration frozen at
-`33f4ff4`; final evidence package banked at `0b2a305`. Primary pinned SymPy 1.14.0 algebra passes
-24/24; non-importing rational verification passes 16/16 plus 10/10 mutation catches; the repaired
-package verifier passes 26/26. Fresh
-read-only gpt-5.4 review returned `PASS-WITH-REQUIRED-REPAIRS`, sustained all ten scientific
-rulings, and required one evidentiary wording correction, now applied. Six frozen manifests / 133
-paths, 24 source hashes, premise guards, 1,114 current paths, 101 frontier targets, and the
-`70 passed, 1 xfailed` test baseline pass.
+**WHAT REMAINS OPEN:** these are smooth complete law-neutral configurations, not solutions selected
+by a native action or bootstrap return. All six `lambda` values survive. Full ambient sampled
+holonomy is still `so(1,3)`, so the reciprocal grading is not parallel or endpoint-only; the
+positive object is a covariant intrinsic field with projected connection. `L2+L4` remains a
+conditional response/action, the `S2` carrier remains `POSIT`, and profile, topology, coefficient,
+boundary, source, dynamics, stability, mass, and physical-family assignments remain open.
 
-**NEXT JUSTIFIED TEST — PROPOSED, NOT LAUNCHED:** census complete post-July metric branches for a
-smooth intrinsic rank-one spectral projector or reduced-holonomy subbundle; follow degeneracies,
-global descent, and relative loop curvature without demanding a particle or Hopf topology. If no
-branch supplies the reduction, retain this as an organizing architecture rather than a metric-
-derived joint.
+**EVIDENCE:** preregistration banked at `b390d75`; exact SymPy 1.13.1 algebra passes 32/32;
+independent standard-library rational replay passes 26 checks; 19/19 mutations fail closed; 1,270
+frozen source blobs replay; the four load-bearing parent algebra packages replay except one
+explicitly recorded current-path premise-manifest drift, whose derivation and independent
+full-Riemann calculation pass. Six frozen manifests / 133 paths, premise guards, 1,114 current
+paths, 101 frontier targets, and tests `70 passed, 1 xfailed` pass. Fresh external semantic review
+of this new package is `OPEN_NOT_AUTHORIZED`.
 
-**PREMISE STAMPS:** founded `phi` and its reciprocal pair action remain `DERIVED`; supplied-projector
-identities are `DERIVED_CONDITIONAL`; area uniqueness is `UNIQUE_CONDITIONAL`; branchwise projector
-selection is a `COHERENT_CANDIDATE`; the `S2` carrier remains `POSIT`; `L2+L4` remains
-`CONDITIONAL`; bootstrap remains `WORKING`; complete action, source, boundary, dynamics, native
-carrier, unconditional mass, and physical family assignments remain `OPEN`.
+**NEXT JUSTIFIED TEST — PROPOSED, NOT LAUNCHED:** after an authorized fresh adversarial review,
+map the full deformation neighborhoods of C01--C06 to determine where intrinsic clock/ruler
+uniqueness, global descent, and nonzero relative projector curvature persist or cross degeneracy
+walls. Only afterward test intersection with an independently registered on-shell/bootstrap rule.
 
-**AUTHORITY BOUNDARY:** no projector, carrier, action, response premise, coefficient, boundary,
-bootstrap law, matter family, or physics interpretation is adopted. No GPU work, canonization,
-repository reorganization, or further derivation is launched by this checkpoint.
+**PREMISE STAMPS:** founded `phi` and reciprocal pair action `DERIVED`; C01--C06 configuration
+formulas `SOURCE_CONDITIONAL_OFFSHELL`; their intrinsic ruler projector and nonzero relative
+curvature `DERIVED_CONDITIONAL_ON_NAMED_CONFIGURATION`; ambient reduced holonomy `REFUTED_ON_THESE_CONFIGURATIONS`;
+`S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; bootstrap `WORKING`; on-shell selection and complete
+matter physics `OPEN`.
+
+**AUTHORITY BOUNDARY:** no configuration, profile, `lambda`, projector principle, carrier, action,
+coefficient, boundary, bootstrap law, matter family, or physical interpretation is adopted. No GPU
+work, canonization, repository reorganization, or follow-on derivation is launched by this block.
 
 <!-- STARTUP_CURRENT_END -->
 

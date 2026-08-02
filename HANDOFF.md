@@ -6,48 +6,55 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — reciprocal-closure joint externally reviewed; projector response exact-conditional
+## CURRENT — branchwise projector census finds one complete off-shell positive family
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_reciprocal_closure_joint_selector_audit_2026-08-01/AUDIT_REPORT.md`, then
-   `LAY_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, and `CANDIDATE_OUTCOMES.tsv`.
-4. `EXTERNAL_ADVERSARIAL_REVIEW.md`, its repair preregistration, `EXTERNAL_REVIEW_RESULT.json`,
-   `PINNED_ENV_REPLAY.md`, and the package manifest/verification.
-5. Follow `SOURCE_INVENTORY.tsv` into the 24 load-bearing sources only as needed. Use the prior
-   F01/F02/F04 reconciliation for branch context, not as authority for the new bridge.
+3. `udt_branchwise_projector_holonomy_census_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
+   `EXACT_DERIVATION.md`, `BRANCH_OBJECT_GATE_LEDGER.tsv`, `STATUS_LEDGER.tsv`, and
+   `OUTCOME_PREMISE_AUDIT.tsv`.
+4. Use `REPORT_DISPOSITIONS.tsv`, `GROUP_DISPOSITIONS.tsv`, and
+   `DISCOVERY_HIT_DISPOSITIONS.tsv` only for census completeness or source adjudication.
+5. Read `udt_reciprocal_closure_joint_selector_audit_2026-08-01/` for the antecedent conditional
+   path/loop theorem; it does not select the present branch or action.
 
-**Current honest result:** if—and only if—a complete metric branch supplies an orthogonal rank-one
-projector `P`, the former conditional carrier terms are exact invariants of that one reduction:
-`L2` measures pathwise bending and `L4` measures relative loop noncommutation/area. With an added
-rank-one-blindness premise, `L4` is unique up to normalization only in the declared parity-even
-rotational first-derivative quartic class. The natural unoriented target is `RP2`; an `S2` lift is
-conditional on the stated global domain/completion.
+**Current honest result:** the census found one complete global **off-shell configuration family**
+that supplies the missing geometric antecedent. In C01--C06 of the frozen twisted-`S3` family, the
+metric itself identifies a global clock line, twist-selected ruler line, rank-one ruler projector
+in the positive clock-orthogonal rank-three bundle, and its rank-two screen complement. Exact
+relative projector curvature is nonzero at the registered north event in all six cases. Thus the
+prior conditional path/loop response can be instantiated without inserting a projector on these
+named configurations.
 
-**What did not close:** the metric has not selected `P`; generic Levi-Civita curvature is not a
-matter discriminator; the celestial sphere is a fiber rather than a selected section; and the
-registered pointwise full-coframe class has zero selector rank. UDT also has not required both
-path and loop response, selected their coefficient, or derived global descent, boundary,
-dynamics, source, mass, or bootstrap return. The `S2` carrier stays `POSIT` and `L2+L4` stays
-`CONDITIONAL`.
+**What did not close:** no native equation or bootstrap return selects the configurations. All six
+screen weights survive; ambient holonomy remains full and does not preserve the grading; the
+positive connection is projected and path-covariant, not endpoint-only. The `S2` carrier is still
+`POSIT`, `L2+L4` remains `CONDITIONAL`, and action, coefficient, profile, boundary, source,
+dynamics, stability, mass, and physical-family interpretations remain open.
 
-**Evidence and review:** preregistration `9c50c53`; raw external review and its repair
-preregistration `33f4ff4`; final evidence package `0b2a305`. Pinned SymPy 1.14.0: 24/24;
-independent rational reconstruction: 16/16; mutation catches: 10/10; repaired package verifier:
-26/26. The external gpt-5.4 verdict was
-`PASS-WITH-REQUIRED-REPAIRS`: all ten scientific rulings survived, and the sole repair clarified
-which SymPy run was frozen versus replayed. Six frozen manifests / 133 paths, current-premise
-guards, navigation, and `70 passed, 1 xfailed` all pass.
+**Complete census:** 239 reports, 280 discovery groups, and 4,461 literal hits each have one
+disposition. The 18 branch/object rows retain the positive twisted family, a parallel zero-response
+control, local `dphi` strata and their null failure, local spectral lines and degeneracies, toric
+set-valued lines, unselected involutions, the celestial fiber without a section, supplied-plane
+controls, full-holonomy obstruction, isotropy controls, and eleven incomplete completion classes.
 
-**Proposed next action, not launched:** a bounded post-July branch census for a smooth intrinsic
-rank-one spectral projector or reduced-holonomy subbundle, including degeneracies and global
-descent. It must observe all branches without demanding a particle, Hopf topology, action, or
-positive result. No GPU work is indicated.
+**Evidence:** preregistration `b390d75`; exact algebra 32/32; independent no-SymPy replay 26 checks;
+19/19 mutation catches; 1,270 frozen source blobs; six frozen manifests / 133 paths; current premise
+guards; 1,114 current paths; 101 frontier targets; tests `70 passed, 1 xfailed`. One parent
+monolithic verifier correctly trips over its historically pinned older current-premise hash; its
+actual derivation and independent full-Riemann replay pass, and the frozen manifest is not edited.
+Fresh external review of this package remains unrequested and open.
 
-**Authority boundary:** no projector, carrier, action, coefficient, boundary, bootstrap law,
-matter family, canonization, reorganization, or further research launch follows automatically.
+**Proposed next action, not launched:** after authorized external adversarial review, map the full
+deformation neighborhoods of C01--C06 without an action and test persistence of the projector,
+global descent, and relative curvature. Then—and only then—compare the surviving region with an
+independently specified on-shell/bootstrap admissibility rule.
+
+**Authority boundary:** no configuration, projector principle, carrier, action, coefficient,
+boundary, bootstrap law, matter family, canonization, reorganization, GPU work, or further research
+launch follows automatically.
 
 <!-- STARTUP_CURRENT_END -->
 
