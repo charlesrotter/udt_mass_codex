@@ -1,0 +1,9 @@
+candidate_id	candidate_join	preregistered_question	forbidden_shortcut
+C01	PROJECTOR_NEIGHBORHOOD_ALONE	Does N_projector define on-shell/bootstrap membership?	configuration_geometry_called_equation
+C02	READOUT_GRAPH_ALONE	Does O=R[X] select a proper subset of X?	readout_called_feedback
+C03	GLOBAL_DENSITY_WINDOW	Does rho_minus<rho_tot<rho_plus implement two-way bootstrap?	one_way_filter_called_mutual_determination
+C04	PROJECTOR_RESPONSE_AS_RETURN	Can W(X) or Omega_rel(X) serve as A(X,O)?	O_argument_erased
+C05	GLOBAL_CURVATURE_READOUT	Does a metric curvature readout supply both arrows?	readout_functional_called_relation
+C06	CONDITIONAL_STABILITY_BASIN	Can a carrier/action-conditional stable basin define current native membership?	conditional_carrier_action_promoted
+C07	ABSTRACT_TWO_ARROW_RELATION	Does the registered A(X,O)=0;O=R[X] type already define an intersection?	type_schema_called_operation
+C08	COMPLETE_SAME_SOLUTION_INTERSECTION	Are N_projector intersection Sol(E_native) intersection pi_X(Graph(R) intersection Z(A)) and a witness currently computable?	undefined_objects_hidden_in_notation
