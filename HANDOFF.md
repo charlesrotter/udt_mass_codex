@@ -6,49 +6,56 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — completion data parameterize partial local fibers; curvature return remains open
+## CURRENT — FC07 complete off-shell full-screen witnesses built; physical selection remains open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_completion_parameterized_local_fiber_audit_2026-08-01/AUDIT_REPORT.md`, then
-   `LAY_REPORT.md`, `EXACT_DERIVATION.md`, `GLOBAL_DATA_FIBER_GATE_MATRIX.tsv`, the three fiber
-   tables, `STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
-4. Read `udt_bootstrap_projector_admissibility_interface_2026-08-01/` for the parent six-level
-   interface and the still-open complete intersection.
+3. `udt_torus_bundle_full_screen_witness_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
+   `EXACT_DERIVATION.md`, `COMPLETE_WITNESS_CENSUS.tsv`, `METRIC_CONGRUENCE_FIBER_ATLAS.tsv`,
+   `INVARIANT_SCREEN_STRATA.tsv`, `PROJECTOR_DESCENT_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and
+   `OUTCOME_PREMISE_AUDIT.tsv`.
+4. Read `udt_completion_parameterized_local_fiber_audit_2026-08-01/` for the parent parametric
+   schemas and `udt_bootstrap_projector_admissibility_interface_2026-08-01/` for the still-open
+   six-level intersection.
 
-**Current honest result:** completion data supply a genuine partial global-to-local family. The
-eight registered monodromies define eight distinct `Graph(M)` endpoint fibers; all 28 witness pairs
-are distinct. Join smoothness gives nested jet-matching fibers. The conditional two-cap toric
-family realizes `f_cap=+1,-1` local cap fibers. These are legal joint conditions, not a physical
-completion selector or interior dynamics.
+**Current honest result:** every one of the eight frozen FC07 monodromy controls now has an explicit
+smooth, nondegenerate, geodesically complete off-shell Lorentzian mapping-torus metric in the
+chosen constant-depth block extension. Six admit global oriented coframes; two are nonorientable
+and require exact local reflection joins. The eight abstract transition graphs remain distinct,
+but their quadratic metric endpoint maps form seven frozen equality classes because `I` and `-I`
+act identically on the metric.
 
-**Critical scope:** monodromy and seam rows are exact parametric schemas because most completion
-classes lack actual complete metric/coframe witnesses. The cap row is realized only inside an
-already selected/conditional toric family. `Graph(M)` is native descent; `ker(M-I)` additionally
-requires an independently owned invariant or parallel section.
+**Critical scope:** constant `phi`, zero shift, zero reciprocal-screen mixing, and the block
+extension are construction choices. The seven classes are only the eight frozen endpoint-
+congruence operator equality classes—not a classification of all mapping tori. These are complete
+off-shell metrics, not selected physical completions or native equations.
 
-**Curvature ruling:** zero choice-free return routes. Pointwise curvature is a readout; curvature
-levels/spectra/averages require unowned choices. Holonomy gives path-conditioned transport, not
-configuration admissibility absent a parallel-section premise. Zero physical completion selectors
-were found.
+**Screen/projector ruling:** six controls admit constant invariant positive screens. Parabolic and
+hyperbolic monodromy force screen variation only within the chosen block/lattice presentation.
+The coordinate vertical projector descends and integrates in all eight cases, but it is not the
+parent metric-response projector and is not parallel on varying-screen witnesses. Zero physical
+selectors and zero native field equations were introduced.
 
-**Evidence:** preregistration `5e04b99`; clarification `9321913`; evidence `23ac3a0`; 36 frozen
-sources; 16 anchors; 131 independent stdlib rational checks; 26/26 fail-closed mutations; six
-frozen manifests / 133 paths; 1,114 current paths; 101 frontier targets; tests `70 passed, 1
-xfailed`. Manifest SHA-256:
-`719939ea902fb696520d151fd6394d672272547dc85599150cb0df533bccbab7`. Grade is
-`VERIFIED-WITH-CAVEATS`; no fresh external semantic review was run.
+**Evidence:** preregistration `9b25180`; clarification `481b62d`; evidence `0f0069d`; 22 frozen
+sources; 116 production exact checks; 302 independent stdlib checks; 33/33 fail-closed mutations;
+and a fresh zero-context adversarial `VERIFIED-WITH-CAVEATS` review whose six required repairs are
+closed. Six frozen manifests / 133 paths, 1,114 current paths, 101 frontier targets, links, and
+tests `70 passed, 1 xfailed` pass. Manifest SHA-256:
+`f4a846c8ead0b078ba75e47f24610ed2953446eb6d1cf8c0c215cf18d2a85f15`. The package's
+replay-determinism correction normalizes only pytest's elapsed-time token; two consecutive full
+replays returned this identical hash.
 
-**Proposed next action, not launched:** construct one actual complete full-screen witness in a
-second completion class and test whether its local fiber schema is realized throughout, without
-ranking branches or importing an action, weight, carrier, density, or desired filter.
+**Proposed next action, not launched:** reconstruct the parent metric-derived reciprocal/response
+projector across all FC07 witnesses and compute the full Cartan connection/curvature, especially
+where the screen must vary. Retain all seven metric-readout classes and both orientation strata;
+CPU first.
 
-**Authority boundary:** no completion, topology, seam, transition, cap family, curvature
-functional, density, carrier, action, bootstrap law, matter interpretation, canonization,
-reorganization, GPU work, external transmission, or follow-on research launch follows
-automatically.
+**Authority boundary:** no extension, monodromy, completion, topology, screen profile, response
+projector, curvature functional, density, carrier, action, bootstrap law, matter interpretation,
+canonization, reorganization, GPU work, external transmission, or follow-on research launch
+follows automatically.
 
 <!-- STARTUP_CURRENT_END -->
 

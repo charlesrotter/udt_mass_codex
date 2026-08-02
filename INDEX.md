@@ -3,33 +3,37 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — COMPLETION DATA PARAMETERIZE PARTIAL LOCAL FIBERS; CURVATURE RETURN OPEN:**
-Read `udt_completion_parameterized_local_fiber_audit_2026-08-01/AUDIT_REPORT.md`, then
-`LAY_REPORT.md`, `EXACT_DERIVATION.md`, `GLOBAL_DATA_FIBER_GATE_MATRIX.tsv`,
-`MONODROMY_LOCAL_FIBERS.tsv`, `JET_MATCHING_FIBERS.tsv`, `CAP_LOCAL_JET_FIBERS.tsv`,
-`STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
+**➤ CURRENT SCIENTIFIC FRONTIER — FC07 COMPLETE OFF-SHELL FULL-SCREEN WITNESSES BUILT; PHYSICAL SELECTION OPEN:**
+Read `udt_torus_bundle_full_screen_witness_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
+`EXACT_DERIVATION.md`, `COMPLETE_WITNESS_CENSUS.tsv`, `METRIC_CONGRUENCE_FIBER_ATLAS.tsv`,
+`INVARIANT_SCREEN_STRATA.tsv`, `PROJECTOR_DESCENT_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and
+`OUTCOME_PREMISE_AUDIT.tsv`.
 
-Global assembly data naturally change local compatibility conditions. Eight registered `GL(2,Z)`
-monodromies give eight distinct endpoint graphs (all 28 witness pairs distinct); seam regularity
-gives nested jet fibers; and one conditional completed toric family realizes cap fibers with
-`f_cap=+1,-1`. Monodromy and seam results remain parametric schemas because most completion rows
-lack complete metric/coframe witnesses. The cap result is conditional on an already selected
-family. None selects a physical completion or supplies dynamics.
+All eight frozen FC07 monodromy controls have explicit smooth, nondegenerate, geodesically complete
+off-shell Lorentzian mapping-torus metrics in the chosen constant-depth block extension. Six admit
+global oriented coframes; two orientation-reversing controls are nonorientable and use exact local
+reflection joins. Eight distinct abstract endpoint graphs reduce to seven frozen quadratic metric
+endpoint-congruence operator equality classes because `I` and `-I` act identically on the metric.
 
-Curvature remains one-way: pointwise readout, choice-dependent levels/spectra/averages, and
-path-conditioned holonomy. No registered premise requires the extra parallel/invariant section
-that would turn holonomy into configuration admissibility. Zero curvature return routes and zero
-physical completion selectors pass.
+Six controls admit constant invariant positive screens. Parabolic and hyperbolic controls force
+screen variation only within the chosen block/lattice presentation—not from topology alone. The
+coordinate vertical projector descends and integrates in all eight witnesses, but it is neither
+the parent metric-response projector nor parallel when the screen varies. The block extension,
+constant `phi`, zero shift, and zero reciprocal-screen mixing are `CHOSE`; no extension,
+monodromy, action, field equation, response projector, or physical branch is selected.
 
-Preregistration `5e04b99`; clarification `9321913`; evidence `23ac3a0`; 36 frozen sources; 16
-anchors; 131 independent rational checks; 26/26 semantic catches; six frozen manifests / 133
-paths; premise/navigation gates and tests `70 passed, 1 xfailed` pass. Package-manifest SHA-256 is
-`719939ea902fb696520d151fd6394d672272547dc85599150cb0df533bccbab7`. Grade:
-`VERIFIED-WITH-CAVEATS`; no fresh external semantic review was run.
+Preregistration `9b25180`; clarification `481b62d`; evidence `0f0069d`; 22 frozen sources; 116
+production exact checks; 302 independent stdlib checks; 33/33 semantic catches; and a fresh
+zero-context adversarial review with all six required repairs closed. Six frozen manifests / 133
+paths, premise/navigation gates, and tests `70 passed, 1 xfailed` pass. Package-manifest SHA-256 is
+`f4a846c8ead0b078ba75e47f24610ed2953446eb6d1cf8c0c215cf18d2a85f15`; two consecutive full
+replays agree after normalizing only pytest's elapsed-time token. Grade:
+`VERIFIED-WITH-CAVEATS`.
 
-Proposed next: realize one second complete full-screen completion witness and test the exact fiber
-schema throughout, retaining every branch without ranking. No action, weight, carrier, density,
-selector, GPU work, or follow-on derivation is authorized by this index.
+Proposed next, not launched: reconstruct the parent metric-derived reciprocal/response projector
+on every FC07 witness and calculate the complete Cartan connection/curvature, preserving all seven
+metric-readout classes and both orientation strata. No selector, action, carrier, density, GPU
+work, or follow-on derivation is authorized by this index.
 
 **➤ PARENT SCIENTIFIC FRONTIER — BOOTSTRAP/PROJECTOR INTERFACE TYPED; COMPLETE INTERSECTION OPEN:**
 `udt_bootstrap_projector_admissibility_interface_2026-08-01/` remains the authority for the six
