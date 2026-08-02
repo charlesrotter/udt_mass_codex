@@ -6,57 +6,55 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-02).** Synchronize it before orientation.
 
-## CURRENT — minimal depth/angular harmonic response available; complete-frame production open
+## CURRENT — depth/angular response cold-reviewed and narrowed; complete-frame production open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/AUDIT_REPORT.md`, then
-   `LAY_REPORT.md`, `EXACT_DERIVATION.md`, `RESPONSE_CLASSIFICATION.tsv`,
-   `UPPER_RIGHT_CONTROL_ATLAS.tsv`, `STATUS_LEDGER.tsv`, `OUTCOME_PREMISE_AUDIT.tsv`, and
-   `NEXT_STEP.md`.
-4. Read `udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/` for the parent separation
-   theorem and `udt_bootstrap_projector_admissibility_interface_2026-08-01/` for the open six-level
-   join.
+3. `udt_fc07_broader_coframe_hodge_response_review_2026-08-02/AUDIT_REPORT.md`, then
+   `CORRECTION_LAYER.md`, `STATUS_OVERLAY.tsv`, `LAY_REPORT.md`, and `NEXT_STEP.md`.
+4. Read the unchanged parent package `udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/`,
+   then `udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/` and the open six-level join
+   at `udt_bootstrap_projector_admissibility_interface_2026-08-01/`.
 
 **Current honest result:** exact depth alone cannot create a harmonic response on a compact
-boundaryless Hodge cell. But depth and angular log-area jointly possess exactly one non-exact
-direction modulo exact forms in the complete minimal affine first-derivative basis:
-`lambda=(phi dsigma-sigma dphi)/2`, with `dlambda=dphi wedge dsigma`.
+boundaryless Hodge cell. The cold-reviewed formal/free affine two-scalar coefficient class has one
+alternating direction modulo combinations universally exact for independent `(phi,sigma)`:
+`lambda=(phi dsigma-sigma dphi)/2`. Fixed configurations can collapse it; `sigma=2phi` gives zero.
 
-**Sharp advance:** if `phi` and `sigma=log(D/D0)` trace a loop around the cell, `integral lambda`
-is its signed area and can be a nonzero harmonic coefficient. With screen dependence, the same
-motif can carry local curl/coexact content. Reference shifts change it only by an exact form. This
-is the exact bounded “orchestra” mechanism: a joint response exists that neither sector can carry
-alone.
+**Sharp bounded advance:** one base-loop control gives a nonzero harmonic signed-area readout; a
+separate screen-dependent control gives local curl/coexact capability. Reference shifts are exact.
+This is an available alternating candidate in this audit, not a priority claim, connection/
+curvature output, or guaranteed direction in every fixed configuration.
 
-**Ownership correction:** the parent `alpha`/`theta1` common line is conditional on its
-lower-triangular family. An explicit nonclosed upper-right control makes the raw ruler non-harmonic
-while the primitive `ds` line remains harmonic. This is a countercontrol, not an adopted physical
-coframe.
+**Extrapolation limit:** exact/harmonic separation and the parent lower-triangular ownership theorem
+remain intact. Chosen upper-right controls only refute extrapolation to arbitrary pair embeddings;
+they are outside the selected extension and are not physical UDT coframes. Screen rows descend by
+a transition and are not individually global forms.
 
 **Selection and density ruling:** the motif is available but unselected. Angular log-area still
 depends on the registered screen split, and no actual Cartan connection/curvature expression has
 been shown to produce `lambda` with a fixed coefficient. No return equation connects it to
 `rho_tot`; density remains closed.
 
-**Critical scope:** universal compact-boundaryless Hodge theorem; complete six-direction minimal
-two-scalar basis; two upper-right controls on the minus-identity FC07 completion. Generic complete
+**Critical scope:** universal compact-boundaryless Hodge theorem; full six-direction formal/free
+affine two-scalar coefficient class; two preregistered upper-right controls on the minus-identity
+FC07 completion. Generic complete
 coframes, other monodromies, boundaries, J07/J11, time-live, curvature/higher-order responses,
 equations, action, carrier, and matter remain open.
 
-**Evidence:** preregistration/freeze `fe7cf92`; evidence `7c29af5`; 15 sources; 43/43 primary
-checks; 29/29 independent no-SymPy checks; 15/15 catches; six frozen manifests / 133 paths; 1,114
-current paths; 101 frontier targets; and tests `70 passed, 1 xfailed`. Package SHA-256
-`5f9cbe9eeae15b82e9d79d290cbc0e8d056b8d8cd7af20c2b1818070c164ae36`. Grade
-`VERIFIED-WITH-CAVEATS`; no fresh cold/external review.
+**Evidence:** unchanged parent package SHA-256
+`5f9cbe9eeae15b82e9d79d290cbc0e8d056b8d8cd7af20c2b1818070c164ae36`; cold review
+`PASS_AFTER_REQUIRED_CORRECTIONS`; correction preregistration `b836df5`, closure `be70210`, 33/33
+checks, 15/15 catches, 51/51 parent entries, 15/15 historical source blobs, six frozen manifests /
+133 paths, and tests `70 passed, 1 xfailed`. Review SHA-256
+`e106eb92847b7acfd300427921a405158b76b0a7592a42bd40c4ef420c2a122b`.
 
-**Proposed next action, not launched:** first cold-review the load-bearing theorem, rank, loop, and
-upper-right controls. If they survive, audit the actual complete-coframe first Cartan jet, after
-quotienting exact and presentation directions, for production of the alternating response with a
-fixed coefficient and for a unique split-free angular scalar. Keep no-production alive. Do not
-introduce `rho_tot` before a native observer-natural return survives.
+**Proposed next action, not launched:** the cold gate is closed. Audit frozen complete-cell first
+Cartan jets for production of the alternating candidate, quotienting universally exact and
+presentation directions and tracking formal versus branch-pullback ranks separately. Keep
+no-production alive. Do not introduce `rho_tot` before a native observer-natural return survives.
 
 **Authority boundary:** availability is not law selection; loop area is not mass/source;
 upper-right controls are not physical adoption. No density scan, action, carrier, bootstrap

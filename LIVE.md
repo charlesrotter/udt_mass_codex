@@ -5,74 +5,80 @@
 **⚠ BRANCH: work is on `grok` (2026-08-02).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-02 — MINIMAL DEPTH/ANGULAR HARMONIC RESPONSE DERIVED AS AVAILABLE; COMPLETE-FRAME PRODUCTION OPEN) ============
+## ============ CURRENT STATE (2026-08-02 — DEPTH/ANGULAR RESPONSE COLD-REVIEWED AND NARROWED; COMPLETE-FRAME PRODUCTION OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/AUDIT_REPORT.md` → `LAY_REPORT.md` →
-`EXACT_DERIVATION.md` → `RESPONSE_CLASSIFICATION.tsv` → `UPPER_RIGHT_CONTROL_ATLAS.tsv` →
-`STATUS_LEDGER.tsv` → `OUTCOME_PREMISE_AUDIT.tsv` → `NEXT_STEP.md`. Then read the parent
-compatibility package at `udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/` and the
+`udt_fc07_broader_coframe_hodge_response_review_2026-08-02/AUDIT_REPORT.md` →
+`CORRECTION_LAYER.md` → `STATUS_OVERLAY.tsv` → `LAY_REPORT.md` → `NEXT_STEP.md`. Then read the
+unaltered parent evidence at `udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/`, the parent
+compatibility package at `udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/`, and the
 six-level interface at `udt_bootstrap_projector_admissibility_interface_2026-08-01/`.
 
-**RESULT:** `MINIMAL_CROSS_SECTOR_RESPONSE_EXISTS__LAW_SELECTION_OPEN`. On every compact,
+**RESULT:** `COLD_REVIEW_PASS_AFTER_REQUIRED_CORRECTIONS`; retained bounded parent outcome
+`MINIMAL_CROSS_SECTOR_RESPONSE_EXISTS__LAW_SELECTION_OPEN`. On every compact,
 oriented, boundaryless Riemannian spatial cell, an exact form has zero harmonic projection. Thus
 `dphi` and every smooth single-scalar response `F(phi)dphi=dH(phi)` cannot alone feed the global
 harmonic channel. This theorem is independent of lower-triangularity and torus invariance in its
 stated Hodge domain.
 
-**FIRST EXACT ORCHESTRA MOTIF:** given the registered oriented screen split,
-`sigma=log(D/D0)` supplies the angular log-area scalar. The complete preregistered affine
-first-derivative two-scalar basis has exactly one non-exact direction modulo exact forms:
+**COLD-REVIEWED BOUNDED ALTERNATING CANDIDATE:** given the registered oriented screen split,
+`sigma=log(D/D0)` supplies the angular log-area scalar. The **formal/free affine two-scalar
+coefficient class**, modulo combinations universally exact for arbitrary independent
+`(phi,sigma)`, has one alternating direction:
 
 ```text
 lambda=(phi dsigma-sigma dphi)/2,
 dlambda=dphi wedge dsigma.
 ```
 
-A base-only closed `(phi,sigma)` loop can give a nonzero harmonic coefficient; `integral lambda`
-is its signed area in depth/angular-area space. Non-torus dependence can instead give local curl
-and coexact content. Constant changes of the `phi` zero or `D0` alter `lambda` only by an exact
-form, so its harmonic content is reference-independent.
+A fixed configuration need not realize that formal dimension: `sigma=2phi` collapses `lambda` to
+zero. A separate base-loop control gives a nonzero harmonic coefficient whose integral is signed
+area in depth/angular-area space. A separate non-torus control gives local curl/coexact capability,
+not by itself a harmonic component. Constant changes of the `phi` zero or `D0` alter `lambda` only
+by an exact form. Any historical-priority/“first motif” reading is withdrawn.
 
-**OWNERSHIP CORRECTION:** the parent `alpha`/`theta1` common-line theorem remains exact in its
-lower-triangular family, but is not robust under the explicit upper-right control. On the
-minus-identity FC07 mapping torus, an exact upper-right connection changes the harmonic
-representative inside the same cohomology class; a nonclosed upper-right connection makes the raw
-ruler coclosed but non-harmonic while `ds` remains harmonic. These are mathematical controls, not a
-derivation that physical UDT activates upper-right mixing.
+**EXTRAPOLATION LIMIT, NOT A PARENT REVERSAL:** exact-versus-harmonic separation remains fully
+robust. The parent `alpha`/`theta1` common-line theorem also remains exact in its declared
+lower-triangular family. Chosen upper-right mathematical countercontrols show only that pointwise
+ruler/harmonic ownership cannot be extrapolated to arbitrary pair embeddings. They lie outside the
+registered positive-triangular complete-`phi` extension and are not physically adopted. The metric
+and local coframe descend with screen transition `diag(1,-1,-1)`; local `dy,dz` rows are not
+individually global forms.
 
 **NATURALITY AND DENSITY RULING:** `lambda` is `AVAILABLE`, not selected. `sigma` remains typed by
 the supplied screen split, and no complete-frame intrinsic replacement or Cartan/curvature
 production coefficient has been derived. No current premise turns the motif into an equation,
 fixes its level, or relates it to `rho_tot`; therefore density bracketing remains unauthorized.
 
-**EXACT SCOPE:** universal compact-boundaryless Hodge theorem; full six-dimensional minimal affine
-two-scalar response basis; two exact upper-right controls on the minus-identity FC07 completion.
+**EXACT SCOPE:** universal compact-boundaryless Hodge theorem; the full six-dimensional
+formal/free affine two-scalar coefficient class; the two preregistered explicit upper-right
+controls on the minus-identity FC07 completion.
 Not exhaustive over arbitrary upper-right coframes, the other three monodromies, full Lorentzian
 clock/screen mixing, J07/J11, boundaries, time-live fields, higher derivative/curvature responses,
 action, carrier, source, matter, or bootstrap closure.
 
-**EVIDENCE:** preregistration and 15-source freeze `fe7cf92`; evidence `7c29af5`; 43/43 primary
-exact checks; 29/29 independent no-SymPy checks; 15/15 semantic catches; six frozen manifests / 133
-paths; 1,114 current paths; 101 frontier targets; and tests `70 passed, 1 xfailed`. Package manifest
-SHA-256 `5f9cbe9eeae15b82e9d79d290cbc0e8d056b8d8cd7af20c2b1818070c164ae36`. Grade is
-`VERIFIED-WITH-CAVEATS`: the independent implementation was separate but ran in the same warm
-session; no fresh cold/external adversarial review was authorized.
+**EVIDENCE:** parent preregistration/freeze `fe7cf92`, evidence `7c29af5`, and unchanged parent
+manifest SHA-256 `5f9cbe9eeae15b82e9d79d290cbc0e8d056b8d8cd7af20c2b1818070c164ae36`.
+Fresh zero-context cold review returned `PASS_AFTER_REQUIRED_CORRECTIONS`; review preregistration
+`b836df5`, closure `be70210`, 33/33 correction checks, 15/15 catches, 51/51 parent entries, 15/15
+historical source Git blobs, six frozen manifests / 133 paths, 1,114 current paths, 101 frontier
+targets, and tests `70 passed, 1 xfailed`. Review manifest SHA-256
+`e106eb92847b7acfd300427921a405158b76b0a7592a42bd40c4ef420c2a122b`.
 
-**NEXT JUSTIFIED SEQUENCE — PROPOSED, NOT LAUNCHED:** first obtain a fresh cold adversarial review
-of the load-bearing Hodge, response-rank, loop, and upper-right claims. If it survives, quotient
-exact forms and presentation rotations from the actual complete-coframe first Cartan jet, then test
-whether connection or curvature produces the alternating depth/log-area response with a fixed
-coefficient and whether log-area has a unique split-free extension. Retain the no-production
-outcome. Reconsider density only after a nonidentity observer-natural same-solution relation is
-derived.
+**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** the cold gate is closed. Freeze the actual
+complete finite-cell first Cartan jets, quotient universally exact and presentation directions,
+track formal versus branch-pullback ranks separately, and test whether connection or curvature
+produces the alternating depth/log-area candidate with a fixed observer-natural coefficient and a
+split-free angular scalar. Retain no-production and multiple-response outcomes. Reconsider density
+only after a nonidentity observer-natural same-solution relation is derived.
 
 **PREMISE STAMPS:** founded `phi` and reciprocal pair `DERIVED`; exact-form harmonic obstruction
-`DERIVED_MATHEMATICS`; minimal alternating response `DERIVED_AVAILABLE_BOUNDED_BASIS`; nonzero
-harmonic/local-curl examples `DERIVED_CONSTRUCTIVE_CONTROLS`; screen scalar
-`DERIVED_GIVEN_TYPED_SPLIT`; complete-frame naturality `OPEN`; parent lower-triangular ownership
-`DERIVED_CONDITIONAL_BOUNDED` and broader ownership `NOT_ROBUST`; physical response law and density
-return `OPEN`; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4`
+`DERIVED_MATHEMATICS`; formal alternating direction `COLD_VERIFIED_AVAILABLE_BOUNDED_CLASS` with
+fixed-pullback rank `VARIABLE_OR_COLLAPSIBLE`; harmonic and coexact examples
+`COLD_VERIFIED_SEPARATE_CONSTRUCTIVE_CONTROLS`; screen scalar `DERIVED_GIVEN_TYPED_SPLIT`;
+complete-frame naturality `OPEN`; parent lower-triangular ownership `DERIVED_CONDITIONAL_BOUNDED`;
+upper-right examples `MATHEMATICAL_COUNTERCONTROLS_NOT_PHYSICAL_EXTENSIONS`; physical response law
+and density return `OPEN`; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4`
 `CONDITIONAL`; `X_max`, action, source, stability, mass, and matter remain `OPEN`.
 
 **AUTHORITY BOUNDARY:** an available alternating one-form is not a selected law; a signed loop area
