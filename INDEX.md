@@ -3,38 +3,32 @@
 **⚠ BRANCH: `grok` (2026-08-02)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — FULL SCREEN EXPOSES SPLIT-PRESERVING CONTACT NORM; COMPLETE-FRAME DESCENT OPEN:**
-Read `udt_complete_cell_cartan_alternating_production_review_2026-08-02/AUDIT_REPORT.md` and its
-correction layer first; then read
-`udt_complete_cell_full_gl2_screen_frame_descent_audit_2026-08-02/AUDIT_REPORT.md`, lay report, exact
-derivation, frame-descent atlas, invariant-object atlas, status ledger, and next step.
+**➤ CURRENT SCIENTIFIC FRONTIER — RECIPROCAL-PAIR AUTHORITY ADJUDICATED; UNIVERSAL PHYSICAL REDUCTION OPEN:**
+Read `udt_reciprocal_pair_reduction_authority_audit_2026-08-02/AUDIT_REPORT.md`, then its exact
+adjudication, status ledger, cold-review return, lay report, four gates, and next step. Consult the
+full-screen and corrected Cartan parent packages only for their load-bearing algebra.
 
-The cold review retained the contact identity but corrected the parent: use
-`log(|t1|/T0)`; call it first-Cartan encoding/reconstruction rather than production of a new law;
-and do not claim zero mixed curvature. Twelve mixed rows occur under each closure pivot, while only
-the narrow aligned projection is zero.
+The two founding UDT statements derive the abstract reciprocal clock/ruler representation. The
+separately recorded Lorentzian/SR-continuity readout gives a conditional local physical alignment.
+Complete stationary controls contain genuine intrinsic pieces, but no one witness yet supplies a
+unique smooth reciprocal pair through a whole cell. Universal physical rank-two reduction remains
+`OPEN`.
 
-With area, both shears, and rotation retained, the contact coefficients form `q=(t0,t1)`. The norm
-`q_squared=t1^2-t0^2` survives local pair boosts, screen rotations, and reflections. Off the null
-stratum it gives
-`dphi wedge dlog(sqrt(|q_squared|)/T0)=-dphi wedge dsigma`. This is a genuine invariant of the
-registered `O(1,1)xO(2)` reduction.
+Observer Reciprocity requires equivariance, not one fixed component plane. The exact Lorentz
+centralizer refutes the latter while leaving a transforming physical subbundle possible. Therefore
+the full-screen contact norm `q_squared=t1^2-t0^2` is exactly
+`DERIVED_GIVEN_REGISTERED_REDUCTION`, not a metric-only scalar or universal physical observable.
 
-It is not a metric-only scalar. Exact local pair/screen-changing rotations and boosts alter the
-contact norm while preserving the metric. Full curvature remains tensorial and contains the norm
-only entangled with depth, area, both shears, rotation, and derivative terms. All 36 curvature rows,
-six blocks, five closure equations, and the scalar curvature agree independently; 14/14 semantic
-catches pass. Evidence grade is `VERIFIED-WITH-CAVEATS` without a fresh blind review of this second
-package.
+Evidence: preregistration `71fb71e`, 29-source freeze `9a6e865`, adjudication `fda9d05`; source
+manifest `b2e645be98e5d98acfa9936101e9e2373188f79300e890ae95b98f9f6838b02e`; package manifest
+`2fe52afb6713e78c8ddadc8e8f9fc355b5b4a8feef45f20e797766180780f427`; 15 exact anchors, 8/8
+catches, fresh zero-context adversarial review, frozen/navigation/premise gates, and tests
+`70 passed, 1 xfailed` all pass.
 
-Evidence: correction `9cd522c`; full-screen preregistration `d703d44`, freeze `68879ed`; source
-manifest `f5cfe5b53ca4e09eb877b96befa46ddcfb3ddccaec4780a5e9931e84c7934f50`; package manifest
-`fc7dd623fc7f07d4959c0cb8fe267f354e2b2a84e7c62bcf606c2b92e7fb3632`; frozen/navigation/premise
-gates and `70 passed, 1 xfailed` pass.
-
-Proposed next, not launched: adjudicate from existing premises whether the founded reciprocal pair
-is physical reduction data or only a Lorentz coframe presentation. No new postulate, density scan,
-action, carrier, `X_max`, GPU/time-live work, or follow-on derivation is authorized.
+Proposed next, not launched: test only the already registered twisted complete stationary `S3`
+general-screen branch for an intrinsic unique stationary timelike line and its smooth equivariant
+join with the twist-selected ruler. Retain all degeneracy and failure strata. No new postulate,
+density scan, action, carrier, `X_max`, GPU/time-live work, or follow-on derivation is authorized.
 
 **➤ PARENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED:**
 `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/` remains the authority for the four

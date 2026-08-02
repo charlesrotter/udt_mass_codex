@@ -6,46 +6,41 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-02).** Synchronize it before orientation.
 
-## CURRENT — full screen exposes a split-preserving contact norm; complete-frame descent open
+## CURRENT — reciprocal-pair authority adjudicated; universal physical reduction open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_complete_cell_cartan_alternating_production_review_2026-08-02/AUDIT_REPORT.md`, correction
-   layer, and status overlay; its parent is immutable historical evidence.
-4. `udt_complete_cell_full_gl2_screen_frame_descent_audit_2026-08-02/AUDIT_REPORT.md`, then the lay
-   report, exact derivation, frame-descent atlas, invariant-object atlas, status ledger, and next step.
+3. `udt_reciprocal_pair_reduction_authority_audit_2026-08-02/AUDIT_REPORT.md`, then its exact
+   adjudication, status ledger, cold-review return, lay report, four gates, and next step.
+4. The full-screen and corrected Cartan packages only when their algebra is load-bearing.
 
-**Current honest result:** `SPLIT_RELATIVE_ONLY__NO_COMPLETE_FRAME_DESCENT`. The cold review retained
-the first-Cartan contact identity but corrected its meaning to encoding/reconstruction, not a new
-law. It also disproved the parent's broad zero-mixed-curvature wording: twelve mixed rows occur under
-each closure pivot; only a narrow aligned projection is zero.
+**Current honest result:** the founding statements derive the abstract reciprocal clock/ruler pair.
+The recorded Lorentzian/SR-continuity readout makes it a local physical alignment conditionally.
+Some complete stationary branches provide intrinsic clock or ruler pieces. No current single
+witness produces one unique smooth physical rank-two reduction through a whole complete cell, so
+the universal physical reduction remains `OPEN`.
 
-With the full `GL(2)` screen retained, `q=(t0,t1)` is a contact Lorentz pair and
-`q_squared=t1^2-t0^2` is invariant under every local frame preserving the reciprocal pair/screen
-reduction. Off its null stratum,
-`dphi wedge dlog(sqrt(|q_squared|)/T0)=-dphi wedge dsigma` exactly.
+**Frame guard:** a physical pair must transform equivariantly. The exact Lorentz centralizer refutes
+one fixed component plane in every frame, not a transforming physical subbundle. For a registered
+pair/screen reduction, `q_squared=t1^2-t0^2` remains
+`DERIVED_GIVEN_REGISTERED_REDUCTION`; it is not yet a metric-only or universal observable.
 
-**Descent guard:** pair/screen-changing local rotations and boosts change `q_squared` while leaving
-the metric unchanged. The Riemann tensor survives, and its scalar contains the contact norm only as
-one entangled term among area, two shears, rotation, depth, and derivatives. No metric-only contact
-law or response selector follows.
-
-**Evidence:** review correction `9cd522c`; full-screen preregistration `d703d44`, source freeze
-`68879ed`, 23 frozen sources, 36/36 curvature rows independently matched, five closure equations,
-six Bianchi checks, Ricci scalar cross-check, and 14/14 catches. Source manifest
-`f5cfe5b53ca4e09eb877b96befa46ddcfb3ddccaec4780a5e9931e84c7934f50`; package manifest
-`fc7dd623fc7f07d4959c0cb8fe267f354e2b2a84e7c62bcf606c2b92e7fb3632`. Six frozen manifests / 133
+**Evidence:** preregistration `71fb71e`, freeze `9a6e865`, adjudication `fda9d05`; 29 exact frozen
+sources, 15 source anchors, 8/8 semantic catches, and a fresh zero-context adversarial review.
+Source manifest `b2e645be98e5d98acfa9936101e9e2373188f79300e890ae95b98f9f6838b02e`; package manifest
+`2fe52afb6713e78c8ddadc8e8f9fc355b5b4a8feef45f20e797766180780f427`. Six frozen manifests / 133
 paths, 1,114 current paths, 101 frontier targets, and tests `70 passed, 1 xfailed` pass.
 
-**Proposed next action, not launched:** premise-level adjudication of whether the founded reciprocal
-pair is physical reduction data or merely one Lorentz coframe presentation of the metric. Use only
-existing premises; invent no postulate.
+**Proposed next action, not launched:** within the already registered twisted complete stationary
+`S3` general-screen branch, test whether the metric makes its stationary timelike line intrinsic and
+unique and joins it smoothly with the twist-selected ruler line. Preserve every degeneracy and
+failure stratum; maximum conclusion is branch-conditional.
 
-**Authority boundary:** the complete `S3` family is an off-shell chosen existence control. No
-density scan, action, carrier, source, bootstrap closure, `X_max`, matter/mass claim, canonization,
-reorganization, GPU/time-live work, external transmission, or follow-on launch follows.
+**Authority boundary:** no new premise or physics was adopted. No density scan, action, carrier,
+source, bootstrap closure, `X_max`, matter/mass claim, canonization, reorganization, GPU/time-live
+work, external transmission, or follow-on launch follows.
 
 <!-- STARTUP_CURRENT_END -->
 

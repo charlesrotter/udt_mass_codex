@@ -5,85 +5,61 @@
 **⚠ BRANCH: work is on `grok` (2026-08-02).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-02 — FULL SCREEN EXPOSES SPLIT-PRESERVING CONTACT NORM; COMPLETE-FRAME DESCENT OPEN) ============
+## ============ CURRENT STATE (2026-08-02 — RECIPROCAL-PAIR AUTHORITY ADJUDICATED; UNIVERSAL PHYSICAL REDUCTION OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_complete_cell_cartan_alternating_production_review_2026-08-02/AUDIT_REPORT.md` and correction
-layer → `udt_complete_cell_full_gl2_screen_frame_descent_audit_2026-08-02/AUDIT_REPORT.md` → its lay
-report, exact derivation, frame-descent atlas, invariant-object atlas, status ledger, and next step.
-The unchanged parent Cartan package is historical evidence and must be read through its correction.
+`udt_reciprocal_pair_reduction_authority_audit_2026-08-02/AUDIT_REPORT.md` → its exact adjudication,
+status ledger, cold-review return, lay report, four gates, and next step → the full-screen and
+corrected Cartan parent packages only when their algebra is load-bearing.
 
-**RESULT:** `SPLIT_RELATIVE_ONLY__NO_COMPLETE_FRAME_DESCENT`, evidence grade
-`VERIFIED-WITH-CAVEATS`. The first package received a fresh zero-context adversarial review and is
-`PASS_AFTER_REQUIRED_CORRECTIONS`; the full-screen package has independent exact algebra but no
-second fresh blind review.
+**RESULT:**
+`FOUNDED_ABSTRACT_PAIR_DERIVED__LOCAL_PHYSICAL_ALIGNMENT_CONDITIONAL_ON_DECLARED_READOUT__BRANCH_CONDITIONAL_PHYSICAL_REDUCTIONS_EXIST__COMPLETE_UNIVERSAL_REDUCTION_OPEN`.
+This is a `VERIFIED` source-authority adjudication within the frozen current record, not a universal
+complete-metric existence theorem.
 
-**COLD-REVIEW CORRECTION:** the dimensioned contact coordinate is
-`v=log(|t1|/T0)`. The first-Cartan coefficient **encodes/reconstructs** the contact differential; it
-does not produce a new law. `mC` transforms homogeneously under local screen rotations, while its
-extraction from total connection data requires the supplied decomposition. Most importantly, full
-isotropic-control curvature does contain mixed ruler/screen monomials: twelve rows under each of two
-closure pivots, with four identities exchanged. Only the narrow leg-aligned projection is zero. No
-tensorial mixed-curvature no-go was derived. The immutable parent package remains unchanged.
+**FOUR LEVELS:** the two founding UDT statements derive the abstract reciprocal clock/ruler
+representation. The founding derivation's separately declared Lorentzian/SR-continuity readout gives
+a local physical alignment, exactly but conditionally on that recorded readout. Some complete
+stationary branches supply intrinsic pieces—such as a stationary Killing line or, given that line,
+a twist-selected ruler—but no single witness yet supplies one unique smooth pair through the whole
+cell. A universal physical rank-two reciprocal reduction therefore remains `OPEN`.
 
-**FULL `GL(2,R)` SCREEN:** area, both shears, screen rotation gauge, and the remaining screen
-anholonomy were retained. Two exact algebra organizations agree on all 36 curvature rows across six
-nonzero blocks, five independent closure equations, six Bianchi components, and the scalar
-curvature. Mixed-sector rows are present: 14 depth/screen, 26 depth/contact, 15 screen/contact, and
-12 shear/contact. These are component counts, not invariant multiplicities.
+**FRAME RULING:** a physical pair must transform equivariantly,
+`X -> Lambda X Lambda^-1` and `Pi_pair -> Lambda Pi_pair Lambda^-1`. Requiring one fixed component
+plane in all Lorentz frames is refuted by the exact centralizer. This does **not** refute a
+transforming physical subbundle; it identifies the object a constructive derivation must supply.
 
-**STRONGER CONTACT OBJECT:** for the registered reciprocal-pair/screen reduction, the two screen
-contact coefficients form `q=(t0,t1)`. Under local pair boosts and screen `O(2)`,
+**CONTACT CONSEQUENCE:** for a registered reciprocal-pair/screen reduction,
+`q=(t0,t1)` and `q_squared=t1^2-t0^2` remain exact split-preserving invariants. Their current
+authority is exactly `DERIVED_GIVEN_REGISTERED_REDUCTION`. They are not yet metric-only scalars or
+universal physical observables. The prior full-screen Cartan/contact algebra remains valid at that
+scope, including its null stratum and correction layer.
 
-```text
-q_squared = t1^2-t0^2
-          = kappa^2/det(P)^2 [exp(2phi)-alpha^2 exp(-2phi)]
-```
+**EVIDENCE:** preregistration `71fb71e`, 29-source freeze `9a6e865`, adjudication `fda9d05`;
+source-manifest SHA-256 `b2e645be98e5d98acfa9936101e9e2373188f79300e890ae95b98f9f6838b02e`;
+package-manifest SHA-256 `2fe52afb6713e78c8ddadc8e8f9fc355b5b4a8feef45f20e797766180780f427`.
+Fifteen exact source anchors, six authority obligations, twelve status rows, eight exercised catches,
+and a fresh zero-context adversarial review pass. Six frozen manifests / 133 paths, 1,114 current
+paths, 101 frontier targets, premise guards, and tests `70 passed, 1 xfailed` pass.
 
-is invariant. On either non-null stratum it gives exactly
+**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** in the same twisted complete stationary `S3`
+general-screen family whose Killing twist supplies a ruler line given the stationary line, determine
+whether the metric also makes that stationary timelike line intrinsic and unique, and whether the two
+lines assemble into one smooth equivariant rank-two reduction through the whole cell. Retain
+nonunique, degenerate, symmetry-enhanced, null, and global-failure strata. The maximum conclusion is
+branch-conditional, never automatically universal.
 
-```text
-dphi wedge dlog(sqrt(|q_squared|)/T0) = -dphi wedge dsigma.
-```
-
-Thus the contact joint survives the whole split-preserving `O(1,1)xO(2)` frame group, not merely a
-fixed ruler presentation. At `q_squared=0` the log is undefined and the null stratum remains open.
-
-**DESCENT LIMIT:** exact local pair/screen-changing rotations and boosts alter `q_squared` while
-leaving the metric unchanged. They generally leave the displayed block-screen chart; that is not a
-physical inconsistency. It proves that the contact norm requires the registered reduction and does
-not descend to the metric alone. Full Riemann curvature is frame covariant and contains the contact
-norm, but only entangled with area, two shears, rotation, depth, and derivative terms; it does not
-select a response law.
-
-**EVIDENCE:** cold-review correction commit `9cd522c`, review-source manifest
-`b0a253887028ac04b460793db48dfeca1f65c55f48855c3459c354c3cf993beb`, immutable parent-package
-manifest `cb5b63eff0c44971b35f031366e6db84721045c535effe018db5662648c44f57`; full-screen preregistration
-`d703d44`, 23-source freeze `68879ed`, source-manifest SHA-256
-`f5cfe5b53ca4e09eb877b96befa46ddcfb3ddccaec4780a5e9931e84c7934f50`, package-manifest SHA-256
-`fc7dd623fc7f07d4959c0cb8fe267f354e2b2a84e7c62bcf606c2b92e7fb3632`, and 14/14 catches. Six
-frozen manifests / 133 paths, 1,114 current paths, 101 frontier targets, premise guards, and tests
-`70 passed, 1 xfailed` pass.
-
-**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** premise-level adjudication only: does the founded
-reciprocal pair in the two original UDT postulates already constitute physical reduction data, or
-is only the metric physical with all local Lorentz coframes gauge? Existing premises must answer if
-they can; do not invent a new postulate. This decides whether `q_squared` is a genuine UDT object or
-only a useful split-relative diagnostic.
-
-**PREMISE STAMPS:** founded `phi` and reciprocal pair `DERIVED`; `c_E` `OBSERVED_SCALE_ANCHOR`;
-complete stationary `S3` and block-screen family `CHOSE_EXISTENCE_CONTROL`; first-Cartan contact
-encoding `DERIVED_GIVEN_REGISTERED_SPLIT`; `q_squared` `DERIVED_GIVEN_REGISTERED_REDUCTION` and
-split-preserving invariant; full curvature `DERIVED_BOUNDED_FAMILY`; complete-frame contact descent,
-primitive selection, physical response, density return, and bootstrap closure `OPEN`; bootstrap
+**PREMISE STAMPS:** abstract reciprocal pair and founded pair action `DERIVED`; local physical
+clock/ruler alignment `DERIVED_CONDITIONAL` on the recorded readout; branch reductions
+`DERIVED_BOUNDED`; fixed component plane `REFUTED`; equivariance `DERIVED_SCOPED`; `q_squared`
+`DERIVED_GIVEN_REGISTERED_REDUCTION`; universal complete physical reduction and metric-only contact
+scalar `OPEN`/`NOT_DERIVED`; `c_E` `OBSERVED_SCALE_ANCHOR`; bootstrap
 `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; action, source,
-`X_max`, stability, mass, and matter remain `OPEN`.
+boundary, density return, `X_max`, stability, mass, and matter remain `OPEN`.
 
-**AUTHORITY BOUNDARY:** an invariant of the registered reduction is not yet a metric-only law; full
-curvature containing the contact norm does not select it; an off-shell complete witness is not a
-physical branch. No density scan, time-live/GPU work, action, carrier, matter solve, canonization,
-external transmission, repository reorganization, or follow-on derivation is authorized by this
-block.
+**AUTHORITY BOUNDARY:** no new postulate or physics was adopted. No density scan, action, carrier,
+source, matter solve, GPU/time-live work, canonization, external transmission, repository
+reorganization, or follow-on derivation is authorized by this block.
 
 <!-- STARTUP_CURRENT_END -->
 
