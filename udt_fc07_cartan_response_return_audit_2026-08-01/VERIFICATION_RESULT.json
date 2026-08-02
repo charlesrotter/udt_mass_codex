@@ -1,0 +1,16 @@
+{
+  "maximum_conclusion": "FC07_FULL_SCREEN_CARTAN_AND_CURVATURE_DERIVED__ALL_NONCONSTANT_REGISTERED_INTERPOLATIONS_HAVE_NONZERO_BUNDLE_RELATIVE_PROJECTOR_RESPONSE__THREE_VARYING_UNIQUE_H1_CLASSES_HAVE_A_METRIC_INTRINSIC_GLOBAL_HARMONIC_RULER_CHANNEL__ONE_FORCED_HYPERBOLIC_INSTANCE__THREE_CONSTANT_SUBFAMILIES_HAVE_A_HOLONOMY_FIXED_RECIPROCAL_PLANE_WITHOUT_SELECTED_AXES__NO_UNIVERSAL_PROJECTOR_BOOTSTRAP_CLOSURE_XMAX_SELECTION_DYNAMICS_OR_MATTER",
+  "promotions_rejected": [
+    "universal_projector",
+    "bootstrap_closure",
+    "Xmax_derivation",
+    "physical_selection",
+    "matter_or_mass"
+  ],
+  "schema": "udt.fc07_cartan_response_return.verification.v1",
+  "semantic_mutations": 25,
+  "semantic_mutations_caught": 25,
+  "source_anchors": 15,
+  "source_identities": 23,
+  "status": "PASS"
+}

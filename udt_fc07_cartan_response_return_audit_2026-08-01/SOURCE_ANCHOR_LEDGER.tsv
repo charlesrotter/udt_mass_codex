@@ -1,0 +1,16 @@
+path	role	exact_anchor	use
+CURRENT_SCIENTIFIC_PREMISES.md	premise_scope	bootstrap is a working on-shell admissibility hypothesis, not a local equation	prevents_bootstrap_promotion
+CURRENT_SCIENTIFIC_PREMISES.md	carrier_scope	the `S^2` carrier is a `POSIT`	prevents_carrier_import
+udt_torus_bundle_full_screen_witness_2026-08-01/EXACT_DERIVATION.md	witness_metric	g=-c_E^2 exp(-2phi0) dt^2 + L^2 exp(2phi0) ds^2 + dy^T h(s)dy.	exact_parent_metric
+udt_torus_bundle_full_screen_witness_2026-08-01/EXACT_DERIVATION.md	projector_control	The screen projector	bundle_projector_not_parent_response
+udt_torus_bundle_full_screen_witness_2026-08-01/EXACT_DERIVATION.md	variation_scope	Parabolic and hyperbolic monodromy admit no	forced_variation_source
+udt_projector_deformation_neighborhood_audit_2026-08-01/EXACT_DERIVATION.md	parent_response	Omega_rel(X,Y)=Q[(D_X P_n),(D_Y P_n)]Q	response_definition
+udt_branchwise_projector_holonomy_census_2026-08-01/AUDIT_REPORT.md	selection_scope	It is **not** an on-shell branch, a universal projector principle	no_universal_promotion
+udt_projector_deformation_neighborhood_audit_2026-08-01/EXACT_DERIVATION.md	full_response	The complete local relative response vanishes at an event exactly when all three vanish.	no_single_component_shortcut
+udt_projector_deformation_neighborhood_audit_2026-08-01/AUDIT_REPORT.md	functional_scope	This is configuration-space geometry.	no_dynamics_promotion
+udt_reciprocal_closure_joint_selector_audit_2026-08-01/AUDIT_REPORT.md	conditional_action	It does not prove that UDT supplies the projector or requires both costs.	no_action_promotion
+udt_bootstrap_projector_admissibility_interface_2026-08-01/AUDIT_REPORT.md	bootstrap_intersection	N_projector intersection Sol(E_native)	open_native_equation
+udt_bootstrap_projector_admissibility_interface_2026-08-01/AUDIT_REPORT.md	return_scope	leaves the native equation/domain `E_native`	open_return_components
+udt_complete_metric_intrinsic_object_audit_2026-07-23/AUDIT_REPORT.md	dphi_scope	Where `alpha` is nonzero and `s` is nonzero	constant_phi_degeneracy_control
+udt_general_screen_complete_cell_atlas_2026-07-28/EXACT_DERIVATION.md	full_screen	three metric modes, one coframe-gauge mode	full_SPD2_required
+udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	transport_scope	It is not physical time evolution.	no_transport_dynamics_promotion

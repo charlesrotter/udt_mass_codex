@@ -1,0 +1,13 @@
+{
+  "basis_covariance_controls": 16,
+  "check_count": 155,
+  "constant_unique_reciprocal_pair_planes": 3,
+  "coordinate_two_jet_probes": 4,
+  "generic_varying_controls": 6,
+  "implementation": "stdlib_Fraction_plus_independent_second_jet_coordinate_Riemann",
+  "monodromy_controls": 8,
+  "projector_response_probes": 3,
+  "schema": "udt.fc07_cartan_response_return.independent.v1",
+  "status": "PASS",
+  "unique_H1_completions": 4
+}

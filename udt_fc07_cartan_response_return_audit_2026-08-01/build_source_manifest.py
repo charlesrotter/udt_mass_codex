@@ -11,6 +11,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
+BASE = "45ebc7ee6ab5f216198835eaef4cfcb498e1147d"
 
 
 def git(*args: str) -> str:
@@ -20,7 +21,8 @@ def git(*args: str) -> str:
 
 
 def main() -> int:
-    head = git("rev-parse", "HEAD")
+    head = BASE
+    assert git("merge-base", "--is-ancestor", head, "HEAD") == ""
     rows = []
     with (HERE / "SOURCE_SCOPE.tsv").open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle, delimiter="\t"):
