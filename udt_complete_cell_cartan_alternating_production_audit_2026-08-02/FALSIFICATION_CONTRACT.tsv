@@ -1,0 +1,22 @@
+id	falsifier
+F01	any SOURCE_MANIFEST path/hash/blob/size mismatch
+F02	an actual complete first-Cartan family is omitted or a taxonomy-only row is treated as actual
+F03	the constant-phi FC07 collapse control is filtered out or called a failure
+F04	formal/free affine rank is reported as a fixed branch-pullback rank
+F05	a functionally dependent sigma=F(phi) pullback is claimed to retain nonzero dphi_wedge_dsigma
+F06	one of the five universally exact affine directions survives the exact quotient
+F07	lambda is called produced when only dlambda or its exact class was recovered
+F08	a scalar wedge built from Cartan structure coefficients is called Levi-Civita curvature without an actual curvature-slot identity
+F09	a connection one-form or skew screen coefficient is called frame-independent despite its inhomogeneous gauge transformation
+F10	a split-relative t1_m_detP_or_screen-area quantity is called complete-frame observer-natural
+F11	changing phi zero or D0 changes the non-exact class
+F12	orientation reversal changes an asserted invariant without an explicit orientation stamp
+F13	t0 logarithms are used on the alpha=0 stratum where t0 vanishes
+F14	detP=0 is silently included as a nondegenerate configuration or silently discarded
+F15	a favorable S3 identity is extrapolated to FC07 or taxonomy-only completion rows
+F16	multiple independent Cartan response directions are compressed into a uniqueness claim
+F17	an action_equation_source_carrier_density_mass_or_bootstrap interpretation is promoted
+F18	an exact symbolic identity is accepted only from floating-point samples
+F19	production and independent verification share the same load-bearing implementation
+F20	missing fresh blind review is hidden while a load-bearing result is banked as fully verified
+
