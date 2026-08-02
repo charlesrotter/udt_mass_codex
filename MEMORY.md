@@ -4,7 +4,31 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-01)
+## TOP — CURRENT POINTER (2026-08-01, reciprocal-closure joint)
+
+**LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
+block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
+`udt_reciprocal_closure_joint_selector_audit_2026-08-01/` in the order routed there.
+
+Current honest result: a supplied rank-one orthogonal projector has one exact common geometry
+behind the conditional carrier terms—`L2` is path bending and `L4` is relative loop
+noncommutation/area. Quartic `L4` uniqueness is conditional on rank-one blindness and the bounded
+first-derivative invariant class. Current UDT has not selected that projector, required both
+responses, fixed their ratio, or supplied carrier, action, boundary, dynamics, source, mass, or
+bootstrap return. The strongest status is an open coherent architecture with an exact conditional
+projector-response theorem.
+
+The fresh external gpt-5.4 review sustained all ten scientific rulings and required one wording
+repair distinguishing the frozen pinned SymPy run from the reviewer's own environment. The repair
+is applied; pinned primary, independent rational, mutation, package, frozen-manifest, premise,
+navigation, and test gates pass; the final package is banked at `0b2a305`. The next proposed but
+unlaunched task is a post-July branch census for intrinsic rank-one spectral projectors or
+reduced-holonomy subbundles and their global descent.
+
+The prior F01/F02/F04 plural-family reconciliation remains valid and separate. No action, carrier,
+family, or further work is adopted automatically.
+
+## PRIOR TOP — F02 CURRENT POINTER (2026-08-01)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then the marked current
 block in `HANDOFF.md`, `CURRENT_SCIENTIFIC_PREMISES.md`, `CURRENT_SCIENTIFIC_PREMISES.tsv`, and

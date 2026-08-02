@@ -6,7 +6,58 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — F02 global completion gate narrowed; transition/join data remain open
+## CURRENT — reciprocal-closure joint externally reviewed; projector response exact-conditional
+
+**Fresh-entry path:**
+
+1. `LIVE.md` topmost current block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `udt_reciprocal_closure_joint_selector_audit_2026-08-01/AUDIT_REPORT.md`, then
+   `LAY_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, and `CANDIDATE_OUTCOMES.tsv`.
+4. `EXTERNAL_ADVERSARIAL_REVIEW.md`, its repair preregistration, `EXTERNAL_REVIEW_RESULT.json`,
+   `PINNED_ENV_REPLAY.md`, and the package manifest/verification.
+5. Follow `SOURCE_INVENTORY.tsv` into the 24 load-bearing sources only as needed. Use the prior
+   F01/F02/F04 reconciliation for branch context, not as authority for the new bridge.
+
+**Current honest result:** if—and only if—a complete metric branch supplies an orthogonal rank-one
+projector `P`, the former conditional carrier terms are exact invariants of that one reduction:
+`L2` measures pathwise bending and `L4` measures relative loop noncommutation/area. With an added
+rank-one-blindness premise, `L4` is unique up to normalization only in the declared parity-even
+rotational first-derivative quartic class. The natural unoriented target is `RP2`; an `S2` lift is
+conditional on the stated global domain/completion.
+
+**What did not close:** the metric has not selected `P`; generic Levi-Civita curvature is not a
+matter discriminator; the celestial sphere is a fiber rather than a selected section; and the
+registered pointwise full-coframe class has zero selector rank. UDT also has not required both
+path and loop response, selected their coefficient, or derived global descent, boundary,
+dynamics, source, mass, or bootstrap return. The `S2` carrier stays `POSIT` and `L2+L4` stays
+`CONDITIONAL`.
+
+**Evidence and review:** preregistration `9c50c53`; raw external review and its repair
+preregistration `33f4ff4`; final evidence package `0b2a305`. Pinned SymPy 1.14.0: 24/24;
+independent rational reconstruction: 16/16; mutation catches: 10/10; repaired package verifier:
+26/26. The external gpt-5.4 verdict was
+`PASS-WITH-REQUIRED-REPAIRS`: all ten scientific rulings survived, and the sole repair clarified
+which SymPy run was frozen versus replayed. Six frozen manifests / 133 paths, current-premise
+guards, navigation, and `70 passed, 1 xfailed` all pass.
+
+**Proposed next action, not launched:** a bounded post-July branch census for a smooth intrinsic
+rank-one spectral projector or reduced-holonomy subbundle, including degeneracies and global
+descent. It must observe all branches without demanding a particle, Hopf topology, action, or
+positive result. No GPU work is indicated.
+
+**Authority boundary:** no projector, carrier, action, coefficient, boundary, bootstrap law,
+matter family, canonization, reorganization, or further research launch follows automatically.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT — F02 global completion gate narrowed
+
+<!-- STARTUP_PRIOR_BEGIN -->
+
+> **Historical checkpoint only. The topmost current block above supersedes this block.**
+
+## PRIOR — F02 global completion gate narrowed; transition/join data remain open
 
 **Fresh-entry path:**
 
@@ -80,7 +131,7 @@ catches. F02 completion: 10/10 primary checks, independent local PASS, 13/13 cat
 review `PASS-WITH-REQUIRED-REPAIRS`, append-only repair 8/8, parent package byte-identical. Tests:
 70 passed / 1 xfailed; six frozen manifests / 133 paths unchanged.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_END -->
 
 ## PRIOR CURRENT — P4 cold review and repair closed
 

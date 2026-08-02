@@ -2,10 +2,73 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-08-01).** If not on it: `git checkout grok`.
+**⚠ BRANCH: work is on `grok` (2026-08-01).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — F02 GLOBAL COMPLETION GATE NARROWED; TRANSITION/JOIN DATA OPEN) ============
+## ============ CURRENT STATE (2026-08-01 — RECIPROCAL-CLOSURE JOINT AUDITED; PROJECTOR RESPONSE EXACT-CONDITIONAL) ============
+
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_reciprocal_closure_joint_selector_audit_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
+`EXACT_DERIVATION.md` → `STATUS_LEDGER.tsv` → `EXTERNAL_ADVERSARIAL_REVIEW.md` and
+`EXTERNAL_REVIEW_REPAIR_PREREGISTRATION.md`. Use `SOURCE_INVENTORY.tsv` to enter the 24 exact
+load-bearing sources. The prior F01/F02/F04 plural-family reconciliation remains valid but is not
+authority for the new projector bridge.
+
+**RESULT:**
+`OPEN_COHERENT_ARCHITECTURE_WITH_EXACT_CONDITIONAL_PROJECTOR_RESPONSE_THEOREM`.
+For any complete branch that independently supplies an orthogonal rank-one projector `P`, exact
+algebra gives path strain
+`L2=(1/2) sum_i ||D_i P||^2` and relative loop response
+`L4=(1/2) sum_ij ||[D_i P,D_j P]||^2`. The latter is exactly the squared area form. Within the
+declared parity-even rotational first-derivative quartic class, adding the independent rank-one-
+blindness premise makes `L4` unique up to normalization.
+
+**CONCEPTUAL GAIN:** the conditional Hopf model's `L2` and `L4` can be read as path bending and loop
+noncommutation of one supplied geometric reduction, rather than unrelated mechanisms. Its natural
+unoriented target is `RP2`; an `S2` lift is available only under the stated global compactification
+conditions. This is an exact conditional bridge, not native carrier emergence.
+
+**OPEN SELECTOR GATE:** current UDT premises do not select `P`. Smooth founded scalar reciprocity is
+Abelian and loop-flat; generic Levi-Civita curvature is not matter-specific; the celestial `S2` is
+a fiber rather than a section; complete-coframe selector rank is zero in the registered pointwise
+class; and generic full holonomy obstructs the tested endpoint reductions. Rank-one blindness,
+the requirement that both path and loop response be physical, their coefficient ratio, global
+descent, boundary, dynamics, source, mass, and bootstrap return all remain free or open.
+
+**EVIDENCE:** preregistered at `9c50c53`; accepted external-review/repair preregistration frozen at
+`33f4ff4`; final evidence package banked at `0b2a305`. Primary pinned SymPy 1.14.0 algebra passes
+24/24; non-importing rational verification passes 16/16 plus 10/10 mutation catches; the repaired
+package verifier passes 26/26. Fresh
+read-only gpt-5.4 review returned `PASS-WITH-REQUIRED-REPAIRS`, sustained all ten scientific
+rulings, and required one evidentiary wording correction, now applied. Six frozen manifests / 133
+paths, 24 source hashes, premise guards, 1,114 current paths, 101 frontier targets, and the
+`70 passed, 1 xfailed` test baseline pass.
+
+**NEXT JUSTIFIED TEST — PROPOSED, NOT LAUNCHED:** census complete post-July metric branches for a
+smooth intrinsic rank-one spectral projector or reduced-holonomy subbundle; follow degeneracies,
+global descent, and relative loop curvature without demanding a particle or Hopf topology. If no
+branch supplies the reduction, retain this as an organizing architecture rather than a metric-
+derived joint.
+
+**PREMISE STAMPS:** founded `phi` and its reciprocal pair action remain `DERIVED`; supplied-projector
+identities are `DERIVED_CONDITIONAL`; area uniqueness is `UNIQUE_CONDITIONAL`; branchwise projector
+selection is a `COHERENT_CANDIDATE`; the `S2` carrier remains `POSIT`; `L2+L4` remains
+`CONDITIONAL`; bootstrap remains `WORKING`; complete action, source, boundary, dynamics, native
+carrier, unconditional mass, and physical family assignments remain `OPEN`.
+
+**AUTHORITY BOUNDARY:** no projector, carrier, action, response premise, coefficient, boundary,
+bootstrap law, matter family, or physics interpretation is adopted. No GPU work, canonization,
+repository reorganization, or further derivation is launched by this checkpoint.
+
+<!-- STARTUP_CURRENT_END -->
+
+## PRIOR CURRENT — F02 global completion gate narrowed; transition/join data open
+
+<!-- STARTUP_PRIOR_BEGIN -->
+
+**Historical checkpoint only. The topmost CURRENT STATE block above supersedes this block.**
+
+## ============ PRIOR STATE (2026-08-01 — F02 GLOBAL COMPLETION GATE NARROWED; TRANSITION/JOIN DATA OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_f02_global_completion_admissibility_2026-08-01/AUDIT_REPORT.md`, `LAY_REPORT.md`,
@@ -99,7 +162,7 @@ carrier emergence, bootstrap return, unconditional mass, and physical family cou
 **AUTHORITY BOUNDARY:** no action, response, carrier, boundary, bootstrap law, or family is adopted.
 No GPU work, canonization, or repository reorganization.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_END -->
 
 ## PRIOR CURRENT — P4 cold review and repair closed; stability-foundations audit authorized
 

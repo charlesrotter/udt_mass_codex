@@ -3,7 +3,34 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — F02 COMPLETION GATE NARROWED; TRANSITION/JOIN DATA OPEN:**
+**➤ CURRENT SCIENTIFIC FRONTIER — RECIPROCAL-CLOSURE JOINT AUDITED; PROJECTOR RESPONSE EXACT-CONDITIONAL:**
+Read `udt_reciprocal_closure_joint_selector_audit_2026-08-01/AUDIT_REPORT.md`, then
+`LAY_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `CANDIDATE_OUTCOMES.tsv`, and the
+accepted `EXTERNAL_ADVERSARIAL_REVIEW.md` with its repair preregistration and machine result.
+`SOURCE_INVENTORY.tsv` freezes the 24 exact antecedents; `PACKAGE_MANIFEST.sha256` is the current
+package identity. The final evidence package is banked at `0b2a305`.
+
+The exact bounded theorem is conditional on a supplied orthogonal rank-one projector `P`:
+`L2` is its path-strain norm and `L4` is its relative loop-curvature/area norm. Requiring rank-one
+blindness makes `L4` unique up to normalization only in the declared first-derivative quartic
+invariant class. This provides a clean possible geometric joint between the conditional Hopf
+terms, with natural unoriented target `RP2`, but does not derive the projector, `S2` carrier, or
+action.
+
+Current UDT premises do not select `P`; the founded scalar channel is Abelian and loop-flat,
+generic metric holonomy is not matter-specific, the celestial `S2` remains a fiber, and the
+registered full-coframe/holonomy evidence retains the selector obstruction. Rank-one blindness,
+both-response physics, coefficient, global descent, boundary, dynamics, source, mass, and
+bootstrap return remain open. The strongest status is
+`OPEN_COHERENT_ARCHITECTURE_WITH_EXACT_CONDITIONAL_PROJECTOR_RESPONSE_THEOREM`.
+
+The read-only external gpt-5.4 review sustained all ten scientific rulings and required one
+evidence-wording repair, now applied. Pinned exact algebra passes 24/24, independent algebra 16/16,
+mutation catches 10/10, repaired verifier 26/26, six frozen manifests / 133 paths, and tests
+`70 passed, 1 xfailed`. The proposed next bounded test is a branchwise intrinsic-projector and
+reduced-holonomy census; it is not launched by this index.
+
+**➤ PRIOR SCIENTIFIC FRONTIER — F02 COMPLETION GATE NARROWED; TRANSITION/JOIN DATA OPEN:**
 Read `udt_f02_global_completion_admissibility_2026-08-01/AUDIT_REPORT.md`, its lay report,
 exact derivation, and completion census, then its append-only external-review closure in
 `udt_f02_global_completion_admissibility_review_2026-08-01/`; then read
