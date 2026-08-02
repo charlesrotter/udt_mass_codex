@@ -1,0 +1,11 @@
+candidate_id	profile	lambda	a_over_R	chart_point	role	post_outcome_rule
+C01	u=3+q0^2+2q1^2+4q2^2+8q3^2	-1	1	(1/5,1/7,1/11)	primary_exact_witness	classify_exact_determinant
+C02	u=3+q0^2+2q1^2+4q2^2+8q3^2	0	1	(1/5,1/7,1/11)	primary_exact_witness	classify_exact_determinant
+C03	u=3+q0^2+2q1^2+4q2^2+8q3^2	1	1	(1/5,1/7,1/11)	primary_exact_witness	classify_exact_determinant
+C04	u=3+q0^2+2q1^2+4q2^2+8q3^2	0	1	(1/3,-1/5,1/7)	point_independence_control	classify_exact_determinant
+C05	u=3+q0^2+2q1^2+4q2^2+8q3^2	0	1	(-2/5,1/4,1/6)	point_independence_control	classify_exact_determinant
+C06	u=4_constant	0	1	(1/5,1/7,1/11)	symmetry_enhanced_control	must_not_support_uniqueness
+C07	u=3+q0^2+q1^2+4q2^2+8q3^2	0	1	(1/5,1/7,1/11)	repeated_coefficient_control	classify_without_promotion
+C08	u=3+q0^2+2q1^2+4q2^2+8q3^2	0	0	(1/5,1/7,1/11)	twist_free_control	uniqueness_cannot_close_full_pair
+C09	u=3+q0^2+2q1^2+4q2^2+8q3^2	0	4	(0,0,0)	slice_null_control	retain_degenerate_stratum
+
