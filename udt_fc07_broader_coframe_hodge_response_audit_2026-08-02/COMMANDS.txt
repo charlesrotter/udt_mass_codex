@@ -1,0 +1,10 @@
+python3 udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/freeze_sources.py
+git commit -m "Preregister broader coframe Hodge response audit"
+git push origin grok
+python3 udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/derive_broader_response.py
+python3 udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/verify_broader_response_independent.py
+python3 udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/build_manifest.py --source-only
+python3 udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/verify_audit.py
+python3 udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/verify_repository_gates.py
+python3 udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/build_manifest.py
+python3 udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/verify_package.py

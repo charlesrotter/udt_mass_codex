@@ -1,0 +1,53 @@
+{
+  "candidate_outcomes": {
+    "R00": "DERIVED_UNIVERSAL_COMPACT_BOUNDARYLESS",
+    "R01": "DERIVED_EXACT_FOR_SINGLE_VALUED_SMOOTH_REAL_PHI",
+    "R02": "EXACT",
+    "R03": "EXACT",
+    "R04": "EXACT",
+    "R05": "EXACT",
+    "R06": "EXACT",
+    "R07": "UNIQUE_MINIMAL_ALTERNATING_CROSS_MOTIF_MOD_EXACT",
+    "R08": "REFERENCE_INVARIANT_MOD_EXACT",
+    "R09": "CONSTRUCTIVE_NONZERO_HARMONIC_WITNESS",
+    "R10": "CONSTRUCTIVE_LOCAL_CURL_WITNESS",
+    "R11": "COHOMOLOGY_SAME_BUT_HARMONIC_REPRESENTATIVE_METRIC_DEPENDENT",
+    "R12": "POINTWISE_RULER_HARMONIC_OWNERSHIP_BREAKS",
+    "R13": "SPLIT_RELATIVE_NOT_FULLY_FRAME_INDEPENDENT",
+    "R14": "AVAILABLE_METRIC_KINEMATIC_RESPONSE_NOT_SELECTED_LAW",
+    "R15": "CLOSED_NO_DENSITY_SCAN"
+  },
+  "checks_passed": 43,
+  "checks_total": 43,
+  "density_scan_authorized": false,
+  "explicit_witness_scope": "M_MINUS_IDENTITY_ONLY",
+  "failed_checks": [],
+  "global_base_loop_readout": "integral lambda is oriented area of the closed (phi,sigma) loop up to sign convention",
+  "law_selected": false,
+  "local_cross_curvature": "dlambda=dphi wedge dsigma",
+  "minimal_response_result": "lambda=(phi dsigma-sigma dphi)/2 is the sole nonexact direction modulo exact forms in the preregistered six-element basis",
+  "monodromies": {
+    "M_HYPERBOLIC": {
+      "det": 1,
+      "det_MT_minus_I": -1
+    },
+    "M_MINUS_IDENTITY": {
+      "det": 1,
+      "det_MT_minus_I": 4
+    },
+    "M_ORDER4_ROTATION": {
+      "det": 1,
+      "det_MT_minus_I": 2
+    },
+    "M_ORDER6_ELLIPTIC": {
+      "det": 1,
+      "det_MT_minus_I": 1
+    }
+  },
+  "observer_naturality": "split-relative only; complete-frame naturality remains open",
+  "outcome": "MINIMAL_CROSS_SECTOR_RESPONSE_EXISTS__LAW_SELECTION_OPEN",
+  "scope": "UNIVERSAL_COMPACT_HODGE_PLUS_EXPLICIT_MINUS_IDENTITY_UPPER_RIGHT_CONTROLS_PLUS_MINIMAL_SCREEN_SPLIT_TWO_SCALAR_BASIS",
+  "time_live_authorized": false,
+  "universal_result": "Pi_H(df)=0 on compact oriented boundaryless Riemannian cells",
+  "upper_right_result": "pointwise raw-ruler/harmonic ownership is not robust; exact and nonclosed upper-right controls have distinct Hodge behavior"
+}

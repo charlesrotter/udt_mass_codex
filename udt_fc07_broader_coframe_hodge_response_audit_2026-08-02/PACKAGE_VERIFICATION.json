@@ -1,0 +1,10 @@
+{
+  "density_scan_authorized": false,
+  "law_selected": false,
+  "manifest_files": 51,
+  "manifest_sha256": "5f9cbe9eeae15b82e9d79d290cbc0e8d056b8d8cd7af20c2b1818070c164ae36",
+  "outcome": "MINIMAL_CROSS_SECTOR_RESPONSE_EXISTS__LAW_SELECTION_OPEN",
+  "schema": "udt.fc07.broader_coframe_hodge_response.package.v1",
+  "scientific_grade": "VERIFIED_WITH_CAVEATS",
+  "status": "PASS"
+}

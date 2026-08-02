@@ -1,0 +1,17 @@
+candidate_id	outcome	reason
+R00	DERIVED_UNIVERSAL_COMPACT_BOUNDARYLESS	<df,h>=<f,delta h>=0 for every harmonic h
+R01	DERIVED_EXACT_FOR_SINGLE_VALUED_SMOOTH_REAL_PHI	F(phi)dphi=dH(phi); topology escape would require a different scalar ontology
+R02	EXACT	primitive phi
+R03	EXACT	primitive sigma
+R04	EXACT	d(phi^2/2)
+R05	EXACT	d(sigma^2/2)
+R06	EXACT	d(phi sigma)
+R07	UNIQUE_MINIMAL_ALTERNATING_CROSS_MOTIF_MOD_EXACT	lambda=(phi dsigma-sigma dphi)/2; dlambda=dphi wedge dsigma
+R08	REFERENCE_INVARIANT_MOD_EXACT	constant shifts change lambda by d[(A sigma-B phi)/2]
+R09	CONSTRUCTIVE_NONZERO_HARMONIC_WITNESS	sin/cos base loop gives lambda=-pi ds and period -pi
+R10	CONSTRUCTIVE_LOCAL_CURL_WITNESS	screen-dependent phi,sigma give nonzero dphi wedge dsigma
+R11	COHOMOLOGY_SAME_BUT_HARMONIC_REPRESENTATIVE_METRIC_DEPENDENT	eta1=ds+dpsi is harmonic while ds generically is not
+R12	POINTWISE_RULER_HARMONIC_OWNERSHIP_BREAKS	eta1=ds+f(y)dz is coclosed but not closed; ds remains harmonic
+R13	SPLIT_RELATIVE_NOT_FULLY_FRAME_INDEPENDENT	sigma uses the registered oriented screen split; upper-right extension is not uniquely derived
+R14	AVAILABLE_METRIC_KINEMATIC_RESPONSE_NOT_SELECTED_LAW	no current premise chooses lambda, its Hodge level, or an equation
+R15	CLOSED_NO_DENSITY_SCAN	a nonidentity motif exists, but no native return equation relates it to rho_tot

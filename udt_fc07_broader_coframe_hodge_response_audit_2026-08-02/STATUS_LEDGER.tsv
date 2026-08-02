@@ -1,0 +1,14 @@
+object	status	scope_or_reason
+exact_form_harmonic_projection	DERIVED_ZERO	arbitrary compact oriented boundaryless Riemannian cell
+single_scalar_F_phi_dphi	DERIVED_EXACT	smooth single-valued real phi
+minimal_two_scalar_quotient_rank	DERIVED_ONE	preregistered affine first-derivative basis
+alternating_cross_response_lambda	DERIVED_AVAILABLE	lambda=(phi dsigma-sigma dphi)/2 given screen-split sigma
+lambda_reference_independence	DERIVED_MOD_EXACT	constant zeros of phi and sigma
+base_loop_harmonic_response	DERIVED_CONSTRUCTIVE_WITNESS	chosen smooth sin/cos profiles
+nontorus_local_curl	DERIVED_CONSTRUCTIVE_WITNESS	minus-identity descending cos/cos fields
+lower_triangular_pointwise_ownership	NOT_ROBUST	explicit upper-right minus-identity control
+upper_right_complete_census	OPEN	only two exact controls sampled
+complete_frame_naturality	OPEN	sigma remains typed by supplied screen split
+native_response_equation	OPEN	no current premise selects response or level
+density_bracket	NOT_AUTHORIZED	no rho_tot return equation
+action_carrier_source_mass	OPEN_OR_CONDITIONAL	unchanged

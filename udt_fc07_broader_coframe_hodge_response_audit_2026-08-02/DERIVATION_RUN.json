@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/derive_broader_response.py"
+  ],
+  "exit_code": 0,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 157,
+  "stdout_sha256": "bc6d0080b15b4483a834d9a3e0db1cc5e4ebc3a9b42db89bc0b0406c4fdb6864"
+}

@@ -1,0 +1,14 @@
+id	object	exact_relation	status
+A01	universal_hodge	<df,h>=<f,delta h>=0	DERIVED_COMPACT_BOUNDARYLESS
+A02	single_scalar	F(phi)dphi=dH(phi)	DERIVED_SINGLE_VALUED_REAL_PHI
+A03	minimal_quotient	span(response basis)/exact has dimension 1	DERIVED_BOUNDED_BASIS
+A04	alternating_response	lambda=(phi dsigma-sigma dphi)/2	DERIVED_AVAILABLE_MOTIF
+A05	local_cross	dlambda=dphi wedge dsigma	DERIVED
+A06	reference_shift	Delta lambda=d[(A sigma-B phi)/2]	DERIVED_MOD_EXACT
+A07	base_loop	phi=sin(2pi s),sigma=cos(2pi s) gives lambda=-pi ds	CONSTRUCTIVE_HARMONIC_WITNESS
+A08	nontorus_curl	phi=cos(2pi y),sigma=cos(2pi z) gives nonzero dlambda	CONSTRUCTIVE_LOCAL_WITNESS
+A09	exact_upper_right	eta1=ds+dpsi is harmonic; ds generically is not	EXACT_CONTROL
+A10	nonclosed_upper_right	eta1=ds+f(y)dz not closed; ds harmonic	EXACT_CONTROL
+A11	nonclosed_projection	Pi_H eta1=[1/(1+eps^2/2)] ds	DERIVED_EXPLICIT_CONTROL
+A12	selection	no current premise sets lambda or its harmonic coefficient	OPEN
+A13	density	no rho_tot return equation	EXCLUDED_NOT_AUTHORIZED

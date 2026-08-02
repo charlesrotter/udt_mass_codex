@@ -1,0 +1,16 @@
+catch_id	status	detail
+missing_response	PASS	mutant rejected
+duplicate_response	PASS	mutant rejected
+exact_has_harmonic	PASS	mutant rejected
+single_scalar_promoted	PASS	mutant rejected
+alternating_deleted	PASS	mutant rejected
+alternating_curl_zero	PASS	mutant rejected
+reference_physical	PASS	mutant rejected
+nonclosed_called_harmonic	PASS	mutant rejected
+all_monodromies_claimed	PASS	mutant rejected
+full_frame_promoted	PASS	mutant rejected
+law_selected	PASS	mutant rejected
+density_authorized	PASS	mutant rejected
+screen_split_untyped	PASS	mutant rejected
+strong_CSN_activated	PASS	mutant rejected
+source_corrupted	PASS	mutant rejected

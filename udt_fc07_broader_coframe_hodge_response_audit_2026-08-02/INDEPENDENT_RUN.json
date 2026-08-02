@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/verify_broader_response_independent.py"
+  ],
+  "exit_code": 0,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 91,
+  "stdout_sha256": "c9a19f3c1eb746d1f70726e8a221c9a2aa4ffd5c4e8c164c6f0c33e265fa5dcb"
+}

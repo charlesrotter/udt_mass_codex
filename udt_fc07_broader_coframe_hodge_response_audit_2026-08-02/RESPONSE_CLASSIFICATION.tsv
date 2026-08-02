@@ -1,0 +1,7 @@
+candidate_id	response	coefficient_dphi	coefficient_dsigma	d_response_coefficient	primitive	classification
+R02	dphi	1	0	0	phi	EXACT
+R03	dsigma	0	1	0	sigma	EXACT
+R04	phi_dphi	phi	0	0	phi^2/2	EXACT
+R05	sigma_dsigma	0	sigma	0	sigma^2/2	EXACT
+R06	symmetric_cross	sigma	phi	0	phi*sigma	EXACT
+R07	lambda	-sigma/2	phi/2	1	NONE_GENERIC	ALTERNATING_CROSS_MOTIF

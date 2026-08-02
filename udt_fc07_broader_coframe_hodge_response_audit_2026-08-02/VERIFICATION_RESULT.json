@@ -1,0 +1,14 @@
+{
+  "algebra_rows": 13,
+  "candidate_outcomes": 16,
+  "density_scan_authorized": false,
+  "independent_checks": 29,
+  "law_selected": false,
+  "minimal_response_rows": 6,
+  "outcome": "MINIMAL_CROSS_SECTOR_RESPONSE_EXISTS__LAW_SELECTION_OPEN",
+  "primary_checks": 43,
+  "semantic_catches": 15,
+  "source_identities": 15,
+  "status": "PASS",
+  "upper_right_controls": 2
+}

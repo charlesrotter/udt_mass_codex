@@ -1,0 +1,12 @@
+{
+  "baseline_errors": [],
+  "checks_passed": 29,
+  "checks_total": 29,
+  "failed_checks": [],
+  "implementation": "python_stdlib_no_primary_import",
+  "outcome": "MINIMAL_CROSS_SECTOR_RESPONSE_EXISTS__LAW_SELECTION_OPEN",
+  "semantic_catches_passed": 15,
+  "semantic_catches_total": 15,
+  "source_count": 15,
+  "source_hashes_valid": true
+}
