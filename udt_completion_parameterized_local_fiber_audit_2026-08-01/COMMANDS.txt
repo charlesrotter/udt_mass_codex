@@ -1,0 +1,4 @@
+python3 udt_completion_parameterized_local_fiber_audit_2026-08-01/run_and_capture.py
+python3 udt_completion_parameterized_local_fiber_audit_2026-08-01/verify_repository_gates.py
+python3 udt_completion_parameterized_local_fiber_audit_2026-08-01/build_manifest.py
+python3 udt_completion_parameterized_local_fiber_audit_2026-08-01/verify_package.py

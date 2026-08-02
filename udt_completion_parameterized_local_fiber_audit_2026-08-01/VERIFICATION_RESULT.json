@@ -1,0 +1,10 @@
+{
+  "candidate_rows": 12,
+  "conditional_realized_routes": 1,
+  "curvature_native_return_routes": 0,
+  "mutation_catches": 26,
+  "parametric_schema_routes": 2,
+  "physical_selectors": 0,
+  "schema": "udt.completion_parameterized_local_fiber.verification.v1",
+  "status": "PASS"
+}

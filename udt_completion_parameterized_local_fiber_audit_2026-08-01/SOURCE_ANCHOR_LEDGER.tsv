@@ -1,0 +1,17 @@
+anchor_id	path	exact_anchor	role
+A01	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	`COMPLETION_CLASS_REGISTRY.tsv` records 12 parametric families.	completion_family_count
+A02	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	Eight explicit `GL(2,Z)` controls cover identity, finite elliptic, parabolic, hyperbolic, and	monodromy_witness_scope
+A03	udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md	Multiple current-compatible or conditional branches therefore remain.	no_completion_selector
+A04	udt_finite_cell_completion_atlas_2026-07-21/COMPATIBILITY_RELATIONS.tsv	R04	Ck_gluing	all_transformed_jets_through_k_match	FULL_TRANSITION_REQUIRED	jet_matching_rule
+A05	udt_finite_cell_completion_atlas_2026-07-21/JET_MATCHING_ATLAS.tsv	J04	C2_JOIN	jets through order two agree under transition	nested_jet_control
+A06	udt_cap_gluing_selector_2026-07-28/EXACT_DERIVATION.md	f -> f_cap = -x/y        [Tc1_fcap_formula]	cap_cycle_formula
+A07	udt_cap_gluing_selector_2026-07-28/AUDIT_REPORT.md	  toric completion forces `f_cap = +-1` at both caps.	registered_cap_values
+A08	udt_cap_gluing_selector_2026-07-28/AUDIT_REPORT.md	1. Family CHOSE (P06/P07/P14-class); registered two-cap toric completion	cap_family_conditionality
+A09	udt_completion_scoped_realized_observable_map_2026-07-26/AUDIT_REPORT.md	no registered completion contains a complete metric/coframe witness;	complete_witness_blocker
+A10	udt_completion_scoped_realized_observable_map_2026-07-26/AUDIT_REPORT.md	therefore no complete realized R_geom vector or non-identity physical	no_complete_return
+A11	udt_general_screen_complete_cell_atlas_2026-07-28/COMPLETION_DESCENT_ATLAS.tsv	FC04_TWO_CAP_P1	S3	UNIQUE_ONLY_INSIDE_SUPPLIED_OPPOSITE_EIGENCIRCLE_PREMISES	CONSTRUCTIVE_S3_GENERAL_SCREEN_WITNESS	constructive_S3_scope
+A12	udt_general_screen_complete_cell_atlas_2026-07-28/COMPLETION_DESCENT_ATLAS.tsv	FC07_PERIODIC_TORUS_BUNDLE	TORUS_BUNDLE_OVER_S1	REGISTERED_GLOBAL_ALTERNATIVE_NOT_CURRENT_PHYSICAL_CELL_WITHOUT_EXTRA_JOIN	CONDITIONAL_TRANSITION_DESCENT_ONLY	transition_schema_scope
+A13	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/AUDIT_REPORT.md	- the full clock–ruler–screen structure transports exactly only with its path label;	holonomy_path_dependence
+A14	udt_reduced_holonomy_condition_audit_2026-07-27/AUDIT_REPORT.md	No registered premise supplies the parallelism conditions:	parallelism_not_owned
+A15	udt_bootstrap_closure_ownership_audit_2026-08-01/RETURN_OWNERSHIP_LEDGER.tsv	R02	FINITE_CELL_REGULARITY_AND_GLUE	PARTIAL_ADMISSIBILITY_NOT_COMPLETE_RETURN	PARTIAL_ONLY	partial_admissibility_only
+A16	udt_bootstrap_closure_ownership_audit_2026-08-01/RETURN_OWNERSHIP_LEDGER.tsv	R08	OTHER_REGISTERED_RETURN	NO_OTHER_COMPLETE_RETURN_FOUND	NO	no_other_return

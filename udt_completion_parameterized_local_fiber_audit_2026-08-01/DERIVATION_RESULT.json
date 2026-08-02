@@ -1,0 +1,27 @@
+{
+  "candidate_count": 12,
+  "cap_f_values": [
+    "-1",
+    "1"
+  ],
+  "conditional_completed_family_fiber_route": "G08",
+  "conditional_transport_route": "G05",
+  "curvature_native_return_routes": 0,
+  "distinct_monodromy_graph_pairs": 28,
+  "jet_fiber_dimensions": [
+    6,
+    5,
+    4,
+    3
+  ],
+  "maximum_conclusion": "PARTIAL_KINEMATIC_GLOBAL_TO_LOCAL_FIBER_FAMILY_ONLY_NO_BOOTSTRAP_DYNAMICS_STABILITY_OR_SELECTION",
+  "monodromy_witnesses": 8,
+  "outcome": "COMPLETION_DATA_SUPPLY_PARAMETRIC_LOCAL_FIBER_SCHEMAS_AND_ONE_CONDITIONAL_CAP_REALIZATION__CURVATURE_RETURN_AND_PHYSICAL_SELECTION_OPEN",
+  "parametric_fiber_schema_routes": [
+    "G07",
+    "G09"
+  ],
+  "physical_completion_selectors": 0,
+  "schema": "udt.completion_parameterized_local_fiber.result.v1",
+  "status": "PASS"
+}

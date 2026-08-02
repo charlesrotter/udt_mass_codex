@@ -1,0 +1,3 @@
+cap_id	x	y	f_cap	b_cap	df_cap	db_cap	chi_cap	exceptional_stratum_c	local_jet_fiber
+CAP_PLUS	-1/2	1/2	1	0	0	0	0	1	f0=1;b0=0;f1=0;b1=0;u1=0;u0>0
+CAP_MINUS	1/2	1/2	-1	0	0	0	0	1	f0=-1;b0=0;f1=0;b1=0;u1=0;u0>0

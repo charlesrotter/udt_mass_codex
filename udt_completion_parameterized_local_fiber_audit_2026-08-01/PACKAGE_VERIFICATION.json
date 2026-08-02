@@ -1,0 +1,8 @@
+{
+  "manifest_files": 44,
+  "manifest_sha256": "719939ea902fb696520d151fd6394d672272547dc85599150cb0df533bccbab7",
+  "maximum_conclusion": "PARTIAL_KINEMATIC_GLOBAL_TO_LOCAL_FIBER_FAMILY_ONLY_NO_BOOTSTRAP_DYNAMICS_STABILITY_OR_SELECTION",
+  "schema": "udt.completion_parameterized_local_fiber.package.v1",
+  "scientific_grade": "VERIFIED_WITH_CAVEATS",
+  "status": "PASS"
+}
