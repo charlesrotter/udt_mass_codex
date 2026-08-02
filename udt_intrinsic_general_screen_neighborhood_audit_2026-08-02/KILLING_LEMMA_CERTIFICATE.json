@@ -1,0 +1,15 @@
+{
+  "coefficient_determinant": "2*g_tt**4",
+  "conclusion": "all_four_derivatives_of_f_zero__f_constant",
+  "covers_time_dependent_candidate_coefficients": true,
+  "does_not_assert_stationarity_under_arbitrary_metric_perturbation": true,
+  "equations": [
+    "(L_X g)_tt=2*g_tt*partial_t(f)=0",
+    "(L_X g)_ti=g_ti*partial_t(f)+g_tt*partial_i(f)=0"
+  ],
+  "premise": "invariant_gradient_J_nonzero_forces_all_spatial_components_of_X_to_zero",
+  "remaining_candidate": "X=f(t,x1,x2,x3)*partial_t",
+  "requires_stationary_metric_and_g_tt_nonzero": true,
+  "schema": "udt-stationary-residual-Killing-lemma-1.0",
+  "status": "PASS_EXACT"
+}

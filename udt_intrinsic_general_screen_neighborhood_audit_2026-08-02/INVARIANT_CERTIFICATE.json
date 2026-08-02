@@ -1,0 +1,173 @@
+{
+  "candidate_count": 18,
+  "candidate_results": [
+    {
+      "candidate_id": "C01",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C02",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C03",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C04",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C05",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C06",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C07",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C08",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C09",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C10",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C11",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C12",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C13",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C14",
+      "curvature_status": "SYMMETRY_ENHANCED_BY_EXACT_GLOBAL_CONTROL",
+      "jacobian_nonzero_at_any_registered_point": false,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C15",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C16",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C17",
+      "curvature_status": "UNIQUE_KILLING_LINE_CERTIFIED_DENSE_OPEN",
+      "jacobian_nonzero_at_any_registered_point": true,
+      "point_certificates": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "candidate_id": "C18",
+      "curvature_status": "SKIPPED_METRIC_DEGENERATE",
+      "jacobian_nonzero_at_any_registered_point": false,
+      "point_certificates": []
+    }
+  ],
+  "exact_point_certificate_count": 34,
+  "frozen_sources": 48,
+  "nondegenerate_candidate_count": 17,
+  "on_shell_claimed": false,
+  "schema": "udt-general-screen-invariant-certificate-1.0",
+  "screen_selected": false,
+  "status": "PASS_EXACT_POINT_ENSEMBLE",
+  "sympy_version": "1.13.1",
+  "universal_full_screen_claimed": false
+}

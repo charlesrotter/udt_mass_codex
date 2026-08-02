@@ -1,0 +1,16 @@
+{
+  "schema": "udt-general-screen-post-repair-recheck-1.0",
+  "grade": "PASS",
+  "reviewer_repository_edits": false,
+  "scope_caveat_closed": true,
+  "configuration_intrinsic_gate_caveat_closed": true,
+  "rank_terminology_caveat_closed": true,
+  "function_space_scope_caveat_closed": true,
+  "catch_classification_caveat_closed": true,
+  "catch_classes": {
+    "EXACT_OUTPUT_OR_ALGEBRA_GUARD": 19,
+    "EVIDENCE_BACKED_SEMANTIC_GUARD": 2,
+    "SEMANTIC_SCOPE_GUARD": 9
+  },
+  "blocking_corrections_remaining": 0
+}

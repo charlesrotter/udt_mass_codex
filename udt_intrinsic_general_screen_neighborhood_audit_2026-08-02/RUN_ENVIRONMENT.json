@@ -1,0 +1,11 @@
+{
+  "device": "CPU",
+  "exact_worker_count": 4,
+  "git_head_at_capture": "4dd35a5e5ec1895daf577a2898500221876be542",
+  "gpu_used": false,
+  "logical_cpu_count": 24,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "sympy": "1.13.1"
+}

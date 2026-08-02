@@ -1,0 +1,38 @@
+{
+  "parent_candidates": 3,
+  "prior_certificate_sha256": "876b00e7d94e249b148846d59612b4cef373430bb1b8fb2f34a1f8ee55160d67",
+  "rows": [
+    {
+      "candidate_id": "C01",
+      "current_point_sha256": "e1552a6a1dab7e22322c16b29a09c982372bc9cb5f12d6098ea056f73554a972",
+      "fields_identical": [
+        "invariants_at_point",
+        "jacobian",
+        "jacobian_determinant",
+        "jacobian_nonzero"
+      ]
+    },
+    {
+      "candidate_id": "C02",
+      "current_point_sha256": "87852c2d95c2e642c3ac9ae14fdb026405a5912a613c275cf186981fbe1452a6",
+      "fields_identical": [
+        "invariants_at_point",
+        "jacobian",
+        "jacobian_determinant",
+        "jacobian_nonzero"
+      ]
+    },
+    {
+      "candidate_id": "C03",
+      "current_point_sha256": "4f7c6335aa6247b249af448fc47cb0c7abd0f20175bdb6f16a0e7c82ced1f5df",
+      "fields_identical": [
+        "invariants_at_point",
+        "jacobian",
+        "jacobian_determinant",
+        "jacobian_nonzero"
+      ]
+    }
+  ],
+  "schema": "udt-general-screen-parent-regression-1.0",
+  "status": "PASS_EXACT"
+}

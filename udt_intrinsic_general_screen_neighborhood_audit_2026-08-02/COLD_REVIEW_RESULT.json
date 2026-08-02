@@ -1,0 +1,23 @@
+{
+  "schema": "udt-general-screen-cold-review-1.0",
+  "grade": "PASS_WITH_CAVEATS",
+  "post_review_repairs_status": "APPLIED_PENDING_RECHECK",
+  "independent_shared_production_functions": false,
+  "independent_point_jobs": 34,
+  "independent_nonzero_J_matches": 32,
+  "independent_homogeneous_zero_matches": 2,
+  "max_nonzero_J_relative_error": 2.3392144311358414e-11,
+  "max_Ricci_asymmetry": 2.274e-13,
+  "finite_difference_max_relative_error": 5.305e-6,
+  "stationary_C3_neighborhood_logic_verified": true,
+  "arbitrary_C3_neighborhood_claim_rejected": true,
+  "configuration_vs_intrinsic_gate_verified": true,
+  "rank_terminology_verified": true,
+  "full_GL2_function_space_exhausted": false,
+  "source_manifest_replay": "48_OF_48_PASS",
+  "point_manifest_replay": "34_OF_34_PASS",
+  "review_script_sha256": "a87d7307cb7a1ce4e42ce41298468bc0124457d88bf6ec694c08f4da6083b467",
+  "review_result_sha256": "5681c67b1e9d0125c470e6b3a9fa483e83b404c6acc0481b7e3cdd2eef8c7063",
+  "algebra_script_sha256": "a01ea6809213011c3e3c220e02608e7105abcd3fde658922d30f06fd8e88a15e",
+  "algebra_result_sha256": "ddd79c6f107a419b98de9b4fd10b3d48a8aef6310155c5fc58c3a135cd23d3ee"
+}

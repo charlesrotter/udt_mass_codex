@@ -1,0 +1,82 @@
+{
+  "candidate_count": 18,
+  "candidate_universe_sha256": "a8c7c8f8c2c3992256e8b27d1e20bdd26b4f1e12d9ad5996b435531276ec2c9d",
+  "configuration_alternating_nonzero_simple_count": 7,
+  "configuration_alternating_zero_count": 10,
+  "degenerate_candidates": [
+    "C18"
+  ],
+  "four_gates": "PASS_ALL_FOUR_FOR_BOUNDED_CONFIGURATION_EXISTENCE",
+  "full_GL2_or_time_live_exhausted": false,
+  "full_screen_primary_intrinsic_nonzero_candidates": [
+    "C08",
+    "C09",
+    "C10"
+  ],
+  "geometric_result_sha256": "d5750374190101f9766d4f902e5ae8db680f68f7fd4bd2e6c7a494a2256ee28e",
+  "headline": "INTRINSIC_RECIPROCAL_PROJECTOR_AND_INDEPENDENT_ANGULAR_AREA_RESPONSE_COEXIST_ON_EXPLICIT_COMPLETE_STATIONARY_SCREENS__SELECTION_OPEN",
+  "intrinsic_pair_and_nonzero_candidates": [
+    "C04",
+    "C08",
+    "C09",
+    "C10",
+    "C16",
+    "C17"
+  ],
+  "intrinsic_pair_and_nonzero_count": 6,
+  "intrinsic_pair_candidate_count": 15,
+  "intrinsic_pair_candidates": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C16",
+    "C17"
+  ],
+  "invariant_certificate_sha256": "3532fcd4ee91a4e3a053bd5b0d09979511f1bdca596798236d211f31fcb0b13f",
+  "nonzero_scope": "OPEN_DENSE_WITH_EXACT_ZERO_LOCUS_RETAINED",
+  "on_shell_claimed": false,
+  "open_neighborhood_scope": "STATIONARY_BLOCK_SCREEN_SUBSPACE_RETAINING_K_ONLY",
+  "physics_promoted": false,
+  "post_repair_review_grade": "PASS",
+  "result_atlas_sha256": "1cb6c40c0e0b10c658b8528661a690660236f85eff2736801e1de8c7c17c8fcb",
+  "schema": "udt-intrinsic-general-screen-adjudication-1.0",
+  "screen_selected": false,
+  "source_manifest_sha256": "4117d443c5deb4742d6b11dceabc21460f5afda593c201ff84da9e2eda8eedad",
+  "status": "PASS_VERIFIED_FRESH_COLD_REVIEW",
+  "symmetry_enhanced_candidates": [
+    "C14"
+  ],
+  "twist_free_candidates": [
+    "C15"
+  ],
+  "unique_killing_candidate_count": 16,
+  "unique_killing_candidates": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C15",
+    "C16",
+    "C17"
+  ],
+  "universal_full_screen_claimed": false
+}

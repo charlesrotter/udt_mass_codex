@@ -1,0 +1,347 @@
+{
+  "alternating_formula": "dphi_wedge_dsigma=(du_wedge_dV)/(2*u*V)",
+  "candidate_count": 18,
+  "configuration_alternating_nonzero_simple_count": 7,
+  "configuration_alternating_undefined_degenerate_count": 1,
+  "configuration_alternating_zero_count": 10,
+  "details": [
+    {
+      "candidate_id": "C01",
+      "configuration_alternating_class": "ZERO_IDENTICALLY",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "p2": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C02",
+      "configuration_alternating_class": "ZERO_IDENTICALLY",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "p2": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C03",
+      "configuration_alternating_class": "ZERO_IDENTICALLY",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "p2": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C04",
+      "configuration_alternating_class": "NONZERO_SIMPLE_OPEN_DENSE_WITH_ZERO_LOCUS_RETAINED",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "-1535893828273041015625/642388458942010957675497",
+          "-16748024597028261796875/428258972628007305116998",
+          "-124767580015707625390625/1284776917884021915350994"
+        ],
+        "p2": [
+          "664854949705078125/91643168796021916049",
+          "-7777747586232421875/183286337592043832098",
+          "20453471033688984375/183286337592043832098"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C05",
+      "configuration_alternating_class": "ZERO_IDENTICALLY",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "p2": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C06",
+      "configuration_alternating_class": "ZERO_IDENTICALLY",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "p2": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C07",
+      "configuration_alternating_class": "ZERO_IDENTICALLY",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "p2": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C08",
+      "configuration_alternating_class": "NONZERO_SIMPLE_OPEN_DENSE_WITH_ZERO_LOCUS_RETAINED",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "-1535893828273041015625/642388458942010957675497",
+          "-16748024597028261796875/428258972628007305116998",
+          "-124767580015707625390625/1284776917884021915350994"
+        ],
+        "p2": [
+          "664854949705078125/91643168796021916049",
+          "-7777747586232421875/183286337592043832098",
+          "20453471033688984375/183286337592043832098"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C09",
+      "configuration_alternating_class": "NONZERO_SIMPLE_OPEN_DENSE_WITH_ZERO_LOCUS_RETAINED",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "-1535893828273041015625/642388458942010957675497",
+          "-16748024597028261796875/428258972628007305116998",
+          "-124767580015707625390625/1284776917884021915350994"
+        ],
+        "p2": [
+          "664854949705078125/91643168796021916049",
+          "-7777747586232421875/183286337592043832098",
+          "20453471033688984375/183286337592043832098"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C10",
+      "configuration_alternating_class": "NONZERO_SIMPLE_OPEN_DENSE_WITH_ZERO_LOCUS_RETAINED",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "-1535893828273041015625/642388458942010957675497",
+          "-16748024597028261796875/428258972628007305116998",
+          "-124767580015707625390625/1284776917884021915350994"
+        ],
+        "p2": [
+          "664854949705078125/91643168796021916049",
+          "-7777747586232421875/183286337592043832098",
+          "20453471033688984375/183286337592043832098"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C11",
+      "configuration_alternating_class": "ZERO_IDENTICALLY",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "p2": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C12",
+      "configuration_alternating_class": "ZERO_IDENTICALLY",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "p2": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C13",
+      "configuration_alternating_class": "ZERO_IDENTICALLY",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "p2": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C14",
+      "configuration_alternating_class": "ZERO_IDENTICALLY",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "0",
+          "0",
+          "0"
+        ],
+        "p2": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C15",
+      "configuration_alternating_class": "NONZERO_SIMPLE_OPEN_DENSE_WITH_ZERO_LOCUS_RETAINED",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "-1535893828273041015625/642388458942010957675497",
+          "-16748024597028261796875/428258972628007305116998",
+          "-124767580015707625390625/1284776917884021915350994"
+        ],
+        "p2": [
+          "664854949705078125/91643168796021916049",
+          "-7777747586232421875/183286337592043832098",
+          "20453471033688984375/183286337592043832098"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C16",
+      "configuration_alternating_class": "NONZERO_SIMPLE_OPEN_DENSE_WITH_ZERO_LOCUS_RETAINED",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "-1535893828273041015625/642388458942010957675497",
+          "-16748024597028261796875/428258972628007305116998",
+          "-124767580015707625390625/1284776917884021915350994"
+        ],
+        "p2": [
+          "664854949705078125/91643168796021916049",
+          "-7777747586232421875/183286337592043832098",
+          "20453471033688984375/183286337592043832098"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C17",
+      "configuration_alternating_class": "NONZERO_SIMPLE_OPEN_DENSE_WITH_ZERO_LOCUS_RETAINED",
+      "point_coefficients_xy_xz_yz": {
+        "p1": [
+          "-1535893828273041015625/642388458942010957675497",
+          "-16748024597028261796875/428258972628007305116998",
+          "-124767580015707625390625/1284776917884021915350994"
+        ],
+        "p2": [
+          "664854949705078125/91643168796021916049",
+          "-7777747586232421875/183286337592043832098",
+          "20453471033688984375/183286337592043832098"
+        ]
+      }
+    },
+    {
+      "candidate_id": "C18",
+      "configuration_alternating_class": "UNDEFINED_METRIC_DEGENERATE",
+      "point_coefficients_xy_xz_yz": {}
+    }
+  ],
+  "exact_controls": {
+    "K_positive_constant_rescale_invariant": true,
+    "T_S_sign_invariant": true,
+    "full_frame_tensor_contractions_preserved_after_reconstruction": true,
+    "naive_Q": "9*(q_S - q_T)*(q_S + q_T)/16",
+    "naive_transformed_slot_route_rejected": true,
+    "nonzero_simple_means_decomposable_two_form_matrix_rank_two": true,
+    "true_Q": "q_S**2 - q_T**2"
+  },
+  "formula_Phi_contact": "phi-(1/2)*log(abs(a))",
+  "formula_Q": "4*(u-a^2/u)/D^2",
+  "formula_QS": "4*u/D^2",
+  "formula_QT": "4*a^2/(u*D^2)",
+  "four_metric_nondegenerate_count": 17,
+  "frozen_sources": 48,
+  "full_screen_nonzero_candidates": [
+    "C08",
+    "C09",
+    "C10"
+  ],
+  "pair_metric_determinant": "-1",
+  "physics_promoted": false,
+  "schema": "udt-general-screen-geometric-atlas-1.0",
+  "screen_metric_determinant": "u^(2 lambda) V^2",
+  "screen_metric_tangent_rank": 3,
+  "screen_metric_tangents_at_parent": {
+    "area": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "diagonal_shear": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "-2"
+      ]
+    ],
+    "offdiagonal_shear": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ]
+  },
+  "screen_selected": false,
+  "screen_shape_determinant": "1",
+  "status": "PASS_EXACT_GEOMETRY",
+  "sympy_version": "1.13.1"
+}

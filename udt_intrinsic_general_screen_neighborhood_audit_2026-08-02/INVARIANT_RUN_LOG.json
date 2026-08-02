@@ -1,0 +1,552 @@
+{
+  "job_count": 34,
+  "max_workers": 4,
+  "per_job_timeout_seconds": 600,
+  "records": [
+    {
+      "candidate_id": "C01",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C01",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 15.338293,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C01\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C01_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C01",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C01",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 15.114629,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C01\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C01_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C02",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C02",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 14.083325,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C02\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C02_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C02",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C02",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 13.814883,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C02\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C02_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C03",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C03",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 14.176689,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C03\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C03_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C03",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C03",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 14.053029,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C03\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C03_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C04",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C04",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 15.4381,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C04\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C04_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C04",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C04",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 14.948864,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C04\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C04_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C05",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C05",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 16.4146,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C05\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C05_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C05",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C05",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 15.734351,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C05\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C05_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C06",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C06",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 15.841434,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C06\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C06_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C06",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C06",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 15.333927,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C06\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C06_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C07",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C07",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 17.537147,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C07\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C07_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C07",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C07",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 16.90635,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C07\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C07_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C08",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C08",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 22.156822,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C08\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C08_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C08",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C08",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 21.326279,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C08\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C08_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C09",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C09",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 23.370834,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C09\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C09_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C09",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C09",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 21.613809,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C09\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C09_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C10",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C10",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 22.288812,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C10\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C10_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C10",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C10",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 21.452848,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C10\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C10_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C11",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C11",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 21.656878,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C11\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C11_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C11",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C11",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 21.294722,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C11\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C11_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C12",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C12",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 17.350256,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C12\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C12_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C12",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C12",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 16.675391,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C12\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C12_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C13",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C13",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 18.494284,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C13\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C13_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C13",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C13",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 18.27223,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C13\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C13_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C14",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C14",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 10.12859,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C14\", \"jacobian_nonzero\": false, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C14_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C14",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C14",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 10.028937,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C14\", \"jacobian_nonzero\": false, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C14_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C15",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C15",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 16.199013,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C15\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C15_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C15",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C15",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 15.870057,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C15\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C15_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C16",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C16",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 22.219631,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C16\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C16_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C16",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C16",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 21.30092,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C16\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C16_p2.json\", \"point_id\": \"p2\"}\n"
+    },
+    {
+      "candidate_id": "C17",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C17",
+        "--point",
+        "p1"
+      ],
+      "elapsed_seconds": 22.234389,
+      "exit_code": 0,
+      "point_id": "p1",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C17\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C17_p1.json\", \"point_id\": \"p1\"}\n"
+    },
+    {
+      "candidate_id": "C17",
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/derive_invariant_certificate.py",
+        "--candidate",
+        "C17",
+        "--point",
+        "p2"
+      ],
+      "elapsed_seconds": 21.626421,
+      "exit_code": 0,
+      "point_id": "p2",
+      "stderr": "",
+      "stdout": "{\"candidate_id\": \"C17\", \"jacobian_nonzero\": true, \"output\": \"udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/invariant_points/C17_p2.json\", \"point_id\": \"p2\"}\n"
+    }
+  ],
+  "schema": "udt-general-screen-invariant-run-log-1.0"
+}

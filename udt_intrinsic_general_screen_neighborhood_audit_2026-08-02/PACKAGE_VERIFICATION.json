@@ -1,0 +1,11 @@
+{
+  "adjudication_result_sha256": "506afd24b251300c5f87f9ebfceccc3d70bc16cdc42172e5f8febee88811bad0",
+  "entries": 86,
+  "headline": "INTRINSIC_RECIPROCAL_PROJECTOR_AND_INDEPENDENT_ANGULAR_AREA_RESPONSE_COEXIST_ON_EXPLICIT_COMPLETE_STATIONARY_SCREENS__SELECTION_OPEN",
+  "package_manifest_sha256": "7a277968b25044b26a1ec66fb8eeb0dcdbb1aa87fac8ca827201f7a8a293a920",
+  "point_certificates": 34,
+  "point_manifest_sha256": "61432ec911ca5b8fab9d51bac65235098609da88af4296b04e67ff7676aad7c4",
+  "result_atlas_sha256": "1cb6c40c0e0b10c658b8528661a690660236f85eff2736801e1de8c7c17c8fcb",
+  "source_manifest_sha256": "4117d443c5deb4742d6b11dceabc21460f5afda593c201ff84da9e2eda8eedad",
+  "status": "PASS_VERIFIED_FRESH_COLD_REVIEW"
+}

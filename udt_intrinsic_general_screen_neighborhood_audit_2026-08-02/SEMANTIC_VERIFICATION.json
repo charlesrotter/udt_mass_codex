@@ -1,0 +1,16 @@
+{
+  "baseline_validation": "PASS",
+  "candidate_universe_sha256": "a8c7c8f8c2c3992256e8b27d1e20bdd26b4f1e12d9ad5996b435531276ec2c9d",
+  "catch_classes": {
+    "EVIDENCE_BACKED_SEMANTIC_GUARD": 2,
+    "EXACT_OUTPUT_OR_ALGEBRA_GUARD": 19,
+    "SEMANTIC_SCOPE_GUARD": 9
+  },
+  "independent_review_grade": "PASS",
+  "initial_independent_review_grade": "PASS_WITH_CAVEATS",
+  "mutation_catches": 30,
+  "result_atlas_sha256": "1cb6c40c0e0b10c658b8528661a690660236f85eff2736801e1de8c7c17c8fcb",
+  "schema": "udt-general-screen-semantic-verification-1.0",
+  "source_manifest_sha256": "4117d443c5deb4742d6b11dceabc21460f5afda593c201ff84da9e2eda8eedad",
+  "status": "PASS"
+}
