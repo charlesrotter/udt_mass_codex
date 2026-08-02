@@ -6,57 +6,53 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — projector geometry persists on full functional off-shell neighborhoods
+## CURRENT — bootstrap/projector interface typed; complete intersection remains open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_projector_deformation_neighborhood_audit_2026-08-01/AUDIT_REPORT.md`, then `LAY_REPORT.md`,
-   `EXACT_DERIVATION.md`, `CENTER_NEIGHBORHOOD_ATLAS.tsv`, `EXACT_SUBFAMILY_ATLAS.tsv`,
-   `DEGENERACY_WALL_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
-4. Read the append-only external PASS closure in
+3. `udt_bootstrap_projector_admissibility_interface_2026-08-01/AUDIT_REPORT.md`, then
+   `LAY_REPORT.md`, `EXACT_DERIVATION.md`, `ADMISSIBILITY_HIERARCHY.tsv`,
+   `INTERFACE_GATE_MATRIX.tsv`, `MISSING_INPUT_LEDGER.tsv`, `STATUS_LEDGER.tsv`, and
+   `OUTCOME_PREMISE_AUDIT.tsv`.
+4. Read the parent projector audit and external PASS closure in
+   `udt_projector_deformation_neighborhood_audit_2026-08-01/` and
    `udt_projector_deformation_neighborhood_review_2026-08-01/`.
-5. Read `udt_branchwise_projector_holonomy_census_2026-08-01/` for the parent complete census and
-   `udt_reciprocal_closure_joint_selector_audit_2026-08-01/` for the conditional response theorem.
-   Neither selects an action or on-shell branch.
 
-**Current honest result:** the positive geometric antecedent is not confined to the six frozen
-points. Every C01--C06 center lies inside an open `C3` functional neighborhood of stationary smooth
-complete `R x S3` configurations retaining the intrinsic clock certificate, global twist-selected
-ruler, rank-one projector/rank-two screen, global regularity and positive displayed slice, and
-nonzero relative projector curvature somewhere. The released directions include arbitrary small
-profile changes and all three screen-metric modes; screen-frame rotation remains coframe gauge.
+**Current honest result:** the robust projector neighborhoods fill one bounded local off-shell
+geometry slot. The complete bootstrap/on-shell intersection would be
+`N_projector ∩ Sol(E_native) ∩ pi_X[Z(A) ∩ Graph(R)]`. It cannot yet be computed because the native
+on-shell equation/domain, complete same-solution readout, and global-to-local return relation are
+open. This is not an empty-intersection result.
 
-**Exact deformation map:** for `P=exp[phi(lambda I+mu S1+nu S2)]`, the north-event equal-screen
-response contains `W23=1+(3lambda/50)^2`, so it never vanishes for real `lambda`. Shear introduces
-real local-response walls: one isolated zero in each one-shear plane and one affine line with both
-shears. They are retained off-shell strata. A north-event zero does not imply response vanishes
-elsewhere and is not an instability.
+**New conceptual separation:** a forward readout only recomputes global data. A density range is a
+legitimate one-way survival filter once native density exists. A separable local predicate plus
+global window depends on both arguments but does not show tuning. The stronger orchestra/bootstrap
+picture requires the nonempty allowed local family `F_O` itself to change with independent global
+data. Differentiable response is a still stronger layer requiring nontrivial `D_O A`.
 
-**What closed and what did not:** robustness of the intrinsic-projector/path-loop antecedent closes
-inside this bounded stationary complete configuration family. It does not put anything on shell,
-select a profile, screen, topology, action, coefficient, carrier, or bootstrap law, or establish
-dynamics, stability, mass, or matter. The `S2` carrier remains `POSIT`; `L2+L4` remains
-`CONDITIONAL` and was excluded from the map.
+**What closed and what did not:** projector robustness is established and the six interface layers
+are no longer conflated. The projector response cannot be renamed the bootstrap return, on-shell
+equation, carrier, or stability condition. Native total mass-energy/density, complete `R`, `A`,
+`E_native`, boundary/global completion, a common witness, dynamics, stability, and mass remain
+open. The `S2` carrier remains `POSIT`; `L2+L4` remains `CONDITIONAL` and unused.
 
-**Evidence:** preregistration `edf79d5`; evidence `514f6ad`; exact SymPy derivation; independent
-standard-library exterior-to-Cartan reconstruction 49 checks; 24/24 fail-closed mutations; fifteen
-source hashes; six frozen manifests / 133 paths; current premise guards; 1,114 current paths; 101
-frontier targets; tests `70 passed, 1 xfailed`. Package-manifest SHA-256:
-`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. The authorized fresh
-read-only gpt-5.4 review returned `PASS`, sustained all ten rulings, required no repairs, and left
-the target byte-identical; review evidence commit `5e391c7`. The bounded grade is
-`VERIFIED-WITH-CAVEATS-AFTER-EXTERNAL-PASS`.
+**Evidence:** preregistration `cf8f43a`; evidence `30cc0bb`; 21 frozen sources; 8/8 candidate joins;
+six interface levels; nine missing slots; 94 independent standard-library checks; 16/16 fail-closed
+mutations; six frozen manifests / 133 paths; 1,114 current paths; 101 frontier targets; tests
+`70 passed, 1 xfailed`. Package-manifest SHA-256:
+`71ee8c41cd308b1467ac7206f20a48a6c4c660596dde86155a4ae879e1210aab`. The parent projector result
+has a fresh external `PASS`; this new interface result is `VERIFIED-WITH-CAVEATS` pending any future
+fresh adversarial review.
 
-**Authorized next action, not yet preregistered:** independently state the smallest same-solution
-stability/bootstrap admissibility rule and intersect it with this atlas without tuning it toward
-the positive region. If the native mass-energy functional needed to type that rule is absent, bank
-only the symbolic fixed-point formulation and missing-input ledger.
+**Proposed next action, not launched:** ask source-first whether complete-metric global
+curvature/completion data already parameterize a nonseparable local family `F_O`, without importing
+mass, an action, arbitrary weights, or a desired filter. Stop on relabeling or invented integrals.
 
-**Authority boundary:** no configuration, neighborhood, wall, projector principle, carrier, action,
-coefficient, boundary, bootstrap law, matter family, canonization, reorganization, GPU work,
-further external transmission, or unpreregistered research launch follows automatically.
+**Authority boundary:** no density value/window, configuration, family, carrier, action, boundary,
+bootstrap law, matter interpretation, canonization, reorganization, GPU work, further external
+transmission, or follow-on research launch follows automatically.
 
 <!-- STARTUP_CURRENT_END -->
 

@@ -5,75 +5,67 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — PROJECTOR GEOMETRY PERSISTS ON FUNCTIONAL OFF-SHELL NEIGHBORHOODS) ============
+## ============ CURRENT STATE (2026-08-01 — BOOTSTRAP/PROJECTOR INTERFACE TYPED; COMPLETE INTERSECTION OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_projector_deformation_neighborhood_audit_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
-`EXACT_DERIVATION.md` → `CENTER_NEIGHBORHOOD_ATLAS.tsv` → `EXACT_SUBFAMILY_ATLAS.tsv` →
-`DEGENERACY_WALL_ATLAS.tsv` → `STATUS_LEDGER.tsv` and `OUTCOME_PREMISE_AUDIT.tsv` → the append-only
-external PASS closure in `udt_projector_deformation_neighborhood_review_2026-08-01/`. The parent
-census remains in `udt_branchwise_projector_holonomy_census_2026-08-01/`; the conditional response
-theorem remains in `udt_reciprocal_closure_joint_selector_audit_2026-08-01/`.
+`udt_bootstrap_projector_admissibility_interface_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
+`EXACT_DERIVATION.md` → `ADMISSIBILITY_HIERARCHY.tsv` → `INTERFACE_GATE_MATRIX.tsv` →
+`MISSING_INPUT_LEDGER.tsv` → `STATUS_LEDGER.tsv` and `OUTCOME_PREMISE_AUDIT.tsv`. Then read the
+parent projector package and append-only external PASS closure in
+`udt_projector_deformation_neighborhood_audit_2026-08-01/` and
+`udt_projector_deformation_neighborhood_review_2026-08-01/`.
 
-**RESULT:** `SIX_COMPLETE_OFFSHELL_CENTERS_LIE_INSIDE_OPEN_FULL_PROFILE_AND_SCREEN_PROJECTOR_NEIGHBORHOODS`.
-All six C01--C06 centers have genuine open `C3` neighborhoods inside the registered stationary
-complete `R x S3` family where the metric retains the intrinsic clock certificate, twist-selected
-ruler, rank-one projector/rank-two screen, global regularity and positive displayed slice, and
-nonzero relative projector curvature somewhere.
+**RESULT:** `PROJECTOR_ANTECEDENT_ROBUST__BOOTSTRAP_INTERSECTION_OPEN_MISSING_E_NATIVE_R_AND_A`.
+The externally sustained projector neighborhoods fill a genuine robust local off-shell geometry
+slot. The complete same-solution set would be
+`N_projector ∩ Sol(E_native) ∩ pi_X[Z(A) ∩ Graph(R)]`, but the native on-shell equation/domain
+`E_native`, complete readout `R`, and global-to-local return relation `A` are not defined. The
+intersection is presently uncomputable, not observed empty.
 
-**WHAT WAS RELEASED:** arbitrary small smooth profile changes and the complete screen response:
-area, both metric shears, and the `O(2)` coframe-gauge direction. The proof uses exact nonzero center
-margins plus continuity in the correct finite-jet topology; it establishes functional
-neighborhoods, not a finite sampled box or an explicit radius.
+**NEW SIX-LEVEL DISTINCTION:** forward readout → global survival window → separable local/global
+filter → global-state-dependent local-family tuning → differentiable response → complete on-shell
+closure. A provisional bounded density range is a lawful one-way survival-filter type once native
+same-solution density exists. It is not by itself the stronger chicken-and-egg tuning picture. That
+requires the nonempty admissible local family `F_O` to change when independent global data `O`
+change; response additionally requires nontrivial `D_O A`.
 
-**EXACT NEW MAP:** for the symmetric screen chart
-`P=exp[phi(lambda I+mu S1+nu S2)]`, the north-event components are
-`W12=(6lambda+6mu-3nu+50)/2500`,
-`W13=(-3lambda+3mu+6nu+100)/2500`, and
-`W23=1+(9/2500)(lambda^2-mu^2-nu^2)`. Along the full equal-screen axis,
-`W23=1+(3lambda/50)^2>=1`; no real `lambda` zero exists. Releasing shear exposes retained
-response-certificate walls: one isolated zero in each one-shear plane and one affine zero line in
-the two-shear chart. These are local off-shell response strata, not instabilities or physical
-branches, and response elsewhere may remain nonzero.
+**WHAT THIS CLOSES:** the positive projector geometry is not a six-point fine tuning and may serve
+as a future local antecedent. Readout, filtering, family tuning, response, and closure are no longer
+conflated. The projector response has no independent global-data argument and cannot silently be
+used as the bootstrap return or as on-shell/stability membership.
 
-**WHAT THIS CLOSES:** the metric-derived projector/path-loop antecedent is robust inside this
-bounded complete configuration family rather than fine-tuned to six points. Maximum status is
-`DERIVED_CONDITIONAL_ON_REGISTERED_STATIONARY_COMPLETE_OFFSHELL_FAMILY`. This strengthens one
-upstream geometric ingredient of the stability hypothesis; it is not a stability calculation.
+**WHAT REMAINS OPEN:** whether projector geometry is relevant to matter; the native equation and
+realized variation domain; complete geometric/global readout; native total mass-energy and proper
+density; the observer-natural family `F_O`; boundary/corner/global-modulus completion; a common
+witness; dynamics, stability, and mass. The `S2` carrier remains `POSIT`; `L2+L4` remains
+`CONDITIONAL` and was not used.
 
-**WHAT REMAINS OPEN:** no native equation or same-solution bootstrap return selects this family or
-any part of its neighborhood. The `S2` carrier remains `POSIT`; `L2+L4` remains `CONDITIONAL` and
-was not used; action, coefficient, profile, screen, topology, boundary, source, dynamics,
-stability, mass, and physical-family assignments remain open. Nonstationary, non-block, and other
-completion neighborhoods are outside this audit.
+**EVIDENCE:** interface preregistration `cf8f43a`; evidence `30cc0bb`; 21 Git/SHA-frozen sources;
+8/8 candidate joins; six interface levels; nine missing slots; exact graph-rank and finite-fiber
+controls; independent standard-library reconstruction passes 94 checks without production imports;
+16/16 semantic mutations fail closed. Six frozen manifests / 133 paths, premise guards, 1,114
+current paths, 101 frontier targets, links, and tests `70 passed, 1 xfailed` pass. Package-manifest
+SHA-256 is `71ee8c41cd308b1467ac7206f20a48a6c4c660596dde86155a4ae879e1210aab`.
 
-**EVIDENCE:** preregistration `edf79d5`; evidence commit `514f6ad`; exact SymPy 1.13.1 derivation;
-independent no-SymPy exterior-to-Cartan rational replay passes 49 checks; 24/24 semantic mutations
-fail closed; fifteen source paths are frozen by Git blob/SHA-256. Six frozen manifests / 133 paths,
-premise guards, 1,114 current paths, 101 frontier targets, links, and tests `70 passed, 1 xfailed`
-pass. Package-manifest SHA-256 is
-`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. The authorized fresh
-read-only gpt-5.4 semantic review returned `PASS` with all ten rulings sustained and no mandatory
-repairs; its evidence is commit `5e391c7`. The target remained byte-identical, six review mutations
-fail closed, and the bounded grade is now `VERIFIED-WITH-CAVEATS-AFTER-EXTERNAL-PASS`.
+The parent projector package separately passed fresh read-only gpt-5.4 semantic review with all ten
+rulings sustained and no repairs; evidence `5e391c7`. No fresh adversarial semantic review has been
+run on the new interface audit, so its grade is `VERIFIED-WITH-CAVEATS`.
 
-**NEXT JUSTIFIED TEST — AUTHORIZED, NOT YET PREREGISTERED:** state the smallest stability/bootstrap
-on-shell admissibility rule independently of these outcomes and test its intersection with the
-complete neighborhood/wall atlas. The intersection may be empty, disconnected, boundary-only, or
-broad. Without a native same-solution mass-energy functional, the honest next product is a symbolic
-fixed-point/admissibility formulation and missing-input ledger, not an imported density scan.
+**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** source-first, ask whether complete-metric
+global curvature/completion data already parameterize a nonseparable family of local admissibility
+fibers `F_O` without importing mass, an action, or arbitrary scalar weighting. Stop if the only
+construction is an invented integral, a renamed projector response, or a chosen desired filter.
 
-**PREMISE STAMPS:** founded `phi` and reciprocal pair action `DERIVED`; registered complete family
-`CHOSE_EXISTENCE_CONTROL`; functional projector persistence
-`DERIVED_CONDITIONAL_ON_REGISTERED_OFFSHELL_FAMILY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`;
-bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; on-shell selection, stability, and complete matter
+**PREMISE STAMPS:** founded `phi` and reciprocal pair `DERIVED`; projector persistence
+`DERIVED_CONDITIONAL_BOUNDED`; observer Reciprocity `DERIVED_NATURALITY_CONSTRAINT`;
+bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; density-window survival filter `WORKING_TYPE_ONLY`;
+`S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; `E_native`, complete `R`, `A`, stability, and matter
 physics `OPEN`.
 
-**AUTHORITY BOUNDARY:** no configuration, neighborhood, wall, profile, screen, `lambda`, carrier,
-action, coefficient, boundary, bootstrap law, matter family, or physical interpretation is adopted.
-The completed external review authorizes no new science. No further external transmission, GPU
-work, canonization, or repository reorganization is authorized; the distinct CPU-only bootstrap
-formulation must be preregistered before derivation.
+**AUTHORITY BOUNDARY:** no configuration, density value/window, curvature functional, family,
+carrier, action, coefficient, boundary, bootstrap law, matter interpretation, or stability result
+is adopted. No further external transmission, follow-on derivation, GPU work, canonization, or
+repository reorganization is authorized by this block.
 
 <!-- STARTUP_CURRENT_END -->
 

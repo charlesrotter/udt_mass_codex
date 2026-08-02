@@ -3,42 +3,42 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — PROJECTOR GEOMETRY PERSISTS ON FUNCTIONAL OFF-SHELL NEIGHBORHOODS:**
-Read `udt_projector_deformation_neighborhood_audit_2026-08-01/AUDIT_REPORT.md`, then
-`LAY_REPORT.md`, `EXACT_DERIVATION.md`, `CENTER_NEIGHBORHOOD_ATLAS.tsv`,
-`EXACT_SUBFAMILY_ATLAS.tsv`, `DEGENERACY_WALL_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and
-`OUTCOME_PREMISE_AUDIT.tsv`, then the append-only external PASS closure in
-`udt_projector_deformation_neighborhood_review_2026-08-01/`. The parent complete census is
-`udt_branchwise_projector_holonomy_census_2026-08-01/`; the antecedent conditional response theorem
-is `udt_reciprocal_closure_joint_selector_audit_2026-08-01/`.
+**➤ CURRENT SCIENTIFIC FRONTIER — BOOTSTRAP/PROJECTOR INTERFACE TYPED; COMPLETE INTERSECTION OPEN:**
+Read `udt_bootstrap_projector_admissibility_interface_2026-08-01/AUDIT_REPORT.md`, then
+`LAY_REPORT.md`, `EXACT_DERIVATION.md`, `ADMISSIBILITY_HIERARCHY.tsv`,
+`INTERFACE_GATE_MATRIX.tsv`, `MISSING_INPUT_LEDGER.tsv`, `STATUS_LEDGER.tsv`, and
+`OUTCOME_PREMISE_AUDIT.tsv`. Parent projector evidence and its fresh external PASS are in
+`udt_projector_deformation_neighborhood_audit_2026-08-01/` and
+`udt_projector_deformation_neighborhood_review_2026-08-01/`.
 
-Every C01--C06 center lies in an open `C3` functional neighborhood within the registered
-stationary complete `R x S3` off-shell family. Arbitrary small profile changes and the full screen
-area/two-shear metric response preserve the intrinsic clock certificate, global twist-selected
-ruler, rank-one projector/rank-two screen, global regularity, and nonzero relative projector
-curvature somewhere. The result is a continuity theorem in the full released functional
-directions, not a finite grid and not an explicit radius.
+The robust projector neighborhoods fill one local off-shell antecedent. The requested complete set
+would be `N_projector ∩ Sol(E_native) ∩ pi_X[Z(A) ∩ Graph(R)]`. It is presently uncomputable—not
+observed empty—because the native on-shell equation/domain, complete same-solution readout, and
+global-to-local return relation remain open.
 
-The exact symmetric-screen chart makes the internal structure visible. Along the entire
-equal-screen axis, `W23=1+(3lambda/50)^2`, so no real `lambda` zero occurs. With shear released,
-one isolated north-event zero occurs in each one-shear plane and one affine zero line occurs in the
-two-shear chart. These local response-certificate walls remain in the atlas; they are not
-instabilities, global zero-response theorems, or physical branches.
+Six levels are now separated: forward readout, global survival window, separable local/global
+filter, global-state-dependent local-family tuning, differentiable response, and complete on-shell
+closure. A bounded density range is a coherent one-way working survival-filter type once native
+density exists. The stronger chicken-and-egg tuning picture requires the nonempty local family
+`F_O` itself to change with independent global data. The projector response supplies no independent
+global-data argument and cannot be relabeled as that return, an on-shell equation, or stability.
 
-This closes robustness of the projector/path-loop antecedent only in the bounded stationary
-complete configuration family. It does not select any configuration or neighborhood on shell. The
-`S2` carrier remains `POSIT`; `L2+L4` remains `CONDITIONAL`; action, coefficient, profile, screen,
-topology, boundary, source, dynamics, stability, mass, and physical family remain `OPEN`.
+Preregistration `cf8f43a`; evidence `30cc0bb`; 21 frozen sources; 8/8 candidate joins; six interface
+levels; nine missing slots; 94 independent standard-library checks; 16/16 semantic catches; six
+frozen manifests / 133 paths; premises, navigation, and tests `70 passed, 1 xfailed` pass.
+Package-manifest SHA-256 is
+`71ee8c41cd308b1467ac7206f20a48a6c4c660596dde86155a4ae879e1210aab`. Grade:
+`VERIFIED-WITH-CAVEATS`; the parent projector theorem, not this new interface audit, has the fresh
+external semantic PASS.
 
-Preregistration `edf79d5`; evidence `514f6ad`; exact SymPy algebra, 49-check no-SymPy independent
-reconstruction, 24/24 mutation catches, fifteen frozen sources, six frozen manifests / 133 paths,
-premises, navigation, and tests `70 passed, 1 xfailed` pass. Package-manifest SHA-256 is
-`58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab`. The authorized fresh
-read-only gpt-5.4 semantic review returned `PASS`, sustained all ten rulings, required no repairs,
-and left the target byte-identical; review evidence commit `5e391c7`. The result is
-`VERIFIED-WITH-CAVEATS-AFTER-EXTERNAL-PASS`. The authorized next test is an independently stated
-same-solution stability/bootstrap admissibility rule intersected with this atlas; it remains
-unpreregistered at this checkpoint, and no bootstrap law or density scan has been adopted.
+Proposed next: test source-first whether complete-metric global curvature/completion data already
+parameterize a nonseparable family `F_O`, stopping on invented integrals, arbitrary weights,
+relabeling, or desired filters. No density value, action, carrier, boundary, bootstrap law, solve,
+GPU work, or follow-on derivation is authorized by this index.
+
+**➤ PARENT SCIENTIFIC FRONTIER — PROJECTOR GEOMETRY PERSISTS ON FUNCTIONAL OFF-SHELL NEIGHBORHOODS:**
+The projector neighborhood package remains the authority for the six exact centers, functional
+openness theorem, full screen/shear response, exact local walls, and external semantic PASS.
 
 **➤ PARENT SCIENTIFIC FRONTIER — COMPLETE OFF-SHELL PROJECTOR FAMILY FOUND:**
 The exhaustive parent census at `udt_branchwise_projector_holonomy_census_2026-08-01/` remains the
