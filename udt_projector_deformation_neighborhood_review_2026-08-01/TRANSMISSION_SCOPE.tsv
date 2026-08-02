@@ -1,0 +1,10 @@
+object	identity_or_scope	authority
+target_package	udt_projector_deformation_neighborhood_audit_2026-08-01	READ_ONLY
+target_evidence_commit	514f6ad	READ_ONLY
+target_manifest_sha256	58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab	VERIFY_BEFORE_AND_AFTER
+frozen_sources	15_rows_in_target_SOURCE_MANIFEST.tsv	READ_ONLY
+external_model	gpt-5.4_high_reasoning	AUTHORIZED
+web_search	disabled	REQUIRED
+repository_mutation	none	FORBIDDEN
+research_continuation	none	FORBIDDEN
+gpu_work	none	FORBIDDEN
