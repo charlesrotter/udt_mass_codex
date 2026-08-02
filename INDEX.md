@@ -3,38 +3,37 @@
 **⚠ BRANCH: `grok` (2026-08-01)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — BOOTSTRAP/PROJECTOR INTERFACE TYPED; COMPLETE INTERSECTION OPEN:**
-Read `udt_bootstrap_projector_admissibility_interface_2026-08-01/AUDIT_REPORT.md`, then
-`LAY_REPORT.md`, `EXACT_DERIVATION.md`, `ADMISSIBILITY_HIERARCHY.tsv`,
-`INTERFACE_GATE_MATRIX.tsv`, `MISSING_INPUT_LEDGER.tsv`, `STATUS_LEDGER.tsv`, and
-`OUTCOME_PREMISE_AUDIT.tsv`. Parent projector evidence and its fresh external PASS are in
-`udt_projector_deformation_neighborhood_audit_2026-08-01/` and
-`udt_projector_deformation_neighborhood_review_2026-08-01/`.
+**➤ CURRENT SCIENTIFIC FRONTIER — COMPLETION DATA PARAMETERIZE PARTIAL LOCAL FIBERS; CURVATURE RETURN OPEN:**
+Read `udt_completion_parameterized_local_fiber_audit_2026-08-01/AUDIT_REPORT.md`, then
+`LAY_REPORT.md`, `EXACT_DERIVATION.md`, `GLOBAL_DATA_FIBER_GATE_MATRIX.tsv`,
+`MONODROMY_LOCAL_FIBERS.tsv`, `JET_MATCHING_FIBERS.tsv`, `CAP_LOCAL_JET_FIBERS.tsv`,
+`STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
 
-The robust projector neighborhoods fill one local off-shell antecedent. The requested complete set
-would be `N_projector ∩ Sol(E_native) ∩ pi_X[Z(A) ∩ Graph(R)]`. It is presently uncomputable—not
-observed empty—because the native on-shell equation/domain, complete same-solution readout, and
-global-to-local return relation remain open.
+Global assembly data naturally change local compatibility conditions. Eight registered `GL(2,Z)`
+monodromies give eight distinct endpoint graphs (all 28 witness pairs distinct); seam regularity
+gives nested jet fibers; and one conditional completed toric family realizes cap fibers with
+`f_cap=+1,-1`. Monodromy and seam results remain parametric schemas because most completion rows
+lack complete metric/coframe witnesses. The cap result is conditional on an already selected
+family. None selects a physical completion or supplies dynamics.
 
-Six levels are now separated: forward readout, global survival window, separable local/global
-filter, global-state-dependent local-family tuning, differentiable response, and complete on-shell
-closure. A bounded density range is a coherent one-way working survival-filter type once native
-density exists. The stronger chicken-and-egg tuning picture requires the nonempty local family
-`F_O` itself to change with independent global data. The projector response supplies no independent
-global-data argument and cannot be relabeled as that return, an on-shell equation, or stability.
+Curvature remains one-way: pointwise readout, choice-dependent levels/spectra/averages, and
+path-conditioned holonomy. No registered premise requires the extra parallel/invariant section
+that would turn holonomy into configuration admissibility. Zero curvature return routes and zero
+physical completion selectors pass.
 
-Preregistration `cf8f43a`; evidence `30cc0bb`; 21 frozen sources; 8/8 candidate joins; six interface
-levels; nine missing slots; 94 independent standard-library checks; 16/16 semantic catches; six
-frozen manifests / 133 paths; premises, navigation, and tests `70 passed, 1 xfailed` pass.
-Package-manifest SHA-256 is
-`71ee8c41cd308b1467ac7206f20a48a6c4c660596dde86155a4ae879e1210aab`. Grade:
-`VERIFIED-WITH-CAVEATS`; the parent projector theorem, not this new interface audit, has the fresh
-external semantic PASS.
+Preregistration `5e04b99`; clarification `9321913`; evidence `23ac3a0`; 36 frozen sources; 16
+anchors; 131 independent rational checks; 26/26 semantic catches; six frozen manifests / 133
+paths; premise/navigation gates and tests `70 passed, 1 xfailed` pass. Package-manifest SHA-256 is
+`719939ea902fb696520d151fd6394d672272547dc85599150cb0df533bccbab7`. Grade:
+`VERIFIED-WITH-CAVEATS`; no fresh external semantic review was run.
 
-Proposed next: test source-first whether complete-metric global curvature/completion data already
-parameterize a nonseparable family `F_O`, stopping on invented integrals, arbitrary weights,
-relabeling, or desired filters. No density value, action, carrier, boundary, bootstrap law, solve,
-GPU work, or follow-on derivation is authorized by this index.
+Proposed next: realize one second complete full-screen completion witness and test the exact fiber
+schema throughout, retaining every branch without ranking. No action, weight, carrier, density,
+selector, GPU work, or follow-on derivation is authorized by this index.
+
+**➤ PARENT SCIENTIFIC FRONTIER — BOOTSTRAP/PROJECTOR INTERFACE TYPED; COMPLETE INTERSECTION OPEN:**
+`udt_bootstrap_projector_admissibility_interface_2026-08-01/` remains the authority for the six
+interface levels and the open `N_projector ∩ Sol(E_native) ∩ pi_X[Z(A) ∩ Graph(R)]` object.
 
 **➤ PARENT SCIENTIFIC FRONTIER — PROJECTOR GEOMETRY PERSISTS ON FUNCTIONAL OFF-SHELL NEIGHBORHOODS:**
 The projector neighborhood package remains the authority for the six exact centers, functional

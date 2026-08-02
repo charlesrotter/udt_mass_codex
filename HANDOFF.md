@@ -6,53 +6,49 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-01).** Synchronize it before orientation.
 
-## CURRENT — bootstrap/projector interface typed; complete intersection remains open
+## CURRENT — completion data parameterize partial local fibers; curvature return remains open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_bootstrap_projector_admissibility_interface_2026-08-01/AUDIT_REPORT.md`, then
-   `LAY_REPORT.md`, `EXACT_DERIVATION.md`, `ADMISSIBILITY_HIERARCHY.tsv`,
-   `INTERFACE_GATE_MATRIX.tsv`, `MISSING_INPUT_LEDGER.tsv`, `STATUS_LEDGER.tsv`, and
-   `OUTCOME_PREMISE_AUDIT.tsv`.
-4. Read the parent projector audit and external PASS closure in
-   `udt_projector_deformation_neighborhood_audit_2026-08-01/` and
-   `udt_projector_deformation_neighborhood_review_2026-08-01/`.
+3. `udt_completion_parameterized_local_fiber_audit_2026-08-01/AUDIT_REPORT.md`, then
+   `LAY_REPORT.md`, `EXACT_DERIVATION.md`, `GLOBAL_DATA_FIBER_GATE_MATRIX.tsv`, the three fiber
+   tables, `STATUS_LEDGER.tsv`, and `OUTCOME_PREMISE_AUDIT.tsv`.
+4. Read `udt_bootstrap_projector_admissibility_interface_2026-08-01/` for the parent six-level
+   interface and the still-open complete intersection.
 
-**Current honest result:** the robust projector neighborhoods fill one bounded local off-shell
-geometry slot. The complete bootstrap/on-shell intersection would be
-`N_projector ∩ Sol(E_native) ∩ pi_X[Z(A) ∩ Graph(R)]`. It cannot yet be computed because the native
-on-shell equation/domain, complete same-solution readout, and global-to-local return relation are
-open. This is not an empty-intersection result.
+**Current honest result:** completion data supply a genuine partial global-to-local family. The
+eight registered monodromies define eight distinct `Graph(M)` endpoint fibers; all 28 witness pairs
+are distinct. Join smoothness gives nested jet-matching fibers. The conditional two-cap toric
+family realizes `f_cap=+1,-1` local cap fibers. These are legal joint conditions, not a physical
+completion selector or interior dynamics.
 
-**New conceptual separation:** a forward readout only recomputes global data. A density range is a
-legitimate one-way survival filter once native density exists. A separable local predicate plus
-global window depends on both arguments but does not show tuning. The stronger orchestra/bootstrap
-picture requires the nonempty allowed local family `F_O` itself to change with independent global
-data. Differentiable response is a still stronger layer requiring nontrivial `D_O A`.
+**Critical scope:** monodromy and seam rows are exact parametric schemas because most completion
+classes lack actual complete metric/coframe witnesses. The cap row is realized only inside an
+already selected/conditional toric family. `Graph(M)` is native descent; `ker(M-I)` additionally
+requires an independently owned invariant or parallel section.
 
-**What closed and what did not:** projector robustness is established and the six interface layers
-are no longer conflated. The projector response cannot be renamed the bootstrap return, on-shell
-equation, carrier, or stability condition. Native total mass-energy/density, complete `R`, `A`,
-`E_native`, boundary/global completion, a common witness, dynamics, stability, and mass remain
-open. The `S2` carrier remains `POSIT`; `L2+L4` remains `CONDITIONAL` and unused.
+**Curvature ruling:** zero choice-free return routes. Pointwise curvature is a readout; curvature
+levels/spectra/averages require unowned choices. Holonomy gives path-conditioned transport, not
+configuration admissibility absent a parallel-section premise. Zero physical completion selectors
+were found.
 
-**Evidence:** preregistration `cf8f43a`; evidence `30cc0bb`; 21 frozen sources; 8/8 candidate joins;
-six interface levels; nine missing slots; 94 independent standard-library checks; 16/16 fail-closed
-mutations; six frozen manifests / 133 paths; 1,114 current paths; 101 frontier targets; tests
-`70 passed, 1 xfailed`. Package-manifest SHA-256:
-`71ee8c41cd308b1467ac7206f20a48a6c4c660596dde86155a4ae879e1210aab`. The parent projector result
-has a fresh external `PASS`; this new interface result is `VERIFIED-WITH-CAVEATS` pending any future
-fresh adversarial review.
+**Evidence:** preregistration `5e04b99`; clarification `9321913`; evidence `23ac3a0`; 36 frozen
+sources; 16 anchors; 131 independent stdlib rational checks; 26/26 fail-closed mutations; six
+frozen manifests / 133 paths; 1,114 current paths; 101 frontier targets; tests `70 passed, 1
+xfailed`. Manifest SHA-256:
+`719939ea902fb696520d151fd6394d672272547dc85599150cb0df533bccbab7`. Grade is
+`VERIFIED-WITH-CAVEATS`; no fresh external semantic review was run.
 
-**Proposed next action, not launched:** ask source-first whether complete-metric global
-curvature/completion data already parameterize a nonseparable local family `F_O`, without importing
-mass, an action, arbitrary weights, or a desired filter. Stop on relabeling or invented integrals.
+**Proposed next action, not launched:** construct one actual complete full-screen witness in a
+second completion class and test whether its local fiber schema is realized throughout, without
+ranking branches or importing an action, weight, carrier, density, or desired filter.
 
-**Authority boundary:** no density value/window, configuration, family, carrier, action, boundary,
-bootstrap law, matter interpretation, canonization, reorganization, GPU work, further external
-transmission, or follow-on research launch follows automatically.
+**Authority boundary:** no completion, topology, seam, transition, cap family, curvature
+functional, density, carrier, action, bootstrap law, matter interpretation, canonization,
+reorganization, GPU work, external transmission, or follow-on research launch follows
+automatically.
 
 <!-- STARTUP_CURRENT_END -->
 

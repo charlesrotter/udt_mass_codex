@@ -5,67 +5,68 @@
 **⚠ BRANCH: work is on `grok` (2026-08-01).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-01 — BOOTSTRAP/PROJECTOR INTERFACE TYPED; COMPLETE INTERSECTION OPEN) ============
+## ============ CURRENT STATE (2026-08-01 — COMPLETION DATA PARAMETERIZE PARTIAL LOCAL FIBERS; CURVATURE RETURN OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_bootstrap_projector_admissibility_interface_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
-`EXACT_DERIVATION.md` → `ADMISSIBILITY_HIERARCHY.tsv` → `INTERFACE_GATE_MATRIX.tsv` →
-`MISSING_INPUT_LEDGER.tsv` → `STATUS_LEDGER.tsv` and `OUTCOME_PREMISE_AUDIT.tsv`. Then read the
-parent projector package and append-only external PASS closure in
-`udt_projector_deformation_neighborhood_audit_2026-08-01/` and
-`udt_projector_deformation_neighborhood_review_2026-08-01/`.
+`udt_completion_parameterized_local_fiber_audit_2026-08-01/AUDIT_REPORT.md` → `LAY_REPORT.md` →
+`EXACT_DERIVATION.md` → `GLOBAL_DATA_FIBER_GATE_MATRIX.tsv` → `MONODROMY_LOCAL_FIBERS.tsv` →
+`JET_MATCHING_FIBERS.tsv` → `CAP_LOCAL_JET_FIBERS.tsv` → `STATUS_LEDGER.tsv` and
+`OUTCOME_PREMISE_AUDIT.tsv`. Then read the parent interface package at
+`udt_bootstrap_projector_admissibility_interface_2026-08-01/`.
 
-**RESULT:** `PROJECTOR_ANTECEDENT_ROBUST__BOOTSTRAP_INTERSECTION_OPEN_MISSING_E_NATIVE_R_AND_A`.
-The externally sustained projector neighborhoods fill a genuine robust local off-shell geometry
-slot. The complete same-solution set would be
-`N_projector ∩ Sol(E_native) ∩ pi_X[Z(A) ∩ Graph(R)]`, but the native on-shell equation/domain
-`E_native`, complete readout `R`, and global-to-local return relation `A` are not defined. The
-intersection is presently uncomputable, not observed empty.
+**RESULT:**
+`COMPLETION_DATA_SUPPLY_PARAMETRIC_LOCAL_FIBER_SCHEMAS_AND_ONE_CONDITIONAL_CAP_REALIZATION__CURVATURE_RETURN_AND_PHYSICAL_SELECTION_OPEN`.
+Global assembly data really do change the legal local joints: the eight registered `GL(2,Z)`
+monodromy witnesses define eight distinct endpoint graphs (`28/28` witness pairs distinct);
+successive `C0/C1/C2` seam requirements give nested scalar two-jet control dimensions `5/4/3`
+from ambient dimension six; and the conditional registered two-cap toric family forces the two
+local cap values `f_cap=+1,-1` with smooth-cap jet conditions.
 
-**NEW SIX-LEVEL DISTINCTION:** forward readout → global survival window → separable local/global
-filter → global-state-dependent local-family tuning → differentiable response → complete on-shell
-closure. A provisional bounded density range is a lawful one-way survival-filter type once native
-same-solution density exists. It is not by itself the stronger chicken-and-egg tuning picture. That
-requires the nonempty admissible local family `F_O` to change when independent global data `O`
-change; response additionally requires nontrivial `D_O A`.
+**EXACT SCOPE:** monodromy and seam results are parametric descent/regularity schemas, not realized
+complete metric families. Most registered completions still lack complete metric/coframe witnesses.
+The cap result is realized only inside an already `CHOSE`/conditional completed toric family. This
+is a genuine partial global-to-local kinematic family; it is not an equation of motion, bootstrap
+return, stability condition, matter law, or physical selector.
 
-**WHAT THIS CLOSES:** the positive projector geometry is not a six-point fine tuning and may serve
-as a future local antecedent. Readout, filtering, family tuning, response, and closure are no longer
-conflated. The projector response has no independent global-data argument and cannot silently be
-used as the bootstrap return or as on-shell/stability membership.
+**CURVATURE RULING:** pointwise curvature remains a forward readout. A curvature level, spectrum,
+distribution, integral, or average requires an unowned level/operator/domain/measure/weight.
+Holonomy supplies path-conditioned endpoint transport for a supplied metric/path, but becomes
+configuration admissibility only if a parallel/invariant section is independently required. No
+current premise owns that requirement. Exact counts: zero choice-free curvature return routes and
+zero physical completion selectors.
 
-**WHAT REMAINS OPEN:** whether projector geometry is relevant to matter; the native equation and
-realized variation domain; complete geometric/global readout; native total mass-energy and proper
-density; the observer-natural family `F_O`; boundary/corner/global-modulus completion; a common
-witness; dynamics, stability, and mass. The `S2` carrier remains `POSIT`; `L2+L4` remains
-`CONDITIONAL` and was not used.
+**WHAT THIS CLOSES:** the missing global/local architecture now has one real metric-side strut:
+completion instructions can own local admissibility conditions without importing an action. It
+also sharply separates `Graph(M)` descent from the stronger conditional fixed subspace
+`ker(M-I)`. The complete same-solution bootstrap intersection remains open because `E_native`,
+complete `R`, the nonidentity return `A`, and a common completed witness remain missing.
 
-**EVIDENCE:** interface preregistration `cf8f43a`; evidence `30cc0bb`; 21 Git/SHA-frozen sources;
-8/8 candidate joins; six interface levels; nine missing slots; exact graph-rank and finite-fiber
-controls; independent standard-library reconstruction passes 94 checks without production imports;
-16/16 semantic mutations fail closed. Six frozen manifests / 133 paths, premise guards, 1,114
-current paths, 101 frontier targets, links, and tests `70 passed, 1 xfailed` pass. Package-manifest
-SHA-256 is `71ee8c41cd308b1467ac7206f20a48a6c4c660596dde86155a4ae879e1210aab`.
+**EVIDENCE:** preregistration `5e04b99`; pre-output graph clarification `9321913`; evidence
+`23ac3a0`; 36 Git/SHA-frozen sources and 16 exact anchors. SymPy production plus an independent
+stdlib rational reconstruction pass 131 checks: eight graph ranks, all 28 graph distinctions,
+conditional fixed dimensions, jet ranks, and cap values. The semantic verifier catches 26/26
+attempted promotions. Six frozen manifests / 133 paths, premise guards, 1,114 current paths, 101
+frontier targets, links, and tests `70 passed, 1 xfailed` pass. Package-manifest SHA-256 is
+`719939ea902fb696520d151fd6394d672272547dc85599150cb0df533bccbab7`. Grade:
+`VERIFIED-WITH-CAVEATS`; no fresh external semantic review was run.
 
-The parent projector package separately passed fresh read-only gpt-5.4 semantic review with all ten
-rulings sustained and no repairs; evidence `5e391c7`. No fresh adversarial semantic review has been
-run on the new interface audit, so its grade is `VERIFIED-WITH-CAVEATS`.
+**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** construct an actual complete full-screen
+witness in one second registered completion class (preferably a lens completion or torus bundle
+with explicit transition data), carry the coframe/projector neighborhood through its joins, and
+test whether the parametric fiber schema is realized throughout. Preserve both branches; do not
+rank them or introduce a selector.
 
-**NEXT JUSTIFIED QUESTION — PROPOSED, NOT LAUNCHED:** source-first, ask whether complete-metric
-global curvature/completion data already parameterize a nonseparable family of local admissibility
-fibers `F_O` without importing mass, an action, or arbitrary scalar weighting. Stop if the only
-construction is an invented integral, a renamed projector response, or a chosen desired filter.
+**PREMISE STAMPS:** founded `phi` and reciprocal pair `DERIVED`; transition-graph and transformed-
+jet schemas `DERIVED_KINEMATIC`; registered toric cap fiber `CONDITIONAL`; projector persistence
+`DERIVED_CONDITIONAL_BOUNDED`; observer Reciprocity `DERIVED_NATURALITY_CONSTRAINT`; bootstrap
+`WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; curvature return,
+physical completion, `E_native`, complete `R`, `A`, stability, and matter physics `OPEN`.
 
-**PREMISE STAMPS:** founded `phi` and reciprocal pair `DERIVED`; projector persistence
-`DERIVED_CONDITIONAL_BOUNDED`; observer Reciprocity `DERIVED_NATURALITY_CONSTRAINT`;
-bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; density-window survival filter `WORKING_TYPE_ONLY`;
-`S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; `E_native`, complete `R`, `A`, stability, and matter
-physics `OPEN`.
-
-**AUTHORITY BOUNDARY:** no configuration, density value/window, curvature functional, family,
-carrier, action, coefficient, boundary, bootstrap law, matter interpretation, or stability result
-is adopted. No further external transmission, follow-on derivation, GPU work, canonization, or
-repository reorganization is authorized by this block.
+**AUTHORITY BOUNDARY:** no completion, topology, seam, regularity order, transition matrix, cap
+family, curvature functional, density value/window, carrier, action, boundary, bootstrap law,
+matter interpretation, or stability result is adopted. No further external transmission,
+follow-on derivation, GPU work, canonization, or repository reorganization is authorized by this
+block.
 
 <!-- STARTUP_CURRENT_END -->
 
