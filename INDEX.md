@@ -3,32 +3,33 @@
 **⚠ BRANCH: `grok` (2026-08-02)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — INTRINSIC TWO-FORM DISTRIBUTION MAPPED; THREE-CIRCLE OBSTRUCTION DERIVED:**
-Read `udt_intrinsic_two_form_distribution_audit_2026-08-02/AUDIT_REPORT.md`, then its lay report,
-exact derivation, candidate/locus atlases, status ledger, cold review, four gates, and next step.
-Consult the general-screen parent only when its projector/coexistence proof is load-bearing.
+**➤ CURRENT SCIENTIFIC FRONTIER — DEFECT TRANSPORT MAPPED; LINE MONODROMY TRIVIAL, CLOCK/LINE CURVATURE SURVIVES:**
+Read `udt_intrinsic_defect_transport_atlas_2026-08-02/AUDIT_REPORT.md`, then its lay report, exact
+derivation, object/status tables, cold review, four gates, and next step. Consult the intrinsic
+two-form parent only when its line/defect construction is load-bearing.
 
-On six parent-certified intrinsic branches, the nonzero depth/area two-form has kernel exactly equal
-to the clock line plus one metric-derived spacelike line. That line is screen-contained on one exact
-locus, generic-mixed on another exact open locus, and never ruler-aligned in the frozen profile.
-The exhaustive zero set is an equatorial `S2` plus three intersecting great circles; the nonzero
-domain has exactly two connected components.
+The three-circle obstruction is a two-vertex/six-edge graph and its complement has `H1=Z^5`, but
+the metric-derived line has a global nonzero lift. Therefore `w1=0`, projective meridians are
+trivial in `RP2`, and the projected real-line holonomy is the identity on every loop. Locally, each
+regular edge still has degree-magnitude-one vector turning, two `RP1` traversals, and `1/rho`
+ambient turning; each pole link has six punctures. These local facts are not a charge or carrier.
 
-The sign-independent line extends across the generic equatorial zero sheet but has path-dependent
-limits on all three circles, including their shared poles. This is an exact obstruction for the
-registered line/profile, not a physical defect, carrier, or Hopf-section theorem. Candidate census:
-9 zero, 6 multi-type, 2 blocked, 1 degenerate.
+The distinct clock/line plane has a metric-anchored `SO(1,1)` connection. Its curvature is exactly
+nonzero at 12 registered point certificates. Four registered screen/`lambda` configurations have
+distinct sampled coordinate triples, while the two twist controls scale exactly `4x/5x`. The
+global curvature zero set, finite plane holonomies, pole asymptotics, full Levi-Civita holonomy, and
+all physics remain open.
 
-Evidence: preregistration `942e8790`; source freeze `7d3c7296`; evidence `04e1d9a9`; source manifest
-`48dcc11e79a0395e920c159a88346656011d8784118f11620f6996db040be122`; package manifest
-`b45ce7f7fe11ad732089b1036345ada89c27295aeb163a5456180c464d938f91`; fresh independent exact
-`PASS` with no correction; 32/32 typed catches; frozen/navigation/premise gates and tests
-`70 passed, 1 xfailed` pass.
+Evidence: preregistration `8d0b3575`; source freeze `9950ebda`; evidence `fa7b50e7`; source manifest
+`e486cdb7dd1147d0ce4d4fdb547e5c47726947b746e2cb33d471db54031defc8`; package manifest
+`d66d10b3ee468429c8e729141716d6ca638d81fed2a5f4c65d32b797a1ebf87e`; separate 90-digit
+reconstruction and fresh `PASS_WITH_CAVEATS`; 36/36 real mutation catches; frozen/navigation/
+premise gates and tests `70 passed, 1 xfailed` pass.
 
-Proposed next, not launched: an exact stationary defect/transport atlas for projective
-winding/monodromy and metric connection/holonomy around the three-circle graph. No particle,
-carrier, action, source, density/bootstrap return, `X_max`, GPU/time-live work, or follow-on
-derivation is authorized.
+Proposed next, not launched: derive the global zero/singular set of `Omega_E` across the four
+registered screen/`lambda` configurations and evaluate a preregistered finite-loop generator
+family. No charge, particle, carrier, action, source, density/bootstrap return, `X_max`, GPU/
+time-live work, or follow-on derivation is authorized.
 
 **➤ PARENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED:**
 `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/` remains the authority for the four

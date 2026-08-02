@@ -5,74 +5,71 @@
 **⚠ BRANCH: work is on `grok` (2026-08-02).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-02 — INTRINSIC TWO-FORM DISTRIBUTION MAPPED; THREE-CIRCLE GLOBAL OBSTRUCTION DERIVED) ============
+## ============ CURRENT STATE (2026-08-02 — DEFECT TRANSPORT MAPPED; LINE MONODROMY TRIVIAL, CLOCK/LINE CURVATURE SURVIVES) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_intrinsic_two_form_distribution_audit_2026-08-02/AUDIT_REPORT.md` → its lay report, exact
-derivation, candidate/locus atlases, status ledger, cold review, four gates, and next step → the
-general-screen parent only when its projector/coexistence proof is load-bearing.
+`udt_intrinsic_defect_transport_atlas_2026-08-02/AUDIT_REPORT.md` → its lay report, exact
+derivation, object/status tables, cold review, four gates, and next step → the intrinsic two-form
+parent only when its line/defect construction is load-bearing.
 
 **RESULT:**
-`INTRINSIC_DEPTH_AREA_TWO_FORM_SUPPLIES_A_SPATIAL_KERNEL_LINE_ON_SIX_REGISTERED_BRANCHES__TWO_NONZERO_LINE_TYPES_AND_EXACT_THREE_GREAT_CIRCLE_EXTENSION_OBSTRUCTION`.
-This is a `PASS_VERIFIED_BOUNDED_INTRINSIC_DISTRIBUTION_ATLAS` in the unchanged stationary,
-off-shell `R x S3` ensemble. It is not an on-shell, time-live, arbitrary-profile, or universal UDT
-theorem.
+`GLOBAL_DEFECT_LINE_IS_ORIENTABLE_WITH_TRIVIAL_PROJECTED_HOLONOMY__LOCAL_AMBIENT_TURNING_AND_METRIC_ANCHORED_CLOCK_LINE_CURVATURE_REMAIN`.
+Evidence grade: `VERIFIED-WITH-CAVEATS` in the unchanged stationary, off-shell, frozen 18-candidate
+`R x S3` ensemble. This is not on shell, time live, arbitrary profile, or a universal UDT theorem.
 
-**WHAT CLOSED:** on the six parent-certified intrinsic nonzero branches,
+**WHAT CLOSED:** after the parent line is continued through the generic equator, its obstruction set
+is a connected two-vertex/six-edge graph `D`; Alexander duality gives
+`H1(S3 minus D;Z)=Z^5`. Nevertheless, `N_tilde=L_g f` is a global nonzero lift because
+`det(L_g)=1/(F^2 u)>0`. Therefore the real line is orientable, `w1=0`, every regular projective
+meridian is trivial in `pi1(RP2)`, and the projected real-line connection has identity holonomy on
+all loops.
+
+The local geometry is not empty. Around every regular graph edge, the oriented vector turns once
+(degree magnitude one), the local `RP1` line image traverses twice, and ambient meridional turning
+has a `1/rho` leading term. Each pole link is `S2` minus six punctures. These are local turning/link
+facts, not a `Z2` charge, carrier, or Hopf section.
+
+**SURVIVING DIFFERENTIAL OBJECT:** the distinct Lorentzian plane `E=span(T,n)` has, in the
+metric-anchored clock/line frame,
 
 ```text
-W=dPhi_contact wedge dSigma_contact
+omega_E=(q_T/2)(n3 theta2-n2 theta3),
+q_T=2a/(sqrt(u)F),  Omega_E=d omega_E.
 ```
 
-has kernel `span(T,N)` within the four-dimensional tangent space wherever nonzero, where
-`N_flat=star(T_flat wedge W)` is a metric-derived spacelike line. Exact full-cell algebra gives:
+The parent no-ruler-aligned theorem makes this anchored connection nonzero on `M`. All 12 exact
+`p1/p2` curvature certificates are nonzero. The four registered screen/`lambda` configurations
+have distinct sampled curvature coordinate triples at both points; `C16/C17` scale `C08` by exact
+factors four/five. These point results do not classify the global zero set of `Omega_E`.
 
-```text
-Z(W) = {q3=0} union C03 union C13 union C23,
-S3 minus Z(W) has exactly two connected components,
-RULER_ALIGNED nonzero locus = empty,
-SCREEN_CONTAINED locus = exact and nonempty,
-GENERIC_MIXED locus = exact, nonempty, and open.
-```
-
-The sign-independent line continues uniquely across the equatorial zero sheet away from six axis
-intersections. It fails path-independently at every point of the three intersecting great circles,
-including their shared poles. At `W=0` the kernel is four-dimensional; no residual line is silently
-chosen.
-
-**CENSUS AND SCOPE:** nine intrinsic candidates remain identically zero; six have both surviving
-nonzero types on different loci; C14/C15 remain projector-blocked configuration controls; C18 is
-metric-degenerate. Screen shears and `lambda` change the metric direction but not this registered
-profile's zero/type partition. No candidate or locus is selected as physical, and one analytic
-profile does not exhaust smooth screens or other completions.
-
-**EVIDENCE:** preregistration `942e8790`; 64-source freeze `7d3c7296`; evidence commit `04e1d9a9`;
+**EVIDENCE:** preregistration `8d0b3575`; 86-source freeze `9950ebda`; evidence commit `fa7b50e7`;
 source-manifest SHA-256
-`48dcc11e79a0395e920c159a88346656011d8784118f11620f6996db040be122`; package-manifest
-SHA-256 `b45ce7f7fe11ad732089b1036345ada89c27295aeb163a5456180c464d938f91`. A fresh exact
-implementation imported no production functions and independently reproduced the coframe,
-polynomials, zero/type loci, Hodge/kernel signs, extension obstruction, topology, and `6/9/2/1`
-census with `PASS` and no correction. All 32 catches pass (26 exact/algebra, five semantic scope,
-one evidence-backed independence). Six frozen manifests / 133 paths, 1,114 current paths, 101
-frontier targets, premise guards, and tests `70 passed, 1 xfailed` pass.
+`e486cdb7dd1147d0ce4d4fdb547e5c47726947b746e2cb33d471db54031defc8`; package-manifest
+SHA-256 `d66d10b3ee468429c8e729141716d6ca638d81fed2a5f4c65d32b797a1ebf87e`. A separate
+90-digit route reproduced 72 point components; fresh adversarial review independently rebuilt the
+topology, lift, edge/pole algebra, full connection formula, a coordinate-Christoffel anchor, all 12
+curvature certificates, and exact scaling. All 36 real mutation catches pass. Six frozen manifests
+/ 133 paths, 1,114 current paths, 101 frontier targets, premise guards, and tests
+`70 passed, 1 xfailed` pass.
 
-**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** on the same frozen six intrinsic branches, map the
-projective winding/monodromy and metric connection/holonomy around the exact three-circle defect
-graph, including its poles and equatorial junctions. This is an intrinsic defect/transport atlas,
-not a hunt for a particle or Hopf section.
+**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** derive the global zero/singular set of `Omega_E` on the
+four registered screen/`lambda` configurations and evaluate a preregistered generating family of
+finite loops, retaining path dependence and both pole strata. CPU/exact first; no charge or physical
+branch target.
 
 **PREMISE STAMPS:** reciprocal pair/founded pair action `DERIVED`; stationary `R x S3` family
-`CHOSE_EXISTENCE_CONTROL`; unique Killing line `DERIVED_BOUNDED_ON_16`; intrinsic pair projector
-`DERIVED_BOUNDED_ON_15`; intrinsic nonzero two-form `DERIVED_EXISTENCE_ON_6`; kernel line and
-zero/type/extension atlas `DERIVED_BOUNDED_ON_THE_6`; global nonsingular continuation of this line
-`OBSTRUCTED_ON_THE_REGISTERED_PROFILE`; screen/on-shell/dynamical selection `OPEN`; `c_E`
-`OBSERVED_SCALE_ANCHOR`; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`;
-`L2+L4` `CONDITIONAL`; action, source, boundary, density return, `X_max`, stability, mass, and matter
-remain `OPEN`.
+`CHOSE_EXISTENCE_CONTROL`; intrinsic two-form/line/defect graph `DERIVED_BOUNDED_ON_6`; line global
+lift, orientability, and trivial projected holonomy `DERIVED_BOUNDED_ON_6`; local ambient turning
+`DERIVED_LOCAL`; metric-anchored kernel-plane connection `DERIVED_BOUNDED`; sampled curvature
+nonzero/branch distinction `OBSERVED_EXACT_BOUNDED`; finite plane holonomy, global curvature zero
+set, pole asymptotics, and full Levi-Civita holonomy `OPEN`; `c_E` `OBSERVED_SCALE_ANCHOR`;
+bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; action,
+source, boundary, density return, `X_max`, stability, mass, and matter `OPEN`.
 
-**AUTHORITY BOUNDARY:** no postulate or physics was adopted. No defect is a particle; no carrier,
-Hopf section, action, source, boundary, density/bootstrap return, matter/mass claim, GPU/time-live
-work, canonization, repository reorganization, or follow-on derivation is authorized by this block.
+**AUTHORITY BOUNDARY:** no postulate or physics was adopted. No defect/turn is a charge or particle;
+no carrier, Hopf section, substrate, preferred branch, action, source, boundary, density/bootstrap
+return, matter/mass claim, GPU/time-live work, canonization, repository reorganization, or follow-on
+derivation is authorized by this block.
 
 <!-- STARTUP_CURRENT_END -->
 

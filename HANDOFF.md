@@ -6,44 +6,46 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-02).** Synchronize it before orientation.
 
-## CURRENT — intrinsic two-form distribution mapped; three-circle obstruction derived
+## CURRENT — defect transport mapped; line monodromy trivial, clock/line curvature survives
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_intrinsic_two_form_distribution_audit_2026-08-02/AUDIT_REPORT.md`, then its lay report,
-   exact derivation, candidate/locus atlases, status ledger, cold review, four gates, and next step.
-4. `udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/` only when the parent
-   projector/coexistence proof is load-bearing.
+3. `udt_intrinsic_defect_transport_atlas_2026-08-02/AUDIT_REPORT.md`, then its lay report, exact
+   derivation, object/status tables, cold review, four gates, and next step.
+4. `udt_intrinsic_two_form_distribution_audit_2026-08-02/` only when the parent line/defect proof
+   is load-bearing.
 
-**Current honest result:** the six parent-certified intrinsic nonzero branches carry a
-metric-derived spacelike kernel line wherever `dPhi_contact wedge dSigma_contact` is nonzero. Its
-complete registered-profile atlas has two realized nonzero types—screen-contained and generic
-mixed—and no ruler-aligned locus. The exact zero set is an equatorial `S2` plus three intersecting
-great circles; the nonzero domain has exactly two components.
+**Current honest result:** the continued three-circle obstruction is a two-vertex/six-edge graph
+whose complement has `H1=Z^5`, but the metric-derived line has an explicit global nonzero lift.
+Thus `w1=0`, its projective meridians are trivial in `RP2`, and its projected real-line holonomy is
+the identity on every loop.
 
-**Global ruling:** the sign-independent line extends across the generic equatorial zero sheet but
-fails path-independently at every point of the three circles, including their shared poles. This is
-an exact obstruction for this line/profile, not a carrier no-go or physical defect theorem.
+**Local/global distinction:** every regular edge still has one full oriented-vector turn, two
+local `RP1` traversals, and `1/rho` leading ambient turning; each pole link has six punctures. This
+does not override the global lift and is not a charge, carrier, or Hopf section.
 
-**Census and limitation:** 9 intrinsic zero, 6 multi-type, 2 projector-blocked, 1 degenerate. The
-result is stationary, off shell, and profile-bounded. It selects no candidate, equation, carrier,
-Hopf section, action, source, boundary, bootstrap return, matter, or mass.
+**Surviving differential structure:** the separate clock/line plane has a metric-anchored
+`SO(1,1)` connection `omega_E=(q_T/2)(n3 theta2-n2 theta3)`. It is nonzero in that anchored frame
+on the continued domain. Its curvature is exactly nonzero at both registered points for all six
+full candidates; four registered screen/`lambda` coordinate triples differ, and the twist controls
+scale exactly `4x/5x`. Global curvature zeros and finite loop holonomies remain open.
 
-**Evidence:** preregistration `942e8790`; source freeze `7d3c7296`; evidence `04e1d9a9`; source
-manifest `48dcc11e79a0395e920c159a88346656011d8784118f11620f6996db040be122`; package manifest
-`b45ce7f7fe11ad732089b1036345ada89c27295aeb163a5456180c464d938f91`; fresh independent exact
-`PASS`, no correction; 32/32 typed catches; frozen/navigation/premise gates and tests
-`70 passed, 1 xfailed` pass.
+**Evidence:** preregistration `8d0b3575`; source freeze `9950ebda`; evidence `fa7b50e7`; source
+manifest `e486cdb7dd1147d0ce4d4fdb547e5c47726947b746e2cb33d471db54031defc8`; package manifest
+`d66d10b3ee468429c8e729141716d6ca638d81fed2a5f4c65d32b797a1ebf87e`; separate 90-digit
+reconstruction and fresh `PASS_WITH_CAVEATS`; 36/36 real mutation catches; frozen/navigation/
+premise gates and tests `70 passed, 1 xfailed` pass.
 
-**Proposed next action, not launched:** map the projective winding/monodromy and metric
-connection/holonomy around the exact defect graph. Keep it an objective stationary CPU
-defect/transport atlas; do not target a particle or carrier.
+**Proposed next action, not launched:** derive the global zero/singular set of `Omega_E` across the
+four registered screen/`lambda` configurations and evaluate a preregistered finite-loop generator
+family. Keep path dependence and pole strata; do not target a charge, particle, carrier, or branch.
 
 **Authority boundary:** no new premise or physics was adopted. No follow-on derivation, density
-scan, carrier/section, action/source, bootstrap closure, `X_max`, matter/mass claim, canonization,
-reorganization, GPU/time-live work, or external transmission follows.
+scan, carrier/section, substrate interpretation, action/source, bootstrap closure, `X_max`,
+matter/mass claim, canonization, reorganization, GPU/time-live work, or external transmission
+follows.
 
 <!-- STARTUP_CURRENT_END -->
 

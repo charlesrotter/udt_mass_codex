@@ -4,19 +4,24 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## August 2 intrinsic two-form distribution precedence notice
+## August 2 intrinsic defect transport precedence notice
 
 This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →
 `HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
-`udt_intrinsic_two_form_distribution_audit_2026-08-02/AUDIT_REPORT.md` and its exact evidence.
+`udt_intrinsic_defect_transport_atlas_2026-08-02/AUDIT_REPORT.md` and its exact evidence.
 
-The current bounded result is an exact metric-distribution atlas on the unchanged stationary
-`R x S3` ensemble. Six intrinsic branches carry a spacelike kernel line where the depth/area
-two-form is nonzero. Screen-contained and generic-mixed loci occur; ruler alignment does not. The
-zero set is an equatorial `S2` plus three great circles. The line extends through the generic
-equator but has a path-dependent obstruction on all three circles. No carrier, Hopf section,
-action, source, dynamics, matter, or physical branch is selected. The proposed defect/transport
-atlas is not launched.
+The current bounded result maps the resulting line and clock/line-plane transport on the unchanged
+stationary `R x S3` ensemble. The two-vertex/six-edge defect-graph complement has `H1=Z^5`, but the
+line has a global lift: `w1=0`, projective meridians are trivial, and projected line holonomy is the
+identity. Regular edges still carry degree-magnitude-one vector turning, two local `RP1` traversals,
+and `1/rho` ambient turning; both pole links have six punctures.
+
+The distinct clock/line plane has a metric-anchored connection whose curvature is exactly nonzero
+at 12 registered point certificates and varies across the registered screen/`lambda` controls.
+The global curvature zero set, finite plane holonomies, pole asymptotics, and full Levi-Civita
+holonomy remain open. No charge, carrier, Hopf section, substrate physics, action, source,
+dynamics, matter, or physical branch is selected. The proposed global curvature/finite-loop
+continuation is not launched.
 
 ## August 1 native-parent, F01, and boundary-bridge precedence notice
 

@@ -4,22 +4,23 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-02, intrinsic two-form distribution)
+## TOP — CURRENT POINTER (2026-08-02, intrinsic defect transport)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
 block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
-`udt_intrinsic_two_form_distribution_audit_2026-08-02/` in the order routed there.
+`udt_intrinsic_defect_transport_atlas_2026-08-02/` in the order routed there.
 
-Current honest result: the six intrinsic nonzero branches carry a metric-derived spacelike kernel
-line. It is screen-contained on one exact locus, generic-mixed on another, and never ruler-aligned
-in the registered profile. Its zero set is an equatorial `S2` plus three great circles. The line
-extends through the generic equator but fails path-independently on the circles. The nonzero domain
-has exactly two components; the exact census is 9 zero, 6 multi-type, 2 blocked, 1 degenerate.
+Current honest result: the two-vertex/six-edge defect-graph complement has `H1=Z^5`, but the
+metric-derived line has a global lift, so `w1=0` and its projected line holonomy is trivial. Regular
+edges still have degree-magnitude-one vector turning, two local `RP1` traversals, and `1/rho`
+ambient turning; each pole link has six punctures. These are not a charge or carrier.
 
-This is a bounded stationary/off-shell distribution atlas. It selects no screen, equation,
-carrier, Hopf section, action, source, boundary, bootstrap value, matter, or mass. Fresh independent
-exact review passes with no correction. The proposed but unlaunched next question is the intrinsic
-projective winding/monodromy and metric connection/holonomy of the exact defect graph.
+The distinct clock/line plane has a metric-anchored connection and 12 exactly nonzero sampled
+curvature certificates with exact branch/twist dependence. Global curvature zeros, finite plane
+holonomies, pole asymptotics, and full Levi-Civita holonomy remain open. This is a bounded
+stationary/off-shell atlas and selects no equation, carrier, Hopf section, substrate, action,
+source, boundary, bootstrap value, matter, or mass. The proposed but unlaunched next question is
+the global `Omega_E` atlas and preregistered finite-loop generator family.
 
 The prior reciprocal-closure and F01/F02/F04 plural-family results remain valid and separate. No
 action, carrier, family, or further work is adopted automatically.
