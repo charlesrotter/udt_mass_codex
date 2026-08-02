@@ -3,32 +3,36 @@
 **⚠ BRANCH: `grok` (2026-08-02)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — RECIPROCAL-PAIR AUTHORITY ADJUDICATED; UNIVERSAL PHYSICAL REDUCTION OPEN:**
-Read `udt_reciprocal_pair_reduction_authority_audit_2026-08-02/AUDIT_REPORT.md`, then its exact
-adjudication, status ledger, cold-review return, lay report, four gates, and next step. Consult the
-full-screen and corrected Cartan parent packages only for their load-bearing algebra.
+**➤ CURRENT SCIENTIFIC FRONTIER — ONE COMPLETE-CELL METRIC INTRINSICALLY BUILDS THE RECIPROCAL PAIR; SELECTION OPEN:**
+Read `udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/AUDIT_REPORT.md`, then its exact
+derivation, candidate and status ledgers, cold-review return, lay report, four gates, and next step.
+Consult the reciprocal-pair authority package only when its parent authority argument is
+load-bearing.
 
-The two founding UDT statements derive the abstract reciprocal clock/ruler representation. The
-separately recorded Lorentzian/SR-continuity readout gives a conditional local physical alignment.
-Complete stationary controls contain genuine intrinsic pieces, but no one witness yet supplies a
-unique smooth reciprocal pair through a whole cell. Universal physical rank-two reduction remains
-`OPEN`.
+One explicit preregistered off-shell metric in the registered twisted stationary `R x S3` family
+has exactly one continuous Killing line, even against arbitrary time-dependent competitors. It is
+timelike and its everywhere nonzero twist supplies a global spacelike ruler line. The two form one
+smooth, sign-independent, equivariant rank-two reduction through the complete cell. This is the
+positive transforming-subbundle possibility left open by the fixed-plane no-go.
 
-Observer Reciprocity requires equivariance, not one fixed component plane. The exact Lorentz
-centralizer refutes the latter while leaving a transforming physical subbundle possible. Therefore
-the full-screen contact norm `q_squared=t1^2-t0^2` is exactly
-`DERIVED_GIVEN_REGISTERED_REDUCTION`, not a metric-only scalar or universal physical observable.
+This closes configuration existence, not UDT selection. The profile, transverse weight, twist,
+stationary branch, `S3` completion, and equations of motion are chosen existence data; the witness
+is off shell. Universal reduction remains `OPEN`. “Complete” means smooth globally nondegenerate
+cell geometry and does not claim Lorentzian geodesic completeness. `q_squared=t1^2-t0^2` remains
+`DERIVED_GIVEN_REGISTERED_REDUCTION` pending a branch-intrinsic descent audit.
 
-Evidence: preregistration `71fb71e`, 29-source freeze `9a6e865`, adjudication `fda9d05`; source
-manifest `b2e645be98e5d98acfa9936101e9e2373188f79300e890ae95b98f9f6838b02e`; package manifest
-`2fe52afb6713e78c8ddadc8e8f9fc355b5b4a8feef45f20e797766180780f427`; 15 exact anchors, 8/8
-catches, fresh zero-context adversarial review, frozen/navigation/premise gates, and tests
-`70 passed, 1 xfailed` all pass.
+Evidence: preregistration `2f0be5cd`, 21-source freeze `9a815e21`, evidence commit `9275b4fd`;
+source manifest `ba78024e5a01ade0b21f6b142d5a583598e55c0a9c245845ef1cbe19a3a4eed6`; package manifest
+`ceb08e87166118524834c0e11f99c423acf00cca5f2bf0a03f2b70c1fd85eb64`; exact certificate
+`876b00e7d94e249b148846d59612b4cef373430bb1b8fb2f34a1f8ee55160d67`; 13/13 geometric gates,
+20/20 semantic catches, fresh independent curvature/Killing review `VERIFIED`, frozen/navigation/
+premise gates, and tests `70 passed, 1 xfailed` all pass.
 
-Proposed next, not launched: test only the already registered twisted complete stationary `S3`
-general-screen branch for an intrinsic unique stationary timelike line and its smooth equivariant
-join with the twist-selected ruler. Retain all degeneracy and failure strata. No new postulate,
-density scan, action, carrier, `X_max`, GPU/time-live work, or follow-on derivation is authorized.
+Proposed next, not launched: on the explicit witness, replace the registered pair/screen split by
+the metric-derived projector and audit which full-screen Cartan/contact objects—including
+`q_squared` and null strata—become genuine branch metric scalars and which still need screen, path,
+or global data. No action, source, carrier, density/bootstrap return, `X_max`, GPU/time-live work,
+or follow-on derivation is authorized.
 
 **➤ PARENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED:**
 `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/` remains the authority for the four

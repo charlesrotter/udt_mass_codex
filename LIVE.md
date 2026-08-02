@@ -5,61 +5,65 @@
 **⚠ BRANCH: work is on `grok` (2026-08-02).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-02 — RECIPROCAL-PAIR AUTHORITY ADJUDICATED; UNIVERSAL PHYSICAL REDUCTION OPEN) ============
+## ============ CURRENT STATE (2026-08-02 — ONE COMPLETE-CELL METRIC INTRINSICALLY BUILDS THE RECIPROCAL PAIR; SELECTION OPEN) ============
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_reciprocal_pair_reduction_authority_audit_2026-08-02/AUDIT_REPORT.md` → its exact adjudication,
-status ledger, cold-review return, lay report, four gates, and next step → the full-screen and
-corrected Cartan parent packages only when their algebra is load-bearing.
+`udt_twisted_s3_all_gate_reciprocal_reduction_audit_2026-08-02/AUDIT_REPORT.md` → its exact
+derivation, candidate and status ledgers, cold-review return, lay report, four gates, and next step →
+the reciprocal-pair authority package only when the parent authority argument is load-bearing.
 
 **RESULT:**
-`FOUNDED_ABSTRACT_PAIR_DERIVED__LOCAL_PHYSICAL_ALIGNMENT_CONDITIONAL_ON_DECLARED_READOUT__BRANCH_CONDITIONAL_PHYSICAL_REDUCTIONS_EXIST__COMPLETE_UNIVERSAL_REDUCTION_OPEN`.
-This is a `VERIFIED` source-authority adjudication within the frozen current record, not a universal
-complete-metric existence theorem.
+`EXPLICIT_COMPLETE_OFF_SHELL_TWISTED_S3_METRIC_INTRINSIC_RECIPROCAL_RANK2_REDUCTION_DERIVED__BRANCH_EXISTENCE_ONLY__UNIVERSAL_AND_ON_SHELL_SELECTION_OPEN`.
+This is a `VERIFIED` explicit configuration-existence result. Here `complete` means a smooth,
+globally nondegenerate metric on the registered complete cell `R x S3`; Lorentzian geodesic
+completeness is not claimed.
 
-**FOUR LEVELS:** the two founding UDT statements derive the abstract reciprocal clock/ruler
-representation. The founding derivation's separately declared Lorentzian/SR-continuity readout gives
-a local physical alignment, exactly but conditionally on that recorded readout. Some complete
-stationary branches supply intrinsic pieces—such as a stationary Killing line or, given that line,
-a twist-selected ruler—but no single witness yet supplies one unique smooth pair through the whole
-cell. A universal physical rank-two reciprocal reduction therefore remains `OPEN`.
+**WHAT CLOSED:** one preregistered analytic member of the already registered twisted stationary
+general-screen family has exactly one continuous Killing line, even when competing Killing fields
+are allowed arbitrary time dependence. That line is timelike with nonconstant norm. Its everywhere
+nonzero Killing twist supplies a global spacelike ruler line. Their normalized clock/ruler pair
+therefore forms one smooth, sign-independent, equivariant rank-two reduction through the whole cell.
+On this witness the pair is identified by the metric, not imposed by a component split.
 
-**FRAME RULING:** a physical pair must transform equivariantly,
-`X -> Lambda X Lambda^-1` and `Pi_pair -> Lambda Pi_pair Lambda^-1`. Requiring one fixed component
-plane in all Lorentz frames is refuted by the exact centralizer. This does **not** refute a
-transforming physical subbundle; it identifies the object a constructive derivation must supply.
+**UNIQUENESS CERTIFICATE:** three exact scalar Ricci invariants have a nonzero spatial Jacobian at
+all five eligible preregistered checks. Analytic independence kills the spatial part of every
+Killing field on a dense open set and hence globally; the remaining Killing equation makes its time
+coefficient constant. Constant-depth, twist-free, repeated-profile, and slice-null controls retain
+their registered zero, incomplete, or ineligible meanings. No point or transverse weight was
+selected after outcome.
 
-**CONTACT CONSEQUENCE:** for a registered reciprocal-pair/screen reduction,
-`q=(t0,t1)` and `q_squared=t1^2-t0^2` remain exact split-preserving invariants. Their current
-authority is exactly `DERIVED_GIVEN_REGISTERED_REDUCTION`. They are not yet metric-only scalars or
-universal physical observables. The prior full-screen Cartan/contact algebra remains valid at that
-scope, including its null stratum and correction layer.
+**WHAT DID NOT CLOSE:** UDT has not selected the analytic profile, transverse weight, twist,
+stationary branch, `S3` completion, or an on-shell field equation. The witness is off shell. It does
+not prove a universal reduction, a neighborhood theorem, geodesic completeness, or downstream
+physics.
 
-**EVIDENCE:** preregistration `71fb71e`, 29-source freeze `9a6e865`, adjudication `fda9d05`;
-source-manifest SHA-256 `b2e645be98e5d98acfa9936101e9e2373188f79300e890ae95b98f9f6838b02e`;
-package-manifest SHA-256 `2fe52afb6713e78c8ddadc8e8f9fc355b5b4a8feef45f20e797766180780f427`.
-Fifteen exact source anchors, six authority obligations, twelve status rows, eight exercised catches,
-and a fresh zero-context adversarial review pass. Six frozen manifests / 133 paths, 1,114 current
-paths, 101 frontier targets, premise guards, and tests `70 passed, 1 xfailed` pass.
+**EVIDENCE:** preregistration `2f0be5cd`, 21-source freeze `9a815e21`, evidence commit `9275b4fd`;
+source-manifest SHA-256 `ba78024e5a01ade0b21f6b142d5a583598e55c0a9c245845ef1cbe19a3a4eed6`;
+package-manifest SHA-256 `ceb08e87166118524834c0e11f99c423acf00cca5f2bf0a03f2b70c1fd85eb64`;
+exact certificate SHA-256 `876b00e7d94e249b148846d59612b4cef373430bb1b8fb2f34a1f8ee55160d67`.
+Thirteen geometric gates and twenty semantic catches pass. A fresh zero-context adversary rebuilt
+the rational metric and curvature derivatives with an independent PyTorch reverse-mode method and
+returned `VERIFIED`. Six frozen manifests / 133 paths, 1,114 current paths, frontier and premise
+guards, and tests `70 passed, 1 xfailed` pass.
 
-**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** in the same twisted complete stationary `S3`
-general-screen family whose Killing twist supplies a ruler line given the stationary line, determine
-whether the metric also makes that stationary timelike line intrinsic and unique, and whether the two
-lines assemble into one smooth equivariant rank-two reduction through the whole cell. Retain
-nonunique, degenerate, symmetry-enhanced, null, and global-failure strata. The maximum conclusion is
-branch-conditional, never automatically universal.
+**NEXT JUSTIFIED QUESTION — NOT LAUNCHED:** on this explicit witness, replace the formerly
+registered pair/screen split by the metric-derived projector and audit which full-screen
+Cartan/contact objects—including `q_squared` and its null strata—descend to genuine branch metric
+scalars, and which still require screen, path, or global data. Maximum scope: the witness or a
+separately proved neighborhood, never automatic branch or universal physics.
 
 **PREMISE STAMPS:** abstract reciprocal pair and founded pair action `DERIVED`; local physical
-clock/ruler alignment `DERIVED_CONDITIONAL` on the recorded readout; branch reductions
-`DERIVED_BOUNDED`; fixed component plane `REFUTED`; equivariance `DERIVED_SCOPED`; `q_squared`
-`DERIVED_GIVEN_REGISTERED_REDUCTION`; universal complete physical reduction and metric-only contact
-scalar `OPEN`/`NOT_DERIVED`; `c_E` `OBSERVED_SCALE_ANCHOR`; bootstrap
-`WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4` `CONDITIONAL`; action, source,
-boundary, density return, `X_max`, stability, mass, and matter remain `OPEN`.
+clock/ruler alignment `DERIVED_CONDITIONAL` on the recorded readout; this explicit complete-cell
+rank-two reduction `DERIVED_BOUNDED`; witness existence `VERIFIED`; witness/on-shell selection and
+universal reduction `OPEN`; fixed component plane `REFUTED`; equivariance `DERIVED_SCOPED`;
+`q_squared` remains `DERIVED_GIVEN_REGISTERED_REDUCTION` pending the descent audit; `c_E`
+`OBSERVED_SCALE_ANCHOR`; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; `L2+L4`
+`CONDITIONAL`; action, source, boundary, density return, `X_max`, stability, mass, and matter remain
+`OPEN`.
 
-**AUTHORITY BOUNDARY:** no new postulate or physics was adopted. No density scan, action, carrier,
-source, matter solve, GPU/time-live work, canonization, external transmission, repository
-reorganization, or follow-on derivation is authorized by this block.
+**AUTHORITY BOUNDARY:** no new postulate or physics was adopted. No action, source, carrier,
+boundary, density/bootstrap return, matter/mass claim, GPU/time-live work, canonization, external
+transmission, repository reorganization, or follow-on derivation is authorized by this block.
 
 <!-- STARTUP_CURRENT_END -->
 
