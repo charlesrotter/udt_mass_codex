@@ -1,0 +1,4 @@
+python3 udt_projector_deformation_neighborhood_review_2026-08-01/verify_review_closure.py
+python3 udt_projector_deformation_neighborhood_review_2026-08-01/verify_repository_gates.py
+python3 udt_projector_deformation_neighborhood_review_2026-08-01/build_review_manifest.py
+python3 udt_projector_deformation_neighborhood_review_2026-08-01/verify_review_package.py

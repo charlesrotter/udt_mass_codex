@@ -1,0 +1,19 @@
+{
+  "accepted_review_bytes": 4938,
+  "accepted_review_sha256": "d11264704b5a2e892fffb6e8f903f53111a3dc9104377ad5f85ed1f05c5591c9",
+  "claim_rulings_sustained": 10,
+  "external_environment": {
+    "model": "gpt-5.4",
+    "reasoning_effort": "high",
+    "repository_sandbox": "read-only",
+    "web_search": "disabled"
+  },
+  "mandatory_repairs": 0,
+  "maximum_conclusion": "DERIVED_CONDITIONAL_ON_THE_REGISTERED_STATIONARY_COMPLETE_OFFSHELL_FAMILY:EACH_C01_C06_CENTER_LIES_IN_AN_OPEN_CONFIGURATION_NEIGHBORHOOD_WITH_THE_INTRINSIC_CLOCK_RULER_PROJECTOR_GATES_AND_NONZERO_RELATIVE_CURVATURE_SOMEWHERE",
+  "review_mode": "READ_ONLY_EXTERNAL_CODEX_GPT_5_4_HASH_FROZEN_TARGET_AND_15_SOURCES",
+  "status": "PASS",
+  "target_manifest_sha256_after": "58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab",
+  "target_manifest_sha256_before": "58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab",
+  "transcript_bytes": 208379,
+  "transcript_sha256": "b6735c697092a987fb1e8f839a090583bb062a837f00c149d79b8d7c18a1fe4f"
+}

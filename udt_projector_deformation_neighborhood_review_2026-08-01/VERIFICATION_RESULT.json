@@ -1,0 +1,13 @@
+{
+  "frozen_source_rows": 15,
+  "mandatory_repairs": 0,
+  "mutation_catches": 6,
+  "review_sha256": "d11264704b5a2e892fffb6e8f903f53111a3dc9104377ad5f85ed1f05c5591c9",
+  "review_verdict": "PASS",
+  "schema": "udt.projector_deformation_neighborhood.external_review.v1",
+  "status": "PASS",
+  "target_manifest_files": 46,
+  "target_manifest_sha256": "58dd9b3f272119db42757d5c66f00efd1ac26b6e2288bf92a479e547fe2bfeab",
+  "target_package_unchanged_since_evidence_commit": true,
+  "transcript_sha256": "b6735c697092a987fb1e8f839a090583bb062a837f00c149d79b8d7c18a1fe4f"
+}
