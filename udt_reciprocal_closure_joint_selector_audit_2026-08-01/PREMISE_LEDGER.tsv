@@ -1,0 +1,21 @@
+id	premise_or_choice	status_before_audit	use_in_audit	forbidden_promotion
+P01	founded phi is additive logarithmic reciprocal depth	DERIVED	pinned-by-THEORY: CURRENT_SCIENTIFIC_PREMISES G01-G02	independent placeholder scalar
+P02	observer-frame Reciprocity requires equivariance	DERIVED_BOUNDED	pinned-by-THEORY: whole-configuration audit	fixed state or preferred frame
+P03	four-dimensional conformal-Lorentzian readout	INHERITED_CONDITIONAL	conditional input only	foundation-derived physical representative
+P04	Levi-Civita connection of a supplied representative	DERIVED_GEOMETRIC_OBJECT	free across supplied representatives	physical UDT transport law
+P05	complete founded coframe extension	OPEN	all registered extension directions retained	chosen spectator or toric extension
+P06	strong local CSN	CHALLENGED_INACTIVE	not used	active Weyl gauge or selector
+P07	c_E and G_obs	OBSERVED_ANCHORS	premise guard; no coefficient formula assumed	action or carrier selector
+P08	finite-cell structure	WORKING_SPLIT_FOUNDATION	boundary/completion gate only	selected cap, quotient, or carrier wall
+P09	bootstrap	WORKING_ON_SHELL_ADMISSIBILITY	outer gate only	local response or optimizer
+P10	projective null-direction S2 fiber	CONDITIONAL_DERIVED_FIBER	candidate C04	selected section or round carrier target
+P11	round S2 carrier	POSIT	diagnostic conditional branch only	native emergence
+P12	L2+L4 carrier action	CONDITIONAL	diagnostic conditional branch only	native complete action
+P13	old single reciprocal axis	CHOSE_HISTORICAL_EXTENSION	counterexample/provenance only	current full-coframe derivation
+P14	matter is nontrivial reciprocal loop closure	FREE_CANDIDATE_PREMISE	tested but not adopted	founded postulate
+P15	rank-one path variation is non-material	FREE_CANDIDATE_PREMISE	tested independently of P14	derived consequence of Reciprocity
+P16	local parity-even positive response	FREE_CANDIDATE_MINIMALITY_CLASS	conditional invariant census	complete UDT action class
+P17	first derivatives only through quartic order	FREE_BOUNDED_CLASS	conditional uniqueness scope	exhaustion of higher jets
+P18	physical section or bundle reduction	OPEN	must be derived or explicitly supplied	inferred from fiber dimension
+P19	physical boundary/framing	OPEN	dependency gate only	solver boundary as physics
+P20	time-live persistence/source/mass	OPEN	excluded downstream scope	stability or matter claim

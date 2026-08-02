@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "all_source_files_exist": true,
+    "all_source_sha256_and_blobs_match": true,
+    "candidates_10_unique": true,
+    "falsifiers_15_unique": true,
+    "free_candidate_premises_visible": true,
+    "historical_sources_not_affirmative": true,
+    "null_outcome_retained": true,
+    "premises_20_unique": true,
+    "sources_24_unique_ids": true,
+    "sources_24_unique_paths": true
+  },
+  "counts": {
+    "candidates": 10,
+    "falsifiers": 15,
+    "premises": 20,
+    "sources": 24
+  },
+  "status": "PASS"
+}

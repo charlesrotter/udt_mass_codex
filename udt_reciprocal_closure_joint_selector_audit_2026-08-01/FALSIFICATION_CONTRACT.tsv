@@ -1,0 +1,16 @@
+id	claim_under_test	falsifier_or_required_control	forced_ruling_if_fired
+F01	scalar reciprocal depth supplies loop matter	Maurer-Cartan curvature vanishes identically for smooth scalar depth	REFUTED
+F02	ordinary metric holonomy is a matter selector	generic curved Lorentzian controls have nontrivial/full holonomy without carrier data	REFUTED_AS_SPECIFIC_SELECTOR
+F03	current metric selects a carrier section	full isotropy acts transitively or exact countersections survive	OPEN_NOT_SELECTED
+F04	fiber topology supplies Hopf matter	no physical section/domain/boundary/response is selected	TOPOLOGY_INSUFFICIENT
+F05	full coframe selects one reciprocal lift	active extension selector rank remains zero or screen/mixing counterfamilies survive	OPEN_NONUNIQUE
+F06	loop-closure premise follows from Reciprocity	a same-reciprocity rank-one-cost response exists	INDEPENDENT_PREMISE_REQUIRED
+F07	quartic first-derivative response is unique	more than one invariant survives all declared conditional constraints	NONUNIQUE
+F08	rank-one blindness selects area response	a non-area quartic invariant is rank-one blind inside the frozen class	REFUTED
+F09	area response is unique unconditionally	second-derivative or higher-order invariants remain admissible	UNIQUE_CONDITIONAL_ONLY
+F10	path-plus-loop logic derives L2+L4	presence of either response is not required by an active premise	CONDITIONAL_FORM_ONLY
+F11	current premises fix relative coefficient	a continuous positive coefficient ratio preserves every active rule	OPEN_COEFFICIENT
+F12	static finite scale fixes coefficient ratio	rescaling trades object size against any supplied positive ratio	CIRCULAR_SELECTOR_REJECTED
+F13	conditional action is complete	carrier, variation, boundary, source, or time law remains absent	INCOMPLETE
+F14	loop closure identifies matter sectors	multiple branch/reduction/topology classes remain physically unnamed	NO_FAMILY_ASSIGNMENT
+F15	candidate joint is current UDT authority	P14 or P15 remains FREE rather than derived	COHERENT_CANDIDATE_NOT_ADOPTED

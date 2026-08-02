@@ -1,0 +1,11 @@
+id	candidate_object	input_status	question	acceptance_rule
+C01	founded scalar reciprocal Maurer-Cartan current	DERIVED	can scalar depth itself carry loop defect?	retain even if flat
+C02	reducible reciprocal-depth plus full-frame path groupoid	CONDITIONAL_EXACT_GIVEN_INPUTS	can path-labeled comparison define closure without a section?	distinguish path data from endpoint descent
+C03	nonnull-dphi real two-form 3+3 reduction	DERIVED_LOCAL_STRATUM	can this reduction define a carrier or loop response?	retain null/zero degeneration
+C04	projective null-direction S2 fiber	CONDITIONAL_DERIVED_FIBER	does the fiber select a physical section?	full local isotropy must be respected
+C05	full Levi-Civita curvature and holonomy	DERIVED_FOR_SUPPLIED_METRIC	is generic metric holonomy matter-specific?	reject if generic curved controls qualify identically
+C06	full-coframe reciprocal lift and holonomy	OPEN_LIFT	does current complete coframe select it?	all active screen/mixing directions retained
+C07	conditional reciprocal-toric quotient	CONDITIONAL_GLOBAL_WITNESS	does its principal connection close the joint?	periods, caps, quotient, orientation kept explicit
+C08	supplied unit-direction or projective-axis section	SUPPLIED_CONTROL	what response invariants follow after a section?	never count section as derived
+C09	full screen/shear bundle without reduction	REGISTERED_OPEN_FAMILY	what extra invariant freedom survives?	no equal-weight freeze
+C10	no carrier or no nontrivial closure	NULL_OUTCOME	can present premises stop before matter?	must remain an admissible outcome
