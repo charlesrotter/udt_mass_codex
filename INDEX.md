@@ -3,32 +3,38 @@
 **⚠ BRANCH: `grok` (2026-08-02)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC COMPATIBILITY AUDITED; EXACT–HARMONIC JOINT OPEN:**
-Read `udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/AUDIT_REPORT.md`, then
-`LAY_REPORT.md`, `EXACT_DERIVATION.md`, `RELATION_OUTCOMES.tsv`, `STATUS_LEDGER.tsv`,
-`OUTCOME_PREMISE_AUDIT.tsv`, and `NEXT_STEP.md`.
+**➤ CURRENT SCIENTIFIC FRONTIER — MINIMAL DEPTH/ANGULAR HARMONIC RESPONSE AVAILABLE; COMPLETE-FRAME PRODUCTION OPEN:**
+Read `udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/AUDIT_REPORT.md`, then
+`LAY_REPORT.md`, `EXACT_DERIVATION.md`, `RESPONSE_CLASSIFICATION.tsv`,
+`UPPER_RIGHT_CONTROL_ATLAS.tsv`, `STATUS_LEDGER.tsv`, `OUTCOME_PREMISE_AUDIT.tsv`, and
+`NEXT_STEP.md`.
 
-The parent ownership theorem stands: `alpha` and `theta1` share one line/projector on the bounded
-FC07 family. The new 16-route audit finds no active Reciprocity, composition, seal, or descent
-premise that fixes their scalar relation. `dphi`, `theta1`, and `alpha` instead carry zero exact
-period, positive physical length, and primitive topological period. A nonzero constant
-`dphi=k alpha` join is impossible on a closed base; a variable zero-mean coefficient is unselected.
+Exact `dphi` and every smooth single-scalar `F(phi)dphi` have zero harmonic projection on a compact
+boundaryless spatial Hodge cell. Jointly, however, founded depth and screen-split angular log-area
+have exactly one non-exact direction modulo exact forms in the full minimal affine first-derivative
+basis: `lambda=(phi dsigma-sigma dphi)/2`, with `dlambda=dphi wedge dsigma`. A closed
+`(phi,sigma)` loop can carry a nonzero harmonic coefficient equal to its signed area; non-torus
+dependence can carry local curl.
 
-The angular sector supplies one exact cut: raw `theta1` is harmonic, and `alpha=k theta1` has a
-cell-wide coefficient, iff angular area is constant. The harmonic flux/capacity and the constant
-`c_E L/I` wedge are real readouts with unselected levels. Supplied density would make
-`sqrt(G_obs rho_tot)/c_E` dimensionally available as an inverse length, but no native relation
-places it; therefore no density scan or window is licensed.
+An explicit upper-right FC07 control also corrects the parent scope: the `alpha`/raw-ruler common
+line is exact in the lower-triangular family but not robust under nonclosed upper-right mixing. The
+control is mathematical, not an adopted physical coframe.
 
-Preregistration `090f8ee`; freeze `47d5610`; evidence `a6f7ea2`; 17 sources; 14 anchors; 43 exact
-checks; 39 independent checks; 20/20 catches; six frozen manifests / 133 paths; current-path and
-frontier gates; and tests `70 passed, 1 xfailed` pass. Package SHA-256
-`fe4d142595f5902b3c05fc746412d255fe025e6a1b406f6f14b389602146c324`. Grade:
-`VERIFIED-WITH-CAVEATS`; no fresh zero-context/external review.
+The motif remains `AVAILABLE_NOT_SELECTED`. `sigma` is typed by a supplied screen split; no
+complete-frame intrinsic extension, Cartan/curvature production coefficient, response equation,
+or density return is derived. Therefore no density scan or bootstrap window is licensed.
 
-Proposed next, not launched: broaden the coframe and exhaustively test metric-derived
-exact-to-harmonic response candidates before introducing `rho_tot`. No bootstrap closure, action,
-carrier, density window, `X_max`, GPU work, or follow-on derivation is authorized.
+Preregistration/freeze `fe7cf92`; evidence `7c29af5`; 15 sources; 43/43 primary checks; 29/29
+independent checks; 15/15 catches; six frozen manifests / 133 paths; current-path/frontier gates;
+and tests `70 passed, 1 xfailed` pass. Package SHA-256
+`5f9cbe9eeae15b82e9d79d290cbc0e8d056b8d8cd7af20c2b1818070c164ae36`. Grade:
+`VERIFIED-WITH-CAVEATS`; no fresh cold/external review.
+
+Proposed next, not launched: obtain a fresh cold adversarial review, then—only if it survives—
+quotient exact/presentation directions from the actual complete-coframe first Cartan jet and test
+whether connection or curvature produces this response with a fixed coefficient and a split-free
+angular scalar. No density, action, carrier, `X_max`, GPU, time-live, or follow-on derivation is
+authorized.
 
 **➤ PARENT SCIENTIFIC FRONTIER — FC07 RECIPROCAL–HARMONIC OWNERSHIP DERIVED:**
 `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/` remains the authority for the four

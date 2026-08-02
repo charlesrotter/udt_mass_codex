@@ -6,56 +6,62 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-02).** Synchronize it before orientation.
 
-## CURRENT — FC07 reciprocal–harmonic compatibility audited; exact–harmonic joint open
+## CURRENT — minimal depth/angular harmonic response available; complete-frame production open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-3. `udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/AUDIT_REPORT.md`, then
-   `LAY_REPORT.md`, `EXACT_DERIVATION.md`, `RELATION_OUTCOMES.tsv`, `STATUS_LEDGER.tsv`,
-   `OUTCOME_PREMISE_AUDIT.tsv`, and `NEXT_STEP.md`.
-4. Read `udt_fc07_reciprocal_harmonic_ownership_audit_2026-08-01/` for the parent ownership theorem
-   and `udt_bootstrap_projector_admissibility_interface_2026-08-01/` for the open six-level join.
+3. `udt_fc07_broader_coframe_hodge_response_audit_2026-08-02/AUDIT_REPORT.md`, then
+   `LAY_REPORT.md`, `EXACT_DERIVATION.md`, `RESPONSE_CLASSIFICATION.tsv`,
+   `UPPER_RIGHT_CONTROL_ATLAS.tsv`, `STATUS_LEDGER.tsv`, `OUTCOME_PREMISE_AUDIT.tsv`, and
+   `NEXT_STEP.md`.
+4. Read `udt_fc07_reciprocal_harmonic_compatibility_audit_2026-08-02/` for the parent separation
+   theorem and `udt_bootstrap_projector_admissibility_interface_2026-08-01/` for the open six-level
+   join.
 
-**Current honest result:** all 16 registered routes were tested. Reciprocity, composition, the
-current seal record, and supplied descent do not fix a nonconventional scalar relation between
-`alpha` and `theta1` beyond their common line/projector in the bounded FC07 family.
+**Current honest result:** exact depth alone cannot create a harmonic response on a compact
+boundaryless Hodge cell. But depth and angular log-area jointly possess exactly one non-exact
+direction modulo exact forms in the complete minimal affine first-derivative basis:
+`lambda=(phi dsigma-sigma dphi)/2`, with `dlambda=dphi wedge dsigma`.
 
-**Sharp advance:** `dphi`, `theta1`, and `alpha` share the base direction but carry different global
-data: zero exact period, positive physical length `ell`, and primitive topological period one. A
-nonzero constant `dphi=k alpha` solder is impossible on a closed base. A variable coefficient has
-zero harmonic mean but remains unselected. The raw ruler is harmonic, and has one cell-wide
-coefficient relative to `alpha`, exactly when angular area is constant.
+**Sharp advance:** if `phi` and `sigma=log(D/D0)` trace a loop around the cell, `integral lambda`
+is its signed area and can be a nonzero harmonic coefficient. With screen dependence, the same
+motif can carry local curl/coexact content. Reference shifts change it only by an exact form. This
+is the exact bounded “orchestra” mechanism: a joint response exists that neither sector can carry
+alone.
 
-**Positive readout:** fiber flux and Hodge norm are `1/I`; the complete reciprocal-harmonic wedge
-has constant coefficient `c_E L/I`. Their values vary across admitted metrics and are not return
-equations.
+**Ownership correction:** the parent `alpha`/`theta1` common line is conditional on its
+lower-triangular family. An explicit nonclosed upper-right control makes the raw ruler non-harmonic
+while the primitive `ds` line remains harmonic. This is a countercontrol, not an adopted physical
+coframe.
 
-**Density ruling:** supplied `rho_tot` would make `sqrt(G_obs rho_tot)/c_E` an available inverse
-length. No UDT relation identifies it with the Hodge/ruler response, so density bracketing remains
-closed rather than merely postponed for computation.
+**Selection and density ruling:** the motif is available but unselected. Angular log-area still
+depends on the registered screen split, and no actual Cartan connection/curvature expression has
+been shown to produce `lambda` with a fixed coefficient. No return equation connects it to
+`rho_tot`; density remains closed.
 
-**Critical scope:** stationary, torus-invariant, lower-triangular, four unique-`H1` FC07
-completions; chosen field generalization and supplied descent. Complete physical seal/Hodge lift,
-J07/J11, upper-right, non-torus-invariant, time-live, other-topology, equation, and matter sectors
-remain open.
+**Critical scope:** universal compact-boundaryless Hodge theorem; complete six-direction minimal
+two-scalar basis; two upper-right controls on the minus-identity FC07 completion. Generic complete
+coframes, other monodromies, boundaries, J07/J11, time-live, curvature/higher-order responses,
+equations, action, carrier, and matter remain open.
 
-**Evidence:** preregistration `090f8ee`; freeze `47d5610`; evidence `a6f7ea2`; 17 sources; 14
-anchors; 43 exact checks; 39 independent no-SymPy checks; 20/20 semantic catches; six frozen
-manifests / 133 paths; 1,114 current paths; 101 frontier targets; and tests `70 passed, 1 xfailed`.
-Package SHA-256 `fe4d142595f5902b3c05fc746412d255fe025e6a1b406f6f14b389602146c324`.
-Grade `VERIFIED-WITH-CAVEATS`; no fresh zero-context/external review.
+**Evidence:** preregistration/freeze `fe7cf92`; evidence `7c29af5`; 15 sources; 43/43 primary
+checks; 29/29 independent no-SymPy checks; 15/15 catches; six frozen manifests / 133 paths; 1,114
+current paths; 101 frontier targets; and tests `70 passed, 1 xfailed`. Package SHA-256
+`5f9cbe9eeae15b82e9d79d290cbc0e8d056b8d8cd7af20c2b1818070c164ae36`. Grade
+`VERIFIED-WITH-CAVEATS`; no fresh cold/external review.
 
-**Proposed next action, not launched:** broaden the complete coframe just enough to test every
-metric-derived exact-to-harmonic response under upper-right and non-torus-invariant structure,
-retaining the no-response outcome. Introduce `rho_tot` only after a nonidentity same-solution
-relation survives. CPU first.
+**Proposed next action, not launched:** first cold-review the load-bearing theorem, rank, loop, and
+upper-right controls. If they survive, audit the actual complete-coframe first Cartan jet, after
+quotienting exact and presentation directions, for production of the alternating response with a
+fixed coefficient and for a unique split-free angular scalar. Keep no-production alive. Do not
+introduce `rho_tot` before a native observer-natural return survives.
 
-**Authority boundary:** topological period is not physical length; a simple reflection control is
-not the physical seal; dimensional density availability is not a density law. No density scan,
-field promotion, descent, completion, action, carrier, bootstrap closure, `X_max`, matter claim,
-canonization, reorganization, GPU work, external transmission, or follow-on launch follows.
+**Authority boundary:** availability is not law selection; loop area is not mass/source;
+upper-right controls are not physical adoption. No density scan, action, carrier, bootstrap
+closure, `X_max`, matter claim, canonization, reorganization, GPU/time-live work, external
+transmission, or follow-on launch follows.
 
 <!-- STARTUP_CURRENT_END -->
 
