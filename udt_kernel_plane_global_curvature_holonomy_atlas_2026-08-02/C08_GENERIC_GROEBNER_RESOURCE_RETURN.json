@@ -1,0 +1,21 @@
+{
+  "classification": "OPEN_RESOURCE_BOUNDED_EXACT_ATTEMPT",
+  "command": "/tmp/udt_singular_local/usr/bin/Singular -q",
+  "input_path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_SINGULAR_PROJECTIVE_INPUT.sing",
+  "input_sha256": "621660065b270644cc4a3beab454a9889ae2b3e523e43984532841201f434186",
+  "major_page_faults_at_stop": 0,
+  "maximum_rss_kib_at_final_snapshot": 65288288,
+  "outcome": "NO_BASIS_RETURNED_BEFORE_AUTHORIZED_RESOURCE_STOP",
+  "python_wrapper_path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/run_singular_c08_projective.py",
+  "python_wrapper_sha256": "fb4175b4ca407e9727869b91381f2799e0a8cde2719385e59b25d97e43f6bb54",
+  "singular_cpu_time_at_stop": "1-00:18:58",
+  "singular_pid": 680302,
+  "singular_start": "2026-08-02T13:32:05-04:00",
+  "stop_authority": "CHARLES_CONFIRMED_TERMINATION_AND_EXACT_REFACTOR",
+  "stop_signal": "SIGTERM",
+  "stop_timestamp": "2026-08-03T13:51:09-04:00",
+  "swap_kib_at_stop": 3328,
+  "system_available_gib_after_stop": 107,
+  "system_available_gib_before_stop": 44,
+  "wall_runtime_at_stop": "1-00:19:03"
+}
