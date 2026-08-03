@@ -44,6 +44,10 @@ CURRENT_PREREG = (
     "PREREGISTRATION_NUMERIC_CERTIFICATION.md",
     "ZERO_SET_METHOD_REFINEMENT_2.md",
     "ZERO_SET_PROJECTIVE_COMPLETION_METHOD.md",
+    "C08_EXACT_LINEAR_ELIMINATION_PREREGISTRATION.md",
+)
+CURRENT_EVIDENCE = (
+    "C08_GENERIC_GROEBNER_RESOURCE_RETURN.json",
 )
 
 
@@ -68,6 +72,8 @@ def main():
         sources[str((PARENT / name).relative_to(ROOT))] = "immediate_parent_load_bearing_evidence"
     for name in CURRENT_PREREG:
         sources[str((HERE / name).relative_to(ROOT))] = "current_preregistration_boundary"
+    for name in CURRENT_EVIDENCE:
+        sources[str((HERE / name).relative_to(ROOT))] = "pre_refactor_resource_evidence"
 
     scope_rows = []
     manifest_rows = []
