@@ -1,0 +1,12 @@
+class_id	class_name	home	declared_order	registered_example	pre_outcome_status	selection_question
+O00	ZERO_RESPONSE_CONTROL	chosen audit configuration cotangent	NONE	zero covector	CONTROL_RETAINED	Does any active premise exclude no dynamical response?
+O01	GEOMETRIC_IDENTITY_OR_READOUT	spacetime or query bundle	IDENTITY	Levi-Civita torsion identity Bianchi identity reciprocal composition	DEFINED_NOT_RESPONSE_BY_ITSELF	Does any identity acquire a selected zero equation?
+O02	LOCAL_ALGEBRAIC_METRIC_RESPONSE	metric configuration cotangent	0	variation of volume / metric-proportional response	AVAILABLE_CONDITIONAL_FORM	Does calibration or coframe structure select its coefficient or equation?
+O03	LOCAL_TWO_JET_METRIC_RESPONSE	metric configuration cotangent	2	EH/Einstein bulk response	CONDITIONAL_NOT_SELECTED	Do founded premises select second order or EH minimality?
+O04	LOCAL_FOUR_JET_CONFORMAL_RESPONSE	metric configuration cotangent	4	C2/Bach bulk response	UNIQUE_CONDITIONAL_IN_INACTIVE_BRANCH	Does current calibrated foundation reactivate strong CSN or pre-scale variation?
+O05	HIGHER_INVARIANT_METRIC_RESPONSE_FAMILY	metric configuration cotangent	UNBOUNDED_FINITE_ORDER_FAMILY	variations of scalar curvature invariants	AVAILABLE_CLASS_WITNESS_NOT_EXHAUSTIVE	Do current premises select an invariant function order or coefficient?
+O06	UNIVERSAL_QUERY_LIFT	query-bundle response family	INHERITS_PARENT	all-query projection of supplied ambient tensor	AVAILABLE_GENUINE_NOT_SELECTED	Is the universal query quantifier or trace component selected?
+O07	REGULAR_METRIC_DERIVED_REDUCTION_RESPONSE	regular branch/reduction cotangent	INHERITS_PARENT	projector screen or dphi reduction with parent chain rule	CONDITIONAL_REGULAR	Is a reduction global and metric-owned across every retained stratum?
+O08	GLOBAL_HOLONOMY_OR_PERIOD_RESPONSE	global configuration/query path data	NONLOCAL	homotopy holonomy or period residual	AVAILABLE_TYPED_NOT_SELECTED	Is a physical loop or zero-return premise supplied?
+O09	BOUNDARY_COMPLETION_RESPONSE	boundary/corner cotangent	ORDER_DEPENDENT	boundary momentum polarization or gluing residual	OPEN_MULTIPLE_CLASSES	Does finite-cell structure select polarization and differentiable completion?
+O10	GLOBAL_LOCAL_MUTUAL_ADMISSIBILITY	complete on-shell solution/readout relation	NONLOCAL_RELATION	A(X,O)=0 with O=R[X]	WORKING_POSIT_NOT_OPERATION	Does current metric structure supply the nontrivial membership relation?
