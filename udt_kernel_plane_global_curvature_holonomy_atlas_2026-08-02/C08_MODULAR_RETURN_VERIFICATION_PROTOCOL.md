@@ -72,3 +72,12 @@ internal-error gate correctly rejected the run. The correction emits every ratio
 first (`1/224*z^11`) without changing any polynomial. That failed Singular branch supplies no lift
 or ideal-containment outcome; the already completed SymPy observations remain provisional until the
 whole protocol passes.
+
+The corrected third invocation retained every SymPy pass but reached the registered 1,800-second
+timeout inside `lift(I,G)` without returning a reverse-containment matrix. Its separate Singular
+path did return `verifyGB(G)=1` before the lift. The six source-reduction calls also printed
+"G is no standard basis" because the independently reconstructed and verified basis had not been
+tagged `isSB`; those displayed zeros are therefore not credited. Future replay code sets that
+internal tag only after `verifyGB=1`. No automatic fourth replay is authorized by this correction.
+The current status is `OPEN_VERIFICATION_INCOMPLETE`: the exact reverse containment and fresh cold
+review remain absent.

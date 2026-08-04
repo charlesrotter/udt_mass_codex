@@ -1,0 +1,68 @@
+{
+  "production_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "production_stdout_sha256": "a785441f0bb6fc5bb8f631861a84336660f8508e729780a6e40459868070479b",
+  "schema": "udt-c08-modular-independent-verification-1.0",
+  "singular_lift": {
+    "input_sha256": "fedb11d4d02fd5e80f0645082848944a56304cb69bbff200e368ebb714b8c0e4",
+    "returncode": null,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "56eae949fe6899f4224ea4a9688dac43a3819843194fbda7ccdaf2f8f3f8a24a",
+    "timed_out": true
+  },
+  "status": "REFUTED_OR_OPEN",
+  "sympy": {
+    "basis_size": 9,
+    "buchberger_failures": [],
+    "buchberger_pairs": 36,
+    "input_reduction_failures": [],
+    "leading_monomials": [
+      [
+        13,
+        0
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        6,
+        10
+      ]
+    ],
+    "mutation": {
+      "buchberger_failures": 15,
+      "caught": true,
+      "input_reduction_failures": 6,
+      "operation": "DROP_LAST_BASIS_ELEMENT"
+    },
+    "pure_power_bounds": {
+      "y": 16,
+      "z": 13
+    },
+    "standard_monomial_count": 124
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "classification": "OPEN_VERIFICATION_INCOMPLETE",
+  "credited_independent_checks": {
+    "buchberger_failures": 0,
+    "buchberger_pairs": 36,
+    "dropped_basis_buchberger_failures": 15,
+    "dropped_basis_source_reduction_failures": 6,
+    "source_reduction_failures_sympy": 0,
+    "standard_monomial_count": 124,
+    "verifygb_singular": 1
+  },
+  "lift_input_sha256": "fedb11d4d02fd5e80f0645082848944a56304cb69bbff200e368ebb714b8c0e4",
+  "lift_result": "NO_RETURN_BEFORE_REGISTERED_TIMEOUT",
+  "lift_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "lift_stdout_sha256": "56eae949fe6899f4224ea4a9688dac43a3819843194fbda7ccdaf2f8f3f8a24a",
+  "maximum_conclusion": "NO_INDEPENDENT_EXACT_IDEAL_EQUALITY__NO_REAL_ROOT_CLASSIFICATION",
+  "not_credited": "SINGULAR_SOURCE_REDUCTION_COUNTER_DISPLAYED_ZERO_WITH_IS_SB_WARNINGS",
+  "processes_remaining_after_timeout": 0,
+  "production_process_result_sha256": "139b9789d31ba2ad903d8d770644d5483374ba9cc0f6dc2860f6ce67fd8cbb62",
+  "production_stdout_sha256": "a785441f0bb6fc5bb8f631861a84336660f8508e729780a6e40459868070479b",
+  "timeout_seconds": 1800,
+  "verification_result_sha256": "29d2871a3ba3255f06f8c7a14496654b9970a9d7d6fba712961dbfa330f0b762"
+}

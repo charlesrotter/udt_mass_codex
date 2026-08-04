@@ -198,6 +198,7 @@ def build_singular_source(inputs: list[sp.Poly], basis: list[sp.Poly]) -> Path:
         'int verified=system("verifyGB",G);',
         "verified;",
         'print("UDT_IND_VERIFYGB_END");',
+        'attrib(G,"isSB",1);',
         "int reduction_failures=0;",
         "for (int i=1; i<=size(I); i++) { if (reduce(I[i],G,1)!=0) { reduction_failures++; } }",
         'print("UDT_IND_INPUT_REDUCTIONS_BEGIN");',
@@ -309,9 +310,15 @@ def main() -> int:
         and singular_result.get("quotient_dimension") == "124"
         and singular_result.get("basis_size") == "9"
     )
+    if primary_pass:
+        status = "PASS_EXACT_INDEPENDENT_ALGEBRA_PENDING_COLD_REVIEW"
+    elif singular_result.get("timed_out"):
+        status = "OPEN_VERIFICATION_INCOMPLETE"
+    else:
+        status = "REFUTED_MACHINE_RETURN_OR_VERIFIER_ERROR"
     result = {
         "schema": "udt-c08-modular-independent-verification-1.0",
-        "status": "PASS_EXACT_INDEPENDENT_ALGEBRA_PENDING_COLD_REVIEW" if primary_pass else "REFUTED_OR_OPEN",
+        "status": status,
         "production_stdout_sha256": digest(stdout_path),
         "production_stderr_sha256": digest(stderr_path),
         "sympy": sympy_result,

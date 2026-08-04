@@ -1,0 +1,13 @@
+UDT_IND_VERIFYGB_BEGIN
+1
+UDT_IND_VERIFYGB_END
+// ** G is no standard basis
+// ** G is no standard basis
+// ** G is no standard basis
+// ** G is no standard basis
+// ** G is no standard basis
+// ** G is no standard basis
+UDT_IND_INPUT_REDUCTIONS_BEGIN
+0
+UDT_IND_INPUT_REDUCTIONS_END
+UDT_IND_LIFT_BEGIN
