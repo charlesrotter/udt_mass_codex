@@ -53,6 +53,7 @@ CURRENT_EVIDENCE = (
 )
 CURRENT_METHOD_INPUTS = (
     "run_c08_exact_linear_elimination.py",
+    "run_c08_exact_modular_groebner.py",
     "C08_LINEAR_ELIMINATION_CONSTRUCTION.json",
     "C08_LINEAR_A_12.txt",
     "C08_LINEAR_B_12.txt",
