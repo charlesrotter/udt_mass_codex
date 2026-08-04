@@ -2,12 +2,12 @@
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-04):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry →
-`udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
-machine ledgers, review closure and next step → the universal-query/native-law parents only when
-load-bearing. The current bounded result closes reciprocal composition as exact but nonselecting
-kinematics: it constrains free depth data but becomes an identity for endpoint potentials or a
-supplied additive cocycle. It supplies no metric-native residual, local/global law, action, source,
-carrier, boundary, bootstrap value, matter, or mass.
+[`SCIENTIFIC_ARC_CHECKPOINT.md`](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
+→ its mass authority map, Gröbner reconstruction, bankable/open ledger and overview/route map → the
+exact family or August 4 parent evidence only when load-bearing. The checkpoint reconnects the
+stability/mass-emergence and spacetime/configuration programs, prevents founded `phi` from regressing
+to an undefined placeholder, and grades the long C08 Gröbner work as an open bounded side
+certificate rather than a scientific no-go.
 
 
 This root is the control and navigation surface for the UDT research record.
@@ -15,9 +15,9 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
-the [reciprocal path-composition audit](udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md)
-and its named load-bearing evidence → the [basic-versus-universal-query audit](udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md) → the [native-law home/codomain/ownership audit](udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md) → the [query-bundle section/descent audit](udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md) → the [metric-natural split selector audit](udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md) → the [August 4 globalization audit](udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md) → the [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
-only when its details are needed → earlier frontier and selector evidence named by those files only
+the [scientific-arc recovery checkpoint](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
+and its named evidence → the [reciprocal path-composition audit](udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md), [native-law type audit](udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md), and [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
+only when their details are needed → earlier frontier and family evidence named by those files only
 when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`

@@ -4,6 +4,69 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
+## ============ CURRENT STATE (2026-08-04 — SCIENTIFIC ARC RECOVERED; STABILITY/MASS AND SPACETIME PROGRAM REJOINED; PREMISE DECISION NEXT) ============
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` → its
+`MASS_BRANCH_AUTHORITY_MAP.tsv`, `GROEBNER_PROGRAM_RECONSTRUCTION.md`,
+`BANKABLE_STRUCTURE_AND_OPEN_JOINTS.tsv`, and `OVERVIEW_AND_ROUTE_MAP.md`. Enter the current
+reciprocal-composition package or any older family only through that routing and only when
+load-bearing.
+
+**CURRENT HONEST SYNTHESIS:** the recent scientific arc began with the working stability hypothesis:
+continuous mass-bearing geometry might be pruned into persistent particle-like basins by stability.
+The record contains two distinct conditional geometry-only mass-bearing routes (`F01`,`F02`) and one
+separate carrier/action-conditional stable finite-box Hopf model (`F04`). There are three conditional
+realized-family rows, zero native stable-matter families, and no physical species count.
+
+Trying to join those branches correctly moved the work upstream to the spacetime/configuration law
+that would own realization, perturbations, source and global closure. That work banked a coherent
+factorized complete-coframe arena with reciprocal, angular, shear, mixing, causal, Cartan, projector
+and completion structure. It did not derive the law selecting complete physical histories.
+
+**FOUNDATIONAL CORRECTION:** `phi` is `DERIVED` as the additive logarithmic depth of the reciprocal
+clock/ruler pair, acting as `diag(exp(-phi),exp(+phi))`. It is not undefined or an independent native
+scalar. Physical observer/path assignment, realized profile, unique complete extension,
+globalization across strata, variation ownership and dynamics remain open.
+
+**GRÖBNER REGRADE:** the long C08 jobs addressed one bounded curvature-zero-set side certificate in
+one frozen stationary off-shell family. They were not the native action, source, mass-emergence or
+stability problem. Exact partial algebra survives; rational reverse containment, other charts and
+real-root classification remain `OPEN`. Runtime/RAM stops are engineering returns, never physics
+negatives. The program is paused because that side certificate is not presently load-bearing.
+
+**LATEST CENSUS RULING:** the August 4 skeleton/type/composition sequence made useful structural
+deductions and closed one nonselecting route. It must not be extended into more taxonomy by default.
+Reciprocal composition is exact kinematics and cannot generate dynamics on endpoint-potential
+depths. The missing table leg is now a metric-native realization/response/global-closure law—or an
+explicitly adopted minimal additional principle—not another definition of `phi` or pointwise
+uniqueness certificate.
+
+**NEXT PROPOSED BOUNDED DECISION — NOT YET LAUNCHED:** decide between a final bounded search for a
+metric-native covariant response on the full coframe/configuration domain and explicit consideration
+of the minimal global/local mutual-admissibility principle as a `WORKING POSIT`. A GR-principle
+survey may classify kinds of selector premises but may not import GR field equations. Do not launch
+another census, large elimination, density scan, time-live solve, or GPU work before this decision.
+
+**PREMISE STAMPS:** founded `phi`, reciprocal pair action and composition `DERIVED`; `c_E/G_obs`
+`OBSERVED`; complete coframe `DEFINED_CONFIGURATION_ARCHITECTURE`; branch-local metric splits
+`CONDITIONAL_REGULAR` with universal smooth uniqueness obstructed on retained round/degenerate
+strata; F01/F02 `CONDITIONAL_GEOMETRIC_MASS_BEARING`; F04
+`SETTLED_STATIC_FINITE_BOX_CONDITIONAL`; projector `L2/L4` bridge
+`OPEN_COHERENT_ARCHITECTURE_WITH_EXACT_CONDITIONAL_THEOREM`; bootstrap
+`WORKING_COHERENT_ARCHITECTURE_NOT_DERIVED_OPERATION`; `S2` carrier `POSIT`; strong local CSN
+inactive; complete native law, action, source, boundary, `X_max`, unconditional mass/matter and
+dynamics `OPEN`.
+
+**AUTHORITY BOUNDARY:** this checkpoint is documentary synthesis, not new physics. No postulate,
+action, source, carrier, boundary, branch, density, mass, species, `X_max`, dynamics, observational
+fit, GPU work, canonization or repository reorganization is adopted or authorized.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_COMPOSITION_BEGIN -->
+
+**⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
+**This topmost CURRENT STATE block overrides every older status description.**
 ## ============ CURRENT STATE (2026-08-04 — RECIPROCAL COMPOSITION ROUTE TERMINATED AS NONSELECTING; GLOBAL–LOCAL RETURN REMAINS OPEN) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
@@ -68,7 +131,7 @@ action, source, carrier, boundary functional, bootstrap
 equation, density, branch, `X_max`, matter/mass claim, dynamics, GPU work, canonization, or
 repository reorganization follows.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_COMPOSITION_END -->
 
 <!-- STARTUP_PRIOR_2026_08_04_GLOBALIZATION_BEGIN -->
 

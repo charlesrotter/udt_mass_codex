@@ -3,7 +3,25 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — RECIPROCAL COMPOSITION NONSELECTING; ROUTE TERMINATED:**
+**➤ CURRENT SCIENTIFIC CHECKPOINT — STABILITY/MASS AND SPACETIME ARCS RECOVERED:**
+Read `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md`, then its
+mass authority map, Gröbner reconstruction, bankable/open ledger, overview/route map and source
+manifest.
+
+The stability hypothesis led to two distinct conditional geometry-only mass-bearing routes (F01,
+F02) and one separate conditional stable finite-box Hopf model (F04). Joining them exposed the
+missing parent realization/persistence law and motivated the spacetime/configuration work. That
+work banked a coherent reciprocal/angular/mixing/global-completion arena but no native physical law.
+`phi` remains the derived additive log depth of the reciprocal pair; only its physical assignment,
+profile, full extension and dynamics are open.
+
+The C08 Gröbner program was a bounded curvature-zero-set certificate, not the action/source/mass
+problem. Its strong partial algebra and open reverse-containment/real-root gates survive. Compute
+duration has no scientific status. The next proposed decision is whether to make one final bounded
+full-coframe native-response search or explicitly consider global/local mutual admissibility as a
+working additional principle. No route is launched automatically.
+
+**➤ PARENT SCIENTIFIC FRONTIER — RECIPROCAL COMPOSITION NONSELECTING; ROUTE TERMINATED:**
 Read `udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
 derivation, candidate/implication/loop ledgers, source adjudication, review closure, four gates, lay
 report and next step.

@@ -32,8 +32,12 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md` — **the current
-   scientific frontier**. Then read its `EXACT_DERIVATION.md`, candidate, implication and loop
+4. `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` — the current
+   documentary scientific checkpoint. Then read its mass authority map, Gröbner reconstruction,
+   bankable/open ledger and overview/route map. This is the shortest authoritative route through
+   the stability/mass-emergence, spacetime, compute-time correction and founded-`phi` arcs.
+5. `udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md` — the latest bounded
+   derivation before the recovery checkpoint. Then read its `EXACT_DERIVATION.md`, candidate, implication and loop
    ledgers, source adjudication, review closure, four gates, and next step as needed. Read the
    universal-query, native-law type, section/descent, metric-natural selector, globalization and
    factorized-skeleton parents only when their architecture is load-bearing. The current audit
@@ -42,13 +46,13 @@ after the user's actual task makes them load-bearing.
    the route without a new source-backed depth or loop premise. The proposed global–local return-map
    decision audit is not automatically authorized; do not invent a return map or launch action,
    source, carrier, bootstrap, time-live, or GPU work.
-5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
+6. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
    historical context only).
-6. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):
+7. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):
    `UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md` (zero-context review navigation for the PRE-P4
    state) and `udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md` (the last pre-P4
    bounded result, still valid as banked evidence).
-7. `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
+8. `udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, `COMPLETENESS_MAP.md`,
    `BLOCK_PRESERVATION_CONDITIONS.tsv`, and `NEXT_STEP.md`. This parent bounded result says the
    full invertible angular screen has area and two metric shears plus local coframe-gauge rotation;
@@ -57,55 +61,55 @@ after the user's actual task makes them load-bearing.
    nonstationary first-jet release is not authorized automatically. Read the parent complete-screen
    branch atlas and historical-method salvage only when their branch census or provenance becomes
    load-bearing; no old particle/QCD claim is restored.
-8. `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
+9. `udt_metric_natural_joint_selector_nogo_2026-07-28/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `EXACT_DERIVATION.md`, `COMPLETENESS_MAP.md`, `LAY_REPORT.md`, and
    `NEXT_STEP.md`. This parent bounded result says full-frame additive scalar comparison and
    pointwise metric-only non-scalar selection are obstructed; the surviving type is reciprocal
    cocycle plus angular/coframe transport. Higher-jet/nonlocal/whole-solution routes remain open,
    so this is not a universal no-go. The proposed comparison-versus-realization ownership audit is
    not authorized automatically.
-9. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md` only when its fixed-tree census,
+10. `udt_joint_selector_provenance_audit_2026-07-28/AUDIT_REPORT.md` only when its fixed-tree census,
    three-gap decomposition, or stationary hybrid is load-bearing. Then read
    `udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md` only when its parent
    three-gap decomposition or complete nonultrastatic counterfamily becomes load-bearing. Read P03
    only when its frozen scoped result is load-bearing and apply the July 28 correction layer. Read
    P02/P01 only when their exact local-atlas or transport scope is required.
-10. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
+11. `udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`, then its
    `STATUS_LEDGER.tsv`, `BOOTSTRAP_ROUTE_LEDGER.tsv`, `EQUATION_FAMILY_GATE_MATRIX.tsv`,
    `COMPLETION_BOOTSTRAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `LAY_REPORT.md`, and
    `NEXT_STEP.md` only when its parent evidence is load-bearing. A simple screen tidal spectrum plus
    `det(T+a^2 I)=0` selects a conditional intrinsic clock-matched line, while parallelism, global
    descent, path-cocycle completion, and the native matter response remain separate open gates.
-11. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
+12. `udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md` only when the parent
    pointwise generator, screen-line, or path-cocycle premises become load-bearing.
-12. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
+13. The observer longitudinal/transverse cocycle, relational-depth, clock-operator,
    complete-metric separation, and `X_max` packages named by the frontier only when their exact
    path, bilocal, local-neutrality, or global-diameter premises become load-bearing.
-13. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
+14. `udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`, then its
    `CURRENT_STATUS_LEDGER.tsv`, `METRIC_TO_FRONTIER_MAP.tsv`, and `REGRESSION_GUARD_LEDGER.tsv`
    only when a prior complete-metric, bootstrap, or regression-guard claim is load-bearing. This
    is a prior evidence-linked routing layer, not authority over its cited evidence.
-14. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
+15. `udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md`, then its
    `CLAIM_DEPENDENCY_LEDGER.tsv` and `OPEN_JOIN_LEDGER.tsv`, then
    `REFERENCE_CORRECTION_LAYER.md`, `REVIEW_AGREEMENT_DISAGREEMENT.tsv`, and `PONDER_READOUT.md`.
    The frozen reference plus append-only cold-review layer is a prior dependency spine, not
    authority over its cited evidence.
-15. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
+16. `angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`, then
    `angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv` when the conditional global Hopf
    theorem is relevant.
-16. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
+17. `null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md` only when the exact reciprocal
    Hopf-orbit witness or its provenance becomes load-bearing, then
    `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` for the preceding carrier/topology
    classification only when that layer is relevant.
-17. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
+18. The exact scripts plus JSON/NPZ/log outputs load-bearing for the current return or task; none are
    part of generic startup orientation.
-18. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
+19. `stability_branch_follow_256_DECISION.md` when particle operator/stability history is relevant; it
    is durable lane evidence, not the global frontier.
-19. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
+20. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only; do not dump the
    whole charter at startup.
-20. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
+21. Only the specific full protocol under `.claude/skills/*/SKILL.md` triggered by the actual task;
    do not preload every skill.
-21. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
+22. The top/current summary in `INDEX.md` and `MEMORY.md`'s `TOP — CURRENT POINTER` for pointers only;
     neither can overrule `LIVE.md`.
 
 For the 1,114 fixed-base artifact identities, use

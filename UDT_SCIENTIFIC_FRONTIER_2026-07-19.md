@@ -4,6 +4,18 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 4 scientific-arc recovery precedence notice
+
+This long file is historical context, not the current checkpoint. Current orientation is
+`LIVE.md` → `HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
+`udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` and its mass,
+Gröbner, structure/open-joint and route maps.
+
+The recovery checkpoint reconnects the stability/mass-emergence and spacetime programs, preserves
+F01/F02/F04 as plural conditional families, restores the founded meaning of `phi`, and records that
+the C08 Gröbner program is an open bounded curvature side certificate rather than a closure or
+physics test. No new postulate, action, source, carrier, boundary, mass or dynamics follows.
+
 ## August 4 reciprocal path-composition precedence notice
 
 This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →

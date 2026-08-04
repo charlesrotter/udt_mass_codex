@@ -6,6 +6,52 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
 
+## CURRENT — scientific arc recovered; next decision is realization/response premise strategy
+
+**Fresh-entry path:**
+
+1. `LIVE.md` topmost current block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
+3. `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md`.
+4. Its mass authority map, Gröbner reconstruction, bankable/open ledger and overview/route map.
+5. Only then enter the exact family or August 4 parent package required by the task.
+
+**Recovered arc:** stability-as-discretizer led to plural conditional mass/energy-bearing branches;
+joining them exposed missing realization and persistence laws; the program moved upstream and mapped
+a coherent reciprocal/angular/mixing/global-completion spacetime arena. The C08 Gröbner work was one
+curvature-zero-set side certificate, not the full closure problem. Its incomplete resource returns
+are `OPEN`, not scientific negatives.
+
+**Do not regress `phi`:** it is the derived additive log depth of the reciprocal clock/ruler pair and
+acts as `diag(exp(-phi),exp(+phi))`. Its physical profile, observer/path assignment, full extension,
+globalization and dynamics remain open; its identity does not.
+
+**Mass/stability status:** F01 and F02 are distinct conditional geometry-only mass-bearing routes.
+F04 is a separate full-3D, carrier/action-conditional Hopf model with settled static finite-box
+stability. Three conditional realized-family rows exist; zero native stable-matter families and no
+species count are established.
+
+**Current missing table leg:** a metric-native realization/response/global-closure law on the
+complete configuration domain, or a separately adopted minimal principle that can generate and
+falsify such a law. The latest type/composition work localized this gap and terminated one
+nonselecting route; another census is not the default next move.
+
+**Next proposed, not launched:** a bounded decision between one final full-coframe native-response
+search and explicit consideration of global/local mutual admissibility as a `WORKING POSIT`, with
+GR principles used only to classify possible premise types. No large solve, density bracket,
+time-live/GPU work, action guess or physical adoption follows automatically.
+
+**Authority boundary:** no new physics was derived in this recovery checkpoint. Preserve every
+premise stamp and the 83 unrelated untracked paths unread and untouched.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_COMPOSITION_BEGIN -->
+
+> **READ `LIVE.md` FIRST.** It wins every disagreement.
+>
+> **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
+
 ## CURRENT — reciprocal composition is nonselecting; that derivation route is closed
 
 **Fresh-entry path:**
@@ -46,7 +92,7 @@ universal-query selection, local/global choice, complete native law, action, sou
 boundary functional, bootstrap equation, density, branch, `X_max`, mass/matter, dynamics, GPU work,
 canonization, or reorganization follows.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_COMPOSITION_END -->
 
 <!-- STARTUP_PRIOR_2026_08_04_GLOBALIZATION_BEGIN -->
 

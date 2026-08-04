@@ -1,0 +1,23 @@
+{
+  "catch_proofs": 6,
+  "checked_links": 43,
+  "checkpoint_status": "DOCUMENTARY_RECOVERY_VERIFIED_WITH_CAVEATS__NO_NEW_PHYSICS",
+  "conditional_realized_family_rows": 3,
+  "current_paths": 1114,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "mass_family_rows": 7,
+  "native_stable_matter_families": 0,
+  "premise_guards": 18,
+  "semantic_independence": "PENDING_FRESH_EXTERNAL_REVIEW",
+  "source_manifest_sha256": "beba7a6291fa6c69df27f4f8972ed919628bc4739ef45cf19c53782bd20954e5",
+  "source_paths": 52,
+  "startup_files_routed": 6,
+  "status": "PASS",
+  "structure_rows": 19,
+  "tests": "70 passed, 1 xfailed",
+  "unrelated_untracked_metadata_rows": 83
+}

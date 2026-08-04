@@ -4,7 +4,20 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, reciprocal composition route terminated)
+## TOP — CURRENT POINTER (2026-08-04, scientific arc recovered)
+
+Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
+`udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` and its four
+companion maps. It reconnects the stability/mass-emergence and spacetime arcs, records that F01/F02
+are distinct conditional geometry-only mass routes and F04 is a separate carrier-conditional stable
+finite-box Hopf model, and prevents the C08 resource returns from being mistaken for physics.
+
+Founded `phi` remains derived as reciprocal log depth; its physical assignment/profile/full
+extension are open. The missing joint is a native realization/response/global-closure law or an
+explicitly adopted minimal additional principle. Another taxonomy, long elimination, density scan,
+time-live solve or GPU run is not the default next step.
+
+## PRIOR TOP — CURRENT POINTER (2026-08-04, reciprocal composition route terminated)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
 block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
