@@ -4,24 +4,28 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, branch-local splits and round obstruction)
+## TOP — CURRENT POINTER (2026-08-04, query/spacetime/section law types separated)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
 block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
-`udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/` in its stated order. Use the
-August 4 globalization audit and factorized skeleton only when the supplied-split architecture is
+`udt_query_bundle_section_descent_audit_2026-08-04/` in its stated order. Use the split-selector,
+August 4 globalization audit and factorized skeleton only when their parent evidence is
 load-bearing.
 
-Current honest result: simple curvature spectrum and the registered intrinsic two-form nonzero
-loci derive branch-local reciprocal planes. The undecorated round `R x S3` control admits no unique
-metric-natural rank-two plane because spatial `SO(3)` has invariant projector ranks only
-`0,1,3,4`. The result is bounded to retained domains containing that control. At collisions, zeros,
-and causal/rank changes the output may be set-valued, stratified, or undefined.
+Current honest result: all eight open slots divide among exact typed observer-query laws, intrinsic
+spacetime objects, and pair-dependent objects requiring query semantics or a realized/branch-derived
+section. Covariant pair projectors do not descend merely because they transform correctly. Regular
+branch sections use the parent-metric chain rule; collision, zero, causal/tie and rank-change loci
+need an open stratified rule. No fiber average is supplied.
 
-The observer-pair query bundle has a tautological reciprocal plane but selects no natural spacetime
-section; smooth sections may exist. No physical branch or selector follows. Proposed next, not
-authorized: classify which open skeleton laws descend from the query bundle and which require a
-realized smooth or stratified section.
+No law home or physical architecture is selected. Proposed next, not authorized: test whether the
+founding postulates and complete metric architecture determine the native law's home, codomain and
+variation ownership, with an underdetermined result allowed.
+
+## PRIOR TOP — CURRENT POINTER (2026-08-04, branch-local splits and round obstruction)
+
+The metric-natural selector package remains the authority for branch-local positive selectors, the
+round-control obstruction and the collision/defect atlas. It selects no physical plane.
 
 ## PRIOR TOP — CURRENT POINTER (2026-08-04, conditional globalization and open split)
 

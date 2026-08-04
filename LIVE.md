@@ -4,54 +4,59 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
-## ============ CURRENT STATE (2026-08-04 — BRANCH-LOCAL RECIPROCAL SPLITS DERIVED; UNIVERSAL SMOOTH SPLIT OBSTRUCTED ON RETAINED ROUND DOMAIN) ============
+## ============ CURRENT STATE (2026-08-04 — QUERY/SPACETIME/SECTION LAW TYPES SEPARATED; NATIVE LAW HOME AND OWNERSHIP OPEN) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md` → its correction
-layer, exact derivation, selector outcomes, status/completeness ledgers, cold-review return and
-repair replay → the August 4 globalization audit and factorized skeleton only when their supplied
-`N,Q` architecture or open law slots are load-bearing.
+`udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
+object/law/variation/boundary/stratified ledgers, fresh adversarial review, four gates and next step →
+the metric-natural split selector, globalization audit and factorized skeleton only when their
+parent obstruction, supplied `N,Q` architecture, or open slots are load-bearing.
 
-**CURRENT HONEST RESULT:** the complete metric can derive a reciprocal clock/ruler plane on
-broken-symmetry strata, but no unique smooth metric-natural rank-two split exists on the retained
-domain containing the undecorated round `R x S3` control. Exact spatial `SO(3)` symmetry permits
-invariant projector ranks `0,1,3,4`, not rank two. This obstruction reaches every unique
-metric-natural local or nonlocal construction on that exact round metric; it is not a universal
-future no-go if a native law changes or decorates the domain.
+**CURRENT HONEST RESULT:** all eight open skeleton slots split into three honest mathematical homes.
+Founded reciprocal comparison and composition remain exact on typed observer-pair/path queries
+without one universal pair field. Ambient metric, Levi-Civita, curvature, causal and base-boundary
+objects already live on spacetime and do not require a reciprocal section. Screen/mixing response,
+pair-projected curvature, pair polarization and section-evaluated source/bootstrap data are
+pair-dependent and require an explicit query interpretation or a realized/branch-derived section.
 
-**POSITIVE BRANCH-LOCAL RESULTS:** a simple causal Ricci spectrum gives an exact equivariant
-rank-two polynomial projector. The squashed complete `S3` control realizes ultrastatic time plus an
-unoriented simple Ricci/Hopf line off shell. The intrinsic two-form supplies an exact rank-two
-kernel on six registered nonzero loci. These selectors lose uniqueness or fixed rank at the round
-collision, zero/defect graph, causal changes, or other tie strata; no branch is selected as physics.
+**EXACT DISTINCTION:** covariance is not descent. Two valid pair planes satisfy
+`P_02=R_12 P_01 R_12^-1` but `P_02!=P_01`; the same fixed ambient control gives screen readouts
+`(1,0)`, projected-curvature traces `(5,7)`, and vertical derivative `48/25`. The reciprocal
+character still composes before and after the pair reset. A query law can therefore be exact without
+being one tensor on the base spacetime.
 
-**ARCHITECTURE:** the total ordered observer-pair query bundle has a tautological reciprocal plane
-without selecting a natural spacetime section. Smooth sections may exist. A realized field, a
-branch-derived stratified split, and the query-bundle object are distinct architectures. First-jet
-`phi` supplies at most one line; second-jet completion is causal- and spectrum-conditional, while
-physical local/global `phi` assignment remains open.
+**STRATIFIED GATE:** regular branch-derived selectors vary by the parent-metric chain rule. At the
+registered round collision, intrinsic-form zero graph, null/zero `dphi`, causal changes, spectral
+ties and rank changes, no unique smooth fixed-rank derivative follows. Fiber aggregation remains
+open because no native measure, weight, normalization or convergence rule is supplied.
 
-**NEXT PROPOSED BOUNDED QUESTION — NOT YET AUTHORIZED:** classify which open whole-spacetime law
-slots can live equivariantly on the total query bundle and descend without a selected plane, and
-which genuinely require a realized smooth or stratified section `N`. Do not launch another selector
-hunt, action/source/carrier work, bootstrap fit, time-live solve, or GPU computation automatically.
+**SMALLEST OPEN JOINT:** UDT must determine the native law's home, codomain and ownership: a basic
+spacetime law, an equivariant observer-query law, a law evaluated on a realized/branch-derived
+reduction, or a consistent stratified combination. This is not a new postulate and none of these
+architectures is selected by the audit.
+
+**NEXT PROPOSED BOUNDED QUESTION — NOT YET AUTHORIZED:** test whether the two founding UDT
+postulates and complete metric architecture determine that law home/codomain/ownership. Retain every
+architecture and fail closed if current foundations do not decide. Do not reconstruct an action,
+source, carrier, boundary functional or bootstrap equation automatically.
 
 **PREMISE STAMPS:** founded reciprocal character and additive `phi` algebra `DERIVED`; physical
-`phi` assignment `OPEN`; query plane `DERIVED_CONTAINER_NO_NATURAL_SECTION`; simple-spectrum and
-intrinsic-form selectors `DERIVED_BRANCH_LOCAL`; realized universal split `NOT_DERIVED`; strong
-local CSN inactive; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; action,
-source, boundary, `X_max`, unconditional stability/mass/matter remain `OPEN` or retain prior
-conditional stamps.
+`phi` assignment `OPEN`; query plane `DERIVED_CONTAINER_NO_NATURAL_SECTION`; typed query composition
+`DERIVED_GIVEN_DEPTH`; ambient geometry `DEFINED_FROM_METRIC`; realized section `OPEN`;
+branch-derived selectors `CONDITIONAL_REGULAR`; stratified law `OPEN`; strong local CSN inactive;
+bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; action, source, boundary, `X_max`,
+unconditional stability/mass/matter remain `OPEN` or retain prior conditional stamps.
 
-**EVIDENCE:** preregistration/result commits `ae8afa98`/`1c49a77b`; 18 selector classes, 28 frozen
-sources, exact SymPy plus independent `Fraction` reconstruction of the algebraic core, 25 catches,
-and fresh `PASS_WITH_REQUIRED_REPAIRS` followed by `REPAIRS_ACCEPTED`. Package manifest has 42
-members, SHA-256 `f66152200369e8f1a9a398b7573af32997c778052b8708609b7eb19950dab6c5`.
+**EVIDENCE:** preregistration/result commits `ecd8fee3`/`f286afa5`; 8 law slots, 36 facets, 18 object
+classes, 26 exact SymPy plus 19 independent `Fraction` checks, 18 fail-closed catches, and fresh
+zero-context `PASS` with no repairs. Source-manifest SHA-256 is
+`20f62ea51e08a14fbf5a4a1ed8ebca54967db12971d33628d433b5e3df16b771`; the 48-member package
+manifest SHA-256 is `136d27366db3617a7bdb4e7d721b64128561539f048ba5ced71b1b01b5d7aee4`.
 Six frozen manifests/133 paths, 1,114 current paths, 101 frontier targets, tests `70 passed,
 1 xfailed`, and the 83 unrelated untracked metadata identities pass.
 
-**AUTHORITY BOUNDARY:** no physical split, global coframe, action, source, carrier, boundary,
-bootstrap equation, density value, `X_max`, matter/mass claim, dynamics, phenomenology, GPU work,
-canonization, or repository reorganization follows.
+**AUTHORITY BOUNDARY:** no law home, physical split, global coframe, action, source, carrier,
+boundary functional, bootstrap equation, density value, `X_max`, matter/mass claim, dynamics,
+phenomenology, GPU work, canonization, or repository reorganization follows.
 
 <!-- STARTUP_CURRENT_END -->
 

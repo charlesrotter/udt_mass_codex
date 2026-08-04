@@ -2,7 +2,19 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
 
-## Current scientific spine — August 4 selector atlas
+## Current scientific spine — August 4 section/descent atlas
+
+Read the [observer-pair query-bundle section/descent
+audit](../udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md), then its exact
+derivation, object/law/variation/boundary/stratified ledgers, fresh review, four gates and next step.
+It classifies all eight open skeleton slots: typed reciprocal comparison can remain a query law;
+ambient metric geometry can live directly on spacetime; projected screen/mixing/boundary response
+requires query semantics or a realized/branch-derived/stratified reduction. No architecture or
+physical law is selected.
+
+The proposed native-law home/codomain/ownership audit is not authorized automatically.
+
+## Parent scientific spine — August 4 selector atlas
 
 Read the [metric-natural reciprocal/screen split selector
 audit](../udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md), then its
@@ -12,7 +24,7 @@ obstructs one unique smooth metric-natural plane on the retained domain containi
 round control. The observer-query bundle has a tautological plane but selects no natural spacetime
 section; smooth sections may exist. No physical plane or downstream physics is selected.
 
-The proposed section-necessity/descent audit is not authorized automatically.
+That selector atlas is the parent evidence for the current section/descent result above.
 
 ## Parent scientific spine — August 4 globalization
 

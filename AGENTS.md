@@ -32,15 +32,15 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md` — **the current
-   scientific frontier**. Then read its `CORRECTION_LAYER.md`, `EXACT_DERIVATION.md`, selector and
-   status/completeness ledgers, cold review, repair replay, and verification result as needed. Read
-   the August 4 globalization audit and factorized whole-spacetime skeleton only when the supplied
-   `N,Q` architecture or open law slots are load-bearing. The selector audit derives branch-local
-   planes but obstructs one unique smooth plane on the retained domain containing the undecorated
-   round control. Query-bundle, branch-derived, and realized-field architectures remain distinct.
-   The proposed section-necessity/descent audit is not automatically authorized; do not choose a
-   physical plane or launch action, source, carrier, bootstrap, time-live, or GPU work.
+4. `udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md` — **the current scientific
+   frontier**. Then read its `EXACT_DERIVATION.md`, object/law/variation/boundary/stratified ledgers,
+   fresh adversarial review, four gates, and next step as needed. Read the metric-natural selector,
+   August 4 globalization audit and factorized whole-spacetime skeleton only when their parent
+   obstruction, supplied `N,Q` architecture or open slots are load-bearing. The current audit
+   separates section-free query kinematics, intrinsic spacetime geometry and section-dependent
+   projected response. It does not select the native law's home/codomain/ownership. The proposed
+   audit of that smallest type-level joint is not automatically authorized; do not choose an
+   architecture or launch action, source, carrier, bootstrap, time-live, or GPU work.
 5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
    historical context only).
 6. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):

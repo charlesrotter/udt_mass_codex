@@ -6,38 +6,40 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
 
-## CURRENT — branch-local reciprocal splits derived; universal smooth split obstructed on round control
+## CURRENT — query/spacetime/section law types separated; native law ownership open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
-3. `udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md`, then its
-   correction layer, exact derivation, selector/status/completeness tables, cold review, and replay.
-4. The August 4 globalization audit and factorized skeleton only when the supplied `N,Q`
-   architecture or open law slots are load-bearing.
+3. `udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md`, then its exact derivation,
+   five machine ledgers, fresh review, four gates, lay report, and next step.
+4. The metric-natural split selector, globalization audit and factorized skeleton only when their
+   parent obstruction or supplied-split architecture is load-bearing.
 
-**Current honest result:** the metric derives reciprocal planes on explicit simple-spectrum and
-intrinsic-form nonzero strata. It cannot derive one unique smooth plane across the retained domain
-containing the undecorated round `R x S3` control because its spatial `SO(3)` symmetry selects no
-ruler. At collisions, zeros, and causal/rank changes the natural output can be set-valued,
-stratified, or undefined. No branch is selected as physical.
+**Current honest result:** no universal reciprocal-plane section is required before every native
+law can exist. Typed reciprocal comparison composes on the observer-pair/path query bundle;
+ambient metric and curvature objects live directly on spacetime. Physical screen/mixing response,
+pair-projected curvature, pair polarization and section-evaluated source/bootstrap data remain
+query-dependent unless a realized or regular branch-derived section is supplied.
 
-The observer-pair query bundle's tautological plane is not a naturally selected spacetime section;
-smooth sections may exist. Query data, branch-derived splits, and realized fields must remain
-distinct.
+At collision, zero, causal-change, spectral-tie and rank-change strata, a regular selector does not
+supply one smooth fixed-rank derivative. A stratified law remains open. No fiber average is adopted;
+its measure, weight, normalization and convergence would have to be derived.
 
-**Next proposed, not authorized:** a CPU-only section-necessity/descent audit of the skeleton's open
-law slots. Determine which can remain query-bundle laws and which require a realized smooth or
-stratified `N`. No further work follows automatically.
+**Next proposed, not authorized:** determine whether the founding postulates and complete metric
+architecture select the native law's home/codomain/ownership among basic spacetime, equivariant
+query, realized/branch-derived, or stratified formulations. A valid result may be that the present
+foundation does not decide.
 
-**Evidence:** `ae8afa98`/`1c49a77b`; 18 classes, 28 sources, 25 catches, independent algebraic-core
-reconstruction, `PASS_WITH_REQUIRED_REPAIRS` then `REPAIRS_ACCEPTED`, package hash `f6615220…`,
-frozen 6/127/133, current paths 1,114, frontier targets 101, tests `70 passed, 1 xfailed`, and 83
-unrelated metadata-identical untracked paths.
+**Evidence:** `ecd8fee3`/`f286afa5`; 8 slots, 36 facets, 18 objects, 26 production plus 19 independent
+exact checks, 18 catches, fresh `PASS` with no repairs, source hash `20f62ea…`, package hash
+`136d2736…`, frozen 6/127/133, current paths 1,114, frontier targets 101, tests `70 passed,
+1 xfailed`, and 83 unrelated metadata-identical untracked paths.
 
-**Authority boundary:** no physical split, action, source, carrier, boundary, bootstrap equation,
-density, `X_max`, mass/matter, dynamics, GPU work, canonization, or reorganization follows.
+**Authority boundary:** no law home, physical split, action, source, carrier, boundary functional,
+bootstrap equation, density, `X_max`, mass/matter, dynamics, GPU work, canonization, or
+reorganization follows.
 
 <!-- STARTUP_CURRENT_END -->
 

@@ -4,6 +4,25 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 4 query-bundle section/descent precedence notice
+
+This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →
+`HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
+`udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md` and its exact evidence.
+
+The current bounded result classifies all eight open whole-spacetime slots. Founded reciprocal
+comparison and composition remain exact on typed observer-pair/path queries without one universal
+pair field. Ambient metric, Levi-Civita, curvature, causal and base-boundary objects already live on
+spacetime. Screen/mixing response, pair-projected curvature, pair polarization and
+section-evaluated source/bootstrap data require explicit query semantics or a realized/
+branch-derived section. Collision, zero, causal/tie and rank-change loci need an open stratified
+rule. No fiber measure or aggregation is supplied.
+
+The smallest open type-level joint is the native law's home, codomain and variation ownership. The
+proposed bounded audit of whether the founding postulates determine that joint is not authorized
+automatically. No architecture, section, action, source, carrier, boundary functional, bootstrap,
+`X_max`, matter, mass or dynamics is selected.
+
 ## August 2 intrinsic defect transport precedence notice
 
 This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →

@@ -3,23 +3,31 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — BRANCH-LOCAL RECIPROCAL SPLITS DERIVED; UNIVERSAL SMOOTH SPLIT OBSTRUCTED ON RETAINED ROUND DOMAIN:**
-Read `udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md`, then its
-correction layer, exact derivation, selector/status/completeness ledgers, cold review, and repair
-replay. The metric derives a rank-two reciprocal plane on simple-curvature and intrinsic-form
-nonzero strata. The undecorated round `R x S3` control forbids one unique natural clock/ruler plane:
-spatial `SO(3)` admits invariant projector ranks only `0,1,3,4`.
+**➤ CURRENT SCIENTIFIC FRONTIER — QUERY/SPACETIME/SECTION LAW TYPES SEPARATED; NATIVE LAW HOME AND OWNERSHIP OPEN:**
+Read `udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md`, then its exact derivation,
+object/law/variation/boundary/stratified ledgers, fresh review, four gates, lay report and next step.
 
-The obstruction covers unique local and nonlocal metric-natural constructions on that exact round
-control, not every possible future UDT domain. At the round collision, zero/defect graph, and
-causal/rank changes, the output can become set-valued, stratified, or undefined. The total
-observer-pair query bundle has a tautological plane but selects no natural spacetime section; smooth
-sections may exist. No physical branch or plane is selected.
+All eight open skeleton slots divide into distinct mathematical homes. Typed reciprocal comparison
+and path composition work on the observer-pair query bundle without one universal pair field.
+Ambient metric, Levi-Civita, curvature, causal and base-boundary objects already live on spacetime.
+Screen/mixing response, projected curvature, pair polarization and section-evaluated source or
+bootstrap data remain pair-dependent and need explicit query semantics or a realized/branch-derived
+section. Collision, zero, causal-change, tie and rank-change loci require an open stratified rule.
 
-Evidence commits `ae8afa98`/`1c49a77b`; 18 classes, 28 frozen sources, exact plus independent
-algebraic-core reconstruction, 25 catches, and fresh `PASS_WITH_REQUIRED_REPAIRS` then
-`REPAIRS_ACCEPTED`. Proposed next, not authorized: determine which open skeleton laws can descend
-from the query bundle and which require a realized smooth or stratified section.
+The exact reset control gives distinct rank-two projectors, screen readouts `(1,0)`, projected
+curvature `(5,7)` and vertical derivative `48/25`, while reciprocal composition remains exact.
+Covariance is therefore not basic descent. No fiber average is assumed.
+
+Evidence commits `ecd8fee3`/`f286afa5`; 8 slots, 36 facets, 18 objects, 26 production and 19
+independent exact checks, 18 catches, and fresh `PASS` with no repairs. The package hash is
+`136d27366db3617a7bdb4e7d721b64128561539f048ba5ced71b1b01b5d7aee4`. Proposed next, not
+authorized: test whether the founding postulates determine the native law's home, codomain and
+variation ownership; fail closed if they do not.
+
+**➤ PARENT SCIENTIFIC FRONTIER — BRANCH-LOCAL RECIPROCAL SPLITS DERIVED; UNIVERSAL SMOOTH SPLIT OBSTRUCTED ON RETAINED ROUND DOMAIN:**
+`udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/` remains the authority for the
+simple-spectrum and intrinsic-form branch-local selectors, the round-control obstruction, and the
+collision/defect atlas. No physical branch or plane is selected.
 
 **➤ PARENT SCIENTIFIC FRONTIER — WHOLE-SPACETIME SKELETON GLOBALIZED CONDITIONALLY AFTER SUPPLIED SPLIT:**
 Read `udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
