@@ -162,7 +162,27 @@ def sympy_checks(inputs: list[sp.Poly], basis: list[sp.Poly]) -> dict[str, objec
 
 
 def singular_expression(poly: sp.Poly) -> str:
-    return str(poly.as_expr()).replace("**", "^")
+    pieces: list[str] = []
+    for exponents, coefficient in poly.terms(order=ORDER):
+        coefficient = sp.Rational(coefficient)
+        sign = "-" if coefficient < 0 else "+"
+        magnitude = abs(coefficient)
+        factors = []
+        for variable, exponent in zip(("z", "y"), exponents):
+            if exponent == 1:
+                factors.append(variable)
+            elif exponent > 1:
+                factors.append(f"{variable}^{exponent}")
+        if magnitude == 1 and factors:
+            body = "*".join(factors)
+        else:
+            number = str(magnitude.p) if magnitude.q == 1 else f"{magnitude.p}/{magnitude.q}"
+            body = "*".join((number, *factors))
+        if not pieces:
+            pieces.append(body if sign == "+" else sign + body)
+        else:
+            pieces.append(sign + body)
+    return "".join(pieces) if pieces else "0"
 
 
 def build_singular_source(inputs: list[sp.Poly], basis: list[sp.Poly]) -> Path:

@@ -62,3 +62,13 @@ monomials such as `z13` and `z11y2`, while the independent SymPy parser initiall
 powers. The correction expands only this documented output syntax (`z13 -> z**13`,
 `z11y2 -> z**11*y**2`). Production hashes, equations, basis text, expected algebraic values, and
 acceptance gates remain unchanged. The failed invocation supplies no mathematical outcome.
+
+The second invocation completed the independent SymPy branch: 36/36 S-polynomial reductions and
+6/6 source reductions vanished, the leading ideal supplied 124 standard monomials, and dropping one
+basis element triggered 15 Buchberger plus six source-reduction failures. Its separate Singular
+input, however, serialized rational coefficients after monomials (`z^11/224`). Singular rejects
+that syntax, so `G` was undefined and the later displayed zero lift count was vacuous. The
+internal-error gate correctly rejected the run. The correction emits every rational coefficient
+first (`1/224*z^11`) without changing any polynomial. That failed Singular branch supplies no lift
+or ideal-containment outcome; the already completed SymPy observations remain provisional until the
+whole protocol passes.
