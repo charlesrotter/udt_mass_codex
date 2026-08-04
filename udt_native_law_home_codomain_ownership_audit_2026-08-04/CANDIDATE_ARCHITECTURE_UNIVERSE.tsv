@@ -1,0 +1,10 @@
+architecture_id	architecture	home	codomain	variation_posture	preregistered_disposition
+H01	BASIC_SPACETIME	base spacetime M	sections of a tensor/density bundle over M	ambient metric/coframe and declared base fields only	RETAIN_AND_TEST
+H02	EQUIVARIANT_QUERY	total observer-pair/path query bundle or groupoid P	query-equivariant sections or typed morphisms	query labels are arguments unless separately promoted	RETAIN_AND_TEST
+H03	REALIZED_REDUCTION	configuration pair (g,s) with physical section s:M->P	base and reduction Euler/response objects	independent delta_g and delta_s when ownership is supplied	RETAIN_AND_TEST
+H04	BRANCH_DERIVED_REDUCTION	regular solution branch with s=S[g]	composite base response evaluated on S[g]	delta_s=DS_g[delta_g] by chain rule; no independent delta_s	RETAIN_AND_TEST
+H05	STRATIFIED	stratified union of regular and singular homes	stratum-wise response plus open gluing/interface data	tangent/tangent-cone or interface-specific ownership	RETAIN_AND_TEST
+H06	FIBER_AGGREGATED	base spacetime after query-fiber integration or quotient	basic averaged/quotiented object	requires derived measure weight normalization convergence and meaning	RETAIN_AND_TEST_FAIL_CLOSED
+H07	LAYERED_HYBRID	multiple typed homes linked by pullback evaluation and readout maps	tuple or diagram of basic query and reduction outputs	owner remains attached to each layer	RETAIN_AND_TEST
+H08	OUTSIDE_CURRENT_UNIVERSE	unspecified	unspecified	unspecified	RETAIN_AS_NONEXHAUSTIVENESS_ESCAPE
+

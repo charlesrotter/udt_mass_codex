@@ -1,0 +1,22 @@
+catch_id	mutation_or_failure	required_detection
+X01	missing architecture row	exact H01-H08 universe fails
+X02	duplicate architecture row	unique architecture identity fails
+X03	equivariant query object relabeled basic	basicness/equivariance distinction fails
+X04	query label varied without realized-field premise	variation ownership fails
+X05	branch-derived reduction omits DS_g chain term	chain-rule identity fails
+X06	singular stratum assigned unique smooth fixed-rank derivative	stratified gate fails
+X07	fiber aggregation accepted without measure weight normalization convergence meaning	aggregation gate fails
+X08	SNe readout slots collapsed	four-slot codomain gate fails
+X09	SNe anchor selects one mathematical home	anchor nonselection gate fails
+X10	proper pair distance identified with areal or optical distance	readout typing gate fails
+X11	conditional WR-L branch promoted universal	premise-scope gate fails
+X12	strong local CSN activated	premise registry gate fails
+X13	action source carrier or bootstrap equation promoted	physics authority gate fails
+X14	observationally equivalent readouts treated as identical law homes	home/readout distinction fails
+X15	H08 escape removed while claiming exhaustive classification	nonexhaustiveness gate fails
+X16	layered outputs lose their per-layer variation owners	layer ownership gate fails
+X17	physical phi assignment marked derived	premise regression gate fails
+X18	ambient Levi-Civita definition called native dynamics	definition/equation distinction fails
+X19	current open source or boundary law marked selected	open-status gate fails
+X20	independent verifier imports production module	independence gate fails
+
