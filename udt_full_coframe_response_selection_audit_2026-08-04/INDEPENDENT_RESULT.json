@@ -1,0 +1,14 @@
+{
+  "checks": 51,
+  "coframe_rank": 10,
+  "dimension_ranks": [
+    2,
+    3
+  ],
+  "fR_shape_determinant": "-384",
+  "failed": [],
+  "implementation": "python_standard_library_fraction_no_sympy_no_production_import",
+  "lorentz_kernel_rank": 6,
+  "query_rank": 9,
+  "status": "PASS"
+}

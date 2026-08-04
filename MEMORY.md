@@ -4,7 +4,21 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, scientific arc recovered)
+## TOP — CURRENT POINTER (2026-08-04, full-coframe response selection remains open)
+
+Read `LIVE.md`, `HANDOFF.md`, the current premise registry, the scientific-arc recovery checkpoint,
+then `udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md` and its exact evidence.
+
+The full coframe spans all ten symmetric metric directions with a six-dimensional Lorentz gauge
+kernel. Every ambient symmetric metric response pulls back injectively, so the whole coframe
+preserves the plurality of candidate metric laws rather than selecting one. Founded `phi` is a
+derived direction but not a parent-response selector. F01/F02/F04 remain conditional and separate.
+
+The next epistemic choice is whether Charles adopts minimal global/local mutual admissibility as a
+falsifiable `WORKING POSIT`. It is not already a derived bootstrap operation. Do not restart
+taxonomy or launch long elimination, density, time-live or GPU work automatically.
+
+## PRIOR TOP — CURRENT POINTER (2026-08-04, scientific arc recovered)
 
 Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
 `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` and its four

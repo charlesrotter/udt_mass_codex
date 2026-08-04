@@ -1,0 +1,26 @@
+{
+  "cG_curvature_scale_augmented_rank": 3,
+  "cG_curvature_scale_coefficient_rank": 2,
+  "checks": 63,
+  "coframe_gauge_kernel_dimension": 6,
+  "coframe_metric_tangent_rank": 10,
+  "constant_curvature_fR_coefficients_n0_to_n6": {
+    "0": "-1/2",
+    "1": "-R/4",
+    "2": "0",
+    "3": "R**3/4",
+    "4": "R**4/2",
+    "5": "3*R**5/4",
+    "6": "R**6"
+  },
+  "fR_shape_control_determinant": "-384",
+  "failed": [],
+  "founded_anisotropic_direction_response": "2",
+  "founded_volume_direction_response": "0",
+  "maximum_conclusion": "EXACT_ALGEBRA_CONTROLS_ONLY__SELECTION_REQUIRES_SOURCE_ADJUDICATION",
+  "metric_response_pullback_rank": 10,
+  "status": "PASS",
+  "sympy_version": "1.13.1",
+  "universal_query_nullity": 1,
+  "universal_query_rank": 9
+}

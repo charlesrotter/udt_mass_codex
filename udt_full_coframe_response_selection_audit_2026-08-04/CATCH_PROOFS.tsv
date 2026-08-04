@@ -1,0 +1,24 @@
+falsifier_id	target	result
+F01	founded phi	CAUGHT
+F02	constructible versus forced	CAUGHT
+F03	zero control	CAUGHT
+F04	class premise	CAUGHT
+F05	query home	CAUGHT
+F06	strata	CAUGHT
+F07	boundary	CAUGHT
+F08	family promotion	CAUGHT
+F09	exhaustiveness	CAUGHT
+F10	compute-time science	CAUGHT
+F11	unauthorized closure	CAUGHT
+F12	new-versus-prior provenance	CAUGHT
+R01_SOURCE_SEMANTICS	fresh-review semantic repair extension	CAUGHT
+R02_CARRIER_PREMISE	fresh-review semantic repair extension	CAUGHT
+R03_FINITE_CELL_PREMISE	fresh-review semantic repair extension	CAUGHT
+R04_SNE_PREMISE	fresh-review semantic repair extension	CAUGHT
+R05_OPERATOR_HOME	fresh-review semantic repair extension	CAUGHT
+R06_P4_PROVENANCE	fresh-review semantic repair extension	CAUGHT
+R07_EH_PROSE	fresh-review semantic repair extension	CAUGHT
+R08_BACH_PROSE	fresh-review semantic repair extension	CAUGHT
+R09_BOOTSTRAP_PROSE	fresh-review semantic repair extension	CAUGHT
+R10_CARRIER_PROSE	fresh-review semantic repair extension	CAUGHT
+R11_MASS_PROSE	fresh-review semantic repair extension	CAUGHT

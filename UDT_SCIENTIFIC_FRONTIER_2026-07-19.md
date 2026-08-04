@@ -4,6 +4,20 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 4 full-coframe response-selection precedence notice
+
+This long file is historical context, not the current checkpoint. Current orientation is
+`LIVE.md` → `HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` → the scientific-arc recovery
+checkpoint → `udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md` and its exact
+evidence.
+
+The complete coframe spans all ten metric tangents with six Lorentz presentation-gauge directions,
+and every ambient symmetric metric response pulls back injectively. It therefore preserves, rather
+than selects among, plural response laws. Founded `phi`, universal queries, composition, covariance
+and observational calibration do not close the selection. F01/F02/F04 retain their conditional
+statuses. The next decision is whether to adopt global/local mutual admissibility as a falsifiable
+`WORKING POSIT`; nothing is adopted automatically.
+
 ## August 4 scientific-arc recovery precedence notice
 
 This long file is historical context, not the current checkpoint. Current orientation is

@@ -1,0 +1,4 @@
+python3 udt_full_coframe_response_selection_audit_2026-08-04/derive_response_selection.py
+python3 udt_full_coframe_response_selection_audit_2026-08-04/independent_verify.py
+python3 udt_full_coframe_response_selection_audit_2026-08-04/verify_audit.py
+python3 -m pytest -q tests

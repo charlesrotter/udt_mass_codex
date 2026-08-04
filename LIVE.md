@@ -4,6 +4,68 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
+## ============ CURRENT STATE (2026-08-04 — FULL-COFRAME RESPONSE SEARCH FINDS PLURALITY, NOT SELECTION; GLOBAL/LOCAL PREMISE DECISION NEXT) ============
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` and its four
+route/authority maps → `udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md`,
+then its exact derivation, ledgers, completeness map, verifier and fresh review. Enter F01/F02/F04
+or the July 29 P4 response packages only through those routes and only when load-bearing.
+
+**CURRENT HONEST RESULT:** the final bounded current-premise Route-A search does not select a native
+response. The complete coframe maps onto all ten symmetric metric tangents, with exactly six local
+Lorentz presentation-gauge directions in its kernel. Every symmetric ambient metric response pulls
+back injectively to the coframe. Restoring the whole coframe therefore preserves the plurality of
+possible metric laws rather than choosing one.
+
+Founded `phi` remains the derived reciprocal log-depth direction. It is invisible to a pure volume
+response but visible to an anisotropic response; it sharpens response components but does not
+choose their parent functional or create an independent eleventh field equation. Covariant
+variational responses remain inequivalent, universal observer queries leave one metric-line
+ambiguity, and `c_E/G_obs` calibrate units without selecting the missing curvature coefficient.
+
+**BOUNDED VERDICT:**
+`AVAILABLE_PLURAL_RESPONSES__NO_FOUNDATIONAL_SELECTION`. This is not an impossibility theorem and
+not a statement that no law exists. It says that the active foundation, source-backed operator
+classes and corrected full-coframe architecture do not choose derivative order, coefficient
+structure, query quantifier, boundary completion, or global/local relation.
+
+**MASS/STABILITY CONSEQUENCE:** F01 and F02 remain distinct conditional geometry-only mass-bearing
+routes. F04 remains the separate carrier/action-conditional static finite-box Hopf result. The
+full-coframe theorem supplies a clean bridge into the older response arena but selects no member;
+there are still three conditional realized-family rows, zero native stable-matter families and no
+species count.
+
+**NEXT EPISTEMIC DECISION — NOT ADOPTED AUTOMATICALLY:** decide whether to adopt minimal global/local
+mutual admissibility as a falsifiable `WORKING POSIT`. That decision could authorize construction
+and attempted refutation of explicit return relations; it would not derive any formula, optimizer,
+density value, action, source or unique universe. Do not restart response taxonomy, long
+elimination, density scans, time-live solves, or GPU work by default.
+
+**PREMISE STAMPS:** founded `phi`, reciprocal pair action and composition `DERIVED`; `c_E/G_obs`
+`OBSERVED`; complete coframe `DEFINED_CONFIGURATION_ARCHITECTURE`; maximal metric/coframe tangent
+`CHOSE_AUDIT_DOMAIN` because physical variation ownership remains open; F01/F02
+`CONDITIONAL_GEOMETRIC_MASS_BEARING`; F04 `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`; EH
+`CONDITIONAL_NOT_SELECTED`; C2/Bach `UNIQUE_CONDITIONAL` only in inactive pre-scale strong-CSN;
+bootstrap `WORKING_COHERENT_ARCHITECTURE_NOT_DERIVED_OPERATION`; `S2` carrier `POSIT`; complete
+native law, action, source, boundary, `X_max`, unconditional mass/matter and dynamics `OPEN`.
+
+**AUTHORITY BOUNDARY:** no postulate, response, action, source, carrier, boundary, branch, density,
+mass, species, `X_max`, dynamics, observational fit, GPU work, canonization or repository
+reorganization is adopted or authorized by this result.
+
+**EVIDENCE:** preregistration commit `d2430c81`; primary exact algebra `63/63`; independent
+standard-library algebra `51/51`; 23 exercised fail-closed catches. The first review failure and
+second repair failure are preserved; the final fresh `gpt-5.4` closure is
+`PASS_WITH_CAVEATS`/`NO_BLOCKING_ERROR`. Six frozen manifests/127 members/133 paths, 1,114 current
+paths, 101 frontier targets, tests `70 passed, 1 xfailed`, and the 83 unrelated untracked metadata
+identities pass. Use the package `VERIFICATION_RESULT.json` for the final source-manifest hash.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_RECOVERY_BEGIN -->
+
+**⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
+**This topmost CURRENT STATE block overrides every older status description.**
 ## ============ CURRENT STATE (2026-08-04 — SCIENTIFIC ARC RECOVERED; STABILITY/MASS AND SPACETIME PROGRAM REJOINED; PREMISE DECISION NEXT) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` → its
@@ -63,7 +125,7 @@ dynamics `OPEN`.
 action, source, carrier, boundary, branch, density, mass, species, `X_max`, dynamics, observational
 fit, GPU work, canonization or repository reorganization is adopted or authorized.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_RECOVERY_END -->
 
 <!-- STARTUP_PRIOR_2026_08_04_COMPOSITION_BEGIN -->
 

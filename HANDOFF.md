@@ -6,6 +6,57 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
 
+## CURRENT — full coframe preserves plural responses; selection premise remains open
+
+**Fresh-entry path:**
+
+1. `LIVE.md` topmost current block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
+3. `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` and its four
+   companion maps for the complete mass/stability→spacetime→Gröbner history.
+4. `udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
+   derivation, class and branch ledgers, completeness map, verifier and fresh adversarial review.
+5. Enter the July 29 P4 response stages or F01/F02/F04 evidence only when the current audit routes
+   to a load-bearing detail.
+
+**Result:** the full coframe carries all ten metric directions and has the expected six-dimensional
+local Lorentz gauge kernel. Pullback of symmetric ambient metric responses is injective. Thus the
+coframe faithfully represents possible metric laws; it does not choose one. Founded `phi` is a
+derived coframe direction, not an extra independent field and not a response selector.
+
+**Bounded class ruling:** zero, volume, EH, C2/Bach, higher-invariant, query, regular-reduction,
+holonomy, boundary and global/local response classes remain distinguishable. Covariance,
+variationality, observer queries, founded composition and calibration do not collapse them to one
+native law. The verdict is `AVAILABLE_PLURAL_RESPONSES__NO_FOUNDATIONAL_SELECTION`, not a universal
+no-go.
+
+**Mass/stability status:** F01/F02 remain conditional geometry-only mass-bearing routes; F04 remains
+the separate carrier/action-conditional finite-box Hopf result. No family, response, carrier,
+source, boundary, physical mass or species is promoted.
+
+**Next decision:** Charles may explicitly adopt minimal global/local mutual admissibility as a
+falsifiable `WORKING POSIT`, or leave it open. It is not already a derived operation. Do not repeat
+response taxonomy or launch a long solve, density scan, time-live/GPU work, action guess or
+physical adoption automatically.
+
+**Authority boundary:** the maximal coframe tangent was a chosen audit domain, not a derived
+physical variation law. Preserve every premise stamp and the 83 unrelated untracked paths unread
+and untouched.
+
+**Evidence:** preregistration `d2430c81`; exact checks `63/63` plus independent `51/51`; 23 mutation
+catches; preserved initial and repair failures followed by final fresh
+`PASS_WITH_CAVEATS`/`NO_BLOCKING_ERROR`; frozen `6/127/133`; current paths 1,114; frontier targets
+101; tests `70 passed, 1 xfailed`; unrelated metadata 83. The final source hash is in the package
+verification result.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_RECOVERY_BEGIN -->
+
+> **READ `LIVE.md` FIRST.** It wins every disagreement.
+>
+> **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
+
 ## CURRENT — scientific arc recovered; next decision is realization/response premise strategy
 
 **Fresh-entry path:**
@@ -45,7 +96,7 @@ time-live/GPU work, action guess or physical adoption follows automatically.
 **Authority boundary:** no new physics was derived in this recovery checkpoint. Preserve every
 premise stamp and the 83 unrelated untracked paths unread and untouched.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_RECOVERY_END -->
 
 <!-- STARTUP_PRIOR_2026_08_04_COMPOSITION_BEGIN -->
 

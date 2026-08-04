@@ -1,0 +1,23 @@
+{
+  "artifact_level_catch_proofs": 23,
+  "bounded_outcome": "AVAILABLE_PLURAL_RESPONSES__NO_FOUNDATIONAL_SELECTION",
+  "branch_rows": 7,
+  "checked_links": 45,
+  "current_paths": 1114,
+  "fresh_review": "INITIAL_FAIL_PRESERVED__REPAIR_CLOSURE_PASS_WITH_CAVEATS",
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "independent_exact_checks": 51,
+  "operator_classes": 11,
+  "premise_guards": 18,
+  "premise_rows": 18,
+  "primary_exact_checks": 63,
+  "source_manifest_sha256": "7624c31bb6d6c15f9fce7d4cdd1000cc9304a8d2ab5749ee7b2a67b58090044c",
+  "source_paths": 37,
+  "status": "PASS",
+  "tests": "70 passed, 1 xfailed",
+  "unrelated_untracked_metadata_rows": 83
+}

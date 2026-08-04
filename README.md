@@ -3,11 +3,12 @@
 **⚠ CURRENT ORIENTATION SPINE (2026-08-04):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry →
 [`SCIENTIFIC_ARC_CHECKPOINT.md`](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
-→ its mass authority map, Gröbner reconstruction, bankable/open ledger and overview/route map → the
-exact family or August 4 parent evidence only when load-bearing. The checkpoint reconnects the
-stability/mass-emergence and spacetime/configuration programs, prevents founded `phi` from regressing
-to an undefined placeholder, and grades the long C08 Gröbner work as an open bounded side
-certificate rather than a scientific no-go.
+and its four route/authority maps → the
+[`full-coframe response-selection audit`](udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md)
+→ exact family evidence only when load-bearing. The recovery checkpoint preserves the complete
+stability/mass→spacetime→Gröbner story. The current audit adds that the complete coframe faithfully
+carries every ambient metric response but does not select one; minimal global/local mutual
+admissibility is the next explicit premise decision, not an already derived operation.
 
 
 This root is the control and navigation surface for the UDT research record.
@@ -16,7 +17,7 @@ order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
 the [scientific-arc recovery checkpoint](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
-and its named evidence → the [reciprocal path-composition audit](udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md), [native-law type audit](udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md), and [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
+and its named evidence → the [full-coframe response-selection audit](udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md) → the [reciprocal path-composition audit](udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md), [native-law type audit](udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md), and [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
 only when their details are needed → earlier frontier and family evidence named by those files only
 when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →

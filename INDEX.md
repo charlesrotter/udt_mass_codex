@@ -3,10 +3,11 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC CHECKPOINT — STABILITY/MASS AND SPACETIME ARCS RECOVERED:**
-Read `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md`, then its
-mass authority map, Gröbner reconstruction, bankable/open ledger, overview/route map and source
-manifest.
+**➤ CURRENT SCIENTIFIC CHECKPOINT — FULL COFRAME PRESERVES PLURAL RESPONSES; SELECTION REMAINS OPEN:**
+Read `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` and its four
+companion maps for the complete recovered arc, then
+`udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md` and its exact derivation,
+class/branch ledgers, completeness map, verifier and fresh review.
 
 P4 first produced two distinct conditional geometry-only mass-bearing routes (F01, F02) through its
 inverse-response program. The later stability-as-discretizer ponder reinterpreted them together with
@@ -18,9 +19,14 @@ profile, full extension and dynamics are open.
 
 The C08 Gröbner program was a bounded curvature-zero-set certificate, not the action/source/mass
 problem. Its strong partial algebra and open reverse-containment/real-root gates survive. Compute
-duration has no scientific status. The next proposed decision is whether to make one final bounded
-full-coframe native-response search or explicitly consider global/local mutual admissibility as a
-working additional principle. No route is launched automatically.
+duration has no scientific status.
+
+The final bounded full-coframe response search is now complete. The coframe spans all ten metric
+tangents with six Lorentz gauge directions, and ambient symmetric responses pull back injectively.
+Founded `phi`, covariance, observer queries, composition and `c_E/G_obs` calibration constrain or
+resolve components but select no parent response. F01/F02/F04 remain conditional and separate. The
+next distinct choice is whether to adopt global/local mutual admissibility as a falsifiable
+`WORKING POSIT`; no route is launched automatically.
 
 **➤ PARENT SCIENTIFIC FRONTIER — RECIPROCAL COMPOSITION NONSELECTING; ROUTE TERMINATED:**
 Read `udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
