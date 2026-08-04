@@ -2,6 +2,22 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
 
+## Current scientific spine — August 4
+
+Read the [extension-bundle globalization and variation-domain
+audit](../udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md), then its
+exact derivation, globalization architecture, machine ledgers, adversarial correction/replay, and
+verification result. Read the [factorized whole-spacetime
+skeleton](../udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md) only
+when its local object graph or open law slots are load-bearing.
+
+The bounded result is a coherent local configuration skeleton and a conditional global bundle
+realization after smooth reciprocal/screen bundles `N,Q` are supplied. It does not derive that
+split, select a global coframe, or supply an action, source, carrier, boundary, bootstrap closure,
+matter, or mass. The current authorized task is a preregistered CPU-only metric-natural selector
+census retaining universal, branch-local, symmetric, degenerate, set-valued, and rank-changing
+cases. No preferred plane or follow-on physics is authorized automatically.
+
 ## Current foundational correction — July 26
 
 Founded `phi` is the derived additive logarithmic depth of the reciprocal clock/ruler pair; an
@@ -11,7 +27,7 @@ angular/mixing extension and variation domain remain open. Strong local CSN is c
 derived and inactive unless Charles explicitly reauthorizes it; `c_E` and `G_obs` remain observed
 anchors. See the [DOF correction layer](../udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md).
 
-## Current scientific spine — August 1
+## Prior scientific spine — August 1
 
 Read the [P4 arc summary](../P4_ARC_SUMMARY_2026-07-31.md), then the
 [linear-time roadmap](../ROADMAP_LINEAR_TIME_2026-07-31.md), [in-flight resume

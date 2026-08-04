@@ -4,7 +4,29 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-02, intrinsic defect transport)
+## TOP — CURRENT POINTER (2026-08-04, conditional globalization and open split)
+
+**LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
+block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
+`udt_extension_bundle_globalization_variation_audit_2026-08-04/` in the order routed there. Read
+the factorized whole-spacetime skeleton only when its local object graph or open law slots are
+load-bearing.
+
+Current honest result: the founded reciprocal pair plus three screen-metric and four mixing chart
+directions forms a coherent local configuration skeleton. Conditional on smooth rank-two
+reciprocal/screen bundles `N,Q` over the total pair-frame query bundle—or a supplied spacetime
+split—the screen metric and `Hom(N,Q)` mixing globalize without a global coframe and add no separate
+existence obstruction. The split, realized reciprocal field, global physical `phi`, topology and
+boundary glue, variation ownership, native law, source, carrier, bootstrap closure, matter, and mass
+remain open.
+
+The current bounded next action is a preregistered CPU-only metric-natural selector census retaining
+zero-jet, curvature/derivative, `phi`-jet, Killing/symmetry, holonomy, intrinsic-form, query,
+whole-branch, symmetric, degenerate, and rank-changing cases. It characterizes universal and
+branch-local possibilities; it does not authorize selecting a plane or launching action, source,
+carrier, boundary, time-live, or GPU work.
+
+## PRIOR TOP — CURRENT POINTER (2026-08-02, intrinsic defect transport)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
 block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and

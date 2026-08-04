@@ -1,9 +1,31 @@
-# INDEX — Repo Map (2026-08-02 lean)
+# INDEX — Repo Map (2026-08-04 lean)
 
-**⚠ BRANCH: `grok` (2026-08-02)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — DEFECT TRANSPORT MAPPED; LINE MONODROMY TRIVIAL, CLOCK/LINE CURVATURE SURVIVES:**
+**➤ CURRENT SCIENTIFIC FRONTIER — WHOLE-SPACETIME SKELETON GLOBALIZED CONDITIONALLY; PHYSICAL RECIPROCAL SPLIT OPEN:**
+Read `udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
+derivation, architecture, ledgers, adversarial correction/replay, and verifier. Read
+`udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md` only when the local
+object graph, seven extension chart directions, or open law slots are load-bearing.
+
+The founded reciprocal pair plus three screen-metric and four mixing chart directions forms a
+coherent local configuration skeleton. Once smooth rank-two reciprocal/screen bundles `N,Q` are
+supplied over the total pair-frame query bundle—or by a spacetime split—the positive screen metric
+and `Hom(N,Q)` mixing data globalize without one global coframe. Their fibers add no independent
+existence obstruction. This does not derive the split, select zero mixing, or supply a native law.
+
+The fresh adversary required six corrections, all replay-accepted: generic ambient `GL(4)` overlaps
+do not preserve the triangular chart; noncontractible loops may have odd reciprocal `Z2` monodromy;
+mixing is `Hom(N,Q)`; stratum-crossing tangents are ambient rather than fixed-rank-tile tangents; and
+the banking gate is fail-closed. Evidence commits are `5399d850`/`d3bd68da`; 26 symbolic, 16
+independent rational, and 18 catch checks pass.
+
+Current authorized work: a preregistered CPU-only metric-natural reciprocal/screen selector census,
+retaining all symmetric, curvature/derivative, `phi`, Killing, holonomy, intrinsic-form, query,
+whole-branch, degenerate, and rank-changing classes. It must characterize, not target, one plane.
+
+**➤ PARENT SCIENTIFIC FRONTIER — DEFECT TRANSPORT MAPPED; LINE MONODROMY TRIVIAL, CLOCK/LINE CURVATURE SURVIVES:**
 Read `udt_intrinsic_defect_transport_atlas_2026-08-02/AUDIT_REPORT.md`, then its lay report, exact
 derivation, object/status tables, cold review, four gates, and next step. Consult the intrinsic
 two-form parent only when its line/defect construction is load-bearing.
@@ -457,33 +479,37 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
-3. **`P4_ARC_SUMMARY_2026-07-31.md`** (the current arc's package index + rulings + open questions),
-   then `udt_p4_timelive_map_2026-07-31/TIME_LIVE_MAP.md` (the pending next step)
-4. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through its top/current overlay only (pre-P4 overlay)
-5. **`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`**,
+3. **`CURRENT_SCIENTIFIC_PREMISES.md`** and **`CURRENT_SCIENTIFIC_PREMISES.tsv`**
+4. **`udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md`**, its exact
+   derivation, architecture, ledgers, adversarial correction/replay, and verification result
+5. **`udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md`** and its
+   machine ledgers only when the current task needs the local object graph or open law slots
+6. **`P4_ARC_SUMMARY_2026-07-31.md`** only when the stability/action parent arc is load-bearing
+7. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through its top overlay only as pre-P4 history
+8. **`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`DEPENDENCY_ARCHITECTURE.tsv`**, **`LAY_REPORT.md`**, and
    **`NEXT_STEP.md`**
-6. **`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`** only when its
+9. **`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`** only when its
    parent screen-projector, density-response, equation-family, or completion evidence is
    load-bearing
-7. **`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`** only when its
+10. **`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`** only when its
    pointwise generator, screen-line, or path-cocycle premises are load-bearing
-8. The observer cocycle, relational-depth, clock-operator, complete-metric separation, and
+11. The observer cocycle, relational-depth, clock-operator, complete-metric separation, and
    `X_max` packages named by the frontier only when their exact path/bilocal/diameter premises are
    load-bearing
-9. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
+12. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
    status, metric-to-frontier, and regression-guard ledgers
-10. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`** and the other
+13. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`** and the other
    bootstrap/boundary source packages named by the current frontier only when lineage is
    load-bearing
-11. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+14. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
-12. The exact frozen evidence named by that frontier only for the active question
-13. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
-14. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
-15. Only the task-triggered protocol under **`.claude/skills/`**
-16. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
-17. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+15. The exact frozen evidence named by the active task only
+16. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+17. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+18. Only the task-triggered protocol under **`.claude/skills/`**
+19. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+20. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 

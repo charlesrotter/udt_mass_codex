@@ -1,13 +1,14 @@
 # UDT repository
 
-**⚠ CURRENT ORIENTATION SPINE (2026-08-02):** `LIVE.md` topmost block → `HANDOFF.md` current
+**⚠ CURRENT ORIENTATION SPINE (2026-08-04):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry →
-`udt_intrinsic_general_screen_neighborhood_audit_2026-08-02/AUDIT_REPORT.md` → its lay report,
-exact derivation, result atlas, scope clarification, review closure, four gates, and next step →
-the prior intrinsic-contact and all-gate reciprocal witnesses only when load-bearing. The current
-bounded result is coexistence of the metric-derived reciprocal projector, all three angular screen
-modes, and an independent nonzero depth/area response on explicit stationary complete branches.
-It selects no screen, equation, carrier, action, source, bootstrap value, matter, or mass.
+`udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md` → its exact
+derivation, globalization architecture, ledgers, adversarial correction/replay, and verification
+result → `udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md` only
+when its local object graph or open law slots are load-bearing. The current bounded result is a
+coherent local whole-spacetime configuration skeleton and a conditional global bundle realization
+once smooth reciprocal/screen bundles are supplied. The metric-natural selection of that split
+remains open. No action, source, carrier, boundary, bootstrap value, matter, or mass is selected.
 
 
 This root is the control and navigation surface for the UDT research record.
@@ -15,11 +16,10 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
-[`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md) →
-the [foundational semantic correction](udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md) →
-the [external-AI review brief](UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md) →
-the [pre-P4 higher-isometry reciprocal-plane audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md) →
-exact evidence named by those files only when required by the active task → the targeted `CLAUDE.md`
+the [August 4 globalization audit](udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md)
+and its named load-bearing evidence → the [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
+only when its details are needed → earlier frontier and selector evidence named by those files only
+when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
 `MEMORY.md` top/current pointer. `AGENTS.md`
 supplies operational instructions and binding research discipline, but it
@@ -31,6 +31,12 @@ varied scalar remains a chosen comparison control. The generic `F4[6]` metric qu
 count, not the native UDT field or mode count. Strong local CSN is challenged/not-derived and
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
+
+The next bounded scientific task is a preregistered CPU-only census of whether the complete metric
+itself supplies the reciprocal/screen split assumed by the conditional globalization result. It
+must retain universal, branch-local, symmetric, degenerate, set-valued, and rank-changing cases; it
+does not authorize choosing a preferred plane or beginning action, source, carrier, bootstrap,
+time-live, or GPU work.
 
 The last pre-P4 result is the [higher-isometry reciprocal-plane ownership
 audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md). Universal unique-plane

@@ -4,9 +4,58 @@
 
 > **READ `LIVE.md` FIRST.** It wins every disagreement.
 >
+> **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
+
+## CURRENT — whole-spacetime skeleton globalized conditionally; physical reciprocal split open
+
+**Fresh-entry path:**
+
+1. `LIVE.md` topmost current block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+3. `udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md`, then
+   `EXACT_DERIVATION.md`, `GLOBALIZATION_ARCHITECTURE.md`, the four TSV ledgers, adversarial
+   correction/replay, and `VERIFICATION_RESULT.json`.
+4. `udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md` and its object,
+   symbol, identity/law, open-slot, and reduction tables only when those details are load-bearing.
+5. The August 2 intrinsic two-form/defect packages and earlier selector audits only when a candidate
+   route requires their bounded evidence.
+
+**Current honest result:** the founded reciprocal pair and the complete local coframe extension form
+a coherent configuration skeleton. After smooth reciprocal/screen bundles `N,Q` are supplied over
+the total query bundle—or by a spacetime split—the screen metric and mixing data globalize without
+a global coframe. Their fibers add no independent existence obstruction. The split itself, global
+physical `phi`, topology/boundary glue, variation ownership, and native law remain open.
+
+**Critical corrections:** generic `GL(4)` overlaps do not preserve the triangular `3+4` chart;
+tensor-level transition laws require the supplied split. Odd `Z2` monodromy may survive on
+noncontractible loops. The abstract reversal algebra is not a selected physical seam.
+
+**Next authorized action:** preregister and perform the bounded CPU-only metric-natural
+reciprocal/screen selector audit. Retain zero-jet, curvature-jet, `phi`-jet, Killing/symmetry,
+holonomy, intrinsic-form, query, whole-branch, symmetric, degenerate, and rank-changing classes.
+Classify rather than demand one preferred plane. Stop before action, source, carrier, boundary,
+bootstrap selection, physics labels, time-live work, or GPU work.
+
+**Evidence:** `fcbdb6c6`, `abe1046c`/`2ee25d9f`, and `5399d850`/`d3bd68da`. Latest gates:
+26 symbolic, 16 independent rational, 18 catches, cold review plus accepted repair replay, six frozen
+manifests/133 paths, 1,114 current paths, 101 frontier targets, and tests `70 passed, 1 xfailed`.
+The 83 unrelated untracked curvature-atlas paths remain untouched.
+
+**Authority boundary:** no new premise, global coframe, field section, selector, action, source,
+carrier, density/bootstrap equation, boundary, `X_max`, matter/mass claim, canonization,
+reorganization, GPU work, or time-live solve follows.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_02_BEGIN -->
+
+> **READ `LIVE.md` FIRST.** It wins every disagreement.
+>
 > **⚠ BRANCH: `grok` (2026-08-02).** Synchronize it before orientation.
 
-## CURRENT — defect transport mapped; line monodromy trivial, clock/line curvature survives
+## PRIOR — defect transport mapped; line monodromy trivial, clock/line curvature survives
+
+**Historical checkpoint only. The topmost CURRENT block above supersedes this block.**
 
 **Fresh-entry path:**
 
@@ -47,7 +96,7 @@ scan, carrier/section, substrate interpretation, action/source, bootstrap closur
 matter/mass claim, canonization, reorganization, GPU/time-live work, or external transmission
 follows.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_02_END -->
 
 ## PRIOR CURRENT — F02 global completion gate narrowed
 

@@ -2,10 +2,74 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
+**⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
+**This topmost CURRENT STATE block overrides every older status description.**
+## ============ CURRENT STATE (2026-08-04 — WHOLE-SPACETIME SKELETON GLOBALIZED CONDITIONALLY; PHYSICAL RECIPROCAL SPLIT OPEN) ============
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md` → its exact
+derivation, architecture, ledgers, adversarial correction/replay, and verification result →
+`udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md` only when the
+local object graph or open law slots are load-bearing.
+
+**CURRENT HONEST RESULT:** the founded reciprocal pair plus the complete angular/mixing extension
+forms a coherent local whole-spacetime configuration skeleton. The local extension has three
+screen-metric and four base-screen mixing chart directions; these are chart directions, not seven
+propagating modes. No unique complete lift, variation law, action, source, carrier, boundary, or
+physical branch is thereby selected.
+
+The extension globalizes without one global coframe after smooth rank-two bundles `N,Q` are
+supplied over the **total** pair-frame query bundle—or after a supplied spacetime split `TM=N+Q`.
+The remaining data are `h in SPD(Q*)` and `sigma in Hom(N,Q)`. Those fibers add no independent
+existence obstruction; this does not derive the split or select zero mixing or a screen metric.
+
+**ADVERSARIAL CORRECTIONS:** arbitrary ambient `GL(4)` overlaps do not preserve one triangular
+`3+4` chart; the global statement uses the induced tensor transitions after a split is supplied.
+Identity-required reciprocal cocycle products have even reversal parity, but noncontractible loops
+may carry odd `Z2` monodromy. The physical reversal lift remains conditional. A stratum-crossing
+path may be tangent in an ambient configuration space but is not tangent within the smooth
+fixed-rank tile.
+
+**WHAT REMAINS OPEN:** whether the complete metric itself supplies a smooth reciprocal/screen split;
+whether the reciprocal object is query data, a realized field, or branch-derived; the global
+physical `phi` assignment; completion topology and boundary glue; rank-changing atlases; variation
+ownership; native action, source, carrier, bootstrap law, dynamics, mass, and matter.
+
+**NEXT AUTHORIZED BOUNDED ACTION — PREREGISTRATION IN PROGRESS:** perform a CPU-only,
+solution-space-preserving metric-natural selector audit. Census zero-jet, curvature/derivative,
+`phi`-jet, symmetry/Killing, holonomy, intrinsic-form, query-bundle, and whole-branch routes. Test
+whether any selector is universal, branch-local, degenerate, set-valued, or obstructed. Do not
+target a preferred plane or discard symmetric/defect branches. The prior global `Omega_E`/finite-loop
+task remains open evidence work but is no longer the next frontier.
+
+**PREMISE STAMPS:** founded reciprocal character and additive composition `DERIVED`; founded `phi`
+algebraic meaning `DERIVED` while physical local/global assignment remains `OPEN`; pair-frame query
+bundle `DERIVED_CONTAINER_NO_SECTION`; local `3+4` extension `DERIVED_CHART_CLASS`; global screen
+metric/mixing existence after supplied `N,Q` `DERIVED_STANDARD_BUNDLE_FACT`; realized reciprocal
+field/split `OPEN`; channel reversal algebra `DERIVED` with physical lift `CONDITIONAL`; strong local
+CSN inactive; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; action, source,
+boundary, `X_max`, unconditional stability/mass/matter `OPEN` or retain their prior conditional stamps.
+
+**EVIDENCE:** objectives audit `fcbdb6c6`; factorized-skeleton preregistration/result
+`abe1046c`/`2ee25d9f`; globalization preregistration/result `5399d850`/`d3bd68da`. The latest package
+passes 26 exact SymPy checks, 16 independent rational checks, 18 fail-closed catches, fresh
+`ACCEPT_WITH_REQUIRED_REPAIRS`, and `REPAIRS_ACCEPTED`. Six frozen manifests/133 paths, 1,114
+current paths, 101 frontier targets, premise guards, and tests `70 passed, 1 xfailed` pass. The 83
+unrelated curvature-atlas paths remain untracked and metadata-identical.
+
+**AUTHORITY BOUNDARY:** no new postulate or physics was adopted. No global coframe, reciprocal field,
+preferred plane, topology, action, source, carrier, boundary, density value, bootstrap theorem,
+matter/mass claim, GPU/time-live solve, canonization, or repository reorganization follows.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_02_BEGIN -->
+
 **⚠ BRANCH: work is on `grok` (2026-08-02).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 
-## ============ CURRENT STATE (2026-08-02 — DEFECT TRANSPORT MAPPED; LINE MONODROMY TRIVIAL, CLOCK/LINE CURVATURE SURVIVES) ============
+## ============ PRIOR STATE (2026-08-02 — DEFECT TRANSPORT MAPPED; LINE MONODROMY TRIVIAL, CLOCK/LINE CURVATURE SURVIVES) ============
+
+**Historical checkpoint only. The topmost CURRENT STATE block above supersedes this block.**
 
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_intrinsic_defect_transport_atlas_2026-08-02/AUDIT_REPORT.md` → its lay report, exact
@@ -71,7 +135,7 @@ no carrier, Hopf section, substrate, preferred branch, action, source, boundary,
 return, matter/mass claim, GPU/time-live work, canonization, repository reorganization, or follow-on
 derivation is authorized by this block.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_02_END -->
 
 ## PRIOR CURRENT — F02 global completion gate narrowed; transition/join data open
 

@@ -309,7 +309,7 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 ## Orientation
 
-- **⚠ WORK IS ON THE `grok` BRANCH (as of 2026-07-31).** If the working tree isn't on grok, `git checkout grok`.
+- **⚠ WORK IS ON THE `grok` BRANCH (as of 2026-08-04).** If the working tree isn't on grok, `git checkout grok`.
   LIVE.md / HANDOFF.md / MEMORY.md / INDEX.md **on grok** are the current orientation; `main` is stale for this arc.
 - **`LIVE.md` (on grok) IS THE FIRST READ — the only guaranteed-current file** (frontier + next action). If
   anything else disagrees with it, LIVE.md wins. Follow the bounded startup order in **`AGENTS.md`**:
