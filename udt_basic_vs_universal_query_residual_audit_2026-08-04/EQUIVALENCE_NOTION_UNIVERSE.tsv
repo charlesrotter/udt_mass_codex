@@ -1,0 +1,8 @@
+equivalence_id	notion	exact_question
+E01	OPERATOR_BASIC_DESCENT	Is L(g,q) itself the pullback of one object on M and vertically invariant/horizontal where applicable?
+E02	SOLUTION_SET_DESCENT	Does forall q L(g,q)=0 define an observer-independent subset of metric configurations?
+E03	FINITE_LOCAL_TENSOR_REDUCTION	Is the universal family equivalent to finitely many local tensor/coefficient equations on M?
+E04	FINITE_JET_NATURAL_REDUCTION	Can the family be represented by a natural relation using only a bounded metric jet?
+E05	LINEARIZED_VARIATION_EQUIVALENCE	Does the replacement preserve the tangent/linearized constraints at every retained solution stratum?
+E06	GLOBAL_METRIC_RELATION_REDUCTION	Is the family equivalent to a section-free relation on complete metrics even if not finite-local?
+E07	BOUNDARY_STRATIFIED_EQUIVALENCE	Are boundary and singular/interface owners preserved rather than erased by the replacement?

@@ -1,0 +1,23 @@
+catch_id	must_reject
+C01	missing registered equivalence notion
+C02	duplicate registered equivalence notion
+C03	missing registered residual class
+C04	duplicate registered residual class
+C05	operator nonbasicness mislabeled as failure of solution-set descent
+C06	observer-independent zero set mislabeled as operator basicness
+C07	finite local reduction asserted from solution-set invariance alone
+C08	equal zero sets accepted despite unequal registered tangent constraints
+C09	query argument varied as a physical field
+C10	realized observer section introduced
+C11	fiber measure or averaging introduced
+C12	local curvature jets used to decide global holonomy control
+C13	global quotient control promoted to UDT topology
+C14	singular strata assigned one smooth tangent without proof
+C15	boundary query polarization collapsed into base-boundary geometry
+C16	SNe used to select residual or quantifier
+C17	strong local CSN activated
+C18	action source carrier bootstrap equation or X_max introduced
+C19	finite algebra control promoted to physical law
+C20	outside-current-universe class omitted from bounded completeness claim
+C21	universal query strictness over one scalar confused with irreducibility to any base tensor system
+C22	zero-set scalarization presented as variation-equivalent without a rank test

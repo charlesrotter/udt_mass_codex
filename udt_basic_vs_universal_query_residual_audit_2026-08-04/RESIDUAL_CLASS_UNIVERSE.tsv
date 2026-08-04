@@ -1,0 +1,9 @@
+residual_id	class	home	query_scope	mandatory_retained_issue
+R01	ZERO_JET_METRIC_QUERY	observer-pair fiber over one event	all regular observer/ruler pairs	metric isotropy and transitivity do not supply dynamics
+R02	LOCAL_ALGEBRAIC_TENSOR_QUERY	observer-pair fiber with metric-derived tensors	all regular pairs	coefficient extraction versus one scalar contraction
+R03	FINITE_JET_SMOOTH_QUERY	query bundle with bounded metric jets	all regular pairs	possibly infinite smooth fiber data versus finite natural tensor data
+R04	GLOBAL_PATH_GROUPOID_QUERY	observer/path groupoid of complete metric	all declared paths or loops	global holonomy/topology can evade local jets
+R05	REGULAR_METRIC_DERIVED_REDUCTION	regular selector branch	all branch-defined queries	parent-metric chain rule
+R06	SINGULAR_STRATIFIED_QUERY	collision zero null causal tie Jordan complex rank defect strata	all members or declared set-valued rule	no unique smooth reduction or tangent owner
+R07	BOUNDARY_QUERY	base/query/reduction boundary	all declared boundary queries	base boundary versus pair polarization and gluing
+R08	OUTSIDE_CURRENT_UNIVERSE	unclassified	unclassified	nonexhaustiveness escape retained
