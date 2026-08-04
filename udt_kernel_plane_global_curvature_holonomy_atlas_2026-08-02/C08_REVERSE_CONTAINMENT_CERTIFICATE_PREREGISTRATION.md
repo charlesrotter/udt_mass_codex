@@ -127,3 +127,29 @@ review under the repository's load-bearing standard.
 
 It cannot establish any real root, physical admissibility, global C08 classification, branch
 selection, charge, carrier, action, source, boundary, bootstrap law, mass, matter, or dynamics.
+
+## Pre-production module-exactness implementation correction
+
+The first unrelated toy invocation opened no C08 polynomial. It established that the installed
+`modstd.lib` routes a commutative module supplied to `modStd(M,1)` through
+`finalTest_std_comm`, whose terminal `system("verifyGB",result)` accepts ideals only. Singular
+therefore aborted with `expected system("verifyGB",<ideal>,..)` and returned no toy module basis.
+This is an installed-library type-dispatch limitation, not an algebraic result.
+
+The corrected production contract may use `modStd(M,0)` only as an **untrusted coefficient search**.
+It is not a probability-level certificate and no claim may depend on its reported standard-basis
+status. A returned tagged vector is credited only through the deterministic identity
+
+```text
+P_k - sum_i T_ik I_i = 0
+```
+
+expanded exactly over `QQ[z,y]`. A final reverse-containment result is credited only if the saved
+matrix `C` separately satisfies all nine identities `G_j-sum_i C_ij I_i=0` by exact rational
+expansion in both production and the independent sparse verifier. Those identities directly prove
+membership and do not rely on trusting the modular module basis. Failure to obtain or verify them
+returns OPEN.
+
+The same `(dp,C)` ordering remains the sole candidate ordering. It must pass the original toy
+projection, tag-identity, low-degree-lift, and mutation gates under this corrected distinction before
+any C08 tagged-module input is opened. No alternative ordering or automatic fallback is authorized.
