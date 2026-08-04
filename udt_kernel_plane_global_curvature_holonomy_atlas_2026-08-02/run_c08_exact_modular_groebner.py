@@ -20,9 +20,14 @@ ROOT = HERE.parent
 SINGULAR_ROOT = Path("/tmp/udt_singular_local")
 SINGULAR = SINGULAR_ROOT / "usr/bin/Singular"
 SINGULAR_LIB = SINGULAR_ROOT / "usr/lib/x86_64-linux-gnu"
-POLY_KERNEL = (
-    SINGULAR_ROOT
-    / "usr/libexec/x86_64-linux-gnu/singular/MOD/p_Procs_FieldIndep.so"
+POLY_KERNELS = tuple(
+    SINGULAR_ROOT / "usr/libexec/x86_64-linux-gnu/singular/MOD" / name
+    for name in (
+        "p_Procs_FieldGeneral.so",
+        "p_Procs_FieldIndep.so",
+        "p_Procs_FieldQ.so",
+        "p_Procs_FieldZp.so",
+    )
 )
 LABELS = ("12", "13", "23")
 EXPECTED_SOURCE_COUNT = 131
@@ -50,7 +55,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 def singular_environment() -> dict[str, str]:
     environment = dict(os.environ)
     environment["LD_LIBRARY_PATH"] = str(SINGULAR_LIB)
-    environment["LD_PRELOAD"] = str(POLY_KERNEL)
+    environment["LD_PRELOAD"] = ":".join(map(str, POLY_KERNELS))
     return environment
 
 
@@ -85,19 +90,22 @@ def committed_clean(path: Path) -> str:
 
 
 def smoke_test() -> dict[str, object]:
-    assert SINGULAR.is_file() and POLY_KERNEL.is_file()
+    assert SINGULAR.is_file() and all(path.is_file() for path in POLY_KERNELS)
     source = (
         'LIB "modstd.lib";\n'
         "ring r=0,(x,y),dp;\n"
         "ideal I=x2+y,y2+x;\n"
         "ideal G=modStd(I,1);\n"
         'int verified=system("verifyGB",G);\n'
-        'if (verified!=1) { ERROR("toy exact modular verification failed"); }\n'
+        "int reduction_failures=0;\n"
+        "for (int i=1; i<=size(I); i++) { if (reduce(I[i],G,1)!=0) { reduction_failures++; } }\n"
+        'print("UDT_TOY_VERIFYGB_BEGIN"); verified; print("UDT_TOY_VERIFYGB_END");\n'
+        'print("UDT_TOY_REDUCTIONS_BEGIN"); reduction_failures; print("UDT_TOY_REDUCTIONS_END");\n'
         'print("UDT_EXACT_MODULAR_OPTIMIZED_KERNEL_SMOKE_PASS");\n'
         "quit;\n"
     )
     completed = subprocess.run(
-        [str(SINGULAR), "-q", "--no-rc", "--cpus=4", "--threads=1", "--flint-threads=1"],
+        [str(SINGULAR), "-q", "--no-rc", "--allow-net", "--cpus=4", "--threads=1", "--flint-threads=1"],
         input=source, text=True, capture_output=True,
         env=singular_environment(), check=False,
     )
@@ -109,11 +117,14 @@ def smoke_test() -> dict[str, object]:
     assert completed.returncode == 0
     assert "UDT_EXACT_MODULAR_OPTIMIZED_KERNEL_SMOKE_PASS" in completed.stdout
     assert "Could not find dynamic library" not in combined
+    assert "? ERROR" not in combined and "error occurred" not in combined
+    assert marker_value(completed.stdout, "TOY_VERIFYGB") == "1"
+    assert marker_value(completed.stdout, "TOY_REDUCTIONS") == "0"
     return {
         "returncode": completed.returncode,
         "stdout_sha256": digest(stdout_path),
         "stderr_sha256": digest(stderr_path),
-        "optimized_kernel_sha256": digest(POLY_KERNEL),
+        "optimized_kernel_sha256": {path.name: digest(path) for path in POLY_KERNELS},
         "status": "PASS_WARNING_FREE_EXACT_MODULAR_OPTIMIZED_KERNEL",
     }
 
@@ -274,7 +285,7 @@ def supervise() -> int:
     monitor_path = HERE / "C08_MODULAR_RESOURCE_MONITOR.tsv"
     result_path = HERE / "C08_MODULAR_PROCESS_RESULT.json"
     command = [
-        str(SINGULAR), "-q", "--no-rc", "--cpus=4", "--threads=1",
+        str(SINGULAR), "-q", "--no-rc", "--allow-net", "--cpus=4", "--threads=1",
         "--flint-threads=1",
     ]
     start_wall = time.monotonic()

@@ -56,6 +56,21 @@ The optimized `p_Procs_FieldIndep.so` module must be preloaded. A warning-free s
 unrelated toy ideal must pass before the production input is opened. This is a Category-A
 implementation correction; it does not change the ideal.
 
+### Pre-production smoke-gate correction
+
+No C08 production run had launched when the first toy smoke exposed two implementation facts. The
+parallel modular library communicates between local worker processes, so the run must permit
+localhost worker sockets. Its prime-field children also request `p_Procs_FieldGeneral.so`,
+`p_Procs_FieldQ.so`, and `p_Procs_FieldZp.so` in addition to `p_Procs_FieldIndep.so`. The final gate
+therefore preloads all four shipped optimized polynomial modules and launches Singular with local
+worker communication enabled.
+
+The first toy script also demonstrated that Singular can continue after an internal task error and
+print a later success marker. The final smoke gate must consequently require all of: no internal
+error text, no missing-library warning, `verifyGB=1`, zero exact input-reduction failures, and the
+terminal pass marker. The failed restricted-sandbox toy run did not open the C08 production input
+and carries no algebraic outcome.
+
 The algebraic choices are solver choices, not physics premises:
 
 - `QQ` coefficients: `pinned-by-THEORY`, inherited exact polynomial domain;
