@@ -1,0 +1,13 @@
+{
+  "catch_proofs": 12,
+  "checks_passed": 21,
+  "independent_stdout_sha256": "2e23a444636d9be2a4a850251816837e2d6ca097864ed7e3e6d5130d35bb74db",
+  "mutations_caught": 12,
+  "primary_stdout_sha256": "c8c3aa9e0d76384b7f1bc01f2fe0b911265ac2ae2af166bcb28d4a9d51c457e2",
+  "review_verdict": "PASS_WITH_CAVEATS_NO_BLOCKING_ERROR",
+  "repository_gates_stdout_sha256": "c7f9c5eb22d05d9afa37fc796392c6d36451d4012a7216c3ba1afde934a69978",
+  "schema": "udt.global_local_reconstruction.verification_result.v1",
+  "source_adjudication_sha256": "e46a5271b924155df8ffdc4dccd6f99b4ffc364b05cd33faa67156c1ffc871a7",
+  "status": "PASS",
+  "verifier_stdout_sha256": "a4782f660711c82e3cf2434a68605555d8c762b138440f05dd0b340325c757c8"
+}

@@ -35,5 +35,12 @@ Maxwell-like geometry currently gives only the conditional toric identities `F=d
 finite-box and carrier-conditional; and complete native action, source, boundary charge, and mass
 remain open.
 
+Charles has now explicitly retained global/local mutual admissibility as a falsifiable `WORKING
+POSIT`. The August 4 reconstruction audit gives it a relational mathematical home and verifies one
+metric-native partial component: global completion data change legal local join fibers. Ordinary
+descent, reconstruction, and free readout remain nonselecting, so the complete interior return,
+physical readout, response, density closure, and dynamics remain `OPEN`. Do not promote the posit
+into a scalar optimizer, objective, local equation, or derived complete bootstrap law.
+
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

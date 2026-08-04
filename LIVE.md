@@ -4,6 +4,75 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
+## ============ CURRENT STATE (2026-08-04 — BOOTSTRAP POSIT FORMALIZED; PARTIAL KINEMATIC JOIN DERIVED; COMPLETE RETURN OPEN) ============
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md` → its reconstruction
+architecture, exact derivation, operation/requirement ledgers, verifier, review and closure →
+`udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` and the
+full-coframe response-selection parent only when the recovered mass/stability arc or response
+nonselection theorem is load-bearing.
+
+**CURRENT HONEST RESULT:** Charles has explicitly retained global/local mutual admissibility as a
+falsifiable `WORKING POSIT`: the whole geometry must admit its local structures, and those same
+structures must belong to one complete configuration that reconstructs the same whole. Its least
+committal mathematical home is a possibly multibranch correspondence
+`K subset GlobalData x CompleteConfigurations`, closed against the same-solution readout graph.
+This type comes from the working posit; it is not a newly derived physical equation.
+
+The metric supplies one genuine partial component. Registered monodromy, seam and conditional cap
+completion data change the legal local endpoint/joint fibers. All eight exact monodromy graphs are
+distinct, but 12 of their 28 pairs share a nonzero endpoint line and the zero endpoint belongs to
+all eight, so local joint data do not generally identify one unique global completion.
+
+**NONSELECTION RESULT:** ordinary restriction, descent, cover refinement and reconstruction return
+every admitted complete configuration. In two independent exact cover controls the descent space
+retains all four global degrees of freedom; adding a free two-component readout graph has rank four
+and nullity four. The same readout and observer-exchange symmetry also admit inequivalent
+nontrivial relations. Therefore reconstruction/readout/symmetry do not derive the missing interior
+return.
+
+**BOUNDED VERDICT:**
+`DERIVED_PARTIAL_KINEMATIC_ADMISSIBILITY_CORRESPONDENCE__WORKING_POSIT_REQUIRES_BUT_DOES_NOT_DERIVE_COMPLETE_RETURN`.
+This is a real sharpening of the August 1 partial-return result, not a complete bootstrap law or an
+impossibility theorem.
+
+**MASS/STABILITY CONSEQUENCE:** unchanged. F01/F02 remain distinct conditional geometry-only
+mass-bearing routes. F04 remains the separate carrier/action-conditional static finite-box Hopf
+result. No native stable-matter family, physical source, mass or species is selected.
+
+**NEXT BOUNDED CANDIDATE — NOT LAUNCHED AUTOMATICALLY:** test whether metric-native global
+extension/solvability promotes the partial join correspondence into a relation on complete coframe
+interiors. First map whether this would require a parent native response and therefore be circular.
+Do not substitute an action, scalar optimizer, density objective, unique completion, long solve,
+time-live/GPU work or observational fit.
+
+**PREMISE STAMPS:** founded `phi`, reciprocal pair action and composition `DERIVED`; `c_E/G_obs`
+`OBSERVED`; complete coframe `DEFINED_CONFIGURATION_ARCHITECTURE`; global/local mutual
+admissibility `WORKING_POSIT`; completion-dependent local join correspondence
+`DERIVED_PARTIAL_KINEMATIC`; full physical readout and interior return `OPEN`; F01/F02
+`CONDITIONAL_GEOMETRIC_MASS_BEARING`; F04 `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`; EH
+`CONDITIONAL_NOT_SELECTED`; C2/Bach `UNIQUE_CONDITIONAL` only in inactive pre-scale strong-CSN;
+`S2` carrier `POSIT`; action, source, physical boundary, `X_max`, unconditional matter/mass and
+dynamics `OPEN`.
+
+**AUTHORITY BOUNDARY:** no scalar objective, optimizer, action, response, source, carrier, density,
+boundary, completion, branch, mass, species, `X_max`, dynamics, observational fit, GPU work,
+canonization or repository reorganization follows.
+
+**EVIDENCE:** preregistration `7ff61e18`; primary SymPy 1.13.1 and independent standard-library
+reconstructions agree; verifier `21/21` with `12/12` exercised mutations caught; 26 source hashes;
+fresh `gpt-5.4` `PASS_WITH_CAVEATS` with no blocking error. Its only replay limitation was the
+read-only sandbox's lack of a writable temp directory for mutation copies; both algebra replays
+passed there and the full mutation harness passes in the controller. Six frozen manifests/127
+members/133 paths, 1,114 current paths, 101 frontier targets, tests `70 passed, 1 xfailed`, and the
+83 unrelated untracked metadata identities pass.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_FULL_COFRAME_BEGIN -->
+
+**⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
+**This topmost CURRENT STATE block overrides every older status description.**
 ## ============ CURRENT STATE (2026-08-04 — FULL-COFRAME RESPONSE SEARCH FINDS PLURALITY, NOT SELECTION; GLOBAL/LOCAL PREMISE DECISION NEXT) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` and its four
@@ -60,7 +129,7 @@ second repair failure are preserved; the final fresh `gpt-5.4` closure is
 paths, 101 frontier targets, tests `70 passed, 1 xfailed`, and the 83 unrelated untracked metadata
 identities pass. Use the package `VERIFICATION_RESULT.json` for the final source-manifest hash.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_FULL_COFRAME_END -->
 
 <!-- STARTUP_PRIOR_2026_08_04_RECOVERY_BEGIN -->
 

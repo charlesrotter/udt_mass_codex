@@ -4,7 +4,24 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, full-coframe response selection remains open)
+## TOP — CURRENT POINTER (2026-08-04, bootstrap posit formalized; complete return open)
+
+Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
+`udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md` and its architecture, exact
+derivation, ledgers, verifier, fresh review and closure.
+
+Global/local mutual admissibility is an owner-authorized falsifiable `WORKING POSIT`, not a derived
+equation. Its least-imposed home is a multibranch correspondence between global data and complete
+configurations. The metric supplies a partial kinematic join relation through completion-dependent
+monodromy, seam and conditional cap fibers. Descent/reconstruction and free readout preserve every
+admitted complete configuration, and observer symmetry does not select the missing relation.
+
+Verdict:
+`DERIVED_PARTIAL_KINEMATIC_ADMISSIBILITY_CORRESPONDENCE__WORKING_POSIT_REQUIRES_BUT_DOES_NOT_DERIVE_COMPLETE_RETURN`.
+The possible next extension/solvability audit is not automatic and must first avoid circularly
+assuming the native response. No density, action, time-live or GPU work follows.
+
+## PRIOR TOP — CURRENT POINTER (2026-08-04, full-coframe response selection remains open)
 
 Read `LIVE.md`, `HANDOFF.md`, the current premise registry, the scientific-arc recovery checkpoint,
 then `udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md` and its exact evidence.

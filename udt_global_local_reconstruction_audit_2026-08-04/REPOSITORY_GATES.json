@@ -1,0 +1,16 @@
+{
+  "checked_links": 47,
+  "current_paths": 1114,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "premise_guards": 18,
+  "schema": "udt.global_local_reconstruction.repository_gates.v1",
+  "startup_controls": 7,
+  "status": "PASS",
+  "stdout_sha256": "c7f9c5eb22d05d9afa37fc796392c6d36451d4012a7216c3ba1afde934a69978",
+  "tests": "70 passed, 1 xfailed",
+  "unrelated_untracked_metadata_rows": 83
+}

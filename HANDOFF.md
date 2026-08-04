@@ -6,6 +6,58 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
 
+## CURRENT — bootstrap posit has a relational home; metric supplies only the partial join
+
+**Fresh-entry path:**
+
+1. `LIVE.md` topmost current block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
+3. `udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md`.
+4. Its `RECONSTRUCTION_ARCHITECTURE.md`, `EXACT_DERIVATION.md`, operation and admissibility ledgers,
+   completeness map, verification result, fresh review and review closure.
+5. Use the scientific-arc recovery checkpoint and full-coframe response-selection audit as parents;
+   enter F01/F02/F04 or older completion evidence only when routed to a load-bearing detail.
+
+**Result:** global/local mutual admissibility is now explicitly adopted only as a falsifiable
+`WORKING POSIT`. Its natural home is a possibly multibranch relation between independently typed
+global data and complete configurations, intersected with the same-solution readout graph. This
+formal type is not a physical equation or optimizer.
+
+**Metric-native positive:** completion data genuinely change local join fibers. The eight registered
+monodromy graphs are all distinct and two-dimensional; 12 of 28 graph pairs share a nonzero endpoint
+line. Seam orders and the conditional cap completion likewise change legal local jets. This is a
+partial kinematic admissibility correspondence, not a completion selector.
+
+**Nonselection:** two exact cover/refinement controls reconstruct the full four-dimensional global
+space. Adding free readout preserves nullity four. The same readout and observer exchange permit
+inequivalent nontrivial relations. Therefore descent, reconstruction, readout and symmetry do not
+derive the complete interior return.
+
+**Bounded verdict:**
+`DERIVED_PARTIAL_KINEMATIC_ADMISSIBILITY_CORRESPONDENCE__WORKING_POSIT_REQUIRES_BUT_DOES_NOT_DERIVE_COMPLETE_RETURN`.
+
+**Mass/stability status:** F01/F02 remain conditional geometry-only mass-bearing routes; F04 remains
+the separate carrier/action-conditional finite-box Hopf result. No family, response, carrier,
+source, boundary, mass or species is promoted.
+
+**Next candidate, not automatic:** map whether global extension/solvability can carry the partial
+join relation into complete coframe interiors without presupposing the still-open native response.
+No density scan, action guess, scalar optimizer, long solve, time-live/GPU work or physical adoption
+follows.
+
+**Evidence:** preregistration `7ff61e18`; exact primary/independent agreement; 21 verifier checks,
+12 mutation catches, 26 frozen source hashes; fresh `gpt-5.4` `PASS_WITH_CAVEATS`/no blocking error.
+Frozen `6/127/133`, current paths 1,114, frontier targets 101, tests `70 passed, 1 xfailed`, and all
+83 unrelated untracked metadata identities pass. Preserve those paths unread and untouched.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_FULL_COFRAME_BEGIN -->
+
+> **READ `LIVE.md` FIRST.** It wins every disagreement.
+>
+> **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
+
 ## CURRENT — full coframe preserves plural responses; selection premise remains open
 
 **Fresh-entry path:**
@@ -49,7 +101,7 @@ catches; preserved initial and repair failures followed by final fresh
 101; tests `70 passed, 1 xfailed`; unrelated metadata 83. The final source hash is in the package
 verification result.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_FULL_COFRAME_END -->
 
 <!-- STARTUP_PRIOR_2026_08_04_RECOVERY_BEGIN -->
 

@@ -1,0 +1,34 @@
+{
+  "admissibility_correspondence": {
+    "same_readout_and_frame_symmetry_allow_inequivalent_nontrivial_relations": true,
+    "witness_count": 16,
+    "witness_survivor_counts": {
+      "A_product": 2,
+      "A_quadratic": 4,
+      "A_reconstruction_identity": 16
+    }
+  },
+  "completion_fibers": {
+    "distinct_graph_pairs": 28,
+    "graph_dimension_each": 2,
+    "graph_witnesses": 8,
+    "pairs_with_nonzero_ambiguous_endpoint_line": 12,
+    "pairwise_intersection_dimension_histogram": {
+      "0": 16,
+      "1": 12
+    },
+    "zero_endpoint_pair_belongs_to_all_graphs": true
+  },
+  "cover_reconstruction": {
+    "cover_a_descent_dimension": 4,
+    "cover_b_descent_dimension": 4,
+    "descent_plus_readout_graph_nullity": 4,
+    "descent_plus_readout_graph_rank": 4,
+    "global_configuration_dimension": 4,
+    "refinement_reconstructs_same_global_data": true
+  },
+  "outcome": "DERIVED_PARTIAL_KINEMATIC_ADMISSIBILITY_CORRESPONDENCE__WORKING_POSIT_REQUIRES_BUT_DOES_NOT_DERIVE_COMPLETE_RETURN",
+  "schema": "udt.global_local_reconstruction.result.v1",
+  "source_count": 26,
+  "status": "PASS_WITH_CAVEATS"
+}

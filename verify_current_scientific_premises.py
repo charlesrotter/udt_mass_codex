@@ -37,7 +37,12 @@ def main() -> None:
     require(by_id["G09"]["epistemic_label"] == "POSIT", "carrier promoted")
     require(by_id["G10"]["active_use"] == "INACTIVE_WITHOUT_STRONG_CSN_PREMISE", "C2/Bach promoted")
     require(by_id["G11"]["active_use"] == "NOT_SELECTED", "EH promoted")
-    require(by_id["G12"]["active_use"] == "ON_SHELL_ADMISSIBILITY_ONLY", "bootstrap promoted")
+    require(
+        by_id["G12"]["current_status"]
+        == "WORKING_MUTUAL_ADMISSIBILITY_POSIT__PARTIAL_KINEMATIC_JOIN_CORRESPONDENCE_DERIVED__COMPLETE_RETURN_OPEN",
+        "bootstrap status regressed or promoted",
+    )
+    require(by_id["G12"]["active_use"] == "FALSIFIABLE_RELATIONAL_ARCHITECTURE_ONLY", "bootstrap use changed")
     require(by_id["G13"]["active_use"] == "TORIC_GEOMETRY_ONLY", "Maxwell promoted")
     require(by_id["G14"]["active_use"] == "GLOBAL_OBSERVER_PAIR_SCHEMA", "Xmax mistyped")
     require(by_id["G15"]["active_use"] == "STATIC_FINITE_BOX_AND_CARRIER_CONDITIONAL", "Hopfion promoted")
@@ -62,7 +67,14 @@ def main() -> None:
     require(len(guard_rows) == 16, "guard universe must contain exactly 16 rows")
     guard_sources = {row["guard_id"]: row["controlling_source"] for row in guard_rows}
     for guard, source in guard_sources.items():
-        require(by_id[guard]["controlling_source"] == source, f"source priority changed: {guard}")
+        if guard == "G12":
+            require(
+                by_id[guard]["controlling_source"]
+                == "udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md",
+                "bootstrap correction source priority changed",
+            )
+        else:
+            require(by_id[guard]["controlling_source"] == source, f"source priority changed: {guard}")
 
     expected_sources = {row["controlling_source"] for row in rows}
     for source in expected_sources:

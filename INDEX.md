@@ -3,7 +3,29 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC CHECKPOINT — FULL COFRAME PRESERVES PLURAL RESPONSES; SELECTION REMAINS OPEN:**
+**➤ CURRENT SCIENTIFIC CHECKPOINT — BOOTSTRAP POSIT FORMALIZED; PARTIAL KINEMATIC JOIN DERIVED:**
+Read `udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md`, its reconstruction
+architecture, exact derivation, operation/requirement ledgers, completeness map, verifier, fresh
+review and closure. Then use the scientific-arc recovery checkpoint and full-coframe response audit
+as parent routing.
+
+Global/local mutual admissibility is explicitly a falsifiable `WORKING POSIT`. It has the natural
+form of a possibly multibranch correspondence between independently typed global data and complete
+configurations, intersected with the same-solution readout graph. The metric supplies a genuine
+partial join relation: monodromy, seam and conditional cap completion data change legal local
+fibers. It does not supply the complete interior return.
+
+Two exact cover/refinement controls reconstruct the entire four-dimensional configuration control,
+and adding a free readout keeps nullity four. Of 28 distinct monodromy-graph pairs, 12 share a
+nonzero endpoint line. The same readout and observer symmetry also permit inequivalent nontrivial
+relations. Exact verdict:
+`DERIVED_PARTIAL_KINEMATIC_ADMISSIBILITY_CORRESPONDENCE__WORKING_POSIT_REQUIRES_BUT_DOES_NOT_DERIVE_COMPLETE_RETURN`.
+
+No action, optimizer, source, carrier, density, boundary law, completion, mass, `X_max`, dynamics or
+physical branch follows. The next possible audit—extension/solvability of the partial relation into
+complete coframe interiors—is not launched automatically and must first pass a circularity map.
+
+**➤ PARENT SCIENTIFIC CHECKPOINT — FULL COFRAME PRESERVES PLURAL RESPONSES; SELECTION REMAINS OPEN:**
 Read `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md` and its four
 companion maps for the complete recovered arc, then
 `udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md` and its exact derivation,

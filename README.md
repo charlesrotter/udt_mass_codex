@@ -1,14 +1,15 @@
 # UDT repository
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-04):** `LIVE.md` topmost block → `HANDOFF.md` current
-block → current premise registry →
+block → current premise registry → the
+[`global/local reconstruction audit`](udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md)
+and its exact architecture/review →
 [`SCIENTIFIC_ARC_CHECKPOINT.md`](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
-and its four route/authority maps → the
+and the
 [`full-coframe response-selection audit`](udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md)
-→ exact family evidence only when load-bearing. The recovery checkpoint preserves the complete
-stability/mass→spacetime→Gröbner story. The current audit adds that the complete coframe faithfully
-carries every ambient metric response but does not select one; minimal global/local mutual
-admissibility is the next explicit premise decision, not an already derived operation.
+only when their parent evidence is load-bearing. Global/local mutual admissibility is now explicitly
+a `WORKING POSIT`; the metric supplies a partial kinematic completion/join correspondence, not the
+complete interior return, response, action, source, density closure, matter or dynamics.
 
 
 This root is the control and navigation surface for the UDT research record.
@@ -16,7 +17,8 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
-the [scientific-arc recovery checkpoint](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
+the [global/local reconstruction audit](udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md)
+→ the [scientific-arc recovery checkpoint](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
 and its named evidence → the [full-coframe response-selection audit](udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md) → the [reciprocal path-composition audit](udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md), [native-law type audit](udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md), and [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
 only when their details are needed → earlier frontier and family evidence named by those files only
 when required by the active task → the targeted `CLAUDE.md`

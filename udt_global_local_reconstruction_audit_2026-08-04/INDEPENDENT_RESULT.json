@@ -1,0 +1,34 @@
+{
+  "admissibility_correspondence": {
+    "all_three_are_swap_invariant": true,
+    "same_readout_and_frame_symmetry_allow_inequivalent_nontrivial_relations": true,
+    "witness_count": 16,
+    "witness_survivor_counts": {
+      "A_product": 2,
+      "A_quadratic": 4,
+      "A_reconstruction_identity": 16
+    }
+  },
+  "completion_fibers": {
+    "all_matrices_are_GL2Z": true,
+    "distinct_graph_pairs": 28,
+    "graph_constraint_rank_each": 2,
+    "graph_dimension_each": 2,
+    "pairs_with_nonzero_ambiguous_endpoint_line": 12,
+    "pairwise_intersection_dimension_histogram": {
+      "0": 16,
+      "1": 12
+    },
+    "zero_endpoint_pair_belongs_to_all_graphs": true
+  },
+  "cover_reconstruction": {
+    "cover_a_descent_dimension": 4,
+    "cover_b_descent_dimension": 4,
+    "descent_plus_readout_graph_nullity": 4,
+    "descent_plus_readout_graph_rank": 4,
+    "global_configuration_dimension": 4,
+    "refinement_reconstructs_same_global_data": true
+  },
+  "schema": "udt.global_local_reconstruction.independent_result.v1",
+  "status": "PASS"
+}

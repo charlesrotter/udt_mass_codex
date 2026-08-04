@@ -4,6 +4,18 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 4 global/local reconstruction precedence notice
+
+This long file is historical context, not the current checkpoint. Current orientation is
+`LIVE.md` → `HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
+`udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md` and its exact evidence.
+
+Global/local mutual admissibility is explicitly retained as a falsifiable `WORKING POSIT`. Its
+minimal mathematical home is a possibly multibranch admissibility correspondence, not a scalar
+optimizer. Current metric completion data supply a partial kinematic global-to-local join relation;
+descent, reconstruction, readout and observer symmetry do not derive the complete interior return.
+No action, source, carrier, density, physical completion, mass, `X_max` or dynamics follows.
+
 ## August 4 full-coframe response-selection precedence notice
 
 This long file is historical context, not the current checkpoint. Current orientation is

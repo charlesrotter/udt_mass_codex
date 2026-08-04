@@ -1,0 +1,14 @@
+requirement_id	requirement	status	meaning
+A01	complete_joint_domain	OPEN	include_local_coframe_boundary_corner_transition_completion_query_and_global_modulus data
+A02	independently_typed_global_data	DERIVED_FROM_WORKING_POSIT_AS_TYPE	global data cannot be silently replaced by their readout before testing feedback
+A03	nonidentity_admissibility	WORKING_POSIT_FALSIFIABILITY_REQUIREMENT	the relation must exclude at least some otherwise supplied configurations in its stated domain
+A04	same_solution_recomputation	DERIVED_FROM_WORKING_POSIT_AS_TYPE	the admitted local/global pair must lie on the graph of the same configuration readout
+A05	observer_frame_naturality	DERIVED_GATE	observer equivalent descriptions must map admissible pairs to admissible pairs
+A06	cover_and_refinement_independence	DERIVED_GATE	admissibility cannot depend on an arbitrary atlas or partition
+A07	completion_dependent_local_fibers	DERIVED_PARTIAL	monodromy seam and conditional cap data already change legal local joins
+A08	full_boundary_and_global_modulus_ownership	OPEN	fixed seal or omitted corner channels cannot certify complete closure
+A09	multiple_branches_allowed	DERIVED_FROM_RELATIONAL_HOME_AS_TYPE	correspondence need not be a single valued function or unique universe
+A10	scalar_objective_or_optimizer	NOT_REQUIRED_BY_POSIT	would be an extra premise unless independently derived
+A11	differentiable_response_and_persistence	OPEN	needed for dynamics stability or downstream action but not for kinematic relation membership
+A12	complete_physical_readout_R	OPEN	typed geometric readouts exist but mass energy density and one universal global state do not
+A13	metric_native_complete_relation_K	OPEN_SMALLEST_MISSING_OPERATION	partial kinematic join relation exists but no interior physical return is selected

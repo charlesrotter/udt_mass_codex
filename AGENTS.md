@@ -138,6 +138,13 @@ The registered SNe relation is only a downstream compatibility anchor. No comple
 quantifier, action, response law, carrier, source, boundary, mass, bootstrap equation, time-live
 solve, or physical branch is adopted.
 
+Global/local mutual admissibility is now explicitly retained only as a falsifiable `WORKING
+POSIT`. `udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md` derives a partial
+kinematic completion/join correspondence, while ordinary descent, free readout, and frame symmetry remain nonselecting. Do
+not turn the posit into a scalar optimizer, local equation, complete return law, density selector,
+action, source, matter claim, or unique universe. The complete interior relation and physical
+readout remain open.
+
 The pre-P4
 higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded
 stationary descended `R x T2` family. It derives family-wide identity robustness of `span(K,V)`,
