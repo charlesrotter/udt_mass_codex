@@ -1,0 +1,3 @@
+PASS production_exact_checks=53 candidates=12 source_rulings=11 source_adjudications=32 implications=12 loops=5
+status=COMPOSITION_IDENTITY_NONSELECTING
+termination=CURRENT_COMPOSITION_TO_NATIVE_RESIDUAL_ROUTE_TERMINATES_WITHOUT_NEW_SOURCE_BACKED_DEPTH_OR_LOOP_PREMISE

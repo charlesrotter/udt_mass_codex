@@ -1,0 +1,1 @@
+PASS independent_exact_checks=35 outcome=COMPOSITION_IDENTITY_NONSELECTING

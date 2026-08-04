@@ -1,0 +1,2 @@
+PASS production=53 independent=35 artifact_catches=22 sources=32 candidates=12
+outcome=COMPOSITION_IDENTITY_NONSELECTING

@@ -1,0 +1,11 @@
+python3 --version
+python3 -c "import sympy; print(sympy.__version__)"
+PYTHONDONTWRITEBYTECODE=1 python3 -B derive_path_composition_residual.py
+PYTHONDONTWRITEBYTECODE=1 python3 -B verify_path_composition_independent.py
+PYTHONDONTWRITEBYTECODE=1 python3 -B verify_audit.py --write
+PYTHONDONTWRITEBYTECODE=1 python3 -B verify_audit.py
+PYTHONDONTWRITEBYTECODE=1 python3 -B record_environment.py
+PYTHONDONTWRITEBYTECODE=1 python3 -B verify_repository_gates.py --write
+PYTHONDONTWRITEBYTECODE=1 python3 -B build_manifest.py
+PYTHONDONTWRITEBYTECODE=1 python3 -B verify_package.py --write
+PYTHONDONTWRITEBYTECODE=1 python3 -B verify_package.py

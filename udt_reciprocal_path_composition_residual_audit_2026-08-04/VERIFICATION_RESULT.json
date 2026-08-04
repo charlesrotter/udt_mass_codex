@@ -1,0 +1,14 @@
+{
+  "artifact_level_catch_proofs": 22,
+  "candidates": 12,
+  "implications": 12,
+  "independent_exact_checks": 35,
+  "loop_objects": 5,
+  "outcome": "COMPOSITION_IDENTITY_NONSELECTING",
+  "production_exact_checks": 53,
+  "source_adjudications": 32,
+  "source_manifest_sha256": "ed1e5b7dd31f58f811996a14dbba7c10eb935a894bbd888865eb61a1d9bfabab",
+  "sources": 32,
+  "status": "PASS",
+  "unrelated_untracked_metadata_rows": 83
+}
