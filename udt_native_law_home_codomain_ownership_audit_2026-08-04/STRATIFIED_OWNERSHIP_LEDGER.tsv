@@ -1,0 +1,8 @@
+stratum_id	stratum	home	variation_rule	status
+S01	simple spectrum/nonzero intrinsic form	H04	parent chain rule	CONDITIONAL_REGULAR
+S02	round spectral collision	H05	set-valued orbit; no unique derivative	OPEN_STRATIFIED
+S03	intrinsic-form zero/rank jump	H05	ambient crossing only	OPEN_STRATIFIED
+S04	null or zero dphi	H05	normalized selector unavailable	OPEN_STRATIFIED
+S05	causal-type transition	H05	tilewise data plus open interface	OPEN_STRATIFIED
+S06	tie/Jordan/complex spectral locus	H05	set-valued or no real plane	OPEN_STRATIFIED
+S07	boundary-selector defect intersection	H05	boundary tangent/polarization open	OPEN_STRATIFIED_BOUNDARY

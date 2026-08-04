@@ -1,0 +1,7 @@
+{
+  "git_head": "009281bfa0e4e20f5efe90096dc74c6bb169e80f",
+  "mode": "CPU_ONLY",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

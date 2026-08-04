@@ -1,0 +1,17 @@
+{
+  "architecture_law_facets": 48,
+  "architectures": 8,
+  "catch_proofs": 20,
+  "fresh_adversarial_review": "PASS",
+  "frozen_sources": 28,
+  "independent_exact_checks": 22,
+  "law_classes": 6,
+  "native_compatibility_rows": 8,
+  "production_exact_checks": 26,
+  "query_quantifier_classes": 7,
+  "result": "TYPED_HOMES_PARTIALLY_FORCED__COMPLETE_NATIVE_DYNAMICAL_HOME_CODOMAIN_AND_VARIATION_DOMAIN_NOT_SELECTED",
+  "sne_readout_slots": 4,
+  "status": "PASS",
+  "stratified_classes": 7,
+  "variation_classes": 12
+}

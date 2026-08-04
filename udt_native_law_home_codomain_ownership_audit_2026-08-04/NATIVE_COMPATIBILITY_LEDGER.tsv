@@ -1,0 +1,9 @@
+architecture_id	metric_is_theory_compatibility	reason	remaining_gate
+H01	COMPATIBLE	law acts on metric/configuration data on M	still not selected by founding kinematics
+H02	COMPATIBLE_IF_QUERY_IS_DERIVED_ARGUMENT	query bundle is metric-derived and adds no physical field	dynamical quantifier and codomain remain open
+H03	CONDITIONAL_EXTRA_STRUCTURE	independent physical section adds data beyond the metric unless proved metric-owned	not adoptable as native merely by declaring ownership
+H04	COMPATIBLE_ON_REGULAR_METRIC_DERIVED_BRANCH	section is output of parent metric	selector and singular continuation open
+H05	COMPATIBLE_IF_ALL_STRATA_AND_GLUE_ARE_METRIC_DERIVED	no independent carrier or section required	stratified law absent
+H06	COMPATIBLE_IN_PRINCIPLE_ONLY_IF_AGGREGATION_IS_METRIC_DERIVED	could remain metric-only	all aggregation data absent
+H07	REQUIRED_AS_TYPED_BOOKKEEPING_NOT_SELECTED_AS_ONE_PHYSICAL_LAW	preserves already-derived homes without extra physics	dynamical component remains open
+H08	OPEN	nonexhaustiveness escape	must be audited if discovered

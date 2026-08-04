@@ -1,0 +1,18 @@
+{
+  "basic_trace": "17",
+  "branch_selector_chain_term": "-1",
+  "collision_limits_distinct": true,
+  "exact_checks": 22,
+  "reciprocal_pair_query_values": [
+    "5",
+    "7"
+  ],
+  "sne_conditional_shape": "z*(z + 2)",
+  "sne_readout_slots": [
+    "clock",
+    "areal",
+    "optical",
+    "proper_pair"
+  ],
+  "status": "PASS"
+}

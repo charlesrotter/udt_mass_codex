@@ -1,0 +1,9 @@
+architecture_id	compatibility	selects_home	reason
+H01	COMPATIBLE_ONLY_WITH_DOWNSTREAM_TYPED_QUERY_READOUT_LAYER	NO	does not choose basic dynamics
+H02	COMPATIBLE_CAPABILITY_NOT_SELECTOR	NO	four readouts can be query morphisms
+H03	COMPATIBLE_CAPABILITY_NOT_SELECTOR	NO	four readouts can evaluate a realized reduction
+H04	COMPATIBLE_CAPABILITY_NOT_SELECTOR	NO	four readouts can evaluate a regular derived reduction
+H05	COMPATIBLE_TILEWISE_NOT_SELECTOR	NO	registered static branch can be one regular tile
+H06	BLOCKED_MISSING_NATIVE_AGGREGATION_DATA	NO	anchor cannot invent a fiber measure
+H07	COMPATIBLE_TYPED_ENVELOPE_NOT_SELECTOR	NO	distinct readout codomains are retained explicitly
+H08	UNCLASSIFIED	NO	escape cannot be rejected from this anchor

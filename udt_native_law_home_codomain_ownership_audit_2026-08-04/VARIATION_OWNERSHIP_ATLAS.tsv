@@ -1,0 +1,13 @@
+variation_id	object	home	independent_physical_variation	rule	status
+V01	ambient metric/coframe	M configuration	INDEPENDENT_ONLY_AFTER_NATIVE_DOMAIN	delta_g modulo declared presentation gauge	OPEN_NATIVE_VARIATION_DOMAIN
+V02	observer pair/path query	P/groupoid argument	NO	changes the question/arrow, not the universe	DERIVED_QUERY_NOT_FIELD_VARIATION
+V03	realized reciprocal section s	section of P over M	YES_ONLY_IF_H03_SELECTED	independent delta_s	OPEN_PHYSICAL_OWNERSHIP
+V04	branch-derived section S[g]	regular branch	NO_INDEPENDENT_VARIATION	delta_s=DS_g[delta_g]	CONDITIONAL_CHAIN_RULE
+V05	regular projector/screen response	regular selector stratum	NO_INDEPENDENT_VARIATION_IF_DERIVED	parent metric/form chain rule	CONDITIONAL_REGULAR
+V06	collision zero tie causal or rank-change data	singular stratum	NO_UNIQUE_SMOOTH_OWNER	ambient path or future stratified rule	OPEN_STRATIFIED_OWNERSHIP
+V07	transition/completion modulus	global configuration	POTENTIALLY	cocycle-compatible modulus modulo coboundary	OPEN_GLOBAL_OWNER
+V08	discrete topology/monodromy sector	component label	NO_CONTINUOUS_TANGENT	enumerate sector	DERIVED_TYPE_DISTINCTION
+V09	base boundary/seal data	boundary of M	POTENTIALLY_AFTER_DOMAIN	declared boundary tangent	OPEN_BOUNDARY_OWNER
+V10	pair polarization/section boundary data	query or reduction boundary	ONLY_AFTER_HOME_DECLARED	query argument or section tangent as typed	OPEN_MULTIPLE_CLASSES
+V11	fiber measure weight normalization	query fiber	UNAVAILABLE	no variation until native aggregation exists	OPEN_NOT_SUPPLIED
+V12	bootstrap/global-local return	complete on-shell solution space	NOT_YET_TYPED_AS_VARIATION	relation/admissibility owner open	WORKING_NOT_DERIVED

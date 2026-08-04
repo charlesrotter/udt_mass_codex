@@ -1,0 +1,8 @@
+python3 udt_native_law_home_codomain_ownership_audit_2026-08-04/freeze_sources.py
+python3 udt_native_law_home_codomain_ownership_audit_2026-08-04/derive_native_law_architecture.py
+python3 udt_native_law_home_codomain_ownership_audit_2026-08-04/verify_architecture_independent.py
+python3 udt_native_law_home_codomain_ownership_audit_2026-08-04/verify_audit.py
+python3 udt_native_law_home_codomain_ownership_audit_2026-08-04/record_environment.py
+python3 udt_native_law_home_codomain_ownership_audit_2026-08-04/verify_repository_gates.py
+python3 -m pytest -q tests
+script -q -e -c "codex exec --ephemeral --ignore-user-config -m gpt-5.4 -c model_reasoning_effort=\"high\" -c web_search=\"disabled\" -s read-only -C /home/udt-admin/udt_mass_codex --color never -o udt_native_law_home_codomain_ownership_audit_2026-08-04/FRESH_ADVERSARIAL_REVIEW.md 'Open udt_native_law_home_codomain_ownership_audit_2026-08-04/REVIEW_DISPATCH.md and follow it exactly. This is a read-only zero-context adversarial review. Inspect only that audit package and the 28 repository sources frozen in its SOURCE_MANIFEST.tsv. Do not modify files or continue the research.'" udt_native_law_home_codomain_ownership_audit_2026-08-04/FRESH_ADVERSARIAL_REVIEW_RAW.txt

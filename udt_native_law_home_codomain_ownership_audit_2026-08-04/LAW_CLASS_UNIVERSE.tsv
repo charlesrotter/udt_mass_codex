@@ -1,0 +1,7 @@
+law_id	law_class	input_type	native_codomain_type
+K01	FOUNDED_RECIPROCAL_COMPARISON	ordered pair/path query plus signed depth	morphism of reciprocal pair fibers / O(1,1) character
+K02	AMBIENT_METRIC_GEOMETRY	metric/coframe on M	metric connection curvature causal and identity objects on M
+K03	PAIR_RESOLVED_RESPONSE	ambient geometry plus ordered reciprocal query	associated screen mixing projected-response objects over query space
+K04	NATIVE_DYNAMICAL_CLOSURE	admissible complete configuration and jets or disclosed nonlocal data	covariant residual constraint evolution or variational dual object
+K05	GLOBAL_BOOTSTRAP_ADMISSIBILITY	one complete on-shell solution and native global/local observables	relation subset or compatibility value on global-local observable space
+K06	BOUNDARY_COMPLETION	bulk/query/reduction data restricted to boundary seal corner or defect	boundary response polarization gluing flux or admissibility object

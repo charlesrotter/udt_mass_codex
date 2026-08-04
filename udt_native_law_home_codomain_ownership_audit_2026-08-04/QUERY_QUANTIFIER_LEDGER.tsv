@@ -1,0 +1,8 @@
+quantifier_id	quantifier	law_condition	variation_owner	status	consequence
+Q01	SUPPLIED_QUERY_READOUT	evaluate L(g,q) for the asked q	q is an argument not varied	DERIVED_AVAILABLE_FOR_KINEMATICS_AND_READOUT	does not define on-shell dynamics
+Q02	UNIVERSAL_ALL_QUERIES	require L(g,q)=0 for every q in each query fiber	vary g; do not vary q	ADMISSIBLE_NOT_SELECTED	nonbasic residual can define observer-independent solution subset
+Q03	EXISTENTIAL_QUERY	require existence of q with L(g,q)=0	q is a witness unless promoted	ADMISSIBLE_NOT_SELECTED	does not identify a physical observer/reduction
+Q04	REALIZED_SECTION	evaluate L(g,s(x)) on physical s	vary g and independently vary s only after ownership	OPEN_PHYSICAL_OWNERSHIP	section existence is insufficient
+Q05	BRANCH_DERIVED_SECTION	evaluate L(g,S[g]) on regular branch	vary g with DS_g chain term	CONDITIONAL_REGULAR	parent selector and collision rule open
+Q06	SET_VALUED_STRATIFIED	retain orbit/tile/set at singular strata	stratum tangent or open interface owner	OPEN_STRATIFIED	all-versus-exists quantifier at orbit remains open
+Q07	FIBER_AGGREGATED	integrate or quotient over q	vary g and every derived aggregation datum	OPEN_UNAVAILABLE	measure weight normalization convergence meaning absent
