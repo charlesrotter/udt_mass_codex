@@ -1,0 +1,18 @@
+{
+  "input_sha256": "e553c60ac2499b65ca8585fa0861f7d7ba41dcc0adf3ba5c2167a1b28fdc76d8",
+  "prepared_at": "2026-08-04T08:25:26-04:00",
+  "prime": 32003,
+  "prime_trial_division_pass": true,
+  "rational_basis_sha256": "a785441f0bb6fc5bb8f631861a84336660f8508e729780a6e40459868070479b",
+  "rational_input_sha256": "8079b60cbe573ffefe0557a92b0c35f35b2e6a6a413bc26c5f99a85fc7c96ec0",
+  "schema": "udt-c08-finite-field-preparation-1.0",
+  "source_count": 17,
+  "source_manifest_sha256": "b641486be6f68b46cf3f14d3ca6894c4dbb3a63136b10a2dba37b84e235104e1",
+  "status": "PASS_PREPARED_NOT_LAUNCHED",
+  "toy": {
+    "returncode": 0,
+    "status": "PASS_NONTRIVIAL_FINITE_FIELD_TRANSFORMATION_TOY",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "507d206818f143a236e4e8136192290726d4025cf1ed18fb39d1a17d1473ac9b"
+  }
+}
