@@ -1,0 +1,26 @@
+{
+  "check_count": 16,
+  "checks": {
+    "block_inverse": "PASS",
+    "convex_screen_anchor_positive": "PASS",
+    "dphi_sign_projector": "PASS",
+    "dphi_sign_scalar": "PASS",
+    "even_parity_cocycle": "PASS",
+    "linearized_left_cocycle": "PASS",
+    "linearized_right_cocycle": "PASS",
+    "linearized_two_sided_overlap": "PASS",
+    "odd_three_reversal_offdiagonal": "PASS",
+    "reversal_conjugates_depth": "PASS",
+    "reversal_pair_preserves": "PASS",
+    "right_log_factorization": "PASS",
+    "screen_rotation_gauge": "PASS",
+    "seven_extension_chart_rank": "PASS",
+    "swap_not_Lorentz_for_diagonal_readout": "PASS",
+    "two_sided_triple_overlap": "PASS"
+  },
+  "maximum_conclusion": "INDEPENDENT_EXACT_REPLAY_OF_TRANSITION_AND_VARIATION_IDENTITIES_ONLY",
+  "production_imported": false,
+  "schema": "udt-extension-globalization-independent-fraction-1.0",
+  "status": "PASS",
+  "third_party_packages": []
+}

@@ -1,0 +1,7 @@
+repair_id	required_repair	implementation	status	replay_evidence
+R01	name total query-bundle and supplied spacetime split; derive h and sigma transition laws	EXACT_DERIVATION.md sections 2 and 6; GLOBALIZATION_ARCHITECTURE.md; TRANSITION_FAMILY_LEDGER.tsv F04	CLOSED	REPAIR_REPLAY.md
+R02	restrict even reversal parity to identity-required products and retain odd noncontractible monodromy	EXACT_DERIVATION.md section 5; TRANSITION_FAMILY_LEDGER.tsv F03; COCYCLE_AND_VARIATION_IDENTITIES.tsv I09; AUDIT_REPORT.md	CLOSED	REPAIR_REPLAY.md
+R03	normalize mixing bundle typing to Hom(N,Q)	BUNDLE_OBSTRUCTION_LEDGER.tsv B05; COCYCLE_AND_VARIATION_IDENTITIES.tsv I12	CLOSED	REPAIR_REPLAY.md
+R04	qualify stratum crossing as ambient tangent but not fixed-rank-tile tangent	EXACT_DERIVATION.md section 3; VARIATION_DOMAIN_LEDGER.tsv V17	CLOSED	REPAIR_REPLAY.md
+R05	parse exact first verdict token and require repair closure plus repair replay	verify_audit.py	CLOSED	REPAIR_REPLAY.md
+R06	preserve committed preregistration and historical source while superseding their overbroad parity wording in the current correction layer	PREREGISTRATION.md and udt_global_coframe_cocycle_audit_2026-07-20/STATUS_LEDGER.tsv unchanged; current exact derivation and ledgers corrected	CLOSED	REPAIR_REPLAY.md

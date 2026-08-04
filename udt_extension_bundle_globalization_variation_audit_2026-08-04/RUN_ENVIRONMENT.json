@@ -1,0 +1,10 @@
+{
+  "compute": "CPU_ONLY",
+  "git_branch": "grok",
+  "git_head": "5399d850d9636879e49ef6f4dc85cfef9b5290ce",
+  "machine": "x86_64",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

@@ -1,0 +1,9 @@
+python3 udt_extension_bundle_globalization_variation_audit_2026-08-04/build_source_manifest.py
+python3 udt_extension_bundle_globalization_variation_audit_2026-08-04/derive_transition_variation.py
+python3 udt_extension_bundle_globalization_variation_audit_2026-08-04/verify_transition_variation_independent.py
+python3 udt_extension_bundle_globalization_variation_audit_2026-08-04/record_environment.py
+python3 udt_extension_bundle_globalization_variation_audit_2026-08-04/verify_repository_gates.py
+python3 udt_extension_bundle_globalization_variation_audit_2026-08-04/verify_audit.py --pre-review
+
+# Final only after an authorized fresh adversarial review is recorded:
+python3 udt_extension_bundle_globalization_variation_audit_2026-08-04/verify_audit.py
