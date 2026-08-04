@@ -1,7 +1,7 @@
 # C08 exact modular Gröbner refinement
 
-Date: 2026-08-03  
-Branch: `grok`  
+Date: 2026-08-03
+Branch: `grok`
 Base before this preregistration: `9a7b6704b23716060cbd1d486f2aae2669d473d8`
 
 ## Trigger and disclosed information
