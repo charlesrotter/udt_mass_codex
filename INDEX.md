@@ -3,32 +3,34 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — FOUNDED LAW TYPES LOCATED; COMPLETE DYNAMICAL LAW TYPE OPEN:**
-Read `udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
-derivation, home/codomain, query-quantifier, variation-ownership, native-compatibility, SNe and
-stratified ledgers, fresh review, four gates, lay report and next step.
+**➤ CURRENT SCIENTIFIC FRONTIER — UNIVERSAL QUERY ARCHITECTURE GENUINE; ACTUAL RESIDUAL OPEN:**
+Read `udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
+derivation, reduction/variation/global ledgers, foundational ruling, fresh review, four gates, lay
+report and next step.
 
-Founded reciprocal comparison is an exact equivariant observer-pair/depth query law. Ambient
-metric geometry lives on spacetime. Pair-resolved projected response lives over query space unless
-evaluated on a metric-owned reduction. These require typed/layered bookkeeping, not a selected
-layered physical law.
-
-The new unresolved datum is the query quantifier. `L(g,q)` may be a supplied readout, universal for
-all queries, existential, realized-section, branch-derived, stratified, or aggregated law. A
-universal-all-queries residual can define an observer-independent metric solution set without
-varying `q`. Regular derived branches vary by chain rule; singular strata remain open; no fiber
-measure is supplied. Present foundations do not select basic spacetime, universal-query, or
-regular/stratified metric-derived dynamics.
+Requiring `L(g,q)=0` for every observer query defines an observer-independent metric solution set
+without choosing a physical observer section, but the operator may remain query-dependent. The
+exact local symmetric-tensor control reduces nine independent pair conditions to `S^TF=0`, leaving
+`S=lambda g`. Equal zero sets do not guarantee equal variational content. Globally, quotient
+holonomy can distinguish metrics with identical local curvature jets, so all-path laws need not be
+finite local tensor equations.
 
 The registered SNe formula `d_L/X=z(z+2)` is only a conditional downstream compatibility anchor.
 It requires distinct clock, angular-area, optical and proper pair-distance readout slots but cannot
 select the upstream law, variation domain, branch or `X_max`.
 
-Evidence commits `009281bf`/`b7e17e45`; 8 architectures, 6 law classes, 48 facets, 12 variation
-classes, 7 quantifiers, 26 production and 22 independent exact checks, 20 catches, and fresh `PASS`.
-The package hash is `8e56b3da607c18a08613e0fdaf4d1df1aa6bc891c6edd1176c9e5a0bc653c5fc`.
-Proposed next, not authorized: compare basic spacetime and universal-all-queries residual solution
-sets without introducing a physical observer section.
+The architecture is metric-only admissible but not selected: founded Reciprocity gives query
+kinematics and composition, not a nontrivial residual or a local/global choice. Evidence commits
+`583173cf`/`b17efd44`; 54 production and 15 independent exact checks, 22 catches, and fresh `PASS`.
+The package hash is `261ed174cf0b29bb2d8d3c158899e26665fbb85635cf04b64b2a1ea1b6811a58`.
+Proposed next, not authorized: test whether source provenance supplies a nontrivial
+metric-dependent reciprocal loop/path residual, retaining the possibility that composition is only
+an identity.
+
+**➤ PARENT SCIENTIFIC FRONTIER — FOUNDED LAW TYPES LOCATED:**
+`udt_native_law_home_codomain_ownership_audit_2026-08-04/` remains the authority for the typed
+query/spacetime/reduction architecture, seven quantifiers, variation ownership, and conditional SNe
+codomain anchor.
 
 **➤ PARENT SCIENTIFIC FRONTIER — QUERY/SPACETIME/SECTION LAW TYPES SEPARATED:**
 `udt_query_bundle_section_descent_audit_2026-08-04/` remains the authority for the eight open-slot

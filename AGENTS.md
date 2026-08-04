@@ -32,16 +32,15 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md` — **the current
-   scientific frontier**. Then read its `EXACT_DERIVATION.md`, home/codomain, query-quantifier,
-   variation-ownership, native-compatibility, SNe and stratified ledgers, fresh review, four gates,
-   and next step as needed. Read the section/descent audit, metric-natural selector, August 4
-   globalization audit and factorized whole-spacetime skeleton only when their parent obstruction,
-   supplied architecture or open slots are load-bearing. The current audit types existing laws but
-   does not select the complete native dynamical law's home, codomain, query quantifier or variation
-   domain. Its proposed basic-versus-universal-query solution-set audit is not automatically
-   authorized; do not choose an architecture or launch action, source, carrier, bootstrap,
-   time-live, or GPU work.
+4. `udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md` — **the current
+   scientific frontier**. Then read its `EXACT_DERIVATION.md`, reduction, variation and global/local
+   ledgers, foundational ruling, fresh review, four gates, and next step as needed. Read the
+   native-law type audit, section/descent audit, metric-natural selector, globalization audit and
+   factorized skeleton only when their parent type, obstruction, or supplied architecture is
+   load-bearing. The current audit establishes a genuine section-free universal-query architecture,
+   but does not derive a nontrivial UDT residual or select local versus global/path law. Its proposed
+   reciprocal path/groupoid provenance audit is not automatically authorized; do not invent a
+   defect or launch action, source, carrier, bootstrap, time-live, or GPU work.
 5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
    historical context only).
 6. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):

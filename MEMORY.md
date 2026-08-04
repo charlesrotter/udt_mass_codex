@@ -4,24 +4,29 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, founded law types located)
+## TOP — CURRENT POINTER (2026-08-04, universal-query architecture genuine)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
 block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
-`udt_native_law_home_codomain_ownership_audit_2026-08-04/` in its stated order. Use the
+`udt_basic_vs_universal_query_residual_audit_2026-08-04/` in its stated order. Use the native-law,
 section/descent, split-selector, globalization and factorized-skeleton parents only when their
 evidence is load-bearing.
 
-Current honest result: reciprocal comparison is a typed observer-query law, ambient geometry is a
-spacetime law, and pair-resolved response is query-level or metric-reduced. A query law also needs
-an explicit supplied/universal/existential/realized/branch/stratified/aggregated quantifier.
-Universal-all-queries can constrain an observer-independent metric solution without varying the
-query. No complete dynamical law type is selected. SNe supplies only a conditional downstream
-codomain compatibility anchor.
+Current honest result: universal-all-queries gives an observer-independent metric solution set
+without selecting a physical observer section, although its operator can remain query-dependent.
+The bounded local symmetric-tensor control reduces to `S^TF=0`; global quotient holonomy shows that
+all-path content need not reduce to finite local jets. Equal zero sets are not enough for
+variational equivalence. The architecture is allowed, but no nontrivial native residual or
+local/global selection is derived. SNe remains only a conditional downstream anchor.
 
-Proposed next, not authorized: compare basic spacetime and universal-all-queries residual solution
-sets and determine whether the latter reduces to the former or adds metric-native content without
-a physical observer section.
+Proposed next, not authorized: test reciprocal path/groupoid source provenance for a nontrivial
+metric-dependent loop/path residual, retaining the possibility that composition is merely an
+identity.
+
+## PRIOR TOP — CURRENT POINTER (2026-08-04, founded law types located)
+
+The native-law home/codomain package remains the authority for typed query, spacetime and
+metric-reduced objects, quantifiers, variation ownership, and the conditional SNe anchor.
 
 ## PRIOR TOP — CURRENT POINTER (2026-08-04, query/spacetime/section law types separated)
 

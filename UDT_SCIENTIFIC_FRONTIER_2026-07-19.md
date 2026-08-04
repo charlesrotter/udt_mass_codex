@@ -4,6 +4,22 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 4 basic-versus-universal-query precedence notice
+
+This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →
+`HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
+`udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md` and its exact evidence.
+
+Universal-all-query conditions define an observer-independent metric solution set without a
+physical observer section, but the residual operator may remain query-dependent. The exact local
+symmetric-tensor control reduces to `S^TF=0`; global quotient holonomy supplies a countercontrol to
+finite-local-jet reduction. Equal zero sets do not imply equal variational content.
+
+This architecture is metric-only admissible, not selected by the current foundation. Reciprocity
+supplies query kinematics and composition, not a nontrivial residual or a local/global choice. The
+proposed reciprocal path/groupoid provenance audit is not authorized automatically. No action,
+source, carrier, boundary, bootstrap equation, branch, `X_max`, matter, mass or dynamics is selected.
+
 ## August 4 native-law home/codomain/ownership precedence notice
 
 This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →

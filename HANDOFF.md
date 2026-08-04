@@ -6,44 +6,48 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
 
-## CURRENT — founded law types located; complete dynamical law type remains open
+## CURRENT — universal-query architecture is genuine; actual native residual remains open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
-3. `udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
-   derivation, six machine ledgers, fresh review, four gates, lay report, and next step.
-4. The section/descent audit and its selector/globalization parents only when their type obstruction
-   or supplied architecture is load-bearing.
+3. `udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
+   derivation, reduction/variation/global ledgers, foundational ruling, fresh review, four gates,
+   lay report, and next step.
+4. The native-law type audit and earlier parents only when their type or architecture is load-bearing.
 
-**Current honest result:** founded reciprocal comparison is an exact typed observer-pair/depth query
-law; ambient metric geometry lives directly on spacetime; pair-resolved projected response lives
-over query space unless reduced by a metric-owned section. These require layered bookkeeping, but
-no layered physical law is selected.
+**Current honest result:** a residual imposed for every observer query defines an
+observer-independent metric solution set without a physical observer section. Its operator can
+nevertheless remain query-dependent. In the exact local symmetric-tensor control, nine independent
+conditions reduce to `S^TF=0`, leaving `S=lambda g`; globally, distinct quotient holonomies prove
+that all-path laws can contain information absent from every finite local curvature jet.
 
-A query law additionally needs an explicit quantifier: supplied, universal, existential, realized,
-branch-derived, stratified, or aggregated. Universal-all-queries can constrain one
-observer-independent metric solution set without varying the query. Regular metric-derived branches
-vary by chain rule; singular strata remain open. An independent realized section is extra unless
-proved metric-owned, and no aggregation measure is derived.
+Equal zero sets are not automatically equivalent for variation: tangent rank can change after
+squaring or aggregation, and no query measure is founded. Regular universal zero sections have
+well-defined metric variation despite query-bundle motion; singular/domain-changing strata remain
+open.
 
 **SNe anchor:** the conditional relation `d_L/X=z(z+2)` requires distinct downstream clock,
 angular-area, optical and proper pair-distance readout slots. It does not select the upstream law,
 quantifier, variation domain, branch or `X_max`.
 
-**Next proposed, not authorized:** compare the solution sets of basic spacetime residuals and
-universal-all-queries equivariant residuals. Ask whether the latter necessarily reduces to the
-former or can add metric-native content without a physical observer section. Either answer is
-allowed.
+**Foundational ruling:** universal-query architecture is allowed but not selected. Reciprocity gives
+query kinematics and composition, not a nontrivial residual or a choice between local and global/path
+laws.
 
-**Evidence:** `009281bf`/`b7e17e45`; 8 architectures, 6 law classes, 48 facets, 12 variation classes,
-7 quantifiers, 8 native-compatibility rows, 7 strata, 26 production plus 22 independent exact
-checks, 20 catches, and fresh `PASS`. Source hash `a49acf2e…`; 51-member package hash `8e56b3da…`;
+**Next proposed, not authorized:** audit the founded reciprocal path/groupoid composition for a
+source-backed nontrivial metric-dependent loop/path residual. Retain the outcome that composition is
+only an identity. Do not invent a defect or reconstruct an action.
+
+**Evidence:** `583173cf`/`b17efd44`; 7 equivalence notions, 8 residual classes, 54 production plus 15
+independent exact checks, 22 catches, and fresh `PASS`. Source hash `3a52e123…`; 49-member package
+hash `261ed174…`;
 frozen 6/127/133, current paths 1,114, frontier targets 101, tests `70 passed, 1 xfailed`, and 83
 unrelated metadata-identical untracked paths.
 
-**Authority boundary:** no complete native law home/codomain/quantifier, action, source, carrier,
+**Authority boundary:** no actual native residual, universal-query selection, local/global choice,
+complete native law, action, source, carrier,
 boundary functional, bootstrap equation, density, branch, `X_max`, mass/matter, dynamics, GPU work,
 canonization, or reorganization follows.
 
