@@ -1,0 +1,13 @@
+{
+  "corrected_status": "OPEN_MISSING_HOMOGENEOUS_OR_FLATNESS_CERTIFICATE",
+  "finite_field_basis_equals_rational_candidate_mod_32003": true,
+  "finite_field_buchberger_failures": 0,
+  "finite_field_input_reduction_failures": 0,
+  "finite_field_quotient_dimension": 124,
+  "finite_field_transformation_residual_term_counts": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "first_independent_result_sha256": "0d31ae51f4ad4d4ff70360b81fa0c3c1e30b6fd9a006dc7a93907d3f8f5a74b3",
+  "first_independent_status_superseded": "PASS_IDEAL_EQUALITY_PENDING_COLD_REVIEW",
+  "load_bearing_correction": "AFFINE_SPECIAL_FIBER_LENGTH_IS_NOT_AN_UNCONDITIONAL_UPPER_BOUND_ON_RATIONAL_LENGTH",
+  "rational_ideal_equality": "OPEN",
+  "schema": "udt-c08-finite-field-corrected-status-1.0"
+}

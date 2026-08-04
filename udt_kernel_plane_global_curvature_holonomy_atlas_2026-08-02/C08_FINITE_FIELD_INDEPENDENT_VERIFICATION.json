@@ -1,0 +1,189 @@
+{
+  "catch_proofs": {
+    "certificate_hash_mismatch_rejected": true,
+    "changed_input_coefficient_rejected": true,
+    "changed_nonzero_transformation_coefficient_rejected": true,
+    "changed_prime_rejected": true,
+    "changed_quotient_count_rejected": true,
+    "dropped_basis_element_rejected": true,
+    "dropped_transformation_column_rejected": true,
+    "dropped_transformation_row_rejected": true,
+    "process_hash_mismatch_rejected": true,
+    "reversed_rank_inequality_rejected": true
+  },
+  "dimension_argument": {
+    "filtered_rank_inequality": "rank_Q>=rank_Fp",
+    "finite_field_quotient_upper_bound": 124,
+    "rational_quotient_lower_bound": 124,
+    "surjection_dimension_sandwich": true
+  },
+  "finite_field": {
+    "basis_size": 9,
+    "basis_term_counts": [
+      28,
+      30,
+      31,
+      31,
+      29,
+      30,
+      30,
+      30,
+      30
+    ],
+    "buchberger_failures": [],
+    "buchberger_pairs": 36,
+    "input_reduction_failures": [],
+    "input_term_counts": [
+      567,
+      538,
+      492,
+      484,
+      517,
+      488
+    ],
+    "leading_monomials": [
+      [
+        13,
+        0
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        6,
+        10
+      ]
+    ],
+    "matrix_shape": [
+      6,
+      9
+    ],
+    "matrix_term_counts": [
+      [
+        333,
+        323,
+        323,
+        323,
+        354,
+        378,
+        378,
+        378,
+        378
+      ],
+      [
+        333,
+        323,
+        323,
+        323,
+        354,
+        378,
+        378,
+        378,
+        378
+      ],
+      [
+        428,
+        415,
+        415,
+        415,
+        452,
+        478,
+        478,
+        478,
+        478
+      ],
+      [
+        406,
+        390,
+        390,
+        390,
+        429,
+        451,
+        451,
+        451,
+        451
+      ],
+      [
+        401,
+        386,
+        386,
+        386,
+        425,
+        447,
+        447,
+        447,
+        447
+      ],
+      [
+        406,
+        395,
+        395,
+        395,
+        430,
+        456,
+        456,
+        456,
+        456
+      ]
+    ],
+    "pure_power_bounds": {
+      "y": 16,
+      "z": 13
+    },
+    "standard_monomial_count": 124,
+    "transformation_residual_term_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "finite_field_process_sha256": "aebb1fbad1bb210901b5c275bb696313d094365516c55755323227965b652ef7",
+  "finite_field_stdout_sha256": "bc08416250c4b2ec213c07bbbc208aab6da73501043847db4139d9af5ee7314a",
+  "prime": 32003,
+  "rational_basis_sha256": "a785441f0bb6fc5bb8f631861a84336660f8508e729780a6e40459868070479b",
+  "rational_input_sha256": "8079b60cbe573ffefe0557a92b0c35f35b2e6a6a413bc26c5f99a85fc7c96ec0",
+  "rational_replay": {
+    "basis_size": 9,
+    "buchberger_failures": [],
+    "buchberger_pairs": 36,
+    "input_reduction_failures": [],
+    "pure_power_bounds": {
+      "y": 16,
+      "z": 13
+    },
+    "standard_monomial_count": 124
+  },
+  "schema": "udt-c08-finite-field-independent-verification-1.0",
+  "status": "PASS_IDEAL_EQUALITY_PENDING_COLD_REVIEW"
+}
