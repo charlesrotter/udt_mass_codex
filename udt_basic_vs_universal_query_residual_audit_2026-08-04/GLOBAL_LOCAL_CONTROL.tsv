@@ -1,0 +1,5 @@
+control_id	geometry	local_finite_jet_data	loop_holonomy	all_loop_trivial	scope
+G01	translation flat quotient	all registered local curvature jets zero	identity	YES	control only
+G02	glide-reflection flat quotient	all registered local curvature jets zero	reflection diag(-1,1)	NO	control only
+G03	finite local metric tensor relation	cannot distinguish G01/G02	not available	NOT_SUFFICIENT_IN_GENERAL	same local germ
+G04	universal loop-query relation	uses complete path groupoid	distinguishes G01/G02	GENUINE_GLOBAL_METRIC_RELATION	no observer section

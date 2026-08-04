@@ -1,0 +1,9 @@
+variation_id	object	variation_rule	guard	status
+V01	universal query family	vary g while enforcing every q	no independent delta_q	DERIVED_TYPE_RULE
+V02	finite coefficient map	differentiate coefficient tensor/system	rank must match query-family linearization	VALID_ON_REGISTERED_REGULAR_CONTROL
+V03	sum or norm of squared residuals	zero set may agree but derivative vanishes at residual zero	requires an independently justified variational role	REJECT_AS_AUTOMATIC_REPLACEMENT
+V04	regular metric-derived selector	include DS_g chain term	no independent delta_q	CONDITIONAL_REGULAR
+V05	singular/set-valued selector	tangent cone interface or differential relation	no unique smooth derivative	OPEN
+V06	global path relation	differentiate full holonomy/distance relation if selected	not captured by local jet variation in general	OPEN_NATIVE_OWNER
+V07	boundary query relation	retain base boundary and pair polarization owners	boundary domain not selected	OPEN
+V08	metric-dependent normalized query fiber	differentiate on total query bundle or after faithful coefficient reduction	induced query lift is kinematic and lift ambiguity cancels on regular universal zero section	DERIVED_REGULAR__STRATIFIED_AT_DOMAIN_CHANGE

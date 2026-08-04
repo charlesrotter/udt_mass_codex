@@ -1,0 +1,9 @@
+python3 udt_basic_vs_universal_query_residual_audit_2026-08-04/freeze_sources.py
+python3 udt_basic_vs_universal_query_residual_audit_2026-08-04/derive_universal_query_residual.py
+python3 udt_basic_vs_universal_query_residual_audit_2026-08-04/verify_universal_query_independent.py
+python3 udt_basic_vs_universal_query_residual_audit_2026-08-04/verify_audit.py
+python3 udt_basic_vs_universal_query_residual_audit_2026-08-04/record_environment.py
+python3 udt_basic_vs_universal_query_residual_audit_2026-08-04/verify_repository_gates.py
+python3 -m pytest -q tests
+python3 udt_basic_vs_universal_query_residual_audit_2026-08-04/build_manifest.py
+python3 udt_basic_vs_universal_query_residual_audit_2026-08-04/verify_package.py

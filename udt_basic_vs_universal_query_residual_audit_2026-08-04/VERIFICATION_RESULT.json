@@ -1,0 +1,15 @@
+{
+  "catch_proofs": 22,
+  "control_rows": 15,
+  "equivalence_notions": 7,
+  "foundational_rows": 6,
+  "fresh_adversarial_review": "PASS",
+  "frozen_sources": 26,
+  "global_local_rows": 4,
+  "independent_exact_checks": 15,
+  "production_exact_checks": 54,
+  "residual_classes": 8,
+  "result": "UNIVERSAL_QUERY_OPERATOR_CAN_REMAIN_NONBASIC__SOLUTION_SET_DESCENDS__LOCAL_ALGEBRAIC_CONTROL_REDUCES_TO_BASIC_TENSOR__GLOBAL_PATH_CONTROL_NOT_FINITE_LOCAL__ARCHITECTURE_NOT_SELECTED",
+  "status": "PASS",
+  "variation_rows": 8
+}

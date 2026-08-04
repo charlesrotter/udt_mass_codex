@@ -1,0 +1,16 @@
+control_id	control	exact_result	ruling
+K01	pair-projector residual at fixed ambient A	5 versus 7	OPERATOR_NONBASIC
+K02	nine observer/ruler coefficient equations on symmetric S	rank 9 nullity 1	FINITE_COEFFICIENT_EXTRACTION
+K03	kernel of universal pair family	S proportional to metric	BASIC_TRACEFREE_TENSOR_REDUCTION
+K04	query and trace-free coefficient row spaces	stacked rank 9	SAME_ZERO_SET_AND_LINEARIZED_SYSTEM
+K05	Lorentz-trace-free anisotropic S	trace 0 pair residual 4	ONE_BASIC_SCALAR_TOO_WEAK
+K06	nonzero metric-line S	all query residuals 0 trace -4	UNIVERSAL_FAMILY_NOT_S_EQUAL_ZERO
+K07	L(x,q)=q x versus F=x	both tangent rank 1	VARIATION_EQUIVALENT_CONTROL
+K08	L(x,q)=q x versus G=x squared	query rank 1 square rank 0	ZERO_SET_ONLY_NOT_VARIATION_EQUIVALENT
+K09	trace-free coefficient map	tangent rank 9	REGULAR_COEFFICIENT_REDUCTION_PRESERVES_TANGENT
+K10	squared norm of trace-free coefficients	gradient rank 0 on solution	SCALARIZATION_LOSES_FIRST_VARIATION
+K11	flat translation quotient loop	identity holonomy	GLOBAL_POSITIVE_CONTROL
+K12	flat glide-reflection quotient loop	reflection holonomy determinant -1	GLOBAL_NONLOCAL_CONTROL
+K13	local curvature jets of both flat quotients	orders 0 through 4 all zero	FINITE_LOCAL_DATA_IDENTICAL
+K14	all-loop trivial-holonomy predicate	distinguishes K11 and K12	NOT_REDUCIBLE_TO_FINITE_LOCAL_METRIC_JETS_IN_GENERAL
+K15	registered SNe readout	d_L/X=z(z+2)	DOWNSTREAM_COMPATIBILITY_ONLY

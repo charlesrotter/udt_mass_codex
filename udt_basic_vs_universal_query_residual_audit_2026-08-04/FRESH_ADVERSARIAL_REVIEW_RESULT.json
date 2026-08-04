@@ -1,0 +1,9 @@
+{
+  "files_modified_by_reviewer": 0,
+  "model": "gpt-5.4",
+  "required_repairs": 0,
+  "review_output_sha256": "4c1e1eadb80533111cd48f7b70b0c3eb110eb1a16cdb35dd1c1568d662913a19",
+  "review_raw_sha256": "828e8b06dcf64658668ceccf668300b6bf8c53d53a1e0f4cefce32eb0225db6e",
+  "scope": "audit package plus 26 hash-frozen sources; read-only; no research continuation",
+  "verdict": "PASS"
+}
