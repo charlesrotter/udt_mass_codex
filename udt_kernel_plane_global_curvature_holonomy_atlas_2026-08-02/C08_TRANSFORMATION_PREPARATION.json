@@ -1,0 +1,22 @@
+{
+  "frozen_basis_stdout_sha256": "a785441f0bb6fc5bb8f631861a84336660f8508e729780a6e40459868070479b",
+  "frozen_original_input_sha256": "8079b60cbe573ffefe0557a92b0c35f35b2e6a6a413bc26c5f99a85fc7c96ec0",
+  "input_sha256": "bf6e00b8f98b7313844139a284b76faff4364579b342356eec60104c5f4db044",
+  "prepared_at": "2026-08-03T21:59:25-04:00",
+  "schema": "udt-c08-transformation-preparation-1.0",
+  "source_count": 143,
+  "source_manifest_sha256": "44cc23c6fc499ccbb2a60734f66738266ccfc22da7bec214576bb33108a29329",
+  "status": "PASS_PREPARED_NOT_LAUNCHED",
+  "toy": {
+    "optimized_kernel_sha256": {
+      "p_Procs_FieldGeneral.so": "52551ac37195e536e59533d8d88f883221281a60a85455801ad0db780f0b6d38",
+      "p_Procs_FieldIndep.so": "61af380ad9c37c6522ed9c25d4fd34067424bb6b648af26fbd76216dfeb5b1e4",
+      "p_Procs_FieldQ.so": "b730d0d1a6e1c5985398cac4de9194736ff3855be25e423f90c6f53882944fc4",
+      "p_Procs_FieldZp.so": "7da4f7f5b643adcaaf4317cedc95ffaef55e41d0e0792f0433bb370daba7ce6a"
+    },
+    "returncode": 0,
+    "status": "PASS_NONTRIVIAL_EXACT_TRANSFORMATION_TOY",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "44c091b9316a15b7de677535679360d0f030267dafba9e8cd01de7295fdf9a47"
+  }
+}
