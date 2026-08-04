@@ -1,0 +1,52 @@
+{
+  "generators": [
+    {
+      "name": "a1",
+      "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_A_12.txt",
+      "sha256": "4f6892d723de7d3c89625a39f24a5865572d19badd155bbd1dbebc177a5daf79"
+    },
+    {
+      "name": "b1",
+      "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_B_12.txt",
+      "sha256": "c688b172d9e53ee7a057426a65a134cae98f183b184f16c78c3d809fe3f28c6d"
+    },
+    {
+      "name": "a2",
+      "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_A_13.txt",
+      "sha256": "b5118b60c04f48930090a14ea35731ae065e314ab7c71bc19916f5a1fb6fbaa4"
+    },
+    {
+      "name": "b2",
+      "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_B_13.txt",
+      "sha256": "9caa870abae9c4a8d30ed9fc0bb1b460bf03bb0fef89ee752bad47428b4b1cf6"
+    },
+    {
+      "name": "a3",
+      "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_A_23.txt",
+      "sha256": "81b31021b8fe67b195328de5db30f1ff16d38f4b6bdaa404af6616780d91c5e0"
+    },
+    {
+      "name": "b3",
+      "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_B_23.txt",
+      "sha256": "3e3762b14cbdfcb06963796dc1d50156e49f10944f5a7bac7ba6691451aaf699"
+    }
+  ],
+  "input_sha256": "8079b60cbe573ffefe0557a92b0c35f35b2e6a6a413bc26c5f99a85fc7c96ec0",
+  "prepared_at": "2026-08-03T20:55:31-04:00",
+  "schema": "udt-c08-exact-modular-preparation-1.0",
+  "singular_version": "Singular for x86_64-Linux version 4.2.1 (4212, 64 bit) Dec 17 2021 20:20:53",
+  "smoke": {
+    "optimized_kernel_sha256": {
+      "p_Procs_FieldGeneral.so": "52551ac37195e536e59533d8d88f883221281a60a85455801ad0db780f0b6d38",
+      "p_Procs_FieldIndep.so": "61af380ad9c37c6522ed9c25d4fd34067424bb6b648af26fbd76216dfeb5b1e4",
+      "p_Procs_FieldQ.so": "b730d0d1a6e1c5985398cac4de9194736ff3855be25e423f90c6f53882944fc4",
+      "p_Procs_FieldZp.so": "7da4f7f5b643adcaaf4317cedc95ffaef55e41d0e0792f0433bb370daba7ce6a"
+    },
+    "returncode": 0,
+    "status": "PASS_WARNING_FREE_EXACT_MODULAR_OPTIMIZED_KERNEL",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "dd78dc257dca7f6ce51a89f8b0dacb380335d26e8ef23532f495fdc19fe1529b"
+  },
+  "source_manifest_sha256": "bbdbbc592b06c91305524f9227ce197e348abf1047e8e91c932bc5c5b3d05721",
+  "status": "PASS_PREPARED_NOT_LAUNCHED"
+}
