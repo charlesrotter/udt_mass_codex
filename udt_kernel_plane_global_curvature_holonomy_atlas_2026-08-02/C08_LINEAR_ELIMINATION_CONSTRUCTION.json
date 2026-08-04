@@ -1,0 +1,159 @@
+{
+  "charts": [
+    {
+      "compatibility": [
+        {
+          "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_12_COMPAT_13.txt",
+          "sha256": "1e5366dcc9634295fcf40f670e11b8f67eb39e518c03d6482c34c79a781be06d",
+          "terms": 2104,
+          "total_degree": 77
+        },
+        {
+          "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_12_COMPAT_23.txt",
+          "sha256": "fadb0b907f21a612eb874f8536e4b2a29c8b8855ee3b181fbafb696e7bda6c4f",
+          "terms": 2136,
+          "total_degree": 78
+        }
+      ],
+      "contact": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_12_CONTACT.txt",
+        "sha256": "6486ab842590c456747f0911e9a16d9eb6beb8cd6c2821997991574806272d7e",
+        "terms": 2249,
+        "total_degree": 82
+      },
+      "owner": "12",
+      "saturation_factor": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_A_12.txt",
+        "sha256": "4f6892d723de7d3c89625a39f24a5865572d19badd155bbd1dbebc177a5daf79",
+        "terms": 567,
+        "total_degree": 40
+      }
+    },
+    {
+      "compatibility": [
+        {
+          "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_13_COMPAT_12.txt",
+          "sha256": "1e5366dcc9634295fcf40f670e11b8f67eb39e518c03d6482c34c79a781be06d",
+          "terms": 2104,
+          "total_degree": 77
+        },
+        {
+          "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_13_COMPAT_23.txt",
+          "sha256": "9890521484e1487e59658a58ef41639ba3cf45a8a40f529b1a6786a2d50e83d5",
+          "terms": 2004,
+          "total_degree": 75
+        }
+      ],
+      "contact": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_13_CONTACT.txt",
+        "sha256": "25e3335deefe10592cb4526554a1e91bb364912248e1961a2dcc7ba210e79fe5",
+        "terms": 2010,
+        "total_degree": 76
+      },
+      "owner": "13",
+      "saturation_factor": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_A_13.txt",
+        "sha256": "b5118b60c04f48930090a14ea35731ae065e314ab7c71bc19916f5a1fb6fbaa4",
+        "terms": 492,
+        "total_degree": 37
+      }
+    },
+    {
+      "compatibility": [
+        {
+          "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_23_COMPAT_12.txt",
+          "sha256": "fadb0b907f21a612eb874f8536e4b2a29c8b8855ee3b181fbafb696e7bda6c4f",
+          "terms": 2136,
+          "total_degree": 78
+        },
+        {
+          "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_23_COMPAT_13.txt",
+          "sha256": "9890521484e1487e59658a58ef41639ba3cf45a8a40f529b1a6786a2d50e83d5",
+          "terms": 2004,
+          "total_degree": 75
+        }
+      ],
+      "contact": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_23_CONTACT.txt",
+        "sha256": "fba1aa9ea36e0a65324e69377a9b83a5428f49b01c3a78682eccadda8b4249e1",
+        "terms": 2071,
+        "total_degree": 78
+      },
+      "owner": "23",
+      "saturation_factor": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_A_23.txt",
+        "sha256": "81b31021b8fe67b195328de5db30f1ff16d38f4b6bdaa404af6616780d91c5e0",
+        "terms": 517,
+        "total_degree": 38
+      }
+    }
+  ],
+  "components": [
+    {
+      "A": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_A_12.txt",
+        "sha256": "4f6892d723de7d3c89625a39f24a5865572d19badd155bbd1dbebc177a5daf79",
+        "terms": 567,
+        "total_degree": 40
+      },
+      "B": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_B_12.txt",
+        "sha256": "c688b172d9e53ee7a057426a65a134cae98f183b184f16c78c3d809fe3f28c6d",
+        "terms": 538,
+        "total_degree": 40
+      },
+      "component": "12",
+      "degree_x": 1,
+      "reconstruction": "PASS_EXACT_IDENTITY",
+      "source_sha256": "33556b4e5be92d26374f71890246e4365679cb20dcf011b3de12b9eb2b8ef0c8"
+    },
+    {
+      "A": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_A_13.txt",
+        "sha256": "b5118b60c04f48930090a14ea35731ae065e314ab7c71bc19916f5a1fb6fbaa4",
+        "terms": 492,
+        "total_degree": 37
+      },
+      "B": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_B_13.txt",
+        "sha256": "9caa870abae9c4a8d30ed9fc0bb1b460bf03bb0fef89ee752bad47428b4b1cf6",
+        "terms": 484,
+        "total_degree": 37
+      },
+      "component": "13",
+      "degree_x": 1,
+      "reconstruction": "PASS_EXACT_IDENTITY",
+      "source_sha256": "8da80c9796eb9032097feecd8244fffd33938f193c39e5ac2088a768025076be"
+    },
+    {
+      "A": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_A_23.txt",
+        "sha256": "81b31021b8fe67b195328de5db30f1ff16d38f4b6bdaa404af6616780d91c5e0",
+        "terms": 517,
+        "total_degree": 38
+      },
+      "B": {
+        "path": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_B_23.txt",
+        "sha256": "3e3762b14cbdfcb06963796dc1d50156e49f10944f5a7bac7ba6691451aaf699",
+        "terms": 488,
+        "total_degree": 38
+      },
+      "component": "23",
+      "degree_x": 1,
+      "reconstruction": "PASS_EXACT_IDENTITY",
+      "source_sha256": "95820a5fdb9a931616d339a5ad1f7c20aca6e6174faebdc94368da623d693cbf"
+    }
+  ],
+  "coverage": "union(A_12!=0,A_13!=0,A_23!=0,all_A_zero)",
+  "exceptional_case": {
+    "equations": [
+      "A_12=0;B_12=0",
+      "A_13=0;B_13=0",
+      "A_23=0;B_23=0"
+    ],
+    "status": "REGISTERED_FOR_EXACT_CLASSIFICATION"
+  },
+  "schema": "udt-c08-exact-linear-elimination-construction-1.0",
+  "source_manifest_sha256": "1e559e0d8e06539eded06167f0ee95f1fc0de23897951a2b2951396567f850f4",
+  "status": "PASS_EXACT_CONSTRUCTION"
+}

@@ -51,6 +51,22 @@ CURRENT_EVIDENCE = (
     "C08_GENERIC_GROEBNER_RESOURCE_RETURN.json",
     "C08_ALL_ZERO_SLIMGB_RESOURCE_RETURN.json",
 )
+CURRENT_METHOD_INPUTS = (
+    "run_c08_exact_linear_elimination.py",
+    "C08_LINEAR_ELIMINATION_CONSTRUCTION.json",
+    "C08_LINEAR_A_12.txt",
+    "C08_LINEAR_B_12.txt",
+    "C08_LINEAR_A_13.txt",
+    "C08_LINEAR_B_13.txt",
+    "C08_LINEAR_A_23.txt",
+    "C08_LINEAR_B_23.txt",
+)
+CURRENT_RESOURCE_ARTIFACTS = (
+    "C08_LINEAR_ALL_ZERO_INPUT.sing",
+    "C08_LINEAR_ALL_ZERO_STDOUT.txt",
+    "C08_LINEAR_ALL_ZERO_STDERR.txt",
+    "C08_LINEAR_ALL_ZERO_PROCESS_RESULT.json",
+)
 
 
 def git_blob(path):
@@ -76,6 +92,10 @@ def main():
         sources[str((HERE / name).relative_to(ROOT))] = "current_preregistration_boundary"
     for name in CURRENT_EVIDENCE:
         sources[str((HERE / name).relative_to(ROOT))] = "pre_refactor_resource_evidence"
+    for name in CURRENT_METHOD_INPUTS:
+        sources[str((HERE / name).relative_to(ROOT))] = "frozen_exact_modular_method_input"
+    for name in CURRENT_RESOURCE_ARTIFACTS:
+        sources[str((HERE / name).relative_to(ROOT))] = "pre_refactor_raw_resource_artifact"
 
     scope_rows = []
     manifest_rows = []

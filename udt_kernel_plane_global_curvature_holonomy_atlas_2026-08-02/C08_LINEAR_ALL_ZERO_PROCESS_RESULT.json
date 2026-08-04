@@ -1,0 +1,9 @@
+{
+  "case": "all_zero",
+  "input_sha256": "2ff1fc1d8d0ad5ce404a26e54d1ac5d0833eb3073406792b8a3ff3c5c91ef741",
+  "returncode": 1,
+  "schema": "udt-c08-exact-linear-elimination-case-1.0",
+  "status": "OPEN_PROCESS_ERROR",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "bf706acdab45a1e8f6f7651fd7d1f54f0799228b78346fb4cb0af4b09378851a"
+}
