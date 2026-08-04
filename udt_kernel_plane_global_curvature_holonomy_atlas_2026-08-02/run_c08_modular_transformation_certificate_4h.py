@@ -46,12 +46,14 @@ def historical_gate() -> dict[str, object]:
 
 
 def toy_gate(command: list[str]) -> dict[str, object]:
+    stdout_path = HERE / "C08_TRANSFORMATION_4H_RETRY_TOY_STDOUT.txt"
+    stderr_path = HERE / "C08_TRANSFORMATION_4H_RETRY_TOY_STDERR.txt"
+    assert not stdout_path.exists(), f"refusing to overwrite {stdout_path.name}"
+    assert not stderr_path.exists(), f"refusing to overwrite {stderr_path.name}"
     completed = subprocess.run(
         command, input=base.toy_source(), text=True, capture_output=True,
         env=base.environment(), timeout=60, check=False,
     )
-    stdout_path = HERE / "C08_TRANSFORMATION_4H_TOY_STDOUT.txt"
-    stderr_path = HERE / "C08_TRANSFORMATION_4H_TOY_STDERR.txt"
     stdout_path.write_text(completed.stdout, encoding="utf-8")
     stderr_path.write_text(completed.stderr, encoding="utf-8")
     combined = completed.stdout + completed.stderr
@@ -77,6 +79,7 @@ def main() -> int:
     assert base.SINGULAR.is_file() and all(path.is_file() for path in base.POLY_KERNELS)
     driver_blob = committed_blob(Path(__file__))
     prereg_blob = committed_blob(HERE / "C08_MODULAR_TRANSFORMATION_4H_PREREGISTRATION.md")
+    correction_blob = committed_blob(HERE / "C08_MODULAR_TRANSFORMATION_4H_EXECUTION_CORRECTION.md")
     old_process = historical_gate()
     source_count, source_hash = base.source_gate()
     input_path = HERE / "C08_TRANSFORMATION_CERTIFICATE_INPUT.sing"
@@ -186,6 +189,7 @@ def main() -> int:
         "source_manifest_sha256": source_hash,
         "driver_blob": driver_blob,
         "preregistration_blob": prereg_blob,
+        "execution_correction_blob": correction_blob,
         "prior_process_sha256": base.digest(HERE / "C08_TRANSFORMATION_CERTIFICATE_PROCESS.json"),
         "prior_status": old_process["status"],
         "toy": toy,
