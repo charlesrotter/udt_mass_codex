@@ -153,3 +153,24 @@ returns OPEN.
 The same `(dp,C)` ordering remains the sole candidate ordering. It must pass the original toy
 projection, tag-identity, low-degree-lift, and mutation gates under this corrected distinction before
 any C08 tagged-module input is opened. No alternative ordering or automatic fallback is authorized.
+
+## Pre-production component-elimination ordering correction
+
+Two corrected untrusted toy searches under `(dp,C)` opened no C08 polynomial. Putting the polynomial
+projection first returned the two original toy generators plus their syzygy; putting it last returned
+the same three vectors with permuted components. In neither placement did the nonzero projection form
+the toy ideal's Gröbner basis. The preregistered projection gate therefore rejected `(dp,C)`.
+
+The installed `linalg.lib` independently identifies `(C,dp)` as the ordering used for an augmented
+module transformation calculation: component elimination precedes polynomial degree order. Before
+any C08 tagged-module input is opened, one separately recorded toy attempt may therefore use exactly
+
+```text
+ring r=0,(x,y),(C,dp);
+module M=[f_1,1,0],[f_2,0,1];
+module H=modStd(M,0);
+```
+
+with the polynomial projection in component one. The output remains an untrusted coefficient search
+and must pass every original exact toy gate, including mutation. Failure returns this tagged-module
+method OPEN. No further ordering, component placement, or fallback is authorized by this correction.
