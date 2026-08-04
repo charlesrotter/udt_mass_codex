@@ -347,7 +347,11 @@ def main() -> int:
     stdout_path = HERE / "C08_HOMOGENEOUS_STDOUT.txt"
     stderr_path = HERE / "C08_HOMOGENEOUS_STDERR.txt"
     process = json.loads(process_path.read_text())
-    assert process["status"] == "RETURNED_CERTIFIED_HOMOGENEOUS_FIBER_PENDING_INDEPENDENT_REVIEW"
+    accepted_statuses = {
+        "RETURNED_CERTIFIED_HOMOGENEOUS_FIBER_PENDING_INDEPENDENT_REVIEW",
+        "OPEN_PROCESS_OR_HOMOGENEOUS_CERTIFICATE_FAILURE",
+    }
+    assert process["status"] in accepted_statuses and process["stop_reason"] is None
     assert process["prime"] == str(PRIME)
     assert digest(stdout_path) == process["stdout_sha256"]
     assert digest(stderr_path) == process["stderr_sha256"]
@@ -405,6 +409,12 @@ def main() -> int:
 
     finite_upper = int(hilbert["eventual_hilbert_constant"])
     dimension_sandwich = rational_count == finite_upper == 124
+    production_success_gate = (
+        process["status"] == "RETURNED_CERTIFIED_HOMOGENEOUS_FIBER_PENDING_INDEPENDENT_REVIEW"
+    )
+    process_invariants_match = (
+        process["dim"] == "1" and int(process["mult"]) == finite_upper
+    )
     stabilization_values = set(hilbert["stabilization_samples"].values())
     catch_proofs = {
         "changed_transformation_coefficient_rejected": any(
@@ -424,9 +434,10 @@ def main() -> int:
         "inhomogeneous_rank_shortcut_rejected": not policy_gate("AFFINE_SPECIAL_FIBER_SHORTCUT"),
     }
 
-    passed = (
+    internally_sound = (
         input_program_gate()
         and policy_gate(HOMOGENIZATION_POLICY)
+        and process_invariants_match
         and not dehomogenization_failures
         and not independent_homogenization_failures
         and not input_homogeneity_failures
@@ -434,18 +445,26 @@ def main() -> int:
         and not any(residuals)
         and not finite_buchberger
         and not finite_input_failures
-        and finite_upper == 124
-        and stabilization_values == {124}
+        and stabilization_values == {finite_upper}
         and not rational_buchberger
         and not rational_input_failures
         and rational_count == 124
-        and dimension_sandwich
         and all(catch_proofs.values())
     )
+    passed = internally_sound and production_success_gate and finite_upper == 124 and dimension_sandwich
+    if passed:
+        status = "PASS_IDEAL_EQUALITY_PENDING_COLD_REVIEW"
+    elif internally_sound and not production_success_gate and finite_upper != 124:
+        status = "OPEN_HOMOGENEOUS_OBSTRUCTION_INDEPENDENTLY_CONFIRMED"
+    else:
+        status = "REFUTED_OR_VERIFIER_ERROR"
     result = {
         "schema": "udt-c08-homogeneous-independent-verification-1.0",
-        "status": "PASS_IDEAL_EQUALITY_PENDING_COLD_REVIEW" if passed else "REFUTED_OR_VERIFIER_ERROR",
+        "status": status,
         "prime": PRIME,
+        "production_status": process["status"],
+        "production_success_gate": production_success_gate,
+        "process_invariants_match": process_invariants_match,
         "homogenization_policy": HOMOGENIZATION_POLICY,
         "finite_homogeneous_replay": {
             "input_count": len(returned_inputs),
@@ -490,7 +509,7 @@ def main() -> int:
     target = HERE / "C08_HOMOGENEOUS_INDEPENDENT_VERIFICATION.json"
     target.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(result, sort_keys=True))
-    return 0 if passed else 1
+    return 0 if status != "REFUTED_OR_VERIFIER_ERROR" else 1
 
 
 if __name__ == "__main__":
