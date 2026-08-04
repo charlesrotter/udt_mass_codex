@@ -4,24 +4,29 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, universal-query architecture genuine)
+## TOP — CURRENT POINTER (2026-08-04, reciprocal composition route terminated)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
 block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
-`udt_basic_vs_universal_query_residual_audit_2026-08-04/` in its stated order. Use the native-law,
-section/descent, split-selector, globalization and factorized-skeleton parents only when their
-evidence is load-bearing.
+`udt_reciprocal_path_composition_residual_audit_2026-08-04/` in its stated order. Use the
+universal-query, native-law, section/descent, split-selector, globalization and factorized-skeleton
+parents only when their evidence is load-bearing.
 
-Current honest result: universal-all-queries gives an observer-independent metric solution set
-without selecting a physical observer section, although its operator can remain query-dependent.
-The bounded local symmetric-tensor control reduces to `S^TF=0`; global quotient holonomy shows that
-all-path content need not reduce to finite local jets. Equal zero sets are not enough for
-variational equivalence. The architecture is allowed, but no nontrivial native residual or
-local/global selection is derived. SNe remains only a conditional downstream anchor.
+Current honest result: founded reciprocal composition is exact but nonselecting. It constrains free
+pair-depth data, yet becomes an identity for every endpoint potential and every supplied additive
+cocycle. Path concatenation does not derive closedness or zero periods, and metric transport
+composition is not an equation of motion. The current composition-to-residual route terminates
+without a new source-backed physical depth or loop-return premise. SNe remains only a conditional
+downstream anchor.
 
-Proposed next, not authorized: test reciprocal path/groupoid source provenance for a nontrivial
-metric-dependent loop/path residual, retaining the possibility that composition is merely an
-identity.
+Proposed next, not authorized: a brief source/object decision audit of whether existing
+global–local/bootstrap evidence already contains a concrete return map with defined domain,
+codomain and noncircular inputs.
+
+## PRIOR TOP — CURRENT POINTER (2026-08-04, universal-query architecture genuine)
+
+The basic-versus-universal-query package remains the authority for section-free universal solution
+sets, exact local tensor reduction, global holonomy content, and the variation-equivalence caveat.
 
 ## PRIOR TOP — CURRENT POINTER (2026-08-04, founded law types located)
 

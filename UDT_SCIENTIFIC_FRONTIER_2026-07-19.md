@@ -4,6 +4,23 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 4 reciprocal path-composition precedence notice
+
+This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →
+`HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
+`udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md` and its exact evidence.
+
+Founded reciprocal composition is exact but nonselecting kinematics. It restricts arbitrary free
+pair-depth assignments, but all endpoint-potential depths satisfy it identically. Path-integral
+concatenation does not derive closedness or zero loop periods, while Levi-Civita and typed
+semidirect transport compose for every supplied metric. A nontrivial loop residual requires a new
+metric-native depth rule and a separately founded endpoint/loop condition.
+
+The composition-to-native-residual route is terminated on the current source record. The proposed
+global–local/bootstrap return-map decision audit is not authorized automatically. No action,
+source, carrier, boundary, density, branch, `X_max`, matter, mass, dynamics, GPU work, or
+canonization follows.
+
 ## August 4 basic-versus-universal-query precedence notice
 
 This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →

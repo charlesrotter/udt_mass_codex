@@ -6,48 +6,43 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
 
-## CURRENT — universal-query architecture is genuine; actual native residual remains open
+## CURRENT — reciprocal composition is nonselecting; that derivation route is closed
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
-3. `udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
-   derivation, reduction/variation/global ledgers, foundational ruling, fresh review, four gates,
+3. `udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
+   derivation, candidate/implication/loop ledgers, source adjudication, review closure, four gates,
    lay report, and next step.
-4. The native-law type audit and earlier parents only when their type or architecture is load-bearing.
+4. The universal-query/native-law parents only when their architecture is load-bearing.
 
-**Current honest result:** a residual imposed for every observer query defines an
-observer-independent metric solution set without a physical observer section. Its operator can
-nevertheless remain query-dependent. In the exact local symmetric-tensor control, nine independent
-conditions reduce to `S^TF=0`, leaving `S=lambda g`; globally, distinct quotient holonomies prove
-that all-path laws can contain information absent from every finite local curvature jet.
-
-Equal zero sets are not automatically equivalent for variation: tangent rank can change after
-squaring or aggregation, and no query measure is founded. Regular universal zero sections have
-well-defined metric variation despite query-bundle motion; singular/domain-changing strata remain
-open.
+**Current honest result:** reciprocal composition constrains arbitrary pair-depth data, but every
+endpoint-potential depth satisfies it identically. Concatenation also holds for both closed and
+nonclosed path one-forms, and metric transport composes for every supplied metric. Therefore the
+founded composition law is exact kinematics but not a nontrivial metric residual or profile
+selector.
 
 **SNe anchor:** the conditional relation `d_L/X=z(z+2)` requires distinct downstream clock,
 angular-area, optical and proper pair-distance readout slots. It does not select the upstream law,
 quantifier, variation domain, branch or `X_max`.
 
-**Foundational ruling:** universal-query architecture is allowed but not selected. Reciprocity gives
-query kinematics and composition, not a nontrivial residual or a choice between local and global/path
-laws.
+**Foundational ruling:** Reciprocity constrains how a future law transforms; it does not generate
+the law. The composition route terminates unless a new source derives a physical metric-depth map or
+an endpoint/loop-return premise.
 
-**Next proposed, not authorized:** audit the founded reciprocal path/groupoid composition for a
-source-backed nontrivial metric-dependent loop/path residual. Retain the outcome that composition is
-only an identity. Do not invent a defect or reconstruct an action.
+**Next proposed, not authorized:** briefly audit existing global–local/bootstrap evidence for a
+concrete return map with defined domain, codomain and noncircular inputs. If absent, pause and
+reassess premises rather than launch another derivation taxonomy.
 
-**Evidence:** `583173cf`/`b17efd44`; 7 equivalence notions, 8 residual classes, 54 production plus 15
-independent exact checks, 22 catches, and fresh `PASS`. Source hash `3a52e123…`; 49-member package
-hash `261ed174…`;
+**Evidence:** `e4b5ec4a`/`d0570b2b`; 32 adjudicated sources, 12 candidates, 53 production plus 35
+independent exact checks, 22 artifact mutations, and two fresh `PASS_WITH_CAVEATS` reviews whose
+operational caveats are closed. Source hash `ed1e5b7…`; 51-member package hash `16b0be59…`;
 frozen 6/127/133, current paths 1,114, frontier targets 101, tests `70 passed, 1 xfailed`, and 83
 unrelated metadata-identical untracked paths.
 
-**Authority boundary:** no actual native residual, universal-query selection, local/global choice,
-complete native law, action, source, carrier,
+**Authority boundary:** no physical depth rule, loop-return premise, actual native residual,
+universal-query selection, local/global choice, complete native law, action, source, carrier,
 boundary functional, bootstrap equation, density, branch, `X_max`, mass/matter, dynamics, GPU work,
 canonization, or reorganization follows.
 

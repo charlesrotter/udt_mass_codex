@@ -4,30 +4,28 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
-## ============ CURRENT STATE (2026-08-04 — UNIVERSAL QUERY ARCHITECTURE GENUINE; ACTUAL NATIVE RESIDUAL AND LOCAL/GLOBAL SELECTION OPEN) ============
+## ============ CURRENT STATE (2026-08-04 — RECIPROCAL COMPOSITION ROUTE TERMINATED AS NONSELECTING; GLOBAL–LOCAL RETURN REMAINS OPEN) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
-reduction/variation/global ledgers, foundational ruling, status ledger, fresh review, four gates and
-next step. Read the native-law home/codomain parent only when its type classification is
-load-bearing.
+`udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
+candidate/implication/loop ledgers, source adjudication, review closure, four gates and next step.
+Read the universal-query and native-law type parents only when their architecture is load-bearing.
 
-**CURRENT HONEST RESULT:** universal-all-observer-query architecture is genuine and needs no
-physical observer section. At the solution-set level, `L(g,q)=0` for every query always defines an
-observer-independent subset of metric configurations. That logical descent does not imply that the
-operator itself is basic: the exact control `trace(PA)` remains query-dependent.
+**CURRENT HONEST RESULT:** founded reciprocal composition is exact kinematics, not the missing
+metric law. It genuinely rejects arbitrary inconsistent observer-pair depth assignments. Once
+depths are endpoint differences of any `phi`, however, every composition residual vanishes
+identically and has zero profile Jacobian. Path integrals concatenate whether their curvature and
+loop periods vanish or not. Levi-Civita and typed semidirect transport likewise compose for every
+supplied metric.
 
-In the bounded local symmetric-tensor control, all pair equations reduce exactly to the rank-nine
-basic tensor system `S^TF=0`, leaving only `S=lambda g`. This is stronger than one scalar trace
-equation. At the global level, a translation quotient and a glide-reflection quotient have the same
-local curvature jets but different loop holonomy, so an all-path relation can contain genuine
-global metric information that no finite local jet captures. Thus neither “always basic” nor
-“necessarily nonbasic” is valid without naming the residual class.
+Exact controls make the separation nonvacuous: the four-object/six-edge system has incidence and
+triangle rank three; a free edge cochain fails while three nonconstant endpoint potentials pass;
+reciprocal profiles with curvature `0,-4,+4` all compose; exact and nonclosed one-forms have loop
+periods `0` and `1`; and reciprocal period and Levi-Civita holonomy remain distinct loop objects.
 
-**VARIATION GATE:** equality of zero sets is insufficient for variational equivalence. Squaring or
-aggregating residuals can destroy on-shell tangent rank, and no query measure is founded. The
-normalized query bundle depends on the metric; at a regular universal zero section, lift ambiguity
-cancels, but singular and domain-changing strata remain open. No action may be reconstructed from
-the solution set.
+**TERMINATION RULING:** the current composition-to-native-residual route stops. A nontrivial loop
+residual would require both a metric-native physical depth assignment and a separately founded
+endpoint/zero-period/trivial-loop condition. Current sources supply neither. Further cocycle,
+groupoid, or composition taxonomy would repeat the same missing input.
 
 **SNe COMPATIBILITY ANCHOR:** retain only the conditional registered readout
 `1+z=exp(phi)`, `r/X=1-exp(-2phi)`, `d_L=(1+z)^2 r`, hence `d_L/X=z(z+2)`. It mildly requires a
@@ -35,16 +33,14 @@ downstream codomain able to distinguish clock, angular-area, optical and proper 
 readouts. It does not select a law home, query quantifier, variation domain, action, branch or
 `X_max`; no fit was rerun.
 
-**FOUNDATIONAL RULING:** the universal-query architecture is metric-only admissible, but current UDT
-foundations do not select it, do not choose local versus global/path residuals, and do not supply a
-nontrivial residual. Founded Reciprocity supplies query kinematics and additive composition, not a
-dynamical equation.
+**FOUNDATIONAL RULING:** Reciprocity gates the covariance/naturality of a future law but does not
+generate that law. Universal-all-query architecture remains genuine and admissible, yet unselected.
 
-**NEXT PROPOSED BOUNDED QUESTION — NOT YET AUTHORIZED:** within the founded reciprocal path/groupoid
-class, determine whether source provenance supplies any nontrivial metric-dependent loop/path
-consistency residual selecting `UNIVERSAL_ALL_QUERIES`, or whether composition is automatically an
-identity once additive depth is supplied. Do not invent a defect, action, source, carrier, boundary
-functional or bootstrap equation.
+**NEXT PROPOSED BOUNDED DECISION — NOT YET AUTHORIZED:** perform a brief source-and-object audit of
+the existing global–local/bootstrap record. Ask only whether it already contains a concrete return
+map with a defined domain, codomain and noncircular inputs. If not, pause deduction and reassess the
+premise set with Charles. Do not launch another taxonomy, action/source reconstruction, density
+scan, time-live solve, or GPU work.
 
 **PREMISE STAMPS:** reciprocal character/composition and founded `phi` algebra `DERIVED`; physical
 observer/path depth assignment `OPEN`; query bundle `DERIVED_CONTAINER`; ambient geometry
@@ -56,16 +52,19 @@ realized independent section `OPEN` and extra unless metric-owned; branch select
 `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; action, source, boundary, `X_max`, mass,
 matter and dynamics remain open or retain prior conditional stamps.
 
-**EVIDENCE:** preregistration/result commits `583173cf`/`b17efd44`; 7 equivalence notions, 8 residual
-classes, 54 production exact checks, 15 independent exact rational checks, and all 22 fail-closed
-catches pass. Fresh zero-context `gpt-5.4` review returned `PASS` with no repairs. Source-manifest
-SHA-256 is `3a52e1231af13231f5f10665e7d4f4396b41ee6b826b3852c4cb375f8fb3cd0f`; the 49-member package
-manifest SHA-256 is `261ed174cf0b29bb2d8d3c158899e26665fbb85635cf04b64b2a1ea1b6811a58`.
+**EVIDENCE:** preregistration/result commits `e4b5ec4a`/`d0570b2b`; 32 frozen and individually
+adjudicated sources; 12 candidates; 53 SymPy production plus 35 standard-library independent exact
+checks; and 22 artifact-level fail-closed mutations. The first fresh `gpt-5.4` review independently
+recomputed every load-bearing result; the second verified the mutation repair. Both returned
+`PASS_WITH_CAVEATS`, with their operational caveats closed. Source-manifest SHA-256 is
+`ed1e5b7dd31f58f811996a14dbba7c10eb935a894bbd888865eb61a1d9bfabab`; the 51-member package
+manifest SHA-256 is `16b0be59bed28e1eee68498d936e8de21ceb871d0621e74b702716ae67c64d68`.
 Six frozen manifests/133 paths, 1,114 current paths, 101 frontier targets, tests `70 passed,
 1 xfailed`, and the 83 unrelated untracked metadata identities pass.
 
-**AUTHORITY BOUNDARY:** no actual native residual, universal-query selection, local/global choice,
-complete native law, physical split, action, source, carrier, boundary functional, bootstrap
+**AUTHORITY BOUNDARY:** no metric-native depth assignment, loop-return premise, actual native
+residual, universal-query selection, local/global choice, complete native law, physical split,
+action, source, carrier, boundary functional, bootstrap
 equation, density, branch, `X_max`, matter/mass claim, dynamics, GPU work, canonization, or
 repository reorganization follows.
 

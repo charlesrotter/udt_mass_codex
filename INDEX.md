@@ -3,29 +3,34 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — UNIVERSAL QUERY ARCHITECTURE GENUINE; ACTUAL RESIDUAL OPEN:**
-Read `udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
-derivation, reduction/variation/global ledgers, foundational ruling, fresh review, four gates, lay
+**➤ CURRENT SCIENTIFIC FRONTIER — RECIPROCAL COMPOSITION NONSELECTING; ROUTE TERMINATED:**
+Read `udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
+derivation, candidate/implication/loop ledgers, source adjudication, review closure, four gates, lay
 report and next step.
 
-Requiring `L(g,q)=0` for every observer query defines an observer-independent metric solution set
-without choosing a physical observer section, but the operator may remain query-dependent. The
-exact local symmetric-tensor control reduces nine independent pair conditions to `S^TF=0`, leaving
-`S=lambda g`. Equal zero sets do not guarantee equal variational content. Globally, quotient
-holonomy can distinguish metrics with identical local curvature jets, so all-path laws need not be
-finite local tensor equations.
+Composition imposes three consistency constraints on six freely assigned depths in the exact
+four-object control. But depths formed from endpoint values of any `phi` satisfy those constraints
+identically. Both closed and nonclosed one-form path integrals concatenate, and Levi-Civita/typed
+semidirect transport composes for every supplied metric. Distinct-curvature profiles all pass.
+Thus founded composition is exact kinematics, not a metric equation or profile selector.
 
 The registered SNe formula `d_L/X=z(z+2)` is only a conditional downstream compatibility anchor.
 It requires distinct clock, angular-area, optical and proper pair-distance readout slots but cannot
 select the upstream law, variation domain, branch or `X_max`.
 
-The architecture is metric-only admissible but not selected: founded Reciprocity gives query
-kinematics and composition, not a nontrivial residual or a local/global choice. Evidence commits
-`583173cf`/`b17efd44`; 54 production and 15 independent exact checks, 22 catches, and fresh `PASS`.
-The package hash is `261ed174cf0b29bb2d8d3c158899e26665fbb85635cf04b64b2a1ea1b6811a58`.
-Proposed next, not authorized: test whether source provenance supplies a nontrivial
-metric-dependent reciprocal loop/path residual, retaining the possibility that composition is only
-an identity.
+Reciprocity remains a naturality gate on a future law, not its generator. A nontrivial loop residual
+would require a new metric-native depth rule and a separately founded endpoint/loop condition.
+Evidence commits `e4b5ec4a`/`d0570b2b`; 53 production and 35 independent exact checks, 22
+artifact-level catches, and two fresh adversarial reviews. The 51-member package hash is
+`16b0be59bed28e1eee68498d936e8de21ceb871d0621e74b702716ae67c64d68`.
+Proposed next, not authorized: a brief decision audit asking whether the existing global–local/
+bootstrap record already contains a concrete, noncircular return map. Do not launch another
+composition taxonomy.
+
+**➤ PARENT SCIENTIFIC FRONTIER — UNIVERSAL QUERY ARCHITECTURE GENUINE; ACTUAL RESIDUAL OPEN:**
+`udt_basic_vs_universal_query_residual_audit_2026-08-04/` remains the authority for section-free
+universal solution sets, exact local tensor reduction, global holonomy content, and the variation
+equivalence caveat. It supplies no actual residual.
 
 **➤ PARENT SCIENTIFIC FRONTIER — FOUNDED LAW TYPES LOCATED:**
 `udt_native_law_home_codomain_ownership_audit_2026-08-04/` remains the authority for the typed

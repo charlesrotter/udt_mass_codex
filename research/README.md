@@ -2,7 +2,18 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
 
-## Current scientific spine — August 4 basic-versus-universal-query atlas
+## Current scientific spine — August 4 reciprocal path-composition audit
+
+Read the [reciprocal path-composition residual
+audit](../udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md), then its exact
+derivation, candidate/implication/loop ledgers, source adjudication, review closure, four gates and
+next step. It shows that founded composition is exact but nonselecting: it constrains free depth
+data, becomes an identity for endpoint potentials, and does not derive path independence, zero
+periods, a trivial full-loop return, or a metric residual.
+
+The proposed global–local/bootstrap return-map decision audit is not authorized automatically.
+
+## Parent scientific spine — August 4 basic-versus-universal-query atlas
 
 Read the [basic-versus-universal-query residual
 audit](../udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md), then its exact
@@ -11,7 +22,7 @@ next step. It establishes universal-all-query solution sets as a genuine section
 architecture, distinguishes exact local reduction from global holonomy content, and preserves the
 variation-domain caveat. It does not derive or select an actual UDT residual.
 
-The proposed reciprocal path/groupoid provenance audit is not authorized automatically.
+That reciprocal path/groupoid proposal is complete at the current spine above.
 
 ## Parent scientific spine — August 4 native-law type and ownership atlas
 

@@ -2,12 +2,12 @@
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-04):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry →
-`udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
-machine ledgers, fresh review and next step → the native-law type audit and earlier parents only
-when load-bearing. The current bounded result proves that universal-all-query solution sets are a
-genuine section-free metric architecture, while local tensor controls may reduce to basic equations
-and global path laws may retain nonlocal holonomy content. It does not supply or select an actual
-UDT residual, local/global law, action, source, carrier, boundary, bootstrap value, matter, or mass.
+`udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
+machine ledgers, review closure and next step → the universal-query/native-law parents only when
+load-bearing. The current bounded result closes reciprocal composition as exact but nonselecting
+kinematics: it constrains free depth data but becomes an identity for endpoint potentials or a
+supplied additive cocycle. It supplies no metric-native residual, local/global law, action, source,
+carrier, boundary, bootstrap value, matter, or mass.
 
 
 This root is the control and navigation surface for the UDT research record.
@@ -15,8 +15,8 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
-the [basic-versus-universal-query audit](udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md)
-and its named load-bearing evidence → the [native-law home/codomain/ownership audit](udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md) → the [query-bundle section/descent audit](udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md) → the [metric-natural split selector audit](udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md) → the [August 4 globalization audit](udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md) → the [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
+the [reciprocal path-composition audit](udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md)
+and its named load-bearing evidence → the [basic-versus-universal-query audit](udt_basic_vs_universal_query_residual_audit_2026-08-04/AUDIT_REPORT.md) → the [native-law home/codomain/ownership audit](udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md) → the [query-bundle section/descent audit](udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md) → the [metric-natural split selector audit](udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md) → the [August 4 globalization audit](udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md) → the [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
 only when its details are needed → earlier frontier and selector evidence named by those files only
 when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
@@ -31,13 +31,12 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The basic-versus-universal-query audit is complete. Universal quantification gives a section-free,
-observer-independent metric solution set, but not necessarily a basic operator. Exact local tensor
-controls can reduce to a finite basic system, whereas global loop holonomy can retain information
-outside every finite local jet. Equal zero sets do not establish variational equivalence. The
-founding postulates still supply no nontrivial residual and do not choose local versus global/path
-law. Proposed next, not authorized, is a provenance audit of reciprocal path/groupoid composition;
-it does not authorize an action, source, carrier, bootstrap, time-live, or GPU calculation.
+The reciprocal path-composition audit is complete. Composition rejects inconsistent free pair data,
+but all endpoint-potential depths obey it identically; path concatenation does not imply local
+closedness or global zero periods; and metric transport composes for every supplied metric. The
+composition route is therefore terminated absent a new source-backed physical depth or loop-return
+premise. Proposed next, not authorized, is only a brief decision audit of whether the existing
+global–local/bootstrap evidence already defines a concrete noncircular return map.
 
 The last pre-P4 result is the [higher-isometry reciprocal-plane ownership
 audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md). Universal unique-plane
