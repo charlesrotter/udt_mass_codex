@@ -54,3 +54,11 @@ Passing this protocol independently verifies the saved rational ideal basis and 
 dimension. It does not classify its real roots, complete the three nonzero-A charts, or prove the
 global C08 curvature zero set. Fresh cold adversarial review remains required before a final package
 verdict. No physical conclusion follows.
+
+## Pre-algebra parser correction
+
+The first verifier invocation stopped before any algebraic check because Singular prints compact
+monomials such as `z13` and `z11y2`, while the independent SymPy parser initially expected explicit
+powers. The correction expands only this documented output syntax (`z13 -> z**13`,
+`z11y2 -> z**11*y**2`). Production hashes, equations, basis text, expected algebraic values, and
+acceptance gates remain unchanged. The failed invocation supplies no mathematical outcome.

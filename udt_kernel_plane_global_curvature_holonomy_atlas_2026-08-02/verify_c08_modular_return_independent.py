@@ -63,12 +63,20 @@ def parse_expression(text: str) -> sp.Expr:
     return sp.sympify(text.replace("^", "**"), locals={"z": Z, "y": Y})
 
 
+def parse_singular_expression(text: str) -> sp.Expr:
+    normalized = re.sub(r"z(\d+)", r"z**\1", text)
+    normalized = re.sub(r"y(\d+)", r"y**\1", normalized)
+    normalized = re.sub(r"(?<=[0-9])(?=[zy])", "*", normalized)
+    normalized = re.sub(r"(?<=[zy])(?=[zy])", "*", normalized)
+    return sp.sympify(normalized, locals={"z": Z, "y": Y})
+
+
 def parse_basis() -> list[sp.Poly]:
     stdout = (HERE / "C08_MODULAR_ALL_ZERO_STDOUT.txt").read_text()
     body = stdout.split("UDT_BASIS_BEGIN", 1)[1].split("UDT_BASIS_END", 1)[0]
     rows = re.findall(r"^G\[(\d+)\]=(.*)$", body, re.MULTILINE)
     assert [int(index) for index, _ in rows] == list(range(1, len(rows) + 1))
-    return [sp.Poly(parse_expression(text), Z, Y, domain=sp.QQ) for _, text in rows]
+    return [sp.Poly(parse_singular_expression(text), Z, Y, domain=sp.QQ) for _, text in rows]
 
 
 def parse_inputs() -> list[sp.Poly]:
