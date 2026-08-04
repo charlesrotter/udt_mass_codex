@@ -1,0 +1,10 @@
+git checkout grok
+git fetch origin
+git pull --ff-only origin grok
+git status --short --branch
+git log -8 --oneline
+python3 udt_spacetime_model_objectives_audit_2026-08-04/build_source_manifest.py
+python3 udt_spacetime_model_objectives_audit_2026-08-04/verify_audit.py
+python3 -m py_compile udt_spacetime_model_objectives_audit_2026-08-04/build_source_manifest.py udt_spacetime_model_objectives_audit_2026-08-04/verify_audit.py udt_spacetime_model_objectives_audit_2026-08-04/verify_repository_gates.py
+python3 udt_spacetime_model_objectives_audit_2026-08-04/verify_repository_gates.py
+git diff --check

@@ -1,0 +1,14 @@
+{
+  "audit_links": 0,
+  "candidate_dispositions": 754,
+  "current_paths": 1114,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "premise_guards": 18,
+  "startup_controls": 9,
+  "status": "PASS",
+  "tests": "70 passed, 1 xfailed"
+}

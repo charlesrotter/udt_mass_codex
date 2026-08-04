@@ -1,0 +1,28 @@
+{
+  "catch_proofs": {
+    "bootstrap_promoted_to_founding": "PASS",
+    "c08_promoted_to_blocker": "PASS",
+    "carrier_branch_promoted_to_metric_derived": "PASS",
+    "duplicate_dependency_identity": "PASS",
+    "elimination_side_lemma_promoted": "PASS",
+    "invalid_classification": "PASS",
+    "matter_moved_ahead_of_law": "PASS",
+    "missing_controlling_source": "PASS",
+    "missing_dependency_identity": "PASS",
+    "missing_regrading_identity": "PASS",
+    "runtime_promoted_to_evidence": "PASS",
+    "time_live_before_native_law": "PASS"
+  },
+  "deliverable_sha256": {
+    "AUDIT_REPORT.md": "19061eb66c2a18e41b3056960176c54fa5228fd9ae456a3b5af01464703b21e4",
+    "DEPENDENCY_LEDGER.tsv": "656d683375105dbfd1080dcb2fcd78ce505fdfa4fae54b0738b54388bc29fdef",
+    "LOAD_BEARING_REGRADING.tsv": "fe6a1ac53fad2d177030d62a25e281476f18ffda8ca417361c6aa806277d27fc",
+    "RAM_AWARE_EXPLORATION_PROGRAM.md": "129c45a7930c4da1adcf881a3538f4259f2a51dbd3335a8af218fb0911c17b03",
+    "SOURCE_MANIFEST.tsv": "dadd0a8bec5bcef5d7b588e879c3f15a81f2dcae95594ec24cab2fe92eb16473",
+    "SPACETIME_MODEL_OBJECTIVES.md": "ec4e4917bccf42e449d8185e3117ea5de111891c2967bbeaef30473be856c525"
+  },
+  "dependency_rows": 21,
+  "regrading_rows": 13,
+  "source_manifest_rows": 43,
+  "status": "PASS"
+}

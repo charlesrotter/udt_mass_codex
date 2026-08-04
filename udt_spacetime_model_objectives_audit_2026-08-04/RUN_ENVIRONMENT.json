@@ -1,0 +1,6 @@
+{
+  "cpu_or_gpu": "CPU_ONLY_NO_SOLVE",
+  "git_version": "2.34.1",
+  "python_version": "3.10.12",
+  "working_branch": "grok"
+}
