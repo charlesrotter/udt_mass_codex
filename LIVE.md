@@ -12,11 +12,13 @@
 reciprocal-composition package or any older family only through that routing and only when
 load-bearing.
 
-**CURRENT HONEST SYNTHESIS:** the recent scientific arc began with the working stability hypothesis:
-continuous mass-bearing geometry might be pruned into persistent particle-like basins by stability.
-The record contains two distinct conditional geometry-only mass-bearing routes (`F01`,`F02`) and one
-separate carrier/action-conditional stable finite-box Hopf model (`F04`). There are three conditional
-realized-family rows, zero native stable-matter families, and no physical species count.
+**CURRENT HONEST SYNTHESIS:** the recent P4 arc began as an inverse-response program. After it had
+banked conditional response families, the later stability-as-discretizer ponder reinterpreted those
+families together with the separate Hopf result: continuous mass-bearing geometry might be pruned
+into persistent particle-like basins by stability. The record contains two distinct conditional
+geometry-only mass-bearing routes (`F01`,`F02`) and one separate carrier/action-conditional stable
+finite-box Hopf model (`F04`). There are three conditional realized-family rows, zero native
+stable-matter families, and no physical species count.
 
 Trying to join those branches correctly moved the work upstream to the spacetime/configuration law
 that would own realization, perturbations, source and global closure. That work banked a coherent

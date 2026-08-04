@@ -96,13 +96,18 @@ assert premises["G16"]["current_status"] == "OPEN"
 checkpoint = (HERE / "SCIENTIFIC_ARC_CHECKPOINT.md").read_text(encoding="utf-8")
 groebner = (HERE / "GROEBNER_PROGRAM_RECONSTRUCTION.md").read_text(encoding="utf-8")
 overview = (HERE / "OVERVIEW_AND_ROUTE_MAP.md").read_text(encoding="utf-8")
+review = (HERE / "FRESH_ADVERSARIAL_REVIEW.md").read_text(encoding="utf-8")
 assert "`phi` is already `DERIVED`" in checkpoint
 assert "three conditional realized-family rows and zero native" in checkpoint
 assert "one bounded curvature-zero-set certificate" in checkpoint
+assert "did not precede P4" in checkpoint
 assert "INCOMPLETE-COMPUTATION" in groebner
 assert "not a matter action or" in groebner and "field equation" in groebner
 assert "realization principle" in overview
 assert "explicit epistemic ruling" in overview
+assert "PASS_WITH_REQUIRED_REPAIRS" in review
+assert "REPAIRS_APPLIED" in review
+assert "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_TRANSFORMATION_CERTIFICATE_RETURN_STATUS.md" in source_paths
 
 for name in ("LIVE.md", "HANDOFF.md"):
     text = (ROOT / name).read_text(encoding="utf-8")
@@ -173,6 +178,8 @@ catches = [
     ("C04_PROMOTE_MASS", by_id["B19"]["status"] == "OPEN"),
     ("C05_TIMEOUT_AS_NO_GO", "scientific acceptance criteria" in groebner and "`INCOMPLETE-COMPUTATION`" in groebner),
     ("C06_ADOPT_POSTULATE", "explicit epistemic ruling" in overview),
+    ("C07_REVERSE_CHRONOLOGY", "did not precede P4" in checkpoint and "P4 first" in (ROOT / "INDEX.md").read_text(encoding="utf-8")),
+    ("C08_OMIT_TWO_HOUR_SOURCE", "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_TRANSFORMATION_CERTIFICATE_RETURN_STATUS.md" in source_paths),
 ]
 assert all(caught for _, caught in catches)
 catch_text = "catch_id\tresult\n" + "".join(f"{name}\tCAUGHT\n" for name, _ in catches)
@@ -202,7 +209,7 @@ result = {
     "frontier_targets": len(targets),
     "unrelated_untracked_metadata_rows": len(unrelated),
     "tests": "70 passed, 1 xfailed",
-    "semantic_independence": "PENDING_FRESH_EXTERNAL_REVIEW",
+    "semantic_independence": "FRESH_EXTERNAL_REVIEW_PASS_AFTER_REQUIRED_REPAIRS",
 }
 if args.write:
     (HERE / "VERIFICATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")

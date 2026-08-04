@@ -7,12 +7,14 @@ Status: `DOCUMENTARY_RECOVERY_VERIFIED_WITH_CAVEATS__NO_NEW_PHYSICS`
 
 Charles's retrospective is substantially correct.
 
-The recent program did not begin as a generic hunt for a source. It began with the **stability
-hypothesis**: continuous UDT mass-bearing parameters might be pruned into discrete persistent
-particle-like families by nonlinear stability rather than by direct mass quantization. The record
-then found several genuinely different conditional mass/energy-bearing structures. Attempts to
-place them in one theory exposed a missing parent: the complete metric-native law and global/local
-closure that would say which configurations are physical and how perturbations act.
+The recent program did not begin as a generic hunt for a source. The **P4 inverse-response program**
+first derived several genuinely different conditional response and mass/energy-bearing structures.
+The later pure-ponder **stability hypothesis** then supplied a retrospective interpretation:
+continuous UDT mass-bearing parameters might be pruned into discrete persistent particle-like
+families by nonlinear stability rather than by direct mass quantization. Attempts to place the P4
+families and the separate conditional Hopf result in one theory exposed a missing parent: the
+complete metric-native law and global/local closure that would say which configurations are physical
+and how perturbations act.
 
 The resulting spacetime work produced a rich configuration skeleton, not a completed source law.
 The later large Gröbner computations addressed one bounded curvature-zero-set certificate inside
@@ -47,7 +49,7 @@ The controlling sources are
 
 ## Reconstructed scientific arc
 
-### 1. Stability as the possible discretizer
+### 1. P4 evidence, then stability as the possible discretizer
 
 `PONDER_MATH_ELEGANCE_2026-07-31.md` proposed a useful but conjectural distinction:
 
@@ -56,8 +58,8 @@ The controlling sources are
 - particle species might therefore be discrete **stable basins** in a continuous mass landscape,
   rather than arithmetic mass eigenvalues.
 
-This was not a theorem. It became a research hypothesis to test against the banked P4 response
-families and the conditional Hopfion.
+This was not a theorem and did not precede P4. It became a retrospective research hypothesis to test
+against the already banked P4 response families and the separate conditional Hopfion.
 
 ### 2. The P4 inverse-response program produced plural mass-bearing routes
 
@@ -222,4 +224,3 @@ No native action, source, boundary law, bootstrap theorem, carrier emergence, st
 unconditional mass, physical family assignment, `X_max`, dynamics or new postulate is established
 here. The nuclear/particle arithmetic in the ponder document remains a consistency demonstration or
 lead after its own adversarial regrade, not native validation.
-

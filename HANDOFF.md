@@ -16,11 +16,12 @@
 4. Its mass authority map, Gröbner reconstruction, bankable/open ledger and overview/route map.
 5. Only then enter the exact family or August 4 parent package required by the task.
 
-**Recovered arc:** stability-as-discretizer led to plural conditional mass/energy-bearing branches;
-joining them exposed missing realization and persistence laws; the program moved upstream and mapped
-a coherent reciprocal/angular/mixing/global-completion spacetime arena. The C08 Gröbner work was one
-curvature-zero-set side certificate, not the full closure problem. Its incomplete resource returns
-are `OPEN`, not scientific negatives.
+**Recovered arc:** P4 first banked plural conditional response and mass/energy-bearing branches through
+an inverse-response program. The later stability-as-discretizer ponder reinterpreted those branches
+alongside the separate Hopf result. Trying to join them exposed missing realization and persistence
+laws; the program moved upstream and mapped a coherent reciprocal/angular/mixing/global-completion
+spacetime arena. The C08 Gröbner work was one curvature-zero-set side certificate, not the full
+closure problem. Its incomplete resource returns are `OPEN`, not scientific negatives.
 
 **Do not regress `phi`:** it is the derived additive log depth of the reciprocal clock/ruler pair and
 acts as `diag(exp(-phi),exp(+phi))`. Its physical profile, observer/path assignment, full extension,

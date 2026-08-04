@@ -8,10 +8,11 @@ Read `udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOIN
 mass authority map, Gröbner reconstruction, bankable/open ledger, overview/route map and source
 manifest.
 
-The stability hypothesis led to two distinct conditional geometry-only mass-bearing routes (F01,
-F02) and one separate conditional stable finite-box Hopf model (F04). Joining them exposed the
-missing parent realization/persistence law and motivated the spacetime/configuration work. That
-work banked a coherent reciprocal/angular/mixing/global-completion arena but no native physical law.
+P4 first produced two distinct conditional geometry-only mass-bearing routes (F01, F02) through its
+inverse-response program. The later stability-as-discretizer ponder reinterpreted them together with
+one separate conditional stable finite-box Hopf model (F04). Trying to join them exposed the missing
+parent realization/persistence law and motivated the spacetime/configuration work. That work banked
+a coherent reciprocal/angular/mixing/global-completion arena but no native physical law.
 `phi` remains the derived additive log depth of the reciprocal pair; only its physical assignment,
 profile, full extension and dynamics are open.
 
