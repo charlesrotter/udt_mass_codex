@@ -1,0 +1,15 @@
+{
+  "input_sha256": "496fc644b17d25f80f50ba9214642afaadb672727e9020a919bdd55bf737b895",
+  "prepared_at": "2026-08-04T08:37:06-04:00",
+  "prime": 32003,
+  "schema": "udt-c08-homogeneous-preparation-1.0",
+  "source_count": 25,
+  "source_manifest_sha256": "9b6751f97e76b875a97eec226640af3ae78399bc8d7fc782b1c8814fd223b24d",
+  "status": "PASS_PREPARED_NOT_LAUNCHED",
+  "toy": {
+    "returncode": 0,
+    "status": "PASS_NONTRIVIAL_HOMOGENEOUS_TRANSFORMATION_TOY",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "7736ed197416622d66d46aff396b28b3ceb641d0ed8fb990792fc9cdf23de9ab"
+  }
+}
