@@ -1,0 +1,30 @@
+{
+  "bounded_command": "timeout --signal=TERM --kill-after=30s 3600s python3 verify_c08_homogeneous_dimension_certificate_independent.py",
+  "conclusion": "OPEN_RATIONAL_REVERSE_CONTAINMENT_NOT_CERTIFIED",
+  "independent_result_json_created": false,
+  "independent_status": "OPEN_ONE_HOUR_EXHAUSTIVE_REPLAY_TIMEOUT",
+  "production_observation": {
+    "basis_size": 505,
+    "basis_homogeneity_failures": 0,
+    "dehomogenization_failures": 0,
+    "dimension": 1,
+    "input_homogeneity_failures": 0,
+    "multiplicity": 640,
+    "mutation_caught": 1,
+    "reduction_failures": 0,
+    "transformation_residual": 0,
+    "verify_groebner_basis": 1
+  },
+  "recorded_at": "2026-08-04T09:38:42-04:00",
+  "schema": "udt-c08-homogeneous-independent-timeout-1.0",
+  "shell_exit_code_capture": "NOT_EXPOSED_BY_SESSION_TRANSCRIPT",
+  "timeout_inference": "The process remained active for the full 3600-second GNU timeout interval, then exited without creating its result JSON.",
+  "hashes": {
+    "homogeneous_input_sha256": "496fc644b17d25f80f50ba9214642afaadb672727e9020a919bdd55bf737b895",
+    "production_process_sha256": "ea167c45191c219b013598ddb038274161541d912b74eaf188555552558e985e",
+    "production_stdout_sha256": "0c678e0eec14c5ef9e95ad5c97841165da8c41f320e08a5286b3d3e18a5ae47e",
+    "source_manifest_sha256": "9b6751f97e76b875a97eec226640af3ae78399bc8d7fc782b1c8814fd223b24d",
+    "verifier_correction_sha256": "9c940ae7acfc7dd7dc60f2ce2711c288dfbe36b21fc5ca80dba9f7111b74731c",
+    "verifier_sha256": "c2254e38cda0622b05b6e1465d4751ed8c712a1043fb0c2c3903dca8a5bc3158"
+  }
+}
