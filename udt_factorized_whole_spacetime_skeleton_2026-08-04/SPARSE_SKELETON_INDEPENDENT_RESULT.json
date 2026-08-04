@@ -1,0 +1,25 @@
+{
+  "check_count": 15,
+  "checks": {
+    "all_nonzero_triangular_K_basis_change_metric": "PASS",
+    "angular_counterfamily_composition": "PASS",
+    "block_determinant": "PASS",
+    "block_inverse_left": "PASS",
+    "block_inverse_right": "PASS",
+    "metric_determinant": "PASS",
+    "metric_symmetric": "PASS",
+    "pair_composition_rational_character": "PASS",
+    "pair_reversal_rational_character": "PASS",
+    "screen_complex_structure": "PASS",
+    "screen_rotation_metric_gauge": "PASS",
+    "seven_extension_tangent_rank": "PASS",
+    "seven_metric_tangent_rank": "PASS",
+    "shift_counterfamily_composition": "PASS",
+    "six_determinant_one_tangent_rank": "PASS"
+  },
+  "maximum_conclusion": "INDEPENDENT_RATIONAL_REPLAY_OF_SPARSE_BLOCK_IDENTITIES_ONLY",
+  "production_imported": false,
+  "schema": "udt-factorized-whole-spacetime-independent-rational-1.0",
+  "status": "PASS",
+  "third_party_packages": []
+}

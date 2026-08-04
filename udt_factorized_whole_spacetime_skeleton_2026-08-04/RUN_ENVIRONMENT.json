@@ -1,0 +1,10 @@
+{
+  "cpu_or_gpu": "CPU_ONLY_SPARSE_SYMBOLIC_NO_SOLVE",
+  "corrected_production_elapsed_seconds": 0.40,
+  "corrected_production_max_rss_kib": 49312,
+  "git_version": "2.34.1",
+  "initial_expanded_check": "INTERRUPTED_AFTER_EXCEEDING_ONE_MINUTE_NO_RESULT",
+  "python_version": "3.10.12",
+  "sympy_version": "1.13.1",
+  "working_branch": "grok"
+}

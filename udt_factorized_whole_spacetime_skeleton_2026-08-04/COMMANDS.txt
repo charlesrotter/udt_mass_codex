@@ -1,0 +1,12 @@
+git checkout grok
+git fetch origin
+git pull --ff-only origin grok
+git status --short --branch
+git log -8 --oneline
+python3 udt_factorized_whole_spacetime_skeleton_2026-08-04/build_source_manifest.py
+python3 udt_factorized_whole_spacetime_skeleton_2026-08-04/verify_sparse_skeleton.py
+python3 udt_factorized_whole_spacetime_skeleton_2026-08-04/verify_sparse_skeleton_independent.py
+python3 udt_factorized_whole_spacetime_skeleton_2026-08-04/verify_audit.py
+python3 udt_factorized_whole_spacetime_skeleton_2026-08-04/verify_repository_gates.py
+python3 -m py_compile udt_factorized_whole_spacetime_skeleton_2026-08-04/build_source_manifest.py udt_factorized_whole_spacetime_skeleton_2026-08-04/verify_sparse_skeleton.py udt_factorized_whole_spacetime_skeleton_2026-08-04/verify_sparse_skeleton_independent.py udt_factorized_whole_spacetime_skeleton_2026-08-04/verify_audit.py udt_factorized_whole_spacetime_skeleton_2026-08-04/verify_repository_gates.py
+git diff --check
