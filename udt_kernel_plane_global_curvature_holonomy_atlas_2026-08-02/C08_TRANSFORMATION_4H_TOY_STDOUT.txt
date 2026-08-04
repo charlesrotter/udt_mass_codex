@@ -1,0 +1,24 @@
+   ? ERROR opening socket
+   ? error occurred in or before tasks.lib::startTasks_child line 456: `    int port = system("reserve", 1);`
+   ? expected int-expression. type 'help int;'
+   ? leaving tasks.lib::startTasks_child (0)
+   ? error in eval
+// ** right side is not a datum, assignment ignored
+// ** in line >>    int port = read(l(pid));<<
+   ? open: Error for link L(156) of type: ssi, mode: connect, name: localhost:0
+   ? error occurred in or before tasks.lib::startTasks line 430: `    open(L(pid));`
+   ? leaving tasks.lib::startTasks (423)
+   skipping text from `;` error at token `)`
+   ? leaving modular.lib::primeList (279)
+   ? leaving modular.lib::modular (150)
+UDT_TOY_FINAL_BEGIN
+0
+UDT_TOY_FINAL_END
+   ? wrong range[2,1] in matrix WM(1 x 1)
+   ? error occurred in or before STDIN line 231: `matrix WM=W; WM[2,1]=WM[2,1]+1;`
+UDT_TOY_MUTATION_BEGIN
+1
+UDT_TOY_MUTATION_END
+UDT_TOY_MATRIX_BEGIN
+W[1,1]=0
+UDT_TOY_MATRIX_END
