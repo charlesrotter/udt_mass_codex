@@ -32,15 +32,16 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md` — **the current scientific
-   frontier**. Then read its `EXACT_DERIVATION.md`, object/law/variation/boundary/stratified ledgers,
-   fresh adversarial review, four gates, and next step as needed. Read the metric-natural selector,
-   August 4 globalization audit and factorized whole-spacetime skeleton only when their parent
-   obstruction, supplied `N,Q` architecture or open slots are load-bearing. The current audit
-   separates section-free query kinematics, intrinsic spacetime geometry and section-dependent
-   projected response. It does not select the native law's home/codomain/ownership. The proposed
-   audit of that smallest type-level joint is not automatically authorized; do not choose an
-   architecture or launch action, source, carrier, bootstrap, time-live, or GPU work.
+4. `udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md` — **the current
+   scientific frontier**. Then read its `EXACT_DERIVATION.md`, home/codomain, query-quantifier,
+   variation-ownership, native-compatibility, SNe and stratified ledgers, fresh review, four gates,
+   and next step as needed. Read the section/descent audit, metric-natural selector, August 4
+   globalization audit and factorized whole-spacetime skeleton only when their parent obstruction,
+   supplied architecture or open slots are load-bearing. The current audit types existing laws but
+   does not select the complete native dynamical law's home, codomain, query quantifier or variation
+   domain. Its proposed basic-versus-universal-query solution-set audit is not automatically
+   authorized; do not choose an architecture or launch action, source, carrier, bootstrap,
+   time-live, or GPU work.
 5. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` — read only its top/current overlay (pre-P4 overlay;
    historical context only).
 6. PRE-P4 (2026-07-28 morning, superseded as frontier — read only when load-bearing):
@@ -119,14 +120,14 @@ Then give Charles a short orientation report: actual HEAD and dirt, the current 
 premise stamps, the open gate, and the proposed bounded next action. Do not mutate files or launch a
 long solve until that orientation is complete.
 
-The bootstrap/stable-matter interpretation remains a working hypothesis. The metric now supplies
-exact branch-local reciprocal planes on simple-spectrum and intrinsic-form nonzero strata, while
-the undecorated round control obstructs one unique smooth natural plane across the retained domain.
-At collisions, zeros, and causal/rank changes the output can be set-valued or stratified. The total
-query bundle's tautological plane does not derive a natural spacetime section, although smooth
-sections may exist. Once `N,Q` are supplied, screen metric and mixing data globalize without one
-global coframe; this still supplies no selected dynamics. No action, response law, carrier, source,
-boundary, mass, bootstrap equation, time-live solve, or physical branch is adopted.
+The bootstrap/stable-matter interpretation remains a working hypothesis. Founded reciprocal
+comparison is an exact typed query law; ambient geometry lives on spacetime; pair-resolved response
+lives over query space unless reduced by the metric. A formula `L(g,q)` must state whether `q` is
+supplied, universal, existential, realized, branch-derived, stratified, or aggregated. An
+all-queries residual can constrain an observer-independent metric solution without varying `q`.
+The registered SNe relation is only a downstream compatibility anchor. No complete law home,
+quantifier, action, response law, carrier, source, boundary, mass, bootstrap equation, time-live
+solve, or physical branch is adopted.
 
 The pre-P4
 higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded

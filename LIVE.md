@@ -4,59 +4,68 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
-## ============ CURRENT STATE (2026-08-04 — QUERY/SPACETIME/SECTION LAW TYPES SEPARATED; NATIVE LAW HOME AND OWNERSHIP OPEN) ============
+## ============ CURRENT STATE (2026-08-04 — NATIVE LAW TYPES LOCATED; COMPLETE DYNAMICAL HOME AND QUERY QUANTIFIER OPEN) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
-object/law/variation/boundary/stratified ledgers, fresh adversarial review, four gates and next step →
-the metric-natural split selector, globalization audit and factorized skeleton only when their
-parent obstruction, supplied `N,Q` architecture, or open slots are load-bearing.
+`udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
+home/codomain, query-quantifier, variation-ownership, native-compatibility, SNe and stratified
+ledgers → fresh adversarial review, four gates and next step. Read the section/descent audit and
+its selector/globalization parents only when their obstruction or supplied architecture is
+load-bearing.
 
-**CURRENT HONEST RESULT:** all eight open skeleton slots split into three honest mathematical homes.
-Founded reciprocal comparison and composition remain exact on typed observer-pair/path queries
-without one universal pair field. Ambient metric, Levi-Civita, curvature, causal and base-boundary
-objects already live on spacetime and do not require a reciprocal section. Screen/mixing response,
-pair-projected curvature, pair polarization and section-evaluated source/bootstrap data are
-pair-dependent and require an explicit query interpretation or a realized/branch-derived section.
+**CURRENT HONEST RESULT:** the mathematical home and codomain of already-founded UDT objects are
+now typed. Reciprocal comparison is an exact equivariant observer-pair/depth query law. Ambient
+metric, connection, curvature, causal and base-boundary geometry live on spacetime. Pair-resolved
+screen/mixing/projected response lives over query space unless evaluated on a metric-owned realized
+or branch-derived reduction. A typed/layered description is required for faithful bookkeeping; it
+does not select a layered physical law.
 
-**EXACT DISTINCTION:** covariance is not descent. Two valid pair planes satisfy
-`P_02=R_12 P_01 R_12^-1` but `P_02!=P_01`; the same fixed ambient control gives screen readouts
-`(1,0)`, projected-curvature traces `(5,7)`, and vertical derivative `48/25`. The reciprocal
-character still composes before and after the pair reset. A query law can therefore be exact without
-being one tensor on the base spacetime.
+**NEW QUERY-QUANTIFIER GATE:** a formula `L(g,q)` is incomplete until it says whether `q` is a
+supplied readout, required for every query, existential, evaluated on a realized section, evaluated
+on a metric-derived branch, stratified/set-valued, or fiber-aggregated. Requiring a residual for
+every query can define an observer-independent metric solution set without varying `q`. An
+independent realized section is extra physical structure unless proved metric-owned; a regular
+branch-derived section varies only through the parent-metric chain rule. The exact control has
+nonzero chain contribution `-1`. Collision, zero/null/causal-change, tie, Jordan/complex, rank and
+boundary-defect strata still lack one unique smooth derivative. No fiber measure is supplied.
 
-**STRATIFIED GATE:** regular branch-derived selectors vary by the parent-metric chain rule. At the
-registered round collision, intrinsic-form zero graph, null/zero `dphi`, causal changes, spectral
-ties and rank changes, no unique smooth fixed-rank derivative follows. Fiber aggregation remains
-open because no native measure, weight, normalization or convergence rule is supplied.
+**SNe COMPATIBILITY ANCHOR:** retain only the conditional registered readout
+`1+z=exp(phi)`, `r/X=1-exp(-2phi)`, `d_L=(1+z)^2 r`, hence `d_L/X=z(z+2)`. It mildly requires a
+downstream codomain able to distinguish clock, angular-area, optical and proper pair-distance
+readouts. It does not select a law home, query quantifier, variation domain, action, branch or
+`X_max`; no fit was rerun.
 
-**SMALLEST OPEN JOINT:** UDT must determine the native law's home, codomain and ownership: a basic
-spacetime law, an equivariant observer-query law, a law evaluated on a realized/branch-derived
-reduction, or a consistent stratified combination. This is not a new postulate and none of these
-architectures is selected by the audit.
+**SMALLEST OPEN FORK:** present foundations still do not decide between a basic spacetime metric
+law, a universal-all-queries equivariant metric law, and a regular/stratified metric-derived
+reduction. The independently realized-section route remains conditional extra structure.
 
-**NEXT PROPOSED BOUNDED QUESTION — NOT YET AUTHORIZED:** test whether the two founding UDT
-postulates and complete metric architecture determine that law home/codomain/ownership. Retain every
-architecture and fail closed if current foundations do not decide. Do not reconstruct an action,
-source, carrier, boundary functional or bootstrap equation automatically.
+**NEXT PROPOSED BOUNDED QUESTION — NOT YET AUTHORIZED:** determine whether requiring complete,
+observer-independent metric solutions forces a universal-all-queries equivariant residual to
+reduce to a basic spacetime relation, or whether it can add genuinely nonbasic metric-native
+content without selecting a physical observer section. Retain both outcomes. Do not reconstruct an
+action, source, carrier, boundary functional or bootstrap equation.
 
-**PREMISE STAMPS:** founded reciprocal character and additive `phi` algebra `DERIVED`; physical
-`phi` assignment `OPEN`; query plane `DERIVED_CONTAINER_NO_NATURAL_SECTION`; typed query composition
-`DERIVED_GIVEN_DEPTH`; ambient geometry `DEFINED_FROM_METRIC`; realized section `OPEN`;
-branch-derived selectors `CONDITIONAL_REGULAR`; stratified law `OPEN`; strong local CSN inactive;
-bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; action, source, boundary, `X_max`,
-unconditional stability/mass/matter remain `OPEN` or retain prior conditional stamps.
+**PREMISE STAMPS:** reciprocal character/composition and founded `phi` algebra `DERIVED`; physical
+observer/path depth assignment `OPEN`; query bundle `DERIVED_CONTAINER`; ambient geometry
+`DEFINED_FROM_SUPPLIED_METRIC`; complete coframe skeleton `DEFINED_CONFIGURATION_ARCHITECTURE`;
+realized independent section `OPEN` and extra unless metric-owned; branch selector
+`CONDITIONAL_REGULAR`; stratified law/aggregation `OPEN`; SNe
+`CONDITIONAL_OBSERVATIONAL_COMPATIBILITY_ANCHOR`; strong local CSN inactive; bootstrap
+`WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; action, source, boundary, `X_max`, mass,
+matter and dynamics remain open or retain prior conditional stamps.
 
-**EVIDENCE:** preregistration/result commits `ecd8fee3`/`f286afa5`; 8 law slots, 36 facets, 18 object
-classes, 26 exact SymPy plus 19 independent `Fraction` checks, 18 fail-closed catches, and fresh
-zero-context `PASS` with no repairs. Source-manifest SHA-256 is
-`20f62ea51e08a14fbf5a4a1ed8ebca54967db12971d33628d433b5e3df16b771`; the 48-member package
-manifest SHA-256 is `136d27366db3617a7bdb4e7d721b64128561539f048ba5ced71b1b01b5d7aee4`.
+**EVIDENCE:** preregistration/result commits `009281bf`/`b7e17e45`; 8 architectures, 6 law classes,
+48 facets, 12 variation classes, 7 query quantifiers, 8 native-compatibility rows, 7 stratified
+classes and 28 frozen sources. Production has 26 exact SymPy checks; the independent standard-library
+implementation has 22 exact rational checks; all 20 fail-closed catches pass. Fresh zero-context
+`gpt-5.4` review returned `PASS` with no repairs. Source-manifest SHA-256 is
+`a49acf2eb72d3d63d0986035a423bacf93e385ba08ac1d5ed3aeb6c83ed4c069`; the 51-member package
+manifest SHA-256 is `8e56b3da607c18a08613e0fdaf4d1df1aa6bc891c6edd1176c9e5a0bc653c5fc`.
 Six frozen manifests/133 paths, 1,114 current paths, 101 frontier targets, tests `70 passed,
 1 xfailed`, and the 83 unrelated untracked metadata identities pass.
 
-**AUTHORITY BOUNDARY:** no law home, physical split, global coframe, action, source, carrier,
-boundary functional, bootstrap equation, density value, `X_max`, matter/mass claim, dynamics,
-phenomenology, GPU work, canonization, or repository reorganization follows.
+**AUTHORITY BOUNDARY:** no complete native law home/codomain/query quantifier, physical split,
+action, source, carrier, boundary functional, bootstrap equation, density, branch, `X_max`,
+matter/mass claim, dynamics, GPU work, canonization, or repository reorganization follows.
 
 <!-- STARTUP_CURRENT_END -->
 

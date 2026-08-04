@@ -2,12 +2,13 @@
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-04):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry →
-`udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation, ledgers,
-fresh review and next step → the metric-natural selector, August 4 globalization audit and
-factorized skeleton only when their parent evidence is load-bearing. The current bounded result
-separates exact observer-query laws, intrinsic spacetime objects, and section-dependent projected
-response. It does not select the native law's home, a physical plane, action, source, carrier,
-boundary, bootstrap value, matter, or mass.
+`udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
+machine ledgers, fresh review and next step → the section/descent audit and its selector/
+globalization parents only when load-bearing. The current bounded result locates founded reciprocal
+comparison on typed observer queries, ambient geometry on spacetime, and projected response over
+query space or a metric-owned reduction. It does not select the complete dynamical law's home,
+query quantifier, a physical plane, action, source, carrier, boundary, bootstrap value, matter, or
+mass.
 
 
 This root is the control and navigation surface for the UDT research record.
@@ -15,8 +16,8 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
-the [query-bundle section/descent audit](udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md)
-and its named load-bearing evidence → the [metric-natural split selector audit](udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md) → the [August 4 globalization audit](udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md) → the [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
+the [native-law home/codomain/ownership audit](udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md)
+and its named load-bearing evidence → the [query-bundle section/descent audit](udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md) → the [metric-natural split selector audit](udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md) → the [August 4 globalization audit](udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md) → the [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
 only when its details are needed → earlier frontier and selector evidence named by those files only
 when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
@@ -31,12 +32,13 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The section/descent audit is complete. Exact observer-pair comparison can remain query-level;
-ambient metric geometry can remain spacetime-level; projected screen/mixing/boundary response needs
-query typing or a realized/branch-derived/stratified reduction. The next proposed task, not yet
-authorized, is to test whether the founding postulates determine the native law's mathematical home,
-codomain and variation ownership. It does not authorize choosing an architecture or beginning
-action, source, carrier, bootstrap, time-live, or GPU work.
+The native-law type audit is complete. Existing UDT objects require typed/layered bookkeeping, and
+a query residual requires an explicit supplied, universal, existential, realized, branch-derived,
+stratified, or aggregated quantifier. The founding postulates still do not choose the complete
+dynamical law among basic spacetime, universal-query, and metric-derived reduction routes. The
+conditional SNe relation constrains downstream readout slots only. Proposed next, not authorized,
+is a bounded solution-set comparison of basic and universal-all-queries residuals; it does not
+authorize an action, source, carrier, bootstrap, time-live, or GPU calculation.
 
 The last pre-P4 result is the [higher-isometry reciprocal-plane ownership
 audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md). Universal unique-plane

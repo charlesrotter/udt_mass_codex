@@ -6,40 +6,46 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
 
-## CURRENT — query/spacetime/section law types separated; native law ownership open
+## CURRENT — founded law types located; complete dynamical law type remains open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
-3. `udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md`, then its exact derivation,
-   five machine ledgers, fresh review, four gates, lay report, and next step.
-4. The metric-natural split selector, globalization audit and factorized skeleton only when their
-   parent obstruction or supplied-split architecture is load-bearing.
+3. `udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
+   derivation, six machine ledgers, fresh review, four gates, lay report, and next step.
+4. The section/descent audit and its selector/globalization parents only when their type obstruction
+   or supplied architecture is load-bearing.
 
-**Current honest result:** no universal reciprocal-plane section is required before every native
-law can exist. Typed reciprocal comparison composes on the observer-pair/path query bundle;
-ambient metric and curvature objects live directly on spacetime. Physical screen/mixing response,
-pair-projected curvature, pair polarization and section-evaluated source/bootstrap data remain
-query-dependent unless a realized or regular branch-derived section is supplied.
+**Current honest result:** founded reciprocal comparison is an exact typed observer-pair/depth query
+law; ambient metric geometry lives directly on spacetime; pair-resolved projected response lives
+over query space unless reduced by a metric-owned section. These require layered bookkeeping, but
+no layered physical law is selected.
 
-At collision, zero, causal-change, spectral-tie and rank-change strata, a regular selector does not
-supply one smooth fixed-rank derivative. A stratified law remains open. No fiber average is adopted;
-its measure, weight, normalization and convergence would have to be derived.
+A query law additionally needs an explicit quantifier: supplied, universal, existential, realized,
+branch-derived, stratified, or aggregated. Universal-all-queries can constrain one
+observer-independent metric solution set without varying the query. Regular metric-derived branches
+vary by chain rule; singular strata remain open. An independent realized section is extra unless
+proved metric-owned, and no aggregation measure is derived.
 
-**Next proposed, not authorized:** determine whether the founding postulates and complete metric
-architecture select the native law's home/codomain/ownership among basic spacetime, equivariant
-query, realized/branch-derived, or stratified formulations. A valid result may be that the present
-foundation does not decide.
+**SNe anchor:** the conditional relation `d_L/X=z(z+2)` requires distinct downstream clock,
+angular-area, optical and proper pair-distance readout slots. It does not select the upstream law,
+quantifier, variation domain, branch or `X_max`.
 
-**Evidence:** `ecd8fee3`/`f286afa5`; 8 slots, 36 facets, 18 objects, 26 production plus 19 independent
-exact checks, 18 catches, fresh `PASS` with no repairs, source hash `20f62ea…`, package hash
-`136d2736…`, frozen 6/127/133, current paths 1,114, frontier targets 101, tests `70 passed,
-1 xfailed`, and 83 unrelated metadata-identical untracked paths.
+**Next proposed, not authorized:** compare the solution sets of basic spacetime residuals and
+universal-all-queries equivariant residuals. Ask whether the latter necessarily reduces to the
+former or can add metric-native content without a physical observer section. Either answer is
+allowed.
 
-**Authority boundary:** no law home, physical split, action, source, carrier, boundary functional,
-bootstrap equation, density, `X_max`, mass/matter, dynamics, GPU work, canonization, or
-reorganization follows.
+**Evidence:** `009281bf`/`b7e17e45`; 8 architectures, 6 law classes, 48 facets, 12 variation classes,
+7 quantifiers, 8 native-compatibility rows, 7 strata, 26 production plus 22 independent exact
+checks, 20 catches, and fresh `PASS`. Source hash `a49acf2e…`; 51-member package hash `8e56b3da…`;
+frozen 6/127/133, current paths 1,114, frontier targets 101, tests `70 passed, 1 xfailed`, and 83
+unrelated metadata-identical untracked paths.
+
+**Authority boundary:** no complete native law home/codomain/quantifier, action, source, carrier,
+boundary functional, bootstrap equation, density, branch, `X_max`, mass/matter, dynamics, GPU work,
+canonization, or reorganization follows.
 
 <!-- STARTUP_CURRENT_END -->
 

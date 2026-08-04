@@ -2,17 +2,23 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
 
-## Current scientific spine — August 4 section/descent atlas
+## Current scientific spine — August 4 native-law type and ownership atlas
 
-Read the [observer-pair query-bundle section/descent
-audit](../udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md), then its exact
-derivation, object/law/variation/boundary/stratified ledgers, fresh review, four gates and next step.
-It classifies all eight open skeleton slots: typed reciprocal comparison can remain a query law;
-ambient metric geometry can live directly on spacetime; projected screen/mixing/boundary response
-requires query semantics or a realized/branch-derived/stratified reduction. No architecture or
-physical law is selected.
+Read the [native-law home/codomain/ownership
+audit](../udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md), then its exact
+derivation, home/codomain, query-quantifier, variation-ownership, native-compatibility, SNe and
+stratified ledgers, fresh review, four gates and next step. It locates founded query, spacetime and
+metric-reduced objects and distinguishes seven query quantifiers. It selects no complete dynamical
+law type.
 
-The proposed native-law home/codomain/ownership audit is not authorized automatically.
+The proposed basic-versus-universal-query solution-set audit is not authorized automatically.
+
+## Parent scientific spine — August 4 section/descent atlas
+
+The [observer-pair query-bundle section/descent
+audit](../udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md) remains the authority for
+the eight open-slot classification, exact non-descent controls, chain-rule ownership and open
+singular strata.
 
 ## Parent scientific spine — August 4 selector atlas
 

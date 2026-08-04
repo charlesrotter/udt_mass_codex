@@ -4,23 +4,29 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, query/spacetime/section law types separated)
+## TOP — CURRENT POINTER (2026-08-04, founded law types located)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
 block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
-`udt_query_bundle_section_descent_audit_2026-08-04/` in its stated order. Use the split-selector,
-August 4 globalization audit and factorized skeleton only when their parent evidence is
-load-bearing.
+`udt_native_law_home_codomain_ownership_audit_2026-08-04/` in its stated order. Use the
+section/descent, split-selector, globalization and factorized-skeleton parents only when their
+evidence is load-bearing.
 
-Current honest result: all eight open slots divide among exact typed observer-query laws, intrinsic
-spacetime objects, and pair-dependent objects requiring query semantics or a realized/branch-derived
-section. Covariant pair projectors do not descend merely because they transform correctly. Regular
-branch sections use the parent-metric chain rule; collision, zero, causal/tie and rank-change loci
-need an open stratified rule. No fiber average is supplied.
+Current honest result: reciprocal comparison is a typed observer-query law, ambient geometry is a
+spacetime law, and pair-resolved response is query-level or metric-reduced. A query law also needs
+an explicit supplied/universal/existential/realized/branch/stratified/aggregated quantifier.
+Universal-all-queries can constrain an observer-independent metric solution without varying the
+query. No complete dynamical law type is selected. SNe supplies only a conditional downstream
+codomain compatibility anchor.
 
-No law home or physical architecture is selected. Proposed next, not authorized: test whether the
-founding postulates and complete metric architecture determine the native law's home, codomain and
-variation ownership, with an underdetermined result allowed.
+Proposed next, not authorized: compare basic spacetime and universal-all-queries residual solution
+sets and determine whether the latter reduces to the former or adds metric-native content without
+a physical observer section.
+
+## PRIOR TOP — CURRENT POINTER (2026-08-04, query/spacetime/section law types separated)
+
+The section/descent package remains the authority for the eight-slot type atlas, non-descent
+controls, chain-rule ownership and open singular strata.
 
 ## PRIOR TOP — CURRENT POINTER (2026-08-04, branch-local splits and round obstruction)
 

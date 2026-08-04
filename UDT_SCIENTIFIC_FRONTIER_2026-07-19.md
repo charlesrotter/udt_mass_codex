@@ -4,6 +4,23 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 4 native-law home/codomain/ownership precedence notice
+
+This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →
+`HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
+`udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md` and its exact evidence.
+
+Founded reciprocal comparison is an equivariant typed observer-pair/depth query law; ambient metric
+geometry lives on spacetime; pair-resolved response lives over query space or on a metric-owned
+reduction. A query residual also requires a supplied, universal, existential, realized,
+branch-derived, stratified, or aggregated quantifier. Current foundations do not select the complete
+dynamical law among basic spacetime, universal-all-queries, and metric-derived reduction routes.
+
+The registered SNe relation is retained only as a conditional downstream codomain compatibility
+anchor. Proposed basic-versus-universal-query solution-set work is not authorized automatically. No
+action, source, carrier, boundary, bootstrap equation, branch, `X_max`, matter, mass or dynamics is
+selected.
+
 ## August 4 query-bundle section/descent precedence notice
 
 This long file is historical context, not the current frontier. Current orientation is `LIVE.md` →

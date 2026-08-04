@@ -3,26 +3,36 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — QUERY/SPACETIME/SECTION LAW TYPES SEPARATED; NATIVE LAW HOME AND OWNERSHIP OPEN:**
-Read `udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md`, then its exact derivation,
-object/law/variation/boundary/stratified ledgers, fresh review, four gates, lay report and next step.
+**➤ CURRENT SCIENTIFIC FRONTIER — FOUNDED LAW TYPES LOCATED; COMPLETE DYNAMICAL LAW TYPE OPEN:**
+Read `udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
+derivation, home/codomain, query-quantifier, variation-ownership, native-compatibility, SNe and
+stratified ledgers, fresh review, four gates, lay report and next step.
 
-All eight open skeleton slots divide into distinct mathematical homes. Typed reciprocal comparison
-and path composition work on the observer-pair query bundle without one universal pair field.
-Ambient metric, Levi-Civita, curvature, causal and base-boundary objects already live on spacetime.
-Screen/mixing response, projected curvature, pair polarization and section-evaluated source or
-bootstrap data remain pair-dependent and need explicit query semantics or a realized/branch-derived
-section. Collision, zero, causal-change, tie and rank-change loci require an open stratified rule.
+Founded reciprocal comparison is an exact equivariant observer-pair/depth query law. Ambient
+metric geometry lives on spacetime. Pair-resolved projected response lives over query space unless
+evaluated on a metric-owned reduction. These require typed/layered bookkeeping, not a selected
+layered physical law.
 
-The exact reset control gives distinct rank-two projectors, screen readouts `(1,0)`, projected
-curvature `(5,7)` and vertical derivative `48/25`, while reciprocal composition remains exact.
-Covariance is therefore not basic descent. No fiber average is assumed.
+The new unresolved datum is the query quantifier. `L(g,q)` may be a supplied readout, universal for
+all queries, existential, realized-section, branch-derived, stratified, or aggregated law. A
+universal-all-queries residual can define an observer-independent metric solution set without
+varying `q`. Regular derived branches vary by chain rule; singular strata remain open; no fiber
+measure is supplied. Present foundations do not select basic spacetime, universal-query, or
+regular/stratified metric-derived dynamics.
 
-Evidence commits `ecd8fee3`/`f286afa5`; 8 slots, 36 facets, 18 objects, 26 production and 19
-independent exact checks, 18 catches, and fresh `PASS` with no repairs. The package hash is
-`136d27366db3617a7bdb4e7d721b64128561539f048ba5ced71b1b01b5d7aee4`. Proposed next, not
-authorized: test whether the founding postulates determine the native law's home, codomain and
-variation ownership; fail closed if they do not.
+The registered SNe formula `d_L/X=z(z+2)` is only a conditional downstream compatibility anchor.
+It requires distinct clock, angular-area, optical and proper pair-distance readout slots but cannot
+select the upstream law, variation domain, branch or `X_max`.
+
+Evidence commits `009281bf`/`b7e17e45`; 8 architectures, 6 law classes, 48 facets, 12 variation
+classes, 7 quantifiers, 26 production and 22 independent exact checks, 20 catches, and fresh `PASS`.
+The package hash is `8e56b3da607c18a08613e0fdaf4d1df1aa6bc891c6edd1176c9e5a0bc653c5fc`.
+Proposed next, not authorized: compare basic spacetime and universal-all-queries residual solution
+sets without introducing a physical observer section.
+
+**➤ PARENT SCIENTIFIC FRONTIER — QUERY/SPACETIME/SECTION LAW TYPES SEPARATED:**
+`udt_query_bundle_section_descent_audit_2026-08-04/` remains the authority for the eight open-slot
+classification, exact non-descent controls and regular/singular reduction distinction.
 
 **➤ PARENT SCIENTIFIC FRONTIER — BRANCH-LOCAL RECIPROCAL SPLITS DERIVED; UNIVERSAL SMOOTH SPLIT OBSTRUCTED ON RETAINED ROUND DOMAIN:**
 `udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/` remains the authority for the
