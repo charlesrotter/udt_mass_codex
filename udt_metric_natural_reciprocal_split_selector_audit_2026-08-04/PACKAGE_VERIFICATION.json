@@ -1,0 +1,8 @@
+{
+  "package_manifest_sha256": "f66152200369e8f1a9a398b7573af32997c778052b8708609b7eb19950dab6c5",
+  "package_members": 42,
+  "result": "PASS",
+  "review": "PASS_WITH_REQUIRED_REPAIRS__REPAIRS_ACCEPTED",
+  "source_manifest_sha256": "a4994e051455b41774ea0a087124eda2e5ccd03e9fa84a471def7ce827e670a7",
+  "verification": "PASS_REVIEW_ACCEPTED"
+}

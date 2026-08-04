@@ -1,0 +1,18 @@
+{
+  "verdict": "PASS_WITH_REQUIRED_REPAIRS",
+  "maximum_conclusion_survives": true,
+  "required_repairs": 5,
+  "optional_strengthenings_accepted": 1,
+  "independent_source_hashes": 28,
+  "independent_full_lorentz_commutant_rank": 15,
+  "independent_round_so3_commutant_rank": 14,
+  "independent_spacelike_so12_commutant_rank": 14,
+  "independent_null_little_group_commutant_rank": 14,
+  "independent_null_idempotent_ranks": [0, 4],
+  "independent_q02_ricci_spectrum": ["0", "1/2", "3/2", "3/2"],
+  "independent_selector_rows": 18,
+  "repository_mutated_by_reviewer": false,
+  "repair_replay": "REPAIRS_ACCEPTED",
+  "repairs_accepted": 5,
+  "semantic_catches_accepted": 6
+}

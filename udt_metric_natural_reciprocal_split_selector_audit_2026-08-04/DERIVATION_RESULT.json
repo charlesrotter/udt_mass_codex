@@ -1,0 +1,68 @@
+{
+  "authority_boundary": "no physical split branch action source carrier boundary bootstrap density Xmax matter mass dynamics or canon",
+  "checks": {
+    "collision_common_limit_operator": true,
+    "collision_distinct_projector_limits": true,
+    "collision_paths_related_by_round_axis_rotation": true,
+    "full_commutant_nullity": 1,
+    "full_commutant_rank": 15,
+    "full_scalar_idempotent_ranks": [
+      0,
+      4
+    ],
+    "intrinsic_candidate_count": 18,
+    "intrinsic_distribution_counts": {
+      "METRIC_DEGENERATE": 1,
+      "MULTIPLE_NONZERO_TYPES_ON_DIFFERENT_LOCI": 6,
+      "PROJECTOR_BLOCKED": 2,
+      "ZERO": 9
+    },
+    "intrinsic_positive_candidate_count": 6,
+    "null_little_group_commutant_rank": 14,
+    "null_little_group_idempotent_ranks": [
+      0,
+      4
+    ],
+    "q02_ricci_spectrum": [
+      "0",
+      "1/2",
+      "3/2",
+      "3/2"
+    ],
+    "ricci_projector_equivariant_under_exact_boost": true,
+    "ricci_projector_idempotent": true,
+    "ricci_projector_metric_self_adjoint": true,
+    "ricci_projector_rank": 2,
+    "round_invariant_projector_ranks": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "round_spatial_commutant_nullity": 2,
+    "round_spatial_commutant_rank": 14,
+    "round_spatial_line_orbit_dimension": 2,
+    "selector_outcome_count": 18,
+    "single_ruler_complement_commutant_rank": 14,
+    "single_ruler_invariant_projector_ranks": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "synthetic_operator_equals_2I_plus_2Ricci_q02": true
+  },
+  "open_classes": [
+    "whole-solution positive capability away from round control",
+    "boundary/topology completion",
+    "rank-changing gluing"
+  ],
+  "positive_witnesses": [
+    "Ricci simple-spectrum stratum",
+    "squashed-S3 Ricci line",
+    "intrinsic-two-form nonzero locus"
+  ],
+  "result": "BRANCH_LOCAL_SELECTORS_ONLY_UNIVERSAL_OBSTRUCTED",
+  "schema": "udt-metric-natural-reciprocal-split-selector-1.0",
+  "universal_scope": "retained domain containing full-isotropy and round-S3 controls"
+}

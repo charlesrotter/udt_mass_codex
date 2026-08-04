@@ -1,0 +1,11 @@
+{
+  "catch_count": 25,
+  "fresh_adversarial_review": "PASS_WITH_REQUIRED_REPAIRS__REPAIRS_ACCEPTED",
+  "independent_result": "PASS",
+  "production_result": "BRANCH_LOCAL_SELECTORS_ONLY_UNIVERSAL_OBSTRUCTED",
+  "result": "PASS_REVIEW_ACCEPTED",
+  "schema": "udt-metric-natural-reciprocal-split-selector-verification-1.0",
+  "selector_count": 18,
+  "source_count": 28,
+  "source_manifest_sha256": "a4994e051455b41774ea0a087124eda2e5ccd03e9fa84a471def7ce827e670a7"
+}

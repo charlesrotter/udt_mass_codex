@@ -1,0 +1,23 @@
+{
+  "cpu_only": true,
+  "gpu_used": false,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "runs": [
+    {
+      "command": "/usr/bin/python3 udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/derive_selector_atlas.py",
+      "exit_code": 0,
+      "label": "PRODUCTION",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "6bd80e2e9456207aec6b74b17b6718ca5b93ed66ea068957b6e94429b0cfb94d"
+    },
+    {
+      "command": "/usr/bin/python3 udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/verify_selector_independent.py",
+      "exit_code": 0,
+      "label": "INDEPENDENT",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "a8910593e297494b8978a674e27082c7739acf925452d48461f1dca27aebe1a4"
+    }
+  ],
+  "sympy": "1.13.1"
+}
