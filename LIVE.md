@@ -4,6 +4,61 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
+## ============ CURRENT STATE (2026-08-04 — BRANCH-LOCAL RECIPROCAL SPLITS DERIVED; UNIVERSAL SMOOTH SPLIT OBSTRUCTED ON RETAINED ROUND DOMAIN) ============
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md` → its correction
+layer, exact derivation, selector outcomes, status/completeness ledgers, cold-review return and
+repair replay → the August 4 globalization audit and factorized skeleton only when their supplied
+`N,Q` architecture or open law slots are load-bearing.
+
+**CURRENT HONEST RESULT:** the complete metric can derive a reciprocal clock/ruler plane on
+broken-symmetry strata, but no unique smooth metric-natural rank-two split exists on the retained
+domain containing the undecorated round `R x S3` control. Exact spatial `SO(3)` symmetry permits
+invariant projector ranks `0,1,3,4`, not rank two. This obstruction reaches every unique
+metric-natural local or nonlocal construction on that exact round metric; it is not a universal
+future no-go if a native law changes or decorates the domain.
+
+**POSITIVE BRANCH-LOCAL RESULTS:** a simple causal Ricci spectrum gives an exact equivariant
+rank-two polynomial projector. The squashed complete `S3` control realizes ultrastatic time plus an
+unoriented simple Ricci/Hopf line off shell. The intrinsic two-form supplies an exact rank-two
+kernel on six registered nonzero loci. These selectors lose uniqueness or fixed rank at the round
+collision, zero/defect graph, causal changes, or other tie strata; no branch is selected as physics.
+
+**ARCHITECTURE:** the total ordered observer-pair query bundle has a tautological reciprocal plane
+without selecting a natural spacetime section. Smooth sections may exist. A realized field, a
+branch-derived stratified split, and the query-bundle object are distinct architectures. First-jet
+`phi` supplies at most one line; second-jet completion is causal- and spectrum-conditional, while
+physical local/global `phi` assignment remains open.
+
+**NEXT PROPOSED BOUNDED QUESTION — NOT YET AUTHORIZED:** classify which open whole-spacetime law
+slots can live equivariantly on the total query bundle and descend without a selected plane, and
+which genuinely require a realized smooth or stratified section `N`. Do not launch another selector
+hunt, action/source/carrier work, bootstrap fit, time-live solve, or GPU computation automatically.
+
+**PREMISE STAMPS:** founded reciprocal character and additive `phi` algebra `DERIVED`; physical
+`phi` assignment `OPEN`; query plane `DERIVED_CONTAINER_NO_NATURAL_SECTION`; simple-spectrum and
+intrinsic-form selectors `DERIVED_BRANCH_LOCAL`; realized universal split `NOT_DERIVED`; strong
+local CSN inactive; bootstrap `WORKING_ON_SHELL_ADMISSIBILITY`; `S2` carrier `POSIT`; action,
+source, boundary, `X_max`, unconditional stability/mass/matter remain `OPEN` or retain prior
+conditional stamps.
+
+**EVIDENCE:** preregistration/result commits `ae8afa98`/`1c49a77b`; 18 selector classes, 28 frozen
+sources, exact SymPy plus independent `Fraction` reconstruction of the algebraic core, 25 catches,
+and fresh `PASS_WITH_REQUIRED_REPAIRS` followed by `REPAIRS_ACCEPTED`. Package manifest has 42
+members, SHA-256 `f66152200369e8f1a9a398b7573af32997c778052b8708609b7eb19950dab6c5`.
+Six frozen manifests/133 paths, 1,114 current paths, 101 frontier targets, tests `70 passed,
+1 xfailed`, and the 83 unrelated untracked metadata identities pass.
+
+**AUTHORITY BOUNDARY:** no physical split, global coframe, action, source, carrier, boundary,
+bootstrap equation, density value, `X_max`, matter/mass claim, dynamics, phenomenology, GPU work,
+canonization, or repository reorganization follows.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_GLOBALIZATION_BEGIN -->
+
+**⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
+**This topmost CURRENT STATE block overrides every older status description.**
 ## ============ CURRENT STATE (2026-08-04 — WHOLE-SPACETIME SKELETON GLOBALIZED CONDITIONALLY; PHYSICAL RECIPROCAL SPLIT OPEN) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md` → its exact
@@ -60,7 +115,7 @@ unrelated curvature-atlas paths remain untracked and metadata-identical.
 preferred plane, topology, action, source, carrier, boundary, density value, bootstrap theorem,
 matter/mass claim, GPU/time-live solve, canonization, or repository reorganization follows.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_GLOBALIZATION_END -->
 
 <!-- STARTUP_PRIOR_2026_08_02_BEGIN -->
 

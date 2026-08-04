@@ -2,7 +2,19 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
 
-## Current scientific spine — August 4
+## Current scientific spine — August 4 selector atlas
+
+Read the [metric-natural reciprocal/screen split selector
+audit](../udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md), then its
+correction layer, exact derivation, selector/status/completeness ledgers, cold review, and repair
+replay. It derives reciprocal planes on simple-spectrum and intrinsic-form nonzero strata and
+obstructs one unique smooth metric-natural plane on the retained domain containing the undecorated
+round control. The observer-query bundle has a tautological plane but selects no natural spacetime
+section; smooth sections may exist. No physical plane or downstream physics is selected.
+
+The proposed section-necessity/descent audit is not authorized automatically.
+
+## Parent scientific spine — August 4 globalization
 
 Read the [extension-bundle globalization and variation-domain
 audit](../udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md), then its
@@ -11,12 +23,10 @@ verification result. Read the [factorized whole-spacetime
 skeleton](../udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md) only
 when its local object graph or open law slots are load-bearing.
 
-The bounded result is a coherent local configuration skeleton and a conditional global bundle
+The parent bounded result is a coherent local configuration skeleton and a conditional global bundle
 realization after smooth reciprocal/screen bundles `N,Q` are supplied. It does not derive that
 split, select a global coframe, or supply an action, source, carrier, boundary, bootstrap closure,
-matter, or mass. The current authorized task is a preregistered CPU-only metric-natural selector
-census retaining universal, branch-local, symmetric, degenerate, set-valued, and rank-changing
-cases. No preferred plane or follow-on physics is authorized automatically.
+matter, or mass. Its proposed selector census is complete at the current spine above.
 
 ## Current foundational correction — July 26
 

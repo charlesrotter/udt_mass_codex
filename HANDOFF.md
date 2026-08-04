@@ -6,6 +6,47 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
 
+## CURRENT — branch-local reciprocal splits derived; universal smooth split obstructed on round control
+
+**Fresh-entry path:**
+
+1. `LIVE.md` topmost current block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
+3. `udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md`, then its
+   correction layer, exact derivation, selector/status/completeness tables, cold review, and replay.
+4. The August 4 globalization audit and factorized skeleton only when the supplied `N,Q`
+   architecture or open law slots are load-bearing.
+
+**Current honest result:** the metric derives reciprocal planes on explicit simple-spectrum and
+intrinsic-form nonzero strata. It cannot derive one unique smooth plane across the retained domain
+containing the undecorated round `R x S3` control because its spatial `SO(3)` symmetry selects no
+ruler. At collisions, zeros, and causal/rank changes the natural output can be set-valued,
+stratified, or undefined. No branch is selected as physical.
+
+The observer-pair query bundle's tautological plane is not a naturally selected spacetime section;
+smooth sections may exist. Query data, branch-derived splits, and realized fields must remain
+distinct.
+
+**Next proposed, not authorized:** a CPU-only section-necessity/descent audit of the skeleton's open
+law slots. Determine which can remain query-bundle laws and which require a realized smooth or
+stratified `N`. No further work follows automatically.
+
+**Evidence:** `ae8afa98`/`1c49a77b`; 18 classes, 28 sources, 25 catches, independent algebraic-core
+reconstruction, `PASS_WITH_REQUIRED_REPAIRS` then `REPAIRS_ACCEPTED`, package hash `f6615220…`,
+frozen 6/127/133, current paths 1,114, frontier targets 101, tests `70 passed, 1 xfailed`, and 83
+unrelated metadata-identical untracked paths.
+
+**Authority boundary:** no physical split, action, source, carrier, boundary, bootstrap equation,
+density, `X_max`, mass/matter, dynamics, GPU work, canonization, or reorganization follows.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_GLOBALIZATION_BEGIN -->
+
+> **READ `LIVE.md` FIRST.** It wins every disagreement.
+>
+> **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
+
 ## CURRENT — whole-spacetime skeleton globalized conditionally; physical reciprocal split open
 
 **Fresh-entry path:**
@@ -45,7 +86,7 @@ The 83 unrelated untracked curvature-atlas paths remain untouched.
 carrier, density/bootstrap equation, boundary, `X_max`, matter/mass claim, canonization,
 reorganization, GPU work, or time-live solve follows.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_GLOBALIZATION_END -->
 
 <!-- STARTUP_PRIOR_2026_08_02_BEGIN -->
 

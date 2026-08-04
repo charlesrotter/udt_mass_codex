@@ -2,13 +2,12 @@
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-04):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry →
-`udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md` → its exact
-derivation, globalization architecture, ledgers, adversarial correction/replay, and verification
-result → `udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md` only
-when its local object graph or open law slots are load-bearing. The current bounded result is a
-coherent local whole-spacetime configuration skeleton and a conditional global bundle realization
-once smooth reciprocal/screen bundles are supplied. The metric-natural selection of that split
-remains open. No action, source, carrier, boundary, bootstrap value, matter, or mass is selected.
+`udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md` → its correction,
+exact derivation, ledgers, review, and replay → the August 4 globalization audit and factorized
+skeleton only when their supplied-split architecture is load-bearing. The current bounded result
+derives metric-natural reciprocal planes on broken-symmetry strata and proves that no unique smooth
+one covers the retained domain containing the undecorated round control. No physical plane, action,
+source, carrier, boundary, bootstrap value, matter, or mass is selected.
 
 
 This root is the control and navigation surface for the UDT research record.
@@ -16,8 +15,8 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
-the [August 4 globalization audit](udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md)
-and its named load-bearing evidence → the [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
+the [metric-natural split selector audit](udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md)
+and its named load-bearing evidence → the [August 4 globalization audit](udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md) → the [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
 only when its details are needed → earlier frontier and selector evidence named by those files only
 when required by the active task → the targeted `CLAUDE.md`
 method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
@@ -32,11 +31,11 @@ count, not the native UDT field or mode count. Strong local CSN is challenged/no
 inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
 If the registry, `LIVE.md`, and a cited source disagree, stop.
 
-The next bounded scientific task is a preregistered CPU-only census of whether the complete metric
-itself supplies the reciprocal/screen split assumed by the conditional globalization result. It
-must retain universal, branch-local, symmetric, degenerate, set-valued, and rank-changing cases; it
-does not authorize choosing a preferred plane or beginning action, source, carrier, bootstrap,
-time-live, or GPU work.
+The selector census is complete. The next proposed task, not yet authorized, is a CPU-only
+section-necessity/descent audit: determine which open skeleton laws can live on the observer-query
+bundle and descend without selecting one plane, and which require a realized smooth or stratified
+section. It does not authorize choosing a physical plane or beginning action, source, carrier,
+bootstrap, time-live, or GPU work.
 
 The last pre-P4 result is the [higher-isometry reciprocal-plane ownership
 audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md). Universal unique-plane

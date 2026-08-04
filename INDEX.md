@@ -3,7 +3,25 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC FRONTIER — WHOLE-SPACETIME SKELETON GLOBALIZED CONDITIONALLY; PHYSICAL RECIPROCAL SPLIT OPEN:**
+**➤ CURRENT SCIENTIFIC FRONTIER — BRANCH-LOCAL RECIPROCAL SPLITS DERIVED; UNIVERSAL SMOOTH SPLIT OBSTRUCTED ON RETAINED ROUND DOMAIN:**
+Read `udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md`, then its
+correction layer, exact derivation, selector/status/completeness ledgers, cold review, and repair
+replay. The metric derives a rank-two reciprocal plane on simple-curvature and intrinsic-form
+nonzero strata. The undecorated round `R x S3` control forbids one unique natural clock/ruler plane:
+spatial `SO(3)` admits invariant projector ranks only `0,1,3,4`.
+
+The obstruction covers unique local and nonlocal metric-natural constructions on that exact round
+control, not every possible future UDT domain. At the round collision, zero/defect graph, and
+causal/rank changes, the output can become set-valued, stratified, or undefined. The total
+observer-pair query bundle has a tautological plane but selects no natural spacetime section; smooth
+sections may exist. No physical branch or plane is selected.
+
+Evidence commits `ae8afa98`/`1c49a77b`; 18 classes, 28 frozen sources, exact plus independent
+algebraic-core reconstruction, 25 catches, and fresh `PASS_WITH_REQUIRED_REPAIRS` then
+`REPAIRS_ACCEPTED`. Proposed next, not authorized: determine which open skeleton laws can descend
+from the query bundle and which require a realized smooth or stratified section.
+
+**➤ PARENT SCIENTIFIC FRONTIER — WHOLE-SPACETIME SKELETON GLOBALIZED CONDITIONALLY AFTER SUPPLIED SPLIT:**
 Read `udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
 derivation, architecture, ledgers, adversarial correction/replay, and verifier. Read
 `udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md` only when the local
@@ -21,9 +39,7 @@ mixing is `Hom(N,Q)`; stratum-crossing tangents are ambient rather than fixed-ra
 the banking gate is fail-closed. Evidence commits are `5399d850`/`d3bd68da`; 26 symbolic, 16
 independent rational, and 18 catch checks pass.
 
-Current authorized work: a preregistered CPU-only metric-natural reciprocal/screen selector census,
-retaining all symmetric, curvature/derivative, `phi`, Killing, holonomy, intrinsic-form, query,
-whole-branch, degenerate, and rank-changing classes. It must characterize, not target, one plane.
+The selector census proposed by this parent is complete at the current frontier above.
 
 **➤ PARENT SCIENTIFIC FRONTIER — DEFECT TRANSPORT MAPPED; LINE MONODROMY TRIVIAL, CLOCK/LINE CURVATURE SURVIVES:**
 Read `udt_intrinsic_defect_transport_atlas_2026-08-02/AUDIT_REPORT.md`, then its lay report, exact
@@ -480,36 +496,39 @@ Evidence: `phaseG_evidence_2026-07-16/`, `boundary_virial_evidence_2026-07-16/`,
 1. **`LIVE.md`** CURRENT STATE
 2. **`HANDOFF.md`** CURRENT block
 3. **`CURRENT_SCIENTIFIC_PREMISES.md`** and **`CURRENT_SCIENTIFIC_PREMISES.tsv`**
-4. **`udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md`**, its exact
-   derivation, architecture, ledgers, adversarial correction/replay, and verification result
-5. **`udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md`** and its
+4. **`udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/AUDIT_REPORT.md`**, its
+   correction layer, exact derivation, selector/status/completeness ledgers, cold review, and replay
+5. **`udt_extension_bundle_globalization_variation_audit_2026-08-04/AUDIT_REPORT.md`**, its exact
+   derivation, architecture, ledgers, adversarial correction/replay, and verification result only
+   when the supplied-split architecture is load-bearing
+6. **`udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md`** and its
    machine ledgers only when the current task needs the local object graph or open law slots
-6. **`P4_ARC_SUMMARY_2026-07-31.md`** only when the stability/action parent arc is load-bearing
-7. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through its top overlay only as pre-P4 history
-8. **`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`**,
+7. **`P4_ARC_SUMMARY_2026-07-31.md`** only when the stability/action parent arc is load-bearing
+8. **`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`** through its top overlay only as pre-P4 history
+9. **`udt_global_local_relational_closure_audit_2026-07-25/AUDIT_REPORT.md`**,
    **`STATUS_LEDGER.tsv`**, **`DEPENDENCY_ARCHITECTURE.tsv`**, **`LAY_REPORT.md`**, and
    **`NEXT_STEP.md`**
-9. **`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`** only when its
+10. **`udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md`** only when its
    parent screen-projector, density-response, equation-family, or completion evidence is
    load-bearing
-10. **`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`** only when its
+11. **`udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md`** only when its
    pointwise generator, screen-line, or path-cocycle premises are load-bearing
-11. The observer cocycle, relational-depth, clock-operator, complete-metric separation, and
+12. The observer cocycle, relational-depth, clock-operator, complete-metric separation, and
    `X_max` packages named by the frontier only when their exact path/bilocal/diameter premises are
    load-bearing
-12. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
+13. **`udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md`** and its
    status, metric-to-frontier, and regression-guard ledgers
-13. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`** and the other
+14. **`matter_bootstrap_dimensional_inventory_2026-07-20/AUDIT_REPORT.md`** and the other
    bootstrap/boundary source packages named by the current frontier only when lineage is
    load-bearing
-14. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
+15. **`angular_toric_closure_selector_2026-07-19/LAY_DECISION_TREE.md`** and
    **`angular_toric_closure_selector_2026-07-19/STATUS_LEDGER.tsv`**
-15. The exact frozen evidence named by the active task only
-16. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
-17. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
-18. Only the task-triggered protocol under **`.claude/skills/`**
-19. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
-20. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
+16. The exact frozen evidence named by the active task only
+17. **`stability_branch_follow_256_DECISION.md`** only for particle operator/stability work
+18. **`CLAUDE.md`** targeted how-we-work + DRIVER TRIGGERS + repo discipline
+19. Only the task-triggered protocol under **`.claude/skills/`**
+20. This INDEX top/current summary, then **`MEMORY.md`** TOP (disk) for compact pointers
+21. **`CANON.md`** / **`NEGATIVES_REGISTRY.md`** as needed
 
 ---
 

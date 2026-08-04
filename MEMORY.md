@@ -4,7 +4,26 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, conditional globalization and open split)
+## TOP — CURRENT POINTER (2026-08-04, branch-local splits and round obstruction)
+
+**LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
+block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
+`udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/` in its stated order. Use the
+August 4 globalization audit and factorized skeleton only when the supplied-split architecture is
+load-bearing.
+
+Current honest result: simple curvature spectrum and the registered intrinsic two-form nonzero
+loci derive branch-local reciprocal planes. The undecorated round `R x S3` control admits no unique
+metric-natural rank-two plane because spatial `SO(3)` has invariant projector ranks only
+`0,1,3,4`. The result is bounded to retained domains containing that control. At collisions, zeros,
+and causal/rank changes the output may be set-valued, stratified, or undefined.
+
+The observer-pair query bundle has a tautological reciprocal plane but selects no natural spacetime
+section; smooth sections may exist. No physical branch or selector follows. Proposed next, not
+authorized: classify which open skeleton laws descend from the query bundle and which require a
+realized smooth or stratified section.
+
+## PRIOR TOP — CURRENT POINTER (2026-08-04, conditional globalization and open split)
 
 **LIVE.md CURRENT STATE is authoritative.** Read its marked current block, then HANDOFF's current
 block, `CURRENT_SCIENTIFIC_PREMISES.md/.tsv`, and
