@@ -1,0 +1,20 @@
+{
+  "collision_projectors_distinct": true,
+  "engine": "stdlib_fraction",
+  "exact_checks": 19,
+  "imports_production": false,
+  "pair_projector_ranks": [
+    2,
+    2
+  ],
+  "projected_curvature_traces": [
+    "5",
+    "7"
+  ],
+  "screen_readout_values": [
+    "1",
+    "0"
+  ],
+  "status": "PASS",
+  "vertical_projector_derivative": "48/25"
+}

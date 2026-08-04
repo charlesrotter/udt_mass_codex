@@ -1,0 +1,7 @@
+python3 udt_query_bundle_section_descent_audit_2026-08-04/freeze_sources.py
+python3 udt_query_bundle_section_descent_audit_2026-08-04/run_audit.py
+python3 udt_query_bundle_section_descent_audit_2026-08-04/record_environment.py
+python3 udt_query_bundle_section_descent_audit_2026-08-04/verify_audit.py
+python3 udt_query_bundle_section_descent_audit_2026-08-04/verify_repository_gates.py
+python3 udt_query_bundle_section_descent_audit_2026-08-04/build_manifest.py
+python3 udt_query_bundle_section_descent_audit_2026-08-04/verify_package.py

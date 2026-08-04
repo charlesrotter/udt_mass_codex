@@ -1,0 +1,15 @@
+verdict: `PASS`
+
+1. No load-bearing mathematical defect found in the core distinction among frame covariance, vertical-query equivariance, and basic descent. The exact controls correctly show `P_02 = R_12 P_01 R_12^-1` while `P_02 != P_01`, projected curvature changing from `5` to `7`, nonzero vertical derivative `48/25`, and section dependence rather than intrinsic descent. See [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_query_bundle_section_descent_audit_2026-08-04/EXACT_DERIVATION.md:15) and [OBJECT_DESCENT_ATLAS.tsv](/home/udt-admin/udt_mass_codex/udt_query_bundle_section_descent_audit_2026-08-04/OBJECT_DESCENT_ATLAS.tsv:2).
+
+2. No active/passive or section-free overclaim found around connection/curvature data. The audit correctly limits section-free claims to ambient metric/Levi-Civita/base-boundary data and explicitly keeps pair-adapted coefficients, projected curvature, screen connections, second fundamental forms, and plane holonomy typed as pair/reduction-dependent. See [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_query_bundle_section_descent_audit_2026-08-04/EXACT_DERIVATION.md:113) and [AUDIT_REPORT.md](/home/udt-admin/udt_mass_codex/udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md:53).
+
+3. The `36` law-slot rows stay on the right side of the authority boundary. Query/path laws remain query-typed, ambient laws remain only possible-on-`M`, pair-projected response and boundary polarization remain section/query/stratified dependent, zero mixing is not promoted to a selector, and fiber aggregation is retained open rather than incorrectly ruled out. See [LAW_SLOT_DESCENT_ATLAS.tsv](/home/udt-admin/udt_mass_codex/udt_query_bundle_section_descent_audit_2026-08-04/LAW_SLOT_DESCENT_ATLAS.tsv:12) and [AUDIT_REPORT.md](/home/udt-admin/udt_mass_codex/udt_query_bundle_section_descent_audit_2026-08-04/AUDIT_REPORT.md:63).
+
+4. The bounded independence/provenance story is adequate. The independent checker does not import production code, reproduces the load-bearing invariants, and the verifier checks all `28` frozen source hashes plus all `18` fail-closed mutations. I inspected these rather than rerunning the write-producing scripts because this session is read-only. See [verify_audit.py](/home/udt-admin/udt_mass_codex/udt_query_bundle_section_descent_audit_2026-08-04/verify_audit.py:27), [verify_descent_independent.py](/home/udt-admin/udt_mass_codex/udt_query_bundle_section_descent_audit_2026-08-04/verify_descent_independent.py:1), and [CATCH_PROOFS.tsv](/home/udt-admin/udt_mass_codex/udt_query_bundle_section_descent_audit_2026-08-04/CATCH_PROOFS.tsv:1).
+
+Required repairs: none.
+
+Maximum conclusion: `TYPED_SPLIT_QUERY_AND_SPACETIME_LAWS; QUERY_KINEMATICS_AND_AMBIENT_GEOMETRY_DO_NOT_REQUIRE_A_UNIVERSAL_RECIPROCAL_SECTION; PAIR_PROJECTED_PHYSICAL_RESPONSE_REQUIRES_QUERY_TYPING_OR_A_REALIZED_BRANCH_STRATIFIED_REDUCTION; NATIVE_LAW_HOME_CODOMAIN_AND_OWNERSHIP_REMAIN_OPEN.` Fiber aggregation remains `OPEN` only if a native measure/weight/normalization rule is later derived, not assumed.
+
+No repository file was modified.

@@ -1,0 +1,8 @@
+{
+  "compute": "CPU exact algebra only",
+  "git_head_at_run": "ecd8fee3225cb3e6597cc7543ed98299e85e43a2",
+  "machine": "x86_64",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

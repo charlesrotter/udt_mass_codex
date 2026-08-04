@@ -1,0 +1,18 @@
+{
+  "boundary_classes": 9,
+  "catch_proofs": 18,
+  "fresh_adversarial_review": "PASS",
+  "frozen_sources": 28,
+  "independent_exact_checks": 19,
+  "law_facets": 36,
+  "law_slots": 8,
+  "maximum_conclusion": "QUERY_KINEMATICS_AND_AMBIENT_GEOMETRY_DO_NOT_REQUIRE_UNIVERSAL_SECTION;PAIR_PROJECTED_PHYSICAL_RESPONSE_REQUIRES_QUERY_TYPING_OR_REALIZED_BRANCH_STRATIFIED_REDUCTION",
+  "object_classes": 18,
+  "outcome": "TYPED_SPLIT_QUERY_AND_SPACETIME_LAWS",
+  "production_exact_checks": 26,
+  "required_repairs": 0,
+  "smallest_open_joint": "NATIVE_LAW_HOME_CODOMAIN_AND_OWNERSHIP_RULE",
+  "status": "PASS",
+  "stratified_classes": 9,
+  "variation_classes": 8
+}
