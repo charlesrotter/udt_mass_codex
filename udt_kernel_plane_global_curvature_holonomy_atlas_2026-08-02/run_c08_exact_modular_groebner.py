@@ -87,14 +87,17 @@ def committed_clean(path: Path) -> str:
 def smoke_test() -> dict[str, object]:
     assert SINGULAR.is_file() and POLY_KERNEL.is_file()
     source = (
+        'LIB "modstd.lib";\n'
         "ring r=0,(x,y),dp;\n"
         "ideal I=x2+y,y2+x;\n"
-        "ideal G=std(I);\n"
-        'print("UDT_OPTIMIZED_KERNEL_SMOKE_PASS");\n'
+        "ideal G=modStd(I,1);\n"
+        'int verified=system("verifyGB",G);\n'
+        'if (verified!=1) { ERROR("toy exact modular verification failed"); }\n'
+        'print("UDT_EXACT_MODULAR_OPTIMIZED_KERNEL_SMOKE_PASS");\n'
         "quit;\n"
     )
     completed = subprocess.run(
-        [str(SINGULAR), "-q", "--no-rc", "--cpus=1", "--threads=1"],
+        [str(SINGULAR), "-q", "--no-rc", "--cpus=4", "--threads=1", "--flint-threads=1"],
         input=source, text=True, capture_output=True,
         env=singular_environment(), check=False,
     )
@@ -104,14 +107,14 @@ def smoke_test() -> dict[str, object]:
     stderr_path.write_text(completed.stderr, encoding="utf-8")
     combined = completed.stdout + completed.stderr
     assert completed.returncode == 0
-    assert "UDT_OPTIMIZED_KERNEL_SMOKE_PASS" in completed.stdout
+    assert "UDT_EXACT_MODULAR_OPTIMIZED_KERNEL_SMOKE_PASS" in completed.stdout
     assert "Could not find dynamic library" not in combined
     return {
         "returncode": completed.returncode,
         "stdout_sha256": digest(stdout_path),
         "stderr_sha256": digest(stderr_path),
         "optimized_kernel_sha256": digest(POLY_KERNEL),
-        "status": "PASS_WARNING_FREE_OPTIMIZED_KERNEL",
+        "status": "PASS_WARNING_FREE_EXACT_MODULAR_OPTIMIZED_KERNEL",
     }
 
 
@@ -264,7 +267,7 @@ def supervise() -> int:
     assert preparation["input_sha256"] == digest(input_path)
     assert source_gate() == preparation["source_manifest_sha256"]
     smoke = smoke_test()
-    assert smoke["status"] == "PASS_WARNING_FREE_OPTIMIZED_KERNEL"
+    assert smoke["status"] == "PASS_WARNING_FREE_EXACT_MODULAR_OPTIMIZED_KERNEL"
 
     stdout_path = HERE / "C08_MODULAR_ALL_ZERO_STDOUT.txt"
     stderr_path = HERE / "C08_MODULAR_ALL_ZERO_STDERR.txt"
