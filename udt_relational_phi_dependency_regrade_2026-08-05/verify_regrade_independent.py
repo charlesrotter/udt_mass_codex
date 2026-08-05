@@ -58,15 +58,23 @@ def main() -> None:
         assert recorded["disposition"] == winner["disposition"]
         reproduced.append(f"{recorded['path']}\t{winner['family_id']}\t{winner['disposition']}\n")
     family_identity = hashlib.sha256("".join(reproduced).encode()).hexdigest()
-    assert family_identity == "1d709622d65d63e6effdc73ab2a4ddcd5fbeee2d2860a8e53072b33b5140fc4b"
+    assert family_identity == "69408f2a5e9a65de2beb8a016c502de76b798afce18c116b9ef437f54c39279d"
     counts = Counter(row["disposition"] for row in ledger)
     assert counts["CONCLUSION_REGRADE_REQUIRED"] == 99
-    assert counts["CONDITIONAL_REINTERPRETATION_ONLY"] == 1088
+    assert counts["CONDITIONAL_REINTERPRETATION_ONLY"] == 1091
     assert counts["CONTROL_UPDATE_REQUIRED"] == 13
     assert counts["FROZEN_EVIDENCE_IMMUTABLE"] == 40
-    assert counts["HISTORICAL_SUPERSEDED_NO_ACTION"] == 338
+    assert counts["HISTORICAL_SUPERSEDED_NO_ACTION"] == 335
     assert counts.get("REDERIVATION_REQUIRED", 0) == 0
     assert not any(row["family_id"] == "F20_POSTJULY_UNMATCHED" for row in ledger)
+    current_chain = {
+        "UDT_NATIVE_ACTION_COLD_PACKET.md",
+        "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+        "verify_udt_reciprocal_c_postulate.py",
+    }
+    assert {
+        row["path"] for row in ledger if row["family_id"] == "F02A_CURRENT_FOUNDING_CHAIN"
+    } == current_chain
 
     pointwise = [row for row in ledger if row["family_id"] == "F03_OWNER_LOCAL_PHI_OVERREACH"]
     assert len(pointwise) == 99
@@ -75,8 +83,8 @@ def main() -> None:
     assert len(negatives) == 3
     assert all("NONBLOCKING" in row["current_authority"] for row in negatives)
     print(
-        "PASS independent: active=4762, conclusion_regrade=99, conditional=1088, "
-        "frozen=40, historical=338, rederive=0, seven packages, three negatives, "
+        "PASS independent: active=4762, conclusion_regrade=99, conditional=1091, "
+        "frozen=40, historical=335, rederive=0, seven packages, three negatives, "
         f"identity={identity}, family={family_identity}"
     )
 

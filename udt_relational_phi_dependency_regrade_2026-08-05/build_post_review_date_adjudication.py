@@ -5,13 +5,18 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import io
 import json
 from pathlib import Path
+import subprocess
 
 
 HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
 OUT = HERE / "DATE_RULE_ADJUDICATION.tsv"
 SUMMARY = HERE / "DATE_RULE_ADJUDICATION_SUMMARY.json"
+OLD_LEDGER_COMMIT = "b9497e3cf4c0b706db835c5edf7af17846838082"
+OLD_LEDGER_SHA256 = "b77eea4240b7e3ab97ba97c5dbadfbfa10f5c1803785eb8790545050aedaf651"
 CURRENT = {
     "UDT_NATIVE_ACTION_COLD_PACKET.md": "CURRENT_C1_FOUNDATION",
     "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "CURRENT_RECIPROCAL_CHARACTER_SOURCE",
@@ -22,6 +27,16 @@ CURRENT = {
 def read(name: str) -> list[dict[str, str]]:
     with (HERE / name).open(encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle, delimiter="\t"))
+
+
+def read_old_ledger() -> list[dict[str, str]]:
+    """Read the preregistered pre-mutation ledger, never the corrected output."""
+    relative = f"{HERE.name}/ACTIVE_REGRADING_LEDGER.tsv"
+    payload = subprocess.check_output(
+        ["git", "show", f"{OLD_LEDGER_COMMIT}:{relative}"], cwd=ROOT
+    )
+    assert hashlib.sha256(payload).hexdigest() == OLD_LEDGER_SHA256
+    return list(csv.DictReader(io.StringIO(payload.decode("utf-8")), delimiter="\t"))
 
 
 def retained_family(path: str) -> tuple[str, str]:
@@ -43,7 +58,7 @@ def retained_family(path: str) -> tuple[str, str]:
 
 
 def main() -> None:
-    ledger = read("ACTIVE_REGRADING_LEDGER.tsv")
+    ledger = read_old_ledger()
     source = {row["path"]: row for row in read("ACTIVE_REGRADE_UNIVERSE.tsv")}
     selected = [row for row in ledger if row["family_id"] == "F18_EARLY_POSTJULY_FIELD_SOLVER"]
     assert len(selected) == 254

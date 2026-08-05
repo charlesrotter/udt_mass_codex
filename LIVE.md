@@ -8,7 +8,7 @@
 **DEPENDENCY RE-GRADE:** the repository-wide relational-`phi` dependency audit is the current
 correction overlay: `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`. It preserves
 the 4,762-row frozen active ledger and finds no current load-bearing algebra that must be discarded.
-It withdraws the older pointwise physical-owner conclusion, conditionalizes 1,088 paths, regrades
+It withdraws the older pointwise physical-owner conclusion, conditionalizes 1,091 paths, regrades
 99 paths in seven semantic packages, and removes UDT-wide blocking authority from three
 pointwise-field/action negatives. F01/F02/F04 and the WR-L/SNe readout retain their prior conditional
 statuses. Historical/frozen evidence is unchanged.

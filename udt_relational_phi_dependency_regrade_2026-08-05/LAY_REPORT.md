@@ -26,3 +26,8 @@ So we do **not** need to redo everything. We need to redo an older result only w
 it as current native physics and it depended on the unjustified pointwise field, action or source.
 The remaining central gap is now cleaner: derive—or explicitly posit and test—the actual law that
 turns a complete pair of observers and their connecting geometry into the comparison depth.
+
+One bookkeeping trap was also caught: a date rule had accidentally called the founding documents
+themselves “superseded.” That did not alter the mathematics, but it would have made future readers
+receive two incompatible instructions. The three current founding-chain files are now correctly
+marked as current conditional evidence; 251 genuinely historical early files remain historical.

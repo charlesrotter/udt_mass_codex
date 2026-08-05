@@ -8,14 +8,16 @@
     "pointwise_owner_promotion",
     "stationary_sign_reversal",
     "negative_authority_promotion",
-    "frozen_preregistration_mutation"
+    "frozen_preregistration_mutation",
+    "locator_snapshot_semantics_removed",
+    "founding_chain_rehistorized"
   ],
   "clean_tree_reruns": 11,
   "conclusion_regraded_rows": 99,
   "control_rows": 13,
-  "family_identity_sha256": "1d709622d65d63e6effdc73ab2a4ddcd5fbeee2d2860a8e53072b33b5140fc4b",
+  "family_identity_sha256": "69408f2a5e9a65de2beb8a016c502de76b798afce18c116b9ef437f54c39279d",
   "frozen_rows": 40,
-  "historical_rows": 338,
+  "historical_rows": 335,
   "rederivation_required_rows": 0,
   "schema": "udt.relational_phi_regrade.verification.v1",
   "status": "PASS"

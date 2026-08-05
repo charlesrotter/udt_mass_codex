@@ -2,7 +2,7 @@
 
 Date: 2026-08-05  
 Base frozen before adjudication: `682adb6c9d4cc7c9834cb5ea6a7712a32206650b`  
-Status: `VERIFIED_WITH_CAVEATS` pending the separately recorded cold semantic return  
+Status: `VERIFIED_WITH_CAVEATS`; cold review accepted the science with a repaired locator/classifier layer
 Scope: source entailment and downstream dependency regrade; no new field equation, action, source,
 carrier, solution, fit or canonization
 
@@ -24,14 +24,20 @@ particular branch; it prohibits treating one as already universal and derived.
 The correction is serious but bounded. Of 4,762 active exposed paths:
 
 - 99 paths in seven packages require a conclusion regrade;
-- 1,088 retain their mathematics under a conditional interpretation;
+- 1,091 retain their mathematics under a conditional interpretation;
 - 418 nonselection results remain exact and are now explanatory;
 - 741 already carried the required open-dependency stamp;
 - 31 are unchanged and independent of the ownership issue;
-- 338 are historical/superseded provenance only;
+- 335 are historical/superseded provenance only;
 - 40 are immutable frozen evidence;
 - 1,994 have no relevant semantic dependency; and
 - 13 current controls/verifiers require the correction now applied.
+
+The post-review correction found and removed one classification circularity: a date-only rule had
+called the current C1 packet, founding reciprocal derivation and its verifier “historically
+superseded.” All 254 rows caught by that rule were individually frozen and adjudicated. Those three
+current-chain sources are now conditional current evidence; the remaining 251 retain their
+historical/superseded disposition. No physics status was promoted.
 
 No presently load-bearing algebra row requires immediate rederivation. That is not permission to
 reuse every old calculation. Any historical pointwise-field/action result proposed for renewed
@@ -107,7 +113,7 @@ The preregistered full exposure census contains 5,354 tracked text paths. The ex
 contains 4,762 unique identities with identity SHA-256
 `e5e43aa069a1cfbda0db72346cb89023b530317c68049554bb11f5fe0e367518`.
 Every active identity has exactly one disposition. The path/family/disposition identity SHA-256 is
-`1d709622d65d63e6effdc73ab2a4ddcd5fbeee2d2860a8e53072b33b5140fc4b`.
+`69408f2a5e9a65de2beb8a016c502de76b798afce18c116b9ef437f54c39279d`.
 
 Eleven load-bearing programs were rerun from a clean exported tree with Python 3.10.12 and SymPy
 1.13.1. All exited zero; all stderr streams were empty. These cover the reciprocal founding
@@ -123,5 +129,15 @@ ownership and direct founding-source audit with primary and independent implemen
    algebra reruns; cold semantic review recorded separately.
 4. **Premises audited:** yes for the registered ownership dependencies; complete UDT physics and
    historical calculations not proposed for reuse remain outside the conclusion.
+
+Fresh `gpt-5.4` returned `ACCEPTED_WITH_REPAIRS` and found no mathematical failure. Its stale-locator
+objection is closed by explicit base-snapshot semantics plus post-correction locators. The separate
+date-rule flaw was found locally after the review and is covered by the 254-row correction ledger,
+fail-closed verifier and repair replay. A fresh read-only `gpt-5.4` repair replay returned
+`REPAIR_ACCEPTED`: it independently reproduced the 254-identity SHA-256, the exact 3/251 correction
+split, the corrected disposition totals and the no-promotion conclusion. Its environment could not
+run pytest because it exposed no writable temporary directory; it manually replayed the remaining
+non-temporary gates, while the controller's clean writable environment independently retained the
+documented `70 passed, 1 xfailed` baseline.
 
 Maximum conclusion: dependency correction and scoped reuse ledger only.

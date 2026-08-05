@@ -1,0 +1,8 @@
+locator_id	path	line_start	line_end	current_role	status
+P01	CURRENT_SCIENTIFIC_PREMISES.md	14	24	Correct relational character and presentation-potential prose	CORRECTED_CURRENT
+P02	CURRENT_SCIENTIFIC_PREMISES.tsv	2	4	Correct G01/G02/G03 machine-readable premise rows	CORRECTED_CURRENT
+P03	AGENTS.md	256	264	Binding supplied-depth and no-pointwise-promotion guard	CORRECTED_CURRENT
+P04	research/README.md	135	145	Current relational correction navigation	CORRECTED_CURRENT
+P05	NEGATIVES_REGISTRY.md	5	17	Current relational regrade overlay	CORRECTED_CURRENT
+P06	NEGATIVES_REGISTRY.md	36	48	July 7 negative marked conditions-changed	CORRECTED_CURRENT
+P07	NEGATIVES_REGISTRY.md	2207	2220	Item 76 marked conditions-changed and branch-only	CORRECTED_CURRENT

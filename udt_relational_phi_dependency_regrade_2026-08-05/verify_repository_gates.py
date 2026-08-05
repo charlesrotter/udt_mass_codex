@@ -10,6 +10,7 @@ import json
 import os
 import re
 import subprocess
+import tempfile
 from pathlib import Path
 from urllib.parse import unquote
 
@@ -119,10 +120,13 @@ def main() -> None:
     unrelated = current_unrelated()
     assert len(baseline) == len(unrelated) == 83 and baseline == unrelated
 
-    tests = subprocess.run(
-        ["python3", "-m", "pytest", "-q", "tests"], cwd=ROOT, text=True,
-        capture_output=True, timeout=300, check=False,
-    )
+    with tempfile.TemporaryDirectory(prefix="udt-relational-regrade-") as tmp:
+        test_env = dict(os.environ)
+        test_env["TMPDIR"] = tmp
+        tests = subprocess.run(
+            ["python3", "-m", "pytest", "-q", "tests"], cwd=ROOT, text=True,
+            capture_output=True, timeout=300, check=False, env=test_env,
+        )
     assert tests.returncode == 0 and "70 passed, 1 xfailed" in tests.stdout, tests.stdout + tests.stderr
 
     result = {

@@ -1,23 +1,23 @@
-locator_id	path	line_start	line_end	semantic_role	regrade_reading
-L01	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	91	114	Direct source starts from relative depth Delta and defines phi as its normalized character coordinate.	FOUNDING_CHARACTER_ON_SUPPLIED_DEPTH
-L02	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	125	139	Assumption ledger marks relative composition as POSIT and phi sign/unit as CHOSE.	NO_OBSERVER_PATH_TO_DEPTH_OWNER_DERIVED
-L03	udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md	50	59	States phi(p) belongs to a location.	SUPERSEDED_POINTWISE_PHYSICAL_OWNER_ASSERTION
-L04	udt_phi_metric_ontology_audit_2026-07-22/AUDIT_REPORT.md	14	49	Combines correct reciprocal logarithm with unsupported local physical ownership.	MIXED__ALGEBRA_SURVIVES__OWNER_CLAIM_WITHDRAWN
-L05	udt_phi_metric_ontology_audit_2026-07-22/AUDIT_REPORT.md	73	90	Lists owner-fixed signed local phi among established claims.	CONCLUSION_REGRADE_REQUIRED
-L06	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	12	40	Pointwise extension class and exact counterfamilies.	ALGEBRA_SURVIVES_ON_SUPPLIED_FACTORIZATION
-L07	udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md	87	124	Correctly separates stationary lapse, open physical pair map and supplied endpoint potential.	UNCHANGED_OPEN_DEPENDENCY
-L08	udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md	12	43	Refutes universal absolute scalar encoding and proposes observer-indexed type given an open F.	UNCHANGED_NEGATIVE_NOW_EXPLANATORY
-L09	udt_complete_physical_comparison_map_audit_2026-07-27/AUDIT_REPORT.md	15	39	Derives stationary Killing depth in a bounded branch.	CONDITIONAL_BRANCH_LOCAL_POSITIVE_RESULT
-L10	udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	3	19	Direct-source distinction between character law and missing ownership map.	CURRENT_CONTROLLING_SOURCE_READING
-L11	udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	21	78	Exact factorization shifts and presentation-potential interpretation.	POINTWISE_PHI_NOT_FOUNDING_INVARIANT
-L12	udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	98	121	Correct stationary sign and branch-local scope.	DELTA_K_EQUALS_LOG_NP_OVER_NQ
-L13	CURRENT_SCIENTIFIC_PREMISES.md	12	20	Current prose still calls phi itself the derived pair depth.	CONTROL_UPDATE_REQUIRED
-L14	CURRENT_SCIENTIFIC_PREMISES.tsv	2	4	G01/G02/G03 current machine-readable semantics.	CONTROL_UPDATE_REQUIRED_FOR_G01_AND_G02_SCOPE
-L15	AGENTS.md	253	262	Mandatory working rules retain superseded pointwise wording.	CONTROL_UPDATE_REQUIRED
-L16	research/README.md	135	142	Navigation repeats the July 26 pointwise phrasing.	CONTROL_UPDATE_REQUIRED
-L17	NEGATIVES_REGISTRY.md	23	48	Standing homogeneous-redshift negative assumes a physical phi field and native field equation.	CONDITIONS_CHANGED__CONDITIONAL_BRANCH_ALGEBRA_ONLY
-L18	NEGATIVES_REGISTRY.md	2195	2220	Item 76 calls a selected pointwise phi ODE the native operator and gives it blocking authority.	CONDITIONS_CHANGED__NO_UDT_WIDE_BLOCKING_AUTHORITY
-L19	udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/AUDIT_REPORT.md	14	53	SNe/WR-L readout is explicitly built from a supplied base metric and conditional assembly.	CONDITIONAL_OBSERVATIONAL_COMPATIBILITY_UNCHANGED
-L20	udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md	82	106	Exact F01/F02/F04 scoped family state.	MASS_AND_STABILITY_STATUS_UNCHANGED
-L21	udt_global_functional_dof_constraint_rank_audit_2026-07-26/AUDIT_REPORT.md	20	34	No independent eleventh phi direction and generic metric-rank scope.	NEGATIVE_SURVIVES__RELATIONAL_CHARACTER_NOT_POINT_FIELD
-L22	udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md	8	31	Global factorization groupoid does not select pointwise representative.	UNCHANGED_NEGATIVE_NOW_EXPLANATORY
+locator_id	path	line_start	line_end	semantic_role	regrade_reading	snapshot_semantics
+L01	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	91	114	Direct source starts from relative depth Delta and defines phi as its normalized character coordinate.	FOUNDING_CHARACTER_ON_SUPPLIED_DEPTH	CURRENT_CITED_CONTENT
+L02	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	125	139	Assumption ledger marks relative composition as POSIT and phi sign/unit as CHOSE.	NO_OBSERVER_PATH_TO_DEPTH_OWNER_DERIVED	CURRENT_CITED_CONTENT
+L03	udt_premise_reset_audit_2026-07-19/AUDIT_REPORT.md	50	59	States phi(p) belongs to a location.	SUPERSEDED_POINTWISE_PHYSICAL_OWNER_ASSERTION	CURRENT_CITED_CONTENT
+L04	udt_phi_metric_ontology_audit_2026-07-22/AUDIT_REPORT.md	14	49	Combines correct reciprocal logarithm with unsupported local physical ownership.	MIXED__ALGEBRA_SURVIVES__OWNER_CLAIM_WITHDRAWN	CURRENT_CITED_CONTENT
+L05	udt_phi_metric_ontology_audit_2026-07-22/AUDIT_REPORT.md	73	90	Lists owner-fixed signed local phi among established claims.	CONCLUSION_REGRADE_REQUIRED	CURRENT_CITED_CONTENT
+L06	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	12	40	Pointwise extension class and exact counterfamilies.	ALGEBRA_SURVIVES_ON_SUPPLIED_FACTORIZATION	CURRENT_CITED_CONTENT
+L07	udt_observer_pair_clock_operator_audit_2026-07-24/AUDIT_REPORT.md	87	124	Correctly separates stationary lapse, open physical pair map and supplied endpoint potential.	UNCHANGED_OPEN_DEPENDENCY	CURRENT_CITED_CONTENT
+L08	udt_relational_pair_depth_realization_audit_2026-07-24/AUDIT_REPORT.md	12	43	Refutes universal absolute scalar encoding and proposes observer-indexed type given an open F.	UNCHANGED_NEGATIVE_NOW_EXPLANATORY	CURRENT_CITED_CONTENT
+L09	udt_complete_physical_comparison_map_audit_2026-07-27/AUDIT_REPORT.md	15	39	Derives stationary Killing depth in a bounded branch.	CONDITIONAL_BRANCH_LOCAL_POSITIVE_RESULT	CURRENT_CITED_CONTENT
+L10	udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	3	19	Direct-source distinction between character law and missing ownership map.	CURRENT_CONTROLLING_SOURCE_READING	CURRENT_CITED_CONTENT
+L11	udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	21	78	Exact factorization shifts and presentation-potential interpretation.	POINTWISE_PHI_NOT_FOUNDING_INVARIANT	CURRENT_CITED_CONTENT
+L12	udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	98	121	Correct stationary sign and branch-local scope.	DELTA_K_EQUALS_LOG_NP_OVER_NQ	CURRENT_CITED_CONTENT
+L13	CURRENT_SCIENTIFIC_PREMISES.md	12	20	Pre-correction prose called phi itself the derived pair depth.	CONTROL_UPDATE_REQUIRED	BASE_682ADB6C_PRE_CORRECTION
+L14	CURRENT_SCIENTIFIC_PREMISES.tsv	2	4	Pre-correction G01/G02/G03 machine-readable semantics.	CONTROL_UPDATE_REQUIRED_FOR_G01_AND_G02_SCOPE	BASE_682ADB6C_PRE_CORRECTION
+L15	AGENTS.md	253	262	Pre-correction mandatory rules retained superseded pointwise wording.	CONTROL_UPDATE_REQUIRED	BASE_682ADB6C_PRE_CORRECTION
+L16	research/README.md	135	142	Pre-correction navigation repeated the July 26 pointwise phrasing.	CONTROL_UPDATE_REQUIRED	BASE_682ADB6C_PRE_CORRECTION
+L17	NEGATIVES_REGISTRY.md	23	48	Pre-correction standing homogeneous-redshift negative assumed a physical phi field and native field equation.	CONDITIONS_CHANGED__CONDITIONAL_BRANCH_ALGEBRA_ONLY	BASE_682ADB6C_PRE_CORRECTION
+L18	NEGATIVES_REGISTRY.md	2195	2220	Pre-correction item 76 called a selected pointwise phi ODE the native operator and gave it blocking authority.	CONDITIONS_CHANGED__NO_UDT_WIDE_BLOCKING_AUTHORITY	BASE_682ADB6C_PRE_CORRECTION
+L19	udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/AUDIT_REPORT.md	14	53	SNe/WR-L readout is explicitly built from a supplied base metric and conditional assembly.	CONDITIONAL_OBSERVATIONAL_COMPATIBILITY_UNCHANGED	CURRENT_CITED_CONTENT
+L20	udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md	82	106	Exact F01/F02/F04 scoped family state.	MASS_AND_STABILITY_STATUS_UNCHANGED	CURRENT_CITED_CONTENT
+L21	udt_global_functional_dof_constraint_rank_audit_2026-07-26/AUDIT_REPORT.md	20	34	No independent eleventh phi direction and generic metric-rank scope.	NEGATIVE_SURVIVES__RELATIONAL_CHARACTER_NOT_POINT_FIELD	CURRENT_CITED_CONTENT
+L22	udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md	8	31	Global factorization groupoid does not select pointwise representative.	UNCHANGED_NEGATIVE_NOW_EXPLANATORY	CURRENT_CITED_CONTENT

@@ -7,8 +7,10 @@ import argparse
 import csv
 from collections import Counter
 import hashlib
+import io
 import json
 from pathlib import Path
+import subprocess
 
 
 HERE = Path(__file__).resolve().parent
@@ -16,10 +18,10 @@ ROOT = HERE.parent
 OUTPUT = HERE / "VERIFICATION_RESULT.json"
 EXPECTED_DISPOSITIONS = {
     "CONCLUSION_REGRADE_REQUIRED": 99,
-    "CONDITIONAL_REINTERPRETATION_ONLY": 1088,
+    "CONDITIONAL_REINTERPRETATION_ONLY": 1091,
     "CONTROL_UPDATE_REQUIRED": 13,
     "FROZEN_EVIDENCE_IMMUTABLE": 40,
-    "HISTORICAL_SUPERSEDED_NO_ACTION": 338,
+    "HISTORICAL_SUPERSEDED_NO_ACTION": 335,
     "NO_RELEVANT_SEMANTIC_DEPENDENCY": 1994,
     "OPEN_DEPENDENCY_ALREADY_STAMPED": 741,
     "UNCHANGED_NEGATIVE_NOW_EXPLANATORY": 418,
@@ -41,8 +43,16 @@ REGRADED_PREFIX_COUNTS = {
     "udt_two_frame_regime_metric_limit_audit_2026-07-22/": 17,
 }
 EXPECTED_ACTIVE_SHA = "e5e43aa069a1cfbda0db72346cb89023b530317c68049554bb11f5fe0e367518"
-EXPECTED_FAMILY_SHA = "1d709622d65d63e6effdc73ab2a4ddcd5fbeee2d2860a8e53072b33b5140fc4b"
+EXPECTED_FAMILY_SHA = "69408f2a5e9a65de2beb8a016c502de76b798afce18c116b9ef437f54c39279d"
 EXPECTED_SIGN = "delta_K=log(N(p)/N(q))"
+OLD_LEDGER_COMMIT = "b9497e3cf4c0b706db835c5edf7af17846838082"
+OLD_LEDGER_SHA256 = "b77eea4240b7e3ab97ba97c5dbadfbfa10f5c1803785eb8790545050aedaf651"
+EXPECTED_DATE_RULE_SHA = "e85e3a26940e9369dd7ff6b24da33c2cac493de9f19084e671d9f48870fc4e98"
+CURRENT_FOUNDING_CHAIN = {
+    "UDT_NATIVE_ACTION_COLD_PACKET.md",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+    "verify_udt_reciprocal_c_postulate.py",
+}
 
 
 def rows(name: str) -> list[dict[str, str]]:
@@ -136,7 +146,7 @@ def main() -> None:
     immutable = [row for row in ledger if row["disposition"] in {
         "FROZEN_EVIDENCE_IMMUTABLE", "HISTORICAL_SUPERSEDED_NO_ACTION"
     }]
-    assert len(immutable) == 378
+    assert len(immutable) == 375
     for row in immutable:
         assert digest(ROOT / row["path"]) == row["source_sha256"], f"immutable evidence drift: {row['path']}"
 
@@ -150,10 +160,42 @@ def main() -> None:
     locators = rows("LOAD_BEARING_SOURCE_LOCATORS.tsv")
     assert len(locators) == 22 and len({row["locator_id"] for row in locators}) == 22
     for row in locators:
+        assert row["snapshot_semantics"] in {"CURRENT_CITED_CONTENT", "BASE_682ADB6C_PRE_CORRECTION"}
         source = ROOT / row["path"]
         assert source.is_file()
-        lines = source.read_text(encoding="utf-8", errors="replace").splitlines()
+        if row["snapshot_semantics"] == "BASE_682ADB6C_PRE_CORRECTION":
+            content = subprocess.check_output(
+                ["git", "show", f"682adb6c9d4cc7c9834cb5ea6a7712a32206650b:{row['path']}"],
+                cwd=ROOT,
+            ).decode("utf-8", errors="replace")
+        else:
+            content = source.read_text(encoding="utf-8", errors="replace")
+        lines = content.splitlines()
         assert 1 <= int(row["line_start"]) <= int(row["line_end"]) <= len(lines)
+    assert {row["locator_id"] for row in locators if row["snapshot_semantics"] == "BASE_682ADB6C_PRE_CORRECTION"} == {
+        "L13", "L14", "L15", "L16", "L17", "L18"
+    }
+    assert len(rows("POST_CORRECTION_SOURCE_LOCATORS.tsv")) == 7
+
+    date_rows = rows("DATE_RULE_ADJUDICATION.tsv")
+    assert len(date_rows) == 254 and len({row["path"] for row in date_rows}) == 254
+    old_relative = f"{HERE.name}/ACTIVE_REGRADING_LEDGER.tsv"
+    old_payload = subprocess.check_output(
+        ["git", "show", f"{OLD_LEDGER_COMMIT}:{old_relative}"], cwd=ROOT
+    )
+    assert hashlib.sha256(old_payload).hexdigest() == OLD_LEDGER_SHA256
+    old_ledger = list(csv.DictReader(io.StringIO(old_payload.decode("utf-8")), delimiter="\t"))
+    old_f18_paths = [row["path"] for row in old_ledger if row["family_id"] == "F18_EARLY_POSTJULY_FIELD_SOLVER"]
+    assert [row["path"] for row in date_rows] == old_f18_paths
+    assert identity_sha(old_f18_paths) == EXPECTED_DATE_RULE_SHA
+    corrected_current = {
+        row["path"] for row in date_rows
+        if row["corrected_disposition"] == "CONDITIONAL_REINTERPRETATION_ONLY"
+    }
+    assert corrected_current == CURRENT_FOUNDING_CHAIN
+    by_path = {row["path"]: row for row in ledger}
+    assert all(by_path[path]["family_id"] == "F02A_CURRENT_FOUNDING_CHAIN" for path in CURRENT_FOUNDING_CHAIN)
+    assert all(by_path[path]["disposition"] == "CONDITIONAL_REINTERPRETATION_ONLY" for path in CURRENT_FOUNDING_CHAIN)
 
     rerun = json.loads((HERE / "RERUN_RESULT.json").read_text(encoding="utf-8"))
     assert rerun["commands_expected"] == rerun["commands_completed"] == 11 and rerun["all_exit_zero"]
@@ -195,7 +237,21 @@ def main() -> None:
         lambda: [(_ for _ in ()).throw(AssertionError()) for name, expected in frozen_probe.items() if digest(HERE / name) != expected],
         caught,
     )
-    assert len(caught) == 7
+    bad_locator = [dict(row) for row in locators]
+    bad_locator[12]["snapshot_semantics"] = ""
+    expect_failure(
+        "locator_snapshot_semantics_removed",
+        lambda: [
+            (_ for _ in ()).throw(AssertionError())
+            for row in bad_locator
+            if row["snapshot_semantics"] not in {"CURRENT_CITED_CONTENT", "BASE_682ADB6C_PRE_CORRECTION"}
+        ],
+        caught,
+    )
+    bad_chain = [dict(row) for row in ledger]
+    next(row for row in bad_chain if row["path"] in CURRENT_FOUNDING_CHAIN)["disposition"] = "HISTORICAL_SUPERSEDED_NO_ACTION"
+    expect_failure("founding_chain_rehistorized", lambda: validate_ledger(bad_chain), caught)
+    assert len(caught) == 9
 
     result = {
         "schema": "udt.relational_phi_regrade.verification.v1",
@@ -206,7 +262,7 @@ def main() -> None:
         "conclusion_regraded_rows": len(regraded),
         "control_rows": len(controls),
         "frozen_rows": 40,
-        "historical_rows": 338,
+        "historical_rows": 335,
         "rederivation_required_rows": 0,
         "clean_tree_reruns": 11,
         "catch_proofs": caught,
