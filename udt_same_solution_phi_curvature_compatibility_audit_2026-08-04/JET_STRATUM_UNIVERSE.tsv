@@ -1,0 +1,14 @@
+axis_id	axis	member	exact_representative	freedom	coverage_note
+J01	depth_first_jet	ZERO	(0,0,0,0)	FIXED_REPRESENTATIVE	zero-gradient stratum retained
+J02	depth_first_jet	TIMELIKE	(1,0,0,0)	FIXED_REPRESENTATIVE	g_inverse(p,p)=-1
+J03	depth_first_jet	SPACELIKE	(0,1,0,0)	FIXED_REPRESENTATIVE	g_inverse(p,p)=+1
+J04	depth_first_jet	NONZERO_NULL	(1,1,0,0)	FIXED_REPRESENTATIVE	g_inverse(p,p)=0 and p nonzero
+J05	depth_hessian	SYMMETRIC_4D	10 slots	FREE_AND_EXPLORED	all second partials of phi
+J06	extension_first_jets	PER_ALLOWED_GENERATOR	4 slots per generator	FREE_AND_EXPLORED	fixed witnesses and arbitrary affine offsets
+J07	extension_second_jets	PER_ALLOWED_GENERATOR	10 slots per generator	FREE_AND_EXPLORED	complete registered Hessian image
+J08	reference_first_jets	FROZEN_CASE	zero	PINNED_BY_REGISTERED_CASE	conditional supplied reference chart only
+J09	reference_second_jets	FROZEN_CASE	zero	PINNED_BY_REGISTERED_CASE	conditional supplied reference chart only
+J10	reference_first_jets	RELEASED_CASE	64 coframe slots	FREE_AND_EXPLORED	factorization identifiability case
+J11	reference_second_jets	RELEASED_CASE	160 symmetric coframe slots	FREE_AND_EXPLORED	factorization identifiability case
+J12	point_tile	REGULAR_IDENTITY	phi=0;theta=I;eta=(-,+,+,+)	PINNED_BY_CHART_WITNESS	finite invertible regular local representative
+J13	excluded	RANK_LOSS_OR_GLOBAL	infinite phi;singular coframe;cut locus;boundary;third jets	OUTSIDE_BOUNDED_TILE	no inference outside local two-jet tile

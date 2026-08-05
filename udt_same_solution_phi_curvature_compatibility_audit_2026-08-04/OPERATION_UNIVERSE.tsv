@@ -1,0 +1,11 @@
+operation_id	operation	inputs	output	fail_closed_requirement
+P01	SOURCE_HASH_REPLAY	S01-S28	source identity table	all 28 exact at fixed base
+P02	FIRST_JET_PRODUCT_RULE	A02-A03;J06;J08;J10	first-jet map and kernel	all cross terms typed
+P03	SECOND_JET_PRODUCT_RULE	A02-A03;J05;J07;J09;J11	second-jet affine map and kernel	all product-rule cross terms typed
+P04	FAMILY_CURVATURE_RANK	F01-F08;J05;J07	one exact rank per typed family	no family omitted or inherited rank assumed
+P05	CAUSAL_STRATUM_AFFINE_TEST	J01-J04;O06	rank by causal representative	all four strata retained
+P06	SAME_SOLUTION_CONSTRUCTIVE_TEST	F01-F08;J01-J04;O07	image classification and right-inverse witness when full	no existence-to-selection promotion
+P07	INDEPENDENT_SCALAR_CONTROL	F09	untyped metric action control	cannot become native or receive invented coupling
+P08	OWNERSHIP_VS_EXISTENCE_AUDIT	A01-A05;O07-O09	status ledger	conditional chart cannot become selected section
+P09	INDEPENDENT_RECONSTRUCTION	all load-bearing ranks and kernels	standard-library rational result	must not import primary code or output
+P10	MUTATION_CATCH_SUITE	registered universes and result	fail-closed proof matrix	all registered catches exercised

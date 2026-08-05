@@ -1,0 +1,10 @@
+observable_id	observable	definition	certification	maximum_reading
+O01	first_jet_factorization_map	(p_mu;extension_mu;bar_theta_mu)->theta_mu	exact rank and kernel	local presentation identifiability only
+O02	second_jet_factorization_map	(q_munu;extension_munu;first-jet cross terms;bar_theta_munu)->theta_munu	exact affine product rule plus linear kernel	local presentation identifiability only
+O03	family_curvature_image	allowed symmetric generator Hessians -> algebraic Riemann	exact rational rank	attainable local curvature subspace
+O04	Bianchi_display	21 pair-pair curvature entries	exact single cyclic identity	20-dimensional algebraic Riemann target
+O05	causal_stratum	eta_inverse(p,p)	exact representative sign	local classification; no selected branch
+O06	first_jet_offset	quadratic connection contribution at fixed first jet	exact separation R=A*h+b(first jet)	affine offset; not evolution
+O07	same_solution_local_realizability	one factorized two-jet carries supplied p and attainable R	exact image membership/right inverse	conditional local existence only
+O08	depth_identifiability	invariance of phi jets under reference redefinition	exact kernel test	whether complete coframe alone owns depth jets
+O09	architecture_ownership	source-backed type and status ledger	exact source/hash audit	ownership; not a selector

@@ -1,0 +1,6 @@
+architecture_id	object	owner	status	allowed_use	forbidden_promotion
+A01	abstract D(phi)=exp(phi H)	abstract reciprocal pair	DERIVED	additive founded comparison representation	spacetime scalar field or selected complete-coframe section
+A02	theta=E(phi,D,S) bar_theta with bar_theta frozen	supplied factorized chart	DEFINED_CONFIGURATION_ARCHITECTURE	conditional local same-solution calculation	preferred frame or metric-native section
+A03	theta=E(phi,D,S) bar_theta with bar_theta released	factorized presentation	DEFINED_CONFIGURATION_ARCHITECTURE	factorization-kernel and identifiability test	physical gauge law without a derived quotient
+A04	independently varied scalar phi_comparison	comparison configuration	CHOSE_COMPARISON_CONFIGURATION	control against false native-field promotion	additional native UDT field
+A05	pair/path depth rho_gamma	observer query bundle	CONDITIONAL_QUERY_DATA	typed relational comparison and descent audit	ordinary local scalar without assignment/descent rule

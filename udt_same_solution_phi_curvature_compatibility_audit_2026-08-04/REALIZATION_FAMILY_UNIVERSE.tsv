@@ -1,0 +1,10 @@
+family_id	family_name	reference_status	coframe_generators	generator_count	depth_role	registered_scope
+F01	FULL_FACTORIZED	FROZEN	H;K_area;K_shear_diag;K_shear_offdiag;C_02;C_03;C_12;C_13	8	FOUNDED_GENERATOR	all independent positive-triangular extension jets
+F02	DET_ONE_SCREEN	FROZEN	H;K_shear_diag;K_shear_offdiag;C_02;C_03;C_12;C_13	7	FOUNDED_GENERATOR	determinant-one screen with independent mixing jets
+F03	SCREEN_INVARIANT_MIXING	FROZEN	H;C_02;C_03;C_12;C_13	5	FOUNDED_GENERATOR	mixing jets with screen frozen
+F04	NO_MIXING_ANGULAR	FROZEN	H;K_area;K_shear_diag;K_shear_offdiag	4	FOUNDED_GENERATOR	screen jets with mixing frozen
+F05	DIRECT_SUM_SPECTATOR	FROZEN	H	1	FOUNDED_GENERATOR	founded reciprocal block only
+F06	LOCKED_ANGULAR_ONE_PARAMETER	FROZEN	H+K_shear_diag	1	FOUNDED_GENERATOR_LOCKED	unit locked angular shear counterfamily
+F07	LOCKED_SHIFT_ONE_PARAMETER	FROZEN	H+C_02	1	FOUNDED_GENERATOR_LOCKED	unit locked base-screen shift counterfamily
+F08	RELEASED_COMPLETE_COFRAME_REFERENCE	RELEASED	complete ten metric tangents plus explicit founded factorization	10	FACTORIZATION_REDUNDANT	all complete-coframe/reference first and second jets
+F09	INDEPENDENT_SCALAR_CONTROL	NOT_APPLICABLE	no prescribed coframe generator	0	CHOSE_COMPARISON_CONFIGURATION	independent scalar comparison only; curvature action untyped

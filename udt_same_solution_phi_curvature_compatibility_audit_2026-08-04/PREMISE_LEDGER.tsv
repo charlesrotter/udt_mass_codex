@@ -1,0 +1,13 @@
+premise_id	statement	status	source_or_reason	conclusion_dependency
+L01	D(phi)=diag(exp(-phi),exp(+phi)) with additive composition	DERIVED	S03-S07	founded generator and pair algebra
+L02	H=diag(-1,+1,0,0) is represented in the registered local four-coframe chart	DEFINED_CONFIGURATION_ARCHITECTURE	S08	conditional factorized realization
+L03	theta=E(phi,D,S)bar_theta is the tested positive-triangular realization	DEFINED_CONFIGURATION_ARCHITECTURE	S08	F01-F07 product and curvature maps
+L04	bar_theta may be frozen for a conditional chart calculation	CHOSE	bounded comparison case	F01-F07 conditional ranks
+L05	bar_theta may be released to test factorization redundancy	CHOSE	bounded identifiability case	F08 kernel result
+L06	eta=diag(-1,+1,+1,+1) and the Levi-Civita algebraic curvature convention	DEFINED_CONFIGURATION_ARCHITECTURE	S12-S20	local exact curvature maps
+L07	all allowed symmetric Hessian slots are varied	CHOSE	preregistered complete local two-jet atlas	family curvature images
+L08	four exact dphi representatives cover zero/timelike/spacelike/nonzero-null strata	CHOSE	regular local Lorentz representatives	stratum rank comparison
+L09	an independently varied scalar has no native metric action unless one is supplied	OPEN	S01-S03;S09-S11	F09 remains comparison control
+L10	the complete coframe alone selects a physical phi assignment	OPEN	S03;S08-S11;S23-S28	cannot be inferred from conditional compatibility
+L11	local two-jet compatibility is a response or physical-time law	OPEN	no typed return operator	forbidden promotion
+L12	global overlap;boundary;bootstrap;source;carrier;action;X_max	OPEN	S08;S21-S28	outside maximum conclusion
