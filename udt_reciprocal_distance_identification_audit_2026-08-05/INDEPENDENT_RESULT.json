@@ -1,0 +1,8 @@
+{
+  "centralizer_rank": 15,
+  "checks": 40,
+  "implementation": "standard-library math plus Fraction Gaussian elimination",
+  "maximum_conclusion": "RECIPROCAL_SUBGROUP_TWO_READOUT_THEOREM_REPRODUCED__PHYSICAL_DISTANCE_PROFILE_NONUNIQUENESS_REPRODUCED",
+  "profile_holdouts": 3,
+  "status": "PASS"
+}

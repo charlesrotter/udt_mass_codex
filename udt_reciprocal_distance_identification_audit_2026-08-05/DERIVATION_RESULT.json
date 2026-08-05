@@ -1,0 +1,46 @@
+{
+  "centralizer": {
+    "constraint_rank": 15,
+    "dimension": 1
+  },
+  "check_count": 21,
+  "checks": {
+    "composition": true,
+    "determinant_one": true,
+    "dual_pairing_preserved": true,
+    "endpoint_depth_ratio_changes": true,
+    "even_half_trace": true,
+    "exp_subadditive_form": true,
+    "factorization_same_coframe": true,
+    "founded_extension_not_full_holonomy_invariant": true,
+    "founded_extension_not_scalar": true,
+    "full_lorentz_centralizer_dimension_one": true,
+    "full_lorentz_centralizer_rank_15": true,
+    "physical_eta_not_preserved": true,
+    "profiles_distinct": true,
+    "profiles_limit": true,
+    "profiles_same_slope": true,
+    "profiles_zero": true,
+    "reversal": true,
+    "same_depth_nonzero_angular_arc": true,
+    "signed_ratio": true,
+    "static_coordinate_transport_maps_coframe": true,
+    "tanh_subadditive_form": true
+  },
+  "derived_reciprocal_subgroup_readouts": {
+    "composition": "delta(D2 D1)=delta2+delta1",
+    "signed_depth": "delta(D)=1/2 log(D_22/D_11)",
+    "symmetric_magnitude": "rho(D)=arcosh(Tr(D)/2)=abs(delta)",
+    "triangle": "rho(D2 D1)<=rho(D2)+rho(D1)"
+  },
+  "maximum_conclusion": "SIGNED_DEPTH_AND_RECIPROCAL_MAGNITUDE_DERIVED_FROM_SUPPLIED_FOUNDED_ARROW__PHYSICAL_SEPARATION_IDENTIFICATION_AND_COMPLETE_METRIC_EXTRACTION_NOT_DERIVED",
+  "profile_counterfamily": {
+    "different_second_derivative_at_origin": "0 versus -Xmax*kappa^2",
+    "profile_1": "Xmax*tanh(kappa*rho)",
+    "profile_2": "Xmax*(1-exp(-kappa*rho))",
+    "same_limit": "Xmax",
+    "same_origin_slope": "Xmax*kappa"
+  },
+  "status": "PASS",
+  "sympy_version": "1.13.1"
+}

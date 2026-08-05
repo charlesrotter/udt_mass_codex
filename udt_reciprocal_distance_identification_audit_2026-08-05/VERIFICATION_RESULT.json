@@ -1,0 +1,60 @@
+{
+  "catch_proofs": {
+    "angular_scalar_promotion_rejected": "CAUGHT",
+    "centralizer_dimension_mutation_rejected": "CAUGHT",
+    "extra_untracked_path_rejected": "CAUGHT",
+    "frozen_source_mutation_rejected": "CAUGHT",
+    "owner_disclosure_removal_rejected": "CAUGHT",
+    "owner_proposal_promotion_rejected": "CAUGHT",
+    "profile_counterfamily_collapse_rejected": "CAUGHT",
+    "signed_extractor_mutation_rejected": "CAUGHT"
+  },
+  "computations": {
+    "independent_checks": 40,
+    "primary_checks": 21,
+    "sympy": "1.13.1"
+  },
+  "maximum_conclusion": "DERIVED_ONE_ARROW_SIGNED_DEPTH_AND_RECIPROCAL_MAGNITUDE__COMPLETE_PHYSICAL_SEPARATION_READOUT_OPEN",
+  "scope_and_dirty": {
+    "package_paths": 13,
+    "package_untracked": [],
+    "protected_metadata_sha256": "94305a15f705c3bd6dd2aea648ce994dabb0334e249c47d076ddb9ed1b047227",
+    "protected_paths": 83,
+    "tracked_changed": [
+      "udt_reciprocal_distance_identification_audit_2026-08-05/ADVERSARIAL_REVIEW_REQUEST.md",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/AUDIT_REPORT.md",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/DERIVATION_RESULT.json",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/EXACT_DERIVATION.md",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/EXTERNAL_ADVERSARIAL_REVIEW.md",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/INDEPENDENT_RESULT.json",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/PREREGISTRATION.md",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/REPAIR_PREREGISTRATION.md",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/STATUS_LEDGER.tsv",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/VERIFICATION_RESULT.json",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/derive_reciprocal_distance.py",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/verify_audit.py",
+      "udt_reciprocal_distance_identification_audit_2026-08-05/verify_reciprocal_distance_independent.py"
+    ]
+  },
+  "semantics": {
+    "external_verdict": "ACCEPTED_WITH_REPAIRS",
+    "guarded_statuses": 10,
+    "ledger_rows": 17
+  },
+  "sources": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "0fa377cb50b775875dd8f2de95acb840f3d38183c71b54caef242a89cfc1fa13",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+    "udt_complete_coframe_physical_comparison_functor_audit_2026-07-27/AUDIT_REPORT.md": "b2cb8ca000964e4a42a30f575ce3db7a2c7dfe0bedbbf45fff1e6f739ceb09e0",
+    "udt_complete_coframe_physical_comparison_functor_audit_2026-07-27/EXACT_DERIVATION.md": "d2386f376d1303cef78294ff5a154a8a5cb3b33942e783342b13a237225b4135",
+    "udt_complete_coframe_physical_comparison_functor_audit_2026-07-27/STATUS_LEDGER.tsv": "437187d97362adfae16139d4e7fbaba2fc6d70d0ba161a9d492206ff3bbfc3fa",
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md": "65905b6b2718fd9c1057143a7148104bb14d7e65eeee3bdc7a7010af8cbe90eb",
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/STATUS_LEDGER.tsv": "b9e2912487cfc5c22e192aaacd580885c9dd52ce70a82720d0cfcf367b6cc32b",
+    "udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md": "bbf8e91b5f6c594bd12f6c407bca2b9be4fdb3232cbe5c817d814effe863a79f",
+    "udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/AUDIT_REPORT.md": "7296d4fc3e9a44510f05c0a61a5dce498f894e0d9bf6b9bb6f8e947ef1983398",
+    "udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/EXACT_DERIVATION.md": "8e3de52c571b953ca878c6459235ff1487fb4d16029a33e7cb279cead980170b",
+    "udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md": "7e03ef2631908a1e26c636bb9beb7410bdc534c9fde1e15d37eb9de5efadf29d",
+    "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md": "8860dbefd6e99f4f9de966497f56022b268d2e0d1299383354b457d60480c638"
+  },
+  "status": "PASS"
+}
