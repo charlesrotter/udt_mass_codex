@@ -55,25 +55,21 @@ def file_bytes(path: str) -> bytes:
     return subprocess.check_output(["git", "show", f"{BASE}:{path}"], cwd=ROOT)
 
 
-def commit_info(path: str, reverse: bool) -> tuple[str, str]:
-    args = ["git", "log"]
-    if reverse:
-        args.append("--reverse")
-    args.extend(["--format=%H%x09%aI", "--diff-filter=A", "--", path])
-    lines = run(*args).splitlines()
-    if not lines:
-        lines = run("git", "log", "-1", "--format=%H%x09%aI", "--", path).splitlines()
-    if not lines:
-        return "-", "-"
-    commit, stamp = lines[0].split("\t", 1)
-    return commit, stamp
-
-
-def last_info(path: str) -> tuple[str, str]:
-    lines = run("git", "log", "-1", "--format=%H%x09%aI", "--", path).splitlines()
-    if not lines:
-        return "-", "-"
-    return tuple(lines[0].split("\t", 1))  # type: ignore[return-value]
+def batched_history(paths: set[str]) -> dict[str, tuple[str, str, str, str]]:
+    """Return first/last current-path appearances from one chronological Git walk."""
+    history: dict[str, list[str]] = {}
+    current_commit = "-"
+    current_date = "-"
+    output = run("git", "log", "--reverse", "--format=@@%H%x09%aI", "--name-only", BASE, "--")
+    for line in output.splitlines():
+        if line.startswith("@@"):
+            current_commit, current_date = line[2:].split("\t", 1)
+        elif line in paths:
+            if line not in history:
+                history[line] = [current_commit, current_date, current_commit, current_date]
+            else:
+                history[line][2:] = [current_commit, current_date]
+    return {path: tuple(values) for path, values in history.items()}  # type: ignore[return-value]
 
 
 def manifest_members() -> set[str]:
@@ -114,7 +110,7 @@ def main() -> None:
     frozen = manifest_members()
     targets = current_targets()
     sources = founding_sources()
-    exposures: list[dict[str, str]] = []
+    partial: list[tuple[str, bytes, dict[str, int]]] = []
     for path in tracked_at_base():
         if path.startswith(HERE.name + "/") or Path(path).suffix.lower() not in TEXT_SUFFIXES:
             continue
@@ -126,8 +122,11 @@ def main() -> None:
         counts = {name: len(pattern.findall(text)) for name, pattern in PATTERNS.items()}
         if counts["broad_phi_depth"] == 0:
             continue
-        first_commit, first_date = commit_info(path, True)
-        last_commit, last_date = last_info(path)
+        partial.append((path, data, counts))
+    history = batched_history({path for path, _, _ in partial})
+    exposures: list[dict[str, str]] = []
+    for path, data, counts in partial:
+        first_commit, first_date, last_commit, last_date = history.get(path, ("-", "-", "-", "-"))
         first_day = first_date[:10] if first_date != "-" else "-"
         historical = path.startswith(("archive/", "reorganization_")) or (first_day != "-" and first_day < "2026-07-01")
         is_control = path in CONTROLS
