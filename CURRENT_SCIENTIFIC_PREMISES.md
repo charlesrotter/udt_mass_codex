@@ -41,6 +41,17 @@ Maxwell-like geometry currently gives only the conditional toric identities `F=d
 finite-box and carrier-conditional; and complete native action, source, boundary charge, and mass
 remain open.
 
+The August 5 `X_max` correction sharpens that row without selecting a formula or value. `X_max` is
+the owner-ratified `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair
+positional-dilation asymptote: finite comparisons lie below it, and approach from below must send
+the comparison-dilation magnitude to infinity. This is a required gate on the missing general
+separation/depth realization, not a material wall, preferred center, radial edge, finite-cell seal,
+or boundary functional. The exact law, signed/magnitude join, all-frame theorem, numerical value,
+WR-L/global join, angular/bootstrap modulation, native mass relation, and boundary completion remain
+`OPEN`. Read
+`udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md` before reusing an
+older `X_max` result.
+
 Charles has now explicitly retained global/local mutual admissibility as a falsifiable `WORKING
 POSIT`. The August 4 reconstruction audit gives it a relational mathematical home and verifies one
 metric-native partial component: global completion data change legal local join fibers. Ordinary

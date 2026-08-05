@@ -15,15 +15,22 @@ pointwise-owner conclusion, preserves the exact conditional mathematics, and rec
 load-bearing algebra rows needing immediate rederivation. Three old pointwise-field/action negatives
 are now `CONDITIONS-CHANGED` and nonblocking outside their supplied branches.
 
+**Xmax correction:** read
+`udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`. `X_max` is the
+`WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair positional-dilation asymptote, not
+a wall, edge, seal, radius, or preferred center. The exact pair law, approach profile, frame theorem,
+value, WR-L/global join, bootstrap/mass-density relation, and any boundary consequence remain open.
+
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
-3. `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`.
-4. `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`.
-5. Its direct founding-source ledger, exact derivation, route/status/premise ledgers, two exact
+3. `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`.
+4. `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`.
+5. `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`.
+6. Its direct founding-source ledger, exact derivation, route/status/premise ledgers, two exact
    implementations, witnesses, verifier, fresh review, repair and accepted repair replay.
-6. Use the global-overlap, observer-comparison, query/path and factorized-skeleton audits as parents.
+7. Use the global-overlap, observer-comparison, query/path and factorized-skeleton audits as parents.
 
 **Result:** the direct founding source takes ordered relative depth as input and derives
 `D(delta)=diag(exp(-delta),exp(+delta))`. It does not derive which numerical `delta` belongs to an
@@ -39,18 +46,24 @@ universal observer-pair law. Signed depth and symmetric nonnegative separation r
 
 **Still open:** the general two-observer relational depth law, its signed/magnitude join,
 nonstationary and defect-stratified continuation, complete bootstrap return, action,
-source, carrier, boundary, density feedback, `X_max`, matter, mass and dynamics. F01/F02/F04 remain
-conditional and separate.
+source, carrier, boundary, density feedback, numerical `X_max`, matter, mass and dynamics. The
+limiting role of `X_max` is fixed as a working foundational frame; its realization and value are
+not. F01/F02/F04 remain conditional and separate.
 
 **Next decision, not automatic:** compare an explicit realized relational-depth premise with a
 branch-stratified metric-ownership program constrained to reduce to the stationary Killing law.
-Do not re-demand one universal point scalar or insert an action, source, boundary law, density
-target, time-live equation, long solve or GPU.
+Every candidate must realize the `X_max` dilation asymptote without a preferred center or physical
+wall, distinguish signed depth from nonnegative separation, and retain angular/path structure where
+load-bearing. Do not re-demand one universal point scalar, choose tanh/WR-L/fractional form from its
+endpoint alone, or insert an action, source, boundary law, density target, time-live equation, long
+solve or GPU.
 
 **Evidence:** preregistration `c07e1b4e`; base freeze `f136aebb`; append-only source correction
 `32673ca2`; primary `34/34`, independent `24/24`, final verifier `39/39`, `19/19` mutation catches,
 35 effective frozen sources. Fresh `gpt-5.4` `ACCEPTED_WITH_REPAIRS`; the stationary-sign repair
-received fresh `REPAIR_ACCEPTED`. Repository gates are in the package.
+received fresh `REPAIR_ACCEPTED`. The `X_max` correction was preregistered at `94a75c40`; its primary
+8-catch verifier and separate local implementation pass. Its new external-review payload was not
+transmitted because exact disclosure authorization was absent. Repository gates are in the packages.
 
 <!-- STARTUP_CURRENT_END -->
 

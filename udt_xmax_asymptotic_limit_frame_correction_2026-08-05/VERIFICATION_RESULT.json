@@ -1,0 +1,19 @@
+{
+  "catch_proofs": [
+    "limit_role_reopened",
+    "numerical_value_promoted",
+    "frame_theorem_promoted",
+    "wall_guard_removed",
+    "signed_magnitude_merged",
+    "wrl_global_join_promoted",
+    "boundary_completion_inferred",
+    "profile_selected_from_asymptote"
+  ],
+  "control_mutation_rows": 10,
+  "current_controls": 6,
+  "maximum_conclusion": "STATUS_AND_WORKFLOW_CORRECTION_ONLY",
+  "premise_rows": 10,
+  "schema": "udt.xmax_asymptotic_limit_frame.verification.v1",
+  "source_reconciliation_rows": 6,
+  "status": "PASS"
+}

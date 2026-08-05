@@ -53,7 +53,17 @@ def main() -> None:
     )
     require(by_id["G12"]["active_use"] == "FALSIFIABLE_RELATIONAL_ARCHITECTURE_ONLY", "bootstrap use changed")
     require(by_id["G13"]["active_use"] == "TORIC_GEOMETRY_ONLY", "Maxwell promoted")
-    require(by_id["G14"]["active_use"] == "GLOBAL_OBSERVER_PAIR_SCHEMA", "Xmax mistyped")
+    require(
+        by_id["G14"]["current_status"] == "WORKING_FOUNDATIONAL_POSITIONAL_DILATION_ASYMPTOTE",
+        "Xmax limiting role reopened or promoted",
+    )
+    require(
+        by_id["G14"]["active_use"] == "OWNER_RATIFIED_LIMIT_FRAME_AND_REQUIRED_DEPTH_LAW_GATE",
+        "Xmax workflow gate mistyped",
+    )
+    require("numerical value" in by_id["G14"]["open_scope"], "numerical Xmax promoted")
+    require("all-frame theorem" in by_id["G14"]["open_scope"], "Xmax frame theorem promoted")
+    require("material wall" in by_id["G14"]["forbidden_regression"], "Xmax wall guard absent")
     require(by_id["G15"]["active_use"] == "STATIC_FINITE_BOX_AND_CARRIER_CONDITIONAL", "Hopfion promoted")
     require(by_id["G16"]["current_status"] == "OPEN", "complete physics promoted")
     require(
@@ -76,11 +86,12 @@ def main() -> None:
     require(len(guard_rows) == 16, "guard universe must contain exactly 16 rows")
     guard_sources = {row["guard_id"]: row["controlling_source"] for row in guard_rows}
     for guard, source in guard_sources.items():
-        if guard in {"G01", "G02", "G12"}:
+        if guard in {"G01", "G02", "G12", "G14"}:
             expected = {
                 "G01": "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
                 "G02": "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
                 "G12": "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+                "G14": "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
             }[guard]
             require(
                 by_id[guard]["controlling_source"] == expected,
@@ -116,8 +127,25 @@ def main() -> None:
         "CHOSE_COMPARISON_CONFIGURATION",
         "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
         "generic configuration-arena count",
+        "WORKING_FOUNDATIONAL_FRAME",
+        "positional-dilation asymptote",
+        "finite-cell seal",
     ]:
         require(token in agents, f"AGENTS guard absent: {token}")
+
+    xmax_controls = [
+        "LIVE.md",
+        "HANDOFF.md",
+        "INDEX.md",
+        "README.md",
+        "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+        "research/README.md",
+    ]
+    xmax_source = "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md"
+    for control in xmax_controls:
+        text = (ROOT / control).read_text(encoding="utf-8")
+        require(xmax_source in text, f"control lacks Xmax correction: {control}")
+        require("positional-dilation asymptote" in text, f"control lacks Xmax limiting meaning: {control}")
 
     adjudication = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/ACTIVE_SEMANTIC_ADJUDICATION.tsv"

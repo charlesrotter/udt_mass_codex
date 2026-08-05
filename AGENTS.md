@@ -222,6 +222,16 @@ is required for non-collinear composition. Do not silently turn the surviving ty
 display, the balanced `O(1,1)` representation, coordinate-covector transport, or `sech` diagnostic
 into a physical mutual-clock law, signal law, or selected `X_max`.
 
+The controlling `X_max` correction is
+`udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`. Treat `X_max` as the
+owner-ratified working frame for the observer-pair positional-dilation asymptote, structurally as
+`c` is the relative-speed dilation asymptote. Do not reopen the limiting role as an optional analogy,
+and do not promote it into a material wall, center, radial edge, seal, boundary functional, chosen
+profile, numerical value, or already-proved all-frame theorem. Every candidate physical depth law
+must pass the registered `X_max` asymptotic gate while keeping signed orientation distinct from
+nonnegative separation, preserving local physics and observer re-centering, and retaining
+angular/path/global data where load-bearing.
+
 The prior complete-metric chain supplies the exact timelike boost/rotation `3+3`, full connection
 mixing, spacelike/null/zero causal classification, and the 12-by-5 completion-family cross. It also
 supplies `h0=|g^{-1}(dphi,dphi)|g` and `LC(h0)` as exact local CSN-invariant geometric candidates on
@@ -259,6 +269,12 @@ Do not rely on conversational memory. Disk evidence wins.
   the supplied factorized architecture and may become physical only on a separately selected
   endpoint-exact branch. Never demote the character to a placeholder or promote pointwise `phi` to
   a universal physical scalar or extra native field.
+- `X_max` is the `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair
+  positional-dilation asymptote. Its exact separation/depth law, approach profile, all-frame theorem,
+  value, WR-L/global join, angular/bootstrap modulation, and boundary completion remain `OPEN`.
+  Passing the asymptote is necessary but does not select tanh, fractional-linear, WR-L, or any other
+  profile. Never turn the limit into a preferred center, material wall, finite-cell seal, or boundary
+  term.
 - Independently varying a scalar in an older atlas is `CHOSE_COMPARISON_CONFIGURATION`, not native
   field ownership. A generic `F4[6]` metric quotient is a **generic configuration-arena count**, not
   a UDT propagating-mode count or selected native field census.

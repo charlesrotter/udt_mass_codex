@@ -13,8 +13,16 @@ It withdraws the older pointwise physical-owner conclusion, conditionalizes 1,09
 pointwise-field/action negatives. F01/F02/F04 and the WR-L/SNe readout retain their prior conditional
 statuses. Historical/frozen evidence is unchanged.
 
+**XMAX FRAME CORRECTION:** `X_max` is not an optional analogy, material wall, preferred center,
+radial edge, or finite-cell seal. It is the owner-ratified `WORKING_FOUNDATIONAL_FRAME` for the
+frame-shared observer-pair positional-dilation asymptote: finite comparisons remain below the limit,
+and approach to it from below must send the comparison-dilation magnitude to infinity. The general
+separation/depth realization, exact approach law, all-frame theorem, numerical value, WR-L/global
+join, angular/bootstrap modulation, and boundary consequence remain `OPEN`. Controlling overlay:
+`udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`.
+
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-the dependency regrade above →
+the Xmax frame correction above → the dependency regrade above →
 `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md` → its direct founding-source
 ledger, exact derivation, ten-route census, two implementations, witnesses, verifier, fresh review,
 stationary-sign repair and accepted repair replay → the global-overlap, observer-comparison,
@@ -29,6 +37,12 @@ relational character
 They do not also derive the map from complete observer/event/path data to the numerical `delta`.
 The sign and unit of `phi` are explicitly `CHOSE` coordinates on this one-dimensional comparison
 group; the realized profile and physical assignment remain open.
+
+The missing physical realization is not unconstrained: its nonnegative observer-pair separation
+must approach the shared positional limit `X_max` only as the magnitude of ordered comparison depth,
+and hence reciprocal dilation, diverges. This limiting requirement does not choose a tanh,
+fractional-linear, WR-L, radial, or other profile and does not merge signed depth with nonnegative
+separation.
 
 On the supplied factorized complete-coframe architecture, local reference shifts change pointwise
 `phi` and endpoint potential differences while leaving complete coframes and their physical
@@ -56,9 +70,11 @@ its complete return.
 **NEXT BOUNDED DECISION — NOT LAUNCHED AUTOMATICALLY:** compare exactly two honest continuations:
 (1) an owner-authorized realized relational-depth premise supplying the observer-pair datum, or
 (2) branch-stratified metric ownership whose stationary Killing reduction is mandatory but whose
-nonstationary continuation remains open. Do not re-demand a universal point scalar, repeat overlap
-algebra, or insert a fixed reference, action, source, density target, long solve, GPU or time-live
-equation.
+nonstationary continuation remains open. Every candidate must now pass the preregistered `X_max`
+asymptotic gate, preserve observer re-centering and local physics, retain angular/path data where
+load-bearing, and keep local WR-L `X` distinct from global `X_max`. Do not re-demand a universal
+point scalar, repeat overlap algebra, select a profile from endpoint behavior, or insert a fixed
+reference, action, source, density target, long solve, GPU or time-live equation.
 
 Do not wholesale rerun the old corpus. Re-derive an older pointwise-field/action result only if it
 is proposed for renewed native use; the current regrade found zero presently load-bearing algebra
@@ -69,19 +85,23 @@ rows requiring immediate rederivation.
 admissibility `WORKING_POSIT`; relational character on supplied depth `DERIVED_WITH_FOUNDING_STAMPS`;
 pointwise `phi` as potential on the supplied factorization `DERIVED_PRESENTATION_STATUS`; stationary
 Killing depth `CONDITIONAL_BRANCH_LOCAL`; general observer-pair depth law, magnitude/orientation
-join, complete return, action, source, boundary, `X_max`, unconditional matter/mass and dynamics
-`OPEN`; `S2` carrier `POSIT`.
+join, complete return, action, source, boundary, numerical `X_max`, unconditional matter/mass and
+dynamics `OPEN`; `X_max` positional-dilation asymptote `WORKING_FOUNDATIONAL_FRAME`; `S2` carrier
+`POSIT`.
 
 **AUTHORITY BOUNDARY:** no action, response, source, carrier, density, boundary, completion, branch,
-mass, species, `X_max`, physical evolution, observation fit, GPU work, canonization or repository
-reorganization follows.
+mass, species, numerical `X_max`, particular asymptotic profile, physical evolution, observation
+fit, GPU work, canonization or repository reorganization follows.
 
 **EVIDENCE:** preregistration `c07e1b4e`; base freeze `f136aebb`; append-only direct-source correction
 `32673ca2`; 10 routes, 12 premises and 35 effective frozen sources. Primary SymPy `34/34`,
 independent standard-library rational `24/24`, final verifier `39/39` with `19/19` mutations caught.
 Fresh read-only `gpt-5.4` returned `ACCEPTED_WITH_REPAIRS`; the stationary lapse/depth sign was
 corrected and a second fresh replay returned `REPAIR_ACCEPTED`. Repository preservation gates are
-recorded in the audit package.
+recorded in the audit package. The `X_max` status/workflow correction was preregistered at
+`94a75c40`; its primary verifier catches 8/8 semantic regressions and a separately implemented local
+replay passes. The new external-review payload was not transmitted because its exact disclosure was
+not authorized; this is recorded as an absent fresh-context gate, not a review result.
 
 <!-- STARTUP_CURRENT_END -->
 

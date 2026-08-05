@@ -10,6 +10,14 @@ algebra survives; seven earlier semantic packages lose their pointwise physical-
 three old field/action negatives lose UDT-wide blocking authority; no current load-bearing algebra
 requires an immediate wholesale rederivation.
 
+**➤ CURRENT XMAX FRAME CORRECTION — POSITIONAL DILATION ASYMPTOTE:** read
+`udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`. `X_max` is the
+owner-ratified working frame for the shared observer-pair separation limit approached at infinite
+comparison dilation—the positional-dilation asymptote. It is not a material wall, preferred center,
+radial edge, finite-cell seal, or
+boundary term. The exact pair law, asymptotic profile, frame theorem, numerical value, WR-L/global
+join, angular/bootstrap modulation, and complete boundary realization remain open.
+
 **➤ CURRENT SCIENTIFIC CHECKPOINT — FOUNDED CHARACTER RELATIONAL; GENERAL TWO-OBSERVER DEPTH LAW OPEN:**
 Read `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`, then its direct-source
 ledger, exact derivation, ten-route census, two implementations, witnesses, verifier, fresh review,
@@ -25,9 +33,10 @@ Exact verdict:
 `DERIVED_FOUNDING_OBJECT_IS_A_RELATIONAL_RECIPROCAL_CHARACTER_ON_SUPPLIED_DEPTH__DERIVED_POINTWISE_PHI_IS_A_PRESENTATION_POTENTIAL_ON_THE_SUPPLIED_FACTORIZED_ARCHITECTURE__CONDITIONAL_STATIONARY_KILLING_AND_SUPPLIED_QUERY_REALIZATIONS__NO_UNIVERSAL_FOUNDED_PHI_OWNERSHIP_MORPHISM_IN_FROZEN_NATIVE_SOURCES`.
 
 This is a bounded source-entailment and configuration-typing result, not an action, source,
-boundary, density return, `X_max`, matter, mass, or dynamics. The next bounded decision is whether
-to test an explicit realized relational-depth premise or a branch-stratified metric-ownership
-program. It is not launched automatically.
+boundary, density return, numerical `X_max`, matter, mass, or dynamics. The next bounded decision is
+whether to test an explicit realized relational-depth premise or a branch-stratified
+metric-ownership program. Either route must satisfy the controlling `X_max` asymptotic gate without
+selecting a profile from endpoint behavior. It is not launched automatically.
 
 **➤ PARENT SCIENTIFIC CHECKPOINT — GLOBAL OVERLAP ORGANIZES BUT DOES NOT SELECT PHYSICAL PHI OWNERSHIP:**
 Read `udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md` when the global

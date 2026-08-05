@@ -2,6 +2,8 @@
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-05):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry → the
+[`Xmax asymptotic-limit frame correction`](udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md)
+→ the
 [`relational-phi dependency regrade`](udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md)
 and its complete active ledger → the
 [`founding phi-ownership morphism audit`](udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md)
@@ -23,7 +25,9 @@ and the
 only when their parent evidence is load-bearing. The founding law is an exact relational reciprocal
 character on supplied ordered depth. A pointwise `phi` is a potential on the supplied factorized
 architecture, and the stationary Killing reduction is conditional. The general two-observer depth
-law, complete return, response, action, source, density closure, matter and dynamics remain open.
+law must realize the working `X_max` positional-dilation asymptote; its exact profile, value and
+all-frame theorem remain open. Complete return, response, action, source, boundary, density closure,
+matter and dynamics remain open.
 
 
 This root is the control and navigation surface for the UDT research record.
@@ -31,6 +35,8 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
+the [Xmax asymptotic-limit frame correction](udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md)
+→
 the [relational-phi dependency regrade](udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md)
 →
 the [founding phi-ownership morphism audit](udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md)

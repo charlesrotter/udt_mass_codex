@@ -11,6 +11,17 @@ verifier, fresh review, repair and accepted repair replay. The foundation owns a
 character on supplied ordered depth; the general observer-pair depth law remains open. No action,
 density scan, time-live solve, or GPU work is authorized automatically.
 
+## Current Xmax frame correction — August 5
+
+Read the [Xmax asymptotic-limit frame
+correction](../udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md) before
+reusing an older `X_max` result. The limiting role is now fixed as an owner-ratified working frame:
+`X_max` is the shared observer-pair positional-dilation asymptote, not a material wall, center, radial
+edge, finite-cell seal, or boundary term. A proposed general depth law must realize divergent
+comparison dilation as nonnegative separation approaches `X_max` from below, while its exact form,
+value, all-frame theorem, angular/global completion, WR-L join, bootstrap/mass relation, and boundary
+completion remain open.
+
 ## Parent scientific spine — August 5 global phi ownership/overlap audit
 
 Read the [global phi ownership/overlap

@@ -13,6 +13,21 @@ the earlier universal pointwise physical-owner conclusion is withdrawn. Seven se
 are conclusion-regraded, three old pointwise-field/action negatives are nonblocking outside their
 supplied branches, and no current load-bearing algebra row requires immediate rederivation.
 
+## August 5 Xmax asymptotic-limit frame precedence notice
+
+Before reusing an older `X_max` package, read
+`udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`. `X_max` is the
+owner-ratified `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair
+positional-dilation asymptote: finite comparisons remain below it and approach from below must send
+comparison-dilation magnitude to infinity. It is not a material wall, preferred center, radial edge,
+finite-cell seal, or boundary functional.
+
+The exact separation/depth realization, signed/magnitude join, approach profile, all-frame theorem,
+numerical value, local-WR-L/global join, angular/bootstrap modulation, native mass relation, and
+boundary completion remain `OPEN`. Earlier statements that the limiting role itself is open are
+superseded on that semantic point only; their conditional mathematics and open physical joins remain
+unchanged.
+
 ## August 5 founding phi-ownership morphism precedence notice
 
 This long file is historical context, not the current checkpoint. Current orientation is
