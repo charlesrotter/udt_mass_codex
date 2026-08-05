@@ -25,8 +25,17 @@ def main() -> None:
     require(len(rows) == 18, "premise registry must contain exactly 18 rows")
     by_id = {row["premise_id"]: row for row in rows}
     require(len(by_id) == 18, "duplicate premise id")
-    require(by_id["G01"]["current_status"] == "DERIVED_ADDITIVE_LOG_DEPTH_OF_RECIPROCAL_PAIR", "founded phi identity")
-    require(by_id["G02"]["current_status"] == "DERIVED_PHI_MAPS_TO_DIAG_EXP_MINUS_PHI_EXP_PLUS_PHI", "founded phi action")
+    require(
+        by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
+        "founded relational character",
+    )
+    require(
+        by_id["G02"]["current_status"]
+        == "DERIVED_DELTA_MAPS_TO_DIAG_EXP_MINUS_DELTA_EXP_PLUS_DELTA",
+        "founded relational character action",
+    )
+    require("general observer/event/path-to-depth law" in by_id["G01"]["open_scope"], "depth law promoted")
+    require("universal pointwise physical scalar" in by_id["G01"]["forbidden_regression"], "pointwise owner guard absent")
     require(by_id["G03"]["active_use"] == "COMPARISON_ONLY_NOT_NATIVE", "independent phi promoted")
     require(by_id["G04"]["current_status"] == "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED", "strong local CSN status")
     require(by_id["G04"]["active_use"] == "INACTIVE_UNLESS_CHARLES_EXPLICITLY_REAUTHORIZES", "strong local CSN activated")
@@ -67,11 +76,15 @@ def main() -> None:
     require(len(guard_rows) == 16, "guard universe must contain exactly 16 rows")
     guard_sources = {row["guard_id"]: row["controlling_source"] for row in guard_rows}
     for guard, source in guard_sources.items():
-        if guard == "G12":
+        if guard in {"G01", "G02", "G12"}:
+            expected = {
+                "G01": "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+                "G02": "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+                "G12": "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+            }[guard]
             require(
-                by_id[guard]["controlling_source"]
-                == "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
-                "bootstrap correction source priority changed",
+                by_id[guard]["controlling_source"] == expected,
+                f"relational correction source priority changed: {guard}",
             )
         else:
             require(by_id[guard]["controlling_source"] == source, f"source priority changed: {guard}")
@@ -97,7 +110,9 @@ def main() -> None:
 
     agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
     for token in [
-        "derived additive logarithmic depth",
+        "on **supplied ordered depth**",
+        "presentation potential",
+        "universal physical scalar",
         "CHOSE_COMPARISON_CONFIGURATION",
         "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
         "generic configuration-arena count",
@@ -119,7 +134,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 18 premise guards, 9 startup controls, 754 candidate dispositions, corrected DOF semantics")
+    print("PASS: 18 premise guards, relational-depth correction, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

@@ -11,13 +11,19 @@ premise-scoped meaning; they do not override a later source-specific correction.
 
 ## The correction that prompted this index
 
-The founded scalar `phi` is already the additive logarithmic depth of the reciprocal clock/ruler
-pair. It acts on that pair as `diag(exp(-phi), exp(phi))`. Its identity and pair action are
-`DERIVED`; its physical observer/path assignment, realized profile, unique full four-dimensional
-extension, variation law, dynamics, boundary, and global completion remain `OPEN`.
+The founding source supplies an ordered relative depth and derives the exact reciprocal character
+`D(delta)=diag(exp(-delta), exp(delta))`. The character and its composition/reversal law are
+`DERIVED`; the map from complete observer/event/path data to the numerical `delta` remains `OPEN`.
+On the supplied factorized complete-coframe architecture, pointwise `phi` is a presentation
+potential, not a universally owned physical scalar. Endpoint-exact pointwise fields remain possible
+on selected branches, and the stationary Killing branch supplies one conditional metric-native
+depth. The general depth law, signed-orientation/nonnegative-magnitude join, realized profile,
+unique full four-dimensional extension, variation law, dynamics, boundary, and global completion
+remain `OPEN`.
 
 An atlas that independently varies a scalar is a `CHOSE_COMPARISON_CONFIGURATION`. It may remain a
-useful enlarged solution-space control, but it cannot establish an additional native UDT field.
+useful enlarged solution-space control, but it cannot establish an additional native UDT field or
+the missing relational-depth law.
 Likewise, the six-function quotient of a generic four-dimensional metric is a generic
 configuration-arena count, not a count of UDT propagating modes or a selected native field census.
 

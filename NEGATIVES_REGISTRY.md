@@ -2,6 +2,19 @@
 
 > **⚠ α-COEFF CORRECTED (2026-07-10):** any `+α·ξ·e^{αφ}·ρ²·I_r` below is WRONG — the anchor-verified coefficient is **`−(α/2)·ξ·e^{αφ}·ρ²·I_r`** (`verify_alpha_coeff_ANCHORED.py`; reproduces base φ-EOM + base ρ-EOM + T_AB). **SIGN-CRITICAL:** for α<0 the direct source is POSITIVE (SUPPORTS `I_r`), not draining. Any pre-grok reasoning here that relied on the old `+α` sign is **CONDITIONS-CHANGED** (see LIVE.md on grok).
 
+> **⚠ RELATIONAL-PHI RE-GRADE (2026-08-05):** the foundation derives the reciprocal character
+> `D(delta)=diag(exp(-delta),exp(delta))` after an ordered depth is supplied. It does **not** derive
+> one universal pointwise physical `phi` field or the complete observer/event/path-to-depth law.
+> Accordingly the July 7 “NO HOMOGENEOUS REDSHIFTING UDT UNIVERSE” physical-field entry, the July 2
+> universe-cell vacuum/center/two-mirror entry, and item **#76** are now
+> **CONDITIONS-CHANGED — RELATIONAL OWNERSHIP + ACTION/SOURCE PREMISES**. Their exact ODE/algebraic
+> statements may still be cited inside the explicitly supplied pointwise-scalar, action, source,
+> branch and boundary premises. They have **zero UDT-wide blocking authority** and cannot be used to
+> exclude relational observer-pair laws, native matter, or stability families. Other negatives are
+> unchanged unless their own premise set invokes the same pointwise-owner or unselected-action
+> assumption; those must be regraded at point of use. Controlling overlay:
+> `udt_relational_phi_dependency_regrade_2026-08-05/LOAD_BEARING_CLAIM_REGRADING.tsv`, row C13.
+
 
 > **NOTE (2026-06-25 curation):** many historical provenance docs referenced below now live under
 > `archive/`; resolve `<name>` as `archive/<name>`.
@@ -20,7 +33,7 @@ demonstration of why this registry exists.
 
 ---
 
-## *** 2026-07-07 — NO HOMOGENEOUS REDSHIFTING UDT UNIVERSE (STANDING; blind-verified) ***
+## *** 2026-07-07 — NO HOMOGENEOUS REDSHIFTING UDT UNIVERSE (CONDITIONS-CHANGED 2026-08-05; exact conditional algebra retained) ***
 
 **Claim:** the native UDT field equations admit NO homogeneous, isotropic, static solution carrying positional
 redshift — positional dilation FORCES a preferred center (only the redshift-free `R^{1,1}×S²` product is homogeneous).
@@ -126,7 +139,7 @@ agent a30e4ea7bd54193f7 — mechanical premise-set classification, all 74 items)
   **Category-A GR-REFERENCE facts** (true about the reference theory, SILENT about UDT; no
   residual UDT authority; the "GR-structural" banner exemption is superseded by this retag).
 
-## *** 2026-07-02 UNIVERSE CELL: VACUUM IMPOSSIBLE + CENTER-FREE + TWO-MIRROR RIGIDITY (ALL verified) ***
+## *** 2026-07-02 UNIVERSE CELL: VACUUM IMPOSSIBLE + CENTER-FREE + TWO-MIRROR RIGIDITY (CONDITIONS-CHANGED 2026-08-05; exact conditional algebra retained) ***
 (title corrected 2026-07-03 — the "(UNVERIFIED)" tag was stale after T1's adversarial pass; caught by the premise sweep)
 
 **STANDING (R1, R2 — blind-verified, agent a717881d0ebb76695):** in the round-static Branch-P
@@ -2194,7 +2207,8 @@ question, NOT walled by this negative. Doc: microphysics_E1_composite_closure_re
 
 ## Native readout-map — DEPTH/SIZE node (Branch P, 2026-07-06, blind-verified)
 
-**#76 — The native Branch-P φ-angular sector, as posed (ROUND metric + perturbatively-coupled
+**#76 — CONDITIONS-CHANGED 2026-08-05; no UDT-wide blocking authority. Within its supplied
+pointwise-scalar/action/source branch only: the Branch-P φ-angular sector, as posed (ROUND metric + perturbatively-coupled
 hopfion), leaves particle SIZE and DEPTH CONTINUOUS — it does NOT pin ξ/size.** In autonomous
 form (t=ln r) the EXACT operator `Z_φ(r²φ')'=4e^{−2φ}` is `φ_tt+φ_t=(4/Z_φ)e^{−2φ}` = a unit-
 friction particle in a MONOTONE runaway potential (force sign-definite >0, e^{−2φ} kept exact) ⇒

@@ -2,6 +2,8 @@
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-05):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry → the
+[`relational-phi dependency regrade`](udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md)
+and its complete active ledger → the
 [`founding phi-ownership morphism audit`](udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md)
 and its exact evidence → the parent
 [`global phi ownership/overlap audit`](udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md)
@@ -29,6 +31,8 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
+the [relational-phi dependency regrade](udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md)
+→
 the [founding phi-ownership morphism audit](udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md)
 → the [global phi ownership/overlap audit](udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md)
 → the [same-solution phi/curvature compatibility audit](udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md)
@@ -48,11 +52,12 @@ supplies operational instructions and binding research discipline, but it
 cannot overrule the topmost current-state block in `LIVE.md`.
 
 The current premise registry prevents older comparison atlases from silently becoming present UDT
-ontology. Founded `phi` is the derived additive log depth of the reciprocal pair; an independently
-varied scalar remains a chosen comparison control. The generic `F4[6]` metric quotient is an arena
-count, not the native UDT field or mode count. Strong local CSN is challenged/not-derived and
-inactive without explicit owner reauthorization; `c_E` and `G_obs` remain observational anchors.
-If the registry, `LIVE.md`, and a cited source disagree, stop.
+ontology. The founded object is the reciprocal character on supplied ordered depth; pointwise
+`phi` is a potential only on a supplied factorization, while the general observer-pair depth law is
+open. An independently varied scalar remains a chosen comparison control. The generic `F4[6]`
+metric quotient is an arena count, not the native UDT field or mode count. Strong local CSN is
+challenged/not-derived and inactive without explicit owner reauthorization; `c_E` and `G_obs`
+remain observational anchors. If the registry, `LIVE.md`, and a cited source disagree, stop.
 
 The reciprocal path-composition audit is complete. Composition rejects inconsistent free pair data,
 but all endpoint-potential depths obey it identically; path concatenation does not imply local

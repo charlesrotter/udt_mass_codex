@@ -7,11 +7,17 @@
 ## TOP — CURRENT POINTER (2026-08-05, founding object relational; general pair-depth law open)
 
 Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
+`udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`, followed by
 `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md` and its exact evidence. The
 founding source derives the reciprocal character only after ordered relative depth is supplied. On
 the supplied factorized architecture, pointwise `phi` is a potential representation; the general
 observer/event/path-to-depth assignment remains open. An intrinsic stationary Killing line supplies
 the conditional reduction `delta_K=log(N(p)/N(q))`.
+
+The complete active dependency ledger has 4,762 paths. The earlier pointwise physical-owner
+conclusion is withdrawn, but the scoped algebra survives; no presently load-bearing algebra row
+requires an immediate wholesale rerun. Three old pointwise-field/action negatives are
+`CONDITIONS-CHANGED` and nonblocking outside their exact supplied branches.
 
 The next bounded decision is between an explicit realized relational-depth premise and a
 branch-stratified metric-ownership program. No action, source, density solve, time-live equation,

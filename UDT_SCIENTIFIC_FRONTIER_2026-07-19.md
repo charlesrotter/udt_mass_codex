@@ -4,6 +4,15 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 5 relational-phi dependency regrade precedence notice
+
+Before using this historical frontier, read
+`udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`. Its frozen active universe has
+4,762 individually dispositioned paths. The founding character and scoped algebra survive, while
+the earlier universal pointwise physical-owner conclusion is withdrawn. Seven semantic packages
+are conclusion-regraded, three old pointwise-field/action negatives are nonblocking outside their
+supplied branches, and no current load-bearing algebra row requires immediate rederivation.
+
 ## August 5 founding phi-ownership morphism precedence notice
 
 This long file is historical context, not the current checkpoint. Current orientation is

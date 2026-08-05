@@ -3,6 +3,13 @@
 **⚠ BRANCH: `grok` (2026-08-05)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
+**➤ CURRENT CORRECTION OVERLAY — RELATIONAL-PHI DEPENDENCY RE-GRADE:** read
+`udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md` and its 4,762-row active ledger
+before reusing older pointwise-`phi`, field-equation, `X_max`, mass or stability results. The core
+algebra survives; seven earlier semantic packages lose their pointwise physical-owner conclusion;
+three old field/action negatives lose UDT-wide blocking authority; no current load-bearing algebra
+requires an immediate wholesale rederivation.
+
 **➤ CURRENT SCIENTIFIC CHECKPOINT — FOUNDED CHARACTER RELATIONAL; GENERAL TWO-OBSERVER DEPTH LAW OPEN:**
 Read `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`, then its direct-source
 ledger, exact derivation, ten-route census, two implementations, witnesses, verifier, fresh review,

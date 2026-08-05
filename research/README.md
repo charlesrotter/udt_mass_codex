@@ -132,14 +132,16 @@ realization after smooth reciprocal/screen bundles `N,Q` are supplied. It does n
 split, select a global coframe, or supply an action, source, carrier, boundary, bootstrap closure,
 matter, or mass. Its proposed selector census is complete at the current spine above.
 
-## Current foundational correction — July 26
+## Current relational correction — August 5 (supersedes the July 26 pointwise wording)
 
-Founded `phi` is the derived additive logarithmic depth of the reciprocal clock/ruler pair; an
-independently varied scalar is a chosen comparison configuration. The generic `F4[6]` metric
-quotient is an arena count, not a selected native UDT field or mode count. The complete founded
-angular/mixing extension and variation domain remain open. Strong local CSN is challenged/not
-derived and inactive unless Charles explicitly reauthorizes it; `c_E` and `G_obs` remain observed
-anchors. See the [DOF correction layer](../udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md).
+The foundation derives the reciprocal character on supplied ordered depth, not a universal
+pointwise physical `phi` assignment. Pointwise `phi` is a potential representation on the supplied
+factorized architecture; an independently varied scalar is a chosen comparison configuration. The
+generic `F4[6]` metric quotient is an arena count, not a selected native UDT field or mode count.
+The observer-pair depth law, complete angular/mixing extension and variation domain remain open.
+Strong local CSN is challenged/not derived and inactive unless Charles explicitly reauthorizes it;
+`c_E` and `G_obs` remain observed anchors. Read the August 5 dependency regrade before reusing the
+July 26 [DOF correction layer](../udt_global_functional_dof_constraint_rank_audit_2026-07-26/CORRECTION_LAYER.md).
 
 ## Prior scientific spine — August 1
 

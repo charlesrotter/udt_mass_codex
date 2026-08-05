@@ -5,7 +5,16 @@
 **⚠ BRANCH: work is on `grok` (2026-08-05).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 ## ============ CURRENT STATE (2026-08-05 — FOUNDING OBJECT IS RELATIONAL; GENERAL TWO-OBSERVER DEPTH LAW OPEN) ============
+**DEPENDENCY RE-GRADE:** the repository-wide relational-`phi` dependency audit is the current
+correction overlay: `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`. It preserves
+the 4,762-row frozen active ledger and finds no current load-bearing algebra that must be discarded.
+It withdraws the older pointwise physical-owner conclusion, conditionalizes 1,088 paths, regrades
+99 paths in seven semantic packages, and removes UDT-wide blocking authority from three
+pointwise-field/action negatives. F01/F02/F04 and the WR-L/SNe readout retain their prior conditional
+statuses. Historical/frozen evidence is unchanged.
+
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+the dependency regrade above →
 `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md` → its direct founding-source
 ledger, exact derivation, ten-route census, two implementations, witnesses, verifier, fresh review,
 stationary-sign repair and accepted repair replay → the global-overlap, observer-comparison,
@@ -50,6 +59,10 @@ its complete return.
 nonstationary continuation remains open. Do not re-demand a universal point scalar, repeat overlap
 algebra, or insert a fixed reference, action, source, density target, long solve, GPU or time-live
 equation.
+
+Do not wholesale rerun the old corpus. Re-derive an older pointwise-field/action result only if it
+is proposed for renewed native use; the current regrade found zero presently load-bearing algebra
+rows requiring immediate rederivation.
 
 **PREMISE STAMPS:** founded `phi`, reciprocal pair action and composition `DERIVED`; `c_E/G_obs`
 `OBSERVED`; complete coframe `DEFINED_CONFIGURATION_ARCHITECTURE`; global/local mutual

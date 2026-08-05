@@ -253,10 +253,12 @@ Do not rely on conversational memory. Disk evidence wins.
 ## Binding UDT research rules
 
 - Remain pure to UDT: **the metric is the theory**.
-- Founded `phi` is the **derived additive logarithmic depth** of the reciprocal clock/ruler pair,
-  acting as `diag(exp(-phi),exp(phi))`. Its physical observer/path assignment, profile, complete 4D
-  extension, variation, dynamics, boundary, and global completion remain open; those open joins may
-  not demote its identity to a placeholder or promote it to an extra native scalar.
+- The founding source derives the exact reciprocal character
+  `D(delta)=diag(exp(-delta),exp(delta))` on **supplied ordered depth**. It does not derive the map
+  from complete observer/event/path data to `delta`. Pointwise `phi` is a presentation potential on
+  the supplied factorized architecture and may become physical only on a separately selected
+  endpoint-exact branch. Never demote the character to a placeholder or promote pointwise `phi` to
+  a universal physical scalar or extra native field.
 - Independently varying a scalar in an older atlas is `CHOSE_COMPARISON_CONFIGURATION`, not native
   field ownership. A generic `F4[6]` metric quotient is a **generic configuration-arena count**, not
   a UDT propagating-mode count or selected native field census.

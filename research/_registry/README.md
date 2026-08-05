@@ -7,6 +7,11 @@ govern scientific premise meanings. For current scientific source precedence use
 [`CURRENT_SCIENTIFIC_PREMISES.md`](../../CURRENT_SCIENTIFIC_PREMISES.md). A conflict is a mandatory
 stop. The scientific registry does not rewrite any fixed reorganization snapshot.
 
+The current scientific correction overlay is the
+[`relational-phi dependency regrade`](../../udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md).
+It changes scientific interpretation and current premise guards only; it does not alter any
+reorganization registry, stable artifact identity or fixed snapshot.
+
 The current scientific checkpoint is
 [`udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`](../../udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md).
 It updates bootstrap premise `G12` through the scientific-premise registry only; it does not change

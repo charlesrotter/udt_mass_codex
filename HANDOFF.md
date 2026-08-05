@@ -8,14 +8,22 @@
 
 ## CURRENT — the founded object is relational; the general two-observer depth law remains open
 
+**Repository-wide dependency regrade:** read
+`udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md` before entering older `phi`,
+field-equation, `X_max`, mass or stability work. Its 4,762-row active ledger withdraws the seven-family
+pointwise-owner conclusion, preserves the exact conditional mathematics, and records zero current
+load-bearing algebra rows needing immediate rederivation. Three old pointwise-field/action negatives
+are now `CONDITIONS-CHANGED` and nonblocking outside their supplied branches.
+
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
-3. `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`.
-4. Its direct founding-source ledger, exact derivation, route/status/premise ledgers, two exact
+3. `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`.
+4. `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`.
+5. Its direct founding-source ledger, exact derivation, route/status/premise ledgers, two exact
    implementations, witnesses, verifier, fresh review, repair and accepted repair replay.
-5. Use the global-overlap, observer-comparison, query/path and factorized-skeleton audits as parents.
+6. Use the global-overlap, observer-comparison, query/path and factorized-skeleton audits as parents.
 
 **Result:** the direct founding source takes ordered relative depth as input and derives
 `D(delta)=diag(exp(-delta),exp(+delta))`. It does not derive which numerical `delta` belongs to an
