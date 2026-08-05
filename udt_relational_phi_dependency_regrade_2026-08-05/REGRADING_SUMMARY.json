@@ -1,0 +1,20 @@
+{
+  "active_count": 4762,
+  "disposition_counts": {
+    "CONCLUSION_REGRADE_REQUIRED": 99,
+    "CONDITIONAL_REINTERPRETATION_ONLY": 1088,
+    "CONTROL_UPDATE_REQUIRED": 13,
+    "FROZEN_EVIDENCE_IMMUTABLE": 40,
+    "HISTORICAL_SUPERSEDED_NO_ACTION": 338,
+    "NO_RELEVANT_SEMANTIC_DEPENDENCY": 1994,
+    "OPEN_DEPENDENCY_ALREADY_STAMPED": 741,
+    "UNCHANGED_NEGATIVE_NOW_EXPLANATORY": 418,
+    "UNCHANGED_NO_OWNERSHIP_DEPENDENCY": 31
+  },
+  "family_identity_sha256": "1d709622d65d63e6effdc73ab2a4ddcd5fbeee2d2860a8e53072b33b5140fc4b",
+  "focused_path_count": 2152,
+  "manual_or_family_reviewed_count": 2152,
+  "rederivation_required_count": 0,
+  "schema": "udt.relational_phi_regrade.ledger.v1",
+  "unique_path_count": 4762
+}
