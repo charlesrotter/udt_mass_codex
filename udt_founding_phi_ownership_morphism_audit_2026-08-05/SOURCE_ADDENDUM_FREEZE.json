@@ -1,0 +1,8 @@
+{
+  "addendum_source_count": 4,
+  "base_source_count": 31,
+  "correction_commit_parent": "f136aebb4da55bcdc9df6d7c346caf350cff387b",
+  "effective_source_count": 35,
+  "manifest_sha256": "a39d495379b2efa0796ff4dde956238b2b066493951a48ed17d3dafcf09fa6b8",
+  "schema": "udt.founding_phi_ownership.source_addendum.v1"
+}
