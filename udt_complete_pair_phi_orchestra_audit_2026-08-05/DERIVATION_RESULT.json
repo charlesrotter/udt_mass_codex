@@ -1,0 +1,61 @@
+{
+  "check_count": 32,
+  "checks": {
+    "loop_period_is_descent_obstruction": true,
+    "mixing_block_spectrum": true,
+    "mixing_changes_timelike_stretch": true,
+    "mixing_eigenvector_is_timelike": true,
+    "mixing_timelike_eigenvector": true,
+    "potential_edge_01": true,
+    "potential_edge_12": true,
+    "pure_signed_timelike_extractor": true,
+    "pure_spacelike_extractor": true,
+    "pure_strain": true,
+    "reverse_log_domain_positive": true,
+    "reverse_strain_similarity_to_inverse": true,
+    "reverse_timelike_eigenvalue_is_reciprocal": true,
+    "rho2_pure_reduction": true,
+    "rho4_pure_reduction": true,
+    "screen_area_character_composition": true,
+    "screen_area_character_is_modulated": true,
+    "screen_area_character_pure_reduction": true,
+    "screen_area_character_reversal": true,
+    "source_frame_is_Lorentz": true,
+    "spectral_magnitudes_nonunique": true,
+    "spectral_rho2_formula": true,
+    "spectral_rho4_formula": true,
+    "spectral_signed_depth_nonadditive": true,
+    "stationary_Killing_reduction": true,
+    "stationary_angular_cocycle_composition": true,
+    "stationary_angular_cocycle_reversal": true,
+    "stationary_screen_modulation": true,
+    "strain_characteristic_invariance": true,
+    "strain_depth_differs_from_quotient_depth": true,
+    "strain_endpoint_frame_covariance": true,
+    "target_frame_is_Lorentz": true
+  },
+  "complete_magnitudes": {
+    "agree_only_on_pure_reciprocal_control": true,
+    "rho2_squared": "d^2+(a^2+b^2)/2",
+    "rho4_fourth": "d^4+(a^4+b^4)/2"
+  },
+  "maximum_conclusion": "FULL_ARROW_STRAIN_AND_ANGULAR_MODULATED_RECIPROCAL_COCYCLES_EXIST__ACTIVE_PREMISES_DO_NOT_SELECT_ONE_UNIVERSAL_COMPLETE_PAIR_DEPTH",
+  "mixing_control": {
+    "depths_are_distinct": true,
+    "quotient_depth": "log(2)",
+    "timelike_strain_depth": "-1/2 log((19-sqrt(105))/32)",
+    "timelike_strain_eigenvalue": "(19-sqrt(105))/32"
+  },
+  "pure_reciprocal": {
+    "signed_timelike_depth": "-1/2 log(lambda_timelike)=log(r)",
+    "strain_spectrum": [
+      "r^-2",
+      "r^2",
+      "1",
+      "1"
+    ]
+  },
+  "stationary_cocycle_family": "delta_k(p,q)=log(N_p/N_q)+k log(R_q/R_p)",
+  "status": "PASS",
+  "sympy_version": "1.13.1"
+}

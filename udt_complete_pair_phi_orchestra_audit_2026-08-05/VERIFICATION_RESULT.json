@@ -1,0 +1,54 @@
+{
+  "catch_proofs": {
+    "external_verdict_removal_rejected": "CAUGHT",
+    "extra_untracked_path_rejected": "CAUGHT",
+    "frozen_source_mutation_rejected": "CAUGHT",
+    "mixing_modulation_removal_rejected": "CAUGHT",
+    "prior_counterexample_rebroadened_rejected": "CAUGHT",
+    "spectral_additivity_promotion_rejected": "CAUGHT",
+    "stationary_metric_alone_promotion_rejected": "CAUGHT",
+    "unique_rule_promotion_rejected": "CAUGHT"
+  },
+  "computations": {
+    "independent_checks": 44,
+    "primary_checks": 32,
+    "sympy": "1.13.1"
+  },
+  "maximum_conclusion": "DERIVED_COMPLETE_ARROW_ORCHESTRA_MODULATION_AND_GROUPOID_COCYCLE_HOME__UNIQUE_PHYSICAL_COMPLETE_PAIR_PHI_OPEN",
+  "scope": {
+    "package_paths": 14,
+    "package_untracked": [
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/ADVERSARIAL_REVIEW_REQUEST.md",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/DERIVATION_RESULT.json",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/EXTERNAL_ADVERSARIAL_REVIEW.md",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/INDEPENDENT_RESULT.json",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/PRIOR_RESULT_SCOPE_CORRECTION.md",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/STATUS_LEDGER.tsv",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/VERIFICATION_RESULT.json",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/derive_complete_pair_phi.py",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/verify_audit.py",
+      "udt_complete_pair_phi_orchestra_audit_2026-08-05/verify_complete_pair_phi_independent.py"
+    ],
+    "protected_metadata_sha256": "94305a15f705c3bd6dd2aea648ce994dabb0334e249c47d076ddb9ed1b047227",
+    "protected_paths": 83
+  },
+  "semantics": {
+    "guarded_statuses": 10,
+    "ledger_rows": 19
+  },
+  "sources": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "0fa377cb50b775875dd8f2de95acb840f3d38183c71b54caef242a89cfc1fa13",
+    "udt_complete_coframe_physical_comparison_functor_audit_2026-07-27/AUDIT_REPORT.md": "b2cb8ca000964e4a42a30f575ce3db7a2c7dfe0bedbbf45fff1e6f739ceb09e0",
+    "udt_complete_coframe_physical_comparison_functor_audit_2026-07-27/EXACT_DERIVATION.md": "d2386f376d1303cef78294ff5a154a8a5cb3b33942e783342b13a237225b4135",
+    "udt_complete_relational_configuration_variation_domain_audit_2026-07-26/EXACT_ARCHITECTURE.md": "7e95b3867fcabeb4be148d8abce6ee05c7068ca0a0e652a2309eab0c5ee720d6",
+    "udt_factorized_whole_spacetime_skeleton_2026-08-04/AUDIT_REPORT.md": "8a56d5ca8a73069e17eaa69fac5c134bddf07e8db9ab37af40787de06f89761b",
+    "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md": "67cc72d71fa5b5b09824ae2a3d2397730e78983cbd7d1060f9afa2e9185cb24b",
+    "udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md": "7aa0b81caa6504974e8ace4fc2c313a9e8394ad293b3d7c316412ca7ec6485f1",
+    "udt_reciprocal_distance_identification_audit_2026-08-05/AUDIT_REPORT.md": "976b35943a8e862fe98f9e7c535941bf5a2313fa41313d8f00ea351471b89e42",
+    "udt_reciprocal_distance_identification_audit_2026-08-05/EXACT_DERIVATION.md": "15b19b746e785fbaad0505e59189d967862f3ab72639289a17c00a1c817f0a8e",
+    "udt_reciprocal_plane_projector_audit_2026-07-21/AUDIT_REPORT.md": "8833d53428a9e23b4e6f50df81d20ff1b99a35c28612b780a6c1da649d361295"
+  },
+  "status": "PASS"
+}
