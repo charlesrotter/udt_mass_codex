@@ -1,0 +1,13 @@
+route_id	route	mathematical_home	input_status	tested_question	forbidden_promotion
+O01	LOCAL_FACTORIZATION_ZERO_COCCHAIN	factorized complete-coframe charts	DEFINED_CONFIGURATION_ARCHITECTURE	Do arbitrary local shifts induce reference-transition coboundaries while preserving physical coframes?	physical gauge law
+O02	FIXED_REFERENCE_TRANSITIONS	chosen reference coframe bundle	OPEN_OR_CONDITIONAL	What shifts survive if reference transitions are separately fixed?	founded ownership rule
+O03	TWO_SIDED_COCYCLE	physical and reference coframe bundles	DERIVED_COMPATIBILITY_IDENTITY	Does the exact two-sided overlap law constrain shifts when both presentations transform honestly?	native dynamics
+O04	GLOBAL_SCALAR_DESCENT	base spacetime scalar candidate	OPEN_ARCHITECTURE	Does scalar gluing remove local shifts or leave arbitrary global functions?	selected physical scalar
+O05	REVERSAL_TWISTED_AFFINE_DESCENT	affine or sign line bundle candidate	ABSTRACT_Z2_ALGEBRA_DERIVED__PHYSICAL_LIFT_CONDITIONAL	Which parity and period data survive local shifts?	physical reversal seam
+O06	QUERY_BUNDLE_EQUIVARIANCE	ordered observer-ruler query bundle	DERIVED_CONTAINER_AND_EQUIVARIANCE	Does changing the query pair determine depth ownership?	basic spacetime descent
+O07	FIXED_PAIR_DEPTH_DATA	observer/path comparison data	PHYSICAL_ASSIGNMENT_OPEN	What shifts survive if signed comparison depths are independently fixed?	metric-native depth law
+O08	ENDPOINT_POTENTIAL_COMPOSITION	observer graph zero-cochain	DERIVED_NONSELECTING_KINEMATICS	Does triangle composition constrain a realized endpoint potential?	metric equation
+O09	PATH_ONE_FORM_AND_PERIODS	path groupoid	ADDITIVITY_DERIVED__ENDPOINT_SEMANTICS_OPEN	Do concatenation and loop periods constrain factorization shifts?	zero-period law
+O10	FINITE_CELL_SEAM_GLUE	completion endpoint/joint data	PARTIAL_KINEMATIC_RELATION	Does a supplied seam constrain physical data or identify the factorization?	selected completion or boundary law
+O11	BRANCH_DERIVED_SECTION	regular metric branch	BRANCH_LOCAL_CONDITIONAL	Can an intrinsic regular selector reduce the ambiguity on its stratum?	universal section across defects
+O12	TRIVIAL_FULL_LOOP_RETURN	full reciprocal plus Levi-Civita loop transport	NOT_FOUNDED_EXTRA	What would identity return constrain if separately adopted?	UDT foundational premise

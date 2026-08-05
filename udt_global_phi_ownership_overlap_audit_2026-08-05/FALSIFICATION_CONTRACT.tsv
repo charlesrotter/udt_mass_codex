@@ -1,0 +1,19 @@
+check_id	frozen_check	failure_meaning
+F01	All 12 candidate routes occur exactly once	candidate-space incompleteness
+F02	All source paths exist and are hash-frozen before derivation	source drift or missing authority
+F03	Local factorization identity holds for nonconstant chart shifts	parent local premise not reproduced
+F04	Induced reference transitions obey the triple-overlap cocycle	global factorization action is inconsistent
+F05	Physical coframe transitions and complete coframes remain unchanged	purported freedom changes physical geometry
+F06	Fixed reference transitions are tested separately from variable presentation transitions	conditional premise was hidden
+F07	Global scalar descent retains or removes shifts by exact overlap equations	architecture classification unsupported
+F08	Oriented and reversal-twisted affine cocycles are both tested	topological branch filtered
+F09	Four-observer triangle composition distinguishes free edges from endpoint potentials	composition is treated vacuously or overpromoted
+F10	Closed-loop endpoint sums and independent path periods are separated	loop premise conflation
+F11	Finite-cell fixed-seam and presentation-varying seam semantics are separated	boundary/completion premise hidden
+F12	Query equivariance is not treated as basic descent	observer-query category error
+F13	Every restriction is graded by its source status	open or conditional premise promoted
+F14	A nonconstant exact witness is saved for every surviving freedom	nonselection is merely asserted
+F15	Independent implementation shares neither production code nor SymPy	false independence
+F16	Mutation catches cover sign order omitted candidate premise promotion fixed transition loop identity and witness deletion	fail-closed harness is decorative
+F17	No result invokes action source carrier density bootstrap boundary law dynamics or observation fit	scope breach
+F18	No third jet long solve or GPU work occurs	rabbit-hole hard stop breached
