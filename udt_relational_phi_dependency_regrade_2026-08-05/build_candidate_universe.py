@@ -51,8 +51,29 @@ def tracked_at_base() -> list[str]:
     return run("git", "ls-tree", "-r", "--name-only", BASE).splitlines()
 
 
-def file_bytes(path: str) -> bytes:
-    return subprocess.check_output(["git", "show", f"{BASE}:{path}"], cwd=ROOT)
+def batched_file_bytes(paths: list[str]) -> dict[str, bytes]:
+    """Read all base blobs through one git-cat-file batch process."""
+    specs = [f"{BASE}:{path}" for path in paths]
+    completed = subprocess.run(
+        ["git", "cat-file", "--batch"], cwd=ROOT,
+        input=("\n".join(specs) + "\n").encode(), capture_output=True, check=True,
+    )
+    output = completed.stdout
+    offset = 0
+    result: dict[str, bytes] = {}
+    for path in paths:
+        header_end = output.index(b"\n", offset)
+        header = output[offset:header_end].decode("ascii")
+        parts = header.split()
+        if len(parts) != 3 or parts[1] != "blob":
+            raise RuntimeError(f"unexpected cat-file header for {path}: {header}")
+        size = int(parts[2])
+        start = header_end + 1
+        result[path] = output[start:start + size]
+        offset = start + size + 1
+    if offset != len(output):
+        raise RuntimeError("unparsed git cat-file output")
+    return result
 
 
 def batched_history(paths: set[str]) -> dict[str, tuple[str, str, str, str]]:
@@ -110,11 +131,14 @@ def main() -> None:
     frozen = manifest_members()
     targets = current_targets()
     sources = founding_sources()
+    eligible = [
+        path for path in tracked_at_base()
+        if not path.startswith(HERE.name + "/") and Path(path).suffix.lower() in TEXT_SUFFIXES
+    ]
+    base_data = batched_file_bytes(eligible)
     partial: list[tuple[str, bytes, dict[str, int]]] = []
-    for path in tracked_at_base():
-        if path.startswith(HERE.name + "/") or Path(path).suffix.lower() not in TEXT_SUFFIXES:
-            continue
-        data = file_bytes(path)
+    for path in eligible:
+        data = base_data[path]
         try:
             text = data.decode("utf-8")
         except UnicodeDecodeError:
