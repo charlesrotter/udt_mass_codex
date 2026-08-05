@@ -47,3 +47,10 @@ compatibility path for exact-path verifiers and must not be used as generic star
 The R0-R1H reorganization evidence remains fixed. Current locations come from
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; no further content migration is implied or
 authorized by this navigation cleanup.
+
+## Known local untracked work
+
+On this workstation, `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` may appear as
+83 protected untracked curvature/holonomy atlas paths. It is local work product, not current
+authority and not pushed to `grok`; clean clones may not contain it. Do not stage, modify, delete,
+mine, or cite it without an explicit later dispatch.

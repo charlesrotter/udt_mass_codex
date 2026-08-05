@@ -178,6 +178,21 @@ def main() -> None:
         require(xmax_source in text, f"control lacks Xmax correction: {control}")
         require("positional-dilation asymptote" in text, f"control lacks Xmax limiting meaning: {control}")
 
+    protected_atlas_controls = [
+        "AGENTS.md",
+        "LIVE.md",
+        "HANDOFF.md",
+        "INDEX.md",
+        "README.md",
+        "MEMORY.md",
+    ]
+    protected_atlas = "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/"
+    for control in protected_atlas_controls:
+        text = (ROOT / control).read_text(encoding="utf-8")
+        require(protected_atlas in text, f"control lacks protected atlas note: {control}")
+        require("83 protected untracked" in text, f"control lacks protected atlas count: {control}")
+        require("explicit later dispatch" in text, f"control lacks protected atlas authorization boundary: {control}")
+
     adjudication = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/ACTIVE_SEMANTIC_ADJUDICATION.tsv"
     )
@@ -193,7 +208,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 28 premise guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 28 premise guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, protected atlas note, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

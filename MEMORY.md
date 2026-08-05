@@ -22,6 +22,11 @@ metric-natural real observer/path groupoid cocycle from the complete comparison 
 angular/mixing participation, loop periods, degeneracy crossing, `c_E` calibration and the `X_max`
 asymptotic gate. No action, source, density, long solve, GPU work or physical adoption follows.
 
+Known local untracked work: `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` may
+appear on this workstation as 83 protected untracked curvature/holonomy atlas paths. It is not
+current authority and is not pushed to `grok`; do not stage, modify, delete, mine, or cite it without
+an explicit later dispatch.
+
 For any mass/stability/branch task, first use
 `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`: F01/F02 are
 distinct conditional geometry-only candidates, F04 is a separate carrier/action/box-conditional

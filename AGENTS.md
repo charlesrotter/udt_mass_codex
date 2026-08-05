@@ -20,6 +20,11 @@ If a pull is blocked by local work, preserve and inspect that work. Never reset,
 stash user changes merely to make the pull succeed. If an untracked file collides with an identical
 upstream file, prove that it is byte-identical and preserve a backup before moving it aside.
 
+Known workstation caveat: `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` may appear
+as 83 protected untracked paths. It is local curvature/holonomy atlas work product, not current
+authority and not pushed to `grok`. Do not stage, modify, delete, mine, or cite it without an
+explicit later dispatch. A clean clone may not contain it.
+
 Before interpreting the frontier, read from disk in this exact order. **Bounded-startup rule:**
 do not dump whole long files or recursively open cited evidence during orientation.
 

@@ -60,3 +60,10 @@
 - `archive/` — historical evidence and quarantined orientation layers;
 - `evidence/`, lane-specific audit directories, and data directories — load-bearing records opened
   only when routed by the active task.
+
+## Known Local Untracked Work
+
+On this workstation, `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` may appear as
+83 protected untracked curvature/holonomy atlas paths. It is local work product, not current
+authority and not pushed to `grok`; clean clones may not contain it. Do not stage, modify, delete,
+mine, or cite it without an explicit later dispatch.

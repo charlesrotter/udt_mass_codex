@@ -50,6 +50,12 @@ has a derived frame-covariant strain object. Angular/screen/mixing structure can
 A-to-B relational depth inside the complete comparison. Exact reciprocal depth is structurally a
 real observer/path groupoid 1-cocycle. The metric has not selected the unique physical cocycle.
 
+**Known local untracked atlas:** on this workstation,
+`udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` is protected local untracked
+curvature/holonomy atlas work product. It is not current authority, not pushed, and may be absent
+from clean clones. The current protected count is 83 protected untracked paths. Do not stage,
+modify, delete, mine, or cite it without an explicit later dispatch.
+
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.

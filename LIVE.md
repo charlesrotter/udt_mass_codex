@@ -56,6 +56,15 @@ depth inside the complete comparison; the angular sector need not be appended af
 separate scalar-distance correction. Exact reciprocal depth is structurally a real observer/path
 groupoid 1-cocycle. The metric has not selected the unique physical cocycle.
 
+**KNOWN LOCAL UNTRACKED ATLAS:** on this workstation,
+`udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` is protected local untracked work
+product from earlier curvature/holonomy atlas work. The phi/orchestra verifier currently records
+83 protected untracked paths and protected metadata hash
+`94305a15f705c3bd6dd2aea648ce994dabb0334e249c47d076ddb9ed1b047227`. It was not staged,
+committed, pushed, read as authority, or modified during the phi/orchestra banking/startup update.
+Do not stage, modify, delete, mine, or cite it without an explicit later dispatch. Clean clones may
+not have it because it is untracked and unpushed.
+
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_RESEARCH_PROGRAM.md` →
 `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` → the complete-pair phi/orchestra audit above →
 the law-order architecture audit above → the Xmax frame correction above → the dependency regrade above →
