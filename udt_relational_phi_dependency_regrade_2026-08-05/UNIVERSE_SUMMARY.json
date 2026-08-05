@@ -1,0 +1,11 @@
+{
+  "active_identity_sha256": "e5e43aa069a1cfbda0db72346cb89023b530317c68049554bb11f5fe0e367518",
+  "active_regrade_count": 4762,
+  "base": "682adb6c9d4cc7c9834cb5ea6a7712a32206650b",
+  "current_control_count": 12,
+  "current_frontier_count": 187,
+  "frozen_exposure_count": 40,
+  "full_exposure_count": 5354,
+  "historical_exposure_count": 680,
+  "schema": "udt.relational_phi_regrade.universe.v1"
+}

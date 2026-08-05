@@ -1,0 +1,21 @@
+{
+  "active_identity_sha256": "e5e43aa069a1cfbda0db72346cb89023b530317c68049554bb11f5fe0e367518",
+  "active_regrade_count": 4762,
+  "base": "682adb6c9d4cc7c9834cb5ea6a7712a32206650b",
+  "freeze_parent": "616c7bce",
+  "full_exposure_count": 5354,
+  "hashes": {
+    "ACTIVE_REGRADE_UNIVERSE.tsv": "487fcdf72aff5cbe6594fc1ce9ed68323d4f20f0640c67db2507857c7cf7ceca",
+    "CLASSIFICATION_SCHEMA.tsv": "502f2a41044c81ab0be5660d04360ccb5b6845e8dfe0cc477eaf207f9916f060",
+    "COMPLETENESS_MAP.md": "9261313e6a1919c363232949302399c74536f9c1c39588fa72ecb1a988bf42e7",
+    "FALSIFICATION_CONTRACT.tsv": "337936b1485ccd4eff46fe5f8f7a520872fb9128b0ff0f0c514716baf108d546",
+    "FULL_EXPOSURE_CENSUS.tsv": "23e8af3a8a44be95bae06c3ad924cb47473cde2cbf5ebc7ff240bdcc597a5d0a",
+    "PREMISE_LEDGER.tsv": "3eea4d7098984a7a2c15a63dde864ad9537cc310394294178bd4c7567c93bb05",
+    "PREREGISTRATION.md": "8f2bda12f8179c34f33f564dd372abefecd2a298f2d779d8d7a17637e1e3686b",
+    "UNIVERSE_SUMMARY.json": "d030ae988ab36adce9a0a00d3060237a4d24018d827e403ee19743670d97e9ea",
+    "UNRELATED_UNTRACKED_METADATA.tsv": "236c7cf1b8f7926330650390173f8379cff24a95600e00a2f3eb2219073675d9",
+    "build_candidate_universe.py": "d41b40a7e1e6c4e434cb17a5b2dace49a2729903898dbc17e79ca03368bd3b90"
+  },
+  "schema": "udt.relational_phi_regrade.freeze.v1",
+  "unrelated_untracked_count": 83
+}
