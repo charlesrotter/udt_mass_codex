@@ -1,0 +1,16 @@
+{
+  "checked_links": 161,
+  "current_paths": 1114,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "premise_guards": 18,
+  "routed_startup_controls": 9,
+  "schema": "udt.global_phi_ownership_overlap.repository_gates.v1",
+  "startup_controls": 10,
+  "status": "PASS",
+  "tests": "70 passed, 1 xfailed",
+  "unrelated_untracked_metadata_rows": 83
+}

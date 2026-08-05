@@ -81,5 +81,17 @@ Thus physical observer/path-to-`phi` ownership, a global section, response/evolu
 bootstrap return remain `OPEN`. Conditional local coexistence must not be promoted to a physical
 assignment or gauge law.
 
+The August 5 global founded-depth ownership/overlap audit,
+`udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md`, now closes ordinary overlap and
+cocycle consistency as a candidate ownership selector on the supplied smooth fixed-rank cover.
+Local factorization shifts induce exact coboundary changes of the reference transitions while the
+physical complete coframes and overlaps remain unchanged. Scalar descent leaves arbitrary global-
+function freedom; affine/reversal cocycles and path periods can retain class data without selecting
+a section; finite-cell physical glue likewise does not fix the reference presentation. Fixed
+reference transitions, independently physical pair depths, and regular branch selectors reduce the
+freedom only conditionally. Do not promote the derived factorization groupoid to a physical gauge
+postulate, or promote overlap consistency, loop identity, a fixed reference, or a supplied seam into
+the missing physical `phi` ownership rule.
+
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

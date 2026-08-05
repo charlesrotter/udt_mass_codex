@@ -1,9 +1,29 @@
-# INDEX — Repo Map (2026-08-04 lean)
+# INDEX — Repo Map (2026-08-05 lean)
 
-**⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
+**⚠ BRANCH: `grok` (2026-08-05)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC CHECKPOINT — SAME-SOLUTION LOCAL JOIN CONDITIONAL; PHYSICAL PHI OWNERSHIP OPEN:**
+**➤ CURRENT SCIENTIFIC CHECKPOINT — GLOBAL OVERLAP ORGANIZES BUT DOES NOT SELECT PHYSICAL PHI OWNERSHIP:**
+Read `udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md`, then its exact derivation,
+12-route classification, two implementations, witnesses, verifier, initial review, repair, and
+accepted repair replay. Use the same-solution, globalization, query, path, and reconstruction audits
+as parents only when needed.
+
+Local depth-factorization shifts act by coboundary changes of reference transitions while physical
+complete coframes, physical overlaps, and triple cocycles remain fixed. Scalar descent leaves an
+arbitrary global function. Reversal parity and oriented periods can survive as global class data
+without selecting a section. Fixed references, independently physical pair depths, and regular
+branch selectors reduce the freedom only conditionally.
+
+Exact verdict:
+`DERIVED_GLOBAL_FACTORIZATION_GROUPOID_FREEDOM_ON_THE_SUPPLIED_SMOOTH_COVER__DERIVED_COCYCLE_CLASS_AND_PERIOD_INVARIANTS_DO_NOT_SELECT_A_SECTION__CONDITIONAL_REDUCTIONS_REQUIRE_UNOWNED_REFERENCE_DEPTH_OR_BRANCH_SECTION_DATA__NO_GLOBAL_PHI_OWNERSHIP_SELECTION`.
+
+This is a smooth fixed-rank ownership/descent result, not a physical gauge law, action, source,
+boundary, density return, `X_max`, matter, mass, or dynamics. The next bounded decision is a source-
+level audit of whether the founding observer-comparison/metric derivation already defines an
+equivariant ownership morphism. It is not launched automatically.
+
+**➤ PARENT SCIENTIFIC CHECKPOINT — SAME-SOLUTION LOCAL JOIN CONDITIONAL; PHYSICAL PHI OWNERSHIP OPEN:**
 Read `udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
 derivation, family/ownership ledgers, primary and independent implementations, inverse witnesses,
 verifier, accepted fresh review and four gates. Use the second-jet, first-jet, factorized-skeleton
@@ -26,8 +46,8 @@ Exact verdict:
 `DERIVED_FACTORIZATION_NONIDENTIFIABILITY__CONDITIONAL_FULL_LOCAL_PHI_CURVATURE_COMPATIBILITY_IN_F01_F02__DERIVED_RESTRICTED_FAMILY_CODIMENSIONS__NO_METRIC_NATIVE_PHI_ASSIGNMENT_OR_CURVATURE_SELECTION`.
 
 This is not physical time evolution and supplies no unique section, solder, action, source,
-boundary, density return, `X_max`, matter or mass. An overlap/global ownership audit is only a next
-decision; it is not launched automatically.
+boundary, density return, `X_max`, matter or mass. Its overlap/global ownership successor is the
+current checkpoint above.
 
 **➤ PARENT SCIENTIFIC CHECKPOINT — COMPLETE SECOND-JET CURVATURE ATLAS; LOCAL BRIDGE:**
 Read `udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md` when the full curvature map,

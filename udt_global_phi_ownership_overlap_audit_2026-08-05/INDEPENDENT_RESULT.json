@@ -1,0 +1,139 @@
+{
+  "check_count": 46,
+  "checks": {
+    "affine_cocycle_oriented": true,
+    "affine_cocycle_twisted": true,
+    "all_checks_true_before_write": true,
+    "coboundary_01": true,
+    "coboundary_02": true,
+    "coboundary_12": true,
+    "complex_identity": true,
+    "cover_rank": true,
+    "fixed_depth_shift_kernel_dimension": true,
+    "local_identity_0": true,
+    "local_identity_1": true,
+    "local_identity_2": true,
+    "nonconstant_chart_shift": true,
+    "observer_rank": true,
+    "oriented_fixed_seam": true,
+    "oriented_loop_translation_invariant": true,
+    "overlap_01": true,
+    "overlap_02": true,
+    "overlap_12": true,
+    "path_period_gauge_invariant": true,
+    "path_period_nonzero": true,
+    "physical_cocycle": true,
+    "physical_coframe_fixed_0": true,
+    "physical_coframe_fixed_1": true,
+    "physical_coframe_fixed_2": true,
+    "potential_composition": true,
+    "query_composition": true,
+    "query_reset_composition": true,
+    "query_reset_nonbasic": true,
+    "reference_cocycle": true,
+    "scalar_function_nonconstant_across_points": true,
+    "scalar_function_sample_a": true,
+    "scalar_function_sample_b": true,
+    "seam_complete_coframes_fixed": true,
+    "seam_reference_changes": true,
+    "seam_reference_coboundary": true,
+    "seam_relation_after": true,
+    "seam_relation_before": true,
+    "shifted_overlap_01": true,
+    "shifted_overlap_02": true,
+    "shifted_overlap_12": true,
+    "shifted_potential_composition": true,
+    "shifted_reference_cocycle": true,
+    "triangle_rank": true,
+    "twisted_fixed_seam": true,
+    "twisted_loop_translation_changes": true
+  },
+  "independence": "stdlib Fraction implementation; no SymPy and no production import",
+  "nonconstant_shift_witness": [
+    "5",
+    "8",
+    "11"
+  ],
+  "reference_transition_changed": true,
+  "sample_shifted_reference_transition": [
+    [
+      "8/5",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1/20",
+      "5/8",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "1/5",
+      "0",
+      "2",
+      "1"
+    ]
+  ],
+  "seam_reference_after": [
+    [
+      "11/5",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-4/55",
+      "10/11",
+      "0",
+      "0"
+    ],
+    [
+      "1/5",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "2/5",
+      "-5",
+      "3",
+      "1"
+    ]
+  ],
+  "seam_reference_before": [
+    [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-4",
+      "2",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "2",
+      "-1",
+      "3",
+      "1"
+    ]
+  ],
+  "seam_reference_changed": true,
+  "seam_relation_preserved": true,
+  "status": "PASS"
+}

@@ -2,71 +2,71 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
+**⚠ BRANCH: work is on `grok` (2026-08-05).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
-## ============ CURRENT STATE (2026-08-04 — SAME-SOLUTION LOCAL JOIN CLOSED CONDITIONALLY; PHYSICAL PHI OWNERSHIP AND RETURN OPEN) ============
+## ============ CURRENT STATE (2026-08-05 — GLOBAL OVERLAP ORGANIZES BUT DOES NOT SELECT PHYSICAL PHI OWNERSHIP) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md` → its exact
-derivation, family/ownership ledgers, primary and independent implementations, inverse witnesses,
-verifier and accepted fresh review → the second-jet, first-jet, factorized-skeleton and query-bundle
-parents only when load-bearing.
+`udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md` → its exact derivation,
+12-route classification, two implementations, saved witnesses, verifier, initial adversarial review,
+repair and accepted repair replay → the same-solution, globalization, query-bundle, path-composition
+and global/local reconstruction parents only when load-bearing.
 
-**CURRENT HONEST RESULT:** the parent atlas's separate supplied-`dphi` and curvature axes can be
-realized in one and the same local two-jet inside the registered factorized complete-coframe
-architecture. With a frozen supplied reference, the full eight-generator family F01 and the
-determinant-one-screen family F02 both have exact curvature rank `20/20` for zero, timelike,
-spacelike and nonzero-null founded-depth first jets. Exact rational right-inverse witnesses show
-surjection onto the full algebraic Riemann module.
+**CURRENT HONEST RESULT:** the local founded-depth factorization freedom survives exact global
+stitching on the supplied smooth fixed-rank complete-coframe cover. Independent local shifts change
+the reference coframes and induce
+`R'_ij=K_j^-1 R_ij K_i`, while every physical complete coframe, physical overlap map and
+triple-overlap cocycle stays fixed. Globalization therefore produces an exact groupoid/orbit of
+factorized presentations; it does not select one physical `phi` assignment.
 
-Restricted family ranks are F03/F04 `19/19`, founded spectator F05 `8`, and the one-field locked
-angular/shift counterfamilies F06/F07 `10/10`. F03 has the extra local relation `R_2323=0`; F04 has
-`R_0123=0`, in addition to Bianchi. The rank-10 locks are real reciprocal/angular and
-reciprocal/mixing curvature interactions, but neither lock is selected or curvature-complete.
+Scalar descent reduces arbitrary chart shifts to an arbitrary global function, not a unique scalar.
+Affine/reversal cocycles retain real class data such as reversal parity and oriented periods, but
+those invariants do not choose local representatives. Query equivariance transports every supplied
+depth. Endpoint composition accepts every endpoint potential. Finite-cell physical seam relations
+survive unequal endpoint shifts when the reference seam transforms honestly.
 
-**OWNERSHIP RESULT:** releasing the reference coframe exposes the exact finite redefinition
-`phi -> phi+chi`, `S -> S D(chi)`, `bar_theta -> diag(D(chi)^-1,I)bar_theta`, which leaves the
-complete coframe unchanged. The first-jet map has per-direction rank/nullity `16/8`; the fixed-first-
-jet second map has the same per-slot `16/8`. Explicit kernels shift `dphi` or its Hessian into the
-reference presentation. This proves factorization non-identifiability, not a physical gauge law.
-
-**WHAT CLOSED / WHAT DID NOT:** local algebraic same-solution existence is closed conditionally in
-F01/F02; no hidden two-jet integrability gap was found. The complete coframe still does not identify
-the physical founded-depth assignment, because the reference/section ownership rule remains open.
-Local compatibility does not select a family, curvature, observer assignment or physical solution.
+**CONDITIONAL REDUCTIONS:** fixing a reference transition system restricts shifts to its stabilizer;
+independently physical pair-depth data fix relative endpoint values modulo one connected-component
+constant; a regular branch-derived section can own depth on its stratum. None is presently a
+founded universal ownership rule. Fixed references and physical signed depths remain open or
+conditional, and known branch selectors fail or become set-valued at defect/collision strata.
 
 **BOUNDED VERDICT:**
-`DERIVED_FACTORIZATION_NONIDENTIFIABILITY__CONDITIONAL_FULL_LOCAL_PHI_CURVATURE_COMPATIBILITY_IN_F01_F02__DERIVED_RESTRICTED_FAMILY_CODIMENSIONS__NO_METRIC_NATIVE_PHI_ASSIGNMENT_OR_CURVATURE_SELECTION`.
+`DERIVED_GLOBAL_FACTORIZATION_GROUPOID_FREEDOM_ON_THE_SUPPLIED_SMOOTH_COVER__DERIVED_COCYCLE_CLASS_AND_PERIOD_INVARIANTS_DO_NOT_SELECT_A_SECTION__CONDITIONAL_REDUCTIONS_REQUIRE_UNOWNED_REFERENCE_DEPTH_OR_BRANCH_SECTION_DATA__NO_GLOBAL_PHI_OWNERSHIP_SELECTION`.
 
-**MASS/STABILITY/BOOTSTRAP CONSEQUENCE:** one local compatibility obstruction has been removed, but
-the working bootstrap posit still has no physical ownership or return law. F01/F02 remain separate
-conditional geometry-only mass-bearing routes; F04 remains the carrier/action-conditional static
-finite-box Hopf result. No native family, source, carrier, boundary, density window, mass, species,
-or dynamics is promoted.
+**WHAT CLOSED / WHAT DID NOT:** ordinary overlap/cocycle consistency is now closed as a candidate
+ownership selector on this tile: it organizes the ambiguity but does not remove it. This is not an
+impossibility theorem over future metric consequences. Founded `phi` remains the derived additive
+log depth and reciprocal pair action; only its physical observer/path assignment and ownership are
+open. F01/F02 remain conditional geometry-only mass-bearing routes, and F04 remains the separate
+carrier/action-conditional finite-box Hopf result. The bootstrap posit still lacks its complete
+physical return.
 
-**NEXT BOUNDED DECISION — NOT LAUNCHED AUTOMATICALLY:** decide whether the founded observer-query
-comparison and the factorized coframe supply a differential/global ownership rule for depth that is
-equivariant on overlaps and consistent around finite cells. This must characterize all admitted
-sections, not choose a desired branch. No third-jet, action, source, long solve, GPU, density scan or
-time-live claim follows.
+**NEXT BOUNDED DECISION — NOT LAUNCHED AUTOMATICALLY:** return to the exact founding observer-
+comparison/metric derivation and determine whether it already defines a natural equivariant
+ownership morphism from complete geometry plus observer/path query data to a depth section or
+equivalence class. If it does not, Charles must decide whether realized or branch-stratified
+ownership is an additional premise. Do not repeat overlap algebra or insert a fixed reference,
+scalar ontology, trivial loop return, action, source, density target, long solve, GPU or time-live
+equation.
 
 **PREMISE STAMPS:** founded `phi`, reciprocal pair action and composition `DERIVED`; `c_E/G_obs`
 `OBSERVED`; complete coframe `DEFINED_CONFIGURATION_ARCHITECTURE`; global/local mutual
-admissibility `WORKING_POSIT`; local same-solution `phi`/curvature compatibility
-`CONDITIONAL_ON_SUPPLIED_FACTORIZED_REALIZATION`; factorization non-identifiability `DERIVED`;
-physical `phi` ownership/assignment, global return, action, source, boundary, `X_max`, unconditional
-matter/mass and dynamics `OPEN`; `S2` carrier `POSIT`.
+admissibility `WORKING_POSIT`; local same-solution `phi`/curvature compatibility `CONDITIONAL`;
+local and global factorization non-identifiability `DERIVED_ON_SUPPLIED_SMOOTH_COVER`; cocycle and
+period invariants `DERIVED_NONSELECTING`; fixed reference, physical pair depth and branch section
+reductions `CONDITIONAL_OR_OPEN`; physical `phi` ownership, complete return, action, source,
+boundary, `X_max`, unconditional matter/mass and dynamics `OPEN`; `S2` carrier `POSIT`.
 
 **AUTHORITY BOUNDARY:** no action, response, source, carrier, density, boundary, completion, branch,
 mass, species, `X_max`, physical evolution, observation fit, GPU work, canonization or repository
 reorganization follows.
 
-**EVIDENCE:** preregistration `7c99952f`; frozen universe `32222612`; primary SymPy 1.13.1 and
-independent standard-library rational replays agree; three exact rank-20 inverse witnesses;
-verifier `23/23` with `16/16` mutations caught; 28 base-source hashes, five ownership architectures,
-nine families, thirteen jet/stratum rows, nine observables, ten operations and twelve premises;
-fresh read-only `gpt-5.4` review `ACCEPTED` with no repairs. Six frozen manifests/127 members/133
-paths, 1,114 current paths, 101 frontier targets, tests `70 passed, 1 xfailed`, and the 83 unrelated
-untracked metadata identities pass.
+**EVIDENCE:** preregistration `2ddefb71`; frozen universe `0972a026`; 12 routes, 16 premises and 23
+hash-frozen sources; primary SymPy `54/54`, independent standard-library rational `46/46`, final
+verifier `33/33` with `16/16` mutations caught. Fresh read-only `gpt-5.4` returned
+`ACCEPTED_WITH_REPAIRS`; its one tautological seam witness was replaced by independent endpoint
+constructions and a second fresh replay returned `REPAIR_ACCEPTED`. Repository preservation gates
+are recorded in the audit package.
 
 <!-- STARTUP_CURRENT_END -->
 

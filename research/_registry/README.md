@@ -8,12 +8,11 @@ govern scientific premise meanings. For current scientific source precedence use
 stop. The scientific registry does not rewrite any fixed reorganization snapshot.
 
 The current scientific checkpoint is
-[`udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md`](../../udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md).
+[`udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md`](../../udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md).
 It updates bootstrap premise `G12` through the scientific-premise registry only; it does not change
-any reorganization registry or fixed artifact identity. Supplied F01/F02 factorized architectures
-admit conditional local same-solution founded-depth/curvature compatibility, while exact
-factorization non-identifiability leaves physical `phi` ownership, global overlap, evolution and
-the complete native return open. The second-jet, first-jet and smooth-extension audits remain
+any reorganization registry or fixed artifact identity. Exact overlap gluing preserves the local
+factorization freedom as a global presentation groupoid; cocycle invariants do not select physical
+`phi` ownership. The same-solution, second-jet, first-jet and smooth-extension audits remain
 scientific parents.
 
 `ROOT_OWNERSHIP.tsv` and `MIGRATION_READINESS.tsv` are fixed-base R1C audit snapshots. Their

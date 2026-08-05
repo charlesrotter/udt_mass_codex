@@ -4,7 +4,21 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, same-solution local join conditional; physical phi ownership open)
+## TOP — CURRENT POINTER (2026-08-05, global overlap nonselecting; physical phi ownership open)
+
+Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
+`udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md` and its exact evidence. On the
+supplied smooth fixed-rank cover, local depth shifts induce reference-transition coboundaries while
+physical complete coframes and overlap cocycles remain unchanged. Scalar descent leaves arbitrary
+global-function freedom; reversal parity and periods can classify the bundle without selecting a
+section. Fixed reference, fixed physical pair-depth, and branch-derived reductions remain
+conditional.
+
+The overlap/cocycle route is exhausted at this level. The next bounded decision is whether the
+founding observer-comparison/metric derivation already supplies an equivariant depth-ownership map.
+No action, source, density solve, time-live equation, long computation, or GPU work follows.
+
+## PRIOR TOP — same-solution local join conditional; physical phi ownership open
 
 Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
 `udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md` and its exact

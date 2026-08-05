@@ -2,7 +2,17 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
 
-## Current scientific spine — August 4 same-solution phi/curvature compatibility audit
+## Current scientific spine — August 5 global phi ownership/overlap audit
+
+Read the [global phi ownership/overlap
+audit](../udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md), then its exact
+derivation, route/status/premise ledgers, two exact implementations, witnesses, verifier, preserved
+initial review, repair, and accepted repair replay. Exact global gluing retains the local
+factorization freedom as a presentation groupoid; global scalar descent and cocycle class data do
+not select physical depth. No further overlap taxonomy, action, density scan, time-live solve, or
+GPU work is authorized automatically.
+
+## Parent scientific spine — August 4 same-solution phi/curvature compatibility audit
 
 Read the [same-solution phi/curvature compatibility
 audit](../udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md), then its
@@ -12,8 +22,7 @@ supplied F01/F02 realizations, while exact factorization non-identifiability lea
 ownership and assignment open. It does not select a split, response, evolution, action, source,
 matter or mass.
 
-No overlap/global ownership audit, time-live solve, density scan or GPU work is authorized
-automatically.
+Its overlap/global ownership successor is the current spine above.
 
 ## Parent scientific spine — August 4 second-jet curvature-solder atlas
 

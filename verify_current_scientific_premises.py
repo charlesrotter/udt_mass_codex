@@ -39,7 +39,7 @@ def main() -> None:
     require(by_id["G11"]["active_use"] == "NOT_SELECTED", "EH promoted")
     require(
         by_id["G12"]["current_status"]
-        == "WORKING_MUTUAL_ADMISSIBILITY_POSIT__PARTIAL_KINEMATIC_JOIN_DERIVED__SMOOTH_EXTENSION_CARTAN_NONSELECTION__FULL_FIRST_AND_SECOND_JET_CURVATURE_ATLASES_DERIVED__CONDITIONAL_LOCAL_SAME_SOLUTION_PHI_CURVATURE_COMPATIBILITY__FACTORIZATION_NONIDENTIFIABILITY__PHYSICAL_PHI_ASSIGNMENT_AND_COMPLETE_RETURN_OPEN",
+        == "WORKING_MUTUAL_ADMISSIBILITY_POSIT__PARTIAL_KINEMATIC_JOIN_DERIVED__SMOOTH_EXTENSION_CARTAN_NONSELECTION__FULL_FIRST_AND_SECOND_JET_CURVATURE_ATLASES_DERIVED__CONDITIONAL_LOCAL_SAME_SOLUTION_PHI_CURVATURE_COMPATIBILITY__GLOBAL_FACTORIZATION_GROUPOID_AND_OVERLAP_NONSELECTION_DERIVED__PHYSICAL_PHI_OWNERSHIP_AND_COMPLETE_RETURN_OPEN",
         "bootstrap status regressed or promoted",
     )
     require(by_id["G12"]["active_use"] == "FALSIFIABLE_RELATIONAL_ARCHITECTURE_ONLY", "bootstrap use changed")
@@ -70,7 +70,7 @@ def main() -> None:
         if guard == "G12":
             require(
                 by_id[guard]["controlling_source"]
-                == "udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md",
+                == "udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md",
                 "bootstrap correction source priority changed",
             )
         else:

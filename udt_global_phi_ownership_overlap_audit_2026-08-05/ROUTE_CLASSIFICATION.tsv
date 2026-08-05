@@ -1,0 +1,13 @@
+route_id	classification	exact_reason
+O01	DERIVED_PRESENTATION_FREEDOM	arbitrary nonconstant local zero-cochain witness
+O02	CONDITIONAL_REDUCTION	fixed reference transitions leave their stabilizer only
+O03	DERIVED_NONSELECTION	two-sided cocycle is preserved by induced coboundary
+O04	OPEN_ARCHITECTURE_NONSELECTION	scalar descent leaves arbitrary global functions
+O05	DERIVED_CLASS_DATA_NOT_SECTION	parity and oriented periods may survive; local representatives do not
+O06	DERIVED_EQUIVARIANCE_NONSELECTION	query reset transports any supplied depth
+O07	CONDITIONAL_REDUCTION_MOD_CONSTANT	independently fixed pair depths leave one connected-component constant
+O08	DERIVED_NONSELECTION	triangle composition annihilates every endpoint potential
+O09	DERIVED_PERIOD_INVARIANCE_NONSELECTION	path periods survive zero-cochain shifts but are not fixed
+O10	DERIVED_PHYSICAL_GLUE__FACTORIZATION_NONSELECTION	complete seam data do not fix reference presentation
+O11	BRANCH_LOCAL_CONDITIONAL_OWNERSHIP	regular intrinsic selector may own depth only on its stratum
+O12	NOT_FOUNDED_PERIOD_RESTRICTION_ONLY	identity return would constrain loop data not select local potential
