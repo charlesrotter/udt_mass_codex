@@ -17,20 +17,7 @@
   "maximum_conclusion": "DERIVED_COMPLETE_ARROW_ORCHESTRA_MODULATION_AND_GROUPOID_COCYCLE_HOME__UNIQUE_PHYSICAL_COMPLETE_PAIR_PHI_OPEN",
   "scope": {
     "package_paths": 14,
-    "package_untracked": [
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/ADVERSARIAL_REVIEW_REQUEST.md",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/DERIVATION_RESULT.json",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/EXTERNAL_ADVERSARIAL_REVIEW.md",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/INDEPENDENT_RESULT.json",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/PRIOR_RESULT_SCOPE_CORRECTION.md",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/STATUS_LEDGER.tsv",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/VERIFICATION_RESULT.json",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/derive_complete_pair_phi.py",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/verify_audit.py",
-      "udt_complete_pair_phi_orchestra_audit_2026-08-05/verify_complete_pair_phi_independent.py"
-    ],
+    "package_untracked": [],
     "protected_metadata_sha256": "94305a15f705c3bd6dd2aea648ce994dabb0334e249c47d076ddb9ed1b047227",
     "protected_paths": 83
   },
