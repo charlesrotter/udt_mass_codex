@@ -1,0 +1,13 @@
+{
+  "candidate_universe_sha256": "22e3630f92a6281932c20713607e2c91b6195641fde2ae01cd721036d1205abc",
+  "falsification_contract_sha256": "d404e7c5163faaaf249c4989cd6f44798ff85e158f1694b49f0425533600ed71",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "premise_ledger_sha256": "d394fda131720d47a497e355cc92b95a7de118fbf3a117491b929b4664d2ca2a",
+  "preregistration_commit": "2ddefb71065c692ffc396b09e01cef6594e664b7",
+  "python": "3.10.12",
+  "source_adjudication_sha256": "6767d5592baec55d022b927bbce505357d8b7ad6de49df2ad7a3cf8609e6f0ca",
+  "source_count": 23,
+  "source_manifest_sha256": "1691f470e950e0a3e9352ea4633781abbe6415a1c9649d5703dddadcf332a1e4",
+  "unrelated_untracked_count": 83,
+  "unrelated_untracked_metadata_sha256": "236c7cf1b8f7926330650390173f8379cff24a95600e00a2f3eb2219073675d9"
+}
