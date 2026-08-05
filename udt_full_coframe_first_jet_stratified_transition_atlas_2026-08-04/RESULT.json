@@ -1,0 +1,395 @@
+{
+  "causal_transitions": {
+    "causal_change_requires_null_or_zero_by_continuity": true,
+    "nonzero_null_crossing": {
+      "dphi_nonzero_at_plus_one": true,
+      "ds_dlambda_at_plus_one": 2,
+      "normalized_projector_entry_00": "-1/((lambda - 1)*(lambda + 1))",
+      "normalized_projector_has_simple_pole": true,
+      "null_at_lambda": [
+        "-1",
+        "1"
+      ],
+      "path_dphi": "(1,lambda,0,0)",
+      "s_phi": "lambda**2 - 1",
+      "sharp_vector_at_plus_one": [
+        -1,
+        1,
+        0,
+        0
+      ],
+      "unnormalized_outer_at_plus_one_nonzero": true
+    },
+    "unnormalized_dphi_and_sharp_remain_finite_at_nonzero_null": true,
+    "zero_gradient_crossing": {
+      "limits_equal": false,
+      "path_independent_normalized_projector_extension": false,
+      "spacelike_approach_projector_limit": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "timelike_approach_projector_limit": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "first_jet": {
+    "Lorentz_gauge_basis_dimension": 6,
+    "Lorentz_gauge_tangents_zero": true,
+    "arbitrary_first_jets_constructed_by_theta_equals_I_plus_x_mu_X_mu": true,
+    "first_jet_kinematic_constraint_count": 0,
+    "founded_H_metric_tangent": [
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "full_coframe_jet_components": 64,
+    "full_metric_jet_components": 40,
+    "full_nullity": 24,
+    "full_rank": 40,
+    "metric_basis_category_counts": {
+      "founded_reciprocal": 1,
+      "mixing": 4,
+      "other_base": 2,
+      "screen": 3
+    },
+    "metric_basis_names": [
+      "founded_reciprocal_H",
+      "base_common_scale",
+      "base_offdiagonal",
+      "screen_area",
+      "screen_diagonal_shear",
+      "screen_offdiagonal_shear",
+      "mixing_02",
+      "mixing_03",
+      "mixing_12",
+      "mixing_13"
+    ],
+    "metric_basis_rank": 10,
+    "per_direction": [
+      {
+        "coframe_jet_components": 16,
+        "direction": 0,
+        "metric_jet_components": 10,
+        "nullity": 6,
+        "rank": 10
+      },
+      {
+        "coframe_jet_components": 16,
+        "direction": 1,
+        "metric_jet_components": 10,
+        "nullity": 6,
+        "rank": 10
+      },
+      {
+        "coframe_jet_components": 16,
+        "direction": 2,
+        "metric_jet_components": 10,
+        "nullity": 6,
+        "rank": 10
+      },
+      {
+        "coframe_jet_components": 16,
+        "direction": 3,
+        "metric_jet_components": 10,
+        "nullity": 6,
+        "rank": 10
+      }
+    ],
+    "spatial_and_time_directions_equally_released": true
+  },
+  "joint_causal": {
+    "all_three_causal_classes_from_mixing": true,
+    "all_three_causal_classes_from_unit_area_shear": true,
+    "block_inverse_identity_exact": true,
+    "causal_formula_identity_exact": true,
+    "formula": "u=A^{-T}(p_base-S^T p_screen); v=Q^{-T}p_screen; s_phi=u^T eta_base u+v^T v",
+    "mixing_witness_s_phi": {
+      "null": 0,
+      "spacelike": 1,
+      "timelike": -3
+    },
+    "same_coordinate_dphi": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "screen_shear_determinants": [
+      1,
+      1,
+      1
+    ],
+    "unit_determinant_screen_shear_witness_s_phi": {
+      "null": 0,
+      "spacelike": 3,
+      "timelike": "-3/4"
+    }
+  },
+  "maurer_cartan": {
+    "actual_coframe_identity_not_evolution_equation": true,
+    "first_jet_constraint_count": 0,
+    "identity_uses_derivatives_of_first_jet_or_second_jet": true
+  },
+  "native_complete_return_derived": false,
+  "outcome": "DERIVED_FULL_METRIC_FIRST_JET_SURJECTION__DERIVED_JOINT_RECIPROCAL_ANGULAR_CAUSAL_STRATA__NORMALIZED_REDUCTION_HAS_NO_UNIVERSAL_STRATIFIED_EXTENSION__NO_KINEMATIC_EVOLUTION_RETURN",
+  "physical_time_evolution_derived": false,
+  "rank_transitions": {
+    "canonical_Lorentzian_continuation_from_rank_loss": false,
+    "coframe_determinant": "lambda",
+    "coframe_path": "diag(1,1,1,lambda)",
+    "coframe_rank_at_zero": 3,
+    "coframe_rank_variety_codimensions_rank_leq_3_2_1_0": [
+      1,
+      4,
+      9,
+      16
+    ],
+    "det_g_equals_det_eta_times_det_theta_squared": true,
+    "factorized_det_E_equals_det_Q": true,
+    "finite_phi_pair_determinant": -1,
+    "finite_phi_rank_loss": false,
+    "inverse_diverges_at_rank_loss": true,
+    "inverse_metric_33": "lambda**(-2)",
+    "metric": [
+      [
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        "lambda**2"
+      ]
+    ],
+    "metric_adjugate": [
+      [
+        "lambda**2",
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        "-lambda**2",
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        "-lambda**2",
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1
+      ]
+    ],
+    "metric_adjugate_limit_at_zero": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1
+      ]
+    ],
+    "metric_determinant": "-lambda**2",
+    "orientation_branches_separated_by_rank_loss": true,
+    "phi_asymptotes_have_no_finite_nondegenerate_fixed_chart_metric_limit": true,
+    "rank_at_zero": 3,
+    "screen_path": "Q=diag(1,lambda)",
+    "screen_rank_at_zero": 1,
+    "screen_rank_variety_codimensions_rank_leq_1_0": [
+      1,
+      4
+    ]
+  },
+  "schema": "udt.full_coframe_first_jet_stratified_transition.v1",
+  "stabilizers": {
+    "algebra_types_distinct": true,
+    "nonzero_dimensions_all_three": [
+      3,
+      3,
+      3
+    ],
+    "null_Killing_form_degenerate": true,
+    "rows": [
+      {
+        "Killing_inertia_positive_negative_zero": [
+          0,
+          3,
+          0
+        ],
+        "Killing_rank": 3,
+        "algebra_type": "so(3)",
+        "closed_under_commutator": true,
+        "dimension": 3,
+        "representative": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "stratum": "timelike"
+      },
+      {
+        "Killing_inertia_positive_negative_zero": [
+          2,
+          1,
+          0
+        ],
+        "Killing_rank": 3,
+        "algebra_type": "so(1,2)",
+        "closed_under_commutator": true,
+        "dimension": 3,
+        "representative": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "stratum": "spacelike"
+      },
+      {
+        "Killing_inertia_positive_negative_zero": [
+          0,
+          1,
+          2
+        ],
+        "Killing_rank": 1,
+        "algebra_type": "iso(2)",
+        "closed_under_commutator": true,
+        "dimension": 3,
+        "representative": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "stratum": "nonzero_null"
+      },
+      {
+        "Killing_inertia_positive_negative_zero": [
+          3,
+          3,
+          0
+        ],
+        "Killing_rank": 6,
+        "algebra_type": "so(1,3)",
+        "closed_under_commutator": true,
+        "dimension": 6,
+        "representative": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "stratum": "zero"
+      }
+    ],
+    "zero_covector_restores_full_Lorentz_dimension": true
+  },
+  "sympy_version": "1.13.1"
+}

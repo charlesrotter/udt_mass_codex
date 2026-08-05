@@ -1,0 +1,9 @@
+{
+  "architecture": "x86_64",
+  "cpu_count": 8,
+  "gpu_used": false,
+  "kernel": "Linux 6.8.0-124-generic",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

@@ -1,0 +1,122 @@
+{
+  "causal_transitions": {
+    "nonzero_null_derivative_at_plus_one": 2,
+    "nonzero_null_s": "lambda^2-1",
+    "normalized_projector_simple_pole": true,
+    "zero_gradient_projector_limits_equal": false
+  },
+  "first_jet": {
+    "Lorentz_gauge_dimension": 6,
+    "Lorentz_gauge_tangents_zero": true,
+    "full_nullity": 24,
+    "full_rank": 40,
+    "metric_basis_rank": 10,
+    "per_direction_nullity": 6,
+    "per_direction_rank": 10
+  },
+  "first_jet_constraint_count": 0,
+  "joint_causal": {
+    "mixing": {
+      "null": 0,
+      "spacelike": 1,
+      "timelike": -3
+    },
+    "shear_determinants": [
+      1,
+      1,
+      1
+    ],
+    "unit_area_shear": {
+      "null": 0,
+      "spacelike": 3,
+      "timelike": "-3/4"
+    }
+  },
+  "native_complete_return_derived": false,
+  "physical_time_evolution_derived": false,
+  "rank_transitions": {
+    "adjugate_limit": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1
+      ]
+    ],
+    "coframe_codimensions": [
+      1,
+      4,
+      9,
+      16
+    ],
+    "det_metric": "-lambda^2",
+    "det_theta": "lambda",
+    "finite_phi_pair_determinant": -1,
+    "inverse_metric_33": "lambda^-2",
+    "screen_codimensions": [
+      1,
+      4
+    ]
+  },
+  "schema": "udt.full_coframe_first_jet_stratified_transition.independent.v1",
+  "stabilizers": [
+    {
+      "Killing_inertia_positive_negative_zero": [
+        0,
+        3,
+        0
+      ],
+      "Killing_rank": 3,
+      "dimension": 3,
+      "stratum": "timelike"
+    },
+    {
+      "Killing_inertia_positive_negative_zero": [
+        2,
+        1,
+        0
+      ],
+      "Killing_rank": 3,
+      "dimension": 3,
+      "stratum": "spacelike"
+    },
+    {
+      "Killing_inertia_positive_negative_zero": [
+        0,
+        1,
+        2
+      ],
+      "Killing_rank": 1,
+      "dimension": 3,
+      "stratum": "nonzero_null"
+    },
+    {
+      "Killing_inertia_positive_negative_zero": [
+        3,
+        3,
+        0
+      ],
+      "Killing_rank": 6,
+      "dimension": 6,
+      "stratum": "zero"
+    }
+  ]
+}

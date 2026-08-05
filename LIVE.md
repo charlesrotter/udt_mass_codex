@@ -4,6 +4,71 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
+## ============ CURRENT STATE (2026-08-04 — FULL FIRST-JET ORCHESTRA RELEASED; JOINT CAUSAL STRATA DERIVED; PHYSICAL EVOLUTION OPEN) ============
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md` → its exact
+derivation, transition/hypothesis/premise ledgers, verifier, fresh review and closure → the smooth
+extension and global/local parent audits only when their joins are load-bearing.
+
+**CURRENT HONEST RESULT:** the earlier work had not performed a physical time-live solve and had
+left major transition strata outside its smooth fixed-rank tile. The bounded repair releases the
+complete local coframe first jet. For each spacetime derivative direction, the exact `16 -> 10`
+coframe-to-metric map has rank `10` and nullity `6`; across all four directions it is `64 -> 40`
+with rank `40` and nullity `24`. The kernel is exactly local Lorentz presentation gauge. Thus no
+time or spatial metric first-jet amplitude is secretly frozen on the tested tile.
+
+The complete inverse metric produces a genuine reciprocal–angular result:
+`s_phi=g^-1(dphi,dphi)` depends jointly on the founded pair, screen shear, and base-screen mixing.
+With the same coordinate `dphi`, mixing alone realizes `-3,0,+1` and unit-area screen shear alone
+realizes `-3/4,0,+3`. This is direct metric coupling, not an imported interaction or selected
+physical history.
+
+**STRATIFIED RESULT:** at nonzero null `dphi` and its metric dual remain finite while the normalized
+projector has a simple pole; at `dphi=0` timelike and spacelike approaches give unequal normalized
+limits. Coframe/screen rank loss makes the metric degenerate. Finite founded `phi` never causes rank
+loss. Its infinite limits are only asymptotic strata and derive neither a regular endpoint nor
+`X_max`.
+
+**BOUNDED VERDICT:**
+`DERIVED_FULL_METRIC_FIRST_JET_SURJECTION__DERIVED_JOINT_RECIPROCAL_ANGULAR_CAUSAL_STRATA__NORMALIZED_REDUCTION_HAS_NO_UNIVERSAL_STRATIFIED_EXTENSION__NO_KINEMATIC_EVOLUTION_RETURN`.
+
+**MASS/STABILITY/BOOTSTRAP CONSEQUENCE:** the working bootstrap picture now has a richer local
+configuration atlas, but still no return law. F01/F02 remain separate conditional geometry-only
+mass-bearing routes; F04 remains the carrier/action-conditional static finite-box Hopf result. No
+native family, source, carrier, boundary, density window, mass, species, or dynamics is promoted.
+
+**NEXT BOUNDED DECISION — NOT LAUNCHED AUTOMATICALLY:** decide whether the surviving unnormalized
+coframe/depth data justify a second-jet curvature-solder audit. That audit would ask what curvature
+and compatibility do across the causal/rank strata; it must not assume an action, time evolution,
+boundary law, density return, desired branch, or particle. No long solve, GPU work, or time-live
+claim follows from the first-jet atlas.
+
+**PREMISE STAMPS:** founded `phi`, reciprocal pair action and composition `DERIVED`; `c_E/G_obs`
+`OBSERVED`; complete coframe `DEFINED_CONFIGURATION_ARCHITECTURE`; global/local mutual
+admissibility `WORKING_POSIT`; smooth extension/Cartan reconstruction
+`DERIVED_EXISTENCE_NONSELECTION`; complete local finite-`phi` metric first jet
+`DERIVED_SURJECTIVE`; joint reciprocal-angular causal strata `DERIVED_LOCAL`; normalized universal
+stratified projector `REFUTED_ON_INCLUDED_CROSSINGS`; physical path, second-jet law, global return,
+action, source, boundary, `X_max`, unconditional matter/mass and dynamics `OPEN`; `S2` carrier
+`POSIT`.
+
+**AUTHORITY BOUNDARY:** no action, response, source, carrier, density, boundary, completion, branch,
+mass, species, `X_max`, physical evolution, observation fit, GPU work, canonization or repository
+reorganization follows.
+
+**EVIDENCE:** preregistration `18916943`; frozen universe `2242893f`; primary SymPy 1.13.1 and
+independent standard-library exact replays agree; verifier `13/13` with `23/23` mutations caught;
+26 base-source hashes, 15 sectors, 15 strata, 17 observables, 12 operations and 20 premises; fresh
+read-only `gpt-5.4` `VERIFIED_WITH_CAVEATS` with zero blocking errors. Six frozen manifests/127
+members/133 paths, 1,114 current paths, 101 frontier targets, tests `70 passed, 1 xfailed`, and the
+83 unrelated untracked metadata identities pass.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_SMOOTH_EXTENSION_BEGIN -->
+
+**⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
+**This topmost CURRENT STATE block overrides every older status description.**
 ## ============ CURRENT STATE (2026-08-04 — SMOOTH EXTENSION AND CARTAN RECONSTRUCTION NONSELECTING; COMPLETE BOOTSTRAP RETURN OPEN) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md` → its exact
@@ -60,7 +125,7 @@ base-source hashes and 10/10 operation classes; fresh `gpt-5.4` `PASS_WITH_CAVEA
 blocking errors. Six frozen manifests/127 members/133 paths, 1,114 current paths, 101 frontier
 targets, tests `70 passed, 1 xfailed`, and the 83 unrelated untracked metadata identities pass.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_SMOOTH_EXTENSION_END -->
 
 <!-- STARTUP_PRIOR_2026_08_04_GLOBAL_LOCAL_RECONSTRUCTION_BEGIN -->
 

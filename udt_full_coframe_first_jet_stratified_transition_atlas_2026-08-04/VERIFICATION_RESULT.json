@@ -1,0 +1,162 @@
+{
+  "catch_proofs": [
+    {
+      "description": "wrong outcome",
+      "mutation_id": "M01",
+      "reason": "outcome mismatch",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "full metric-jet rank reduced",
+      "mutation_id": "M02",
+      "reason": "full first-jet rank changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "spatial direction frozen",
+      "mutation_id": "M03",
+      "reason": "per-direction rank changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "Lorentz gauge promoted",
+      "mutation_id": "M04",
+      "reason": "Lorentz gauge promoted or lost",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "metric basis direction deleted",
+      "mutation_id": "M05",
+      "reason": "metric basis incomplete",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "mixing dependence erased",
+      "mutation_id": "M06",
+      "reason": "mixing dependence erased",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "screen shear dependence erased",
+      "mutation_id": "M07",
+      "reason": "shear dependence erased",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "null projector pole erased",
+      "mutation_id": "M08",
+      "reason": "projector pole erased",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "zero-gradient limits made equal",
+      "mutation_id": "M09",
+      "reason": "zero projector extension promoted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "rank-loss continuation invented",
+      "mutation_id": "M10",
+      "reason": "rank continuation invented",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "finite phi rank loss invented",
+      "mutation_id": "M11",
+      "reason": "finite phi rank loss invented",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "null little algebra semisimplified",
+      "mutation_id": "M12",
+      "reason": "stabilizer atlas changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "configuration path promoted to physical evolution",
+      "mutation_id": "M13",
+      "reason": "configuration path promoted to physical evolution",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "native return promoted",
+      "mutation_id": "M14",
+      "reason": "native return promoted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "source hash corrupted",
+      "mutation_id": "M15",
+      "reason": "source hash mismatch: CURRENT_SCIENTIFIC_PREMISES.md",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "sector deleted",
+      "mutation_id": "M16",
+      "reason": "sector universe changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "stratum deleted",
+      "mutation_id": "M17",
+      "reason": "stratum universe changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "observable deleted",
+      "mutation_id": "M18",
+      "reason": "observable universe changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "operation universe deleted",
+      "mutation_id": "M19",
+      "reason": "operation universe changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "path premise promoted",
+      "mutation_id": "M20",
+      "reason": "path promoted to physical time",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "bulk operator smuggled",
+      "mutation_id": "M21",
+      "reason": "parent law smuggled",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "parent-law circularity erased",
+      "mutation_id": "M22",
+      "reason": "parent-law circularity erased",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "native return hypothesis promoted",
+      "mutation_id": "M23",
+      "reason": "hypothesis rulings changed",
+      "status": "CAUGHT"
+    }
+  ],
+  "checks": [
+    "outcome_and_environment_exact",
+    "full_first_jet_surjection_and_basis_exact",
+    "joint_reciprocal_angular_causal_formula_and_witnesses",
+    "null_and_zero_gradient_transition_exact",
+    "coframe_screen_rank_and_finite_phi_boundaries_exact",
+    "Lorentz_stabilizer_algebra_types_exact",
+    "no_kinematic_evolution_or_return_promotion",
+    "independent_rational_replay_matches",
+    "base_source_hashes_26_exact",
+    "frozen_sector_stratum_observable_operation_and_premise_universes",
+    "transition_and_hypothesis_ledgers_exact",
+    "semantic_scope_guards",
+    "fresh_primary_and_independent_replays_match_saved_results"
+  ],
+  "checks_passed": 13,
+  "mutations_caught": 23,
+  "schema": "udt.full_coframe_first_jet_stratified_transition.verification.v1",
+  "source_adjudication_sha256": "7a6bf0587df597342eca7622e0afdbf1f1b282c160aa43d9a18e643002ce35d4",
+  "status": "PASS"
+}

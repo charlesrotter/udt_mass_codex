@@ -4,7 +4,21 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, smooth extension/Cartan nonselecting; complete return open)
+## TOP — CURRENT POINTER (2026-08-04, full first jet released; joint causal strata derived; evolution open)
+
+Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
+`udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md` and its exact
+evidence. The local finite-`phi`, nondegenerate coframe first jet surjects onto all forty metric
+first-jet components across the four derivative directions, with only local Lorentz presentation
+gauge in the kernel. The complete inverse metric makes founded-depth causal type jointly dependent
+on reciprocal, screen-shear and mixing data. Null/zero-gradient crossings obstruct a universal
+normalized projector extension.
+
+This is not physical time evolution and derives no second-jet law or bootstrap return. The next
+possible bounded question is second-jet curvature solder across the mapped strata. No action,
+source, density, time-live solve, long computation or GPU work follows automatically.
+
+## PRIOR TOP — smooth extension/Cartan nonselecting; complete return open
 
 Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
 `udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md` and its exact

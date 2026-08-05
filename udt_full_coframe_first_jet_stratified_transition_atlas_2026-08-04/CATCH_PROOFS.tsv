@@ -1,0 +1,24 @@
+mutation_id	description	status
+M01	wrong outcome	CAUGHT
+M02	full metric-jet rank reduced	CAUGHT
+M03	spatial derivative direction frozen	CAUGHT
+M04	Lorentz gauge promoted	CAUGHT
+M05	metric basis direction deleted	CAUGHT
+M06	mixing dependence erased	CAUGHT
+M07	screen-shear dependence erased	CAUGHT
+M08	null projector pole erased	CAUGHT
+M09	zero-gradient limits made equal	CAUGHT
+M10	rank-loss continuation invented	CAUGHT
+M11	finite-phi rank loss invented	CAUGHT
+M12	null little algebra semisimplified	CAUGHT
+M13	configuration path promoted to physical evolution	CAUGHT
+M14	native return promoted	CAUGHT
+M15	source hash corrupted	CAUGHT
+M16	sector deleted	CAUGHT
+M17	stratum deleted	CAUGHT
+M18	observable deleted	CAUGHT
+M19	operation-universe row deleted	CAUGHT
+M20	path premise promoted	CAUGHT
+M21	bulk operator smuggled	CAUGHT
+M22	parent-law circularity erased	CAUGHT
+M23	native-return hypothesis promoted	CAUGHT

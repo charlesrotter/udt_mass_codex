@@ -6,6 +6,55 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
 
+## CURRENT — complete first-jet orchestra reveals joint reciprocal/angular causal strata
+
+**Fresh-entry path:**
+
+1. `LIVE.md` topmost current block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
+3. `udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md`.
+4. Its exact derivation, transition/hypothesis/premise ledgers, completeness map, verification
+   result, fresh review, review closure and four gates.
+5. Use the smooth extension and global/local reconstruction audits as parents; enter F01/F02/F04
+   only when routed to a load-bearing detail.
+
+**Result:** the bounded local finite-`phi` first-jet tile releases every coframe/metric first-jet
+direction: rank/nullity `10/6` per spacetime direction and `40/24` across all four. The nullspace is
+local Lorentz presentation gauge. No time or spatial metric first jet is frozen.
+
+**New metric-native structure:** the causal scalar of founded depth uses the complete inverse
+metric. Screen shear and base-screen mixing can each move the same coordinate `dphi` through
+timelike, null and spacelike classes. This is a joint reciprocal/angular configuration-space
+effect—not a chosen physical trajectory or imported coupling.
+
+**Transitions:** normalized reciprocal/screen projectors fail universally at nonzero-null and
+zero-gradient crossings even while unnormalized `dphi` data can stay finite. Rank loss degenerates
+the metric. Finite `phi` does not cause rank loss; infinite-`phi` entries are limit strata only.
+
+**Bounded verdict:**
+`DERIVED_FULL_METRIC_FIRST_JET_SURJECTION__DERIVED_JOINT_RECIPROCAL_ANGULAR_CAUSAL_STRATA__NORMALIZED_REDUCTION_HAS_NO_UNIVERSAL_STRATIFIED_EXTENSION__NO_KINEMATIC_EVOLUTION_RETURN`.
+
+**Still open:** second-jet curvature solder, physical time evolution, complete bootstrap return,
+action, source, carrier, boundary, density feedback, `X_max`, matter, mass and species. F01/F02/F04
+remain conditional and separate.
+
+**Next decision, not automatic:** whether to run a bounded second-jet curvature-solder audit using
+unnormalized coframe/depth variables across the now-mapped strata. Do not insert a desired branch,
+action, boundary law, density target, time-live equation, long solve or GPU work.
+
+**Evidence:** preregistration `18916943`; frozen universe `2242893f`; exact primary/independent
+agreement; verifier `13/13`, `23/23` mutation catches, 26 source hashes; fresh read-only `gpt-5.4`
+`VERIFIED_WITH_CAVEATS`, zero blocking errors. Frozen `6/127/133`, current paths 1,114, frontier
+targets 101, tests `70 passed, 1 xfailed`, and all 83 unrelated untracked metadata identities pass.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_SMOOTH_EXTENSION_BEGIN -->
+
+> **READ `LIVE.md` FIRST.** It wins every disagreement.
+>
+> **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
+
 ## CURRENT — smooth extension and Cartan reconstruction do not supply the bootstrap return
 
 **Fresh-entry path:**
@@ -50,7 +99,7 @@ fresh `gpt-5.4` `PASS_WITH_CAVEATS`, zero blocking errors. Frozen `6/127/133`, c
 frontier targets 101, tests `70 passed, 1 xfailed`, and all 83 unrelated untracked metadata
 identities pass. Preserve those paths unread and untouched.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_SMOOTH_EXTENSION_END -->
 
 <!-- STARTUP_PRIOR_2026_08_04_GLOBAL_LOCAL_RECONSTRUCTION_BEGIN -->
 

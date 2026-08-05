@@ -2,7 +2,19 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
 
-## Current scientific spine — August 4 complete-coframe extension/solvability audit
+## Current scientific spine — August 4 full-coframe first-jet/stratified-transition atlas
+
+Read the [full-coframe first-jet/stratified-transition
+atlas](../udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md), then
+its exact derivation, transition/hypothesis/premise ledgers, completeness map, verifier, fresh
+review and closure. It releases every local finite-`phi` metric first-jet direction, derives joint
+reciprocal/angular modulation of founded-depth causal type, and maps null, zero-gradient and rank
+transitions. It does not derive physical evolution, second-jet dynamics, a bootstrap return, action,
+source, boundary, matter or mass.
+
+No second-jet audit, time-live solve, density scan or GPU work is authorized automatically.
+
+## Parent scientific spine — August 4 complete-coframe extension/solvability audit
 
 Read the [complete-coframe extension/solvability
 audit](../udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md), then its

@@ -52,5 +52,14 @@ the still-open parent operator. Rank-changing, null, defect, and stratified exte
 Smooth gluing, connection reconstruction, or the word “solvability” must not be promoted into the
 missing physical return.
 
+The current August 4 first-jet/stratified-transition atlas,
+`udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md`, then releases
+all ten metric first-jet directions in each of all four derivative slots on the local finite-`phi`,
+nondegenerate tile. The complete inverse metric makes the causal type of founded `dphi` depend
+jointly on reciprocal, screen-shear, and base-screen mixing data. Nonzero-null and zero-gradient
+strata obstruct a universal normalized projector continuation, while finite `phi` itself does not
+cause coframe rank loss. This is a configuration-space result, not physical time evolution. It
+supplies no second-jet curvature law, action, source, boundary, density return, matter, or mass.
+
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

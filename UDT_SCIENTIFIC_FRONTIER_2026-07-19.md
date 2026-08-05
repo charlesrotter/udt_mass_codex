@@ -4,7 +4,25 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## August 4 complete-coframe extension/solvability precedence notice
+## August 4 full-coframe first-jet/stratified-transition precedence notice
+
+This long file is historical context, not the current checkpoint. Current orientation is
+`LIVE.md` → `HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
+`udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md` and its exact
+evidence.
+
+On the bounded local finite-`phi`, nondegenerate tile, all forty metric first-jet components are
+reached by the complete coframe first jet. Screen shear and base-screen mixing jointly modulate
+`g^-1(dphi,dphi)` and can move the same coordinate depth covector among timelike, null and
+spacelike strata. Null and zero-gradient crossings obstruct a universal normalized projector;
+rank loss degenerates the metric; finite founded `phi` does not cause rank loss.
+
+This is configuration-space geometry, not a physical time-live solution. Second jets, global
+histories, bootstrap return, action, source, boundary, density feedback, matter, mass and dynamics
+remain open. Exact bounded verdict:
+`DERIVED_FULL_METRIC_FIRST_JET_SURJECTION__DERIVED_JOINT_RECIPROCAL_ANGULAR_CAUSAL_STRATA__NORMALIZED_REDUCTION_HAS_NO_UNIVERSAL_STRATIFIED_EXTENSION__NO_KINEMATIC_EVOLUTION_RETURN`.
+
+## August 4 complete-coframe extension/solvability parent notice
 
 This long file is historical context, not the current checkpoint. Current orientation is
 `LIVE.md` → `HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →

@@ -1,0 +1,8 @@
+hypothesis_id	hypothesis	ruling	evidence
+H1	complete coframe first jet removes metric jet directions	REFUTED_EXACT	40 by 64 map rank 40
+H2	all forty metric jets survive with twenty-four Lorentz jet kernel	SUPPORTED_DERIVED	four rank-10 blocks and four six-dimensional gauge kernels
+H3	angular screen and mixing can change fixed coordinate dphi causal class	SUPPORTED_DERIVED	mixing values -3 0 1 and unit-area-shear values -3/4 0 3
+H4	normalized dphi projector continues uniquely through null and zero	REFUTED_EXACT	simple null pole and unequal zero-gradient approach limits
+H5	rank loss has canonical nondegenerate Lorentzian first-jet continuation	REFUTED_IN_REGISTERED_METRIC_ARCHITECTURE	det g=-det(theta)^2 and inverse divergence; generalized continuations not classified
+H6	intrinsic stabilizer algebra changes type across dphi strata	SUPPORTED_DERIVED	so3 so12 iso2 so13 Killing ranks and inertias
+H7	registered transition operation supplies native complete return	REFUTED_IN_REGISTERED_OPERATION_UNIVERSE	zero of twelve operations supplies physical evolution or bootstrap return

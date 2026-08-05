@@ -32,13 +32,14 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md` — the current
-   bounded derivation. Then read its `EXACT_DERIVATION.md`, operation/hypothesis/premise ledgers,
-   completeness map, verifier, fresh review and closure as needed. Ordinary smooth extension,
-   Levi-Civita reconstruction and Cartan/Bianchi identities preserve rather than select complete
-   configurations. Holonomy selection needs extra parallelism; PDE/boundary solvability needs the
-   missing parent law; rank-changing/stratified extension remains open. No route is automatically
-   authorized.
+4. `udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md` — the current
+   bounded derivation. Then read its `EXACT_DERIVATION.md`, transition/hypothesis/premise ledgers,
+   completeness map, verifier, fresh review and closure as needed. It releases every local
+   finite-`phi` metric first-jet direction and derives joint reciprocal/angular causal strata, but
+   it is not physical evolution and supplies no second-jet law or bootstrap return. Read
+   `udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md` as its immediate
+   smooth fixed-rank parent when extension/Cartan nonselection is load-bearing. No next route is
+   automatically authorized.
 5. `udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md` — the immediate parent. Read
    its architecture and exact evidence only when the partial completion-dependent join relation is
    load-bearing. It formalizes global/local mutual admissibility as a `WORKING POSIT` and derives a
@@ -155,6 +156,14 @@ can restrict only under extra parallelism; differential solvability requires the
 law; rank-changing/stratified extension remains open. Do not turn the posit, gluing, connection,
 identity, or solvability vocabulary into a scalar optimizer, local equation, complete return law,
 density selector, action, source, matter claim, or unique universe.
+
+`udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md` closes the
+specific frozen-first-jet concern on its preregistered local finite-`phi`, nondegenerate tile. All
+ten metric first-jet directions in all four derivative slots are active, and the complete inverse
+metric makes founded-depth causal type jointly dependent on reciprocal, screen-shear and mixing
+data. Its null/zero/rank transition atlas is configuration-space evidence only. Never turn an
+arbitrary first-jet path into physical time, a normalized-projector pole into a singular spacetime,
+or a finite-`phi` result into an `X_max`, action, source, boundary, matter or mass claim.
 
 The pre-P4
 higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded
