@@ -22,9 +22,9 @@ def require(condition: bool, message: str) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 27, "premise registry must contain exactly 27 rows")
+    require(len(rows) == 28, "premise registry must contain exactly 28 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 27, "duplicate premise id")
+    require(len(by_id) == 28, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -34,6 +34,7 @@ def main() -> None:
         == "DERIVED_DELTA_MAPS_TO_DIAG_EXP_MINUS_DELTA_EXP_PLUS_DELTA",
         "founded relational character action",
     )
+    require("physical complete-pair cocycle selection" in by_id["G02"]["open_scope"], "complete-pair target absent")
     require("general observer/event/path-to-depth law" in by_id["G01"]["open_scope"], "depth law promoted")
     require("universal pointwise physical scalar" in by_id["G01"]["forbidden_regression"], "pointwise owner guard absent")
     require(by_id["G03"]["active_use"] == "COMPARISON_ONLY_NOT_NATIVE", "independent phi promoted")
@@ -48,10 +49,11 @@ def main() -> None:
     require(by_id["G11"]["active_use"] == "NOT_SELECTED", "EH promoted")
     require(
         by_id["G12"]["current_status"]
-        == "WORKING_MUTUAL_ADMISSIBILITY_POSIT__PARTIAL_KINEMATIC_JOIN_DERIVED__SMOOTH_EXTENSION_CARTAN_NONSELECTION__FULL_FIRST_AND_SECOND_JET_CURVATURE_ATLASES_DERIVED__CONDITIONAL_LOCAL_SAME_SOLUTION_PHI_CURVATURE_COMPATIBILITY__GLOBAL_FACTORIZATION_GROUPOID_AND_OVERLAP_NONSELECTION_DERIVED__FOUNDING_RELATIONAL_CHARACTER_ON_SUPPLIED_DEPTH_DERIVED__POINTWISE_PHI_PRESENTATION_POTENTIAL_ON_SUPPLIED_FACTORIZATION__CONDITIONAL_STATIONARY_KILLING_DEPTH__TWO_OBSERVER_RELATIONAL_DEPTH_LAW_AND_COMPLETE_RETURN_OPEN",
+        == "WORKING_MUTUAL_ADMISSIBILITY_POSIT__PARTIAL_KINEMATIC_JOIN_DERIVED__SMOOTH_EXTENSION_CARTAN_NONSELECTION__FULL_FIRST_AND_SECOND_JET_CURVATURE_ATLASES_DERIVED__CONDITIONAL_LOCAL_SAME_SOLUTION_PHI_CURVATURE_COMPATIBILITY__GLOBAL_FACTORIZATION_GROUPOID_AND_OVERLAP_NONSELECTION_DERIVED__FOUNDING_RELATIONAL_CHARACTER_ON_SUPPLIED_DEPTH_DERIVED__POINTWISE_PHI_PRESENTATION_POTENTIAL_ON_SUPPLIED_FACTORIZATION__CONDITIONAL_STATIONARY_KILLING_DEPTH__COMPLETE_PAIR_ORCHESTRA_MODULATION_AND_GROUPOID_COCYCLE_HOME_DERIVED__PHYSICAL_COMPLETE_PAIR_COCYCLE_AND_COMPLETE_RETURN_OPEN",
         "bootstrap status regressed or promoted",
     )
     require(by_id["G12"]["active_use"] == "FALSIFIABLE_RELATIONAL_ARCHITECTURE_ONLY", "bootstrap use changed")
+    require("complete-arrow strain or spectral magnitude promoted" in by_id["G12"]["forbidden_regression"], "orchestra promotion guard absent")
     require(by_id["G13"]["active_use"] == "TORIC_GEOMETRY_ONLY", "Maxwell promoted")
     require(
         by_id["G14"]["current_status"] == "WORKING_FOUNDATIONAL_POSITIONAL_DILATION_ASYMPTOTE",
@@ -91,6 +93,21 @@ def main() -> None:
     require("Xmax" in by_id["G25"]["forbidden_regression"], "Xmax/boundary guard absent")
     require(by_id["G26"]["active_use"] == "NO_CARRIER_EMERGENCE_CLAIM", "angular carrier promoted")
     require(by_id["G27"]["active_use"] == "NO_ORDER_SELECTED", "action/closure order selected")
+    require(
+        by_id["G28"]["current_status"]
+        == "DERIVED_COMPLETE_ARROW_MODULATION_AND_GROUPOID_COCYCLE_HOME__UNIQUE_PHYSICAL_COCYCLE_OPEN",
+        "complete-pair orchestra status regressed or promoted",
+    )
+    require(by_id["G28"]["epistemic_label"] == "DERIVED", "complete-pair orchestra label changed")
+    require(by_id["G28"]["active_use"] == "ACTIVE_RELATIONAL_STRUCTURE", "complete-pair orchestra use changed")
+    require("metric-natural physical cocycle selection" in by_id["G28"]["open_scope"], "physical cocycle open scope absent")
+    require("angular sector held external" in by_id["G28"]["forbidden_regression"], "prior counterexample narrowing guard absent")
+    require("stationary screen-modulated family promoted" in by_id["G28"]["forbidden_regression"], "stationary premise guard absent")
+    require(
+        by_id["G28"]["controlling_source"]
+        == "udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md",
+        "complete-pair orchestra source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -102,7 +119,7 @@ def main() -> None:
             expected = {
                 "G01": "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
                 "G02": "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
-                "G12": "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+                "G12": "udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md",
                 "G14": "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
             }[guard]
             require(
@@ -136,6 +153,8 @@ def main() -> None:
         "on **supplied ordered depth**",
         "presentation potential",
         "universal physical scalar",
+        "complete-arrow strain",
+        "groupoid 1-cocycle",
         "CHOSE_COMPARISON_CONFIGURATION",
         "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
         "generic configuration-arena count",
@@ -174,7 +193,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 27 premise guards, relational-depth and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 28 premise guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

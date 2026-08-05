@@ -4,6 +4,19 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 5 complete-pair phi/orchestra precedence notice
+
+Before reusing older observer-pair, angular-distance, or pointwise-`phi` counterexamples, read
+`udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md`. The complete A-to-B comparison
+has a derived frame-covariant strain object; angular/screen/mixing structure can modulate one
+A-to-B relational depth inside the complete comparison; and exact reciprocal depth structurally
+belongs in a real observer/path groupoid 1-cocycle. The unique physical cocycle remains `OPEN`.
+
+This narrows the earlier equal-pointwise-`phi`, nonzero-angular-arc control: it refutes scalar
+subtraction with the angular sector held external, not a complete relational `phi_AB`. No action,
+source, carrier, boundary, bootstrap return, matter, mass, dynamics, signal law, or observation is
+derived by this correction.
+
 ## August 5 relational-phi dependency regrade precedence notice
 
 Before using this historical frontier, read

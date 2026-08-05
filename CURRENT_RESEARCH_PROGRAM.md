@@ -20,6 +20,10 @@ current scientific structure without reconstructing it from dozens of dated pack
 - The complete reciprocal/angular/mixing coframe is a coherent configuration architecture. It
   faithfully carries all metric directions modulo local Lorentz presentation gauge, but it does
   not select an on-shell universe or response law.
+- The complete A-to-B comparison now has a derived frame-covariant strain object. Angular/screen/
+  mixing structure can modulate one A-to-B relational depth inside the complete comparison, and
+  exact reciprocal depth belongs structurally in a real observer/path groupoid 1-cocycle. The
+  physical cocycle is not selected.
 - Global completion data genuinely change the local endpoint and jet fibers. This is a derived
   partial kinematic global/local correspondence, not the complete bootstrap return.
 - Observer Reciprocity supplies an equivariance/naturality gate on any future law. It does not
@@ -70,6 +74,9 @@ survivors may ultimately belong to different sectors.
 - Pointwise `phi` is a presentation potential on the supplied factorized architecture, not a
   universally owned independent scalar field. A physical scalar section may still occur on a
   selected branch.
+- The older equal-pointwise-`phi` / nonzero-angular-arc counterexample refutes only scalar
+  subtraction with the angular sector held external. It does not refute a relational `phi_AB` whose
+  definition already includes angular/mixing participation inside the complete pair comparison.
 - A coframe, projector, connection, curvature, holonomy, topology label or finite cell is structure
   of a supplied geometry—not automatically its equation, source, carrier, boundary or mass.
 - Co-presence means membership in one complete solution. It is not a theorem of instantaneous
@@ -119,19 +126,22 @@ This is a research priority, not adoption of a response law and not rejection of
 
 ## Next bounded investigation
 
-Test the conormal/response content of the **already-derived partial completion correspondence**.
-Without adding an action or desired matter behavior, determine whether its endpoint/joint
-constraints:
+Test whether the complete metric and registered UDT premises select a metric-natural real
+observer/path groupoid cocycle from the **complete comparison arrow**. Without adding an action,
+desired matter behavior, carrier, density target, observation fit, or spectral norm choice,
+determine whether the physical pair-depth law:
 
-1. possess a nonzero observer-natural conormal response;
-2. depend nontrivially on both global completion data and local complete-coframe data;
-3. lift beyond boundary/joint bookkeeping to any interior response channel;
-4. pull back consistently to any existing conditional F01/F02 wall or seam response; and
-5. remain nonidentity after same-solution closure.
+1. is fixed by complete-arrow strain/conjugacy data or by a stricter reciprocal cocycle condition;
+2. keeps angular/mixing participation inside one A-to-B comparison rather than outside it;
+3. handles nonzero loop periods, path labels, and endpoint descent without hidden path erasure;
+4. continues or fails cleanly across causal/strain degeneracies; and
+5. satisfies the `c_E` calibration and `X_max` asymptotic gates.
 
-Failure would sharply limit the current response-first foothold to boundary kinematics. Success
-would still be only a partial response, not a complete native law, source, action or mass theorem.
-The investigation is proposed, not launched by the present audit.
+Failure would preserve the current nonselection result and route the program back to the
+law-order conormal/response-content test as a downstream bounded probe. Success would still be only
+the pair-depth law, not a complete native action, source, carrier, boundary, bootstrap return, matter,
+mass, dynamics, signal law or observational prediction. The investigation is proposed, not launched
+by the present audit.
 
 No density scan, long symbolic elimination, ODE/PDE solve, GPU work, carrier adoption, action
 selection, canonization or repository reorganization is authorized by this program statement.
@@ -146,5 +156,6 @@ Read in this order:
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`;
 5. `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv` when mass,
    stability, branch, or response work is relevant;
-6. `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`;
-7. the exact parent evidence routed by those controls only when load-bearing.
+6. `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md`;
+7. `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`;
+8. the exact parent evidence routed by those controls only when load-bearing.

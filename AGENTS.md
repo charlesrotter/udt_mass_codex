@@ -29,7 +29,8 @@ do not dump whole long files or recursively open cited evidence during orientati
 3. `CURRENT_RESEARCH_PROGRAM.md` — the active dependency spine and bounded next question.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
-5. The one current bounded audit and exact evidence named by the research program, only to the depth
+5. `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md` for current observer-pair,
+   `phi`, angular-orchestra and physical-cocycle orientation; then exact evidence only to the depth
    required by the user's task.
 6. When mass emergence, stability, branch response, or particle history is relevant, read
    `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv` first. It is the
@@ -46,7 +47,10 @@ because historical verifiers depend on it.
 
 **Compact semantic regression guard:** the founding character acts on **supplied ordered depth**;
 pointwise `phi` is a presentation potential on the supplied factorization, not a claimed universal
-physical scalar. `CHOSE_COMPARISON_CONFIGURATION` remains comparison-only;
+physical scalar. The complete-arrow strain and angular/mixing modulation result is derived
+structural evidence, and exact reciprocal depth belongs in a real observer/path groupoid
+1-cocycle; neither selects the unique physical cocycle. `CHOSE_COMPARISON_CONFIGURATION` remains
+comparison-only;
 `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` keeps strong local CSN inactive. The generic metric count is
 a generic configuration-arena count. `X_max` is a `WORKING_FOUNDATIONAL_FRAME` for the
 positional-dilation asymptote, not a material wall, preferred center, radial edge, or finite-cell
@@ -96,6 +100,12 @@ Do not rely on conversational memory. Disk evidence wins.
   the supplied factorized architecture and may become physical only on a separately selected
   endpoint-exact branch. Never demote the character to a placeholder or promote pointwise `phi` to
   a universal physical scalar or extra native field.
+- The complete A-to-B comparison has a derived frame-covariant strain object. Angular/screen/mixing
+  structure can modulate one A-to-B relational depth inside the complete comparison, and exact
+  reciprocal depth structurally belongs in a real observer/path groupoid 1-cocycle. The metric has
+  not selected the unique physical cocycle. Never treat the older equal-pointwise-`phi` angular
+  counterexample as refuting a complete relational `phi_AB`, and never promote strain, a spectral
+  norm, or the conditional stationary screen-modulated family to the physical law.
 - `X_max` is the `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair
   positional-dilation asymptote. Its exact separation/depth law, approach profile, all-frame theorem,
   value, WR-L/global join, angular/bootstrap modulation, and boundary completion remain `OPEN`.

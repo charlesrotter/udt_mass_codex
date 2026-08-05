@@ -141,5 +141,16 @@ nonnegative magnitude. Do not turn the presentation potential into an undefined 
 promote the stationary reduction, identify signed depth with nonnegative separation, or claim that
 the working bootstrap relation already returns this law.
 
+The August 5 complete-pair phi/orchestra audit,
+`udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md`, narrows that open object further.
+The complete A-to-B comparison has a derived frame-covariant strain object, and an exact witness
+shows angular/screen/mixing structure can modulate one A-to-B relational depth inside the complete
+comparison. Exact reciprocal depth belongs structurally in a real observer/path groupoid 1-cocycle.
+The older equal-pointwise-`phi`, nonzero-angular-arc counterexample therefore refutes only scalar
+subtraction with the angular sector held external. It does not refute complete relational `phi_AB`.
+The metric still has not selected the unique physical cocycle; complete-arrow strain, spectral
+magnitudes, and the conditional stationary screen-modulated family remain nonunique or premise
+conditional.
+
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

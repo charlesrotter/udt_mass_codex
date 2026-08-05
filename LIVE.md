@@ -4,7 +4,7 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-05).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
-## ============ CURRENT STATE (2026-08-05 — FOUNDING OBJECT IS RELATIONAL; GENERAL TWO-OBSERVER DEPTH LAW OPEN) ============
+## ============ CURRENT STATE (2026-08-05 — COMPLETE-PAIR COCYCLE HOME DERIVED; PHYSICAL LAW OPEN) ============
 **ACTIVE SCIENTIFIC SPINE:** `CURRENT_RESEARCH_PROGRAM.md` is now the concise current dependency
 map. It does not replace this file or `CANON.md`; it centralizes the banked foundation, conditional
 F01/F02/F04 witnesses, retired shortcuts, open joints and next bounded work for context-safe resume.
@@ -46,9 +46,19 @@ separation/depth realization, exact approach law, all-frame theorem, numerical v
 join, angular/bootstrap modulation, and boundary consequence remain `OPEN`. Controlling overlay:
 `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`.
 
+**COMPLETE-PAIR PHI/ORCHESTRA RESULT:** read
+`udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md` before reusing older
+observer-pair, angular-distance, or pointwise-`phi` counterexamples. The complete A-to-B comparison
+has a derived frame-covariant strain object. On the regular Lorentzian stratum, its uniquely
+timelike stretch recovers the founded reciprocal depth on the pure reciprocal subgroup. An exact
+lower-mixing witness shows that angular/screen/mixing structure can modulate one A-to-B relational
+depth inside the complete comparison; the angular sector need not be appended afterward as a
+separate scalar-distance correction. Exact reciprocal depth is structurally a real observer/path
+groupoid 1-cocycle. The metric has not selected the unique physical cocycle.
+
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_RESEARCH_PROGRAM.md` →
-`CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` → the law-order architecture audit above →
-the Xmax frame correction above → the dependency regrade above →
+`CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` → the complete-pair phi/orchestra audit above →
+the law-order architecture audit above → the Xmax frame correction above → the dependency regrade above →
 `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md` → its direct founding-source
 ledger, exact derivation, ten-route census, two implementations, witnesses, verifier, fresh review,
 stationary-sign repair and accepted repair replay → the global-overlap, observer-comparison,
@@ -65,6 +75,12 @@ relational character
 They do not also derive the map from complete observer/event/path data to the numerical `delta`.
 The sign and unit of `phi` are explicitly `CHOSE` coordinates on this one-dimensional comparison
 group; the realized profile and physical assignment remain open.
+
+The complete-pair audit adds the current structural home for that missing assignment: the physical
+law, if metric-native and exactly reciprocal, must choose a real observer/path groupoid cocycle or
+an equally compositional complete-comparison readout. Complete-arrow strain and spectral data are
+available invariant structures, and angular/mixing data can enter a single pair comparison before
+distance is read out, but the available exact readouts are nonunique.
 
 The missing physical realization is not unconstrained: its nonnegative observer-pair separation
 must approach the shared positional limit `X_max` only as the magnitude of ordered comparison depth,
@@ -89,21 +105,23 @@ the signed reversal-odd depth remain different objects whose join is open.
 
 **WHAT CLOSED / WHAT DID NOT:** the false demand for one universally owned pointwise `phi` is
 removed. The foundation owns a relational character, and a global `phi` is needed only when the
-physical relation happens to be endpoint-exact. The actual two-observer relational depth law is
-still `OPEN`; no formula assigning it, no universal path semantics and no nonnegative-magnitude /
-signed-orientation join were derived. F01/F02 remain conditional geometry-only mass-bearing routes;
-F04 remains the carrier/action-conditional finite-box Hopf result; the bootstrap posit still lacks
-its complete return.
+physical relation happens to be endpoint-exact. The older equal-pointwise-`phi` / nonzero-angular
+counterexample now refutes only scalar subtraction with the angular sector held external. It does
+not refute a complete relational `phi_AB` whose definition already carries angular/mixing
+modulation. The actual physical complete-pair cocycle is still `OPEN`; no formula assigning it, no
+universal path semantics and no nonnegative-magnitude / signed-orientation join were derived.
+F01/F02 remain conditional geometry-only mass-bearing routes; F04 remains the
+carrier/action-conditional finite-box Hopf result; the bootstrap posit still lacks its complete
+return.
 
-**NEXT BOUNDED INVESTIGATION — NOT LAUNCHED AUTOMATICALLY:** test the conormal/response content of
-the already-derived partial completion correspondence. Determine whether its endpoint/joint
-constraints carry a nonzero observer-natural response depending on both global and local data,
-whether any component lifts beyond boundary bookkeeping into the complete-coframe interior, whether
-F01/F02 wall/seam rows are compatible pullbacks, and whether the relation remains nonidentity after
-same-solution readout closure. No action or desired matter behavior may be inserted. The separate
-general observer-pair depth law remains open and every later realization must satisfy the `X_max`
-asymptotic gate, preserve observer re-centering and local physics, retain load-bearing angular/path
-data, and keep local WR-L `X` distinct from global `X_max`.
+**NEXT BOUNDED INVESTIGATION — NOT LAUNCHED AUTOMATICALLY:** test whether the complete metric and
+registered UDT premises select a metric-natural real observer/path groupoid cocycle from the
+complete comparison arrow, including angular/mixing participation, loop-period obstruction,
+degeneracy crossing, `c_E` calibration and the `X_max` asymptotic gate. Do not insert an action,
+desired matter behavior, carrier, density target, observation fit, or spectral norm choice. The
+conormal/response-content test from the law-order audit remains the next downstream route only after
+the physical pair-depth/cocycle target is either selected, narrowed, or explicitly shown to remain
+nonselecting under the current premises.
 
 Do not wholesale rerun the old corpus. Re-derive an older pointwise-field/action result only if it
 is proposed for renewed native use; the current regrade found zero presently load-bearing algebra
@@ -114,6 +132,9 @@ rows requiring immediate rederivation.
 admissibility `WORKING_POSIT`; law-order `NOT_DERIVED`; response-first
 `WORKING_PRIORITY_FOR_BOUNDED_TEST`; action-first `ADMISSIBLE_CONDITIONAL`; relational character on
 supplied depth `DERIVED_WITH_FOUNDING_STAMPS`;
+complete-arrow strain invariance and angular/mixing modulation `DERIVED_STRUCTURAL`; reciprocal
+depth mathematical home as real groupoid cocycle `DERIVED_STRUCTURAL_TYPE`;
+physical complete-pair cocycle selection `OPEN`;
 pointwise `phi` as potential on the supplied factorization `DERIVED_PRESENTATION_STATUS`; stationary
 Killing depth `CONDITIONAL_BRANCH_LOCAL`; general observer-pair depth law, magnitude/orientation
 join, complete return, action, source, boundary, numerical `X_max`, unconditional matter/mass and
@@ -134,7 +155,11 @@ recorded in the audit package. The `X_max` status/workflow correction was prereg
 replay passes. The new external-review payload was not transmitted because its exact disclosure was
 not authorized; this is recorded as an absent fresh-context gate, not a review result. The law-order
 audit was preregistered at `c2aa6de2`; its local source/hash/semantic gates and exercised mutation
-catches pass, while fresh external semantic review remains an absent gate.
+catches pass, while fresh external semantic review remains an absent gate. The complete-pair
+phi/orchestra audit was preregistered at `b4694b40`, repaired under `a7e05bdb`, banked at
+`cdde9adc` and verifier-normalized at `3f258702`; primary SymPy `32/32`, independent
+standard-library rational `44/44`, verifier `PASS`, 8/8 catch-proofs caught, and fresh GPT-5.4
+review returned `ACCEPTED_WITH_REPAIRS`.
 
 <!-- STARTUP_CURRENT_END -->
 

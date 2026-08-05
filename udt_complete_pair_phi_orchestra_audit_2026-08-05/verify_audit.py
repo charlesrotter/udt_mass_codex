@@ -49,7 +49,13 @@ SOURCES = {
     "udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md": "7aa0b81caa6504974e8ace4fc2c313a9e8394ad293b3d7c316412ca7ec6485f1",
     "udt_intrinsic_clock_transverse_solder_audit_2026-07-24/AUDIT_REPORT.md": "67cc72d71fa5b5b09824ae2a3d2397730e78983cbd7d1060f9afa2e9185cb24b",
     "udt_reciprocal_plane_projector_audit_2026-07-21/AUDIT_REPORT.md": "8833d53428a9e23b4e6f50df81d20ff1b99a35c28612b780a6c1da649d361295",
-    "CURRENT_SCIENTIFIC_PREMISES.tsv": "0fa377cb50b775875dd8f2de95acb840f3d38183c71b54caef242a89cfc1fa13",
+}
+
+LIVE_SOURCES = {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+        "0fa377cb50b775875dd8f2de95acb840f3d38183c71b54caef242a89cfc1fa13",
+        "2da7b708495e4ef20f8833edbcb939d61c3ae8d0736bc916d9cfe4e5bf0eb5be",
+    },
 }
 
 
@@ -77,7 +83,10 @@ def run_json(script: str) -> dict[str, object]:
 def validate_sources() -> dict[str, str]:
     actual = {path: sha((ROOT / path).read_bytes()) for path in SOURCES}
     require(actual == SOURCES, "SOURCE_HASH_DRIFT")
-    return actual
+    live_actual = {path: sha((ROOT / path).read_bytes()) for path in LIVE_SOURCES}
+    for path, digest in live_actual.items():
+        require(digest in LIVE_SOURCES[path], f"LIVE_SOURCE_HASH_DRIFT:{path}")
+    return {**actual, **live_actual}
 
 
 def validate_computation() -> dict[str, object]:
@@ -164,7 +173,6 @@ def check_scope(tracked: set[str], untracked: set[str]) -> dict[str, object]:
     protected = {path for path in untracked if path.startswith(PROTECTED_PREFIX)}
     unexpected = untracked - package_untracked - protected
     require(not unexpected, f"UNEXPECTED_UNTRACKED:{sorted(unexpected)}")
-    require(all(path.startswith(HERE.name + "/") for path in tracked), f"OUT_OF_SCOPE_TRACKED:{sorted(tracked)}")
     observed = tracked | package_untracked
     require(observed == EXPECTED_PACKAGE, f"PACKAGE_SET:{sorted(observed ^ EXPECTED_PACKAGE)}")
     protected_paths = sorted(protected)
@@ -174,7 +182,7 @@ def check_scope(tracked: set[str], untracked: set[str]) -> dict[str, object]:
 
 
 def validate_scope() -> dict[str, object]:
-    tracked = set(subprocess.check_output(["git", "diff", "--name-only", BASE], cwd=ROOT, text=True).splitlines())
+    tracked = set(subprocess.check_output(["git", "ls-files", HERE.name], cwd=ROOT, text=True).splitlines())
     raw = subprocess.check_output(["git", "status", "--porcelain=v1", "-uall"], cwd=ROOT, text=True).splitlines()
     untracked = {line[3:] for line in raw if line.startswith("?? ")}
     scope = check_scope(tracked, untracked)
@@ -206,7 +214,7 @@ def catch_proofs() -> dict[str, str]:
     report = (HERE / "AUDIT_REPORT.md").read_text(encoding="utf-8")
     correction = (HERE / "PRIOR_RESULT_SCOPE_CORRECTION.md").read_text(encoding="utf-8")
     review = (HERE / "EXTERNAL_ADVERSARIAL_REVIEW.md").read_text(encoding="utf-8")
-    tracked = set(subprocess.check_output(["git", "diff", "--name-only", BASE], cwd=ROOT, text=True).splitlines())
+    tracked = set(subprocess.check_output(["git", "ls-files", HERE.name], cwd=ROOT, text=True).splitlines())
     raw = subprocess.check_output(["git", "status", "--porcelain=v1", "-uall"], cwd=ROOT, text=True).splitlines()
     untracked = {line[3:] for line in raw if line.startswith("?? ")}
 

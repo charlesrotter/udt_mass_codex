@@ -6,8 +6,13 @@ record. Root `LIVE.md` wins every status disagreement.
 ## Current route
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
-`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The current bounded result is
-`udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`: law/variation ownership,
+`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The current complete-pair
+orientation result is `../udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md`:
+angular/mixing can modulate one A-to-B depth inside the complete comparison, exact reciprocal depth
+has a groupoid-cocycle home, and the physical cocycle remains open.
+
+The current law-order parent remains
+`../udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`: law/variation ownership,
 admitted complete solutions, source/mass roles, and bootstrap's missing return form one ordered
 closure chain. Response-first is a working test priority, not a derived law; action-first remains
 conditional and admissible.

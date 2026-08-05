@@ -11,7 +11,9 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. only the current audit and exact evidence those controls make load-bearing.
+5. `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md` for current
+   observer-pair/`phi`/angular-orchestra orientation;
+6. only the remaining current audits and exact evidence those controls make load-bearing.
 
 Then apply the targeted method sections in `CLAUDE.md` and the task-triggered protocol under
 `.claude/skills/`. Use `INDEX.md` and `MEMORY.md` only as compact pointer checks. `AGENTS.md` supplies
@@ -20,6 +22,9 @@ operational instructions but cannot overrule `LIVE.md`.
 ## Navigation
 
 - `CURRENT_RESEARCH_PROGRAM.md` — current scientific dependency spine and bounded next work.
+- `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md` — current complete-pair
+  phi/orchestra result: angular/mixing can modulate one A-to-B depth, exact depth has a groupoid
+  cocycle home, and the unique physical cocycle remains open.
 - `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md` — current bounded law-order
   result routed by that program.
 - `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md` — controlling
