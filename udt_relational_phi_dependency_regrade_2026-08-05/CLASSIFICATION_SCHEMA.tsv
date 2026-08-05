@@ -1,0 +1,11 @@
+disposition	meaning	required_action
+UNCHANGED_NO_OWNERSHIP_DEPENDENCY	result uses complete geometry or relational invariants and does not depend on pointwise-phi ownership	retain conclusion and premise stamps
+UNCHANGED_NEGATIVE_NOW_EXPLANATORY	nonselection result remains mathematically valid and now supports the relational typing	retain result; update only current interpretation pointers
+CONDITIONAL_REINTERPRETATION_ONLY	algebra remains valid for supplied phi/depth but prior physical reading or wording must be conditionalized	add current overlay or edit active source-of-truth; no rerun unless algebra also depended on ownership
+CONCLUSION_REGRADE_REQUIRED	stored mathematics survives but the stated epistemic label or conclusion exceeds it	correct active source-of-truth and downstream controls
+REDERIVATION_REQUIRED	load-bearing mathematics assumes independent/universal physical phi ownership or universal endpoint exactness	rederive under relational query typing before reuse
+OPEN_DEPENDENCY_ALREADY_STAMPED	artifact already states the ownership/profile/join as open or supplied	retain with no scientific change
+HISTORICAL_SUPERSEDED_NO_ACTION	historical or pre-July record may expose the error but has no affirmative authority	preserve unchanged; point to current overlay only
+FROZEN_EVIDENCE_IMMUTABLE	frozen or manifest-bound evidence cannot be edited	preserve bytes; record overlay disposition
+CONTROL_UPDATE_REQUIRED	current navigation or premise control points to superseded framing	update after adjudication only
+NO_RELEVANT_SEMANTIC_DEPENDENCY	broad token match is incidental to the ownership question	no action

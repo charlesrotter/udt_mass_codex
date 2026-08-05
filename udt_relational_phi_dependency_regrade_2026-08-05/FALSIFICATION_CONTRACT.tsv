@@ -1,0 +1,18 @@
+gate_id	requirement	failure_action
+F01	full broad-token exposure census is deterministic and one-row-per-path	stop
+F02	active universe is an exact subset plus registered control/source exceptions	stop
+F03	every active candidate receives exactly one frozen disposition	stop
+F04	frozen and historical sources remain byte-identical	stop
+F05	conditional supplied-phi calculations are not discarded solely for conditionality	reject overbroad regrade
+F06	rederivation is required only for load-bearing mathematical ownership dependence	reject overbroad regrade
+F07	all pointwise/global/universal phi promotions are surfaced	stop
+F08	all independent-variation native-DOF promotions are surfaced	stop
+F09	all endpoint-difference and signed-versus-magnitude uses are typed	stop
+F10	stationary Killing sign agrees with delta_K=log(Np/Nq)	stop
+F11	premise-changed negatives lose blocking authority until regraded	stop
+F12	no new action source carrier mass density Xmax signalling or dynamics claim appears	stop
+F13	all load-bearing changed conclusions have exact source locators	stop
+F14	independent implementation reproduces counts and affected identity hash	stop
+F15	mutation catches reject missing duplicate unreviewed promoted and sign-regressed rows	stop
+F16	fresh zero-context adversary reviews the semantic dependencies	bank VERIFIED_WITH_CAVEATS at most
+F17	repository tests frozen manifests links current paths frontier and unrelated metadata pass	stop
