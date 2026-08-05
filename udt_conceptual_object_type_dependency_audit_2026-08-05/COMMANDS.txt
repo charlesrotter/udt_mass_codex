@@ -1,0 +1,11 @@
+git checkout grok
+git fetch origin
+git pull --ff-only origin grok
+git status --short --branch
+git log -8 --oneline
+git grep -I -n -E 'Common-Scale Neutrality|strong local CSN|strong_local_CSN|\bCSN\b'
+python3 -m py_compile verify_current_scientific_premises.py udt_conceptual_object_type_dependency_audit_2026-08-05/verify_object_type_audit.py udt_conceptual_object_type_dependency_audit_2026-08-05/verify_repository_gates.py
+python3 verify_current_scientific_premises.py
+python3 udt_conceptual_object_type_dependency_audit_2026-08-05/verify_object_type_audit.py
+python3 udt_conceptual_object_type_dependency_audit_2026-08-05/verify_repository_gates.py
+python3 -m pytest -q tests

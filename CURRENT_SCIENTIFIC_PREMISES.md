@@ -33,6 +33,22 @@ for a stated counterfactual branch. Algebraic cancellation of a common factor is
 gauge theorem. The calibrated physical-metric reading retains measured `c_E` and `G_obs` as
 observational anchors.
 
+The August 5 conceptual object-type audit,
+`udt_conceptual_object_type_dependency_audit_2026-08-05/AUDIT_REPORT.md`, consolidates the next
+regression layer. The chronology corroborates—but does not contain a direct owner quote proving—the
+owner recollection that CSN was accepted after it closed the early conditional conformal-action
+sieve. That sieve's algebra remains conditional historical evidence; its physical selector role is
+inactive. Einsteinian `c_E` is an observed dimensional clock-length anchor explicitly present in the
+founding metric, so the active physical-metric reading is not scale-free. This does not make `c_E`
+an absolute length or determine `X_max`.
+
+The same audit separates the complete coframe from an on-shell solution; angular/screen geometry
+from the `S^2` carrier; finite domain, seam identification, and variational boundary; co-presence
+from causal access and signalling; source from substance; and mass-like readings from physical mass.
+Variation ownership is a structural part of a candidate native law rather than a hidden field that
+kinematics must select independently. Whether an action is upstream of bootstrap or a downstream
+integrable generator of a native global/local response remains `OPEN`.
+
 The remaining rows guard other easy-to-promote terms: the `S^2` carrier is a `POSIT`; the
 `C^2`/Bach route is unique only conditionally on the pre-scale strong-CSN premise; EH is conditional
 and unselected; bootstrap is a working on-shell admissibility hypothesis, not a local equation;

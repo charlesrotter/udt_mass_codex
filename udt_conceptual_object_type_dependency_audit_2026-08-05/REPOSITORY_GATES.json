@@ -1,0 +1,16 @@
+{
+  "canon_unchanged_from_base": true,
+  "checked_links": 133,
+  "current_paths": 1114,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "object_type_mutation_catches": 16,
+  "premise_guards": 27,
+  "schema": "udt.conceptual_object_type_dependency.repository_gates.v1",
+  "status": "PASS",
+  "tests": "70 passed, 1 xfailed",
+  "unrelated_untracked_metadata_rows": 83
+}

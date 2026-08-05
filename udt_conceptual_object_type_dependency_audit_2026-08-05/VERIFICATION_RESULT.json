@@ -1,0 +1,32 @@
+{
+  "caught_mutations": [
+    "strong_CSN_reactivated",
+    "c_anchor_dropped",
+    "c_promoted_to_absolute_length",
+    "Xmax_boundary_guard_deleted",
+    "phi_field_guard_deleted",
+    "coframe_promoted_on_shell",
+    "S2_carrier_promoted",
+    "bootstrap_optimizer_inserted",
+    "action_promoted",
+    "variation_promoted",
+    "source_promoted",
+    "mass_promoted",
+    "copresence_signal_guard_deleted",
+    "C2_reactivated",
+    "historical_validation_reactivated",
+    "action_order_selected"
+  ],
+  "authorized_mutation_rows": 3,
+  "csn_chain_rows": 11,
+  "current_premise_rows": 27,
+  "dependency_rows": 16,
+  "external_semantic_review": "NOT_RUN_NOT_AUTHORIZED_FOR_THIS_PAYLOAD",
+  "grade_ceiling": "VERIFIED_WITH_CAVEATS",
+  "mutation_catches": 16,
+  "object_rows": 30,
+  "primary_types": 11,
+  "schema": "udt.conceptual_object_type_dependency_audit.v1",
+  "source_rows": 28,
+  "status": "PASS"
+}

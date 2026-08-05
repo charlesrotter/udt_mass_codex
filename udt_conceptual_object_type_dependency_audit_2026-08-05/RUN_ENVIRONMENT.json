@@ -1,0 +1,8 @@
+{
+  "cpu_only": true,
+  "git": "2.34.1",
+  "kernel": "Linux 6.8.0-124-generic x86_64 GNU/Linux",
+  "pytest": "9.1.1",
+  "python": "3.10.12",
+  "sympy_used": false
+}
