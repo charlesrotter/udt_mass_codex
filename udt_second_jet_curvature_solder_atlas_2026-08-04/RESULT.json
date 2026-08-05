@@ -1,0 +1,657 @@
+{
+  "Riemann_identities": {
+    "algebraic_Bianchi_exact": true,
+    "bivector_symmetric_entries": 21,
+    "pair_antisymmetries_exact": true,
+    "pair_exchange_exact": true,
+    "primitive_relation": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "relation_dimension_among_21_entries": 1,
+    "relation_nonzero_entries": [
+      {
+        "bivectors": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "coefficient": 1,
+        "slot": [
+          0,
+          5
+        ]
+      },
+      {
+        "bivectors": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "coefficient": -1,
+        "slot": [
+          1,
+          4
+        ]
+      },
+      {
+        "bivectors": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "coefficient": 1,
+        "slot": [
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  "bivector_blocks": {
+    "all_six_block_classes_nonzero": true,
+    "bivector_order": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "joint_rank": 20,
+    "joint_relation_count": 1,
+    "rows": [
+      {
+        "all_entries_individually_nonzero_available": true,
+        "block": "base_base",
+        "displayed_entries": 1,
+        "projection_rank": 1
+      },
+      {
+        "all_entries_individually_nonzero_available": true,
+        "block": "mixed_mixed",
+        "displayed_entries": 10,
+        "projection_rank": 10
+      },
+      {
+        "all_entries_individually_nonzero_available": true,
+        "block": "screen_screen",
+        "displayed_entries": 1,
+        "projection_rank": 1
+      },
+      {
+        "all_entries_individually_nonzero_available": true,
+        "block": "base_mixed",
+        "displayed_entries": 4,
+        "projection_rank": 4
+      },
+      {
+        "all_entries_individually_nonzero_available": true,
+        "block": "mixed_screen",
+        "displayed_entries": 4,
+        "projection_rank": 4
+      },
+      {
+        "all_entries_individually_nonzero_available": true,
+        "block": "base_screen",
+        "displayed_entries": 1,
+        "projection_rank": 1
+      }
+    ],
+    "sum_displayed_entries": 21
+  },
+  "configuration_path_is_physical_time": false,
+  "curvature_convention": "R_abcd=1/2(g_ad,bc+g_bc,ad-g_ac,bd-g_bd,ac)",
+  "depth_strata": {
+    "constant_rank_normalized_screen_across_all_strata": false,
+    "nonnull_N_rank_three": true,
+    "null_N_rank_one_nilpotent": true,
+    "rows": [
+      {
+        "N": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            -1
+          ]
+        ],
+        "N_nilpotent_nonzero": false,
+        "N_rank": 3,
+        "N_squared_equals_s_times_N": true,
+        "null_quotient_representative_independence": null,
+        "p_covector": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "p_sharp": [
+          -1,
+          0,
+          0,
+          0
+        ],
+        "quotient_dimension": 3,
+        "s_phi": -1,
+        "stratum": "timelike",
+        "tidal_annihilates_p_sharp": true,
+        "tidal_image_rank": 6,
+        "tidal_symmetric_components": 6
+      },
+      {
+        "N": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "N_nilpotent_nonzero": false,
+        "N_rank": 3,
+        "N_squared_equals_s_times_N": true,
+        "null_quotient_representative_independence": null,
+        "p_covector": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "p_sharp": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "quotient_dimension": 3,
+        "s_phi": 1,
+        "stratum": "spacelike",
+        "tidal_annihilates_p_sharp": true,
+        "tidal_image_rank": 6,
+        "tidal_symmetric_components": 6
+      },
+      {
+        "N": [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "N_nilpotent_nonzero": true,
+        "N_rank": 1,
+        "N_squared_equals_s_times_N": true,
+        "null_quotient_representative_independence": true,
+        "p_covector": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "p_sharp": [
+          -1,
+          1,
+          0,
+          0
+        ],
+        "quotient_dimension": 2,
+        "s_phi": 0,
+        "stratum": "nonzero_null",
+        "tidal_annihilates_p_sharp": true,
+        "tidal_image_rank": 3,
+        "tidal_symmetric_components": 3
+      },
+      {
+        "N": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "N_nilpotent_nonzero": false,
+        "N_rank": 0,
+        "N_squared_equals_s_times_N": true,
+        "null_quotient_representative_independence": null,
+        "p_covector": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "p_sharp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "quotient_dimension": 0,
+        "s_phi": 0,
+        "stratum": "zero",
+        "tidal_annihilates_p_sharp": true,
+        "tidal_image_rank": 0,
+        "tidal_symmetric_components": 0
+      }
+    ],
+    "zero_N_and_tidal": true
+  },
+  "native_bootstrap_return_derived": false,
+  "outcome": "DERIVED_COMPLETE_SECOND_JET_CURVATURE_SURJECTION__DERIVED_SINGLE_BIANCHI_RECIPROCAL_ANGULAR_BLOCK_RELATION__DERIVED_CAUSAL_STRATUM_TIDAL_QUOTIENTS__NO_UNIQUE_CURVATURE_SOLDER_OR_KINEMATIC_EVOLUTION_RETURN",
+  "physical_evolution_operator_derived": false,
+  "rank_and_asymptotic_boundary": {
+    "Levi_Civita_curvature_defined_only_at_coframe_rank_four": true,
+    "Xmax_derived": false,
+    "finite_phi_pair_determinant": -1,
+    "finite_phi_rank_loss": false,
+    "generalized_inverse_or_curvature_continuation_derived": false,
+    "phi_asymptotes_are_limit_only": true
+  },
+  "same_solution_source_dphi_join_derived": false,
+  "schema": "udt.second_jet_curvature_solder.v1",
+  "second_jet_maps": {
+    "all_ten_Hessian_slots_released": true,
+    "coframe_second_jet_components": 160,
+    "coframe_to_Riemann_nullity": 140,
+    "coframe_to_Riemann_rank": 20,
+    "coframe_to_metric_nullity": 60,
+    "coframe_to_metric_rank": 100,
+    "extra_kinematic_curvature_constraint_count": 0,
+    "metric_second_jet_components": 100,
+    "metric_to_Riemann_nullity": 80,
+    "metric_to_Riemann_rank": 20,
+    "space_space_slots": 6,
+    "time_space_slots": 3,
+    "time_time_slots": 1
+  },
+  "source_ensembles": {
+    "all_nonempty_category_unions": [
+      {
+        "categories": [
+          "founded"
+        ],
+        "image_rank": 8
+      },
+      {
+        "categories": [
+          "other_base"
+        ],
+        "image_rank": 11
+      },
+      {
+        "categories": [
+          "screen"
+        ],
+        "image_rank": 14
+      },
+      {
+        "categories": [
+          "mixing"
+        ],
+        "image_rank": 18
+      },
+      {
+        "categories": [
+          "founded",
+          "other_base"
+        ],
+        "image_rank": 14
+      },
+      {
+        "categories": [
+          "founded",
+          "screen"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "founded",
+          "mixing"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "other_base",
+          "screen"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "other_base",
+          "mixing"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "screen",
+          "mixing"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "founded",
+          "other_base",
+          "screen"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "founded",
+          "other_base",
+          "mixing"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "founded",
+          "screen",
+          "mixing"
+        ],
+        "image_rank": 20
+      },
+      {
+        "categories": [
+          "other_base",
+          "screen",
+          "mixing"
+        ],
+        "image_rank": 20
+      },
+      {
+        "categories": [
+          "founded",
+          "other_base",
+          "screen",
+          "mixing"
+        ],
+        "image_rank": 20
+      }
+    ],
+    "category_rows": [
+      {
+        "block_projection_ranks": {
+          "base_base": 1,
+          "base_mixed": 4,
+          "base_screen": 0,
+          "mixed_mixed": 3,
+          "mixed_screen": 0,
+          "screen_screen": 0
+        },
+        "category": "founded",
+        "generator_count": 1,
+        "image_rank": 8
+      },
+      {
+        "block_projection_ranks": {
+          "base_base": 1,
+          "base_mixed": 4,
+          "base_screen": 0,
+          "mixed_mixed": 6,
+          "mixed_screen": 0,
+          "screen_screen": 0
+        },
+        "category": "other_base",
+        "generator_count": 2,
+        "image_rank": 11
+      },
+      {
+        "block_projection_ranks": {
+          "base_base": 0,
+          "base_mixed": 0,
+          "base_screen": 0,
+          "mixed_mixed": 9,
+          "mixed_screen": 4,
+          "screen_screen": 1
+        },
+        "category": "screen",
+        "generator_count": 3,
+        "image_rank": 14
+      },
+      {
+        "block_projection_ranks": {
+          "base_base": 0,
+          "base_mixed": 4,
+          "base_screen": 1,
+          "mixed_mixed": 10,
+          "mixed_screen": 4,
+          "screen_screen": 0
+        },
+        "category": "mixing",
+        "generator_count": 4,
+        "image_rank": 18
+      }
+    ],
+    "complete_union_rank": 20,
+    "generator_rows": [
+      {
+        "category": "founded",
+        "generator": "founded_reciprocal_H",
+        "image_rank": 8
+      },
+      {
+        "category": "other_base",
+        "generator": "base_common_scale",
+        "image_rank": 8
+      },
+      {
+        "category": "other_base",
+        "generator": "base_offdiagonal",
+        "image_rank": 8
+      },
+      {
+        "category": "screen",
+        "generator": "screen_area",
+        "image_rank": 8
+      },
+      {
+        "category": "screen",
+        "generator": "screen_diagonal_shear",
+        "image_rank": 8
+      },
+      {
+        "category": "screen",
+        "generator": "screen_offdiagonal_shear",
+        "image_rank": 8
+      },
+      {
+        "category": "mixing",
+        "generator": "mixing_02",
+        "image_rank": 8
+      },
+      {
+        "category": "mixing",
+        "generator": "mixing_03",
+        "image_rank": 8
+      },
+      {
+        "category": "mixing",
+        "generator": "mixing_12",
+        "image_rank": 8
+      },
+      {
+        "category": "mixing",
+        "generator": "mixing_13",
+        "image_rank": 8
+      }
+    ],
+    "minimal_full_category_sets": [
+      [
+        "founded",
+        "screen",
+        "mixing"
+      ],
+      [
+        "other_base",
+        "screen",
+        "mixing"
+      ]
+    ],
+    "pairwise_intersections": [
+      {
+        "intersection_dimension": 5,
+        "left": "founded",
+        "right": "other_base"
+      },
+      {
+        "intersection_dimension": 3,
+        "left": "founded",
+        "right": "screen"
+      },
+      {
+        "intersection_dimension": 7,
+        "left": "founded",
+        "right": "mixing"
+      },
+      {
+        "intersection_dimension": 6,
+        "left": "other_base",
+        "right": "screen"
+      },
+      {
+        "intersection_dimension": 10,
+        "left": "other_base",
+        "right": "mixing"
+      },
+      {
+        "intersection_dimension": 13,
+        "left": "screen",
+        "right": "mixing"
+      }
+    ]
+  },
+  "sympy_version": "1.13.1",
+  "unique_curvature_solder_derived": false
+}

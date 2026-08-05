@@ -4,23 +4,28 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## August 4 full-coframe first-jet/stratified-transition precedence notice
+## August 4 second-jet curvature-solder precedence notice
 
 This long file is historical context, not the current checkpoint. Current orientation is
 `LIVE.md` → `HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
-`udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md` and its exact
+`udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md` and its exact
 evidence.
 
-On the bounded local finite-`phi`, nondegenerate tile, all forty metric first-jet components are
-reached by the complete coframe first jet. Screen shear and base-screen mixing jointly modulate
-`g^-1(dphi,dphi)` and can move the same coordinate depth covector among timelike, null and
-spacelike strata. Null and zero-gradient crossings obstruct a universal normalized projector;
-rank loss degenerates the metric; finite founded `phi` does not cause rank loss.
+On the bounded regular point-local tile, the complete coframe second jet reaches every metric
+Hessian and the full 20-dimensional algebraic curvature module. The supplied local split exposes
+one Bianchi block relation, source-family ranks `8/11/14/18`, and full causal tidal quotient spaces
+`6/6/3/0`. This is a local algebraic atlas, not a selected split or physical law. Its normal-frame
+source and supplied-`dphi` axes have no derived same-solution physical join.
 
-This is configuration-space geometry, not a physical time-live solution. Second jets, global
-histories, bootstrap return, action, source, boundary, density feedback, matter, mass and dynamics
-remain open. Exact bounded verdict:
-`DERIVED_FULL_METRIC_FIRST_JET_SURJECTION__DERIVED_JOINT_RECIPROCAL_ANGULAR_CAUSAL_STRATA__NORMALIZED_REDUCTION_HAS_NO_UNIVERSAL_STRATIFIED_EXTENSION__NO_KINEMATIC_EVOLUTION_RETURN`.
+This is configuration-space geometry, not a physical time-live solution. Global compatibility,
+bootstrap return, action, source, boundary, density feedback, matter, mass and dynamics remain open.
+Exact bounded verdict:
+`DERIVED_COMPLETE_SECOND_JET_CURVATURE_SURJECTION__DERIVED_SINGLE_BIANCHI_RECIPROCAL_ANGULAR_BLOCK_RELATION__DERIVED_CAUSAL_STRATUM_TIDAL_QUOTIENTS__NO_UNIQUE_CURVATURE_SOLDER_OR_KINEMATIC_EVOLUTION_RETURN`.
+
+## August 4 full-coframe first-jet/stratified-transition parent notice
+
+The first-jet atlas remains the immediate local parent and source for the full first-jet release and
+joint causal transition map.
 
 ## August 4 complete-coframe extension/solvability parent notice
 

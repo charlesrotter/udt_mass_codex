@@ -1,0 +1,9 @@
+{
+  "backend": "CPU exact algebra only",
+  "gpu_used": false,
+  "independent_backend": "Python standard library fractions.Fraction",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "primary_backend": "SymPy",
+  "python_version": "3.10.12",
+  "sympy_version": "1.13.1"
+}

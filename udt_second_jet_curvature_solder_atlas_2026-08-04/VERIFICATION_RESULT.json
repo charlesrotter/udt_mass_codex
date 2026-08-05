@@ -1,0 +1,192 @@
+{
+  "catch_proofs": [
+    {
+      "description": "wrong outcome",
+      "mutation_id": "M01",
+      "reason": "outcome mismatch",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "Hessian slot frozen",
+      "mutation_id": "M02",
+      "reason": "Hessian slot frozen",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "coframe-to-metric rank reduced",
+      "mutation_id": "M03",
+      "reason": "coframe/metric map changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "curvature rank reduced",
+      "mutation_id": "M04",
+      "reason": "metric/Riemann map changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "Bianchi relation deleted",
+      "mutation_id": "M05",
+      "reason": "Bianchi relation dimension changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "Bianchi relation changed",
+      "mutation_id": "M06",
+      "reason": "Bianchi relation changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "cross block erased",
+      "mutation_id": "M07",
+      "reason": "block atlas changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "founded category promoted",
+      "mutation_id": "M08",
+      "reason": "category ranks changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "mixing category reduced",
+      "mutation_id": "M09",
+      "reason": "category ranks changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "minimal full set deleted",
+      "mutation_id": "M10",
+      "reason": "minimal full ensembles changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "founded plus screen made full",
+      "mutation_id": "M11",
+      "reason": "union ranks changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "null N rank promoted",
+      "mutation_id": "M12",
+      "reason": "depth stratum ranks changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "null quotient descent erased",
+      "mutation_id": "M13",
+      "reason": "null quotient failed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "null tidal rank reduced",
+      "mutation_id": "M14",
+      "reason": "depth stratum ranks changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "zero stratum screen invented",
+      "mutation_id": "M15",
+      "reason": "depth stratum ranks changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "rank-loss curvature invented",
+      "mutation_id": "M16",
+      "reason": "rank-loss curvature invented",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "configuration path promoted to time",
+      "mutation_id": "M17",
+      "reason": "physical return promoted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "unique solder promoted",
+      "mutation_id": "M18",
+      "reason": "physical return promoted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "source hash corrupted",
+      "mutation_id": "M19",
+      "reason": "source hash mismatch: CURRENT_SCIENTIFIC_PREMISES.md",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "sector deleted",
+      "mutation_id": "M20",
+      "reason": "sector universe changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "stratum deleted",
+      "mutation_id": "M21",
+      "reason": "stratum universe changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "observable deleted",
+      "mutation_id": "M22",
+      "reason": "observable universe changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "operation deleted",
+      "mutation_id": "M23",
+      "reason": "operation universe changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "premise deleted",
+      "mutation_id": "M24",
+      "reason": "premise universe changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "operation return promoted",
+      "mutation_id": "M25",
+      "reason": "operation return promoted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "null plurality erased",
+      "mutation_id": "M26",
+      "reason": "null plurality erased",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "same-solution source/dphi join promoted",
+      "mutation_id": "M27",
+      "reason": "physical return promoted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "independent null representative-independence erased",
+      "mutation_id": "M28",
+      "reason": "independent null representative-independence failed",
+      "status": "CAUGHT"
+    }
+  ],
+  "checks": [
+    "outcome_and_environment_exact",
+    "complete_second_jet_maps_exact",
+    "Riemann_and_Bianchi_exact",
+    "complete_2plus2_block_atlas_exact",
+    "source_ensemble_orchestra_exact",
+    "depth_and_tidal_strata_exact",
+    "boundary_and_authority_scope_exact",
+    "independent_rational_reconstruction_matches",
+    "base_source_hashes_27_exact",
+    "frozen_universes_and_premises_exact",
+    "operation_and_hypothesis_ledgers_exact",
+    "semantic_scope_guards",
+    "fresh_primary_and_independent_replays_match_saved_results"
+  ],
+  "checks_passed": 13,
+  "mutations_caught": 28,
+  "schema": "udt.second_jet_curvature_solder.verification.v1",
+  "source_adjudication_sha256": "4cc44e1a76d8f8d0165dcc571f526919387d803c137820e5d19437aae0b25cce",
+  "status": "PASS"
+}

@@ -32,11 +32,13 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md` — the current
-   bounded derivation. Then read its `EXACT_DERIVATION.md`, transition/hypothesis/premise ledgers,
-   completeness map, verifier, fresh review and closure as needed. It releases every local
-   finite-`phi` metric first-jet direction and derives joint reciprocal/angular causal strata, but
-   it is not physical evolution and supplies no second-jet law or bootstrap return. Read
+4. `udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md` — the current bounded
+   derivation. Then read its `EXACT_DERIVATION.md`, operation/hypothesis/joint-ownership ledgers,
+   completeness map, verifier, fresh review and closure as needed. It releases the complete local
+   second jet and full algebraic curvature module, but its reciprocal/angular mixing bridge is a
+   supplied-split local atlas and its source/`dphi` same-solution join remains open. It is not
+   physical evolution and supplies no unique solder or bootstrap return. Read the first-jet atlas
+   as its immediate local parent and
    `udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md` as its immediate
    smooth fixed-rank parent when extension/Cartan nonselection is load-bearing. No next route is
    automatically authorized.
@@ -164,6 +166,13 @@ metric makes founded-depth causal type jointly dependent on reciprocal, screen-s
 data. Its null/zero/rank transition atlas is configuration-space evidence only. Never turn an
 arbitrary first-jet path into physical time, a normalized-projector pole into a singular spacetime,
 or a finite-`phi` result into an `X_max`, action, source, boundary, matter or mass claim.
+
+`udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md` releases all local second-jet
+and algebraic curvature directions. Its Bianchi relation, ensemble ranks, and tidal quotients are
+local algebraic structure only. Never turn the supplied `2+2` split into a selected physical split,
+the mixing category into a global field, or the separate normal-frame source and supplied-`dphi`
+atlases into a derived same-solution join, evolution equation, action, source, bootstrap return,
+matter or mass.
 
 The pre-P4
 higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded

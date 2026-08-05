@@ -3,26 +3,30 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC CHECKPOINT — COMPLETE FIRST-JET ORCHESTRA; JOINT CAUSAL STRATA; EVOLUTION OPEN:**
-Read `udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md`, then its
-exact derivation, transition/hypothesis/premise ledgers, completeness map, verifier, fresh review,
-closure and four gates. Use the smooth extension and global/local audits as its parents.
+**➤ CURRENT SCIENTIFIC CHECKPOINT — COMPLETE SECOND-JET CURVATURE ATLAS; LOCAL BRIDGE; EVOLUTION OPEN:**
+Read `udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md`, then its exact derivation,
+operation/hypothesis/joint-ownership ledgers, completeness map, verifier, fresh review, closure and
+four gates. Use the first-jet, smooth-extension and global/local audits as parents.
 
-On the local finite-`phi`, nondegenerate tile, the complete coframe first jet maps onto all ten
-metric first-jet directions in each of all four derivative slots; only six local-Lorentz
-presentation directions per slot disappear. The complete inverse metric makes
-`g^-1(dphi,dphi)` jointly dependent on the founded reciprocal pair, screen shear and base-screen
-mixing. Exact controls move one fixed coordinate `dphi` through all three causal classes using
-either mixing or unit-area shear.
+On the regular point-local tile, the complete coframe second jet maps onto all 100 metric Hessian
+components and the full 20-dimensional algebraic curvature module. In the supplied `2+2` split,
+all six curvature blocks occur and their 21 displayed entries obey only the single algebraic
+Bianchi relation. Source image ranks are founded/base/screen/mixing `8/11/14/18`; full rank requires
+screen, mixing and one base family.
 
-Nonzero-null and zero-gradient crossings obstruct a universal normalized projector continuation;
-coframe/screen rank loss degenerates the metric. Finite founded `phi` does not cause rank loss.
+For supplied `p=dphi`, the depth tensor ranks are `3/3/1/0` and unrestricted tidal image dimensions
+are `6/6/3/0`. The null form is intrinsic on its quotient screen. The source and `dphi` axes are
+not yet joined as one physical solution.
 Exact verdict:
-`DERIVED_FULL_METRIC_FIRST_JET_SURJECTION__DERIVED_JOINT_RECIPROCAL_ANGULAR_CAUSAL_STRATA__NORMALIZED_REDUCTION_HAS_NO_UNIVERSAL_STRATIFIED_EXTENSION__NO_KINEMATIC_EVOLUTION_RETURN`.
+`DERIVED_COMPLETE_SECOND_JET_CURVATURE_SURJECTION__DERIVED_SINGLE_BIANCHI_RECIPROCAL_ANGULAR_BLOCK_RELATION__DERIVED_CAUSAL_STRATUM_TIDAL_QUOTIENTS__NO_UNIQUE_CURVATURE_SOLDER_OR_KINEMATIC_EVOLUTION_RETURN`.
 
-This is not physical time evolution and supplies no second-jet law, action, source, boundary,
-density return, `X_max`, matter or mass. The next possible bounded audit is second-jet
-curvature-solder across these strata; it is not launched automatically.
+This is not physical time evolution and supplies no unique solder, action, source, boundary,
+density return, `X_max`, matter or mass. A differential/global compatibility audit is only a next
+decision; it is not launched automatically.
+
+**➤ PARENT SCIENTIFIC CHECKPOINT — COMPLETE FIRST-JET ORCHESTRA; JOINT CAUSAL STRATA:**
+Read `udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md` when the
+first-jet release or causal-transition foundation is load-bearing.
 
 **➤ PARENT SCIENTIFIC CHECKPOINT — SMOOTH EXTENSION/CARTAN NONSELECTING; COMPLETE RETURN OPEN:**
 Read `udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md`, its exact

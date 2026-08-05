@@ -1,0 +1,308 @@
+{
+  "Bianchi_primitive_relation": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Bianchi_relation_dimension": 1,
+  "block_rows": [
+    {
+      "block": "base_base",
+      "projection_rank": 1
+    },
+    {
+      "block": "mixed_mixed",
+      "projection_rank": 10
+    },
+    {
+      "block": "screen_screen",
+      "projection_rank": 1
+    },
+    {
+      "block": "base_mixed",
+      "projection_rank": 4
+    },
+    {
+      "block": "mixed_screen",
+      "projection_rank": 4
+    },
+    {
+      "block": "base_screen",
+      "projection_rank": 1
+    }
+  ],
+  "depth_rows": [
+    {
+      "N_nonzero_nilpotent": false,
+      "N_rank": 3,
+      "N_squared_equals_sN": true,
+      "null_quotient_representative_independence": null,
+      "quotient_dimension": 3,
+      "s_phi": -1,
+      "stratum": "timelike",
+      "tidal_image_rank": 6
+    },
+    {
+      "N_nonzero_nilpotent": false,
+      "N_rank": 3,
+      "N_squared_equals_sN": true,
+      "null_quotient_representative_independence": null,
+      "quotient_dimension": 3,
+      "s_phi": 1,
+      "stratum": "spacelike",
+      "tidal_image_rank": 6
+    },
+    {
+      "N_nonzero_nilpotent": true,
+      "N_rank": 1,
+      "N_squared_equals_sN": true,
+      "null_quotient_representative_independence": true,
+      "quotient_dimension": 2,
+      "s_phi": 0,
+      "stratum": "nonzero_null",
+      "tidal_image_rank": 3
+    },
+    {
+      "N_nonzero_nilpotent": false,
+      "N_rank": 0,
+      "N_squared_equals_sN": true,
+      "null_quotient_representative_independence": null,
+      "quotient_dimension": 0,
+      "s_phi": 0,
+      "stratum": "zero",
+      "tidal_image_rank": 0
+    }
+  ],
+  "ensembles": {
+    "category_rows": [
+      {
+        "block_projection_ranks": {
+          "base_base": 1,
+          "base_mixed": 4,
+          "base_screen": 0,
+          "mixed_mixed": 3,
+          "mixed_screen": 0,
+          "screen_screen": 0
+        },
+        "category": "founded",
+        "image_rank": 8
+      },
+      {
+        "block_projection_ranks": {
+          "base_base": 1,
+          "base_mixed": 4,
+          "base_screen": 0,
+          "mixed_mixed": 6,
+          "mixed_screen": 0,
+          "screen_screen": 0
+        },
+        "category": "other_base",
+        "image_rank": 11
+      },
+      {
+        "block_projection_ranks": {
+          "base_base": 0,
+          "base_mixed": 0,
+          "base_screen": 0,
+          "mixed_mixed": 9,
+          "mixed_screen": 4,
+          "screen_screen": 1
+        },
+        "category": "screen",
+        "image_rank": 14
+      },
+      {
+        "block_projection_ranks": {
+          "base_base": 0,
+          "base_mixed": 4,
+          "base_screen": 1,
+          "mixed_mixed": 10,
+          "mixed_screen": 4,
+          "screen_screen": 0
+        },
+        "category": "mixing",
+        "image_rank": 18
+      }
+    ],
+    "minimal_full_category_sets": [
+      [
+        "founded",
+        "screen",
+        "mixing"
+      ],
+      [
+        "other_base",
+        "screen",
+        "mixing"
+      ]
+    ],
+    "pairwise_intersections": [
+      {
+        "intersection_dimension": 5,
+        "left": "founded",
+        "right": "other_base"
+      },
+      {
+        "intersection_dimension": 3,
+        "left": "founded",
+        "right": "screen"
+      },
+      {
+        "intersection_dimension": 7,
+        "left": "founded",
+        "right": "mixing"
+      },
+      {
+        "intersection_dimension": 6,
+        "left": "other_base",
+        "right": "screen"
+      },
+      {
+        "intersection_dimension": 10,
+        "left": "other_base",
+        "right": "mixing"
+      },
+      {
+        "intersection_dimension": 13,
+        "left": "screen",
+        "right": "mixing"
+      }
+    ],
+    "union_rows": [
+      {
+        "categories": [
+          "founded"
+        ],
+        "image_rank": 8
+      },
+      {
+        "categories": [
+          "other_base"
+        ],
+        "image_rank": 11
+      },
+      {
+        "categories": [
+          "screen"
+        ],
+        "image_rank": 14
+      },
+      {
+        "categories": [
+          "mixing"
+        ],
+        "image_rank": 18
+      },
+      {
+        "categories": [
+          "founded",
+          "other_base"
+        ],
+        "image_rank": 14
+      },
+      {
+        "categories": [
+          "founded",
+          "screen"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "founded",
+          "mixing"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "other_base",
+          "screen"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "other_base",
+          "mixing"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "screen",
+          "mixing"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "founded",
+          "other_base",
+          "screen"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "founded",
+          "other_base",
+          "mixing"
+        ],
+        "image_rank": 19
+      },
+      {
+        "categories": [
+          "founded",
+          "screen",
+          "mixing"
+        ],
+        "image_rank": 20
+      },
+      {
+        "categories": [
+          "other_base",
+          "screen",
+          "mixing"
+        ],
+        "image_rank": 20
+      },
+      {
+        "categories": [
+          "founded",
+          "other_base",
+          "screen",
+          "mixing"
+        ],
+        "image_rank": 20
+      }
+    ]
+  },
+  "map_ranks": {
+    "coframe_to_Riemann": 20,
+    "coframe_to_metric": 100,
+    "metric_to_Riemann": 20
+  },
+  "physical_evolution_operator_derived": false,
+  "same_solution_source_dphi_join_derived": false,
+  "schema": "udt.second_jet_curvature_solder.independent.v1",
+  "unique_curvature_solder_derived": false
+}

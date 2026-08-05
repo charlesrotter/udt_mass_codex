@@ -52,14 +52,23 @@ the still-open parent operator. Rank-changing, null, defect, and stratified exte
 Smooth gluing, connection reconstruction, or the word “solvability” must not be promoted into the
 missing physical return.
 
-The current August 4 first-jet/stratified-transition atlas,
-`udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md`, then releases
+The August 4 first-jet/stratified-transition atlas,
+`udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md`, releases
 all ten metric first-jet directions in each of all four derivative slots on the local finite-`phi`,
 nondegenerate tile. The complete inverse metric makes the causal type of founded `dphi` depend
 jointly on reciprocal, screen-shear, and base-screen mixing data. Nonzero-null and zero-gradient
 strata obstruct a universal normalized projector continuation, while finite `phi` itself does not
 cause coframe rank loss. This is a configuration-space result, not physical time evolution. It
-supplies no second-jet curvature law, action, source, boundary, density return, matter, or mass.
+supplies no physical evolution, action, source, boundary, density return, matter, or mass.
+
+The current second-jet curvature-solder atlas,
+`udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md`, releases every local metric
+Hessian and reproduces the full 20-dimensional algebraic curvature module. In the supplied local
+split, one Bianchi relation joins reciprocal-area, screen-area and mixed entries; complete curvature
+needs screen, mixing and one base source family. The unnormalized founded-depth tidal construction
+has full plural `6,6,3,0` image dimensions across timelike, spacelike, nonzero-null and zero strata.
+This remains a local algebraic atlas. The split is not selected, and the normal-frame source atlas
+and supplied-`dphi` strata have no derived same-solution physical join, response or evolution law.
 
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

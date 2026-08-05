@@ -1,0 +1,29 @@
+mutation_id	description	status	reason
+M01	wrong outcome	CAUGHT	outcome mismatch
+M02	Hessian slot frozen	CAUGHT	Hessian slot frozen
+M03	coframe-to-metric rank reduced	CAUGHT	coframe/metric map changed
+M04	curvature rank reduced	CAUGHT	metric/Riemann map changed
+M05	Bianchi relation deleted	CAUGHT	Bianchi relation dimension changed
+M06	Bianchi relation changed	CAUGHT	Bianchi relation changed
+M07	cross block erased	CAUGHT	block atlas changed
+M08	founded category promoted	CAUGHT	category ranks changed
+M09	mixing category reduced	CAUGHT	category ranks changed
+M10	minimal full set deleted	CAUGHT	minimal full ensembles changed
+M11	founded plus screen made full	CAUGHT	union ranks changed
+M12	null N rank promoted	CAUGHT	depth stratum ranks changed
+M13	null quotient descent erased	CAUGHT	null quotient failed
+M14	null tidal rank reduced	CAUGHT	depth stratum ranks changed
+M15	zero stratum screen invented	CAUGHT	depth stratum ranks changed
+M16	rank-loss curvature invented	CAUGHT	rank-loss curvature invented
+M17	configuration path promoted to time	CAUGHT	physical return promoted
+M18	unique solder promoted	CAUGHT	physical return promoted
+M19	source hash corrupted	CAUGHT	source hash mismatch
+M20	sector deleted	CAUGHT	sector universe changed
+M21	stratum deleted	CAUGHT	stratum universe changed
+M22	observable deleted	CAUGHT	observable universe changed
+M23	operation deleted	CAUGHT	operation universe changed
+M24	premise deleted	CAUGHT	premise universe changed
+M25	operation return promoted	CAUGHT	operation return promoted
+M26	null plurality erased	CAUGHT	null plurality erased
+M27	same-solution source/dphi join promoted	CAUGHT	physical return promoted
+M28	independent null representative-independence erased	CAUGHT	independent null representative-independence failed
