@@ -4,7 +4,23 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, bootstrap posit formalized; complete return open)
+## TOP — CURRENT POINTER (2026-08-04, smooth extension/Cartan nonselecting; complete return open)
+
+Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
+`udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md` and its exact
+derivation, ledgers, verifier, fresh review and closure.
+
+The partial completion-dependent join does not become a physical bootstrap return through ordinary
+smooth extension. All seven screen/mixing directions survive descent, and Cartan reconstruction
+solves uniquely for a connection for each coframe without selecting the coframe. Holonomy is
+selective only under extra parallelism; bulk/boundary solvability first needs the missing operator.
+Rank-changing and stratified extension remains open.
+
+Verdict:
+`DERIVED_EXTENSION_EXISTENCE_AND_CARTAN_RECONSTRUCTION_ARE_NONSELECTING__CONDITIONAL_HOLONOMY_OBSTRUCTIONS_REQUIRE_EXTRA_PARALLELISM__NATIVE_INTERIOR_RETURN_REMAINS_OPEN`.
+No density, action, source, mass, time-live or GPU work follows automatically.
+
+## PRIOR TOP — CURRENT POINTER (2026-08-04, bootstrap posit formalized; complete return open)
 
 Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
 `udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md` and its architecture, exact

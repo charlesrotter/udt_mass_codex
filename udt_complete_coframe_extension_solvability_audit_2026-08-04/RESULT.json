@@ -1,0 +1,199 @@
+{
+  "cartan_reconstruction": {
+    "arbitrary_anholonomy_rhs_solvable": true,
+    "coefficient_nullity": 0,
+    "coefficient_rank": 24,
+    "coframe_constraints_from_reconstruction": 0,
+    "connection_unknowns": 24,
+    "dimension": 4,
+    "torsion_equations": 24
+  },
+  "coordinate_integrability": {
+    "coordinate_integrability_is_frame_gauge_invariant": false,
+    "input_coordinate_coframe_closed": true,
+    "metric_preserved_exact": true,
+    "rotated_coframe_not_closed": true,
+    "rotated_exterior_coefficients_at_x0": [
+      1,
+      0
+    ]
+  },
+  "extension_descent": {
+    "chart_count": 3,
+    "cocycle_h_exact": true,
+    "cocycle_sigma_exact": true,
+    "descent_map_rank": 7,
+    "local_component_count": 21,
+    "positive_metric_preserved_all_charts": true,
+    "seed_extension_dimension": 7,
+    "selection_rank_from_descent": 0,
+    "surviving_extension_dimension": 7
+  },
+  "monodromy": {
+    "all_endpoint_graphs_dimension_two": true,
+    "all_frozen_fixed_dimensions_match": true,
+    "fixed_parallel_dimension_histogram": {
+      "0": 4,
+      "1": 3,
+      "2": 1
+    },
+    "matrix_count": 8,
+    "rows": [
+      {
+        "endpoint_graph_dimension": 2,
+        "endpoint_graph_rank": 2,
+        "fixed_parallel_dimension": 2,
+        "fixed_parallel_rank": 0,
+        "matches_frozen_conditional_dimension": true,
+        "monodromy_id": "M_IDENTITY"
+      },
+      {
+        "endpoint_graph_dimension": 2,
+        "endpoint_graph_rank": 2,
+        "fixed_parallel_dimension": 0,
+        "fixed_parallel_rank": 2,
+        "matches_frozen_conditional_dimension": true,
+        "monodromy_id": "M_MINUS_IDENTITY"
+      },
+      {
+        "endpoint_graph_dimension": 2,
+        "endpoint_graph_rank": 2,
+        "fixed_parallel_dimension": 0,
+        "fixed_parallel_rank": 2,
+        "matches_frozen_conditional_dimension": true,
+        "monodromy_id": "M_ORDER4_ROTATION"
+      },
+      {
+        "endpoint_graph_dimension": 2,
+        "endpoint_graph_rank": 2,
+        "fixed_parallel_dimension": 0,
+        "fixed_parallel_rank": 2,
+        "matches_frozen_conditional_dimension": true,
+        "monodromy_id": "M_ORDER6_ELLIPTIC"
+      },
+      {
+        "endpoint_graph_dimension": 2,
+        "endpoint_graph_rank": 2,
+        "fixed_parallel_dimension": 1,
+        "fixed_parallel_rank": 1,
+        "matches_frozen_conditional_dimension": true,
+        "monodromy_id": "M_PARABOLIC"
+      },
+      {
+        "endpoint_graph_dimension": 2,
+        "endpoint_graph_rank": 2,
+        "fixed_parallel_dimension": 0,
+        "fixed_parallel_rank": 2,
+        "matches_frozen_conditional_dimension": true,
+        "monodromy_id": "M_HYPERBOLIC"
+      },
+      {
+        "endpoint_graph_dimension": 2,
+        "endpoint_graph_rank": 2,
+        "fixed_parallel_dimension": 1,
+        "fixed_parallel_rank": 1,
+        "matches_frozen_conditional_dimension": true,
+        "monodromy_id": "M_EXCHANGE"
+      },
+      {
+        "endpoint_graph_dimension": 2,
+        "endpoint_graph_rank": 2,
+        "fixed_parallel_dimension": 1,
+        "fixed_parallel_rank": 1,
+        "matches_frozen_conditional_dimension": true,
+        "monodromy_id": "M_ORIENTATION_REVERSING_GLIDE"
+      }
+    ]
+  },
+  "operations": {
+    "circular_parent_law_operations": 2,
+    "conditional_extra_premise_operations": 3,
+    "native_complete_return_passes": 0,
+    "operation_count": 10,
+    "records": [
+      {
+        "native_complete_return_pass": false,
+        "nonidentity_if_imposed": false,
+        "operation_id": "E01",
+        "requires_extra_premise": false,
+        "requires_parent_law": false,
+        "status": "KINEMATIC_DESCENT_NONSELECTION"
+      },
+      {
+        "native_complete_return_pass": false,
+        "nonidentity_if_imposed": false,
+        "operation_id": "E02",
+        "requires_extra_premise": false,
+        "requires_parent_law": false,
+        "status": "DERIVED_EXISTENCE_NONSELECTION"
+      },
+      {
+        "native_complete_return_pass": false,
+        "nonidentity_if_imposed": true,
+        "operation_id": "E03",
+        "requires_extra_premise": true,
+        "requires_parent_law": false,
+        "status": "CONDITIONAL_STRONG_WITNESS_NOT_REQUIRED"
+      },
+      {
+        "native_complete_return_pass": false,
+        "nonidentity_if_imposed": true,
+        "operation_id": "E04",
+        "requires_extra_premise": true,
+        "requires_parent_law": false,
+        "status": "CONDITIONAL_EXTRA_INTEGRABILITY_NOT_FRAME_NATURAL"
+      },
+      {
+        "native_complete_return_pass": false,
+        "nonidentity_if_imposed": false,
+        "operation_id": "E05",
+        "requires_extra_premise": false,
+        "requires_parent_law": false,
+        "status": "DERIVED_RECONSTRUCTION_NONSELECTION"
+      },
+      {
+        "native_complete_return_pass": false,
+        "nonidentity_if_imposed": false,
+        "operation_id": "E06",
+        "requires_extra_premise": false,
+        "requires_parent_law": false,
+        "status": "DERIVED_IDENTITY_NONSELECTION"
+      },
+      {
+        "native_complete_return_pass": false,
+        "nonidentity_if_imposed": true,
+        "operation_id": "E07",
+        "requires_extra_premise": true,
+        "requires_parent_law": false,
+        "status": "CONDITIONAL_PARALLELISM_SELECTOR"
+      },
+      {
+        "native_complete_return_pass": false,
+        "nonidentity_if_imposed": true,
+        "operation_id": "E08",
+        "requires_extra_premise": false,
+        "requires_parent_law": true,
+        "status": "CIRCULAR_PARENT_LAW_REQUIRED"
+      },
+      {
+        "native_complete_return_pass": false,
+        "nonidentity_if_imposed": true,
+        "operation_id": "E09",
+        "requires_extra_premise": false,
+        "requires_parent_law": true,
+        "status": "CIRCULAR_PARENT_BULK_AND_BOUNDARY_REQUIRED"
+      },
+      {
+        "native_complete_return_pass": false,
+        "nonidentity_if_imposed": null,
+        "operation_id": "E10",
+        "requires_extra_premise": false,
+        "requires_parent_law": false,
+        "status": "OPEN_OUTSIDE_FIXED_RANK_TILE"
+      }
+    ]
+  },
+  "outcome": "DERIVED_EXTENSION_EXISTENCE_AND_CARTAN_RECONSTRUCTION_ARE_NONSELECTING__CONDITIONAL_HOLONOMY_OBSTRUCTIONS_REQUIRE_EXTRA_PARALLELISM__NATIVE_INTERIOR_RETURN_REMAINS_OPEN",
+  "schema": "udt.complete_coframe_extension_solvability.result.v1",
+  "sympy_version": "1.13.1"
+}

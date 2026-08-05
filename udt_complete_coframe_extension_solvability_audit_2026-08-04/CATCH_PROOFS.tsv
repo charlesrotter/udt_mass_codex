@@ -1,0 +1,18 @@
+mutation_id	description	status
+M01	wrong outcome	CAUGHT
+M02	descent rank reduced	CAUGHT
+M03	cocycle broken	CAUGHT
+M04	Cartan rank reduced	CAUGHT
+M05	Cartan promoted to coframe equation	CAUGHT
+M06	coordinate integrability promoted	CAUGHT
+M07	endpoint graph conflated with fixed space	CAUGHT
+M08	native return silently added	CAUGHT
+M09	parallelism promoted	CAUGHT
+M10	bulk parent dependency deleted	CAUGHT
+M11	boundary parent dependency deleted	CAUGHT
+M12	rank-changing class closed	CAUGHT
+M13	global coframe promoted	CAUGHT
+M14	strong CSN reactivated	CAUGHT
+M15	conditional holonomy made unconditional	CAUGHT
+M16	source hash corrupted	CAUGHT
+M17	operation universe member deleted	CAUGHT

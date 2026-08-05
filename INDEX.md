@@ -3,7 +3,23 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC CHECKPOINT — BOOTSTRAP POSIT FORMALIZED; PARTIAL KINEMATIC JOIN DERIVED:**
+**➤ CURRENT SCIENTIFIC CHECKPOINT — SMOOTH EXTENSION/CARTAN NONSELECTING; COMPLETE RETURN OPEN:**
+Read `udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md`, its exact
+derivation, operation/hypothesis/premise ledgers, completeness map, verifier, fresh review and
+closure. Use the global/local reconstruction audit as its immediate parent.
+
+Once a smooth fixed-rank reciprocal/screen split is supplied, all seven screen/mixing directions
+survive exact descent. The four-dimensional torsion-free metric-compatible Cartan system has rank
+24 on 24 connection unknowns and reconstructs a connection for every actual coframe rather than
+selecting a coframe. Coordinate closure is frame-presentation dependent. Holonomy restricts only
+under extra parallelism, while PDE/boundary solvability requires the missing parent law.
+
+Exact verdict:
+`DERIVED_EXTENSION_EXISTENCE_AND_CARTAN_RECONSTRUCTION_ARE_NONSELECTING__CONDITIONAL_HOLONOMY_OBSTRUCTIONS_REQUIRE_EXTRA_PARALLELISM__NATIVE_INTERIOR_RETURN_REMAINS_OPEN`.
+Rank-changing/stratified extension remains open. No action, source, carrier, density, mass,
+`X_max`, dynamics or physical branch follows.
+
+**➤ PARENT SCIENTIFIC CHECKPOINT — BOOTSTRAP POSIT FORMALIZED; PARTIAL KINEMATIC JOIN DERIVED:**
 Read `udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md`, its reconstruction
 architecture, exact derivation, operation/requirement ledgers, completeness map, verifier, fresh
 review and closure. Then use the scientific-arc recovery checkpoint and full-coframe response audit

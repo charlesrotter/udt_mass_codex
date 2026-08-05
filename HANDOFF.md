@@ -6,6 +6,58 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
 
+## CURRENT — smooth extension and Cartan reconstruction do not supply the bootstrap return
+
+**Fresh-entry path:**
+
+1. `LIVE.md` topmost current block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
+3. `udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md`.
+4. Its exact derivation, operation/hypothesis/premise ledgers, completeness map, verification
+   result, fresh review and closure.
+5. Use the global/local reconstruction audit as its parent; enter F01/F02/F04 only when routed to a
+   load-bearing detail.
+
+**Result:** after a smooth fixed-rank reciprocal/screen split is supplied, ordinary complete-coframe
+extension is an existence construction, not a selector. The exact three-chart control preserves all
+seven screen/mixing seed directions. Cartan reconstruction has rank `24` on `24` connection
+unknowns and merely assigns the unique Levi-Civita connection to each coframe.
+
+**No hidden integrability law:** local frame rotation preserves the metric while changing coframe
+closure, so coordinate integrability is not frame-natural. Cartan/Bianchi identities hold for each
+actual smooth representative and do not choose one.
+
+**Conditional and open:** endpoint matching leaves every two-dimensional monodromy graph intact.
+Parallel fixed spaces can shrink, but only after adding parallelism. PDE or boundary solvability is
+circular until a parent bulk/boundary law exists. Rank-changing, null, defect and stratified
+extension remains open outside the bounded smooth tile.
+
+**Bounded verdict:**
+`DERIVED_EXTENSION_EXISTENCE_AND_CARTAN_RECONSTRUCTION_ARE_NONSELECTING__CONDITIONAL_HOLONOMY_OBSTRUCTIONS_REQUIRE_EXTRA_PARALLELISM__NATIVE_INTERIOR_RETURN_REMAINS_OPEN`.
+
+**Mass/stability status:** unchanged. F01/F02 remain conditional geometry-only mass-bearing routes;
+F04 remains the separate carrier/action-conditional finite-box Hopf result. No family, response,
+source, carrier, boundary, mass, species or dynamics is promoted.
+
+**Next decision, not automatic:** either justify a bounded rank-changing/stratified atlas as
+load-bearing or acknowledge that geometry-alone reduction has stopped and examine a stronger
+falsifiable bootstrap premise. No density scan, action guess, optimizer, long solve, time-live/GPU
+work or physical adoption follows.
+
+**Evidence:** preregistration `7b235666`; frozen universe `167180d5`; exact primary/independent
+agreement; verifier `15/15`, `17/17` mutation catches, 27 source hashes and 10 operation classes;
+fresh `gpt-5.4` `PASS_WITH_CAVEATS`, zero blocking errors. Frozen `6/127/133`, current paths 1,114,
+frontier targets 101, tests `70 passed, 1 xfailed`, and all 83 unrelated untracked metadata
+identities pass. Preserve those paths unread and untouched.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_GLOBAL_LOCAL_RECONSTRUCTION_BEGIN -->
+
+> **READ `LIVE.md` FIRST.** It wins every disagreement.
+>
+> **⚠ BRANCH: `grok` (2026-08-04).** Synchronize it before orientation.
+
 ## CURRENT — bootstrap posit has a relational home; metric supplies only the partial join
 
 **Fresh-entry path:**
@@ -50,7 +102,7 @@ follows.
 Frozen `6/127/133`, current paths 1,114, frontier targets 101, tests `70 passed, 1 xfailed`, and all
 83 unrelated untracked metadata identities pass. Preserve those paths unread and untouched.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_GLOBAL_LOCAL_RECONSTRUCTION_END -->
 
 <!-- STARTUP_PRIOR_2026_08_04_FULL_COFRAME_BEGIN -->
 

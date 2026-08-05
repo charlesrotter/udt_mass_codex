@@ -4,6 +4,68 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
+## ============ CURRENT STATE (2026-08-04 — SMOOTH EXTENSION AND CARTAN RECONSTRUCTION NONSELECTING; COMPLETE BOOTSTRAP RETURN OPEN) ============
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md` → its exact
+derivation, operation/hypothesis/premise ledgers, verifier, fresh review and closure → the parent
+global/local reconstruction audit only when its join correspondence is load-bearing.
+
+**CURRENT HONEST RESULT:** the metric supplies a genuine completion-dependent partial join, but
+ordinary smooth extension does not turn it into the missing physical return. In the exact
+three-chart screen/mixing control, all seven seed directions survive descent and the selection rank
+is zero. The general supplied-split result likewise admits extension of positive screen metrics and
+mixing sections without choosing a physical configuration.
+
+Levi-Civita Cartan reconstruction is also nonselecting: the exact four-dimensional system has 24
+connection unknowns, 24 torsion equations, rank 24 and nullity zero. It uniquely reconstructs a
+compatible torsion-free connection from each actual coframe; it does not impose an equation on the
+coframe. A position-dependent orthogonal frame rotation preserves the metric while destroying
+coordinate-coframe closure, so `d theta=0` is not a frame-natural selector.
+
+**CONDITIONAL/OPEN BOUNDARY:** all eight endpoint graphs remain two-dimensional. Their stronger
+parallel fixed spaces have dimension histogram `0:4, 1:3, 2:1`, but parallelism is an additional
+premise. Bulk or boundary solvability first needs the still-open parent bulk/boundary operator and
+cannot derive it by renaming its solution set. Rank-changing, null, defect and stratified extension
+remains open outside this smooth fixed-rank tile.
+
+**BOUNDED VERDICT:**
+`DERIVED_EXTENSION_EXISTENCE_AND_CARTAN_RECONSTRUCTION_ARE_NONSELECTING__CONDITIONAL_HOLONOMY_OBSTRUCTIONS_REQUIRE_EXTRA_PARALLELISM__NATIVE_INTERIOR_RETURN_REMAINS_OPEN`.
+This closes a smooth-extension/Cartan shortcut, not global geometry and not the bootstrap program.
+
+**MASS/STABILITY CONSEQUENCE:** unchanged. F01/F02 remain distinct conditional geometry-only
+mass-bearing routes. F04 remains the separate carrier/action-conditional static finite-box Hopf
+result. No native stable-matter family, source, carrier, mass, species or dynamics is selected.
+
+**NEXT BOUNDED DECISION — NOT LAUNCHED AUTOMATICALLY:** decide whether a rank-changing/stratified
+metric-led atlas is justified and load-bearing, or whether geometry-alone reduction has stopped and
+the project should explicitly examine a stronger falsifiable bootstrap premise. Do not substitute a
+scalar optimizer, action, density target, unique completion, long solve, GPU work or observational
+fit.
+
+**PREMISE STAMPS:** founded `phi`, reciprocal pair action and composition `DERIVED`; `c_E/G_obs`
+`OBSERVED`; complete coframe `DEFINED_CONFIGURATION_ARCHITECTURE`; global/local mutual
+admissibility `WORKING_POSIT`; completion-dependent local join `DERIVED_PARTIAL_KINEMATIC`; smooth
+screen/mixing extension `DERIVED_EXISTENCE_NONSELECTION`; Cartan reconstruction
+`DERIVED_PER_REPRESENTATIVE_NONSELECTION`; holonomy selection `CONDITIONAL_EXTRA_PARALLELISM`;
+stratified extension and complete interior return `OPEN`; F01/F02
+`CONDITIONAL_GEOMETRIC_MASS_BEARING`; F04 `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`; `S2` carrier
+`POSIT`; native action, source, boundary, `X_max`, unconditional matter/mass and dynamics `OPEN`.
+
+**AUTHORITY BOUNDARY:** no action, response, source, carrier, density, boundary, completion, branch,
+mass, species, `X_max`, dynamics, fit, GPU work, canonization or repository reorganization follows.
+
+**EVIDENCE:** preregistration `7b235666`; frozen universe `167180d5`; primary SymPy 1.13.1 and
+independent standard-library replays agree; verifier `15/15` with `17/17` mutations caught; 27
+base-source hashes and 10/10 operation classes; fresh `gpt-5.4` `PASS_WITH_CAVEATS` with zero
+blocking errors. Six frozen manifests/127 members/133 paths, 1,114 current paths, 101 frontier
+targets, tests `70 passed, 1 xfailed`, and the 83 unrelated untracked metadata identities pass.
+
+<!-- STARTUP_CURRENT_END -->
+
+<!-- STARTUP_PRIOR_2026_08_04_GLOBAL_LOCAL_RECONSTRUCTION_BEGIN -->
+
+**⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
+**This topmost CURRENT STATE block overrides every older status description.**
 ## ============ CURRENT STATE (2026-08-04 — BOOTSTRAP POSIT FORMALIZED; PARTIAL KINEMATIC JOIN DERIVED; COMPLETE RETURN OPEN) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
 `udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md` → its reconstruction
@@ -67,7 +129,7 @@ passed there and the full mutation harness passes in the controller. Six frozen 
 members/133 paths, 1,114 current paths, 101 frontier targets, tests `70 passed, 1 xfailed`, and the
 83 unrelated untracked metadata identities pass.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- STARTUP_PRIOR_2026_08_04_GLOBAL_LOCAL_RECONSTRUCTION_END -->
 
 <!-- STARTUP_PRIOR_2026_08_04_FULL_COFRAME_BEGIN -->
 

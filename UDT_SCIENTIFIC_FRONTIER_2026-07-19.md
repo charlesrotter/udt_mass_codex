@@ -4,6 +4,20 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 4 complete-coframe extension/solvability precedence notice
+
+This long file is historical context, not the current checkpoint. Current orientation is
+`LIVE.md` → `HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
+`udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md` and its exact
+evidence.
+
+Ordinary smooth extension preserves every screen/mixing direction after a reciprocal/screen split
+is supplied. Levi-Civita Cartan reconstruction determines a connection for each coframe but does
+not impose a coframe law; Cartan/Bianchi identities remain identities. Holonomy selects only after
+adding parallelism, and PDE/boundary solvability requires the missing parent operator. The complete
+native return and rank-changing/stratified extension remain open. No action, source, carrier,
+density, mass, `X_max`, dynamics or physical branch follows.
+
 ## August 4 global/local reconstruction precedence notice
 
 This long file is historical context, not the current checkpoint. Current orientation is

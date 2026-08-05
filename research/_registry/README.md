@@ -7,6 +7,13 @@ govern scientific premise meanings. For current scientific source precedence use
 [`CURRENT_SCIENTIFIC_PREMISES.md`](../../CURRENT_SCIENTIFIC_PREMISES.md). A conflict is a mandatory
 stop. The scientific registry does not rewrite any fixed reorganization snapshot.
 
+The current scientific checkpoint is
+[`udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md`](../../udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md).
+It updates bootstrap premise `G12` through the effective scientific-premise registry only; it does
+not change any reorganization registry or fixed artifact identity. Smooth extension and Cartan
+reconstruction are nonselecting, conditional holonomy requires extra parallelism, and the complete
+native return plus stratified extension remain open.
+
 `ROOT_OWNERSHIP.tsv` and `MIGRATION_READINESS.tsv` are fixed-base R1C audit snapshots. Their
 `current_path` field names the path that existed at the R1C fixed base; it is not rewritten after a
 later authorized migration. The R1C recommendation and verification records are likewise historical

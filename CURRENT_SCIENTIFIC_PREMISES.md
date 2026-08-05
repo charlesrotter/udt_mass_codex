@@ -42,5 +42,15 @@ descent, reconstruction, and free readout remain nonselecting, so the complete i
 physical readout, response, density closure, and dynamics remain `OPEN`. Do not promote the posit
 into a scalar optimizer, objective, local equation, or derived complete bootstrap law.
 
+The later August 4 complete-coframe extension/solvability audit,
+`udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md`, closes one more
+shortcut. Once a smooth fixed-rank reciprocal/screen split is supplied, screen and mixing data
+extend without selection; Levi-Civita Cartan reconstruction uniquely determines a connection for
+each coframe but does not constrain the coframe; and Bianchi identities remain identities.
+Holonomy restricts only after adding parallelism, while bulk or boundary solvability first requires
+the still-open parent operator. Rank-changing, null, defect, and stratified extension remains open.
+Smooth gluing, connection reconstruction, or the word “solvability” must not be promoted into the
+missing physical return.
+
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

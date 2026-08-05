@@ -2,7 +2,27 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
 
-## Current scientific spine — August 4 reciprocal path-composition audit
+## Current scientific spine — August 4 complete-coframe extension/solvability audit
+
+Read the [complete-coframe extension/solvability
+audit](../udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md), then its
+exact derivation, operation/hypothesis/premise ledgers, completeness map, verifier, fresh review and
+closure. It derives smooth screen/mixing extension as an existence construction and Cartan
+connection reconstruction as unique per coframe but nonselecting. Holonomy restrictions require
+extra parallelism; differential solvability requires the missing parent operator. Rank-changing
+and stratified extension remains open.
+
+No further route, density scan, action, source, carrier, mass, time-live or GPU work is authorized
+automatically.
+
+## Parent scientific spine — August 4 global/local reconstruction audit
+
+The [global/local reconstruction
+audit](../udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md) is the immediate parent.
+It formalizes the owner-authorized `WORKING POSIT` and derives a partial completion-dependent join
+correspondence, not a complete physical return.
+
+## Earlier parent scientific spine — August 4 reciprocal path-composition audit
 
 Read the [reciprocal path-composition residual
 audit](../udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md), then its exact
@@ -11,7 +31,8 @@ next step. It shows that founded composition is exact but nonselecting: it const
 data, becomes an identity for endpoint potentials, and does not derive path independence, zero
 periods, a trivial full-loop return, or a metric residual.
 
-The proposed global–local/bootstrap return-map decision audit is not authorized automatically.
+Its proposed global–local/bootstrap return-map decision was completed by the two current audits
+above; no composition route should be restarted without new source-backed premises.
 
 ## Parent scientific spine — August 4 basic-versus-universal-query atlas
 

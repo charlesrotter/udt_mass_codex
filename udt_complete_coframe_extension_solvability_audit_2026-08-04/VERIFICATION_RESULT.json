@@ -1,0 +1,128 @@
+{
+  "catch_proofs": [
+    {
+      "description": "wrong outcome",
+      "mutation_id": "M01",
+      "reason": "outcome mismatch",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "descent rank reduced",
+      "mutation_id": "M02",
+      "reason": "descent rank changed",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "cocycle broken",
+      "mutation_id": "M03",
+      "reason": "cocycle broken",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "Cartan rank reduced",
+      "mutation_id": "M04",
+      "reason": "Cartan rank drift",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "Cartan promoted to coframe equation",
+      "mutation_id": "M05",
+      "reason": "Cartan promoted to coframe equation",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "coordinate integrability promoted",
+      "mutation_id": "M06",
+      "reason": "coordinate closure promoted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "endpoint graph conflated with fixed space",
+      "mutation_id": "M07",
+      "reason": "endpoint/fixed conflation",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "native return silently added",
+      "mutation_id": "M08",
+      "reason": "native return silently promoted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "parallelism promoted",
+      "mutation_id": "M09",
+      "reason": "parallelism promoted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "bulk parent dependency deleted",
+      "mutation_id": "M10",
+      "reason": "bulk parent dependency deleted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "boundary parent dependency deleted",
+      "mutation_id": "M11",
+      "reason": "boundary parent dependency deleted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "rank-changing class closed",
+      "mutation_id": "M12",
+      "reason": "operation ledger status drift",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "global coframe promoted",
+      "mutation_id": "M13",
+      "reason": "global coframe promoted",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "strong CSN reactivated",
+      "mutation_id": "M14",
+      "reason": "strong CSN reactivated",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "conditional holonomy made unconditional",
+      "mutation_id": "M15",
+      "reason": "hypothesis ruling drift",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "source hash corrupted",
+      "mutation_id": "M16",
+      "reason": "source hash mismatch: CURRENT_SCIENTIFIC_PREMISES.md",
+      "status": "CAUGHT"
+    },
+    {
+      "description": "operation universe member deleted",
+      "mutation_id": "M17",
+      "reason": "operation universe count changed",
+      "status": "CAUGHT"
+    }
+  ],
+  "checks": [
+    "outcome_exact",
+    "sympy_1_13_1",
+    "extension_descent_exact_and_nonselecting",
+    "cartan_reconstruction_full_rank_nonselection",
+    "coordinate_integrability_not_frame_invariant",
+    "endpoint_matching_distinct_from_parallel_fixed_space",
+    "independent_replay_matches",
+    "operation_result_exact_no_native_pass",
+    "operation_ledger_semantic_guards",
+    "operation_universe_10_exact",
+    "hypothesis_rulings_exact",
+    "premise_guards_exact",
+    "base_source_hashes_27_exact",
+    "semantic_scope_guards",
+    "fresh_primary_and_independent_replays_match_saved_artifacts"
+  ],
+  "checks_passed": 15,
+  "mutations_caught": 17,
+  "schema": "udt.complete_coframe_extension_solvability.verification.v1",
+  "source_adjudication_sha256": "6d22ff525d0eed303bae5b99cfa1a865671787bbd3f74fb64bba91149659a548",
+  "status": "PASS"
+}

@@ -39,7 +39,7 @@ def main() -> None:
     require(by_id["G11"]["active_use"] == "NOT_SELECTED", "EH promoted")
     require(
         by_id["G12"]["current_status"]
-        == "WORKING_MUTUAL_ADMISSIBILITY_POSIT__PARTIAL_KINEMATIC_JOIN_CORRESPONDENCE_DERIVED__COMPLETE_RETURN_OPEN",
+        == "WORKING_MUTUAL_ADMISSIBILITY_POSIT__PARTIAL_KINEMATIC_JOIN_DERIVED__SMOOTH_EXTENSION_CARTAN_SOLVABILITY_NONSELECTION__COMPLETE_RETURN_OPEN",
         "bootstrap status regressed or promoted",
     )
     require(by_id["G12"]["active_use"] == "FALSIFIABLE_RELATIONAL_ARCHITECTURE_ONLY", "bootstrap use changed")
@@ -70,7 +70,7 @@ def main() -> None:
         if guard == "G12":
             require(
                 by_id[guard]["controlling_source"]
-                == "udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md",
+                == "udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md",
                 "bootstrap correction source priority changed",
             )
         else:
