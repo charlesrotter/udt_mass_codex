@@ -26,6 +26,18 @@ It withdraws the older pointwise physical-owner conclusion, conditionalizes 1,09
 pointwise-field/action negatives. F01/F02/F04 and the WR-L/SNe readout retain their prior conditional
 statuses. Historical/frozen evidence is unchanged.
 
+**PLURAL MASS-BRANCH NAVIGATION:** do not compress `F01/F02/F04` into one proposed branch or one
+mass claim. The seven-entry authority map is
+`udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; its detailed
+family and mechanism parents are
+`udt_post_july_mass_branch_reconciliation_2026-08-01/FAMILY_RECONCILIATION.tsv` and
+`MECHANISM_EFFECT_MATRIX.tsv` in the same package. `F01` and `F02` are distinct conditional
+geometry-only mass-bearing families. `F04` is a separate carrier/action-conditional static
+finite-box Hopf model, not native mass from pure geometry. `F03/F05/F06/F07` are respectively a
+control stratum, completion classifier, registered empty scopes and formal modules—not additional
+realized mass families. No family is selected as the unique physical branch, and no candidate
+mass/energy reading is promoted to physical UDT mass.
+
 **XMAX FRAME CORRECTION:** `X_max` is not an optional analogy, material wall, preferred center,
 radial edge, or finite-cell seal. It is the owner-ratified `WORKING_FOUNDATIONAL_FRAME` for the
 frame-shared observer-pair positional-dilation asymptote: finite comparisons remain below the limit,
@@ -40,7 +52,9 @@ the Xmax frame correction above → the dependency regrade above →
 `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md` → its direct founding-source
 ledger, exact derivation, ten-route census, two implementations, witnesses, verifier, fresh review,
 stationary-sign repair and accepted repair replay → the global-overlap, observer-comparison,
-query/path and factorized-skeleton parents only when load-bearing.
+query/path and factorized-skeleton parents only when load-bearing. When mass emergence, stability,
+or branch response is relevant, also read the plural mass-branch authority map named above before
+opening family evidence.
 
 **CURRENT HONEST RESULT:** the direct founding derivation begins with an already supplied ordered
 relative depth `delta`. Reciprocal-c, dual Reciprocity and regular composition then derive the exact

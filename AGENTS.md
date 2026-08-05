@@ -31,8 +31,11 @@ do not dump whole long files or recursively open cited evidence during orientati
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. The one current bounded audit and exact evidence named by the research program, only to the depth
    required by the user's task.
-6. `stability_branch_follow_256_DECISION.md` only when particle operator/stability history is
-   relevant; it is durable lane evidence, not the global frontier.
+6. When mass emergence, stability, branch response, or particle history is relevant, read
+   `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv` first. It is the
+   seven-entry plural-branch authority map. Then use its cited reconciliation evidence and
+   `stability_branch_follow_256_DECISION.md` only to the depth required; neither is the global
+   frontier.
 7. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only.
 8. Only the specific protocol under `.claude/skills/*/SKILL.md` triggered by the actual task.
 9. `INDEX.md` and `MEMORY.md` for compact pointers only; neither can overrule LIVE.
@@ -47,7 +50,10 @@ physical scalar. `CHOSE_COMPARISON_CONFIGURATION` remains comparison-only;
 `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` keeps strong local CSN inactive. The generic metric count is
 a generic configuration-arena count. `X_max` is a `WORKING_FOUNDATIONAL_FRAME` for the
 positional-dilation asymptote, not a material wall, preferred center, radial edge, or finite-cell
-seal. Authoritative fields and sources are in `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+seal. The mass branch map is plural: F01/F02 are distinct conditional geometry-only candidates, F04
+is carrier/action/box-conditional, and F03/F05/F06/F07 are nonfamily support classes. No candidate
+reading is physical UDT mass. Authoritative fields and sources are in
+`CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 For the 1,114 fixed-base artifact identities, use
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. Post-base additions such as the July 19 frontier and

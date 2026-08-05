@@ -18,6 +18,12 @@ boundary bookkeeping, compatible F01/F02 pullbacks, and a nonidentity same-solut
 general observer-pair depth law remains open and subject to the `X_max` asymptotic gate. No action,
 source, density, long solve, GPU work or physical adoption follows.
 
+For any mass/stability/branch task, first use
+`udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`: F01/F02 are
+distinct conditional geometry-only candidates, F04 is a separate carrier/action/box-conditional
+Hopf model, and F03/F05/F06/F07 are supporting nonfamily entries. No unique branch or physical UDT
+mass is selected.
+
 
 ## Historical memory archive
 

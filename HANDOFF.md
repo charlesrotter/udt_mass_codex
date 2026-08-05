@@ -27,6 +27,16 @@ pointwise-owner conclusion, preserves the exact conditional mathematics, and rec
 load-bearing algebra rows needing immediate rederivation. Three old pointwise-field/action negatives
 are now `CONDITIONS-CHANGED` and nonblocking outside their supplied branches.
 
+**Plural mass-branch route:** for mass emergence, stability, response, or branch work, read
+`udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv` before family
+evidence. It preserves seven separately adjudicated entries: `F01` and `F02` are distinct
+conditional geometry-only mass-bearing families; `F04` is the separate carrier/action-conditional
+static finite-box Hopf model; and `F03/F05/F06/F07` are nonfamily controls, completion/empty-scope
+classifiers, and formal modules. The detailed parent tables are
+`udt_post_july_mass_branch_reconciliation_2026-08-01/FAMILY_RECONCILIATION.tsv` and
+`MECHANISM_EFFECT_MATRIX.tsv` in that package. No unique branch or physical UDT mass has been
+selected.
+
 **Xmax correction:** read
 `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`. `X_max` is the
 `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair positional-dilation asymptote, not
@@ -38,13 +48,14 @@ value, WR-L/global join, bootstrap/mass-density relation, and any boundary conse
 1. `LIVE.md` topmost current block.
 2. `CURRENT_RESEARCH_PROGRAM.md`.
 3. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
-4. `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`.
-5. `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`.
-6. `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`.
-7. `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`.
-8. Its direct founding-source ledger, exact derivation, route/status/premise ledgers, two exact
+4. The plural mass-branch authority map above when mass/stability/branch work is relevant.
+5. `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`.
+6. `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`.
+7. `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`.
+8. `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`.
+9. Its direct founding-source ledger, exact derivation, route/status/premise ledgers, two exact
    implementations, witnesses, verifier, fresh review, repair and accepted repair replay.
-9. Use the global-overlap, observer-comparison, query/path and factorized-skeleton audits as parents.
+10. Use the global-overlap, observer-comparison, query/path and factorized-skeleton audits as parents.
 
 **Result:** the direct founding source takes ordered relative depth as input and derives
 `D(delta)=diag(exp(-delta),exp(+delta))`. It does not derive which numerical `delta` belongs to an

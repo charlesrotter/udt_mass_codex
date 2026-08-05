@@ -21,6 +21,9 @@
   audit; response-first is a working test priority, not a derived physical law.
 - `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md` — controlling
   `X_max` correction: a working observer-pair positional-dilation asymptote, not a boundary.
+- `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv` — controlling
+  plural mass-branch route: distinct conditional F01/F02 geometry families, conditional F04 Hopf
+  model, and the four supporting/nonfamily dispositions.
 - `stability_branch_follow_256_DECISION.md` — durable particle operator/stability history, only when
   that separate lane is relevant.
 - `research/README.md` and `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` — lane navigation and

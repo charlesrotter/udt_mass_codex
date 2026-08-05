@@ -27,12 +27,33 @@ current scientific structure without reconstructing it from dozens of dated pack
 
 ## Conditional witnesses—not native closure
 
-- `F01` and `F02` are distinct conditional geometry-only mass-bearing families. Their response,
-  variation, boundary, global completion and persistence gates remain open at their recorded
-  scopes.
-- `F04` is a genuine full-3D Hopf-capable model with settled static finite-box stability only under
-  its round-`S2`, `L2+L4`, fixed-boundary and corrected-operator premises. Carrier emergence,
-  physical boundary, time persistence and native mass remain open.
+The controlling seven-entry branch map is
+`udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`. Its detailed
+family reconciliation and mechanism effects are
+`udt_post_july_mass_branch_reconciliation_2026-08-01/FAMILY_RECONCILIATION.tsv` and
+`udt_post_july_mass_branch_reconciliation_2026-08-01/MECHANISM_EFFECT_MATRIX.tsv`.
+
+- `F01` is a conditional geometry-only mass-bearing family. Its integrated-moduli branch has four
+  labeled nonzero candidate mass readings, but pointwise variation removes the nonzero branch.
+  Native response/variation ownership, physical boundary, complete wall Hessian, persistence and
+  promotion of any reading to physical mass remain open.
+- `F02` is a different conditional geometry-only landing with a sector dichotomy. Three candidate
+  readings agree conditionally while the wall reading vanishes; jet stiffness can repair the tested
+  sector, whereas cyclic/fold completion can remove the nonzero branch. The coefficients, response,
+  seam law, full realization, physical boundary, persistence and physical mass remain open.
+- `F04` is a separate genuine full-3D Hopf-capable model with settled static finite-box stability
+  only under its round-`S2`, `L2+L4`, fixed-boundary and corrected-operator premises. It is not a
+  metric-only mass branch. Carrier emergence, physical boundary, time persistence and native mass
+  remain open.
+- `F03`, `F05`, `F06`, and `F07` are not additional realized mass families: they are respectively a
+  control stratum, a cross-cutting completion classifier, exact empty scopes under registered
+  premises, and formal static/time/angular modules without a common nonzero on-shell object.
+
+These entries are a plural survivor map, not a tournament for one winning branch. Additional
+response, variation, completion, boundary and stability structure may preserve, modify or eliminate
+conditional members. No candidate reading is yet unconditional physical UDT mass, and distinct
+survivors may ultimately belong to different sectors.
+
 - The projector `L2/L4` correspondence is an exact conditional geometric bridge after a rank-one
   reduction is supplied. The metric has not selected that reduction, both response requirements,
   their coefficient, or the carrier.
@@ -123,5 +144,7 @@ Read in this order:
 2. `HANDOFF.md` current block;
 3. this file;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`;
-5. `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`;
-6. the exact parent evidence routed by that audit only when load-bearing.
+5. `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv` when mass,
+   stability, branch, or response work is relevant;
+6. `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`;
+7. the exact parent evidence routed by those controls only when load-bearing.

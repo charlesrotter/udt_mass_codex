@@ -24,6 +24,9 @@ operational instructions but cannot overrule `LIVE.md`.
   result routed by that program.
 - `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md` — controlling
   working positional-dilation asymptote frame; its realization and value remain open.
+- `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv` — current
+  seven-entry plural mass-branch authority map; it preserves distinct conditional witnesses without
+  selecting a unique branch or promoting candidate readings to physical mass.
 - `research/README.md` — research-lane navigation.
 - `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` — current paths for the fixed-base artifact set.
 - `INDEX.md` — concise control, lane, ledger, and archive map.
