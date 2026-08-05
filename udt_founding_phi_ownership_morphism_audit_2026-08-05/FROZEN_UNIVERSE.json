@@ -1,0 +1,13 @@
+{
+  "candidate_universe_sha256": "be3c14ddd6ad3fbfc224c79e8ddd65b6d8ddfd2530e5a94a7842f6ffdf54fb8e",
+  "falsification_contract_sha256": "3b6da3b8697ee543e7aa13a9038b73247695f7c45f74f1ce9e3b191d29815661",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "premise_ledger_sha256": "9c72cec308e64e7558d93cfc29bb8551f867ddd2f691c998ccc580ef9caa3c57",
+  "preregistration_commit": "c07e1b4e6870bde1476f2aef301d0e5e42b8592c",
+  "python": "3.10.12",
+  "schema": "udt.founding_phi_ownership.frozen_universe.v1",
+  "source_count": 31,
+  "source_manifest_sha256": "6619c6acf5fa6433fa3cb4c398baa95f51dfa77050a6783498d22d5618c678cd",
+  "unrelated_untracked_count": 83,
+  "unrelated_untracked_metadata_sha256": "236c7cf1b8f7926330650390173f8379cff24a95600e00a2f3eb2219073675d9"
+}
