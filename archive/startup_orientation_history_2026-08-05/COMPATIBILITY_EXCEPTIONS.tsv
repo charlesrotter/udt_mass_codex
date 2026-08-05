@@ -1,0 +1,2 @@
+path	sha256	bytes	classification	reason	startup_status
+UDT_SCIENTIFIC_FRONTIER_2026-07-19.md	9128ddf72b32ef761295dcc6c370e7eb563ade8b34201c82f17989701887baef	101445	IMMUTABLE_HISTORICAL_COMPATIBILITY_PATH	many dated source inventories and verifiers read the exact root path and specific tokens	EXCLUDED_FROM_GENERIC_STARTUP

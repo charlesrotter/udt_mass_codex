@@ -1,0 +1,227 @@
+# UDT repository
+
+**⚠ CURRENT ORIENTATION SPINE (2026-08-05):** `LIVE.md` topmost block → `HANDOFF.md` current
+block → [`CURRENT_RESEARCH_PROGRAM.md`](CURRENT_RESEARCH_PROGRAM.md) → current premise registry →
+the [native-law order architecture audit](udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md) → the
+[`Xmax asymptotic-limit frame correction`](udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md)
+→ the
+[`relational-phi dependency regrade`](udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md)
+and its complete active ledger → the
+[`founding phi-ownership morphism audit`](udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md)
+and its exact evidence → the parent
+[`global phi ownership/overlap audit`](udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md)
+and its exact evidence → the parent
+[`same-solution phi/curvature compatibility audit`](udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md)
+and its exact evidence → the parent
+[`second-jet curvature-solder atlas`](udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md)
+→ the parent
+[`full-coframe first-jet/stratified-transition atlas`](udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md) → the parent
+[`complete-coframe extension/solvability audit`](udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md)
+→ the parent
+[`global/local reconstruction audit`](udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md)
+and its exact architecture/review →
+[`SCIENTIFIC_ARC_CHECKPOINT.md`](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
+and the
+[`full-coframe response-selection audit`](udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md)
+only when their parent evidence is load-bearing. The founding law is an exact relational reciprocal
+character on supplied ordered depth. A pointwise `phi` is a potential on the supplied factorized
+architecture, and the stationary Killing reduction is conditional. The general two-observer depth
+law must realize the working `X_max` positional-dilation asymptote; its exact profile, value and
+all-frame theorem remain open. Complete return, response, action, source, boundary, density closure,
+matter and dynamics remain open.
+
+
+This root is the control and navigation surface for the UDT research record.
+After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
+order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
+[`CURRENT_RESEARCH_PROGRAM.md`](CURRENT_RESEARCH_PROGRAM.md) →
+[`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
+[`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
+the [native-law order architecture audit](udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md)
+→
+the [Xmax asymptotic-limit frame correction](udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md)
+→
+the [relational-phi dependency regrade](udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md)
+→
+the [founding phi-ownership morphism audit](udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md)
+→ the [global phi ownership/overlap audit](udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md)
+→ the [same-solution phi/curvature compatibility audit](udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md)
+→ the [second-jet curvature-solder atlas](udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md)
+→ the [full-coframe first-jet/stratified-transition atlas](udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md)
+→
+the [complete-coframe extension/solvability audit](udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md)
+→
+the [global/local reconstruction audit](udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md)
+→ the [scientific-arc recovery checkpoint](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
+and its named evidence → the [full-coframe response-selection audit](udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md) → the [reciprocal path-composition audit](udt_reciprocal_path_composition_residual_audit_2026-08-04/AUDIT_REPORT.md), [native-law type audit](udt_native_law_home_codomain_ownership_audit_2026-08-04/AUDIT_REPORT.md), and [factorized local skeleton](udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md)
+only when their details are needed → earlier frontier and family evidence named by those files only
+when required by the active task → the targeted `CLAUDE.md`
+method sections and any task-triggered protocol → [`INDEX.md`](INDEX.md) top/current summary →
+`MEMORY.md` top/current pointer. `AGENTS.md`
+supplies operational instructions and binding research discipline, but it
+cannot overrule the topmost current-state block in `LIVE.md`.
+
+The current premise registry prevents older comparison atlases from silently becoming present UDT
+ontology. The founded object is the reciprocal character on supplied ordered depth; pointwise
+`phi` is a potential only on a supplied factorization, while the general observer-pair depth law is
+open. An independently varied scalar remains a chosen comparison control. The generic `F4[6]`
+metric quotient is an arena count, not the native UDT field or mode count. Strong local CSN is
+challenged/not-derived and inactive without explicit owner reauthorization; `c_E` and `G_obs`
+remain observational anchors. If the registry, `LIVE.md`, and a cited source disagree, stop.
+
+The reciprocal path-composition audit is complete. Composition rejects inconsistent free pair data,
+but all endpoint-potential depths obey it identically; path concatenation does not imply local
+closedness or global zero periods; and metric transport composes for every supplied metric. The
+composition route is therefore terminated absent a new source-backed physical depth or loop-return
+premise. Proposed next, not authorized, is only a brief decision audit of whether the existing
+global–local/bootstrap evidence already defines a concrete noncircular return map.
+
+The last pre-P4 result is the [higher-isometry reciprocal-plane ownership
+audit](udt_higher_isometry_plane_ownership_audit_2026-07-28/README.md). Universal unique-plane
+selection is refuted within its bounded stationary descended `R x T2` family by an exact smooth
+complete nonconstant-depth metric with two isometry-equivalent reciprocal planes. `span(K,V)` is
+uniquely robust only as an identity under independent variation across the whole free `(u,f,b)`
+family; generic fixed-profile uniqueness remains open. The exact principal-orbit response can mix
+that plane, and toric `S3` topology supplies two free circle lines rather than a selector. No
+physical branch or interpretation is selected. The [external-AI review
+brief](UDT_EXTERNAL_AI_REVIEW_BRIEF_2026-07-28.md) summarizes the live structure and eight open
+problem classes without authorizing a derivation.
+
+The parent [general-screen complete-cell
+atlas](udt_general_screen_complete_cell_atlas_2026-07-28/AUDIT_REPORT.md) remains the source for the
+one-area/two-shear angular vocabulary and the bounded twisted-`S3` nonparallel result.
+
+The parent [complete screen-response branch
+atlas](udt_complete_screen_response_branch_atlas_2026-07-28/AUDIT_REPORT.md) remains the registered
+branch census and owner of the prior frozen-shear diagnosis.
+
+The parent [historical angular-method salvage
+audit](udt_historical_angular_method_salvage_audit_2026-07-28/AUDIT_REPORT.md) remains the method
+source and restores no old particle or QCD physics.
+
+The parent [native global coframe-definition audit](udt_native_global_coframe_definition_audit_2026-07-28/AUDIT_REPORT.md)
+also supplies an append-only correction to the frozen P03 result. P03's internal
+57-source counts remain exact, but its repository-wide “only ultrastatic controls” statement is
+superseded because its freeze omitted the preexisting nonultrastatic family. P03-B remains stopped.
+The parent metric-natural selector audit remains controlling evidence for its exact partial no-go.
+No action, source, carrier, density/bootstrap equation, boundary functional, physical time
+evolution, canonization, reorganization, or GPU work is authorized by this checkpoint.
+
+The parent
+[bootstrap-aware clock/angular closure audit](udt_bootstrap_clock_angular_closure_audit_2026-07-24/AUDIT_REPORT.md)
+retains its exact conditional clock-projector, density-variation, and incomplete
+28-equation/12-completion results.
+
+When a scalar `phi` equation or profile is proposed, consult the
+[historical phi-equation salvage audit](udt_historical_phi_equation_salvage_audit_2026-07-24/AUDIT_REPORT.md).
+It retains the old document's exact static metric identities and conditional probe mathematics,
+while rejecting its screened action, scale, source, and universal-profile claims as native UDT.
+It is a supporting regression guard, not a new frontier or physics authority.
+
+For particle operator history after current orientation, consult
+[`stability_branch_follow_256_DECISION.md`](stability_branch_follow_256_DECISION.md). It is durable
+particle-lane evidence, not the global scientific frontier.
+
+[`INDEX.md`](INDEX.md) is the repository map; [`CANON.md`](CANON.md),
+[`NEGATIVES_REGISTRY.md`](NEGATIVES_REGISTRY.md), and
+[`PROVENANCE.md`](PROVENANCE.md) are the main status and evidence ledgers.
+
+## Prior scientific checkpoint — July 23, 2026
+
+The [July 23 scientific checkpoint](udt_scientific_consolidation_checkpoint_2026-07-23/SCIENTIFIC_CHECKPOINT.md)
+is the lean evidence-linked spine. It records the exact complete-metric frame rederivation,
+timelike boost/rotation `3+3`, general connection mixing, spacelike/null/zero causal changes, and
+the 12-by-5 finite-cell completion/causal cross. It also records the decisive limitation: no
+complete on-shell `(g,phi)` finite-cell branch has been supplied or selected.
+
+Common-Scale rescaling preserves the intrinsic `dphi` split but not its Levi-Civita mixing profile.
+The subsequent transport audit found that a local CSN-invariant connection exists on nonnull
+`dphi`, while exact natural and stabilizer families prevent physical uniqueness and the
+construction degenerates at null/zero strata. Its then-bounded seam was whether
+registered reciprocal/reversal/seal naturality selects one connection without an invented
+minimality premise. Complete action, source, boundary charge,
+representative, scale, bridge, carrier emergence, time-live matter law, and unconditional mass
+remain open. No follow-on work is automatic.
+
+## Prior scientific checkpoint — July 22, 2026
+
+The [metric-to-frontier reference](udt_metric_to_frontier_reference_2026-07-22/REFERENCE.md) was the
+July 22 evidence-linked scientific spine. It records reciprocal kinematics as derived with premise
+stamps; the bounded motif vocabulary and generic four-dimensional weave as observed; geometric
+projector transport as derived but not physical time; twelve retained global completion families
+with no selected quotient; conditional reciprocal-toric/Hopf compatibility; and the still-open
+carrier, action, source, boundary charge, mass, absolute-scale, and time-live joins. It introduces no
+new physics authority. Four cold external reviews returned `PASS-WITH-CAVEATS`; their append-only
+layer changes no frozen claim status. It records that the twelve global rows overlap, the Hopf sign
+remains conventional, simultaneity alone does not make density noncircular, and realization is
+mathematically prior to the action fork. Repository reorganization remains paused and no further
+content migration is authorized.
+
+The [global assembly atlas](udt_global_metric_assembly_atlas_2026-07-22/AUDIT_REPORT.md) remains a
+load-bearing prior metric map. Its then-leading recommended question was a source-only audit of
+whether bootstrap supplies an operational realization relation; a typed, nonduplicative bivector
+representation audit and a neutral cocycle/seam audit follow. No audit, solve, or GPU work follows
+automatically.
+
+## Prior scientific checkpoint — July 19, 2026
+
+The verified bootstrap, Reciprocity, infinite-c, optical-flow, co-presence, and GR-constraint
+selector chain is summarized in
+[`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`](UDT_SCIENTIFIC_FRONTIER_2026-07-19.md). The subsequent
+CPU-only [native Hopfion topology audit](native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md)
+found that the existing particle implementation is already a genuine full-3D Hopfion construction.
+The [reciprocal Hopf metric audit](null_section_hopfion_metric_audit_2026-07-19/AUDIT_REPORT.md) then
+found an exact Hopf-torus orbit-block compatibility witness, and the
+[angular–toric closure audit](angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md) proved that
+`S3` topology and free diagonal/anti-diagonal Hopf actions are unique only within explicitly
+supplied global toric eigencap premises. Registered UDT does not yet derive the first missing gate,
+transverse spatial reciprocal realization and periodicity; finite-cell cap completion is a separate
+conditional second gate. The round-`S2` carrier remains `POSIT` / `CONDITIONAL`, and carrier
+emergence, complete action/source/boundary law, time-live topology, and unconditional mass remain
+open. No follow-on derivation, time-live solve, carrier adoption, action choice, mass theorem,
+canonization, repository reorganization, or GPU work is authorized by this checkpoint.
+
+## Repository reorganization checkpoint R0–R1H
+
+R1E batch planning and R1F/B01 are complete as an audited checkpoint. Fixed historical inventories,
+preregistrations, planning records, and verification records remain immutable. Resolve current
+artifact locations through
+[`CURRENT_ARTIFACT_PATHS.tsv`](research/_registry/CURRENT_ARTIFACT_PATHS.tsv), not by rewriting those
+snapshots; use [`MIGRATION_LEDGER.tsv`](research/_registry/MIGRATION_LEDGER.tsv) for migration
+provenance. Five active artifacts moved byte-identically: the R1D S8 note and four behaviorally
+verified R1F macro verifiers.
+
+R1H is complete and verified. The authoritative effective overlay,
+[`CURRENT_CLASSIFICATION.tsv`](research/_registry/CURRENT_CLASSIFICATION.tsv), covers 1,114 stable
+identities/current paths: 101 `FAMILY_REVIEW_REQUIRED` at
+`BLOCKED_SCIENTIFIC_FAMILY_REVIEW_REQUIRED`, 32 `FAMILY_REVIEWED_BLOCKED` at
+`BLOCKED_IMMUTABLE_FAMILY_COMPANION`, one `IMMUTABLE_PATH`, and 980 `INHERITED_UNREVIEWED`. The fixed
+[`ROOT_OWNERSHIP.tsv`](research/_registry/ROOT_OWNERSHIP.tsv) and
+[`MIGRATION_READINESS.tsv`](research/_registry/MIGRATION_READINESS.tsv) remain unchanged historical
+snapshots. B02/B03 are withdrawn, no row is newly move-ready, and the five prior byte-identical
+moves remain the only completed content migrations. Further repository reorganization is
+**PAUSED** pending a later explicit dispatch.
+
+## Repository reorganization R0
+
+Phase R0 is an additions-only census and navigation proposal at base commit
+`bfa0b9a`. It does not authorize or execute any move, rename, deletion, physics
+change, or history rewrite. Start with the
+[`R0 audit report`](reorganization_r0/R0_AUDIT_REPORT.md), then consult the
+[`root inventory`](reorganization_r0/ROOT_FILE_INVENTORY.tsv),
+[`dependency summary`](reorganization_r0/DEPENDENCY_SUMMARY.md), and
+[`proposed directory tree`](reorganization_r0/PROPOSED_DIRECTORY_TREE.md).
+
+Frozen evidence packages and their historical records are immutable. Any later
+reorganization phase must preserve their bytes, manifests, and provenance.
+
+## Research lane index
+
+Phase R1C adds an ownership and navigation-only [research lane index](research/README.md). It does not move or copy research artifacts and does not create a new physics authority.
+
+## Repository reorganization R1A
+
+R1A supersedes the generic R0 tree proposal with a research-lane-first layout
+and executes only the independently gated first pre-July-1 archive batch. See
+the [`R1A audit index`](reorganization_r1a/README.md) and
+[`lane-first proposal`](reorganization_r1a/PROPOSED_DIRECTORY_TREE.md).

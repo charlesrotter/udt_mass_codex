@@ -1,0 +1,118 @@
+{
+  "archive_snapshots": {
+    "AGENTS": {
+      "bytes": 27287,
+      "path": "archive/startup_orientation_history_2026-08-05/AGENTS.pre_cleanup.md",
+      "sha256": "ca754afde36a0ff6cb6ffc47a65ed9c1d19889334ccbd7a1f82b5d636a46bb95"
+    },
+    "CLAUDE": {
+      "bytes": 24917,
+      "path": "archive/startup_orientation_history_2026-08-05/CLAUDE.pre_cleanup.md",
+      "sha256": "59b2b74da1e087a608bccdafdac24a8f902799c396e129e3720e8bb5670b1a2e"
+    },
+    "HANDOFF": {
+      "bytes": 106117,
+      "path": "archive/startup_orientation_history_2026-08-05/HANDOFF.pre_cleanup.md",
+      "sha256": "d103140cb43c547c04750f83636a3e9f7eba3a747653c7e581c5ed6f600c1410"
+    },
+    "INDEX": {
+      "bytes": 58179,
+      "path": "archive/startup_orientation_history_2026-08-05/INDEX.pre_cleanup.md",
+      "sha256": "9af54308d17322d59e8de610dd109a5aa8df38e52c9c657cc2c2383a7728ab7a"
+    },
+    "LIVE": {
+      "bytes": 112658,
+      "path": "archive/startup_orientation_history_2026-08-05/LIVE.pre_cleanup.md",
+      "sha256": "e5799c95824a5877cfedbd625b67ed6e68559f9becbf7541561333f0903e72b2"
+    },
+    "MEMORY": {
+      "bytes": 20764,
+      "path": "archive/startup_orientation_history_2026-08-05/MEMORY.pre_cleanup.md",
+      "sha256": "8c25ba692a5c6117930c15e0e23b8354cb4575cda42edae94792dd09ae6f69d8"
+    },
+    "README": {
+      "bytes": 16262,
+      "path": "archive/startup_orientation_history_2026-08-05/README.pre_cleanup.md",
+      "sha256": "239c0e3c64b283feaadaacabc9a3e29e4db003bff082eee38d6f4d3a1317f5f4"
+    },
+    "REGISTRY_README": {
+      "bytes": 4734,
+      "path": "archive/startup_orientation_history_2026-08-05/research_registry_README.pre_cleanup.md",
+      "sha256": "aeead8a0d928cbec33ad29f47f85440f63d43e790e05c3753100a3ae7efb50a4"
+    },
+    "RESEARCH_README": {
+      "bytes": 23190,
+      "path": "archive/startup_orientation_history_2026-08-05/research_README.pre_cleanup.md",
+      "sha256": "d0f6284a607e7d6f4c1cebcef3c65a75e6f8db5bdf4070a127443e97ac9e1b2c"
+    }
+  },
+  "catch_proofs": {
+    "archive_mutation_rejected": "CAUGHT",
+    "current_block_mutation_rejected": "CAUGHT",
+    "current_program_mutation_rejected": "CAUGHT",
+    "duplicate_marker_rejected": "CAUGHT",
+    "frontier_mutation_rejected": "CAUGHT",
+    "stale_prior_marker_rejected": "CAUGHT"
+  },
+  "links": {
+    "explicit_targets_checked": 8,
+    "markdown_links_checked": 6
+  },
+  "live_hygiene": {
+    "AGENTS.md": {
+      "bytes": 12311,
+      "lines": 197
+    },
+    "CLAUDE.md": {
+      "bytes": 22525,
+      "lines": 323
+    },
+    "HANDOFF.md": {
+      "bytes": 5795,
+      "lines": 89
+    },
+    "INDEX.md": {
+      "bytes": 2808,
+      "lines": 54
+    },
+    "LIVE.md": {
+      "bytes": 9739,
+      "lines": 135
+    },
+    "MEMORY.md": {
+      "bytes": 1582,
+      "lines": 29
+    },
+    "README.md": {
+      "bytes": 2094,
+      "lines": 41
+    },
+    "research/README.md": {
+      "bytes": 1999,
+      "lines": 38
+    },
+    "research/_registry/README.md": {
+      "bytes": 3907,
+      "lines": 54
+    }
+  },
+  "protected_dirty_metadata": {
+    "metadata_sha256": "131a923e58322166ab247d8f1d8216ca23c8c3119e9c22d126f1efeeb2d61c69",
+    "protected_paths": 83
+  },
+  "retained_fragments": {
+    "agents_binding_tail_sha256": "f158acb30e279adcac0cf85cd1ab213a577ec8ac9e0ea0bc384341146f55ce91",
+    "claude_method_prefix_sha256": "490a5a36aefd3b0c4bd45653dbd7c756e49d52d20af4d961e2a1567ec0c4e557",
+    "handoff_current_block_sha256": "7f33605dfa0c56494ad409fd06b0ec1849154a105a9b17671f9abb540370d8f8",
+    "live_current_block_sha256": "e93f604de5d7f02b168997bc3cf103f5c01c5350ee7d8846d6ea939a50b1f1fd",
+    "memory_current_prefix_sha256": "ec0e688ff44fd56698e38659f18e6c07c82a6dffae142281db8a3de2b784183f",
+    "registry_durable_tail_sha256": "ca700f08a85006a53ecd451dc2cc00843ddc3b9156e77d17c480cc2819fe7e49"
+  },
+  "status": "PASS",
+  "unchanged_authorities": {
+    "CURRENT_RESEARCH_PROGRAM.md": "e2e47cb6283efa0404431902d7a7018177c1e285869385536fb0f6856d0b5691",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "4962841f868b6b86de525a91ad2534041c32cee8c27379d9567e7c903a14608f",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "0fa377cb50b775875dd8f2de95acb840f3d38183c71b54caef242a89cfc1fa13",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md": "9128ddf72b32ef761295dcc6c370e7eb563ade8b34201c82f17989701887baef"
+  }
+}

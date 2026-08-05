@@ -307,17 +307,38 @@ closed), the finite-cell canon (no spatial infinity; universe and matter
 cells are finite mirrored domains), and the discreteness-program
 redirect (nonstationary weld sector / transfer ladder / ensembles).
 
-
 ## Orientation
 
-- Work on `grok` and perform the exact synchronization/status sequence in `AGENTS.md`.
-- `LIVE.md` is the first read and wins every status disagreement. Follow it with `HANDOFF.md`,
-  `CURRENT_RESEARCH_PROGRAM.md`, and the current premise registry.
-- This file is binding method, not scientific status. Read only the sections triggered by the task.
-- Use `INDEX.md` and `MEMORY.md` as compact pointer checks after current authority is understood.
-- `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the byte-identical control snapshots under
-  `archive/startup_orientation_history_2026-08-05/` are historical evidence, not generic startup.
-- Current artifact locations come from `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; fixed R0-R1C
-  inventories remain historical snapshots.
-- Run `python3 -m pytest tests/` when verification is required; trust the current run rather than a
-  count copied into this charter.
+- **⚠ WORK IS ON THE `grok` BRANCH (as of 2026-08-04).** If the working tree isn't on grok, `git checkout grok`.
+  LIVE.md / HANDOFF.md / MEMORY.md / INDEX.md **on grok** are the current orientation; `main` is stale for this arc.
+- **`LIVE.md` (on grok) IS THE FIRST READ — the only guaranteed-current file** (frontier + next action). If
+  anything else disagrees with it, LIVE.md wins. Follow the bounded startup order in **`AGENTS.md`**:
+  current blocks in **LIVE → HANDOFF → scientific frontier → the current audit**, then only the
+  task-triggered **CLAUDE.md** method sections, protocol, and load-bearing evidence. Use
+  **INDEX/MEMORY** last as pointer checks. (No current `PURSUIT_CHARTER_*.md` — the latest is
+  SUPERSEDED; skip it.)
+- **Current state / frontier / pending decision: DO NOT TRACK IT HERE — this file goes stale (a 2026-07-04
+  dress rehearsal caught exactly this bullet describing an already-superseded "stability arc" frontier).**
+  The ONLY current sources are `LIVE.md` TOPMOST + `HANDOFF.md` TOP and the exact current
+  frontier/audit they name (there is NO current `PURSUIT_CHARTER_*.md` — the latest, 07-04, is
+  SUPERSEDED). CLAUDE.md is the BINDING METHOD (principles 1-7, how-we-work, DRIVER TRIGGERS, repo
+  discipline) — NOT the frontier. If you want to know what's done / what's next, follow the
+  bounded `AGENTS.md` order, never this bullet. **pytest on grok: 70 passed / 1 xfailed / 0 failed** — 37
+  byte-identical legacy `simple_metric_*` documents and their exact 88 hygiene omissions are guarded
+  by `hygiene_baseline_correction_2026-07-23/HYGIENE_LEGACY_BACKLOG.tsv`; new omissions remain hard
+  failures. Run `python3 -m pytest tests/` and trust the live count.
+- **SUBSUMED / HISTORICAL trackers (do NOT treat as the live frontier — moved to `archive/` or tagged):**
+  COMPLETION_PROGRAM.md, SOLVER_COMPLETENESS_MAP.md, POST_POSTULATE_PROGRAM.md, MIGRATION.md, REORG_PLAN.md,
+  and the FOUNDATIONAL_ASSUMPTIONS_LEDGER.md F0-F8 scoreboard — all superseded by the static-solver
+  completion above. STATE.md = a long running LAB-LOG (mine for history; its TOP frontier may be stale —
+  LIVE.md is the frontier). The DERIVED-operator arc docs (native_dilation_weight_derivation,
+  matter_regrade_derived_operator, F2_matter_action_forcedness, seal_junction_condition, the F-closure
+  docs) remain the FOUNDATION record — BUT mine only the SURVIVING sections: per the 2026-07-06 macro-spine
+  pass, `native_dilation_weight_derivation` §5-7 is SPLIT/SUPERSEDED (the X=−2e5 scalar-tensor birthplace),
+  and `matter_regrade_derived_operator` + F1F3_closure + F5_critical_universe_closure are SUPERSEDED/CC (see
+  their in-file banners + `macro_spine_provenance_2026-07-06.md` / `pre_native_era_census.md`).
+- **Durable records (current):** CANON.md (Charles-canonized, append-only); NEGATIVES_REGISTRY.md
+  (scoped negatives w/ premise sets — check every push). Main research record: negative_phi_native_geometry.md
+  (pre-spectrum) + particle_spectrum_native_geometry.md (spectrum stage). Audit/prosecution record:
+  mass_emergence_canonical_geometry.md (binding Self-Hardening Protocol — re-read before editing it).
+- Legacy (superseded, mine for structure only): udt_canonical_geometry.md via legacy_hadron_survivor_filter.md.

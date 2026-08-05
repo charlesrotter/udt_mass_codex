@@ -1,15 +1,25 @@
 # Research registry semantics
 
-These tables govern artifact navigation and reorganization classification; they do not govern
-scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
-`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current bounded
-law-order result is `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`. A conflict
-between these controls and a cited source is a mandatory stop.
+This directory's tables govern artifact navigation and reorganization classification. They do not
+govern scientific premise meanings. For current scientific source precedence use
+[`CURRENT_SCIENTIFIC_PREMISES.tsv`](../../CURRENT_SCIENTIFIC_PREMISES.tsv), after reading
+[`LIVE.md`](../../LIVE.md) and [`HANDOFF.md`](../../HANDOFF.md). Its human-readable explanation is
+[`CURRENT_SCIENTIFIC_PREMISES.md`](../../CURRENT_SCIENTIFIC_PREMISES.md). A conflict is a mandatory
+stop. The scientific registry does not rewrite any fixed reorganization snapshot.
 
-The dated scientific checkpoint prose formerly embedded here is preserved in
-`archive/startup_orientation_history_2026-08-05/research_registry_README.pre_cleanup.md`. The
-registry facts below remain the current reorganization/navigation semantics and do not create
-scientific authority.
+The current scientific correction overlay is the
+[`relational-phi dependency regrade`](../../udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md).
+It changes scientific interpretation and current premise guards only; it does not alter any
+reorganization registry, stable artifact identity or fixed snapshot.
+
+The current scientific checkpoint is
+[`udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`](../../udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md).
+It updates bootstrap premise `G12` through the scientific-premise registry only; it does not change
+any reorganization registry or fixed artifact identity. The founded reciprocal character acts on
+supplied ordered depth; pointwise `phi` is a potential on the supplied factorized architecture;
+the stationary Killing reduction is conditional; and the general observer-pair depth law remains
+open. The global-overlap, same-solution, second-jet, first-jet and smooth-extension audits remain
+scientific parents.
 
 `ROOT_OWNERSHIP.tsv` and `MIGRATION_READINESS.tsv` are fixed-base R1C audit snapshots. Their
 `current_path` field names the path that existed at the R1C fixed base; it is not rewritten after a
