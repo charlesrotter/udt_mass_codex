@@ -1,0 +1,7 @@
+{
+  "current_foundation_conditional": 3,
+  "historical_retained": 251,
+  "identity_sha256": "e85e3a26940e9369dd7ff6b24da33c2cac493de9f19084e671d9f48870fc4e98",
+  "rows": 254,
+  "schema": "udt.relational_phi_regrade.date_rule_adjudication.v1"
+}
