@@ -4,18 +4,23 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-04, full second-jet curvature atlas; physical return open)
+## TOP — CURRENT POINTER (2026-08-04, same-solution local join conditional; physical phi ownership open)
 
 Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
-`udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md` and its exact evidence. The
-complete coframe second jet reaches all metric Hessians and the full 20-dimensional algebraic
-curvature module. The supplied local split has one Bianchi relation, a screen/mixing/base ensemble
-requirement, and plural causal tidal quotients. The source and `dphi` axes have no derived
-same-solution physical join.
+`udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md` and its exact
+evidence. In supplied F01/F02 factorized architectures, fixed founded-depth first jets and arbitrary
+algebraic curvature coexist in one regular local two-jet. The restricted family ranks are
+`19/19/8/10/10`. An exact released-reference kernel shifts `phi` and its jets without changing the
+complete coframe, so physical depth ownership remains open.
 
-This is not physical time evolution and derives no unique solder or bootstrap return. Differential
-or global compatibility is only a possible next bounded question. No action, source, density,
-time-live solve, long computation or GPU work follows automatically.
+This is not physical time evolution and derives no selected section, solder or bootstrap return. An
+overlap/global ownership audit is only a possible next bounded question. No action, source,
+density, time-live solve, long computation or GPU work follows automatically.
+
+## PRIOR TOP — full second-jet curvature atlas; physical return open
+
+Read `udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md` when its complete curvature
+map, local source ensembles or causal tidal quotients are load-bearing.
 
 ## PRIOR TOP — full first jet released; joint causal strata derived
 

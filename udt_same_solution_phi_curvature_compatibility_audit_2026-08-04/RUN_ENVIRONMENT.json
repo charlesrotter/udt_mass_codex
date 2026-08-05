@@ -1,0 +1,13 @@
+{
+  "date": "2026-08-04",
+  "execution": "CPU only",
+  "primary": "Python 3.10 with SymPy 1.13.1",
+  "independent": "Python 3.10 standard library fractions.Fraction",
+  "base": "a353af410e84abc1982401d9367e0845a1b1458d",
+  "preregistration_commit": "7c99952f",
+  "universe_freeze_commit": "32222612",
+  "fresh_reviewer": "Codex gpt-5.4 read-only high reasoning",
+  "fresh_review_verdict": "ACCEPTED",
+  "gpu_used": false,
+  "long_solve_used": false
+}

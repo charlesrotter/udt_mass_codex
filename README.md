@@ -2,8 +2,10 @@
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-04):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry → the
-[`second-jet curvature-solder atlas`](udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md)
+[`same-solution phi/curvature compatibility audit`](udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md)
 and its exact evidence → the parent
+[`second-jet curvature-solder atlas`](udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md)
+→ the parent
 [`full-coframe first-jet/stratified-transition atlas`](udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md) → the parent
 [`complete-coframe extension/solvability audit`](udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md)
 → the parent
@@ -12,11 +14,11 @@ and its exact architecture/review →
 [`SCIENTIFIC_ARC_CHECKPOINT.md`](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
 and the
 [`full-coframe response-selection audit`](udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md)
-only when their parent evidence is load-bearing. The complete local second jet reaches the full
-algebraic curvature module. The supplied local split exposes one Bianchi join, a necessary
-screen/mixing/base ensemble, and plural causal tidal quotients. This is configuration-space
-geometry, not physical evolution. The same-solution `phi`/curvature assignment, complete return,
-response, action, source, density closure, matter and dynamics remain open.
+only when their parent evidence is load-bearing. The supplied factorized architecture admits fixed
+founded-depth first jets and arbitrary algebraic curvature in one local two-jet, but an exact
+reference-factorization freedom prevents the complete coframe from identifying the physical
+`phi` assignment. This is configuration-space geometry, not physical evolution. Global ownership,
+complete return, response, action, source, density closure, matter and dynamics remain open.
 
 
 This root is the control and navigation surface for the UDT research record.
@@ -24,7 +26,8 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
-the [second-jet curvature-solder atlas](udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md)
+the [same-solution phi/curvature compatibility audit](udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md)
+→ the [second-jet curvature-solder atlas](udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md)
 → the [full-coframe first-jet/stratified-transition atlas](udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md)
 →
 the [complete-coframe extension/solvability audit](udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md)

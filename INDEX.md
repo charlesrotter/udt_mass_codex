@@ -3,26 +3,35 @@
 **⚠ BRANCH: `grok` (2026-08-04)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC CHECKPOINT — COMPLETE SECOND-JET CURVATURE ATLAS; LOCAL BRIDGE; EVOLUTION OPEN:**
-Read `udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md`, then its exact derivation,
-operation/hypothesis/joint-ownership ledgers, completeness map, verifier, fresh review, closure and
-four gates. Use the first-jet, smooth-extension and global/local audits as parents.
+**➤ CURRENT SCIENTIFIC CHECKPOINT — SAME-SOLUTION LOCAL JOIN CONDITIONAL; PHYSICAL PHI OWNERSHIP OPEN:**
+Read `udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md`, then its exact
+derivation, family/ownership ledgers, primary and independent implementations, inverse witnesses,
+verifier, accepted fresh review and four gates. Use the second-jet, first-jet, factorized-skeleton
+and query-bundle audits as parents.
 
-On the regular point-local tile, the complete coframe second jet maps onto all 100 metric Hessian
-components and the full 20-dimensional algebraic curvature module. In the supplied `2+2` split,
-all six curvature blocks occur and their 21 displayed entries obey only the single algebraic
-Bianchi relation. Source image ranks are founded/base/screen/mixing `8/11/14/18`; full rank requires
-screen, mixing and one base family.
+On the regular point-local tile, the registered factorized complete-coframe architecture carries a
+fixed founded-depth first jet and arbitrary algebraic curvature in the same local two-jet. F01 and
+determinant-one-screen F02 each have exact rank 20 in zero, timelike, spacelike and nonzero-null
+strata. Exact 20-by-20 rational inverses certify surjection.
 
-For supplied `p=dphi`, the depth tensor ranks are `3/3/1/0` and unrestricted tidal image dimensions
-are `6/6/3/0`. The null form is intrinsic on its quotient screen. The source and `dphi` axes are
-not yet joined as one physical solution.
+The restricted ranks are F03/F04 `19/19`, spectator F05 `8`, and locked angular/shift F06/F07
+`10/10`. F03 adds `R_2323=0`; F04 adds `R_0123=0`. The locked ranks reveal real sector interaction
+without selecting a lock or a physical law.
+
+Releasing the reference coframe gives an exact factorization redefinition that shifts `phi` and
+its jets while leaving the complete coframe fixed. Thus the local compatibility caveat is closed,
+but physical founded-depth ownership and assignment remain open.
+
 Exact verdict:
-`DERIVED_COMPLETE_SECOND_JET_CURVATURE_SURJECTION__DERIVED_SINGLE_BIANCHI_RECIPROCAL_ANGULAR_BLOCK_RELATION__DERIVED_CAUSAL_STRATUM_TIDAL_QUOTIENTS__NO_UNIQUE_CURVATURE_SOLDER_OR_KINEMATIC_EVOLUTION_RETURN`.
+`DERIVED_FACTORIZATION_NONIDENTIFIABILITY__CONDITIONAL_FULL_LOCAL_PHI_CURVATURE_COMPATIBILITY_IN_F01_F02__DERIVED_RESTRICTED_FAMILY_CODIMENSIONS__NO_METRIC_NATIVE_PHI_ASSIGNMENT_OR_CURVATURE_SELECTION`.
 
-This is not physical time evolution and supplies no unique solder, action, source, boundary,
-density return, `X_max`, matter or mass. A differential/global compatibility audit is only a next
+This is not physical time evolution and supplies no unique section, solder, action, source,
+boundary, density return, `X_max`, matter or mass. An overlap/global ownership audit is only a next
 decision; it is not launched automatically.
+
+**➤ PARENT SCIENTIFIC CHECKPOINT — COMPLETE SECOND-JET CURVATURE ATLAS; LOCAL BRIDGE:**
+Read `udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md` when the full curvature map,
+split-relative source ensembles or tidal quotients are load-bearing.
 
 **➤ PARENT SCIENTIFIC CHECKPOINT — COMPLETE FIRST-JET ORCHESTRA; JOINT CAUSAL STRATA:**
 Read `udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md` when the

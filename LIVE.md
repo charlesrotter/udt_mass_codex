@@ -4,63 +4,69 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-04).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
-## ============ CURRENT STATE (2026-08-04 — COMPLETE SECOND-JET CURVATURE ATLAS; LOCAL MIXING BRIDGE; PHYSICAL RETURN OPEN) ============
+## ============ CURRENT STATE (2026-08-04 — SAME-SOLUTION LOCAL JOIN CLOSED CONDITIONALLY; PHYSICAL PHI OWNERSHIP AND RETURN OPEN) ============
 **READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
-`udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md` → its exact derivation,
-operation/hypothesis/joint-ownership ledgers, verifier, fresh review and closure → the first-jet,
-smooth-extension and global/local parents only when load-bearing.
+`udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md` → its exact
+derivation, family/ownership ledgers, primary and independent implementations, inverse witnesses,
+verifier and accepted fresh review → the second-jet, first-jet, factorized-skeleton and query-bundle
+parents only when load-bearing.
 
-**CURRENT HONEST RESULT:** on the preregistered regular point-local tile, the complete coframe second
-jet reaches every metric second jet and therefore the full 20-dimensional algebraic curvature
-module: `160 -> 100` rank/nullity `100/60`, `100 -> 20` `20/80`, and `160 -> 20` `20/140`. This
-reproduces rather than supersedes the July 21 P02 curvature theorem.
+**CURRENT HONEST RESULT:** the parent atlas's separate supplied-`dphi` and curvature axes can be
+realized in one and the same local two-jet inside the registered factorized complete-coframe
+architecture. With a frozen supplied reference, the full eight-generator family F01 and the
+determinant-one-screen family F02 both have exact curvature rank `20/20` for zero, timelike,
+spacelike and nonzero-null founded-depth first jets. Exact rational right-inverse witnesses show
+surjection onto the full algebraic Riemann module.
 
-In the supplied local `2+2` split, all six curvature block classes are available. Their 21 displayed
-symmetric-bivector entries obey exactly one relation,
-`R_(01)(23)-R_(02)(13)+R_(03)(12)=0`, the algebraic Bianchi identity. Source-family image ranks are
-founded `8`, other base `11`, screen `14`, mixing `18`. Full rank needs screen plus mixing plus one
-base family; founded depth can fill that base role but is not uniquely selected. This is a local,
-split-relative algebraic bridge, not a physical mixing law.
+Restricted family ranks are F03/F04 `19/19`, founded spectator F05 `8`, and the one-field locked
+angular/shift counterfamilies F06/F07 `10/10`. F03 has the extra local relation `R_2323=0`; F04 has
+`R_0123=0`, in addition to Bianchi. The rank-10 locks are real reciprocal/angular and
+reciprocal/mixing curvature interactions, but neither lock is selected or curvature-complete.
 
-**STRATIFIED RESULT:** for supplied `p=dphi`, `N=sI-p^sharp tensor p` obeys `N^2=sN` and has ranks
-`3,3,1,0` on timelike, spacelike, nonzero-null and zero strata. The unrestricted tidal spaces have
-dimensions `6,6,3,0`; the null form descends intrinsically to `p_perp/span(p^sharp)`. No tensor,
-sign, eigenline, repeated direction or branch is selected.
+**OWNERSHIP RESULT:** releasing the reference coframe exposes the exact finite redefinition
+`phi -> phi+chi`, `S -> S D(chi)`, `bar_theta -> diag(D(chi)^-1,I)bar_theta`, which leaves the
+complete coframe unchanged. The first-jet map has per-direction rank/nullity `16/8`; the fixed-first-
+jet second map has the same per-slot `16/8`. Explicit kernels shift `dphi` or its Hessian into the
+reference presentation. This proves factorization non-identifiability, not a physical gauge law.
 
-**OWNERSHIP CAVEAT:** the normal-frame source atlas and supplied-`dphi` tidal atlas are two local
-algebraic axes over the same complete curvature module. Their realization by one physical coframe
-solution is `SAME_SOLUTION_JOIN_OPEN_NOT_DERIVED`.
+**WHAT CLOSED / WHAT DID NOT:** local algebraic same-solution existence is closed conditionally in
+F01/F02; no hidden two-jet integrability gap was found. The complete coframe still does not identify
+the physical founded-depth assignment, because the reference/section ownership rule remains open.
+Local compatibility does not select a family, curvature, observer assignment or physical solution.
 
 **BOUNDED VERDICT:**
-`DERIVED_COMPLETE_SECOND_JET_CURVATURE_SURJECTION__DERIVED_SINGLE_BIANCHI_RECIPROCAL_ANGULAR_BLOCK_RELATION__DERIVED_CAUSAL_STRATUM_TIDAL_QUOTIENTS__NO_UNIQUE_CURVATURE_SOLDER_OR_KINEMATIC_EVOLUTION_RETURN`.
+`DERIVED_FACTORIZATION_NONIDENTIFIABILITY__CONDITIONAL_FULL_LOCAL_PHI_CURVATURE_COMPATIBILITY_IN_F01_F02__DERIVED_RESTRICTED_FAMILY_CODIMENSIONS__NO_METRIC_NATIVE_PHI_ASSIGNMENT_OR_CURVATURE_SELECTION`.
 
-**MASS/STABILITY/BOOTSTRAP CONSEQUENCE:** the working bootstrap picture now has a richer local
-curvature atlas, but still no return law. F01/F02 remain separate conditional geometry-only
-mass-bearing routes; F04 remains the carrier/action-conditional static finite-box Hopf result. No
-native family, source, carrier, boundary, density window, mass, species, or dynamics is promoted.
+**MASS/STABILITY/BOOTSTRAP CONSEQUENCE:** one local compatibility obstruction has been removed, but
+the working bootstrap posit still has no physical ownership or return law. F01/F02 remain separate
+conditional geometry-only mass-bearing routes; F04 remains the carrier/action-conditional static
+finite-box Hopf result. No native family, source, carrier, boundary, density window, mass, species,
+or dynamics is promoted.
 
-**NEXT BOUNDED DECISION — NOT LAUNCHED AUTOMATICALLY:** decide whether to test differential/global
-compatibility of the exact local mixing and tidal structures, or recognize that metric-only local
-jet reduction has stopped until the same-solution `phi` assignment or a stronger falsifiable
-bootstrap premise is supplied. No third-jet, long solve, GPU, density scan or time-live claim follows.
+**NEXT BOUNDED DECISION — NOT LAUNCHED AUTOMATICALLY:** decide whether the founded observer-query
+comparison and the factorized coframe supply a differential/global ownership rule for depth that is
+equivariant on overlaps and consistent around finite cells. This must characterize all admitted
+sections, not choose a desired branch. No third-jet, action, source, long solve, GPU, density scan or
+time-live claim follows.
 
 **PREMISE STAMPS:** founded `phi`, reciprocal pair action and composition `DERIVED`; `c_E/G_obs`
 `OBSERVED`; complete coframe `DEFINED_CONFIGURATION_ARCHITECTURE`; global/local mutual
-admissibility `WORKING_POSIT`; full first and second local jets `DERIVED_SURJECTIVE`; Bianchi block
-join and causal tidal quotients `DERIVED_LOCAL_SUPPLIED_SPLIT`; same-solution `phi`/curvature join,
-physical path, global return, action, source, boundary, `X_max`, unconditional matter/mass and
-dynamics `OPEN`; `S2` carrier `POSIT`.
+admissibility `WORKING_POSIT`; local same-solution `phi`/curvature compatibility
+`CONDITIONAL_ON_SUPPLIED_FACTORIZED_REALIZATION`; factorization non-identifiability `DERIVED`;
+physical `phi` ownership/assignment, global return, action, source, boundary, `X_max`, unconditional
+matter/mass and dynamics `OPEN`; `S2` carrier `POSIT`.
 
 **AUTHORITY BOUNDARY:** no action, response, source, carrier, density, boundary, completion, branch,
 mass, species, `X_max`, physical evolution, observation fit, GPU work, canonization or repository
 reorganization follows.
 
-**EVIDENCE:** preregistration `8d69fdf1`; frozen universe `da8379f2`; primary SymPy 1.13.1 and
-independent standard-library exact replays agree; verifier `13/13` with `28/28` mutations caught;
-27 base-source hashes, 17 sectors, 14 strata, 25 observables, 12 operations and 26 premises; fresh
-read-only `gpt-5.4` `PASS_WITH_CAVEATS` followed by `ACCEPTED` repair review, both with zero blocking errors. Six frozen manifests/127
-members/133 paths, 1,114 current paths, 101 frontier targets, tests `70 passed, 1 xfailed`, and the
-83 unrelated untracked metadata identities pass.
+**EVIDENCE:** preregistration `7c99952f`; frozen universe `32222612`; primary SymPy 1.13.1 and
+independent standard-library rational replays agree; three exact rank-20 inverse witnesses;
+verifier `23/23` with `16/16` mutations caught; 28 base-source hashes, five ownership architectures,
+nine families, thirteen jet/stratum rows, nine observables, ten operations and twelve premises;
+fresh read-only `gpt-5.4` review `ACCEPTED` with no repairs. Six frozen manifests/127 members/133
+paths, 1,114 current paths, 101 frontier targets, tests `70 passed, 1 xfailed`, and the 83 unrelated
+untracked metadata identities pass.
 
 <!-- STARTUP_CURRENT_END -->
 

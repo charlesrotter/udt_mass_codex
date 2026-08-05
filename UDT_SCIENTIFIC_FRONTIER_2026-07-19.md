@@ -4,6 +4,23 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 4 same-solution founded-depth/curvature precedence notice
+
+This long file is historical context, not the current checkpoint. Current orientation is
+`LIVE.md` → `HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
+`udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md` and its exact
+evidence.
+
+On the bounded regular local tile, the supplied F01/F02 factorized architectures carry fixed
+founded-depth first jets and arbitrary algebraic curvature in one two-jet. Restricted family ranks
+are `19/19/8/10/10`. Releasing the reference coframe exposes exact factorization
+non-identifiability: `phi` and its jets can shift without changing the complete coframe. The local
+compatibility obstruction is closed conditionally; physical depth ownership, global overlap,
+response/evolution and the complete bootstrap return remain open.
+
+Exact bounded verdict:
+`DERIVED_FACTORIZATION_NONIDENTIFIABILITY__CONDITIONAL_FULL_LOCAL_PHI_CURVATURE_COMPATIBILITY_IN_F01_F02__DERIVED_RESTRICTED_FAMILY_CODIMENSIONS__NO_METRIC_NATIVE_PHI_ASSIGNMENT_OR_CURVATURE_SELECTION`.
+
 ## August 4 second-jet curvature-solder precedence notice
 
 This long file is historical context, not the current checkpoint. Current orientation is

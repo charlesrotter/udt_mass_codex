@@ -8,12 +8,13 @@ govern scientific premise meanings. For current scientific source precedence use
 stop. The scientific registry does not rewrite any fixed reorganization snapshot.
 
 The current scientific checkpoint is
-[`udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md`](../../udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md).
+[`udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md`](../../udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md).
 It updates bootstrap premise `G12` through the scientific-premise registry only; it does not change
-any reorganization registry or fixed artifact identity. The complete local second jet reaches the
-full algebraic curvature module, while the selected split, same-solution `phi`/curvature join,
-physical evolution and complete native return remain open. The first-jet and smooth extension
-audits remain scientific parents.
+any reorganization registry or fixed artifact identity. Supplied F01/F02 factorized architectures
+admit conditional local same-solution founded-depth/curvature compatibility, while exact
+factorization non-identifiability leaves physical `phi` ownership, global overlap, evolution and
+the complete native return open. The second-jet, first-jet and smooth-extension audits remain
+scientific parents.
 
 `ROOT_OWNERSHIP.tsv` and `MIGRATION_READINESS.tsv` are fixed-base R1C audit snapshots. Their
 `current_path` field names the path that existed at the R1C fixed base; it is not rewritten after a

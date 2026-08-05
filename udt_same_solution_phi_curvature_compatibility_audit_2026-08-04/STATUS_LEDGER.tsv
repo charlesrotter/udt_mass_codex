@@ -1,0 +1,13 @@
+claim_id	claim	status	scope	remaining_open
+R01	abstract reciprocal pair D(phi) and additive composition	DERIVED	founded rank-two representation	physical observer/path assignment and complete-coframe embedding
+R02	exact finite reference-factorization redefinition leaves theta unchanged	DERIVED	registered factorized presentation	redefinition is not promoted to physical gauge law
+R03	complete coframe alone identifies phi and its jets	OPEN	released-reference factorization	needs an independently owned reference/section rule
+R04	F01 full factorized curvature image has rank 20	DERIVED	supplied frozen-reference regular local two-jet	globalization and physical selection
+R05	F02 determinant-one screen curvature image has rank 20	DERIVED	supplied frozen-reference regular local two-jet	globalization and physical selection
+R06	F03 and F04 each have rank 19 and one extra curvature restriction	DERIVED	supplied restricted local two-jets	whether either family is physically owned
+R07	F05 spectator curvature image has rank 8	DERIVED	supplied direct-sum local two-jet	complete extension
+R08	F06 and F07 locked one-field images each have rank 10	DERIVED	supplied unit-lock counterfamilies	lock coefficient/form and physical ownership
+R09	family curvature rank is unchanged across zero/timelike/spacelike/nonzero-null dphi representatives	DERIVED	regular local tile with all allowed Hessians	stratum boundaries;rank loss;global behavior
+R10	founded depth and arbitrary algebraic curvature coexist in one F01/F02 local two-jet	CONDITIONAL	supplied factorized realization with frozen reference	native assignment and selection
+R11	independent scalar has a native curvature action	OPEN	comparison control	no action or coupling supplied
+R12	local compatibility derives response;evolution;bootstrap;action;source;matter	OPEN	outside bounded audit	all dynamical and global closure

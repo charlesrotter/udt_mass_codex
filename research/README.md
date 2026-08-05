@@ -2,16 +2,24 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
 
-## Current scientific spine — August 4 second-jet curvature-solder atlas
+## Current scientific spine — August 4 same-solution phi/curvature compatibility audit
+
+Read the [same-solution phi/curvature compatibility
+audit](../udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md), then its
+exact derivation, family/ownership ledgers, two exact implementations, inverse witnesses, verifier
+and accepted review. It closes conditional local coexistence of founded depth and curvature in
+supplied F01/F02 realizations, while exact factorization non-identifiability leaves physical `phi`
+ownership and assignment open. It does not select a split, response, evolution, action, source,
+matter or mass.
+
+No overlap/global ownership audit, time-live solve, density scan or GPU work is authorized
+automatically.
+
+## Parent scientific spine — August 4 second-jet curvature-solder atlas
 
 Read the [second-jet curvature-solder
-atlas](../udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md), then its exact
-derivation, operation/hypothesis/joint-ownership ledgers, verifier, review and closure. It reaches
-the full local algebraic curvature module and derives bounded split-relative ensemble and causal
-tidal structure. It does not select a split, same-solution `phi` join, response, evolution, action,
-source, matter or mass.
-
-No differential/global audit, time-live solve, density scan or GPU work is authorized automatically.
+atlas](../udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md) when the full local
+curvature map, source ensembles or causal tidal quotients are load-bearing.
 
 ## Parent scientific spine — August 4 full-coframe first-jet/stratified-transition atlas
 

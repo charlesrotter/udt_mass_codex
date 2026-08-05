@@ -32,13 +32,13 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md` — the current bounded
-   derivation. Then read its `EXACT_DERIVATION.md`, operation/hypothesis/joint-ownership ledgers,
-   completeness map, verifier, fresh review and closure as needed. It releases the complete local
-   second jet and full algebraic curvature module, but its reciprocal/angular mixing bridge is a
-   supplied-split local atlas and its source/`dphi` same-solution join remains open. It is not
-   physical evolution and supplies no unique solder or bootstrap return. Read the first-jet atlas
-   as its immediate local parent and
+4. `udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md` — the current
+   bounded derivation. Then read its `EXACT_DERIVATION.md`, family/ownership ledgers, two exact
+   implementations, inverse witnesses, verifier and accepted fresh review as needed. It proves
+   conditional local same-solution compatibility in the supplied F01/F02 factorized realizations
+   and exact reference-factorization non-identifiability. It does not select the physical `phi`
+   assignment, a section, response, evolution or bootstrap return. Read the second-jet and
+   first-jet atlases as immediate local parents and
    `udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md` as its immediate
    smooth fixed-rank parent when extension/Cartan nonselection is load-bearing. No next route is
    automatically authorized.
@@ -171,8 +171,16 @@ or a finite-`phi` result into an `X_max`, action, source, boundary, matter or ma
 and algebraic curvature directions. Its Bianchi relation, ensemble ranks, and tidal quotients are
 local algebraic structure only. Never turn the supplied `2+2` split into a selected physical split,
 the mixing category into a global field, or the separate normal-frame source and supplied-`dphi`
-atlases into a derived same-solution join, evolution equation, action, source, bootstrap return,
-matter or mass.
+atlases into a physical assignment, evolution equation, action, source, bootstrap return, matter
+or mass. The later same-solution audit closes only conditional local coexistence in supplied
+factorized families.
+
+`udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md` verifies that F01
+and F02 can carry fixed founded-depth first jets and arbitrary algebraic curvature in one regular
+local two-jet. Its exact factorization kernel also proves that the complete coframe alone does not
+identify the physical `phi` assignment when the reference presentation is released. Never promote
+conditional coexistence into a preferred section, a physical gauge law, global compatibility,
+response/evolution, bootstrap closure, action, source, matter or mass.
 
 The pre-P4
 higher-isometry audit refutes universal unique reciprocal-plane ownership within its bounded

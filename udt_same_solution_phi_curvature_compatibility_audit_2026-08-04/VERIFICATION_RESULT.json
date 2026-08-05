@@ -1,0 +1,196 @@
+{
+  "all_catches_pass": true,
+  "all_checks_pass": true,
+  "all_replays_exact": true,
+  "all_right_inverses_exact": true,
+  "catch_count": 16,
+  "catches": [
+    {
+      "catch_id": "C01",
+      "caught": true,
+      "description": "delete realization family"
+    },
+    {
+      "catch_id": "C02",
+      "caught": true,
+      "description": "promote supplied chart to selected section"
+    },
+    {
+      "catch_id": "C03",
+      "caught": true,
+      "description": "erase reference factorization kernel"
+    },
+    {
+      "catch_id": "C04",
+      "caught": true,
+      "description": "promote independent scalar to native"
+    },
+    {
+      "catch_id": "C05",
+      "caught": true,
+      "description": "freeze one depth Hessian universe"
+    },
+    {
+      "catch_id": "C06",
+      "caught": true,
+      "description": "change a family curvature rank"
+    },
+    {
+      "catch_id": "C07",
+      "caught": true,
+      "description": "omit nonzero-null causal stratum"
+    },
+    {
+      "catch_id": "C08",
+      "caught": true,
+      "description": "claim first-jet rank dependence"
+    },
+    {
+      "catch_id": "C09",
+      "caught": true,
+      "description": "promote existence to unique selection"
+    },
+    {
+      "catch_id": "C10",
+      "caught": true,
+      "description": "promote local algebra to physical time"
+    },
+    {
+      "catch_id": "C11",
+      "caught": true,
+      "description": "promote local algebra to bootstrap closure"
+    },
+    {
+      "catch_id": "C12",
+      "caught": true,
+      "description": "drift a fixed source hash"
+    },
+    {
+      "catch_id": "C13",
+      "caught": true,
+      "description": "delete assignment-open premise"
+    },
+    {
+      "catch_id": "C14",
+      "caught": true,
+      "description": "delete ownership operation"
+    },
+    {
+      "catch_id": "C15",
+      "caught": true,
+      "description": "falsely identify phi from coframe"
+    },
+    {
+      "catch_id": "C16",
+      "caught": true,
+      "description": "erase independent-scalar untyped status"
+    }
+  ],
+  "check_count": 23,
+  "checks": [
+    {
+      "check": "source_count_28",
+      "pass": true
+    },
+    {
+      "check": "source_hashes_exact_at_base",
+      "pass": true
+    },
+    {
+      "check": "architecture_count_5",
+      "pass": true
+    },
+    {
+      "check": "supplied_chart_not_selected",
+      "pass": true
+    },
+    {
+      "check": "independent_scalar_not_native",
+      "pass": true
+    },
+    {
+      "check": "family_universe_exact_9",
+      "pass": true
+    },
+    {
+      "check": "all_ten_depth_hessians_free",
+      "pass": true
+    },
+    {
+      "check": "causal_strata_frozen",
+      "pass": true
+    },
+    {
+      "check": "operation_universe_exact_10",
+      "pass": true
+    },
+    {
+      "check": "ownership_operation_retained",
+      "pass": true
+    },
+    {
+      "check": "premise_universe_exact_12",
+      "pass": true
+    },
+    {
+      "check": "assignment_remains_open",
+      "pass": true
+    },
+    {
+      "check": "primary_family_ranks_exact",
+      "pass": true
+    },
+    {
+      "check": "independent_family_ranks_match",
+      "pass": true
+    },
+    {
+      "check": "all_four_strata_each_typed_family",
+      "pass": true
+    },
+    {
+      "check": "causal_ranks_constant",
+      "pass": true
+    },
+    {
+      "check": "first_jet_only_affine_offset",
+      "pass": true
+    },
+    {
+      "check": "reference_factorization_kernel",
+      "pass": true
+    },
+    {
+      "check": "finite_redefinition_exact",
+      "pass": true
+    },
+    {
+      "check": "independent_scalar_untyped",
+      "pass": true
+    },
+    {
+      "check": "no_unique_selection_promotion",
+      "pass": true
+    },
+    {
+      "check": "no_time_or_bootstrap_promotion",
+      "pass": true
+    },
+    {
+      "check": "coframe_phi_not_identified",
+      "pass": true
+    }
+  ],
+  "replay": {
+    "independent_result_exact": true,
+    "primary_family_ledger_rows": 9,
+    "primary_result_exact": true,
+    "right_inverse_result_exact": true
+  },
+  "right_inverse_checks": {
+    "F01": true,
+    "F02": true,
+    "F08": true
+  },
+  "schema": "udt.same_solution_phi_curvature.verification.v1"
+}

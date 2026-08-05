@@ -70,5 +70,16 @@ has full plural `6,6,3,0` image dimensions across timelike, spacelike, nonzero-n
 This remains a local algebraic atlas. The split is not selected, and the normal-frame source atlas
 and supplied-`dphi` strata have no derived same-solution physical join, response or evolution law.
 
+The later same-solution founded-depth/curvature audit,
+`udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md`, closes that
+parent's narrow local-existence caveat. In the supplied factorized F01/F02 architectures, a fixed
+founded-depth first jet and arbitrary algebraic curvature admit one common regular local two-jet.
+Exact ranks are `20/20`; restricted F03/F04/F05/F06/F07 ranks are `19/19/8/10/10`, unchanged across
+zero, timelike, spacelike and nonzero-null representatives. Releasing the reference coframe gives
+an exact factorization kernel that shifts `phi` and its jets without changing the complete coframe.
+Thus physical observer/path-to-`phi` ownership, a global section, response/evolution and complete
+bootstrap return remain `OPEN`. Conditional local coexistence must not be promoted to a physical
+assignment or gauge law.
+
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

@@ -1,0 +1,83 @@
+{
+  "algebraic_Riemann_rank": 20,
+  "causal_stratum_ranks": {
+    "NONZERO_NULL": {
+      "F01": 20,
+      "F02": 20,
+      "F03": 19,
+      "F04": 19,
+      "F05": 8,
+      "F06": 10,
+      "F07": 10,
+      "F08": 20,
+      "F09": null
+    },
+    "SPACELIKE": {
+      "F01": 20,
+      "F02": 20,
+      "F03": 19,
+      "F04": 19,
+      "F05": 8,
+      "F06": 10,
+      "F07": 10,
+      "F08": 20,
+      "F09": null
+    },
+    "TIMELIKE": {
+      "F01": 20,
+      "F02": 20,
+      "F03": 19,
+      "F04": 19,
+      "F05": 8,
+      "F06": 10,
+      "F07": 10,
+      "F08": 20,
+      "F09": null
+    },
+    "ZERO": {
+      "F01": 20,
+      "F02": 20,
+      "F03": 19,
+      "F04": 19,
+      "F05": 8,
+      "F06": 10,
+      "F07": 10,
+      "F08": 20,
+      "F09": null
+    }
+  },
+  "coframe_only_phi_identifiable": false,
+  "factorization_kernel": {
+    "explicit_phi_kernel_zero": true,
+    "first_four_slot_nullity": 32,
+    "first_four_slot_rank": 64,
+    "per_slot_nullity": 8,
+    "per_slot_rank": 16,
+    "second_ten_slot_nullity": 80,
+    "second_ten_slot_rank": 160
+  },
+  "family_ranks": {
+    "F01": 20,
+    "F02": 20,
+    "F03": 19,
+    "F04": 19,
+    "F05": 8,
+    "F06": 10,
+    "F07": 10,
+    "F08": 20,
+    "F09": null
+  },
+  "finite_redefinition_check": {
+    "all_exact": true,
+    "rational_sample_count": 2
+  },
+  "implementation": "standard_library_Fraction_no_primary_import",
+  "physical_selection_derived": false,
+  "rank_independent_of_fixed_first_jet": true,
+  "same_solution_full_families": [
+    "F01",
+    "F02",
+    "F08"
+  ],
+  "schema": "udt.same_solution_phi_curvature.independent.v1"
+}

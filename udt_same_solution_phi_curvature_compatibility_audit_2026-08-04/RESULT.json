@@ -1,0 +1,263 @@
+{
+  "affine_curvature_theorem": {
+    "Hessian_coefficient_independent_of_first_jet": true,
+    "causal_type_or_amplitude_changes_rank_on_regular_tile": false,
+    "formula": "R=A(generator Hessians)+b(fixed zero/first jets)",
+    "scope": "fixed regular zero-jet coframe and supplied realization family"
+  },
+  "algebraic_Riemann_dimension": 20,
+  "base": "a353af410e84abc1982401d9367e0845a1b1458d",
+  "causal_strata": {
+    "NONZERO_NULL": {
+      "p": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "s": 0
+    },
+    "SPACELIKE": {
+      "p": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "s": 1
+    },
+    "TIMELIKE": {
+      "p": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "s": -1
+    },
+    "ZERO": {
+      "p": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": 0
+    }
+  },
+  "curvature_convention": "R_abcd=1/2(g_ad,bc+g_bc,ad-g_ac,bd-g_bd,ac)+first_jet_offset",
+  "factorization": {
+    "coframe_only_phi_extraction": "NOT_INVARIANT_UNDER_ALLOWED_REFERENCE_REDEFINITION",
+    "constructive_release_formulas": {
+      "arbitrary_phi_jets_can_share_fixed_complete_coframe_jet": true,
+      "interpretation": "FACTORIZATION_REDUNDANCY_NOT_PHYSICAL_SELECTION",
+      "reference_first_jet": "B_mu=X_mu-A_mu",
+      "reference_second_jet": "B_munu=T_munu-E_munu-A_mu B_nu-A_nu B_mu"
+    },
+    "exact_finite_redefinition": {
+      "L_chi": "diag(D(chi),I_2)",
+      "S_prime": "S D(chi)",
+      "bar_theta_prime": "L_chi^-1 bar_theta",
+      "identity": "E(phi+chi,D,S D(chi)) L_chi^-1 = E(phi,D,S)",
+      "phi_prime": "phi+chi",
+      "theta_unchanged": true
+    },
+    "product_rules": {
+      "all_cross_terms_retained": true,
+      "first": "theta_,mu=E_,mu bar_theta+E bar_theta_,mu",
+      "founded_E_first_at_identity": "E_,mu=p_mu H",
+      "founded_E_second_at_identity": "E_,munu=q_munu H+p_mu p_nu H^2",
+      "second": "theta_,munu=E_,munu bar_theta+E_,mu bar_theta_,nu+E_,nu bar_theta_,mu+E bar_theta_,munu"
+    },
+    "released_reference_first_jet": {
+      "explicit_phi_kernel_verified": true,
+      "four_derivative_nullity": 32,
+      "four_derivative_rank": 64,
+      "per_derivative_inputs": 24,
+      "per_derivative_nullity": 8,
+      "per_derivative_outputs": 16,
+      "per_derivative_rank": 16
+    },
+    "released_reference_second_jet_fixed_first_jets": {
+      "explicit_phi_hessian_kernel_verified": true,
+      "per_symmetric_slot_inputs": 24,
+      "per_symmetric_slot_nullity": 8,
+      "per_symmetric_slot_outputs": 16,
+      "per_symmetric_slot_rank": 16,
+      "ten_slot_nullity": 80,
+      "ten_slot_rank": 160
+    }
+  },
+  "families": [
+    {
+      "Bianchi_relation_present": true,
+      "algebraic_target_codimension": 0,
+      "causal_stratum_ranks": {
+        "NONZERO_NULL": 20,
+        "SPACELIKE": 20,
+        "TIMELIKE": 20,
+        "ZERO": 20
+      },
+      "curvature_rank": 20,
+      "display_relation_dimension": 1,
+      "extra_relations_beyond_Bianchi": 0,
+      "family_id": "F01",
+      "family_name": "FULL_FACTORIZED",
+      "first_jet_changes_only_affine_offset": true,
+      "ownership": "SUPPLIED_FACTORIZED_CHART",
+      "same_solution_class": "ALL_ALGEBRAIC_RIEMANN_AT_FIXED_DEPTH_FIRST_JET"
+    },
+    {
+      "Bianchi_relation_present": true,
+      "algebraic_target_codimension": 0,
+      "causal_stratum_ranks": {
+        "NONZERO_NULL": 20,
+        "SPACELIKE": 20,
+        "TIMELIKE": 20,
+        "ZERO": 20
+      },
+      "curvature_rank": 20,
+      "display_relation_dimension": 1,
+      "extra_relations_beyond_Bianchi": 0,
+      "family_id": "F02",
+      "family_name": "DET_ONE_SCREEN",
+      "first_jet_changes_only_affine_offset": true,
+      "ownership": "SUPPLIED_FACTORIZED_CHART",
+      "same_solution_class": "ALL_ALGEBRAIC_RIEMANN_AT_FIXED_DEPTH_FIRST_JET"
+    },
+    {
+      "Bianchi_relation_present": true,
+      "algebraic_target_codimension": 1,
+      "causal_stratum_ranks": {
+        "NONZERO_NULL": 19,
+        "SPACELIKE": 19,
+        "TIMELIKE": 19,
+        "ZERO": 19
+      },
+      "curvature_rank": 19,
+      "display_relation_dimension": 2,
+      "extra_relations_beyond_Bianchi": 1,
+      "family_id": "F03",
+      "family_name": "SCREEN_INVARIANT_MIXING",
+      "first_jet_changes_only_affine_offset": true,
+      "ownership": "SUPPLIED_FACTORIZED_CHART",
+      "same_solution_class": "EXACT_IMAGE_ONLY_CODIM_1"
+    },
+    {
+      "Bianchi_relation_present": true,
+      "algebraic_target_codimension": 1,
+      "causal_stratum_ranks": {
+        "NONZERO_NULL": 19,
+        "SPACELIKE": 19,
+        "TIMELIKE": 19,
+        "ZERO": 19
+      },
+      "curvature_rank": 19,
+      "display_relation_dimension": 2,
+      "extra_relations_beyond_Bianchi": 1,
+      "family_id": "F04",
+      "family_name": "NO_MIXING_ANGULAR",
+      "first_jet_changes_only_affine_offset": true,
+      "ownership": "SUPPLIED_FACTORIZED_CHART",
+      "same_solution_class": "EXACT_IMAGE_ONLY_CODIM_1"
+    },
+    {
+      "Bianchi_relation_present": true,
+      "algebraic_target_codimension": 12,
+      "causal_stratum_ranks": {
+        "NONZERO_NULL": 8,
+        "SPACELIKE": 8,
+        "TIMELIKE": 8,
+        "ZERO": 8
+      },
+      "curvature_rank": 8,
+      "display_relation_dimension": 13,
+      "extra_relations_beyond_Bianchi": 12,
+      "family_id": "F05",
+      "family_name": "DIRECT_SUM_SPECTATOR",
+      "first_jet_changes_only_affine_offset": true,
+      "ownership": "SUPPLIED_FACTORIZED_CHART",
+      "same_solution_class": "EXACT_IMAGE_ONLY_CODIM_12"
+    },
+    {
+      "Bianchi_relation_present": true,
+      "algebraic_target_codimension": 10,
+      "causal_stratum_ranks": {
+        "NONZERO_NULL": 10,
+        "SPACELIKE": 10,
+        "TIMELIKE": 10,
+        "ZERO": 10
+      },
+      "curvature_rank": 10,
+      "display_relation_dimension": 11,
+      "extra_relations_beyond_Bianchi": 10,
+      "family_id": "F06",
+      "family_name": "LOCKED_ANGULAR_ONE_PARAMETER",
+      "first_jet_changes_only_affine_offset": true,
+      "ownership": "SUPPLIED_FACTORIZED_CHART",
+      "same_solution_class": "EXACT_IMAGE_ONLY_CODIM_10"
+    },
+    {
+      "Bianchi_relation_present": true,
+      "algebraic_target_codimension": 10,
+      "causal_stratum_ranks": {
+        "NONZERO_NULL": 10,
+        "SPACELIKE": 10,
+        "TIMELIKE": 10,
+        "ZERO": 10
+      },
+      "curvature_rank": 10,
+      "display_relation_dimension": 11,
+      "extra_relations_beyond_Bianchi": 10,
+      "family_id": "F07",
+      "family_name": "LOCKED_SHIFT_ONE_PARAMETER",
+      "first_jet_changes_only_affine_offset": true,
+      "ownership": "SUPPLIED_FACTORIZED_CHART",
+      "same_solution_class": "EXACT_IMAGE_ONLY_CODIM_10"
+    },
+    {
+      "Bianchi_relation_present": true,
+      "algebraic_target_codimension": 0,
+      "causal_stratum_ranks": {
+        "NONZERO_NULL": 20,
+        "SPACELIKE": 20,
+        "TIMELIKE": 20,
+        "ZERO": 20
+      },
+      "curvature_rank": 20,
+      "display_relation_dimension": 1,
+      "extra_relations_beyond_Bianchi": 0,
+      "family_id": "F08",
+      "family_name": "RELEASED_COMPLETE_COFRAME_REFERENCE",
+      "first_jet_changes_only_affine_offset": true,
+      "ownership": "RELEASED_REFERENCE_FACTORIZATION",
+      "same_solution_class": "ALL_ALGEBRAIC_RIEMANN_WITH_ARBITRARY_FACTORIZATION_DEPTH"
+    },
+    {
+      "algebraic_target_codimension": null,
+      "causal_stratum_ranks": {
+        "NONZERO_NULL": null,
+        "SPACELIKE": null,
+        "TIMELIKE": null,
+        "ZERO": null
+      },
+      "curvature_rank": null,
+      "family_id": "F09",
+      "family_name": "INDEPENDENT_SCALAR_CONTROL",
+      "ownership": "CHOSE_COMPARISON_CONFIGURATION",
+      "same_solution_class": "UNTYPED_NO_METRIC_ACTION"
+    }
+  ],
+  "maximum_conclusion_obeyed": true,
+  "outcome": "DERIVED_FACTORIZATION_NONIDENTIFIABILITY__CONDITIONAL_FULL_LOCAL_PHI_CURVATURE_COMPATIBILITY_IN_F01_F02__DERIVED_RESTRICTED_FAMILY_CODIMENSIONS__NO_METRIC_NATIVE_PHI_ASSIGNMENT_OR_CURVATURE_SELECTION",
+  "ownership_verdict": {
+    "bootstrap_closure_derived": false,
+    "complete_coframe_identifies_phi_jets": false,
+    "conditional_same_solution_existence": true,
+    "observer_assignment_selected": false,
+    "physical_extension_selected": false,
+    "response_or_evolution_law_derived": false
+  },
+  "schema": "udt.same_solution_phi_curvature.v1",
+  "sympy_version": "1.13.1"
+}
