@@ -1,0 +1,16 @@
+stratum_id	object	stratum	representative_or_condition	included
+P00	dphi	ZERO	p=0	YES
+P01	dphi	TIMELIKE	s=p.g_inverse.p<0	YES
+P02	dphi	NONZERO_NULL	p!=0 and s=0	YES
+P03	dphi	SPACELIKE	s>0	YES
+C04	coframe	RANK_4	det(theta)!=0	YES
+C03	coframe	RANK_3	rank(theta)=3	YES
+C02	coframe	RANK_2	rank(theta)=2	YES
+C01	coframe	RANK_1	rank(theta)=1	YES
+C00	coframe	RANK_0	theta=0	YES
+Q02	screen_coframe	RANK_2	det(Q)!=0	YES
+Q01	screen_coframe	RANK_1	rank(Q)=1	YES
+Q00	screen_coframe	RANK_0	Q=0	YES
+A00	founded_phi	FINITE	abs(phi)<infinity	YES
+A01	founded_phi	PLUS_INFINITY_ASYMPTOTE	phi->+infinity	YES_LIMIT_ONLY
+A02	founded_phi	MINUS_INFINITY_ASYMPTOTE	phi->-infinity	YES_LIMIT_ONLY

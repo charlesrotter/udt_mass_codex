@@ -1,0 +1,16 @@
+sector_id	sector	component_count_per_point_or_direction	status	coverage
+J01	coframe_value_theta	16	FREE_IN_GL4	all invertible values plus rank-limit witnesses
+J02	coframe_first_jet_all_directions	64	FREE_AND_EXPLORED	four derivative directions times sixteen
+J03	metric_first_jet_all_directions	40	INDUCED_AND_EXPLORED	four derivative directions times ten symmetric
+J04	local_Lorentz_presentation_jet	24	GAUGE_KERNEL_EXPECTED	four derivative directions times six
+J05	founded_reciprocal_metric_direction	1	DERIVED_DIRECTION_FREE_COEFFICIENT	H direction
+J06	remaining_base_metric_directions	2	FREE_AND_EXPLORED	base common scale and base offdiagonal
+J07	screen_metric_directions	3	FREE_AND_EXPLORED	area and two shears
+J08	base_screen_mixing_metric_directions	4	FREE_AND_EXPLORED	all symmetric base-screen entries
+J09	founded_depth_value_phi	1	FREE_LOCAL_REALIZATION	finite values plus asymptotic limits classified
+J10	founded_depth_first_jet_dphi	4	FREE_AND_EXPLORED	zero timelike null spacelike
+J11	screen_coframe_Q	4	FREE_IN_GL2_CHART	positive invertible witness and rank limits
+J12	base_screen_mixing_S	4	FREE_AND_EXPLORED	all entries in chart witness
+J13	bulk_response_or_action	0	OPEN_NOT_SUPPLIED	excluded from kinematic atlas
+J14	boundary_operator	0	OPEN_NOT_SUPPLIED	excluded from kinematic atlas
+J15	matter_carrier_source_density	0	OPEN_NOT_SUPPLIED	excluded from kinematic atlas

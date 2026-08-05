@@ -1,0 +1,18 @@
+observable_id	observable	owner	question
+O01	coframe_to_metric_first_jet_rank	complete coframe	do all forty metric jets survive
+O02	per_direction_first_jet_rank	complete coframe	is a chosen time direction special
+O03	ten_direction_metric_basis	metric tangent	are reciprocal base screen and mixing directions complete
+O04	Lorentz_gauge_kernel	coframe presentation	is kernel exactly six per direction
+O05	s_phi_equals_g_inverse_dphi_dphi	metric plus founded local realization	how all blocks control causal class
+O06	dphi_covector_line	founded local realization	what survives causal transitions
+O07	dphi_sharp_vector	metric plus founded local realization	what survives nonzero null transition
+O08	normalized_dphi_projector	regular nonnull strata	does it continue through null or zero
+O09	coframe_determinant	coframe	what marks rank and orientation sectors
+O10	metric_determinant	metric	what happens at coframe rank loss
+O11	inverse_metric	metric	where reconstruction ceases
+O12	metric_adjugate	metric polynomial data	what finite density-like data may survive rank loss
+O13	screen_determinant_and_rank	screen coframe	what survives screen chart degeneration
+O14	covector_stabilizer_dimension	Lorentz algebra	how symmetry changes by causal stratum
+O15	stabilizer_Killing_form	Lorentz algebra	whether algebra type changes
+O16	Maurer_Cartan_order	coframe jet	whether a first-jet evolution equation appears
+O17	finite_phi_pair_determinant	founded reciprocal pair	whether finite phi causes rank loss

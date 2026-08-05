@@ -1,0 +1,13 @@
+operation_id	operation	input	parent_law_required	registered_question
+T01	full_coframe_first_jet_lift	theta and four first jets	NO	constraint or surjection
+T02	dphi_causal_classification	g and dphi	NO	intrinsic strata
+T03	normalized_projector_extension	g and dphi	NO	continuation through null and zero
+T04	unnormalized_line_and_sharp_extension	g and dphi	NO	regular invariant survivor
+T05	nonzero_null_crossing	smooth g and dphi path	NO	transition compatibility
+T06	zero_gradient_crossing	smooth g and dphi path	NO	path-independent continuation
+T07	screen_rank_crossing	Q path	NO	canonical nondegenerate continuation
+T08	full_coframe_rank_crossing	theta path	NO	canonical Lorentzian continuation
+T09	Lorentz_stabilizer_transition	representative dphi strata	NO	algebra type change
+T10	first_jet_Maurer_Cartan	coframe first jet	NO	first-order identity or evolution law
+T11	angular_mixing_modulation	factorized chart g Q S dphi	NO	joint causal dependence
+T12	physical_time_evolution_or_bootstrap_return	complete histories	YES	whether atlas defines dynamics
