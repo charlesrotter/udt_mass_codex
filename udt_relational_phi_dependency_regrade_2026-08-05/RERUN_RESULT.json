@@ -1,0 +1,176 @@
+{
+  "all_exit_zero": true,
+  "commands_completed": 11,
+  "commands_expected": 11,
+  "head": "938444a8fd1e9f59d0ecd58e98daef2159c67f06",
+  "python_version": "3.10.12",
+  "records": [
+    {
+      "command": [
+        "python3",
+        "verify_udt_reciprocal_c_postulate.py"
+      ],
+      "elapsed_seconds": 0.376344,
+      "exit_code": 0,
+      "index": 1,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_01_verify_udt_reciprocal_c_postulate.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1591,
+      "stdout_file": "RERUN_01_verify_udt_reciprocal_c_postulate.stdout",
+      "stdout_sha256": "f4c74d257b837cf84ce6104e2df33254c07b2b5a1e32ff2e653fbe84510ea9bc"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_observer_pair_clock_operator_audit_2026-07-24/derive_observer_pair_clock_operator.py"
+      ],
+      "elapsed_seconds": 0.522636,
+      "exit_code": 0,
+      "index": 2,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_02_derive_observer_pair_clock_operator.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 558,
+      "stdout_file": "RERUN_02_derive_observer_pair_clock_operator.stdout",
+      "stdout_sha256": "16dd9060b5a8d82d13316d12a92985695942ba8b98115762ee10647f2776f7ac"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_observer_pair_clock_operator_audit_2026-07-24/verify_observer_pair_clock_operator_independent.py"
+      ],
+      "elapsed_seconds": 0.018896,
+      "exit_code": 0,
+      "index": 3,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_03_verify_observer_pair_clock_operator_independent.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 56,
+      "stdout_file": "RERUN_03_verify_observer_pair_clock_operator_independent.stdout",
+      "stdout_sha256": "3297842b584c9cf351ffe94fe2f93df98d1940f873a6bdf5574f1304b152d6ec"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_relational_pair_depth_realization_audit_2026-07-24/derive_relational_pair_depth.py"
+      ],
+      "elapsed_seconds": 0.36785,
+      "exit_code": 0,
+      "index": 4,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_04_derive_relational_pair_depth.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 833,
+      "stdout_file": "RERUN_04_derive_relational_pair_depth.stdout",
+      "stdout_sha256": "77735931dda61019564b70e9b6e0e109b96241acb80212f91e3b45d28e7fbece"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_relational_pair_depth_realization_audit_2026-07-24/verify_relational_pair_depth_independent.py"
+      ],
+      "elapsed_seconds": 0.018227,
+      "exit_code": 0,
+      "index": 5,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_05_verify_relational_pair_depth_independent.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 56,
+      "stdout_file": "RERUN_05_verify_relational_pair_depth_independent.stdout",
+      "stdout_sha256": "14b75cd377a27b0dfd1b7ffef62fe4d1fce648f1a79d0644c037bf10bc20a407"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_complete_physical_comparison_map_audit_2026-07-27/derive_comparison_map.py"
+      ],
+      "elapsed_seconds": 0.218448,
+      "exit_code": 0,
+      "index": 6,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_06_derive_comparison_map.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1314,
+      "stdout_file": "RERUN_06_derive_comparison_map.stdout",
+      "stdout_sha256": "711854dc4638395c6419d82b3e1f01b3a1382d15b0322bd6845071d5c8ef74f9"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_complete_physical_comparison_map_audit_2026-07-27/verify_comparison_map_independent.py"
+      ],
+      "elapsed_seconds": 0.016954,
+      "exit_code": 0,
+      "index": 7,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_07_verify_comparison_map_independent.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 462,
+      "stdout_file": "RERUN_07_verify_comparison_map_independent.stdout",
+      "stdout_sha256": "aebcdd77ab0629e9ea1f266653be08020a1f9741337b4733ce0b19161ee63177"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_global_phi_ownership_overlap_audit_2026-08-05/derive_global_ownership.py"
+      ],
+      "elapsed_seconds": 0.159161,
+      "exit_code": 0,
+      "index": 8,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_08_derive_global_ownership.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 2360,
+      "stdout_file": "RERUN_08_derive_global_ownership.stdout",
+      "stdout_sha256": "da4ed42699e0e0cb17d3fa88f73593b04d85e053a0f38183a76e73ea8179218f"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_global_phi_ownership_overlap_audit_2026-08-05/independent_global_ownership.py"
+      ],
+      "elapsed_seconds": 0.030835,
+      "exit_code": 0,
+      "index": 9,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_09_independent_global_ownership.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 2076,
+      "stdout_file": "RERUN_09_independent_global_ownership.stdout",
+      "stdout_sha256": "73685af0446378a19a65128d3056016fab0d07f7577e10847be8e6479cdaf137"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_founding_phi_ownership_morphism_audit_2026-08-05/derive_founding_ownership.py"
+      ],
+      "elapsed_seconds": 0.143264,
+      "exit_code": 0,
+      "index": 10,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_10_derive_founding_ownership.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1908,
+      "stdout_file": "RERUN_10_derive_founding_ownership.stdout",
+      "stdout_sha256": "7b1e7c5b8a574a3e800b0c607d336ee29b8690febe09461e697978a0874229d7"
+    },
+    {
+      "command": [
+        "python3",
+        "udt_founding_phi_ownership_morphism_audit_2026-08-05/independent_founding_ownership.py"
+      ],
+      "elapsed_seconds": 0.01942,
+      "exit_code": 0,
+      "index": 11,
+      "stderr_bytes": 0,
+      "stderr_file": "RERUN_11_independent_founding_ownership.stderr",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1146,
+      "stdout_file": "RERUN_11_independent_founding_ownership.stdout",
+      "stdout_sha256": "72b06081e7c43575164d382c6f8d9c6f7b410f15cc3c6141d645cbf242e66a11"
+    }
+  ],
+  "schema": "udt.relational_phi_regrade.rerun.v1",
+  "sympy_version": "1.13.1"
+}

@@ -1,0 +1,39 @@
+{
+  "assemblies": 6,
+  "axioms": 12,
+  "bounded_stationary_metric_native_one_form_derived": true,
+  "bounded_stationary_scalar_map_derived": true,
+  "candidates": 12,
+  "checks": {
+    "Killing_normalization_cancels": "PASS",
+    "Levi_Civita_reciprocal_projection": "ZERO_EXACT",
+    "conjugacy_preserves_depth_sign": "NO",
+    "cut_locus_full_loop_nonclosures": 36,
+    "endpoint_cocycle": "PASS",
+    "static_transport_type_control": {
+      "coordinate_covector_depth": "delta_phi",
+      "founded_stationary_depth": "delta_phi",
+      "orthonormal_spatial_rapidity": "0"
+    },
+    "stationary_Killing_norm_cocycle": "PASS",
+    "symmetric_signed_nontrivial": "IMPOSSIBLE",
+    "typed_path_lambda_samples": [
+      -1,
+      0,
+      1,
+      2
+    ]
+  },
+  "complete_map_derived_unconditionally": false,
+  "conditional_reducible_comparison_family_available_exact": true,
+  "endpoint_physical_semantics_selected": false,
+  "grade": "VERIFIED_WITH_CAVEATS",
+  "lambda_selected": false,
+  "path_physical_semantics_selected": false,
+  "property_cells": 144,
+  "schema": "udt-complete-physical-comparison-map-1.0",
+  "single_all_gate_intrinsic_pair_witness": false,
+  "smallest_open_join": "ONE_COMPLETE_BRANCH_INTRINSIC_CLOCK_RULER_COFRAME_AND_PHYSICAL_ARROW_CATEGORY",
+  "sources": 20,
+  "status": "COMPUTED"
+}
