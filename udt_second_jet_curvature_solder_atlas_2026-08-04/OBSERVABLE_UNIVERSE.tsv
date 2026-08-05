@@ -1,0 +1,26 @@
+observable_id	observable	certification
+O01	coframe_second_jet_component_count	exact integer
+O02	metric_second_jet_component_count	exact integer
+O03	coframe_to_metric_second_jet_rank_nullity	exact rational rank
+O04	metric_second_jet_to_Riemann_rank_nullity	exact rational rank
+O05	coframe_second_jet_to_Riemann_rank_nullity	exact rational rank
+O06	Riemann_pair_symmetry_residuals	exact zero
+O07	Riemann_pair_exchange_residuals	exact zero
+O08	algebraic_Bianchi_relation_space	exact nullspace
+O09	2plus2_block_entry_counts	exact census
+O10	2plus2_block_projection_ranks	exact rational rank
+O11	cross_block_nonzero_witnesses	exact integer witnesses
+O12	source_category_image_ranks	exact rational rank
+O13	source_union_image_ranks	exact rational rank
+O14	source_category_intersection_dimensions	rank inclusion-exclusion
+O15	N_rank_by_dphi_stratum	exact rational rank
+O16	N_squared_identity_by_dphi_stratum	exact matrix identity
+O17	tidal_form_descent_to_quotient	exact representative-independence
+O18	tidal_image_rank_timelike	exact rational rank
+O19	tidal_image_rank_spacelike	exact rational rank
+O20	tidal_image_rank_nonzero_null_quotient	exact rational rank
+O21	zero_dphi_tidal_rank	exact rational rank
+O22	rank_loss_inverse_curvature_status	typed classification
+O23	finite_phi_rank_status	exact determinant identity
+O24	kinematic_second_jet_constraint_count	exact integer
+O25	physical_evolution_operator_status	fail-closed boolean

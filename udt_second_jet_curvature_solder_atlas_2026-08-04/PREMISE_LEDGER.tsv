@@ -1,0 +1,27 @@
+premise_id	premise	status	role
+P01	four_dimensional_Lorentzian_signature	PINNED_BY_THEORY	metric arena
+P02	founded_phi_identity	DERIVED	additive logarithmic reciprocal depth
+P03	founded_reciprocal_generator_H	DERIVED	diag(-1,+1,0,0) in registered pair
+P04	c_E_and_G_obs	OBSERVED_UNUSED	calibration does not affect dimensionless local ranks
+P05	complete_coframe_architecture	DEFINED_CONFIGURATION_ARCHITECTURE	all local coframe components included
+P06	reciprocal_screen_2plus2_split	SUPPLIED_AUDIT_CHART	not a selected global physical split
+P07	normal_coordinate_parallel_coframe_point	CHOSE_PRESENTATION_GAUGE	point-local curvature representative only
+P08	all_coframe_second_jets	FREE_AND_EXPLORED	no time or spatial Hessian slot frozen
+P09	dphi_stratum_representatives	FREE_AND_EXPLORED	zero timelike null spacelike
+P10	finite_phi_regular_tile	BOUNDED_DOMAIN	asymptotes classified as limits only
+P11	inverse_metric_and_Levi_Civita	DERIVED_ON_NONDEGENERATE_TILE	undefined at rank loss
+P12	rank_loss_continuation	OPEN_NOT_ASSUMED	no generalized inverse
+P13	curvature_sign_convention	CHOSE_PRESENTATION	global sign cannot affect ranks
+P14	bivector_order_and_orientation	CHOSE_PRESENTATION	no physical orientation selection
+P15	native_action	OPEN_NOT_SUPPLIED	absent
+P16	native_response_equation	OPEN_NOT_SUPPLIED	absent
+P17	native_source	OPEN_NOT_SUPPLIED	absent
+P18	matter_carrier	POSIT_UNUSED	absent from algebra
+P19	boundary_or_seal_law	OPEN_NOT_SUPPLIED	absent
+P20	density_or_bootstrap_fixed_point	OPEN_NOT_SUPPLIED	absent
+P21	configuration_path_is_physical_time	NOT_ASSUMED	forbidden promotion
+P22	physical_evolution_operator	OPEN_NOT_SUPPLIED	absent
+P23	global_local_mutual_admissibility	WORKING_POSIT_UNUSED	no return map assumed
+P24	strong_local_CSN	INACTIVE	no Schouten quotient or Weyl-only promotion
+P25	Einstein_or_other_field_equations	COMPARISON_ONLY_UNUSED	no imported dynamics
+P26	S2_carrier_or_L2plusL4	POSIT_UNUSED	no particle-sector premise

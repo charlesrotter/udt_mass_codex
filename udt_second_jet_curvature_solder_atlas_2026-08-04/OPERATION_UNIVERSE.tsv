@@ -1,0 +1,13 @@
+operation_id	operation	question
+T01	coframe_to_metric_second_jet_map	does complete coframe reach every metric Hessian slot
+T02	metric_second_jet_to_Riemann_map	does unrestricted local Hessian reach complete curvature module
+T03	Riemann_identity_census	what universal algebraic relations remain
+T04	bivector_2plus2_block_decomposition	which reciprocal angular and mixing blocks survive
+T05	cross_block_relation_nullspace	which exact relations join displayed block entries
+T06	source_ensemble_image_atlas	what curvature each coframe motif ensemble can generate
+T07	source_ensemble_intersections	which curvature directions require or admit multiple ensembles
+T08	unnormalized_N_stratum_atlas	what survives without unit normalization
+T09	timelike_spacelike_tidal_quotients	what curvature acts on nonnull orthogonal quotients
+T10	nonzero_null_screen_quotient	whether tidal data descend intrinsically and with what dimension
+T11	zero_rank_asymptotic_boundaries	what becomes zero undefined or limit-only
+T12	compatibility_and_evolution_ownership	does any identity constrain configurations or supply physical time

@@ -1,0 +1,15 @@
+stratum_id	object	stratum	condition	included
+P00	dphi	ZERO	p=0	YES
+P01	dphi	TIMELIKE	g_inverse(p,p)<0	YES
+P02	dphi	NONZERO_NULL	p!=0 and g_inverse(p,p)=0	YES
+P03	dphi	SPACELIKE	g_inverse(p,p)>0	YES
+C04	coframe	RANK_4	det(theta)!=0	YES
+C03M	coframe	RANK_LT_4	det(theta)=0	BOUNDARY_ONLY
+A00	founded_phi	FINITE	abs(phi)<infinity	YES
+A01	founded_phi	PLUS_INFINITY_ASYMPTOTE	phi->+infinity	LIMIT_ONLY
+A02	founded_phi	MINUS_INFINITY_ASYMPTOTE	phi->-infinity	LIMIT_ONLY
+E01	curvature_source	FOUNDED_ONLY	H Hessian slots only	YES
+E02	curvature_source	OTHER_BASE_ONLY	two non-H base directions	YES
+E03	curvature_source	SCREEN_ONLY	three screen directions	YES
+E04	curvature_source	MIXING_ONLY	four base-screen directions	YES
+E05	curvature_source	ALL_UNIONS	all nonempty category unions	YES

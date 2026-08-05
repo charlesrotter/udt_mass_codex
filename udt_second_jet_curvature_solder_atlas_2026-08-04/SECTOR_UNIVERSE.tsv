@@ -1,0 +1,18 @@
+sector_id	sector	status	coverage
+J01	coframe_value	SUPPLIED_NORMAL_REPRESENTATIVE	theta=I at sampled point
+J02	coframe_first_jet	PRESENTATION_GAUGE_ZERO	parallel normal coframe at sampled point only
+J03	coframe_second_jet_time_time	FREE_AND_EXPLORED	all 16 component amplitudes
+J04	coframe_second_jet_time_space	FREE_AND_EXPLORED	all three symmetric time-space slots and 16 amplitudes each
+J05	coframe_second_jet_space_space	FREE_AND_EXPLORED	all six symmetric spatial slots and 16 amplitudes each
+J06	metric_second_jet	DERIVED_IMAGE_TESTED	all 100 symmetric metric/Hessian components
+J07	founded_reciprocal_H_source	DERIVED_DIRECTION_FREE_AMPLITUDES	all ten Hessian slots
+J08	other_base_sources	FREE_AND_EXPLORED	two metric directions times ten Hessian slots
+J09	angular_screen_sources	FREE_AND_EXPLORED	three metric directions times ten Hessian slots
+J10	base_screen_mixing_sources	FREE_AND_EXPLORED	four metric directions times ten Hessian slots
+J11	algebraic_Riemann_module	DERIVED_IMAGE_TESTED	all 20 algebraic curvature components
+J12	reciprocal_screen_bivector_blocks	SUPPLIED_SPLIT_ATLAS	one base area; four mixed; one screen area
+J13	founded_dphi_covector	FREE_STRATUM_REPRESENTATIVES	zero timelike null spacelike
+J14	unnormalized_depth_tensor_N	DERIVED_FROM_G_AND_DPHI	all four dphi strata
+J15	curvature_tidal_form	DERIVED_FROM_R_AND_DPHI	all nondegenerate metric strata
+J16	null_screen_quotient	DERIVED_INTRINSIC_TYPE_TEST	p_perp/span(p_sharp)
+J17	coframe_rank_loss_and_phi_asymptotes	BOUNDARY_CLASSIFICATION_ONLY	no inverse or generalized curvature invented
