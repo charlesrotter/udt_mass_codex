@@ -1,0 +1,16 @@
+gate_id	target	pass_condition	failure_consequence
+F01	complete_candidate_census	exactly M01-M10 once each	fail audit
+F02	typed_domain_codomain	every positive route has explicit source-backed types	downgrade to OPEN or CONDITIONAL
+F03	reference_independence	candidate output or exact class is invariant under allowed refactorization	representative ownership refuted
+F04	observer_reversal	candidate realizes the founded inverse action	not founding-compatible
+F05	composition	candidate composes on every registered composable query	path/pair ownership not derived
+F06	same_solution	candidate is recovered from or explicitly owned by the queried complete geometry	conditional external input
+F07	calibration_separation	changing units does not manufacture a field	calibration route rejected
+F08	nonvacuity	candidate selects or operationally obtains its codomain rather than accepting every supplied value	nonselection only
+F09	stratum_scope	regular branch and defect limitations are explicit	universal claim rejected
+F10	provenance_firewall	no historical source supplies affirmative physics	result rejected
+F11	countermodel	two-output witnesses are retained wherever founded gates allow them	uniqueness claim rejected
+F12	independence	separate implementation shares no production code and reconstructs load-bearing algebra	bank only LEAD
+F13	mutation_catches	every guard is exercised by a failing mutation	bank only PROVISIONAL
+F14	fresh_adversary	zero-context reviewer reproduces or precisely repairs the result	bank only PROVISIONAL
+F15	repository_preservation	manifests paths links tests and 83 unrelated identities replay	no commit
