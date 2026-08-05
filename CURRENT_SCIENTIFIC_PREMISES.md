@@ -93,5 +93,20 @@ freedom only conditionally. Do not promote the derived factorization groupoid to
 postulate, or promote overlap consistency, loop identity, a fixed reference, or a supplied seam into
 the missing physical `phi` ownership rule.
 
+The August 5 founding phi-ownership morphism audit,
+`udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`, sharpens the object that is
+actually missing. The direct founding source supplies ordered relative depth first, then derives the
+reciprocal character `D(delta)=diag(exp(-delta),exp(+delta))`; it does not assign `delta` to complete
+observer/event/path data. On the supplied factorized architecture, pointwise `phi` is a potential
+presentation whose representative can change while complete geometry remains fixed. This bounded
+result must not be generalized into a claim that no physical scalar section can exist.
+
+A stationary branch with an intrinsic timelike Killing line supplies the conditional metric-native
+reduction `delta_K=log(N(p)/N(q))`. It is not a universal owner. The smallest open object is now the
+general two-observer relational depth law, potentially accompanied by a distinct symmetric
+nonnegative magnitude. Do not turn the presentation potential into an undefined placeholder,
+promote the stationary reduction, identify signed depth with nonnegative separation, or claim that
+the working bootstrap relation already returns this law.
+
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

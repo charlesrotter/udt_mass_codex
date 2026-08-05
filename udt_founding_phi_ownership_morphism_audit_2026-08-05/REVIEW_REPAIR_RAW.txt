@@ -1,0 +1,1249 @@
+Script started on 2026-08-05 01:03:47-04:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+OpenAI Codex v0.144.5
+--------
+workdir: /home/udt-admin/udt_mass_codex
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019fd04e-6917-73b1-9c4d-1ec17a3de1e3
+--------
+user
+Perform only the focused read-only check in udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md. Do not inspect REVIEW_REPAIR.md, REVIEW_REPAIR_RAW.txt, or any live transcript. Do not edit files or continue the research. Return exactly the requested repair verdict and concise evidence.
+codex
+I’m doing the requested read-only verdict only. First I’m completing the repository’s mandatory startup/orientation sequence, then I’ll read only the bounded files needed to evaluate `udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md` without touching the prohibited review artifacts.
+exec
+/bin/bash -lc 'git checkout grok' in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+Already on 'grok'
+Your branch is up to date with 'origin/grok'.
+
+codex
+`git fetch` is blocked by the read-only filesystem, so I’m preserving the startup sequence by recording that limitation and continuing with read-only orientation from disk. Next I’m checking local branch/status and recent commits, then reading the bounded startup files in the prescribed order.
+exec
+/bin/bash -lc 'git status --short --branch' in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+## grok...origin/grok
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/ADVERSARIAL_REVIEW_REQUEST.md
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/CATCH_PROOFS.tsv
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/COMMANDS.md
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/FOUR_GATES.md
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/FRESH_ADVERSARIAL_REVIEW.md
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/FRESH_ADVERSARIAL_REVIEW_RAW.txt
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/INDEPENDENT_RESULT.json
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/LAY_REPORT.md
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/RESULT.json
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_CLOSURE.md
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/ROUTE_OUTCOMES.tsv
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/SOURCE_ADJUDICATION.tsv
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/SOURCE_PROPOSITION_LEDGER.tsv
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/STATUS_LEDGER.tsv
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/VERIFICATION_RESULT.json
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/WITNESSES.json
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/derive_founding_ownership.py
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/independent_founding_ownership.py
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/requirements.txt
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_audit.py
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_package_manifest.py
+?? udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_repository_gates.py
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_B_xy.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_B_xz.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_B_yz.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_CONTACT_REDUCED_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_CONTACT_REDUCED_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_CONTACT_REDUCED_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_INTRINSIC_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_INTRINSIC_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_INTRINSIC_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_INTRINSIC_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_PROJECTIVE_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_PROJECTIVE_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_PROJECTIVE_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_SATURATED_GROEBNER_BASIS.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_SPHERE_REDUCED_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_SPHERE_REDUCED_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C04_SPHERE_REDUCED_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_CONTACT_REDUCED_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_CONTACT_REDUCED_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_CONTACT_REDUCED_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_INTRINSIC_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_INTRINSIC_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_INTRINSIC_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_INTRINSIC_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_12_COMPAT_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_12_COMPAT_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_12_CONTACT.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_13_COMPAT_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_13_COMPAT_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_13_CONTACT.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_23_COMPAT_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_23_COMPAT_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_LINEAR_CHART_23_CONTACT.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_PROJECTIVE_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_PROJECTIVE_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_PROJECTIVE_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_PROJECTIVE_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_REAL_DOMAIN_NORMALIZED_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_REAL_DOMAIN_NORMALIZED_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_REAL_DOMAIN_NORMALIZED_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_SINGULAR_PROJECTIVE_INPUT.sing
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_SPHERE_REDUCED_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_SPHERE_REDUCED_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C08_SPHERE_REDUCED_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C09_INTRINSIC_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C09_INTRINSIC_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C09_INTRINSIC_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C09_INTRINSIC_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C09_SPHERE_REDUCED_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C09_SPHERE_REDUCED_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C09_SPHERE_REDUCED_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C10_INTRINSIC_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C10_INTRINSIC_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C10_INTRINSIC_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C10_INTRINSIC_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C10_SPHERE_REDUCED_B_12.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C10_SPHERE_REDUCED_B_13.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/C10_SPHERE_REDUCED_B_23.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/COFRAME_CHART_EQUIVALENCE.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/DEFECT_EXCLUSION_POLYNOMIAL.txt
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C04.tsv
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C04_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C08.tsv
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C08_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C09.tsv
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C09_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C10.tsv
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C10_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C16.tsv
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C16_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C17.tsv
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_INDEPENDENT_C17_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_PRIMARY.tsv
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/FINITE_LOOP_PRIMARY_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/ZERO_RECONNAISSANCE_CLUSTERS.tsv
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/ZERO_RECONNAISSANCE_RESULT.json
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/derive_global_curvature.py
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/derive_intrinsic_curvature.py
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/derive_projective_zero_set.py
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/evaluate_loops_independent.py
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/evaluate_loops_primary.py
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/run_singular_c08_projective.py
+?? udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/zero_reconnaissance.py
+
+exec
+/bin/bash -lc 'git log -8 --oneline' in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+32673ca2 Correct founding ownership source scope before direct review
+f136aebb Freeze founding phi ownership audit universe
+c07e1b4e Preregister founding phi ownership morphism audit
+2172863b Bank global phi ownership overlap audit
+0972a026 Freeze global phi ownership audit universe
+2ddefb71 Preregister global phi ownership overlap audit
+12eb52a0 Bank same-solution phi-curvature compatibility audit
+32222612 Freeze same-solution phi-curvature universe
+
+codex
+I have the local branch state: `grok` at `32673ca2`, with many untracked audit artifacts including the target package. I’m now reading the bounded startup/current sections and the specific audit request so the verdict is grounded only in the authorized on-disk evidence.
+exec
+/bin/bash -lc "sed -n '/STARTUP_CURRENT_BEGIN/,/STARTUP_CURRENT_END/p' LIVE.md" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+<!-- STARTUP_CURRENT_BEGIN -->
+
+**⚠ BRANCH: work is on `grok` (2026-08-05).** Synchronize before orientation.
+**This topmost CURRENT STATE block overrides every older status description.**
+## ============ CURRENT STATE (2026-08-05 — GLOBAL OVERLAP ORGANIZES BUT DOES NOT SELECT PHYSICAL PHI OWNERSHIP) ============
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+`udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md` → its exact derivation,
+12-route classification, two implementations, saved witnesses, verifier, initial adversarial review,
+repair and accepted repair replay → the same-solution, globalization, query-bundle, path-composition
+and global/local reconstruction parents only when load-bearing.
+
+**CURRENT HONEST RESULT:** the local founded-depth factorization freedom survives exact global
+stitching on the supplied smooth fixed-rank complete-coframe cover. Independent local shifts change
+the reference coframes and induce
+`R'_ij=K_j^-1 R_ij K_i`, while every physical complete coframe, physical overlap map and
+triple-overlap cocycle stays fixed. Globalization therefore produces an exact groupoid/orbit of
+factorized presentations; it does not select one physical `phi` assignment.
+
+Scalar descent reduces arbitrary chart shifts to an arbitrary global function, not a unique scalar.
+Affine/reversal cocycles retain real class data such as reversal parity and oriented periods, but
+those invariants do not choose local representatives. Query equivariance transports every supplied
+depth. Endpoint composition accepts every endpoint potential. Finite-cell physical seam relations
+survive unequal endpoint shifts when the reference seam transforms honestly.
+
+**CONDITIONAL REDUCTIONS:** fixing a reference transition system restricts shifts to its stabilizer;
+independently physical pair-depth data fix relative endpoint values modulo one connected-component
+constant; a regular branch-derived section can own depth on its stratum. None is presently a
+founded universal ownership rule. Fixed references and physical signed depths remain open or
+conditional, and known branch selectors fail or become set-valued at defect/collision strata.
+
+**BOUNDED VERDICT:**
+`DERIVED_GLOBAL_FACTORIZATION_GROUPOID_FREEDOM_ON_THE_SUPPLIED_SMOOTH_COVER__DERIVED_COCYCLE_CLASS_AND_PERIOD_INVARIANTS_DO_NOT_SELECT_A_SECTION__CONDITIONAL_REDUCTIONS_REQUIRE_UNOWNED_REFERENCE_DEPTH_OR_BRANCH_SECTION_DATA__NO_GLOBAL_PHI_OWNERSHIP_SELECTION`.
+
+**WHAT CLOSED / WHAT DID NOT:** ordinary overlap/cocycle consistency is now closed as a candidate
+ownership selector on this tile: it organizes the ambiguity but does not remove it. This is not an
+impossibility theorem over future metric consequences. Founded `phi` remains the derived additive
+log depth and reciprocal pair action; only its physical observer/path assignment and ownership are
+open. F01/F02 remain conditional geometry-only mass-bearing routes, and F04 remains the separate
+carrier/action-conditional finite-box Hopf result. The bootstrap posit still lacks its complete
+physical return.
+
+**NEXT BOUNDED DECISION — NOT LAUNCHED AUTOMATICALLY:** return to the exact founding observer-
+comparison/metric derivation and determine whether it already defines a natural equivariant
+ownership morphism from complete geometry plus observer/path query data to a depth section or
+equivalence class. If it does not, Charles must decide whether realized or branch-stratified
+ownership is an additional premise. Do not repeat overlap algebra or insert a fixed reference,
+scalar ontology, trivial loop return, action, source, density target, long solve, GPU or time-live
+equation.
+
+**PREMISE STAMPS:** founded `phi`, reciprocal pair action and composition `DERIVED`; `c_E/G_obs`
+`OBSERVED`; complete coframe `DEFINED_CONFIGURATION_ARCHITECTURE`; global/local mutual
+admissibility `WORKING_POSIT`; local same-solution `phi`/curvature compatibility `CONDITIONAL`;
+local and global factorization non-identifiability `DERIVED_ON_SUPPLIED_SMOOTH_COVER`; cocycle and
+period invariants `DERIVED_NONSELECTING`; fixed reference, physical pair depth and branch section
+reductions `CONDITIONAL_OR_OPEN`; physical `phi` ownership, complete return, action, source,
+boundary, `X_max`, unconditional matter/mass and dynamics `OPEN`; `S2` carrier `POSIT`.
+
+**AUTHORITY BOUNDARY:** no action, response, source, carrier, density, boundary, completion, branch,
+mass, species, `X_max`, physical evolution, observation fit, GPU work, canonization or repository
+reorganization follows.
+
+**EVIDENCE:** preregistration `2ddefb71`; frozen universe `0972a026`; 12 routes, 16 premises and 23
+hash-frozen sources; primary SymPy `54/54`, independent standard-library rational `46/46`, final
+verifier `33/33` with `16/16` mutations caught. Fresh read-only `gpt-5.4` returned
+`ACCEPTED_WITH_REPAIRS`; its one tautological seam witness was replaced by independent endpoint
+constructions and a second fresh replay returned `REPAIR_ACCEPTED`. Repository preservation gates
+are recorded in the audit package.
+
+<!-- STARTUP_CURRENT_END -->
+
+exec
+/bin/bash -lc 'rg -n "STARTUP_CURRENT_BEGIN|STARTUP_CURRENT_END" LIVE.md HANDOFF.md CURRENT_SCIENTIFIC_PREMISES.md UDT_SCIENTIFIC_FRONTIER_2026-07-19.md INDEX.md MEMORY.md CLAUDE.md' in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+HANDOFF.md:3:<!-- STARTUP_CURRENT_BEGIN -->
+HANDOFF.md:48:<!-- STARTUP_CURRENT_END -->
+LIVE.md:3:<!-- STARTUP_CURRENT_BEGIN -->
+LIVE.md:71:<!-- STARTUP_CURRENT_END -->
+
+exec
+/bin/bash -lc "sed -n '/STARTUP_CURRENT_BEGIN/,/STARTUP_CURRENT_END/p' HANDOFF.md" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+<!-- STARTUP_CURRENT_BEGIN -->
+
+> **READ `LIVE.md` FIRST.** It wins every disagreement.
+>
+> **⚠ BRANCH: `grok` (2026-08-05).** Synchronize it before orientation.
+
+## CURRENT — global overlap classifies the depth ambiguity but does not own physical `phi`
+
+**Fresh-entry path:**
+
+1. `LIVE.md` topmost current block.
+2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
+3. `udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md`.
+4. Its exact derivation, route/status/premise ledgers, primary and independent implementations,
+   saved witnesses, verifier, initial adversarial review, repair and accepted repair replay.
+5. Use the same-solution, globalization, query, path and reconstruction audits only as parents.
+
+**Result:** arbitrary unequal local depth shifts can be absorbed into the reference presentations.
+The induced reference overlaps change by an exact coboundary, while complete coframes, physical
+overlaps and triple cocycles remain unchanged. Global stitching therefore creates a groupoid of
+equivalent factorizations; it does not identify one physical founded-depth assignment.
+
+Scalar descent leaves arbitrary global-function freedom. Reversal parity and oriented periods can
+survive as global invariants without selecting local depth. Query composition and endpoint-potential
+composition remain exact and nonselecting. A separately fixed reference, separately physical pair
+depth, or regular branch selector reduces the freedom only conditionally.
+
+**Bounded verdict:**
+`DERIVED_GLOBAL_FACTORIZATION_GROUPOID_FREEDOM_ON_THE_SUPPLIED_SMOOTH_COVER__DERIVED_COCYCLE_CLASS_AND_PERIOD_INVARIANTS_DO_NOT_SELECT_A_SECTION__CONDITIONAL_REDUCTIONS_REQUIRE_UNOWNED_REFERENCE_DEPTH_OR_BRANCH_SECTION_DATA__NO_GLOBAL_PHI_OWNERSHIP_SELECTION`.
+
+**Still open:** the native ownership morphism relating observer/path comparisons and complete
+geometry to physical depth; defect-stratified continuation; complete bootstrap return; action,
+source, carrier, boundary, density feedback, `X_max`, matter, mass and dynamics. F01/F02/F04 remain
+conditional and separate.
+
+**Next decision, not automatic:** audit the exact founding observer-comparison/metric derivation for
+an already-implied equivariant ownership map. If none exists, distinguish an owner-authorized
+realized-field premise from branch-stratified ownership. Do not repeat overlap/cocycle algebra or
+insert an action, source, boundary law, density target, time-live equation, long solve or GPU.
+
+**Evidence:** preregistration `2ddefb71`; frozen universe `0972a026`; primary `54/54`, independent
+`46/46`, final verifier `33/33`, `16/16` mutation catches, 23 frozen sources. Fresh `gpt-5.4`
+`ACCEPTED_WITH_REPAIRS`; the seam-witness repair received fresh `REPAIR_ACCEPTED`. Repository gates
+are in the package.
+
+<!-- STARTUP_CURRENT_END -->
+
+codex
+I’ve finished the current `LIVE.md` and `HANDOFF.md` blocks. The frontier points directly at the founding-ownership audit as the next bounded decision, so I’m reading the current premise index and then the repair request itself to stay inside that exact scope.
+exec
+/bin/bash -lc "sed -n '1,220p' CURRENT_SCIENTIFIC_PREMISES.tsv" in /home/udt-admin/udt_mass_codex
+exec
+/bin/bash -lc "sed -n '1,220p' CURRENT_SCIENTIFIC_PREMISES.md" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+# Current scientific premise index
+
+This is an operational precedence index, not `CANON.md` and not a new physics result. Read
+`LIVE.md` first. Then use `CURRENT_SCIENTIFIC_PREMISES.tsv` to resolve the status of foundational
+terms before reusing an older result, configuration atlas, or conditional derivation. Every row
+points to the evidence that controls it.
+
+If `LIVE.md`, this index, and a cited source disagree, stop and report the conflict. Do not choose
+the file that makes a desired derivation easiest. Older files retain their exact historical and
+premise-scoped meaning; they do not override a later source-specific correction.
+
+## The correction that prompted this index
+
+The founded scalar `phi` is already the additive logarithmic depth of the reciprocal clock/ruler
+pair. It acts on that pair as `diag(exp(-phi), exp(phi))`. Its identity and pair action are
+`DERIVED`; its physical observer/path assignment, realized profile, unique full four-dimensional
+extension, variation law, dynamics, boundary, and global completion remain `OPEN`.
+
+An atlas that independently varies a scalar is a `CHOSE_COMPARISON_CONFIGURATION`. It may remain a
+useful enlarged solution-space control, but it cannot establish an additional native UDT field.
+Likewise, the six-function quotient of a generic four-dimensional metric is a generic
+configuration-arena count, not a count of UDT propagating modes or a selected native field census.
+
+Strong local Common-Scale Neutrality is
+`CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and is inactive unless Charles explicitly reauthorizes it
+for a stated counterfactual branch. Algebraic cancellation of a common factor is not a local Weyl
+gauge theorem. The calibrated physical-metric reading retains measured `c_E` and `G_obs` as
+observational anchors.
+
+The remaining rows guard other easy-to-promote terms: the `S^2` carrier is a `POSIT`; the
+`C^2`/Bach route is unique only conditionally on the pre-scale strong-CSN premise; EH is conditional
+and unselected; bootstrap is a working on-shell admissibility hypothesis, not a local equation;
+Maxwell-like geometry currently gives only the conditional toric identities `F=dS` and `dF=0`;
+`X_max` is a working global observer-pair maximum-separation schema; static Hopfion stability is
+finite-box and carrier-conditional; and complete native action, source, boundary charge, and mass
+remain open.
+
+Charles has now explicitly retained global/local mutual admissibility as a falsifiable `WORKING
+POSIT`. The August 4 reconstruction audit gives it a relational mathematical home and verifies one
+metric-native partial component: global completion data change legal local join fibers. Ordinary
+descent, reconstruction, and free readout remain nonselecting, so the complete interior return,
+physical readout, response, density closure, and dynamics remain `OPEN`. Do not promote the posit
+into a scalar optimizer, objective, local equation, or derived complete bootstrap law.
+
+The later August 4 complete-coframe extension/solvability audit,
+`udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md`, closes one more
+shortcut. Once a smooth fixed-rank reciprocal/screen split is supplied, screen and mixing data
+extend without selection; Levi-Civita Cartan reconstruction uniquely determines a connection for
+each coframe but does not constrain the coframe; and Bianchi identities remain identities.
+Holonomy restricts only after adding parallelism, while bulk or boundary solvability first requires
+the still-open parent operator. Rank-changing, null, defect, and stratified extension remains open.
+Smooth gluing, connection reconstruction, or the word “solvability” must not be promoted into the
+missing physical return.
+
+The August 4 first-jet/stratified-transition atlas,
+`udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md`, releases
+all ten metric first-jet directions in each of all four derivative slots on the local finite-`phi`,
+nondegenerate tile. The complete inverse metric makes the causal type of founded `dphi` depend
+jointly on reciprocal, screen-shear, and base-screen mixing data. Nonzero-null and zero-gradient
+strata obstruct a universal normalized projector continuation, while finite `phi` itself does not
+cause coframe rank loss. This is a configuration-space result, not physical time evolution. It
+supplies no physical evolution, action, source, boundary, density return, matter, or mass.
+
+The current second-jet curvature-solder atlas,
+`udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md`, releases every local metric
+Hessian and reproduces the full 20-dimensional algebraic curvature module. In the supplied local
+split, one Bianchi relation joins reciprocal-area, screen-area and mixed entries; complete curvature
+needs screen, mixing and one base source family. The unnormalized founded-depth tidal construction
+has full plural `6,6,3,0` image dimensions across timelike, spacelike, nonzero-null and zero strata.
+This remains a local algebraic atlas. The split is not selected, and the normal-frame source atlas
+and supplied-`dphi` strata have no derived same-solution physical join, response or evolution law.
+
+The later same-solution founded-depth/curvature audit,
+`udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md`, closes that
+parent's narrow local-existence caveat. In the supplied factorized F01/F02 architectures, a fixed
+founded-depth first jet and arbitrary algebraic curvature admit one common regular local two-jet.
+Exact ranks are `20/20`; restricted F03/F04/F05/F06/F07 ranks are `19/19/8/10/10`, unchanged across
+zero, timelike, spacelike and nonzero-null representatives. Releasing the reference coframe gives
+an exact factorization kernel that shifts `phi` and its jets without changing the complete coframe.
+Thus physical observer/path-to-`phi` ownership, a global section, response/evolution and complete
+bootstrap return remain `OPEN`. Conditional local coexistence must not be promoted to a physical
+assignment or gauge law.
+
+The August 5 global founded-depth ownership/overlap audit,
+`udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md`, now closes ordinary overlap and
+cocycle consistency as a candidate ownership selector on the supplied smooth fixed-rank cover.
+Local factorization shifts induce exact coboundary changes of the reference transitions while the
+physical complete coframes and overlaps remain unchanged. Scalar descent leaves arbitrary global-
+function freedom; affine/reversal cocycles and path periods can retain class data without selecting
+a section; finite-cell physical glue likewise does not fix the reference presentation. Fixed
+reference transitions, independently physical pair depths, and regular branch selectors reduce the
+freedom only conditionally. Do not promote the derived factorization groupoid to a physical gauge
+postulate, or promote overlap consistency, loop identity, a fixed reference, or a supplied seam into
+the missing physical `phi` ownership rule.
+
+Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
+these terms.
+
+ succeeded in 0ms:
+premise_id	term	current_status	epistemic_label	active_use	open_scope	forbidden_regression	controlling_source	precedence_rule
+G01	founded_phi_identity	DERIVED_ADDITIVE_LOG_DEPTH_OF_RECIPROCAL_PAIR	DERIVED	ACTIVE_FOUNDATION	physical observer/path assignment; realized profile; complete 4D extension	undefined placeholder; independent native scalar	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G02	founded_phi_action	DERIVED_PHI_MAPS_TO_DIAG_EXP_MINUS_PHI_EXP_PLUS_PHI	DERIVED	ACTIVE_FOUNDATION	angular and mixing extension	inverse exponential pair reopened	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G03	independent_phi_atlases	CHOSE_COMPARISON_CONFIGURATION	CHOSE	COMPARISON_ONLY_NOT_NATIVE	useful enlarged solution-space controls	native field ownership inferred from atlas independence	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G04	strong_local_CSN	CHALLENGED_OWNER_POSTULATE_NOT_DERIVED	OPEN	INACTIVE_UNLESS_CHARLES_EXPLICITLY_REAUTHORIZES	explicitly reauthorized counterfactual branch only	active gauge equivalence or primary rank subtraction	udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G05	common_factor_cancellation	DERIVED_ALGEBRAIC_RATIO_INVARIANCE	DERIVED	ALGEBRA_ONLY	physical status of common factor	local conformal gauge inferred from cancellation	udt_common_scale_neutrality_provenance_audit_2026-07-24/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G06	c_E_and_G_obs	OBSERVED_ANCHORS_RETAINED	OBSERVED	ACTIVE_CALIBRATION	complete native placement and absolute size closure	scale-free physical metric asserted as current fact	udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G07	generic_metric_configuration_rank	GENERIC_F4_6_MOD_COORDINATE_PRESENTATION	DERIVED	GENERIC_ARENA_BASELINE_ONLY	UDT reduction and dynamics	propagating modes or selected native field census	udt_global_functional_dof_constraint_rank_audit_2026-07-26/LOCAL_PRESENTATION_RANK.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G08	complete_4D_phi_extension	OPEN_SELECTION_WITH_EXACT_EXTENSION_CLASS	OPEN	ACTIVE_OPEN_GATE	angular generator; mixing; descent; global continuation	direct-sum spectator extension called unique unconditionally	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G09	S2_carrier	POSIT	POSIT	CONDITIONAL_CARRIER_BRANCH_ONLY	carrier emergence or replacement	native carrier derived from celestial fiber or Hopf quotient	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G10	C2_Bach_action	UNIQUE_CONDITIONAL_ONLY_IF_PRE_SCALE_STRONG_CSN_RETAINED	CONDITIONAL	INACTIVE_WITHOUT_STRONG_CSN_PREMISE	physical applicability	unconditional native action priority	udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G11	EH_action	CONDITIONAL_NOT_SELECTED	CONDITIONAL	NOT_SELECTED	native minimality and variation domain	GR familiarity used as derivation	udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G12	bootstrap	WORKING_MUTUAL_ADMISSIBILITY_POSIT__PARTIAL_KINEMATIC_JOIN_DERIVED__SMOOTH_EXTENSION_CARTAN_NONSELECTION__FULL_FIRST_AND_SECOND_JET_CURVATURE_ATLASES_DERIVED__CONDITIONAL_LOCAL_SAME_SOLUTION_PHI_CURVATURE_COMPATIBILITY__GLOBAL_FACTORIZATION_GROUPOID_AND_OVERLAP_NONSELECTION_DERIVED__PHYSICAL_PHI_OWNERSHIP_AND_COMPLETE_RETURN_OPEN	WORKING	FALSIFIABLE_RELATIONAL_ARCHITECTURE_ONLY	physical observer/path-to-phi ownership morphism; defect-stratified continuation; complete interior relation; physical readout; response; mass-volume-density feedback; fixed point; dynamics	local compatibility promoted to physical section; factorization redundancy called physical gauge; overlap cocycle or finite-cell glue called physical ownership; local equation optimizer scalar objective arbitrary configuration path or complete derived bootstrap law invented	udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G13	Maxwell_like_geometry	CONDITIONAL_TORIC_F_EQUALS_dS_AND_dF_EQUALS_ZERO	CONDITIONAL	TORIC_GEOMETRY_ONLY	U1 selection; action; source; current; charge; normalization	full native Maxwell system claimed	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G14	Xmax	WORKING_GLOBAL_OBSERVER_PAIR_MAXIMUM_SEPARATION	WORKING	GLOBAL_OBSERVER_PAIR_SCHEMA	pairing functional; value; mass-density modulation	edge radius center or derived numerical constant	udt_xmax_observer_separation_audit_2026-07-24/STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G15	static_Hopfion	SETTLED_STATIC_FINITE_BOX_CONDITIONAL	SETTLED	STATIC_FINITE_BOX_AND_CARRIER_CONDITIONAL	carrier emergence; infinite volume; time-live persistence; unconditional mass	unconditional particle stability or matter emergence	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G16	complete_native_action_source_boundary_mass	OPEN	OPEN	NO_COMPLETE_PHYSICS_CLAIM	all complete closure objects	conditional geometry promoted to complete physics	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G17	finite_cell_finiteness	KEPT_MULTIPLY_ANCHORED_SPLIT_FROM_MIRROR_CLAUSE	WORKING	ACTIVE_FOUNDATION_SPLIT_READING	sharpest form = causal horizon with trapped interior beyond (C-2026-07-09-1a); x_max value/pairing underived (G14); OWNER-KERNEL CLARIFICATION (Charles 2026-07-31): his owned foundation = {static = non-expanding with time FLOWING; x_max = max allowable distance between two observers (spatial, derivation held); very likely finite total mass-energy} -- the CELL DECOMPOSITION + "no spatial infinity" principle (C-2026-06-10-2) = a handover-day RATIFIED PROGRAM CONSTRUCTION on that kernel, NOT owner bedrock; grade rests on its derivational anchors only	finiteness cited via the mirror-closure clause; Rule-5 static read as finiteness; 2026-07-31 driver mis-attributed the finite-cell principle to the owner personally (second provenance-inversion instance) -- corrected same day	udt_mirror_canon_provenance_audit_2026-07-30/PROVENANCE_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G18	mirror_closure_clause	OWNER_RATIFIED_PROPOSAL_NOT_DERIVED_SPLIT_RULED_2026-07-30	WORKING	WORKING_PREMISE_ONLY_STAMPS_TRAVEL_VIA_CONSUMER_LEDGER	closure vs bridge-only vs partner-glue (option-d derivation authorized); eps_phi=-1 is canon-DEFINITIONAL wording	the closure clause cited as derived or bedrock; seam-bridge (neg_phi #235, DERIVED) conflated with closure	udt_mirror_canon_provenance_audit_2026-07-30/CONSUMER_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+# Focused repair replay request
+
+Read only the fresh adversarial verdict, its cited stationary-lapse sources, and the repaired files
+in this package. Do not edit files or continue the research.
+
+Verify exactly:
+
+1. `q_K(p,q)=N(q)/N(p)` remains the stationary lapse ratio;
+2. the source-consistent signed depth is now
+   `delta_K(p,q)=-log(q_K)=log(N(p)/N(q))` everywhere outside the immutable review transcript;
+3. the primary and independent implementations explicitly distinguish lapse and signed-depth
+   ratios and reproduce 34/34 and 24/24 checks;
+4. `verify_audit.py` passes 39/39, including the exercised catch that rejects equating the depth
+   ratios to the lapse ratios;
+5. no route grade or maximum conclusion changed.
+
+Return exactly `REPAIR_ACCEPTED` or `REPAIR_REJECTED`, followed by concise evidence.
+
+codex
+The repair request narrows the evidence set to the fresh adversarial verdict, its cited stationary-lapse sources, and the repaired package files. I’m reading those directly and excluding the prohibited repair transcript files entirely.
+exec
+/bin/bash -lc "sed -n '1,260p' udt_founding_phi_ownership_morphism_audit_2026-08-05/FRESH_ADVERSARIAL_REVIEW.md" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+ACCEPTED_WITH_REPAIRS
+
+**Findings**
+1. The stationary positive branch has a sign/readout mismatch, not a route-fatal flaw. The package states `q_K(p,q)=N(q)/N(p), delta_K=\log q_K` in [AUDIT_REPORT](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md:32) and [EXACT_DERIVATION](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:100), but the bound source chain gives the stationary lapse ratio as `N(q)/N(p)=exp(-(phi_q-phi_p))` in [CLOCK_READOUT_LEDGER.tsv](/home/udt-admin/udt_mass_codex/udt_observer_pair_clock_operator_audit_2026-07-24/CLOCK_READOUT_LEDGER.tsv:5) and the stationary depth as `log(N(p)/N(q))` in [WHOLE_SPACETIME_SKELETON.md](/home/udt-admin/udt_mass_codex/udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md:150). The conditional M03 route survives; the named `delta_K` formula needs inversion.
+2. The core retyping is otherwise source-backed. The direct founding record begins with supplied relative depth `Delta` and only then derives the reciprocal character [UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md](/home/udt-admin/udt_mass_codex/UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md:39), [UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md](/home/udt-admin/udt_mass_codex/UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:52), while the sign/unit of `phi` are explicitly `CHOSE` [UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md](/home/udt-admin/udt_mass_codex/UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:125). The missing map from complete observer/event/path data to signed depth is explicitly kept open in [EXACT_ADJUDICATION.md](/home/udt-admin/udt_mass_codex/udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md:39) and [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md:94).
+3. The factorization/orbit countermodel is nonvacuous and correctly typed. Stored witnesses show changed depth with unchanged complete coframes and unchanged physical arrow in [WITNESSES.json](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/WITNESSES.json:2), and the orbit-transitivity argument is exactly the right reason the presentation class cannot return a named scalar without extra owner data in [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:31).
+4. The `K` versus `eta` distinction is handled correctly. The source chain explicitly says `K` is the dual-evaluation pairing, not the physical observer interval [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md:67), and that coordinate covector scaling can realize the founding matrix while physical orthonormal-frame comparison remains identity [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md:151), matching the audit’s transport objection [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:80).
+5. The source-scope correction preserved the original freeze rather than rewriting it. The correction is explicitly append-only in [SOURCE_SCOPE_CORRECTION_PREREGISTRATION.md](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/SOURCE_SCOPE_CORRECTION_PREREGISTRATION.md:6), and `verify_audit.py` checks the base 31-source manifest at the preregistration commit, the separate 4-source addendum at the correction parent, zero overlap, and the historical firewall for `udt_canonical_geometry.md` [verify_audit.py](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_audit.py:165).
+
+**Exact smallest repairs**
+1. In [AUDIT_REPORT](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md:32) and [EXACT_DERIVATION](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:100), change either to `q_K(p,q)=N(q)/N(p), delta_K(p,q)=-log q_K(p,q)` or to `delta_K(p,q)=log(N(p)/N(q))`.
+2. Apply the same sign/readout correction anywhere else the stationary branch formula is summarized. The route grade `CONDITIONAL_BRANCH_LOCAL_KILLING_DEPTH__NO_UNIVERSAL_EXTRACTION` need not change.
+
+**Evidence**
+- I reproduced the primary `32/32` and independent `23/23` results by rerunning both implementations in memory with write interception because the session is read-only, and reran `python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_audit.py` directly; it returned `38/38` checks with `18/18` mutation rejections.
+- The tracked-result hashes for `RESULT.json`, `INDEPENDENT_RESULT.json`, `VERIFICATION_RESULT.json`, `WITNESSES.json`, `ROUTE_OUTCOMES.tsv`, and `CATCH_PROOFS.tsv` were identical before and after replay.
+- The ten-route universe, preregistered gates, and maximum allowed conclusion are properly bounded in [PREREGISTRATION.md](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/PREREGISTRATION.md:16), and the stored status map remains honest after the sign repair in [STATUS_LEDGER.tsv](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/STATUS_LEDGER.tsv:2).
+
+**Maximum Scientifically Honest Conclusion**
+`DERIVED_FOUNDING_OBJECT_IS_A_RELATIONAL_RECIPROCAL_CHARACTER_ON_SUPPLIED_DEPTH__DERIVED_POINTWISE_PHI_IS_A_PRESENTATION_POTENTIAL_ON_THE_SUPPLIED_FACTORIZED_ARCHITECTURE__CONDITIONAL_STATIONARY_KILLING_AND_SUPPLIED_QUERY_REALIZATIONS__NO_UNIVERSAL_FOUNDED_PHI_OWNERSHIP_MORPHISM_IN_FROZEN_NATIVE_SOURCES`
+
+With the repair: M03 should be read as a conditional stationary lapse-ratio/depth reduction with the source-consistent sign convention, not as a different headline result.
+exec
+/bin/bash -lc "rg -n --glob '"'!REVIEW_REPAIR.md'"' --glob '"'!REVIEW_REPAIR_RAW.txt'"' --glob '"'!*RAW.txt'"' --glob '"'!*.log'"' \"q_K\\(p,q\\)|delta_K\\(p,q\\)|34/34|24/24|39/39|lapse ratio|signed depth|depth ratios|route grade|maximum conclusion|REPAIR_ACCEPTED|REPAIR_REJECTED\" udt_founding_phi_ownership_morphism_audit_2026-08-05" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+udt_founding_phi_ownership_morphism_audit_2026-08-05/ADVERSARIAL_REVIEW_REQUEST.md:38:   stationary lapse ratio, and reversal-even readout kept distinct?
+udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:104:q_K(p,q)=N(q)/N(p),
+udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:105:delta_K(p,q)=-log q_K(p,q)=log(N(p)/N(q)).
+udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:111:q_K(p,q)q_K(q,r)=q_K(p,r),
+udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:112:q_K(q,p)=q_K(p,q)^-1,
+udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:118:different complete stationary branches have different lapse ratios.
+udt_founding_phi_ownership_morphism_audit_2026-08-05/PREREGISTRATION.md:33:2. **Typed codomain:** signed depth, section, torsor/orbit, or equivalence class is stated exactly.
+udt_founding_phi_ownership_morphism_audit_2026-08-05/independent_founding_ownership.py:79:    # Endpoint and stationary branch ratios.  The lapse ratio N(q)/N(p) is the inverse of the
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md:8:1. `q_K(p,q)=N(q)/N(p)` remains the stationary lapse ratio;
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md:9:2. the source-consistent signed depth is now
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md:10:   `delta_K(p,q)=-log(q_K)=log(N(p)/N(q))` everywhere outside the immutable review transcript;
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md:12:   ratios and reproduce 34/34 and 24/24 checks;
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md:13:4. `verify_audit.py` passes 39/39, including the exercised catch that rejects equating the depth
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md:14:   ratios to the lapse ratios;
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md:15:5. no route grade or maximum conclusion changed.
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_REPAIR_REQUEST.md:17:Return exactly `REPAIR_ACCEPTED` or `REPAIR_REJECTED`, followed by concise evidence.
+udt_founding_phi_ownership_morphism_audit_2026-08-05/FRESH_ADVERSARIAL_REVIEW.md:4:1. The stationary positive branch has a sign/readout mismatch, not a route-fatal flaw. The package states `q_K(p,q)=N(q)/N(p), delta_K=\log q_K` in [AUDIT_REPORT](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md:32) and [EXACT_DERIVATION](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:100), but the bound source chain gives the stationary lapse ratio as `N(q)/N(p)=exp(-(phi_q-phi_p))` in [CLOCK_READOUT_LEDGER.tsv](/home/udt-admin/udt_mass_codex/udt_observer_pair_clock_operator_audit_2026-07-24/CLOCK_READOUT_LEDGER.tsv:5) and the stationary depth as `log(N(p)/N(q))` in [WHOLE_SPACETIME_SKELETON.md](/home/udt-admin/udt_mass_codex/udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md:150). The conditional M03 route survives; the named `delta_K` formula needs inversion.
+udt_founding_phi_ownership_morphism_audit_2026-08-05/FRESH_ADVERSARIAL_REVIEW.md:5:2. The core retyping is otherwise source-backed. The direct founding record begins with supplied relative depth `Delta` and only then derives the reciprocal character [UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md](/home/udt-admin/udt_mass_codex/UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md:39), [UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md](/home/udt-admin/udt_mass_codex/UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:52), while the sign/unit of `phi` are explicitly `CHOSE` [UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md](/home/udt-admin/udt_mass_codex/UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md:125). The missing map from complete observer/event/path data to signed depth is explicitly kept open in [EXACT_ADJUDICATION.md](/home/udt-admin/udt_mass_codex/udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md:39) and [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md:94).
+udt_founding_phi_ownership_morphism_audit_2026-08-05/FRESH_ADVERSARIAL_REVIEW.md:11:1. In [AUDIT_REPORT](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md:32) and [EXACT_DERIVATION](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:100), change either to `q_K(p,q)=N(q)/N(p), delta_K(p,q)=-log q_K(p,q)` or to `delta_K(p,q)=log(N(p)/N(q))`.
+udt_founding_phi_ownership_morphism_audit_2026-08-05/FRESH_ADVERSARIAL_REVIEW.md:12:2. Apply the same sign/readout correction anywhere else the stationary branch formula is summarized. The route grade `CONDITIONAL_BRANCH_LOCAL_KILLING_DEPTH__NO_UNIVERSAL_EXTRACTION` need not change.
+udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md:35:q_K(p,q)=sqrt(-g(K,K))_q / sqrt(-g(K,K))_p,
+udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md:63:- primary SymPy 1.13.1 algebra: 34/34 checks after the source-consistent stationary-sign repair;
+udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md:64:- independent standard-library `Fraction` reconstruction: 24/24 checks;
+udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md:70:was the stationary lapse/depth sign above. The repaired replay passes 39/39 verifier checks,
+udt_founding_phi_ownership_morphism_audit_2026-08-05/derive_founding_ownership.py:114:    # A nonnegative symmetric distance magnitude cannot itself be the reversal-odd signed depth.
+udt_founding_phi_ownership_morphism_audit_2026-08-05/derive_founding_ownership.py:120:    # Stationary branch-local Killing/lapse readout: N(q)/N(p) is the lapse ratio, while the
+udt_founding_phi_ownership_morphism_audit_2026-08-05/derive_founding_ownership.py:121:    # source-consistent signed depth has exp(delta_K)=N(p)/N(q).  Keep the inverse channels explicit.
+udt_founding_phi_ownership_morphism_audit_2026-08-05/SOURCE_PROPOSITION_LEDGER.tsv:13:Q12	udt_observer_pair_clock_operator_audit_2026-07-24/CLOCK_READOUT_LEDGER.tsv	R01_R05	The nonnegative exponential channel signed endpoint lapse ratio and reversal-even half trace have different types	VERIFIED_BOUNDED
+udt_founding_phi_ownership_morphism_audit_2026-08-05/SOURCE_PROPOSITION_LEDGER.tsv:14:Q13	udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/EXACT_DERIVATION.md	sections_1_4	Ordered observer/ruler pairs and paths form exact typed kinematics after additive signed depth is supplied	VERIFIED_BOUNDED
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_CLOSURE.md:7:route grades, and the maximum conclusion. It found one bounded sign mismatch in the stationary
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_CLOSURE.md:8:positive branch: the draft called `log(N(q)/N(p))` the signed depth even though the frozen source
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_CLOSURE.md:9:convention makes `N(q)/N(p)` the lapse ratio and
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_CLOSURE.md:15:q_K(p,q)=N(q)/N(p),
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_CLOSURE.md:16:delta_K(p,q)=-log q_K(p,q)=log(N(p)/N(q)).
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_CLOSURE.md:19:Both implementations now keep the lapse and depth ratios explicitly inverse. The primary replay is
+udt_founding_phi_ownership_morphism_audit_2026-08-05/REVIEW_CLOSURE.md:20:34/34, the independent replay is 24/24, and the fail-closed verifier is 39/39 with 19/19 exercised
+udt_founding_phi_ownership_morphism_audit_2026-08-05/SOURCE_SCOPE_CORRECTION_PREREGISTRATION.md:20:No route, premise, falsification gate, acceptance criterion, or maximum conclusion changes. The
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_founding_phi_ownership_morphism_audit_2026-08-05/COMMANDS.md" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+# Commands
+
+```bash
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/freeze_sources.py
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/freeze_source_addendum.py
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/derive_founding_ownership.py
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/independent_founding_ownership.py
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_audit.py --write
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_audit.py
+```
+
+All derivation work is exact CPU rational/symbolic algebra. No GPU or long solve is used.
+
+# Banking and preservation replay
+
+```bash
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/derive_founding_ownership.py
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/independent_founding_ownership.py
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_audit.py --write
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_repository_gates.py
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_package_manifest.py --write
+python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_package_manifest.py
+```
+
+`FRESH_ADVERSARIAL_REVIEW_RAW.txt` and `REVIEW_REPAIR_RAW.txt` preserve their PTY-captured bytes
+exactly. The final staged whitespace check excludes only those two raw evidence streams.
+
+codex
+I’ve identified the relevant repair surface: the fresh review points to the stationary-lapse sources, and the package now advertises updated `34/34`, `24/24`, and `39/39` counts. I’m checking the exact source lines plus the repaired derivation, implementations, verifier, and unchanged route/conclusion statements.
+exec
+/bin/bash -lc "sed -n '1,220p' udt_observer_pair_clock_operator_audit_2026-07-24/CLOCK_READOUT_LEDGER.tsv" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+id	readout	formula	status	warning
+R01	named time-per-length channel	T(rho)=exp(-rho), rho>=0	DERIVED_CONDITIONAL_CHANNEL_CHARACTER	nonnegative radial/depth channel; not a signed endpoint-field theorem
+R02	reversal-even half trace	Gamma(delta)=Tr S(delta)/2=cosh(delta)	DERIVED_DIAGNOSTIC_INVARIANT	not a multiplicative channel and not invariant under independent endpoint frame choices
+R03	balanced-basis mutual slow factor	sech(delta)	CONDITIONAL_ON_PHYSICAL_K_READOUT_AND_ENDPOINT_OBSERVER_FRAMES	cannot replace the founding named temporal character
+R04	stationary lapse ratio	N(q)/N(p)=exp(-(phi_q-phi_p))	CONDITIONAL_ON_COMMON_STATIC_SLICING_AND_LOCAL_FIELD_JOIN	ordered ratio; one direction is inverse of the other, not mutual slowdown
+R05	coordinate covector transport	diag(exp(-Delta phi),exp(Delta phi))	DERIVED_IN_STATIC_DIAGONAL_CONTROL	physical orthonormal frame comparison is identity along the same spatial curve
+
+exec
+/bin/bash -lc "sed -n '140,165p' udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+Given a physical pair, signed additive depth and typed path, the repository supports the conditional
+comparison data
+
+```text
+C_gamma = (D(rho_gamma), U_gamma),
+```
+
+where `U_gamma` is Levi-Civita coframe transport. The depth may be endpoint-only while the complete
+coframe comparison remains path-labelled.
+
+On a complete stationary branch with an intrinsic timelike Killing line, the bounded metric-native
+depth is
+
+```text
+delta_K(p,q) = log(
+  sqrt(-g(K,K)) at p / sqrt(-g(K,K)) at q
+).
+```
+
+That is an exact reduction witness. Arbitrary observers, nonstationary realization, cut-locus path
+semantics and the global separation functional remain open.
+
+## 6. Globalization layer
+
+Local objects become a complete spacetime configuration only when overlap data `T_ij` satisfy their
+cocycle and equivariance conditions. The skeleton therefore retains, without selecting:
+
+exec
+/bin/bash -lc "sed -n '25,80p' udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+
+> A universal pointwise `phi` owner is not required by the founding relational kinematics. The
+> missing physical object is the two-observer depth law that supplies `delta`; a global `phi` is a
+> potential representation only on branches where that law is endpoint exact.
+
+## Positive branch result
+
+On a stationary branch with an intrinsic timelike Killing line, the metric supplies
+
+```text
+q_K(p,q)=sqrt(-g(K,K))_q / sqrt(-g(K,K))_p,
+delta_K=-log q_K=log(sqrt(-g(K,K))_p/sqrt(-g(K,K))_q).
+```
+
+The ratio composes, reverses, and is invariant under constant normalization of `K`. This is a real
+metric-native owner on that branch, not a universal result for arbitrary observers or nonstationary
+geometry.
+
+## Why the other routes do not close it
+
+- Typed path-groupoid composition uses every supplied additive depth but does not generate one.
+- Levi-Civita transport is metric-isometric and cannot be renamed nonzero reciprocal dilation.
+- A fixed reference, endpoint section, event pairing, or physical measured depth closes the algebra
+  only conditionally.
+- A symmetric nonnegative separation is not the same object as a signed reversal-odd depth.
+- `c_E` calibrates the time/length conversion but the direct source still leaves the depth unit and
+  realized profile open.
+- Global/local mutual admissibility is presently a possibly multivalued relation, not a return
+  function.
+
+All ten preregistered routes are retained in `ROUTE_OUTCOMES.tsv`.
+
+## Exact evidence so far
+
+- append-only source-scope correction preserved the original 31-source freeze and added the four
+  direct founding payload files before they were opened;
+- effective source union: 35 files;
+- source proposition ledger: 23 individually graded propositions;
+- primary SymPy 1.13.1 algebra: 34/34 checks after the source-consistent stationary-sign repair;
+- independent standard-library `Fraction` reconstruction: 24/24 checks;
+- exact primary depth shift `11/2 -> 55/6` with unchanged physical arrow;
+- independent depth shift `13/3 -> 91/6` with unchanged physical arrow;
+- all ten candidate ownership routes classified without deleting inconvenient alternatives.
+
+Fresh zero-context adversarial review returned `ACCEPTED_WITH_REPAIRS`; its sole mathematical repair
+was the stationary lapse/depth sign above. The repaired replay passes 39/39 verifier checks,
+including 19/19 exercised mutation rejections.
+
+## Maximum conclusion
+
+```text
+DERIVED_FOUNDING_OBJECT_IS_A_RELATIONAL_RECIPROCAL_CHARACTER_ON_SUPPLIED_DEPTH__
+DERIVED_POINTWISE_PHI_IS_A_PRESENTATION_POTENTIAL_ON_THE_SUPPLIED_FACTORIZED_ARCHITECTURE__
+CONDITIONAL_STATIONARY_KILLING_AND_SUPPLIED_QUERY_REALIZATIONS__
+NO_UNIVERSAL_FOUNDED_PHI_OWNERSHIP_MORPHISM_IN_FROZEN_NATIVE_SOURCES
+```
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_founding_phi_ownership_morphism_audit_2026-08-05/ROUTE_OUTCOMES.tsv" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+route_id	classification	exact_reason
+M01	FOUNDING_DERIVED_ABSTRACT_GIVEN_SUPPLIED_DEPTH	the character is exact but the observer-pair depth value is an input
+M02	CONDITIONAL_TYPED_PATH_COCYCLE__NATIVE_DEPTH_OPEN	path composition is exact only after an additive depth cocycle is supplied
+M03	CONDITIONAL_BRANCH_LOCAL_KILLING_DEPTH__NO_UNIVERSAL_EXTRACTION	stationary intrinsic Killing norm ratios own depth on that branch; factorization defeats universal extraction
+M04	CONDITIONAL_EXTRA_REFERENCE	a fixed physical reference removes shifts but is not founded
+M05	DERIVED_CHARACTER_ON_SUPPLIED_PAIR__NO_REPRESENTATIVE_SELECTION	pair orientation types the action while every positive depth remains admissible
+M06	CONDITIONAL_OPERATIONAL_INPUT__NOT_METRIC_DERIVED	a measured or declared pair depth completes the arrow but is additional physical data
+M07	DERIVED_PRESENTATION_ORBIT__INSUFFICIENT_FOR_SCALAR_READOUT	the invariant orbit contains arbitrary positive scalar representatives
+M08	NOT_DERIVED_EXTRA_NORMALIZATION	no founded seam endpoint or zero fixes the representative
+M09	DERIVED_CALIBRATION_AND_CHARACTER__DEPTH_UNIT_AND_ASSIGNMENT_OPEN	c dimension-matches clock and ruler but the founding record chooses the sign and unit of phi
+M10	WORKING_RELATION_NONFUNCTIONAL__NO_OWNERSHIP_SELECTION	mutual admissibility is a relation and can remain multivalued without a return law
+
+exec
+/bin/bash -lc "sed -n '90,130p' udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md" in /home/udt-admin/udt_mass_codex
+exec
+/bin/bash -lc "sed -n '110,150p' udt_founding_phi_ownership_morphism_audit_2026-08-05/derive_founding_ownership.py" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+The off-diagonal `K` preserved by `D` in the founding derivation is the dual evaluation pairing,
+not silently the local physical interval. Therefore ordinary metric transport cannot be renamed
+the missing nonzero depth assignment.
+
+The exact static diagonal control illustrates the same point: coordinate covector transport can
+display `D(Delta phi)` while the corresponding physical orthonormal coframe transport is the
+identity. Coordinate scaling, physical frame comparison, and clock readout are different types.
+
+## 6. The genuine branch-local positive result
+
+On a complete stationary branch with an intrinsic timelike Killing line `K`, define
+
+```text
+N(x)=sqrt(-g(K,K)) at x,
+q_K(p,q)=N(q)/N(p),
+delta_K(p,q)=-log q_K(p,q)=log(N(p)/N(q)).
+```
+
+Then
+
+```text
+q_K(p,q)q_K(q,r)=q_K(p,r),
+q_K(q,p)=q_K(p,q)^-1,
+```
+
+The reciprocal character obeys `exp(delta_K)=q_K^-1`; it composes and reverses with the same
+orientation, and a constant rescaling of `K` cancels. This is a metric-native depth owner on that stationary
+stratum. It is not universal: a nonstationary geometry need not possess the intrinsic line, and
+different complete stationary branches have different lapse ratios.
+
+The correct grade is therefore `CONDITIONAL_BRANCH_LOCAL_KILLING_DEPTH`, not a global ownership
+theorem.
+
+## 7. Supplied path and operational realizations
+
+For a supplied complete metric, ordered observer/ruler pair, path, vertical pair resets, and an
+additive depth cocycle, the existing path comparison groupoid composes exactly. This owns the
+**kinematic use** of every supplied depth, not its value.
+
+Likewise, an independently measured or declared pair depth would reduce factorization freedom and
+complete the comparison arrow. That is a legitimate operational route, but it is additional input;
+
+ succeeded in 0ms:
+    za, zb, zc = sp.Rational(2), sp.Rational(7), sp.Rational(19)
+    record(checks, "endpoint_potential_composes", (zc / zb) * (zb / za) == zc / za)
+    record(checks, "endpoint_common_scale_cancels", ((5 * zc) / (5 * zb)) == zc / zb)
+
+    # A nonnegative symmetric distance magnitude cannot itself be the reversal-odd signed depth.
+    magnitude_ab = abs(sp.Rational(9) - sp.Rational(2))
+    magnitude_ba = abs(sp.Rational(2) - sp.Rational(9))
+    record(checks, "distance_magnitude_is_symmetric", magnitude_ab == magnitude_ba and magnitude_ab > 0)
+    record(checks, "distance_magnitude_not_signed_depth", magnitude_ba != -magnitude_ab)
+
+    # Stationary branch-local Killing/lapse readout: N(q)/N(p) is the lapse ratio, while the
+    # source-consistent signed depth has exp(delta_K)=N(p)/N(q).  Keep the inverse channels explicit.
+    na, nb, nc, scale = map(sp.Rational, (2, 3, 11, 7))
+    lab, lbc, lac = nb / na, nc / nb, nc / na
+    dab, dbc, dac = na / nb, nb / nc, na / nc
+    record(checks, "stationary_killing_lapse_ratio_composes", lbc * lab == lac)
+    record(checks, "stationary_depth_ratio_composes", dbc * dab == dac)
+    record(checks, "stationary_depth_is_inverse_lapse", dab == 1 / lab)
+    record(checks, "stationary_depth_ratio_reverses", (nb / na) == 1 / dab)
+    record(checks, "stationary_depth_normalization_cancels", (scale * na) / (scale * nb) == dab)
+    record(checks, "different_stationary_branch_changes_depth", sp.Rational(5, 2) != dab)
+
+    # Levi-Civita transport is eta-isometric; the unbalanced physical-metric reciprocal scaling is
+    # not. Therefore transport cannot silently manufacture nonzero depth.
+    boost = sp.Matrix([[sp.Rational(5, 4), sp.Rational(3, 4)], [sp.Rational(3, 4), sp.Rational(5, 4)]])
+    record(checks, "metric_transport_control_is_eta_isometry", boost.T * eta * boost == eta)
+    record(checks, "reciprocal_dilation_differs_from_metric_transport", d(z1).T * eta * d(z1) != eta)
+
+    # The working global/local relation is not a function when one complete geometry admits two
+    # depth presentations. This is a type countermodel, not a physical solution claim.
+    relation = {"G0": {"depth_a", "depth_b"}}
+    record(checks, "working_relation_can_be_multivalued", len(relation["G0"]) == 2)
+    record(checks, "multivalued_relation_not_ownership_function", len(relation["G0"]) != 1)
+
+    routes = [
+        ("M01", "FOUNDING_DERIVED_ABSTRACT_GIVEN_SUPPLIED_DEPTH", "the character is exact but the observer-pair depth value is an input"),
+        ("M02", "CONDITIONAL_TYPED_PATH_COCYCLE__NATIVE_DEPTH_OPEN", "path composition is exact only after an additive depth cocycle is supplied"),
+        ("M03", "CONDITIONAL_BRANCH_LOCAL_KILLING_DEPTH__NO_UNIVERSAL_EXTRACTION", "stationary intrinsic Killing norm ratios own depth on that branch; factorization defeats universal extraction"),
+        ("M04", "CONDITIONAL_EXTRA_REFERENCE", "a fixed physical reference removes shifts but is not founded"),
+        ("M05", "DERIVED_CHARACTER_ON_SUPPLIED_PAIR__NO_REPRESENTATIVE_SELECTION", "pair orientation types the action while every positive depth remains admissible"),
+        ("M06", "CONDITIONAL_OPERATIONAL_INPUT__NOT_METRIC_DERIVED", "a measured or declared pair depth completes the arrow but is additional physical data"),
+
+exec
+/bin/bash -lc "sed -n '70,110p' udt_founding_phi_ownership_morphism_audit_2026-08-05/independent_founding_ownership.py" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+
+    # Two normalization powers satisfy the same multiplicative laws.
+    for power in (1, 3):
+        left = [[F(1, 2**power), F(0)], [F(0), F(2**power)]]
+        right = [[F(1, 5**power), F(0)], [F(0), F(5**power)]]
+        combined = [[F(1, 10**power), F(0)], [F(0), F(10**power)]]
+        check(f"normalization_composes_{power}", mm(right, left) == combined)
+    check("normalizations_distinct", d(F(2)) != [[F(1, 8), F(0)], [F(0), F(8)]])
+
+    # Endpoint and stationary branch ratios.  The lapse ratio N(q)/N(p) is the inverse of the
+    # multiplicative signed-depth ratio exp(delta_K)=N(p)/N(q).
+    check("potential_composes", F(23, 7) * F(7, 2) == F(23, 2))
+    check("common_zero_cancels", F(5 * 23, 5 * 7) == F(23, 7))
+    check("killing_lapse_ratio_composes", F(19, 5) * F(5, 2) == F(19, 2))
+    check("killing_depth_ratio_composes", F(5, 19) * F(2, 5) == F(2, 19))
+    check("killing_depth_is_inverse_lapse", F(2, 5) == 1 / F(5, 2))
+    check("killing_depth_scale_cancels", F(11 * 2, 11 * 5) == F(2, 5))
+
+    # Exact Lorentz isometry control versus reciprocal metric deformation.
+    boost = [[F(5, 4), F(3, 4)], [F(3, 4), F(5, 4)]]
+    check("transport_isometry_control", mm(mm(transpose(boost), eta), boost) == eta)
+    check("dilation_not_transport", mm(mm(transpose(d(F(2))), eta), d(F(2))) != eta)
+
+    magnitude = abs(F(11) - F(4))
+    check("magnitude_symmetric", magnitude == abs(F(4) - F(11)) and magnitude > 0)
+    check("magnitude_not_reversal_odd", magnitude != -magnitude)
+    check("bootstrap_relation_multivalued", len({F(2), F(5)}) == 2)
+    check("identity_control", mm(identity, d(F(3))) == d(F(3)))
+
+    result = {
+        "schema": "udt.founding_phi_ownership.independent.v1",
+        "status": "PASS" if all(checks.values()) else "FAIL",
+        "independence": "stdlib Fraction matrices; no SymPy or production import",
+        "check_count": len(checks),
+        "checks": checks,
+        "depth_before": str(depth1),
+        "depth_after": str(depth2),
+        "physical_arrow": encode(arrow),
+        "physical_arrow_after": encode(arrow2),
+    }
+    (HERE / "INDEPENDENT_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+
+exec
+/bin/bash -lc "sed -n '1,120p' udt_founding_phi_ownership_morphism_audit_2026-08-05/STATUS_LEDGER.tsv" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+object	status	scope_or_reason
+reciprocal_character	DERIVED_WITH_FOUNDING_STAMPS	exact on an already supplied additive depth
+abstract_ordered_comparison	DERIVED_ABSTRACT_GIVEN_DEPTH	composition reversal and identity are exact
+pointwise_phi	PRESENTATION_POTENTIAL_ON_SUPPLIED_FACTORIZED_ARCHITECTURE	local reference shifts change phi while complete geometry remains fixed
+global_phi_representative	NOT_FOUNDED_OR_SELECTED	global overlap leaves arbitrary representative freedom
+factorization_orbit	DERIVED_REFERENCE_INDEPENDENT_PRESENTATION_CLASS	contains arbitrary positive scalar depth representatives and does not supply a clock weight
+complete_physical_comparison_arrow	DERIVED_INVARIANT_UNDER_PRESENTATION_CHANGE	does not canonically decompose into reciprocal depth without owner data
+stationary_Killing_depth	CONDITIONAL_BRANCH_LOCAL_METRIC_DERIVED	intrinsic Killing norm ratio composes reverses and is normalization independent
+typed_path_depth	CONDITIONAL_ON_SUPPLIED_ADDITIVE_COCYCLE	path groupoid uses but does not derive depth
+operational_pair_depth	CONDITIONAL_PHYSICAL_INPUT	would reduce freedom but measurement/event pairing is not founded
+nonnegative_pair_magnitude	OPEN_JOIN	not identical to signed reversal-odd additive depth
+c_E	OBSERVED_CALIBRATION_ANCHOR	dimension-matches clock/ruler conversion but does not select a depth profile or unit
+global_local_mutual_admissibility	WORKING_MULTIBRANCH_RELATION	not yet a single-valued ownership return
+two_observer_relational_depth_law	OPEN_SHARPENED_TARGET	faithful future codomain replacing an unnecessary demand for universal pointwise phi
+action_source_carrier_boundary_density_Xmax_mass_dynamics	OPEN_OR_PRIOR_CONDITIONAL	unchanged
+overall	VERIFIED_WITH_CAVEATS_BOUNDED_RELATIONAL_CHARACTER_AND_PRESENTATION_POTENTIAL	fresh adversary accepted the central result after one source-consistent stationary-sign repair
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_audit.py" in /home/udt-admin/udt_mass_codex
+exec
+/bin/bash -lc 'rg -n "39/39|19/19|depth ratios to the lapse ratios|inverse_lapse|mutation|write" udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_audit.py' in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+2:"""Fail-closed verifier with exercised mutations for the ownership audit."""
+156:    parser.add_argument("--write", action="store_true")
+255:    if args.write:
+256:        (HERE / "VERIFICATION_RESULT.json").write_text(json.dumps(verification, indent=2, sort_keys=True) + "\n")
+258:            writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+259:            writer.writerow(["catch_id", "mutated_target", "expected", "observed"])
+261:                writer.writerow([catch_id, target, "REJECT", "REJECT" if passed else "ACCEPT"])
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Fail-closed verifier with exercised mutations for the ownership audit."""
+
+from __future__ import annotations
+
+import argparse
+import ast
+import copy
+import csv
+from fractions import Fraction
+import hashlib
+import json
+from pathlib import Path
+import subprocess
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+EXPECTED_IDS = [f"M{i:02d}" for i in range(1, 11)]
+EXPECTED_CLASSES = {
+    "M01": "FOUNDING_DERIVED_ABSTRACT_GIVEN_SUPPLIED_DEPTH",
+    "M02": "CONDITIONAL_TYPED_PATH_COCYCLE__NATIVE_DEPTH_OPEN",
+    "M03": "CONDITIONAL_BRANCH_LOCAL_KILLING_DEPTH__NO_UNIVERSAL_EXTRACTION",
+    "M04": "CONDITIONAL_EXTRA_REFERENCE",
+    "M05": "DERIVED_CHARACTER_ON_SUPPLIED_PAIR__NO_REPRESENTATIVE_SELECTION",
+    "M06": "CONDITIONAL_OPERATIONAL_INPUT__NOT_METRIC_DERIVED",
+    "M07": "DERIVED_PRESENTATION_ORBIT__INSUFFICIENT_FOR_SCALAR_READOUT",
+    "M08": "NOT_DERIVED_EXTRA_NORMALIZATION",
+    "M09": "DERIVED_CALIBRATION_AND_CHARACTER__DEPTH_UNIT_AND_ASSIGNMENT_OPEN",
+    "M10": "WORKING_RELATION_NONFUNCTIONAL__NO_OWNERSHIP_SELECTION",
+}
+EXPECTED_CONCLUSION = (
+    "DERIVED_FOUNDING_OBJECT_IS_A_RELATIONAL_RECIPROCAL_CHARACTER_ON_SUPPLIED_DEPTH__"
+    "DERIVED_POINTWISE_PHI_IS_A_PRESENTATION_POTENTIAL_ON_THE_SUPPLIED_FACTORIZED_ARCHITECTURE__"
+    "CONDITIONAL_STATIONARY_KILLING_AND_SUPPLIED_QUERY_REALIZATIONS__"
+    "NO_UNIVERSAL_FOUNDED_PHI_OWNERSHIP_MORPHISM_IN_FROZEN_NATIVE_SOURCES"
+)
+
+
+def sha(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def table(path: Path) -> list[dict[str, str]]:
+    with path.open(encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle, delimiter="\t"))
+
+
+def source_at(commit: str, path: str) -> bytes:
+    return subprocess.check_output(["git", "show", f"{commit}:{path}"], cwd=ROOT)
+
+
+def git_blob(data: bytes) -> str:
+    return hashlib.sha1(f"blob {len(data)}\0".encode() + data).hexdigest()
+
+
+def manifest_guard(rows: list[dict[str, str]], commit: str, expected: int) -> bool:
+    if len(rows) != expected or len({row.get("path") for row in rows}) != expected:
+        return False
+    for row in rows:
+        try:
+            data = source_at(commit, row["path"])
+        except subprocess.CalledProcessError:
+            return False
+        if sha(data) != row["sha256"] or str(len(data)) != row["bytes"] or git_blob(data) != row["git_blob"]:
+            return False
+    return True
+
+
+def candidate_guard(rows: list[dict[str, str]]) -> bool:
+    ids = [row.get("route_id") for row in rows]
+    return ids == EXPECTED_IDS and len(ids) == len(set(ids))
+
+
+def route_guard(rows: list[dict[str, str]]) -> bool:
+    return (
+        [row.get("route_id") for row in rows] == EXPECTED_IDS
+        and all(EXPECTED_CLASSES.get(row["route_id"]) == row.get("classification") for row in rows)
+    )
+
+
+def result_guard(result: dict[str, object]) -> bool:
+    checks = result.get("checks")
+    return (
+        isinstance(checks, dict)
+        and result.get("status") == "PASS"
+        and result.get("sympy") == "1.13.1"
+        and result.get("check_count") == len(checks) == 34
+        and all(value is True for value in checks.values())
+        and result.get("route_count") == 10
+        and result.get("maximum_conclusion") == EXPECTED_CONCLUSION
+    )
+
+
+def independent_guard(result: dict[str, object]) -> bool:
+    checks = result.get("checks")
+    return (
+        isinstance(checks, dict)
+        and result.get("status") == "PASS"
+        and result.get("check_count") == len(checks) == 24
+        and all(value is True for value in checks.values())
+        and result.get("depth_before") != result.get("depth_after")
+        and result.get("physical_arrow") == result.get("physical_arrow_after")
+    )
+
+
+def witness_guard(witness: dict[str, object]) -> bool:
+    lapse = witness.get("stationary_killing_lapse_ratios", {})
+    depth = witness.get("stationary_depth_ratios", {})
+    return (
+        witness.get("depth_before") != witness.get("depth_after")
+        and witness.get("physical_arrow") == witness.get("physical_arrow_after")
+        and witness.get("factorization_theta") == witness.get("factorization_theta_shifted")
+        and witness.get("normalization_family_powers") == [1, 2]
+        and isinstance(lapse, dict)
+        and isinstance(depth, dict)
+        and set(lapse) == set(depth) == {"ab", "bc", "ac"}
+        and all(Fraction(str(lapse[key])) * Fraction(str(depth[key])) == 1 for key in lapse)
+    )
+
+
+def imports_guard(source: str | None = None) -> bool:
+    if source is None:
+        source = (HERE / "independent_founding_ownership.py").read_text(encoding="utf-8")
+    tree = ast.parse(source)
+    names: set[str] = set()
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Import):
+            names.update(alias.name.split(".")[0] for alias in node.names)
+        elif isinstance(node, ast.ImportFrom) and node.module:
+            names.add(node.module.split(".")[0])
+    return "sympy" not in names and "derive_founding_ownership" not in source and names <= {"__future__", "fractions", "json", "pathlib"}
+
+
+def source_union_guard(base_rows: list[dict[str, str]], add_rows: list[dict[str, str]]) -> bool:
+    base = {row.get("path") for row in base_rows}
+    add = {row.get("path") for row in add_rows}
+    return len(base_rows) == len(base) == 31 and len(add_rows) == len(add) == 4 and not (base & add) and len(base | add) == 35
+
+
+def current_drift_guard(base_rows: list[dict[str, str]], add_rows: list[dict[str, str]]) -> bool:
+    allowed = {"LIVE.md", "HANDOFF.md", "CURRENT_SCIENTIFIC_PREMISES.tsv"}
+    changed: set[str] = set()
+    for row in base_rows + add_rows:
+        target = ROOT / row["path"]
+        if not target.is_file():
+            return False
+        data = target.read_bytes()
+        if sha(data) != row["sha256"] or str(len(data)) != row["bytes"]:
+            changed.add(row["path"])
+    return changed <= allowed
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--write", action="store_true")
+    args = parser.parse_args()
+
+    frozen = json.loads((HERE / "FROZEN_UNIVERSE.json").read_text(encoding="utf-8"))
+    add_frozen = json.loads((HERE / "SOURCE_ADDENDUM_FREEZE.json").read_text(encoding="utf-8"))
+    candidates = table(HERE / "CANDIDATE_UNIVERSE.tsv")
+    routes = table(HERE / "ROUTE_OUTCOMES.tsv")
+    base_sources = table(HERE / "SOURCE_MANIFEST.tsv")
+    add_sources = table(HERE / "SOURCE_ADDENDUM_MANIFEST.tsv")
+    adjudication = table(HERE / "SOURCE_ADJUDICATION.tsv")
+    propositions = table(HERE / "SOURCE_PROPOSITION_LEDGER.tsv")
+    result = json.loads((HERE / "RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads((HERE / "INDEPENDENT_RESULT.json").read_text(encoding="utf-8"))
+    witness = json.loads((HERE / "WITNESSES.json").read_text(encoding="utf-8"))
+
+    union_paths = {row["path"] for row in base_sources + add_sources}
+    checks = {
+        "candidate_universe": candidate_guard(candidates),
+        "routes": route_guard(routes),
+        "primary_result": result_guard(result),
+        "independent_result": independent_guard(independent),
+        "witnesses": witness_guard(witness),
+        "independent_imports": imports_guard(),
+        "base_source_manifest_at_preregistration": manifest_guard(base_sources, frozen["preregistration_commit"], 31),
+        "addendum_manifest_at_correction_parent": manifest_guard(add_sources, add_frozen["correction_commit_parent"], 4),
+        "source_union_35_overlap_zero": source_union_guard(base_sources, add_sources),
+        "source_adjudication_35": len(adjudication) == 35 and {row["path"] for row in adjudication} == union_paths,
+        "historical_source_firewalled": next(row for row in adjudication if row["path"] == "udt_canonical_geometry.md")["status"] == "HISTORY_ONLY_FIREWALLED",
+        "proposition_ledger_23": [row["proposition_id"] for row in propositions] == [f"Q{i:02d}" for i in range(1, 24)],
+        "current_source_drift_allowed_only": current_drift_guard(base_sources, add_sources),
+        "candidate_frozen_hash": sha((HERE / "CANDIDATE_UNIVERSE.tsv").read_bytes()) == frozen["candidate_universe_sha256"],
+        "premise_frozen_hash": sha((HERE / "PREMISE_LEDGER.tsv").read_bytes()) == frozen["premise_ledger_sha256"],
+        "falsification_frozen_hash": sha((HERE / "FALSIFICATION_CONTRACT.tsv").read_bytes()) == frozen["falsification_contract_sha256"],
+        "base_manifest_frozen_hash": sha((HERE / "SOURCE_MANIFEST.tsv").read_bytes()) == frozen["source_manifest_sha256"],
+        "addendum_manifest_frozen_hash": sha((HERE / "SOURCE_ADDENDUM_MANIFEST.tsv").read_bytes()) == add_frozen["manifest_sha256"],
+        "unrelated_metadata_frozen_hash": sha((HERE / "UNRELATED_UNTRACKED_METADATA.tsv").read_bytes()) == frozen["unrelated_untracked_metadata_sha256"],
+        "sympy_pin": (HERE / "requirements.txt").read_text(encoding="utf-8") == "sympy==1.13.1\n",
+    }
+
+    catches: list[tuple[str, str, bool]] = []
+    catches.append(("C01", "missing_candidate", not candidate_guard(candidates[:-1])))
+    catches.append(("C02", "duplicate_candidate", not candidate_guard(candidates + [copy.deepcopy(candidates[0])])))
+    promoted_killing = copy.deepcopy(routes)
+    next(row for row in promoted_killing if row["route_id"] == "M03")["classification"] = "DERIVED_UNIVERSAL"
+    catches.append(("C03", "branch_killing_promoted", not route_guard(promoted_killing)))
+    promoted_orbit = copy.deepcopy(routes)
+    next(row for row in promoted_orbit if row["route_id"] == "M07")["classification"] = "DERIVED_SCALAR_OWNER"
+    catches.append(("C04", "orbit_promoted_to_scalar", not route_guard(promoted_orbit)))
+    promoted_c = copy.deepcopy(routes)
+    next(row for row in promoted_c if row["route_id"] == "M09")["classification"] = "DERIVED_DEPTH_PROFILE"
+    catches.append(("C05", "c_promoted_to_profile", not route_guard(promoted_c)))
+    bad_primary = copy.deepcopy(result)
+    bad_primary["checks"]["relative_potential_depth_changes"] = False
+    catches.append(("C06", "primary_depth_change_deleted", not result_guard(bad_primary)))
+    bad_independent = copy.deepcopy(independent)
+    bad_independent["physical_arrow_after"] = [["0"]]
+    catches.append(("C07", "independent_arrow_mutated", not independent_guard(bad_independent)))
+    bad_witness = copy.deepcopy(witness)
+    bad_witness["depth_after"] = bad_witness["depth_before"]
+    catches.append(("C08", "depth_shift_made_vacuous", not witness_guard(bad_witness)))
+    bad_witness2 = copy.deepcopy(witness)
+    bad_witness2["physical_arrow_after"] = [["0"]]
+    catches.append(("C09", "physical_arrow_changed", not witness_guard(bad_witness2)))
+    missing_source = base_sources[:-1]
+    catches.append(("C10", "missing_base_source", not manifest_guard(missing_source, frozen["preregistration_commit"], 31)))
+    duplicate_add = add_sources + [copy.deepcopy(add_sources[0])]
+    catches.append(("C11", "duplicate_addendum_source", not manifest_guard(duplicate_add, add_frozen["correction_commit_parent"], 4)))
+    bad_history = copy.deepcopy(adjudication)
+    next(row for row in bad_history if row["path"] == "udt_canonical_geometry.md")["status"] = "AFFIRMATIVE_NATIVE"
+    catches.append(("C12", "history_promoted", next(row for row in bad_history if row["path"] == "udt_canonical_geometry.md")["status"] != "HISTORY_ONLY_FIREWALLED"))
+    bad_props = propositions[:-1]
+    catches.append(("C13", "missing_proposition", [row["proposition_id"] for row in bad_props] != [f"Q{i:02d}" for i in range(1, 24)]))
+    wrong_conclusion = copy.deepcopy(result)
+    wrong_conclusion["maximum_conclusion"] = "UNIVERSAL_PHI_OWNER_DERIVED"
+    catches.append(("C14", "conclusion_promoted", not result_guard(wrong_conclusion)))
+    independent_source = (HERE / "independent_founding_ownership.py").read_text(encoding="utf-8")
+    catches.append(("C15", "independence_false_import", not imports_guard(independent_source + "\nimport sympy\n")))
+    overlapping_add = copy.deepcopy(add_sources)
+    overlapping_add[0]["path"] = base_sources[0]["path"]
+    catches.append(("C16", "source_overlap_control", not source_union_guard(base_sources, overlapping_add)))
+    bad_route = copy.deepcopy(routes)
+    next(row for row in bad_route if row["route_id"] == "M10")["classification"] = "DERIVED_BOOTSTRAP_FUNCTION"
+    catches.append(("C17", "working_relation_promoted", not route_guard(bad_route)))
+    bad_route2 = copy.deepcopy(routes)
+    next(row for row in bad_route2 if row["route_id"] == "M06")["classification"] = "METRIC_DERIVED"
+    catches.append(("C18", "operational_input_promoted", not route_guard(bad_route2)))
+    bad_sign = copy.deepcopy(witness)
+    bad_sign["stationary_depth_ratios"] = copy.deepcopy(bad_sign["stationary_killing_lapse_ratios"])
+    catches.append(("C19", "stationary_depth_sign_inverted", not witness_guard(bad_sign)))
+
+    for catch_id, target, passed in catches:
+        checks[f"catch_{catch_id}_{target}"] = passed
+    verification = {
+        "schema": "udt.founding_phi_ownership.verification.v1",
+        "status": "PASS" if all(checks.values()) else "FAIL",
+        "check_count": len(checks),
+        "catch_count": len(catches),
+        "checks": checks,
+    }
+    if args.write:
+        (HERE / "VERIFICATION_RESULT.json").write_text(json.dumps(verification, indent=2, sort_keys=True) + "\n")
+        with (HERE / "CATCH_PROOFS.tsv").open("w", encoding="utf-8", newline="") as handle:
+            writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+            writer.writerow(["catch_id", "mutated_target", "expected", "observed"])
+            for catch_id, target, passed in catches:
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_founding_phi_ownership_morphism_audit_2026-08-05/INDEPENDENT_RESULT.json" in /home/udt-admin/udt_mass_codex
+exec
+/bin/bash -lc "sed -n '1,220p' udt_founding_phi_ownership_morphism_audit_2026-08-05/VERIFICATION_RESULT.json" in /home/udt-admin/udt_mass_codex
+exec
+/bin/bash -lc "sed -n '1,220p' udt_founding_phi_ownership_morphism_audit_2026-08-05/RESULT.json" in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+{
+  "catch_count": 19,
+  "check_count": 39,
+  "checks": {
+    "addendum_manifest_at_correction_parent": true,
+    "addendum_manifest_frozen_hash": true,
+    "base_manifest_frozen_hash": true,
+    "base_source_manifest_at_preregistration": true,
+    "candidate_frozen_hash": true,
+    "candidate_universe": true,
+    "catch_C01_missing_candidate": true,
+    "catch_C02_duplicate_candidate": true,
+    "catch_C03_branch_killing_promoted": true,
+    "catch_C04_orbit_promoted_to_scalar": true,
+    "catch_C05_c_promoted_to_profile": true,
+    "catch_C06_primary_depth_change_deleted": true,
+    "catch_C07_independent_arrow_mutated": true,
+    "catch_C08_depth_shift_made_vacuous": true,
+    "catch_C09_physical_arrow_changed": true,
+    "catch_C10_missing_base_source": true,
+    "catch_C11_duplicate_addendum_source": true,
+    "catch_C12_history_promoted": true,
+    "catch_C13_missing_proposition": true,
+    "catch_C14_conclusion_promoted": true,
+    "catch_C15_independence_false_import": true,
+    "catch_C16_source_overlap_control": true,
+    "catch_C17_working_relation_promoted": true,
+    "catch_C18_operational_input_promoted": true,
+    "catch_C19_stationary_depth_sign_inverted": true,
+    "current_source_drift_allowed_only": true,
+    "falsification_frozen_hash": true,
+    "historical_source_firewalled": true,
+    "independent_imports": true,
+    "independent_result": true,
+    "premise_frozen_hash": true,
+    "primary_result": true,
+    "proposition_ledger_23": true,
+    "routes": true,
+    "source_adjudication_35": true,
+    "source_union_35_overlap_zero": true,
+    "sympy_pin": true,
+    "unrelated_metadata_frozen_hash": true,
+    "witnesses": true
+  },
+  "schema": "udt.founding_phi_ownership.verification.v1",
+  "status": "PASS"
+}
+
+ succeeded in 0ms:
+{
+  "check_count": 24,
+  "checks": {
+    "bootstrap_relation_multivalued": true,
+    "character_composition": true,
+    "character_inverse": true,
+    "common_zero_cancels": true,
+    "dilation_not_transport": true,
+    "endpoint_coframes_fixed": true,
+    "factorization_same_complete_coframe": true,
+    "identity_control": true,
+    "killing_depth_is_inverse_lapse": true,
+    "killing_depth_ratio_composes": true,
+    "killing_depth_scale_cancels": true,
+    "killing_lapse_ratio_composes": true,
+    "magnitude_not_reversal_odd": true,
+    "magnitude_symmetric": true,
+    "normalization_composes_1": true,
+    "normalization_composes_3": true,
+    "normalizations_distinct": true,
+    "orbit_transitive_control": true,
+    "pair_depth_changes": true,
+    "pairing_preserved": true,
+    "physical_arrow_fixed": true,
+    "physical_eta_not_preserved": true,
+    "potential_composes": true,
+    "transport_isometry_control": true
+  },
+  "depth_after": "91/6",
+  "depth_before": "13/3",
+  "independence": "stdlib Fraction matrices; no SymPy or production import",
+  "physical_arrow": [
+    [
+      "6/13",
+      "-4/117"
+    ],
+    [
+      "39",
+      "26/9"
+    ]
+  ],
+  "physical_arrow_after": [
+    [
+      "6/13",
+      "-4/117"
+    ],
+    [
+      "39",
+      "26/9"
+    ]
+  ],
+  "schema": "udt.founding_phi_ownership.independent.v1",
+  "status": "PASS"
+}
+
+ succeeded in 0ms:
+{
+  "check_count": 34,
+  "checks": {
+    "c_not_in_character_parameter": true,
+    "character_composes": true,
+    "character_determinant_one": true,
+    "character_preserves_founding_pairing": true,
+    "character_reverses": true,
+    "complete_coframe_unchanged_under_depth_shift": true,
+    "complete_physical_arrow_unchanged": true,
+    "depth_normalization_not_selected": true,
+    "different_stationary_branch_changes_depth": true,
+    "distance_magnitude_is_symmetric": true,
+    "distance_magnitude_not_signed_depth": true,
+    "endpoint_common_scale_cancels": true,
+    "endpoint_complete_coframes_unchanged": true,
+    "endpoint_potential_composes": true,
+    "metric_transport_control_is_eta_isometry": true,
+    "multivalued_relation_not_ownership_function": true,
+    "nonzero_character_not_eta_isometry": true,
+    "normalization_family_composes_1": true,
+    "normalization_family_composes_2": true,
+    "normalization_family_reverses_1": true,
+    "normalization_family_reverses_2": true,
+    "orbit_contains_distinct_depths": true,
+    "orbit_reaches_arbitrary_positive_depth": true,
+    "pointwise_depth_representative_changes": true,
+    "reciprocal_dilation_differs_from_metric_transport": true,
+    "relative_potential_depth_changes": true,
+    "route_count_10": true,
+    "route_ids_complete": true,
+    "stationary_depth_is_inverse_lapse": true,
+    "stationary_depth_normalization_cancels": true,
+    "stationary_depth_ratio_composes": true,
+    "stationary_depth_ratio_reverses": true,
+    "stationary_killing_lapse_ratio_composes": true,
+    "working_relation_can_be_multivalued": true
+  },
+  "maximum_conclusion": "DERIVED_FOUNDING_OBJECT_IS_A_RELATIONAL_RECIPROCAL_CHARACTER_ON_SUPPLIED_DEPTH__DERIVED_POINTWISE_PHI_IS_A_PRESENTATION_POTENTIAL_ON_THE_SUPPLIED_FACTORIZED_ARCHITECTURE__CONDITIONAL_STATIONARY_KILLING_AND_SUPPLIED_QUERY_REALIZATIONS__NO_UNIVERSAL_FOUNDED_PHI_OWNERSHIP_MORPHISM_IN_FROZEN_NATIVE_SOURCES",
+  "route_count": 10,
+  "schema": "udt.founding_phi_ownership.primary.v1",
+  "status": "PASS",
+  "sympy": "1.13.1"
+}
+
+codex
+The stored artifacts already show the repaired sign convention and updated counts. I’m doing one final runtime check with the fail-closed verifier itself, since it is read-only unless `--write` is passed.
+exec
+/bin/bash -lc 'python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_audit.py' in /home/udt-admin/udt_mass_codex
+ succeeded in 0ms:
+{"catch_count": 19, "check_count": 39, "checks": {"addendum_manifest_at_correction_parent": true, "addendum_manifest_frozen_hash": true, "base_manifest_frozen_hash": true, "base_source_manifest_at_preregistration": true, "candidate_frozen_hash": true, "candidate_universe": true, "catch_C01_missing_candidate": true, "catch_C02_duplicate_candidate": true, "catch_C03_branch_killing_promoted": true, "catch_C04_orbit_promoted_to_scalar": true, "catch_C05_c_promoted_to_profile": true, "catch_C06_primary_depth_change_deleted": true, "catch_C07_independent_arrow_mutated": true, "catch_C08_depth_shift_made_vacuous": true, "catch_C09_physical_arrow_changed": true, "catch_C10_missing_base_source": true, "catch_C11_duplicate_addendum_source": true, "catch_C12_history_promoted": true, "catch_C13_missing_proposition": true, "catch_C14_conclusion_promoted": true, "catch_C15_independence_false_import": true, "catch_C16_source_overlap_control": true, "catch_C17_working_relation_promoted": true, "catch_C18_operational_input_promoted": true, "catch_C19_stationary_depth_sign_inverted": true, "current_source_drift_allowed_only": true, "falsification_frozen_hash": true, "historical_source_firewalled": true, "independent_imports": true, "independent_result": true, "premise_frozen_hash": true, "primary_result": true, "proposition_ledger_23": true, "routes": true, "source_adjudication_35": true, "source_union_35_overlap_zero": true, "sympy_pin": true, "unrelated_metadata_frozen_hash": true, "witnesses": true}, "schema": "udt.founding_phi_ownership.verification.v1", "status": "PASS"}
+
+codex
+REPAIR_ACCEPTED
+
+- The fresh adversarial verdict still isolates a single bounded sign fix and explicitly says the route grade need not change: [FRESH_ADVERSARIAL_REVIEW.md](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/FRESH_ADVERSARIAL_REVIEW.md:4). Its cited sources still give stationary lapse `q_K(p,q)=N(q)/N(p)` and signed depth `delta_K(p,q)=log(N(p)/N(q))`: [CLOCK_READOUT_LEDGER.tsv](/home/udt-admin/udt_mass_codex/udt_observer_pair_clock_operator_audit_2026-07-24/CLOCK_READOUT_LEDGER.tsv:5), [WHOLE_SPACETIME_SKELETON.md](/home/udt-admin/udt_mass_codex/udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md:150).
+- The repaired audit text now matches that convention: [AUDIT_REPORT.md](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md:35), [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md:104). The two implementations explicitly keep lapse and depth ratios inverse and distinct: [derive_founding_ownership.py](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/derive_founding_ownership.py:120), [independent_founding_ownership.py](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/independent_founding_ownership.py:79).
+- Stored exact outputs report the requested counts: `34/34` in [RESULT.json](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/RESULT.json) and `24/24` in [INDEPENDENT_RESULT.json](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/INDEPENDENT_RESULT.json).
+- `python3 udt_founding_phi_ownership_morphism_audit_2026-08-05/verify_audit.py` passed read-only at runtime with `39/39` checks and `19/19` exercised catches, including the explicit rejection of equating depth ratios with lapse ratios via `catch_C19_stationary_depth_sign_inverted`; `M03` remains `CONDITIONAL_BRANCH_LOCAL_KILLING_DEPTH__NO_UNIVERSAL_EXTRACTION` in [ROUTE_OUTCOMES.tsv](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/ROUTE_OUTCOMES.tsv:4), and the maximum conclusion string is unchanged in [AUDIT_REPORT.md](/home/udt-admin/udt_mass_codex/udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md:74).
+tokens used
+39,781
+
+Script done on 2026-08-05 01:06:07-04:00 [COMMAND_EXIT_CODE="0"]

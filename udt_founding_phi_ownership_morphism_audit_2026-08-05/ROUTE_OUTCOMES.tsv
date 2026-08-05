@@ -1,0 +1,11 @@
+route_id	classification	exact_reason
+M01	FOUNDING_DERIVED_ABSTRACT_GIVEN_SUPPLIED_DEPTH	the character is exact but the observer-pair depth value is an input
+M02	CONDITIONAL_TYPED_PATH_COCYCLE__NATIVE_DEPTH_OPEN	path composition is exact only after an additive depth cocycle is supplied
+M03	CONDITIONAL_BRANCH_LOCAL_KILLING_DEPTH__NO_UNIVERSAL_EXTRACTION	stationary intrinsic Killing norm ratios own depth on that branch; factorization defeats universal extraction
+M04	CONDITIONAL_EXTRA_REFERENCE	a fixed physical reference removes shifts but is not founded
+M05	DERIVED_CHARACTER_ON_SUPPLIED_PAIR__NO_REPRESENTATIVE_SELECTION	pair orientation types the action while every positive depth remains admissible
+M06	CONDITIONAL_OPERATIONAL_INPUT__NOT_METRIC_DERIVED	a measured or declared pair depth completes the arrow but is additional physical data
+M07	DERIVED_PRESENTATION_ORBIT__INSUFFICIENT_FOR_SCALAR_READOUT	the invariant orbit contains arbitrary positive scalar representatives
+M08	NOT_DERIVED_EXTRA_NORMALIZATION	no founded seam endpoint or zero fixes the representative
+M09	DERIVED_CALIBRATION_AND_CHARACTER__DEPTH_UNIT_AND_ASSIGNMENT_OPEN	c dimension-matches clock and ruler but the founding record chooses the sign and unit of phi
+M10	WORKING_RELATION_NONFUNCTIONAL__NO_OWNERSHIP_SELECTION	mutual admissibility is a relation and can remain multivalued without a return law

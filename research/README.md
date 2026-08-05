@@ -2,15 +2,20 @@
 
 This directory is an additions-only navigation layer. It points to artifacts at their existing repository paths; it contains no copied research artifact and creates no new scientific authority. [`LIVE.md`](../LIVE.md) remains the current-frontier authority, followed by [`HANDOFF.md`](../HANDOFF.md) and the [current scientific premise index](../CURRENT_SCIENTIFIC_PREMISES.md) with its [machine-readable registry](../CURRENT_SCIENTIFIC_PREMISES.tsv). Claim labels below are reproduced from those current records and the accepted final native-action ledger. A conflict between those controls and a cited source is a stop, not permission to select a convenient older atlas.
 
-## Current scientific spine — August 5 global phi ownership/overlap audit
+## Current scientific spine — August 5 founding phi-ownership morphism audit
+
+Read the [founding phi-ownership morphism
+audit](../udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md), then its direct-source
+ledger, exact derivation, route/status/premise ledgers, two exact implementations, witnesses,
+verifier, fresh review, repair and accepted repair replay. The foundation owns a reciprocal
+character on supplied ordered depth; the general observer-pair depth law remains open. No action,
+density scan, time-live solve, or GPU work is authorized automatically.
+
+## Parent scientific spine — August 5 global phi ownership/overlap audit
 
 Read the [global phi ownership/overlap
-audit](../udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md), then its exact
-derivation, route/status/premise ledgers, two exact implementations, witnesses, verifier, preserved
-initial review, repair, and accepted repair replay. Exact global gluing retains the local
-factorization freedom as a presentation groupoid; global scalar descent and cocycle class data do
-not select physical depth. No further overlap taxonomy, action, density scan, time-live solve, or
-GPU work is authorized automatically.
+audit](../udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md) when its global
+presentation groupoid, cocycle classes, periods, seams or conditional reductions are load-bearing.
 
 ## Parent scientific spine — August 4 same-solution phi/curvature compatibility audit
 

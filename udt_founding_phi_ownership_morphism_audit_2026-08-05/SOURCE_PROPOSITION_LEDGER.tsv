@@ -1,0 +1,24 @@
+proposition_id	source	locator	proposition	grade_for_this_audit
+Q01	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	sections_1_2	Reciprocal-c plus dual Reciprocity and regular composition derive D(delta)=diag(exp(-delta),exp(delta)) once additive relative depth is supplied	FOUNDING_DERIVED_WITH_EXPLICIT_STAMPS
+Q02	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	section_2	The sign and unit of phi are chosen coordinates on the one-dimensional positional group	EXPLICIT_NOT_SELECTED
+Q03	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	sections_2_6	The founding local law does not derive a realized phi profile or X	EXPLICIT_OPEN
+Q04	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md	sections_1_2	Relative depth Delta is already the input to the positional comparison and composition law	EXPLICIT_INPUT
+Q05	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md	P3_and_stop_rules	Lorentzian metric readout and spherical angular continuation are declared additional premises	DECLARED_READOUT_NOT_RECIPROCAL_C_ALONE
+Q06	udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md	section_1	The abstract ordered comparison R_pq is exact once ordered depth is supplied but contains no event pairing path angular frame or global trivialization	VERIFIED_BOUNDED
+Q07	udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md	sections_4_6	Covariance requires equivariance rather than one global parallel reciprocal frame	VERIFIED_BOUNDED
+Q08	udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md	sections_2_3	Intermediate-position composition is a Cauchy law in supplied depth space not a physical same-endpoint path theorem	VERIFIED_BOUNDED
+Q09	udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md	section_7	The missing arrow is complete observer/event/path data to signed delta	VERIFIED_BOUNDED
+Q10	udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md	sections_1_4	The abstract operator precedes paths and endpoint phi factorization is exact only given the open pair-to-field join	VERIFIED_BOUNDED
+Q11	udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md	sections_5_8	Metric covector scaling physical orthonormal transport and observer readout are distinct objects	VERIFIED_BOUNDED
+Q12	udt_observer_pair_clock_operator_audit_2026-07-24/CLOCK_READOUT_LEDGER.tsv	R01_R05	The nonnegative exponential channel signed endpoint lapse ratio and reversal-even half trace have different types	VERIFIED_BOUNDED
+Q13	udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/EXACT_DERIVATION.md	sections_1_4	Ordered observer/ruler pairs and paths form exact typed kinematics after additive signed depth is supplied	VERIFIED_BOUNDED
+Q14	udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/EXACT_DERIVATION.md	sections_5_6	Endpoint signed cocycles are potential differences while path cocycles may have visible periods	VERIFIED_BOUNDED
+Q15	udt_observer_pair_path_groupoid_assembly_audit_2026-07-26/AUDIT_REPORT.md	exact_depth_alternatives	A symmetric nonnegative distance magnitude cannot itself be a nontrivial signed reversal-odd depth	VERIFIED_BOUNDED
+Q16	udt_observer_pair_triangle_consistency_audit_2026-07-26/EXACT_DERIVATION.md	sections_2_5	Endpoint groupoid composition works for every lambda only after an endpoint section is supplied	VERIFIED_BOUNDED
+Q17	udt_factorized_whole_spacetime_skeleton_2026-08-04/WHOLE_SPACETIME_SKELETON.md	sections_1_5	Local phi_i are potential realizations; an intrinsic stationary Killing line yields an exact branch-local norm-ratio depth	VERIFIED_BOUNDED_ARCHITECTURE
+Q18	udt_global_phi_ownership_overlap_audit_2026-08-05/EXACT_DERIVATION.md	sections_1_4	Local reference shifts change phi representatives while leaving complete coframes and physical overlaps unchanged	VERIFIED_WITH_CAVEATS_BOUNDED
+Q19	udt_global_phi_ownership_overlap_audit_2026-08-05/EXACT_DERIVATION.md	sections_6_7	Query equivariance and pair composition accept every supplied depth; fixed physical pair depths reduce freedom only conditionally	VERIFIED_WITH_CAVEATS_BOUNDED
+Q20	udt_global_phi_ownership_overlap_audit_2026-08-05/EXACT_DERIVATION.md	section_4	c_E fixes normalization or units but does not choose a depth representative	VERIFIED_WITH_CAVEATS_BOUNDED
+Q21	udt_native_law_home_codomain_ownership_audit_2026-08-04/FOUNDATIONAL_ENTAILMENT_MATRIX.tsv	E01_E12	The founded query morphism is typed but the physical abstract-depth assignment and complete law ownership remain open	VERIFIED_BOUNDED_TYPE_RESULT
+Q22	CURRENT_SCIENTIFIC_PREMISES.tsv	G12	Global-local mutual admissibility is a working relational architecture with physical observer-path ownership and return still open	CURRENT_CONTROL
+Q23	udt_canonical_geometry.md	historical_document	Pre-July ansatz/import-rich profile claims cannot provide affirmative ownership physics	HISTORY_ONLY_FIREWALLED

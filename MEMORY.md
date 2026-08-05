@@ -4,19 +4,23 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-05, global overlap nonselecting; physical phi ownership open)
+## TOP — CURRENT POINTER (2026-08-05, founding object relational; general pair-depth law open)
 
 Read `LIVE.md`, `HANDOFF.md`, the current premise registry, then
-`udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md` and its exact evidence. On the
-supplied smooth fixed-rank cover, local depth shifts induce reference-transition coboundaries while
-physical complete coframes and overlap cocycles remain unchanged. Scalar descent leaves arbitrary
-global-function freedom; reversal parity and periods can classify the bundle without selecting a
-section. Fixed reference, fixed physical pair-depth, and branch-derived reductions remain
-conditional.
+`udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md` and its exact evidence. The
+founding source derives the reciprocal character only after ordered relative depth is supplied. On
+the supplied factorized architecture, pointwise `phi` is a potential representation; the general
+observer/event/path-to-depth assignment remains open. An intrinsic stationary Killing line supplies
+the conditional reduction `delta_K=log(N(p)/N(q))`.
 
-The overlap/cocycle route is exhausted at this level. The next bounded decision is whether the
-founding observer-comparison/metric derivation already supplies an equivariant depth-ownership map.
-No action, source, density solve, time-live equation, long computation, or GPU work follows.
+The next bounded decision is between an explicit realized relational-depth premise and a
+branch-stratified metric-ownership program. No action, source, density solve, time-live equation,
+long computation, or GPU work follows automatically.
+
+## PRIOR TOP — global overlap nonselecting; physical phi ownership open
+
+Read `udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md` when its presentation
+groupoid, cocycle classes, periods and conditional reductions are load-bearing.
 
 ## PRIOR TOP — same-solution local join conditional; physical phi ownership open
 

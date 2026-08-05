@@ -3,25 +3,28 @@
 **⚠ BRANCH: `grok` (2026-08-05)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
-**➤ CURRENT SCIENTIFIC CHECKPOINT — GLOBAL OVERLAP ORGANIZES BUT DOES NOT SELECT PHYSICAL PHI OWNERSHIP:**
-Read `udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md`, then its exact derivation,
-12-route classification, two implementations, witnesses, verifier, initial review, repair, and
-accepted repair replay. Use the same-solution, globalization, query, path, and reconstruction audits
-as parents only when needed.
+**➤ CURRENT SCIENTIFIC CHECKPOINT — FOUNDED CHARACTER RELATIONAL; GENERAL TWO-OBSERVER DEPTH LAW OPEN:**
+Read `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`, then its direct-source
+ledger, exact derivation, ten-route census, two implementations, witnesses, verifier, fresh review,
+stationary-sign repair and accepted repair replay. Use the global-overlap, observer-comparison,
+query/path and factorized-skeleton audits as parents only when needed.
 
-Local depth-factorization shifts act by coboundary changes of reference transitions while physical
-complete coframes, physical overlaps, and triple cocycles remain fixed. Scalar descent leaves an
-arbitrary global function. Reversal parity and oriented periods can survive as global class data
-without selecting a section. Fixed references, independently physical pair depths, and regular
-branch selectors reduce the freedom only conditionally.
+The founding source takes ordered relative depth as input and derives the exact reciprocal
+character. It does not assign the numerical depth to a complete observer/event/path query. On the
+supplied factorized architecture, pointwise `phi` is a presentation potential, while a stationary
+intrinsic Killing line gives the conditional branch-local reduction `delta_K=log(N(p)/N(q))`.
 
 Exact verdict:
-`DERIVED_GLOBAL_FACTORIZATION_GROUPOID_FREEDOM_ON_THE_SUPPLIED_SMOOTH_COVER__DERIVED_COCYCLE_CLASS_AND_PERIOD_INVARIANTS_DO_NOT_SELECT_A_SECTION__CONDITIONAL_REDUCTIONS_REQUIRE_UNOWNED_REFERENCE_DEPTH_OR_BRANCH_SECTION_DATA__NO_GLOBAL_PHI_OWNERSHIP_SELECTION`.
+`DERIVED_FOUNDING_OBJECT_IS_A_RELATIONAL_RECIPROCAL_CHARACTER_ON_SUPPLIED_DEPTH__DERIVED_POINTWISE_PHI_IS_A_PRESENTATION_POTENTIAL_ON_THE_SUPPLIED_FACTORIZED_ARCHITECTURE__CONDITIONAL_STATIONARY_KILLING_AND_SUPPLIED_QUERY_REALIZATIONS__NO_UNIVERSAL_FOUNDED_PHI_OWNERSHIP_MORPHISM_IN_FROZEN_NATIVE_SOURCES`.
 
-This is a smooth fixed-rank ownership/descent result, not a physical gauge law, action, source,
-boundary, density return, `X_max`, matter, mass, or dynamics. The next bounded decision is a source-
-level audit of whether the founding observer-comparison/metric derivation already defines an
-equivariant ownership morphism. It is not launched automatically.
+This is a bounded source-entailment and configuration-typing result, not an action, source,
+boundary, density return, `X_max`, matter, mass, or dynamics. The next bounded decision is whether
+to test an explicit realized relational-depth premise or a branch-stratified metric-ownership
+program. It is not launched automatically.
+
+**➤ PARENT SCIENTIFIC CHECKPOINT — GLOBAL OVERLAP ORGANIZES BUT DOES NOT SELECT PHYSICAL PHI OWNERSHIP:**
+Read `udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md` when the global
+factorization groupoid, cocycle classes, periods, seams or conditional reductions are load-bearing.
 
 **➤ PARENT SCIENTIFIC CHECKPOINT — SAME-SOLUTION LOCAL JOIN CONDITIONAL; PHYSICAL PHI OWNERSHIP OPEN:**
 Read `udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md`, then its exact

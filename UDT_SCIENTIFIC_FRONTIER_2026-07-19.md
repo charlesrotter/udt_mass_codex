@@ -4,21 +4,26 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
-## August 5 global founded-depth ownership/overlap precedence notice
+## August 5 founding phi-ownership morphism precedence notice
 
 This long file is historical context, not the current checkpoint. Current orientation is
 `LIVE.md` → `HANDOFF.md` → `CURRENT_SCIENTIFIC_PREMISES.md/.tsv` →
-`udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md` and its exact evidence.
+`udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md` and its exact evidence.
 
-On the bounded smooth fixed-rank cover, local founded-depth factorization shifts induce exact
-coboundary changes of the reference transitions while physical complete coframes, physical
-overlaps, and triple cocycles remain unchanged. Scalar descent leaves arbitrary global-function
-freedom; affine/reversal class data and path periods do not select a section. Fixed reference,
-physical pair-depth, and regular branch-derived reductions are conditional. Ordinary overlap and
-cocycle consistency therefore organize but do not own the physical `phi` assignment.
+The direct founding source begins with supplied ordered relative depth and derives the reciprocal
+character `D(delta)=diag(exp(-delta),exp(+delta))`. It does not supply the complete
+observer/event/path-to-depth assignment. Pointwise `phi` is a presentation potential on the
+supplied factorized architecture. A stationary intrinsic Killing line gives the conditional
+branch-local reduction `delta_K=log(N(p)/N(q))`; it is not universal.
 
 Exact bounded verdict:
-`DERIVED_GLOBAL_FACTORIZATION_GROUPOID_FREEDOM_ON_THE_SUPPLIED_SMOOTH_COVER__DERIVED_COCYCLE_CLASS_AND_PERIOD_INVARIANTS_DO_NOT_SELECT_A_SECTION__CONDITIONAL_REDUCTIONS_REQUIRE_UNOWNED_REFERENCE_DEPTH_OR_BRANCH_SECTION_DATA__NO_GLOBAL_PHI_OWNERSHIP_SELECTION`.
+`DERIVED_FOUNDING_OBJECT_IS_A_RELATIONAL_RECIPROCAL_CHARACTER_ON_SUPPLIED_DEPTH__DERIVED_POINTWISE_PHI_IS_A_PRESENTATION_POTENTIAL_ON_THE_SUPPLIED_FACTORIZED_ARCHITECTURE__CONDITIONAL_STATIONARY_KILLING_AND_SUPPLIED_QUERY_REALIZATIONS__NO_UNIVERSAL_FOUNDED_PHI_OWNERSHIP_MORPHISM_IN_FROZEN_NATIVE_SOURCES`.
+
+## August 5 global founded-depth ownership/overlap parent notice
+
+The global overlap audit remains the controlling parent for the factorization groupoid, cocycle
+classes, periods, seams and conditional reductions:
+`udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md`.
 
 ## August 4 same-solution founded-depth/curvature precedence notice
 

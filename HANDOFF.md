@@ -6,44 +6,43 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-05).** Synchronize it before orientation.
 
-## CURRENT — global overlap classifies the depth ambiguity but does not own physical `phi`
+## CURRENT — the founded object is relational; the general two-observer depth law remains open
 
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
 2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
-3. `udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md`.
-4. Its exact derivation, route/status/premise ledgers, primary and independent implementations,
-   saved witnesses, verifier, initial adversarial review, repair and accepted repair replay.
-5. Use the same-solution, globalization, query, path and reconstruction audits only as parents.
+3. `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`.
+4. Its direct founding-source ledger, exact derivation, route/status/premise ledgers, two exact
+   implementations, witnesses, verifier, fresh review, repair and accepted repair replay.
+5. Use the global-overlap, observer-comparison, query/path and factorized-skeleton audits as parents.
 
-**Result:** arbitrary unequal local depth shifts can be absorbed into the reference presentations.
-The induced reference overlaps change by an exact coboundary, while complete coframes, physical
-overlaps and triple cocycles remain unchanged. Global stitching therefore creates a groupoid of
-equivalent factorizations; it does not identify one physical founded-depth assignment.
+**Result:** the direct founding source takes ordered relative depth as input and derives
+`D(delta)=diag(exp(-delta),exp(+delta))`. It does not derive which numerical `delta` belongs to an
+actual observer/event/path query. On the supplied factorized architecture, pointwise `phi` is a
+potential representation: reference shifts change it while complete physical geometry stays fixed.
 
-Scalar descent leaves arbitrary global-function freedom. Reversal parity and oriented periods can
-survive as global invariants without selecting local depth. Query composition and endpoint-potential
-composition remain exact and nonselecting. A separately fixed reference, separately physical pair
-depth, or regular branch selector reduces the freedom only conditionally.
+On stationary branches with an intrinsic timelike Killing line, the metric does supply the
+conditional reduction `delta_K=log(N(p)/N(q))`. That is a genuine positive branch result, not a
+universal observer-pair law. Signed depth and symmetric nonnegative separation remain distinct.
 
 **Bounded verdict:**
-`DERIVED_GLOBAL_FACTORIZATION_GROUPOID_FREEDOM_ON_THE_SUPPLIED_SMOOTH_COVER__DERIVED_COCYCLE_CLASS_AND_PERIOD_INVARIANTS_DO_NOT_SELECT_A_SECTION__CONDITIONAL_REDUCTIONS_REQUIRE_UNOWNED_REFERENCE_DEPTH_OR_BRANCH_SECTION_DATA__NO_GLOBAL_PHI_OWNERSHIP_SELECTION`.
+`DERIVED_FOUNDING_OBJECT_IS_A_RELATIONAL_RECIPROCAL_CHARACTER_ON_SUPPLIED_DEPTH__DERIVED_POINTWISE_PHI_IS_A_PRESENTATION_POTENTIAL_ON_THE_SUPPLIED_FACTORIZED_ARCHITECTURE__CONDITIONAL_STATIONARY_KILLING_AND_SUPPLIED_QUERY_REALIZATIONS__NO_UNIVERSAL_FOUNDED_PHI_OWNERSHIP_MORPHISM_IN_FROZEN_NATIVE_SOURCES`.
 
-**Still open:** the native ownership morphism relating observer/path comparisons and complete
-geometry to physical depth; defect-stratified continuation; complete bootstrap return; action,
+**Still open:** the general two-observer relational depth law, its signed/magnitude join,
+nonstationary and defect-stratified continuation, complete bootstrap return, action,
 source, carrier, boundary, density feedback, `X_max`, matter, mass and dynamics. F01/F02/F04 remain
 conditional and separate.
 
-**Next decision, not automatic:** audit the exact founding observer-comparison/metric derivation for
-an already-implied equivariant ownership map. If none exists, distinguish an owner-authorized
-realized-field premise from branch-stratified ownership. Do not repeat overlap/cocycle algebra or
-insert an action, source, boundary law, density target, time-live equation, long solve or GPU.
+**Next decision, not automatic:** compare an explicit realized relational-depth premise with a
+branch-stratified metric-ownership program constrained to reduce to the stationary Killing law.
+Do not re-demand one universal point scalar or insert an action, source, boundary law, density
+target, time-live equation, long solve or GPU.
 
-**Evidence:** preregistration `2ddefb71`; frozen universe `0972a026`; primary `54/54`, independent
-`46/46`, final verifier `33/33`, `16/16` mutation catches, 23 frozen sources. Fresh `gpt-5.4`
-`ACCEPTED_WITH_REPAIRS`; the seam-witness repair received fresh `REPAIR_ACCEPTED`. Repository gates
-are in the package.
+**Evidence:** preregistration `c07e1b4e`; base freeze `f136aebb`; append-only source correction
+`32673ca2`; primary `34/34`, independent `24/24`, final verifier `39/39`, `19/19` mutation catches,
+35 effective frozen sources. Fresh `gpt-5.4` `ACCEPTED_WITH_REPAIRS`; the stationary-sign repair
+received fresh `REPAIR_ACCEPTED`. Repository gates are in the package.
 
 <!-- STARTUP_CURRENT_END -->
 

@@ -32,16 +32,14 @@ after the user's actual task makes them load-bearing.
 3. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv`. This is the current
    source-precedence index for high-risk foundational terms. It is not canon and cannot overrule
    `LIVE.md`; any disagreement between it, `LIVE.md`, and its cited source is a mandatory stop.
-4. `udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md` — the current
-   bounded derivation. Then read its `EXACT_DERIVATION.md`, family/ownership ledgers, two exact
-   implementations, inverse witnesses, verifier and accepted fresh review as needed. It proves
-   conditional local same-solution compatibility in the supplied F01/F02 factorized realizations
-   and exact reference-factorization non-identifiability. It does not select the physical `phi`
-   assignment, a section, response, evolution or bootstrap return. Read the second-jet and
-   first-jet atlases as immediate local parents and
-   `udt_complete_coframe_extension_solvability_audit_2026-08-04/AUDIT_REPORT.md` as its immediate
-   smooth fixed-rank parent when extension/Cartan nonselection is load-bearing. No next route is
-   automatically authorized.
+4. `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md` — the current bounded
+   derivation. Then read its direct-source ledger, `EXACT_DERIVATION.md`, route/status ledgers, two
+   exact implementations, witnesses, verifier, fresh review, stationary-sign repair and accepted
+   repair replay as needed. It proves that the founding object is a reciprocal character on supplied
+   ordered depth and that pointwise `phi` is a presentation potential on the supplied factorized
+   architecture. It does not derive the general observer/event/path-to-depth law. Read the global
+   overlap audit, same-solution audit, observer-comparison/query chain and factorized skeleton as
+   parents only when load-bearing. No next route is automatically authorized.
 5. `udt_global_local_reconstruction_audit_2026-08-04/AUDIT_REPORT.md` — the immediate parent. Read
    its architecture and exact evidence only when the partial completion-dependent join relation is
    load-bearing. It formalizes global/local mutual admissibility as a `WORKING POSIT` and derives a
@@ -158,6 +156,14 @@ can restrict only under extra parallelism; differential solvability requires the
 law; rank-changing/stratified extension remains open. Do not turn the posit, gluing, connection,
 identity, or solvability vocabulary into a scalar optimizer, local equation, complete return law,
 density selector, action, source, matter claim, or unique universe.
+
+`udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md` sharpens the open return.
+The founding source derives `D(delta)=diag(exp(-delta),exp(+delta))` after ordered relative depth is
+supplied; it does not assign `delta` to a complete observer/event/path query. On the supplied
+factorized architecture, pointwise `phi` is a potential presentation, not an undefined placeholder.
+The stationary intrinsic-Killing reduction `delta_K=log(N(p)/N(q))` is conditional and branch-local.
+Do not promote it universally, identify signed depth with nonnegative separation, or claim that the
+working bootstrap relation already returns the general two-observer depth law.
 
 `udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md` closes the
 specific frozen-first-jet concern on its preregistered local finite-`phi`, nondegenerate tile. All

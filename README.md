@@ -2,6 +2,8 @@
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-05):** `LIVE.md` topmost block → `HANDOFF.md` current
 block → current premise registry → the
+[`founding phi-ownership morphism audit`](udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md)
+and its exact evidence → the parent
 [`global phi ownership/overlap audit`](udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md)
 and its exact evidence → the parent
 [`same-solution phi/curvature compatibility audit`](udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md)
@@ -16,11 +18,10 @@ and its exact architecture/review →
 [`SCIENTIFIC_ARC_CHECKPOINT.md`](udt_scientific_arc_recovery_checkpoint_2026-08-04/SCIENTIFIC_ARC_CHECKPOINT.md)
 and the
 [`full-coframe response-selection audit`](udt_full_coframe_response_selection_audit_2026-08-04/AUDIT_REPORT.md)
-only when their parent evidence is load-bearing. Exact overlap gluing preserves the local
-reference-factorization freedom as a global presentation groupoid; cocycle class data do not select
-physical depth. This is configuration-space geometry, not physical evolution. A native equivariant
-ownership morphism, complete return, response, action, source, density closure, matter and dynamics
-remain open.
+only when their parent evidence is load-bearing. The founding law is an exact relational reciprocal
+character on supplied ordered depth. A pointwise `phi` is a potential on the supplied factorized
+architecture, and the stationary Killing reduction is conditional. The general two-observer depth
+law, complete return, response, action, source, density closure, matter and dynamics remain open.
 
 
 This root is the control and navigation surface for the UDT research record.
@@ -28,7 +29,8 @@ After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
-the [global phi ownership/overlap audit](udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md)
+the [founding phi-ownership morphism audit](udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md)
+→ the [global phi ownership/overlap audit](udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md)
 → the [same-solution phi/curvature compatibility audit](udt_same_solution_phi_curvature_compatibility_audit_2026-08-04/AUDIT_REPORT.md)
 → the [second-jet curvature-solder atlas](udt_second_jet_curvature_solder_atlas_2026-08-04/AUDIT_REPORT.md)
 → the [full-coframe first-jet/stratified-transition atlas](udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/AUDIT_REPORT.md)
