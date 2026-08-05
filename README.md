@@ -1,7 +1,8 @@
 # UDT repository
 
 **⚠ CURRENT ORIENTATION SPINE (2026-08-05):** `LIVE.md` topmost block → `HANDOFF.md` current
-block → current premise registry → the
+block → [`CURRENT_RESEARCH_PROGRAM.md`](CURRENT_RESEARCH_PROGRAM.md) → current premise registry →
+the [native-law order architecture audit](udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md) → the
 [`Xmax asymptotic-limit frame correction`](udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md)
 → the
 [`relational-phi dependency regrade`](udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md)
@@ -33,8 +34,11 @@ matter and dynamics remain open.
 This root is the control and navigation surface for the UDT research record.
 After synchronizing Git as directed by [`AGENTS.md`](AGENTS.md), orient in this
 order: [`LIVE.md`](LIVE.md) → [`HANDOFF.md`](HANDOFF.md) →
+[`CURRENT_RESEARCH_PROGRAM.md`](CURRENT_RESEARCH_PROGRAM.md) →
 [`CURRENT_SCIENTIFIC_PREMISES.md`](CURRENT_SCIENTIFIC_PREMISES.md) and its
 [`machine-readable registry`](CURRENT_SCIENTIFIC_PREMISES.tsv) →
+the [native-law order architecture audit](udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md)
+→
 the [Xmax asymptotic-limit frame correction](udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md)
 →
 the [relational-phi dependency regrade](udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md)

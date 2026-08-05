@@ -5,6 +5,19 @@
 **⚠ BRANCH: work is on `grok` (2026-08-05).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
 ## ============ CURRENT STATE (2026-08-05 — FOUNDING OBJECT IS RELATIONAL; GENERAL TWO-OBSERVER DEPTH LAW OPEN) ============
+**ACTIVE SCIENTIFIC SPINE:** `CURRENT_RESEARCH_PROGRAM.md` is now the concise current dependency
+map. It does not replace this file or `CANON.md`; it centralizes the banked foundation, conditional
+F01/F02/F04 witnesses, retired shortcuts, open joints and next bounded work for context-safe resume.
+
+**LAW-ORDER ARCHITECTURE AUDIT:**
+`udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md` finds that law/variation
+ownership, source/mass roles and bootstrap's missing return are one ordered closure chain rather
+than three independent missing mechanisms. Neither response-first nor action-first is derived.
+Response-first is the current working priority only because the metric already supplies a partial
+completion-to-local correspondence and it permits a smaller unforced test; action-first remains an
+admissible conditional alternative. This priority is not a native response, rejection of actions,
+or physics selection.
+
 **DEPENDENCY RE-GRADE:** the repository-wide relational-`phi` dependency audit is the current
 correction overlay: `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`. It preserves
 the 4,762-row frozen active ledger and finds no current load-bearing algebra that must be discarded.
@@ -21,7 +34,8 @@ separation/depth realization, exact approach law, all-frame theorem, numerical v
 join, angular/bootstrap modulation, and boundary consequence remain `OPEN`. Controlling overlay:
 `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`.
 
-**READ NEXT:** `HANDOFF.md` current block → `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` →
+**READ NEXT:** `HANDOFF.md` current block → `CURRENT_RESEARCH_PROGRAM.md` →
+`CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv` → the law-order architecture audit above →
 the Xmax frame correction above → the dependency regrade above →
 `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md` → its direct founding-source
 ledger, exact derivation, ten-route census, two implementations, witnesses, verifier, fresh review,
@@ -67,14 +81,15 @@ signed-orientation join were derived. F01/F02 remain conditional geometry-only m
 F04 remains the carrier/action-conditional finite-box Hopf result; the bootstrap posit still lacks
 its complete return.
 
-**NEXT BOUNDED DECISION — NOT LAUNCHED AUTOMATICALLY:** compare exactly two honest continuations:
-(1) an owner-authorized realized relational-depth premise supplying the observer-pair datum, or
-(2) branch-stratified metric ownership whose stationary Killing reduction is mandatory but whose
-nonstationary continuation remains open. Every candidate must now pass the preregistered `X_max`
-asymptotic gate, preserve observer re-centering and local physics, retain angular/path data where
-load-bearing, and keep local WR-L `X` distinct from global `X_max`. Do not re-demand a universal
-point scalar, repeat overlap algebra, select a profile from endpoint behavior, or insert a fixed
-reference, action, source, density target, long solve, GPU or time-live equation.
+**NEXT BOUNDED INVESTIGATION — NOT LAUNCHED AUTOMATICALLY:** test the conormal/response content of
+the already-derived partial completion correspondence. Determine whether its endpoint/joint
+constraints carry a nonzero observer-natural response depending on both global and local data,
+whether any component lifts beyond boundary bookkeeping into the complete-coframe interior, whether
+F01/F02 wall/seam rows are compatible pullbacks, and whether the relation remains nonidentity after
+same-solution readout closure. No action or desired matter behavior may be inserted. The separate
+general observer-pair depth law remains open and every later realization must satisfy the `X_max`
+asymptotic gate, preserve observer re-centering and local physics, retain load-bearing angular/path
+data, and keep local WR-L `X` distinct from global `X_max`.
 
 Do not wholesale rerun the old corpus. Re-derive an older pointwise-field/action result only if it
 is proposed for renewed native use; the current regrade found zero presently load-bearing algebra
@@ -82,7 +97,9 @@ rows requiring immediate rederivation.
 
 **PREMISE STAMPS:** founded `phi`, reciprocal pair action and composition `DERIVED`; `c_E/G_obs`
 `OBSERVED`; complete coframe `DEFINED_CONFIGURATION_ARCHITECTURE`; global/local mutual
-admissibility `WORKING_POSIT`; relational character on supplied depth `DERIVED_WITH_FOUNDING_STAMPS`;
+admissibility `WORKING_POSIT`; law-order `NOT_DERIVED`; response-first
+`WORKING_PRIORITY_FOR_BOUNDED_TEST`; action-first `ADMISSIBLE_CONDITIONAL`; relational character on
+supplied depth `DERIVED_WITH_FOUNDING_STAMPS`;
 pointwise `phi` as potential on the supplied factorization `DERIVED_PRESENTATION_STATUS`; stationary
 Killing depth `CONDITIONAL_BRANCH_LOCAL`; general observer-pair depth law, magnitude/orientation
 join, complete return, action, source, boundary, numerical `X_max`, unconditional matter/mass and
@@ -101,7 +118,9 @@ corrected and a second fresh replay returned `REPAIR_ACCEPTED`. Repository prese
 recorded in the audit package. The `X_max` status/workflow correction was preregistered at
 `94a75c40`; its primary verifier catches 8/8 semantic regressions and a separately implemented local
 replay passes. The new external-review payload was not transmitted because its exact disclosure was
-not authorized; this is recorded as an absent fresh-context gate, not a review result.
+not authorized; this is recorded as an absent fresh-context gate, not a review result. The law-order
+audit was preregistered at `c2aa6de2`; its local source/hash/semantic gates and exercised mutation
+catches pass, while fresh external semantic review remains an absent gate.
 
 <!-- STARTUP_CURRENT_END -->
 

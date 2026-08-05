@@ -1,0 +1,14 @@
+{
+  "architectures": 2,
+  "evidence_rows": 15,
+  "external_semantic_review": "NOT_TRANSMITTED",
+  "grade": "VERIFIED_WITH_CAVEATS",
+  "immutable_sources": 21,
+  "joint_rows": 10,
+  "mutation_catches": 16,
+  "navigation_controls": 5,
+  "premise_guards": 27,
+  "schema": "udt.native_law_order_architecture_audit.v1",
+  "source_rows": 23,
+  "status": "PASS"
+}

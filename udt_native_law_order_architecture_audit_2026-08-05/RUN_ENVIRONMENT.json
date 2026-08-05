@@ -1,0 +1,8 @@
+{
+  "date": "2026-08-05",
+  "kernel": "Linux 6.8.0-124-generic x86_64",
+  "preregistration_commit": "c2aa6de2ad9188ebd187a478bc209f1f19e7e580",
+  "python": "3.10.12",
+  "solve_mode": "NONE_DOCUMENTARY_AUDIT",
+  "working_branch": "grok"
+}

@@ -1,0 +1,10 @@
+{
+  "architecture_rows": 2,
+  "dependency_rows": 10,
+  "direct_source_semantic_checks": 10,
+  "immutable_source_hashes": 21,
+  "imports_production_verifier": false,
+  "imports_third_party": false,
+  "schema": "udt.native_law_order_architecture.independent_replay.v1",
+  "status": "PASS"
+}

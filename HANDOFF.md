@@ -8,6 +8,18 @@
 
 ## CURRENT — the founded object is relational; the general two-observer depth law remains open
 
+**Current active-science spine:** read `CURRENT_RESEARCH_PROGRAM.md` immediately after this block.
+It centralizes the current foundation, conditional F01/F02/F04 witnesses, retired shortcuts,
+dependency chain and one bounded next investigation; it is navigation, not canon.
+
+**Law-order result:**
+`udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md` determines that native
+law/variation ownership, source/mass roles and bootstrap's missing nonidentity return are one
+ordered closure chain. Neither response-first nor action-first is derived. Response-first is the
+working priority for the next falsifiable test because the metric already supplies a partial
+completion-dependent local correspondence; action-first remains admissible but conditional on a
+still-unselected native functional and its complete variation/boundary domain.
+
 **Repository-wide dependency regrade:** read
 `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md` before entering older `phi`,
 field-equation, `X_max`, mass or stability work. Its 4,762-row active ledger withdraws the seven-family
@@ -24,13 +36,15 @@ value, WR-L/global join, bootstrap/mass-density relation, and any boundary conse
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
-2. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
-3. `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`.
-4. `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`.
-5. `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`.
-6. Its direct founding-source ledger, exact derivation, route/status/premise ledgers, two exact
+2. `CURRENT_RESEARCH_PROGRAM.md`.
+3. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
+4. `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`.
+5. `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`.
+6. `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md`.
+7. `udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md`.
+8. Its direct founding-source ledger, exact derivation, route/status/premise ledgers, two exact
    implementations, witnesses, verifier, fresh review, repair and accepted repair replay.
-7. Use the global-overlap, observer-comparison, query/path and factorized-skeleton audits as parents.
+9. Use the global-overlap, observer-comparison, query/path and factorized-skeleton audits as parents.
 
 **Result:** the direct founding source takes ordered relative depth as input and derives
 `D(delta)=diag(exp(-delta),exp(+delta))`. It does not derive which numerical `delta` belongs to an
@@ -50,13 +64,12 @@ source, carrier, boundary, density feedback, numerical `X_max`, matter, mass and
 limiting role of `X_max` is fixed as a working foundational frame; its realization and value are
 not. F01/F02/F04 remain conditional and separate.
 
-**Next decision, not automatic:** compare an explicit realized relational-depth premise with a
-branch-stratified metric-ownership program constrained to reduce to the stationary Killing law.
-Every candidate must realize the `X_max` dilation asymptote without a preferred center or physical
-wall, distinguish signed depth from nonnegative separation, and retain angular/path structure where
-load-bearing. Do not re-demand one universal point scalar, choose tanh/WR-L/fractional form from its
-endpoint alone, or insert an action, source, boundary law, density target, time-live equation, long
-solve or GPU.
+**Next bounded investigation, not automatic:** audit the conormal/response content of the existing
+partial completion-to-local correspondence. Test nonzero observer-natural response, genuine
+two-sided global/local dependence, any interior lift beyond endpoint/joint bookkeeping, compatibility
+pullbacks to F01/F02, and nonidentity after same-solution closure. The general pair-depth law remains
+open in parallel and retains the `X_max` gate. Do not insert an action, desired matter behavior,
+density target, time-live equation, long solve or GPU.
 
 **Evidence:** preregistration `c07e1b4e`; base freeze `f136aebb`; append-only source correction
 `32673ca2`; primary `34/34`, independent `24/24`, final verifier `39/39`, `19/19` mutation catches,

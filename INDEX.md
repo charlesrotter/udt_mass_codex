@@ -3,6 +3,16 @@
 **⚠ BRANCH: `grok` (2026-08-05)** — `main` is stale for this arc; `git checkout grok`.
 **Frontier authority:** `LIVE.md` (wins on conflict).
 
+**➤ ACTIVE SCIENTIFIC SPINE — ONE ORDERED CLOSURE CHAIN:** read
+`CURRENT_RESEARCH_PROGRAM.md`, then
+`udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`. The three current conceptual
+joints are one dependency chain: native law with variation/boundary ownership, admitted complete
+solutions, then source/mass/persistence roles. Neither response-first nor action-first is derived.
+Response-first is only the working priority for a bounded falsifiable test because the metric
+already supplies a partial completion-dependent local correspondence; action-first remains an
+admissible conditional alternative. The proposed conormal/response test is not launched
+automatically and derives no action, source, boundary, mass or dynamics.
+
 **➤ CURRENT CORRECTION OVERLAY — RELATIONAL-PHI DEPENDENCY RE-GRADE:** read
 `udt_relational_phi_dependency_regrade_2026-08-05/AUDIT_REPORT.md` and its 4,762-row active ledger
 before reusing older pointwise-`phi`, field-equation, `X_max`, mass or stability results. The core

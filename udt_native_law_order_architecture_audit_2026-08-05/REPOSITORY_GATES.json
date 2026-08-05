@@ -1,0 +1,24 @@
+{
+  "active_spine_added": true,
+  "audit_package_changed_paths": 22,
+  "authorized_navigation_mutations": [
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "README.md"
+  ],
+  "canon_unchanged_from_preregistered_base": true,
+  "checked_links": 137,
+  "current_paths": 1114,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "protected_untracked_metadata_rows": 83,
+  "schema": "udt.native_law_order_architecture.repository_gates.v1",
+  "status": "PASS",
+  "tests": "70 passed, 1 xfailed",
+  "total_authorized_changed_paths": 28
+}
