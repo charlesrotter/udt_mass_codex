@@ -1,5 +1,12 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
+> **2026-08-06 STATUS: NOTHING IN FLIGHT.** The 2026-08-06 session closed at a DELIBERATE STOP
+> (Charles's slow-strategy ruling): the c_eff reframe is absorbed (canon C-2026-08-06-1 ruled;
+> point-of-use re-grades authorized; reconciliation map committed), no lane is active, and the
+> next-push options sit on desk in LIVE.md's topmost block. Resume path: LIVE.md topmost →
+> HANDOFF.md CURRENT → `udt_reconciliation_reframe_2026-08-06/RECONCILIATION_MAP.md`. The ledger
+> below is the PRIOR (2026-08-01) in-flight record, kept for history.
+
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW MODEL: read LIVE.md topmost,
 then P4_ARC_SUMMARY_2026-07-31.md, ROADMAP_LINEAR_TIME_2026-07-31.md, this file, and the A3
 audit report. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before DERIVE; lay language with

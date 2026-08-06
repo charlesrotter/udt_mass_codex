@@ -4,9 +4,26 @@
 
 > **READ `LIVE.md` FIRST.** It wins every disagreement.
 >
-> **⚠ BRANCH: `grok` (2026-08-05).** Synchronize it before orientation.
+> **⚠ BRANCH: `grok` (2026-08-06).** Synchronize it before orientation.
 
-## CURRENT — complete-pair cocycle home derived; the physical pair-depth law remains open
+## CURRENT (2026-08-06) — c_eff reframe absorbed; canon C-2026-08-06-1; profile = free-data inference; deliberate stop
+
+The 2026-08-06 session (Charles-driven) unified c_eff / the depth profile / the phi+orchestra strain
+eigenvalue into ONE object (invariant = the two-point ratio `(1+z)^{-2}`; absolute c_eff chart-gauge;
+blind-verified with corrections applied), ran the action/native-law push to conclusion (EH null on
+the lock = the banked 07-01 emptiness re-derived; the c_eff reciprocal does not un-blind — c_eff is
+the RATIO A/B, blindness is the PRODUCT A*B, orthogonal; the C2/C3 consistency conditions grounded
+depth-blind; the depth-angular mixing lane COUPLING-INERT), and recorded `mu` — the invariant
+reciprocal-lock defect, scoped s != r — as the future discreteness-search seed. Culminating
+INFERENCE (labeled, unproven): the depth profile is FREE boundary/initial data; P-opt is a genuine
+posit. Charles ruled: **canon C-2026-08-06-1** (chart-scoped lock reading; the R1-R3 derivation
+untouched) and **point-of-use re-grades** for registry #33, #38(A), and the #40 absolute-depth
+family (banner in NEGATIVES_REGISTRY.md). Read
+`udt_reconciliation_reframe_2026-08-06/RECONCILIATION_MAP.md` before citing stuck mass-emergence/
+x_max work. POSTURE: deliberate stop, no active lane (Charles's slow-strategy ruling); next-push
+options are on desk in LIVE.md's topmost block. Everything below remains valid context beneath it.
+
+## PRIOR (2026-08-05) — complete-pair cocycle home derived; the physical pair-depth law remains open
 
 **Current active-science spine:** read `CURRENT_RESEARCH_PROGRAM.md` immediately after this block.
 It centralizes the current foundation, conditional F01/F02/F04 witnesses, retired shortcuts,

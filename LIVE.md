@@ -2,9 +2,54 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-08-05).** Synchronize before orientation.
+**⚠ BRANCH: work is on `grok` (2026-08-06).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
-## ============ CURRENT STATE (2026-08-05 — COMPLETE-PAIR COCYCLE HOME DERIVED; PHYSICAL LAW OPEN) ============
+## ============ CURRENT STATE (2026-08-06 — C_EFF REFRAME ABSORBED; CANON C-2026-08-06-1 RULED; PROFILE = FREE-DATA INFERENCE; DELIBERATE STOP, NO ACTIVE LANE) ============
+
+**SESSION ARC (2026-08-05/06, Charles-driven c_eff reframe -> action/law push -> reconciliation -> rulings):**
+1. **c_eff INTEGRATION (blind-verified PASS-WITH-CORRECTIONS, corrections applied):**
+   `udt_ceff_depth_orchestra_integration_2026-08-06.md` + `udt_ceff_profile_binding_test_2026-08-06/BLIND_VERIFICATION.md`.
+   c_eff (cone ratio), the depth profile phi, and the phi+orchestra strain timelike eigenvalue are ONE
+   object; the INVARIANT is the two-point RATIO `c_eff(emit)/c_eff(obs)=e^{-2 Delta phi}=(1+z)^{-2}`
+   (note the SQUARE); absolute c_eff is chart-gauge; `a` (screen-area) is separable. `lambda_t` is
+   two-point; the point identity is the phi_p=0 reference case.
+2. **ACTION/NATIVE-LAW PUSH — concluded, every route depth-blind:** EH on the lock = null Lagrangian
+   (re-derivation of the banked 07-01 EH-emptiness; `udt_vary_phi_not_metric_probe_2026-08-06/`, 2 reviews);
+   the c_eff reciprocal does NOT un-blind (c_eff = RATIO A/B, blindness = PRODUCT A*B — orthogonal;
+   `DERIVATION_NOTES_ceff_reciprocal.md`); consistency conditions C2 (integrability) and C3 (Noether)
+   grounded DEPTH-BLIND (screen-sector only; `udt_relational_law_consistency_MAP_2026-08-06.md`);
+   depth-angular MIXING lane = COUPLING-INERT (obstruction absorbed by free field k — symbolic rank-1
+   identity; `udt_mixing_channel_lane_2026-08-06/`, 2 reviews + final blind verification).
+   **SOLID POSITIVE:** `mu` = the invariant non-gauge DEFECT of the reciprocal lock
+   (lambda_time*lambda_radial=1 iff mu=0), **SCOPED s != r** (on s=r it is pure gauge — exact witness);
+   recorded as the future DISCRETENESS-SEARCH SEED (memory + lane doc).
+3. **CULMINATING INFERENCE (labeled inference, NOT a theorem):** the c_eff/depth PROFILE is left
+   unconstrained by EVERY structure examined -> it behaves like FREE boundary/initial DATA; P-opt is
+   a genuine posit. Earlier same-session probes consistent: copresence->P-opt REFUTED (circular; x_max
+   leaves a family); static crux CT-TRIVIAL (u pinned to the Killing frame — a static-spacetime theorem);
+   time-live probe TL-INVARIANT-GENERIC (un-pinning real; invariants GR-generic).
+4. **RECONCILIATION MAP (read before citing stuck work):**
+   `udt_reconciliation_reframe_2026-08-06/RECONCILIATION_MAP.md` — UNAFFECTED 12 / CANDIDATES 9 (4
+   substantive) / STRENGTHENED 6. Surprises: the WR-L/macro lane is already c_eff-native (fewer
+   casualties); lock-as-gauge is CHART-SCOPED (with the areal anchor B=1/A <=> G^t_t=G^r_r, substantive);
+   the H3 interior-lock demotion is retro-vindicated.
+5. **CHARLES'S RULINGS (2026-08-06, executed):** **Canon C-2026-08-06-1** — chart-scoped rewording of
+   the C-2026-06-18-1 READING (derivation untouched; the product is chart-scoped + GR-shared; invariant
+   carriers = the c_eff ratio and mu; the departure lives in the global kernel + whatever closes the
+   profile). **Registry banner 2026-08-06** — point-of-use re-grades AUTHORIZED for #33 (engine =
+   bulk-law-supplies-profile), #38 argument (A) (lock-read-as-physical), and the #40 absolute-depth
+   family (#41/43/44/56/57/59/65): CONDITIONS-CHANGED-CANDIDATES, no blocking authority on the named
+   argument until re-graded at point of use.
+
+**POSTURE: DELIBERATE STOP — no active lane (Charles's slow-strategy ruling; no flailing, no rabbit
+holes).** ON DESK for the next push, Charles to pick: (a) what closes the depth profile (free data +
+P-opt posit vs a not-yet-found closer; the forward gates P-opt/F01/F04 now carry a boundary-data/
+topology fork alongside the bulk/action fork); (b) the parked mu discreteness seed (does a compact
+target / winding BC / finite-cell junction quantize mu?); (c) point-of-use re-grades as stuck work
+gets revisited. DRIVER PATTERN (for the verifier): repeated owner-favorable steer slips this session,
+all caught by reviews — weight driver leans near zero until reviewed.
+
+## ============ PRIOR STATE (2026-08-05 — COMPLETE-PAIR COCYCLE HOME DERIVED; PHYSICAL LAW OPEN) ============
 **ACTIVE SCIENTIFIC SPINE:** `CURRENT_RESEARCH_PROGRAM.md` is now the concise current dependency
 map. It does not replace this file or `CANON.md`; it centralizes the banked foundation, conditional
 F01/F02/F04 witnesses, retired shortcuts, open joints and next bounded work for context-safe resume.
