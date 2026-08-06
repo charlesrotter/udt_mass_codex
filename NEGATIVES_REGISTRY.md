@@ -170,7 +170,11 @@ round-static, admits NO profile carrying Delta phi = ln(1101); regular-center + 
 NO solution. **The canon/OC2 ODD fold (phi=0, phi' free) and generic glue ESCAPE — this entry
 carries NO authority against them and NO pressure on G18.** Conjunction-scoped: it rules out
 {BC-class AND S AND anchor} jointly, not any single member. Serves as ROW 1 of the Global Cell
-Assembly closure-admissibility table (`udt_global_cell_assembly_MAP_2026-08-06.md`).
+Assembly closure-admissibility table (`udt_global_cell_assembly_MAP_2026-08-06.md`). **ANCHOR RE-SCOPE
+(2026-08-06, Charles-directed):** the datum is re-scoped to "some Delta phi > 0" (nonzero span,
+fixed sign — natively supported by observed redshift); the kill and the Z>0 forcing are
+value-independent. The specific ln(1101) is a separate flagged premise riding the standard CMB
+last-scattering interpretation (legacy import; C-2026-07-02-1 under provenance audit).
 (title corrected 2026-07-03 — the "(UNVERIFIED)" tag was stale after T1's adversarial pass; caught by the premise sweep)
 
 **STANDING (R1, R2 — blind-verified, agent a717881d0ebb76695):** in the round-static Branch-P

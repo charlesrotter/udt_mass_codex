@@ -124,3 +124,12 @@ independently; bulk-INSIDE the glue class.** Geometry consistent with row 1 (no 
 discrimination — with the table now saying the two survivors DIFFER on the observed L-lead, Step 3
 is substantive: characterize which closure+data pairings survive {ln(1101) + the L-lead} jointly,
 including whether the fold requires a non-L profile (and what SNe then demands) vs glue+L.
+
+## ANCHOR RE-SCOPE (2026-08-06, Charles-directed — applies to rows 1-3 above)
+
+The table's datum is **"some Delta phi > 0"** (nonzero span, fixed sign; natively supported by
+observed redshift). The value ln(1101) is a SEPARATE flagged premise riding the standard CMB
+last-scattering interpretation (legacy import; canon C-2026-07-02-1 under provenance audit,
+Charles-directed). No row verdict depends on the value; only quantitative witnesses do. Step 3, when
+run, must treat the SNe L-lead (native-fit) and the CMB value (interpretation-conditional) as
+SEPARATE data with different provenance grades.

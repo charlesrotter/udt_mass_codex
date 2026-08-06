@@ -135,3 +135,14 @@ rightly rejected. NOT vacuous: S is the unique banked law-set candidate, robust 
 closures imposing phi'=0 at BOTH ends (even-fold seal; open-end; glue-B==0) admit NO carrying
 profile (and regular-center + even seal admits NO solution at all); the ODD fold and generic glue
 ESCAPE (admissible at this row's level). Conjunction-scoped per caveats 2-3.
+
+## ANCHOR RE-SCOPE (2026-08-06, Charles-directed)
+
+The datum this re-grade uses is RE-SCOPED from "Delta phi = ln(1101)" to **"some Delta phi > 0"**
+(nonzero depth span with fixed sign — natively supported by observed redshift-with-distance).
+Verified against the logic: the kill (phi' == 0 => Delta phi = 0) needs only NONZERO; the Z>0
+forcing needs only the SIGN; the specific value ln(1101) is load-bearing NOWHERE in the verdicts.
+The value ln(1101) is hereby a SEPARATE, FLAGGED premise: it rides the standard last-scattering /
+recombination INTERPRETATION of the CMB (z ~ 1100) — a legacy-model import, not native, not
+currently derivable in UDT (canon C-2026-07-02-1 under provenance audit, Charles-directed
+2026-08-06). Quantitative statements only (witness numbers, IVT thresholds) depend on the value.

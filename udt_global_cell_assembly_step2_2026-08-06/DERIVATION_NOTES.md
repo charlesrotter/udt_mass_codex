@@ -253,3 +253,12 @@ cut per closure at most vs the shared S-cuts); and the observed L-lead sits INSI
 universe's bulk but OUTSIDE the fold universe's class — making Step 3 (anchor/profile
 discrimination) substantive, not formal. No G18 ruling here; no mass content. Same-session review
 caveat travels; external bar owed for any hard bank.
+
+## ANCHOR RE-SCOPE (2026-08-06, Charles-directed)
+
+All Step-2 verdicts are RE-SCOPED to the anchor **"some Delta phi > 0"** (sign fixed): Q2a existence
+is generic in the target (the IVT construction works for any positive span); Z>0-forced rides the
+sign only; the admitted-class cuts and the L-placement facts are value-independent. The specific
+value ln(1101) = the standard CMB last-scattering interpretation — a legacy import, now a separate
+flagged premise (canon C-2026-07-02-1 under provenance audit). Only the witness NUMBERS (eps*, q)
+and the 1101^{2Z} threshold are value-conditional.
