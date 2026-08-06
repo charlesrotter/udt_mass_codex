@@ -540,3 +540,36 @@ standing falsifier; x_max must not be silently derived or adopted in that push).
 **Provenance:** `udt_mirror_canon_provenance_audit_2026-07-30/` (PROVENANCE_REPORT,
 CONSUMER_LEDGER, REGRADE_OPTIONS, CORRECTION_LAYER incl. the owner clarifications).
 **Ruled by Charles 2026-07-30 ("(c) now, (d) next").**
+
+## C-2026-08-06-1 — Chart-scoped reading of the reciprocal lock (rewording of the C-2026-06-18-1 READING; derivation untouched; ruled by Charles)
+
+**Statement:** The C-2026-06-18-1 derivation STANDS in full (R1-R3 force the exponential clock law
+and the reciprocal tie B=1/A along grad phi; the P8 caveat unchanged; the reciprocal family remains
+a legitimate CHOSE domain). What is REWORDED is the READING of the product condition:
+
+1. **The PRODUCT `g_tt·g_rr = -c^2` is CHART-SCOPED, not per-se physical.** Blind-verified
+   (2026-08-06): on a bare metric a spatial reparametrization breaks the product while every
+   curvature invariant is unchanged; any static diagonal metric can be brought TO lock form by a
+   radial relabeling. The product is substantive ONLY paired with the AREAL-r anchor, where
+   B=1/A <=> G^t_t = G^r_r — a genuine curvature condition (this upgrades the old entry's own
+   "downstream check" line to the carrier of the condition's content). The lock is also GR-SHARED
+   (Schwarzschild's areal chart satisfies g_tt·g_rr = -c^2): the lock FORM is not, by itself, the
+   UDT departure from GR.
+2. **The invariant carriers of the lock's physical content** (blind-verified 2026-08-06):
+   (a) the two-point RATIO / depth profile `c_eff(emit)/c_eff(obs) = e^{-2(Delta phi)} = (1+z)^{-2}`
+   (absolute c_eff is chart-gauge; the ratio is the measurable object, what the SNe curve reads
+   through the square); (b) `mu`, the non-gauge defect invariant of the comparison strain
+   (`lambda_time·lambda_radial = 1 iff mu = 0`, scoped s != r) — the invariant statement that the
+   lock HOLDS between two observers.
+3. **Where the UDT departure from GR lives:** not in the vacuum metric form (GR-shared / chart);
+   in the global kernel (finiteness/x_max/copresence) and in whatever closes the depth PROFILE —
+   which the 2026-08-06 audits find unconstrained by every bulk/relational structure examined
+   (EH volume-blind on the lock; phi-variation null; integrability screen-only; Noether N-blind;
+   depth-angular mixing coupling-inert): the profile currently stands as free boundary/initial
+   DATA with P-opt a genuine posit (inference, not a theorem).
+
+**Provenance:** `udt_ceff_depth_orchestra_integration_2026-08-06.md` + `udt_ceff_profile_binding_test_2026-08-06/BLIND_VERIFICATION.md`
+(PASS-WITH-CORRECTIONS applied), `udt_timelive_nonlocal_copresence_2026-08-06/` (lock-as-gauge, review-verified),
+`udt_vary_phi_not_metric_probe_2026-08-06/` (null Lagrangian, 2 reviews), `udt_mixing_channel_lane_2026-08-06/`
+(+ BLIND_VERIFICATION_FINAL, mu scoped s != r), reconciliation map `udt_reconciliation_reframe_2026-08-06/RECONCILIATION_MAP.md`.
+**Ruled by Charles 2026-08-06 ("Reword the canon per the chart-scoped finding").**

@@ -33,6 +33,24 @@ demonstration of why this registry exists.
 
 ---
 
+## *** 2026-08-06 CHARLES AUTHORIZATION: POINT-OF-USE RE-GRADES for the c_eff-reframe candidates ***
+
+Per the reconciliation map (`udt_reconciliation_reframe_2026-08-06/RECONCILIATION_MAP.md`; assets =
+the blind-verified c_eff integration (ratio invariant, product chart-scoped; see canon
+C-2026-08-06-1), the profile-as-free-data inference, and mu (s != r)), Charles authorizes
+POINT-OF-USE re-grades — each entry below is CONDITIONS-CHANGED-CANDIDATE and owes a re-grade
+under the new conditions BEFORE any blocking citation; until re-graded at point of use it carries
+NO blocking authority on the named argument:
+- **#33** (general-member compactness continuum): its engine assumes the BULK LAW supplies the
+  profile; if the profile is free data the over-determination argument dissolves. Full re-grade owed.
+- **#38, argument (A) only** ("B=1/A makes the Einstein identity tautological => no native bounding
+  term"): reads the lock product as physical; re-pose on the unlocked/chart-scoped domain. The
+  exact algebra stands; the READING is what changed.
+- **#40 + the absolute-depth continuum family (#41, #43, #44, #56, #57, #59, #65):** "mass =
+  continuum in depth" verdicts ride an ABSOLUTE-depth axis; likely survive re-read as ratio-level
+  statements, but each owes a point-of-use check (absolute-vs-ratio) before blocking citation.
+All other entries: unaffected by this authorization. Ruled by Charles 2026-08-06.
+
 ## *** 2026-07-07 — NO HOMOGENEOUS REDSHIFTING UDT UNIVERSE (CONDITIONS-CHANGED 2026-08-05; exact conditional algebra retained) ***
 
 **Claim:** the native UDT field equations admit NO homogeneous, isotropic, static solution carrying positional
