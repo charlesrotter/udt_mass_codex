@@ -133,3 +133,20 @@ last-scattering interpretation (legacy import; canon C-2026-07-02-1 under proven
 Charles-directed). No row verdict depends on the value; only quantitative witnesses do. Step 3, when
 run, must treat the SNe L-lead (native-fit) and the CMB value (interpretation-conditional) as
 SEPARATE data with different provenance grades.
+
+## STEP 3 RESULT (2026-08-06): Q1 TABLE ROWS 4-5 (derivation + 2 reviews, S3-MIXED sustained-amended)
+
+**Row 4 (floor seat):** within S, an observer at the phi-floor sees a QUARTIC redshift onset (every
+admitted member, both closures — the low-z structure is outer-closure-BLIND, inner-end-determined)
+=> D1-linearity STRUCK; the off-core rescue is DEAD (unbounded half-sky-blueshift dipole; boost
+absorption refuted). **Row 5 (WR-L / free-core fork seat):** linearity restored (H* = 1/(2X)) and
+d_L/X = z(z+2) EXACT via banked Etherington — but CONDITIONAL on the open in-cell D_A (rho=r is
+not an S-solution under phi_L; rho(0)>0 forced), so no row is unconditionally D1-clean.
+**FLAGS ON CHARLES'S DESK (neither ruled):** (1) RECORD-SEAT-CONFLICT — canon's cell readout
+(receiver at the floor) vs banked WR-L (observer at phi' != 0): two banked pictures, incompatible
+seats; D1 discriminates between THEM more sharply than fold-vs-glue. (2) G18-pressure, TWO-LEGGED —
+seat-side unconditional (the floor seat is struck), outer-seam leg conditional + a Step-2 COVERAGE
+GAP (free-core-inner x fold-outer never analyzed — fold-outer NOT struck, open).
+**NEXT CANDIDATES (Charles picks):** Step 4a = the in-cell D_A derivation (the named load-bearing
+conditionality); Step 4b = the coverage-gap class (free-core-inner x fold-outer admissibility);
+Step 4c = the seat-conflict resolution (which banked picture is the universe cell's readout?).
