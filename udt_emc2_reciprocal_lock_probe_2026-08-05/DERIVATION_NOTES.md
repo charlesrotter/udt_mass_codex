@@ -53,3 +53,47 @@ Free-particle mass shell `g^{mu nu}p_mu p_nu=-m^2c^2`, conserved `E=-p_t`, coord
 - Review B (attack OE-MOTION / c_eff as coordinate artifact / GR-equivalence): is
   `g_xx/(-g_tt)=e^{4phi}/c^2` an actual departure from what GR's field equations give, or would
   GR reproduce it? Is any of the "motion content" a coordinate artifact? Kill the departure claim.
+
+## CORRECTION (2026-08-05): both reviews NARROW the headline; PREREG §1 footing REFUTED
+
+Two same-session adversarial reviews (files ADVERSARIAL_REVIEW_A_missed_content.md,
+ADVERSARIAL_REVIEW_B_motion_gr.md) both land NARROW and correct this note in OPPOSITE directions.
+
+**Review A** (hunt missed content): the SR identity E_loc^2=(mc^2)^2+(phat c)^2 is confirmed
+BUT is a TETRAD TAUTOLOGY — B=g_xx drops out for ANY static metric, so the local test is
+UDT-BLIND by construction and cannot license "the lock is invisible to the energy sector."
+Moreover the lock DOES leave an invariant signature: redshift Z and ruler-dilation L satisfy
+`Z * L = 1` (equivalently sqrt(-det g_2d)=c) — reciprocal redshift/length-stretch; in generic
+GR Z and L are independent. So "E=mc^2 yields no new content / lock invisible to the energy
+sector" (my headline) is TOO STRONG. phat=P/sqrt(g_xx) confirmed correct.
+
+**Review B** (kill motion/GR-equivalence): the lock g_tt g_xx=-c^2 is IDENTICALLY the
+Schwarzschild areal-coordinate property (g_tt g_rr=-c^2 for -f dt^2+f^{-1}dr^2, whole family),
+so the lock — AND its Z*L=1 signature — hold in GR vacuum too. **NOT a UDT departure.** With
+generic matter GR breaks the lock (holds iff rho=-p_r), so a UDT departure is CONDITIONAL on
+the matter/law sector (unchecked). In the 1+1 metric solved, g_xx is pure gauge, so the
+"motion content" pointer borrowed higher-D structure not computed. c_eff-coordinate discipline
+HELD (both reviews; never smuggled).
+
+**PREREGISTRATION §1 FOOTING REFUTED:** it asserted g_tt g_xx=-c^2 is "the UDT departure from
+GR, where g_tt,g_xx are independent." FALSE — they are locked in GR vacuum (areal Schwarzschild)
+too. (Prereg is frozen; corrected here, not edited.)
+
+## CORRECTED VERDICT
+- E=mc^2 LOCALLY = SR (tetrad tautology, UDT-blind). No UDT content there — but for a subtler
+  reason than "the lock is invisible": the local test cannot see ANY metric structure.
+- The reciprocal lock HAS a real invariant signature (Z*L=1) but it is NOT UDT-specific: it is
+  areal-Schwarzschild's property. So NO UDT-vs-GR DISCRIMINATING content emerges at the
+  free-particle/lock kinematic level.
+- The UDT-vs-GR departure lives entirely in (a) the unselected LAW that determines phi(r), and
+  (b) whether the lock survives the MATTER sector (the rho=-p_r condition or its UDT-native
+  analog). Both OPEN, unchecked.
+
+## HONEST YIELD (what the probe actually produced, per Charles's "structure/constraints" intent)
+1. Confirms Charles's up-front doubt: E=mc^2 is the WRONG place to look for UDT content.
+2. FOUNDATIONAL CORRECTION: the "reciprocal lock / area law is UDT's signature departure from
+   GR" framing is FALSE (it is areal Schwarzschild). => FLAG FOR BROADER AUDIT: wherever the
+   record treats the reciprocal lock / g_tt g_xx=-c^2 / "area law" as a UDT-specific departure
+   (Fable-session ponders; possibly canon framing), that claim needs re-grading. The genuine
+   UDT departure is the LAW and the matter-sector lock-survival, not the kinematic lock.
+3. Nothing banks. Two same-session reviews are not the external bar; four-check N/A (lead+correction).
