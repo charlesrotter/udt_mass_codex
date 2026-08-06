@@ -15,6 +15,12 @@ The frame-covariant comparison strain between two observers (phi+orchestra: `C_A
 - **c_eff** (cone ratio) `= sqrt(-g_tt/g_xx) = c_E e^{-2phi} = c_E * lambda_t`
 - therefore `phi = -(1/2) log(c_eff / c_E)`
 
+PRECISION (blind verification 2026-08-06, `BLIND_VERIFICATION.md`): `lambda_t` is a TWO-POINT
+object, `lambda_t = e^{-2(phi_q-phi_p)}`; the point identity `c_eff = c_E*lambda_t` is its
+`phi_p = 0` (reference-observer) special case — verified exactly, but the reference must be said.
+And `lambda_t` is the eigenvalue, `delta_t = -(1/2)log(lambda_t) = phi_q-phi_p` the log-extractor —
+do not conflate the two symbols.
+
 **c_eff, the depth profile, and the phi+orchestra eigenvalue are ONE quantity read three ways** — a
 speed, a log-depth, and a strain eigenvalue. They are not separate entities and cannot be separated
 (asking whether the profile falls out independently of c_eff is like asking whether a number falls
@@ -25,9 +31,12 @@ subgroup) level — no angular/screen structure is needed for it (VERDICT B, exa
 
 - The **absolute** `c_eff` is a coordinate speed (gauge; any static diagonal metric can be
   radially reparametrized, changing absolute c_eff — Review 1, 2026-08-06, exact).
-- The **ratio** `c_eff(q)/c_eff(p) = lambda_t = phi_q - phi_p` (the depth PROFILE) is INVARIANT — and
-  it is exactly **redshift-with-distance**. So the metric is NOT empty of UDT content: the physical,
-  measurable content is the c_eff-RATIO / depth profile, which the SNe curve measures.
+- The **ratio** `c_eff(q)/c_eff(p) = lambda_t = e^{-2(phi_q-phi_p)}` (the depth PROFILE) is
+  INVARIANT — and it carries **redshift-with-distance** with a SQUARE (blind-verified exact):
+  `c_eff(emit)/c_eff(obs) = lambda_t = (1+z)^{-2}` (against the record's `1+z = 1/sqrt(A)`,
+  `A = e^{-2phi}`; equivalently `c_eff = c_E*A`). So the metric is NOT empty of UDT content: the
+  physical, measurable content is the c_eff-RATIO / depth profile, which the SNe curve measures
+  (through the square, not one-to-one).
 - Both earlier positions were half-right: the "lock is gauge" result was true of the absolute value
   and the PRODUCT `g_tt*g_xx=-c_E^2`; the physical content lives in the RATIO `g_tt/g_xx = -c_eff^2`
   (the cone). The months-long "vacuum = GR" collapse traced to freezing c to the constant `c_E`,
