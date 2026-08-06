@@ -57,3 +57,50 @@ depth requires all admissible loop periods to vanish; otherwise the path label m
 a clean OT-COLLAPSE: time-live probably dissolves the endpoint `N`/`R` split into a genuine
 path cocycle whose residual freedom is a holonomy. This must be DERIVED, not assumed; it
 could land OT-SURVIVE or OT-COLLAPSE instead.
+
+## Step 2 (done, exact, self-checked only): the mixed depth-screen holonomy — MODEL lands OT-REFRAME
+
+**STILL A LEAD / UNBANKED. Single explicit model, driver-computed, self-checked only. Cold
+verification and faithfulness-to-the-orchestra-2+2-branch check both REQUIRED before banking.**
+
+Model: `ds^2 = -e^{-2phi}dt^2 + e^{2phi}dx^2 + R^2 dy^2`, phi=phi(t,x), R=R(t,x) (boost plane
++ one live screen). Full so(1,2) connection solved from Cartan; depth = timelike leg (0).
+The screen's contribution to the DEPTH holonomy is the curvature R^0_2. Exact:
+
+```text
+R^0_2|_{dx^dy} = ( R_t phi_x - R_x phi_t + R_tx ) e^{phi}
+```
+
+KEY FACTS (exact):
+1. This component is **TIME-LIVE ONLY**: on the stationary branch (phi_t=0, R_t=0) it
+   reduces to R_x*0 - 0 + 0 = 0. The screen->depth loop period vanishes stationary.
+2. Therefore stationary: depth is an endpoint function, and the screen weight `a` is a FREE
+   CONSTANT weighting two exact forms (reproduces delta_a).
+3. Time-live: R^0_2 is generically nonzero -> the depth cocycle acquires a nonzero loop
+   period -> endpoint depth FAILS -> the free-constant `a` decomposition DISSOLVES.
+
+VERDICT (model-scoped): **OT-REFRAME.** `a`-as-free-constant is a stationarity artifact
+(supports Charles's hypothesis). Time-live it is replaced by a DETERMINED holonomy density
+`R^0_2`, not a free number. The residual structure is a holonomy, not a constant.
+
+THE PHI-ANGULAR COUPLING appears explicitly: the leading term `R_t phi_x - R_x phi_t` is a
+genuine antisymmetric coupling between screen evolution and depth gradient (a Jacobian /
+commutator of the screen and depth flows) — the phi-angular interaction, here as a concrete
+curvature. If the screen is tied to depth, R=R(phi), it becomes (R'' phi_t phi_x + R' phi_tx)e^{phi}.
+
+CHARLES'S c_eff INTUITION — consistent, honestly scoped: every depth/screen holonomy carries
+exponential phi factors (e^{phi}, e^{2phi}, e^{-2phi}, e^{-3phi}). The angular contribution is
+therefore phi-WEIGHTED (depth-dependent), NOT a constant modulation — which is the shape of
+Charles's intuition (little effect near phi=0 / c_eff~c; exponentially significant at depth).
+The precise "small at c~c, large at extreme" behavior follows from the exponential weighting
+but its direction depends on the R-phi coupling and sign(phi); NOT claimed beyond the weighting.
+
+## What must happen before this banks (per PREREGISTRATION and the K4/U(1) lesson)
+- Faithfulness: confirm this diagonal 2+1 model is a genuine instance of the orchestra's
+  2+2 stationary branch (that R^0_2's period is the same object as delta_a's `a`-weight),
+  not a convenient strawman.
+- Cold/different-method verifier: recompute the holonomy by an independent route (import no
+  code here), and specifically attack OT-REFRAME (the owner-pleasing direction, since it
+  supports Charles's hypothesis) — hunt for a frame/gauge choice that makes R^0_2 vanish, or
+  a reason the identification with `a` fails.
+- Only then a scoped bank + LIVE pointer.
