@@ -9,6 +9,17 @@
 map. It does not replace this file or `CANON.md`; it centralizes the banked foundation, conditional
 F01/F02/F04 witnesses, retired shortcuts, open joints and next bounded work for context-safe resume.
 
+**c_eff = DEPTH PROFILE = phi+orchestra EIGENVALUE — INTEGRATED (2026-08-06):**
+`udt_ceff_depth_orchestra_integration_2026-08-06.md` records the session's c_eff reframe so it is
+not buried. Exact: c_eff (cone ratio sqrt(-g_tt/g_xx)), the depth profile phi, and the phi+orchestra
+strain timelike eigenvalue lambda_t are ONE object (c_eff=c_E*lambda_t, phi=-1/2 log lambda_t),
+bound at the bare radial level. The INVARIANT content is the RATIO c_eff(q)/c_eff(p)=phi_q-phi_p =
+redshift-with-distance (absolute c_eff is gauge). Diagnosis of the long "vacuum=GR" collapse:
+freezing c to the constant c_E erased the ratio-profile. Working discipline: read c_eff off the
+metric (never pin/anchor), work the invariant ratio-profile, restore c_eff wherever c_E was frozen.
+TABLED for future work: the clock->screen MIXING angular channel (does enter lambda_t; candidate
+phi-angular coupling). NEXT / active blocker: the native law/action carrying c_eff natively.
+
 **LAW-ORDER ARCHITECTURE AUDIT:**
 `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md` finds that law/variation
 ownership, source/mass roles and bootstrap's missing return are one ordered closure chain rather
