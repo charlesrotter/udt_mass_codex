@@ -112,3 +112,15 @@ at all); **the canon/OC2 ODD fold (phi=0, phi' free) and generic glue ESCAPE.** 
 (indicts {BC-class ∧ S ∧ anchor} jointly). NO G18 pressure. Package:
 `udt_two_mirror_rigidity_regrade_2026-08-06/`. NEXT (Step 2, on Charles's go): the admissibility
 table for the SURVIVING closures — what profile-data classes do the odd fold and generic glue admit?
+
+## STEP 2 RESULT (2026-08-06): Q1 TABLE ROWS 2-3 (derivation + 2 reviews, S2-MIXED sustained-amended)
+
+Within S (caveat travels), both survivors CARRY the anchor (constructive + witness). **ODD FOLD =
+CONSTRAINS-thin** (its own cut: the seam rho-pin, codim-1; heavier cuts are S+core, shared; Route-B
+rider). **GENERIC GLUE = ADMITS-ALL in the B-unfixed reading** (FLIP RIDER: any derived B imposes
+q=2B'(rho_s) and flips it to CONSTRAINS). **L-lead: OUTSIDE the fold class at both ends
+independently; bulk-INSIDE the glue class.** Geometry consistent with row 1 (no straddle). Package:
+`udt_global_cell_assembly_step2_2026-08-06/`. NEXT (Step 3, on Charles's go): anchor/profile
+discrimination — with the table now saying the two survivors DIFFER on the observed L-lead, Step 3
+is substantive: characterize which closure+data pairings survive {ln(1101) + the L-lead} jointly,
+including whether the fold requires a non-L profile (and what SNe then demands) vs glue+L.

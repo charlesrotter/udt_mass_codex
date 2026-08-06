@@ -1,0 +1,23 @@
+PASS A1 flux identity (F' - 4e^{-2phi}rho'^2) == phi-EL, rho''-free
+PASS A2 phi-blind matter never enters the phi-EL (identity)
+PASS A2b phi'' = 4e^{-2phi}rho'^2/(Z rho^2) - 2phi'rho'/rho
+PASS A2c rho'' = 2phi'rho' - (Z/4)rho e^{2phi}phi'^2
+PASS A3a shift: phi-EL maps to e^{2c} x itself
+PASS A3b shift: rho-EL maps to e^{2c} x itself
+PASS A4 Route-B: (Z rho^2 phi' + 4 rho rho')' - 4e^{-2phi}rho'^2 == RouteB phi-EL (same nonneg RHS)
+PASS A5a phi_L'(r) = 1/(2(X-r)) never zero for finite X
+PASS A5b residual at any rho'=0 point = Z rho^2/(2(X-r)^2) != 0
+PASS A6a from-scratch quadratic matches notes' 4(m/X)u^2-(Z/m)u-Z/(2m^2)=0
+PASS A6b discriminant = Z^2/m^2 + 8Z/(mX) > 0 (Z>0)
+PASS A6c root product = -ZX/(8m^3) < 0 => two real roots, opposite sign, neither 0
+PASS A6d both roots satisfy the quadratic exactly (bulk solution by quadrature)
+FAIL A6e Delta phi_L = (1/2)ln((X-rc)/(X-rs)) exactly
+PASS A6f Z<0: discriminant can be negative (e.g. Z=-1,m=1/2,X=1 -> -12)
+A7 D(eps)=phi(1) probes: ['0.001:-6.6649', '0.005:-3.5217', '0.011:-0.0156', '0.02:+3.6477', '0.05:+11.3247', '0.2:+27.7031', '1.0:+43.4724']
+A7 WITNESS(own): eps* = 0.011032, q = 73.689783, |phi(1)| = 2.80e-14
+PASS A7 witness reproduces eps*~0.011, q~73.7
+A7b tolerance-robustness: eps*(rtol 1e-9) = 0.011032 (delta 2.07e-12)
+A7c second family (smoothstep): eps* = 0.011074, q = 72.497144 -> anchor-carrier exists (genericity)
+PASS A7d q>0 and Delta phi = ln(1101) at witness
+note: A6e resolved separately
+A6e RESOLVED: expand_log(force)= 0 (sympy branch-assumption artifact; identity exact on 0<rc<rs<X; 50 numeric spot checks < 1e-10)
