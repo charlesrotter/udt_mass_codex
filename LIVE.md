@@ -17,8 +17,15 @@ bound at the bare radial level. The INVARIANT content is the RATIO c_eff(q)/c_ef
 redshift-with-distance (absolute c_eff is gauge). Diagnosis of the long "vacuum=GR" collapse:
 freezing c to the constant c_E erased the ratio-profile. Working discipline: read c_eff off the
 metric (never pin/anchor), work the invariant ratio-profile, restore c_eff wherever c_E was frozen.
-TABLED for future work: the clock->screen MIXING angular channel (does enter lambda_t; candidate
-phi-angular coupling). NEXT / active blocker: the native law/action carrying c_eff natively.
+The clock->screen MIXING channel was un-tabled and run (`udt_mixing_channel_lane_2026-08-06/`):
+outcome COUPLING-INERT (2 reviews) -- the coupling does NOT pin the depth (obstruction absorbed by a
+free field). SOLID POSITIVE kept for a later discreteness hunt: **mu, the invariant non-gauge DEFECT
+of the reciprocal lock** (lambda_time*lambda_radial=1 iff mu=0). ACTION/LAW PUSH CONCLUSION: the
+c_eff/depth PROFILE is left UNCONSTRAINED by EVERY structure examined (EH volume-blind, vary-phi null,
+integrability screen-only, Noether N-blind, mixing k-absorbed) -> it behaves like FREE boundary/initial
+DATA, not a bulk-law-determined quantity; honest inference (not proven) = no native bulk/relational
+law pins the profile; P-opt is a genuine posit. Pondering with Charles what replaces "a native law"
+(candidate: kinematics + finite-cell BOUNDARY conditions + TOPOLOGY/winding, not a bulk field equation).
 
 **LAW-ORDER ARCHITECTURE AUDIT:**
 `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md` finds that law/variation
