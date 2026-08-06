@@ -46,3 +46,50 @@ all honest and useful:
   the profile independently of the full law (pushing toward L)? Is P-opt a distinct, more
   fundamental optical principle than "a generic law choice"? Verify the baseline (z(z+2),
   0.91, conditional-on-P-opt) is represented correctly.
+
+## CONSOLIDATED CORRECTION (2026-08-05): both reviews confirm OP-INDEPENDENT; corrections + a tension
+
+Files: ADVERSARIAL_REVIEW_A_steelman_derived.md (VERDICT PASS), ADVERSARIAL_REVIEW_B_global_reframe.md (VERDICT NARROW).
+
+**OP-INDEPENDENT CONFIRMED from both directions.** Review A attacked hardest with the FULL
+Reciprocity structure (my original argument used only weak antisymmetry — under-powered; A
+supplies the stronger justification) and every lever failed: full cocycle composition holds
+for arbitrary profile; groupoid single-valuedness is automatic in the 1D radial sector;
+round-trip/radar reciprocity closes for any A. Review B confirmed the banked global
+constraints do not fix the profile toward L (explicit counterexample A_H=(X-r)/(X+r) passes
+every global gate yet isn't L).
+
+**STRENGTHENED (Review A) — P-opt is not merely un-forced, it is naturality-DISFAVORED.** There
+is no canonical reciprocity-invariant parametrization forcing "optical path = depth." The
+reciprocal flow admits several equally-natural canonical parameters, each giving a DIFFERENT
+profile: uniform depth per null-geodesic AFFINE parameter -> A EXPONENTIAL (the most natural);
+per Fermat optical path -> A LINEAR (P-opt); per proper distance -> A QUADRATIC. The MOST
+natural (affine) choice gives exponential, NOT L. Also: light is not an eigenvector of the
+reciprocal strain (timelike stretch != spacelike), so the depth cocycle lives on the
+TIMELIKE/clock sector — light carries no reciprocity depth for reciprocity to make affine.
+
+**CORRECTIONS to this note (Review B):**
+1. "ANY profile A(x)" OVERSTATED. Correct: the banked global constraints (x_max asymptote
+   A->0 at wall, regularity A(0)=1, finite-cell, near-wall exponent beta in [1,2)) fix a
+   CONSTRAINED FAMILY; P-opt selects L WITHIN it; the global gates do NOT reach L on their own.
+2. RETRACTED — the reframing bullet "the law should yield ~A=1-r/X to keep the SNe agreement"
+   SMUGGLES TARGETING (data-favored profile as design goal for the undelivered law) — exactly
+   the SNe-shopping this probe's own prereg named as primary hazard. STRUCK. Third steering
+   slip caught by review this session.
+3. "P-opt = the orchestra's free parameter" OVER-FLATTENS. P-opt is a rigid axiom (light
+   meters depth via Fermat length), not a 1-parameter knob. Keep "same open LAW gate"; drop
+   "same as the free parameter."
+
+**CORRECTED VERDICT:** the phi+orchestra formulation does NOT upgrade the native SNe fit
+(z(z+2), chi^2/dof=0.91) to native. It stays conditional on P-opt, and naturality mildly
+DISFAVORS P-opt (natural parametrization -> exponential profile, not the linear L that fits
+SNe). So target (A) FAILED: the fit is not secured, and the orchestra makes P-opt look like a
+specific, non-privileged physical principle.
+
+**THE HONEST TENSION (stated WITHOUT targeting):** the SNe data favors the LINEAR (L) profile;
+Review A's naturality lean is toward the EXPONENTIAL profile. These need not agree. The actual
+response-first law will yield SOME profile; whether it is L (SNe-native), exponential
+(naturality-leaning, likely poorer SNe), or other is undetermined here. The legitimate reading
+is that the z(z+2)=0.91 fit is an EMPIRICAL TEST the eventual law must face — not a shape the
+law should be built toward. If the derived law gives exponential and SNe wants linear, that is
+a real problem to be adjudicated by derivation + data, not by design. Nothing banks.
