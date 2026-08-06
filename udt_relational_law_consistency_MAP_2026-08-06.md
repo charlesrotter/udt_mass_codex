@@ -64,3 +64,27 @@ consistency condition can be as empty as EH was.
 ONE careful grounding read (read-only, no compute): extract the EXACT integrability condition (C2) and
 the Noether identity (C3) from the phi+orchestra derivation, and state — on paper — whether either
 constrains c_eff. Only if one does, and Charles agrees, a single bounded symbolic check. No barrage.
+
+## GROUNDING RESULT (2026-08-06, read-only): C2 and C3 do NOT constrain c_eff
+
+- **C2** (EXACT_DERIVATION.md §6-7): endpoint-descent condition `d alpha=0` + all periods vanish;
+  triangle `d01+d12+d20=0`; branch one-form `alpha_a=-d log N + a d log R`. This is a STRUCTURAL/
+  screen-identification premise: requires depth-norm N single-valued but does NOT constrain the
+  c_eff/depth SHAPE and does NOT select `a`. Constrains the SCREEN split, not the depth profile.
+- **C3** (udt_p4_timelive_stage_T2 EXACT_DERIVATION.md TU-4a/b): identity `-2 k10 r_tf + m00 c10 +
+  m01 c11 - m10 c00 - m11 c01 = 0`. OFF-SHELL / kinematic gauge (Noether-2nd) identity on the
+  k_mod=0 stratum; explicitly N-BLIND ("R_N slots ... drop out of every stratum Noether identity").
+  No dynamical/response content; does NOT touch c_eff.
+
+**VERDICT: avenue 1 (as grounded) yields NO native law for the c_eff/depth profile.** Both live in
+the SCREEN/angular sector; both are depth-blind.
+
+**The pattern this completes (robust, session-wide, not one probe):** every structure examined is
+BLIND to the depth — EH (volume-blind), the vary-phi test (null Lagrangian), the integrability
+condition (screen-only), the Noether identity (N-blind). The depth/c_eff profile is UNCONSTRAINED
+by any bulk or consistency structure we have; all constraints live in the angular/screen sector.
+The ONLY structure that couples depth to the constrained screen sector is the tabled clock->screen
+MIXING channel. So IF a native law constrains the depth profile, it most plausibly runs through the
+depth-angular COUPLING — which is exactly Charles's standing phi-angular hunch (structure from the
+INTERACTION, not either sector alone). Not flailing toward it; recording it as the distinguished
+remaining route. Nothing banked; fork for Charles.
