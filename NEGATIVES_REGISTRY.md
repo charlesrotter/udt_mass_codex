@@ -158,6 +158,19 @@ agent a30e4ea7bd54193f7 — mechanical premise-set classification, all 74 items)
   residual UDT authority; the "GR-structural" banner exemption is superseded by this retag).
 
 ## *** 2026-07-02 UNIVERSE CELL: VACUUM IMPOSSIBLE + CENTER-FREE + TWO-MIRROR RIGIDITY (CONDITIONS-CHANGED 2026-08-05; exact conditional algebra retained) ***
+
+### RE-GRADE (2026-08-06, point-of-use per the 2026-08-06 authorization; package = `udt_two_mirror_rigidity_regrade_2026-08-06/`; re-grade agent + 2 adversarial reviews, independent recomputes 17/17 + 28/28) -> **RG-DISCRIMINATOR-AMENDED**
+
+The TWO-MIRROR RIGIDITY leg re-grades as follows. ALGEBRA: exact, stands (flux identity = the
+phi-EL; presentation-invariant at ratio level via the Z-rescaling lemma — survives the 08-05
+pointwise demotion). RE-KEYED to the BC-CLASS "both ends impose phi'=0" = {even-fold seal;
+open-end via natural BCs (new reach); glue-with-B==0 via forced q=0 (conditional new reach)} —
+this class, WITHIN S = the (unforced but unique-banked) 2026-07-01 law-set + phi-blind sources +
+round-static, admits NO profile carrying Delta phi = ln(1101); regular-center + even seal admits
+NO solution. **The canon/OC2 ODD fold (phi=0, phi' free) and generic glue ESCAPE — this entry
+carries NO authority against them and NO pressure on G18.** Conjunction-scoped: it rules out
+{BC-class AND S AND anchor} jointly, not any single member. Serves as ROW 1 of the Global Cell
+Assembly closure-admissibility table (`udt_global_cell_assembly_MAP_2026-08-06.md`).
 (title corrected 2026-07-03 — the "(UNVERIFIED)" tag was stale after T1's adversarial pass; caught by the premise sweep)
 
 **STANDING (R1, R2 — blind-verified, agent a717881d0ebb76695):** in the round-static Branch-P

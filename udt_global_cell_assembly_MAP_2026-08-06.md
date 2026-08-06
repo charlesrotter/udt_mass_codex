@@ -102,3 +102,13 @@ closes itself without a bulk law (dead) and without imposing anything.
    G18 ruling if the table discriminates.
 Each step: preregistered, chunked, two adversarial reviews on any landed verdict, external review
 owed for any bank. F-STEER named per step (fold = owner-favorable).
+
+## STEP 1 RESULT (2026-08-06): Q1 TABLE ROW 1 (re-grade complete, 2 reviews, registry noted)
+
+WITHIN S (the unforced-but-unique-banked 07-01 law-set + phi-blind sources, Routes A/B robust),
+given the anchor Delta phi = ln(1101): the BC-class **"phi' = 0 at both ends"** (even-fold seal;
+open-end; glue-B==0) is INADMISSIBLE (no carrying profile; regular-center + even seal = no solution
+at all); **the canon/OC2 ODD fold (phi=0, phi' free) and generic glue ESCAPE.** Conjunction-scoped
+(indicts {BC-class ∧ S ∧ anchor} jointly). NO G18 pressure. Package:
+`udt_two_mirror_rigidity_regrade_2026-08-06/`. NEXT (Step 2, on Charles's go): the admissibility
+table for the SURVIVING closures — what profile-data classes do the odd fold and generic glue admit?

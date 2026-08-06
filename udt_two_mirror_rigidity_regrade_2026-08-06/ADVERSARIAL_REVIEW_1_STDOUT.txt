@@ -1,0 +1,30 @@
+PASS A1 flux identity == phi-EL
+PASS A2 banked phi''-form reproduced
+PASS A3 banked rho''-form reproduced
+PASS A4 phi-EL has no rho''
+PASS A5 RHS Z-free
+PASS A5 RHS = positive * square
+PASS B1 bare shift NON-invariance (difference != 0)
+PASS B2 phi-EL absorbs shift into Z -> Z e^{2c}
+PASS B3 rho-EOM (arbitrary source) absorbs with same Z-tilde
+PASS B4 flux rescales by e^{2c} > 0 (zeros/sign/monotonicity invariant)
+PASS B5 (psi+c)' == psi'
+PASS B5 Delta(psi+c) == Delta psi
+PASS C1 Phi=0 => phi'=0 (rho>0, Z!=0)
+PASS C2 Phi'=0 => rho'=0
+PASS C3 ln(1101) != 0
+PASS D1 Phi(center)=0
+PASS D2 Phi'(0) == 4 (independent of Z and phi0)
+PASS D3 shifted-chart center slope = 4 e^{2c} (positive, != 4 for c!=0)
+PASS E1 mixing term reduces to 4 rho rho' phi'
+PASS E2 general flux identity (Phi_gen)' = 2W e^{-2phi} rho'^2
+PASS E3 Route-B flux matches source Phi~
+PASS E4 full seal zeroes Phi_gen; phi'-only seal leaves M rho rho' (nonzero generically)
+PASS E5 Phi_gen with rho'=0 reduces to Z rho^2 phi'
+PASS E6 shift absorbs into (Z,M) -> e^{2c}(Z,M); ratio M/Z invariant (Route-B pin preserved)
+PASS F1 pi_phi == Z rho^2 phi' == Phi
+PASS F2 open-end natural BC == {phi'=0, rho'=0}
+PASS F3 odd-fold end flux q = Z rho_s^2 phi'_s — nonzero for generic phi'_s
+PASS F4 glue: B'==q/2 => (B==0 => q==0 => phi'_s==0)
+
+TOTAL: 28 checks, 0 failures

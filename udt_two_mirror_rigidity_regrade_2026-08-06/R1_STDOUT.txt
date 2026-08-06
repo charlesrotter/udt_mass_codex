@@ -1,0 +1,17 @@
+C1a phi-EOM matches banked form: True
+C1b rho-EOM (source-free part) matches banked form: True
+C2a Phi' contains rho''?: False (must be False)
+C2b Phi' == 4 e^{-2phi} rho'^2 on the phi-EOM: True
+C2c RHS manifestly >= 0 (square times positive exp): True by inspection; Z cancels: True
+C3a Phi=0, rho>0, Z!=0 => phi'=0: True
+C3b Phi'=0 => rho'=0: True
+C4 Delta phi == 0 (so != ln(1101) = 7.0039741...): True
+C5a Phi(0) at regular center: True
+C5b Phi'(0) = 4 exactly (independent of phi0, Z): True
+C5c contradiction chain: Phi(b)>0 vs Phi(b)=0 required by phi'(b)=0 -> no solution (exact)
+C6a mixing term == 4 rho rho' phi': True
+C6b Route-B flux == 8 rho^2 phi' + 4 rho rho': True
+C6c dL_B/dphi == 4 e^{-2phi} rho'^2: True
+C6d PhiB(seal: phi'=rho'=0) == 0: True
+C6e phi'-only seal leaves PhiB = 4 rho rho' (generically != 0): True
+C7 flipped EL sign => Phi' == -4 e^{-2phi} rho'^2 <= 0 (non-increasing; same squeeze): True
