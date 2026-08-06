@@ -93,3 +93,37 @@ response-first law will yield SOME profile; whether it is L (SNe-native), expone
 is that the z(z+2)=0.91 fit is an EMPIRICAL TEST the eventual law must face — not a shape the
 law should be built toward. If the derived law gives exponential and SNe wants linear, that is
 a real problem to be adjudicated by derivation + data, not by design. Nothing banks.
+
+## MODERATION (2026-08-05, prompted by Charles): the x_max kernel excludes the naturality-exponential
+
+Charles: "the profile is exponential — that's what leads to x_max/the asymptote — but at z<1 it
+is essentially linear and just starting to depart; a scale issue." Checked exactly; he is right,
+and my prior "naturality disfavors L/P-opt" gloss OVER-DEFLATED. Verified facts:
+
+1. **The x_max kernel EXCLUDES Review A's naturality-preferred exponential-A** (A=e^{-r/X}):
+   its max PROPER distance integral(1/sqrt(A)) diverges -> NO finite maximum separation ->
+   VIOLATES the owned x_max kernel (G14). The L profile (A=1-r/X) has FINITE proper distance to
+   x_max (= 2X) -> satisfies the kernel. So the null-affine-"natural" exponential that Review A
+   said disfavors L is itself KERNEL-INCOMPATIBLE. Once x_max (a more fundamental owned
+   commitment than a parametrization-naturality preference) is imposed, the naturality objection
+   to L collapses.
+2. **The L profile IS the "exponential" character Charles means** — not an exponential metric
+   function, but the exponentially-diverging REDSHIFT/DEPTH the linear A produces: 1+z=1/sqrt(1-u)
+   -> infinity and phi -> infinity as u->1 (the x_max asymptote), while at low z, z ~ u/2 (linear
+   Hubble). So L is "essentially linear at z<1, developing the x_max/redshift asymptote at high
+   z" exactly as described. The "scale issue" reading is correct.
+3. Caveat (kept honest, NOT retracted): OP-INDEPENDENT STILL HOLDS — the orchestra does not
+   derive P-opt. Within the KERNEL-COMPATIBLE finite-x_max family (L, and Review B's H=(X-r)/(X+r),
+   etc.), P-opt selects L. So "why L rather than another finite-x_max profile" is the residual
+   open question. But L is now aligned with BOTH the x_max kernel AND SNe, and is NOT
+   naturality-disfavored (the naturality pick was kernel-excluded). The distance-law check
+   confirms the exponential-A would fit SNe badly (offset-removed shape ratio E/L: 1.10 at z=0.1,
+   1.46 at z=0.5, 1.85 at z=1) — but that profile is kernel-excluded anyway, so no tension.
+
+**Net correction to the prior verdict:** strike "naturality mildly disfavors P-opt/L." Corrected:
+once the x_max kernel is imposed, the naturality-exponential is excluded, and L (SNe-fitting) is
+kernel-consistent. The honest residual is narrower and non-deflationary: P-opt is not
+orchestra-DERIVED, but it selects the SNe-and-kernel-consistent L within a small finite-x_max
+family. Discipline note: this MODERATION is owner-favorable; the integrals are elementary and
+verified, but the "kernel overrides naturality" synthesis is an interpretation and would benefit
+from its own adversarial pass before any bank. Nothing banks.
