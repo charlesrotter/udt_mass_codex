@@ -56,7 +56,12 @@ subgroup) level — no angular/screen structure is needed for it (VERDICT B, exa
   reciprocal lock as "the UDT departure from GR"; evidence now says the lock (product/absolute) is
   GR-shared gauge and the departure lives in the ratio-profile + the law. Candidate revision.
 
-## TABLED FOR FUTURE WORK (Charles 2026-08-06) — the angular MIXING channel
+## UN-TABLED 2026-08-06 -> ACTIVE LANE: `udt_mixing_channel_lane_2026-08-06/MAP_AND_PREREG.md`
+(Charles un-tabled the mixing channel as the next lane after C2/C3 grounded depth-blind — the
+depth-angular coupling is the distinguished remaining route to a native depth law. Original tabling
+note kept below for context.)
+
+## (was) TABLED FOR FUTURE WORK (Charles 2026-08-06) — the angular MIXING channel
 The screen-area angular parameter `a` is separable (never touches c_eff). BUT a DISTINCT angular
 channel — off-diagonal **clock->screen MIXING** in the strain — DOES change the timelike eigenvalue
 `lambda_t`, so it genuinely intertwines with c_eff/depth. It is currently UNEXERCISED and UNSELECTED.
