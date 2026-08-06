@@ -104,3 +104,49 @@ but its direction depends on the R-phi coupling and sign(phi); NOT claimed beyon
   supports Charles's hypothesis) — hunt for a frame/gauge choice that makes R^0_2 vanish, or
   a reason the identification with `a` fails.
 - Only then a scoped bank + LIVE pointer.
+
+## RETRACTION (2026-08-05): Step 2's OT-REFRAME conclusion is REFUTED
+
+Two independent same-session adversarial reviews (from different directions) both kill the
+Step-2 conclusion. Files: `ADVERSARIAL_REVIEW_1_gauge.md`, `ADVERSARIAL_REVIEW_2_faithfulness.md`.
+
+**Review 2 (faithfulness) = REFUTE, and it is decisive.** `delta_a(p,q) = log[N(p)/N(q)]
++ a log[R(q)/R(p)] = F(p) - F(q)` with `F = log(N/R^a)`. It is the coboundary of a SCALAR,
+so `d(delta_a-form) = 0` and its loop period is ZERO for EVERY `a`, stationary OR time-live.
+No holonomy can obstruct it; therefore no holonomy — including `R^0_2` — can cut `a`. The
+driver computed the curvature of the SEPARATE full-strain depth `delta_t` (the object the
+orchestra §4/§7 explicitly distinguishes from `delta_a`) and mis-attached it to `delta_a`'s
+`a`. Category error. Also: time-live the Killing norm is lost but the scalar clock norm
+`N = e^{-phi} = sqrt(-g_tt)` survives single-valued, so `log N = -phi` stays exact and `a`
+stays FREE. Correct model-scoped class: **OT-SURVIVE**.
+
+**Review 1 (gauge/math) = NARROW, and it independently confirms the algebra while killing
+the framing.** By an independent route (coordinate Christoffel -> Riemann -> frame, not
+Cartan) it reproduced `R^0_2|_{dxdy} = (R_t phi_x - R_x phi_t + R_tx)e^{phi}` EXACTLY. But
+`R^0_2` is a 2-form with more than the one component read: its `E0^E2` (depth-screen)
+component is nonzero STATIONARILY — the (t,y) sectional curvature `K = e^{-2phi}R_x phi_x/R`,
+a frame INVARIANT (not gaugeable). So "time-live only" (KEY FACTS 1-2) is FALSE as written;
+the screen contributes to `delta_t`'s depth holonomy stationarily too. `R^0_2` is real, not a
+gauge artifact — which is exactly why it cannot be the thing "time dissolves."
+
+**F-STEER CATCH (the cause, recorded for the next driver):** the driver pre-declared the
+OT-REFRAME "CURRENT LEAN" — the owner-pleasing direction (it supports Charles's hypothesis
+that `a` is a stationarity artifact) — and Step 2 then landed there via the wrong object AND
+one component of it. The primary preregistered falsifier (F-STEER) fired UNCAUGHT in the
+driver's own derivation; the adversarial reviews caught it. Textbook owner-pleasing steering.
+
+**CORRECTED OUTCOME (model-scoped): OT-SURVIVE.** `a` remains a free, unselected constant
+time-live — exactly the orchestra's already-banked position. **Time-live does NOT select `a`
+via exactness/holonomy; that mechanism is RULED OUT.** This is the probe's honest result: not
+a new constraint, but a robustly-refuted one — Charles's time-live hypothesis for `a` does
+not hold by this route.
+
+**Honest residual (a DIFFERENT question, NOT a rescue):** Review 1 establishes that the
+full-strain depth `delta_t` is genuinely path-dependent (real, non-gauge curvature, stationary
+and time-live). Whether the physical depth is `delta_t` (path-dependent) or `delta_a`
+(coboundary) is a legitimate open question — but it restores NO time-live-special constraint
+on `a`, and must not be used to revive the retracted claim.
+
+STATUS: Step 1 (the connection localization) stands as correct algebra. Step 2's conclusion is
+RETRACTED. Nothing here banks. The probe's contract (PREREGISTRATION) is closed at OT-SURVIVE,
+model-scoped, driver+2-adversarial-review, external review still owed for any bank.
