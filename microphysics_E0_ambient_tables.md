@@ -173,3 +173,10 @@ profiles — the zero comes from the closure, not from construction.
    ≈0.994–0.999 (argmax|ρ'| = 0.9969 in band). Cosmetic; seal-concentration stands.
 3. Scope note: the headline σ two-route agreement (1e-9–1e-8) is the MASKED near-seal region;
    unmasked interior agrees at FD-noise level (1e-5–7e-5) — nothing physical hidden.
+
+---
+**ANCHOR-VALUE STAMP (2026-08-06, canon C-2026-08-06-2):** numeric results in this document ride
+the anchor VALUE Delta phi = ln(1101), now demoted to the interpretation-conditional working number
+ln(T_emit/T_CMB) with T_emit ~ 3000 K under the CMB emission-surface reading (legacy-interpretation
+premise, not native). Structural/impossibility conclusions are value-independent; numeric tables
+are conditional on T_emit and re-parameterizable. See `udt_cmb_anchor_provenance_audit_2026-08-06/`.

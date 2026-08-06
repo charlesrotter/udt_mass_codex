@@ -123,3 +123,10 @@ Three rhymes, two mismatches, one currency:
    whether Z=8 is generically strained or this family is special.
 3. The aspect-ratio/χ observation (long-thin cell) connects to the banked G↔P switch invariant.
 4. OWED standing: Z=8/Route-B mixing-term tension; canon Δφ wording; relay to claude.ai.
+
+---
+**ANCHOR-VALUE STAMP (2026-08-06, canon C-2026-08-06-2):** numeric results in this document ride
+the anchor VALUE Delta phi = ln(1101), now demoted to the interpretation-conditional working number
+ln(T_emit/T_CMB) with T_emit ~ 3000 K under the CMB emission-surface reading (legacy-interpretation
+premise, not native). Structural/impossibility conclusions are value-independent; numeric tables
+are conditional on T_emit and re-parameterizable. See `udt_cmb_anchor_provenance_audit_2026-08-06/`.

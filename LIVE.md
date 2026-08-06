@@ -41,7 +41,19 @@
    family (#41/43/44/56/57/59/65): CONDITIONS-CHANGED-CANDIDATES, no blocking authority on the named
    argument until re-graded at point of use.
 
-**POSTURE: DELIBERATE STOP — no active lane (Charles's slow-strategy ruling; no flailing, no rabbit
+**UPDATE (2026-08-06, later): the GLOBAL CELL ASSEMBLY lane is ACTIVE** — MAP
+(`udt_global_cell_assembly_MAP_2026-08-06.md`, spine = closure<->profile interlock, Charles-
+confirmed) + Step 1 (two-mirror rigidity re-graded RG-DISCRIMINATOR-AMENDED; the "phi'=0 both ends"
+BC-class inadmissible within S; canon odd fold + generic glue ESCAPE) + Step 2 (S2-MIXED sustained:
+fold=CONSTRAINS-thin, glue=ADMITS-ALL-with-flip-rider, the SNe L-lead OUTSIDE the fold class /
+bulk-INSIDE glue) are COMPLETE with reviews; Q1 rows 1-3 banked to the map. ANCHOR RE-SCOPE
+(Charles-caught): all rows ride only "some Delta phi > 0"; the value ln(1101) quarantined ->
+provenance audit -> **canon C-2026-08-06-2 ruled** (form kept; value demoted to symbolic
+ln(T_emit/T_CMB), interpretation-conditional; 7 ladder-arc tables stamped). ON DESK: Step 3
+(closure/profile discrimination with the SNe L-lead and the CMB value graded as SEPARATE data) —
+Charles's go pending; the three-way tension {odd fold, L-profile, S} cannot all hold.
+
+**POSTURE (superseded 2026-08-06-later; kept for context): DELIBERATE STOP — no active lane (Charles's slow-strategy ruling; no flailing, no rabbit
 holes).** ON DESK for the next push, Charles to pick: (a) what closes the depth profile (free data +
 P-opt posit vs a not-yet-found closer; the forward gates P-opt/F01/F04 now carry a boundary-data/
 topology fork alongside the bulk/action fork); (b) the parked mu discreteness seed (does a compact

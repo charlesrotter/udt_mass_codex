@@ -327,3 +327,11 @@ riding an unsurfaced interpretation import.
 
 END OF REPORT (verifier pass owed before any canon action; this package is documentary and
 uncommitted per the audit charter).
+
+## OWNER PROVENANCE CORRECTION (Charles, 2026-08-06)
+
+Charles corrects the origination narrative: **the starlight-temperature anchor PREDATES the
+recycling picture and the Planck-blackbody interpretation** in his own idea history. T_starlight as
+an anchor is the older element; the recycling ontology and the CMB-as-blackbody reading came later.
+The report's framing "the T_starlight language belongs to the recycling picture" is therefore
+reversed in his history. Ruling executed same day: options (1)+(4) — see canon C-2026-08-06-2.

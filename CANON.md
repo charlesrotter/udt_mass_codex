@@ -573,3 +573,31 @@ a legitimate CHOSE domain). What is REWORDED is the READING of the product condi
 `udt_vary_phi_not_metric_probe_2026-08-06/` (null Lagrangian, 2 reviews), `udt_mixing_channel_lane_2026-08-06/`
 (+ BLIND_VERIFICATION_FINAL, mu scoped s != r), reconciliation map `udt_reconciliation_reframe_2026-08-06/RECONCILIATION_MAP.md`.
 **Ruled by Charles 2026-08-06 ("Reword the canon per the chart-scoped finding").**
+
+## C-2026-08-06-2 — The universe-cell anchor VALUE is demoted to an interpretation-conditional working number, written symbolically (rewording of C-2026-07-02-1; form kept; ruled by Charles)
+
+**Statement:** Per the provenance audit (`udt_cmb_anchor_provenance_audit_2026-08-06/`, Charles-
+directed) and Charles's ruling ("do 1 and 4"):
+1. **KEPT AS CANON:** the Delta-phi FORM of the anchor (the physical content is the DIFFERENCE
+   across the cell) and the fold-zero convention (phi(fold)=0) — both blind-verified, unchanged.
+2. **DEMOTED:** the VALUE. It is henceforth written SYMBOLICALLY as
+   `Delta phi_cell = ln(T_emit / T_CMB)`
+   with T_CMB = 2.725 K (measured) and **T_emit an INTERPRETATION-CONDITIONAL working number**
+   (~3000 K under the emission-surface reading of the CMB — the sole load-bearing import, a
+   LEGACY-INTERPRETATION premise, not native, not currently derived). "1101 exactly" and
+   "ln(1101) = 7.003974" are RETIRED as false exactness (the rounded ratio 1101 remains a
+   convenience approximation only, so-labeled).
+3. **PROVENANCE RECORDED (owner-corrected):** the anchor was AI-assembled (pre-repo legacy, D1
+   2026-03-07) from Charles's two thermometers; the static-frame redshift mapping is NATIVE
+   (1+z = e^{Delta phi}, Tolman scaling derived); NO Planck/LCDM fit enters. Owner correction
+   (Charles 2026-08-06): the starlight-temperature anchor PREDATES both the recycling picture and
+   the Planck-blackbody interpretation in his idea history. The value's provenance was not
+   separately surfaced at the original compound canonization — this entry cures that.
+4. **CONSUMERS:** seven 07-02→07-04 ladder-arc numeric tables are VALUE-RIDING and now carry an
+   ANCHOR-VALUE stamp (conditional on T_emit; re-parameterizable). All impossibility/existence
+   conclusions, SNe/Pantheon, and WR-L are value-independent (audit, confirmed). The native
+   derivation of T_emit (option 3, from the recycling ontology or otherwise) remains an OPEN,
+   unauthorized road, noted not ruled.
+
+**Provenance:** `udt_cmb_anchor_provenance_audit_2026-08-06/PROVENANCE_REPORT.md` (+ owner
+correction therein). **Ruled by Charles 2026-08-06 ("do 1 and 4").**

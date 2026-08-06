@@ -336,3 +336,10 @@ brute-force sign-assignment search); independent probe recomputation from the E0
 - **Ledger addendum (inherited premise, owed by §2):** the +2 angular integrand being physical
   is an inherited D1-verifier condition — canon E_m(core)=2 carries it, and K5's "−2" rides on
   the same term. Cosmetic bands: r* = 0.9480–0.9542; tax argmax ≈ 0.90.
+
+---
+**ANCHOR-VALUE STAMP (2026-08-06, canon C-2026-08-06-2):** numeric results in this document ride
+the anchor VALUE Delta phi = ln(1101), now demoted to the interpretation-conditional working number
+ln(T_emit/T_CMB) with T_emit ~ 3000 K under the CMB emission-surface reading (legacy-interpretation
+premise, not native). Structural/impossibility conclusions are value-independent; numeric tables
+are conditional on T_emit and re-parameterizable. See `udt_cmb_anchor_provenance_audit_2026-08-06/`.

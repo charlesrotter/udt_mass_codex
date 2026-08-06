@@ -82,3 +82,10 @@ mechanism DERIVED-IN-PART (A/B exact + C at O(ε)).
 | e^{Δφ}=1101 amplifier | **REFUTED**; corrected to e^{Δφ/2}=√1101 (F2-settled) |
 | Lemma D / A_seal≈0.092 | OPEN (dispatch owed) |
 | linearization status | hypothesis-development instrument (Taylor ruling); NEVER a stated nonlinear result |
+
+---
+**ANCHOR-VALUE STAMP (2026-08-06, canon C-2026-08-06-2):** numeric results in this document ride
+the anchor VALUE Delta phi = ln(1101), now demoted to the interpretation-conditional working number
+ln(T_emit/T_CMB) with T_emit ~ 3000 K under the CMB emission-surface reading (legacy-interpretation
+premise, not native). Structural/impossibility conclusions are value-independent; numeric tables
+are conditional on T_emit and re-parameterizable. See `udt_cmb_anchor_provenance_audit_2026-08-06/`.
