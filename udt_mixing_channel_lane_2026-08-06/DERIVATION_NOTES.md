@@ -127,3 +127,16 @@ theorem): there may be NO native bulk/relational law that pins the profile -- it
 (the SNe selector) is then a genuine independent posit, consistent with the 2026-08-05 P-opt findings.
 The one solid positive from this lane: mu, the invariant reciprocal-lock defect. Nothing banks;
 four-check N/A; major juncture for Charles.
+
+## FINAL BLIND VERIFICATION (2026-08-06): PASS with a SCOPE CARVE-OUT (see BLIND_VERIFICATION_FINAL.md)
+
+- **mu = reciprocal-lock defect: CONFIRMED generically, SCOPED s != r.** Assignment-free spectral
+  matching forces mu^2*(r-s)(r+s)/s^2 = 0: for s != r no diagonal reciprocal strain reproduces the
+  mu != 0 spectrum -> (r,s,mu) not over-parametrized; ordering-robust. **CARVE-OUT both prior
+  reviews missed:** on the locus s = r (with |mu| < |1/r - r|), mu IS pure gauge — exact witness
+  frame pair exhibited (r=s=1/2, mu=sqrt(7)/2). R1's "no O(1,2) frame pair removes mu" is FALSE on
+  that locus. The recorded invariant carries the **s != r scope** from now on.
+- **COUPLING-INERT: CONFIRMED, strengthened.** Rank-1 (o2 = C(phi)*l(k)^2) proven SYMBOLICALLY for
+  every generic profile (all 2x2 Hessian minors vanish identically); closure is k-only; k=0 closes
+  for all phi. Identity, not instance luck.
+- Doc nit: line-27 factored-charpoly constant term should be s^2/r^2 (no downstream effect).
