@@ -142,6 +142,17 @@ MAP + Charles's go; NOT in any validator; M2/M3 must not import it.
 4. **M4 — the M_total translation + a consilience note (labeled as riding the dimensional lead).**
 X-BAO-ORIGIN (§3) is NOT on this menu; it gets its own map only on your explicit go.
 
+**CANDIDATE FUTURE LEG (recorded 2026-08-07 on Charles's question "would higher-z JWST data
+help?"; NOT on the M2/M3 menu — F-SHOP; own MAP + go required): V-ANGSIZE, the JWST angular-size
+floor test.** Rides the banked O2/O3 cell d_A = r -> R_w FINITE at the wall (class i): objects of
+fixed proper size STOP SHRINKING on the sky as z grows (floor angle ~ size/R_w), monotone
+theta(z) decline to a floor — qualitatively distinct from LCDM's d_A turnover. JWST high-z
+angular sizes are the natural probe; the honest blocker is the RULER premise (galaxy intrinsic
+size evolution is a severe systematic; would need its own tagged premise, the sibling rigor of
+P-STATIC-RULER). Blending sparse JWST high-z SNe into V-SNe was considered and declined (tiny N,
+contaminated standardization layer, mid-stream freeze violation; DESI QSO shells already carry
+the high-z shape discrimination). Direction, not evidence; nothing in M2/M3 depends on this.
+
 ## 7. Falsifiers
 
 - **F-IMPORT-LCDM (primary):** any acoustic/r_d/comoving/fiducial/template/reconstruction leakage
