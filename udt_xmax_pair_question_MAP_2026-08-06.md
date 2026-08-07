@@ -169,3 +169,22 @@ every branch reported, Charles free to adopt any row afterward without friction 
 architecture, not just a guard). O3 GO given in the same message. Frozen contract:
 `udt_xmax_O3_approach_classes_2026-08-07/PREREGISTRATION.md` (D1 selection map / D2
 approach-profile classes / D3 cross-branch structure; F-LAWHUNT primary).
+
+## O3 RESULT (2026-08-07): O3-MAP, verified lead (2 reviews, amendments applied)
+
+X3 answered: `udt_xmax_O3_approach_classes_2026-08-07/` (CONSOLIDATED). D1 (selection map): the
+shortlist splits into DISTANCE-role rows (S1/S2/S3/S7 + the single genuine S4 member) that can
+carry "x_max finite" vs RAPIDITY-role rows (S5/S6/S8/S9b) where the posit is unsatisfiable —
+per-branch modus tollens, the CP1 asymptote reading available; surviving n-windows are
+branch-graded (S2: n<1 strictest; S1: n<2; S3/S7: all n; class-(iii) cells wall-local). The
+anti-blanket cell: S4 x (ii') alpha=2 puts an INFINITE-chart-radius wall at finite monotone
+separation X with exact kappa=1 — itself a knife-edge, not class-stable (same license-style tag
+as n=1). D2 (approach class): across finite branches delta = kappa·ln(1/sigma) + const (1+z
+power-law in remaining separation), kappa table: areal n/2, proper n/(2-n), optical n/(2(1-n)),
+infall n/2; reciprocal-kappa spacing exactly 1 (n-free arithmetic progression); edge/essential
+members escape UPWARD only, to power-law depth. D3 (lattice): the joint-demand chain S2 => S1 =>
+S3==S7 (S3/S7 fully degenerate — the worldline posit buys nothing) plus the isolated S4 atom;
+n=1 branch-graded (survives S1/S3/S7, dies on S2's knife edge) with the O2 license verbatim.
+Row grade O3-OBSTRUCTED(S9a) inside the O3-MAP landing. STRUCTURE LANE (X1-X3) COMPLETE as
+verified leads. NEXT: the scale lane M2 (observational validator build) per the CP1 ruling; any
+branch adoption remains Charles's open choice (CP2 no-pin standing).

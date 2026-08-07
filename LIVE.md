@@ -4,7 +4,7 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-06).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
-## ============ CURRENT STATE (2026-08-06 — RESTART ANCHOR: frontier = phi+orchestra -> c_eff -> mu(deferred); x_max PAIR-QUESTION MAP on desk, O1 next; assembly ARCHIVED-LEGACY) ============
+## ============ CURRENT STATE (2026-08-07 — frontier = phi+orchestra -> c_eff -> mu(deferred); x_max STRUCTURE LANE O1-O3 COMPLETE (verified leads); NEXT = scale lane M2 on Charles's go; assembly ARCHIVED-LEGACY) ============
 
 **RESTART ANCHOR (Charles requested a clean handoff 2026-08-06). Read THIS block, then
 `udt_xmax_pair_question_MAP_2026-08-06.md`, then the resume path at the end.**
@@ -69,11 +69,30 @@ fiducial/template/reconstruction). Owner hypothesis recorded (BAO as possible ph
 manifestation) — SEPARATED from the validator, own gate. Implied M_total range via the dimensional
 lead. CP RULINGS IN (2026-08-07): CP1 = profile menu comes from the pair lane's O2/O3 (STRUCTURE LANE
 = CRITICAL PATH; M2/M3 wait on it); CP2 yes (split stands); CP4 yes (candle anchor accepted);
-CP5 yes (astroquery OK, ~100 GiB budget, DESI DR1 on disk at /media/udt-admin/ScratchDisk/Data/
-desi_dr1) -> M1 (data recon, inventory-first, no bulk downloads) is GO and running.
+CP5 yes (astroquery OK, budget amended to 500 GiB on the scratch disk, DESI DR1 on disk at
+/media/udt-admin/ScratchDisk/Data/desi_dr1) -> M1 (data recon) COMPLETE: BAO leg VIABLE-NATIVELY on
+the on-disk DESI DR1 pre-recon catalogs; Pantheon+ m_b_corr/zHD contamination catch flagged for M2.
 
-**RESUME PATH:** this block -> `udt_xmax_pair_question_MAP_2026-08-06.md` -> the c_eff integration doc
--> CANON.md (C-2026-08-06-1/-2) -> O1 on Charles's go. Then AGENTS.md sync sequence as usual.
+**STRUCTURE LANE (O1-O3) COMPLETE (2026-08-07) — all three verified leads (2 reviews each;
+same-session; external bar travels):** O1 (the gamma-asymptote: wall = ideal-point family,
+unreachable by finite chains; super-additive composition; depth-only budget unprotective) ->
+O2 (the separation-measure table; inclusion hierarchy; full budget protective; d_A -> R_w finite) ->
+O3 (`udt_xmax_O3_approach_classes_2026-08-07/` CONSOLIDATED): the CONDITIONAL SELECTION MAP under
+Charles's **CP2 NO-PIN ruling** (shortlist rides conditionally; adoption stays his open choice).
+Headlines: distance-role rows (proper/optical/areal/infall + one knife-edge S4 member) can carry
+"x_max finite" vs rapidity-role rows (d_L/z/full-budget) where the posit is unsatisfiable —
+per-branch modus tollens; the finiteness posit excludes infinite-chart-radius walls on S1/S2/S7
+(profile-general) but NOT blanketly (the S4 alpha=2 atom); approach class across finite branches =
+delta = kappa*ln(1/sigma_remaining) + const, kappa table {areal n/2, proper n/(2-n), optical
+n/(2(1-n)), infall n/2}, reciprocal-kappa spacing exactly 1; n=1 (P-opt member) survives S1/S3/S7,
+dies on S2 — O2 license attached; F-LAWHUNT held (no n selected, no law). Row grade
+O3-OBSTRUCTED(S9a) inside O3-MAP.
+
+**RESUME PATH:** this block -> `udt_xmax_pair_question_MAP_2026-08-06.md` (O1/O2/O3 RESULT sections)
+-> `udt_xmax_scale_observational_MAP_2026-08-07.md` -> CANON.md (C-2026-08-06-1/-2). NEXT = the
+scale lane M2 (preregistered validator build: V-SNe with the deliberate m_b_corr/zHD column choice;
+V-BAO observable-space matcher on the DESI catalogs), gated on Charles's go per lane discipline.
+Then AGENTS.md sync sequence as usual.
 
 ## PRIOR STATE — moved below startup (2026-08-06)
 
