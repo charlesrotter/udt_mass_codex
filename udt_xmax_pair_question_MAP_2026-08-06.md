@@ -131,3 +131,17 @@ composition) comes from the orchestra cocycle and is SCALE-FREE -> O1 pursues it
 scale-free. SCALE (~G*M_total/c^2) rides the finite-mass-energy kernel posit -> tracked SEPARATELY
 as a dimensional lead, NOT hunted inside O1. Both catch-points now resolved; O1 is unblocked on
 Charles's go.
+
+
+## O1 RESULT (2026-08-07): O1-CONDITIONAL, verified lead (2 reviews, amendments applied)
+
+X1 answered: the wall = a FAMILY of ideal boundary points (not a member of the comparison space;
+rank-1 generic, causal labeling survives; the reciprocal tie closes the singular face ON-lock).
+The asymptote: NO FINITE CHAIN attains the wall (within the invertible typing — typing = CHOSE,
+carried honestly); BOTH extremes by reversal. SR parallel: FORM survives, BUDGET died — composition
+is super-additive under any non-compact twist (partition theorem: additive iff the twist stabilizes
+the timelike eigenline; parabolic n^4 tile), and an INFINITE summable-depth chain DOES accumulate
+to the wall (no budget protection; finite chain LENGTH is the load-bearing quantifier). Q3: the
+mu-direction is wall-protective. Anti-hunch datum (scoped): pure angular rotation composes
+additively at this layer. Package: `udt_xmax_O1_asymptote_2026-08-07/`. NEXT: O2 (the native
+separation-measure table) on Charles's go.
