@@ -1,0 +1,603 @@
+{
+ "prereg_commit": "523f4aca",
+ "anchor": {
+  "M_B": -19.253,
+  "err": 0.027
+ },
+ "fits": {
+  "A:zCMB:P1": {
+   "mode": "A",
+   "profile": "P1",
+   "chi2": 1260.8480887040496,
+   "n_data": 1367,
+   "ndof": 1365,
+   "offset_B": 22.343528501617104,
+   "shape_name": "inv_n",
+   "shape": 0.9470295666076658,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "shape_interval": {
+    "lo": 0.9283830965434827,
+    "lo_open": false,
+    "hi": 0.9657533560562794,
+    "hi_open": false,
+    "best": 0.9470295666076658
+   },
+   "frozen_param_n": {
+    "best": 1.0559332414320268,
+    "lo": 1.0354610664606636,
+    "hi": 1.0771415418087191,
+    "lo_open": false,
+    "hi_open": false
+   },
+   "offset_interval": {
+    "lo": 22.335431693688726,
+    "lo_open": false,
+    "hi": 22.351634184849296,
+    "hi_open": false,
+    "best": 22.343528501617104
+   },
+   "premise": "mode A: shape-only, anchor-free; m_b_corr BBC-bias-corrected (LCDM-adjacent layer; caveat carried, quantified by |C-A| at M3)"
+  },
+  "A:zCMB:P2": {
+   "mode": "A",
+   "profile": "P2",
+   "chi2": 4412.169138237834,
+   "n_data": 1367,
+   "ndof": 1366,
+   "offset_B": 21.976869261890755,
+   "shape_name": null,
+   "shape": null,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "offset_interval": {
+    "lo": 21.97252942061829,
+    "lo_open": false,
+    "hi": 21.981209103163216,
+    "hi_open": false,
+    "best": 21.976869261890755
+   },
+   "premise": "mode A: shape-only, anchor-free; m_b_corr BBC-bias-corrected (LCDM-adjacent layer; caveat carried, quantified by |C-A| at M3)"
+  },
+  "A:zCMB:P3": {
+   "mode": "A",
+   "profile": "P3",
+   "chi2": 4412.901901327074,
+   "n_data": 1367,
+   "ndof": 1365,
+   "offset_B": 21.976828407957605,
+   "shape_name": "inv_alpha",
+   "shape": 0.0001,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "shape_interval": {
+    "lo": 0.0001,
+    "lo_open": true,
+    "hi": 0.00023644779184876232,
+    "hi_open": false,
+    "best": 0.0001
+   },
+   "frozen_param_alpha": {
+    "best": 10000.0,
+    "lo": 4229.263433509347,
+    "hi": 10000.0,
+    "lo_open": false,
+    "hi_open": true
+   },
+   "offset_interval": {
+    "lo": 21.972488566678788,
+    "lo_open": false,
+    "hi": 21.981168249236415,
+    "hi_open": false,
+    "best": 21.976828407957605
+   },
+   "premise": "mode A: shape-only, anchor-free; m_b_corr BBC-bias-corrected (LCDM-adjacent layer; caveat carried, quantified by |C-A| at M3)"
+  },
+  "B:zCMB:P1": {
+   "mode": "B",
+   "profile": "P1",
+   "chi2": 1260.8480887040496,
+   "n_data": 1367,
+   "ndof": 1365,
+   "offset_B": 22.343528501617104,
+   "shape_name": "inv_n",
+   "shape": 0.9470295666076658,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "shape_interval": {
+    "lo": 0.9283830965434827,
+    "lo_open": false,
+    "hi": 0.9657533560562794,
+    "hi_open": false,
+    "best": 0.9470295666076658
+   },
+   "frozen_param_n": {
+    "best": 1.0559332414320268,
+    "lo": 1.0354610664606636,
+    "hi": 1.0771415418087191,
+    "lo_open": false,
+    "hi_open": false
+   },
+   "offset_interval": {
+    "lo": 22.335431693688726,
+    "lo_open": false,
+    "hi": 22.351634184849296,
+    "hi_open": false,
+    "best": 22.343528501617104
+   },
+   "premise": "mode B: EXTERNAL anchor M_B (premise travels: F-ANCHOR/CP4); M_B = -19.253 +/- 0.027 (every absolute number below is conditional on this anchor chain)",
+   "X_eff_Mpc": {
+    "best": 2085.9586748597476,
+    "lo": 2059.055810200218,
+    "hi": 2113.215524666156,
+    "lo_open": false,
+    "hi_open": false
+   },
+   "R_w_Mpc_at_best_n": {
+    "value": 2202.6331050379085,
+    "note": "R_w = n*X_eff at BEST-FIT n only; honest reporting quotes the (X_eff, n) pair with covariance (F-SCOPE), not marginal R_w"
+   }
+  },
+  "B:zCMB:P2": {
+   "mode": "B",
+   "profile": "P2",
+   "chi2": 4412.169138237834,
+   "n_data": 1367,
+   "ndof": 1366,
+   "offset_B": 21.976869261890755,
+   "shape_name": null,
+   "shape": null,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "offset_interval": {
+    "lo": 21.97252942061829,
+    "lo_open": false,
+    "hi": 21.981209103163216,
+    "hi_open": false,
+    "best": 21.976869261890755
+   },
+   "premise": "mode B: EXTERNAL anchor M_B (premise travels: F-ANCHOR/CP4); M_B = -19.253 +/- 0.027 (every absolute number below is conditional on this anchor chain)",
+   "X_eff_Mpc": {
+    "best": 1761.8699660942398,
+    "lo": 1739.8208888677377,
+    "hi": 1784.198475421857,
+    "lo_open": false,
+    "hi_open": false
+   }
+  },
+  "B:zCMB:P3": {
+   "mode": "B",
+   "profile": "P3",
+   "chi2": 4412.901901327074,
+   "n_data": 1367,
+   "ndof": 1365,
+   "offset_B": 21.976828407957605,
+   "shape_name": "inv_alpha",
+   "shape": 0.0001,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "shape_interval": {
+    "lo": 0.0001,
+    "lo_open": true,
+    "hi": 0.00023644779184876232,
+    "hi_open": false,
+    "best": 0.0001
+   },
+   "frozen_param_alpha": {
+    "best": 10000.0,
+    "lo": 4229.263433509347,
+    "hi": 10000.0,
+    "lo_open": false,
+    "hi_open": true
+   },
+   "offset_interval": {
+    "lo": 21.972488566678788,
+    "lo_open": false,
+    "hi": 21.981168249236415,
+    "hi_open": false,
+    "best": 21.976828407957605
+   },
+   "premise": "mode B: EXTERNAL anchor M_B (premise travels: F-ANCHOR/CP4); M_B = -19.253 +/- 0.027 (every absolute number below is conditional on this anchor chain)",
+   "X_eff_Mpc": {
+    "best": 1761.836818705217,
+    "lo": 1739.7881563038316,
+    "hi": 1784.1649079505712,
+    "lo_open": false,
+    "hi_open": false
+   },
+   "X_Mpc_at_best_alpha": {
+    "value": 17618368.187052168,
+    "note": "X = alpha*X_eff at best-fit alpha only; quote the pair (F-SCOPE)"
+   }
+  },
+  "C:zCMB:P1": {
+   "mode": "C",
+   "profile": "P1",
+   "chi2": 2281.474528529422,
+   "n_data": 1367,
+   "ndof": 1363,
+   "alpha": 0.13100742788295783,
+   "beta": 2.676481463301143,
+   "M0": 22.382720606026403,
+   "shape_name": "inv_n",
+   "shape": 0.9426452288556275,
+   "sigma_iters": 3,
+   "premise": "mode C: own Tripp standardization, diagonal errors sigma^2 = mBERR^2 + alpha^2 x1ERR^2 + beta^2 cERR^2; no BBC; sigma-frozen fixed-point iteration (deterministic)",
+   "shape_interval": {
+    "lo": 0.9317207407748545,
+    "lo_open": false,
+    "hi": 0.9535924987207733,
+    "hi_open": false,
+    "best": 0.9426452288556275
+   },
+   "alpha_interval": {
+    "lo": 0.12778925420196194,
+    "lo_open": false,
+    "hi": 0.1342257242774525,
+    "hi_open": false,
+    "best": 0.13100742788295783
+   },
+   "beta_interval": {
+    "lo": 2.639609044156632,
+    "lo_open": false,
+    "hi": 2.713352540252533,
+    "hi_open": false,
+    "best": 2.676481463301143
+   }
+  },
+  "C:zCMB:P2": {
+   "mode": "C",
+   "profile": "P2",
+   "chi2": 8183.6185409482705,
+   "n_data": 1367,
+   "ndof": 1364,
+   "alpha": 0.1700790477989224,
+   "beta": 3.1588129168526486,
+   "M0": 22.039614562266316,
+   "shape_name": null,
+   "shape": null,
+   "sigma_iters": 3,
+   "premise": "mode C: own Tripp standardization, diagonal errors sigma^2 = mBERR^2 + alpha^2 x1ERR^2 + beta^2 cERR^2; no BBC; sigma-frozen fixed-point iteration (deterministic)",
+   "alpha_interval": {
+    "lo": 0.16637720132105324,
+    "lo_open": false,
+    "hi": 0.17378087408138873,
+    "hi_open": false,
+    "best": 0.1700790477989224
+   },
+   "beta_interval": {
+    "lo": 3.1164711762872086,
+    "lo_open": false,
+    "hi": 3.2011550681778105,
+    "hi_open": false,
+    "best": 3.1588129168526486
+   }
+  },
+  "C:zCMB:P3": {
+   "mode": "C",
+   "profile": "P3",
+   "chi2": 8184.850308990849,
+   "n_data": 1367,
+   "ndof": 1363,
+   "alpha": 0.1700834291747758,
+   "beta": 3.158867240129574,
+   "M0": 22.039576854901764,
+   "shape_name": "inv_alpha",
+   "shape": 0.0001,
+   "sigma_iters": 3,
+   "premise": "mode C: own Tripp standardization, diagonal errors sigma^2 = mBERR^2 + alpha^2 x1ERR^2 + beta^2 cERR^2; no BBC; sigma-frozen fixed-point iteration (deterministic)",
+   "shape_interval": {
+    "lo": 0.0001,
+    "lo_open": true,
+    "hi": 0.0001667588301065038,
+    "hi_open": false,
+    "best": 0.0001
+   },
+   "alpha_interval": {
+    "lo": 0.1663815381152721,
+    "lo_open": false,
+    "hi": 0.17378532768449498,
+    "hi_open": false,
+    "best": 0.1700834291747758
+   },
+   "beta_interval": {
+    "lo": 3.1165248979329023,
+    "lo_open": false,
+    "hi": 3.201210120504911,
+    "hi_open": false,
+    "best": 3.158867240129574
+   }
+  },
+  "D:zCMB:P1": {
+   "mode": "D",
+   "profile": "P1",
+   "chi2": 1260.8480887040496,
+   "n_data": 1367,
+   "ndof": 1365,
+   "offset_B": 22.343528501617104,
+   "shape_name": "inv_n",
+   "shape": 0.9470295666076658,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "shape_interval": {
+    "lo": 0.9283830965434827,
+    "lo_open": false,
+    "hi": 0.9657533560562794,
+    "hi_open": false,
+    "best": 0.9470295666076658
+   },
+   "frozen_param_n": {
+    "best": 1.0559332414320268,
+    "lo": 1.0354610664606636,
+    "hi": 1.0771415418087191,
+    "lo_open": false,
+    "hi_open": false
+   },
+   "offset_interval": {
+    "lo": 22.335431693688726,
+    "lo_open": false,
+    "hi": 22.351634184849296,
+    "hi_open": false,
+    "best": 22.343528501617104
+   },
+   "premise": "mode D: redshift column = zCMB (swap test)"
+  },
+  "D:zCMB:P2": {
+   "mode": "D",
+   "profile": "P2",
+   "chi2": 4412.169138237834,
+   "n_data": 1367,
+   "ndof": 1366,
+   "offset_B": 21.976869261890755,
+   "shape_name": null,
+   "shape": null,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "offset_interval": {
+    "lo": 21.97252942061829,
+    "lo_open": false,
+    "hi": 21.981209103163216,
+    "hi_open": false,
+    "best": 21.976869261890755
+   },
+   "premise": "mode D: redshift column = zCMB (swap test)"
+  },
+  "D:zCMB:P3": {
+   "mode": "D",
+   "profile": "P3",
+   "chi2": 4412.901901327074,
+   "n_data": 1367,
+   "ndof": 1365,
+   "offset_B": 21.976828407957605,
+   "shape_name": "inv_alpha",
+   "shape": 0.0001,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "shape_interval": {
+    "lo": 0.0001,
+    "lo_open": true,
+    "hi": 0.00023644779184876232,
+    "hi_open": false,
+    "best": 0.0001
+   },
+   "frozen_param_alpha": {
+    "best": 10000.0,
+    "lo": 4229.263433509347,
+    "hi": 10000.0,
+    "lo_open": false,
+    "hi_open": true
+   },
+   "offset_interval": {
+    "lo": 21.972488566678788,
+    "lo_open": false,
+    "hi": 21.981168249236415,
+    "hi_open": false,
+    "best": 21.976828407957605
+   },
+   "premise": "mode D: redshift column = zCMB (swap test)"
+  },
+  "D:zHD:P1": {
+   "mode": "D",
+   "profile": "P1",
+   "chi2": 1246.5892264470458,
+   "n_data": 1371,
+   "ndof": 1369,
+   "offset_B": 22.328330200571724,
+   "shape_name": "inv_n",
+   "shape": 0.9272079586981833,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "shape_interval": {
+    "lo": 0.9086968491164178,
+    "lo_open": false,
+    "hi": 0.9457941896486964,
+    "hi_open": false,
+    "best": 0.9272079586981833
+   },
+   "frozen_param_n": {
+    "best": 1.0785067045843935,
+    "lo": 1.0573124797599334,
+    "hi": 1.1004770193407867,
+    "lo_open": false,
+    "hi_open": false
+   },
+   "offset_interval": {
+    "lo": 22.320282909539785,
+    "lo_open": false,
+    "hi": 22.336386391571494,
+    "hi_open": false,
+    "best": 22.328330200571724
+   },
+   "premise": "mode D: redshift column = zHD (swap test)"
+  },
+  "D:zHD:P2": {
+   "mode": "D",
+   "profile": "P2",
+   "chi2": 4296.689341366291,
+   "n_data": 1371,
+   "ndof": 1370,
+   "offset_B": 21.969855044705913,
+   "shape_name": null,
+   "shape": null,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "offset_interval": {
+    "lo": 21.965527653948634,
+    "lo_open": false,
+    "hi": 21.97418243546319,
+    "hi_open": false,
+    "best": 21.969855044705913
+   },
+   "premise": "mode D: redshift column = zHD (swap test)"
+  },
+  "D:zHD:P3": {
+   "mode": "D",
+   "profile": "P3",
+   "chi2": 4297.412094518542,
+   "n_data": 1371,
+   "ndof": 1369,
+   "offset_B": 21.9698142961383,
+   "shape_name": "inv_alpha",
+   "shape": 0.0001,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "shape_interval": {
+    "lo": 0.0001,
+    "lo_open": true,
+    "hi": 0.00023833702160233294,
+    "hi_open": false,
+    "best": 0.0001
+   },
+   "frozen_param_alpha": {
+    "best": 10000.0,
+    "lo": 4195.73926567106,
+    "hi": 10000.0,
+    "lo_open": false,
+    "hi_open": true
+   },
+   "offset_interval": {
+    "lo": 21.96548690538121,
+    "lo_open": false,
+    "hi": 21.974141686895383,
+    "hi_open": false,
+    "best": 21.9698142961383
+   },
+   "premise": "mode D: redshift column = zHD (swap test)"
+  },
+  "D:zHEL:P1": {
+   "mode": "D",
+   "profile": "P1",
+   "chi2": 1258.1794841848314,
+   "n_data": 1364,
+   "ndof": 1362,
+   "offset_B": 22.340293414390306,
+   "shape_name": "inv_n",
+   "shape": 0.9468253612518177,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "shape_interval": {
+    "lo": 0.9281475832057556,
+    "lo_open": false,
+    "hi": 0.9655775240452849,
+    "hi_open": false,
+    "best": 0.9468253612518177
+   },
+   "frozen_param_n": {
+    "best": 1.056160978491196,
+    "lo": 1.0356496242896192,
+    "hi": 1.0774148617034278,
+    "lo_open": false,
+    "hi_open": false
+   },
+   "offset_interval": {
+    "lo": 22.332160455053444,
+    "lo_open": false,
+    "hi": 22.348434556038036,
+    "hi_open": false,
+    "best": 22.340293414390306
+   },
+   "premise": "mode D: redshift column = zHEL (swap test)"
+  },
+  "D:zHEL:P2": {
+   "mode": "D",
+   "profile": "P2",
+   "chi2": 4399.3487113155425,
+   "n_data": 1364,
+   "ndof": 1363,
+   "offset_B": 21.972126774318248,
+   "shape_name": null,
+   "shape": null,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "offset_interval": {
+    "lo": 21.96778341087536,
+    "lo_open": false,
+    "hi": 21.976470137761126,
+    "hi_open": false,
+    "best": 21.972126774318248
+   },
+   "premise": "mode D: redshift column = zHEL (swap test)"
+  },
+  "D:zHEL:P3": {
+   "mode": "D",
+   "profile": "P3",
+   "chi2": 4400.079394493252,
+   "n_data": 1364,
+   "ndof": 1362,
+   "offset_B": 21.9720857420452,
+   "shape_name": "inv_alpha",
+   "shape": 0.0001,
+   "note_scale": "X_eff is degenerate with the free offset B in anchor-free modes (D1 SS2 item 1); identified only via mode B's anchor.",
+   "shape_interval": {
+    "lo": 0.0001,
+    "lo_open": true,
+    "hi": 0.00023683615230295105,
+    "hi_open": false,
+    "best": 0.0001
+   },
+   "frozen_param_alpha": {
+    "best": 10000.0,
+    "lo": 4222.328349266717,
+    "hi": 10000.0,
+    "lo_open": false,
+    "hi_open": true
+   },
+   "offset_interval": {
+    "lo": 21.967742378548003,
+    "lo_open": false,
+    "hi": 21.976429105542405,
+    "hi_open": false,
+    "best": 21.9720857420452
+   },
+   "premise": "mode D: redshift column = zHEL (swap test)"
+  }
+ },
+ "headline_shifts": {
+  "C_minus_A_shape": {
+   "P1": {
+    "A": 0.9470295666076658,
+    "C": 0.9426452288556275,
+    "abs_shift": 0.004384337752038281,
+    "note": "quantified BBC-contamination estimate (prereg SS3); also the point-of-use note on the banked 0.91"
+   },
+   "P3": {
+    "A": 0.0001,
+    "C": 0.0001,
+    "abs_shift": 0.0,
+    "note": "quantified BBC-contamination estimate (prereg SS3); also the point-of-use note on the banked 0.91"
+   }
+  },
+  "D_shifts_shape": {
+   "P1": {
+    "zHD": {
+     "zCMB": 0.9470295666076658,
+     "zHD": 0.9272079586981833,
+     "abs_shift": 0.019821607909482508
+    },
+    "zHEL": {
+     "zCMB": 0.9470295666076658,
+     "zHEL": 0.9468253612518177,
+     "abs_shift": 0.00020420535584808608
+    }
+   },
+   "P3": {
+    "zHD": {
+     "zCMB": 0.0001,
+     "zHD": 0.0001,
+     "abs_shift": 0.0
+    },
+    "zHEL": {
+     "zCMB": 0.0001,
+     "zHEL": 0.0001,
+     "abs_shift": 0.0
+    }
+   }
+  }
+ }
+}
