@@ -155,3 +155,6 @@ X-BAO-ORIGIN (§3) is NOT on this menu; it gets its own map only on your explici
   already on disk at `/media/udt-admin/ScratchDisk/Data/desi_dr1`. M1 is GO: inventory-first
   (the on-disk DESI DR1, then the wider product landscape), audit processing chains against the
   forbidden-import list; NO bulk downloads at recon stage (metadata/small catalogs only).
+
+**CP5 AMENDMENT (Charles, 2026-08-07):** disk budget raised to ~500 GiB IF NECESSARY, using the
+scratch disk (`/media/udt-admin/ScratchDisk`, 3.4 TB free) as the storage location for acquired data.
