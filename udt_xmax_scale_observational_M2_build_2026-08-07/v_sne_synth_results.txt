@@ -1,0 +1,36 @@
+V-SNe SYNTHETIC GATE (M2) -- deterministic; frozen truths/seeds in-file.
+M2_GUARD=True (must be True at M2)
+
+== Mode A-analog (+B translation) on real z (N=1367) + real STAT+SYS cov noise ==
+profile truth(X_eff,shape) | shape fit / interval / grade | B fit / interval / grade | X_eff(modeB) fit / interval / grade
+P1 (2600, 0.08): shape 0.08086 [0.06524, 0.09652] PASS | B 23.0781 [23.07, 23.09] PASS | X_eff 2603.8 [2595, 2613] PASS | chi2/ndof 0.938
+P1 (2200, 0.6): shape 0.5944 [0.577, 0.6119] PASS | B 22.7126 [22.7, 22.72] PASS | X_eff 2200.5 [2192, 2209] PASS | chi2/ndof 1.004
+P1 (1800, 1.8): shape 1.823 [1.801, 1.846] PASS-3sig | B 22.2883 [22.28, 22.3] PASS-3sig | X_eff 1809.9 [1803, 1817] PASS-3sig | chi2/ndof 0.983
+P2 (1500, --): shape -- (no shape param) | B 21.8810 [21.88, 21.89] PASS | X_eff 1500.3 [1497, 1503] PASS | chi2/ndof 0.956
+P2 (2200, --): shape -- (no shape param) | B 22.7108 [22.71, 22.72] PASS | X_eff 2198.7 [2194, 2203] PASS | chi2/ndof 0.971
+P2 (3000, --): shape -- (no shape param) | B 23.3829 [23.38, 23.39] PASS | X_eff 2996.3 [2990, 3002] PASS | chi2/ndof 1.017
+P3 (1800, 0.12): shape 0.1133 [0.09824, 0.1283] PASS | B 22.2724 [22.26, 22.28] PASS | X_eff 1796.7 [1790, 1803] PASS | chi2/ndof 0.971
+P3 (2200, 0.7): shape 0.6812 [0.6677, 0.6948] PASS-3sig | B 22.7165 [22.71, 22.72] PASS | X_eff 2204.5 [2197, 2212] PASS | chi2/ndof 1.046
+P3 (2600, 1.6): shape 1.603 [1.591, 1.614] PASS | B 23.0814 [23.07, 23.09] PASS | X_eff 2607.8 [2599, 2616] PASS | chi2/ndof 0.976
+
+== Mode C-analog on real z (N=1367) + real error columns; Tripp truth alpha=0.14, beta=3.0 ==
+profile truth(X_eff,shape) | shape fit/interval/grade | alpha | beta
+P1 (2600, 0.08): shape 0.09144 [0.08146, 0.1014] PASS-3sig | alpha 0.1376 [0.1344, 0.1409] PASS | beta 2.962 [2.931, 2.994] PASS-3sig | chi2/ndof 1.041 | sig-iters 2
+P1 (2200, 0.6): shape 0.5946 [0.5835, 0.6057] PASS | alpha 0.1426 [0.1395, 0.1458] PASS | beta 3.011 [2.979, 3.043] PASS | chi2/ndof 0.925 | sig-iters 2
+P1 (1800, 1.8): shape 1.814 [1.801, 1.828] PASS-3sig | alpha 0.1378 [0.1346, 0.1409] PASS | beta 3.008 [2.975, 3.04] PASS | chi2/ndof 0.952 | sig-iters 2
+P2 (1500, --): shape -- | alpha 0.1394 [0.1362, 0.1427] PASS | beta 2.982 [2.95, 3.015] PASS | chi2/ndof 1.052 | sig-iters 2
+P2 (2200, --): shape -- | alpha 0.1384 [0.1352, 0.1416] PASS | beta 3.007 [2.976, 3.038] PASS | chi2/ndof 0.995 | sig-iters 2
+P2 (3000, --): shape -- | alpha 0.1335 [0.1304, 0.1366] PASS-3sig | beta 2.966 [2.934, 2.999] PASS-3sig | chi2/ndof 1.050 | sig-iters 2
+P3 (1800, 0.12): shape 0.122 [0.1124, 0.1316] PASS | alpha 0.1320 [0.1288, 0.1352] PASS-3sig | beta 2.962 [2.931, 2.994] PASS-3sig | chi2/ndof 0.967 | sig-iters 2
+P3 (2200, 0.7): shape 0.6981 [0.6893, 0.707] PASS | alpha 0.1379 [0.1348, 0.1409] PASS | beta 2.985 [2.954, 3.017] PASS | chi2/ndof 1.063 | sig-iters 2
+P3 (2600, 1.6): shape 1.59 [1.582, 1.598] PASS-3sig | alpha 0.1381 [0.1348, 0.1414] PASS | beta 3.032 [3, 3.063] PASS-3sig | chi2/ndof 1.037 | sig-iters 2
+
+== Coverage spot-check (P1 truth inv_n=0.6, 20 realizations, real-cov noise) ==
+inv_n truth covered by Delta-chi2=1 interval in 12/20 (expect ~13.6; PASS window [9,19]): PASS
+
+== GATE VERDICT: PASS (A-analog PASS; C-analog PASS; coverage PASS) ==
+
+== Degeneracy observations (synthetic-only, post-gate; D1 SS2 predictions) ==
+(a) P2-truth mock fit with P1: inv-shape best 0.0001 interval [OPEN@bound, 0.01984] (P2 limit = inv->0; one-sided-toward-0 expected) chi2/ndof 0.936
+(a) P2-truth mock fit with P3: inv-shape best 0.0001 interval [OPEN@bound, 0.01195] (P2 limit = inv->0; one-sided-toward-0 expected) chi2/ndof 0.936
+(b) LOW-Z-ONLY (z<0.15, N=492) P1 truth inv_n=0.6: best 0.6356 interval [0.5407, 0.7309] -- vs full-z width ~0.035: only X_eff measured at O(z) as predicted

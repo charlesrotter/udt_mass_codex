@@ -1,0 +1,12 @@
+rootdir: /home/udt-admin/udt_mass_codex
+configfile: pytest.ini
+collecting ... collected 6 items
+
+test_v_sne.py::test_m2_guard_blocks_real_fit PASSED                      [ 16%]
+test_v_sne.py::test_loader_whitelist_and_zcol_rules PASSED               [ 33%]
+test_v_sne.py::test_p1_n1_reproduces_banked_z_zplus2 PASSED              [ 50%]
+test_v_sne.py::test_p1_limit_is_p2 PASSED                                [ 66%]
+test_v_sne.py::test_fast_synthetic_recovery_mode_A_analog PASSED         [ 83%]
+test_v_sne.py::test_fast_synthetic_recovery_mode_C_analog PASSED         [100%]
+
+============================== 6 passed in 0.49s ===============================

@@ -1,0 +1,25 @@
+{
+ "HEADER": "DO-NOT-INTERPRET: M2 I/O+correctness smoke output on a deliberately tiny subsample (<=2e4 gal / <=4e4 randoms). At this pair-count noise level no BAO-scale bump could be resolved; numbers here are NOT science and MUST NOT steer M3. F-PEEK ledger entry required for any use.",
+ "shell": {
+  "tracer": "LRG",
+  "cap": "NGC",
+  "z": [
+   0.6,
+   0.65
+  ]
+ },
+ "n_full_shell": [
+  116653,
+  752933
+ ],
+ "n_smoke": [
+  20000,
+  40000
+ ],
+ "t_io_s": 0.71,
+ "t_ls_s": 2.39,
+ "ls_completed": true,
+ "n_finite_bins": 40,
+ "n_theta_bins": 40,
+ "REDACTED": "A3 amendment 2026-08-07: the stored real w(theta) and sigma_jk vectors were REDACTED post-verifier (CLEAN-AMENDED); the prereg letter says smoke tests produce NO science numbers. Only I/O-feasibility fields retained. Future smoke runs never persist w(theta) values (run_smoke_shell amended)."
+}

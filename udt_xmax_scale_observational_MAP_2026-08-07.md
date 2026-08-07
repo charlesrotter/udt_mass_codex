@@ -209,3 +209,30 @@ magnitude column itself has a LCDM-adjacent processing layer. M2's V-SNe prereg 
 deliberately (raw-er columns vs corrected, with the contamination quantified) and the banked
 0.91's column choice gets a point-of-use note. Recon findings are single-agent: spot-verify the
 load-bearing ones at M2 prereg time.
+
+## M2 COMPLETE (2026-08-07): M2-BUILT — both validators built, synthetic-gated, blind-verified
+
+`udt_xmax_scale_observational_M2_build_2026-08-07/` (prereg f9a64ecf committed BEFORE the build).
+D1: exact native predictions, 52/52 sympy checks (n=1 reproduces banked z(z+2)); load-bearing
+low-z degeneracy derived (all profiles collapse to one X_eff at leading order; menu separates at
+second order with disjoint c2 ranges; fitters parametrized (X_eff, 1/shape) accordingly); radial
+Dz_BAO trichotomy derived (P1 grows/P2 constant/P3 decays — a clean M3 discriminator if S/N
+permits). D2 V-SNe: 4 frozen modes, full-cov chi2, injection-recovery gate PASS (27/27 + coverage;
+the gate CAUGHT and fixed an interval-collapse bug — Category-A, disclosed); M1's column claims
+verified on-file; M2_GUARD blocks real fits (pytest-proven). D3 V-BAO: blacklist machine-wired
+(NX/WEIGHT_FKP/_rec unreadable), frozen shells/bins, LS + jackknife, model-free bump machinery
+(full-window search, null-mock trials calibration), end-to-end mock recovers planted theta(z) and
+joint (ell/X_eff) at truth n=1.6; M1 spot-verify all claims hold. BLIND VERIFIER (fresh context):
+CLEAN-AMENDED — re-ran everything byte-identical; live purity attacks held; 2/3 mutation probes
+caught, the miss (weight-drop invisibility) closed by a new catch-proven test; all amendments
+applied (A1-A7; incl. smoke-output redaction restoring the F-PEEK letter). F-PEEK CLEAN: no
+real-data verdict number exists anywhere in the package. **M2 is a TOOLING milestone, not a
+physics result — nothing about the sky is claimed.**
+
+**M3 GATE ITEMS (for Charles, owed at M3 prereg):** (1) shell-floor interpretation — per-cap as
+built (drops all ELG/QSO SGC shells) vs cap-combined pair counts with a per-tracer floor (keeps
+them; small build addition + re-gate; the purer use-all-clean-data option); (2) randoms depth —
+1 random file (~3.2 CPU-hr total, default) + one 4-file spot-check shell vs all 4 files
+(~40-60 CPU-hr); (3) cross-shell look-elsewhere machinery MUST be wired in the M3 prereg before
+any significance claim (verifier A4); (4) radial leg = attempt-only (S/N risk); (5) the
+diagonal-jackknife-covariance caveat conditions M3 significances (self-consistent for M2 only).

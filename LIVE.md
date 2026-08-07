@@ -88,11 +88,19 @@ n/(2(1-n)), infall n/2}, reciprocal-kappa spacing exactly 1; n=1 (P-opt member) 
 dies on S2 — O2 license attached; F-LAWHUNT held (no n selected, no law). Row grade
 O3-OBSTRUCTED(S9a) inside O3-MAP.
 
+**M2 COMPLETE (2026-08-07): M2-BUILT** — both validators (V-SNe 4-mode full-cov fitter; V-BAO
+blacklist-wired LS + model-free bump pipeline) built, synthetic-injection-gated, and blind-verified
+CLEAN-AMENDED with all amendments applied (catch-proven weight test; F-PEEK letter restored). NO
+real-data number exists yet — a tooling milestone, not a physics result. Package:
+`udt_xmax_scale_observational_M2_build_2026-08-07/`. Owner hypotheses recorded+quarantined this
+session: X-CMB-ANISO (divergent rows + angular modulation) and candidate leg V-ANGSIZE (JWST
+angular-size floor riding d_A -> R_w) — both direction-not-evidence, own gates.
+
 **RESUME PATH:** this block -> `udt_xmax_pair_question_MAP_2026-08-06.md` (O1/O2/O3 RESULT sections)
--> `udt_xmax_scale_observational_MAP_2026-08-07.md` -> CANON.md (C-2026-08-06-1/-2). NEXT = the
-scale lane M2 (preregistered validator build: V-SNe with the deliberate m_b_corr/zHD column choice;
-V-BAO observable-space matcher on the DESI catalogs), gated on Charles's go per lane discipline.
-Then AGENTS.md sync sequence as usual.
+-> `udt_xmax_scale_observational_MAP_2026-08-07.md` (M2 COMPLETE + M3 GATE ITEMS) -> CANON.md
+(C-2026-08-06-1/-2). NEXT = **M3 (the real-data runs), GATED on Charles's go** with his rulings on
+the M3 gate items (shell-floor interpretation; randoms depth; look-elsewhere wiring owed in the M3
+prereg). Then AGENTS.md sync sequence as usual.
 
 ## PRIOR STATE — moved below startup (2026-08-06)
 
