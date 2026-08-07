@@ -80,6 +80,23 @@ scales does the orchestra put between observation frames?" — posed as "can the
 it is TEMPLATE-LED and must be declared as such. GATE: separate MAP + Charles's go; nothing in this
 lane depends on it; the validator treats ell as a free nuisance regardless of origin.
 
+**SIBLING HYPOTHESIS X-CMB-ANISO (Charles, 2026-08-07, recorded verbatim-intent; direction, not
+evidence; same quarantine):** "if you look at 'the effort-like sticks are supposed to diverge'
+[the O3 rapidity-role rows: z/depth/d_L divergent at the wall for every profile] toss in some
+angular sector modulation and you might end up with CMB anisotropies." Honest notes at recording:
+(a) the machinery this lands on is exactly the DEFERRED mu/mixing channel (the clock->screen
+angular channel entering lambda_t, tabled 08-06) — currently COUPLING-INERT and unquantized;
+nothing may be assumed from it. (b) Banked kinematic-layer facts that BEAR on it, scoped: O1 Q3
+found the mu-direction WALL-PROTECTIVE (mixing RAISES the lambda_t floor — i.e. angular data can
+modulate how the divergence is approached per direction, the right SHAPE for direction-dependent
+redshift), while the anti-hunch datum says PURE rotation composes additively (no modulation
+without genuine mixing). (c) Any CMB contact must be built FORWARD — the old CMB anchor is canon
+C-2026-08-06-2 (symbolic ln(T_emit/T_CMB), interpretation-conditional, from the ARCHIVED assembly
+lane; standalone repair stands, lane does not). (d) METRIC-LED posing only: "what angular
+structure does the orchestra put on the divergent rows near the wall?" — posed as "can the
+orchestra make the CMB power spectrum?" it is TEMPLATE-LED and must be declared. GATE: separate
+MAP + Charles's go; NOT in any validator; M2/M3 must not import it.
+
 ## 4. Premise ledger (data provenance grades — the anti-import gate for this lane)
 
 - Pantheon+ light-curve magnitudes vs z (on disk, `Data/`) — NATIVE-OBSERVABLE.
