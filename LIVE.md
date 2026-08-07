@@ -61,6 +61,15 @@ AND over-deflations (all caught by reviews) plus a whole-lane REGRESSION (the as
 "looks profound / looks empty / here's the next lane" near ZERO until reviewed; check that KERNEL
 objects (x_max, copresence) are IN the derivations, not just old objects (cells/folds/anchors).
 
+**SECOND LANE ON DESK (2026-08-07, MAP only): the x_max SCALE lane** —
+`udt_xmax_scale_observational_MAP_2026-08-07.md`: observational constraints (profile-conditional
+RANGES) on x_max from SNe (scale level; anchor-dependent) + BAO (new validator; Charles's binding
+ontology rule = BAO is RAW OBSERVATIONS, zero LCDM imports — no acoustic story/r_d/comoving/
+fiducial/template/reconstruction). Owner hypothesis recorded (BAO as possible phi+orchestra/mu
+manifestation) — SEPARATED from the validator, own gate. Implied M_total range via the dimensional
+lead. Catch-points CP1-CP5 await Charles (profile menu; validator/origin split; sequencing vs O1;
+the candle anchor; data acquisition). Nothing runs.
+
 **RESUME PATH:** this block -> `udt_xmax_pair_question_MAP_2026-08-06.md` -> the c_eff integration doc
 -> CANON.md (C-2026-08-06-1/-2) -> O1 on Charles's go. Then AGENTS.md sync sequence as usual.
 
