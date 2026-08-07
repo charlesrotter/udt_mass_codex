@@ -67,8 +67,10 @@ RANGES) on x_max from SNe (scale level; anchor-dependent) + BAO (new validator; 
 ontology rule = BAO is RAW OBSERVATIONS, zero LCDM imports — no acoustic story/r_d/comoving/
 fiducial/template/reconstruction). Owner hypothesis recorded (BAO as possible phi+orchestra/mu
 manifestation) — SEPARATED from the validator, own gate. Implied M_total range via the dimensional
-lead. Catch-points CP1-CP5 await Charles (profile menu; validator/origin split; sequencing vs O1;
-the candle anchor; data acquisition). Nothing runs.
+lead. CP RULINGS IN (2026-08-07): CP1 = profile menu comes from the pair lane's O2/O3 (STRUCTURE LANE
+= CRITICAL PATH; M2/M3 wait on it); CP2 yes (split stands); CP4 yes (candle anchor accepted);
+CP5 yes (astroquery OK, ~100 GiB budget, DESI DR1 on disk at /media/udt-admin/ScratchDisk/Data/
+desi_dr1) -> M1 (data recon, inventory-first, no bulk downloads) is GO and running.
 
 **RESUME PATH:** this block -> `udt_xmax_pair_question_MAP_2026-08-06.md` -> the c_eff integration doc
 -> CANON.md (C-2026-08-06-1/-2) -> O1 on Charles's go. Then AGENTS.md sync sequence as usual.

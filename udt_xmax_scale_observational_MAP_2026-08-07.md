@@ -138,3 +138,20 @@ X-BAO-ORIGIN (§3) is NOT on this menu; it gets its own map only on your explici
 - **F-ANCHOR:** every absolute number carries the anchor premise visibly.
 - **F-SCOPE:** deliverables are profile-conditional RANGES with conditions attached; no single
   "the value of x_max"; no mass claim beyond the labeled M_total translation.
+
+## CP RULINGS (Charles, 2026-08-07)
+
+- **CP1 = the cleaner/slower way:** the profile menu comes from the pair lane's O2/O3 (the measure
+  table + approach classes), NOT declared ad hoc. CONSEQUENCE: the structure lane (O1 -> O2 -> O3)
+  is now the CRITICAL PATH for this lane's fitting steps (M2/M3 wait on it). Only M1 (data recon)
+  is independent.
+- **CP2 = YES:** the validator/origin split stands; the validator is origin-agnostic (ell free);
+  X-BAO-ORIGIN stays separately gated.
+- **CP3:** resolved by CP1's ruling (structure lane first; M1 in parallel). [Charles asked for a
+  lay explanation — given in-session.]
+- **CP4 = YES:** the candle absolute calibration is accepted as the external anchor (its premise
+  chain travels with every absolute number).
+- **CP5 = YES:** data acquisition authorized; astroquery permitted; disk budget ~100 GiB; DESI DR1
+  already on disk at `/media/udt-admin/ScratchDisk/Data/desi_dr1`. M1 is GO: inventory-first
+  (the on-disk DESI DR1, then the wider product landscape), audit processing chains against the
+  forbidden-import list; NO bulk downloads at recon stage (metadata/small catalogs only).
