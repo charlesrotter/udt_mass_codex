@@ -142,3 +142,75 @@ third (A1) is a documented validation hole around a path independently verified 
 disclosed fixes are genuinely Category-A; no F-PEEK verdict number and no LCDM import exists in
 the package. M2 may be recorded as M2-BUILT once the amendments are acknowledged (A1's test
 added now or explicitly owed at M3 wiring).
+
+---
+
+# FOCUSED PASS — AMENDMENT-GPU + cap-combine (same blind verifier, 2026-08-07, second dispatch)
+
+Scope: the Category-A amendment only (GPU pair-count backend, cap-combine option, A1/A3/A7
+amendment closures riding along). Repo left byte-identical (md5 vs the amended state received);
+only this section added.
+
+## Per-item verdicts
+
+1. **RE-RUNS (mine): CONFIRMED.** `pytest test_v_sne.py test_v_bao.py`: **32 passed** (6 SNe +
+   the claimed 26 BAO, incl. 6 GPU-marked + 2 cap-combine + the new A1 weight test x2 backends +
+   the A7 per-role cap test). GPU synthetic gates re-run by me (backend="gpu"): **all three
+   PASS** — JK 1.21702557888263 (ref ...516: fp-order), gate A detection 1.0 / centers 98.3% /
+   FP 6.5% (identical to ref), gate B centers/intervals match the shipped GPU json to ~1e-8
+   (scatter_add accumulation order) and match the ORIGINAL CPU results to ~7 decimals.
+2. **CATCH-PROOF REPLAYS: BOTH POSITIVE.** (a) `GPU_DTYPE_NAME="float32"` → precision-guard test
+   FAILED as claimed (plus 3 equivalence/e2e failures; note the smallest equivalence case
+   [500-8192] alone would NOT catch float32 — the dedicated edge-binning guard is what carries
+   the catch at all sizes: layered, working). (b) weight product dropped in the GPU path only →
+   `test_weight_sensitivity_duplication_identity[gpu]` FAILED while `[cpu]` PASSED. Restored
+   byte-identical both times (md5-verified); suite back to 32/32 green.
+3. **EQUIVALENCE HONESTY: NOT TOLERANCE-VACUOUS.** Bounds: totals rtol 1e-12; per-bin
+   |cpu−gpu| < 1e-9·max(cpu) ⇒ absolute tolerance ≤ ~1e-3 of a count at these sizes, vs observed
+   ~1e-15 relative diffs and vs 1.0 for a whole pair. Probe: injected ONE unit-weight pair into
+   one wrong bin of the GPU result → **all three equivalence cases FAILED**. A single misassigned
+   pair is caught; restored, green.
+4. **F-PEEK SWEEP OF NEW OUTPUTS: CLEAN.** `gpu_timing_LRG_NGC.json` persists ONLY n/t_s/evals/
+   block-cull/throughput/dtype/dec-extent — no counts, no w(θ), no bump-usable number; the code
+   `del`s the count array and the positions are the RANDOMS catalog (survey mask only, no
+   clustering content). The raised 2e5/4e5 cap: disclosed in-file and in notes §9, timing-only,
+   quarantined — ADJUDICATED within the carve-out (the frozen SMOKE_MAX governs the w(θ) smoke
+   path, which was not run). `synth_gate_results_gpu.json` is synthetic-only; the
+   `four_file_m3` additions are schema-class. Old smoke w(θ) vector confirmed REDACTED (A3),
+   disclosed in-file. Residual note: direct `pair_count_blocks_gpu` calls bypass `_check_guard`
+   (guard scope = ls_w_theta, unchanged from the CPU era) — the timing path rests on disclosure,
+   not a machine wire.
+5. **COST TABLE: ARITHMETIC CONFIRMED.** 62 rows; Σt_gpu = 165.6 GPU-hr (claimed 166),
+   Σt_cpu = 45.7 CPU-hr (claimed 46); worst shells 25.0 / 5.9 hr as claimed; every row exactly
+   t = evals/throughput at the stated 4.5e8 (measured 4.4–4.6e8) and 2e8 (conservative vs
+   measured 2.5e8). One ≤5% convention nit: GPU evals count DR once (343·N²·f_cull), CPU pairs
+   count DR twice (361·N²) — slightly GPU-favorable, and the honest conclusion (GPU ~3.6×
+   slower for the 4-file run) is anti-GPU anyway. No error changes the conclusion.
+6. **CAP-COMBINE: DEFAULT OFF CONFIRMED, TEST REAL.** `ls_w_theta(backend="cpu")` default; all
+   three gates default cpu; `run_smoke_shell` uses per-cap `bin_shells`; the shipped CPU gate
+   json is byte-identical to the pre-amendment results. `test_capcombine_counts_equal_sum_of_caps`
+   genuinely constrains the block assembly (disjoint patches, counts==sum at rtol 1e-12) and the
+   per-tracer floor test is exact. Caveat carried: the union-region jackknife of the combined
+   estimator has no statistical validation gate yet — fine for a default-OFF option; owed if the
+   M3 prereg freezes the per-tracer reading.
+
+## New (minor) findings — provenance class only
+
+- **B1:** no shipped code writes `synth_gate_results_gpu.json` (main() writes only the CPU json;
+  the GPU gates were invoked ad-hoc). I regenerated it from the shipped gates and it matches —
+  content verified; AMEND: add a `--backend gpu` path to `synth_bao.py.__main__`.
+- **B2:** no shipped code generates the `four_file_m3` section of `m3_cost_estimate.json`;
+  arithmetic independently verified internally exact (item 5). AMEND: ship the generator or note
+  it ad-hoc.
+- **B3:** the smoke json's `REDACTED` key was hand-edited post-verifier (self-disclosed in its
+  own text; future runs write `REDACTION_POLICY` via code). Honest; no action needed.
+
+## FOCUSED-PASS FINAL VERDICT: **CLEAN-AMENDED** (B1, B2 — provenance nits only)
+
+The amendment is genuinely Category-A: technique only (backend selection + a default-OFF option
+for a prereg-flagged ambiguity), physics/menu/bins/weights/estimator untouched, CPU default and
+original results byte-identical, equivalence machine-enforced and demonstrably sensitive to a
+single misplaced pair, both catch-proofs independently replayed, purity of all new outputs
+verified. Prior verdict (CLEAN-AMENDED) stands with A1/A3/A7 now CLOSED by this amendment;
+A2 closed by the in-run degeneracy generator (noted: its frozen seeds 4100/4200 are new, so the
+section is now self-reproducing going forward).

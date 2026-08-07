@@ -12,6 +12,19 @@ import v_bao
 
 RNG = np.random.default_rng(42)
 
+try:
+    import torch
+    HAVE_GPU = torch.cuda.is_available()
+except Exception:
+    HAVE_GPU = False
+BACKENDS = ["cpu"] + (["gpu"] if HAVE_GPU else [])
+
+
+def _count(backend, *args, **kw):
+    f = (v_bao.pair_count_blocks if backend == "cpu"
+         else v_bao.pair_count_blocks_gpu)
+    return f(*args, **kw)
+
 
 def _uniform(n, tag="synthetic", rng=RNG):
     ra = rng.uniform(0, 360, n)
@@ -83,13 +96,15 @@ def test_smoke_data_cap_strict_per_role():
 
 
 # ---------------- estimator correctness ----------------
-def test_weight_sensitivity_duplication_identity():
+@pytest.mark.parametrize("backend", BACKENDS)
+def test_weight_sensitivity_duplication_identity(backend):
     """A1 (verifier amendment): the weighted pair-count path must be
     LOAD-BEARING. Position-dependent weights (w=2 on the northern points)
     vs the same points DUPLICATED at w=1 give EXACTLY identical binned
     ordered counts -- an identity that holds only if the weight product is
     actually applied. Dropping the weight product (the verifier's mutation
-    probe 3) breaks it detectably."""
+    probe 3) breaks it detectably. Parametrized over BOTH backends (GPU
+    amendment #4)."""
     rng = np.random.default_rng(12)
     n = 600
     ra = rng.uniform(0, 360, n)
@@ -104,15 +119,15 @@ def test_weight_sensitivity_duplication_identity():
                       np.ones(ra_b.size), "synthetic", "B")
     regA = np.zeros(n, dtype=np.int64)
     regB = np.zeros(ra_b.size, dtype=np.int64)
-    DD_A = v_bao.pair_count_blocks(A, A, regA, regA, nreg=1,
-                                   auto=True).sum(axis=(0, 1))
-    DD_B = v_bao.pair_count_blocks(B, B, regB, regB, nreg=1,
-                                   auto=True).sum(axis=(0, 1))
+    DD_A = _count(backend, A, A, regA, regA, nreg=1,
+                  auto=True).sum(axis=(0, 1))
+    DD_B = _count(backend, B, B, regB, regB, nreg=1,
+                  auto=True).sum(axis=(0, 1))
     # power check first: weights must actually matter in this configuration
     # (unweighted counts of A differ from the weighted ones by ~2x in total)
     A_unw = v_bao.Catalog(ra, dec, z, np.ones(n), "synthetic", "A1")
-    DD_unw = v_bao.pair_count_blocks(A_unw, A_unw, regA, regA, nreg=1,
-                                     auto=True).sum(axis=(0, 1))
+    DD_unw = _count(backend, A_unw, A_unw, regA, regA, nreg=1,
+                    auto=True).sum(axis=(0, 1))
     assert DD_A.sum() > 1.5 * DD_unw.sum()
     # the exact identity: catches the drop-the-weight-product mutation,
     # under which DD_A -> DD_unw while DD_B stays (far) larger
@@ -194,3 +209,95 @@ def test_joint_fit_recovers_clean_input():
     lo, hi = fit["s_interval_dchi2_1"]
     assert lo <= s_true <= hi
     assert abs(np.log(fit["s_best"] / s_true)) < 0.05
+
+
+# ---------------- GPU backend (Category-A amendment) ----------------
+@pytest.mark.skipif(not HAVE_GPU, reason="no CUDA")
+@pytest.mark.parametrize("n,block", [(500, 8192), (3000, 1024), (8000, 4096)])
+def test_gpu_cpu_equivalence(n, block):
+    """Soundness duty: GPU float64 binned counts must equal the CPU tree
+    counts per bin (only fp accumulation-order differences allowed)."""
+    rng = np.random.default_rng(100 + n)
+    ra = rng.uniform(0, 360, n)
+    dec = np.degrees(np.arcsin(rng.uniform(-1, 1, n)))
+    w = np.where(dec > 0, 1.7, 0.6)          # position-dependent weights
+    A = v_bao.Catalog(ra, dec, np.full(n, 0.45), w, "synthetic", "A")
+    R = _uniform(2 * n, rng=rng)
+    rm = v_bao.make_region_map(R.ra, R.dec, R.w)
+    rA = v_bao.apply_region_map(rm, A.ra, A.dec)
+    rR = v_bao.apply_region_map(rm, R.ra, R.dec)
+    for args in ((A, A, rA, rA, 24, True), (A, R, rA, rR, 24, False)):
+        cpu = v_bao.pair_count_blocks(*args)
+        gpu = v_bao.pair_count_blocks_gpu(*args, block=block)
+        assert np.isclose(cpu.sum(), gpu.sum(), rtol=1e-12)
+        scale = max(cpu.max(), 1.0)
+        assert np.abs(cpu - gpu).max() < 1e-9 * scale
+
+
+@pytest.mark.skipif(not HAVE_GPU, reason="no CUDA")
+def test_gpu_precision_guard_edge_binning():
+    """PRECISION GUARD: pairs placed 1e-9 (relative) ABOVE selected bin edges
+    must land in the UPPER bin. In float64 the cos-space margin (~1e-12) is
+    resolvable; in float32 it collapses to a tie and bucketize misbins to the
+    LOWER bin -- so this test FAILS if the GPU path runs float32."""
+    edges = v_bao.theta_bin_edges()
+    for k in (22, 30, 38):
+        th = edges[k] * (1.0 + 1e-9)         # inside bin k (lower edge excl.)
+        ra = np.array([10.0, 10.0 + th])
+        dec = np.zeros(2)
+        cat = v_bao.Catalog(ra, dec, np.full(2, 0.45), np.ones(2),
+                            "synthetic", "edge")
+        reg = np.zeros(2, dtype=np.int64)
+        Cw = v_bao.pair_count_blocks_gpu(cat, cat, reg, reg, nreg=1,
+                                         auto=True).sum(axis=(0, 1))
+        assert Cw.dtype == np.float64
+        assert Cw[k] == 2.0, f"edge {k}: expected upper-bin, got {Cw.nonzero()}"
+        assert Cw.sum() == 2.0
+
+
+@pytest.mark.skipif(not HAVE_GPU, reason="no CUDA")
+def test_gpu_ls_end_to_end_matches_cpu():
+    rng = np.random.default_rng(77)
+    D = _uniform(3000, rng=rng)
+    R = _uniform(6000, rng=rng)
+    a = v_bao.ls_w_theta(D, R, backend="cpu")
+    b = v_bao.ls_w_theta(D, R, backend="gpu")
+    good = np.isfinite(a["w"])
+    assert np.allclose(a["w"][good], b["w"][good], rtol=1e-9, atol=1e-12)
+
+
+# ---------------- cap-combine option (#5; default OFF) ----------------
+def test_capcombine_counts_equal_sum_of_caps():
+    rng = np.random.default_rng(55)
+
+    def patch(n, ra0):
+        ra = rng.uniform(ra0, ra0 + 40, n)
+        dec = np.degrees(np.arcsin(rng.uniform(0, 0.5, n)))
+        w = rng.uniform(0.8, 1.2, n)
+        return v_bao.Catalog(ra, dec, np.full(n, 0.45), w, "synthetic", "c")
+
+    caps = [(patch(700, 0.0), patch(1400, 0.0)),
+            (patch(600, 180.0), patch(1200, 180.0))]
+    comb = v_bao.ls_w_theta_capcombine(caps)
+    for key in ("DD", "DR", "RR"):
+        per_cap = sum(v_bao.ls_w_theta(D, R)["counts"][key]
+                      for D, R in caps)
+        assert np.allclose(comb["counts"][key], per_cap, rtol=1e-12)
+    assert comb["meta"]["combined"] and comb["meta"]["n_caps"] == 2
+
+
+def test_capcombine_floor_per_tracer():
+    # each cap is below the 5e4 weighted floor; combined they clear it
+    rng = np.random.default_rng(66)
+
+    def cap(n, wval):
+        ra = rng.uniform(0, 360, n)
+        dec = np.degrees(np.arcsin(rng.uniform(-1, 1, n)))
+        return v_bao.Catalog(ra, dec, np.full(n, 0.62),
+                             np.full(n, wval), "synthetic", "c")
+
+    c1, c2 = cap(1000, 30.0), cap(1000, 30.0)   # 3e4 weighted each
+    k1, _ = v_bao.bin_shells(c1, "LRG")
+    assert k1 == []                              # per-cap: dropped
+    kc, _ = v_bao.bin_shells_combined([c1, c2], "LRG")
+    assert len(kc) == 1 and kc[0]["w_sum"] == pytest.approx(6e4)

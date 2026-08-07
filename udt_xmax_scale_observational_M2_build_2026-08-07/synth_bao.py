@@ -49,14 +49,14 @@ def uniform_patch(n, rng, tag="synthetic", z=None):
     return v_bao.Catalog(ra, dec, z, w, tag, "synthetic")
 
 
-def gate_jackknife(n_real=8, n=8000, seed=11):
+def gate_jackknife(n_real=8, n=8000, seed=11, backend="cpu"):
     """Jackknife sigma vs ensemble scatter on uniform mocks."""
     rng = np.random.default_rng(seed)
     ws, sigs = [], []
     for _ in range(n_real):
         D = uniform_patch(n, rng)
         R = uniform_patch(2 * n, rng)
-        res = v_bao.ls_w_theta(D, R)
+        res = v_bao.ls_w_theta(D, R, backend=backend)
         ws.append(res["w"])
         sigs.append(res["sig"])
     ws = np.array(ws)
@@ -76,7 +76,7 @@ def _true_null_curve(x):
     xc = x - x.mean()
     return 0.004 - 0.006 * xc + 0.001 * xc ** 2 - 0.0005 * xc ** 3
 
-def gate_a(seed=21, n_inject=60, n_cal=400, n_fp=200):
+def gate_a(seed=21, n_inject=60, n_cal=400, n_fp=200, backend="cpu"):
     """Bump injection into mock w(theta) vectors + FP-rate calibration.
 
     Noise level: the jackknife sigma(theta) estimated from one synthetic
@@ -84,7 +84,7 @@ def gate_a(seed=21, n_inject=60, n_cal=400, n_fp=200):
     rng = np.random.default_rng(seed)
     D = uniform_patch(20000, rng)
     R = uniform_patch(40000, rng)
-    sig = v_bao.ls_w_theta(D, R)["sig"]
+    sig = v_bao.ls_w_theta(D, R, backend=backend)["sig"]
     # scale jk sigma from 2e4 to the 6e4-per-shell regime: ~ 1/N in pair terms
     sig = sig * (20000.0 / N_DATA_PER_SHELL)
     theta = v_bao.theta_bin_centers()
@@ -206,7 +206,7 @@ def bump_center_error(theta, w, sig, fit):
     return float(max(half, 1e-3))
 
 
-def gate_b(seed=31, n_cal=300):
+def gate_b(seed=31, n_cal=300, backend="cpu"):
     """End-to-end mini-mock through the full pipeline."""
     rng = np.random.default_rng(seed)
     edges = v_bao.shell_edges("LRG")
@@ -227,7 +227,7 @@ def gate_b(seed=31, n_cal=300):
         rmask = (rand.z >= sh["zlo"]) & (rand.z < sh["zhi"])
         R = _subset(rand, rmask)
         t0 = time.time()
-        res = v_bao.ls_w_theta(D, R)
+        res = v_bao.ls_w_theta(D, R, backend=backend)
         t_ls = time.time() - t0
         fit = v_bao.detect_bump(res["theta"], res["w"], res["sig"], refine=True)
         null_dist = v_bao.calibrate_max_dchi2(res["sig"], n_mocks=n_cal,
@@ -261,22 +261,44 @@ def gate_b(seed=31, n_cal=300):
     return res
 
 
-if __name__ == "__main__":
-    t0 = time.time()
+def run_gates(backend="cpu"):
+    """Run all three synthetic gates on the chosen backend and write the
+    backend-suffixed results json (B1 amendment: shipped provenance for the
+    GPU results file). Same seeds; results differ only at fp-accumulation
+    order between backends."""
     out = {}
-    out["gate_jackknife"] = gate_jackknife()
+    timings = {}
+    t = time.time()
+    out["gate_jackknife"] = gate_jackknife(backend=backend)
+    timings["gate_jackknife"] = round(time.time() - t, 1)
     print("gate_jackknife:", "PASS" if out["gate_jackknife"]["pass"] else "FAIL",
           out["gate_jackknife"]["median_jk_over_empirical"])
-    out["gate_a"] = gate_a()
+    t = time.time()
+    out["gate_a"] = gate_a(backend=backend)
+    timings["gate_a"] = round(time.time() - t, 1)
     print("gate_a:", "PASS" if out["gate_a"]["pass"] else "FAIL",
           {k: out["gate_a"][k] for k in ("detection_rate",
            "frac_center_within_25pct", "fp_rate_at_thresh")})
-    out["gate_b"] = gate_b()
+    t = time.time()
+    out["gate_b"] = gate_b(backend=backend)
+    timings["gate_b"] = round(time.time() - t, 1)
     print("gate_b:", "PASS" if out["gate_b"]["pass"] else "FAIL",
           "s_truth=", out["gate_b"]["s_truth_deg"],
           "2sig_interval=", out["gate_b"]["s_interval_2sig"])
-    out["total_runtime_s"] = round(time.time() - t0, 1)
-    with open(os.path.join(OUT, "synth_gate_results.json"), "w") as f:
+    out["timings_s"] = timings
+    out["backend"] = backend
+    out["total_runtime_s"] = round(sum(timings.values()), 1)
+    suffix = "" if backend == "cpu" else "_" + backend
+    fn = os.path.join(OUT, "synth_gate_results%s.json" % suffix)
+    with open(fn, "w") as f:
         json.dump(out, f, indent=1, default=float)
-    print("total runtime %.0fs -> vbao_outputs/synth_gate_results.json"
-          % out["total_runtime_s"])
+    print("total runtime %.0fs -> %s" % (out["total_runtime_s"], fn))
+    return out
+
+
+if __name__ == "__main__":
+    import sys
+    be = "cpu"
+    if "--backend" in sys.argv:
+        be = sys.argv[sys.argv.index("--backend") + 1]
+    run_gates(backend=be)

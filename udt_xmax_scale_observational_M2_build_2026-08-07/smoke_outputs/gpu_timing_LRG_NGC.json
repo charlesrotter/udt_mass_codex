@@ -1,0 +1,36 @@
+{
+ "HEADER": "DO-NOT-INTERPRET: M2 I/O+correctness smoke output on a deliberately tiny subsample (<=2e4 gal / <=4e4 randoms). At this pair-count noise level no BAO-scale bump could be resolved; numbers here are NOT science and MUST NOT steer M3. F-PEEK ledger entry required for any use.",
+ "PURPOSE": "GPU throughput timing only (Category-A). Counts discarded; no clustering statistic persisted. Cap raised in this quarantined timing path only, as stated in the dispatch.",
+ "shell": {
+  "tracer": "LRG",
+  "cap": "NGC",
+  "z": [
+   0.6,
+   0.65
+  ],
+  "source": "randoms file 0"
+ },
+ "dec_extent_deg": 89.10577821430029,
+ "runs": [
+  {
+   "n": 200000,
+   "t_s": 40.61,
+   "evals": 18052255744,
+   "block_pairs_run": 271,
+   "block_pairs_total": 625,
+   "cull_fraction": 0.4336,
+   "evals_per_s": 444540005.26110536,
+   "dtype": "float64"
+  },
+  {
+   "n": 400000,
+   "t_s": 145.21,
+   "evals": 66437660672,
+   "block_pairs_run": 991,
+   "block_pairs_total": 2401,
+   "cull_fraction": 0.41274468971261974,
+   "evals_per_s": 457512428.16538507,
+   "dtype": "float64"
+  }
+ ]
+}

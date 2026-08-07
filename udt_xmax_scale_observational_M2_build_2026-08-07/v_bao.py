@@ -285,6 +285,81 @@ def pair_count_blocks(catA, catB, regA, regB, nreg=N_JACKKNIFE, auto=False):
     return Cw
 
 
+# ----------------------------------------------------------------------------
+# GPU pair-count backend (Category-A conditioning: technique only; binned
+# counts must be IDENTICAL to the CPU path -- enforced by the equivalence
+# test). Brute-force block-pair counting in torch float64 on unit-sphere
+# 3-vectors; binning on cos(theta) directly. Convention proof: CPU bin k =
+# chord in (e_k, e_{k+1}] = cos in [ce_{k+1}, ce_k) with ce = 1 - e^2/2;
+# with ascending boundaries asc = ce[::-1], torch.bucketize(d, asc,
+# right=True) gives j = #{asc_i <= d}, so k = N_bins - j, and both edge-tie
+# sides match the CPU count_neighbors '<=' convention exactly.
+# Dec-sort block culling (exact: a block pair whose dec intervals are more
+# than THETA_MAX apart contributes only to the out-of-window slot).
+# ----------------------------------------------------------------------------
+GPU_DTYPE_NAME = "float64"   # precision guard: tests FAIL if this is float32
+GPU_BLOCK = 8192             # bounded block size (~2 GB peak at float64)
+
+
+def _gpu_prep(cat, reg, torch, dtype, device):
+    order = np.argsort(cat.dec, kind="stable")
+    xyz = torch.tensor(_unit_vectors(cat.ra[order], cat.dec[order]),
+                       dtype=dtype, device=device)
+    w = torch.tensor(cat.w[order], dtype=dtype, device=device)
+    r = torch.tensor(reg[order], dtype=torch.long, device=device)
+    return xyz, w, r, cat.dec[order]
+
+
+def pair_count_blocks_gpu(catA, catB, regA, regB, nreg=N_JACKKNIFE,
+                          auto=False, block=GPU_BLOCK, device="cuda"):
+    """Same API/return as pair_count_blocks (ordered weighted counts per
+    (regionA, regionB, theta bin); self-pairs excluded by the theta window)."""
+    import torch
+    dtype = getattr(torch, GPU_DTYPE_NAME)
+    nb = N_THETA_BINS
+    nbe = nb + 2                       # + out-of-window slots (large / small)
+    ce = 1.0 - _chord(theta_bin_edges()) ** 2 / 2.0     # descending cos edges
+    bnd = torch.tensor(np.ascontiguousarray(ce[::-1]), dtype=dtype,
+                       device=device)
+    xA, wA, rA, decA = _gpu_prep(catA, regA, torch, dtype, device)
+    if auto:
+        xB, wB, rB, decB = xA, wA, rA, decA
+        nB = len(catA)
+    else:
+        xB, wB, rB, decB = _gpu_prep(catB, regB, torch, dtype, device)
+        nB = len(catB)
+    nA = len(catA)
+    flat = torch.zeros(nreg * nreg * nbe, dtype=dtype, device=device)
+    n_evals = 0
+    n_block_pairs_total = 0
+    n_block_pairs_run = 0
+    for i0 in range(0, nA, block):
+        i1 = min(i0 + block, nA)
+        Xa, wa, ra_ = xA[i0:i1], wA[i0:i1], rA[i0:i1]
+        alo, ahi = decA[i0], decA[i1 - 1]
+        for j0 in range(0, nB, block):
+            j1 = min(j0 + block, nB)
+            n_block_pairs_total += 1
+            gap = max(decB[j0] - ahi, alo - decB[j1 - 1], 0.0)
+            if gap > THETA_MAX_DEG:    # exact cull: no in-window pair possible
+                continue
+            n_block_pairs_run += 1
+            n_evals += (i1 - i0) * (j1 - j0)
+            Dm = Xa @ xB[j0:j1].T                     # cos(theta)
+            j = torch.bucketize(Dm, bnd, right=True)  # 0..nb+1
+            k = nb - j
+            k = torch.where(k < 0, torch.full_like(k, nb + 1), k)
+            idx = (ra_[:, None] * nreg + rB[j0:j1][None, :]) * nbe + k
+            wprod = wa[:, None] * wB[j0:j1][None, :]
+            flat.scatter_add_(0, idx.reshape(-1), wprod.reshape(-1))
+            del Dm, j, k, idx, wprod
+    Cw = flat.reshape(nreg, nreg, nbe)[:, :, :nb].cpu().numpy()
+    pair_count_blocks_gpu.last_stats = {
+        "n_evals": n_evals, "block_pairs_total": n_block_pairs_total,
+        "block_pairs_run": n_block_pairs_run, "dtype": GPU_DTYPE_NAME}
+    return Cw
+
+
 def _region_weight_sums(w, reg, nreg):
     W = np.zeros(nreg)
     S2 = np.zeros(nreg)
@@ -293,26 +368,10 @@ def _region_weight_sums(w, reg, nreg):
     return W, S2
 
 
-def ls_w_theta(D, R, nreg=N_JACKKNIFE, region_map=None):
-    """Landy-Szalay w(theta) with native weights + angular jackknife errors.
-
-    Estimator (ordered weighted counts, self-pairs excluded by theta_min>0):
-      w = (DD/nDD - 2 DR/nDR + RR/nRR) / (RR/nRR),
-      nDD = W_D^2 - sum(w_D^2), nRR analogous, nDR = W_D W_R.
-    Jackknife: leave-one-region-out via the region blocks (exact re-count).
-    M2Guard enforced here.
-    """
-    _check_guard(D, "data")
-    _check_guard(R, "randoms")
-    if region_map is None:
-        region_map = make_region_map(R.ra, R.dec, R.w, 3, nreg // 3)
-    regD = apply_region_map(region_map, D.ra, D.dec)
-    regR = apply_region_map(region_map, R.ra, R.dec)
-    DD = pair_count_blocks(D, D, regD, regD, nreg, auto=True)
-    RR = pair_count_blocks(R, R, regR, regR, nreg, auto=True)
-    DR = pair_count_blocks(D, R, regD, regR, nreg, auto=False)
-    WD, SD2 = _region_weight_sums(D.w, regD, nreg)
-    WR, SR2 = _region_weight_sums(R.w, regR, nreg)
+def _ls_from_blocks(DD, RR, DR, WD, SD2, WR, SR2):
+    """LS estimator + leave-one-region-out jackknife from region-blocked
+    counts (shared by the per-cap path and the cap-combine option)."""
+    nregtot = WD.size
 
     def _ls(keep):
         wd, wr = WD[keep].sum(), WR[keep].sum()
@@ -324,23 +383,120 @@ def ls_w_theta(D, R, nreg=N_JACKKNIFE, region_map=None):
         with np.errstate(divide="ignore", invalid="ignore"):
             return np.where(rr > 0, (dd - 2 * dr + rr) / rr, np.nan)
 
-    allk = np.ones(nreg, dtype=bool)
+    allk = np.ones(nregtot, dtype=bool)
     w_full = _ls(allk)
-    w_jk = np.empty((nreg, N_THETA_BINS))
-    for k in range(nreg):
+    w_jk = np.empty((nregtot, N_THETA_BINS))
+    for k in range(nregtot):
         keep = allk.copy()
         keep[k] = False
         w_jk[k] = _ls(keep)
     wbar = np.nanmean(w_jk, axis=0)
     dev = w_jk - wbar
-    cov = (nreg - 1) / nreg * np.einsum("ki,kj->ij", np.nan_to_num(dev),
-                                        np.nan_to_num(dev))
+    cov = (nregtot - 1) / nregtot * np.einsum(
+        "ki,kj->ij", np.nan_to_num(dev), np.nan_to_num(dev))
+    return w_full, w_jk, cov
+
+
+def _backend_counter(backend):
+    if backend == "cpu":
+        return pair_count_blocks
+    if backend == "gpu":
+        return pair_count_blocks_gpu
+    raise ValueError(f"unknown backend '{backend}'")
+
+
+def ls_w_theta(D, R, nreg=N_JACKKNIFE, region_map=None, backend="cpu"):
+    """Landy-Szalay w(theta) with native weights + angular jackknife errors.
+
+    Estimator (ordered weighted counts, self-pairs excluded by theta_min>0):
+      w = (DD/nDD - 2 DR/nDR + RR/nRR) / (RR/nRR),
+      nDD = W_D^2 - sum(w_D^2), nRR analogous, nDR = W_D W_R.
+    Jackknife: leave-one-region-out via the region blocks (exact re-count).
+    M2Guard enforced here. backend: 'cpu' (default, exact tree) or 'gpu'
+    (Category-A conditioning alternative; binned counts identical -- see the
+    equivalence test).
+    """
+    _check_guard(D, "data")
+    _check_guard(R, "randoms")
+    counter = _backend_counter(backend)
+    if region_map is None:
+        region_map = make_region_map(R.ra, R.dec, R.w, 3, nreg // 3)
+    regD = apply_region_map(region_map, D.ra, D.dec)
+    regR = apply_region_map(region_map, R.ra, R.dec)
+    DD = counter(D, D, regD, regD, nreg, auto=True)
+    RR = counter(R, R, regR, regR, nreg, auto=True)
+    DR = counter(D, R, regD, regR, nreg, auto=False)
+    WD, SD2 = _region_weight_sums(D.w, regD, nreg)
+    WR, SR2 = _region_weight_sums(R.w, regR, nreg)
+    w_full, w_jk, cov = _ls_from_blocks(DD, RR, DR, WD, SD2, WR, SR2)
     return {"theta": theta_bin_centers(), "w": w_full, "w_jk": w_jk,
             "sig": np.sqrt(np.diag(cov)), "cov_jk": cov,
             "counts": {"DD": DD.sum((0, 1)), "DR": DR.sum((0, 1)),
                        "RR": RR.sum((0, 1))},
             "meta": {"nreg": nreg, "W_D": float(WD.sum()),
-                     "W_R": float(WR.sum()), "tags": [D.tag, R.tag]}}
+                     "W_R": float(WR.sum()), "tags": [D.tag, R.tag],
+                     "backend": backend}}
+
+# ----------------------------------------------------------------------------
+# CAP-COMBINE OPTION (default OFF = per-cap, as frozen). No science choice is
+# made here: this is an OPTION so the M3 prereg can freeze either reading of
+# the shell floor (per-cap vs per-tracer). Combining = summing NGC+SGC pair
+# counts per (tracer, shell) before forming LS; cross-cap pairs do not exist
+# (never counted), so the union count matrix is block-diagonal and the
+# jackknife runs over the union of the caps' regions.
+# ----------------------------------------------------------------------------
+def bin_shells_combined(cats, tracer, min_weighted=SHELL_MIN_WEIGHTED):
+    """Per-TRACER shell floor: weighted count summed ACROSS the cap catalogs.
+    Returns (kept, dropped) dicts with per-cap masks list aligned to cats."""
+    edges = shell_edges(tracer)
+    kept, dropped = [], []
+    for zlo, zhi in zip(edges[:-1], edges[1:]):
+        masks = [(c.z >= zlo) & (c.z < zhi) for c in cats]
+        w_sum = float(sum(c.w[m].sum() for c, m in zip(cats, masks)))
+        rec = {"zlo": float(zlo), "zhi": float(zhi), "masks": masks,
+               "w_sum": w_sum}
+        (kept if w_sum >= min_weighted else dropped).append(rec)
+    return kept, dropped
+
+
+def ls_w_theta_capcombine(cap_pairs, nreg=N_JACKKNIFE, backend="cpu"):
+    """LS w(theta) from NGC+SGC pair counts SUMMED before the estimator.
+    cap_pairs: list of (D, R) Catalog pairs, one per cap. Each cap keeps its
+    own nreg-region map (from its randoms); jackknife = leave-one-out over
+    the union (len(cap_pairs)*nreg regions, block-diagonal counts)."""
+    counter = _backend_counter(backend)
+    K = len(cap_pairs)
+    T = K * nreg
+    DD = np.zeros((T, T, N_THETA_BINS))
+    RR = np.zeros((T, T, N_THETA_BINS))
+    DR = np.zeros((T, T, N_THETA_BINS))
+    WD, SD2 = np.zeros(T), np.zeros(T)
+    WR, SR2 = np.zeros(T), np.zeros(T)
+    per_cap_counts = []
+    for c, (D, R) in enumerate(cap_pairs):
+        _check_guard(D, "data")
+        _check_guard(R, "randoms")
+        rm = make_region_map(R.ra, R.dec, R.w, 3, nreg // 3)
+        regD = apply_region_map(rm, D.ra, D.dec)
+        regR = apply_region_map(rm, R.ra, R.dec)
+        dd = counter(D, D, regD, regD, nreg, auto=True)
+        rr = counter(R, R, regR, regR, nreg, auto=True)
+        dr = counter(D, R, regD, regR, nreg, auto=False)
+        s = slice(c * nreg, (c + 1) * nreg)
+        DD[s, s], RR[s, s], DR[s, s] = dd, rr, dr
+        WD[s], SD2[s] = _region_weight_sums(D.w, regD, nreg)
+        WR[s], SR2[s] = _region_weight_sums(R.w, regR, nreg)
+        per_cap_counts.append({"DD": dd.sum((0, 1)), "DR": dr.sum((0, 1)),
+                               "RR": rr.sum((0, 1))})
+    w_full, w_jk, cov = _ls_from_blocks(DD, RR, DR, WD, SD2, WR, SR2)
+    return {"theta": theta_bin_centers(), "w": w_full, "w_jk": w_jk,
+            "sig": np.sqrt(np.diag(cov)), "cov_jk": cov,
+            "counts": {"DD": DD.sum((0, 1)), "DR": DR.sum((0, 1)),
+                       "RR": RR.sum((0, 1))},
+            "per_cap_counts": per_cap_counts,
+            "meta": {"nreg_total": T, "n_caps": K, "backend": backend,
+                     "combined": True}}
+
 
 # ----------------------------------------------------------------------------
 # Bump machinery (frozen): null = cubic in ln(theta); alt = null + Gaussian in

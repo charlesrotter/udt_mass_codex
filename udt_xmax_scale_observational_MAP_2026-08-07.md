@@ -230,9 +230,22 @@ real-data verdict number exists anywhere in the package. **M2 is a TOOLING miles
 physics result — nothing about the sky is claimed.**
 
 **M3 GATE ITEMS (for Charles, owed at M3 prereg):** (1) shell-floor interpretation — per-cap as
-built (drops all ELG/QSO SGC shells) vs cap-combined pair counts with a per-tracer floor (keeps
-them; small build addition + re-gate; the purer use-all-clean-data option); (2) randoms depth —
-1 random file (~3.2 CPU-hr total, default) + one 4-file spot-check shell vs all 4 files
-(~40-60 CPU-hr); (3) cross-shell look-elsewhere machinery MUST be wired in the M3 prereg before
+built (drops all ELG/QSO SGC shells) vs cap-combined pair counts with a per-tracer floor (option
+now BUILT, default OFF; driver recommendation = combine); (2) randoms depth — Charles ruled
+FOUR-file; (3) cross-shell look-elsewhere machinery MUST be wired in the M3 prereg before
 any significance claim (verifier A4); (4) radial leg = attempt-only (S/N risk); (5) the
 diagonal-jackknife-covariance caveat conditions M3 significances (self-consistent for M2 only).
+
+**GPU AMENDMENT (2026-08-07, Charles's ruling "refactor for GPU + four-file"): applied, verified,
+honest outcome recorded.** Exact float64 GPU pair-count backend built (bin-identical to CPU;
+equivalence test proven non-vacuous — catches ONE misbinned pair; float32 and weight-drop
+mutations catch-proven; all gates re-pass on GPU). MEASURED HONESTY: for the 4-file run the GPU
+brute path is ~3.8x SLOWER than the CPU tree (165.6 GPU-hr vs 43.5 CPU-hr, DR-once convention;
+the tree touches only ~4% in-window pairs, brute touches all) — GPU kept as the independent
+cross-check backend (different algorithm, same counts = a soundness bonus), CPU tree = the M3
+workhorse. PROPOSED M3 SHAPE (needs prereg + Charles): 4 random files with SPLIT-AVERAGED RR
+(per-file RR averaged, no cross-file pairs — linear not quadratic cost, ~13 CPU-hr total; a
+standard estimator convention, frozen explicitly, never slipped in); GPU spot-check on a shell
+subset; look-elsewhere wired; radial attempt-only; cap-combine per Charles's ruling. Focused
+verifier pass: CLEAN-AMENDED; provenance nits B1/B2/B3 closed (all shipped numbers regenerable
+by shipped code).

@@ -1,0 +1,124 @@
+{
+ "gate_jackknife": {
+  "median_jk_over_empirical": 1.2170255788826214,
+  "pass": true,
+  "note": "jackknife may be mildly conservative at patch scale; acceptance band 0.6-1.8 on the median ratio, 8 realizations x 8000 pts"
+ },
+ "gate_a": {
+  "A_true": 0.004951925703975174,
+  "theta_b_true": 2.0,
+  "sigma_b_true": 0.25,
+  "thresh_dchi2_95": 10.513846393344512,
+  "detection_rate": 1.0,
+  "frac_center_within_25pct": 0.9833333333333333,
+  "median_recovered_theta_b": 1.9822281221288545,
+  "median_recovered_sigma_b": 0.24842686389443425,
+  "fp_rate_at_thresh": 0.065,
+  "fp_expected": 0.05,
+  "pass": true
+ },
+ "gate_b": {
+  "shells": [
+   {
+    "z": [
+     0.4,
+     0.45
+    ],
+    "zc": 0.42500000000000004,
+    "N_D": 60000,
+    "N_R": 120022,
+    "t_ls_s": 2.6,
+    "theta_inj_deg": 5.005437444469724,
+    "theta_b_rec": 4.909182728501005,
+    "sigma_lnthb": 0.010000000000000009,
+    "dchi2": 86.61689918625386,
+    "p_trials": 0.0,
+    "detected": true,
+    "center_ok": true
+   },
+   {
+    "z": [
+     0.45,
+     0.5
+    ],
+    "zc": 0.475,
+    "N_D": 60000,
+    "N_R": 119978,
+    "t_ls_s": 2.6,
+    "theta_inj_deg": 4.652939818208847,
+    "theta_b_rec": 4.5715297209987975,
+    "sigma_lnthb": 0.010000000000000009,
+    "dchi2": 76.87094998566846,
+    "p_trials": 0.0,
+    "detected": true,
+    "center_ok": true
+   }
+  ],
+  "n_dropped_shells": 12,
+  "joint_fits": {
+   "P1": {
+    "profile": "P1",
+    "s_best": 2.754198857602471,
+    "shape_best": 0.6860374050839206,
+    "chi2": 1.2446603559354115e-14,
+    "ndof": 0,
+    "s_interval_dchi2_1": [
+     2.342906522890784,
+     3.237692700543292
+    ],
+    "s_interval_dchi2_4": [
+     1.9030314376566946,
+     3.4700731162897656
+    ]
+   },
+   "P2": {
+    "profile": "P2",
+    "s_best": 3.514631367183956,
+    "shape_best": null,
+    "chi2": 2.344888861378214,
+    "ndof": 1,
+    "s_interval_dchi2_1": [
+     3.514631367183956,
+     3.514631367183956
+    ],
+    "s_interval_dchi2_4": [
+     3.514631367183956,
+     3.514631367183956
+    ]
+   },
+   "P3": {
+    "profile": "P3",
+    "s_best": 3.532452343495704,
+    "shape_best": 0.013626670318629807,
+    "chi2": 2.4479051857249905,
+    "ndof": 0,
+    "s_interval_dchi2_1": [
+     3.532452343495704,
+     3.6150195030563275
+    ],
+    "s_interval_dchi2_4": [
+     3.532452343495704,
+     4.057722196078936
+    ]
+   }
+  },
+  "s_truth_deg": 2.8647889756541165,
+  "s_interval_1sig": [
+   2.342906522890784,
+   3.237692700543292
+  ],
+  "s_interval_2sig": [
+   1.9030314376566946,
+   3.4700731162897656
+  ],
+  "s_covered_2sig": true,
+  "pass": true
+ },
+ "timings_s": {
+  "gate_jackknife": 1.8,
+  "gate_a": 1.1,
+  "gate_b": 5.3
+ },
+ "backend": "gpu",
+ "total_runtime_s": 8.2
+}

@@ -190,3 +190,73 @@ adversarial verifier pass (prereg section 8) before M2 is recorded.
 - **A7**: `_check_guard` now enforces the smoke cap PER ROLE at its strictest
   value (data 2e4 / randoms 4e4); a hand-tagged 'smoke' data catalog of 3e4 is
   now caught (new test `test_smoke_data_cap_strict_per_role`).
+
+## 9. AMENDMENT-GPU (Charles's ruling, 2026-08-07; Category-A conditioning)
+
+Technique only — HOW the frozen pair counts are computed, nothing about the
+physics, menu, bins, weights or estimator changed; binned counts proven
+identical to the CPU path. CPU remains the default backend.
+
+**What changed** (`v_bao.py`, `synth_bao.py`, `test_v_bao.py`,
+`gpu_timing_smoke.py`):
+- `pair_count_blocks_gpu`: brute-force block counting, torch float64 on V100
+  (`GPU_DTYPE_NAME` guard constant, block 8192, ~2 GB peak); binning on
+  cos(theta) via `bucketize(..., right=True)` on ascending cos-edges — the
+  edge-tie sides PROVEN to match the CPU `count_neighbors` '<=' convention
+  (derivation in the code comment); same API/return (ordered counts,
+  self-pairs excluded by the window, Sigma-w^2 normalization untouched);
+  exact dec-sort block culling. `ls_w_theta(..., backend=)` selects; a CPU
+  spot-check per M3 run is a standing option (same call, backend="cpu").
+- CAP-COMBINE OPTION (#5, default OFF = per-cap as frozen):
+  `ls_w_theta_capcombine` (NGC+SGC counts summed pre-LS; jackknife over the
+  union of caps' regions, block-diagonal) + `bin_shells_combined`
+  (per-tracer floor). No science choice made — an OPTION for the M3 prereg.
+- Tests 26/26 pass: equivalence (3 sizes incl. multi-block and
+  position-dependent weights: totals equal at rtol 1e-12; per-bin max diff
+  ~1.4e-9 on counts ~1e6, i.e. ~1e-15 relative — accumulation-order only);
+  precision guard (pairs 1e-9 above bin edges must land in the upper bin —
+  float32 collapses the ~1e-12 cos margin to a tie and misbins); end-to-end
+  ls_w_theta GPU==CPU; weight test parametrized over both backends;
+  cap-combine counts == sum of per-cap counts; combined floor logic.
+- CATCH-PROOFS (both positive): forcing float32 -> precision test FAILED,
+  restored exactly (byte-identical diff), suite green. Dropping the weight
+  product in the GPU path only -> weight test [gpu] FAILED while [cpu]
+  passed, restored exactly, suite green (26/26).
+- RE-GATE with backend=gpu: all three synthetic gates PASS
+  (`vbao_outputs/synth_gate_results_gpu.json`; gate JK 1.7 s, gate A 1.1 s,
+  gate B 5.3 s — 2.6 s/shell vs 6 s CPU on the sphere mock; gate-B interval
+  identical to CPU to ~8 decimals).
+
+**Measured GPU throughput + 4-file M3 estimate** (timing smoke on real LRG
+NGC 0.60-0.65 random positions at raised 2e5/4e5 subsamples — quarantined
+timing path only, cap-raise stated in-file, counts discarded, only
+timing/feasibility persisted: `smoke_outputs/gpu_timing_LRG_NGC.json`):
+- 4.5e8 pair-evals/s sustained (float64; bucketize+scatter dominated);
+  dec-cull fraction 0.42 at dec extent 89 deg.
+- FOUR-file run (randoms ~18x data), all 62 kept shells
+  (`vbao_outputs/m3_cost_estimate.json` section `four_file_m3`):
+  GPU brute ~166 GPU-hr (worst shell BGS NGC 0.16-0.21: 25 hr) vs CPU
+  dual-tree ~46 CPU-hr (worst 5.9 hr) — the tree pays only in-window pairs
+  (~4%), the brute GPU pays the culled all-pairs (~42%). HONEST CONCLUSION:
+  as-implemented the GPU backend does NOT beat the CPU tree for the 4-file
+  M3; it is validated and available. Bounded options flagged for the M3
+  gate: (a) tree-RR + GPU DD/DR hybrid; (b) 2D (dec+RA) GPU culling
+  (est. 4-5x); (c) per-cap RR reuse across shells (exact in expectation
+  under shuffled-z randoms; would need explicit prereg); (d) the 1-file
+  default (3.2 CPU-hr) + a 4-file spot-check shell.
+
+**B1/B2/B3 closure (focused verifier pass, provenance class):**
+- B1 CLOSED: `synth_bao.py --backend gpu` (shipped `run_gates`) now writes the
+  backend-suffixed gates json; regenerated and gate-content-verified against the
+  shipped `synth_gate_results_gpu.json` (identical; fp-order only, e.g. JK
+  median differs at 1e-12).
+- B2 CLOSED: `cost_estimate.py` (shipped, deterministic) regenerates the whole
+  `four_file_m3` section; reproduces the shipped totals exactly (GPU 165.557
+  GPU-hr; CPU legacy 45.733 CPU-hr) and fixes the DR-counting asymmetry to
+  once-on-both (factor 343): corrected CPU total 43.5 CPU-hr (worst shell
+  5.6 hr), legacy DR-twice total kept in the json for the audit trail;
+  conclusion unchanged (GPU brute ~3.8x slower than the CPU tree).
+- B3 acknowledged: the `REDACTED` key in the M2 smoke json was a one-off HAND
+  edit post-verifier (self-disclosed in its own text); all future smoke runs
+  write the `REDACTION_POLICY` field via code (`run_smoke_shell`), no science
+  values persisted.
