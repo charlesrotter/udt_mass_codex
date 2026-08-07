@@ -88,6 +88,10 @@ modify, delete, mine, or cite it without an explicit later dispatch.
 **Fresh-entry path:**
 
 1. `LIVE.md` topmost current block.
+1a. **FRONTIER (2026-08-06) — read these before the 08-05 spine below:**
+   `udt_xmax_pair_question_MAP_2026-08-06.md` (active lane, O1 pending) and
+   `udt_ceff_depth_orchestra_integration_2026-08-06.md` (the c_eff reframe). Build forward; the
+   Global Cell Assembly lane is ARCHIVED-LEGACY. The 08-05 items below are still-valid background.
 2. `CURRENT_RESEARCH_PROGRAM.md`.
 3. `CURRENT_SCIENTIFIC_PREMISES.md` and `.tsv`.
 4. The plural mass-branch authority map above when mass/stability/branch work is relevant.

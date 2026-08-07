@@ -1,3 +1,9 @@
+> **SUPERSEDED (2026-08-06) — HISTORICAL, do not follow as a current plan.** This linear-time
+> program (angular unmuting -> T4-linear -> ...) is superseded by the frontier phi+orchestra ->
+> c_eff reframe -> mu (deferred) with the ACTIVE LANE = x_max as the pair question
+> (`udt_xmax_pair_question_MAP_2026-08-06.md`, O1 pending). Kept for history; read LIVE.md topmost
+> for current status. See the 2026-08-06 startup staleness audit (F8).
+
 # ROADMAP — the linear-time program (Charles's focus ruling, 2026-07-31)
 
 **THE RULING (Charles, 2026-07-31, verbatim intent):** "The difficulties of thermodynamics

@@ -64,6 +64,19 @@ objects (x_max, copresence) are IN the derivations, not just old objects (cells/
 **RESUME PATH:** this block -> `udt_xmax_pair_question_MAP_2026-08-06.md` -> the c_eff integration doc
 -> CANON.md (C-2026-08-06-1/-2) -> O1 on Charles's go. Then AGENTS.md sync sequence as usual.
 
+## PRIOR STATE — moved below startup (2026-08-06)
+
+The 2026-08-05 milestone block (complete-pair cocycle / law-order / dependency regrade / mass-branch
+nav / Xmax correction / premise stamps) is STILL-VALID BANKED BACKGROUND — NOT demoted, just moved
+BELOW `STARTUP_CURRENT_END` to lighten the startup read. It is preserved verbatim immediately after
+the end marker. Operational caveats it carried (e.g. the 83-path untracked-atlas note) also live in
+AGENTS.md. Read it when 08-05 spine detail is needed.
+
+<!-- STARTUP_CURRENT_END -->
+
+
+<!-- ===== PRIOR STATE 2026-08-05 (moved below startup 2026-08-06; still-valid banked background, not demoted) ===== -->
+
 ## ============ PRIOR STATE (2026-08-05 — COMPLETE-PAIR COCYCLE HOME DERIVED; PHYSICAL LAW OPEN) ============
 **ACTIVE SCIENTIFIC SPINE:** `CURRENT_RESEARCH_PROGRAM.md` is now the concise current dependency
 map. It does not replace this file or `CANON.md`; it centralizes the banked foundation, conditional
@@ -247,8 +260,6 @@ phi/orchestra audit was preregistered at `b4694b40`, repaired under `a7e05bdb`, 
 `cdde9adc` and verifier-normalized at `3f258702`; primary SymPy `32/32`, independent
 standard-library rational `44/44`, verifier `PASS`, 8/8 catch-proofs caught, and fresh GPT-5.4
 review returned `ACCEPTED_WITH_REPAIRS`.
-
-<!-- STARTUP_CURRENT_END -->
 
 
 ## Historical orientation archive

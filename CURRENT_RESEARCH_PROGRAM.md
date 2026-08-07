@@ -150,6 +150,8 @@ This is a research priority, not adoption of a response law and not rejection of
 
 ## Next bounded investigation
 
+**SUPERSEDED (2026-08-06):** the current next step is x_max O1 (see the FRONTIER UPDATE at top); the item below is prior-frontier context.
+
 Test whether the complete metric and registered UDT premises select a metric-natural real
 observer/path groupoid cocycle from the **complete comparison arrow**. Without adding an action,
 desired matter behavior, carrier, density target, observation fit, or spectral norm choice,
@@ -171,6 +173,11 @@ No density scan, long symbolic elimination, ODE/PDE solve, GPU work, carrier ado
 selection, canonization or repository reorganization is authorized by this program statement.
 
 ## Startup route
+
+**FRONTIER READS FIRST (2026-08-06):** `udt_xmax_pair_question_MAP_2026-08-06.md` (active lane,
+O1 pending) and `udt_ceff_depth_orchestra_integration_2026-08-06.md` (c_eff reframe). The 08-05
+route below is still-valid background; build forward, no pre-orchestra reach without a re-grade.
+
 
 Read in this order:
 
