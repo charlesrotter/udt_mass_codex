@@ -160,3 +160,12 @@ depth-budget separation), but the FULL budget (depth + twist) IS protective (the
 functional). NEXT: **Charles's CP2 ruling is RIPE** (the kernel's "spatial" — the decision aid is
 drafted, neutral, in the O2 review 2 §5); then O3 (approach-class selection under the ruling +
 kernel posit) closes the structure lane and feeds the scale lane's profile family.
+
+## CP2 RULED + O3 GO (Charles, 2026-08-07): NO PIN — the shortlist rides conditionally
+
+Charles declines to pin the kernel's "spatial" row; **O3 carries the full measure SHORTLIST as
+conditional branches** ("IF the kernel's spatial is row S_k, THEN ...") — no branch privileged,
+every branch reported, Charles free to adopt any row afterward without friction (F-PIN is now
+architecture, not just a guard). O3 GO given in the same message. Frozen contract:
+`udt_xmax_O3_approach_classes_2026-08-07/PREREGISTRATION.md` (D1 selection map / D2
+approach-profile classes / D3 cross-branch structure; F-LAWHUNT primary).
