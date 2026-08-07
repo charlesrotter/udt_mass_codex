@@ -301,3 +301,89 @@ def test_capcombine_floor_per_tracer():
     assert k1 == []                              # per-cap: dropped
     kc, _ = v_bao.bin_shells_combined([c1, c2], "LRG")
     assert len(kc) == 1 and kc[0]["w_sum"] == pytest.approx(6e4)
+
+
+# ---------------- M3-PREP additions (prereg SS5) ----------------
+def test_split_rr_single_file_reduces_exactly():
+    rng = np.random.default_rng(91)
+    D = _uniform(1500, rng=rng)
+    R = _uniform(3000, rng=rng)
+    a = v_bao.ls_w_theta(D, R)
+    b = v_bao.ls_w_theta_split(D, [R])
+    g = np.isfinite(a["w"])
+    assert np.allclose(a["w"][g], b["w"][g], rtol=1e-10, atol=1e-12)
+    assert np.allclose(a["sig"][g], b["sig"][g], rtol=1e-10, atol=1e-12)
+
+
+def test_split_rr_four_files_consistent():
+    rng = np.random.default_rng(92)
+    D = _uniform(3000, rng=rng)
+    R_list = [_uniform(1500, rng=rng) for _ in range(4)]
+    a = v_bao.ls_w_theta_split(D, R_list)
+    b = v_bao.ls_w_theta(D, v_bao._concat_catalogs(R_list))
+    g = np.isfinite(a["w"]) & np.isfinite(b["w"]) & (b["sig"] > 0)
+    # same underlying data: conventions agree well within the noise scale
+    assert np.nanmedian(np.abs(a["w"] - b["w"])[g] / b["sig"][g]) < 0.6
+
+
+def test_capcombine_split_runs_and_reduces():
+    rng = np.random.default_rng(93)
+
+    def patch(n, ra0):
+        ra = rng.uniform(ra0, ra0 + 40, n)
+        dec = np.degrees(np.arcsin(rng.uniform(0, 0.5, n)))
+        return v_bao.Catalog(ra, dec, np.full(n, 0.45),
+                             rng.uniform(0.8, 1.2, n), "synthetic", "c")
+
+    capsA = [(patch(600, 0.0), [patch(600, 0.0), patch(600, 0.0)]),
+             (patch(500, 180.0), [patch(500, 180.0), patch(500, 180.0)])]
+    r = v_bao.ls_w_theta_capcombine(capsA)
+    assert r["meta"]["n_ran_files"] == 2 and r["meta"]["nreg_total"] == 48
+    assert np.isfinite(r["w"]).any()
+
+
+def test_authorize_m3_hash_gate():
+    import v_bao as vb
+    prev = vb.M3_REAL_RUN_AUTHORIZED
+    try:
+        with pytest.raises(vb.M2GuardViolation):
+            vb.authorize_m3("wrong-hash")
+        assert vb.M3_REAL_RUN_AUTHORIZED is prev  # unchanged on failure
+        assert vb.authorize_m3(vb.M3_PREREG_COMMIT) is True
+        assert vb.M3_REAL_RUN_AUTHORIZED is True
+    finally:
+        vb.M3_REAL_RUN_AUTHORIZED = prev          # restore for other tests
+
+
+def test_look_elsewhere_deterministic_and_sane():
+    import look_elsewhere as le
+    rng = np.random.default_rng(94)
+    theta = v_bao.theta_bin_centers()
+    z = np.array([0.5, 0.6, 0.7])
+    sig = [np.full(theta.size, 0.002)] * 3
+    w = [rng.normal(0, s) for s in sig]
+    r1 = le.analyze_shells(w, sig, z, n_mocks=40, seed=5)
+    r2 = le.analyze_shells(w, sig, z, n_mocks=40, seed=5)
+    assert r1["global_p"] == r2["global_p"]
+    assert r1["joint"]["p"] == r2["joint"]["p"]
+    assert 0.0 <= r1["global_p"] <= 1.0
+    assert all(0.0 <= p <= 1.0 for p in r1["local_p"])
+
+
+def test_look_elsewhere_detects_strong_coherent_injection():
+    import look_elsewhere as le
+    rng = np.random.default_rng(95)
+    theta = v_bao.theta_bin_centers()
+    x = np.log(theta)
+    z = np.array([0.5, 0.6, 0.7, 0.8])
+    sig = [np.full(theta.size, 0.002)] * 4
+    shape_t = 0.7
+    s = np.radians(4.0) * v_bao.shape_g("P1", np.log1p(0.65), shape_t)
+    w = []
+    for i, zi in enumerate(z):
+        thb = np.degrees(s / v_bao.shape_g("P1", np.log1p(zi), shape_t))
+        w.append(rng.normal(0, sig[i]) + 5 * 0.002 *
+                 np.exp(-0.5 * ((x - np.log(thb)) / 0.2) ** 2))
+    r = le.analyze_shells(w, sig, z, n_mocks=60, seed=6)
+    assert r["joint"]["p"] <= 1.0 / 60 + 1e-12
+    assert r["global_p"] <= 0.05

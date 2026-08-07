@@ -39,9 +39,24 @@ SHELL_MIN_WEIGHTED = 5.0e4                 # weighted-galaxy floor per shell
 THETA_MIN_DEG, THETA_MAX_DEG, N_THETA_BINS = 0.3, 12.0, 40   # log bins
 N_JACKKNIFE = 24                           # angular jackknife regions (3 dec x 8 ra)
 
-# M2 guard: real-data w(theta) forbidden. M3 flips this ONLY via its own prereg.
+# M2 guard: real-data w(theta) forbidden. Flipped ONLY via authorize_m3 with
+# the M3 prereg's commit hash (frozen below), called by the M3 runners.
 M3_REAL_RUN_AUTHORIZED = False
+M3_PREREG_COMMIT = "523f4aca"   # udt_xmax_scale_observational_M3_runs prereg
 SMOKE_MAX = {"data": 20000, "randoms": 40000}   # frozen smoke subsample caps
+
+
+def authorize_m3(prereg_commit):
+    """The ONLY sanctioned guard flip (M3 prereg SS5.4): the caller must cite
+    the M3 prereg commit hash. Effective for this process only; the default
+    on import stays False (prep/gates always run guarded)."""
+    global M3_REAL_RUN_AUTHORIZED
+    if prereg_commit != M3_PREREG_COMMIT:
+        raise M2GuardViolation(
+            f"authorize_m3: commit '{prereg_commit}' does not match the "
+            f"frozen M3 prereg commit {M3_PREREG_COMMIT}")
+    M3_REAL_RUN_AUTHORIZED = True
+    return True
 
 SMOKE_HEADER = (
     "DO-NOT-INTERPRET: M2 I/O+correctness smoke output on a deliberately tiny "
@@ -438,6 +453,90 @@ def ls_w_theta(D, R, nreg=N_JACKKNIFE, region_map=None, backend="cpu"):
                      "backend": backend}}
 
 # ----------------------------------------------------------------------------
+# SPLIT-AVERAGED RR (M3 prereg SS4, frozen randoms convention): DR uses the
+# CONCATENATED randoms; RR = the MEAN of the per-file RR counts (no cross-file
+# random pairs) -- the standard split-randoms convention, adopted for linear
+# cost. Unbiasedness gated synthetically (SS5.1) before any real use.
+# ----------------------------------------------------------------------------
+def _concat_catalogs(cats):
+    return Catalog(np.concatenate([c.ra for c in cats]),
+                   np.concatenate([c.dec for c in cats]),
+                   np.concatenate([c.z for c in cats]),
+                   np.concatenate([c.w for c in cats]),
+                   cats[0].tag, "+".join(c.name for c in cats))
+
+
+def _ls_from_blocks_general(DD, DR, WD, SD2, WRcat, RR_files, WRf, SR2f):
+    """LS + union-region jackknife with RR = mean over files (F=1 reduces
+    exactly to the single-RR estimator)."""
+    T = WD.size
+    F = len(RR_files)
+
+    def _ls(keep):
+        wd, sd2 = WD[keep].sum(), SD2[keep].sum()
+        sub = np.ix_(keep, keep)
+        dd = DD[sub].sum(axis=(0, 1)) / (wd * wd - sd2)
+        dr = DR[sub].sum(axis=(0, 1)) / (wd * WRcat[keep].sum())
+        rr = np.zeros(N_THETA_BINS)
+        for f in range(F):
+            wrf, sr2f = WRf[f][keep].sum(), SR2f[f][keep].sum()
+            rr += RR_files[f][sub].sum(axis=(0, 1)) / (wrf * wrf - sr2f)
+        rr /= F
+        with np.errstate(divide="ignore", invalid="ignore"):
+            return np.where(rr > 0, (dd - 2 * dr + rr) / rr, np.nan)
+
+    allk = np.ones(T, dtype=bool)
+    w_full = _ls(allk)
+    w_jk = np.empty((T, N_THETA_BINS))
+    for k in range(T):
+        keep = allk.copy()
+        keep[k] = False
+        w_jk[k] = _ls(keep)
+    wbar = np.nanmean(w_jk, axis=0)
+    dev = w_jk - wbar
+    cov = (T - 1) / T * np.einsum("ki,kj->ij", np.nan_to_num(dev),
+                                  np.nan_to_num(dev))
+    return w_full, w_jk, cov
+
+
+def ls_w_theta_split(D, R_list, nreg=N_JACKKNIFE, region_map=None,
+                     backend="cpu"):
+    """Single-cap LS with the split-averaged-RR convention (SS4).
+    R_list: the per-file random Catalogs. Regions defined on the
+    concatenation and applied to every file."""
+    counter = _backend_counter(backend)
+    _check_guard(D, "data")
+    for R in R_list:
+        _check_guard(R, "randoms")
+    Rcat = _concat_catalogs(R_list)
+    if region_map is None:
+        region_map = make_region_map(Rcat.ra, Rcat.dec, Rcat.w, 3, nreg // 3)
+    regD = apply_region_map(region_map, D.ra, D.dec)
+    regC = apply_region_map(region_map, Rcat.ra, Rcat.dec)
+    DD = counter(D, D, regD, regD, nreg, auto=True)
+    DR = counter(D, Rcat, regD, regC, nreg, auto=False)
+    WD, SD2 = _region_weight_sums(D.w, regD, nreg)
+    WRcat, _ = _region_weight_sums(Rcat.w, regC, nreg)
+    RR_files, WRf, SR2f = [], [], []
+    for R in R_list:
+        regf = apply_region_map(region_map, R.ra, R.dec)
+        RR_files.append(counter(R, R, regf, regf, nreg, auto=True))
+        wf, s2f = _region_weight_sums(R.w, regf, nreg)
+        WRf.append(wf)
+        SR2f.append(s2f)
+    w_full, w_jk, cov = _ls_from_blocks_general(DD, DR, WD, SD2, WRcat,
+                                                RR_files, WRf, SR2f)
+    return {"theta": theta_bin_centers(), "w": w_full, "w_jk": w_jk,
+            "sig": np.sqrt(np.diag(cov)), "cov_jk": cov,
+            "counts": {"DD": DD.sum((0, 1)), "DR": DR.sum((0, 1)),
+                       "RR_files": [r.sum((0, 1)) for r in RR_files]},
+            "meta": {"nreg": nreg, "n_ran_files": len(R_list),
+                     "convention": "split-averaged RR (M3 SS4)",
+                     "backend": backend, "tags": [D.tag] +
+                     [R.tag for R in R_list]}}
+
+
+# ----------------------------------------------------------------------------
 # CAP-COMBINE OPTION (default OFF = per-cap, as frozen). No science choice is
 # made here: this is an OPTION so the M3 prereg can freeze either reading of
 # the shell floor (per-cap vs per-tracer). Combining = summing NGC+SGC pair
@@ -461,41 +560,60 @@ def bin_shells_combined(cats, tracer, min_weighted=SHELL_MIN_WEIGHTED):
 
 def ls_w_theta_capcombine(cap_pairs, nreg=N_JACKKNIFE, backend="cpu"):
     """LS w(theta) from NGC+SGC pair counts SUMMED before the estimator.
-    cap_pairs: list of (D, R) Catalog pairs, one per cap. Each cap keeps its
-    own nreg-region map (from its randoms); jackknife = leave-one-out over
-    the union (len(cap_pairs)*nreg regions, block-diagonal counts)."""
+    cap_pairs: list of (D, R) per cap, where R is a Catalog OR a list of
+    per-file random Catalogs (split-averaged RR, M3 SS4; F=1 reproduces the
+    M2 single-RR estimator exactly). Each cap keeps its own nreg-region map
+    (from its concatenated randoms); jackknife = leave-one-out over the
+    union (len(cap_pairs)*nreg regions, block-diagonal counts)."""
     counter = _backend_counter(backend)
     K = len(cap_pairs)
     T = K * nreg
+    F = max(len(R) if isinstance(R, (list, tuple)) else 1
+            for _, R in cap_pairs)
     DD = np.zeros((T, T, N_THETA_BINS))
-    RR = np.zeros((T, T, N_THETA_BINS))
     DR = np.zeros((T, T, N_THETA_BINS))
+    RR_files = [np.zeros((T, T, N_THETA_BINS)) for _ in range(F)]
     WD, SD2 = np.zeros(T), np.zeros(T)
-    WR, SR2 = np.zeros(T), np.zeros(T)
+    WRcat = np.zeros(T)
+    WRf = [np.zeros(T) for _ in range(F)]
+    SR2f = [np.zeros(T) for _ in range(F)]
     per_cap_counts = []
     for c, (D, R) in enumerate(cap_pairs):
+        R_list = list(R) if isinstance(R, (list, tuple)) else [R]
+        if len(R_list) != F:
+            raise ValueError("all caps must carry the same number of "
+                             "random files")
         _check_guard(D, "data")
-        _check_guard(R, "randoms")
-        rm = make_region_map(R.ra, R.dec, R.w, 3, nreg // 3)
+        for Rf in R_list:
+            _check_guard(Rf, "randoms")
+        Rcat = _concat_catalogs(R_list) if F > 1 else R_list[0]
+        rm = make_region_map(Rcat.ra, Rcat.dec, Rcat.w, 3, nreg // 3)
         regD = apply_region_map(rm, D.ra, D.dec)
-        regR = apply_region_map(rm, R.ra, R.dec)
-        dd = counter(D, D, regD, regD, nreg, auto=True)
-        rr = counter(R, R, regR, regR, nreg, auto=True)
-        dr = counter(D, R, regD, regR, nreg, auto=False)
+        regC = apply_region_map(rm, Rcat.ra, Rcat.dec)
         s = slice(c * nreg, (c + 1) * nreg)
-        DD[s, s], RR[s, s], DR[s, s] = dd, rr, dr
+        dd = counter(D, D, regD, regD, nreg, auto=True)
+        dr = counter(D, Rcat, regD, regC, nreg, auto=False)
+        DD[s, s], DR[s, s] = dd, dr
         WD[s], SD2[s] = _region_weight_sums(D.w, regD, nreg)
-        WR[s], SR2[s] = _region_weight_sums(R.w, regR, nreg)
+        WRcat[s], _ = _region_weight_sums(Rcat.w, regC, nreg)
+        rr_tot = np.zeros(N_THETA_BINS)
+        for f, Rf in enumerate(R_list):
+            regf = apply_region_map(rm, Rf.ra, Rf.dec)
+            rrf = counter(Rf, Rf, regf, regf, nreg, auto=True)
+            RR_files[f][s, s] = rrf
+            WRf[f][s], SR2f[f][s] = _region_weight_sums(Rf.w, regf, nreg)
+            rr_tot += rrf.sum((0, 1))
         per_cap_counts.append({"DD": dd.sum((0, 1)), "DR": dr.sum((0, 1)),
-                               "RR": rr.sum((0, 1))})
-    w_full, w_jk, cov = _ls_from_blocks(DD, RR, DR, WD, SD2, WR, SR2)
+                               "RR": rr_tot})
+    w_full, w_jk, cov = _ls_from_blocks_general(DD, DR, WD, SD2, WRcat,
+                                                RR_files, WRf, SR2f)
     return {"theta": theta_bin_centers(), "w": w_full, "w_jk": w_jk,
             "sig": np.sqrt(np.diag(cov)), "cov_jk": cov,
             "counts": {"DD": DD.sum((0, 1)), "DR": DR.sum((0, 1)),
-                       "RR": RR.sum((0, 1))},
+                       "RR": sum(r.sum((0, 1)) for r in RR_files)},
             "per_cap_counts": per_cap_counts,
-            "meta": {"nreg_total": T, "n_caps": K, "backend": backend,
-                     "combined": True}}
+            "meta": {"nreg_total": T, "n_caps": K, "n_ran_files": F,
+                     "backend": backend, "combined": True}}
 
 
 # ----------------------------------------------------------------------------

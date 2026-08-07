@@ -1,0 +1,662 @@
+{
+ "prereg_commit": "523f4aca",
+ "convention": "cap-combine ON, per-tracer floor; split-averaged RR over 4 files; union-region jackknife",
+ "n_shells_kept": 52,
+ "n_shells_dropped": 6,
+ "kept_shells": [
+  {
+   "tracer": "BGS_BRIGHT",
+   "zlo": 0.01,
+   "zhi": 0.060000000000000005,
+   "w_sum": 304022.68249976635,
+   "n_per_cap": [
+    145238,
+    53552
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "BGS_BRIGHT",
+   "zlo": 0.060000000000000005,
+   "zhi": 0.11,
+   "w_sum": 734658.1499106884,
+   "n_per_cap": [
+    365561,
+    119231
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "BGS_BRIGHT",
+   "zlo": 0.11,
+   "zhi": 0.16000000000000003,
+   "w_sum": 1017245.2471489906,
+   "n_per_cap": [
+    489732,
+    172297
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "BGS_BRIGHT",
+   "zlo": 0.16000000000000003,
+   "zhi": 0.21000000000000002,
+   "w_sum": 1120797.0961222649,
+   "n_per_cap": [
+    531510,
+    196571
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "BGS_BRIGHT",
+   "zlo": 0.21000000000000002,
+   "zhi": 0.26,
+   "w_sum": 1007398.3923639059,
+   "n_per_cap": [
+    484164,
+    177056
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "BGS_BRIGHT",
+   "zlo": 0.26,
+   "zhi": 0.31000000000000005,
+   "w_sum": 764071.1754308939,
+   "n_per_cap": [
+    373540,
+    138338
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "BGS_BRIGHT",
+   "zlo": 0.31000000000000005,
+   "zhi": 0.36000000000000004,
+   "w_sum": 507968.3929052353,
+   "n_per_cap": [
+    254323,
+    92440
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "BGS_BRIGHT",
+   "zlo": 0.36000000000000004,
+   "zhi": 0.41000000000000003,
+   "w_sum": 310647.2246671915,
+   "n_per_cap": [
+    158654,
+    57594
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "BGS_BRIGHT",
+   "zlo": 0.41000000000000003,
+   "zhi": 0.46,
+   "w_sum": 156711.47690439224,
+   "n_per_cap": [
+    80051,
+    30260
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "BGS_BRIGHT",
+   "zlo": 0.46,
+   "zhi": 0.51,
+   "w_sum": 53166.967655062675,
+   "n_per_cap": [
+    27103,
+    10650
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.4,
+   "zhi": 0.45,
+   "w_sum": 131049.75354874152,
+   "n_per_cap": [
+    68686,
+    32037
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.45,
+   "zhi": 0.5,
+   "w_sum": 151366.5003244568,
+   "n_per_cap": [
+    79026,
+    36642
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.5,
+   "zhi": 0.55,
+   "w_sum": 176848.68086437977,
+   "n_per_cap": [
+    93276,
+    41645
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.55,
+   "zhi": 0.6000000000000001,
+   "w_sum": 204888.6140018372,
+   "n_per_cap": [
+    105773,
+    49826
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.6000000000000001,
+   "zhi": 0.65,
+   "w_sum": 227947.8418754972,
+   "n_per_cap": [
+    116653,
+    54790
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.65,
+   "zhi": 0.7000000000000001,
+   "w_sum": 241986.2429253746,
+   "n_per_cap": [
+    126905,
+    55825
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.7000000000000001,
+   "zhi": 0.75,
+   "w_sum": 258251.16460287303,
+   "n_per_cap": [
+    134167,
+    59362
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.75,
+   "zhi": 0.8,
+   "w_sum": 301619.02569843107,
+   "n_per_cap": [
+    156230,
+    67962
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.8,
+   "zhi": 0.8500000000000001,
+   "w_sum": 313992.6053652902,
+   "n_per_cap": [
+    163829,
+    70149
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.8500000000000001,
+   "zhi": 0.9,
+   "w_sum": 277054.29820914427,
+   "n_per_cap": [
+    143372,
+    64494
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.9,
+   "zhi": 0.9500000000000001,
+   "w_sum": 222996.3871314777,
+   "n_per_cap": [
+    116491,
+    52601
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 0.9500000000000001,
+   "zhi": 1.0,
+   "w_sum": 158846.18240823963,
+   "n_per_cap": [
+    83884,
+    37706
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 1.0,
+   "zhi": 1.05,
+   "w_sum": 101647.63609990699,
+   "n_per_cap": [
+    54241,
+    24418
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "LRG",
+   "zlo": 1.05,
+   "zhi": 1.1,
+   "w_sum": 62030.432288959535,
+   "n_per_cap": [
+    33602,
+    15035
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 0.8,
+   "zhi": 0.8500000000000001,
+   "w_sum": 273151.69971074327,
+   "n_per_cap": [
+    106630,
+    33327
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 0.8500000000000001,
+   "zhi": 0.9,
+   "w_sum": 320725.0101382885,
+   "n_per_cap": [
+    123401,
+    40732
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 0.9,
+   "zhi": 0.9500000000000001,
+   "w_sum": 350281.010449514,
+   "n_per_cap": [
+    135165,
+    43760
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 0.9500000000000001,
+   "zhi": 1.0,
+   "w_sum": 352114.216543223,
+   "n_per_cap": [
+    135798,
+    43958
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.0,
+   "zhi": 1.05,
+   "w_sum": 352099.0891334981,
+   "n_per_cap": [
+    135817,
+    45013
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.05,
+   "zhi": 1.1,
+   "w_sum": 335873.4960485127,
+   "n_per_cap": [
+    129671,
+    43093
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.1,
+   "zhi": 1.1500000000000001,
+   "w_sum": 322782.7514819436,
+   "n_per_cap": [
+    124337,
+    41555
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.1500000000000001,
+   "zhi": 1.2000000000000002,
+   "w_sum": 325731.520619037,
+   "n_per_cap": [
+    125078,
+    41779
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.2000000000000002,
+   "zhi": 1.25,
+   "w_sum": 318287.6589759536,
+   "n_per_cap": [
+    122074,
+    41083
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.25,
+   "zhi": 1.3,
+   "w_sum": 308254.3580350509,
+   "n_per_cap": [
+    118742,
+    40181
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.3,
+   "zhi": 1.35,
+   "w_sum": 301933.8807372339,
+   "n_per_cap": [
+    114307,
+    39671
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.35,
+   "zhi": 1.4000000000000001,
+   "w_sum": 292672.62329496583,
+   "n_per_cap": [
+    111263,
+    38274
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.4000000000000001,
+   "zhi": 1.4500000000000002,
+   "w_sum": 281154.5255794402,
+   "n_per_cap": [
+    106480,
+    37393
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.4500000000000002,
+   "zhi": 1.5,
+   "w_sum": 255553.39624662965,
+   "n_per_cap": [
+    96897,
+    33981
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.5,
+   "zhi": 1.55,
+   "w_sum": 181535.454440477,
+   "n_per_cap": [
+    70224,
+    23781
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "ELG_LOPnotqso",
+   "zlo": 1.55,
+   "zhi": 1.6,
+   "w_sum": 170762.50265667902,
+   "n_per_cap": [
+    65438,
+    23169
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 0.8,
+   "zhi": 0.9500000000000001,
+   "w_sum": 69154.79020589989,
+   "n_per_cap": [
+    41430,
+    22574
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 0.9500000000000001,
+   "zhi": 1.1,
+   "w_sum": 86360.12742447617,
+   "n_per_cap": [
+    51451,
+    28391
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 1.1,
+   "zhi": 1.25,
+   "w_sum": 104784.0135916611,
+   "n_per_cap": [
+    62626,
+    33927
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 1.25,
+   "zhi": 1.4,
+   "w_sum": 119322.89424559343,
+   "n_per_cap": [
+    69782,
+    38244
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 1.4,
+   "zhi": 1.55,
+   "w_sum": 128080.30801350091,
+   "n_per_cap": [
+    74693,
+    40384
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 1.55,
+   "zhi": 1.7,
+   "w_sum": 130286.38903263512,
+   "n_per_cap": [
+    75568,
+    40923
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 1.7,
+   "zhi": 1.85,
+   "w_sum": 126670.27626747044,
+   "n_per_cap": [
+    73551,
+    39499
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 1.85,
+   "zhi": 2.0,
+   "w_sum": 114882.01975892574,
+   "n_per_cap": [
+    66922,
+    35418
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 2.0,
+   "zhi": 2.15,
+   "w_sum": 102008.41339419382,
+   "n_per_cap": [
+    58985,
+    32236
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 2.15,
+   "zhi": 2.3,
+   "w_sum": 87672.83329468688,
+   "n_per_cap": [
+    51514,
+    27658
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 2.3,
+   "zhi": 2.45,
+   "w_sum": 73627.59031007698,
+   "n_per_cap": [
+    43469,
+    23056
+   ],
+   "kept": true
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 2.45,
+   "zhi": 2.5999999999999996,
+   "w_sum": 58747.12646876836,
+   "n_per_cap": [
+    34199,
+    18804
+   ],
+   "kept": true
+  }
+ ],
+ "dropped_shells": [
+  {
+   "tracer": "QSO",
+   "zlo": 2.5999999999999996,
+   "zhi": 2.75,
+   "w_sum": 45098.45815994279,
+   "kept": false
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 2.75,
+   "zhi": 2.9000000000000004,
+   "w_sum": 36275.1087741263,
+   "kept": false
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 2.9000000000000004,
+   "zhi": 3.05,
+   "w_sum": 27553.79383936742,
+   "kept": false
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 3.05,
+   "zhi": 3.2,
+   "w_sum": 19927.74304881492,
+   "kept": false
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 3.2,
+   "zhi": 3.3499999999999996,
+   "w_sum": 14559.039666542894,
+   "kept": false
+  },
+  {
+   "tracer": "QSO",
+   "zlo": 3.3499999999999996,
+   "zhi": 3.5,
+   "w_sum": 8829.124331500167,
+   "kept": false
+  }
+ ],
+ "checkpoint_dir": "/home/udt-admin/udt_mass_codex/udt_xmax_scale_observational_M3_runs_2026-08-07/bao_checkpoints",
+ "checkpoint_plan": "one npz (counts+w+sig+cov) + one json (bump+local p) per (shell, variant); resumable by file existence",
+ "variants": [
+  "sys",
+  "nosys"
+ ],
+ "workers_max": 4,
+ "gpu_spot_shells": [
+  [
+   "LRG",
+   "NGC",
+   0.6,
+   0.65
+  ],
+  [
+   "BGS_BRIGHT",
+   "NGC",
+   0.21,
+   0.26
+  ],
+  [
+   "QSO",
+   "NGC",
+   1.1,
+   1.25
+  ]
+ ],
+ "eta": {
+  "total_pairs_est": 9260605047359.105,
+  "n_variants": 2,
+  "eta_cpu_hr_serial": 20.57912232746468,
+  "eta_wallclock_hr_at_workers": 5.14478058186617
+ },
+ "guard_state": {
+  "M3_REAL_RUN_AUTHORIZED": false,
+  "note": "dry-run never flips the guard"
+ },
+ "census_time_s": 0.9
+}

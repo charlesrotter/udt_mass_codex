@@ -22,6 +22,20 @@ from scipy.optimize import minimize
 
 # ---------------------------------------------------------------- guard (F-PEEK)
 M2_GUARD = True  # M3 flips this deliberately, under its own prereg. Do not flip at M2.
+M3_PREREG_COMMIT = "523f4aca"   # udt_xmax_scale_observational_M3_runs prereg
+
+
+def authorize_m3(prereg_commit):
+    """The ONLY sanctioned M2_GUARD flip (M3 prereg SS5.4): the caller must
+    cite the M3 prereg commit hash. Process-local; the import default stays
+    guarded."""
+    global M2_GUARD
+    if prereg_commit != M3_PREREG_COMMIT:
+        raise RuntimeError(
+            f"authorize_m3: commit '{prereg_commit}' does not match the "
+            f"frozen M3 prereg commit {M3_PREREG_COMMIT}")
+    M2_GUARD = False
+    return True
 
 _REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(_REPO, "Data", "Pantheon+SH0ES.dat")

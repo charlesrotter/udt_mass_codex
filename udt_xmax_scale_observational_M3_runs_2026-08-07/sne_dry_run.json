@@ -1,0 +1,93 @@
+{
+ "n_rows_file": 1701,
+ "frozen_z_cut": 0.023,
+ "anchor": {
+  "M_B": -19.253,
+  "err": 0.027
+ },
+ "modes": {
+  "A:zCMB": {
+   "zcol": "zCMB",
+   "n_after_cuts": 1367,
+   "calibrators_excluded": true,
+   "z_min": 0.02307,
+   "z_max": 2.2613,
+   "z_cut_ok": true,
+   "cov_subset_shape": [
+    1367,
+    1367
+   ],
+   "cov_ok": true
+  },
+  "B:zCMB": {
+   "zcol": "zCMB",
+   "n_after_cuts": 1367,
+   "calibrators_excluded": true,
+   "z_min": 0.02307,
+   "z_max": 2.2613,
+   "z_cut_ok": true,
+   "cov_subset_shape": [
+    1367,
+    1367
+   ],
+   "cov_ok": true
+  },
+  "C:zCMB": {
+   "zcol": "zCMB",
+   "n_after_cuts": 1367,
+   "calibrators_excluded": true,
+   "z_min": 0.02307,
+   "z_max": 2.2613,
+   "z_cut_ok": true,
+   "cov_subset_shape": null,
+   "cov_ok": "n/a (mode C diagonal-only by design)"
+  },
+  "D:zCMB": {
+   "zcol": "zCMB",
+   "n_after_cuts": 1367,
+   "calibrators_excluded": true,
+   "z_min": 0.02307,
+   "z_max": 2.2613,
+   "z_cut_ok": true,
+   "cov_subset_shape": [
+    1367,
+    1367
+   ],
+   "cov_ok": true
+  },
+  "D:zHD": {
+   "zcol": "zHD",
+   "n_after_cuts": 1371,
+   "calibrators_excluded": true,
+   "z_min": 0.02303,
+   "z_max": 2.26137,
+   "z_cut_ok": true,
+   "cov_subset_shape": [
+    1371,
+    1371
+   ],
+   "cov_ok": true
+  },
+  "D:zHEL": {
+   "zcol": "zHEL",
+   "n_after_cuts": 1364,
+   "calibrators_excluded": true,
+   "z_min": 0.02302,
+   "z_max": 2.26,
+   "z_cut_ok": true,
+   "cov_subset_shape": [
+    1364,
+    1364
+   ],
+   "cov_ok": true
+  }
+ },
+ "cov_file_shape": [
+  1701,
+  1701
+ ],
+ "guard_state": {
+  "M2_GUARD": true,
+  "note": "dry-run never flips the guard"
+ }
+}

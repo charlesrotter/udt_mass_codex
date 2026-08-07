@@ -261,6 +261,130 @@ def gate_b(seed=31, n_cal=300, backend="cpu"):
     return res
 
 
+
+# ---------------------------------------------------------------------------
+# M3-PREP gates (prereg SS5; synthetic only, deterministic seeds)
+# ---------------------------------------------------------------------------
+def gate_split_rr(seed=41, n_real=10, nd=8000, nr_per=5000):
+    """SS5.1: split-averaged RR(4 files) vs full concatenated RR.
+    PASS = the across-mocks BIAS of (w_split - w_full) is << the jackknife
+    error (median |bias|/sig < 0.15) AND per-realization agreement is within
+    noise (median per-bin RMS diff / sig < 0.6)."""
+    rng = np.random.default_rng(seed)
+    diffs, sigs = [], []
+    for _ in range(n_real):
+        D = uniform_sphere(nd, rng)
+        R_list = [uniform_sphere(nr_per, rng) for _ in range(4)]
+        a = v_bao.ls_w_theta_split(D, R_list)
+        b = v_bao.ls_w_theta(D, v_bao._concat_catalogs(R_list))
+        diffs.append(a["w"] - b["w"])
+        sigs.append(b["sig"])
+    diffs = np.array(diffs)
+    sig = np.nanmean(np.array(sigs), axis=0)
+    bias = np.nanmean(diffs, axis=0)
+    rms = np.nanstd(diffs, axis=0)
+    med_bias_ratio = float(np.nanmedian(np.abs(bias) / sig))
+    med_rms_ratio = float(np.nanmedian(rms / sig))
+    return {"median_abs_bias_over_sig": med_bias_ratio,
+            "median_rms_over_sig": med_rms_ratio,
+            "n_real": n_real,
+            "pass": bool(med_bias_ratio < 0.15 and med_rms_ratio < 0.6)}
+
+
+def gate_look_elsewhere(seed=51, ns=8, n_cal=300, n_trial=200):
+    """SS5.2: (a) false-positive rate of the global and joint statistics at
+    the frozen p<0.01 threshold on pure-null ensembles + global-p uniformity
+    sanity; (b) a 3-shell injected feature tied to a truth profile yields the
+    ordering local_p <= global_p (trials penalty) and joint_p <= global_p
+    (coherence gain), with joint significant."""
+    import look_elsewhere as le
+    theta = v_bao.theta_bin_centers()
+    z = np.linspace(0.45, 0.80, ns)
+    sig = [np.full(theta.size, 0.002) for _ in range(ns)]
+    rng = np.random.default_rng(seed)
+    # (a) shared calibration ensemble + independent trial draws, per shell
+    forms = [le._design_forms(s, theta) for s in sig]
+    A_cal, A_tri = [], []
+    for i in range(ns):
+        g = forms[i]["good"]
+        Y = rng.normal(0.0, sig[i][g], size=(n_cal + n_trial, int(g.sum())))
+        A = le._a_matrix(Y, forms[i])
+        A_cal.append(A[:n_cal])
+        A_tri.append(A[n_cal:])
+    cal_max = np.array([A.max(axis=1) for A in A_cal])   # (ns, n_cal)
+    tri_max = np.array([A.max(axis=1) for A in A_tri])
+    glob_cal = cal_max.max(axis=0)
+    glob_tri = tri_max.max(axis=0)
+    thr_glob = float(np.quantile(glob_cal, 0.99))
+    fp_glob = float(np.mean(glob_tri > thr_glob))
+    p_tri = np.array([np.mean(glob_cal >= t) for t in glob_tri])
+    combos = le._joint_grid(z, theta)
+    j_cal, _ = le._joint_stat(A_cal, combos)
+    j_tri, _ = le._joint_stat(A_tri, combos)
+    thr_j = float(np.quantile(j_cal, 0.99))
+    fp_joint = float(np.mean(j_tri > thr_j))
+    band = 0.01 + 3 * np.sqrt(0.01 * 0.99 / n_trial)
+    ok_a = (fp_glob <= band and fp_joint <= band
+            and 0.35 < float(np.mean(p_tri)) < 0.65)
+    # (b) injection: truth P1, COHERENT WEAK signal in 6 shells (amp 1.8 sig
+    # per shell) -- individually marginal, jointly strong: the regime the
+    # joint statistic exists for. Ordering demanded: local <= global (the
+    # trials penalty, non-saturated) and joint BEATS global (coherence gain),
+    # joint significant at the frozen 0.01, truth profile recovered.
+    shape_truth, inj_shells, amp = 0.625, range(1, 7), 1.8
+    L = np.log1p(z)
+    g_mid = v_bao.shape_g("P1", np.log1p(z[ns // 2]), shape_truth)
+    s_truth = np.radians(4.0) * g_mid          # theta_b(z_mid) = 4 deg
+    w_obs = []
+    x = np.log(theta)
+    for i in range(ns):
+        y = rng.normal(0.0, sig[i])
+        if i in inj_shells:
+            thb = np.degrees(s_truth / v_bao.shape_g("P1", L[i], shape_truth))
+            y = y + amp * 0.002 * np.exp(-0.5 * ((x - np.log(thb)) / 0.2) ** 2)
+        w_obs.append(y)
+    res = le.analyze_shells(w_obs, sig, z, n_mocks=n_cal, seed=seed + 7)
+    min_local = min(res["local_p"][i] for i in inj_shells)
+    ok_b = (min_local <= res["global_p"] + 1e-12
+            and res["joint"]["p"] < res["global_p"]
+            and res["joint"]["p"] < 0.01
+            and res["joint"]["best_combo"].get("profile") == "P1")
+    return {"fp_global_at_0.01": fp_glob, "fp_joint_at_0.01": fp_joint,
+            "fp_band_3sig": band, "mean_null_global_p": float(np.mean(p_tri)),
+            "inj_min_local_p": min_local, "inj_global_p": res["global_p"],
+            "inj_joint_p": res["joint"]["p"],
+            "inj_joint_best": res["joint"]["best_combo"].get("profile"),
+            "pass": bool(ok_a and ok_b)}
+
+
+def gate_jk_combined(seed=61, n_real=8, nd=6000):
+    """SS5.3 (M2 verifier's owed item): union-region jackknife of the
+    COMBINED-cap estimator vs empirical scatter (M2 JK band 0.6-1.8).
+    Two disjoint synthetic caps separated far beyond theta_max."""
+    rng = np.random.default_rng(seed)
+
+    def cap_patch(n, ra0, dec0):
+        ra = rng.uniform(ra0, ra0 + 60, n)
+        smin, smax = np.sin(np.radians(dec0)), np.sin(np.radians(dec0 + 40))
+        dec = np.degrees(np.arcsin(rng.uniform(smin, smax, n)))
+        return v_bao.Catalog(ra, dec, np.full(n, 0.45),
+                             rng.uniform(0.8, 1.2, n), "synthetic", "cap")
+
+    ws, sigs = [], []
+    for _ in range(n_real):
+        caps = [(cap_patch(nd, 20.0, 5.0), cap_patch(2 * nd, 20.0, 5.0)),
+                (cap_patch(nd, 200.0, -45.0), cap_patch(2 * nd, 200.0, -45.0))]
+        r = v_bao.ls_w_theta_capcombine(caps)
+        ws.append(r["w"])
+        sigs.append(r["sig"])
+    ws = np.array(ws)
+    emp = np.std(ws, axis=0, ddof=1)
+    jk = np.mean(np.array(sigs), axis=0)
+    med = float(np.nanmedian(jk / np.where(emp > 0, emp, np.nan)))
+    return {"median_jk_over_empirical": med, "n_real": n_real,
+            "pass": bool(0.6 <= med <= 1.8)}
+
+
 def run_gates(backend="cpu"):
     """Run all three synthetic gates on the chosen backend and write the
     backend-suffixed results json (B1 amendment: shipped provenance for the

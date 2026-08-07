@@ -1,0 +1,29 @@
+{
+ "gate_split_rr": {
+  "median_abs_bias_over_sig": 0.08792214453757699,
+  "median_rms_over_sig": 0.45871559597072475,
+  "n_real": 10,
+  "pass": true
+ },
+ "gate_look_elsewhere": {
+  "fp_global_at_0.01": 0.01,
+  "fp_joint_at_0.01": 0.0,
+  "fp_band_3sig": 0.031106870919205436,
+  "mean_null_global_p": 0.5577666666666667,
+  "inj_min_local_p": 0.006666666666666667,
+  "inj_global_p": 0.1,
+  "inj_joint_p": 0.0,
+  "inj_joint_best": "P1",
+  "pass": true
+ },
+ "gate_jk_combined": {
+  "median_jk_over_empirical": 1.206402075127298,
+  "n_real": 8,
+  "pass": true
+ },
+ "timings_s": {
+  "gate_split_rr": 5.4,
+  "gate_look_elsewhere": 1.5,
+  "gate_jk_combined": 9.6
+ }
+}
