@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-05
+Date: 2026-08-05 (updated 2026-08-06 — see FRONTIER UPDATE below)
 
 Authority: active scientific navigation and dependency spine; not `CANON.md`
 
