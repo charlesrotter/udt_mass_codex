@@ -106,3 +106,28 @@ discretization hunt; X1 may note where mu would enter but does not pursue it.
   saying it now labels the table's target row (it will still not be imposed on the math).
 - **CP3:** X3 deliberately does NOT hunt the pair law (= the profile = free data). If you want the
   law hunted again despite the session's findings, that is a separate ruling — say so explicitly.
+
+## CP1 / CP2 RESOLVED (Charles, 2026-08-06) — the SR asymptote + the structure/scale split
+
+**CP1 (the load-bearing reading): x_max is a GAMMA-TYPE ASYMPTOTE, confirmed.** Charles: "analogous
+to mass being unable to be accelerated to c in SR and GR. It is the same kind of function." Not an
+analogy — the SAME math: the reciprocal lock is Lorentzian, depth = rapidity, depths ADD (the
+cocycle) exactly as rapidities add, so x_max is UNREACHABLE BY FINITE COMPOSITION exactly as c is
+unreachable by finite boosts. This is a HARD-BOUND-NO / asymptote-YES ruling and it anchors O1's
+candidate theorem physically.
+
+**CP2 (the scale) — STRUCTURE vs SCALE split, Charles-clarified:** c_E and G do NOT set the scale
+ALONE — a velocity + a coupling cannot form a length (dimensional). WITH a mass they can, and the
+only length the units permit is **x_max ~ G*M_total/c^2** (Schwarzschild-scale of the kernel's
+FINITE TOTAL MASS-ENERGY). So Charles's intuition holds: c_E and G ARE in it; they need the finite
+mass-energy to become a length. Consequence: **x_max and "the universe has finite total mass-energy"
+are the SAME statement dimensionally.** (Planck length sqrt(hbar G/c^3) = the OTHER combination =
+microscopic = the SMALL extreme, not cosmic x_max.) HONEST: dimensional analysis forces the FORM
+~G*M_total/c^2 IF the scale comes from {G,c,M_total}, but gives no dimensionless factor and does not
+prove the sourcing — a kernel-consistent SCALE LEAD, not a result.
+
+**SPLIT (binding for the work menu):** STRUCTURE (the gamma-asymptote, unreachable-by-finite-
+composition) comes from the orchestra cocycle and is SCALE-FREE -> O1 pursues it and stays
+scale-free. SCALE (~G*M_total/c^2) rides the finite-mass-energy kernel posit -> tracked SEPARATELY
+as a dimensional lead, NOT hunted inside O1. Both catch-points now resolved; O1 is unblocked on
+Charles's go.

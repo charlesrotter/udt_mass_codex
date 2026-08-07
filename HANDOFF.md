@@ -6,6 +6,18 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-06).** Synchronize it before orientation.
 
+## RESTART ANCHOR (2026-08-06) — READ LIVE.md TOPMOST FIRST
+
+Frontier = **phi+orchestra (milestone) -> c_eff reframe (verified) -> mu (deferred, discretization
+seed)**. Active forward lane = **x_max as the pair question native to phi+orchestra**
+(`udt_xmax_pair_question_MAP_2026-08-06.md`, map done, both catch-points resolved: x_max is a
+gamma-type ASYMPTOTE (SR "can't reach c" -- same math via the cocycle); STRUCTURE (asymptote, O1,
+scale-free) vs SCALE (~G*M_total/c^2, the finite mass-energy, tracked separately). NEXT = O1 on
+Charles's go. The Global Cell Assembly lane is ARCHIVED-LEGACY (regression; re-derive from the
+frontier if needed); standalone repairs stand (canon C-2026-08-06-2, the two-mirror re-grade).
+Build FORWARD; do not reach into the pre-orchestra corpus without a re-grade. Paragraph below is the
+earlier-in-session note, superseded by this anchor and LIVE's topmost block.
+
 ## CURRENT (2026-08-06) — c_eff reframe absorbed; canon C-2026-08-06-1; profile = free-data inference; deliberate stop
 
 The 2026-08-06 session (Charles-driven) unified c_eff / the depth profile / the phi+orchestra strain

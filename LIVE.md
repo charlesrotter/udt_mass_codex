@@ -4,69 +4,65 @@
 
 **⚠ BRANCH: work is on `grok` (2026-08-06).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description.**
-## ============ CURRENT STATE (2026-08-06 — C_EFF REFRAME ABSORBED; CANON C-2026-08-06-1 RULED; PROFILE = FREE-DATA INFERENCE; DELIBERATE STOP, NO ACTIVE LANE) ============
+## ============ CURRENT STATE (2026-08-06 — RESTART ANCHOR: frontier = phi+orchestra -> c_eff -> mu(deferred); x_max PAIR-QUESTION MAP on desk, O1 next; assembly ARCHIVED-LEGACY) ============
 
-**SESSION ARC (2026-08-05/06, Charles-driven c_eff reframe -> action/law push -> reconciliation -> rulings):**
-1. **c_eff INTEGRATION (blind-verified PASS-WITH-CORRECTIONS, corrections applied):**
-   `udt_ceff_depth_orchestra_integration_2026-08-06.md` + `udt_ceff_profile_binding_test_2026-08-06/BLIND_VERIFICATION.md`.
-   c_eff (cone ratio), the depth profile phi, and the phi+orchestra strain timelike eigenvalue are ONE
-   object; the INVARIANT is the two-point RATIO `c_eff(emit)/c_eff(obs)=e^{-2 Delta phi}=(1+z)^{-2}`
-   (note the SQUARE); absolute c_eff is chart-gauge; `a` (screen-area) is separable. `lambda_t` is
-   two-point; the point identity is the phi_p=0 reference case.
-2. **ACTION/NATIVE-LAW PUSH — concluded, every route depth-blind:** EH on the lock = null Lagrangian
-   (re-derivation of the banked 07-01 EH-emptiness; `udt_vary_phi_not_metric_probe_2026-08-06/`, 2 reviews);
-   the c_eff reciprocal does NOT un-blind (c_eff = RATIO A/B, blindness = PRODUCT A*B — orthogonal;
-   `DERIVATION_NOTES_ceff_reciprocal.md`); consistency conditions C2 (integrability) and C3 (Noether)
-   grounded DEPTH-BLIND (screen-sector only; `udt_relational_law_consistency_MAP_2026-08-06.md`);
-   depth-angular MIXING lane = COUPLING-INERT (obstruction absorbed by free field k — symbolic rank-1
-   identity; `udt_mixing_channel_lane_2026-08-06/`, 2 reviews + final blind verification).
-   **SOLID POSITIVE:** `mu` = the invariant non-gauge DEFECT of the reciprocal lock
-   (lambda_time*lambda_radial=1 iff mu=0), **SCOPED s != r** (on s=r it is pure gauge — exact witness);
-   recorded as the future DISCRETENESS-SEARCH SEED (memory + lane doc).
-3. **CULMINATING INFERENCE (labeled inference, NOT a theorem):** the c_eff/depth PROFILE is left
-   unconstrained by EVERY structure examined -> it behaves like FREE boundary/initial DATA; P-opt is
-   a genuine posit. Earlier same-session probes consistent: copresence->P-opt REFUTED (circular; x_max
-   leaves a family); static crux CT-TRIVIAL (u pinned to the Killing frame — a static-spacetime theorem);
-   time-live probe TL-INVARIANT-GENERIC (un-pinning real; invariants GR-generic).
-4. **RECONCILIATION MAP (read before citing stuck work):**
-   `udt_reconciliation_reframe_2026-08-06/RECONCILIATION_MAP.md` — UNAFFECTED 12 / CANDIDATES 9 (4
-   substantive) / STRENGTHENED 6. Surprises: the WR-L/macro lane is already c_eff-native (fewer
-   casualties); lock-as-gauge is CHART-SCOPED (with the areal anchor B=1/A <=> G^t_t=G^r_r, substantive);
-   the H3 interior-lock demotion is retro-vindicated.
-5. **CHARLES'S RULINGS (2026-08-06, executed):** **Canon C-2026-08-06-1** — chart-scoped rewording of
-   the C-2026-06-18-1 READING (derivation untouched; the product is chart-scoped + GR-shared; invariant
-   carriers = the c_eff ratio and mu; the departure lives in the global kernel + whatever closes the
-   profile). **Registry banner 2026-08-06** — point-of-use re-grades AUTHORIZED for #33 (engine =
-   bulk-law-supplies-profile), #38 argument (A) (lock-read-as-physical), and the #40 absolute-depth
-   family (#41/43/44/56/57/59/65): CONDITIONS-CHANGED-CANDIDATES, no blocking authority on the named
-   argument until re-graded at point of use.
+**RESTART ANCHOR (Charles requested a clean handoff 2026-08-06). Read THIS block, then
+`udt_xmax_pair_question_MAP_2026-08-06.md`, then the resume path at the end.**
 
-**CORRECTION (2026-08-06, latest — Charles's ruling; THIS supersedes the assembly update):
-the GLOBAL CELL ASSEMBLY lane is ARCHIVED AS LEGACY** (`archive/global_cell_assembly_2026-08-06_legacy/`
-+ its ARCHIVED_LEGACY_STAMP). Charles caught the lane as REGRESSION: it reached backward into the
-July corpus (cells/folds/mirrors/the legacy CMB anchor) instead of building forward from the
-current foundation, every verdict conditional on the UNFORCED law-set S, and x_max never entered.
-Standalone repairs that STAND: canon C-2026-08-06-2 (anchor value demoted to symbolic, Charles-
-ruled) and the two-mirror registry re-grade (in place, independent).
+**THE FRONTIER LINE — build FORWARD from here. Do NOT reach into the pre-orchestra corpus without an
+explicit re-grade** ([[build-forward-from-current-foundation]]; the archival lesson below):
+1. **phi+orchestra — the milestone (banked 2026-08-05):** `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.
+   The complete two-observer comparison has a frame-covariant strain C_A=A^dagger A; depth
+   delta_t=-(1/2)log(lambda_timelike) is a groupoid 1-cocycle reducing to founded phi; the metric has
+   NOT selected the unique physical cocycle.
+2. **the c_eff REFRAME (blind-verified PASS-WITH-CORRECTIONS, 2026-08-06):**
+   `udt_ceff_depth_orchestra_integration_2026-08-06.md`. c_eff (cone ratio sqrt(-g_tt/g_xx)) = the
+   depth profile phi = the strain timelike eigenvalue lambda_t: ONE object. INVARIANT = the TWO-POINT
+   RATIO c_eff(emit)/c_eff(obs)=e^{-2 Delta phi}=(1+z)^{-2} (the SQUARE); absolute c_eff is
+   chart-gauge. The reciprocal-lock PRODUCT g_tt*g_xx=-c^2 is chart-gauge + GR-shared (canon
+   C-2026-08-06-1); the UDT departure lives in the ratio-profile + the global kernel.
+3. **mu — DEFERRED, held for the DISCRETIZATION hunt:** [[udt-mu-reciprocal-lock-defect-invariant]]
+   + `udt_mixing_channel_lane_2026-08-06/`. mu = the invariant non-gauge DEFECT of the reciprocal
+   lock (lambda_time*lambda_radial=1 iff mu=0), SCOPED s!=r, blind-verified. Gave NO law here
+   (COUPLING-INERT); its value is as the phi-angular discreteness SEED (does a compact target /
+   winding BC / finite-cell junction QUANTIZE mu? start a future discreteness search THERE).
 
-**THE ACTUAL FRONTIER (Charles-restated): phi+orchestra (the milestone) -> the c_eff integration
-(verified: c_eff = depth profile = the strain timelike eigenvalue; invariant = the two-point ratio
-= (1+z)^{-2}) -> mu (the reciprocal-lock defect invariant, s != r, HELD for the discretization
-hunt).** Build FORWARD from this; do not reach into the pre-orchestra corpus without a re-grade.
+**ACTIVE FORWARD LANE — x_max as the pair question native to phi+orchestra.** MAP done (map-only,
+`udt_xmax_pair_question_MAP_2026-08-06.md`); both catch-points resolved by Charles 2026-08-06:
+- **x_max = a GAMMA-TYPE ASYMPTOTE** (Charles: "analogous to mass unable to be accelerated to c in
+  SR/GR -- the same kind of function"). Same math, not analogy: the reciprocal lock is Lorentzian,
+  depth = rapidity, depths ADD (cocycle) so x_max is UNREACHABLE BY FINITE COMPOSITION exactly as c
+  is unreachable by finite boosts. NOT a hard bound.
+- **STRUCTURE vs SCALE split:** STRUCTURE (the gamma-asymptote) = orchestra cocycle, SCALE-FREE ->
+  this is O1. SCALE ~ **G*M_total/c^2** (Schwarzschild-scale of the kernel's finite total
+  mass-energy): c_E and G cannot form a length alone (velocity+coupling), but WITH the finite
+  mass-energy they do -> **x_max and "finite total mass-energy" are the same statement
+  dimensionally.** Dimensional LEAD (no factor; sourcing open); tracked SEPARATELY, NOT hunted in
+  O1. (Planck length sqrt(hbar G/c^3) = the microscopic combination = the SMALL extreme, not x_max.)
+- **NEXT STEP = O1 (gated on Charles's go):** prove the lambda_t->0 degeneration is a gamma-type
+  asymptote unreachable by finite composition (the orchestra analog of "nothing reaches c"). Pure
+  orchestra algebra, scale-free, preregister + 2 reviews. Then O2 (native separation-measure table,
+  characterize-not-pin -- F-PIN), O3 (approach-profile classes; the pair LAW = the profile = FREE
+  DATA is NOT hunted -- F-LAWHUNT).
 
-**FORWARD QUESTION ON DESK (posed, not launched — Charles's go required): x_max AS THE PAIR
-QUESTION IN PHI+ORCHESTRA.** G14's pair law was never derived; phi+orchestra is the pair formalism
-the question was waiting for: x_max = where the two-observer comparison strain DEGENERATES
-(lambda_t -> 0). Pose the MAP from the orchestra's native objects; no cells, no folds, no legacy
-anchors.
+**ARCHIVED-LEGACY this session (do NOT resume; re-derive from the frontier if the question returns):**
+the Global Cell Assembly lane (cells/folds/mirrors, all conditional on the UNFORCED 2026-07-01
+law-set S, x_max absent) -> `archive/global_cell_assembly_2026-08-06_legacy/`. It was a REGRESSION
+(reached backward). STANDALONE REPAIRS THAT STAND: canon C-2026-08-06-2 (the CMB anchor VALUE demoted
+to symbolic ln(T_emit/T_CMB), interpretation-conditional; form kept) + the two-mirror registry
+re-grade (`udt_two_mirror_rigidity_regrade_2026-08-06/`).
 
-**POSTURE (kept, current again after the archival): DELIBERATE/slow strategy — no active lane; the forward question above awaits Charles's go. Older desk items: DELIBERATE STOP — no active lane (Charles's slow-strategy ruling; no flailing, no rabbit
-holes).** ON DESK for the next push, Charles to pick: (a) what closes the depth profile (free data +
-P-opt posit vs a not-yet-found closer; the forward gates P-opt/F01/F04 now carry a boundary-data/
-topology fork alongside the bulk/action fork); (b) the parked mu discreteness seed (does a compact
-target / winding BC / finite-cell junction quantize mu?); (c) point-of-use re-grades as stuck work
-gets revisited. DRIVER PATTERN (for the verifier): repeated owner-favorable steer slips this session,
-all caught by reviews — weight driver leans near zero until reviewed.
+**CANON RULED THIS SESSION:** C-2026-08-06-1 (chart-scoped reciprocal-lock reading; derivation
+untouched) and C-2026-08-06-2 (anchor value symbolic/demoted). **REGISTRY:** point-of-use re-grades
+authorized (#33, #38(A), #40-family) + the two-mirror re-grade note.
+
+**DRIVER PATTERN (binding, for the verifier):** this session had repeated owner-favorable steer slips
+AND over-deflations (all caught by reviews) plus a whole-lane REGRESSION (the assembly). Weight driver
+"looks profound / looks empty / here's the next lane" near ZERO until reviewed; check that KERNEL
+objects (x_max, copresence) are IN the derivations, not just old objects (cells/folds/anchors).
+
+**RESUME PATH:** this block -> `udt_xmax_pair_question_MAP_2026-08-06.md` -> the c_eff integration doc
+-> CANON.md (C-2026-08-06-1/-2) -> O1 on Charles's go. Then AGENTS.md sync sequence as usual.
 
 ## ============ PRIOR STATE (2026-08-05 — COMPLETE-PAIR COCYCLE HOME DERIVED; PHYSICAL LAW OPEN) ============
 **ACTIVE SCIENTIFIC SPINE:** `CURRENT_RESEARCH_PROGRAM.md` is now the concise current dependency

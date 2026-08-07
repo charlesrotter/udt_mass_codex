@@ -1,11 +1,15 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-06 STATUS: NOTHING IN FLIGHT.** The 2026-08-06 session closed at a DELIBERATE STOP
-> (Charles's slow-strategy ruling): the c_eff reframe is absorbed (canon C-2026-08-06-1 ruled;
-> point-of-use re-grades authorized; reconciliation map committed), no lane is active, and the
-> next-push options sit on desk in LIVE.md's topmost block. Resume path: LIVE.md topmost →
-> HANDOFF.md CURRENT → `udt_reconciliation_reframe_2026-08-06/RECONCILIATION_MAP.md`. The ledger
-> below is the PRIOR (2026-08-01) in-flight record, kept for history.
+> **2026-08-06 STATUS (RESTART ANCHOR): frontier = phi+orchestra -> c_eff -> mu(deferred); the
+> x_max PAIR-QUESTION lane is the active forward lane, MAP done, O1 pre-registration PENDING (gated
+> on Charles's go).** IF YOU ARE THE NEW SESSION: read LIVE.md topmost block first, then
+> `udt_xmax_pair_question_MAP_2026-08-06.md` (both catch-points resolved: x_max = gamma-type
+> asymptote per SR "can't reach c"; STRUCTURE=O1 scale-free / SCALE ~G*M_total/c^2 tracked
+> separately). NEXT CONCRETE STEP = preregister + run O1 (prove the lambda_t->0 degeneration is an
+> asymptote unreachable by finite composition; pure orchestra algebra; 2 reviews). Then O2 (measure
+> table), O3 (approach classes; pair law NOT hunted). The Global Cell Assembly lane is
+> ARCHIVED-LEGACY (do not resume). Build FORWARD from the frontier; no pre-orchestra reach without a
+> re-grade. The ledger below is the PRIOR (2026-08-01) in-flight record, kept for history.
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW MODEL: read LIVE.md topmost,
 then P4_ARC_SUMMARY_2026-07-31.md, ROADMAP_LINEAR_TIME_2026-07-31.md, this file, and the A3
