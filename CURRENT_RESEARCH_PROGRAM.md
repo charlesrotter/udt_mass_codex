@@ -7,6 +7,30 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
+## FRONTIER UPDATE (2026-08-06 — supersedes the 08-05 framing below on the c_eff/x_max points)
+
+The 08-05 statements below STAND as banked structure; this update states the current FRONTIER LINE
+and the active lane so a fresh session builds FORWARD (LIVE.md topmost is the authority).
+
+- **Frontier line:** phi+orchestra (milestone) -> the c_eff REFRAME (blind-verified 08-06) -> mu
+  (deferred discretization seed). c_eff (cone ratio), the depth profile phi, and the strain timelike
+  eigenvalue are ONE object; the INVARIANT is the two-point RATIO c_eff(emit)/c_eff(obs)=(1+z)^{-2};
+  absolute c_eff is chart-gauge; the reciprocal-lock PRODUCT is chart-gauge + GR-shared (canon
+  C-2026-08-06-1). Doc: `udt_ceff_depth_orchestra_integration_2026-08-06.md`.
+- **Active lane: x_max as the pair question native to phi+orchestra** —
+  `udt_xmax_pair_question_MAP_2026-08-06.md` (MAP done). x_max = a GAMMA-TYPE ASYMPTOTE (SR "can't
+  reach c" -- same math via cocycle additivity), STRUCTURE (asymptote, scale-free; = the next step
+  O1) separated from SCALE (~G*M_total/c^2 from the finite total mass-energy -- this SHARPENS the
+  08-05 "c_E and G do not set an absolute length alone": they set it WITH the finite mass-energy;
+  a dimensional lead, not derived). NEXT = O1, gated on Charles's go.
+- **mu** = the invariant non-gauge defect of the reciprocal lock (lambda_t*lambda_r=1 iff mu=0),
+  scoped s!=r, blind-verified; held for the discretization hunt.
+- **Archived-legacy 08-06:** the Global Cell Assembly lane (cells/folds/mirrors, conditional on the
+  UNFORCED 07-01 law-set, x_max absent) was a regression -> `archive/global_cell_assembly_2026-08-06_legacy/`.
+  Standalone repairs stand: canon C-2026-08-06-2 (CMB anchor value -> symbolic ln(T_emit/T_CMB),
+  interpretation-conditional) + the two-mirror registry re-grade. BUILD FORWARD; no pre-orchestra
+  reach without an explicit re-grade ([[build-forward-from-current-foundation]]).
+
 ## What is banked
 
 - The founded object is an exact reciprocal character on supplied ordered relative depth:

@@ -37,6 +37,11 @@ do not dump whole long files or recursively open cited evidence during orientati
 5. `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md` for current observer-pair,
    `phi`, angular-orchestra and physical-cocycle orientation; then exact evidence only to the depth
    required by the user's task.
+5a. **FRONTIER (2026-08-06):** `udt_xmax_pair_question_MAP_2026-08-06.md` (the active lane -- x_max
+   as the pair question; O1 pending) and `udt_ceff_depth_orchestra_integration_2026-08-06.md` (the
+   c_eff reframe; the two-point ratio is the invariant). Build FORWARD from these; the Global Cell
+   Assembly lane is ARCHIVED-LEGACY (`archive/global_cell_assembly_2026-08-06_legacy/`) -- do not
+   reach into the pre-orchestra corpus without an explicit re-grade.
 6. When mass emergence, stability, branch response, or particle history is relevant, read
    `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv` first. It is the
    seven-entry plural-branch authority map. Then use its cited reconciliation evidence and
