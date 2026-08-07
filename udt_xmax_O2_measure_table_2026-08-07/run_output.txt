@@ -1,0 +1,35 @@
+i_depth_limit_wall: oo
+i_proper_integral_and_condition: -0**(1 - n/2)/(1 - n/2) + 1/(1 - n/2)
+i_proper_closed_form_nlt2: -2*R_w/(sqrt(c_0)*(n - 2))
+i_proper_witness_n=1/2: 4*R_w/(3*sqrt(c_0))
+i_proper_witness_n=1: 2*R_w/sqrt(c_0)
+i_proper_witness_n=2_divergent: R_w*log(-R_w*sqrt(c_0))/sqrt(c_0) + oo
+CROSSCHECK_L_proper_eq_2X: True
+i_optical_integral_and_condition: -0**(1 - n)/(1 - n) + 1/(1 - n)
+i_optical_witness_n=1/2: 2*R_w/c_0
+i_optical_witness_n=1_divergent: R_w*log(-R_w) + oo
+i_optical_n1_partial_log_rate: -R_w*log(u)
+i_optical_witness_n=2_divergent: oo
+travel_time_equals_optical_over_c: Eq(T, ell_opt/c)
+i_areal_limit: R_w
+i_redshift_limit_wall: oo
+CROSSCHECK_dL_convention_L: True
+i_dL_limit_wall: oo
+i_dA_limit_wall_convention_r: R_w
+i_dA_variant_r_over_1pz_limit: 0
+i_infall_integrand_wall_limit: 1/epsilon
+ii_depth_limit: oo
+ii_proper_divergent: oo
+ii_optical_divergent: oo
+ii_areal_limit: oo
+ii_redshift_limit: oo
+ii_dL_limit: oo
+ii_dA_limit_convention_r: oo
+ii_dA_variant_limit: 0
+ii_infall_integrand_limit: 1/epsilon
+iii_edge_t^q_on_(log2,oo): (-log(2)*log(2)**q/(q + 1), q < -1)
+iii_optical_n1_logcorrected_t^-p: (log(2)/((p - 1)*log(2)**p), p > 1)
+iii_witness_p=2_finite: 1/log(2)
+iii_witness_p=1_divergent: oo
+
+ALL_KEYS: 33

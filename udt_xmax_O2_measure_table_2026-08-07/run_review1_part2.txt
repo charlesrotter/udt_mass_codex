@@ -1,0 +1,28 @@
+=== BUDGET INFIMUM: greedy chain, total depth budget -> 0 ===
+budget 0.1: total depth used = 0.099902344, final lambda_t = 9.35e-15, final depth = 16.1514, all truncations timelike-labeled = True
+   truncation depths: [1.17, 3.29, 4.84, 6.61, 7.73, 9.78, 11.9, 13.34, 16.15]
+budget 0.01: total depth used = 0.0099902344, final lambda_t = 3.44e-16, final depth = 17.8031, all truncations timelike-labeled = True
+   truncation depths: [1.39, 2.88, 4.97, 6.87, 8.11, 10.9, 13.89, 16.18, 17.8]
+budget 0.001: total depth used = 0.00099902344, final lambda_t = 5.38e-22, final depth = 24.4875, all truncations timelike-labeled = True
+   truncation depths: [1.04, 3.01, 5.84, 8.6, 10.68, 12.09, 16.94, 21.06, 24.49]
+=> chains with TOTAL DEPTH BUDGET <= any epsilon accumulate to the wall: inf = 0.
+   (Boost legs are zero-depth isometries: strain = I, verified in part 1.)
+
+=== PROTECTIVE FULL BUDGET: depth_comp <= sum(|d_i|) + sum(|w_i|) ===
+violations of depth <= full(depth+twist)-budget over 200 random chains: 0
+=> a budget that also charges non-compact twist rapidity IS wall-protective
+   (accumulation to the wall forces total full-budget -> oo).
+
+=== INCLUSION CHAIN generality: non-class oscillatory profile ===
+proper integral (u in [1e-8,1]) converged value ~ 4.93381
+optical partials as cutoff->0: ['30.77', '341.9', '3496.0'] (diverging)
+=> matches the GENERAL theorem: A->0 gives A<1 near wall, so
+   1/A > 1/sqrt(A) > 1: optical-finite => proper-finite => chart/areal-finite,
+   for EVERY A->0 profile (not only classes (i)-(iii)); converses fail (n=3/2, n=3).
+
+=== MISSING-CLASS probe: wall at infinite radius with POWER-LAW decay ===
+alpha=1: r*sqrt(A) = r^0.5 as r->oo -> oo
+alpha=2: r*sqrt(A) = r^0.0 as r->oo -> finite const
+alpha=3: r*sqrt(A) = r^-0.5 as r->oo -> 0
+proper/optical/areal/z/d_L/d_A=r all still DIVERGENT for any alpha>0 (A<=1 near wall,
+integrands >= 1 over infinite range); infall also divergent (dr/dtau -> c*e, infinite range).

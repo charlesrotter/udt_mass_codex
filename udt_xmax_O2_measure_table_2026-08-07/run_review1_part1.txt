@@ -1,0 +1,59 @@
+=== 1. CLASS (i): A = c0*(1-r/Rw)^n, sub u=1-r/Rw, wall u->0+ ===
+i_proper_limit_n_lt2 = 0
+i_proper_limit_n_gt2 = -oo
+i_proper_value_check_2Rw_over_sqrtc0_2mn = True
+i_proper_witness_n=1/2 = True
+i_proper_witness_n=1 = True
+i_proper_witness_n=2_divergent = True
+i_optical_limit_n_lt1 = 0
+i_optical_limit_n_gt1 = -oo
+i_optical_value_check = True
+i_optical_witness_n=1/2 = True
+i_optical_n1_partial = True
+i_optical_n1_rate_2X_delta = True
+=== P-opt adjudication: d ell_opt/d phi constant iff n=1 (pure class i) ===
+Popt_ratio_general_n = 2*R_w*u**(1 - n)/(c_0*n)
+Popt_const_iff_n1 = True
+Popt_iii_n1_ratio = -2*R_w*(-log(u))**p*log(u)/(c_0*(p - log(u)))
+Popt_iii_n1_nonconst_for_p_ne_0 = True
+=== CLASS (ii): A = e^{-r/X} ===
+ii_proper_divergent = True
+ii_optical_divergent = True
+ii_areal_limit = oo
+ii_redshift_limit = oo
+ii_dL_limit = oo
+ii_dA_r_limit = oo
+ii_dA_variant_limit = 0
+=== CLASS (iii) knife edges: A = c0 u^n (-ln u)^{-p}, t = -ln u ===
+iii_optical_n1_value_p=-(1+a) = 1/a
+iii_optical_n1_edge_P1_div = True
+iii_optical_witness_P2 = 1/log(2)
+iii_proper_n2_value_p=-(2+a) = 2/a
+iii_proper_n2_edge_div = True
+=== CLASS (i) remaining rows ===
+i_areal_limit = R_w
+i_depth_limit = oo
+i_redshift_limit = oo
+i_dL_limit = oo
+i_dA_r_limit = R_w
+i_dA_variant_limit = 0
+=== INFALL geodesic (independent re-derivation) ===
+infall_rdot2 = c**2*(R_w**n*e**2 - c_0*(R_w - r)**n)/R_w**n
+infall_rdot2_check = True
+infall_integrand_wall_limit = 1/(c*e)
+infall_witness_n1_tau = 2*R_w/c
+infall_ii_divergent = True
+=== CROSS-CHECKS vs banked record ===
+XC1_L_proper_2X = True
+XC2_L_optical_rate = True
+XC3_exp_proper_div = True
+XC4_quad_proper_div = True
+XC5_n_lt_2_iff_m_gt_half = 1/2 < m
+XC6_dL_z_zp2 = True
+XC6_Etherington_forces_dA_eq_r = True
+=== ABSTRACT BUDGET ROW: settle the infimum exactly ===
+boost_leg_strain_is_identity = True
+trace_law_recomputed = True
+detC2_is_1 = True
+twist_coefficient_positive = True
+depth_unbounded_in_twist = oo*sign(exp(8*epsilon) - 2*exp(4*epsilon) + 1)

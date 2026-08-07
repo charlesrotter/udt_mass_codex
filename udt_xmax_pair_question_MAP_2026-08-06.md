@@ -145,3 +145,18 @@ to the wall (no budget protection; finite chain LENGTH is the load-bearing quant
 mu-direction is wall-protective. Anti-hunch datum (scoped): pure angular rotation composes
 additively at this layer. Package: `udt_xmax_O1_asymptote_2026-08-07/`. NEXT: O2 (the native
 separation-measure table) on Charles's go.
+
+
+## O2 RESULT (2026-08-07): the measure table, verified lead (2 reviews, amendments applied)
+
+X2 answered: `udt_xmax_O2_measure_table_2026-08-07/` (CONSOLIDATED). Headlines: a strict
+profile-general inclusion hierarchy (optical-finite => proper-finite => areal/d_A-finite, never
+conversely); the finite/divergent split is a power-law-class phenomenon (exponential and
+power-decay walls diverge in nearly everything); d_A = r -> R_w FINITE at the wall for all n
+(class i) while z and d_L diverge; the L member (n=1) sits exactly on the optical knife-edge with
+rate ell_opt = 2X*delta — ONE-WAY: P-opt => the edge, not conversely; license: locates, does not
+derive. ABSTRACT layer: the depth-only budget is DEGENERATE (inf = 0 — the wall at zero
+depth-budget separation), but the FULL budget (depth + twist) IS protective (the refined SR
+functional). NEXT: **Charles's CP2 ruling is RIPE** (the kernel's "spatial" — the decision aid is
+drafted, neutral, in the O2 review 2 §5); then O3 (approach-class selection under the ruling +
+kernel posit) closes the structure lane and feeds the scale lane's profile family.
