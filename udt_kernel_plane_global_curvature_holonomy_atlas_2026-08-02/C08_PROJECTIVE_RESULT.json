@@ -1,0 +1,106 @@
+{
+  "P_denominator": {
+    "maximum_total_degree": 4,
+    "minimum_total_degree": 0,
+    "positive_W_power_cleared": 2,
+    "projective_term_count": 10,
+    "projective_total_degree": 4,
+    "total_degree_parity": 0
+  },
+  "P_numerator": {
+    "maximum_total_degree": 18,
+    "minimum_total_degree": 2,
+    "positive_W_power_cleared": 8,
+    "projective_term_count": 1045,
+    "projective_total_degree": 18,
+    "total_degree_parity": 0
+  },
+  "candidate_id": "C08",
+  "components": [
+    {
+      "component": "12",
+      "contact_reduced_degree": 46,
+      "contact_reduced_sha256": "4d7bafec9943298006d3726b5664bcf5bc28a4cec90b9fe42876e794d3986edd",
+      "contact_reduced_terms": 1349,
+      "contact_reduced_x_degree": 1,
+      "contact_reduction_denominator": "(1 - 2*y_ratio**2)**11",
+      "maximum_total_degree": 25,
+      "minimum_total_degree": 3,
+      "output_sha256": "5d8621f5b8a4a13c71607fd37dc93f62ba719069e18381a5f045c243737fc9d7",
+      "positive_W_power_cleared": 11,
+      "projective_term_count": 2880,
+      "projective_total_degree": 25,
+      "source_sha256": "608bc0aca06376986a273b881db75f4149b67c8598954991c17482b05d78e801",
+      "total_degree_parity": 1
+    },
+    {
+      "component": "13",
+      "contact_reduced_degree": 44,
+      "contact_reduced_sha256": "330dbffe1699ccb81f0eb8fe1a2ff0e39f415f6f34e8b17e6cc2399bb00528a2",
+      "contact_reduced_terms": 1205,
+      "contact_reduced_x_degree": 1,
+      "contact_reduction_denominator": "(1 - 2*y_ratio**2)**10",
+      "maximum_total_degree": 25,
+      "minimum_total_degree": 3,
+      "output_sha256": "33830bbc4ea512e807963bce09c69f4c1571f6d7214ae5f5d73d23b8e39e30fe",
+      "positive_W_power_cleared": 11,
+      "projective_term_count": 2708,
+      "projective_total_degree": 25,
+      "source_sha256": "984f2260a8565f65eefc2b98a0592f8463259d0b91255d877446b7d52266556b",
+      "total_degree_parity": 1
+    },
+    {
+      "component": "23",
+      "contact_reduced_degree": 45,
+      "contact_reduced_sha256": "88673972d7d5d3a3d313ec5b76d5bf53ae1ef9764e23310c7d44f7d286d704b6",
+      "contact_reduced_terms": 1238,
+      "contact_reduced_x_degree": 1,
+      "contact_reduction_denominator": "(1 - 2*y_ratio**2)**11",
+      "maximum_total_degree": 25,
+      "minimum_total_degree": 3,
+      "output_sha256": "cf56fca1e7e331c8e36757d5a8f8993581e37c0c9690297f4aa576c3890ec4c0",
+      "positive_W_power_cleared": 11,
+      "projective_term_count": 2733,
+      "projective_total_degree": 25,
+      "source_sha256": "deb886757c9c3eafb81c76195c45dd2036656913539ae7440d0c1beea7be01ba",
+      "total_degree_parity": 1
+    }
+  ],
+  "contact": "-2*x_ratio**2*y_ratio**2 + x_ratio**2 - 3*y_ratio**2",
+  "coverage_lemma": "contact_zero AND q0_zero IMPLIES defect; therefore q0_nonzero covers all regular zeros",
+  "defect": {
+    "expression": "4*x_ratio**4*y_ratio**2 + x_ratio**4 + 4*x_ratio**2*y_ratio**4 + 4*x_ratio**2*y_ratio**2*z_ratio**2 + 14*x_ratio**2*y_ratio**2 + x_ratio**2*z_ratio**2 + x_ratio**2 + 9*y_ratio**4 + 9*y_ratio**2*z_ratio**2 + 9*y_ratio**2",
+    "maximum_total_degree": 6,
+    "minimum_total_degree": 6,
+    "positive_W_power_cleared": 0,
+    "projective_term_count": 10,
+    "projective_total_degree": 6,
+    "total_degree_parity": 0
+  },
+  "global_real_zero_classification_complete": false,
+  "lexicographic_classification": {
+    "basis_length": null,
+    "basis_sha256": null,
+    "status": "NOT_RUN",
+    "univariate_polynomials": []
+  },
+  "polynomial_hashes": {
+    "C08_CONTACT_REDUCED_B_12.txt": "4d7bafec9943298006d3726b5664bcf5bc28a4cec90b9fe42876e794d3986edd",
+    "C08_CONTACT_REDUCED_B_13.txt": "330dbffe1699ccb81f0eb8fe1a2ff0e39f415f6f34e8b17e6cc2399bb00528a2",
+    "C08_CONTACT_REDUCED_B_23.txt": "88673972d7d5d3a3d313ec5b76d5bf53ae1ef9764e23310c7d44f7d286d704b6",
+    "C08_PROJECTIVE_B_12.txt": "5d8621f5b8a4a13c71607fd37dc93f62ba719069e18381a5f045c243737fc9d7",
+    "C08_PROJECTIVE_B_13.txt": "33830bbc4ea512e807963bce09c69f4c1571f6d7214ae5f5d73d23b8e39e30fe",
+    "C08_PROJECTIVE_B_23.txt": "cf56fca1e7e331c8e36757d5a8f8993581e37c0c9690297f4aa576c3890ec4c0"
+  },
+  "ratio_chart": "x=q1/q0;y=q2/q0;z=q3/q0;q0^2=1/(1+x^2+y^2+z^2)",
+  "saturation": {
+    "basis_length": null,
+    "basis_sha256": null,
+    "status": "NOT_RUN",
+    "unit_ideal": null,
+    "zero_dimensional": null
+  },
+  "schema": "udt-projective-zero-set-1.0",
+  "source_manifest_sha256": "6ded588b88422cd235c78b4ae36342fb62077c99e8480cfb66fdbbdbb49e29c4",
+  "status": "PASS_EXACT_PROJECTIVE_CONSTRUCTION"
+}

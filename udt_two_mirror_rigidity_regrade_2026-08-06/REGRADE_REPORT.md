@@ -146,3 +146,7 @@ The value ln(1101) is hereby a SEPARATE, FLAGGED premise: it rides the standard 
 recombination INTERPRETATION of the CMB (z ~ 1100) — a legacy-model import, not native, not
 currently derivable in UDT (canon C-2026-07-02-1 under provenance audit, Charles-directed
 2026-08-06). Quantitative statements only (witness numbers, IVT thresholds) depend on the value.
+
+## LANE DISPOSITION (2026-08-06, Charles): the Global Cell Assembly lane this served as "Step 1"
+of is ARCHIVED-LEGACY (`archive/global_cell_assembly_2026-08-06_legacy/`). THIS re-grade stands
+independently as the authorized point-of-use registry re-grade; the registry note is unaffected.

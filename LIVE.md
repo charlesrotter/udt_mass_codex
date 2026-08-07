@@ -41,19 +41,26 @@
    family (#41/43/44/56/57/59/65): CONDITIONS-CHANGED-CANDIDATES, no blocking authority on the named
    argument until re-graded at point of use.
 
-**UPDATE (2026-08-06, later): the GLOBAL CELL ASSEMBLY lane is ACTIVE** — MAP
-(`udt_global_cell_assembly_MAP_2026-08-06.md`, spine = closure<->profile interlock, Charles-
-confirmed) + Step 1 (two-mirror rigidity re-graded RG-DISCRIMINATOR-AMENDED; the "phi'=0 both ends"
-BC-class inadmissible within S; canon odd fold + generic glue ESCAPE) + Step 2 (S2-MIXED sustained:
-fold=CONSTRAINS-thin, glue=ADMITS-ALL-with-flip-rider, the SNe L-lead OUTSIDE the fold class /
-bulk-INSIDE glue) are COMPLETE with reviews; Q1 rows 1-3 banked to the map. ANCHOR RE-SCOPE
-(Charles-caught): all rows ride only "some Delta phi > 0"; the value ln(1101) quarantined ->
-provenance audit -> **canon C-2026-08-06-2 ruled** (form kept; value demoted to symbolic
-ln(T_emit/T_CMB), interpretation-conditional; 7 ladder-arc tables stamped). ON DESK: Step 3
-(closure/profile discrimination with the SNe L-lead and the CMB value graded as SEPARATE data) —
-Charles's go pending; the three-way tension {odd fold, L-profile, S} cannot all hold.
+**CORRECTION (2026-08-06, latest — Charles's ruling; THIS supersedes the assembly update):
+the GLOBAL CELL ASSEMBLY lane is ARCHIVED AS LEGACY** (`archive/global_cell_assembly_2026-08-06_legacy/`
++ its ARCHIVED_LEGACY_STAMP). Charles caught the lane as REGRESSION: it reached backward into the
+July corpus (cells/folds/mirrors/the legacy CMB anchor) instead of building forward from the
+current foundation, every verdict conditional on the UNFORCED law-set S, and x_max never entered.
+Standalone repairs that STAND: canon C-2026-08-06-2 (anchor value demoted to symbolic, Charles-
+ruled) and the two-mirror registry re-grade (in place, independent).
 
-**POSTURE (superseded 2026-08-06-later; kept for context): DELIBERATE STOP — no active lane (Charles's slow-strategy ruling; no flailing, no rabbit
+**THE ACTUAL FRONTIER (Charles-restated): phi+orchestra (the milestone) -> the c_eff integration
+(verified: c_eff = depth profile = the strain timelike eigenvalue; invariant = the two-point ratio
+= (1+z)^{-2}) -> mu (the reciprocal-lock defect invariant, s != r, HELD for the discretization
+hunt).** Build FORWARD from this; do not reach into the pre-orchestra corpus without a re-grade.
+
+**FORWARD QUESTION ON DESK (posed, not launched — Charles's go required): x_max AS THE PAIR
+QUESTION IN PHI+ORCHESTRA.** G14's pair law was never derived; phi+orchestra is the pair formalism
+the question was waiting for: x_max = where the two-observer comparison strain DEGENERATES
+(lambda_t -> 0). Pose the MAP from the orchestra's native objects; no cells, no folds, no legacy
+anchors.
+
+**POSTURE (kept, current again after the archival): DELIBERATE/slow strategy — no active lane; the forward question above awaits Charles's go. Older desk items: DELIBERATE STOP — no active lane (Charles's slow-strategy ruling; no flailing, no rabbit
 holes).** ON DESK for the next push, Charles to pick: (a) what closes the depth profile (free data +
 P-opt posit vs a not-yet-found closer; the forward gates P-opt/F01/F04 now carry a boundary-data/
 topology fork alongside the bulk/action fork); (b) the parked mu discreteness seed (does a compact

@@ -1,0 +1,18 @@
+{
+  "dps": 100,
+  "exact_twist_scaling_identity": "omega(a)=a*omega(1); Omega(a)=a*Omega(1)",
+  "geometric_loops": 38,
+  "mpmath_version": "1.3.0",
+  "output_sha256": "f509169e4749ffdaffb797b86dedc1becd6758c5f429548cc5cf41e553520105",
+  "panels": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "primary_owner_integrals": 152,
+  "schema": "udt-finite-loop-primary-1.0",
+  "status": "UNRESOLVED_NUMERICAL",
+  "total_integrals": 228,
+  "twist_control_integrals": 76
+}

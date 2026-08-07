@@ -1,0 +1,22 @@
+{
+  "chart_deta_minus_intrinsic_pullback": [
+    "0",
+    "0",
+    "0"
+  ],
+  "coframe_duality_mod_sphere": "PASS",
+  "contact_obstruction": "eta wedge d eta=2*A*(q0^2+q1^2+q2^2+q3^2)*volume",
+  "maurer_cartan_brackets": [
+    "[X1,X2]=2X3",
+    "[X2,X3]=2X1",
+    "[X3,X1]=2X2"
+  ],
+  "maurer_cartan_forms": [
+    "d sigma1=-2 sigma2 wedge sigma3",
+    "d sigma2=-2 sigma3 wedge sigma1",
+    "d sigma3=-2 sigma1 wedge sigma2"
+  ],
+  "schema": "udt-intrinsic-chart-equivalence-1.0",
+  "status": "PASS_EXACT_IDENTITY",
+  "unit_sphere_contact_stratum": "q0**2*q1**2 - 3*q0**2*q2**2 - 2*q1**2*q2**2"
+}

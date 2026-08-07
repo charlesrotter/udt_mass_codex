@@ -1,0 +1,31 @@
+{
+  "numpy_version": "2.2.6",
+  "output_sha256": "e45292e31e9ed515fa73a27ec323e683897e844335406c6c9772bd9427c18e07",
+  "schema": "udt-curvature-zero-reconnaissance-1.0",
+  "scipy_version": "1.15.3",
+  "seed": 20260802,
+  "starts_per_candidate": 1024,
+  "status": "DIAGNOSTIC_ONLY_NO_COMPLETENESS_CLAIM",
+  "summary": {
+    "C04": {
+      "accepted_runs": 0,
+      "antipodal_clusters": 0,
+      "starts": 1024
+    },
+    "C08": {
+      "accepted_runs": 548,
+      "antipodal_clusters": 6,
+      "starts": 1024
+    },
+    "C09": {
+      "accepted_runs": 83,
+      "antipodal_clusters": 4,
+      "starts": 1024
+    },
+    "C10": {
+      "accepted_runs": 726,
+      "antipodal_clusters": 6,
+      "starts": 1024
+    }
+  }
+}

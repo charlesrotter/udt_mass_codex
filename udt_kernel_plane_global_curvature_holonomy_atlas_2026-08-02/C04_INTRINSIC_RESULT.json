@@ -1,0 +1,70 @@
+{
+  "P_exact_factored_denominator": "10",
+  "P_exact_numerator_sha256": "0f09c7a34e760a1dae347af2d8b18f948e30acc89b26c6cf67f06f3be4646550",
+  "candidate_id": "C04",
+  "cleared_denominators_nonzero_on_sphere": "PROVED_FROM_POSITIVE_u_V_r",
+  "common_gcd": "1",
+  "connection": "omega=-a*(f13*sigma1+f23*sigma2)/sqrt(P); P=u*S",
+  "contact_zero_necessary_on_regular_domain": "q0**2*q1**2 - 3*q0**2*q2**2 - 2*q1**2*q2**2",
+  "curvature": "Omega=-a*(2*P*deta-dP_wedge_eta)/(2*P^(3/2))",
+  "defect_exclusion": "q0**4*q1**2 + 9*q0**4*q2**2 + q0**2*q1**4 + 14*q0**2*q1**2*q2**2 + q0**2*q1**2*q3**2 + 9*q0**2*q2**4 + 9*q0**2*q2**2*q3**2 + 4*q1**4*q2**2 + 4*q1**2*q2**4 + 4*q1**2*q2**2*q3**2",
+  "global_regular_zero_set_complete": false,
+  "polynomial_hashes": {
+    "C04_INTRINSIC_B_12.txt": "cd3b7db2e9a474aad6f3481ab6c2a47a23029a672b35663aa1b071a8bd0462ff",
+    "C04_INTRINSIC_B_13.txt": "381cad566ca35d754c015aa04fe1d952279a90bfa7cab5c102d679575c9c81ad",
+    "C04_INTRINSIC_B_23.txt": "2765942a4bd563d82b8eae5efeefacc6ebd3e9bbac70b4f6263311391d23b870",
+    "C04_SPHERE_REDUCED_B_12.txt": "912e5ffc92711dfdd6f5245a3cf4b5fff445555b531041b04bbaf040f1ddc839",
+    "C04_SPHERE_REDUCED_B_13.txt": "c7feba212abd435ce8f9ce769bfe2cef007cf0b8757a360a4789a58789d918df",
+    "C04_SPHERE_REDUCED_B_23.txt": "80f78e14f4dd1cad60df6fd2e85021d129dc09193b8505371117e375658a8e6f"
+  },
+  "polynomials": [
+    {
+      "cleared_denominator": "1",
+      "component": "12",
+      "integer_clear_factor": 1,
+      "primitive_content": 20,
+      "sha256": "cd3b7db2e9a474aad6f3481ab6c2a47a23029a672b35663aa1b071a8bd0462ff",
+      "sphere_reduced_sha256": "912e5ffc92711dfdd6f5245a3cf4b5fff445555b531041b04bbaf040f1ddc839",
+      "sphere_reduced_term_count": 114,
+      "sphere_reduced_total_degree": 13,
+      "term_count": 203,
+      "total_degree": 13
+    },
+    {
+      "cleared_denominator": "1",
+      "component": "13",
+      "integer_clear_factor": 1,
+      "primitive_content": 20,
+      "sha256": "381cad566ca35d754c015aa04fe1d952279a90bfa7cab5c102d679575c9c81ad",
+      "sphere_reduced_sha256": "c7feba212abd435ce8f9ce769bfe2cef007cf0b8757a360a4789a58789d918df",
+      "sphere_reduced_term_count": 120,
+      "sphere_reduced_total_degree": 13,
+      "term_count": 199,
+      "total_degree": 13
+    },
+    {
+      "cleared_denominator": "1",
+      "component": "23",
+      "integer_clear_factor": 1,
+      "primitive_content": 20,
+      "sha256": "2765942a4bd563d82b8eae5efeefacc6ebd3e9bbac70b4f6263311391d23b870",
+      "sphere_reduced_sha256": "80f78e14f4dd1cad60df6fd2e85021d129dc09193b8505371117e375658a8e6f",
+      "sphere_reduced_term_count": 120,
+      "sphere_reduced_total_degree": 13,
+      "term_count": 199,
+      "total_degree": 13
+    }
+  ],
+  "saturation": {
+    "basis_length": 37,
+    "basis_sha256": "ba5a02624821d5c978f0875d314fc08b721cb4e0fedef5840d24705e1db587b2",
+    "status": "NONTRIVIAL_DEFINED_DOMAIN_IDEAL_REQUIRES_REAL_CLASSIFICATION",
+    "unit_ideal": false
+  },
+  "saturation_domain": "sphere AND defect!=0 AND P_numerator!=0 AND P_denominator!=0",
+  "schema": "udt-intrinsic-global-curvature-candidate-1.0",
+  "source_manifest_sha256": "6ded588b88422cd235c78b4ae36342fb62077c99e8480cfb66fdbbdbb49e29c4",
+  "sphere_constraint": "q0**2 + q1**2 + q2**2 + q3**2 - 1",
+  "status": "PASS_EXACT_POLYNOMIAL_DERIVATION",
+  "sympy_version": "1.13.1"
+}

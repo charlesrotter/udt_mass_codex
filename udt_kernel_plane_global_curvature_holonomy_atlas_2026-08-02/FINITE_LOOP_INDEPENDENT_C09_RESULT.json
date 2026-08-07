@@ -1,0 +1,11 @@
+{
+  "candidate_id": "C09",
+  "coframe": "vector_part(conjugate(q)*dq)",
+  "dps": 120,
+  "loop_count": 38,
+  "output_sha256": "7b7a44b55775e348f5dc0042617fe3be0ef13540b106b4fc5e420710dfdcc27d",
+  "quadrature": "mpmath_tanh_sinh",
+  "schema": "udt-finite-loop-independent-1.0",
+  "status": "UNRESOLVED_INDEPENDENT",
+  "tangent": "independent_complex_step_h=1e-40"
+}
