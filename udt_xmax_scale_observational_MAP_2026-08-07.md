@@ -158,3 +158,26 @@ X-BAO-ORIGIN (§3) is NOT on this menu; it gets its own map only on your explici
 
 **CP5 AMENDMENT (Charles, 2026-08-07):** disk budget raised to ~500 GiB IF NECESSARY, using the
 scratch disk (`/media/udt-admin/ScratchDisk`, 3.4 TB free) as the storage location for acquired data.
+
+## M1 COMPLETE (2026-08-07): BAO leg VIABLE-NATIVELY (recon report; single-agent, spot-verify at M2)
+
+`udt_xmax_scale_observational_M1_recon_2026-08-07/RECON_REPORT.md`. On-disk DESI DR1 (30 GiB) =
+PRE-reconstruction LSS catalogs, 9.75M galaxies, continuous z 0.01-3.5 (BGS/LRG/ELG/QSO). Audit for
+angular correlations in thin z-shells: RA/DEC/Z + completeness/zfail/imaging weights = CLEAN
+(cosmology-free; WEIGHT_SYS over-correction caveat -> run with/without); NX + WEIGHT_FKP =
+CONTAMINATED-AVOIDABLE (fiducial-LCDM columns -- simply never read them; native dN/dz replacement);
+the FATAL layers (reconstruction, templates, r_d, fiducial distance conversion) are ABSENT from
+these files. Landscape: BOSS DR12 pre-recon (~5 GiB) as optional cross-check; eBOSS mixed-directory
+hazard (explicit non-rec file choice required); the published theta_BAO literature series carries a
+small fiducial projection correction (0.28-1.44%, removable) -> cross-check grade only; published
+D/r_d tables + Ly-alpha = use for nothing. Honest risk named: thin-shell S/N (DR1 may give a
+low-significance feature per shell -- an honest outcome, not contamination). Pantheon+ confirmed on
+disk (1701 rows + full cov).
+
+**NEW CATCH FOR THE SNe LEG (flagged for M2's prereg, and a caveat on the banked 0.91):** the
+Pantheon+ ledger shows `zHD` carries peculiar-velocity/flow-model corrections (raw zCMB/zHEL
+available) and **`m_b_corr` carries fiducial-cosmology BBC bias corrections** — i.e. the standard
+magnitude column itself has a LCDM-adjacent processing layer. M2's V-SNe prereg must choose columns
+deliberately (raw-er columns vs corrected, with the contamination quantified) and the banked
+0.91's column choice gets a point-of-use note. Recon findings are single-agent: spot-verify the
+load-bearing ones at M2 prereg time.
