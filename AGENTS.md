@@ -34,22 +34,24 @@ do not dump whole long files or recursively open cited evidence during orientati
 3. `CURRENT_RESEARCH_PROGRAM.md` — the active dependency spine and bounded next question.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
-5a. **FRONTIER (2026-08-06):** `udt_xmax_pair_question_MAP_2026-08-06.md` (the active lane -- x_max
+5. **FRONTIER (2026-08-06):** `udt_xmax_pair_question_MAP_2026-08-06.md` (the active lane -- x_max
    as the pair question; O1 pending) and `udt_ceff_depth_orchestra_integration_2026-08-06.md` (the
    c_eff reframe; the two-point ratio is the invariant). Build FORWARD from these; the Global Cell
    Assembly lane is ARCHIVED-LEGACY (`archive/global_cell_assembly_2026-08-06_legacy/`) -- do not
-   reach into the pre-orchestra corpus without an explicit re-grade.5. `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md` for current observer-pair,
+   reach into the pre-orchestra corpus without an explicit re-grade. Also read `INFLIGHT_STATE.md` (the live resume ledger; currently: no
+   task in flight, x_max O1 pending).
+6. `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md` for current observer-pair,
    `phi`, angular-orchestra and physical-cocycle orientation; then exact evidence only to the depth
    required by the user's task.
 
-6. When mass emergence, stability, branch response, or particle history is relevant, read
+7. When mass emergence, stability, branch response, or particle history is relevant, read
    `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv` first. It is the
    seven-entry plural-branch authority map. Then use its cited reconciliation evidence and
    `stability_branch_follow_256_DECISION.md` only to the depth required; neither is the global
    frontier.
-7. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only.
-8. Only the specific protocol under `.claude/skills/*/SKILL.md` triggered by the actual task.
-9. `INDEX.md` and `MEMORY.md` for compact pointers only; neither can overrule LIVE.
+8. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline only.
+9. Only the specific protocol under `.claude/skills/*/SKILL.md` triggered by the actual task.
+10. `INDEX.md` and `MEMORY.md` for compact pointers only; neither can overrule LIVE.
 
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` is a historical compatibility path, not a generic startup
 read. Open it only when a task makes its dated evidence load-bearing. Its exact root path is retained

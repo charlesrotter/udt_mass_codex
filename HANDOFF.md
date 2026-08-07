@@ -32,7 +32,7 @@ posit. Charles ruled: **canon C-2026-08-06-1** (chart-scoped lock reading; the R
 untouched) and **point-of-use re-grades** for registry #33, #38(A), and the #40 absolute-depth
 family (banner in NEGATIVES_REGISTRY.md). Read
 `udt_reconciliation_reframe_2026-08-06/RECONCILIATION_MAP.md` before citing stuck mass-emergence/
-x_max work. POSTURE (per the RESTART ANCHOR above, which supersedes this paragraph): the ACTIVE LANE is x_max as the pair question; NEXT = O1, gated on Charles's go. (This paragraph's earlier "deliberate stop, no active lane" wording is superseded by the anchor.) Everything below remains valid background.
+x_max work. POSTURE (per the RESTART ANCHOR above): the ACTIVE LANE is x_max as the pair question; NEXT = O1, gated on Charles's go. Everything below remains valid background.
 
 ## PRIOR (2026-08-05) — complete-pair cocycle home derived; the physical pair-depth law remains open
 
