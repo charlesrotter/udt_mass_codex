@@ -121,6 +121,11 @@ UNDERIVED where it doesn't, so M3b/radial test ALL rows at once.
   sectors genuinely on. Bounded; preregistered; two reviews.
 - **D3 — O-B's native-scale question** (separately gated; discreteness-adjacent; the mu
   seed's first live test in this arc).
+- **D4 — O-E's oscillating-solution question (menu addition 2026-08-08; D0 flagged the gap —
+  O-E had no owning item; NOT yet GO — Charles's gate):** does the metric ADMIT cosmic-scale
+  oscillating solutions (an oscillatory component of the depth profile), and what would one
+  imprint (tracer-universal phase, optics component, SNe-residual periodicity, z-coherence)?
+  Metric-led posing duty + the oscillator-template naming caution travel (§2 O-E).
 - **FREEZE-POINT:** the completed matrix + predictions committed → THEN M3b prereg (BOSS,
   virgin data) → radial build → the unified origin map (spectral half enters).
 
