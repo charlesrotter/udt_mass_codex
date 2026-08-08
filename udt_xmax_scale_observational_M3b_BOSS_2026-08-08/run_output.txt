@@ -1,0 +1,96 @@
+######################################################################
+# M3b Phase-2 in-sample ruler fit (freeze). Prereg af9fa75d.
+# n = 1/inv_n = 1.05597   R_w = n*X_eff = 2202.75 Mpc
+######################################################################
+
+=== PRIMARY  [sys]  (3 shells) ===
+  shells: ['LRG_0.70_0.75', 'LRG_1.00_1.05', 'QSO_0.95_1.10']
+    LRG_0.70_0.75    zc=0.725  theta_obs=2.3652  sig_c=0.0803  theta_pred=2.3567  (dchi2=14.7)
+    LRG_1.00_1.05    zc=1.025  theta_obs=2.4383  sig_c=0.0372  theta_pred=2.0586  (dchi2=46.0)
+    QSO_0.95_1.10    zc=1.025  theta_obs=1.3923  sig_c=0.0491  theta_pred=2.0586  (dchi2=17.7)
+  ell = 58.343 Mpc   fit-stat +/- 0.774   anchor/r(z) band [57.012, 59.699]
+  ell interval (fit+anchor envelope) = [57.012, 59.699] Mpc
+  chi2/dof = 288.406/2 = 144.203   (THREADING QUALITY)
+  R_w = 2202.7 Mpc [2132.0, 2276.2]
+  ell/R_w = 0.02649  [0.02505, 0.02800]  (D3 dimensionless target)
+  ell as fraction of R_w = 2.649%
+
+=== PRIMARY  [nosys]  (3 shells) ===
+  shells: ['LRG_0.70_0.75', 'LRG_1.00_1.05', 'QSO_0.95_1.10']
+    LRG_0.70_0.75    zc=0.725  theta_obs=2.3667  sig_c=0.0815  theta_pred=2.3633  (dchi2=14.0)
+    LRG_1.00_1.05    zc=1.025  theta_obs=2.4387  sig_c=0.0376  theta_pred=2.0644  (dchi2=43.4)
+    QSO_0.95_1.10    zc=1.025  theta_obs=1.3945  sig_c=0.0503  theta_pred=2.0644  (dchi2=17.6)
+  ell = 58.507 Mpc   fit-stat +/- 0.787   anchor/r(z) band [57.173, 59.868]
+  ell interval (fit+anchor envelope) = [57.173, 59.868] Mpc
+  chi2/dof = 276.187/2 = 138.094   (THREADING QUALITY)
+  R_w = 2202.7 Mpc [2132.0, 2276.2]
+  ell/R_w = 0.02656  [0.02512, 0.02808]  (D3 dimensionless target)
+  ell as fraction of R_w = 2.656%
+
+=== VARIANT  [sys]  (5 shells) ===
+  shells: ['LRG_0.70_0.75', 'LRG_1.00_1.05', 'QSO_0.95_1.10', 'LRG_0.90_0.95', 'QSO_1.10_1.25']
+    LRG_0.70_0.75    zc=0.725  theta_obs=2.3652  sig_c=0.0803  theta_pred=2.4177  (dchi2=14.7)
+    LRG_1.00_1.05    zc=1.025  theta_obs=2.4383  sig_c=0.0372  theta_pred=2.1118  (dchi2=46.0)
+    QSO_0.95_1.10    zc=1.025  theta_obs=1.3923  sig_c=0.0491  theta_pred=2.1118  (dchi2=17.7)
+    LRG_0.90_0.95    zc=0.925  theta_obs=2.3370  sig_c=0.0956  theta_pred=2.1904  (dchi2=23.4)
+    QSO_1.10_1.25    zc=1.175  theta_obs=2.0523  sig_c=0.0235  theta_pred=2.0206  (dchi2=11.1)
+  ell = 59.852 Mpc   fit-stat +/- 0.508   anchor/r(z) band [58.457, 61.276]
+  ell interval (fit+anchor envelope) = [58.457, 61.276] Mpc
+  chi2/dof = 296.378/4 = 74.094   (THREADING QUALITY)
+  R_w = 2202.7 Mpc [2132.0, 2276.2]
+  ell/R_w = 0.02717  [0.02568, 0.02874]  (D3 dimensionless target)
+  ell as fraction of R_w = 2.717%
+
+=== VARIANT  [nosys]  (5 shells) ===
+  shells: ['LRG_0.70_0.75', 'LRG_1.00_1.05', 'QSO_0.95_1.10', 'LRG_0.90_0.95', 'QSO_1.10_1.25']
+    LRG_0.70_0.75    zc=0.725  theta_obs=2.3667  sig_c=0.0815  theta_pred=2.4223  (dchi2=14.0)
+    LRG_1.00_1.05    zc=1.025  theta_obs=2.4387  sig_c=0.0376  theta_pred=2.1159  (dchi2=43.4)
+    QSO_0.95_1.10    zc=1.025  theta_obs=1.3945  sig_c=0.0503  theta_pred=2.1159  (dchi2=17.6)
+    LRG_0.90_0.95    zc=0.925  theta_obs=2.3292  sig_c=0.0944  theta_pred=2.1947  (dchi2=22.8)
+    QSO_1.10_1.25    zc=1.175  theta_obs=2.0545  sig_c=0.0237  theta_pred=2.0245  (dchi2=10.3)
+  ell = 59.968 Mpc   fit-stat +/- 0.513   anchor/r(z) band [58.569, 61.395]
+  ell interval (fit+anchor envelope) = [58.569, 61.395] Mpc
+  chi2/dof = 283.272/4 = 70.818   (THREADING QUALITY)
+  R_w = 2202.7 Mpc [2132.0, 2276.2]
+  ell/R_w = 0.02722  [0.02573, 0.02880]  (D3 dimensionless target)
+  ell as fraction of R_w = 2.722%
+
+======================================================================
+DRIFT TENSION (PRIMARY sys): observed theta drift vs the ruler's ell/r(z) fall
+  LRG baseline z=0.725 -> z=1.025
+    predicted theta: 2.3567 -> 2.0586  (-1.48 bins, ruler FALLS)
+    observed  theta: 2.3652 -> 2.4383  (+0.33 bins)
+    MISMATCH = observed - predicted = +1.81 bins (opposite sign = anti-drift)
+  SAME-z split at zc=1.025: LRG theta=2.4383 vs QSO theta=1.3923  -> ratio 1.75x (+6.13 bins) at ONE z (a single ell forbids this)
+
+======================================================================
+FROZEN OUT-OF-SAMPLE PREDICTION: theta_BAO(z) = ell_PRIMARY / r(z)  [degrees]
+  ell_PRIMARY(sys) = 58.343 Mpc  interval [57.012, 59.699]
+  --- BOSS LOWZ ---
+    z=0.20  theta_pred = 5.1970 deg   [4.9972, 5.4048]
+    z=0.25  theta_pred = 4.4028 deg   [4.2306, 4.5818]
+    z=0.30  theta_pred = 3.8753 deg   [3.7215, 4.0354]
+    z=0.35  theta_pred = 3.5002 deg   [3.3593, 3.6469]
+    z=0.40  theta_pred = 3.2201 deg   [3.0889, 3.3570]
+  --- BOSS CMASS ---
+    z=0.45  theta_pred = 3.0035 deg   [2.8795, 3.1327]
+    z=0.50  theta_pred = 2.8311 deg   [2.7130, 2.9543]
+    z=0.55  theta_pred = 2.6908 deg   [2.5774, 2.8092]
+    z=0.60  theta_pred = 2.5747 deg   [2.4651, 2.6891]
+    z=0.65  theta_pred = 2.4770 deg   [2.3706, 2.5881]
+
+======================================================================
+MACHINE-CHECK KEYS
+{
+ "n": 1.0559662090813096,
+ "Rw_Mpc": 2202.745512143612,
+ "ell_PRIMARY_sys": 58.342816807717796,
+ "ell_PRIMARY_nosys": 58.507456109317374,
+ "ell_VARIANT_sys": 59.85240441713519,
+ "ell_VARIANT_nosys": 59.96793984077144,
+ "chi2dof_PRIMARY_sys": 144.20301376039464,
+ "chi2dof_VARIANT_sys": 74.09437844131494,
+ "ellR_PRIMARY_sys": 0.026486408205613012,
+ "drift_obs_bins": 0.3333320914863676,
+ "drift_pred_bins": -1.4797245851777243
+}
