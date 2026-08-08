@@ -1,0 +1,49 @@
+KEY G1_center_A_equals_1:                                True
+KEY G2_center_locally_flat_lp_eq_r_plus_Or2:             True
+KEY G3a_t_cyclic_E_eq_A_tdot_conserved:                  True
+KEY G3b_phi_cyclic_L_eq_r2_phidot_conserved:             True
+KEY G4_radial_null_geodesic_r_affine:                    True
+KEY G5_center_reachable_only_radially_L0:                True
+KEY G7_P1_inversion_A_of_rz_eq_opz_minus2:               True
+KEY G8a_drdz_closed_form:                                True
+KEY G8b_drdz_positive:                                   True
+stage: curvature block (generic A(r) Ricci)...
+KEY K6a_lock_chart_Rtt_plus_A2Rrr_zero:                  True
+KEY K6b_radial_null_Ricci_focusing_zero:                 True
+KEY K7_dA_equals_r_solves_focusing:                      True
+KEY K1_shell_proper_separation_s_eq_rs_dpsi:             True
+KEY K2_observed_angle_eq_coordinate_angle:               True
+KEY K3_scalefree_iff_powerlaw:                           True
+KEY K4_T1_featureless_in_featureless_out:                True
+KEY K5_no_shear_isotropic_magnification:                 True
+KEY K8_shell_projection_preserves_powerlaw:              True
+KEY K8b_3D_projection_powerlaw_scaling:                  True
+KEY K9a_T2_exponent_negative_so_q_to_zero:               True
+KEY K9b_T2_highz_floor_s_over_Rw:                        True
+KEY K10a_T2_drift_identity:                              True
+KEY K10lemma_a_power_equals_1_at_z0:                     True
+KEY K10lemma_b_power_strictly_increasing:                True
+KEY K10c_rz_identity_in_y:                               True
+KEY K10b_T2_drift_strictly_negative:                     True
+KEY K13_achromatic_paths_depend_on_b_only:               True
+KEY K14_T3_tracer_blind_free_symbol_audit:               True
+KEY K16_T4_value_preserving_at_fixed_proper_sep:         True
+KEY K15a_T4_fixed_angle_amplitude_r_pow_minus_gamma:     True
+KEY K15b_T4_amplitude_identity:                          True
+KEY K15c_T4_amplitude_strictly_falling:                  True
+KEY K17a_radial_dz_dlp_eq_minus_Aprime_over_2A:          True
+KEY K17b_radial_dz_dlp_eq_ddelta_dr:                     True
+KEY K18a_T5_P1_jacobian_closed_form:                     True
+KEY K18b_T5_P1_jacobian_growing:                         True
+KEY K19_T5_local_featureless_preserved:                  True
+KEY K20a_proper_length_closed_form:                      True
+KEY K20b_proper_wall_2Rw_over_2minusn:                   True
+KEY K21a_T5_input_slope_negative:                        True
+KEY K21b_T5_dlp_dz_positive:                             True
+stage: K22 radial series...
+KEY K22_T5_only_scale_is_depth_scale_n_times_opz:        True
+KEY K23_angular_dictionary_linear_all_orders:            True
+KEY K_FRETRO_no_float_atoms_in_derivation:               True
+
+CHECKS PASSED: 44 / 44
+SCOPE: every key above is STATIC / mu=0 stratum / lock+areal-anchor chart.

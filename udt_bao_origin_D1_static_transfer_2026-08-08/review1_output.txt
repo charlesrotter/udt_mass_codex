@@ -1,0 +1,46 @@
+R1 Rtt_plus_A2_Rrr_identically_zero_generic_A              True
+R1 radial_null_Ricci_focusing_zero                         True
+R1 ingoing_radial_null_Ricci_focusing_zero                 True
+R1 Rtt_generically_nonzero_identity_not_vacuous            True
+R1 radial_null_geodesic_r_affine                           True
+stage: Part A generic-A geometry done
+R1 class_i_A0_equals_1                                     True
+R1 center_locally_flat_integrand                           True
+R1 turning_point_r2rdot2_to_minus_L2                       True
+R1 pot_negative_at_center_strict                           True
+R1 radial_potential_exact_form                             True
+R1 depth_dictionary_A_of_rz                                True
+R1 drdz_closed_form                                        True
+R1 drdz_positive                                           True
+R1 rz_positive_for_z_positive                              True
+stage: Part B class-(i) dictionary done
+R1 scalefree_ODE_solution_is_powerlaw                      True
+R1 powerlaw_is_scale_covariant                             True
+R1 per_shell_logslope_constant_minus_gamma                 True
+R1 same_shell_superposition_powerlaw                       True
+R1 limber_scaling_exponent_1_minus_gamma                   True
+R1 limber_u_integral_converges_gamma_gt_1_witness          True
+R1 ATTACK_finite_bin_slope_small_angle_eq_1_minus_gamma    True
+R1 ATTACK_finite_bin_slope_large_angle_eq_minus_gamma      True
+R1 ATTACK_finite_bin_logslope_nonconstant                  True
+R1 ATTACK_transition_scale_is_window_set                   True
+stage: Part C statistics + attack witness done
+R1 T2_dthetadz_identity                                    True
+R1 T2_highz_floor                                          True
+R1 T4_value_preserving                                     True
+R1 T4_fixed_angle_falling_identity                         True
+R1 T5_lp_closed_form_by_differentiation                    True
+R1 T5_lp_zero_at_center                                    True
+R1 T5_wall_value_restatement_0_pow_pos_is_0                True
+R1 T5_J_closed_form_in_r                                   True
+R1 T5_J_in_z                                               True
+R1 T5_K17_generic_identity                                 True
+R1 T5_K17_class_i_matches_J                                True
+R1 T5_J_growing                                            True
+R1 T5_no_extremum_sign_product                             True
+R1 T5_lp_of_z_form                                         True
+R1 T5_K22_bend_scale_n_times_1plusz                        True
+R1 T5_K23_angular_logslope_exactly_1                       True
+R1 G5_restatement_equiv_witness                            True
+
+R1 CHECKS: 41 / 41 True (0 False)
