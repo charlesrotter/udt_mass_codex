@@ -1,0 +1,35 @@
+{
+ "target": "LRG_0.95_1.00",
+ "role": "outlier-8.8deg (named lead: LRG selection-edge thinning)",
+ "theta_b_fullshell_ckpt": 8.82068159843339,
+ "null_95th_fullshell": 10.882293330584147,
+ "halves": {
+  "lo_half": {
+   "z": [
+    0.95,
+    0.975
+   ],
+   "theta_b": 6.876512781200339,
+   "dchi2": 26.243515059356525,
+   "A_b": -0.01901679511886116,
+   "sigma_b": 0.392309863626463,
+   "bins_from_fullshell": 2.6998712060386314
+  },
+  "hi_half": {
+   "z": [
+    0.975,
+    1.0
+   ],
+   "theta_b": 12.211418317478001,
+   "dchi2": 16.49429469581282,
+   "A_b": -0.08806202666248046,
+   "sigma_b": 0.9321269508423666,
+   "bins_from_fullshell": 3.5270580128562954
+  }
+ },
+ "note": "half-shell S/N is lower (~1/4 pair counts); persistence in BOTH halves = sky-like; strong bump tracking ONE half only = edge-tracking flag",
+ "prereg": [
+  "523f4aca",
+  "2d9933d1"
+ ]
+}

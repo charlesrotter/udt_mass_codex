@@ -1,0 +1,34 @@
+{
+ "sys": {
+  "variant": "sys",
+  "grid_best_theta": 11.459231579187696,
+  "constrained": {
+   "dchi2": 9.771504782254118,
+   "theta_b": 12.0,
+   "sigma_b": 0.6482553335053716,
+   "A_b": -0.02819990769320132
+  },
+  "unconstrained_checkpoint": {
+   "dchi2": 10.04495006076632,
+   "theta_b": 70.67322853489101,
+   "sigma_b": 1.5,
+   "A_b": -0.8539131619686393
+  }
+ },
+ "nosys": {
+  "variant": "nosys",
+  "grid_best_theta": 11.459231579187696,
+  "constrained": {
+   "dchi2": 8.74871309678459,
+   "theta_b": 12.0,
+   "sigma_b": 0.6488971499895552,
+   "A_b": -0.028026280488066234
+  },
+  "unconstrained_checkpoint": {
+   "dchi2": 9.03735373526682,
+   "theta_b": 71.05400413372219,
+   "sigma_b": 1.5,
+   "A_b": -0.8647092904189264
+  }
+ }
+}

@@ -1,0 +1,65 @@
+[
+ {
+  "target": "LRG 0.95-1.0",
+  "role": "outlier-8.8deg (named lead: LRG selection-edge thinning)",
+  "zbar": 0.973,
+  "dz_bar": -0.002,
+  "theta_shift_bins": 0.0078
+ },
+ {
+  "target": "LRG 1.05-1.1",
+  "role": "outlier-1.17deg",
+  "zbar": 1.0728,
+  "dz_bar": -0.0022,
+  "theta_shift_bins": 0.0073
+ },
+ {
+  "target": "QSO 1.85-2.0",
+  "role": "outlier-0.71deg",
+  "zbar": 1.9235,
+  "dz_bar": -0.0015,
+  "theta_shift_bins": 0.0016
+ },
+ {
+  "target": "LRG 1.0-1.05",
+  "role": "thread-control-2.44deg",
+  "zbar": 1.0231,
+  "dz_bar": -0.0019,
+  "theta_shift_bins": 0.0067
+ },
+ {
+  "target": "LRG 0.7-0.75",
+  "role": "thread-2.37deg",
+  "zbar": 0.7255,
+  "dz_bar": 0.0005,
+  "theta_shift_bins": -0.0035
+ },
+ {
+  "target": "LRG 0.9-0.95",
+  "role": "thread-2.34deg",
+  "zbar": 0.9239,
+  "dz_bar": -0.0011,
+  "theta_shift_bins": 0.0048
+ },
+ {
+  "target": "QSO 0.95-1.1",
+  "role": "thread-1.39deg",
+  "zbar": 1.0277,
+  "dz_bar": 0.0027,
+  "theta_shift_bins": -0.0098
+ },
+ {
+  "target": "QSO 1.1-1.25",
+  "role": "thread-2.05deg",
+  "zbar": 1.1774,
+  "dz_bar": 0.0024,
+  "theta_shift_bins": -0.0067
+ },
+ {
+  "target": "LRG 0.75-0.8",
+  "role": "fitter-level-70.7deg (B6)",
+  "zbar": 0.7758,
+  "dz_bar": 0.0008,
+  "theta_shift_bins": -0.0048
+ }
+]

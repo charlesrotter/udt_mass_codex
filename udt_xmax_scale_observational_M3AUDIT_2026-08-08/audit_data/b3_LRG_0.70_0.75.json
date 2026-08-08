@@ -1,0 +1,35 @@
+{
+ "target": "LRG_0.70_0.75",
+ "role": "thread-2.37deg",
+ "theta_b_fullshell_ckpt": 2.365151813327562,
+ "null_95th_fullshell": 9.967485509134214,
+ "halves": {
+  "lo_half": {
+   "z": [
+    0.7,
+    0.725
+   ],
+   "theta_b": 0.9887472757157091,
+   "dchi2": 7.701733673905991,
+   "A_b": -0.01339520655264591,
+   "sigma_b": 0.29806566572510623,
+   "bins_from_fullshell": 9.45716700802638
+  },
+  "hi_half": {
+   "z": [
+    0.725,
+    0.75
+   ],
+   "theta_b": 6.492893281922667,
+   "dchi2": 18.179927121498107,
+   "A_b": -0.030039514142072947,
+   "sigma_b": 0.584842812218478,
+   "bins_from_fullshell": 10.950382505273799
+  }
+ },
+ "note": "half-shell S/N is lower (~1/4 pair counts); persistence in BOTH halves = sky-like; strong bump tracking ONE half only = edge-tracking flag",
+ "prereg": [
+  "523f4aca",
+  "2d9933d1"
+ ]
+}

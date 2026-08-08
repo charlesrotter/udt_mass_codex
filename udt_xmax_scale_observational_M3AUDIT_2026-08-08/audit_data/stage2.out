@@ -1,0 +1,254 @@
+[14:15:21] STAGE halves-sys: 36 cap-units, workers=4
+[14:15:23]   piece LRG_0.975_1.000_sys_SGC DD done in 0.3s
+[14:15:23]   piece LRG_0.950_0.975_sys_SGC DD done in 0.5s
+[14:15:25]   piece LRG_0.975_1.000_sys_NGC DD done in 1.0s
+[14:15:26]   piece LRG_0.950_0.975_sys_NGC DD done in 1.6s
+[14:15:32]   piece LRG_0.975_1.000_sys_SGC DR done in 8.5s
+[14:15:36]   piece LRG_0.950_0.975_sys_SGC DR done in 12.5s
+[14:15:42]   piece LRG_0.975_1.000_sys_SGC RR0 done in 10.4s
+[14:15:48]   piece LRG_0.975_1.000_sys_NGC DR done in 22.8s
+[14:15:52]   piece LRG_0.950_0.975_sys_SGC RR0 done in 15.9s
+[14:15:53]   piece LRG_0.975_1.000_sys_SGC RR1 done in 10.5s
+[14:16:01]   piece LRG_0.950_0.975_sys_NGC DR done in 34.9s
+[14:16:03]   piece LRG_0.975_1.000_sys_SGC RR2 done in 10.4s
+[14:16:08]   piece LRG_0.950_0.975_sys_SGC RR1 done in 15.7s
+[14:16:13]   piece LRG_0.975_1.000_sys_SGC RR3 done in 10.4s
+[14:16:13] UNIT DONE LRG_0.975_1.000_sys_SGC (52s)
+[14:16:14]   piece LRG_0.975_1.000_sys_NGC RR0 done in 26.4s
+[14:16:16]   piece LRG_1.050_1.075_sys_NGC DD done in 0.3s
+[14:16:23]   piece LRG_1.050_1.075_sys_NGC DR done in 7.1s
+[14:16:23]   piece LRG_0.950_0.975_sys_SGC RR2 done in 15.7s
+[14:16:31]   piece LRG_1.050_1.075_sys_NGC RR0 done in 8.1s
+[14:16:39]   piece LRG_0.950_0.975_sys_SGC RR3 done in 15.8s
+[14:16:39] UNIT DONE LRG_0.950_0.975_sys_SGC (78s)
+[14:16:39]   piece LRG_1.050_1.075_sys_NGC RR1 done in 8.1s
+[14:16:40]   piece LRG_1.050_1.075_sys_SGC DD done in 0.1s
+[14:16:41]   piece LRG_0.975_1.000_sys_NGC RR1 done in 26.3s
+[14:16:41]   piece LRG_0.950_0.975_sys_NGC RR0 done in 39.9s
+[14:16:43]   piece LRG_1.050_1.075_sys_SGC DR done in 2.6s
+[14:16:46]   piece LRG_1.050_1.075_sys_SGC RR0 done in 3.2s
+[14:16:47]   piece LRG_1.050_1.075_sys_NGC RR2 done in 8.0s
+[14:16:49]   piece LRG_1.050_1.075_sys_SGC RR1 done in 3.2s
+[14:16:53]   piece LRG_1.050_1.075_sys_SGC RR2 done in 3.1s
+[14:16:55]   piece LRG_1.050_1.075_sys_NGC RR3 done in 7.9s
+[14:16:55] UNIT DONE LRG_1.050_1.075_sys_NGC (42s)
+[14:16:56]   piece LRG_1.050_1.075_sys_SGC RR3 done in 3.1s
+[14:16:56] UNIT DONE LRG_1.050_1.075_sys_SGC (17s)
+[14:16:57]   piece LRG_1.075_1.100_sys_SGC DD done in 0.1s
+[14:16:58]   piece LRG_1.075_1.100_sys_NGC DD done in 0.2s
+[14:16:59]   piece LRG_1.075_1.100_sys_SGC DR done in 1.6s
+[14:17:01]   piece LRG_1.075_1.100_sys_SGC RR0 done in 2.0s
+[14:17:02]   piece LRG_1.075_1.100_sys_NGC DR done in 4.4s
+[14:17:03]   piece LRG_1.075_1.100_sys_SGC RR1 done in 2.0s
+[14:17:05]   piece LRG_1.075_1.100_sys_SGC RR2 done in 2.0s
+[14:17:07]   piece LRG_0.975_1.000_sys_NGC RR2 done in 26.1s
+[14:17:07]   piece LRG_1.075_1.100_sys_SGC RR3 done in 2.0s
+[14:17:07] UNIT DONE LRG_1.075_1.100_sys_SGC (11s)
+[14:17:07]   piece LRG_1.075_1.100_sys_NGC RR0 done in 5.0s
+[14:17:11]   piece QSO_1.850_1.925_sys_NGC DD done in 0.9s
+[14:17:12]   piece LRG_1.075_1.100_sys_NGC RR1 done in 5.0s
+[14:17:17]   piece LRG_1.075_1.100_sys_NGC RR2 done in 5.0s
+[14:17:20]   piece LRG_0.950_0.975_sys_NGC RR1 done in 39.8s
+[14:17:22]   piece LRG_1.075_1.100_sys_NGC RR3 done in 5.0s
+[14:17:22] UNIT DONE LRG_1.075_1.100_sys_NGC (27s)
+[14:17:24]   piece QSO_1.850_1.925_sys_SGC DD done in 0.4s
+[14:17:33]   piece LRG_0.975_1.000_sys_NGC RR3 done in 26.6s
+[14:17:33] UNIT DONE LRG_0.975_1.000_sys_NGC (132s)
+[14:17:37]   piece QSO_1.925_2.000_sys_NGC DD done in 0.8s
+[14:17:43]   piece QSO_1.850_1.925_sys_SGC DR done in 18.5s
+[14:17:51]   piece QSO_1.850_1.925_sys_NGC DR done in 39.8s
+[14:18:00]   piece LRG_0.950_0.975_sys_NGC RR2 done in 39.8s
+[14:18:14]   piece QSO_1.925_2.000_sys_NGC DR done in 36.8s
+[14:18:27]   piece QSO_1.850_1.925_sys_SGC RR0 done in 44.5s
+[14:18:40]   piece LRG_0.950_0.975_sys_NGC RR3 done in 39.9s
+[14:18:40] UNIT DONE LRG_0.950_0.975_sys_NGC (199s)
+[14:18:42]   piece QSO_1.925_2.000_sys_SGC DD done in 0.3s
+[14:18:58]   piece QSO_1.925_2.000_sys_SGC DR done in 16.3s
+[14:19:12]   piece QSO_1.850_1.925_sys_SGC RR1 done in 44.4s
+[14:19:28]   piece QSO_1.850_1.925_sys_NGC RR0 done in 97.5s
+[14:19:38]   piece QSO_1.925_2.000_sys_SGC RR0 done in 39.7s
+[14:19:44]   piece QSO_1.925_2.000_sys_NGC RR0 done in 90.2s
+[14:19:56]   piece QSO_1.850_1.925_sys_SGC RR2 done in 44.3s
+[14:20:18]   piece QSO_1.925_2.000_sys_SGC RR1 done in 39.8s
+[14:20:40]   piece QSO_1.850_1.925_sys_SGC RR3 done in 44.3s
+[14:20:40] UNIT DONE QSO_1.850_1.925_sys_SGC (198s)
+[14:20:43]   piece LRG_1.000_1.025_sys_NGC DD done in 0.7s
+[14:20:57]   piece QSO_1.925_2.000_sys_SGC RR2 done in 39.5s
+[14:20:59]   piece LRG_1.000_1.025_sys_NGC DR done in 15.4s
+[14:21:06]   piece QSO_1.850_1.925_sys_NGC RR1 done in 97.9s
+[14:21:14]   piece QSO_1.925_2.000_sys_NGC RR1 done in 90.0s
+[14:21:17]   piece LRG_1.000_1.025_sys_NGC RR0 done in 18.0s
+[14:21:35]   piece LRG_1.000_1.025_sys_NGC RR1 done in 17.9s
+[14:21:37]   piece QSO_1.925_2.000_sys_SGC RR3 done in 39.5s
+[14:21:37] UNIT DONE QSO_1.925_2.000_sys_SGC (177s)
+[14:21:38]   piece LRG_1.000_1.025_sys_SGC DD done in 0.2s
+[14:21:45]   piece LRG_1.000_1.025_sys_SGC DR done in 6.1s
+[14:21:52]   piece LRG_1.000_1.025_sys_SGC RR0 done in 7.5s
+[14:21:53]   piece LRG_1.000_1.025_sys_NGC RR2 done in 17.9s
+[14:22:00]   piece LRG_1.000_1.025_sys_SGC RR1 done in 7.5s
+[14:22:07]   piece LRG_1.000_1.025_sys_SGC RR2 done in 7.5s
+[14:22:10]   piece LRG_1.000_1.025_sys_NGC RR3 done in 17.9s
+[14:22:10] UNIT DONE LRG_1.000_1.025_sys_NGC (90s)
+[14:22:13]   piece LRG_1.025_1.050_sys_NGC DD done in 0.5s
+[14:22:15]   piece LRG_1.000_1.025_sys_SGC RR3 done in 7.5s
+[14:22:15] UNIT DONE LRG_1.000_1.025_sys_SGC (38s)
+[14:22:16]   piece LRG_1.025_1.050_sys_SGC DD done in 0.2s
+[14:22:20]   piece LRG_1.025_1.050_sys_SGC DR done in 3.9s
+[14:22:24]   piece LRG_1.025_1.050_sys_NGC DR done in 10.6s
+[14:22:25]   piece LRG_1.025_1.050_sys_SGC RR0 done in 4.8s
+[14:22:29]   piece LRG_1.025_1.050_sys_SGC RR1 done in 4.8s
+[14:22:34]   piece LRG_1.025_1.050_sys_SGC RR2 done in 4.8s
+[14:22:36]   piece LRG_1.025_1.050_sys_NGC RR0 done in 12.0s
+[14:22:39]   piece LRG_1.025_1.050_sys_SGC RR3 done in 4.8s
+[14:22:39] UNIT DONE LRG_1.025_1.050_sys_SGC (24s)
+[14:22:44]   piece QSO_1.850_1.925_sys_NGC RR2 done in 97.9s
+[14:22:44]   piece LRG_0.700_0.725_sys_NGC DD done in 2.7s
+[14:22:44]   piece QSO_1.925_2.000_sys_NGC RR2 done in 90.1s
+[14:22:48]   piece LRG_1.025_1.050_sys_NGC RR1 done in 11.9s
+[14:23:00]   piece LRG_1.025_1.050_sys_NGC RR2 done in 12.0s
+[14:23:12]   piece LRG_1.025_1.050_sys_NGC RR3 done in 12.0s
+[14:23:12] UNIT DONE LRG_1.025_1.050_sys_NGC (61s)
+[14:23:14]   piece LRG_0.700_0.725_sys_SGC DD done in 0.8s
+[14:23:37]   piece LRG_0.700_0.725_sys_SGC DR done in 23.1s
+[14:23:48]   piece LRG_0.700_0.725_sys_NGC DR done in 63.5s
+[14:24:06]   piece LRG_0.700_0.725_sys_SGC RR0 done in 28.9s
+[14:24:15]   piece QSO_1.925_2.000_sys_NGC RR3 done in 90.4s
+[14:24:15] UNIT DONE QSO_1.925_2.000_sys_NGC (401s)
+[14:24:20]   piece LRG_0.725_0.750_sys_NGC DD done in 3.1s
+[14:24:22]   piece QSO_1.850_1.925_sys_NGC RR3 done in 98.2s
+[14:24:22] UNIT DONE QSO_1.850_1.925_sys_NGC (435s)
+[14:24:24]   piece LRG_0.725_0.750_sys_SGC DD done in 0.9s
+[14:24:35]   piece LRG_0.700_0.725_sys_SGC RR1 done in 29.0s
+[14:24:50]   piece LRG_0.725_0.750_sys_SGC DR done in 25.3s
+[14:25:01]   piece LRG_0.700_0.725_sys_NGC RR0 done in 73.4s
+[14:25:04]   piece LRG_0.700_0.725_sys_SGC RR2 done in 28.9s
+[14:25:22]   piece LRG_0.725_0.750_sys_SGC RR0 done in 32.3s
+[14:25:32]   piece LRG_0.725_0.750_sys_NGC DR done in 71.5s
+[14:25:33]   piece LRG_0.700_0.725_sys_SGC RR3 done in 29.1s
+[14:25:33] UNIT DONE LRG_0.700_0.725_sys_SGC (141s)
+[14:25:38]   piece LRG_0.900_0.925_sys_NGC DD done in 2.6s
+[14:25:54]   piece LRG_0.725_0.750_sys_SGC RR1 done in 32.1s
+[14:26:15]   piece LRG_0.700_0.725_sys_NGC RR1 done in 74.0s
+[14:26:26]   piece LRG_0.725_0.750_sys_SGC RR2 done in 32.1s
+[14:26:34]   piece LRG_0.900_0.925_sys_NGC DR done in 56.5s
+[14:26:54]   piece LRG_0.725_0.750_sys_NGC RR0 done in 81.8s
+[14:26:58]   piece LRG_0.725_0.750_sys_SGC RR3 done in 32.0s
+[14:26:58] UNIT DONE LRG_0.725_0.750_sys_SGC (156s)
+[14:27:00]   piece LRG_0.900_0.925_sys_SGC DD done in 0.8s
+[14:27:22]   piece LRG_0.900_0.925_sys_SGC DR done in 21.6s
+[14:27:29]   piece LRG_0.700_0.725_sys_NGC RR2 done in 74.0s
+[14:27:40]   piece LRG_0.900_0.925_sys_NGC RR0 done in 65.7s
+[14:27:49]   piece LRG_0.900_0.925_sys_SGC RR0 done in 27.4s
+[14:28:16]   piece LRG_0.725_0.750_sys_NGC RR1 done in 82.3s
+[14:28:17]   piece LRG_0.900_0.925_sys_SGC RR1 done in 27.5s
+[14:28:43]   piece LRG_0.700_0.725_sys_NGC RR3 done in 73.7s
+[14:28:43] UNIT DONE LRG_0.700_0.725_sys_NGC (364s)
+[14:28:44]   piece LRG_0.900_0.925_sys_SGC RR2 done in 27.4s
+[14:28:44]   piece LRG_0.900_0.925_sys_NGC RR1 done in 64.3s
+[14:28:47]   piece LRG_0.925_0.950_sys_NGC DD done in 2.0s
+[14:29:12]   piece LRG_0.900_0.925_sys_SGC RR3 done in 27.2s
+[14:29:12] UNIT DONE LRG_0.900_0.925_sys_SGC (133s)
+[14:29:13]   piece LRG_0.925_0.950_sys_SGC DD done in 0.6s
+[14:29:30]   piece LRG_0.925_0.950_sys_SGC DR done in 16.5s
+[14:29:32]   piece LRG_0.925_0.950_sys_NGC DR done in 44.8s
+[14:29:38]   piece LRG_0.725_0.750_sys_NGC RR2 done in 82.0s
+[14:29:49]   piece LRG_0.900_0.925_sys_NGC RR2 done in 65.0s
+[14:29:51]   piece LRG_0.925_0.950_sys_SGC RR0 done in 20.7s
+[14:30:11]   piece LRG_0.925_0.950_sys_SGC RR1 done in 20.8s
+[14:30:24]   piece LRG_0.925_0.950_sys_NGC RR0 done in 52.1s
+[14:30:32]   piece LRG_0.925_0.950_sys_SGC RR2 done in 20.8s
+[14:30:53]   piece LRG_0.925_0.950_sys_SGC RR3 done in 20.7s
+[14:30:53] UNIT DONE LRG_0.925_0.950_sys_SGC (101s)
+[14:30:55]   piece LRG_0.900_0.925_sys_NGC RR3 done in 65.6s
+[14:30:55] UNIT DONE LRG_0.900_0.925_sys_NGC (322s)
+[14:30:56]   piece QSO_0.950_1.025_sys_NGC DD done in 0.5s
+[14:30:57]   piece QSO_0.950_1.025_sys_SGC DD done in 0.2s
+[14:31:00]   piece LRG_0.725_0.750_sys_NGC RR3 done in 82.2s
+[14:31:00] UNIT DONE LRG_0.725_0.750_sys_NGC (405s)
+[14:31:04]   piece QSO_1.025_1.100_sys_NGC DD done in 0.6s
+[14:31:08]   piece QSO_0.950_1.025_sys_SGC DR done in 10.7s
+[14:31:16]   piece LRG_0.925_0.950_sys_NGC RR1 done in 52.0s
+[14:31:18]   piece QSO_0.950_1.025_sys_NGC DR done in 21.1s
+[14:31:29]   piece QSO_1.025_1.100_sys_NGC DR done in 25.8s
+[14:31:33]   piece QSO_0.950_1.025_sys_SGC RR0 done in 25.1s
+[14:31:58]   piece QSO_0.950_1.025_sys_SGC RR1 done in 25.3s
+[14:32:08]   piece LRG_0.925_0.950_sys_NGC RR2 done in 52.1s
+[14:32:09]   piece QSO_0.950_1.025_sys_NGC RR0 done in 51.5s
+[14:32:23]   piece QSO_0.950_1.025_sys_SGC RR2 done in 25.0s
+[14:32:33]   piece QSO_1.025_1.100_sys_NGC RR0 done in 63.6s
+[14:32:49]   piece QSO_0.950_1.025_sys_SGC RR3 done in 25.2s
+[14:32:49] UNIT DONE QSO_0.950_1.025_sys_SGC (113s)
+[14:32:50]   piece QSO_1.025_1.100_sys_SGC DD done in 0.3s
+[14:33:00]   piece LRG_0.925_0.950_sys_NGC RR3 done in 51.8s
+[14:33:00] UNIT DONE LRG_0.925_0.950_sys_NGC (257s)
+[14:33:01]   piece QSO_0.950_1.025_sys_NGC RR1 done in 51.8s
+[14:33:04]   piece QSO_1.025_1.100_sys_SGC DR done in 13.1s
+[14:33:04]   piece QSO_1.100_1.175_sys_NGC DD done in 0.7s
+[14:33:34]   piece QSO_1.025_1.100_sys_SGC RR0 done in 30.7s
+[14:33:36]   piece QSO_1.100_1.175_sys_NGC DR done in 31.8s
+[14:33:37]   piece QSO_1.025_1.100_sys_NGC RR1 done in 63.9s
+[14:33:53]   piece QSO_0.950_1.025_sys_NGC RR2 done in 52.3s
+[14:34:05]   piece QSO_1.025_1.100_sys_SGC RR1 done in 30.7s
+[14:34:36]   piece QSO_1.025_1.100_sys_SGC RR2 done in 30.7s
+[14:34:40]   piece QSO_1.025_1.100_sys_NGC RR2 done in 63.3s
+[14:34:45]   piece QSO_0.950_1.025_sys_NGC RR3 done in 51.6s
+[14:34:45] UNIT DONE QSO_0.950_1.025_sys_NGC (232s)
+[14:34:47]   piece QSO_1.100_1.175_sys_SGC DD done in 0.3s
+[14:34:54]   piece QSO_1.100_1.175_sys_NGC RR0 done in 78.6s
+[14:35:01]   piece QSO_1.100_1.175_sys_SGC DR done in 14.7s
+[14:35:07]   piece QSO_1.025_1.100_sys_SGC RR3 done in 30.8s
+[14:35:07] UNIT DONE QSO_1.025_1.100_sys_SGC (138s)
+[14:35:10]   piece QSO_1.175_1.250_sys_NGC DD done in 0.8s
+[14:35:37]   piece QSO_1.100_1.175_sys_SGC RR0 done in 35.3s
+[14:35:44]   piece QSO_1.025_1.100_sys_NGC RR3 done in 63.9s
+[14:35:44] UNIT DONE QSO_1.025_1.100_sys_NGC (284s)
+[14:35:46]   piece QSO_1.175_1.250_sys_SGC DD done in 0.3s
+[14:35:48]   piece QSO_1.175_1.250_sys_NGC DR done in 37.1s
+[14:36:03]   piece QSO_1.175_1.250_sys_SGC DR done in 17.4s
+[14:36:12]   piece QSO_1.100_1.175_sys_SGC RR1 done in 35.4s
+[14:36:13]   piece QSO_1.100_1.175_sys_NGC RR1 done in 78.2s
+[14:36:45]   piece QSO_1.175_1.250_sys_SGC RR0 done in 41.5s
+[14:36:47]   piece QSO_1.100_1.175_sys_SGC RR2 done in 35.4s
+[14:37:19]   piece QSO_1.175_1.250_sys_NGC RR0 done in 91.2s
+[14:37:23]   piece QSO_1.100_1.175_sys_SGC RR3 done in 35.3s
+[14:37:23] UNIT DONE QSO_1.100_1.175_sys_SGC (158s)
+[14:37:27]   piece QSO_1.175_1.250_sys_SGC RR1 done in 41.7s
+[14:37:29]   piece LRG_0.750_0.775_sys_NGC DD done in 3.6s
+[14:37:31]   piece QSO_1.100_1.175_sys_NGC RR2 done in 78.7s
+[14:38:08]   piece QSO_1.175_1.250_sys_SGC RR2 done in 41.8s
+[14:38:50]   piece QSO_1.100_1.175_sys_NGC RR3 done in 78.7s
+[14:38:50] UNIT DONE QSO_1.100_1.175_sys_NGC (350s)
+[14:38:50]   piece LRG_0.750_0.775_sys_NGC DR done in 81.2s
+[14:38:50]   piece QSO_1.175_1.250_sys_NGC RR1 done in 91.4s
+[14:38:50]   piece QSO_1.175_1.250_sys_SGC RR3 done in 41.8s
+[14:38:50] UNIT DONE QSO_1.175_1.250_sys_SGC (186s)
+[14:38:52]   piece LRG_0.750_0.775_sys_SGC DD done in 1.0s
+[14:38:57]   piece LRG_0.775_0.800_sys_NGC DD done in 4.1s
+[14:39:20]   piece LRG_0.750_0.775_sys_SGC DR done in 27.9s
+[14:39:57]   piece LRG_0.750_0.775_sys_SGC RR0 done in 36.4s
+[14:40:22]   piece QSO_1.175_1.250_sys_NGC RR2 done in 91.9s
+[14:40:23]   piece LRG_0.750_0.775_sys_NGC RR0 done in 92.6s
+[14:40:32]   piece LRG_0.775_0.800_sys_NGC DR done in 94.9s
+[14:40:33]   piece LRG_0.750_0.775_sys_SGC RR1 done in 36.4s
+[14:41:09]   piece LRG_0.750_0.775_sys_SGC RR2 done in 36.4s
+[14:41:46]   piece LRG_0.750_0.775_sys_SGC RR3 done in 36.3s
+[14:41:46] UNIT DONE LRG_0.750_0.775_sys_SGC (176s)
+[14:41:48]   piece LRG_0.775_0.800_sys_SGC DD done in 1.1s
+[14:41:54]   piece QSO_1.175_1.250_sys_NGC RR3 done in 91.6s
+[14:41:54] UNIT DONE QSO_1.175_1.250_sys_NGC (407s)
+[14:41:55]   piece LRG_0.750_0.775_sys_NGC RR1 done in 92.6s
+[14:42:21]   piece LRG_0.775_0.800_sys_SGC DR done in 32.6s
+[14:42:21]   piece LRG_0.775_0.800_sys_NGC RR0 done in 109.1s
+[14:43:03]   piece LRG_0.775_0.800_sys_SGC RR0 done in 42.4s
+[14:43:28]   piece LRG_0.750_0.775_sys_NGC RR2 done in 92.4s
+[14:43:46]   piece LRG_0.775_0.800_sys_SGC RR1 done in 42.8s
+[14:44:09]   piece LRG_0.775_0.800_sys_NGC RR1 done in 108.5s
+[14:44:28]   piece LRG_0.775_0.800_sys_SGC RR2 done in 42.4s
+[14:45:01]   piece LRG_0.750_0.775_sys_NGC RR3 done in 92.7s
+[14:45:01] UNIT DONE LRG_0.750_0.775_sys_NGC (458s)
+[14:45:11]   piece LRG_0.775_0.800_sys_SGC RR3 done in 42.7s
+[14:45:11] UNIT DONE LRG_0.775_0.800_sys_SGC (205s)
+[14:45:57]   piece LRG_0.775_0.800_sys_NGC RR2 done in 107.5s
+[14:47:45]   piece LRG_0.775_0.800_sys_NGC RR3 done in 107.7s
+[14:47:45] UNIT DONE LRG_0.775_0.800_sys_NGC (534s)
+[14:47:45] STAGE halves-sys COMPLETE
