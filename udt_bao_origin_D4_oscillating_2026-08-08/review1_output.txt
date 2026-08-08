@@ -1,0 +1,41 @@
+R1KEY S0_schwarzschild_ricci_zero = True  
+R1KEY S1_Rtt_plus_A2Rrr_generic = True  
+R1KEY S2_radial_null_and_Rkk_zero = True  
+R1KEY S3_lock_any_A = True  
+R1KEY S4_radial_null_geodesic_r_affine = True  
+R1KEY S5_orbit_b_only = True  [b=L/E only; frequency-blind]
+R1KEY P1_Xm_zero_at_origin = True  
+R1KEY P1_anchor_pin = True  [A(0)-1 = eps*cos(phi0): pin cos(phi0)=0 forced GIVEN c0=1; c0-renorm alternative noted]
+R1KEY P1_eps_bound = True  [A>0 on (0,Rw) iff eps<1 when osc attains -1]
+R1KEY P1_ripple_bound = True  
+R1KEY P1_Xm_closed_form = True  
+R1KEY P1_Xm_edge_log = True  [nm=1: X = Rw ln(1/u); proper n=2: = Rw*delta; optical n=1: = 2Rw*delta -- checked next]
+R1KEY P1_edge_is_depth = True  
+R1KEY P1_B6a_criterion = True  [delta' = [n(1+eps*osc) - eps*Rw*u*osc'] / [2*Rw*u*(1+eps*osc)]]
+R1KEY P1_B7_subcritical = True  
+R1KEY P1_B7_critical_const = True  
+R1KEY P1_B7_supercritical = True  
+R1KEY P1_B7_cycles_edge = True  
+R1KEY P1_B7_cycles_super = True  [supercritical: unbounded term B7c + sign-sweeping sin => delta'<0 infinitely often for ANY eps>0]
+R1KEY P1_B6b_areal_sufficient = True  [n*lam*(1-eps) >= 2pi*Rw*eps ==> monotone (sufficient, not necessary)]
+R1KEY P1_B9_squeeze = True  [monotone in osc => two-sided bound => every O2 finite/divergent verdict survives]
+R1KEY P2_C0_dictionary = True  [A_bg = (1+z)^-2; r(z) = Rw(1-(1+z)^(-2/n))]
+R1KEY P2_C1_inversion = True  [A(r_bg + eps*rho1) = A_bg(r_bg) + O(eps^2): z held fixed]
+R1KEY P2_C2_residual = True  
+R1KEY P2_C3a_xi = True  [equal cycle spacing in xi_m; NOT z generically]
+R1KEY P2_C3c_lnz_edge = True  
+R1KEY P2_C3d_z_cell = True  [only optical(m=1) at n=2 among {0,1/2,1}; m=0 root n=-2 outside n>0]
+R1KEY P2_C4a_falling = True  
+R1KEY P2_C4b_wall_rate = True  
+R1KEY P2_C4c_lowz_pin_cancels = True  [finite const (5/ln10)(eps/n)(2piRw/lam), calibration-degenerate]
+R1KEY P2_C5_antiphase_byform = True  [identity at fixed z: dtheta/theta = -dr/r = -dd_L/d_L]
+R1KEY P2_C7_eps_leg = True  [fixed-r leg = -(1/n)*Rw*u*osc']
+R1KEY P2_C7_transport_leg = True  [total dlnJ = (eps/n)(osc - Rw*u*osc'); dN/dz mod = (eps/n)(Rw*u*osc' - osc)]
+R1KEY P2_C7d_loudness = True  [= r*Phi' = 2pi*r/lam areal; derivative advances radial phase pi/2]
+R1KEY P2_C8_cycle_spacing = True  [Dz_cyc = lam*(n/2Rw)*(1+z)^(1+2/n-2m); const-in-z iff m=1/2+1/n i.e. (optical,n=2)]
+R1KEY P2_C8b_lambda_p = True  [lam_p = lam*(1+z)^(1-2m)]
+R1KEY P2_C9a_scaling = True  [kernel = lam_p^(1-gamma) f(rt/lam_p): induced angular scale theta ~ lam_p/r]
+R1KEY P2_C9b_gamma2_witness = True  [exponentially localized at rt >~ lam_p: genuine localized angular scale at O(eps)]
+R1KEY P2_C10_symbols = True  [['R_w', 'lambda', 'm', 'n', 'varepsilon', 'z']: geometry+oscillation only, no source symbols]
+============================================================
+R1 TALLY: 39/39 independent keys True

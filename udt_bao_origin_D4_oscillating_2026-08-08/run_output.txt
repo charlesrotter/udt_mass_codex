@@ -1,0 +1,62 @@
+D4 derive_d4.py -- scope STATIC/mu=0/lock+areal chart; n, eps, lambda, phi_0 all FREE
+==============================================================================
+KEY A_lock_form_preserved_generic_A = True  [g_tt*g_rr=-1 identically; an oscillating A cannot break the lock]
+KEY A0_ricci_routine_soundness_schwarzschild = True
+KEY A1_radial_null_geodesic_r_affine_generic_A = True  [D1 G4 survives for oscillating A: generic-A fact]
+KEY A3_null_condition_generic_A = True
+KEY A2a_Rtt_plus_A2Rrr_identity_generic_A = True  [R_tt + A^2 R_rr == 0 for ANY A(r): D1's theorem is generic-A -- oscillation included]
+KEY A2b_radial_null_Ricci_focusing_zero_generic_A = True  [R_kk = 0 exactly on arriving bundles: zero focusing survives oscillation; d_A = r rides this]
+KEY A6a_orbit_equation_b_only_generic_A = True
+KEY A6b_achromatic_no_E_in_orbit = True  [photon frequency cancels: propagation tracer/spectrum-blind, generic A]
+-- Block A done: the D1 optics backbone is generic-A (oscillation inherits it) --
+KEY B2_anchor_A0_eq_1_iff_cos_phi0_zero = True  [A(0)-1 = eps*cos(phi_0): banked anchor demands cos(phi_0)=0 (or a c0 renormalization)]
+KEY B2b_pinned_representative_anchor = True
+KEY B3a_factor_linear_in_osc = True
+KEY B3b_min_at_osc_eq_minus1 = True  [min over osc in [-1,1] = 1-eps: A>0 everywhere iff eps<1 (when osc attains -1 in range)]
+KEY B4a_bounds_endpoints = True
+KEY B4b_Abg_wall_limit_zero = True  [A_osc -> 0 at r=R_w by squeeze: the A->0 wall survives the oscillation]
+KEY B5a_ripple_monotone_in_osc = True  [|ripple| max at osc=-1: bound = -ln(1-eps)/2]
+KEY B5b_neg_branch_dominates = True  [1-eps^2 <= 1 -> -ln(1-eps) >= ln(1+eps)]
+KEY B5c_depth_still_diverges = True  [delta_osc = delta_bg + bounded ripple -> infinity: O1 wall/asymptote NOT violated]
+KEY B6a_exact_monotonicity_criterion = True  [delta' = [n(1+eps*osc) - eps*R_w*u*osc'] / [2*R_w*u*(1+eps*osc)]: z(r) monotone iff numerator>0]
+KEY B6b_areal_sufficient_bound_identity = True  [n*lam*(1-eps) >= 2*pi*R_w*eps  ==>  delta' > 0 everywhere (monotone regime)]
+KEY B6c_areal_wall_term_dies = True  [areal-parametrized oscillation NEVER breaks monotonicity near the wall]
+KEY B1a_Xm_closed_form_general_m = True  [X_m(r) = R_w(1-u^(1-nm))/(1-nm), dX_m/dr = A_bg^{-m}; m=0 areal, 1/2 proper, 1 optical]
+KEY B1b_Xm_edge_nm1_log_form = True  [at n*m = 1: X = R_w*ln(1/u) (proper n=2; optical n=1)]
+KEY B1c_edge_X_is_depth_proper_n2 = True  [n=2: delta_bg = -ln(u), l_p = R_w*ln(1/u) = R_w*delta -- proper osc periodic IN DEPTH]
+KEY B1d_edge_X_is_depth_optical_n1 = True  [n=1: delta_bg = -ln(u)/2, l_opt = 2*R_w*delta -- the banked O2 knife-edge rate, re-derived]
+KEY B7a_subcritical_dies = True  [1-n*m = q > 0 (proper n<2; optical n<1; areal all n): term -> 0, monotone near wall]
+KEY B7b_critical_const = True  [n*m = 1 edges: term -> const: finite amplitude threshold, log-periodic riding]
+KEY B7c_supercritical_blows = True  [1-n*m = -g < 0 (proper n>2; optical n>1): term unbounded near wall]
+KEY B7d_argument_diverges_at_edge = True  [edge: infinitely many cycles (osc' sweeps sign): threshold criterion is per-cycle]
+KEY B7e_argument_diverges_supercritical = True  [supercritical: cycles accumulate at the wall; with B7c: delta'<0 infinitely often for ANY eps>0]
+KEY B9a_integrand_ratio_monotone_in_osc = True  [(1+eps*osc)^(-m) in [(1+eps)^(-m), (1-eps)^(-m)]: comparison test -> every O2 F/D cell survives]
+KEY B9b_bound_endpoints = True
+KEY B10_areal_argument_freezes = True  [finitely many cycles; near wall A_osc ~ (1+eps*osc_w)*A_bg: O3 kappa UNCHANGED, const shifted]
+-- Block B done: P1 admissibility conditions + wall-interaction trichotomy --
+KEY C0_dictionary_Abg_eq_zm2 = True  [u(z) = (1+z)^{-2/n}; r(z) = R_w[1-(1+z)^{-2/n}] (D1 G7 re-derived)]
+KEY C1_first_order_dictionary_inversion = True  [A_osc(r_bg + eps*rho1) = A_bg(r_bg) + O(eps^2): redshift held fixed exactly at O(eps)]
+KEY C2_residual_law_first_order = True  [Delta_mu = (5/ln10)*(eps/n)*[u/(1-u)]*osc(r_bg(z)) + O(eps^2), u = (1+z)^{-2/n}]
+KEY C3a_periodicity_variable_general_m = True  [residual periodic (equal spacing) in xi_m = (1+z)^{-2(1-nm)/n}; NOT in z generically]
+KEY C3b_areal_variable = True  [areal: periodic in (1+z)^{-2/n}]
+KEY C3c_lnz_iff_nm_eq_1 = True  [exponent 0 <=> n*m = 1: ln(1+z)-periodicity EXACTLY at the O2 knife-edges (proper n=2, optical n=1)]
+KEY C3d_z_linear_cell = True  [affine-in-z <=> m = 1/2 + 1/n; among natural m: ONLY optical (m=1) at n=2]
+KEY C3e_proper_never_z_linear = True  [proper-parametrized: never periodic in z for any n>0]
+KEY C3f_optical_z_linear_only_n2 = True
+KEY C4a_envelope_strictly_falling = True  [dEnv/dz = -(2/n)(1+z)^{-1} u/(1-u)^2 < 0: the residual amplitude FADES with depth, monotonically]
+KEY C4b_envelope_wall_rate = True  [Env = u*(1/(1-u)): Env ~ (1+z)^{-2/n} at high z (u->0): dies at the derived rate]
+KEY C4c_low_z_finite_by_phase_pin = True  [x = r_bg/R_w -> 0: pinned osc(0)=0 cancels the 1/(1-u) low-z divergence; offset -> const (calib.-degenerate)]
+KEY C5_antiphase_lock = True  [dln(theta)/dln(r) = -dln(d_L)/dln(r): angular-scale and Hubble residuals EXACTLY anti-phased [BY-FORM]]
+KEY C6_pershell_log_slope_constant = True  [w(theta;z) = C(r(z)*theta): log-slope == -gamma at every z: NO per-shell angular scale [BY-FORM]]
+KEY C7a_J_equals_delta_prime_generic = True  [J = dz/dl_p = -A'/(2A) = delta'(r): D1 K17 identity survives generic-A]
+KEY C7b_J_eps_leg = True
+KEY C7b2_J_transport_leg = True  [chain rule [BY-FORM composition]: dlnJ = (eps/n)*(osc - R_w u osc'); dN/dz mod = (eps/n)*(R_w u osc' - osc)]
+KEY C7d_loudness_ratio_r_times_Phiprime = True  [= r*Phi' = 2*pi*r/lam_areal: many-cycle oscillation shouts in dN/dz, whispers in Delta_mu]
+KEY C8_cycle_spacing_general_m = True  [areal (1+z)^{1+2/n}; proper (1+z)^{2/n}; optical (1+z)^{2/n-1}; constant-in-z iff (optical,n=2)]
+KEY C8b_proper_wavelength_law = True  [dl_p/dX_m = A^{m-1/2} = (1+z)^{1-2m}: areal stretches (1+z), proper fixed, optical compresses 1/(1+z)]
+KEY C9a_projection_scaling_identity = True  [oscillatory kernel = lam_p^{1-gamma} * f(r*theta/lam_p): the induced angular scale is theta ~ lam_p/r]
+KEY C9b_localized_kernel_witness_gamma2 = True  [gamma=2 witness: f is exponentially localized at r*theta >~ lam_p: a GENUINE localized angular scale at O(eps)]
+KEY C10_operator_symbol_audit = True  [signature-law symbols ['R_w', 'Xi_val', 'lambda', 'm', 'n', 'varepsilon', 'z_p']: geometry+oscillation only, NO source symbols]
+KEY C11_FRETRO_no_float_atoms = True
+==============================================================================
+TALLY: 56/56 keys True

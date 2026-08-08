@@ -1,0 +1,55 @@
+R1CHK S1_trace_T = True
+R1CHK S1_det_d = True
+R1CHK S1_A1_radial_decouples = True
+R1CHK S1_A2a_disc_u_form = True
+R1CHK S1_A2b_disc_window_fact = True
+R1CHK S1_A4_static_roots = True
+R1CHK S1_A5b_dlam_min = True
+R1CHK S1_A5c_dlam_max = True
+R1CHK S1_A5d_product_tie = True
+R1CHK S1_A6_pert_coeff = True
+R1CHK S1_collision_elliptic = True
+R1CHK S1_A8_threshold_lam = True
+R1CHK S1_A7_disc_zero_at_muc = True
+R1CHK S1_A10_eigline_null_at_threshold = True
+R1CHK S1_A9_labeling_eq_near_window_inside = True
+R1CHK S1_A9_elliptic_just_outside = True
+S1 done: 16 pass / 0 fail so far
+R1CHK S2_B1_K_coefficient = True
+R1CHK S2_B1_exact_branch_numeric = True
+R1CHK S2_B2a_dKdrho = True
+R1CHK S2_B2b_deep_limit = True
+R1CHK S2_B3_slope_minus_2g_constant = True
+R1CHK S2_isserlis_cov_k2k2 = True
+R1CHK S2_gaussian_third_moment_zero = True
+R1CHK S2_B4_coboundary_cov = True
+R1CHK S2_B5_logslope_is_minus_Ew = True
+R1CHK S2_B5_dL_dx_is_weight_variance = True
+R1CHK S2_B6a_crossover = True
+S2_B6b_channel_crossover_free_symbols = ['M0', 'a_', 'g', 'k_p', 's']
+R1CHK S2_B6b_channel_crossover_contains_depth_symbols = True
+R1CHK S2_B7_composition_law = True
+R1CHK S2_T4_weights_fall_with_depth = True
+S2 done: 30 pass / 0 fail so far
+R1CHK S3_E2_achromatic_E_cancels = True
+R1CHK S3_C1_drift_h_over_AS = True
+R1CHK S3_C2_zero_drift_at_h0 = True
+R1CHK S3_G1a_coframe_identity = True
+R1CHK S3_G1a_mix_ratio_form = True
+R1CHK S3_G1b_deviation_O_h2 = True
+S3 done: 36 pass / 0 fail so far
+R1CHK S4_D1_crest_transport = True
+R1CHK S4_D2_depth_law_assembly = True
+R1CHK S4_D2_NUMERIC_ray_trace_confirms_law = True
+R1CHK S4_D4_static_gradient_positive = True
+R1CHK S4_F2_dictionary = True
+R1CHK S4_F4b_J_recovery = True
+R1CHK S4_F6_positive_sum = True
+R1CHK S4_F1_static_pair = True
+R1CHK S4_F1a_lambda_static = True
+R1CHK S4_F1b_onez_static = True
+S4 done: 46 pass / 0 fail so far
+R1CHK S5_fold_static_limit_is_Ar_zero = True
+S5 done: 47 pass / 0 fail
+
+REVIEW1 RECOMPUTE: 47 PASS / 0 FAIL
