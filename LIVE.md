@@ -117,7 +117,32 @@ real, for M3b/radial/origin. **OWNER ONTOLOGY RECORDED:** macro = frame-relation
 pure-viewing-artifact (not a shell); R1/R2 candidate blackbody resolutions recorded (R1's
 kappa-thermality lead = the O3 exponential structure; NOT a result).
 
-**RESUME PATH:** this block -> `udt_xmax_pair_question_MAP_2026-08-06.md` (O1/O2/O3 RESULT sections)
+**BAO-ORIGIN ARC COMPLETE (2026-08-08) — DISCRIMINATION MATRIX CLOSED, at the FREEZE-POINT.**
+Theory-first per Charles's ruling: derive competing origins, FREEZE, then BOSS as virgin data.
+Five origins O-A..O-E, all rows derived-or-scoped (`udt_bao_origin_MAP_2026-08-08_D0_MATRIX.md`);
+four derivation legs all verified LEADS (2 reviews each, ZERO falsifiers fired across 8 reviews):
+- **D1** static transfer: featureless-in=>featureless-out PROVEN (only radial nulls reach r=0;
+  R_tt+A^2R_rr==0 closes the gradient channel); map+WINDOW carries a window-set break.
+- **D2** time-live: IS anisotropy machinery (mu per-direction depth, dragging, aniso ruler) but
+  SCALE-TRANSPARENT (featureless mu=>featureless anisotropy; Gaussian-riding, ansatz-scoped);
+  scale only via inheritance / amplitude thresholds / the FOLD (z-space caustic).
+- **D4** oscillating geometry (O-E): ADMITTED-KINEMATIC; wall trichotomy freeze/ride/compress
+  maps onto O2's table; residual comb spacing in xi_m=(1+z)^(-2(1-nm)/n) NOT z; metric-set
+  theta_osc in the map+window channel; anti-phase lock + loudness hierarchy.
+- **D3** native scale: D3-NO-AMOUNT (banked layer supplies no second length beyond x_max;
+  overturn attack failed+strengthened it). O-B collapses to "O-A with a posited ruler."
+CONVERGENCES banked: the D2 fold = D4 supercritical caustics (SAME object); O-B/O-C/O-E are ONE
+question -- where does structure live (matter/profile/mu-field) -- the map an HONEST COURIER in
+every regime examined. Honest scorecard: none of the derived origins is a native per-shell
+bump-maker (courier scale-transparent) -- BAO's scale is posited free-data OR the discreteness
+program's first real job (mu quantization; the phi-angular hunch; characterized-then-gated).
+**NEXT = the FREEZE-POINT ruling (Charles): commit frozen predictions -> open BOSS (M3b), 5
+preregistered origins judged by decorrelated virgin data at once; then the radial build (AP
+ratio) + the O-E SNe-residual prereg (scan the xi_p family).** All same-session verified;
+external bar travels; ZERO BOSS contact to date (CP4a hard line intact).
+
+**RESUME PATH:** this block -> `udt_bao_origin_MAP_2026-08-08.md` + its D0_MATRIX -> the D1-D4
+packages -> `udt_xmax_pair_question_MAP_2026-08-06.md` (O1/O2/O3 RESULT sections)
 -> `udt_xmax_scale_observational_MAP_2026-08-07.md` (M3+M4+AUDIT COMPLETE appendices + the owner
 ontology + candidate steps) -> the package results docs -> CANON.md (C-2026-08-06-1/-2). NEXT
 GATES on Charles: M3b (BOSS decorrelated cross-check); the radial-estimator build (the
