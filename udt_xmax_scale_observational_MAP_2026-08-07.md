@@ -129,6 +129,33 @@ at equal ink: the blackbody spectrum (why THERMAL at 2.725 K — genuinely open;
 anchor is symbolic/interpretation-conditional) and the harmonic angular-power structure — the
 two observables where the viewing-artifact reading lives or dies.
 
+**OWNER CANDIDATE RESOLUTIONS for the blackbody target (Charles, 2026-08-08, verbatim-intent;
+direction, not evidence; toy models guiding, not claims):**
+- **R1 — asymptotic compression/smear:** "the visual artifacts of UDT approaching x_max
+  compress and smear the red-shifted starlight background into the smooth feature." Honest
+  notes at recording: (a) the CLASSICAL OBSTACLE — naive superposition of redshifted thermal
+  spectra is NOT thermal (the steady-state graveyard); (b) the KNOWN ESCAPE, GR-corpus
+  (allowed lane): infinite-redshift asymptotes THERMALIZE — exponential depth-vs-remaining-
+  distance relations convert generic radiation to exactly-Planck spectra with T set by the
+  approach RATE (the Hawking/Unruh mathematics, matter-blind); (c) **the banked O3 result
+  delta = kappa*ln(1/sigma) IS the required exponential structure, and the verified kappa
+  table is then a candidate TEMPERATURE table** — a specific, derivable spectral-domain
+  question for the future transfer-function work. STATUS: structural rhyme spotted, NOT a
+  result; native derivation could fail; flagged as the first handle.
+- **R2 — the emergence glow:** "the planck blackbody is a 'glow' of diffuse random mass
+  emergence occurring everywhere but compressed at x_max into coherence... mass is destroyed
+  in black holes, but somehow the energy is conserved and transported throughout the universe
+  to emerge as matter... a big lift, but potentially part of a coherent ontology of a
+  non-expanding universe." Honest notes: (a) CONTINUITY — this is the owner's June recycling
+  picture ([[charles-exterior-field-picture]]) resurfacing with a job; (b) STRENGTH — in an
+  eternal static universe blackbody is the equilibrium DEFAULT (infinite time thermalizes);
+  the question inverts to "what sets 2.725 K" = the recycling-rate energy balance; (c) LIFTS
+  at full weight: gated behind the ENTIRE mass-emergence program + a native black-hole
+  destruction/return account + global energy conservation — unentered territory.
+- **NOT RIVALS:** if emergence glows everywhere (R2) and the asymptote thermalizes its input
+  (R1), the backdrop = the equilibrium bath seen on the wall's finite screen — one picture,
+  thermality doubly protected. All gates unchanged (own MAP + go; quarantined).
+
 ## 4. Premise ledger (data provenance grades — the anti-import gate for this lane)
 
 - Pantheon+ light-curve magnitudes vs z (on disk, `Data/`) — NATIVE-OBSERVABLE.
