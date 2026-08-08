@@ -80,6 +80,23 @@ scales does the orchestra put between observation frames?" — posed as "can the
 it is TEMPLATE-LED and must be declared as such. GATE: separate MAP + Charles's go; nothing in this
 lane depends on it; the validator treats ell as a free nuisance regardless of origin.
 
+**OWNER MACRO-ONTOLOGY (Charles, 2026-08-08, recorded verbatim-intent; direction, not evidence;
+governs the future X-BAO-ORIGIN MAP's premise ledger):** "Possibility 3 [macro patterns as pure
+viewing artifacts of the between-frames map — no structure in the sky] was always my reading
+from the basic ontology that UDT is analogous to GR in that its effects (macro) are non-local
+physics but just observational effects between frames of reference. UDT micro differs, because
+it forms structures which may be mass emergence." Honest notes at recording: (a) banked echoes —
+the c_eff two-point-ratio invariance (macro content lives in comparisons), the O3 role split,
+and the repeated COUPLING-INERT verdicts at the kinematic layer (consistent with a macro layer
+that has no local dynamics to find); (b) the macro/micro boundary has a natural mathematical
+candidate — the depth at which the relation goes nonlinear/self-sourcing (hadronic-depth
+exp(-2phi)~5; the mu quantization-under-compact-targets seed sits on this boundary); (c) care
+point carried: relational != unreal — the depth profile is invariant relational content;
+(d) DISCRIMINATOR: the native transfer-function derivation (what the comparison map does to
+angular statistics of a featureless source) tests this ontology directly — featureless T kills
+possibility 3 for BAO; structured T is its first hard evidence. Verifiers aim hardest at
+anything that would confirm this reading (hypothesis discipline).
+
 **SIBLING HYPOTHESIS X-CMB-ANISO (Charles, 2026-08-07, recorded verbatim-intent; direction, not
 evidence; same quarantine):** "if you look at 'the effort-like sticks are supposed to diverge'
 [the O3 rapidity-role rows: z/depth/d_L divergent at the wall for every profile] toss in some
