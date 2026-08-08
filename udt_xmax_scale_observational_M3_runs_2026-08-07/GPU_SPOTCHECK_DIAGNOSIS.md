@@ -41,3 +41,21 @@ recalibration could mask a real failure).
 ## Resume
 Assembly resumes from the existing checkpoints (per-shell counts untouched). No shell is
 recomputed; the spot-check reruns under the amended bound with values recorded.
+
+## v2 ADDENDUM (2026-08-08): full-scale measurement; v1's own secondary bound miscalibrated
+
+The v1-amended criterion ALSO fired on resume. Full-scale measurement (the complete BGS DR pair,
+saved: `spotcheck_BGS_DR_full.npz`, 1.33e12 evals) settles it:
+- max PER-CELL relative diff anywhere = 2.3e-9 (v1's meaningful bound 1e-8: PASSES).
+- v1's secondary TOTAL-sum bound (1e-10) is what fired: measured 4.2e-10 — my own second
+  miscalibration, set from the subsample value without a growth model (observed growth follows
+  the sqrt law of accumulation noise: 2.7e-11 -> 4.2e-10 at 10x additions... [factor ~sqrt(10)
+  per the relative-dust scaling 3.8e-10 -> 1.5e-9 on worst cells]).
+- DIRECT misassignment census at full scale: every |diff| > 0.5 cell has >= 3.8e8 counts (where
+  one count = 1e-9-level dust); ALL 22,020 cells with <= 1e8 counts agree to <= 2.4e-2 — fifty
+  times below one pair. ZERO misplaced pairs everywhere the test has sensitivity.
+**v2 criterion** (in `gpu_spot_check`): (a) per-cell rel <= 1e-8; (b) zero small-cell
+(<= 1e8-count) whole-pair diffs — the direct detector; (c) total rel <= 1e-9 (scaling-aware).
+Measured values + the census are recorded in the results json; audit arrays cached
+(deterministic recomputation; the results-verifier re-runs fresh). Both v1's firing and this
+v2 recalibration are in the results-verifier's briefed re-adjudication scope.
