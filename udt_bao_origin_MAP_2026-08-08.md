@@ -129,11 +129,12 @@ UNDERIVED where it doesn't, so M3b/radial test ALL rows at once.
 - **CP1 — ANSWERED (2026-08-08):** Charles supplied the fifth reading — O-E, oscillating
   spacetime structure (recorded §2 verbatim-intent; "not my favored idea, but not ruled
   out" — carried at equal development per the plurality ruling).
-- **CP2:** D1-then-D2 runs the static slice first because it is cheap and scoped — but if
-  your intuition says the static slice is a WASTE (the modulation being essentially
-  time-live), say so and D2 leads with D1 folded in as its static limit check.
-- **CP3:** D3 (O-B / native scale / mu's discreteness-adjacent test) can run inside this arc
-  or wait for the discreteness program proper — your call on which lane owns it.
-- **CP4:** the freeze-point discipline means NO BOSS data contact of any kind until the
-  matrix is committed — confirm you want that hard line (it is the strongest version of your
-  own sequencing ruling).
+- **CP2 — RULED (Charles, 2026-08-08): (a) STATIC SLICE FIRST.** D1 leads (cheap, scoped);
+  D2 time-live follows regardless; no static null is ever quoted unscoped.
+- **CP3 — RULED (Charles, 2026-08-08): (a) O-B RUNS INSIDE THIS ARC.** mu's first live test
+  happens now; the O-B matrix row gets derived, not marked UNDERIVED. (D3 = its own prereg.)
+- **CP4 — RULED (Charles, 2026-08-08): (a) HARD LINE CONFIRMED.** ZERO BOSS contact of any
+  kind — not even file listings — until the discrimination matrix is frozen and committed.
+
+**ALL CATCH-POINTS RESOLVED — the derivation program (D0 → D1 → D2, D3 in-arc) is GO,
+each step preregistered + two reviews per standing discipline.**
