@@ -105,12 +105,24 @@ cluster weight-stable; joint ruler-curve parametrization unstable -> no BAO-alon
 magnitudes near the SNe curve (ell ~ 70 Mpc-scale) but drift-direction tension carried; radial
 estimator UNBUILT/owed. Package: `udt_xmax_scale_observational_M3_runs_2026-08-07/`.
 
+**M4 COMPLETE (2026-08-08, verified LEAD):** the kernel meeting-point — IF x_max = the fitted
+few-Gpc wall THEN M_total ~ 1e53 kg (~5e22 M_sun), order-of-magnitude, per measure row, every
+premise labeled; the critical-universe consonance carries NO independent corroboration
+(verifier-tightened). **M3-AUDIT COMPLETE (2026-08-08, verified GRADES):** the 8.8-deg outlier
+SELECTION-SUSPECT 5/5 (named layers), LRG 1.05-1.10 SUSPECT(3), QSO 1.85-2.00 reviewer-regraded
+INCONCLUSIVE; thread: control SKY-ROBUST (strongest) + 2 more, 2 INCONCLUSIVE honest; the 70.7
+cell a confirmed fitter artifact; the drift-direction tension survives all selection channels ->
+real, for M3b/radial/origin. **OWNER ONTOLOGY RECORDED:** macro = frame-relations (possibility
+3, "always my reading"), micro = structure/mass emergence; CMB sharpened to
+pure-viewing-artifact (not a shell); R1/R2 candidate blackbody resolutions recorded (R1's
+kappa-thermality lead = the O3 exponential structure; NOT a result).
+
 **RESUME PATH:** this block -> `udt_xmax_pair_question_MAP_2026-08-06.md` (O1/O2/O3 RESULT sections)
--> `udt_xmax_scale_observational_MAP_2026-08-07.md` (M3 COMPLETE + candidate steps) -> the M3
-package results docs -> CANON.md (C-2026-08-06-1/-2). NEXT GATES on Charles: M4 (M_total
-translation via the dimensional lead); M3-AUDIT (selection forensics on the outliers); M3b (BOSS
-decorrelated cross-check); the radial-estimator build (the anchor-free AP-ratio prize). Then
-AGENTS.md sync sequence as usual.
+-> `udt_xmax_scale_observational_MAP_2026-08-07.md` (M3+M4+AUDIT COMPLETE appendices + the owner
+ontology + candidate steps) -> the package results docs -> CANON.md (C-2026-08-06-1/-2). NEXT
+GATES on Charles: M3b (BOSS decorrelated cross-check); the radial-estimator build (the
+anchor-free AP-ratio prize); the unified X-BAO-ORIGIN/X-CMB-ANISO transfer-function MAP (angular
++ spectral/kappa-thermality questions inside). Then AGENTS.md sync sequence as usual.
 
 ## PRIOR STATE — moved below startup (2026-08-06)
 
