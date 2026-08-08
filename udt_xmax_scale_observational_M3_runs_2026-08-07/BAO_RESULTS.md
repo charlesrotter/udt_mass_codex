@@ -55,3 +55,24 @@ joint fits, audit values), `bao_checkpoints/` (104 shell count sets + audit cach
 
 **Everything above is PROVISIONAL until the blind results-verifier pass (prereg §8) and
 Charles's ruling; external-review bar travels.**
+
+## CONSOLIDATED (2026-08-08, blind results-verifier in): BAO leg SUSTAINED — verified LEAD
+
+`RESULTS_VERIFIER_REPORT.md`: two shells recomputed end-to-end from the raw DESI FITS
+(strong LRG 1.00–1.05; null ELG 1.20–1.25) — DD/DR/RR/w(θ)/σ bit-identical; the full 52×2
+look-elsewhere assembly reproduces bit-identically including the joint-fit variant
+instability; detection headline, weight-robust θ(z) table, and the no-BAO-alone-X-range scope
+decision all hold. **GPU-audit amendment: AMENDMENT-SUSTAINED** (independent reproduction of
+every diagnosis claim; corr(log cell, log diff) = 0.98 — the accumulation signature; a bias,
+lost pair, or binning bug cannot evade all three v2 tests simultaneously). AMENDMENTS APPLIED
+(supersede wording above):
+- The consistency observation must carry BOTH halves: the 2.3–2.4° thread magnitudes sit near
+  the SNe-fitted P1 curve (ell ~ 70 Mpc-scale), **but the observed drift DIRECTION across the
+  strong shells runs opposite the predicted gentle fall (~1–1.5 bins)** — "sits near the
+  curve" may not be over-read; adjudication belongs to M3-AUDIT/M3b/radial. Worst outlier is
+  3.8× off the thread (not "2–3×").
+- Radial triggers: 9 shells (sys) / 8 (nosys); the radial estimator remains UNBUILT — OWED.
+- The v2 audit numeric bounds (1e-8 / 1e-9) are set 2–4× above measured values (data-chased,
+  disclosed); **the load-bearing detector is the absolute small-cell whole-pair census and
+  must not be weakened in any future recalibration.**
+Status: verified LEAD (same-session verifier; external bar travels); four-check complete.

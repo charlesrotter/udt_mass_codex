@@ -1,0 +1,23 @@
+{
+ "key": "QSO_2.15_2.30_nosys",
+ "tracer": "QSO",
+ "z": [
+  2.15,
+  2.3
+ ],
+ "variant": "nosys",
+ "zc": 2.2249999999999996,
+ "t_ls_s": 1316.7,
+ "bump": {
+  "dchi2": 6.252117999533482,
+  "theta_b": 4.094082040019345,
+  "sigma_b": 0.15445922880948318,
+  "A_b": 0.002133449253248893
+ },
+ "local_p": 0.36666666666666664,
+ "null_95th": 10.175263451922184,
+ "radial_trigger": false,
+ "seed": 20262446,
+ "backend": "cpu",
+ "caveat": "diagonal jackknife covariance (M2 condition)"
+}

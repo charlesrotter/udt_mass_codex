@@ -1,0 +1,23 @@
+{
+ "key": "ELG_LOPnotqso_0.85_0.90_sys",
+ "tracer": "ELG_LOPnotqso",
+ "z": [
+  0.8500000000000001,
+  0.9
+ ],
+ "variant": "sys",
+ "zc": 0.875,
+ "t_ls_s": 1148.4,
+ "bump": {
+  "dchi2": 1.3589752759682128,
+  "theta_b": 0.3661488455957659,
+  "sigma_b": 0.03,
+  "A_b": -0.02300412826532726
+ },
+ "local_p": 0.9966666666666667,
+ "null_95th": 10.611220189202534,
+ "radial_trigger": false,
+ "seed": 20313595,
+ "backend": "cpu",
+ "caveat": "diagonal jackknife covariance (M2 condition)"
+}

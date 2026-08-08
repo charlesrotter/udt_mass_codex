@@ -279,6 +279,27 @@ FOUR-file; (3) cross-shell look-elsewhere machinery MUST be wired in the M3 prer
 any significance claim (verifier A4); (4) radial leg = attempt-only (S/N risk); (5) the
 diagonal-jackknife-covariance caveat conditions M3 significances (self-consistent for M2 only).
 
+## M3 COMPLETE (2026-08-08): M3-RANGES(SNe) + detection(BAO) — verified LEADS (blind pass in)
+
+`udt_xmax_scale_observational_M3_runs_2026-08-07/` (prereg 523f4aca; RESULTS_VERIFIER_REPORT.md:
+SNe SUSTAINED, BAO SUSTAINED, audit-amendment SUSTAINED; every number reproduced bit-identically;
+four-check complete; same-session verifier — external bar travels). HEADLINES:
+- **V-SNe:** P1 (finite-radius power-law wall) fits (chi2/dof 0.92); P2/P3 (infinite-radius
+  walls) fail structurally (chi2/dof ~3.2) — the data separate the O2/O3 classes. n ~ 1.056
+  with **n=1 (P-opt/L) excluded at 2.82 sigma** (zCMB primary; the zHD flow-corrected column
+  STRENGTHENS to 3.89 sigma — direction verifier-corrected). Anchored: X_eff = 2086 [2059,
+  2113] Mpc; R_w ~ 2.2 Gpc (F-ANCHOR premise travels). BBC-contamination on shape = 0.0044
+  (quarter of the interval half-width) — the point-of-use number on the banked 0.91.
+- **V-BAO:** the frozen detection criterion MET both weight variants (global trials-corrected
+  p < 1/300 vs 0.01) — a coherent angular feature in the raw catalogs, zero LCDM anywhere;
+  the strong cluster (LRG 0.70-1.10, QSO 0.95-1.25, mostly 2.3-2.4 deg) weight-variant stable
+  to ~1%. HONEST LIMITS: joint single-ruler parametrization variant-unstable -> NO BAO-alone
+  X-range; thread magnitudes near the SNe-fitted curve (ell ~ 70 Mpc-scale) BUT drift
+  direction opposite the predicted fall (~1-1.5 bins) — not over-read; outliers (worst 3.8x)
+  -> M3-AUDIT/M3b. Radial estimator UNBUILT (triggers: 9 sys / 8 nosys) — OWED.
+NEXT GATES on Charles: M4 (M_total translation); M3-AUDIT; M3b (BOSS); the radial build (the
+AP-ratio prize). No banked negative registry changes; all leads same-session-verified only.
+
 **GPU AMENDMENT (2026-08-07, Charles's ruling "refactor for GPU + four-file"): applied, verified,
 honest outcome recorded.** Exact float64 GPU pair-count backend built (bin-identical to CPU;
 equivalence test proven non-vacuous — catches ONE misbinned pair; float32 and weight-drop

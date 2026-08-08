@@ -1,0 +1,23 @@
+{
+ "key": "LRG_0.95_1.00_nosys",
+ "tracer": "LRG",
+ "z": [
+  0.9500000000000001,
+  1.0
+ ],
+ "variant": "nosys",
+ "zc": 0.9750000000000001,
+ "t_ls_s": 792.8,
+ "bump": {
+  "dchi2": 20.62907271659943,
+  "theta_b": 8.543070150418563,
+  "sigma_b": 0.7659562143115051,
+  "A_b": -0.033806556197306596
+ },
+ "local_p": 0.0,
+ "null_95th": 9.992282350546166,
+ "radial_trigger": true,
+ "seed": 20322616,
+ "backend": "cpu",
+ "caveat": "diagonal jackknife covariance (M2 condition)"
+}

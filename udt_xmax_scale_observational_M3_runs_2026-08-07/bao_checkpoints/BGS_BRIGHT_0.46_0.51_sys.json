@@ -1,0 +1,23 @@
+{
+ "key": "BGS_BRIGHT_0.46_0.51_sys",
+ "tracer": "BGS_BRIGHT",
+ "z": [
+  0.46,
+  0.51
+ ],
+ "variant": "sys",
+ "zc": 0.485,
+ "t_ls_s": 51.7,
+ "bump": {
+  "dchi2": 5.721318146396598,
+  "theta_b": 3.0883321455541055,
+  "sigma_b": 0.24226639935422842,
+  "A_b": 0.009432215260516071
+ },
+ "local_p": 0.42333333333333334,
+ "null_95th": 10.285407460976906,
+ "radial_trigger": false,
+ "seed": 20275361,
+ "backend": "cpu",
+ "caveat": "diagonal jackknife covariance (M2 condition)"
+}

@@ -120,3 +120,16 @@ Anchor (mode B only): M_B = -19.253 +/- 0.027 (SH0ES ladder; F-ANCHOR premise tr
  }
 }
 ```
+## CONSOLIDATED (2026-08-08, blind results-verifier in): SNe leg SUSTAINED — verified LEAD
+
+`RESULTS_VERIFIER_REPORT.md`: all 18 fits reproduced with zero relative difference from
+committed code+data; P2/P3 failure STRUCTURAL (P2 closed-form; P3 monotone to its P2 limit,
+one-sided flag honest), not a fitter artifact; P1 global minimum confirmed by full-bounds scan;
+anchor propagation and cov/cut handling verified. AMENDMENTS APPLIED (supersede wording above
+and the a40127cc commit message):
+- **The n=1 (L-profile) exclusion, honestly quantified: Δχ² = 7.94 ≈ 2.82σ** in the primary
+  mode A/zCMB (not merely "outside the Δχ²=1 interval").
+- **The zHD framing in the commit message was WRONG in direction:** the flow-corrected column
+  moves inv_n 0.947 → 0.927 — AWAY from 1 — STRENGTHENING the exclusion to 3.89σ. The
+  z-column sensitivity is a conditioning caveat on the n VALUE, not on the n>1 finding.
+Status: verified LEAD (same-session verifier; external bar travels); four-check complete.

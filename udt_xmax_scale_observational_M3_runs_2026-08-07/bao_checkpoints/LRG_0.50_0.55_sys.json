@@ -1,0 +1,23 @@
+{
+ "key": "LRG_0.50_0.55_sys",
+ "tracer": "LRG",
+ "z": [
+  0.5,
+  0.55
+ ],
+ "variant": "sys",
+ "zc": 0.525,
+ "t_ls_s": 945.7,
+ "bump": {
+  "dchi2": 2.821073218343563,
+  "theta_b": 3.2164218859367333,
+  "sigma_b": 0.13701985634752664,
+  "A_b": -0.0039024756285441784
+ },
+ "local_p": 0.8533333333333334,
+ "null_95th": 10.859592316390826,
+ "radial_trigger": false,
+ "seed": 20327154,
+ "backend": "cpu",
+ "caveat": "diagonal jackknife covariance (M2 condition)"
+}

@@ -1,0 +1,23 @@
+{
+ "key": "QSO_1.85_2.00_sys",
+ "tracer": "QSO",
+ "z": [
+  1.85,
+  2.0
+ ],
+ "variant": "sys",
+ "zc": 1.925,
+ "t_ls_s": 2150.8,
+ "bump": {
+  "dchi2": 12.531916238873471,
+  "theta_b": 0.7098392475391418,
+  "sigma_b": 0.3256369284469534,
+  "A_b": -0.007019894276436525
+ },
+ "local_p": 0.02,
+ "null_95th": 10.64714521953984,
+ "radial_trigger": true,
+ "seed": 20329105,
+ "backend": "cpu",
+ "caveat": "diagonal jackknife covariance (M2 condition)"
+}

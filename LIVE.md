@@ -96,11 +96,21 @@ real-data number exists yet — a tooling milestone, not a physics result. Packa
 session: X-CMB-ANISO (divergent rows + angular modulation) and candidate leg V-ANGSIZE (JWST
 angular-size floor riding d_A -> R_w) — both direction-not-evidence, own gates.
 
+**M3 COMPLETE (2026-08-08) — FIRST REAL-SKY UDT NUMBERS, verified LEADS (blind pass in; every
+number reproduced bit-identically; external bar travels):** V-SNe: the finite-radius power-law
+wall fits (chi2/dof 0.92), infinite-radius classes fail structurally; n ~ 1.056, **n=1 (P-opt/L)
+excluded at 2.82-3.89 sigma**; anchored R_w ~ 2.2 Gpc (X_eff 2086 +/- 27 Mpc; F-ANCHOR). V-BAO:
+frozen detection criterion MET both weight variants (LCDM-free, raw catalogs, 52 shells); strong
+cluster weight-stable; joint ruler-curve parametrization unstable -> no BAO-alone X-range; thread
+magnitudes near the SNe curve (ell ~ 70 Mpc-scale) but drift-direction tension carried; radial
+estimator UNBUILT/owed. Package: `udt_xmax_scale_observational_M3_runs_2026-08-07/`.
+
 **RESUME PATH:** this block -> `udt_xmax_pair_question_MAP_2026-08-06.md` (O1/O2/O3 RESULT sections)
--> `udt_xmax_scale_observational_MAP_2026-08-07.md` (M2 COMPLETE + M3 GATE ITEMS) -> CANON.md
-(C-2026-08-06-1/-2). NEXT = **M3 (the real-data runs), GATED on Charles's go** with his rulings on
-the M3 gate items (shell-floor interpretation; randoms depth; look-elsewhere wiring owed in the M3
-prereg). Then AGENTS.md sync sequence as usual.
+-> `udt_xmax_scale_observational_MAP_2026-08-07.md` (M3 COMPLETE + candidate steps) -> the M3
+package results docs -> CANON.md (C-2026-08-06-1/-2). NEXT GATES on Charles: M4 (M_total
+translation via the dimensional lead); M3-AUDIT (selection forensics on the outliers); M3b (BOSS
+decorrelated cross-check); the radial-estimator build (the anchor-free AP-ratio prize). Then
+AGENTS.md sync sequence as usual.
 
 ## PRIOR STATE — moved below startup (2026-08-06)
 
