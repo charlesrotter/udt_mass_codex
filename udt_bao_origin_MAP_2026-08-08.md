@@ -5,6 +5,27 @@ first. Sequencing per Charles's ruling (2026-08-08): theory-first — derive can
 predictions, FREEZE them, then M3b (BOSS, virgin data) discriminates; then the radial build;
 then the full unified origin map (the CMB/spectral half stays PARKED here).
 
+## 0b. OWNER METHODOLOGICAL CATCH — "ruler" is a partial LCDM import (Charles, 2026-08-08, verbatim-intent)
+
+"Is a 'ruler' the correct UDT object or are we importing LCDM assumptions? All we need to do is
+match observations." BINDING CORRECTION, adopted: the CLEAN objects are (a) the raw observation
+= a galaxy-pair excess at a characteristic ANGLE per z-shell, and (b) the native geometry
+theta = ell/r(z) (true in any metric theory; r(z) is UDT's own profile). The IMPORT is the
+assumption that the feature is ONE FIXED PROPER LENGTH ell threading all shells (= the
+standard-ruler / acoustic-scale ontology). That assumption = ONLY the O-A hypothesis, NOT a
+premise — and the M3b Phase-2 in-sample fit REJECTED it (chi2/dof~144; the same-z tracer split
+LRG 2.44 vs QSO 1.39 deg at z~1.02 which a single ruler FORBIDS). Even "BAO" is a borrowed name
+(presupposes baryon-acoustic origin); the neutral object = "the observed angular clustering
+feature." CONSEQUENCES: (1) the ruler (single-ell threading) is de-privileged to one origin
+among five; the in-sample failure now FAVORS the non-ruler origins (O-C viewing artifact / O-E
+drifting oscillation / tracer-dependent). (2) The tracer split is the most NATIVE datum we have
+-- a pure observation that forbids a ruler. (3) M3b/BOSS is reframed: NOT "does our ruler
+thread" but "does the angular feature replicate + what is its tracer/angular behavior" (pure
+observation-matching, ruler-free); the frozen ell-prediction is reported as O-A-under-test, not
+the headline. (4) Nothing banked breaks -- the observations are clean, D1-D4 are map-properties
+not ruler-dependent, D3's no-native-length is the SAME finding from the other side (maybe it is
+not a length at all). Verifiers aim at any remaining ruler-privileging language.
+
 ## 0. Owner rulings this map is built on (2026-08-08, verbatim-intent)
 
 - **PLURALITY (binding):** "don't we have several possibilities for 'predicting' or accounting
