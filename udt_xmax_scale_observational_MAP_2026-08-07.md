@@ -114,6 +114,21 @@ structure does the orchestra put on the divergent rows near the wall?" — posed
 orchestra make the CMB power spectrum?" it is TEMPLATE-LED and must be declared. GATE: separate
 MAP + Charles's go; NOT in any validator; M2/M3 must not import it.
 
+**SHARPENED (Charles, 2026-08-08, verbatim-intent):** "that's why I thought the x_max and mu
+recent findings looked promising for cmb anisotropies, **not as an actual shell, but as a pure
+viewing artifact**" — the owner macro-ontology (recorded above) applied at asymptotic depth: no
+last-scattering surface; the extreme-redshift sky = the VIEW of the wall approach, mu-modulated.
+Banked theorem-grade supports noted at recording: O1's wall = ideal-point family (NOT a member
+of the space — "not an actual shell" already derived); O2/O3's d_A → R_w finite (the infinite-
+depth approach compresses onto a FINITE angular screen — the geometry a patterned backdrop
+needs); mu = the unique direction-modulation channel (pure rotation additive), with tiny
+modulation → tiny ΔT/T the right amplitude ordering (direction-level, not computed). UNIFIED:
+X-CMB-ANISO and X-BAO-ORIGIN are ONE question at two depths — the same native transfer function
+(+ mu) at moderate vs asymptotic depth; one derivation feeds both. HONEST HARD TARGETS carried
+at equal ink: the blackbody spectrum (why THERMAL at 2.725 K — genuinely open; the banked
+anchor is symbolic/interpretation-conditional) and the harmonic angular-power structure — the
+two observables where the viewing-artifact reading lives or dies.
+
 ## 4. Premise ledger (data provenance grades — the anti-import gate for this lane)
 
 - Pantheon+ light-curve magnitudes vs z (on disk, `Data/`) — NATIVE-OBSERVABLE.
