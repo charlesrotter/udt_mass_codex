@@ -1,0 +1,62 @@
+{
+ "prereg": "2f709b05",
+ "constants": {
+  "c": 299792458.0,
+  "G": 6.6743e-11,
+  "Mpc_m": 3.085677581491367e+22,
+  "Msun_kg": 1.98892e+30
+ },
+ "labels": [
+  "ORDER-OF-MAGNITUDE (no dimensionless factor)",
+  "ANCHOR: M_B=-19.253+/-0.027 (SH0ES ladder chain)",
+  "P1-conditional (finite-radius power-law wall)",
+  "measure-tagged per no-pin standing"
+ ],
+ "table": {
+  "best": {
+   "n": 1.056,
+   "areal_Rw_Mpc": {
+    "x_Mpc": 2202.7,
+    "M_kg": "9.153e+52",
+    "M_Msun": "4.602e+22"
+   },
+   "proper_Mpc": {
+    "x_Mpc": 4666.7,
+    "M_kg": "1.939e+53",
+    "M_Msun": "9.749e+22"
+   },
+   "optical": "DIVERGENT at fitted n>1 (no number; honest dash)"
+  },
+  "lo_corner": {
+   "n": 1.0354,
+   "areal_Rw_Mpc": {
+    "x_Mpc": 2132.0,
+    "M_kg": "8.859e+52",
+    "M_Msun": "4.454e+22"
+   },
+   "proper_Mpc": {
+    "x_Mpc": 4420.6,
+    "M_kg": "1.837e+53",
+    "M_Msun": "9.235e+22"
+   },
+   "optical": "DIVERGENT at fitted n>1 (no number; honest dash)"
+  },
+  "hi_corner": {
+   "n": 1.0771,
+   "areal_Rw_Mpc": {
+    "x_Mpc": 2276.2,
+    "M_kg": "9.458e+52",
+    "M_Msun": "4.755e+22"
+   },
+   "proper_Mpc": {
+    "x_Mpc": 4932.8,
+    "M_kg": "2.050e+53",
+    "M_Msun": "1.031e+23"
+   },
+   "optical": "DIVERGENT at fitted n>1 (no number; honest dash)"
+  }
+ },
+ "corner_caveat": "X_eff and inv_n are correlated (D1); corner combinations overstate the interval -- the table is a bounding envelope, not a joint CI.",
+ "H0_equivalent_km_s_Mpc": 71.86,
+ "context_LCDM_bookkeeping": "observable-universe mass estimates ~1e53-1e54 kg (model-dependent external number; same order; context only)"
+}
