@@ -15,6 +15,11 @@ Sources (the only ground used):
 - The MAP itself §2 (per-origin recorded predictions) — "MAP§2".
 - `udt_bao_origin_D1_static_transfer_2026-08-08/DERIVATION_NOTES.md` CONSOLIDATED (verified
   LEAD, R1 SUSTAINED-AMENDED + R2 AMENDED, 2026-08-08) — "D1C" (O-C static row only).
+- SYNTHESIS PASS (2026-08-08, third pass — cross-package statements legally live HERE):
+  `udt_bao_origin_D2_timelive_transfer_2026-08-08/DERIVATION_NOTES.md` CONSOLIDATED (verified
+  LEAD) — "D2C"; its R1 `ADVERSARIAL_REVIEW_1_recompute.md` — "D2-R1".
+  `udt_bao_origin_D4_oscillating_2026-08-08/DERIVATION_NOTES.md` CONSOLIDATED (verified LEAD)
+  — "D4C". (Both NOT committed at their own step; consolidated + two reviews each.)
 
 Numeric anchor available to any row that needs the fitted frame (F-ANCHOR premise travels):
 SNe-fitted P1 (mode A/zCMB): inv_n = 0.947 [0.9284, 0.9658] (n ≈ 1.06); mode B: X_eff = 2086 Mpc,
@@ -28,13 +33,13 @@ R_w(best n) = 2202.6 Mpc; n=1 exclusion 2.82σ (zCMB), 3.89σ (zHD column) [SNE]
 |---|---|---|---|---|---|---|
 | **O-A** intrinsic, frame-mapped | DERIVED: monotone FALL (gentle under fitted P1: −0.40 bins z 0.925→1.025, −1.07 bins 0.725→0.925). E2 tension noted (below). | DERIVED (class only): trichotomy Δz_BAO grows/const/decays (P1/P2/P3); GROWS under fitted P1. Amplitude needs frozen ell — UNDERIVED(freeze-point). | YES — definitional (real structure, same sky): same (theta, z) features [MAP§2]. | Scale SHARED across tracers (definitional: one structure); per-tracer amplitude UNDERIVED (needs a tracer/bias model — outside banked machinery). | UNDERIVED (needs a structure model; outside this arc's machinery). | P1 minimal-angle floor theta→ell/R_w as z→∞ [D1F §3, O2 (B)]; AP-like ratio Δz/(z·theta)→1 at z→0, all profiles [D1F §4]. |
 | **O-B** orchestra-generated | CONDITIONAL: IF the native ell is z-independent and proper, the banked forms apply ⇒ same gentle fall as O-A [D1F §3, P-STATIC-RULER tag]. Whether ell is z-dependent/other-realized = UNDERIVED(D3). | Same conditional: trichotomy applies to any static proper ruler [D1F §4]; realization + z-dependence = UNDERIVED(D3). | YES + possibly tracer-dependence signatures [MAP§2, stated not derived]. | Possibly tracer-DEPENDENT (matter couples; MAP§2) — signature shape UNDERIVED(D3). | UNDERIVED(D3). | The AMOUNT: a native ell needs x_max/M_total or a discreteness scale (mu seed) [MAP§2]; a derived ell VALUE is O-B's sharpest signature — UNDERIVED(D3). |
-| **O-C** pure viewing artifact | DERIVED, STATIC/mu=0 scope (D1): the static map imprints NO angular scale — featureless in ⇒ featureless out PROVEN; refinement (R1-V2): any finite observation WINDOW adds a smooth projection break θ_break ≈ Δℓ_p(bin)/r(z) — window-set, not map-made; the metric controls only its smooth depth-drift [D1C]. Time-live: UNDERIVED(D2). E2's reversed drift stays not-a-target (F-RETRO). | DERIVED, STATIC/mu=0 scope (D1): NO Δz scale creatable (no-extremum theorem); the static radial imprint = the growing stretch J(z) = (n/2R_w)(1+z)^(2/n) plus ONE depth-scale bend (only scale n·(1+z₁)); derived angular/radial leg asymmetry [D1C]. mu static inertness carried as scope. Time-live: UNDERIVED(D2). | YES — any survey of the same sky depth (the view, not the galaxies) [MAP§2]. | DERIVED-PARTIAL, STATIC/mu=0 scope (D1): the OPERATOR is tracer-BLIND (achromatic; no tracer parameter exists in T) — but the phase-identity signature is VACUOUS at the static layer (no T-generated pattern exists to share a phase) → UNDERIVED(D2) [D1C]. The window-break location is per-tracer (a feature of map-plus-window, not of T) [D1C]. | DERIVED, STATIC/mu=0 scope (D1): value-preserving at fixed proper separation (w = C(s), depth-independent); at fixed angle w ∝ r(z)^(−γ), monotone fall, no feature in z. Time-live: UNDERIVED(D2) [D1C]. | Cross-tracer identity (C4) is itself the distinct signature; any D1 featureless result is SCOPED static, never final (CP2) [MAP §3]. |
+| **O-C** pure viewing artifact | DERIVED, STATIC (D1) + TIME-LIVE (D2): the map is SCALE-TRANSPARENT — featureless mixing field in ⇒ featureless anisotropy out; NO native angular scale time-live either [D2C, stamps: Gaussian-riding SS5, ansatz-scoped SS9, below the fold onset]. A scale can only be INHERITED via 3 routes (see cell notes), never made. Window break θ_break ~ Δℓ_p/r(z) rides the time-live dictionary smoothly [D1C, D2C §7d]. E2's reversed drift stays not-a-target (F-RETRO). | DERIVED, STATIC (D1) + TIME-LIVE (D2): no native Δz scale below the fold; the map's ONLY native non-analyticities are THRESHOLDS-not-scales (amplitude edge μ_c=|s−1/ρ|; depth locus ρ·s=1; the FOLD A_t=−A·A_r — the one new time-live failure mode, a condition on free profile DATA) [D2C]. At the fold a z-space caustic (dN/dz pileup) appears. Below fold: featureless [Gaussian-riding, ansatz-scoped]. | YES — any survey of the same sky depth (the view, not the galaxies) [MAP§2]. | DERIVED, TIME-LIVE (D2): tracer phase is FORCED — the operator is tracer-blind + achromatic ⇒ any pattern that exists is phase-identical across tracers; tracer-dependence enters ONLY through per-tracer selection windows [D2C T3']. (Static-layer this was vacuous; time-live it is a real forced signature.) | DERIVED, STATIC (D1) + TIME-LIVE (D2): scale-transparent (power-laws in ⇒ power-laws out); no z-feature below fold [D2C, Gaussian-riding/ansatz-scoped]. | The map is proven an HONEST COURIER (D1 static + D2 time-live below fold): it transports/preserves scales, never manufactures them [D2C; see Convergences]. Cross-tracer phase-identity (C4) is O-C's sharp signature. |
 | **O-D** residual mundane | No prediction machinery. Banked negative: the one measured selection channel (dN/dz z̄-tilt) is quantitatively dead for the drift (≤0.01 bins vs ~1–1.5 observed, sign-incoherent) [AUD]. Unaudited layers remain (INCONCLUSIVE grades) — UNDERIVED/none. | No machinery; no coherent radial prediction exists to derive — expectation of incoherence is stated, not derived. | **NON-replication** — DEFINITIONAL (decorrelated systematics); the cheapest kill available [MAP§2]. | Tracer-SPECIFIC (each tracer has its own selection layers) — definitional; no phase prediction. | No stable prediction (noise conspiracies). | Its live room is the audited record itself: the INCONCLUSIVE cells (LRG 0.90–0.95, QSO 1.10–1.25, QSO 1.85–2.00) and the power-limited caveats on two SKY-ROBUST thread cells [AUD final grade table]. |
-| **O-E** oscillating geometry | UNDERIVED — and NO owning D-item exists in the §5 menu (gap flagged below). An oscillating A(r) is OUTSIDE the frozen O2/O3 monotone family; any such work carries its own class declaration (F-SHOP-CLASS analog) [MAP§2]. | UNDERIVED (same gap; a geometric oscillation would need its own radial-imprint derivation). | YES — definitional (the geometry is there for any survey; same pattern, same phase) [MAP§2 (i)]. | TRACER-UNIVERSAL: all tracers ride the same geometry — same pattern, SAME PHASE [MAP§2 (i), recorded, cite-not-derive]. | UNDERIVED. | Recorded in MAP§2 (ii)–(iv): an OPTICS component (background light modulated too); oscillatory SNe-Hubble-residual periodicity at the corresponding spacing (cheap preregistrable, F-RETRO-discounted, disclosed); phase-coherence structure across z-shells. |
+| **O-E** oscillating geometry | DERIVED, STATIC/μ=0 scope (D4): the induced localized angular scale θ_osc(z) = λ_p(z)/r(z), λ_p = λ(1+z)^(1−2m), drifts per parametrization m (areal λ(1+z)/r; proper λ/r; optical λ/((1+z)r)) — the drift READS OUT m [D4C C8b]. LIVES in the map+window channel ONLY; per-shell w(θ) stays featureless (see C6). Visibility: window ≥ one λ_p cycle [D4C P-D12]. Time-live: UNDERIVED(D4b/D2). | DERIVED, STATIC/μ=0 scope (D4): TRICHOTOMY on nm (=O2 finiteness table read as oscillation-fate): nm<1 FREEZES near wall; nm=1 log-periodic RIDE; nm>1 SUPERCRITICAL COMPRESS → non-monotone z(r) = "redshift caustics", dN/dz fold spikes at J=0 [D4C 2(g,h)]. Cycle spacing Δz_cyc = λ(n/2R_w)(1+z)^(1+2/n−2m). | YES — definitional (geometry is there for any survey) [MAP§2 (i)]; the phase is derived-coherent (C4). | DERIVED (D4): TRACER-UNIVERSAL + phase-coherent — operator carries only {z,n,R_w,λ,ε,m,osc}; achromatic ⇒ every tracer at same z inherits SAME modulation, SAME phase; isotropic, z-locked; tracer-dependence only via selection windows [D4C 3(c), free-symbol audit]. | DERIVED, STATIC/μ=0 scope (D4): amplitude ε<1 (admitted-kinematic); the Hubble residual envelope ∝ u/(1−u) FADES with z at rate (1+z)^(−2/n) (tied to the distance-law n) [D4C C4a-c]. | DERIVED (D4): Δμ(z) residual with EQUAL CYCLE SPACING in ξ_m=(1+z)^(−2(1−nm)/n) — generically NOT in z (z-periodic only at optical n=2); ANTI-PHASE LOCK δθ/θ=−δd_L/d_L; LOUDNESS HIERARCHY (dN/dz louder than Δμ by exactly r·Φ′, phase-advanced π/2); optics component PARTIAL (achromatic+d_L/θ derived; surface-brightness open) [D4C 3(a,b,d,e)]. |
 
-*(O-C row updated 2026-08-08 post-D1 [D1C]: static-layer cells filled, time-live cells left
-UNDERIVED(D2) as before. The CURRENT-SCORECARD §below predates D1 and, for O-C's static
-layer only, is superseded by the row.)*
+*(O-C row: static cells from D1 [D1C], time-live cells now filled from D2 [D2C]. O-E row:
+now filled from D4 [D4C] (static/μ=0 scope). The CURRENT-SCORECARD lines for O-C and O-E were
+rewritten in this same synthesis pass; O-A/O-B/O-D lines are unchanged from the first pass.)*
 
 ### Cell notes (citations + the E2 tension, stated neutrally)
 
@@ -58,6 +63,43 @@ layer only, is superseded by the row.)*
 - O-D/C1: honesty both ways — the audit killed the measured channel but its scope line is
   explicit: shell-center displacement only; a z-dependent clustering-amplitude mix is a
   different channel, only indirectly probed [AUD drift note scope sentence].
+- O-C the THREE inheritance routes (a scale is never map-made, only inherited) [D2C §3]:
+  (1) μ's own angular correlation carries a localized feature → the map transports it as
+  θ(z)=s_feat/r(z); (2) μ's amplitude crosses a native THRESHOLD (μ_c=|s−1/ρ| or ρ·s=1 —
+  these are thresholds, not scales); (3) the free profile data realize a dictionary FOLD.
+  Plus the D1 window-set route (per-tracer selection window). Every no-feature verdict rides
+  the SS5 Gaussian-statistics stamp (LOAD-BEARING) and the SS9 time-live lock-form ansatz.
+- O-E/C1-C6 scope: STATIC/μ=0, lock+areal-anchor chart, central observer, n>0, r-only
+  multiplicative oscillation class, test sources, O(ε) laws inside the P-D11 validity domain
+  [D4C SCOPE]. Landing = D4-ADMITTED (KINEMATIC — no native law is banked, so no dynamical
+  admissibility is claimed); the trichotomy restrictions are structure INSIDE admission.
+
+## CONVERGENCES (SYNTHESIS — the arc's structural findings; cross-package, cite both + D2-R1)
+
+Cross-package statements legally live here (the matrix/synthesis step), not in any single
+package. Two findings, both neutral — no origin preferred:
+
+- **(a) The D2 fold and the D4 supercritical caustics are THE SAME OBJECT.** D2-R1 proved it
+  (`S5_fold_static_limit_is_Ar_zero`): the static limit of D2's fold condition A_t=−A·A_r
+  (set A_t=0) gives A_r=0 — exactly D4's J=0 caustic locus [D2-R1 "D2 fold vs D4 caustics:
+  SAME mathematical object"; D4C 2(h) J=0; D2C §7b/§7d]. One creased-dictionary phenomenon
+  reachable from TWO origins: as O-C's time-live fold (structure in the free profile DATA)
+  or as O-E's supercritical redshift-caustic (nm>1 oscillation piling cycles at the wall).
+  The static route reaches it only OUTSIDE class-(i) monotone profiles (A_r=0 needs a
+  non-monotone A), the time-live route from generic profile time-dependence [D2-R1].
+- **(b) O-C, O-E, and O-B are three variants of ONE question: WHERE DOES THE STRUCTURE LIVE
+  — in the matter, in the profile, or in the comparison field?** O-B = structure in the
+  matter (a native clustering scale); O-E = structure in the PROFILE (an oscillatory metric
+  component the galaxies trace); refined O-C = structure in μ's OWN field (the comparison
+  map's mixing field carries it) — see the three inheritance routes above. In EVERY regime
+  examined the MAP ITSELF is proven an HONEST COURIER: D1 (static) and D2 (time-live, below
+  the fold) both show it transports and preserves scales but never manufactures one from
+  featureless input [D1C; D2C SCALE-TRANSPARENT, stamps riding]. So the discriminating
+  question is not "does the view invent the pattern" (it does not, in the regimes derived) but
+  "which of matter / profile / μ-field SOURCES the structure the honest courier then carries."
+  Stated as the arc's structural finding, no origin favored; the fold/caustic (a) is the one
+  place the courier itself creases — and it is a condition on DATA (profile or amplitude), not
+  a manufactured scale.
 
 ## CURRENT-SCORECARD (per origin vs the explananda; neutral, no ranking, no verdict)
 
@@ -76,43 +118,55 @@ are NOT explananda).
 - **O-B**: conditionally as O-A on E1/E3 (same frame relations IF static proper z-independent
   ell — D3's question) and then shares O-A's E2 strain; silent on E4; additionally owes the
   AMOUNT (a native ell source) before it accounts for anything in its own right.
-- **O-C**: silent on E1, E2, and E3 — its machinery (the transfer function) is entirely
-  underived (D1/D2); E2's reversed drift is its open invitation, not yet its account (F-RETRO);
-  on E4: IF the derivation yields cross-tracer identity, ELG-quiet becomes a strain — undecided
-  until D1/D2.
+- **O-C** [UPDATED post-D1/D2]: machinery now DERIVED (routes + thresholds + fold, with the
+  Gaussianity SS5 and lock-form-ansatz SS9 stamps). It STRAINS against E1 as a bump-maker: the
+  honest courier is scale-transparent, so it does NOT manufacture the per-shell thread from
+  featureless input — a viewing-artifact account of E1 REQUIRES an inherited feature in μ's own
+  field (route 1) or a fold (route 3), which is then an assumption about the field/profile, not
+  a free product of the view; silent on E2/E3 until such an inherited feature is posited (F-RETRO
+  bars steering to E2's reversed drift). On E4: the FORCED cross-tracer phase-identity makes
+  ELG-quiet a genuine strain if any O-C pattern exists (all tracers should carry it) — now a
+  derived tension, not undecided.
 - **O-D**: accounts for (at most) the INCONCLUSIVE cells; STRAINS against E1 (the control cell
   is SKY-ROBUST on every powered test), E2 (the measured channel is dead two orders of
   magnitude; thread centers carry no instability that could tilt them coherently), and E3 (a
   noise conspiracy landing near one ell/r(z) curve in two tracers is unquantified); its clean
   discriminator is C3 non-replication; consistent with E4 by construction (systematics need
   not appear in ELG).
-- **O-E**: silent on E1, E2, E3 (no machinery; no owning work item yet); on E4: recorded
-  tracer-universality (same pattern, same phase) makes ELG-quiet a potential strain once
-  derived — undecided; its recorded signatures (SNe-residual periodicity, optics component,
-  phase coherence) are preregistrable tests, not yet accounts.
+- **O-E** [UPDATED post-D4]: full derived signature set (θ_osc drift, ξ_m spacing, anti-phase
+  lock, loudness hierarchy, trichotomy, visibility). HONEST LIMIT on E1: an admitted oscillation
+  BELOW caustics puts its angular imprint θ_osc in the map+window (depth-projection) channel —
+  per-shell w(θ) stays FEATURELESS [D4C 3(b)]. So E1's per-shell degree-scale bumps are NOT
+  directly accounted by a sub-caustic oscillation; O-E's native angular home is the projected
+  window channel, and per-shell bumps would need the SUPERCRITICAL/caustic regime (nm>1) or an
+  inherited-feature route. Silent on E2/E3 (F-RETRO: no steering to the numbers). On E4: forced
+  tracer-universality + z-locked phase makes ELG-quiet a derived strain if any O-E pattern
+  exists. Its cheapest own test = the SNe-residual periodicity (scan ξ_p family + ln(1+z) edge,
+  NOT z), preregistrable on in-hand data (F-RETRO-discounted, disclosed) [D4C 3(e)].
 
-## DERIVATION-DEBT (what D1/D2/D3 must produce to complete their rows; each later prereg
-## freezes against this list)
+## DERIVATION-DEBT (D1/D2/D4 DELIVERED; D3 + named post-freeze inheritances remain; each
+## later prereg freezes against this list)
 
-**D1 — static angular transfer function (O-C's first slice, scoped):**
-1. Existence: does the static comparison map imprint ANY angular feature on a statistically
-   plain source field at DR1-like depths? (Featureless = first-class AND scoped "static".)
-2. If features: the theta(z) drift law across z-shells (fills O-C/C1, static-scoped).
-3. Cross-tracer behavior: identical pattern AND phase across tracers at same z, yes/no
-   (fills O-C/C4 — the sharp signature).
-4. Amplitude vs z (fills O-C/C5, static-scoped).
-5. The radial-statistic imprint, or an explicit scoped statement of static-layer silence
-   (fills O-C/C2, static-scoped; mu static inertness carried as scope).
-   Duties: premise ledger per solve, every sector ON/OFF tagged (F-FREEZE); no steering
-   toward E2's reversed drift (F-RETRO); observe-mode; two reviews.
+**D1 — static angular transfer function — DELIVERED [D1C], verified LEAD.** All five deliverables
+discharged (scale-transparent static map; window-set break; radial-leg asymmetry). O-C static
+cells filled.
 
-**D2 — time-live extension (clock→screen mixing un-tabled; angular + mu genuinely on):**
-1–5. The same five deliverables with time live — each either supersedes or scopes D1's
-   static answer; a static null may never be quoted unscoped (CP2).
-6. Explicitly: does the mixing channel entering lambda_t modulate the VIEW (O-C) and does
-   mu's defect acquire any kinematic role beyond the static layer? (Its static inertness is
-   scope, not prior.)
-   Duties: bounded symbolic first (anti-hang rules for any numerics); full ON/OFF ledger.
+**D2 — time-live extension — DELIVERED [D2C], verified LEAD.** All five + the mixing question
+discharged (scale-transparent time-live below the fold; forced tracer phase; fold A_t=−A·A_r the
+one new time-live non-analyticity; static limit recovers D1). NAMED POST-FREEZE INHERITANCES
+[D2C inheritance list] — after the freeze-point, NOT blocking the matrix: (1) source back-
+reaction/self-lensing; (2) off-center observers; (3) generic B(t,r)/g_tr chart beyond the SS9
+lock-form ansatz (exact forms change, qualitative verdict plausibly survives); (4) non-Gaussian
+statistics beyond the all-order argument (the SS5 stamp is LOAD-BEARING); (5) metric-realization
+frame-pair + coefficient match for channel (i) (P-D2-5); (6) t-/r-varying mixing along a
+sightline; (7) fold-onset × window-break interaction.
+
+**D4 — O-E oscillating geometry — DELIVERED [D4C], verified LEAD** (was flagged an unowned menu
+gap in the first pass; now owned and derived). C1-C6 filled (static/μ=0 scope). NAMED POST-FREEZE
+INHERITANCES [D4C]: caustic-regime statistics beyond the fold-spike; the TIME-LIVE oscillation
+(D4b — standing wave vs static profile, the λ_t channel; meets D2 at the shared fold, Convergences
+(a)); accrual dynamics (O-E's own dynamical step, underived by contract); ε(r)-envelope forms;
+the surface-brightness/image-level optics component (only achromatic + d_L/θ half derived).
 
 **D3 — O-B's native scale (separately gated; discreteness-adjacent; mu seed's first live test):**
 1. The AMOUNT: does the between-frames physics supply a native length — from x_max/M_total,
@@ -125,10 +179,9 @@ are NOT explananda).
 4. The tracer-coupling signature (fills O-B/C4): how matter's coupling to the generated scale
    depends (or not) on tracer type.
 
-**Cross-cutting debts (owned outside D1–D3; named so the freeze-point sees them):**
-- **O-E has NO owning work item** in the MAP §5 menu: its C1/C2 cells need a metric-led
-  oscillating-solution derivation (own class declaration — outside the frozen O2/O3 monotone
-  family; F-SHOP-CLASS analog). Flagged as a menu gap for Charles; D0 does not invent a D4.
+**Cross-cutting debts (owned outside D1–D4; named so the freeze-point sees them):**
+- **D3 remains the one un-delivered derivation leg** (O-B's native scale; debts 1–4 above
+  unchanged) — separately gated, discreteness-adjacent, the mu seed's first live test.
 - **The radial ESTIMATOR is unbuilt** [BAO CONSOLIDATED, owed]: every row's C2 is untestable
   against data until it exists, regardless of derivation status.
 - **ell freeze**: O-A/C2's numeric radial prediction and any numeric theta(z) overlay need an
@@ -136,5 +189,8 @@ are NOT explananda).
 - The O-E SNe-residual periodicity test needs its own prereg (in-hand data; F-RETRO
   discounted and disclosed as such) [MAP§2 (iii)].
 
-— D0 assembly agent (Fable), 2026-08-08. CP4: zero BOSS contact. Not committed by D0;
-two reviews + the freeze-point commit belong to the arc, not to this step.
+— D0 assembly agent (Fable), 2026-08-08. First pass = matrix from banked machinery; second
+pass = O-C static cells from D1 [D1C]; THIRD (synthesis) pass = O-C time-live cells from D2
+[D2C], O-E cells from D4 [D4C], the CONVERGENCES section (cross-package, legal here), scorecard
++ debt updated. CP4: zero BOSS/data contact throughout. NOT committed (owner's gate + the
+freeze-point commit belong to the arc).
