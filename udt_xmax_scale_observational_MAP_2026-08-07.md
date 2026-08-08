@@ -142,6 +142,49 @@ MAP + Charles's go; NOT in any validator; M2/M3 must not import it.
 4. **M4 — the M_total translation + a consilience note (labeled as riding the dimensional lead).**
 X-BAO-ORIGIN (§3) is NOT on this menu; it gets its own map only on your explicit go.
 
+**CANDIDATE FUTURE STEPS (recorded 2026-08-07 on Charles's in-run reflections; direction, not
+evidence; each gated on its own go; NOTHING here touches the frozen M3 run 523f4aca):**
+
+- **M3-AUDIT — per-shell selection-function forensics (if outliers survive tonight's weight-variant
+  comparison).** Charles's framing (binding for this step): investigate what DESI did to NORMALIZE
+  the data (mask, fiber-assignment/collision gaps, target-selection transitions, imaging-weight
+  maps) — the SURVEY's own layers — as the outlier suspects, NOT a physics mechanism. This is
+  "mismatch -> solver" applied to a third party's pipeline: the outlier's provenance is a
+  selection/systematics question first. Concrete open lead already visible: the 8.8-deg LRG
+  outlier sits at z 0.95-1.00, at the sample's selection-edge thinning — a shell-boundary x
+  selection-transition interaction is a known broad-power mimic. STILL LCDM-free (DESI's
+  normalization != LCDM model assumptions; F-IMPORT-LCDM intact). Preregistered if run.
+
+- **M3b — additional pre-recon surveys averaged/cross-checked in (Charles: "BAO surveys are all over
+  the place; average in a few more").** M1 already graded the shelf: BOSS DR12 pre-recon (~5 GiB,
+  clean-enough) = the natural DECORRELATED cross-check (different telescope/target/imaging =>
+  systematics independent of DESI; an independent ~2.3-deg thread at overlapping z would outweigh
+  more DESI statistics; its absence = a systematics verdict). eBOSS usable with care (mixed
+  _rec/raw directory trap). Published theta_BAO compilations = cross-check-only (small fiducial
+  corrections). NOT averaged into 523f4aca (frozen); a separate preregistered leg after the
+  current verdict.
+
+- **NEW ANCHOR CANDIDATES beyond SNe/BAO/CMB (Charles's 10-month go-to trio; asked for peers/
+  betters). Shortlist, graded:**
+  - **Standard sirens (GW) — the cleanest anchor available.** Absolute distance from waveform
+    physics ALONE (no ladder, no light-curve standardization, no BBC bias layer) + host-galaxy
+    redshift => pristine d(z) points. Few events, growing. BONUS native test: GW170817 bounds
+    |c_GW - c_light|/c < ~1e-15 — a sharp consistency test for how c_eff treats the tensor vs
+    optical sectors (metric-led: "does the orchestra force the two speeds equal?").
+  - **Alcock-Paczynski ratio — anchor-FREE, and possibly already in hand.** theta / Delta z at the
+    SAME z cancels the ruler length entirely => pure-shape, no external calibration; the radial
+    trichotomy (grow/constant/decay) survives the division. Our transverse+radial BAO legs already
+    compute both halves; if the radial leg gets traction this is ruler-free profile discrimination
+    for free — arguably the purest observable in the program. Elevate at M4/M3b if radial survives.
+  - **Time-delay lensed quasars — geometric absolute distances** (measured delays + lens model);
+    moderate cleanliness (lens-model premise); a third-party check on the candle anchor.
+  - **Standing cheap consistency notes (banked mentally, no discrimination but no vulnerability):**
+    UDT passes the Tolman surface-brightness (1+z)^-4 test automatically (forced by the banked
+    d_L/d_A, zero freedom); SNe light-curve time-stretching is native (clock ratio IS 1+z) — a
+    test some static-universe models fail and UDT passes by construction. (These are NOT anchors;
+    they are non-vulnerabilities worth knowing when the picture is challenged.)
+  - JWST angular sizes already parked as V-ANGSIZE above.
+
 **CANDIDATE FUTURE LEG (recorded 2026-08-07 on Charles's question "would higher-z JWST data
 help?"; NOT on the M2/M3 menu — F-SHOP; own MAP + go required): V-ANGSIZE, the JWST angular-size
 floor test.** Rides the banked O2/O3 cell d_A = r -> R_w FINITE at the wall (class i): objects of
