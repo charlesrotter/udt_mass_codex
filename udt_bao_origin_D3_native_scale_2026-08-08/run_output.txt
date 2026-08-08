@@ -1,0 +1,62 @@
+======================================================================
+I1 — X and the banked dimensionless objects (amounts vs free params)
+======================================================================
+[True ] O3_general_reduces_areal_m0
+[True ] O3_general_reduces_proper_mhalf
+[True ] O3_general_reduces_optical_m1
+[True ] O3_recip_kappa_linear_slope_-2
+[True ] O3_recip_spacing_areal_proper_eq_1
+[True ] O3_recip_spacing_proper_optical_eq_1
+[True ] O3_recip_spacing_is_n_free
+[True ] O2_proper_over_areal_eq_2_over_2mn
+[True ] O2_measure_ratio_depends_on_n
+[True ] O3_kappa_areal_depends_on_n
+[True ] O3_kappa_proper_depends_on_n
+[True ] O3_kappa_optical_depends_on_n
+[True ] R1A1_exponent_spacing_is_1
+[True ] R1A1_duality_ratio_is_1plusz
+[True ] R1A1_duality_ratio_is_z_varying
+======================================================================
+I2 — mu (reciprocal-lock defect) and the D2 thresholds
+======================================================================
+[True ] I2_mu_is_reciprocal_lock_defect
+[True ] I2_lock_holds_iff_mu0
+[True ] I2_block_root_product_mu_independent
+[True ] D2_disc_factorization
+[True ] D2_disc_zero_at_mu_c
+[True ] D2_muc_depth_rides_free_data
+[True ] D2_collision_depth_eq_1_over_s
+[True ] D2_collision_depth_rides_free_s
+[True ] D2_disc_at_collision
+[True ] F_SCOPE_quantization_is_conditional
+======================================================================
+I3 — fold onset + D4 nm-trichotomy boundaries
+======================================================================
+[True ] I3_static_gradient_form
+[True ] I3_static_gradient_positive
+[True ] D4_xi_exponent_form
+[True ] D4_ln1pz_periodicity_at_nm1
+[True ] D4_nm1_relation_free_params
+[True ] D4_cyclespacing_carries_free_lambda
+======================================================================
+I4 — the D2 crossover theta_x (observer-supplied)
+======================================================================
+[True ] I4_thetax_carries_observer_kp
+[True ] I4_thetax_kp_dependence_nonzero
+[True ] I4_thetax_drift_exponent_minus2overg
+======================================================================
+I5 — P4 c_theta angular lattice (banked; R1-A2 explicit row)
+======================================================================
+[True ] R1A2_ctheta_rides_free_ell
+[True ] R1A2_ctheta_carries_no_radial_X
+[True ] R1A2_bare_2pi_is_angle_not_separation
+======================================================================
+I5 / M4 exchange-rate pattern + P-STATIC-RULER (conditional)
+======================================================================
+[True ] M4_unique_GcM_length_is_GM_over_c2
+[True ] PSR_carrier_is_dimensionless_ratio
+[True ] PSR_ratio_needs_posited_ell
+======================================================================
+CHECKS: 40/40 True
+FAILURES: NONE
+LANDED OUTCOME: D3-NO-AMOUNT (scoped negative, first-class).

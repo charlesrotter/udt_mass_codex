@@ -20,6 +20,9 @@ Sources (the only ground used):
   LEAD) — "D2C"; its R1 `ADVERSARIAL_REVIEW_1_recompute.md` — "D2-R1".
   `udt_bao_origin_D4_oscillating_2026-08-08/DERIVATION_NOTES.md` CONSOLIDATED (verified LEAD)
   — "D4C". (Both NOT committed at their own step; consolidated + two reviews each.)
+- FOURTH PASS (2026-08-08): `udt_bao_origin_D3_native_scale_2026-08-08/DERIVATION_NOTES.md`
+  CONSOLIDATED (verified LEAD; R1 SUSTAINED-AMENDED overturn-failed + R2 AMENDED no-falsifier)
+  — "D3C". Fills O-B's row; closes the matrix. NOT committed at its own step.
 
 Numeric anchor available to any row that needs the fitted frame (F-ANCHOR premise travels):
 SNe-fitted P1 (mode A/zCMB): inv_n = 0.947 [0.9284, 0.9658] (n ≈ 1.06); mode B: X_eff = 2086 Mpc,
@@ -32,7 +35,7 @@ R_w(best n) = 2202.6 Mpc; n=1 exclusion 2.82σ (zCMB), 3.89σ (zHD column) [SNE]
 | origin | C1 theta(z) drift across thread | C2 radial signal class | C3 BOSS replication | C4 tracer-universality/phase | C5 amplitude/z | C6 other distinct signatures |
 |---|---|---|---|---|---|---|
 | **O-A** intrinsic, frame-mapped | DERIVED: monotone FALL (gentle under fitted P1: −0.40 bins z 0.925→1.025, −1.07 bins 0.725→0.925). E2 tension noted (below). | DERIVED (class only): trichotomy Δz_BAO grows/const/decays (P1/P2/P3); GROWS under fitted P1. Amplitude needs frozen ell — UNDERIVED(freeze-point). | YES — definitional (real structure, same sky): same (theta, z) features [MAP§2]. | Scale SHARED across tracers (definitional: one structure); per-tracer amplitude UNDERIVED (needs a tracer/bias model — outside banked machinery). | UNDERIVED (needs a structure model; outside this arc's machinery). | P1 minimal-angle floor theta→ell/R_w as z→∞ [D1F §3, O2 (B)]; AP-like ratio Δz/(z·theta)→1 at z→0, all profiles [D1F §4]. |
-| **O-B** orchestra-generated | CONDITIONAL: IF the native ell is z-independent and proper, the banked forms apply ⇒ same gentle fall as O-A [D1F §3, P-STATIC-RULER tag]. Whether ell is z-dependent/other-realized = UNDERIVED(D3). | Same conditional: trichotomy applies to any static proper ruler [D1F §4]; realization + z-dependence = UNDERIVED(D3). | YES + possibly tracer-dependence signatures [MAP§2, stated not derived]. | Possibly tracer-DEPENDENT (matter couples; MAP§2) — signature shape UNDERIVED(D3). | UNDERIVED(D3). | The AMOUNT: a native ell needs x_max/M_total or a discreteness scale (mu seed) [MAP§2]; a derived ell VALUE is O-B's sharpest signature — UNDERIVED(D3). |
+| **O-B** orchestra-generated | CONDITIONAL, now RESOLVED at root [D3C]: no NATIVE ell is banked ⇒ any ell is POSITED free-data (or discreteness-supplied). IF posited z-independent + proper, banked forms ⇒ same gentle fall as O-A [D1F §3, P-STATIC-RULER]; the drift then reads out the posited ell's z-behavior, not a native law. | Same conditional [D1F §4]: trichotomy applies to any static proper ruler; but the ruler itself is posited/discreteness-gated, not native [D3C]. | YES + possibly tracer-dependence signatures [MAP§2, stated not derived]. | Possibly tracer-DEPENDENT (matter couples) — but coupling is NOT derivable at the banked layer (no matter dynamics banked) [D3C tracer-inheritance note]; named inheritance only. | Rides the posited/discreteness scale's amplitude — no native amplitude law [D3C]. | **THE AMOUNT — DERIVED NEGATIVE [D3C, verified LEAD]:** NO native second amount at the banked layer (under SS9 lock chart / central observer / D2 stamps). Every candidate = X × {free param n, free-data-conditioned threshold μ_c/ρ·s=1/fold, observer-supplied θ_x via k_p, or the length-inert parameter-free spacing=1}. O-B's scale requires EITHER posited free-data (ell/X) OR the discreteness program firing (μ quantization under a compact/winding target — characterized-not-run, F-SCOPE). |
 | **O-C** pure viewing artifact | DERIVED, STATIC (D1) + TIME-LIVE (D2): the map is SCALE-TRANSPARENT — featureless mixing field in ⇒ featureless anisotropy out; NO native angular scale time-live either [D2C, stamps: Gaussian-riding SS5, ansatz-scoped SS9, below the fold onset]. A scale can only be INHERITED via 3 routes (see cell notes), never made. Window break θ_break ~ Δℓ_p/r(z) rides the time-live dictionary smoothly [D1C, D2C §7d]. E2's reversed drift stays not-a-target (F-RETRO). | DERIVED, STATIC (D1) + TIME-LIVE (D2): no native Δz scale below the fold; the map's ONLY native non-analyticities are THRESHOLDS-not-scales (amplitude edge μ_c=|s−1/ρ|; depth locus ρ·s=1; the FOLD A_t=−A·A_r — the one new time-live failure mode, a condition on free profile DATA) [D2C]. At the fold a z-space caustic (dN/dz pileup) appears. Below fold: featureless [Gaussian-riding, ansatz-scoped]. | YES — any survey of the same sky depth (the view, not the galaxies) [MAP§2]. | DERIVED, TIME-LIVE (D2): tracer phase is FORCED — the operator is tracer-blind + achromatic ⇒ any pattern that exists is phase-identical across tracers; tracer-dependence enters ONLY through per-tracer selection windows [D2C T3']. (Static-layer this was vacuous; time-live it is a real forced signature.) | DERIVED, STATIC (D1) + TIME-LIVE (D2): scale-transparent (power-laws in ⇒ power-laws out); no z-feature below fold [D2C, Gaussian-riding/ansatz-scoped]. | The map is proven an HONEST COURIER (D1 static + D2 time-live below fold): it transports/preserves scales, never manufactures them [D2C; see Convergences]. Cross-tracer phase-identity (C4) is O-C's sharp signature. |
 | **O-D** residual mundane | No prediction machinery. Banked negative: the one measured selection channel (dN/dz z̄-tilt) is quantitatively dead for the drift (≤0.01 bins vs ~1–1.5 observed, sign-incoherent) [AUD]. Unaudited layers remain (INCONCLUSIVE grades) — UNDERIVED/none. | No machinery; no coherent radial prediction exists to derive — expectation of incoherence is stated, not derived. | **NON-replication** — DEFINITIONAL (decorrelated systematics); the cheapest kill available [MAP§2]. | Tracer-SPECIFIC (each tracer has its own selection layers) — definitional; no phase prediction. | No stable prediction (noise conspiracies). | Its live room is the audited record itself: the INCONCLUSIVE cells (LRG 0.90–0.95, QSO 1.10–1.25, QSO 1.85–2.00) and the power-limited caveats on two SKY-ROBUST thread cells [AUD final grade table]. |
 | **O-E** oscillating geometry | DERIVED, STATIC/μ=0 scope (D4): the induced localized angular scale θ_osc(z) = λ_p(z)/r(z), λ_p = λ(1+z)^(1−2m), drifts per parametrization m (areal λ(1+z)/r; proper λ/r; optical λ/((1+z)r)) — the drift READS OUT m [D4C C8b]. LIVES in the map+window channel ONLY; per-shell w(θ) stays featureless (see C6). Visibility: window ≥ one λ_p cycle [D4C P-D12]. Time-live: UNDERIVED(D4b/D2). | DERIVED, STATIC/μ=0 scope (D4): TRICHOTOMY on nm (=O2 finiteness table read as oscillation-fate): nm<1 FREEZES near wall; nm=1 log-periodic RIDE; nm>1 SUPERCRITICAL COMPRESS → non-monotone z(r) = "redshift caustics", dN/dz fold spikes at J=0 [D4C 2(g,h)]. Cycle spacing Δz_cyc = λ(n/2R_w)(1+z)^(1+2/n−2m). | YES — definitional (geometry is there for any survey) [MAP§2 (i)]; the phase is derived-coherent (C4). | DERIVED (D4): TRACER-UNIVERSAL + phase-coherent — operator carries only {z,n,R_w,λ,ε,m,osc}; achromatic ⇒ every tracer at same z inherits SAME modulation, SAME phase; isotropic, z-locked; tracer-dependence only via selection windows [D4C 3(c), free-symbol audit]. | DERIVED, STATIC/μ=0 scope (D4): amplitude ε<1 (admitted-kinematic); the Hubble residual envelope ∝ u/(1−u) FADES with z at rate (1+z)^(−2/n) (tied to the distance-law n) [D4C C4a-c]. | DERIVED (D4): Δμ(z) residual with EQUAL CYCLE SPACING in ξ_m=(1+z)^(−2(1−nm)/n) — generically NOT in z (z-periodic only at optical n=2); ANTI-PHASE LOCK δθ/θ=−δd_L/d_L; LOUDNESS HIERARCHY (dN/dz louder than Δμ by exactly r·Φ′, phase-advanced π/2); optics component PARTIAL (achromatic+d_L/θ derived; surface-brightness open) [D4C 3(a,b,d,e)]. |
@@ -115,9 +118,13 @@ are NOT explananda).
   magnitude sits on its own frame relation); STRAINS against E2 (its derived drift direction is
   the one the data certifiably runs opposite to); silent on E4 (ELG quiet needs a per-tracer
   amplitude story it does not have — UNDERIVED, so silent rather than strained).
-- **O-B**: conditionally as O-A on E1/E3 (same frame relations IF static proper z-independent
-  ell — D3's question) and then shares O-A's E2 strain; silent on E4; additionally owes the
-  AMOUNT (a native ell source) before it accounts for anything in its own right.
+- **O-B** [UPDATED post-D3]: conditionally as O-A on E1/E3 (same frame relations IF a static
+  proper z-independent ell is POSITED) and then shares O-A's E2 strain; silent on E4. The AMOUNT
+  is now DERIVED-NEGATIVE [D3C]: O-B has NO native scale of its own at the banked layer, so it
+  accounts for E1/E3 only by IMPORTING free-data (an ell/X ratio) — no better than O-A on those
+  — OR by the discreteness program firing (μ quantization, characterized-not-run). Its
+  once-sharpest signature (a derived ell VALUE) does not exist natively; the honest reading is
+  O-B collapses to "O-A with a posited ruler" unless discreteness supplies the amount.
 - **O-C** [UPDATED post-D1/D2]: machinery now DERIVED (routes + thresholds + fold, with the
   Gaussianity SS5 and lock-form-ansatz SS9 stamps). It STRAINS against E1 as a bump-maker: the
   honest courier is scale-transparent, so it does NOT manufacture the per-shell thread from
@@ -144,8 +151,8 @@ are NOT explananda).
   exists. Its cheapest own test = the SNe-residual periodicity (scan ξ_p family + ln(1+z) edge,
   NOT z), preregistrable on in-hand data (F-RETRO-discounted, disclosed) [D4C 3(e)].
 
-## DERIVATION-DEBT (D1/D2/D4 DELIVERED; D3 + named post-freeze inheritances remain; each
-## later prereg freezes against this list)
+## DERIVATION-DEBT (D1/D2/D3/D4 ALL DELIVERED — MATRIX COMPLETE; only named post-freeze
+## inheritances + the radial estimator + ell-freeze remain; each later prereg freezes against this list)
 
 **D1 — static angular transfer function — DELIVERED [D1C], verified LEAD.** All five deliverables
 discharged (scale-transparent static map; window-set break; radial-leg asymmetry). O-C static
@@ -168,20 +175,20 @@ INHERITANCES [D4C]: caustic-regime statistics beyond the fold-spike; the TIME-LI
 (a)); accrual dynamics (O-E's own dynamical step, underived by contract); ε(r)-envelope forms;
 the surface-brightness/image-level optics component (only achromatic + d_L/θ half derived).
 
-**D3 — O-B's native scale (separately gated; discreteness-adjacent; mu seed's first live test):**
-1. The AMOUNT: does the between-frames physics supply a native length — from x_max/M_total,
-   the mu/discreteness territory, or another derived invariant? (No ell may be posited.)
-2. The ell value or its scaling relation (comparison to the stated ~70 Mpc-scale happens only
-   AFTER the frozen commit — F-RETRO).
-3. z-dependence and realization: is the native ell z-independent and proper? If yes, the banked
-   D1F forms complete O-B/C1-C2 (gentle fall + P1-growing radial); if no, D3 owes the modified
-   drift/radial law.
-4. The tracer-coupling signature (fills O-B/C4): how matter's coupling to the generated scale
-   depends (or not) on tracer type.
+**D3 — O-B's native scale — DELIVERED [D3C], verified LEAD (LANDED: D3-NO-AMOUNT, first-class).**
+The AMOUNT question is answered NEGATIVE at the banked layer: no native second amount exists
+(exhaustive I1-I5 inventory + R1 completeness sweep, 40/40 machine-checks). O-B's row filled.
+The sharpened standard that emerged: "supply an amount" = SELECT a separation, not merely be a
+pure number — the sole parameter-free banked number (reciprocal-κ spacing=1) is length-inert (a
+(1+z) distance-duality convention-ratio). NAMED POST-FREEZE / GATED CONTINUATIONS [D3C]: the
+fork = O-B's BAO scale is EITHER posited free-data (ell/X) OR the discreteness program's first
+real job — μ quantization under a compact/winding target (the phi-angular discreteness hunch),
+characterized-then-gated here (F-SCOPE, not run). Tracer coupling to any such scale = named
+inheritance only (no matter dynamics banked).
 
 **Cross-cutting debts (owned outside D1–D4; named so the freeze-point sees them):**
-- **D3 remains the one un-delivered derivation leg** (O-B's native scale; debts 1–4 above
-  unchanged) — separately gated, discreteness-adjacent, the mu seed's first live test.
+- **All four derivation legs (D1/D2/D3/D4) are now DELIVERED** — the matrix is COMPLETE (all
+  five origins' rows derived-or-scoped). No un-delivered derivation leg remains.
 - **The radial ESTIMATOR is unbuilt** [BAO CONSOLIDATED, owed]: every row's C2 is untestable
   against data until it exists, regardless of derivation status.
 - **ell freeze**: O-A/C2's numeric radial prediction and any numeric theta(z) overlay need an
@@ -189,8 +196,19 @@ the surface-brightness/image-level optics component (only achromatic + d_L/θ ha
 - The O-E SNe-residual periodicity test needs its own prereg (in-hand data; F-RETRO
   discounted and disclosed as such) [MAP§2 (iii)].
 
+## MATRIX-CLOSED (2026-08-08, fourth pass — D3 fills O-B)
+
+**The discrimination matrix is COMPLETE: all five origins (O-A…O-E) have every C1-C6 cell
+DERIVED(cite) or scoped-UNDERIVED(owner), and all four derivation legs (D1/D2/D3/D4) are
+delivered and verified-LEAD.** D3's landing (D3-NO-AMOUNT) collapsed the last conditional row:
+O-B has no native scale at the banked layer, so its BAO account forks to posited free-data
+(then it is "O-A with a posited ruler") or the discreteness program. **NEXT STEP = THE
+FREEZE-POINT** (the arc's preregistered commit): freeze predictions + the ell nuisance-range
+before BOSS/radial data are opened (F-RETRO), then build the owed radial estimator. The
+freeze-point commit + owner's gate belong to the arc, not to D0/D3.
+
 — D0 assembly agent (Fable), 2026-08-08. First pass = matrix from banked machinery; second
 pass = O-C static cells from D1 [D1C]; THIRD (synthesis) pass = O-C time-live cells from D2
-[D2C], O-E cells from D4 [D4C], the CONVERGENCES section (cross-package, legal here), scorecard
-+ debt updated. CP4: zero BOSS/data contact throughout. NOT committed (owner's gate + the
-freeze-point commit belong to the arc).
+[D2C], O-E cells from D4 [D4C], the CONVERGENCES section, scorecard + debt; FOURTH pass = O-B
+row from D3 [D3C], matrix marked COMPLETE, MATRIX-CLOSED note added. CP4: zero BOSS/data
+contact throughout. NOT committed (owner's gate + the freeze-point commit belong to the arc).
