@@ -55,6 +55,26 @@ E5. (Awaiting M3b/radial: cross-survey replication; the radial signal — these 
 - **O-D — RESIDUAL MUNDANE.** Unaudited selection layers, noise conspiracies among the
   power-limited cells. Kept honest by the audit's INCONCLUSIVE grades. Predicts
   NON-replication in BOSS (decorrelated systematics) — the cheapest kill available.
+- **O-E — OSCILLATING SPACETIME STRUCTURE (Charles, 2026-08-08 CP1 answer, verbatim-intent:
+  "there's always a chance that udt spacetime has an oscillating structure and matter may
+  align or accrue along it. It's not my favored idea, but not ruled out").** The GEOMETRY
+  itself carries a standing periodic structure (an oscillatory component of the depth
+  profile/metric); matter passively traces it. Distinct from O-B (generated matter scale) —
+  here the pattern is in spacetime, matter is the dye. POSING DUTY: metric-led only — "does
+  the metric ADMIT oscillating solutions at cosmic scale, and what would they imprint?" (solve
+  and see); "can oscillations make BAO?" is template-led and must be declared (the
+  oscillator-template scar from the particle lane travels as a naming caution, not a
+  prohibition — different question, same vigilance). DISTINCT PREDICTIONS (derivable, for the
+  matrix): (i) TRACER-UNIVERSALITY (all tracers ride the same geometry — same pattern, same
+  phase, vs O-A/B's possible tracer dependence); (ii) an OPTICS component (the oscillation
+  modulates the view of background light too, not just galaxy positions); (iii) **oscillatory
+  residuals in the SNe Hubble diagram** at the corresponding spacing — a cheap preregistrable
+  test on IN-HAND data (weaker than virgin-BOSS since the SNe are known — F-RETRO discounted,
+  disclosed as such — but the residuals have never been examined for periodicity, so it is a
+  new question to old data); (iv) phase-coherence structure across z-shells. NOTE: an
+  oscillating A(r) component is OUTSIDE the frozen O2/O3 monotone family — legal here because
+  the origin question is not the wall-approach question; any oscillating-profile work carries
+  its own class declaration (F-SHOP-CLASS analog).
 
 **The map's core deliverable = the DISCRIMINATION MATRIX:** per origin × per observable
 {theta(z) drift direction, radial signal class, BOSS replication y/n + signature,
@@ -106,8 +126,9 @@ UNDERIVED where it doesn't, so M3b/radial test ALL rows at once.
 
 ## 6. Catch-points for Charles (cheap catches, the point of a MAP)
 
-- **CP1:** does the four-origin ledger (O-A/B/C/D) cover your sense of "several
-  possibilities," or is there a fifth reading you hold that I have not named?
+- **CP1 — ANSWERED (2026-08-08):** Charles supplied the fifth reading — O-E, oscillating
+  spacetime structure (recorded §2 verbatim-intent; "not my favored idea, but not ruled
+  out" — carried at equal development per the plurality ruling).
 - **CP2:** D1-then-D2 runs the static slice first because it is cheap and scoped — but if
   your intuition says the static slice is a WASTE (the modulation being essentially
   time-live), say so and D2 leads with D1 folded in as its static limit check.
