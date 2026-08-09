@@ -1,0 +1,3866 @@
+{
+  "gates": {
+    "both_atlases_blind": true,
+    "exact_unique_count": true,
+    "forty_supports_per_class_background": true,
+    "identity_sets_equal": true,
+    "internal_gates": true,
+    "production_complete": true,
+    "resolved_rows_exist": true
+  },
+  "inputs": {
+    "phase1_response_g180.json": "94fff3ad18fd33dec35708f7cf08a62b1b4d5565ad557d10bae041ecaf71578c",
+    "phase1_response_g240.json": "a30bdc090d4cb51d098e272f55548df22d28e42ff08d092d0c6d8e1a9aae070d"
+  },
+  "phase": "FD2_PHASE1_CROSS_GRID_VERIFICATION",
+  "rows": [
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.21541780977271932,
+      "identity": [
+        "BUMP_c0.050_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.0482571579619458e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2165693021149477,
+      "identity": [
+        "BUMP_c0.050_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.6296858290479433e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.1979186799786068,
+      "identity": [
+        "BUMP_c0.050_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.584774326192966e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.19959314013645035,
+      "identity": [
+        "BUMP_c0.050_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.574821664838575e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.21541836968324965,
+      "identity": [
+        "BUMP_c0.100_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.2011641636865922e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.216569650729245,
+      "identity": [
+        "BUMP_c0.100_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.857189251523958e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.21191953184515758,
+      "identity": [
+        "BUMP_c0.100_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.545962194322467e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.2130125868772368,
+      "identity": [
+        "BUMP_c0.100_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.350310994152315e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.2154181081730801,
+      "identity": [
+        "BUMP_c0.100_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.3458319717128113e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2165694563896558,
+      "identity": [
+        "BUMP_c0.100_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.083912211183336e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.17373549323425092,
+      "identity": [
+        "BUMP_c0.100_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.7503847380916287e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.17544953154346105,
+      "identity": [
+        "BUMP_c0.100_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.963971243875017e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.08821946292317931,
+      "identity": [
+        "BUMP_c0.150_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.216284859882646e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.08988153013436072,
+      "identity": [
+        "BUMP_c0.150_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.5616880893988734e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.4154387692649082,
+      "identity": [
+        "BUMP_c0.150_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.132438509722689e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.4144463354709982,
+      "identity": [
+        "BUMP_c0.150_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.206710176490024e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.3519703864459727,
+      "identity": [
+        "BUMP_c0.200_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.687346472622715e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.3343370289049756,
+      "identity": [
+        "BUMP_c0.200_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.5430271643608104e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 6.768284822545241,
+      "identity": [
+        "BUMP_c0.200_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.3396423297405124e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 6.692364547230299,
+      "identity": [
+        "BUMP_c0.200_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.115021080713992e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.04147621435317824,
+      "identity": [
+        "BUMP_c0.200_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.624183366748805e-07,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.04308274353026909,
+      "identity": [
+        "BUMP_c0.200_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.624293290984973e-07,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 3.24190732315133,
+      "identity": [
+        "BUMP_c0.200_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.8970200874973155e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 3.239140971507197,
+      "identity": [
+        "BUMP_c0.200_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.173581486697628e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.29198614242348114,
+      "identity": [
+        "BUMP_c0.200_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1713107945089178e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2925972808027202,
+      "identity": [
+        "BUMP_c0.200_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.2877700231352305e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 12.434148660581396,
+      "identity": [
+        "BUMP_c0.200_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.420654339674658e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 12.569282343861591,
+      "identity": [
+        "BUMP_c0.200_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.607687681306996e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.2796504983267603,
+      "identity": [
+        "BUMP_c0.250_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.7352923373356736e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2792322545270242,
+      "identity": [
+        "BUMP_c0.250_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.367883395335895e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.2676524920666423,
+      "identity": [
+        "BUMP_c0.250_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.9663546019157115e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.26715185509806455,
+      "identity": [
+        "BUMP_c0.250_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.146324847111308e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.27965045960888923,
+      "identity": [
+        "BUMP_c0.300_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.0180893587764005e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2792334777798467,
+      "identity": [
+        "BUMP_c0.300_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.050801311092849e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.2676519671817945,
+      "identity": [
+        "BUMP_c0.300_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.6853865887142064e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.2671524296192307,
+      "identity": [
+        "BUMP_c0.300_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.5499377714585487e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.27965044968254127,
+      "identity": [
+        "BUMP_c0.300_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.3801302194480808e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2792334777461762,
+      "identity": [
+        "BUMP_c0.300_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.2674443732008612e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.21793363177443376,
+      "identity": [
+        "BUMP_c0.300_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.293803785542262e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.219766191617007,
+      "identity": [
+        "BUMP_c0.300_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.315012653691455e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.6264647948872601,
+      "identity": [
+        "BUMP_c0.300_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.589700212424967e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.6277518474979827,
+      "identity": [
+        "BUMP_c0.300_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.4812685119098797e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.10707640083886644,
+      "identity": [
+        "BUMP_c0.300_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.9684739874030944e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.10524488363577342,
+      "identity": [
+        "BUMP_c0.300_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.686169784287677e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.33794355843891527,
+      "identity": [
+        "BUMP_c0.300_w0.200",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1332946749823259e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.33959662390680023,
+      "identity": [
+        "BUMP_c0.300_w0.200",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.0762117565193708e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.10470875620743816,
+      "identity": [
+        "BUMP_c0.300_w0.200",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.538595704011141e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.10590104714423458,
+      "identity": [
+        "BUMP_c0.300_w0.200",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.417373513639972e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.2796507725032544,
+      "identity": [
+        "BUMP_c0.350_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.0844294616778004e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2792333425707971,
+      "identity": [
+        "BUMP_c0.350_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.0565158973844938e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.26180811653647296,
+      "identity": [
+        "BUMP_c0.350_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.340246774585601e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.2613516506644699,
+      "identity": [
+        "BUMP_c0.350_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.5976671092603645e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.27965049198681763,
+      "identity": [
+        "BUMP_c0.400_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.4163491856211372e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.27923303471681216,
+      "identity": [
+        "BUMP_c0.400_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.914133704823355e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.5095820280767634,
+      "identity": [
+        "BUMP_c0.400_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.087498021795654e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.4977721760631739,
+      "identity": [
+        "BUMP_c0.400_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.2843562215641324e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 2.764641266233025,
+      "identity": [
+        "BUMP_c0.400_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.7808661393647153e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 2.817148521830247,
+      "identity": [
+        "BUMP_c0.400_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.782304563280136e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.9704923737279034,
+      "identity": [
+        "BUMP_c0.400_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.815076399573087e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.9917093491495397,
+      "identity": [
+        "BUMP_c0.400_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.408325969835926e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 5.21517163408623,
+      "identity": [
+        "BUMP_c0.400_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.2568042544164397e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 5.4851501565255925,
+      "identity": [
+        "BUMP_c0.400_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.4923650183303623e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 13.522676479219509,
+      "identity": [
+        "BUMP_c0.400_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.2463904314039004e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 12.911447403638766,
+      "identity": [
+        "BUMP_c0.400_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.0553491858483901e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.32184600500824656,
+      "identity": [
+        "BUMP_c0.400_w0.200",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.62782702585434e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.32053257859613443,
+      "identity": [
+        "BUMP_c0.400_w0.200",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.553141389421321e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.37310457041869427,
+      "identity": [
+        "BUMP_c0.400_w0.200",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.4741348355395277e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.3732992839335202,
+      "identity": [
+        "BUMP_c0.400_w0.200",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.811259358582006e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 2.5618672753725704,
+      "identity": [
+        "BUMP_c0.450_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.959566261006877e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 2.4711168702727186,
+      "identity": [
+        "BUMP_c0.450_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.5381649335162625e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 2.760746899113057,
+      "identity": [
+        "BUMP_c0.450_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.170147203267646e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 2.769427931629697,
+      "identity": [
+        "BUMP_c0.450_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.3539969483436385e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.5344942588893705,
+      "identity": [
+        "BUMP_c0.500_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.9052049653972375e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.5225817580337045,
+      "identity": [
+        "BUMP_c0.500_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.6097522804443625e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.32914456703855904,
+      "identity": [
+        "BUMP_c0.500_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.4391874181062564e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.32653190537433185,
+      "identity": [
+        "BUMP_c0.500_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.8023057270908474e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 2.2994453999613946,
+      "identity": [
+        "BUMP_c0.500_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.874573434794404e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 2.2651876618277638,
+      "identity": [
+        "BUMP_c0.500_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.6018267442525046e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.5615303488303465,
+      "identity": [
+        "BUMP_c0.500_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.4175859736333776e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.5315538737028922,
+      "identity": [
+        "BUMP_c0.500_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.0355117329845523e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.976809888547811,
+      "identity": [
+        "BUMP_c0.500_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.480245727591356e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.9853278829372559,
+      "identity": [
+        "BUMP_c0.500_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.2079932737227653e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.15288390109024,
+      "identity": [
+        "BUMP_c0.500_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.838106339336324e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.166684925093521,
+      "identity": [
+        "BUMP_c0.500_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.7485574935097123e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.647236781813125,
+      "identity": [
+        "BUMP_c0.500_w0.200",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.193292847945077e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.6550806927084774,
+      "identity": [
+        "BUMP_c0.500_w0.200",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.201316913802034e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.10963338657483941,
+      "identity": [
+        "BUMP_c0.500_w0.200",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.105755733672966e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.10972702555209322,
+      "identity": [
+        "BUMP_c0.500_w0.200",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.64578950094781e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.3482238848761432,
+      "identity": [
+        "BUMP_c0.550_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.301148107762266e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.3456579351439474,
+      "identity": [
+        "BUMP_c0.550_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.318186970559887e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.2768571482235236,
+      "identity": [
+        "BUMP_c0.550_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.3030482890472704e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.2837818876906488,
+      "identity": [
+        "BUMP_c0.550_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.3865797506565864e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.2437986851564469,
+      "identity": [
+        "BUMP_c0.600_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.4455151156797393e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.2492954419154705,
+      "identity": [
+        "BUMP_c0.600_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.7723023911188589e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.1026950744364373,
+      "identity": [
+        "BUMP_c0.600_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.886573245535698e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.10184137767020889,
+      "identity": [
+        "BUMP_c0.600_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.865829081438205e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.668302332867927,
+      "identity": [
+        "BUMP_c0.600_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.744466975181638e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.689936221977062,
+      "identity": [
+        "BUMP_c0.600_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.4076048503655653e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.10169498272611856,
+      "identity": [
+        "BUMP_c0.600_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.904083355674834e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.10082999754796242,
+      "identity": [
+        "BUMP_c0.600_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.123757440149526e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 2.938021214672358,
+      "identity": [
+        "BUMP_c0.600_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.8651184909907302e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 3.329017028925921,
+      "identity": [
+        "BUMP_c0.600_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.580686747696355e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.6126692668208734,
+      "identity": [
+        "BUMP_c0.600_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.2867436843423326e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.6298329926323545,
+      "identity": [
+        "BUMP_c0.600_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.269937483722294e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.355177409498245,
+      "identity": [
+        "BUMP_c0.600_w0.200",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.856064288355912e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.3612301543446074,
+      "identity": [
+        "BUMP_c0.600_w0.200",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.95801571852056e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.06831852583873302,
+      "identity": [
+        "BUMP_c0.600_w0.200",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.5291810643122543e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.06970375551453278,
+      "identity": [
+        "BUMP_c0.600_w0.200",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.5195650102919277e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.19550166745244807,
+      "identity": [
+        "BUMP_c0.650_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.6351520213235553e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.18821978156921568,
+      "identity": [
+        "BUMP_c0.650_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.745158153414334e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 2.6853488004053414,
+      "identity": [
+        "BUMP_c0.650_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.968275953120896e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 2.7307992005115733,
+      "identity": [
+        "BUMP_c0.650_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.3592688343712074e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 4.327403246409402,
+      "identity": [
+        "BUMP_c0.700_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.2714216274068807e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 4.238455799534942,
+      "identity": [
+        "BUMP_c0.700_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.7830294081952466e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.011616832831297058,
+      "identity": [
+        "BUMP_c0.700_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.000148777749868469,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.011117869730737882,
+      "identity": [
+        "BUMP_c0.700_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00014178427387486443,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.2442668620733226,
+      "identity": [
+        "BUMP_c0.700_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.828824551335629e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.294383397426842,
+      "identity": [
+        "BUMP_c0.700_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.159598113156779e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.49702859386734477,
+      "identity": [
+        "BUMP_c0.700_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.824388483450533e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.509165247677836,
+      "identity": [
+        "BUMP_c0.700_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.6492814290135255e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.27114959590734977,
+      "identity": [
+        "BUMP_c0.700_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.994610945464612e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2782406344181121,
+      "identity": [
+        "BUMP_c0.700_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.2619811309785504e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.02676885713435698,
+      "identity": [
+        "BUMP_c0.700_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.39846578801485e-06,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.026519559006348798,
+      "identity": [
+        "BUMP_c0.700_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.7301444700510516e-06,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.25687665898909384,
+      "identity": [
+        "BUMP_c0.700_w0.200",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.4463210569410925e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.26415947224351155,
+      "identity": [
+        "BUMP_c0.700_w0.200",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.2036778978190923e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.008000173381124064,
+      "identity": [
+        "BUMP_c0.700_w0.200",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.729625076473023e-07,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.007820446291664632,
+      "identity": [
+        "BUMP_c0.700_w0.200",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.5815021889631783e-07,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.023270608232494546,
+      "identity": [
+        "BUMP_c0.750_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.171701973707103e-06,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.02128398114081058,
+      "identity": [
+        "BUMP_c0.750_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.173447848642514e-06,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.9149068495335383,
+      "identity": [
+        "BUMP_c0.750_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.900285308854304e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.9291104837414644,
+      "identity": [
+        "BUMP_c0.750_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1715793059519116e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.6038992974956846,
+      "identity": [
+        "BUMP_c0.800_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.12529315300758e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.6150287475697384,
+      "identity": [
+        "BUMP_c0.800_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.558186994557811e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.02103225112374335,
+      "identity": [
+        "BUMP_c0.800_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.545108618369636e-06,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.020892484194807628,
+      "identity": [
+        "BUMP_c0.800_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.9758279920459025e-06,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.24540989822810347,
+      "identity": [
+        "BUMP_c0.800_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.113912864252707e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.27454897056256217,
+      "identity": [
+        "BUMP_c0.800_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.912312681918823e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.05956102082398498,
+      "identity": [
+        "BUMP_c0.800_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.6892024017046766e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.05987231393602629,
+      "identity": [
+        "BUMP_c0.800_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.6068129988606712e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.14370902495405297,
+      "identity": [
+        "BUMP_c0.800_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.3616754168894e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.14960231135430907,
+      "identity": [
+        "BUMP_c0.800_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.2718564916121e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.012513430526009058,
+      "identity": [
+        "BUMP_c0.800_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.4319315895202644e-06,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.013198803567971693,
+      "identity": [
+        "BUMP_c0.800_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.6294330828389674e-06,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 2.4680722199602427,
+      "identity": [
+        "BUMP_c0.850_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.879867881867523e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 2.636569390508552,
+      "identity": [
+        "BUMP_c0.850_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.5453962596370505e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.5974086258381602,
+      "identity": [
+        "BUMP_c0.850_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.3587895627049923e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.6294579543170855,
+      "identity": [
+        "BUMP_c0.850_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.6739610116888744e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.09212656941481487,
+      "identity": [
+        "BUMP_c0.900_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.692688875140357e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.10021479211442375,
+      "identity": [
+        "BUMP_c0.900_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.111796616278596e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.10444595856044986,
+      "identity": [
+        "BUMP_c0.900_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.760834637870193e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.11359851331069569,
+      "identity": [
+        "BUMP_c0.900_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.241273331137342e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.047353794739619155,
+      "identity": [
+        "BUMP_c0.900_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.907104566481829e-07,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.05065469792470408,
+      "identity": [
+        "BUMP_c0.900_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.949935977691002e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.05613289937336985,
+      "identity": [
+        "BUMP_c0.900_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1015140710125904e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.060893624399272844,
+      "identity": [
+        "BUMP_c0.900_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1107462623664773e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.009443228447333678,
+      "identity": [
+        "BUMP_c0.950_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.206122193361285e-07,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.010190501562104149,
+      "identity": [
+        "BUMP_c0.950_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.987528067690265e-07,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.009750822423228538,
+      "identity": [
+        "BUMP_c0.950_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.635113617565114e-07,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.010697999542037775,
+      "identity": [
+        "BUMP_c0.950_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.310807239488008e-07,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.21538827474853495,
+      "identity": [
+        "DIPOLE_c0.050_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00016108107585949814,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.21657141094824517,
+      "identity": [
+        "DIPOLE_c0.050_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.0001247901297542296,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.18884719426265764,
+      "identity": [
+        "DIPOLE_c0.050_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.000154167997943639,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.1909051942576493,
+      "identity": [
+        "DIPOLE_c0.050_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00018305049883305432,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.2154076202327509,
+      "identity": [
+        "DIPOLE_c0.100_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.758741326351692e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.21657165411549786,
+      "identity": [
+        "DIPOLE_c0.100_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.322058862063743e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.21191011088655506,
+      "identity": [
+        "DIPOLE_c0.100_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.175176470866819e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.21300336965277442,
+      "identity": [
+        "DIPOLE_c0.100_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.366381897494833e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.21541737193132132,
+      "identity": [
+        "DIPOLE_c0.100_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1005465149073971e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.216569925957244,
+      "identity": [
+        "DIPOLE_c0.100_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.0616224976064214e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.4150733925295624,
+      "identity": [
+        "DIPOLE_c0.100_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.4790027942453836e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.414090200378238,
+      "identity": [
+        "DIPOLE_c0.100_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.8068051329967088e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.027701633996673,
+      "identity": [
+        "DIPOLE_c0.150_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.8204672688587248e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.0277398450619937,
+      "identity": [
+        "DIPOLE_c0.150_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.436325347416209e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.9930186609876454,
+      "identity": [
+        "DIPOLE_c0.150_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.8529702709337832e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.9930394516821501,
+      "identity": [
+        "DIPOLE_c0.150_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.777364861352277e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 39.91302738617023,
+      "identity": [
+        "DIPOLE_c0.200_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.798852854252587e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 39.47860346977128,
+      "identity": [
+        "DIPOLE_c0.200_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.1630229066163586e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 566.7596554404809,
+      "identity": [
+        "DIPOLE_c0.200_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.121533425075074e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 560.1346641643435,
+      "identity": [
+        "DIPOLE_c0.200_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00015797914874503128,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 2.19560631830458,
+      "identity": [
+        "DIPOLE_c0.200_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.0073518686151251e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 2.1930894074186136,
+      "identity": [
+        "DIPOLE_c0.200_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.0425664610514404e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 64.40224536866245,
+      "identity": [
+        "DIPOLE_c0.200_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.830944306624972e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 64.3013313899495,
+      "identity": [
+        "DIPOLE_c0.200_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.325517871541689e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 3.0053962996021553,
+      "identity": [
+        "DIPOLE_c0.200_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.585615286553454e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 3.0014847347653633,
+      "identity": [
+        "DIPOLE_c0.200_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.065267377646692e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.9883560681399585,
+      "identity": [
+        "DIPOLE_c0.200_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.26671132949123e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.9884036540159117,
+      "identity": [
+        "DIPOLE_c0.200_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.2181446378781964e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.27966531272778605,
+      "identity": [
+        "DIPOLE_c0.250_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00017468278513333647,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.27921026142007865,
+      "identity": [
+        "DIPOLE_c0.250_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.0003207820098999949,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.2676314729777871,
+      "identity": [
+        "DIPOLE_c0.250_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.0827286022976e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.26715327194712957,
+      "identity": [
+        "DIPOLE_c0.250_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.000284120559442447,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.279651340725305,
+      "identity": [
+        "DIPOLE_c0.300_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.942773538484545e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2792315898978603,
+      "identity": [
+        "DIPOLE_c0.300_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00014486260573219384,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.26767095040566036,
+      "identity": [
+        "DIPOLE_c0.300_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.0001518048117144379,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.26715531463555275,
+      "identity": [
+        "DIPOLE_c0.300_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00020510010174275598,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.2796404728456458,
+      "identity": [
+        "DIPOLE_c0.300_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.884252108713639e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2792426403419123,
+      "identity": [
+        "DIPOLE_c0.300_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.666059990949043e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.22711321033561394,
+      "identity": [
+        "DIPOLE_c0.300_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.057190754889107645,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.22858278457952835,
+      "identity": [
+        "DIPOLE_c0.300_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.054338648135233904,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 12.808709584881406,
+      "identity": [
+        "DIPOLE_c0.300_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.425571703575864e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 12.787420991769034,
+      "identity": [
+        "DIPOLE_c0.300_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.459830901758977e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.0865901637233972,
+      "identity": [
+        "DIPOLE_c0.300_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.469041339244583e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.0862055229174175,
+      "identity": [
+        "DIPOLE_c0.300_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.557699887836793e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.1199489798065547,
+      "identity": [
+        "DIPOLE_c0.300_w0.200",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.9971427390188925e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.1219264672357605,
+      "identity": [
+        "DIPOLE_c0.300_w0.200",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.416563591606235e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 6.197461193935381,
+      "identity": [
+        "DIPOLE_c0.300_w0.200",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.0502207648351662e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 6.143815836806234,
+      "identity": [
+        "DIPOLE_c0.300_w0.200",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.0725330250195414e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.27961697988048223,
+      "identity": [
+        "DIPOLE_c0.350_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00012852816451116686,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2792316919258979,
+      "identity": [
+        "DIPOLE_c0.350_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.310169973845516e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 3.0072244369888783,
+      "identity": [
+        "DIPOLE_c0.350_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.560516440827912e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 3.0807800072820744,
+      "identity": [
+        "DIPOLE_c0.350_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.0005297896294173144,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.2796771653966226,
+      "identity": [
+        "DIPOLE_c0.400_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.647222955499381e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.2792519451412275,
+      "identity": [
+        "DIPOLE_c0.400_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00019475765866400278,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.5096120756246634,
+      "identity": [
+        "DIPOLE_c0.400_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.190838361379186e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.49793487838198514,
+      "identity": [
+        "DIPOLE_c0.400_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.0001678329900431409,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.0126012533916395,
+      "identity": [
+        "DIPOLE_c0.400_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.3852975768292134e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.012709092383773,
+      "identity": [
+        "DIPOLE_c0.400_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.9319736663423187e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.9864873432716168,
+      "identity": [
+        "DIPOLE_c0.400_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.312865215409624e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.986363754730266,
+      "identity": [
+        "DIPOLE_c0.400_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.9725108071225205e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.0593188920528926,
+      "identity": [
+        "DIPOLE_c0.400_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1815723091390522e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.0598573934150013,
+      "identity": [
+        "DIPOLE_c0.400_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1905364703756702e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 2.543682718213751,
+      "identity": [
+        "DIPOLE_c0.400_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.721651802174101e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 2.5431589744784087,
+      "identity": [
+        "DIPOLE_c0.400_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.3882518804900112e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.1380405176576945,
+      "identity": [
+        "DIPOLE_c0.400_w0.200",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.3553479329404666e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.13788829167944422,
+      "identity": [
+        "DIPOLE_c0.400_w0.200",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.092739370247065e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.8433627428907955,
+      "identity": [
+        "DIPOLE_c0.400_w0.200",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.9662492824186405e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.8240046152032023,
+      "identity": [
+        "DIPOLE_c0.400_w0.200",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.48346532949852e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.9773773307773187,
+      "identity": [
+        "DIPOLE_c0.450_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.4770437073310136e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.9771928544752521,
+      "identity": [
+        "DIPOLE_c0.450_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.3735925677148086e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 270.6115527990619,
+      "identity": [
+        "DIPOLE_c0.450_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.059112611908588e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 271.3934122545834,
+      "identity": [
+        "DIPOLE_c0.450_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.0001836351006574437,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.5278809379449845,
+      "identity": [
+        "DIPOLE_c0.500_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00011374823082173803,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.5160964509857785,
+      "identity": [
+        "DIPOLE_c0.500_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.0004318025161034135,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.32916475843133264,
+      "identity": [
+        "DIPOLE_c0.500_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.84271126035672e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.3264899041615001,
+      "identity": [
+        "DIPOLE_c0.500_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00019662319923710974,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 83.63781513845139,
+      "identity": [
+        "DIPOLE_c0.500_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.7825404697427746e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 82.28049620208196,
+      "identity": [
+        "DIPOLE_c0.500_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.684330981584112e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 5.145138690786749,
+      "identity": [
+        "DIPOLE_c0.500_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.2509307641259434e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 5.133903823455737,
+      "identity": [
+        "DIPOLE_c0.500_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.682886365943032e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 2.025182350910588,
+      "identity": [
+        "DIPOLE_c0.500_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.033924314261471585,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 2.0223802315107164,
+      "identity": [
+        "DIPOLE_c0.500_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.03235607326740972,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 2.343168760447614,
+      "identity": [
+        "DIPOLE_c0.500_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.62238195314457e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 2.336119047101778,
+      "identity": [
+        "DIPOLE_c0.500_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.996807793469157e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 11.673373858285593,
+      "identity": [
+        "DIPOLE_c0.500_w0.200",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.542989234601217e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 11.414820433714464,
+      "identity": [
+        "DIPOLE_c0.500_w0.200",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.362322127480054e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.038992474612411,
+      "identity": [
+        "DIPOLE_c0.500_w0.200",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.049150082863301e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.0482661958436075,
+      "identity": [
+        "DIPOLE_c0.500_w0.200",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.4508437203073485e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.3482330674150136,
+      "identity": [
+        "DIPOLE_c0.550_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.734232555338714e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.3456451706869739,
+      "identity": [
+        "DIPOLE_c0.550_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.066155950149817e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.9948923402462047,
+      "identity": [
+        "DIPOLE_c0.550_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.784854721747654e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.994798828446564,
+      "identity": [
+        "DIPOLE_c0.550_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.6364670480092925e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.0148011999877422,
+      "identity": [
+        "DIPOLE_c0.600_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.709794299769475e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.0150604200728155,
+      "identity": [
+        "DIPOLE_c0.600_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00012598185721191622,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.10268438229252663,
+      "identity": [
+        "DIPOLE_c0.600_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.350871440192706e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.10185302954139744,
+      "identity": [
+        "DIPOLE_c0.600_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00015636589631650845,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.0858345871016046,
+      "identity": [
+        "DIPOLE_c0.600_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.4912282721670711e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.087469928408139,
+      "identity": [
+        "DIPOLE_c0.600_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.5260746141533376e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.05167774663527889,
+      "identity": [
+        "DIPOLE_c0.600_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.8759069765057078e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.05021783494155466,
+      "identity": [
+        "DIPOLE_c0.600_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.5236036664146505e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 5.559180212467738,
+      "identity": [
+        "DIPOLE_c0.600_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.8488415437806582e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 5.586273055716389,
+      "identity": [
+        "DIPOLE_c0.600_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.197327788679353e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 2.9499186249255307,
+      "identity": [
+        "DIPOLE_c0.600_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.4126269447358497e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 2.976101553638072,
+      "identity": [
+        "DIPOLE_c0.600_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1580721228814274e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 3.3199110461039765,
+      "identity": [
+        "DIPOLE_c0.600_w0.200",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.5493504319608794e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 3.1984258771145395,
+      "identity": [
+        "DIPOLE_c0.600_w0.200",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.1804117948663103e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 11.393006365096003,
+      "identity": [
+        "DIPOLE_c0.600_w0.200",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.60384645020897e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 13.013044214330323,
+      "identity": [
+        "DIPOLE_c0.600_w0.200",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.273702935690406e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.19554539664259576,
+      "identity": [
+        "DIPOLE_c0.650_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.695532063007317e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.18821998050786226,
+      "identity": [
+        "DIPOLE_c0.650_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 8.063739688401301e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.4170084224483792,
+      "identity": [
+        "DIPOLE_c0.650_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.027659602003616e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.4158812959751947,
+      "identity": [
+        "DIPOLE_c0.650_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.227162796919397e-07,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 10.807831531137072,
+      "identity": [
+        "DIPOLE_c0.700_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.390333989851687e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 10.800943272972185,
+      "identity": [
+        "DIPOLE_c0.700_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.2716958189648686e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.011633886779465943,
+      "identity": [
+        "DIPOLE_c0.700_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.253368545641357e-05,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.011148361678162215,
+      "identity": [
+        "DIPOLE_c0.700_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 6.376096375859822e-05,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.44580175530093125,
+      "identity": [
+        "DIPOLE_c0.700_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.4767797448751574e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.44713407861598203,
+      "identity": [
+        "DIPOLE_c0.700_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.908739127042911e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.9057342970168312,
+      "identity": [
+        "DIPOLE_c0.700_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 7.768646480102941e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.9073193400857761,
+      "identity": [
+        "DIPOLE_c0.700_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.7193108987707022e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.5102102141485155,
+      "identity": [
+        "DIPOLE_c0.700_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.4104787514201778e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.5069300006133393,
+      "identity": [
+        "DIPOLE_c0.700_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.285700301582638e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 2.334846980280599,
+      "identity": [
+        "DIPOLE_c0.700_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 9.939774087113844e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 2.4244000384862674,
+      "identity": [
+        "DIPOLE_c0.700_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.0096543572876946e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.9488705479695176,
+      "identity": [
+        "DIPOLE_c0.700_w0.200",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.9789302424471606e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.9867475723800042,
+      "identity": [
+        "DIPOLE_c0.700_w0.200",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.6970843265961625e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.3951639916439139,
+      "identity": [
+        "DIPOLE_c0.700_w0.200",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.438000206303276e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.42389483442243,
+      "identity": [
+        "DIPOLE_c0.700_w0.200",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.574349231135596e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.023281561511741784,
+      "identity": [
+        "DIPOLE_c0.750_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.404082979306486e-05,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.021286955649381125,
+      "identity": [
+        "DIPOLE_c0.750_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00011332140030298814,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.5301820490205065,
+      "identity": [
+        "DIPOLE_c0.750_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.9825394900978985e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.5283990565202479,
+      "identity": [
+        "DIPOLE_c0.750_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.2205683295899023e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.368427655853992,
+      "identity": [
+        "DIPOLE_c0.800_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.455191800911493e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.3667969050158872,
+      "identity": [
+        "DIPOLE_c0.800_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.969294292040669e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.5061051328772903,
+      "identity": [
+        "DIPOLE_c0.800_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.7935768419741136e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.484302291156403,
+      "identity": [
+        "DIPOLE_c0.800_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.271190291765707e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 2.321924145719283,
+      "identity": [
+        "DIPOLE_c0.800_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.27374033444725e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 2.337062270494557,
+      "identity": [
+        "DIPOLE_c0.800_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1104592037648538e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 3.610009037518411,
+      "identity": [
+        "DIPOLE_c0.800_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.608760193703413e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 3.548172901570012,
+      "identity": [
+        "DIPOLE_c0.800_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.945042565679999e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.0033542907567854,
+      "identity": [
+        "DIPOLE_c0.800_w0.100",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.1475872311998874e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.0697263623925655,
+      "identity": [
+        "DIPOLE_c0.800_w0.100",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.498341029191769e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.024637111199058107,
+      "identity": [
+        "DIPOLE_c0.800_w0.100",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.6652220689224184e-06,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.02419129998950869,
+      "identity": [
+        "DIPOLE_c0.800_w0.100",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.9298848199899185e-06,
+      "numerically_resolved": true
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 1.036956500467831,
+      "identity": [
+        "DIPOLE_c0.850_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.794574575329388e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 1.0381649554984835,
+      "identity": [
+        "DIPOLE_c0.850_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.2095766247332994e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 2.3542488782436517,
+      "identity": [
+        "DIPOLE_c0.850_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.657108594934519e-05,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 2.313282129909585,
+      "identity": [
+        "DIPOLE_c0.850_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 5.423224646937938e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 5.128711483132984,
+      "identity": [
+        "DIPOLE_c0.900_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00010404377914069591,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 5.7162277818107246,
+      "identity": [
+        "DIPOLE_c0.900_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00010441319217769909,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 1.7420960722044652,
+      "identity": [
+        "DIPOLE_c0.900_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00018101857530988783,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 1.903998006122269,
+      "identity": [
+        "DIPOLE_c0.900_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 0.00017830622652221855,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.21114669701508512,
+      "identity": [
+        "DIPOLE_c0.900_w0.050",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.1922833578693593e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.229782662132578,
+      "identity": [
+        "DIPOLE_c0.900_w0.050",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.1247950507320648e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.48705783614616166,
+      "identity": [
+        "DIPOLE_c0.900_w0.050",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.627487411535951e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.5241519080172594,
+      "identity": [
+        "DIPOLE_c0.900_w0.050",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 4.67387234827534e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027458676257422487,
+      "grid_response_relative_norm_drift": 0.09906458913269117,
+      "identity": [
+        "DIPOLE_c0.950_w0.025",
+        0.75,
+        "D",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 3.3539087940664897e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0027987981762104264,
+      "grid_response_relative_norm_drift": 0.10995635000593845,
+      "identity": [
+        "DIPOLE_c0.950_w0.025",
+        0.75,
+        "N",
+        0.01
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.048741263516557e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.0032796460960761165,
+      "grid_response_relative_norm_drift": 0.17517209632610625,
+      "identity": [
+        "DIPOLE_c0.950_w0.025",
+        0.95,
+        "D",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 1.396723945848346e-06,
+      "numerically_resolved": false
+    },
+    {
+      "grid_frequency_max_relative_drift": 0.003372009400839704,
+      "grid_response_relative_norm_drift": 0.19500642185346767,
+      "identity": [
+        "DIPOLE_c0.950_w0.025",
+        0.95,
+        "N",
+        0.5
+      ],
+      "maximum_halfstep_relative_norm_drift": 2.2923537503390643e-06,
+      "numerically_resolved": false
+    }
+  ],
+  "summary": {
+    "maximum_grid_frequency_relative_drift": 0.003372009400839704,
+    "maximum_grid_response_relative_norm_drift": 566.7596554404809,
+    "maximum_halfstep_relative_norm_drift": 0.057190754889107645,
+    "numerically_resolved_row_count": 25,
+    "numerically_unresolved_row_count": 295,
+    "row_count": 320
+  }
+}
