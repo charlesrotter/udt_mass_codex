@@ -21,14 +21,19 @@ arc found:
    feature. The oscillation is a candidate SOURCE; the angular feature its projected
    OBSERVATION; r(z) the lens.
 
-3. **The same-z tracer split forbids ANY single geometric scale** (M3b Phase-2, in-sample):
-   LRG 2.44 vs QSO 1.39 deg at z≈1.02. One geometry gives one angle at one z, for everything —
-   so a ruler CANNOT do it and a single geometric oscillation CANNOT do it either. Pure
-   geometry (O-A and geometric O-E alike) is strained by a raw observation.
+3. **IF REAL, the same-z tracer split would forbid any single geometric scale** (M3b Phase-2,
+   in-sample): LRG 2.44 vs QSO 1.39 deg at z≈1.02. One geometry gives one angle at one z, for
+   everything — so a ruler and a single geometric oscillation both fail it. **BUT (Charles,
+   2026-08-08, binding caveat): the split could EASILY be a METHOD ARTIFACT** — thin-shell low
+   S/N, diagonal-jackknife covariance (inflates significance), our crude raw-angular pipeline
+   vs LCDM's robust ~150 Mpc ruler. Solver-first: a mismatch indicts OUR method before the
+   physics. The split is a LEAD that MUST be firmed (matched-rigor covariance, the radial leg,
+   more surveys) BEFORE any physics conclusion leans on it. NOT an established fact.
 
-4. **Therefore the scale-setter and the tracer-dependence likely live in the phi-MATTER
-   COUPLING, not in geometry** — how different matter sits in / couples to the depth field,
-   not the stage itself. This is: (a) exactly where D3 said the missing amount must come from;
+4. **IF the split survives firming, THEN the scale-setter and tracer-dependence likely live in
+   the phi-MATTER COUPLING, not in geometry** — how different matter sits in / couples to the
+   depth field, not the stage itself. CONDITIONAL on #3 surviving. This is: (a) exactly where
+   D3 said the missing amount must come from;
    (b) exactly the micro side of the owner macro/micro ontology
    ([[udt-macro-relational-micro-structural-ontology]]); (c) exactly the founding phi-angular
    COUPLING hunch ([[project-ownership-and-hunch]], [[native-matter-defect-import-discovery]]).
@@ -78,3 +83,24 @@ Items 4-5 are the discreteness/coupling frontier — the founding hunch, now wit
 target (ell/R_w ≈ 0.0265 and the tracer split).
 
 STATUS: recorded forward lead (direction, not evidence). HELD for BOSS. No go on 2-5 yet.
+
+## CORRECTIONS (Charles, 2026-08-08, binding — recorded verbatim-intent)
+
+**C1 — mu-ON IS THE DEFAULT, not the follow-up (the inertia ruling).** Charles: "Why do we not
+employ mu at all times? It's like trying to do Newtonian physics but leaving inertia frozen or
+turned off." BINDING: mu (the mixing / phi-matter coupling) is a physical degree of freedom that
+is ALWAYS ON; mu = 0 is a calculational limiting-case scaffold, NEVER the physical answer. The
+banked "map is a scale-transparent featureless courier" (D1/D2) was derived largely mu-OFF and
+is therefore PARTLY TAUTOLOGICAL — we proved the map does nothing precisely where we disabled
+the coupling that would make it do something. The theorems stand as correctly-scoped mu-off
+slices, but the PHYSICS lives in the mu-ON world, and future derivations LEAD with mu on; a
+mu-off result may be reported only as an explicitly-labeled limiting check, never as the frame's
+verdict. (Aligns with the standing no-freeze ruling and everything pointing at the coupling.)
+
+**C2 — the tracer split could easily be a method artifact (see §3 above, amended).** Not an
+established fact; solver-first before any physics leans on it.
+
+These correct the emphasis of this doc: the coupling frontier is still the surviving direction,
+but BOTH pillars under it (the tracer split as evidence; the featureless-map as the contrast)
+are now qualified — the split may be our noise, and the featureless-map was a mu-off artifact.
+The honest forward line: turn mu ON and firm the data, THEN judge the coupling picture.
