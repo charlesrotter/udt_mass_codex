@@ -1,0 +1,18 @@
+{
+  "derivation": "PASS_25_OF_25",
+  "external_review": "VERIFIED_WITH_CAVEATS_AFTER_TWO_REPAIR_ROUNDS",
+  "external_review_scope": "fresh_zero_context_read_only",
+  "frozen_source_manifest": "PASS_15_WORKTREE_PLUS_1_PREREGISTRATION_COMMIT",
+  "gpu_used": false,
+  "mutation_catch_proofs": "PASS_39_OF_39",
+  "premise_guards": "PASS_34_OF_34",
+  "protected_curvature_atlas_read_or_modified": false,
+  "pytest": "PASS_83_XFAIL_1",
+  "research_solve_or_eigensolve_launched": false,
+  "source_coverage": {
+    "member_bearing_sources": 9,
+    "sources": 16,
+    "zero_member_sources": 7
+  },
+  "verification": "PASS_17_OF_17"
+}

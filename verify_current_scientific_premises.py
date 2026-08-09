@@ -89,6 +89,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
@@ -128,6 +129,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
@@ -150,6 +152,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
@@ -166,9 +169,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 33, "premise registry must contain exactly 33 rows")
+    require(len(rows) == 34, "premise registry must contain exactly 34 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 33, "duplicate premise id")
+    require(len(by_id) == 34, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -345,6 +348,26 @@ def main() -> None:
         == "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
         "N02 admissibility source changed",
     )
+    require(
+        by_id["G34"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__NO_MAPPED_ROLE_CORRECT_COMPLETE_GLOBAL_PROFILE__REGULAR_C1_LOCAL_JETS_NONEMPTY__PHYSICAL_GROUPOID_COCYCLE_OPEN",
+        "N03 profile-role status regressed or promoted",
+    )
+    require(by_id["G34"]["epistemic_label"] == "MIXED", "N03 profile-role label changed")
+    require(
+        by_id["G34"]["active_use"] == "PROFILE_ROLE_CENTER_REGULARITY_AND_REGRESSION_GATE_ONLY",
+        "N03 profile-role use promoted",
+    )
+    require("metric-natural physical groupoid cocycle" in by_id["G34"]["open_scope"], "N03 cocycle selected")
+    require("P1 observer-pair or SNe role called invalid" in by_id["G34"]["forbidden_regression"], "N03 P1 role guard absent")
+    require("k0 called selected invariant" in by_id["G34"]["forbidden_regression"], "N03 k0 guard absent")
+    require("transport or connection called derived" in by_id["G34"]["forbidden_regression"], "N03 transport guard absent")
+    require("Xmax called a wall" in by_id["G34"]["forbidden_regression"], "N03 Xmax guard absent")
+    require(
+        by_id["G34"]["controlling_source"]
+        == "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
+        "N03 profile-role source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -417,7 +440,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 33 premise guards, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 34 premise guards, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

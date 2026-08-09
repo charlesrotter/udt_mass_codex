@@ -53,9 +53,19 @@ a regular complete spherical center-to-wall C1/C2 anchor because its full center
 cusp. P1's declared SNe/observer-relation role is unchanged. All 21 mixed wall strata are
 finite-block limit-circle with a free extension family; D/N are unselected controls. The three
 round controls are infinite-distance limit-point. The N02 eigensolve is therefore blocked.
-**NEXT GATE, not launched:** map complete-profile roles and regular-center jets without repairing
-P1, postselecting a profile, or adding an inner cutoff. C1 remains unselected; FD2/FD3/FD4, RA1-V,
-GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu is
+No P1 repair, postselection, or inner cutoff follows.
+
+**N03 PROFILE-ROLE AND REGULAR-CENTER MAP = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md` first. The 16-source,
+75-member map contains no role-correct complete global profile, but the conditional centered C1
+envelope has a nonempty smooth local jet space compatible with mu on. P1's pair/SNe role survives;
+only its direct identity promotion to that centered lapse is excluded. The reference-observer
+`c_eff` readout remains distinct from the invariant two-point ratio. Phi+orchestra, C01-C18, N01
+matrix mixing, and the general shift-divergence term remain live. The physical groupoid cocycle is
+open, and transport is only a conditional candidate subclass. **NEXT GATE, not launched:** test
+whether the complete coframe supplies a natural physical cocycle or local-generator candidate
+without assuming one. C1 remains unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical
+populations, and polarization remain gated. The parent menu is
 `udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:

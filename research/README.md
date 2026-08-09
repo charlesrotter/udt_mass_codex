@@ -8,6 +8,7 @@ record. Root `LIVE.md` wins every status disagreement.
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**: first read
+`../udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
@@ -19,8 +20,10 @@ population weights. The family MAP now gives the exact stationary general-screen
 atomic families, and an exhaustive 2,800-cell disposition census. N01 derives the exact conditional
 fixed-`|m|`/parity C1 matrix wiring and full radial matrix flux, without selecting a screen or
 spectrum. N02 finds no banked P1 regular complete spherical center-to-wall anchor; P1's relational/
-SNe role is unchanged. NEXT is an unlaunched profile-role and regular-center map; no eigensolve,
-profile repair, inner cutoff, or FD2. Then read the parent menu
+SNe role is unchanged. N03 preserves that pair role, maps the nonempty mu-on-compatible regular C1
+jet space with the full angular correction, and leaves the physical groupoid cocycle open;
+transport is conditional only. NEXT is an unlaunched complete-coframe-to-cocycle/local-generator
+audit; no eigensolve, profile repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a
 prediction. The BAO lane is `BANKED + TABLED`.
 

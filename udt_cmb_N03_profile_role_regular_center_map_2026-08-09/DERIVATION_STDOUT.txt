@@ -1,0 +1,26 @@
+KEY K01_frozen_source_manifest: True
+KEY K02_source_derived_three_round: True
+KEY K03_source_derived_twenty_one_corrected_strata: True
+KEY K04_source_derived_two_hundred_ten_profiles: True
+KEY K05_source_derived_thirty_q_zero_profiles: True
+KEY K06_source_derived_twenty_one_literal_strata: True
+KEY K07_source_derived_eighteen_screen_members: True
+KEY K08_spatial_metric_rejects_linear_A: True
+KEY K09_complete_center_even_A_jet: True
+KEY K10_complete_center_even_normalized_mixing_jet: True
+KEY K11_mu_on_compatible_not_required_or_selected: True
+KEY K12_N01_B_returns_to_round_at_center: True
+KEY K13_P1_pair_profile_has_nonzero_one_sided_slope: True
+KEY K14_corrected_mixing_H_slope: True
+KEY K15_crosswalk_unique_and_source_backed: True
+KEY K16_eight_mapped_families_not_semantic_exhaustiveness_claim: True
+KEY K17_reference_readout_disclosed: True
+KEY K18_strain_extractor_disclosed: True
+KEY K19_conditional_one_form_route_disclosed: True
+KEY K20_RA1_SS3_fork_disclosed: True
+KEY K21_no_complete_global_witness: True
+KEY K22_mu_never_silently_disabled: True
+KEY K23_no_branch_or_physical_selection: True
+KEY K24_full_angular_correction_retained: True
+KEY K25_all_sixteen_sources_have_explicit_coverage_disposition: True
+PASS: 25/25 N03 keys; 8 mapped families; 75 source members; 6 jets; 4 branches

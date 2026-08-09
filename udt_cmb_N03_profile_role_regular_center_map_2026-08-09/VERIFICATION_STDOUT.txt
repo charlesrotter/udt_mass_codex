@@ -1,0 +1,18 @@
+CHECK V01_frozen_source_manifest: True
+CHECK V02_source_derived_profile_counts_3_21_210_30: True
+CHECK V03_source_crosswalk_75_unique_members: True
+CHECK V04_all_sixteen_sources_covered_including_seven_zero_member: True
+CHECK V05_full_candidate_fields: True
+CHECK V06_full_jet_fields: True
+CHECK V07_full_branch_fields: True
+CHECK V08_full_status_ledger: True
+CHECK V09_P1_directional_derivatives_fail_all_three: True
+CHECK V10_H_directional_derivatives_if_and_only_if_q_zero: True
+CHECK V11_independent_B_polynomial: True
+CHECK V12_required_premise_stamps: True
+CHECK V13_transport_scoped_as_conditional_candidate: True
+CHECK V14_general_screen_center_claim_chart_qualified: True
+CHECK V15_no_physical_selection: True
+CHECK V16_scripts_do_not_solve_fit_or_use_GPU: True
+CHECK V17_fail_closed_mutations: True
+PASS: 17/17 N03 checks; 39/39 mutations caught

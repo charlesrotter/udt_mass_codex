@@ -1,0 +1,6 @@
+python3 udt_cmb_N03_profile_role_regular_center_map_2026-08-09/derive_n03_profile_map.py
+python3 udt_cmb_N03_profile_role_regular_center_map_2026-08-09/verify_n03_profile_map.py
+python3 verify_current_scientific_premises.py
+python3 -m pytest tests/
+python3 udt_cmb_N03_profile_role_regular_center_map_2026-08-09/run_and_capture.py
+python3 udt_cmb_N03_profile_role_regular_center_map_2026-08-09/build_manifest.py

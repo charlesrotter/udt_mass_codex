@@ -116,6 +116,22 @@ non-postselected profile-role and regular-center map. Read
 `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md` before reusing P1 as a complete
 spherical radial profile or selecting a wall condition.
 
+The N03 profile-role and regular-center map then separates the observer-pair law from a centered
+local metric coefficient without weakening either. Within its 16 frozen sources and conditional
+C1/general-screen envelope, none of eight mapped source-level families supplies a role-correct
+complete global profile. The smooth centered C1 local jet space is nevertheless nonempty:
+`A=1+a2 r^2+...`, `h=r^2(k0+k2 r^2+...)`, and
+`B=k0^2 r^2+(2k0 k2-a2 k0^2)r^4+...`. This is compatible with mu on in the conditional `h`
+realization but does not require or physically select `k0`. The leading round-screen statement is
+geodesic-polar/orthonormal-center and necessary only; the full C01-C18 screen arena, N01 matrices,
+and shift-divergence term remain live. P1's direct identity promotion to a smooth centered lapse is
+excluded only in that branch; its SNe/observer-pair role survives. The physical geometry-to-pair
+groupoid cocycle remains `OPEN`, and a one-form/transport realization is only a conditional
+candidate route requiring an additional local first-order premise. No profile, boundary,
+eigensolve, FD2, fit, population, polarization, or GPU work follows. Read
+`udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md` first when profile roles,
+center regularity, or the next CMB gate is relevant.
+
 The August 5 `X_max` correction sharpens that row without selecting a formula or value. `X_max` is
 the owner-ratified `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair
 positional-dilation asymptote: finite comparisons lie below it, and approach from below must send

@@ -35,8 +35,15 @@ screen or spectrum. The **N02 radial-anchor admissibility gate** is now complete
 complete spherical center-to-wall C1/C2 anchor; this does not invalidate P1's declared SNe/
 observer-relation role. All mixed wall strata require a free extension family at fixed finite
 harmonic block, while the round controls are limit-point. The N02 eigensolve is blocked. The next
-unlaunched gate is a non-postselected profile-role and regular-center map; no profile repair, inner
-cutoff, eigenvalue solve, or FD2 restart is authorized.
+completed gate is the **N03 profile-role and regular-center map**:
+`udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`. It preserves P1 as a
+two-observer/SNe relation while excluding only its direct identity promotion to a smooth centered
+C1 lapse. The regular C1 local jet space is nonempty and mu-on compatible; the full angular
+orchestra, C01-C18 screens, N01 matrices, and general shift-divergence term remain live. No mapped
+source supplies the complete global profile. The physical groupoid cocycle remains open and
+transport is only a conditional candidate route. The next unlaunched gate is a complete-coframe
+audit of that cocycle/local-generator seam; no profile repair, inner cutoff, eigenvalue solve, or
+FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane

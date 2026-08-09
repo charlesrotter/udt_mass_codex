@@ -16,7 +16,11 @@ N01 result is `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_RE
 conditional C1 coupling wiring, not a physical screen or spectrum. N02 is now banked at
 `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`: no banked P1 row is a regular
 complete spherical center-to-wall anchor, while P1's declared relational/SNe role remains intact.
-The next unlaunched gate is a profile-role and regular-center map; no eigenvalue solve is authorized.
+N03 is banked at `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`: the pair
+law is not a centered local lapse, regular mu-on-compatible C1 jets remain, the full angular
+orchestra remains active, and the physical groupoid cocycle is still open. The next unlaunched gate
+tests whether the complete coframe supplies that cocycle or a conditional local-generator route;
+no eigenvalue solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -25,7 +29,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
+5. `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
+   `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
@@ -42,6 +47,9 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
+- `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md` — current profile-role
+  and center-regularity gate; retains two-point `c_eff`, phi+orchestra, mu on, full angular
+  structure, and relational `X_max`, while leaving the physical cocycle open.
 - `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md` — current radial gate: P1
   is not a regular complete spherical anchor; mixed-wall D/N controls are not physical selection.
 - `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md` — bounded conditional

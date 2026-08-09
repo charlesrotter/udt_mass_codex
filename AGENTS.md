@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** First read
+   `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
@@ -49,9 +50,11 @@ do not dump whole long files or recursively open cited evidence during orientati
    conditional fixed-`|m|`/parity matrix architecture and full radial matrix flux, not a physical
    screen or spectrum. N02 is complete and `VERIFIED-WITH-CAVEATS`: no banked P1 row is a regular
    complete spherical center-to-wall anchor; this does not invalidate P1's declared relational/SNe
-   role. Mixed walls require a free extension family and D/N are not selected. The next unlaunched
-   gate is a non-postselected profile-role and regular-center map; no profile repair, inner cutoff,
-   eigenvalue solve, or FD2 is authorized. Then read
+   role. Mixed walls require a free extension family and D/N are not selected. N03 is now complete
+   and `VERIFIED-WITH-CAVEATS`: the observer-pair law is not a centered local lapse; no mapped source
+   supplies a complete global profile; a nonempty smooth C1 local jet space remains compatible with
+   mu on; and the physical groupoid cocycle stays open. Transport is only a conditional candidate
+   subclass. No profile repair, inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
    RA2 = PARTIAL-WEAK). The x_max STRUCTURE (O1-O3) and SCALE (M1-M4) lanes are COMPLETE (verified
@@ -111,6 +114,11 @@ wiring only: do not promote scalar `Box_g`, discard negative-`m` sign, call boun
 spectrum, or launch FD2/GPU work without a separate preregistered gate. N02 is an admissibility
 gate only: do not invalidate P1's relational/SNe role, call `h=O(r^2)` sufficient for full
 smoothness, select D/N physically, repair P1, insert an inner cutoff, or launch an eigensolve.
+N03 is the controlling profile-role correction: retain the two-point `c_eff` ratio, the disclosed
+reference-observer readout, phi+orchestra, mu on, the full N01 matrices, C01-C18 screen arena, and
+the general shift-divergence term. Do not copy P1 directly into a smooth centered lapse, promote
+local jets to a global solution, select `k0`, derive transport from cocycle regularity, or turn
+`X_max` into a wall.
 
 For the 1,114 fixed-base artifact identities, use
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. Post-base additions such as the July 19 frontier and

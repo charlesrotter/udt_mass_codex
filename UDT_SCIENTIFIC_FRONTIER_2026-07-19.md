@@ -4,6 +4,20 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 9 N03 profile-role and regular-center precedence notice
+
+Before identifying an observer-pair profile with a centered local metric coefficient or launching
+an eigensolve, read
+`udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`. Within its 16 frozen
+sources and declared conditional C1/general-screen envelope, no mapped source supplies a
+role-correct complete global profile. P1's observer-pair/SNe role survives; only its direct identity
+promotion to a smooth centered C1 lapse is excluded. The regular C1 local jet space is nonempty and
+compatible with mu on in the conditional `h` realization, while the full angular screen, matrix,
+and shift-divergence structure remains live. The physical geometry-to-pair groupoid cocycle is
+open. Transport or a one-form is a conditional candidate subclass, not a derived consequence of
+general cocycle regularity. No profile, boundary, eigensolve, FD2, fit, population, polarization,
+or GPU work follows.
+
 ## August 9 N02 radial-anchor admissibility precedence notice
 
 Before promoting a fitted P1 observer relation into a complete spherical C1/C2 radial profile or
