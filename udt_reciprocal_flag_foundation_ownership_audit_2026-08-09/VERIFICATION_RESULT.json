@@ -1,0 +1,214 @@
+{
+  "all_passed": true,
+  "check_count": 51,
+  "checks": [
+    {
+      "name": "26 frozen source identities",
+      "passed": true
+    },
+    {
+      "name": "hash UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md",
+      "passed": true
+    },
+    {
+      "name": "hash UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "hash verify_udt_reciprocal_c_postulate.py",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founding_reciprocity_object_audit_2026-07-27/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founding_reciprocity_object_audit_2026-07-27/SOURCE_PROPOSITIONS.tsv",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founding_observer_comparison_semantics_audit_2026-07-27/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_native_global_coframe_definition_audit_2026-07-28/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "name": "hash udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_cmb_N03_profile_role_regular_center_map_2026-08-09/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_cmb_N03_profile_role_regular_center_map_2026-08-09/groupoid.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_cmb_N03_profile_role_regular_center_map_2026-08-09/udt_missing_rule_cold_review.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_cmb_N03_profile_role_regular_center_map_2026-08-09/verify_udt_missing_rule.py",
+      "passed": true
+    },
+    {
+      "name": "hash udt_cmb_N03_profile_role_regular_center_map_2026-08-09/reciprocal_flag_followup_audit.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_cmb_N03_profile_role_regular_center_map_2026-08-09/verify_reciprocal_flag_followup.py",
+      "passed": true
+    },
+    {
+      "name": "hash udt_ceff_profile_binding_test_2026-08-06/DERIVATION_NOTES.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_ceff_depth_orchestra_integration_2026-08-06.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
+      "passed": true
+    },
+    {
+      "name": "hash CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "passed": true
+    },
+    {
+      "name": "controller landing",
+      "passed": true
+    },
+    {
+      "name": "controller checks all passed",
+      "passed": true
+    },
+    {
+      "name": "controller exact character rank",
+      "passed": true
+    },
+    {
+      "name": "controller exact weights",
+      "passed": true
+    },
+    {
+      "name": "full GL commutator reconstruction",
+      "passed": true
+    },
+    {
+      "name": "K pairing preserved",
+      "passed": true
+    },
+    {
+      "name": "K is physical anti-isometry",
+      "passed": true
+    },
+    {
+      "name": "independent mixed clock density",
+      "passed": true
+    },
+    {
+      "name": "independent mixed plane density",
+      "passed": true
+    },
+    {
+      "name": "independent mixed delta",
+      "passed": true
+    },
+    {
+      "name": "independent clock telescoping",
+      "passed": true
+    },
+    {
+      "name": "independent plane telescoping",
+      "passed": true
+    },
+    {
+      "name": "normalization",
+      "passed": true
+    },
+    {
+      "name": "exchange oddness",
+      "passed": true
+    },
+    {
+      "name": "higher-order connection clock factor",
+      "passed": true
+    },
+    {
+      "name": "higher-order connection depth factor",
+      "passed": true
+    },
+    {
+      "name": "ownership identities unique",
+      "passed": true
+    },
+    {
+      "name": "physical arrow remains open",
+      "passed": true
+    },
+    {
+      "name": "flag remains conditional",
+      "passed": true
+    },
+    {
+      "name": "calibration remains open",
+      "passed": true
+    },
+    {
+      "name": "abstract exchange is scoped",
+      "passed": true
+    },
+    {
+      "name": "downstream regrade identities unique",
+      "passed": true
+    },
+    {
+      "name": "spectral extractor not promoted to cocycle",
+      "passed": true
+    },
+    {
+      "name": "Xmax remains unchanged",
+      "passed": true
+    }
+  ],
+  "landing": "FOUNDED_ABSTRACT_RECIPROCAL_CALIBRATION_SEED_DERIVED__RECIPROCAL_ROOT_CONDITIONAL_UNIQUE_UNIVERSAL_ORDER_ZERO_READOUT__COMPLETE_CAUSAL_FLAG_TRANSPORT_CALIBRATION_AND_PHYSICAL_ARROW_OPEN",
+  "method": "standard_library_fraction_reconstruction_no_controller_import",
+  "passed_count": 51,
+  "schema": "udt-reciprocal-flag-foundation-ownership-independent-v1"
+}

@@ -1,0 +1,52 @@
+Script started on 2026-08-09 18:49:35-04:00 [<not executed on terminal>]
+1. Reciprocal D(d) is a commutator in GL^+(4):
+⎡ -d          ⎤
+⎢ℯ    0   0  0⎥
+⎢             ⎥
+⎢      d      ⎥
+⎢ 0   ℯ   0  0⎥
+⎢             ⎥
+⎢ 0   0   1  0⎥
+⎢             ⎥
+⎣ 0   0   0  1⎦
+Therefore every additive scalar character on the full isotropy group gives D(d) depth 0.
+
+2. Complete strain C_A = A^dagger A:
+⎡3/16  0  -1/4  0⎤
+⎢                ⎥
+⎢ 0    4   0    0⎥
+⎢                ⎥
+⎢1/4   0   1    0⎥
+⎢                ⎥
+⎣ 0    0   0    1⎦
+Eigenvalues:
+   19/32 - sqrt(105)/32
+   sqrt(105)/32 + 19/32
+   1
+   4
+delta_strain = -log(19/32 - sqrt(105)/32)/2 ≈ 0.648166889623
+delta_quotient = log(2) ≈ 0.693147180560 
+
+3. A = U D0, with U lower-unipotent and D0 reciprocal diagonal.
+Any arrow-only additive character on the triangular group ignores U.
+
+4. Causal-flag log expansions for the mixing arrow:
+b1 (clock line) = log(sqrt(3)/4) ≈ -0.836988216786
+b2 (clock-ruler 2-plane) = -log(2) + log(3)/2 ≈ -0.143841036226
+delta_flag = (1/2)b2 - b1 = log(64/3)/4 ≈ 0.765067698673 
+
+5. Pure reciprocal reduction: b1=-d, b2=0, so delta_flag=d.
+
+6. A one-parameter exact family agreeing on pure reciprocal arrows:
+delta_kappa = (1-kappa) delta_t + kappa delta_r
+For the mixing arrow:
+  delta_t = -log(3)/2 + 2*log(2) ≈ 0.836988216786
+  delta_r = log(2) ≈ 0.693147180560
+  delta_kappa = log(2**kappa*(sqrt(3)/4)**(kappa - 1))
+The clock-ruler exchange-odd choice is kappa=1/2, equal to delta_flag.
+
+7. X_max reparameterization:
+s = X_max*tanh(|delta|), and |delta| = atanh(s/X_max).
+Thus the asymptotic gate alone cannot distinguish candidate cocycles while s is unspecified.
+
+Script done on 2026-08-09 18:49:36-04:00 [COMMAND_EXIT_CODE="0"]

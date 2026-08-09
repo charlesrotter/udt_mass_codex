@@ -1,0 +1,418 @@
+{
+  "all_passed": true,
+  "check_count": 77,
+  "checks": [
+    {
+      "detail": "",
+      "name": "source manifest has 26 unique rows",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source manifest paths are unique",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md",
+      "passed": true
+    },
+    {
+      "detail": "c3d7cf1d0b24d83958b23ae55624259dba0a46c8bebd3308caadda873b67b5ac",
+      "name": "source hash: UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "passed": true
+    },
+    {
+      "detail": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+      "name": "source hash: UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: verify_udt_reciprocal_c_postulate.py",
+      "passed": true
+    },
+    {
+      "detail": "8c335b6de620e9eeb5a6f75b27414c68a6fcd1e8b7986e511d855622212e57d9",
+      "name": "source hash: verify_udt_reciprocal_c_postulate.py",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founding_reciprocity_object_audit_2026-07-27/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "718878082fd4dc545df29ac626389f957514a6463cbc61ad9a5eff58dd786bb4",
+      "name": "source hash: udt_founding_reciprocity_object_audit_2026-07-27/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "1a80fc5de65c5739d6be523d9d41a32194d9be2dfbcb7eda048fbf12431f4d99",
+      "name": "source hash: udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founding_reciprocity_object_audit_2026-07-27/SOURCE_PROPOSITIONS.tsv",
+      "passed": true
+    },
+    {
+      "detail": "47c44be4a4a9a5fc3c4a984633f15d0ad91c5a66ffc3bd632f186d84a99a9f29",
+      "name": "source hash: udt_founding_reciprocity_object_audit_2026-07-27/SOURCE_PROPOSITIONS.tsv",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founding_observer_comparison_semantics_audit_2026-07-27/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "f5b048e1e3055e91933293037f9f3755068d4400ac01bd61ae19e008ebf9a730",
+      "name": "source hash: udt_founding_observer_comparison_semantics_audit_2026-07-27/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md",
+      "passed": true
+    },
+    {
+      "detail": "0995eaa36f5281c0dcd1662b6050950476e1ca992f59e18840ec9dc9aca0da60",
+      "name": "source hash: udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "7e03ef2631908a1e26c636bb9beb7410bdc534c9fde1e15d37eb9de5efadf29d",
+      "name": "source hash: udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "3a81c5c5b6c23218d9bfe26135c6b8225e0e41235aac712dfbdae5b53b4006fe",
+      "name": "source hash: udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_native_global_coframe_definition_audit_2026-07-28/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "40aac5529d0bd36d5b3aac0051cfdf1870d4fea27d14e1a66825048870941bed",
+      "name": "source hash: udt_native_global_coframe_definition_audit_2026-07-28/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "65905b6b2718fd9c1057143a7148104bb14d7e65eeee3bdc7a7010af8cbe90eb",
+      "name": "source hash: udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+      "name": "source hash: udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "detail": "7a4fba1c6f9d02eb7ca12ac953d04e1c04e2b7271598dc99e51db5baeddedb08",
+      "name": "source hash: udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "ce96774a1dcdefb690f716a6c69aa6cdf5c155e6cff051137f8efe9b0eb1a77c",
+      "name": "source hash: udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "664ac79ebe0e64eb4854ca067913084d7a6396e21a768a5fb9e92fdf8151d982",
+      "name": "source hash: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "881f814060d8fb73a1e13802a9e0391145ec987be8ffccf76134ca982575db91",
+      "name": "source hash: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/groupoid.md",
+      "passed": true
+    },
+    {
+      "detail": "c2028c5fd93d93f910d1d00224848abe8684cb2ae89b885e9277a664f41cebca",
+      "name": "source hash: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/groupoid.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/udt_missing_rule_cold_review.md",
+      "passed": true
+    },
+    {
+      "detail": "e4959f383665c6db76baf097fdd05745d5e97a6bee3563feac14cb7a201ca018",
+      "name": "source hash: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/udt_missing_rule_cold_review.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/verify_udt_missing_rule.py",
+      "passed": true
+    },
+    {
+      "detail": "6fcf028cd82f760f79032f806cffee6085fa8213a0d79a828d261b403f25b318",
+      "name": "source hash: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/verify_udt_missing_rule.py",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/reciprocal_flag_followup_audit.md",
+      "passed": true
+    },
+    {
+      "detail": "f9b679341ed33a258431053cf871b0de277c9219787609beb81222f1e7c4a791",
+      "name": "source hash: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/reciprocal_flag_followup_audit.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/verify_reciprocal_flag_followup.py",
+      "passed": true
+    },
+    {
+      "detail": "602dac883f16f8eeb23fb34d19e120f0718be222e99bb9ecd455435b4bfd681e",
+      "name": "source hash: udt_cmb_N03_profile_role_regular_center_map_2026-08-09/verify_reciprocal_flag_followup.py",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_ceff_profile_binding_test_2026-08-06/DERIVATION_NOTES.md",
+      "passed": true
+    },
+    {
+      "detail": "494e9a774fd76ef28603dba81601748305e311d27dea9cf113090ea9b9bf8c8c",
+      "name": "source hash: udt_ceff_profile_binding_test_2026-08-06/DERIVATION_NOTES.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_ceff_depth_orchestra_integration_2026-08-06.md",
+      "passed": true
+    },
+    {
+      "detail": "e8c1b6cebd48da4db3bcd15f8716468e292cd6021ec439dd5f8b2d5c4ad38e14",
+      "name": "source hash: udt_ceff_depth_orchestra_integration_2026-08-06.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
+      "passed": true
+    },
+    {
+      "detail": "8860dbefd6e99f4f9de966497f56022b268d2e0d1299383354b457d60480c638",
+      "name": "source hash: udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "passed": true
+    },
+    {
+      "detail": "30382f4091195a23ad0cb2361d98a254a8ad1fe0ec5eb13d6f8c0603aec2ccdf",
+      "name": "source hash: CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "D preserves the founding dual pairing K",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "K reverses abstract reciprocal depth",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "K is not a causal Lorentz exchange",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "D is not a physical eta-isometry for nonzero depth",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "D is a commutator in full GL(4)",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "flag parabolic dimension is 11",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "flag parabolic commutator rank is 8",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "flag parabolic abelianization dimension is 3",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "formal exchange and normalization uniquely select reciprocal-root weights",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "clock-line density telescopes exactly",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "clock-ruler plane density telescopes exactly",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mixing witness clock factor is 3/16",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mixing witness plane factor is 3/4",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mixing witness reciprocal-root value",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "Lorentz transport is metric-isometric",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "isometric transport has unit clock density",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "isometric transport has unit plane density",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "higher-order natural connection clock scale is 6c",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "higher-order natural connection reciprocal-root depth is -3c",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure reciprocal D preserves the standard clock line",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure reciprocal D preserves the standard clock-ruler plane",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reciprocal-root character is nonzero on nontrivial flag isotropy",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure reciprocal calibration multiplier is exp(-2t)",
+      "passed": true
+    }
+  ],
+  "exact": {
+    "abelianization_dimension": 3,
+    "commutator_rank": 8,
+    "exchange_weights": [
+      "-1/2",
+      "1/2",
+      "0"
+    ],
+    "higher_order_connection_delta": "-3*c",
+    "mixed_delta": "log(64/3)/4",
+    "parabolic_dimension": 11
+  },
+  "landing": "FOUNDED_ABSTRACT_RECIPROCAL_CALIBRATION_SEED_DERIVED__RECIPROCAL_ROOT_CONDITIONAL_UNIQUE_UNIVERSAL_ORDER_ZERO_READOUT__COMPLETE_CAUSAL_FLAG_TRANSPORT_CALIBRATION_AND_PHYSICAL_ARROW_OPEN",
+  "passed_count": 77,
+  "schema": "udt-reciprocal-flag-foundation-ownership-v1",
+  "source_count": 26,
+  "statuses": {
+    "abstract_exchange_parity": "DERIVED_ON_TWO_CHANNEL_REPRESENTATION",
+    "abstract_reciprocal_channel_pair": "DERIVED_WITH_FOUNDING_STAMPS",
+    "calibration_line_ceff_identification": "OPEN_CONSISTENT_ASSOCIATED_LINE_EXTENSION",
+    "complete_exchange_extension": "POSIT_IF_ADOPTED",
+    "physical_causal_flag": "CONDITIONAL_SUPPLIED_QUERY_STRUCTURE",
+    "physical_nonisometric_arrow": "OPEN_NOT_UNIQUE_FROM_METRIC_NATURALITY",
+    "reciprocal_root_readout": "CONDITIONAL_UNIQUE_UNIVERSAL_ORDER_ZERO_CHARACTER",
+    "xmax_asymptote": "WORKING_UNCHANGED_GATE"
+  },
+  "sympy_version": "1.13.1"
+}
