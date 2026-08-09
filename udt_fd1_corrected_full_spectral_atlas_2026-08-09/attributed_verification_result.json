@@ -1,0 +1,62 @@
+{
+  "base_errors": [],
+  "independent_replay": {
+    "convention_rows": 630,
+    "crowding_extrema": {
+      "m0": [
+        1,
+        5
+      ],
+      "mminus": [
+        1,
+        4
+      ],
+      "mplus": [
+        2,
+        4
+      ]
+    },
+    "historical_pairing_morphology_counts": {
+      "BASIN_MISMATCH": 127,
+      "SPLITTING_ONLY": 503
+    },
+    "residual_extrema": {
+      "m0": [
+        0.030834867060812267,
+        0.16516773459482165
+      ],
+      "mminus": [
+        0.025696604323318103,
+        0.31744521657062763
+      ],
+      "mplus": [
+        0.02250927766828721,
+        0.14699414707744618
+      ]
+    },
+    "spectral_identities": 420,
+    "standalone_historical_3p1_line_counts": {
+      "m0": 4,
+      "mminus": 63,
+      "mplus": 78
+    }
+  },
+  "keys": {
+    "ARV1_input_hashes": true,
+    "ARV2_independent_counts": true,
+    "ARV3_no_full_centered_rows": true,
+    "ARV4_standalone_line_counts": true,
+    "ARV5_residual_extrema": true,
+    "ARV6_crowding_extrema": true,
+    "ARV7_all_mutation_catches": true
+  },
+  "mutation_catches": {
+    "caveat": true,
+    "convention": true,
+    "crowd": true,
+    "family": true,
+    "missing": true,
+    "source": true,
+    "summary": true
+  }
+}

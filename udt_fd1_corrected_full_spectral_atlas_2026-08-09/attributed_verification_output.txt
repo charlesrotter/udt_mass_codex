@@ -1,0 +1,52 @@
+Script started on 2026-08-09 14:57:09-04:00 [TERM="xterm-256color" TTY="/dev/console" COLUMNS="80" LINES="24"]
+KEY ARV1_input_hashes: True
+KEY ARV2_independent_counts: True
+KEY ARV3_no_full_centered_rows: True
+KEY ARV4_standalone_line_counts: True
+KEY ARV5_residual_extrema: True
+KEY ARV6_crowding_extrema: True
+KEY ARV7_all_mutation_catches: True
+{
+  "convention_rows": 630,
+  "crowding_extrema": {
+    "m0": [
+      1,
+      5
+    ],
+    "mminus": [
+      1,
+      4
+    ],
+    "mplus": [
+      2,
+      4
+    ]
+  },
+  "historical_pairing_morphology_counts": {
+    "BASIN_MISMATCH": 127,
+    "SPLITTING_ONLY": 503
+  },
+  "residual_extrema": {
+    "m0": [
+      0.030834867060812267,
+      0.16516773459482165
+    ],
+    "mminus": [
+      0.025696604323318103,
+      0.31744521657062763
+    ],
+    "mplus": [
+      0.02250927766828721,
+      0.14699414707744618
+    ]
+  },
+  "spectral_identities": 420,
+  "standalone_historical_3p1_line_counts": {
+    "m0": 4,
+    "mminus": 63,
+    "mplus": 78
+  }
+}
+WROTE /home/udt-admin/udt_mass_codex/udt_fd1_corrected_full_spectral_atlas_2026-08-09/attributed_verification_result.json SHA256 98f5fb59a14ae5dbf2cc9907b613adeb9f89d6c3b6089155ef13f532b1f12b71
+
+Script done on 2026-08-09 14:57:09-04:00 [COMMAND_EXIT_CODE="0"]
