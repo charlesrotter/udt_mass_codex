@@ -1,0 +1,26 @@
+Script started on 2026-08-09 12:58:53-04:00 [TERM="xterm-256color" TTY="/dev/console" COLUMNS="80" LINES="24"]
+TRANSITION q=0.75 wall=D entry g180=0.0017826017 g240=0.0019334425 logdrift=8.123e-02
+TRANSITION q=0.75 wall=D exit g180=0.047301616 g240=0.041286376 logdrift=1.360e-01
+TRANSITION q=0.75 wall=N entry g180=0.0020990129 g240=0.0021989887 logdrift=4.653e-02
+TRANSITION q=0.75 wall=N exit g180=0.02845402 g240=0.025374713 logdrift=1.145e-01
+TRANSITION q=0.95 wall=D entry g180=0.13234437 g240=0.13820376 logdrift=4.332e-02
+TRANSITION q=0.95 wall=D exit g180=0.59540908 g240=0.57793709 logdrift=2.978e-02
+TRANSITION q=0.95 wall=N entry g180=0.14432256 g240=0.14788268 logdrift=2.437e-02
+TRANSITION q=0.95 wall=N exit g180=0.64230397 g240=0.62345588 logdrift=2.978e-02
+KEY FD1_R1_transition_count: True
+KEY FD1_R2_boundary_grid_convergence: False
+KEY FD1_R3_endpoint_orientation: True
+KEY FD1_R4_raw_backward_residual: True
+KEY FD1_R5_no_new_family: True
+{
+  "all_raw_backward_residuals_below_1e-8": true,
+  "endpoint_orientation_preserved": true,
+  "historical_ra2_line_is_report_only": true,
+  "maximum_boundary_log_drift_g180_g240": 0.13601190551256975,
+  "transition_count": 8
+}
+WROTE /home/udt-admin/udt_mass_codex/udt_freedata_FD1_mixing_bound_2026-08-09/phase2_transition_refinement.json
+TOTAL KEYS 4/5
+failed keys: ['FD1_R2_boundary_grid_convergence']
+
+Script done on 2026-08-09 13:05:10-04:00 [COMMAND_EXIT_CODE="1"]
