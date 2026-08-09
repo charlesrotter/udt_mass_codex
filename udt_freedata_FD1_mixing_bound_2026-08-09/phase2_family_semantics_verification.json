@@ -1,0 +1,162 @@
+{
+  "catch_proofs": [
+    {
+      "name": "duplicate_identity",
+      "rejected": true
+    },
+    {
+      "name": "missing_identity",
+      "rejected": true
+    },
+    {
+      "name": "failed_inside",
+      "rejected": true
+    },
+    {
+      "name": "outside_family_promoted",
+      "rejected": true
+    },
+    {
+      "name": "offset_disclosure_removed",
+      "rejected": true
+    },
+    {
+      "name": "one_scale_caveat_removed",
+      "rejected": true
+    },
+    {
+      "name": "boundary_failure_erased",
+      "rejected": true
+    }
+  ],
+  "keys": {
+    "FD1_FS1_prior_failures_preserved": true,
+    "FD1_FS2_family_semantics": true,
+    "FD1_FS3_independent_numerics": true,
+    "FD1_FS4_inside_absolute_troughs": true,
+    "FD1_FS5_one_scale_caveat": true,
+    "FD1_FS6_catch_proofs": true
+  },
+  "metadata": {
+    "boundary_failure": true,
+    "strict_outside_failure": true
+  },
+  "phase": "FD1_PHASE2_FAMILY_SEMANTICS_CORRECTION",
+  "summary": {
+    "boundary_locations_certified": false,
+    "inside_configurations": 12,
+    "maximum_frequency_drift_from_g240": 0.004728886300112367,
+    "maximum_raw_backward_residual": 2.906525090190197e-10,
+    "minimum_inside_affine_margin_to_3p1pct": 0.0019805844244235454,
+    "minimum_inside_centered_margin": 10.81289771313618,
+    "minimum_inside_one_scale_mismatch": 0.2734057640169594,
+    "outside_families": 8,
+    "outside_family_states": [
+      {
+        "family": [
+          0.75,
+          "D",
+          0.001
+        ],
+        "family_inside_all_three_n": false,
+        "individual_inside_states": [
+          true,
+          true,
+          false
+        ]
+      },
+      {
+        "family": [
+          0.75,
+          "D",
+          0.05
+        ],
+        "family_inside_all_three_n": false,
+        "individual_inside_states": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "family": [
+          0.75,
+          "N",
+          0.002
+        ],
+        "family_inside_all_three_n": false,
+        "individual_inside_states": [
+          true,
+          true,
+          false
+        ]
+      },
+      {
+        "family": [
+          0.75,
+          "N",
+          0.05
+        ],
+        "family_inside_all_three_n": false,
+        "individual_inside_states": [
+          false,
+          false,
+          true
+        ]
+      },
+      {
+        "family": [
+          0.95,
+          "D",
+          0.1
+        ],
+        "family_inside_all_three_n": false,
+        "individual_inside_states": [
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "family": [
+          0.95,
+          "D",
+          1.0
+        ],
+        "family_inside_all_three_n": false,
+        "individual_inside_states": [
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "family": [
+          0.95,
+          "N",
+          0.1
+        ],
+        "family_inside_all_three_n": false,
+        "individual_inside_states": [
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "family": [
+          0.95,
+          "N",
+          1.0
+        ],
+        "family_inside_all_three_n": false,
+        "individual_inside_states": [
+          false,
+          false,
+          false
+        ]
+      }
+    ],
+    "outside_individual_rows_that_flipped_inside": 7
+  }
+}
