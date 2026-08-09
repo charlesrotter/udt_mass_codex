@@ -1,7 +1,7 @@
 # FD1 Phase I — blind geometry return
 
 Date: 2026-08-09
-Status: `OBSERVED`, data-blind metric-slice atlas; independent verifier registered but not yet run
+Status: `OBSERVED`, data-blind metric-slice atlas; independently verified within the stated scope
 Controller: `PREREGISTRATION.md` at commit `ea05331b`
 
 ## Scope
@@ -105,6 +105,29 @@ any open region fits the empirical peak basins. That question remains sealed for
    a broken exact `q=0` split, and the preserved failed atlas.
 
 No tolerance may be relaxed after viewing that verifier's output. A failed key leaves Phase I open.
+
+## Independent verification return
+
+The frozen verifier was executed after commit `90d6db56`; all 8/8 keys passed without modification:
+
+- all successful atlas schemas passed and the preserved failed-tail atlas was rejected;
+- maximum full-atlas `g180`/`g240` frequency drift: `0.01881627004784847`;
+- 54 independently reconstructed endpoint/interior mode points;
+- maximum independent frequency drift: `0.013888619300468363`;
+- maximum independent raw backward residual: `5.134201512268387e-09`;
+- 24 independent 10x/100x cutoff points;
+- maximum cutoff drift: `2.990016002568652e-07`;
+- all corruption catch-proofs passed: duplicate identity, observational disclosure, missing multiplet
+  member, broken exact `q=0` split, and internally failed atlas.
+
+The independent path did not import the production script. It used `solve_ivp` rather than cumulative
+quadrature for the metric coordinate and solved scalar nonlinear symmetric eigenvalue roots rather
+than diagonalizing the production companion pencil.
+
+```text
+f0b59ca9bb5ffe46fef194c092307851ad0c941abc17c973694d31b60e624429  phase1_verification.json
+1fbe4722586c031b301c92c58803715ad275f3b95d2150f1602bb4fe541e019f  phase1_verification_output.txt
+```
 
 ## Hashes before independent verification
 
