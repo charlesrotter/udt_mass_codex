@@ -88,6 +88,21 @@ at the cost of tractability. Catch-point CP4.
   ratio table (blind, symbolic); THEN the §4 comparison (attributed Planck positions).
 - **RA3:** the W2 kinematic cross-check (cheap, alongside RA1).
 - **RA4 (owed within the arc per §5):** the mu-on extension of RA1.
+- **RA1-V — the VECTOR-PROBE extension (polarization channels; recorded 2026-08-09 on
+  Charles's question + go; GATED behind FD1/FD2 — the scalar story must survive its sweet-spot
+  and fine-structure tests before multiplying probes):** Maxwell on the same mu-on background
+  (metric-native probe; light = the observed field) — the same S-L program, endpoint
+  classification, and two-phase blind discipline. THE SHARP TARGET: derive BLIND the offset
+  difference beta_vector − beta_scalar (different spins pick up different comb offsets in the
+  same cavity; the shared knobs cancel in the RELATIVE phase — parameter-poor), then compare
+  to the measured TT/EE phase relation (~half-cycle; the known-target/LLM-prior caveat travels
+  as in RA2). PLUS: the mixing couples to polarization natively (gravitational-Faraday-type
+  helicity coupling = the polarization sibling of the Zeeman fingerprint) and the chiral
+  structures are parity-violating -> the observed near-zero TB/EB parity-odd correlations =
+  a SECOND independent observational BOUND on the mixing amplitude, stacking with FD1's
+  singlet-comb bound. MISSING (fenced, honest): polarization POPULATION (why the view is
+  polarized at all) + the TT/EE power ratio = the same FD-C statistics door; note the
+  thermal-at-the-asymptote candidate would populate all spins natively if FD3 lands there.
 - Downstream (named, gated, far): the thermality/blackbody derivation (the κ-lead) as its own
   push; the source/heights question = the coupling frontier (Road B territory).
 
