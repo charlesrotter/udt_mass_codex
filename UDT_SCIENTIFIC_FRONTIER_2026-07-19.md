@@ -4,6 +4,15 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 9 N01 C1 coupling-atlas precedence notice
+
+Before using a C1 harmonic formula or starting a spectrum calculation, read
+`udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`. The bounded conditional
+C1 matrix architecture is `VERIFIED-WITH-CAVEATS`: fixed `|m|` and parity survive, the complete
+radial `W(B(r))` flux is retained, and the exact round/first-order/infinite-band structure is
+recorded. C1, scalar `Box_g`, physical `B(r)`, radial boundary, and spectrum remain unselected. No
+eigenvalue solve, FD2, data comparison, population/polarization law, or GPU work follows.
+
 ## August 9 complete-angular family-atlas precedence notice
 
 Before extending any equatorial or axial scalar mode formula, read
@@ -11,7 +20,8 @@ Before extending any equatorial or axial scalar mode formula, read
 derives the stationary general-screen operator, including a shift-divergence term absent from the
 special axial shortcut, and disposition-maps all registered families without selecting a physical
 screen. No eigenvalue solve, FD2 restart, GPU work, population law, polarization result, or CMB
-prediction follows. The next bounded N01 coupling-matrix tile remains unlaunched.
+prediction follows. N01 has since mapped the conditional C1 coupling matrices but has not selected
+a screen or launched an eigenvalue solve.
 
 ## August 5 complete-pair phi/orchestra precedence notice
 

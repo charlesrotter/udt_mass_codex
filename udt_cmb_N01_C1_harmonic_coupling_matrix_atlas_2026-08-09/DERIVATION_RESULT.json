@@ -1,0 +1,74 @@
+{
+  "B_grid": [
+    0.0,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "abs_m_grid": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "block_summary_count": 120,
+  "element_count": 15420,
+  "ell_max": 16,
+  "farthest_observed_delta_ell_by_matrix": {
+    "H": 14,
+    "K": 14,
+    "L": 14,
+    "M": 16,
+    "W": 16
+  },
+  "first_order_row_count": 36,
+  "key_count": 20,
+  "keys": {
+    "K01_source_manifest": true,
+    "K02_universe_census": true,
+    "K03_element_census": true,
+    "K04_round_W_identity": true,
+    "K05_round_M_identity": true,
+    "K06_round_L_spherical": true,
+    "K07_matrix_symmetry": true,
+    "K08_parity_selection": true,
+    "K09_quadrature_convergence": true,
+    "K10_m0_H_zero": true,
+    "K11_first_derivative_reciprocal": true,
+    "K12_first_derivative_bandwidth": true,
+    "K13_sign_complete": true,
+    "K14_coupling_reach_characterized": true,
+    "K15_all_matrix_families": true,
+    "K16_all_B_controls": true,
+    "K17_no_eigensolve": true,
+    "K18_characterize_not_filter": true,
+    "K19_radial_matrix_flux_retained": true,
+    "K20_no_solve_authorized": true
+  },
+  "matrix_equation": "d_r[r^2 A W(B) d_r R]-[K(B)+H_m(B)]R+[(r^2 omega^2+2h omega m)/A]M(B)R=0",
+  "matrix_names": [
+    "W",
+    "M",
+    "K",
+    "H",
+    "L"
+  ],
+  "maximum_conclusion": "conditional C1 harmonic architecture only; no physical screen, spectrum, population, FD2, polarization, data fit, or GPU work",
+  "maximum_parity_leakage": 5.551115123125783e-17,
+  "maximum_quadrature_difference": 8.881784197001252e-16,
+  "maximum_symmetry_error": 5.551115123125783e-17,
+  "negative_m_status": "same angular matrices; external 2h omega m coefficient retains sign",
+  "round_limit_errors": {
+    "L_diagonal": 2.3592239273284576e-16,
+    "M_identity": 1.951563910473908e-18,
+    "W_identity": 1.951563910473908e-18
+  },
+  "status": "VERIFIED_BOUNDED_C1_COUPLING_MAP__CONDITIONAL_SCALAR_DIAGNOSTIC__NO_EIGENSOLVE",
+  "structural_result": "fixed abs_m and north-south parity survive; nonzero B generically produces same-parity ell coupling in the bounded atlas",
+  "versions": {
+    "numpy": "2.2.6",
+    "sympy": "1.13.1"
+  }
+}

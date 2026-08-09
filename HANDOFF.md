@@ -41,11 +41,15 @@ screen-plus-shift scalar operator contains an extra shift-divergence term absent
 copy. The map retains 18 atomic families, all C01-C18 controls, all 2,800 five-axis cells, and the
 round/axial/nonaxisymmetric basis tiers without choosing a physical screen.
 
-**NEXT = N01 C1 HARMONIC COUPLING-MATRIX ATLAS, not launched.** This is a bounded CPU algebra tile
-for the already-conditional C1 control: map exact fixed-`m`/parity coupling blocks, no eigenvalue
-solve and no data comparison. C1 remains unselected. FD2/FD3/FD4, RA1-V, GPU work, CMB fitting,
-physical populations, and polarization remain gated. The parent menu is
-`udt_freedata_inventory_MAP_2026-08-09.md`.
+**N01 C1 HARMONIC COUPLING-MATRIX ATLAS = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`. The exact conditional
+C1 architecture preserves fixed `|m|` and parity, retains negative-`m` sign externally, and keeps
+the full radial matrix flux. Its round limit and first-order bandwidth are exact; the finite-B
+complete-basis operator is not finite-band. The 15,420-row bounded atlas is wiring, not a spectrum.
+**NEXT GATE, not launched:** an N02 radial/convergence design must first identify an already-banked
+conditional profile and boundary without postselection. No eigenvalue solve is authorized. C1
+remains unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and
+polarization remain gated. The parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:
 DESI LCDM-free feature detected + audited; BOSS out-of-sample (single-ruler FAILS 0/9, F-RETRO

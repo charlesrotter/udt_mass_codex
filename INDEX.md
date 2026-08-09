@@ -10,14 +10,16 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION. Read
+   `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected scalar atlas
    has three interleaved equatorial ladders and withdraws the old FD1 multiplet window; the complete
    angular audit proves those roots do not lift unchanged and finds no physical population
    projector. The family MAP derives the general stationary operator and maps all 2,800 registered
-   axis cells without selecting a screen. NEXT is the N01 C1 harmonic coupling-matrix atlas, with
-   no eigenvalue solve, before FD2. Then read the parent menu
+   axis cells without selecting a screen. N01 now supplies the exact conditional C1 coupling
+   matrices and full radial matrix flux, but no spectrum or physical screen. NEXT is an unlaunched
+   N02 radial/convergence design gate; no eigenvalue solve or FD2. Then read the parent menu
    `udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 remains `RA2-PARTIAL-WEAK`; BAO is
    BANKED + TABLED; the Assembly lane stays ARCHIVED-LEGACY.
 6. For foundation detail, read the lineage docs LIVE cites (phi+orchestra
@@ -29,6 +31,8 @@
 
 - `CURRENT_RESEARCH_PROGRAM.md` — active dependency chain, banked structure, retired shortcuts,
   open joints, and next bounded investigation.
+- `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md` — current bounded C1
+  matrix wiring: fixed `|m|`/parity, exact round and first-order controls, no physical spectrum.
 - `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md` — current non-postselected
   complete-angular architecture, exact general-screen operator, and N01 coupling-map gate.
 - `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md` — exact conditional

@@ -74,11 +74,18 @@ routing, all 2,800 preregistered axis cells, and three computational tiers: roun
 axial `U(1)` fixed-`m` coupled-ell problems, and nonaxisymmetric full angular problems where `m`
 also mixes. This is architecture, not a selected physical screen or spectrum.
 
-**NEXT BOUNDED TILE — N01 C1 HARMONIC COUPLING-MATRIX ATLAS (not launched).** Derive the exact
-angular coupling blocks for the already-conditional C1 control, at fixed `m` and parity, without an
-eigenvalue solve or data comparison. C1 remains a regression/control representative, never the
-answer by assumption. FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights,
-and polarization remain gated. `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
+**N01 C1 HARMONIC COUPLING-MATRIX ATLAS — COMPLETE, `VERIFIED-WITH-CAVEATS`.** Controlling report:
+`udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`. For the already-
+conditional C1 scalar control, the exact fixed-`|m|`/parity matrix equation retains the full radial
+`W(B(r))` flux and the sign of negative `m` in the external rotation-linear term. The round
+complete operator is diagonal; first order couples only `Delta ell=0,2`; for every `B>0`, `W`, `M`,
+and `L` are infinite-band in the complete basis. The preserved bounded atlas has 15,420 elements,
+120 summaries, and 36 exact first-order rows. This does not select C1, a physical `B(r)`, a radial
+boundary, or a spectrum. **NEXT GATE (not launched):** map/preregister an N02 radial/convergence
+anchor only if an already-banked conditional profile and boundary can be named without
+postselection. No eigenvalue solve is presently authorized. FD2/FD3/FD4, RA1-V, GPU work, physical
+populations, source/state weights, and polarization remain gated.
+`udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
 
 ### THE LINEAGE (how the arc got here — a new instance reads these to understand the foundation)
 
@@ -131,6 +138,7 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
+`udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md` →
 `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` →

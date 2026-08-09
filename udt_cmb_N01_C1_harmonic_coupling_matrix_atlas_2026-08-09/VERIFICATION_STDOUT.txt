@@ -1,0 +1,23 @@
+CHECK V01_payload: True
+CHECK V02_table_census: True
+CHECK V03_adaptive_controls: True
+CHECK V04_round_identity: True
+CHECK V05_round_spherical_diagonal: True
+CHECK V06_round_spherical_offdiagonal: True
+CHECK V07_exact_W1_control: True
+CHECK V08_exact_L1_control: True
+CHECK V09_exact_delta4_zero: True
+CHECK V09B_all_first_order_adaptive: True
+CHECK V10_source_manifest: True
+CHECK V11_negative_m_disclosed: True
+CHECK V12_no_parity_leakage: True
+CHECK V13_quadrature_gate: True
+CHECK V14_finite_B_coupling_observed: True
+CHECK V15_round_KH_cancellation: True
+CHECK V16_payload_mutations: True
+TABLE MUTATIONS: {"T01_missing_element": true, "T02_duplicate_element": true, "T03_parity_mix": true, "T04_quadrature_failure": true, "T05_false_first_band": true, "T06_summary_parity": true, "T07_invalid_element_replaces_key": true, "T08_invalid_summary_replaces_key": true, "T09_invalid_first_order_replaces_key": true}
+CHECK V17_table_mutations: True
+CHECK V18_exact_scope: True
+CHECK V19_report_stop: True
+CHECK V20_external_review: True
+PASS: 21/21 local independent checks; 19/19 mutations caught

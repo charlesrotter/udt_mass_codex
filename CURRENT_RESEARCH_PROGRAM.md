@@ -25,9 +25,13 @@ the chosen spherical representative, and finds no metric-only population project
 **complete-angular family-atlas design MAP** is now also complete:
 `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`. It derives the exact
 stationary general-screen scalar operator, exposes the general shift-divergence term, and maps 18
-atomic families plus all 2,800 preregistered axis cells without physical selection. The next
-bounded question is the **N01 C1 harmonic coupling-matrix atlas**, with no eigenvalue solve, before
-any FD2 restart.
+atomic families plus all 2,800 preregistered axis cells without physical selection. The bounded
+**N01 C1 harmonic coupling-matrix atlas** is now complete and `VERIFIED-WITH-CAVEATS`:
+`udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`. It derives the exact
+conditional fixed-`|m|`/parity matrix architecture and complete radial matrix flux, not a physical
+screen or spectrum. The next unlaunched gate is an N02 radial/convergence design that must name an
+already-banked conditional profile and boundary without postselection; no eigenvalue solve or FD2
+restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane

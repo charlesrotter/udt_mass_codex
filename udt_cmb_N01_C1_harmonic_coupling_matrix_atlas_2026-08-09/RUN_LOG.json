@@ -1,0 +1,45 @@
+[
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/derive_c1_coupling_atlas.py"
+    ],
+    "exit_code": 0,
+    "name": "derivation",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "bbc1a30cde2408296322ba68c740715caf7b811ab758e10a674bbee11600995e"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/verify_c1_coupling_atlas.py"
+    ],
+    "exit_code": 0,
+    "name": "verification",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "74034550944f924baa31e89e6b12e6b81ed0c67e28dfc2b8b75eac3c2bb7372e"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py"
+    ],
+    "exit_code": 0,
+    "name": "premise_gate",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "55c02b2472ed2a752828576da979e3886d1232f3c82200481483aefd1087ddae"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "-m",
+      "pytest",
+      "tests/",
+      "-q"
+    ],
+    "exit_code": 0,
+    "name": "pytest",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "53982d934c2306f35492469d8035c52a6f21277369cb2e662a44ed67899c9767"
+  }
+]

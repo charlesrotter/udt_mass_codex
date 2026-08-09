@@ -90,6 +90,7 @@ def validate_startup_surface(root: Path) -> None:
         for token in (
             "CMB PEAK OPTIMIZATION",
             "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
             "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
             "udt_freedata_inventory_MAP_2026-08-09.md",
@@ -127,6 +128,7 @@ def validate_startup_surface(root: Path) -> None:
         for token in (
             "CMB PEAK OPTIMIZATION",
             "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
             "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
             "udt_freedata_inventory_MAP_2026-08-09.md",
@@ -147,6 +149,7 @@ def validate_startup_surface(root: Path) -> None:
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
         "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
+        "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
         "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
         "udt_freedata_inventory_MAP_2026-08-09.md",
@@ -160,9 +163,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 31, "premise registry must contain exactly 31 rows")
+    require(len(rows) == 32, "premise registry must contain exactly 32 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 31, "duplicate premise id")
+    require(len(by_id) == 32, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -301,6 +304,25 @@ def main() -> None:
         == "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
         "complete-angular family-map source changed",
     )
+    require(
+        by_id["G32"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__CONDITIONAL_C1_FIXED_ABS_M_PARITY_MATRIX_ARCHITECTURE__NO_EIGENSOLVE",
+        "N01 coupling status regressed or promoted",
+    )
+    require(by_id["G32"]["epistemic_label"] == "MIXED", "N01 coupling label changed")
+    require(
+        by_id["G32"]["active_use"] == "BOUNDED_COUPLING_ARCHITECTURE_AND_REGRESSION_CONTROL_ONLY",
+        "N01 coupling use promoted",
+    )
+    require("physical B(r)" in by_id["G32"]["open_scope"], "N01 physical profile promoted")
+    require("negative m discarded" in by_id["G32"]["forbidden_regression"], "N01 sign guard absent")
+    require("scalar Box_g promoted" in by_id["G32"]["forbidden_regression"], "N01 probe guard absent")
+    require("FD2" in by_id["G32"]["forbidden_regression"], "N01 FD2 guard absent")
+    require(
+        by_id["G32"]["controlling_source"]
+        == "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
+        "N01 coupling source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -373,7 +395,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 31 premise guards, complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 32 premise guards, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

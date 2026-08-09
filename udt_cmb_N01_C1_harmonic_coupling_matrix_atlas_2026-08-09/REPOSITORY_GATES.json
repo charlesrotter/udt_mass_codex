@@ -1,0 +1,10 @@
+{
+  "derivation": "20/20",
+  "external_adversarial_review": "VERIFIED-WITH-CAVEATS",
+  "local_independent_mutations": "19/19",
+  "local_independent_verification": "21/21",
+  "premise_guards": "32/32",
+  "protected_curvature_atlas_modified": false,
+  "pytest": "81 passed, 1 xfailed",
+  "scientific_artifact_deletions": 0
+}

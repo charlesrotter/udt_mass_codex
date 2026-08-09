@@ -4,11 +4,14 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; N01 coupling MAP next)
+## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; N01 complete, N02 design gate next)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is
+`udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`: the bounded conditional
+C1 matrix equation retains fixed `|m|`, parity, negative-`m` sign externally, and the full radial
+matrix flux; no physical screen or spectrum is selected. Its parent architecture is
 `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`: the exact stationary
 general-screen scalar operator includes a shift-divergence term absent from a naive axial copy;
 18 atomic families and all 2,800 preregistered axis cells are mapped without physical selection.
@@ -22,9 +25,9 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is the N01 C1 harmonic coupling-matrix atlas: derive the exact fixed-`m`
-and parity angular blocks for the already-conditional C1 control, without solving eigenvalues. Do
-not promote C1, select the best standalone ladder, or invent source weights.
+Nothing is in flight. NEXT is an N02 radial/convergence design gate: first determine whether an
+already-banked conditional profile and boundary can be used without postselection. No eigenvalue
+solve is authorized. Do not promote C1, select the best standalone ladder, or invent source weights.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, but its FD1-first route is
 superseded. FD2/FD3/FD4, polarization, GPU work, and physical mode populations remain gated.
 

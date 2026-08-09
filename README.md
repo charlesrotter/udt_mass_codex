@@ -12,7 +12,9 @@ window is withdrawn. Its complete-angular interpretation is now controlled by
 lift unchanged, and no metric-only population projector is selected. The completed architecture is
 `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`: it derives the stationary
 general-screen scalar operator and maps every registered family without selecting one. The bounded
-next step is the N01 C1 harmonic coupling-matrix atlas, without an eigenvalue solve.
+N01 result is `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`: exact
+conditional C1 coupling wiring, not a physical screen or spectrum. The next unlaunched gate is an
+N02 radial/convergence design; no eigenvalue solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -21,7 +23,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
+5. `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
+   `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`, then
    `udt_freedata_inventory_MAP_2026-08-09.md` and
@@ -36,6 +39,8 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
+- `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md` — bounded conditional
+  C1 fixed-`|m|`/parity coupling matrices and full radial flux; no spectrum or screen selection.
 - `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md` — current architecture:
   exact general shift/screen scalar operator, exhaustive family dispositions, and no solve or
   physical-screen selection.

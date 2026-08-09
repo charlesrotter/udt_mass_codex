@@ -60,7 +60,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 31 premise guards" in result.stdout
+    assert "PASS: 32 premise guards" in result.stdout
 
 
 def test_catch_missing_live_premise_pointer(tmp_path: Path) -> None:

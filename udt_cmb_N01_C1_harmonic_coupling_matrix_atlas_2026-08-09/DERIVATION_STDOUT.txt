@@ -1,0 +1,21 @@
+KEY K01_source_manifest: True
+KEY K02_universe_census: True
+KEY K03_element_census: True
+KEY K04_round_W_identity: True
+KEY K05_round_M_identity: True
+KEY K06_round_L_spherical: True
+KEY K07_matrix_symmetry: True
+KEY K08_parity_selection: True
+KEY K09_quadrature_convergence: True
+KEY K10_m0_H_zero: True
+KEY K11_first_derivative_reciprocal: True
+KEY K12_first_derivative_bandwidth: True
+KEY K13_sign_complete: True
+KEY K14_coupling_reach_characterized: True
+KEY K15_all_matrix_families: True
+KEY K16_all_B_controls: True
+KEY K17_no_eigensolve: True
+KEY K18_characterize_not_filter: True
+KEY K19_radial_matrix_flux_retained: True
+KEY K20_no_solve_authorized: True
+PASS: 20/20 N01 derivation keys; 15420 stored matrix elements

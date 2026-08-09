@@ -92,6 +92,18 @@ fit is authorized. Read
 `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md` before extending an axial
 mode formula to a general screen.
 
+The bounded N01 C1 coupling atlas then derives the exact fixed-`|m|`, north/south-parity Galerkin
+architecture for that already-conditional control. Its radial derivative acts on the full
+`W(B(r))` matrix flux; negative `m` shares the angular matrices while the external rotation-linear
+term retains its sign. At the round point the complete angular operator is diagonal; for `|m|>0`
+separately mixed `K` and `H` terms cancel off diagonal. First order couples only
+`Delta ell=0,2`; for every `B>0`, the complete-basis `W`, `M`, and `L` operators have no finite
+band. This is `VERIFIED-WITH-CAVEATS` conditional architecture, not a selected screen or spectrum.
+No radial/eigenvalue solve, native probe, FD2 restart, population law, polarization, data fit, or
+GPU work follows. Read
+`udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md` before using C1 coupling
+matrices.
+
 The August 5 `X_max` correction sharpens that row without selecting a formula or value. `X_max` is
 the owner-ratified `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair
 positional-dilation asymptote: finite comparisons lie below it, and approach from below must send

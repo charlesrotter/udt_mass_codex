@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** First read
+   `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected 462-row atlas
@@ -43,8 +44,11 @@ do not dump whole long files or recursively open cited evidence during orientati
    complete spherical operator; axial `m` survives only in symmetry-preserving representatives,
    and no metric-only population projector is selected. The family-atlas MAP derives the general
    stationary screen-plus-shift operator and maps 18 families plus all 2,800 axis cells without
-   selecting a screen. The next bounded question is the N01 C1 harmonic coupling-matrix atlas,
-   without an eigenvalue solve; FD2 remains unauthorized. Then read
+   selecting a screen. N01 is now complete and `VERIFIED-WITH-CAVEATS`: it derives the exact
+   conditional fixed-`|m|`/parity matrix architecture and full radial matrix flux, not a physical
+   screen or spectrum. The next unlaunched gate is an N02 radial/convergence design that must name
+   an already-banked conditional profile and boundary without postselection; no eigenvalue solve
+   is authorized and FD2 remains unauthorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
    RA2 = PARTIAL-WEAK). The x_max STRUCTURE (O1-O3) and SCALE (M1-M4) lanes are COMPLETE (verified
@@ -99,8 +103,9 @@ or promote the scalar `Box_g` atlas into native dynamics. FD2 remains gated.
 The complete-angular family-atlas MAP is an architecture/regression gate only. A general angular
 shift has an additional shift-divergence term absent from the special axial formula. Do not apply
 the axial shortcut universally, treat a family disposition as physical merit, splice conditional
-S3 controls into WR-L, promote C1 to the native screen, or interpret the N01 coupling-map design as
-authorization for an eigenvalue solve.
+S3 controls into WR-L, or promote C1 to the native screen. The N01 C1 coupling atlas is conditional
+wiring only: do not promote scalar `Box_g`, discard negative-`m` sign, call bounded matrix reach a
+spectrum, or launch N02/FD2/GPU work without a separate preregistered gate.
 
 For the 1,114 fixed-base artifact identities, use
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. Post-base additions such as the July 19 frontier and
