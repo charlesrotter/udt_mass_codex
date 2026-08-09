@@ -4,11 +4,15 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; N01 complete, N02 design gate next)
+## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; N02 admissibility complete)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is
+`udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`: no banked P1 row is a regular
+complete spherical center-to-wall anchor, although P1's SNe/observer-relation role is unchanged.
+All mixed wall strata require a free extension family at fixed finite harmonic block; D/N are not
+selected. The N02 eigensolve is blocked. Its parent wiring checkpoint is
 `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`: the bounded conditional
 C1 matrix equation retains fixed `|m|`, parity, negative-`m` sign externally, and the full radial
 matrix flux; no physical screen or spectrum is selected. Its parent architecture is
@@ -25,9 +29,11 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is an N02 radial/convergence design gate: first determine whether an
-already-banked conditional profile and boundary can be used without postselection. No eigenvalue
-solve is authorized. Do not promote C1, select the best standalone ladder, or invent source weights.
+Nothing is in flight. NEXT is a profile-role and regular-center map: distinguish the fitted
+observer-pair relation from a complete spherical profile, inventory any already-banked complete
+candidates, and otherwise map regular-center jets without selecting by spectral merit. No profile
+repair, inner cutoff, eigenvalue solve, or FD2 is authorized. Do not promote C1, select the best
+standalone ladder, or invent source weights.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, but its FD1-first route is
 superseded. FD2/FD3/FD4, polarization, GPU work, and physical mode populations remain gated.
 

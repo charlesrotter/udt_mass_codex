@@ -1,0 +1,47 @@
+{
+  "check_count": 10,
+  "checks": {
+    "V01_payload": true,
+    "V02_exact_table_universes": true,
+    "V03_independent_full_C1_center_residue": true,
+    "V04_independent_endpoint_exponents": true,
+    "V05_subcritical_wall": true,
+    "V06_source_manifest": true,
+    "V07_payload_mutations": true,
+    "V08_table_mutations": true,
+    "V09_scope": true,
+    "V10_no_physical_selection": true
+  },
+  "external_adversarial_review": "ACCEPTED_AFTER_FIVE_FAIL_CLOSED_REPAIRS__SEE_EXTERNAL_ADVERSARIAL_REVIEW.md",
+  "independent_center_residue": "-6*a",
+  "mutation_count": 23,
+  "payload_mutations": {
+    "M01_status_promotion": true,
+    "M02_profile_loss": true,
+    "M03_endpoint_loss": true,
+    "M04_R1_loss": true,
+    "M05_center_erasure": true,
+    "M06_execution_promotion": true,
+    "M07_wall_selection": true,
+    "M08_round_wall_selection": true,
+    "M09_eigensolve": true,
+    "M10_GPU": true,
+    "M11_appended_eigensolve_GPU": true,
+    "M12_appended_physical_D": true
+  },
+  "remaining_gate": "NONE_FOR_THIS_BOUNDED_ADMISSIBILITY_RESULT",
+  "table_mutations": {
+    "T01_missing_profile": true,
+    "T02_duplicate_profile": true,
+    "T03_missing_endpoint": true,
+    "T04_center_promotion": true,
+    "T05_execution_promotion": true,
+    "T06_B_stratum_loss": true,
+    "T07_round_boundary_import": true,
+    "T08_mixed_boundary_selection": true,
+    "T09_corrupt_q_exact": true,
+    "T10_redistributed_hbar_counts": true,
+    "T11_contradictory_D_N_enum": true
+  },
+  "verdict": "VERIFIED_WITH_CAVEATS"
+}

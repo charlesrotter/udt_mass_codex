@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** First read
+   `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
@@ -46,9 +47,11 @@ do not dump whole long files or recursively open cited evidence during orientati
    stationary screen-plus-shift operator and maps 18 families plus all 2,800 axis cells without
    selecting a screen. N01 is now complete and `VERIFIED-WITH-CAVEATS`: it derives the exact
    conditional fixed-`|m|`/parity matrix architecture and full radial matrix flux, not a physical
-   screen or spectrum. The next unlaunched gate is an N02 radial/convergence design that must name
-   an already-banked conditional profile and boundary without postselection; no eigenvalue solve
-   is authorized and FD2 remains unauthorized. Then read
+   screen or spectrum. N02 is complete and `VERIFIED-WITH-CAVEATS`: no banked P1 row is a regular
+   complete spherical center-to-wall anchor; this does not invalidate P1's declared relational/SNe
+   role. Mixed walls require a free extension family and D/N are not selected. The next unlaunched
+   gate is a non-postselected profile-role and regular-center map; no profile repair, inner cutoff,
+   eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
    RA2 = PARTIAL-WEAK). The x_max STRUCTURE (O1-O3) and SCALE (M1-M4) lanes are COMPLETE (verified
@@ -105,7 +108,9 @@ shift has an additional shift-divergence term absent from the special axial form
 the axial shortcut universally, treat a family disposition as physical merit, splice conditional
 S3 controls into WR-L, or promote C1 to the native screen. The N01 C1 coupling atlas is conditional
 wiring only: do not promote scalar `Box_g`, discard negative-`m` sign, call bounded matrix reach a
-spectrum, or launch N02/FD2/GPU work without a separate preregistered gate.
+spectrum, or launch FD2/GPU work without a separate preregistered gate. N02 is an admissibility
+gate only: do not invalidate P1's relational/SNe role, call `h=O(r^2)` sufficient for full
+smoothness, select D/N physically, repair P1, insert an inner cutoff, or launch an eigensolve.
 
 For the 1,114 fixed-base artifact identities, use
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. Post-base additions such as the July 19 frontier and

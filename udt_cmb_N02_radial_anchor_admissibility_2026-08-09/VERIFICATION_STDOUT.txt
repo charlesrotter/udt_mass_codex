@@ -1,0 +1,11 @@
+CHECK V01_payload: True
+CHECK V02_exact_table_universes: True
+CHECK V03_independent_full_C1_center_residue: True
+CHECK V04_independent_endpoint_exponents: True
+CHECK V05_subcritical_wall: True
+CHECK V06_source_manifest: True
+CHECK V07_payload_mutations: True
+CHECK V08_table_mutations: True
+CHECK V09_scope: True
+CHECK V10_no_physical_selection: True
+PASS: 10/10 independent checks; 23/23 mutations caught

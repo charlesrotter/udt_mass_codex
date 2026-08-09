@@ -81,10 +81,18 @@ conditional C1 scalar control, the exact fixed-`|m|`/parity matrix equation reta
 complete operator is diagonal; first order couples only `Delta ell=0,2`; for every `B>0`, `W`, `M`,
 and `L` are infinite-band in the complete basis. The preserved bounded atlas has 15,420 elements,
 120 summaries, and 36 exact first-order rows. This does not select C1, a physical `B(r)`, a radial
-boundary, or a spectrum. **NEXT GATE (not launched):** map/preregister an N02 radial/convergence
-anchor only if an already-banked conditional profile and boundary can be named without
-postselection. No eigenvalue solve is presently authorized. FD2/FD3/FD4, RA1-V, GPU work, physical
-populations, source/state weights, and polarization remain gated.
+boundary, or a spectrum.
+
+**N02 RADIAL-ANCHOR ADMISSIBILITY — COMPLETE, `VERIFIED-WITH-CAVEATS`.** Controlling report:
+`udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`. No already-banked P1 profile
+is a regular complete C1/C2 center-to-wall anchor: the full spherical center has
+`RicciScalar~6n/r`. This does not invalidate P1 in its declared SNe/observer-relation role. At fixed
+finite harmonic block, all 21 nonzero-mixing wall strata are finite-distance limit-circle and
+require a free extension family; D/N are unselected controls. The three round controls are
+infinite-distance limit-point. Therefore the proposed N02 eigensolve is BLOCKED. **NEXT GATE (not
+launched):** a non-postselected profile-role and regular-center map; no profile repair or inner
+cutoff is authorized. No eigenvalue solve is presently authorized. FD2/FD3/FD4, RA1-V, GPU work,
+physical populations, source/state weights, and polarization remain gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
 
 ### THE LINEAGE (how the arc got here — a new instance reads these to understand the foundation)
@@ -138,6 +146,7 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
+`udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md` →

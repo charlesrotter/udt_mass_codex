@@ -46,10 +46,17 @@ round/axial/nonaxisymmetric basis tiers without choosing a physical screen.
 C1 architecture preserves fixed `|m|` and parity, retains negative-`m` sign externally, and keeps
 the full radial matrix flux. Its round limit and first-order bandwidth are exact; the finite-B
 complete-basis operator is not finite-band. The 15,420-row bounded atlas is wiring, not a spectrum.
-**NEXT GATE, not launched:** an N02 radial/convergence design must first identify an already-banked
-conditional profile and boundary without postselection. No eigenvalue solve is authorized. C1
-remains unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and
-polarization remain gated. The parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.
+
+**N02 RADIAL-ANCHOR ADMISSIBILITY = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`. Every banked P1 row fails as
+a regular complete spherical center-to-wall C1/C2 anchor because its full center has a curvature
+cusp. P1's declared SNe/observer-relation role is unchanged. All 21 mixed wall strata are
+finite-block limit-circle with a free extension family; D/N are unselected controls. The three
+round controls are infinite-distance limit-point. The N02 eigensolve is therefore blocked.
+**NEXT GATE, not launched:** map complete-profile roles and regular-center jets without repairing
+P1, postselecting a profile, or adding an inner cutoff. C1 remains unselected; FD2/FD3/FD4, RA1-V,
+GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu is
+`udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:
 DESI LCDM-free feature detected + audited; BOSS out-of-sample (single-ruler FAILS 0/9, F-RETRO

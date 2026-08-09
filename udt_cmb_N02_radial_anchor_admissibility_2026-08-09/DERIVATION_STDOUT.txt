@@ -1,0 +1,21 @@
+KEY K01_source_manifest: True
+KEY K02_full_C1_center_residue: True
+KEY K03_exact_profile_strata_census: True
+KEY K04_exact_endpoint_census: True
+KEY K05_R1_represents_all_210_profiles: True
+KEY K06_all_registered_nonzero_B_wall_infinite: True
+KEY K07_all_registered_q_below_qcrit: True
+KEY K08_all_nonzero_wall_lengths_finite: True
+KEY K09_all_angular_terms_sub_inverse_square: True
+KEY K10_all_rotation_terms_sub_inverse_square: True
+KEY K11_round_wall_limit_point: True
+KEY K12_nonzero_wall_extension_family: True
+KEY K13_R1_mixing_center_order_passes: True
+KEY K14_RA1_literal_center_fails: True
+KEY K15_all_P1_complete_centers_fail: True
+KEY K16_no_profile_postselection: True
+KEY K17_D_N_never_physical_selection: True
+KEY K18_no_eigensolver: True
+KEY K19_no_observational_merit_filter: True
+KEY K20_no_execution_authorized: True
+PASS: 20/20 N02 admissibility keys; 45 profile strata; 24 endpoint strata

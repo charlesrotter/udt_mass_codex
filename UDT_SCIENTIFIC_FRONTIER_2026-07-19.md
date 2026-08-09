@@ -4,6 +4,17 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 9 N02 radial-anchor admissibility precedence notice
+
+Before promoting a fitted P1 observer relation into a complete spherical C1/C2 radial profile or
+starting an eigensolve, read
+`udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`. No banked P1 row is a regular
+complete center-to-wall anchor because its full spherical center has a curvature cusp. This does
+not invalidate P1's declared SNe/observer-relation role. The registered mixed walls are
+finite-block limit-circle and require a free extension family; D/N are unselected controls. The
+round controls are infinite-distance limit-point. No profile repair, inner cutoff, eigensolve,
+FD2, fit, population law, polarization result, or GPU work follows.
+
 ## August 9 N01 C1 coupling-atlas precedence notice
 
 Before using a C1 harmonic formula or starting a spectrum calculation, read

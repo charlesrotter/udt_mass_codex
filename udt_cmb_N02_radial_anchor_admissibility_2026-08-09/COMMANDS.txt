@@ -1,0 +1,6 @@
+python3 udt_cmb_N02_radial_anchor_admissibility_2026-08-09/derive_n02_admissibility.py
+python3 udt_cmb_N02_radial_anchor_admissibility_2026-08-09/verify_n02_admissibility.py
+python3 verify_current_scientific_premises.py
+python3 -m pytest tests/ -q
+python3 udt_cmb_N02_radial_anchor_admissibility_2026-08-09/run_and_capture.py
+python3 udt_cmb_N02_radial_anchor_admissibility_2026-08-09/build_manifest.py

@@ -91,6 +91,7 @@ def validate_startup_surface(root: Path) -> None:
             "CMB PEAK OPTIMIZATION",
             "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
             "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
             "udt_freedata_inventory_MAP_2026-08-09.md",
@@ -129,6 +130,7 @@ def validate_startup_surface(root: Path) -> None:
             "CMB PEAK OPTIMIZATION",
             "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
             "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
             "udt_freedata_inventory_MAP_2026-08-09.md",
@@ -150,6 +152,7 @@ def validate_startup_surface(root: Path) -> None:
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
         "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
+        "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
         "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
         "udt_freedata_inventory_MAP_2026-08-09.md",
@@ -163,9 +166,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 32, "premise registry must contain exactly 32 rows")
+    require(len(rows) == 33, "premise registry must contain exactly 33 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 32, "duplicate premise id")
+    require(len(by_id) == 33, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -323,6 +326,25 @@ def main() -> None:
         == "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
         "N01 coupling source changed",
     )
+    require(
+        by_id["G33"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__NO_BANKED_P1_REGULAR_COMPLETE_C1_C2_CENTER_TO_WALL_ANCHOR__NO_EIGENSOLVE",
+        "N02 admissibility status regressed or promoted",
+    )
+    require(by_id["G33"]["epistemic_label"] == "MIXED", "N02 admissibility label changed")
+    require(
+        by_id["G33"]["active_use"] == "RADIAL_ADMISSIBILITY_AND_REGRESSION_GATE_ONLY",
+        "N02 admissibility use promoted",
+    )
+    require("regular complete profile" in by_id["G33"]["open_scope"], "N02 regular profile promoted")
+    require("P1 relational or SNe role called invalid" in by_id["G33"]["forbidden_regression"], "N02 P1 role guard absent")
+    require("D or N called physically selected" in by_id["G33"]["forbidden_regression"], "N02 boundary guard absent")
+    require("N02 eigensolve" in by_id["G33"]["forbidden_regression"], "N02 execution guard absent")
+    require(
+        by_id["G33"]["controlling_source"]
+        == "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
+        "N02 admissibility source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -395,7 +417,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 32 premise guards, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 33 premise guards, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

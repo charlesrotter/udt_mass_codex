@@ -104,6 +104,18 @@ GPU work follows. Read
 `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md` before using C1 coupling
 matrices.
 
+The N02 radial-anchor admissibility gate then tests every already-banked P1 control before any
+eigensolve. In the complete conditional spherical C1 metric, `A=1+a r+...` with regular-order
+`h=O(r^2)` gives `lim r RicciScalar=-6a`; P1 has `a=-n`, so every registered P1 profile has a
+full-spherical center curvature cusp. This does not invalidate P1 in its declared SNe/observer-
+relation role. At the opposite endpoint, every registered nonzero-mixing stratum is finite-distance
+limit-circle at fixed finite harmonic block and needs a free extension family; D/N are unselected
+controls. The round controls are infinite-distance limit-point. Therefore no banked P1 row is a
+regular complete center-to-wall C1/C2 anchor and no N02 eigensolve follows. The next open gate is a
+non-postselected profile-role and regular-center map. Read
+`udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md` before reusing P1 as a complete
+spherical radial profile or selecting a wall condition.
+
 The August 5 `X_max` correction sharpens that row without selecting a formula or value. `X_max` is
 the owner-ratified `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair
 positional-dilation asymptote: finite comparisons lie below it, and approach from below must send

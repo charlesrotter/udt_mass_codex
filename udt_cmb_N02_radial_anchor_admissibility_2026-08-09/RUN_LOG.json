@@ -1,0 +1,45 @@
+[
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_cmb_N02_radial_anchor_admissibility_2026-08-09/derive_n02_admissibility.py"
+    ],
+    "exit_code": 0,
+    "name": "derivation",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "77b64294a8e82753e021bfaaacd1b51589fe6147e367e703e3a9d51a9c6da95d"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_cmb_N02_radial_anchor_admissibility_2026-08-09/verify_n02_admissibility.py"
+    ],
+    "exit_code": 0,
+    "name": "verification",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "16a7f7e578f4dcd3e282fcdec2dd1f2047587eca04b5e8a59db2ff662f2707d4"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py"
+    ],
+    "exit_code": 0,
+    "name": "premise_gate",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "a3ba838d629ff7d796a4607e7c6dc512d119358175274b77d3bd00a80f759dac"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "-m",
+      "pytest",
+      "tests/",
+      "-q"
+    ],
+    "exit_code": 0,
+    "name": "pytest",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "f28ea9fdf931e8fd67018b607334cc8fd69786d372539c7db8195aad76c23dfa"
+  }
+]

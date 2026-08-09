@@ -1,0 +1,11 @@
+{
+  "derivation": "PASS_20_OF_20",
+  "external_adversarial_review": "ACCEPTED_AFTER_FIVE_FAIL_CLOSED_REPAIRS",
+  "local_independent_mutations": "PASS_23_OF_23",
+  "local_independent_verification": "PASS_10_OF_10",
+  "premise_guards": "PASS_33_OF_33",
+  "protected_curvature_atlas_modified": false,
+  "pytest": "PASS_82_XFAIL_1",
+  "source_manifest_replay": "PASS",
+  "scientific_artifact_deletions": 0
+}

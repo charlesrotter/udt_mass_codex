@@ -29,9 +29,14 @@ atomic families plus all 2,800 preregistered axis cells without physical selecti
 **N01 C1 harmonic coupling-matrix atlas** is now complete and `VERIFIED-WITH-CAVEATS`:
 `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`. It derives the exact
 conditional fixed-`|m|`/parity matrix architecture and complete radial matrix flux, not a physical
-screen or spectrum. The next unlaunched gate is an N02 radial/convergence design that must name an
-already-banked conditional profile and boundary without postselection; no eigenvalue solve or FD2
-restart is authorized.
+screen or spectrum. The **N02 radial-anchor admissibility gate** is now complete and
+`VERIFIED-WITH-CAVEATS`:
+`udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`. No banked P1 row is a regular
+complete spherical center-to-wall C1/C2 anchor; this does not invalidate P1's declared SNe/
+observer-relation role. All mixed wall strata require a free extension family at fixed finite
+harmonic block, while the round controls are limit-point. The N02 eigensolve is blocked. The next
+unlaunched gate is a non-postselected profile-role and regular-center map; no profile repair, inner
+cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane

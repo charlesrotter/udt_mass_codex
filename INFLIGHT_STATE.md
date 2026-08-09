@@ -2,6 +2,7 @@
 
 > **2026-08-09 STATUS (RESTART ANCHOR): NOTHING IN FLIGHT — clean stop.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-09) FIRST, then
+> `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
 > `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
 > `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
 > `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then the corrected FD1
@@ -10,8 +11,10 @@
 > selected. The complete-angular family MAP is complete: exact stationary general-screen operator,
 > 18 families, and 2,800 axis cells, with no physical screen selected. N01 is complete and
 > `VERIFIED-WITH-CAVEATS`: exact conditional fixed-`|m|`/parity matrix wiring, no physical screen or
-> spectrum. NEXT GATE = preregister an N02 radial/convergence design only if an already-banked
-> conditional profile and boundary survive a non-postselection audit; no eigenvalue solve or FD2;
+> spectrum. N02 is complete and `VERIFIED-WITH-CAVEATS`: no banked P1 row is a regular complete
+> spherical anchor; P1's relational/SNe role survives, and mixed-wall D/N remain unselected.
+> NEXT GATE = a non-postselected profile-role and regular-center map; no profile repair, inner
+> cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build
 > = a broadband-clustered fair mock, NOT run = post-hoc F-RETRO). Foundation to build forward from:
@@ -22,6 +25,7 @@
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
 topmost block (2026-08-09), then
+`udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`,
 `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`,
 `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`,
 `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`,
