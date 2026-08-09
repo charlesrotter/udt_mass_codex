@@ -1,13 +1,26 @@
 # Current UDT research program
 
-Date: 2026-08-05 (updated 2026-08-06 — see FRONTIER UPDATE below)
+Date: 2026-08-05 (updated 2026-08-06; **STALE-BANNERED 2026-08-09 — see the top banner**)
 
 Authority: active scientific navigation and dependency spine; not `CANON.md`
 
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-## FRONTIER UPDATE (2026-08-06 — supersedes the 08-05 framing below on the c_eff/x_max points)
+## ⚠ FRONTIER SUPERSEDED (2026-08-09) — READ LIVE.md's 2026-08-09 BLOCK FOR THE ACTIVE ARC
+
+The "FRONTIER UPDATE (2026-08-06)" and everything below it describe the 08-06 state (x_max
+pair-question, "O1 pending") and are **STALE as status**. Since then, ON `grok`: the x_max
+STRUCTURE lane (O1-O3) and SCALE lane (M1-M4) COMPLETED (verified leads; SNe fit R_w~2.2 Gpc,
+n~1.056, M_total~1e53 kg); the BAO-origin arc (D1/D2 courier theorems, D3 no-native-amount, the
+closed 5-origin matrix) and the full BAO data reckoning (M3/M3-AUDIT/M3b-BOSS/M3c/M3d) ran and
+the BAO lane is now BANKED + TABLED; and the ACTIVE ARC is **CMB PEAK OPTIMIZATION** (Road A: RA1
+mu-on modes + RA2 projection = PARTIAL-WEAK; next = the FREE-DATA INVENTORY AUDIT
+`udt_freedata_inventory_MAP_2026-08-09.md`). The scientific SPINE below (phi+orchestra, c_eff, the
+mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane
+framing is superseded. Authority order: LIVE.md 2026-08-09 block > this banner > everything below.
+
+## FRONTIER UPDATE (2026-08-06 — SUPERSEDED 2026-08-09; historical) — the 08-05 framing on c_eff/x_max
 
 The 08-05 statements below STAND as banked structure; this update states the current FRONTIER LINE
 and the active lane so a fresh session builds FORWARD (LIVE.md topmost is the authority).

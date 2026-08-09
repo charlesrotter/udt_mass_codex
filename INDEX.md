@@ -9,11 +9,13 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-5a. FRONTIER (2026-08-06): `udt_xmax_pair_question_MAP_2026-08-06.md` (active lane, O1 pending) and
-   `udt_ceff_depth_orchestra_integration_2026-08-06.md` (the c_eff reframe). Assembly lane is
-   ARCHIVED-LEGACY; build forward.
-6. For current pair-depth/orchestra work, read
-   `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md`.
+5a. ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION. Read `udt_freedata_inventory_MAP_2026-08-09.md`
+   (the active next step; catch-points owed) and `udt_roadA_mode_quantization_MAP_2026-08-08.md`
+   with the RA1/RA2 packages (the native resonator). The x_max structure (O1-O3) + scale (M1-M4)
+   lanes are COMPLETE; the BAO lane is BANKED + TABLED; the Assembly lane stays ARCHIVED-LEGACY.
+   Build forward. (LIVE's 2026-08-09 block is the authority; its lineage §1-6 routes the foundation.)
+6. For foundation detail, read the lineage docs LIVE cites (phi+orchestra
+   `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md`; the c_eff reframe; RA1/RA2).
 7. Open only the remaining current audits and load-bearing evidence routed by those controls.
 8. Apply the task-triggered method in `CLAUDE.md` and `.claude/skills/`.
 
