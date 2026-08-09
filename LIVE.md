@@ -14,6 +14,17 @@ binding: CLAUDE.md (MAP/OBSERVE/PONDER before DERIVE; lay language with Charles;
 without his per-step go; every result gets prereg + 2 blind reviews + the four-check; verified-LEAD
 is the same-session ceiling, the external-review bar still travels on everything below).
 
+**CURRENT GUARDS:** resolve every high-risk term through `CURRENT_SCIENTIFIC_PREMISES.tsv`; a
+disagreement between this block, that registry, and a cited controlling source is a mandatory stop.
+On this workstation, `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` may appear as
+83 protected untracked paths. It is local work product, not current authority and not pushed to
+`grok`; a clean clone may not contain it. Do not stage, modify, delete, mine, or cite it without an
+explicit later dispatch.
+`X_max` semantics remain controlled by
+`udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`: it is the working
+observer-pair positional-dilation asymptote, not a material wall, preferred center, radial edge,
+finite-cell seal, or boundary term.
+
 ### THE ACTIVE ARC — CMB PEAK OPTIMIZATION (Charles's CMB-first strategy)
 
 The strategy (Charles): resolve the CMB acoustic-peak structure NATIVELY from the x_max /
@@ -122,4 +133,3 @@ AGENTS.md sync sequence. Everything below is prior-session history.
 **PRIOR-SESSION HISTORY (2026-08-05 .. 08-08) — archived** to `archive/live_history_pre_2026-08-09.md` (verbatim; detail-only, not status). The 2026-08-09 block above is the whole current picture; the lineage docs it cites are the authority for foundation detail.
 
 <!-- STARTUP_CURRENT_END -->
-

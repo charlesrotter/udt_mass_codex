@@ -6,12 +6,17 @@ record. Root `LIVE.md` wins every status disagreement.
 ## Current route
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
-`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The current complete-pair
-orientation result is `../udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md`:
-angular/mixing can modulate one A-to-B depth inside the complete comparison, exact reciprocal depth
-has a groupoid-cocycle home, and the physical cocycle remains open.
+`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
+**CMB PEAK OPTIMIZATION**: read `../udt_freedata_inventory_MAP_2026-08-09.md`, then
+`../udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages. RA1 is a scoped
+verified lead; RA2 is `RA2-PARTIAL-WEAK`, not a prediction. The BAO lane is `BANKED + TABLED`.
 
-The current law-order parent remains
+The complete-pair lineage result is
+`../udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md`: angular/mixing can modulate
+one A-to-B depth inside the complete comparison, exact reciprocal depth has a groupoid-cocycle
+home, and the physical cocycle remains open.
+
+The law-order lineage parent remains
 `../udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md`: law/variation ownership,
 admitted complete solutions, source/mass roles, and bootstrap's missing return form one ordered
 closure chain. Response-first is a working test priority, not a derived law; action-first remains

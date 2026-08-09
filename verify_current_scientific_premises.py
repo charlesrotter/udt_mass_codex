@@ -9,6 +9,39 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
+PREMISE_REGISTRY_CONTROLS = (
+    "AGENTS.md",
+    "LIVE.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "README.md",
+    "research/README.md",
+    "research/_registry/README.md",
+    "MEMORY.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+)
+
+PROTECTED_ATLAS_CONTROLS = (
+    "AGENTS.md",
+    "LIVE.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "README.md",
+    "MEMORY.md",
+)
+
+CURRENT_ROUTE_CONTROLS = (
+    "AGENTS.md",
+    "LIVE.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "README.md",
+    "research/README.md",
+    "MEMORY.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "INFLIGHT_STATE.md",
+)
+
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
@@ -18,6 +51,95 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 def require(condition: bool, message: str) -> None:
     if not condition:
         raise SystemExit(message)
+
+
+def marked_current_block(path: Path) -> str:
+    """Return the bounded startup block; fail closed on missing or duplicate markers."""
+    text = path.read_text(encoding="utf-8")
+    begin = "<!-- STARTUP_CURRENT_BEGIN -->"
+    end = "<!-- STARTUP_CURRENT_END -->"
+    require(text.count(begin) == 1, f"current-block begin marker count: {path.name}")
+    require(text.count(end) == 1, f"current-block end marker count: {path.name}")
+    start = text.index(begin) + len(begin)
+    stop = text.index(end, start)
+    return text[start:stop]
+
+
+def validate_startup_surface(root: Path) -> None:
+    """Validate current routing separately from the historical bodies of startup files."""
+    controls: dict[str, str] = {}
+    for relative in set(PREMISE_REGISTRY_CONTROLS + PROTECTED_ATLAS_CONTROLS + CURRENT_ROUTE_CONTROLS):
+        path = root / relative
+        require(path.is_file(), f"missing startup control: {relative}")
+        controls[relative] = path.read_text(encoding="utf-8")
+
+    for control in PREMISE_REGISTRY_CONTROLS:
+        require(
+            "CURRENT_SCIENTIFIC_PREMISES.tsv" in controls[control],
+            f"control lacks premise registry: {control}",
+        )
+
+    live = marked_current_block(root / "LIVE.md")
+    handoff = marked_current_block(root / "HANDOFF.md")
+    for name, block in (("LIVE.md", live), ("HANDOFF.md", handoff)):
+        flat_block = " ".join(block.split())
+        require(
+            "CURRENT_SCIENTIFIC_PREMISES.tsv" in block,
+            f"marked current block lacks premise registry: {name}",
+        )
+        for token in (
+            "CMB PEAK OPTIMIZATION",
+            "udt_freedata_inventory_MAP_2026-08-09.md",
+            "RA2-PARTIAL-WEAK",
+            "BANKED + TABLED",
+            "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
+            "positional-dilation asymptote",
+        ):
+            require(token in flat_block, f"marked current block lacks {token}: {name}")
+        lowered = block.lower()
+        require("o1 pending" not in lowered, f"stale x_max O1 route in marked current block: {name}")
+        require(
+            "global cell assembly lane is active" not in lowered,
+            f"stale Global Cell Assembly route in marked current block: {name}",
+        )
+        if "Global Cell Assembly" in block:
+            require("ARCHIVED-LEGACY" in block, f"Global Cell Assembly not archive-stamped: {name}")
+
+    protected_atlas = "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/"
+    for name, block in (("LIVE.md", live), ("HANDOFF.md", handoff)):
+        for token in (protected_atlas, "83 protected untracked", "explicit later dispatch"):
+            require(token in block, f"marked current block lacks protected-atlas guard {token}: {name}")
+
+    for control in PROTECTED_ATLAS_CONTROLS:
+        text = controls[control]
+        for token in (protected_atlas, "83 protected untracked", "explicit later dispatch"):
+            require(token in text, f"control lacks protected-atlas guard {token}: {control}")
+
+    for control in CURRENT_ROUTE_CONTROLS:
+        text = " ".join(controls[control].replace("\n> ", "\n").split())
+        for token in ("CMB PEAK OPTIMIZATION", "udt_freedata_inventory_MAP_2026-08-09.md"):
+            require(token in text, f"current route lacks {token}: {control}")
+
+    for control in ("README.md", "research/README.md", "MEMORY.md"):
+        text = controls[control]
+        require("RA2-PARTIAL-WEAK" in text, f"current route loses RA2 grade: {control}")
+        require("BANKED + TABLED" in text, f"current route loses BAO status: {control}")
+
+    memory_top = " ".join(controls["MEMORY.md"].split("## Historical memory archive", 1)[0].split())
+    require("2026-08-09" in memory_top, "MEMORY top pointer is not August 9 current")
+    require("CMB PEAK OPTIMIZATION" in memory_top, "MEMORY top pointer is stale")
+    require("RA2-PARTIAL-WEAK" in memory_top, "MEMORY top pointer loses RA2 grade")
+
+    for relative in (
+        "CURRENT_SCIENTIFIC_PREMISES.md",
+        "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_freedata_inventory_MAP_2026-08-09.md",
+        "udt_roadA_mode_quantization_MAP_2026-08-08.md",
+        "udt_roadA_RA1_muon_modes_2026-08-08/DERIVATION_NOTES.md",
+        "udt_roadA_RA2_projection_2026-08-08/DERIVATION_NOTES.md",
+        "udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md",
+    ):
+        require((root / relative).is_file(), f"current startup target missing: {relative}")
 
 
 def main() -> None:
@@ -133,20 +255,7 @@ def main() -> None:
     for source in expected_sources:
         require((ROOT / source).is_file(), f"missing controlling source: {source}")
 
-    controls = [
-        "AGENTS.md",
-        "LIVE.md",
-        "HANDOFF.md",
-        "INDEX.md",
-        "README.md",
-        "research/README.md",
-        "research/_registry/README.md",
-        "MEMORY.md",
-        "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
-    ]
-    for control in controls:
-        text = (ROOT / control).read_text(encoding="utf-8")
-        require("CURRENT_SCIENTIFIC_PREMISES.tsv" in text, f"control lacks premise registry: {control}")
+    validate_startup_surface(ROOT)
 
     agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
     for token in [
@@ -178,21 +287,6 @@ def main() -> None:
         require(xmax_source in text, f"control lacks Xmax correction: {control}")
         require("positional-dilation asymptote" in text, f"control lacks Xmax limiting meaning: {control}")
 
-    protected_atlas_controls = [
-        "AGENTS.md",
-        "LIVE.md",
-        "HANDOFF.md",
-        "INDEX.md",
-        "README.md",
-        "MEMORY.md",
-    ]
-    protected_atlas = "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/"
-    for control in protected_atlas_controls:
-        text = (ROOT / control).read_text(encoding="utf-8")
-        require(protected_atlas in text, f"control lacks protected atlas note: {control}")
-        require("83 protected untracked" in text, f"control lacks protected atlas count: {control}")
-        require("explicit later dispatch" in text, f"control lacks protected atlas authorization boundary: {control}")
-
     adjudication = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/ACTIVE_SEMANTIC_ADJUDICATION.tsv"
     )
@@ -208,7 +302,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 28 premise guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, protected atlas note, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 28 premise guards, current CMB/free-data routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

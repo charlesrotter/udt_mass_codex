@@ -6,6 +6,16 @@
 >
 > **⚠ BRANCH: `grok` (2026-08-09).** Synchronize it before orientation.
 
+**CURRENT GUARDS:** use `CURRENT_SCIENTIFIC_PREMISES.tsv` for high-risk premise status and stop on
+any conflict with LIVE or a cited controlling source. This workstation may contain
+`udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` as 83 protected untracked paths;
+they are local, not current authority, and not pushed. Do not stage, modify, delete, mine, or cite
+them without an explicit later dispatch; a clean clone may not contain them.
+`X_max` semantics remain controlled by
+`udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`: it is the working
+observer-pair positional-dilation asymptote, not a material wall, preferred center, radial edge,
+finite-cell seal, or boundary term.
+
 ## RESTART ANCHOR (2026-08-09) — READ LIVE.md TOPMOST FIRST
 
 **ACTIVE ARC = CMB PEAK OPTIMIZATION** (Charles's CMB-first strategy: resolve the acoustic-peak
@@ -14,7 +24,7 @@ the resonance structure of the observer-relation at the wall-asymptote (owner on
 physics" was a corrected import). Banked so far (verified LEADs): **RA1** (the mu-ON mode problem —
 the wall quantizes into a mapped ladder region-union, all-but-n<1 MIXING-CREATED, the chiral wedge
 intrinsically quantized) and **RA2** (the ladder projects to a Weyl comb; a 2-parameter fit lands
-Planck's 7 TT peaks at 1-3% — but deflated to PARTIAL-WEAK: generic-cavity comb, conditional on
+Planck's 7 TT peaks at 1-3% — but deflated to `RA2-PARTIAL-WEAK`: generic-cavity comb, conditional on
 m~0 dominance). **NEXT = the FREE-DATA INVENTORY AUDIT** (`udt_freedata_inventory_MAP_2026-08-09.md`,
 map done, catch-points owed): FD1 (mixing-amplitude bound + sweet-spot) -> FD2 (profile-perturbation
 inversion, unlocks sub-percent) -> FD3 (field-statistics + naturalness) -> FD4 (the precision anchor:
@@ -49,4 +59,3 @@ All prior handoff layers formerly embedded below the current marker are preserve
 [`archive/startup_orientation_history_2026-08-05/HANDOFF.pre_cleanup.md`](archive/startup_orientation_history_2026-08-05/HANDOFF.pre_cleanup.md).
 They are not resume authority. Current premise status is machine-readable in
 `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-
