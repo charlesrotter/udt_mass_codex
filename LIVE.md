@@ -65,13 +65,20 @@ not lift as full-angular modes. At `h=0`, `SO(3)` multiplets are fixed-`ell` fam
 equal-index FD1 rows. Admitted general screens can break axial symmetry, so no universal `m` label
 or metric-only population projector is selected.
 
-**NEXT BOUNDED MAP — COMPLETE-ANGULAR FAMILY ATLAS DESIGN (not launched).** Inventory a
-non-postselected ensemble of complete angular representatives and the coupled bases needed to
-characterize all of their mode families before solving any one of them. C1 may be one conditional
-representative, never the answer by assumption. The map must keep screen area, both shears,
-mixing, symmetry class, center/pole regularity, wall realization, and all coupled labels visible.
-Do not fit CMB data or solve a preferred ladder. FD2/FD3/FD4, RA1-V, GPU work, and source/state
-weights remain gated. `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
+**COMPLETE-ANGULAR FAMILY ATLAS DESIGN MAP — COMPLETE,
+`VERIFIED-DESIGN-MAP-WITH-CAVEATS`.** Controlling report:
+`udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`. The exact stationary
+general-screen scalar operator has an additional shift-divergence term that vanishes only in
+special axial cases. The non-postselected architecture contains 18 atomic families, exact C01-C18
+routing, all 2,800 preregistered axis cells, and three computational tiers: round `SO(3)` ODEs,
+axial `U(1)` fixed-`m` coupled-ell problems, and nonaxisymmetric full angular problems where `m`
+also mixes. This is architecture, not a selected physical screen or spectrum.
+
+**NEXT BOUNDED TILE — N01 C1 HARMONIC COUPLING-MATRIX ATLAS (not launched).** Derive the exact
+angular coupling blocks for the already-conditional C1 control, at fixed `m` and parity, without an
+eigenvalue solve or data comparison. C1 remains a regression/control representative, never the
+answer by assumption. FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights,
+and polarization remain gated. `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
 
 ### THE LINEAGE (how the arc got here — a new instance reads these to understand the foundation)
 
@@ -124,9 +131,10 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
+`udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md` →
-`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` → the complete-angular family
-atlas MAP named above → `udt_freedata_inventory_MAP_2026-08-09.md` as the parent menu →
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` →
+`udt_freedata_inventory_MAP_2026-08-09.md` as the parent menu →
 `udt_roadA_mode_quantization_MAP_2026-08-08.md` + RA1/RA2 CONSOLIDATED (the
 resonator) → the LINEAGE docs 1-6 above → CANON.md (C-2026-08-06-1/-2). Then AGENTS.md sync
 sequence. Everything below is prior-session history.

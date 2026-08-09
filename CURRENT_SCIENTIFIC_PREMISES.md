@@ -79,6 +79,19 @@ lift, source/state weights, observer-pair response, polarization, and FD2 remain
 `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md` before interpreting any
 equatorial spectrum physically.
 
+The subsequent complete-angular family-atlas MAP derives the exact stationary scalar operator for
+the chosen general positive-screen plus angular-shift envelope. A general shift contributes the
+additional zero-order frequency term
+`-i omega S^-1 partial_A(S v^A/Lambda)u`; it vanishes only in special divergence-free cases. The
+architecture therefore separates round `SO(3)` radial families, axial `U(1)` fixed-`m` coupled-ell
+families, and fully nonaxisymmetric families that mix both angular labels. All 18 registered
+controls route exactly once and all 2,800 preregistered axis cells have a non-merit disposition.
+This is a `VERIFIED_DESIGN_MAP_WITH_CAVEATS`, not a selected physical screen or a spectrum. C1
+remains a conditional control; no eigenvalue solve, FD2 restart, GPU work, population law, or CMB
+fit is authorized. Read
+`udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md` before extending an axial
+mode formula to a general screen.
+
 The August 5 `X_max` correction sharpens that row without selecting a formula or value. `X_max` is
 the owner-ratified `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair
 positional-dilation asymptote: finite comparisons lie below it, and approach from below must send

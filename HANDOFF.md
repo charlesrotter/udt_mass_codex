@@ -34,10 +34,17 @@ lift unchanged: the clean spherical lift has an extra radial volume factor and a
 fixed-`ell`, not equal-index FD1 rows. General screens can break axial symmetry. A symmetry
 projector decomposes modes but does not supply physical populations.
 
-**NEXT = COMPLETE-ANGULAR FAMILY ATLAS DESIGN MAP, not launched.** Carry a non-postselected ensemble
-of screen area/shear/mixing/symmetry representatives and design the coupled basis before solving a
-preferred case. C1 is conditional, not selected. FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, and
-physical mode populations remain gated. The parent menu is
+**COMPLETE-ANGULAR FAMILY ATLAS DESIGN MAP = COMPLETE,
+`VERIFIED-DESIGN-MAP-WITH-CAVEATS`.** Read
+`udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`. The general stationary
+screen-plus-shift scalar operator contains an extra shift-divergence term absent from a naive axial
+copy. The map retains 18 atomic families, all C01-C18 controls, all 2,800 five-axis cells, and the
+round/axial/nonaxisymmetric basis tiers without choosing a physical screen.
+
+**NEXT = N01 C1 HARMONIC COUPLING-MATRIX ATLAS, not launched.** This is a bounded CPU algebra tile
+for the already-conditional C1 control: map exact fixed-`m`/parity coupling blocks, no eigenvalue
+solve and no data comparison. C1 remains unselected. FD2/FD3/FD4, RA1-V, GPU work, CMB fitting,
+physical populations, and polarization remain gated. The parent menu is
 `udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:

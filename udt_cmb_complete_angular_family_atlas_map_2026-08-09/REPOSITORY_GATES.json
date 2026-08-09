@@ -1,0 +1,10 @@
+{
+  "axis_cross_product": "2800/2800 uniquely dispositioned",
+  "complete_angular_family_derivation": "27/27",
+  "independent_mutations": "13/13",
+  "independent_verification": "26/26",
+  "premise_guards": "31/31",
+  "protected_curvature_atlas_modified": false,
+  "pytest": "81 passed, 1 xfailed",
+  "scientific_artifact_deletions": 0
+}

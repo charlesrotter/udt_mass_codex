@@ -4,6 +4,15 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 9 complete-angular family-atlas precedence notice
+
+Before extending any equatorial or axial scalar mode formula, read
+`udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`. The verified design MAP
+derives the stationary general-screen operator, including a shift-divergence term absent from the
+special axial shortcut, and disposition-maps all registered families without selecting a physical
+screen. No eigenvalue solve, FD2 restart, GPU work, population law, polarization result, or CMB
+prediction follows. The next bounded N01 coupling-matrix tile remains unlaunched.
+
 ## August 5 complete-pair phi/orchestra precedence notice
 
 Before reusing older observer-pair, angular-distance, or pointwise-`phi` counterexamples, read

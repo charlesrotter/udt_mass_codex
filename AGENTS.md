@@ -35,13 +35,16 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** First read
+   `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected 462-row atlas
    has three interleaved equatorial ladders, and the old same-index `OPEN-COMPATIBILITY-WINDOW` is
    WITHDRAWN. The ownership audit proves that those roots do not lift unchanged into the conditional
    complete spherical operator; axial `m` survives only in symmetry-preserving representatives,
-   and no metric-only population projector is selected. The next bounded question is a
-   complete-angular family-atlas design MAP; FD2 remains unauthorized. Then read
+   and no metric-only population projector is selected. The family-atlas MAP derives the general
+   stationary screen-plus-shift operator and maps 18 families plus all 2,800 axis cells without
+   selecting a screen. The next bounded question is the N01 C1 harmonic coupling-matrix atlas,
+   without an eigenvalue solve; FD2 remains unauthorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
    RA2 = PARTIAL-WEAK). The x_max STRUCTURE (O1-O3) and SCALE (M1-M4) lanes are COMPLETE (verified
@@ -92,6 +95,12 @@ multiplet; admitted screens may lack any axial `m`; symmetry projection is not p
 weighting. Do not call an equal-index `m=-1,0,+1` bookkeeping triple a physical multiplet,
 postselect the best standalone ladder, assume `m=0` dominance, promote the chosen C1 lift to native,
 or promote the scalar `Box_g` atlas into native dynamics. FD2 remains gated.
+
+The complete-angular family-atlas MAP is an architecture/regression gate only. A general angular
+shift has an additional shift-divergence term absent from the special axial formula. Do not apply
+the axial shortcut universally, treat a family disposition as physical merit, splice conditional
+S3 controls into WR-L, promote C1 to the native screen, or interpret the N01 coupling-map design as
+authorization for an eigenvalue solve.
 
 For the 1,114 fixed-base artifact identities, use
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. Post-base additions such as the July 19 frontier and

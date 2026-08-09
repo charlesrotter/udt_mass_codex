@@ -21,8 +21,13 @@ interleaved equatorial ladders and withdraws the old same-index `OPEN-COMPATIBIL
 mode-family ownership / complete-angular projection audit is also COMPLETE and
 `VERIFIED-WITH-CAVEATS`: `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`.
 It proves the equatorial roots do not lift unchanged, derives conditional axial `m` ownership in
-the chosen spherical representative, and finds no metric-only population projector. The next
-bounded question is a **complete-angular family-atlas design MAP**, before any FD2 restart.
+the chosen spherical representative, and finds no metric-only population projector. The
+**complete-angular family-atlas design MAP** is now also complete:
+`udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`. It derives the exact
+stationary general-screen scalar operator, exposes the general shift-divergence term, and maps 18
+atomic families plus all 2,800 preregistered axis cells without physical selection. The next
+bounded question is the **N01 C1 harmonic coupling-matrix atlas**, with no eigenvalue solve, before
+any FD2 restart.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane
@@ -196,9 +201,10 @@ selection, canonization or repository reorganization is authorized by this progr
 ## Startup route
 
 **ACTIVE READS FIRST (2026-08-09 — supersedes the 08-06 line here):**
+`udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
 `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
-`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`, then the complete-angular
-family-atlas design MAP named in the top banner. Read
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The N01 C1 harmonic
+coupling-matrix atlas named in the top banner is next and unlaunched. Read
 `udt_freedata_inventory_MAP_2026-08-09.md` as the parent menu and
 `udt_roadA_mode_quantization_MAP_2026-08-08.md` + RA1/RA2 as the resonator evidence. The x_max maps
 (`..._pair_question_MAP_2026-08-06.md`, `..._scale_observational_MAP_2026-08-07.md`) and

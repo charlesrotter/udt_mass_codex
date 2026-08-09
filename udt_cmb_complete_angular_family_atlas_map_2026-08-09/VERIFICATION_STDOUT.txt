@@ -1,0 +1,27 @@
+CHECK V01_payload: True
+CHECK V02_fraction_inverse: True
+CHECK V03_fraction_determinant: True
+CHECK V04_C1_lambda: True
+CHECK V05_C1_inverse_entries: True
+CHECK V06_C1_volume_squared: True
+CHECK V07_shift_divergence_witness: True
+CHECK V08_shift_divergence_not_universal_zero: True
+CHECK V09_nonaxis_m_coupling: True
+CHECK V09B_direct_operator_point: True
+CHECK V10_family_census: True
+CHECK V11_candidate_exact_coverage: True
+CHECK V12_candidate_targets: True
+CHECK V13_control_routes: True
+CHECK V14_basis_census: True
+CHECK V15_label_ownership: True
+CHECK V16_no_solve: True
+CHECK V17_no_postselection: True
+CHECK V18_no_cross_splice: True
+CHECK V19_status_ledger: True
+CHECK V20_axis_cross_product: True
+CHECK V21_source_manifest: True
+CHECK V22_payload_mutations: True
+CHECK V23_table_mutations: True
+CHECK V24_exact_scope_guard: True
+CHECK V25_report_stop_guard: True
+PASS: 26/26 independent checks; 13/13 mutations caught

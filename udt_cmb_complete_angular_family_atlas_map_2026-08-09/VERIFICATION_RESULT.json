@@ -1,0 +1,51 @@
+{
+  "caveat": "no fresh zero-context external semantic review",
+  "check_count": 26,
+  "checks": {
+    "V01_payload": true,
+    "V02_fraction_inverse": true,
+    "V03_fraction_determinant": true,
+    "V04_C1_lambda": true,
+    "V05_C1_inverse_entries": true,
+    "V06_C1_volume_squared": true,
+    "V07_shift_divergence_witness": true,
+    "V08_shift_divergence_not_universal_zero": true,
+    "V09B_direct_operator_point": true,
+    "V09_nonaxis_m_coupling": true,
+    "V10_family_census": true,
+    "V11_candidate_exact_coverage": true,
+    "V12_candidate_targets": true,
+    "V13_control_routes": true,
+    "V14_basis_census": true,
+    "V15_label_ownership": true,
+    "V16_no_solve": true,
+    "V17_no_postselection": true,
+    "V18_no_cross_splice": true,
+    "V19_status_ledger": true,
+    "V20_axis_cross_product": true,
+    "V21_source_manifest": true,
+    "V22_payload_mutations": true,
+    "V23_table_mutations": true,
+    "V24_exact_scope_guard": true,
+    "V25_report_stop_guard": true
+  },
+  "independence": "separate standard-library Fraction/permutation route and separate semantic/table mutation validator; same session",
+  "mutations": {
+    "M01_status_promotion": true,
+    "M02_key_loss": true,
+    "M03_omit_shift_divergence": true,
+    "M04_family_loss": true,
+    "M05_route_duplication": true,
+    "M06_false_universal_m": true,
+    "M07_C1_promotion": true,
+    "M08_data_merit": true,
+    "M09_premature_solve": true,
+    "M10_cross_product_loss": true
+  },
+  "table_mutations": {
+    "T01_missing_candidate": true,
+    "T02_solve_authorization": true,
+    "T03_cross_splice": true
+  },
+  "verdict": "VERIFIED_DESIGN_MAP_WITH_CAVEATS"
+}
