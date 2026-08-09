@@ -17,6 +17,23 @@ background/relational layer (thereby genuinely engaging the recorded macro/micro
 This is EXPLICITLY DATA-CONDITIONED — an INVERSION, not a blind prediction. Its outputs are
 REQUIREMENTS and BOUNDS, never confirmations (the epistemic status travels on every line).
 
+## 0b. OWNER EPISTEMOLOGY RULING (Charles, 2026-08-09, verbatim-intent — the audit's frame)
+
+"For want of a better term, we have knobs we can currently adjust, call it hypothesis fitting,
+which may allow us to optimize the peaks... With the right perspective this is scientifically
+justifiable as geometric theories need observational anchors to bridge geometry to physics."
+ADOPTED as the frame, WITH the anti-epicycle discipline attached as binding bookkeeping:
+(1) every knob ledgered (§1); (2) the COUNT reported in every fitting statement — knobs spent
+vs independent facts matched (the RA2 freedom-accounting standard, now permanent); (3)
+CROSS-ANCHORING — a knob set by one observable must hold for all others (the joint-consistency
+checks in FD1/FD2/FD3) — plus RESIDUAL RIGIDITY: after knobs are spent, the named still-
+falsifiable remainder is stated (what the anchored theory FORBIDS and could observably fail);
+(4) the FD3 free-function hazard: statistics fits run against few-parameter candidate FAMILIES
+only, never unconstrained functions. WIN CONDITION (stated in advance): fewer knobs than
+independent facts; the same knob values threading SNe + clustering + peaks simultaneously; at
+least one surviving forbidden-outcome test. Epicycle failure mode (stated in advance):
+knob-count growing with the fact-count; no cross-observable threading; nothing forbidden.
+
 ## 1. The free-data inventory (what is actually adjustable, and how pinned each item is)
 
 - **FD-A: the profile A(r) beyond smooth P1.** Pinned: X_eff = R_w/n hard (~1%, low z);
