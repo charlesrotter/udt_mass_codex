@@ -136,6 +136,18 @@ question -- where does structure live (matter/profile/mu-field) -- the map an HO
 every regime examined. Honest scorecard: none of the derived origins is a native per-shell
 bump-maker (courier scale-transparent) -- BAO's scale is posited free-data OR the discreteness
 program's first real job (mu quantization; the phi-angular hunch; characterized-then-gated).
+**M3c MATCHED-RIGOR RE-RUN COMPLETE (2026-08-08 overnight, Charles's stabilize-before-banking
+ruling) -- M3c-MIXED, verified LEAD, AT THE HOLD-POINT (his ruling owed on the M3/M3b downgrades;
+nothing amended).** Full bin-bin covariance (rebin identity proven; Hartlap/Percival; verifier
+SUSTAINED-AMENDED): DESI feature SURVIVES+strengthens; THE SAME-Z TRACER SPLIT SURVIVES at
+3.83-4.51 sigma (the coupling lead's empirical hook is NOT a covariance artifact;
+cross-covariance caveat travels); BOSS detection DEFLATES (two causes: the 40->12 rebinning +
+full C) -> cross-survey replication = suggestive-unproven; the threading chi2=144 was ~13x
+error-inflated (real ~9-11/dof, driven by the split). OWED DOWNGRADES HELD verbatim in
+`udt_xmax_scale_observational_M3c_matched_rigor_2026-08-08/M3C_RESULTS.md` par.7. Binding owner
+rulings this arc: mu-ON default (inertia ruling); the tracer split was method-suspect -> now
+covariance-firmed (binning/full-randoms arms still OWED).
+
 **M3b BOSS OUT-OF-SAMPLE TEST COMPLETE (2026-08-08) -- M3b-PARTIAL, verified LEAD (blind
 results-verifier SUSTAINED; F-RETRO timeline PROVEN: freeze f9c5b436 @19:05:30 preceded first
 BOSS file @19:09:13).** The refined freeze (Charles): DESI measured ell=58.34 Mpc (ell/R_w=
