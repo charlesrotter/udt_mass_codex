@@ -197,3 +197,24 @@ noise), but it is **NOT a single geometric ruler** — it does not thread one �
 the same-z tracer-split (in-sample, 1.75×) is corroborated by BOSS's incoherent,
 tracer/redshift-dependent centers. This points AWAY from a static comoving ruler
 and TOWARD a φ-matter coupling (tracer- and depth-dependent), the forward lead.
+
+## DOWNGRADES APPLIED (2026-08-08, Charles's ruling; per M3c matched-rigor re-run 24abc8d6)
+
+This section SUPERSEDES the corresponding claims above (point-of-use amendment; the raw
+boss_results_*.json stay as records of the diagonal-covariance run; M3C_RESULTS.md +
+RESULTS_VERIFIER_REPORT.md there are the evidence).
+
+1. **"feature_detected: true" WITHDDRAWN → NOT DETECTED UNDER MATCHED RIGOR.** Under the full
+   bin-bin covariance at the frozen 12-bin rebinning, BOSS global trials-corrected p =
+   0.31 (sys) / 0.12 (nosys) — fails the frozen 0.01 bar. TWO causes, both named (M3c verifier
+   decomposition): the 40→12 rebinning (diag-at-12 already p 0.107/0.037; narrow features vs
+   sub-bin scan widths) AND the bin-bin covariance. BOSS's status: SUGGESTIVE, UNPROVEN.
+   Cross-survey replication of the DESI feature is therefore NOT established.
+2. **The threading χ²/dof = 144.2 figure WITHDRAWN → ~9–11/dof under proper covariance** (the
+   144 was ~13× inflated by the diagonal-error underestimate). The single-ruler threading
+   conclusion STANDS (still a clear failure, 0/9 shells; now properly errored and driven by
+   the genuine same-z tracer split, which M3c firmed at 3.83–4.51σ).
+3. **DESI (M3): NO downgrade** — the detection and the tracer split SURVIVE and strengthen
+   under matched rigor (M3c).
+Net M3b landing re-read: the REPLICATION leg is withdrawn; the RULER-FAIL leg stands. The
+F-RETRO-clean freeze/test discipline is unaffected.

@@ -208,3 +208,10 @@ region-blocked recount; full-randoms (undownsampled) recount + integral-constrai
 measurement; PIP bitweights (prereg adopt-if-feasible, deferred).
 
 **HOLD for Charles — nothing banks or amends M3/M3b until his review.**
+
+## HOLD RELEASED (2026-08-08): Charles ruled "apply the downgrades" — APPLIED
+
+The three §7 owed downgrades are applied at point-of-use in
+`udt_xmax_scale_observational_M3b_BOSS_2026-08-08/BOSS_RESULTS.md` (DOWNGRADES APPLIED
+section; M3 DESI unamended per #3). M3c's OWED post-hold work list (bootstrap-via-recount,
+full-randoms+IC recount, PIP) remains open, gated.

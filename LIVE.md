@@ -136,9 +136,11 @@ question -- where does structure live (matter/profile/mu-field) -- the map an HO
 every regime examined. Honest scorecard: none of the derived origins is a native per-shell
 bump-maker (courier scale-transparent) -- BAO's scale is posited free-data OR the discreteness
 program's first real job (mu quantization; the phi-angular hunch; characterized-then-gated).
-**M3c MATCHED-RIGOR RE-RUN COMPLETE (2026-08-08 overnight, Charles's stabilize-before-banking
-ruling) -- M3c-MIXED, verified LEAD, AT THE HOLD-POINT (his ruling owed on the M3/M3b downgrades;
-nothing amended).** Full bin-bin covariance (rebin identity proven; Hartlap/Percival; verifier
+**M3c MATCHED-RIGOR RE-RUN COMPLETE (2026-08-08 overnight) -- M3c-MIXED, verified LEAD; HOLD
+RELEASED: Charles ruled 'apply the downgrades' -- APPLIED at point-of-use (BOSS_RESULTS.md):
+BOSS feature_detected WITHDRAWN (not detected under matched rigor, binning+covariance, p
+0.31/0.12 -> replication = suggestive-unproven); threading 144 -> ~9-11/dof (ruler-fail STANDS,
+properly errored); DESI unamended.** Full bin-bin covariance (rebin identity proven; Hartlap/Percival; verifier
 SUSTAINED-AMENDED): DESI feature SURVIVES+strengthens; THE SAME-Z TRACER SPLIT SURVIVES at
 3.83-4.51 sigma (the coupling lead's empirical hook is NOT a covariance artifact;
 cross-covariance caveat travels); BOSS detection DEFLATES (two causes: the 40->12 rebinning +
