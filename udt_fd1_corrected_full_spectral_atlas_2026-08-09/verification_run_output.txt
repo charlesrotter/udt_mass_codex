@@ -1,0 +1,15 @@
+Script started on 2026-08-09 14:51:21-04:00 [TERM="xterm-256color" TTY="/dev/console" COLUMNS="80" LINES="24"]
+KEY CFA_V1_certified_hash: True
+KEY CFA_V2_strict_parent_hash: True
+KEY CFA_V3_structural_census: True
+KEY CFA_V4_flat_bessel_controls: True
+KEY CFA_V5_independent_63_roots: True
+KEY CFA_V6_independent_residuals: True
+KEY CFA_V7_split_robustness: True
+KEY CFA_V8_center_robustness: True
+KEY CFA_V9_only_preregistered_roots_changed: True
+KEY CFA_V10_all_mutation_catches: True
+{"center_max_relative_drift": 2.353672812205332e-14, "flat_bessel_max_relative_error": 1.3677947663381929e-13, "independent_max_normalized_residual": 8.347338769757075e-13, "independent_max_relative_frequency_drift": 2.063238468963391e-12, "independent_roots": 63, "mutation_catches": {"blind": true, "count": true, "duplicate": true, "missing": true, "q0": true, "root": true, "zero": true}, "split_max_relative_drift": 1.3840040224977201e-12, "strict_to_certified_changed_root_values": 24, "structural_errors": []}
+WROTE /home/udt-admin/udt_mass_codex/udt_fd1_corrected_full_spectral_atlas_2026-08-09/verification_result.json SHA256 19d09c2db561bc9ef84b3c86e0e995dbc7aaca4f5a224e34d61373bac373d0ca
+
+Script done on 2026-08-09 14:51:50-04:00 [COMMAND_EXIT_CODE="0"]

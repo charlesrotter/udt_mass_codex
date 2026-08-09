@@ -1,0 +1,6 @@
+Script started on 2026-08-09 14:49:45-04:00 [TERM="xterm-256color" TTY="/dev/console" COLUMNS="80" LINES="24"]
+{"CFA_U1_parent_hash": true, "CFA_U2_exact_24_root_target": true, "CFA_U3_correct_10080_root_count": true, "CFA_U4_original_residual_gate": true, "CFA_U5_q0_exact_split": true, "CFA_U6_same_462_row_census": true}
+{"continuum_control_rows": 42, "corrected_positive_root_count": 10080, "maximum_absolute_root_shift": 5.7209348369724466e-11, "maximum_normalized_wall_residual": 5.094791324751209e-09, "q0_max_abs_split_error": 1.8943735469179046e-12, "rows": 462, "runtime_seconds": 1074.8367207050323, "spectral_rows": 420, "strict_refinement_runtime_seconds": 1445.1970522403717, "strict_roots_refined": 10080, "ultrafine_maximum_absolute_shift": 1.0952068245362323e-15, "ultrafine_roots_refined": 24}
+WROTE /home/udt-admin/udt_mass_codex/udt_fd1_corrected_full_spectral_atlas_2026-08-09/corrected_full_atlas_certified.json SHA256 042138fb73cc9f3bef4faf97fc0357f2a2f079daced5e39d6532c4a6f770dfbb
+
+Script done on 2026-08-09 14:49:49-04:00 [COMMAND_EXIT_CODE="0"]
