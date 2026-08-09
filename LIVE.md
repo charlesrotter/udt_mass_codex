@@ -136,6 +136,28 @@ question -- where does structure live (matter/profile/mu-field) -- the map an HO
 every regime examined. Honest scorecard: none of the derived origins is a native per-shell
 bump-maker (courier scale-transparent) -- BAO's scale is posited free-data OR the discreteness
 program's first real job (mu quantization; the phi-angular hunch; characterized-then-gated).
+**ROAD A COMPLETE (2026-08-08/09, theory lane) -- RA1 + RA2 verified LEADS.** RA1 (the mu-ON
+mode problem; CP4 "mu-on leads. It should never be off." -- F-MUOFF held): the wall's endpoint
+character CLASSIFIED over (n,q); ladder-possible union = {n<1} U {1<=n<2, q<(2-n)/2} U {n=2,q<0}
+U {n>2,q<2-n} -- all but n<1 MIXING-CREATED; the chiral wedge's counter-rotating channel
+INTRINSICALLY quantized (sigma_ess proven empty by review); Zeeman splitting 2m<Omega> = the
+mixing fingerprint; mu-off limit (derived last) LC iff n<1 = exactly O2's optical-finiteness;
+the fitted n~1.06 sits in the mixing-created band (q-conditional). RA2 (two-phase blind
+projection + comparison): the backdrop's angular series = the frequency ladder exactly (shell
+factors cancel); Weyl comb l_k ~ l_A(k+beta); a TWO-parameter fit lands Planck's 7 TT peaks at
+1-3% with the fitted offset inside the blind Dirichlet band -- DEFLATED BY REVIEW to
+RA2-PARTIAL-WEAK: the comb is generic-cavity, beta IS the mainstream's phi re-clothed, the band
+hit ~1-in-2.5, the UDT-specific increment equals the unmodeled even/odd alternation, and the
+whole contact is CONDITIONAL on m~0 dominance (the derived doublet splittings would destroy the
+comb -- latent kill-switch). NET: the resonator is real and derived; geometry alone cannot
+finish the song. **FIVE independent demands now converge on ONE address -- the SOURCE/COUPLING
+program (mass emergence + mu):** the BAO amount (D3), the tracer split (if calibration-real),
+the peak alternation, the doublet fate, the peak heights.
+
+**ON THE DESK:** (1) the M3d methodology calibration (Leg A mock sweep RUNNING; Leg B
+CAL-MIXED banked in-package) -> the BAO anomalies' honest fate; (2) THE STRATEGIC FORK
+(Charles pondering): the coupling/source program as the now-unavoidable frontier.
+
 **M3c MATCHED-RIGOR RE-RUN COMPLETE (2026-08-08 overnight) -- M3c-MIXED, verified LEAD; HOLD
 RELEASED: Charles ruled 'apply the downgrades' -- APPLIED at point-of-use (BOSS_RESULTS.md):
 BOSS feature_detected WITHDRAWN (not detected under matched rigor, binning+covariance, p
