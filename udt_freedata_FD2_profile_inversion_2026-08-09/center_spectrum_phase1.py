@@ -66,8 +66,9 @@ def center_state(omega: float, m: int, n: float, q: float, hbar: float) -> tuple
         R = 1.0 - z * z / 4.0 + z**4 / 64.0
         dRdr = -omega**2 * r / 2.0 + omega**4 * r**3 / 16.0
         return R, p * dRdr
-    # Scale out r0^|m|.  The ratio F/R is the regular Frobenius datum.
-    return 1.0, am * p / r
+    # Physical Frobenius normalization keeps the outer solution O(1), which is
+    # essential for an independently conditioned collocation check.
+    return r**am, am * p * r ** (am - 1)
 
 
 def rhs(y: float | np.ndarray, state: np.ndarray, omega: float, m: int, n: float, q: float, hbar: float):
@@ -152,8 +153,8 @@ def boundary_scan(
         R0 = 1.0 - z * z / 4.0 + z**4 / 64.0
         F0 = p0 * (-omegas**2 * r0 / 2.0 + omegas**4 * r0**3 / 16.0)
     else:
-        R0 = np.ones_like(omegas)
-        F0 = np.full_like(omegas, abs(m) * p0 / r0)
+        R0 = np.full_like(omegas, r0 ** abs(m))
+        F0 = np.full_like(omegas, abs(m) * p0 * r0 ** (abs(m) - 1))
     initial = np.r_[R0, F0]
 
     def batch_rhs(y: float, state: np.ndarray) -> np.ndarray:
@@ -256,7 +257,8 @@ def collocation_check(
             center = left[1] - abs(m) * p0 / r0 * left[0]
         Rw, Fw = tail_state(float(right[0]), float(right[1]), omega, tail)
         wall_value = Rw if wall == "D" else Fw / omega
-        return np.asarray((left[0] - 1.0, center, wall_value), dtype=float)
+        center_normalization = 1.0 if m == 0 else r0 ** abs(m)
+        return np.asarray((left[0] - center_normalization, center, wall_value), dtype=float)
 
     solved = solve_bvp(
         fun,
@@ -264,8 +266,8 @@ def collocation_check(
         mesh,
         guess,
         p=np.asarray([omega_guess]),
-        tol=1.0e-7,
-        max_nodes=30000,
+        tol=1.0e-9,
+        max_nodes=100000,
         verbose=0,
     )
     omega = float(solved.p[0])
@@ -432,7 +434,14 @@ def main() -> None:
         encoding="utf-8",
     )
     print(json.dumps(summary, indent=2, sort_keys=True))
-    print(json.dumps(gates, indent=2, sort_keys=True))
+    print(
+        json.dumps(
+            gates,
+            indent=2,
+            sort_keys=True,
+            default=lambda value: value.item() if isinstance(value, np.generic) else str(value),
+        )
+    )
     print(f"WROTE {OUTPUT}")
     if not all(gates.values()):
         raise SystemExit(f"failed gates: {[name for name, passed in gates.items() if not passed]}")
