@@ -1,0 +1,421 @@
+{
+ "prereg_commit": "af9fa75d",
+ "freeze_commit": "f9c5b436",
+ "variant": "nosys",
+ "n_shells": 9,
+ "per_shell": [
+  {
+   "key": "CMASS_0.43_0.48_nosys",
+   "sample": "CMASS",
+   "z": [
+    0.43,
+    0.48
+   ],
+   "zc": 0.45499999999999996,
+   "variant": "nosys",
+   "t_ls_s": 126.5,
+   "n_data_percap": [
+    89804,
+    34270
+   ],
+   "n_ran_percap": [
+    891481,
+    339531
+   ],
+   "bump": {
+    "dchi2": 9.96546629686771,
+    "theta_b": 4.633613249240033,
+    "sigma_b": 0.5392365095219279,
+    "A_b": 0.019103883411583554
+   },
+   "local_p": 0.07,
+   "null_95th": 11.540453951929027,
+   "radial_trigger": false,
+   "seed": 20334293,
+   "backend": "gpu",
+   "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+  },
+  {
+   "key": "CMASS_0.48_0.53_nosys",
+   "sample": "CMASS",
+   "z": [
+    0.48,
+    0.53
+   ],
+   "zc": 0.505,
+   "variant": "nosys",
+   "t_ls_s": 387.7,
+   "n_data_percap": [
+    159802,
+    56869
+   ],
+   "n_ran_percap": [
+    1606118,
+    567303
+   ],
+   "bump": {
+    "dchi2": 10.601441912518016,
+    "theta_b": 10.15407578567834,
+    "sigma_b": 0.10178555614380884,
+    "A_b": 0.0063113726336616926
+   },
+   "local_p": 0.04,
+   "null_95th": 10.323378523605975,
+   "radial_trigger": true,
+   "seed": 20315791,
+   "backend": "gpu",
+   "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+  },
+  {
+   "key": "CMASS_0.53_0.58_nosys",
+   "sample": "CMASS",
+   "z": [
+    0.53,
+    0.58
+   ],
+   "zc": 0.5549999999999999,
+   "variant": "nosys",
+   "t_ls_s": 332.7,
+   "n_data_percap": [
+    147120,
+    53162
+   ],
+   "n_ran_percap": [
+    1479536,
+    531849
+   ],
+   "bump": {
+    "dchi2": 18.50524049462466,
+    "theta_b": 4.047369628322842,
+    "sigma_b": 0.3847568683674673,
+    "A_b": 0.010357899943894761
+   },
+   "local_p": 0.0,
+   "null_95th": 10.789278949499115,
+   "radial_trigger": true,
+   "seed": 20334142,
+   "backend": "gpu",
+   "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+  },
+  {
+   "key": "CMASS_0.58_0.63_nosys",
+   "sample": "CMASS",
+   "z": [
+    0.58,
+    0.63
+   ],
+   "zc": 0.605,
+   "variant": "nosys",
+   "t_ls_s": 165.1,
+   "n_data_percap": [
+    102316,
+    38689
+   ],
+   "n_ran_percap": [
+    1022811,
+    389088
+   ],
+   "bump": {
+    "dchi2": 1.5126931023974706,
+    "theta_b": 3.054180917417018,
+    "sigma_b": 0.2043977637217275,
+    "A_b": 0.002791754190680629
+   },
+   "local_p": 0.99,
+   "null_95th": 10.39804984402764,
+   "radial_trigger": false,
+   "seed": 20317705,
+   "backend": "gpu",
+   "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+  },
+  {
+   "key": "CMASS_0.63_0.68_nosys",
+   "sample": "CMASS",
+   "z": [
+    0.63,
+    0.68
+   ],
+   "zc": 0.655,
+   "variant": "nosys",
+   "t_ls_s": 52.6,
+   "n_data_percap": [
+    56790,
+    20656
+   ],
+   "n_ran_percap": [
+    567036,
+    208556
+   ],
+   "bump": {
+    "dchi2": 6.2719131557155094,
+    "theta_b": 6.9932297758835045,
+    "sigma_b": 0.26447126922059105,
+    "A_b": -0.00559244252194198
+   },
+   "local_p": 0.33666666666666667,
+   "null_95th": 11.157478385383575,
+   "radial_trigger": false,
+   "seed": 20283747,
+   "backend": "gpu",
+   "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+  },
+  {
+   "key": "LOWZ_0.20_0.25_nosys",
+   "sample": "LOWZ",
+   "z": [
+    0.2,
+    0.25
+   ],
+   "zc": 0.225,
+   "variant": "nosys",
+   "t_ls_s": 23.9,
+   "n_data_percap": [
+    35282,
+    16038
+   ],
+   "n_ran_percap": [
+    351522,
+    160655
+   ],
+   "bump": {
+    "dchi2": 6.874150878561302,
+    "theta_b": 2.1111922750608962,
+    "sigma_b": 0.18259870999883748,
+    "A_b": 0.013703038625169757
+   },
+   "local_p": 0.2833333333333333,
+   "null_95th": 11.19022596093973,
+   "radial_trigger": false,
+   "seed": 20352928,
+   "backend": "gpu",
+   "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+  },
+  {
+   "key": "LOWZ_0.25_0.30_nosys",
+   "sample": "LOWZ",
+   "z": [
+    0.25,
+    0.3
+   ],
+   "zc": 0.275,
+   "variant": "nosys",
+   "t_ls_s": 31.8,
+   "n_data_percap": [
+    40492,
+    19260
+   ],
+   "n_ran_percap": [
+    405778,
+    192740
+   ],
+   "bump": {
+    "dchi2": 3.8299687785129617,
+    "theta_b": 10.961308870360428,
+    "sigma_b": 0.3163446118480701,
+    "A_b": -0.03199792204474947
+   },
+   "local_p": 0.71,
+   "null_95th": 11.067716792305882,
+   "radial_trigger": false,
+   "seed": 20346297,
+   "backend": "gpu",
+   "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+  },
+  {
+   "key": "LOWZ_0.30_0.35_nosys",
+   "sample": "LOWZ",
+   "z": [
+    0.3,
+    0.35
+   ],
+   "zc": 0.32499999999999996,
+   "variant": "nosys",
+   "t_ls_s": 63.3,
+   "n_data_percap": [
+    59183,
+    26238
+   ],
+   "n_ran_percap": [
+    593616,
+    264049
+   ],
+   "bump": {
+    "dchi2": 1.7425229768884023,
+    "theta_b": 0.25087586290906416,
+    "sigma_b": 0.03,
+    "A_b": -34152242475.605457
+   },
+   "local_p": 0.9933333333333333,
+   "null_95th": 10.0813406924332,
+   "radial_trigger": false,
+   "seed": 20340235,
+   "backend": "gpu",
+   "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+  },
+  {
+   "key": "LOWZ_0.35_0.40_nosys",
+   "sample": "LOWZ",
+   "z": [
+    0.35,
+    0.4
+   ],
+   "zc": 0.375,
+   "variant": "nosys",
+   "t_ls_s": 60.9,
+   "n_data_percap": [
+    57371,
+    26203
+   ],
+   "n_ran_percap": [
+    579095,
+    263863
+   ],
+   "bump": {
+    "dchi2": 3.79503039316612,
+    "theta_b": 6.733972680641088,
+    "sigma_b": 0.2078632615107766,
+    "A_b": 0.007479789398225657
+   },
+   "local_p": 0.76,
+   "null_95th": 11.261720807318948,
+   "radial_trigger": false,
+   "seed": 20313461,
+   "backend": "gpu",
+   "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+  }
+ ],
+ "look_elsewhere": {
+  "n_shells": 9,
+  "n_mocks": 300,
+  "seed": 20260808,
+  "local_max_dchi2": [
+   9.606340906439073,
+   9.084606671071015,
+   18.128254247199948,
+   1.4762177521442936,
+   6.132974257599926,
+   6.663941298915233,
+   3.7935048705539884,
+   0.9918414624371508,
+   3.7501390140860167
+  ],
+  "local_p": [
+   0.10666666666666667,
+   0.07666666666666666,
+   0.0,
+   0.9933333333333333,
+   0.3566666666666667,
+   0.2966666666666667,
+   0.7433333333333333,
+   1.0,
+   0.72
+  ],
+  "global_max_dchi2": 18.128254247199948,
+  "global_p": 0.006666666666666667,
+  "joint": {
+   "stat_obs": 44.901962550390635,
+   "p": 0.006666666666666667,
+   "best_combo": {
+    "profile": "P3",
+    "shape": 1.2310462007473126,
+    "s_rad": 0.10750963034214124,
+    "k": [
+     30,
+     29,
+     27,
+     26,
+     25,
+     -1,
+     37,
+     35,
+     33
+    ]
+   }
+  },
+  "joint_per_profile": {
+   "P1": {
+    "stat_obs": 42.85787026078742,
+    "p": 0.01
+   },
+   "P2": {
+    "stat_obs": 41.1781811398414,
+    "p": 0.0033333333333333335
+   },
+   "P3": {
+    "stat_obs": 44.901962550390635,
+    "p": 0.0033333333333333335
+   }
+  },
+  "n_combos": 1960,
+  "caveat": "diagonal jackknife covariance (M2 condition); nearest-bin center tie approximation (stated)"
+ },
+ "feature_detected": true,
+ "threshold": 0.01,
+ "radial_leg_triggered_shells": [
+  "CMASS_0.48_0.53_nosys",
+  "CMASS_0.53_0.58_nosys"
+ ],
+ "caveat": "diagonal jackknife cov; F=1 split-RR; ran x10 (Cat-A); GPU workhorse (Cat-A, spot-checked)",
+ "gpu_spot_check": [
+  {
+   "shell": [
+    "CMASS",
+    "North",
+    0.53,
+    0.58
+   ],
+   "count": "DD",
+   "max_abs_diff": 7.179565727710724e-06,
+   "max_rel_diff": 2.845561525540991e-12,
+   "total_rel_diff": 2.2969678939643757e-14,
+   "n_smallcell_wholepair": 0,
+   "ok": true,
+   "bound": "rel<=1e-8 & smallcell-wholepair==0 & total<=1e-9"
+  },
+  {
+   "shell": [
+    "CMASS",
+    "North",
+    0.53,
+    0.58
+   ],
+   "count": "DR",
+   "max_abs_diff": 0.003130730241537094,
+   "max_rel_diff": 1.428810808868889e-10,
+   "total_rel_diff": 1.0459077072645098e-12,
+   "n_smallcell_wholepair": 0,
+   "ok": true,
+   "bound": "rel<=1e-8 & smallcell-wholepair==0 & total<=1e-9"
+  },
+  {
+   "shell": [
+    "LOWZ",
+    "North",
+    0.3,
+    0.35
+   ],
+   "count": "DD",
+   "max_abs_diff": 0.0,
+   "max_rel_diff": 0.0,
+   "total_rel_diff": 0.0,
+   "n_smallcell_wholepair": 0,
+   "ok": true,
+   "bound": "rel<=1e-8 & smallcell-wholepair==0 & total<=1e-9"
+  },
+  {
+   "shell": [
+    "LOWZ",
+    "North",
+    0.3,
+    0.35
+   ],
+   "count": "DR",
+   "max_abs_diff": 0.0,
+   "max_rel_diff": 0.0,
+   "total_rel_diff": 0.0,
+   "n_smallcell_wholepair": 0,
+   "ok": true,
+   "bound": "rel<=1e-8 & smallcell-wholepair==0 & total<=1e-9"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "key": "CMASS_0.53_0.58_nosys",
+ "sample": "CMASS",
+ "z": [
+  0.53,
+  0.58
+ ],
+ "zc": 0.5549999999999999,
+ "variant": "nosys",
+ "t_ls_s": 332.7,
+ "n_data_percap": [
+  147120,
+  53162
+ ],
+ "n_ran_percap": [
+  1479536,
+  531849
+ ],
+ "bump": {
+  "dchi2": 18.50524049462466,
+  "theta_b": 4.047369628322842,
+  "sigma_b": 0.3847568683674673,
+  "A_b": 0.010357899943894761
+ },
+ "local_p": 0.0,
+ "null_95th": 10.789278949499115,
+ "radial_trigger": true,
+ "seed": 20334142,
+ "backend": "gpu",
+ "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+}

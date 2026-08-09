@@ -1,0 +1,27 @@
+=== variant sys (9 shells) ===
+  LOWZ_0.20_0.25_sys: t_ls=24.6s dchi2=6.87 theta_b=2.111 local_p=0.2900 Ndat=[35282, 16038] Nran=[351522, 160655]
+  LOWZ_0.25_0.30_sys: t_ls=31.8s dchi2=3.83 theta_b=10.961 local_p=0.6967 Ndat=[40492, 19260] Nran=[405778, 192740]
+  LOWZ_0.30_0.35_sys: t_ls=63.3s dchi2=1.74 theta_b=0.251 local_p=0.9833 Ndat=[59183, 26238] Nran=[593616, 264049]
+  LOWZ_0.35_0.40_sys: t_ls=60.9s dchi2=3.80 theta_b=6.734 local_p=0.7300 Ndat=[57371, 26203] Nran=[579095, 263863]
+  CMASS_0.43_0.48_sys: t_ls=126.5s dchi2=10.75 theta_b=4.647 local_p=0.0467 Ndat=[89804, 34270] Nran=[891481, 339531]
+  CMASS_0.48_0.53_sys: t_ls=387.7s dchi2=10.88 theta_b=10.249 local_p=0.0400 Ndat=[159802, 56869] Nran=[1606118, 567303]
+  CMASS_0.53_0.58_sys: t_ls=332.7s dchi2=24.75 theta_b=4.043 local_p=0.0000 Ndat=[147120, 53162] Nran=[1479536, 531849]
+  CMASS_0.58_0.63_sys: t_ls=165.1s dchi2=2.77 theta_b=2.950 local_p=0.8767 Ndat=[102316, 38689] Nran=[1022811, 389088]
+  CMASS_0.63_0.68_sys: t_ls=52.6s dchi2=9.19 theta_b=7.128 local_p=0.0700 Ndat=[56790, 20656] Nran=[567036, 208556]
+=== variant nosys (9 shells) ===
+  LOWZ_0.20_0.25_nosys: t_ls=23.9s dchi2=6.87 theta_b=2.111 local_p=0.2833 Ndat=[35282, 16038] Nran=[351522, 160655]
+  LOWZ_0.25_0.30_nosys: t_ls=31.8s dchi2=3.83 theta_b=10.961 local_p=0.7100 Ndat=[40492, 19260] Nran=[405778, 192740]
+  LOWZ_0.30_0.35_nosys: t_ls=63.3s dchi2=1.74 theta_b=0.251 local_p=0.9933 Ndat=[59183, 26238] Nran=[593616, 264049]
+  LOWZ_0.35_0.40_nosys: t_ls=60.9s dchi2=3.80 theta_b=6.734 local_p=0.7600 Ndat=[57371, 26203] Nran=[579095, 263863]
+  CMASS_0.43_0.48_nosys: t_ls=126.5s dchi2=9.97 theta_b=4.634 local_p=0.0700 Ndat=[89804, 34270] Nran=[891481, 339531]
+  CMASS_0.48_0.53_nosys: t_ls=387.7s dchi2=10.60 theta_b=10.154 local_p=0.0400 Ndat=[159802, 56869] Nran=[1606118, 567303]
+  CMASS_0.53_0.58_nosys: t_ls=332.7s dchi2=18.51 theta_b=4.047 local_p=0.0000 Ndat=[147120, 53162] Nran=[1479536, 531849]
+  CMASS_0.58_0.63_nosys: t_ls=165.1s dchi2=1.51 theta_b=3.054 local_p=0.9900 Ndat=[102316, 38689] Nran=[1022811, 389088]
+  CMASS_0.63_0.68_nosys: t_ls=52.6s dchi2=6.27 theta_b=6.993 local_p=0.3367 Ndat=[56790, 20656] Nran=[567036, 208556]
+=== GPU spot-check ===
+  spot CMASS DD: mrel=2.85e-12 tot=2.30e-14 nsp=0 ok=True
+  spot CMASS DR: mrel=1.43e-10 tot=1.05e-12 nsp=0 ok=True
+  spot LOWZ DD: mrel=0.00e+00 tot=0.00e+00 nsp=0 ok=True
+  spot LOWZ DR: mrel=0.00e+00 tot=0.00e+00 nsp=0 ok=True
+[sys] shells=9 global_p=0.0000 feature=True
+[nosys] shells=9 global_p=0.0067 feature=True

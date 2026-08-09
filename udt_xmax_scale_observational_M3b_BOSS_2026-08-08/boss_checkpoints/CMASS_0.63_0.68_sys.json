@@ -1,0 +1,31 @@
+{
+ "key": "CMASS_0.63_0.68_sys",
+ "sample": "CMASS",
+ "z": [
+  0.63,
+  0.68
+ ],
+ "zc": 0.655,
+ "variant": "sys",
+ "t_ls_s": 52.6,
+ "n_data_percap": [
+  56790,
+  20656
+ ],
+ "n_ran_percap": [
+  567036,
+  208556
+ ],
+ "bump": {
+  "dchi2": 9.194442970311114,
+  "theta_b": 7.128257694435505,
+  "sigma_b": 0.22281272243601902,
+  "A_b": -0.005262579211240397
+ },
+ "local_p": 0.07,
+ "null_95th": 10.120870350484635,
+ "radial_trigger": false,
+ "seed": 20268553,
+ "backend": "gpu",
+ "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+}

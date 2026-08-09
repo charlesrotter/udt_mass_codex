@@ -1,0 +1,31 @@
+{
+ "key": "LOWZ_0.20_0.25_nosys",
+ "sample": "LOWZ",
+ "z": [
+  0.2,
+  0.25
+ ],
+ "zc": 0.225,
+ "variant": "nosys",
+ "t_ls_s": 23.9,
+ "n_data_percap": [
+  35282,
+  16038
+ ],
+ "n_ran_percap": [
+  351522,
+  160655
+ ],
+ "bump": {
+  "dchi2": 6.874150878561302,
+  "theta_b": 2.1111922750608962,
+  "sigma_b": 0.18259870999883748,
+  "A_b": 0.013703038625169757
+ },
+ "local_p": 0.2833333333333333,
+ "null_95th": 11.19022596093973,
+ "radial_trigger": false,
+ "seed": 20352928,
+ "backend": "gpu",
+ "caveat": "diagonal jackknife cov (M2); F=1 split-RR; ran x10 (Cat-A)"
+}
