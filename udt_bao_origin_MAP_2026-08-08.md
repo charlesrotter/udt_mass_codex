@@ -16,7 +16,15 @@ standard-ruler / acoustic-scale ontology). That assumption = ONLY the O-A hypoth
 premise — and the M3b Phase-2 in-sample fit REJECTED it (chi2/dof~144; the same-z tracer split
 LRG 2.44 vs QSO 1.39 deg at z~1.02 which a single ruler FORBIDS). Even "BAO" is a borrowed name
 (presupposes baryon-acoustic origin); the neutral object = "the observed angular clustering
-feature." CONSEQUENCES: (1) the ruler (single-ell threading) is de-privileged to one origin
+feature." **TERMINOLOGY RULING (Charles, 2026-08-08, verbatim-intent): "We can still use the
+abbreviation BAO to refer to this subject and data, but should probably avoid using terms like
+known acoustic feature."** Usage: "BAO" = the conventional LABEL for the subject/datasets (kept);
+descriptions of what the feature IS stay origin-neutral ("the observed/well-measured BAO
+feature", "the clustering regularity"); "acoustic scale / sound horizon" only when describing
+the MAINSTREAM's account, attributed (e.g. "what LCDM interprets as the acoustic scale"). The
+mainstream's cross-domain consilience (CMB peak spacing matching galaxy clustering) is
+acknowledged as a fact about THEIR evidence structure without adopting the acoustic ontology
+into ours. CONSEQUENCES: (1) the ruler (single-ell threading) is de-privileged to one origin
 among five; the in-sample failure now FAVORS the non-ruler origins (O-C viewing artifact / O-E
 drifting oscillation / tracer-dependent). (2) The tracer split is the most NATIVE datum we have
 -- a pure observation that forbids a ruler. (3) M3b/BOSS is reframed: NOT "does our ruler
