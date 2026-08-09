@@ -1,0 +1,141 @@
+{
+  "analytic_check": {
+    "j0_values_match_scipy": true,
+    "j1_values_match_scipy": true
+  },
+  "catch_proofs": [
+    {
+      "name": "duplicate_phase1_identity",
+      "rejected": true
+    },
+    {
+      "name": "missing_neumann_zero",
+      "rejected": true
+    },
+    {
+      "name": "missing_rotating_mode",
+      "rejected": true
+    },
+    {
+      "name": "phase1_observational_leak",
+      "rejected": true
+    },
+    {
+      "name": "changed_peak_target",
+      "rejected": true
+    },
+    {
+      "name": "forced_survivor",
+      "rejected": true
+    }
+  ],
+  "gates": {
+    "all_six_splitting_only": true,
+    "analytic_controls": true,
+    "catch_proofs": true,
+    "phase1_hash": true,
+    "phase1_schema": true,
+    "phase2_independent_replay": true,
+    "zero_actual_trough_survivors": true,
+    "zero_centered_survivors": true
+  },
+  "inputs": {
+    "center_spectrum_phase1.json": "8fe6c747b5f2629e6fbd4ddb44bd40452d39052a71adc1aa46cfbad1771ae567",
+    "center_spectrum_phase2.json": "a1d8c66091f2e7bf831ed54e28c2b68db9d5870ff73ddcd114b2bcc1cdba7722"
+  },
+  "phase": "CENTER_SPECTRUM_CORRECTION_INDEPENDENT_SAVED_ARTIFACT_REPLAY",
+  "phase1_errors": [],
+  "phase2_errors": [],
+  "replay": [
+    {
+      "actual": false,
+      "centered": false,
+      "identity": [
+        0.75,
+        "D",
+        0.01,
+        "POSITIVE_ONLY"
+      ],
+      "max_fractional": 0.03169489346399599,
+      "morphology": "SPLITTING_ONLY",
+      "offset": 59.44297122706877,
+      "scale": 8848.90287576228,
+      "splitting": true
+    },
+    {
+      "actual": false,
+      "centered": false,
+      "identity": [
+        0.75,
+        "N",
+        0.01,
+        "POSITIVE_ONLY"
+      ],
+      "max_fractional": 0.03172687039771756,
+      "morphology": "SPLITTING_ONLY",
+      "offset": -95.91317831797309,
+      "scale": 8851.421140799264,
+      "splitting": true
+    },
+    {
+      "actual": false,
+      "centered": false,
+      "identity": [
+        0.75,
+        "N",
+        0.01,
+        "ZERO_INCLUDED"
+      ],
+      "max_fractional": 0.0316557272279201,
+      "morphology": "SPLITTING_ONLY",
+      "offset": 214.72865293431246,
+      "scale": 8846.590973831795,
+      "splitting": true
+    },
+    {
+      "actual": false,
+      "centered": false,
+      "identity": [
+        0.95,
+        "D",
+        0.5,
+        "POSITIVE_ONLY"
+      ],
+      "max_fractional": 0.03175800674229095,
+      "morphology": "SPLITTING_ONLY",
+      "offset": 59.311231559245805,
+      "scale": 7305.704838173779,
+      "splitting": true
+    },
+    {
+      "actual": false,
+      "centered": false,
+      "identity": [
+        0.95,
+        "N",
+        0.5,
+        "POSITIVE_ONLY"
+      ],
+      "max_fractional": 0.03179922856832812,
+      "morphology": "SPLITTING_ONLY",
+      "offset": -96.11756421533089,
+      "scale": 7308.260572529659,
+      "splitting": true
+    },
+    {
+      "actual": false,
+      "centered": false,
+      "identity": [
+        0.95,
+        "N",
+        0.5,
+        "ZERO_INCLUDED"
+      ],
+      "max_fractional": 0.03170864246491443,
+      "morphology": "SPLITTING_ONLY",
+      "offset": 214.6522192522391,
+      "scale": 7303.368053641158,
+      "splitting": true
+    }
+  ]
+}
