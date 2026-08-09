@@ -104,3 +104,36 @@ These correct the emphasis of this doc: the coupling frontier is still the survi
 but BOTH pillars under it (the tracer split as evidence; the featureless-map as the contrast)
 are now qualified — the split may be our noise, and the featureless-map was a mu-off artifact.
 The honest forward line: turn mu ON and firm the data, THEN judge the coupling picture.
+
+## C3 — "SOURCE PHYSICS" WAS A BARYON-FLUID-SHAPED IMPORT (Charles, 2026-08-09, verbatim-intent;
+## binding framing correction on the RA1/RA2 conclusions and this doc's Road B language)
+
+Charles: "You say/imply that we need to figure out sourcing/mass emergence to resolve the cmb
+peaks. But isn't this just an observation artifact to a highly distant frame? ... are you
+confusing observer frame artifacts with local physics, falling into all that baryon fluid
+stuff." CORRECTION ADOPTED: the RA2-era phrase "the discriminating content needs SOURCE/
+EXCITATION physics" imported the mainstream's scene (local dynamics at a distant place setting
+amplitudes). Under the recorded owner macro-ontology there is no shell and no distant scene —
+the native question is: **what STATISTICS does the mu/depth comparison field carry, as FREE
+DATA of the relation, that the proven-honest courier transports to the sky?** The "five
+demands at one address" conclusion survives with the address RELABELED: not
+mass-emergence-at-a-source but THE COMPARISON-FIELD STATISTICS + the relation's free data,
+posed natively. HONEST BOUNDARY NOTE (his second question answered): the wall approach runs
+the SAME field variable (depth) to the same extreme regime that defines microphysics
+(exp(-2phi) ~ 5 at hadronic depth; unbounded at the wall) — same mathematical territory,
+DIFFERENT question (localized structure vs the relational asymptote); whether they merge is
+exactly the recorded macro/micro nonlinearity boundary — open, not assumed either way.
+PRACTICAL CONSEQUENCE: the mountain shrinks to an INVERSE PROBLEM — the courier is
+review-proven honest and leading-order linear in the field statistics, so the observed
+backdrop can be INVERTED to "what field statistics are required?", then judged for naturalness
+in UDT's own terms (thermal-at-the-asymptote per the kappa-lead / scale-free / free-boundary-
+data) vs demanding micro-sector fine structure. This merges with the BACKGROUND-FREEDOM AUDIT
+(Charles, 2026-08-09: the low-z SNe fit pinned X_eff hard but n softly and the near-wall
+profile NOT AT ALL; a matter-content FEATURE in A(r) generically produces parity-dependent
+[even/odd-like] spectral shifts at the background level; the doublet kill-switch rides the
+FREE mixing amplitude h0) into ONE named candidate next step: **THE FREE-DATA INVENTORY
+AUDIT** — what does the observed sky demand of the relation's free data (profile structure
+beyond P1, h0, the mu-field statistics), how much is already natural, and what provably
+exceeds the background/relational layer. Gated on Charles's go; characterize-not-impose
+discipline (a feature added TO manufacture alternation = template-led, forbidden framing;
+the honest run is data-first joint constraint).
