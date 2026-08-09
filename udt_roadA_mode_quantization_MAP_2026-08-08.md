@@ -4,8 +4,9 @@ Date 2026-08-08 | branch grok | MODE: MAP ONLY — no compute, no derivation; Ch
 first. Charles's go: "the word" (on the CMB-first strategy: resolve the peaks natively with
 x_max/phi+orchestra+mu, then return to BAO with a complete model). Parent recordings: the
 forward lead (Road A, c0f82a35), X-CMB-ANISO (unified with X-BAO-ORIGIN as one transfer-function
-question at two depths), the mu-ON default ruling, the terminology ruling. The M3d calibration
-runs in parallel (data lane; no conflict — this is the theory lane).
+question at two depths), the mu-ON default ruling, the terminology ruling. (STATUS 2026-08-09:
+the BAO data lane, incl. the M3d calibration, is now BANKED + TABLED — this is the theory lane;
+LIVE is authority.)
 
 ## 0. The question, natively posed (observe-mode; the template hazard named first)
 

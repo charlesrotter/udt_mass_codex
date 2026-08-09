@@ -5,7 +5,8 @@ his two catches (2026-08-09): the background-freedom question ("is it source phy
 adjustment of matter content? We pinned the wall radius and mass content with a simple
 relatively low z SNe fit") and C3 ("source physics" = a baryon-fluid import; the native
 question = the comparison-field's statistics as free data of the relation). Terminology +
-mu-on + no-freeze rulings all in force. The M3d calibration (data lane) runs in parallel.
+mu-on + no-freeze rulings all in force. (STATUS 2026-08-09: the BAO data lane, incl. the M3d
+calibration, is now BANKED + TABLED per Charles — this is the theory lane; LIVE is authority.)
 
 ## 0. The question, natively posed
 
