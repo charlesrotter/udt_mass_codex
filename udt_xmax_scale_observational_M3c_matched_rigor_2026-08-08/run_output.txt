@@ -1,0 +1,34 @@
+M3c RE-FIT under FULL covariance (12 bins, N_reg=48)
+Hartlap=0.7234  Percival_m=0.9735 (sig x0.9867)
+
+== (a) DETECTION: global trials-corrected p (full C) ==
+  DESI nosys: global_p_full=0.0000  glob_max_full=32.21  detected(<0.01)=True
+  DESI sys: global_p_full=0.0000  glob_max_full=31.18  detected(<0.01)=True
+  BOSS nosys: global_p_full=0.3100  glob_max_full=7.54  detected(<0.01)=False
+  BOSS sys: global_p_full=0.1233  glob_max_full=8.68  detected(<0.01)=False
+
+  driver shells (nosys) dchi2 diag->full, local_p diag->full:
+    LRG_0.90_0.95    dchi2   7.81-> 13.16  localp 0.007->0.000  th_b=2.19
+    LRG_0.95_1.00    dchi2   6.60-> 15.72  localp 0.000->0.000  th_b=6.19
+    LRG_1.00_1.05    dchi2  13.56-> 32.21  localp 0.000->0.000  th_b=2.40
+    LRG_1.05_1.10    dchi2   6.77-> 11.30  localp 0.023->0.000  th_b=1.24
+    QSO_0.95_1.10    dchi2   9.52->  8.79  localp 0.010->0.010  th_b=1.36
+    LRG_0.70_0.75    dchi2   5.10->  7.41  localp 0.040->0.053  th_b=2.40
+    CMASS_0.53_0.58  dchi2   5.37->  5.14  localp 0.013->0.123  th_b=4.24
+    CMASS_0.48_0.53  dchi2   3.03->  6.97  localp 0.177->0.063  th_b=4.24
+    CMASS_0.43_0.48  dchi2   3.54->  7.09  localp 0.037->0.057  th_b=1.99
+
+== (b) TRACER SPLIT: LRG_1.00_1.05 vs QSO_0.95_1.10 (zc~1.02) ==
+  nosys diag: LRG th=2.348+/-0.218  QSO th=1.347+/-0.127  -> split=3.97 sigma
+  nosys full: LRG th=2.348+/-0.199  QSO th=1.424+/-0.137  -> split=3.83 sigma
+  sys diag: LRG th=2.348+/-0.194  QSO th=1.450+/-0.127  -> split=3.87 sigma
+  sys full: LRG th=2.348+/-0.155  QSO th=1.450+/-0.126  -> split=4.51 sigma
+  (M3 original 40-bin diagonal: LRG th=2.44, QSO th=1.39)
+
+== (c) THREADING ell=58.34 on DESI PRIMARY SKY-ROBUST set (full C) ==
+  sys: chi2(ell=58.34 fixed)=27.1/3   best-fit ell=53.04  chi2/dof=22.5/2=11.2   (M3b diag PRIMARY sys: 288.4/2=144.2)
+  nosys: chi2(ell=58.34 fixed)=23.7/3   best-fit ell=51.67  chi2/dof=17.9/2=9.0   (M3b diag PRIMARY sys: 288.4/2=144.2)
+
+  BOSS prediction 'within' test (full-C center errors):
+  sys: n_within(frozen ell, full-C err)=6/9
+  nosys: n_within(frozen ell, full-C err)=6/9
