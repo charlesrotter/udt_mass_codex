@@ -1,0 +1,26 @@
+Script started on 2026-08-09 13:07:46-04:00 [TERM="xterm-256color" TTY="/dev/console" COLUMNS="80" LINES="24"]
+KEY FD1_IV1_failed_boundary_preserved: True
+KEY FD1_IV2_endpoint_controls_survived: True
+KEY FD1_IV3_independent_inside: True
+KEY FD1_IV4_independent_outside: False
+KEY FD1_IV5_frequency_agreement: True
+KEY FD1_IV6_raw_backward_residual: True
+KEY FD1_IV7_absolute_trough_containment: True
+KEY FD1_IV8_one_scale_mismatch_disclosed: True
+KEY FD1_IV9_record_schema: False
+KEY FD1_IV10_catch_proofs: True
+{
+  "boundary_locations_certified": false,
+  "inside_records": 12,
+  "maximum_frequency_drift_from_g240": 0.004728886300112367,
+  "maximum_raw_backward_residual": 2.906525090190197e-10,
+  "minimum_inside_affine_margin_to_3p1pct": 0.0019805844244235454,
+  "minimum_inside_centered_margin": 10.81289771313618,
+  "minimum_inside_one_scale_mismatch": 0.2734057640169594,
+  "outside_records": 24
+}
+WROTE /home/udt-admin/udt_mass_codex/udt_freedata_FD1_mixing_bound_2026-08-09/phase2_independent_verification.json
+TOTAL KEYS 8/10
+failed keys: ['FD1_IV4_independent_outside', 'FD1_IV9_record_schema']
+
+Script done on 2026-08-09 13:08:09-04:00 [COMMAND_EXIT_CODE="1"]
