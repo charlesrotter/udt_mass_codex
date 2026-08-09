@@ -1,0 +1,476 @@
+Script started on 2026-08-09 12:55:24-04:00 [TERM="xterm-256color" TTY="/dev/console" COLUMNS="80" LINES="24"]
+KEY FD1_P2_K1_phase1_frozen_blind: True
+KEY FD1_P2_K2_row_count: True
+KEY FD1_P2_K3_positive_affine_scale: True
+KEY FD1_P2_K4_finite_readout: True
+KEY FD1_P2_K5_edge_peak_excluded: True
+KEY FD1_P2_K6_morphology_exhaustive: True
+KEY FD1_P2_K7_anti_split_only: True
+{
+  "class_counts": {
+    "BASIN_MISMATCH": 80,
+    "FULL_CENTERED_MULTIPLET_CONTAINMENT": 170,
+    "SPLITTING_ONLY": 170
+  },
+  "class_counts_by_wall": {
+    "D": {
+      "BASIN_MISMATCH": 33,
+      "FULL_CENTERED_MULTIPLET_CONTAINMENT": 82,
+      "SPLITTING_ONLY": 95
+    },
+    "N": {
+      "BASIN_MISMATCH": 47,
+      "FULL_CENTERED_MULTIPLET_CONTAINMENT": 88,
+      "SPLITTING_ONLY": 75
+    }
+  },
+  "historical_line_is_report_only_not_merit_filter": true,
+  "historical_ra2_line_intervals": [
+    {
+      "all_three_sne_n_samples": true,
+      "field": "historical_ra2_line_met",
+      "grid_points": [
+        0.002,
+        0.005,
+        0.01,
+        0.02
+      ],
+      "hbar_first_grid": 0.002,
+      "hbar_last_grid": 0.02,
+      "q_ratio": 0.75,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "historical_ra2_line_met",
+      "grid_points": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "hbar_first_grid": 0.005,
+      "hbar_last_grid": 0.02,
+      "q_ratio": 0.75,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "historical_ra2_line_met",
+      "grid_points": [
+        0.2,
+        0.5
+      ],
+      "hbar_first_grid": 0.2,
+      "hbar_last_grid": 0.5,
+      "q_ratio": 0.95,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "historical_ra2_line_met",
+      "grid_points": [
+        0.2,
+        0.5
+      ],
+      "hbar_first_grid": 0.2,
+      "hbar_last_grid": 0.5,
+      "q_ratio": 0.95,
+      "wall": "N"
+    }
+  ],
+  "joint_intervals": [
+    {
+      "all_three_sne_n_samples": true,
+      "field": "joint_centered_and_historical_line",
+      "grid_points": [
+        0.002,
+        0.005,
+        0.01,
+        0.02
+      ],
+      "hbar_first_grid": 0.002,
+      "hbar_last_grid": 0.02,
+      "q_ratio": 0.75,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "joint_centered_and_historical_line",
+      "grid_points": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "hbar_first_grid": 0.005,
+      "hbar_last_grid": 0.02,
+      "q_ratio": 0.75,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "joint_centered_and_historical_line",
+      "grid_points": [
+        0.2,
+        0.5
+      ],
+      "hbar_first_grid": 0.2,
+      "hbar_last_grid": 0.5,
+      "q_ratio": 0.95,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "joint_centered_and_historical_line",
+      "grid_points": [
+        0.2,
+        0.5
+      ],
+      "hbar_first_grid": 0.2,
+      "hbar_last_grid": 0.5,
+      "q_ratio": 0.95,
+      "wall": "N"
+    }
+  ],
+  "landed_classification": "FD1-OPEN-COMPATIBILITY-WINDOW",
+  "maximum_centered_margin": 121.79902816298892,
+  "maximum_m0_max_abs_fractional_residual": 0.09002088081281885,
+  "minimum_centered_margin": -364.3604198600479,
+  "minimum_m0_max_abs_fractional_residual": 0.02494682122898991,
+  "morphology_intervals": [
+    {
+      "all_three_sne_n_samples": true,
+      "field": "centered_contained",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.005,
+      "q_ratio": 0.0,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "centered_contained",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.005,
+      "q_ratio": 0.0,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "centered_contained",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.01,
+      "q_ratio": 0.25,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "centered_contained",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.02,
+      "q_ratio": 0.25,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "centered_contained",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.02,
+      "q_ratio": 0.5,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "centered_contained",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.02,
+      "q_ratio": 0.5,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "centered_contained",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.05,
+      "q_ratio": 0.75,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "centered_contained",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.1,
+      "q_ratio": 0.75,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "centered_contained",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.5,
+      "q_ratio": 0.95,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "centered_contained",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.5,
+      "q_ratio": 0.95,
+      "wall": "N"
+    }
+  ],
+  "splitting_only_intervals": [
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.2,
+      "q_ratio": -2.0,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.02,
+      "q_ratio": -2.0,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.2,
+      "q_ratio": -1.0,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05
+      ],
+      "hbar_first_grid": 0.001,
+      "hbar_last_grid": 0.05,
+      "q_ratio": -1.0,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "hbar_first_grid": 0.01,
+      "hbar_last_grid": 0.2,
+      "q_ratio": 0.0,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.02,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "hbar_first_grid": 0.02,
+      "hbar_last_grid": 0.2,
+      "q_ratio": 0.0,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.02,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "hbar_first_grid": 0.02,
+      "hbar_last_grid": 0.2,
+      "q_ratio": 0.25,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.05,
+        0.1,
+        0.2
+      ],
+      "hbar_first_grid": 0.05,
+      "hbar_last_grid": 0.2,
+      "q_ratio": 0.25,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.05,
+        0.1,
+        0.2
+      ],
+      "hbar_first_grid": 0.05,
+      "hbar_last_grid": 0.2,
+      "q_ratio": 0.5,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.05,
+        0.1,
+        0.2
+      ],
+      "hbar_first_grid": 0.05,
+      "hbar_last_grid": 0.2,
+      "q_ratio": 0.5,
+      "wall": "N"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.2,
+        0.5
+      ],
+      "hbar_first_grid": 0.2,
+      "hbar_last_grid": 0.5,
+      "q_ratio": 0.75,
+      "wall": "D"
+    },
+    {
+      "all_three_sne_n_samples": true,
+      "field": "splitting_only_boolean",
+      "grid_points": [
+        0.2,
+        0.5
+      ],
+      "hbar_first_grid": 0.2,
+      "hbar_last_grid": 0.5,
+      "q_ratio": 0.75,
+      "wall": "N"
+    }
+  ]
+}
+WROTE /home/udt-admin/udt_mass_codex/udt_freedata_FD1_mixing_bound_2026-08-09/phase2_comparison.json
+TOTAL KEYS 7/7
+
+Script done on 2026-08-09 12:55:24-04:00 [COMMAND_EXIT_CODE="0"]
