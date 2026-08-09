@@ -1,15 +1,17 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-06 STATUS (RESTART ANCHOR): frontier = phi+orchestra -> c_eff -> mu(deferred); the
-> x_max PAIR-QUESTION lane is the active forward lane, MAP done, O1 pre-registration PENDING (gated
-> on Charles's go).** IF YOU ARE THE NEW SESSION: read LIVE.md topmost block first, then
-> `udt_xmax_pair_question_MAP_2026-08-06.md` (both catch-points resolved: x_max = gamma-type
-> asymptote per SR "can't reach c"; STRUCTURE=O1 scale-free / SCALE ~G*M_total/c^2 tracked
-> separately). NEXT CONCRETE STEP = preregister + run O1 (prove the lambda_t->0 degeneration is an
-> asymptote unreachable by finite composition; pure orchestra algebra; 2 reviews). Then O2 (measure
-> table), O3 (approach classes; pair law NOT hunted). The Global Cell Assembly lane is
-> ARCHIVED-LEGACY (do not resume). Build FORWARD from the frontier; no pre-orchestra reach without a
-> re-grade. The ledger below is the PRIOR (2026-08-01) in-flight record, kept for history.
+> **2026-08-09 STATUS (RESTART ANCHOR): NOTHING IN FLIGHT — clean stop.** ACTIVE ARC = CMB PEAK
+> OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-09) FIRST, then
+> `udt_freedata_inventory_MAP_2026-08-09.md` (the active next step) + `udt_roadA_mode_quantization_
+> MAP_2026-08-08.md` with RA1/RA2 CONSOLIDATED (the resonator, banked verified-LEADs). NEXT CONCRETE
+> STEP = the FREE-DATA INVENTORY AUDIT, FD1 first (the mixing-amplitude bound + sweet-spot check) —
+> GATED on Charles answering the audit catch-points (naturalness list CP2; sequencing CP3). The BAO
+> lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build
+> = a broadband-clustered fair mock, NOT run = post-hoc F-RETRO). Foundation to build forward from:
+> phi+orchestra -> c_eff -> mu-ON -> x_max O1-O3 + M1-M4 -> the D1/D2 courier theorems. Binding
+> rulings in LIVE (mu-on-always, ruler=LCDM-import, terminology, C3, anti-epicycle epistemology,
+> macro/micro ontology). The Global Cell Assembly lane stays ARCHIVED-LEGACY. Everything below is
+> PRIOR (2026-08-01/06) history.
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
 topmost block, then `udt_xmax_pair_question_MAP_2026-08-06.md` (the active lane, O1 pending) and
