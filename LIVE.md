@@ -102,8 +102,24 @@ branch has a nonempty regular local jet space: `A` is even, `h=r^2` times an eve
 remains active: geodesic-polar roundness is leading-order only, with C01-C18 screens, N01 matrices,
 and the general shift-divergence term retained. The physical geometry-to-pair groupoid cocycle
 remains OPEN; transport/one-form realization is only a conditional candidate subclass.
-**NEXT GATE (not launched):** a metric-led audit of whether the complete coframe supplies a natural
-physical cocycle or a conditional local-generator candidate, without assuming either. No eigenvalue
+
+**RECIPROCAL-FLAG FOUNDATION-OWNERSHIP AUDIT — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md` first. UDT's founded
+clock/ruler pair already supplies an abstract reciprocal calibration seed: the two channel types,
+their dual pairing, the exact character on supplied depth, and exchange parity on the abstract
+labels. The reciprocal-root flag formula `delta_RF=(ell_r-ell_t)/2` is an exact compositional,
+mixing-sensitive readout on a supplied causal flag and arrow. It is unique only in the declared
+universal order-zero character class after a formal complete-channel exchange is added. The
+physical flag, its intermediate update, that exchange extension, the non-isometric comparison
+arrow, and the `c_eff` calibration-line realization remain OPEN. The prior timelike-strain
+eigenvalue remains an invariant regular-stratum readout but is **not** a general compositional
+cocycle under mixing. Ordinary Levi-Civita/coframe transport is isometric and gives zero flag
+depth; higher-jet natural nonmetric transports form unselected families. Do not choose one.
+
+**NEXT GATE (not launched):** determine whether the complete UDT coframe and an ordered
+observer-pair query supply a pair-relative reciprocal calibration-state solder—flag, exact update,
+comparison/calibration morphism—without choosing a nonmetric tangent connection. No eigenvalue
 solve is presently authorized. FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state
 weights, and polarization remain gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
@@ -111,7 +127,8 @@ weights, and polarization remain gated.
 ### THE LINEAGE (how the arc got here — a new instance reads these to understand the foundation)
 
 1. **phi+orchestra — the milestone (banked 2026-08-05):** `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.
-   The two-observer comparison has a frame-covariant strain C_A=A^dag A; depth = a groupoid cocycle.
+   The two-observer comparison has a frame-covariant strain C_A=A^dag A; exact physical depth has
+   a groupoid-cocycle home, but the strain eigenvalue itself is not generally compositional.
 2. **the c_eff REFRAME (blind-verified 2026-08-06):** `udt_ceff_depth_orchestra_integration_2026-08-06.md`.
    c_eff = the depth profile = the strain eigenvalue lambda_t, ONE object; invariant = the two-point
    ratio (1+z)^-2; the reciprocal-lock product is chart-gauge (canon C-2026-08-06-1).
@@ -159,6 +176,7 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
+`udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md` →

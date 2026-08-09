@@ -4,11 +4,15 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; N03 profile-role map complete)
+## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; reciprocal-flag foundation gate complete)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The controlling checkpoint is
+**CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`: the abstract
+clock/ruler reciprocal calibration seed is founded, and the reciprocal-root flag character is an
+exact conditional readout, but the physical flag/update, complete exchange, comparison arrow and
+calibration-line realization remain open. The preceding profile gate is
 `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`: within its frozen bounded
 arena no mapped source supplies a role-correct complete global profile; P1's observer-pair/SNe role
 survives while its direct identity promotion to a smooth centered C1 lapse is excluded only in that
@@ -35,9 +39,9 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is a metric-led audit of whether the complete coframe supplies a natural
-geometry-to-pair groupoid cocycle or a conditional local first-order generator candidate. It must
-not assume every cocycle is a connection. No profile repair, inner cutoff, eigenvalue solve, or FD2
+Nothing is in flight. NEXT is a metric-led audit of whether the complete coframe and ordered pair
+query supply a pair-relative reciprocal calibration-state solder without choosing a nonmetric
+tangent connection. No profile repair, inner cutoff, eigenvalue solve, or FD2
 is authorized. Do not promote C1, select `k0`, select the best standalone ladder, or invent source
 weights.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, but its FD1-first route is

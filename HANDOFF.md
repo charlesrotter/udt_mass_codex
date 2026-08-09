@@ -62,10 +62,22 @@ envelope has a nonempty smooth local jet space compatible with mu on. P1's pair/
 only its direct identity promotion to that centered lapse is excluded. The reference-observer
 `c_eff` readout remains distinct from the invariant two-point ratio. Phi+orchestra, C01-C18, N01
 matrix mixing, and the general shift-divergence term remain live. The physical groupoid cocycle is
-open, and transport is only a conditional candidate subclass. **NEXT GATE, not launched:** test
-whether the complete coframe supplies a natural physical cocycle or local-generator candidate
-without assuming one. C1 remains unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical
-populations, and polarization remain gated. The parent menu is
+open, and transport is only a conditional candidate subclass.
+
+**RECIPROCAL-FLAG FOUNDATION-OWNERSHIP AUDIT = COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md` first. The foundation
+already owns the abstract clock/ruler calibration seed. The exact reciprocal-root flag character is
+a strong conditional readout, not yet the physical pair law: the physical flag and update, complete
+exchange extension, non-isometric comparison arrow, and `c_eff` calibration line remain open. The
+mixed timelike-strain eigenvalue is an invariant readout, not a general cocycle. Levi-Civita gives
+zero reciprocal depth; arbitrary higher-jet nonmetric transports are nonunique and must not be
+selected by convenience.
+
+**NEXT GATE, not launched:** test whether the complete coframe plus ordered observer-pair query
+supplies the pair-relative calibration-state solder without choosing a tangent connection. C1
+remains unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and
+polarization remain gated. The parent menu is
 `udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:

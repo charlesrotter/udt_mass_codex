@@ -16,8 +16,11 @@
 > spherical anchor; P1's relational/SNe role survives, and mixed-wall D/N remain unselected.
 > N03 is complete and `VERIFIED-WITH-CAVEATS`: no mapped complete global profile; nonempty regular
 > C1 local jets compatible with mu on; full angular correction retained; physical groupoid cocycle
-> open and transport conditional only. NEXT GATE = an unlaunched complete-coframe-to-cocycle/
-> local-generator audit; no profile repair, inner cutoff, eigenvalue solve, or FD2;
+> open and transport conditional only. The reciprocal-flag foundation audit is COMPLETE at
+> `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`: abstract calibration
+> seed derived, exact conditional flag character, physical flag/update/arrow/calibration still open.
+> NEXT GATE = the pair-relative calibration-state solder audit; no profile repair, inner cutoff,
+> eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build
 > = a broadband-clustered fair mock, NOT run = post-hoc F-RETRO). Foundation to build forward from:
@@ -28,6 +31,7 @@
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
 topmost block (2026-08-09), then
+`udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`,
 `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`,
 `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`,
 `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`,

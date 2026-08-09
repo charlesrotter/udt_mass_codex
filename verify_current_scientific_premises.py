@@ -89,6 +89,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
@@ -129,6 +130,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
@@ -152,6 +154,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
@@ -169,9 +172,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 34, "premise registry must contain exactly 34 rows")
+    require(len(rows) == 35, "premise registry must contain exactly 35 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 34, "duplicate premise id")
+    require(len(by_id) == 35, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -368,6 +371,26 @@ def main() -> None:
         == "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
         "N03 profile-role source changed",
     )
+    require(
+        by_id["G35"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__ABSTRACT_RECIPROCAL_CALIBRATION_SEED_DERIVED__RECIPROCAL_ROOT_CONDITIONAL_UNIQUE_UNIVERSAL_ORDER_ZERO_READOUT__PHYSICAL_FLAG_ARROW_CALIBRATION_OPEN",
+        "reciprocal-flag ownership status regressed or promoted",
+    )
+    require(by_id["G35"]["epistemic_label"] == "MIXED", "reciprocal-flag label changed")
+    require(
+        by_id["G35"]["active_use"] == "FOUNDATION_OWNERSHIP_AND_REGRESSION_GATE_ONLY",
+        "reciprocal-flag result promoted",
+    )
+    require("pair-relative physical flag" in by_id["G35"]["open_scope"], "physical flag selected")
+    require("physical comparison or calibration morphism" in by_id["G35"]["open_scope"], "physical arrow selected")
+    require("timelike-strain eigenvalue called a general cocycle" in by_id["G35"]["forbidden_regression"], "strain cocycle guard absent")
+    require("K called a causal Lorentz exchange" in by_id["G35"]["forbidden_regression"], "K type guard absent")
+    require("arbitrary higher-jet nonmetric connection selected" in by_id["G35"]["forbidden_regression"], "connection-selection guard absent")
+    require(
+        by_id["G35"]["controlling_source"]
+        == "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+        "reciprocal-flag ownership source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -440,7 +463,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 34 premise guards, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 35 premise guards, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

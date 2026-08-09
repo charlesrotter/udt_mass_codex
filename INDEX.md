@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION. Read
+   `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
@@ -24,9 +25,11 @@
    banked P1 row is a regular complete spherical center-to-wall anchor, without invalidating P1's
    relational/SNe role. N03 separates the pair law from a centered local lapse, retains a nonempty
    mu-on-compatible regular C1 jet space and the full angular correction, and leaves the physical
-   groupoid cocycle open. Transport remains a conditional candidate only. NEXT is an unlaunched
-   complete-coframe-to-cocycle/local-generator audit; no eigensolve, profile repair, inner cutoff,
-   or FD2. Then read the parent menu
+   groupoid cocycle open. The subsequent reciprocal-flag audit derives the abstract reciprocal
+   calibration seed and an exact conditional flag readout, while leaving the physical flag, update,
+   arrow, complete exchange and calibration-line realization open. NEXT is the pair-relative
+   calibration-state solder audit; no eigensolve, profile repair, inner cutoff, or FD2. Then read
+   the parent menu
    `udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 remains `RA2-PARTIAL-WEAK`; BAO is
    BANKED + TABLED; the Assembly lane stays ARCHIVED-LEGACY.
 6. For foundation detail, read the lineage docs LIVE cites (phi+orchestra
@@ -36,6 +39,8 @@
 
 ## Current scientific routing
 
+- `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md` — current foundation
+  gate: exact conditional reciprocal-root flag character; physical comparison-state solder open.
 - `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md` — current profile-role
   gate: P1 pair role survives, direct centered-lapse identity fails only in that branch, regular C1
   local jets exist, and the physical groupoid cocycle remains open.

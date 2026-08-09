@@ -4,6 +4,18 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 9 reciprocal-flag foundation-ownership precedence notice
+
+Before treating a strain eigenvalue, tangent connection, or complete coframe transition as the
+physical observer-pair depth law, read
+`udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`. The founding
+clock/ruler channels supply an abstract reciprocal calibration seed. The reciprocal-root causal-
+flag formula is an exact conditional order-zero character on a supplied flag and arrow, not the
+complete physical UDT law. The physical flag and update, complete exchange extension,
+non-isometric comparison arrow, and `c_eff` calibration-line realization remain open. The prior
+timelike-strain extractor is not a general compositional cocycle under mixing. The next gate is the
+pair-relative calibration-state solder, not an arbitrary nonmetric connection.
+
 ## August 9 N03 profile-role and regular-center precedence notice
 
 Before identifying an observer-pair profile with a centered local metric coefficient or launching

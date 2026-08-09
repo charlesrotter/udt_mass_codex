@@ -41,9 +41,12 @@ two-observer/SNe relation while excluding only its direct identity promotion to 
 C1 lapse. The regular C1 local jet space is nonempty and mu-on compatible; the full angular
 orchestra, C01-C18 screens, N01 matrices, and general shift-divergence term remain live. No mapped
 source supplies the complete global profile. The physical groupoid cocycle remains open and
-transport is only a conditional candidate route. The next unlaunched gate is a complete-coframe
-audit of that cocycle/local-generator seam; no profile repair, inner cutoff, eigenvalue solve, or
-FD2 restart is authorized.
+transport is only a conditional candidate route. The subsequent reciprocal-flag foundation audit
+is complete at `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`. It
+derives the abstract reciprocal calibration seed and an exact conditional order-zero flag
+character, while leaving the physical flag/update, complete exchange, comparison arrow and
+calibration-line realization open. The next unlaunched gate is the pair-relative calibration-state
+solder audit; no profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane

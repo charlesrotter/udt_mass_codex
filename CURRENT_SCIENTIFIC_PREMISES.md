@@ -227,5 +227,21 @@ The metric still has not selected the unique physical cocycle; complete-arrow st
 magnitudes, and the conditional stationary screen-modulated family remain nonunique or premise
 conditional.
 
+The August 9 reciprocal-flag foundation-ownership audit,
+`udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, supplies the current
+correction layer. The founded clock/ruler channels already form an abstract reciprocal calibration
+seed. On a supplied causal flag and comparison arrow,
+`delta_RF=(ell_r-ell_t)/2` is an exact compositional and mixing-sensitive character. It is unique
+only among universal diffeomorphism-natural order-zero real characters after a formal
+complete-channel exchange is added. That exchange is not a causal Lorentz swap and is not yet
+founded on the complete flag. The physical flag, its intermediate update, the non-isometric
+comparison arrow, and the `c_eff` calibration-line realization remain `OPEN`.
+
+The earlier timelike-strain eigenvalue remains a valid endpoint-frame-invariant regular-stratum
+readout, but it is not a general groupoid cocycle under mixing. Levi-Civita and orthonormal-coframe
+transport are isometric and give zero reciprocal-root depth. Higher-jet metric-natural nonmetric
+connections form unselected families, so none may be promoted by convenience. The next gate is the
+pair-relative calibration-state solder, not an arbitrary connection search.
+
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

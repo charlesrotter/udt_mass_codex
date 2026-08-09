@@ -8,6 +8,7 @@ record. Root `LIVE.md` wins every status disagreement.
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**: first read
+`../udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
@@ -22,8 +23,10 @@ fixed-`|m|`/parity C1 matrix wiring and full radial matrix flux, without selecti
 spectrum. N02 finds no banked P1 regular complete spherical center-to-wall anchor; P1's relational/
 SNe role is unchanged. N03 preserves that pair role, maps the nonempty mu-on-compatible regular C1
 jet space with the full angular correction, and leaves the physical groupoid cocycle open;
-transport is conditional only. NEXT is an unlaunched complete-coframe-to-cocycle/local-generator
-audit; no eigensolve, profile repair, inner cutoff, or FD2. Then read the parent menu
+transport is conditional only. The reciprocal-flag audit derives the abstract calibration seed and
+exact conditional flag character, while leaving its physical flag, update, arrow and calibration
+realization open. NEXT is the pair-relative calibration-state solder audit; no eigensolve, profile
+repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a
 prediction. The BAO lane is `BANKED + TABLED`.
 
