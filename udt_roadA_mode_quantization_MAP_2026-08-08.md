@@ -101,12 +101,13 @@ Terminology ruling in force.
 
 ## 8. Catch-points for Charles (the point of a MAP)
 
-- **CP1 — the probe operator:** W1 (the metric's own wave operator) as primary, W2 kinematic as
-  cross-check — or do you hold a different intuition for what should oscillate (the depth field
-  itself? something angular)? This choice shapes everything downstream.
-- **CP2 — the comparison discipline:** confirm §4 (blind ladder first; the non-integer-ratio
-  fact pre-stated; mismatch first-class). This is the anti-steering lock for the whole arc.
-- **CP3 — ownership:** this IS the discreteness program's first concrete test. Run it in this
-  arc (my recommendation — the machinery is warm), or open a dedicated discreteness lane?
-- **CP4 — mu's entry (the inertia ruling):** static-slice-first-with-mu-on-owed-in-arc (§5),
-  or mu-on leads from the first equation at tractability cost? Your ruling.
+- **CP1 — RULED (Charles, 2026-08-08): W1 primary + W2 cross-check** ("your idea").
+- **CP2 — RULED: YES** — the §4 comparison discipline confirmed (blind ladder; non-integer
+  ratios pre-stated; mismatch first-class).
+- **CP3 — RULED: THIS ARC** — the discreteness program's first concrete test runs here.
+- **CP4 — RULED (emphatic, strengthens the inertia ruling): "mu-on leads. It should never be
+  off."** The mode problem is posed on the mixing-ON background from the FIRST equation; the
+  mu-off/static case may appear ONLY as a limiting check DERIVED FROM the mu-on system, never
+  solved first. Tractability cost accepted by the owner.
+
+**ALL CATCH-POINTS RESOLVED — RA1 (mu-on) + RA3 preregister and run.**
