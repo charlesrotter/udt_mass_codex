@@ -1,0 +1,69 @@
+KEY RA1_K1_detg: True
+KEY RA1_K1b_block_lorentzian: True
+KEY RA1_K2_ginv: True
+KEY RA1_K3_box_radial: True
+KEY RA1_K4a_p_is_WA: True
+KEY RA1_K4b_weight: True
+KEY RA1_K4c_pw_is_r2: True
+KEY RA1_K6_dragging_completion: True
+KEY RA1_K5_ellp_form: True
+KEY RA1_K7_h_carriers: True
+KEY RA1_K8_liouville_identity: True
+KEY RA1_K9_weight_isometry: True
+SECTION S1-S4 done
+KEY RA1_K10_p_exponent_regimeA: True
+KEY RA1_K11_p_exponent_regimeH: True
+KEY RA1_K12a_w_exponent_regimeA: True
+KEY RA1_K12b_w_exponent_regimeH: True
+KEY RA1_K13a_x_finite_sub: True
+KEY RA1_K13b_x_div_super: True
+KEY RA1_K13c_x_div_marginal: True
+KEY RA1_K15_conj_subcritical: True
+KEY RA1_K14_U_subdominant_qpos: True
+  witness n=1/2 q=2 [R1  n<1, A-dom      ] sigma=1/2 -> LC (expected LC)
+  witness n=1/2 q=1/8 [R1  n<1, h-dom      ] sigma=3/8 -> LC (expected LC)
+  witness n=3/2 q=1/8 [R2  1<=n<2 created  ] sigma=7/8 -> LC (expected LC)
+  witness n=3/2 q=1/2 [R2  1<=n<2 q too big] sigma=5/4 -> LP (expected LP)
+  witness n=1 q=1/4 [R2  n=1 created     ] sigma=3/4 -> LC (expected LC)
+  witness n=1 q=3/4 [R2  n=1 q too big   ] sigma=1 -> LP (expected LP)
+  witness n=1 q=1/2 [edge sigma=1        ] sigma=1 -> LP (expected LP)
+  witness n=5/2 q=1 [R3  n>=2, q>0       ] sigma=9/4 -> LP (expected LP)
+  witness n=2 q=0 [R3  n=2, q=0        ] sigma=1 -> LP (expected LP)
+  witness n=1 q=0 [R2  n=1, q=0 created] sigma=1/2 -> LC (expected LC)
+  witness n=3 q=-2 [R4  deep q<0        ] sigma=-1/2 -> LC (expected LC)
+KEY RA1_K16_witness_regions: True
+SECTION S5-S6 done
+KEY RA1_K17a_wedge_critical_line: True
+KEY RA1_K17b_wedge_supercritical: True
+  wedge witness n=3 q=-3/4: e=-3 -> super (expected super)
+  wedge witness n=3 q=-1: e=-2 -> crit (expected crit)
+  wedge witness n=3 q=-2: e=-4/3 -> sub (expected sub)
+  wedge witness n=3/2 q=-1: e=-4/5 -> sub (expected sub)
+KEY RA1_K17c_wedge_witnesses: True
+KEY RA1_K18a_s_u_roundtrip: True
+KEY RA1_K18b_s_rate: True
+KEY RA1_K18c_ccrit: True
+KEY RA1_K30a_n2_qneg_sigma: True
+KEY RA1_K30b_n2_qneg_drag_sub: True
+KEY RA1_K30c_ray_sigma1: True
+KEY RA1_K19a_wkb_valid: True
+KEY RA1_K19b_attractive_LC: True
+KEY RA1_K19c_repulsive_LP: True
+SECTION S7 done
+KEY RA1_K20a_center_indicial: True
+KEY RA1_K20b_center_roots: True
+KEY RA1_K20c_center_conj_coeff: True
+KEY RA1_K21a_center_literal_regular_p: True
+KEY RA1_K21b_centrifugal_removed: True
+KEY RA1_K22_zeeman_splitting: True
+KEY RA1_K23_xw_shrinks: True
+KEY RA1_K24_q0_continuum_shift: True
+KEY RA1_K25a_muoff_p: True
+KEY RA1_K25b_muoff_weight: True
+KEY RA1_K25c_muoff_N: True
+KEY RA1_K26_muoff_sigma: True
+KEY RA1_K27_O2_optical_crosscheck: True
+KEY RA1_K28_FRETRO_no_float_atoms: True
+KEY RA1_K29_FMUOFF_h_in_first_system: True
+SECTION S8-S11 done
+TOTAL: 49/49 keys True

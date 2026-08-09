@@ -1,0 +1,52 @@
+R1KEY detg_is_minus_D_over_A: True
+R1KEY ginv_ttpsi_block: True
+R1KEY box_assembly_matches_radial_eq: True
+R1KEY p_is_WA: True
+R1KEY weight_is_Wr2_over_D: True
+R1KEY pw_invariant_r2: True
+R1KEY dragging_completion: True
+R1KEY liouville_identity: True
+R1KEY weight_isometry: True
+R1KEY x_muoff_optical: True
+R1KEY sigma_eff_formula_on_witnesses: True
+R1KEY x_finite_iff_sigma_lt_1: True
+R1KEY conjugation_always_subcritical: True
+PART 1-3 done
+  map (1/2,2): mine=LC expected=LC OK
+  map (1/2,1/8): mine=LC expected=LC OK
+  map (1/2,-3): mine=LC expected=LC OK
+  map (3/2,1/8): mine=LC expected=LC OK
+  map (3/2,1/2): mine=LP-continuum expected=LP-continuum OK
+  map (1,1/4): mine=LC expected=LC OK
+  map (1,3/4): mine=LP-continuum expected=LP-continuum OK
+  map (1,1/2): mine=LP-continuum expected=LP-continuum OK
+  map (5/2,1): mine=LP-continuum expected=LP-continuum OK
+  map (2,0): mine=LP-continuum(shifted-edge) expected=LP-continuum(shifted-edge) OK
+  map (1,0): mine=LC expected=LC OK
+  map (3,-2): mine=LC expected=LC OK
+  map (3,-3/4): mine=SIGN-SPLIT expected=SIGN-SPLIT OK
+  map (3,-1): mine=CRITICAL(c_crit-vs-3/4) expected=CRITICAL(c_crit-vs-3/4) OK
+  map (4,-3/2): mine=SIGN-SPLIT expected=SIGN-SPLIT OK
+  map (4,-5/2): mine=LC expected=LC OK
+  map (4,-1): mine=LP-continuum expected=LP-continuum OK
+R1KEY region_map_independent: True
+R1KEY R2_muoff_LP: True
+R1KEY wedge_bounds: True
+R1KEY ccrit_integrand_leading: True
+R1KEY ccrit_value: True
+R1KEY ccrit_only_dragging_critical: True
+R1KEY wedge_wkb_valid: True
+R1KEY wedge_wkb_limit: True
+R1KEY wedge_attractive_bothL2: True
+R1KEY wedge_repulsive_action_diverges: True
+R1KEY wedge_counter_nonoscillatory_all_lambda: True
+R1KEY center_indicial: True
+R1KEY center_conj_minus_quarter: True
+R1KEY center_literal_regular: True
+R1KEY zeeman_split: True
+R1KEY xw_le_xopt_identity: True
+R1KEY muoff_p_w_N: True
+R1KEY muoff_LC_iff_n_lt_1: True
+R1KEY mixing_never_destroys_discrete_n_lt_1: True
+PART 4-7 done
+REVIEW1 TOTAL: 32/32 True
