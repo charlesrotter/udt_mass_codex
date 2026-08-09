@@ -95,6 +95,25 @@ knob-count growing with the fact-count; no cross-observable threading; nothing f
 - Sequencing note: FD1 ⊂ days; FD2 needs FD1's background; FD3 is the deep one and can run
   parallel to FD2. The M3d verdict gates nothing here but informs §2's parked items.
 
+## 3b. THE NAMED END-GOAL — FD4, THE PRECISION ANCHOR (Charles, 2026-08-09, verbatim-intent)
+
+"Optimizing things like mass/energy density, the exact x_max, perhaps fine tuning the profile
+curve, when you have 7 accurately defined points, is one of the most accurate anchors in
+cosmology, almost like lock tumblers, or tuning a piano. If this works, and then cross
+correlates with other observables, that's kind of a wow moment. We are talking about
+sub percent accuracy for x_max, and mass_total." ADOPTED as the audit's destination:
+**FD4 (gated behind FD1+FD2):** the joint precision inversion — the 7 Planck peak positions
+(~0.1% each; 7 harmonics of ONE cavity) + the SNe fit + (if calibration-real) the clustering
+record, inverted together for (R_w, n, h-profile, fine structure) with the knob count reported.
+THE CROSS-ANCHOR TEST (the falsifiable wow): the CMB-fitted wall must land INSIDE the
+SNe-fitted intervals (X_eff 2086±27 Mpc; n's band) — same knobs, different observables;
+incompatibility = the picture breaks (the residual-rigidity clause made concrete). PRECISION
+HONESTY: sub-percent effective anchor precision is UNLOCKED BY FD2 (the unmodeled fine
+structure currently caps fits at ~1-3% vs Planck's ~0.1%); M_total's absolute value carries
+the dimensional lead's O(1)-factor asterisk until a native law fixes it (relative precision
+tracks R_w). The piano-tuner's beats = the residual pattern (alternation, offset drift): the
+diagnostic, not noise.
+
 ## 4. Falsifiers
 
 **F-IMPOSE (primary):** characterize-not-impose — every derived requirement carries its
