@@ -1,0 +1,202 @@
+{
+  "all_passed": true,
+  "check_count": 48,
+  "checks": [
+    {
+      "name": "24 frozen source identities",
+      "passed": true
+    },
+    {
+      "name": "hash UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "hash CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "passed": true
+    },
+    {
+      "name": "hash udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/FOUNDATION_OWNERSHIP.tsv",
+      "passed": true
+    },
+    {
+      "name": "hash udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/ARROW_CANDIDATE_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "name": "hash udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/NEXT_STEP.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/DERIVATION_RESULT.json",
+      "passed": true
+    },
+    {
+      "name": "hash udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/VERIFICATION_RESULT.json",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_native_global_coframe_definition_audit_2026-07-28/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_query_bundle_section_descent_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_reciprocal_path_composition_residual_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_complete_coframe_extension_solvability_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_global_local_reconstruction_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_ceff_profile_binding_test_2026-08-06/DERIVATION_NOTES.md",
+      "passed": true
+    },
+    {
+      "name": "hash udt_xmax_asymptotic_limit_frame_correction_2026-08-05/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "controller landing",
+      "passed": true
+    },
+    {
+      "name": "controller all checks pass",
+      "passed": true
+    },
+    {
+      "name": "controller source count",
+      "passed": true
+    },
+    {
+      "name": "abstract calibration line derived",
+      "passed": true
+    },
+    {
+      "name": "general functor remains open",
+      "passed": true
+    },
+    {
+      "name": "independent chart identity strain",
+      "passed": true
+    },
+    {
+      "name": "independent correct map is isometric",
+      "passed": true
+    },
+    {
+      "name": "independent regular query flag",
+      "passed": true
+    },
+    {
+      "name": "independent triangle nonadditivity",
+      "passed": true
+    },
+    {
+      "name": "independent dexp noncomposition",
+      "passed": true
+    },
+    {
+      "name": "independent Jacobi block noncomposition",
+      "passed": true
+    },
+    {
+      "name": "independent raw chart current",
+      "passed": true
+    },
+    {
+      "name": "independent covariantized chart current",
+      "passed": true
+    },
+    {
+      "name": "independent higher-order family",
+      "passed": true
+    },
+    {
+      "name": "candidate identities unique",
+      "passed": true
+    },
+    {
+      "name": "LC candidate zero-depth",
+      "passed": true
+    },
+    {
+      "name": "dexp rejected as functor",
+      "passed": true
+    },
+    {
+      "name": "Killing branch conditional",
+      "passed": true
+    },
+    {
+      "name": "no physical universal solder claimed",
+      "passed": true
+    },
+    {
+      "name": "status identities unique",
+      "passed": true
+    },
+    {
+      "name": "order-one no-go scoped",
+      "passed": true
+    },
+    {
+      "name": "higher-order not ruled out",
+      "passed": true
+    },
+    {
+      "name": "physical c_eff join open",
+      "passed": true
+    }
+  ],
+  "landing": "ABSTRACT_RECIPROCAL_CALIBRATION_LINE_DERIVED__PAIR_RELATIVE_CAUSAL_FLAG_CONDITIONALLY_CONSTRUCTIBLE_ON_REGULAR_QUERIES__NO_NONZERO_ORDER_ZERO_OR_FIRST_METRIC_JET_NATURAL_SOLDER__STATIONARY_KILLING_SOLDER_CONDITIONAL_POSITIVE__GENERAL_BILOCAL_GLOBAL_CALIBRATION_STATE_FUNCTOR_OPEN",
+  "method": "standard_library_fraction_and_numeric_reconstruction_no_controller_import",
+  "passed_count": 48,
+  "schema": "udt-reciprocal-calibration-state-solder-independent-v1"
+}

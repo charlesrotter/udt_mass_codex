@@ -1,0 +1,492 @@
+{
+  "all_passed": true,
+  "check_count": 91,
+  "checks": [
+    {
+      "detail": "",
+      "name": "source manifest has 24 rows",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source manifest paths are unique",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/FOUNDATION_OWNERSHIP.tsv",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/FOUNDATION_OWNERSHIP.tsv",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/ARROW_CANDIDATE_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/ARROW_CANDIDATE_LEDGER.tsv",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/NEXT_STEP.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/NEXT_STEP.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/DERIVATION_RESULT.json",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/DERIVATION_RESULT.json",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/VERIFICATION_RESULT.json",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/VERIFICATION_RESULT.json",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_native_global_coframe_definition_audit_2026-07-28/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_native_global_coframe_definition_audit_2026-07-28/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_query_bundle_section_descent_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_query_bundle_section_descent_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_reciprocal_path_composition_residual_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_reciprocal_path_composition_residual_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_metric_natural_reciprocal_split_selector_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_complete_coframe_extension_solvability_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_complete_coframe_extension_solvability_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_full_coframe_first_jet_stratified_transition_atlas_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_global_local_reconstruction_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_global_local_reconstruction_audit_2026-08-04/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_ceff_profile_binding_test_2026-08-06/DERIVATION_NOTES.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_ceff_profile_binding_test_2026-08-06/DERIVATION_NOTES.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source exists: udt_xmax_asymptotic_limit_frame_correction_2026-08-05/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source hash: udt_xmax_asymptotic_limit_frame_correction_2026-08-05/AUDIT_REPORT.md",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "founded D preserves abstract K",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "founded D is nonisometric for physical eta",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure reciprocal clock density squared",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure reciprocal plane density squared",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "associated calibration multiplier is exp(-2t)",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "coframe matching is a metric isometry",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "coframe matching preserves clock density",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "coframe matching preserves plane density",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "chart identity manufactures reciprocal strain",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "correct same-geometry component map is isometric",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "identity and covariant component map differ",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "Lorentz/Levi-Civita model transport is isometric",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "isometric clock density is one",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "isometric plane density is one",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "regular query clock is unit timelike",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "regular query ruler is unit spacelike",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "regular query flag is Lorentzian",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "flat metric transport of regular query gives zero scale",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "generic triangle separation is not additive",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "nonnegative separation cannot reverse sign",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "dexp transverse half factor",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "dexp transverse full factor",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "dexp 4D block is not subdivision-compositional",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "full Jacobi phase map composes",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "Jacobi position block does not compose alone",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "local Lorentz current has inhomogeneous boost term",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reciprocal projection kills pure Lorentz gauge term",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "coordinate reparameterization produces raw reciprocal current",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "Levi-Civita covariantization removes chart current",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "normal-coordinate metric first jets vanish",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "normal-coordinate Levi-Civita coefficients vanish",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "higher-order natural connection clock scale is 6c",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "higher-order natural connection depth is -3c",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "Killing norm ratios compose",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "Killing norm ratio reverses",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "Killing normalization cancels",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "null transported clock density vanishes",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "null clock makes logarithmic character undefined",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "candidate ids are unique",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "exactly one universal derived nonzero solder is absent",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "stationary positive branch remains conditional",
+      "passed": true
+    }
+  ],
+  "exact": {
+    "calibration_line": "|Lambda^2 P|^(1/2) tensor |L|^(-1)",
+    "dexp_full_factor": "3*sqrt(3)/(2*pi)",
+    "dexp_half_factor": "3/pi",
+    "higher_order_connection_depth": "-3*c",
+    "pure_multiplier": "exp(-2*t)",
+    "regular_query_gram": [
+      "-1",
+      "0",
+      "0",
+      "1"
+    ]
+  },
+  "landing": "ABSTRACT_RECIPROCAL_CALIBRATION_LINE_DERIVED__PAIR_RELATIVE_CAUSAL_FLAG_CONDITIONALLY_CONSTRUCTIBLE_ON_REGULAR_QUERIES__NO_NONZERO_ORDER_ZERO_OR_FIRST_METRIC_JET_NATURAL_SOLDER__STATIONARY_KILLING_SOLDER_CONDITIONAL_POSITIVE__GENERAL_BILOCAL_GLOBAL_CALIBRATION_STATE_FUNCTOR_OPEN",
+  "passed_count": 91,
+  "schema": "udt-reciprocal-calibration-state-solder-v1",
+  "source_count": 24,
+  "statuses": {
+    "abstract_calibration_line": "DERIVED_GIVEN_CAUSAL_FLAG_GROUPoid",
+    "differential_exponential": "NONCOMPOSITIONAL_4D_BLOCK",
+    "general_physical_functor": "OPEN_REQUIRES_BILOCAL_GLOBAL_OR_DYNAMICAL_OWNER",
+    "higher_order_metric_natural_arrow": "NONUNIQUE_FAMILY",
+    "jacobi_phase_space": "COMPOSITIONAL_WRONG_DIMENSION_WITHOUT_REDUCTION",
+    "levi_civita": "EXACT_ISOMETRIC_ZERO_DEPTH",
+    "local_order_zero_or_first_metric_jet_solder": "NO_NONZERO_NATURAL_SOLDER",
+    "pair_relative_flag": "CONDITIONAL_REGULAR_QUERY_CONSTRUCTION",
+    "raw_coframe_current": "PRESENTATION_DEPENDENT",
+    "stationary_killing": "CONDITIONAL_POSITIVE_SOLDER",
+    "unique_geodesic_or_world_function": "DIRECTION_ONLY_NOT_CALIBRATION"
+  },
+  "sympy_version": "1.13.1"
+}
