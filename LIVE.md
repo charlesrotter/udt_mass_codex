@@ -136,10 +136,33 @@ question -- where does structure live (matter/profile/mu-field) -- the map an HO
 every regime examined. Honest scorecard: none of the derived origins is a native per-shell
 bump-maker (courier scale-transparent) -- BAO's scale is posited free-data OR the discreteness
 program's first real job (mu quantization; the phi-angular hunch; characterized-then-gated).
-**NEXT = the FREEZE-POINT ruling (Charles): commit frozen predictions -> open BOSS (M3b), 5
-preregistered origins judged by decorrelated virgin data at once; then the radial build (AP
-ratio) + the O-E SNe-residual prereg (scan the xi_p family).** All same-session verified;
-external bar travels; ZERO BOSS contact to date (CP4a hard line intact).
+**M3b BOSS OUT-OF-SAMPLE TEST COMPLETE (2026-08-08) -- M3b-PARTIAL, verified LEAD (blind
+results-verifier SUSTAINED; F-RETRO timeline PROVEN: freeze f9c5b436 @19:05:30 preceded first
+BOSS file @19:09:13).** The refined freeze (Charles): DESI measured ell=58.34 Mpc (ell/R_w=
+0.0265 = the discreteness-program target), SNe measured R_w, both FROZEN, then BOSS tested.
+RESULT (ruler-free frame per the methodological catch below): a degree-scale angular clustering
+feature REPLICATES cross-survey (global p 0.000/0.007 < 0.01 both weight variants) -- **O-D
+(mundane) does NOT survive; the phenomenon is REAL, confirmed outside its discovery data** --
+BUT the frozen single-universal-ruler ell FAILS out-of-sample (0/9 shells thread; BOSS ell'
+scatter 4-212 Mpc; joint ell~169/224 Mpc P3 variant-unstable). Corroborates the in-sample
+chi2=144 / anti-drift / 1.75x same-z tracer split: **the feature is a MAGNITUDE, not a threaded
+ruler.**
+
+**OWNER METHODOLOGICAL CATCH (Charles 2026-08-08, binding):** "ruler" = a partial LCDM import
+(one-fixed-length-threading-all-shells = the standard-ruler ontology = only the O-A hypothesis,
+not a premise); the clean objects = the raw angular feature + native theta=ell/r(z). Vindicated
+by BOSS: real phenomenon, NOT a ruler. **FORWARD LEAD (recorded c0f82a35, HELD then confirmed):
+the scale + tracer-dependence point to the phi-MATTER COUPLING, not geometry** (= where D3 said
+the amount must come from = the micro side of the owner ontology = the founding phi-angular
+hunch). Two native roads, both gated: ROAD A finite-domain mode quantization (x_max sets lambda
+up to integer k IF the wall gives a 2nd BC; D4's observer phase-pin = half of it); ROAD B the
+phi-matter coupling (explains the tracer split natively; mass-emergence territory).
+
+**NEXT (all gated on Charles, post-BOSS): (1) the radial/AP build (anchor-free discriminator;
+tests if the split is angular-only or full-3D); (2) the O-E SNe-residual test (scan the derived
+xi_p family, NOT z; cheap, in-hand data); (3) the discreteness/coupling frontier (Roads A/B) --
+now with a data-shaped target (ell/R_w~0.0265 + the tracer split).** `udt_bao_origin_FORWARD_
+LEAD_2026-08-08.md` is the forward map.
 
 **RESUME PATH:** this block -> `udt_bao_origin_MAP_2026-08-08.md` + its D0_MATRIX -> the D1-D4
 packages -> `udt_xmax_pair_question_MAP_2026-08-06.md` (O1/O2/O3 RESULT sections)
