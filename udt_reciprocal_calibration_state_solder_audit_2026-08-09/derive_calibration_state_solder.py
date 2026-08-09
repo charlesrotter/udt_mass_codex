@@ -12,6 +12,7 @@ import csv
 import hashlib
 import json
 from pathlib import Path
+import subprocess
 
 import sympy as sp
 
@@ -23,6 +24,8 @@ LANDING = (
     "STATIONARY_KILLING_SOLDER_CONDITIONAL_POSITIVE__"
     "GENERAL_BILOCAL_GLOBAL_CALIBRATION_STATE_FUNCTOR_OPEN"
 )
+PREREG_BASE = "30bdb020"
+MUTABLE_SNAPSHOT_SOURCE = "CURRENT_SCIENTIFIC_PREMISES.tsv"
 
 
 def sha256(path: Path) -> str:
@@ -69,7 +72,14 @@ def main() -> None:
     for row in sources:
         path = repo / row["path"]
         check(f"source exists: {row['path']}", path.is_file())
-        check(f"source hash: {row['path']}", sha256(path) == row["sha256"])
+        if row["path"] == MUTABLE_SNAPSHOT_SOURCE:
+            frozen = subprocess.check_output(
+                ["git", "show", f"{PREREG_BASE}:{row['path']}"], cwd=repo
+            )
+            observed = hashlib.sha256(frozen).hexdigest()
+        else:
+            observed = sha256(path)
+        check(f"source hash: {row['path']}", observed == row["sha256"])
 
     eta = sp.diag(-1, 1, 1, 1)
     t = sp.symbols("t", real=True)

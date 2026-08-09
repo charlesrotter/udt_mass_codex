@@ -28,6 +28,8 @@ STARTUP = (
     "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md", "CURRENT_SCIENTIFIC_PREMISES.md",
     "research/README.md", "research/_registry/README.md",
 )
+PREREG_BASE = "30bdb020"
+MUTABLE_SNAPSHOT_SOURCE = "CURRENT_SCIENTIFIC_PREMISES.tsv"
 
 
 def digest(path: Path) -> str:
@@ -52,7 +54,7 @@ def main() -> None:
         ["python3", "verify_current_scientific_premises.py"],
         cwd=ROOT, text=True, capture_output=True, check=False, timeout=60,
     )
-    assert premise.returncode == 0 and "PASS: 35 premise guards" in premise.stdout, premise.stdout + premise.stderr
+    assert premise.returncode == 0 and "PASS: 36 premise guards" in premise.stdout, premise.stdout + premise.stderr
 
     link_pattern = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
     link_sources = [ROOT / path for path in STARTUP]
@@ -95,13 +97,23 @@ def main() -> None:
 
     sources = table(HERE / "SOURCE_MANIFEST.tsv")
     assert len(sources) == 24 == len({row["path"] for row in sources})
-    assert all((ROOT / row["path"]).is_file() and digest(ROOT / row["path"]) == row["sha256"] for row in sources)
+    for row in sources:
+        target = ROOT / row["path"]
+        assert target.is_file(), target
+        if row["path"] == MUTABLE_SNAPSHOT_SOURCE:
+            frozen = subprocess.check_output(
+                ["git", "show", f"{PREREG_BASE}:{row['path']}"], cwd=ROOT
+            )
+            observed = hashlib.sha256(frozen).hexdigest()
+        else:
+            observed = digest(target)
+        assert observed == row["sha256"], row["path"]
 
     tests = subprocess.run(
         ["python3", "-m", "pytest", "-q", "tests/"],
         cwd=ROOT, text=True, capture_output=True, check=False, timeout=300,
     )
-    assert tests.returncode == 0 and "84 passed, 1 xfailed" in tests.stdout, tests.stdout + tests.stderr
+    assert tests.returncode == 0 and "85 passed, 1 xfailed" in tests.stdout, tests.stdout + tests.stderr
 
     status_raw = subprocess.check_output(
         ["git", "status", "--porcelain=v1", "--untracked-files=all"], cwd=ROOT, text=True
@@ -112,7 +124,7 @@ def main() -> None:
     result = {
         "schema": "udt-reciprocal-calibration-state-solder-repository-gates-v1",
         "status": "PASS",
-        "premise_guards": 35,
+        "premise_guards": 36,
         "startup_controls_checked": len(STARTUP),
         "checked_markdown_links": checked_links,
         "frozen_manifests": len(MANIFESTS),
@@ -123,7 +135,7 @@ def main() -> None:
         "frontier_targets": len(targets),
         "frontier_resolved_targets": len(resolved_targets),
         "source_manifest_rows": len(sources),
-        "pytest": "84 passed, 1 xfailed",
+        "pytest": "85 passed, 1 xfailed",
         "unexpected_dirty_paths": unexpected,
     }
     args.output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")

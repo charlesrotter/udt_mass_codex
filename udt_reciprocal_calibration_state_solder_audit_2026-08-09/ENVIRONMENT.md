@@ -19,4 +19,5 @@ python3 -m pytest -q tests/
 ```
 
 The independent verifier uses only the Python standard library and does not import the SymPy
-controller. The exact new semantic landing has not yet received a fresh external review.
+controller. The mutable current-premise source is replayed from base `30bdb020`. The exact new
+semantic landing has not yet received a fresh external review.

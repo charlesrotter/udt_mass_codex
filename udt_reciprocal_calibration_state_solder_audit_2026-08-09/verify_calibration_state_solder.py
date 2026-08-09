@@ -10,6 +10,7 @@ import hashlib
 import json
 import math
 from pathlib import Path
+import subprocess
 
 
 EXPECTED_LANDING = (
@@ -19,6 +20,8 @@ EXPECTED_LANDING = (
     "STATIONARY_KILLING_SOLDER_CONDITIONAL_POSITIVE__"
     "GENERAL_BILOCAL_GLOBAL_CALIBRATION_STATE_FUNCTOR_OPEN"
 )
+PREREG_BASE = "30bdb020"
+MUTABLE_SNAPSHOT_SOURCE = "CURRENT_SCIENTIFIC_PREMISES.tsv"
 
 
 def sha256(path: Path) -> str:
@@ -61,7 +64,14 @@ def main() -> None:
     check("24 frozen source identities", len(sources) == 24 == len({row["path"] for row in sources}))
     for row in sources:
         path = repo / row["path"]
-        check(f"hash {row['path']}", path.is_file() and sha256(path) == row["sha256"])
+        if row["path"] == MUTABLE_SNAPSHOT_SOURCE:
+            frozen = subprocess.check_output(
+                ["git", "show", f"{PREREG_BASE}:{row['path']}"], cwd=repo
+            )
+            observed = hashlib.sha256(frozen).hexdigest()
+        else:
+            observed = sha256(path) if path.is_file() else ""
+        check(f"hash {row['path']}", path.is_file() and observed == row["sha256"])
 
     result = json.loads((package / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
     check("controller landing", result["landing"] == EXPECTED_LANDING)

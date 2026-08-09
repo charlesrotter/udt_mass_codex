@@ -58,7 +58,8 @@ No universal nonzero solder is claimed.
 ## Load-bearing exact checks
 
 The SymPy controller passed **91/91** checks. A separate standard-library implementation passed
-**48/48** checks without importing the controller.
+**48/48** checks without importing the controller. The mutable current-premise input is replayed
+from preregistration base `30bdb020`; see `POSTRUN_SOURCE_REPLAY_CORRECTION.md`.
 
 The checks include:
 
@@ -99,7 +100,8 @@ not received a fresh external semantic/adversarial review. The result is therefo
 
 ## Four gates
 
-1. **Preregistered:** yes, commit `2dfd71ff`; TSV correction banked separately at `10d807a2`.
+1. **Preregistered:** yes, commit `2dfd71ff`; TSV correction banked separately at `10d807a2`;
+   mutable-registry source replay pinned to preregistration base `30bdb020`.
 2. **Full or bounded:** bounded complete candidate audit for order-zero/first-jet local solder and
    named metric-derived path constructions; higher-order/global/dynamical structures remain open.
 3. **Independent verification:** yes for exact finite-dimensional claims and source identities;
