@@ -45,8 +45,13 @@ transport is only a conditional candidate route. The subsequent reciprocal-flag 
 is complete at `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`. It
 derives the abstract reciprocal calibration seed and an exact conditional order-zero flag
 character, while leaving the physical flag/update, complete exchange, comparison arrow and
-calibration-line realization open. The next unlaunched gate is the pair-relative calibration-state
-solder audit; no profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
+calibration-line realization open. The solder audit is now complete at
+`udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`. It derives the
+associated calibration line and conditionally constructs regular pair directions, but canonical
+local metric transport gives zero depth and no universal nonzero solder exists through first
+metric-jet order. The stationary Killing ratio is a conditional positive prototype. The next
+unlaunched gate is a complete-branch calibration-owner atlas; no profile repair, inner cutoff,
+eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane

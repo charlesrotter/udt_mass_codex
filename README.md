@@ -23,8 +23,12 @@ is now complete at
 `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`: UDT owns the abstract
 reciprocal calibration seed, and the reciprocal-root causal-flag character is an exact conditional
 readout, but the physical flag, update, comparison arrow, complete exchange extension and `c_eff`
-calibration realization remain open. NEXT is the pair-relative calibration-state solder audit; no
-eigenvalue solve is authorized.
+calibration realization remain open. The solder audit is now complete at
+`udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`: the calibration density
+line and regular pair directions are available, but canonical local metric transport gives zero
+depth and no universal nonzero order-zero/first-jet solder exists. The stationary Killing ratio is
+a conditional positive prototype. NEXT is a complete-branch calibration-owner atlas; no eigenvalue
+solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -33,7 +37,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
+5. `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
+   `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
@@ -52,8 +57,10 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
-- `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md` — current
-  comparison-law foundation gate and narrowed calibration-state solder seam.
+- `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md` — current
+  comparison-law foundation gate and narrowed bilocal/global calibration-owner seam.
+- `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md` — flag-character
+  foundation and ownership lineage immediately upstream.
 - `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md` — current profile-role
   and center-regularity gate; retains two-point `c_eff`, phi+orchestra, mu on, full angular
   structure, and relational `X_max`, while leaving the physical cocycle open.

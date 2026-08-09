@@ -74,10 +74,20 @@ mixed timelike-strain eigenvalue is an invariant readout, not a general cocycle.
 zero reciprocal depth; arbitrary higher-jet nonmetric transports are nonunique and must not be
 selected by convenience.
 
-**NEXT GATE, not launched:** test whether the complete coframe plus ordered observer-pair query
-supplies the pair-relative calibration-state solder without choosing a tangent connection. C1
-remains unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and
-polarization remain gated. The parent menu is
+**RECIPROCAL CALIBRATION-STATE SOLDER AUDIT = COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md` first. The abstract
+calibration density line is derived, and regular pair queries conditionally supply causal
+directions. The metric's canonical transports preserve those directions' sizes and give zero
+positional depth. Exact controls exclude a nonzero universal order-zero/first-metric-jet local
+solder. A stationary intrinsic Killing-norm ratio is the conditional positive prototype because
+it provides a shared unnormalized calibration state. The universal physical calibration-state
+functor remains OPEN at the bilocal/global/branch/dynamical level.
+
+**NEXT GATE, not launched:** audit already banked complete branches for intrinsic unnormalized
+calibration owners; do not invent a tangent connection or privilege a desired universe. C1 remains
+unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization
+remain gated. The parent menu is
 `udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:

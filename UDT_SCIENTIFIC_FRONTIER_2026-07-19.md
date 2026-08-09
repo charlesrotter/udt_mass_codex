@@ -4,6 +4,17 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 9 reciprocal calibration-state solder precedence notice
+
+Before treating local frame transport, coordinate identity, metric distance, an exponential-map
+differential, or a raw coframe current as the physical positional-dilation law, read
+`udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`. The associated
+reciprocal calibration line is derived, and regular ordered queries conditionally provide pair
+directions. Canonical metric transport is isometric and gives zero depth; no universal nonzero
+order-zero/first-metric-jet solder exists. A stationary intrinsic Killing ratio is a conditional
+positive prototype. The general calibration state remains bilocal/global/branch/dynamical and
+OPEN. The next gate is a complete-branch calibration-owner atlas, not an arbitrary connection.
+
 ## August 9 reciprocal-flag foundation-ownership precedence notice
 
 Before treating a strain eigenvalue, tangent connection, or complete coframe transition as the
@@ -13,8 +24,8 @@ clock/ruler channels supply an abstract reciprocal calibration seed. The recipro
 flag formula is an exact conditional order-zero character on a supplied flag and arrow, not the
 complete physical UDT law. The physical flag and update, complete exchange extension,
 non-isometric comparison arrow, and `c_eff` calibration-line realization remain open. The prior
-timelike-strain extractor is not a general compositional cocycle under mixing. The next gate is the
-pair-relative calibration-state solder, not an arbitrary nonmetric connection.
+timelike-strain extractor is not a general compositional cocycle under mixing. The subsequent
+solder audit above controls the current open joint.
 
 ## August 9 N03 profile-role and regular-center precedence notice
 

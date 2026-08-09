@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
     "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
     "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
     "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
@@ -63,7 +64,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 35 premise guards" in result.stdout
+    assert "PASS: 36 premise guards" in result.stdout
 
 
 def test_catch_missing_live_premise_pointer(tmp_path: Path) -> None:
@@ -156,6 +157,17 @@ def test_catch_missing_reciprocal_flag_ownership_route(tmp_path: Path) -> None:
         "RECIPROCAL_FLAG_OWNERSHIP_REPORT_REMOVED.md",
     )
     with pytest.raises(SystemExit, match="reciprocal_flag_foundation_ownership|current startup target"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_calibration_state_solder_route(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "LIVE.md",
+        "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
+        "CALIBRATION_STATE_SOLDER_REPORT_REMOVED.md",
+    )
+    with pytest.raises(SystemExit, match="reciprocal_calibration_state_solder|current startup target"):
         premise_guard.validate_startup_surface(root)
 
 

@@ -3,8 +3,10 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-foundation gate is `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`; its
-conditional flag character does not select the physical comparison arrow. A conflict
+foundation gate is `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`; it
+derives the calibration line but leaves the general physical state bilocal/global and open. Its
+immediate parent is `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`.
+A conflict
 between these controls and a cited source is a mandatory stop.
 
 The dated scientific checkpoint prose formerly embedded here is preserved in

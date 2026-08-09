@@ -241,7 +241,23 @@ The earlier timelike-strain eigenvalue remains a valid endpoint-frame-invariant 
 readout, but it is not a general groupoid cocycle under mixing. Levi-Civita and orthonormal-coframe
 transport are isometric and give zero reciprocal-root depth. Higher-jet metric-natural nonmetric
 connections form unselected families, so none may be promoted by convenience. The next gate is the
-pair-relative calibration-state solder, not an arbitrary connection search.
+pair-relative calibration-state solder, not an arbitrary connection search; the following
+paragraph records its completed result.
+
+The subsequent August 9 reciprocal calibration-state solder audit,
+`udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, closes that bounded
+gate. The reciprocal-root character canonically acts on an associated calibration density line,
+and a regular ordered observer/event query can conditionally supply a pair-relative causal flag.
+Canonical metric/coframe transport preserves its clock and plane densities and gives zero depth.
+Exact component, distance, exponential-map, Jacobi-block, and coframe-current controls prove a
+scoped no-go for a nonzero universal local solder at order zero or first metric jet.
+
+This no-go must not be generalized to all geometry. An intrinsic stationary Killing line supplies
+the conditional positive prototype through its unnormalized norm ratio. Higher-order, bilocal,
+global-completion, branch-derived, and native dynamical owners remain open. The next gate is a
+complete-branch calibration-owner atlas, not a new local connection search. No action, source,
+matter, mass, CMB spectrum, signaling law, `X_max` value, or universal `c_eff` identification is
+derived.
 
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

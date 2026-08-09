@@ -117,11 +117,25 @@ eigenvalue remains an invariant regular-stratum readout but is **not** a general
 cocycle under mixing. Ordinary Levi-Civita/coframe transport is isometric and gives zero flag
 depth; higher-jet natural nonmetric transports form unselected families. Do not choose one.
 
-**NEXT GATE (not launched):** determine whether the complete UDT coframe and an ordered
-observer-pair query supply a pair-relative reciprocal calibration-state solder—flag, exact update,
-comparison/calibration morphism—without choosing a nonmetric tangent connection. No eigenvalue
-solve is presently authorized. FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state
-weights, and polarization remain gated.
+**RECIPROCAL CALIBRATION-STATE SOLDER AUDIT — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md` first. The abstract
+reciprocal calibration density line is derived, and a regular ordered observer/event query can
+conditionally construct a pair-relative causal flag. But canonical metric/coframe transport is
+isometric and gives zero positional depth. Exact chart, distance, `dexp`, Jacobi-block, and raw
+coframe-current controls rule out a nonzero universal local solder at order zero or first metric
+jet. The stationary intrinsic Killing-norm ratio is the conditional positive prototype because it
+provides one shared **unnormalized calibration state**. The universal physical calibration-state
+functor remains OPEN and is now localized to bilocal, global-completion, branch-derived, or native
+dynamical structure. The prior flag result and CMB/SNe/`X_max` results survive in their stated
+scopes.
+
+**NEXT GATE (not launched):** build a complete-branch calibration-owner atlas over already banked
+metric branches. Test intrinsic Killing/conformal-Killing or recurrent lines, branch-stable
+curvature eigenlines, global density states, and finite-cell normalization data without selecting a
+desired branch or inventing a connection. No eigenvalue solve is presently authorized.
+FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
+gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
 
 ### THE LINEAGE (how the arc got here — a new instance reads these to understand the foundation)
@@ -176,6 +190,7 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
+`udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md` →
 `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md` →

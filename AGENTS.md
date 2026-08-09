@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** First read
+   `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
@@ -55,10 +56,11 @@ do not dump whole long files or recursively open cited evidence during orientati
    and `VERIFIED-WITH-CAVEATS`: the observer-pair law is not a centered local lapse; no mapped source
    supplies a complete global profile; a nonempty smooth C1 local jet space remains compatible with
    mu on; and the physical groupoid cocycle stays open. The subsequent reciprocal-flag audit derives
-   the abstract reciprocal calibration seed and an exact conditional flag character, but not the
-   physical flag/update, complete exchange, comparison arrow or calibration realization. NEXT is
-   the pair-relative calibration-state solder audit. No profile repair, inner cutoff, eigenvalue
-   solve, or FD2 is authorized. Then read
+   the abstract reciprocal calibration seed and an exact conditional flag character. The solder
+   audit derives the associated calibration line, conditionally constructs regular pair directions,
+   proves canonical local metric transport has zero depth, and leaves the general physical state
+   bilocal/global/branch/dynamical. NEXT is the complete-branch calibration-owner atlas. No profile
+   repair, inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
    RA2 = PARTIAL-WEAK). The x_max STRUCTURE (O1-O3) and SCALE (M1-M4) lanes are COMPLETE (verified
