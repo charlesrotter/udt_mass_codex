@@ -1,0 +1,6 @@
+{
+ "t_per_realization_s": 441.7,
+ "proj_2x25_h": 6.134722222222222,
+ "n_real": 15,
+ "rule": "prereg budget: reduce to 15/variant and disclose if 2x25 projects > ~6h"
+}

@@ -1,0 +1,38 @@
+{
+ "key": "DESI_LRG_0.95_1.00",
+ "zc": 0.975,
+ "dchi2_full": 87.56664250190332,
+ "theta_b_scan": 1.9892551040049398,
+ "local_p_full": 0.0,
+ "theta_b": 2.0245484987637963,
+ "sig_theta": 0.03772415625871821,
+ "A_b40": 0.01777701775523123,
+ "theta_b40": 1.9456485189490142,
+ "sigma_b40": 0.03,
+ "dchi2_40diag": 178.19707357966786,
+ "C12_eigmin": 7.49239359752931e-09,
+ "t_s": 26.6,
+ "caps": {
+  "NGC": {
+   "n_target": 104977,
+   "n_pairs_planned": 33332,
+   "n_pairs_placed": 28613,
+   "edge_loss_frac": 0.14157566302652105,
+   "theta_t_mean_deg": 2.0308917952513212,
+   "theta_t_sd_deg": 0.023163988459162652,
+   "r_memb_deg": 0.123068166720036
+  },
+  "SGC": {
+   "n_target": 53869,
+   "n_pairs_planned": 17105,
+   "n_pairs_placed": 13904,
+   "edge_loss_frac": 0.18713826366559486,
+   "theta_t_mean_deg": 2.030948989350984,
+   "theta_t_sd_deg": 0.023236849202170715,
+   "r_memb_deg": 0.12400121574409603
+  }
+ },
+ "seed": 9105,
+ "variant": "vii",
+ "f_pair": 0.317521025947208
+}

@@ -1,0 +1,38 @@
+{
+ "key": "BOSS_CMASS_0.63_0.68",
+ "zc": 0.655,
+ "dchi2_full": 86.7327231332296,
+ "theta_b_scan": 2.4035181370071146,
+ "local_p_full": 0.0,
+ "theta_b": 2.392121086565188,
+ "sig_theta": 0.1656934351467335,
+ "A_b40": 0.02698151402259015,
+ "theta_b40": 2.4519043868358645,
+ "sigma_b40": 0.03,
+ "dchi2_40diag": 164.4326511490388,
+ "C12_eigmin": 2.359529676621489e-08,
+ "t_s": 7.9,
+ "caps": {
+  "North": {
+   "n_target": 60223,
+   "n_pairs_planned": 19122,
+   "n_pairs_placed": 18390,
+   "edge_loss_frac": 0.038280514590524006,
+   "theta_t_mean_deg": 2.473972183224508,
+   "theta_t_sd_deg": 0.025297290420791287,
+   "r_memb_deg": 0.17398325921688584
+  },
+  "South": {
+   "n_target": 22530,
+   "n_pairs_planned": 7154,
+   "n_pairs_placed": 6547,
+   "edge_loss_frac": 0.08484763768521107,
+   "theta_t_mean_deg": 2.472810908534243,
+   "theta_t_sd_deg": 0.025397464922117096,
+   "r_memb_deg": 0.16221124189275882
+  }
+ },
+ "seed": 9206,
+ "variant": "boss",
+ "f_pair": 0.317521025947208
+}
