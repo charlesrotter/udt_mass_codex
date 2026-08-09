@@ -1,0 +1,68 @@
+Script started on 2026-08-09 12:34:31-04:00 [TERM="xterm-256color" TTY="/dev/console" COLUMNS="80" LINES="24"]
+KEY FD1_S1_pw_r2: True
+KEY FD1_S2_C_over_M: True
+KEY FD1_S3_q0_exact_split: True
+KEY FD1_S4_q0_eta: True
+KEY FD1_S5_lc_boundary: True
+FAMILY n=1.03541106 q/qcrit=-2.00 wall=D umin=1.0e-06 rows=11
+FAMILY n=1.03541106 q/qcrit=-2.00 wall=N umin=1.0e-06 rows=11
+FAMILY n=1.03541106 q/qcrit=-1.00 wall=D umin=1.0e-06 rows=11
+FAMILY n=1.03541106 q/qcrit=-1.00 wall=N umin=1.0e-06 rows=11
+FAMILY n=1.03541106 q/qcrit=+0.00 wall=D umin=1.6e-08 rows=11
+FAMILY n=1.03541106 q/qcrit=+0.00 wall=N umin=1.6e-08 rows=11
+FAMILY n=1.03541106 q/qcrit=+0.25 wall=D umin=2.8e-10 rows=11
+FAMILY n=1.03541106 q/qcrit=+0.25 wall=N umin=2.8e-10 rows=11
+FAMILY n=1.03541106 q/qcrit=+0.50 wall=D umin=1.4e-13 rows=11
+FAMILY n=1.03541106 q/qcrit=+0.50 wall=N umin=1.4e-13 rows=11
+FAMILY n=1.03541106 q/qcrit=+0.75 wall=D umin=5.9e-22 rows=11
+FAMILY n=1.03541106 q/qcrit=+0.75 wall=N umin=5.9e-22 rows=11
+FAMILY n=1.03541106 q/qcrit=+0.95 wall=D umin=4.0e-53 rows=11
+FAMILY n=1.03541106 q/qcrit=+0.95 wall=N umin=4.0e-53 rows=11
+FAMILY n=1.05596621 q/qcrit=-2.00 wall=D umin=1.0e-06 rows=11
+FAMILY n=1.05596621 q/qcrit=-2.00 wall=N umin=1.0e-06 rows=11
+FAMILY n=1.05596621 q/qcrit=-1.00 wall=D umin=1.0e-06 rows=11
+FAMILY n=1.05596621 q/qcrit=-1.00 wall=N umin=1.0e-06 rows=11
+FAMILY n=1.05596621 q/qcrit=+0.00 wall=D umin=2.1e-08 rows=11
+FAMILY n=1.05596621 q/qcrit=+0.00 wall=N umin=2.1e-08 rows=11
+FAMILY n=1.05596621 q/qcrit=+0.25 wall=D umin=4.8e-10 rows=11
+FAMILY n=1.05596621 q/qcrit=+0.25 wall=N umin=4.8e-10 rows=11
+FAMILY n=1.05596621 q/qcrit=+0.50 wall=D umin=5.3e-13 rows=11
+FAMILY n=1.05596621 q/qcrit=+0.50 wall=N umin=5.3e-13 rows=11
+FAMILY n=1.05596621 q/qcrit=+0.75 wall=D umin=5.7e-20 rows=11
+FAMILY n=1.05596621 q/qcrit=+0.75 wall=N umin=5.7e-20 rows=11
+FAMILY n=1.05596621 q/qcrit=+0.95 wall=D umin=2.0e-40 rows=11
+FAMILY n=1.05596621 q/qcrit=+0.95 wall=N umin=2.0e-40 rows=11
+FAMILY n=1.07712193 q/qcrit=-2.00 wall=D umin=1.0e-06 rows=11
+FAMILY n=1.07712193 q/qcrit=-2.00 wall=N umin=1.0e-06 rows=11
+FAMILY n=1.07712193 q/qcrit=-1.00 wall=D umin=1.0e-06 rows=11
+FAMILY n=1.07712193 q/qcrit=-1.00 wall=N umin=1.0e-06 rows=11
+FAMILY n=1.07712193 q/qcrit=+0.00 wall=D umin=2.7e-08 rows=11
+FAMILY n=1.07712193 q/qcrit=+0.00 wall=N umin=2.7e-08 rows=11
+FAMILY n=1.07712193 q/qcrit=+0.25 wall=D umin=8.2e-10 rows=11
+FAMILY n=1.07712193 q/qcrit=+0.25 wall=N umin=8.2e-10 rows=11
+FAMILY n=1.07712193 q/qcrit=+0.50 wall=D umin=1.8e-12 rows=11
+FAMILY n=1.07712193 q/qcrit=+0.50 wall=N umin=1.8e-12 rows=11
+FAMILY n=1.07712193 q/qcrit=+0.75 wall=D umin=2.6e-18 rows=11
+FAMILY n=1.07712193 q/qcrit=+0.75 wall=N umin=2.6e-18 rows=11
+FAMILY n=1.07712193 q/qcrit=+0.95 wall=D umin=1.1e-32 rows=11
+FAMILY n=1.07712193 q/qcrit=+0.95 wall=N umin=1.1e-32 rows=11
+KEY FD1_N1_row_count: True
+KEY FD1_N2_q0_exact_anchor: True
+KEY FD1_N3_sturm_ordered: True
+KEY FD1_N4_tail_control: False
+KEY FD1_N5_real_spectrum: True
+KEY FD1_N6_raw_backward_residual: True
+{
+  "complex_eigenvalue_count": 0,
+  "maximum_raw_backward_residual": 6.182624455212878e-10,
+  "maximum_tail_fraction": 0.7219116939876575,
+  "minimum_tracking_overlap": 0.02851880791791289,
+  "q0_max_abs_error": 9.143685808510327e-12,
+  "rows": 462,
+  "runtime_seconds": 286.8293664455414
+}
+WROTE /home/udt-admin/udt_mass_codex/udt_freedata_FD1_mixing_bound_2026-08-09/phase1_atlas.json
+TOTAL KEYS 10/11
+failed keys: ['FD1_N4_tail_control']
+
+Script done on 2026-08-09 12:39:18-04:00 [COMMAND_EXIT_CODE="1"]
