@@ -18,18 +18,21 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-09) — READ LIVE.md TOPMOST FIRST
 
-**ACTIVE ARC = CMB PEAK OPTIMIZATION** (Charles's CMB-first strategy: resolve the acoustic-peak
-structure natively from the x_max / phi+orchestra / mu geometry, THEN return to BAO). The peaks =
-the resonance structure of the observer-relation at the wall-asymptote (owner ontology; "source
-physics" was a corrected import). Banked so far (verified LEADs): **RA1** (the mu-ON mode problem —
-the wall quantizes into a mapped ladder region-union, all-but-n<1 MIXING-CREATED, the chiral wedge
-intrinsically quantized) and **RA2** (the ladder projects to a Weyl comb; a 2-parameter fit lands
-Planck's 7 TT peaks at 1-3% — but deflated to `RA2-PARTIAL-WEAK`: generic-cavity comb, conditional on
-m~0 dominance). **NEXT = the FREE-DATA INVENTORY AUDIT** (`udt_freedata_inventory_MAP_2026-08-09.md`,
-map done, catch-points owed): FD1 (mixing-amplitude bound + sweet-spot) -> FD2 (profile-perturbation
-inversion, unlocks sub-percent) -> FD3 (field-statistics + naturalness) -> FD4 (the precision anchor:
-7 peaks + SNe jointly for R_w,n at sub-percent; the falsifiable WOW = the CMB-fitted wall must land
-inside the SNe intervals); RA1-V (polarization) gated behind FD1/FD2. All gated on Charles's go.
+**ACTIVE ARC = CMB PEAK OPTIMIZATION.** RA1 remains the scoped mu-on ladder lead and RA2 remains
+`RA2-PARTIAL-WEAK`. The full corrected FD1 atlas is now COMPLETE and `VERIFIED-WITH-CAVEATS`:
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. It recomputes all 462 frozen
+rows and 10,080 positive roots with the correct regular center and exact endpoint. The result is
+three interleaved angular ladders, not a generally centered same-index multiplet. The old FD1
+`OPEN-COMPATIBILITY-WINDOW` is WITHDRAWN: 503/630 attributed convention rows are
+`SPLITTING_ONLY`, 127 are `BASIN_MISMATCH`, and zero have full-centered containment.
+
+**NEXT = MODE-FAMILY OWNERSHIP / COMPLETE-ANGULAR PROJECTION AUDIT.** Before FD2, determine from
+the complete metric whether the three equatorial ladders are independent full-angular families,
+components of larger modes, or enter an invariant observer-pair projection. Do not choose the
+best-looking standalone ladder, assume m=0 dominance, or invent source weights. If no metric-native
+projection is selected, bank `OPEN` and recast FD2 as a family-wide sensitivity atlas. The parent
+free-data menu remains `udt_freedata_inventory_MAP_2026-08-09.md`; its FD1-first status is
+superseded. FD2/FD3/FD4, RA1-V, GPU work, and physical mode populations remain gated.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:
 DESI LCDM-free feature detected + audited; BOSS out-of-sample (single-ruler FAILS 0/9, F-RETRO

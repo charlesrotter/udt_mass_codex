@@ -9,11 +9,12 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-5a. ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION. Read `udt_freedata_inventory_MAP_2026-08-09.md`
-   (the active next step; catch-points owed) and `udt_roadA_mode_quantization_MAP_2026-08-08.md`
-   with the RA1/RA2 packages (the native resonator). The x_max structure (O1-O3) + scale (M1-M4)
-   lanes are COMPLETE; the BAO lane is BANKED + TABLED; the Assembly lane stays ARCHIVED-LEGACY.
-   Build forward. (LIVE's 2026-08-09 block is the authority; its lineage §1-6 routes the foundation.)
+5a. ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION. Read
+   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`: the corrected full scalar
+   atlas has three interleaved ladders and withdraws the old FD1 multiplet window. NEXT is the
+   mode-family ownership / complete-angular projection audit before FD2. Then read the parent menu
+   `udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 remains `RA2-PARTIAL-WEAK`; BAO is
+   BANKED + TABLED; the Assembly lane stays ARCHIVED-LEGACY.
 6. For foundation detail, read the lineage docs LIVE cites (phi+orchestra
    `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md`; the c_eff reframe; RA1/RA2).
 7. Open only the remaining current audits and load-bearing evidence routed by those controls.
@@ -23,6 +24,8 @@
 
 - `CURRENT_RESEARCH_PROGRAM.md` — active dependency chain, banked structure, retired shortcuts,
   open joints, and next bounded investigation.
+- `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` — corrected scalar spectral
+  atlas and controlling withdrawal of the old same-index FD1 compatibility window.
 - `CURRENT_SCIENTIFIC_PREMISES.md` / `.tsv` — effective source-precedence and premise stamps.
 - `udt_native_law_order_architecture_audit_2026-08-05/AUDIT_REPORT.md` — current bounded law-order
   audit; response-first is a working test priority, not a derived physical law.

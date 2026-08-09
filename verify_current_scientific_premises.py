@@ -89,6 +89,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
             "udt_freedata_inventory_MAP_2026-08-09.md",
             "RA2-PARTIAL-WEAK",
             "BANKED + TABLED",
@@ -104,6 +105,10 @@ def validate_startup_surface(root: Path) -> None:
         )
         if "Global Cell Assembly" in block:
             require("ARCHIVED-LEGACY" in block, f"Global Cell Assembly not archive-stamped: {name}")
+        require(
+            "OPEN-COMPATIBILITY-WINDOW` is WITHDRAWN" in flat_block,
+            f"corrected FD1 withdrawal absent: {name}",
+        )
 
     protected_atlas = "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/"
     for name, block in (("LIVE.md", live), ("HANDOFF.md", handoff)):
@@ -117,7 +122,11 @@ def validate_startup_surface(root: Path) -> None:
 
     for control in CURRENT_ROUTE_CONTROLS:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
-        for token in ("CMB PEAK OPTIMIZATION", "udt_freedata_inventory_MAP_2026-08-09.md"):
+        for token in (
+            "CMB PEAK OPTIMIZATION",
+            "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
+            "udt_freedata_inventory_MAP_2026-08-09.md",
+        ):
             require(token in text, f"current route lacks {token}: {control}")
 
     for control in ("README.md", "research/README.md", "MEMORY.md"):
@@ -133,6 +142,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
         "udt_freedata_inventory_MAP_2026-08-09.md",
         "udt_roadA_mode_quantization_MAP_2026-08-08.md",
         "udt_roadA_RA1_muon_modes_2026-08-08/DERIVATION_NOTES.md",
@@ -144,9 +154,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 28, "premise registry must contain exactly 28 rows")
+    require(len(rows) == 29, "premise registry must contain exactly 29 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 28, "duplicate premise id")
+    require(len(by_id) == 29, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -230,6 +240,30 @@ def main() -> None:
         == "udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md",
         "complete-pair orchestra source changed",
     )
+    require(
+        by_id["G29"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__THREE_INTERLEAVED_ANGULAR_LADDERS__OLD_SAME_INDEX_MULTIPLET_WINDOW_WITHDRAWN",
+        "corrected FD1 status regressed or promoted",
+    )
+    require(by_id["G29"]["epistemic_label"] == "OBSERVED", "corrected FD1 label changed")
+    require(
+        by_id["G29"]["active_use"] == "CORRECTED_SCALAR_SLICE_BACKGROUND_GEOMETRY_ONLY",
+        "corrected FD1 use promoted",
+    )
+    require("mode-family ownership" in by_id["G29"]["open_scope"], "FD1 mode-family gate absent")
+    require(
+        "old FD1 open compatibility window revived" in by_id["G29"]["forbidden_regression"],
+        "old FD1 window revival guard absent",
+    )
+    require(
+        "best standalone ladder postselected" in by_id["G29"]["forbidden_regression"],
+        "FD1 postselection guard absent",
+    )
+    require(
+        by_id["G29"]["controlling_source"]
+        == "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
+        "corrected FD1 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -302,7 +336,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 28 premise guards, current CMB/free-data routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 29 premise guards, corrected FD1/angular-projection routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

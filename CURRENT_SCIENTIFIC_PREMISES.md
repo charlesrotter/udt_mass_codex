@@ -57,6 +57,16 @@ Maxwell-like geometry currently gives only the conditional toric identities `F=d
 finite-box and carrier-conditional; and complete native action, source, boundary charge, and mass
 remain open.
 
+The August 9 corrected FD1 scalar spectral atlas is `VERIFIED-WITH-CAVEATS`, not a selected physical
+mode law. Its complete registered census has 462 rows, 10,080 positive roots, and three interleaved
+angular ladders. Under the attributed historical pairing it yields 503 `SPLITTING_ONLY`, 127
+`BASIN_MISMATCH`, and zero full-centered rows, so the old same-index
+`OPEN-COMPATIBILITY-WINDOW` is withdrawn. Equal-index `m=-1,0,+1` rows are bookkeeping, not a
+derived physical multiplet; the four favorable standalone affine contacts cannot be postselected.
+Complete-angular mode-family ownership, an invariant observer-pair projection, source weights,
+polarization, and an honest FD2 restart remain `OPEN`. Read
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` before reusing FD1 or RA2.
+
 The August 5 `X_max` correction sharpens that row without selecting a formula or value. `X_max` is
 the owner-ratified `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair
 positional-dilation asymptote: finite comparisons lie below it, and approach from below must send

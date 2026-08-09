@@ -14,9 +14,13 @@ pair-question, "O1 pending") and are **STALE as status**. Since then, ON `grok`:
 STRUCTURE lane (O1-O3) and SCALE lane (M1-M4) COMPLETED (verified leads; SNe fit R_w~2.2 Gpc,
 n~1.056, M_total~1e53 kg); the BAO-origin arc (D1/D2 courier theorems, D3 no-native-amount, the
 closed 5-origin matrix) and the full BAO data reckoning (M3/M3-AUDIT/M3b-BOSS/M3c/M3d) ran and
-the BAO lane is now BANKED + TABLED; and the ACTIVE ARC is **CMB PEAK OPTIMIZATION** (Road A: RA1
-mu-on modes + RA2 projection = PARTIAL-WEAK; next = the FREE-DATA INVENTORY AUDIT
-`udt_freedata_inventory_MAP_2026-08-09.md`). The scientific SPINE below (phi+orchestra, c_eff, the
+the BAO lane is now BANKED + TABLED; and the ACTIVE ARC is **CMB PEAK OPTIMIZATION**. The corrected
+FD1 full spectral atlas is COMPLETE and `VERIFIED-WITH-CAVEATS`:
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. Its 462-row census gives three
+interleaved angular ladders and withdraws the old same-index `OPEN-COMPATIBILITY-WINDOW`. The next
+bounded question is the **mode-family ownership / complete-angular projection audit**, before any
+FD2 restart. `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active
+FD1 instruction. The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane
 framing is superseded. Authority order: LIVE.md 2026-08-09 block > this banner > everything below.
 
@@ -187,11 +191,14 @@ selection, canonization or repository reorganization is authorized by this progr
 
 ## Startup route
 
-**ACTIVE READS FIRST (2026-08-09 — supersedes the 08-06 line here):** `udt_freedata_inventory_MAP_2026-08-09.md`
-(the active CMB-arc next step) and `udt_roadA_mode_quantization_MAP_2026-08-08.md` + RA1/RA2 (the
-resonator). The x_max maps (`..._pair_question_MAP_2026-08-06.md`, `..._scale_observational_MAP_2026-08-07.md`)
-and `udt_ceff_..._2026-08-06.md` are now LINEAGE/background (lanes complete). The 08-05 route below
-is still-valid background; build forward, no pre-orchestra reach without a re-grade.
+**ACTIVE READS FIRST (2026-08-09 — supersedes the 08-06 line here):**
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`, then the mode-family ownership /
+complete-angular projection audit named in the top banner. Read
+`udt_freedata_inventory_MAP_2026-08-09.md` as the parent menu and
+`udt_roadA_mode_quantization_MAP_2026-08-08.md` + RA1/RA2 as the resonator evidence. The x_max maps
+(`..._pair_question_MAP_2026-08-06.md`, `..._scale_observational_MAP_2026-08-07.md`) and
+`udt_ceff_..._2026-08-06.md` are now LINEAGE/background (lanes complete). The 08-05 route below is
+still-valid background; build forward, no pre-orchestra reach without a re-grade.
 
 
 Read in this order:

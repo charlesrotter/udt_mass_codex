@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
     "udt_freedata_inventory_MAP_2026-08-09.md",
     "udt_roadA_mode_quantization_MAP_2026-08-08.md",
     "udt_roadA_RA1_muon_modes_2026-08-08/DERIVATION_NOTES.md",
@@ -58,7 +59,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 28 premise guards" in result.stdout
+    assert "PASS: 29 premise guards" in result.stdout
 
 
 def test_catch_missing_live_premise_pointer(tmp_path: Path) -> None:
@@ -107,4 +108,26 @@ def test_catch_stale_memory_top(tmp_path: Path) -> None:
     _replace(root / "MEMORY.md", "2026-08-09", "2026-08-05")
     _replace(root / "MEMORY.md", "CMB PEAK OPTIMIZATION", "complete-pair cocycle home")
     with pytest.raises(SystemExit, match="MEMORY top pointer|current route lacks CMB PEAK OPTIMIZATION"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_corrected_fd1_route(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "LIVE.md",
+        "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
+        "CORRECTED_FD1_REPORT_REMOVED.md",
+    )
+    with pytest.raises(SystemExit, match="corrected_full_spectral_atlas|current startup target"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_revived_old_fd1_window(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "HANDOFF.md",
+        "OPEN-COMPATIBILITY-WINDOW` is WITHDRAWN",
+        "OPEN-COMPATIBILITY-WINDOW` is ACTIVE",
+    )
+    with pytest.raises(SystemExit, match="corrected FD1 withdrawal"):
         premise_guard.validate_startup_surface(root)

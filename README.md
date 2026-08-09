@@ -5,8 +5,10 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The active arc is **CMB PEAK OPTIMIZATION**; the bounded next map is
-`udt_freedata_inventory_MAP_2026-08-09.md`.
+The active arc is **CMB PEAK OPTIMIZATION**. The full corrected FD1 atlas is banked at
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`; the old same-index multiplet
+window is withdrawn. The bounded next step is the mode-family ownership / complete-angular
+projection audit. `udt_freedata_inventory_MAP_2026-08-09.md` remains its parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 
@@ -14,7 +16,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_freedata_inventory_MAP_2026-08-09.md` and
+5. `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`, then
+   `udt_freedata_inventory_MAP_2026-08-09.md` and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages for the active CMB
    peak-optimization arc (`RA2-PARTIAL-WEAK`; BAO is `BANKED + TABLED`);
 6. `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md` and the remaining lineage
@@ -26,8 +29,10 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
-- `udt_freedata_inventory_MAP_2026-08-09.md` — active CMB-arc map: FD1 mixing bound/sweet-spot
-  first, then the gated FD2/FD3 inversions and FD4 cross-anchor target.
+- `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` — current corrected scalar
+  atlas: three interleaved angular ladders; old FD1 multiplet window withdrawn; FD2 not restarted.
+- `udt_freedata_inventory_MAP_2026-08-09.md` — parent CMB free-data menu; its old FD1-first route is
+  superseded by the corrected atlas and complete-angular projection gate.
 - `udt_roadA_mode_quantization_MAP_2026-08-08.md` plus RA1/RA2 — the scoped native-resonator
   evidence; RA1 is a verified lead and RA2 remains `PARTIAL-WEAK`, not a CMB prediction.
 - `CURRENT_RESEARCH_PROGRAM.md` — scientific dependency spine; its August 9 supersession banner

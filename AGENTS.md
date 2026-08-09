@@ -34,8 +34,12 @@ do not dump whole long files or recursively open cited evidence during orientati
 3. `CURRENT_RESEARCH_PROGRAM.md` — the active dependency spine and bounded next question.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
-5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** Read `udt_freedata_inventory_MAP_2026-08-09.md`
-   (the active next step — the free-data audit FD1-FD4; catch-points owed) and
+5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** First read
+   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`: the corrected 462-row atlas
+   has three interleaved angular ladders, and the old same-index `OPEN-COMPATIBILITY-WINDOW` is
+   WITHDRAWN. The next bounded question is the mode-family ownership / complete-angular projection
+   audit; FD2 is not authorized until that meaning is resolved or honestly banked `OPEN`. Then read
+   `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
    RA2 = PARTIAL-WEAK). The x_max STRUCTURE (O1-O3) and SCALE (M1-M4) lanes are COMPLETE (verified
    leads; the fitted background R_w~2.2 Gpc, n~1.056); the BAO lane is BANKED + TABLED (M1-M3d done;
@@ -76,6 +80,12 @@ seal. The mass branch map is plural: F01/F02 are distinct conditional geometry-o
 is carrier/action/box-conditional, and F03/F05/F06/F07 are nonfamily support classes. No candidate
 reading is physical UDT mass. Authoritative fields and sources are in
 `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+
+**Current spectral regression guard:** the corrected FD1 scalar atlas contains three interleaved
+angular ladders. The old same-index `OPEN-COMPATIBILITY-WINDOW` is WITHDRAWN. Do not call an
+equal-index `m=-1,0,+1` bookkeeping triple a physical multiplet, postselect the best standalone
+ladder, assume `m=0` dominance, or promote the scalar `Box_g` atlas into native dynamics. The
+complete-angular mode-family ownership/projection question is `OPEN`, and FD2 remains gated.
 
 For the 1,114 fixed-base artifact identities, use
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. Post-base additions such as the July 19 frontier and

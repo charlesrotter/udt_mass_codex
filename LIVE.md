@@ -46,33 +46,26 @@ was a corrected baryon-fluid import (C3). Status of the arc so far (all verified
   (the derived doublets would destroy the comb — latent kill-switch). Weak consistency, no
   prediction claim.
 
-**THE IMMEDIATE NEXT STEP — the FREE-DATA INVENTORY AUDIT (`udt_freedata_inventory_MAP_2026-08-09.md`,
-map done, gated on Charles's catch-point answers).** The frame (Charles's epistemology ruling,
-recorded §0b there): geometry gives structure not amounts; anchoring the free-data knobs to the
-7 peaks is legitimate hypothesis-fitting IF the anti-epicycle bookkeeping holds (knobs-vs-facts
-count every statement; cross-anchoring; residual rigidity; win-condition + epicycle-failure stated
-in advance). The free data = the near-wall profile (UNPINNED by the low-z SNe fit), the mixing
-amplitude h0 + shape q (unpinned), the comparison-field statistics, the boundary/center data.
-Work menu, gated:
-- **FD1 (cheapest, first):** the mixing-amplitude BOUND from the observed singlet comb (potential
-  FIRST observational bound on mu) + the sweet-spot check (does small h0 keep the ladder AND kill
-  the doublets? — exponent-level classification vs magnitude-level splitting).
-- **FD2:** the profile-perturbation inversion — what near-wall matter-content feature the even/odd
-  peak alternation REQUIRES, + its SNe-residual-invisibility consistency check (this is what
-  unlocks sub-percent; current fits cap at ~1-3% vs Planck's ~0.1%).
-- **FD3:** the field-statistics inversion + naturalness table (thermal-at-the-asymptote [the
-  kappa-thermality lead runs HERE] / scale-free / simple-boundary-data).
-- **FD4 (the named END-GOAL, gated behind FD1+FD2):** the joint precision inversion — 7 peaks +
-  SNe (+ clustering if ever untabled) for (R_w, n, profile) at sub-percent; **the falsifiable WOW
-  = the cross-anchor test: the CMB-fitted wall must land INSIDE the SNe intervals (X_eff 2086+/-27
-  Mpc)**. M_total rides the dimensional-lead O(1)-factor asterisk (relative precision only until a
-  native law fixes the factor).
-- **RA1-V (gated behind FD1/FD2):** the vector/Maxwell probe — the POLARIZATION channels; the sharp
-  target = the blind relative comb offset beta_vector-beta_scalar vs the measured TT/EE half-cycle
-  phase; parity-odd TB/EB ~ 0 = a SECOND independent bound on the mixing amplitude.
-Audit catch-points still owed from Charles (see the map §5): the naturalness candidate list (CP2)
-and sequencing (CP3, FD1-first recommended); CP1 (inversion-not-prediction) and CP4 (parking) are
-effectively confirmed.
+- **FD1 CORRECTION (`udt_fd1_corrected_full_spectral_atlas_2026-08-09/`):** COMPLETE and
+  `VERIFIED-WITH-CAVEATS`. The full 462-row scalar census was recomputed with the original regular
+  radial field and exact wall endpoint: 10,080 positive roots, three interleaved angular ladders,
+  and 630/630 D/N channel pairs interlacing. The old FD1 `OPEN-COMPATIBILITY-WINDOW` is WITHDRAWN:
+  the attributed historical same-index diagnostic gives 503 `SPLITTING_ONLY`, 127
+  `BASIN_MISMATCH`, and zero full-centered rows. The scalar atlas does not derive a physical
+  multiplet or mode-population rule. Controlling report:
+  `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`.
+
+**THE IMMEDIATE NEXT STEP — MODE-FAMILY OWNERSHIP / COMPLETE-ANGULAR PROJECTION AUDIT (authorized
+as the next MAP, not yet derived).** The corrected atlas shows that the former same-index triplet
+was imposed by bookkeeping, not selected by the scalar geometry. Before FD2 changes the profile,
+derive what the complete metric says the three equatorial ladders mean: whether they become
+distinct full-angular modes, components of larger representations, or enter an invariant
+observer-pair projection. Carry every family; do not select the four best standalone affine rows,
+invent source weights, assume m=0 dominance, or import a CMB excitation rule. If geometry supplies
+no projection, bank `OPEN` and redesign FD2 as a family-wide sensitivity atlas rather than a
+best-witness inversion. `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu; its old
+FD1-first status is superseded by the corrected atlas. FD2/FD3/FD4, RA1-V, GPU work, and source
+weights remain gated.
 
 ### THE LINEAGE (how the arc got here — a new instance reads these to understand the foundation)
 
@@ -124,10 +117,12 @@ at FD3); V-ANGSIZE (JWST angular-size floor); sirens/AP/time-delay anchors; ALT-
 catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emergence glow) for the
 blackbody live in the scale MAP.
 
-**RESUME PATH (new instance):** THIS block → `udt_freedata_inventory_MAP_2026-08-09.md` (the active
-next step + the catch-points owed) → `udt_roadA_mode_quantization_MAP_2026-08-08.md` + RA1/RA2
-CONSOLIDATED (the resonator) → the LINEAGE docs 1-6 above → CANON.md (C-2026-08-06-1/-2). Then
-AGENTS.md sync sequence. Everything below is prior-session history.
+**RESUME PATH (new instance):** THIS block →
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` → the mode-family ownership /
+complete-angular projection MAP named above → `udt_freedata_inventory_MAP_2026-08-09.md` as the
+parent menu → `udt_roadA_mode_quantization_MAP_2026-08-08.md` + RA1/RA2 CONSOLIDATED (the
+resonator) → the LINEAGE docs 1-6 above → CANON.md (C-2026-08-06-1/-2). Then AGENTS.md sync
+sequence. Everything below is prior-session history.
 
 <!-- PRIOR-SESSION HISTORY (08-05..08-08) archived 2026-08-09 to keep the startup read lean -->
 **PRIOR-SESSION HISTORY (2026-08-05 .. 08-08) — archived** to `archive/live_history_pre_2026-08-09.md` (verbatim; detail-only, not status). The 2026-08-09 block above is the whole current picture; the lineage docs it cites are the authority for foundation detail.

@@ -4,19 +4,21 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; free-data audit next)
+## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; angular mode-family audit next)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. Its immediate map is `udt_freedata_inventory_MAP_2026-08-09.md`; its
-resonator parent is `udt_roadA_mode_quantization_MAP_2026-08-08.md` with RA1/RA2. RA1 is a scoped
-verified lead. RA2 is `RA2-PARTIAL-WEAK`: a generic-cavity comb with weak positional consistency,
-not a CMB prediction. The BAO lane is `BANKED + TABLED`.
+**CMB PEAK OPTIMIZATION**. The controlling checkpoint is
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`: 462 rows and 10,080 positive
+roots give three interleaved angular ladders; the old FD1 same-index multiplet window is withdrawn
+(503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
+`RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. The proposed bounded next action is FD1, after Charles resolves the remaining
-catch-points: derive the data-conditioned mixing-amplitude bound and test whether small nonzero
-mixing preserves the ladder while suppressing the unobserved doublets. FD2/FD3, FD4, polarization,
-BAO resumption, long solves, GPU work, and physical adoption remain gated.
+Nothing is in flight. NEXT is the mode-family ownership / complete-angular projection audit:
+determine from the complete metric what the three equatorial ladders become and whether an invariant
+observer-pair projection exists. Do not select the best standalone ladder or invent source weights.
+`udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, but its FD1-first route is
+superseded. FD2/FD3/FD4, polarization, GPU work, and physical mode populations remain gated.
 
 Foundation lineage remains: phi+orchestra -> the invariant `c_eff` ratio -> mu-on -> `X_max`
 structure/scale -> the D1/D2 courier results. Read

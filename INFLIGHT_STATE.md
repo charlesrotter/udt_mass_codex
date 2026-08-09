@@ -2,10 +2,10 @@
 
 > **2026-08-09 STATUS (RESTART ANCHOR): NOTHING IN FLIGHT — clean stop.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-09) FIRST, then
-> `udt_freedata_inventory_MAP_2026-08-09.md` (the active next step) + `udt_roadA_mode_quantization_
-> MAP_2026-08-08.md` with RA1/RA2 CONSOLIDATED (the resonator, banked verified-LEADs). NEXT CONCRETE
-> STEP = the FREE-DATA INVENTORY AUDIT, FD1 first (the mixing-amplitude bound + sweet-spot check) —
-> GATED on Charles answering the audit catch-points (naturalness list CP2; sequencing CP3). The BAO
+> `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected 462-row atlas
+> has three interleaved angular ladders and withdraws the old FD1 same-index multiplet window.
+> NEXT CONCRETE STEP = the MODE-FAMILY OWNERSHIP / COMPLETE-ANGULAR PROJECTION AUDIT before FD2;
+> `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build
 > = a broadband-clustered fair mock, NOT run = post-hoc F-RETRO). Foundation to build forward from:
 > phi+orchestra -> c_eff -> mu-ON -> x_max O1-O3 + M1-M4 -> the D1/D2 courier theorems. Binding
@@ -14,9 +14,10 @@
 > PRIOR (2026-08-01/06) history.
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
-topmost block (2026-08-09), then `udt_freedata_inventory_MAP_2026-08-09.md` (the active next step)
-and `udt_roadA_mode_quantization_MAP_2026-08-08.md` (the resonator arc); current status is the
-2026-08-09 anchor at the top of this file. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before
+topmost block (2026-08-09), then
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` and the parent map
+`udt_freedata_inventory_MAP_2026-08-09.md`; current status is the 2026-08-09 anchor at the top of
+this file. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before
 DERIVE; lay language with Charles; nothing launches without his go).
 
 **ARCHIVED (2026-08-06):** the prior 2026-08-01 A3 launch runbook + increment list that lived below
