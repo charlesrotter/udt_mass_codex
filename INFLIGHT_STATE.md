@@ -2,9 +2,10 @@
 
 > **2026-08-09 STATUS (RESTART ANCHOR): NOTHING IN FLIGHT — clean stop.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-09) FIRST, then
-> `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected 462-row atlas
-> has three interleaved angular ladders and withdraws the old FD1 same-index multiplet window.
-> NEXT CONCRETE STEP = the MODE-FAMILY OWNERSHIP / COMPLETE-ANGULAR PROJECTION AUDIT before FD2;
+> `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then the corrected FD1
+> report `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The equatorial roots
+> do not lift unchanged, and no metric-only population projector is
+> selected. NEXT CONCRETE STEP = a COMPLETE-ANGULAR FAMILY ATLAS DESIGN MAP before FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build
 > = a broadband-clustered fair mock, NOT run = post-hoc F-RETRO). Foundation to build forward from:
@@ -15,9 +16,10 @@
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
 topmost block (2026-08-09), then
-`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` and the parent map
-`udt_freedata_inventory_MAP_2026-08-09.md`; current status is the 2026-08-09 anchor at the top of
-this file. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before
+`udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`,
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`, and the parent map
+`udt_freedata_inventory_MAP_2026-08-09.md`; current status is the top anchor. Binding method:
+CLAUDE.md (MAP/OBSERVE/PONDER before
 DERIVE; lay language with Charles; nothing launches without his go).
 
 **ARCHIVED (2026-08-06):** the prior 2026-08-01 A3 launch runbook + increment list that lived below

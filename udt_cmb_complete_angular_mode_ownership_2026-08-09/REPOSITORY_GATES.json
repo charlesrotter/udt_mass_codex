@@ -1,0 +1,9 @@
+{
+  "complete_angular_derivation": "26/26",
+  "independent_mutations": "9/9",
+  "independent_verification": "21/21",
+  "premise_guards": "30/30",
+  "protected_curvature_atlas_modified": false,
+  "pytest": "81 passed, 1 xfailed",
+  "scientific_artifact_deletions": 0
+}

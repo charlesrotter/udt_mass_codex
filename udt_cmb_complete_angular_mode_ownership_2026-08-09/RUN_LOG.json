@@ -1,0 +1,45 @@
+[
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_cmb_complete_angular_mode_ownership_2026-08-09/derive_mode_ownership.py"
+    ],
+    "exit_code": 0,
+    "name": "derivation",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "8193bcf2a547d09cd0ac8ec6da3897a661b0b6ab37b7d5f1c8b18c5a347707e4"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/udt_cmb_complete_angular_mode_ownership_2026-08-09/verify_mode_ownership.py"
+    ],
+    "exit_code": 0,
+    "name": "verification",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "14cc22393d4e0de2576f315d85c5e7fa08658dd93d30f84934ff1906b77a95fd"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/udt-admin/udt_mass_codex/verify_current_scientific_premises.py"
+    ],
+    "exit_code": 0,
+    "name": "premise_gate",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "010c34470de908f9ba7148edc54d59b1df73ce702bb76f90558403ec49cd0027"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "-m",
+      "pytest",
+      "tests/",
+      "-q"
+    ],
+    "exit_code": 0,
+    "name": "pytest",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_sha256": "68178300af21dbaf1f763be33e7273fe026574051b8d8438ea032a76b57ec3bb"
+  }
+]

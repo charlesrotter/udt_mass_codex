@@ -22,17 +22,23 @@ finite-cell seal, or boundary term.
 `RA2-PARTIAL-WEAK`. The full corrected FD1 atlas is now COMPLETE and `VERIFIED-WITH-CAVEATS`:
 `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. It recomputes all 462 frozen
 rows and 10,080 positive roots with the correct regular center and exact endpoint. The result is
-three interleaved angular ladders, not a generally centered same-index multiplet. The old FD1
+three interleaved equatorial ladders, not a generally centered same-index multiplet. The old FD1
 `OPEN-COMPATIBILITY-WINDOW` is WITHDRAWN: 503/630 attributed convention rows are
 `SPLITTING_ONLY`, 127 are `BASIN_MISMATCH`, and zero have full-centered containment.
 
-**NEXT = MODE-FAMILY OWNERSHIP / COMPLETE-ANGULAR PROJECTION AUDIT.** Before FD2, determine from
-the complete metric whether the three equatorial ladders are independent full-angular families,
-components of larger modes, or enter an invariant observer-pair projection. Do not choose the
-best-looking standalone ladder, assume m=0 dominance, or invent source weights. If no metric-native
-projection is selected, bank `OPEN` and recast FD2 as a family-wide sensitivity atlas. The parent
-free-data menu remains `udt_freedata_inventory_MAP_2026-08-09.md`; its FD1-first status is
-superseded. FD2/FD3/FD4, RA1-V, GPU work, and physical mode populations remain gated.
+**MODE-FAMILY OWNERSHIP / COMPLETE-ANGULAR PROJECTION AUDIT = COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`. The equatorial roots do not
+lift unchanged: the clean spherical lift has an extra radial volume factor and a coupled
+`(r,theta)` equation. It conditionally retains axial `m` plus parity; its `h=0` multiplets are
+fixed-`ell`, not equal-index FD1 rows. General screens can break axial symmetry. A symmetry
+projector decomposes modes but does not supply physical populations.
+
+**NEXT = COMPLETE-ANGULAR FAMILY ATLAS DESIGN MAP, not launched.** Carry a non-postselected ensemble
+of screen area/shear/mixing/symmetry representatives and design the coupled basis before solving a
+preferred case. C1 is conditional, not selected. FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, and
+physical mode populations remain gated. The parent menu is
+`udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:
 DESI LCDM-free feature detected + audited; BOSS out-of-sample (single-ruler FAILS 0/9, F-RETRO

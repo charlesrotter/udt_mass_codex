@@ -67,6 +67,18 @@ Complete-angular mode-family ownership, an invariant observer-pair projection, s
 polarization, and an honest FD2 restart remain `OPEN`. Read
 `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` before reusing FD1 or RA2.
 
+The subsequent complete-angular ownership audit sharpens the limitation. In the clean
+axis-regular spherical lift, the full volume density has an extra factor of `r` relative to the
+equatorial problem, and nonzero mixing generically couples the radial and polar variables. Thus the
+10,080 FD1 roots do not lift as three full-angular ladders. The chosen spherical lift conditionally
+retains axial `U(1)`, so `m` remains a symmetry label plus north/south parity; at `h=0`, `SO(3)`
+returns and multiplets are fixed-`ell` families, not equal-index FD1 rows. Admitted general screens
+need not retain an axial Killing field, so `m` is not universal over the current configuration
+arena. Symmetry projectors decompose modes but do not assign physical populations. The complete
+lift, source/state weights, observer-pair response, polarization, and FD2 remain `OPEN`. Read
+`udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md` before interpreting any
+equatorial spectrum physically.
+
 The August 5 `X_max` correction sharpens that row without selecting a formula or value. `X_max` is
 the owner-ratified `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair
 positional-dilation asymptote: finite comparisons lie below it, and approach from below must send

@@ -1,0 +1,27 @@
+KEY K01_inverse: True
+KEY K02_determinant: True
+KEY K03_volume: True
+KEY K04_lorentzian_block: True
+KEY K05_time_azimuth_potential: True
+KEY K06_full_operator_has_both_derivatives: True
+KEY K07_equatorial_volume_extra_r: True
+KEY K08_equatorial_potential_matches: True
+KEY K09_round_volume: True
+KEY K10_round_potential: True
+KEY K11_mixed_volume_identity: True
+KEY K12_fd1_profile_generically_nonseparable: True
+KEY K13_round_limit_separable: True
+KEY K14_axial_U1_survives: True
+KEY K15_nonaxial_rotation_broken: True
+KEY K16_SO3_restored_at_h0: True
+KEY K17_equatorial_parity_survives: True
+KEY K18_full_center_regular_power: True
+KEY K19_equatorial_center_regular_power: True
+KEY K20_same_index_not_round_triplet: True
+KEY K21_general_screen_can_break_m: True
+KEY K22_U1_projectors_orthogonal: True
+KEY K23_source_manifest: True
+KEY K24_no_selected_complete_lift: True
+KEY K25_general_screen_selection_open: True
+KEY K26_fd1_population_rule_open: True
+PASS: 26/26 exact derivation keys

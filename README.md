@@ -7,8 +7,11 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 The active arc is **CMB PEAK OPTIMIZATION**. The full corrected FD1 atlas is banked at
 `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`; the old same-index multiplet
-window is withdrawn. The bounded next step is the mode-family ownership / complete-angular
-projection audit. `udt_freedata_inventory_MAP_2026-08-09.md` remains its parent menu.
+window is withdrawn. Its complete-angular interpretation is now controlled by
+`udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`: the equatorial roots do not
+lift unchanged, and no metric-only population projector is selected. The bounded next step is a
+complete-angular family-atlas design MAP. `udt_freedata_inventory_MAP_2026-08-09.md` remains its
+parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 
@@ -16,7 +19,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`, then
+5. `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
+   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`, then
    `udt_freedata_inventory_MAP_2026-08-09.md` and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages for the active CMB
    peak-optimization arc (`RA2-PARTIAL-WEAK`; BAO is `BANKED + TABLED`);
@@ -29,6 +33,9 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
+- `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md` — controlling
+  complete-angular correction: conditional `m` ownership, no unchanged root lift, and no
+  metric-only population rule.
 - `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` — current corrected scalar
   atlas: three interleaved angular ladders; old FD1 multiplet window withdrawn; FD2 not restarted.
 - `udt_freedata_inventory_MAP_2026-08-09.md` — parent CMB free-data menu; its old FD1-first route is

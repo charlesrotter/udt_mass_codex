@@ -1,0 +1,41 @@
+{
+  "caveat": "no fresh zero-context external semantic review",
+  "check_count": 21,
+  "checks": {
+    "V01_payload": true,
+    "V02_fraction_inverse": true,
+    "V03_fraction_determinant": true,
+    "V04_fraction_mode_potential": true,
+    "V05_extra_radial_volume": true,
+    "V06_nonseparable_volume": true,
+    "V07_nonaxial_rotation_broken": true,
+    "V08_round_rotation_restored": true,
+    "V09_full_center_power": true,
+    "V10_round_multiplet_dimensions": true,
+    "V11_equatorial_channels_cross_ell": true,
+    "V12_general_screen_positive": true,
+    "V13_general_screen_breaks_axial": true,
+    "V14_U1_character_projectors": true,
+    "V15_source_manifest": true,
+    "V16_all_mutations_caught": true,
+    "V17_mode_atlas_census": true,
+    "V18_projection_census": true,
+    "V19_status_census": true,
+    "V20_exact_scope_guard": true,
+    "V21_report_stop_guard": true
+  },
+  "independence": "separate standard-library Fraction matrix route plus separate semantic mutation validator; same session",
+  "mutation_count": 9,
+  "mutations": {
+    "M01_status_promotion": true,
+    "M02_key_loss": true,
+    "M03_wrong_D": true,
+    "M04_slice_identity": true,
+    "M05_false_SO3": true,
+    "M06_same_index_triplet": true,
+    "M07_universal_m": true,
+    "M08_weight_invention": true,
+    "M09_ladder_postselection": true
+  },
+  "verdict": "VERIFIED_WITH_CAVEATS"
+}

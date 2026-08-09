@@ -38,8 +38,9 @@ was a corrected baryon-fluid import (C3). Status of the arc so far (all verified
   counter-rotating channel is INTRINSICALLY quantized (essential spectrum proven empty); the
   mixing fingerprint = a Zeeman-like m-doublet splitting. Charles's ruling "mu-on leads, never off"
   was concretely vindicated (mu-off-first would have banked a false no-ladder).
-- **RA2 (`udt_roadA_RA2_projection_2026-08-08/`):** two-phase blind projection + comparison. The
-  backdrop's angular series = the frequency ladder exactly; a Weyl comb l_k~l_A(k+beta); a
+- **RA2 (`udt_roadA_RA2_projection_2026-08-08/`):** two-phase blind projection + comparison. In the
+  declared equatorial C0 slice, the backdrop's angular series = the frequency ladder exactly; a
+  Weyl comb l_k~l_A(k+beta); a
   TWO-parameter fit lands Planck's 7 TT peaks at 1-3% with the offset inside the blind band. BUT
   deflated by review to **RA2-PARTIAL-WEAK**: the comb is generic-cavity, beta IS the mainstream's
   phi re-clothed, the band hit ~1-in-2.5, and the whole contact is CONDITIONAL on m~0 dominance
@@ -48,24 +49,29 @@ was a corrected baryon-fluid import (C3). Status of the arc so far (all verified
 
 - **FD1 CORRECTION (`udt_fd1_corrected_full_spectral_atlas_2026-08-09/`):** COMPLETE and
   `VERIFIED-WITH-CAVEATS`. The full 462-row scalar census was recomputed with the original regular
-  radial field and exact wall endpoint: 10,080 positive roots, three interleaved angular ladders,
+  radial field and exact wall endpoint: 10,080 positive roots, three interleaved equatorial ladders,
   and 630/630 D/N channel pairs interlacing. The old FD1 `OPEN-COMPATIBILITY-WINDOW` is WITHDRAWN:
   the attributed historical same-index diagnostic gives 503 `SPLITTING_ONLY`, 127
   `BASIN_MISMATCH`, and zero full-centered rows. The scalar atlas does not derive a physical
   multiplet or mode-population rule. Controlling report:
   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`.
 
-**THE IMMEDIATE NEXT STEP — MODE-FAMILY OWNERSHIP / COMPLETE-ANGULAR PROJECTION AUDIT (authorized
-as the next MAP, not yet derived).** The corrected atlas shows that the former same-index triplet
-was imposed by bookkeeping, not selected by the scalar geometry. Before FD2 changes the profile,
-derive what the complete metric says the three equatorial ladders mean: whether they become
-distinct full-angular modes, components of larger representations, or enter an invariant
-observer-pair projection. Carry every family; do not select the four best standalone affine rows,
-invent source weights, assume m=0 dominance, or import a CMB excitation rule. If geometry supplies
-no projection, bank `OPEN` and redesign FD2 as a family-wide sensitivity atlas rather than a
-best-witness inversion. `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu; its old
-FD1-first status is superseded by the corrected atlas. FD2/FD3/FD4, RA1-V, GPU work, and source
-weights remain gated.
+**MODE-FAMILY OWNERSHIP / COMPLETE-ANGULAR PROJECTION AUDIT — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Controlling report:
+`udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`. The clean spherical lift gains
+an extra radial volume factor and, with mixing on, becomes a generically coupled `(r,theta)` PDE.
+Its axial `U(1)` conditionally retains `m` plus north/south parity, but the old FD1 radial roots do
+not lift as full-angular modes. At `h=0`, `SO(3)` multiplets are fixed-`ell` families, not
+equal-index FD1 rows. Admitted general screens can break axial symmetry, so no universal `m` label
+or metric-only population projector is selected.
+
+**NEXT BOUNDED MAP — COMPLETE-ANGULAR FAMILY ATLAS DESIGN (not launched).** Inventory a
+non-postselected ensemble of complete angular representatives and the coupled bases needed to
+characterize all of their mode families before solving any one of them. C1 may be one conditional
+representative, never the answer by assumption. The map must keep screen area, both shears,
+mixing, symmetry class, center/pole regularity, wall realization, and all coupled labels visible.
+Do not fit CMB data or solve a preferred ladder. FD2/FD3/FD4, RA1-V, GPU work, and source/state
+weights remain gated. `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
 
 ### THE LINEAGE (how the arc got here — a new instance reads these to understand the foundation)
 
@@ -118,9 +124,10 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
-`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` → the mode-family ownership /
-complete-angular projection MAP named above → `udt_freedata_inventory_MAP_2026-08-09.md` as the
-parent menu → `udt_roadA_mode_quantization_MAP_2026-08-08.md` + RA1/RA2 CONSOLIDATED (the
+`udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md` →
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md` → the complete-angular family
+atlas MAP named above → `udt_freedata_inventory_MAP_2026-08-09.md` as the parent menu →
+`udt_roadA_mode_quantization_MAP_2026-08-08.md` + RA1/RA2 CONSOLIDATED (the
 resonator) → the LINEAGE docs 1-6 above → CANON.md (C-2026-08-06-1/-2). Then AGENTS.md sync
 sequence. Everything below is prior-session history.
 

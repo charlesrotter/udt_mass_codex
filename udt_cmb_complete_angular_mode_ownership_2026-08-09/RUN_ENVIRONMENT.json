@@ -1,0 +1,8 @@
+{
+  "cpu_only": true,
+  "git_preregistration_commit": "33579c653e853cecf0fe10c4266c5c54fc72b735",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "scipy": "1.15.3",
+  "sympy": "1.13.1"
+}

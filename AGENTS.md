@@ -35,10 +35,13 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** First read
-   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`: the corrected 462-row atlas
-   has three interleaved angular ladders, and the old same-index `OPEN-COMPATIBILITY-WINDOW` is
-   WITHDRAWN. The next bounded question is the mode-family ownership / complete-angular projection
-   audit; FD2 is not authorized until that meaning is resolved or honestly banked `OPEN`. Then read
+   `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
+   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected 462-row atlas
+   has three interleaved equatorial ladders, and the old same-index `OPEN-COMPATIBILITY-WINDOW` is
+   WITHDRAWN. The ownership audit proves that those roots do not lift unchanged into the conditional
+   complete spherical operator; axial `m` survives only in symmetry-preserving representatives,
+   and no metric-only population projector is selected. The next bounded question is a
+   complete-angular family-atlas design MAP; FD2 remains unauthorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
    RA2 = PARTIAL-WEAK). The x_max STRUCTURE (O1-O3) and SCALE (M1-M4) lanes are COMPLETE (verified
@@ -82,10 +85,13 @@ reading is physical UDT mass. Authoritative fields and sources are in
 `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 **Current spectral regression guard:** the corrected FD1 scalar atlas contains three interleaved
-angular ladders. The old same-index `OPEN-COMPATIBILITY-WINDOW` is WITHDRAWN. Do not call an
-equal-index `m=-1,0,+1` bookkeeping triple a physical multiplet, postselect the best standalone
-ladder, assume `m=0` dominance, or promote the scalar `Box_g` atlas into native dynamics. The
-complete-angular mode-family ownership/projection question is `OPEN`, and FD2 remains gated.
+equatorial ladders. The old same-index `OPEN-COMPATIBILITY-WINDOW` is WITHDRAWN. The complete-angular
+ownership audit is now the controlling correction: the full spherical lift changes the radial
+operator and generically couples `(r,theta)`; fixed-`ell`, not equal FD1 index, owns a round `SO(3)`
+multiplet; admitted screens may lack any axial `m`; symmetry projection is not population
+weighting. Do not call an equal-index `m=-1,0,+1` bookkeeping triple a physical multiplet,
+postselect the best standalone ladder, assume `m=0` dominance, promote the chosen C1 lift to native,
+or promote the scalar `Box_g` atlas into native dynamics. FD2 remains gated.
 
 For the 1,114 fixed-base artifact identities, use
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`. Post-base additions such as the July 19 frontier and

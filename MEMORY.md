@@ -4,19 +4,23 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; angular mode-family audit next)
+## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; complete-angular family MAP next)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is
+`udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`: the equatorial roots do not
+lift unchanged; the conditional spherical lift retains axial `m` but couples `(r,theta)`; round
+multiplets are fixed-`ell`; general screens need not retain `m`; and no metric-only population
+projector is selected. The underlying corrected scalar checkpoint is
 `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`: 462 rows and 10,080 positive
-roots give three interleaved angular ladders; the old FD1 same-index multiplet window is withdrawn
+roots give three interleaved equatorial ladders; the old FD1 same-index multiplet window is withdrawn
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is the mode-family ownership / complete-angular projection audit:
-determine from the complete metric what the three equatorial ladders become and whether an invariant
-observer-pair projection exists. Do not select the best standalone ladder or invent source weights.
+Nothing is in flight. NEXT is a complete-angular family-atlas design MAP: retain a non-postselected
+ensemble of area/shear/mixing/symmetry representatives and design the coupled basis before solving.
+Do not select the best standalone ladder or invent source weights.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, but its FD1-first route is
 superseded. FD2/FD3/FD4, polarization, GPU work, and physical mode populations remain gated.
 

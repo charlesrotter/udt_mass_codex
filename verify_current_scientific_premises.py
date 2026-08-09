@@ -89,6 +89,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
             "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
             "udt_freedata_inventory_MAP_2026-08-09.md",
             "RA2-PARTIAL-WEAK",
@@ -124,6 +125,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
             "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
             "udt_freedata_inventory_MAP_2026-08-09.md",
         ):
@@ -142,6 +144,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
         "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
         "udt_freedata_inventory_MAP_2026-08-09.md",
         "udt_roadA_mode_quantization_MAP_2026-08-08.md",
@@ -154,9 +157,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 29, "premise registry must contain exactly 29 rows")
+    require(len(rows) == 30, "premise registry must contain exactly 30 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 29, "duplicate premise id")
+    require(len(by_id) == 30, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -264,6 +267,21 @@ def main() -> None:
         == "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
         "corrected FD1 source changed",
     )
+    require(
+        by_id["G30"]["current_status"]
+        == "DERIVED_CONDITIONAL_U1_MODE_DECOMPOSITION__FD1_ROOTS_DO_NOT_LIFT__PHYSICAL_COMPLETE_LIFT_AND_POPULATION_PROJECTION_OPEN",
+        "complete-angular ownership status regressed or promoted",
+    )
+    require(by_id["G30"]["epistemic_label"] == "MIXED", "complete-angular ownership label changed")
+    require(by_id["G30"]["active_use"] == "FULL_ANGULAR_REGRESSION_GATE_ONLY", "complete-angular ownership use promoted")
+    require("physical complete angular screen" in by_id["G30"]["open_scope"], "complete-angular lift promoted")
+    require("equatorial roots relabeled full-angular" in by_id["G30"]["forbidden_regression"], "full-angular relabel guard absent")
+    require("symmetry projector promoted to population law" in by_id["G30"]["forbidden_regression"], "population projection guard absent")
+    require(
+        by_id["G30"]["controlling_source"]
+        == "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
+        "complete-angular ownership source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -336,7 +354,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 29 premise guards, corrected FD1/angular-projection routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 30 premise guards, complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

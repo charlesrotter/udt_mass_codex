@@ -1,0 +1,22 @@
+CHECK V01_payload: True
+CHECK V02_fraction_inverse: True
+CHECK V03_fraction_determinant: True
+CHECK V04_fraction_mode_potential: True
+CHECK V05_extra_radial_volume: True
+CHECK V06_nonseparable_volume: True
+CHECK V07_nonaxial_rotation_broken: True
+CHECK V08_round_rotation_restored: True
+CHECK V09_full_center_power: True
+CHECK V10_round_multiplet_dimensions: True
+CHECK V11_equatorial_channels_cross_ell: True
+CHECK V12_general_screen_positive: True
+CHECK V13_general_screen_breaks_axial: True
+CHECK V14_U1_character_projectors: True
+CHECK V15_source_manifest: True
+CHECK V16_all_mutations_caught: True
+CHECK V17_mode_atlas_census: True
+CHECK V18_projection_census: True
+CHECK V19_status_census: True
+CHECK V20_exact_scope_guard: True
+CHECK V21_report_stop_guard: True
+PASS: 21/21 independent checks; 9/9 mutations caught

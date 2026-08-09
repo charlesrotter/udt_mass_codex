@@ -17,10 +17,14 @@ closed 5-origin matrix) and the full BAO data reckoning (M3/M3-AUDIT/M3b-BOSS/M3
 the BAO lane is now BANKED + TABLED; and the ACTIVE ARC is **CMB PEAK OPTIMIZATION**. The corrected
 FD1 full spectral atlas is COMPLETE and `VERIFIED-WITH-CAVEATS`:
 `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. Its 462-row census gives three
-interleaved angular ladders and withdraws the old same-index `OPEN-COMPATIBILITY-WINDOW`. The next
-bounded question is the **mode-family ownership / complete-angular projection audit**, before any
-FD2 restart. `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active
-FD1 instruction. The scientific SPINE below (phi+orchestra, c_eff, the
+interleaved equatorial ladders and withdraws the old same-index `OPEN-COMPATIBILITY-WINDOW`. The
+mode-family ownership / complete-angular projection audit is also COMPLETE and
+`VERIFIED-WITH-CAVEATS`: `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`.
+It proves the equatorial roots do not lift unchanged, derives conditional axial `m` ownership in
+the chosen spherical representative, and finds no metric-only population projector. The next
+bounded question is a **complete-angular family-atlas design MAP**, before any FD2 restart.
+`udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
+The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane
 framing is superseded. Authority order: LIVE.md 2026-08-09 block > this banner > everything below.
 
@@ -192,8 +196,9 @@ selection, canonization or repository reorganization is authorized by this progr
 ## Startup route
 
 **ACTIVE READS FIRST (2026-08-09 — supersedes the 08-06 line here):**
-`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`, then the mode-family ownership /
-complete-angular projection audit named in the top banner. Read
+`udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`, then the complete-angular
+family-atlas design MAP named in the top banner. Read
 `udt_freedata_inventory_MAP_2026-08-09.md` as the parent menu and
 `udt_roadA_mode_quantization_MAP_2026-08-08.md` + RA1/RA2 as the resonator evidence. The x_max maps
 (`..._pair_question_MAP_2026-08-06.md`, `..._scale_observational_MAP_2026-08-07.md`) and
