@@ -187,9 +187,11 @@ selection, canonization or repository reorganization is authorized by this progr
 
 ## Startup route
 
-**FRONTIER READS FIRST (2026-08-06):** `udt_xmax_pair_question_MAP_2026-08-06.md` (active lane,
-O1 pending) and `udt_ceff_depth_orchestra_integration_2026-08-06.md` (c_eff reframe). The 08-05
-route below is still-valid background; build forward, no pre-orchestra reach without a re-grade.
+**ACTIVE READS FIRST (2026-08-09 — supersedes the 08-06 line here):** `udt_freedata_inventory_MAP_2026-08-09.md`
+(the active CMB-arc next step) and `udt_roadA_mode_quantization_MAP_2026-08-08.md` + RA1/RA2 (the
+resonator). The x_max maps (`..._pair_question_MAP_2026-08-06.md`, `..._scale_observational_MAP_2026-08-07.md`)
+and `udt_ceff_..._2026-08-06.md` are now LINEAGE/background (lanes complete). The 08-05 route below
+is still-valid background; build forward, no pre-orchestra reach without a re-grade.
 
 
 Read in this order:

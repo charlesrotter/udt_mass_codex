@@ -1,5 +1,10 @@
 # MAP — observational constraints on the x_max SCALE (SNe + BAO, UDT-native ontology)
 
+> **STATUS 2026-08-09 (this is now a LINEAGE doc — LIVE.md's 2026-08-09 block is authority):** the
+> STRUCTURE (O1-O3) and SCALE (M1-M4) lanes are COMPLETE (verified leads; SNe fit R_w~2.2 Gpc,
+> n~1.056, M_total~1e53 kg); the BAO lane ran through M3d and is BANKED + TABLED; the active arc is
+> now CMB peak optimization. In-doc phrases like "O1 pending" are historical (08-07 authoring).
+
 Date: 2026-08-07. Branch: grok. MODE: MAP ONLY — no compute, no data touched, nothing runs.
 Charles's go ("Ok, let's map") with his binding ontology rule and his hypothesis, both recorded in
 §0. This is the SCALE side of the structure/scale split (`udt_xmax_pair_question_MAP_2026-08-06.md`

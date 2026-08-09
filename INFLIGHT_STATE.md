@@ -14,10 +14,10 @@
 > PRIOR (2026-08-01/06) history.
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
-topmost block, then `udt_xmax_pair_question_MAP_2026-08-06.md` (the active lane, O1 pending) and
-`udt_ceff_depth_orchestra_integration_2026-08-06.md` (the c_eff reframe); current status is the
-08-06 banner above. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before DERIVE; lay language with
-Charles; nothing launches without his go).
+topmost block (2026-08-09), then `udt_freedata_inventory_MAP_2026-08-09.md` (the active next step)
+and `udt_roadA_mode_quantization_MAP_2026-08-08.md` (the resonator arc); current status is the
+2026-08-09 anchor at the top of this file. Binding method: CLAUDE.md (MAP/OBSERVE/PONDER before
+DERIVE; lay language with Charles; nothing launches without his go).
 
 **ARCHIVED (2026-08-06):** the prior 2026-08-01 A3 launch runbook + increment list that lived below
 here are moved to `archive/inflight_A3_runbook_2026-08-01.md` — the P4 angular arc they drove is

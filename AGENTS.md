@@ -34,12 +34,18 @@ do not dump whole long files or recursively open cited evidence during orientati
 3. `CURRENT_RESEARCH_PROGRAM.md` — the active dependency spine and bounded next question.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
-5. **FRONTIER (2026-08-06):** `udt_xmax_pair_question_MAP_2026-08-06.md` (the active lane -- x_max
-   as the pair question; O1 pending) and `udt_ceff_depth_orchestra_integration_2026-08-06.md` (the
-   c_eff reframe; the two-point ratio is the invariant). Build FORWARD from these; the Global Cell
-   Assembly lane is ARCHIVED-LEGACY (`archive/global_cell_assembly_2026-08-06_legacy/`) -- do not
-   reach into the pre-orchestra corpus without an explicit re-grade. Also read `INFLIGHT_STATE.md` (the live resume ledger; currently: no
-   task in flight, x_max O1 pending).
+5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** Read `udt_freedata_inventory_MAP_2026-08-09.md`
+   (the active next step — the free-data audit FD1-FD4; catch-points owed) and
+   `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
+   RA2 = PARTIAL-WEAK). The x_max STRUCTURE (O1-O3) and SCALE (M1-M4) lanes are COMPLETE (verified
+   leads; the fitted background R_w~2.2 Gpc, n~1.056); the BAO lane is BANKED + TABLED (M1-M3d done;
+   resume-build = a broadband fair mock, in the M3d package). Lineage/foundation to build FORWARD
+   from (LIVE's 2026-08-09 block §1-6 routes these): `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
+   (phi+orchestra), `udt_ceff_depth_orchestra_integration_2026-08-06.md` (c_eff reframe; the
+   two-point ratio is the invariant), [[mu-on-is-the-default]] (mu turned on — the inertia ruling).
+   The Global Cell Assembly lane is ARCHIVED-LEGACY (`archive/global_cell_assembly_2026-08-06_legacy/`)
+   -- do not reach into the pre-orchestra corpus without an explicit re-grade. Also read
+   `INFLIGHT_STATE.md` (the live resume ledger; currently: NOTHING in flight — clean stop).
 6. `udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md` for current observer-pair,
    `phi`, angular-orchestra and physical-cocycle orientation; then exact evidence only to the depth
    required by the user's task.
