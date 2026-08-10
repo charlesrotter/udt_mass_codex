@@ -1,0 +1,12 @@
+premise_id	object	status	provenance	use_or_exclusion
+P01	24 stable complete-branch identities	pinned-by-THEORY	G41 branch universe	complete bounded branch set
+P02	regular SO2 alignment bitorsor and scalar descent	pinned-by-THEORY	G43-G44	transport and gauge-descent baseline only
+P03	physical non-isometric calibration magnitude	OPEN	G35-G44	object whose owner is audited
+P04	physical pair surface or pair functor	OPEN	G38-G44	must not be silently supplied
+P05	R17 semidirect transition	CONDITIONAL	G42	algebraic witness only; branch ownership rejected
+P06	stationary Killing clock ratio	CONDITIONAL_BRANCH_ONLY	G36/G41	endpoint-clock candidate on its exact branch scope
+P07	path labels and holonomy	free-and-explored	G40-G44	retained; no endpoint collapse
+P08	native dynamics or bootstrap return	OPEN	current premise registry	missing upstream candidate; no invention
+P09	delta_RF and terminal pair readout	CONDITIONAL	G35/G37/G44	compatibility/readout gates; never owner by definition
+P10	null degenerate and cut-locus continuation	OPEN	outside regular scope	excluded from universal conclusion
+P11	action source carrier matter mass Xmax CMB signalling	OPEN	outside audit	no inference

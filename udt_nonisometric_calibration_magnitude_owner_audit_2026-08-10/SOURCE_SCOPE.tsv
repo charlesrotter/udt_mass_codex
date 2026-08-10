@@ -1,0 +1,25 @@
+source_id	path	role
+S01	CURRENT_SCIENTIFIC_PREMISES.tsv	current G44 precedence and exclusions
+S02	udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md	controlling scalar-descent and open-owner result
+S03	udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/EXACT_DERIVATION.md	density descent and zero-generation algebra
+S04	udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/DERIVATION_RESULT.json	machine-readable G44 result
+S05	udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md	alignment-bitorsor ownership scope
+S06	udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/EXACT_DERIVATION.md	alignment and balanced-composition algebra
+S07	udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md	complete-branch relation-family ruling
+S08	udt_global_relation_family_branch_classification_2026-08-10/EXACT_DERIVATION.md	global relation-family derivation
+S09	udt_global_relation_family_branch_classification_2026-08-10/BRANCH_UNIVERSE.tsv	24 stable identities
+S10	udt_global_relation_family_branch_classification_2026-08-10/GLOBAL_RELATION_FAMILY_CLASSIFICATION.tsv	branch relation classifications
+S11	udt_global_relation_family_branch_classification_2026-08-10/SOURCE_TO_BRANCH_CROSSWALK.tsv	alias-to-identity closure
+S12	udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md	R17 conditional ownership ruling
+S13	udt_branch_nonisometric_calibration_transition_audit_2026-08-10/EXACT_DERIVATION.md	R17 semidirect algebra
+S14	udt_branch_nonisometric_calibration_transition_audit_2026-08-10/TRANSITION_OWNERSHIP_ATLAS.tsv	24-row transition ownership census
+S15	udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md	pair-map ownership scope
+S16	udt_calibrated_pair_map_owner_atlas_2026-08-09/EXACT_DERIVATION.md	pair-surface and query algebra
+S17	udt_calibrated_pair_map_owner_atlas_2026-08-09/PAIR_MAP_ATLAS.tsv	pair-map candidate classifications
+S18	udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md	calibration-line owner scope
+S19	udt_reciprocal_calibration_state_solder_audit_2026-08-09/EXACT_DERIVATION.md	local solder no-go and stationary prototype
+S20	udt_reciprocal_calibration_state_solder_audit_2026-08-09/SOLDER_CANDIDATE_LEDGER.tsv	calibration candidate census
+S21	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md	terminal readout scope
+S22	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	terminal compatibility algebra
+S23	udt_three_observer_overlap_calibration_carry_audit_2026-08-10/EXACT_DERIVATION.md	composition and middle-state typing
+S24	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/LOOP_HOLONOMY.tsv	path-label and nonclosing-loop evidence

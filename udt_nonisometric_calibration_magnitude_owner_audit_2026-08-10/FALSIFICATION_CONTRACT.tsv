@@ -1,0 +1,13 @@
+gate_id	claim	falsifier	maximum_if_failed
+F01	all 24 stable identities are classified against all five families	one missing or duplicate branch-family cell	TYPE_FAILURE
+F02	owner means generation rather than transport or readout	an OWNER_DERIVED row has only an isometric map or terminal evaluator	TYPE_FAILURE
+F03	pair-surface family is branch-owned	an OWNER_DERIVED row needs an unowned query path ruler evolution or surface	BLOCKED_MISSING_PHYSICAL_QUERY
+F04	stationary clock family is complete where promoted	an OWNER_DERIVED row lacks unique intrinsic Killing line composition or complete clock/ruler calibration	OWNER_CONDITIONAL_BRANCH_ONLY
+F05	path/global family generates magnitude	a promoted metric-natural path map is isometric or a nonmetric map requires extra choice	TRANSPORT_OR_READOUT_ONLY
+F06	dynamical/bootstrap family is current metric-owned	a promoted law is absent from frozen premises or requires an invented action integral or weighting	BLOCKED_MISSING_DYNAMIC_LAW
+F07	R17 remains conditional	a row promotes exact semidirect algebra to branch ownership without a selector	TYPE_FAILURE
+F08	path labels remain	a classification equates nonidentical frozen loops to force endpoint descent	TYPE_FAILURE
+F09	terminal compatibility is not ownership	a row calls normalized terminal evaluation generation of its own input magnitude	TYPE_FAILURE
+F10	no universal c_eff promotion occurs	a conclusion defines universal mixed-geometry c_eff without a physical owner	TYPE_FAILURE
+F11	no protected-atlas dependence occurs	one load-bearing source is outside SOURCE_MANIFEST.tsv or in the protected atlas	TYPE_FAILURE
+F12	negative conclusion remains bounded	a no-owner result is stated beyond the frozen 24 identities five families or regular scope	TYPE_FAILURE
