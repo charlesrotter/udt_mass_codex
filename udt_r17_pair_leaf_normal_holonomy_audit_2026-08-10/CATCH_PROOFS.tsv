@@ -1,0 +1,17 @@
+catch_id	mutant	expected	observed
+F01	connection assigned / derivation removed	REJECT	REJECT
+F02	wrong clock connection	REJECT	REJECT
+F03	wrong ruler connection	REJECT	REJECT
+F04	wrong curvature	REJECT	REJECT
+F05	erase lambda -1 flat stratum	REJECT	REJECT
+F06	call generic curvature zero	REJECT	REJECT
+F07	erase winding holonomy	REJECT	REJECT
+F08	call signed reflection angle invariant	REJECT	REJECT
+F09	conflate ambient and normal holonomy	REJECT	REJECT
+F10	select one leaf	REJECT	REJECT
+F11	select one lambda	REJECT	REJECT
+F12	call cross-leaf path unique	REJECT	REJECT
+F13	promote projected connection to physical arrow	REJECT	REJECT
+F14	infer downstream physics	REJECT	REJECT
+F15	independent verifier assigns result	REJECT	REJECT
+F16	missing source	REJECT	REJECT

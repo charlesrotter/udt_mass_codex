@@ -1,0 +1,162 @@
+{
+  "arbitrary_second_jets_exercised": true,
+  "assigns_connection_or_curvature": false,
+  "checks_per_witness": 6,
+  "derives_connection_by_koszul": true,
+  "derives_curvature_by_exterior_derivative": true,
+  "derives_frame_by_gauss_jordan": true,
+  "derives_frame_derivative_by_inverse_identity": true,
+  "imports_production_controller": false,
+  "lambda_strata": 6,
+  "maurer_cartan_sign_conventions": 2,
+  "mode": "standard_library_fraction_dual_constructive",
+  "passed_checks": 72,
+  "schema": "udt-r17-normal-holonomy-independent-v1",
+  "status": "PASS",
+  "witnesses": [
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C01_MC_PLUS",
+      "lambda": "-2"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C01_MC_MINUS",
+      "lambda": "-2"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C02_MC_PLUS",
+      "lambda": "-1"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C02_MC_MINUS",
+      "lambda": "-1"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C03_MC_PLUS",
+      "lambda": "0"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C03_MC_MINUS",
+      "lambda": "0"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C04_MC_PLUS",
+      "lambda": "1/2"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C04_MC_MINUS",
+      "lambda": "1/2"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C05_MC_PLUS",
+      "lambda": "1"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C05_MC_MINUS",
+      "lambda": "1"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C06_MC_PLUS",
+      "lambda": "2"
+    },
+    {
+      "checks": {
+        "A_e0_constructive": true,
+        "A_e1_constructive": true,
+        "curvature_constructive": true,
+        "e1_of_A_e0_cancels_arbitrary_second_jets": true,
+        "global_leaf_components_constructive": true,
+        "stratum_class_correct": true
+      },
+      "id": "C06_MC_MINUS",
+      "lambda": "2"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "checks": {
+    "connection_derived_from_coframe_and_MC": true,
+    "constant_depth_leaf_curvature_zero": true,
+    "lambda_minus_one_leaf_curvature_zero": true,
+    "lambda_zero_screen_metric_basic": true,
+    "mc_sign_reverses_connection": true,
+    "no_lambda_selected": true,
+    "orientation_free_curvature_square_preserved": true,
+    "pair_plane_remains_involutive": true,
+    "six_lambda_strata_retained": true,
+    "twist_off_leaf_curvature_zero": true
+  },
+  "contractible_holonomy_rule": "Hol=exp(-J*integral_Sigma_F_perp)",
+  "cross_leaf_horizontal_distribution": "H=span(e2,e3)",
+  "expressions_mc_minus": {
+    "A_T": "-a*exp(-2*phi*(lambda + 1))",
+    "A_Z": "(-a**2 + exp(4*phi) - 2*exp(2*phi*(lambda + 1)))*exp(-2*phi*(lambda + 1))",
+    "A_e0": "-a*exp(-phi*(2*lambda + 1))",
+    "A_e1": "exp(-2*lambda*phi + phi) - 2*exp(-phi)",
+    "F_e0e1": "2*a*p1*(-lambda - 1)*exp(-2*phi*(lambda + 1))",
+    "pair_bracket_e0": "-p1*exp(-phi)",
+    "pair_bracket_transverse_square": "0",
+    "screen_basic_log_derivative": "2*lambda*p1",
+    "screen_curvature_square": "4*a**2*p1**2*(lambda + 1)**2*exp(-4*phi*(lambda + 1))"
+  },
+  "expressions_mc_plus": {
+    "A_T": "a*exp(-2*phi*(lambda + 1))",
+    "A_Z": "(a**2 - exp(4*phi) + 2*exp(2*phi*(lambda + 1)))*exp(-2*phi*(lambda + 1))",
+    "A_e0": "a*exp(-phi*(2*lambda + 1))",
+    "A_e1": "-exp(-2*lambda*phi + phi) + 2*exp(-phi)",
+    "F_e0e1": "2*a*p1*(lambda + 1)*exp(-2*phi*(lambda + 1))",
+    "pair_bracket_e0": "-p1*exp(-phi)",
+    "pair_bracket_transverse_square": "0",
+    "screen_basic_log_derivative": "2*lambda*p1",
+    "screen_curvature_square": "4*a**2*p1**2*(lambda + 1)**2*exp(-4*phi*(lambda + 1))"
+  },
+  "lambda_strata": 6,
+  "landing": "CONDITIONAL_METRIC_OWNED_NORMAL_CONNECTION_AND_REPRESENTATIVE_FREE_HOLONOMY_DATA_ON_SUPPLIED_R17_PAIR_LEAVES__PHYSICAL_PATH_AND_COMPLETE_ARROW_OPEN",
+  "leaf_topology": "R_x_S1",
+  "normal_connection_definition": "D_V_s=H(nabla_V_s)",
+  "orientation_free_holonomy_character": "trace(Hol)=2*cos(Theta)",
+  "physical_observer_arrow_derived": false,
+  "schema": "udt-r17-pair-leaf-normal-holonomy-v1",
+  "scope_guards": {
+    "ambient_Lorentz_holonomy_called_normal_SO2_holonomy": false,
+    "connection_coefficients_assigned": false,
+    "cross_leaf_path_called_unique": false,
+    "downstream_physics_inferred": false,
+    "one_lambda_selected": false,
+    "one_leaf_selected": false,
+    "orientation_signed_angle_called_O2_invariant": false,
+    "projected_connection_called_physical_observer_arrow": false,
+    "winding_conflated_with_contractible": false
+  },
+  "selected_lambda": null,
+  "selected_leaf": null,
+  "selected_path": null,
+  "status": "PASS",
+  "winding_holonomy_rule": "Hol_n=exp(-J*(n*Theta_base+curvature_flux))"
+}

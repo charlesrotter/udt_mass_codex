@@ -1,0 +1,11 @@
+{
+  "external_adversarial_review": "PENDING",
+  "independent_checks": 72,
+  "lambda_strata": 6,
+  "landing": "CONDITIONAL_METRIC_OWNED_NORMAL_CONNECTION_AND_REPRESENTATIVE_FREE_HOLONOMY_DATA_ON_SUPPLIED_R17_PAIR_LEAVES__PHYSICAL_PATH_AND_COMPLETE_ARROW_OPEN",
+  "mutation_catches": 16,
+  "production_checks": 10,
+  "schema": "udt-r17-pair-leaf-normal-holonomy-verification-v1",
+  "source_manifest_rows": 12,
+  "status": "PASS"
+}
