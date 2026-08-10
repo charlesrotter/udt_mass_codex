@@ -1,0 +1,424 @@
+{
+  "atlas_rows": 66,
+  "base": "3ad41b15551d31cc2c6da5bf8313b6531f4f0279",
+  "checks_failed": 0,
+  "checks_passed": 67,
+  "checks_total": 67,
+  "disposition_counts": {
+    "CONDITIONAL_BRANCH_STRUCTURE": 9,
+    "CONDITIONAL_QUERY_DATA": 12,
+    "DERIVED_FROM_METRIC_AND_DECLARED_QUERY": 16,
+    "FAILS_REQUIRED_TYPE": 4,
+    "LOCAL_ONLY_BRANCH_VALUED": 8,
+    "OPEN_NOT_DECIDED_BY_CURRENT_FOUNDATION": 17
+  },
+  "failed": [],
+  "landing": "NO_UNIQUE_UNIVERSAL_PAIR_MAP_OWNER_FROM_METRIC_PLUS_BARE_ORDERED_EVENTS__ORTHOGONAL_EXPONENTIAL_TUBES_ARE_LOCAL_METRIC_NATURAL_ONLY_AFTER_WORLDLINE_EVENT_PAIRING_AND_BRANCH_DATA__COFRAME_PLANE_SURFACES_REQUIRE_PHYSICAL_SPLIT_AND_FROBENIUS_INTEGRABILITY__STATIONARY_KILLING_FLOW_IS_CONDITIONAL_AND_ITS_NORM_DEPTH_EQUALS_TERMINAL_PAIR_DEPTH_ONLY_WHEN_TL_EQUALS_ONE__ACCELERATED_TUBES_FORM_QUERY_DEPENDENT_FAMILIES__CUT_LOCI_FORCE_BRANCH_VALUED_RELATIONS__PAIR_SURFACES_ARE_NOT_COMPOSABLE_ARROWS_WITHOUT_CARRIED_CALIBRATION_STATE__PHYSICAL_CALIBRATED_PAIR_RELATION_FUNCTOR_REMAINS_OPEN",
+  "preregistration_commit": "7851b445",
+  "rows": [
+    {
+      "actual": "20",
+      "expected": "20",
+      "name": "source_count",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "source_paths_unique",
+      "passed": true
+    },
+    {
+      "actual": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "expected": "True",
+      "name": "source_01",
+      "passed": true
+    },
+    {
+      "actual": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
+      "expected": "True",
+      "name": "source_02",
+      "passed": true
+    },
+    {
+      "actual": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md",
+      "expected": "True",
+      "name": "source_03",
+      "passed": true
+    },
+    {
+      "actual": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/NEXT_STEP.md",
+      "expected": "True",
+      "name": "source_04",
+      "passed": true
+    },
+    {
+      "actual": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/STATUS_LEDGER.tsv",
+      "expected": "True",
+      "name": "source_05",
+      "passed": true
+    },
+    {
+      "actual": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXTERNAL_REVIEW.md",
+      "expected": "True",
+      "name": "source_06",
+      "passed": true
+    },
+    {
+      "actual": "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
+      "expected": "True",
+      "name": "source_07",
+      "passed": true
+    },
+    {
+      "actual": "udt_reciprocal_calibration_state_solder_audit_2026-08-09/EXACT_DERIVATION.md",
+      "expected": "True",
+      "name": "source_08",
+      "passed": true
+    },
+    {
+      "actual": "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+      "expected": "True",
+      "name": "source_09",
+      "passed": true
+    },
+    {
+      "actual": "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md",
+      "expected": "True",
+      "name": "source_10",
+      "passed": true
+    },
+    {
+      "actual": "udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md",
+      "expected": "True",
+      "name": "source_11",
+      "passed": true
+    },
+    {
+      "actual": "udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "expected": "True",
+      "name": "source_12",
+      "passed": true
+    },
+    {
+      "actual": "udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md",
+      "expected": "True",
+      "name": "source_13",
+      "passed": true
+    },
+    {
+      "actual": "udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md",
+      "expected": "True",
+      "name": "source_14",
+      "passed": true
+    },
+    {
+      "actual": "udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md",
+      "expected": "True",
+      "name": "source_15",
+      "passed": true
+    },
+    {
+      "actual": "udt_native_global_coframe_definition_audit_2026-07-28/EXACT_DERIVATION.md",
+      "expected": "True",
+      "name": "source_16",
+      "passed": true
+    },
+    {
+      "actual": "udt_complete_coframe_extension_solvability_audit_2026-08-04/EXACT_DERIVATION.md",
+      "expected": "True",
+      "name": "source_17",
+      "passed": true
+    },
+    {
+      "actual": "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/AUDIT_REPORT.md",
+      "expected": "True",
+      "name": "source_18",
+      "passed": true
+    },
+    {
+      "actual": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "expected": "True",
+      "name": "source_19",
+      "passed": true
+    },
+    {
+      "actual": "CURRENT_RESEARCH_PROGRAM.md",
+      "expected": "True",
+      "name": "source_20",
+      "passed": true
+    },
+    {
+      "actual": "66",
+      "expected": "66",
+      "name": "atlas_row_count",
+      "passed": true
+    },
+    {
+      "actual": "66",
+      "expected": "66",
+      "name": "atlas_unique_identity_count",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "atlas_candidate_set",
+      "passed": true
+    },
+    {
+      "actual": "11",
+      "expected": "11",
+      "name": "atlas_P06_axis_count",
+      "passed": true
+    },
+    {
+      "actual": "11",
+      "expected": "11",
+      "name": "atlas_P04_axis_count",
+      "passed": true
+    },
+    {
+      "actual": "11",
+      "expected": "11",
+      "name": "atlas_P03_axis_count",
+      "passed": true
+    },
+    {
+      "actual": "11",
+      "expected": "11",
+      "name": "atlas_P02_axis_count",
+      "passed": true
+    },
+    {
+      "actual": "11",
+      "expected": "11",
+      "name": "atlas_P05_axis_count",
+      "passed": true
+    },
+    {
+      "actual": "11",
+      "expected": "11",
+      "name": "atlas_P01_axis_count",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "atlas_dispositions_registered",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "atlas_no_merit_filter",
+      "passed": true
+    },
+    {
+      "actual": "-L**2*T**2",
+      "expected": "-L**2*T**2",
+      "name": "generic_pair_det",
+      "passed": true
+    },
+    {
+      "actual": "T",
+      "expected": "T",
+      "name": "generic_clock_recovery",
+      "passed": true
+    },
+    {
+      "actual": "beta",
+      "expected": "beta",
+      "name": "generic_shift_recovery",
+      "passed": true
+    },
+    {
+      "actual": "L**2",
+      "expected": "L**2",
+      "name": "generic_ruler_recovery",
+      "passed": true
+    },
+    {
+      "actual": "log(L)/2 - log(T)/2",
+      "expected": "log(L)/2 - log(T)/2",
+      "name": "generic_terminal_formula",
+      "passed": true
+    },
+    {
+      "actual": "-(a*s + 1)**2",
+      "expected": "-(a*s + 1)**2",
+      "name": "accelerated_tube_h00",
+      "passed": true
+    },
+    {
+      "actual": "0",
+      "expected": "0",
+      "name": "accelerated_tube_h01",
+      "passed": true
+    },
+    {
+      "actual": "1",
+      "expected": "1",
+      "name": "accelerated_tube_h11",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "accelerated_tube_not_inertial_generic",
+      "passed": true
+    },
+    {
+      "actual": "-1",
+      "expected": "-1",
+      "name": "accelerated_tube_inertial_limit",
+      "passed": true
+    },
+    {
+      "actual": "omega**2*s**2 - 1",
+      "expected": "omega**2*s**2 - 1",
+      "name": "rotating_tube_h00",
+      "passed": true
+    },
+    {
+      "actual": "0",
+      "expected": "0",
+      "name": "rotating_tube_h01",
+      "passed": true
+    },
+    {
+      "actual": "1",
+      "expected": "1",
+      "name": "rotating_tube_h11",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "opposite_rotations_same_pair_metric",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "opposite_rotations_distinct_maps",
+      "passed": true
+    },
+    {
+      "actual": "0",
+      "expected": "0",
+      "name": "rotating_tube_null_boundary",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "spatial_rotation_preserves_flat_metric",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "rotated_plane_frobenius_obstruction",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "frobenius_obstruction_nonzero",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "same_flat_metric_has_integrable_zero_rotation",
+      "passed": true
+    },
+    {
+      "actual": "-N**2*R**2",
+      "expected": "-N**2*R**2",
+      "name": "stationary_pair_det",
+      "passed": true
+    },
+    {
+      "actual": "-log(N)/2 + log(R)/2",
+      "expected": "-log(N)/2 + log(R)/2",
+      "name": "stationary_terminal_phi",
+      "passed": true
+    },
+    {
+      "actual": "log(N)/2 + log(R)/2",
+      "expected": "log(N)/2 + log(R)/2",
+      "name": "stationary_killing_terminal_difference",
+      "passed": true
+    },
+    {
+      "actual": "0",
+      "expected": "0",
+      "name": "stationary_join_under_reciprocal_area",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "stationary_norm_not_terminal_generic",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "dexp_position_block_noncompositional",
+      "passed": true
+    },
+    {
+      "actual": "0",
+      "expected": "0",
+      "name": "dexp_conjugate_rank_factor",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "full_jacobi_phase_composes",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "jacobi_position_block_does_not_compose",
+      "passed": true
+    },
+    {
+      "actual": "depth_a + depth_b",
+      "expected": "depth_a + depth_b",
+      "name": "carried_tapes_compose",
+      "passed": true
+    },
+    {
+      "actual": "depth_a + depth_b + reset",
+      "expected": "depth_a + depth_b + reset",
+      "name": "rebuilt_tape_reset_ambiguity",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "unowned_reset_changes_composite",
+      "passed": true
+    },
+    {
+      "actual": "depth_a + depth_b",
+      "expected": "depth_a + depth_b",
+      "name": "common_scale_join_cancels",
+      "passed": true
+    },
+    {
+      "actual": "True",
+      "expected": "True",
+      "name": "equal_readout_does_not_select_map",
+      "passed": true
+    }
+  ],
+  "schema": "udt-calibrated-pair-map-owner-atlas-v1",
+  "source_freeze_commit": "bda866a6"
+}

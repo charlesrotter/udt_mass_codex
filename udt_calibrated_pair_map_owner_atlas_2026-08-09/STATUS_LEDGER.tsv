@@ -1,0 +1,17 @@
+id	object	status	scope	open_or_forbidden
+M01	terminal_pair_depth_readout	DERIVED_UNCHANGED	supplied regular A-calibrated pair metric	physical pair map and global composition owner remain open
+M02	orthogonal_exponential_pair_tube	DERIVED_FROM_METRIC_AND_DECLARED_QUERY	worldline proper time ruler direction evolution event pairing and regular branch supplied	bare ordered endpoints do not own these data
+M03	orthogonal_tube_global_uniqueness	LOCAL_ONLY_BRANCH_VALUED	normal neighborhood	cut locus conjugate rank loss topology and multiple branches
+M04	coframe_two_plane_integral_surface	CONDITIONAL_BRANCH_STRUCTURE	physical invariant reciprocal plane plus Frobenius integrability supplied	arbitrary orthonormal presentation is not a metric-only selector
+M05	stationary_Killing_flow_surface	CONDITIONAL_BRANCH_STRUCTURE	intrinsic nonzero timelike Killing branch transverse curve and calibration supplied	not universal on nonstationary branches
+M06	Killing_norm_depth_equals_terminal_depth	CONDITIONAL_RECIPROCAL_AREA	stationary branch with T_L_equals_one	generic difference is one_half_log_TL
+M07	accelerated_observer_tubes	DERIVED_FAMILY_FROM_METRIC_AND_DECLARED_QUERY	complete observer history and direction evolution supplied	metric does not select a member
+M08	exponential_Jacobi_relation	DERIVED_BRANCH_ATLAS	all regular branch labels retained	no unique global map at cut loci
+M09	dExp_position_block_as_compositional_arrow	REJECTED_SCOPED	generic nonzero curvature subdivision	full Jacobi phase has an enlarged non-pair-map type
+M10	pair_surface_binary_composition	FAILS_REQUIRED_TYPE	F_AB and F_BC as maps Sigma_to_M	no canonical function composition
+M11	carried_reciprocal_calibration_composition	DERIVED	compatible calibrated middle state supplied	physical ownership of that state and transition remains open
+M12	independently_rebuilt_middle_tape	NONUNIQUE	unowned reciprocal reset at B	continuum of composite depths
+M13	unique_universal_metric_owned_pair_map	OPEN_NOT_DERIVED	complete metric plus bare ordered endpoints	frozen arena contains inequivalent conditional and branch families
+M14	physical_calibrated_pair_relation_functor	OPEN_SMALLEST_JOINT	ordered observer query branch relation and calibration carry	must not be replaced by a preferred observer action or desired answer
+M15	action_source_carrier_matter_boundary_CMB	OPEN_NOT_ADDRESSED	outside audit	no inference authorized
+M16	fresh_external_semantic_review	PENDING	read-only adversarial review required before final banking	no final verified grade before review
