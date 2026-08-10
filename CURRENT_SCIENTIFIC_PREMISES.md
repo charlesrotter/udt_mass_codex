@@ -303,11 +303,22 @@ any scalar reciprocal reduction remain open. The exact controller passes 53/53; 
 Fraction algebra verifier passes 52/52 and spot-checks, but does not independently reconstruct,
 the complete 144-cell semantic atlas.
 
-The next bounded gate is global relation-family ownership across already mapped complete metric
-branches. Do not promote the conditional local query enrichment into a universally founded
-physical functor, call ordering a unique arrow, claim that `c_E` removes a reciprocal middle reset,
-or demand zero holonomy. No action, source, matter, mass, CMB spectrum, signaling law, `X_max`
-value, universal mixed-geometry `c_eff`, eigenvalue solve, FD2, or GPU work is derived or authorized.
+The complete-branch global relation-family classification,
+`udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, maps 24 stable
+identities and 57 source aliases. Twisted and general-screen S3 branches retain geometric
+path/holonomy relations; unique-Killing static branches retain a clock-only endpoint coboundary;
+toric branches retain a stratified set-valued projector relation. These are branch-bounded
+geometric relation forms, not a selected physical non-isometric observer-pair functor. The middle
+calibration transition, mixed scalar reciprocal character, universal mixed-geometry `c_eff`, and
+physical branch selection remain open.
+
+The next bounded gate is whether any surviving complete branch itself owns the non-isometric
+calibration transition needed by the terminal reciprocal readout. Do not promote the conditional
+local query enrichment into a universally founded physical functor, call ordering a unique arrow,
+claim that `c_E` removes a reciprocal middle reset, identify Levi-Civita path transport with
+physical depth, or demand zero holonomy. No action, source, matter, mass, CMB spectrum, signaling
+law, `X_max` value, universal mixed-geometry `c_eff`, eigenvalue solve, FD2, or GPU work is derived
+or authorized.
 
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

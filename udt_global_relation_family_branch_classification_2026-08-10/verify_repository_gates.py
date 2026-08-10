@@ -27,6 +27,12 @@ STARTUP = (
     "CURRENT_SCIENTIFIC_PREMISES.md", "CURRENT_RESEARCH_PROGRAM.md", "INFLIGHT_STATE.md",
     "research/README.md", "research/_registry/README.md",
 )
+INTENDED_CONTROL_EDITS = {
+    "LIVE.md", "HANDOFF.md", "INDEX.md", "README.md", "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md", "CURRENT_SCIENTIFIC_PREMISES.tsv", "INFLIGHT_STATE.md",
+    "MEMORY.md", "research/README.md", "research/_registry/README.md",
+    "verify_current_scientific_premises.py", "tests/test_startup_surface.py",
+}
 
 
 def digest(path: Path) -> str:
@@ -105,7 +111,10 @@ def main() -> None:
     status = subprocess.check_output(
         ["git", "status", "--porcelain=v1", "--untracked-files=all"], cwd=ROOT, text=True
     ).splitlines()
-    unexpected = [line for line in status if not line[3:].startswith(HERE.name + "/")]
+    unexpected = [
+        line for line in status
+        if not line[3:].startswith(HERE.name + "/") and line[3:] not in INTENDED_CONTROL_EDITS
+    ]
     assert not unexpected, unexpected
 
     result = {

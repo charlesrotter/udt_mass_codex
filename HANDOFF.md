@@ -118,10 +118,17 @@ states require an explicit middle transition. The physical global relation famil
 reciprocal reduction remain open. Controller 53/53; independent Fraction algebra 52/52 with
 semantic-atlas spot checks; scoped external review accepted the bounded result.
 
-**NEXT GATE, not launched:** classify global relation-family ownership across complete metric
-branches without privileging zero holonomy or a desired universe. C1 remains
-unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization
-remain gated. The parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.
+**GLOBAL RELATION-FAMILY BRANCH CLASSIFICATION = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`. The 24-identity,
+57-alias census retains geometric path/holonomy families on twisted/general-screen `S3`, a global
+clock-only endpoint coboundary on the unique-Killing static control, and a stratified set-valued
+toric projector family. External review returned `ACCEPT`. No full physical pair functor or scalar
+reciprocal reduction is selected.
+
+**NEXT GATE, not launched:** ask branch by branch whether a non-isometric calibration transition
+is already supplied on top of the owned geometric family. C1 remains unselected; FD2/FD3/FD4,
+RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu
+is `udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:
 DESI LCDM-free feature detected + audited; BOSS out-of-sample (single-ruler FAILS 0/9, F-RETRO

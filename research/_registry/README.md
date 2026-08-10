@@ -3,9 +3,12 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`; it derives
-associativity on matched enriched arrows, separates direct-equals-composite as descent/path
-independence, and leaves global relation-family ownership open. Its founding semantic parent is
+gate is `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`; it
+classifies 24 stable complete-branch identities and 57 aliases into bounded geometric relation
+forms without selecting the physical non-isometric pair functor or universal scalar reduction. Its
+overlap parent is `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`,
+which derives associativity on matched enriched arrows and separates direct-equals-composite as
+descent/path independence. Its founding semantic parent is
 `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, which classifies
 the complete calibrated query as a conditional enrichment. The terminal readout parent is
 `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`; it

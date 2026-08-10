@@ -4,11 +4,15 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; three-observer carry complete)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; complete-branch relation families classified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`: 24 stable branch
+identities and 57 aliases retain three bounded geometric forms—path/holonomy relations,
+endpoint-clock coboundaries, and stratified set-valued projector relations. None supplies the
+physical non-isometric pair functor or a universal scalar reciprocal reduction. Its overlap parent is
 `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`: matched enriched
 arrows compose associatively; direct `A-C` equals `A-B-C` only under the separate Cech descent/path
 independence condition; distinct B states require an explicit middle transition; and path-labelled
@@ -60,9 +64,9 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is the bounded global relation-family ownership classification on
-already mapped complete metric branches, without inventing a preferred congruence, connection,
-action, scalar field, or zero-holonomy demand. No profile
+Nothing is in flight. NEXT is the bounded branch-local test of whether any surviving complete
+geometric family itself supplies the missing non-isometric calibration transition, without
+inventing a preferred congruence, connection, action, scalar field, or zero-holonomy demand. No profile
 repair, inner cutoff, eigenvalue solve, or FD2 is
 authorized. Do not promote C1, select `k0`, select the best standalone ladder, or invent source
 weights.

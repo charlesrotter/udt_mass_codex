@@ -8,7 +8,7 @@ Preregistration commit: `53256c39`
 
 Source-freeze commit: `ccb346fc`
 
-Current grade: **LEAD PENDING FRESH ADVERSARIAL SEMANTIC REVIEW**
+Current grade: **VERIFIED-WITH-CAVEATS**
 
 ## Result first
 
@@ -66,6 +66,7 @@ the remaining rows own only the precisely stated geometric substructure.
 - independent stdlib/Fraction reconstruction: PASS, 16 checks;
 - exact common-atlas, path-holonomy, middle-transition, associativity, and rank-loss controls: PASS;
 - exercised catch proofs: 15/15 PASS;
+- fresh manifest-confined external gpt-5.4 review: `ACCEPT`, no load-bearing correction;
 - protected curvature-atlas paths read or cited: zero.
 
 ## Four banking gates
@@ -75,19 +76,17 @@ the remaining rows own only the precisely stated geometric substructure.
    the registered completion and concrete-branch packages; not all Lorentzian metrics or future
    on-shell branches.
 3. **Independently verified:** exact finite claims and the ledger were independently reconstructed;
-   fresh adversarial semantic review is still pending, so the current grade is `LEAD`.
+   a fresh manifest-confined external gpt-5.4 reviewer returned `ACCEPT` after independently
+   reconstructing the 24 identities, 57 aliases, exact controls, and catch-proof behavior.
 4. **Premises audited:** yes for CSN, phi+orchestra, terminal `c_E`, branch labels, middle carry,
    scalar reduction, action/source/boundary exclusions, and every source package in
    `PREMISE_REGRADING.tsv`.
 
-## Next justified gate
+## Review ruling
 
-Fresh manifest-confined adversarial review should test the two delicate classifications:
-
-- whether W01/general-screen path transport is correctly called an owned geometric relation family
-  despite not being the physical non-isometric pair arrow; and
-- whether W02's global Killing-norm clock coboundary warrants
-  `COMMON_CALIBRATED_ATLAS_OWNED` at its explicitly clock-only scope.
+The external reviewer upheld both delicate classifications: W01/general-screen own geometric
+path-labelled families only, while W02 owns the global clock-calibration coboundary only. It also
+accepted both stratified rulings, the 24-identity coverage, and the topology-schema non-promotions.
 
 No eigensolve, GPU work, action, source, matter, CMB spectrum, `X_max` value, or physical branch
 selection follows from this audit.

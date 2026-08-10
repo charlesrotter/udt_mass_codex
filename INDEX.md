@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
    `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
@@ -44,8 +45,12 @@
    atlas derives a local tube from a full query and branch, not a universal tape from bare
    endpoints. The founding ownership audit then proves the founded object is the character on a
    supplied ordered depth and classifies the complete query as a conditional enrichment. The
-   three-observer audit now derives associativity on matched enriched objects and separates it from
-   global Cech descent/path independence; global relation-family ownership remains open. No
+   three-observer audit derives associativity on matched enriched objects and separates it from
+   global Cech descent/path independence. The complete-branch classification then preserves three
+   bounded geometric relation forms: path/holonomy on twisted or general-screen S3 branches,
+   endpoint-clock coboundaries on unique-Killing static branches, and stratified set-valued
+   projector relations on toric branches. It does not select a physical non-isometric pair functor
+   or one universal scalar reciprocal reduction. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
@@ -58,10 +63,13 @@
 
 ## Current scientific routing
 
+- `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md` — current
+  complete-branch relation-family result: 24 stable identities and 57 aliases classified; three
+  bounded geometric family forms survive, while the physical non-isometric pair functor and
+  universal scalar reduction remain open.
 - `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md` — current
-  relation-family gate: matched arrows compose associatively; distinct middle states require an
-  explicit bridge; direct-equals-composite is descent/path independence; global family ownership
-  and scalar reduction remain open.
+  overlap gate immediately upstream: matched arrows compose associatively; distinct middle states
+  require an explicit bridge; direct-equals-composite is descent/path independence.
 - `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md` — current
   semantic owner gate: complete query is a conditional enrichment; `c_E` calibrates but does not
   select; frame Reciprocity constrains but does not create; G40 supplies the carry refinement.

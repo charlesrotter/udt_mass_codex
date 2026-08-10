@@ -39,8 +39,11 @@ character is founded on supplied ordered depth, while the complete physical quer
 enrichment. The next overlap result is complete at
 `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`: matched enriched
 arrows compose associatively, while direct-equals-composite is the separate global descent/path
-question. Global relation-family ownership and scalar reduction remain open. No eigenvalue solve
-is authorized.
+question. Its complete-branch follow-up is verified at
+`udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`: 24 stable branch
+identities and 57 aliases reduce to three bounded geometric relation forms, but no physical
+non-isometric pair functor or universal scalar reciprocal reduction is selected. No eigenvalue
+solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -49,7 +52,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
+5. `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
@@ -73,8 +77,12 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
+- `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md` — current
+  complete-branch classification: path/holonomy, endpoint-clock, and stratified set-valued
+  geometric families survive in bounded regimes; the physical non-isometric comparison remains
+  open.
 - `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md` — current
-  overlap/carry result and next global relation-family ownership route.
+  overlap/carry result immediately upstream of the complete-branch classification.
 - `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md` — current
   semantic owner gate immediately upstream.
 - `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` — current pair-map owner gate:

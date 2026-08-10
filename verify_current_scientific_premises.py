@@ -42,6 +42,12 @@ CURRENT_ROUTE_CONTROLS = (
     "INFLIGHT_STATE.md",
 )
 
+LATEST_ROUTE_CONTROLS = (
+    "LIVE.md", "HANDOFF.md", "INDEX.md", "README.md", "research/README.md",
+    "research/_registry/README.md", "MEMORY.md", "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md", "INFLIGHT_STATE.md",
+)
+
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
@@ -68,7 +74,10 @@ def marked_current_block(path: Path) -> str:
 def validate_startup_surface(root: Path) -> None:
     """Validate current routing separately from the historical bodies of startup files."""
     controls: dict[str, str] = {}
-    for relative in set(PREMISE_REGISTRY_CONTROLS + PROTECTED_ATLAS_CONTROLS + CURRENT_ROUTE_CONTROLS):
+    for relative in set(
+        PREMISE_REGISTRY_CONTROLS + PROTECTED_ATLAS_CONTROLS + CURRENT_ROUTE_CONTROLS
+        + LATEST_ROUTE_CONTROLS
+    ):
         path = root / relative
         require(path.is_file(), f"missing startup control: {relative}")
         controls[relative] = path.read_text(encoding="utf-8")
@@ -151,6 +160,10 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
+    latest = "udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md"
+    for control in LATEST_ROUTE_CONTROLS:
+        require(latest in controls[control], f"latest complete-branch route absent: {control}")
+
     for control in ("README.md", "research/README.md", "MEMORY.md"):
         text = controls[control]
         require("RA2-PARTIAL-WEAK" in text, f"current route loses RA2 grade: {control}")
@@ -164,6 +177,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md",
         "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
         "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
@@ -187,9 +201,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 40, "premise registry must contain exactly 40 rows")
+    require(len(rows) == 41, "premise registry must contain exactly 41 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 40, "duplicate premise id")
+    require(len(by_id) == 41, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -513,6 +527,28 @@ def main() -> None:
         "three-observer overlap source changed",
     )
     require("G40_OPERATIONALLY_REFINES_G39" in by_id["G40"]["precedence_rule"], "G39 refinement absent")
+    require(
+        by_id["G41"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__24_IDENTITIES_57_ALIASES__PATH_HOLONOMY_ENDPOINT_CLOCK_AND_STRATIFIED_SET_VALUED_GEOMETRIC_FAMILIES_SURVIVE__PHYSICAL_NONISOMETRIC_PAIR_FUNCTOR_AND_SCALAR_REDUCTION_OPEN",
+        "global relation-family branch status regressed or promoted",
+    )
+    require(by_id["G41"]["epistemic_label"] == "MIXED", "global family classification label changed")
+    require(
+        by_id["G41"]["active_use"]
+        == "ACTIVE_COMPLETE_BRANCH_FAMILY_CLASSIFICATION_AND_ROUTING_GATE_ONLY",
+        "global family classification use promoted",
+    )
+    require("branch-derived non-isometric calibration transition" in by_id["G41"]["open_scope"], "non-isometric transition selected")
+    require("mixed scalar reciprocal character" in by_id["G41"]["open_scope"], "mixed scalar selected")
+    require("geometric Levi-Civita path groupoid called physical depth" in by_id["G41"]["forbidden_regression"], "path/depth guard absent")
+    require("W02 clock coboundary called complete pair without TL=1" in by_id["G41"]["forbidden_regression"], "clock-only scope guard absent")
+    require("toric projector set called calibrated pair arrow" in by_id["G41"]["forbidden_regression"], "toric type guard absent")
+    require(
+        by_id["G41"]["controlling_source"]
+        == "udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md",
+        "global family classification source changed",
+    )
+    require("G41_REFINES_G40_GLOBAL_FAMILY_TYPE" in by_id["G41"]["precedence_rule"], "G40 refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -585,7 +621,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 40 premise guards, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 41 premise guards, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

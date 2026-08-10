@@ -174,11 +174,20 @@ any scalar reciprocal reduction remain OPEN. Exact controller 53/53; independent
 52/52, with the 144-cell semantic atlas spot-checked rather than fully independently reconstructed;
 fresh manifest-confined external review found no substantive error.
 
-**NEXT GATE (not launched):** classify global relation-family ownership on already mapped complete
-metric branches: common atlas, owned path/branch groupoid, stratified mixture, or no complete
-family. Preserve angular/mixing transitions and branch labels. Do not demand path independence,
-zero holonomy, a global pointwise `phi`, or a desired cosmology. No eigenvalue solve is presently
-authorized.
+**GLOBAL RELATION-FAMILY BRANCH CLASSIFICATION — COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md` first. Across 24
+stable identities and 57 source aliases, three bounded geometric forms survive: path/holonomy
+groupoids on the twisted and general-screen `S3` families; one global endpoint clock-calibration
+relation on the unique-Killing-line static control; and a stratified set-valued projector family
+across toric chambers and tie walls. `FC04` is a mixed class aggregate rather than one universal
+family. External gpt-5.4 review returned `ACCEPT` with no load-bearing correction. None of these
+owns the complete physical non-isometric observer-pair functor, middle calibration transition,
+mixed scalar reciprocal reduction, or universal `c_eff` law.
+
+**NEXT GATE (not launched):** test whether any already-complete branch supplies a non-isometric
+calibration transition on top of its now-classified global geometric family, so that the terminal
+reciprocal evaluator becomes compositional without choosing a path, scalar potential, action, or
+desired cosmology by hand. No eigenvalue solve is presently authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.

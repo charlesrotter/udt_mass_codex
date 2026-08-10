@@ -1,5 +1,5 @@
 {
-  "checked_markdown_links": 5,
+  "checked_markdown_links": 67,
   "current_paths": 1114,
   "frontier_resolved_targets": 101,
   "frontier_rows": 306,
@@ -7,7 +7,7 @@
   "frozen_manifest_members": 127,
   "frozen_manifests": 6,
   "frozen_package_paths": 133,
-  "premise_guards": 40,
+  "premise_guards": 41,
   "pytest": "87 passed, 1 xfailed",
   "schema": "udt-global-relation-family-repository-gates-v1",
   "source_manifest_rows": 194,

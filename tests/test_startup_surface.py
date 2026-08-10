@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md",
     "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
     "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
@@ -37,6 +38,7 @@ def _startup_copy(tmp_path: Path) -> Path:
         premise_guard.PREMISE_REGISTRY_CONTROLS
         + premise_guard.PROTECTED_ATLAS_CONTROLS
         + premise_guard.CURRENT_ROUTE_CONTROLS
+        + premise_guard.LATEST_ROUTE_CONTROLS
     )
     for relative in controls:
         source = REPO / relative
@@ -66,7 +68,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 40 premise guards" in result.stdout
+    assert "PASS: 41 premise guards" in result.stdout
 
 
 def test_catch_missing_live_premise_pointer(tmp_path: Path) -> None:
