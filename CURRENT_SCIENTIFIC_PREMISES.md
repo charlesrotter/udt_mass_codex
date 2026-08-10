@@ -9,7 +9,19 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G52 refinement
+## Current G53 refinement
+
+`udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md` now controls the
+observer-relation assembly gate. On one supplied regular calibrated stationary R17 pair query, the
+pair metric has unique `(kappa,phi,beta)` state coordinates. Matched `Delta_kappa` and `Delta_phi`
+compose through matched states; `beta` remains object/query state; and path-labelled angular
+transport `U_gamma` is a distinct typed channel. The screen weight is reconstructed rather than
+double-counted. This is minimal only for the banked pair-metric plus normal-transport layers and is
+not a physical observer arrow or full metric reconstruction. The next missing owner is the ordered
+observer-query / measurement-projection rule. Physical path, regime map, conductor, action, source,
+bootstrap closure, and universal mixed-geometry `c_eff` remain OPEN.
+
+## G52 parent refinement
 
 `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md` now controls the
 stationary R17 local one-form gate. The complete regular stationary metric owns canonical forms

@@ -18,15 +18,26 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
 
-**LATEST R17 GATE = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Start with
+**LATEST GATE = MULTI-CHANNEL OBSERVER-RELATION ASSEMBLY COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Start with
+`udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`. On one supplied
+regular calibrated stationary R17 pair query, `(kappa,phi,beta)` uniquely encode the pair metric;
+`Delta_kappa` and `Delta_phi` telescope through matched states; `beta` stays on the object/query;
+and `U_gamma` carries independent path-labelled angular information. The resulting
+`(Delta_kappa,Delta_phi,U_gamma)` arrow shadow is a conditional minimal assembly only for the
+banked pair-metric and normal-transport layers. External `gpt-5.4` returned
+`CONDITIONAL_MULTICHANNEL_ASSEMBLY_ONLY`. NEXT: determine which full-state readings or projections
+the founded ordered observer query physically measures. Do not invent a path, full observer arrow,
+physical regime map, conductor, action, source, bootstrap closure, or universal mixed `c_eff`.
+
+**PRECEDING R17 GATE = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Then read
 `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`. The stationary
 metric supplies several canonical local forms but no unique extra physical reciprocal form.
 `alpha_c=dphi+c H*dphi` and the exact dimensionless `beta_c=dphi+c dJ` survive the declared local
 gates, so the result is constructive nonuniqueness, not an exhaustive higher-jet classification.
 `dphi` remains the generator of the already-owned endpoint depth. The smallest open owner is an
 explicit physical query/measurement rule; on-shell/global completion are larger possibilities.
-NEXT: test whether the founding ordered-observer query already owns such a selector, without
-inventing a path, action, source, bootstrap closure, or universal mixed-geometry `c_eff`.
+Its surviving one-form families are candidate query projections, not extra core channels.
 
 **ACTIVE ARC = CMB PEAK OPTIMIZATION.** RA1 remains the scoped mu-on ladder lead and RA2 remains
 `RA2-PARTIAL-WEAK`. The full corrected FD1 atlas is now COMPLETE and `VERIFIED-WITH-CAVEATS`:

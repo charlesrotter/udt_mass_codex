@@ -1,0 +1,17 @@
+channel_id	disposition	reason	independent_status
+C01	RETAIN_ARROW_CHARACTER	endpoint reciprocal depth is exact and normalized	IRREDUCIBLE_FROM_ANGULAR_CHANNEL
+C02	RETAIN_PATH_ARROW	normal isometry composes and survives zero depth	IRREDUCIBLE_FROM_REAL_DEPTH
+C03	COMPOSITION_INFRASTRUCTURE	alignment bitorsor balances gauge but selects no phase	NOT_AN_OBSERVABLE_CHANNEL
+C04	DERIVED_REPRESENTATION	screen weight is fixed by lambda once C01 and branch state are supplied	RECONSTRUCTIBLE
+C05	OBJECT_STATE_GEOMETRY	clock and ruler covectors type the query	NOT_SELECTED_AS_READOUT
+C06	LOCAL_STATE_DIAGNOSTIC	screen gradient directions are metric-owned	NO_QUERY_PROJECTION
+C07	UNSELECTED_PATH_SCALARIZATION_FAMILY	all c compose and preserve pair-leaf depth	NOT_CORE_CHANNEL
+C08	UNSELECTED_ENDPOINT_SCALARIZATION_FAMILY	all c are exact and preserve pair-pure reduction	NOT_CORE_CHANNEL
+C09	DIAGNOSTIC_NOT_CHARACTER	strain invariants need not compose	PAIR_METRIC_PARENT_RETAINED_SEPARATELY
+C10	QUOTIENT_GAUGE_REPRESENTATIVE	A changes by dchi	CURVATURE_AND_TRANSPORT_RETAINED
+C11	FIELD_STRENGTH_FOR_C02	curvature controls local holonomy	INFINITESIMAL_GENERATOR_NOT_EXTRA_ARROW
+C12	OBJECT_DOMAIN_DATA	branch and rank select the valid fiber type	NOT_OBSERVABLE_PROMOTION
+C13	STRATIFICATION_DATA	causal type changes the domain	NO_PHYSICAL_REGIME_LABEL
+C14	UPSTREAM_PAIR_MAP_DATA	mixing modifies the pair metric before readout	NO_OWNED_STANDALONE_CHANNEL
+C15	RELATION_FAMILY_OBJECT_TYPE	path endpoint and set-valued families have different domains	NO_UNIVERSAL_COLLAPSE
+C16	CONDITIONAL_QUERY_PROJECTION	founding semantics constrain but do not choose the full readout	OWNER_OPEN

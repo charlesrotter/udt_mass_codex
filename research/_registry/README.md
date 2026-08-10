@@ -3,15 +3,17 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`; it derives
+gate is `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`; it derives
+the conditional bounded state assembly `(kappa,phi,beta)` plus path-labelled `U_gamma`, while
+leaving the physical ordered-query projection, path, regime map, and conductor open. Its immediate
+parent is `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`; it derives
 multiple canonical stationary R17 local forms and constructively refutes unique local selection
-without exhaustively classifying all higher-jet operators. The smallest open owner is an explicit
-physical query/measurement rule. Its parent is
+without exhaustively classifying all higher-jet operators. The smallest open owner remains an
+explicit physical query/measurement rule. Its parent is
 `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`; it derives the
 exact typed product-groupoid join of endpoint reciprocal depth and supplied-path normal carry,
 classifies the local order-zero real scalar shadow, and retains loop/relative-path holonomy. It does
-not select the physical path/arrow. The next gate tests founding-query ownership of a physical
-measurement selector; if absent, global admissibility of the explicit surviving one-form families.
+not select the physical path/arrow.
 The stationary-sublocus parent is
 `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`; its complete-
 connection parent is `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`;

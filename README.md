@@ -6,6 +6,12 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`: on a supplied
+regular calibrated pair query the metric state separates uniquely into common scale `kappa`,
+reciprocal depth `phi`, and shift `beta`, while path-labelled angular transport `U_gamma` remains a
+distinct mathematical channel. Matched `Delta_kappa` and `Delta_phi` compose, but the physical
+observer query/projection rule, path, regime map, and conductor remain open. External review graded
+this `CONDITIONAL_MULTICHANNEL_ASSEMBLY_ONLY`. Its immediate parent is
 `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`: regular stationary
 R17 owns several canonical local one-forms beyond `dphi`, but two explicit surviving families
 constructively refute a unique additional local reciprocal transgression. This is not an exhaustive

@@ -7,14 +7,20 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G52 CHECKPOINT:**
+**CURRENT G53 CHECKPOINT:**
+`udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md` derives a bounded
+conditional state-decorated assembly on one supplied regular calibrated stationary R17 pair query.
+The pair metric has unique `(kappa,phi,beta)` state coordinates; matched `Delta_kappa` and
+`Delta_phi` telescope; `beta` is object/query state; and `U_gamma` is an independent path-labelled
+normal isometry. The smallest open owner is now the ordered observer-query measurement projection,
+not another local one-form. Physical path, regime map, conductor, action, source, bootstrap closure,
+and universal mixed `c_eff` remain open. Its G52 parent
 `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md` derives canonical
 stationary R17 local one-forms beyond `dphi` and two explicit inequivalent surviving families.
 Therefore local naturality, concatenation, and path independence do not select a unique additional
 physical reciprocal transgression. This is constructive nonuniqueness, not an exhaustive
 higher-jet classification. The smallest open owner is an explicit physical query/measurement rule;
-on-shell and global completion remain larger candidates. Next test founding-query ownership, then
-global admissibility only if needed.
+on-shell and global completion remain larger candidates.
 
 ## ⚠ FRONTIER SUPERSEDED — READ LIVE.md's 2026-08-10 BLOCK FOR THE ACTIVE ARC
 

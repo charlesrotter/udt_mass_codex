@@ -6,9 +6,27 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 depth/holonomy joint VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; MULTICHANNEL ASSEMBLY VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
-**LATEST R17 GATE — STATIONARY LOCAL ONE-FORM SELECTION COMPLETE,
+**LATEST GATE — MULTI-CHANNEL OBSERVER-RELATION ASSEMBLY COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md` first. On one
+supplied regular calibrated stationary R17 pair query, the pair metric has the unique state
+coordinates `(kappa,phi,beta)`: common scale, reciprocal depth, and shift. Matched endpoint
+differences `Delta_kappa` and `Delta_phi` telescope; `beta` remains object/query state rather than
+a standalone additive character. The angular sector supplies the distinct path-labelled normal
+isometry `U_gamma`. The bounded common-query arrow shadow is therefore
+`(Delta_kappa,Delta_phi,U_gamma)`, with the complete screen weight reconstructed from
+`Delta_phi`, `U_gamma`, variance, and supplied `lambda`. Fresh sealed external review returned
+`CONDITIONAL_MULTICHANNEL_ASSEMBLY_ONLY` and found no counterexample to this bounded result. It is
+minimal only for the banked pair-metric plus normal-transport layers—not the pair embedding,
+extrinsic geometry, all jets, a physical path, or a selected physical observer arrow. Geometric
+activity strata are not physical micro/ordinary/cosmological regimes. The smallest next owner is
+the ordered observer-query / measurement-projection rule: determine whether a physical query
+reads the full state or particular projections. No action, source, bootstrap conductor, physical
+regime map, universal mixed-geometry `c_eff`, or downstream physics is selected.
+
+**PRECEDING R17 GATE — STATIONARY LOCAL ONE-FORM SELECTION COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Read
 `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md` first. The regular
 stationary R17 metric owns canonical local forms beyond `dphi`; at generic first jet the retained
