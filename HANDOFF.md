@@ -140,8 +140,17 @@ C01--C06 carried and rebuilt projector reductions form path-labelled `SO(2)` ali
 Balanced composition is exact without choosing a screen phase. Projector alignment does not yet
 own calibration density or the terminal scalar.
 
-**NEXT GATE, not launched:** test terminal-scalar and calibration-density descent through that
-bitorsor, retaining path labels and holonomy; classify any additional pair-atlas data required. C1 remains
+**RECIPROCAL SCALAR/CALIBRATION BITORSOR DESCENT = COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. Supplied
+reciprocal densities, conditional `delta_RF`, the normalized terminal pair readout, and the
+conditional R17 exponent descend through the full regular screen-gauge bitorsor. Balanced density
+telescoping is exact and path labels remain. Isometric alignment generates zero calibration; the
+physical non-isometric magnitude and its owner remain open. The terminal determinant equality
+requires the now-explicit normalized source flag.
+
+**NEXT GATE, not launched:** classify the non-isometric calibration-magnitude owner across the
+already mapped complete branches, without selecting a candidate by desired outcome. C1 remains
 unselected; FD2/FD3/FD4,
 RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu
 is `udt_freedata_inventory_MAP_2026-08-09.md`.

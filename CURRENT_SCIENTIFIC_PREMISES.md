@@ -328,7 +328,13 @@ screen-phase representative is metric-selected. Exact balanced bitorsor composit
 representative-independent, so the projector-level middle bridge is already sufficient as a gauge
 groupoid object. The double coset is only its non-compositional orbit shadow. This does not supply
 calibration density, select `delta_RF`, or derive the terminal reciprocal scalar. Their descent
-through the bitorsor is the next bounded gate.
+through the bitorsor is now derived, within the supplied regular scope, by
+`udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. Independent
+source/target screen rotations preserve the clock-line and clock/ruler-plane density ratios,
+conditional `delta_RF`, the normalized terminal pair readout, and the conditional R17 exponent;
+balanced density telescoping is exact. Every isometric alignment has unit density ratios and
+generates zero calibration. The physical non-isometric magnitude and its owner remain open, and
+the terminal determinant equality requires the explicit normalized source calibration.
 
 Do not
 promote the conditional

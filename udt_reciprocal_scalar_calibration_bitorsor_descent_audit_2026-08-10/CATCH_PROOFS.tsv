@@ -1,0 +1,14 @@
+test_id	injected_defect	expected	observed
+C01	use one screen component as the scalar so a pure screen rotation changes the readout	REJECT	REJECT
+C02	claim an isometric middle alignment generates nonzero calibration	REJECT	REJECT
+C03	call delta_RF the selected universal physical law after proving only gauge descent	REJECT	REJECT
+C04	zero the clock-to-screen mixing before testing descent	REJECT	REJECT
+C05	erase path labels after screen-gauge descent	REJECT	REJECT
+C06	extend the logarithmic density formula through a null clock line	REJECT	REJECT
+C07	change only one middle gauge leg and call composition representative independent	REJECT	REJECT
+C08	promote one named screen axis despite a nontrivial stabilizer	REJECT	REJECT
+C09	infer a universal c_eff without a physical pair map or calibration owner	REJECT	REJECT
+C10	promote conditional R17 to a branch-owned physical transition	REJECT	REJECT
+C11	require source and target screen gauges to use the same angle	REJECT	REJECT
+C12	claim gauge descent equates distinct physical paths	REJECT	REJECT
+C13	omit the source-calibration normalization factor from the terminal determinant identity	REJECT	REJECT

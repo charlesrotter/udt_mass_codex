@@ -7,3 +7,4 @@ F05	alignment does not generate calibration magnitude	an isometric alignment has
 F06	all six regular strata share the same projector-level ruling	one lambda stratum changes the full-projector stabilizer or descent result	SCOPED_STRATUM_SPLIT
 F07	path labels remain necessary	frozen full-holonomy loops all close trivially	ENDPOINT_ONLY_REASSESSMENT
 F08	no physical promotion occurs	result requires selecting R17 delta_RF pair surface or c_eff	TYPE_FAILURE
+F09	terminal determinant equality exposes source calibration	an unnormalized source flag still gives terminal bracket equal to Q without the exact source factor	TERMINAL_PAIR_READOUT_DEMOTED_TO_NORMALIZED_SUBCLASS

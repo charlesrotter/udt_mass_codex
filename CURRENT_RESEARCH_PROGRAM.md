@@ -77,9 +77,11 @@ it to a conditional assembly not selected by the branch. The corrected census ha
 complete transitions. The resulting middle-morphism gate is now closed at
 `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`:
 the regular projector-level bridge is the full path-labelled `SO(2)` alignment bitorsor, and exact
-balanced composition needs no selected screen phase. The new NEXT gate is whether the terminal
-reciprocal scalar and calibration-density data descend through that bitorsor, or require additional
-pair-atlas data.
+balanced composition needs no selected screen phase. That descent gate is now closed at
+`udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`: supplied
+reciprocal densities/readouts descend on every regular C01--C06 stratum, while isometric alignment
+generates zero calibration. The new NEXT gate is the physical non-isometric magnitude owner across
+the already-mapped complete branches.
 No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the

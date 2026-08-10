@@ -55,8 +55,10 @@
    or one universal scalar reciprocal reduction. The branch-transition follow-up retains R17's
    exact semidirect formula only as a conditional assembly not selected by the branch; zero
    branch-owned complete transitions survive. The middle-morphism follow-up derives the
-   path-labelled `SO(2)` alignment bitorsor and exact balanced projector composition; scalar and
-   calibration-density descent remain open. No
+   path-labelled `SO(2)` alignment bitorsor and exact balanced projector composition. Its
+   scalar-descent follow-up proves that supplied reciprocal readouts descend through the complete
+   regular bitorsor and that isometric alignment generates zero calibration; the physical
+   non-isometric magnitude owner remains open. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
@@ -69,9 +71,13 @@
 
 ## Current scientific routing
 
-- `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md` — current
-  middle-seam result: regular projector alignments form path-labelled `SO(2)` bitorsors with exact
-  balanced composition; no screen phase is selected; scalar/calibration descent remains open.
+- `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md` — current
+  gate: supplied reciprocal densities/readouts descend through every regular C01--C06 screen-gauge
+  bitorsor with exact balanced telescoping; isometric alignment generates zero calibration, leaving
+  the physical non-isometric magnitude owner open.
+- `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md` — immediate
+  parent: regular projector alignments form path-labelled `SO(2)` bitorsors with exact balanced
+  composition and no selected screen phase.
 - `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md` — current
   transition-ownership correction: R17's exact matched-state semidirect formula is conditional,
   not branch-owned; the next joint is `M_B` or the calibrated pair-relation functor and pair surface.

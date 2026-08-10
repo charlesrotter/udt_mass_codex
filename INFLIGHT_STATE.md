@@ -1,7 +1,8 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-10 STATUS (RESTART ANCHOR): CARRIED/INTRINSIC MIDDLE-MORPHISM AUDIT COMPLETE.** ACTIVE ARC = CMB PEAK
+> **2026-08-10 STATUS (RESTART ANCHOR): RECIPROCAL SCALAR/CALIBRATION BITORSOR DESCENT COMPLETE.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-10) FIRST, then
+> `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -47,8 +48,11 @@
 > complete transitions survive. The carried/intrinsic middle-morphism audit is COMPLETE at
 > `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`: all retained
 > regular branches own a path-labelled `SO(2)` alignment bitorsor with exact balanced composition;
-> no screen phase is selected. NEXT, not launched, is terminal-scalar and calibration-density
-> descent through that bitorsor, plus the lawful pair-surface gate; no
+> no screen phase is selected. The reciprocal scalar/calibration descent audit is COMPLETE at
+> `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`: supplied
+> regular reciprocal readouts descend through the full screen gauge, balanced telescoping is exact,
+> and every isometric alignment generates zero calibration. NEXT, not launched, is ownership of the
+> physical non-isometric calibration magnitude; no
 > profile repair, inner cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build

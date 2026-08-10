@@ -78,8 +78,11 @@ do not dump whole long files or recursively open cited evidence during orientati
    follow-up finds that R17's exact semidirect formula is a lawful conditional assembly, not a
    branch-owned physical law; zero complete branch-owned non-isometric transitions survive. The
    middle-morphism follow-up derives the path-labelled `SO(2)` alignment bitorsor and exact balanced
-   projector composition without selecting a screen phase; terminal-scalar and calibration-density
-   descent remain open. No profile repair,
+   projector composition without selecting a screen phase. The scalar-descent follow-up proves
+   that supplied reciprocal density/readout data descend through that bitorsor on all six regular
+   strata, with exact balanced telescoping; isometric alignment generates zero calibration, so the
+   physical non-isometric magnitude and its owner remain open. Its controlling source is
+   `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. No profile repair,
    inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;

@@ -50,8 +50,11 @@ bounded regimes; it does not select the physical non-isometric pair functor or a
 reciprocal reduction. The branch-transition follow-up retains the exact R17 semidirect construction
 only as a conditional assembly not selected by the branch; the current census has zero branch-owned
 complete transitions. The middle-morphism follow-up derives the path-labelled `SO(2)` alignment
-bitorsor and exact balanced projector composition without selecting a screen phase; reciprocal
-scalar and calibration-density descent remain open. No eigensolve, profile
+bitorsor and exact balanced projector composition without selecting a screen phase. The current
+scalar-descent audit proves that supplied reciprocal densities/readouts descend through the full
+regular screen gauge and that isometric alignment generates zero calibration; the physical
+non-isometric magnitude owner remains open. Controlling source:
+`../udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. No eigensolve, profile
 repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a
 prediction. The BAO lane is `BANKED + TABLED`.

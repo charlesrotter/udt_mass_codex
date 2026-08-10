@@ -1,0 +1,34 @@
+{
+  "alignment_generates_nonzero_calibration": false,
+  "balanced_composition_and_density_telescoping_exact": true,
+  "conditional_R17_exponent_descends": true,
+  "continuous_screen_gauge_checked_symbolically": true,
+  "delta_RF_and_terminal_argument": "64/3",
+  "delta_RF_value": "log(64/3)/4",
+  "isometric_alignment_area_ratio": "1",
+  "isometric_alignment_line_ratio": "1",
+  "isometric_alignment_reciprocal_argument": "1",
+  "lambda_rows": 6,
+  "mixed_arrow_clock_line_ratio": "3/16",
+  "mixed_arrow_plane_area_ratio": "3/4",
+  "open": [
+    "physical non-isometric calibration magnitude and its owner",
+    "physical pair relation or pair surface",
+    "selection of delta_RF or R17 as the physical law",
+    "null/degenerate strata and global cut-locus continuation",
+    "universal mixed-geometry c_eff"
+  ],
+  "owned": [
+    "screen-gauge descent of supplied clock-line and clock/ruler-plane densities",
+    "screen-gauge descent of conditional delta_RF",
+    "screen-gauge descent of the terminal supplied pair-metric log imbalance",
+    "screen-gauge descent of the conditional R17 reciprocal exponent",
+    "exact density telescoping under balanced middle-gauge composition"
+  ],
+  "path_loop_rows_retained": 36,
+  "primary_landing": "RECIPROCAL_READOUT_DESCENT_DERIVED__CALIBRATION_MAGNITUDE_NOT_GENERATED",
+  "scope": "C01-C06 regular full-projector strata; supplied flags/arrows/pair metrics; path labels retained",
+  "terminal_pair_readout_matches_delta_RF": true,
+  "terminal_pair_readout_requires_normalized_source_calibration": true,
+  "unnormalized_source_factor_witness": "9/4"
+}

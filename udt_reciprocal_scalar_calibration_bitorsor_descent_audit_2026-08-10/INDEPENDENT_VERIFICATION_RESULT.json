@@ -1,0 +1,21 @@
+{
+  "balanced_composition_and_telescoping": true,
+  "isometric_alignment_density_arguments": [
+    "1",
+    "1",
+    "1"
+  ],
+  "method": "pure-Python Fraction matrices and determinant-line ratios; no production import",
+  "mixed_arrow_density_arguments": [
+    "3/16",
+    "3/4",
+    "64/3"
+  ],
+  "path_loop_rows_retained": 36,
+  "primary_landing_reproduced": "RECIPROCAL_READOUT_DESCENT_DERIVED__CALIBRATION_MAGNITUDE_NOT_GENERATED",
+  "rational_screen_rotations_checked": 36,
+  "source_hashes_verified": 16,
+  "terminal_argument_matches": true,
+  "terminal_argument_normalization_factor_verified": "9/4",
+  "verdict": "VERIFIED"
+}

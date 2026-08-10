@@ -6,7 +6,7 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; branch-transition ownership audit VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; reciprocal readout descent VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
@@ -205,12 +205,22 @@ exact and representative-independent, so the gauge groupoid is already sufficien
 projector-level composition. The double coset is only a lower orbit shadow. This does not derive
 calibration density, select `delta_RF`, or promote the terminal reciprocal readout.
 
-**NEXT GATE (not launched):** test whether `delta_RF`, the terminal pair readout, and calibration-
-density data descend through the derived alignment bitorsor, while retaining path labels and
-holonomy. If descent fails, classify the exact additional pair-atlas data required. Do not select
-an arbitrary screen phase, call the double-coset shadow a group, promote exact projector composition
-to a physical scalar law, or call the conditional carried-flag `c_eff` readout universal. No
-eigenvalue solve is authorized.
+**RECIPROCAL SCALAR/CALIBRATION BITORSOR DESCENT — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md` first. On all
+six retained regular C01--C06 strata, independent source/target screen rotations leave the
+supplied clock-line and clock/ruler-plane densities, conditional `delta_RF`, normalized terminal
+pair readout, and conditional R17 exponent unchanged. Balanced middle-gauge composition preserves
+exact density telescoping and path labels remain. External review exposed the required source-flag
+normalization in the terminal determinant formula and corrected one inverted atlas label. Every
+isometric projector alignment has `(rho_1,rho_2,Q)=(1,1,1)` and generates zero calibration.
+
+**NEXT GATE (not launched):** classify which already-mapped complete-branch structure, if any,
+owns the non-isometric calibration magnitude: a lawful pair-surface Jacobian, conditional endpoint
+clock normalization, path/global completion data, future native dynamics/bootstrap, or no current
+kinematic owner. Do not confuse descent with generation, omit the terminal source calibration,
+select `delta_RF` or R17, erase path labels, or call the conditional carried-flag `c_eff` readout
+universal. No eigenvalue solve is authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.

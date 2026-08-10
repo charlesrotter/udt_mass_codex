@@ -3,9 +3,13 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`; it
-derives the regular path-labelled `SO(2)` projector-alignment bitorsor and exact balanced
-composition while leaving scalar/calibration-density descent open. Its immediate parent is
+gate is `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`; it
+derives screen-gauge descent of supplied reciprocal densities/readouts and exact balanced
+telescoping while proving isometric alignment generates zero calibration. The physical
+non-isometric magnitude owner remains open. Its immediate parent is
+`udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, which derives
+the regular path-labelled `SO(2)` projector-alignment bitorsor and exact balanced composition. Its
+next parent is
 `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`; it
 retains the R17 semidirect formula as an exact conditional assembly but rejects branch ownership,
 leaving zero complete branch-owned transitions.
