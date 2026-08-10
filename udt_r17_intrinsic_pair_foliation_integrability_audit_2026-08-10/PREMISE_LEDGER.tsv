@@ -1,0 +1,13 @@
+premise_id	premise	provenance	controlling_source	audit_use
+P01	R17/W01 C01-C06 complete off-shell coframes and nonzero twist	pinned-by-THEORY within named configurations	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/EXACT_DERIVATION.md	bounded geometry
+P02	intrinsic timelike Killing line and twist-selected unoriented ruler line	pinned-by-THEORY within C01-C06	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/EXACT_DERIVATION.md	defines E and H
+P03	global S3 Maurer-Cartan forms and R x S3 product topology	pinned-by-THEORY within supplied configuration	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/EXACT_DERIVATION.md	global leaf classification
+P04	phi is any supplied smooth stationary function in the branch	free-and-characterized	complete R17 coframe	no special profile imposed
+P05	lambda in {-2,-1,0,1/2,1,2}	conditional supplied configuration values	udt_r17_magnitude_to_grading_selection_audit_2026-08-10/EXACT_DERIVATION.md	all six retained; none selected
+P06	a nonzero twist parameter a in C01-C06	conditional supplied configuration value	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv	mixing retained
+P07	vertical metric class exp(delta_K X_lambda) modulo SO2	CONDITIONAL complete-coframe result	udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md	compatibility only
+P08	Levi-Civita and projected screen connections	pinned-by-THEORY as metric geometry	udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/EXACT_DERIVATION.md	path and normal carry classification
+P09	physical observer path query or winding	OPEN	G42-G46	not selected
+P10	carried-to-intrinsic endpoint reset	OPEN	G42-G46	not set to identity
+P11	R17 or lambda as realized branch	OPEN	G41-G46	not selected
+P12	action source matter bootstrap Xmax CMB signalling	OPEN or outside scope	CURRENT_SCIENTIFIC_PREMISES.tsv	no inference

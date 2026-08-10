@@ -1,0 +1,16 @@
+source_id	path	role
+S01	CURRENT_SCIENTIFIC_PREMISES.tsv	current G41-G46 precedence and exclusions
+S02	udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md	controlling G46 result
+S03	udt_r17_magnitude_to_grading_selection_audit_2026-08-10/EXACT_DERIVATION.md	vertical metric class and open arrow seam
+S04	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/EXACT_DERIVATION.md	complete coframe intrinsic pair and global topology
+S05	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv	C01-C06 parameter identities
+S06	udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/EXACT_DERIVATION.md	projectors connections contact and holonomy
+S07	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/EXACT_DERIVATION.md	full holonomy and path-labelled grading
+S08	udt_calibrated_pair_map_owner_atlas_2026-08-09/EXACT_DERIVATION.md	pair-surface types Frobenius and Killing controls
+S09	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	terminal pair-metric evaluator
+S10	udt_global_relation_family_branch_classification_2026-08-10/GLOBAL_RELATION_FAMILY_CLASSIFICATION.tsv	R17 relation-family status
+S11	udt_branch_nonisometric_calibration_transition_audit_2026-08-10/EXACT_DERIVATION.md	conditional complete arrow and surface seam
+S12	udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/EXACT_DERIVATION.md	alignment bitorsor and reset
+S13	udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/EXACT_DERIVATION.md	scalar descent and screen gauge
+S14	udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/EXACT_DERIVATION.md	branch magnitude ownership
+S15	udt_three_observer_overlap_calibration_carry_audit_2026-08-10/EXACT_DERIVATION.md	composition and path/descent distinction

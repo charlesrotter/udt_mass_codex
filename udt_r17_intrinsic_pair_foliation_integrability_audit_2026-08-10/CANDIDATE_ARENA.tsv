@@ -1,0 +1,6 @@
+candidate_id	object	ownership_input	question	selection_guard
+C01	intrinsic reciprocal plane E=image(P_u+P_n)	metric-owned on R17 C01-C06	local and global integral leaves	classify every leaf; select none
+C02	angular screen H	metric-owned normal two-plane bundle	integral surfaces versus contact/nonintegrable structure	nonintegrability is not failure
+C03	stationary Killing-flow surfaces from arbitrary transverse curves	K metric-owned; curve free-and-classified	family size and relation to intrinsic E leaves	no curve postselection
+C04	screen-decorated intrinsic leaves E plus H	metric-owned splitting on named branch	four-slot vertical class and normal carry	no screen phase or path selected
+C05	cross-leaf and multiply-wound endpoint comparisons	endpoint/path data free-and-classified	common leaf existence uniqueness and branch labels	no shortest or zero-winding rule

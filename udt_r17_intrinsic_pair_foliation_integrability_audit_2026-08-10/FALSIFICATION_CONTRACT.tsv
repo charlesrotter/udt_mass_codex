@@ -1,0 +1,13 @@
+test_id	claim_tested	falsifier	landing_if_triggered
+F01	intrinsic E is involutive for general stationary phi	transverse component survives in [e0,e1]	INTRINSIC_PAIR_DISTRIBUTION_NOT_INTEGRABLE
+F02	E has global maximal leaves on R x S3	incomplete clock/ruler flows or non-Hopf global orbit structure	LOCAL_PAIR_LEAVES_ONLY__GLOBAL_COMPLETION_OBSTRUCTED
+F03	angular screen H is nonintegrable	all transverse components of [e2,e3] vanish on any retained stratum	SCREEN_INTEGRABLE_STRATUM_EXISTS
+F04	induced leaf metric retains twist	pullback loses the a-dependent shift without a declared gauge transformation	PAIR_METRIC_OMISSION
+F05	leaf determinant is exactly reciprocal-area normalized	det(h) differs from -1 for general phi and a	RECIPROCAL_AREA_NOT_DERIVED
+F06	terminal leaf depth equals delta_K	exact pair readout differs from phi(q)-phi(p)	PAIR_DEPTH_DOES_NOT_CLOSE
+F07	leaves form a family rather than one selected surface	metric selects one S2 base point without extra query	UNIQUE_LEAF_SELECTED
+F08	generic cross-leaf endpoints lack one intrinsic E leaf	distinct Hopf-base endpoints share an E leaf	CROSS_LEAF_SURFACE_DERIVED
+F09	complete normal carry remains path-labelled	full holonomy or endpoint-reset obstruction disappears in cited exact evidence	COMPLETE_PHYSICAL_ARROW_CANDIDATE
+F10	result remains branch and configuration scoped	proof selects R17 lambda action source bootstrap or universal c_eff	SCOPE_OR_OWNERSHIP_FAILURE
+F11	production algebra is independent of frozen polynomial profile	any conclusion requires C01-C06 polynomial coefficients	PROFILE_IMPOSITION_FAILURE
+F12	independent verification is genuinely separate	independent controller imports production results or booleans	INDEPENDENCE_FAILURE
