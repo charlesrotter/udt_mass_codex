@@ -1,0 +1,11 @@
+premise_id	statement	provenance_tag	owner_or_source	open_scope
+P01	All 24 stable branch identities in the pinned branch universe are retained	pinned-by-THEORY	G43/G55 verified census	Branches outside that census and later time-live branches
+P02	A local integrable pair surface is not automatically a global cross-leaf observer relation	pinned-by-THEORY	G48 R17 foliation audit	Global relation selection outside R17
+P03	Carried and independently rebuilt middle states are distinct unless an owned reset relates them	pinned-by-THEORY	G45 middle-morphism audit	Physical reset ownership
+P04	Path-labelled holonomy is retained and is not silently collapsed to endpoint-only descent	pinned-by-THEORY	G49-G52 R17 connection audits	Physical path/query selection
+P05	Terminal Delta_phi applies only after a complete calibrated pair relation is supplied	pinned-by-THEORY	G54/G55	The physical pair-relation owner
+P06	R04 corrected G55 cells remain INSUFFICIENT rather than conditional	pinned-by-THEORY	G55 external correction	New evidence beyond the pinned corpus
+P07	No physical regime name is an input or output of this audit	free-and-explored	This preregistration	Later physical interpretation
+P08	No action source carrier matter bootstrap or dynamics participates	free-and-explored	Audit scope	All downstream physics
+P09	Global regularity may restrict a family without selecting one member	pinned-by-THEORY	G41-G55 ownership distinction	Missing selection rule
+P10	Every branch-axis cell is characterized rather than filtered for merit	free-and-explored	Solution-space protocol	Evidence absent from the pinned corpus

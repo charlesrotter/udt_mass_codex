@@ -1,0 +1,11 @@
+candidate_set_id	pinned_source_ids	row_rule	role	expected_count
+C01	S04	all data rows	stable branch identities	24
+C02	S02;S03	all data rows	G55 branch profiles and corrected axis evidence	DISCOVER_FROM_PINNED_TABLE
+C03	S05	all data rows	global relation-family classifications	DISCOVER_FROM_PINNED_TABLE
+C04	S06;S07	all cases and exact statements	overlap and three-observer ownership evidence	DISCOVER_FROM_PINNED_SOURCE
+C05	S08;S09	all rows and exact statements	branch transition ownership evidence	DISCOVER_FROM_PINNED_SOURCE
+C06	S10;S11;S12	all rows and exact statements	middle-morphism and reset candidates	DISCOVER_FROM_PINNED_SOURCE
+C07	S13;S14	all rows and exact statements	R17 intrinsic pair-surface evidence	DISCOVER_FROM_PINNED_SOURCE
+C08	S15;S16;S17	all rows and exact statements	R17 path holonomy and stationary selection evidence	DISCOVER_FROM_PINNED_SOURCE
+C09	S18	all data rows	ordered-query measurement apparatus evidence	6
+C10	S19;S20	current G55 premise and authorized next-step scope	premise and scope control	DISCOVER_FROM_PINNED_SOURCE

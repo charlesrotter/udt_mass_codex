@@ -1,0 +1,20 @@
+test_id	precommitted_test	failure_condition	maximum_conclusion_if_passed
+F01	Source manifest identity	Any of 20 pinned sources differs in blob SHA-256 or size	Exact source corpus frozen
+F02	Branch universe coverage	Not exactly 24 unique stable branch identities	Stop without classification
+F03	Axis universe coverage	Not exactly ten unique preregistered descent axes	Stop without classification
+F04	Cartesian coverage	Not exactly 240 unique branch-by-axis cells	Stop without interpretation
+F05	Join provenance	A classification relies on filename or prefix rather than explicit source evidence	Affected cell INSUFFICIENT_EVIDENCE and verifier failure
+F06	R04 correction preservation	Any corrected R04 G55 cell is restored as conditional without new pinned evidence	Audit fails
+F07	Local-global separation	An R17 local or same-leaf surface is promoted to a universal cross-leaf relation	Audit fails
+F08	Middle-reset ownership	A supplied reset or transition is called metric-owned	Audit fails
+F09	Carried-rebuilt distinction	Carried and independently rebuilt middle states are silently identified	Audit fails
+F10	Holonomy preservation	Path dependence is silently erased or treated as automatic failure	Audit fails
+F11	Terminal boundary	Delta_phi is called endpoint-derived before a complete pair relation is supplied	Audit fails
+F12	Branch-specific type guards	R18 clock-only relation R23 isometric path or R24 set-valued projector is promoted to a complete non-isometric pair density	Audit fails
+F13	No physical regime import	Any output assigns a physical micro ordinary cosmological particle force matter or background label	Audit fails
+F14	No downstream invention	Action source matter bootstrap carrier dynamics X_max value CMB spectrum or signalling law enters the classification	Audit fails
+F15	Missing-evidence honesty	Absence from pinned evidence is called a universal mathematical impossibility	Audit fails
+F16	Independent reconstruction	Independent implementation disagrees on a load-bearing owner or count	Result remains OPEN
+F17	Catch proofs	Any registered regression is not rejected when exercised	Result remains OPEN
+F18	External adversarial review	Fresh reviewer finds an unresolved type ownership or scope error	Do not bank the result
+F19	Repository preservation	Frozen manifests current paths frontier links tests or protected-atlas guard regress	Do not bank the result
