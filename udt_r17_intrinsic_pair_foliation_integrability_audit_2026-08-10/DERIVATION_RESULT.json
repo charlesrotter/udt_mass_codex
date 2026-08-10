@@ -1,0 +1,66 @@
+{
+  "arena": "R17/W01 C01-C06 regular off-shell complete coframes",
+  "checks": {
+    "coframe_frame_duality": true,
+    "integrability_independent_of_lambda": true,
+    "integrability_independent_of_screen_derivatives": true,
+    "pair_bracket_has_no_screen_component": true,
+    "pair_leaf_determinant_minus_one": true,
+    "pair_leaf_metric_keeps_twist": true,
+    "screen_bracket_has_unavoidable_pair_component": true,
+    "screen_nonintegrability_independent_of_profile": true,
+    "terminal_depth_phi": true,
+    "terminal_ratio_u_fourth": true
+  },
+  "dual_frame": {
+    "e0": "u*T",
+    "e1": "u^-1*(Z-a*T)",
+    "e2": "v^-1*X",
+    "e3": "v^-1*Y"
+  },
+  "landing": "GLOBAL_PAIR_FOLIATION_AND_SCALAR_DEPTH_DERIVED__FULL_NORMAL_BUNDLE_ARROW_OPEN",
+  "leaf_metric_determinant": "-1",
+  "leaf_metric_t_psi": [
+    [
+      "-1/u**2",
+      "-a/u**2"
+    ],
+    [
+      "-a/u**2",
+      "(-a**2 + u**4)/u**2"
+    ]
+  ],
+  "mode": "exact_symbolic",
+  "pair_bracket_components_e": [
+    "-p1/u",
+    "0",
+    "0",
+    "0"
+  ],
+  "scope_guards": {
+    "cross_leaf_pair_map_derived": false,
+    "lambda_selected": false,
+    "on_shell": false,
+    "one_leaf_selected": false,
+    "one_winding_selected": false,
+    "physical_complete_arrow_derived": false,
+    "r17_selected": false,
+    "screen_transport_path_independent": false
+  },
+  "screen_bracket_components_e": [
+    "2*a/(u*v**2)",
+    "2*u/v**2",
+    "lambda*p3/v",
+    "-lambda*p2/v"
+  ],
+  "symbols": {
+    "p1": "Z(phi)",
+    "p2": "X(phi)",
+    "p3": "Y(phi)",
+    "u": "exp(phi)>0",
+    "v": "exp(lambda*phi)>0"
+  },
+  "sympy_version": "1.13.1",
+  "terminal_depth": "log(u)",
+  "terminal_ratio": "u**4"
+}

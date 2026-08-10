@@ -1,0 +1,14 @@
+catch_id	mutant	expected	observed
+C01	missing source	REJECT	REJECT
+C02	duplicate source	REJECT	REJECT
+C03	wrong determinant	REJECT	REJECT
+C04	wrong terminal ratio	REJECT	REJECT
+C05	wrong terminal depth	REJECT	REJECT
+C06	wrong landing	REJECT	REJECT
+C07	select one leaf	REJECT	REJECT
+C08	select one winding	REJECT	REJECT
+C09	promote cross-leaf map	REJECT	REJECT
+C10	erase path-labelled screen carry	REJECT	REJECT
+C11	promote physical complete arrow	REJECT	REJECT
+C12	select lambda	REJECT	REJECT
+C13	false independent verifier	REJECT	REJECT

@@ -1,0 +1,10 @@
+claim_id	claim	status	scope	remaining_open
+R17F01	intrinsic reciprocal plane is Frobenius involutive	DERIVED_CONDITIONAL	supplied smooth regular stationary R17/W01 C01-C06 coframes	other branches; null or rank-degenerate strata; on-shell selection
+R17F02	maximal leaves are R_x_S1 Hopf cylinders forming an S2-parametrized foliation	DERIVED_CONDITIONAL	global R_x_S3 topology and intrinsic pair distribution	no individual physical leaf selected
+R17F03	angular screen is a contact/nonintegrable normal two-plane bundle	DERIVED_CONDITIONAL	same C01-C06 configurations	screen path; phase; global physical carry
+R17F04	complete induced pair metric retains twist and has determinant -1	DERIVED_CONDITIONAL	every intrinsic pair leaf in C01-C06	physical pair-map ownership beyond the leaf family
+R17F05	terminal pair evaluator returns phi and relative depth delta_K	DERIVED_CONDITIONAL	regular leaf metric and globally shared intrinsic Killing normalization ratio	universal mixed-branch c_eff law; cross-branch calibration
+R17F06	reciprocal area TL=1 is supplied by the complete coframe on the intrinsic leaves	DERIVED_CONDITIONAL	C01-C06; no extra area normalization	theorem beyond the R17 branch
+R17F07	one leaf one winding or cross-leaf connecting surface is selected	OPEN	physical observer query	not supplied
+R17F08	four-slot vertical metric class integrates to a unique complete physical observer arrow	OPEN	normal-bundle carry and reset	full ambient holonomy remains path-labelled
+R17F09	R17 lambda action source matter bootstrap Xmax CMB signalling or dynamics selected	OPEN	outside bounded audit	no promotion authorized
