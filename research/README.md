@@ -8,6 +8,9 @@ record. Root `LIVE.md` wins every status disagreement.
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**: first read
+`../udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
+`../udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, then
+`../udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then

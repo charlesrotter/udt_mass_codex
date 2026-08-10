@@ -7,6 +7,15 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
+**CURRENT G52 CHECKPOINT:**
+`udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md` derives canonical
+stationary R17 local one-forms beyond `dphi` and two explicit inequivalent surviving families.
+Therefore local naturality, concatenation, and path independence do not select a unique additional
+physical reciprocal transgression. This is constructive nonuniqueness, not an exhaustive
+higher-jet classification. The smallest open owner is an explicit physical query/measurement rule;
+on-shell and global completion remain larger candidates. Next test founding-query ownership, then
+global admissibility only if needed.
+
 ## ⚠ FRONTIER SUPERSEDED — READ LIVE.md's 2026-08-10 BLOCK FOR THE ACTIVE ARC
 
 The "FRONTIER UPDATE (2026-08-06)" and everything below it describe the 08-06 state (x_max

@@ -98,6 +98,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md",
@@ -179,7 +180,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md"
+    latest = "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -196,6 +197,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md",
@@ -230,9 +232,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 51, "premise registry must contain exactly 51 rows")
+    require(len(rows) == 52, "premise registry must contain exactly 52 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 51, "duplicate premise id")
+    require(len(by_id) == 52, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -800,6 +802,28 @@ def main() -> None:
         "R17 joint-invariant source changed",
     )
     require("G51_REFINES_G50_BY_DERIVING_THE_TYPED_DEPTH_NORMAL_ISOMETRY_PRODUCT_GROUPOID" in by_id["G51"]["precedence_rule"], "G50 joint-invariant refinement absent")
+    require(
+        by_id["G52"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__CANONICAL_LOCAL_FORMS_BEYOND_dphi_AND_GENERIC_FIRST_JET_FULL_COTANGENT_DERIVED__CONSTRUCTIVE_NONUNIQUENESS_ONLY__NONCLOSED_PAIR_LEAF_AND_EXACT_PAIR_PURE_FAMILIES_SURVIVE__NO_DISTINGUISHED_ADDITIONAL_RECIPROCAL_TRANSGRESSION_SELECTED",
+        "R17 stationary local one-form status regressed or promoted",
+    )
+    require(by_id["G52"]["epistemic_label"] == "MIXED", "R17 one-form label changed")
+    require(
+        by_id["G52"]["active_use"]
+        == "ACTIVE_STATIONARY_R17_LOCAL_ONE_FORM_NONSELECTION_AND_NEXT_FOUNDING_QUERY_MEASUREMENT_SELECTOR_GATE_ONLY",
+        "R17 one-form use promoted",
+    )
+    require("explicit physical query or measurement selection rule" in by_id["G52"]["open_scope"], "query selector invented")
+    require("exhaustive higher-jet classification" in by_id["G52"]["open_scope"], "constructive scope widened")
+    require("constructive families called an exhaustive finite-jet classification" in by_id["G52"]["forbidden_regression"], "constructive scope guard absent")
+    require("metric-owned form called selected physical transgression" in by_id["G52"]["forbidden_regression"], "ownership/selection guard absent")
+    require("line-integral composition or path independence called a coefficient selector" in by_id["G52"]["forbidden_regression"], "composition selection guard absent")
+    require(
+        by_id["G52"]["controlling_source"]
+        == "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
+        "R17 stationary local one-form source changed",
+    )
+    require("G52_REFINES_G51_BY_DERIVING_MULTIPLE_STATIONARY_R17_LOCAL_FORMS" in by_id["G52"]["precedence_rule"], "G51 local one-form refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -872,7 +896,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 51 premise guards, stationary R17 depth/normal-holonomy product groupoid and order-zero scalar shadow classified with physical path arrow and higher-jet selection open, stationary R17 flat/descent/holonomy subloci classified with no manifest-backed selector, complete metric-projected R17 normal connection and path functor with physical path and arrow open, conditional metric-owned R17 pair-leaf normal connection and representative-free holonomy, conditional R17 global pair foliation and same-leaf scalar depth, complete-coframe-conditional R17 vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal scalar/calibration bitorsor descent, carried/intrinsic alignment bitorsor, branch-transition ownership correction, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 52 premise guards, stationary R17 canonical local forms and constructive nonuniqueness with explicit query/measurement selector open, stationary R17 depth/normal-holonomy product groupoid and order-zero scalar shadow classified with physical path arrow open, stationary R17 flat/descent/holonomy subloci classified with no manifest-backed selector, complete metric-projected R17 normal connection and path functor with physical path and arrow open, conditional metric-owned R17 pair-leaf normal connection and representative-free holonomy, conditional R17 global pair foliation and same-leaf scalar depth, complete-coframe-conditional R17 vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal scalar/calibration bitorsor descent, carried/intrinsic alignment bitorsor, branch-transition ownership correction, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

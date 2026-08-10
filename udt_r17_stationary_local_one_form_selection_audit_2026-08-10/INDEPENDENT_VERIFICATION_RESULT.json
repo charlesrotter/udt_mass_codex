@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "all_candidates_classified": true,
+    "candidate_ids_exact_16": true,
+    "closedness_atlas_eight_rows": true,
+    "exact_family_preserves_pure_reciprocal_locus": true,
+    "generic_first_jet_full_rank": true,
+    "global_stationary_R17_nonexact_witness_exact": true,
+    "invariant_atlas_four_strata": true,
+    "koszul_mean_curvature_all_12_strata": true,
+    "order_zero_screen_invariant_nullity_two": true,
+    "owner_census_six_rows": true,
+    "pair_leaf_annihilator_Hdphi_nonclosed": true,
+    "product_rule_clock_nonclosed_eps_-1": true,
+    "product_rule_clock_nonclosed_eps_1": true,
+    "product_rule_ruler_nonclosed_eps_-1": true,
+    "product_rule_ruler_nonclosed_eps_1": true,
+    "quaternion_MC_minus_brackets_exact": true,
+    "witness_point_is_on_unit_S3": true
+  },
+  "failed": [],
+  "method": "INDEPENDENT_STDLIB_FRACTION_MATRIX_EXTERIOR_AND_QUATERNION_RECONSTRUCTION",
+  "passed": 17,
+  "schema_version": 1,
+  "status": "PASS",
+  "total": 17
+}

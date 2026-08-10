@@ -9,6 +9,18 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
+## Current G52 refinement
+
+`udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md` now controls the
+stationary R17 local one-form gate. The complete regular stationary metric owns canonical forms
+beyond `dphi`, and generic first-jet data span the full cotangent space. Explicit nonclosed
+pair-leaf-preserving and exact pair-pure-preserving families constructively refute unique local
+selection. This is not an exhaustive classification of all higher-jet natural forms. `dphi`
+remains selected only for the already-owned endpoint depth. The smallest missing selector is an
+explicit physical query/measurement premise; on-shell and global-completion rules remain larger
+possible owners. No physical path, complete arrow, universal `c_eff`, action, source, bootstrap
+closure, or downstream physics follows.
+
 ## The correction that prompted this index
 
 The founding source supplies an ordered relative depth and derives the exact reciprocal character

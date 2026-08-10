@@ -1,7 +1,8 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-10 STATUS (RESTART ANCHOR): R17 DEPTH/NORMAL-HOLONOMY JOINT COMPLETE.** ACTIVE ARC = CMB PEAK
+> **2026-08-10 STATUS (RESTART ANCHOR): R17 STATIONARY LOCAL ONE-FORM GATE COMPLETE.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-10) FIRST, then
+> `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then

@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then

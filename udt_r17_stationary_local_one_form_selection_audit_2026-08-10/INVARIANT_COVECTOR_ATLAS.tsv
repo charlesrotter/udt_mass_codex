@@ -1,0 +1,5 @@
+jet_order	stratum	covector_span	rank	orientation
+0	regular_SO2_screen_isotropy	tau;nu	2	tau_even__nu_line_even_signed_nu_local_system
+1	H_dphi_nonzero	tau;nu;H_dphi;J_H_dphi	4	J_H_dphi_orientation_odd
+1	H_dphi_zero	tau;nu	2	screen_direction_not_selected
+finite	generic_metric_jet	tensor_contractions_and_invariant_scalar_modules	UP_TO_4	even_and_local_system_families_separated

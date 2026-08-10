@@ -4,11 +4,16 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; R17 depth/holonomy joint verified)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; R17 local one-form gate verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`: multiple
+metric-owned local forms beyond `dphi` survive, including a nonclosed pair-leaf-preserving family
+and an exact pair-pure-preserving family. This constructively refutes local uniqueness but is not
+an exhaustive higher-jet classification. An explicit physical query/measurement rule is the
+smallest open selector; on-shell/global completion remain larger possible owners. Its parent is
 `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`: on supplied regular
 stationary R17 paths, endpoint reciprocal depth and normal transport form an exact typed
 product-groupoid arrow, locally represented by `R x SO(2)` only after endpoint frames are chosen.

@@ -1,0 +1,18 @@
+{
+  "checked_markdown_links": 5,
+  "current_paths": 1114,
+  "frontier_resolved_targets": 101,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "premise_guards": 52,
+  "protected_atlas_contents_read": false,
+  "pytest": "91 passed, 1 xfailed",
+  "schema": "udt-r17-stationary-local-one-form-repository-gates-v1",
+  "source_manifest_rows": 18,
+  "startup_controls_checked": 11,
+  "status": "PASS",
+  "unexpected_dirty_paths": []
+}

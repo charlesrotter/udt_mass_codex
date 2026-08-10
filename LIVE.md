@@ -8,6 +8,22 @@ this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail,
 
 ## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 depth/holonomy joint VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
+**LATEST R17 GATE — STATIONARY LOCAL ONE-FORM SELECTION COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md` first. The regular
+stationary R17 metric owns canonical local forms beyond `dphi`; at generic first jet the retained
+clock, ruler, and angular-gradient forms span the full cotangent space. Two explicit families
+prove constructive nonuniqueness: `alpha_c=dphi+c H*dphi` preserves every intrinsic pair-leaf
+depth while becoming generically nonclosed, and the dimensionless exact family
+`beta_c=dphi+c dJ` preserves the pair-pure reduction. Thus local metric algebra, concatenation,
+and path independence do not select a unique additional reciprocal transgression. This is not an
+exhaustive higher-jet classification. The smallest missing owner is an explicit physical
+query/measurement rule; on-shell and global-completion rules remain larger possible owners. No
+physical path, observer arrow, universal `c_eff`, action, source, bootstrap closure, or downstream
+physics is selected. The next bounded gate is to ask whether the founding ordered-observer query
+already supplies that measurement selector; if not, audit global admissibility of the explicit
+surviving families.
+
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
 binding: CLAUDE.md (MAP/OBSERVE/PONDER before DERIVE; lay language with Charles; nothing runs

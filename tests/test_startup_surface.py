@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md",
@@ -76,7 +77,18 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 51 premise guards" in result.stdout
+    assert "PASS: 52 premise guards" in result.stdout
+
+
+def test_catch_missing_current_stationary_one_form_route(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "LIVE.md",
+        "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
+        "R17_STATIONARY_ONE_FORM_REPORT_REMOVED.md",
+    )
+    with pytest.raises(SystemExit, match="stationary_local_one_form_selection|latest complete-branch route"):
+        premise_guard.validate_startup_surface(root)
 
 
 def test_catch_missing_current_path_connection_route(tmp_path: Path) -> None:

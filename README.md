@@ -6,6 +6,11 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`: regular stationary
+R17 owns several canonical local one-forms beyond `dphi`, but two explicit surviving families
+constructively refute a unique additional local reciprocal transgression. This is not an exhaustive
+higher-jet classification. The smallest open owner is an explicit physical query/measurement rule;
+on-shell and global completion remain larger possible owners. Its parent is
 `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`: on supplied regular
 stationary R17 paths, endpoint depth and normal isometric carry form an exact product-groupoid
 arrow, locally represented by `R x SO(2)` only after endpoint frames are chosen. The complete
