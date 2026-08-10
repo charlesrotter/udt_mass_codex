@@ -6,10 +6,11 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
-`udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`: conditional on
-the supplied regular R17 C01--C06 coframes, the intrinsic pair plane forms global
-`R x S1` Hopf-cylinder leaves and returns same-leaf `delta_K`; normal carry and the physical
-complete arrow remain open. The full corrected FD1 atlas is banked at
+`udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`: conditional on the supplied
+regular R17 C01--C06 coframes, the metric projects an exact normal connection and curvature onto
+the already-derived `R x S1` pair leaves. `lambda=-1` flatness and `lambda=0` Hopf-basicness are
+distinct; neither selects a branch, and cross-leaf path ownership plus the physical complete arrow
+remain open. The full corrected FD1 atlas is banked at
 `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`; the old same-index multiplet
 window is withdrawn. Its complete-angular interpretation is now controlled by
 `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`: the equatorial roots do not
@@ -66,8 +67,11 @@ complete C01--C06 coframe. Its completed follow-up,
 `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, derives the
 global `S2`-parametrized family of `R x S1` intrinsic pair leaves, their twisted determinant-`-1`
 metric, and same-leaf `delta_K`. It does not select normal carry, a cross-leaf comparison, or the
-full physical arrow. Next is the bounded normal-bundle connection/holonomy atlas. No eigenvalue
-solve is authorized.
+full physical arrow. Its completed follow-up,
+`udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, derives the projected
+leafwise normal connection and representative-free loop data. Flat `lambda=-1` and Hopf-basic
+`lambda=0` are distinct and unselected. Cross-leaf path choice and the physical arrow remain open;
+next is the global path-labelled connection decomposition. No eigenvalue solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -76,7 +80,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
+5. `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -107,8 +112,10 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
+- `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md` — current conditional
+  normal-connection/holonomy result and next global path-labelled connection gate.
 - `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md` — current
-  conditional global pair-foliation result and next normal-bundle connection/holonomy gate.
+  conditional global pair-foliation parent.
 - `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` — immediate
   vertical-metric selection parent.
 - `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md` — current

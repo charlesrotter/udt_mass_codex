@@ -6,7 +6,7 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 intrinsic pair foliation VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 pair-leaf normal holonomy VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
@@ -252,13 +252,26 @@ spatial `S3` slice. External review accepted this bounded landing after requirin
 cross-leaf surface, normal carry, holonomy/reset, branch, `lambda`, or physical complete observer
 arrow is selected.
 
-**NEXT GATE (not launched):** derive the metric's normal-bundle connection restricted to the
-derived pair leaves and classify its curvature/holonomy for contractible and wound paths, its
-Hopf-base and general stationary `phi`-derivative dependence, and every representative-free
-observable across all six `lambda` strata. Cross-leaf comparison remains a separate horizontal
-query. Do not select a path, winding, reset, branch, `lambda`, semidirect physical arrow, bootstrap
-law, or universal mixed-geometry `c_eff`. R18 ruler completion remains the parallel fork. No
-eigenvalue solve is authorized.
+**R17 PAIR-LEAF NORMAL CONNECTION/HOLONOMY AUDIT — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md` first. On the supplied
+regular stationary C01--C06 coframes, the metric-owned Levi--Civita connection projected to the
+rank-two normal bundle gives an exact leafwise `SO(2)` connection and curvature. `lambda=-1`
+makes that leafwise connection flat for arbitrary stationary `phi`, while wound-cylinder
+holonomy may remain; `lambda=0` instead makes the normal screen metric Hopf-basic. These roles are
+distinct and neither selects a branch. Signed connection angle is representative-dependent;
+closed-loop `O(2)` conjugacy/trace and curvature square are representative-free. The normal plane
+horizontally lifts a supplied base path but does not select the base path or the physical complete
+observer arrow. Fresh external review returned `VERIFIED_AS_STATED`; its mistaken claim that the
+12 source files were absent was corrected after all 12 actual files matched blob, SHA-256, and
+size. No mathematical or ownership conclusion changed.
+
+**NEXT GATE (not launched):** determine whether the horizontal Hopf carry plus this leafwise
+normal connection define a consistent path-labelled connection on the whole pair-leaf bundle.
+Derive its vertical, horizontal, and mixed curvature components and test global chart and
+finite-cell compatibility across all six `lambda` strata. Do not select a path, leaf, winding,
+reset, branch, `lambda`, semidirect physical arrow, bootstrap law, or universal mixed-geometry
+`c_eff`. R18 ruler completion remains the parallel fork. No eigenvalue solve is authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
@@ -317,6 +330,7 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
+`udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md` →
 `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md` →
 `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` →
 `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md` →

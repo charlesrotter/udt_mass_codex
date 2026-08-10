@@ -377,6 +377,18 @@ this bounded landing after requiring a constructive independent verifier and the
 contact-language correction; those repairs now pass 72/72 exact independent checks and 14/14
 exercised catches.
 
+The R17 pair-leaf normal connection/holonomy audit,
+`udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, closes the next bounded
+metric-owned layer. Projecting the Levi--Civita connection onto the derived rank-two normal bundle
+gives an exact leafwise `SO(2)` connection and curvature on every supplied regular stationary
+C01--C06 coframe. `lambda=-1` makes the connection flat for arbitrary stationary `phi` while
+wound-cylinder holonomy may remain; `lambda=0` instead makes the normal screen metric Hopf-basic.
+These roles are distinct and neither selects a branch. Signed angle is representative-dependent;
+closed-loop `O(2)` conjugacy/trace and curvature square are representative-free. Horizontal lift
+requires a supplied base path and does not select the cross-leaf comparison or physical complete
+arrow. Fresh external review returned `VERIFIED_AS_STATED`; a factual source-presence objection
+was withdrawn after all 12 actual intake sources matched their blobs, SHA-256 values, and sizes.
+
 Do not
 promote the conditional
 local query enrichment into a universally founded physical functor, call ordering a unique arrow,

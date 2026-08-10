@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -66,8 +67,11 @@
    complete physical owners. The completed R17 selector audit fixes the branch-internal vertical
    metric class modulo `SO(2)` only after supplying a complete C01--C06 coframe. The completed R17
    foliation audit then derives the global `S2`-family of `R x S1` pair leaves, their twisted
-   determinant-`-1` metric, and same-leaf `delta_K`, while leaving normal carry and the full
-   physical arrow open. The next bounded gate is the R17 normal-bundle connection/holonomy atlas. No
+   determinant-`-1` metric, and same-leaf `delta_K`. The completed normal-holonomy audit derives
+   the projected leafwise normal connection and representative-free loop data: `lambda=-1`
+   flatness and `lambda=0` Hopf-basicness are distinct and select neither branch. Cross-leaf path
+   ownership and the full physical arrow remain open. The next bounded gate is the global
+   path-labelled connection decomposition. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
@@ -80,6 +84,11 @@
 
 ## Current scientific routing
 
+- `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md` — current gate: the metric
+  projects an exact normal `SO(2)` connection onto every supplied R17 pair leaf. Flat
+  `lambda=-1` and Hopf-basic `lambda=0` have distinct roles; neither selects a branch. Wound
+  holonomy can survive flat curvature. Horizontal lift requires, but does not select, a base path;
+  the physical complete arrow remains open.
 - `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md` — current gate:
   the supplied regular stationary R17 clock/ruler plane integrates globally into an
   `S2`-parametrized family of `R x S1` Hopf cylinders; the leaf metric retains twist, has determinant

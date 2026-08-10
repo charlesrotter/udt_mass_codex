@@ -1,5 +1,6 @@
 {
-  "external_adversarial_review": "PENDING",
+  "external_adversarial_review": "VERIFIED_AS_STATED_WITH_PROVENANCE_OBJECTION_WITHDRAWN",
+  "external_source_replay": "12_OF_12_GIT_BLOB_SHA256_SIZE_MATCH",
   "independent_checks": 72,
   "lambda_strata": 6,
   "landing": "CONDITIONAL_METRIC_OWNED_NORMAL_CONNECTION_AND_REPRESENTATIVE_FREE_HOLONOMY_DATA_ON_SUPPLIED_R17_PAIR_LEAVES__PHYSICAL_PATH_AND_COMPLETE_ARROW_OPEN",

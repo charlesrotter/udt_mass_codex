@@ -3,7 +3,7 @@
 Do not choose `lambda=-1` because it is flat and do not choose `lambda=0` because its normal metric
 is Hopf-basic.
 
-After fresh adversarial review of this package, the next metric-led question is:
+Fresh adversarial review accepted the bounded package. The next metric-led question is:
 
 > On the complete surviving R17 global relation families, does the horizontal Hopf carry plus the
 > leafwise normal connection define a consistent path-labelled connection on the whole pair-leaf

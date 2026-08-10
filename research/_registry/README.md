@@ -3,11 +3,13 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`; it
-derives the global `S2`-parametrized `R x S1` intrinsic pair-leaf family, the twisted
-determinant-`-1` leaf metric, and same-leaf `delta_K` on the supplied regular C01--C06 coframes,
-while leaving normal carry, cross-leaf comparison, and the physical arrow open. The next gate is
-the R17 normal-bundle connection/holonomy atlas. Its vertical-metric parent is
+gate is `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`; it derives the
+projected normal connection and representative-free holonomy data on the supplied R17 pair
+leaves. `lambda=-1` flatness and `lambda=0` Hopf-basicness are distinct and unselected; cross-leaf
+path choice and the physical arrow remain open. The next gate is the global path-labelled
+connection decomposition. Its foliation parent is
+`udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`; its
+vertical-metric parent is
 `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`; its magnitude-owner
 parent is
 `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`; its 24 by five

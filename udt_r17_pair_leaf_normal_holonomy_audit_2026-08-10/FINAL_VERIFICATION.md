@@ -2,7 +2,7 @@
 
 Date: 2026-08-10
 
-Status: `LOCAL_VERIFIED_LEAD`; fresh external adversarial review is pending.
+Status: `VERIFIED-WITH-CAVEATS`; fresh external adversarial review accepted the bounded result.
 
 ## Scientific gates
 
@@ -16,12 +16,14 @@ Status: `LOCAL_VERIFIED_LEAD`; fresh external adversarial review is pending.
 - Exercised fail-closed mutations: **PASS**, 16/16 rejected.
 - Premise audit: **PASS** for the bounded result; physical-path and downstream ownership remain
   explicitly open.
-- Fresh external adversarial review: **PENDING**.
+- Fresh external adversarial review: **PASS**, `VERIFIED_AS_STATED`; a focused correction withdrew
+  the first response's false claim that the 12 actual source files were absent from the intake.
+- External source replay: **PASS**, 12/12 actual files matched Git blob, SHA-256, and byte size.
 
 ## Repository gates
 
 - Source manifest: **PASS**, 12/12 Git blobs, sizes, and SHA-256 values.
-- Current premise guards: **PASS**, 47.
+- Current premise guards: **PASS**, 48.
 - Frozen packages: **PASS**, six manifests, 127 members, 133 package paths.
 - Current artifact paths: **PASS**, 1,114.
 - Frontier: **PASS**, 306 rows, 101 distinct resolved targets.

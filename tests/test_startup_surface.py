@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md",
@@ -72,7 +73,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 47 premise guards" in result.stdout
+    assert "PASS: 48 premise guards" in result.stdout
 
 
 def test_catch_missing_current_magnitude_owner_route(tmp_path: Path) -> None:

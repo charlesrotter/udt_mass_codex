@@ -175,10 +175,19 @@ plane only on spatial `S3` slices. No leaf, winding, cross-leaf surface, normal 
 reset, `lambda`, branch, or physical complete arrow is selected. External review accepted the
 bounded landing after the constructive-verifier and terminology repairs.
 
-**NEXT GATE, not launched:** derive and classify the metric-owned normal-bundle connection and
-holonomy along the derived pair leaves, including contractible/wound paths, Hopf-base and `phi`
-dependence, representative-free observables, cross-leaf horizontal-query requirements, and all six
-`lambda` strata. Do not select a path, winding, reset, semidirect physical arrow, bootstrap law, or
+**R17 PAIR-LEAF NORMAL CONNECTION/HOLONOMY = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`. The projected metric normal
+connection and its leafwise curvature are exact on all supplied regular stationary C01--C06
+coframes. `lambda=-1` is flat but can retain wound holonomy; `lambda=0` is Hopf-basic instead.
+Neither role selects a branch. Representative-free closed-loop data are `O(2)` conjugacy/trace,
+not the signed local angle. A horizontal lift requires a supplied base path and does not produce
+the physical observer arrow. External review verified the bounded result; its false provenance
+objection was withdrawn after all 12 actual intake sources were hash-checked.
+
+**NEXT GATE, not launched:** determine whether horizontal Hopf carry and leafwise normal carry form
+a consistent path-labelled connection over the complete pair-leaf bundle; derive vertical,
+horizontal, and mixed curvature and test global chart/finite-cell compatibility. Do not select a
+path, leaf, winding, reset, branch, `lambda`, semidirect physical arrow, bootstrap law, or
 universal `c_eff`. R18 ruler completion remains the parallel fork. C1 remains unselected;
 FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The
 parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.

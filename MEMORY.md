@@ -4,19 +4,23 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; R17 intrinsic pair foliation verified)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; R17 pair-leaf normal holonomy verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
-`udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`: on every supplied
-smooth regular stationary C01--C06 coframe, the R17 clock/ruler plane integrates globally into an
-`S2`-parametrized family of `R x S1` Hopf cylinders. Their complete induced metric retains twist,
-has determinant `-1`, and returns same-leaf endpoint depth `delta_K`; the angular plane is a
-nonintegrable rank-two normal bundle in 4D and a contact plane only on spatial `S3` slices. External
-review accepted this bounded result after the constructive-verifier and terminology repairs. No
-leaf, winding, cross-leaf surface, normal carry, holonomy/reset, branch, `lambda`, or physical
-complete observer arrow is selected. Its immediate parent is
+`udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`: on every supplied smooth
+regular stationary C01--C06 coframe, projection of the metric connection onto the normal bundle
+gives an exact leafwise connection and curvature. `lambda=-1` makes it flat while wound holonomy
+may remain; `lambda=0` instead makes the normal screen metric Hopf-basic. Neither selects a branch.
+Closed-loop `O(2)` conjugacy/trace is representative-free, but a signed local angle is not.
+Horizontal lift requires a supplied base path and does not select the cross-leaf comparison or
+physical complete observer arrow. External review verified the bounded result and withdrew its
+mistaken source-presence objection after all 12 actual intake sources matched. Its foliation
+parent is `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`: the
+R17 clock/ruler plane integrates globally into an `S2`-parametrized family of `R x S1` Hopf
+cylinders with twisted determinant-`-1` leaf metric and same-leaf depth `delta_K`. Its immediate
+vertical-metric parent is
 `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`: founded nonzero
 reciprocal depth fixes the R17 clock/ruler weights, while each supplied complete off-shell
 C01--C06 coframe fixes the branch-internal vertical reciprocal metric class modulo `SO(2)`. The
@@ -90,11 +94,12 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is the bounded R17 normal-bundle connection/holonomy atlas on the
-derived pair leaves: classify contractible and wound paths, Hopf-base and stationary `phi`
-dependence, representative-free observables, cross-leaf horizontal-query requirements, and all
-six `lambda` strata without selecting a path, winding, reset, branch, semidirect physical arrow,
-action, bootstrap law, or universal `c_eff`. No profile repair, inner cutoff, eigenvalue solve, or FD2 is
+Nothing is in flight. NEXT is the bounded global path-labelled connection audit: determine whether
+horizontal Hopf carry and leafwise normal carry form one consistent connection on the complete
+pair-leaf bundle, derive vertical/horizontal/mixed curvature, and test chart and finite-cell
+compatibility across all six `lambda` strata without selecting a path, winding, reset, branch,
+semidirect physical arrow, action, bootstrap law, or universal `c_eff`. No profile repair, inner
+cutoff, eigenvalue solve, or FD2 is
 authorized. Do not promote C1, select `k0`, select the best standalone ladder, or invent source
 weights.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, but its FD1-first route is

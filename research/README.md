@@ -8,6 +8,7 @@ record. Root `LIVE.md` wins every status disagreement.
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**: first read
+`../udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -65,8 +66,11 @@ branch-internal R17 vertical reciprocal metric class modulo `SO(2)` only after s
 C01--C06 coframe. Its completed follow-up,
 `../udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, derives the
 global `S2`-parametrized family of `R x S1` intrinsic pair leaves, their twisted determinant-`-1`
-metric, and same-leaf `delta_K`. Normal carry, cross-leaf comparison, and the physical arrow remain
-open; next is the bounded normal-bundle connection/holonomy atlas. Parent source:
+metric, and same-leaf `delta_K`. Its completed follow-up,
+`../udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, derives the projected
+leafwise normal connection and representative-free loop data. Flat `lambda=-1` and Hopf-basic
+`lambda=0` are distinct and unselected. Cross-leaf path choice and the physical arrow remain open;
+next is the global path-labelled connection decomposition. Parent source:
 `../udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. No eigensolve, profile
 repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a

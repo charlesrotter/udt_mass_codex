@@ -98,6 +98,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md",
@@ -150,6 +151,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md",
@@ -171,7 +173,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md"
+    latest = "udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -188,6 +190,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md",
@@ -218,9 +221,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 47, "premise registry must contain exactly 47 rows")
+    require(len(rows) == 48, "premise registry must contain exactly 48 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 47, "duplicate premise id")
+    require(len(by_id) == 48, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -699,6 +702,29 @@ def main() -> None:
         "R17 pair-foliation source changed",
     )
     require("G47_REFINES_G46_BY_CLOSING_THE_SUPPLIED_R17_PAIR_FOLIATION_AND_LEAF_DEPTH" in by_id["G47"]["precedence_rule"], "G46 pair-foliation refinement absent")
+    require(
+        by_id["G48"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__METRIC_PROJECTED_NORMAL_CONNECTION_AND_LEAF_CURVATURE_DERIVED_ON_SUPPLIED_C01_C06__LAMBDA_MINUS_ONE_FLAT_AND_LAMBDA_ZERO_HOPF_BASIC_ROLES_DISTINCT__PHYSICAL_PATH_AND_COMPLETE_ARROW_OPEN",
+        "R17 normal-holonomy status regressed or promoted",
+    )
+    require(by_id["G48"]["epistemic_label"] == "MIXED", "R17 normal-holonomy label changed")
+    require(
+        by_id["G48"]["active_use"]
+        == "ACTIVE_R17_NORMAL_HOLONOMY_CLASSIFICATION_AND_NEXT_GLOBAL_CONNECTION_DECOMPOSITION_GATE_ONLY",
+        "R17 normal-holonomy use promoted",
+    )
+    require("physical cross-leaf base path" in by_id["G48"]["open_scope"], "cross-leaf path selected")
+    require("vertical horizontal and mixed curvature decomposition" in by_id["G48"]["open_scope"], "global connection decomposition invented")
+    require("lambda minus one flatness called branch selection" in by_id["G48"]["forbidden_regression"], "flat-branch selection guard absent")
+    require("lambda zero Hopf-basicness called branch selection" in by_id["G48"]["forbidden_regression"], "Hopf-basic branch-selection guard absent")
+    require("wound holonomy erased because curvature is zero" in by_id["G48"]["forbidden_regression"], "winding holonomy guard absent")
+    require("horizontal lift said to select a base path" in by_id["G48"]["forbidden_regression"], "horizontal-lift ownership guard absent")
+    require(
+        by_id["G48"]["controlling_source"]
+        == "udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md",
+        "R17 normal-holonomy source changed",
+    )
+    require("G48_REFINES_G47_BY_DERIVING_THE_SUPPLIED_R17_PAIR_LEAF_NORMAL_CONNECTION_AND_HOLONOMY_CLASSIFICATION" in by_id["G48"]["precedence_rule"], "G47 normal-holonomy refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -771,7 +797,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 47 premise guards, conditional R17 global pair foliation and same-leaf scalar depth with normal carry open, complete-coframe-conditional R17 vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal scalar/calibration bitorsor descent, carried/intrinsic alignment bitorsor, branch-transition ownership correction, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 48 premise guards, conditional metric-owned R17 pair-leaf normal connection and representative-free holonomy with physical path open, conditional R17 global pair foliation and same-leaf scalar depth, complete-coframe-conditional R17 vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal scalar/calibration bitorsor descent, carried/intrinsic alignment bitorsor, branch-transition ownership correction, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

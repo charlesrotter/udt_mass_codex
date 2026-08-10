@@ -2,7 +2,8 @@
 
 Date: 2026-08-10
 
-Status ceiling before a fresh external adversarial review: `LOCAL_VERIFIED_LEAD`.
+Current status after fresh external adversarial review: `VERIFIED-WITH-CAVEATS` within the
+explicit bounded scope below; not canon or an unconditional result.
 
 ## 1. Supplied geometry and scope
 

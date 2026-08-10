@@ -20,6 +20,8 @@ LANDING = (
     "CONDITIONAL_METRIC_OWNED_NORMAL_CONNECTION_AND_REPRESENTATIVE_FREE_"
     "HOLONOMY_DATA_ON_SUPPLIED_R17_PAIR_LEAVES__PHYSICAL_PATH_AND_COMPLETE_ARROW_OPEN"
 )
+EXTERNAL_REVIEW_SHA256 = "5bd0730f5fbc903303b39a4b037e2588b97edbb11cbeb92cec3924f47bac3912"
+EXTERNAL_CORRECTION_SHA256 = "2107bf0a0a5ba32d86e0e04066954486e656854d93f982694c078702b471abe1"
 
 
 def require(condition: bool, message: str) -> None:
@@ -190,6 +192,15 @@ def main() -> None:
     verify_atlas(atlas)
     verify_holonomy(holonomy)
     verify_independent(independent)
+    require(
+        digest((HERE / "EXTERNAL_REVIEW_RAW.md").read_bytes()) == EXTERNAL_REVIEW_SHA256,
+        "external review raw hash",
+    )
+    require(
+        digest((HERE / "EXTERNAL_REVIEW_CORRECTION_RAW.md").read_bytes())
+        == EXTERNAL_CORRECTION_SHA256,
+        "external correction raw hash",
+    )
 
     catches: list[tuple[str, str, bool]] = []
 
@@ -256,12 +267,13 @@ def main() -> None:
         "independent_checks": independent["passed_checks"],
         "mutation_catches": len(catches),
         "lambda_strata": len(atlas),
-        "external_adversarial_review": "PENDING",
+        "external_adversarial_review": "VERIFIED_AS_STATED_WITH_PROVENANCE_OBJECTION_WITHDRAWN",
+        "external_source_replay": "12_OF_12_GIT_BLOB_SHA256_SIZE_MATCH",
     }
     (HERE / "VERIFICATION_RESULT.json").write_text(
         json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
-    print("PASS: 12 sources; 10 symbolic; 72 independent; 16/16 catches; external review pending")
+    print("PASS: 12 sources; 10 symbolic; 72 independent; 16/16 catches; external VERIFIED_AS_STATED")
 
 
 if __name__ == "__main__":

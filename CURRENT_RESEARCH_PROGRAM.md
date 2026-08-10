@@ -90,9 +90,13 @@ off-shell C01--C06 coframe, the vertical reciprocal metric class is fixed to
 follow-up, `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, derives
 the global `S2`-parametrized family of `R x S1` intrinsic pair leaves, the full twisted leaf metric
 with determinant `-1`, and same-leaf endpoint depth `delta_K`. The angular plane is a
-nonintegrable normal bundle in 4D. The new NEXT gate is the metric-owned normal-bundle
-connection/holonomy atlas along those leaves; cross-leaf comparison, path/winding selection, and
-the complete physical arrow remain open.
+nonintegrable normal bundle in 4D. Its completed follow-up,
+`udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, derives the metric-projected
+leafwise normal connection and representative-free closed-loop data on all six supplied strata.
+`lambda=-1` flatness and `lambda=0` Hopf-basicness are distinct and select neither branch. The new
+NEXT gate is the full path-labelled connection decomposition—vertical, horizontal, and mixed
+curvature plus global chart/finite-cell compatibility. Cross-leaf base-path choice and the
+complete physical arrow remain open.
 No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the

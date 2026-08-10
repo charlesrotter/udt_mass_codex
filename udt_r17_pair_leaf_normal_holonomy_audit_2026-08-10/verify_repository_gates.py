@@ -65,7 +65,7 @@ def main() -> None:
         text=True, capture_output=True, check=False, timeout=60,
     )
     match = re.search(r"PASS: (\d+) premise guards", premise.stdout)
-    assert premise.returncode == 0 and match and int(match.group(1)) == 47, premise.stdout + premise.stderr
+    assert premise.returncode == 0 and match and int(match.group(1)) == 48, premise.stdout + premise.stderr
 
     source_rows = table(HERE / "SOURCE_MANIFEST.tsv")
     assert len(source_rows) == 12
