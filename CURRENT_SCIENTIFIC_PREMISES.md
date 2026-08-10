@@ -271,10 +271,25 @@ not be additive, but any claimed physical signed reciprocal depth still requires
 cocycle-type realization on its properly typed query space. The pointwise `phi` and `X_max` guards
 remain unchanged.
 
-The next bounded gate is therefore the physical calibrated pair-map owner atlas: test candidate
-observer-tube/pair-surface constructions without selecting a desired branch. No action, source,
-matter, mass, CMB spectrum, signaling law, `X_max` value, universal `c_eff`, eigenvalue solve, FD2,
-or GPU work is derived or authorized.
+The calibrated observer-pair map owner atlas,
+`udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, now completes that bounded gate.
+Across six preregistered families and 66 non-merit atlas cells, the complete metric constructs a
+local orthogonal exponential pair tube after a full observer query, parameter calibration, and
+regular branch are supplied. The metric plus bare ordered endpoints does not select one universal
+pair map. Presentation-selected coframe planes additionally require a physical invariant split and
+Frobenius integrability. Stationary Killing-flow surfaces are conditional, and their Killing-norm
+depth equals the full terminal pair depth only when `T L=1`. Accelerated tubes remain query-family
+data, cut loci return branch-labelled relations, and separately rebuilt tapes need an owned middle
+calibration transition before their signed depths compose.
+
+The terminal reciprocal-`c_E` evaluator therefore survives unchanged. The smallest open joint is
+the physical calibrated pair-relation functor: the precise founding ownership of observer-query
+semantics, event pairing, branch relation, and carried middle-state update. Do not promote the
+local exponential positive result into a universal tape, treat an arbitrary coframe plane as
+metric-owned, postselect a cut-locus branch, or call the unowned reciprocal reset a common-scale
+gauge automatically removed by `c_E`. No action, source, matter, mass, CMB spectrum, signaling law,
+`X_max` value, universal mixed-geometry `c_eff`, eigenvalue solve, FD2, or GPU work is derived or
+authorized.
 
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

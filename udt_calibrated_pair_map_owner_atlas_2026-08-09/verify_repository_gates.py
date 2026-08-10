@@ -38,6 +38,7 @@ STARTUP = (
     "research/_registry/README.md",
 )
 ALLOWED_DIRTY_CONTROLS = {
+    "AGENTS.md",
     "LIVE.md",
     "HANDOFF.md",
     "INDEX.md",

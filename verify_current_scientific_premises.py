@@ -89,6 +89,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
             "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
             "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
@@ -132,6 +133,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
             "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
             "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
@@ -158,6 +160,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
         "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
         "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
         "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
@@ -178,9 +181,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 37, "premise registry must contain exactly 37 rows")
+    require(len(rows) == 38, "premise registry must contain exactly 38 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 37, "duplicate premise id")
+    require(len(by_id) == 38, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -439,6 +442,28 @@ def main() -> None:
         == "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
         "terminal pair-metric readout source changed",
     )
+    require(
+        by_id["G38"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__LOCAL_ORTHOGONAL_EXPONENTIAL_TUBE_DERIVED_FROM_METRIC_AND_FULL_DECLARED_QUERY__NO_UNIQUE_UNIVERSAL_PAIR_MAP_FROM_BARE_ENDPOINTS__PHYSICAL_CALIBRATED_PAIR_RELATION_FUNCTOR_OPEN",
+        "pair-map owner atlas status changed",
+    )
+    require(by_id["G38"]["epistemic_label"] == "MIXED", "pair-map atlas label changed")
+    require(
+        by_id["G38"]["active_use"]
+        == "ACTIVE_PAIR_MAP_OWNERSHIP_AND_NEXT_FUNCTOR_ROUTING_GATE_ONLY",
+        "pair-map atlas use changed",
+    )
+    require("event pairing" in by_id["G38"]["open_scope"], "event pairing selected")
+    require("middle calibration-state update" in by_id["G38"]["open_scope"], "middle update selected")
+    require("branch-labelled global relation" in by_id["G38"]["open_scope"], "global branch selected")
+    require("local exponential tube called universally selected" in by_id["G38"]["forbidden_regression"], "local-to-global guard absent")
+    require("Killing norm called terminal pair depth without TL=1" in by_id["G38"]["forbidden_regression"], "stationary join guard absent")
+    require("reciprocal reset called common-scale gauge" in by_id["G38"]["forbidden_regression"], "reset guard absent")
+    require(
+        by_id["G38"]["controlling_source"]
+        == "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
+        "pair-map owner atlas source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -511,7 +536,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 37 premise guards, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 38 premise guards, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

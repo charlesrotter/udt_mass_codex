@@ -2,7 +2,7 @@
 
 Date: 2026-08-09
 Mode: metric-led, exact analytic/CPU
-Current grade: **VERIFIED-WITH-CAVEATS pending fresh external semantic review**
+Current grade: **VERIFIED-WITH-CAVEATS**
 
 ## 1. What this audit does and does not ask
 
@@ -290,4 +290,6 @@ Independent standard-library implementation:
 python3 udt_calibrated_pair_map_owner_atlas_2026-08-09/verify_pair_map_owner_atlas_independent.py
 ```
 
-Current results: 67/67 exact-controller checks and 45/45 independent checks pass.
+Current results: 67/67 exact-controller checks and 45/45 independent checks pass. A fresh
+read-only gpt-5.4 review independently reran both controllers, accepted the bounded landing, and
+required no load-bearing correction. See `EXTERNAL_REVIEW.md`.

@@ -1,7 +1,7 @@
 # Audit report — calibrated observer-pair map owner atlas
 
 Date: 2026-08-09
-Status: **VERIFIED-WITH-CAVEATS pending fresh external semantic review**
+Status: **VERIFIED-WITH-CAVEATS**
 
 ## Result
 
@@ -33,6 +33,7 @@ formula for `phi`.
 - exact controller: 67/67 passed;
 - independent standard-library verifier: 45/45 passed;
 - source identities replayed: 20/20 in each implementation.
+- external gpt-5.4 review: `VERIFIED_WITH_CAVEATS`, no load-bearing correction.
 
 See `PAIR_MAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `DERIVATION_RESULT.json`, and
 `INDEPENDENT_VERIFICATION_RESULT.json`.
@@ -42,10 +43,12 @@ See `PAIR_MAP_ATLAS.tsv`, `EXACT_DERIVATION.md`, `DERIVATION_RESULT.json`, and
 1. **Preregistered:** yes, committed at `7851b445` before the atlas was populated.
 2. **Full space or bounded scope justified:** yes for the frozen six-family/eleven-axis arena; no
    claim is made that it exhausts every conceivable pair relation.
-3. **Independently verified:** exact finite claims have a stdlib implementation; fresh external
-   semantic review is still pending before final banking.
-4. **Every premise audited:** yes within the preregistered premise ledger; external review may add
-   wording or type caveats.
+3. **Independently verified:** yes; exact finite claims have a stdlib implementation and a fresh
+   external gpt-5.4 reviewer independently reran both controllers and accepted the landing. Its
+   inability to rerun the repository-gate pytest in a read-only sandbox is covered by the local
+   clean-environment repository gate recorded in `REPOSITORY_GATES.json`.
+4. **Every premise audited:** yes within the preregistered premise ledger; the external reviewer
+   found no hidden type or premise promotion.
 
 ## Not concluded
 

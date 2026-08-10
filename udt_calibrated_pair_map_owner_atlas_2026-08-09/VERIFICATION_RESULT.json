@@ -1,0 +1,31 @@
+{
+  "external_review": {
+    "grade": "VERIFIED_WITH_CAVEATS",
+    "load_bearing_corrections": 0,
+    "model": "gpt-5.4",
+    "reviewed_commit": "a03ef918",
+    "sandbox": "read-only",
+    "web": "disabled"
+  },
+  "independent_controller": {
+    "checks_failed": 0,
+    "checks_passed": 45,
+    "checks_total": 45
+  },
+  "primary_controller": {
+    "atlas_cells": 66,
+    "checks_failed": 0,
+    "checks_passed": 67,
+    "checks_total": 67,
+    "source_identities": 20
+  },
+  "repository_gates": {
+    "frozen_manifests": 6,
+    "frozen_package_paths": 133,
+    "premise_guards": 38,
+    "pytest": "85 passed, 1 xfailed",
+    "status": "PASS"
+  },
+  "schema": "udt-calibrated-pair-map-owner-atlas-verification-v1",
+  "status": "VERIFIED_WITH_CAVEATS"
+}
