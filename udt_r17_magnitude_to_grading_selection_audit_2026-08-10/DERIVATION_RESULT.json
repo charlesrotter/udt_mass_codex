@@ -1,0 +1,60 @@
+{
+  "complete_coframe_realization_gate_used": true,
+  "complete_coframe_realization_status": "CONDITIONAL_BRANCH_CONFIGURATION_INPUT",
+  "complete_metric_class": "screen generator lambda*I+w*J; w is SO(2) presentation freedom",
+  "density_witness": {
+    "Q": "16",
+    "rho1": "1/4",
+    "rho2": "1"
+  },
+  "downstream_physics_derived": [],
+  "exact_check_count": 16,
+  "exact_checks": {
+    "arbitrary_screen_weight_changes_complete_metric": true,
+    "coincidence": true,
+    "composition": true,
+    "endpoint_quotient": true,
+    "exponential_equals_complete_factor": true,
+    "grading_degeneracies_exact": true,
+    "pair_normalization_independent_of_screen_weight": true,
+    "projector_triple_stabilizer_dimension_one": true,
+    "reversal": true,
+    "screen_generator_is_lambda_I_plus_rotation": true,
+    "screen_rotation_commutes_with_lift": true,
+    "screen_rotation_is_isometric": true,
+    "screen_rotation_leaves_metric_scaling": true,
+    "supplied_lambda_reproduces_complete_metric": true,
+    "terminal_density_witness": true,
+    "zero_fails_nonzero_founded_depth": true
+  },
+  "founding_pair_alone_fixes_screen": false,
+  "full_semidirect_assembly_selected": false,
+  "grading_stabilizer_dimensions": {
+    "-1": 3,
+    "-2": 1,
+    "0": 1,
+    "1": 3,
+    "1/2": 1,
+    "2": 1
+  },
+  "intrinsic_endpoint_reset_selected": false,
+  "lambda_selected_across_family": false,
+  "lambda_values": [
+    "-2",
+    "-1",
+    "0",
+    "1/2",
+    "1",
+    "2"
+  ],
+  "metric_vertical_factor_unique_modulo_screen_rotation": true,
+  "pair_only_class": "clock/ruler weights fixed; screen generator remains free",
+  "pair_surface_selected": false,
+  "physical_path_or_isometric_factor_selected": false,
+  "primary_landing": "COMPLETE_COFRAME_CONDITIONAL_VERTICAL_RECIPROCAL_METRIC_CLASS_MOD_SO2__FULL_PHYSICAL_ARROW_OPEN",
+  "projector_triple_stabilizer_dimension": 1,
+  "raw_arrow_uniqueness": false,
+  "scope": "R17/W01 C01-C06 regular global off-shell configurations",
+  "universal_mixed_ceff_selected": false,
+  "zero_lift_is_a_depth_realization": false
+}

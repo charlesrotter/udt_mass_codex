@@ -6,7 +6,7 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; magnitude-owner census VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 vertical reciprocal metric class VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
@@ -227,11 +227,24 @@ law is present. The first external review found a real manifest/replay type fail
 preregistered Git-free correction, the fresh review returned
 `ACCEPT_BRANCH_CONDITIONAL_OWNER_ONLY`.
 
-**NEXT GATE (not launched):** test R17's magnitude-to-grading selection joint: whether the founding
-reciprocal postulates plus its owned `delta_K`, intrinsic `X_lambda`, complete coframe, and
-path-labelled bitorsor require `exp[delta_K X_lambda]`, or leave zero and other nonzero lifts
-compatible. Do not assume the R17 semidirect assembly, physical path/query, pair surface, reset,
-`delta_RF`, bootstrap, or universal mixed-geometry `c_eff`. No eigenvalue solve is authorized.
+**R17 MAGNITUDE-TO-GRADING SELECTION AUDIT — COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` first. Founding
+Reciprocity fixes the clock/ruler weights for nonzero branch-owned `delta_K`; identity is not a
+nonzero-depth realization. Pair-only structure leaves the screen response open. Conditional on
+each supplied complete off-shell R17/W01 C01--C06 coframe, exact complete-metric reproduction fixes
+the projector-preserving vertical reciprocal metric class to
+`exp(delta_K X_lambda)` modulo the already classified continuous `SO(2)` screen rotation. The six
+supplied `lambda` values remain unselected. Fresh manifest-confined external review replayed all 17
+sources and returned `ACCEPT_ONLY_AS_COMPLETE_COFRAME_CONDITIONAL`. This does not select R17, put
+the configurations on shell, or supply the physical path/query, isometric carry,
+carried-to-intrinsic reset, integrated pair surface, semidirect physical arrow, universal mixed
+`c_eff`, or dynamics. G42's ownership demotion remains in force.
+
+**NEXT GATE (not launched):** determine whether any already-owned R17 integrability or
+relation-family condition turns the now-fixed conditional vertical factor plus the path-labelled
+alignment bitorsor into a physical pair-surface family. Do not select a path, reset, branch,
+`lambda`, semidirect assembly, bootstrap law, or universal mixed-geometry `c_eff`. R18 ruler
+completion remains the parallel fork. No eigenvalue solve is authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.

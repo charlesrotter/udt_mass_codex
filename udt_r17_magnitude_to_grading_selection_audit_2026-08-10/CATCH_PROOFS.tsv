@@ -1,0 +1,14 @@
+catch_id	mutation	expected	observed
+C01	call identity a nonzero-depth lift	REJECT	REJECT
+C02	claim raw-arrow uniqueness	REJECT	REJECT
+C03	drop complete-coframe realization gate	REJECT	REJECT
+C04	claim founding pair fixes screen	REJECT	REJECT
+C05	select lambda across C01-C06	REJECT	REJECT
+C06	promote full semidirect assembly	REJECT	REJECT
+C07	select physical path or isometry	REJECT	REJECT
+C08	set endpoint reset to identity	REJECT	REJECT
+C09	promote linear lift to pair surface	REJECT	REJECT
+C10	promote mixed c_eff universally	REJECT	REJECT
+C11	generalize beyond R17 C01-C06	REJECT	REJECT
+C12	infer downstream action	REJECT	REJECT
+C13	erase complete-coframe conditionality	REJECT	REJECT

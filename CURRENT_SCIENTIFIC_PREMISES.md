@@ -350,6 +350,19 @@ dynamics/bootstrap magnitude law is present. The first external review correctly
 manifest/replay `TYPE_FAILURE`; the corrected Git-free, read-only, manifest-confined package passed
 17/17 catch proofs and the fresh review returned `ACCEPT_BRANCH_CONDITIONAL_OWNER_ONLY`.
 
+The R17 magnitude-to-grading selection audit,
+`udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, now closes the next
+bounded joint. The founding reciprocal character fixes the clock/ruler weights for supplied
+nonzero branch depth, so identity is not a second realization of that same nonzero depth. Pair-only
+Reciprocity leaves the screen response open. Conditional on each supplied complete off-shell
+R17/W01 C01--C06 coframe, exact reproduction of its complete metric fixes the
+projector-preserving vertical reciprocal metric class to `exp(delta_K X_lambda)` modulo continuous
+`SO(2)` screen rotation. The raw coframe factor, `lambda`, branch, path/query, isometric carry,
+carried-to-intrinsic reset, integrated pair surface, and full physical semidirect arrow are not
+selected. The corrected 17-source sealed review replayed the 16/16 primary and 12/12 independent
+checks and returned `ACCEPT_ONLY_AS_COMPLETE_COFRAME_CONDITIONAL`. This refines G45 but does not
+reverse G42's physical-ownership demotion.
+
 Do not
 promote the conditional
 local query enrichment into a universally founded physical functor, call ordering a unique arrow,
@@ -357,7 +370,8 @@ claim that `c_E` removes a reciprocal middle reset, identify Levi-Civita path tr
 physical depth, promote the R17 semidirect assembly to branch ownership, identify carried and
 rebuilt endpoint gradings, demand one metric-selected screen phase, call the double-coset shadow a
 group, erase path labels, promote projector alignment to calibration-density alignment, or demand
-zero holonomy. No action, source, matter, mass, CMB spectrum, signaling
+zero holonomy. Do not call the conditional vertical metric class a selected physical arrow or claim
+that pair-only Reciprocity fixes the screen response. No action, source, matter, mass, CMB spectrum, signaling
 law, `X_max` value, universal mixed-geometry `c_eff`, eigenvalue solve, FD2, or GPU work is derived
 or authorized.
 

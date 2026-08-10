@@ -3,9 +3,13 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`; its 24 by
-five census finds R17/R18 branch-conditional endpoint clock magnitudes but zero complete physical
-owners. R17's magnitude-to-grading selector is next. Its scalar-descent parent is
+gate is `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`; it conditionally
+fixes the R17 branch-internal vertical reciprocal metric class modulo `SO(2)` while leaving the
+physical arrow open. The next gate is R17 integrability/relation-family pair-surface ownership. Its
+magnitude-owner parent is
+`udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`; its 24 by five
+census finds R17/R18 branch-conditional endpoint clock magnitudes but zero complete physical
+owners. Its scalar-descent parent is
 `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, which derives
 screen-gauge descent and proves isometric alignment generates zero calibration. Its immediate
 projector parent is

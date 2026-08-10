@@ -157,9 +157,19 @@ owners, R17 and R18. R17's magnitude and intrinsic grading remain separately own
 unsoldered; R18 lacks a ruler completion. The corrected manifest-confined external review returned
 `ACCEPT_BRANCH_CONDITIONAL_OWNER_ONLY`.
 
-**NEXT GATE, not launched:** test whether R17's owned `delta_K` and `X_lambda` are forced to combine
-as the physical non-isometric reciprocal lift, without assuming the lift, pair surface, middle
-reset, physical path/query, bootstrap, or universal `c_eff`. C1 remains unselected; FD2/FD3/FD4,
+**R17 MAGNITUDE-TO-GRADING SELECTION AUDIT = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`. The founded nonzero
+clock/ruler character excludes identity as a nonzero-depth realization. Pair-only structure leaves
+the screen response open; conditional on each supplied complete off-shell C01--C06 coframe, the
+complete metric fixes the vertical reciprocal metric class to `exp(delta_K X_lambda)` modulo
+continuous `SO(2)` screen rotation. No `lambda`, branch, path/query, reset, pair surface, physical
+semidirect arrow, universal mixed `c_eff`, or dynamics is selected. Corrected external verdict:
+`ACCEPT_ONLY_AS_COMPLETE_COFRAME_CONDITIONAL`; G42 remains controlling for physical ownership.
+
+**NEXT GATE, not launched:** test whether already-owned R17 integrability or relation-family data
+turn the conditional vertical factor plus path-labelled alignment bitorsor into a physical
+pair-surface family, without assuming a path, reset, semidirect assembly, bootstrap law, or
+universal `c_eff`. R18 ruler completion remains the parallel fork. C1 remains unselected; FD2/FD3/FD4,
 RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu
 is `udt_freedata_inventory_MAP_2026-08-09.md`.
 

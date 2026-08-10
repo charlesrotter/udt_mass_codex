@@ -72,7 +72,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 45 premise guards" in result.stdout
+    assert "PASS: 46 premise guards" in result.stdout
 
 
 def test_catch_missing_current_magnitude_owner_route(tmp_path: Path) -> None:

@@ -54,8 +54,12 @@ reciprocal densities and conditional readouts descend through every regular bito
 isometric alignment generates zero calibration. The physical non-isometric magnitude owner remains
 open in that parent result. The completed follow-up
 `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md` finds only two
-branch-conditional endpoint clock magnitudes (R17/R18) and zero complete physical owners. The next
-gate is R17's magnitude-to-grading selector. No eigenvalue solve is authorized.
+branch-conditional endpoint clock magnitudes (R17/R18) and zero complete physical owners. The
+completed selector follow-up,
+`udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, fixes the R17
+branch-internal vertical reciprocal metric class modulo `SO(2)` conditional on each supplied
+complete C01--C06 coframe. It does not select the full physical arrow. Next is the bounded R17
+integrability/relation-family pair-surface test. No eigenvalue solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -64,7 +68,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
+5. `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -93,8 +98,10 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
+- `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` — current conditional
+  vertical-metric selection result and next integrability/pair-surface gate.
 - `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md` — current
-  magnitude-owner census and next R17 selector gate.
+  magnitude-owner census parent.
 - `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md` — current
   supplied-readout descent parent.
 - `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md` — immediate

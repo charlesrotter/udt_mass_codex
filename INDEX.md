@@ -61,7 +61,9 @@
    scalar-descent follow-up proves that supplied reciprocal readouts descend through the complete
    regular bitorsor and that isometric alignment generates zero calibration. The completed
    magnitude-owner census then finds branch-conditional clock magnitudes on R17 and R18 but zero
-   complete physical owners; the next bounded gate is R17's magnitude-to-grading selector. No
+   complete physical owners. The completed R17 selector audit fixes the branch-internal vertical
+   metric class modulo `SO(2)` only after supplying a complete C01--C06 coframe; the full physical
+   arrow remains open. The next bounded gate is R17 integrability/pair-surface ownership. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
@@ -74,10 +76,13 @@
 
 ## Current scientific routing
 
+- `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` — current gate:
+  founded nonzero depth fixes the clock/ruler weights; each supplied complete C01--C06 coframe fixes
+  the vertical reciprocal metric class modulo `SO(2)`. This is complete-coframe conditional, not a
+  selected physical arrow; next is the R17 integrability/relation-family pair-surface test.
 - `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md` — current gate:
   24 identities by five owner families, zero complete physical owners, and exactly two
-  branch-conditional endpoint clock magnitudes (R17/R18); next is R17's magnitude-to-grading
-  selector.
+  branch-conditional endpoint clock magnitudes (R17/R18); it is the immediate owner-census parent.
 - `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md` — current
   parent gate: supplied reciprocal densities/readouts descend through every regular C01--C06
   screen-gauge bitorsor with exact balanced telescoping; isometric alignment generates zero

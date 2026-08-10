@@ -54,8 +54,12 @@
 > regular reciprocal readouts descend through the full screen gauge, balanced telescoping is exact,
 > and every isometric alignment generates zero calibration. The magnitude-owner census is COMPLETE
 > at `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`: R17/R18 own
-> branch-conditional endpoint clock magnitudes, but there are zero complete physical owners. NEXT,
-> not launched, is R17's magnitude-to-grading selector; no
+> branch-conditional endpoint clock magnitudes, but there are zero complete physical owners. The
+> completed selector follow-up at
+> `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` conditionally fixes the
+> R17 vertical reciprocal metric class modulo `SO(2)` on each supplied C01--C06 coframe but does not
+> select the physical arrow. NEXT, not launched, is the bounded R17 integrability/relation-family
+> pair-surface test; no
 > profile repair, inner cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build

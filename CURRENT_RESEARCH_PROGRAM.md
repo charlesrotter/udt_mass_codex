@@ -83,8 +83,12 @@ reciprocal densities/readouts descend on every regular C01--C06 stratum, while i
 generates zero calibration. The magnitude-owner follow-up is complete at
 `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`: R17/R18 own
 branch-conditional endpoint clock magnitudes, but zero complete physical owners survive the
-24-by-five census. The new NEXT gate is R17's magnitude-to-grading selector—whether its owned
-`delta_K` and `X_lambda` must combine as the physical lift or remain separate lawful ingredients.
+24-by-five census. Its completed follow-up is
+`udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`: on each supplied complete
+off-shell C01--C06 coframe, the vertical reciprocal metric class is fixed to
+`exp[delta_K X_lambda]` modulo `SO(2)`, but no physical cross-fibre arrow is selected. The new NEXT
+gate is whether already-owned R17 integrability or relation-family data produce a physical
+pair-surface family from that conditional vertical factor and the alignment bitorsor.
 No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the

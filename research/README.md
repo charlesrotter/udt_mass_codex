@@ -54,8 +54,12 @@ bitorsor and exact balanced projector composition without selecting a screen pha
 scalar-descent audit proves that supplied reciprocal densities/readouts descend through the full
 regular screen gauge and that isometric alignment generates zero calibration. Its follow-up
 `../udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md` finds R17/R18
-branch-conditional endpoint clock magnitudes but zero complete physical owners. R17's
-magnitude-to-grading selector is the next bounded gate. Parent source:
+branch-conditional endpoint clock magnitudes but zero complete physical owners. Its completed
+selector follow-up,
+`../udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, fixes the
+branch-internal R17 vertical reciprocal metric class modulo `SO(2)` only after supplying a complete
+C01--C06 coframe. The physical arrow remains open; next is the bounded R17
+integrability/relation-family pair-surface test. Parent source:
 `../udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. No eigensolve, profile
 repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a
