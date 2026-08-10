@@ -1,7 +1,8 @@
 # Next justified step
 
-Do not promote the flat roots or the integer descent comb into a physical selector. Existing R17
-equations own none of them, and the actual C01--C06 witnesses occupy the generic full-`SO(2)` class.
+Do not promote the flat roots or the integer descent comb into a physical selector. The manifest-
+backed current authority and included core R17 sources select none of them, and the actual C01--C06
+witnesses occupy the generic full-`SO(2)` class.
 
 The next bounded metric-led question, if authorized, is therefore generic rather than special-locus
 seeking:

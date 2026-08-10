@@ -60,7 +60,7 @@ classifies the options; it does not choose one.
    `lambda` strata on `R x S3`, plus the two registered controls; time-live, null, rank-changing,
    and other branches excluded.
 3. **Independently verified:** production SymPy derivation plus independent standard-library
-   calculus and bisection, 16/16 checks; package verifier 24/24; 12/12 mutations rejected. Fresh
+   calculus and bisection, 16/16 checks; package verifier 26/26; 12/12 mutations rejected. Fresh
    external gpt-5.4 review independently reproduced the algebra and root census and returned
    `VERIFIED_WITH_CORRECTIONS`; its ownership-scope correction is incorporated above.
 4. **Premises audited:** yes. The coframe and connection are supplied conditional R17 geometry;
