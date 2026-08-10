@@ -27,12 +27,14 @@ calibration realization remain open. The solder audit is now complete at
 `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`: the calibration density
 line and regular pair directions are available, but canonical local metric transport gives zero
 depth and no universal nonzero order-zero/first-jet solder exists. The stationary Killing ratio is
-a conditional positive prototype. The next controlling layer is
+a conditional positive prototype. The terminal readout layer is
 `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`: a supplied regular
 A-calibrated pair metric has an exact reciprocal clock/ruler log-imbalance readout, with complete
-angular/mixing structure entering its pullback metric first. The physical pair-map and calibration
-owner remain open, so the mixed-geometry physical `c_eff` is conditional. NEXT is a calibrated
-pair-map owner atlas; no eigenvalue solve is authorized.
+angular/mixing structure entering its pullback metric first. Its upstream owner atlas is complete
+at `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`: a local orthogonal exponential
+tube follows from a full declared observer query and regular branch, but no universal pair map
+follows from bare endpoints. The physical calibrated pair-relation functor remains open; no
+eigenvalue solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -41,7 +43,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
+5. `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
+   `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
@@ -62,6 +65,9 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
+- `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` — current pair-map owner gate:
+  local metric-natural tube after a full query and branch; physical calibrated pair-relation
+  functor still open.
 - `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md` — current
   terminal readout gate: exact reciprocal log imbalance on a supplied fixed calibrated pair metric;
   physical pair-map/calibration owner and universal mixed-geometry `c_eff` remain open.

@@ -4,11 +4,16 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; terminal pair-metric readout complete)
+## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; pair-map owner atlas complete)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`: six pair-map families and all 66
+registered cells are classified. The metric supplies a local orthogonal exponential tube after a
+full declared observer query and regular branch, but no universal tape from bare endpoints. The
+physical calibrated pair-relation functor—event pairing, branch relation, and carried middle-state
+update—remains open. Its terminal evaluator parent is
 `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`: on a supplied
 regular A-calibrated pair metric the exact clock/ruler/shift decomposition uniquely returns the
 reciprocal log imbalance within that fixed calibration. Supplied complete Jacobians show
@@ -46,9 +51,9 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is a calibrated pair-map owner atlas, including the already banked
-complete-branch unnormalized lines/density states as candidates, without inventing a connection or
-privileging a desired branch. No profile repair, inner cutoff, eigenvalue solve, or FD2 is
+Nothing is in flight. NEXT is the bounded founding-query ownership audit for the calibrated
+pair-relation functor, without inventing a preferred congruence, connection, action, or new scalar
+field. No profile repair, inner cutoff, eigenvalue solve, or FD2 is
 authorized. Do not promote C1, select `k0`, select the best standalone ladder, or invent source
 weights.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, but its FD1-first route is

@@ -143,11 +143,21 @@ profile. The external gpt-5.4 review reproduced 75/75 symbolic and 55/55 indepen
 required those caveats. Any physical signed depth still needs an owned cocycle-type composition on
 its properly typed query space.
 
-**NEXT GATE (not launched):** classify candidate physical calibrated pair maps—orthogonal
-exponential/Fermi observer tubes, complete-coframe-distribution pair maps, stationary Killing
-controls, accelerated tubes, cut-locus branches, and third-observer composition—without selecting
-a desired branch. This subsumes the earlier complete-branch calibration-owner atlas as one input,
-not a separate scalar-state search. No eigenvalue solve is presently authorized.
+**CALIBRATED OBSERVER-PAIR MAP OWNER ATLAS — COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` first. All six preregistered
+families and 66 non-merit cells are classified. The metric constructs a local orthogonal
+exponential tube after a full observer query, calibration, and regular branch are supplied, but
+bare ordered endpoints do not select one universal tape. Arbitrary coframe planes require a
+physical split plus Frobenius integrability; Killing-norm depth equals terminal pair depth only
+when `T L=1`; accelerated tubes remain query families; cut loci return branch-labelled relations;
+and separately rebuilt tapes need an owned middle calibration transition. External gpt-5.4 review
+required no load-bearing correction.
+
+**NEXT GATE (not launched):** determine whether the two founding postulates already own the typed
+calibrated observer-pair relation functor—observer-query semantics, event pairing, branch relation,
+and associative middle-state carry—or whether that object is a conditional query enrichment. Do
+not invent a preferred congruence, connection, action, or new scalar field. No eigenvalue solve is
+presently authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
@@ -206,6 +216,7 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
+`udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` →
 `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md` →
 `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md` →
 `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md` →

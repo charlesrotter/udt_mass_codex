@@ -94,11 +94,18 @@ calibration-state owner, universal mixed-geometry `c_eff`, signed composition, e
 selection, or `X_max` profile. External gpt-5.4 review reproduced 75/75 symbolic and 55/55
 independent checks and returned `VERIFIED-WITH-CAVEATS`.
 
-**NEXT GATE, not launched:** classify the physical calibrated pair-map candidates and their full
-pullback metrics, including the already-banked complete-branch owner candidates. Do not invent a
-tangent connection or privilege a desired universe. C1 remains unselected; FD2/FD3/FD4, RA1-V,
-GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu is
-`udt_freedata_inventory_MAP_2026-08-09.md`.
+**CALIBRATED OBSERVER-PAIR MAP OWNER ATLAS = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` first. Six families and all 66
+cells are classified without merit filtering. A local orthogonal exponential tube follows from
+the metric plus a full declared query and regular branch; no universal tape follows from bare
+endpoints. Coframe-plane, stationary, accelerated, cut-locus, and third-observer cases retain their
+exact conditional or branch-valued scopes. External review found no load-bearing correction.
+
+**NEXT GATE, not launched:** audit whether the founding ordered-observer semantics own the complete
+calibrated pair-relation functor, including event pairing, branch relations, and carried middle
+calibration. Do not invent a tangent connection or privilege a desired universe. C1 remains
+unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization
+remain gated. The parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:
 DESI LCDM-free feature detected + audited; BOSS out-of-sample (single-ruler FAILS 0/9, F-RETRO

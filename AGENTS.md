@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** First read
+   `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
@@ -61,9 +62,10 @@ do not dump whole long files or recursively open cited evidence during orientati
    audit derives the associated calibration line, conditionally constructs regular pair directions,
    proves canonical local metric transport has zero depth, and leaves the general physical state
    bilocal/global/branch/dynamical. The terminal pair-metric audit derives the unique reciprocal
-   log imbalance only on a supplied regular A-calibrated pair metric and leaves the physical pair
-   map, calibration owner, universal mixed-geometry `c_eff`, and `X_max` profile open. NEXT is the
-   calibrated pair-map owner atlas. No profile
+   log imbalance only on a supplied regular A-calibrated pair metric. The completed pair-map atlas
+   derives a local orthogonal exponential tube from the metric plus a full declared query and
+   regular branch, but finds no universal pair map from bare endpoints. The physical calibrated
+   pair-relation functor—event pairing, branch relation, and middle-state carry—remains open. No profile
    repair, inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;

@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION. Read
+   `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
@@ -37,8 +38,10 @@
    now `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`: on a supplied
    regular A-calibrated pair metric the reciprocal log imbalance is uniquely determined within
    that fixed calibration, with angular/mixing structure entering before readout. The physical
-   pair-map/calibration owner and universal mixed-geometry `c_eff` remain open. NEXT is a calibrated
-   pair-map owner atlas; no eigensolve, profile repair, inner cutoff, or FD2. Then read
+   pair-map/calibration owner and universal mixed-geometry `c_eff` remain open. The completed owner
+   atlas derives a local tube from a full query and branch, not a universal tape from bare
+   endpoints; the calibrated pair-relation functor remains open. No eigensolve, profile repair,
+   inner cutoff, or FD2. Then read
    the parent menu
    `udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 remains `RA2-PARTIAL-WEAK`; BAO is
    BANKED + TABLED; the Assembly lane stays ARCHIVED-LEGACY.
@@ -49,6 +52,9 @@
 
 ## Current scientific routing
 
+- `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` — current owner gate: six
+  candidate families and 66 cells classified; local exponential tube conditional on full query;
+  physical calibrated pair-relation functor open.
 - `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md` — current terminal
   readout gate: exact reciprocal log imbalance on a supplied fixed calibrated pair metric; physical
   pair-map/calibration owner and universal mixed-geometry `c_eff` remain open.
