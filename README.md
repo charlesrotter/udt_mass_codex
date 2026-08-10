@@ -5,7 +5,11 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The active arc is **CMB PEAK OPTIMIZATION**. The full corrected FD1 atlas is banked at
+The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`: conditional on
+the supplied regular R17 C01--C06 coframes, the intrinsic pair plane forms global
+`R x S1` Hopf-cylinder leaves and returns same-leaf `delta_K`; normal carry and the physical
+complete arrow remain open. The full corrected FD1 atlas is banked at
 `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`; the old same-index multiplet
 window is withdrawn. Its complete-angular interpretation is now controlled by
 `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`: the equatorial roots do not
@@ -58,8 +62,12 @@ branch-conditional endpoint clock magnitudes (R17/R18) and zero complete physica
 completed selector follow-up,
 `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, fixes the R17
 branch-internal vertical reciprocal metric class modulo `SO(2)` conditional on each supplied
-complete C01--C06 coframe. It does not select the full physical arrow. Next is the bounded R17
-integrability/relation-family pair-surface test. No eigenvalue solve is authorized.
+complete C01--C06 coframe. Its completed follow-up,
+`udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, derives the
+global `S2`-parametrized family of `R x S1` intrinsic pair leaves, their twisted determinant-`-1`
+metric, and same-leaf `delta_K`. It does not select normal carry, a cross-leaf comparison, or the
+full physical arrow. Next is the bounded normal-bundle connection/holonomy atlas. No eigenvalue
+solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -68,7 +76,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
+5. `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -98,8 +107,10 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
-- `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` — current conditional
-  vertical-metric selection result and next integrability/pair-surface gate.
+- `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md` — current
+  conditional global pair-foliation result and next normal-bundle connection/holonomy gate.
+- `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` — immediate
+  vertical-metric selection parent.
 - `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md` — current
   magnitude-owner census parent.
 - `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md` — current

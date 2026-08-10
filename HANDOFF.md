@@ -166,12 +166,22 @@ continuous `SO(2)` screen rotation. No `lambda`, branch, path/query, reset, pair
 semidirect arrow, universal mixed `c_eff`, or dynamics is selected. Corrected external verdict:
 `ACCEPT_ONLY_AS_COMPLETE_COFRAME_CONDITIONAL`; G42 remains controlling for physical ownership.
 
-**NEXT GATE, not launched:** test whether already-owned R17 integrability or relation-family data
-turn the conditional vertical factor plus path-labelled alignment bitorsor into a physical
-pair-surface family, without assuming a path, reset, semidirect assembly, bootstrap law, or
-universal `c_eff`. R18 ruler completion remains the parallel fork. C1 remains unselected; FD2/FD3/FD4,
-RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu
-is `udt_freedata_inventory_MAP_2026-08-09.md`.
+**R17 INTRINSIC PAIR FOLIATION = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`. On every supplied
+regular stationary C01--C06 coframe, the clock/ruler plane forms a global `S2`-parametrized family
+of `R x S1` Hopf-cylinder leaves. Their twisted induced metric has determinant `-1` and returns
+same-leaf depth `delta_K`. The angular plane is a nonintegrable normal bundle in 4D and the contact
+plane only on spatial `S3` slices. No leaf, winding, cross-leaf surface, normal carry, holonomy,
+reset, `lambda`, branch, or physical complete arrow is selected. External review accepted the
+bounded landing after the constructive-verifier and terminology repairs.
+
+**NEXT GATE, not launched:** derive and classify the metric-owned normal-bundle connection and
+holonomy along the derived pair leaves, including contractible/wound paths, Hopf-base and `phi`
+dependence, representative-free observables, cross-leaf horizontal-query requirements, and all six
+`lambda` strata. Do not select a path, winding, reset, semidirect physical arrow, bootstrap law, or
+universal `c_eff`. R18 ruler completion remains the parallel fork. C1 remains unselected;
+FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The
+parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:
 DESI LCDM-free feature detected + audited; BOSS out-of-sample (single-ruler FAILS 0/9, F-RETRO

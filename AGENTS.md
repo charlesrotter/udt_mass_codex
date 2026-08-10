@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION.** First read
+   `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -90,10 +91,11 @@ do not dump whole long files or recursively open cited evidence during orientati
    magnitudes, R17 and R18, but zero complete physical owners. The R17 selector follow-up then fixes
    the branch-internal vertical reciprocal metric class modulo `SO(2)` conditional on each supplied
    complete off-shell C01--C06 coframe. It does not select a physical cross-fibre arrow; R18 still
-   lacks a ruler completion.
-   Its controlling source is
-   `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`. The next gate is
-   bounded R17 integrability/relation-family pair-surface ownership, not another lift ansatz or
+   lacks a ruler completion. The R17 foliation follow-up then derives the global `S2`-parametrized
+   family of `R x S1` pair leaves, their complete twisted determinant-`-1` metric, and same-leaf
+   `delta_K`; its 4D angular plane remains a nonintegrable normal bundle. It does not select a leaf,
+   winding, cross-leaf comparison, normal carry, holonomy/reset, or physical complete arrow. The
+   next gate is the bounded R17 normal-bundle connection/holonomy atlas, not another lift ansatz or
    owner census. No profile repair,
    inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and

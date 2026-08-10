@@ -58,8 +58,11 @@
 > completed selector follow-up at
 > `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` conditionally fixes the
 > R17 vertical reciprocal metric class modulo `SO(2)` on each supplied C01--C06 coframe but does not
-> select the physical arrow. NEXT, not launched, is the bounded R17 integrability/relation-family
-> pair-surface test; no
+> select the physical arrow. The completed R17 foliation follow-up at
+> `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md` derives the
+> global `S2`-family of `R x S1` pair leaves, their twisted determinant-`-1` metric, and same-leaf
+> `delta_K`, while leaving the 4D angular plane as a nonintegrable normal bundle and normal carry
+> open. NEXT, not launched, is the bounded normal-bundle connection/holonomy atlas; no
 > profile repair, inner cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build

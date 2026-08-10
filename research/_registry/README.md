@@ -3,10 +3,13 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`; it conditionally
-fixes the R17 branch-internal vertical reciprocal metric class modulo `SO(2)` while leaving the
-physical arrow open. The next gate is R17 integrability/relation-family pair-surface ownership. Its
-magnitude-owner parent is
+gate is `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`; it
+derives the global `S2`-parametrized `R x S1` intrinsic pair-leaf family, the twisted
+determinant-`-1` leaf metric, and same-leaf `delta_K` on the supplied regular C01--C06 coframes,
+while leaving normal carry, cross-leaf comparison, and the physical arrow open. The next gate is
+the R17 normal-bundle connection/holonomy atlas. Its vertical-metric parent is
+`udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`; its magnitude-owner
+parent is
 `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`; its 24 by five
 census finds R17/R18 branch-conditional endpoint clock magnitudes but zero complete physical
 owners. Its scalar-descent parent is

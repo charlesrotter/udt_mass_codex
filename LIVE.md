@@ -6,7 +6,7 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 vertical reciprocal metric class VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 intrinsic pair foliation VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
@@ -240,11 +240,25 @@ the configurations on shell, or supply the physical path/query, isometric carry,
 carried-to-intrinsic reset, integrated pair surface, semidirect physical arrow, universal mixed
 `c_eff`, or dynamics. G42's ownership demotion remains in force.
 
-**NEXT GATE (not launched):** determine whether any already-owned R17 integrability or
-relation-family condition turns the now-fixed conditional vertical factor plus the path-labelled
-alignment bitorsor into a physical pair-surface family. Do not select a path, reset, branch,
-`lambda`, semidirect assembly, bootstrap law, or universal mixed-geometry `c_eff`. R18 ruler
-completion remains the parallel fork. No eigenvalue solve is authorized.
+**R17 INTRINSIC PAIR-FOLIATION AUDIT — COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md` first. On all six
+supplied smooth regular stationary C01--C06 coframes, the intrinsic clock/ruler plane integrates
+globally into an `S2`-parametrized family of `R x S1` Hopf cylinders. The complete induced leaf
+metric retains the twist, has determinant `-1`, and the normalized terminal reciprocal evaluator
+returns `phi`, hence same-leaf endpoint depth `delta_K=phi(q)-phi(p)`. In four dimensions the
+angular plane is a nonintegrable rank-two normal bundle; it is the contact plane only on each
+spatial `S3` slice. External review accepted this bounded landing after requiring a constructive
+72/72-check independent verifier and the dimensional terminology repair. No leaf, winding,
+cross-leaf surface, normal carry, holonomy/reset, branch, `lambda`, or physical complete observer
+arrow is selected.
+
+**NEXT GATE (not launched):** derive the metric's normal-bundle connection restricted to the
+derived pair leaves and classify its curvature/holonomy for contractible and wound paths, its
+Hopf-base and general stationary `phi`-derivative dependence, and every representative-free
+observable across all six `lambda` strata. Cross-leaf comparison remains a separate horizontal
+query. Do not select a path, winding, reset, branch, `lambda`, semidirect physical arrow, bootstrap
+law, or universal mixed-geometry `c_eff`. R18 ruler completion remains the parallel fork. No
+eigenvalue solve is authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
@@ -303,6 +317,8 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
+`udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md` →
+`udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` →
 `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md` →
 `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md` →
 `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` →

@@ -1,5 +1,5 @@
 {
-  "checked_markdown_links": 5,
+  "checked_markdown_links": 18,
   "current_paths": 1114,
   "frontier_resolved_targets": 101,
   "frontier_rows": 306,
@@ -7,7 +7,7 @@
   "frozen_manifest_members": 127,
   "frozen_manifests": 6,
   "frozen_package_paths": 133,
-  "premise_guards": 46,
+  "premise_guards": 47,
   "protected_atlas_contents_read": false,
   "pytest": "88 passed, 1 xfailed",
   "schema": "udt-r17-pair-foliation-repository-gates-v1",

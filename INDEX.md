@@ -10,6 +10,8 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -62,8 +64,10 @@
    regular bitorsor and that isometric alignment generates zero calibration. The completed
    magnitude-owner census then finds branch-conditional clock magnitudes on R17 and R18 but zero
    complete physical owners. The completed R17 selector audit fixes the branch-internal vertical
-   metric class modulo `SO(2)` only after supplying a complete C01--C06 coframe; the full physical
-   arrow remains open. The next bounded gate is R17 integrability/pair-surface ownership. No
+   metric class modulo `SO(2)` only after supplying a complete C01--C06 coframe. The completed R17
+   foliation audit then derives the global `S2`-family of `R x S1` pair leaves, their twisted
+   determinant-`-1` metric, and same-leaf `delta_K`, while leaving normal carry and the full
+   physical arrow open. The next bounded gate is the R17 normal-bundle connection/holonomy atlas. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
@@ -76,10 +80,16 @@
 
 ## Current scientific routing
 
-- `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` — current gate:
+- `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md` — current gate:
+  the supplied regular stationary R17 clock/ruler plane integrates globally into an
+  `S2`-parametrized family of `R x S1` Hopf cylinders; the leaf metric retains twist, has determinant
+  `-1`, and returns same-leaf `delta_K`. The 4D angular plane is a nonintegrable normal bundle.
+  Normal carry/holonomy, cross-leaf comparison, path/winding selection, and the physical complete
+  arrow remain open.
+- `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` — immediate parent:
   founded nonzero depth fixes the clock/ruler weights; each supplied complete C01--C06 coframe fixes
   the vertical reciprocal metric class modulo `SO(2)`. This is complete-coframe conditional, not a
-  selected physical arrow; next is the R17 integrability/relation-family pair-surface test.
+  selected physical arrow.
 - `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md` — current gate:
   24 identities by five owner families, zero complete physical owners, and exactly two
   branch-conditional endpoint clock magnitudes (R17/R18); it is the immediate owner-census parent.

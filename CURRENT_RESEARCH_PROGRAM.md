@@ -86,9 +86,13 @@ branch-conditional endpoint clock magnitudes, but zero complete physical owners 
 24-by-five census. Its completed follow-up is
 `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`: on each supplied complete
 off-shell C01--C06 coframe, the vertical reciprocal metric class is fixed to
-`exp[delta_K X_lambda]` modulo `SO(2)`, but no physical cross-fibre arrow is selected. The new NEXT
-gate is whether already-owned R17 integrability or relation-family data produce a physical
-pair-surface family from that conditional vertical factor and the alignment bitorsor.
+`exp[delta_K X_lambda]` modulo `SO(2)`, but no physical cross-fibre arrow is selected. Its completed
+follow-up, `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, derives
+the global `S2`-parametrized family of `R x S1` intrinsic pair leaves, the full twisted leaf metric
+with determinant `-1`, and same-leaf endpoint depth `delta_K`. The angular plane is a
+nonintegrable normal bundle in 4D. The new NEXT gate is the metric-owned normal-bundle
+connection/holonomy atlas along those leaves; cross-leaf comparison, path/winding selection, and
+the complete physical arrow remain open.
 No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the

@@ -363,6 +363,20 @@ selected. The corrected 17-source sealed review replayed the 16/16 primary and 1
 checks and returned `ACCEPT_ONLY_AS_COMPLETE_COFRAME_CONDITIONAL`. This refines G45 but does not
 reverse G42's physical-ownership demotion.
 
+The R17 intrinsic pair-foliation audit,
+`udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, closes the
+bounded pair-surface integrability gate positively. On every supplied smooth regular stationary
+R17/W01 C01--C06 coframe, the intrinsic clock/ruler plane integrates globally into an
+`S2`-parametrized family of `R x S1` Hopf cylinders. Their complete induced metric retains the
+twist, has determinant `-1`, and the normalized terminal reciprocal evaluator returns `phi`, so
+same-leaf endpoint depth is `delta_K=phi(q)-phi(p)`. In four dimensions the angular plane is a
+nonintegrable rank-two normal bundle; only on each spatial `S3` slice is it the contact plane
+`ker(sigma3)`. No leaf, winding, cross-leaf connecting surface, normal carry, holonomy/reset,
+branch, `lambda`, or complete physical observer arrow is selected. Fresh external review accepted
+this bounded landing after requiring a constructive independent verifier and the dimensional
+contact-language correction; those repairs now pass 72/72 exact independent checks and 14/14
+exercised catches.
+
 Do not
 promote the conditional
 local query enrichment into a universally founded physical functor, call ordering a unique arrow,
@@ -371,7 +385,10 @@ physical depth, promote the R17 semidirect assembly to branch ownership, identif
 rebuilt endpoint gradings, demand one metric-selected screen phase, call the double-coset shadow a
 group, erase path labels, promote projector alignment to calibration-density alignment, or demand
 zero holonomy. Do not call the conditional vertical metric class a selected physical arrow or claim
-that pair-only Reciprocity fixes the screen response. No action, source, matter, mass, CMB spectrum, signaling
+that pair-only Reciprocity fixes the screen response. Do not promote the R17 leaf family into one
+selected leaf, erase path/winding labels, call its 4D normal bundle a literal contact structure, or
+identify same-leaf endpoint depth with a universal cross-leaf observer map. No action, source,
+matter, mass, CMB spectrum, signaling
 law, `X_max` value, universal mixed-geometry `c_eff`, eigenvalue solve, FD2, or GPU work is derived
 or authorized.
 

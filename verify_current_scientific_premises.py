@@ -98,6 +98,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md",
@@ -149,6 +150,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md",
@@ -169,7 +171,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md"
+    latest = "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -186,6 +188,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md",
@@ -215,9 +218,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 46, "premise registry must contain exactly 46 rows")
+    require(len(rows) == 47, "premise registry must contain exactly 47 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 46, "duplicate premise id")
+    require(len(by_id) == 47, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -675,6 +678,27 @@ def main() -> None:
         "R17 selector source changed",
     )
     require("G46_REFINES_G45_BY_FIXING_THE_COMPLETE_COFRAME_CONDITIONAL_VERTICAL_METRIC_CLASS_MOD_SO2" in by_id["G46"]["precedence_rule"], "G45 R17 selector refinement absent")
+    require(
+        by_id["G47"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__GLOBAL_R_X_S1_INTRINSIC_PAIR_FOLIATION_ON_SUPPLIED_C01_C06__LEAF_METRIC_DET_MINUS1_AND_TERMINAL_PHI__4D_SCREEN_NONINTEGRABLE_NORMAL_BUNDLE__FULL_NORMAL_CARRY_AND_PHYSICAL_ARROW_OPEN",
+        "R17 pair-foliation status regressed or promoted",
+    )
+    require(by_id["G47"]["epistemic_label"] == "MIXED", "R17 pair-foliation label changed")
+    require(
+        by_id["G47"]["active_use"]
+        == "ACTIVE_R17_PAIR_SURFACE_CLOSURE_AND_NEXT_NORMAL_BUNDLE_HOLONOMY_GATE_ONLY",
+        "R17 pair-foliation use promoted",
+    )
+    require("cross-leaf common pair surface" in by_id["G47"]["open_scope"], "cross-leaf surface selected")
+    require("normal-bundle connection carry and holonomy" in by_id["G47"]["open_scope"], "normal carry promoted")
+    require("four-dimensional normal bundle called a literal contact structure" in by_id["G47"]["forbidden_regression"], "4D contact type guard absent")
+    require("endpoint scalar called a common cross-leaf pair surface" in by_id["G47"]["forbidden_regression"], "same-leaf depth promotion guard absent")
+    require(
+        by_id["G47"]["controlling_source"]
+        == "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md",
+        "R17 pair-foliation source changed",
+    )
+    require("G47_REFINES_G46_BY_CLOSING_THE_SUPPLIED_R17_PAIR_FOLIATION_AND_LEAF_DEPTH" in by_id["G47"]["precedence_rule"], "G46 pair-foliation refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -747,7 +771,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 46 premise guards, complete-coframe-conditional R17 vertical reciprocal metric class and next integrability/pair-surface gate, branch-conditional non-isometric magnitude ownership, reciprocal scalar/calibration bitorsor descent, carried/intrinsic alignment bitorsor, branch-transition ownership correction, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 47 premise guards, conditional R17 global pair foliation and same-leaf scalar depth with normal carry open, complete-coframe-conditional R17 vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal scalar/calibration bitorsor descent, carried/intrinsic alignment bitorsor, branch-transition ownership correction, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":
