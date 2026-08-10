@@ -192,10 +192,19 @@ path functor after a path is given, not a path selector or physical non-isometri
 No supplied `lambda` is generically completely flat or base-descended. Fresh external review
 independently reconstructed the algebra and returned `VERIFIED_AS_STATED` with no objection.
 
-**NEXT GATE, not launched:** classify the compatible stationary flat/base-basic/reduced-holonomy
-jet subloci and then test whether existing R17 equations or completion data own any of them. Do not
-select a path, leaf, winding, reset, branch, `lambda`, semidirect physical arrow, bootstrap law, or
-universal `c_eff`. R18 ruler completion remains the parallel fork. C1 remains unselected;
+**R17 STATIONARY SUBLOCUS AUDIT = COMPLETE, `VERIFIED-WITH-CAVEATS` after external correction.**
+Read `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`.
+Horizontality forces constant `phi`; constant-profile flat and integer-descent loci are explicit;
+canonical Hopf-tangent descent has no regular nonzero-twist solution; and complete holonomy is
+trivial or full `SO(2)`. Actual C01--C06 witnesses are generic full-`SO(2)`. No special locus is
+selected by the manifest-backed current authority and included core R17 sources. The repo-wide
+census is supporting local evidence only. External review accepted all mathematics and required
+that evidence-fence correction.
+
+**NEXT GATE, not launched:** classify the gauge-invariant joint endpoint-depth/path-holonomy data
+on generic full-`SO(2)` stationary R17 and test for a metric-owned composition law. Do not choose a
+path, leaf, winding, reset, branch, `lambda`, semidirect physical arrow, bootstrap law, or universal
+`c_eff`. R18 ruler completion remains the parallel fork. C1 remains unselected;
 FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The
 parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.
 

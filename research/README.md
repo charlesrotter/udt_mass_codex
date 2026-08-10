@@ -73,8 +73,12 @@ leafwise normal connection and representative-free loop data. Flat `lambda=-1` a
 `lambda=0` are distinct and unselected. Its completed follow-up,
 `../udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, derives the
 complete four-direction projected connection, all six curvature planes, and exact supplied-path
-isometric carry. Path choice, generic base descent, and the physical arrow remain open; next is the
-unbiased flat/base-basic/reduced-holonomy sublocus and ownership audit. Parent source:
+isometric carry. Its completed follow-up,
+`../udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, classifies
+the flat, integer-descent, canonical-Hopf, and complete-holonomy subloci. Actual C01--C06 witnesses
+are generic full-`SO(2)`, and no manifest-backed R17 authority selects a special locus. Path choice
+and the physical arrow remain open; next is the generic endpoint-depth/path-holonomy joint-
+invariant audit. Parent source:
 `../udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. No eigensolve, profile
 repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a

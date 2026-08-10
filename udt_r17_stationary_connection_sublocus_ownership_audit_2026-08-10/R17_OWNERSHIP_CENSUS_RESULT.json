@@ -1,0 +1,23 @@
+{
+  "alias_occurrences": 1459,
+  "base": "64b5319c1115589928317008548224600881b252",
+  "census_sha256": "c9760b3e9137de2e25e449fbb42b0a386a4984baa77e7b3c8167e1f893dfc673",
+  "current_authoritative_owner": "NONE",
+  "current_authoritative_status": "R17_ONSHELL_BRANCH_LAMBDA_PROFILE_SELECTION_OPEN",
+  "disposition_counts": {
+    "CURRENT_AUTHORITY_EXPLICITLY_LEAVES_R17_ONSHELL_AND_BRANCH_SELECTION_OPEN": 1,
+    "CURRENT_POINTER_OR_GUARD_NOT_AN_EQUATION_OWNER": 9,
+    "HISTORICAL_OR_REVIEW_REFERENCE_NOT_CURRENT_OWNER": 6,
+    "MENTIONS_EQUATION_OR_SELECTION_BUT_EXPLICITLY_OPEN_NEGATIVE_OR_OTHER_SCOPE": 46,
+    "PRIMARY_R17_EVIDENCE_EXPLICITLY_OFFSHELL_OR_NONSELECTING": 28,
+    "PRIMARY_R17_IMPLEMENTATION_OR_RECORD_NO_EQUATION_OWNER_CLAIM": 32,
+    "REFERENCE_ONLY_NO_OWNERSHIP_TERM": 138,
+    "TERM_HIT_REQUIRES_CONTEXT__NOT_CURRENT_R17_AUTHORITY": 16
+  },
+  "explicit_nonowner_occurrences": 1482,
+  "ownership_term_occurrences": 835,
+  "primary_alias_occurrences": 697,
+  "protected_prefix_excluded_unread": "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/",
+  "schema_version": 1,
+  "tracked_text_paths_with_r17_alias": 276
+}

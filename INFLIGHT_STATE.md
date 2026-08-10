@@ -71,9 +71,13 @@
 > Hopf-basicness are distinct and unselected. Its completed path-labelled follow-up at
 > `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md` derives the
 > complete projected normal connection, all six curvature planes, and exact isometric carry after
-> a path is supplied. No `lambda` is generically completely flat or base-descended. NEXT, not
-> launched, is the unbiased compatible stationary flat/base-basic/reduced-holonomy sublocus and
-> ownership audit; no
+> a path is supplied. No `lambda` is generically completely flat or base-descended. Its completed
+> sublocus follow-up at
+> `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md` derives
+> horizontality iff constant `phi`, explicit flat/integer-descent loci, no regular canonical Hopf-
+> tangent descent, and trivial/full-`SO(2)` complete holonomy. Actual C01--C06 remain generic full-
+> `SO(2)` and manifest-backed R17 sources select no special locus. NEXT, not launched, is the
+> generic endpoint-depth/path-holonomy joint-invariant and composition audit; no
 > profile repair, inner cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build

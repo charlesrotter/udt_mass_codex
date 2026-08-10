@@ -401,6 +401,19 @@ manifest-confined external review independently reconstructed the algebra and re
 `VERIFIED_AS_STATED` with no objection. Path selection, generic endpoint-only descent, ownership
 of special stationary jet subloci, and the physical non-isometric observer arrow remain open.
 
+The R17 stationary connection sublocus/ownership audit,
+`udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, closes that
+bounded classification gate. On the supplied regular stationary R17/W01 family on `R x S3`, full
+curvature horizontality is equivalent to constant `phi`. On that constant-profile locus,
+`B_lambda(x)=0` is complete flatness and integral `B_lambda(x)` is abstract parallel-quotient
+descent under the inherited `2 pi` Hopf period. Canonical Hopf-tangent descent has no regular
+nonzero-twist solution, and complete total-space holonomy is either trivial or full `SO(2)`. The
+actual nonconstant C01--C06 witnesses occupy the generic full-`SO(2)` class. No owner is shown by
+the manifest-backed current authority and included core R17 sources. The broader repository census
+is supporting local evidence, not an independently reviewed repo-wide ownership theorem. Do not
+promote a flat or integer-descent locus, erase the generic angular carry, claim the period was
+rederived, or generalize beyond the declared stationary regular completion.
+
 Do not
 promote the conditional
 local query enrichment into a universally founded physical functor, call ordering a unique arrow,

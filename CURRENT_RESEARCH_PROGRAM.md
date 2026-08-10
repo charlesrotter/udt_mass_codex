@@ -98,9 +98,13 @@ completed follow-up,
 `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, derives the
 complete projected normal connection in all four directions, all six curvature planes, and the
 exact isometric supplied-path functor. No supplied `lambda` is generically fully flat or
-base-descended. The new NEXT gate is the unbiased classification of compatible stationary
-flat/base-basic/reduced-holonomy jet subloci and whether existing R17 equations or completion data
-own any of them. Cross-leaf base-path choice and the complete physical arrow remain open.
+base-descended. Its completed follow-up,
+`udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, proves global
+horizontality iff constant `phi`, explicitly classifies flat and abstract descent loci, excludes
+regular canonical Hopf-tangent descent at nonzero twist, and leaves actual C01--C06 in the generic
+full-`SO(2)` class. Manifest-backed R17 sources select no special locus. The new NEXT gate is the
+generic joint invariant and composition structure of endpoint reciprocal depth plus path-labelled
+normal holonomy. Cross-leaf base-path choice and the complete physical arrow remain open.
 No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the

@@ -1,0 +1,46 @@
+{
+  "checks": {
+    "all_roots_flat": true,
+    "all_roots_regular": true,
+    "canonical_condition_degenerate": true,
+    "canonical_no_regular_solution": true,
+    "flat_equals_zero_vertical_coefficient": true,
+    "holonomy_dichotomy": true,
+    "lambda_minus2_minus1_zero_half_monotone": true,
+    "lambda_minus_one_compact_sign_closure": true,
+    "lambda_one_range": true,
+    "lambda_two_minimum_location": true,
+    "lambda_two_minimum_range": true,
+    "no_manifest_backed_source_selection": true,
+    "no_proper_reduced_holonomy": true,
+    "root_counts": true,
+    "root_values_independent": true,
+    "six_lambda_strata": true
+  },
+  "computed_roots": {
+    "-1": [
+      1.414299876484828
+    ],
+    "-2": [
+      1.2599856414089756
+    ],
+    "0": [
+      2.000122062862829
+    ],
+    "1": [],
+    "1/2": [
+      4.000122065656228
+    ],
+    "2": [
+      0.015879182838031955,
+      0.4995107618023483
+    ]
+  },
+  "failed": [],
+  "lambda_2_B_min": -22.633611485424034,
+  "method": "INDEPENDENT_STDLIB_CALCULUS_AND_BISECTION",
+  "passed": 16,
+  "schema_version": 1,
+  "status": "PASS",
+  "total": 16
+}

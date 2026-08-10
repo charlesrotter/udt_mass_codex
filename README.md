@@ -72,8 +72,11 @@ full physical arrow. Its completed follow-up,
 leafwise normal connection and representative-free loop data. Flat `lambda=-1` and Hopf-basic
 `lambda=0` are distinct and unselected. Its completed follow-up,
 `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, derives the
-complete connection/curvature decomposition and supplied-path functor. Next is an unbiased
-flat/base-basic/reduced-holonomy sublocus and ownership audit. No eigenvalue solve is authorized.
+complete connection/curvature decomposition and supplied-path functor. Its completed follow-up,
+`udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, classifies
+every stationary flat/descent/holonomy sublocus: actual C01--C06 witnesses remain generic full-
+`SO(2)` and no manifest-backed R17 source selects a special locus. Next is the generic endpoint-
+depth/path-holonomy joint-invariant audit. No eigenvalue solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -82,7 +85,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then
+5. `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then

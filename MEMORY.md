@@ -4,11 +4,18 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; R17 complete path connection verified)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; R17 stationary subloci verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`: on the
+supplied regular stationary R17 family, curvature horizontality holds iff `phi` is constant;
+constant-profile flat and integer-descent loci are explicit; canonical Hopf-tangent descent has no
+regular nonzero-twist solution; and complete holonomy is trivial or full `SO(2)`. The actual
+C01--C06 witnesses are generic full-`SO(2)`. No manifest-backed current/core R17 source selects a
+special locus; the broader repo census is supporting local evidence only. External review returned
+`VERIFIED_WITH_CORRECTIONS` and that evidence-fence correction is incorporated. Its parent is
 `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`: on every
 supplied smooth regular stationary C01--C06 coframe, projection of the metric connection onto the
 normal bundle gives the complete four-direction connection, all six curvature planes, and an
@@ -94,11 +101,10 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is the bounded unbiased classification of compatible stationary jet
-subloci where the complete normal connection is flat, base-basic, or reduced-holonomy, followed by
-an ownership test against existing R17 equations and global completion data. Keep local curvature,
-vertical/winding holonomy, base descent, branch/on-shell ownership, and the physical non-isometric
-arrow separate. Do not select a path, winding, reset, branch, semidirect physical arrow, action,
+Nothing is in flight. NEXT is the bounded generic full-`SO(2)` classification of joint endpoint
+reciprocal depth and path-labelled normal holonomy data, followed by a test for a metric-owned
+composition law. Keep path labels, holonomy, branch/on-shell ownership, and the physical non-
+isometric arrow separate. Do not select a path, winding, reset, branch, semidirect physical arrow, action,
 bootstrap law, or universal `c_eff`. No profile repair, inner
 cutoff, eigenvalue solve, or FD2 is
 authorized. Do not promote C1, select `k0`, select the best standalone ladder, or invent source

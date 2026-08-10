@@ -74,8 +74,13 @@
    ownership and the full physical arrow remain open. The completed path-labelled decomposition
    now derives the connection in all four directions and all six curvature planes, plus exact
    isometric carry for each supplied path. No `lambda` is generically completely flat or
-   base-descended. The next bounded gate is the unbiased flat/base-basic/reduced-holonomy sublocus
-   and ownership classification. No
+   base-descended. The completed stationary sublocus audit,
+   `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, proves
+   horizontality iff constant `phi`, gives the exact flat and integer-descent loci, excludes regular
+   nonzero-twist canonical Hopf-tangent descent, and classifies complete holonomy as trivial or full
+   `SO(2)`. The supplied C01--C06 witnesses are generic full-`SO(2)`; manifest-backed R17 authority
+   selects no special locus. Next is the generic endpoint-depth/path-holonomy joint-invariant and
+   composition audit. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu

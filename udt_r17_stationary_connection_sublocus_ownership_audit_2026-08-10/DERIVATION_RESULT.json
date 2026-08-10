@@ -1,0 +1,63 @@
+{
+  "B_lambda": "2-x**(1-lambda)+a**2*x**(-(1+lambda))",
+  "abstract_descent_integer_ranges_at_a_1_over_64": {
+    "-1": "all integers <=1; one root each",
+    "-2": "all integers <=1; one root each",
+    "0": "all integers <=1; one root each",
+    "1": "none",
+    "1/2": "all integers <=1; one root each",
+    "2": "integers -22 through 1; two roots each"
+  },
+  "abstract_parallel_quotient_descent": "PHI_CONSTANT_AND_B_LAMBDA_X_IN_Z",
+  "arena": "REGULAR_STATIONARY_R17_ON_R_TIMES_S3",
+  "c01_c06": "NONCONSTANT_OFFSHELL_WITNESSES__NOT_HORIZONTAL__NOT_FLAT__FULL_SO2_HOLONOMY",
+  "canonical_hopf_regular_result": "NONE_FOR_A_POSITIVE_BECAUSE_X_EQUALS_A_IS_SLICE_DEGENERACY",
+  "canonical_hopf_tangent_descent": "Eq(epsilon*(a**2/(x*x**lambda) - x/x**lambda + 2), 2*epsilon)",
+  "complete_flatness": "PHI_CONSTANT_AND_B_LAMBDA_X_ZERO",
+  "complete_holonomy": "TRIVIAL_ON_FLAT_ROOTS_ELSE_FULL_SO2",
+  "flat_equation": "x**2-2*x**(1+lambda)-a**2=0",
+  "flat_regular_root_counts_at_a_1_over_64": {
+    "-1": 1,
+    "-2": 1,
+    "0": 1,
+    "1": 0,
+    "1/2": 1,
+    "2": 2
+  },
+  "flat_regular_roots_at_a_1_over_64": {
+    "-1": [
+      "1.4142998764848280931"
+    ],
+    "-2": [
+      "1.2599856414089754427"
+    ],
+    "0": [
+      "2.0001220628628287590"
+    ],
+    "1": [],
+    "1/2": [
+      "4.0001220656562281564"
+    ],
+    "2": [
+      "0.015879182838031952992",
+      "0.49951076180234833994"
+    ]
+  },
+  "global_local_curvature_horizontal": "IFF_PHI_CONSTANT",
+  "lambda_2_B_min": "2 - 128*sqrt(3)/9",
+  "lambda_values": [
+    "-2",
+    "-1",
+    "0",
+    "1/2",
+    "1",
+    "2"
+  ],
+  "manifest_backed_r17_source_selection": false,
+  "primary_ruling": "STATIONARY_SPECIAL_SUBLOCUS_CLASSIFIED__GLOBAL_HORIZONTALITY_FORCES_CONSTANT_PHI__FLAT_AND_ABSTRACT_DESCENT_LOCUS_EXPLICIT__NO_REGULAR_CANONICAL_HOPF_TANGENT_DESCENT__MANIFEST_BACKED_R17_SOURCES_SELECT_NONE",
+  "proper_nontrivial_reduced_holonomy": false,
+  "regularity": "x=exp(2phi)>a",
+  "schema_version": 1,
+  "twist": "a>0; specialized roots use a=1/64",
+  "vertical_connection": "A_Z=epsilon*B_lambda(x)"
+}

@@ -6,7 +6,7 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 complete path-labelled normal connection VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 stationary connection subloci VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
@@ -280,12 +280,25 @@ neither. Fresh external `gpt-5.4` review independently reconstructed the connect
 and returned `VERIFIED_AS_STATED` with no objection. This is not the physical non-isometric
 observer arrow and does not produce an endpoint-only law.
 
-**NEXT GATE (not launched):** classify without preference the compatible stationary jet subloci
-where the complete normal connection is flat, base-basic, or has reduced holonomy, then test
-whether existing R17 equations or global completion data independently own any such sublocus.
-Keep local curvature reduction, vertical/winding holonomy, base descent, branch/on-shell ownership,
-and the physical non-isometric comparison separate. Do not select a path, leaf, winding, reset,
-branch, `lambda`, semidirect physical arrow, bootstrap law, or universal mixed-geometry `c_eff`.
+**R17 STATIONARY CONNECTION SUBLOCUS/OWNERSHIP AUDIT — COMPLETE,
+`VERIFIED-WITH-CAVEATS` after external correction.** Read
+`udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md` first. On the
+supplied regular stationary R17/W01 family on `R x S3`, curvature horizontality holds iff `phi` is
+constant. For constant `x=exp(2phi)>a`, flatness is exactly `B_lambda(x)=0`; abstract parallel
+quotient descent is `B_lambda(x)` integral under the inherited `2 pi` fiber period; canonical Hopf-
+tangent descent has no regular nonzero-twist solution; and complete holonomy is trivial on flat
+roots and otherwise full `SO(2)`. The six actual nonconstant C01--C06 witnesses occupy the generic
+full-`SO(2)` class. The manifest-backed current authority and included core R17 sources select no
+special locus. The broader repository census is supporting local evidence, not an independently
+reviewed repo-wide theorem. External `gpt-5.4` returned `VERIFIED_WITH_CORRECTIONS`; that evidence-
+fence correction is incorporated.
+
+**NEXT GATE (not launched):** on the generic full-`SO(2)` stationary R17 family, classify the
+gauge-invariant joint data formed by intrinsic endpoint reciprocal depth and path-labelled normal
+holonomy, and test whether the complete metric supplies a composition law between them without
+choosing a path, action, source, or desired endpoint rule. Do not promote a flat or integer-descent
+locus, select a leaf/winding/reset/branch/`lambda`, erase holonomy, or infer a semidirect physical
+arrow, bootstrap law, or universal mixed-geometry `c_eff`.
 R18 ruler completion remains the parallel fork. No eigenvalue solve is authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.

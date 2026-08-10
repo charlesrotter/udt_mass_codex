@@ -3,11 +3,13 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`; it
-derives the complete four-direction projected normal connection, all six curvature planes, and
-exact isometric carry after a path is supplied. Path choice, generic base descent, and the physical
-non-isometric arrow remain open. The next gate classifies flat/base-basic/reduced-holonomy
-stationary jet subloci and their ownership. Its leafwise connection parent is
+gate is `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`; it
+classifies the stationary flat, abstract descent, canonical Hopf, and complete-holonomy subloci.
+Actual C01--C06 witnesses remain generic full-`SO(2)`, and no manifest-backed R17 authority selects
+a special locus. Path choice and the physical non-isometric arrow remain open. The next gate is the
+generic endpoint-depth/path-holonomy joint-invariant and composition audit. Its complete-
+connection parent is `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`;
+its leafwise connection parent is
 `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`. Its foliation parent is
 `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`; its
 vertical-metric parent is

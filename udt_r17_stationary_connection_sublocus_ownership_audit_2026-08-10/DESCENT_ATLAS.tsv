@@ -1,0 +1,9 @@
+lambda	global_curvature_horizontal_on_RxS3	B_lambda_range_on_regular_x_greater_a_at_a_1_over_64	abstract_parallel_quotient_descent	flat_subset	canonical_Hopf_tangent_descent	selection_status
+-2	IFF_PHI_CONSTANT	(-infinity,2)	B_integer;every_integer_m_le_1_has_one_root	m=0_one_root	NONE_REGULAR__B=2_requires_x=a	NOT_SELECTED
+-1	IFF_PHI_CONSTANT__compact_subelliptic_sign_closes_exception	(-infinity,2)	B_integer;every_integer_m_le_1_has_one_root	m=0_one_root	NONE_REGULAR__B=2_requires_x=a	NOT_SELECTED
+0	IFF_PHI_CONSTANT	(-infinity,2)	B_integer;every_integer_m_le_1_has_one_root	m=0_one_root	NONE_REGULAR__B=2_requires_x=a	NOT_SELECTED
+1/2	IFF_PHI_CONSTANT	(-infinity,2)	B_integer;every_integer_m_le_1_has_one_root	m=0_one_root	NONE_REGULAR__B=2_requires_x=a	NOT_SELECTED
+1	IFF_PHI_CONSTANT	(1,2)	NONE	NONE	NONE_REGULAR__B=2_requires_x=a	NOT_SELECTED
+2	IFF_PHI_CONSTANT	[2-128*sqrt(3)/9,2)	B_integer;integers_-22_through_1_each_have_two_roots	m=0_two_roots	NONE_REGULAR__B=2_requires_x=a	NOT_SELECTED
+CONTROL_C07_a0_lambda0	IFF_PHI_CONSTANT	B=2-x	B_integer_on_constant_profiles	flat_at_x=2	canonical_condition_x=0_outside_positive_metric	NOT_SELECTED
+CONTROL_C08_phi0_lambda0	YES_CONSTANT_PROFILE	B=4097/4096	NO_NONTRIVIAL_VERTICAL_HOLONOMY	NO	NO	NOT_SELECTED
