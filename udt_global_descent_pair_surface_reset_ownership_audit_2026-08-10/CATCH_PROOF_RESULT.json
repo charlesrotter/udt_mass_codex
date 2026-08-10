@@ -1,0 +1,30 @@
+{
+  "exercised_guards": [
+    "missing cell",
+    "duplicate cell",
+    "R17 selector promotion",
+    "alignment bitorsor loss",
+    "R17 reset promotion",
+    "R17 D04 holonomy erasure",
+    "R17 D07 path independence",
+    "R17 pair foliation loss",
+    "R17 global leaf loss",
+    "R18 pair promotion",
+    "R18 terminal promotion",
+    "R18 scope widening",
+    "R23 reset promotion",
+    "R24 pair-density promotion",
+    "R24 member selection",
+    "R04 correction loss",
+    "physical regime insertion",
+    "universal no-go",
+    "protected citation",
+    "source removal",
+    "preregistration mutation",
+    "holonomy called defect",
+    "catch census"
+  ],
+  "rejected": 22,
+  "status": "PASS",
+  "total": 22
+}

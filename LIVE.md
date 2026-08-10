@@ -6,9 +6,23 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; MULTI-REGIME APPARATUS ATLAS VERIFIED; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; GLOBAL DESCENT SKELETON VERIFIED; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — MULTI-REGIME PAIR-RELATION ADMISSIBILITY COMPLETE,
+**LATEST GATE — GLOBAL DESCENT / PAIR-SURFACE / RESET OWNERSHIP COMPLETE,
+`VERIFIED-WITH-CORRECTIONS`.** Read
+`udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md` first. The full
+pinned 24-branch by ten-axis atlas has 240/240 cells. R17 now owns four exact links: a complete
+regular witness, the global `R x S1` Hopf-cylinder pair-foliation family, its recorded regular global
+completion, and the full path-labelled `SO(2)` projector-alignment bitorsor with balanced
+representative-free composition. It also owns lawful path transport/holonomy. R18 separately owns
+an exact clock-only middle-state and endpoint chain. External review corrected R17/D05 from OPEN to
+`OWNED_EXACT`; R17/D06 remains OPEN because one calibration-bearing representative and scalar reset
+are not selected. No branch owns the physical pair leaf/path/query, calibration reset, or complete
+pair/query/reset/terminal selector. Do not splice R18 into R17 or erase holonomy. NEXT: determine
+whether a native on-shell or time-live equation is already owned strongly enough to test these
+remaining links; if not, stop at a candidate-law map rather than inventing evolution.
+
+**PRECEDING GATE — MULTI-REGIME PAIR-RELATION ADMISSIBILITY COMPLETE,
 `VERIFIED-WITH-CORRECTIONS`.** Read
 `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md` first. The full
 pinned 24-branch by six-measurement atlas has 144/144 cells, ten ownership axes have 240/240 cells,
@@ -19,7 +33,8 @@ physical arrow, optional measurement selector, or physical regime map. External 
 exactly ten downgrades: aggregate R04 does not inherit its members' panels, so R04/M01-M05 and
 R04/A02-A06 are `INSUFFICIENT_EVIDENCE`; its bounded aggregate-type A09 row remains owned. NEXT:
 choose one genuinely information-bearing route—time-live/on-shell, global descent, bootstrap
-closure, or an explicit observer-query premise—without assigning physical regimes in advance.
+closure, or an explicit observer-query premise—without assigning physical regimes in advance. The
+global-descent option is now refined by the latest G56 gate above.
 Repeating the same pinned static census is not recommended, but that is a workflow inference, not
 a theorem about all static geometry.
 

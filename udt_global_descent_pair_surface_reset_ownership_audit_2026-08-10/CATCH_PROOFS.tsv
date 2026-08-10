@@ -1,0 +1,23 @@
+catch_id	mutant	required_rejection
+C01	remove one branch-axis cell	Cartesian coverage failure
+C02	duplicate one branch-axis cell	unique-cell failure
+C03	promote R17 D10 to OWNED_EXACT	complete-selector-owner failure
+C04	demote R17 D05 to OPEN_OWNER	owned alignment-bitorsor loss failure
+C05	promote R17 D06 to OWNED_EXACT	unowned-reset failure
+C06	change R17 D04 to OWNED_EXACT	holonomy-erasure failure
+C07	change R17 D07 to OWNED_EXACT	path-independence fabrication failure
+C08	change R17 D02 to OPEN_OWNER	global-pair-foliation loss failure
+C09	change R17 D03 to OPEN_OWNER	global-regular-leaf loss failure
+C10	promote R18 D02 to OWNED_EXACT	clock-only-to-pair promotion failure
+C11	promote R18 D09 to CONDITIONAL_AFTER_QUERY	missing-ruler terminal promotion failure
+C12	change R18 D06 to complete-pair wording	clock-only scope failure
+C13	promote R23 D06 to OWNED_EXACT	isometric-path-as-reset failure
+C14	promote R24 D09 to CONDITIONAL_AFTER_QUERY	set-projector-as-pair-density failure
+C15	change R24 D05 to OWNED_EXACT	set-member selection failure
+C16	change R04 D09 to CONDITIONAL_AFTER_QUERY	G55 aggregate correction failure
+C17	assign a physical regime label	no-regime-import failure
+C18	claim universal no-go	conclusion-ceiling failure
+C19	cite protected curvature atlas	protected-source failure
+C20	remove source identity	manifest completeness failure
+C21	change preregistered file	preregistration immutability failure
+C22	call path holonomy a defect	holonomy semantics failure

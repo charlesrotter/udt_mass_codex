@@ -1,0 +1,34 @@
+{
+  "axis_count": 10,
+  "branch_count": 24,
+  "cell_count": 240,
+  "complete_descent_selector_count": 0,
+  "disposition_counts": {
+    "CONDITIONAL_AFTER_QUERY": 15,
+    "INSUFFICIENT_EVIDENCE": 101,
+    "MEMBER_DEPENDENT": 14,
+    "OPEN_OWNER": 36,
+    "OWNED_EXACT": 16,
+    "PATH_LABELLED_HOLONOMY": 14,
+    "TYPE_INAPPLICABLE": 44
+  },
+  "landing": "NO_COMPLETE_DESCENT_SELECTOR_IN_PINNED_CORPUS",
+  "r17_open_links": [
+    "D06",
+    "D10"
+  ],
+  "r17_owned_links": [
+    "D01",
+    "D02",
+    "D03",
+    "D05"
+  ],
+  "r18_owned_links": [
+    "D01",
+    "D04",
+    "D05",
+    "D06",
+    "D07"
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,241 @@
+branch_id	stable_identity	axis_id	disposition	scope_caveat	evidence
+R01	FC01_BOUNDARY_BOUNDARY	D01	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S04::R01
+R01	FC01_BOUNDARY_BOUNDARY	D02	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R01
+R01	FC01_BOUNDARY_BOUNDARY	D03	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R01
+R01	FC01_BOUNDARY_BOUNDARY	D04	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R01;S08::R01
+R01	FC01_BOUNDARY_BOUNDARY	D05	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R01;S08::R01
+R01	FC01_BOUNDARY_BOUNDARY	D06	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R01;S08::R01
+R01	FC01_BOUNDARY_BOUNDARY	D07	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R01;S08::R01
+R01	FC01_BOUNDARY_BOUNDARY	D08	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R01;S08::R01
+R01	FC01_BOUNDARY_BOUNDARY	D09	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S03::R01/A03;S18::M02
+R01	FC01_BOUNDARY_BOUNDARY	D10	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S02::R01;S05::R01
+R02	FC02_ONE_CAP_BOUNDARY	D01	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S04::R02
+R02	FC02_ONE_CAP_BOUNDARY	D02	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R02
+R02	FC02_ONE_CAP_BOUNDARY	D03	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R02
+R02	FC02_ONE_CAP_BOUNDARY	D04	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R02;S08::R02
+R02	FC02_ONE_CAP_BOUNDARY	D05	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R02;S08::R02
+R02	FC02_ONE_CAP_BOUNDARY	D06	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R02;S08::R02
+R02	FC02_ONE_CAP_BOUNDARY	D07	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R02;S08::R02
+R02	FC02_ONE_CAP_BOUNDARY	D08	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R02;S08::R02
+R02	FC02_ONE_CAP_BOUNDARY	D09	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S03::R02/A03;S18::M02
+R02	FC02_ONE_CAP_BOUNDARY	D10	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S02::R02;S05::R02
+R03	FC03_TWO_CAP_P0	D01	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S04::R03
+R03	FC03_TWO_CAP_P0	D02	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R03
+R03	FC03_TWO_CAP_P0	D03	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R03
+R03	FC03_TWO_CAP_P0	D04	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R03;S08::R03
+R03	FC03_TWO_CAP_P0	D05	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R03;S08::R03
+R03	FC03_TWO_CAP_P0	D06	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R03;S08::R03
+R03	FC03_TWO_CAP_P0	D07	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R03;S08::R03
+R03	FC03_TWO_CAP_P0	D08	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R03;S08::R03
+R03	FC03_TWO_CAP_P0	D09	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S03::R03/A03;S18::M02
+R03	FC03_TWO_CAP_P0	D10	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S02::R03;S05::R03
+R04	FC04_TWO_CAP_P1	D01	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S04::R04
+R04	FC04_TWO_CAP_P1	D02	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S05::R04
+R04	FC04_TWO_CAP_P1	D03	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S05::R04
+R04	FC04_TWO_CAP_P1	D04	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S05::R04;S08::R04
+R04	FC04_TWO_CAP_P1	D05	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S05::R04;S08::R04
+R04	FC04_TWO_CAP_P1	D06	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S05::R04;S08::R04
+R04	FC04_TWO_CAP_P1	D07	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S05::R04;S08::R04
+R04	FC04_TWO_CAP_P1	D08	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S05::R04;S08::R04
+R04	FC04_TWO_CAP_P1	D09	INSUFFICIENT_EVIDENCE	G55 correction forbids inheriting a member reciprocal panel into the aggregate class.	S03::R04/A03;S18::M02
+R04	FC04_TWO_CAP_P1	D10	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S02::R04;S05::R04
+R05	FC05_TWO_CAP_P_GT1	D01	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S04::R05
+R05	FC05_TWO_CAP_P_GT1	D02	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R05
+R05	FC05_TWO_CAP_P_GT1	D03	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R05
+R05	FC05_TWO_CAP_P_GT1	D04	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R05;S08::R05
+R05	FC05_TWO_CAP_P_GT1	D05	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R05;S08::R05
+R05	FC05_TWO_CAP_P_GT1	D06	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R05;S08::R05
+R05	FC05_TWO_CAP_P_GT1	D07	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R05;S08::R05
+R05	FC05_TWO_CAP_P_GT1	D08	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R05;S08::R05
+R05	FC05_TWO_CAP_P_GT1	D09	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S03::R05/A03;S18::M02
+R05	FC05_TWO_CAP_P_GT1	D10	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S02::R05;S05::R05
+R06	FC06_NONPRIMITIVE_CAP	D01	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S04::R06
+R06	FC06_NONPRIMITIVE_CAP	D02	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R06
+R06	FC06_NONPRIMITIVE_CAP	D03	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R06
+R06	FC06_NONPRIMITIVE_CAP	D04	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R06;S08::R06
+R06	FC06_NONPRIMITIVE_CAP	D05	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R06;S08::R06
+R06	FC06_NONPRIMITIVE_CAP	D06	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R06;S08::R06
+R06	FC06_NONPRIMITIVE_CAP	D07	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R06;S08::R06
+R06	FC06_NONPRIMITIVE_CAP	D08	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R06;S08::R06
+R06	FC06_NONPRIMITIVE_CAP	D09	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S03::R06/A03;S18::M02
+R06	FC06_NONPRIMITIVE_CAP	D10	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S02::R06;S05::R06
+R07	FC07_PERIODIC_TORUS_BUNDLE	D01	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S04::R07
+R07	FC07_PERIODIC_TORUS_BUNDLE	D02	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R07
+R07	FC07_PERIODIC_TORUS_BUNDLE	D03	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R07
+R07	FC07_PERIODIC_TORUS_BUNDLE	D04	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R07;S08::R07
+R07	FC07_PERIODIC_TORUS_BUNDLE	D05	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R07;S08::R07
+R07	FC07_PERIODIC_TORUS_BUNDLE	D06	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R07;S08::R07
+R07	FC07_PERIODIC_TORUS_BUNDLE	D07	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R07;S08::R07
+R07	FC07_PERIODIC_TORUS_BUNDLE	D08	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R07;S08::R07
+R07	FC07_PERIODIC_TORUS_BUNDLE	D09	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S03::R07/A03;S18::M02
+R07	FC07_PERIODIC_TORUS_BUNDLE	D10	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S02::R07;S05::R07
+R08	FC08_MIRROR_DOUBLE	D01	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S04::R08
+R08	FC08_MIRROR_DOUBLE	D02	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R08
+R08	FC08_MIRROR_DOUBLE	D03	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R08
+R08	FC08_MIRROR_DOUBLE	D04	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R08;S08::R08
+R08	FC08_MIRROR_DOUBLE	D05	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R08;S08::R08
+R08	FC08_MIRROR_DOUBLE	D06	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R08;S08::R08
+R08	FC08_MIRROR_DOUBLE	D07	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R08;S08::R08
+R08	FC08_MIRROR_DOUBLE	D08	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R08;S08::R08
+R08	FC08_MIRROR_DOUBLE	D09	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S03::R08/A03;S18::M02
+R08	FC08_MIRROR_DOUBLE	D10	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S02::R08;S05::R08
+R09	FC09_NONORIENTABLE_GLUE	D01	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S04::R09
+R09	FC09_NONORIENTABLE_GLUE	D02	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R09
+R09	FC09_NONORIENTABLE_GLUE	D03	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R09
+R09	FC09_NONORIENTABLE_GLUE	D04	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R09;S08::R09
+R09	FC09_NONORIENTABLE_GLUE	D05	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R09;S08::R09
+R09	FC09_NONORIENTABLE_GLUE	D06	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R09;S08::R09
+R09	FC09_NONORIENTABLE_GLUE	D07	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R09;S08::R09
+R09	FC09_NONORIENTABLE_GLUE	D08	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R09;S08::R09
+R09	FC09_NONORIENTABLE_GLUE	D09	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S03::R09/A03;S18::M02
+R09	FC09_NONORIENTABLE_GLUE	D10	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S02::R09;S05::R09
+R10	FC10_STRATIFIED_PROJECTOR	D01	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S04::R10
+R10	FC10_STRATIFIED_PROJECTOR	D02	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R10
+R10	FC10_STRATIFIED_PROJECTOR	D03	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R10
+R10	FC10_STRATIFIED_PROJECTOR	D04	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R10;S08::R10
+R10	FC10_STRATIFIED_PROJECTOR	D05	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R10;S08::R10
+R10	FC10_STRATIFIED_PROJECTOR	D06	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R10;S08::R10
+R10	FC10_STRATIFIED_PROJECTOR	D07	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R10;S08::R10
+R10	FC10_STRATIFIED_PROJECTOR	D08	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R10;S08::R10
+R10	FC10_STRATIFIED_PROJECTOR	D09	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S03::R10/A03;S18::M02
+R10	FC10_STRATIFIED_PROJECTOR	D10	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S02::R10;S05::R10
+R11	FC11_NONINTEGRABLE_DISTRIBUTION	D01	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S04::R11
+R11	FC11_NONINTEGRABLE_DISTRIBUTION	D02	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R11
+R11	FC11_NONINTEGRABLE_DISTRIBUTION	D03	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R11
+R11	FC11_NONINTEGRABLE_DISTRIBUTION	D04	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R11;S08::R11
+R11	FC11_NONINTEGRABLE_DISTRIBUTION	D05	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R11;S08::R11
+R11	FC11_NONINTEGRABLE_DISTRIBUTION	D06	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R11;S08::R11
+R11	FC11_NONINTEGRABLE_DISTRIBUTION	D07	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R11;S08::R11
+R11	FC11_NONINTEGRABLE_DISTRIBUTION	D08	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R11;S08::R11
+R11	FC11_NONINTEGRABLE_DISTRIBUTION	D09	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S03::R11/A03;S18::M02
+R11	FC11_NONINTEGRABLE_DISTRIBUTION	D10	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S02::R11;S05::R11
+R12	FC12_RECIPROCAL_TORIC_DIAGONAL	D01	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S04::R12
+R12	FC12_RECIPROCAL_TORIC_DIAGONAL	D02	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R12
+R12	FC12_RECIPROCAL_TORIC_DIAGONAL	D03	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R12
+R12	FC12_RECIPROCAL_TORIC_DIAGONAL	D04	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R12;S08::R12
+R12	FC12_RECIPROCAL_TORIC_DIAGONAL	D05	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R12;S08::R12
+R12	FC12_RECIPROCAL_TORIC_DIAGONAL	D06	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R12;S08::R12
+R12	FC12_RECIPROCAL_TORIC_DIAGONAL	D07	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R12;S08::R12
+R12	FC12_RECIPROCAL_TORIC_DIAGONAL	D08	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S05::R12;S08::R12
+R12	FC12_RECIPROCAL_TORIC_DIAGONAL	D09	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S03::R12/A03;S18::M02
+R12	FC12_RECIPROCAL_TORIC_DIAGONAL	D10	INSUFFICIENT_EVIDENCE	The pinned corpus lacks an actual typed complete witness for this link.	S02::R12;S05::R12
+R13	Q01_ROUND_S3_B19	D01	OWNED_EXACT	Exact only in the declared branch-scoped object named by the evidence.	S04::R13
+R13	Q01_ROUND_S3_B19	D02	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S05::R13
+R13	Q01_ROUND_S3_B19	D03	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R13
+R13	Q01_ROUND_S3_B19	D04	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S05::R13;S08::R13
+R13	Q01_ROUND_S3_B19	D05	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R13;S08::R13
+R13	Q01_ROUND_S3_B19	D06	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R13;S08::R13
+R13	Q01_ROUND_S3_B19	D07	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S05::R13;S08::R13
+R13	Q01_ROUND_S3_B19	D08	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R13;S08::R13
+R13	Q01_ROUND_S3_B19	D09	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S03::R13/A03;S18::M02
+R13	Q01_ROUND_S3_B19	D10	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S02::R13;S05::R13
+R14	Q02_SQUASHED_S3_OFF_SHELL	D01	OWNED_EXACT	Exact only in the declared branch-scoped object named by the evidence.	S04::R14
+R14	Q02_SQUASHED_S3_OFF_SHELL	D02	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S05::R14
+R14	Q02_SQUASHED_S3_OFF_SHELL	D03	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R14
+R14	Q02_SQUASHED_S3_OFF_SHELL	D04	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S05::R14;S08::R14
+R14	Q02_SQUASHED_S3_OFF_SHELL	D05	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R14;S08::R14
+R14	Q02_SQUASHED_S3_OFF_SHELL	D06	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R14;S08::R14
+R14	Q02_SQUASHED_S3_OFF_SHELL	D07	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S05::R14;S08::R14
+R14	Q02_SQUASHED_S3_OFF_SHELL	D08	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R14;S08::R14
+R14	Q02_SQUASHED_S3_OFF_SHELL	D09	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S03::R14/A03;S18::M02
+R14	Q02_SQUASHED_S3_OFF_SHELL	D10	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S02::R14;S05::R14
+R15	Q03_WRL_LOCAL	D01	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S04::R15
+R15	Q03_WRL_LOCAL	D02	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S05::R15
+R15	Q03_WRL_LOCAL	D03	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R15
+R15	Q03_WRL_LOCAL	D04	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R15;S08::R15
+R15	Q03_WRL_LOCAL	D05	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R15;S08::R15
+R15	Q03_WRL_LOCAL	D06	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R15;S08::R15
+R15	Q03_WRL_LOCAL	D07	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R15;S08::R15
+R15	Q03_WRL_LOCAL	D08	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R15;S08::R15
+R15	Q03_WRL_LOCAL	D09	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S03::R15/A03;S18::M02
+R15	Q03_WRL_LOCAL	D10	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S02::R15;S05::R15
+R16	Q04_PHYSICAL_XMAX_JOIN	D01	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S04::R16
+R16	Q04_PHYSICAL_XMAX_JOIN	D02	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R16
+R16	Q04_PHYSICAL_XMAX_JOIN	D03	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R16
+R16	Q04_PHYSICAL_XMAX_JOIN	D04	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R16;S08::R16
+R16	Q04_PHYSICAL_XMAX_JOIN	D05	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R16;S08::R16
+R16	Q04_PHYSICAL_XMAX_JOIN	D06	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R16;S08::R16
+R16	Q04_PHYSICAL_XMAX_JOIN	D07	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R16;S08::R16
+R16	Q04_PHYSICAL_XMAX_JOIN	D08	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R16;S08::R16
+R16	Q04_PHYSICAL_XMAX_JOIN	D09	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S03::R16/A03;S18::M02
+R16	Q04_PHYSICAL_XMAX_JOIN	D10	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S02::R16;S05::R16
+R17	W01_TWISTED_RECIPROCAL_S3	D01	OWNED_EXACT	Exact only in the declared branch-scoped object named by the evidence.	S04::R17
+R17	W01_TWISTED_RECIPROCAL_S3	D02	OWNED_EXACT	The owned foliation is a family of Hopf-cylinder leaves; no one physical leaf is selected.	S05::R17;S13::C01-C05;S14
+R17	W01_TWISTED_RECIPROCAL_S3	D03	OWNED_EXACT	Global on the regular supplied stationary R17 configuration, not across excluded degeneracies or time-live branches.	S05::R17;S13::C01-C05;S14
+R17	W01_TWISTED_RECIPROCAL_S3	D04	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R17;S08::R17;S15;S16
+R17	W01_TWISTED_RECIPROCAL_S3	D05	OWNED_EXACT	The metric owns the full SO(2) alignment bitorsor and its representative-free balanced composition; one calibration representative remains unselected.	S05::R17;S08::R17;S10::C01-C06;S11::M01-M12;S12
+R17	W01_TWISTED_RECIPROCAL_S3	D06	OPEN_OWNER	Projector alignment composes, but calibration-density reset and one representative remain open.	S05::R17;S08::R17;S10::C01-C06;S11::M01-M12;S12
+R17	W01_TWISTED_RECIPROCAL_S3	D07	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R17;S08::R17;S15;S16
+R17	W01_TWISTED_RECIPROCAL_S3	D08	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R17;S08::R17;S15;S16
+R17	W01_TWISTED_RECIPROCAL_S3	D09	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S03::R17/A03;S18::M02
+R17	W01_TWISTED_RECIPROCAL_S3	D10	OPEN_OWNER	Surface, path functor, and terminal readout are partial links; the physical query/path/reset selector remains open.	S02::R17;S05::R17
+R18	W02_STATIC_GENERIC_LAPSE_ROUND_S3	D01	OWNED_EXACT	Exact only in the declared branch-scoped object named by the evidence.	S04::R18
+R18	W02_STATIC_GENERIC_LAPSE_ROUND_S3	D02	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R18
+R18	W02_STATIC_GENERIC_LAPSE_ROUND_S3	D03	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R18
+R18	W02_STATIC_GENERIC_LAPSE_ROUND_S3	D04	OWNED_EXACT	Exact only for the one shared Killing clock state; no intrinsic ruler or complete pair flag is owned.	S05::R18;S08::R18
+R18	W02_STATIC_GENERIC_LAPSE_ROUND_S3	D05	OWNED_EXACT	The shared middle object is the clock line only.	S05::R18;S08::R18
+R18	W02_STATIC_GENERIC_LAPSE_ROUND_S3	D06	OWNED_EXACT	Identity carry is exact for the shared clock state, not a complete reciprocal pair reset.	S05::R18;S08::R18
+R18	W02_STATIC_GENERIC_LAPSE_ROUND_S3	D07	OWNED_EXACT	Endpoint clock coboundary descends exactly; complete pair descent remains open.	S05::R18;S08::R18
+R18	W02_STATIC_GENERIC_LAPSE_ROUND_S3	D08	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R18;S08::R18
+R18	W02_STATIC_GENERIC_LAPSE_ROUND_S3	D09	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S03::R18/A03;S18::M02
+R18	W02_STATIC_GENERIC_LAPSE_ROUND_S3	D10	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S02::R18;S05::R18
+R19	W03_ULTRASTATIC_S3	D01	OWNED_EXACT	Exact only in the declared branch-scoped object named by the evidence.	S04::R19
+R19	W03_ULTRASTATIC_S3	D02	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R19
+R19	W03_ULTRASTATIC_S3	D03	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R19
+R19	W03_ULTRASTATIC_S3	D04	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R19;S08::R19
+R19	W03_ULTRASTATIC_S3	D05	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R19;S08::R19
+R19	W03_ULTRASTATIC_S3	D06	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R19;S08::R19
+R19	W03_ULTRASTATIC_S3	D07	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R19;S08::R19
+R19	W03_ULTRASTATIC_S3	D08	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R19;S08::R19
+R19	W03_ULTRASTATIC_S3	D09	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S03::R19/A03;S18::M02
+R19	W03_ULTRASTATIC_S3	D10	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S02::R19;S05::R19
+R20	W04_MULTIPLE_KILLING_CONTROL	D01	OWNED_EXACT	Exact only in the declared branch-scoped object named by the evidence.	S04::R20
+R20	W04_MULTIPLE_KILLING_CONTROL	D02	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R20
+R20	W04_MULTIPLE_KILLING_CONTROL	D03	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R20
+R20	W04_MULTIPLE_KILLING_CONTROL	D04	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S05::R20;S08::R20
+R20	W04_MULTIPLE_KILLING_CONTROL	D05	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R20;S08::R20
+R20	W04_MULTIPLE_KILLING_CONTROL	D06	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R20;S08::R20
+R20	W04_MULTIPLE_KILLING_CONTROL	D07	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S05::R20;S08::R20
+R20	W04_MULTIPLE_KILLING_CONTROL	D08	MEMBER_DEPENDENT	The aggregate or choice family contains inequivalent member-level answers and selects none.	S05::R20;S08::R20
+R20	W04_MULTIPLE_KILLING_CONTROL	D09	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S03::R20/A03;S18::M02
+R20	W04_MULTIPLE_KILLING_CONTROL	D10	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S02::R20;S05::R20
+R21	W05_CAUSAL_SLICE_BOUNDARY	D01	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S04::R21
+R21	W05_CAUSAL_SLICE_BOUNDARY	D02	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R21
+R21	W05_CAUSAL_SLICE_BOUNDARY	D03	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R21
+R21	W05_CAUSAL_SLICE_BOUNDARY	D04	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R21;S08::R21
+R21	W05_CAUSAL_SLICE_BOUNDARY	D05	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R21;S08::R21
+R21	W05_CAUSAL_SLICE_BOUNDARY	D06	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R21;S08::R21
+R21	W05_CAUSAL_SLICE_BOUNDARY	D07	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R21;S08::R21
+R21	W05_CAUSAL_SLICE_BOUNDARY	D08	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R21;S08::R21
+R21	W05_CAUSAL_SLICE_BOUNDARY	D09	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S03::R21/A03;S18::M02
+R21	W05_CAUSAL_SLICE_BOUNDARY	D10	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S02::R21;S05::R21
+R22	W06_TWIST_FREE_NONCONSTANT_CLOCK	D01	OWNED_EXACT	Exact only in the declared branch-scoped object named by the evidence.	S04::R22
+R22	W06_TWIST_FREE_NONCONSTANT_CLOCK	D02	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R22
+R22	W06_TWIST_FREE_NONCONSTANT_CLOCK	D03	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R22
+R22	W06_TWIST_FREE_NONCONSTANT_CLOCK	D04	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S05::R22;S08::R22
+R22	W06_TWIST_FREE_NONCONSTANT_CLOCK	D05	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R22;S08::R22
+R22	W06_TWIST_FREE_NONCONSTANT_CLOCK	D06	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R22;S08::R22
+R22	W06_TWIST_FREE_NONCONSTANT_CLOCK	D07	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S05::R22;S08::R22
+R22	W06_TWIST_FREE_NONCONSTANT_CLOCK	D08	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R22;S08::R22
+R22	W06_TWIST_FREE_NONCONSTANT_CLOCK	D09	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S03::R22/A03;S18::M02
+R22	W06_TWIST_FREE_NONCONSTANT_CLOCK	D10	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S02::R22;S05::R22
+R23	GENERAL_SCREEN_S3_REGULAR_FAMILY	D01	OWNED_EXACT	Exact only in the declared branch-scoped object named by the evidence.	S04::R23
+R23	GENERAL_SCREEN_S3_REGULAR_FAMILY	D02	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R23
+R23	GENERAL_SCREEN_S3_REGULAR_FAMILY	D03	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R23
+R23	GENERAL_SCREEN_S3_REGULAR_FAMILY	D04	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R23;S08::R23
+R23	GENERAL_SCREEN_S3_REGULAR_FAMILY	D05	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R23;S08::R23
+R23	GENERAL_SCREEN_S3_REGULAR_FAMILY	D06	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S05::R23;S08::R23
+R23	GENERAL_SCREEN_S3_REGULAR_FAMILY	D07	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R23;S08::R23
+R23	GENERAL_SCREEN_S3_REGULAR_FAMILY	D08	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R23;S08::R23
+R23	GENERAL_SCREEN_S3_REGULAR_FAMILY	D09	CONDITIONAL_AFTER_QUERY	Requires supplied query, path, orientation, or presentation data and is not physical ownership.	S03::R23/A03;S18::M02
+R23	GENERAL_SCREEN_S3_REGULAR_FAMILY	D10	OPEN_OWNER	The pinned corpus contains a relevant structure but no owner for this link.	S02::R23;S05::R23
+R24	TORIC_DUAL_SYSTOLE_SET_VALUED_FAMILY	D01	OWNED_EXACT	Exact only in the declared branch-scoped object named by the evidence.	S04::R24
+R24	TORIC_DUAL_SYSTOLE_SET_VALUED_FAMILY	D02	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R24
+R24	TORIC_DUAL_SYSTOLE_SET_VALUED_FAMILY	D03	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S05::R24
+R24	TORIC_DUAL_SYSTOLE_SET_VALUED_FAMILY	D04	PATH_LABELLED_HOLONOMY	Exact only as set-equivariant projector transport with tie-wall branches retained.	S05::R24;S08::R24
+R24	TORIC_DUAL_SYSTOLE_SET_VALUED_FAMILY	D05	MEMBER_DEPENDENT	The unordered set is owned; one selected member is not.	S05::R24;S08::R24
+R24	TORIC_DUAL_SYSTOLE_SET_VALUED_FAMILY	D06	MEMBER_DEPENDENT	Set transport does not own a clock/ruler calibration reset.	S05::R24;S08::R24
+R24	TORIC_DUAL_SYSTOLE_SET_VALUED_FAMILY	D07	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R24;S08::R24
+R24	TORIC_DUAL_SYSTOLE_SET_VALUED_FAMILY	D08	PATH_LABELLED_HOLONOMY	Composition is path-labelled and any recorded holonomy is retained rather than erased.	S05::R24;S08::R24
+R24	TORIC_DUAL_SYSTOLE_SET_VALUED_FAMILY	D09	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S03::R24/A03;S18::M02
+R24	TORIC_DUAL_SYSTOLE_SET_VALUED_FAMILY	D10	TYPE_INAPPLICABLE	The declared object is absent, local-only, singular, transitional, or of the wrong type for this link.	S02::R24;S05::R24

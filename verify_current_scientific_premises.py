@@ -241,9 +241,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 55, "premise registry must contain exactly 55 rows")
+    require(len(rows) == 56, "premise registry must contain exactly 56 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 55, "duplicate premise id")
+    require(len(by_id) == 56, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -906,6 +906,29 @@ def main() -> None:
         "multi-regime admissibility source changed",
     )
     require("G55_REFINES_G54_BY_MAPPING_THE_COMPLETE_PINNED_24_BRANCH_CORPUS" in by_id["G55"]["precedence_rule"], "G54 multi-regime refinement absent")
+    require(
+        by_id["G56"]["current_status"]
+        == "VERIFIED_WITH_CORRECTIONS__24_BY_10_GLOBAL_DESCENT_ATLAS__R17_GLOBAL_PAIR_FOLIATION_PATH_FUNCTOR_AND_SO2_ALIGNMENT_BITORSOR_OWNED__R18_CLOCK_ONLY_ENDPOINT_DESCENT_OWNED__CALIBRATION_RESET_PAIR_QUERY_AND_COMPLETE_SELECTOR_OPEN",
+        "global descent status regressed or promoted",
+    )
+    require(by_id["G56"]["epistemic_label"] == "MIXED", "global descent label changed")
+    require(
+        by_id["G56"]["active_use"]
+        == "ACTIVE_BOUNDED_GLOBAL_DESCENT_OWNERSHIP_MAP_AND_NEXT_NATIVE_ON_SHELL_OR_TIME_LIVE_EQUATION_OWNERSHIP_GATE_ONLY",
+        "global descent use promoted",
+    )
+    require("R17 calibration-bearing representative and scalar reset" in by_id["G56"]["open_scope"], "R17 calibration reset invented")
+    require("physical pair leaf path winding and query selector" in by_id["G56"]["open_scope"], "physical pair query invented")
+    require("native on-shell or time-live equation" in by_id["G56"]["open_scope"], "native evolution equation invented")
+    require("SO2 alignment bitorsor called one selected calibration representative" in by_id["G56"]["forbidden_regression"], "bitorsor/representative guard absent")
+    require("R18 clock-only chain silently spliced into R17" in by_id["G56"]["forbidden_regression"], "R17/R18 splice guard absent")
+    require("no complete selector in pinned corpus called a universal no-go" in by_id["G56"]["forbidden_regression"], "bounded no-go guard absent")
+    require(
+        by_id["G56"]["controlling_source"]
+        == "udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+        "global descent source changed",
+    )
+    require("G56_REFINES_G55_BY_CONSOLIDATING_GLOBAL_PAIR_SURFACE_PATH_CARRY_ALIGNMENT_AND_CLOCK_ONLY_DESCENT" in by_id["G56"]["precedence_rule"], "G55 global descent refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -978,7 +1001,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 55 premise guards, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 56 premise guards, corrected global descent atlas with R17 foliation/path/alignment ownership and R18 clock-only descent while calibration reset and complete selector remain open, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

@@ -9,7 +9,18 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G55 refinement
+## Current G56 refinement
+
+`udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md` controls the
+current descent gate. Across all 24 pinned branches and ten axes, R17 owns a global family of
+`R x S1` pair leaves, path-labelled transport/holonomy, and the full `SO(2)` projector-alignment
+bitorsor with exact balanced composition. R18 owns a distinct clock-only endpoint chain. External
+review returned `VERIFIED_WITH_CORRECTIONS` and corrected R17/D05 to `OWNED_EXACT`; D06 remains
+`OPEN_OWNER` because scalar calibration descent and one physical reset are not selected. No branch
+owns the physical pair leaf/path/query or complete selector. The next gate is ownership of a native
+on-shell or time-live equation; no evolution is authorized merely by naming that possibility.
+
+## G55 parent refinement
 
 `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md` controls the current
 branch-admissibility gate. The complete pinned 24-branch by six-measurement census yields 11

@@ -6,6 +6,10 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md`: the full pinned
+24-by-10 descent atlas derives R17's global pair-foliation family, path-labelled transport, and exact
+`SO(2)` projector-alignment bitorsor, plus R18's separate clock-only endpoint descent. Calibration
+reset, physical pair query, and the complete selector remain open. Its parent is
 `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`: the full pinned
 24-by-6 branch/measurement atlas yields 11 mathematical apparatus patterns and five bounded global
 relation types, but zero complete physical pair, arrow, optional-selector, or regime owners. R17

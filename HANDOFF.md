@@ -18,7 +18,18 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = MULTI-REGIME PAIR-RELATION ADMISSIBILITY COMPLETE,
+**LATEST GATE = GLOBAL DESCENT / PAIR-SURFACE / RESET OWNERSHIP COMPLETE,
+`VERIFIED-WITH-CORRECTIONS`.** Start with
+`udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md`. The complete
+24-by-10 atlas consolidates the observer skeleton. R17 owns its global Hopf-cylinder pair-foliation
+family, exact path-labelled connection/holonomy, and the full `SO(2)` projector-alignment bitorsor
+with balanced composition. R18 independently owns an exact clock-only endpoint chain. External
+review corrected R17/D05 to `OWNED_EXACT`, while D06 remains `OPEN_OWNER`: projector alignment is
+closed but calibration-density descent and one physical reset are not. No branch owns the physical
+leaf/path/query or complete selector. NEXT: audit whether an already-owned native on-shell or
+time-live equation can test those remaining links; do not invent an equation or splice R18 into R17.
+
+**PRECEDING GATE = MULTI-REGIME PAIR-RELATION ADMISSIBILITY COMPLETE,
 `VERIFIED-WITH-CORRECTIONS`.** Start with
 `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`. The complete pinned
 24-by-6 atlas yields 11 mathematical apparatus patterns, five narrowly owned global relation
@@ -26,7 +37,7 @@ types, and one full conditional panel at R17. No branch owns the complete physic
 physical non-isometric arrow, optional selector, or physical regime map. External review corrected
 aggregate R04: it owns member-dependence, not one inherited panel; its M01-M05 and A02-A06 cells are
 `INSUFFICIENT_EVIDENCE`. NEXT: choose among time-live/on-shell, global descent, bootstrap closure,
-or an explicit premise. Do not label the apparatus patterns as physical regimes or repeat the same
+or an explicit premise. Its global-descent route is now refined by G56 above. Do not label the apparatus patterns as physical regimes or repeat the same
 pinned census as though it could create the missing owner.
 
 **PRECEDING GATE = ORDERED OBSERVER-QUERY PROJECTION OWNERSHIP COMPLETE,

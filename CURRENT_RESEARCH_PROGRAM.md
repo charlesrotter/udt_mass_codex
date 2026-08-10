@@ -7,15 +7,23 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G55 CHECKPOINT:**
-`udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md` maps every one of
+**CURRENT G56 CHECKPOINT:**
+`udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md` maps every one of
+the 24 pinned branch identities across ten global-descent axes. R17 owns the global reciprocal
+pair-foliation family, exact path-labelled transport, and the full `SO(2)` projector-alignment
+bitorsor; R18 owns a separate clock-only endpoint chain. The calibration-bearing reset, physical
+leaf/path/query, and complete selector remain open. The next bounded question is whether a native
+on-shell or time-live equation is already owned; absent that, no solve is launched.
+
+Its **G55 parent**,
+`udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`, maps every one of
 the 24 pinned branch identities against all six G54 measurement families. The resulting 144-cell
 atlas has 11 mathematical apparatus patterns and five narrowly owned global relation types. R17
 alone contains the full known panel conditionally; no branch owns the complete physical pair
 relation, physical non-isometric arrow, optional measurement selector, or physical regime map.
 External review corrected the R04 aggregate/member distinction. The next information-bearing
 choice is time-live/on-shell, global descent, bootstrap closure, or an explicit observer premise;
-G55 selects none.
+G55 selects none; G56 has now refined its global-descent route.
 
 Its **G54 parent**,
 `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md` proves the
