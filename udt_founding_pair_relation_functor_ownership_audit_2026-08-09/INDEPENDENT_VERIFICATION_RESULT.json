@@ -1,0 +1,265 @@
+{
+  "checks": [
+    {
+      "detail": "15",
+      "name": "source_count",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source_unique",
+      "passed": true
+    },
+    {
+      "detail": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "name": "source_01",
+      "passed": true
+    },
+    {
+      "detail": "udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md",
+      "name": "source_02",
+      "passed": true
+    },
+    {
+      "detail": "udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md",
+      "name": "source_03",
+      "passed": true
+    },
+    {
+      "detail": "udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md",
+      "name": "source_04",
+      "passed": true
+    },
+    {
+      "detail": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
+      "name": "source_05",
+      "passed": true
+    },
+    {
+      "detail": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_06",
+      "passed": true
+    },
+    {
+      "detail": "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
+      "name": "source_07",
+      "passed": true
+    },
+    {
+      "detail": "udt_calibrated_pair_map_owner_atlas_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_08",
+      "passed": true
+    },
+    {
+      "detail": "udt_calibrated_pair_map_owner_atlas_2026-08-09/NEXT_STEP.md",
+      "name": "source_09",
+      "passed": true
+    },
+    {
+      "detail": "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_10",
+      "passed": true
+    },
+    {
+      "detail": "udt_reciprocal_calibration_state_solder_audit_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_11",
+      "passed": true
+    },
+    {
+      "detail": "udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "name": "source_12",
+      "passed": true
+    },
+    {
+      "detail": "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
+      "name": "source_13",
+      "passed": true
+    },
+    {
+      "detail": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "name": "source_14",
+      "passed": true
+    },
+    {
+      "detail": "CURRENT_RESEARCH_PROGRAM.md",
+      "name": "source_15",
+      "passed": true
+    },
+    {
+      "detail": "9",
+      "name": "arena_count",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "arena_ids",
+      "passed": true
+    },
+    {
+      "detail": "108",
+      "name": "atlas_count",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "atlas_unique",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "atlas_each_interpretation",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "atlas_each_axis",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "atlas_dispositions",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "no_merit_filter",
+      "passed": true
+    },
+    {
+      "detail": "(1920, 2645)",
+      "name": "logical_order_depth_before_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "no_event_pairing_definition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "D_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "D_reversal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "nonthin_homset_witness",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reversal_preserves_nonuniqueness",
+      "passed": true
+    },
+    {
+      "detail": "-1",
+      "name": "pairing_h00",
+      "passed": true
+    },
+    {
+      "detail": "-1/3",
+      "name": "pairing_h01",
+      "passed": true
+    },
+    {
+      "detail": "8/9",
+      "name": "pairing_h11",
+      "passed": true
+    },
+    {
+      "detail": "-1",
+      "name": "pairing_det",
+      "passed": true
+    },
+    {
+      "detail": "1",
+      "name": "pairing_ruler",
+      "passed": true
+    },
+    {
+      "detail": "1",
+      "name": "pairing_terminal_zero",
+      "passed": true
+    },
+    {
+      "detail": "((Fraction(11, 15), Fraction(1, 1)), (Fraction(2, 5), Fraction(1, 1)))",
+      "name": "same_worldlines_distinct_pair_events",
+      "passed": true
+    },
+    {
+      "detail": "((0.37, 0.38260436964732625, 0.11667860269463354, 0.0), (0.37, 0.38260436964732625, -0.11667860269463354, 0.0))",
+      "name": "rotating_maps_distinct",
+      "passed": true
+    },
+    {
+      "detail": "-0.8976",
+      "name": "rotating_metrics_equal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "origin_eta_at_k_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "normalized_nonzero_k_survives",
+      "passed": true
+    },
+    {
+      "detail": "0.13999999999999999",
+      "name": "matched_carry_adds",
+      "passed": true
+    },
+    {
+      "detail": "0.37",
+      "name": "unowned_reset_changes_carry",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "common_scale_cancels",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "xmax_two_profiles_near_same_limit",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "xmax_profiles_not_identical",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "founding_scope_not_promoted",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "local_metric_positive_route_retained",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "cE_not_event_pairing",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reciprocity_not_selector",
+      "passed": true
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 51,
+  "checks_total": 51,
+  "failed": [],
+  "implementation": "python_stdlib_no_sympy_import",
+  "schema": "udt-founding-pair-relation-ownership-independent-v1"
+}

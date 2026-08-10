@@ -1,0 +1,281 @@
+{
+  "atlas_rows": 108,
+  "base": "3c8a4a2dce3f31a15c58949efc8eaf2b9a39a977",
+  "checks": [
+    {
+      "detail": "actual=15 expected=15",
+      "name": "source_count",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "source_paths_unique",
+      "passed": true
+    },
+    {
+      "detail": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "name": "source_01",
+      "passed": true
+    },
+    {
+      "detail": "udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md",
+      "name": "source_02",
+      "passed": true
+    },
+    {
+      "detail": "udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md",
+      "name": "source_03",
+      "passed": true
+    },
+    {
+      "detail": "udt_observer_pair_clock_operator_audit_2026-07-24/EXACT_DERIVATION.md",
+      "name": "source_04",
+      "passed": true
+    },
+    {
+      "detail": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
+      "name": "source_05",
+      "passed": true
+    },
+    {
+      "detail": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_06",
+      "passed": true
+    },
+    {
+      "detail": "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
+      "name": "source_07",
+      "passed": true
+    },
+    {
+      "detail": "udt_calibrated_pair_map_owner_atlas_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_08",
+      "passed": true
+    },
+    {
+      "detail": "udt_calibrated_pair_map_owner_atlas_2026-08-09/NEXT_STEP.md",
+      "name": "source_09",
+      "passed": true
+    },
+    {
+      "detail": "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_10",
+      "passed": true
+    },
+    {
+      "detail": "udt_reciprocal_calibration_state_solder_audit_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_11",
+      "passed": true
+    },
+    {
+      "detail": "udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "name": "source_12",
+      "passed": true
+    },
+    {
+      "detail": "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
+      "name": "source_13",
+      "passed": true
+    },
+    {
+      "detail": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "name": "source_14",
+      "passed": true
+    },
+    {
+      "detail": "CURRENT_RESEARCH_PROGRAM.md",
+      "name": "source_15",
+      "passed": true
+    },
+    {
+      "detail": "actual=9 expected=9",
+      "name": "arena_count",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "arena_ids",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "arena_no_merit_filter",
+      "passed": true
+    },
+    {
+      "detail": "actual=108 expected=108",
+      "name": "atlas_rows",
+      "passed": true
+    },
+    {
+      "detail": "actual=108 expected=108",
+      "name": "atlas_unique_identities",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "atlas_dispositions_registered",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "atlas_no_merit_filter",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "founding_source_supplies_relative_depth_first",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "founding_source_marks_composition_as_posit",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "founding_source_does_not_define_event_pairing",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "founded_composition",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "founded_reversal",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "founded_exchange",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "founded_pairing_preserved",
+      "passed": true
+    },
+    {
+      "detail": "actual=2 expected=2",
+      "name": "same_ordered_pair_two_arrows",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "each_arrow_has_reversal",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "order_does_not_select_arrow",
+      "passed": true
+    },
+    {
+      "detail": "actual=-1 expected=-1",
+      "name": "pairing_family_h00",
+      "passed": true
+    },
+    {
+      "detail": "actual=-k/L expected=-k/L",
+      "name": "pairing_family_h01",
+      "passed": true
+    },
+    {
+      "detail": "actual=1 - k**2/L**2 expected=1 - k**2/L**2",
+      "name": "pairing_family_h11",
+      "passed": true
+    },
+    {
+      "detail": "actual=-1 expected=-1",
+      "name": "pairing_family_det",
+      "passed": true
+    },
+    {
+      "detail": "actual=1 expected=1",
+      "name": "pairing_family_orthogonal_ruler",
+      "passed": true
+    },
+    {
+      "detail": "actual=0 expected=0",
+      "name": "pairing_family_terminal_depth",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "different_k_pairs_different_B_events",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "distinct_ruler_evolutions",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "same_pair_metric_does_not_identify_map",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "cE_origin_normalization",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "cE_does_not_remove_pairing_parameter",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "middle_reset_composite",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "matched_middle_is_special_case",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "common_scale_not_reciprocal_reset",
+      "passed": true
+    },
+    {
+      "detail": "actual=1 expected=1",
+      "name": "xmax_profile_1_limit",
+      "passed": true
+    },
+    {
+      "detail": "actual=1 expected=1",
+      "name": "xmax_profile_2_limit",
+      "passed": true
+    },
+    {
+      "detail": "True",
+      "name": "xmax_gate_nonunique",
+      "passed": true
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 51,
+  "checks_total": 51,
+  "disposition_counts": {
+    "BRANCH_RELATION_NOT_SINGLE_MAP": 4,
+    "CONDITIONAL_LOCAL": 5,
+    "CONSTRAINT_NOT_SELECTOR": 18,
+    "FAILS_REQUIRED_TYPE": 7,
+    "FOUNDING_DERIVED": 14,
+    "METRIC_DERIVED_AFTER_DECLARED_QUERY": 2,
+    "OPEN_NOT_OWNED": 29,
+    "OUTPUT_COMPATIBLE_NOT_SELECTOR": 9,
+    "QUERY_SUPPLIED_NOT_FOUNDING_DERIVED": 20
+  },
+  "failed": [],
+  "preregistration_commit": "1ab46192",
+  "primary_landing": "CONDITIONAL_QUERY_ENRICHMENT",
+  "schema": "udt-founding-pair-relation-ownership-v1",
+  "secondary_landing": "ASSOCIATIVE_CALIBRATION_CARRY_NOT_OWNED",
+  "source_freeze_commit": "09c3d5d6"
+}

@@ -1,0 +1,109 @@
+interpretation_id	axis_id	axis	disposition	basis	merit_filter
+I01	A01	object_and_arrow_type	FOUNDING_DERIVED	An ordered abstract comparison with supplied signed depth is the domain of D(delta).	NONE_CHARACTERIZE_ONLY
+I01	A02	direct_founding_words_or_equations	FOUNDING_DERIVED	The source explicitly begins from relative depth Delta, then derives reciprocal scaling.	NONE_CHARACTERIZE_ONLY
+I01	A03	observer_worldline_and_frame	OPEN_NOT_OWNED	No physical observer worldline or tetrad is defined by the founding equations.	NONE_CHARACTERIZE_ONLY
+I01	A04	event_pairing	OPEN_NOT_OWNED	Source and target roles do not pair spacetime events.	NONE_CHARACTERIZE_ONLY
+I01	A05	ruler_direction_and_evolution	OPEN_NOT_OWNED	No ruler direction or evolution law appears in the founding source.	NONE_CHARACTERIZE_ONLY
+I01	A06	local_pair_map	OPEN_NOT_OWNED	D(delta) acts after delta is supplied; it does not construct a pair surface.	NONE_CHARACTERIZE_ONLY
+I01	A07	branch_or_path_at_cut_locus	OPEN_NOT_OWNED	The abstract character contains no cut-locus or branch rule.	NONE_CHARACTERIZE_ONLY
+I01	A08	cE_calibration_normalization	FOUNDING_DERIVED	c_E dimension-matches clock and ruler channels, but only at the algebraic calibration level.	NONE_CHARACTERIZE_ONLY
+I01	A09	middle_observer_transition	OPEN_NOT_OWNED	Composition assumes matched abstract depths; no physical middle calibration identification is defined.	NONE_CHARACTERIZE_ONLY
+I01	A10	reversal_and_frame_reciprocity	FOUNDING_DERIVED	D(b)D(a)=D(a+b), D(a)^-1=D(-a), and abstract source-target reversal are exact.	NONE_CHARACTERIZE_ONLY
+I01	A11	terminal_phi_pair_ceff_compatibility	OUTPUT_COMPATIBLE_NOT_SELECTOR	The terminal evaluator reduces to this character once a calibrated pair metric is supplied.	NONE_CHARACTERIZE_ONLY
+I01	A12	maximum_justified_interpretation	FOUNDING_DERIVED	The foundation owns the ordered-depth character, not the observer-to-depth realization.	NONE_CHARACTERIZE_ONLY
+I02	A01	object_and_arrow_type	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	Two framed observer worldlines define objects but still only a hom-set of possible comparisons.	NONE_CHARACTERIZE_ONLY
+I02	A02	direct_founding_words_or_equations	OPEN_NOT_OWNED	The founding source does not explicitly define observer as worldline plus proper clock plus tetrad.	NONE_CHARACTERIZE_ONLY
+I02	A03	observer_worldline_and_frame	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	This is a standard legitimate observer-query enrichment, not a consequence of D(delta).	NONE_CHARACTERIZE_ONLY
+I02	A04	event_pairing	OPEN_NOT_OWNED	Two worldlines alone admit many event-pairing maps.	NONE_CHARACTERIZE_ONLY
+I02	A05	ruler_direction_and_evolution	OPEN_NOT_OWNED	Endpoint frames do not specify how a ruler is evolved between events.	NONE_CHARACTERIZE_ONLY
+I02	A06	local_pair_map	OPEN_NOT_OWNED	Worldlines and frames do not single out one connecting surface.	NONE_CHARACTERIZE_ONLY
+I02	A07	branch_or_path_at_cut_locus	OPEN_NOT_OWNED	Multiple paths and intersections remain possible.	NONE_CHARACTERIZE_ONLY
+I02	A08	cE_calibration_normalization	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	Proper clocks and c_E normalize local clock length; unit rulers normalize local spatial length.	NONE_CHARACTERIZE_ONLY
+I02	A09	middle_observer_transition	OPEN_NOT_OWNED	Separate local frames do not identify an A-carried tape with B's local tape.	NONE_CHARACTERIZE_ONLY
+I02	A10	reversal_and_frame_reciprocity	CONSTRAINT_NOT_SELECTOR	Frame Reciprocity requires equal law and covariant reversal but does not choose an event pairing.	NONE_CHARACTERIZE_ONLY
+I02	A11	terminal_phi_pair_ceff_compatibility	OUTPUT_COMPATIBLE_NOT_SELECTOR	Any resulting regular pair metric can be read terminally, but the readout does not construct it.	NONE_CHARACTERIZE_ONLY
+I02	A12	maximum_justified_interpretation	CONDITIONAL_LOCAL	Framed worldlines are useful declared data but insufficient for a unique pair relation.	NONE_CHARACTERIZE_ONLY
+I03	A01	object_and_arrow_type	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	A paired-event relation chooses endpoint events but not a unique comparison germ between them.	NONE_CHARACTERIZE_ONLY
+I03	A02	direct_founding_words_or_equations	OPEN_NOT_OWNED	No simultaneity or event-pairing convention is stated in the two founding postulates.	NONE_CHARACTERIZE_ONLY
+I03	A03	observer_worldline_and_frame	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	Worldlines and frames remain declared query data.	NONE_CHARACTERIZE_ONLY
+I03	A04	event_pairing	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	The event-pairing map is explicit input by definition of this interpretation.	NONE_CHARACTERIZE_ONLY
+I03	A05	ruler_direction_and_evolution	OPEN_NOT_OWNED	Paired events do not select ruler direction or its evolution.	NONE_CHARACTERIZE_ONLY
+I03	A06	local_pair_map	OPEN_NOT_OWNED	Several pair surfaces can share the same paired boundary events.	NONE_CHARACTERIZE_ONLY
+I03	A07	branch_or_path_at_cut_locus	OPEN_NOT_OWNED	Path and cut-locus branch remain unselected.	NONE_CHARACTERIZE_ONLY
+I03	A08	cE_calibration_normalization	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	c_E fixes the dimensions and local origin normalization of each declared frame.	NONE_CHARACTERIZE_ONLY
+I03	A09	middle_observer_transition	OPEN_NOT_OWNED	Pairing endpoints does not own associative calibration carry through a third observer.	NONE_CHARACTERIZE_ONLY
+I03	A10	reversal_and_frame_reciprocity	CONSTRAINT_NOT_SELECTOR	Reciprocity constrains the reversed paired relation but does not create it.	NONE_CHARACTERIZE_ONLY
+I03	A11	terminal_phi_pair_ceff_compatibility	OUTPUT_COMPATIBLE_NOT_SELECTOR	A supplied regular connecting geometry is still required before terminal evaluation.	NONE_CHARACTERIZE_ONLY
+I03	A12	maximum_justified_interpretation	CONDITIONAL_LOCAL	Explicit event pairing closes one semantic gap but not the pair-map or carry gaps.	NONE_CHARACTERIZE_ONLY
+I04	A01	object_and_arrow_type	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	The object is a complete local observer germ plus an intersection/branch query.	NONE_CHARACTERIZE_ONLY
+I04	A02	direct_founding_words_or_equations	OPEN_NOT_OWNED	The founding source does not enumerate this enriched query.	NONE_CHARACTERIZE_ONLY
+I04	A03	observer_worldline_and_frame	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	A's worldline, proper clock, and local frame are explicit query inputs.	NONE_CHARACTERIZE_ONLY
+I04	A04	event_pairing	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	B is paired by the declared regular intersection rule.	NONE_CHARACTERIZE_ONLY
+I04	A05	ruler_direction_and_evolution	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	The initial unit ruler and its evolution are supplied, not inferred from c_E.	NONE_CHARACTERIZE_ONLY
+I04	A06	local_pair_map	METRIC_DERIVED_AFTER_DECLARED_QUERY	F(y,s)=Exp_zA(y)[s n(y)] is metric-natural on the declared regular branch.	NONE_CHARACTERIZE_ONLY
+I04	A07	branch_or_path_at_cut_locus	CONDITIONAL_LOCAL	Normal-neighborhood uniqueness ends at conjugate points and cut loci.	NONE_CHARACTERIZE_ONLY
+I04	A08	cE_calibration_normalization	FOUNDING_DERIVED	y=c_E tau and unit affine s make h=eta at the A-origin.	NONE_CHARACTERIZE_ONLY
+I04	A09	middle_observer_transition	OPEN_NOT_OWNED	One local germ does not provide the transition law between separately built germs.	NONE_CHARACTERIZE_ONLY
+I04	A10	reversal_and_frame_reciprocity	CONSTRAINT_NOT_SELECTOR	Reversal must be constructed from the same relation; Reciprocity tests covariance rather than selecting n or the branch.	NONE_CHARACTERIZE_ONLY
+I04	A11	terminal_phi_pair_ceff_compatibility	OUTPUT_COMPATIBLE_NOT_SELECTOR	The pullback h gives the exact terminal phi_pair on its regular domain.	NONE_CHARACTERIZE_ONLY
+I04	A12	maximum_justified_interpretation	CONDITIONAL_LOCAL	This is the strongest local positive construction: query-supplied data plus metric-derived geometry.	NONE_CHARACTERIZE_ONLY
+I05	A01	object_and_arrow_type	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	The calibrated pair surface or branch-labelled relation is itself the supplied arrow data.	NONE_CHARACTERIZE_ONLY
+I05	A02	direct_founding_words_or_equations	OPEN_NOT_OWNED	Calling a supplied relation an ordered comparison does not make its construction founded.	NONE_CHARACTERIZE_ONLY
+I05	A03	observer_worldline_and_frame	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	Observer data are included by this enlarged query definition.	NONE_CHARACTERIZE_ONLY
+I05	A04	event_pairing	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	Event pairing is encoded by the supplied relation.	NONE_CHARACTERIZE_ONLY
+I05	A05	ruler_direction_and_evolution	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	Ruler evolution is encoded by the supplied comparison Jacobian.	NONE_CHARACTERIZE_ONLY
+I05	A06	local_pair_map	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	The map is input, not derived merely because its pullback is metric-covariant.	NONE_CHARACTERIZE_ONLY
+I05	A07	branch_or_path_at_cut_locus	BRANCH_RELATION_NOT_SINGLE_MAP	A branch-labelled family is honest; no preferred branch follows from the label set.	NONE_CHARACTERIZE_ONLY
+I05	A08	cE_calibration_normalization	FOUNDING_DERIVED	A-calibration fixes h=eta at the declared origin and makes the terminal ratio dimensionless.	NONE_CHARACTERIZE_ONLY
+I05	A09	middle_observer_transition	OPEN_NOT_OWNED	A family of supplied pair surfaces still needs a matched intermediate calibration rule.	NONE_CHARACTERIZE_ONLY
+I05	A10	reversal_and_frame_reciprocity	CONSTRAINT_NOT_SELECTOR	A supplied inverse and matched composition can satisfy Reciprocity; the axiom does not generate them.	NONE_CHARACTERIZE_ONLY
+I05	A11	terminal_phi_pair_ceff_compatibility	FOUNDING_DERIVED	On every supplied regular calibrated h, phi_pair=(1/4)log[(-det h)/h00^2] is exact.	NONE_CHARACTERIZE_ONLY
+I05	A12	maximum_justified_interpretation	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	The construction is sufficient by definition but is not a derivation of the physical functor.	NONE_CHARACTERIZE_ONLY
+I06	A01	object_and_arrow_type	CONSTRAINT_NOT_SELECTOR	Equivariance is a condition on arrows already in the comparison groupoid.	NONE_CHARACTERIZE_ONLY
+I06	A02	direct_founding_words_or_equations	FOUNDING_DERIVED	Composition, reversal, neutral comparison, and equal law for exchanged frames are founding constraints.	NONE_CHARACTERIZE_ONLY
+I06	A03	observer_worldline_and_frame	OPEN_NOT_OWNED	Equivariance does not create observer worldlines or frames.	NONE_CHARACTERIZE_ONLY
+I06	A04	event_pairing	CONSTRAINT_NOT_SELECTOR	A symmetry maps admissible event pairings to reversed pairings; it need not select one.	NONE_CHARACTERIZE_ONLY
+I06	A05	ruler_direction_and_evolution	CONSTRAINT_NOT_SELECTOR	Ruler evolution must transform covariantly but is not chosen by covariance.	NONE_CHARACTERIZE_ONLY
+I06	A06	local_pair_map	CONSTRAINT_NOT_SELECTOR	Many distinct pair maps can all be natural under frame changes.	NONE_CHARACTERIZE_ONLY
+I06	A07	branch_or_path_at_cut_locus	CONSTRAINT_NOT_SELECTOR	Reciprocity may exchange branch labels without collapsing a branch family.	NONE_CHARACTERIZE_ONLY
+I06	A08	cE_calibration_normalization	CONSTRAINT_NOT_SELECTOR	The fixed calibration must be respected, but covariance does not supply it beyond c_E.	NONE_CHARACTERIZE_ONLY
+I06	A09	middle_observer_transition	CONSTRAINT_NOT_SELECTOR	Associativity can reject unmatched resets but cannot identify the middle state without transition data.	NONE_CHARACTERIZE_ONLY
+I06	A10	reversal_and_frame_reciprocity	FOUNDING_DERIVED	On matched abstract comparisons, reversal and additive depth are exact.	NONE_CHARACTERIZE_ONLY
+I06	A11	terminal_phi_pair_ceff_compatibility	OUTPUT_COMPATIBLE_NOT_SELECTOR	The terminal evaluator is frame-covariant but covariance alone does not choose its h.	NONE_CHARACTERIZE_ONLY
+I06	A12	maximum_justified_interpretation	CONSTRAINT_NOT_SELECTOR	Observer-frame Reciprocity is a powerful regression gate, not an existence/uniqueness theorem.	NONE_CHARACTERIZE_ONLY
+I07	A01	object_and_arrow_type	FOUNDING_DERIVED	c_E is the fixed conversion joining clock duration and ruler length in the founding pair.	NONE_CHARACTERIZE_ONLY
+I07	A02	direct_founding_words_or_equations	FOUNDING_DERIVED	The founding source explicitly dimension-matches c_E dt and dr.	NONE_CHARACTERIZE_ONLY
+I07	A03	observer_worldline_and_frame	OPEN_NOT_OWNED	A conversion constant does not specify observer histories.	NONE_CHARACTERIZE_ONLY
+I07	A04	event_pairing	FAILS_REQUIRED_TYPE	c_E has units of speed and cannot by itself be an event-pairing map.	NONE_CHARACTERIZE_ONLY
+I07	A05	ruler_direction_and_evolution	FAILS_REQUIRED_TYPE	c_E supplies no spatial direction or transport law.	NONE_CHARACTERIZE_ONLY
+I07	A06	local_pair_map	FAILS_REQUIRED_TYPE	Local scale calibration is not a map from a two-parameter query into spacetime.	NONE_CHARACTERIZE_ONLY
+I07	A07	branch_or_path_at_cut_locus	FAILS_REQUIRED_TYPE	A scalar calibration cannot select a cut-locus branch.	NONE_CHARACTERIZE_ONLY
+I07	A08	cE_calibration_normalization	FOUNDING_DERIVED	Proper clock plus c_E and a unit ruler give h00=-1,h01=0,h11=1 at a declared A-origin.	NONE_CHARACTERIZE_ONLY
+I07	A09	middle_observer_transition	OPEN_NOT_OWNED	The same local unit convention at B does not identify it with the A-carried relational state.	NONE_CHARACTERIZE_ONLY
+I07	A10	reversal_and_frame_reciprocity	CONSTRAINT_NOT_SELECTOR	Both directions use the same c_E, satisfying frame equality without selecting the relation.	NONE_CHARACTERIZE_ONLY
+I07	A11	terminal_phi_pair_ceff_compatibility	OUTPUT_COMPATIBLE_NOT_SELECTOR	c_eff/c_E=exp(-2 phi_pair) is calibrated only after h is supplied.	NONE_CHARACTERIZE_ONLY
+I07	A12	maximum_justified_interpretation	FOUNDING_DERIVED	c_E fixes local units and the terminal reference value, not position, simultaneity, branch, or carry.	NONE_CHARACTERIZE_ONLY
+I08	A01	object_and_arrow_type	BRANCH_RELATION_NOT_SINGLE_MAP	The metric exponential defines a relation of regular initial data and endpoints.	NONE_CHARACTERIZE_ONLY
+I08	A02	direct_founding_words_or_equations	OPEN_NOT_OWNED	The founding reciprocal equations do not mention exponential or Jacobi maps.	NONE_CHARACTERIZE_ONLY
+I08	A03	observer_worldline_and_frame	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	A base observer curve and initial frame are required inputs.	NONE_CHARACTERIZE_ONLY
+I08	A04	event_pairing	CONDITIONAL_LOCAL	A unique transverse intersection can induce pairing only on a declared regular branch.	NONE_CHARACTERIZE_ONLY
+I08	A05	ruler_direction_and_evolution	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	Initial direction and its observer-history evolution remain query data.	NONE_CHARACTERIZE_ONLY
+I08	A06	local_pair_map	METRIC_DERIVED_AFTER_DECLARED_QUERY	The complete metric determines each regular exponential/Jacobi branch.	NONE_CHARACTERIZE_ONLY
+I08	A07	branch_or_path_at_cut_locus	BRANCH_RELATION_NOT_SINGLE_MAP	At cut loci the natural metric output is the full branch relation.	NONE_CHARACTERIZE_ONLY
+I08	A08	cE_calibration_normalization	QUERY_SUPPLIED_NOT_FOUNDING_DERIVED	c_E calibrates the base clock coordinate but not the branch relation.	NONE_CHARACTERIZE_ONLY
+I08	A09	middle_observer_transition	OPEN_NOT_OWNED	dExp position blocks do not compose; full Jacobi phase needs enlarged carried data and a reduction.	NONE_CHARACTERIZE_ONLY
+I08	A10	reversal_and_frame_reciprocity	CONSTRAINT_NOT_SELECTOR	Metric naturality and reversal organize branches without choosing one physical member.	NONE_CHARACTERIZE_ONLY
+I08	A11	terminal_phi_pair_ceff_compatibility	OUTPUT_COMPATIBLE_NOT_SELECTOR	Each regular branch pullback is terminally readable; equal readouts need not identify equal maps.	NONE_CHARACTERIZE_ONLY
+I08	A12	maximum_justified_interpretation	BRANCH_RELATION_NOT_SINGLE_MAP	Geometry supplies a local multirelation, not a universal single-valued physical functor.	NONE_CHARACTERIZE_ONLY
+I09	A01	object_and_arrow_type	CONSTRAINT_NOT_SELECTOR	X_max is a condition on realized observer-pair separations and depths.	NONE_CHARACTERIZE_ONLY
+I09	A02	direct_founding_words_or_equations	OPEN_NOT_OWNED	The founding reciprocal derivation does not construct the numerical or global X_max realization.	NONE_CHARACTERIZE_ONLY
+I09	A03	observer_worldline_and_frame	OPEN_NOT_OWNED	An asymptotic bound does not supply observer histories.	NONE_CHARACTERIZE_ONLY
+I09	A04	event_pairing	FAILS_REQUIRED_TYPE	A limiting value cannot pair events by itself.	NONE_CHARACTERIZE_ONLY
+I09	A05	ruler_direction_and_evolution	FAILS_REQUIRED_TYPE	A scalar asymptote supplies no ruler direction or evolution.	NONE_CHARACTERIZE_ONLY
+I09	A06	local_pair_map	FAILS_REQUIRED_TYPE	Endpoint behavior does not generate a local pair map.	NONE_CHARACTERIZE_ONLY
+I09	A07	branch_or_path_at_cut_locus	CONSTRAINT_NOT_SELECTOR	Every admitted branch must meet the limit gate where applicable, but the gate does not choose the branch.	NONE_CHARACTERIZE_ONLY
+I09	A08	cE_calibration_normalization	OUTPUT_COMPATIBLE_NOT_SELECTOR	c_E fixes ordinary-regime calibration while X_max constrains the far asymptote.	NONE_CHARACTERIZE_ONLY
+I09	A09	middle_observer_transition	OPEN_NOT_OWNED	The asymptotic gate gives no middle-observer transition.	NONE_CHARACTERIZE_ONLY
+I09	A10	reversal_and_frame_reciprocity	CONSTRAINT_NOT_SELECTOR	A frame-shared limit must respect exchange, but that requirement is not yet an all-frame theorem.	NONE_CHARACTERIZE_ONLY
+I09	A11	terminal_phi_pair_ceff_compatibility	OUTPUT_COMPATIBLE_NOT_SELECTOR	Many terminal profiles can diverge at the same finite separation.	NONE_CHARACTERIZE_ONLY
+I09	A12	maximum_justified_interpretation	CONSTRAINT_NOT_SELECTOR	X_max is a necessary global gate after relation realization, not the relation owner.	NONE_CHARACTERIZE_ONLY
