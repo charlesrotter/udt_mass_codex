@@ -1,0 +1,19 @@
+premise_id	object	status	provenance	use_or_exclusion
+P01	complete twisted-S3 metrics C01-C06	pinned-by-THEORY	frozen intrinsic-pair and holonomy audits	bounded branch universe; not universalized
+P02	lambda values -2,-1,0,1/2,1,2	free-and-explored	frozen branch configurations	all six retained; no lambda selected
+P03	intrinsic timelike clock line	pinned-by-THEORY	curvature-invariant unique Killing-line certificate	constructs intrinsic clock projector
+P04	intrinsic spacelike ruler line	pinned-by-THEORY	twist of the intrinsic Killing line	constructs intrinsic ruler projector
+P05	intrinsic screen plane	pinned-by-THEORY	orthogonal complement of clock+ruler	plane owned; no screen axis silently selected
+P06	Levi-Civita path transport U_gamma	pinned-by-THEORY	metric-compatible connection on a supplied path	isometric carry with complete mixing retained
+P07	comparison path gamma	free-and-explored	supplied regular path/path family	path label retained; no shortest path selected
+P08	carried grading X_car	pinned-by-THEORY	U_gamma X_intrinsic(p) U_gamma^-1	path-labelled endpoint state
+P09	locally rebuilt grading X_intrinsic(q)	pinned-by-THEORY	endpoint complete metric	independent endpoint reconstruction
+P10	middle morphism M_B	OPEN	current G42 gate	must be derived, classified as a set/orbit, or remain open
+P11	proper-orthochronous Lorentz alignment arena	CHOSE	minimal isometric arena for comparing two metric-self-adjoint gradings	if relaxed to GL, nonuniqueness can only grow; scope stated
+P12	adapted screen basis	free-and-explored	residual stabilizer data	never promoted to metric-owned structure
+P13	endpoint frame changes	free-and-explored	local orthonormal gauge	all owned outputs must transform covariantly or be invariant
+P14	polar/minimal/shortest representative	pinned-by-HABIT	no native positive norm or objective registered	audited only as an unowned selector; never adopted
+P15	common pair atlas/overlap map	CONDITIONAL	three-observer audit	may supply M only after the atlas is supplied or derived
+P16	physical action/source/matter/bootstrap	OPEN	outside kinematic branch evidence	excluded from this audit
+P17	universal c_eff/scalar depth	OPEN	G35-G42 premise registry	not inferred from alignment alone
+P18	protected curvature atlas	EXCLUDED	explicit workstation guard	must not be read, cited, staged, or modified

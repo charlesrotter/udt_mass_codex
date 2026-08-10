@@ -1,0 +1,19 @@
+source_id	path	role
+S01	CURRENT_SCIENTIFIC_PREMISES.tsv	current G42 precedence and exclusions
+S02	udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md	controlling transition-ownership correction
+S03	udt_branch_nonisometric_calibration_transition_audit_2026-08-10/EXACT_DERIVATION.md	carried grading and open M_B type
+S04	udt_branch_nonisometric_calibration_transition_audit_2026-08-10/NEXT_STEP.md	bounded next gate
+S05	udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md	matched and mismatched middle-state status
+S06	udt_three_observer_overlap_calibration_carry_audit_2026-08-10/EXACT_DERIVATION.md	overlap transition and descent algebra
+S07	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/AUDIT_REPORT.md	full-holonomy ruling
+S08	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/EXACT_DERIVATION.md	curvature holonomy and nonparallel grading
+S09	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/LOCAL_NABLA_X.tsv	exact local obstruction census
+S10	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/LOOP_HOLONOMY.tsv	loop return evidence
+S11	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/AUDIT_REPORT.md	metric-intrinsic clock/ruler ownership
+S12	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/EXACT_DERIVATION.md	complete coframe and intrinsic pair algebra
+S13	udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/EXACT_DERIVATION.md	projector grading and nonparallel reduction
+S14	udt_reciprocal_transport_holonomy_atlas_2026-07-26/EXACT_DERIVATION.md	grading stabilizer algebra
+S15	udt_killing_plane_strata_transition_audit_2026-07-28/EXACT_DERIVATION.md	clock/ruler strata and symmetry ownership
+S16	udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md	complete branch-family scope
+S17	udt_global_relation_family_branch_classification_2026-08-10/EXACT_DERIVATION.md	branch relation-family algebra
+S18	udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md	complete mixing and scalar-readout guard

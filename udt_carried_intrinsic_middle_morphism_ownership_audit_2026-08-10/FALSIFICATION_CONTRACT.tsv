@@ -1,0 +1,16 @@
+gate_id	claim_or_candidate	pass_condition	falsifier	maximum_readout
+F01	identity reset	X_car equals X_intrinsic for every retained path and stratum	one frozen nonzero nabla-X or loop-holonomy witness with unequal gradings	IDENTITY_DERIVED or IDENTITY_REFUTED
+F02	alignment existence	M set is nonempty on each regular same-lambda stratum	a same-lambda causal eigenspace signature mismatch or exact no-conjugator proof	EXISTS_BY_STRATUM or NO_ALIGNMENT
+F03	canonical uniqueness	exactly one metric-natural M survives endpoint gauge and all owned data	two distinct admissible M values related by a nontrivial stabilizer	UNIQUE or NONUNIQUE
+F04	adapted-coframe selector	result is unchanged as an abstract map under arbitrary endpoint adapted-frame changes	one residual screen rotation changes the selected M while leaving all owned inputs unchanged	OWNED or PRESENTATION_DEPENDENT
+F05	projector/flag alignment	map sends clock/ruler projectors and screen plane correctly	one mapped projector differs exactly	PASS or FAIL
+F06	full-coframe alignment	metric owns individual screen axes as well as their plane	continuous screen stabilizer leaves metric/projectors fixed	OWNED or UNOWNED_EXTRA_FRAME
+F07	polar/minimal representative	selection uses only a metric-native declared scalar objective	requires Euclideanization, arbitrary norm, path metric, or extra time direction	OWNED or EXTRA_SELECTOR
+F08	path independence	relative object is endpoint-only for every retained path	two same-endpoint paths differ by holonomy outside the intrinsic stabilizer	ENDPOINT_DESCENT or PATH_LABEL_REQUIRED
+F09	loop closure	a loop returns the intrinsic grading exactly	one noncentral loop holonomy changes it	CLOSES or HOLONOMY_OBSTRUCTION
+F10	common-atlas transition	M follows by chain rule from one supplied/derived atlas	pair surfaces are independently rebuilt or atlas is absent	CONDITIONAL or DERIVED
+F11	relative-orbit ownership	the entire conjugator torsor/double-coset is frame-covariant and independent of representatives	orbit changes under a pure endpoint frame change	DERIVED or FAIL
+F12	lambda completeness	all six lambda strata are classified	any unclassified lambda among -2,-1,0,1/2,1,2	COMPLETE_BOUNDED or INCOMPLETE
+F13	false physical promotion	alignment classification alone supplies pair functor scalar depth or c_eff	any required path pair-surface calibration or scalar character remains open	NO_PROMOTION
+F14	independent verification	separate implementation reproduces dimensions identities and counterexamples	shared production import or mismatch	VERIFIED or FAIL
+F15	catch proofs	identity false-uniqueness screen-fixing and path-erasure defects each turn a check red	one injected defect remains green	EXERCISED or DECORATIVE
