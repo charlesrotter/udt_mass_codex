@@ -130,10 +130,24 @@ functor remains OPEN and is now localized to bilocal, global-completion, branch-
 dynamical structure. The prior flag result and CMB/SNe/`X_max` results survive in their stated
 scopes.
 
-**NEXT GATE (not launched):** build a complete-branch calibration-owner atlas over already banked
-metric branches. Test intrinsic Killing/conformal-Killing or recurrent lines, branch-stable
-curvature eigenlines, global density states, and finite-cell normalization data without selecting a
-desired branch or inventing a connection. No eigenvalue solve is presently authorized.
+**TERMINAL RECIPROCAL-`c_E` PAIR-METRIC READOUT — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md` first. On a supplied
+regular A-calibrated observer-pair metric, the clock/ruler/shift decomposition uniquely returns the
+reciprocal log imbalance `phi_pair=(1/2)log(L/T)`. Exact supplied-Jacobian witnesses put the
+complete angular/mixing orchestra into the pair metric **before** that readout. This is a major
+type correction: reciprocal `c_E` is the terminal evaluator of a supplied calibrated tape, not the
+rule that constructs the tape. It does not derive the physical pair surface/comparison Jacobian,
+calibration-state owner, path or endpoint selection, universal mixed-geometry `c_eff`, or `X_max`
+profile. The external gpt-5.4 review reproduced 75/75 symbolic and 55/55 independent checks and
+required those caveats. Any physical signed depth still needs an owned cocycle-type composition on
+its properly typed query space.
+
+**NEXT GATE (not launched):** classify candidate physical calibrated pair maps—orthogonal
+exponential/Fermi observer tubes, complete-coframe-distribution pair maps, stationary Killing
+controls, accelerated tubes, cut-locus branches, and third-observer composition—without selecting
+a desired branch. This subsumes the earlier complete-branch calibration-owner atlas as one input,
+not a separate scalar-state search. No eigenvalue solve is presently authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
@@ -143,9 +157,11 @@ gated.
 1. **phi+orchestra — the milestone (banked 2026-08-05):** `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.
    The two-observer comparison has a frame-covariant strain C_A=A^dag A; exact physical depth has
    a groupoid-cocycle home, but the strain eigenvalue itself is not generally compositional.
-2. **the c_eff REFRAME (blind-verified 2026-08-06):** `udt_ceff_depth_orchestra_integration_2026-08-06.md`.
-   c_eff = the depth profile = the strain eigenvalue lambda_t, ONE object; invariant = the two-point
-   ratio (1+z)^-2; the reciprocal-lock product is chart-gauge (canon C-2026-08-06-1).
+2. **the c_eff REFRAME (blind-verified 2026-08-06, now scope-corrected by the terminal-pair audit):**
+   `udt_ceff_depth_orchestra_integration_2026-08-06.md`. The founded pure reciprocal branch retains
+   `c_eff/c_E=exp(-2phi)` and the two-point ratio. Complete-strain eigenvalues remain structural
+   readouts, not a universal compositional physical `c_eff`; the mixed-geometry identification is
+   conditional on the physical calibrated pair map.
 3. **mu TURNED ON (the inertia ruling, 2026-08-08):** [[mu-on-is-the-default]] — mu (the
    phi-matter/mixing coupling) is ALWAYS ON; mu=0 is a scaffold; the D1/D2 "featureless courier"
    was a partly-tautological mu-off slice. mu = the reciprocal-lock defect
@@ -190,6 +206,7 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
+`udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md` →
 `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md` →
 `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md` →
 `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md` →

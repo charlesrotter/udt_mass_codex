@@ -4,11 +4,16 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; calibration-state solder gate complete)
+## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; terminal pair-metric readout complete)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`: on a supplied
+regular A-calibrated pair metric the exact clock/ruler/shift decomposition uniquely returns the
+reciprocal log imbalance within that fixed calibration. Supplied complete Jacobians show
+angular/mixing modulation before readout. The physical pair-map/calibration owner, universal
+mixed-geometry `c_eff`, signed composition, and `X_max` profile remain open. Its immediate parent is
 `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`: the reciprocal
 calibration line is derived, regular pair directions are conditionally available, and canonical
 local metric transport gives zero depth. No universal nonzero order-zero/first-jet solder exists;
@@ -41,8 +46,8 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is a complete-branch calibration-owner atlas over already banked metric
-branches, testing intrinsic unnormalized lines or density states without inventing a connection or
+Nothing is in flight. NEXT is a calibrated pair-map owner atlas, including the already banked
+complete-branch unnormalized lines/density states as candidates, without inventing a connection or
 privileging a desired branch. No profile repair, inner cutoff, eigenvalue solve, or FD2 is
 authorized. Do not promote C1, select `k0`, select the best standalone ladder, or invent source
 weights.

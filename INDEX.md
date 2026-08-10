@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION. Read
+   `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
@@ -32,8 +33,12 @@
    associated calibration line and conditionally constructs regular pair directions, while proving
    canonical local metric transport gives zero depth and no universal nonzero solder exists at
    order zero or first metric jet. The stationary Killing ratio is a conditional positive
-   prototype; the general bilocal/global state remains open. NEXT is a complete-branch
-   calibration-owner atlas; no eigensolve, profile repair, inner cutoff, or FD2. Then read
+   prototype; the general bilocal/global state remains open. The controlling positive readout is
+   now `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`: on a supplied
+   regular A-calibrated pair metric the reciprocal log imbalance is uniquely determined within
+   that fixed calibration, with angular/mixing structure entering before readout. The physical
+   pair-map/calibration owner and universal mixed-geometry `c_eff` remain open. NEXT is a calibrated
+   pair-map owner atlas; no eigensolve, profile repair, inner cutoff, or FD2. Then read
    the parent menu
    `udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 remains `RA2-PARTIAL-WEAK`; BAO is
    BANKED + TABLED; the Assembly lane stays ARCHIVED-LEGACY.
@@ -44,9 +49,12 @@
 
 ## Current scientific routing
 
-- `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md` — current comparison
-  foundation gate: abstract calibration line derived; local solder no-go; stationary positive
-  prototype; general bilocal/global calibration state open.
+- `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md` — current terminal
+  readout gate: exact reciprocal log imbalance on a supplied fixed calibrated pair metric; physical
+  pair-map/calibration owner and universal mixed-geometry `c_eff` remain open.
+- `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md` — immediate foundation
+  gate: abstract calibration line derived; local solder no-go; stationary positive prototype;
+  general bilocal/global calibration state open.
 - `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md` — exact conditional
   reciprocal-root flag character and ownership lineage immediately upstream.
 - `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md` — current profile-role

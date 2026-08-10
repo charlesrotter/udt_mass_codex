@@ -22,8 +22,13 @@
 > The solder audit is COMPLETE at
 > `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`: calibration line
 > derived, regular pair directions conditional, local metric solder zero/no-go through first jet,
-> stationary Killing ratio conditional positive, general bilocal/global state open. NEXT GATE = a
-> complete-branch calibration-owner atlas; no profile repair, inner cutoff, eigenvalue solve, or FD2;
+> stationary Killing ratio conditional positive, general bilocal/global state open. The terminal
+> pair-metric audit is COMPLETE at
+> `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`: on a supplied
+> regular A-calibrated pair metric the reciprocal log imbalance is derived within that fixed
+> calibration, with supplied angular/mixing Jacobians entering before readout. The physical pair
+> map, calibration-state owner, universal mixed-geometry c_eff, and Xmax profile remain open. NEXT
+> GATE = a calibrated pair-map owner atlas; no profile repair, inner cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build
 > = a broadband-clustered fair mock, NOT run = post-hoc F-RETRO). Foundation to build forward from:
@@ -34,6 +39,7 @@
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
 topmost block (2026-08-09), then
+`udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`,
 `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`,
 `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`,
 `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`,

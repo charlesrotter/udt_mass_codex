@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** First read
+   `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
@@ -59,7 +60,10 @@ do not dump whole long files or recursively open cited evidence during orientati
    the abstract reciprocal calibration seed and an exact conditional flag character. The solder
    audit derives the associated calibration line, conditionally constructs regular pair directions,
    proves canonical local metric transport has zero depth, and leaves the general physical state
-   bilocal/global/branch/dynamical. NEXT is the complete-branch calibration-owner atlas. No profile
+   bilocal/global/branch/dynamical. The terminal pair-metric audit derives the unique reciprocal
+   log imbalance only on a supplied regular A-calibrated pair metric and leaves the physical pair
+   map, calibration owner, universal mixed-geometry `c_eff`, and `X_max` profile open. NEXT is the
+   calibrated pair-map owner atlas. No profile
    repair, inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
@@ -91,9 +95,12 @@ because historical verifiers depend on it.
 
 **Compact semantic regression guard:** the founding character acts on **supplied ordered depth**;
 pointwise `phi` is a presentation potential on the supplied factorization, not a claimed universal
-physical scalar. The complete-arrow strain and angular/mixing modulation result is derived
-structural evidence, and exact reciprocal depth belongs in a real observer/path groupoid
-1-cocycle; neither selects the unique physical cocycle. `CHOSE_COMPARISON_CONFIGURATION` remains
+physical scalar. On a supplied fixed calibrated pair metric, the terminal reciprocal log imbalance
+is derived and angular/mixing data enter the pullback before readout; the pair map and calibration
+owner are not derived, and the mixed-geometry physical `c_eff` remains conditional. The
+complete-arrow strain and angular/mixing modulation result is derived structural evidence, and
+exact physical signed reciprocal depth belongs in an owned typed observer/path cocycle; neither
+selects the unique physical cocycle. `CHOSE_COMPARISON_CONFIGURATION` remains
 comparison-only;
 `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` keeps strong local CSN inactive. The generic metric count is
 a generic configuration-arena count. `X_max` is a `WORKING_FOUNDATIONAL_FRAME` for the

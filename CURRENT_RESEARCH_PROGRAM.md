@@ -50,8 +50,14 @@ calibration-line realization open. The solder audit is now complete at
 associated calibration line and conditionally constructs regular pair directions, but canonical
 local metric transport gives zero depth and no universal nonzero solder exists through first
 metric-jet order. The stationary Killing ratio is a conditional positive prototype. The next
-unlaunched gate is a complete-branch calibration-owner atlas; no profile repair, inner cutoff,
-eigenvalue solve, or FD2 restart is authorized.
+controlling layer is
+`udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`: on a supplied
+regular A-calibrated pair metric the reciprocal log imbalance is exactly and uniquely read within
+that fixed calibration, and supplied-Jacobian witnesses carry angular/mixing data into the
+pullback before readout. The physical pair map, calibration-state owner, universal mixed-geometry
+`c_eff`, signed composition, and global `X_max` profile remain open. The next unlaunched gate is a
+calibrated pair-map owner atlas; no profile repair, inner cutoff, eigenvalue solve, or FD2 restart
+is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane

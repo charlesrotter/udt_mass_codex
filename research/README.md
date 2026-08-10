@@ -8,6 +8,7 @@ record. Root `LIVE.md` wins every status disagreement.
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**: first read
+`../udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
@@ -29,8 +30,13 @@ exact conditional flag character, while leaving its physical flag, update, arrow
 realization open. The solder audit derives the calibration line and conditionally supplies regular
 pair directions, while proving local canonical metric transport has zero depth and no universal
 nonzero order-zero/first-jet solder exists. The stationary Killing ratio is a conditional positive
-prototype; the general state remains bilocal/global. NEXT is a complete-branch calibration-owner
-atlas; no eigensolve, profile repair, inner cutoff, or FD2. Then read the parent menu
+prototype; the general state remains bilocal/global. The previously proposed complete-branch
+calibration-owner atlas is now only one candidate input to the new terminal pair-metric result.
+That result derives the reciprocal
+log imbalance on a supplied fixed calibrated pair metric and shows supplied angular/mixing
+Jacobians entering before readout; it leaves the physical pair map, calibration owner, and
+universal mixed-geometry `c_eff` open. NEXT is a calibrated pair-map owner atlas; no eigensolve,
+profile repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a
 prediction. The BAO lane is `BANKED + TABLED`.
 

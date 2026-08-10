@@ -84,10 +84,20 @@ solder. A stationary intrinsic Killing-norm ratio is the conditional positive pr
 it provides a shared unnormalized calibration state. The universal physical calibration-state
 functor remains OPEN at the bilocal/global/branch/dynamical level.
 
-**NEXT GATE, not launched:** audit already banked complete branches for intrinsic unnormalized
-calibration owners; do not invent a tangent connection or privilege a desired universe. C1 remains
-unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization
-remain gated. The parent menu is
+**TERMINAL RECIPROCAL-`c_E` PAIR-METRIC READOUT = COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md` first. On a supplied
+regular A-calibrated pair metric, the exact clock/ruler/shift decomposition gives the unique
+reciprocal log imbalance within that fixed calibration. Supplied complete-Jacobian witnesses show
+angular/mixing modulation before readout. This does not derive the physical pair map,
+calibration-state owner, universal mixed-geometry `c_eff`, signed composition, endpoint/path
+selection, or `X_max` profile. External gpt-5.4 review reproduced 75/75 symbolic and 55/55
+independent checks and returned `VERIFIED-WITH-CAVEATS`.
+
+**NEXT GATE, not launched:** classify the physical calibrated pair-map candidates and their full
+pullback metrics, including the already-banked complete-branch owner candidates. Do not invent a
+tangent connection or privilege a desired universe. C1 remains unselected; FD2/FD3/FD4, RA1-V,
+GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu is
 `udt_freedata_inventory_MAP_2026-08-09.md`.
 
 **BAO LANE = BANKED + TABLED** (Charles 2026-08-09; not abandoned). M1-M3d complete + verified:
