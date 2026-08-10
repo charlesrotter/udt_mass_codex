@@ -1,0 +1,11 @@
+gate_id	failure_condition	mandatory_disposition
+F01	Levi-Civita transport called non-isometric reciprocal transition	AUDIT_FAIL
+F02	raw coordinate or coframe Jacobian promoted to invariant physical arrow	AUDIT_FAIL
+F03	missing ruler scale filled by unowned TL=1	AUDIT_FAIL
+F04	set-valued projector called calibrated observer arrow	AUDIT_FAIL
+F05	independently built middle calibration states silently identified	AUDIT_FAIL
+F06	associativity conflated with path independence or holonomy forced to zero	AUDIT_FAIL
+F07	query-selected exponential or Jacobi map called metric-selected	AUDIT_FAIL
+F08	stable identity missing or duplicated	AUDIT_FAIL
+F09	action source GR mechanics fit or desired cosmology imported	AUDIT_FAIL
+F10	protected curvature-atlas path read cited staged or modified	AUDIT_FAIL
