@@ -1,0 +1,22 @@
+{
+  "branch_count": 24,
+  "crosswalk_rows": 57,
+  "disposition_counts": {
+    "COMMON_CALIBRATED_ATLAS_OWNED": 1,
+    "HISTORICAL_PREMISES_CHANGED_REVIEW_REQUIRED": 1,
+    "INSUFFICIENT_TYPED_EVIDENCE": 9,
+    "LOCAL_RELATIONS_GLOBAL_OWNERSHIP_OPEN": 5,
+    "NO_COMPLETE_FAMILY_ON_DECLARED_BRANCH": 4,
+    "PATH_BRANCH_GROUPOID_OWNED": 2,
+    "STRATIFIED_MIXTURE_OWNED": 2
+  },
+  "exact_controls": {
+    "common_atlas_triangle_identity": true,
+    "explicit_middle_transition_changes_composite": true,
+    "matrix_associativity": true,
+    "path_loop_may_be_nonidentity": true,
+    "rank_degenerate_boundary_detected": true
+  },
+  "maximum_conclusion": "GEOMETRIC_RELATION_FAMILY_STRUCTURES_CLASSIFIED__NO_PHYSICAL_GLOBAL_PAIR_RELATION_SELECTED",
+  "status": "PASS"
+}
