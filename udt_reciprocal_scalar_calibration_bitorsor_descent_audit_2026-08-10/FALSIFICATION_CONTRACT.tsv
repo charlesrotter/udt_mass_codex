@@ -1,0 +1,9 @@
+gate_id	claim	falsifier	maximum_if_failed
+F01	delta_RF is constant on the full left/right screen gauge orbit	one admitted screen rotation changes b1 b2 or delta_RF	SCREEN_GAUGE_OBSTRUCTS_ONE_OR_MORE_READOUTS
+F02	terminal pair-metric readout descends	one admitted gauge representative changes the induced 2x2 Gram metric or log imbalance	DELTA_RF_ONLY_DESCENDS
+F03	conditional R17 scalar descends	one admitted stabilizer changes X or the reciprocal exponent	SCREEN_GAUGE_OBSTRUCTS_ONE_OR_MORE_READOUTS
+F04	balanced composition preserves descended readouts	paired middle gauge action changes the composite scalar	TYPE_FAILURE
+F05	alignment does not generate calibration magnitude	an isometric alignment has nonzero clock or plane log dilation	FULL_SCALAR_AND_CALIBRATION_OWNER_DESCENT_DERIVED
+F06	all six regular strata share the same projector-level ruling	one lambda stratum changes the full-projector stabilizer or descent result	SCOPED_STRATUM_SPLIT
+F07	path labels remain necessary	frozen full-holonomy loops all close trivially	ENDPOINT_ONLY_REASSESSMENT
+F08	no physical promotion occurs	result requires selecting R17 delta_RF pair surface or c_eff	TYPE_FAILURE
