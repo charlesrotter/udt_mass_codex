@@ -4,7 +4,7 @@
 
 > **READ `LIVE.md` FIRST.** It wins every disagreement.
 >
-> **⚠ BRANCH: `grok` (2026-08-09).** Synchronize it before orientation.
+> **⚠ BRANCH: `grok` (2026-08-10).** Synchronize it before orientation.
 
 **CURRENT GUARDS:** use `CURRENT_SCIENTIFIC_PREMISES.tsv` for high-risk premise status and stop on
 any conflict with LIVE or a cited controlling source. This workstation may contain
@@ -16,7 +16,7 @@ them without an explicit later dispatch; a clean clone may not contain them.
 observer-pair positional-dilation asymptote, not a material wall, preferred center, radial edge,
 finite-cell seal, or boundary term.
 
-## RESTART ANCHOR (2026-08-09) — READ LIVE.md TOPMOST FIRST
+## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
 
 **ACTIVE ARC = CMB PEAK OPTIMIZATION.** RA1 remains the scoped mu-on ladder lead and RA2 remains
 `RA2-PARTIAL-WEAK`. The full corrected FD1 atlas is now COMPLETE and `VERIFIED-WITH-CAVEATS`:
@@ -101,9 +101,18 @@ the metric plus a full declared query and regular branch; no universal tape foll
 endpoints. Coframe-plane, stationary, accelerated, cut-locus, and third-observer cases retain their
 exact conditional or branch-valued scopes. External review found no load-bearing correction.
 
-**NEXT GATE, not launched:** audit whether the founding ordered-observer semantics own the complete
-calibrated pair-relation functor, including event pairing, branch relations, and carried middle
-calibration. Do not invent a tangent connection or privilege a desired universe. C1 remains
+**FOUNDING PAIR-RELATION OWNERSHIP = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md` first. The founded
+object is the reciprocal character on a supplied ordered depth. A complete observer query is a
+conditional enrichment, not an explicitly derived physical functor: it may supply event pairing,
+ruler evolution, and branch data, after which the metric builds the local pair tube and reciprocal
+`c_E` reads it. Order fixes source/target, not a unique arrow; `c_E` fixes units, not the relation;
+Reciprocity constrains but does not select. Exact and independent controllers pass 51/51 and fresh
+external review found no load-bearing correction.
+
+**NEXT GATE, not launched:** audit associative calibration carry on three-observer pair-surface
+overlaps and classify any triple-overlap/loop obstruction. Do not invent a tangent connection or
+privilege a desired universe. C1 remains
 unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization
 remain gated. The parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.
 
@@ -121,7 +130,7 @@ theorems (D1/D2: the map transports structure, never invents it). Binding ruling
 default, ruler=LCDM-import, terminology (BAO-label-only), C3 (source = the comparison-field's
 statistics), the anti-epicycle epistemology frame, the macro/micro ontology. The Global Cell
 Assembly lane stays ARCHIVED-LEGACY. Build FORWARD; no pre-orchestra reach without a re-grade.
-**PRIOR-SESSION SPINE (2026-08-06 / 08-05) — archived** to `archive/handoff_spine_pre_2026-08-09.md` (verbatim; detail-only, not status). This anchor + LIVE's 2026-08-09 block are the current picture.
+**PRIOR-SESSION SPINE (2026-08-06 / 08-05) — archived** to `archive/handoff_spine_pre_2026-08-09.md` (verbatim; detail-only, not status). This anchor plus LIVE's current block are the current picture.
 
 
 <!-- prior-session spine archived 2026-08-09; see archive/handoff_spine_pre_2026-08-09.md -->

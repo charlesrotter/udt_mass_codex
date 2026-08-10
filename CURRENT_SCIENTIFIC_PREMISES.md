@@ -282,14 +282,24 @@ depth equals the full terminal pair depth only when `T L=1`. Accelerated tubes r
 data, cut loci return branch-labelled relations, and separately rebuilt tapes need an owned middle
 calibration transition before their signed depths compose.
 
-The terminal reciprocal-`c_E` evaluator therefore survives unchanged. The smallest open joint is
-the physical calibrated pair-relation functor: the precise founding ownership of observer-query
-semantics, event pairing, branch relation, and carried middle-state update. Do not promote the
-local exponential positive result into a universal tape, treat an arbitrary coframe plane as
-metric-owned, postselect a cut-locus branch, or call the unowned reciprocal reset a common-scale
-gauge automatically removed by `c_E`. No action, source, matter, mass, CMB spectrum, signaling law,
-`X_max` value, universal mixed-geometry `c_eff`, eigenvalue solve, FD2, or GPU work is derived or
-authorized.
+The founding pair-relation ownership audit,
+`udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, now completes that
+semantic gate at `VERIFIED-WITH-CAVEATS`. The two founding postulates derive the character of an
+already supplied ordered comparison depth; order fixes source and target but does not select one
+physical arrow from the possible relations between them. A complete calibrated observer query is
+a legitimate **conditional query enrichment**: after it supplies the observer germ, event pairing,
+ruler evolution, and regular branch, the metric constructs the local pair geometry and reciprocal
+`c_E` supplies the terminal readout. Fixed `c_E` owns local units and the terminal reference, not
+simultaneity, path, or branch selection. Frame Reciprocity constrains covariance, reversal, and
+matched composition; it is not an existence or uniqueness theorem.
+
+The remaining smallest joint is associative calibration carry across a compatible family of pair
+relations. The next bounded gate is a three-observer overlap audit asking whether supplied overlap
+Jacobians already provide the transition law or expose a precise triple-overlap/loop obstruction.
+Do not promote the conditional local query enrichment into a universally founded physical functor,
+call ordering a unique arrow, or claim that `c_E` automatically removes a reciprocal middle reset.
+No action, source, matter, mass, CMB spectrum, signaling law, `X_max` value, universal mixed-geometry
+`c_eff`, eigenvalue solve, FD2, or GPU work is derived or authorized.
 
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

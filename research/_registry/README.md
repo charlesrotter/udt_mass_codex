@@ -3,7 +3,10 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-readout gate is `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`; it
+semantic gate is `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`;
+it classifies the complete calibrated query as a conditional enrichment and leaves associative
+middle carry open. Its terminal readout parent is
+`udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`; it
 derives the terminal reciprocal log imbalance on a supplied fixed calibrated pair metric while
 leaving the physical pair-map/calibration owner open. Its immediate foundation gate is
 `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, whose parent is

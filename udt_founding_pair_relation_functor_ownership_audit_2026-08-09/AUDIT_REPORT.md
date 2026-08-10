@@ -1,7 +1,7 @@
 # Audit report — founding ownership of the calibrated observer-pair relation
 
 Date: 2026-08-09
-Current status: **LEAD pending fresh external semantic review**
+Current status: **VERIFIED-WITH-CAVEATS**
 
 ## Result
 
@@ -29,22 +29,25 @@ for `phi`.
 - merit filters: zero;
 - exact controller: 51/51 passed;
 - independent standard-library verifier: 51/51 passed;
-- frozen source identities: 15/15 replayed in both implementations.
+- frozen source identities: 15/15 replayed in both implementations;
+- fresh external `gpt-5.4` semantic review: `VERIFIED_WITH_CAVEATS`, no load-bearing correction;
+- repository gate: six frozen manifests / 133 package paths, 1,114 current paths, 101 frontier
+  targets, and `86 passed, 1 xfailed`.
 
-## Evidence gates before final banking
+## Four evidence gates
 
 1. **Preregistered:** yes, commit `1ab46192` before adjudication.
 2. **Full or bounded scope:** yes for the frozen 9-interpretation/12-axis semantic arena; no claim
    exhausts every conceivable operational observer protocol.
-3. **Independent verification:** exact finite claims pass a separate stdlib implementation; fresh
-   semantic adversarial review remains pending.
-4. **Premises audited:** complete within the registered ledger; external review remains pending.
-
-Until gate 3's fresh semantic review is complete, this package remains a `LEAD`, not a settled
-ownership verdict.
+3. **Independent verification:** yes. Exact finite claims pass a separate stdlib implementation;
+   fresh external `gpt-5.4` review independently reran both controllers and accepted the semantic
+   landing. The reviewer did not rerun the broader repository gate because its read scope was
+   intentionally limited to the manifest sources; the local writable-environment repository gate
+   separately passed.
+4. **Premises audited:** yes within the registered 9-interpretation/12-axis arena. The external
+   reviewer found no hidden premise promotion or contradiction with the frozen sources.
 
 ## Not concluded
 
 No action, source, carrier, matter, mass, boundary functional, bootstrap optimizer, `X_max` value,
 CMB spectrum, signalling law, preferred congruence, or GR/SR observer convention was derived.
-

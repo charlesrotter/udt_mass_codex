@@ -2,13 +2,13 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-08-09).** Synchronize before orientation.
+**⚠ BRANCH: work is on `grok` (2026-08-10).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-09 — ACTIVE ARC = CMB PEAK OPTIMIZATION (the native-resonator / precision-anchor program); BAO lane BANKED + TABLED; all results verified-LEAD, external bar travels) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION (the native-resonator / precision-anchor program); founding pair-relation semantics VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
-**RESTART ANCHOR (Charles, 2026-08-09): a NEW INSTANCE picks up the CMB work here.** Read THIS
+**RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
 binding: CLAUDE.md (MAP/OBSERVE/PONDER before DERIVE; lay language with Charles; nothing runs
 without his per-step go; every result gets prereg + 2 blind reviews + the four-check; verified-LEAD
@@ -153,10 +153,20 @@ when `T L=1`; accelerated tubes remain query families; cut loci return branch-la
 and separately rebuilt tapes need an owned middle calibration transition. External gpt-5.4 review
 required no load-bearing correction.
 
-**NEXT GATE (not launched):** determine whether the two founding postulates already own the typed
-calibrated observer-pair relation functor—observer-query semantics, event pairing, branch relation,
-and associative middle-state carry—or whether that object is a conditional query enrichment. Do
-not invent a preferred congruence, connection, action, or new scalar field. No eigenvalue solve is
+**FOUNDING PAIR-RELATION OWNERSHIP AUDIT — COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md` first. The founding
+postulates derive the reciprocal character on an already supplied ordered depth. An ordered
+observer pair fixes source and target but does not select one physical relation. A complete
+calibrated observer query is a legitimate `CONDITIONAL_QUERY_ENRICHMENT`: after the query supplies
+paired events, ruler evolution, and a regular branch, the metric builds the local pair geometry and
+reciprocal `c_E` performs the terminal readout. `c_E` fixes local units, not simultaneity, path, or
+branch. Frame Reciprocity is a covariance/reversal/composition gate, not an existence selector.
+Both controllers pass 51/51 and fresh external `gpt-5.4` review required no load-bearing correction.
+
+**NEXT GATE (not launched):** three-observer overlap and calibration carry. On supplied compatible
+`A-B`, `B-C`, and `A-C` pair relations, determine whether the complete overlap Jacobians already
+provide an associative middle transition or expose a precise triple-overlap/loop obstruction. Do
+not invent a preferred congruence, connection, action, or scalar field. No eigenvalue solve is
 presently authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
@@ -232,6 +242,6 @@ resonator) → the LINEAGE docs 1-6 above → CANON.md (C-2026-08-06-1/-2). Then
 sequence. Everything below is prior-session history.
 
 <!-- PRIOR-SESSION HISTORY (08-05..08-08) archived 2026-08-09 to keep the startup read lean -->
-**PRIOR-SESSION HISTORY (2026-08-05 .. 08-08) — archived** to `archive/live_history_pre_2026-08-09.md` (verbatim; detail-only, not status). The 2026-08-09 block above is the whole current picture; the lineage docs it cites are the authority for foundation detail.
+**PRIOR-SESSION HISTORY (2026-08-05 .. 08-08) — archived** to `archive/live_history_pre_2026-08-09.md` (verbatim; detail-only, not status). The current block above is the whole current picture; the lineage docs it cites are the authority for foundation detail.
 
 <!-- STARTUP_CURRENT_END -->

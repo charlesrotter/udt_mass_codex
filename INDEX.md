@@ -9,7 +9,8 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-5a. ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION. Read
+5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
@@ -40,7 +41,9 @@
    that fixed calibration, with angular/mixing structure entering before readout. The physical
    pair-map/calibration owner and universal mixed-geometry `c_eff` remain open. The completed owner
    atlas derives a local tube from a full query and branch, not a universal tape from bare
-   endpoints; the calibrated pair-relation functor remains open. No eigensolve, profile repair,
+   endpoints. The founding ownership audit then proves the founded object is the character on a
+   supplied ordered depth and classifies the complete query as a conditional enrichment; its
+   associative middle carry remains open. No eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
    `udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 remains `RA2-PARTIAL-WEAK`; BAO is
@@ -52,6 +55,9 @@
 
 ## Current scientific routing
 
+- `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md` — current
+  semantic owner gate: complete query is a conditional enrichment; `c_E` calibrates but does not
+  select; frame Reciprocity constrains but does not create; three-observer carry remains open.
 - `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` — current owner gate: six
   candidate families and 66 cells classified; local exponential tube conditional on full query;
   physical calibrated pair-relation functor open.

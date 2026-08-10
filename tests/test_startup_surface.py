@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
     "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
     "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
     "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
@@ -64,7 +65,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 38 premise guards" in result.stdout
+    assert "PASS: 39 premise guards" in result.stdout
 
 
 def test_catch_missing_live_premise_pointer(tmp_path: Path) -> None:
@@ -110,9 +111,20 @@ def test_catch_lost_ra2_or_bao_status(tmp_path: Path) -> None:
 
 def test_catch_stale_memory_top(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "MEMORY.md", "2026-08-09", "2026-08-05")
+    _replace(root / "MEMORY.md", "2026-08-10", "2026-08-05")
     _replace(root / "MEMORY.md", "CMB PEAK OPTIMIZATION", "complete-pair cocycle home")
     with pytest.raises(SystemExit, match="MEMORY top pointer|current route lacks CMB PEAK OPTIMIZATION"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_founding_pair_relation_route(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "LIVE.md",
+        "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+        "FOUNDING_PAIR_RELATION_REPORT_REMOVED.md",
+    )
+    with pytest.raises(SystemExit, match="founding_pair_relation_functor_ownership|current startup target"):
         premise_guard.validate_startup_surface(root)
 
 

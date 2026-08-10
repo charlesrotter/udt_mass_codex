@@ -4,11 +4,15 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-09, CMB peak optimization; pair-map owner atlas complete)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; founding pair-relation ownership complete)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`: the foundation
+derives the reciprocal character on supplied ordered depth; a complete calibrated observer query
+is a conditional enrichment; `c_E` calibrates rather than selecting the relation; and associative
+middle carry remains open. Its pair-map parent is
 `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`: six pair-map families and all 66
 registered cells are classified. The metric supplies a local orthogonal exponential tube after a
 full declared observer query and regular branch, but no universal tape from bare endpoints. The
@@ -51,9 +55,9 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is the bounded founding-query ownership audit for the calibrated
-pair-relation functor, without inventing a preferred congruence, connection, action, or new scalar
-field. No profile repair, inner cutoff, eigenvalue solve, or FD2 is
+Nothing is in flight. NEXT is the bounded three-observer overlap and calibration-carry audit,
+without inventing a preferred congruence, connection, action, or new scalar field. No profile
+repair, inner cutoff, eigenvalue solve, or FD2 is
 authorized. Do not promote C1, select `k0`, select the best standalone ladder, or invent source
 weights.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, but its FD1-first route is

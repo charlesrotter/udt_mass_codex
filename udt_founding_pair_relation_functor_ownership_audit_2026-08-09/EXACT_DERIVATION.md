@@ -2,7 +2,7 @@
 
 Date: 2026-08-09
 Mode: metric-led semantic/type derivation; exact CPU algebra
-Current grade: **LEAD pending fresh external semantic review**
+Current grade: **VERIFIED-WITH-CAVEATS**
 
 ## 1. Primary landing
 
@@ -349,4 +349,3 @@ ASSOCIATIVE_MIDDLE_CALIBRATION_CARRY_AND_GLOBAL_BRANCH_COMPATIBILITY_REMAIN_OPEN
 
 No action, source, carrier, matter, mass, boundary functional, bootstrap optimizer, `X_max` value,
 CMB spectrum, signalling law, preferred congruence, or GR/SR observer convention follows.
-

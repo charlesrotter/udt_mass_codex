@@ -89,6 +89,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
             "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
@@ -133,6 +134,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
             "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
@@ -153,13 +155,14 @@ def validate_startup_surface(root: Path) -> None:
         require("BANKED + TABLED" in text, f"current route loses BAO status: {control}")
 
     memory_top = " ".join(controls["MEMORY.md"].split("## Historical memory archive", 1)[0].split())
-    require("2026-08-09" in memory_top, "MEMORY top pointer is not August 9 current")
+    require("2026-08-10" in memory_top, "MEMORY top pointer is not August 10 current")
     require("CMB PEAK OPTIMIZATION" in memory_top, "MEMORY top pointer is stale")
     require("RA2-PARTIAL-WEAK" in memory_top, "MEMORY top pointer loses RA2 grade")
 
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
         "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
         "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
         "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
@@ -181,9 +184,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 38, "premise registry must contain exactly 38 rows")
+    require(len(rows) == 39, "premise registry must contain exactly 39 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 38, "duplicate premise id")
+    require(len(by_id) == 39, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -464,6 +467,27 @@ def main() -> None:
         == "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
         "pair-map owner atlas source changed",
     )
+    require(
+        by_id["G39"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__FOUNDED_ORDERED_DEPTH_CHARACTER_DERIVED__COMPLETE_CALIBRATED_QUERY_CONDITIONAL_LOCAL_ENRICHMENT__CE_CALIBRATION_NOT_RELATION_SELECTOR__ASSOCIATIVE_MIDDLE_CARRY_OPEN",
+        "founding pair-relation ownership status changed",
+    )
+    require(by_id["G39"]["epistemic_label"] == "MIXED", "pair-relation ownership label changed")
+    require(
+        by_id["G39"]["active_use"]
+        == "ACTIVE_QUERY_OWNERSHIP_AND_THREE_OBSERVER_OVERLAP_ROUTING_GATE_ONLY",
+        "pair-relation ownership use changed",
+    )
+    require("associative calibration carry" in by_id["G39"]["open_scope"], "middle carry promoted")
+    require("triple-overlap and loop obstruction" in by_id["G39"]["open_scope"], "overlap gate absent")
+    require("ordering called a unique physical arrow" in by_id["G39"]["forbidden_regression"], "ordered-pair guard absent")
+    require("c_E called a simultaneity path or branch selector" in by_id["G39"]["forbidden_regression"], "c_E selector guard absent")
+    require("Reciprocity called an existence or uniqueness theorem" in by_id["G39"]["forbidden_regression"], "Reciprocity selector guard absent")
+    require(
+        by_id["G39"]["controlling_source"]
+        == "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+        "pair-relation ownership source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -536,7 +560,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 38 premise guards, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 39 premise guards, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

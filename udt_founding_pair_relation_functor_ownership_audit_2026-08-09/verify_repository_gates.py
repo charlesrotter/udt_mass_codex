@@ -142,7 +142,7 @@ def main() -> None:
         check=False,
         timeout=300,
     )
-    assert tests.returncode == 0 and "85 passed, 1 xfailed" in tests.stdout, tests.stdout + tests.stderr
+    assert tests.returncode == 0 and "86 passed, 1 xfailed" in tests.stdout, tests.stdout + tests.stderr
 
     status = subprocess.check_output(
         ["git", "status", "--porcelain=v1", "--untracked-files=all"], cwd=ROOT, text=True
@@ -169,7 +169,7 @@ def main() -> None:
         "frontier_targets": len(targets),
         "frontier_resolved_targets": len(resolved_targets),
         "source_manifest_rows": len(frozen_sources),
-        "pytest": "85 passed, 1 xfailed",
+        "pytest": "86 passed, 1 xfailed",
         "unexpected_dirty_paths": unexpected,
     }
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"

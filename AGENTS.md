@@ -34,7 +34,8 @@ do not dump whole long files or recursively open cited evidence during orientati
 3. `CURRENT_RESEARCH_PROGRAM.md` — the active dependency spine and bounded next question.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
-5. **ACTIVE ARC (2026-08-09): CMB PEAK OPTIMIZATION.** First read
+5. **ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION.** First read
+   `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
@@ -64,9 +65,10 @@ do not dump whole long files or recursively open cited evidence during orientati
    bilocal/global/branch/dynamical. The terminal pair-metric audit derives the unique reciprocal
    log imbalance only on a supplied regular A-calibrated pair metric. The completed pair-map atlas
    derives a local orthogonal exponential tube from the metric plus a full declared query and
-   regular branch, but finds no universal pair map from bare endpoints. The physical calibrated
-   pair-relation functor—event pairing, branch relation, and middle-state carry—remains open. No profile
-   repair, inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
+   regular branch, but finds no universal pair map from bare endpoints. The founding ownership
+   audit derives the character on supplied ordered depth, classifies the complete query as a
+   conditional enrichment, and leaves associative middle-state carry open. No profile repair,
+   inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
    RA2 = PARTIAL-WEAK). The x_max STRUCTURE (O1-O3) and SCALE (M1-M4) lanes are COMPLETE (verified

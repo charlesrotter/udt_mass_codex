@@ -33,8 +33,10 @@ A-calibrated pair metric has an exact reciprocal clock/ruler log-imbalance reado
 angular/mixing structure entering its pullback metric first. Its upstream owner atlas is complete
 at `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`: a local orthogonal exponential
 tube follows from a full declared observer query and regular branch, but no universal pair map
-follows from bare endpoints. The physical calibrated pair-relation functor remains open; no
-eigenvalue solve is authorized.
+follows from bare endpoints. Its founding ownership gate is complete at
+`udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`: the reciprocal
+character is founded on supplied ordered depth, while the complete physical query is a conditional
+enrichment and associative middle carry remains open. No eigenvalue solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -43,7 +45,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
+5. `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
+   `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
@@ -65,6 +68,8 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
+- `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md` — current
+  semantic owner gate and next three-observer overlap/carry route.
 - `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` — current pair-map owner gate:
   local metric-natural tube after a full query and branch; physical calibrated pair-relation
   functor still open.

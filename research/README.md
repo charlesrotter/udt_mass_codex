@@ -8,6 +8,7 @@ record. Root `LIVE.md` wins every status disagreement.
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**: first read
+`../udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
 `../udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
@@ -36,8 +37,10 @@ calibration-owner atlas is now only one candidate input to the new terminal pair
 That result derives the reciprocal
 log imbalance on a supplied fixed calibrated pair metric and shows supplied angular/mixing
 Jacobians entering before readout. The completed owner atlas derives a local tube after a full
-query and branch, but no universal tape from bare endpoints; the physical calibrated pair-relation
-functor remains open. No eigensolve, profile repair, inner cutoff, or FD2. Then read the parent menu
+query and branch, but no universal tape from bare endpoints. The founding ownership audit retains
+the reciprocal character as derived on supplied ordered depth and classifies the complete query as
+a conditional enrichment; associative three-observer carry remains open. No eigensolve, profile
+repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a
 prediction. The BAO lane is `BANKED + TABLED`.
 

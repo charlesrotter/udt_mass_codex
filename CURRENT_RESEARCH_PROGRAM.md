@@ -1,13 +1,13 @@
 # Current UDT research program
 
-Date: 2026-08-05 (updated 2026-08-06; **STALE-BANNERED 2026-08-09 — see the top banner**)
+Date: 2026-08-05 (updated through 2026-08-10; **STALE-BANNERED BELOW THE TOP BANNER**)
 
 Authority: active scientific navigation and dependency spine; not `CANON.md`
 
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-## ⚠ FRONTIER SUPERSEDED (2026-08-09) — READ LIVE.md's 2026-08-09 BLOCK FOR THE ACTIVE ARC
+## ⚠ FRONTIER SUPERSEDED — READ LIVE.md's 2026-08-10 BLOCK FOR THE ACTIVE ARC
 
 The "FRONTIER UPDATE (2026-08-06)" and everything below it describe the 08-06 state (x_max
 pair-question, "O1 pending") and are **STALE as status**. Since then, ON `grok`: the x_max
@@ -58,13 +58,17 @@ pullback before readout. Its upstream-owner gate is complete at
 `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`: the metric supplies a local
 orthogonal exponential pair tube after a full declared observer query and regular branch, but no
 universal tape from bare endpoints. The physical calibrated pair-relation functor remains open.
-NEXT is a bounded founding-query ownership audit for event pairing, branch relation, and
-associative middle-state carry. No profile repair, inner cutoff, eigenvalue solve, or FD2 restart
-is authorized.
+That founding-query gate is now complete at
+`udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`: the reciprocal
+character is derived on supplied ordered depth, while a complete calibrated query is a
+`CONDITIONAL_QUERY_ENRICHMENT`; `c_E` calibrates rather than selecting the relation, and frame
+Reciprocity constrains rather than creates it. NEXT is the bounded three-observer overlap and
+associative calibration-carry audit. No profile repair, inner cutoff, eigenvalue solve, or FD2
+restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane
-framing is superseded. Authority order: LIVE.md 2026-08-09 block > this banner > everything below.
+framing is superseded. Authority order: LIVE.md 2026-08-10 block > this banner > everything below.
 
 ## FRONTIER UPDATE (2026-08-06 — SUPERSEDED 2026-08-09; historical) — the 08-05 framing on c_eff/x_max
 
@@ -110,7 +114,8 @@ and the active lane so a fresh session builds FORWARD (LIVE.md topmost is the au
 - Global completion data genuinely change the local endpoint and jet fibers. This is a derived
   partial kinematic global/local correspondence, not the complete bootstrap return.
 - Observer Reciprocity supplies an equivariance/naturality gate on any future law. It does not
-  generate the law.
+  generate the law. The founding ownership audit independently reconfirms this and locates the
+  remaining comparison seam at three-observer overlap/calibration carry.
 
 ## Conditional witnesses—not native closure
 
@@ -233,7 +238,9 @@ selection, canonization or repository reorganization is authorized by this progr
 
 ## Startup route
 
-**ACTIVE READS FIRST (2026-08-09 — supersedes the 08-06 line here):**
+**ACTIVE READS FIRST (2026-08-10 — supersedes the 08-06 line here):**
+`udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
+`udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
 `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
 `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
 `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The N01 C1 harmonic
