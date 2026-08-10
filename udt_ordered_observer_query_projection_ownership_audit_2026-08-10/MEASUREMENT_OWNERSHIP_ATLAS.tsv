@@ -1,0 +1,7 @@
+measurement_id	object	type	geometric_status	required_instrument	founding_ownership
+M01	kappa	pair_metric_state	DERIVED_CONDITIONAL	pair_area or common-scale instrument	NOT_FOUNDING_RECIPROCAL_OUTPUT
+M02	phi	reciprocal_density_state	DERIVED_ON_SUPPLIED_PAIR_METRIC	terminal reciprocal c_E instrument	FOUNDING_PROJECTION_REALIZATION_CONDITIONAL
+M03	beta	event_pairing_shift_state	DERIVED_ON_SUPPLIED_PAIR_METRIC	paired events and ruler evolution	CONDITIONAL_ENRICHED_QUERY
+M04	U_gamma	normal_isometry_arrow	DERIVED_AFTER_PATH	path plus endpoint screen frames	CONDITIONAL_PATH_QUERY
+M05	Delta_kappa_Delta_phi_U	typed_arrow_shadow	DERIVED_CONDITIONAL	common matched pair query	NOT_ONE_FOUNDING_SCALAR
+M06	regime_dependent_projection	measurement_policy	OPEN	physical regime map and selector	NOT_DERIVED

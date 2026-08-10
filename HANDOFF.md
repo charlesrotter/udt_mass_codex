@@ -18,7 +18,20 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = MULTI-CHANNEL OBSERVER-RELATION ASSEMBLY COMPLETE,
+**LATEST GATE = ORDERED OBSERVER-QUERY PROJECTION OWNERSHIP COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Start with
+`udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`. Once a complete
+calibrated observer query supplies the regular pair relation, the realized founding reciprocal
+projection has one unique normalized continuous real character on the matched two-density class:
+`Delta_phi`. External `gpt-5.4` returned
+`FOUNDED_PROJECTION_ONLY_REALIZATION_CONDITIONAL`. Bare endpoints still do not supply the pair
+relation. `kappa`, `beta`, `U_gamma`, and phi+orchestra remain retained in their separate types;
+broader endpoint/path measurements survive but are not founding-owned. NEXT: audit whether any
+already-banked branch-local or global-completion relation adds physical ownership of the
+calibrated pair relation or optional measurement policy. Do not invent a path, regime switch,
+conductor, action, source, bootstrap closure, or universal mixed `c_eff`.
+
+**PRECEDING GATE = MULTI-CHANNEL OBSERVER-RELATION ASSEMBLY COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Start with
 `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`. On one supplied
 regular calibrated stationary R17 pair query, `(kappa,phi,beta)` uniquely encode the pair metric;
@@ -26,9 +39,9 @@ regular calibrated stationary R17 pair query, `(kappa,phi,beta)` uniquely encode
 and `U_gamma` carries independent path-labelled angular information. The resulting
 `(Delta_kappa,Delta_phi,U_gamma)` arrow shadow is a conditional minimal assembly only for the
 banked pair-metric and normal-transport layers. External `gpt-5.4` returned
-`CONDITIONAL_MULTICHANNEL_ASSEMBLY_ONLY`. NEXT: determine which full-state readings or projections
-the founded ordered observer query physically measures. Do not invent a path, full observer arrow,
-physical regime map, conductor, action, source, bootstrap closure, or universal mixed `c_eff`.
+`CONDITIONAL_MULTICHANNEL_ASSEMBLY_ONLY`. Its projection question is answered at the latest gate
+above. Do not promote the assembly into a path, full observer arrow, physical regime map,
+conductor, action, source, bootstrap closure, or universal mixed `c_eff`.
 
 **PRECEDING R17 GATE = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Then read
 `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`. The stationary

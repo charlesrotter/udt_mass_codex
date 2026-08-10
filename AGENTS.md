@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION.** First read
+   `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -106,9 +107,9 @@ do not dump whole long files or recursively open cited evidence during orientati
    distinct and select neither branch. Cross-leaf path choice and the complete physical arrow stay
    open. The completed path-labelled decomposition now derives the full projected connection in
    all four directions, all six curvature planes, and exact isometric transport after a path is
-   supplied. No `lambda` is generically completely flat or base-descended. The next gate is the
-   unbiased classification and ownership test of flat/base-basic/reduced-holonomy stationary jet
-   subloci, not another lift ansatz or owner census. No profile repair,
+   supplied. No `lambda` is generically completely flat or base-descended. The later audits listed
+   above complete the stationary sublocus and scalar-projection chain; the current open gate is the
+   calibrated physical query/pair-relation owner recorded in the G54 report. No profile repair,
    inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;

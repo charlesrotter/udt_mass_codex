@@ -4,16 +4,25 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; multichannel assembly verified)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; conditional reciprocal projection verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`: after a
+complete calibrated observer query supplies a regular pair relation, `Delta_phi` is the unique
+normalized continuous real character of the matched two-density class that is odd under the
+realized founding clock/ruler exchange. External review returned
+`FOUNDED_PROJECTION_ONLY_REALIZATION_CONDITIONAL`. Bare observer endpoints do not construct the
+pair relation; broader endpoint/path measurements survive but are not founding-owned. `kappa`,
+`beta`, `U_gamma`, and phi+orchestra remain retained in their separate types. The smallest open
+owner is the calibrated physical observer-query / pair-relation selector or a later measurement
+law. Its parent is
 `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`: on one supplied
 regular calibrated pair query, `(kappa,phi,beta)` uniquely encode the pair metric and `U_gamma`
 retains independent path-labelled angular transport. Matched `Delta_kappa` and `Delta_phi`
-telescope, but the ordered-query measurement projection, physical path, regime map, and conductor
-remain open. External review returned `CONDITIONAL_MULTICHANNEL_ASSEMBLY_ONLY`. Its parent is
+telescope, but the physical pair relation, physical path, regime map, and conductor remain open.
+External review returned `CONDITIONAL_MULTICHANNEL_ASSEMBLY_ONLY`. Its parent is
 `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`: multiple
 metric-owned local forms beyond `dphi` survive, including a nonclosed pair-leaf-preserving family
 and an exact pair-pure-preserving family. This constructively refutes local uniqueness but is not

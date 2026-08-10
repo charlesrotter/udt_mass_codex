@@ -6,7 +6,13 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
-`udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`: on a supplied
+`udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`: after a complete
+calibrated observer query supplies a regular pair relation, the founding reciprocal comparison
+selects `Delta_phi` uniquely within continuous matched two-density characters. This is a
+conditional realization, not a pair-map theorem from bare endpoints or uniqueness over all
+enriched-state measurements. The calibrated physical query/pair-relation owner remains open. Its
+immediate parent is `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`:
+on a supplied
 regular calibrated pair query the metric state separates uniquely into common scale `kappa`,
 reciprocal depth `phi`, and shift `beta`, while path-labelled angular transport `U_gamma` remains a
 distinct mathematical channel. Matched `Delta_kappa` and `Delta_phi` compose, but the physical
@@ -88,9 +94,10 @@ leafwise normal connection and representative-free loop data. Flat `lambda=-1` a
 complete connection/curvature decomposition and supplied-path functor. Its completed follow-up,
 `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, classifies
 every stationary flat/descent/holonomy sublocus: actual C01--C06 witnesses remain generic full-
-`SO(2)` and no manifest-backed R17 source selects a special locus. Its completed joint-invariant
-follow-up is the current checkpoint above. Next is the invariant local one-form/transgression
-classification in the full compatible stationary R17 jet space. No eigenvalue solve is authorized.
+`SO(2)` and no manifest-backed R17 source selects a special locus. The later joint-invariant,
+local-one-form, multi-channel, and G54 projection audits are complete; the current open gate is the
+calibrated physical query/pair-relation owner identified at the top of this file. No eigenvalue
+solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:

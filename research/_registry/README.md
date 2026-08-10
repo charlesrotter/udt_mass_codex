@@ -3,7 +3,11 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`; it derives
+gate is `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`; it
+selects `Delta_phi` only as the conditional realization of the founding reciprocal projection
+after a complete calibrated query has supplied a regular pair relation. Bare endpoints and the
+broader measurement owner remain open. Its immediate parent is
+`udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`; it derives
 the conditional bounded state assembly `(kappa,phi,beta)` plus path-labelled `U_gamma`, while
 leaving the physical ordered-query projection, path, regime map, and conductor open. Its immediate
 parent is `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`; it derives

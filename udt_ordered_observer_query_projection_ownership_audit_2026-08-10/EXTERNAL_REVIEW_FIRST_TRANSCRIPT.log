@@ -1,0 +1,2001 @@
+Script started on 2026-08-10 17:22:09-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_ordered_query_projection_review_20260810
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019fed8d-f030-7463-8832-014b5ed154fb
+--------
+user
+Read udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXTERNAL_REVIEW_DISPATCH.md and perform that cold adversarial review using only this sealed intake. Return the required single primary grade and complete evidence-backed review. Do not edit anything or inspect outside this intake.
+codex
+I’m opening the sealed intake instructions first and will keep the review constrained to files under `udt_ordered_observer_query_projection_ownership_audit_2026-08-10`.
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXTERNAL_REVIEW_DISPATCH.md" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+# Cold external review dispatch — ordered observer-query projection ownership
+
+Perform a read-only adversarial review using only this sealed intake. Do not edit files, continue
+the research, inspect anything outside the intake, or infer downstream physics.
+
+## Primary question
+
+Does the founding reciprocal clock/ruler comparison uniquely select `Delta_phi` from the supplied
+regular calibrated pair metric within the declared continuous two-density character class, or has
+the audit imported an exchange rule, widened source ownership, or confused a conditional terminal
+readout with a complete physical observer query?
+
+## Required checks
+
+1. Reconstruct the founding source signature directly from the pinned source. Distinguish its
+   supplied ordered depth, reciprocal character, exchange parity, composition, and `c_E`
+   calibration from the still-open physical pair realization.
+2. Verify the pair-metric density identities
+   `b1=Delta_kappa-Delta_phi`, `b2=2 Delta_kappa`, and
+   `Delta_phi=b2/2-b1`.
+3. Classify all continuous homomorphisms from the matched density group `R^2` to `(R,+)` without
+   assuming a linear formula. State the regularity hypothesis needed for linearity.
+4. Determine whether founded clock/ruler exchange acts on the two density coordinates as
+   `(Delta_kappa,Delta_phi)->(Delta_kappa,-Delta_phi)`, or whether extending the founding abstract
+   exchange to the supplied pair-metric densities is an additional conditional realization.
+5. Test the uniqueness proof: exchange oddness must force the common-scale coefficient to zero and
+   pure reciprocal normalization must set the reciprocal coefficient to one.
+6. Attack the scope. Explicitly test arbitrary invariant endpoint coboundaries and any other smooth
+   enriched-state cocycles. If they survive, require the report to limit uniqueness to the declared
+   character class and decide whether calling them “unowned” is supported by the source signature.
+7. Check that `kappa` remains real conditional geometric state even though the founding reciprocal
+   projection cancels it. Strong local CSN is inactive.
+8. Check that `beta` is a conditional query state rather than a standalone founding character, and
+   that `U_gamma` is a separately typed path instrument. Verify the continuous-real-character no-go
+   for `SO(2)` without erasing angular holonomy.
+9. Verify that the complete screen weight is a representation of retained channels rather than an
+   independent fifth instrument.
+10. Check the exact mixed pair-metric witnesses and whether the report genuinely retains
+    phi+orchestra modulation upstream of the scalar readout.
+11. Determine whether the phrase “the founding query selects `Delta_phi`” is too strong because the
+    complete physical query and pair map remain unowned. If needed, supply the exact corrected
+    wording and grade.
+12. Hunt circular source use, hidden CSN, fitted coefficients, regime assignment, type errors,
+    vacuous catch-proofs, or promotion to a physical path, conductor, action, source, matter, or
+    dynamics.
+
+## Required landing
+
+Return exactly one primary grade:
+
+- `VERIFIED_AS_STATED`;
+- `VERIFIED_WITH_CORRECTIONS`;
+- `FOUNDED_PROJECTION_ONLY_REALIZATION_CONDITIONAL`;
+- `UNIQUENESS_SCOPE_TOO_BROAD`;
+- `SOURCE_SIGNATURE_MISREAD`;
+- `REFUTED`.
+
+State the strongest theorem, its precise mathematical class, the conditional realization boundary,
+the surviving nonuniqueness outside that class, and the smallest remaining owner. Supply exact
+algebra or a minimal counterexample for every load-bearing correction.
+
+Do not derive an action, source, matter law, bootstrap closure, physical regime map, universal
+mixed-geometry `c_eff`, `X_max`, CMB spectrum, signalling rule, or dynamics.
+
+codex
+The dispatch defines a specific mathematical audit. I’m enumerating the sealed intake contents and then reading only the files needed to reconstruct the source signature and the claimed uniqueness argument.
+exec
+/bin/bash -lc 'rg --files /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10' in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/verify_query_projection_independent.py
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/PREMISE_LEDGER.tsv
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/derive_query_projection_ownership.py
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/DERIVATION_RESULT.json
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/build_external_intake.py
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/STATUS_LEDGER.tsv
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXTERNAL_REVIEW_DISPATCH.md
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/ENVIRONMENT.md
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/FOUNDING_SIGNATURE_RESULT.tsv
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/FALSIFICATION_CONTRACT.tsv
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/verify_internal_audit.py
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/FOUNDING_SIGNATURE.tsv
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/verify_preregistration.py
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/CATCH_PROOFS.tsv
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/NEXT_STEP.md
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/INDEPENDENT_VERIFICATION_RESULT.json
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/SOURCE_MANIFEST.tsv
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/MEASUREMENT_OWNERSHIP_ATLAS.tsv
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/PONDER_MAP.md
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/QUERY_PROJECTION_UNIVERSE.tsv
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/CATCH_PROOF_RESULT.json
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/QUERY_PROJECTION_CLASSIFICATION.tsv
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/PREREGISTRATION.md
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/run_catch_proofs.py
+/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/LAY_REPORT.md
+
+codex
+I’ve got the intake map. Next I’m reading the pinned-source summary, the derivation, and the report itself so the review is anchored to the intake’s own evidence rather than its conclusions.
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/SOURCE_MANIFEST.tsv" in /tmp/udt_ordered_query_projection_review_20260810
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/FOUNDING_SIGNATURE.tsv" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+source_id	path	role	source_ref	git_blob	sha256	size
+S01	CURRENT_SCIENTIFIC_PREMISES.tsv	G53 precedence and guards	93f962a727336dafe256364b7de489e5a63b1972:CURRENT_SCIENTIFIC_PREMISES.tsv	2425fcd84c76ddb0ca6225eba2b8833c1e0d0083	224c219f5da6d2dabc608fcad0984f5d5a7ca19337408bdd537877ca102461d1	42246
+S02	udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md	current multichannel ruling	93f962a727336dafe256364b7de489e5a63b1972:udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md	1eb8cec27b38b79ee1dc231395abdb014ccf5724	f8ac4af925c56bc02889a3c1fa21bf56c7f45910b185934adef5a7365b899a59	3198
+S03	udt_multichannel_observer_relation_assembly_audit_2026-08-10/EXACT_DERIVATION.md	pair state and arrow assembly	93f962a727336dafe256364b7de489e5a63b1972:udt_multichannel_observer_relation_assembly_audit_2026-08-10/EXACT_DERIVATION.md	7bca9eca1f19d607aab744c5b304a11ce4430022	43338f407460ed1698e1311bcb79048e2505ea374b04a9aeb8419fc8c812673b	12927
+S04	udt_multichannel_observer_relation_assembly_audit_2026-08-10/ASSEMBLED_CHANNELS.tsv	current typed channel assembly	93f962a727336dafe256364b7de489e5a63b1972:udt_multichannel_observer_relation_assembly_audit_2026-08-10/ASSEMBLED_CHANNELS.tsv	cf1a32712da3e3fa68320186723f87358d7137b4	5c58c53552e4d673280ba18f5b07f5d98040b10695a804adbac6b7e7e7089acf	716
+S05	udt_multichannel_observer_relation_assembly_audit_2026-08-10/CHANNEL_CLASSIFICATION.tsv	current complete candidate roles	93f962a727336dafe256364b7de489e5a63b1972:udt_multichannel_observer_relation_assembly_audit_2026-08-10/CHANNEL_CLASSIFICATION.tsv	1facc0bb0a1ffcad1e4616e797ade63bd1e710e0	08e61cdd46f9a85920a8038f3ae2f17c0f6b171514888e2c0a25632dfa4504db	1665
+S06	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	direct founding source and assumption ledger	93f962a727336dafe256364b7de489e5a63b1972:UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	a8d29384a514f9d3be588dad1818c4c614dc6d70	b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003	11418
+S07	udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md	corrected founding comparison semantics	93f962a727336dafe256364b7de489e5a63b1972:udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md	713f5fad6bb11a39720b34f1d71a23569076b25b	0995eaa36f5281c0dcd1662b6050950476e1ca992f59e18840ec9dc9aca0da60	4938
+S08	udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md	founding object and covariance typing	93f962a727336dafe256364b7de489e5a63b1972:udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md	d2fbefcae7fc9f0a4447ab563150050028f5737f	1a80fc5de65c5739d6be523d9d41a32194d9be2dfbcb7eda048fbf12431f4d99	5769
+S09	udt_founding_pair_relation_functor_ownership_audit_2026-08-09/EXACT_DERIVATION.md	ordered query ownership hierarchy	93f962a727336dafe256364b7de489e5a63b1972:udt_founding_pair_relation_functor_ownership_audit_2026-08-09/EXACT_DERIVATION.md	a30b055233880ba48b6aa679d351079b87786d1a	b41d49db51888523b99c14a83c632fd5c45ea7592eb0e4fbc4ab1016be69e93f	12407
+S10	udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	founded reciprocal character and realization boundary	93f962a727336dafe256364b7de489e5a63b1972:udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	cc4e1da62c1cb1f5f4c53923b4e0b89f035f671f	0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd	8763
+S11	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	terminal reciprocal projection	93f962a727336dafe256364b7de489e5a63b1972:udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	aa58f76fa4758e961e133f283894a4d6414b1495	fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	15088
+S12	udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md	graded volume character and exchange typing	93f962a727336dafe256364b7de489e5a63b1972:udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md	1b322f69194351add2da4a17ce9987c5bca4a8d1	eabfad044b0caf404a7bfab8dfa2462e3a68cf7a578e67451c86baf8b95aa71a	11710
+S13	udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/EXACT_DERIVATION.md	angular codomain and scalar character boundary	93f962a727336dafe256364b7de489e5a63b1972:udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/EXACT_DERIVATION.md	98e04830bddd70eb59c1d3536d0b71c0f4dfa42f	78a044ee9e1f0df4f5e0673c3b8867984cd8f11070780f728f1056d204311ec6	11963
+S14	udt_r17_stationary_local_one_form_selection_audit_2026-08-10/EXACT_DERIVATION.md	unselected scalar microphone families	93f962a727336dafe256364b7de489e5a63b1972:udt_r17_stationary_local_one_form_selection_audit_2026-08-10/EXACT_DERIVATION.md	d134e6f8b1783a0800387c5cfa356c4e569744f3	7311c57cdabf6fd3f77b1e522684a6fd32c9e180bbd6d583a3bc8b0c9d4f574b	11992
+S15	udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md	upstream angular modulation guard	93f962a727336dafe256364b7de489e5a63b1972:udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md	12376325339939f34f2e9f7602e78a8d1b005b5e	ce96774a1dcdefb690f716a6c69aa6cdf5c155e6cff051137f8efe9b0eb1a77c	10161
+S16	udt_ceff_depth_orchestra_integration_2026-08-06.md	c_eff and calibration role	93f962a727336dafe256364b7de489e5a63b1972:udt_ceff_depth_orchestra_integration_2026-08-06.md	5d0ace9c449dfb7554820fc7f4a54c98743f4ab2	e8c1b6cebd48da4db3bcd15f8716468e292cd6021ec439dd5f8b2d5c4ad38e14	5814
+S17	udt_three_observer_overlap_calibration_carry_audit_2026-08-10/EXACT_DERIVATION.md	matched-state composition and unmatched transitions	93f962a727336dafe256364b7de489e5a63b1972:udt_three_observer_overlap_calibration_carry_audit_2026-08-10/EXACT_DERIVATION.md	3867fe6bbe43bf3df5f1d5887a2719da6af889d1	c691c14076f179c8765f9261521a4f9e2c21ab1e1c3817dfb199085098d13d1c	10789
+
+
+ succeeded in 0ms:
+signature_id	input_owned_by_foundation	output_owned_by_foundation	not_in_signature	status_to_test
+F01	supplied_ordered_signed_depth_delta	reciprocal_operator_D_delta	complete_metric_pair_map_path	TEST
+F02	reciprocal_clock_ruler_channel_labels	inverse_channel_weights	common_scale_shift_screen_transport	TEST
+F03	matched_abstract_depths	composition_reversal_identity	unmatched_tape_transition	TEST
+F04	c_E_time_length_conversion	terminal_clock_ruler_unit_calibration	event_pairing_path_branch_or_regime	TEST
+F05	complete_declared_enriched_query	metric_constructed_pair_geometry_after_query	physical_ownership_of_enrichment	TEST
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/FOUNDING_SIGNATURE_RESULT.tsv" in /tmp/udt_ordered_query_projection_review_20260810
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+signature_id	input	output	ruling
+F01	supplied_ordered_signed_depth_delta	reciprocal_operator_D_delta	FOUNDING_DERIVED_ABSTRACT
+F02	reciprocal_clock_ruler_channel_labels	inverse_channel_weights	FOUNDING_DERIVED
+F03	matched_abstract_depths	composition_reversal_identity	FOUNDING_DERIVED
+F04	c_E_time_length_conversion	terminal_clock_ruler_unit_calibration	OBSERVED_CALIBRATION_NOT_SELECTOR
+F05	complete_declared_enriched_query	metric_constructed_pair_geometry_after_query	CONDITIONAL_QUERY_ENRICHMENT
+
+ succeeded in 0ms:
+# Audit report — ordered observer-query projection ownership
+
+Date: 2026-08-10
+
+## Internal result
+
+On a supplied regular calibrated pair metric, the founding reciprocal clock/ruler question has a
+unique scalar answer within the declared continuous two-density character class: `Delta_phi`.
+Clock/ruler exchange leaves common scale invariant and reverses reciprocal imbalance; exchange
+oddness removes `Delta_kappa`, while pure reciprocal normalization fixes the remaining coefficient
+to one.
+
+This is not uniqueness over all measurements of the complete state. `kappa` remains real
+conditional pair-metric data, `beta` remains enriched query state, and `U_gamma` remains a
+path-labelled angular instrument. Arbitrary endpoint coboundaries survive mathematically but need
+new measurement functions not owned by the founding source. Complete mixing remains upstream of
+the terminal `phi` readout.
+
+Fresh manifest-confined external adversarial review is still required before this result is
+banked.
+
+## Evidence gates
+
+1. **Preregistered:** yes, commit `28db903f`, before derivation.
+2. **Full or bounded:** complete only over the 14 preregistered projection candidates and the
+   declared continuous real two-density character class on a supplied regular calibrated
+   stationary R17 pair query. Other branches, degenerate strata, physical regimes, and general
+   enriched-state measurement functions are not exhausted.
+3. **Independently verified:** production exact algebra 23/23; independent stdlib/Fraction
+   reconstruction 25/25; semantic catch-proofs 22/22. Fresh external review pending.
+4. **Premises audited:** yes internally. Strong local CSN is inactive; no physical pair map, path,
+   regime selector, bootstrap conductor, action, source, mass law, or dynamics was imported.
+
+## Current grade
+
+`VERIFIED-WITH-CAVEATS-PENDING-EXTERNAL-REVIEW`.
+
+## Maximum conclusion
+
+```text
+FOUNDED_RECIPROCAL_PROJECTION_Delta_phi_DERIVED_WITHIN_DECLARED_CHARACTER_CLASS__
+COMPLETE_MULTICHANNEL_MEASUREMENT_AND_REGIME_POLICY_OPEN
+```
+
+This does not derive a complete observer arrow, universal mixed-geometry `c_eff`, physical path,
+regime map, conductor, action, source, matter, mass, `X_max`, CMB observable, signalling rule, or
+dynamics.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+# Exact derivation — ordered observer-query projection ownership
+
+Date: 2026-08-10
+
+Mode: metric-led source/type audit with exact CPU algebra
+
+Internal status: `VERIFIED-WITH-CAVEATS`; fresh external adversarial review is still required
+before banking.
+
+## 1. Result first
+
+The two founding postulates ask one particular kind of question: compare the clock and ruler
+calibration channels reciprocally. On a supplied regular calibrated pair metric, the previous
+multi-channel audit gives the complete local state
+
+```text
+(kappa, phi, beta) plus path-labelled U_gamma,
+```
+
+where `kappa` is common clock/ruler scale, `phi` is their reciprocal imbalance, `beta` records the
+pairing shift, and `U_gamma` transports the angular screen along a supplied path.
+
+When the founding clock/ruler question is realized on the two logarithmic density changes
+
+```text
+(Delta_kappa, Delta_phi),
+```
+
+its unique normalized continuous real character is
+
+```text
+delta_found = Delta_phi.                                    (1)
+```
+
+This is a limited uniqueness theorem. It does not say that the complete observer reads only one
+number, that `kappa`, `beta`, or `U_gamma` are unreal, or that every possible measurement is a
+function of `Delta_phi`. It says that the founded reciprocal question has one scalar answer in its
+declared character class. The other channels require separately typed instruments and additional
+query data.
+
+The physical pair map, physical path, regime-dependent measurement policy, on-shell/global
+conductor, action, source, and dynamics remain open.
+
+## 2. Source signature
+
+The direct founding source starts with the dimension-matched pair
+
+```text
+q = (c_E dt, dr)
+```
+
+and an already supplied ordered signed depth. Reciprocal-`c_E`, dual Reciprocity, and continuous
+composition derive
+
+```text
+D(delta) = diag(exp(-delta), exp(+delta)),
+D(delta_2)D(delta_1) = D(delta_1+delta_2),
+D(-delta) = D(delta)^-1.
+```
+
+The exchange matrix
+
+```text
+K = [[0,1],[1,0]]
+```
+
+interchanges the abstract clock/ruler channel labels and obeys
+
+```text
+K D(delta) K = D(-delta).
+```
+
+Thus the source owns an exchange-odd additive reciprocal character on an already supplied ordered
+comparison. It does not supply common-scale measurement, event-pairing shift, angular transport,
+a physical path, or a regime switch. `c_E` supplies the observed clock/length calibration and is
+not an architecture selector.
+
+## 3. The complete pair metric and its two densities
+
+On the regular calibrated pair-metric stratum
+
+```text
+h00 < 0, det(h) < 0,
+```
+
+the unique decomposition is
+
+```text
+h = -T^2(dy0 + beta dy1)^2 + L^2(dy1)^2,
+T = exp(kappa-phi),
+L = exp(kappa+phi).
+```
+
+For matched endpoints `p,q`, define the clock-line and clock/ruler-area logarithmic changes
+
+```text
+b1 = log[T(q)/T(p)]                = Delta_kappa-Delta_phi,
+b2 = log[T(q)L(q)/(T(p)L(p))]      = 2 Delta_kappa.           (2)
+```
+
+Hence
+
+```text
+Delta_kappa = b2/2,
+Delta_phi   = b2/2-b1.                                      (3)
+```
+
+Both telescope on matched pair states. Equation (3) is the reciprocal-root readout expressed in
+the pair-metric densities. Common scale cancels from the reciprocal combination; this algebraic
+cancellation does not make common scale gauge and does not revive strong local CSN.
+
+## 4. Classification of the founded density characters
+
+The matched density group is the additive group `R^2` with coordinates
+
+```text
+(Delta_kappa, Delta_phi).
+```
+
+Every continuous homomorphism from this group to `(R,+)` is linear:
+
+```text
+chi_(a,b)(Delta_kappa,Delta_phi)
+    = a Delta_kappa + b Delta_phi.                            (4)
+```
+
+This is not an assumed linear ansatz; it is the standard continuous additive-character
+classification of a finite-dimensional real vector group.
+
+Clock/ruler channel exchange sends
+
+```text
+(b1, b2-b1) -> (b2-b1, b1),
+```
+
+and therefore
+
+```text
+(Delta_kappa,Delta_phi) -> (Delta_kappa,-Delta_phi).          (5)
+```
+
+The founded reciprocal scalar is exchange odd. Applying (5) to (4) gives
+
+```text
+a Delta_kappa - b Delta_phi
+  = -a Delta_kappa - b Delta_phi,
+```
+
+for all density pairs, so `a=0`. Pure reciprocal normalization requires
+
+```text
+chi(0,delta)=delta,
+```
+
+so `b=1`. This proves (1).
+
+The theorem is precisely:
+
+> On the supplied regular calibrated pair metric, among continuous real characters of its two
+> matched logarithmic density changes, the character that is odd under the founded clock/ruler
+> label exchange and normalized on the pure reciprocal subgroup is uniquely `Delta_phi`.
+
+The realization remains conditional on the supplied pair metric and matched state. The theorem
+does not construct that pair relation.
+
+## 5. Why the other instruments survive
+
+### Common scale
+
+`Delta_kappa` is a second exact real character of the pair-metric density group. It is exchange
+even, so it is not the founded reciprocal answer. It remains genuine conditional geometric state
+and may be read by a common-scale or area instrument.
+
+### Shift
+
+`beta` is part of the unique pair-metric state, but it is not a standalone additive character. A
+measurement of it needs paired events and ruler evolution. More generally, for any supplied scalar
+function `f(beta)`,
+
+```text
+c_f(p,q)=f(beta_q)-f(beta_p)
+```
+
+telescopes. This supplies an infinite family of mathematical endpoint coboundaries. The founding
+source does not select `f`; these measurements are possible but unowned.
+
+This counterfamily is why no uniqueness claim may be extended from the two-density character class
+to all smooth cocycles on the enriched query state.
+
+### Angular transport
+
+For a supplied path,
+
+```text
+U_gamma : H_p -> H_q
+```
+
+is a screen isometry and composes by matrix multiplication. It is a different codomain, not a real
+scalar. A continuous homomorphism from compact `SO(2)` to `(R,+)` is trivial: periodicity forces
+every real character to vanish. Therefore angular transport cannot be faithfully folded into the
+founded real scalar at order zero. Loop and relative-path holonomy remain separately readable.
+
+### Complete screen weight
+
+The complete R17 screen action is reconstructed from `Delta_phi`, `U_gamma`, tensor variance, and
+supplied `lambda`. It is a representation of retained channels, not another independent
+microphone.
+
+## 6. Phi plus orchestra is retained
+
+Selecting `Delta_phi` as the reciprocal scalar does not return to a pure diagonal block. Complete
+clock/screen and ruler/screen mixing first changes the pullback pair metric; the terminal
+decomposition then extracts its `phi`.
+
+Two exact witnesses are:
+
+```text
+h1 = diag(-3/16,4),
+det(h1) = -3/4,
+exp(4 phi1) = 64/3;
+
+h2 = [[-3/16,1/12],[1/12,37/9]],
+det(h2) = -7/9,
+exp(4 phi2) = 1792/81,
+beta2 = -4/9.
+```
+
+Thus the angular/mixing orchestra can modulate the reciprocal terminal reading and other pair-state
+coordinates simultaneously. The scalar projection occurs after the complete pair geometry is
+formed.
+
+## 7. The precise nonuniqueness boundary
+
+The following statements are compatible and must not be conflated:
+
+1. `Delta_phi` is unique inside the founded continuous two-density character class.
+2. The complete supplied geometry contains other typed instruments.
+3. Arbitrary endpoint coboundaries survive in a broader enriched-state groupoid.
+4. The founding postulates do not own those extra measurement functions.
+5. A future physical observer may read multiple channels, perhaps in a branch- or regime-dependent
+   way, but no such policy has been derived.
+
+The result therefore answers the bounded ownership question without deriving a universal complete
+measurement law.
+
+## 8. Calibration and downstream boundary
+
+- `c_E`: observed terminal clock/ruler calibration; active.
+- `G_obs`: observed but inactive here because no native mass readout is present.
+- electron mass: unapplied future calibration candidate.
+- `hbar`: excluded.
+- strong local CSN: inactive; `kappa` is retained.
+
+No coefficients, thresholds, regimes, or physical channel weights were fitted. Nothing here
+selects a path, physical pair relation, on-shell branch, bootstrap conductor, action, source,
+matter law, `X_max` value, CMB observable, signalling rule, or dynamics.
+
+## 9. Bounded landing
+
+```text
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/QUERY_PROJECTION_CLASSIFICATION.tsv" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+query_id	disposition	reason
+Q01	CONDITIONAL_COMPLETE_QUERY_OUTPUT_NOT_FOUNDING_OWNED	full panel needs supplied pair map path and screen typing
+Q02	FOUNDING_SELECTED_WITHIN_DENSITY_CHARACTER_CLASS	exchange oddness and reciprocal normalization uniquely give Delta_phi
+Q03	DERIVED_GEOMETRIC_CHARACTER_NOT_FOUNDING_RECIPROCAL_OUTPUT	common scale is real state but exchange even
+Q04	DERIVED_CLOCK_DENSITY_NOT_FOUNDING_RECIPROCAL_OUTPUT	contains common scale and has opposite pure-depth sign
+Q05	DERIVED_AREA_DENSITY_NOT_FOUNDING_RECIPROCAL_OUTPUT	measures common scale and vanishes on pure reciprocal depth
+Q06	CONDITIONAL_QUERY_STATE_NOT_CHARACTER	shift needs event pairing and ruler evolution
+Q07	CONDITIONAL_PATH_INSTRUMENT_NOT_REAL_SCALAR	normal carry needs a path and endpoint screen fibers
+Q08	DERIVED_REPRESENTATION_NOT_INDEPENDENT_QUERY	reconstructed from Delta_phi U variance and lambda
+Q09	CHARACTER_FAMILY_REDUCED_TO_Q02_BY_FOUNDING_GATES	continuous density characters are linear and gates set a=0 b=1
+Q10	MATHEMATICALLY_SURVIVES_BROADER_GROUPOID_BUT_UNOWNED	arbitrary endpoint scalar requires a new measurement function
+Q11	UNSELECTED_MICROPHONE_FAMILIES	free coefficient and path or endpoint choice remain ownerless
+Q12	OPEN_NO_PHYSICAL_REGIME_MAP	no derived regime labels thresholds or switch
+Q13	OPEN_LARGER_OWNER_NOT_DERIVED	on-shell or bootstrap selection cannot be assumed
+Q14	OPEN_OUTSIDE_AUDIT	native source and coupling are absent
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/MEASUREMENT_OWNERSHIP_ATLAS.tsv" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+measurement_id	object	type	geometric_status	required_instrument	founding_ownership
+M01	kappa	pair_metric_state	DERIVED_CONDITIONAL	pair_area or common-scale instrument	NOT_FOUNDING_RECIPROCAL_OUTPUT
+M02	phi	reciprocal_density_state	DERIVED_ON_SUPPLIED_PAIR_METRIC	terminal reciprocal c_E instrument	FOUNDING_PROJECTION_REALIZATION_CONDITIONAL
+M03	beta	event_pairing_shift_state	DERIVED_ON_SUPPLIED_PAIR_METRIC	paired events and ruler evolution	CONDITIONAL_ENRICHED_QUERY
+M04	U_gamma	normal_isometry_arrow	DERIVED_AFTER_PATH	path plus endpoint screen frames	CONDITIONAL_PATH_QUERY
+M05	Delta_kappa_Delta_phi_U	typed_arrow_shadow	DERIVED_CONDITIONAL	common matched pair query	NOT_ONE_FOUNDING_SCALAR
+M06	regime_dependent_projection	measurement_policy	OPEN	physical regime map and selector	NOT_DERIVED
+
+codex
+The report’s main claim is already bounded to a character class. I’m checking whether that boundary is actually enforced in the supporting artifacts or whether the derivation sneaks in extra exchange structure, fitted coefficients, or broader ownership claims.
+exec
+/bin/bash -lc "sed -n '261,360p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md" in /tmp/udt_ordered_query_projection_review_20260810
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/PREREGISTRATION.md" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+FOUNDED_RECIPROCAL_PROJECTION_Delta_phi_DERIVED_WITHIN_THE_CONTINUOUS_REAL_TWO_DENSITY_
+CHARACTER_CLASS_ON_A_SUPPLIED_REGULAR_CALIBRATED_PAIR_METRIC__COMMON_SCALE_SHIFT_AND_
+ANGULAR_TRANSPORT_REMAIN_SEPARATELY_TYPED_CONDITIONAL_INSTRUMENTS__ARBITRARY_ENRICHED_STATE_
+ENDPOINT_COBBOUNDARIES_SURVIVE_BUT_ARE_NOT_FOUNDING_OWNED__PHI_PLUS_ORCHESTRA_RETAINED__
+PHYSICAL_PAIR_MAP_PATH_MULTICHANNEL_MEASUREMENT_REGIME_POLICY_CONDUCTOR_ACTION_SOURCE_AND_
+DYNAMICS_OPEN.
+```
+
+ succeeded in 0ms:
+# Preregistration — ordered observer-query projection ownership audit
+
+Date: 2026-08-10
+
+Base: `93f962a727336dafe256364b7de489e5a63b1972`
+
+Mode: `MAP -> PONDER -> DERIVE`; metric-led semantic/type audit with exact CPU algebra. No GPU or
+numerical solve.
+
+## Whole question
+
+Given the already-banked conditional multi-channel state
+
+```text
+object: h equivalent to (kappa,phi,beta), projector/orientation data and supplied lambda;
+arrow shadow: (Delta_kappa,Delta_phi,U_gamma),
+```
+
+what does the founding ordered observer comparison itself operationally own as output? Does it
+measure the full panel, one required reciprocal projection, a family of separately typed
+instruments, or nothing beyond the supplied abstract depth?
+
+## Bounded arena
+
+- the exact Reciprocal-`c_E` founding source and corrected observer-comparison semantics;
+- the supplied regular calibrated stationary R17 pair metric and path-labelled normal transport;
+- matched three-observer composition only;
+- continuous algebraic/order-zero real characters of the two density channels;
+- separately typed shift and angular queries; and
+- exact source-signature and ownership analysis.
+
+Excluded: invention of the physical pair map or path, physical micro/ordinary/cosmological regime
+assignment, action, source, matter, bootstrap closure, `X_max` value, CMB fitting, signalling,
+dynamics, time-live continuation, other branches, or GPU work.
+
+## Candidate space
+
+The complete preregistered candidate census is `QUERY_PROJECTION_UNIVERSE.tsv`. It includes the
+identity/full-state output, reciprocal and common-scale characters, clock and area densities,
+shift state, angular transport, the derived conformal-screen representation, arbitrary linear
+density microphones, arbitrary endpoint coboundaries, the G52 coefficient families,
+regime-dependent query families, and on-shell/global selection.
+
+No candidate is privileged by the table order.
+
+## Ownership and uniqueness contract
+
+The audit must distinguish:
+
+1. a channel existing in the supplied geometry;
+2. a channel being conditionally measurable after extra query data are supplied;
+3. a channel entering the argument list of the two founding postulates; and
+4. a projection being uniquely selected within an explicitly declared mathematical class.
+
+The strongest possible uniqueness theorem may concern only continuous real characters of the
+founded two-density reciprocal comparison. It may not be extended to all smooth functions of the
+complete state, arbitrary endpoint coboundaries, or non-real angular transport.
+
+Strong local CSN is inactive. Algebraic cancellation of common scale in the founding reciprocal
+projection may not be used to delete `kappa` from the complete state.
+
+## Calibration ledger
+
+- `c_E`: `pinned-by-OBSERVATION`; active only as the clock/ruler terminal reciprocal calibration;
+- `G_obs`: `pinned-by-OBSERVATION`; inactive without a native mass readout;
+- electron mass: unapplied future observational calibration candidate;
+- `hbar`: excluded;
+- all arbitrary projection coefficients and regime switches: free-and-explored and unselected.
+
+## Certification
+
+- reconstruct the founding input/output signature directly from the pinned source;
+- classify every candidate once by codomain, extra query data, composition, and ownership;
+- classify all continuous real characters of `(Delta_kappa,Delta_phi)` without assuming the answer;
+- apply clock/ruler exchange and pure reciprocal normalization exactly;
+- test arbitrary `beta` endpoint coboundaries and angular/path outputs as nonuniqueness challenges;
+- retain phi+orchestra modulation upstream of any scalar projection;
+- independently reconstruct the load-bearing algebra;
+- exercise fail-closed semantic mutations; and
+- obtain fresh manifest-confined external adversarial review before banking.
+
+## Maximum allowed conclusion
+
+At most: the founding query selects a unique reciprocal scalar projection within a precisely
+declared character class, while other complete-state channels remain separately typed conditional
+instruments and any physical multi-channel/regime-dependent measurement policy remains open. No
+complete physical observer arrow, conductor, action, source, matter law, bootstrap closure,
+universal mixed-geometry `c_eff`, or physical regime map may follow.
+
+
+exec
+/bin/bash -lc "sed -n '1,240p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/CATCH_PROOFS.tsv" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+mutation_id	mutation	expected	result	status
+M01	promote_full_panel_to_founding_output	REJECT	REJECTED	PASS
+M02	widen_uniqueness_to_all_coboundaries	REJECT	REJECTED	PASS
+M03	delete_kappa_by_CSN	REJECT	REJECTED	PASS
+M04	promote_beta_to_character	REJECT	REJECTED	PASS
+M05	scalarize_U	REJECT	REJECTED	PASS
+M06	double_count_screen_weight	REJECT	REJECTED	PASS
+M07	claim_endpoint_coboundaries_refuted	REJECT	REJECTED	PASS
+M08	promote_endpoint_coboundary	REJECT	REJECTED	PASS
+M09	select_G52_microphone	REJECT	REJECTED	PASS
+M10	erase_phi_orchestra	REJECT	REJECTED	PASS
+M11	invent_physical_pair_map	REJECT	REJECTED	PASS
+M12	invent_physical_path	REJECT	REJECTED	PASS
+M13	assign_regime_map	REJECT	REJECTED	PASS
+M14	add_regime_switch	REJECT	REJECTED	PASS
+M15	use_cE_as_architecture_selector	REJECT	REJECTED	PASS
+M16	activate_G	REJECT	REJECTED	PASS
+M17	activate_electron_mass	REJECT	REJECTED	PASS
+M18	import_hbar	REJECT	REJECTED	PASS
+M19	invent_conductor	REJECT	REJECTED	PASS
+M20	promote_physical_arrow	REJECT	REJECTED	PASS
+M21	infer_downstream_physics	REJECT	REJECTED	PASS
+M22	widen_to_all_branches	REJECT	REJECTED	PASS
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/PREMISE_LEDGER.tsv" in /tmp/udt_ordered_query_projection_review_20260810
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/CATCH_PROOF_RESULT.json" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+premise_id	premise	status	provenance	allowed_use
+P01	reciprocal_c_identity	pinned-by-THEORY	SOURCE_MANIFEST_S06	type_clock_and_ruler_as_coequal_conversion_pair
+P02	dual_reciprocity_on_clock_ruler_pair	pinned-by-THEORY	SOURCE_MANIFEST_S06	enforce_inverse_channel_action
+P03	continuous_relative_composition	pinned-by-THEORY	SOURCE_MANIFEST_S06	enforce_additive_character
+P04	founding_input_is_supplied_ordered_depth	pinned-by-THEORY	SOURCE_MANIFEST_S06_S07_S08_S09_S10	bound_source_signature
+P05	regular_calibrated_pair_metric_state	pinned-by-THEORY	SOURCE_MANIFEST_S02_S03_S04	conditional_complete_state_input
+P06	path_labelled_normal_transport	pinned-by-THEORY	SOURCE_MANIFEST_S02_S03_S13	conditional_angular_input
+P07	strong_local_CSN	CHALLENGED_INACTIVE	CURRENT_SCIENTIFIC_PREMISES_G15	must_not_delete_kappa
+P08	physical_pair_map_and_path	OPEN	CURRENT_SCIENTIFIC_PREMISES_G53	must_not_be_inferred
+P09	physical_query_projection_policy	OPEN	CURRENT_SCIENTIFIC_PREMISES_G53	target_of_audit_not_input
+P10	micro_ordinary_cosmological_regime_map	OPEN	CURRENT_SCIENTIFIC_PREMISES_G53	must_not_be_assigned
+P11	c_E	pinned-by-OBSERVATION	SOURCE_MANIFEST_S06_S11_S16	terminal_reciprocal_calibration_only
+P12	G_obs	pinned-by-OBSERVATION	CURRENT_SCIENTIFIC_PREMISES_G06	inactive_without_native_mass_readout
+P13	electron_mass	unapplied_OBSERVED_CALIBRATION_CANDIDATE	CHARLES_2026_08_10	future_normalization_only
+P14	hbar	EXCLUDED	NO_CURRENT_DISPATCH	no_import
+P15	on_shell_global_bootstrap_conductor	OPEN	CURRENT_SCIENTIFIC_PREMISES_G53	larger_possible_owner_not_input
+P16	protected_curvature_atlas	EXCLUDED	AGENTS_AND_LIVE_GUARD	must_not_read_modify_stage_or_cite
+
+
+ succeeded in 0ms:
+{
+  "failed": [],
+  "rejected": 22,
+  "status": "PASS",
+  "total": 22
+}
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/DERIVATION_RESULT.json" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+{
+  "angular_status": "CONDITIONAL_PATH_INSTRUMENT_WITH_ZERO_CONTINUOUS_REAL_SO2_CHARACTER",
+  "beta_status": "CONDITIONAL_QUERY_STATE_NOT_STANDALONE_CHARACTER",
+  "checks": {
+    "SO2_cover_character_period_defect": true,
+    "SO2_has_no_nontrivial_continuous_real_character": true,
+    "arbitrary_beta_endpoint_coboundary_telescopes": true,
+    "area_density_reconstructs_kappa": true,
+    "area_density_vanishes_on_pure_reciprocal": true,
+    "broader_coboundary_family_is_nontrivial": true,
+    "broader_coboundary_family_preserves_pair_pure_reduction": true,
+    "clock_density_has_opposite_pure_depth_sign": true,
+    "exchange_and_normalization_select_phi": true,
+    "exchange_oddness_defect": true,
+    "linear_density_characters_add": true,
+    "mixing_witness_one_modulates_phi": true,
+    "mixing_witness_two_determinant": true,
+    "mixing_witness_two_modulates_phi": true,
+    "mixing_witness_two_retains_shift": true,
+    "reciprocal_root_reconstructs_phi": true,
+    "screen_representation_reconstructed_and_composes": true,
+    "selected_character_is_Delta_phi": true,
+    "source_does_not_claim_profile": true,
+    "source_has_composition": true,
+    "source_has_inverse_pairing": true,
+    "source_has_time_length_pair": true,
+    "source_marks_sign_unit_chosen": true
+  },
+  "complete_panel": "CONDITIONAL_GEOMETRIC_STATE_AND_TYPED_QUERY_FAMILY_NOT_FOUNDING_SINGLE_OUTPUT",
+  "conductor_owner": null,
+  "founding_query_output": "Delta_phi_WITHIN_CONTINUOUS_REAL_TWO_DENSITY_CHARACTER_CLASS",
+  "kappa_status": "RETAINED_COMPLETE_STATE_NOT_DELETED_BY_RECIPROCAL_PROJECTION",
+  "maximum_ruling": "FOUNDED_RECIPROCAL_PROJECTION_Delta_phi_DERIVED_WITHIN_DECLARED_CHARACTER_CLASS__COMPLETE_MULTICHANNEL_MEASUREMENT_AND_REGIME_POLICY_OPEN",
+  "passed": 23,
+  "phi_orchestra": "UPSTREAM_COMPLETE_PAIR_METRIC_MODULATION_RETAINED",
+  "physical_regime_policy": null,
+  "schema_version": 1,
+  "status": "PASS",
+  "total": 23,
+  "uniqueness_scope": "UNIQUE_ONLY_WITHIN_FOUNDED_DENSITY_CHARACTERS_NOT_ALL_COMPLETE_STATE_COBBOUNDARIES"
+}
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/INDEPENDENT_VERIFICATION_RESULT.json" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+{
+  "checks": {
+    "Q02_founding_projection": true,
+    "Q10_broader_nonuniqueness_retained": true,
+    "Q12_regime_policy_open": true,
+    "classification_rows_14": true,
+    "density_inverse_kappa_-4/9_5/6": true,
+    "density_inverse_kappa_3/5_-2/7": true,
+    "density_inverse_phi_-4/9_5/6": true,
+    "density_inverse_phi_3/5_-2/7": true,
+    "endpoint_coboundary_nonzero": true,
+    "endpoint_coboundary_telescopes": true,
+    "exchange_basis_kills_common_scale": true,
+    "finite_order_real_character_zero": true,
+    "mix_one_det": true,
+    "mix_one_phi_argument": true,
+    "mix_two_beta": true,
+    "mix_two_det": true,
+    "mix_two_phi_argument": true,
+    "ownership_rows_6": true,
+    "pure_reciprocal_basis_normalizes_phi": true,
+    "quarter_turn_period_four": true,
+    "quarter_turn_square": true,
+    "selected_basis_pair_unique": true,
+    "selected_character_-5_7": true,
+    "selected_character_2_3": true,
+    "signature_rows_5": true
+  },
+  "failed": [],
+  "method": "INDEPENDENT_STDLIB_FRACTION_BASIS_CHARACTER_AND_TYPED_TABLE_RECONSTRUCTION",
+  "passed": 25,
+  "schema_version": 1,
+  "status": "PASS",
+  "total": 25
+}
+
+codex
+I’ve identified one possible intake weakness: the manifest cites upstream source files by hash and path, but those primary texts are not actually present here. I’m checking the candidate census and the derivation script to see whether the uniqueness claim still stands on the sealed evidence or whether it depends circularly on absent source text.
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/QUERY_PROJECTION_UNIVERSE.tsv" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+query_id	candidate_output	codomain	extra_query_data	composition_question	preregistered_disposition
+Q01	full_pair_state_kappa_phi_beta_and_U	mixed_state_and_groupoid	complete_pair_map_path_screen_typing	state_decorated_path_composition	TEST
+Q02	reciprocal_depth_Delta_phi	R	matched_calibrated_pair_states	additive_character	TEST
+Q03	common_scale_Delta_kappa	R	matched_calibrated_pair_states	additive_character	TEST
+Q04	clock_density_b1_Delta_kappa_minus_Delta_phi	R	matched_calibrated_clock_line	additive_character	TEST
+Q05	area_density_b2_two_Delta_kappa	R	matched_calibrated_pair_plane	additive_character	TEST
+Q06	shift_beta	R_object_state	event_pairing_and_ruler_evolution	not_standalone_character	TEST
+Q07	angular_transport_U_gamma	oriented_normal_isometry	declared_path_and_endpoint_screen_fibers	path_groupoid_composition	TEST
+Q08	conformal_screen_representation	CO2_fiber_map	U_gamma_variance_and_supplied_lambda	reconstructed_representation	TEST
+Q09	linear_density_microphone_a_Delta_kappa_plus_b_Delta_phi	R	coefficients_a_b	additive_character	TEST
+Q10	arbitrary_endpoint_coboundary_f_of_state	R	chosen_scalar_f_on_objects	telescoping_coboundary	TEST
+Q11	G52_alpha_c_or_beta_c_path_or_endpoint_scalarization	R	coefficient_c_and_path_or_endpoints	family_dependent	TEST
+Q12	regime_dependent_projection_family	variable	physical_regime_map_and_switch	piecewise_or_stratified	TEST
+Q13	on_shell_or_bootstrap_selected_projection	variable	native_global_return_law	unknown	TEST
+Q14	physical_mass_energy_or_source_readout	unknown	native_source_and_coupling	unknown	TEST
+
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/verify_query_projection_independent.py" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent stdlib reconstruction of the query-projection result."""
+
+from __future__ import annotations
+
+import csv
+import json
+from fractions import Fraction
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+
+
+def rows(name: str) -> list[dict[str, str]]:
+    with (HERE / name).open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def main() -> int:
+    checks: dict[str, bool] = {}
+
+    def check(name: str, value: bool) -> None:
+        checks[name] = bool(value)
+        if not value:
+            raise AssertionError(name)
+
+    # A continuous character of additive R^2 is fixed by its values a,b on the basis.
+    # Exchange fixes e_kappa and reverses e_phi. Oddness therefore gives a=-a, hence a=0;
+    # normalization on e_phi gives b=1.
+    a = Fraction(0)
+    b = Fraction(1)
+    check("exchange_basis_kills_common_scale", a == -a == 0)
+    check("pure_reciprocal_basis_normalizes_phi", b == 1)
+    check("selected_basis_pair_unique", (a, b) == (Fraction(0), Fraction(1)))
+    for dk, dp in ((Fraction(2), Fraction(3)), (Fraction(-5), Fraction(7))):
+        check(f"selected_character_{dk}_{dp}", a * dk + b * dp == dp)
+
+    # Independent density inversion.
+    for dk, dp in ((Fraction(3, 5), Fraction(-2, 7)), (Fraction(-4, 9), Fraction(5, 6))):
+        clock = dk - dp
+        area = 2 * dk
+        check(f"density_inverse_kappa_{dk}_{dp}", area / 2 == dk)
+        check(f"density_inverse_phi_{dk}_{dp}", area / 2 - clock == dp)
+
+    # Broader endpoint coboundaries really do survive telescoping and therefore limit uniqueness.
+    fp, fq, fr = Fraction(2), Fraction(11), Fraction(-3)
+    check("endpoint_coboundary_telescopes", (fq - fp) + (fr - fq) == fr - fp)
+    check("endpoint_coboundary_nonzero", fq - fp != 0)
+
+    # Exact quarter-turn SO(2) composition; compactness then kills a continuous real character.
+    R90 = ((0, -1), (1, 0))
+    def mm(x: tuple[tuple[int, int], tuple[int, int]],
+           y: tuple[tuple[int, int], tuple[int, int]]) -> tuple[tuple[int, int], tuple[int, int]]:
+        return (
+            (x[0][0] * y[0][0] + x[0][1] * y[1][0],
+             x[0][0] * y[0][1] + x[0][1] * y[1][1]),
+            (x[1][0] * y[0][0] + x[1][1] * y[1][0],
+             x[1][0] * y[0][1] + x[1][1] * y[1][1]),
+        )
+    R180 = ((-1, 0), (0, -1))
+    I = ((1, 0), (0, 1))
+    check("quarter_turn_square", mm(R90, R90) == R180)
+    check("quarter_turn_period_four", mm(R180, R180) == I)
+    check("finite_order_real_character_zero", 4 * 0 == 0)
+
+    # Exact mixed-pair ratios, independent of SymPy.
+    h00_1, h11_1 = Fraction(-3, 16), Fraction(4)
+    det1 = h00_1 * h11_1
+    check("mix_one_det", det1 == Fraction(-3, 4))
+    check("mix_one_phi_argument", (-det1) / (h00_1 * h00_1) == Fraction(64, 3))
+    h00_2, h01_2, h11_2 = Fraction(-3, 16), Fraction(1, 12), Fraction(37, 9)
+    det2 = h00_2 * h11_2 - h01_2 * h01_2
+    check("mix_two_det", det2 == Fraction(-7, 9))
+    check("mix_two_phi_argument", (-det2) / (h00_2 * h00_2) == Fraction(1792, 81))
+    check("mix_two_beta", h01_2 / h00_2 == Fraction(-4, 9))
+
+    classification = rows("QUERY_PROJECTION_CLASSIFICATION.tsv")
+    ownership = rows("MEASUREMENT_OWNERSHIP_ATLAS.tsv")
+    signatures = rows("FOUNDING_SIGNATURE_RESULT.tsv")
+    check("classification_rows_14", len(classification) == 14)
+    check("ownership_rows_6", len(ownership) == 6)
+    check("signature_rows_5", len(signatures) == 5)
+    by_query = {row["query_id"]: row for row in classification}
+    check("Q02_founding_projection", by_query["Q02"]["disposition"] == "FOUNDING_SELECTED_WITHIN_DENSITY_CHARACTER_CLASS")
+    check("Q10_broader_nonuniqueness_retained", "UNOWNED" in by_query["Q10"]["disposition"])
+    check("Q12_regime_policy_open", by_query["Q12"]["disposition"] == "OPEN_NO_PHYSICAL_REGIME_MAP")
+
+    result = {
+        "schema_version": 1,
+        "status": "PASS",
+        "method": "INDEPENDENT_STDLIB_FRACTION_BASIS_CHARACTER_AND_TYPED_TABLE_RECONSTRUCTION",
+        "checks": checks,
+        "passed": sum(checks.values()),
+        "total": len(checks),
+        "failed": [name for name, ok in checks.items() if not ok],
+    }
+    assert result["passed"] == result["total"]
+    (HERE / "INDEPENDENT_VERIFICATION_RESULT.json").write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(result, indent=2, sort_keys=True))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/derive_query_projection_ownership.py" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact algebra and ledgers for the ordered-query projection ownership audit."""
+
+from __future__ import annotations
+
+import csv
+import json
+from pathlib import Path
+
+import sympy as sp
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+
+
+def require(condition: bool, name: str, checks: dict[str, bool]) -> None:
+    checks[name] = bool(condition)
+    if not condition:
+        raise AssertionError(name)
+
+
+def write_tsv(name: str, fields: list[str], rows: list[dict[str, str]]) -> None:
+    with (HERE / name).open("w", newline="", encoding="utf-8") as stream:
+        writer = csv.DictWriter(stream, fieldnames=fields, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def main() -> int:
+    checks: dict[str, bool] = {}
+
+    a, b = sp.symbols("a b", real=True)
+    dk1, dk2, dp1, dp2 = sp.symbols("dk1 dk2 dp1 dp2", real=True)
+    q = lambda dk, dp: a * dk + b * dp
+    require(sp.expand(q(dk1 + dk2, dp1 + dp2) - q(dk1, dp1) - q(dk2, dp2)) == 0,
+            "linear_density_characters_add", checks)
+
+    exchange_defect = sp.expand(q(dk1, -dp1) + q(dk1, dp1))
+    require(exchange_defect == 2 * a * dk1, "exchange_oddness_defect", checks)
+    exchange_solution = sp.solve(
+        [sp.diff(exchange_defect, dk1), q(0, 1) - 1], [a, b], dict=True
+    )
+    require(exchange_solution == [{a: 0, b: 1}], "exchange_and_normalization_select_phi", checks)
+    require(sp.simplify(q(dk1, dp1).subs(exchange_solution[0]) - dp1) == 0,
+            "selected_character_is_Delta_phi", checks)
+
+    b1 = dk1 - dp1
+    b2 = 2 * dk1
+    require(sp.simplify(b2 / 2 - b1 - dp1) == 0, "reciprocal_root_reconstructs_phi", checks)
+    require(sp.simplify(b2 / 2 - dk1) == 0, "area_density_reconstructs_kappa", checks)
+    require(sp.simplify(b1.subs({dk1: 0, dp1: 1}) + 1) == 0,
+            "clock_density_has_opposite_pure_depth_sign", checks)
+    require(sp.simplify(b2.subs({dk1: 0, dp1: 1})) == 0,
+            "area_density_vanishes_on_pure_reciprocal", checks)
+
+    bp, bq, br = sp.symbols("beta_p beta_q beta_r", real=True)
+    f = lambda x: x + x**3
+    cob_pq = f(bq) - f(bp)
+    cob_qr = f(br) - f(bq)
+    cob_pr = f(br) - f(bp)
+    require(sp.expand(cob_pq + cob_qr - cob_pr) == 0,
+            "arbitrary_beta_endpoint_coboundary_telescopes", checks)
+    c = sp.symbols("c", real=True)
+    extended = dp1 + c * cob_pq
+    require(sp.simplify(extended.subs({bp: 0, bq: 0}) - dp1) == 0,
+            "broader_coboundary_family_preserves_pair_pure_reduction", checks)
+    require(sp.diff(extended, c) == cob_pq, "broader_coboundary_family_is_nontrivial", checks)
+
+    theta, m = sp.symbols("theta m", real=True)
+    cover_character = m * theta
+    periodic_defect = sp.expand(cover_character.subs(theta, theta + 2 * sp.pi) - cover_character)
+    require(periodic_defect == 2 * sp.pi * m, "SO2_cover_character_period_defect", checks)
+    require(sp.solve(periodic_defect, m) == [0], "SO2_has_no_nontrivial_continuous_real_character", checks)
+
+    lam, dphi, ang1, ang2 = sp.symbols("lambda dphi ang1 ang2", real=True)
+    rot = lambda x: sp.Matrix([[sp.cos(x), -sp.sin(x)], [sp.sin(x), sp.cos(x)]])
+    rep1 = sp.exp(lam * dp1) * rot(ang1)
+    rep2 = sp.exp(lam * dp2) * rot(ang2)
+    rep12 = sp.exp(lam * (dp1 + dp2)) * rot(ang1 + ang2)
+    require(sp.simplify(sp.trigsimp(rep2 * rep1 - rep12)) == sp.zeros(2),
+            "screen_representation_reconstructed_and_composes", checks)
+
+    h1 = sp.diag(sp.Rational(-3, 16), 4)
+    det1 = h1.det()
+    phi1 = sp.log((-det1) / h1[0, 0] ** 2) / 4
+    require(sp.simplify(phi1 - sp.log(sp.Rational(64, 3)) / 4) == 0,
+            "mixing_witness_one_modulates_phi", checks)
+    h2 = sp.Matrix([[sp.Rational(-3, 16), sp.Rational(1, 12)],
+                    [sp.Rational(1, 12), sp.Rational(37, 9)]])
+    det2 = h2.det()
+    phi2 = sp.log((-det2) / h2[0, 0] ** 2) / 4
+    beta2 = sp.cancel(h2[0, 1] / h2[0, 0])
+    require(det2 == sp.Rational(-7, 9), "mixing_witness_two_determinant", checks)
+    require(sp.simplify(phi2 - sp.log(sp.Rational(1792, 81)) / 4) == 0,
+            "mixing_witness_two_modulates_phi", checks)
+    require(beta2 == sp.Rational(-4, 9), "mixing_witness_two_retains_shift", checks)
+
+    founding = (ROOT / "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md").read_text(
+        encoding="utf-8"
+    )
+    for name, token in (
+        ("source_has_time_length_pair", "dimension-matched temporal/radial coframe pair"),
+        ("source_has_inverse_pairing", "u(\\Delta)v(\\Delta)=1"),
+        ("source_has_composition", "P(\\Delta_1+\\Delta_2)=P(\\Delta_1)P(\\Delta_2)"),
+        ("source_marks_sign_unit_chosen", "Sign and unit of $\\phi$"),
+        ("source_does_not_claim_profile", "does not yet derive a unique action, the profile $\\phi(r)$"),
+    ):
+        require(token in founding, name, checks)
+
+    classifications = [
+        ("Q01", "CONDITIONAL_COMPLETE_QUERY_OUTPUT_NOT_FOUNDING_OWNED", "full panel needs supplied pair map path and screen typing"),
+        ("Q02", "FOUNDING_SELECTED_WITHIN_DENSITY_CHARACTER_CLASS", "exchange oddness and reciprocal normalization uniquely give Delta_phi"),
+        ("Q03", "DERIVED_GEOMETRIC_CHARACTER_NOT_FOUNDING_RECIPROCAL_OUTPUT", "common scale is real state but exchange even"),
+        ("Q04", "DERIVED_CLOCK_DENSITY_NOT_FOUNDING_RECIPROCAL_OUTPUT", "contains common scale and has opposite pure-depth sign"),
+        ("Q05", "DERIVED_AREA_DENSITY_NOT_FOUNDING_RECIPROCAL_OUTPUT", "measures common scale and vanishes on pure reciprocal depth"),
+        ("Q06", "CONDITIONAL_QUERY_STATE_NOT_CHARACTER", "shift needs event pairing and ruler evolution"),
+        ("Q07", "CONDITIONAL_PATH_INSTRUMENT_NOT_REAL_SCALAR", "normal carry needs a path and endpoint screen fibers"),
+        ("Q08", "DERIVED_REPRESENTATION_NOT_INDEPENDENT_QUERY", "reconstructed from Delta_phi U variance and lambda"),
+        ("Q09", "CHARACTER_FAMILY_REDUCED_TO_Q02_BY_FOUNDING_GATES", "continuous density characters are linear and gates set a=0 b=1"),
+        ("Q10", "MATHEMATICALLY_SURVIVES_BROADER_GROUPOID_BUT_UNOWNED", "arbitrary endpoint scalar requires a new measurement function"),
+        ("Q11", "UNSELECTED_MICROPHONE_FAMILIES", "free coefficient and path or endpoint choice remain ownerless"),
+        ("Q12", "OPEN_NO_PHYSICAL_REGIME_MAP", "no derived regime labels thresholds or switch"),
+        ("Q13", "OPEN_LARGER_OWNER_NOT_DERIVED", "on-shell or bootstrap selection cannot be assumed"),
+        ("Q14", "OPEN_OUTSIDE_AUDIT", "native source and coupling are absent"),
+    ]
+    write_tsv(
+        "QUERY_PROJECTION_CLASSIFICATION.tsv",
+        ["query_id", "disposition", "reason"],
+        [{"query_id": qid, "disposition": disposition, "reason": reason}
+         for qid, disposition, reason in classifications],
+    )
+
+    ownership = [
+        ("M01", "kappa", "pair_metric_state", "DERIVED_CONDITIONAL", "pair_area or common-scale instrument", "NOT_FOUNDING_RECIPROCAL_OUTPUT"),
+        ("M02", "phi", "reciprocal_density_state", "DERIVED_ON_SUPPLIED_PAIR_METRIC", "terminal reciprocal c_E instrument", "FOUNDING_PROJECTION_REALIZATION_CONDITIONAL"),
+        ("M03", "beta", "event_pairing_shift_state", "DERIVED_ON_SUPPLIED_PAIR_METRIC", "paired events and ruler evolution", "CONDITIONAL_ENRICHED_QUERY"),
+        ("M04", "U_gamma", "normal_isometry_arrow", "DERIVED_AFTER_PATH", "path plus endpoint screen frames", "CONDITIONAL_PATH_QUERY"),
+        ("M05", "Delta_kappa_Delta_phi_U", "typed_arrow_shadow", "DERIVED_CONDITIONAL", "common matched pair query", "NOT_ONE_FOUNDING_SCALAR"),
+        ("M06", "regime_dependent_projection", "measurement_policy", "OPEN", "physical regime map and selector", "NOT_DERIVED"),
+    ]
+    write_tsv(
+        "MEASUREMENT_OWNERSHIP_ATLAS.tsv",
+        ["measurement_id", "object", "type", "geometric_status", "required_instrument", "founding_ownership"],
+        [dict(zip(
+            ["measurement_id", "object", "type", "geometric_status", "required_instrument", "founding_ownership"],
+            row,
+        )) for row in ownership],
+    )
+
+    signatures = [
+        ("F01", "supplied_ordered_signed_depth_delta", "reciprocal_operator_D_delta", "FOUNDING_DERIVED_ABSTRACT"),
+        ("F02", "reciprocal_clock_ruler_channel_labels", "inverse_channel_weights", "FOUNDING_DERIVED"),
+        ("F03", "matched_abstract_depths", "composition_reversal_identity", "FOUNDING_DERIVED"),
+        ("F04", "c_E_time_length_conversion", "terminal_clock_ruler_unit_calibration", "OBSERVED_CALIBRATION_NOT_SELECTOR"),
+        ("F05", "complete_declared_enriched_query", "metric_constructed_pair_geometry_after_query", "CONDITIONAL_QUERY_ENRICHMENT"),
+    ]
+    write_tsv(
+        "FOUNDING_SIGNATURE_RESULT.tsv",
+        ["signature_id", "input", "output", "ruling"],
+        [dict(zip(["signature_id", "input", "output", "ruling"], row)) for row in signatures],
+    )
+
+    result = {
+        "schema_version": 1,
+        "status": "PASS",
+        "checks": checks,
+        "passed": sum(checks.values()),
+        "total": len(checks),
+        "founding_query_output": "Delta_phi_WITHIN_CONTINUOUS_REAL_TWO_DENSITY_CHARACTER_CLASS",
+        "uniqueness_scope": "UNIQUE_ONLY_WITHIN_FOUNDED_DENSITY_CHARACTERS_NOT_ALL_COMPLETE_STATE_COBBOUNDARIES",
+        "complete_panel": "CONDITIONAL_GEOMETRIC_STATE_AND_TYPED_QUERY_FAMILY_NOT_FOUNDING_SINGLE_OUTPUT",
+        "kappa_status": "RETAINED_COMPLETE_STATE_NOT_DELETED_BY_RECIPROCAL_PROJECTION",
+        "beta_status": "CONDITIONAL_QUERY_STATE_NOT_STANDALONE_CHARACTER",
+        "angular_status": "CONDITIONAL_PATH_INSTRUMENT_WITH_ZERO_CONTINUOUS_REAL_SO2_CHARACTER",
+        "phi_orchestra": "UPSTREAM_COMPLETE_PAIR_METRIC_MODULATION_RETAINED",
+        "physical_regime_policy": None,
+        "conductor_owner": None,
+        "maximum_ruling": "FOUNDED_RECIPROCAL_PROJECTION_Delta_phi_DERIVED_WITHIN_DECLARED_CHARACTER_CLASS__COMPLETE_MULTICHANNEL_MEASUREMENT_AND_REGIME_POLICY_OPEN",
+    }
+    assert result["passed"] == result["total"]
+    (HERE / "DERIVATION_RESULT.json").write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(result, indent=2, sort_keys=True))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+
+exec
+/bin/bash -lc "sed -n '1,240p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/STATUS_LEDGER.tsv" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+claim_id	claim	status	exact_scope	open_scope
+S01	founding_source_signature	DERIVED_ABSTRACT	reciprocal clock ruler labels exchange parity and additive character on supplied depth	physical pair realization
+S02	continuous_density_character_classification	DERIVED	all continuous real characters of matched Delta_kappa Delta_phi are a Delta_kappa plus b Delta_phi	broader enriched state cocycles
+S03	founding_reciprocal_projection	DERIVED_CONDITIONAL_UNIQUE	Delta_phi unique under exchange oddness and pure reciprocal normalization on supplied regular calibrated pair metric	physical pair map and complete query realization
+S04	common_scale_state	DERIVED_CONDITIONAL	kappa and Delta_kappa retained as pair metric state and matched character	physical common scale measurement ownership
+S05	shift_state	DERIVED_CONDITIONAL	beta unique pair metric coordinate and conditional enriched query state	physical event pairing and ruler evolution
+S06	angular_transport	DERIVED_AFTER_PATH	U_gamma is separate screen isometry with no nontrivial continuous real SO2 character	physical path and channel population
+S07	arbitrary_endpoint_coboundaries	CONSTRUCTIVE_NONUNIQUENESS	broader enriched state admits telescoping f(q)-f(p)	physical measurement function
+S08	complete_screen_weight	DERIVED_REPRESENTATION	reconstructed from Delta_phi U_gamma variance and supplied lambda	other branches
+S09	phi_orchestra	RETAINED	complete mixing modulates pair metric before terminal phi extraction	physical complete pair map
+S10	strong_local_CSN	CHALLENGED_INACTIVE	cannot delete kappa	future explicit counterfactual only
+S11	c_E	OBSERVED_CALIBRATION	terminal reciprocal clock ruler calibration	complete physical placement
+S12	physical_multichannel_measurement_policy	OPEN	no regime or branch policy selected	on shell or global completion ownership
+S13	physical_pair_map_path_and_arrow	OPEN	outside bounded audit	complete observer relation
+S14	conductor_action_source_matter_and_dynamics	OPEN_NOT_DERIVED	outside bounded audit	complete UDT closure
+
+exec
+/bin/bash -lc "sed -n '1,240p' /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/FALSIFICATION_CONTRACT.tsv" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+test_id	claim_under_test	fail_condition	maximum_surviving_conclusion
+F01	founding_source_signature	source_contains_complete_state_or_angular_output	RECLASSIFY_FOUNDING_QUERY
+F02	density_character_classification	nonlinear_continuous_character_survives	NO_LINEAR_CHARACTER_THEOREM
+F03	exchange_oddness	common_scale_component_survives_exact_exchange	RECIPROCAL_PROJECTION_NONUNIQUE
+F04	pure_reciprocal_normalization	more_than_one_density_character_survives	RECIPROCAL_PROJECTION_NONUNIQUE
+F05	beta_challenge	beta_is_founded_argument_or_standalone_character	EXPAND_FOUNDED_QUERY
+F06	angular_challenge	SO2_transport_has_nontrivial_continuous_real_character	EXPAND_SCALAR_SHADOW
+F07	endpoint_coboundary_challenge	arbitrary_f_is_owned_without_extra_measurement_premise	FOUNDING_MICROPHONE_NONUNIQUE
+F08	full_panel_ownership	all_channels_follow_from_two_founding_postulates	FOUNDING_FULL_PANEL
+F09	phi_orchestra_guard	projection_discards_upstream_mixing_modulation	INVALID_SCALAR_REDUCTION
+F10	strong_CSN_regression	kappa_is_deleted_from_complete_state	INVALID_GAUGE_PROMOTION
+F11	regime_policy	physical_labels_or_switch_are introduced	ALGEBRAIC_QUERY_TYPES_ONLY
+F12	calibration_role	c_E_G_m_e_or_hbar_selects_optional_channels	CALIBRATION_MISUSED
+F13	conductor_ownership	on_shell_or_bootstrap_rule_is_assumed	OWNER_OPEN
+F14	scope	physical_arrow_action_source_matter_c_eff_Xmax_CMB_or_signalling_promoted	DOWNSTREAM_OVERCLAIM
+F15	independence	verification_reuses_controller_outputs	VERIFIED_WITH_CAVEATS_ONLY
+F16	external_review	fresh_manifest_confined_review_absent	LEAD_ONLY
+
+
+codex
+The core theorem is mathematically fine, but the sealed evidence appears weaker than the report’s provenance language: the realizability step is conditional, and the intake does not contain the actual founding source text used by the controller. I’m pulling line-numbered references now so the final review can tie each conclusion to exact intake evidence.
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md | sed -n '1,220p'" in /tmp/udt_ordered_query_projection_review_20260810
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md | sed -n '1,260p'" in /tmp/udt_ordered_query_projection_review_20260810
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/derive_query_projection_ownership.py | sed -n '1,260p'" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+     1	# Audit report — ordered observer-query projection ownership
+     2	
+     3	Date: 2026-08-10
+     4	
+     5	## Internal result
+     6	
+     7	On a supplied regular calibrated pair metric, the founding reciprocal clock/ruler question has a
+     8	unique scalar answer within the declared continuous two-density character class: `Delta_phi`.
+     9	Clock/ruler exchange leaves common scale invariant and reverses reciprocal imbalance; exchange
+    10	oddness removes `Delta_kappa`, while pure reciprocal normalization fixes the remaining coefficient
+    11	to one.
+    12	
+    13	This is not uniqueness over all measurements of the complete state. `kappa` remains real
+    14	conditional pair-metric data, `beta` remains enriched query state, and `U_gamma` remains a
+    15	path-labelled angular instrument. Arbitrary endpoint coboundaries survive mathematically but need
+    16	new measurement functions not owned by the founding source. Complete mixing remains upstream of
+    17	the terminal `phi` readout.
+    18	
+    19	Fresh manifest-confined external adversarial review is still required before this result is
+    20	banked.
+    21	
+    22	## Evidence gates
+    23	
+    24	1. **Preregistered:** yes, commit `28db903f`, before derivation.
+    25	2. **Full or bounded:** complete only over the 14 preregistered projection candidates and the
+    26	   declared continuous real two-density character class on a supplied regular calibrated
+    27	   stationary R17 pair query. Other branches, degenerate strata, physical regimes, and general
+    28	   enriched-state measurement functions are not exhausted.
+    29	3. **Independently verified:** production exact algebra 23/23; independent stdlib/Fraction
+    30	   reconstruction 25/25; semantic catch-proofs 22/22. Fresh external review pending.
+    31	4. **Premises audited:** yes internally. Strong local CSN is inactive; no physical pair map, path,
+    32	   regime selector, bootstrap conductor, action, source, mass law, or dynamics was imported.
+    33	
+    34	## Current grade
+    35	
+    36	`VERIFIED-WITH-CAVEATS-PENDING-EXTERNAL-REVIEW`.
+    37	
+    38	## Maximum conclusion
+    39	
+    40	```text
+    41	FOUNDED_RECIPROCAL_PROJECTION_Delta_phi_DERIVED_WITHIN_DECLARED_CHARACTER_CLASS__
+    42	COMPLETE_MULTICHANNEL_MEASUREMENT_AND_REGIME_POLICY_OPEN
+    43	```
+    44	
+    45	This does not derive a complete observer arrow, universal mixed-geometry `c_eff`, physical path,
+    46	regime map, conductor, action, source, matter, mass, `X_max`, CMB observable, signalling rule, or
+    47	dynamics.
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Exact algebra and ledgers for the ordered-query projection ownership audit."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import csv
+     7	import json
+     8	from pathlib import Path
+     9	
+    10	import sympy as sp
+    11	
+    12	
+    13	HERE = Path(__file__).resolve().parent
+    14	ROOT = HERE.parent
+    15	
+    16	
+    17	def require(condition: bool, name: str, checks: dict[str, bool]) -> None:
+    18	    checks[name] = bool(condition)
+    19	    if not condition:
+    20	        raise AssertionError(name)
+    21	
+    22	
+    23	def write_tsv(name: str, fields: list[str], rows: list[dict[str, str]]) -> None:
+    24	    with (HERE / name).open("w", newline="", encoding="utf-8") as stream:
+    25	        writer = csv.DictWriter(stream, fieldnames=fields, delimiter="\t", lineterminator="\n")
+    26	        writer.writeheader()
+    27	        writer.writerows(rows)
+    28	
+    29	
+    30	def main() -> int:
+    31	    checks: dict[str, bool] = {}
+    32	
+    33	    a, b = sp.symbols("a b", real=True)
+    34	    dk1, dk2, dp1, dp2 = sp.symbols("dk1 dk2 dp1 dp2", real=True)
+    35	    q = lambda dk, dp: a * dk + b * dp
+    36	    require(sp.expand(q(dk1 + dk2, dp1 + dp2) - q(dk1, dp1) - q(dk2, dp2)) == 0,
+    37	            "linear_density_characters_add", checks)
+    38	
+    39	    exchange_defect = sp.expand(q(dk1, -dp1) + q(dk1, dp1))
+    40	    require(exchange_defect == 2 * a * dk1, "exchange_oddness_defect", checks)
+    41	    exchange_solution = sp.solve(
+    42	        [sp.diff(exchange_defect, dk1), q(0, 1) - 1], [a, b], dict=True
+    43	    )
+    44	    require(exchange_solution == [{a: 0, b: 1}], "exchange_and_normalization_select_phi", checks)
+    45	    require(sp.simplify(q(dk1, dp1).subs(exchange_solution[0]) - dp1) == 0,
+    46	            "selected_character_is_Delta_phi", checks)
+    47	
+    48	    b1 = dk1 - dp1
+    49	    b2 = 2 * dk1
+    50	    require(sp.simplify(b2 / 2 - b1 - dp1) == 0, "reciprocal_root_reconstructs_phi", checks)
+    51	    require(sp.simplify(b2 / 2 - dk1) == 0, "area_density_reconstructs_kappa", checks)
+    52	    require(sp.simplify(b1.subs({dk1: 0, dp1: 1}) + 1) == 0,
+    53	            "clock_density_has_opposite_pure_depth_sign", checks)
+    54	    require(sp.simplify(b2.subs({dk1: 0, dp1: 1})) == 0,
+    55	            "area_density_vanishes_on_pure_reciprocal", checks)
+    56	
+    57	    bp, bq, br = sp.symbols("beta_p beta_q beta_r", real=True)
+    58	    f = lambda x: x + x**3
+    59	    cob_pq = f(bq) - f(bp)
+    60	    cob_qr = f(br) - f(bq)
+    61	    cob_pr = f(br) - f(bp)
+    62	    require(sp.expand(cob_pq + cob_qr - cob_pr) == 0,
+    63	            "arbitrary_beta_endpoint_coboundary_telescopes", checks)
+    64	    c = sp.symbols("c", real=True)
+    65	    extended = dp1 + c * cob_pq
+    66	    require(sp.simplify(extended.subs({bp: 0, bq: 0}) - dp1) == 0,
+    67	            "broader_coboundary_family_preserves_pair_pure_reduction", checks)
+    68	    require(sp.diff(extended, c) == cob_pq, "broader_coboundary_family_is_nontrivial", checks)
+    69	
+    70	    theta, m = sp.symbols("theta m", real=True)
+    71	    cover_character = m * theta
+    72	    periodic_defect = sp.expand(cover_character.subs(theta, theta + 2 * sp.pi) - cover_character)
+    73	    require(periodic_defect == 2 * sp.pi * m, "SO2_cover_character_period_defect", checks)
+    74	    require(sp.solve(periodic_defect, m) == [0], "SO2_has_no_nontrivial_continuous_real_character", checks)
+    75	
+    76	    lam, dphi, ang1, ang2 = sp.symbols("lambda dphi ang1 ang2", real=True)
+    77	    rot = lambda x: sp.Matrix([[sp.cos(x), -sp.sin(x)], [sp.sin(x), sp.cos(x)]])
+    78	    rep1 = sp.exp(lam * dp1) * rot(ang1)
+    79	    rep2 = sp.exp(lam * dp2) * rot(ang2)
+    80	    rep12 = sp.exp(lam * (dp1 + dp2)) * rot(ang1 + ang2)
+    81	    require(sp.simplify(sp.trigsimp(rep2 * rep1 - rep12)) == sp.zeros(2),
+    82	            "screen_representation_reconstructed_and_composes", checks)
+    83	
+    84	    h1 = sp.diag(sp.Rational(-3, 16), 4)
+    85	    det1 = h1.det()
+    86	    phi1 = sp.log((-det1) / h1[0, 0] ** 2) / 4
+    87	    require(sp.simplify(phi1 - sp.log(sp.Rational(64, 3)) / 4) == 0,
+    88	            "mixing_witness_one_modulates_phi", checks)
+    89	    h2 = sp.Matrix([[sp.Rational(-3, 16), sp.Rational(1, 12)],
+    90	                    [sp.Rational(1, 12), sp.Rational(37, 9)]])
+    91	    det2 = h2.det()
+    92	    phi2 = sp.log((-det2) / h2[0, 0] ** 2) / 4
+    93	    beta2 = sp.cancel(h2[0, 1] / h2[0, 0])
+    94	    require(det2 == sp.Rational(-7, 9), "mixing_witness_two_determinant", checks)
+    95	    require(sp.simplify(phi2 - sp.log(sp.Rational(1792, 81)) / 4) == 0,
+    96	            "mixing_witness_two_modulates_phi", checks)
+    97	    require(beta2 == sp.Rational(-4, 9), "mixing_witness_two_retains_shift", checks)
+    98	
+    99	    founding = (ROOT / "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md").read_text(
+   100	        encoding="utf-8"
+   101	    )
+   102	    for name, token in (
+   103	        ("source_has_time_length_pair", "dimension-matched temporal/radial coframe pair"),
+   104	        ("source_has_inverse_pairing", "u(\\Delta)v(\\Delta)=1"),
+   105	        ("source_has_composition", "P(\\Delta_1+\\Delta_2)=P(\\Delta_1)P(\\Delta_2)"),
+   106	        ("source_marks_sign_unit_chosen", "Sign and unit of $\\phi$"),
+   107	        ("source_does_not_claim_profile", "does not yet derive a unique action, the profile $\\phi(r)$"),
+   108	    ):
+   109	        require(token in founding, name, checks)
+   110	
+   111	    classifications = [
+   112	        ("Q01", "CONDITIONAL_COMPLETE_QUERY_OUTPUT_NOT_FOUNDING_OWNED", "full panel needs supplied pair map path and screen typing"),
+   113	        ("Q02", "FOUNDING_SELECTED_WITHIN_DENSITY_CHARACTER_CLASS", "exchange oddness and reciprocal normalization uniquely give Delta_phi"),
+   114	        ("Q03", "DERIVED_GEOMETRIC_CHARACTER_NOT_FOUNDING_RECIPROCAL_OUTPUT", "common scale is real state but exchange even"),
+   115	        ("Q04", "DERIVED_CLOCK_DENSITY_NOT_FOUNDING_RECIPROCAL_OUTPUT", "contains common scale and has opposite pure-depth sign"),
+   116	        ("Q05", "DERIVED_AREA_DENSITY_NOT_FOUNDING_RECIPROCAL_OUTPUT", "measures common scale and vanishes on pure reciprocal depth"),
+   117	        ("Q06", "CONDITIONAL_QUERY_STATE_NOT_CHARACTER", "shift needs event pairing and ruler evolution"),
+   118	        ("Q07", "CONDITIONAL_PATH_INSTRUMENT_NOT_REAL_SCALAR", "normal carry needs a path and endpoint screen fibers"),
+   119	        ("Q08", "DERIVED_REPRESENTATION_NOT_INDEPENDENT_QUERY", "reconstructed from Delta_phi U variance and lambda"),
+   120	        ("Q09", "CHARACTER_FAMILY_REDUCED_TO_Q02_BY_FOUNDING_GATES", "continuous density characters are linear and gates set a=0 b=1"),
+   121	        ("Q10", "MATHEMATICALLY_SURVIVES_BROADER_GROUPOID_BUT_UNOWNED", "arbitrary endpoint scalar requires a new measurement function"),
+   122	        ("Q11", "UNSELECTED_MICROPHONE_FAMILIES", "free coefficient and path or endpoint choice remain ownerless"),
+   123	        ("Q12", "OPEN_NO_PHYSICAL_REGIME_MAP", "no derived regime labels thresholds or switch"),
+   124	        ("Q13", "OPEN_LARGER_OWNER_NOT_DERIVED", "on-shell or bootstrap selection cannot be assumed"),
+   125	        ("Q14", "OPEN_OUTSIDE_AUDIT", "native source and coupling are absent"),
+   126	    ]
+   127	    write_tsv(
+   128	        "QUERY_PROJECTION_CLASSIFICATION.tsv",
+   129	        ["query_id", "disposition", "reason"],
+   130	        [{"query_id": qid, "disposition": disposition, "reason": reason}
+   131	         for qid, disposition, reason in classifications],
+   132	    )
+   133	
+   134	    ownership = [
+   135	        ("M01", "kappa", "pair_metric_state", "DERIVED_CONDITIONAL", "pair_area or common-scale instrument", "NOT_FOUNDING_RECIPROCAL_OUTPUT"),
+   136	        ("M02", "phi", "reciprocal_density_state", "DERIVED_ON_SUPPLIED_PAIR_METRIC", "terminal reciprocal c_E instrument", "FOUNDING_PROJECTION_REALIZATION_CONDITIONAL"),
+   137	        ("M03", "beta", "event_pairing_shift_state", "DERIVED_ON_SUPPLIED_PAIR_METRIC", "paired events and ruler evolution", "CONDITIONAL_ENRICHED_QUERY"),
+   138	        ("M04", "U_gamma", "normal_isometry_arrow", "DERIVED_AFTER_PATH", "path plus endpoint screen frames", "CONDITIONAL_PATH_QUERY"),
+   139	        ("M05", "Delta_kappa_Delta_phi_U", "typed_arrow_shadow", "DERIVED_CONDITIONAL", "common matched pair query", "NOT_ONE_FOUNDING_SCALAR"),
+   140	        ("M06", "regime_dependent_projection", "measurement_policy", "OPEN", "physical regime map and selector", "NOT_DERIVED"),
+   141	    ]
+   142	    write_tsv(
+   143	        "MEASUREMENT_OWNERSHIP_ATLAS.tsv",
+   144	        ["measurement_id", "object", "type", "geometric_status", "required_instrument", "founding_ownership"],
+   145	        [dict(zip(
+   146	            ["measurement_id", "object", "type", "geometric_status", "required_instrument", "founding_ownership"],
+   147	            row,
+   148	        )) for row in ownership],
+   149	    )
+   150	
+   151	    signatures = [
+   152	        ("F01", "supplied_ordered_signed_depth_delta", "reciprocal_operator_D_delta", "FOUNDING_DERIVED_ABSTRACT"),
+   153	        ("F02", "reciprocal_clock_ruler_channel_labels", "inverse_channel_weights", "FOUNDING_DERIVED"),
+   154	        ("F03", "matched_abstract_depths", "composition_reversal_identity", "FOUNDING_DERIVED"),
+   155	        ("F04", "c_E_time_length_conversion", "terminal_clock_ruler_unit_calibration", "OBSERVED_CALIBRATION_NOT_SELECTOR"),
+   156	        ("F05", "complete_declared_enriched_query", "metric_constructed_pair_geometry_after_query", "CONDITIONAL_QUERY_ENRICHMENT"),
+   157	    ]
+   158	    write_tsv(
+   159	        "FOUNDING_SIGNATURE_RESULT.tsv",
+   160	        ["signature_id", "input", "output", "ruling"],
+   161	        [dict(zip(["signature_id", "input", "output", "ruling"], row)) for row in signatures],
+   162	    )
+   163	
+   164	    result = {
+   165	        "schema_version": 1,
+   166	        "status": "PASS",
+   167	        "checks": checks,
+   168	        "passed": sum(checks.values()),
+   169	        "total": len(checks),
+   170	        "founding_query_output": "Delta_phi_WITHIN_CONTINUOUS_REAL_TWO_DENSITY_CHARACTER_CLASS",
+   171	        "uniqueness_scope": "UNIQUE_ONLY_WITHIN_FOUNDED_DENSITY_CHARACTERS_NOT_ALL_COMPLETE_STATE_COBBOUNDARIES",
+   172	        "complete_panel": "CONDITIONAL_GEOMETRIC_STATE_AND_TYPED_QUERY_FAMILY_NOT_FOUNDING_SINGLE_OUTPUT",
+   173	        "kappa_status": "RETAINED_COMPLETE_STATE_NOT_DELETED_BY_RECIPROCAL_PROJECTION",
+   174	        "beta_status": "CONDITIONAL_QUERY_STATE_NOT_STANDALONE_CHARACTER",
+   175	        "angular_status": "CONDITIONAL_PATH_INSTRUMENT_WITH_ZERO_CONTINUOUS_REAL_SO2_CHARACTER",
+   176	        "phi_orchestra": "UPSTREAM_COMPLETE_PAIR_METRIC_MODULATION_RETAINED",
+   177	        "physical_regime_policy": None,
+   178	        "conductor_owner": None,
+   179	        "maximum_ruling": "FOUNDED_RECIPROCAL_PROJECTION_Delta_phi_DERIVED_WITHIN_DECLARED_CHARACTER_CLASS__COMPLETE_MULTICHANNEL_MEASUREMENT_AND_REGIME_POLICY_OPEN",
+   180	    }
+   181	    assert result["passed"] == result["total"]
+   182	    (HERE / "DERIVATION_RESULT.json").write_text(
+   183	        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+   184	    )
+   185	    print(json.dumps(result, indent=2, sort_keys=True))
+   186	    return 0
+   187	
+   188	
+   189	if __name__ == "__main__":
+   190	    raise SystemExit(main())
+
+ succeeded in 0ms:
+     1	# Exact derivation — ordered observer-query projection ownership
+     2	
+     3	Date: 2026-08-10
+     4	
+     5	Mode: metric-led source/type audit with exact CPU algebra
+     6	
+     7	Internal status: `VERIFIED-WITH-CAVEATS`; fresh external adversarial review is still required
+     8	before banking.
+     9	
+    10	## 1. Result first
+    11	
+    12	The two founding postulates ask one particular kind of question: compare the clock and ruler
+    13	calibration channels reciprocally. On a supplied regular calibrated pair metric, the previous
+    14	multi-channel audit gives the complete local state
+    15	
+    16	```text
+    17	(kappa, phi, beta) plus path-labelled U_gamma,
+    18	```
+    19	
+    20	where `kappa` is common clock/ruler scale, `phi` is their reciprocal imbalance, `beta` records the
+    21	pairing shift, and `U_gamma` transports the angular screen along a supplied path.
+    22	
+    23	When the founding clock/ruler question is realized on the two logarithmic density changes
+    24	
+    25	```text
+    26	(Delta_kappa, Delta_phi),
+    27	```
+    28	
+    29	its unique normalized continuous real character is
+    30	
+    31	```text
+    32	delta_found = Delta_phi.                                    (1)
+    33	```
+    34	
+    35	This is a limited uniqueness theorem. It does not say that the complete observer reads only one
+    36	number, that `kappa`, `beta`, or `U_gamma` are unreal, or that every possible measurement is a
+    37	function of `Delta_phi`. It says that the founded reciprocal question has one scalar answer in its
+    38	declared character class. The other channels require separately typed instruments and additional
+    39	query data.
+    40	
+    41	The physical pair map, physical path, regime-dependent measurement policy, on-shell/global
+    42	conductor, action, source, and dynamics remain open.
+    43	
+    44	## 2. Source signature
+    45	
+    46	The direct founding source starts with the dimension-matched pair
+    47	
+    48	```text
+    49	q = (c_E dt, dr)
+    50	```
+    51	
+    52	and an already supplied ordered signed depth. Reciprocal-`c_E`, dual Reciprocity, and continuous
+    53	composition derive
+    54	
+    55	```text
+    56	D(delta) = diag(exp(-delta), exp(+delta)),
+    57	D(delta_2)D(delta_1) = D(delta_1+delta_2),
+    58	D(-delta) = D(delta)^-1.
+    59	```
+    60	
+    61	The exchange matrix
+    62	
+    63	```text
+    64	K = [[0,1],[1,0]]
+    65	```
+    66	
+    67	interchanges the abstract clock/ruler channel labels and obeys
+    68	
+    69	```text
+    70	K D(delta) K = D(-delta).
+    71	```
+    72	
+    73	Thus the source owns an exchange-odd additive reciprocal character on an already supplied ordered
+    74	comparison. It does not supply common-scale measurement, event-pairing shift, angular transport,
+    75	a physical path, or a regime switch. `c_E` supplies the observed clock/length calibration and is
+    76	not an architecture selector.
+    77	
+    78	## 3. The complete pair metric and its two densities
+    79	
+    80	On the regular calibrated pair-metric stratum
+    81	
+    82	```text
+    83	h00 < 0, det(h) < 0,
+    84	```
+    85	
+    86	the unique decomposition is
+    87	
+    88	```text
+    89	h = -T^2(dy0 + beta dy1)^2 + L^2(dy1)^2,
+    90	T = exp(kappa-phi),
+    91	L = exp(kappa+phi).
+    92	```
+    93	
+    94	For matched endpoints `p,q`, define the clock-line and clock/ruler-area logarithmic changes
+    95	
+    96	```text
+    97	b1 = log[T(q)/T(p)]                = Delta_kappa-Delta_phi,
+    98	b2 = log[T(q)L(q)/(T(p)L(p))]      = 2 Delta_kappa.           (2)
+    99	```
+   100	
+   101	Hence
+   102	
+   103	```text
+   104	Delta_kappa = b2/2,
+   105	Delta_phi   = b2/2-b1.                                      (3)
+   106	```
+   107	
+   108	Both telescope on matched pair states. Equation (3) is the reciprocal-root readout expressed in
+   109	the pair-metric densities. Common scale cancels from the reciprocal combination; this algebraic
+   110	cancellation does not make common scale gauge and does not revive strong local CSN.
+   111	
+   112	## 4. Classification of the founded density characters
+   113	
+   114	The matched density group is the additive group `R^2` with coordinates
+   115	
+   116	```text
+   117	(Delta_kappa, Delta_phi).
+   118	```
+   119	
+   120	Every continuous homomorphism from this group to `(R,+)` is linear:
+   121	
+   122	```text
+   123	chi_(a,b)(Delta_kappa,Delta_phi)
+   124	    = a Delta_kappa + b Delta_phi.                            (4)
+   125	```
+   126	
+   127	This is not an assumed linear ansatz; it is the standard continuous additive-character
+   128	classification of a finite-dimensional real vector group.
+   129	
+   130	Clock/ruler channel exchange sends
+   131	
+   132	```text
+   133	(b1, b2-b1) -> (b2-b1, b1),
+   134	```
+   135	
+   136	and therefore
+   137	
+   138	```text
+   139	(Delta_kappa,Delta_phi) -> (Delta_kappa,-Delta_phi).          (5)
+   140	```
+   141	
+   142	The founded reciprocal scalar is exchange odd. Applying (5) to (4) gives
+   143	
+   144	```text
+   145	a Delta_kappa - b Delta_phi
+   146	  = -a Delta_kappa - b Delta_phi,
+   147	```
+   148	
+   149	for all density pairs, so `a=0`. Pure reciprocal normalization requires
+   150	
+   151	```text
+   152	chi(0,delta)=delta,
+   153	```
+   154	
+   155	so `b=1`. This proves (1).
+   156	
+   157	The theorem is precisely:
+   158	
+   159	> On the supplied regular calibrated pair metric, among continuous real characters of its two
+   160	> matched logarithmic density changes, the character that is odd under the founded clock/ruler
+   161	> label exchange and normalized on the pure reciprocal subgroup is uniquely `Delta_phi`.
+   162	
+   163	The realization remains conditional on the supplied pair metric and matched state. The theorem
+   164	does not construct that pair relation.
+   165	
+   166	## 5. Why the other instruments survive
+   167	
+   168	### Common scale
+   169	
+   170	`Delta_kappa` is a second exact real character of the pair-metric density group. It is exchange
+   171	even, so it is not the founded reciprocal answer. It remains genuine conditional geometric state
+   172	and may be read by a common-scale or area instrument.
+   173	
+   174	### Shift
+   175	
+   176	`beta` is part of the unique pair-metric state, but it is not a standalone additive character. A
+   177	measurement of it needs paired events and ruler evolution. More generally, for any supplied scalar
+   178	function `f(beta)`,
+   179	
+   180	```text
+   181	c_f(p,q)=f(beta_q)-f(beta_p)
+   182	```
+   183	
+   184	telescopes. This supplies an infinite family of mathematical endpoint coboundaries. The founding
+   185	source does not select `f`; these measurements are possible but unowned.
+   186	
+   187	This counterfamily is why no uniqueness claim may be extended from the two-density character class
+   188	to all smooth cocycles on the enriched query state.
+   189	
+   190	### Angular transport
+   191	
+   192	For a supplied path,
+   193	
+   194	```text
+   195	U_gamma : H_p -> H_q
+   196	```
+   197	
+   198	is a screen isometry and composes by matrix multiplication. It is a different codomain, not a real
+   199	scalar. A continuous homomorphism from compact `SO(2)` to `(R,+)` is trivial: periodicity forces
+   200	every real character to vanish. Therefore angular transport cannot be faithfully folded into the
+   201	founded real scalar at order zero. Loop and relative-path holonomy remain separately readable.
+   202	
+   203	### Complete screen weight
+   204	
+   205	The complete R17 screen action is reconstructed from `Delta_phi`, `U_gamma`, tensor variance, and
+   206	supplied `lambda`. It is a representation of retained channels, not another independent
+   207	microphone.
+   208	
+   209	## 6. Phi plus orchestra is retained
+   210	
+   211	Selecting `Delta_phi` as the reciprocal scalar does not return to a pure diagonal block. Complete
+   212	clock/screen and ruler/screen mixing first changes the pullback pair metric; the terminal
+   213	decomposition then extracts its `phi`.
+   214	
+   215	Two exact witnesses are:
+   216	
+   217	```text
+   218	h1 = diag(-3/16,4),
+   219	det(h1) = -3/4,
+   220	exp(4 phi1) = 64/3;
+   221	
+   222	h2 = [[-3/16,1/12],[1/12,37/9]],
+   223	det(h2) = -7/9,
+   224	exp(4 phi2) = 1792/81,
+   225	beta2 = -4/9.
+   226	```
+   227	
+   228	Thus the angular/mixing orchestra can modulate the reciprocal terminal reading and other pair-state
+   229	coordinates simultaneously. The scalar projection occurs after the complete pair geometry is
+   230	formed.
+   231	
+   232	## 7. The precise nonuniqueness boundary
+   233	
+   234	The following statements are compatible and must not be conflated:
+   235	
+   236	1. `Delta_phi` is unique inside the founded continuous two-density character class.
+   237	2. The complete supplied geometry contains other typed instruments.
+   238	3. Arbitrary endpoint coboundaries survive in a broader enriched-state groupoid.
+   239	4. The founding postulates do not own those extra measurement functions.
+   240	5. A future physical observer may read multiple channels, perhaps in a branch- or regime-dependent
+   241	   way, but no such policy has been derived.
+   242	
+   243	The result therefore answers the bounded ownership question without deriving a universal complete
+   244	measurement law.
+   245	
+   246	## 8. Calibration and downstream boundary
+   247	
+   248	- `c_E`: observed terminal clock/ruler calibration; active.
+   249	- `G_obs`: observed but inactive here because no native mass readout is present.
+   250	- electron mass: unapplied future calibration candidate.
+   251	- `hbar`: excluded.
+   252	- strong local CSN: inactive; `kappa` is retained.
+   253	
+   254	No coefficients, thresholds, regimes, or physical channel weights were fitted. Nothing here
+   255	selects a path, physical pair relation, on-shell branch, bootstrap conductor, action, source,
+   256	matter law, `X_max` value, CMB observable, signalling rule, or dynamics.
+   257	
+   258	## 9. Bounded landing
+   259	
+   260	```text
+
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/PREREGISTRATION.md | sed -n '1,240p'" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+     1	# Preregistration — ordered observer-query projection ownership audit
+     2	
+     3	Date: 2026-08-10
+     4	
+     5	Base: `93f962a727336dafe256364b7de489e5a63b1972`
+     6	
+     7	Mode: `MAP -> PONDER -> DERIVE`; metric-led semantic/type audit with exact CPU algebra. No GPU or
+     8	numerical solve.
+     9	
+    10	## Whole question
+    11	
+    12	Given the already-banked conditional multi-channel state
+    13	
+    14	```text
+    15	object: h equivalent to (kappa,phi,beta), projector/orientation data and supplied lambda;
+    16	arrow shadow: (Delta_kappa,Delta_phi,U_gamma),
+    17	```
+    18	
+    19	what does the founding ordered observer comparison itself operationally own as output? Does it
+    20	measure the full panel, one required reciprocal projection, a family of separately typed
+    21	instruments, or nothing beyond the supplied abstract depth?
+    22	
+    23	## Bounded arena
+    24	
+    25	- the exact Reciprocal-`c_E` founding source and corrected observer-comparison semantics;
+    26	- the supplied regular calibrated stationary R17 pair metric and path-labelled normal transport;
+    27	- matched three-observer composition only;
+    28	- continuous algebraic/order-zero real characters of the two density channels;
+    29	- separately typed shift and angular queries; and
+    30	- exact source-signature and ownership analysis.
+    31	
+    32	Excluded: invention of the physical pair map or path, physical micro/ordinary/cosmological regime
+    33	assignment, action, source, matter, bootstrap closure, `X_max` value, CMB fitting, signalling,
+    34	dynamics, time-live continuation, other branches, or GPU work.
+    35	
+    36	## Candidate space
+    37	
+    38	The complete preregistered candidate census is `QUERY_PROJECTION_UNIVERSE.tsv`. It includes the
+    39	identity/full-state output, reciprocal and common-scale characters, clock and area densities,
+    40	shift state, angular transport, the derived conformal-screen representation, arbitrary linear
+    41	density microphones, arbitrary endpoint coboundaries, the G52 coefficient families,
+    42	regime-dependent query families, and on-shell/global selection.
+    43	
+    44	No candidate is privileged by the table order.
+    45	
+    46	## Ownership and uniqueness contract
+    47	
+    48	The audit must distinguish:
+    49	
+    50	1. a channel existing in the supplied geometry;
+    51	2. a channel being conditionally measurable after extra query data are supplied;
+    52	3. a channel entering the argument list of the two founding postulates; and
+    53	4. a projection being uniquely selected within an explicitly declared mathematical class.
+    54	
+    55	The strongest possible uniqueness theorem may concern only continuous real characters of the
+    56	founded two-density reciprocal comparison. It may not be extended to all smooth functions of the
+    57	complete state, arbitrary endpoint coboundaries, or non-real angular transport.
+    58	
+    59	Strong local CSN is inactive. Algebraic cancellation of common scale in the founding reciprocal
+    60	projection may not be used to delete `kappa` from the complete state.
+    61	
+    62	## Calibration ledger
+    63	
+    64	- `c_E`: `pinned-by-OBSERVATION`; active only as the clock/ruler terminal reciprocal calibration;
+    65	- `G_obs`: `pinned-by-OBSERVATION`; inactive without a native mass readout;
+    66	- electron mass: unapplied future observational calibration candidate;
+    67	- `hbar`: excluded;
+    68	- all arbitrary projection coefficients and regime switches: free-and-explored and unselected.
+    69	
+    70	## Certification
+    71	
+    72	- reconstruct the founding input/output signature directly from the pinned source;
+    73	- classify every candidate once by codomain, extra query data, composition, and ownership;
+    74	- classify all continuous real characters of `(Delta_kappa,Delta_phi)` without assuming the answer;
+    75	- apply clock/ruler exchange and pure reciprocal normalization exactly;
+    76	- test arbitrary `beta` endpoint coboundaries and angular/path outputs as nonuniqueness challenges;
+    77	- retain phi+orchestra modulation upstream of any scalar projection;
+    78	- independently reconstruct the load-bearing algebra;
+    79	- exercise fail-closed semantic mutations; and
+    80	- obtain fresh manifest-confined external adversarial review before banking.
+    81	
+    82	## Maximum allowed conclusion
+    83	
+    84	At most: the founding query selects a unique reciprocal scalar projection within a precisely
+    85	declared character class, while other complete-state channels remain separately typed conditional
+    86	instruments and any physical multi-channel/regime-dependent measurement policy remains open. No
+    87	complete physical observer arrow, conductor, action, source, matter law, bootstrap closure,
+    88	universal mixed-geometry `c_eff`, or physical regime map may follow.
+    89	
+
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/MEASUREMENT_OWNERSHIP_ATLAS.tsv | sed -n '1,120p'" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+     1	measurement_id	object	type	geometric_status	required_instrument	founding_ownership
+     2	M01	kappa	pair_metric_state	DERIVED_CONDITIONAL	pair_area or common-scale instrument	NOT_FOUNDING_RECIPROCAL_OUTPUT
+     3	M02	phi	reciprocal_density_state	DERIVED_ON_SUPPLIED_PAIR_METRIC	terminal reciprocal c_E instrument	FOUNDING_PROJECTION_REALIZATION_CONDITIONAL
+     4	M03	beta	event_pairing_shift_state	DERIVED_ON_SUPPLIED_PAIR_METRIC	paired events and ruler evolution	CONDITIONAL_ENRICHED_QUERY
+     5	M04	U_gamma	normal_isometry_arrow	DERIVED_AFTER_PATH	path plus endpoint screen frames	CONDITIONAL_PATH_QUERY
+     6	M05	Delta_kappa_Delta_phi_U	typed_arrow_shadow	DERIVED_CONDITIONAL	common matched pair query	NOT_ONE_FOUNDING_SCALAR
+     7	M06	regime_dependent_projection	measurement_policy	OPEN	physical regime map and selector	NOT_DERIVED
+
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/QUERY_PROJECTION_CLASSIFICATION.tsv | sed -n '1,120p'" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+     1	query_id	disposition	reason
+     2	Q01	CONDITIONAL_COMPLETE_QUERY_OUTPUT_NOT_FOUNDING_OWNED	full panel needs supplied pair map path and screen typing
+     3	Q02	FOUNDING_SELECTED_WITHIN_DENSITY_CHARACTER_CLASS	exchange oddness and reciprocal normalization uniquely give Delta_phi
+     4	Q03	DERIVED_GEOMETRIC_CHARACTER_NOT_FOUNDING_RECIPROCAL_OUTPUT	common scale is real state but exchange even
+     5	Q04	DERIVED_CLOCK_DENSITY_NOT_FOUNDING_RECIPROCAL_OUTPUT	contains common scale and has opposite pure-depth sign
+     6	Q05	DERIVED_AREA_DENSITY_NOT_FOUNDING_RECIPROCAL_OUTPUT	measures common scale and vanishes on pure reciprocal depth
+     7	Q06	CONDITIONAL_QUERY_STATE_NOT_CHARACTER	shift needs event pairing and ruler evolution
+     8	Q07	CONDITIONAL_PATH_INSTRUMENT_NOT_REAL_SCALAR	normal carry needs a path and endpoint screen fibers
+     9	Q08	DERIVED_REPRESENTATION_NOT_INDEPENDENT_QUERY	reconstructed from Delta_phi U variance and lambda
+    10	Q09	CHARACTER_FAMILY_REDUCED_TO_Q02_BY_FOUNDING_GATES	continuous density characters are linear and gates set a=0 b=1
+    11	Q10	MATHEMATICALLY_SURVIVES_BROADER_GROUPOID_BUT_UNOWNED	arbitrary endpoint scalar requires a new measurement function
+    12	Q11	UNSELECTED_MICROPHONE_FAMILIES	free coefficient and path or endpoint choice remain ownerless
+    13	Q12	OPEN_NO_PHYSICAL_REGIME_MAP	no derived regime labels thresholds or switch
+    14	Q13	OPEN_LARGER_OWNER_NOT_DERIVED	on-shell or bootstrap selection cannot be assumed
+    15	Q14	OPEN_OUTSIDE_AUDIT	native source and coupling are absent
+
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/SOURCE_MANIFEST.tsv | sed -n '1,120p'" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+     1	source_id	path	role	source_ref	git_blob	sha256	size
+     2	S01	CURRENT_SCIENTIFIC_PREMISES.tsv	G53 precedence and guards	93f962a727336dafe256364b7de489e5a63b1972:CURRENT_SCIENTIFIC_PREMISES.tsv	2425fcd84c76ddb0ca6225eba2b8833c1e0d0083	224c219f5da6d2dabc608fcad0984f5d5a7ca19337408bdd537877ca102461d1	42246
+     3	S02	udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md	current multichannel ruling	93f962a727336dafe256364b7de489e5a63b1972:udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md	1eb8cec27b38b79ee1dc231395abdb014ccf5724	f8ac4af925c56bc02889a3c1fa21bf56c7f45910b185934adef5a7365b899a59	3198
+     4	S03	udt_multichannel_observer_relation_assembly_audit_2026-08-10/EXACT_DERIVATION.md	pair state and arrow assembly	93f962a727336dafe256364b7de489e5a63b1972:udt_multichannel_observer_relation_assembly_audit_2026-08-10/EXACT_DERIVATION.md	7bca9eca1f19d607aab744c5b304a11ce4430022	43338f407460ed1698e1311bcb79048e2505ea374b04a9aeb8419fc8c812673b	12927
+     5	S04	udt_multichannel_observer_relation_assembly_audit_2026-08-10/ASSEMBLED_CHANNELS.tsv	current typed channel assembly	93f962a727336dafe256364b7de489e5a63b1972:udt_multichannel_observer_relation_assembly_audit_2026-08-10/ASSEMBLED_CHANNELS.tsv	cf1a32712da3e3fa68320186723f87358d7137b4	5c58c53552e4d673280ba18f5b07f5d98040b10695a804adbac6b7e7e7089acf	716
+     6	S05	udt_multichannel_observer_relation_assembly_audit_2026-08-10/CHANNEL_CLASSIFICATION.tsv	current complete candidate roles	93f962a727336dafe256364b7de489e5a63b1972:udt_multichannel_observer_relation_assembly_audit_2026-08-10/CHANNEL_CLASSIFICATION.tsv	1facc0bb0a1ffcad1e4616e797ade63bd1e710e0	08e61cdd46f9a85920a8038f3ae2f17c0f6b171514888e2c0a25632dfa4504db	1665
+     7	S06	UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	direct founding source and assumption ledger	93f962a727336dafe256364b7de489e5a63b1972:UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md	a8d29384a514f9d3be588dad1818c4c614dc6d70	b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003	11418
+     8	S07	udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md	corrected founding comparison semantics	93f962a727336dafe256364b7de489e5a63b1972:udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md	713f5fad6bb11a39720b34f1d71a23569076b25b	0995eaa36f5281c0dcd1662b6050950476e1ca992f59e18840ec9dc9aca0da60	4938
+     9	S08	udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md	founding object and covariance typing	93f962a727336dafe256364b7de489e5a63b1972:udt_founding_reciprocity_object_audit_2026-07-27/EXACT_DERIVATION.md	d2fbefcae7fc9f0a4447ab563150050028f5737f	1a80fc5de65c5739d6be523d9d41a32194d9be2dfbcb7eda048fbf12431f4d99	5769
+    10	S09	udt_founding_pair_relation_functor_ownership_audit_2026-08-09/EXACT_DERIVATION.md	ordered query ownership hierarchy	93f962a727336dafe256364b7de489e5a63b1972:udt_founding_pair_relation_functor_ownership_audit_2026-08-09/EXACT_DERIVATION.md	a30b055233880ba48b6aa679d351079b87786d1a	b41d49db51888523b99c14a83c632fd5c45ea7592eb0e4fbc4ab1016be69e93f	12407
+    11	S10	udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	founded reciprocal character and realization boundary	93f962a727336dafe256364b7de489e5a63b1972:udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	cc4e1da62c1cb1f5f4c53923b4e0b89f035f671f	0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd	8763
+    12	S11	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	terminal reciprocal projection	93f962a727336dafe256364b7de489e5a63b1972:udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	aa58f76fa4758e961e133f283894a4d6414b1495	fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	15088
+    13	S12	udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md	graded volume character and exchange typing	93f962a727336dafe256364b7de489e5a63b1972:udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md	1b322f69194351add2da4a17ce9987c5bca4a8d1	eabfad044b0caf404a7bfab8dfa2462e3a68cf7a578e67451c86baf8b95aa71a	11710
+    14	S13	udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/EXACT_DERIVATION.md	angular codomain and scalar character boundary	93f962a727336dafe256364b7de489e5a63b1972:udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/EXACT_DERIVATION.md	98e04830bddd70eb59c1d3536d0b71c0f4dfa42f	78a044ee9e1f0df4f5e0673c3b8867984cd8f11070780f728f1056d204311ec6	11963
+    15	S14	udt_r17_stationary_local_one_form_selection_audit_2026-08-10/EXACT_DERIVATION.md	unselected scalar microphone families	93f962a727336dafe256364b7de489e5a63b1972:udt_r17_stationary_local_one_form_selection_audit_2026-08-10/EXACT_DERIVATION.md	d134e6f8b1783a0800387c5cfa356c4e569744f3	7311c57cdabf6fd3f77b1e522684a6fd32c9e180bbd6d583a3bc8b0c9d4f574b	11992
+    16	S15	udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md	upstream angular modulation guard	93f962a727336dafe256364b7de489e5a63b1972:udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md	12376325339939f34f2e9f7602e78a8d1b005b5e	ce96774a1dcdefb690f716a6c69aa6cdf5c155e6cff051137f8efe9b0eb1a77c	10161
+    17	S16	udt_ceff_depth_orchestra_integration_2026-08-06.md	c_eff and calibration role	93f962a727336dafe256364b7de489e5a63b1972:udt_ceff_depth_orchestra_integration_2026-08-06.md	5d0ace9c449dfb7554820fc7f4a54c98743f4ab2	e8c1b6cebd48da4db3bcd15f8716468e292cd6021ec439dd5f8b2d5c4ad38e14	5814
+    18	S17	udt_three_observer_overlap_calibration_carry_audit_2026-08-10/EXACT_DERIVATION.md	matched-state composition and unmatched transitions	93f962a727336dafe256364b7de489e5a63b1972:udt_three_observer_overlap_calibration_carry_audit_2026-08-10/EXACT_DERIVATION.md	3867fe6bbe43bf3df5f1d5887a2719da6af889d1	c691c14076f179c8765f9261521a4f9e2c21ab1e1c3817dfb199085098d13d1c	10789
+    19	
+
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/FOUNDING_SIGNATURE_RESULT.tsv | sed -n '1,120p'" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+     1	signature_id	input	output	ruling
+     2	F01	supplied_ordered_signed_depth_delta	reciprocal_operator_D_delta	FOUNDING_DERIVED_ABSTRACT
+     3	F02	reciprocal_clock_ruler_channel_labels	inverse_channel_weights	FOUNDING_DERIVED
+     4	F03	matched_abstract_depths	composition_reversal_identity	FOUNDING_DERIVED
+     5	F04	c_E_time_length_conversion	terminal_clock_ruler_unit_calibration	OBSERVED_CALIBRATION_NOT_SELECTOR
+     6	F05	complete_declared_enriched_query	metric_constructed_pair_geometry_after_query	CONDITIONAL_QUERY_ENRICHMENT
+
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/FALSIFICATION_CONTRACT.tsv | sed -n '1,120p'" in /tmp/udt_ordered_query_projection_review_20260810
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/verify_query_projection_independent.py | sed -n '1,240p'" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+     1	test_id	claim_under_test	fail_condition	maximum_surviving_conclusion
+     2	F01	founding_source_signature	source_contains_complete_state_or_angular_output	RECLASSIFY_FOUNDING_QUERY
+     3	F02	density_character_classification	nonlinear_continuous_character_survives	NO_LINEAR_CHARACTER_THEOREM
+     4	F03	exchange_oddness	common_scale_component_survives_exact_exchange	RECIPROCAL_PROJECTION_NONUNIQUE
+     5	F04	pure_reciprocal_normalization	more_than_one_density_character_survives	RECIPROCAL_PROJECTION_NONUNIQUE
+     6	F05	beta_challenge	beta_is_founded_argument_or_standalone_character	EXPAND_FOUNDED_QUERY
+     7	F06	angular_challenge	SO2_transport_has_nontrivial_continuous_real_character	EXPAND_SCALAR_SHADOW
+     8	F07	endpoint_coboundary_challenge	arbitrary_f_is_owned_without_extra_measurement_premise	FOUNDING_MICROPHONE_NONUNIQUE
+     9	F08	full_panel_ownership	all_channels_follow_from_two_founding_postulates	FOUNDING_FULL_PANEL
+    10	F09	phi_orchestra_guard	projection_discards_upstream_mixing_modulation	INVALID_SCALAR_REDUCTION
+    11	F10	strong_CSN_regression	kappa_is_deleted_from_complete_state	INVALID_GAUGE_PROMOTION
+    12	F11	regime_policy	physical_labels_or_switch_are introduced	ALGEBRAIC_QUERY_TYPES_ONLY
+    13	F12	calibration_role	c_E_G_m_e_or_hbar_selects_optional_channels	CALIBRATION_MISUSED
+    14	F13	conductor_ownership	on_shell_or_bootstrap_rule_is_assumed	OWNER_OPEN
+    15	F14	scope	physical_arrow_action_source_matter_c_eff_Xmax_CMB_or_signalling_promoted	DOWNSTREAM_OVERCLAIM
+    16	F15	independence	verification_reuses_controller_outputs	VERIFIED_WITH_CAVEATS_ONLY
+    17	F16	external_review	fresh_manifest_confined_review_absent	LEAD_ONLY
+    18	
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Independent stdlib reconstruction of the query-projection result."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import csv
+     7	import json
+     8	from fractions import Fraction
+     9	from pathlib import Path
+    10	
+    11	
+    12	HERE = Path(__file__).resolve().parent
+    13	
+    14	
+    15	def rows(name: str) -> list[dict[str, str]]:
+    16	    with (HERE / name).open(newline="", encoding="utf-8") as stream:
+    17	        return list(csv.DictReader(stream, delimiter="\t"))
+    18	
+    19	
+    20	def main() -> int:
+    21	    checks: dict[str, bool] = {}
+    22	
+    23	    def check(name: str, value: bool) -> None:
+    24	        checks[name] = bool(value)
+    25	        if not value:
+    26	            raise AssertionError(name)
+    27	
+    28	    # A continuous character of additive R^2 is fixed by its values a,b on the basis.
+    29	    # Exchange fixes e_kappa and reverses e_phi. Oddness therefore gives a=-a, hence a=0;
+    30	    # normalization on e_phi gives b=1.
+    31	    a = Fraction(0)
+    32	    b = Fraction(1)
+    33	    check("exchange_basis_kills_common_scale", a == -a == 0)
+    34	    check("pure_reciprocal_basis_normalizes_phi", b == 1)
+    35	    check("selected_basis_pair_unique", (a, b) == (Fraction(0), Fraction(1)))
+    36	    for dk, dp in ((Fraction(2), Fraction(3)), (Fraction(-5), Fraction(7))):
+    37	        check(f"selected_character_{dk}_{dp}", a * dk + b * dp == dp)
+    38	
+    39	    # Independent density inversion.
+    40	    for dk, dp in ((Fraction(3, 5), Fraction(-2, 7)), (Fraction(-4, 9), Fraction(5, 6))):
+    41	        clock = dk - dp
+    42	        area = 2 * dk
+    43	        check(f"density_inverse_kappa_{dk}_{dp}", area / 2 == dk)
+    44	        check(f"density_inverse_phi_{dk}_{dp}", area / 2 - clock == dp)
+    45	
+    46	    # Broader endpoint coboundaries really do survive telescoping and therefore limit uniqueness.
+    47	    fp, fq, fr = Fraction(2), Fraction(11), Fraction(-3)
+    48	    check("endpoint_coboundary_telescopes", (fq - fp) + (fr - fq) == fr - fp)
+    49	    check("endpoint_coboundary_nonzero", fq - fp != 0)
+    50	
+    51	    # Exact quarter-turn SO(2) composition; compactness then kills a continuous real character.
+    52	    R90 = ((0, -1), (1, 0))
+    53	    def mm(x: tuple[tuple[int, int], tuple[int, int]],
+    54	           y: tuple[tuple[int, int], tuple[int, int]]) -> tuple[tuple[int, int], tuple[int, int]]:
+    55	        return (
+    56	            (x[0][0] * y[0][0] + x[0][1] * y[1][0],
+    57	             x[0][0] * y[0][1] + x[0][1] * y[1][1]),
+    58	            (x[1][0] * y[0][0] + x[1][1] * y[1][0],
+    59	             x[1][0] * y[0][1] + x[1][1] * y[1][1]),
+    60	        )
+    61	    R180 = ((-1, 0), (0, -1))
+    62	    I = ((1, 0), (0, 1))
+    63	    check("quarter_turn_square", mm(R90, R90) == R180)
+    64	    check("quarter_turn_period_four", mm(R180, R180) == I)
+    65	    check("finite_order_real_character_zero", 4 * 0 == 0)
+    66	
+    67	    # Exact mixed-pair ratios, independent of SymPy.
+    68	    h00_1, h11_1 = Fraction(-3, 16), Fraction(4)
+    69	    det1 = h00_1 * h11_1
+    70	    check("mix_one_det", det1 == Fraction(-3, 4))
+    71	    check("mix_one_phi_argument", (-det1) / (h00_1 * h00_1) == Fraction(64, 3))
+    72	    h00_2, h01_2, h11_2 = Fraction(-3, 16), Fraction(1, 12), Fraction(37, 9)
+    73	    det2 = h00_2 * h11_2 - h01_2 * h01_2
+    74	    check("mix_two_det", det2 == Fraction(-7, 9))
+    75	    check("mix_two_phi_argument", (-det2) / (h00_2 * h00_2) == Fraction(1792, 81))
+    76	    check("mix_two_beta", h01_2 / h00_2 == Fraction(-4, 9))
+    77	
+    78	    classification = rows("QUERY_PROJECTION_CLASSIFICATION.tsv")
+    79	    ownership = rows("MEASUREMENT_OWNERSHIP_ATLAS.tsv")
+    80	    signatures = rows("FOUNDING_SIGNATURE_RESULT.tsv")
+    81	    check("classification_rows_14", len(classification) == 14)
+    82	    check("ownership_rows_6", len(ownership) == 6)
+    83	    check("signature_rows_5", len(signatures) == 5)
+    84	    by_query = {row["query_id"]: row for row in classification}
+    85	    check("Q02_founding_projection", by_query["Q02"]["disposition"] == "FOUNDING_SELECTED_WITHIN_DENSITY_CHARACTER_CLASS")
+    86	    check("Q10_broader_nonuniqueness_retained", "UNOWNED" in by_query["Q10"]["disposition"])
+    87	    check("Q12_regime_policy_open", by_query["Q12"]["disposition"] == "OPEN_NO_PHYSICAL_REGIME_MAP")
+    88	
+    89	    result = {
+    90	        "schema_version": 1,
+    91	        "status": "PASS",
+    92	        "method": "INDEPENDENT_STDLIB_FRACTION_BASIS_CHARACTER_AND_TYPED_TABLE_RECONSTRUCTION",
+    93	        "checks": checks,
+    94	        "passed": sum(checks.values()),
+    95	        "total": len(checks),
+    96	        "failed": [name for name, ok in checks.items() if not ok],
+    97	    }
+    98	    assert result["passed"] == result["total"]
+    99	    (HERE / "INDEPENDENT_VERIFICATION_RESULT.json").write_text(
+   100	        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+   101	    )
+   102	    print(json.dumps(result, indent=2, sort_keys=True))
+   103	    return 0
+   104	
+   105	
+   106	if __name__ == "__main__":
+   107	    raise SystemExit(main())
+   108	
+
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/INDEPENDENT_VERIFICATION_RESULT.json | sed -n '1,220p'" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+     1	{
+     2	  "checks": {
+     3	    "Q02_founding_projection": true,
+     4	    "Q10_broader_nonuniqueness_retained": true,
+     5	    "Q12_regime_policy_open": true,
+     6	    "classification_rows_14": true,
+     7	    "density_inverse_kappa_-4/9_5/6": true,
+     8	    "density_inverse_kappa_3/5_-2/7": true,
+     9	    "density_inverse_phi_-4/9_5/6": true,
+    10	    "density_inverse_phi_3/5_-2/7": true,
+    11	    "endpoint_coboundary_nonzero": true,
+    12	    "endpoint_coboundary_telescopes": true,
+    13	    "exchange_basis_kills_common_scale": true,
+    14	    "finite_order_real_character_zero": true,
+    15	    "mix_one_det": true,
+    16	    "mix_one_phi_argument": true,
+    17	    "mix_two_beta": true,
+    18	    "mix_two_det": true,
+    19	    "mix_two_phi_argument": true,
+    20	    "ownership_rows_6": true,
+    21	    "pure_reciprocal_basis_normalizes_phi": true,
+    22	    "quarter_turn_period_four": true,
+    23	    "quarter_turn_square": true,
+    24	    "selected_basis_pair_unique": true,
+    25	    "selected_character_-5_7": true,
+    26	    "selected_character_2_3": true,
+    27	    "signature_rows_5": true
+    28	  },
+    29	  "failed": [],
+    30	  "method": "INDEPENDENT_STDLIB_FRACTION_BASIS_CHARACTER_AND_TYPED_TABLE_RECONSTRUCTION",
+    31	  "passed": 25,
+    32	  "schema_version": 1,
+    33	  "status": "PASS",
+    34	  "total": 25
+    35	}
+
+exec
+/bin/bash -lc "nl -ba /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/CATCH_PROOF_RESULT.json | sed -n '1,120p'" in /tmp/udt_ordered_query_projection_review_20260810
+ succeeded in 0ms:
+     1	{
+     2	  "failed": [],
+     3	  "rejected": 22,
+     4	  "status": "PASS",
+     5	  "total": 22
+     6	}
+
+codex
+I’ve confirmed the main algebraic chain internally. The remaining question is evidentiary: whether the sealed intake actually contains the primary founding source it claims to audit, or only references to it.
+exec
+/bin/bash -lc "rg --files /tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10 | rg 'UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS\\.md|CURRENT_SCIENTIFIC_PREMISES\\.tsv|udt_multichannel_observer_relation_assembly_audit_2026-08-10'" in /tmp/udt_ordered_query_projection_review_20260810
+ exited 1 in 0ms:
+codex
+`FOUNDED_PROJECTION_ONLY_REALIZATION_CONDITIONAL`
+
+The strongest theorem supported by this sealed intake is:
+
+> On a supplied regular calibrated pair metric, among continuous homomorphisms `chi : R^2 -> R` of the matched density group `(Delta_kappa, Delta_phi)`, the unique character that is odd under the realized clock/ruler exchange and normalized on the pure reciprocal subgroup is `chi = Delta_phi`.
+
+That theorem is correctly derived in [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:94), [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:120), and [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:130). The pair identities are exact:
+`b1 = Delta_kappa - Delta_phi`, `b2 = 2 Delta_kappa`, hence `Delta_phi = b2/2 - b1` and `Delta_kappa = b2/2` [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:97). Continuity is the regularity hypothesis needed for linearity of `R^2 -> (R,+)` [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:120). Exchange oddness forces `a=0`, and pure reciprocal normalization forces `b=1` [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:142).
+
+Two corrections are load-bearing. First, the exchange action on densities is a conditional realization step, not bare founding-source output: the intake’s own signature table limits founding ownership to abstract reciprocal operator, channel labels, and composition, while `phi` is only `FOUNDING_PROJECTION_REALIZATION_CONDITIONAL` on the supplied pair metric [FOUNDING_SIGNATURE_RESULT.tsv](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/FOUNDING_SIGNATURE_RESULT.tsv:2), [MEASUREMENT_OWNERSHIP_ATLAS.tsv](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/MEASUREMENT_OWNERSHIP_ATLAS.tsv:3). The corrected wording is: “When the founding reciprocal comparison is realized on a supplied regular calibrated pair metric by `(Delta_kappa,Delta_phi) -> (Delta_kappa,-Delta_phi)`, its unique normalized continuous real scalar character is `Delta_phi`.” Second, the sealed intake does not contain the pinned founding source text it says should be reconstructed directly; it only lists upstream refs in [SOURCE_MANIFEST.tsv](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/SOURCE_MANIFEST.tsv:7), and the controller script reads `../UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md` outside the intake [derive_query_projection_ownership.py](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/derive_query_projection_ownership.py:99). So the source-signature portion is only secondhand within this seal.
+
+The nonuniqueness boundary is also correctly retained. `kappa` remains real conditional geometric state, not deleted by cancellation [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:170), `beta` is a conditional query state rather than a standalone founding character [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:176), and `U_gamma` is separately typed path transport with no nontrivial continuous real `SO(2)` character [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:192). A minimal surviving counterexample outside the declared class is
+`chi_c(p,q) = Delta_phi(p,q) + c*(beta_q - beta_p)`;
+it still telescopes, is nontrivial for `c != 0`, and reduces back to `Delta_phi` when `beta_q = beta_p` [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:177), [verify_query_projection_independent.py](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/verify_query_projection_independent.py:46). So uniqueness does not extend beyond the declared continuous two-density character class. The exact mixed witnesses also do retain upstream `phi+orchestra` modulation before scalar readout [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:215).
+
+No hidden CSN activation, fitted coefficients, regime assignment, or downstream dynamics import is evident inside the bounded algebraic argument [EXACT_DERIVATION.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/EXACT_DERIVATION.md:248), [AUDIT_REPORT.md](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md:31). The smallest remaining owner supported by this intake is therefore the conditional terminal reciprocal `phi` readout alone, not the full physical observer query, pair map, path, or regime policy [QUERY_PROJECTION_CLASSIFICATION.tsv](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/QUERY_PROJECTION_CLASSIFICATION.tsv:3), [MEASUREMENT_OWNERSHIP_ATLAS.tsv](/tmp/udt_ordered_query_projection_review_20260810/udt_ordered_observer_query_projection_ownership_audit_2026-08-10/MEASUREMENT_OWNERSHIP_ATLAS.tsv:3).
+tokens used
+52,360
+
+Script done on 2026-08-10 17:25:26-04:00 [COMMAND_EXIT_CODE="0"]

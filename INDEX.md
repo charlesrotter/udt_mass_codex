@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -37,7 +38,11 @@
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected scalar atlas
    has three interleaved equatorial ladders and withdraws the old FD1 multiplet window; the complete
    angular audit proves those roots do not lift unchanged and finds no physical population
-   projector. The family MAP derives the general stationary operator and maps all 2,800 registered
+   projector. The current G54 projection gate proves that, after a complete calibrated query
+   supplies the pair relation, the realized founding reciprocal scalar is uniquely `Delta_phi`
+   within the continuous matched two-density character class. It does not construct the pair
+   relation from bare observers or erase common scale, shift, angular transport, broader
+   coboundaries, or phi+orchestra modulation. The family MAP derives the general stationary operator and maps all 2,800 registered
    axis cells without selecting a screen. N01 now supplies the exact conditional C1 coupling
    matrices and full radial matrix flux, but no spectrum or physical screen. N02 shows that no
    banked P1 row is a regular complete spherical center-to-wall anchor, without invalidating P1's
@@ -87,8 +92,8 @@
    depth/normal-isometry product groupoid on supplied paths, the local order-zero real-character
    no-go for extra open-path angular scalars, and the survival of loop/relative-path holonomy. It
    does not select the physical path/arrow or a stationary non-exact higher-jet scalar one-form.
-   Next is the invariant local one-form/transgression classification in the complete compatible
-   stationary R17 jet space. No
+   The subsequent local-one-form, multi-channel, and G54 projection audits are complete; the
+   current open gate is the calibrated physical query/pair-relation owner. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu

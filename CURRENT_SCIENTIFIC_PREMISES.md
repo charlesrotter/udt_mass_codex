@@ -9,7 +9,20 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G53 refinement
+## Current G54 refinement
+
+`udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md` controls the
+ordered-query projection gate. After a complete calibrated observer query supplies a regular pair
+relation, the founding reciprocal comparison is conditionally realized on the matched two-density
+coordinates. Within the continuous real character class, exchange oddness and reciprocal
+normalization uniquely select `Delta_phi`. External review returned
+`FOUNDED_PROJECTION_ONLY_REALIZATION_CONDITIONAL`. This is not a bare-endpoint pair-relation theorem
+or uniqueness over all smooth measurements. `kappa`, `beta`, `U_gamma`, broader endpoint/path
+cocycles, and phi+orchestra remain retained in their proper scopes. The calibrated physical
+observer-query / pair-relation selector, optional measurement policy, path, regime map, conductor,
+action, source, bootstrap closure, and universal mixed-geometry `c_eff` remain OPEN.
+
+## G53 parent refinement
 
 `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md` now controls the
 observer-relation assembly gate. On one supplied regular calibrated stationary R17 pair query, the

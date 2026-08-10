@@ -6,9 +6,24 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; MULTICHANNEL ASSEMBLY VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; CONDITIONAL RECIPROCAL PROJECTION VERIFIED; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — MULTI-CHANNEL OBSERVER-RELATION ASSEMBLY COMPLETE,
+**LATEST GATE — ORDERED OBSERVER-QUERY PROJECTION OWNERSHIP COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md` first. After a
+complete calibrated observer query supplies a regular pair relation, the founding reciprocal
+clock/ruler comparison is conditionally realized on the matched density coordinates. Among all
+continuous real characters of `(Delta_kappa,Delta_phi)`, realized exchange oddness and pure
+reciprocal normalization uniquely select `Delta_phi`. Fresh corrected sealed external review
+returned `FOUNDED_PROJECTION_ONLY_REALIZATION_CONDITIONAL`. This is not a theorem from bare
+observer endpoints and not uniqueness over all measurements: endpoint coboundaries and other
+enriched-state/path families survive but are not selected by the founding source. `kappa` remains
+retained conditional state, `beta` remains enriched query state, `U_gamma` remains a path-labelled
+angular instrument, and phi+orchestra modulation remains upstream of the terminal readout. The
+calibrated physical observer-query / pair-relation selector, optional multichannel measurement
+policy, path, regime map, conductor, action, source, and dynamics remain OPEN.
+
+**PRECEDING GATE — MULTI-CHANNEL OBSERVER-RELATION ASSEMBLY COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Read
 `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md` first. On one
 supplied regular calibrated stationary R17 pair query, the pair metric has the unique state
@@ -21,10 +36,9 @@ isometry `U_gamma`. The bounded common-query arrow shadow is therefore
 `CONDITIONAL_MULTICHANNEL_ASSEMBLY_ONLY` and found no counterexample to this bounded result. It is
 minimal only for the banked pair-metric plus normal-transport layers—not the pair embedding,
 extrinsic geometry, all jets, a physical path, or a selected physical observer arrow. Geometric
-activity strata are not physical micro/ordinary/cosmological regimes. The smallest next owner is
-the ordered observer-query / measurement-projection rule: determine whether a physical query
-reads the full state or particular projections. No action, source, bootstrap conductor, physical
-regime map, universal mixed-geometry `c_eff`, or downstream physics is selected.
+activity strata are not physical micro/ordinary/cosmological regimes. Its ordered-query projection
+gate is now the controlling result above. No action, source, bootstrap conductor, physical regime
+map, universal mixed-geometry `c_eff`, or downstream physics is selected.
 
 **PRECEDING R17 GATE — STATIONARY LOCAL ONE-FORM SELECTION COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Read
@@ -38,9 +52,8 @@ and path independence do not select a unique additional reciprocal transgression
 exhaustive higher-jet classification. The smallest missing owner is an explicit physical
 query/measurement rule; on-shell and global-completion rules remain larger possible owners. No
 physical path, observer arrow, universal `c_eff`, action, source, bootstrap closure, or downstream
-physics is selected. The next bounded gate is to ask whether the founding ordered-observer query
-already supplies that measurement selector; if not, audit global admissibility of the explicit
-surviving families.
+physics is selected. The G54 gate above now answers the bounded founding-projection question while
+retaining the calibrated physical query/pair-relation owner as open.
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method

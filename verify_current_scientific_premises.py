@@ -98,6 +98,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md",
@@ -156,6 +157,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md",
@@ -182,7 +184,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md"
+    latest = "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -199,6 +201,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md",
@@ -235,9 +238,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 53, "premise registry must contain exactly 53 rows")
+    require(len(rows) == 54, "premise registry must contain exactly 54 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 53, "duplicate premise id")
+    require(len(by_id) == 54, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -853,6 +856,30 @@ def main() -> None:
         "multi-channel assembly source changed",
     )
     require("G53_REFINES_G52_BY_REPLACING_THE_ONE_SCALAR_SEARCH_WITH_A_BOUNDED_TYPED_MULTICHANNEL_ASSEMBLY" in by_id["G53"]["precedence_rule"], "G52 multi-channel refinement absent")
+    require(
+        by_id["G54"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__AFTER_COMPLETE_CALIBRATED_QUERY_SUPPLIES_REGULAR_PAIR_RELATION_REALIZED_FOUNDING_RECIPROCAL_PROJECTION_IS_UNIQUELY_DELTA_PHI_WITHIN_CONTINUOUS_MATCHED_TWO_DENSITY_CHARACTERS__BROADER_MEASUREMENTS_AND_PAIR_OWNER_OPEN",
+        "ordered-query projection status regressed or promoted",
+    )
+    require(by_id["G54"]["epistemic_label"] == "MIXED", "ordered-query projection label changed")
+    require(
+        by_id["G54"]["active_use"]
+        == "ACTIVE_CONDITIONAL_RECIPROCAL_PROJECTION_AND_NEXT_PAIR_RELATION_OR_MEASUREMENT_OWNER_GATE_ONLY",
+        "ordered-query projection use promoted",
+    )
+    require("calibrated physical observer-query and pair-relation selector" in by_id["G54"]["open_scope"], "pair-relation owner invented")
+    require("physical path" in by_id["G54"]["open_scope"], "physical path promoted")
+    require("bare observer endpoints said to select Delta_phi" in by_id["G54"]["forbidden_regression"], "bare-endpoint selection guard absent")
+    require("uniqueness widened beyond continuous two-density characters" in by_id["G54"]["forbidden_regression"], "conditional uniqueness scope guard absent")
+    require("endpoint coboundaries called impossible" in by_id["G54"]["forbidden_regression"], "coboundary survival guard absent")
+    require("kappa deleted" in by_id["G54"]["forbidden_regression"], "common-scale retention guard absent")
+    require("phi orchestra reduced to pure block" in by_id["G54"]["forbidden_regression"], "phi-orchestra upstream guard absent")
+    require(
+        by_id["G54"]["controlling_source"]
+        == "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+        "ordered-query projection source changed",
+    )
+    require("G54_REFINES_G53_BY_SELECTING_DELTA_PHI_ONLY_AS_THE_CONDITIONAL_REALIZATION_OF_THE_FOUNDED_RECIPROCAL_PROJECTION" in by_id["G54"]["precedence_rule"], "G53 ordered-query projection refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -925,7 +952,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 53 premise guards, conditional multi-channel pair-state and angular-transport assembly with physical query projection owner open, stationary R17 canonical local forms and constructive nonuniqueness with explicit query/measurement selector open, stationary R17 depth/normal-holonomy product groupoid and order-zero scalar shadow classified with physical path arrow open, stationary R17 flat/descent/holonomy subloci classified with no manifest-backed selector, complete metric-projected R17 normal connection and path functor with physical path and arrow open, conditional metric-owned R17 pair-leaf normal connection and representative-free holonomy, conditional R17 global pair foliation and same-leaf scalar depth, complete-coframe-conditional R17 vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal scalar/calibration bitorsor descent, carried/intrinsic alignment bitorsor, branch-transition ownership correction, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 54 premise guards, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":
