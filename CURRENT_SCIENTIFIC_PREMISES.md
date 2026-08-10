@@ -336,6 +336,20 @@ balanced density telescoping is exact. Every isometric alignment has unit densit
 generates zero calibration. The physical non-isometric magnitude and its owner remain open, and
 the terminal determinant equality requires the explicit normalized source calibration.
 
+The non-isometric calibration-magnitude owner audit,
+`udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, now completes the
+next bounded gate. A preregistered 24-identity by five-family census contains zero complete
+`OWNER_DERIVED` physical magnitude owners. R17 and R18 each own a narrower branch-conditional
+endpoint clock magnitude `delta_K=log[N(p)/N(q)]`; the multiplier telescopes and constant rescaling
+of the shared Killing state cancels. R17 also owns an intrinsic reciprocal grading separately, but
+the branch does not select the non-isometric lift, physical query/path, middle reset, or pair
+surface that joins them. R18 has no same-branch intrinsic ruler completion, and an exact
+equal-clock/different-ruler witness gives terminal arguments 16 and 4. Pair-surface Jacobians remain
+supplied witnesses, metric-compatible transport generates zero magnitude, and no native
+dynamics/bootstrap magnitude law is present. The first external review correctly found a
+manifest/replay `TYPE_FAILURE`; the corrected Git-free, read-only, manifest-confined package passed
+17/17 catch proofs and the fresh review returned `ACCEPT_BRANCH_CONDITIONAL_OWNER_ONLY`.
+
 Do not
 promote the conditional
 local query enrichment into a universally founded physical functor, call ordering a unique arrow,

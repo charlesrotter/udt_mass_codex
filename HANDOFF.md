@@ -149,9 +149,17 @@ telescoping is exact and path labels remain. Isometric alignment generates zero 
 physical non-isometric magnitude and its owner remain open. The terminal determinant equality
 requires the now-explicit normalized source flag.
 
-**NEXT GATE, not launched:** classify the non-isometric calibration-magnitude owner across the
-already mapped complete branches, without selecting a candidate by desired outcome. C1 remains
-unselected; FD2/FD3/FD4,
+**NON-ISOMETRIC CALIBRATION-MAGNITUDE OWNER AUDIT = COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`. The 24-by-five
+census contains zero complete physical owners and exactly two branch-conditional clock-magnitude
+owners, R17 and R18. R17's magnitude and intrinsic grading remain separately owned but physically
+unsoldered; R18 lacks a ruler completion. The corrected manifest-confined external review returned
+`ACCEPT_BRANCH_CONDITIONAL_OWNER_ONLY`.
+
+**NEXT GATE, not launched:** test whether R17's owned `delta_K` and `X_lambda` are forced to combine
+as the physical non-isometric reciprocal lift, without assuming the lift, pair surface, middle
+reset, physical path/query, bootstrap, or universal `c_eff`. C1 remains unselected; FD2/FD3/FD4,
 RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu
 is `udt_freedata_inventory_MAP_2026-08-09.md`.
 

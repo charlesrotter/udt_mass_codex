@@ -1,0 +1,57 @@
+{
+  "algebra": {
+    "complete_mixed_supplied_jacobian_density_arguments": [
+      "3/16",
+      "3/4",
+      "64/3"
+    ],
+    "conditional_reciprocal_lift_density_arguments": [
+      "1/4",
+      "1",
+      "16"
+    ],
+    "constant_killing_rescaling_cancels": true,
+    "endpoint_clock_multiplier_telescopes": true,
+    "isometric_transport_density_arguments": [
+      "1",
+      "1",
+      "1"
+    ],
+    "same_clock_two_terminal_arguments": [
+      "16",
+      "4"
+    ]
+  },
+  "atlas_cells": 120,
+  "branch_identities": 24,
+  "complete_physical_owner_branches": [],
+  "conditional_owner_branches": [
+    "R17",
+    "R18"
+  ],
+  "disposition_counts": {
+    "AGGREGATE_MEMBER_DEPENDENT": 3,
+    "BLOCKED_MISSING_DYNAMIC_LAW": 24,
+    "BLOCKED_MISSING_PHYSICAL_QUERY": 14,
+    "BLOCKED_NONUNIQUE_INTRINSIC_CLOCK": 1,
+    "INSUFFICIENT_TYPED_EVIDENCE": 42,
+    "NO_OWNED_NONZERO_CLOCK_SCALE": 4,
+    "OWNER_CONDITIONAL_BRANCH_ONLY": 2,
+    "SUPPORTED_NO_COMPLETE_PHYSICAL_OWNER": 24,
+    "TRANSPORT_OR_READOUT_ONLY": 6
+  },
+  "families": 5,
+  "open": [
+    "R17 branch selection of the reciprocal non-isometric lift and physical pair surface",
+    "R18 intrinsic ruler scale or TL=1 reciprocal completion",
+    "physical pair query and middle carry on every branch",
+    "native dynamical or bootstrap calibration return",
+    "universal mixed-geometry c_eff"
+  ],
+  "owned": [
+    "R17 endpoint Killing-norm magnitude delta_K",
+    "R18 unique-Killing endpoint clock magnitude delta_K",
+    "exact endpoint multiplier telescoping and constant Killing rescaling invariance"
+  ],
+  "primary_landing": "BRANCH_CONDITIONAL_MAGNITUDE_OWNER_ONLY__NO_UNIVERSAL_OWNER"
+}

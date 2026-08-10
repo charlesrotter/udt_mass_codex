@@ -1,7 +1,8 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-10 STATUS (RESTART ANCHOR): RECIPROCAL SCALAR/CALIBRATION BITORSOR DESCENT COMPLETE.** ACTIVE ARC = CMB PEAK
+> **2026-08-10 STATUS (RESTART ANCHOR): NON-ISOMETRIC CALIBRATION-MAGNITUDE OWNER CENSUS COMPLETE.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-10) FIRST, then
+> `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
@@ -51,8 +52,10 @@
 > no screen phase is selected. The reciprocal scalar/calibration descent audit is COMPLETE at
 > `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`: supplied
 > regular reciprocal readouts descend through the full screen gauge, balanced telescoping is exact,
-> and every isometric alignment generates zero calibration. NEXT, not launched, is ownership of the
-> physical non-isometric calibration magnitude; no
+> and every isometric alignment generates zero calibration. The magnitude-owner census is COMPLETE
+> at `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`: R17/R18 own
+> branch-conditional endpoint clock magnitudes, but there are zero complete physical owners. NEXT,
+> not launched, is R17's magnitude-to-grading selector; no
 > profile repair, inner cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build
@@ -64,6 +67,8 @@
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
 topmost block (2026-08-10), then
+`udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`,
+`udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`,
 `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`,
 `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`,
 `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`,

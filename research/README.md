@@ -52,8 +52,10 @@ only as a conditional assembly not selected by the branch; the current census ha
 complete transitions. The middle-morphism follow-up derives the path-labelled `SO(2)` alignment
 bitorsor and exact balanced projector composition without selecting a screen phase. The current
 scalar-descent audit proves that supplied reciprocal densities/readouts descend through the full
-regular screen gauge and that isometric alignment generates zero calibration; the physical
-non-isometric magnitude owner remains open. Controlling source:
+regular screen gauge and that isometric alignment generates zero calibration. Its follow-up
+`../udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md` finds R17/R18
+branch-conditional endpoint clock magnitudes but zero complete physical owners. R17's
+magnitude-to-grading selector is the next bounded gate. Parent source:
 `../udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. No eigensolve, profile
 repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a

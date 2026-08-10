@@ -80,8 +80,11 @@ the regular projector-level bridge is the full path-labelled `SO(2)` alignment b
 balanced composition needs no selected screen phase. That descent gate is now closed at
 `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`: supplied
 reciprocal densities/readouts descend on every regular C01--C06 stratum, while isometric alignment
-generates zero calibration. The new NEXT gate is the physical non-isometric magnitude owner across
-the already-mapped complete branches.
+generates zero calibration. The magnitude-owner follow-up is complete at
+`udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`: R17/R18 own
+branch-conditional endpoint clock magnitudes, but zero complete physical owners survive the
+24-by-five census. The new NEXT gate is R17's magnitude-to-grading selector—whether its owned
+`delta_K` and `X_lambda` must combine as the physical lift or remain separate lawful ingredients.
 No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the

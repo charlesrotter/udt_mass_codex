@@ -1,0 +1,29 @@
+{
+  "atlas_cells": 120,
+  "branch_identities": 24,
+  "complete_owner_rows": 0,
+  "conditional_owner_branches": [
+    "R17",
+    "R18"
+  ],
+  "disposition_counts": {
+    "AGGREGATE_MEMBER_DEPENDENT": 3,
+    "BLOCKED_MISSING_DYNAMIC_LAW": 24,
+    "BLOCKED_MISSING_PHYSICAL_QUERY": 14,
+    "BLOCKED_NONUNIQUE_INTRINSIC_CLOCK": 1,
+    "INSUFFICIENT_TYPED_EVIDENCE": 42,
+    "NO_OWNED_NONZERO_CLOCK_SCALE": 4,
+    "OWNER_CONDITIONAL_BRANCH_ONLY": 2,
+    "SUPPORTED_NO_COMPLETE_PHYSICAL_OWNER": 24,
+    "TRANSPORT_OR_READOUT_ONLY": 6
+  },
+  "isometric_and_nonisometric_witnesses": true,
+  "method": "independent table reconstruction plus exact Fraction matrices; no production import",
+  "primary_landing_reproduced": "BRANCH_CONDITIONAL_MAGNITUDE_OWNER_ONLY__NO_UNIVERSAL_OWNER",
+  "same_clock_terminal_arguments": [
+    "16",
+    "4"
+  ],
+  "source_hashes_verified": 24,
+  "verdict": "VERIFIED"
+}

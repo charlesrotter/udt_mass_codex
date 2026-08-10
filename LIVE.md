@@ -6,7 +6,7 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; reciprocal readout descent VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; magnitude-owner census VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
@@ -215,12 +215,23 @@ exact density telescoping and path labels remain. External review exposed the re
 normalization in the terminal determinant formula and corrected one inverted atlas label. Every
 isometric projector alignment has `(rho_1,rho_2,Q)=(1,1,1)` and generates zero calibration.
 
-**NEXT GATE (not launched):** classify which already-mapped complete-branch structure, if any,
-owns the non-isometric calibration magnitude: a lawful pair-surface Jacobian, conditional endpoint
-clock normalization, path/global completion data, future native dynamics/bootstrap, or no current
-kinematic owner. Do not confuse descent with generation, omit the terminal source calibration,
-select `delta_RF` or R17, erase path labels, or call the conditional carried-flag `c_eff` readout
-universal. No eigenvalue solve is authorized.
+**NON-ISOMETRIC CALIBRATION-MAGNITUDE OWNER AUDIT — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md` first. The complete
+24-identity by five-family census has zero complete physical magnitude owners. R17 and R18 each
+own a narrower branch-conditional endpoint clock magnitude. R17 separately owns an intrinsic
+reciprocal grading but does not select the lift, path/query, reset, or pair surface joining them;
+R18 lacks the ruler-side completion. Pair-surface Jacobians remain supplied witnesses,
+metric-compatible transport generates zero magnitude, and no native dynamics/bootstrap magnitude
+law is present. The first external review found a real manifest/replay type failure; after a
+preregistered Git-free correction, the fresh review returned
+`ACCEPT_BRANCH_CONDITIONAL_OWNER_ONLY`.
+
+**NEXT GATE (not launched):** test R17's magnitude-to-grading selection joint: whether the founding
+reciprocal postulates plus its owned `delta_K`, intrinsic `X_lambda`, complete coframe, and
+path-labelled bitorsor require `exp[delta_K X_lambda]`, or leave zero and other nonzero lifts
+compatible. Do not assume the R17 semidirect assembly, physical path/query, pair surface, reset,
+`delta_RF`, bootstrap, or universal mixed-geometry `c_eff`. No eigenvalue solve is authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.

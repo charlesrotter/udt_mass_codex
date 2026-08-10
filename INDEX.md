@@ -10,6 +10,8 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
@@ -57,8 +59,9 @@
    branch-owned complete transitions survive. The middle-morphism follow-up derives the
    path-labelled `SO(2)` alignment bitorsor and exact balanced projector composition. Its
    scalar-descent follow-up proves that supplied reciprocal readouts descend through the complete
-   regular bitorsor and that isometric alignment generates zero calibration; the physical
-   non-isometric magnitude owner remains open. No
+   regular bitorsor and that isometric alignment generates zero calibration. The completed
+   magnitude-owner census then finds branch-conditional clock magnitudes on R17 and R18 but zero
+   complete physical owners; the next bounded gate is R17's magnitude-to-grading selector. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
@@ -71,10 +74,14 @@
 
 ## Current scientific routing
 
+- `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md` — current gate:
+  24 identities by five owner families, zero complete physical owners, and exactly two
+  branch-conditional endpoint clock magnitudes (R17/R18); next is R17's magnitude-to-grading
+  selector.
 - `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md` — current
-  gate: supplied reciprocal densities/readouts descend through every regular C01--C06 screen-gauge
-  bitorsor with exact balanced telescoping; isometric alignment generates zero calibration, leaving
-  the physical non-isometric magnitude owner open.
+  parent gate: supplied reciprocal densities/readouts descend through every regular C01--C06
+  screen-gauge bitorsor with exact balanced telescoping; isometric alignment generates zero
+  calibration.
 - `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md` — immediate
   parent: regular projector alignments form path-labelled `SO(2)` bitorsors with exact balanced
   composition and no selected screen phase.

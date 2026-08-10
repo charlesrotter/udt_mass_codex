@@ -1,0 +1,18 @@
+test_id	injected_defect	expected	observed
+C01	omit or duplicate one branch-family cell	REJECT	REJECT
+C02	call a supplied pair-surface Jacobian branch-owned	REJECT	REJECT
+C03	promote the exact R17 semidirect assembly to branch ownership	REJECT	REJECT
+C04	call R18 a complete reciprocal owner without a ruler	REJECT	REJECT
+C05	claim Levi-Civita path transport generates nonzero density	REJECT	REJECT
+C06	erase path labels to manufacture endpoint ownership	REJECT	REJECT
+C07	invent a current native dynamical or bootstrap magnitude law	REJECT	REJECT
+C08	call the terminal evaluator the generator of its supplied magnitude	REJECT	REJECT
+C09	promote the conditional readout to universal mixed-geometry c_eff	REJECT	REJECT
+C10	call aggregate FC04 one selected owner	REJECT	REJECT
+C11	select one W04 Killing line by convenience	REJECT	REJECT
+C12	state the bounded no-owner result as a theorem over all UDT metrics	REJECT	REJECT
+C13	remove one cited source from the manifest	REJECT	REJECT
+C14	mutate one manifested source byte stream	REJECT	REJECT
+C15	insert an unmanifested atlas evidence citation	REJECT	REJECT
+C16	allow a read-only check to mutate cached outputs	REJECT	REJECT
+C17	call internal cached-count reproduction an external scientific acceptance	REJECT	REJECT

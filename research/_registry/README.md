@@ -3,10 +3,12 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`; it
-derives screen-gauge descent of supplied reciprocal densities/readouts and exact balanced
-telescoping while proving isometric alignment generates zero calibration. The physical
-non-isometric magnitude owner remains open. Its immediate parent is
+gate is `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`; its 24 by
+five census finds R17/R18 branch-conditional endpoint clock magnitudes but zero complete physical
+owners. R17's magnitude-to-grading selector is next. Its scalar-descent parent is
+`udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, which derives
+screen-gauge descent and proves isometric alignment generates zero calibration. Its immediate
+projector parent is
 `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, which derives
 the regular path-labelled `SO(2)` projector-alignment bitorsor and exact balanced composition. Its
 next parent is

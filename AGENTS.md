@@ -35,6 +35,8 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION.** First read
+   `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
@@ -82,7 +84,13 @@ do not dump whole long files or recursively open cited evidence during orientati
    that supplied reciprocal density/readout data descend through that bitorsor on all six regular
    strata, with exact balanced telescoping; isometric alignment generates zero calibration, so the
    physical non-isometric magnitude and its owner remain open. Its controlling source is
-   `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. No profile repair,
+   `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. The
+   subsequent magnitude-owner census finds exactly two branch-conditional endpoint clock
+   magnitudes, R17 and R18, but zero complete physical owners. R17's magnitude and reciprocal
+   grading remain separately owned without a selected physical lift; R18 lacks a ruler completion.
+   Its controlling source is
+   `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`. The next gate is
+   R17's magnitude-to-grading selector, not another owner census. No profile repair,
    inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
