@@ -1,6 +1,6 @@
 {
-  "catch_proofs": 13,
-  "independent_checks": 36,
+  "catch_proofs": 14,
+  "independent_checks": 72,
   "landing": "GLOBAL_PAIR_FOLIATION_AND_SCALAR_DEPTH_DERIVED__FULL_NORMAL_BUNDLE_ARROW_OPEN",
   "production_checks": 10,
   "source_manifest_rows": 15,

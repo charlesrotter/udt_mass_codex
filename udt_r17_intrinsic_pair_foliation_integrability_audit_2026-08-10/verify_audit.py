@@ -42,10 +42,17 @@ def scientific_state(state: dict) -> bool:
 
 
 def independent_state(state: dict) -> bool:
-    require(state["mode"] == "independent_standard_library_exact_rationals", "independent mode")
+    require(state["mode"] == "independent_standard_library_constructive_exact_rationals", "independent mode")
     require(state["imports_production_controller"] is False, "false independence")
-    require(state["witness_count"] == 6, "witness count")
-    require(state["passed_checks"] == 36, "independent checks")
+    require(state["assigns_final_bracket_or_leaf_metric"] is False, "assigned final formula")
+    require(state["derives_frame_by_gauss_jordan"] is True, "frame not derived")
+    require(state["derives_frame_derivatives_by_inverse_identity"] is True, "frame derivative not derived")
+    require(state["derives_brackets_from_structure_constants"] is True, "bracket not derived")
+    require(state["derives_leaf_metric_from_coframe_pullback"] is True, "leaf metric not derived")
+    require(state["lambda_strata"] == 6, "lambda strata")
+    require(state["maurer_cartan_sign_conventions"] == 2, "MC sign coverage")
+    require(state["witness_count"] == 12, "witness count")
+    require(state["passed_checks"] == 72, "independent checks")
     require(all(all(w["checks"].values()) for w in state["witnesses"]), "witness failure")
     return True
 
@@ -103,6 +110,10 @@ def main() -> None:
     altered_independent["imports_production_controller"] = True
     add("C13", "false independent verifier", lambda: independent_state(altered_independent))
 
+    assigned_independent = json.loads(json.dumps(independent))
+    assigned_independent["assigns_final_bracket_or_leaf_metric"] = True
+    add("C14", "hard-coded final bracket or leaf metric", lambda: independent_state(assigned_independent))
+
     if not all(item[2] for item in catches):
         raise SystemExit(f"FAIL catches: {catches}")
 
@@ -123,7 +134,7 @@ def main() -> None:
     (HERE / "VERIFICATION_RESULT.json").write_text(
         json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
-    print("PASS: 15 sources; 10 production; 36 independent; 13/13 catches")
+    print("PASS: 15 sources; 10 production; 72 constructive independent; 14/14 catches")
 
 
 if __name__ == "__main__":

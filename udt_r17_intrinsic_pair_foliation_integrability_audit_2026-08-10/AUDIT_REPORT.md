@@ -2,7 +2,7 @@
 
 Date: 2026-08-10
 
-Grade: **LOCAL VERIFIED; EXTERNAL ADVERSARIAL REVIEW PENDING**
+Grade: **VERIFIED-WITH-CAVEATS; EXTERNAL ADVERSARIAL REVIEW ACCEPTED**
 
 ## Outcome
 
@@ -11,7 +11,8 @@ and vertical-factor results showed. On all six supplied regular C01--C06 configu
 
 - the intrinsic clock/ruler plane integrates globally into a family of `R x S1` Hopf cylinders;
 - those cylinders foliate `R x S3` and are parametrized by `S2`;
-- the angular plane is instead a nonintegrable/contact normal bundle;
+- the angular plane is instead a nonintegrable rank-two normal bundle in 4D and the contact plane
+  on each spatial `S3` slice;
 - the full induced clock/ruler metric keeps the twist and has determinant exactly `-1`;
 - the terminal reciprocal evaluator returns `phi`, so relative endpoint depth is `delta_K`; and
 - the complete angular carry, path/winding, and endpoint reset remain open.
@@ -37,20 +38,20 @@ remain path-labelled.
 1. **Preregistered:** yes, commit `c79881d2` predates the algebra.
 2. **Full space or bounded scope:** full analytic classification of the named smooth regular
    stationary C01--C06 family; other branches and degenerate/time-live strata excluded explicitly.
-3. **Independent verification:** yes locally, with a no-SymPy standard-library reconstruction;
-   fresh external semantic/adversarial review remains pending.
+3. **Independent verification:** yes, after replacing the externally identified hard-coded local
+   reconstruction with a constructive no-SymPy derivation; the fresh external reviewer independently
+   rederived the load-bearing algebra and accepted the bounded landing.
 4. **Premise audit:** yes; every selection and promotion guard remains false.
 
-Until external review, this package is banked no higher than **VERIFIED-WITH-CAVEATS / LEAD at the
-global interpretation layer**.
+The package is banked **VERIFIED-WITH-CAVEATS** only in the named conditional R17 scope.
 
 ## Exact counts
 
 ```text
 frozen sources                 15/15
 production exact checks        10/10
-independent rational checks    36/36
-exercised catch proofs         13/13
+constructive independent checks 72/72
+exercised catch proofs          14/14
 supplied lambda strata          6/6
 selected leaves                 0
 selected windings               0

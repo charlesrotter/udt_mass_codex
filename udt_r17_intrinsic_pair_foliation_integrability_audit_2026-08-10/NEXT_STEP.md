@@ -1,6 +1,7 @@
 # Next bounded step
 
-Do not launch this step until the present package passes fresh external adversarial review.
+The present package has passed fresh external adversarial review and its two bounded repairs. This
+next step still requires its own preregistration before launch.
 
 If accepted, the next metric-led question is narrower than the former full-arrow hunt:
 

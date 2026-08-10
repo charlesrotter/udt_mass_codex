@@ -4,7 +4,7 @@ Date: 2026-08-10
 
 Mode: metric-led, exact analytic/CPU
 
-Current grade: **LOCAL VERIFIED; EXTERNAL ADVERSARIAL REVIEW PENDING**
+Current grade: **VERIFIED-WITH-CAVEATS; EXTERNAL ADVERSARIAL REVIEW ACCEPTED**
 
 ## 1. Bounded result
 
@@ -13,9 +13,9 @@ intrinsic clock and twist-ruler plane is not merely a pointwise projector. It is
 integrable rank-two distribution. Its maximal leaves are Hopf cylinders `R x S1`, and the complete
 spacetime is foliated by this family over `S2`.
 
-The angular screen does the opposite: it is a global positive rank-two normal bundle but is
-contact/nonintegrable. Thus the complete metric naturally separates into an integrable reciprocal
-backbone and a twisted angular normal bundle.
+The angular screen does the opposite: in four dimensions it is a global positive nonintegrable
+rank-two normal bundle. On each spatial `S3` slice it is the contact plane. Thus the complete metric
+naturally separates into an integrable reciprocal backbone and a twisted angular normal bundle.
 
 Every reciprocal leaf inherits the complete two-metric
 
@@ -113,9 +113,10 @@ For the screen,
 ```
 
 The `e1` coefficient is nonzero everywhere on the regular stratum because `u,v>0`. Hence `H` is
-not Frobenius integrable. The screen is a contact-type horizontal/normal plane bundle, not a second
-surface foliation. Twist modifies its clock component but is not needed to manufacture the
-nonintegrability.
+not Frobenius integrable. In four dimensions it is a nonintegrable rank-two normal bundle, not a
+contact structure or a second surface foliation. Its restriction to each spatial `S3` slice is the
+contact plane `ker(sigma3)`. Twist modifies its clock component but is not needed to manufacture
+the nonintegrability.
 
 ## 4. Global leaves
 
@@ -214,9 +215,16 @@ signalling law, or dynamics.
 ## 8. Verification
 
 - exact SymPy controller: 10/10 checks;
-- independent standard-library rational reconstruction: 36/36 checks over all six `lambda` strata;
-- exercised mutation catches: 13/13 rejected;
+- constructive independent standard-library reconstruction: 72/72 checks over all six `lambda`
+  strata and both Maurer--Cartan sign conventions;
+- exercised mutation catches: 14/14 rejected;
 - exact frozen source manifest: 15/15 source identities reproduced.
+
+The first local independent verifier assigned the final bracket and leaf-metric coefficients and
+therefore overstated its independence. Following external review, it was replaced by a constructive
+implementation that inverts the coframe, differentiates that inverse, builds brackets from the
+Maurer--Cartan structure constants, and pulls back the metric from tangent columns. The external
+review's accepted landing was unchanged.
 
 The topology statement uses the explicit global `R x S3` and Maurer--Cartan structure already
 frozen in the source manifest; it is not inferred from the finite-dimensional symbolic controller.
