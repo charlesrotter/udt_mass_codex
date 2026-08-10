@@ -1,0 +1,13 @@
+axis_id	axis_name	question
+A01	object_and_arrow_type	What are the typed objects transitions and domains in this case?
+A02	metric_derivation_ownership	What follows from the complete metric after the declared query and what remains supplied?
+A03	overlap_existence	Does a genuine invertible overlap map exist on an open domain?
+A04	jacobian_chain	Does the complete Jacobian chain close and under which hypotheses?
+A05	metric_pullback_compatibility	Do the pullback metrics transform consistently across the overlap?
+A06	middle_calibration_identification	Is the incoming B state identified with the outgoing B state and by what data?
+A07	common_scale_and_reciprocal_reset	Which changes cancel as coherent presentation and which mismatches survive?
+A08	angular_mixing_retention	Are all off-diagonal and screen/mixing entries retained in the overlap product?
+A09	terminal_depth_and_scalar_projection	Is a scalar reciprocal depth compositional or only conditionally readable?
+A10	triple_or_loop_obstruction	What exact matrix or scalar obstruction is defined and what is its status?
+A11	reversal_and_frame_reciprocity	How does exchange or reversal transform the result and does it select anything?
+A12	maximum_justified_landing	What is the strongest premise-scoped conclusion for this case?

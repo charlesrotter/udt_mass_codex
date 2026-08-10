@@ -1,0 +1,13 @@
+case_id	case_name	frozen_description	premise_tag
+C01	genuine_common_pair_atlas	AB BC and AC are restrictions or charts of one supplied regular pair geometry	FREE_AND_EXPLORED
+C02	separately_parameterized_same_surface	three supplied maps have one common image with explicit invertible overlap maps	FREE_AND_EXPLORED
+C03	independently_rebuilt_pair_surfaces	AB BC and AC are separately supplied and need not have one common pair-surface image	FREE_AND_EXPLORED
+C04	matched_middle_calibration	AB output and BC input use the same declared B calibration state	FREE_AND_EXPLORED
+C05	mismatched_middle_calibration	AB output and BC input use distinct declared B calibration states	FREE_AND_EXPLORED
+C06	coherent_common_scale_changes	endpoint frames undergo consistent positive scalar rescalings on all incident edges	FREE_AND_EXPLORED
+C07	coherent_reciprocal_frame_changes	endpoint frames undergo consistent reciprocal D(r_i) presentation changes	FREE_AND_EXPLORED
+C08	complete_mixing_overlap	regular overlap Jacobians contain nonzero off-diagonal angular or mixing entries	FREE_AND_EXPLORED
+C09	branch_labelled_cut_locus	one or more supplied pair relations are multivalued and carry explicit branch labels	FREE_AND_EXPLORED
+C10	nontrivial_closed_loop	four or more supplied overlaps form a closed comparison loop	FREE_AND_EXPLORED
+C11	seam_or_partial_overlap	pair surfaces meet only on a lower-dimensional seam or restricted domain	FREE_AND_EXPLORED
+C12	null_degenerate_or_missing_overlap	a Jacobian loses rank a pair metric degenerates or no triple overlap exists	FREE_AND_EXPLORED
