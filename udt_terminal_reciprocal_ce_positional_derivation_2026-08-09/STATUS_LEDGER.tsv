@@ -1,0 +1,18 @@
+id	object	status	scope	open_or_forbidden
+T01	reciprocal_positive_channel_decomposition	DERIVED	all T>0 and L>0	degenerate T=0 or L=0
+T02	complete_pair_metric_clock_ruler_shift_decomposition	DERIVED	regular Lorentzian 2D pair metric with supplied clock line	clock-line and pair-plane selection not universal
+T03	terminal_relational_phi_formula	DERIVED_UNIQUE_RECIPROCAL_LOG_IMBALANCE_WITHIN_FIXED_CALIBRATION	fully parameter-calibrated complete pair metric	physical phi identification general pair-map owner and alternative newly posited higher-order laws open
+T04	terminal_ceff_over_cE_formula	CONDITIONAL_GEOMETRIC_PAIR_READOUT	supplied pair calibration only	universal physical mixed-geometry c_eff signal and material propagation remain open
+T05	angular_mixing_before_readout	DERIVED_STRUCTURAL_EXISTENCE_ON_SUPPLIED_JACOBIANS	exact complete-coframe rational witnesses	no physical pair map or branch selected
+T06	endpoint_Lorentz_and_screen_frame_covariance	DERIVED	supplied pair map	pair-map reparameterization must remain calibrated
+T07	common_scale_role	DERIVED_ALGEBRAIC_INVARIANCE	terminal phi readout	not a fundamental scale-free metric premise
+T08	pointwise_phi	CONDITIONAL_POTENTIAL_REPRESENTATION	compatible endpoint-exact family of pair maps	no universal independent scalar owner
+T09	Fermi_exponential_pair_surface	CONDITIONAL_LOCAL_EXAMPLE	observer worldline direction event-pairing parameterization and regular normal branch supplied	not selected or made unique by two founding postulates
+T10	affine_translation_depth	REJECTED_UNIVERSAL_CANDIDATE	single developed path	nonadditive and causal-axis degenerate
+T11	carried_channel_composition	DERIVED	compatible intermediate calibration state	physical signed-depth cocycle ownership on typed query space remains open
+T12	arbitrary_pair_assignment_groupoid_cocycle	NOT_FOUNDED_AS_UNIVERSAL_ALL_PAIR_GATE	full observer-pair space	does not withdraw the cocycle-type requirement for a claimed physical signed depth
+T13	calibration_state_realization	REPRESENTABLE_BY_SUPPLIED_CALIBRATED_PAIR_MAP	complete pair metric supplies terminal densities only after calibrated map is supplied	physical pair surface comparison Jacobian and calibration owner remain open
+T14	Xmax_channel_asymptote	CONDITIONAL_EQUIVALENCE	branch with phi->infinity	value profile and global separation law open
+T15	endpoint_B_selection	OPEN	global complete relation	terminal readout does not select endpoint
+T16	action_source_carrier_matter_mass_boundary	OPEN_NOT_ADDRESSED	outside audit	no inference authorized
+T17	fresh_external_semantic_review	VERIFIED_WITH_CAVEATS	gpt-5.4 read-only review reproduced 75 of 75 symbolic 55 of 55 independent and 20 of 20 source checks	all required scope corrections implemented before banking

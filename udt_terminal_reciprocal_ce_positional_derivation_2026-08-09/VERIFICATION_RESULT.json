@@ -1,0 +1,37 @@
+{
+  "correction_layer": {
+    "calibration_owner_kept_open": true,
+    "cocycle_scope_preserved": true,
+    "mixed_ceff_kept_conditional": true,
+    "pair_map_kept_open": true,
+    "phi_uniqueness_scoped_to_fixed_calibration": true,
+    "supplied_jacobian_witness_scope": true,
+    "xmax_profile_kept_open": true
+  },
+  "external_review": {
+    "model": "gpt-5.4",
+    "raw_response_bytes": 7115,
+    "raw_response_sha256": "0ea4d96fc7350b10135c84819a995c08e11e46ef8689679c3f4dff423cf1e356",
+    "session_id": "019fe8fc-4649-78e3-818d-4df9b59ed3e7",
+    "verdict": "VERIFIED-WITH-CAVEATS"
+  },
+  "independent_checks": {
+    "external_manifest_sources": "20/20",
+    "external_stdlib": "55/55",
+    "external_symbolic": "75/75",
+    "local_stdlib": "55/55",
+    "local_symbolic": "75/75"
+  },
+  "landing": "TERMINAL_RECIPROCAL_CE_PAIR_METRIC_DECOMPOSITION_DERIVED_ON_SUPPLIED_REGULAR_A_CALIBRATED_PAIR_METRICS__RELATIONAL_PHI_IS_THE_UNIQUE_RECIPROCAL_LOG_IMBALANCE_ONLY_WITHIN_THAT_FIXED_CALIBRATION_AND_PAIR_MAP__ANGULAR_AND_MIXING_MODULATION_ARE_STRUCTURALLY_VISIBLE_IN_SUPPLIED_PAIR_JACOBIANS_BEFORE_READOUT__NO_GENERAL_PHYSICAL_CEFF_RATIO_OR_CALIBRATION_STATE_REALIZATION_IS_DERIVED__PAIR_SURFACE_OR_COMPARISON_JACOBIAN_OWNER_ENDPOINT_SELECTION_PATH_REALIZATION_AND_XMAX_PROFILE_REMAIN_OPEN",
+  "schema": "udt-terminal-reciprocal-ce-verification-v1",
+  "repository_gates": {
+    "current_paths": 1114,
+    "frozen_manifests": "6 manifests; 127 members; 133 package paths",
+    "frontier": "306 rows; 101 unique resolved targets",
+    "premise_guards": "37/37",
+    "pytest": "85 passed, 1 xfailed",
+    "startup_controls": 12,
+    "status": "PASS"
+  },
+  "status": "VERIFIED-WITH-CAVEATS"
+}

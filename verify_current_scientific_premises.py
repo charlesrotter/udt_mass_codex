@@ -90,6 +90,7 @@ def validate_startup_surface(root: Path) -> None:
         for token in (
             "CMB PEAK OPTIMIZATION",
             "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
+            "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
             "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
@@ -132,6 +133,7 @@ def validate_startup_surface(root: Path) -> None:
         for token in (
             "CMB PEAK OPTIMIZATION",
             "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
+            "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
             "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
             "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
@@ -157,6 +159,7 @@ def validate_startup_surface(root: Path) -> None:
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
         "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
+        "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
         "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
         "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
@@ -175,9 +178,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 36, "premise registry must contain exactly 36 rows")
+    require(len(rows) == 37, "premise registry must contain exactly 37 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 36, "duplicate premise id")
+    require(len(by_id) == 37, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -414,6 +417,28 @@ def main() -> None:
         == "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
         "calibration-state solder source changed",
     )
+    require(
+        by_id["G37"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__PAIR_METRIC_DECOMPOSITION_DERIVED_ON_SUPPLIED_REGULAR_A_CALIBRATED_PAIR_METRIC__PHI_UNIQUE_RECIPROCAL_LOG_IMBALANCE_WITHIN_FIXED_CALIBRATION__PHYSICAL_PAIR_MAP_CEFF_AND_CALIBRATION_OWNER_OPEN",
+        "terminal pair-metric readout status regressed or promoted",
+    )
+    require(by_id["G37"]["epistemic_label"] == "MIXED", "terminal pair readout label changed")
+    require(
+        by_id["G37"]["active_use"] == "ACTIVE_TERMINAL_READOUT_AND_PAIR_MAP_ROUTING_GATE_ONLY",
+        "terminal pair readout use promoted",
+    )
+    require("physical calibrated pair surface" in by_id["G37"]["open_scope"], "pair surface selected")
+    require("physical calibration-state owner" in by_id["G37"]["open_scope"], "calibration owner selected")
+    require("signed cocycle-type composition" in by_id["G37"]["open_scope"], "signed composition selected")
+    require("universal mixed-geometry c_eff" in by_id["G37"]["open_scope"], "physical c_eff promoted")
+    require("pair metric claimed derived from complete metric alone" in by_id["G37"]["forbidden_regression"], "pair-map type guard absent")
+    require("calibration state called eliminated" in by_id["G37"]["forbidden_regression"], "calibration-state guard absent")
+    require("signed cocycle requirement withdrawn" in by_id["G37"]["forbidden_regression"], "signed-cocycle guard absent")
+    require(
+        by_id["G37"]["controlling_source"]
+        == "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
+        "terminal pair-metric readout source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -486,7 +511,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 36 premise guards, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 37 premise guards, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

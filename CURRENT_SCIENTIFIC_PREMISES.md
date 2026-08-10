@@ -255,9 +255,26 @@ scoped no-go for a nonzero universal local solder at order zero or first metric 
 This no-go must not be generalized to all geometry. An intrinsic stationary Killing line supplies
 the conditional positive prototype through its unnormalized norm ratio. Higher-order, bilocal,
 global-completion, branch-derived, and native dynamical owners remain open. The next gate is a
-complete-branch calibration-owner atlas, not a new local connection search. No action, source,
-matter, mass, CMB spectrum, signaling law, `X_max` value, or universal `c_eff` identification is
-derived.
+complete-branch calibration-owner atlas, not a new local connection search.
+
+The terminal reciprocal-`c_E` positional derivation,
+`udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, now supplies a
+verified-with-caveats positive readout layer above that no-go. On any **supplied regular
+A-calibrated pair metric**, the exact clock/ruler/shift decomposition uniquely returns the
+reciprocal log imbalance
+`phi_pair=(1/2)log(L/T)=(1/4)log[(-det h)/h_00^2]`. The complete coframe enters the pullback metric
+before the readout, so exact supplied-Jacobian witnesses show how angular and mixing components can
+modulate it. This does not derive the physical pair surface, its calibration-state owner, endpoint
+or path selection, or a universal mixed-geometry physical `c_eff`. The pair readout `T/L` is
+conditional outside the founded pure reciprocal branch. Arbitrary independently rebuilt tapes need
+not be additive, but any claimed physical signed reciprocal depth still requires an owned
+cocycle-type realization on its properly typed query space. The pointwise `phi` and `X_max` guards
+remain unchanged.
+
+The next bounded gate is therefore the physical calibrated pair-map owner atlas: test candidate
+observer-tube/pair-surface constructions without selecting a desired branch. No action, source,
+matter, mass, CMB spectrum, signaling law, `X_max` value, universal `c_eff`, eigenvalue solve, FD2,
+or GPU work is derived or authorized.
 
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

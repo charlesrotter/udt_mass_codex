@@ -1,0 +1,10 @@
+{
+  "checks_failed": 0,
+  "checks_passed": 55,
+  "checks_total": 55,
+  "implementation": "independent_python_stdlib_no_sympy_import",
+  "manifest_members_replayed": 20,
+  "registered_mixing_depth_numeric": "0.7650676986728906",
+  "orchestra_depth_numeric": "0.7741596097156093",
+  "status": "PASS"
+}
