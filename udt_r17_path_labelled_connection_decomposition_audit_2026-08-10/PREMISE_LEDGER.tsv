@@ -1,0 +1,15 @@
+premise_id	item	status	role	open_or_excluded
+P01	R17_W01_C01_C06_complete_coframes	pinned-by-SUPPLIED_CONDITIONAL_SOURCE	bounded metric family	branch and on-shell selection open
+P02	stationarity_T_phi_zero	pinned-by-SUPPLIED_CONDITIONAL_SOURCE	analytic family hypothesis	time-live and nonstationary strata excluded
+P03	positive_u_v_regular_stratum	pinned-by-SUPPLIED_CONDITIONAL_SOURCE	nondegenerate orthonormal frame	null and rank-changing strata excluded
+P04	lambda_six_values	free-and-explored	complete supplied screen-weight census	no value selected
+P05	twist_a	free-and-symbolic	complete coframe twist	no physical magnitude selected
+P06	arbitrary_smooth_stationary_phi	free-and-derived-symbolically	compatible full frame jets	no profile field equation or desired shape
+P07	Levi_Civita_connection	pinned-by-THEORY__metric_definition	unique torsion-free metric connection	not identified with GR observer mechanics or physical comparison
+P08	complete_projected_H_connection	pinned-by-THEORY__metric_plus_subbundle	D_X_s=P_H_nabla_X_s	physical transport ownership open
+P09	Maurer_Cartan_sign	free-and-explored	both sign conventions	orientation not selected
+P10	normal_frame_orientation	free-gauge	local SO2 representative	banked observables must be O2-safe or explicitly oriented
+P11	path_and_winding	free-and-characterized	arbitrary supplied piecewise-smooth labels	no path or winding selected
+P12	Hopf_chart_and_base_descent	free-and-characterized	global compatibility question	base descent not assumed
+P13	finite_cell_completion	pinned-by-INHERITED_R17_TOPOLOGY_ONLY	global compatibility question	no new seal or boundary functional
+P14	action_source_matter_bootstrap_Xmax_CMB_dynamics	EXCLUDED	downstream physics	no inference authorized

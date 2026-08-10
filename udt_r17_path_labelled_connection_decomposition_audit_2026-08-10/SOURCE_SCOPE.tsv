@@ -1,0 +1,15 @@
+source_id	path	role
+S01	CURRENT_SCIENTIFIC_PREMISES.tsv	G41-G48 precedence and scope guards
+S02	udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md	controlling leafwise normal-holonomy result
+S03	udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/EXACT_DERIVATION.md	banked brackets connection and F01
+S04	udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/DERIVATION_RESULT.json	exact banked machine result
+S05	udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/HOLONOMY_CLASSIFICATION.tsv	contractible wound and O2 classification
+S06	udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/LAMBDA_STRATUM_ATLAS.tsv	supplied lambda classification parent
+S07	udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/EXACT_DERIVATION.md	global leaves frame brackets and normal seam
+S08	udt_r17_magnitude_to_grading_selection_audit_2026-08-10/EXACT_DERIVATION.md	conditional vertical metric class
+S09	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv	C01-C06 parameter identities
+S10	udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/EXACT_DERIVATION.md	projected screen connection and global quotient cautions
+S11	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/EXACT_DERIVATION.md	ambient holonomy separation control
+S12	udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/EXACT_DERIVATION.md	path-labelled screen alignment bitorsor
+S13	udt_three_observer_overlap_calibration_carry_audit_2026-08-10/EXACT_DERIVATION.md	composition versus path independence
+S14	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	terminal pair-depth boundary
