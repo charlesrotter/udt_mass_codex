@@ -1,0 +1,13 @@
+gate_id	failure_condition	required_disposition
+F01	branch identity omitted or duplicated	AUDIT_FAIL
+F02	separately rebuilt middle states silently identified	AUDIT_FAIL
+F03	associativity used to force direct-equals-composite	AUDIT_FAIL
+F04	nonidentity path loop relabelled inconsistency without arrow-type evidence	AUDIT_FAIL
+F05	general mixing matrix assigned unowned scalar character	AUDIT_FAIL
+F06	branch filtered for physical merit rather than classified	AUDIT_FAIL
+F07	current premise conflict not regraded	HISTORICAL_PREMISES_CHANGED_REVIEW_REQUIRED
+F08	local witnesses used as a global ownership theorem	LOCAL_RELATIONS_GLOBAL_OWNERSHIP_OPEN
+F09	missing typed overlap or transition evidence	INSUFFICIENT_TYPED_EVIDENCE
+F10	rank loss null degeneration or absent overlap	NO_COMPLETE_FAMILY_ON_DECLARED_BRANCH_OR_EXPLICIT_STRATUM
+F11	protected curvature-atlas source read or cited	AUDIT_FAIL
+F12	all typed data and current premises support one disposition	CLASSIFY_WITH_EXACT_CITATION
