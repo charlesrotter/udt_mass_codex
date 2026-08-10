@@ -1,0 +1,14 @@
+premise_id	object	status	provenance	use_or_exclusion
+P01	founding reciprocal character D(delta)=diag(exp(-delta),exp(+delta))	pinned-by-THEORY	current founding-depth audits	normalization gate on supplied depth
+P02	R17 endpoint magnitude delta_K=log[N(p)/N(q)]=phi(q)-phi(p)	pinned-by-THEORY	G42-G45 R17 evidence	branch-local scalar amount
+P03	R17 intrinsic projectors P_u P_n H and X_lambda	theory-scoped to named configurations	July-27 R17 branch audits	branch-local grading at supplied lambda
+P04	complete R17 coframe weights exp(-phi),exp(+phi),exp(lambda phi)	theory-scoped to named configurations	R17 exact coframe	stronger complete-realization gate
+P05	smooth algebraic order-zero lift family	declared mathematical regularity	this preregistration	excludes discontinuous additive pathologies
+P06	physical path or query	OPEN	G38-G45	not selected
+P07	isometric carry U_gamma	DERIVED_ON_SUPPLIED_PATH	G40-G44	retained as transport; not magnitude or physical-path selector
+P08	carried-to-intrinsic reset M_B	OPEN	G42-G45	not set to identity
+P09	physical pair surface or Jacobian	OPEN	G37-G45	not silently supplied
+P10	delta_RF and terminal pair readout	CONDITIONAL	G35-G45	compatibility check only
+P11	bootstrap action source carrier matter mass Xmax CMB signalling	OPEN	outside audit	no inference
+P12	null degenerate cut-locus and unrealized branches	OPEN	outside bounded regular scope	no universal conclusion
+
