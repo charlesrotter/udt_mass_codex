@@ -4,11 +4,15 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; branch-transition ownership corrected)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; middle-morphism bitorsor derived)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`: regular
+carried/rebuilt projector reductions form path-labelled `SO(2)` alignment bitorsors with exact
+balanced composition. No screen phase is selected; scalar and calibration-density descent remain
+open. Its immediate parent is
 `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`: the exact R17
 semidirect formula works on matched path-carried states but is a conditional assembly, not a
 branch-owned physical comparison law. Fresh external review forced that correction; the current

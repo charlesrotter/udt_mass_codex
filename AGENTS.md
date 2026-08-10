@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION.** First read
+   `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
    `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -75,7 +76,10 @@ do not dump whole long files or recursively open cited evidence during orientati
    leaves global relation-family ownership plus scalar reduction open. The complete-branch census
    retains path/holonomy, endpoint-clock, and stratified projector families. Its branch-transition
    follow-up finds that R17's exact semidirect formula is a lawful conditional assembly, not a
-   branch-owned physical law; zero complete branch-owned non-isometric transitions survive. No profile repair,
+   branch-owned physical law; zero complete branch-owned non-isometric transitions survive. The
+   middle-morphism follow-up derives the path-labelled `SO(2)` alignment bitorsor and exact balanced
+   projector composition without selecting a screen phase; terminal-scalar and calibration-density
+   descent remain open. No profile repair,
    inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;

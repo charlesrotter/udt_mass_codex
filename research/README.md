@@ -8,6 +8,7 @@ record. Root `LIVE.md` wins every status disagreement.
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**: first read
+`../udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -48,7 +49,9 @@ then retains path/holonomy, endpoint-clock, and stratified set-valued projector 
 bounded regimes; it does not select the physical non-isometric pair functor or a universal scalar
 reciprocal reduction. The branch-transition follow-up retains the exact R17 semidirect construction
 only as a conditional assembly not selected by the branch; the current census has zero branch-owned
-complete transitions, and `M_B`/pair-relation ownership is next. No eigensolve, profile
+complete transitions. The middle-morphism follow-up derives the path-labelled `SO(2)` alignment
+bitorsor and exact balanced projector composition without selecting a screen phase; reciprocal
+scalar and calibration-density descent remain open. No eigensolve, profile
 repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a
 prediction. The BAO lane is `BANKED + TABLED`.

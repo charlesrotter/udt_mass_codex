@@ -98,6 +98,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
@@ -145,6 +146,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
@@ -162,7 +164,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md"
+    latest = "udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -179,6 +181,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md",
         "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
@@ -204,9 +207,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 42, "premise registry must contain exactly 42 rows")
+    require(len(rows) == 43, "premise registry must contain exactly 43 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 42, "duplicate premise id")
+    require(len(by_id) == 43, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -574,6 +577,28 @@ def main() -> None:
         "branch-transition source changed",
     )
     require("G42_REFINES_G41_TRANSITION_OWNERSHIP" in by_id["G42"]["precedence_rule"], "G41 transition refinement absent")
+    require(
+        by_id["G43"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__REGULAR_C01_C06_PROJECTOR_ALIGNMENTS_FORM_PATH_LABELLED_SO2_BITORSORS__BALANCED_REPRESENTATIVE_FREE_COMPOSITION_EXACT__NO_SCREEN_PHASE_SELECTED__CALIBRATION_AND_SCALAR_DESCENT_OPEN",
+        "middle-morphism ownership status regressed or promoted",
+    )
+    require(by_id["G43"]["epistemic_label"] == "MIXED", "middle-morphism label changed")
+    require(
+        by_id["G43"]["active_use"]
+        == "ACTIVE_PROJECTOR_ALIGNMENT_GAUGE_GROUPOID_AND_NEXT_SCALAR_CALIBRATION_DESCENT_GATE_ONLY",
+        "middle-morphism use promoted",
+    )
+    require("calibration-density descent" in by_id["G43"]["open_scope"], "calibration descent selected")
+    require("terminal reciprocal scalar descent" in by_id["G43"]["open_scope"], "scalar descent selected")
+    require("double-coset shadow called a group" in by_id["G43"]["forbidden_regression"], "double-coset guard absent")
+    require("path labels or holonomy erased" in by_id["G43"]["forbidden_regression"], "path-label guard absent")
+    require("projector alignment called calibration-density alignment" in by_id["G43"]["forbidden_regression"], "calibration-promotion guard absent")
+    require(
+        by_id["G43"]["controlling_source"]
+        == "udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+        "middle-morphism controlling source changed",
+    )
+    require("G43_REFINES_G42_MIDDLE_MORPHISM" in by_id["G43"]["precedence_rule"], "G42 middle-morphism refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -646,7 +671,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 42 premise guards, branch-transition ownership correction, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 43 premise guards, carried/intrinsic alignment bitorsor and scalar-descent gate, branch-transition ownership correction, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

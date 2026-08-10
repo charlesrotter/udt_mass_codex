@@ -1,0 +1,42 @@
+{
+  "balanced_bitorsor_composition_exact": true,
+  "distinct_alignment_witnesses": 2,
+  "lambda_rows": [
+    [
+      "-2",
+      1,
+      1
+    ],
+    [
+      "-1",
+      3,
+      1
+    ],
+    [
+      "0",
+      1,
+      1
+    ],
+    [
+      "1/2",
+      1,
+      1
+    ],
+    [
+      "1",
+      3,
+      1
+    ],
+    [
+      "2",
+      1,
+      1
+    ]
+  ],
+  "local_nonparallel_rows": 18,
+  "loop_path_label_rows": 36,
+  "method": "independent pure-Python Fraction matrices plus analytic generator count",
+  "primary_landing_reproduced": "GAUGE_GROUPOID_ALREADY_SUFFICIENT_FOR_PROJECTOR_ALIGNMENT__CALIBRATION_DESCENT_OPEN",
+  "source_hashes_verified": 18,
+  "verdict": "VERIFIED"
+}

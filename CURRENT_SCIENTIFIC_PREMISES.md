@@ -320,13 +320,24 @@ compatible on matched path-carried states. It is a lawful **conditional assembly
 branch-owned comparison law. There are zero branch-owned complete non-isometric transitions in the
 24-row census. The other branch rulings remain unchanged.
 
-The next bounded gate is whether a complete branch owns the carried-to-rebuilt middle morphism
-`M_B` or a calibrated pair-relation functor that determines it and a lawful pair surface. Do not
+The carried/intrinsic middle-morphism ownership audit,
+`udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, sharpens that
+gate. On every retained regular C01--C06 stratum, the path-carried and locally rebuilt
+clock/ruler/screen reductions admit a full `SO(2)` bitorsor of exact alignments. No individual
+screen-phase representative is metric-selected. Exact balanced bitorsor composition is
+representative-independent, so the projector-level middle bridge is already sufficient as a gauge
+groupoid object. The double coset is only its non-compositional orbit shadow. This does not supply
+calibration density, select `delta_RF`, or derive the terminal reciprocal scalar. Their descent
+through the bitorsor is the next bounded gate.
+
+Do not
 promote the conditional
 local query enrichment into a universally founded physical functor, call ordering a unique arrow,
 claim that `c_E` removes a reciprocal middle reset, identify Levi-Civita path transport with
 physical depth, promote the R17 semidirect assembly to branch ownership, identify carried and
-rebuilt endpoint gradings, or demand zero holonomy. No action, source, matter, mass, CMB spectrum, signaling
+rebuilt endpoint gradings, demand one metric-selected screen phase, call the double-coset shadow a
+group, erase path labels, promote projector alignment to calibration-density alignment, or demand
+zero holonomy. No action, source, matter, mass, CMB spectrum, signaling
 law, `X_max` value, universal mixed-geometry `c_eff`, eigenvalue solve, FD2, or GPU work is derived
 or authorized.
 

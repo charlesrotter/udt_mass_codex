@@ -1,0 +1,12 @@
+test_id	injected_defect	expected	observed
+C01	set M_B=identity despite X_car!=X_intrinsic	REJECT	REJECT
+C02	claim unique alignment while second SO2-related exact alignment exists	REJECT	REJECT
+C03	promote one screen axis to metric-owned	REJECT	REJECT
+C04	erase path labels from full-holonomy endpoint lift	REJECT	REJECT
+C05	treat SO2 double cosets as a compositional quotient group	REJECT	REJECT
+C06	claim a Lorentz-equivariant global section despite nontrivial base stabilizer	REJECT	REJECT
+C07	drop one lambda stratum	REJECT	REJECT
+C08	call an absent common pair atlas derived	REJECT	REJECT
+C09	promote relative orbit to universal scalar c_eff	REJECT	REJECT
+C10	use Euclidean Frobenius minimization as metric-native selector	REJECT	REJECT
+C11	change the middle representative on only one leg and call composition gauge independent	REJECT	REJECT

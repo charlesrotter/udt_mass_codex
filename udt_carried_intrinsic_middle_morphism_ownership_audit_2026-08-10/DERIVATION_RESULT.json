@@ -1,0 +1,55 @@
+{
+  "alignment_difference_max_abs": "1",
+  "balanced_bitorsor_composition_exact": true,
+  "balanced_composition_representative_independent": true,
+  "complete_projector_stabilizer_dimensions": {
+    "-1": 1,
+    "-2": 1,
+    "0": 1,
+    "1": 1,
+    "1/2": 1,
+    "2": 1
+  },
+  "conditional": [
+    "a common supplied pair atlas can provide an overlap representative",
+    "a supplied full screen frame can choose a representative but adds gauge data"
+  ],
+  "double_coset_is_compositional_group": false,
+  "grading_stabilizer_dimensions": {
+    "-1": 3,
+    "-2": 1,
+    "0": 1,
+    "1": 3,
+    "1/2": 1,
+    "2": 1
+  },
+  "lambda_rows": 6,
+  "left_equivariant_adapted_frame_section_obstructed": true,
+  "open": [
+    "one canonical middle-morphism representative (not needed for projector composition)",
+    "one coherent global section/trivialization",
+    "one physical pair atlas or pair-relation functor",
+    "universal mixed scalar reciprocal law and c_eff"
+  ],
+  "owned": [
+    "intrinsic endpoint projector triple",
+    "path-carried endpoint projector triple",
+    "their path-labelled relative orbit/double-coset shadow",
+    "the full nonempty SO(2)-bitorsor of regular projector alignments",
+    "balanced representative-free composition of alignment bitorsors"
+  ],
+  "path_counts": {
+    "local_nonzero_clock_ruler": 18,
+    "local_rows": 18,
+    "loop_composition_passes": 36,
+    "loop_nonidentity": 36,
+    "loop_ordinary_closure_failures": 36,
+    "loop_rows": 36,
+    "min_ordinary_closure_residual": 0.006996391463313088
+  },
+  "primary_landing": "GAUGE_GROUPOID_ALREADY_SUFFICIENT_FOR_PROJECTOR_ALIGNMENT__CALIBRATION_DESCENT_OPEN",
+  "scope": "C01-C06 regular twisted-S3 configurations; supplied regular paths",
+  "screen_stabilizer_nonnormal": true,
+  "screen_stabilizer_nontrivial": true,
+  "two_distinct_exact_projector_alignments": true
+}

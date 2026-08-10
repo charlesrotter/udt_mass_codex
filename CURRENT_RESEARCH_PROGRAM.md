@@ -74,8 +74,12 @@ non-isometric observer-pair functor or a universal scalar reciprocal law. The br
 at `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md` finds one exact
 R17 semidirect construction on matched path-carried states, but external review correctly demotes
 it to a conditional assembly not selected by the branch. The corrected census has zero branch-owned
-complete transitions. NEXT is to test ownership of the carried-to-rebuilt middle morphism `M_B` or
-the calibrated pair-relation functor and lawful pair surface that would determine it.
+complete transitions. The resulting middle-morphism gate is now closed at
+`udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`:
+the regular projector-level bridge is the full path-labelled `SO(2)` alignment bitorsor, and exact
+balanced composition needs no selected screen phase. The new NEXT gate is whether the terminal
+reciprocal scalar and calibration-density data descend through that bitorsor, or require additional
+pair-atlas data.
 No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the

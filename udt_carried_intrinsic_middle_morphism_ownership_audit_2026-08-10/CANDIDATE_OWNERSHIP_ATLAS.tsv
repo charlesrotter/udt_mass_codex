@@ -1,0 +1,13 @@
+candidate_id	candidate	mathematical_status	ownership_ruling	blocking_or_surviving_fact
+M01	identity reset	exactly defined	REFUTED_GENERIC_PATHS	18 local nonparallel rows and 36 nonclosing loops
+M02	one arbitrary Lorentz conjugator	exists on every retained regular same-lambda stratum	CONDITIONAL_REPRESENTATIVE	continuous screen stabilizer gives equally valid alternatives
+M03	all Lorentz projector alignments	nonempty SO2 bitorsor	DERIVED_PATH_LABELLED_SET	metric owns both projector triples and hence their full alignment set
+M04	grading-only alignment	nonempty with stabilizer dimensions 1 or 3	DERIVED_BUT_WEAKER	lambda +/-1 loses the separately owned ruler or clock split
+M05	adapted complete-coframe map	one map after screen axes are chosen	PRESENTATION_DEPENDENT	SO2 changes axes while preserving all metric-owned projectors
+M06	minimum-boost or shortest representative	locally constructible on selected regular charts	EXTRA_SELECTOR	objective and global branch/cut prescription unowned
+M07	polar representative	constructible only after auxiliary positive structure/order choice	EXTRA_SELECTOR	Lorentz metric alone supplies no declared positive polar norm
+M08	common-pair-atlas overlap Jacobian	exactly compositional when one atlas is supplied	CONDITIONAL_COMMON_ATLAS	branch has not selected the atlas or pair surface
+M09	path-carried object without reset	exact matched path groupoid	CONDITIONAL_R17_ARENA	does not identify locally rebuilt intrinsic endpoint object
+M10	relative projector orbit/double-coset	frame-independent and path-labelled	DERIVED_LOWER_SHADOW	double coset is the orbit shadow of the stronger alignment bitorsor
+M11	naive double-coset multiplication	not a group because SO2 is nonnormal	REFUTED_AS_COMPOSITION_LAW	conjugated screen rotation leaves the stabilizer
+M12	gauge-groupoid or bitorsor completion	exact balanced composition on regular projector reductions	DERIVED_PROJECTOR_ALIGNMENT_COMPOSITION	scalar and calibration-density descent remain open

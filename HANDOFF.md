@@ -133,8 +133,15 @@ review correctly demoted it to `CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED`. The bran
 ingredients separately; it does not select their semidirect assembly as the physical comparison
 law. Zero branch-owned complete transitions survive; all non-R17 rulings are unchanged.
 
-**NEXT GATE, not launched:** test whether the branch owns the carried-to-rebuilt middle morphism
-`M_B` or a calibrated pair-relation functor and lawful pair-surface realization. C1 remains
+**CARRIED/INTRINSIC MIDDLE-MORPHISM OWNERSHIP = COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`. The regular
+C01--C06 carried and rebuilt projector reductions form path-labelled `SO(2)` alignment bitorsors.
+Balanced composition is exact without choosing a screen phase. Projector alignment does not yet
+own calibration density or the terminal scalar.
+
+**NEXT GATE, not launched:** test terminal-scalar and calibration-density descent through that
+bitorsor, retaining path labels and holonomy; classify any additional pair-atlas data required. C1 remains
 unselected; FD2/FD3/FD4,
 RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu
 is `udt_freedata_inventory_MAP_2026-08-09.md`.

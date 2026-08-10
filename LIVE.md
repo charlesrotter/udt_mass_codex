@@ -195,10 +195,22 @@ not the choice to combine them as the physical comparison law. The corrected 24-
 zero `COMPLETE_NONISOMETRIC_TRANSITION_OWNED` rows; R17 is a lawful conditional candidate. Every
 other branch ruling is unchanged.
 
-**NEXT GATE (not launched):** determine whether a complete branch owns the carried-to-rebuilt
-middle morphism `M_B`, or a calibrated pair-relation functor that determines it and a lawful pair
-Jacobian/surface. Do not set `M_B=I`, promote exact matched-state composition to physical selection,
-or call the conditional carried-flag `c_eff` readout universal. No eigenvalue solve is authorized.
+**CARRIED/INTRINSIC MIDDLE-MORPHISM OWNERSHIP AUDIT — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md` first. On every
+retained regular C01--C06 stratum, the path-carried and locally rebuilt clock/ruler/screen
+reductions admit a full path-labelled `SO(2)` bitorsor of exact alignments. No individual screen
+phase is selected. Fresh external review sharpened the result: balanced bitorsor composition is
+exact and representative-independent, so the gauge groupoid is already sufficient for
+projector-level composition. The double coset is only a lower orbit shadow. This does not derive
+calibration density, select `delta_RF`, or promote the terminal reciprocal readout.
+
+**NEXT GATE (not launched):** test whether `delta_RF`, the terminal pair readout, and calibration-
+density data descend through the derived alignment bitorsor, while retaining path labels and
+holonomy. If descent fails, classify the exact additional pair-atlas data required. Do not select
+an arbitrary screen phase, call the double-coset shadow a group, promote exact projector composition
+to a physical scalar law, or call the conditional carried-flag `c_eff` readout universal. No
+eigenvalue solve is authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
