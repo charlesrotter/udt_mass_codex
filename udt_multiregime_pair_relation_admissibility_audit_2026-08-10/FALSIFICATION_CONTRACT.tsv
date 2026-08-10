@@ -1,0 +1,15 @@
+test_id	precommitted_test	failure_condition	maximum_conclusion_if_passed
+F01	Source manifest identity	Any of 20 pinned sources differs in blob SHA-256 or size	Exact source corpus frozen
+F02	Branch universe coverage	Not exactly 24 unique stable branch identities	Stop without classification
+F03	Measurement universe coverage	Not exactly six unique G54 measurement families	Stop without classification
+F04	Cartesian coverage	Not exactly 144 unique branch-by-measurement cells	Stop without interpretation
+F05	Join provenance	A classification relies on filename or prefix rather than row/source evidence	Affected cell INSUFFICIENT_EVIDENCE and verifier failure
+F06	No physical regime import	Any output assigns micro ordinary cosmological particle force matter or background as a physical branch label	Audit fails
+F07	Conditional versus owned	Any conditional construction is marked BRANCH_OWNED or GLOBAL_COMPLETION_OWNED without an explicit selector statement	Audit fails
+F08	Founded projection boundary	Delta_phi is called endpoint-derived before a calibrated pair relation is supplied	Audit fails
+F09	Channel preservation	Kappa beta U_gamma or phi+orchestra is erased by the classification	Audit fails
+F10	Missing-evidence honesty	Absence of evidence is classified as mathematical impossibility	Audit fails
+F11	Independent reconstruction	Independent implementation disagrees on any load-bearing owner or cell count	Result remains OPEN
+F12	Catch proofs	Any registered regression is not rejected when exercised	Result remains OPEN
+F13	External adversarial review	Fresh reviewer finds an unresolved type ownership or scope error	Do not bank the result
+F14	Repository preservation	Frozen manifests current paths frontier links tests or protected-atlas guard regress	Do not bank the result

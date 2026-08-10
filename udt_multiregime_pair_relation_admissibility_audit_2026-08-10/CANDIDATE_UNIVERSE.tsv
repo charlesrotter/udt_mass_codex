@@ -1,0 +1,10 @@
+candidate_set_id	pinned_source_id	row_rule	role	expected_count
+C01	S10	all data rows	stable branch identities	24
+C02	S11	all data rows	branch relation-family classifications	DISCOVER_FROM_PINNED_TABLE
+C03	S12	all data rows	source-to-branch evidence crosswalk	DISCOVER_FROM_PINNED_TABLE
+C04	S03	all data rows	measurement ownership families	6
+C05	S04	all data rows	G54 projection candidates	14
+C06	S07	all data rows	G53 assembled channels	DISCOVER_FROM_PINNED_TABLE
+C07	S08	all data rows	geometric activity strata without physical labels	DISCOVER_FROM_PINNED_TABLE
+C08	S15	all data rows	branch-transition ownership evidence	DISCOVER_FROM_PINNED_TABLE
+C09	S17	all data rows	stationary one-form owner census	DISCOVER_FROM_PINNED_TABLE
