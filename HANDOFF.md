@@ -110,9 +110,16 @@ ruler evolution, and branch data, after which the metric builds the local pair t
 Reciprocity constrains but does not select. Exact and independent controllers pass 51/51 and fresh
 external review found no load-bearing correction.
 
-**NEXT GATE, not launched:** audit associative calibration carry on three-observer pair-surface
-overlaps and classify any triple-overlap/loop obstruction. Do not invent a tangent connection or
-privilege a desired universe. C1 remains
+**THREE-OBSERVER OVERLAP/CALIBRATION CARRY = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md` first. Matched typed
+arrows compose associatively. Direct `A-C` equals `A-B-C` only under the separate common-atlas/
+path-independence condition; nonidentity path loops may be holonomy. Distinct incoming/outgoing B
+states require an explicit middle transition. The physical global relation family and any scalar
+reciprocal reduction remain open. Controller 53/53; independent Fraction algebra 52/52 with
+semantic-atlas spot checks; scoped external review accepted the bounded result.
+
+**NEXT GATE, not launched:** classify global relation-family ownership across complete metric
+branches without privileging zero holonomy or a desired universe. C1 remains
 unselected; FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization
 remain gated. The parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.
 

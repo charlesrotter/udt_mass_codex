@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
@@ -42,8 +43,10 @@
    pair-map/calibration owner and universal mixed-geometry `c_eff` remain open. The completed owner
    atlas derives a local tube from a full query and branch, not a universal tape from bare
    endpoints. The founding ownership audit then proves the founded object is the character on a
-   supplied ordered depth and classifies the complete query as a conditional enrichment; its
-   associative middle carry remains open. No eigensolve, profile repair,
+   supplied ordered depth and classifies the complete query as a conditional enrichment. The
+   three-observer audit now derives associativity on matched enriched objects and separates it from
+   global Cech descent/path independence; global relation-family ownership remains open. No
+   eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
    `udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 remains `RA2-PARTIAL-WEAK`; BAO is
@@ -55,9 +58,13 @@
 
 ## Current scientific routing
 
+- `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md` — current
+  relation-family gate: matched arrows compose associatively; distinct middle states require an
+  explicit bridge; direct-equals-composite is descent/path independence; global family ownership
+  and scalar reduction remain open.
 - `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md` — current
   semantic owner gate: complete query is a conditional enrichment; `c_E` calibrates but does not
-  select; frame Reciprocity constrains but does not create; three-observer carry remains open.
+  select; frame Reciprocity constrains but does not create; G40 supplies the carry refinement.
 - `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` — current owner gate: six
   candidate families and 66 cells classified; local exponential tube conditional on full query;
   physical calibrated pair-relation functor open.

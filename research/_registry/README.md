@@ -3,9 +3,11 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-semantic gate is `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`;
-it classifies the complete calibrated query as a conditional enrichment and leaves associative
-middle carry open. Its terminal readout parent is
+gate is `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`; it derives
+associativity on matched enriched arrows, separates direct-equals-composite as descent/path
+independence, and leaves global relation-family ownership open. Its founding semantic parent is
+`udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, which classifies
+the complete calibrated query as a conditional enrichment. The terminal readout parent is
 `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`; it
 derives the terminal reciprocal log imbalance on a supplied fixed calibrated pair metric while
 leaving the physical pair-map/calibration owner open. Its immediate foundation gate is

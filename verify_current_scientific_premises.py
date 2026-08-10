@@ -90,6 +90,7 @@ def validate_startup_surface(root: Path) -> None:
         for token in (
             "CMB PEAK OPTIMIZATION",
             "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+            "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
             "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
@@ -135,6 +136,7 @@ def validate_startup_surface(root: Path) -> None:
         for token in (
             "CMB PEAK OPTIMIZATION",
             "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+            "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
             "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
@@ -163,6 +165,7 @@ def validate_startup_surface(root: Path) -> None:
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
         "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+        "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
         "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
         "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
@@ -184,9 +187,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 39, "premise registry must contain exactly 39 rows")
+    require(len(rows) == 40, "premise registry must contain exactly 40 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 39, "duplicate premise id")
+    require(len(by_id) == 40, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -488,6 +491,28 @@ def main() -> None:
         == "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
         "pair-relation ownership source changed",
     )
+    require(
+        by_id["G40"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__CARRY_ASSOCIATIVITY_DERIVED_ON_MATCHED_ENRICHED_OBJECTS__DIRECT_EQUALS_COMPOSITE_IS_CECH_DESCENT_OR_PATH_INDEPENDENCE__TRIANGLE_LOOP_OBSTRUCTION_TYPED__PHYSICAL_GLOBAL_RELATION_FAMILY_AND_SCALAR_REDUCTION_OPEN",
+        "three-observer overlap status regressed or promoted",
+    )
+    require(by_id["G40"]["epistemic_label"] == "MIXED", "three-observer overlap label changed")
+    require(
+        by_id["G40"]["active_use"]
+        == "ACTIVE_OVERLAP_TYPE_AND_GLOBAL_RELATION_FAMILY_ROUTING_GATE_ONLY",
+        "three-observer overlap use promoted",
+    )
+    require("global relation-family type" in by_id["G40"]["open_scope"], "global family selected")
+    require("reciprocal scalar reduction" in by_id["G40"]["open_scope"], "scalar reduction selected")
+    require("associativity conflated with path independence" in by_id["G40"]["forbidden_regression"], "associativity type guard absent")
+    require("M_B set to identity" in by_id["G40"]["forbidden_regression"], "middle-transition guard absent")
+    require("atlas called fully independently re-derived" in by_id["G40"]["forbidden_regression"], "independent-scope guard absent")
+    require(
+        by_id["G40"]["controlling_source"]
+        == "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
+        "three-observer overlap source changed",
+    )
+    require("G40_OPERATIONALLY_REFINES_G39" in by_id["G40"]["precedence_rule"], "G39 refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -560,7 +585,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 39 premise guards, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 40 premise guards, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, 9 startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

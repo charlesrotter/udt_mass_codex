@@ -36,7 +36,11 @@ tube follows from a full declared observer query and regular branch, but no univ
 follows from bare endpoints. Its founding ownership gate is complete at
 `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`: the reciprocal
 character is founded on supplied ordered depth, while the complete physical query is a conditional
-enrichment and associative middle carry remains open. No eigenvalue solve is authorized.
+enrichment. The next overlap result is complete at
+`udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`: matched enriched
+arrows compose associatively, while direct-equals-composite is the separate global descent/path
+question. Global relation-family ownership and scalar reduction remain open. No eigenvalue solve
+is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -45,7 +49,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
+5. `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
    `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`, then
@@ -68,8 +73,10 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
+- `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md` — current
+  overlap/carry result and next global relation-family ownership route.
 - `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md` — current
-  semantic owner gate and next three-observer overlap/carry route.
+  semantic owner gate immediately upstream.
 - `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` — current pair-map owner gate:
   local metric-natural tube after a full query and branch; physical calibrated pair-relation
   functor still open.

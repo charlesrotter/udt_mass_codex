@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION.** First read
+   `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`, then
@@ -66,8 +67,10 @@ do not dump whole long files or recursively open cited evidence during orientati
    log imbalance only on a supplied regular A-calibrated pair metric. The completed pair-map atlas
    derives a local orthogonal exponential tube from the metric plus a full declared query and
    regular branch, but finds no universal pair map from bare endpoints. The founding ownership
-   audit derives the character on supplied ordered depth, classifies the complete query as a
-   conditional enrichment, and leaves associative middle-state carry open. No profile repair,
+   audit derives the character on supplied ordered depth and classifies the complete query as a
+   conditional enrichment. The three-observer audit derives carry associativity only on matched
+   enriched objects, separates direct-equals-composite as Cech descent/path independence, and
+   leaves global relation-family ownership plus scalar reduction open. No profile repair,
    inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;

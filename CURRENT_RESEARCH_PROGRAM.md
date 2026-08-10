@@ -62,9 +62,12 @@ That founding-query gate is now complete at
 `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`: the reciprocal
 character is derived on supplied ordered depth, while a complete calibrated query is a
 `CONDITIONAL_QUERY_ENRICHMENT`; `c_E` calibrates rather than selecting the relation, and frame
-Reciprocity constrains rather than creates it. NEXT is the bounded three-observer overlap and
-associative calibration-carry audit. No profile repair, inner cutoff, eigenvalue solve, or FD2
-restart is authorized.
+Reciprocity constrains rather than creates it. The three-observer gate is now complete at
+`udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`: carry is
+associative for matched enriched query states, while direct-equals-composite is the separate Cech
+descent/path-independence condition. Distinct B states need an explicit transition and path-labelled
+loops may have holonomy. NEXT is global relation-family ownership across complete metric branches.
+No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the
 mass-branch/dependency structure) remains valid banked BACKGROUND; only the FRONTIER/active-lane
@@ -114,8 +117,9 @@ and the active lane so a fresh session builds FORWARD (LIVE.md topmost is the au
 - Global completion data genuinely change the local endpoint and jet fibers. This is a derived
   partial kinematic global/local correspondence, not the complete bootstrap return.
 - Observer Reciprocity supplies an equivariance/naturality gate on any future law. It does not
-  generate the law. The founding ownership audit independently reconfirms this and locates the
-  remaining comparison seam at three-observer overlap/calibration carry.
+  generate the law. The overlap audit closes algebraic carry on matched objects and locates the
+  remaining seam at physical global relation-family ownership, branch/path structure, and scalar
+  reduction.
 
 ## Conditional witnesses—not native closure
 

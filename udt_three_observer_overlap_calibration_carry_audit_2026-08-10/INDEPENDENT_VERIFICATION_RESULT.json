@@ -1,0 +1,270 @@
+{
+  "checks": [
+    {
+      "detail": "17",
+      "name": "source_count",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "source_unique",
+      "passed": true
+    },
+    {
+      "detail": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "name": "source_01",
+      "passed": true
+    },
+    {
+      "detail": "udt_founding_observer_comparison_semantics_audit_2026-07-27/EXACT_ADJUDICATION.md",
+      "name": "source_02",
+      "passed": true
+    },
+    {
+      "detail": "udt_native_reciprocal_comparison_bundle_audit_2026-07-27/EXACT_DERIVATION.md",
+      "name": "source_03",
+      "passed": true
+    },
+    {
+      "detail": "udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md",
+      "name": "source_04",
+      "passed": true
+    },
+    {
+      "detail": "udt_global_phi_ownership_overlap_audit_2026-08-05/AUDIT_REPORT.md",
+      "name": "source_05",
+      "passed": true
+    },
+    {
+      "detail": "udt_global_phi_ownership_overlap_audit_2026-08-05/EXACT_DERIVATION.md",
+      "name": "source_06",
+      "passed": true
+    },
+    {
+      "detail": "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_07",
+      "passed": true
+    },
+    {
+      "detail": "udt_reciprocal_calibration_state_solder_audit_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_08",
+      "passed": true
+    },
+    {
+      "detail": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_09",
+      "passed": true
+    },
+    {
+      "detail": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/STATUS_LEDGER.tsv",
+      "name": "source_10",
+      "passed": true
+    },
+    {
+      "detail": "udt_calibrated_pair_map_owner_atlas_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_11",
+      "passed": true
+    },
+    {
+      "detail": "udt_calibrated_pair_map_owner_atlas_2026-08-09/PAIR_MAP_ATLAS.tsv",
+      "name": "source_12",
+      "passed": true
+    },
+    {
+      "detail": "udt_calibrated_pair_map_owner_atlas_2026-08-09/STATUS_LEDGER.tsv",
+      "name": "source_13",
+      "passed": true
+    },
+    {
+      "detail": "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/EXACT_DERIVATION.md",
+      "name": "source_14",
+      "passed": true
+    },
+    {
+      "detail": "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/STATUS_LEDGER.tsv",
+      "name": "source_15",
+      "passed": true
+    },
+    {
+      "detail": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "name": "source_16",
+      "passed": true
+    },
+    {
+      "detail": "CURRENT_RESEARCH_PROGRAM.md",
+      "name": "source_17",
+      "passed": true
+    },
+    {
+      "detail": "(12, 12)",
+      "name": "arena_counts",
+      "passed": true
+    },
+    {
+      "detail": "144",
+      "name": "atlas_count",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "atlas_unique_complete",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "associativity_not_path_independence",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "loop_can_be_associative",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "independent_surfaces_not_forced",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "middle_mismatch_not_erased",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "degenerate_not_filtered",
+      "passed": true
+    },
+    {
+      "detail": "((Fraction(3, 1), Fraction(7, 1)), (Fraction(5, 1), Fraction(12, 1)))",
+      "name": "true_chain",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "true_obstruction",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "associativity",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "wrong_order_catch",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "frame_chain",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "frame_obstruction",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "common_scale_cancels",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reciprocal_basis_cancels",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "middle_transition_closes",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "middle_omission_red",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "unmatched_reset_red",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "metric_AB",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "metric_BC",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "metric_AC",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "holonomy_isometry",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "alternate_path_metric_compatible",
+      "passed": true
+    },
+    {
+      "detail": "((Fraction(13, 5), Fraction(-12, 5)), (Fraction(-12, 5), Fraction(13, 5)))",
+      "name": "metric_compatibility_not_descent",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "triangle_reversal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "loop_holonomy",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "loop_reverse",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reciprocal_multiplication",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "scalar_obstruction",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "scalar_closed_control",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mixing_shortcut_red",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "singular_inverse_caught",
+      "passed": true
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 52,
+  "checks_total": 52,
+  "failed": [],
+  "implementation": "python_stdlib_fraction_no_sympy_or_production_import",
+  "schema": "udt-three-observer-overlap-independent-v1"
+}

@@ -293,13 +293,21 @@ ruler evolution, and regular branch, the metric constructs the local pair geomet
 simultaneity, path, or branch selection. Frame Reciprocity constrains covariance, reversal, and
 matched composition; it is not an existence or uniqueness theorem.
 
-The remaining smallest joint is associative calibration carry across a compatible family of pair
-relations. The next bounded gate is a three-observer overlap audit asking whether supplied overlap
-Jacobians already provide the transition law or expose a precise triple-overlap/loop obstruction.
-Do not promote the conditional local query enrichment into a universally founded physical functor,
-call ordering a unique arrow, or claim that `c_E` automatically removes a reciprocal middle reset.
-No action, source, matter, mass, CMB spectrum, signaling law, `X_max` value, universal mixed-geometry
-`c_eff`, eigenvalue solve, FD2, or GPU work is derived or authorized.
+The three-observer overlap and calibration-carry audit,
+`udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, operationally
+refines the earlier coarse carry phrase. Carry is associative on matched enriched query objects.
+Direct `A-C` equals the `A-B-C` composite only under the separate Cech descent/path-independence
+condition; path-labelled nonidentity loops may instead be legitimate holonomy. Independently
+rebuilt pair surfaces need an explicit middle transition. The physical global relation family and
+any scalar reciprocal reduction remain open. The exact controller passes 53/53; the independent
+Fraction algebra verifier passes 52/52 and spot-checks, but does not independently reconstruct,
+the complete 144-cell semantic atlas.
+
+The next bounded gate is global relation-family ownership across already mapped complete metric
+branches. Do not promote the conditional local query enrichment into a universally founded
+physical functor, call ordering a unique arrow, claim that `c_E` removes a reciprocal middle reset,
+or demand zero holonomy. No action, source, matter, mass, CMB spectrum, signaling law, `X_max`
+value, universal mixed-geometry `c_eff`, eigenvalue solve, FD2, or GPU work is derived or authorized.
 
 Run `python3 verify_current_scientific_premises.py` before banking any result that depends on one of
 these terms.

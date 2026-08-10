@@ -1,0 +1,22 @@
+object	status	label	scope	open_or_forbidden
+composition_associativity	DERIVED_ON_COMPOSABLE_ENRICHED_ARROWS	DERIVED	matched calibrated query states	does not imply direct path equals composite path
+middle_state_composability	DERIVED_TYPE_CONDITION	DERIVED	target of AB equals source of BC or explicit bridge supplied	physical ownership of the enriched B state or bridge remains open
+genuine_common_atlas_chain	DERIVED_J_BC_J_AB_EQUALS_J_AC	DERIVED	regular triple overlap on one supplied pair geometry	does not select the common atlas
+common_atlas_triangle_obstruction	IDENTITY	DERIVED	genuine chart transitions	nonidentity means not one Cech atlas on that overlap
+independent_pair_surfaces	NOT_AUTOMATICALLY_COMPOSABLE	OPEN	separately rebuilt Sigma_AB Sigma_BC Sigma_AC	no hidden binary composition
+supplied_middle_transition	CLOSES_CARRY_CONDITIONALLY	CONDITIONAL	M_B maps B_in to B_out	metric or founding postulates do not select M_B
+triangle_product	DERIVED_TYPED_OBSTRUCTION	DERIVED	invertible supplied transitions	interpret as descent obstruction or path holonomy according to arrow type
+loop_product	DERIVED_HOLONOMY_CLASS	DERIVED	closed supplied composable path family	identity not forced
+pairwise_metric_compatibility	DOES_NOT_FORCE_CECH_CLOSURE	DERIVED	exact Lorentz-holonomy witness	must not call holonomy associativity failure
+common_scale_change	PRESENTATION_ONLY_AND_TELESCOPES	DERIVED	coherent endpoint basis changes	does not revive strong CSN selector
+coherent_reciprocal_trivialization	CONJUGATES_OBSTRUCTION	CONDITIONAL	supplied calibration local system and one state per object	physical reciprocal tape reset is not automatically gauge
+unmatched_reciprocal_reset	SURVIVES	DERIVED	distinct incoming and outgoing B states	cannot set identity without a supplied transition
+complete_angular_mixing	RETAINED_IN_MATRIX_PRODUCT	DERIVED	regular full overlap Jacobians	no diagonal quotient substitution
+scalar_reciprocal_triangle	DERIVED_ON_RECIPROCAL_REDUCTION	CONDITIONAL	owned supplied reciprocal character	no canonical scalar projection of general complete mixing
+terminal_pair_readout	DERIVED_UNCHANGED	DERIVED	each supplied regular calibrated pair metric	three readouts are not automatically one edge cocycle
+branch_relation	BRANCH_LABEL_REQUIRED	DERIVED	cut-locus or multivalued relation	no branch postselection
+partial_seam	PARTIAL_OVERLAP_ONLY	DERIVED	lower-dimensional intersection	transverse calibration remains open
+degenerate_or_missing_overlap	UNDEFINED_FULL_OBSTRUCTION	DERIVED	rank loss null cell or absent triple overlap	regular local branches survive separately
+frame_reciprocity	COVARIANT_REVERSAL_GATE_NOT_SELECTOR	DERIVED	matched supplied arrows	maps obstruction to inverse or conjugate; does not force identity
+physical_global_relation_family	OPEN	OPEN	complete solved metric plus observer-query family	no unique path branch atlas or scalar descent selected
+action_source_matter_boundary_CMB	OPEN_NOT_ADDRESSED	OPEN	outside audit	no inference authorized

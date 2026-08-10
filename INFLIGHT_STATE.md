@@ -1,6 +1,6 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-10 STATUS (RESTART ANCHOR): THREE-OBSERVER OVERLAP/CALIBRATION-CARRY AUDIT IN FLIGHT.** ACTIVE ARC = CMB PEAK
+> **2026-08-10 STATUS (RESTART ANCHOR): THREE-OBSERVER OVERLAP/CALIBRATION-CARRY AUDIT COMPLETE.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-10) FIRST, then
 > `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
 > `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
@@ -31,9 +31,11 @@
 > COMPLETE at `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`: six families and 66
 > cells classified; local tube derived from a full query and branch; no universal tape from bare
 > endpoints. The founding pair-relation ownership audit is COMPLETE: reciprocal character founded
-> on supplied depth; complete query conditional; `c_E` not a selector; associative carry open.
-> ACTIVE GATE = preregistered three-observer overlap and calibration carry at
-> `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/PREREGISTRATION.md`; no
+> on supplied depth; complete query conditional; `c_E` not a selector. The three-observer audit is
+> COMPLETE at `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`:
+> carry associative on matched objects; direct-equals-composite is descent/path independence;
+> global relation-family ownership and scalar reduction open. NEXT, not launched, is branch-wide
+> global relation-family classification; no
 > profile repair, inner cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build
@@ -45,6 +47,7 @@
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
 topmost block (2026-08-10), then
+`udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`,
 `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`,
 `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`,
 `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`,

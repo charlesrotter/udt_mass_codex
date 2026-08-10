@@ -1,0 +1,145 @@
+case_id	case_name	axis_id	axis_name	disposition	basis
+C01	genuine_common_pair_atlas	A01	object_and_arrow_type	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Objects are calibrated chart germs and arrows are genuine overlap transitions.
+C01	genuine_common_pair_atlas	A02	metric_derivation_ownership	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	The metric supplies pullbacks after the common atlas/query is supplied.
+C01	genuine_common_pair_atlas	A03	overlap_existence	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	A regular open triple overlap is part of this case.
+C01	genuine_common_pair_atlas	A04	jacobian_chain	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	The ordinary Jacobian chain rule gives J_BC J_AB=J_AC.
+C01	genuine_common_pair_atlas	A05	metric_pullback_compatibility	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	One tensor field obeys h_A=J_AB^T h_B J_AB on every overlap.
+C01	genuine_common_pair_atlas	A06	middle_calibration_identification	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	The common chart object makes the target B germ equal to the source B germ.
+C01	genuine_common_pair_atlas	A07	common_scale_and_reciprocal_reset	COMMON_SCALE_PRESENTATION_ONLY	Coherent endpoint presentation changes cancel in the transition cocycle.
+C01	genuine_common_pair_atlas	A08	angular_mixing_retention	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	The full Jacobian chain retains every mixing entry.
+C01	genuine_common_pair_atlas	A09	terminal_depth_and_scalar_projection	SCALAR_PROJECTION_NOT_OWNED	Full matrix descent does not by itself select a reciprocal scalar character.
+C01	genuine_common_pair_atlas	A10	triple_or_loop_obstruction	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	The Cech triangle product is identity on a genuine atlas.
+C01	genuine_common_pair_atlas	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Reversal inverts transitions and preserves closure without selecting the atlas.
+C01	genuine_common_pair_atlas	A12	maximum_justified_landing	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Carry is exact for this supplied common-atlas type.
+C02	separately_parameterized_same_surface	A01	object_and_arrow_type	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Objects are separate parameterizations of one supplied image with explicit transition maps.
+C02	separately_parameterized_same_surface	A02	metric_derivation_ownership	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	The common image and inverse chart maps are supplied; their Jacobians are derived.
+C02	separately_parameterized_same_surface	A03	overlap_existence	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Invertible overlaps exist by the case declaration.
+C02	separately_parameterized_same_surface	A04	jacobian_chain	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Differentiating chart composition gives the exact chain.
+C02	separately_parameterized_same_surface	A05	metric_pullback_compatibility	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Pullbacks agree under the explicit transitions.
+C02	separately_parameterized_same_surface	A06	middle_calibration_identification	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	The transition identifies the two B presentations.
+C02	separately_parameterized_same_surface	A07	common_scale_and_reciprocal_reset	COMMON_SCALE_PRESENTATION_ONLY	Coherent chart/frame changes do not change identity versus obstruction.
+C02	separately_parameterized_same_surface	A08	angular_mixing_retention	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Complete Jacobians retain off-diagonal data.
+C02	separately_parameterized_same_surface	A09	terminal_depth_and_scalar_projection	SCALAR_PROJECTION_NOT_OWNED	A scalar projection still needs the reciprocal reduction/local system.
+C02	separately_parameterized_same_surface	A10	triple_or_loop_obstruction	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	The triangle obstruction is identity.
+C02	separately_parameterized_same_surface	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Reverse transitions are the supplied inverses.
+C02	separately_parameterized_same_surface	A12	maximum_justified_landing	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	The supplied common image closes the carry conditionally.
+C03	independently_rebuilt_pair_surfaces	A01	object_and_arrow_type	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	Pair surfaces Sigma_AB Sigma_BC and Sigma_AC are maps to M, not automatically composable arrows.
+C03	independently_rebuilt_pair_surfaces	A02	metric_derivation_ownership	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	The metric derives each pullback after its query but not one common image.
+C03	independently_rebuilt_pair_surfaces	A03	overlap_existence	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	A common open overlap is not guaranteed.
+C03	independently_rebuilt_pair_surfaces	A04	jacobian_chain	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	No Jacobian chain is typed until overlap transitions are supplied.
+C03	independently_rebuilt_pair_surfaces	A05	metric_pullback_compatibility	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	Equal or compatible pullback metrics do not identify embeddings.
+C03	independently_rebuilt_pair_surfaces	A06	middle_calibration_identification	MIDDLE_CALIBRATION_MISMATCH_SURVIVES	The two B germs are distinct unless an explicit transition identifies them.
+C03	independently_rebuilt_pair_surfaces	A07	common_scale_and_reciprocal_reset	MIDDLE_CALIBRATION_MISMATCH_SURVIVES	Calling a reciprocal mismatch common scale would erase physical typed data.
+C03	independently_rebuilt_pair_surfaces	A08	angular_mixing_retention	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	Each map may retain mixing but there is no common product yet.
+C03	independently_rebuilt_pair_surfaces	A09	terminal_depth_and_scalar_projection	SCALAR_PROJECTION_NOT_OWNED	Three terminal readouts are not automatically one edge cocycle.
+C03	independently_rebuilt_pair_surfaces	A10	triple_or_loop_obstruction	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	A triangle obstruction is undefined without typed comparison transitions.
+C03	independently_rebuilt_pair_surfaces	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Reciprocity reverses every supplied relation but does not identify the three surfaces.
+C03	independently_rebuilt_pair_surfaces	A12	maximum_justified_landing	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	Independent pair surfaces require an additional overlap/middle transition.
+C04	matched_middle_calibration	A01	object_and_arrow_type	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	The target state of AB is literally the source state of BC.
+C04	matched_middle_calibration	A02	metric_derivation_ownership	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Ownership is conditional on the declared matched state.
+C04	matched_middle_calibration	A03	overlap_existence	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	The state overlap is supplied even if no global chart atlas is claimed.
+C04	matched_middle_calibration	A04	jacobian_chain	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Matrix/function composition is associative once domains match.
+C04	matched_middle_calibration	A05	metric_pullback_compatibility	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Metric compatibility is testable on the matched germ.
+C04	matched_middle_calibration	A06	middle_calibration_identification	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	No middle reset is inserted because the object is identical.
+C04	matched_middle_calibration	A07	common_scale_and_reciprocal_reset	COMMON_SCALE_PRESENTATION_ONLY	A coherent change of the shared B basis cancels between incident arrows.
+C04	matched_middle_calibration	A08	angular_mixing_retention	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Full mixing passes through the exact product.
+C04	matched_middle_calibration	A09	terminal_depth_and_scalar_projection	SCALAR_PROJECTION_NOT_OWNED	Additive scalar depth follows only if the carried state has the owned reciprocal character.
+C04	matched_middle_calibration	A10	triple_or_loop_obstruction	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	Associativity does not force a separately supplied direct AC arrow to equal the composite.
+C04	matched_middle_calibration	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Matched reversal is exact but does not impose path independence.
+C04	matched_middle_calibration	A12	maximum_justified_landing	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	The carry operation itself is closed on matched enriched objects.
+C05	mismatched_middle_calibration	A01	object_and_arrow_type	MIDDLE_CALIBRATION_MISMATCH_SURVIVES	AB ends in B_in while BC begins in distinct B_out.
+C05	mismatched_middle_calibration	A02	metric_derivation_ownership	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	The metric does not identify separately declared B states.
+C05	mismatched_middle_calibration	A03	overlap_existence	PARTIAL_OVERLAP_ONLY	Both touch observer B but this is not yet a full calibration-state overlap.
+C05	mismatched_middle_calibration	A04	jacobian_chain	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Composition is typed only after a map M_B:B_in->B_out is supplied.
+C05	mismatched_middle_calibration	A05	metric_pullback_compatibility	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	Pairwise metric calibration does not select M_B.
+C05	mismatched_middle_calibration	A06	middle_calibration_identification	MIDDLE_CALIBRATION_MISMATCH_SURVIVES	Setting M_B=I without equality of objects is an unregistered premise.
+C05	mismatched_middle_calibration	A07	common_scale_and_reciprocal_reset	MIDDLE_CALIBRATION_MISMATCH_SURVIVES	An unmatched reciprocal reset is not a common scalar rescaling.
+C05	mismatched_middle_calibration	A08	angular_mixing_retention	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	A supplied complete M_B must retain its mixing entries.
+C05	mismatched_middle_calibration	A09	terminal_depth_and_scalar_projection	SCALAR_PROJECTION_NOT_OWNED	The scalar reset is readable only after M_B and a reciprocal reduction are supplied.
+C05	mismatched_middle_calibration	A10	triple_or_loop_obstruction	TRIPLE_OVERLAP_OBSTRUCTION_NONTRIVIAL	The typed product exposes any unclosed middle mismatch.
+C05	mismatched_middle_calibration	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Reversal maps the mismatch to its inverse; it need not make it identity.
+C05	mismatched_middle_calibration	A12	maximum_justified_landing	MIDDLE_CALIBRATION_MISMATCH_SURVIVES	Current premises do not own the missing B transition.
+C06	coherent_common_scale_changes	A01	object_and_arrow_type	COMMON_SCALE_PRESENTATION_ONLY	Objects differ by consistent positive scalar basis choices.
+C06	coherent_common_scale_changes	A02	metric_derivation_ownership	COMMON_SCALE_PRESENTATION_ONLY	No new metric structure or physics is introduced.
+C06	coherent_common_scale_changes	A03	overlap_existence	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	The underlying overlap remains unchanged.
+C06	coherent_common_scale_changes	A04	jacobian_chain	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Endpoint scale factors telescope in the chain.
+C06	coherent_common_scale_changes	A05	metric_pullback_compatibility	COMMON_SCALE_PRESENTATION_ONLY	Metric components transform covariantly with the bases.
+C06	coherent_common_scale_changes	A06	middle_calibration_identification	COMMON_SCALE_PRESENTATION_ONLY	The same B scale appears inversely on its two incident arrows.
+C06	coherent_common_scale_changes	A07	common_scale_and_reciprocal_reset	COMMON_SCALE_PRESENTATION_ONLY	The complete triangle product is unchanged by scalar conjugation.
+C06	coherent_common_scale_changes	A08	angular_mixing_retention	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Scalar changes do not zero existing mixing entries.
+C06	coherent_common_scale_changes	A09	terminal_depth_and_scalar_projection	COMMON_SCALE_PRESENTATION_ONLY	The terminal reciprocal ratio cancels common clock/ruler scale.
+C06	coherent_common_scale_changes	A10	triple_or_loop_obstruction	COMMON_SCALE_PRESENTATION_ONLY	No obstruction is manufactured by coherent common scale.
+C06	coherent_common_scale_changes	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Frame exchange respects the cancellation.
+C06	coherent_common_scale_changes	A12	maximum_justified_landing	COMMON_SCALE_PRESENTATION_ONLY	This case is presentation, not an ownership law.
+C07	coherent_reciprocal_frame_changes	A01	object_and_arrow_type	COHERENT_RECIPROCAL_GAUGE_PRESENTATION_ONLY	This case changes the declared basis of an already supplied calibration local system coherently.
+C07	coherent_reciprocal_frame_changes	A02	metric_derivation_ownership	COHERENT_RECIPROCAL_GAUGE_PRESENTATION_ONLY	It is not a claim that physical reciprocal refactorization of a tape is gauge.
+C07	coherent_reciprocal_frame_changes	A03	overlap_existence	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	The same underlying overlap remains.
+C07	coherent_reciprocal_frame_changes	A04	jacobian_chain	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	The B reciprocal basis change cancels between adjacent arrows.
+C07	coherent_reciprocal_frame_changes	A05	metric_pullback_compatibility	COHERENT_RECIPROCAL_GAUGE_PRESENTATION_ONLY	Pullback components change covariantly while geometry is fixed.
+C07	coherent_reciprocal_frame_changes	A06	middle_calibration_identification	COHERENT_RECIPROCAL_GAUGE_PRESENTATION_ONLY	One B trivialization is used on both incident edges.
+C07	coherent_reciprocal_frame_changes	A07	common_scale_and_reciprocal_reset	COHERENT_RECIPROCAL_GAUGE_PRESENTATION_ONLY	Triangle identity is invariant; nonidentity obstruction changes by conjugation.
+C07	coherent_reciprocal_frame_changes	A08	angular_mixing_retention	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Full off-diagonal data remain in the conjugated matrices.
+C07	coherent_reciprocal_frame_changes	A09	terminal_depth_and_scalar_projection	SCALAR_PROJECTION_NOT_OWNED	Local scalar coordinates can shift by a coboundary; periods/closure are invariant.
+C07	coherent_reciprocal_frame_changes	A10	triple_or_loop_obstruction	COHERENT_RECIPROCAL_GAUGE_PRESENTATION_ONLY	A coherent zero-cochain cannot remove genuine holonomy.
+C07	coherent_reciprocal_frame_changes	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Exchange maps the conjugacy class covariantly.
+C07	coherent_reciprocal_frame_changes	A12	maximum_justified_landing	COHERENT_RECIPROCAL_GAUGE_PRESENTATION_ONLY	Only coherent presentation freedom is removed; physical resets remain typed.
+C08	complete_mixing_overlap	A01	object_and_arrow_type	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Arrows are full regular overlap Jacobians with nonzero mixing blocks.
+C08	complete_mixing_overlap	A02	metric_derivation_ownership	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	The metric supplies their entries only after the complete maps are supplied/derived from queries.
+C08	complete_mixing_overlap	A03	overlap_existence	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Regular invertible overlaps are declared.
+C08	complete_mixing_overlap	A04	jacobian_chain	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Matrix composition retains mixing and is associative.
+C08	complete_mixing_overlap	A05	metric_pullback_compatibility	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Full pullback compatibility is checked without block projection.
+C08	complete_mixing_overlap	A06	middle_calibration_identification	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	The complete B transition, not a diagonal quotient, identifies states.
+C08	complete_mixing_overlap	A07	common_scale_and_reciprocal_reset	COHERENT_RECIPROCAL_GAUGE_PRESENTATION_ONLY	Coherent basis changes conjugate the complete obstruction.
+C08	complete_mixing_overlap	A08	angular_mixing_retention	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Exact witnesses retain nonzero off-diagonal products.
+C08	complete_mixing_overlap	A09	terminal_depth_and_scalar_projection	SCALAR_PROJECTION_NOT_OWNED	No character on arbitrary full mixing is silently selected.
+C08	complete_mixing_overlap	A10	triple_or_loop_obstruction	TRIPLE_OVERLAP_OBSTRUCTION_NONTRIVIAL	A nonidentity complete product can survive even when every edge is metric-compatible.
+C08	complete_mixing_overlap	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Reversal gives inverse/conjugate obstruction.
+C08	complete_mixing_overlap	A12	maximum_justified_landing	SCALAR_PROJECTION_NOT_OWNED	Complete matrix carry is stronger than and does not select scalar depth.
+C09	branch_labelled_cut_locus	A01	object_and_arrow_type	BRANCH_LABEL_REQUIRED	Objects include explicit path/cut-locus branch labels.
+C09	branch_labelled_cut_locus	A02	metric_derivation_ownership	BRANCH_LABEL_REQUIRED	The metric supplies the branch relation after the query, not a preferred member.
+C09	branch_labelled_cut_locus	A03	overlap_existence	BRANCH_LABEL_REQUIRED	Overlap is branchwise and may be multivalued globally.
+C09	branch_labelled_cut_locus	A04	jacobian_chain	BRANCH_LABEL_REQUIRED	Composition is defined only for compatible concatenated labels.
+C09	branch_labelled_cut_locus	A05	metric_pullback_compatibility	BRANCH_LABEL_REQUIRED	Each regular branch has its own pullback compatibility test.
+C09	branch_labelled_cut_locus	A06	middle_calibration_identification	BRANCH_LABEL_REQUIRED	The B state includes the incoming and outgoing branch data.
+C09	branch_labelled_cut_locus	A07	common_scale_and_reciprocal_reset	COHERENT_RECIPROCAL_GAUGE_PRESENTATION_ONLY	Coherent frame changes do not collapse branch labels.
+C09	branch_labelled_cut_locus	A08	angular_mixing_retention	BRANCH_LABEL_REQUIRED	Mixing is retained separately on every branch.
+C09	branch_labelled_cut_locus	A09	terminal_depth_and_scalar_projection	SCALAR_PROJECTION_NOT_OWNED	Branchwise terminal depths need not descend to one endpoint scalar.
+C09	branch_labelled_cut_locus	A10	triple_or_loop_obstruction	BRANCH_LABEL_REQUIRED	Different triangle paths can legitimately define different arrows/holonomy.
+C09	branch_labelled_cut_locus	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Reciprocity reverses branch labels rather than selecting one.
+C09	branch_labelled_cut_locus	A12	maximum_justified_landing	BRANCH_LABEL_REQUIRED	The honest output is a branch-labelled relation.
+C10	nontrivial_closed_loop	A01	object_and_arrow_type	LOOP_HOLONOMY_NONTRIVIAL	A loop is a composable sequence based at one calibrated object.
+C10	nontrivial_closed_loop	A02	metric_derivation_ownership	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	The metric does not select a loop transport without the relation family.
+C10	nontrivial_closed_loop	A03	overlap_existence	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Every adjacent overlap is supplied on the loop.
+C10	nontrivial_closed_loop	A04	jacobian_chain	ASSOCIATIVE_CARRY_DERIVED_FOR_GENUINE_COMMON_ATLAS	Rebracketing the ordered loop product changes nothing.
+C10	nontrivial_closed_loop	A05	metric_pullback_compatibility	LOOP_HOLONOMY_NONTRIVIAL	Metric-compatible path transports may have nonidentity isometric holonomy.
+C10	nontrivial_closed_loop	A06	middle_calibration_identification	SUPPLIED_TRANSITION_CLOSES_CARRY_CONDITIONALLY	Every intermediate state must be matched or explicitly bridged.
+C10	nontrivial_closed_loop	A07	common_scale_and_reciprocal_reset	COHERENT_RECIPROCAL_GAUGE_PRESENTATION_ONLY	A base-frame change conjugates loop holonomy.
+C10	nontrivial_closed_loop	A08	angular_mixing_retention	LOOP_HOLONOMY_NONTRIVIAL	Mixing can be part of the nonabelian holonomy.
+C10	nontrivial_closed_loop	A09	terminal_depth_and_scalar_projection	SCALAR_PROJECTION_NOT_OWNED	A scalar period exists only for an owned character/local system.
+C10	nontrivial_closed_loop	A10	triple_or_loop_obstruction	LOOP_HOLONOMY_NONTRIVIAL	Exact witnesses show nonidentity loop products are compatible with associativity.
+C10	nontrivial_closed_loop	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Loop reversal gives inverse holonomy, not forced identity.
+C10	nontrivial_closed_loop	A12	maximum_justified_landing	LOOP_HOLONOMY_NONTRIVIAL	Nontrivial holonomy is allowed on path-labelled arrows; it is not a Cech-chart cocycle.
+C11	seam_or_partial_overlap	A01	object_and_arrow_type	PARTIAL_OVERLAP_ONLY	The common object is a lower-dimensional seam rather than an open pair cell.
+C11	seam_or_partial_overlap	A02	metric_derivation_ownership	PARTIAL_OVERLAP_ONLY	The metric supplies induced seam data but not missing transverse calibration.
+C11	seam_or_partial_overlap	A03	overlap_existence	PARTIAL_OVERLAP_ONLY	No invertible two-dimensional overlap map exists.
+C11	seam_or_partial_overlap	A04	jacobian_chain	PARTIAL_OVERLAP_ONLY	Only the tangent seam chain can be formed.
+C11	seam_or_partial_overlap	A05	metric_pullback_compatibility	PARTIAL_OVERLAP_ONLY	Induced seam metric agreement is weaker than full pair-metric descent.
+C11	seam_or_partial_overlap	A06	middle_calibration_identification	MIDDLE_CALIBRATION_MISMATCH_SURVIVES	Transverse clock/ruler identification remains unowned.
+C11	seam_or_partial_overlap	A07	common_scale_and_reciprocal_reset	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	Scale/reset classification needs the missing transverse state.
+C11	seam_or_partial_overlap	A08	angular_mixing_retention	PARTIAL_OVERLAP_ONLY	Some angular/mixing components are not visible on the seam.
+C11	seam_or_partial_overlap	A09	terminal_depth_and_scalar_projection	SCALAR_PROJECTION_NOT_OWNED	A full reciprocal density cannot be inferred from seam data alone.
+C11	seam_or_partial_overlap	A10	triple_or_loop_obstruction	PARTIAL_OVERLAP_ONLY	No full triple obstruction is defined.
+C11	seam_or_partial_overlap	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Seam reversal does not complete the missing data.
+C11	seam_or_partial_overlap	A12	maximum_justified_landing	PARTIAL_OVERLAP_ONLY	The case remains a partial compatibility stratum.
+C12	null_degenerate_or_missing_overlap	A01	object_and_arrow_type	DEGENERATE_OR_UNDEFINED	The regular calibration-arrow type fails or the required overlap is absent.
+C12	null_degenerate_or_missing_overlap	A02	metric_derivation_ownership	DEGENERATE_OR_UNDEFINED	The metric identifies the degeneration but supplies no inverse Jacobian there.
+C12	null_degenerate_or_missing_overlap	A03	overlap_existence	DEGENERATE_OR_UNDEFINED	No regular open triple overlap is available in at least one subcase.
+C12	null_degenerate_or_missing_overlap	A04	jacobian_chain	DEGENERATE_OR_UNDEFINED	The full transition chain or obstruction inverse is undefined.
+C12	null_degenerate_or_missing_overlap	A05	metric_pullback_compatibility	DEGENERATE_OR_UNDEFINED	Pullback metrics may be null/rank-deficient or live on disjoint domains.
+C12	null_degenerate_or_missing_overlap	A06	middle_calibration_identification	MIDDLE_CALIBRATION_MISMATCH_SURVIVES	A missing regular state cannot be identified by normalization.
+C12	null_degenerate_or_missing_overlap	A07	common_scale_and_reciprocal_reset	OPEN_NOT_DECIDED_BY_SUPPLIED_DATA	No gauge statement repairs rank loss or absent overlap.
+C12	null_degenerate_or_missing_overlap	A08	angular_mixing_retention	DEGENERATE_OR_UNDEFINED	Full mixing data may lose rank and cannot be projected away.
+C12	null_degenerate_or_missing_overlap	A09	terminal_depth_and_scalar_projection	DEGENERATE_OR_UNDEFINED	The terminal logarithmic readout diverges/fails on null or degenerate pair cells.
+C12	null_degenerate_or_missing_overlap	A10	triple_or_loop_obstruction	DEGENERATE_OR_UNDEFINED	No full triangle/loop obstruction is defined without invertible arrows.
+C12	null_degenerate_or_missing_overlap	A11	reversal_and_frame_reciprocity	RECIPROCITY_COVARIANT_NOT_SELECTOR	Reciprocity maps failure strata but does not regularize them.
+C12	null_degenerate_or_missing_overlap	A12	maximum_justified_landing	DEGENERATE_OR_UNDEFINED	Regular local branches survive separately; no global conclusion follows here.

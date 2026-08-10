@@ -6,7 +6,7 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION (the native-resonator / precision-anchor program); founding pair-relation semantics VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION (the native-resonator / precision-anchor program); three-observer carry VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
@@ -163,11 +163,22 @@ reciprocal `c_E` performs the terminal readout. `c_E` fixes local units, not sim
 branch. Frame Reciprocity is a covariance/reversal/composition gate, not an existence selector.
 Both controllers pass 51/51 and fresh external `gpt-5.4` review required no load-bearing correction.
 
-**NEXT GATE (not launched):** three-observer overlap and calibration carry. On supplied compatible
-`A-B`, `B-C`, and `A-C` pair relations, determine whether the complete overlap Jacobians already
-provide an associative middle transition or expose a precise triple-overlap/loop obstruction. Do
-not invent a preferred congruence, connection, action, or scalar field. No eigenvalue solve is
-presently authorized.
+**THREE-OBSERVER OVERLAP AND CALIBRATION CARRY — COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md` first. Carry is
+associative on already matched enriched query states; this is ordinary typed composition, not a
+new physical law. A genuine common pair atlas has identity triangle obstruction. Independently
+rebuilt pair surfaces require an explicit middle transition, and a direct `A-C` relation need not
+equal the `A-B-C` composite: that is Cech descent/path independence, while a path-labelled
+nonidentity loop can be legitimate holonomy. Physical ownership of one global relation family and
+any scalar reciprocal reduction remain OPEN. Exact controller 53/53; independent Fraction algebra
+52/52, with the 144-cell semantic atlas spot-checked rather than fully independently reconstructed;
+fresh manifest-confined external review found no substantive error.
+
+**NEXT GATE (not launched):** classify global relation-family ownership on already mapped complete
+metric branches: common atlas, owned path/branch groupoid, stratified mixture, or no complete
+family. Preserve angular/mixing transitions and branch labels. Do not demand path independence,
+zero holonomy, a global pointwise `phi`, or a desired cosmology. No eigenvalue solve is presently
+authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.
@@ -226,6 +237,8 @@ catalogs). The candidate resolutions R1 (asymptotic thermalization) / R2 (emerge
 blackbody live in the scale MAP.
 
 **RESUME PATH (new instance):** THIS block →
+`udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md` →
+`udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md` →
 `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md` →
 `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md` →
 `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md` →

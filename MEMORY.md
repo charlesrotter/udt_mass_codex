@@ -4,15 +4,20 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; founding pair-relation ownership complete)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; three-observer carry complete)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`: matched enriched
+arrows compose associatively; direct `A-C` equals `A-B-C` only under the separate Cech descent/path
+independence condition; distinct B states require an explicit middle transition; and path-labelled
+loops may carry nontrivial holonomy. Physical global relation-family ownership and scalar
+reciprocal reduction remain open. Its founding semantic parent is
 `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`: the foundation
 derives the reciprocal character on supplied ordered depth; a complete calibrated observer query
-is a conditional enrichment; `c_E` calibrates rather than selecting the relation; and associative
-middle carry remains open. Its pair-map parent is
+is a conditional enrichment; and `c_E` calibrates rather than selecting the relation. Its pair-map
+parent is
 `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`: six pair-map families and all 66
 registered cells are classified. The metric supplies a local orthogonal exponential tube after a
 full declared observer query and regular branch, but no universal tape from bare endpoints. The
@@ -55,8 +60,9 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is the bounded three-observer overlap and calibration-carry audit,
-without inventing a preferred congruence, connection, action, or new scalar field. No profile
+Nothing is in flight. NEXT is the bounded global relation-family ownership classification on
+already mapped complete metric branches, without inventing a preferred congruence, connection,
+action, scalar field, or zero-holonomy demand. No profile
 repair, inner cutoff, eigenvalue solve, or FD2 is
 authorized. Do not promote C1, select `k0`, select the best standalone ladder, or invent source
 weights.

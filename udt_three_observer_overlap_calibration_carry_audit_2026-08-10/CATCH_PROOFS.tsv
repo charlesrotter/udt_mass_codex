@@ -1,0 +1,11 @@
+catch_id	mutated_or_control_condition	expected_result	implementation
+C01	multiply overlap Jacobians in the wrong order	FAIL_RED	independent
+C02	omit required middle transition between distinct B states	FAIL_RED	production_and_independent
+C03	insert unmatched reciprocal reset but call the triangle closed	FAIL_RED	production_and_independent
+C04	replace full mixing matrices by diagonal shortcuts	FAIL_RED	production_and_independent
+C05	claim pairwise metric compatibility forces Cech closure	FAIL_RED	production_and_independent
+C06	invert a rank-deficient overlap	FAIL_RED	production_and_independent
+C07	conflate associativity with direct-equals-composite	FAIL_RED	independent_semantic_spot_check
+C08	remove a frozen source or alter its bytes	FAIL_RED	production_and_independent
+C09	true common-atlas chain with complete matrices	PASS_GREEN	production_and_independent
+C10	nontrivial metric-compatible path holonomy	PASS_GREEN	production_and_independent

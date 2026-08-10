@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
     "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
     "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
@@ -65,7 +66,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 39 premise guards" in result.stdout
+    assert "PASS: 40 premise guards" in result.stdout
 
 
 def test_catch_missing_live_premise_pointer(tmp_path: Path) -> None:
@@ -125,6 +126,17 @@ def test_catch_missing_founding_pair_relation_route(tmp_path: Path) -> None:
         "FOUNDING_PAIR_RELATION_REPORT_REMOVED.md",
     )
     with pytest.raises(SystemExit, match="founding_pair_relation_functor_ownership|current startup target"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_three_observer_overlap_route(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "LIVE.md",
+        "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
+        "THREE_OBSERVER_OVERLAP_REPORT_REMOVED.md",
+    )
+    with pytest.raises(SystemExit, match="three_observer_overlap_calibration_carry|current startup target"):
         premise_guard.validate_startup_surface(root)
 
 
