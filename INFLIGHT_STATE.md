@@ -1,7 +1,9 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-10 STATUS (RESTART ANCHOR): R17 COMPLETE PATH-LABELLED CONNECTION COMPLETE.** ACTIVE ARC = CMB PEAK
+> **2026-08-10 STATUS (RESTART ANCHOR): R17 DEPTH/NORMAL-HOLONOMY JOINT COMPLETE.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-10) FIRST, then
+> `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -76,8 +78,11 @@
 > `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md` derives
 > horizontality iff constant `phi`, explicit flat/integer-descent loci, no regular canonical Hopf-
 > tangent descent, and trivial/full-`SO(2)` complete holonomy. Actual C01--C06 remain generic full-
-> `SO(2)` and manifest-backed R17 sources select no special locus. NEXT, not launched, is the
-> generic endpoint-depth/path-holonomy joint-invariant and composition audit; no
+> `SO(2)` and manifest-backed R17 sources select no special locus. Its completed joint audit derives
+> the exact typed depth/normal-isometry product groupoid, the local order-zero real-character
+> classification, and surviving loop/relative-path holonomy without selecting a physical path or
+> arrow. NEXT, not launched, is the invariant local one-form/transgression classification in the
+> full compatible stationary R17 jet space; no
 > profile repair, inner cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build

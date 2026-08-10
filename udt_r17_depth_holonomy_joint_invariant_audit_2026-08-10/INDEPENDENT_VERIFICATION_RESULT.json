@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "C08_zero_depth_nonzero_angular_curvature": true,
+    "CO2_determinant_200": true,
+    "all_candidates_classified": true,
+    "candidate_universe_exact_12": true,
+    "character_atlas_three_targets": true,
+    "complex_joint_composition_200": true,
+    "complex_joint_inversion_200": true,
+    "gauge_atlas_four_queries": true,
+    "general_one_form_nonzero_loop_control_not_R17_witness": true,
+    "independent_endpoint_gauge_covariance_200": true,
+    "loop_depth_zero_200": true,
+    "one_form_atlas_four_families": true,
+    "open_path_phase_gauge_action_transitive_100": true,
+    "real_angular_character_periodicity_control": true,
+    "relative_holonomy_gauge_cancellation_200": true,
+    "screen_vector_covector_weights_200": true
+  },
+  "failed": [],
+  "method": "INDEPENDENT_STDLIB_COMPLEX_GROUP_AND_PATH_CONTROLS",
+  "passed": 16,
+  "schema_version": 1,
+  "status": "PASS",
+  "total": 16
+}

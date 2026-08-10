@@ -414,6 +414,22 @@ is supporting local evidence, not an independently reviewed repo-wide ownership 
 promote a flat or integer-descent locus, erase the generic angular carry, claim the period was
 rederived, or generalize beyond the declared stationary regular completion.
 
+The completed joint-invariant audit,
+`udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, now refines that gate.
+On supplied paths, endpoint depth `delta_K` and metric-projected normal transport form an exact
+product-groupoid arrow. Globally the angular factor maps between different normal fibers; only
+chosen endpoint frames represent it as one `SO(2)` matrix. The complete coframe fixes the
+reference-vector/reference-coframe conformal screen weights to `-lambda/+lambda`, but this is a
+screen representation rather than the complete physical observer arrow. Independent endpoint
+screen gauges erase every nonconstant order-zero angular scalar on one unframed open path. Loops
+and two-path relative holonomy survive. The unique normalized continuous real character factoring
+through the local order-zero `R x SO(2)` model is `delta_K`; this is not a theorem about arbitrary
+path-groupoid cocycles or derivative-dependent line integrals. The C08 control proves that zero
+endpoint depth does not determine angular holonomy. No stationary R17-owned endpoint-frame-
+invariant non-exact scalar one-form independent of `dphi` has yet been derived. Do not call the
+general rectangle control an R17 solution witness, select a higher-jet one-form, or promote this
+screen functor to a physical path/arrow or universal mixed-geometry `c_eff`.
+
 Do not
 promote the conditional
 local query enrichment into a universally founded physical functor, call ordering a unique arrow,

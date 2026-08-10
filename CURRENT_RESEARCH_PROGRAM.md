@@ -102,9 +102,14 @@ base-descended. Its completed follow-up,
 `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, proves global
 horizontality iff constant `phi`, explicitly classifies flat and abstract descent loci, excludes
 regular canonical Hopf-tangent descent at nonzero twist, and leaves actual C01--C06 in the generic
-full-`SO(2)` class. Manifest-backed R17 sources select no special locus. The new NEXT gate is the
-generic joint invariant and composition structure of endpoint reciprocal depth plus path-labelled
-normal holonomy. Cross-leaf base-path choice and the complete physical arrow remain open.
+full-`SO(2)` class. Manifest-backed R17 sources select no special locus. Its completed follow-up,
+`udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, derives the exact typed
+product-groupoid join of endpoint depth with path-labelled normal transport, the complete-coframe
+screen weights, the absence of an additional order-zero real angular scalar on one unframed open
+path, and the survival of loop/relative-path holonomy. Cross-leaf base-path choice, the physical
+arrow, and any stationary R17-owned non-exact higher-jet scalar one-form remain open. The new NEXT
+gate is the invariant local one-form/transgression classification in the full compatible stationary
+R17 jet space.
 No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the

@@ -1,0 +1,5 @@
+family	example	composition	path_dependence	selection
+dphi	alpha=dphi	EXACT	NONE	DERIVED_delta_K
+even_curvature_weighted	alpha=I(F,g,E,H)*dphi	EXACT	IF_dI_wedge_dphi_NONZERO__NOT_SHOWN_ON_STATIONARY_R17	UNSELECTED_CONSTRUCTION_FAMILY
+orientation_odd	alpha=i_gradphi_F	EXACT	REQUIRES_SEPARATE_R17_TYPE_AND_NONEXACTNESS_CHECK	REQUIRES_ORIENTATION_LOCAL_SYSTEM
+exact_invariant_coboundary	alpha=dH(phi,curvature_invariants)	EXACT	NONE	INFINITE_ENDPOINT_POTENTIAL_FAMILY

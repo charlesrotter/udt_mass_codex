@@ -6,7 +6,7 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 stationary connection subloci VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 depth/holonomy joint VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
@@ -293,12 +293,24 @@ special locus. The broader repository census is supporting local evidence, not a
 reviewed repo-wide theorem. External `gpt-5.4` returned `VERIFIED_WITH_CORRECTIONS`; that evidence-
 fence correction is incorporated.
 
-**NEXT GATE (not launched):** on the generic full-`SO(2)` stationary R17 family, classify the
-gauge-invariant joint data formed by intrinsic endpoint reciprocal depth and path-labelled normal
-holonomy, and test whether the complete metric supplies a composition law between them without
-choosing a path, action, source, or desired endpoint rule. Do not promote a flat or integer-descent
-locus, select a leaf/winding/reset/branch/`lambda`, erase holonomy, or infer a semidirect physical
-arrow, bootstrap law, or universal mixed-geometry `c_eff`.
+**R17 DEPTH/NORMAL-HOLONOMY JOINT-INVARIANT AUDIT — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md` first. On supplied paths,
+endpoint reciprocal depth and normal isometric transport form an exact product-groupoid arrow,
+locally represented as `R x SO(2)` only after endpoint frames are chosen. The complete coframe fixes
+the reference-vector/reference-coframe screen weights to `-lambda/+lambda`. One unframed open path
+has no additional nonconstant order-zero real angular scalar; loops and two-path relative holonomy
+survive. The unique normalized continuous real character factoring through the local order-zero
+model is `delta_K`. C08 proves zero endpoint depth does not determine angular holonomy. Fresh
+external `gpt-5.4` review returned `VERIFIED_WITH_CORRECTIONS`; global groupoid typing and the
+higher-jet scope are incorporated. This does not select a physical path, observer arrow, branch,
+`lambda`, universal mixed-geometry `c_eff`, or stationary non-exact higher-jet scalar one-form.
+
+**NEXT GATE (not launched):** classify invariant local one-forms/transgressions in the full
+compatible stationary R17 jet space. Ask whether metric algebra selects any member beyond `dphi`,
+or proves that selection requires an on-shell/global-completion rule. This is a naturality/rank
+classification, not a search for a useful formula. Do not integrate a favorite one-form, choose a
+path/branch/`lambda`, introduce an action/source/bootstrap weight, or infer a universal `c_eff`.
 R18 ruler completion remains the parallel fork. No eigenvalue solve is authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.

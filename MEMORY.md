@@ -4,11 +4,20 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; R17 stationary subloci verified)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; R17 depth/holonomy joint verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`: on supplied regular
+stationary R17 paths, endpoint reciprocal depth and normal transport form an exact typed
+product-groupoid arrow, locally represented by `R x SO(2)` only after endpoint frames are chosen.
+The complete coframe fixes screen weights by variance. One unframed open path has no additional
+nonconstant order-zero real angular scalar; loops and two-path relative holonomy survive. The
+unique normalized continuous real character factoring through the local order-zero model is
+`delta_K`. C08 proves zero endpoint depth does not determine angular holonomy. External review
+returned `VERIFIED_WITH_CORRECTIONS`. Physical path/arrow and stationary non-exact higher-jet
+scalar ownership remain open. Its parent is
 `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`: on the
 supplied regular stationary R17 family, curvature horizontality holds iff `phi` is constant;
 constant-profile flat and integer-descent loci are explicit; canonical Hopf-tangent descent has no
@@ -101,11 +110,12 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is the bounded generic full-`SO(2)` classification of joint endpoint
-reciprocal depth and path-labelled normal holonomy data, followed by a test for a metric-owned
-composition law. Keep path labels, holonomy, branch/on-shell ownership, and the physical non-
-isometric arrow separate. Do not select a path, winding, reset, branch, semidirect physical arrow, action,
-bootstrap law, or universal `c_eff`. No profile repair, inner
+Nothing is in flight. NEXT is the bounded invariant local one-form/transgression classification in
+the full compatible stationary R17 jet space. Determine whether metric algebra selects anything
+beyond `dphi`, or whether an on-shell/global-completion rule is required. Keep path labels,
+holonomy, branch/on-shell ownership, and the physical non-isometric arrow separate. Do not select a
+favorite one-form, path, winding, reset, branch, action, bootstrap weight, or universal `c_eff`.
+No profile repair, inner
 cutoff, eigenvalue solve, or FD2 is
 authorized. Do not promote C1, select `k0`, select the best standalone ladder, or invent source
 weights.

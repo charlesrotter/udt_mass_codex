@@ -3,11 +3,13 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`; it
-classifies the stationary flat, abstract descent, canonical Hopf, and complete-holonomy subloci.
-Actual C01--C06 witnesses remain generic full-`SO(2)`, and no manifest-backed R17 authority selects
-a special locus. Path choice and the physical non-isometric arrow remain open. The next gate is the
-generic endpoint-depth/path-holonomy joint-invariant and composition audit. Its complete-
+gate is `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`; it derives the
+exact typed product-groupoid join of endpoint reciprocal depth and supplied-path normal carry,
+classifies the local order-zero real scalar shadow, and retains loop/relative-path holonomy. It does
+not select the physical path/arrow or stationary non-exact higher-jet scalar owner. The next gate is
+the invariant local one-form/transgression classification in the complete compatible stationary
+R17 jet space. Its stationary-sublocus parent is
+`udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`; its complete-
 connection parent is `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`;
 its leafwise connection parent is
 `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`. Its foliation parent is

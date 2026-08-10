@@ -76,9 +76,13 @@ complete four-direction projected connection, all six curvature planes, and exac
 isometric carry. Its completed follow-up,
 `../udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, classifies
 the flat, integer-descent, canonical-Hopf, and complete-holonomy subloci. Actual C01--C06 witnesses
-are generic full-`SO(2)`, and no manifest-backed R17 authority selects a special locus. Path choice
-and the physical arrow remain open; next is the generic endpoint-depth/path-holonomy joint-
-invariant audit. Parent source:
+are generic full-`SO(2)`, and no manifest-backed R17 authority selects a special locus. Its
+completed follow-up,
+`../udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, derives the exact
+typed product-groupoid join of endpoint depth and normal carry, with no extra order-zero real
+angular scalar on one unframed open path and with loop/relative-path holonomy retained. Path choice,
+the physical arrow, and stationary higher-jet scalar ownership remain open; next is the invariant
+local one-form/transgression classification. Parent source:
 `../udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`. No eigensolve, profile
 repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a

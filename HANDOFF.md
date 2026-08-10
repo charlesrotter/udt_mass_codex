@@ -201,10 +201,20 @@ selected by the manifest-backed current authority and included core R17 sources.
 census is supporting local evidence only. External review accepted all mathematics and required
 that evidence-fence correction.
 
-**NEXT GATE, not launched:** classify the gauge-invariant joint endpoint-depth/path-holonomy data
-on generic full-`SO(2)` stationary R17 and test for a metric-owned composition law. Do not choose a
-path, leaf, winding, reset, branch, `lambda`, semidirect physical arrow, bootstrap law, or universal
-`c_eff`. R18 ruler completion remains the parallel fork. C1 remains unselected;
+**R17 DEPTH/NORMAL-HOLONOMY JOINT AUDIT = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`. Endpoint depth and
+normal transport form an exact product-groupoid arrow on supplied paths, locally `R x SO(2)` after
+endpoint frames are chosen. The complete coframe fixes screen weights by variance; open-path
+endpoint gauge removes any additional nonconstant order-zero real angular scalar, while loop and
+relative-path holonomy survive. The unique normalized continuous real order-zero character is
+`delta_K`. External review accepted the result after the global-type and higher-jet scope
+corrections. Physical path/query, full observer arrow, and stationary non-exact higher-jet scalar
+ownership remain open.
+
+**NEXT GATE, not launched:** classify invariant local one-forms/transgressions in the complete
+compatible stationary R17 jet space, without choosing one or importing an on-shell/global rule.
+Do not choose a path, leaf, winding, reset, branch, `lambda`, physical arrow, bootstrap weight, or
+universal `c_eff`. R18 ruler completion remains the parallel fork. C1 remains unselected;
 FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The
 parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.
 

@@ -6,11 +6,13 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
-`udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`: conditional on
-the supplied regular stationary R17 C01--C06 coframes, the metric projects a normal connection in
-all four directions, derives all six curvature planes, and gives exact isometric carry after a
-path is supplied. It does not select the path, generically descend to the Hopf base, or supply the
-physical non-isometric observer arrow. The full corrected FD1 atlas is banked at
+`udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`: on supplied regular
+stationary R17 paths, endpoint depth and normal isometric carry form an exact product-groupoid
+arrow, locally represented by `R x SO(2)` only after endpoint frames are chosen. The complete
+coframe fixes the screen weights by variance; the only normalized continuous real character in
+the local order-zero class is `delta_K`, while loop and relative-path holonomy survive. It does not
+select a physical path/arrow or stationary non-exact higher-jet scalar one-form. The full corrected
+FD1 atlas is banked at
 `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`; the old same-index multiplet
 window is withdrawn. Its complete-angular interpretation is now controlled by
 `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`: the equatorial roots do not
@@ -75,8 +77,9 @@ leafwise normal connection and representative-free loop data. Flat `lambda=-1` a
 complete connection/curvature decomposition and supplied-path functor. Its completed follow-up,
 `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, classifies
 every stationary flat/descent/holonomy sublocus: actual C01--C06 witnesses remain generic full-
-`SO(2)` and no manifest-backed R17 source selects a special locus. Next is the generic endpoint-
-depth/path-holonomy joint-invariant audit. No eigenvalue solve is authorized.
+`SO(2)` and no manifest-backed R17 source selects a special locus. Its completed joint-invariant
+follow-up is the current checkpoint above. Next is the invariant local one-form/transgression
+classification in the full compatible stationary R17 jet space. No eigenvalue solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
 After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
@@ -85,7 +88,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
+5. `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then

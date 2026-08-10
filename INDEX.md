@@ -10,6 +10,8 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -79,8 +81,12 @@
    horizontality iff constant `phi`, gives the exact flat and integer-descent loci, excludes regular
    nonzero-twist canonical Hopf-tangent descent, and classifies complete holonomy as trivial or full
    `SO(2)`. The supplied C01--C06 witnesses are generic full-`SO(2)`; manifest-backed R17 authority
-   selects no special locus. Next is the generic endpoint-depth/path-holonomy joint-invariant and
-   composition audit. No
+   selects no special locus. The completed joint-invariant follow-up derives the exact typed
+   depth/normal-isometry product groupoid on supplied paths, the local order-zero real-character
+   no-go for extra open-path angular scalars, and the survival of loop/relative-path holonomy. It
+   does not select the physical path/arrow or a stationary non-exact higher-jet scalar one-form.
+   Next is the invariant local one-form/transgression classification in the complete compatible
+   stationary R17 jet space. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
@@ -93,6 +99,11 @@
 
 ## Current scientific routing
 
+- `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md` — current gate:
+  endpoint depth and normal isometric carry form an exact product-groupoid arrow on supplied paths;
+  locally `R x SO(2)` only after endpoint frames are chosen. The only normalized continuous real
+  character in the local order-zero class is `delta_K`; loop and relative-path holonomy remain.
+  Physical path/arrow and stationary higher-jet scalar selection remain open.
 - `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md` — current
   gate: the complete projected normal connection, all six curvature planes, and the isometric
   supplied-path functor are derived on the regular stationary C01--C06 family. Path choice,

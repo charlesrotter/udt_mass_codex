@@ -1,0 +1,4 @@
+target	general_continuous_character	angular_coefficient	normalization_effect	status
+R_additive	a_delta	ZERO	a=1	UNIQUE_delta_IN_DECLARED_CLASS
+U1	exp(i(k_delta+n_theta))	n_in_Z	does_not_select_n	FAMILY_NOT_REAL_DEPTH
+R_universal_cover_angle	a_delta+b_tilde_theta	b_REAL	requires_lift	CONDITIONAL_NOT_REPRESENTATIVE_FREE
