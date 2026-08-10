@@ -18,7 +18,18 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = ORDERED OBSERVER-QUERY PROJECTION OWNERSHIP COMPLETE,
+**LATEST GATE = MULTI-REGIME PAIR-RELATION ADMISSIBILITY COMPLETE,
+`VERIFIED-WITH-CORRECTIONS`.** Start with
+`udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`. The complete pinned
+24-by-6 atlas yields 11 mathematical apparatus patterns, five narrowly owned global relation
+types, and one full conditional panel at R17. No branch owns the complete physical pair relation,
+physical non-isometric arrow, optional selector, or physical regime map. External review corrected
+aggregate R04: it owns member-dependence, not one inherited panel; its M01-M05 and A02-A06 cells are
+`INSUFFICIENT_EVIDENCE`. NEXT: choose among time-live/on-shell, global descent, bootstrap closure,
+or an explicit premise. Do not label the apparatus patterns as physical regimes or repeat the same
+pinned census as though it could create the missing owner.
+
+**PRECEDING GATE = ORDERED OBSERVER-QUERY PROJECTION OWNERSHIP COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Start with
 `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`. Once a complete
 calibrated observer query supplies the regular pair relation, the realized founding reciprocal
@@ -26,10 +37,9 @@ projection has one unique normalized continuous real character on the matched tw
 `Delta_phi`. External `gpt-5.4` returned
 `FOUNDED_PROJECTION_ONLY_REALIZATION_CONDITIONAL`. Bare endpoints still do not supply the pair
 relation. `kappa`, `beta`, `U_gamma`, and phi+orchestra remain retained in their separate types;
-broader endpoint/path measurements survive but are not founding-owned. NEXT: audit whether any
-already-banked branch-local or global-completion relation adds physical ownership of the
-calibrated pair relation or optional measurement policy. Do not invent a path, regime switch,
-conductor, action, source, bootstrap closure, or universal mixed `c_eff`.
+broader endpoint/path measurements survive but are not founding-owned. Its branch-local/global-
+completion census is now completed by G55 above. Do not invent a path, regime switch, conductor,
+action, source, bootstrap closure, or universal mixed `c_eff`.
 
 **PRECEDING GATE = MULTI-CHANNEL OBSERVER-RELATION ASSEMBLY COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Start with

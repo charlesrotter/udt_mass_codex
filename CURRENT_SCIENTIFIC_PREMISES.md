@@ -9,7 +9,20 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G54 refinement
+## Current G55 refinement
+
+`udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md` controls the current
+branch-admissibility gate. The complete pinned 24-branch by six-measurement census yields 11
+mathematical apparatus patterns. Five global-completion entries own only restricted relation
+types, and R17 alone carries the full known `kappa`/`phi`/`beta`/`U_gamma` panel conditionally.
+No branch owns the complete physical calibrated pair relation, physical non-isometric arrow,
+optional measurement selector, or physical regime map. External review returned
+`VERIFIED_WITH_CORRECTIONS`: R04 is a member-dependent aggregate and does not inherit any member's
+panel, so its M01-M05 and A02-A06 cells are `INSUFFICIENT_EVIDENCE`. The next information must come
+from time-live/on-shell selection, global descent, bootstrap closure, or an explicit premise; this
+audit does not choose among them.
+
+## G54 parent refinement
 
 `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md` controls the
 ordered-query projection gate. After a complete calibrated observer query supplies a regular pair

@@ -4,11 +4,18 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; conditional reciprocal projection verified)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; multi-regime apparatus atlas verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`: all 24 pinned
+branches and six measurement families form 11 mathematical apparatus patterns. Five global
+entries own restricted relation types, R17 alone has the full panel conditionally, and zero entries
+own a complete physical pair relation, arrow, optional selector, or physical regime map. External
+review corrected R04's aggregate/member type confusion before banking. The next information must
+come from time-live/on-shell selection, global descent, bootstrap closure, or an explicit premise.
+Its parent is
 `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`: after a
 complete calibrated observer query supplies a regular pair relation, `Delta_phi` is the unique
 normalized continuous real character of the matched two-density class that is odd under the

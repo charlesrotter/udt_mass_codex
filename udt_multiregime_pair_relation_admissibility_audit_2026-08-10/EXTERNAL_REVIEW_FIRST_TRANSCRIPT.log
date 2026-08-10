@@ -1,0 +1,127 @@
+Script started on 2026-08-10 17:55:12-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_g55_multiregime_review_20260810_ye71gqsb
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019fedac-3008-7e62-bd36-4f64e598c762
+--------
+user
+Read udt_multiregime_pair_relation_admissibility_audit_2026-08-10/EXTERNAL_REVIEW_DISPATCH.md and perform that cold adversarial review using only this sealed intake. Verify INTAKE_MANIFEST.sha256 first. Return the required single primary grade and complete evidence-backed review. Do not edit anything or inspect outside this intake.
+codex
+I’m going to stay inside the sealed intake directory, verify `INTAKE_MANIFEST.sha256` first, then read the dispatch and supporting files it points to so I can produce the required adversarial review with a single primary grade.
+  → Verify intake manifest checksum inside the sealed intake
+  • Read dispatch instructions and intake materials referenced for the review
+  • Assess claims adversarially and draft evidence-backed review with single primary grade
+exec
+/bin/bash -c pwd in /tmp/udt_g55_multiregime_review_20260810_ye71gqsb
+ succeeded in 0ms:
+/tmp/udt_g55_multiregime_review_20260810_ye71gqsb
+
+exec
+/bin/bash -c 'rg --files udt_multiregime_pair_relation_admissibility_audit_2026-08-10' in /tmp/udt_g55_multiregime_review_20260810_ye71gqsb
+ succeeded in 0ms:
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/FALSIFICATION_CONTRACT.tsv
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/BRANCH_ADMISSIBILITY_PROFILES.tsv
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/verify_internal_audit.py
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/verify_preregistration.py
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/CATCH_PROOFS.tsv
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/COMPLETENESS_MAP.md
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/verify_admissibility_independent.py
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/PREMISE_LEDGER.tsv
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/GEOMETRIC_PATTERN_FAMILIES.tsv
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/derive_admissibility_atlas.py
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/DERIVATION_RESULT.json
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/BRANCH_MEASUREMENT_MATRIX.tsv
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/CANDIDATE_UNIVERSE.tsv
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/build_external_intake.py
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/STATUS_LEDGER.tsv
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/ENVIRONMENT.md
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/CATCH_PROOF_RESULT.json
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/PREREGISTRATION.md
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/SOURCE_MANIFEST.tsv
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/run_catch_proofs.py
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/LAY_REPORT.md
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/ADMISSIBILITY_AXES.tsv
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/INDEPENDENT_VERIFICATION_RESULT.json
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/EXACT_DERIVATION.md
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/PONDER_MAP.md
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/NEXT_STEP.md
+udt_multiregime_pair_relation_admissibility_audit_2026-08-10/BRANCH_AXIS_MATRIX.tsv
+
+codex
+I’ve confirmed the intake root and file set. `INTAKE_MANIFEST.sha256` didn’t appear in the plain file listing, so I’m checking hidden entries next before reading any review materials.
+exec
+/bin/bash -c 'ls -la /tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10' in /tmp/udt_g55_multiregime_review_20260810_ye71gqsb
+ succeeded in 0ms:
+total 188
+dr-xr-xr-x 2 udt-admin udt-admin  4096 Aug 10 17:50 .
+dr-xr-xr-x 4 udt-admin udt-admin  4096 Aug 10 17:50 ..
+-r--r--r-- 1 udt-admin udt-admin  1564 Aug 10 17:50 ADMISSIBILITY_AXES.tsv
+-r--r--r-- 1 udt-admin udt-admin  2691 Aug 10 17:50 AUDIT_REPORT.md
+-r--r--r-- 1 udt-admin udt-admin  6657 Aug 10 17:50 BRANCH_ADMISSIBILITY_PROFILES.tsv
+-r--r--r-- 1 udt-admin udt-admin 16847 Aug 10 17:50 BRANCH_AXIS_MATRIX.tsv
+-r--r--r-- 1 udt-admin udt-admin 21200 Aug 10 17:50 BRANCH_MEASUREMENT_MATRIX.tsv
+-r--r--r-- 1 udt-admin udt-admin   731 Aug 10 17:50 CANDIDATE_UNIVERSE.tsv
+-r--r--r-- 1 udt-admin udt-admin  1380 Aug 10 17:50 CATCH_PROOFS.tsv
+-r--r--r-- 1 udt-admin udt-admin    56 Aug 10 17:50 CATCH_PROOF_RESULT.json
+-r--r--r-- 1 udt-admin udt-admin  1121 Aug 10 17:50 COMPLETENESS_MAP.md
+-r--r--r-- 1 udt-admin udt-admin  1061 Aug 10 17:50 DERIVATION_RESULT.json
+-r--r--r-- 1 udt-admin udt-admin   247 Aug 10 17:50 ENVIRONMENT.md
+-r--r--r-- 1 udt-admin udt-admin  8151 Aug 10 17:50 EXACT_DERIVATION.md
+-r--r--r-- 1 udt-admin udt-admin  1783 Aug 10 17:50 FALSIFICATION_CONTRACT.tsv
+-r--r--r-- 1 udt-admin udt-admin  1535 Aug 10 17:50 GEOMETRIC_PATTERN_FAMILIES.tsv
+-r--r--r-- 1 udt-admin udt-admin  1309 Aug 10 17:50 INDEPENDENT_VERIFICATION_RESULT.json
+-r--r--r-- 1 udt-admin udt-admin  1282 Aug 10 17:50 LAY_REPORT.md
+-r--r--r-- 1 udt-admin udt-admin  1095 Aug 10 17:50 NEXT_STEP.md
+-r--r--r-- 1 udt-admin udt-admin  1104 Aug 10 17:50 PONDER_MAP.md
+-r--r--r-- 1 udt-admin udt-admin  1575 Aug 10 17:50 PREMISE_LEDGER.tsv
+-r--r--r-- 1 udt-admin udt-admin  3287 Aug 10 17:50 PREREGISTRATION.md
+-r--r--r-- 1 udt-admin udt-admin  5884 Aug 10 17:50 SOURCE_MANIFEST.tsv
+-r--r--r-- 1 udt-admin udt-admin  1309 Aug 10 17:50 STATUS_LEDGER.tsv
+-r--r--r-- 1 udt-admin udt-admin  2473 Aug 10 17:50 build_external_intake.py
+-r--r--r-- 1 udt-admin udt-admin 12761 Aug 10 17:50 derive_admissibility_atlas.py
+-r--r--r-- 1 udt-admin udt-admin  5711 Aug 10 17:50 run_catch_proofs.py
+-r--r--r-- 1 udt-admin udt-admin  7312 Aug 10 17:50 verify_admissibility_independent.py
+-r--r--r-- 1 udt-admin udt-admin  2946 Aug 10 17:50 verify_internal_audit.py
+-r--r--r-- 1 udt-admin udt-admin  1761 Aug 10 17:50 verify_preregistration.py
+
+exec
+/bin/bash -c "find /tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10 -maxdepth 1 -type f | sed 's#"'^#/##'"'" in /tmp/udt_g55_multiregime_review_20260810_ye71gqsb
+ succeeded in 0ms:
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/COMPLETENESS_MAP.md
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/CATCH_PROOFS.tsv
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/verify_preregistration.py
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/verify_internal_audit.py
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/BRANCH_ADMISSIBILITY_PROFILES.tsv
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/FALSIFICATION_CONTRACT.tsv
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/ENVIRONMENT.md
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/STATUS_LEDGER.tsv
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/build_external_intake.py
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/CANDIDATE_UNIVERSE.tsv
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/BRANCH_MEASUREMENT_MATRIX.tsv
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/DERIVATION_RESULT.json
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/derive_admissibility_atlas.py
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/GEOMETRIC_PATTERN_FAMILIES.tsv
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/PREMISE_LEDGER.tsv
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/verify_admissibility_independent.py
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/ADMISSIBILITY_AXES.tsv
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/LAY_REPORT.md
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/run_catch_proofs.py
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/SOURCE_MANIFEST.tsv
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/PREREGISTRATION.md
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/CATCH_PROOF_RESULT.json
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/PONDER_MAP.md
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/EXACT_DERIVATION.md
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/INDEPENDENT_VERIFICATION_RESULT.json
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/NEXT_STEP.md
+//tmp/udt_g55_multiregime_review_20260810_ye71gqsb/udt_multiregime_pair_relation_admissibility_audit_2026-08-10/BRANCH_AXIS_MATRIX.tsv
+
+
+Script done on 2026-08-10 17:55:44-04:00 [COMMAND_EXIT_CODE="0"]

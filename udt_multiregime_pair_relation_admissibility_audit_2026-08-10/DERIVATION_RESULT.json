@@ -1,0 +1,32 @@
+{
+  "axis_cells": 240,
+  "axis_count": 10,
+  "axis_disposition_counts": {
+    "CONDITIONALLY_AVAILABLE": 27,
+    "FOUNDED_AFTER_PAIR_SUPPLIED": 5,
+    "GLOBAL_COMPLETION_OWNED": 5,
+    "INSUFFICIENT_EVIDENCE": 108,
+    "OPEN_OWNER": 56,
+    "TYPE_INAPPLICABLE": 39
+  },
+  "branch_count": 24,
+  "full_multichannel_conditional_branch": "R17",
+  "global_structural_restriction_owners": 5,
+  "maximum_ruling": "BRANCH_DEPENDENT_INSTRUMENT_AVAILABILITY_PATTERN_DERIVED__FIVE_GLOBAL_STRUCTURAL_RESTRICTIONS_OWNED__NO_PHYSICAL_PAIR_RELATION_MEASUREMENT_SELECTOR_OR_REGIME_MAP_OWNED",
+  "measurement_cells": 144,
+  "measurement_count": 6,
+  "measurement_disposition_counts": {
+    "CONDITIONALLY_AVAILABLE": 17,
+    "FOUNDED_AFTER_PAIR_SUPPLIED": 5,
+    "INSUFFICIENT_EVIDENCE": 69,
+    "OPEN_OWNER": 31,
+    "TYPE_INAPPLICABLE": 22
+  },
+  "optional_measurement_selector_owners": 0,
+  "pattern_family_count": 11,
+  "physical_nonisometric_arrow_owners": 0,
+  "physical_pair_relation_owners": 0,
+  "physical_regime_owners": 0,
+  "schema_version": 1,
+  "status": "PASS"
+}

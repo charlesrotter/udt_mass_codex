@@ -1,0 +1,23 @@
+catch_id	mutation	expected_rejection
+C01	remove one branch profile	profile coverage failure
+C02	duplicate one branch profile	duplicate identity failure
+C03	remove one measurement cell	144-cell coverage failure
+C04	duplicate one measurement cell	duplicate cell failure
+C05	remove one ownership-axis cell	240-cell coverage failure
+C06	duplicate one ownership-axis cell	duplicate cell failure
+C07	label R17 MICRO	physical regime import failure
+C08	promote R17 pair relation to BRANCH_OWNED	pair-owner boundary failure
+C09	promote R17 conditional arrow to BRANCH_OWNED	arrow-owner boundary failure
+C10	promote R18 optional selector to GLOBAL_COMPLETION_OWNED	measurement-selector failure
+C11	assign R23 a physical regime owner	regime-owner failure
+C12	promote R17 Delta_phi before pair supply	founded projection boundary failure
+C13	promote R17 typed panel to branch-owned	conditional panel failure
+C14	give clock-only R18 a complete reciprocal readout	ruler-completion failure
+C15	infer R23 typed full panel without evidence	missing common-query evidence failure
+C16	give R24 a reciprocal density despite type absence	projector/density type failure
+C17	erase kappa rows	channel-preservation failure
+C18	erase beta rows	channel-preservation failure
+C19	erase U_gamma rows	channel-preservation failure
+C20	replace explicit source joins with filename-prefix evidence	provenance failure
+C21	promote aggregate R04 reciprocal readout to conditionally available	aggregate/member type-confusion failure
+C22	promote aggregate R04 common-scale axis to conditionally available	aggregate/member type-confusion failure

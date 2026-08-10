@@ -1,0 +1,12 @@
+pattern_family	branch_count	branch_ids	mathematical_structure	physical_regime_label
+F01_SCHEMA_ONLY	9	R01;R02;R03;R05;R07;R08;R09;R10;R11	completion or topology schema without an actual typed complete metric	OPEN_NOT_ASSIGNED
+F02_AGGREGATE_MEMBER_DEPENDENT	1	R04	aggregate completion class whose members carry different apparatus	OPEN_NOT_ASSIGNED
+F03_NO_COMPLETE_REGULAR_BRANCH	3	R06;R16;R21	singular absent or transition-stratum object rather than a complete regular branch	OPEN_NOT_ASSIGNED
+F04_HISTORICAL_REDERIVATION_REQUIRED	1	R12	historical ansatz requiring current phi-orchestra rederivation	OPEN_NOT_ASSIGNED
+F05_GLOBAL_METRIC_QUERY_UNOWNED	3	R13;R14;R20	global metric or control with natural candidates but no selected complete query	OPEN_NOT_ASSIGNED
+F06_LOCAL_PROFILE_ONLY	1	R15	valid local relational profile without a complete global relation family	OPEN_NOT_ASSIGNED
+F07_FULL_RECIPROCAL_PATH_CONDITIONAL	1	R17	intrinsic reciprocal grading plus endpoint depth and path transport; full assembly conditional	OPEN_NOT_ASSIGNED
+F08_CLOCK_ONLY	2	R18;R22	global or supplied clock relation without an intrinsic reciprocal ruler completion	OPEN_NOT_ASSIGNED
+F09_ZERO_ISOMETRIC_PATH_CONTROL	1	R19	zero-depth control with isometric transport and unowned pair state	OPEN_NOT_ASSIGNED
+F10_COMPLETE_SCREEN_PATH_NO_SCALE	1	R23	complete screen/coframe path groupoid without owned non-isometric scale	OPEN_NOT_ASSIGNED
+F11_SET_VALUED_PROJECTOR	1	R24	stratified unordered projector transport without clock-ruler density	OPEN_NOT_ASSIGNED

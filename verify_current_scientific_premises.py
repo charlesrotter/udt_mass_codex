@@ -98,6 +98,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
@@ -157,6 +158,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md",
@@ -184,7 +186,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md"
+    latest = "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -201,6 +203,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
@@ -238,9 +241,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 54, "premise registry must contain exactly 54 rows")
+    require(len(rows) == 55, "premise registry must contain exactly 55 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 54, "duplicate premise id")
+    require(len(by_id) == 55, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -880,6 +883,29 @@ def main() -> None:
         "ordered-query projection source changed",
     )
     require("G54_REFINES_G53_BY_SELECTING_DELTA_PHI_ONLY_AS_THE_CONDITIONAL_REALIZATION_OF_THE_FOUNDED_RECIPROCAL_PROJECTION" in by_id["G54"]["precedence_rule"], "G53 ordered-query projection refinement absent")
+    require(
+        by_id["G55"]["current_status"]
+        == "VERIFIED_WITH_CORRECTIONS__24_BY_6_BRANCH_MEASUREMENT_ATLAS__11_MATHEMATICAL_APPARATUS_PATTERNS__FIVE_RESTRICTED_GLOBAL_RELATION_TYPES__R17_ONLY_FULL_PANEL_CONDITIONAL__ZERO_PHYSICAL_PAIR_ARROW_SELECTOR_OR_REGIME_OWNERS",
+        "multi-regime admissibility status regressed or promoted",
+    )
+    require(by_id["G55"]["epistemic_label"] == "MIXED", "multi-regime admissibility label changed")
+    require(
+        by_id["G55"]["active_use"]
+        == "ACTIVE_BRANCH_DEPENDENT_APPARATUS_AVAILABILITY_MAP_AND_NEXT_ON_SHELL_GLOBAL_DESCENT_BOOTSTRAP_OR_PREMISE_DECISION_GATE_ONLY",
+        "multi-regime admissibility use promoted",
+    )
+    require("time-live or on-shell realized branch/query selection" in by_id["G55"]["open_scope"], "on-shell owner invented")
+    require("global descent selecting pair surfaces or middle resets" in by_id["G55"]["open_scope"], "global descent invented")
+    require("bootstrap closure correlating background completion with local admissibility" in by_id["G55"]["open_scope"], "bootstrap closure invented")
+    require("R04 aggregate said to inherit one member's instrument panel" in by_id["G55"]["forbidden_regression"], "R04 aggregate guard absent")
+    require("mathematical apparatus patterns called physical micro ordinary or cosmological regimes" in by_id["G55"]["forbidden_regression"], "physical regime guard absent")
+    require("pinned static-corpus workflow exhaustion called a theorem about all static geometry" in by_id["G55"]["forbidden_regression"], "static no-go scope guard absent")
+    require(
+        by_id["G55"]["controlling_source"]
+        == "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
+        "multi-regime admissibility source changed",
+    )
+    require("G55_REFINES_G54_BY_MAPPING_THE_COMPLETE_PINNED_24_BRANCH_CORPUS" in by_id["G55"]["precedence_rule"], "G54 multi-regime refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -952,7 +978,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 54 premise guards, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 55 premise guards, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

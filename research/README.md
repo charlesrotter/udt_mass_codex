@@ -8,6 +8,7 @@ record. Root `LIVE.md` wins every status disagreement.
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**: first read
+`../udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -92,6 +93,12 @@ local one-form/transgression classification. Parent source:
 repair, inner cutoff, or FD2. Then read the parent menu
 `../udt_freedata_inventory_MAP_2026-08-09.md` and RA1/RA2. RA2 is `RA2-PARTIAL-WEAK`, not a
 prediction. The BAO lane is `BANKED + TABLED`.
+
+The current G55 atlas classifies all 24 pinned branch identities across the six G54 measurement
+families into 11 mathematical apparatus patterns. Five restricted global relation types survive,
+but no physical pair relation, arrow, selector, or regime map is owned. R04 is a member-dependent
+aggregate and does not inherit one member's panel. The next information must be time-live/on-shell,
+global descent, bootstrap closure, or an explicit premise.
 
 The complete-pair lineage result is
 `../udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md`: angular/mixing can modulate

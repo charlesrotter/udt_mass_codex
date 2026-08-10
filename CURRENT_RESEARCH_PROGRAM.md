@@ -7,7 +7,17 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G54 CHECKPOINT:**
+**CURRENT G55 CHECKPOINT:**
+`udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md` maps every one of
+the 24 pinned branch identities against all six G54 measurement families. The resulting 144-cell
+atlas has 11 mathematical apparatus patterns and five narrowly owned global relation types. R17
+alone contains the full known panel conditionally; no branch owns the complete physical pair
+relation, physical non-isometric arrow, optional measurement selector, or physical regime map.
+External review corrected the R04 aggregate/member distinction. The next information-bearing
+choice is time-live/on-shell, global descent, bootstrap closure, or an explicit observer premise;
+G55 selects none.
+
+Its **G54 parent**,
 `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md` proves the
 following bounded theorem. After a complete calibrated observer query supplies a regular pair
 relation, the realized founding reciprocal projection has one unique normalized continuous real
@@ -16,8 +26,8 @@ returned `FOUNDED_PROJECTION_ONLY_REALIZATION_CONDITIONAL`. This does not constr
 relation from bare observers or select a complete measurement policy. `kappa`, `beta`, `U_gamma`,
 and phi+orchestra remain retained in their separate types; arbitrary enriched-state coboundaries
 survive mathematically but are not selected by the founding signature. The smallest remaining
-owner is the calibrated physical observer-query / pair-relation selector, with branch-local or
-global-completion ownership the next bounded audit route. Path, regime map, conductor, action,
+owner is the calibrated physical observer-query / pair-relation selector. G55 has now exhausted
+the same pinned branch-local/global-completion census at this ownership level. Path, regime map, conductor, action,
 source, bootstrap closure, and universal mixed `c_eff` remain open.
 
 Its **G53 parent**,

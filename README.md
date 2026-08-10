@@ -6,6 +6,12 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`: the full pinned
+24-by-6 branch/measurement atlas yields 11 mathematical apparatus patterns and five bounded global
+relation types, but zero complete physical pair, arrow, optional-selector, or regime owners. R17
+alone has the full known panel conditionally. External review corrected R04 so its aggregate does
+not inherit any member panel. The next information-bearing route must be time-live/on-shell,
+global descent, bootstrap closure, or an explicit premise. Its immediate parent is
 `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`: after a complete
 calibrated observer query supplies a regular pair relation, the founding reciprocal comparison
 selects `Delta_phi` uniquely within continuous matched two-density characters. This is a

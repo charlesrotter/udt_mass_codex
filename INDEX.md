@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -38,7 +39,10 @@
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected scalar atlas
    has three interleaved equatorial ladders and withdraws the old FD1 multiplet window; the complete
    angular audit proves those roots do not lift unchanged and finds no physical population
-   projector. The current G54 projection gate proves that, after a complete calibrated query
+   projector. The current G55 atlas maps all 24 pinned branch identities across six measurement
+   families into 11 mathematical apparatus patterns; it finds five restricted global relation
+   types but zero complete physical pair, arrow, optional-selector, or regime owners. R04 is an
+   aggregate and does not inherit a member panel. Its G54 parent proves that, after a complete calibrated query
    supplies the pair relation, the realized founding reciprocal scalar is uniquely `Delta_phi`
    within the continuous matched two-density character class. It does not construct the pair
    relation from bare observers or erase common scale, shift, angular transport, broader

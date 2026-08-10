@@ -6,9 +6,24 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; CONDITIONAL RECIPROCAL PROJECTION VERIFIED; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; MULTI-REGIME APPARATUS ATLAS VERIFIED; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — ORDERED OBSERVER-QUERY PROJECTION OWNERSHIP COMPLETE,
+**LATEST GATE — MULTI-REGIME PAIR-RELATION ADMISSIBILITY COMPLETE,
+`VERIFIED-WITH-CORRECTIONS`.** Read
+`udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md` first. The full
+pinned 24-branch by six-measurement atlas has 144/144 cells, ten ownership axes have 240/240 cells,
+and the branches form 11 mathematical apparatus patterns. Five global completions own only
+restricted relation types; R17 alone has the full known `kappa`/`phi`/`beta`/`U_gamma` panel
+conditionally. No branch owns the complete physical calibrated pair relation, non-isometric
+physical arrow, optional measurement selector, or physical regime map. External review required
+exactly ten downgrades: aggregate R04 does not inherit its members' panels, so R04/M01-M05 and
+R04/A02-A06 are `INSUFFICIENT_EVIDENCE`; its bounded aggregate-type A09 row remains owned. NEXT:
+choose one genuinely information-bearing route—time-live/on-shell, global descent, bootstrap
+closure, or an explicit observer-query premise—without assigning physical regimes in advance.
+Repeating the same pinned static census is not recommended, but that is a workflow inference, not
+a theorem about all static geometry.
+
+**PRECEDING GATE — ORDERED OBSERVER-QUERY PROJECTION OWNERSHIP COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Read
 `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md` first. After a
 complete calibrated observer query supplies a regular pair relation, the founding reciprocal

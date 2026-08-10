@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION.** First read
+   `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -108,8 +109,11 @@ do not dump whole long files or recursively open cited evidence during orientati
    open. The completed path-labelled decomposition now derives the full projected connection in
    all four directions, all six curvature planes, and exact isometric transport after a path is
    supplied. No `lambda` is generically completely flat or base-descended. The later audits listed
-   above complete the stationary sublocus and scalar-projection chain; the current open gate is the
-   calibrated physical query/pair-relation owner recorded in the G54 report. No profile repair,
+   above complete the stationary sublocus and scalar-projection chain. G55 maps the 24 pinned branch
+   identities into 11 mathematical apparatus patterns but derives no physical regime map; R04 is
+   a member-dependent aggregate and must not inherit one member's panel. The current open decision
+   is time-live/on-shell, global descent, bootstrap closure, or an explicit observer-query premise.
+   No profile repair,
    inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;

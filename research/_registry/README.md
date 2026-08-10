@@ -3,7 +3,11 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`; it
+gate is `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`; it maps all
+24 pinned branch identities into 11 mathematical apparatus patterns, preserves five bounded global
+relation types, and finds zero complete physical pair, arrow, optional-selector, or regime owners.
+R04 is an aggregate and does not inherit a member panel. Its parent is
+`udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`; it
 selects `Delta_phi` only as the conditional realization of the founding reciprocal projection
 after a complete calibrated query has supplied a regular pair relation. Bare endpoints and the
 broader measurement owner remain open. Its immediate parent is
