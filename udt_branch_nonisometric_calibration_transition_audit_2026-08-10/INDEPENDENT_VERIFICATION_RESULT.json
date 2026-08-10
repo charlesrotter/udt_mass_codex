@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "composition": true,
+    "coverage_24": true,
+    "nonisometric": true,
+    "one_positive": true,
+    "reciprocal_multiplier": true,
+    "same_identity_order": true,
+    "strain": true,
+    "terminal_pair": true,
+    "toric_set_only": true,
+    "u1_lorentz": true,
+    "u2_lorentz": true,
+    "unique_ids": true,
+    "w02_partial": true
+  },
+  "schema": "udt-branch-transition-independent-v1",
+  "status": "PASS"
+}

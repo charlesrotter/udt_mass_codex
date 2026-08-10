@@ -1,0 +1,37 @@
+{
+  "atlas_sha256": "a6dc11b7db7d66f65e183d35aa1fcf792c8880d7070a97523ad83a31747f8ab4",
+  "branch_count": 24,
+  "disposition_counts": {
+    "AGGREGATE_MEMBER_DEPENDENT": 1,
+    "COMPLETE_NONISOMETRIC_TRANSITION_OWNED": 1,
+    "CONDITIONAL_QUERY_OR_PRESENTATION_TRANSITION_ONLY": 4,
+    "HISTORICAL_REDERIVATION_REQUIRED": 1,
+    "INSUFFICIENT_TYPED_EVIDENCE": 9,
+    "ISOMETRIC_PATH_TRANSPORT_ONLY": 2,
+    "NO_COMPLETE_REGULAR_BRANCH": 4,
+    "PARTIAL_CLOCK_SCALE_TRANSITION_OWNED": 1,
+    "STRATIFIED_PROJECTOR_TRANSPORT_ONLY": 1
+  },
+  "exact_checks": {
+    "carried_grading": true,
+    "clock_factor_matches_both_completions": true,
+    "clock_only_underdetermines_terminal": true,
+    "coincidence_identity": true,
+    "complete_mixing_present": true,
+    "composition_exact": true,
+    "grading_self_adjoint": true,
+    "isometric_path_has_identity_strain": true,
+    "pair_gram_terminal": true,
+    "reciprocal_root_multiplier": true,
+    "reversal_exact": true,
+    "strain_exact": true,
+    "transition_nonisometric": true,
+    "u1_lorentz": true,
+    "u2_lorentz": true,
+    "unmatched_reset_changes_composite": true
+  },
+  "physical_selection": "OPEN",
+  "positive_branch": "R17_W01_TWISTED_RECIPROCAL_S3_C01_C06_PATH_CARRIED",
+  "schema": "udt-branch-nonisometric-transition-v1",
+  "status": "PASS"
+}
