@@ -3,7 +3,8 @@
     "composition": true,
     "coverage_24": true,
     "nonisometric": true,
-    "one_positive": true,
+    "r17_assembly_not_owned": true,
+    "r17_conditional_only": true,
     "reciprocal_multiplier": true,
     "same_identity_order": true,
     "strain": true,
@@ -12,7 +13,8 @@
     "u1_lorentz": true,
     "u2_lorentz": true,
     "unique_ids": true,
-    "w02_partial": true
+    "w02_partial": true,
+    "zero_branch_owned_complete_transitions": true
   },
   "schema": "udt-branch-transition-independent-v1",
   "status": "PASS"

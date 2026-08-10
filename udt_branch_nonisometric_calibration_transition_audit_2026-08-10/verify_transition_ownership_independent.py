@@ -70,7 +70,10 @@ def main() -> None:
     checks["unique_ids"] = len({row["branch_id"] for row in atlas}) == 24
     checks["same_identity_order"] = [row["stable_identity"] for row in atlas] == [row["stable_identity"] for row in parent]
     positive = [row for row in atlas if row["primary_disposition"] == "COMPLETE_NONISOMETRIC_TRANSITION_OWNED"]
-    checks["one_positive"] = len(positive) == 1 and positive[0]["branch_id"] == "R17"
+    checks["zero_branch_owned_complete_transitions"] = len(positive) == 0
+    r17 = next(row for row in atlas if row["branch_id"] == "R17")
+    checks["r17_conditional_only"] = r17["primary_disposition"] == "CONDITIONAL_QUERY_OR_PRESENTATION_TRANSITION_ONLY"
+    checks["r17_assembly_not_owned"] = "NOT_BRANCH_OWNED" in r17["nonisometric_transition"]
     checks["w02_partial"] = atlas[17]["primary_disposition"] == "PARTIAL_CLOCK_SCALE_TRANSITION_OWNED"
     checks["toric_set_only"] = atlas[23]["primary_disposition"] == "STRATIFIED_PROJECTOR_TRANSPORT_ONLY"
     assert all(checks.values()), [key for key, value in checks.items() if not value]

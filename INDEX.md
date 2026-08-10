@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
    `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
@@ -50,7 +51,9 @@
    bounded geometric relation forms: path/holonomy on twisted or general-screen S3 branches,
    endpoint-clock coboundaries on unique-Killing static branches, and stratified set-valued
    projector relations on toric branches. It does not select a physical non-isometric pair functor
-   or one universal scalar reciprocal reduction. No
+   or one universal scalar reciprocal reduction. The branch-transition follow-up retains R17's
+   exact semidirect formula only as a conditional assembly not selected by the branch; zero
+   branch-owned complete transitions survive. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
@@ -63,6 +66,9 @@
 
 ## Current scientific routing
 
+- `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md` — current
+  transition-ownership correction: R17's exact matched-state semidirect formula is conditional,
+  not branch-owned; the next joint is `M_B` or the calibrated pair-relation functor and pair surface.
 - `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md` — current
   complete-branch relation-family result: 24 stable identities and 57 aliases classified; three
   bounded geometric family forms survive, while the physical non-isometric pair functor and

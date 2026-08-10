@@ -4,12 +4,12 @@ Date: 2026-08-10
 
 Mode: metric-led, exact analytic/CPU
 
-Current grade: **LEAD PENDING FRESH ADVERSARIAL SEMANTIC REVIEW**
+Current grade: **VERIFIED-WITH-CAVEATS — CONDITIONAL ASSEMBLY, NOT BRANCH-OWNED**
 
 ## 1. Result first
 
-One frozen complete branch contains enough owned geometry to construct a full four-slot,
-path-carried, non-isometric calibration-transition family.
+One frozen complete branch contains enough owned ingredients to define a lawful four-slot,
+path-carried, non-isometric calibration-transition family **after a comparison-law choice**.
 
 On the named twisted `S3` configurations C01--C06, prior independent audits derive from the same
 complete metric:
@@ -33,7 +33,8 @@ complete metric:
 6. Levi-Civita path transport `U_gamma`, including its full clock/ruler/screen mixing and
    nontrivial holonomy.
 
-For a path-labelled comparison state whose source grading is `X_p`, define
+For a path-labelled comparison state whose source grading is `X_p`, the audited conditional
+assembly is
 
 ```text
 A_gamma=U_gamma exp[delta_K(p,q) X_p].
@@ -46,10 +47,11 @@ X_q^gamma=U_gamma X_p U_gamma^-1.
 ```
 
 This arrow is non-isometric when `delta_K` is nonzero, is complete across all four slots, and
-composes exactly on matched carried states. It is not yet the universal physical observer-pair
-map: the branch does not choose one physical path, identify the carried target grading with the
-separately reconstructed intrinsic grading at `q`, or prove that the linear arrow integrates to
-one global pair surface.
+composes exactly on matched carried states. The fresh external review found—and the adjudication
+accepts—that these facts do not make the formula branch-owned. The branch derives each ingredient
+but does not select this multiplication as the physical observer-pair law. It also does not choose
+one physical path, identify the carried target grading with the separately reconstructed intrinsic
+grading at `q`, or prove that the linear arrow integrates to one global pair surface.
 
 ## 2. Source configuration and ownership
 
@@ -79,7 +81,7 @@ exp(phi X_lambda)
 below therefore applies branch by branch at the configuration's supplied `lambda`; it is not a
 `lambda`-selection theorem.
 
-## 3. Correct path-carried groupoid type
+## 3. Correct conditional path-carried groupoid type
 
 An object is a regular enriched calibration state
 
@@ -105,9 +107,9 @@ t(A_gamma)=(q,U_gamma X_p U_gamma^-1,U_gamma F_p).
 The exponential factor changes densities but not the flag subspaces, so this typing is exact.
 Paths are retained as arrow labels; no one path is postselected.
 
-This is not an endpoint atlas of the intrinsic `X_lambda(q)` field. It is the path-carried
-calibration-state groupoid. A reset from the carried target state to a separately rebuilt local
-intrinsic state is a different arrow `M_q` and remains open.
+This is not an endpoint atlas of the intrinsic `X_lambda(q)` field. Conditional on the semidirect
+assembly, it is a coherent path-carried calibration-state groupoid. A reset from the carried target
+state to a separately rebuilt local intrinsic state is a different arrow `M_q` and remains open.
 
 ## 4. Exact composition, reversal, and loops
 
@@ -223,9 +225,9 @@ is not supplied by the current branch evidence. Setting it to identity would era
 holonomy and violate the three-observer audit. Inserting an arbitrary reciprocal reset changes the
 composite and the scalar depth; an exact catch proof retains this obstruction.
 
-Therefore the positive theorem closes the transition on matched path-carried objects, not the
-physical rule deciding whether actual observers carry, rebuild, or otherwise relate calibration
-states.
+Therefore the conditional theorem closes the chosen assembly on matched path-carried objects. It
+does not close either ownership of that assembly or the physical rule deciding whether actual
+observers carry, rebuild, or otherwise relate calibration states.
 
 The arrow is also a complete linear comparison Jacobian. No current proof integrates every such
 arrow into a global two-dimensional observer-pair surface through cut loci and seams. The terminal
@@ -241,7 +243,7 @@ algebra accepts a supplied comparison Jacobian, but physical pair-map realizatio
 - The toric family owns an unordered projector set and its chamber/wall transport, not density
   scaling.
 - Four branches require an unowned query, line, orientation, or presentation choice.
-- FC04 is an aggregate containing the W01 positive, the W02 partial result, and open/zero/failure
+- FC04 is an aggregate containing the W01 conditional candidate, the W02 partial result, and open/zero/failure
   members; no class-wide transition is inferred.
 - Nine entries lack typed metric evidence, four lack a complete regular branch, and FC12 requires
   current-premise rederivation.
@@ -251,10 +253,11 @@ The exact 24-row rulings are in `TRANSITION_OWNERSHIP_ATLAS.tsv`.
 ## 9. Maximum conclusion
 
 ```text
-DERIVED_CONDITIONAL_ON_THE_NAMED_C01_C06_COMPLETE_OFFSHELL_CONFIGURATIONS:
-THE_INTRINSIC_RECIPROCAL_GRADING__KILLING_ENDPOINT_DEPTH__AND_LEVI_CIVITA_PATH_GROUPOID
-ASSEMBLE_INTO_AN_EXACT_COMPLETE_PATH_CARRIED_NONISOMETRIC_CALIBRATION_TRANSITION;
-ITS_RECIPROCAL_ROOT_AND_TERMINAL_PAIR_READOUT_EQUAL_DELTA_K;
+DERIVED_CONDITIONAL_CONSTRUCTION_ON_THE_NAMED_C01_C06_COMPLETE_OFFSHELL_CONFIGURATIONS:
+AFTER_CHOOSING_THE_SEMIDIRECT_ASSEMBLY__THE_INTRINSIC_RECIPROCAL_GRADING__KILLING_ENDPOINT_DEPTH
+AND_LEVI_CIVITA_PATH_GROUPOID_FORM_AN_EXACT_PATH_CARRIED_NONISOMETRIC_TRANSITION;
+THE_BRANCH_DOES_NOT_SELECT_THIS_ASSEMBLY_AS_ITS_PHYSICAL_COMPARISON_LAW;
+ON_THE_SUPPLIED_CARRIED_FLAG__ITS_RECIPROCAL_ROOT_AND_TERMINAL_PAIR_READOUT_EQUAL_DELTA_K;
 ANGULAR_MIXING_AND_NONIDENTITY_HOLONOMY_REMAIN_IN_THE_FULL_ARROW;
 THE_CARRIED_TO_REBUILT_ENDPOINT_TRANSITION__PHYSICAL_PATH_OR_RELATION_SELECTION__GLOBAL_PAIR_SURFACE
 AND_UNIVERSAL_MIXED_GEOMETRY_SCALAR_LAW_REMAIN_OPEN.

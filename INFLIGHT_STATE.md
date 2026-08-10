@@ -1,6 +1,6 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-10 STATUS (RESTART ANCHOR): GLOBAL RELATION-FAMILY BRANCH CLASSIFICATION COMPLETE.** ACTIVE ARC = CMB PEAK
+> **2026-08-10 STATUS (RESTART ANCHOR): BRANCH-TRANSITION OWNERSHIP AUDIT COMPLETE.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-10) FIRST, then
 > `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -40,9 +40,11 @@
 > now VERIFIED-WITH-CAVEATS at
 > `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`: 24 stable
 > identities/57 aliases preserve path/holonomy, endpoint-clock, and stratified set-valued geometric
-> relation forms in bounded regimes. The physical non-isometric pair functor and universal scalar
-> reduction remain open. NEXT, not launched, is branch-local ownership of the non-isometric
-> calibration transition; no
+> relation forms in bounded regimes. The branch-local follow-up at
+> `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md` retains the
+> exact R17 semidirect formula only as `CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED`; zero branch-owned
+> complete transitions survive. NEXT, not launched, is ownership of the carried-to-rebuilt middle
+> morphism `M_B` or the calibrated pair-relation functor and lawful pair surface; no
 > profile repair, inner cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build

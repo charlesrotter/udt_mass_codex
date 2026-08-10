@@ -1,10 +1,11 @@
 {
-  "atlas_sha256": "a6dc11b7db7d66f65e183d35aa1fcf792c8880d7070a97523ad83a31747f8ab4",
+  "atlas_sha256": "070206c8a6a9eaf87f5bc8c29199323400831ff6ac5471944090b9429872cc36",
   "branch_count": 24,
+  "branch_owned_complete_transition_count": 0,
+  "conditional_candidate": "R17_W01_TWISTED_RECIPROCAL_S3_C01_C06_PATH_CARRIED_SEMIDIRECT_ASSEMBLY",
   "disposition_counts": {
     "AGGREGATE_MEMBER_DEPENDENT": 1,
-    "COMPLETE_NONISOMETRIC_TRANSITION_OWNED": 1,
-    "CONDITIONAL_QUERY_OR_PRESENTATION_TRANSITION_ONLY": 4,
+    "CONDITIONAL_QUERY_OR_PRESENTATION_TRANSITION_ONLY": 5,
     "HISTORICAL_REDERIVATION_REQUIRED": 1,
     "INSUFFICIENT_TYPED_EVIDENCE": 9,
     "ISOMETRIC_PATH_TRANSPORT_ONLY": 2,
@@ -30,8 +31,8 @@
     "u2_lorentz": true,
     "unmatched_reset_changes_composite": true
   },
+  "external_review_verdict": "DEMOTE_TO_CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED",
   "physical_selection": "OPEN",
-  "positive_branch": "R17_W01_TWISTED_RECIPROCAL_S3_C01_C06_PATH_CARRIED",
   "schema": "udt-branch-nonisometric-transition-v1",
   "status": "PASS"
 }

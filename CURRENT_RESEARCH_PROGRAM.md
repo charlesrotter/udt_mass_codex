@@ -70,9 +70,12 @@ loops may have holonomy. The complete-branch classification is now verified at
 `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`: 24 stable identities
 and 57 aliases retain three bounded geometric relation forms—path/holonomy, endpoint-clock
 coboundary, and stratified set-valued projector relations. No form is promoted to the physical
-non-isometric observer-pair functor or a universal scalar reciprocal law. NEXT is to classify
-whether any branch itself supplies the non-isometric calibration transition that the terminal
-reciprocal readout requires.
+non-isometric observer-pair functor or a universal scalar reciprocal law. The branch-local follow-up
+at `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md` finds one exact
+R17 semidirect construction on matched path-carried states, but external review correctly demotes
+it to a conditional assembly not selected by the branch. The corrected census has zero branch-owned
+complete transitions. NEXT is to test ownership of the carried-to-rebuilt middle morphism `M_B` or
+the calibrated pair-relation functor and lawful pair surface that would determine it.
 No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the
@@ -125,7 +128,9 @@ and the active lane so a fresh session builds FORWARD (LIVE.md topmost is the au
 - Observer Reciprocity supplies an equivariance/naturality gate on any future law. It does not
   generate the law. The overlap audit closes algebraic carry on matched objects; the branch
   classification retains several geometric relation-family types but locates the remaining seam
-  at the physical non-isometric calibration transition and scalar reciprocal reduction.
+  at the physical non-isometric calibration transition and scalar reciprocal reduction. The R17
+  semidirect candidate shows that the algebra can close after an assembly choice, but the metric
+  has not yet selected that choice or the carried-to-rebuilt middle morphism.
 
 ## Conditional witnesses—not native closure
 

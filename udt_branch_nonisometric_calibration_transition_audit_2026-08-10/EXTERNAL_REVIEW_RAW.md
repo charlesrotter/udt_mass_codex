@@ -1,0 +1,26 @@
+**Verdict**
+`DEMOTE_TO_CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED`.
+
+**Load-Bearing Findings**
+1. The package overpromotes a lawful semidirect assembly into a branch-owned transition law. Current controlling premises still leave the physical flag/arrow, calibration-state owner, pair-relation functor, middle update, and scalar reduction open in [CURRENT_SCIENTIFIC_PREMISES.tsv](/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv:36), [CURRENT_SCIENTIFIC_PREMISES.tsv](/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv:37), [CURRENT_SCIENTIFIC_PREMISES.tsv](/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv:39), [CURRENT_SCIENTIFIC_PREMISES.tsv](/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv:41), [CURRENT_SCIENTIFIC_PREMISES.tsv](/home/udt-admin/udt_mass_codex/CURRENT_SCIENTIFIC_PREMISES.tsv:42). The parent branch classification explicitly limits W01 to an isometric path groupoid and W02 to an endpoint clock coboundary, not a completed physical non-isometric pair functor in [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_global_relation_family_branch_classification_2026-08-10/EXACT_DERIVATION.md:16) and [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_global_relation_family_branch_classification_2026-08-10/EXACT_DERIVATION.md:55).
+2. The proposed type is coherent only on supplied matched path-carried enriched objects. The package itself admits `U_gamma X(p) U_gamma^-1 != X_intrinsic(q)` generically and leaves `M_B` open in [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_branch_nonisometric_calibration_transition_audit_2026-08-10/EXACT_DERIVATION.md:202). The three-observer audit says associativity holds on matched enriched objects only and forbids silently setting the middle transition to identity when B-states differ in [AUDIT_REPORT.md](/home/udt-admin/udt_mass_codex/udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md:8).
+3. The terminal equality on the carried flag is algebraically correct, but it does not derive a lawful physical pair map or universal `c_eff` law. Terminal readout is only exact on a supplied calibrated pair metric/Jacobian in [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md:13), pair-map ownership remains open in [AUDIT_REPORT.md](/home/udt-admin/udt_mass_codex/udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md:8), and complete mixing can change depth on other lawful arrows in [EXACT_DERIVATION.md](/home/udt-admin/udt_mass_codex/udt_complete_pair_phi_orchestra_audit_2026-08-05/EXACT_DERIVATION.md:105).
+
+**Required Checks**
+- A. Ownership vs invented assembly: `delta_K`, `X_lambda`, and `U_gamma` are derived at their stated scopes; choosing `A_gamma = U_gamma exp(delta_K X_p)` as the comparison law is a new conditional assembly, not a branch-owned consequence.
+- B. Groupoid typing: correct as a conditional path-labelled enriched groupoid with carried targets; not correct as a derived physical observer-comparison groupoid.
+- C. Metric ownership of `X_lambda`: yes, basis-free on each named C01-C06 configuration at supplied `lambda`; no family-wide `lambda` selection, no screen-axis selection, no universal pointwise `phi` ownership follows.
+- D. Complete mixing and terminal readout: `A_gamma^dagger A_gamma = exp(2 delta_K X_p)` and the carried-flag `delta_RF = phi_pair = delta_K` are valid. This shows compatibility for this special assembly, not selection of a universal mixed-geometry scalar law.
+- E. Carried vs rebuilt endpoint state: the carried target is a legitimate conditional enriched object, but the open `M_B` blocks promotion to `COMPLETE_NONISOMETRIC_TRANSITION_OWNED`.
+- F. Linear arrow vs pair surface: no. The linear arrow may be used as a supplied Jacobian, but no current source derives its global pair-surface integrability through seams, cut loci, or multiple paths.
+- G. Branch census: W02 as clock-only is correct; W03 and general-screen as isometric-only are correct; toric as projector-set-only is correct; FC04 as aggregate is correct; FC12 as historical rederivation is correct. The only overpromotion is R17, and FC04 correspondingly loses its sole claimed complete positive member.
+
+**Landing**
+1. Algebra correct: yes.
+2. Groupoid type correct: conditional only.
+3. Branch owns the construction: no.
+4. Terminal scalar equality valid: yes, on the carried flag restriction only.
+5. Physical observer-pair map or universal `c_eff` law follows: no.
+6. Smallest remaining missing derivation: a branch-owned calibrated pair-relation functor or middle update `M_B` that identifies or constructs the carried-to-rebuilt endpoint state and supplies a lawful calibrated pair Jacobian/surface.
+
+Independent read-only algebra I reran in memory confirmed the package’s finite claims but also the demotion trigger: matched composition is exact, a nontrivial middle reset changes the composite, the carried grading differs from the rebuilt intrinsic grading, the carried pair Gram is `diag(-1/16,16)`, and a lawful mixed Jacobian can give `h=[[-3/16,1/12],[1/12,37/9]]` with `L^2=112/27`, so mixing-sensitive terminal readout remains genuinely open outside this chosen assembly.

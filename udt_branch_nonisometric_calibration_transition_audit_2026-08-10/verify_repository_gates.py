@@ -47,7 +47,7 @@ def main() -> None:
         capture_output=True, check=False, timeout=60,
     )
     match = re.search(r"PASS: (\d+) premise guards", premise.stdout)
-    assert premise.returncode == 0 and match and int(match.group(1)) == 41, premise.stdout + premise.stderr
+    assert premise.returncode == 0 and match and int(match.group(1)) == 42, premise.stdout + premise.stderr
 
     checked_links = 0
     pattern = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
@@ -99,7 +99,16 @@ def main() -> None:
     status = subprocess.check_output(
         ["git", "status", "--porcelain=v1", "--untracked-files=all"], cwd=ROOT, text=True
     ).splitlines()
-    unexpected = [line for line in status if not line[3:].startswith(HERE.name + "/")]
+    allowed_current_controls = {
+        *STARTUP,
+        "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "verify_current_scientific_premises.py",
+        "tests/test_startup_surface.py",
+    }
+    unexpected = [
+        line for line in status
+        if not line[3:].startswith(HERE.name + "/") and line[3:] not in allowed_current_controls
+    ]
     assert not unexpected, unexpected
 
     result = {

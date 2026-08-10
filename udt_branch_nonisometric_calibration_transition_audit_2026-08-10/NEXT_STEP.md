@@ -1,19 +1,28 @@
 # Next justified step
 
-Obtain a fresh manifest-confined adversarial semantic review of the R17/W01 construction. The
-review must begin from the founding reciprocal metric/coframe meaning and audit whether
+The fresh manifest-confined adversarial review returned
+`DEMOTE_TO_CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED`. The exact construction
 
 ```text
 A_gamma=U_gamma exp[delta_K X_p]
 ```
 
-is genuinely supplied by the named complete branch or adds an unregistered choice of comparison
-semantics. It must keep separate:
+is a lawful conditional semidirect assembly, but the named complete branch does not select it as
+the physical comparison law.
+
+The next bounded mathematical question is whether the same complete branch supplies an intrinsic
+carried-to-rebuilt middle morphism
+
+```text
+M_B: X_B^carried -> X_B^intrinsic
+```
+
+or a calibrated pair-relation functor whose overlap law determines that morphism without choosing
+the answer. The audit must keep separate:
 
 - a path-carried enriched-state groupoid;
 - an endpoint atlas of independently rebuilt intrinsic states;
 - a complete linear comparison Jacobian; and
 - an integrated global observer-pair surface.
 
-Only after that review may the next mathematical question be chosen. No action, source, matter,
-`X_max`, CMB, eigensolve, or GPU work is authorized.
+No action, source, matter, `X_max`, CMB, eigensolve, or GPU work is authorized by this result.

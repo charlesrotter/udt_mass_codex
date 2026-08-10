@@ -98,6 +98,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
@@ -144,6 +145,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
             "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
@@ -160,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md"
+    latest = "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -177,6 +179,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md",
         "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
         "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
@@ -201,9 +204,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 41, "premise registry must contain exactly 41 rows")
+    require(len(rows) == 42, "premise registry must contain exactly 42 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 41, "duplicate premise id")
+    require(len(by_id) == 42, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -549,6 +552,28 @@ def main() -> None:
         "global family classification source changed",
     )
     require("G41_REFINES_G40_GLOBAL_FAMILY_TYPE" in by_id["G41"]["precedence_rule"], "G40 refinement absent")
+    require(
+        by_id["G42"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__R17_SEMIDIRECT_FORMULA_EXACT_ON_MATCHED_PATH_CARRIED_STATES__CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED__ZERO_BRANCH_OWNED_COMPLETE_TRANSITIONS",
+        "branch-transition ownership correction regressed or promoted",
+    )
+    require(by_id["G42"]["epistemic_label"] == "MIXED", "branch-transition label changed")
+    require(
+        by_id["G42"]["active_use"]
+        == "ACTIVE_BRANCH_TRANSITION_OWNERSHIP_CORRECTION_AND_NEXT_MIDDLE_MORPHISM_GATE_ONLY",
+        "branch-transition use promoted",
+    )
+    require("carried-to-rebuilt middle morphism M_B" in by_id["G42"]["open_scope"], "M_B selected")
+    require("pair-surface integrability" in by_id["G42"]["open_scope"], "pair surface selected")
+    require("R17 semidirect assembly called branch-owned" in by_id["G42"]["forbidden_regression"], "R17 ownership guard absent")
+    require("M_B set to identity" in by_id["G42"]["forbidden_regression"], "G42 middle-transition guard absent")
+    require("terminal carried-flag equality called universal mixed-geometry c_eff" in by_id["G42"]["forbidden_regression"], "G42 c_eff guard absent")
+    require(
+        by_id["G42"]["controlling_source"]
+        == "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md",
+        "branch-transition source changed",
+    )
+    require("G42_REFINES_G41_TRANSITION_OWNERSHIP" in by_id["G42"]["precedence_rule"], "G41 transition refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -621,7 +646,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 41 premise guards, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 42 premise guards, branch-transition ownership correction, complete-branch relation-family classification, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E pair-metric readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular family routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

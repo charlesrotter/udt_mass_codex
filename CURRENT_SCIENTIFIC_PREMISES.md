@@ -312,11 +312,21 @@ geometric relation forms, not a selected physical non-isometric observer-pair fu
 calibration transition, mixed scalar reciprocal character, universal mixed-geometry `c_eff`, and
 physical branch selection remain open.
 
-The next bounded gate is whether any surviving complete branch itself owns the non-isometric
-calibration transition needed by the terminal reciprocal readout. Do not promote the conditional
+The branch-local non-isometric transition audit,
+`udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`, closes that
+ownership test with an external-review correction. On R17/W01, the formula
+`A_gamma=U_gamma exp[delta_K X_p]` is exact, non-isometric, compositional, and terminal-readout
+compatible on matched path-carried states. It is a lawful **conditional assembly**, not a
+branch-owned comparison law. There are zero branch-owned complete non-isometric transitions in the
+24-row census. The other branch rulings remain unchanged.
+
+The next bounded gate is whether a complete branch owns the carried-to-rebuilt middle morphism
+`M_B` or a calibrated pair-relation functor that determines it and a lawful pair surface. Do not
+promote the conditional
 local query enrichment into a universally founded physical functor, call ordering a unique arrow,
 claim that `c_E` removes a reciprocal middle reset, identify Levi-Civita path transport with
-physical depth, or demand zero holonomy. No action, source, matter, mass, CMB spectrum, signaling
+physical depth, promote the R17 semidirect assembly to branch ownership, identify carried and
+rebuilt endpoint gradings, or demand zero holonomy. No action, source, matter, mass, CMB spectrum, signaling
 law, `X_max` value, universal mixed-geometry `c_eff`, eigenvalue solve, FD2, or GPU work is derived
 or authorized.
 

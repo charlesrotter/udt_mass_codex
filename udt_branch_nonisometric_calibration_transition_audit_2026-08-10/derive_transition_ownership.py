@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Classify branch-local transition ownership and verify the path-carried positive control."""
+"""Classify branch-local transition ownership and verify the conditional path-carried control."""
 
 from __future__ import annotations
 
@@ -99,7 +99,7 @@ def classify(parent: list[dict[str, str]]) -> list[dict[str, str]]:
         "R13": "CONDITIONAL_QUERY_OR_PRESENTATION_TRANSITION_ONLY",
         "R14": "CONDITIONAL_QUERY_OR_PRESENTATION_TRANSITION_ONLY",
         "R15": "NO_COMPLETE_REGULAR_BRANCH", "R16": "NO_COMPLETE_REGULAR_BRANCH",
-        "R17": "COMPLETE_NONISOMETRIC_TRANSITION_OWNED",
+        "R17": "CONDITIONAL_QUERY_OR_PRESENTATION_TRANSITION_ONLY",
         "R18": "PARTIAL_CLOCK_SCALE_TRANSITION_OWNED",
         "R19": "ISOMETRIC_PATH_TRANSPORT_ONLY",
         "R20": "CONDITIONAL_QUERY_OR_PRESENTATION_TRANSITION_ONLY",
@@ -132,21 +132,21 @@ def classify(parent: list[dict[str, str]]) -> list[dict[str, str]]:
             common.update(
                 intrinsic_clock_scale="MEMBER_DEPENDENT",
                 intrinsic_ruler_or_grading="MEMBER_DEPENDENT",
-                nonisometric_transition="R17_PATH_CARRIED_COMPLETE;R18_CLOCK_ONLY;OTHER_MEMBERS_OPEN_OR_ZERO",
+                nonisometric_transition="R17_CONDITIONAL_SEMIDIRECT_ASSEMBLY;R18_CLOCK_ONLY;OTHER_MEMBERS_OPEN_OR_ZERO",
                 middle_state_rule="MEMBER_DEPENDENT",
                 terminal_reciprocal_status="NO_CLASS_WIDE_SCALAR",
-                scope_caveat="FC04 is an aggregate; the R17 positive may not be promoted to every member.",
+                scope_caveat="FC04 is an aggregate; R17 supplies a lawful conditional assembly, not a branch-owned transition.",
             )
         elif branch_id == "R17":
             common.update(
                 intrinsic_clock_scale="KILLING_NORM_N=C_E_EXP_MINUS_PHI__ENDPOINT_RATIO_OWNED",
                 intrinsic_ruler_or_grading="GLOBAL_INTRINSIC_PU_PN_H_AND_X_LAMBDA_MINUS_PU_PLUS_PN_PLUS_LAMBDA_H",
                 owned_geometric_transport="LEVI_CIVITA_PATH_U_GAMMA_WITH_FULL_AMBIENT_MIXING_AND_HOLONOMY",
-                nonisometric_transition="A_GAMMA=U_GAMMA_EXP[DELTA_K(P,Q)X_P]",
-                middle_state_rule="TARGET_GRADING_IS_PATH_CARRIED__MATCHED_NEXT_LEG_STARTS_FROM_THAT_STATE",
-                terminal_reciprocal_status="DELTA_RF=PHI_PAIR=DELTA_K_ON_CARRIED_FLAG_RESTRICTION",
+                nonisometric_transition="CONDITIONAL_ASSEMBLY_A_GAMMA=U_GAMMA_EXP[DELTA_K(P,Q)X_P]__NOT_BRANCH_OWNED",
+                middle_state_rule="CONDITIONAL_TARGET_GRADING_IS_PATH_CARRIED__MATCHED_NEXT_LEG_STARTS_FROM_THAT_STATE__OPEN_M_B_TO_INTRINSIC_ENDPOINT",
+                terminal_reciprocal_status="EXACT_COMPATIBILITY_DELTA_RF=PHI_PAIR=DELTA_K_ON_SUPPLIED_CARRIED_FLAG__NOT_PHYSICAL_SELECTION",
                 degeneracy_or_branch_handling="C01_C06_REGULAR;PATH_LABELS_RETAINED;LOOPS_RETURN_HOLONOMY;RESET_TO_INTRINSIC_ENDPOINT_REQUIRES_OPEN_M_B",
-                scope_caveat="Complete only on the named off-shell C01-C06 path-carried enriched-state groupoid; no physical path selection or rebuild rule.",
+                scope_caveat="Lawful only after choosing the semidirect assembly and carried-state groupoid on C01-C06; the branch does not select that comparison law, a physical path, M_B, or a pair surface.",
                 evidence="udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/EXACT_DERIVATION.md;udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/EXACT_DERIVATION.md;udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/EXACT_DERIVATION.md",
             )
         elif branch_id == "R18":
@@ -193,13 +193,15 @@ def validate(rows: list[dict[str, str]], parent: list[dict[str, str]]) -> None:
     assert [row["stable_identity"] for row in rows] == [row["stable_identity"] for row in parent]
     by_id = {row["branch_id"]: row for row in rows}
     positive = [row for row in rows if row["primary_disposition"] == "COMPLETE_NONISOMETRIC_TRANSITION_OWNED"]
-    assert len(positive) == 1 and positive[0]["branch_id"] == "R17"
+    assert not positive
+    assert by_id["R17"]["primary_disposition"] == "CONDITIONAL_QUERY_OR_PRESENTATION_TRANSITION_ONLY"
     assert "A_GAMMA=U_GAMMA_EXP" in by_id["R17"]["nonisometric_transition"]
+    assert "NOT_BRANCH_OWNED" in by_id["R17"]["nonisometric_transition"]
     assert "GLOBAL_INTRINSIC_PU_PN_H" in by_id["R17"]["intrinsic_ruler_or_grading"]
     assert "KILLING_NORM" in by_id["R17"]["intrinsic_clock_scale"]
     assert "PATH_CARRIED" in by_id["R17"]["middle_state_rule"]
     assert "OPEN_M_B" in by_id["R17"]["degeneracy_or_branch_handling"]
-    assert "no physical path selection" in by_id["R17"]["scope_caveat"]
+    assert "branch does not select" in by_id["R17"]["scope_caveat"]
     assert by_id["R18"]["primary_disposition"] == "PARTIAL_CLOCK_SCALE_TRANSITION_OWNED"
     assert "NO_SAME_BRANCH_INTRINSIC_RULER" in by_id["R18"]["intrinsic_ruler_or_grading"]
     assert by_id["R23"]["primary_disposition"] == "ISOMETRIC_PATH_TRANSPORT_ONLY"
@@ -229,7 +231,9 @@ def main() -> None:
         "disposition_counts": counts,
         "exact_checks": checks,
         "atlas_sha256": hashlib.sha256(ATLAS.read_bytes()).hexdigest(),
-        "positive_branch": "R17_W01_TWISTED_RECIPROCAL_S3_C01_C06_PATH_CARRIED",
+        "branch_owned_complete_transition_count": 0,
+        "conditional_candidate": "R17_W01_TWISTED_RECIPROCAL_S3_C01_C06_PATH_CARRIED_SEMIDIRECT_ASSEMBLY",
+        "external_review_verdict": "DEMOTE_TO_CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED",
         "physical_selection": "OPEN",
     }
     RESULT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")

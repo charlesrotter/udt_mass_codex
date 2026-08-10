@@ -39,6 +39,8 @@ def main() -> None:
     mutate("missing_identity", lambda r: r.pop())
     mutate("duplicate_identity", lambda r: r.append(copy.deepcopy(r[-1])))
     mutate("positive_moved_to_general_screen", lambda r: r[22].update(primary_disposition="COMPLETE_NONISOMETRIC_TRANSITION_OWNED"))
+    mutate("w01_promoted_to_branch_owned", lambda r: r[16].update(primary_disposition="COMPLETE_NONISOMETRIC_TRANSITION_OWNED"))
+    mutate("w01_not_owned_disclosure_removed", lambda r: r[16].update(nonisometric_transition="A_GAMMA=U_GAMMA_EXP[DELTA_K(P,Q)X_P]"))
     mutate("w01_formula_removed", lambda r: r[16].update(nonisometric_transition="LEVI_CIVITA_ONLY"))
     mutate("w01_clock_owner_removed", lambda r: r[16].update(intrinsic_clock_scale="UNSUPPLIED"))
     mutate("w01_ruler_owner_removed", lambda r: r[16].update(intrinsic_ruler_or_grading="UNSUPPLIED"))

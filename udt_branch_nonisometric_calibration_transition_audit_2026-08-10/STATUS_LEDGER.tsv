@@ -2,8 +2,8 @@ status_id	object	status	scope	remaining_open
 S01	24 stable branch identities	CLASSIFIED	frozen complete-branch census	future branches and on-shell solutions
 S02	R17 W01 C01-C06 intrinsic clock ruler and screen grading	DERIVED_CONDITIONAL_ON_NAMED_COMPLETE_OFFSHELL_CONFIGURATIONS	metric-intrinsic projectors and supplied lambda	physical branch and lambda selection
 S03	R17 endpoint depth delta_K	DERIVED_BRANCH_LOCAL	intrinsic Killing norm ratio	universal observer-pair depth
-S04	R17 path-carried non-isometric transition	LEAD_EXACT_ALGEBRA_PENDING_EXTERNAL_SEMANTIC_REVIEW	matched carried grading path groupoid	whether semidirect assembly is branch-owned physical comparison structure
-S05	R17 reciprocal-root and terminal readout	DERIVED_ON_SUPPLIED_CARRIED_FLAG_RESTRICTION	delta_RF equals phi_pair equals delta_K	universal mixed-geometry c_eff
+S04	R17 path-carried non-isometric transition	CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED	exact on matched carried grading path groupoid after choosing A_gamma=U_gamma exp(delta_K X_p)	branch-owned physical comparison structure
+S05	R17 reciprocal-root and terminal readout	DERIVED_COMPATIBILITY_ON_SUPPLIED_CARRIED_FLAG_RESTRICTION	delta_RF equals phi_pair equals delta_K for the conditional assembly	physical pair map and universal mixed-geometry c_eff
 S06	R17 angular mixing and holonomy	RETAINED_IN_FULL_ARROW	Levi-Civita path factor	physical path selection
 S07	carried grading to rebuilt intrinsic endpoint grading	OPEN	nonparallel full-holonomy branch	middle reset transition M_B
 S08	global integrated observer-pair surface	OPEN	linear comparison Jacobian only	cut loci seams and integrability

@@ -3,7 +3,10 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`; it
+gate is `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`; it
+retains the R17 semidirect formula as an exact conditional assembly but rejects branch ownership,
+leaving zero complete branch-owned transitions and routing next to `M_B`/pair-relation ownership.
+Its parent is `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`; it
 classifies 24 stable complete-branch identities and 57 aliases into bounded geometric relation
 forms without selecting the physical non-isometric pair functor or universal scalar reduction. Its
 overlap parent is `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`,

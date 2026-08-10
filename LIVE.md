@@ -6,7 +6,7 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION (the native-resonator / precision-anchor program); three-observer carry VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; branch-transition ownership audit VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
@@ -184,10 +184,21 @@ family. External gpt-5.4 review returned `ACCEPT` with no load-bearing correctio
 owns the complete physical non-isometric observer-pair functor, middle calibration transition,
 mixed scalar reciprocal reduction, or universal `c_eff` law.
 
-**NEXT GATE (not launched):** test whether any already-complete branch supplies a non-isometric
-calibration transition on top of its now-classified global geometric family, so that the terminal
-reciprocal evaluator becomes compositional without choosing a path, scalar potential, action, or
-desired cosmology by hand. No eigenvalue solve is presently authorized.
+**BRANCH-LOCAL NON-ISOMETRIC TRANSITION AUDIT — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md` first. On
+R17/W01 C01--C06, the semidirect formula
+`A_gamma=U_gamma exp[delta_K X_p]` is exact, non-isometric, compositional, and terminal-readout
+compatible on matched path-carried states. Fresh external gpt-5.4 review reproduced the algebra
+but returned `DEMOTE_TO_CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED`: the branch owns the ingredients,
+not the choice to combine them as the physical comparison law. The corrected 24-row census has
+zero `COMPLETE_NONISOMETRIC_TRANSITION_OWNED` rows; R17 is a lawful conditional candidate. Every
+other branch ruling is unchanged.
+
+**NEXT GATE (not launched):** determine whether a complete branch owns the carried-to-rebuilt
+middle morphism `M_B`, or a calibrated pair-relation functor that determines it and a lawful pair
+Jacobian/surface. Do not set `M_B=I`, promote exact matched-state composition to physical selection,
+or call the conditional carried-flag `c_eff` readout universal. No eigenvalue solve is authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.

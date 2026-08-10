@@ -42,7 +42,10 @@ arrows compose associatively, while direct-equals-composite is the separate glob
 question. Its complete-branch follow-up is verified at
 `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`: 24 stable branch
 identities and 57 aliases reduce to three bounded geometric relation forms, but no physical
-non-isometric pair functor or universal scalar reciprocal reduction is selected. No eigenvalue
+non-isometric pair functor or universal scalar reciprocal reduction is selected. Its branch-local
+follow-up is `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`:
+R17's semidirect formula is exact on matched path-carried states but is a conditional assembly, not
+a branch-owned law; zero complete branch-owned transitions survive. No eigenvalue
 solve is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu.
 
@@ -52,7 +55,8 @@ After synchronizing `grok` exactly as directed by `AGENTS.md`, read:
 2. the marked current block in `HANDOFF.md`;
 3. `CURRENT_RESEARCH_PROGRAM.md`;
 4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`;
-5. `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
+5. `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`, then
+   `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
    `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
    `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`, then
@@ -77,6 +81,8 @@ operational instructions but cannot overrule `LIVE.md`.
 
 ## Navigation
 
+- `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md` — current
+  transition-ownership correction and `M_B`/pair-relation next gate.
 - `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md` — current
   complete-branch classification: path/holonomy, endpoint-clock, and stratified set-valued
   geometric families survive in bounded regimes; the physical non-isometric comparison remains

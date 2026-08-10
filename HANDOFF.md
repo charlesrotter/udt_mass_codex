@@ -125,8 +125,17 @@ clock-only endpoint coboundary on the unique-Killing static control, and a strat
 toric projector family. External review returned `ACCEPT`. No full physical pair functor or scalar
 reciprocal reduction is selected.
 
-**NEXT GATE, not launched:** ask branch by branch whether a non-isometric calibration transition
-is already supplied on top of the owned geometric family. C1 remains unselected; FD2/FD3/FD4,
+**BRANCH-LOCAL NON-ISOMETRIC TRANSITION AUDIT = COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md`. The R17/W01
+formula `A_gamma=U_gamma exp[delta_K X_p]` passes its exact matched-state algebra, but external
+review correctly demoted it to `CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED`. The branch owns the three
+ingredients separately; it does not select their semidirect assembly as the physical comparison
+law. Zero branch-owned complete transitions survive; all non-R17 rulings are unchanged.
+
+**NEXT GATE, not launched:** test whether the branch owns the carried-to-rebuilt middle morphism
+`M_B` or a calibrated pair-relation functor and lawful pair-surface realization. C1 remains
+unselected; FD2/FD3/FD4,
 RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The parent menu
 is `udt_freedata_inventory_MAP_2026-08-09.md`.
 
