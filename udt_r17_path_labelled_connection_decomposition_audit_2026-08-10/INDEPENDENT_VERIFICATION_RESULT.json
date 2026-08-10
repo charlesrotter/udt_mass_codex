@@ -1,0 +1,138 @@
+{
+  "aggregate_atomic_checks": 300,
+  "assigns_connection_or_curvature": false,
+  "compatible_noncommuting_second_jets": true,
+  "derives_all_curvature_planes_by_exterior_derivative": true,
+  "derives_brackets_from_noncoordinate_base": true,
+  "derives_connection_by_koszul": true,
+  "derives_frame_by_gauss_jordan": true,
+  "imports_production_controller": false,
+  "imports_sympy": false,
+  "lambda_strata": 6,
+  "maurer_cartan_signs": 2,
+  "mode": "standard_library_fraction_second_jet_constructive",
+  "schema": "udt-r17-path-connection-independent-v1",
+  "status": "PASS",
+  "witnesses": [
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C01_MC_PLUS",
+      "lambda": "-2"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C01_MC_MINUS",
+      "lambda": "-2"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C02_MC_PLUS",
+      "lambda": "-1"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C02_MC_MINUS",
+      "lambda": "-1"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C03_MC_PLUS",
+      "lambda": "0"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C03_MC_MINUS",
+      "lambda": "0"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C04_MC_PLUS",
+      "lambda": "1/2"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C04_MC_MINUS",
+      "lambda": "1/2"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C05_MC_PLUS",
+      "lambda": "1"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C05_MC_MINUS",
+      "lambda": "1"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C06_MC_PLUS",
+      "lambda": "2"
+    },
+    {
+      "checks": {
+        "connection_four_components": true,
+        "curvature_six_components": true,
+        "metricity_four_directions": true,
+        "scalar_jet_commutators_three": true
+      },
+      "id": "C06_MC_MINUS",
+      "lambda": "2"
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-10 STATUS (RESTART ANCHOR): R17 PAIR-LEAF NORMAL HOLONOMY COMPLETE.** ACTIVE ARC = CMB PEAK
+> **2026-08-10 STATUS (RESTART ANCHOR): R17 COMPLETE PATH-LABELLED CONNECTION COMPLETE.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-10) FIRST, then
+> `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -67,8 +68,12 @@
 > normal-holonomy follow-up at
 > `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md` derives the projected
 > leafwise connection and representative-free loop data. `lambda=-1` flatness and `lambda=0`
-> Hopf-basicness are distinct and unselected. NEXT, not launched, is the full path-labelled
-> connection decomposition and global compatibility audit; no
+> Hopf-basicness are distinct and unselected. Its completed path-labelled follow-up at
+> `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md` derives the
+> complete projected normal connection, all six curvature planes, and exact isometric carry after
+> a path is supplied. No `lambda` is generically completely flat or base-descended. NEXT, not
+> launched, is the unbiased compatible stationary flat/base-basic/reduced-holonomy sublocus and
+> ownership audit; no
 > profile repair, inner cutoff, eigenvalue solve, or FD2;
 > `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
 > lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build

@@ -6,7 +6,7 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 pair-leaf normal holonomy VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; R17 complete path-labelled normal connection VERIFIED-WITH-CAVEATS; BAO lane BANKED + TABLED) ============
 
 **RESTART ANCHOR (Charles, 2026-08-10): a NEW INSTANCE picks up the CMB work here.** Read THIS
 block, then the ACTIVE-ARC docs, then the LINEAGE docs, then the resume path at block end. Method
@@ -266,12 +266,27 @@ observer arrow. Fresh external review returned `VERIFIED_AS_STATED`; its mistake
 12 source files were absent was corrected after all 12 actual files matched blob, SHA-256, and
 size. No mathematical or ownership conclusion changed.
 
-**NEXT GATE (not launched):** determine whether the horizontal Hopf carry plus this leafwise
-normal connection define a consistent path-labelled connection on the whole pair-leaf bundle.
-Derive its vertical, horizontal, and mixed curvature components and test global chart and
-finite-cell compatibility across all six `lambda` strata. Do not select a path, leaf, winding,
-reset, branch, `lambda`, semidirect physical arrow, bootstrap law, or universal mixed-geometry
-`c_eff`. R18 ruler completion remains the parallel fork. No eigenvalue solve is authorized.
+**R17 COMPLETE PATH-LABELLED CONNECTION DECOMPOSITION — COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md` first. On all
+six supplied regular stationary C01--C06 coframes, the metric-projected normal connection is now
+derived in all four directions and all six curvature planes are explicit. `lambda=-1` removes
+only the clock-legged curvature; `lambda=0` makes the horizontal connection representative vanish
+and the normal metric Hopf-basic without giving generic base descent; `lambda=1` removes a
+different first-gradient term. No supplied `lambda` is generically completely flat or selected.
+For every supplied path, the connection gives exact identity/composition/reversal as an isometric
+normal-carry functor. The Hopf connection lifts a supplied base path and start phase but chooses
+neither. Fresh external `gpt-5.4` review independently reconstructed the connection and curvature
+and returned `VERIFIED_AS_STATED` with no objection. This is not the physical non-isometric
+observer arrow and does not produce an endpoint-only law.
+
+**NEXT GATE (not launched):** classify without preference the compatible stationary jet subloci
+where the complete normal connection is flat, base-basic, or has reduced holonomy, then test
+whether existing R17 equations or global completion data independently own any such sublocus.
+Keep local curvature reduction, vertical/winding holonomy, base descent, branch/on-shell ownership,
+and the physical non-isometric comparison separate. Do not select a path, leaf, winding, reset,
+branch, `lambda`, semidirect physical arrow, bootstrap law, or universal mixed-geometry `c_eff`.
+R18 ruler completion remains the parallel fork. No eigenvalue solve is authorized.
 FD2/FD3/FD4, RA1-V, GPU work, physical populations, source/state weights, and polarization remain
 gated.
 `udt_freedata_inventory_MAP_2026-08-09.md` is the parent menu only.

@@ -1,0 +1,7 @@
+candidate_id	lambda	identically_zero_curvature_components	complete_curvature_identically_zero	leafwise_flat_for_arbitrary_stationary_phi	clock_contraction_i_e0_F_zero	normal_frame_horizontal_A2_A3_zero	ruler_screen_first_gradient_terms_zero	base_metric_hopf_basic_for_arbitrary_stationary_phi	base_curvature_horizontal_for_arbitrary_stationary_phi	selected
+C01	-2	NONE	NO	NO	NO	NO	NO	NO	NO	NO
+C02	-1	F_01;F_02;F_03	NO	YES	YES	NO	NO	NO	NO	NO
+C03	0	NONE	NO	NO	NO	YES	NO	YES	NO	NO
+C04	1/2	NONE	NO	NO	NO	NO	NO	NO	NO	NO
+C05	1	NONE	NO	NO	NO	NO	YES	NO	NO	NO
+C06	2	NONE	NO	NO	NO	NO	NO	NO	NO	NO

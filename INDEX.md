@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -70,8 +71,11 @@
    determinant-`-1` metric, and same-leaf `delta_K`. The completed normal-holonomy audit derives
    the projected leafwise normal connection and representative-free loop data: `lambda=-1`
    flatness and `lambda=0` Hopf-basicness are distinct and select neither branch. Cross-leaf path
-   ownership and the full physical arrow remain open. The next bounded gate is the global
-   path-labelled connection decomposition. No
+   ownership and the full physical arrow remain open. The completed path-labelled decomposition
+   now derives the connection in all four directions and all six curvature planes, plus exact
+   isometric carry for each supplied path. No `lambda` is generically completely flat or
+   base-descended. The next bounded gate is the unbiased flat/base-basic/reduced-holonomy sublocus
+   and ownership classification. No
    eigensolve, profile repair,
    inner cutoff, or FD2. Then read
    the parent menu
@@ -84,6 +88,10 @@
 
 ## Current scientific routing
 
+- `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md` — current
+  gate: the complete projected normal connection, all six curvature planes, and the isometric
+  supplied-path functor are derived on the regular stationary C01--C06 family. Path choice,
+  generic base descent, sublocus ownership, and the physical non-isometric arrow remain open.
 - `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md` — current gate: the metric
   projects an exact normal `SO(2)` connection onto every supplied R17 pair leaf. Flat
   `lambda=-1` and Hopf-basic `lambda=0` have distinct roles; neither selects a branch. Wound

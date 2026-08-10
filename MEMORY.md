@@ -4,19 +4,19 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; R17 pair-leaf normal holonomy verified)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; R17 complete path connection verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
-`udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`: on every supplied smooth
-regular stationary C01--C06 coframe, projection of the metric connection onto the normal bundle
-gives an exact leafwise connection and curvature. `lambda=-1` makes it flat while wound holonomy
-may remain; `lambda=0` instead makes the normal screen metric Hopf-basic. Neither selects a branch.
-Closed-loop `O(2)` conjugacy/trace is representative-free, but a signed local angle is not.
-Horizontal lift requires a supplied base path and does not select the cross-leaf comparison or
-physical complete observer arrow. External review verified the bounded result and withdrew its
-mistaken source-presence objection after all 12 actual intake sources matched. Its foliation
+`udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`: on every
+supplied smooth regular stationary C01--C06 coframe, projection of the metric connection onto the
+normal bundle gives the complete four-direction connection, all six curvature planes, and an
+exact isometric path functor after a path is supplied. No supplied `lambda` is generically fully
+flat or base-descended; the path and physical non-isometric observer arrow remain open. Fresh
+external review independently reconstructed the result and returned `VERIFIED_AS_STATED`. Its
+leafwise normal-holonomy parent is
+`udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`. Its foliation
 parent is `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`: the
 R17 clock/ruler plane integrates globally into an `S2`-parametrized family of `R x S1` Hopf
 cylinders with twisted determinant-`-1` leaf metric and same-leaf depth `delta_K`. Its immediate
@@ -94,11 +94,12 @@ roots give three interleaved equatorial ladders; the old FD1 same-index multiple
 (503 `SPLITTING_ONLY`, 127 `BASIN_MISMATCH`, zero full-centered convention rows). RA2 remains
 `RA2-PARTIAL-WEAK`, and BAO remains `BANKED + TABLED`.
 
-Nothing is in flight. NEXT is the bounded global path-labelled connection audit: determine whether
-horizontal Hopf carry and leafwise normal carry form one consistent connection on the complete
-pair-leaf bundle, derive vertical/horizontal/mixed curvature, and test chart and finite-cell
-compatibility across all six `lambda` strata without selecting a path, winding, reset, branch,
-semidirect physical arrow, action, bootstrap law, or universal `c_eff`. No profile repair, inner
+Nothing is in flight. NEXT is the bounded unbiased classification of compatible stationary jet
+subloci where the complete normal connection is flat, base-basic, or reduced-holonomy, followed by
+an ownership test against existing R17 equations and global completion data. Keep local curvature,
+vertical/winding holonomy, base descent, branch/on-shell ownership, and the physical non-isometric
+arrow separate. Do not select a path, winding, reset, branch, semidirect physical arrow, action,
+bootstrap law, or universal `c_eff`. No profile repair, inner
 cutoff, eigenvalue solve, or FD2 is
 authorized. Do not promote C1, select `k0`, select the best standalone ladder, or invent source
 weights.

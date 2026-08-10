@@ -1,0 +1,16 @@
+{
+  "base_path_selected": false,
+  "checks": {
+    "closed_loop_gauge_shift_zero": true,
+    "composition": true,
+    "gauge_integral_endpoint_shift": true,
+    "identity": true,
+    "reflection_reverses_angle": true,
+    "reversal": true,
+    "trace_is_reflection_safe": true
+  },
+  "passed_checks": 7,
+  "physical_arrow_derived": false,
+  "schema": "udt-r17-path-functor-exact-v1",
+  "status": "PASS"
+}

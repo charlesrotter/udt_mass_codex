@@ -1,0 +1,81 @@
+{
+  "checks": {
+    "all_six_curvature_planes_present": true,
+    "compatible_scalar_jet_relations_used": true,
+    "complete_connection_derived_from_coframe": true,
+    "horizontal_sector_not_assumed_flat": true,
+    "leafwise_F01_reproduced": true,
+    "mixed_sector_not_identically_erased": true,
+    "no_complete_flat_lambda_in_generic_jet_space": true,
+    "no_lambda_selected": true,
+    "projected_connection_metric": true,
+    "six_lambda_strata_retained": true
+  },
+  "connection_mc_minus": [
+    "-a*exp(-phi*(2*lambda + 1))",
+    "exp(-2*lambda*phi + phi) - 2*exp(-phi)",
+    "-lambda*p3*exp(-lambda*phi)",
+    "lambda*p2*exp(-lambda*phi)"
+  ],
+  "connection_mc_plus": [
+    "a*exp(-phi*(2*lambda + 1))",
+    "-exp(-2*lambda*phi + phi) + 2*exp(-phi)",
+    "-lambda*p3*exp(-lambda*phi)",
+    "lambda*p2*exp(-lambda*phi)"
+  ],
+  "curvature_mc_minus": {
+    "F_01": "-2*a*p1*(lambda + 1)*exp(-2*phi)*exp(-2*lambda*phi)",
+    "F_02": "-2*a*p2*(lambda + 1)*exp(-phi)*exp(-3*lambda*phi)",
+    "F_03": "-2*a*p3*(lambda + 1)*exp(-phi)*exp(-3*lambda*phi)",
+    "F_12": "(2*lambda*p2*exp(2*phi) - lambda*q31*exp(2*lambda*phi) - 2*p2*exp(2*phi))*exp(-phi)*exp(-3*lambda*phi)",
+    "F_13": "(2*lambda*p3*exp(2*phi) + lambda*q21*exp(2*lambda*phi) - 2*p3*exp(2*phi))*exp(-phi)*exp(-3*lambda*phi)",
+    "F_23": "(-2*a**2 + lambda*q22*exp(2*phi)*exp(2*lambda*phi) + lambda*q33*exp(2*phi)*exp(2*lambda*phi) + 2*exp(4*phi) - 4*exp(2*phi)*exp(2*lambda*phi))*exp(-2*phi)*exp(-4*lambda*phi)"
+  },
+  "curvature_mc_plus": {
+    "F_01": "2*a*p1*(lambda + 1)*exp(-2*phi)*exp(-2*lambda*phi)",
+    "F_02": "2*a*p2*(lambda + 1)*exp(-phi)*exp(-3*lambda*phi)",
+    "F_03": "2*a*p3*(lambda + 1)*exp(-phi)*exp(-3*lambda*phi)",
+    "F_12": "-(2*lambda*p2*exp(2*phi) + lambda*q31*exp(2*lambda*phi) - 2*p2*exp(2*phi))*exp(-phi)*exp(-3*lambda*phi)",
+    "F_13": "-(2*lambda*p3*exp(2*phi) - lambda*q21*exp(2*lambda*phi) - 2*p3*exp(2*phi))*exp(-phi)*exp(-3*lambda*phi)",
+    "F_23": "(-2*a**2 + lambda*q22*exp(2*phi)*exp(2*lambda*phi) + lambda*q33*exp(2*phi)*exp(2*lambda*phi) + 2*exp(4*phi) - 4*exp(2*phi)*exp(2*lambda*phi))*exp(-2*phi)*exp(-4*lambda*phi)"
+  },
+  "gauge_rule": "A_prime=A+d_chi__F_prime=F__O2_reflection_sends_F_to_minus_F",
+  "invariant_squares_mc_plus": {
+    "horizontal": "(-2*a**2 + lambda*q22*exp(2*phi)*exp(2*lambda*phi) + lambda*q33*exp(2*phi)*exp(2*lambda*phi) + 2*exp(4*phi) - 4*exp(2*phi)*exp(2*lambda*phi))**2*exp(-4*phi)*exp(-8*lambda*phi)",
+    "leaf": "4*a**2*p1**2*(lambda + 1)**2*exp(-4*phi)*exp(-4*lambda*phi)",
+    "mixed": "(4*a**2*lambda**2*p2**2 + 4*a**2*lambda**2*p3**2 + 8*a**2*lambda*p2**2 + 8*a**2*lambda*p3**2 + 4*a**2*p2**2 + 4*a**2*p3**2 + 4*lambda**2*p2**2*exp(4*phi) + 4*lambda**2*p2*q31*exp(2*phi)*exp(2*lambda*phi) + 4*lambda**2*p3**2*exp(4*phi) - 4*lambda**2*p3*q21*exp(2*phi)*exp(2*lambda*phi) + lambda**2*q21**2*exp(4*lambda*phi) + lambda**2*q31**2*exp(4*lambda*phi) - 8*lambda*p2**2*exp(4*phi) - 4*lambda*p2*q31*exp(2*phi)*exp(2*lambda*phi) - 8*lambda*p3**2*exp(4*phi) + 4*lambda*p3*q21*exp(2*phi)*exp(2*lambda*phi) + 4*p2**2*exp(4*phi) + 4*p3**2*exp(4*phi))*exp(-2*phi)*exp(-6*lambda*phi)"
+  },
+  "lambda_strata": 6,
+  "landing": "COMPLETE_METRIC_PROJECTED_H_CONNECTION_AND_PATH_FUNCTOR_DERIVED_ON_SUPPLIED_REGULAR_STATIONARY_R17__FULL_CURVATURE_GENERALLY_NONZERO__PATH_SELECTION_AND_PHYSICAL_ARROW_OPEN",
+  "path_transport": {
+    "base_path_selected": false,
+    "composition": "DERIVED_FOR_CONCATENATED_PATHS",
+    "identity": "DERIVED_FOR_SUPPLIED_PATH_FUNCTOR",
+    "reversal": "DERIVED_FOR_REVERSED_PATH"
+  },
+  "physical_observer_arrow_derived": false,
+  "schema": "udt-r17-path-labelled-connection-decomposition-v1",
+  "scope_guards": {
+    "ambient_Lorentz_holonomy_conflated": false,
+    "base_path_selected": false,
+    "connection_coefficients_assigned": false,
+    "downstream_physics_inferred": false,
+    "horizontal_curvature_assumed_flat": false,
+    "incompatible_scalar_jets_used": false,
+    "mixed_curvature_erased": false,
+    "one_lambda_or_leaf_selected": false,
+    "projected_connection_called_physical_arrow": false,
+    "signed_angle_called_O2_invariant": false
+  },
+  "selected_lambda": null,
+  "selected_leaf": null,
+  "selected_path": null,
+  "status": "PASS",
+  "vertical_contractions_mc_plus": {
+    "F_TX": "2*a*p2*(lambda + 1)*exp(-2*phi)*exp(-2*lambda*phi)",
+    "F_TY": "2*a*p3*(lambda + 1)*exp(-2*phi)*exp(-2*lambda*phi)",
+    "F_TZ": "2*a*p1*(lambda + 1)*exp(-2*phi)*exp(-2*lambda*phi)",
+    "F_ZX": "(2*a**2*lambda*p2 + 2*a**2*p2 - 2*lambda*p2*exp(4*phi) - lambda*q31*exp(2*phi)*exp(2*lambda*phi) + 2*p2*exp(4*phi))*exp(-2*phi)*exp(-2*lambda*phi)",
+    "F_ZY": "(2*a**2*lambda*p3 + 2*a**2*p3 - 2*lambda*p3*exp(4*phi) + lambda*q21*exp(2*phi)*exp(2*lambda*phi) + 2*p3*exp(4*phi))*exp(-2*phi)*exp(-2*lambda*phi)"
+  }
+}

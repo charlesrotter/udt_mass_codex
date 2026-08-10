@@ -1,0 +1,19 @@
+catch_id	mutant	expected	observed
+F01	remove derived Koszul connection	REJECT	REJECT
+F02	wrong banked F01	REJECT	REJECT
+F03	erase mixed F12	REJECT	REJECT
+F04	erase horizontal F23	REJECT	REJECT
+F05	use incompatible scalar jets	REJECT	REJECT
+F06	break metricity	REJECT	REJECT
+F07	break path composition	REJECT	REJECT
+F08	promote lambda -1 to full flatness	REJECT	REJECT
+F09	horizontal lift selects path	REJECT	REJECT
+F10	select lambda	REJECT	REJECT
+F11	signed angle called O2 invariant	REJECT	REJECT
+F12	conflate ambient Lorentz holonomy	REJECT	REJECT
+F13	promote projected connection to physical arrow	REJECT	REJECT
+F14	promote lambda zero base descent	REJECT	REJECT
+F15	generalize bounded result	REJECT	REJECT
+F16	infer downstream physics	REJECT	REJECT
+F17	independent verifier assigns formulas	REJECT	REJECT
+F18	drop a frozen source	REJECT	REJECT

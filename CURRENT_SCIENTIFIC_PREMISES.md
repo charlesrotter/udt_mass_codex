@@ -389,6 +389,18 @@ requires a supplied base path and does not select the cross-leaf comparison or p
 arrow. Fresh external review returned `VERIFIED_AS_STATED`; a factual source-presence objection
 was withdrawn after all 12 actual intake sources matched their blobs, SHA-256 values, and sizes.
 
+The R17 path-labelled connection decomposition audit,
+`udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, closes the
+next bounded metric-owned layer. The projected normal connection is derived in all four directions
+on every supplied regular stationary C01--C06 coframe, with all six curvature planes explicit and
+exact identity/composition/reversal transport after a path is supplied. `lambda=-1` removes only
+clock-legged curvature; `lambda=0` supplies a Hopf-basic normal metric and zero horizontal local
+connection coefficients but not generic base descent; `lambda=1` removes a different
+first-gradient term. No supplied `lambda` is generically completely flat or selected. Fresh
+manifest-confined external review independently reconstructed the algebra and returned
+`VERIFIED_AS_STATED` with no objection. Path selection, generic endpoint-only descent, ownership
+of special stationary jet subloci, and the physical non-isometric observer arrow remain open.
+
 Do not
 promote the conditional
 local query enrichment into a universally founded physical functor, call ordering a unique arrow,
@@ -399,7 +411,9 @@ group, erase path labels, promote projector alignment to calibration-density ali
 zero holonomy. Do not call the conditional vertical metric class a selected physical arrow or claim
 that pair-only Reciprocity fixes the screen response. Do not promote the R17 leaf family into one
 selected leaf, erase path/winding labels, call its 4D normal bundle a literal contact structure, or
-identify same-leaf endpoint depth with a universal cross-leaf observer map. No action, source,
+identify same-leaf endpoint depth with a universal cross-leaf observer map. Do not call
+`lambda=-1` completely flat, `lambda=0` generically base-descended, the Hopf lift a path selector,
+or the complete isometric normal carry the physical non-isometric observer arrow. No action, source,
 matter, mass, CMB spectrum, signaling
 law, `X_max` value, universal mixed-geometry `c_eff`, eigenvalue solve, FD2, or GPU work is derived
 or authorized.

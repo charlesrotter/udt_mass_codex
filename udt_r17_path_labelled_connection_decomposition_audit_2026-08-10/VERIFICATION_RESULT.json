@@ -1,0 +1,14 @@
+{
+  "external_adversarial_review": "VERIFIED_AS_STATED",
+  "external_review_committed_sha256": "395c069f60b0f1d4018a2080e9ecb7bb12b4efbbdb6b167064a80f0b6dff0213",
+  "external_review_received_sha256": "c0f5b6a8c277081d37d1212e93124f9adde9ed364da068eb376a94a99e12b685",
+  "independent_atomic_checks": 300,
+  "lambda_strata": 6,
+  "landing": "COMPLETE_METRIC_PROJECTED_H_CONNECTION_AND_PATH_FUNCTOR_DERIVED_ON_SUPPLIED_REGULAR_STATIONARY_R17__FULL_CURVATURE_GENERALLY_NONZERO__PATH_SELECTION_AND_PHYSICAL_ARROW_OPEN",
+  "mutation_catches": 18,
+  "path_functor_checks": 7,
+  "production_checks": 10,
+  "schema": "udt-r17-path-labelled-connection-verification-v1",
+  "source_manifest_rows": 14,
+  "status": "PASS"
+}

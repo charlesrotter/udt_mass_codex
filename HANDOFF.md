@@ -184,10 +184,17 @@ not the signed local angle. A horizontal lift requires a supplied base path and 
 the physical observer arrow. External review verified the bounded result; its false provenance
 objection was withdrawn after all 12 actual intake sources were hash-checked.
 
-**NEXT GATE, not launched:** determine whether horizontal Hopf carry and leafwise normal carry form
-a consistent path-labelled connection over the complete pair-leaf bundle; derive vertical,
-horizontal, and mixed curvature and test global chart/finite-cell compatibility. Do not select a
-path, leaf, winding, reset, branch, `lambda`, semidirect physical arrow, bootstrap law, or
+**R17 COMPLETE PATH-LABELLED CONNECTION = COMPLETE, `VERIFIED-WITH-CAVEATS`.** Read
+`udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`. Projection of
+the Levi--Civita connection onto the R17 normal plane is now derived in all four directions, with
+all six curvature components and both Maurer--Cartan signs checked. It supplies an exact isometric
+path functor after a path is given, not a path selector or physical non-isometric observer arrow.
+No supplied `lambda` is generically completely flat or base-descended. Fresh external review
+independently reconstructed the algebra and returned `VERIFIED_AS_STATED` with no objection.
+
+**NEXT GATE, not launched:** classify the compatible stationary flat/base-basic/reduced-holonomy
+jet subloci and then test whether existing R17 equations or completion data own any of them. Do not
+select a path, leaf, winding, reset, branch, `lambda`, semidirect physical arrow, bootstrap law, or
 universal `c_eff`. R18 ruler completion remains the parallel fork. C1 remains unselected;
 FD2/FD3/FD4, RA1-V, GPU work, CMB fitting, physical populations, and polarization remain gated. The
 parent menu is `udt_freedata_inventory_MAP_2026-08-09.md`.

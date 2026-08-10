@@ -93,10 +93,14 @@ with determinant `-1`, and same-leaf endpoint depth `delta_K`. The angular plane
 nonintegrable normal bundle in 4D. Its completed follow-up,
 `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, derives the metric-projected
 leafwise normal connection and representative-free closed-loop data on all six supplied strata.
-`lambda=-1` flatness and `lambda=0` Hopf-basicness are distinct and select neither branch. The new
-NEXT gate is the full path-labelled connection decomposition—vertical, horizontal, and mixed
-curvature plus global chart/finite-cell compatibility. Cross-leaf base-path choice and the
-complete physical arrow remain open.
+`lambda=-1` flatness and `lambda=0` Hopf-basicness are distinct and select neither branch. Its
+completed follow-up,
+`udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, derives the
+complete projected normal connection in all four directions, all six curvature planes, and the
+exact isometric supplied-path functor. No supplied `lambda` is generically fully flat or
+base-descended. The new NEXT gate is the unbiased classification of compatible stationary
+flat/base-basic/reduced-holonomy jet subloci and whether existing R17 equations or completion data
+own any of them. Cross-leaf base-path choice and the complete physical arrow remain open.
 No profile repair, inner cutoff, eigenvalue solve, or FD2 restart is authorized.
 `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu, not the active FD1 instruction.
 The scientific SPINE below (phi+orchestra, c_eff, the

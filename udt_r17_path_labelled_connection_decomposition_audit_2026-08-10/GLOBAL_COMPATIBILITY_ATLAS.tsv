@@ -1,0 +1,14 @@
+item_id	object_or_question	status	exact_scope	open_boundary
+G01	pair_leaf_bundle_pi_RxS3_to_S2	DERIVED_INHERITED	fibers R x S1 on supplied completion	other global completions excluded
+G02	Hopf_Ehresmann_connection_H	DERIVED	H=ker(dt) intersect ker(sigma3)	no base path selected
+G03	Hopf_horizontal_lift	DERIVED_CONDITIONAL_QUERY	unique after base path and start point supplied	base path and starting phase open
+G04	complete_projected_normal_connection_D	DERIVED	D_X=P_H nabla_X on all four directions	physical ownership beyond isometric carry open
+G05	path_groupoid_transport_functor	DERIVED_CONDITIONAL_QUERY	identity composition reversal for supplied paths	no path or endpoint-only descent selected
+G06	SO2_chart_overlap	DERIVED	A transforms inhomogeneously and F by conjugation	orientation reflection changes signed representative
+G07	O2_representative_free_loop_data	DERIVED	closed-loop conjugacy class trace and curvature squares	open-path matrix remains endpoint-gauge covariant
+G08	lambda_minus_one_complete_flatness	REFUTED_IN_GENERIC_JET_SPACE	clock-legged curvature zero but F12 F13 F23 survive	restricted flat subloci unclassified
+G09	lambda_zero_complete_base_descent	REFUTED_IN_GENERIC_JET_SPACE	normal metric basic but complete D curvature not vertical-horizontal	possible restricted subloci require extra audit
+G10	any_supplied_lambda_generic_base_curvature_descent	NONE	all six fail necessary vertical contraction identity	jet subloci and vertical holonomy remain open
+G11	global_preferred_Hopf_section	TOPOLOGICALLY_UNAVAILABLE_IN_INHERITED_COMPLETION	Hopf bundle has no global section	local sections and path lifts valid
+G12	finite_cell_compatibility	DERIVED_CONDITIONAL_COMPLETION	smooth positive R x S3 has no added edge seam	other seals quotients and degenerate completions excluded
+G13	physical_nonisometric_observer_arrow	OPEN	D supplies isometric normal carry only	magnitude owner reset and physical path unresolved

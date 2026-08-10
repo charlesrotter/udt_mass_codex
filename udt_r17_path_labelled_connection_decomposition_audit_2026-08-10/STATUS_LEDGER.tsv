@@ -1,0 +1,16 @@
+claim_id	claim	status	scope_or_reason
+S01	D_X=P_H_nabla_X_is_a_complete_metric_connection_on_H	DERIVED	supplied regular stationary R17 family
+S02	four_connection_components	DERIVED	exact coframe bracket and Koszul reconstruction
+S03	six_curvature_components	DERIVED	exact compatible noncommuting stationary jets
+S04	lambda_minus_one_clock_contraction_zero	DERIVED	i_e0 F=0 for arbitrary stationary phi
+S05	lambda_minus_one_complete_connection_flat	REFUTED_GENERIC	F12 F13 F23 not identically zero
+S06	lambda_zero_horizontal_A_components_zero	DERIVED	left-invariant normal-frame representative
+S07	lambda_zero_normal_metric_Hopf_basic	DERIVED_IN_PARENT	arbitrary stationary phi
+S08	lambda_zero_complete_D_base_basic	REFUTED_GENERIC	vertical curvature contractions remain
+S09	lambda_one_mixed_first_gradient_terms_zero	DERIVED	crossed Hessian terms remain
+S10	any_lambda_selected	OPEN	three distinct simplifications and no selector
+S11	path_transport_identity_composition_reversal	DERIVED	after a piecewise-smooth path is supplied
+S12	metric_selects_base_path_or_start_phase	OPEN	Ehresmann connection lifts but does not choose query
+S13	complete_connection_endpoint_only	OPEN_NON_GENERIC	curvature and holonomy preserve path dependence
+S14	physical_nonisometric_observer_arrow	OPEN	metric connection is isometric carry only
+S15	action_source_matter_bootstrap_Xmax_CMB_signalling_dynamics	EXCLUDED	not tested or inferred

@@ -35,6 +35,7 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION.** First read
+   `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -99,8 +100,11 @@ do not dump whole long files or recursively open cited evidence during orientati
    completed normal-holonomy follow-up then derives the projected leafwise normal connection and
    representative-free closed-loop data; `lambda=-1` flatness and `lambda=0` Hopf-basicness are
    distinct and select neither branch. Cross-leaf path choice and the complete physical arrow stay
-   open. The next gate is the global path-labelled connection decomposition, not another lift
-   ansatz or owner census. No profile repair,
+   open. The completed path-labelled decomposition now derives the full projected connection in
+   all four directions, all six curvature planes, and exact isometric transport after a path is
+   supplied. No `lambda` is generically completely flat or base-descended. The next gate is the
+   unbiased classification and ownership test of flat/base-basic/reduced-holonomy stationary jet
+   subloci, not another lift ansatz or owner census. No profile repair,
    inner cutoff, eigenvalue solve, or FD2 is authorized. Then read
    `udt_freedata_inventory_MAP_2026-08-09.md` as the parent FD1-FD4 menu and
    `udt_roadA_mode_quantization_MAP_2026-08-08.md` with the RA1/RA2 packages (the native resonator;
