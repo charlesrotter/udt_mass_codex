@@ -1,0 +1,13 @@
+candidate_id	candidate_object	declared_type	question	pre_outcome
+J01	(delta_K,U_gamma)	R_times_SO2_gauge_covariant_path_arrow	does the pair compose exactly	UNSEEN
+J02	exp(w_delta_K)_U_gamma	COplus2_gauge_covariant_path_arrow	which real w compose	UNSEEN
+J03	complete_coframe_screen_lift	COplus2_gauge_covariant_path_arrow	does v=exp(lambda_phi) fix w and sign	UNSEEN
+J04	f(delta_K,U_gamma)	real_open_path_scalar	can independent endpoint gauge invariance retain U_gamma	UNSEEN
+J05	continuous_real_character_of_R_times_SO2	real_additive_cocycle	can angular holonomy enter additively	UNSEEN
+J06	circle_valued_character_of_R_times_SO2	U1_character	what angular data compose without unwrapping	UNSEEN
+J07	unwrapped_holonomy_angle	real_path_lift	what extra lift or framing is required	UNSEEN
+J08	closed_loop_trace_or_cosine	real_gauge_invariant_loop_readout	what survives when endpoints coincide	UNSEEN
+J09	two_path_relative_holonomy	SO2_or_O2_conjugacy_class	what survives for two paths with common endpoints	UNSEEN
+J10	nontrivial_R_semidirect_action_on_SO2	continuous_group_extension	can depth act nontrivially on rotation	UNSEEN
+J11	local_depth_curvature_contractions	local_scalar_or_form	are these composition laws or diagnostics	UNSEEN
+J12	flat_special_locus_joint_data	stationary_control	does flatness collapse the joint arrow without selecting it	UNSEEN

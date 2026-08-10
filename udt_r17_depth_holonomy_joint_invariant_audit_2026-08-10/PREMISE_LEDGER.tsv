@@ -1,0 +1,15 @@
+premise_id	object_or_choice	provenance_tag	status_and_source	uncovered_scope
+P01	stationary_R17_coframe	pinned-by-THEORY	conditional supplied geometry; G46-G50	branch and on-shell selection open
+P02	intrinsic_endpoint_depth_delta_K	pinned-by-THEORY	derived conditional endpoint coboundary on stationary R17; G47	physical cross-leaf observer map open
+P03	projected_normal_connection_D	pinned-by-THEORY	metric-derived from Levi-Civita projection; G48-G49	physical non-isometric arrow open
+P04	piecewise_smooth_path	free-and-explored	supplied query label; no path selected	cut locus and physical query ownership open
+P05	lambda	free-and-explored	symbolic plus all six supplied strata	no lambda or branch selection
+P06	twist_a	free-and-explored	symbolic regular nonzero twist; registered controls retained	degenerate boundary excluded
+P07	phi	free-and-explored	arbitrary smooth stationary profile; constant controls retained	time-live phi excluded
+P08	endpoint_screen_frames	free-and-explored	independent SO2 rotations; reflection quotient separately classified	no frame representative selected
+P09	orientation_sign	free-and-explored	both Maurer--Cartan signs and O2-safe shadows	global nonorientable completions excluded
+P10	joint_representation_weight_w	free-and-explored	all real weights classified; complete-coframe weight tested separately	physical representation selection open
+P11	complete_screen_weight_lambda	pinned-by-THEORY-within-supplied-coframe	v=exp(lambda phi) in each supplied configuration	lambda unselected across family
+P12	fiber_period_2pi	pinned-by-THEORY-inherited	registered Hopf normalization; not rederived here	other quotients excluded
+P13	action_source_bootstrap	free-and-explored-by-exclusion	not used	complete physics open
+P14	physical_c_eff_identification	free-and-explored-by-exclusion	not assumed	universal mixed-geometry law open
