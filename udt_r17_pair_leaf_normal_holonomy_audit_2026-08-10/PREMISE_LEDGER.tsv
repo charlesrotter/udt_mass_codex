@@ -1,0 +1,15 @@
+premise_id	item	status	role	open_or_excluded
+P01	R17_W01_C01_C06_complete_coframes	pinned-by-SUPPLIED_CONDITIONAL_SOURCE	bounded metric family	branch and on-shell selection open
+P02	stationarity_T_phi_zero	pinned-by-SUPPLIED_CONDITIONAL_SOURCE	analytic family hypothesis	time-live and nonstationary strata excluded
+P03	positive_u_v_regular_stratum	pinned-by-SUPPLIED_CONDITIONAL_SOURCE	nondegenerate orthonormal frame	null and rank-changing strata excluded
+P04	lambda_six_values	free-and-explored	complete supplied screen-weight census	no value selected
+P05	a_one_over_64	pinned-by-FREE_WITNESS	registered twisted global witness	physical twist magnitude open
+P06	F_GENERIC_epsilon_one_over_50	pinned-by-FREE_WITNESS	global nonconstant witness	field equation and physical profile open
+P07	arbitrary_smooth_stationary_phi	free-and-derived-symbolically	analytic dependence	no profile fitted or selected
+P08	Levi_Civita_connection	pinned-by-THEORY__metric_definition	unique torsion-free metric connection	not identified with physical observer mechanics
+P09	projected_normal_connection	pinned-by-THEORY__subbundle_connection	D_V_s=H_nabla_V_s	physical transport ownership open
+P10	Maurer_Cartan_sign	free-and-explored	both sign conventions	orientation not selected
+P11	screen_orientation	free-gauge	local_SO2_calculation	banked observable must survive O2 conjugation or be stamped conditional
+P12	loop_path_and_winding	free-and-characterized	contractible and all integer winding classes	no path or winding selected
+P13	cross_leaf_path	OPEN_QUERY	separate horizontal comparison	no canonical base path assumed
+P14	action_source_matter_bootstrap_Xmax_CMB_dynamics	EXCLUDED	downstream physics	no inference authorized

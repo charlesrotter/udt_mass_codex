@@ -1,0 +1,13 @@
+source_id	path	role
+S01	CURRENT_SCIENTIFIC_PREMISES.tsv	G41-G47 precedence and scope guards
+S02	udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md	controlling pair-foliation result
+S03	udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/EXACT_DERIVATION.md	dual frame brackets leaves and normal seam
+S04	udt_r17_magnitude_to_grading_selection_audit_2026-08-10/EXACT_DERIVATION.md	conditional vertical metric class
+S05	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/PREREGISTRATION.md	frozen global profile and coframe
+S06	udt_twisted_s3_intrinsic_pair_witness_audit_2026-07-27/CANDIDATE_UNIVERSE.tsv	C01-C06 parameter identities
+S07	udt_finite_cell_reciprocal_quotient_reduction_audit_2026-07-27/EXACT_DERIVATION.md	projected screen connection and ambient-holonomy separation
+S08	udt_intrinsic_reciprocal_holonomy_audit_2026-07-27/EXACT_DERIVATION.md	ambient holonomy control
+S09	udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/EXACT_DERIVATION.md	screen alignment bitorsor and path labels
+S10	udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/EXACT_DERIVATION.md	representative-free scalar descent
+S11	udt_three_observer_overlap_calibration_carry_audit_2026-08-10/EXACT_DERIVATION.md	composition versus path independence
+S12	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	terminal pair-depth boundary
