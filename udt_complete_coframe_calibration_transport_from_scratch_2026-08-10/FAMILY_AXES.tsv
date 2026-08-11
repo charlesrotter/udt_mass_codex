@@ -1,0 +1,12 @@
+axis_id	question	pass_or_classification
+A01	Is the object correctly typed as a transport on a positive calibration line or associated torsor?	DERIVED / CONDITIONAL / TYPE_FAIL
+A02	Does identity composition and reversal hold exactly?	PASS / FAIL / DOMAIN_RESTRICTED
+A03	Is it invariant under endpoint frame changes and lawful screen gauge transformations?	PASS / FAIL / REPRESENTATIVE_DEPENDENT
+A04	Does it retain full time dependence and complete angular/mixing data?	FULL / CONDITIONAL_RESTRICTION / DROPPED
+A05	Is the transport isometric or can it carry non-isometric magnitude?	ISOMETRIC_ZERO / NONISOMETRIC / UNOWNED
+A06	Does pure reciprocal normalization recover the founded depth without using c_E to build the relation?	PASS / FAIL / NOT_APPLICABLE
+A07	Are free one-forms coefficient functions endpoint terms and path holonomy exposed rather than selected?	EXPOSED / SILENTLY_FIXED
+A08	What selects the object?	METRIC / COMPLETE_COFRAME / SUPPLIED_QUERY / GLOBAL / ON_SHELL / NONE
+A09	What happens on the stationary R17 recovery restriction?	RECOVERS / DEGENERATES / TYPE_INAPPLICABLE
+A10	Which higher-jet null cut-locus and rank-changing scopes remain open?	EXPLICIT / MISSING
+
