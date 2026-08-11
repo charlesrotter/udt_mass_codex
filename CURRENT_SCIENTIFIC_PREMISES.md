@@ -14,8 +14,8 @@ premise-scoped meaning; they do not override a later source-specific correction.
 `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md` controls the current owner
 gate. Geometric screen carry is `DERIVED_CONDITIONAL_ON_QUERY`; source shape/normalization,
 physical endpoint/profile, and observation-level carry remain `OPEN_NO_OWNER`. No target is
-`OWNED_NATIVE`. This is a source-bounded result awaiting external review, not a universal no-go or
-a CMB model.
+`OWNED_NATIVE`. External review upheld the source-bounded result; its literal-citation caveat is
+closed by an additions-only overlay. This is not a universal no-go or a CMB model.
 
 ## G70 parent lead
 

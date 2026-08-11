@@ -6,23 +6,26 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G71 NATIVE RESTRICTION-OWNER AUDIT INTERNALLY VERIFIED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G71 NATIVE RESTRICTION-OWNER AUDIT EXTERNALLY VERIFIED) ============
 
 **LATEST LEAD — G71 NATIVE RESTRICTION-OWNER AUDIT,
-`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`; landing
+`EXTERNALLY_VERIFIED_WITH_LITERAL_CITATION_CAVEAT_CLOSED_LOCALLY`; landing
 `GEOMETRIC_CARRY_OWNED__OBSERVABLE_AND_SELECTION_OWNERS_OPEN`.** Read
 `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`, `OWNER_TARGET_LEDGER.tsv`, and `PREREGISTRATION.md`. Across the exact frozen
+`EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`, `OWNER_TARGET_LEDGER.tsv`, and
+`PREREGISTRATION.md`. Across the exact frozen
 21-source universe, none of the five physically helpful restrictions—source shape, source
 normalization, physical CMB endpoint, physical intervening profile, or observation-level carry
 readout—has a current native owner. The metric does derive geometric azimuthal/normal-screen carry
 on a supplied path/query, so that one target is `DERIVED_CONDITIONAL_ON_QUERY`, not
 `OWNED_NATIVE`. Exact source congruence shows an unrestricted positive-definite source can absorb
 any invertible screen map; 12 exact rational and 200 independent numerical trials pass, as do all
-13 semantic catch-proofs. No fit, anchor, ODE/PDE solve, GPU work, source, endpoint, profile,
-bootstrap rule, or `X_max` selection entered. NEXT: cold-review G71. If upheld, target the missing
-typed observation/response or native selection map directly; do not run another inverse-rank scan
-or invent an owner.
+13 semantic catch-proofs. A sealed reviewer independently upheld all science and 44/44 hashes; its
+only caveat was that the source-atlas evidence labels were paraphrases rather than literal tokens.
+An additions-only 21-row literal-citation overlay closes that evidence-hygiene caveat without
+changing a status. No fit, anchor, ODE/PDE solve, GPU work, source, endpoint, profile, bootstrap
+rule, or `X_max` selection entered. NEXT: target the missing typed observation/response map
+directly; do not run another inverse-rank scan or invent an owner.
 
 **LATEST LEAD — G70 COMPLETE-QUERY-OWNED RESTRICTION AND CHANNEL ATLAS,
 `EXTERNALLY_VERIFIED_WITH_REPOSITORY_PROVENANCE_CAVEAT_CLOSED_LOCALLY`; strict landing

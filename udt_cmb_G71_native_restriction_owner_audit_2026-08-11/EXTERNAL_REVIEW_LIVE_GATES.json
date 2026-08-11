@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "external_landing": true,
+    "overlay": true,
+    "protected_excluded": true,
+    "protected_metadata": true,
+    "raw_hash": true,
+    "review_manifest_hash": true,
+    "reviewed_paths": true,
+    "science_unchanged": true,
+    "transcript_hash": true
+  },
+  "effective_scientific_landing": "GEOMETRIC_CARRY_OWNED__OBSERVABLE_AND_SELECTION_OWNERS_OPEN",
+  "external_landing": "VERIFIED_WITH_CAVEATS",
+  "literal_overlay_rows": 21,
+  "passed": 9,
+  "reviewed_manifest_rows": 44,
+  "schema": "udt-cmb-g71-external-adjudication-v1",
+  "total": 9
+}

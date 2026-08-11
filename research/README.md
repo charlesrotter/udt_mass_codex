@@ -10,8 +10,9 @@ Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 **CMB PEAK OPTIMIZATION**. The current G71 restriction-owner lead is
 `../udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`. G71 finds geometric
 carry derived conditionally on a supplied query/path, but no native source, endpoint/profile, or
-observable-carry owner in the exact 21-source universe. It is internally verified and awaits cold
-review. Its G70 parent is
+observable-carry owner in the exact 21-source universe. External review upheld the science; its
+literal-citation caveat is closed by an
+additions-only overlay. Its G70 parent is
 `../udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`. G70 finds uniform full
 three-control rank only when known source covariance including normalization and independent carry
 are supplied; 15 weaker-model rows remain unresolved, and none of the helpful physical restrictions
@@ -40,6 +41,7 @@ holonomy, and R17 normal holonomy throughout its exact bounded `14`-witness atla
 geometric coexistence, not physical selection, dynamics, global completion, or stability.
 Read in order:
 `../udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`, then
+`../udt_cmb_G71_native_restriction_owner_audit_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `../udt_cmb_G71_native_restriction_owner_audit_2026-08-11/EXACT_DERIVATION.md`, then
 `../udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`, then
 `../udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXACT_DERIVATION.md`, then

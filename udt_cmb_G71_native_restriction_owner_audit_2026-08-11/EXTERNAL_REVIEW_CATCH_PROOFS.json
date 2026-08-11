@@ -1,0 +1,15 @@
+{
+  "caught": {
+    "carry_promotion": true,
+    "duplicate_source": true,
+    "missing_source": true,
+    "nonliteral_token": true,
+    "role_drift": true,
+    "status_promotion": true,
+    "wrong_line_number": true,
+    "wrong_source": true
+  },
+  "passed": 8,
+  "schema": "udt-cmb-g71-external-catches-v1",
+  "total": 8
+}

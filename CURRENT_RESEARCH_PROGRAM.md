@@ -13,8 +13,9 @@ restriction owners across the exact 21-source current evidence universe. The met
 carry only conditionally on a supplied query/path. Source shape and normalization, physical CMB
 endpoint/profile selection, and an independently observable carry channel remain `OPEN_NO_OWNER`;
 zero target is `OWNED_NATIVE`. Exact and independent source-congruence/amplitude tests and 13/13
-semantic catch-proofs pass. The result is internally verified and awaiting sealed external review.
-Next is one typed missing-map derivation, not another rank scan or fit.
+semantic catch-proofs pass. External review upheld the science and 44/44 hashes; its sole literal-
+citation caveat is closed by an additions-only 21-row overlay. Next is one typed missing-map
+derivation, not another rank scan or fit.
 
 **G70 PARENT LEAD:**
 `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md` maps 19 exact

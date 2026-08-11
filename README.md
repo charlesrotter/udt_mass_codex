@@ -9,8 +9,9 @@ The active arc is **CMB PEAK OPTIMIZATION**. Its current lead is
 `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`: the exact 21-source audit
 finds that the metric derives geometric carry on a supplied path/query, while source
 shape/normalization, physical CMB endpoint/profile, and an observable carry readout remain open.
-This is internally verified and awaiting cold external review; it authorizes no fit or invented
-owner. Its parent is `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`: across 285 frozen-map
+It is externally verified; a citation-verifiability caveat was closed by an additions-only literal
+overlay without changing the science. It authorizes no fit or invented owner. Its parent is
+`udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`: across 285 frozen-map
 source/channel variants, known source covariance including normalization plus independent carry is
 full rank in all 45 cells, but 15 weaker-model cells remain numerically unresolved and none of the
 helpful physical source, endpoint/profile, or carry-access premises is currently owned. The strict
