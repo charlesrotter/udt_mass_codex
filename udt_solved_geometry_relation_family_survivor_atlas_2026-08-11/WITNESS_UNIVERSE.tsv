@@ -1,0 +1,6 @@
+witness_id	witness_family	preregistered_use	selection_status
+W01	SOURCE_OWNED_R17_REGULAR_GLOBAL_FAMILY	construct stationary complete global/path witnesses if frozen data suffice	COVERAGE_WITNESS_NOT_PHYSICAL_SELECTION
+W02	SOURCE_OWNED_ENDPOINT_DESCENT_FAMILIES	construct every complete endpoint family supported by frozen data	COVERAGE_WITNESS_NOT_PHYSICAL_SELECTION
+W03	COMPLETE_REGULAR_TIMELIVE_COFRAME_ENSEMBLE	turn on all declared local channels and integrate metric-owned equations	OFFSHELL_CHARACTERIZATION_ONLY
+W04	MATCHED_TERMINAL_PAIR_METRIC_CONTROLS	verify phi pair beta and cE ratio on each supplied regular pair map	CONDITIONAL_READOUT_ONLY
+W05	SYMMETRIC_MULTI_CHANNEL_PERTURBATION_NEIGHBORHOODS	measure persistence without fitting or postselection	FREE_AND_EXPLORED_NUMERIC_COVERAGE

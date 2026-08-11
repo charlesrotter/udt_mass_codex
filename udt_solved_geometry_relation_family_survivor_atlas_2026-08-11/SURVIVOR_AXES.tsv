@@ -1,0 +1,13 @@
+axis_id	axis	values	classification_role
+A01	relation_home	ENDPOINT_DESCENDED;PATH_LABELLED;MATCHED_WHERE_TYPED	primary comparison
+A02	geometry_character	SOURCE_OWNED_STATIONARY_GLOBAL;COMPLETE_TIMELIVE_LOCAL_OFFSHELL	separate global witnesses from arbitrary histories
+A03	channel_liveness	KAPPA;PHI;BETA;ANGULAR_Q;MIXING_S;TIME;PATH	no silent sector freeze
+A04	path_class	DIRECT;CONTRACTIBLE_LOOP;NONCONTRACTIBLE_LOOP_IF_OWNED;MULTIPLE_BRANCH	measure route memory without selecting
+A05	regularity	REGULAR_LORENTZIAN;NULL_CLOCK;DEGENERATE_PAIR_PLANE;RANK_LOSS;CUT_OR_CONJUGATE	characterize failure strata
+A06	causal_scope	LOCAL_TANGENT_TYPE;ORDER_REFLECTION_IF_OWNED;GLOBAL_OPEN	prevent local-to-global promotion
+A07	perturbation	BASE;POSITIVE;NEGATIVE;MULTI_CHANNEL_RANDOM_DETERMINISTIC	open-neighborhood persistence
+A08	numerical_method	PRODUCTION_ADAPTIVE;INDEPENDENT_FIXED_STEP;EXACT_ANCHOR	residual and method independence
+A09	global_completion	COMPLETE;LOCAL_ONLY;BRANCH_VALUED;INCOMPLETE;NOT_OWNED	global survivor grade
+A10	terminal_readout	T_OVER_L;PHI_PAIR;SHIFT_BETA;ROUTE_MONODROMY	cE-calibrated diagnostics only
+A11	xmax_gate	COMPATIBLE;INCOMPATIBLE;NOT_REACHED;NOT_OWNED	asymptote after relation realization
+A12	result_grade	PERSISTENT;FRAGILE;SINGULAR;ROUTE_SENSITIVE;UNDERDETERMINED	no merit filtering
