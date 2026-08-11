@@ -27,7 +27,7 @@ CS_H = 1.0e-30
 RTOL = 1.0e-11
 ATOL = 1.0e-13
 MAX_STEP = 2.5e-3
-SURFACE_D = 2.0e-5
+SURFACE_D = 2.0e-4
 SCALES = (4.0e-3, 2.0e-3, 1.0e-3)
 LOOP_HALF_WIDTHS = (4.0e-2, 2.0e-2, 1.0e-2)
 
@@ -386,7 +386,7 @@ def evaluate_scale(surface: PairSurface, d: float) -> dict:
     amb_gauss = float(J[:, 0] @ g @ RM)
     int_gauss = float(sum(h[0, a] * intR[a, 1, 0, 1] for a in range(2)))
     extrinsic = float(np.dot(ii[:, 0, 0], ii[:, 1, 1]) - np.dot(ii[:, 0, 1], ii[:, 1, 0]))
-    gauss_res = amb_gauss - int_gauss - extrinsic
+    gauss_res = amb_gauss - int_gauss + extrinsic
 
     surfG = surface_christoffel(surface, q, d / 2)
     omega = normal_connection(surface, q, d / 4)
@@ -434,11 +434,16 @@ def evaluate_scale(surface: PairSurface, d: float) -> dict:
         dK = (Kp - Km) / (2 * d)
         K = geom["cov2"][:, 0, 1]
         covK = dK + np.einsum("abc,b,c->a", geom["G"], J[:, 1], K)
-        Rjvv = np.einsum("abcd,b,c,d->a", ambR, J[:, 0], J[:, 1], J[:, 1])
+        # R(J,v)v: b is the acted-on vector v, while c,d are J,v.
+        Rjvv = np.einsum("abcd,b,c,d->a", ambR, J[:, 1], J[:, 0], J[:, 1])
         jacobi_res = np.linalg.norm(covK + Rjvv)
+        jacobi_second_norm = np.linalg.norm(covK)
+        jacobi_curvature_norm = np.linalg.norm(Rjvv)
         jacobi_status = "QUERY_OWNED_GEODESIC_VARIATION"
     else:
         jacobi_res = np.nan
+        jacobi_second_norm = np.nan
+        jacobi_curvature_norm = np.nan
         jacobi_status = "NOT_OWNED_BY_QUERY"
 
     return {
@@ -458,6 +463,8 @@ def evaluate_scale(surface: PairSurface, d: float) -> dict:
         "ricci_residual": float(np.linalg.norm(ricci)),
         "jacobi_status": jacobi_status,
         "jacobi_residual": None if np.isnan(jacobi_res) else float(jacobi_res),
+        "jacobi_second_derivative_norm": None if np.isnan(jacobi_second_norm) else float(jacobi_second_norm),
+        "jacobi_curvature_norm": None if np.isnan(jacobi_curvature_norm) else float(jacobi_curvature_norm),
         "ambient_gauss": amb_gauss,
         "intrinsic_gauss": int_gauss,
         "extrinsic_gauss": extrinsic,
