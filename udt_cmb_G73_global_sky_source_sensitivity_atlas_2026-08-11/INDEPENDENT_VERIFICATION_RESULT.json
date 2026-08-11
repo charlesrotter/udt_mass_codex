@@ -1,0 +1,32 @@
+{
+  "alignment_analytic": {
+    "15.0": 0.1674078470190648,
+    "30.0": 0.3346160010048634,
+    "5.0": 0.05581303610766405
+  },
+  "alignment_grid": {
+    "15.0": 0.16741,
+    "30.0": 0.334615,
+    "5.0": 0.055815
+  },
+  "checks": {
+    "alignment_grid": true,
+    "duplication_rank_and_constraints": true,
+    "g68_direct_svd": true,
+    "g68_max_chi": true,
+    "g68_max_condition": true,
+    "g68_rows": true,
+    "landing": true,
+    "physical_owner_open": true,
+    "rank_loss": true,
+    "regular_global_rank": true,
+    "source_manifest": true
+  },
+  "max_alignment_grid_error": 2.1529809351994444e-06,
+  "max_direct_atlas_error": 0.0,
+  "passed": 11,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g73-source-sensitivity-independent-v1",
+  "status": "PASS",
+  "total": 11
+}

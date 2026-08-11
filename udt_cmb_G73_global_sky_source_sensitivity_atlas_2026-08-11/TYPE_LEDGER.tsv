@@ -1,0 +1,10 @@
+object	type	status	scope_guard
+source_scalar	scalar field on supplied source surface	FREE_AND_EXPLORED	no source statistics or physical population owned
+source_screen_vector	section of source screen bundle	FREE_AND_EXPLORED	magnitude and direction remain source data
+sky_relation	map or branch-labelled relation between source and observer skies	CONDITIONAL_ON_QUERY	one-to-one fold and multibranch cases kept separate
+M_response	pointwise source-screen endomorphism U^-1D	DERIVED_CONDITIONAL_ON_QUERY	regular oriented same-query stratum only
+regular_global_operator	pullback/remapping plus pointwise invertible response	DERIVED_AS_TYPED_CLASS	physical global query not selected
+strong_shear_limit	unbounded singular-value ratio with positive determinant	DERIVED_MATHEMATICAL_LIMIT	no branch/profile shown to realize it
+caustic_or_fold	rank loss or critical sky relation	OPEN_DOMAIN_BOUNDARY	no continuation or detector rule
+multibranch_response	set of path-labelled responses	CONDITIONAL_SET_VALUED	no sum average phase or weights
+physical_CMB_sky	observation-level temperature/polarization field	OPEN_NO_OWNER	no source endpoint profile or detector law

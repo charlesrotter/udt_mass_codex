@@ -21,7 +21,18 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G72 METRIC SCREEN-RESPONSE JOIN,
+**LATEST LEAD = G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS,
+`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`.** Read
+`udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `RESPONSE_REGIME_ATLAS.tsv`, and `OWNERSHIP_LEDGER.tsv`. Regular bijective
+G72 response preserves arbitrary source information exactly. Strong shear can geometrically align
+directions, while repeated-image kaleidoscope structure requires branching/noninjectivity,
+critical/fold behavior, or restricted source statistics. G68 is weakly anisotropic on its bounded
+tile (`max s1/s2=1.0046584288394136`) and does not test the asymptotic full sky. The unique-source
+and robust-kaleidoscope routes both survive. NEXT: cold-review G73, then build the complete symbolic-
+scale sky relation branch/critical atlas before source ensembles.
+
+**PARENT GATE = G72 METRIC SCREEN-RESPONSE JOIN,
 `EXTERNALLY_VERIFIED_AS_CONDITIONAL_RESPONSE`; landing
 `METRIC_OWNS_SOURCE_FREE_SCREEN_RESPONSE__PHYSICAL_OBSERVABLE_OPEN`.** Read
 `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`, then

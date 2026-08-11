@@ -6,6 +6,14 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current lead is
+`udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`: a regular bijective
+G72 sky response preserves arbitrary source information exactly, while a robust repeated-image
+kaleidoscope requires global branching/noninjectivity, critical/fold structure, extreme directional
+compression, or restricted source statistics. The existing G68 tile is only weakly anisotropic
+(`max s1/s2=1.0046584288394136`) and does not test the complete asymptotic sky. Both a unique cosmic
+mass distribution transformed by UDT and a stronger geometry-dominated kaleidoscope remain live.
+Its next gate is external review followed by a complete symbolic-scale sky-relation branch/critical
+atlas, not a source fit. Its parent is
 `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`: on a supplied regular query,
 same-query Jacobi deformation and metric screen transport derive a source-free response with
 common scale, shear, and relative polar rotation. It is externally verified as a conditional

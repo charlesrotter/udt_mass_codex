@@ -9,7 +9,17 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G72 lead
+## Current G73 lead
+
+`udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md` controls the current
+source-sensitivity gate. A regular bijective sky response is exactly source-invertible. Strong shear
+has a conditional geometry-dominated directional limit, while repeated-image kaleidoscope behavior
+requires global branching/noninjectivity, critical/fold structure, or restricted source statistics.
+G68 is weakly anisotropic on its bounded tile and does not test the complete asymptotic sky. No
+physical source, endpoint/profile, scale, branch combination, detector, or observable is selected.
+External review is pending.
+
+## G72 parent lead
 
 `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md` controls the current response
 gate. On a supplied common typed query, `M=U^-1D`, its dimensionless shear, covariant shear tensor,

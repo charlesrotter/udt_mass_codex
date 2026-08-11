@@ -1,0 +1,16 @@
+{
+  "caught": {
+    "branch_sum_invented": true,
+    "false_g68_ratio": true,
+    "fold_promoted_to_derived": true,
+    "g68_called_strong": true,
+    "missing_g68_row": true,
+    "physical_cmb_promoted": true,
+    "regular_source_erased": true,
+    "strong_shear_promoted_to_owned": true,
+    "wrong_landing": true
+  },
+  "passed": 9,
+  "schema": "udt-cmb-g73-catches-v1",
+  "total": 9
+}

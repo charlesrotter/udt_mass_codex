@@ -1,0 +1,36 @@
+{
+  "exact_checks": {
+    "canonical_common_area_is_ell_squared": true,
+    "direction_tangent_compresses_by_q_squared": true,
+    "finite_global_regular_inverse_exact": true,
+    "finite_global_regular_map_full_rank": true,
+    "global_sphere_note": "a smooth everywhere-local-diffeomorphism S2-to-S2 is a covering; connected S2 is simply connected, so nontrivial self-multiplicity requires critical/branch points",
+    "noninjective_duplication_imposes_repeated_images": true,
+    "pointwise_inverse_exact": true,
+    "rank_loss_collapses_one_direction": true
+  },
+  "g68_control": {
+    "baseline_alignment_fraction_15deg": 0.16666666666666666,
+    "baseline_alignment_fraction_30deg": 0.3333333333333333,
+    "baseline_alignment_fraction_5deg": 0.05555555555555555,
+    "max_alignment_fraction_15deg": 0.1674078470190648,
+    "max_alignment_fraction_30deg": 0.3346160010048634,
+    "max_alignment_fraction_5deg": 0.05581303610766405,
+    "max_anisotropy_gain_percent": 0.46584288394135864,
+    "max_shear_chi": 0.0023238059699749714,
+    "max_singular_value_ratio": 1.0046584288394136,
+    "rows": 21
+  },
+  "landing": "REGULAR_SKY_RESPONSE_SOURCE_INVERTIBLE__ROBUST_KALEIDOSCOPE_REQUIRES_GLOBAL_BRANCHING_SINGULARITY_OR_SOURCE_RESTRICTION",
+  "maximum_conclusion": "regular one-to-one G72 response preserves arbitrary source information exactly; geometry can dominate direction in a strong-shear limit, while robust repeated-image kaleidoscope behavior requires a global non-bijective or singular branch structure, or a restricted source family, none of which is selected by the current controls",
+  "schema": "udt-cmb-g73-source-sensitivity-v1",
+  "source_manifest_rows": 9,
+  "status": {
+    "g68_kaleidoscope_strength": "OBSERVED_WEAK_ON_BOUNDED_TILE",
+    "multibranch_observable_combination": "OPEN_NO_OWNER",
+    "physical_cmb_source_and_observable": "OPEN_NO_OWNER",
+    "rank_loss_or_fold_kaleidoscope": "POTENTIAL_MECHANISM_OPEN_NO_BRANCH_OWNER",
+    "regular_single_branch_source_recovery": "DERIVED_EXACT",
+    "strong_shear_directional_alignment": "DERIVED_ASYMPTOTIC_CONDITIONAL"
+  }
+}

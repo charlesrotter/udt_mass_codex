@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "catches": true,
+    "exact_checks": true,
+    "g68_rows": true,
+    "g68_strength": true,
+    "independent": true,
+    "landing": true,
+    "owners_open": true,
+    "protected_excluded": true,
+    "protected_metadata": true,
+    "required_files": true,
+    "source_count_and_hashes": true
+  },
+  "landing": "REGULAR_SKY_RESPONSE_SOURCE_INVERTIBLE__ROBUST_KALEIDOSCOPE_REQUIRES_GLOBAL_BRANCHING_SINGULARITY_OR_SOURCE_RESTRICTION",
+  "passed": 11,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g73-package-v1",
+  "status": "PASS",
+  "total": 11
+}

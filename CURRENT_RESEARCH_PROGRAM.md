@@ -7,7 +7,17 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G72 LEAD:**
+**CURRENT G73 LEAD:**
+`udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md` classifies the exact
+source sensitivity of the G72 response. A regular one-to-one global relation with pointwise
+invertible response retains arbitrary source information; strong shear can align normalized
+directions; robust repeated images require branching/noninjectivity or critical/fold structure.
+The 21 G68 controls have maximum singular-value ratio `1.0046584288394136`, so they are weakly
+anisotropic and do not test the asymptotic full sky. Internal exact, independent, angular-grid, and
+semantic gates pass. External review is pending. Next is the symbolic-scale global sky-relation
+branch/critical atlas before any source ensemble or observational fit.
+
+**G72 PARENT LEAD:**
 `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md` derives the complete generic
 source-free order-zero screen response on a supplied regular calibrated query. The same-query
 Jacobi map and metric screen transport yield common scale, dimensionless shear, and relative polar
@@ -15,8 +25,8 @@ rotation after endpoint gauge quotient. It is `EXTERNALLY_VERIFIED_AS_CONDITIONA
 reviewer verified `38/38` sealed hashes, independently replayed the exact/numerical/semantic gates,
 and reproduced all 21 G68 maps. It does not populate a sky field or derive physical TT/polarization,
 source, endpoint/profile, or global scale. G68's azimuthal carry is explicitly not image polar
-rotation. Next is the global source-free scalar-field test; the local zero/constant-source result
-must not be promoted to a global-sky no-go.
+rotation. Its historical global source-sensitivity question is completed by G73 above; the local
+zero/constant-source result must not be promoted to a global-sky no-go.
 
 **G71 PARENT LEAD:**
 `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md` audits six possible

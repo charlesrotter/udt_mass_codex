@@ -4,17 +4,23 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G72 metric screen-response join externally verified as conditional)
+## TOP — CURRENT POINTER (2026-08-11, G73 global-sky source-sensitivity atlas internally verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The current lead is
+`udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`: regular one-to-one
+response preserves a unique arbitrary source, strong shear can align directions, and robust
+kaleidoscopic repetition requires global branching/noninjectivity or critical/fold structure. G68
+is weakly anisotropic on its bounded tile and does not test the asymptotic full sky. Both the
+unique-source and robust-kaleidoscope routes remain live. External review is pending; next is the
+complete symbolic-scale sky-relation branch/critical atlas before source ensembles. Its parent is
 `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`: same-query Jacobi deformation
 and metric screen transport derive a conditional source-free response with common scale, shear,
 and relative polar rotation. A sealed reviewer verified `38/38` hashes and independently upheld the
 bounded result as `VERIFIED_AS_CONDITIONAL_RESPONSE`. It does not populate a sky field or derive
-TT/polarization, source, endpoint/profile, or global scale. The next gate is the complete symbolic-
-scale global-sky scalar-field test; the local zero/constant-source result is not a global no-go. Its
+TT/polarization, source, endpoint/profile, or global scale. G73 above completes its bounded source-
+sensitivity follow-up; the local zero/constant-source result is not a global no-go. Its
 parent is `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`: the 21-source owner census
 finds geometric carry conditionally metric-owned on a supplied query, while the source,
 endpoint/profile selectors, and observable carry readout remain open. External review upheld the
