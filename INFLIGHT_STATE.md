@@ -1,7 +1,10 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-11 STATUS (RESTART ANCHOR): F01/F02 OBSERVER-SKY JACOBI CONTROLS EXTERNALLY VERIFIED WITH CAVEATS.** ACTIVE ARC = CMB PEAK
+> **2026-08-11 STATUS (RESTART ANCHOR): G68 FINITE-PATH OBSERVER-SKY CONTROL ATLAS EXTERNALLY VERIFIED WITH CAVEATS.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-11) FIRST, then
+> `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then
 > `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
 > `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then

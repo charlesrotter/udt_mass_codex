@@ -11,15 +11,17 @@
     "G11_reflection_mutated": true,
     "G12_scope_promoted": true,
     "G14_control_promoted": true,
-    "adversarial_gate_promoted": true,
     "bounded_scope_deleted": true,
+    "bundle_caveat_deleted": true,
+    "caustic_caveat_deleted": true,
     "completeness_time_live_promoted": true,
     "epsilon_nonconvergence": true,
     "exact_landing_deleted": true,
     "lay_control_scope_deleted": true,
+    "postreview_gate_demoted": true,
     "profile_effect_zeroed": true,
     "rotation_promoted": true
   },
-  "passed": 19,
-  "total": 19
+  "passed": 21,
+  "total": 21
 }

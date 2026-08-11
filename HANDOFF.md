@@ -11,6 +11,9 @@ any conflict with LIVE or a cited controlling source. This workstation may conta
 `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` as 83 protected untracked paths;
 they are local, not current authority, and not pushed. Do not stage, modify, delete, mine, or cite
 them without an explicit later dispatch; a clean clone may not contain them.
+This checkout also has seven protected untracked paths under
+`udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`; they are a stopped draft, were not
+read during G68, and must not be staged, edited, mined, or deleted without explicit authority.
 `X_max` semantics remain controlled by
 `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md`: it is the working
 observer-pair positional-dilation asymptote, not a material wall, preferred center, radial edge,
@@ -18,22 +21,29 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = F01/F02 OBSERVER-SKY JACOBI CONTROLS COMPLETE,
+**LATEST GATE = G68 F01/F02 FINITE-PATH OBSERVER-SKY JACOBI CONTROL ATLAS COMPLETE,
 `VERIFIED_WITH_CAVEATS`.** Read
-`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
-`EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`. The same preregistered equatorial
-observer-sky query gives `T_F01=0` and
-`T_F02=diag(0,tau)`. F01 conditionally has `D=sI` along a regular radial branch; F02 generically
-adds one-axis area/shear at cubic Jacobi order, with weak mixing entering quadratically and the
-exact value dependent on local `A,h` jets. The local rotation channel is zero; positive, negative,
-and exact cancellation subloci are retained. This geometrizes the home of angular projection scale
-but does not close its physical value; mode-ladder offset remains boundary/operator-owned. Local
-evidence is `6/6` partially independent algebra, `14/14` package gates, `12/12` catches, and
-repository baseline `98 passed, 1 xfailed`. A sealed reviewer verified all `33/33` files and
-rederived the complete formula, weak-mixing result, subloci, and rational sign witnesses. NEXT:
-map and separately preregister a finite-path control with an explicit endpoint, complete profile,
-and branch/caustic policy. No finite-path solve, physical control/profile/source selection, FD2
-restart, data fit, or local signalling is yet authorized.
+`udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`. All `21/21` preregistered analytic
+controls reach the declared dimensionless endpoint with no turn, post-origin caustic, chart
+failure, or solver failure. F01 reproduces exact `D=sI`; every nonzero F02 row develops finite
+one-axis anisotropy plus profile-dependent area and azimuthal carry. All nine weak-mixing checks
+approach F01 quadratically, all `18/18` sign reflections pass, and an independent null-geodesic
+bundle reproduces all endpoint columns within `8.93e-11`. The hostile sealed reviewer verified
+`37/37` manifest entries, reconstructed the full equations, reran representative paths, densely
+sampled every row, and found no code/data/algebra/query/numerical defect. Gates pass `18/18` and
+post-review catches `21/21`. Caveats: sign-change caustic detection could miss an even-multiplicity
+tangency in another dataset, and the bundle route shares endpoint affine time/screen projection;
+neither affects the sealed census. `R=1`, endpoints, query, and profiles are controls—not `X_max`,
+last scattering, or physical selections. NEXT: preregister one bounded ownership question among
+physical profile, endpoint surface, and source/state. No FD2 restart, data fit, profile ranking,
+source insertion, time-live promotion, or local-signalling inference is authorized.
+
+**PARENT GATE = G67 LOCAL F01/F02 OBSERVER-SKY JACOBI CONTROLS COMPLETE,
+`VERIFIED_WITH_CAVEATS`.** Read
+`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`. Its local
+`T_F01=0`, `T_F02=diag(0,tau)`, quadratic onset, and zero local antisymmetric rotation are the
+verified seed now integrated by G68.
 
 **PARENT GATE = COMPLETE CMB OBSERVATION-QUERY MAP COMPLETE,
 `VERIFIED-AFTER-SPECIFIED-CORRECTIONS`.** Read

@@ -10,6 +10,9 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
+   `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+   `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then
    `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
    `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then
@@ -54,12 +57,17 @@
    `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
-   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G67 local
-   checkpoint derives the first explicit observer-sky control: `T_F01=0`,
+   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G68 checkpoint
+   integrates the full finite-path observer-sky map across all 21 preregistered controls: 21/21
+   reach the control endpoint regularly, F01 returns exact `D=sI`, and F02 accumulates
+   profile-dependent area, one-axis anisotropy, and azimuthal carry. It is externally
+   `VERIFIED_WITH_CAVEATS` after 37/37 manifest hashes and fresh dense path checks; it selects no
+   physical profile, endpoint, source, `X_max`, last-scattering surface, or CMB spectrum. Its G67
+   parent derives the first explicit local observer-sky control: `T_F01=0`,
    `T_F02=diag(0,tau)`, generic weak-mixing onset at quadratic order, and zero antisymmetric
    rotation at cubic Jacobi order. It is externally `VERIFIED_WITH_CAVEATS` after `33/33` sealed
-   files and all load-bearing formulas were independently checked; no finite-path integration or
-   eigensolve is authorized before a separate endpoint/profile/branch preregistration. Its G66 parent maps
+   files and all load-bearing formulas were independently checked; its finite-path gate is now
+   completed by G68. Its G66 parent maps
    14 typed layers across the exact 16-source/F00--F17 universe and finds zero owned complete
    physical CMB realizations. F00 remains only a historical conditional mode-location plus affine
    TT-position compatibility diagnostic. External review returned

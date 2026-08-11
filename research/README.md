@@ -7,14 +7,15 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The current G67 local gate is
-`../udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`: the identical
-observer-sky control gives exact `T_F01=0` and `T_F02=diag(0,tau)`, with quadratic weak-mixing
-onset and no local cubic rotation. A sealed reviewer verified all `33/33` files and rederived every
-load-bearing formula, yielding `VERIFIED_WITH_CAVEATS`; the local alternate curvature route is
-only partially independent. No finite-path integration, eigensolve, or physical selection is
-authorized until a separate endpoint/profile/branch preregistration exists.
-Its G66 parent is
+**CMB PEAK OPTIMIZATION**. The current G68 finite-path gate is
+`../udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`: all `21/21`
+preregistered finite-path controls reach the declared endpoint regularly; F01 returns exact
+`D=sI`; F02 accumulates profile-dependent area, one-axis anisotropy, and azimuthal carry. External
+review returned `VERIFIED_WITH_CAVEATS` after `37/37` hashes and dense path checks. The query,
+profiles, and endpoint remain controls, not physical CMB selections. Read its adjudication and
+exact derivation first. Its G67 local parent is
+`../udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, which gives exact
+`T_F01=0`, `T_F02=diag(0,tau)`, quadratic onset, and no local cubic rotation. Its G66 parent is
 `../udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`: 16 frozen sources and all
 F00--F17 families map to 14 query layers and four observable classes, with zero owned complete
 physical CMB realizations. F00 is only a historical mode-location/affine-position compatibility
@@ -24,6 +25,9 @@ solved-geometry parent retains endpoint reciprocal depth, causal propagators, fu
 holonomy, and R17 normal holonomy throughout its exact bounded `14`-witness atlas. This is typed
 geometric coexistence, not physical selection, dynamics, global completion, or stability.
 Read in order:
+`../udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+`../udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`../udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then
 `../udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
 `../udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `../udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then

@@ -130,18 +130,23 @@ def verify_documents(exact: str, report: str, completeness: str, lay: str) -> di
     checks: dict[str, bool] = {}
     required_exact = (
         "FINITE_PATH_CONTROL_ATLAS_REGULAR_WITH_PROFILE_DEPENDENCE",
-        "LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW",
+        "VERIFIED_WITH_CAVEATS",
         "not `X_max` or last scattering",
         "not a CMB prediction",
         "does not supply those objects",
+        "even-multiplicity tangential zero",
+        "not fully separate verification",
     )
     require(all(token in exact for token in required_exact), "exact derivation scope/status changed")
     checks["semantic_exact_scope"] = True
 
     required_report = (
-        "LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW",
-        "Fresh zero-context semantic review",
-        "remains outstanding",
+        "VERIFIED_WITH_CAVEATS",
+        "18/18",
+        "19/19",
+        "21/21",
+        "even-multiplicity tangential zero",
+        "does not independently certify screen transport or endpoint selection",
         "not a CMB prediction",
         "Do not select a control profile",
     )

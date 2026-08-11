@@ -1,0 +1,20 @@
+{
+  "allowed_postreview_changes": [
+    "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md",
+    "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/CATCH_PROOF_RESULTS.json",
+    "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/CATCH_PROOF_STDOUT.txt",
+    "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md",
+    "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/run_catch_proofs.py",
+    "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/verify_package.py"
+  ],
+  "catch_proofs": 21,
+  "current_immutable_mismatches": [],
+  "historical_reviewed_mismatches": [],
+  "package_checks": 18,
+  "postreview_manifest_rows": 39,
+  "raw_review_sha256": "450065fed7324aecf6aa4764f97037944876271d5d7f74b708c7b6cbc968eb20",
+  "review_manifest_rows": 37,
+  "review_manifest_sha256": "38f8bd1bda0289de91bd74243b28a88e70ac4aa370b0c715367ee671b051bc3d",
+  "schema": "udt-cmb-g68-postreview-v1",
+  "status": "PASS"
+}

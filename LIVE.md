@@ -6,30 +6,48 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; F01/F02 OBSERVER-SKY JACOBI CONTROLS EXTERNALLY VERIFIED WITH CAVEATS) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G68 FINITE-PATH OBSERVER-SKY CONTROL ATLAS VERIFIED WITH CAVEATS) ============
 
-**LATEST GATE — F01/F02 OBSERVER-SKY JACOBI CONTROL COMPLETE,
+**LATEST GATE — G68 F01/F02 FINITE-PATH OBSERVER-SKY JACOBI CONTROL ATLAS COMPLETE,
+`VERIFIED_WITH_CAVEATS`.** Read
+`udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`. The exact preregistered
+stationary/equatorial query was integrated across all `21/21` analytic control profiles from
+dimensionless `r/R=1/4` to the declared control surface `r/R=1`, with all four coordinates,
+parallel screen, and full Jacobi system live. Every row reaches the endpoint with no turn,
+post-origin caustic, chart failure, or solver failure. F01 reproduces exact `D=sI`; every nonzero
+F02 row develops finite one-axis anisotropy plus profile-dependent area and azimuthal carry. The
+matched-F01 area change spans `-5.8161e-5` to `+1.14445e-2`; anisotropy spans `1.7322e-5` to
+`4.6476e-3`. Weak mixing approaches F01 quadratically on all nine registered lapse/shape pairs,
+and all `18/18` sign-reflection checks pass. No finite screen rotation appears on this particular
+stationary equatorial query. A separate null-geodesic bundle implementation reproduces every
+endpoint Jacobi column with maximum relative difference `8.93e-11`. The sealed reviewer verified
+all `37/37` manifest entries, independently reconstructed the equations, reran representative
+paths, densely sampled all rows, and found no code, data, algebra, query, or numerical defect.
+Package gates pass `18/18`; post-review catches pass `21/21`.
+
+**EXACT CAVEATS / AUTHORITY BOUNDARY:** sign-change caustic detection can in principle miss an
+even-multiplicity tangency, although hostile dense sampling found `dr/ds >= 0.9654696034` and
+post-origin `sigma_min(D) >= 1.4884168151e-4` on every sealed path. The bundle verifier is a strong
+endpoint-column cross-check, not independent certification of screen transport or endpoint
+selection, because it shares SciPy, float64, profiles, endpoint affine time, and endpoint screen
+projection. `R=1`, both endpoints, all profiles, and the query remain `CHOSE_CONTROL`; none is
+`X_max`, last scattering, or selected physical geometry. G68 owns a finite-path geometric
+instrument, not a CMB prediction, TT/TE/EE power, polarization result, source/state, physical
+profile/endpoint, action, bootstrap law, time-live history, or local signal law. NEXT: ponder and
+preregister one bounded ownership question—physical profile, endpoint surface, or source/state—
+without restarting FD2 or choosing whichever control produces a desired spectrum.
+
+**WORKTREE GUARD:** seven untracked files under
+`udt_native_onshell_timelive_reset_owner_audit_2026-08-10/` are a protected stopped draft. G68 did
+not read their contents. Do not stage, edit, mine, delete, or treat them as current authority.
+
+**PARENT GATE — G67 LOCAL F01/F02 OBSERVER-SKY JACOBI CONTROL COMPLETE,
 `VERIFIED_WITH_CAVEATS`.** Read
 `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
-`EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`. One identical preregistered
-equatorial observer-sky query was applied to the
-round F01 and axis-regular mixing-on F02 controls before any eigensolve or fit. F01 has exact radial
-screen tidal matrix `T=0` for arbitrary regular local `A(r)` and conditionally integrates to
-`D(s)=sI` along a regular radial branch. F02 has `T=diag(0,tau)`, with exact `tau` determined by
-`A,h` and their first two radial derivatives; generic weak mixing first enters quadratically. The
-cross/antisymmetric rotation channel is zero at this local order, while positive, negative, and
-zero/cancellation subloci all survive. The observer-sky Jacobi map is now the correct geometric
-home of projection scale, but no remote endpoint, complete profile, or source scale is selected;
-the old mode-ladder offset remains boundary/operator-owned. Exact production and an independent
-lowered-Riemann implementation agree `6/6`; that route is only partially independent because it
-shares the metric/query and SymPy. The sealed reviewer verified `33/33` intake hashes and freshly
-rederived every load-bearing formula. Package gates pass `14/14`, mutations `12/12`, tests
-`98 passed, 1 xfailed`, and all six frozen manifests remain exact. The package therefore owns a
-verified local geometric distinction, not a finite-distance CMB map or prediction. NEXT: map and
-separately preregister a finite-path control only if an explicit endpoint, complete profile, and
-branch/caustic policy can be supplied without selecting them to manufacture an answer. Do not
-begin that integration, select F01/F02, restart FD2, fit peaks, add source populations, or infer
-local signalling without that gate.
+`EXTERNAL_REVIEW_ADJUDICATION.md`. It derives the local `T_F01=0`, `T_F02=diag(0,tau)`, quadratic
+weak-mixing onset, and zero local antisymmetric rotation used by G68. Its historical finite-path
+next gate is now completed above.
 
 **PARENT GATE — COMPLETE CMB OBSERVATION-QUERY MAP COMPLETE,
 `VERIFIED-AFTER-SPECIFIED-CORRECTIONS`.** Read

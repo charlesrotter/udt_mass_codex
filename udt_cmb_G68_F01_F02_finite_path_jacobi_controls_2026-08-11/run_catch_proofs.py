@@ -71,7 +71,9 @@ def main() -> None:
     lay = (HERE / "LAY_REPORT.md").read_text(encoding="utf-8")
     document_mutations = {
         "exact_landing_deleted": (exact.replace("FINITE_PATH_CONTROL_ATLAS_REGULAR_WITH_PROFILE_DEPENDENCE", "CMB_PROFILE_SELECTED"), report, completeness, lay),
-        "adversarial_gate_promoted": (exact, report.replace("LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW", "VERIFIED"), completeness, lay),
+        "postreview_gate_demoted": (exact, report.replace("VERIFIED_WITH_CAVEATS", "LEAD_PENDING_REVIEW"), completeness, lay),
+        "caustic_caveat_deleted": (exact.replace("even-multiplicity tangential zero", "zero"), report, completeness, lay),
+        "bundle_caveat_deleted": (exact, report.replace("does not independently certify screen transport or endpoint selection", "fully independent"), completeness, lay),
         "completeness_time_live_promoted": (exact, report, completeness.replace("no time-live\n   metric", "time-live metric derived"), lay),
         "lay_control_scope_deleted": (exact, report, completeness, lay.replace("controls, not candidate universes", "candidate universes")),
     }

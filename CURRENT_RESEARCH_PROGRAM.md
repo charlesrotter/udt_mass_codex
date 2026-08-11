@@ -7,19 +7,26 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G67 CHECKPOINT:**
-`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md` constructs the same
-explicit local observer-sky query on F01 and F02. Exact local results are `T_F01=0` and
-`T_F02=diag(0,tau)`, with weak mixing entering at quadratic order and no antisymmetric rotation at
-the registered order. The F01 radial Jacobi map conditionally integrates to `D=sI`; F02's finite
-map still needs a complete profile, path, and endpoint. The sky-map layer is therefore no longer
-just an untyped affine conversion, but neither historical fitted scale nor mode offset has yet
-become a physical prediction. A sealed reviewer verified `33/33` files and independently rederived
-every load-bearing formula. Evidence grade is `VERIFIED_WITH_CAVEATS`: the `6/6` local alternate
-curvature route is only partially independent, while `14/14` package gates and `12/12` mutations
-are consistency and sensitivity evidence. The next gate is to map and separately preregister a
-finite-path control with an explicit endpoint, complete profile, and branch/caustic policy—not to
-integrate, fit, or eigensolve before those inputs are honestly owned.
+**CURRENT G68 CHECKPOINT:**
+`udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md` integrates the full
+geodesic, parallel-screen, and Jacobi system across the exact preregistered 21-profile stationary/
+equatorial control tile. All `21/21` rows reach the dimensionless endpoint regularly; F01 returns
+exact `D=sI`, while every nonzero F02 control has finite one-axis anisotropy and profile-dependent
+area/azimuthal carry. All nine weak-mixing pairs converge quadratically, all `18/18` negative-`h`
+reflections pass, and an independent null-bundle reconstruction matches endpoint Jacobi columns to
+`8.93e-11`. External review verified `37/37` hashes, reconstructed the equations, reran paths, and
+returned `VERIFIED_WITH_CAVEATS` with no code/data/algebra/query/numerical correction. The caustic
+sign-change detector could miss an even-multiplicity tangency in another dataset, and the bundle
+route shares endpoint affine time/screen projection; the sealed paths remain far from rank loss.
+This is a finite geometric control instrument. It selects no physical profile, endpoint, source,
+last-scattering surface, `X_max`, spectrum, polarization, action, bootstrap law, time-live history,
+or signal law. The next gate is a bounded ownership question among profile, endpoint, or
+source/state—not FD2 or a fit.
+
+**G67 PARENT CHECKPOINT:**
+`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md` supplies the exact local
+`T_F01=0`, `T_F02=diag(0,tau)`, quadratic weak-mixing onset, and zero local antisymmetric rotation
+that G68 integrates. Its finite-path next gate is complete above.
 
 **G66 PARENT CHECKPOINT:**
 `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md` maps the complete currently

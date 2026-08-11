@@ -9,7 +9,26 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G66 refinement
+## Current G68 refinement
+
+`udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md` controls the current
+finite observer-sky mapping gate. Across the exact preregistered 21-profile stationary/equatorial
+control tile, all rows reach the declared endpoint regularly. F01 reproduces exact `D=sI`; F02
+accumulates profile-dependent area, one-axis anisotropy, and azimuthal carry. External review
+returned `VERIFIED_WITH_CAVEATS` with no code/data/algebra/query/numerical correction. This owns a
+finite-path control map only. The profiles, query, scale, and endpoints remain `CHOSE_CONTROL`; the
+endpoint is neither `X_max` nor last scattering. Physical profile, endpoint, source/state,
+population, TT/TE/EE power, polarization, action, bootstrap law, time-live history, and local
+signal physics remain open.
+
+## G67 parent refinement
+
+`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md` controls the local parent
+gate. It derives exact `T_F01=0`, `T_F02=diag(0,tau)`, quadratic weak-mixing onset, and zero local
+antisymmetric rotation for the declared query. G68 above completes its bounded finite-path follow-
+up without selecting physical CMB inputs.
+
+## G66 parent refinement
 
 `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md` controls the current CMB query
 ownership gate. Across the exact frozen 16-source and F00--F17 universe, 14 typed query layers and

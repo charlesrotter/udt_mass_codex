@@ -5,16 +5,20 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The active arc is **CMB PEAK OPTIMIZATION**. Its current local checkpoint is
-`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`: one identical
-observer-sky query gives `T_F01=0` and `T_F02=diag(0,tau)`, with generic weak mixing first entering
-quadratically. This locates projection scale in a metric-derived Jacobi map but leaves the remote
-endpoint, complete profile, source scale, and mode offset open. The result is independently
-reproduced locally and externally `VERIFIED_WITH_CAVEATS`: the reviewer verified all `33/33`
-sealed files and rederived every load-bearing formula. The local alternate route is only partially
-independent, and the package/catch checks certify consistency and sensitivity. No finite-path solve
-or eigensolve is yet authorized; the next gate is a separate preregistration with an explicit
-endpoint, complete profile, and branch/caustic policy. Its parent is
+The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`: the full
+geodesic/parallel-screen/Jacobi system is integrated across the exact 21-profile finite control
+tile. All rows reach the declared endpoint regularly. F01 returns exact `D=sI`; every mixing-on F02
+row carries finite one-axis anisotropy and profile-dependent area/azimuthal change. Quadratic weak-
+mixing convergence, all 18 sign reflections, and independent bundle reconstruction are verified.
+The external result is `VERIFIED_WITH_CAVEATS`: no code/data/algebra/query/numerical defect was
+found, while even-multiplicity caustic detection and partial bundle-method independence remain
+explicitly bounded. The control endpoint is not `X_max` or last scattering, and no physical
+profile, source/state, spectrum, polarization, action, bootstrap law, time-live history, or local
+signal law is selected. The next gate is one preregistered ownership question among profile,
+endpoint, or source/state. Its local G67 parent is
+`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, which derives the exact
+local `T_F01=0`, `T_F02=diag(0,tau)` seed. Its next parent is
 `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`: the exact 16-source/F00--F17
 universe is mapped into 14 query layers and four observable classes, with no complete physical CMB
 realization currently owned. F00 retains only the historical conditional mode-location plus affine

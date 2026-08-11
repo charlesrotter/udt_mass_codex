@@ -4,8 +4,8 @@ Date: 2026-08-11
 
 Primary landing: `FINITE_PATH_CONTROL_ATLAS_REGULAR_WITH_PROFILE_DEPENDENCE`
 
-Evidence grade before fresh adversarial review:
-`LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW`
+Evidence grade after fresh sealed adversarial review:
+`VERIFIED_WITH_CAVEATS`
 
 ## 1. Scope
 
@@ -174,8 +174,15 @@ families for both screen directions at both preregistered deltas on all `21/21` 
 fine-delta disagreement with the production Jacobi map is `8.93e-11`; coarse/fine bundle
 disagreement is `1.78e-10`.
 
-This is strong computational independence for the finite Jacobi map, while still sharing the
-declared metric/query, float64 arithmetic, SciPy, and the same analytic profile ensemble.
+This is a strong cross-check of the endpoint Jacobi columns, but not fully separate verification of
+screen transport or endpoint selection. It shares the declared metric/query, float64 arithmetic,
+SciPy, analytic profile ensemble, production endpoint affine time, and production endpoint screen
+basis used for projection.
+
+The caustic detector searches for sign changes of `det(D)` and could in principle miss an
+even-multiplicity tangential zero. The sealed controls do not approach that ambiguity: fresh hostile
+dense sampling found `dr/ds >= 0.9654696034` and post-origin
+`sigma_min(D) >= 1.4884168151e-4` throughout all `21` rows.
 
 ## 8. What changed—and what did not
 

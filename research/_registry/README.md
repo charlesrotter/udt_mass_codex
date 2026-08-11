@@ -3,10 +3,13 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-gate is `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`; its exact 16-source and
-F00--F17 census maps 14 query layers and four observable classes, with no complete physical CMB
-realization owned. The next gate derives the same observer-sky screen/Jacobi map on F01/F02 before
-any eigensolve or fit. Its parent is
+gate is `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`; it verifies
+the integrated finite-path observer-sky Jacobi map over the exact 21-row control tile, without
+selecting a physical profile, endpoint, source, or CMB spectrum. Its local parent is
+`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`; its query-map parent is
+`udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, whose exact 16-source/F00--F17
+census maps 14 query layers and four observable classes with no complete physical CMB realization
+owned. Its parent is
 `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`; its exact
 bounded `14`-witness solve retains endpoint depth, causal propagators, full-coframe holonomy, and
 R17 normal holonomy together. This is not a physical selector or stability theorem. Its parent is
