@@ -3,11 +3,13 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-gate is `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`; its exact
+gate is `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`; its exact 16-source and
+F00--F17 census maps 14 query layers and four observable classes, with no complete physical CMB
+realization owned. The next gate derives the same observer-sky screen/Jacobi map on F01/F02 before
+any eigensolve or fit. Its parent is
+`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`; its exact
 bounded `14`-witness solve retains endpoint depth, causal propagators, full-coframe holonomy, and
-R17 normal holonomy together. This is not a physical selector or stability theorem. The next gate
-tests whether the complete metric and ordered observer query derive a relation among those saved
-channels. Its parent is
+R17 normal holonomy together. This is not a physical selector or stability theorem. Its parent is
 `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`; it verifies exact
 finite observer-network assembly in endpoint-atlas and path-labelled homes while leaving physical
 relation-family ownership, route policy, and universal flat descent open. Its parent is

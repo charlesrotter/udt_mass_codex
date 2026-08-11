@@ -1,0 +1,39 @@
+{
+  "c0_root_count_banked": 10080,
+  "c1_matrix_element_count_banked": 15420,
+  "complete_physical_CMB_query_count": 0,
+  "families_ranked": 0,
+  "families_with_TT_power_prediction": 0,
+  "families_with_polarization_prediction": 0,
+  "family_count": 18,
+  "family_ids": [
+    "F00",
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17"
+  ],
+  "historical_position_diagnostic_families": [
+    "F00"
+  ],
+  "maximum_conclusion": "architecture_and_ownership_map_only_no_CMB_prediction_screen_selection_FD2_restart_bootstrap_local_signalling_or_native_dynamics",
+  "observable_class_count": 4,
+  "query_layer_count": 14,
+  "smallest_next_calculation": "construct_one_declared_CMB_observer_sky_query_on_each_of_the_round_F01_and_axis_regular_F02_controls_and_derive_the_same_querys_screen_Jacobi_map_before_any_eigensolve",
+  "source_count": 16,
+  "source_hashes_verified": true,
+  "status": "COMPLETE_CMB_QUERY_ARCHITECTURE_MAPPED__NO_COMPLETE_PHYSICAL_REALIZATION_OWNED"
+}

@@ -6,7 +6,14 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
-`udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`: all 18 frozen M3 Pantheon+ fits
+`udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`: the exact 16-source/F00--F17
+universe is mapped into 14 query layers and four observable classes, with no complete physical CMB
+realization currently owned. F00 retains only the historical conditional mode-location plus affine
+TT-position compatibility result. External review returned `VERIFIED_AFTER_SPECIFIED_CORRECTIONS`;
+the science survived, while local machine checks were correctly relabeled artifact consistency.
+The next bounded gate derives the same declared observer-sky screen/Jacobi map on F01 and F02 before
+any eigensolve or fit. Its SNe parent,
+`udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, has all 18 frozen M3 Pantheon+ fits
 and 443 stored leaves replay exactly, and the corrected terminal observer-pair typing leaves the
 P1/P2/P3 formulas unchanged. External review returned `VERIFIED_WITH_CAVEATS` and upheld that no
 complete native SNe correction is currently owned; its sole comparator-type caveat is repaired.
@@ -18,8 +25,7 @@ realization(s) -> branchwise multichannel metric evaluation`. Two declared query
 show different owned channel sets. External review returned `VERIFIED_WITH_CAVEATS`; an independent
 raw-connection replay closes the normal-loop gap, while Q2 Codazzi remains numerically unresolved
 under its preregistered convergence rule. This is bounded geometry, not physical query selection,
-dynamics, global completion, or stability. The next gate types the actual banked CMB observation
-query and maps which channels its observable reads, without fitting or activating bootstrap. Its
+dynamics, global completion, or stability. Its
 parent is `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, which
 established the bounded coexistence of the endpoint, propagator, and holonomy channels. Its parent is
 `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`: exact finite

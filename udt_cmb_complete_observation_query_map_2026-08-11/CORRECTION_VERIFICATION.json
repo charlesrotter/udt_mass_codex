@@ -1,0 +1,32 @@
+{
+  "artifact_consistency": {
+    "passed": 21,
+    "total": 21
+  },
+  "correction_preregistration_commit": "1309ea15",
+  "evidence_roles": {
+    "artifact_checker": "local_consistency_not_semantic_independence",
+    "catch_proofs": "validator_mutations_not_independent_evidence",
+    "external_review": "independent_semantic_audit",
+    "renderer": "deterministic_materialization_not_natural_language_derivation"
+  },
+  "external_review_raw_sha256": "ac3d2c83ba92cecb1beebf530e7e785cc2feca978491cd4e114a8932eda9513d",
+  "historical_review_manifest_sha256": "bbcc3e866771b2192f1dde0da13b89e21ac3c2619d6357628bad3fa101cf28d7",
+  "scientific_artifacts_byte_identical_before_after": {
+    "DERIVATION_RESULT.json": "03918a053a26815efa417e04dd937a2897242b943e0cbc954a7a07b6a6c6981b",
+    "FAMILY_REALIZATION_ATLAS.tsv": "4d9146d8c938f458e5097935dfc16d5ede1a3ff67017a0e8967a8d6737810928",
+    "OBSERVABLE_CHANNEL_REQUIREMENTS.tsv": "bff272867cb5405cb58b33ec552eae54aad182cbd5307c605690f253c7bb1516",
+    "POWER_NONUNIQUENESS_RESULT.json": "be281a8b754723d8ead86f6f63902d16385235d4b6a11fd63b56b7f2dfbf0dfd",
+    "QUERY_LAYER_ATLAS.tsv": "f016c32b675a5e3f8a576573091e7217d7f20c156f0b084925492713444db884"
+  },
+  "spectrum_power_countermodel": {
+    "passed": 6,
+    "total": 6
+  },
+  "status": "PASS",
+  "validator_catches": {
+    "caught": 10,
+    "total": 10
+  },
+  "verdict": "VERIFIED_AFTER_SPECIFIED_CORRECTIONS"
+}

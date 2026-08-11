@@ -1,7 +1,9 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-11 STATUS (RESTART ANCHOR): NATIVE OBSERVER-QUERY SNe REPLAY VERIFIED WITH CAVEATS; NOTHING IN FLIGHT.** ACTIVE ARC = CMB PEAK
+> **2026-08-11 STATUS (RESTART ANCHOR): COMPLETE CMB OBSERVATION-QUERY MAP VERIFIED AFTER SPECIFIED CORRECTIONS; NOTHING IN FLIGHT.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-11) FIRST, then
+> `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_complete_observation_query_map_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
 > `udt_sne_native_observer_query_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then

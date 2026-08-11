@@ -4,57 +4,23 @@ Reviewer: Codex `gpt-5.4`
 Mode: ephemeral, read-only, sealed 37-file intake  
 Date: 2026-08-11
 
-The following is the reviewer's final response, preserved without scientific alteration.
+The following is the reviewer's final response, preserved verbatim from the transcript.
 
 ---
 
-`VERIFIED_AFTER_SPECIFIED_CORRECTIONS`
+VERIFIED_AFTER_SPECIFIED_CORRECTIONS
 
-## Findings
+**Findings**
+1. The packaged “independent verifier” is not semantically independent. It hashes the sixteen frozen files, then checks saved TSV/JSON artifacts against exact expected strings and counts; it does not re-derive channel ownership from the source texts ([verify_cmb_query_map_independent.py](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_observation_query_map_2026-08-11/verify_cmb_query_map_independent.py:54)). The wording should be reduced to “artifact-consistency verifier.”
+2. The ten catch proofs are not an independent second line of evidence. They import the same `validate` function and only show that ten literal mutations flip that same validator ([run_catch_proofs.py](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_observation_query_map_2026-08-11/run_catch_proofs.py:10)).
+3. The production “derivation” script is a deterministic renderer of prior judgments, not a source-semantic derivation. The layer atlas is hardcoded, and the family atlas is mostly emitted from family ids plus fixed labels; source-driven logic is limited to manifest hashing and F00-F17 enumeration ([derive_cmb_query_map.py](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_observation_query_map_2026-08-11/derive_cmb_query_map.py:52), [derive_cmb_query_map.py](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_observation_query_map_2026-08-11/derive_cmb_query_map.py:266)).
+4. I did not rerun `verify_repository_gates.py`. Under the user’s containment rule it would inspect material outside the sealed intake.
 
-1. The packaged “independent verifier” is not semantically independent. It hashes the sixteen
-   frozen files, then checks saved TSV/JSON artifacts against exact expected strings and counts; it
-   does not re-derive channel ownership from the source texts. The wording should be reduced to
-   “artifact-consistency verifier.”
-2. The ten catch proofs are not an independent second line of evidence. They import the same
-   `validate` function and only show that ten literal mutations flip that same validator.
-3. The production “derivation” script is a deterministic renderer of prior judgments, not a
-   source-semantic derivation. The layer atlas is hardcoded, and the family atlas is mostly emitted
-   from family ids plus fixed labels; source-driven logic is limited to manifest hashing and
-   `F00`--`F17` enumeration.
-4. I did not rerun `verify_repository_gates.py`. Under the user’s containment rule it would inspect
-   material outside the sealed intake.
+The landing itself survives those corrections. The audit’s type split is materially correct: observed TT sky data are distinct from query realization, pair metric, Jacobi/screen map, conditional mode structure, and source/state covariance ([EXACT_DERIVATION.md](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md:3)). The finite nonuniqueness counterexample stands: fixed spectrum, different covariances, different nonzero supports or zero power ([EXACT_DERIVATION.md](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md:33), [verify_spectrum_power_nonuniqueness.py](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_observation_query_map_2026-08-11/verify_spectrum_power_nonuniqueness.py:17)). Geometry alone does not own physical TT peak positions here: RA2 itself marks the `m`-route as source-required, the radial comb as conditional on free wall/center data, and the historical comparison as only a two-parameter affine fit ([PHASE1_NOTES.md](/tmp/udt-cmb-query-review-ltLyPT/udt_roadA_RA2_projection_2026-08-08/PHASE1_NOTES.md:57), [PHASE1_NOTES.md](/tmp/udt-cmb-query-review-ltLyPT/udt_roadA_RA2_projection_2026-08-08/PHASE1_NOTES.md:72), [PHASE2_COMPARISON.md](/tmp/udt-cmb-query-review-ltLyPT/udt_roadA_RA2_projection_2026-08-08/PHASE2_COMPARISON.md:15), [EXACT_DERIVATION.md](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md:59)). The scalar-vs-polarization ruling is also right: a pure screen-basis `SO(2)` rotation does not change scalar TT, while polarization needs orientation-sensitive carry ([EXACT_DERIVATION.md](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md:95)).
 
-The landing itself survives those corrections. The audit’s type split is materially correct:
-observed TT sky data are distinct from query realization, pair metric, Jacobi/screen map,
-conditional mode structure, and source/state covariance. The finite nonuniqueness counterexample
-stands: fixed spectrum, different covariances, different nonzero supports or zero power. Geometry
-alone does not own physical TT peak positions here: RA2 itself marks the `m` route as
-source-required, the radial comb as conditional on free wall/center data, and the historical
-comparison as only a two-parameter affine fit. The scalar-versus-polarization ruling is also right:
-a pure screen-basis `SO(2)` rotation does not change scalar TT, while polarization needs
-orientation-sensitive carry.
+I reproduced the sealed counts in memory: `16` frozen sources, `18` families `F00`-`F17`, `14` query layers, `4` observable classes, `0` complete physical CMB realizations owned, `1` historical attributed position-diagnostic family (`F00`), `10,080` banked C0 roots, `15,420` banked C1 matrix elements. The F00/F01/F02/F15/F16/F17 census matches the frozen universe exactly ([FAMILY_UNIVERSE.tsv](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_angular_family_atlas_map_2026-08-09/FAMILY_UNIVERSE.tsv:2)). I found no missed physical CMB pair immersion, observer-sky Jacobi map, response kernel, population law, or polarization law inside the sixteen-source universe: the founding and common-query sources explicitly keep query realization prior and open, the SNe P1 result remains only a low-z anchor, `X_max` remains a guard not a selector, and `c_eff^(pair)` remains inter-observational rather than local signal physics ([EXACT_DERIVATION.md](/tmp/udt-cmb-query-review-ltLyPT/udt_founding_pair_relation_functor_ownership_audit_2026-08-09/EXACT_DERIVATION.md:127), [EXACT_DERIVATION.md](/tmp/udt-cmb-query-review-ltLyPT/udt_founding_pair_relation_functor_ownership_audit_2026-08-09/EXACT_DERIVATION.md:262), [EXACT_DERIVATION.md](/tmp/udt-cmb-query-review-ltLyPT/udt_common_query_pair_immersion_reconstruction_2026-08-11/EXACT_DERIVATION.md:28), [AUDIT_REPORT.md](/tmp/udt-cmb-query-review-ltLyPT/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md:18), [AUDIT_REPORT.md](/tmp/udt-cmb-query-review-ltLyPT/udt_xmax_asymptotic_limit_frame_correction_2026-08-05/AUDIT_REPORT.md:11), [EXACT_DERIVATION.md](/tmp/udt-cmb-query-review-ltLyPT/udt_founding_pair_relation_functor_ownership_audit_2026-08-09/EXACT_DERIVATION.md:281)). The proposed next F01/F02 calculation is deductive and pre-eigensolve, provided the query protocol itself is fixed identically before comparison ([EXACT_DERIVATION.md](/tmp/udt-cmb-query-review-ltLyPT/udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md:140)).
 
-I reproduced the sealed counts in memory: `16` frozen sources, `18` families `F00`--`F17`, `14`
-query layers, `4` observable classes, `0` complete physical CMB realizations owned, `1` historical
-attributed position-diagnostic family (`F00`), `10,080` banked C0 roots, `15,420` banked C1 matrix
-elements. The F00/F01/F02/F15/F16/F17 census matches the frozen universe exactly. I found no missed
-physical CMB pair immersion, observer-sky Jacobi map, response kernel, population law, or
-polarization law inside the sixteen-source universe: the founding and common-query sources
-explicitly keep query realization prior and open, the SNe P1 result remains only a low-z anchor,
-`X_max` remains a guard not a selector, and `c_eff^(pair)` remains inter-observational rather than
-local signal physics. The proposed next F01/F02 calculation is deductive and pre-eigensolve,
-provided the query protocol itself is fixed identically before comparison.
+In-memory replays passed at the package’s stated level: derivation counts reproduced, verifier `21/21`, catches `10/10`, countermodel `6/6`. Maximum justified conclusion: within this frozen sixteen-source/F00-F17 universe, the audit has correctly mapped the query architecture and shown only an ownership result, namely that no registered family currently owns a complete physical CMB realization and F00 owns only the historical conditional mode-location plus affine compatibility diagnostic.
 
-In-memory replays passed at the package’s stated level: derivation counts reproduced, verifier
-`21/21`, catches `10/10`, countermodel `6/6`. Maximum justified conclusion: within this frozen
-sixteen-source/F00--F17 universe, the audit has correctly mapped the query architecture and shown
-only an ownership result, namely that no registered family currently owns a complete physical CMB
-realization and F00 owns only the historical conditional mode-location plus affine compatibility
-diagnostic.
-
-Lay explanation: the package’s main point survives. It shows that “observed CMB peaks on the sky”
-and “a geometry’s candidate resonant modes” are not the same object; without an explicit
-observer-to-sky map and a rule for which modes are actually populated, the current family bank does
-not yet own a physical CMB prediction.
+Lay explanation: the package’s main point survives. It shows that “observed CMB peaks on the sky” and “a geometry’s candidate resonant modes” are not the same object; without an explicit observer-to-sky map and a rule for which modes are actually populated, the current family bank does not yet own a physical CMB prediction.
 

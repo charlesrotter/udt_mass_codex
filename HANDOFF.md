@@ -18,7 +18,21 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = NATIVE OBSERVER-QUERY SNe REPLAY COMPLETE,
+**LATEST GATE = COMPLETE CMB OBSERVATION-QUERY MAP COMPLETE,
+`VERIFIED-AFTER-SPECIFIED-CORRECTIONS`.** Read
+`udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`. The exact frozen 16-source/F00--F17 universe yields 14 typed
+query layers, four observable classes, zero owned complete physical CMB realizations, and exactly
+one historical TT-position compatibility family: F00. The `10,080` C0 roots and `15,420` C1 matrix
+elements remain conditional controls. Physical TT needs an observer-sky map and populated
+source/state covariance; polarization additionally needs orientation-sensitive carry. External
+semantic review upheld the result and corrected only evidence labels: local `21/21` is artifact
+consistency and `10/10` are validator catches. P1 is only a low-z compatibility anchor, `X_max` only
+a pair asymptotic guard, and `c_eff^(pair)` only an inter-observational readout. NEXT: use the same
+declared observer-sky query on F01 and F02 and derive both screen Jacobi maps before eigensolving.
+Do not rank, fit, restart FD2, insert source weights, activate bootstrap, or infer local signalling.
+
+**PARENT GATE = NATIVE OBSERVER-QUERY SNe REPLAY COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Read
 `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
 `EXTERNAL_REVIEW_ADJUDICATION.md`. The frozen `18`-fit M3 universe replays exactly across `443`

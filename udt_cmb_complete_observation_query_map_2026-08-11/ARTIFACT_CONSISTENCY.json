@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "F00_projection_caveat": true,
+    "P1_role_guard": true,
+    "Xmax_guard_only": true,
+    "degenerate_control_retained": true,
+    "family_universe_exact": true,
+    "family_universe_unique": true,
+    "known_bank_counts": true,
+    "no_native_or_selected_promotions": true,
+    "no_power_or_polarization_claim": true,
+    "observables_exact": true,
+    "only_F00_has_historical_position_readout": true,
+    "pair_speed_type_guard": true,
+    "physical_TT_requires_population": true,
+    "polarization_requires_orientation_carry": true,
+    "query_layers_exact": true,
+    "scalar_TT_does_not_read_pure_normal_rotation": true,
+    "source_files_exact": true,
+    "source_manifest_exact": true,
+    "status_exact": true,
+    "summary_counts_exact": true,
+    "summary_no_selection": true
+  },
+  "implementation": "standard_library_artifact_consistency_no_renderer_import",
+  "passed": 21,
+  "semantic_independence": false,
+  "semantic_review": "EXTERNAL_REVIEW_RAW.md",
+  "total": 21,
+  "verdict": "ARTIFACTS_CONSISTENT"
+}

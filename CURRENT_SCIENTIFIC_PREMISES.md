@@ -9,7 +9,21 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G65 refinement
+## Current G66 refinement
+
+`udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md` controls the current CMB query
+ownership gate. Across the exact frozen 16-source and F00--F17 universe, 14 typed query layers and
+four observable classes are mapped. No registered family owns a complete physical CMB realization;
+F00 owns only the historical conditional mode-location plus affine TT-position compatibility
+diagnostic. External semantic review returned `VERIFIED_AFTER_SPECIFIED_CORRECTIONS`: the semantic
+landing survives, while the local `21/21` checker is correctly limited to artifact consistency and
+the `10/10` mutations are validator catches. Physical TT requires an observer-sky map and
+source/state covariance; polarization additionally requires orientation-sensitive carry. P1 stays
+a low-z observer-pair compatibility anchor, `X_max` stays an observer-pair asymptotic guard, and
+`c_eff^(pair)` stays inter-observational rather than local signal physics. The next gate is the same
+declared observer-sky query and screen Jacobi map on F01 and F02 before any eigensolve or fit.
+
+## G65 parent refinement
 
 `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md` controls the current SNe
 compatibility gate. All 18 frozen M3 fits and 443 leaves replay exactly. The native observer-query

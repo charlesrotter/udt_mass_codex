@@ -10,6 +10,8 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
+   `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_cmb_complete_observation_query_map_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
    `udt_sne_native_observer_query_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then
@@ -49,7 +51,13 @@
    `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
-   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G65 checkpoint
+   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G66 checkpoint
+   maps 14 typed layers across the exact 16-source/F00--F17 universe and finds zero owned complete
+   physical CMB realizations. F00 remains only a historical conditional mode-location plus affine
+   TT-position compatibility diagnostic. External review returned
+   `VERIFIED_AFTER_SPECIFIED_CORRECTIONS`; its corrections distinguish semantic review from local
+   artifact consistency. The next gate constructs the same declared observer-sky query and screen
+   Jacobi map on F01 and F02 before any eigensolve or fit. Its G65 parent
    reproduces all 18 frozen M3 SNe fits and 443 leaves exactly and proves that retyping the fitted
    depth as `phi_pair=log(1+z)` changes no P1/P2/P3 formula. External review retained
    `VERIFIED-WITH-CAVEATS`; its sole type-comparator caveat is repaired and all 43 final checks pass.
@@ -60,8 +68,7 @@
    channels branchwise. The R17 leaf and time-live Fermi controls own different channel sets.
    External review returned `VERIFIED_WITH_CAVEATS`; Q2 normal transport is independently
    regenerated without polar projection, while Q2 Codazzi remains numerically unresolved under the
-   frozen trend gate. The next gate types the actual banked CMB observation query and maps all
-   regular realizations and read channels without fitting or bootstrap. Its G63 parent solves a
+   frozen trend gate. Its G63 parent solves a
    bounded `14`-witness geometry atlas and finds that endpoint reciprocal depth,
    causal propagators, full-coframe holonomy, and R17 normal holonomy persist together; all `56/56`
    independent comparisons and the repaired read-only evidence replay pass. This is coexistence of

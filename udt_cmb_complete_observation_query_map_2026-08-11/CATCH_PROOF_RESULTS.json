@@ -1,0 +1,18 @@
+{
+  "all_catches_fire": true,
+  "caught": 10,
+  "evidence_role": "validator_mutation_catches_not_independent_semantic_review",
+  "results": {
+    "F01_source_hash": true,
+    "F02_duplicate_family": true,
+    "F03_premise_promotion": true,
+    "F04_missing_projection": true,
+    "F05_power_without_population": true,
+    "F06_scalar_rotation_error": true,
+    "F07_P1_role_error": true,
+    "F08_Xmax_frame_error": true,
+    "F09_local_signal_error": true,
+    "F10_postselection": true
+  },
+  "total": 10
+}

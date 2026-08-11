@@ -4,18 +4,24 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, CMB peak optimization; common-query reconstruction externally verified with caveats)
+## TOP — CURRENT POINTER (2026-08-11, complete CMB observation-query map externally verified after corrections)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`: the exact 16-source/F00--F17
+universe maps to 14 typed query layers and four observable classes, with no complete physical CMB
+realization owned. F00 remains only a historical conditional mode-location/affine-position
+compatibility diagnostic. External review returned `VERIFIED_AFTER_SPECIFIED_CORRECTIONS`; local
+machine checks now honestly certify artifact consistency while the reviewer owns semantic
+independence. Next is the same explicit observer-sky query and screen Jacobi map on F01/F02 before
+eigensolving. Its query-architecture parent is
 `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`: a complete typed query,
 not a universal preferred path, is the conditional home of the metric's endpoint, extrinsic,
 Jacobi-when-geodesic, and transport channels. The R17 leaf and time-live Fermi queries own different
 channel sets. External review returned `VERIFIED_WITH_CAVEATS`; the Q2 normal loop is now fully
 independently regenerated without polar projection, while Q2 Codazzi remains numerically
-unresolved under its frozen trend gate. This selects no physical query or dynamics. Next is to type
-the actual banked CMB observation query and map all its regular realizations and read channels. Its
+unresolved under its frozen trend gate. This selects no physical query or dynamics. Its
 G63 parent is `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, which
 established `56/56` bounded channel coexistence. Its earlier parent is
 `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`: finite regular

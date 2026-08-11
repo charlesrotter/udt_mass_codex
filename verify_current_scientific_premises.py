@@ -98,6 +98,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md",
             "udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md",
             "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
             "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md",
@@ -199,7 +200,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md"
+    latest = "udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -216,6 +217,8 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md",
+        "udt_cmb_complete_observation_query_map_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md",
         "udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
@@ -262,9 +265,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 65, "premise registry must contain exactly 65 rows")
+    require(len(rows) == 66, "premise registry must contain exactly 66 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 65, "duplicate premise id")
+    require(len(by_id) == 66, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1136,6 +1139,22 @@ def main() -> None:
         "native-query SNe source changed",
     )
     require("G65_REFINES_G64_AND_THE_FROZEN_M3_SNE_UNIVERSE" in by_id["G65"]["precedence_rule"], "G65 SNe refinement absent")
+    require(
+        by_id["G66"]["current_status"]
+        == "VERIFIED_AFTER_SPECIFIED_CORRECTIONS__16_SOURCE_F00_F17_QUERY_ARCHITECTURE_MAPPED__NO_COMPLETE_PHYSICAL_CMB_REALIZATION_OWNED__F00_COMPATIBILITY_ONLY",
+        "complete CMB query-map status regressed or promoted",
+    )
+    require(by_id["G66"]["epistemic_label"] == "MIXED", "complete CMB query-map label changed")
+    require("physical CMB observer-sky query and pair immersion" in by_id["G66"]["open_scope"], "physical CMB query silently owned")
+    require("local artifact checker called independent semantic derivation" in by_id["G66"]["forbidden_regression"], "artifact/semantic evidence guard absent")
+    require("eigenvalues called nonzero power" in by_id["G66"]["forbidden_regression"], "spectrum/power type guard absent")
+    require("pair c_eff called local signal speed" in by_id["G66"]["forbidden_regression"], "pair/local speed guard absent")
+    require(
+        by_id["G66"]["controlling_source"]
+        == "udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md",
+        "complete CMB query-map source changed",
+    )
+    require("G66_REFINES_G65_G64_AND_THE_F00_F17_CMB_FAMILY_UNIVERSE" in by_id["G66"]["precedence_rule"], "G66 CMB refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1208,7 +1227,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 65 premise guards, exact frozen M3 SNe replay with algebraically identical native pair-depth retyping and no owned complete-query correction, conditional common-query channel architecture with physical query and Q2 Codazzi certification open, bounded solved-geometry endpoint/propagator/full-holonomy/normal-holonomy coexistence with no physical selector or stability promotion, exact finite observer-network assembly in endpoint-atlas and path-labelled homes with route dependence allowed and physical relation-family/route-policy ownership open, declared regular complete chart finite-jet open with no owned nonidentity history restriction in ten frozen sources and global selector ownership still open, exact complete time-live compatibility orchestra with arbitrary time-only frequencies and native history selection still open, conditional complete split-relative matrix orchestra with generic orbit and signed area locks while positive weights and physical branch curve remain open, exact supplied-pair cone/phi/conditional-c-eff join with scoped local causal transition/calibration nonselection and ambient physical-family selector open, conditional full-coframe dphi_pair descent on a supplied coherent calibrated pair family with physical family/transition owner open, corrected global descent atlas with R17 foliation/path/alignment ownership and R18 clock-only descent while complete selector remains open, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 66 premise guards, bounded 16-source F00-F17 complete CMB query architecture with no owned physical realization and F00 compatibility only, exact frozen M3 SNe replay with algebraically identical native pair-depth retyping and no owned complete-query correction, conditional common-query channel architecture with physical query and Q2 Codazzi certification open, bounded solved-geometry endpoint/propagator/full-holonomy/normal-holonomy coexistence with no physical selector or stability promotion, exact finite observer-network assembly in endpoint-atlas and path-labelled homes with route dependence allowed and physical relation-family/route-policy ownership open, declared regular complete chart finite-jet open with no owned nonidentity history restriction in ten frozen sources and global selector ownership still open, exact complete time-live compatibility orchestra with arbitrary time-only frequencies and native history selection still open, conditional complete split-relative matrix orchestra with generic orbit and signed area locks while positive weights and physical branch curve remain open, exact supplied-pair cone/phi/conditional-c-eff join with scoped local causal transition/calibration nonselection and ambient physical-family selector open, conditional full-coframe dphi_pair descent on a supplied coherent calibrated pair family with physical family/transition owner open, corrected global descent atlas with R17 foliation/path/alignment ownership and R18 clock-only descent while complete selector remains open, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

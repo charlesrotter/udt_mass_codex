@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "different_nonzero_support": true,
+    "mode_existence_does_not_force_power": true,
+    "orientation_channel_changes_under_same_rotation": true,
+    "same_spectrum_A_B": true,
+    "scalar_invariant_under_screen_rotation": true,
+    "zero_covariance_has_no_power": true
+  },
+  "covariance_A": [
+    1,
+    0,
+    1,
+    0
+  ],
+  "covariance_B": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "covariance_zero": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "passed": 6,
+  "spectrum": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "support_A": [
+    0,
+    2
+  ],
+  "support_B": [
+    1,
+    3
+  ],
+  "support_zero": [],
+  "total": 6
+}

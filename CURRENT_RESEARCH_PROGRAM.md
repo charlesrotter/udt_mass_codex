@@ -7,7 +7,18 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G65 CHECKPOINT:**
+**CURRENT G66 CHECKPOINT:**
+`udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md` maps the complete currently
+registered CMB observation-query architecture across 16 frozen sources and F00--F17. It records 14
+typed query layers, four observable classes, zero owned complete physical CMB realizations, and
+exactly one historical attributed TT-position family: F00. The `10,080` C0 roots and `15,420` C1
+matrix elements remain conditional controls. External semantic review returned
+`VERIFIED_AFTER_SPECIFIED_CORRECTIONS`; its only repairs separate deterministic rendering and local
+artifact consistency from independent semantic review. The next bounded question is the identical
+declared observer-sky query and screen Jacobi map on F01/F02 before any eigensolve. No ranking, fit,
+population, bootstrap, or local-signalling inference is authorized.
+
+**G65 PARENT CHECKPOINT:**
 `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md` reproduces the complete frozen
 18-fit M3 Pantheon+ universe and all 443 stored leaves with maximum numeric difference `0.0`.
 Writing the registered redshift depth as the terminal supplied-pair coordinate
@@ -16,8 +27,7 @@ reproduced the replay, algebra, and P1 fit and retained `VERIFIED_WITH_CAVEATS`;
 leaf-type comparator caveat is repaired with three exercised controls and a 43-check final
 verifier. No current source owns a complete SNe query, physical pair immersion, complete screen-area
 law, time-live orchestra path, or coefficient-free correction. SNe remains a conditional low-z
-compatibility anchor. The next bounded question is the actual CMB observation query; P1 must not be
-promoted to its centered lapse or used to select its geometry.
+compatibility anchor. P1 must not be promoted to a centered CMB lapse or used to select geometry.
 
 **G64 PARENT CHECKPOINT:**
 `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md` directly reconstructs
@@ -28,8 +38,7 @@ transport are compatibility-linked without collapsing to one scalar. External re
 `VERIFIED_WITH_CAVEATS`. The independent raw normal-loop replay closes the projection/independence
 gap, while Q2 Codazzi remains numerically unresolved because its finest-step sequence fails the
 registered trend gate despite sub-`3.47e-7` residuals and `4.34e-11` agreement between formulations.
-The next bounded question is to type the actual already-banked CMB observation query, enumerate all
-regular realizations, and identify the channels its declared observable reads. No physical branch,
+That result supplies the conditional query architecture used by G66. No physical branch,
 coefficient, bootstrap rule, dynamics, or fit is selected.
 
 **G63 PARENT CHECKPOINT:**

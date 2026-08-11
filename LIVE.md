@@ -6,9 +6,29 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB PEAK OPTIMIZATION; NATIVE OBSERVER-QUERY SNe REPLAY EXTERNALLY VERIFIED WITH CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; COMPLETE OBSERVATION-QUERY MAP EXTERNALLY VERIFIED AFTER CORRECTIONS; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — NATIVE OBSERVER-QUERY SNe REPLAY AND REGRADING COMPLETE,
+**LATEST GATE — COMPLETE CMB OBSERVATION-QUERY MAP COMPLETE,
+`VERIFIED-AFTER-SPECIFIED-CORRECTIONS`.** Read
+`udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`. Across the exact frozen `16`-source and `F00`--`F17` universe,
+the audit maps `14` query layers and `4` observable classes. No registered family owns a complete
+physical CMB realization; exactly F00 owns the historical conditional mode-location plus
+two-parameter affine TT-position compatibility diagnostic. The banked `10,080` C0 roots and
+`15,420` C1 matrix elements remain valid controls, not CMB power predictions. A fixed spectrum can
+carry different nonzero-power supports or zero power under different source/state covariances.
+Pure screen-frame `SO(2)` rotation does not directly change scalar TT; polarization requires
+orientation-sensitive carry plus an appropriate source/state. The external reviewer independently
+confirmed the semantic census and required only evidence-label repairs: the production script is a
+deterministic renderer, the `21/21` local checker certifies artifact consistency, and the `10/10`
+mutations test that checker. P1 remains a low-z pair-profile anchor, `X_max` a pair asymptotic guard,
+and `c_eff^(pair)` an inter-observational readout—not a centered lapse, selector, or local speed.
+NEXT: preregister one identical observer-sky query on the round F01 and axis-regular mixing-on F02
+controls and derive each screen Jacobi map before any eigensolve. Do not rank the controls, restart
+FD2, fit peaks, add populations, activate bootstrap, infer local propagation, or claim a CMB
+prediction.
+
+**PARENT GATE — NATIVE OBSERVER-QUERY SNe REPLAY AND REGRADING COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Read
 `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
 `EXTERNAL_REVIEW_ADJUDICATION.md`. All `18` frozen M3 Pantheon+ fits and all `443` stored leaves
