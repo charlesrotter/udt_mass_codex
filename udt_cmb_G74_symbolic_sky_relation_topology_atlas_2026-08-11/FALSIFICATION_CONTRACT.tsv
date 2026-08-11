@@ -1,0 +1,9 @@
+claim	falsifier	required_evidence	maximum_surviving_status
+profile supports complete sky	supplied Cartesian metric is not C2 at center	exact center regularity calculation	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER
+sampled map is regular	missing endpoint nonfinite state or convergent zero/inverted face	nested meshes plus step refinement	OBSERVED_SAMPLED_REGULAR
+global map is bijective	degree not plus/minus one local rank loss or duplicate image	exact theorem or complete branch proof	DERIVED_GLOBAL_BIJECTION
+criticality is Jacobi-owned	endpoint crossing is grazing or chart projection singular	endpoint variation factorization	CRITICAL_TYPE_SEPARATED
+whole-sky regular multicover exists	connected S2 self-map is everywhere local diffeomorphism	covering-space theorem	REJECT_NONTRIVIAL_REGULAR_S2_SELFCOVER
+twist changes topology	area Jacobian and degree are unchanged	exact axisymmetric determinant	TWIST_TOPOLOGY_NEUTRAL_IN_TESTED_CLASS
+G68 physical sky selected	profiles endpoint and scale remain controls	premise audit	CONTROL_ATLAS_ONLY
+kaleidoscope derived	no owned noninjective critical or multibranch relation	branch census	OPEN_NO_OWNER
