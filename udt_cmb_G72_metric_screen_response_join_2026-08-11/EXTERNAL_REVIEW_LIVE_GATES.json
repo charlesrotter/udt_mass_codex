@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "external_landing_and_scope": true,
+    "g68_values": true,
+    "internal_landing_unchanged": true,
+    "protected_excluded": true,
+    "protected_metadata": true,
+    "raw_hash": true,
+    "review_manifest_hash": true,
+    "reviewed_paths": true,
+    "semantic_replay": true,
+    "transcript_hash": true
+  },
+  "effective_scientific_landing": "METRIC_OWNS_SOURCE_FREE_SCREEN_RESPONSE__PHYSICAL_OBSERVABLE_OPEN",
+  "external_landing": "VERIFIED_AS_CONDITIONAL_RESPONSE",
+  "passed": 10,
+  "protected_untracked_contents_read": false,
+  "reviewed_manifest_rows": 38,
+  "schema": "udt-cmb-g72-external-adjudication-v1",
+  "status": "PASS",
+  "total": 10
+}

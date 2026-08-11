@@ -6,6 +6,8 @@ scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARC
 lead is `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`; it derives a
 conditional source-free screen response (scale, shear, relative polar rotation) on a supplied
 regular query while leaving every physical CMB response/source/endpoint/global-scale owner open.
+It is externally verified as conditional; read its `EXTERNAL_REVIEW_ADJUDICATION.md` after the
+audit report.
 Its parent is `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`; it finds geometric
 carry conditionally owned on a supplied query while the source, endpoint/profile, and
 observation-level carry owners remain open. External review upheld the science; its literal-

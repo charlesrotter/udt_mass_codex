@@ -11,11 +11,12 @@ current scientific structure without reconstructing it from dozens of dated pack
 `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md` derives the complete generic
 source-free order-zero screen response on a supplied regular calibrated query. The same-query
 Jacobi map and metric screen transport yield common scale, dimensionless shear, and relative polar
-rotation after endpoint gauge quotient. The result is internally and independently verified, with
-14/14 semantic catches. It does not populate a sky field or derive physical TT/polarization,
+rotation after endpoint gauge quotient. It is `EXTERNALLY_VERIFIED_AS_CONDITIONAL_RESPONSE`: the
+reviewer verified `38/38` sealed hashes, independently replayed the exact/numerical/semantic gates,
+and reproduced all 21 G68 maps. It does not populate a sky field or derive physical TT/polarization,
 source, endpoint/profile, or global scale. G68's azimuthal carry is explicitly not image polar
-rotation. External review is pending. Next is the global source-free scalar-field test, only if the
-G72 type theorem survives review.
+rotation. Next is the global source-free scalar-field test; the local zero/constant-source result
+must not be promoted to a global-sky no-go.
 
 **G71 PARENT LEAD:**
 `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md` audits six possible

@@ -10,8 +10,9 @@ Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 **CMB PEAK OPTIMIZATION**. The current G72 response lead is
 `../udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`. On a supplied regular
 query, same-query Jacobi deformation and screen transport derive common scale, shear, and relative
-polar rotation. This source-free geometric response is internally verified but is not a physical
-CMB observable or populated sky. Its G71 parent is
+polar rotation. This source-free geometric response is externally verified as conditional after
+`38/38` sealed hashes and independent replay, but is not a physical CMB observable or populated
+sky. Read its `EXTERNAL_REVIEW_ADJUDICATION.md`. Its G71 parent is
 `../udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`. G71 finds geometric
 carry derived conditionally on a supplied query/path, but no native source, endpoint/profile, or
 observable-carry owner in the exact 21-source universe. External review upheld the science; its
@@ -45,6 +46,7 @@ holonomy, and R17 normal holonomy throughout its exact bounded `14`-witness atla
 geometric coexistence, not physical selection, dynamics, global completion, or stability.
 Read in order:
 `../udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`, then
+`../udt_cmb_G72_metric_screen_response_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `../udt_cmb_G72_metric_screen_response_join_2026-08-11/EXACT_DERIVATION.md`, then
 `../udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`, then
 `../udt_cmb_G71_native_restriction_owner_audit_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then

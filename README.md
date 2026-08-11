@@ -8,8 +8,10 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 The active arc is **CMB PEAK OPTIMIZATION**. Its current lead is
 `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`: on a supplied regular query,
 same-query Jacobi deformation and metric screen transport derive a source-free response with
-common scale, shear, and relative polar rotation. It is internally verified but still does not
-derive a populated CMB sky, TT/polarization response, source, endpoint/profile, or global scale.
+common scale, shear, and relative polar rotation. It is externally verified as a conditional
+response after all `38/38` sealed hashes and independent algebra/numerics replayed, but still does
+not derive a populated CMB sky, TT/polarization response, source, endpoint/profile, or global scale.
+Read its `EXTERNAL_REVIEW_ADJUDICATION.md` after the audit report.
 Its parent is
 `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`: the exact 21-source audit
 finds that the metric derives geometric carry on a supplied path/query, while source

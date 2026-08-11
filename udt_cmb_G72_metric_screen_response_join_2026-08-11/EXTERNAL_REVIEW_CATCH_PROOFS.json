@@ -1,0 +1,13 @@
+{
+  "caught": {
+    "common_query_removed": true,
+    "local_scope_erased": true,
+    "physical_observables_promoted": true,
+    "psi_identified_with_rotation": true,
+    "sne_promoted_to_selector": true,
+    "wrong_landing": true
+  },
+  "passed": 6,
+  "schema": "udt-cmb-g72-external-catches-v1",
+  "total": 6
+}

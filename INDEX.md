@@ -11,6 +11,7 @@
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
    `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_cmb_G72_metric_screen_response_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_cmb_G72_metric_screen_response_join_2026-08-11/EXACT_DERIVATION.md`, then
    `udt_cmb_G72_metric_screen_response_join_2026-08-11/RESPONSE_OWNERSHIP_LEDGER.tsv`, then
    `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`, then

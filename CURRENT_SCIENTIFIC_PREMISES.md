@@ -16,7 +16,9 @@ gate. On a supplied common typed query, `M=U^-1D`, its dimensionless shear, cova
 and oriented relative polar rotation are `DERIVED_CONDITIONAL_ON_QUERY`. The common response scale
 is dimensionful until a reference/global scale is supplied. Physical TT/polarization response,
 source population, endpoint/profile, and global scale remain `OPEN_NO_OWNER`. G68 azimuthal carry
-must not be identified with relative image rotation. External review is pending.
+must not be identified with relative image rotation. External review verified all `38/38` sealed
+hashes and independently upheld the bounded result as `VERIFIED_AS_CONDITIONAL_RESPONSE`. The
+zero/constant-source result is local and order-zero, not a global-sky no-go.
 
 ## G71 parent lead
 
