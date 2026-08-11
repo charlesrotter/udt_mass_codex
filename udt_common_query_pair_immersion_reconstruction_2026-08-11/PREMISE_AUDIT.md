@@ -42,13 +42,13 @@ metric branches.
 - Finite loops are integrated; curvature is used only for the registered shrinking-loop check.
 - The first flawed return is preserved, and every correction was preregistered before mutation.
 
-## Four banking gates before external review
+## Four banking gates after external review
 
 1. Preregistered: **YES**, including performance and implementation corrections.
 2. Full space or bounded scope justified: **YES**, exact two-query universe only.
-3. Independently verified: **YES WITH CAVEATS**, `16/16`; Q2 Codazzi excluded explicitly.
+3. Independently verified: **YES WITH CAVEATS**, `16/16`; Q2 normal transport was subsequently
+   regenerated independently, while Q2 Codazzi remains excluded explicitly.
 4. Every premise audited: **YES**, with every chosen control retained as chosen.
 
-Fresh adversarial review remains required before the provisional landing is banked as the current
-scientific checkpoint.
-
+Fresh sealed adversarial review returned `VERIFIED_WITH_CAVEATS`. Its findings and the preregistered
+closure replay are adjudicated in `EXTERNAL_REVIEW_ADJUDICATION.md`.

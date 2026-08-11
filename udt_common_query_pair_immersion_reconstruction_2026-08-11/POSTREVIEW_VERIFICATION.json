@@ -1,0 +1,22 @@
+{
+  "catch_proofs": {
+    "codazzi_promotion": "REJECTED",
+    "loop_norm_mutation": "REJECTED",
+    "lost_independent_loop": "REJECTED",
+    "production_import": "REJECTED"
+  },
+  "external_verdict": "VERIFIED_WITH_CAVEATS",
+  "hashes": {
+    "closure_result": "d6c90b1c4d9c707e9dd59edb8e8d0428867cdd3eb88fa2602cb3169a1d328881",
+    "closure_script": "1229c85ff894b934db06894d5ad64f0d219dfbe7e9c0898032c8a1c16085f34f",
+    "sealed_review_manifest": "7275f31d075b3daaf1c435cd4a253298db4aadf65031b0e4a7dd463a90dd5a25"
+  },
+  "landing": "QUERY_CLASS_DEPENDENT_CHANNEL_ARCHITECTURE",
+  "postreview_manifest_rows": 34,
+  "q2_codazzi": "NUMERICALLY_UNRESOLVED",
+  "q2_normal_loop": "INDEPENDENTLY_REGENERATED",
+  "schema": "UDT_COMMON_QUERY_POSTREVIEW_VERIFICATION_V1",
+  "sealed_commit": "7cce1745",
+  "sealed_manifest_rows_replayed_at_commit": 37,
+  "status": "PASS"
+}
