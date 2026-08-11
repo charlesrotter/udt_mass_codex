@@ -1,0 +1,8 @@
+axis_id	raw_components	meaning	invariance_target	status_before_test
+R	B01	reciprocal-plane oriented pair area	SO+(1,1) x SO(2)	CANDIDATE
+A	B23	angular-plane oriented pair area	SO+(1,1) x SO(2)	CANDIDATE
+M	B02;B03;B12;B13	mixed reciprocal-angular area matrix	SO+(1,1) x SO(2)	CANDIDATE
+MS	-(B02^2+B03^2)+(B12^2+B13^2)	signed mixed norm	SO+(1,1) x SO(2)	CANDIDATE
+H	h00;h01;h11	intrinsic complete pair metric	ambient endpoint-frame covariance	BANKED
+STATE	kappa;phi;beta	unique regular coordinates of H	ordered calibrated pair query	BANKED
+PATH	U_gamma	angular/path transport	path composition	BANKED DISTINCT

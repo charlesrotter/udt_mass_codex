@@ -1,0 +1,11 @@
+premise_id	statement	status	ownership	consequence_if_removed
+P01	Complete local metric is Lorentzian with signature (-,+,+,+)	DERIVED/pinned	pinned-by-THEORY	Gram and causal classification lose their declared type
+P02	An ordered pair query supplies a rank-two Jacobian V on the sampled point	CONDITIONAL input	free-and-explored	No pair surface exists to classify
+P03	No component of V is frozen	WORKING scope	free-and-explored	Atlas becomes a bounded frozen-sector result
+P04	Reciprocal/angular 2+2 split is supplied or metric-owned	CONDITIONAL	branch-dependent	Sector labels become gauge-relative and cannot be physical
+P05	c_E calibrates ordinary reciprocal normalization	OBSERVATIONAL ANCHOR	pinned-by-THEORY	Dimensionful calibration is absent; algebraic sector atlas remains
+P06	Strong local CSN does not delete common scale	INACTIVE	current premise registry	kappa must remain in complete pair state
+P07	Positive sector weights exist	OPEN	not assumed	Only signed invariants or diagnostics may be returned
+P08	Physical regime labels follow from algebraic dominance	OPEN	not assumed	No micro/terrestrial/cosmic assignment is allowed
+P09	Background density/curvature selects a branch	WORKING HYPOTHESIS	free for later work	No density scan or bootstrap verdict is allowed here
+P10	Pair-family dynamics and global completion are supplied	OPEN	not assumed	No on-shell or global physical selection may be claimed

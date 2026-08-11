@@ -1,0 +1,13 @@
+test_id	test	pass_condition	failure_landing
+F01	Gram determinant identity	exact symbolic zero	TYPE_FAILURE
+F02	Pluecker simplicity	exact symbolic zero for V0 wedge V1	TYPE_FAILURE
+F03	split-group invariance	exact invariance under symbolic boost and rotation	TYPE_FAILURE
+F04	signed sector sum	exactly reconstructs det(h)	TYPE_FAILURE
+F05	regular-region constructive witnesses	all preregistered sampled triples reconstruct or exclusions are proved	INCOMPLETE_ATLAS
+F06	positive-weight uniqueness	one convention-free smooth positive decomposition is proved	otherwise POSITIVE_WEIGHT_OPEN
+F07	pair-state separation	same h admits distinct split-relative plane data or a uniqueness proof is given	classification follows outcome
+F08	common-scale action	declared weights and dimensions transform exactly	TYPE_FAILURE
+F09	orientation action	signs and squared invariants transform exactly	TYPE_FAILURE
+F10	boundary strata	det(h)=0; rank loss; split loss are explicitly classified	INCOMPLETE_ATLAS
+F11	regime neutrality	no desired physical regime is used to select a survivor	SCOPE_FAILURE
+F12	c_E discipline	c_E calibrates but does not select sector shares	SCOPE_FAILURE
