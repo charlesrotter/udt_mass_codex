@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md",
     "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
@@ -81,7 +82,18 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 58 premise guards" in result.stdout
+    assert "PASS: 59 premise guards" in result.stdout
+
+
+def test_catch_missing_latest_pair_instrument_route(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "LIVE.md",
+        "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
+        "PAIR_INSTRUMENT_MIXING_REPORT_REMOVED.md",
+    )
+    with pytest.raises(SystemExit, match="pair_instrument_mixing_solution_space|latest complete-branch route"):
+        premise_guard.validate_startup_surface(root)
 
 
 def test_catch_missing_current_transport_route(tmp_path: Path) -> None:

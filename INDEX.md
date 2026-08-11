@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
    `udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -41,7 +42,11 @@
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected scalar atlas
    has three interleaved equatorial ladders and withdraws the old FD1 multiplet window. The latest
-   G58 audit exactly joins the shifted pair cone to `phi_pair` and conditional `c_eff`, while
+   G59 atlas derives the complete split-relative matrix orchestra, generic orbit classification,
+   signed area locks, and simultaneous angular modulation of `kappa`, `phi_pair`, and `beta`. It
+   does not select positive channel weights or the physical curve through that space; split
+   ownership and native branch evolution remain open. Its G58 parent exactly joins the shifted pair
+   cone to `phi_pair` and conditional `c_eff`, while
    retaining infinite local transition/calibration freedom. It does not prove multiple physical
    ambient pair families; that global construction remains open. Its G57 transport parent proves
    that canonical metric/coframe carry is isometric zero while a

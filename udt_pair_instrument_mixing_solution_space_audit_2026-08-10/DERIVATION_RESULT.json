@@ -1,0 +1,67 @@
+{
+  "base_commit": "8215a31578e571e29750daa53ccf26e436f7e582",
+  "exact_checks": {
+    "angular_variation": {
+      "dbeta": "0",
+      "dkappa": "0",
+      "dphi": "0"
+    },
+    "det_angular": "0",
+    "det_cross": "0",
+    "det_reciprocal": "0",
+    "gram_sector_identity": "0",
+    "matrix_split_group_invariance": {
+      "H_A": "Matrix([[0, 0], [0, 0]])",
+      "H_R": "Matrix([[0, 0], [0, 0]])"
+    },
+    "matrix_sum": "Matrix([[0, 0], [0, 0]])",
+    "plucker_simplicity": "0",
+    "positive_quadratic_form_solution": [
+      {
+        "qb": "0",
+        "qd": "-qa"
+      }
+    ],
+    "same_h_witness": "Matrix([[0, 0], [0, 0]])",
+    "split_group_invariance": {
+      "A": "0",
+      "B01": "0",
+      "B23": "0",
+      "M_signed": "0",
+      "R": "0"
+    }
+  },
+  "identities": {
+    "angular_beta_modulation": "dbeta=(h00 dH_A01-h01 dH_A00)/h00^2",
+    "angular_kappa_modulation": "dkappa=(1/4)tr(h^-1 dH_A)",
+    "angular_phi_modulation": "dphi=(1/4)tr(h^-1 dH_A)-(1/2)dH_A00/h00",
+    "common_scale": "V_i->sigma V_i gives (R,A,M_signed,det_h)->sigma^4 times each",
+    "gram": "det(h)=-R+A+M_signed",
+    "lorentzian_regular": "R>A+M_signed",
+    "matrix_orchestra": "h=H_R+H_A; H_R=X^T eta_(1,1) X; H_A=Y^T Y",
+    "mixed_determinant": "det(M)=B01*B23",
+    "plucker": "B01*B23-B02*B13+B03*B12=0"
+  },
+  "maximum_conclusion": "conditional pointwise signed sector-volume atlas; no positive physical mixing law or regime selection",
+  "preregistration_commit": "b6fb1883",
+  "refinement_commit": "162779cf",
+  "same_h_witness": {
+    "h": "diag(-1,1)",
+    "pure": {
+      "A": "0",
+      "M_signed": "0",
+      "R": "1"
+    },
+    "pure_H_A": "Matrix([[0, 0], [0, 0]])",
+    "pure_H_R": "Matrix([[-1, 0], [0, 1]])",
+    "tilted": {
+      "A": "0",
+      "M_signed": "sinh(a)**2",
+      "R": "cosh(a)**2"
+    },
+    "tilted_H_A": "Matrix([[sinh(a)**2, 0], [0, 0]])",
+    "tilted_H_R": "Matrix([[-cosh(a)**2, 0], [0, 1]])"
+  },
+  "sampled_witness_count": 27,
+  "status": "SPLIT_RELATIVE_SIGNED_ORCHESTRA_ATLAS"
+}

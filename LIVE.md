@@ -6,9 +6,27 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; CO-PRESENT PAIR-CONE JOIN VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; COMPLETE PAIR-INSTRUMENT MIXING ATLAS VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — CO-PRESENT CAUSAL PAIR-FUNCTOR SELECTOR AUDIT COMPLETE,
+**LATEST GATE — COMPLETE PAIR-INSTRUMENT MIXING SOLUTION-SPACE ATLAS COMPLETE,
+`VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
+`udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md` first. Conditional on
+a correctly typed metric-orthogonal reciprocal/angular `2+2` split, the complete arbitrary local
+pair Jacobian `V=(X;Y)` yields exact matrix channels `H_R=X^T diag(-1,+1)X`, `H_A=Y^T Y`, and
+`h=H_R+H_A`. On the generic invertible stratum, `(H_R,H_A)` classifies the continuous
+`O(1,1) x O(2)` orbit; the simple bivector supplies exact reciprocal, angular, and signed mixed-area
+locks. Angular variation modulates `kappa`, `phi_pair`, and `beta` together. External review found no
+algebraic defect but required independent reconstruction of all 27 sampled witnesses, an explicit
+statement that the catch harness is not independent semantic proof, and a self-contained sealed-
+intake verifier; all three repairs pass. The same complete pair metric `h` does not reconstruct the
+split-relative orchestra, and no unique positive channel weights or physical regime curve follow.
+The split owner and the native curve `s -> (H_R,H_A)` remain OPEN. NEXT: test whether an already-
+owned complete stationary/time-live branch supplies that curve or a differential constraint on it,
+with all sectors live and no micro/terrestrial/cosmic labels assigned in advance. Do not call this
+pointwise algebra time evolution, probabilities, physical regime weights, an action, source, or
+bootstrap theorem.
+
+**PARENT GATE — CO-PRESENT CAUSAL PAIR-FUNCTOR SELECTOR AUDIT COMPLETE,
 `VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
 `udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md` first. On every
 supplied regular calibrated pair family, the full shifted cone exactly has center `-beta`, centered

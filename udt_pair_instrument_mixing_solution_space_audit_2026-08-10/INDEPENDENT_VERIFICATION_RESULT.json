@@ -1,0 +1,13 @@
+{
+  "boundary_witnesses": 5,
+  "exact_covariance_pairs": 200,
+  "exact_random_pairs": 600,
+  "implementation": "independent_standard_library_fraction_and_float",
+  "independently_reconstructed_sampled_region_witnesses": 27,
+  "lorentzian_random_pairs": 287,
+  "max_sampled_residual": 5.773159728050814e-15,
+  "same_h_distinct_orchestra": true,
+  "sampled_region_witnesses": 27,
+  "status": "PASS",
+  "unique_positive_weight_rejected": true
+}

@@ -1,0 +1,10 @@
+{
+  "external_intake_files": 44,
+  "fresh_corrected_replay_files": 48,
+  "layout": "sealed_sources",
+  "package_files_in_corrected_replay_including_bytecode": 33,
+  "protected_atlas_contents_read": false,
+  "source_manifest_rows": 15,
+  "status": "PASS",
+  "transient_external_review_sha256": "d443ea547006b1379a82535ffc7b9fb1f518c4a82893b9bf75f8b8ee603533a3"
+}

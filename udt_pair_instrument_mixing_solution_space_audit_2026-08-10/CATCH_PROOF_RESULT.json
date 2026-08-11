@@ -1,0 +1,32 @@
+{
+  "catch_count": 24,
+  "catches": {
+    "F01_gram_wrong_sign_rejected": true,
+    "F02_pluecker_wrong_sign_rejected": true,
+    "F03_missing_angular_matrix_rejected": true,
+    "F04_cross_term_required": true,
+    "F05_same_h_not_same_orchestra": true,
+    "F06_full_ambient_invariance_overclaim_rejected": true,
+    "F07_unique_positive_weight_rejected": true,
+    "F08_positive_boost_quadratic_rejected": true,
+    "F09_physical_regime_not_assigned": true,
+    "F10_cE_not_weight_selector": true,
+    "F11_split_ownership_conditional": true,
+    "F12_R17_not_universal": true,
+    "F13_time_live_path_open": true,
+    "F14_strong_CSN_inactive": true,
+    "F15_pair_state_not_erased": true,
+    "F16_null_boundary_present": true,
+    "F17_rank_loss_present": true,
+    "F18_landing_exact": true,
+    "F19_scope_bounded": true,
+    "F20_no_action_claim": true,
+    "F21_all_components_live": true,
+    "F22_generic_not_global_uniqueness": true,
+    "F23_protected_atlas_absent": true,
+    "F24_stopped_draft_absent": true
+  },
+  "caught_count": 24,
+  "failed": [],
+  "schema_version": 1
+}

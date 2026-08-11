@@ -6,7 +6,13 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
-`udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`: on a supplied
+`udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`: conditional on a
+correctly typed reciprocal/angular split, it derives the complete split-relative matrix orchestra,
+generic orbit classification, exact signed area locks, and simultaneous angular modulation of
+`kappa`, `phi_pair`, and `beta`. It does not select positive channel weights or the physical
+time-live/regime curve through that state space. Split ownership and native curve selection remain
+open. Its parent is `udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`:
+on a supplied
 regular calibrated pair family, the complete shifted cone exactly joins `beta`, `phi_pair`, and
 the conditional `c_eff^(pair)` readout. Local bidirectional causal isomorphisms retain infinite
 transition/calibration freedom, but this is not proof of multiple physically distinct ambient pair

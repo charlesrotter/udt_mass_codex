@@ -1,0 +1,13 @@
+claim_id	claim	status	scope_or_premise
+G59-01	h=H_R+H_A for the full complete pair Jacobian	DERIVED	pointwise algebra with supplied metric-orthogonal 2+2 split
+G59-02	(H_R,H_A) gives generic continuous split-frame orbit data	DERIVED-CONDITIONAL	det X det Y nonzero; discrete proper/time/orientation components separate
+G59-03	Pluecker and signed Gram orchestra identities	DERIVED	arbitrary 4x2 Jacobian
+G59-04	R,A,M_signed are split-preserving invariants	DERIVED-CONDITIONAL	supplied or metric-owned split
+G59-05	angular matrix modulates kappa,phi_pair,beta by equations 12-14	DERIVED-CONDITIONAL	regular Lorentzian ordered pair metric
+G59-06	c_eff^(pair)/c_E=exp(-2phi_pair)	BANKED-CONDITIONAL	calibrated pair metric; not a signal law
+G59-07	intrinsic h alone does not reconstruct split-relative orchestra	DERIVED	exact same-h counterexample
+G59-08	full signed invariant region M_signed<R-A is constructively populated	DERIVED/OBSERVED	R>0,A>0 theorem plus sampled and boundary witnesses
+G59-09	unique positive scalar instrument weights	OPEN	indefinite boost representation and infinite diagnostic family
+G59-10	time-live regime trajectory through atlas	OPEN	physical pair-family/on-shell/global owner missing
+G59-11	micro/terrestrial/cosmic interpretation of strata	OPEN	no branch-scale map used
+G59-12	R17 split is universal	NOT CLAIMED	R17 remains conditional branch witness

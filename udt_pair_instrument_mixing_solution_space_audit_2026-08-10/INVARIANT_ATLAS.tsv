@@ -1,0 +1,17 @@
+object	definition	invariance	mathematical_role	physical_status
+H_R	X^T diag(-1,+1) X	O(1,1) reciprocal-frame changes	complete reciprocal contribution matrix to pair metric	CONDITIONAL on owned split
+H_A	Y^T Y	O(2) angular-frame changes	complete positive-semidefinite angular contribution matrix to pair metric	CONDITIONAL on owned split
+h	H_R+H_A	full endpoint-frame covariance	intrinsic ordered pair metric	CONDITIONAL on supplied pair map
+B01	det X	proper split-frame invariant	oriented reciprocal-plane area	CONDITIONAL on owned split and orientations
+B23	det Y	proper split-frame invariant	oriented angular-plane area	CONDITIONAL on owned split and orientations
+R	B01^2	split-frame invariant	nonnegative reciprocal area square	CHARACTERIZATION not physical weight
+A	B23^2	split-frame invariant	nonnegative angular area square	CHARACTERIZATION not physical weight
+M_signed	-(B02^2+B03^2)+(B12^2+B13^2)	split-frame invariant	signed mixed determinant cross-term	CHARACTERIZATION not positive weight
+Omega	-det(h)=R-A-M_signed	pair and split invariant on typed arena	positive Lorentzian pair-area square on regular stratum	DERIVED conditional pair scalar
+r_norm	R/Omega	common-scale invariant	signed-atlas reciprocal coordinate	DIAGNOSTIC not barycentric share
+a_norm	A/Omega	common-scale invariant	signed-atlas angular coordinate	DIAGNOSTIC not barycentric share
+m_norm	M_signed/Omega	common-scale invariant	signed-atlas mixed coordinate	DIAGNOSTIC not barycentric share
+kappa	(1/4)log(-det h)	ordered pair metric scalar	common pair scale	BANKED conditional state
+phi_pair	(1/4)log[(-det h)/h00^2]	ordered calibrated pair scalar	reciprocal cone opening	BANKED conditional state
+beta	h01/h00	ordered calibrated pair scalar	cone tilt/query state	BANKED conditional state
+Q_lambda	sqrt(M_signed^2+lambda(R+A)^2), lambda>0	split-frame and common-scale covariant	infinite positive diagnostic family	PROVES positive weighting nonunique

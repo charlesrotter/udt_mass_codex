@@ -1,0 +1,12 @@
+stratum	conditions	meaning	status
+GENERIC_REGULAR	Omega>0; rank(V)=2; split exists; det(X)det(Y)!=0	all matrix channels and oriented area sectors regular	CONDITIONAL CHARACTERIZATION
+RECIPROCAL_ONLY	Y=0; R>0	pair plane lies in reciprocal sector; det(h)=-R<0	CONDITIONAL CHARACTERIZATION
+ANGULAR_PRESENT	H_A!=0; Omega>0	angular orchestra changes one or more entries of h	CONDITIONAL CHARACTERIZATION
+MIXED_ONLY_LIKE	R=0; A=0; M_signed<0	Lorentzian pair area carried by mixed bivector channels	CONSTRUCTIVE STRATUM
+RECIPROCAL_AREA_ZERO	R=0; M_signed<-A	Lorentzian pair survives without reciprocal-plane area	CONSTRUCTIVE STRATUM
+ANGULAR_AREA_ZERO	A=0; R>M_signed	angular oriented area vanishes but angular/mixed matrices may remain	CONSTRUCTIVE STRATUM
+BLOCK_SINGULAR	det(X)=0 or det(Y)=0	one sector matrix loses rank; generic orbit proof needs stratification	BOUNDARY/LOWER-RANK
+NULL_CROSSOVER	Omega=0; rank(V)=2	induced pair plane becomes null/degenerate	DECOMPOSITION FAILS AS LORENTZIAN PAIR
+PAIR_RANK_LOSS	B=0; rank(V)<2	no pair-area plane	FAILURE STRATUM
+SPLIT_LOSS	reciprocal/angular projector absent or nonunique	H_R,H_A and sector labels are not typed	TYPE FAILURE FOR SPLIT ATLAS
+PHYSICAL_REGIME_ASSIGNMENT	any algebraic stratum assigned micro/terrestrial/cosmic meaning without branch-scale owner	forbidden inference	OPEN

@@ -4,11 +4,16 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; co-present pair-cone join verified with corrections)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; complete pair-instrument mixing atlas verified with corrections)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`: conditional on a
+correctly typed reciprocal/angular split, the full local pair Jacobian yields an exact
+split-relative matrix orchestra, generic orbit classification, signed area locks, and simultaneous
+angular modulation of `kappa`, `phi_pair`, and `beta`. No unique positive weights or physical curve
+through that state space are selected. Its parent is
 `udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`: the supplied pair
 cone exactly yields `beta`, `phi_pair`, and conditional `c_eff`, while local bidirectional causal
 isomorphisms leave transition/calibration freedom. This is not an ambient physical-family

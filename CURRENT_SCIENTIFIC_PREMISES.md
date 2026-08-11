@@ -9,7 +9,23 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G58 refinement
+## Current G59 refinement
+
+`udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md` controls the current
+pair-instrument solution-space gate. Conditional on a correctly typed metric-orthogonal
+reciprocal/angular `2+2` split, the arbitrary local pair Jacobian `V=(X;Y)` has exact matrix
+channels `H_R=X^T diag(-1,+1)X`, `H_A=Y^T Y`, and `h=H_R+H_A`. On the generic invertible stratum,
+the ordered pair `(H_R,H_A)` classifies the continuous `O(1,1) x O(2)` orbit, with discrete proper,
+time-orientation, and angular-orientation components retained separately. The simple bivector
+supplies exact reciprocal, angular, and signed mixed-area locks. Variations of `H_A` modulate
+`kappa`, `phi_pair`, and `beta` together. External review returned `VERIFIED_WITH_CORRECTIONS`; its
+three requested verification/scope repairs pass. The intrinsic sum `h` does not reconstruct the
+split-relative orchestra, and the atlas derives neither positive physical weights nor the native
+curve `s -> (H_R,H_A)`. The physical split owner, on-shell/global curve, and regime interpretation
+remain OPEN. Do not call pointwise algebra time-live evolution or assign micro, terrestrial,
+cosmological, particle, force, or background labels to its strata.
+
+## G58 parent refinement
 
 `udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md` controls the current
 causal pair gate. On a supplied regular calibrated pair family, the complete shifted cone exactly

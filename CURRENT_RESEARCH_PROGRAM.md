@@ -7,7 +7,18 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G58 CHECKPOINT:**
+**CURRENT G59 CHECKPOINT:**
+`udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md` derives the complete
+conditional split-relative matrix orchestra from the arbitrary local pair Jacobian. It classifies
+the generic continuous orbit, derives exact reciprocal/angular/signed-mixed area locks, and shows
+that angular variation modulates `kappa`, `phi_pair`, and `beta` together. External review returned
+`VERIFIED_WITH_CORRECTIONS`; every requested reconstruction, independence-scope, and sealed-intake
+repair passes. The atlas is pointwise: it does not select positive measurement weights, a physical
+regime map, or the curve `s -> (H_R,H_A)`. The next bounded question is whether an already-owned
+complete stationary/time-live branch supplies that curve or a native differential constraint,
+with every sector live and no physical labels assigned in advance.
+
+**G58 PARENT CHECKPOINT:**
 `udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md` derives the exact
 shifted pair-cone join to `phi_pair` and conditional `c_eff` on a supplied calibrated family. It
 classifies all declared local time-oriented bidirectional causal isomorphisms and proves that the

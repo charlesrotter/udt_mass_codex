@@ -18,7 +18,19 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = CO-PRESENT CAUSAL PAIR-FUNCTOR SELECTOR AUDIT COMPLETE,
+**LATEST GATE = COMPLETE PAIR-INSTRUMENT MIXING SOLUTION-SPACE ATLAS COMPLETE,
+`VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
+`udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`. Conditional on a
+correctly typed metric-orthogonal reciprocal/angular `2+2` split, the full arbitrary local pair
+Jacobian gives exact matrix channels `H_R`, `H_A`, and `h=H_R+H_A`; its generic continuous orbit and
+signed reciprocal/angular/mixed-area locks are derived. Angular variation modulates `kappa`,
+`phi_pair`, and `beta` together. The corrected independent verifier reconstructs every sampled
+witness, and the sealed-intake replay is self-contained. The pointwise atlas does not select
+positive channel weights, a physical regime map, or the actual curve `s -> (H_R,H_A)`. NEXT: test
+already-owned complete stationary/time-live branches for that curve or a native differential
+constraint, without assigning physical regime labels or inventing evolution.
+
+**PARENT GATE = CO-PRESENT CAUSAL PAIR-FUNCTOR SELECTOR AUDIT COMPLETE,
 `VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
 `udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`. On a supplied regular
 calibrated pair family, the shifted cone exactly gives center `-beta`, centered half-width

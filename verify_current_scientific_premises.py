@@ -98,6 +98,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md",
             "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
@@ -160,6 +161,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md",
             "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
@@ -190,7 +192,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md"
+    latest = "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -207,6 +209,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md",
         "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
@@ -247,9 +250,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 58, "premise registry must contain exactly 58 rows")
+    require(len(rows) == 59, "premise registry must contain exactly 59 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 58, "duplicate premise id")
+    require(len(by_id) == 59, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -981,6 +984,29 @@ def main() -> None:
         "causal pair source changed",
     )
     require("G58_REFINES_G57_BY_DERIVING_THE_EXACT_COMPLETE_PAIR_CONE_PHI_CEFF_JOIN" in by_id["G58"]["precedence_rule"], "G57 causal pair refinement absent")
+    require(
+        by_id["G59"]["current_status"]
+        == "VERIFIED_WITH_CORRECTIONS__CONDITIONAL_SPLIT_RELATIVE_MATRIX_ORCHESTRA_H_EQUALS_HR_PLUS_HA__GENERIC_CONTINUOUS_ORBIT_AND_SIGNED_AREA_LOCKS_DERIVED__ANGULAR_MODULATES_KAPPA_PHI_PAIR_BETA__POSITIVE_WEIGHTS_AND_PHYSICAL_REGIME_CURVE_OPEN",
+        "pair-instrument mixing atlas status regressed or promoted",
+    )
+    require(by_id["G59"]["epistemic_label"] == "MIXED", "pair-instrument atlas label changed")
+    require(
+        by_id["G59"]["active_use"]
+        == "ACTIVE_CONDITIONAL_POINTWISE_ORCHESTRA_ATLAS_AND_NEXT_OWNED_BRANCH_CURVE_GATE_ONLY",
+        "pair-instrument atlas use promoted",
+    )
+    require("universal ownership of reciprocal/angular split" in by_id["G59"]["open_scope"], "split ownership silently closed")
+    require("actual time-live or scale-live curve s to (H_R,H_A)" in by_id["G59"]["open_scope"], "physical curve silently closed")
+    require("positive measurement weights" in by_id["G59"]["open_scope"], "positive weights invented")
+    require("signed R A M called positive probabilities or importance weights" in by_id["G59"]["forbidden_regression"], "signed-channel guard absent")
+    require("off-shell algebra called time-live evolution" in by_id["G59"]["forbidden_regression"], "time-live ownership guard absent")
+    require("catch harness called independent proof" in by_id["G59"]["forbidden_regression"], "independence-scope guard absent")
+    require(
+        by_id["G59"]["controlling_source"]
+        == "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
+        "pair-instrument atlas source changed",
+    )
+    require("G59_REFINES_G58_BY_DERIVING_THE_COMPLETE_SPLIT_RELATIVE_MATRIX_AND_SIGNED_AREA_ORCHESTRA_ATLAS" in by_id["G59"]["precedence_rule"], "G58 pair-instrument refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1053,7 +1079,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 58 premise guards, exact supplied-pair cone/phi/conditional-c_eff join with scoped local causal transition/calibration nonselection and ambient physical-family selector open, conditional full-coframe dphi_pair descent on a supplied coherent calibrated pair family with physical family/transition owner open, corrected global descent atlas with R17 foliation/path/alignment ownership and R18 clock-only descent while complete selector remains open, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 59 premise guards, conditional complete split-relative matrix orchestra with generic orbit and signed area locks while positive weights and physical branch curve remain open, exact supplied-pair cone/phi/conditional-c_eff join with scoped local causal transition/calibration nonselection and ambient physical-family selector open, conditional full-coframe dphi_pair descent on a supplied coherent calibrated pair family with physical family/transition owner open, corrected global descent atlas with R17 foliation/path/alignment ownership and R18 clock-only descent while complete selector remains open, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":
