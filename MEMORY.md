@@ -4,12 +4,16 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G71 native restriction-owner audit externally verified)
+## TOP — CURRENT POINTER (2026-08-11, G72 metric screen-response join internally verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The current lead is
-`udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`: the 21-source owner census
+`udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`: same-query Jacobi deformation
+and metric screen transport derive a conditional source-free response with common scale, shear,
+and relative polar rotation. This is internally verified and awaiting external review. It does not
+populate a sky field or derive TT/polarization, source, endpoint/profile, or global scale. Its
+parent is `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`: the 21-source owner census
 finds geometric carry conditionally metric-owned on a supplied query, while the source,
 endpoint/profile selectors, and observable carry readout remain open. External review upheld the
 science; its citation-verifiability caveat is closed by a literal overlay. Its parent is

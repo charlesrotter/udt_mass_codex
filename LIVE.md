@@ -6,9 +6,27 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G71 NATIVE RESTRICTION-OWNER AUDIT EXTERNALLY VERIFIED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G72 METRIC SCREEN-RESPONSE JOIN INTERNALLY VERIFIED) ============
 
-**LATEST LEAD — G71 NATIVE RESTRICTION-OWNER AUDIT,
+**LATEST LEAD — G72 METRIC SCREEN-RESPONSE JOIN,
+`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`; landing
+`METRIC_OWNS_SOURCE_FREE_SCREEN_RESPONSE__PHYSICAL_OBSERVABLE_OPEN`.** Read
+`udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `RESPONSE_OWNERSHIP_LEDGER.tsv`, and both preregistrations. On one supplied,
+regular, calibrated observer-sky query, the same-query Jacobi map and metric screen transport form
+the relative response `M=U^-1D`. Its complete generic oriented order-zero invariant set is common
+response scale, dimensionless shear magnitude, and relative polar rotation. Production symbolic
+checks plus 512 gauge trials and an independent 1000-trial SVD route pass; 14/14 semantic catches
+reject every source/observable/selector promotion. All 21 G68 maps replay with nonzero shear but no
+resolved relative rotation. Crucially, G68 azimuthal carry `psi` is not image polar rotation. The
+metric therefore owns a conditional distortion machine, not a populated CMB sky: physical TT and
+polarization response, source state, endpoint/profile, and global scale remain `OPEN_NO_OWNER`.
+No fit, ODE/PDE, GPU work, source, `X_max` value, bootstrap selector, or CMB spectrum entered.
+NEXT: sealed adversarial review; if upheld, test globally whether a complete symbolic-scale
+observer-sky geometry can generate any nonconstant source-free scalar sky field. Do not infer a
+physical pattern from the local response operator.
+
+**PARENT GATE — G71 NATIVE RESTRICTION-OWNER AUDIT,
 `EXTERNALLY_VERIFIED_WITH_LITERAL_CITATION_CAVEAT_CLOSED_LOCALLY`; landing
 `GEOMETRIC_CARRY_OWNED__OBSERVABLE_AND_SELECTION_OWNERS_OPEN`.** Read
 `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`, then

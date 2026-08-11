@@ -21,7 +21,20 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G71 NATIVE RESTRICTION-OWNER AUDIT,
+**LATEST LEAD = G72 METRIC SCREEN-RESPONSE JOIN,
+`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`; landing
+`METRIC_OWNS_SOURCE_FREE_SCREEN_RESPONSE__PHYSICAL_OBSERVABLE_OPEN`.** Read
+`udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `RESPONSE_OWNERSHIP_LEDGER.tsv`, and both preregistrations. Same-query
+Jacobi deformation and metric screen transport yield a source-free relative response with three
+generic oriented invariants: common scale, shear magnitude, and relative polar rotation. All
+symbolic checks, 512 production gauge trials, 1000 independent SVD trials, 21 G68 replays, and
+14/14 semantic catches pass. G68 has nonzero shear but no resolved polar rotation; its azimuthal
+carry is a different channel. This remains a conditional geometric response, not TT/polarization,
+source population, endpoint/profile selection, or global scale. NEXT: cold-review G72, then test
+the global source-free scalar-field question without fitting a desired pattern.
+
+**PARENT GATE = G71 NATIVE RESTRICTION-OWNER AUDIT,
 `EXTERNALLY_VERIFIED_WITH_LITERAL_CITATION_CAVEAT_CLOSED_LOCALLY`; landing
 `GEOMETRIC_CARRY_OWNED__OBSERVABLE_AND_SELECTION_OWNERS_OPEN`.** Read
 `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`, then

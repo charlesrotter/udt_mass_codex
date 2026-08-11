@@ -1,0 +1,21 @@
+{
+  "caught": {
+    "D_block_called_composable": true,
+    "SNe_promoted_to_profile": true,
+    "TT_observable_promoted": true,
+    "Xmax_promoted_to_selector": true,
+    "caustic_called_regular": true,
+    "common_typing_removed": true,
+    "dimensionful_scale_silently_logged": true,
+    "landing_overpromoted": true,
+    "polarization_promoted": true,
+    "psi_identified_with_polar_rotation": true,
+    "raw_U_promoted_to_scalar": true,
+    "reflection_sign_erased": true,
+    "source_population_promoted": true,
+    "zero_source_generates_pattern": true
+  },
+  "passed": 14,
+  "schema": "udt-cmb-g72-response-catches-v1",
+  "total": 14
+}

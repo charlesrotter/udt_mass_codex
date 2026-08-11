@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "catches": true,
+    "g68": true,
+    "gauge": true,
+    "independent": true,
+    "landing": true,
+    "physical_owners_open": true,
+    "protected_excluded": true,
+    "required_files": true,
+    "response_conditional": true,
+    "source_count": true,
+    "source_hashes": true,
+    "symbolic": true
+  },
+  "landing": "METRIC_OWNS_SOURCE_FREE_SCREEN_RESPONSE__PHYSICAL_OBSERVABLE_OPEN",
+  "passed": 12,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g72-package-verification-v1",
+  "source_manifest_rows": 14,
+  "status": "PASS",
+  "total": 12
+}

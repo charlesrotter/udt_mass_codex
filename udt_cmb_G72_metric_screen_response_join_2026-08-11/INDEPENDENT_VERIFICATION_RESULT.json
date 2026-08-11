@@ -1,0 +1,21 @@
+{
+  "endpoint_D_block_exact_witness": {
+    "D_product": 6,
+    "D_total": 5
+  },
+  "g68_max_relative_angle": 1.4354682897494368e-20,
+  "g68_max_shear": 0.0023238059699749714,
+  "g68_rows": 21,
+  "landing_reproduced": "METRIC_OWNS_SOURCE_FREE_SCREEN_RESPONSE__PHYSICAL_OBSERVABLE_OPEN",
+  "max_reflection_angle_error": 0.0,
+  "max_relative_angle_gauge_error": 6.661338147750939e-16,
+  "max_scale_gauge_error": 4.440892098500626e-15,
+  "max_shear_gauge_error": 5.551115123125783e-15,
+  "method": "independent SVD polar factor plus constructed positive-determinant maps",
+  "raw_open_transport_changed_trials": 1000,
+  "schema": "udt-cmb-g72-screen-response-independent-v1",
+  "source_manifest_rows": 14,
+  "status": "PASS",
+  "trials": 1000,
+  "zero_source_remains_zero": true
+}

@@ -7,7 +7,17 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G71 LEAD:**
+**CURRENT G72 LEAD:**
+`udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md` derives the complete generic
+source-free order-zero screen response on a supplied regular calibrated query. The same-query
+Jacobi map and metric screen transport yield common scale, dimensionless shear, and relative polar
+rotation after endpoint gauge quotient. The result is internally and independently verified, with
+14/14 semantic catches. It does not populate a sky field or derive physical TT/polarization,
+source, endpoint/profile, or global scale. G68's azimuthal carry is explicitly not image polar
+rotation. External review is pending. Next is the global source-free scalar-field test, only if the
+G72 type theorem survives review.
+
+**G71 PARENT LEAD:**
 `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md` audits six possible
 restriction owners across the exact 21-source current evidence universe. The metric owns geometric
 carry only conditionally on a supplied query/path. Source shape and normalization, physical CMB

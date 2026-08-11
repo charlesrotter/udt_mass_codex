@@ -3,7 +3,10 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-lead is `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`; it finds geometric
+lead is `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`; it derives a
+conditional source-free screen response (scale, shear, relative polar rotation) on a supplied
+regular query while leaving every physical CMB response/source/endpoint/global-scale owner open.
+Its parent is `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`; it finds geometric
 carry conditionally owned on a supplied query while the source, endpoint/profile, and
 observation-level carry owners remain open. External review upheld the science; its literal-
 citation caveat is closed by an additions-only overlay. Its parent is

@@ -9,7 +9,16 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G71 lead
+## Current G72 lead
+
+`udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md` controls the current response
+gate. On a supplied common typed query, `M=U^-1D`, its dimensionless shear, covariant shear tensor,
+and oriented relative polar rotation are `DERIVED_CONDITIONAL_ON_QUERY`. The common response scale
+is dimensionful until a reference/global scale is supplied. Physical TT/polarization response,
+source population, endpoint/profile, and global scale remain `OPEN_NO_OWNER`. G68 azimuthal carry
+must not be identified with relative image rotation. External review is pending.
+
+## G71 parent lead
 
 `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md` controls the current owner
 gate. Geometric screen carry is `DERIVED_CONDITIONAL_ON_QUERY`; source shape/normalization,
