@@ -6,9 +6,22 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; COMPLETE TIME-LIVE ORCHESTRA COMPATIBILITY VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; NATIVE HISTORY RESTRICTION AUDIT VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — COMPLETE TIME-LIVE ORCHESTRA COMPATIBILITY COMPLETE,
+**LATEST GATE — NATIVE HISTORY RESTRICTION FROM SCRATCH COMPLETE,
+`VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
+`udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md` first. On the declared
+positive-screen, time-oriented regular component, the complete `(B,Q,S)` parameterization is an
+open chart on all ten metric components and on every finite metric jet: the exact zero-jet
+Jacobian is `16 L T^3 u^5 w^6`. Five owner classes across exactly ten frozen current sources were
+audited from scratch; none supplies an owned nonidentity history restriction. This closes deeper
+expansion of the same regular factorization as a route to a local evolution equation. It is not a
+global no-go and does not cover other components or null/rank/split/cut-locus strata. Preserving a
+boundary germ does not automatically preserve global causality or completion. NEXT: type and test
+the first owned global selector `R(j^k g;G_global)=0`, with branch, query, reset, and boundary
+semantics explicit; it is currently a type, not a formula. Bootstrap remains deferred.
+
+**PARENT GATE — COMPLETE TIME-LIVE ORCHESTRA COMPATIBILITY COMPLETE,
 `VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
 `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md` first. In the
 supplied regular pair-adapted chart, every declared common-scale, reciprocal, shift, angular, and

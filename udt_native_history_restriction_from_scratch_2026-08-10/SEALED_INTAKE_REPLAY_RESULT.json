@@ -1,0 +1,14 @@
+{
+  "external_review_primary_landing": "VERIFIED_WITH_CORRECTIONS",
+  "original_sealed_file_count": 31,
+  "original_sealed_package_file_count": 21,
+  "original_sealed_source_file_count": 10,
+  "original_transient_external_output_sha256": "76f1e09c40f923875aae7025371863acf83a3ff3bf1296edabd6567e6c5c1cff",
+  "normalized_banked_external_review_sha256": "568f4388a3e903aecad16567dac40beb9b6ef7c1e90608e71932abe1865c87c0",
+  "source_manifest_sha256": "acb81fe7c0d0ec7cee28a27e825f0d853a410c9e5356f09cbbc57b1b04ac06d9",
+  "source_count": 10,
+  "fixed_base_repository_replay": "PASS",
+  "corrected_sealed_layout_replay": "PASS",
+  "historical_preregistration_verifier_modified": false,
+  "scientific_scope_changed_by_packaging_correction": false
+}

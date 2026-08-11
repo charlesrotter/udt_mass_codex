@@ -1,0 +1,24 @@
+{
+  "catch_count": 16,
+  "catches": {
+    "F01_all_ten_components_and_nonzero_jacobian": true,
+    "F02_regular_domain_explicit": true,
+    "F03_finite_jet_prolongation_explicit": true,
+    "F04_identities_not_dynamics": true,
+    "F05_natural_tensor_not_silently_zeroed": true,
+    "F06_composition_not_bulk_equation": true,
+    "F07_cE_not_derivative_selector": true,
+    "F08_Xmax_not_local_PDE_or_wall": true,
+    "F09_boundary_not_interior_operator": true,
+    "F10_R17_not_universal": true,
+    "F11_bootstrap_inactive": true,
+    "F12_negative_is_source_bounded": true,
+    "F13_no_downstream_physics": true,
+    "F14_protected_and_stopped_absent": true,
+    "F15_landing_is_component_and_source_bounded": true,
+    "F16_boundary_germ_not_global_causality": true
+  },
+  "caught_count": 16,
+  "failed": [],
+  "schema_version": 1
+}

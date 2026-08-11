@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
    `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -43,7 +44,11 @@
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected scalar atlas
    has three interleaved equatorial ladders and withdraws the old FD1 multiplet window. The latest
-   G60 turns the declared complete orchestra time- and space-live and derives the exact coupled
+   G61 proves the declared regular complete chart is locally open on every finite metric jet and
+   finds no owned nonidentity history restriction in five classes across ten frozen sources. This
+   closes deeper chart expansion as a local equation source, not global selectors or other/singular
+   branches. The next gate is the first owned global selector type with branch/query/reset/boundary
+   semantics. Its G60 parent turns the declared complete orchestra time- and space-live and derives the exact coupled
    compatibility identities and pair-state readouts. These are smooth-coframe identities, not an
    evolution law; arbitrary time-only frequencies survive. The next gate is an already-owned
    history restriction beyond Maurer--Cartan/Bianchi identities. Its G59 parent derives the

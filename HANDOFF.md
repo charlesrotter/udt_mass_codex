@@ -18,7 +18,18 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = COMPLETE TIME-LIVE ORCHESTRA COMPATIBILITY COMPLETE,
+**LATEST GATE = NATIVE HISTORY RESTRICTION FROM SCRATCH COMPLETE,
+`VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
+`udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`. The complete regular
+`(B,Q,S)` chart is locally open on every finite metric jet in the declared positive-screen,
+time-oriented component. The exact Jacobian is `16 L T^3 u^5 w^6`. Across five owner classes and
+ten frozen sources, no owned nonidentity history law was found. This rules out extracting an
+equation by deeper expansion of the same chart, not global closure or singular/other branches.
+Boundary-germ preservation is not global-causality preservation. NEXT: test ownership of the first
+global selector type `R(j^k g;G_global)=0`, with branch/query/reset/boundary semantics declared.
+Do not invent its formula or activate bootstrap.
+
+**PARENT GATE = COMPLETE TIME-LIVE ORCHESTRA COMPATIBILITY COMPLETE,
 `VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
 `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`. All declared
 `B`, `Q`, and `S` channels are time- and space-live in the supplied regular pair-adapted chart. The

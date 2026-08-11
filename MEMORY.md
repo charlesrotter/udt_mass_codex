@@ -9,6 +9,10 @@
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`: the declared regular
+complete chart is locally finite-jet open, with no owned nonidentity history restriction found in
+five classes across ten frozen sources. This is not a global no-go. Next is the first owned global
+selector type, with no formula invented. Its parent is
 `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`: all declared
 pair-adapted coframe channels are now time- and space-live. Their exact coupled compatibility
 identities and pair-state evolution readouts are derived, but every smooth regular movie obeys

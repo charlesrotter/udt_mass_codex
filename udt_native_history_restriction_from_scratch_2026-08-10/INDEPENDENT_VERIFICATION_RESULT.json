@@ -1,0 +1,9 @@
+{
+  "boundary_preserving_interior_trials": 300,
+  "endpoint_cocycle_trials": 300,
+  "exact_jacobian_and_inverse_trials": 300,
+  "genuine_owned_history_restrictions": 0,
+  "implementation": "independent_standard_library_fraction_dual_numbers_no_sympy_no_production_import",
+  "status": "PASS",
+  "total_exact_trials": 900
+}

@@ -1,0 +1,26 @@
+{
+  "candidate_owner_classes": 5,
+  "exact_check_count": 14,
+  "exact_checks": {
+    "complete_metric_determinant": true,
+    "cross_block": true,
+    "first_jet_block_count": true,
+    "inverse_L_squared": true,
+    "inverse_T_squared": true,
+    "inverse_beta": true,
+    "inverse_mixing": true,
+    "inverse_u_squared": true,
+    "inverse_v": true,
+    "inverse_w_squared": true,
+    "jacobian_nonzero_formula": true,
+    "schur_complement": true,
+    "screen_determinant": true,
+    "second_jet_block_count": true
+  },
+  "first_jet_prolongation_determinant": "(16*L*T**3*u**5*w**6)^5",
+  "genuine_owned_history_restrictions": 0,
+  "maximum_conclusion": "the declared positive-screen, time-oriented regular split chart is a local diffeomorphism on metric finite jets; the five owner classes audited across the ten frozen manifest sources supply identities, readouts, conditional comparisons, or global/boundary gates, but no owned nonidentity history law",
+  "second_jet_prolongation_determinant": "(16*L*T**3*u**5*w**6)^15",
+  "status": "COMPLETE_REGULAR_CHART_IS_LOCALLY_JET_OPEN_ON_THE_DECLARED_POSITIVE_SCREEN_TIME_ORIENTED_COMPONENT__NO_CURRENTLY_OWNED_NONIDENTITY_HISTORY_RESTRICTION_IS_FOUND_IN_THE_TEN_FROZEN_SOURCES",
+  "zero_jet_jacobian_determinant": "16*L*T**3*u**5*w**6"
+}

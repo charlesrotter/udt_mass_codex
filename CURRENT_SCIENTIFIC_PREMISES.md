@@ -9,7 +9,19 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G60 refinement
+## Current G61 refinement
+
+`udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md` controls the current
+history-selection gate. The declared positive-screen, time-oriented regular `(B,Q,S)`
+parameterization is a local diffeomorphism on all ten metric components and every finite metric
+jet. The exact Jacobian is `16 L T^3 u^5 w^6`. Five owner classes across ten frozen sources contain
+no currently owned nonidentity history restriction. External review independently reproduced the
+algebra and returned `VERIFIED_WITH_CORRECTIONS`: the theorem is component- and source-bounded,
+and preservation of a boundary germ must not be confused with preservation of global causality or
+completion. The next gate is ownership of the first global selector type
+`R(j^k g;G_global)=0`; it is a type only, not a formula. Bootstrap remains deferred.
+
+## G60 parent refinement
 
 `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md` controls the
 current time-live gate. In the supplied regular pair-adapted chart, `kappa`, `phi`, `beta`, all four

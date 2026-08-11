@@ -6,6 +6,12 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`: the declared regular
+complete chart is locally open on every finite metric jet, and five owner classes across ten
+frozen sources contain no owned nonidentity history restriction. Deeper expansion of the same
+chart therefore cannot supply a local evolution equation. This is component- and source-bounded,
+not a global no-go. The next gate is ownership of the first global selector type with explicit
+branch/query/reset/boundary semantics; no formula or bootstrap target is selected. Its parent is
 `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`: every declared
 common-scale, reciprocal, shift, angular, and mixing channel is time- and space-live in the
 supplied regular chart, and their exact compatibility and pair-state evolution identities are

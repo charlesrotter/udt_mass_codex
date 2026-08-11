@@ -7,7 +7,16 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G60 CHECKPOINT:**
+**CURRENT G61 CHECKPOINT:**
+`udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md` proves that the declared
+positive-screen, time-oriented regular `(B,Q,S)` chart is locally open on all finite metric jets.
+Across five owner classes and ten frozen current sources, no owned nonidentity history restriction
+was found. The result closes deeper expansion of the same regular factorization as a local equation
+source, not global selectors, other chart components, or singular strata. The next bounded question
+is ownership of a global selector type `R(j^k g;G_global)=0` with branch/query/reset/boundary
+semantics. The type is defined; no formula or bootstrap target is selected.
+
+**G60 PARENT CHECKPOINT:**
 `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md` makes every
 declared `B`, `Q`, and `S` channel time- and space-live and derives the exact coupled compatibility
 blocks and complete pair-state readouts. External review returned `VERIFIED_WITH_CORRECTIONS` and
