@@ -4,16 +4,21 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, CMB peak optimization; complete observer-network assembly verified with corrections)
+## TOP — CURRENT POINTER (2026-08-11, CMB peak optimization; solved-geometry survivor atlas verified with corrections)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
-`udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`: finite regular
+`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`: the exact bounded
+`14`-witness solve retains endpoint reciprocal depth, causal propagators, full-coframe holonomy,
+and R17 normal holonomy together. All `56/56` independent comparisons pass; external review
+retained `MULTIPLE_GEOMETRIC_SURVIVOR_FAMILIES`. This is bounded geometric coexistence, not a
+physical selector, native dynamics, global completion, or stability. Next is the coupled-channel
+relation/independence audit on the saved paths, before any wider scan or bootstrap use. Its parent
+is `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`: finite regular
 observer networks assemble exactly in endpoint-atlas and path-labelled homes. Four-observer
 coherence is bookkeeping, not a new physical law; universal route independence remains unowned.
-Next is ownership of the physical calibrated relation family plus its endpoint/path/quotient
-policy. Its parent is
+Its parent is
 `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`: the declared regular
 complete chart is locally finite-jet open, with no owned nonidentity history restriction found in
 five classes across ten frozen sources. This is not a global no-go. Next is the first owned global

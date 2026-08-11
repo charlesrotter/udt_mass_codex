@@ -9,7 +9,20 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G62 refinement
+## Current G63 refinement
+
+`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md` controls the
+current solved-geometry gate. In the exact preregistered `14`-witness bounded atlas, endpoint
+reciprocal-depth, causal geodesic-deviation, full-coframe loop holonomy, and R17 normal holonomy
+remain regular together. Distinct derivative/integrator implementations reproduce all `56/56`
+load-bearing classes, and external review independently reconstructed representative R17 and
+time-live witnesses. The scientific landing is `MULTIPLE_GEOMETRIC_SURVIVOR_FAMILIES`; it means
+typed geometric coexistence, not physical selection, native dynamics, global completion, or
+stability. The time-live witnesses remain local/off-shell. The next gate is a preregistered
+coupled-channel relation/independence audit on the saved paths. No coefficient, observational fit,
+bootstrap background, or wider scan is authorized by this result.
+
+## G62 parent refinement
 
 `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md` controls the
 current assembly gate. The preregistered finite regular three-/four-observer network has two exact

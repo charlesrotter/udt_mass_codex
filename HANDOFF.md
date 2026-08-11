@@ -18,7 +18,21 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = COMPLETE OBSERVER-NETWORK ASSEMBLY FROM SCRATCH COMPLETE,
+**LATEST GATE = SOLVED-GEOMETRY RELATION-FAMILY SURVIVOR ATLAS COMPLETE,
+`VERIFIED-WITH-CORRECTIONS`.** Read
+`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`. The bounded solved atlas retains `14/14` regular endpoint
+constructions, `28/28` causal propagators, `28/28` nonidentity full-coframe loop holonomies, and
+`18/18` nonzero R17 normal-holonomy evaluations. Independent numerics reproduce `56/56` classes;
+the cold reviewer reproduced representative R17 and time-live witnesses and accepted
+`MULTIPLE_GEOMETRIC_SURVIVOR_FAMILIES`. Two sealed-intake replay defects are repaired additions-only
+and replay read-only. Endpoint reciprocal depth and path memory coexist as different channels.
+This is bounded geometry, not physical selection, dynamics, global completion, or stability; the
+time-live witnesses are local/off-shell. NEXT: test for a metric-native relation among the saved
+endpoint, propagator, full-holonomy, and normal-holonomy channels before any wider scan, coefficient
+choice, observational fit, or bootstrap activation.
+
+**PARENT GATE = COMPLETE OBSERVER-NETWORK ASSEMBLY FROM SCRATCH COMPLETE,
 `VERIFIED-WITH-CORRECTIONS`.** Read
 `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`. A regular finite
 observer network assembles exactly either as one endpoint atlas or as path-labelled relations with

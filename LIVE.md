@@ -6,9 +6,27 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB PEAK OPTIMIZATION; COMPLETE OBSERVER-NETWORK ASSEMBLY VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB PEAK OPTIMIZATION; SOLVED-GEOMETRY SURVIVOR ATLAS VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — COMPLETE OBSERVER-NETWORK ASSEMBLY FROM SCRATCH COMPLETE,
+**LATEST GATE — SOLVED-GEOMETRY RELATION-FAMILY SURVIVOR ATLAS COMPLETE,
+`VERIFIED-WITH-CORRECTIONS`.** Read
+`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`. Across the exact preregistered `14`-witness universe, `14/14`
+endpoint pair constructions, `28/28` timelike/spacelike geodesic-deviation propagators, `28/28`
+declared Levi-Civita loops, and `18/18` R17 normal-holonomy evaluations remain regular in their
+registered classes. An independent finite-difference/RK4 implementation reproduces all `56/56`
+load-bearing comparisons; external review independently reconstructed representative R17 and
+time-live witnesses and retained `MULTIPLE_GEOMETRIC_SURVIVOR_FAMILIES`. Its two sealed-intake
+replay defects were repaired additions-only and now pass read-only in repository and sealed-source
+layouts. The result is bounded geometric coexistence: endpoint reciprocal depth and path-labelled
+full-coframe/normal holonomy survive as distinct channels. It is not a physical selector, native
+dynamics, global completion, or stability theorem; the time-live family remains local and
+off-shell. NEXT: on the saved solved paths, test whether the complete metric and founding ordered
+observer query derive any relation among endpoint depth, causal propagation, full-coframe
+holonomy, and R17 normal holonomy. Do not choose coefficients, fit observations, activate
+bootstrap, or widen the scan before the channel invariants and independence contract are frozen.
+
+**PARENT GATE — COMPLETE OBSERVER-NETWORK ASSEMBLY FROM SCRATCH COMPLETE,
 `VERIFIED-WITH-CORRECTIONS`.** Read
 `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md` first. On the
 preregistered regular finite three-/four-observer network, the complete instruments assemble

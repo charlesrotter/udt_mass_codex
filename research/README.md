@@ -7,12 +7,15 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The current G62 gate verifies exact endpoint-atlas and path-labelled
-finite-network assembly while leaving route dependence lawful. Its four-observer identity is
-bookkeeping, not a new law. The next question is ownership of the physical calibrated relation
-family together with its endpoint/path/quotient policy; universal flat descent and bootstrap
-remain unowned. Read in order:
-`../udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then
+**CMB PEAK OPTIMIZATION**. The current G63 solved-geometry gate retains endpoint reciprocal depth,
+causal propagators, full-coframe holonomy, and R17 normal holonomy throughout the exact bounded
+`14`-witness atlas. This is typed geometric coexistence, not physical selection, dynamics, global
+completion, or stability. The next question is whether the complete metric and ordered observer
+query derive a relation among those saved channels; bootstrap and a wider scan remain deferred.
+Read in order:
+`../udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`../udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+then `../udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then
 `../udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`, then
 `../udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`, then

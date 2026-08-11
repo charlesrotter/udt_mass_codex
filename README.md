@@ -6,11 +6,18 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`: the exact bounded
+`14`-witness solved atlas retains endpoint reciprocal depth, causal propagators, full-coframe
+holonomy, and R17 normal holonomy together. All `56/56` independent comparisons pass, and an
+external cold review retained `MULTIPLE_GEOMETRIC_SURVIVOR_FAMILIES` after independently rebuilding
+representative witnesses. This is bounded geometric coexistence, not physical selection, native
+dynamics, global completion, or stability. The next gate tests whether the complete metric and
+ordered observer query derive a relation among those saved channels before any wider scan or
+bootstrap use. Its parent is
 `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`: exact finite
 observer-network assembly survives in endpoint-atlas and path-labelled homes, while route
-dependence remains allowed. The four-observer identity is discrete bookkeeping, not a new law.
-The next gate is ownership of the physical calibrated relation family together with its
-endpoint/path/quotient policy; universal flat descent and bootstrap remain unowned. Its parent is
+dependence remains allowed. The four-observer identity is discrete bookkeeping, not a new law;
+universal flat descent remains unowned. Its parent is
 `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`: the declared regular
 complete chart is locally open on every finite metric jet, and five owner classes across ten
 frozen sources contain no owned nonidentity history restriction. Deeper expansion of the same

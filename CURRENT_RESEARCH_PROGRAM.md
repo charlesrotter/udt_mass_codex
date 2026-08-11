@@ -7,7 +7,20 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G62 CHECKPOINT:**
+**CURRENT G63 CHECKPOINT:**
+`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md` solves the exact
+preregistered `14`-witness bounded geometry atlas rather than continuing the algebraic census.
+Endpoint reciprocal-depth, timelike/spacelike geodesic-deviation, full-coframe loop holonomy, and
+R17 normal holonomy all persist in their declared classes. Independent numerics reproduce all
+`56/56` comparisons, and the external reviewer independently rebuilt representative R17 and
+time-live witnesses. The post-review replay correction is additions-only and passes read-only in
+both source layouts. This is a coexistence result, not a physical relation selector, dynamical
+stability result, native evolution, or global completion. The next bounded question is whether the
+complete metric and founding ordered observer query derive a relation among the saved endpoint,
+propagator, complete-holonomy, and normal-holonomy channels. Do not select coefficients, activate
+bootstrap, or widen the scan before that invariant/independence contract is frozen.
+
+**G62 PARENT CHECKPOINT:**
 `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md` verifies exact
 finite observer-network assembly in two distinct typed homes: a common endpoint atlas and a
 path-labelled relation family that may retain holonomy. The four-observer face identity is exact
