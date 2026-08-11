@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "adjudication_required_statements": true,
+    "historical_prereg_preserved": true,
+    "no_clean_room_promotion": true,
+    "physical_scope_open": true,
+    "raw_hash": true,
+    "raw_required_statements": true,
+    "transcript_hash": true
+  },
+  "passed": 7,
+  "raw_sha256": "ab76e853842442289ea0296866687c9be00bb6522f0754cc645f46ce6f89a9dd",
+  "schema": "udt-cmb-g74-external-adjudication-v1",
+  "status": "PASS",
+  "total": 7,
+  "transcript_sha256": "c00b1ebd1496e25b277d7c5cf2bcea4acf8ea2fc577d43f74618cb83909620a8"
+}

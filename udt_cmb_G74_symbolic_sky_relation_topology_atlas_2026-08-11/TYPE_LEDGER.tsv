@@ -1,0 +1,13 @@
+object	type	owner	composition_or_invariant	open_scope
+observer sky S_o^2	initial future null directions at supplied observer	metric plus query	oriented sphere	physical observer event
+endpoint sphere S_s^2	angular point at first r/R=1 crossing	chosen control surface	oriented sphere	last-scattering surface
+branch map f_b	S_o^2 to S_s^2 for one regular first-crossing branch	metric conditional on query	degree parity critical set	physical branch ownership
+endpoint time	real state over S_o^2	metric conditional on branch	not part of angular degree	physical emission-time relation
+Jacobi field J	linearized geodesic variation	metric conditional on query	path differential	global branch multiplicity
+endpoint projection P_sigma	J minus k d_sigma(J)/d_sigma(k)	metric plus transverse endpoint	maps into endpoint tangent space	grazing directions
+screen response D	linear screen map on supplied regular path	G68/G72 conditional query	area shear relative rotation	physical source tensor type
+local sky Jacobian df_b	map between two oriented tangent planes	metric plus endpoint projection	determinant parity rank	global injectivity
+topological degree	integer signed preimage count for regular value	global branch map	homotopy invariant	unowned physical branch
+branch relation	set of branch-labelled endpoint maps	metric plus complete query	set-valued composition	selection or combination law
+common scale R	positive symbolic unit scale	free in G74	degree and critical zeros invariant	physical universe size
+source field	field on source sky	OPEN_NO_OWNER	pullback or typed response only after supplied	actual matter inhomogeneity

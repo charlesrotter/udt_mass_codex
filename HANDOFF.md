@@ -21,7 +21,22 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS,
+**LATEST LEAD = G74 SYMBOLIC-SCALE OBSERVER-SKY TOPOLOGY ATLAS,
+`EXTERNALLY_VERIFIED_WITH_METHOD_INDEPENDENCE_AND_PREREG_WORDING_CAVEATS`; landing
+`MIXED_GLOBAL_COMPLETION_CLASSES`.** Read
+`udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`, `EXACT_DERIVATION.md`, both center/sky TSV atlases, and
+`PREREGISTRATION.md`. The exact frozen whole-sky control census is three F01 exact degree-one
+diffeomorphisms, six persistent controls sampled regular but not globally proved, and twelve
+tapered/sign-changing controls blocked below `C2` at the center with no repair. The sealed reviewer
+verified `34/34` hashes and reproduced the exact proofs plus the worst numerical rows. Its method
+caveat is retained: the direct-Christoffel replay is a separate-equation cross-check with shared
+profile/mesh helpers, not clean-room independence. No physical CMB source, endpoint, scale,
+spectrum, `X_max`, bootstrap rule, action, or matter source is selected. NEXT: a globally
+center-regular complete-metric profile family, followed by global angular-scale/transport response
+over broad nonzero source ensembles—no fit or physical selection.
+
+**PARENT LEAD = G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS,
 `EXTERNALLY_VERIFIED_WITH_TOPOLOGY_SCOPE_CAVEAT_CLOSED_LOCALLY`.** Read
 `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`, then
 `EXTERNAL_REVIEW_ADJUDICATION.md`, `TOPOLOGY_SCOPE_CORRECTION.md`, `EXACT_DERIVATION.md`,

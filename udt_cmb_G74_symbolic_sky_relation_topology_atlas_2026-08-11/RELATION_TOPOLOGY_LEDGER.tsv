@@ -1,0 +1,10 @@
+class	exact_definition	criticality	multiplicity	current_G74_realization	authority
+T1_REGULAR_S2_SELF_MAP	smooth local diffeomorphism S2 to S2	none	one sheet only by covering theorem	F01 exact; persistent controls sampled consistent	DERIVED_F01__OBSERVED_PERSISTENT
+T2_ORIENTATION_REVERSING_DIFFEO	regular degree minus one S2 map	none	one sheet	exact witness only	MATHEMATICAL_WITNESS_NOT_SELECTED
+T3_CRITICAL_DEGREE_M_MAP	S2 map with signed degree m and rank loss required for abs(m)>1	critical or branch points	repeated generic preimages	exact stereographic-power class only	MATHEMATICAL_WITNESS_NOT_SELECTED
+T4_DEGREE_ZERO_FOLD	parity-changing map with signed preimages cancelling	critical fold set	multiple images on regular-value regions	exact Theta=2theta witness only	MATHEMATICAL_WITNESS_NOT_SELECTED
+T5_REGULAR_MULTICOVER_OTHER_TOPOLOGY	local diffeomorphism on topology/domain permitting multiple cover	none possible	multiple sheets	outside S2 self-map control	TOPOLOGY_CONDITIONAL_NOT_SELECTED
+T6_MULTIBRANCH_RELATION	set of separately regular maps rather than one map	no singularity required	branch-labelled multiplicity	allowed type not realized by current controls	OPEN_NO_OWNER
+T7_ENDPOINT_GRAZING	d_sigma(k)=0 at endpoint hit	endpoint rule singular not necessarily Jacobi caustic	branch may appear or disappear	not observed on eligible sampled controls	OPEN_DOMAIN_BOUNDARY
+T8_JACOBI_CAUSTIC	rank D below two with transverse endpoint	metric differential singular	local image collapse or branch change	not observed on eligible sampled controls	OPEN_OUTSIDE_SAMPLED_TILE
+T9_CENTER_INCOMPLETE_CONTROL	supplied metric below C2 at center	global query undefined for curvature/Jacobi atlas	unclassified	12 tapered or sign-changing profiles	BLOCKED_NO_REPAIR

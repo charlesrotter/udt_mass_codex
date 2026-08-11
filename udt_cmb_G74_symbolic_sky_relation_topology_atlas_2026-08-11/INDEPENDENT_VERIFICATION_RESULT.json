@@ -1,0 +1,32 @@
+{
+  "center_second_derivative_jumps": {
+    "persistent": 0.0,
+    "sign_changing": 0.3999999999983359,
+    "tapered": 0.39999400000233754
+  },
+  "checks": {
+    "candidate_count_21": true,
+    "center_counts_9_12": true,
+    "direct_connection_all_endpoints": true,
+    "direct_connection_endpoint_agreement": true,
+    "direct_connection_null_residual": true,
+    "independent_area_bounded_away_from_zero": true,
+    "independent_degree_plus_one": true,
+    "independent_no_inverted_faces": true,
+    "persistent_center_second_derivative_continuous": true,
+    "physical_owner_open": true,
+    "sign_center_second_derivative_jump": true,
+    "status_counts_3_6_12": true,
+    "tapered_center_second_derivative_jump": true
+  },
+  "direct_connection_rays": 1458,
+  "max_direct_null_residual": 4.9960036108132044e-15,
+  "max_endpoint_chord_error": 1.2166590761244587e-06,
+  "max_independent_degree_error": 0.0,
+  "minimum_independent_signed_area_ratio": 0.5505843446454627,
+  "passed": 13,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g74-independent-v1",
+  "status": "PASS",
+  "total": 13
+}

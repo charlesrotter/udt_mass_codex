@@ -1,0 +1,200 @@
+{
+  "candidate_profiles": 21,
+  "center_blocked_profiles": 12,
+  "center_eligible_profiles": 9,
+  "exact_checks": {
+    "F01_optical_radial_curvature_equals_a": true,
+    "F01_optical_tangential_curvature_equals_a": true,
+    "F01_positive_curvature_ball_is_strongly_convex": "chi_R=atan(sqrt(a) R)/sqrt(a) is strictly less than pi/(2 sqrt(a)); flat and negative-curvature cases are likewise convex",
+    "axisymmetric_area_jacobian": "m*sin(Theta(theta))*Derivative(Theta(theta), theta)/sin(theta)",
+    "axisymmetric_twist_drops_from_area_jacobian": true,
+    "center_C2_obstruction_for_linear_radial_term": true,
+    "degree_m_witness": true,
+    "degree_zero_fold_changes_parity": true,
+    "degree_zero_fold_has_equatorial_critical_set": true,
+    "endpoint_projection_is_tangent": true,
+    "identity_degree_plus_one": true,
+    "orientation_reversal_degree_minus_one": true,
+    "positive_common_scale_preserves_critical_zero": true,
+    "positive_common_scale_preserves_orientation": true,
+    "whole_sphere_regular_cover_theorem": "a smooth everywhere-local-diffeomorphism S2-to-S2 is a proper connected covering; simple connectedness of S2 forces one sheet and degree plus or minus one"
+  },
+  "landing": "MIXED_GLOBAL_COMPLETION_CLASSES",
+  "maximum_conclusion": "complete classification of the exact 21-profile control universe under the declared whole-sky query: F01 is globally degree-one by exact optical geometry, persistent-mixing controls receive a bounded sampled global atlas, and tapered/sign-changing controls are blocked by their supplied center regularity without repair",
+  "physical_owner": "OPEN_NO_OWNER",
+  "profiles": {
+    "G68_F01_A0": {
+      "authority": "DERIVED_GLOBAL_BIJECTION_F01_OPTICAL_GEOMETRY",
+      "center_status": "CENTER_C2_ELIGIBLE",
+      "finest_degree_estimate": 1.0,
+      "finest_min_signed_area_ratio": 0.5627723120096546,
+      "finest_missing_vertices": 0,
+      "finest_near_zero_faces": 0,
+      "finest_negative_faces": 0,
+      "finest_sample_class": "OBSERVED_SAMPLED_REGULAR_ORIENTATION_PRESERVING",
+      "max_abs_hamiltonian": 1.6653345369377348e-16,
+      "mesh_degree_drift_level3_to4": 0.0,
+      "time_refinement_endpoint_max_chord": 1.1650017740308216e-07
+    },
+    "G68_F01_AM": {
+      "authority": "DERIVED_GLOBAL_BIJECTION_F01_OPTICAL_GEOMETRY",
+      "center_status": "CENTER_C2_ELIGIBLE",
+      "finest_degree_estimate": 1.0,
+      "finest_min_signed_area_ratio": 0.5716782665764115,
+      "finest_missing_vertices": 0,
+      "finest_near_zero_faces": 0,
+      "finest_negative_faces": 0,
+      "finest_sample_class": "OBSERVED_SAMPLED_REGULAR_ORIENTATION_PRESERVING",
+      "max_abs_hamiltonian": 9.871226058777438e-11,
+      "mesh_degree_drift_level3_to4": 0.0,
+      "time_refinement_endpoint_max_chord": 1.203350244055785e-07
+    },
+    "G68_F01_AP": {
+      "authority": "DERIVED_GLOBAL_BIJECTION_F01_OPTICAL_GEOMETRY",
+      "center_status": "CENTER_C2_ELIGIBLE",
+      "finest_degree_estimate": 1.0,
+      "finest_min_signed_area_ratio": 0.5541395859758395,
+      "finest_missing_vertices": 0,
+      "finest_near_zero_faces": 0,
+      "finest_negative_faces": 0,
+      "finest_sample_class": "OBSERVED_SAMPLED_REGULAR_ORIENTATION_PRESERVING",
+      "max_abs_hamiltonian": 7.796763235035087e-12,
+      "mesh_degree_drift_level3_to4": 0.0,
+      "time_refinement_endpoint_max_chord": 1.1833185719180647e-07
+    },
+    "G68_F02_A0_P05": {
+      "authority": "OBSERVED_SAMPLED_REGULAR_NOT_GLOBAL_PROOF",
+      "center_status": "CENTER_C2_ELIGIBLE",
+      "finest_degree_estimate": 1.0,
+      "finest_min_signed_area_ratio": 0.5623881688652721,
+      "finest_missing_vertices": 0,
+      "finest_near_zero_faces": 0,
+      "finest_negative_faces": 0,
+      "finest_sample_class": "OBSERVED_SAMPLED_REGULAR_ORIENTATION_PRESERVING",
+      "max_abs_hamiltonian": 1.887379141862766e-15,
+      "mesh_degree_drift_level3_to4": 0.0,
+      "time_refinement_endpoint_max_chord": 8.309628246856419e-07
+    },
+    "G68_F02_A0_P20": {
+      "authority": "OBSERVED_SAMPLED_REGULAR_NOT_GLOBAL_PROOF",
+      "center_status": "CENTER_C2_ELIGIBLE",
+      "finest_degree_estimate": 1.0,
+      "finest_min_signed_area_ratio": 0.5592629266887172,
+      "finest_missing_vertices": 0,
+      "finest_near_zero_faces": 0,
+      "finest_negative_faces": 0,
+      "finest_sample_class": "OBSERVED_SAMPLED_REGULAR_ORIENTATION_PRESERVING",
+      "max_abs_hamiltonian": 8.426592756904938e-14,
+      "mesh_degree_drift_level3_to4": 2.220446049250313e-16,
+      "time_refinement_endpoint_max_chord": 2.9343589703126634e-06
+    },
+    "G68_F02_A0_S05": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_A0_S20": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_A0_T05": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_A0_T20": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_AM_P05": {
+      "authority": "OBSERVED_SAMPLED_REGULAR_NOT_GLOBAL_PROOF",
+      "center_status": "CENTER_C2_ELIGIBLE",
+      "finest_degree_estimate": 1.0,
+      "finest_min_signed_area_ratio": 0.5713481960916549,
+      "finest_missing_vertices": 0,
+      "finest_near_zero_faces": 0,
+      "finest_negative_faces": 0,
+      "finest_sample_class": "OBSERVED_SAMPLED_REGULAR_ORIENTATION_PRESERVING",
+      "max_abs_hamiltonian": 9.878675655272673e-11,
+      "mesh_degree_drift_level3_to4": 0.0,
+      "time_refinement_endpoint_max_chord": 1.3579321257485604e-06
+    },
+    "G68_F02_AM_P20": {
+      "authority": "OBSERVED_SAMPLED_REGULAR_NOT_GLOBAL_PROOF",
+      "center_status": "CENTER_C2_ELIGIBLE",
+      "finest_degree_estimate": 1.0,
+      "finest_min_signed_area_ratio": 0.5683099463014298,
+      "finest_missing_vertices": 0,
+      "finest_near_zero_faces": 0,
+      "finest_negative_faces": 0,
+      "finest_sample_class": "OBSERVED_SAMPLED_REGULAR_ORIENTATION_PRESERVING",
+      "max_abs_hamiltonian": 9.844181025897569e-11,
+      "mesh_degree_drift_level3_to4": 0.0,
+      "time_refinement_endpoint_max_chord": 4.922697873263042e-06
+    },
+    "G68_F02_AM_S05": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_AM_S20": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_AM_T05": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_AM_T20": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_AP_P05": {
+      "authority": "OBSERVED_SAMPLED_REGULAR_NOT_GLOBAL_PROOF",
+      "center_status": "CENTER_C2_ELIGIBLE",
+      "finest_degree_estimate": 1.0,
+      "finest_min_signed_area_ratio": 0.5537251188495164,
+      "finest_missing_vertices": 0,
+      "finest_near_zero_faces": 0,
+      "finest_negative_faces": 0,
+      "finest_sample_class": "OBSERVED_SAMPLED_REGULAR_ORIENTATION_PRESERVING",
+      "max_abs_hamiltonian": 8.482547997346046e-12,
+      "mesh_degree_drift_level3_to4": 0.0,
+      "time_refinement_endpoint_max_chord": 5.657747578036096e-07
+    },
+    "G68_F02_AP_P20": {
+      "authority": "OBSERVED_SAMPLED_REGULAR_NOT_GLOBAL_PROOF",
+      "center_status": "CENTER_C2_ELIGIBLE",
+      "finest_degree_estimate": 1.0,
+      "finest_min_signed_area_ratio": 0.5505843446454626,
+      "finest_missing_vertices": 0,
+      "finest_near_zero_faces": 0,
+      "finest_negative_faces": 0,
+      "finest_sample_class": "OBSERVED_SAMPLED_REGULAR_ORIENTATION_PRESERVING",
+      "max_abs_hamiltonian": 1.3344547689086994e-11,
+      "mesh_degree_drift_level3_to4": 0.0,
+      "time_refinement_endpoint_max_chord": 1.929328524267195e-06
+    },
+    "G68_F02_AP_S05": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_AP_S20": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_AP_T05": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    },
+    "G68_F02_AP_T20": {
+      "authority": "BLOCKED_NO_WHOLE_SKY_SOLVE_NO_REPAIR",
+      "center_status": "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER"
+    }
+  },
+  "scale_status": "POSITIVE_SYMBOLIC_COMMON_SCALE_TOPOLOGY_INVARIANT",
+  "schema": "udt-cmb-g74-symbolic-sky-topology-v1",
+  "source_manifest_rows": 7,
+  "status_counts": {
+    "BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER": 12,
+    "DERIVED_GLOBAL_BIJECTION_F01": 3,
+    "OBSERVED_SAMPLED_REGULAR_PERSISTENT": 6
+  }
+}

@@ -1,7 +1,10 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-11 STATUS (RESTART ANCHOR): G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS EXTERNALLY VERIFIED WITH TOPOLOGY CAVEAT CLOSED.** ACTIVE ARC = CMB PEAK
+> **2026-08-11 STATUS (RESTART ANCHOR): G74 SYMBOLIC-SCALE OBSERVER-SKY TOPOLOGY ATLAS EXTERNALLY VERIFIED WITH METHOD CAVEATS.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-11) FIRST, then
+> `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXACT_DERIVATION.md`, then
 > `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`, then
 > `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/TOPOLOGY_SCOPE_CORRECTION.md`, then

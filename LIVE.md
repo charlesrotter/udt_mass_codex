@@ -6,9 +6,32 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS EXTERNALLY VERIFIED WITH TOPOLOGY CAVEAT CLOSED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G74 SYMBOLIC-SKY TOPOLOGY ATLAS EXTERNALLY VERIFIED WITH METHOD CAVEATS) ============
 
-**LATEST LEAD — G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS,
+**LATEST LEAD — G74 SYMBOLIC-SCALE OBSERVER-SKY TOPOLOGY ATLAS,
+`EXTERNALLY_VERIFIED_WITH_METHOD_INDEPENDENCE_AND_PREREG_WORDING_CAVEATS`; landing
+`MIXED_GLOBAL_COMPLETION_CLASSES`.** Read
+`udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`, `EXTERNAL_REVIEW_CORRECTION_PREREGISTRATION.md`,
+`EXACT_DERIVATION.md`, `CENTER_REGULARITY_ATLAS.tsv`, `SKY_TOPOLOGY_ATLAS.tsv`, and
+`PREREGISTRATION.md`. Across the exact frozen 21-profile G68 universe and the complete initial
+direction sphere, the result is `3/6/12`: three F01 controls are exact degree-one whole-sky
+diffeomorphisms; six persistent-mixing controls are only
+`OBSERVED_SAMPLED_REGULAR_NOT_GLOBAL_PROOF`; twelve tapered/sign-changing controls are blocked
+because their supplied Cartesian metrics are not `C2` at the center. No blocked profile was
+repaired. Production covers 53,352 vertices and 106,560 oriented faces with zero missing, negative,
+or near-zero faces; the finest worst signed-area ratio is `0.5505843446454626`. A direct
+Christoffel/DOP853 replay agrees within `1.2166590761244587e-6`. The sealed reviewer verified all
+`34/34` hashes, rederived the exact topology/center/F01 results, and independently reproduced the
+worst rows. Its caveats are evidence-description only: the replay shares the frozen profile loader
+and mesh helper and is not clean-room independent; one preregistration line calls it Hamiltonian
+although it is a direct Christoffel solve; executable exact checks are sanity checks while the
+written/external derivations own the proofs. NEXT: derive or identify a globally center-regular
+complete-metric profile family, then compute its global angular-scale and angular-transport
+response across broad nonzero source ensembles. Do not fit peaks, select `R`/`X_max`, activate
+bootstrap, infer a physical source, or promote null query controls to local signals.
+
+**PARENT LEAD — G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS,
 `EXTERNALLY_VERIFIED_WITH_TOPOLOGY_SCOPE_CAVEAT_CLOSED_LOCALLY`; landing
 `REGULAR_SKY_RESPONSE_SOURCE_INVERTIBLE__ROBUST_KALEIDOSCOPE_REQUIRES_GLOBAL_BRANCHING_SINGULARITY_OR_SOURCE_RESTRICTION`.**
 Read `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`, then

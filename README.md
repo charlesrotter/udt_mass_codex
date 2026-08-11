@@ -6,6 +6,15 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current lead is
+`udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`: the exact frozen
+whole-sky control census is three F01 degree-one diffeomorphisms, six persistent controls that are
+sampled regular but not globally proved, and twelve tapered/sign-changing controls blocked below
+`C2` at the center without repair. Read its `EXTERNAL_REVIEW_ADJUDICATION.md`: the sealed reviewer
+verified `34/34` hashes and reproduced the load-bearing proofs and worst numerical rows, with only
+method-independence and preregistration-wording caveats. The next gate is a globally center-regular
+complete-metric profile family and then its global angular-scale/transport response across broad
+nonzero source ensembles. No physical CMB source, endpoint, scale, spectrum, `X_max`, or bootstrap
+law is selected. Its parent is
 `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`: a regular bijective
 G72 sky response preserves arbitrary source information exactly, while a robust repeated-image
 kaleidoscope requires global branching/noninjectivity, critical/fold structure, extreme directional

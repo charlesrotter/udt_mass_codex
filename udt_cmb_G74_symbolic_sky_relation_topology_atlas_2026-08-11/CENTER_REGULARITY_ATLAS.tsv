@@ -1,0 +1,22 @@
+profile_id	family	mix_shape	mix_epsilon	center_status	reason	whole_sky_action
+G68_F01_AM	F01	ZERO	0	CENTER_C2_ELIGIBLE	h/r^2 is constant and Cartesian metric coefficients are smooth	SOLVE_COMPLETE_SKY
+G68_F01_A0	F01	ZERO	0	CENTER_C2_ELIGIBLE	h/r^2 is constant and Cartesian metric coefficients are smooth	SOLVE_COMPLETE_SKY
+G68_F01_AP	F01	ZERO	0	CENTER_C2_ELIGIBLE	h/r^2 is constant and Cartesian metric coefficients are smooth	SOLVE_COMPLETE_SKY
+G68_F02_AM_P05	F02	PERSISTENT	0.050000000000000003	CENTER_C2_ELIGIBLE	h/r^2 is constant and Cartesian metric coefficients are smooth	SOLVE_COMPLETE_SKY
+G68_F02_AM_P20	F02	PERSISTENT	0.20000000000000001	CENTER_C2_ELIGIBLE	h/r^2 is constant and Cartesian metric coefficients are smooth	SOLVE_COMPLETE_SKY
+G68_F02_AM_T05	F02	TAPERED	0.050000000000000003	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_AM_T20	F02	TAPERED	0.20000000000000001	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_AM_S05	F02	SIGN_CHANGING	0.050000000000000003	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_AM_S20	F02	SIGN_CHANGING	0.20000000000000001	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_A0_P05	F02	PERSISTENT	0.050000000000000003	CENTER_C2_ELIGIBLE	h/r^2 is constant and Cartesian metric coefficients are smooth	SOLVE_COMPLETE_SKY
+G68_F02_A0_P20	F02	PERSISTENT	0.20000000000000001	CENTER_C2_ELIGIBLE	h/r^2 is constant and Cartesian metric coefficients are smooth	SOLVE_COMPLETE_SKY
+G68_F02_A0_T05	F02	TAPERED	0.050000000000000003	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_A0_T20	F02	TAPERED	0.20000000000000001	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_A0_S05	F02	SIGN_CHANGING	0.050000000000000003	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_A0_S20	F02	SIGN_CHANGING	0.20000000000000001	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_AP_P05	F02	PERSISTENT	0.050000000000000003	CENTER_C2_ELIGIBLE	h/r^2 is constant and Cartesian metric coefficients are smooth	SOLVE_COMPLETE_SKY
+G68_F02_AP_P20	F02	PERSISTENT	0.20000000000000001	CENTER_C2_ELIGIBLE	h/r^2 is constant and Cartesian metric coefficients are smooth	SOLVE_COMPLETE_SKY
+G68_F02_AP_T05	F02	TAPERED	0.050000000000000003	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_AP_T20	F02	TAPERED	0.20000000000000001	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_AP_S05	F02	SIGN_CHANGING	0.050000000000000003	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR
+G68_F02_AP_S20	F02	SIGN_CHANGING	0.20000000000000001	BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER	h/r^2 contains a nonzero linear |y| term; along the y axis g_tx contains y|y| and has unequal one-sided second derivatives	RETAIN_BLOCKED_NO_REPAIR

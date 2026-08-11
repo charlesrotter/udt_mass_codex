@@ -1,0 +1,33 @@
+**Findings**
+1. The “independent” replay is only partially independent. It does not reuse Hamilton’s equations, but it does import the production module for shared profile loading and mesh generation, and it validates against saved production endpoints rather than a clean-room target. That is a real caveat, though not a refutation of the numerical cross-check. [verify_topology_independent.py](/tmp/udt_g74_review_corrected_tgpGSwcH/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/verify_topology_independent.py:18) [verify_topology_independent.py](/tmp/udt_g74_review_corrected_tgpGSwcH/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/verify_topology_independent.py:121) [verify_topology_independent.py](/tmp/udt_g74_review_corrected_tgpGSwcH/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/verify_topology_independent.py:148)
+2. The preregistration says the independent route is in “Cartesian Hamiltonian variables,” but the implemented replay is a direct Christoffel solve in position/velocity variables with `DOP853`. That is a documentation correction only. [PREREGISTRATION.md](/tmp/udt_g74_review_corrected_tgpGSwcH/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/PREREGISTRATION.md:74) [verify_topology_independent.py](/tmp/udt_g74_review_corrected_tgpGSwcH/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/verify_topology_independent.py:86)
+3. The code-level “exact checks” are mnemonic sanity checks, not substantive proofs; the actual proofs are in the sealed derivation markdown. That weakens the code-as-proof posture, not the underlying algebra. [derive_topology_atlas.py](/tmp/udt_g74_review_corrected_tgpGSwcH/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/derive_topology_atlas.py:88)
+
+**Verdict**
+`VERIFIED_WITH_CAVEATS`
+
+Requested landing: `MIXED_GLOBAL_COMPLETION_CLASSES`
+
+All 34 manifest hashes matched before any scientific source was used.
+
+**Decisive checks**
+- Cartesian reconstruction is correct: with `A=1+a r^2` and `q(r)=h(r)/r^2`, the metric becomes `g_tt=-A`, `g_ti=q(-y,x,0)`, `g_ij=δ_ij-(a/A)x_i x_j`. For `ZERO` and `PERSISTENT`, `q` is constant, so the Cartesian metric is smooth at the center.
+- The `9/12` split is exact. For `TAPERED` and `SIGN_CHANGING`, along the `y` axis `g_tx` contains `2ε y|y| + O(y^3)`, so the one-sided second-derivative jump is exactly `8ε`: `0.4` at `ε=1/20`, `1.6` at `ε=1/5`. Persistent rows have jump `0`. That blocks `C2`.
+- `C2` is the right gate for this package’s stated object. G68/G74 explicitly use the Levi-Civita connection, curvature, and Jacobi equation; those require second metric derivatives in the classical formulation. A weaker `C1` metric would not support the declared curvature/Jacobi atlas. [PREREGISTRATION.md](/tmp/udt_g74_review_corrected_tgpGSwcH/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/PREREGISTRATION.md:39)
+- Endpoint factorization is correct: for `σ=0`, `X = J - k dσ(J)/dσ(k)` is tangent to the endpoint surface when `dσ(k)≠0`. That cleanly separates Jacobi rank loss from endpoint grazing and from chart/screen degeneracy. I found no algebraic conflation. On my own worst-row direct replay (`G68_F02_AM_P20`, 162 rays), the minimum sampled radial crossing speed stayed positive at `0.8970684713477242`, so there is no sampled grazing there.
+- The `S^2 -> S^2` regular-cover theorem is correct, and the G73 correction narrows it properly: it applies only to smooth everywhere-local-diffeomorphism self-maps of the whole sphere, not to different topology, partial sky, or multibranch relations.
+- The axisymmetric area Jacobian and degree are correct: `j = m sinΘ Θ'/sinθ`, `deg = (m/2)(cosΘ(0)-cosΘ(π))`. `ψ(θ)` cancels exactly, so twist is topology-neutral only in that tested axisymmetric class.
+- The F01 optical metric check is sound: with `dχ=dr/A`, `S=r/sqrt(A)`, both sectional curvatures are exactly `a`. For `a=+1/4`, `χ_R = 2 atan(1/2) ≈ 0.9273 < π`, so the ball is strongly convex; flat and negative-curvature cases are likewise convex. The off-center observer therefore has a unique first-exit geodesic to each boundary point, justifying the degree-one diffeomorphism claim.
+
+**Numerical checks**
+- I independently reconstructed level-4 faces from the saved directions and recomputed the topological degree from the saved endpoints. All 9 eligible profiles gave degree exactly `1.0`; the global worst minimum signed-area ratio was `0.5505843446454626` at `G68_F02_AP_P20`; no negative faces appeared.
+- Replaying the production solver in memory for the worst persistent row `G68_F02_AM_P20` reproduced the reported `512 -> 1024` endpoint chord drift `4.922697873263042e-6`, degree `1.0`, minimum ratio `0.5683099463014298`, and Hamiltonian residual `6.0276228452949e-12`.
+- My direct Christoffel replay for that same row on the level-2 sky gave maximum endpoint chord error `1.2166590761244587e-6` against the saved map and maximum null residual `3.774758283725532e-15`.
+- Package gates pass `27/27`; semantic catches pass `12/12`.
+
+**Premise audit**
+- “Complete sky” is honest only for the declared query: the full initial direction sphere on the frozen 21-profile, first-outward-`r/R=1` control problem. It is not a claim about all branches, all endpoints, all topologies, or the full UDT metric space. [PREREGISTRATION.md](/tmp/udt_g74_review_corrected_tgpGSwcH/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/PREREGISTRATION.md:25) [PREREGISTRATION.md](/tmp/udt_g74_review_corrected_tgpGSwcH/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/PREREGISTRATION.md:34)
+- No silent physical selector was introduced. `source distribution` is `OPEN_INACTIVE`, `deep-sky survey structure` is `OPEN_INACTIVE`, `X_max SNe bootstrap` is `WORKING_INACTIVE`, and `physical CMB observable` is `OPEN_INACTIVE`. [PREMISE_LEDGER.tsv](/tmp/udt_g74_review_corrected_tgpGSwcH/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/PREMISE_LEDGER.tsv:14)
+- The current scientific premises also keep physical CMB realization, source, and response open and explicitly name this identical-query F01/F02 screen-Jacobi control as the next allowed gate. [CURRENT_SCIENTIFIC_PREMISES.tsv](/tmp/udt_g74_review_corrected_tgpGSwcH/CURRENT_SCIENTIFIC_PREMISES.tsv:67)
+
+Maximum justified conclusion: the sealed intake supports exactly this and no more: `3` F01 controls are exact degree-one whole-sky diffeomorphisms; `6` persistent controls are only `OBSERVED_SAMPLED_REGULAR_NOT_GLOBAL_PROOF`; `12` tapered/sign-changing controls are correctly blocked as `BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER`. No physical CMB metric, source, endpoint, scale, spectrum, `X_max`, bootstrap law, action, or matter source is justified.

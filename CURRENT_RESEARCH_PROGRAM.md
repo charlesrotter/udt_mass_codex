@@ -7,7 +7,20 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G73 LEAD:**
+**CURRENT G74 LEAD:**
+`udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md` classifies the exact
+frozen 21-profile control universe under one complete initial-sky, first-comparison-sphere query.
+Three F01 controls are exact degree-one whole-sky diffeomorphisms; six persistent controls are only
+sampled regular; twelve tapered/sign-changing controls are blocked below `C2` at the center and
+were not repaired. Production and direct-Christoffel routes agree, and the sealed reviewer verified
+all `34/34` hashes and reproduced the exact and worst numerical results. Its evidence caveats are
+retained: the replay shares profile/mesh helpers, one preregistration method label is inaccurate,
+and the executable exact checks are regression checks rather than proof owners. Next is a globally
+center-regular complete-metric profile family, followed by its global angular-scale/transport
+response over broad nonzero source ensembles. No source, physical endpoint/profile, scale,
+`X_max`, spectrum, bootstrap law, action, or matter source is selected.
+
+**G73 PARENT LEAD:**
 `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md` classifies the exact
 source sensitivity of the G72 response. A regular one-to-one global relation with pointwise
 invertible response retains arbitrary source information; strong shear can align normalized

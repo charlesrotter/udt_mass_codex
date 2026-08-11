@@ -3,7 +3,12 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-lead is `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`; it separates
+lead is `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`; it classifies
+the exact frozen whole-sky control universe as three F01 exact diffeomorphisms, six persistent
+sampled-regular controls, and twelve unrepaired center-`C2` blocks. External review verified
+`34/34` hashes with method-independence caveats only; read its `EXTERNAL_REVIEW_ADJUDICATION.md`.
+No physical CMB source, endpoint/profile, scale, or spectrum is selected. Its parent is
+`udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`; it separates
 regular source-preserving response from strong-shear, repeated-image, fold, and multibranch
 kaleidoscope mechanisms without selecting a physical sky. It is externally verified with an
 additions-only topology correction: the critical-point requirement is specific to repeated whole-

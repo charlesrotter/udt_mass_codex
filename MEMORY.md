@@ -4,11 +4,19 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G73 global-sky source-sensitivity atlas externally verified with topology caveat closed)
+## TOP — CURRENT POINTER (2026-08-11, G74 symbolic-sky topology atlas externally verified with method caveats)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The current lead is
+`udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`, then its
+`EXTERNAL_REVIEW_ADJUDICATION.md`: the exact frozen whole-sky control universe splits `3/6/12`
+into exact F01 degree-one diffeomorphisms, sampled-regular persistent controls, and unrepaired
+center-`C2`-blocked tapered/sign-changing controls. The sealed reviewer verified `34/34` hashes and
+reproduced the exact and worst numerical results. Its direct-Christoffel replay is a
+separate-equation cross-check with shared profile/mesh helpers, not clean-room independence. Next
+is a globally center-regular complete-metric profile family and then its global angular-scale and
+angular-transport response across broad nonzero source ensembles. Parent:
 `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`: regular one-to-one
 response preserves a unique arbitrary source, strong shear can align directions, and robust
 kaleidoscopic repetition requires global branching/noninjectivity or critical/fold structure. G68

@@ -9,7 +9,19 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G73 lead
+## Current G74 lead
+
+`udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md` controls the current
+whole-sky topology gate. Across the exact frozen 21-profile query it classifies three F01 controls
+as exact degree-one diffeomorphisms, six persistent controls as sampled regular but not globally
+proved, and twelve tapered/sign-changing controls as blocked below `C2` at the center with no
+repair. External review verified `34/34` hashes and reproduced the exact and worst numerical
+results. Its method caveat is binding: the direct-Christoffel replay shares profile/mesh helpers
+and is not clean-room independent. Physical CMB profile, endpoint, source, scale, spectrum,
+`X_max`, bootstrap law, action, and matter source remain open. Next is a globally center-regular
+complete-metric profile family and its global angular-scale/transport response.
+
+## G73 parent lead
 
 `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md` controls the current
 source-sensitivity gate. A regular bijective sky response is exactly source-invertible. Strong shear

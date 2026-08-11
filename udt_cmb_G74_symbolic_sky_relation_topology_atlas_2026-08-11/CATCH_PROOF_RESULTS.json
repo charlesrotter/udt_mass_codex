@@ -1,0 +1,21 @@
+{
+  "catches": {
+    "blocked_profile_inserted_into_atlas": true,
+    "blocked_promoted_to_eligible": true,
+    "degree_perturbed": true,
+    "duplicate_candidate": true,
+    "independent_failure_ignored": true,
+    "missing_candidate": true,
+    "negative_face_hidden": true,
+    "persistent_promoted_to_derived_global": true,
+    "physical_owner_promoted": true,
+    "scale_selected": true,
+    "source_activated": true,
+    "twist_topology_claim": true
+  },
+  "passed": 12,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g74-catch-proofs-v1",
+  "status": "PASS",
+  "total": 12
+}
