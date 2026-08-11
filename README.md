@@ -10,8 +10,9 @@ The active arc is **CMB PEAK OPTIMIZATION**. Its current lead is
 source/channel variants, known source covariance including normalization plus independent carry is
 full rank in all 45 cells, but 15 weaker-model cells remain numerically unresolved and none of the
 helpful physical source, endpoint/profile, or carry-access premises is currently owned. The strict
-result is `INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`, not authorization to fit or select a CMB
-model. Its parent is
+result is externally verified with the sealed-intake repository-state caveat closed locally, not
+authorization to fit or select a CMB model. Read its `EXTERNAL_REVIEW_ADJUDICATION.md` after the
+audit report. Its parent is
 `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, followed by its
 `EXTERNAL_REVIEW_ADJUDICATION.md`: all 315 saved
 G68 profile/endpoint maps were reconstructed without a new solve. The complete three-channel

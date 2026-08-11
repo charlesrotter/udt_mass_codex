@@ -11,6 +11,7 @@
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
    `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXACT_DERIVATION.md`, then
    `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/OWNERSHIP_LEDGER.tsv`, then
    `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then
@@ -67,8 +68,9 @@
    19 source/channel restriction variants over 285 frozen-map sensitivity rows. The only uniformly
    full three-control model is known source covariance including normalization plus independently
    read carry (`45/45`); 15 weaker-model rows remain unresolved, and current UDT sources own none of
-   those helpful physical restrictions. It is internally verified pending external review, not a
-   fit or source/endpoint/profile selection. Its G69 parent
+   those helpful physical restrictions. It is externally verified with its sealed-intake
+   repository-state caveat closed by the live replay, not a fit or source/endpoint/profile
+   selection. Its G69 parent
    reconstructs all 315 saved G68 profile/endpoint maps and observes full local rank in the
    complete three-channel geometric readout, while proving exact local covariance
    non-identifiability under an unrestricted source. It is `EXTERNALLY_VERIFIED_AS_BOUNDED` after

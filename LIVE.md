@@ -6,12 +6,13 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G70 RESTRICTION/CHANNEL OWNERSHIP ATLAS AWAITS EXTERNAL REVIEW) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G70 RESTRICTION/CHANNEL OWNERSHIP ATLAS EXTERNALLY VERIFIED WITH CLOSED REPOSITORY CAVEAT) ============
 
 **LATEST LEAD — G70 COMPLETE-QUERY-OWNED RESTRICTION AND CHANNEL ATLAS,
-`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`; strict landing
+`EXTERNALLY_VERIFIED_WITH_REPOSITORY_PROVENANCE_CAVEAT_CLOSED_LOCALLY`; strict landing
 `IDENTIFIABILITY_NUMERICALLY_UNRESOLVED`.** Read
-`udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`, then its additions-only
+`EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `EXACT_DERIVATION.md`, `OWNERSHIP_LEDGER.tsv`, and `PREREGISTRATION.md`. Reusing only the frozen 315
 G69 maps, G70 tests 19 source/channel variants at 15 centers (`285` rows). Exact unrestricted
 source covariance still removes every covariance constraint. Fixed source shape with unknown
@@ -23,8 +24,13 @@ Across weaker models, `15` cells lie between the frozen rank thresholds, so they
 The independent SciPy-logm route reproduces all matrices and rank classes. Most importantly, the
 current query owns neither the physical source covariance/normalization, the physical endpoint or
 profile, nor scalar-TT access to carry. The successful algebraic control is not a physical CMB
-solution. NEXT: sealed review of rank typing and ownership. Do not fit coefficients or invent the
-missing source, endpoint, profile, or observation-channel owner.
+solution. A sealed reviewer verified `33/33` hashes, independently rebuilt all `285` matrices and
+rank classes, upheld every ownership ruling, and returned `VERIFIED_WITH_CAVEATS`; its sole caveat
+was inability to inspect git state from the sealed intake. The live checkout replay closed that
+repository-only caveat while preserving all seven protected paths unread. NEXT: determine whether
+the complete physical query or global metric completion owns any source restriction,
+endpoint/profile selection, or independently observable carry channel. Do not fit coefficients or
+invent the missing owner.
 
 **PARENT GATE — G69 PROFILE–ENDPOINT–SOURCE IDENTIFIABILITY ATLAS,
 `EXTERNALLY_VERIFIED_AS_BOUNDED`.** Read

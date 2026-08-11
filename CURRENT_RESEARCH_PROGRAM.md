@@ -14,8 +14,9 @@ including amplitude plus independently read carry is full rank in all `45/45` ce
 shape with unknown amplitude and two fixed-shape channels do not robustly recover all three
 controls. Fifteen weaker-model rows remain between the frozen thresholds, giving the strict landing
 `IDENTIFIABILITY_NUMERICALLY_UNRESOLVED`. The result is independently reproduced internally and
-awaits external review. The physical source covariance, endpoint/profile, and observation-level
-carry channel all remain OPEN, so no fit is authorized.
+by a sealed external reviewer; its repository-state-only caveat was closed by the live read-only
+replay. The physical source covariance, endpoint/profile, and observation-level carry channel all
+remain OPEN, so no fit is authorized. Read `EXTERNAL_REVIEW_ADJUDICATION.md` after the audit report.
 
 **G69 PARENT CHECKPOINT:**
 `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md` reconstructs all

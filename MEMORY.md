@@ -4,7 +4,7 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G70 restriction/channel ownership pending external review)
+## TOP — CURRENT POINTER (2026-08-11, G70 restriction/channel ownership externally verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
@@ -13,7 +13,8 @@ Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 rows show uniform full rank only after supplying known source covariance including amplitude plus
 independent carry (`45/45`). Fifteen weaker-model rows remain unresolved, and no current UDT source
 owns the helpful physical source, endpoint/profile, or carry-access premise. The strict result is
-internally verified pending external review and authorizes no fit. Its parent is
+externally verified with the sealed-intake repository-state caveat closed locally and authorizes no
+fit. Read its `EXTERNAL_REVIEW_ADJUDICATION.md`. Its parent is
 `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then its
 `EXTERNAL_REVIEW_ADJUDICATION.md`: all 315 saved
 profile/endpoint maps replay; the complete three-channel geometry is locally full rank in all 15

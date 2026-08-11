@@ -17,7 +17,8 @@ covariance including normalization plus independent azimuthal carry; it is full 
 cells but poorly conditioned. Fifteen weaker-model cells remain numerically unresolved, so the
 strict landing is `IDENTIFIABILITY_NUMERICALLY_UNRESOLVED`. Source covariance/normalization,
 physical endpoint/profile selection, and scalar-TT carry access remain OPEN. This is internally
-verified pending external review and authorizes no fit.
+and externally reproduced; the sealed-intake repository-state caveat is closed by the live
+read-only replay. Read `EXTERNAL_REVIEW_ADJUDICATION.md`. It authorizes no fit.
 
 ## G69 parent lead
 

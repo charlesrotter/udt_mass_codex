@@ -11,8 +11,8 @@ Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `../udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`. G70 finds uniform full
 three-control rank only when known source covariance including normalization and independent carry
 are supplied; 15 weaker-model rows remain unresolved, and none of the helpful physical restrictions
-is currently owned. It is internally verified pending external review and authorizes no fit. Its
-G69 parent is
+is currently owned. It is externally verified with the sealed-intake repository-state caveat
+closed locally and authorizes no fit. Read its `EXTERNAL_REVIEW_ADJUDICATION.md`. Its G69 parent is
 `../udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`. G69 finds the
 complete three-channel geometric readout locally separating inside the frozen tile, while an
 unrestricted local source covariance exactly preserves observational ambiguity. It is

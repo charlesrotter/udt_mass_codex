@@ -1,0 +1,26 @@
+`VERIFIED_WITH_CAVEATS`
+
+`REVIEW_MANIFEST.tsv` was verified first: `33/33` hashes matched before I used any source. No scientific defect in the sealed intake overturns the package’s bounded result. The caveat is package-provenance only: the git-based protected-path/untracked-state gate cannot be rerun in this extracted intake because it is not a live git checkout, so I can fully verify the sealed contents, algebra, numerics, type discipline, scope discipline, and ownership census, but not that one repository-state check.
+
+**Algebraic**
+The load-bearing algebra holds. For unknown source amplitude, with `C_src = alpha C0` and `alpha > 0`, `log(alpha C0) = log(alpha) I + log(C0)`, so only `A(C)=1/2 log det C` shifts while `(S1,S2)` do not; dropping the trace/log-area coordinate in unknown-amplitude models is correct [EXACT_DERIVATION.md](/tmp/udt_g70_review_UStzk4Eg/udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXACT_DERIVATION.md:15). The unrestricted-source theorem is exact: for invertible `D`, `C_src(D)=D^-1 C_obs D^-T` is positive definite and gives back `C_obs`, so unrestricted source covariance profiles out all covariance information [EXACT_DERIVATION.md](/tmp/udt_g70_review_UStzk4Eg/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:65). I independently confirmed all `315` G69 maps are invertible; the minimum singular value is `0.04961347467704763`.
+
+**Numerical**
+My clean-room eigen-log replay reproduced all `285` sensitivity matrices and all full and pairwise classifications without importing the production builder. Maximum matrix discrepancy was `1.4489e-15`; maximum sigma-ratio discrepancy was `5.37e-13`. The atlas census is supported: `46` full, `224` deficient, `15` unresolved. `R04` must not be promoted: it has exactly `1/15` full, `11/15` unresolved, `3/15` deficient in its correlated branch, and the sole full row is only `1.627658e-6` with condition `6.1438e5` [EXACT_DERIVATION.md](/tmp/udt_g70_review_UStzk4Eg/udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXACT_DERIVATION.md:96). `R05` is genuinely `45/45 FULL_RANK_OBSERVED` on the frozen tile: worst ratio `7.443928959894951e-6`, worst condition `1.3433766031186198e5`. That wording is justified only in the bounded numerical sense already used by the package, not as a stronger physical claim [EXACT_DERIVATION.md](/tmp/udt_g70_review_UStzk4Eg/udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXACT_DERIVATION.md:104).
+
+**Type, Scope, Ownership**
+No type or scope failure found. The package keeps analysis coordinates distinct from observables, enforces the rectangular-rank ceiling by zero-padding missing singular values, and does not silently turn a `2 x 3` or `1 x 3` readout into three-parameter full rank [EXACT_DERIVATION.md](/tmp/udt_g70_review_UStzk4Eg/udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXACT_DERIVATION.md:58). The ownership ledger is conservative and supported: the physical CMB query is open, source covariance is not metric-owned, scalar TT does not own carry, and polarization/orientation-sensitive access remains open [QUERY_LAYER_ATLAS.tsv](/tmp/udt_g70_review_UStzk4Eg/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv:2) [OBSERVABLE_CHANNEL_REQUIREMENTS.tsv](/tmp/udt_g70_review_UStzk4Eg/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv:3) [OWNERSHIP_LEDGER.tsv](/tmp/udt_g70_review_UStzk4Eg/udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/OWNERSHIP_LEDGER.tsv:2). The SNe anchor is correctly kept conditional and not copied into a centered CMB lapse [AUDIT_REPORT.md](/tmp/udt_g70_review_UStzk4Eg/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md:18). The strict primary landing should remain numerically unresolved despite `R05`: the package is mapping the full restriction atlas, not merely reporting existence of one sufficient supplied-premise branch, so the `15` unresolved weaker rows still block a stronger global landing [EXACT_DERIVATION.md](/tmp/udt_g70_review_UStzk4Eg/udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXACT_DERIVATION.md:11).
+
+DERIVED: SPD log coordinates; unknown-amplitude trace removal; exact unrestricted congruence theorem; conditional derivation of `D` and geometric `psi` on the supplied control query.
+
+OBSERVED: `19` variants, `285` rows, exact replay of all classifications; `R05 = 45/45 FULL_RANK_OBSERVED`; `R04` mixed and non-promotable; `15` unresolved rows remain.
+
+CHOSE_CONTROL: fixed screen basis, the G68 query, endpoint grid, source isotropy/fixed shape/known normalization controls, multi-channel source-shape controls, midpoint/secant rules, normalization thresholds.
+
+CONDITIONAL: pairwise identifiability after independently fixing one parameter; low-`z` SNe compatibility anchor; any use of carry requires an independently owned carry-reading channel.
+
+WORKING: `X_max` remains only an asymptotic guard, not a last-scattering selector or profile owner.
+
+OPEN: physical CMB query, physical endpoint/profile, native source covariance and normalization, scalar-TT access to `psi`, polarization/source transport, action/bootstrap/source law, local signalling.
+
+Lay adjudication: the atlas correctly shows which extra labels would make the inverse problem solvable, but the present UDT evidence does not print those labels itself.
