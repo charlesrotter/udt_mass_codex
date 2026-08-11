@@ -1,0 +1,234 @@
+Script started on 2026-08-11 19:05:17-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_g74_review_DzVV8bxx
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019ff312-b63b-7cd0-a90c-d1a09669c81c
+--------
+user
+Act as the cold adversarial reviewer. Read and follow udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md exactly. Verify REVIEW_MANIFEST.tsv before using any source. Inspect only this sealed intake. Do not edit files or continue the research. Return the required verdict with exact algebraic, type, topology, numerical, scope, ownership, and lay adjudication.
+codex
+I’m opening the sealed intake instructions first, then I’ll verify `REVIEW_MANIFEST.tsv` before reading any other source files.
+exec
+/bin/bash -lc pwd in /tmp/udt_g74_review_DzVV8bxx
+ succeeded in 0ms:
+/tmp/udt_g74_review_DzVV8bxx
+
+exec
+/bin/bash -lc 'rg --files /tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11' in /tmp/udt_g74_review_DzVV8bxx
+ succeeded in 0ms:
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/FALSIFICATION_CONTRACT.tsv
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/verify_repository_gates.py
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/COMPLETENESS_SCOPE.md
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/OWNERSHIP_LEDGER.tsv
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/run_catch_proofs.py
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/LAY_REPORT.md
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/REPOSITORY_GATES.json
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/PREMISE_LEDGER.tsv
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/derive_topology_atlas.py
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/DERIVATION_RESULT.json
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/PACKAGE_VERIFICATION_RESULT.json
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/SOURCE_MANIFEST.tsv
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/RELATION_TOPOLOGY_LEDGER.tsv
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/TYPE_LEDGER.tsv
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/RUN_RECORD.md
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/CENTER_REGULARITY_ATLAS.tsv
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/CATCH_PROOF_RESULTS.json
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/SKY_ENDPOINTS.npz
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/PREREGISTRATION.md
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/build_review_manifest.py
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/SKY_TOPOLOGY_ATLAS.tsv
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXACT_DERIVATION.md
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/verify_package.py
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/verify_topology_independent.py
+/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json
+
+codex
+The intake listing does not show `REVIEW_MANIFEST.tsv`, so I’m checking whether it exists under a different name or as a hidden file before I read anything else.
+exec
+/bin/bash -lc 'ls -la /tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11' in /tmp/udt_g74_review_DzVV8bxx
+ succeeded in 0ms:
+total 1256
+dr-xr-xr-x 2 udt-admin udt-admin    4096 Aug 11 19:04 .
+dr-x------ 6 udt-admin udt-admin    4096 Aug 11 19:04 ..
+-r--r--r-- 1 udt-admin udt-admin    2298 Aug 11 19:04 AUDIT_REPORT.md
+-r--r--r-- 1 udt-admin udt-admin     589 Aug 11 19:04 CATCH_PROOF_RESULTS.json
+-r--r--r-- 1 udt-admin udt-admin    4242 Aug 11 19:04 CENTER_REGULARITY_ATLAS.tsv
+-r--r--r-- 1 udt-admin udt-admin    1321 Aug 11 19:04 COMPLETENESS_SCOPE.md
+-r--r--r-- 1 udt-admin udt-admin    9107 Aug 11 19:04 DERIVATION_RESULT.json
+-r--r--r-- 1 udt-admin udt-admin    8938 Aug 11 19:04 EXACT_DERIVATION.md
+-r--r--r-- 1 udt-admin udt-admin    3019 Aug 11 19:04 EXTERNAL_REVIEW_DISPATCH.md
+-r--r--r-- 1 udt-admin udt-admin    1148 Aug 11 19:04 FALSIFICATION_CONTRACT.tsv
+-r--r--r-- 1 udt-admin udt-admin    1100 Aug 11 19:04 INDEPENDENT_VERIFICATION_RESULT.json
+-r--r--r-- 1 udt-admin udt-admin    1405 Aug 11 19:04 LAY_REPORT.md
+-r--r--r-- 1 udt-admin udt-admin    1493 Aug 11 19:04 OWNERSHIP_LEDGER.tsv
+-r--r--r-- 1 udt-admin udt-admin     994 Aug 11 19:04 PACKAGE_VERIFICATION_RESULT.json
+-r--r--r-- 1 udt-admin udt-admin    1744 Aug 11 19:04 PREMISE_LEDGER.tsv
+-r--r--r-- 1 udt-admin udt-admin    6991 Aug 11 19:04 PREREGISTRATION.md
+-r--r--r-- 1 udt-admin udt-admin    1765 Aug 11 19:04 RELATION_TOPOLOGY_LEDGER.tsv
+-r--r--r-- 1 udt-admin udt-admin    1659 Aug 11 19:04 REPOSITORY_GATES.json
+-r--r--r-- 1 udt-admin udt-admin     820 Aug 11 19:04 RUN_RECORD.md
+-r--r--r-- 1 udt-admin udt-admin 1102499 Aug 11 19:04 SKY_ENDPOINTS.npz
+-r--r--r-- 1 udt-admin udt-admin    6854 Aug 11 19:04 SKY_TOPOLOGY_ATLAS.tsv
+-r--r--r-- 1 udt-admin udt-admin    1129 Aug 11 19:04 SOURCE_MANIFEST.tsv
+-r--r--r-- 1 udt-admin udt-admin    1621 Aug 11 19:04 TYPE_LEDGER.tsv
+-r--r--r-- 1 udt-admin udt-admin    1973 Aug 11 19:04 build_review_manifest.py
+-r--r--r-- 1 udt-admin udt-admin   22577 Aug 11 19:04 derive_topology_atlas.py
+-r--r--r-- 1 udt-admin udt-admin    3906 Aug 11 19:04 run_catch_proofs.py
+-r--r--r-- 1 udt-admin udt-admin    5540 Aug 11 19:04 verify_package.py
+-r--r--r-- 1 udt-admin udt-admin    6896 Aug 11 19:04 verify_repository_gates.py
+-r--r--r-- 1 udt-admin udt-admin    9666 Aug 11 19:04 verify_topology_independent.py
+
+exec
+/bin/bash -lc "find /tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11 -maxdepth 1 \\( -name 'REVIEW_MANIFEST.tsv' -o -name '*REVIEW*MANIFEST*' -o -name 'MANIFEST*' \\) | sort" in /tmp/udt_g74_review_DzVV8bxx
+ succeeded in 0ms:
+codex
+`REVIEW_MANIFEST.tsv` is absent from the sealed intake. I’m reading the dispatch now to determine the exact fail-closed behavior it requires in that case.
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md" in /tmp/udt_g74_review_DzVV8bxx
+ succeeded in 0ms:
+# Cold external review dispatch — G74 symbolic-scale observer-sky topology atlas
+
+## Scope
+
+Adversarially review the G74 package and only the sources sealed by `REVIEW_MANIFEST.tsv`. Do not
+edit files, continue the research, inspect anything outside the intake, or inspect the protected
+stopped native-on-shell draft.
+
+## Claimed bounded result
+
+The package classifies the exact frozen 21-profile G68 control universe under a complete initial-
+sky, first-comparison-sphere query:
+
+- `3` F01 profiles are claimed to be exact global degree-one diffeomorphisms through a
+  constant-curvature optical-geometry argument;
+- `6` persistent-mixing profiles are only claimed `OBSERVED_SAMPLED_REGULAR_NOT_GLOBAL_PROOF` after
+  nested meshes, two RK4 step counts, and an independent direct-connection replay;
+- `12` tapered/sign-changing profiles are classified
+  `BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER` and were not repaired or solved globally.
+
+No physical CMB metric, source, endpoint, global scale, spectrum, `X_max`, bootstrap law, action, or
+matter source is claimed.
+
+## Required adversarial checks
+
+1. Reconstruct the Cartesian metric from the spherical controls. Prove or refute the `9/12` center
+   regularity split. In particular, check whether the `y|y|` witness really blocks `C2` and whether
+   `C2` is the correct requirement for the declared curvature/Jacobi atlas.
+2. Re-derive the endpoint-variation factorization and test the separation among Jacobi caustic,
+   endpoint grazing, and chart/screen degeneracy.
+3. Prove or refute the `S2 -> S2` regular-cover theorem and every limitation attached to it.
+4. Re-derive the axisymmetric area Jacobian and degree. Attack the claim that `psi(theta)` is
+   topology-neutral in the stated class and ensure it is not generalized beyond that class.
+5. Check the F01 optical metric, its sectional curvature, the strong-convexity radius, and the
+   claimed global degree-one bijection for an off-center observer.
+6. Independently inspect the production Hamilton equations, the direct Christoffel implementation,
+   tetrads, null initial data, event interpolation, icosphere orientation, solid-angle degree, and
+   all thresholds. Hunt shared-code or shared-formula false independence.
+7. Recompute representative and worst-case profile rows. Check all counts, extrema, convergence,
+   and whether the six persistent profiles justify only sampled regularity.
+8. Exercise the semantic catches. Try to make a blocked profile enter the solve, promote a sampled
+   result to a theorem, hide a negative face, select scale/source, or misclassify twist.
+9. Audit completeness: decide whether “complete sky” is honest for the declared control query and
+   whether another branch, endpoint, topology, or metric sector was silently discarded.
+10. Return one verdict: `VERIFIED`, `VERIFIED_WITH_CAVEATS`, or `REFUTED`, with exact corrections and
+    the maximum justified landing.
+
+Do not derive a CMB source, survey model, spectrum, action, bootstrap law, or `X_max` value.
+
+codex
+The dispatch is fail-closed on sealed sources. Since the seal file is missing, I’m confirming that absence explicitly and then stopping the source inspection there.
+exec
+/bin/bash -lc 'if [ -f /tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/REVIEW_MANIFEST.tsv ]; then echo PRESENT; else echo MISSING; fi' in /tmp/udt_g74_review_DzVV8bxx
+ succeeded in 0ms:
+MISSING
+
+codex
+I have enough context for the verdict. I’m pulling line numbers from the dispatch so the failure mode is anchored to the intake’s own instructions.
+exec
+/bin/bash -lc "nl -ba /tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md | sed -n '1,140p'" in /tmp/udt_g74_review_DzVV8bxx
+ succeeded in 0ms:
+     1	# Cold external review dispatch — G74 symbolic-scale observer-sky topology atlas
+     2	
+     3	## Scope
+     4	
+     5	Adversarially review the G74 package and only the sources sealed by `REVIEW_MANIFEST.tsv`. Do not
+     6	edit files, continue the research, inspect anything outside the intake, or inspect the protected
+     7	stopped native-on-shell draft.
+     8	
+     9	## Claimed bounded result
+    10	
+    11	The package classifies the exact frozen 21-profile G68 control universe under a complete initial-
+    12	sky, first-comparison-sphere query:
+    13	
+    14	- `3` F01 profiles are claimed to be exact global degree-one diffeomorphisms through a
+    15	  constant-curvature optical-geometry argument;
+    16	- `6` persistent-mixing profiles are only claimed `OBSERVED_SAMPLED_REGULAR_NOT_GLOBAL_PROOF` after
+    17	  nested meshes, two RK4 step counts, and an independent direct-connection replay;
+    18	- `12` tapered/sign-changing profiles are classified
+    19	  `BLOCKED_SUPPLIED_PROFILE_NOT_C2_AT_CENTER` and were not repaired or solved globally.
+    20	
+    21	No physical CMB metric, source, endpoint, global scale, spectrum, `X_max`, bootstrap law, action, or
+    22	matter source is claimed.
+    23	
+    24	## Required adversarial checks
+    25	
+    26	1. Reconstruct the Cartesian metric from the spherical controls. Prove or refute the `9/12` center
+    27	   regularity split. In particular, check whether the `y|y|` witness really blocks `C2` and whether
+    28	   `C2` is the correct requirement for the declared curvature/Jacobi atlas.
+    29	2. Re-derive the endpoint-variation factorization and test the separation among Jacobi caustic,
+    30	   endpoint grazing, and chart/screen degeneracy.
+    31	3. Prove or refute the `S2 -> S2` regular-cover theorem and every limitation attached to it.
+    32	4. Re-derive the axisymmetric area Jacobian and degree. Attack the claim that `psi(theta)` is
+    33	   topology-neutral in the stated class and ensure it is not generalized beyond that class.
+    34	5. Check the F01 optical metric, its sectional curvature, the strong-convexity radius, and the
+    35	   claimed global degree-one bijection for an off-center observer.
+    36	6. Independently inspect the production Hamilton equations, the direct Christoffel implementation,
+    37	   tetrads, null initial data, event interpolation, icosphere orientation, solid-angle degree, and
+    38	   all thresholds. Hunt shared-code or shared-formula false independence.
+    39	7. Recompute representative and worst-case profile rows. Check all counts, extrema, convergence,
+    40	   and whether the six persistent profiles justify only sampled regularity.
+    41	8. Exercise the semantic catches. Try to make a blocked profile enter the solve, promote a sampled
+    42	   result to a theorem, hide a negative face, select scale/source, or misclassify twist.
+    43	9. Audit completeness: decide whether “complete sky” is honest for the declared control query and
+    44	   whether another branch, endpoint, topology, or metric sector was silently discarded.
+    45	10. Return one verdict: `VERIFIED`, `VERIFIED_WITH_CAVEATS`, or `REFUTED`, with exact corrections and
+    46	    the maximum justified landing.
+    47	
+    48	Do not derive a CMB source, survey model, spectrum, action, bootstrap law, or `X_max` value.
+
+codex
+**Findings**
+1. Critical: the sealed intake is unreviewable because the mandatory seal file is absent. [EXTERNAL_REVIEW_DISPATCH.md](/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md:5) requires review of “only the sources sealed by `REVIEW_MANIFEST.tsv`,” and your instruction required verifying that manifest before using any source. A direct presence check returned `MISSING`, so I did not inspect the scientific sources further. That blocks all ten required adversarial checks at the package-governance layer.
+
+**Verdict**
+`REFUTED`
+
+Algebraic adjudication: Not reached; no algebraic claim is reviewable without the required seal.
+
+Type adjudication: Not reached; no type/regularity claim is reviewable without the required seal.
+
+Topology adjudication: Not reached; no topology claim is reviewable without the required seal.
+
+Numerical adjudication: Not reached; no numerical result is reviewable without the required seal.
+
+Scope adjudication: Failed. The package does not satisfy its own admission condition in [EXTERNAL_REVIEW_DISPATCH.md](/tmp/udt_g74_review_DzVV8bxx/udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md:5).
+
+Ownership adjudication: Not reached; ownership evidence cannot be authenticated without the seal defining the admissible source set.
+
+Lay adjudication: The intake is missing the file that says which documents are officially in-bounds, so none of the claimed results can be trusted from this submission.
+
+Maximum justified landing: intake-level rejection only. No mathematical, type, topology, or numerical claim is verified from this sealed intake.
+
+Exact correction: provide a present, internally consistent `REVIEW_MANIFEST.tsv` that seals the admissible files, then rerun the review from a fresh intake.
+tokens used
+10,698
+
+Script done on 2026-08-11 19:06:13-04:00 [COMMAND_EXIT_CODE="0"]
