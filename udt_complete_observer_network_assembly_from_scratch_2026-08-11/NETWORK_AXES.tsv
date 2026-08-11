@@ -1,0 +1,11 @@
+axis_id	axis	classes	purpose
+N01	scalar_state_home	OBJECT_COBBOUNDARY;PAIR_LABELLED;PATH_LABELLED	separate exact potentials from genuine route data
+N02	complete_arrow_home	ENDPOINT_FRAME_CHANGE;PATH_CONNECTION;SUPPLIED_NONISOMETRIC_ARROW	prevent type collapse
+N03	composition	ASSOCIATIVE;MISMATCHED_OBJECTS;UNDEFINED	check typing before algebra
+N04	triangle_relation	DIRECT_EQUALS_COMPOSITE;HOLONOMY_RETAINED;NO_DIRECT_EDGE	separate descent from composition
+N05	four_observer_relation	TETRAHEDRAL_COHERENCE;LOOP_HOLONOMY;INDEPENDENT_FACES	find higher overlap conditions
+N06	angular_mixing	TRIVIAL;SO2_PATH_CARRY;COMPLETE_MATRIX_CARRY	keep orchestra channels active
+N07	causal_scope	LOCAL_CONE_TYPED;GLOBAL_ORDER_REFLECTING;OPEN	separate automatic local typing from global filter
+N08	cE_scope	UNIT_TRIVIALIZATION;ONE_POINT_ANCHOR;TERMINAL_RATIO;ALL_ENDPOINTS_EQUAL	catch calibration misuse
+N09	time_scope	ARBITRARY_SMOOTH;STATIONARY_SUBCASE	ensure frozen-time conclusions do not control
+N10	constraint_owner	IDENTITY;DERIVED_OWNED;CONDITIONAL_CHOICE;OPEN	classify every apparent equation
