@@ -6,6 +6,14 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`: every declared
+common-scale, reciprocal, shift, angular, and mixing channel is time- and space-live in the
+supplied regular chart, and their exact compatibility and pair-state evolution identities are
+derived. External review accepted the mathematics and required only a sealed-intake path repair.
+These identities read every smooth movie but select no movie: arbitrary time-only frequencies
+survive, and no characteristic, trajectory, dispersion, physical regime, or bootstrap return is
+derived. The next gate is an already-owned differential/global condition that restricts the
+history space. Its parent is
 `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`: conditional on a
 correctly typed reciprocal/angular split, it derives the complete split-relative matrix orchestra,
 generic orbit classification, exact signed area locks, and simultaneous angular modulation of

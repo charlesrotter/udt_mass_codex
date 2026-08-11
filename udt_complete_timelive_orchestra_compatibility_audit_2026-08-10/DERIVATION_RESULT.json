@@ -1,0 +1,27 @@
+{
+  "arbitrary_frequency_witnesses": 4,
+  "base_commit": "78f925459eb7ee8a4251dcc86460d3c581634bc8",
+  "compatibility_blocks": 3,
+  "exact_check_count": 15,
+  "exact_checks": {
+    "HA_evolution": true,
+    "HR_evolution": true,
+    "base_state_derivative": true,
+    "beta_pair_derivative": true,
+    "block_inverse": true,
+    "block_logarithmic_derivative": true,
+    "complete_metric_block_reconstruction": true,
+    "h_evolution": true,
+    "kappa_pair_derivative": true,
+    "mc_angular_block": true,
+    "mc_mixing_block": true,
+    "mc_reciprocal_common_shift_block": true,
+    "phi_pair_derivative": true,
+    "witness_B_invertible_local": true,
+    "witness_Q_invertible_local": true
+  },
+  "maximum_conclusion": "complete factorized coframe films obey exact block compatibility identities; current metric kinematics selects no physical trajectory, frequency, characteristic, or regime",
+  "preregistration_commit": "c86094e1",
+  "status": "EXACT_COMPATIBILITY_ORCHESTRA_BUT_NO_EVOLUTION_LAW",
+  "trajectory_families": 4
+}

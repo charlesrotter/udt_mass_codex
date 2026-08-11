@@ -7,7 +7,18 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G59 CHECKPOINT:**
+**CURRENT G60 CHECKPOINT:**
+`udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md` makes every
+declared `B`, `Q`, and `S` channel time- and space-live and derives the exact coupled compatibility
+blocks and complete pair-state readouts. External review returned `VERIFIED_WITH_CORRECTIONS` and
+found no mathematical defect. The one evidence-transport correction now lets the unchanged 13-row
+source manifest replay in either repository or sealed `sources/` layout. The identities hold for
+every smooth regular movie and therefore do not select one; arbitrary time-only frequencies and
+phases remain. The next bounded question is whether any already-owned second-jet curvature,
+global-completion, boundary, or observer-composition condition cuts that history space down to a
+proper subset. Bootstrap remains deferred.
+
+**G59 PARENT CHECKPOINT:**
 `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md` derives the complete
 conditional split-relative matrix orchestra from the arbitrary local pair Jacobian. It classifies
 the generic continuous orbit, derives exact reciprocal/angular/signed-mixed area locks, and shows

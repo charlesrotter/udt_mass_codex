@@ -1,0 +1,5 @@
+family	free_data	compatibility	selection	status
+time_only_arbitrary_movie	any smooth B(t),Q(t),S(t) with detB detQ nonzero	all two-form identities vacuous on one-dimensional time base	NONE	CONSTRUCTIVE_FULL_FUNCTIONAL_FREEDOM
+time_space_complete_movie	any smooth B(t,x),Q(t,x),S(t,x) with detB detQ nonzero	P R C satisfy the three Maurer-Cartan block identities automatically	NONE_BEYOND_SMOOTH_INTEGRABILITY	CONSTRUCTIVE_FULL_FUNCTIONAL_FREEDOM
+fixed_query_orchestra	J_R=J_A=0 with arbitrary coframe movie	matrix evolution formulas exact	NONE	KINEMATIC_CONTROL
+moving_query_orchestra	arbitrary lawful J_R,J_A in addition to coframe movie	query terms remain additively distinct	NONE	QUERY_OWNER_OPEN

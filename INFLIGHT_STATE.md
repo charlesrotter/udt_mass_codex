@@ -1,7 +1,8 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-10 STATUS (RESTART ANCHOR): COMPLETE PAIR-INSTRUMENT MIXING ATLAS VERIFIED WITH CORRECTIONS; NOTHING IN FLIGHT.** ACTIVE ARC = CMB PEAK
+> **2026-08-10 STATUS (RESTART ANCHOR): COMPLETE TIME-LIVE ORCHESTRA COMPATIBILITY VERIFIED WITH CORRECTIONS; NOTHING IN FLIGHT.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-10) FIRST, then
+> `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`, then

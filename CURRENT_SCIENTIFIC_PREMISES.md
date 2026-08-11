@@ -9,7 +9,23 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G59 refinement
+## Current G60 refinement
+
+`udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md` controls the
+current time-live gate. In the supplied regular pair-adapted chart, `kappa`, `phi`, `beta`, all four
+angular-screen entries, all four mixing entries, time, space, and separate query motion are live.
+The right logarithmic derivative splits exactly into reciprocal/common-scale, angular, and mixing
+blocks; the mixing compatibility equation contains both other connections. External review
+replayed `15/15` production identities, `1,200/1,200` independent rational trials, and `20/20`
+catches and returned `VERIFIED_WITH_CORRECTIONS`. Its sole correction was sealed-intake pathing;
+the 13 source hashes were always correct and now replay in both layouts. These equations are
+smooth-coframe compatibility identities, not equations selecting a movie. Time-only histories
+retain arbitrary smooth frequencies and phases. No trajectory, characteristic, dispersion,
+physical regime, or bootstrap tuning is selected. The next gate is whether an already-owned
+second-jet, global-completion, boundary, or observer-composition condition supplies a genuine
+history restriction beyond identities.
+
+## G59 parent refinement
 
 `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md` controls the current
 pair-instrument solution-space gate. Conditional on a correctly typed metric-orthogonal

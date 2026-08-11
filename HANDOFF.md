@@ -18,7 +18,19 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = COMPLETE PAIR-INSTRUMENT MIXING SOLUTION-SPACE ATLAS COMPLETE,
+**LATEST GATE = COMPLETE TIME-LIVE ORCHESTRA COMPATIBILITY COMPLETE,
+`VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
+`udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`. All declared
+`B`, `Q`, and `S` channels are time- and space-live in the supplied regular pair-adapted chart. The
+exact base/angular/mixing compatibility blocks and complete pair-state evolution readouts retain
+common scale, reciprocal depth, shift, angular screen, mixing, and separate query motion. They are
+identities for every smooth regular coframe movie—not a native score selecting one movie. Time-only
+histories retain arbitrary frequencies and phases. External review accepted the mathematics and
+required only an additions-only sealed-intake path correction; all 13 source hashes replay. NEXT:
+test only already-owned second-jet/global/boundary/composition conditions for a genuine restriction
+of the full history space. Do not insert bootstrap, assign regimes, or launch an arbitrary solve.
+
+**PARENT GATE = COMPLETE PAIR-INSTRUMENT MIXING SOLUTION-SPACE ATLAS COMPLETE,
 `VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
 `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`. Conditional on a
 correctly typed metric-orthogonal reciprocal/angular `2+2` split, the full arbitrary local pair

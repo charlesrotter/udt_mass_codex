@@ -6,9 +6,28 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; COMPLETE PAIR-INSTRUMENT MIXING ATLAS VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; COMPLETE TIME-LIVE ORCHESTRA COMPATIBILITY VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — COMPLETE PAIR-INSTRUMENT MIXING SOLUTION-SPACE ATLAS COMPLETE,
+**LATEST GATE — COMPLETE TIME-LIVE ORCHESTRA COMPATIBILITY COMPLETE,
+`VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
+`udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md` first. In the
+supplied regular pair-adapted chart, every declared common-scale, reciprocal, shift, angular, and
+mixing field is time- and space-live, with observer-query motion kept separate. Their right
+logarithmic derivative obeys exact coupled base/angular/mixing compatibility identities, and the
+complete metric gives exact `H_R`, `H_A`, `kappa_pair`, `phi_pair`, and `beta_pair` evolution
+readouts. External review accepted all load-bearing algebra after `15/15` production checks,
+`1,200/1,200` independent exact trials, and `20/20` catches; its only correction was the sealed-
+intake source-path replay, now repaired without changing the historical manifest. The result is
+`EXACT_COMPATIBILITY_ORCHESTRA_BUT_NO_EVOLUTION_LAW`: every smooth regular movie obeys these
+identities, and time-only movies retain arbitrary frequencies and phases. This closes “time was
+silently frozen” as the whole missing joint, but selects no trajectory, dispersion, field
+characteristic, or physical regime. NEXT: audit whether an already-owned complete-metric
+second-jet, global-completion, boundary, or observer-composition condition restricts the full
+`(B,Q,S)` history space beyond Maurer--Cartan/Bianchi identities. Bootstrap remains a later working
+hypothesis and was not used. Do not run arbitrary ODE/PDE scans or call kinematic compatibility an
+equation of motion.
+
+**PARENT GATE — COMPLETE PAIR-INSTRUMENT MIXING SOLUTION-SPACE ATLAS COMPLETE,
 `VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
 `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md` first. Conditional on
 a correctly typed metric-orthogonal reciprocal/angular `2+2` split, the complete arbitrary local

@@ -1,0 +1,11 @@
+{
+  "arbitrary_frequency_selection": "NONE_FROM_KINEMATICS",
+  "block_factorization_trials": 300,
+  "implementation": "independent_standard_library_fraction_no_sympy_no_production_import",
+  "matrix_channel_evolution_trials": 300,
+  "mixed_time_space_compatibility_trials": 300,
+  "pair_state_derivative_trials": 300,
+  "status": "PASS",
+  "time_only_two_form_constraints": 0,
+  "total_exact_trials": 1200
+}

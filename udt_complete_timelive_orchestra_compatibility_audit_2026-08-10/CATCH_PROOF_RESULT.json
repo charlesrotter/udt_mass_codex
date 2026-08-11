@@ -1,0 +1,28 @@
+{
+  "catch_count": 20,
+  "catches": {
+    "F01_wrong_right_MC_sign_rejected": true,
+    "F02_common_scale_retained": true,
+    "F03_phi_retained": true,
+    "F04_beta_not_frozen": true,
+    "F05_general_Q_retained": true,
+    "F06_full_S_retained": true,
+    "F07_mixing_couples_P_and_R": true,
+    "F08_query_motion_separate": true,
+    "F09_arbitrary_frequency_survives": true,
+    "F10_flat_K_not_spacetime_flat": true,
+    "F11_identity_not_EOM": true,
+    "F12_cone_not_characteristic": true,
+    "F13_bootstrap_inactive": true,
+    "F14_no_physical_regime": true,
+    "F15_R17_not_universal": true,
+    "F16_global_scope_excluded": true,
+    "F17_no_downstream_physics": true,
+    "F18_independent_no_production_or_sympy_import": true,
+    "F19_protected_atlas_absent": true,
+    "F20_stopped_drafts_absent": true
+  },
+  "caught_count": 20,
+  "failed": [],
+  "schema_version": 1
+}

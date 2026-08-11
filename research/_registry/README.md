@@ -3,7 +3,11 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-gate is `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`; conditional
+gate is `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`; it turns
+every declared pair-adapted coframe channel time- and space-live and derives exact compatibility
+identities, while proving those identities select no trajectory, frequency, characteristic, or
+regime. Its parent is `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`;
+conditional
 on a correctly typed reciprocal/angular split, it derives the complete split-relative matrix
 orchestra and exact signed area locks while leaving positive physical weights and the native curve
 through that state space open. Its parent is

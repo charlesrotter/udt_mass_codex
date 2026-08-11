@@ -1,0 +1,5 @@
+witness	fields	free_frequencies	regularity	meaning
+reciprocal_vibration	kappa=0; phi=a sin(omega t); beta=0; Q=I; S=0	omega arbitrary	T,L positive for finite a	smooth movie not on-shell mode
+screen_breath_and_shear	Q=R(nu t) diag(exp(q sin(omega t)),exp(-q sin(omega t))); other fields arbitrary	nu and omega independent	detQ=1	smooth movie not on-shell mode
+mixing_orchestra	all four S entries are independent smooth finite Fourier sums	every frequency and phase arbitrary	E invertibility independent of S	smooth movie not on-shell mode
+fully_coupled_movie	kappa phi beta Q S all nonconstant with independent frequencies	no kinematic resonance or dispersion relation	local detB detQ nonzero	smooth movie not physical harmony

@@ -1,0 +1,13 @@
+claim_id	claim	status	scope
+S01	complete B Q S coframe retains kappa phi beta angular and mixing fields	DERIVED	declared regular pair-adapted chart
+S02	right logarithmic derivative splits exactly into P R C	DERIVED	declared chart
+S03	P contains dkappa dphi and exp(-2phi) dbeta	DERIVED	declared chart
+S04	mixing compatibility couples C to P and R	DERIVED_IDENTITY	local time-space smooth coframe
+S05	all smooth full-rank coframe movies satisfy the compatibility blocks	DERIVED	local chart
+S06	flat block compatibility locally reconstructs a coframe	CONDITIONAL_DERIVED	simply connected local domain
+S07	time-only histories retain arbitrary smooth frequencies and phases	DERIVED_KINEMATIC_NONSELECTION	local full-rank chart
+S08	G59 H_R and H_A evolution includes complete coframe and query terms	DERIVED_IDENTITY	supplied pair Jacobian
+S09	metric null cone selects physical field characteristics	OPEN	principal differential operator absent
+S10	native trajectory frequency dispersion or physical regime	OPEN	no evolution law selected
+S11	bootstrap background tunes or selects histories	WORKING_HYPOTHESIS_DEFERRED	not tested
+S12	action source matter CMB signalling or downstream physics	OPEN	not derived

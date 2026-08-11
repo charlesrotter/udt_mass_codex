@@ -1,0 +1,11 @@
+{
+  "authorized_external_intake_files": 37,
+  "corrected_package_files": 32,
+  "corrected_replay_files": 45,
+  "layout": "sealed_sources",
+  "protected_atlas_contents_read": false,
+  "source_manifest_rows": 13,
+  "status": "PASS",
+  "stopped_draft_contents_read": false,
+  "transient_external_review_sha256": "992a9cabc69d578d61d39496b912e9664b8697fc86b2601c6816af4aa785d1be"
+}

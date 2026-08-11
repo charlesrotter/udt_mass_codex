@@ -9,6 +9,12 @@
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`: all declared
+pair-adapted coframe channels are now time- and space-live. Their exact coupled compatibility
+identities and pair-state evolution readouts are derived, but every smooth regular movie obeys
+them and arbitrary time-only frequencies survive. External review accepted the algebra and found
+only a corrected sealed-intake path defect. No trajectory, characteristic, regime, or bootstrap
+return is selected. Parent:
 `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`: conditional on a
 correctly typed reciprocal/angular split, the full local pair Jacobian yields an exact
 split-relative matrix orchestra, generic orbit classification, signed area locks, and simultaneous

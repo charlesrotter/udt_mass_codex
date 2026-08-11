@@ -1,0 +1,4 @@
+block	definition	time_space_identity	physical_content	grade
+P_base	P=dB B^-1	partial_t P_i-partial_i P_t-[P_t,P_i]=0	kappa phi beta smooth-coframe compatibility	DERIVED_IDENTITY_NOT_EOM
+R_angular	R=dQ Q^-1	partial_t R_i-partial_i R_t-[R_t,R_i]=0	general screen smooth-coframe compatibility	DERIVED_IDENTITY_NOT_EOM
+C_mixing	C=Q dS B^-1	partial_t C_i-partial_i C_t-(C_t P_i-C_i P_t+R_t C_i-R_i C_t)=0	exact reciprocal-angular-mixing covariant compatibility	DERIVED_IDENTITY_NOT_EOM
