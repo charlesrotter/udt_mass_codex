@@ -1,0 +1,15 @@
+axis_id	axis	coverage	status
+A01	common scale kappa	arbitrary smooth time and spatial dependence	FREE_AND_EXPLORED
+A02	reciprocal depth phi	arbitrary smooth time and spatial dependence	FREE_AND_EXPLORED
+A03	pair shift beta	arbitrary smooth time and spatial dependence	FREE_AND_EXPLORED
+A04	angular screen Q	general GL-plus 2 by 2 field	FREE_AND_EXPLORED
+A05	mixing S	general 2 by 2 field	FREE_AND_EXPLORED
+A06	coframe time derivative	all declared channels	FULL_LOCAL
+A07	coframe spatial derivatives	all declared channels	FULL_LOCAL
+A08	mixed time-space compatibility	all block equations	FULL_LOCAL
+A09	fixed query	coframe-only vibration	CONTROL
+A10	moving query	independent tangent-Jacobian derivative	FREE_AND_SEPARATED
+A11	arbitrary frequency and phase	constructive functional witnesses	FREE_AND_EXPLORED
+A12	null rank loss cut locus topology	identified only	OUTSIDE_BOUNDED_RETURN
+A13	bootstrap density curvature	inactive	DEFERRED
+A14	native characteristics or dynamics	tested for ownership not assumed	OPEN

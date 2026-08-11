@@ -1,0 +1,21 @@
+gate_id	mutation_or_failure	required_detection
+F01	wrong sign in right Maurer-Cartan identity	REJECT
+F02	missing common-scale derivative	REJECT
+F03	missing phi derivative	REJECT
+F04	beta set to zero or constant	REJECT
+F05	Q reduced to round or diagonal	REJECT
+F06	S reduced or frozen	REJECT
+F07	mixing block compatibility omits reciprocal or angular connection	REJECT
+F08	query motion silently identified with coframe vibration	REJECT
+F09	time-only arbitrary frequency falsely rejected	REJECT
+F10	flat logarithmic derivative called zero spacetime curvature	REJECT
+F11	Maurer-Cartan identity called equation of motion	REJECT
+F12	metric cone called field characteristic cone	REJECT
+F13	bootstrap parameter introduced	REJECT
+F14	physical regime assigned	REJECT
+F15	R17 stationary split called universal time-live owner	REJECT
+F16	global or degenerate extension claimed	REJECT
+F17	action source matter CMB or signalling inferred	REJECT
+F18	production implementation reused as independent proof	REJECT
+F19	protected curvature atlas included or read	REJECT
+F20	stopped native-on-shell drafts included or read	REJECT
