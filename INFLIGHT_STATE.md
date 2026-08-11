@@ -1,7 +1,9 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-11 STATUS (RESTART ANCHOR): G69 PROFILE/ENDPOINT/SOURCE IDENTIFIABILITY ATLAS `EXTERNALLY_VERIFIED_AS_BOUNDED`; OWNERSHIP RESTRICTION NEXT.** ACTIVE ARC = CMB PEAK
+> **2026-08-11 STATUS (RESTART ANCHOR): G70 RESTRICTION/CHANNEL OWNERSHIP ATLAS INTERNALLY VERIFIED; EXTERNAL REVIEW PENDING.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-11) FIRST, then
+> `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXACT_DERIVATION.md`, then
 > `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then
 > `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md`, then

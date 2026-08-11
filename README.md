@@ -6,6 +6,12 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current lead is
+`udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`: across 285 frozen-map
+source/channel variants, known source covariance including normalization plus independent carry is
+full rank in all 45 cells, but 15 weaker-model cells remain numerically unresolved and none of the
+helpful physical source, endpoint/profile, or carry-access premises is currently owned. The strict
+result is `INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`, not authorization to fit or select a CMB
+model. Its parent is
 `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, followed by its
 `EXTERNAL_REVIEW_ADJUDICATION.md`: all 315 saved
 G68 profile/endpoint maps were reconstructed without a new solve. The complete three-channel

@@ -9,7 +9,17 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G69 lead
+## Current G70 lead
+
+`udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md` controls the current
+restriction/ownership gate. The uniformly successful tested inverse model supplies known source
+covariance including normalization plus independent azimuthal carry; it is full rank in `45/45`
+cells but poorly conditioned. Fifteen weaker-model cells remain numerically unresolved, so the
+strict landing is `IDENTIFIABILITY_NUMERICALLY_UNRESOLVED`. Source covariance/normalization,
+physical endpoint/profile selection, and scalar-TT carry access remain OPEN. This is internally
+verified pending external review and authorizes no fit.
+
+## G69 parent lead
 
 `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md` controls the
 current local identifiability lead. The complete three-channel G68 geometric readout is

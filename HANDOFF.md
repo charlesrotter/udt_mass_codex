@@ -21,7 +21,20 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G69 PROFILE–ENDPOINT–SOURCE IDENTIFIABILITY ATLAS,
+**LATEST LEAD = G70 COMPLETE-QUERY-OWNED RESTRICTION AND CHANNEL ATLAS,
+`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`; strict landing
+`IDENTIFIABILITY_NUMERICALLY_UNRESOLVED`.** Read
+`udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md` and `OWNERSHIP_LEDGER.tsv`. Across 285 frozen-map restriction rows, only the
+known-source-covariance-plus-carry model is uniformly full rank (`45/45`, maximum condition
+`1.3434e5`). Known source covariance without carry identifies any two controls if the third is
+independently selected; fixed source shape with unknown amplitude does not robustly recover all
+three. Fifteen weaker-model cells remain numerically unresolved under the frozen threshold. The
+current metric/query owns none of the helpful physical source normalization, endpoint/profile
+selection, or scalar-TT carry-access premises. NEXT: sealed external review; no fit or invented
+owner.
+
+**PARENT GATE = G69 PROFILE–ENDPOINT–SOURCE IDENTIFIABILITY ATLAS,
 `EXTERNALLY_VERIFIED_AS_BOUNDED`.** Read
 `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then
 `EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`. All `315` saved profile/endpoint maps

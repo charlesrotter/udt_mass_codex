@@ -1,0 +1,37 @@
+{
+  "R05_full_rank_rows": 45,
+  "atlas_rows": 285,
+  "congruence_control_maximum_relative": 6.425351082669879e-16,
+  "congruence_control_minimum_source_eigenvalue": 0.43759941861076307,
+  "imports_production_builder": false,
+  "input_cells": 315,
+  "maximum_logm_expm_reconstruction_relative": 1.0806752525887526e-14,
+  "maximum_matrix_relative": 8.24739102969143e-15,
+  "maximum_sigma_ratio_absolute": 1.5306430490303107e-10,
+  "new_ODE_solves": 0,
+  "pair_rank_counts": {
+    "a_epsilon": {
+      "FULL_RANK_OBSERVED": 187,
+      "RANK_DEFICIENT_OBSERVED": 90,
+      "RANK_NUMERICALLY_UNRESOLVED": 8
+    },
+    "x_a": {
+      "FULL_RANK_OBSERVED": 153,
+      "RANK_DEFICIENT_OBSERVED": 90,
+      "RANK_NUMERICALLY_UNRESOLVED": 42
+    },
+    "x_epsilon": {
+      "FULL_RANK_OBSERVED": 189,
+      "RANK_DEFICIENT_OBSERVED": 90,
+      "RANK_NUMERICALLY_UNRESOLVED": 6
+    }
+  },
+  "rank_counts": {
+    "FULL_RANK_OBSERVED": 46,
+    "RANK_DEFICIENT_OBSERVED": 224,
+    "RANK_NUMERICALLY_UNRESOLVED": 15
+  },
+  "schema": "udt-cmb-g70-independent-v1",
+  "source_manifest_rows": 9,
+  "status": "PASS"
+}

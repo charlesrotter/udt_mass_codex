@@ -1,0 +1,21 @@
+{
+  "caught": {
+    "R04_promoted": true,
+    "R05_promoted_to_physics": true,
+    "TT_carry_invented": true,
+    "duplicate_atlas_row": true,
+    "endpoint_owner_invented": true,
+    "external_status_promoted": true,
+    "fit_added": true,
+    "missing_atlas_row": true,
+    "missing_model_variant": true,
+    "rectangular_rank_promoted": true,
+    "scope_promoted": true,
+    "source_owner_invented": true,
+    "threshold_retuned": true,
+    "unresolved_hidden": true
+  },
+  "passed": 14,
+  "schema": "udt-cmb-g70-catches-v1",
+  "total": 14
+}

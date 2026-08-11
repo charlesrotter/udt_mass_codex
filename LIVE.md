@@ -6,9 +6,27 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G69 EXTERNALLY VERIFIED, OWNERSHIP RESTRICTION NEXT) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G70 RESTRICTION/CHANNEL OWNERSHIP ATLAS AWAITS EXTERNAL REVIEW) ============
 
-**LATEST LEAD — G69 PROFILE–ENDPOINT–SOURCE IDENTIFIABILITY ATLAS,
+**LATEST LEAD — G70 COMPLETE-QUERY-OWNED RESTRICTION AND CHANNEL ATLAS,
+`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`; strict landing
+`IDENTIFIABILITY_NUMERICALLY_UNRESOLVED`.** Read
+`udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `OWNERSHIP_LEDGER.tsv`, and `PREREGISTRATION.md`. Reusing only the frozen 315
+G69 maps, G70 tests 19 source/channel variants at 15 centers (`285` rows). Exact unrestricted
+source covariance still removes every covariance constraint. Fixed source shape with unknown
+amplitude never robustly identifies all three controls; two such shape channels also fail. Known
+source covariance without carry identifies every two-parameter restriction but no robust full
+three-parameter row. Known source covariance including normalization plus independently read
+azimuthal carry is full rank in all `45/45` cells, but is poorly conditioned (maximum `1.3434e5`).
+Across weaker models, `15` cells lie between the frozen rank thresholds, so they are not promoted.
+The independent SciPy-logm route reproduces all matrices and rank classes. Most importantly, the
+current query owns neither the physical source covariance/normalization, the physical endpoint or
+profile, nor scalar-TT access to carry. The successful algebraic control is not a physical CMB
+solution. NEXT: sealed review of rank typing and ownership. Do not fit coefficients or invent the
+missing source, endpoint, profile, or observation-channel owner.
+
+**PARENT GATE — G69 PROFILE–ENDPOINT–SOURCE IDENTIFIABILITY ATLAS,
 `EXTERNALLY_VERIFIED_AS_BOUNDED`.** Read
 `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then its
 `EXTERNAL_REVIEW_ADJUDICATION.md`, `EXACT_DERIVATION.md`, and `PREREGISTRATION.md`. Without a new

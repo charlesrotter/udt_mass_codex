@@ -3,7 +3,10 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-lead is `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`; it maps
+lead is `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`; it maps which source,
+endpoint/profile, and carry-channel restrictions restore bounded local rank, while finding none
+currently owned and retaining 15 unresolved weaker-model cells. Its G69 parent is
+`udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`; it maps
 bounded geometric profile/endpoint sensitivity and exact unrestricted-source covariance freedom,
 and is `EXTERNALLY_VERIFIED_AS_BOUNDED` after `37/37` sealed hashes and an independent replay with
 no correction. Read its `EXTERNAL_REVIEW_ADJUDICATION.md` next. Its parent gate is

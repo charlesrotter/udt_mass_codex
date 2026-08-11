@@ -7,7 +7,12 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The current G69 identifiability lead is
+**CMB PEAK OPTIMIZATION**. The current G70 restriction/ownership lead is
+`../udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`. G70 finds uniform full
+three-control rank only when known source covariance including normalization and independent carry
+are supplied; 15 weaker-model rows remain unresolved, and none of the helpful physical restrictions
+is currently owned. It is internally verified pending external review and authorizes no fit. Its
+G69 parent is
 `../udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`. G69 finds the
 complete three-channel geometric readout locally separating inside the frozen tile, while an
 unrestricted local source covariance exactly preserves observational ambiguity. It is
@@ -30,6 +35,8 @@ solved-geometry parent retains endpoint reciprocal depth, causal propagators, fu
 holonomy, and R17 normal holonomy throughout its exact bounded `14`-witness atlas. This is typed
 geometric coexistence, not physical selection, dynamics, global completion, or stability.
 Read in order:
+`../udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`../udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXACT_DERIVATION.md`, then
 `../udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then
 `../udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `../udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md`, then

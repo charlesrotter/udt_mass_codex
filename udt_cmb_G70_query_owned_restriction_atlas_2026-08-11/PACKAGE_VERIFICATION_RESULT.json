@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "R05_subresult": true,
+    "atlas_census": true,
+    "catches": true,
+    "external_status": true,
+    "independent": true,
+    "matrix_replay": true,
+    "no_owned_restriction": true,
+    "no_solve_or_anchor": true,
+    "ownership_census": true,
+    "protected": true,
+    "rank_counts": true,
+    "scope": true,
+    "source_manifest": true,
+    "strict_landing": true,
+    "summary_census": true
+  },
+  "passed": 15,
+  "schema": "udt-cmb-g70-package-v1",
+  "total": 15
+}

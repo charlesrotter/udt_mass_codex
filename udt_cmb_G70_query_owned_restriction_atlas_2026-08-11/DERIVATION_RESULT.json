@@ -1,0 +1,21 @@
+{
+  "atlas_rows": 285,
+  "current_query_owned_identifiability_restrictions": 0,
+  "full_rank_model_ids": [
+    "R04_UNKNOWN_AMPLITUDE_PLUS_CARRY",
+    "R05_KNOWN_SOURCE_PLUS_CARRY"
+  ],
+  "full_rank_rows": 46,
+  "input_cells": 315,
+  "maximum_conclusion": "bounded algebraic restriction efficacy plus current ownership census only",
+  "maximum_matrix_log_reconstruction_relative": 3.865804200648485e-16,
+  "model_variants": 19,
+  "new_ODE_solves": 0,
+  "observational_anchors_used": 0,
+  "primary_landing": "IDENTIFIABILITY_NUMERICALLY_UNRESOLVED",
+  "psi_span": 0.1959863883346889,
+  "rank_unresolved_rows": 15,
+  "schema": "udt-cmb-g70-restriction-atlas-v1",
+  "sensitivity_centers": 15,
+  "source_manifest_rows": 9
+}
