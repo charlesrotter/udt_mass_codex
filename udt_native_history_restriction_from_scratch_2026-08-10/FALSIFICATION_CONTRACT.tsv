@@ -1,0 +1,15 @@
+gate_id	mutation_or_failure	required_detection
+F01	metric chart loses one of ten independent components	REJECT
+F02	inverse factorization used outside positive-screen Lorentzian-Schur domain	REJECT
+F03	zero-jet openness silently generalized without finite-jet prolongation	REJECT
+F04	Maurer-Cartan or Bianchi identity called dynamics	REJECT
+F05	natural curvature tensor silently set to zero	REJECT
+F06	observer composition called a bulk field equation	REJECT
+F07	c_E calibration called a derivative selector	REJECT
+F08	X_max asymptote called a local PDE or material boundary	REJECT
+F09	boundary data called interior evolution without parent operator	REJECT
+F10	conditional R17/global branch promoted universally	REJECT
+F11	bootstrap inserted into the current audit	REJECT
+F12	source-bounded negative widened to all possible UDT laws	REJECT
+F13	action source matter mass CMB signalling or regime inferred	REJECT
+F14	protected atlas or stopped drafts read or included	REJECT
