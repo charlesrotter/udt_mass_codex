@@ -1,0 +1,47 @@
+{
+  "caveat": "Q2 Codazzi convergence is not certified by this verifier",
+  "method": "fixed_RK4_real_finite_difference_no_production_import",
+  "passed_gate_count": 16,
+  "plane_cylinder_control": {
+    "cylinder_ii": -0.5882352941176471,
+    "equal_h_residual": 0.0,
+    "plane_ii": 0.0
+  },
+  "queries": {
+    "Q1_R17_LEAF": {
+      "ambient_generator_norm": 0.29328219475886746,
+      "ambient_loop_rate": 0.2931028398444373,
+      "ambient_loop_relative_error": 0.0006115438224186309,
+      "det_h": -0.9999999999999999,
+      "gauss_residual": 1.0730337692606877e-06,
+      "h_reconstruction_residual": 2.220446049250313e-16,
+      "normal_generator_norm": 0.002871411638959504,
+      "normal_loop_rate": 0.002869288593201435,
+      "normal_loop_relative_error": 0.0007393735294737002,
+      "phi_pair": 0.12431893015094263,
+      "r17_phi_identity_defect": 8.326672684688674e-17,
+      "regular": true,
+      "s_ruling_acceleration_norm": 0.011972980794175957
+    },
+    "Q2_TL_FERMI": {
+      "ambient_generator_norm": 0.16181554335647044,
+      "ambient_loop_rate": 0.16181190529780232,
+      "ambient_loop_relative_error": 2.2482751611269682e-05,
+      "det_h": -1.0000000071250008,
+      "gauss_residual": 2.927721148985468e-07,
+      "h_reconstruction_residual": 4.800827855467674e-18,
+      "jacobi_relative_residual": 8.967088456389243e-07,
+      "jacobi_residual": 1.0551289014567361e-07,
+      "jacobi_term_scale": 0.11766683317425447,
+      "normal_generator_norm": 0.015049568202391837,
+      "normal_loop_rate": 0.015049580018636663,
+      "normal_loop_relative_error": 7.851550733843313e-07,
+      "phi_pair": 2.3609004084590915e-09,
+      "regular": true,
+      "s_ruling_acceleration_norm": 1.8231703755896403e-09
+    }
+  },
+  "schema": "UDT_COMMON_QUERY_INDEPENDENT_V1",
+  "total_gate_count": 16,
+  "verdict": "VERIFIED_WITH_CAVEATS"
+}

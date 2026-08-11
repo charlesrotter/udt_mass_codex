@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "passed": 7,
+    "total": 7
+  },
+  "rows": [
+    {
+      "catch": "missing_scale_row",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "source_hash_change",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "independent_verdict_promotion",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "codazzi_promotion",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "shared_production_import",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "first_return_removed",
+      "result": "PASS_REJECTED"
+    },
+    {
+      "catch": "query_identity_changed",
+      "result": "PASS_REJECTED"
+    }
+  ],
+  "schema": "UDT_COMMON_QUERY_CATCHES_V1"
+}

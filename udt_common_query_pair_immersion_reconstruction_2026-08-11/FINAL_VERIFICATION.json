@@ -1,0 +1,9 @@
+{
+  "independent_gates": "16/16",
+  "landing": "QUERY_CLASS_DEPENDENT_CHANNEL_ARCHITECTURE",
+  "production_loop_rows": 6,
+  "production_scale_rows": 6,
+  "q2_codazzi": "NUMERICALLY_UNRESOLVED",
+  "schema": "UDT_COMMON_QUERY_FINAL_VERIFICATION_V1",
+  "status": "PASS"
+}
