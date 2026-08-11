@@ -4,6 +4,9 @@ Date: 2026-08-11
 
 Base commit: `b39bce04a77055e685662d4364fbf851e88c2ef0`
 
+Precalculation clarification: `PRECALCULATION_CLARIFICATION.md`. It resolves the sensitivity-center,
+normalization, and numerical-rank conventions before any atlas outcome is computed.
+
 Mode: `MAP -> OBSERVE -> PONDER`; metric-led saved-field recomputation plus exact linear algebra;
 CPU float64; no new ODE solve, fit, eigensolve, or GPU work
 
