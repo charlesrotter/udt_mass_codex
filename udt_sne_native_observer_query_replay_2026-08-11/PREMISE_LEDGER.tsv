@@ -1,0 +1,21 @@
+item	value_or_rule	provenance_tag	role	uncovered_scope
+catalog	Data/Pantheon+SH0ES.dat	CHOSE:frozen M3 observational input	observed magnitudes and redshift columns	other candle catalogs and selection models
+covariance	Data/Pantheon+SH0ES_STAT+SYS.cov	CHOSE:frozen M3 observational input	A/B/D statistical weighting	alternative covariance construction
+fit_universe	18 historical M3 fits	pinned-by-THEORY:M3 preregistration for this replay	reproduction universe	other query/profile families
+z_cut	z_column greater than 0.023 and noncalibrator	pinned-by-HABIT:frozen historical M3 convention	baseline row selection	cut dependence outside registered D modes
+mode_A_B_D	m_b_corr plus full covariance	pinned-by-HABIT:frozen historical M3 measurement layer	primary and sensitivity baseline	BBC model dependence remains carried
+mode_C	own Tripp with diagonal errors	pinned-by-HABIT:frozen historical M3 control	BBC-adjacent sensitivity control	full raw-lightcurve covariance
+mode_B_anchor	M_B=-19.253 plus_or_minus 0.027	OBSERVED:external SH0ES ladder anchor	absolute X_eff translation	anchor premise chain and alternatives
+profile_menu	P1;P2;P3	CHOSE:frozen historical M3 menu	bounded comparison universe	not the complete metric solution space
+c_E	observed reciprocal clock-ruler calibration	OBSERVED:CURRENT_SCIENTIFIC_PREMISES G06	units and terminal calibration	complete native absolute-scale closure
+pair_relation	supplied regular calibrated SNe observer relation	CONDITIONAL:G37/G64 architecture	mathematical home of terminal readout	physical complete SNe realization and branches
+phi_pair	one_half log(L/T) and log(1+z) in registered SNe query	DERIVED-CONDITIONAL:G37 plus frozen M3 redshift identification	terminal reciprocal endpoint coordinate	universal pair-map ownership
+c_eff_pair	c_eff_pair/c_E=exp(-2 phi_pair)	DERIVED-CONDITIONAL:G58 supplied-pair cone	pair-cone readout only	material signal speed and universal mixed-geometry identification
+d_A	r for the registered areal SNe readout	CONDITIONAL:frozen D1 measurement premise	angular-area distance in baseline	complete screen-area map under general orchestra
+d_L	exp(2 phi_pair) d_A	CONDITIONAL:frozen D1 comparison readout	observed flux-distance mapping	native source/excitation/transport derivation
+common_scale_shift	kappa and beta retained but not measured by scalar M3 fit	OPEN:G53/G64	complete pair-state bookkeeping	physical SNe query dependence
+angular_mixing	live upstream of h and phi_pair	DERIVED-STRUCTURAL:G28/G59	possible complete-query modulation	owned SNe trajectory and coefficient-free correction
+time_dependence	not activated by frozen M3 static profile family	OPEN:G60	baseline scope limitation	native on-shell time-live SNe family
+P1_role	observer-pair/SNe profile only	CONDITIONAL:G33/G34	current lawful P1 use	smooth centered CMB lapse promotion forbidden
+bootstrap	inactive	POSIT:not authorized as selector	prevents fitted closure	global-local matter-density closure
+acceptance	characterize replay and any owned difference; never reward lower chi-square	pinned-by-THEORY:solution-space-not-imposition	honesty gate	physical model selection remains Charles's decision
