@@ -6,12 +6,13 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; F01/F02 OBSERVER-SKY JACOBI CONTROLS LOCALLY COMPLETE AND INDEPENDENTLY REPRODUCED; EXTERNAL REVIEW PENDING) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; F01/F02 OBSERVER-SKY JACOBI CONTROLS EXTERNALLY VERIFIED WITH CAVEATS) ============
 
-**LATEST GATE — F01/F02 OBSERVER-SKY JACOBI CONTROL COMPLETE LOCALLY,
-`LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW`.** Read
+**LATEST GATE — F01/F02 OBSERVER-SKY JACOBI CONTROL COMPLETE,
+`VERIFIED_WITH_CAVEATS`.** Read
 `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`. One identical preregistered equatorial observer-sky query was applied to the
+`EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`. One identical preregistered
+equatorial observer-sky query was applied to the
 round F01 and axis-regular mixing-on F02 controls before any eigensolve or fit. F01 has exact radial
 screen tidal matrix `T=0` for arbitrary regular local `A(r)` and conditionally integrates to
 `D(s)=sI` along a regular radial branch. F02 has `T=diag(0,tau)`, with exact `tau` determined by
@@ -20,10 +21,15 @@ cross/antisymmetric rotation channel is zero at this local order, while positive
 zero/cancellation subloci all survive. The observer-sky Jacobi map is now the correct geometric
 home of projection scale, but no remote endpoint, complete profile, or source scale is selected;
 the old mode-ladder offset remains boundary/operator-owned. Exact production and an independent
-lowered-Riemann implementation agree `6/6`; package gates pass `14/14`, mutations `12/12`, tests
-`98 passed, 1 xfailed`, and all six frozen manifests remain exact. NEXT: sealed cold semantic review
-of the 33-file manifest. Do not begin a finite-path integration, select F01/F02, restart FD2, fit
-peaks, add source populations, infer local signalling, or promote this lead before review.
+lowered-Riemann implementation agree `6/6`; that route is only partially independent because it
+shares the metric/query and SymPy. The sealed reviewer verified `33/33` intake hashes and freshly
+rederived every load-bearing formula. Package gates pass `14/14`, mutations `12/12`, tests
+`98 passed, 1 xfailed`, and all six frozen manifests remain exact. The package therefore owns a
+verified local geometric distinction, not a finite-distance CMB map or prediction. NEXT: map and
+separately preregister a finite-path control only if an explicit endpoint, complete profile, and
+branch/caustic policy can be supplied without selecting them to manufacture an answer. Do not
+begin that integration, select F01/F02, restart FD2, fit peaks, add source populations, or infer
+local signalling without that gate.
 
 **PARENT GATE — COMPLETE CMB OBSERVATION-QUERY MAP COMPLETE,
 `VERIFIED-AFTER-SPECIFIED-CORRECTIONS`.** Read

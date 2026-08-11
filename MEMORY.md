@@ -4,7 +4,7 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, F01/F02 observer-sky Jacobi controls locally complete; external review pending)
+## TOP — CURRENT POINTER (2026-08-11, F01/F02 observer-sky Jacobi controls externally verified with caveats)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
@@ -13,7 +13,10 @@ Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 preregistered observer-sky query gives exact `T_F01=0` and `T_F02=diag(0,tau)`, with quadratic
 weak-mixing onset and no antisymmetric rotation at cubic Jacobi order. The sky projection now has a
 metric/Jacobi home, while physical endpoint/profile/source scale and mode offset remain open. The
-result is independently reproduced locally and awaits sealed adversarial review. Parent:
+result is `VERIFIED_WITH_CAVEATS`: a sealed reviewer verified `33/33` hashes and independently
+rederived all load-bearing formulas, while correctly limiting the local alternate route to partial
+independence. A finite-path control still requires a separate endpoint/profile/branch
+preregistration. Parent:
 `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, where the exact 16-source/F00--F17
 universe maps to 14 typed query layers and four observable classes, with no complete physical CMB
 realization owned. F00 remains only a historical conditional mode-location/affine-position

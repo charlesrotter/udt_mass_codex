@@ -11,6 +11,7 @@
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
    `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then
    `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, then
    `udt_cmb_complete_observation_query_map_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
@@ -56,8 +57,9 @@
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G67 local
    checkpoint derives the first explicit observer-sky control: `T_F01=0`,
    `T_F02=diag(0,tau)`, generic weak-mixing onset at quadratic order, and zero antisymmetric
-   rotation at cubic Jacobi order. It is independently reproduced locally and pending sealed
-   semantic review; no finite-path integration or eigensolve is authorized. Its G66 parent maps
+   rotation at cubic Jacobi order. It is externally `VERIFIED_WITH_CAVEATS` after `33/33` sealed
+   files and all load-bearing formulas were independently checked; no finite-path integration or
+   eigensolve is authorized before a separate endpoint/profile/branch preregistration. Its G66 parent maps
    14 typed layers across the exact 16-source/F00--F17 universe and finds zero owned complete
    physical CMB realizations. F00 remains only a historical conditional mode-location plus affine
    TT-position compatibility diagnostic. External review returned

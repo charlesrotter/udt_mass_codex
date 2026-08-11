@@ -1,5 +1,14 @@
 {
-  "authorized_control_changes": [],
+  "authorized_control_changes": [
+    " M CURRENT_RESEARCH_PROGRAM.md",
+    " M HANDOFF.md",
+    " M INDEX.md",
+    " M INFLIGHT_STATE.md",
+    " M LIVE.md",
+    " M MEMORY.md",
+    " M README.md",
+    " M research/README.md"
+  ],
   "checked_markdown_links": 5,
   "current_paths": 1114,
   "frontier_rows": 306,

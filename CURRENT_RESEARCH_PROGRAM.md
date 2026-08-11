@@ -14,9 +14,12 @@ explicit local observer-sky query on F01 and F02. Exact local results are `T_F01
 the registered order. The F01 radial Jacobi map conditionally integrates to `D=sI`; F02's finite
 map still needs a complete profile, path, and endpoint. The sky-map layer is therefore no longer
 just an untyped affine conversion, but neither historical fitted scale nor mode offset has yet
-become a physical prediction. Local independent algebra and repository gates pass. Evidence grade
-is `LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW`; the next gate is the sealed cold
-review, not finite-path integration or eigensolving.
+become a physical prediction. A sealed reviewer verified `33/33` files and independently rederived
+every load-bearing formula. Evidence grade is `VERIFIED_WITH_CAVEATS`: the `6/6` local alternate
+curvature route is only partially independent, while `14/14` package gates and `12/12` mutations
+are consistency and sensitivity evidence. The next gate is to map and separately preregister a
+finite-path control with an explicit endpoint, complete profile, and branch/caustic policy—not to
+integrate, fit, or eigensolve before those inputs are honestly owned.
 
 **G66 PARENT CHECKPOINT:**
 `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md` maps the complete currently

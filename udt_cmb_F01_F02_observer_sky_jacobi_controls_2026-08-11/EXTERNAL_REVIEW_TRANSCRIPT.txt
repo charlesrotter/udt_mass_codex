@@ -1,0 +1,3658 @@
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019ff238-6cab-72b2-a5bb-b758018d6e59
+--------
+user
+# Cold external review dispatch — F01/F02 observer-sky Jacobi controls
+
+## Role and containment
+
+Act as a fresh hostile differential-geometric, computational, and type-system reviewer. Inspect
+only the sealed read-only intake. Do not edit files, continue the research, inspect anything
+outside the intake, choose a physical control/profile/query, or infer local signal propagation.
+
+## Provisional claim to attack
+
+```text
+LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER
+```
+
+On one identical preregistered equatorial observer-sky query, the package claims:
+
+```text
+T_F01=0,
+T_F02=diag(0,tau),
+tau=h0*N/[4*A0*(A0*r0^2+h0^2)^2],
+D(s)=sI-s^3 T/6+O(s^4).
+```
+
+It further claims that weak F02 mixing enters at quadratic order, that the antisymmetric screen
+rotation vanishes at this local order, and that F01 integrates conditionally to `D=sI` on a
+regular radial null branch. No physical CMB prediction or local signalling claim is made.
+
+## Required review
+
+1. Verify every path and SHA-256 in `REVIEW_MANIFEST.tsv` before using it.
+2. Reconstruct the exact F01/F02 metrics and the equatorial tetrad. Check signature,
+   orthonormality, `k=u+n` nullity, and the endpoint metric/cross-term conventions.
+3. Decide whether the declared query is genuinely identical between the controls and whether it is
+   a legitimate metric-derived local observer-sky control. Attack the distinction between a null
+   comparison generator and an asserted material signal trajectory.
+4. Independently derive the screen tidal matrix under the declared Riemann convention. Check every
+   index order and sign. Try to refute the exact F02 `tau` polynomial.
+5. Rebuild F01 independently. Decide whether `T_F01=0` for arbitrary regular `A(r)` is correct and
+   whether the conditional whole-regular-radial-segment statement `D=sI` follows.
+6. Check exact F02-to-F01 reduction, screen symmetry, zero antisymmetric part, the `h0=0` cubic
+   degeneracy, the `N=0` nonzero-mixing cancellation, and the positive/negative rational witnesses.
+7. Verify the weak-mixing expansion. In particular, determine whether linear and cubic amplitude
+   terms vanish and whether the stated quadratic coefficient is exact.
+8. Attack the evidence architecture. The production implementation differentiates Christoffel
+   symbols; the local independent implementation uses a lowered-Riemann formula but still shares
+   SymPy and the declared metric. State precisely what is and is not independent. Treat mutation
+   catches as validator sensitivity, not semantic proof.
+9. Adversarially review the projection-freedom ruling: does the Jacobi map correctly own remote
+   transverse-scale-to-angle conversion, while mode-ladder offset remains boundary/operator phase?
+   Decide whether the package overstates what it replaces before a remote endpoint, complete
+   profile, source scale, and population are supplied.
+10. Check all premise boundaries: F01/F02 remain `CHOSE` controls; P1 remains a low-z pair anchor;
+    `c_eff^(pair)` remains inter-observational; `X_max` remains a pair asymptotic guard; no source,
+    population, action, bootstrap, local speed, physical screen, or CMB prediction is inferred.
+
+## Required landing
+
+Return exactly one primary verdict:
+
+```text
+VERIFIED_WITH_CAVEATS
+VERIFIED_AFTER_SPECIFIED_CORRECTIONS
+TYPE_ERROR
+ALGEBRAIC_ERROR
+QUERY_MISMATCH
+REFUTED
+```
+
+Report exact reproduced formulas/counts, every defect or overstatement, the maximum justified
+conclusion, whether the proposed finite-path next gate is justified, and a concise lay explanation.
+
+Do not derive a CMB spectrum, fit data, choose `A` or `h`, select F01/F02, restart FD2, invent a
+source/population/polarization rule, derive an action/bootstrap law, or infer local signalling.
+
+
+codex
+I’m treating this as a sealed-package review: first I’ll inventory the intake, verify `REVIEW_MANIFEST.tsv` hashes, and identify the exact files that define the F01/F02 metrics, tetrads, and local Jacobi derivations.
+exec
+/bin/bash -lc 'rg --files' in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md
+udt_cmb_complete_angular_mode_ownership_2026-08-09/EXACT_DERIVATION.md
+udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/REVIEW_MANIFEST.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_package.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/build_review_manifest.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/CATCH_PROOF_RESULTS.json
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_local_jacobi_independent.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/SOURCE_MANIFEST.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/derive_local_jacobi.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/run_catch_proofs.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/LAY_REPORT.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/REPOSITORY_GATES.json
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/DERIVATION_STDOUT.txt
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREMISE_LEDGER.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/INDEPENDENT_VERIFICATION_STDOUT.txt
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/DERIVATION_RESULT.json
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PACKAGE_VERIFICATION_RESULT.json
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/SPECIAL_SUBLOCUS_ATLAS.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/CATCH_PROOF_STDOUT.txt
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/FALSIFICATION_CONTRACT.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PROJECTION_FREEDOM_LEDGER.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_repository_gates.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PACKAGE_VERIFICATION_STDOUT.txt
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/LOCAL_CONTROL_ATLAS.tsv
+udt_cmb_N03_profile_role_regular_center_map_2026-08-09/EXACT_DERIVATION.md
+udt_xmax_asymptotic_limit_frame_correction_2026-08-05/AUDIT_REPORT.md
+udt_common_query_pair_immersion_reconstruction_2026-08-11/EXACT_DERIVATION.md
+udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/EXACT_DERIVATION.md
+
+exec
+/bin/bash -lc pwd in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+/tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+
+codex
+I’ve isolated the target package. Next I’m checking the manifest entries themselves before reading any claimed evidence files, so the review stays inside the package’s own integrity rules.
+exec
+/bin/bash -lc "sed -n '1,200p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/REVIEW_MANIFEST.tsv" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+path	sha256
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md	d4d251439a8d2bbd830fb30a9bfb8ed3a300831a68c37606076162fbf3f7cf5b
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/CATCH_PROOF_RESULTS.json	f88513c09c982a7b78ecbb8e39e19055ee3581eee5daccce47d6fbd9b5f8f6dc
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/CATCH_PROOF_STDOUT.txt	f88513c09c982a7b78ecbb8e39e19055ee3581eee5daccce47d6fbd9b5f8f6dc
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/DERIVATION_RESULT.json	2e7152cd7a2320c7c3e368c351177f5b3521ddc406a2ff67f403e7da6741987c
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/DERIVATION_STDOUT.txt	2e7152cd7a2320c7c3e368c351177f5b3521ddc406a2ff67f403e7da6741987c
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md	0e3cbe4b75e280fa3e97078c13fcd98f26663b30275e0be593d2f4b793a09740
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md	3c553cf30c2b768df54fa3e56a918e1fae2746836d824148909574468692475a
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/FALSIFICATION_CONTRACT.tsv	93e656b26bee19ffdd054ded25556f9c4945d1f695ebc5bd2e6681f82bc02d78
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json	7b3812c58b56084d8d1af332809cade1a4baf0cff7dadab002d706aa733cbef3
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/INDEPENDENT_VERIFICATION_STDOUT.txt	7b3812c58b56084d8d1af332809cade1a4baf0cff7dadab002d706aa733cbef3
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/LAY_REPORT.md	198041738e085605696a02130d120a4eae732d4a658d8373d72812145261a89f
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/LOCAL_CONTROL_ATLAS.tsv	1a782065dbfcb55e371a96fb214855451a9a850ae8f25d8104bd2042195a5038
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PACKAGE_VERIFICATION_RESULT.json	bf7de0765f5b7bf209f25fd4dcd78fae075d0200708a3afef8644e546a064877
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PACKAGE_VERIFICATION_STDOUT.txt	bf7de0765f5b7bf209f25fd4dcd78fae075d0200708a3afef8644e546a064877
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREMISE_LEDGER.tsv	44de4a03e8ef19a94a306912d327d0cb48554150bb779703065a0a4791e4bd2e
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md	d1a0e04ce6d21cd9fecbd71004598c3c1ec759d79693777c273c4a7b478e5aa9
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PROJECTION_FREEDOM_LEDGER.tsv	fbf52332a18c5b11dcb00fd99d18407ba86358063c53b172181c96b102170e71
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/REPOSITORY_GATES.json	d26929105b2f9ed94f157fd8c4bebce452f9ad2cee60f73bb17270cfdaa61a26
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/SOURCE_MANIFEST.tsv	38277a0ef9e4265e4f2e1be0a84f3010ab7e96ecda9b30dc5ed253be17d349ce
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/SPECIAL_SUBLOCUS_ATLAS.tsv	d80e2031a5c1ade01709777dd6ac930460a8f42d09556690a0779d7629f6c900
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/build_review_manifest.py	72b4f22b48137df6d936c51bf0d27857c7989aefaebe8902e13839c50db33ee7
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/derive_local_jacobi.py	d8536d5f929266d5427f43cc3e15e6effd1e99c70308cb271c44944d3640eae8
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/run_catch_proofs.py	78b9e2ff7f87a8867c61f066376b67580f0b3490709f0361ba3a241359015fe2
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_local_jacobi_independent.py	cd2a2c9e430158522047c78369b8df2bdbf711f86862f2fadf6639ecdb97b31f
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_package.py	cc2f3bbf5ea1dea36ffc6ff79e67f5f6c0ed9372085f10d22ae53ef6bbcb030f
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_repository_gates.py	8954b913c123694dde393bd1544e84d4b1bbf2086a1a9fbcf26025ff5378ac34
+udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/EXACT_DERIVATION.md	39ad31b1cc8c7a18851ec4190a0e22d2f3b192162ac89f54af50fe0fce4589eb
+udt_cmb_N03_profile_role_regular_center_map_2026-08-09/EXACT_DERIVATION.md	881f814060d8fb73a1e13802a9e0391145ec987be8ffccf76134ca982575db91
+udt_cmb_complete_angular_mode_ownership_2026-08-09/EXACT_DERIVATION.md	e17dacd5ed66a9e2e513320258caf0f3e4f43ee2a6a9db8884ea762aac75f739
+udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md	7d7b67f8f8d383336af85694eb0bd514d6789ccf53850d00853f93de00d895c5
+udt_common_query_pair_immersion_reconstruction_2026-08-11/EXACT_DERIVATION.md	bc96d6889075ede38271a4d63d3c021f7df0952b27f7e831c0d7161b97f737da
+udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md	30a1cd9887e04cffc86b3646083c7fe890ca030f3430bf86365cfbe4a87a5c0b
+udt_xmax_asymptotic_limit_frame_correction_2026-08-05/AUDIT_REPORT.md	32fadafc5b336a35aae10bc7c24e98c27bbd64e03d43d42bbd9f1a6a8f3d932c
+
+exec
+/bin/bash -lc 'find udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11 -maxdepth 1 -type f | sort' in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/CATCH_PROOF_RESULTS.json
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/CATCH_PROOF_STDOUT.txt
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/DERIVATION_RESULT.json
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/DERIVATION_STDOUT.txt
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/FALSIFICATION_CONTRACT.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/INDEPENDENT_VERIFICATION_STDOUT.txt
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/LAY_REPORT.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/LOCAL_CONTROL_ATLAS.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PACKAGE_VERIFICATION_RESULT.json
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PACKAGE_VERIFICATION_STDOUT.txt
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREMISE_LEDGER.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PROJECTION_FREEDOM_LEDGER.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/REPOSITORY_GATES.json
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/REVIEW_MANIFEST.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/SOURCE_MANIFEST.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/SPECIAL_SUBLOCUS_ATLAS.tsv
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/build_review_manifest.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/derive_local_jacobi.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/run_catch_proofs.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_local_jacobi_independent.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_package.py
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_repository_gates.py
+
+codex
+I have the manifest contents. Now I’m checking that every listed path exists and that each digest matches before I rely on any derivation, report, or script.
+exec
+/bin/bash -lc 'while IFS=$'"'\\t' read -r path sha; do
+  [ \""'$path" = "path" ] && continue
+  if [ ! -f "$path" ]; then
+    printf '"'MISSING\\t%s\\n' \""'$path"
+    continue
+  fi
+  actual=$(sha256sum "$path" | awk '"'{print "'$1}'"')
+  if [ \""'$actual" != "$sha" ]; then
+    printf '"'MISMATCH\\t%s\\t%s\\t%s\\n' \""'$path" "$sha" "$actual"
+  else
+    printf '"'OK\\t%s\\n' \""'$path"
+  fi
+done < udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/REVIEW_MANIFEST.tsv' in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/CATCH_PROOF_RESULTS.json
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/CATCH_PROOF_STDOUT.txt
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/DERIVATION_RESULT.json
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/DERIVATION_STDOUT.txt
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/FALSIFICATION_CONTRACT.tsv
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/INDEPENDENT_VERIFICATION_STDOUT.txt
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/LAY_REPORT.md
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/LOCAL_CONTROL_ATLAS.tsv
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PACKAGE_VERIFICATION_RESULT.json
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PACKAGE_VERIFICATION_STDOUT.txt
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREMISE_LEDGER.tsv
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PROJECTION_FREEDOM_LEDGER.tsv
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/REPOSITORY_GATES.json
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/SOURCE_MANIFEST.tsv
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/SPECIAL_SUBLOCUS_ATLAS.tsv
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/build_review_manifest.py
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/derive_local_jacobi.py
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/run_catch_proofs.py
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_local_jacobi_independent.py
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_package.py
+OK	udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_repository_gates.py
+OK	udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/EXACT_DERIVATION.md
+OK	udt_cmb_N03_profile_role_regular_center_map_2026-08-09/EXACT_DERIVATION.md
+OK	udt_cmb_complete_angular_mode_ownership_2026-08-09/EXACT_DERIVATION.md
+OK	udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md
+OK	udt_common_query_pair_immersion_reconstruction_2026-08-11/EXACT_DERIVATION.md
+OK	udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md
+OK	udt_xmax_asymptotic_limit_frame_correction_2026-08-05/AUDIT_REPORT.md
+
+codex
+The manifest checks clean. I’m moving to the substantive review in three passes: reconstruct the declared geometry and tetrad, independently check the local Jacobi/tidal algebra from code and derivation notes, then audit the boundary claims about query identity, independence, and projection freedom.
+Manifest integrity is verified; proceeding with the sealed-package technical review.
+  → Read the preregistration and exact derivation to reconstruct the claimed F01/F02 metrics, tetrad, and observer-sky query.
+  • Inspect the production and independent verification implementations to recompute the screen tidal matrix, F01 reduction, weak-mixing series, and special subloci claims.
+  • Audit evidence architecture, projection-freedom scope, and premise boundaries, then issue a single verdict with defects and justified conclusion.
+exec
+/bin/bash -lc "sed -n '1,220p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+# F01/F02 observer-sky Jacobi controls — preregistration
+
+Date: 2026-08-11  
+Base commit: `0634b7f801253fc105d374c4c160dbbe19f5b9de`  
+Mode: metric-led; bounded exact/CPU algebra; no eigensolve or fit
+
+## Whole question
+
+For one identical, explicitly typed observer-sky comparison query, what local screen Jacobi map is
+returned by the round zero-mixing F01 control and by the round axis-regular mixing-on F02 control?
+Which of the two historical affine angular-projection freedoms is replaced by metric geometry at
+the first nontrivial local order, and which remains query-, profile-, boundary-, or source-owned?
+
+This is a control comparison. F01 and F02 are not candidate universes and will not be ranked.
+
+## Frozen geometry universe
+
+Exactly two stationary local control families are admitted:
+
+```text
+F01: ds^2=-A(r)dt^2+dr^2/A(r)+r^2[dtheta^2+sin^2(theta)dpsi^2]
+
+F02: ds^2=-A(r)dt^2+dr^2/A(r)+r^2[dtheta^2+sin^2(theta)dpsi^2]
+          +2h(r)sin^2(theta)dt dpsi.
+```
+
+Assume only the regular Lorentzian stratum `r>0`, `A>0`, and
+`D=A r^2+h^2 sin^2(theta)>0`. The local jets of `A` and `h` are
+`free-and-explored` symbolic data. No P1 SNe pair profile is copied into `A`; no wall, global
+profile, source, population, bootstrap value, or field equation is supplied.
+
+## Identical observer-sky query Qsky
+
+At a regular equatorial event `p=(t0,r0,pi/2,psi0)`, choose the stationary unit observer
+`u=A^(-1/2) partial_t`, the outward unit radial direction `n=A^(1/2) partial_r`, and the oriented
+orthonormal screen `(E_theta,E_psi)` obtained from the metric by Gram orthogonalization in the
+`theta` and `t-psi` planes. Let `k=u+n` be the future/outward null comparison direction.
+
+The metric defines the affinely parameterized null geodesic `gamma` with initial data `(p,k)`.
+Parallel transport the screen along `gamma`. Define two query-owned Jacobi fields by
+
+```text
+J_B(0)=0,
+nabla_k J_B(0)=E_B,
+nabla_k nabla_k J_B+R(J_B,k)k=0.
+```
+
+The screen Jacobi matrix is `mathcal_D_AB(s)=g(E_A,J_B)`. With the declared curvature convention,
+
+```text
+mathcal_D(0)=0,
+mathcal_D'(0)=I,
+mathcal_D(s)=s I-(s^3/6) mathcal_T(0)+O(s^4),
+mathcal_T_AB=g(E_A,R(E_B,k)k).
+```
+
+This is an inter-observer/celestial-screen comparison query. The null generator is geometric query
+data; it is not being interpreted as local material signalling in the co-present framing.
+
+## Premise stamps
+
+- `c_E`: `OBSERVED` local clock/ruler calibration. Algebra may use units `c_E=1`; dimensions must
+  be restorable and no local variable speed is inferred.
+- F01: `CHOSE` round, zero-mixing control.
+- F02: `CHOSE` conditional round, axis-regular mixing-on control.
+- stationary observer, equatorial event, radial initial direction, outward sign, and screen
+  orientation: `CHOSE` query controls, held identical by construction.
+- geodesic/Jacobi construction: `DERIVED` from each supplied metric and the declared initial query.
+- `A(r)`, `h(r)` and local jets: `free-and-explored`; no fitted or preferred numerical profile.
+- P1 SNe result: `CONDITIONAL` low-redshift pair-compatibility anchor only; inactive in the local
+  coefficient derivation.
+- `c_eff^(pair)`: `CONDITIONAL` inter-observer terminal readout; not used as a local propagation
+  law.
+- `X_max`: `WORKING` pair asymptotic guard; inactive locally.
+- co-presence: `POSIT` interpretation; not a signalling mechanism.
+- action, source, bootstrap, mode population, polarization source, and physical CMB query:
+  `OPEN` and inactive.
+
+## Required calculation
+
+1. Derive the exact equatorial tetrad and prove it is orthonormal in both controls.
+2. Derive the exact local optical/Jacobi tidal matrix `mathcal_T` for F02.
+3. Take the exact `h -> 0` limit and compare it with an independently derived F01 result.
+4. Classify trace (area focusing), trace-free symmetric part (shear), and antisymmetric/rotation
+   content at the registered local order.
+5. State which terms depend on local profile jets and which are fixed by the round/angular or mixing
+   structure.
+6. Preserve degeneracies and special subloci; do not discard them because they simplify or fail to
+   resemble a desired sky.
+
+## Certification and falsification
+
+The package fails closed if:
+
+1. F01/F02 source formulas or frozen source hashes change;
+2. the query differs between F01 and F02 except for metric-derived orthonormalization;
+3. `h`, its derivatives, or complete `t-psi` mixing are silently zeroed in F02;
+4. the F02 result does not reduce exactly to the independently derived F01 result at `h=0`;
+5. the tetrad, null condition, Riemann symmetries, screen symmetry, or Jacobi initial conditions fail;
+6. a local Taylor coefficient is promoted to a finite-distance map without integrating a supplied
+   global profile;
+7. a screen map is promoted to nonzero TT power without a source/state covariance;
+8. an `SO(2)` screen-basis rotation is claimed to change scalar TT by itself;
+9. the calculation infers local signalling, selects F01/F02, imports P1 as a centered lapse, or
+   activates `X_max` as a local wall;
+10. the production and independent checks share the load-bearing curvature implementation.
+
+Certification requires exact symbolic production algebra, a separately implemented independent
+control for the load-bearing F01 limit and selected F02 substitutions, exercised catch-proofs,
+repository gates, and fresh adversarial semantic review before a scientific verdict is banked.
+
+## Allowed landings
+
+Exactly one primary landing will be used:
+
+1. `LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER`;
+2. `LOCAL_SKY_MAP_IDENTICAL_AT_REGISTERED_ORDER`;
+3. `QUERY_OWNS_ONLY_FORMAL_JACOBI_OPERATOR_WITHOUT_EVALUABLE_CONTROL`;
+4. `TYPE_OR_REGULARITY_FAILURE`;
+5. `ALGEBRAICALLY_OR_NUMERICALLY_UNRESOLVED`.
+
+Maximum conclusion: a local, two-control, preregistered screen-Jacobi classification and an exact
+account of which affine projection freedoms geometry does or does not remove. No CMB prediction,
+screen selection, finite-distance angular scale, source/population law, polarization prediction,
+FD2 restart, action, bootstrap result, local signal law, `X_max` value, or native dynamics follows.
+
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+# Exact derivation — F01/F02 observer-sky Jacobi controls
+
+Date: 2026-08-11  
+Primary landing: `LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER`
+
+## 1. Scope and object type
+
+The calculation evaluates one declared observer-sky query on two `CHOSE` controls. It does not ask
+which control is physical. In units `c_E=1`, the metrics are
+
+```text
+F01: ds^2=-A dt^2+dr^2/A+r^2(dtheta^2+sin^2(theta)dpsi^2),
+
+F02: ds^2=ds_F01^2+2h sin^2(theta)dt dpsi.
+```
+
+At `p=(t0,r0,pi/2,psi0)`, define
+
+```text
+u       = A^(-1/2) partial_t,
+n       = A^(+1/2) partial_r,
+E_theta = r^(-1) partial_theta,
+D       = A r^2+h^2,
+E_psi   = h/[sqrt(A)sqrt(D)] partial_t+sqrt(A)/sqrt(D) partial_psi,
+k       = u+n.
+```
+
+Direct contraction gives
+
+```text
+g(u,u)=-1,  g(n,n)=g(E_theta,E_theta)=g(E_psi,E_psi)=1,
+all cross products=0,  g(k,k)=0.
+```
+
+The null geodesic with initial tangent `k` is a geometric comparison generator. In the co-present
+interpretation it is not being promoted to a local material signal trajectory.
+
+For the two initial screen directions, let
+
+```text
+J_B(0)=0,
+nabla_k J_B(0)=E_B,
+nabla_k nabla_k J_B+R(J_B,k)k=0.
+```
+
+With a parallel screen, `mathcal_D_AB=g(E_A,J_B)` obeys
+
+```text
+mathcal_D''+mathcal_T mathcal_D=0,
+mathcal_D(0)=0,
+mathcal_D'(0)=I,
+mathcal_T_AB=g(E_A,R(E_B,k)k),
+mathcal_D(s)=s I-(s^3/6)mathcal_T(0)+O(s^4).             (1)
+```
+
+## 2. Exact F02 local tidal matrix
+
+Write the local jets as
+
+```text
+A0=A(r0), A1=A'(r0), A2=A''(r0),
+h0=h(r0), h1=h'(r0), h2=h''(r0).
+```
+
+The complete coordinate curvature calculation gives
+
+```text
+mathcal_T_F02 = [[0,0],[0,tau]],                         (2)
+
+tau = h0 N/[4 A0 (A0 r0^2+h0^2)^2],                    (3)
+```
+
+where
+
+```text
+N = -4 A0^3 h0+8 A0^3 h1 r0-4 A0^3 h2 r0^2
+    -4 A0^2 A1 h0 r0+2 A0^2 A2 h0 r0^2
+    -4 A0^2 h0^2 h2+4 A0^2 h0 h1^2
+    -4 A0 A1 h0^2 h1+2 A0 A2 h0^3+A1^2 h0^3.           (4)
+```
+
+Thus
+
+```text
+D_theta_theta = s+O(s^4),
+D_psi_psi      = s-tau s^3/6+O(s^4),
+D_theta_psi    = D_psi_theta=O(s^4).                    (5)
+```
+
+The trace is `tau`; the trace-free plus component under the registered orientation is `-tau/2`;
+the cross component and antisymmetric rotation vanish. F02 therefore supplies a local principal
+screen axis and a metric-derived area/shear correction on this query. It does not supply a local
+rotation at this order.
+
+The sign is not fixed by the admitted local metric stratum. Positive and negative exact rational
+controls both occur. Geometry owns the formula; a selected profile would be needed to own its
+value along a complete branch.
+
+## 3. Weak-mixing and cancellation structure
+
+Scale the complete mixing jet by one bookkeeping amplitude,
+`(h0,h1,h2)->epsilon(h0,h1,h2)`. Odd orders vanish and
+
+```text
+tau=epsilon^2 tau_2+epsilon^4 tau_4+...,
+
+tau_2 = h0[-2 A0 h0+4 A0 h1 r0-2 A0 h2 r0^2
+            -2 A1 h0 r0+A2 h0 r0^2]/[2 A0 r0^4].       (6)
+```
+
+The local screen distortion is therefore quadratic, not linear, in a weak axis-regular mixing
+amplitude. This agrees with the earlier angular operator's natural mixing variable
+`B=h^2/(A r^2)` without importing that scalar operator as dynamics.
+
+There are two exact zero subloci at cubic Jacobi order:
+
+1. `h0=0`, even when `h1` or `h2` is nonzero;
+2. `h0!=0` with the codimension-one local-jet cancellation `N=0`.
+
+These are retained. On either sublocus, higher Jacobi order or a finite path may still distinguish
+F02; the present result is not a proof of complete equivalence.
+
+## 4. Independent F01 result and round limit
+
+F01 was rebuilt independently rather than obtained only by deleting terms from F02. Its exact
+radial screen tidal matrix is
+
+```text
+mathcal_T_F01=0                                             (7)
+```
+
+for arbitrary regular `A,A',A''`. The production F02 expression reduces identically to (7) when
+`h=h'=h''=0`.
+
+There is a useful exact conditional extension. Along a regular radial F01 null branch, the energy
+`E=A dt/ds` is conserved and nullity gives `dr/ds=+E`. Hence `r` is affine and (7) holds along the
+whole regular radial segment. With the registered initial data,
+
+```text
+mathcal_D_F01(s)=s I                                       (8)
+```
+
+until a caustic, chart failure, or query endpoint intervenes. Equation (8) does not select the
+remote comparison surface or its affine location.
+
+## 5. What happens to the old affine projection freedoms
+
+The historical F00 comparison fitted a multipole scale and an offset. This control calculation
+separates their ownership:
+
+- **scale:** the Jacobi map is the correct geometric home for converting a remote transverse scale
+  into an observed angular scale. F01 fixes its radial form conditionally; F02 supplies a
+  profile-dependent anisotropic correction. But no physical remote surface, complete F02 profile,
+  or source scale is owned, so no numerical CMB angular scale is yet derived;
+- **offset:** a mode-ladder offset is boundary/operator phase data, not a screen-Jacobi coefficient.
+  This calculation does not derive it and must not hide it inside the angular map.
+
+The complete geometry has therefore replaced the *place where a projection-scale calculation
+belongs*, and it has exposed a non-affine directional correction that the old scalar affine map
+could not represent. It has not yet removed either historical fitted number from a physical CMB
+comparison.
+
+## 6. Evidence
+
+Production constructs `g`, `g^-1`, every Christoffel symbol, and
+`R^rho_(sigma mu nu)` before imposing the equatorial query. The independent implementation instead
+uses the fully lowered Riemann formula built from second metric derivatives and quadratic
+connection terms, and rebuilds F01 as a separate metric. It reproduces the full symbolic F02
+formula, the standalone F01 zero, the round limit, screen symmetry, and three exact rational
+controls: `6/6` checks.
+
+## 7. Landing and open scope
+
+`LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER`.
+
+The two controls are locally distinguishable on the identical query whenever `h0 N != 0`. F01 is
+isotropic and linear on its regular radial branch; generic F02 produces a one-axis cubic
+area/shear correction whose value is controlled by the admitted local `A,h` jets.
+
+Still open: the physical CMB observer query; the complete global F02 profile and endpoint;
+finite-distance integration and cut/focal branches; the physical angular screen; source/state
+covariance and nonzero TT power; boundary/operator phase; polarization source; action, source,
+bootstrap, `X_max` value, and dynamics. No control has been selected and no local signalling claim
+has been made.
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/LOCAL_CONTROL_ATLAS.tsv" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+family	metric_status	query_status	theta_tidal	cross_tidal	psi_tidal	rotation	weak_mixing_order	finite_map_status	physical_status
+F01	CHOSE_ROUND_ZERO_MIX	IDENTICAL_QSKY	0	0	0	0	NOT_APPLICABLE	EXACT_D_EQUALS_sI_ON_REGULAR_RADIAL_SEGMENT_BUT_ENDPOINT_OPEN	CONTROL_NOT_SELECTED
+F02	CHOSE_AXIS_REGULAR_MIXING_ON	IDENTICAL_QSKY	0	0	h0*N/[4*A0*(A0*r0^2+h0^2)^2]	0	QUADRATIC_GENERIC	OPEN_UNTIL_PROFILE_PATH_ENDPOINT_AND_BRANCH_ARE_SUPPLIED	CONTROL_NOT_SELECTED
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/SPECIAL_SUBLOCUS_ATLAS.tsv" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+sublocus	conditions	cubic_tidal_result	classification	remaining_open
+ROUND_F01	h0=h1=h2=0	T=0	EXACT_ROUND_CONTROL	remote endpoint and source scale
+MIXING_ZERO_AT_EVENT	h0=0; h1,h2 arbitrary	T=0	EXACT_LOCAL_CUBIC_DEGENERACY	higher Jacobi order and finite path
+NONZERO_MIX_CANCELLATION	h0!=0; N=0	T=0	CODIMENSION_ONE_LOCAL_JET_SUBLOCUS	higher order and global persistence
+GENERIC_MIXING	h0*N!=0	T=diag(0,tau)	ONE_AXIS_AREA_AND_SHEAR	profile path endpoint and source
+WEAK_MIXING	(h0,h1,h2)=epsilon*(H0,H1,H2)	tau=epsilon^2*tau2+O(epsilon^4)	NO_LINEAR_OR_CUBIC_AMPLITUDE_TERM	selected mixing amplitude and profile
+POSITIVE_CONTROL	first exact rational verifier sample	tau=5312099/109652445	EXISTENCE_WITNESS_NOT_PHYSICS	sign selection
+NEGATIVE_CONTROL	second exact rational verifier sample	tau=-20691746025/246491864192	EXISTENCE_WITNESS_NOT_PHYSICS	sign selection
+
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_local_jacobi_independent.py" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+exec
+/bin/bash -lc "sed -n '1,260p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/derive_local_jacobi.py" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact local screen-Jacobi coefficient for the preregistered F01/F02 query.
+
+This production implementation constructs the metric, Levi-Civita connection, and Riemann
+curvature directly in coordinates before imposing the equatorial observer query.  It does not
+import any repository physics implementation.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import sympy as sp
+
+
+ROOT = Path(__file__).resolve().parent
+
+
+def build_result() -> dict:
+    t, r, th, ps = sp.symbols("t r theta psi", real=True)
+    coords = (t, r, th, ps)
+    A = sp.Function("A")(r)
+    h = sp.Function("h")(r)
+    s = sp.sin(th)
+
+    g = sp.zeros(4)
+    g[0, 0] = -A
+    g[1, 1] = 1 / A
+    g[2, 2] = r**2
+    g[3, 3] = r**2 * s**2
+    g[0, 3] = g[3, 0] = h * s**2
+    gi = sp.simplify(g.inv())
+
+    Gamma = [[[sp.S.Zero for _ in range(4)] for _ in range(4)] for _ in range(4)]
+    for rho in range(4):
+        for mu in range(4):
+            for nu in range(4):
+                Gamma[rho][mu][nu] = sp.factor(
+                    sp.Rational(1, 2)
+                    * sum(
+                        gi[rho, lam]
+                        * (
+                            sp.diff(g[lam, nu], coords[mu])
+                            + sp.diff(g[lam, mu], coords[nu])
+                            - sp.diff(g[mu, nu], coords[lam])
+                        )
+                        for lam in range(4)
+                    )
+                )
+
+    # R^rho_{ sigma mu nu }, with R(X,Y)Z = X^mu Y^nu Z^sigma R^rho_{sigma mu nu}.
+    def riemann(rho: int, sig: int, mu: int, nu: int) -> sp.Expr:
+        return sp.factor(
+            sp.diff(Gamma[rho][nu][sig], coords[mu])
+            - sp.diff(Gamma[rho][mu][sig], coords[nu])
+            + sum(
+                Gamma[rho][mu][lam] * Gamma[lam][nu][sig]
+                - Gamma[rho][nu][lam] * Gamma[lam][mu][sig]
+                for lam in range(4)
+            )
+        )
+
+    D = A * r**2 + h**2 * s**2
+    u = sp.Matrix([1 / sp.sqrt(A), 0, 0, 0])
+    n = sp.Matrix([0, sp.sqrt(A), 0, 0])
+    e_th = sp.Matrix([0, 0, 1 / r, 0])
+    e_ps = sp.Matrix(
+        [
+            h * s / (sp.sqrt(A) * sp.sqrt(D)),
+            0,
+            0,
+            sp.sqrt(A) / (s * sp.sqrt(D)),
+        ]
+    )
+    k = u + n
+    frame = (u, n, e_th, e_ps)
+
+    gram = sp.Matrix(
+        [[sp.factor((va.T * g * vb)[0]) for vb in frame] for va in frame]
+    )
+    null_norm = sp.factor((k.T * g * k)[0])
+
+    screen = (e_th, e_ps)
+    tidal = sp.zeros(2)
+    for aa, ea in enumerate(screen):
+        ea_cov = g * ea
+        for bb, eb in enumerate(screen):
+            value = sp.S.Zero
+            for rho in range(4):
+                if ea_cov[rho] == 0:
+                    continue
+                for sig in range(4):
+                    if k[sig] == 0:
+                        continue
+                    for mu in range(4):
+                        if eb[mu] == 0:
+                            continue
+                        for nu in range(4):
+                            if k[nu] == 0:
+                                continue
+                            value += (
+                                ea_cov[rho]
+                                * riemann(rho, sig, mu, nu)
+                                * eb[mu]
+                                * k[nu]
+                                * k[sig]
+                            )
+            tidal[aa, bb] = sp.factor(value.subs(th, sp.pi / 2))
+
+    # Replace functions and jets by compact algebraic symbols after all coordinate derivatives.
+    A0, A1, A2, h0, h1, h2 = sp.symbols("A0 A1 A2 h0 h1 h2", real=True)
+    jet_subs = {
+        A: A0,
+        sp.diff(A, r): A1,
+        sp.diff(A, (r, 2)): A2,
+        h: h0,
+        sp.diff(h, r): h1,
+        sp.diff(h, (r, 2)): h2,
+    }
+    tidal_jets = sp.Matrix(
+        [[sp.factor(tidal[i, j].subs(jet_subs)) for j in range(2)] for i in range(2)]
+    )
+    round_tidal = sp.Matrix(
+        [
+            [
+                sp.factor(
+                    tidal_jets[i, j].subs({h0: 0, h1: 0, h2: 0})
+                )
+                for j in range(2)
+            ]
+            for i in range(2)
+        ]
+    )
+    trace = sp.factor(sp.trace(tidal_jets))
+    shear_plus = sp.factor((tidal_jets[0, 0] - tidal_jets[1, 1]) / 2)
+    shear_cross = sp.factor((tidal_jets[0, 1] + tidal_jets[1, 0]) / 2)
+    antisymmetric = sp.factor((tidal_jets[0, 1] - tidal_jets[1, 0]) / 2)
+    eps = sp.symbols("epsilon", real=True)
+    weak_series = sp.series(
+        tidal_jets[1, 1].subs({h0: eps * h0, h1: eps * h1, h2: eps * h2}),
+        eps,
+        0,
+        5,
+    ).removeO()
+    weak_quadratic = sp.factor(sp.expand(weak_series).coeff(eps, 2))
+    weak_quartic = sp.factor(sp.expand(weak_series).coeff(eps, 4))
+    mixing_polynomial = sp.factor(
+        tidal_jets[1, 1] * 4 * A0 * (A0 * r**2 + h0**2) ** 2 / h0
+    )
+
+    def sstr(expr: sp.Expr) -> str:
+        return sp.sstr(expr)
+
+    result = {
+        "curvature_convention": "R(X,Y)Z=nabla_X_nabla_Y_Z-nabla_Y_nabla_X_Z-nabla_[X,Y]_Z",
+        "query": {
+            "event": "(t0,r0,pi/2,psi0)",
+            "observer": "A^(-1/2) partial_t",
+            "radial_direction": "A^(1/2) partial_r",
+            "generator": "k=u+n",
+            "screen_theta": "r^(-1) partial_theta",
+            "screen_psi": "h/(sqrt(A)*sqrt(D)) partial_t + sqrt(A)/sqrt(D) partial_psi at theta=pi/2",
+        },
+        "frame_gram_before_equator": [[sstr(x) for x in row] for row in gram.tolist()],
+        "generator_norm": sstr(null_norm),
+        "F02_tidal_matrix_equator": [[sstr(x) for x in row] for row in tidal_jets.tolist()],
+        "F01_induced_limit": [[sstr(x) for x in row] for row in round_tidal.tolist()],
+        "trace": sstr(trace),
+        "shear_plus": sstr(shear_plus),
+        "shear_cross": sstr(shear_cross),
+        "antisymmetric": sstr(antisymmetric),
+        "mixing_polynomial_N": sstr(mixing_polynomial),
+        "weak_mixing_linear": "0",
+        "weak_mixing_quadratic": sstr(weak_quadratic),
+        "weak_mixing_cubic": "0",
+        "weak_mixing_quartic": sstr(weak_quartic),
+        "special_subloci": {
+            "h_at_event_zero": "T=0 at cubic Jacobi order even when h1 or h2 is nonzero",
+            "nonzero_h_cancellation": "N=0 is a codimension-one local-jet cancellation condition",
+            "generic": "h0*N != 0 gives one-axis cubic screen distortion",
+        },
+        "local_Jacobi_series": "D(s)=s I-s^3 T/6+O(s^4)",
+        "primary_landing": "LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER",
+        "maximum_conclusion": "local two-control screen-Jacobi classification only; no finite CMB angular map, TT power, screen selection, source/population, local signal law, FD2 restart, action, bootstrap, Xmax value, or dynamics",
+    }
+    return result
+
+
+def main() -> None:
+    result = build_result()
+    output = ROOT / "DERIVATION_RESULT.json"
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent exact check using the lowered-metric Riemann formula.
+
+This script does not import the production derivation.  In particular, it does not differentiate
+second-kind Christoffel symbols; it constructs the fully lowered Riemann tensor directly from
+second metric derivatives and quadratic connection terms.  F01 is rebuilt as its own metric.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import sympy as sp
+
+
+ROOT = Path(__file__).resolve().parent
+
+
+def lowered_riemann(g: sp.Matrix, coords: tuple[sp.Symbol, ...]):
+    gi = sp.simplify(g.inv())
+    dim = len(coords)
+    Gamma = [[[sp.S.Zero for _ in range(dim)] for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                Gamma[a][b][c] = sp.Rational(1, 2) * sum(
+                    gi[a, e]
+                    * (
+                        sp.diff(g[e, c], coords[b])
+                        + sp.diff(g[e, b], coords[c])
+                        - sp.diff(g[b, c], coords[e])
+                    )
+                    for e in range(dim)
+                )
+
+    # R_abcd = g_ae R^e_bcd for the convention declared in PREREGISTRATION.md.
+    def R(a: int, b: int, c: int, d: int) -> sp.Expr:
+        second = sp.Rational(1, 2) * (
+            sp.diff(g[a, d], coords[b], coords[c])
+            + sp.diff(g[b, c], coords[a], coords[d])
+            - sp.diff(g[a, c], coords[b], coords[d])
+            - sp.diff(g[b, d], coords[a], coords[c])
+        )
+        quadratic = sum(
+            g[e, f]
+            * (
+                Gamma[e][b][c] * Gamma[f][a][d]
+                - Gamma[e][b][d] * Gamma[f][a][c]
+            )
+            for e in range(dim)
+            for f in range(dim)
+        )
+        return sp.factor(second + quadratic)
+
+    return R
+
+
+def screen_tidal(g: sp.Matrix, coords, frame, theta_value) -> sp.Matrix:
+    u, n, e_th, e_ps = frame
+    k = u + n
+    R = lowered_riemann(g, coords)
+    out = sp.zeros(2)
+    for aa, ea in enumerate((e_th, e_ps)):
+        for bb, eb in enumerate((e_th, e_ps)):
+            value = sp.S.Zero
+            for a in range(4):
+                if ea[a] == 0:
+                    continue
+                for b in range(4):
+                    if k[b] == 0:
+                        continue
+                    for c in range(4):
+                        if eb[c] == 0:
+                            continue
+                        for d in range(4):
+                            if k[d] == 0:
+                                continue
+                            value += ea[a] * k[b] * eb[c] * k[d] * R(a, b, c, d)
+            out[aa, bb] = sp.factor(value.subs(coords[2], theta_value))
+    return out
+
+
+def main() -> None:
+    t, r, th, ps = sp.symbols("t r theta psi", real=True)
+    coords = (t, r, th, ps)
+    A = sp.Function("A")(r)
+    h = sp.Function("h")(r)
+    st = sp.sin(th)
+
+    g2 = sp.zeros(4)
+    g2[0, 0] = -A
+    g2[1, 1] = 1 / A
+    g2[2, 2] = r**2
+    g2[3, 3] = r**2 * st**2
+    g2[0, 3] = g2[3, 0] = h * st**2
+    D = A * r**2 + h**2 * st**2
+    frame2 = (
+        sp.Matrix([1 / sp.sqrt(A), 0, 0, 0]),
+        sp.Matrix([0, sp.sqrt(A), 0, 0]),
+        sp.Matrix([0, 0, 1 / r, 0]),
+        sp.Matrix(
+            [h * st / (sp.sqrt(A) * sp.sqrt(D)), 0, 0, sp.sqrt(A) / (st * sp.sqrt(D))]
+        ),
+    )
+    exact2 = screen_tidal(g2, coords, frame2, sp.pi / 2)
+
+    # Rebuild F01 independently rather than obtaining it by a substitution in F02.
+    g1 = sp.diag(-A, 1 / A, r**2, r**2 * st**2)
+    frame1 = (
+        sp.Matrix([1 / sp.sqrt(A), 0, 0, 0]),
+        sp.Matrix([0, sp.sqrt(A), 0, 0]),
+        sp.Matrix([0, 0, 1 / r, 0]),
+        sp.Matrix([0, 0, 0, 1 / (r * st)]),
+    )
+    exact1 = screen_tidal(g1, coords, frame1, sp.pi / 2)
+
+    A0, A1, A2, h0, h1, h2 = sp.symbols("A0 A1 A2 h0 h1 h2", real=True)
+    jets = {
+        A: A0,
+        sp.diff(A, r): A1,
+        sp.diff(A, (r, 2)): A2,
+        h: h0,
+        sp.diff(h, r): h1,
+        sp.diff(h, (r, 2)): h2,
+    }
+    exact2 = exact2.applyfunc(lambda x: sp.factor(x.subs(jets)))
+    exact1 = exact1.applyfunc(lambda x: sp.factor(x.subs(jets)))
+
+    production = json.loads((ROOT / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    locals_map = {"A0": A0, "A1": A1, "A2": A2, "h0": h0, "h1": h1, "h2": h2, "r": r}
+    prod2 = sp.Matrix(
+        [[sp.sympify(x, locals=locals_map) for x in row] for row in production["F02_tidal_matrix_equator"]]
+    )
+    prod1 = sp.Matrix(
+        [[sp.sympify(x, locals=locals_map) for x in row] for row in production["F01_induced_limit"]]
+    )
+
+    checks = {
+        "independent_F02_exact_match": all(
+            sp.factor(exact2[i, j] - prod2[i, j]) == 0 for i in range(2) for j in range(2)
+        ),
+        "independent_F01_exact_match": all(
+            sp.factor(exact1[i, j] - prod1[i, j]) == 0 for i in range(2) for j in range(2)
+        ),
+        "standalone_F01_zero": exact1 == sp.zeros(2),
+        "F02_screen_symmetry": sp.factor(exact2[0, 1] - exact2[1, 0]) == 0,
+        "F02_h_zero_limit": exact2.subs({h0: 0, h1: 0, h2: 0}) == exact1,
+    }
+
+    samples = [
+        {r: sp.Rational(13, 10), A0: sp.Rational(9, 10), A1: sp.Rational(-1, 10), A2: sp.Rational(3, 50), h0: sp.Rational(1, 5), h1: sp.Rational(3, 10), h2: sp.Rational(-1, 20)},
+        {r: sp.Rational(4, 5), A0: sp.Rational(6, 5), A1: sp.Rational(1, 20), A2: sp.Rational(-1, 10), h0: sp.Rational(-1, 8), h1: sp.Rational(1, 7), h2: sp.Rational(1, 9)},
+        {r: sp.Rational(3, 2), A0: sp.Rational(1, 1), A1: 0, A2: 0, h0: sp.Rational(3, 20), h1: sp.Rational(1, 5), h2: sp.Rational(2, 15)},
+    ]
+    sample_values = []
+    for sample in samples:
+        lhs = exact2.subs(sample)
+        rhs = prod2.subs(sample)
+        sample_values.append(
+            {
+                "exact_match": lhs == rhs,
+                "tidal": [[str(sp.factor(lhs[i, j])) for j in range(2)] for i in range(2)],
+            }
+        )
+    checks["three_exact_rational_controls"] = all(x["exact_match"] for x in sample_values)
+
+    result = {
+        "method": "direct fully-lowered Riemann from metric second derivatives; standalone F01 rebuild",
+        "checks": checks,
+        "independent_F02": [[str(x) for x in row] for row in exact2.tolist()],
+        "independent_F01": [[str(x) for x in row] for row in exact1.tolist()],
+        "samples": sample_values,
+        "passed": sum(bool(v) for v in checks.values()),
+        "total": len(checks),
+    }
+    (ROOT / "INDEPENDENT_VERIFICATION_RESULT.json").write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(result, indent=2, sort_keys=True))
+    if not all(checks.values()):
+        raise SystemExit(1)
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,240p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/DERIVATION_RESULT.json" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+{
+  "F01_induced_limit": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "F02_tidal_matrix_equator": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "h0*(-4*A0**3*h0 + 8*A0**3*h1*r - 4*A0**3*h2*r**2 - 4*A0**2*A1*h0*r + 2*A0**2*A2*h0*r**2 - 4*A0**2*h0**2*h2 + 4*A0**2*h0*h1**2 - 4*A0*A1*h0**2*h1 + 2*A0*A2*h0**3 + A1**2*h0**3)/(4*A0*(A0*r**2 + h0**2)**2)"
+    ]
+  ],
+  "antisymmetric": "0",
+  "curvature_convention": "R(X,Y)Z=nabla_X_nabla_Y_Z-nabla_Y_nabla_X_Z-nabla_[X,Y]_Z",
+  "frame_gram_before_equator": [
+    [
+      "-1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "generator_norm": "0",
+  "local_Jacobi_series": "D(s)=s I-s^3 T/6+O(s^4)",
+  "maximum_conclusion": "local two-control screen-Jacobi classification only; no finite CMB angular map, TT power, screen selection, source/population, local signal law, FD2 restart, action, bootstrap, Xmax value, or dynamics",
+  "mixing_polynomial_N": "-4*A0**3*h0 + 8*A0**3*h1*r - 4*A0**3*h2*r**2 - 4*A0**2*A1*h0*r + 2*A0**2*A2*h0*r**2 - 4*A0**2*h0**2*h2 + 4*A0**2*h0*h1**2 - 4*A0*A1*h0**2*h1 + 2*A0*A2*h0**3 + A1**2*h0**3",
+  "primary_landing": "LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER",
+  "query": {
+    "event": "(t0,r0,pi/2,psi0)",
+    "generator": "k=u+n",
+    "observer": "A^(-1/2) partial_t",
+    "radial_direction": "A^(1/2) partial_r",
+    "screen_psi": "h/(sqrt(A)*sqrt(D)) partial_t + sqrt(A)/sqrt(D) partial_psi at theta=pi/2",
+    "screen_theta": "r^(-1) partial_theta"
+  },
+  "shear_cross": "0",
+  "shear_plus": "-h0*(-4*A0**3*h0 + 8*A0**3*h1*r - 4*A0**3*h2*r**2 - 4*A0**2*A1*h0*r + 2*A0**2*A2*h0*r**2 - 4*A0**2*h0**2*h2 + 4*A0**2*h0*h1**2 - 4*A0*A1*h0**2*h1 + 2*A0*A2*h0**3 + A1**2*h0**3)/(8*A0*(A0*r**2 + h0**2)**2)",
+  "special_subloci": {
+    "generic": "h0*N != 0 gives one-axis cubic screen distortion",
+    "h_at_event_zero": "T=0 at cubic Jacobi order even when h1 or h2 is nonzero",
+    "nonzero_h_cancellation": "N=0 is a codimension-one local-jet cancellation condition"
+  },
+  "trace": "h0*(-4*A0**3*h0 + 8*A0**3*h1*r - 4*A0**3*h2*r**2 - 4*A0**2*A1*h0*r + 2*A0**2*A2*h0*r**2 - 4*A0**2*h0**2*h2 + 4*A0**2*h0*h1**2 - 4*A0*A1*h0**2*h1 + 2*A0*A2*h0**3 + A1**2*h0**3)/(4*A0*(A0*r**2 + h0**2)**2)",
+  "weak_mixing_cubic": "0",
+  "weak_mixing_linear": "0",
+  "weak_mixing_quadratic": "h0*(-2*A0*h0 + 4*A0*h1*r - 2*A0*h2*r**2 - 2*A1*h0*r + A2*h0*r**2)/(2*A0*r**4)",
+  "weak_mixing_quartic": "-h0**2*(-8*A0**2*h0**2 + 16*A0**2*h0*h1*r - 4*A0**2*h0*h2*r**2 - 4*A0**2*h1**2*r**2 - 8*A0*A1*h0**2*r + 4*A0*A1*h0*h1*r**2 + 2*A0*A2*h0**2*r**2 - A1**2*h0**2*r**2)/(4*A0**3*r**6)"
+}
+
+exec
+/bin/bash -lc "sed -n '1,240p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+{
+  "checks": {
+    "F02_h_zero_limit": true,
+    "F02_screen_symmetry": true,
+    "independent_F01_exact_match": true,
+    "independent_F02_exact_match": true,
+    "standalone_F01_zero": true,
+    "three_exact_rational_controls": true
+  },
+  "independent_F01": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "independent_F02": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "h0*(-4*A0**3*h0 + 8*A0**3*h1*r - 4*A0**3*h2*r**2 - 4*A0**2*A1*h0*r + 2*A0**2*A2*h0*r**2 - 4*A0**2*h0**2*h2 + 4*A0**2*h0*h1**2 - 4*A0*A1*h0**2*h1 + 2*A0*A2*h0**3 + A1**2*h0**3)/(4*A0*(A0*r**2 + h0**2)**2)"
+    ]
+  ],
+  "method": "direct fully-lowered Riemann from metric second derivatives; standalone F01 rebuild",
+  "passed": 6,
+  "samples": [
+    {
+      "exact_match": true,
+      "tidal": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "5312099/109652445"
+        ]
+      ]
+    },
+    {
+      "exact_match": true,
+      "tidal": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-20691746025/246491864192"
+        ]
+      ]
+    },
+    {
+      "exact_match": true,
+      "tidal": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "136/30603"
+        ]
+      ]
+    }
+  ],
+  "total": 6
+}
+
+codex
+The algebraic core is now visible from both implementations, and they agree symbolically on the same `T = diag(0, tau)` structure. I’m checking the package’s semantic claims next: whether the query is truly identical across controls, what the “independent” evidence does and does not prove, and whether projection-freedom language stays within scope.
+exec
+/bin/bash -lc "sed -n '1,260p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+# F01/F02 observer-sky Jacobi controls — audit report
+
+## Verdict
+
+`LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER`.
+
+On one identical preregistered observer-sky query, F01 has zero radial screen tidal matrix for
+arbitrary regular local `A(r)`. F02 has the exact local matrix `diag(0,tau)`, with `tau` determined
+by `A,h` and their first two radial derivatives. The antisymmetric/rotation channel vanishes at
+this order. Generic weak mixing enters at quadratic order.
+
+## What was accomplished
+
+- The observer-sky projection is now a typed metric/Jacobi object rather than an unexplained affine
+  conversion.
+- F01 and F02 are demonstrably different on the same query without an eigensolve or data fit.
+- F01 integrates conditionally to `D=sI` along a regular radial branch.
+- F02 supplies a directional, non-affine correction, but its finite value remains profile- and
+  endpoint-dependent.
+- The old scale freedom has the correct geometric home but is not numerically closed. The old
+  ladder offset remains boundary/operator-owned and is not produced by screen geometry.
+
+## Evidence status before external review
+
+1. **Preregistered:** yes, commit `456aeec5`, before curvature evaluation.
+2. **Full or bounded:** full over the declared F01/F02 local symbolic-jet controls and all exact
+   special subloci of the derived cubic coefficient; not a global-profile or all-query census.
+3. **Independent:** local independent implementation passes `6/6`, using the lowered Riemann formula
+   and a standalone F01 rebuild. Fresh external semantic review remains required before banking a
+   verified scientific verdict.
+4. **Premises:** audited in `PREMISE_LEDGER.tsv`; both geometries and the query are explicit controls.
+
+Current evidence grade: `LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW`.
+
+## Authority boundary
+
+No CMB prediction, TT power, polarization prediction, physical screen/profile/branch selection,
+FD2 restart, source law, local signalling, action, bootstrap result, `X_max` value, or dynamics is
+authorized by this return.
+
+## Next gate
+
+Obtain a fresh adversarial review of the exact query typing, curvature contraction, F01 global
+extension, F02 formula, weak-mixing order, and projection-freedom ownership. Only after acceptance
+should a separately preregistered finite-path control be considered.
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PROJECTION_FREEDOM_LEDGER.tsv" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+historical_freedom	correct_mathematical_home	what_this_control_derives	what_remains_open	status_after_control
+affine_scale	observer-sky_Jacobi_map_plus_remote_source_scale	F01_D=sI_conditionally; F02_local_directional_cubic_correction	physical endpoint complete profile source scale and finite integration	GEOMETRIZED_HOME_BUT_NOT_NUMERICALLY_CLOSED
+affine_offset	mode_operator_boundary_phase	no offset term from screen Jacobi geometry	physical operator boundary and source population	NOT_OWNED_BY_THIS_QUERY
+directional_distortion	screen_Jacobi_tracefree_part	F01_zero; F02_shear_plus=-tau/2	complete path profile and physical screen	NEW_NONAFFINE_GEOMETRIC_CHANNEL
+screen_rotation	antisymmetric_Jacobi_or_screen_transport	zero at registered local cubic order	finite path holonomy and orientation-sensitive source	LOCALLY_ZERO_NOT_GLOBALLY_EXCLUDED
+TT_power	source_state_covariance_plus_response	none	native source population and response	OPEN
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREMISE_LEDGER.tsv" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+item	value_or_definition	status	ownership_or_role	not_owned
+c_E	local clock/ruler calibration; units c_E=1 allowed	OBSERVED	local scale calibration	local variable signal speed
+F01	-A dt2+dr2/A+r2 dOmega2	CHOSE	round zero-mixing control	physical universe or selected screen
+F02	F01+2 h sin2(theta) dt dpsi	CHOSE	axis-regular mixing-on control	physical universe or selected screen
+regular_stratum	r>0; A>0; D=A*r2+h2*sin2(theta)>0	pinned-by-THEORY:metric signature	local algebra domain	global completeness
+observer_event	(t0,r0,pi/2,psi0)	CHOSE	identical equatorial query control	preferred center or observer
+observer_u	A^(-1/2) partial_t	CHOSE:metric-normalized	stationary local observer	global preferred congruence
+line_of_sight_n	A^(1/2) partial_r	CHOSE:metric-normalized	outward radial control	physical CMB branch selector
+screen	metric-orthonormal E_theta,E_psi	DERIVED conditional on query	observer celestial screen	population or polarization source
+generator_k	u+n	DERIVED conditional on query	metric-null comparison generator	material signal trajectory
+Jacobi_map	D_AB=g(E_A,J_B)	DERIVED conditional on metric+query	local remote-to-sky differential map	finite global angular map
+A_h_jets	arbitrary allowed local symbolic jets	free-and-explored	profile dependence census	field equation or global profile
+P1_SNe	low-z pair compatibility anchor	CONDITIONAL	later cross-regime compatibility	centered local lapse
+c_eff_pair	exp(-2 phi_pair) terminal ratio	CONDITIONAL	inter-observer readout	local propagation speed
+X_max	pair positional-dilation asymptote	WORKING	later global guard	local wall or boundary
+co_presence	whole-solution interpretation	POSIT	interpretive guard	local signalling mechanism
+source_population	unsupplied	OPEN	needed for nonzero TT power	derivable from spectrum alone
+bootstrap_action_dynamics	inactive	OPEN	outside bounded control	selector in this calculation
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/FALSIFICATION_CONTRACT.tsv" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+id	mutation_or_failure	required_detection
+J01	change a frozen source hash	SOURCE_UNIVERSE_CHANGED
+J02	use different initial query data in F01 and F02	QUERY_MISMATCH
+J03	zero F02 h or omit t-psi mixing	F02_INCOMPLETE
+J04	F02 h=0 limit differs from independent F01	ROUND_LIMIT_FAILURE
+J05	fail tetrad orthonormality or k nullity	QUERY_TYPE_FAILURE
+J06	produce nonsymmetric screen tidal matrix	CURVATURE_OR_SCREEN_ERROR
+J07	promote local series to finite-distance map	SCOPE_PROMOTION
+J08	infer TT power from screen geometry alone	SOURCE_OWNERSHIP_ERROR
+J09	infer local signalling or local variable c	OBSERVER_LOCAL_CATEGORY_ERROR
+J10	select a control or import P1/Xmax as local profile/boundary	PHYSICAL_PREMISE_PROMOTION
+J11	share production curvature code with independent verifier	FALSE_INDEPENDENCE
+J12	discard a regular special sublocus	INCOMPLETE_SOLUTION_SPACE
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_common_query_pair_immersion_reconstruction_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+# Exact derivation and numerical realization
+
+## 1. Declared geometry
+
+For a supplied regular timelike immersion
+
+```text
+F:Sigma^2 -> (M^4,g),
+```
+
+the first fundamental form is
+
+```text
+h_ij=g(F_*partial_i,F_*partial_j).
+```
+
+On the calibrated regular stratum `h00<0`, `det(h)<0`, the unique positive decomposition is
+
+```text
+h=-T^2(dy+beta ds)^2+L^2 ds^2,
+T^2=-h00,
+beta=h01/h00,
+L^2=h11-h01^2/h00,
+kappa_pair=(1/4)log(-det h),
+phi_pair=(1/4)log[(-det h)/h00^2].
+```
+
+This is an algebraic evaluator on a supplied immersion. It does not construct the immersion.
+
+## 2. Query Q1 — stationary R17 Hopf-cylinder leaf
+
+The exact immersion is
+
+```text
+F_R17(y,s)=(0.07+y,1.08,0.31,0.44+2s)
+```
+
+in the registered `R17_P1_P` metric (`lambda=1`, `epsilon=0.12`, `a=0.4`). Its image is the
+intrinsic integral leaf of `span(T,Z)` through the G63 point. Direct pullback gives
+
+```text
+det h=-1,
+kappa_pair=0,
+phi_pair=phi=0.12431893015094263,
+beta_pair=a=0.4.
+```
+
+The `s`-ruling is not an ambient geodesic on this witness:
+
+```text
+||nabla_s F_s|| = 1.197298079e-2       (independent replay).
+```
+
+Therefore this declared query owns the leaf, its second fundamental form, normal connection, and
+surface loops, but it does not own the G63-style geodesic Jacobi channel. Its registered status is
+`NOT_OWNED_BY_QUERY`, not a negative result about other R17 queries.
+
+## 3. Query Q2 — complete time-live Fermi surface
+
+At the registered `TL_P2` point, let `(e0,e1)` be the first two vectors of the inverse complete
+coframe. Construct the observer germ as the timelike geodesic `z_A(y)` with initial tangent `e0`,
+parallel transport `e1` to a ruler `n(y)`, and define
+
+```text
+F_TL(y,s)=Exp_zA(y)[s n(y)].
+```
+
+The `s`-rulings are affinely parameterized spacelike geodesics. Because the construction is a
+geodesic variation, `J=F_*partial_y` satisfies
+
+```text
+nabla_s nabla_s J + R(J,F_s)F_s = 0.
+```
+
+The corrected production balance at the three registered outer scales is
+
+```text
+scale       ||Jacobi residual||     ||second term||    ||curvature term||
+0.004       1.7672e-7               1.176666e-1        1.176668e-1
+0.002       1.1830e-7               1.176668e-1        1.176668e-1
+0.001       2.3802e-7               1.176668e-1        1.176669e-1
+```
+
+The independent fixed-RK4/real-difference replay gives relative balance defect
+`8.9671e-7`. The outer production sequence is not monotone, so the claim is numerical consistency
+plus independent reproduction, not a formal continuum proof.
+
+At the base of this Fermi query, calibration and parallel/geodesic initial conditions give
+numerically
+
+```text
+det h=-1.00000000114,
+kappa_pair=2.85e-10,
+phi_pair=3.78e-10,
+beta_pair=-1.18e-10,
+||nabla_s F_s||=8.96e-10.
+```
+
+This near-Minkowski pair readout is local Fermi calibration at one point. It does not make the
+ambient time-live metric flat: all eleven registered scalar/mixing fields have nonzero first-
+derivative norm there, and both ambient and normal loop returns are nonidentity.
+
+## 4. Common intrinsic/extrinsic decomposition
+
+With the convention
+
+```text
+R(X,Y)Z=nabla_X nabla_Y Z-nabla_Y nabla_X Z-nabla_[X,Y]Z,
+```
+
+write
+
+```text
+nabla^M_X Y=nabla^Sigma_X Y+II(X,Y),
+nabla^M_X nu=-A_nu X+D^perp_X nu.
+```
+
+The implemented Gauss component is
+
+```text
+<R^M(X,Y)Z,W>-<R^Sigma(X,Y)Z,W>
+ +<II(X,W),II(Y,Z)>-<II(X,Z),II(Y,W)>=0.
+```
+
+Codazzi and Ricci are evaluated with the same tangent/normal frame and curvature convention. On
+Q1 all three corrected production residuals decrease by approximately four when the outer scale
+is halved:
+
+```text
+scale       Gauss         Codazzi       Ricci
+0.004       1.027e-6      4.345e-7      3.318e-7
+0.002       2.568e-7      1.086e-7      8.295e-8
+0.001       6.422e-8      2.716e-8      2.074e-8
+```
+
+On Q2, Gauss and Ricci converge to `7.92e-9` and `3.90e-9`. The Q2 Codazzi sequence is nonmonotone
+(`1.61e-7`, `5.00e-7`, `2.41e-7`) and is therefore
+`NUMERICALLY_UNRESOLVED` under the registered contract. It is not converted into a negative or a
+positive certification.
+
+## 5. Finite loops from the same surfaces
+
+For each query, ambient transport and metric-projected normal transport were evaluated around the
+same shrinking rectangles in `Sigma`. Path-ordered transport used `8`, `16`, and `32` subdivisions
+per edge. Both quadrature differences decrease by approximately four, and ambient metric defects
+remain at or below `3.9e-10`.
+
+The finite-loop return divided by area approaches the independently reconstructed curvature
+generator. At the smallest loop:
+
+```text
+query        ambient relative difference   normal relative difference
+Q1 R17       6.12e-4                       7.39e-4
+Q2 TL        2.25e-5                       7.85e-7
+```
+
+Thus endpoint depth, ambient transport, and normal transport coexist on one typed surface without
+being identified as one scalar.
+
+## 6. Extrinsic nonuniqueness control
+
+In Minkowski space, the plane
+
+```text
+F0(t,s)=(t,s,0,0)
+```
+
+and cylinder
+
+```text
+FR(t,s)=(t,R cos(s/R),R sin(s/R),0)
+```
+
+both induce `h=-dt^2+ds^2`, but `II_F0=0` and `II_FR(ss)=-n/R`. The independent replay uses
+`R=1.7` and obtains `II_ss=-0.5882352941` with exactly equal first fundamental forms.
+
+Therefore `h`, and hence `(kappa,phi,beta)`, cannot reconstruct the extrinsic channels. The common
+object is the supplied immersion/query realization, not its terminal two-metric alone.
+
+## 7. Exact bounded landing
+
+The two query classes own different channel sets:
+
+```text
+Q1 exact intrinsic leaf:
+  h + endpoint readout + II + normal connection + surface holonomy;
+  no geodesic Jacobi channel for its declared nongeodesic ruling.
+
+Q2 Fermi/exponential surface:
+  h + endpoint readout + II + normal connection + query-owned Jacobi field
+  + ambient and normal surface holonomy.
+```
+
+The primary preregistered landing is therefore
+
+```text
+QUERY_CLASS_DEPENDENT_CHANNEL_ARCHITECTURE
+```
+
+with the secondary scoped result
+
+```text
+COMMON_QUERY_CHANNELS_COMPATIBILITY_LINKED_WITH_RETAINED_EXTRINSIC_DATA.
+```
+
+This is a bounded geometric result. It selects no physical query or branch.
+
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+# Complete CMB observation-query map — exact derivation
+
+## 1. The observed object and the theory-side object are different types
+
+The observational TT object can be represented, without importing a cosmological dynamics, as a
+real scalar field on the observer's celestial screen,
+
+```text
+Theta(n) = T(n)/T_bar - 1,
+a_lm = integral Theta(n) conjugate(Y_lm(n)) dOmega,
+C_l^TT = (1/(2l+1)) sum_m |a_lm|^2.
+```
+
+This is an `OBSERVED/COMPARISON` definition of the reported angular statistic. It does not say
+what produced `Theta`, how a comparison structure is related to the observer's sky, or which UDT
+geometry is physical.
+
+A UDT-native prediction of that object would require, at minimum, the following typed chain:
+
+```text
+ordered observer-sky query
+    -> one or more regular relation realizations
+    -> terminal pair state plus screen map and allowed transport
+    -> conditional/native response or mode structure
+    -> state/source covariance and normalization
+    -> scalar sky field or its covariance
+    -> C_l^TT and its peak positions/heights.
+```
+
+The arrows mean typed dependency, not material signal travel. This audit remains entirely about
+inter-observational-frame relations in a co-present geometry. Local calibration remains `c_E`.
+
+## 2. Exact separation of spectrum and power
+
+Let a conditional operator supply modes `e_j` with spectral locations `omega_j`. A scalar sky field
+expanded in their projected images has coefficients `a_j`. Its quadratic power reads the second
+moments `E[a_j conjugate(a_k)]`, not merely `omega_j`.
+
+Hold the operator and spectrum fixed. Three admissible algebraic covariance assignments are
+
+```text
+W_A = diag(1,0,1,0),
+W_B = diag(0,1,0,1),
+W_0 = 0.
+```
+
+They produce different nonzero mode supports, and the last produces no power at all, while the
+spectrum is identical. Therefore:
+
+```text
+mode existence does not derive nonzero angular power;
+the spectrum alone does not identify which modes form observed peaks;
+peak heights and overall amplitude require additional state/source information.
+```
+
+`verify_spectrum_power_nonuniqueness.py` checks this finite countermodel exactly. It is not a
+physical source model; it is a type/no-uniqueness proof.
+
+## 3. What the historical CMB calculation actually read
+
+The corrected F00 atlas owns `10,080` roots of a `CHOSE` stationary equatorial scalar operator,
+conditioned on the P1 shape family, sampled mixing, real `m=-1,0,+1`, and free D/N wall
+representatives. The attributed phase then fit each ladder to seven published TT peak locations
+with two affine freedoms.
+
+Consequently its map is
+
+```text
+conditional C0 scalar roots
+    -> two-parameter affine location comparison
+    -> attributed TT position residuals.
+```
+
+It did not construct the physical CMB observer query, a screen/Jacobi map, a native response
+kernel, a state covariance, peak power, or polarization. The result remains a compatibility
+diagnostic. The corrected three-ladder atlas also withdraws the earlier centered-multiplet reading.
+
+## 4. Complete-query channel typing
+
+Once a regular pair immersion `F` is supplied, the metric owns
+
+```text
+h = F* g,
+kappa_pair = (1/4) log(-det h),
+phi_pair = (1/4) log((-det h)/h_00^2),
+beta_pair = h_01/h_00.
+```
+
+The conditional pair cone then has
+
+```text
+c_eff^(pair)/c_E = exp(-2 phi_pair).
+```
+
+This is an inter-observer readout, not a local material speed. It does not by itself create a
+celestial angular map. That requires a screen Jacobi map or a mathematically equivalent component
+of the actual query realization. Ambient transport exists after a path is supplied. Normal/screen
+transport exists after a pair immersion is supplied.
+
+For a scalar TT observable, a pure `SO(2)` rotation of the screen basis does not alter the scalar
+temperature value. Therefore normal holonomy is not a direct scalar-TT modulation merely because
+it exists. An orientation-sensitive polarization field is different: it requires a screen-frame
+carry or equivalent connection and a spin-sensitive source/statistical rule. The runnable finite
+check records this distinction without claiming a polarization dynamics.
+
+## 5. Exact family census
+
+The frozen `F00`--`F17` universe is reproduced one-for-one in
+`FAMILY_REALIZATION_ATLAS.tsv`.
+
+- `F00` is the incomplete equatorial control and the only family with the historical attributed
+  position diagnostic.
+- `F01` is the round `SO(3)` local control.
+- `F02` is the conditional axis-regular C1 screen; its `15,420` coupling-matrix elements are banked,
+  but no eigenvalue solve or physical profile is selected.
+- `F03`--`F04` are general screen envelopes without selected profiles.
+- `F05`--`F14` are conditional S3 controls that may not be spliced into the WR-L radial background.
+- `F15` is the degenerate no-inverse control.
+- `F16` is the global non-toric availability countercontrol.
+- `F17` is the general positive-screen algebra envelope, not a physical completion.
+
+None of these ambient-geometry families supplies a physical CMB observer-pair query or pair
+immersion. Hence none currently owns the terminal pair state, observer-sky Jacobi map, same-query
+ambient/normal transports, source covariance, TT power prediction, or polarization prediction.
+This is not evidence that such a realization does not exist. It is an ownership result over the
+frozen registered universe.
+
+## 6. What does and does not follow
+
+The complete metric has much richer angular structure than the old equatorial slice: generic
+screens mix `ell`, may mix `m`, and contain a shift-divergence term absent from the axial shortcut.
+That structure remains live. But its existence is not yet a rule selecting a physical screen,
+population, or observed peak.
+
+The low-redshift P1 SNe result travels only as a compatibility anchor after a CMB pair profile is
+constructed. It cannot be copied into a centered CMB lapse. `X_max` travels only as the working
+observer-pair positional-dilation asymptote. It is not a local wall, a boundary condition, a path,
+or a family selector.
+
+## 7. Smallest next calculation
+
+The next calculation should construct one identical, explicit observer-sky query protocol on each
+of two nonphysical controls:
+
+1. the round `F01` geometry;
+2. the axis-regular mixing-on `F02` geometry.
+
+For each, derive the query's pair immersion/correspondence and screen Jacobi map from the same
+metric realization before any eigenvalue solve. The comparison is a control pair, not a contest to
+choose the universe. It will test which old affine projection freedom is replaced by geometry and
+which freedom remains query- or source-owned. Only after that map exists can FD2 be reformulated
+without postselecting a ladder.
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' udt_cmb_complete_angular_mode_ownership_2026-08-09/EXACT_DERIVATION.md" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+# Exact derivation — complete-angular mode ownership
+
+Date: 2026-08-09  
+Status: `CONDITIONAL_MODE_DECOMPOSITION_DERIVED; PHYSICAL_COMPLETION_AND_POPULATION_PROJECTION_OPEN`
+
+## 1. What is being extended
+
+The corrected FD1 atlas solves the scalar operator on the declared `2+1`-dimensional equatorial
+metric
+
+```text
+ds_C0^2=-A dt^2+dr^2/A+r^2 dpsi^2+2h dt dpsi.
+```
+
+Its integer `m` is exactly the Fourier character of the chosen `psi` circle. That ownership is
+valid in C0. It does not yet say how a C0 radial eigenfunction extends through a complete angular
+screen.
+
+The clean axis-regular round-screen completion named by RA1 is the conditional representative C1:
+
+```text
+ds_C1^2 = -A dt^2 + dr^2/A + r^2 dtheta^2
+          + r^2 sin^2(theta)dpsi^2
+          + 2 h sin^2(theta) dt dpsi.
+```
+
+The `sin^2(theta)` factor is required for regularity of the axial one-form at the poles. C1 is
+`CHOSE`; no current UDT selector privileges a round screen, this axial lift, or its global
+completion.
+
+## 2. Exact C1 inverse, density, and scalar operator
+
+Set
+
+```text
+D(r,theta)=A(r)r^2+h(r)^2 sin^2(theta).
+```
+
+Then
+
+```text
+det(g) = -r^2 sin^2(theta) D/A,
+sqrt(-g) = S = r sin(theta) sqrt(D/A),
+
+g^tt       = -r^2/D,
+g^tpsi     =  h/D,
+g^psipsi   =  A/[sin^2(theta)D],
+g^rr       =  A,
+g^thetatheta = 1/r^2.
+```
+
+For
+
+```text
+Psi=exp(-i omega t+i m psi)u(r,theta),
+```
+
+the exact scalar equation `Box_g Psi=0` is
+
+```text
+0 = S^-1 partial_r(S A partial_r u)
+  + S^-1 partial_theta(S partial_theta u/r^2)
+  + [r^2 omega^2+2h omega m-A m^2/sin^2(theta)]u/D.       (1)
+```
+
+This is still only the chosen scalar diagnostic, not native UDT dynamics.
+
+## 3. The equatorial atlas does not lift as the same radial problem
+
+At `theta=pi/2`, define `D_eq=A r^2+h^2` and `W=sqrt(D_eq/A)`. C0 has density `W`; C1 has
+
+```text
+S_eq = r W.
+```
+
+Therefore, even after suppressing all polar dependence, the C1 radial flux is
+
+```text
+(r W)^-1 partial_r(r W A partial_r R),
+```
+
+whereas C0 used
+
+```text
+W^-1 partial_r(W A partial_r R).
+```
+
+The extra factor is the volume of the angular dimension that C0 omitted. The time/azimuth
+potential agrees at the equator, but the differential operator does not. Consequently the 10,080
+FD1 roots remain valid observations of C0 and cannot be relabeled as C1 full-angular roots.
+
+## 4. Generic C1 modes are a coupled two-dimensional problem
+
+Write
+
+```text
+B(r)=h(r)^2/[A(r)r^2].
+```
+
+The mixed logarithmic-volume derivative is exactly
+
+```text
+partial_r partial_theta log S
+ = B'(r)sin(theta)cos(theta)/[1+B(r)sin^2(theta)]^2.       (2)
+```
+
+For a product ansatz `u=R(r)Theta(theta)`, the ratio of the two principal coefficients forces the
+only separation multiplier, up to a constant, to be `r^2`. After that multiplication, the
+theta-derivative of the radial first-derivative coefficient is
+
+```text
+r^2 A B'(r)sin(theta)cos(theta)/[1+B(r)sin^2(theta)]^2.
+```
+
+It is nonzero whenever `B'` is nonzero. In the frozen FD1 family
+
+```text
+A=(1-r)^n,
+h=hbar r^2(1-r)^q,
+B=hbar^2 r^2(1-r)^(2q-n),
+```
+
+and `B` is not constant for any constant `(n,q)` when `hbar` is nonzero. Hence the C1 realization is
+generically nonseparable: each fixed-`m` problem is a coupled PDE in `(r,theta)`, not one of the old
+radial ladders.
+
+The `h=0` control C2 is separable. Equation (1) becomes the round-sphere equation with
+`Y_ell^m(theta,psi)` and radial equation
+
+```text
+partial_r(r^2 A partial_r R)
+ + [r^2 omega^2/A-ell(ell+1)]R = 0.                       (3)
+```
+
+## 5. What owns the angular labels
+
+### C1: axial mixing on
+
+The Lie derivative of C1 along `partial_psi` vanishes exactly, so C1 has a conditional `U(1)`
+decomposition. Its integer `m` is the character of that axial isometry. North/south reflection also
+survives. Thus a full C1 mode can be classified by
+
+```text
+(m, north/south parity, coupled radial-polar branch).
+```
+
+A nonaxial round-sphere generator `J_x` does not survive. One exact component is
+
+```text
+(L_Jx g)_(t theta)=h cos(psi),
+```
+
+which is nonzero for generic `h`. Therefore C1 has no `SO(3)` theorem relating its `m=-1,0,+1`
+sectors.
+
+### C2: symmetry-restored limit
+
+At `h=0`, `SO(3)` is restored. Multiplets are defined by one fixed `ell`, with
+`m=-ell,...,+ell`; the regular center power is `r^ell`. The C0 center power was `r^|m|` because C0
+was a two-dimensional disk problem.
+
+A C0 Fourier character `m` can extend into every full spherical harmonic with `ell>=|m|`. It does
+not choose an `ell`. Even the minimal extension would put C0 `m=0` in `ell=0` and C0 `|m|=1` in
+`ell=1`, so an equal-radial-index C0 triple is not an `ell=1` spherical triplet. The previous
+same-index pairing therefore has no representation-theoretic ownership even in the symmetry-
+restored control.
+
+### C3/C4: registered complete-screen freedom
+
+The registered screen has an independent area mode and two shears; its values and global
+realization are unselected. A smooth positive area witness such as
+
+```text
+V(theta,psi)=1+epsilon sin(theta)cos(psi),  |epsilon|<1,
+```
+
+already has `partial_psi V != 0` at generic points and therefore no axial `U(1)`. This is an
+availability counterexample, not a proposed universe. It proves that `m` is not a universal label
+over the currently admitted complete-screen configuration arena.
+
+Existing complete `S3` controls likewise establish compatible configurations, not a selected
+WR-L/round/axial completion. Cross-splicing them to C1 would manufacture the missing join.
+
+## 6. Projection is not population
+
+Conditional symmetry projectors do exist once a symmetry is supplied. In C1,
+
+```text
+(P_m f)(psi)=(1/2pi) integral_0^(2pi) exp(-i m alpha)f(psi+alpha)dalpha
+```
+
+decomposes the scalar space into every integer `m`. It selects no preferred `m` and no amplitude.
+In C2 the invariant object is the projector onto a complete fixed-`ell` eigenspace; an individual
+`m` requires an axis, which may be supplied by an observer query but is not a universal population
+law.
+
+Four distinct objects must not be merged:
+
+1. the complete-pair tangent-space reciprocal/screen projector;
+2. a symmetry projector on the scalar function space;
+3. a spectral projector after a self-adjoint boundary realization is chosen; and
+4. physical mode weights in a state, source, covariance, or Green-function readout.
+
+The metric can conditionally provide the first two. The third additionally needs the probe and a
+domain/boundary realization; FD1 explicitly leaves D/N free. The fourth needs a state/source or
+response prescription. Evaluating modes at two observer endpoints supplies a linear query, not
+their amplitudes. A Green kernel further needs boundary and causal/response data. None of those
+operations is selected by current metric, Reciprocity, or complete-pair premises.
+
+## 7. Exact landing
+
+`DERIVED`, conditional on C1:
+
+- the full operator (1);
+- generic radial/polar nonseparability;
+- `U(1)` `m` ownership plus north/south parity;
+- restoration of `SO(3)` multiplets only at `h=0`;
+- the exact operator mismatch between C0 and C1.
+
+`DERIVED` as nonselection over C0-C4:
+
+codex
+The package’s own ledgers are mostly careful about scope: they explicitly keep the null generator as a comparison datum, not a material signal, and keep TT power and offset outside the local Jacobi result. I’m checking the validator architecture and catch proofs now, because that’s where overclaiming usually hides.
+exec
+/bin/bash -lc "sed -n '1,260p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/run_catch_proofs.py" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exercise all preregistered fail-closed artifact mutations."""
+
+from __future__ import annotations
+
+import csv
+import json
+import shutil
+import subprocess
+import tempfile
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE = Path(__file__).resolve().parent
+VERIFY = SOURCE / "verify_package.py"
+
+
+def mutate_tsv(path: Path, field: str, value: str, row_index: int = 0) -> None:
+    with path.open(newline="", encoding="utf-8") as handle:
+        rows = list(csv.DictReader(handle, delimiter="\t"))
+        names = list(rows[0])
+    rows[row_index][field] = value
+    with path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=names, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def mutate_json(path: Path, callback) -> None:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    callback(data)
+    path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def main() -> None:
+    mutations = []
+
+    def j01(p): mutate_tsv(p / "SOURCE_MANIFEST.tsv", "sha256", "0" * 64)
+    mutations.append(("J01_source_hash", j01))
+
+    def j02(p): mutate_tsv(p / "LOCAL_CONTROL_ATLAS.tsv", "query_status", "DIFFERENT_QUERY", 1)
+    mutations.append(("J02_query_mismatch", j02))
+
+    def j03(p): mutate_json(p / "DERIVATION_RESULT.json", lambda d: d["F02_tidal_matrix_equator"].__setitem__(1, ["0", "0"]))
+    mutations.append(("J03_zero_F02", j03))
+
+    def j04(p): mutate_json(p / "DERIVATION_RESULT.json", lambda d: d["F01_induced_limit"].__setitem__(0, ["1", "0"]))
+    mutations.append(("J04_mutate_round_limit", j04))
+
+    def j05(p): mutate_json(p / "DERIVATION_RESULT.json", lambda d: d.__setitem__("generator_norm", "1"))
+    mutations.append(("J05_nonnull_query", j05))
+
+    def j06(p): mutate_json(p / "DERIVATION_RESULT.json", lambda d: d["F02_tidal_matrix_equator"][0].__setitem__(1, "1"))
+    mutations.append(("J06_nonsymmetric_screen", j06))
+
+    def j07(p): mutate_json(p / "DERIVATION_RESULT.json", lambda d: d.__setitem__("maximum_conclusion", "finite map derived"))
+    mutations.append(("J07_scope_promotion", j07))
+
+    def j08(p): mutate_tsv(p / "PROJECTION_FREEDOM_LEDGER.tsv", "status_after_control", "DERIVED", 4)
+    mutations.append(("J08_infer_TT_power", j08))
+
+    def j09(p): mutate_tsv(p / "PREMISE_LEDGER.tsv", "not_owned", "NONE", 12)
+    mutations.append(("J09_local_c_eff", j09))
+
+    def j10(p): mutate_tsv(p / "LOCAL_CONTROL_ATLAS.tsv", "physical_status", "SELECTED_PHYSICAL", 1)
+    mutations.append(("J10_select_F02", j10))
+
+    def j11(p): mutate_json(p / "INDEPENDENT_VERIFICATION_RESULT.json", lambda d: d.__setitem__("method", "production curvature imported"))
+    mutations.append(("J11_false_independence", j11))
+
+    def j12(p):
+        target = p / "SPECIAL_SUBLOCUS_ATLAS.tsv"
+        lines = target.read_text(encoding="utf-8").splitlines()
+        target.write_text("\n".join(line for line in lines if not line.startswith("NEGATIVE_CONTROL\t")) + "\n", encoding="utf-8")
+    mutations.append(("J12_drop_sublocus", j12))
+
+    caught = {}
+    diagnostics = {}
+    with tempfile.TemporaryDirectory(prefix="udt-jacobi-catches-") as temp:
+        temp_root = Path(temp)
+        for name, mutation in mutations:
+            package = temp_root / name
+            shutil.copytree(SOURCE, package)
+            mutation(package)
+            run = subprocess.run(
+                ["python3", str(VERIFY), "--package", str(package), "--source-root", str(ROOT)],
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                check=False,
+            )
+            caught[name] = run.returncode != 0
+            if run.returncode == 0:
+                diagnostics[name] = "mutation was not rejected"
+
+    result = {"caught": caught, "diagnostics": diagnostics, "passed": sum(caught.values()), "total": len(caught)}
+    (SOURCE / "CATCH_PROOF_RESULTS.json").write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(result, indent=2, sort_keys=True))
+    if not all(caught.values()):
+        raise SystemExit(1)
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,240p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/CATCH_PROOF_RESULTS.json" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+{
+  "caught": {
+    "J01_source_hash": true,
+    "J02_query_mismatch": true,
+    "J03_zero_F02": true,
+    "J04_mutate_round_limit": true,
+    "J05_nonnull_query": true,
+    "J06_nonsymmetric_screen": true,
+    "J07_scope_promotion": true,
+    "J08_infer_TT_power": true,
+    "J09_local_c_eff": true,
+    "J10_select_F02": true,
+    "J11_false_independence": true,
+    "J12_drop_sublocus": true
+  },
+  "diagnostics": {},
+  "passed": 12,
+  "total": 12
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_package.py" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Fail-closed artifact and algebra verifier for the F01/F02 Jacobi control package."""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import hashlib
+import json
+from pathlib import Path
+
+import sympy as sp
+
+
+PACKAGE_NAME = "udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11"
+
+
+def sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def rows(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as handle:
+        return list(csv.DictReader(handle, delimiter="\t"))
+
+
+def require(condition: bool, message: str) -> None:
+    if not condition:
+        raise AssertionError(message)
+
+
+def verify(package: Path, source_root: Path) -> dict:
+    checks: dict[str, bool] = {}
+
+    source_rows = rows(package / "SOURCE_MANIFEST.tsv")
+    require(len(source_rows) == 7, "source universe must contain exactly seven frozen rows")
+    for row in source_rows:
+        require(sha256(source_root / row["path"]) == row["sha256"], f"source hash changed: {row['path']}")
+    checks["J01_source_hashes"] = True
+
+    controls = rows(package / "LOCAL_CONTROL_ATLAS.tsv")
+    require([r["family"] for r in controls] == ["F01", "F02"], "control universe missing, duplicate, or reordered")
+    require(len({r["query_status"] for r in controls}) == 1 and controls[0]["query_status"] == "IDENTICAL_QSKY", "query mismatch")
+    require(controls[1]["psi_tidal"].startswith("h0*N/"), "F02 mixing tidal term removed")
+    require(all(r["physical_status"] == "CONTROL_NOT_SELECTED" for r in controls), "control promoted to physical")
+    checks["J02_identical_query"] = True
+    checks["J03_complete_F02"] = True
+    checks["J10_no_control_selection"] = True
+
+    result = json.loads((package / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    require(result["primary_landing"] == "LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER", "landing changed")
+    require(result["F01_induced_limit"] == [["0", "0"], ["0", "0"]], "F01 round result mutated")
+    require(result["generator_norm"] == "0", "query generator is not null")
+    require(result["frame_gram_before_equator"] == [["-1", "0", "0", "0"], ["0", "1", "0", "0"], ["0", "0", "1", "0"], ["0", "0", "0", "1"]], "query frame is not orthonormal")
+    require(result["F02_tidal_matrix_equator"][0] == ["0", "0"] and result["F02_tidal_matrix_equator"][1][0] == "0", "F02 screen matrix structure changed")
+    require(result["antisymmetric"] == "0" and result["shear_cross"] == "0", "screen symmetry/rotation failure")
+    require(result["weak_mixing_linear"] == "0" and result["weak_mixing_cubic"] == "0", "weak-mixing parity changed")
+    require("no finite CMB angular map" in result["maximum_conclusion"] and "no finite" not in result["primary_landing"], "scope promotion")
+    checks["J04_round_limit"] = True
+    checks["J05_query_type"] = True
+    checks["J06_screen_symmetry"] = True
+    checks["J07_local_scope"] = True
+
+    r, A0, A1, A2, h0, h1, h2 = sp.symbols("r A0 A1 A2 h0 h1 h2", real=True)
+    local = {x.name: x for x in (r, A0, A1, A2, h0, h1, h2)}
+    tau = sp.sympify(result["F02_tidal_matrix_equator"][1][1], locals=local)
+    N = sp.sympify(result["mixing_polynomial_N"], locals=local)
+    expected_tau = h0 * N / (4 * A0 * (A0 * r**2 + h0**2) ** 2)
+    require(sp.factor(tau - expected_tau) == 0, "F02 exact factorization failed")
+    require(sp.factor(tau.subs({h0: 0})) == 0, "h0=0 special sublocus lost")
+    checks["exact_factorization"] = True
+
+    subloci = rows(package / "SPECIAL_SUBLOCUS_ATLAS.tsv")
+    expected_subloci = {"ROUND_F01", "MIXING_ZERO_AT_EVENT", "NONZERO_MIX_CANCELLATION", "GENERIC_MIXING", "WEAK_MIXING", "POSITIVE_CONTROL", "NEGATIVE_CONTROL"}
+    require({r["sublocus"] for r in subloci} == expected_subloci and len(subloci) == len(expected_subloci), "special sublocus discarded or duplicated")
+    checks["J12_complete_subloci"] = True
+
+    projection = {r["historical_freedom"]: r for r in rows(package / "PROJECTION_FREEDOM_LEDGER.tsv")}
+    require(projection["TT_power"]["status_after_control"] == "OPEN", "TT power inferred without source")
+    require(projection["affine_offset"]["status_after_control"] == "NOT_OWNED_BY_THIS_QUERY", "offset silently assigned to screen map")
+    checks["J08_source_ownership"] = True
+
+    premise = {r["item"]: r for r in rows(package / "PREMISE_LEDGER.tsv")}
+    require(premise["c_eff_pair"]["not_owned"] == "local propagation speed", "observer/local c_eff guard lost")
+    require(premise["X_max"]["not_owned"] == "local wall or boundary", "Xmax local-wall regression")
+    checks["J09_observer_local_guard"] = True
+
+    independent = json.loads((package / "INDEPENDENT_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    require(independent["passed"] == independent["total"] == 6 and all(independent["checks"].values()), "independent checks failed")
+    require(independent["method"].startswith("direct fully-lowered Riemann") and "production" not in independent["method"], "independence method invalid")
+    checks["J11_independence"] = True
+
+    exact = (package / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    require("does not select the\nremote comparison surface" in exact, "finite endpoint scope lost")
+    require("not being promoted to a local material signal trajectory" in exact, "co-present signal guard lost")
+    require("mode-ladder offset is boundary/operator phase data" in exact, "offset ownership lost")
+    checks["semantic_guards"] = True
+
+    return {"checks": checks, "passed": len(checks), "total": len(checks)}
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--package", type=Path)
+    parser.add_argument("--source-root", type=Path)
+    args = parser.parse_args()
+    source_root = (args.source_root or Path(__file__).resolve().parents[1]).resolve()
+    package = (args.package or source_root / PACKAGE_NAME).resolve()
+    result = verify(package, source_root)
+    (package / "PACKAGE_VERIFICATION_RESULT.json").write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_repository_gates.py" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Read-only repository gates for the F01/F02 observer-sky Jacobi controls."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import re
+import subprocess
+from pathlib import Path
+from urllib.parse import unquote
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+MANIFESTS = (
+    "native_action_stage1_2026-07-18/arm_A/SHA256SUMS.txt",
+    "native_action_stage1_2026-07-18/arm_B/SHA256SUMS.txt",
+    "native_action_stage2_2026-07-18/arm_A/SHA256SUMS.txt",
+    "native_action_stage2_2026-07-18/arm_B/SHA256SUMS.txt",
+    "native_action_arm_c_2026-07-18/SHA256SUMS.txt",
+    "native_action_final_adjudication_2026-07-18/SHA256SUMS.txt",
+)
+STARTUP = (
+    "LIVE.md", "HANDOFF.md", "README.md", "INDEX.md", "AGENTS.md", "MEMORY.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md", "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_RESEARCH_PROGRAM.md", "INFLIGHT_STATE.md", "research/README.md",
+    "research/_registry/README.md",
+)
+PROTECTED_UNTRACKED = {
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py",
+}
+AUTHORIZED_CONTROL_CHANGES = {
+    "CURRENT_RESEARCH_PROGRAM.md", "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv", "HANDOFF.md", "INDEX.md", "INFLIGHT_STATE.md",
+    "LIVE.md", "MEMORY.md", "README.md", "research/README.md",
+    "research/_registry/README.md", "tests/test_startup_surface.py",
+    "verify_current_scientific_premises.py",
+}
+
+
+def digest(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1 << 20), b""):
+            h.update(block)
+    return h.hexdigest()
+
+
+def tsv(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def run(command: list[str], timeout: int = 300) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(command, cwd=ROOT, text=True, capture_output=True, check=False, timeout=timeout)
+
+
+def main() -> None:
+    frozen_members = 0
+    frozen_hashes = {}
+    for relative in MANIFESTS:
+        manifest = ROOT / relative
+        frozen_hashes[relative] = digest(manifest)
+        for line in manifest.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            expected, member = line.split(None, 1)
+            target = manifest.parent / member.strip()
+            assert target.is_file() and digest(target) == expected, target
+            frozen_members += 1
+    assert frozen_members == 127
+
+    premise = run(["python3", "verify_current_scientific_premises.py"], 60)
+    assert premise.returncode == 0 and "PASS: 66 premise guards" in premise.stdout, premise.stdout
+
+    current = tsv(ROOT / "research/_registry/CURRENT_ARTIFACT_PATHS.tsv")
+    current_paths = [row["current_path"] for row in current]
+    assert len(current_paths) == len(set(current_paths)) == 1114
+    assert all((ROOT / path).exists() for path in current_paths)
+    current_map = {row["original_path"]: row["current_path"] for row in current}
+
+    frontier = tsv(ROOT / "research/_registry/CURRENT_FRONTIER_TARGETS.tsv")
+    targets = {row["target_path"].rstrip("/") for row in frontier}
+    resolved = {current_map.get(target, target) for target in targets}
+    assert len(frontier) == 306 and len(targets) == len(resolved) == 101
+    assert all((ROOT / target).exists() for target in resolved)
+
+    link_pattern = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+    link_count = 0
+    package_docs = [p for p in HERE.glob("*.md") if p.name != "EXTERNAL_REVIEW_RAW.md"]
+    for source in [*(ROOT / path for path in STARTUP), *package_docs]:
+        assert source.is_file(), source
+        for raw in link_pattern.findall(source.read_text(encoding="utf-8")):
+            target = raw.strip().strip("<>")
+            if target.startswith(("http://", "https://", "mailto:", "#")):
+                continue
+            relative = unquote(target.split("#", 1)[0])
+            if not relative:
+                continue
+            resolved_link = Path(re.sub(r":\d+$", "", relative)) if Path(relative).is_absolute() else (source.parent / relative).resolve()
+            assert resolved_link.exists(), (source, relative)
+            link_count += 1
+
+    tests = run(["python3", "-m", "pytest", "-q", "tests/"], 300)
+    assert tests.returncode == 0 and "98 passed, 1 xfailed" in tests.stdout, tests.stdout + tests.stderr
+
+    status = run(["git", "status", "--porcelain=v1", "--untracked-files=all"], 60)
+    assert status.returncode == 0
+    outside = []
+    protected_seen = set()
+    authorized_controls_seen = []
+    for line in status.stdout.splitlines():
+        path = line[3:]
+        if path.startswith(HERE.name + "/"):
+            continue
+        if path in AUTHORIZED_CONTROL_CHANGES and not line.startswith("?? "):
+            authorized_controls_seen.append(line)
+            continue
+        if path in PROTECTED_UNTRACKED and line.startswith("?? "):
+            protected_seen.add(path)
+            continue
+        outside.append(line)
+    assert protected_seen == PROTECTED_UNTRACKED
+    assert not outside, outside
+
+    result = {
+        "schema": "udt-f01-f02-jacobi-repository-gates-v1",
+        "status": "PASS", "premise_guards": 66, "startup_controls": len(STARTUP),
+        "checked_markdown_links": link_count, "frozen_manifests": len(MANIFESTS),
+        "frozen_manifest_members": frozen_members, "frozen_package_paths": frozen_members + len(MANIFESTS),
+        "frozen_manifest_hashes": frozen_hashes, "current_paths": len(current_paths),
+        "frontier_rows": len(frontier), "frontier_targets": len(targets),
+        "pytest": "98 passed, 1 xfailed", "protected_untracked_path_count": len(protected_seen),
+        "protected_untracked_contents_read": False, "authorized_control_changes": authorized_controls_seen,
+        "unexpected_dirty_paths": outside,
+    }
+    (HERE / "REPOSITORY_GATES.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+One evidence-architecture defect already appears: the package cites two different preregistration/base commits in its own top-level documents. I’m confirming that inconsistency and checking whether it is merely clerical or whether it affects the frozen source universe.
+exec
+/bin/bash -lc "sed -n '1,200p' udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/SOURCE_MANIFEST.tsv" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+path	sha256	role
+udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md	7d7b67f8f8d383336af85694eb0bd514d6789ccf53850d00853f93de00d895c5	current CMB query ownership and next gate
+udt_cmb_complete_angular_mode_ownership_2026-08-09/EXACT_DERIVATION.md	e17dacd5ed66a9e2e513320258caf0f3e4f43ee2a6a9db8884ea762aac75f739	F01/F02 exact metric and angular ownership
+udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/EXACT_DERIVATION.md	39ad31b1cc8c7a18851ec4190a0e22d2f3b192162ac89f54af50fe0fce4589eb	F02 complete angular coupling structure
+udt_cmb_N03_profile_role_regular_center_map_2026-08-09/EXACT_DERIVATION.md	881f814060d8fb73a1e13802a9e0391145ec987be8ffccf76134ca982575db91	profile-role and regular-center guard
+udt_common_query_pair_immersion_reconstruction_2026-08-11/EXACT_DERIVATION.md	bc96d6889075ede38271a4d63d3c021f7df0952b27f7e831c0d7161b97f737da	query-owned geodesic/Jacobi architecture
+udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md	30a1cd9887e04cffc86b3646083c7fe890ca030f3430bf86365cfbe4a87a5c0b	P1 low-z compatibility role guard
+udt_xmax_asymptotic_limit_frame_correction_2026-08-05/AUDIT_REPORT.md	32fadafc5b336a35aae10bc7c24e98c27bbd64e03d43d42bbd9f1a6a8f3d932c	Xmax pair-asymptote role guard
+
+exec
+/bin/bash -lc 'rg -n "0634b7f8|456aeec5|preregister" udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11' in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md:4:Base commit: `0634b7f801253fc105d374c4c160dbbe19f5b9de`  
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md:122:Maximum conclusion: a local, two-control, preregistered screen-Jacobi classification and an exact
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md:15:On one identical preregistered equatorial observer-sky query, the package claims:
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/derive_local_jacobi.py:2:"""Exact local screen-Jacobi coefficient for the preregistered F01/F02 query.
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/run_catch_proofs.py:2:"""Exercise all preregistered fail-closed artifact mutations."""
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md:7:On one identical preregistered observer-sky query, F01 has zero radial screen tidal matrix for
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md:25:1. **Preregistered:** yes, commit `456aeec5`, before curvature evaluation.
+udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md:45:should a separately preregistered finite-path control be considered.
+
+exec
+/bin/bash -lc 'rg -n "P1|low-z|compatibility anchor|centered|lapse" udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md' in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+19:successful P1 relation in its proper home: a conditional terminal observer-pair/SNe readout. The
+33:The primary A:`zCMB`:P1 result remains:
+53:an independently written P1 formula, a 208-point full-bounds control scan, and a separate bounded
+65:Every value is inside the preregistered tolerance. The result remains an observed conditional P1
+76:turns the three historical `r(phi_pair)` families into exactly the same P1/P2/P3 `r(z)` and
+102:- P1's conditional observer-pair/SNe role.
+110:- any coefficient-free native correction to the frozen P1/P2/P3 readout.
+138:   conditional area/flux readout, P1 role guard, live orchestra, inactive bootstrap, and open
+151:anchor and return to the actual CMB observation query. Do not copy P1 into a centered CMB lapse.
+154:this SNe query to test whether it predicts the observed P1-like relation without extra freedom.
+
+exec
+/bin/bash -lc 'rg -n "X_max|asymptote|wall|boundary" udt_xmax_asymptotic_limit_frame_correction_2026-08-05/AUDIT_REPORT.md' in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+8:The current controls now distinguish the meaning of `X_max` from its still-missing realization and
+11:`X_max` is the owner-ratified `WORKING_FOUNDATIONAL_FRAME` for UDT's frame-shared observer-pair
+12:positional-dilation asymptote. It is the limiting nonnegative separation approached as inter-frame
+26:was too concrete and treated an asymptote as a radial wall or boundary surface.
+36:boundary/action/mass consequences     OPEN
+43:0 <= s(p,q) < X_max
+44:s(p,q) -> X_max from below  => |delta| -> infinity
+52:`X_max` is not a material wall, preferred center, radial edge, finite-cell seal, or automatically a
+53:terminal boundary. A selected solution may represent the limit through a chart endpoint or causal
+56:The limit supplies no variation domain, fixed boundary data, surface functional, generator,
+57:normalization, or charge. Complete boundary completion therefore remains open and must distinguish
+58:an observer asymptote from chart endpoints, horizons, seams, and genuine manifold boundaries.
+65:2. realize divergent dilation at the shared `X_max` limit;
+69:6. keep local WR-L `X` distinct from global `X_max`; and
+70:7. avoid inferring a profile, value, mass, action, source, bootstrap equation, or boundary term from
+84:mass relation, boundary, action, source, and complete physics were not derived.
+115:action, boundary completion, observer law, numerical `X_max`, mass relation, or cosmology is derived.
+
+exec
+/bin/bash -lc 'rg -n "profile|regular center|P1|not.*copy|local lapse" udt_cmb_N03_profile_role_regular_center_map_2026-08-09/EXACT_DERIVATION.md' in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+1:# Exact N03 profile-role and regular-center derivation
+17:The data-conditioned P1 separation profile also lives on ordered observer pairs. `X_max` is the
+20:chart. Identifying pair separation with areal radius and copying P1 into the local lapse is an
+72:or physical mu profile. Mixing may begin at higher order or away from the center.
+80:Thus the complete angular matrices return to their round value at the exact regular center while
+95:## 3. Source-derived profile and screen counts
+99:- 3 round P1 strata;
+100:- 21 corrected mixed `(n,q)` strata representing 210 nonzero-mixing profiles;
+101:- 3 corrected `q=0` strata representing exactly 30 of those profiles;
+105:All three round P1 controls have `A'(0)=-n/R_w`, so they fail (1) if promoted to a centered local
+113:center behavior but supplies no explicit full-even center-to-wall profile. The endpoint-local RA1
+114:classification survives; neither fork supplies the missing global profile.
+116:The general C1 envelope has a nonempty regular local jet subspace (1)-(3), but no global profile,
+118:including the full shift-divergence term, not a selected profile.
+121:supplies a role-correct complete global profile.
+125:P1 has a nonzero one-sided slope as a function of nonnegative pair separation. A smooth isotropic
+131:pair comparison profile = local lapse A(r)
+163:P1'S DIRECT IDENTITY PROMOTION TO THAT CENTERED LOCAL LAPSE IS EXCLUDED,
+169:No profile, boundary, action, probe, spectrum, source weight, population, polarization channel,
+
+codex
+I have enough context to do a third, package-external recomputation inside the sandbox: same metric, but not using either saved JSON result. That will let me check the sign convention, the `h -> 0` reduction, and the weak-mixing parity independently of the stored artifacts.
+exec
+/bin/bash -lc "python3 - <<'PY'
+import sympy as sp
+
+t, r, th, ps = sp.symbols('t r theta psi', real=True)
+A = sp.Function('A')(r)
+h = sp.Function('h')(r)
+st = sp.sin(th)
+coords = (t,r,th,ps)
+
+g = sp.zeros(4)
+g[0,0] = -A
+g[1,1] = 1/A
+g[2,2] = r**2
+g[3,3] = r**2*st**2
+g[0,3] = g[3,0] = h*st**2
+gi = sp.simplify(g.inv())
+
+# Build second-kind Christoffels but use fully lowered Riemann formula.
+Gamma = [[ [sp.S.Zero]*4 for _ in range(4)] for __ in range(4)]
+for a in range(4):
+    for b in range(4):
+        for c in range(4):
+            Gamma[a][b][c] = sp.simplify(sp.Rational(1,2)*sum(
+                gi[a,e]*(sp.diff(g[e,c],coords[b]) + sp.diff(g[e,b],coords[c]) - sp.diff(g[b,c],coords[e]))
+                for e in range(4)
+            ))
+
+def R(a,b,c,d):
+    second = sp.Rational(1,2)*(sp.diff(g[a,d], coords[b], coords[c]) + sp.diff(g[b,c], coords[a], coords[d]) - sp.diff(g[a,c], coords[b], coords[d]) - sp.diff(g[b,d], coords[a], coords[c]))
+    quad = sum(g[e,f]*(Gamma[e][b][c]*Gamma[f][a][d] - Gamma[e][b][d]*Gamma[f][a][c]) for e in range(4) for f in range(4))
+    return sp.factor(second + quad)
+
+D = A*r**2 + h**2*st**2
+u = sp.Matrix([1/sp.sqrt(A),0,0,0])
+n = sp.Matrix([0,sp.sqrt(A),0,0])
+e_th = sp.Matrix([0,0,1/r,0])
+e_ps = sp.Matrix([h*st/(sp.sqrt(A)*sp.sqrt(D)), 0, 0, sp.sqrt(A)/(st*sp.sqrt(D))])
+k = u + n
+frame = (u,n,e_th,e_ps)
+
+gram = sp.Matrix([[(va.T*g*vb)[0] for vb in frame] for va in frame]).subs(th, sp.pi/2).applyfunc(sp.simplify)
+null_norm = sp.simplify((k.T*g*k)[0].subs(th, sp.pi/2))
+
+T = sp.zeros(2)
+for aa, ea in enumerate((e_th,e_ps)):
+    for bb, eb in enumerate((e_th,e_ps)):
+        expr = sp.S.Zero
+        for a in range(4):
+            if ea[a] == 0:
+                continue
+            for b in range(4):
+                if k[b] == 0:
+                    continue
+                for c in range(4):
+                    if eb[c] == 0:
+                        continue
+                    for d in range(4):
+                        if k[d] == 0:
+                            continue
+                        expr += ea[a]*k[b]*eb[c]*k[d]*R(a,b,c,d)
+        T[aa,bb] = sp.factor(expr.subs(th, sp.pi/2))
+
+A0,A1,A2,h0,h1,h2 = sp.symbols('A0 A1 A2 h0 h1 h2', real=True)
+subs = {A:A0, sp.diff(A,r):A1, sp.diff(A,(r,2)):A2, h:h0, sp.diff(h,r):h1, sp.diff(h,(r,2)):h2}
+T = T.applyfunc(lambda x: sp.factor(x.subs(subs)))
+
+print('GRAM=', gram.tolist())
+print('NULL=', null_norm)
+print('T00=', T[0,0])
+print('T01=', T[0,1])
+print('T10=', T[1,0])
+print('T11=', T[1,1])
+
+N = sp.factor(T[1,1]*4*A0*(A0*r**2 + h0**2)**2 / h0)
+print('N=', N)
+
+eps = sp.symbols('eps', real=True)
+series = sp.expand(sp.series(T[1,1].subs({h0:eps*h0,h1:eps*h1,h2:eps*h2}), eps, 0, 5).removeO())
+print('eps1=', sp.factor(series.coeff(eps,1)))
+print('eps2=', sp.factor(series.coeff(eps,2)))
+print('eps3=', sp.factor(series.coeff(eps,3)))
+print('eps4=', sp.factor(series.coeff(eps,4)))
+print('h0zero=', sp.factor(T[1,1].subs({h0:0})))
+print('allhzero=', [sp.factor(T[i,j].subs({h0:0,h1:0,h2:0})) for i in range(2) for j in range(2)])
+PY" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 2896ms:
+GRAM= [[-1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+NULL= 0
+T00= 0
+T01= nan
+T10= nan
+T11= h0*(-4*A0**3*h0 + 8*A0**3*h1*r - 4*A0**3*h2*r**2 - 4*A0**2*A1*h0*r + 2*A0**2*A2*h0*r**2 - 4*A0**2*h0**2*h2 + 4*A0**2*h0*h1**2 - 4*A0*A1*h0**2*h1 + 2*A0*A2*h0**3 + A1**2*h0**3)/(4*A0*(A0*r**2 + h0**2)**2)
+N= -4*A0**3*h0 + 8*A0**3*h1*r - 4*A0**3*h2*r**2 - 4*A0**2*A1*h0*r + 2*A0**2*A2*h0*r**2 - 4*A0**2*h0**2*h2 + 4*A0**2*h0*h1**2 - 4*A0*A1*h0**2*h1 + 2*A0*A2*h0**3 + A1**2*h0**3
+eps1= 0
+eps2= h0*(-2*A0*h0 + 4*A0*h1*r - 2*A0*h2*r**2 - 2*A1*h0*r + A2*h0*r**2)/(2*A0*r**4)
+eps3= 0
+eps4= -h0**2*(-8*A0**2*h0**2 + 16*A0**2*h0*h1*r - 4*A0**2*h0*h2*r**2 - 4*A0**2*h1**2*r**2 - 8*A0*A1*h0**2*r + 4*A0*A1*h0*h1*r**2 + 2*A0*A2*h0**2*r**2 - A1**2*h0**2*r**2)/(4*A0**3*r**6)
+h0zero= 0
+allhzero= [0, nan, nan, 0]
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+import sympy as sp
+
+t, r = sp.symbols('t r', real=True)
+A = sp.Function('A')(r)
+h = sp.Function('h')(r)
+# Work directly on the equator theta=pi/2 to avoid removable sin(theta) singularities.
+# Metric derivatives wrt theta are still needed, so compute from full metric first.
+th, ps = sp.symbols('theta psi', real=True)
+st = sp.sin(th)
+coords = (t,r,th,ps)
+g = sp.zeros(4)
+g[0,0] = -A; g[1,1] = 1/A; g[2,2] = r**2; g[3,3] = r**2*st**2; g[0,3] = g[3,0] = h*st**2
+gi = sp.simplify(g.inv())
+Gamma = [[ [sp.S.Zero]*4 for _ in range(4)] for __ in range(4)]
+for a in range(4):
+  for b in range(4):
+    for c in range(4):
+      Gamma[a][b][c] = sp.simplify(sp.Rational(1,2)*sum(gi[a,e]*(sp.diff(g[e,c],coords[b])+sp.diff(g[e,b],coords[c])-sp.diff(g[b,c],coords[e])) for e in range(4)))
+
+def R(a,b,c,d):
+  second = sp.Rational(1,2)*(sp.diff(g[a,d], coords[b], coords[c]) + sp.diff(g[b,c], coords[a], coords[d]) - sp.diff(g[a,c], coords[b], coords[d]) - sp.diff(g[b,d], coords[a], coords[c]))
+  quad = sum(g[e,f]*(Gamma[e][b][c]*Gamma[f][a][d] - Gamma[e][b][d]*Gamma[f][a][c]) for e in range(4) for f in range(4))
+  return sp.simplify(second + quad)
+
+Deq = A*r**2 + h**2
+u = sp.Matrix([1/sp.sqrt(A),0,0,0])
+n = sp.Matrix([0,sp.sqrt(A),0,0])
+e_th = sp.Matrix([0,0,1/r,0])
+e_ps = sp.Matrix([h/(sp.sqrt(A)*sp.sqrt(Deq)),0,0,sp.sqrt(A)/sp.sqrt(Deq)])
+k = u+n
+
+T = sp.zeros(2)
+for aa, ea in enumerate((e_th,e_ps)):
+  for bb, eb in enumerate((e_th,e_ps)):
+    expr = 0
+    for a in range(4):
+      if ea[a]==0: continue
+      for b in range(4):
+        if k[b]==0: continue
+        for c in range(4):
+          if eb[c]==0: continue
+          for d in range(4):
+            if k[d]==0: continue
+            expr += ea[a]*k[b]*eb[c]*k[d]*sp.simplify(R(a,b,c,d).subs(th, sp.pi/2))
+    T[aa,bb] = sp.factor(sp.simplify(expr))
+A0,A1,A2,h0,h1,h2 = sp.symbols('A0 A1 A2 h0 h1 h2', real=True)
+subs = {A:A0, sp.diff(A,r):A1, sp.diff(A,(r,2)):A2, h:h0, sp.diff(h,r):h1, sp.diff(h,(r,2)):h2}
+T = T.applyfunc(lambda x: sp.factor(sp.simplify(x.subs(subs))))
+print(T)
+print('symmetry=', sp.factor(T[0,1]-T[1,0]))
+print('allhzero=', T.subs({h0:0,h1:0,h2:0}))
+PY" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 5040ms:
+Matrix([[0, 0], [0, h0*(-4*A0**3*h0 + 8*A0**3*h1*r - 4*A0**3*h2*r**2 - 4*A0**2*A1*h0*r + 2*A0**2*A2*h0*r**2 - 4*A0**2*h0**2*h2 + 4*A0**2*h0*h1**2 - 4*A0*A1*h0**2*h1 + 2*A0*A2*h0**3 + A1**2*h0**3)/(4*A0*(A0*r**2 + h0**2)**2)]])
+symmetry= 0
+allhzero= Matrix([[0, 0], [0, 0]])
+
+exec
+/bin/bash -lc "nl -ba udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md | sed -n '1,180p'" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+     1	# F01/F02 observer-sky Jacobi controls — preregistration
+     2	
+     3	Date: 2026-08-11  
+     4	Base commit: `0634b7f801253fc105d374c4c160dbbe19f5b9de`  
+     5	Mode: metric-led; bounded exact/CPU algebra; no eigensolve or fit
+     6	
+     7	## Whole question
+     8	
+     9	For one identical, explicitly typed observer-sky comparison query, what local screen Jacobi map is
+    10	returned by the round zero-mixing F01 control and by the round axis-regular mixing-on F02 control?
+    11	Which of the two historical affine angular-projection freedoms is replaced by metric geometry at
+    12	the first nontrivial local order, and which remains query-, profile-, boundary-, or source-owned?
+    13	
+    14	This is a control comparison. F01 and F02 are not candidate universes and will not be ranked.
+    15	
+    16	## Frozen geometry universe
+    17	
+    18	Exactly two stationary local control families are admitted:
+    19	
+    20	```text
+    21	F01: ds^2=-A(r)dt^2+dr^2/A(r)+r^2[dtheta^2+sin^2(theta)dpsi^2]
+    22	
+    23	F02: ds^2=-A(r)dt^2+dr^2/A(r)+r^2[dtheta^2+sin^2(theta)dpsi^2]
+    24	          +2h(r)sin^2(theta)dt dpsi.
+    25	```
+    26	
+    27	Assume only the regular Lorentzian stratum `r>0`, `A>0`, and
+    28	`D=A r^2+h^2 sin^2(theta)>0`. The local jets of `A` and `h` are
+    29	`free-and-explored` symbolic data. No P1 SNe pair profile is copied into `A`; no wall, global
+    30	profile, source, population, bootstrap value, or field equation is supplied.
+    31	
+    32	## Identical observer-sky query Qsky
+    33	
+    34	At a regular equatorial event `p=(t0,r0,pi/2,psi0)`, choose the stationary unit observer
+    35	`u=A^(-1/2) partial_t`, the outward unit radial direction `n=A^(1/2) partial_r`, and the oriented
+    36	orthonormal screen `(E_theta,E_psi)` obtained from the metric by Gram orthogonalization in the
+    37	`theta` and `t-psi` planes. Let `k=u+n` be the future/outward null comparison direction.
+    38	
+    39	The metric defines the affinely parameterized null geodesic `gamma` with initial data `(p,k)`.
+    40	Parallel transport the screen along `gamma`. Define two query-owned Jacobi fields by
+    41	
+    42	```text
+    43	J_B(0)=0,
+    44	nabla_k J_B(0)=E_B,
+    45	nabla_k nabla_k J_B+R(J_B,k)k=0.
+    46	```
+    47	
+    48	The screen Jacobi matrix is `mathcal_D_AB(s)=g(E_A,J_B)`. With the declared curvature convention,
+    49	
+    50	```text
+    51	mathcal_D(0)=0,
+    52	mathcal_D'(0)=I,
+    53	mathcal_D(s)=s I-(s^3/6) mathcal_T(0)+O(s^4),
+    54	mathcal_T_AB=g(E_A,R(E_B,k)k).
+    55	```
+    56	
+    57	This is an inter-observer/celestial-screen comparison query. The null generator is geometric query
+    58	data; it is not being interpreted as local material signalling in the co-present framing.
+    59	
+    60	## Premise stamps
+    61	
+    62	- `c_E`: `OBSERVED` local clock/ruler calibration. Algebra may use units `c_E=1`; dimensions must
+    63	  be restorable and no local variable speed is inferred.
+    64	- F01: `CHOSE` round, zero-mixing control.
+    65	- F02: `CHOSE` conditional round, axis-regular mixing-on control.
+    66	- stationary observer, equatorial event, radial initial direction, outward sign, and screen
+    67	  orientation: `CHOSE` query controls, held identical by construction.
+    68	- geodesic/Jacobi construction: `DERIVED` from each supplied metric and the declared initial query.
+    69	- `A(r)`, `h(r)` and local jets: `free-and-explored`; no fitted or preferred numerical profile.
+    70	- P1 SNe result: `CONDITIONAL` low-redshift pair-compatibility anchor only; inactive in the local
+    71	  coefficient derivation.
+    72	- `c_eff^(pair)`: `CONDITIONAL` inter-observer terminal readout; not used as a local propagation
+    73	  law.
+    74	- `X_max`: `WORKING` pair asymptotic guard; inactive locally.
+    75	- co-presence: `POSIT` interpretation; not a signalling mechanism.
+    76	- action, source, bootstrap, mode population, polarization source, and physical CMB query:
+    77	  `OPEN` and inactive.
+    78	
+    79	## Required calculation
+    80	
+    81	1. Derive the exact equatorial tetrad and prove it is orthonormal in both controls.
+    82	2. Derive the exact local optical/Jacobi tidal matrix `mathcal_T` for F02.
+    83	3. Take the exact `h -> 0` limit and compare it with an independently derived F01 result.
+    84	4. Classify trace (area focusing), trace-free symmetric part (shear), and antisymmetric/rotation
+    85	   content at the registered local order.
+    86	5. State which terms depend on local profile jets and which are fixed by the round/angular or mixing
+    87	   structure.
+    88	6. Preserve degeneracies and special subloci; do not discard them because they simplify or fail to
+    89	   resemble a desired sky.
+    90	
+    91	## Certification and falsification
+    92	
+    93	The package fails closed if:
+    94	
+    95	1. F01/F02 source formulas or frozen source hashes change;
+    96	2. the query differs between F01 and F02 except for metric-derived orthonormalization;
+    97	3. `h`, its derivatives, or complete `t-psi` mixing are silently zeroed in F02;
+    98	4. the F02 result does not reduce exactly to the independently derived F01 result at `h=0`;
+    99	5. the tetrad, null condition, Riemann symmetries, screen symmetry, or Jacobi initial conditions fail;
+   100	6. a local Taylor coefficient is promoted to a finite-distance map without integrating a supplied
+   101	   global profile;
+   102	7. a screen map is promoted to nonzero TT power without a source/state covariance;
+   103	8. an `SO(2)` screen-basis rotation is claimed to change scalar TT by itself;
+   104	9. the calculation infers local signalling, selects F01/F02, imports P1 as a centered lapse, or
+   105	   activates `X_max` as a local wall;
+   106	10. the production and independent checks share the load-bearing curvature implementation.
+   107	
+   108	Certification requires exact symbolic production algebra, a separately implemented independent
+   109	control for the load-bearing F01 limit and selected F02 substitutions, exercised catch-proofs,
+   110	repository gates, and fresh adversarial semantic review before a scientific verdict is banked.
+   111	
+   112	## Allowed landings
+   113	
+   114	Exactly one primary landing will be used:
+   115	
+   116	1. `LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER`;
+   117	2. `LOCAL_SKY_MAP_IDENTICAL_AT_REGISTERED_ORDER`;
+   118	3. `QUERY_OWNS_ONLY_FORMAL_JACOBI_OPERATOR_WITHOUT_EVALUABLE_CONTROL`;
+   119	4. `TYPE_OR_REGULARITY_FAILURE`;
+   120	5. `ALGEBRAICALLY_OR_NUMERICALLY_UNRESOLVED`.
+   121	
+   122	Maximum conclusion: a local, two-control, preregistered screen-Jacobi classification and an exact
+   123	account of which affine projection freedoms geometry does or does not remove. No CMB prediction,
+   124	screen selection, finite-distance angular scale, source/population law, polarization prediction,
+   125	FD2 restart, action, bootstrap result, local signal law, `X_max` value, or native dynamics follows.
+   126	
+
+exec
+/bin/bash -lc "nl -ba udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md | sed -n '1,220p'" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+     1	# Exact derivation — F01/F02 observer-sky Jacobi controls
+     2	
+     3	Date: 2026-08-11  
+     4	Primary landing: `LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER`
+     5	
+     6	## 1. Scope and object type
+     7	
+     8	The calculation evaluates one declared observer-sky query on two `CHOSE` controls. It does not ask
+     9	which control is physical. In units `c_E=1`, the metrics are
+    10	
+    11	```text
+    12	F01: ds^2=-A dt^2+dr^2/A+r^2(dtheta^2+sin^2(theta)dpsi^2),
+    13	
+    14	F02: ds^2=ds_F01^2+2h sin^2(theta)dt dpsi.
+    15	```
+    16	
+    17	At `p=(t0,r0,pi/2,psi0)`, define
+    18	
+    19	```text
+    20	u       = A^(-1/2) partial_t,
+    21	n       = A^(+1/2) partial_r,
+    22	E_theta = r^(-1) partial_theta,
+    23	D       = A r^2+h^2,
+    24	E_psi   = h/[sqrt(A)sqrt(D)] partial_t+sqrt(A)/sqrt(D) partial_psi,
+    25	k       = u+n.
+    26	```
+    27	
+    28	Direct contraction gives
+    29	
+    30	```text
+    31	g(u,u)=-1,  g(n,n)=g(E_theta,E_theta)=g(E_psi,E_psi)=1,
+    32	all cross products=0,  g(k,k)=0.
+    33	```
+    34	
+    35	The null geodesic with initial tangent `k` is a geometric comparison generator. In the co-present
+    36	interpretation it is not being promoted to a local material signal trajectory.
+    37	
+    38	For the two initial screen directions, let
+    39	
+    40	```text
+    41	J_B(0)=0,
+    42	nabla_k J_B(0)=E_B,
+    43	nabla_k nabla_k J_B+R(J_B,k)k=0.
+    44	```
+    45	
+    46	With a parallel screen, `mathcal_D_AB=g(E_A,J_B)` obeys
+    47	
+    48	```text
+    49	mathcal_D''+mathcal_T mathcal_D=0,
+    50	mathcal_D(0)=0,
+    51	mathcal_D'(0)=I,
+    52	mathcal_T_AB=g(E_A,R(E_B,k)k),
+    53	mathcal_D(s)=s I-(s^3/6)mathcal_T(0)+O(s^4).             (1)
+    54	```
+    55	
+    56	## 2. Exact F02 local tidal matrix
+    57	
+    58	Write the local jets as
+    59	
+    60	```text
+    61	A0=A(r0), A1=A'(r0), A2=A''(r0),
+    62	h0=h(r0), h1=h'(r0), h2=h''(r0).
+    63	```
+    64	
+    65	The complete coordinate curvature calculation gives
+    66	
+    67	```text
+    68	mathcal_T_F02 = [[0,0],[0,tau]],                         (2)
+    69	
+    70	tau = h0 N/[4 A0 (A0 r0^2+h0^2)^2],                    (3)
+    71	```
+    72	
+    73	where
+    74	
+    75	```text
+    76	N = -4 A0^3 h0+8 A0^3 h1 r0-4 A0^3 h2 r0^2
+    77	    -4 A0^2 A1 h0 r0+2 A0^2 A2 h0 r0^2
+    78	    -4 A0^2 h0^2 h2+4 A0^2 h0 h1^2
+    79	    -4 A0 A1 h0^2 h1+2 A0 A2 h0^3+A1^2 h0^3.           (4)
+    80	```
+    81	
+    82	Thus
+    83	
+    84	```text
+    85	D_theta_theta = s+O(s^4),
+    86	D_psi_psi      = s-tau s^3/6+O(s^4),
+    87	D_theta_psi    = D_psi_theta=O(s^4).                    (5)
+    88	```
+    89	
+    90	The trace is `tau`; the trace-free plus component under the registered orientation is `-tau/2`;
+    91	the cross component and antisymmetric rotation vanish. F02 therefore supplies a local principal
+    92	screen axis and a metric-derived area/shear correction on this query. It does not supply a local
+    93	rotation at this order.
+    94	
+    95	The sign is not fixed by the admitted local metric stratum. Positive and negative exact rational
+    96	controls both occur. Geometry owns the formula; a selected profile would be needed to own its
+    97	value along a complete branch.
+    98	
+    99	## 3. Weak-mixing and cancellation structure
+   100	
+   101	Scale the complete mixing jet by one bookkeeping amplitude,
+   102	`(h0,h1,h2)->epsilon(h0,h1,h2)`. Odd orders vanish and
+   103	
+   104	```text
+   105	tau=epsilon^2 tau_2+epsilon^4 tau_4+...,
+   106	
+   107	tau_2 = h0[-2 A0 h0+4 A0 h1 r0-2 A0 h2 r0^2
+   108	            -2 A1 h0 r0+A2 h0 r0^2]/[2 A0 r0^4].       (6)
+   109	```
+   110	
+   111	The local screen distortion is therefore quadratic, not linear, in a weak axis-regular mixing
+   112	amplitude. This agrees with the earlier angular operator's natural mixing variable
+   113	`B=h^2/(A r^2)` without importing that scalar operator as dynamics.
+   114	
+   115	There are two exact zero subloci at cubic Jacobi order:
+   116	
+   117	1. `h0=0`, even when `h1` or `h2` is nonzero;
+   118	2. `h0!=0` with the codimension-one local-jet cancellation `N=0`.
+   119	
+   120	These are retained. On either sublocus, higher Jacobi order or a finite path may still distinguish
+   121	F02; the present result is not a proof of complete equivalence.
+   122	
+   123	## 4. Independent F01 result and round limit
+   124	
+   125	F01 was rebuilt independently rather than obtained only by deleting terms from F02. Its exact
+   126	radial screen tidal matrix is
+   127	
+   128	```text
+   129	mathcal_T_F01=0                                             (7)
+   130	```
+   131	
+   132	for arbitrary regular `A,A',A''`. The production F02 expression reduces identically to (7) when
+   133	`h=h'=h''=0`.
+   134	
+   135	There is a useful exact conditional extension. Along a regular radial F01 null branch, the energy
+   136	`E=A dt/ds` is conserved and nullity gives `dr/ds=+E`. Hence `r` is affine and (7) holds along the
+   137	whole regular radial segment. With the registered initial data,
+   138	
+   139	```text
+   140	mathcal_D_F01(s)=s I                                       (8)
+   141	```
+   142	
+   143	until a caustic, chart failure, or query endpoint intervenes. Equation (8) does not select the
+   144	remote comparison surface or its affine location.
+   145	
+   146	## 5. What happens to the old affine projection freedoms
+   147	
+   148	The historical F00 comparison fitted a multipole scale and an offset. This control calculation
+   149	separates their ownership:
+   150	
+   151	- **scale:** the Jacobi map is the correct geometric home for converting a remote transverse scale
+   152	  into an observed angular scale. F01 fixes its radial form conditionally; F02 supplies a
+   153	  profile-dependent anisotropic correction. But no physical remote surface, complete F02 profile,
+   154	  or source scale is owned, so no numerical CMB angular scale is yet derived;
+   155	- **offset:** a mode-ladder offset is boundary/operator phase data, not a screen-Jacobi coefficient.
+   156	  This calculation does not derive it and must not hide it inside the angular map.
+   157	
+   158	The complete geometry has therefore replaced the *place where a projection-scale calculation
+   159	belongs*, and it has exposed a non-affine directional correction that the old scalar affine map
+   160	could not represent. It has not yet removed either historical fitted number from a physical CMB
+   161	comparison.
+   162	
+   163	## 6. Evidence
+   164	
+   165	Production constructs `g`, `g^-1`, every Christoffel symbol, and
+   166	`R^rho_(sigma mu nu)` before imposing the equatorial query. The independent implementation instead
+   167	uses the fully lowered Riemann formula built from second metric derivatives and quadratic
+   168	connection terms, and rebuilds F01 as a separate metric. It reproduces the full symbolic F02
+   169	formula, the standalone F01 zero, the round limit, screen symmetry, and three exact rational
+   170	controls: `6/6` checks.
+   171	
+   172	## 7. Landing and open scope
+   173	
+   174	`LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER`.
+   175	
+   176	The two controls are locally distinguishable on the identical query whenever `h0 N != 0`. F01 is
+   177	isotropic and linear on its regular radial branch; generic F02 produces a one-axis cubic
+   178	area/shear correction whose value is controlled by the admitted local `A,h` jets.
+   179	
+   180	Still open: the physical CMB observer query; the complete global F02 profile and endpoint;
+   181	finite-distance integration and cut/focal branches; the physical angular screen; source/state
+   182	covariance and nonzero TT power; boundary/operator phase; polarization source; action, source,
+   183	bootstrap, `X_max` value, and dynamics. No control has been selected and no local signalling claim
+   184	has been made.
+   185	
+
+exec
+/bin/bash -lc "nl -ba udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/derive_local_jacobi.py | sed -n '1,240p'" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Exact local screen-Jacobi coefficient for the preregistered F01/F02 query.
+     3	
+     4	This production implementation constructs the metric, Levi-Civita connection, and Riemann
+     5	curvature directly in coordinates before imposing the equatorial observer query.  It does not
+     6	import any repository physics implementation.
+     7	"""
+     8	
+     9	from __future__ import annotations
+    10	
+    11	import json
+    12	from pathlib import Path
+    13	
+    14	import sympy as sp
+    15	
+    16	
+    17	ROOT = Path(__file__).resolve().parent
+    18	
+    19	
+    20	def build_result() -> dict:
+    21	    t, r, th, ps = sp.symbols("t r theta psi", real=True)
+    22	    coords = (t, r, th, ps)
+    23	    A = sp.Function("A")(r)
+    24	    h = sp.Function("h")(r)
+    25	    s = sp.sin(th)
+    26	
+    27	    g = sp.zeros(4)
+    28	    g[0, 0] = -A
+    29	    g[1, 1] = 1 / A
+    30	    g[2, 2] = r**2
+    31	    g[3, 3] = r**2 * s**2
+    32	    g[0, 3] = g[3, 0] = h * s**2
+    33	    gi = sp.simplify(g.inv())
+    34	
+    35	    Gamma = [[[sp.S.Zero for _ in range(4)] for _ in range(4)] for _ in range(4)]
+    36	    for rho in range(4):
+    37	        for mu in range(4):
+    38	            for nu in range(4):
+    39	                Gamma[rho][mu][nu] = sp.factor(
+    40	                    sp.Rational(1, 2)
+    41	                    * sum(
+    42	                        gi[rho, lam]
+    43	                        * (
+    44	                            sp.diff(g[lam, nu], coords[mu])
+    45	                            + sp.diff(g[lam, mu], coords[nu])
+    46	                            - sp.diff(g[mu, nu], coords[lam])
+    47	                        )
+    48	                        for lam in range(4)
+    49	                    )
+    50	                )
+    51	
+    52	    # R^rho_{ sigma mu nu }, with R(X,Y)Z = X^mu Y^nu Z^sigma R^rho_{sigma mu nu}.
+    53	    def riemann(rho: int, sig: int, mu: int, nu: int) -> sp.Expr:
+    54	        return sp.factor(
+    55	            sp.diff(Gamma[rho][nu][sig], coords[mu])
+    56	            - sp.diff(Gamma[rho][mu][sig], coords[nu])
+    57	            + sum(
+    58	                Gamma[rho][mu][lam] * Gamma[lam][nu][sig]
+    59	                - Gamma[rho][nu][lam] * Gamma[lam][mu][sig]
+    60	                for lam in range(4)
+    61	            )
+    62	        )
+    63	
+    64	    D = A * r**2 + h**2 * s**2
+    65	    u = sp.Matrix([1 / sp.sqrt(A), 0, 0, 0])
+    66	    n = sp.Matrix([0, sp.sqrt(A), 0, 0])
+    67	    e_th = sp.Matrix([0, 0, 1 / r, 0])
+    68	    e_ps = sp.Matrix(
+    69	        [
+    70	            h * s / (sp.sqrt(A) * sp.sqrt(D)),
+    71	            0,
+    72	            0,
+    73	            sp.sqrt(A) / (s * sp.sqrt(D)),
+    74	        ]
+    75	    )
+    76	    k = u + n
+    77	    frame = (u, n, e_th, e_ps)
+    78	
+    79	    gram = sp.Matrix(
+    80	        [[sp.factor((va.T * g * vb)[0]) for vb in frame] for va in frame]
+    81	    )
+    82	    null_norm = sp.factor((k.T * g * k)[0])
+    83	
+    84	    screen = (e_th, e_ps)
+    85	    tidal = sp.zeros(2)
+    86	    for aa, ea in enumerate(screen):
+    87	        ea_cov = g * ea
+    88	        for bb, eb in enumerate(screen):
+    89	            value = sp.S.Zero
+    90	            for rho in range(4):
+    91	                if ea_cov[rho] == 0:
+    92	                    continue
+    93	                for sig in range(4):
+    94	                    if k[sig] == 0:
+    95	                        continue
+    96	                    for mu in range(4):
+    97	                        if eb[mu] == 0:
+    98	                            continue
+    99	                        for nu in range(4):
+   100	                            if k[nu] == 0:
+   101	                                continue
+   102	                            value += (
+   103	                                ea_cov[rho]
+   104	                                * riemann(rho, sig, mu, nu)
+   105	                                * eb[mu]
+   106	                                * k[nu]
+   107	                                * k[sig]
+   108	                            )
+   109	            tidal[aa, bb] = sp.factor(value.subs(th, sp.pi / 2))
+   110	
+   111	    # Replace functions and jets by compact algebraic symbols after all coordinate derivatives.
+   112	    A0, A1, A2, h0, h1, h2 = sp.symbols("A0 A1 A2 h0 h1 h2", real=True)
+   113	    jet_subs = {
+   114	        A: A0,
+   115	        sp.diff(A, r): A1,
+   116	        sp.diff(A, (r, 2)): A2,
+   117	        h: h0,
+   118	        sp.diff(h, r): h1,
+   119	        sp.diff(h, (r, 2)): h2,
+   120	    }
+   121	    tidal_jets = sp.Matrix(
+   122	        [[sp.factor(tidal[i, j].subs(jet_subs)) for j in range(2)] for i in range(2)]
+   123	    )
+   124	    round_tidal = sp.Matrix(
+   125	        [
+   126	            [
+   127	                sp.factor(
+   128	                    tidal_jets[i, j].subs({h0: 0, h1: 0, h2: 0})
+   129	                )
+   130	                for j in range(2)
+   131	            ]
+   132	            for i in range(2)
+   133	        ]
+   134	    )
+   135	    trace = sp.factor(sp.trace(tidal_jets))
+   136	    shear_plus = sp.factor((tidal_jets[0, 0] - tidal_jets[1, 1]) / 2)
+   137	    shear_cross = sp.factor((tidal_jets[0, 1] + tidal_jets[1, 0]) / 2)
+   138	    antisymmetric = sp.factor((tidal_jets[0, 1] - tidal_jets[1, 0]) / 2)
+   139	    eps = sp.symbols("epsilon", real=True)
+   140	    weak_series = sp.series(
+   141	        tidal_jets[1, 1].subs({h0: eps * h0, h1: eps * h1, h2: eps * h2}),
+   142	        eps,
+   143	        0,
+   144	        5,
+   145	    ).removeO()
+   146	    weak_quadratic = sp.factor(sp.expand(weak_series).coeff(eps, 2))
+   147	    weak_quartic = sp.factor(sp.expand(weak_series).coeff(eps, 4))
+   148	    mixing_polynomial = sp.factor(
+   149	        tidal_jets[1, 1] * 4 * A0 * (A0 * r**2 + h0**2) ** 2 / h0
+   150	    )
+   151	
+   152	    def sstr(expr: sp.Expr) -> str:
+   153	        return sp.sstr(expr)
+   154	
+   155	    result = {
+   156	        "curvature_convention": "R(X,Y)Z=nabla_X_nabla_Y_Z-nabla_Y_nabla_X_Z-nabla_[X,Y]_Z",
+   157	        "query": {
+   158	            "event": "(t0,r0,pi/2,psi0)",
+   159	            "observer": "A^(-1/2) partial_t",
+   160	            "radial_direction": "A^(1/2) partial_r",
+   161	            "generator": "k=u+n",
+   162	            "screen_theta": "r^(-1) partial_theta",
+   163	            "screen_psi": "h/(sqrt(A)*sqrt(D)) partial_t + sqrt(A)/sqrt(D) partial_psi at theta=pi/2",
+   164	        },
+   165	        "frame_gram_before_equator": [[sstr(x) for x in row] for row in gram.tolist()],
+   166	        "generator_norm": sstr(null_norm),
+   167	        "F02_tidal_matrix_equator": [[sstr(x) for x in row] for row in tidal_jets.tolist()],
+   168	        "F01_induced_limit": [[sstr(x) for x in row] for row in round_tidal.tolist()],
+   169	        "trace": sstr(trace),
+   170	        "shear_plus": sstr(shear_plus),
+   171	        "shear_cross": sstr(shear_cross),
+   172	        "antisymmetric": sstr(antisymmetric),
+   173	        "mixing_polynomial_N": sstr(mixing_polynomial),
+   174	        "weak_mixing_linear": "0",
+   175	        "weak_mixing_quadratic": sstr(weak_quadratic),
+   176	        "weak_mixing_cubic": "0",
+   177	        "weak_mixing_quartic": sstr(weak_quartic),
+   178	        "special_subloci": {
+   179	            "h_at_event_zero": "T=0 at cubic Jacobi order even when h1 or h2 is nonzero",
+   180	            "nonzero_h_cancellation": "N=0 is a codimension-one local-jet cancellation condition",
+   181	            "generic": "h0*N != 0 gives one-axis cubic screen distortion",
+   182	        },
+   183	        "local_Jacobi_series": "D(s)=s I-s^3 T/6+O(s^4)",
+   184	        "primary_landing": "LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER",
+   185	        "maximum_conclusion": "local two-control screen-Jacobi classification only; no finite CMB angular map, TT power, screen selection, source/population, local signal law, FD2 restart, action, bootstrap, Xmax value, or dynamics",
+   186	    }
+   187	    return result
+   188	
+   189	
+   190	def main() -> None:
+   191	    result = build_result()
+   192	    output = ROOT / "DERIVATION_RESULT.json"
+   193	    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+   194	    print(json.dumps(result, indent=2, sort_keys=True))
+   195	
+   196	
+   197	if __name__ == "__main__":
+   198	    main()
+
+exec
+/bin/bash -lc "nl -ba udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_local_jacobi_independent.py | sed -n '1,240p'" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Independent exact check using the lowered-metric Riemann formula.
+     3	
+     4	This script does not import the production derivation.  In particular, it does not differentiate
+     5	second-kind Christoffel symbols; it constructs the fully lowered Riemann tensor directly from
+     6	second metric derivatives and quadratic connection terms.  F01 is rebuilt as its own metric.
+     7	"""
+     8	
+     9	from __future__ import annotations
+    10	
+    11	import json
+    12	from pathlib import Path
+    13	
+    14	import sympy as sp
+    15	
+    16	
+    17	ROOT = Path(__file__).resolve().parent
+    18	
+    19	
+    20	def lowered_riemann(g: sp.Matrix, coords: tuple[sp.Symbol, ...]):
+    21	    gi = sp.simplify(g.inv())
+    22	    dim = len(coords)
+    23	    Gamma = [[[sp.S.Zero for _ in range(dim)] for _ in range(dim)] for _ in range(dim)]
+    24	    for a in range(dim):
+    25	        for b in range(dim):
+    26	            for c in range(dim):
+    27	                Gamma[a][b][c] = sp.Rational(1, 2) * sum(
+    28	                    gi[a, e]
+    29	                    * (
+    30	                        sp.diff(g[e, c], coords[b])
+    31	                        + sp.diff(g[e, b], coords[c])
+    32	                        - sp.diff(g[b, c], coords[e])
+    33	                    )
+    34	                    for e in range(dim)
+    35	                )
+    36	
+    37	    # R_abcd = g_ae R^e_bcd for the convention declared in PREREGISTRATION.md.
+    38	    def R(a: int, b: int, c: int, d: int) -> sp.Expr:
+    39	        second = sp.Rational(1, 2) * (
+    40	            sp.diff(g[a, d], coords[b], coords[c])
+    41	            + sp.diff(g[b, c], coords[a], coords[d])
+    42	            - sp.diff(g[a, c], coords[b], coords[d])
+    43	            - sp.diff(g[b, d], coords[a], coords[c])
+    44	        )
+    45	        quadratic = sum(
+    46	            g[e, f]
+    47	            * (
+    48	                Gamma[e][b][c] * Gamma[f][a][d]
+    49	                - Gamma[e][b][d] * Gamma[f][a][c]
+    50	            )
+    51	            for e in range(dim)
+    52	            for f in range(dim)
+    53	        )
+    54	        return sp.factor(second + quadratic)
+    55	
+    56	    return R
+    57	
+    58	
+    59	def screen_tidal(g: sp.Matrix, coords, frame, theta_value) -> sp.Matrix:
+    60	    u, n, e_th, e_ps = frame
+    61	    k = u + n
+    62	    R = lowered_riemann(g, coords)
+    63	    out = sp.zeros(2)
+    64	    for aa, ea in enumerate((e_th, e_ps)):
+    65	        for bb, eb in enumerate((e_th, e_ps)):
+    66	            value = sp.S.Zero
+    67	            for a in range(4):
+    68	                if ea[a] == 0:
+    69	                    continue
+    70	                for b in range(4):
+    71	                    if k[b] == 0:
+    72	                        continue
+    73	                    for c in range(4):
+    74	                        if eb[c] == 0:
+    75	                            continue
+    76	                        for d in range(4):
+    77	                            if k[d] == 0:
+    78	                                continue
+    79	                            value += ea[a] * k[b] * eb[c] * k[d] * R(a, b, c, d)
+    80	            out[aa, bb] = sp.factor(value.subs(coords[2], theta_value))
+    81	    return out
+    82	
+    83	
+    84	def main() -> None:
+    85	    t, r, th, ps = sp.symbols("t r theta psi", real=True)
+    86	    coords = (t, r, th, ps)
+    87	    A = sp.Function("A")(r)
+    88	    h = sp.Function("h")(r)
+    89	    st = sp.sin(th)
+    90	
+    91	    g2 = sp.zeros(4)
+    92	    g2[0, 0] = -A
+    93	    g2[1, 1] = 1 / A
+    94	    g2[2, 2] = r**2
+    95	    g2[3, 3] = r**2 * st**2
+    96	    g2[0, 3] = g2[3, 0] = h * st**2
+    97	    D = A * r**2 + h**2 * st**2
+    98	    frame2 = (
+    99	        sp.Matrix([1 / sp.sqrt(A), 0, 0, 0]),
+   100	        sp.Matrix([0, sp.sqrt(A), 0, 0]),
+   101	        sp.Matrix([0, 0, 1 / r, 0]),
+   102	        sp.Matrix(
+   103	            [h * st / (sp.sqrt(A) * sp.sqrt(D)), 0, 0, sp.sqrt(A) / (st * sp.sqrt(D))]
+   104	        ),
+   105	    )
+   106	    exact2 = screen_tidal(g2, coords, frame2, sp.pi / 2)
+   107	
+   108	    # Rebuild F01 independently rather than obtaining it by a substitution in F02.
+   109	    g1 = sp.diag(-A, 1 / A, r**2, r**2 * st**2)
+   110	    frame1 = (
+   111	        sp.Matrix([1 / sp.sqrt(A), 0, 0, 0]),
+   112	        sp.Matrix([0, sp.sqrt(A), 0, 0]),
+   113	        sp.Matrix([0, 0, 1 / r, 0]),
+   114	        sp.Matrix([0, 0, 0, 1 / (r * st)]),
+   115	    )
+   116	    exact1 = screen_tidal(g1, coords, frame1, sp.pi / 2)
+   117	
+   118	    A0, A1, A2, h0, h1, h2 = sp.symbols("A0 A1 A2 h0 h1 h2", real=True)
+   119	    jets = {
+   120	        A: A0,
+   121	        sp.diff(A, r): A1,
+   122	        sp.diff(A, (r, 2)): A2,
+   123	        h: h0,
+   124	        sp.diff(h, r): h1,
+   125	        sp.diff(h, (r, 2)): h2,
+   126	    }
+   127	    exact2 = exact2.applyfunc(lambda x: sp.factor(x.subs(jets)))
+   128	    exact1 = exact1.applyfunc(lambda x: sp.factor(x.subs(jets)))
+   129	
+   130	    production = json.loads((ROOT / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+   131	    locals_map = {"A0": A0, "A1": A1, "A2": A2, "h0": h0, "h1": h1, "h2": h2, "r": r}
+   132	    prod2 = sp.Matrix(
+   133	        [[sp.sympify(x, locals=locals_map) for x in row] for row in production["F02_tidal_matrix_equator"]]
+   134	    )
+   135	    prod1 = sp.Matrix(
+   136	        [[sp.sympify(x, locals=locals_map) for x in row] for row in production["F01_induced_limit"]]
+   137	    )
+   138	
+   139	    checks = {
+   140	        "independent_F02_exact_match": all(
+   141	            sp.factor(exact2[i, j] - prod2[i, j]) == 0 for i in range(2) for j in range(2)
+   142	        ),
+   143	        "independent_F01_exact_match": all(
+   144	            sp.factor(exact1[i, j] - prod1[i, j]) == 0 for i in range(2) for j in range(2)
+   145	        ),
+   146	        "standalone_F01_zero": exact1 == sp.zeros(2),
+   147	        "F02_screen_symmetry": sp.factor(exact2[0, 1] - exact2[1, 0]) == 0,
+   148	        "F02_h_zero_limit": exact2.subs({h0: 0, h1: 0, h2: 0}) == exact1,
+   149	    }
+   150	
+   151	    samples = [
+   152	        {r: sp.Rational(13, 10), A0: sp.Rational(9, 10), A1: sp.Rational(-1, 10), A2: sp.Rational(3, 50), h0: sp.Rational(1, 5), h1: sp.Rational(3, 10), h2: sp.Rational(-1, 20)},
+   153	        {r: sp.Rational(4, 5), A0: sp.Rational(6, 5), A1: sp.Rational(1, 20), A2: sp.Rational(-1, 10), h0: sp.Rational(-1, 8), h1: sp.Rational(1, 7), h2: sp.Rational(1, 9)},
+   154	        {r: sp.Rational(3, 2), A0: sp.Rational(1, 1), A1: 0, A2: 0, h0: sp.Rational(3, 20), h1: sp.Rational(1, 5), h2: sp.Rational(2, 15)},
+   155	    ]
+   156	    sample_values = []
+   157	    for sample in samples:
+   158	        lhs = exact2.subs(sample)
+   159	        rhs = prod2.subs(sample)
+   160	        sample_values.append(
+   161	            {
+   162	                "exact_match": lhs == rhs,
+   163	                "tidal": [[str(sp.factor(lhs[i, j])) for j in range(2)] for i in range(2)],
+   164	            }
+   165	        )
+   166	    checks["three_exact_rational_controls"] = all(x["exact_match"] for x in sample_values)
+   167	
+   168	    result = {
+   169	        "method": "direct fully-lowered Riemann from metric second derivatives; standalone F01 rebuild",
+   170	        "checks": checks,
+   171	        "independent_F02": [[str(x) for x in row] for row in exact2.tolist()],
+   172	        "independent_F01": [[str(x) for x in row] for row in exact1.tolist()],
+   173	        "samples": sample_values,
+   174	        "passed": sum(bool(v) for v in checks.values()),
+   175	        "total": len(checks),
+   176	    }
+   177	    (ROOT / "INDEPENDENT_VERIFICATION_RESULT.json").write_text(
+   178	        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+   179	    )
+   180	    print(json.dumps(result, indent=2, sort_keys=True))
+   181	    if not all(checks.values()):
+   182	        raise SystemExit(1)
+   183	
+   184	
+   185	if __name__ == "__main__":
+   186	    main()
+
+exec
+/bin/bash -lc "nl -ba udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md | sed -n '1,120p'" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+exec
+/bin/bash -lc "nl -ba udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PROJECTION_FREEDOM_LEDGER.tsv | sed -n '1,80p'" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+     1	# F01/F02 observer-sky Jacobi controls — audit report
+     2	
+     3	## Verdict
+     4	
+     5	`LOCAL_SKY_MAP_GEOMETRY_DISTINGUISHES_F01_F02_WITH_PROFILE_REMAINDER`.
+     6	
+     7	On one identical preregistered observer-sky query, F01 has zero radial screen tidal matrix for
+     8	arbitrary regular local `A(r)`. F02 has the exact local matrix `diag(0,tau)`, with `tau` determined
+     9	by `A,h` and their first two radial derivatives. The antisymmetric/rotation channel vanishes at
+    10	this order. Generic weak mixing enters at quadratic order.
+    11	
+    12	## What was accomplished
+    13	
+    14	- The observer-sky projection is now a typed metric/Jacobi object rather than an unexplained affine
+    15	  conversion.
+    16	- F01 and F02 are demonstrably different on the same query without an eigensolve or data fit.
+    17	- F01 integrates conditionally to `D=sI` along a regular radial branch.
+    18	- F02 supplies a directional, non-affine correction, but its finite value remains profile- and
+    19	  endpoint-dependent.
+    20	- The old scale freedom has the correct geometric home but is not numerically closed. The old
+    21	  ladder offset remains boundary/operator-owned and is not produced by screen geometry.
+    22	
+    23	## Evidence status before external review
+    24	
+    25	1. **Preregistered:** yes, commit `456aeec5`, before curvature evaluation.
+    26	2. **Full or bounded:** full over the declared F01/F02 local symbolic-jet controls and all exact
+    27	   special subloci of the derived cubic coefficient; not a global-profile or all-query census.
+    28	3. **Independent:** local independent implementation passes `6/6`, using the lowered Riemann formula
+    29	   and a standalone F01 rebuild. Fresh external semantic review remains required before banking a
+    30	   verified scientific verdict.
+    31	4. **Premises:** audited in `PREMISE_LEDGER.tsv`; both geometries and the query are explicit controls.
+    32	
+    33	Current evidence grade: `LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW`.
+    34	
+    35	## Authority boundary
+    36	
+    37	No CMB prediction, TT power, polarization prediction, physical screen/profile/branch selection,
+    38	FD2 restart, source law, local signalling, action, bootstrap result, `X_max` value, or dynamics is
+    39	authorized by this return.
+    40	
+    41	## Next gate
+    42	
+    43	Obtain a fresh adversarial review of the exact query typing, curvature contraction, F01 global
+    44	extension, F02 formula, weak-mixing order, and projection-freedom ownership. Only after acceptance
+    45	should a separately preregistered finite-path control be considered.
+
+ succeeded in 0ms:
+     1	historical_freedom	correct_mathematical_home	what_this_control_derives	what_remains_open	status_after_control
+     2	affine_scale	observer-sky_Jacobi_map_plus_remote_source_scale	F01_D=sI_conditionally; F02_local_directional_cubic_correction	physical endpoint complete profile source scale and finite integration	GEOMETRIZED_HOME_BUT_NOT_NUMERICALLY_CLOSED
+     3	affine_offset	mode_operator_boundary_phase	no offset term from screen Jacobi geometry	physical operator boundary and source population	NOT_OWNED_BY_THIS_QUERY
+     4	directional_distortion	screen_Jacobi_tracefree_part	F01_zero; F02_shear_plus=-tau/2	complete path profile and physical screen	NEW_NONAFFINE_GEOMETRIC_CHANNEL
+     5	screen_rotation	antisymmetric_Jacobi_or_screen_transport	zero at registered local cubic order	finite path holonomy and orientation-sensitive source	LOCALLY_ZERO_NOT_GLOBALLY_EXCLUDED
+     6	TT_power	source_state_covariance_plus_response	none	native source population and response	OPEN
+     7	
+
+exec
+/bin/bash -lc "nl -ba udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREMISE_LEDGER.tsv | sed -n '1,80p'" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+     1	item	value_or_definition	status	ownership_or_role	not_owned
+     2	c_E	local clock/ruler calibration; units c_E=1 allowed	OBSERVED	local scale calibration	local variable signal speed
+     3	F01	-A dt2+dr2/A+r2 dOmega2	CHOSE	round zero-mixing control	physical universe or selected screen
+     4	F02	F01+2 h sin2(theta) dt dpsi	CHOSE	axis-regular mixing-on control	physical universe or selected screen
+     5	regular_stratum	r>0; A>0; D=A*r2+h2*sin2(theta)>0	pinned-by-THEORY:metric signature	local algebra domain	global completeness
+     6	observer_event	(t0,r0,pi/2,psi0)	CHOSE	identical equatorial query control	preferred center or observer
+     7	observer_u	A^(-1/2) partial_t	CHOSE:metric-normalized	stationary local observer	global preferred congruence
+     8	line_of_sight_n	A^(1/2) partial_r	CHOSE:metric-normalized	outward radial control	physical CMB branch selector
+     9	screen	metric-orthonormal E_theta,E_psi	DERIVED conditional on query	observer celestial screen	population or polarization source
+    10	generator_k	u+n	DERIVED conditional on query	metric-null comparison generator	material signal trajectory
+    11	Jacobi_map	D_AB=g(E_A,J_B)	DERIVED conditional on metric+query	local remote-to-sky differential map	finite global angular map
+    12	A_h_jets	arbitrary allowed local symbolic jets	free-and-explored	profile dependence census	field equation or global profile
+    13	P1_SNe	low-z pair compatibility anchor	CONDITIONAL	later cross-regime compatibility	centered local lapse
+    14	c_eff_pair	exp(-2 phi_pair) terminal ratio	CONDITIONAL	inter-observer readout	local propagation speed
+    15	X_max	pair positional-dilation asymptote	WORKING	later global guard	local wall or boundary
+    16	co_presence	whole-solution interpretation	POSIT	interpretive guard	local signalling mechanism
+    17	source_population	unsupplied	OPEN	needed for nonzero TT power	derivable from spectrum alone
+    18	bootstrap_action_dynamics	inactive	OPEN	outside bounded control	selector in this calculation
+    19	
+
+exec
+/bin/bash -lc "nl -ba udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/LOCAL_CONTROL_ATLAS.tsv | sed -n '1,40p'" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+     1	family	metric_status	query_status	theta_tidal	cross_tidal	psi_tidal	rotation	weak_mixing_order	finite_map_status	physical_status
+     2	F01	CHOSE_ROUND_ZERO_MIX	IDENTICAL_QSKY	0	0	0	0	NOT_APPLICABLE	EXACT_D_EQUALS_sI_ON_REGULAR_RADIAL_SEGMENT_BUT_ENDPOINT_OPEN	CONTROL_NOT_SELECTED
+     3	F02	CHOSE_AXIS_REGULAR_MIXING_ON	IDENTICAL_QSKY	0	0	h0*N/[4*A0*(A0*r0^2+h0^2)^2]	0	QUADRATIC_GENERIC	OPEN_UNTIL_PROFILE_PATH_ENDPOINT_AND_BRANCH_ARE_SUPPLIED	CONTROL_NOT_SELECTED
+     4	
+
+exec
+/bin/bash -lc "nl -ba udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md | sed -n '1,200p'" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+     1	# Complete CMB observation-query map — exact derivation
+     2	
+     3	## 1. The observed object and the theory-side object are different types
+     4	
+     5	The observational TT object can be represented, without importing a cosmological dynamics, as a
+     6	real scalar field on the observer's celestial screen,
+     7	
+     8	```text
+     9	Theta(n) = T(n)/T_bar - 1,
+    10	a_lm = integral Theta(n) conjugate(Y_lm(n)) dOmega,
+    11	C_l^TT = (1/(2l+1)) sum_m |a_lm|^2.
+    12	```
+    13	
+    14	This is an `OBSERVED/COMPARISON` definition of the reported angular statistic. It does not say
+    15	what produced `Theta`, how a comparison structure is related to the observer's sky, or which UDT
+    16	geometry is physical.
+    17	
+    18	A UDT-native prediction of that object would require, at minimum, the following typed chain:
+    19	
+    20	```text
+    21	ordered observer-sky query
+    22	    -> one or more regular relation realizations
+    23	    -> terminal pair state plus screen map and allowed transport
+    24	    -> conditional/native response or mode structure
+    25	    -> state/source covariance and normalization
+    26	    -> scalar sky field or its covariance
+    27	    -> C_l^TT and its peak positions/heights.
+    28	```
+    29	
+    30	The arrows mean typed dependency, not material signal travel. This audit remains entirely about
+    31	inter-observational-frame relations in a co-present geometry. Local calibration remains `c_E`.
+    32	
+    33	## 2. Exact separation of spectrum and power
+    34	
+    35	Let a conditional operator supply modes `e_j` with spectral locations `omega_j`. A scalar sky field
+    36	expanded in their projected images has coefficients `a_j`. Its quadratic power reads the second
+    37	moments `E[a_j conjugate(a_k)]`, not merely `omega_j`.
+    38	
+    39	Hold the operator and spectrum fixed. Three admissible algebraic covariance assignments are
+    40	
+    41	```text
+    42	W_A = diag(1,0,1,0),
+    43	W_B = diag(0,1,0,1),
+    44	W_0 = 0.
+    45	```
+    46	
+    47	They produce different nonzero mode supports, and the last produces no power at all, while the
+    48	spectrum is identical. Therefore:
+    49	
+    50	```text
+    51	mode existence does not derive nonzero angular power;
+    52	the spectrum alone does not identify which modes form observed peaks;
+    53	peak heights and overall amplitude require additional state/source information.
+    54	```
+    55	
+    56	`verify_spectrum_power_nonuniqueness.py` checks this finite countermodel exactly. It is not a
+    57	physical source model; it is a type/no-uniqueness proof.
+    58	
+    59	## 3. What the historical CMB calculation actually read
+    60	
+    61	The corrected F00 atlas owns `10,080` roots of a `CHOSE` stationary equatorial scalar operator,
+    62	conditioned on the P1 shape family, sampled mixing, real `m=-1,0,+1`, and free D/N wall
+    63	representatives. The attributed phase then fit each ladder to seven published TT peak locations
+    64	with two affine freedoms.
+    65	
+    66	Consequently its map is
+    67	
+    68	```text
+    69	conditional C0 scalar roots
+    70	    -> two-parameter affine location comparison
+    71	    -> attributed TT position residuals.
+    72	```
+    73	
+    74	It did not construct the physical CMB observer query, a screen/Jacobi map, a native response
+    75	kernel, a state covariance, peak power, or polarization. The result remains a compatibility
+    76	diagnostic. The corrected three-ladder atlas also withdraws the earlier centered-multiplet reading.
+    77	
+    78	## 4. Complete-query channel typing
+    79	
+    80	Once a regular pair immersion `F` is supplied, the metric owns
+    81	
+    82	```text
+    83	h = F* g,
+    84	kappa_pair = (1/4) log(-det h),
+    85	phi_pair = (1/4) log((-det h)/h_00^2),
+    86	beta_pair = h_01/h_00.
+    87	```
+    88	
+    89	The conditional pair cone then has
+    90	
+    91	```text
+    92	c_eff^(pair)/c_E = exp(-2 phi_pair).
+    93	```
+    94	
+    95	This is an inter-observer readout, not a local material speed. It does not by itself create a
+    96	celestial angular map. That requires a screen Jacobi map or a mathematically equivalent component
+    97	of the actual query realization. Ambient transport exists after a path is supplied. Normal/screen
+    98	transport exists after a pair immersion is supplied.
+    99	
+   100	For a scalar TT observable, a pure `SO(2)` rotation of the screen basis does not alter the scalar
+   101	temperature value. Therefore normal holonomy is not a direct scalar-TT modulation merely because
+   102	it exists. An orientation-sensitive polarization field is different: it requires a screen-frame
+   103	carry or equivalent connection and a spin-sensitive source/statistical rule. The runnable finite
+   104	check records this distinction without claiming a polarization dynamics.
+   105	
+   106	## 5. Exact family census
+   107	
+   108	The frozen `F00`--`F17` universe is reproduced one-for-one in
+   109	`FAMILY_REALIZATION_ATLAS.tsv`.
+   110	
+   111	- `F00` is the incomplete equatorial control and the only family with the historical attributed
+   112	  position diagnostic.
+   113	- `F01` is the round `SO(3)` local control.
+   114	- `F02` is the conditional axis-regular C1 screen; its `15,420` coupling-matrix elements are banked,
+   115	  but no eigenvalue solve or physical profile is selected.
+   116	- `F03`--`F04` are general screen envelopes without selected profiles.
+   117	- `F05`--`F14` are conditional S3 controls that may not be spliced into the WR-L radial background.
+   118	- `F15` is the degenerate no-inverse control.
+   119	- `F16` is the global non-toric availability countercontrol.
+   120	- `F17` is the general positive-screen algebra envelope, not a physical completion.
+   121	
+   122	None of these ambient-geometry families supplies a physical CMB observer-pair query or pair
+   123	immersion. Hence none currently owns the terminal pair state, observer-sky Jacobi map, same-query
+   124	ambient/normal transports, source covariance, TT power prediction, or polarization prediction.
+   125	This is not evidence that such a realization does not exist. It is an ownership result over the
+   126	frozen registered universe.
+   127	
+   128	## 6. What does and does not follow
+   129	
+   130	The complete metric has much richer angular structure than the old equatorial slice: generic
+   131	screens mix `ell`, may mix `m`, and contain a shift-divergence term absent from the axial shortcut.
+   132	That structure remains live. But its existence is not yet a rule selecting a physical screen,
+   133	population, or observed peak.
+   134	
+   135	The low-redshift P1 SNe result travels only as a compatibility anchor after a CMB pair profile is
+   136	constructed. It cannot be copied into a centered CMB lapse. `X_max` travels only as the working
+   137	observer-pair positional-dilation asymptote. It is not a local wall, a boundary condition, a path,
+   138	or a family selector.
+   139	
+   140	## 7. Smallest next calculation
+   141	
+   142	The next calculation should construct one identical, explicit observer-sky query protocol on each
+   143	of two nonphysical controls:
+   144	
+   145	1. the round `F01` geometry;
+   146	2. the axis-regular mixing-on `F02` geometry.
+   147	
+   148	For each, derive the query's pair immersion/correspondence and screen Jacobi map from the same
+   149	metric realization before any eigenvalue solve. The comparison is a control pair, not a contest to
+   150	choose the universe. It will test which old affine projection freedom is replaced by geometry and
+   151	which freedom remains query- or source-owned. Only after that map exists can FD2 be reformulated
+   152	without postselecting a ladder.
+   153	
+
+exec
+/bin/bash -lc "nl -ba udt_cmb_complete_angular_mode_ownership_2026-08-09/EXACT_DERIVATION.md | sed -n '1,120p'" in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+     1	# Exact derivation — complete-angular mode ownership
+     2	
+     3	Date: 2026-08-09  
+     4	Status: `CONDITIONAL_MODE_DECOMPOSITION_DERIVED; PHYSICAL_COMPLETION_AND_POPULATION_PROJECTION_OPEN`
+     5	
+     6	## 1. What is being extended
+     7	
+     8	The corrected FD1 atlas solves the scalar operator on the declared `2+1`-dimensional equatorial
+     9	metric
+    10	
+    11	```text
+    12	ds_C0^2=-A dt^2+dr^2/A+r^2 dpsi^2+2h dt dpsi.
+    13	```
+    14	
+    15	Its integer `m` is exactly the Fourier character of the chosen `psi` circle. That ownership is
+    16	valid in C0. It does not yet say how a C0 radial eigenfunction extends through a complete angular
+    17	screen.
+    18	
+    19	The clean axis-regular round-screen completion named by RA1 is the conditional representative C1:
+    20	
+    21	```text
+    22	ds_C1^2 = -A dt^2 + dr^2/A + r^2 dtheta^2
+    23	          + r^2 sin^2(theta)dpsi^2
+    24	          + 2 h sin^2(theta) dt dpsi.
+    25	```
+    26	
+    27	The `sin^2(theta)` factor is required for regularity of the axial one-form at the poles. C1 is
+    28	`CHOSE`; no current UDT selector privileges a round screen, this axial lift, or its global
+    29	completion.
+    30	
+    31	## 2. Exact C1 inverse, density, and scalar operator
+    32	
+    33	Set
+    34	
+    35	```text
+    36	D(r,theta)=A(r)r^2+h(r)^2 sin^2(theta).
+    37	```
+    38	
+    39	Then
+    40	
+    41	```text
+    42	det(g) = -r^2 sin^2(theta) D/A,
+    43	sqrt(-g) = S = r sin(theta) sqrt(D/A),
+    44	
+    45	g^tt       = -r^2/D,
+    46	g^tpsi     =  h/D,
+    47	g^psipsi   =  A/[sin^2(theta)D],
+    48	g^rr       =  A,
+    49	g^thetatheta = 1/r^2.
+    50	```
+    51	
+    52	For
+    53	
+    54	```text
+    55	Psi=exp(-i omega t+i m psi)u(r,theta),
+    56	```
+    57	
+    58	the exact scalar equation `Box_g Psi=0` is
+    59	
+    60	```text
+    61	0 = S^-1 partial_r(S A partial_r u)
+    62	  + S^-1 partial_theta(S partial_theta u/r^2)
+    63	  + [r^2 omega^2+2h omega m-A m^2/sin^2(theta)]u/D.       (1)
+    64	```
+    65	
+    66	This is still only the chosen scalar diagnostic, not native UDT dynamics.
+    67	
+    68	## 3. The equatorial atlas does not lift as the same radial problem
+    69	
+    70	At `theta=pi/2`, define `D_eq=A r^2+h^2` and `W=sqrt(D_eq/A)`. C0 has density `W`; C1 has
+    71	
+    72	```text
+    73	S_eq = r W.
+    74	```
+    75	
+    76	Therefore, even after suppressing all polar dependence, the C1 radial flux is
+    77	
+    78	```text
+    79	(r W)^-1 partial_r(r W A partial_r R),
+    80	```
+    81	
+    82	whereas C0 used
+    83	
+    84	```text
+    85	W^-1 partial_r(W A partial_r R).
+    86	```
+    87	
+    88	The extra factor is the volume of the angular dimension that C0 omitted. The time/azimuth
+    89	potential agrees at the equator, but the differential operator does not. Consequently the 10,080
+    90	FD1 roots remain valid observations of C0 and cannot be relabeled as C1 full-angular roots.
+    91	
+    92	## 4. Generic C1 modes are a coupled two-dimensional problem
+    93	
+    94	Write
+    95	
+    96	```text
+    97	B(r)=h(r)^2/[A(r)r^2].
+    98	```
+    99	
+   100	The mixed logarithmic-volume derivative is exactly
+   101	
+   102	```text
+   103	partial_r partial_theta log S
+   104	 = B'(r)sin(theta)cos(theta)/[1+B(r)sin^2(theta)]^2.       (2)
+   105	```
+   106	
+   107	For a product ansatz `u=R(r)Theta(theta)`, the ratio of the two principal coefficients forces the
+   108	only separation multiplier, up to a constant, to be `r^2`. After that multiplication, the
+   109	theta-derivative of the radial first-derivative coefficient is
+   110	
+   111	```text
+   112	r^2 A B'(r)sin(theta)cos(theta)/[1+B(r)sin^2(theta)]^2.
+   113	```
+   114	
+   115	It is nonzero whenever `B'` is nonzero. In the frozen FD1 family
+   116	
+   117	```text
+   118	A=(1-r)^n,
+   119	h=hbar r^2(1-r)^q,
+   120	B=hbar^2 r^2(1-r)^(2q-n),
+
+exec
+/bin/bash -lc 'tail -n +2 udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/REVIEW_MANIFEST.tsv | wc -l' in /tmp/udt-f01-f02-jacobi-review-GPbfY3f7
+ succeeded in 0ms:
+33
+
+codex
+**Verdict**
+
+`VERIFIED_WITH_CAVEATS`
+
+I verified `33/33` `REVIEW_MANIFEST.tsv` paths and SHA-256 hashes before using any artifact. Reconstructing the package from [PREREGISTRATION.md](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md:18), [EXACT_DERIVATION.md](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md:11), [derive_local_jacobi.py](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/derive_local_jacobi.py:27), and [verify_local_jacobi_independent.py](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_local_jacobi_independent.py:91), I reproduced:
+
+`F01: ds^2=-A dt^2+dr^2/A+r^2(dtheta^2+sin^2theta dpsi^2)`
+
+`F02: ds^2=F01+2h sin^2theta dt dpsi`, so `g_{tpsi}=h sin^2theta`
+
+At the equator, with `D=Ar^2+h^2`,
+`u=A^-1/2 ∂t`, `n=A^1/2 ∂r`, `E_theta=r^-1 ∂theta`,
+`E_psi=h/(sqrt(A)sqrt(D)) ∂t + sqrt(A)/sqrt(D) ∂psi`,
+`k=u+n`.
+These satisfy `g(u,u)=-1`, `g(n,n)=g(E_theta,E_theta)=g(E_psi,E_psi)=1`, all cross terms `0`, and `g(k,k)=0`. The query is genuinely identical in the only defensible sense here: same event, same observer, same outward radial direction, same orientation rule, with only the metric-derived orthonormalization changing coordinate components. It is a legitimate local observer-sky control, not a material signal trajectory, and the package keeps that distinction explicit.
+
+Using the declared convention `R(X,Y)Z=∇_X∇_Y Z-∇_Y∇_X Z-∇_[X,Y]Z`, I independently rederived the screen tidal matrix and got exactly
+`T_F02 = diag(0,tau)`,
+`tau = h0*N / [4*A0*(A0*r0^2+h0^2)^2]`,
+with
+`N = -4A0^3 h0 + 8A0^3 h1 r0 - 4A0^3 h2 r0^2 - 4A0^2 A1 h0 r0 + 2A0^2 A2 h0 r0^2 - 4A0^2 h0^2 h2 + 4A0^2 h0 h1^2 - 4A0 A1 h0^2 h1 + 2A0 A2 h0^3 + A1^2 h0^3`.
+So `D(s)=sI-s^3T/6+O(s^4)`, `T_theta theta=0`, `T_theta psi=T_psi theta=0`, `T_psi psi=tau`, the screen matrix is symmetric, and the antisymmetric/rotation channel vanishes at this order. The `h0=0` cubic degeneracy and the `h0!=0, N=0` cancellation are both real. The independent package check reports `6/6` passes and exact rational witnesses `5312099/109652445` and `-20691746025/246491864192`; I also reproduced the weak-mixing parity: under the declared scaling `(h0,h1,h2)->ε(h0,h1,h2)`, the linear and cubic terms vanish and
+`tau_2 = h0(-2A0 h0 + 4A0 h1 r0 - 2A0 h2 r0^2 - 2A1 h0 r0 + A2 h0 r0^2)/(2A0 r0^4)`
+is exact. F01 also checks out: `T_F01=0` for arbitrary regular `A(r)`, and along a regular radial null branch `E=A dt/ds` is conserved, nullity gives `dr/ds=+E`, hence `r` is affine and `D_F01(s)=sI` until a caustic, chart failure, or endpoint.
+
+**Defects and caveats**
+
+- [AUDIT_REPORT.md](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md:25) cites preregistration commit `456aeec5`, while [PREREGISTRATION.md](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md:4) cites base commit `0634b7f801253fc105d374c4c160dbbe19f5b9de`. That is a documentary inconsistency.
+- The “independent” check is only partially independent. It does use a different curvature assembly route and a standalone F01 rebuild, but it still shares the same metric ansatz, the same tetrad/query choice, the same symbolic engine, and it reads the production JSON for comparison [verify_local_jacobi_independent.py](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_local_jacobi_independent.py:130). So it is independent of the final Riemann differentiation path, not of the whole modeling stack.
+- The validator architecture is sensitivity evidence, not semantic proof. [verify_package.py](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_package.py:31) mainly checks stored artifacts, strings, factorization, and ledgers; [run_catch_proofs.py](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/run_catch_proofs.py:34) shows `12/12` mutations are caught, but that only shows fail-closed packaging discipline.
+- The projection-freedom ruling is substantively correct but must stay local. [PROJECTION_FREEDOM_LEDGER.tsv](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PROJECTION_FREEDOM_LEDGER.tsv:2) correctly assigns transverse scale-to-angle conversion to the Jacobi map, while [PROJECTION_FREEDOM_LEDGER.tsv](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PROJECTION_FREEDOM_LEDGER.tsv:3) correctly leaves mode-ladder offset as boundary/operator phase. But this does not yet replace either historical fitted number in a physical CMB comparison because no endpoint, full profile, source scale, or population law has been supplied.
+
+Maximum justified conclusion: the package has established a real local distinction on one preregistered observer-sky control query. Generic F02 gives a one-axis cubic Jacobi correction while F01 stays locally isotropic with exact `D=sI` on a regular radial segment. It has not derived a finite-distance sky map, a physical screen, a profile choice, a source/population rule, TT power, polarization, a local signal law, or a CMB prediction; those premise boundaries are preserved in [PREMISE_LEDGER.tsv](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREMISE_LEDGER.tsv:2) and in the upstream query-typing document [EXACT_DERIVATION.md](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md:18). The proposed finite-path next gate is justified as the next control calculation, provided it is separately preregistered and supplies an explicit endpoint, complete profile, and branch/caustic handling. Lay summary: the local sky-geometry calculation is mathematically sound and does distinguish the two control metrics, but only as a small-distance geometric effect, not yet as a physical CMB or signalling prediction.
+tokens used
+76,432
+**Verdict**
+
+`VERIFIED_WITH_CAVEATS`
+
+I verified `33/33` `REVIEW_MANIFEST.tsv` paths and SHA-256 hashes before using any artifact. Reconstructing the package from [PREREGISTRATION.md](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md:18), [EXACT_DERIVATION.md](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md:11), [derive_local_jacobi.py](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/derive_local_jacobi.py:27), and [verify_local_jacobi_independent.py](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_local_jacobi_independent.py:91), I reproduced:
+
+`F01: ds^2=-A dt^2+dr^2/A+r^2(dtheta^2+sin^2theta dpsi^2)`
+
+`F02: ds^2=F01+2h sin^2theta dt dpsi`, so `g_{tpsi}=h sin^2theta`
+
+At the equator, with `D=Ar^2+h^2`,
+`u=A^-1/2 ∂t`, `n=A^1/2 ∂r`, `E_theta=r^-1 ∂theta`,
+`E_psi=h/(sqrt(A)sqrt(D)) ∂t + sqrt(A)/sqrt(D) ∂psi`,
+`k=u+n`.
+These satisfy `g(u,u)=-1`, `g(n,n)=g(E_theta,E_theta)=g(E_psi,E_psi)=1`, all cross terms `0`, and `g(k,k)=0`. The query is genuinely identical in the only defensible sense here: same event, same observer, same outward radial direction, same orientation rule, with only the metric-derived orthonormalization changing coordinate components. It is a legitimate local observer-sky control, not a material signal trajectory, and the package keeps that distinction explicit.
+
+Using the declared convention `R(X,Y)Z=∇_X∇_Y Z-∇_Y∇_X Z-∇_[X,Y]Z`, I independently rederived the screen tidal matrix and got exactly
+`T_F02 = diag(0,tau)`,
+`tau = h0*N / [4*A0*(A0*r0^2+h0^2)^2]`,
+with
+`N = -4A0^3 h0 + 8A0^3 h1 r0 - 4A0^3 h2 r0^2 - 4A0^2 A1 h0 r0 + 2A0^2 A2 h0 r0^2 - 4A0^2 h0^2 h2 + 4A0^2 h0 h1^2 - 4A0 A1 h0^2 h1 + 2A0 A2 h0^3 + A1^2 h0^3`.
+So `D(s)=sI-s^3T/6+O(s^4)`, `T_theta theta=0`, `T_theta psi=T_psi theta=0`, `T_psi psi=tau`, the screen matrix is symmetric, and the antisymmetric/rotation channel vanishes at this order. The `h0=0` cubic degeneracy and the `h0!=0, N=0` cancellation are both real. The independent package check reports `6/6` passes and exact rational witnesses `5312099/109652445` and `-20691746025/246491864192`; I also reproduced the weak-mixing parity: under the declared scaling `(h0,h1,h2)->ε(h0,h1,h2)`, the linear and cubic terms vanish and
+`tau_2 = h0(-2A0 h0 + 4A0 h1 r0 - 2A0 h2 r0^2 - 2A1 h0 r0 + A2 h0 r0^2)/(2A0 r0^4)`
+is exact. F01 also checks out: `T_F01=0` for arbitrary regular `A(r)`, and along a regular radial null branch `E=A dt/ds` is conserved, nullity gives `dr/ds=+E`, hence `r` is affine and `D_F01(s)=sI` until a caustic, chart failure, or endpoint.
+
+**Defects and caveats**
+
+- [AUDIT_REPORT.md](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md:25) cites preregistration commit `456aeec5`, while [PREREGISTRATION.md](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREREGISTRATION.md:4) cites base commit `0634b7f801253fc105d374c4c160dbbe19f5b9de`. That is a documentary inconsistency.
+- The “independent” check is only partially independent. It does use a different curvature assembly route and a standalone F01 rebuild, but it still shares the same metric ansatz, the same tetrad/query choice, the same symbolic engine, and it reads the production JSON for comparison [verify_local_jacobi_independent.py](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_local_jacobi_independent.py:130). So it is independent of the final Riemann differentiation path, not of the whole modeling stack.
+- The validator architecture is sensitivity evidence, not semantic proof. [verify_package.py](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/verify_package.py:31) mainly checks stored artifacts, strings, factorization, and ledgers; [run_catch_proofs.py](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/run_catch_proofs.py:34) shows `12/12` mutations are caught, but that only shows fail-closed packaging discipline.
+- The projection-freedom ruling is substantively correct but must stay local. [PROJECTION_FREEDOM_LEDGER.tsv](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PROJECTION_FREEDOM_LEDGER.tsv:2) correctly assigns transverse scale-to-angle conversion to the Jacobi map, while [PROJECTION_FREEDOM_LEDGER.tsv](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PROJECTION_FREEDOM_LEDGER.tsv:3) correctly leaves mode-ladder offset as boundary/operator phase. But this does not yet replace either historical fitted number in a physical CMB comparison because no endpoint, full profile, source scale, or population law has been supplied.
+
+Maximum justified conclusion: the package has established a real local distinction on one preregistered observer-sky control query. Generic F02 gives a one-axis cubic Jacobi correction while F01 stays locally isotropic with exact `D=sI` on a regular radial segment. It has not derived a finite-distance sky map, a physical screen, a profile choice, a source/population rule, TT power, polarization, a local signal law, or a CMB prediction; those premise boundaries are preserved in [PREMISE_LEDGER.tsv](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/PREMISE_LEDGER.tsv:2) and in the upstream query-typing document [EXACT_DERIVATION.md](/tmp/udt-f01-f02-jacobi-review-GPbfY3f7/udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md:18). The proposed finite-path next gate is justified as the next control calculation, provided it is separately preregistered and supplies an explicit endpoint, complete profile, and branch/caustic handling. Lay summary: the local sky-geometry calculation is mathematically sound and does distinguish the two control metrics, but only as a small-distance geometric effect, not yet as a physical CMB or signalling prediction.

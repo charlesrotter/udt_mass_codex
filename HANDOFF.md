@@ -18,19 +18,22 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = F01/F02 OBSERVER-SKY JACOBI CONTROLS LOCALLY COMPLETE,
-`LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW`.** Read
+**LATEST GATE = F01/F02 OBSERVER-SKY JACOBI CONTROLS COMPLETE,
+`VERIFIED_WITH_CAVEATS`.** Read
 `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`. The same preregistered equatorial observer-sky query gives `T_F01=0` and
+`EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`. The same preregistered equatorial
+observer-sky query gives `T_F01=0` and
 `T_F02=diag(0,tau)`. F01 conditionally has `D=sI` along a regular radial branch; F02 generically
 adds one-axis area/shear at cubic Jacobi order, with weak mixing entering quadratically and the
 exact value dependent on local `A,h` jets. The local rotation channel is zero; positive, negative,
 and exact cancellation subloci are retained. This geometrizes the home of angular projection scale
 but does not close its physical value; mode-ladder offset remains boundary/operator-owned. Local
-evidence is `6/6` independent algebra, `14/14` package gates, `12/12` catches, and repository
-baseline `98 passed, 1 xfailed`. NEXT: cold review of the sealed 33-file manifest. No finite-path
-solve, physical control/profile/source selection, FD2 restart, data fit, or local signalling is
-authorized before review.
+evidence is `6/6` partially independent algebra, `14/14` package gates, `12/12` catches, and
+repository baseline `98 passed, 1 xfailed`. A sealed reviewer verified all `33/33` files and
+rederived the complete formula, weak-mixing result, subloci, and rational sign witnesses. NEXT:
+map and separately preregister a finite-path control with an explicit endpoint, complete profile,
+and branch/caustic policy. No finite-path solve, physical control/profile/source selection, FD2
+restart, data fit, or local signalling is yet authorized.
 
 **PARENT GATE = COMPLETE CMB OBSERVATION-QUERY MAP COMPLETE,
 `VERIFIED-AFTER-SPECIFIED-CORRECTIONS`.** Read

@@ -10,8 +10,11 @@ The active arc is **CMB PEAK OPTIMIZATION**. Its current local checkpoint is
 observer-sky query gives `T_F01=0` and `T_F02=diag(0,tau)`, with generic weak mixing first entering
 quadratically. This locates projection scale in a metric-derived Jacobi map but leaves the remote
 endpoint, complete profile, source scale, and mode offset open. The result is independently
-reproduced locally and awaits sealed adversarial review; no finite-path solve or eigensolve is yet
-authorized. Its parent is
+reproduced locally and externally `VERIFIED_WITH_CAVEATS`: the reviewer verified all `33/33`
+sealed files and rederived every load-bearing formula. The local alternate route is only partially
+independent, and the package/catch checks certify consistency and sensitivity. No finite-path solve
+or eigensolve is yet authorized; the next gate is a separate preregistration with an explicit
+endpoint, complete profile, and branch/caustic policy. Its parent is
 `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`: the exact 16-source/F00--F17
 universe is mapped into 14 query layers and four observable classes, with no complete physical CMB
 realization currently owned. F00 retains only the historical conditional mode-location plus affine
