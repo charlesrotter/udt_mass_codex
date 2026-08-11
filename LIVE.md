@@ -6,25 +6,28 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G75 CENTER-REGULAR PROFILE FAMILY INTERNALLY REPLAYED AS A BOUNDED LEAD) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G75 CENTER-REGULAR PROFILE FAMILY EXTERNALLY VERIFIED AS A BOUNDED EXACT ATLAS) ============
 
 **LATEST LEAD — G75 CENTER-REGULAR AXIAL PROFILE FAMILY,
-`INTERNALLY_REPLAYED_BOUNDED_LEAD_PENDING_FRESH_ADVERSARIAL_REVIEW`; landing
+`EXTERNALLY_VERIFIED_BOUNDED_FAMILY__INTERNAL_INDEPENDENCE_AND_CATCH_COMPLETENESS_CAVEATS_CLOSED_LOCALLY`; landing
 `CENTER_REGULAR_FAMILY_HAS_MULTIPLE_EXACT_SHAPE_STRATA`.** Read
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`, `SHAPE_ATLAS.tsv`, `PROFILE_ATLAS.tsv`, `COMPLETENESS_SCOPE.md`, and
-`PREREGISTRATION.md`. G75 constructs a new center-safe family rather than repairing G74's blocked
+`EXTERNAL_REVIEW_ADJUDICATION.md`, `EXACT_DERIVATION.md`, `SHAPE_ATLAS.tsv`,
+`PROFILE_ATLAS.tsv`, `COMPLETENESS_SCOPE.md`, and `PREREGISTRATION.md`. G75 constructs a new
+center-safe family rather than repairing G74's blocked
 profiles. The frozen projective quadratic universe contains exactly `49` primitive shapes, four
 normalized amplitudes, three lapse controls, and three zero-mixing controls: `591` profiles total.
 Every member is Cartesian `C-infinity` at the center and Lorentz-regular across the full symbolic
 cell. Exact shape counts are `28` persistent, `9` sign-changing, `6` center-off, `5` endpoint-
 tapered, and `1` zero at both boundaries, distributed across eight exact root/boundary strata.
-Production passes `10/10`, a separate same-context exact root-isolation replay passes `10/10`, the
-package passes `16/16`, and all `10/10` hostile mutations are caught. This is not yet fresh blind
-verification, so the status remains `LEAD`. `R` is symbolic; no physical profile, source, endpoint,
+The sealed reviewer verified `34/34` payload hashes, independently reconstructed all `49/591` rows
+with zero mismatches, and confirmed Cartesian center smoothness and Lorentz signature. Its only
+caveats were local evidence-strength issues: the original same-context replay was partial and the
+original hostile layer was not algebraic-field complete. The preregistered correction expands both
+to `16/16`; the external reconstruction remains the independent proof owner. `R` is symbolic; no physical profile, source, endpoint,
 scale, `X_max`, bootstrap rule, action, matter law, sky response, or CMB spectrum is selected.
-NEXT: fresh adversarial review of G75, then preregister an outcome-independent whole-sky response
-map covering the complete family or representatives fixed solely by the exact G75 strata before
+NEXT: preregister an outcome-independent whole-sky response map covering the complete family or
+representatives fixed solely by the exact G75 strata before
 any response is seen. Do not rank shapes, fit peaks, or call the stationary axial envelope the
 generic complete metric.
 

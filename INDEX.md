@@ -10,11 +10,13 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
-   `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
-   `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md`, then its shape
-   and profile atlases. G75 is an internally replayed bounded lead: all 49 preregistered primitive
+   `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then its
+   `EXTERNAL_REVIEW_ADJUDICATION.md`, `EXACT_DERIVATION.md`, and shape/profile atlases. G75 is an externally
+   verified bounded atlas: all 49 preregistered primitive
    quadratic shapes and 591 profiles are center-`C-infinity` and Lorentz-regular, with multiple
-   exact behavior strata. It is pending fresh adversarial review and selects no physical profile,
+   exact behavior strata. The reviewer verified `34/34` hashes and reconstructed all `49/591` rows
+   with zero mismatches. Its local independence/catch-completeness caveats are closed by a
+   preregistered `16/16` + `16/16` correction. It selects no physical profile,
    source, endpoint, scale, `X_max`, or CMB observable. Then read its G74 parent,
    `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`, then
    `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,

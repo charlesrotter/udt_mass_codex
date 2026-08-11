@@ -15,9 +15,10 @@ premise-scoped meaning; they do not override a later source-specific correction.
 bounded center-regular profile gate. It exactly catalogs all 49 preregistered primitive quadratic
 shape rays across four amplitudes and three lapse controls, plus three zero controls: 591 profiles.
 Every member is Cartesian `C-infinity` at the center and Lorentz-regular on the symbolic cell, and
-multiple exact shape strata survive. The production and same-context independent algebra replay,
-package checks, and hostile mutations pass. A fresh blind reviewer has not yet run, so G75 is a
-bounded `LEAD`, not an externally verified result. It does not repair G74, exhaust all smooth
+multiple exact shape strata survive. A sealed reviewer verified `34/34` payload hashes and
+independently reconstructed every atlas row with zero mismatches. The original local replay was
+partial and its catch layer incomplete; the preregistered correction strengthens both to `16/16`.
+G75 is externally verified only as this bounded exact atlas. It does not repair G74, exhaust all smooth
 profiles, or select a physical profile, source, endpoint, scale, `X_max`, bootstrap law, or CMB
 observable.
 
@@ -31,7 +32,7 @@ repair. External review verified `34/34` hashes and reproduced the exact and wor
 results. Its method caveat is binding: the direct-Christoffel replay shares profile/mesh helpers
 and is not clean-room independent. Physical CMB profile, endpoint, source, scale, spectrum,
 `X_max`, bootstrap law, action, and matter source remain open. G75 supplies a bounded center-regular
-control family; its fresh external review and an outcome-independent global response atlas are next.
+control family; an outcome-independent global response atlas is next.
 
 ## G73 parent lead
 

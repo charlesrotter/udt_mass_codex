@@ -12,10 +12,11 @@ current scientific structure without reconstructing it from dozens of dated pack
 bounded center-regular profile vocabulary. It contains all 49 primitive quadratic rays in the
 frozen definition, four amplitudes, three lapse controls, and three zero controls: 591 profiles.
 Every profile is Cartesian `C-infinity` at the center and Lorentz-regular on the symbolic cell;
-eight exact root/boundary strata survive. Production, same-context exact replay, package, and catch
-gates pass, but fresh blind review is still open, so this remains a `LEAD`. No physical profile,
-source, endpoint, scale, `X_max`, bootstrap rule, or observable is selected. NEXT: fresh adversarial
-review, then preregister a whole-sky response atlas whose inputs are fixed by G75's exact strata
+eight exact root/boundary strata survive. A sealed reviewer verified `34/34` hashes and rebuilt all
+`49/591` rows with zero mismatches. The original local replay/catch caveats are closed by a
+preregistered `16/16` + `16/16` repair, while the external reconstruction owns independence. No
+physical profile, source, endpoint, scale, `X_max`, bootstrap rule, or observable is selected.
+NEXT: preregister a whole-sky response atlas whose inputs are fixed by G75's exact strata
 before any response is inspected.
 
 **G74 PARENT LEAD:**

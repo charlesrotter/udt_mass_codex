@@ -22,18 +22,20 @@ finite-cell seal, or boundary term.
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
 **LATEST LEAD = G75 CENTER-REGULAR AXIAL PROFILE FAMILY,
-`INTERNALLY_REPLAYED_BOUNDED_LEAD_PENDING_FRESH_ADVERSARIAL_REVIEW`; landing
+`EXTERNALLY_VERIFIED_BOUNDED_FAMILY__INTERNAL_INDEPENDENCE_AND_CATCH_COMPLETENESS_CAVEATS_CLOSED_LOCALLY`; landing
 `CENTER_REGULAR_FAMILY_HAS_MULTIPLE_EXACT_SHAPE_STRATA`.** Read
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`, both TSV atlases, `COMPLETENESS_SCOPE.md`, and `PREREGISTRATION.md`. The
+`EXTERNAL_REVIEW_ADJUDICATION.md`, `EXACT_DERIVATION.md`, both TSV atlases,
+`COMPLETENESS_SCOPE.md`, and `PREREGISTRATION.md`. The
 preregistered frozen universe has 49 primitive quadratic shapes and 591 profiles. All are
 Cartesian `C-infinity` at the center and Lorentz-regular on the full symbolic cell. The shape
 census is `28/9/6/5/1`: persistent, sign-changing, center-off, endpoint-tapered, and zero at both
-boundaries. Production, separate same-context exact replay, package gates, and hostile catches all
-pass, but a fresh blind reviewer has not yet run; retain `LEAD`. G75 does not repair G74's blocked
+boundaries. A sealed reviewer verified `34/34` hashes and independently rebuilt all `49/591` rows
+with zero mismatches, while confirming center smoothness and signature. Its caveats were confined
+to the original local replay's partial independence and incomplete algebraic-field catches; both
+local layers now pass `16/16` under the preregistered correction. G75 does not repair G74's blocked
 rows or select a physical profile, source, endpoint, scale, `X_max`, bootstrap rule, or CMB result.
-NEXT: fresh adversarial review, then an outcome-independent whole-sky response atlas selected only
-by preregistered G75 strata.
+NEXT: an outcome-independent whole-sky response atlas selected only by preregistered G75 strata.
 
 **PARENT LEAD = G74 SYMBOLIC-SCALE OBSERVER-SKY TOPOLOGY ATLAS,
 `EXTERNALLY_VERIFIED_WITH_METHOD_INDEPENDENCE_AND_PREREG_WORDING_CAVEATS`; landing

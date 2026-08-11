@@ -4,15 +4,16 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G75 center-regular profile family internally replayed as a bounded lead)
+## TOP — CURRENT POINTER (2026-08-11, G75 center-regular profile family externally verified as a bounded exact atlas)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The current lead is
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`: the exact preregistered family contains 49 primitive quadratic shapes and
-591 center-`C-infinity`, Lorentz-regular controls with multiple exact root/boundary strata. It is an
-internally replayed bounded lead pending fresh adversarial review, not a selected physical profile
+`EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`: the exact preregistered family contains 49 primitive quadratic shapes and
+591 center-`C-infinity`, Lorentz-regular controls with multiple exact root/boundary strata. A sealed
+reviewer verified `34/34` hashes and reconstructed all rows with zero mismatches. The local evidence
+caveats are repaired without changing the atlases. It is not a selected physical profile
 or complete smooth-function census. No source, endpoint, scale, `X_max`, bootstrap law, sky
 response, or CMB observable is owned. Its parent is
 `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`, then its
@@ -21,8 +22,8 @@ into exact F01 degree-one diffeomorphisms, sampled-regular persistent controls, 
 center-`C2`-blocked tapered/sign-changing controls. The sealed reviewer verified `34/34` hashes and
 reproduced the exact and worst numerical results. Its direct-Christoffel replay is a
 separate-equation cross-check with shared profile/mesh helpers, not clean-room independence. G75
-supplies the bounded center-regular family without repairing G74. Next is fresh review and an
-outcome-independent global angular-scale/transport response atlas. Parent:
+supplies the bounded center-regular family without repairing G74. Next is an outcome-independent
+global angular-scale/transport response atlas. Parent:
 `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`: regular one-to-one
 response preserves a unique arbitrary source, strong shear can align directions, and robust
 kaleidoscopic repetition requires global branching/noninjectivity or critical/fold structure. G68

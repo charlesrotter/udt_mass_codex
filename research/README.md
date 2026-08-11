@@ -9,9 +9,10 @@ Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The current G75 lead is
 `../udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`. It is an
-internally replayed bounded atlas of all 49 preregistered primitive quadratic shapes and 591
-center-`C-infinity`, Lorentz-regular axial controls. Multiple exact shape strata survive, but fresh
-blind review and every physical profile/source/endpoint/scale choice remain open. Read its exact
+externally verified bounded atlas of all 49 preregistered primitive quadratic shapes and 591
+center-`C-infinity`, Lorentz-regular axial controls. The sealed review reproduced `34/34` hashes and
+all `49/591` rows with zero mismatches; its local evidence caveats are closed. Every physical
+profile/source/endpoint/scale choice remains open. Read its adjudication, exact
 derivation and atlases before its G74 parent,
 `../udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`. G74's exact frozen
 whole-sky control census is three F01 degree-one diffeomorphisms, six persistent controls sampled
@@ -19,7 +20,7 @@ regular but not globally proved, and twelve tapered/sign-changing controls block
 the center with no repair. External review verified `34/34` hashes and reproduced the exact and
 worst numerical results; read its `EXTERNAL_REVIEW_ADJUDICATION.md`. The direct-Christoffel replay
 is a separate-equation cross-check with shared profile/mesh helpers, not clean-room independence.
-G75 supplies the bounded center-regular family without repairing G74. Next is fresh review and an
+G75 supplies the bounded center-regular family without repairing G74. Next is an
 outcome-independent global angular response atlas, with no physical source, scale, spectrum,
 `X_max`, or bootstrap selection. G74's G73 parent is
 `../udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`. It proves exact
