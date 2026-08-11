@@ -16,7 +16,8 @@ current local identifiability lead. The complete three-channel G68 geometric rea
 `FULL_RANK_OBSERVED` in all 15 frozen sensitivity cells, but often poorly conditioned. The exact
 identity `C_src=D^-1 C_obs D^-T` proves non-identifiability only when the local source covariance is
 unrestricted and `D` is invertible. It does not prove that full TT/TE/EE/BB observations are
-non-identifying. The numerical result is internally verified pending external review. No
+non-identifying. The result is `EXTERNALLY_VERIFIED_AS_BOUNDED`; every `37/37` sealed hash and the
+load-bearing saved-state algebra and numerics were independently replayed, with no correction. No
 observational anchor, physical profile, endpoint, source, spectrum, or coefficient has been
 selected.
 

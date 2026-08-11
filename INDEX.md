@@ -11,6 +11,7 @@
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
    `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md`, then
    `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
    `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
@@ -62,8 +63,9 @@
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G69 lead
    reconstructs all 315 saved G68 profile/endpoint maps and observes full local rank in the
    complete three-channel geometric readout, while proving exact local covariance
-   non-identifiability under an unrestricted source. It is internally verified pending external
-   review, not a physical CMB fit or full-spectrum no-go. Its G68 parent
+   non-identifiability under an unrestricted source. It is `EXTERNALLY_VERIFIED_AS_BOUNDED` after
+   all `37/37` sealed hashes and independent replay, with no correction; it is not a physical CMB
+   fit or full-spectrum no-go. Its G68 parent
    integrates the full finite-path observer-sky map across all 21 preregistered controls: 21/21
    reach the control endpoint regularly, F01 returns exact `D=sI`, and F02 accumulates
    profile-dependent area, one-axis anisotropy, and azimuthal carry. It is externally

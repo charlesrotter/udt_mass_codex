@@ -4,16 +4,17 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G69 profile/endpoint/source identifiability lead pending external review)
+## TOP — CURRENT POINTER (2026-08-11, G69 profile/endpoint/source identifiability externally verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The current lead is
-`udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`: all 315 saved
+`udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then its
+`EXTERNAL_REVIEW_ADJUDICATION.md`: all 315 saved
 profile/endpoint maps replay; the complete three-channel geometry is locally full rank in all 15
 registered sensitivity cells; and unrestricted local source covariance exactly absorbs every
-invertible screen map. This is internally verified pending external review, not a full-CMB no-go or
-fit. Its parent checkpoint is
+invertible screen map. This is `EXTERNALLY_VERIFIED_AS_BOUNDED` after `37/37` sealed hashes and an
+independent replay with no correction; it is not a full-CMB no-go or fit. Its parent checkpoint is
 `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`: all `21/21`
 preregistered finite-path controls reach the declared endpoint regularly; F01 gives exact `D=sI`;
 and F02 accumulates profile-dependent area, one-axis anisotropy, and azimuthal carry. The result is

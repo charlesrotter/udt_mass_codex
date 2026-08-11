@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "effective_status": true,
+    "external_landing": true,
+    "historical_pending_preserved": true,
+    "independence_guard": true,
+    "navigation_updated": true,
+    "no_external_correction": true,
+    "protected_paths_present": true,
+    "raw_sha": true,
+    "review_manifest_rows": true,
+    "review_manifest_sha": true,
+    "reviewed_files_unchanged": true,
+    "scope_guard": true,
+    "transcript_sha": true
+  },
+  "passed": 13,
+  "protected_untracked_paths": 7,
+  "review_manifest_rows": 37,
+  "schema": "udt-cmb-g69-postreview-v1",
+  "status": "PASS",
+  "total": 13
+}

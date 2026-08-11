@@ -10,8 +10,9 @@ Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 **CMB PEAK OPTIMIZATION**. The current G69 identifiability lead is
 `../udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`. G69 finds the
 complete three-channel geometric readout locally separating inside the frozen tile, while an
-unrestricted local source covariance exactly preserves observational ambiguity. It is internally
-verified pending external review and is not a full-CMB no-go or a coefficient fit. Its parent is
+unrestricted local source covariance exactly preserves observational ambiguity. It is
+`EXTERNALLY_VERIFIED_AS_BOUNDED` after `37/37` sealed hashes and an independent
+replay with no correction; it is not a full-CMB no-go or a coefficient fit. Its parent is
 `../udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`: all `21/21`
 preregistered finite-path controls reach the declared endpoint regularly; F01 returns exact
 `D=sI`; F02 accumulates profile-dependent area, one-axis anisotropy, and azimuthal carry. External
@@ -30,6 +31,7 @@ holonomy, and R17 normal holonomy throughout its exact bounded `14`-witness atla
 geometric coexistence, not physical selection, dynamics, global completion, or stability.
 Read in order:
 `../udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then
+`../udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `../udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md`, then
 `../udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
 `../udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then

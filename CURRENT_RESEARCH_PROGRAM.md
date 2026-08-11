@@ -13,8 +13,10 @@ current scientific structure without reconstructing it from dozens of dated pack
 `(area, anisotropy, azimuthal carry)` readout, all 15 coarse sensitivity matrices locally separate
 endpoint, lapse, and mixing directions, though normalized condition numbers reach `2156.08`.
 Exact congruence algebra proves that an unrestricted positive-definite source covariance can absorb
-any invertible local screen map; all 945 controls replay at `2.831e-16`. This is internally verified
-and awaits external review. It is not a global full-CMB non-identifiability theorem, does not give
+any invertible local screen map; all 945 controls replay at `2.831e-16`. It is
+`EXTERNALLY_VERIFIED_AS_BOUNDED`: the sealed reviewer verified `37/37` hashes and independently
+reproduced the bounded algebra and numerics with no correction. It is not a global full-CMB
+non-identifiability theorem, does not give
 scalar TT access to azimuthal carry, and selects no profile, endpoint, source, or coefficient.
 Observational anchors may enter only in a later preregistered low-dimensional model after ownership
 reduces the exact source freedom.

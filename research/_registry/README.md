@@ -5,7 +5,8 @@ scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARC
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
 lead is `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`; it maps
 bounded geometric profile/endpoint sensitivity and exact unrestricted-source covariance freedom,
-pending external review. Its parent gate is
+and is `EXTERNALLY_VERIFIED_AS_BOUNDED` after `37/37` sealed hashes and an independent replay with
+no correction. Read its `EXTERNAL_REVIEW_ADJUDICATION.md` next. Its parent gate is
 `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`; it verifies
 the integrated finite-path observer-sky Jacobi map over the exact 21-row control tile, without
 selecting a physical profile, endpoint, source, or CMB spectrum. Its local parent is

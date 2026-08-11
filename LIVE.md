@@ -6,12 +6,13 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G69 PROFILE/ENDPOINT/SOURCE IDENTIFIABILITY ATLAS AWAITS EXTERNAL REVIEW) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G69 EXTERNALLY VERIFIED, OWNERSHIP RESTRICTION NEXT) ============
 
-**LATEST LEAD — G69 PROFILE–ENDPOINT–SOURCE IDENTIFIABILITY ATLAS COMPLETE LOCALLY,
-`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`.** Read
-`udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md` and `PREREGISTRATION.md`. Without a new ODE solve, all `21 x 15 = 315`
+**LATEST LEAD — G69 PROFILE–ENDPOINT–SOURCE IDENTIFIABILITY ATLAS,
+`EXTERNALLY_VERIFIED_AS_BOUNDED`.** Read
+`udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then its
+`EXTERNAL_REVIEW_ADJUDICATION.md`, `EXACT_DERIVATION.md`, and `PREREGISTRATION.md`. Without a new
+ODE solve, all `21 x 15 = 315`
 saved G68 profile/endpoint cells were reconstructed. The complete three-channel geometric readout
 `(area, anisotropy, azimuthal carry)` locally separates endpoint, lapse, and mixing-amplitude
 directions in all `15/15` frozen sensitivity cells, but it is often poorly conditioned
@@ -22,8 +23,13 @@ covariance can compensate any invertible `2 x 2` screen map; all `945/945` contr
 not directly read all three rank-test channels, and no physical source covariance has been owned.
 No observational anchor or coefficient was used. A later small preregistered coefficient set is
 allowed only after source/channel/profile/endpoint ownership reduces this freedom, with held-out
-checks. NEXT: sealed external review of the rank typing, conditioning, covariance theorem, and
-scope. Do not fit, select a profile/endpoint/source, or restart FD2.
+checks. The sealed reviewer verified every `37/37` manifest row, independently replayed the
+saved-state algebra and numerics, found the rank robust to raw-matrix and separate-amplitude
+challenges, and returned `VERIFIED_AS_BOUNDED` with `Exact correction: none.` The internal
+independent route remains correctly typed as reconstruction on shared saved paths, not independent
+path integration. NEXT: determine which restrictions on source/state, endpoint/profile, or
+independently read channels are already owned by the complete query and geometry. Do not fit,
+select a profile/endpoint/source, or restart FD2.
 
 **PARENT GATE — G68 F01/F02 FINITE-PATH OBSERVER-SKY JACOBI CONTROL ATLAS COMPLETE,
 `VERIFIED_WITH_CAVEATS`.** Read

@@ -21,17 +21,19 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G69 PROFILE–ENDPOINT–SOURCE IDENTIFIABILITY ATLAS COMPLETE LOCALLY,
-`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`.** Read
+**LATEST LEAD = G69 PROFILE–ENDPOINT–SOURCE IDENTIFIABILITY ATLAS,
+`EXTERNALLY_VERIFIED_AS_BOUNDED`.** Read
 `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`. All `315` saved profile/endpoint maps replay without a new solve. The
+`EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`. All `315` saved profile/endpoint maps
+replay without a new solve. The
 complete area/anisotropy/azimuth-carry readout is locally full rank for endpoint, lapse, and mixing
 in `15/15` cells, with condition numbers `66.82`--`2156.08`. An unrestricted positive-definite
 source covariance exactly absorbs every invertible local screen map (`945/945`, maximum backward
 error `2.831e-16`). This is a bounded `2 x 2` covariance statement, not a full-CMB no-go; scalar TT
-does not directly read all three rank channels. No anchor or coefficient was fitted. NEXT: sealed
-external review, then ownership of source/state or endpoint/profile restrictions before any small
-preregistered observationally anchored parameter set.
+does not directly read all three rank channels. No anchor or coefficient was fitted. The sealed
+reviewer verified `37/37` hashes, independently reproduced the bounded rank and covariance results,
+and found no correction. NEXT: ownership of source/state, endpoint/profile, or independently read
+channel restrictions before any small preregistered observationally anchored parameter set.
 
 **PARENT GATE = G68 F01/F02 FINITE-PATH OBSERVER-SKY JACOBI CONTROL ATLAS COMPLETE,
 `VERIFIED_WITH_CAVEATS`.** Read
