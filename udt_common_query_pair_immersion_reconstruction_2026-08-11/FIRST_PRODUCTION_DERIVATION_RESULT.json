@@ -1,0 +1,46 @@
+{
+  "counts": {
+    "loop_rows": 6,
+    "scale_rows": 6
+  },
+  "loop_halfwidths": [
+    0.04,
+    0.02,
+    0.01
+  ],
+  "queries": [
+    "Q1_R17_LEAF",
+    "Q2_TL_FERMI"
+  ],
+  "scales": [
+    0.004,
+    0.002,
+    0.001
+  ],
+  "schema": "UDT_COMMON_QUERY_PAIR_IMMERSION_V1",
+  "scope": "two_query_bounded_metric_geometry",
+  "source_liveness": {
+    "coordinate_count": 4,
+    "field_count": 11,
+    "gradient_norms": [
+      0.040814180759531776,
+      0.043115304004408155,
+      0.17520896170356876,
+      0.22663299252507674,
+      0.022729491971341675,
+      0.04698836287276254,
+      0.1399529708687816,
+      0.026836116204195282,
+      0.0635980655488958,
+      0.03358209387035115,
+      0.07071291871989734
+    ],
+    "nonzero_gradient_fields": 11
+  },
+  "status": "PRODUCTION_COMPLETE_INDEPENDENT_PENDING",
+  "versions": {
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "scipy": "1.15.3"
+  }
+}
