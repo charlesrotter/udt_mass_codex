@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md",
     "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md",
@@ -80,17 +81,17 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 56 premise guards" in result.stdout
+    assert "PASS: 57 premise guards" in result.stdout
 
 
-def test_catch_missing_current_multiregime_admissibility_route(tmp_path: Path) -> None:
+def test_catch_missing_current_transport_route(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(
         root / "LIVE.md",
-        "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
-        "MULTIREGIME_ADMISSIBILITY_REPORT_REMOVED.md",
+        "udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md",
+        "COMPLETE_COFRAME_TRANSPORT_REPORT_REMOVED.md",
     )
-    with pytest.raises(SystemExit, match="multiregime_pair_relation_admissibility|latest complete-branch route"):
+    with pytest.raises(SystemExit, match="complete_coframe_calibration_transport|latest complete-branch route"):
         premise_guard.validate_startup_surface(root)
 
 

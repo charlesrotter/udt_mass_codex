@@ -6,6 +6,11 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`: canonical
+metric/coframe carries are isometric and generate zero reciprocal magnitude, while any supplied
+regular coherent calibrated pair family induces the exact complete-pair `d phi_pair` law and
+automatic scalar telescoping. Physical family/query/transition, branch/path, global completion,
+and on-shell ownership remain open. Its parent is
 `udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md`: the full pinned
 24-by-10 descent atlas derives R17's global pair-foliation family, path-labelled transport, and exact
 `SO(2)` projector-alignment bitorsor, plus R18's separate clock-only endpoint descent. Calibration

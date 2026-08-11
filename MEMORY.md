@@ -4,11 +4,18 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; multi-regime apparatus atlas verified)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; conditional complete-coframe transport verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`: canonical
+metric/coframe transports are isometric zero in reciprocal magnitude; a supplied coherent regular
+calibrated pair family induces exact full-coframe `d phi_pair` and scalar telescoping. External
+review returned `CONDITIONAL_PAIR_FAMILY_RESULT_ONLY`. The physical family/query/transition,
+branch/path, global-completion, and on-shell owner remain open. Its G56 parent is
+`udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md`. The branch
+apparatus parent is
 `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`: all 24 pinned
 branches and six measurement families form 11 mathematical apparatus patterns. Five global
 entries own restricted relation types, R17 alone has the full panel conditionally, and zero entries

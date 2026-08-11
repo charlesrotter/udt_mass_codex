@@ -1,7 +1,8 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-10 STATUS (RESTART ANCHOR): GLOBAL DESCENT / PAIR-SURFACE / RESET OWNERSHIP COMPLETE.** ACTIVE ARC = CMB PEAK
+> **2026-08-10 STATUS (RESTART ANCHOR): COMPLETE-COFRAME CALIBRATION TRANSPORT VERIFIED CONDITIONALLY; NOTHING IN FLIGHT.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-10) FIRST, then
+> `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then

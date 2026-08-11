@@ -2,8 +2,12 @@
 
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
-`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current comparison
-gate is `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`; it maps all
+`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
+gate is `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`; it
+derives exact `d phi_pair` and scalar telescoping only after one coherent regular calibrated pair
+family is supplied, while leaving physical family/transition ownership open. Its G56 parent is
+`udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md`. The earlier
+branch comparison gate is `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`; it maps all
 24 pinned branch identities into 11 mathematical apparatus patterns, preserves five bounded global
 relation types, and finds zero complete physical pair, arrow, optional-selector, or regime owners.
 R04 is an aggregate and does not inherit a member panel. Its parent is

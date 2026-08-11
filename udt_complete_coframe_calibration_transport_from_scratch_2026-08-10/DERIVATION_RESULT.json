@@ -1,0 +1,49 @@
+{
+  "check_count": 24,
+  "checks": {
+    "coframe_absolute_parallelism_is_metric": true,
+    "coframe_absolute_parallelism_zero_depth": true,
+    "common_dilation_rejected_by_reciprocal_projection": true,
+    "common_scale_cancels": true,
+    "density_composition_rho1": true,
+    "density_composition_rho2": true,
+    "determinant_character_misses_reciprocal_depth": true,
+    "endpoint_coboundary_telescope": true,
+    "finite_mixing_witness": true,
+    "independent_tape_reset_not_identity": true,
+    "infinitesimal_reciprocal_projection": true,
+    "lorentz_generator_isometric_zero": true,
+    "lorentz_transport_metricity": true,
+    "metric_compatible_transport_zero_depth": true,
+    "pair_depth_differential": true,
+    "pair_depth_is_locally_exact": true,
+    "pair_metric_TL_determinant": true,
+    "pair_metric_decomposition": true,
+    "pure_reciprocal_rate_normalized": true,
+    "pure_reciprocal_recovery": true,
+    "reciprocal_character_composition": true,
+    "screen_gauge_descent": true,
+    "screen_rotation_isometry": true,
+    "single_pair_family_scalar_reset_telescope": true
+  },
+  "landing": "GENERAL_POSITIVE_LINE_TRANSPORTS_FORM_AN_AFFINE_CONNECTION_FAMILY__CANONICAL_METRIC_AND_COFRAME_PARALLEL_TRANSPORTS_ARE_ISOMETRIC_ZERO__EACH_SUPPLIED_REGULAR_CALIBRATED_PAIR_METRIC_FAMILY_UNIQUELY_INDUCES_THE_EXACT_RECIPROCAL_DEPTH_FORM_dPHI_PAIR_WITH_FULL_TIME_AND_MIXING_RETAINED__PHYSICAL_PAIR_FAMILY_ON_SHELL_AND_GLOBAL_OWNER_OPEN",
+  "question_type": "METRIC_LED_SOLUTION_SPACE_DERIVATION",
+  "schema_version": 1,
+  "scope": {
+    "angular_and_mixing": "retained_in_complete_pair_metric",
+    "not_covered": [
+      "null_or_rank_changing_pair_cells",
+      "cut_locus_branch_selection",
+      "all_higher_categorical_or_nonlocal_path_functionals",
+      "physical_pair_query_or_on_shell_selection"
+    ],
+    "regularity": "smooth_rank_two_Lorentzian_pair_metric",
+    "time_dependence": "retained_without_stationarity_assumption"
+  },
+  "witnesses": {
+    "independent_tape_reset_obstruction": "offset_ab - offset_ac + offset_bc",
+    "infinitesimal_depth_rate": "-b0/2 + b5/2",
+    "mixing_phi": "log(64/3)/4",
+    "mixing_q": "64/3"
+  }
+}

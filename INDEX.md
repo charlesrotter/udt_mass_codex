@@ -10,6 +10,7 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+   `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
    `udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -39,7 +40,10 @@
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected scalar atlas
    has three interleaved equatorial ladders and withdraws the old FD1 multiplet window; the latest
-   G56 descent atlas establishes R17's global pair-foliation, path functor, and exact `SO(2)`
+   G57 transport derivation proves that canonical metric/coframe carry is isometric zero while a
+   supplied coherent calibrated pair family induces the exact full-coframe `d phi_pair` law and
+   automatic scalar telescoping. The physical family/transition/global owner remains open. Its G56
+   descent atlas establishes R17's global pair-foliation, path functor, and exact `SO(2)`
    alignment bitorsor, plus R18's separate clock-only descent, while leaving the calibration reset,
    physical pair query, and complete selector open. The complete
    angular audit proves those roots do not lift unchanged and finds no physical population

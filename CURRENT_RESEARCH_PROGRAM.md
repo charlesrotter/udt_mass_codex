@@ -7,7 +7,17 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G56 CHECKPOINT:**
+**CURRENT G57 CHECKPOINT:**
+`udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md` derives the
+full preregistered smooth local linear positive-line transport class from scratch. Canonical metric
+and complete-coframe transports are isometric and create zero reciprocal magnitude. Once one
+regular calibrated pair family is supplied, its complete pair metric induces exact `d phi_pair`
+with time and mixing retained, and scalar reset telescopes on that family. External review returned
+`CONDITIONAL_PAIR_FAMILY_RESULT_ONLY`. The physical family/query, lawful transitions, branch/path,
+global completion, and on-shell owner remain open. The next bounded question is ownership of that
+coherent family construction—not another scalar reset equation or an unowned time-live solve.
+
+**G56 PARENT CHECKPOINT:**
 `udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md` maps every one of
 the 24 pinned branch identities across ten global-descent axes. R17 owns the global reciprocal
 pair-foliation family, exact path-labelled transport, and the full `SO(2)` projector-alignment

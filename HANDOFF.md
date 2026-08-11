@@ -18,7 +18,19 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = GLOBAL DESCENT / PAIR-SURFACE / RESET OWNERSHIP COMPLETE,
+**LATEST GATE = COMPLETE-COFRAME CALIBRATION TRANSPORT FROM SCRATCH COMPLETE,
+`VERIFIED-WITH-CAVEATS`; external verdict `CONDITIONAL_PAIR_FAMILY_RESULT_ONLY`.** Start with
+`udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`. Canonical
+metric and complete-coframe parallel transports carry geometry isometrically and create no
+reciprocal magnitude. A supplied regular calibrated observer-pair family nevertheless fixes the
+exact complete-pair form
+`d phi_pair=(1/4)d log(-det h)-(1/2)d log(-h_00)`, retaining time, angular, shift, and mixing
+dependence. On one coherent family scalar reset telescopes; separately rebuilt tapes need a lawful
+transition. The open owner is now the native on-shell/global rule selecting the coherent physical
+family, transition, branch, and path—not another scalar reset coefficient. Do not call this a
+physical family selector or an on-shell time-live solution.
+
+**PARENT GATE = GLOBAL DESCENT / PAIR-SURFACE / RESET OWNERSHIP COMPLETE,
 `VERIFIED-WITH-CORRECTIONS`.** Start with
 `udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md`. The complete
 24-by-10 atlas consolidates the observer skeleton. R17 owns its global Hopf-cylinder pair-foliation

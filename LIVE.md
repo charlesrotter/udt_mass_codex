@@ -6,9 +6,24 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; GLOBAL DESCENT SKELETON VERIFIED; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; COMPLETE-COFRAME CALIBRATION TRANSPORT VERIFIED CONDITIONALLY; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — GLOBAL DESCENT / PAIR-SURFACE / RESET OWNERSHIP COMPLETE,
+**LATEST GATE — COMPLETE-COFRAME CALIBRATION TRANSPORT FROM SCRATCH COMPLETE,
+`VERIFIED-WITH-CAVEATS`; external verdict `CONDITIONAL_PAIR_FAMILY_RESULT_ONLY`.** Read
+`udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md` first. Smooth
+local linear positive calibration-line transports form an affine connection family; composition
+does not select one. Levi-Civita, arbitrary metric-compatible, and complete-coframe absolute-
+parallelism carries are isometric and generate zero reciprocal magnitude. Once one regular
+calibrated observer-pair family is supplied, its complete induced two-metric determines exactly
+`d phi_pair=(1/4)d log(-det h)-(1/2)d log(-h_00)`, with physical time, angular, shift, and mixing
+dependence retained. Scalar reset then telescopes automatically on that common family. Independently
+rebuilt tapes still need a lawful transition. The physical family/query, branch/path, global
+completion, and on-shell owner remain OPEN. NEXT: preregister a metric-led classification of whether
+the complete on-shell/global UDT structure constructs one coherent calibrated pair family or lawful
+transitions. Do not hunt another scalar reset equation, call algebraically live time an on-shell
+solution, or promote the supplied family into a metric-selected physical one.
+
+**PARENT GATE — GLOBAL DESCENT / PAIR-SURFACE / RESET OWNERSHIP COMPLETE,
 `VERIFIED-WITH-CORRECTIONS`.** Read
 `udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md` first. The full
 pinned 24-branch by ten-axis atlas has 240/240 cells. R17 now owns four exact links: a complete

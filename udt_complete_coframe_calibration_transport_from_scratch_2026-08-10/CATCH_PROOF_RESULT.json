@@ -1,0 +1,23 @@
+{
+  "catch_count": 15,
+  "catches": {
+    "C01_drop_shift_or_mixing": true,
+    "C02_treat_common_scale_as_depth": true,
+    "C03_wrong_clock_sign": true,
+    "C04_use_determinant_as_depth": true,
+    "C05_assign_metric_carry_nonzero_depth": true,
+    "C06_scalarize_SO2_angle": true,
+    "C07_freeze_time_dependence": true,
+    "C08_drop_phi_orchestra": true,
+    "C09_assume_independent_reset_identity": true,
+    "C10_claim_unique_general_line_connection": true,
+    "C11_import_stopped_historical_census": true,
+    "C12_access_protected_atlas": true,
+    "C13_use_cE_to_construct_pair_family": true,
+    "C14_promote_R17_universally": true,
+    "C15_promote_local_theorem_to_degenerate_strata": true
+  },
+  "caught_count": 15,
+  "failed": [],
+  "schema_version": 1
+}

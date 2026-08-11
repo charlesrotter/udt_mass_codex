@@ -9,7 +9,21 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G56 refinement
+## Current G57 refinement
+
+`udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md` controls the
+current transport gate. In the preregistered smooth local linear positive-line class, transports
+form an affine connection family; composition does not select one. Levi-Civita, arbitrary
+metric-compatible, and complete-coframe absolute-parallelism transports are isometric and create
+zero reciprocal magnitude. After one regular calibrated observer-pair family is supplied, however,
+its complete induced two-metric uniquely gives
+`d phi_pair=(1/4)d log(-det h)-(1/2)d log(-h_00)`, with time, angular, shift, and mixing dependence
+retained. Scalar reset then telescopes on that common family. External review returned
+`CONDITIONAL_PAIR_FAMILY_RESULT_ONLY`. The physical family/query, lawful transitions, branch/path,
+global completion, and on-shell owner remain open. Do not promote algebraically live time dependence
+to an on-shell solution or restart the search for a separate scalar reset equation.
+
+## G56 parent refinement
 
 `udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md` controls the
 current descent gate. Across all 24 pinned branches and ten axes, R17 owns a global family of

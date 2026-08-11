@@ -1,0 +1,11 @@
+family_id	family	mathematical_home	composition	magnitude	full_time_mixing	owner	classification
+T01	Levi-Civita and metric-compatible carry	tangent/frame path groupoid	exact	zero	full	metric	ISOMETRIC_CARRY_ONLY
+T02	complete-coframe absolute parallelism	tangent/frame path groupoid	exact	zero	full if coframe supplied	complete coframe representative	ISOMETRIC_CARRY_ONLY
+T03	founded reciprocal graded line	positive calibration line	exact after depth supplied	nonzero supplied depth	complete realization open	founded character only	DEPTH_VALUE_UNOWNED
+T04	determinant and volume characters	density lines	exact	common scale only	full	algebraic	RECIPROCAL_BLIND_ON_D_DELTA
+T05	angular SO2 normal transport	normal-frame path groupoid	exact	zero scalar magnitude; holonomy retained	full on supplied branch	metric path connection	SEPARATE_PATH_CHANNEL
+T06	general positive-line connection	calibration line over query state	exact	arbitrary integral of alpha	full	unselected one-form	NONUNIQUE_AFFINE_FAMILY
+T07	endpoint coboundaries	calibration trivialization	exact	f(q)-f(p)	full	unselected scalar f	NONUNIQUE_EXACT_FAMILY
+T08	curvature anholonomy and nonmetric families	higher-jet line or tangent connections	exact when a connection is supplied	can be nonzero	full	no coefficient or connection owner	NONUNIQUE_CANDIDATE_MODULE
+T09	supplied calibrated pair-metric family	pair-state calibration line	exact locally and on matched global family	dphi_pair	full by construction	supplied pair family	UNIQUE_INDUCED_PRIMARY_RECIPROCAL_FORM_CONDITIONAL
+T10	stationary R17 restriction	R17 intrinsic pair foliation and endpoint depth	exact on supplied family	dphi equals delta_K	stationary restriction only	supplied C01-C06 configuration	RECOVERY_CONTROL_NOT_UNIVERSAL
