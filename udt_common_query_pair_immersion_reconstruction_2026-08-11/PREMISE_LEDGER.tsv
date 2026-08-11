@@ -1,0 +1,20 @@
+item	value_or_rule	provenance_tag	role	uncovered_scope
+metric_theory	complete Lorentz metric from supplied coframe	pinned-by-THEORY:path.md;current premise registry	geometry under test	native on-shell restriction remains OPEN
+Q1_witness	R17_P1_P;lambda=1;epsilon=0.12;a=0.4	pinned-by-HABIT:preregistered G63 coverage witness	exact stationary control	other lambda/epsilon and global branches
+Q1_initial_point	0.07;1.08;0.31;0.44	pinned-by-HABIT:G63 numerical control	chart anchor	coordinate poles and other leaves
+Q1_pair_surface	F(y,s)=(0.07+y,1.08,0.31,0.44+2s)	pinned-by-THEORY:R17 integrable Hopf-cylinder leaf	common exact immersion	cross-leaf relations
+Q2_witness	TL_P2;epsilon=0.15	pinned-by-HABIT:preregistered G63 coverage witness	generic all-channels-live control	other perturbations and global completion
+Q2_initial_point	0.12;-0.18;0.23;-0.14	pinned-by-HABIT:G63 numerical control	local chart anchor	other points and charts
+Q2_initial_flag	inverse-coframe e0,e1 at initial point	pinned-by-HABIT:declared query presentation	observer tangent and ruler	all other pair-relative flags
+Q2_observer_rule	timelike geodesic	CHOSE:operational query control	construct observer germ	not a universal observer postulate
+Q2_ruler_evolution	parallel transport	CHOSE:operational query control	construct Fermi/exponential surface	Fermi-Walker/Lie-dragged/other queries
+Q2_pair_surface	F(y,s)=Exp_zA(y)(s n(y))	CHOSE:operational query control	common immersion	cut/focal/global branches
+query_domain	abs(y),abs(s)<=0.06	pinned-by-HABIT:numerical control	bounded local tile	larger domains
+derivative_scales	0.004;0.002;0.001	free-and-explored:numerical convergence	finite-difference audit	asymptotic continuum proof
+loop_halfwidths	0.04;0.02;0.01	free-and-explored:numerical convergence	small-loop audit	finite/global loops
+integration_tolerances	rtol=1e-11;atol=1e-13;max_step=0.0025	pinned-by-HABIT:numerical accuracy	production control	exact arithmetic
+curvature_convention	R(X,Y)Z=nabla_X nabla_Y Z-nabla_Y nabla_X Z-nabla_[X,Y] Z	CHOSE:sign convention	consistent GCR comparison	other presentations equivalent after signs
+action_source_matter	absent	pinned-by-THEORY:scope prohibition	pure metric geometry	all dynamics and matter
+bootstrap	inactive	pinned-by-THEORY:working hypothesis not authorized as selector	prevents circular selection	global-local closure
+acceptance_rule	characterize every registered outcome; no shape/physics filter	pinned-by-THEORY:solution-space-not-imposition	honesty gate	full UDT solution space not claimed
+

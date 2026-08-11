@@ -1,0 +1,27 @@
+PASS: P^T K P - K = (uv-1)K
+PASS: pair metric reconstruction
+PASS: T^2 L^2 = -det(h)
+PASS: L^2/T^2 = (-det h)/h00^2
+PASS: F_k pullback metric
+PASS: det(h_k)=-1
+PASS: F_k T^2=1
+PASS: F_k L^2=1
+PASS: F_k beta=k/ell
+PASS: R17 leaf det(h)=-1
+PASS: R17 T^2=u^-2
+PASS: R17 L^2=u^2
+PASS: R17 beta=a
+PASS: R17 (L/T)^2=u^4
+PASS: plane and cylinder have same h
+PASS: cylinder II_ss=-1/R
+PASS: plane II=0 while cylinder II_ss=-1/R (extrinsic nonuniqueness)
+PASS: SO(2) transport composition
+PASS: SO(2) inverse under path reversal
+PASS: Jacobi transfer composition
+PASS: Jacobi transfer det=1
+PASS: conjugate-point B block vanishes
+PASS: full transfer remains invertible
+PASS: Einstein-cylinder tangent norm formula
+INFO: choose any numerical T>pi (e.g. 4) to make every rotated great-circle route timelike
+
+All finite-dimensional checks passed.

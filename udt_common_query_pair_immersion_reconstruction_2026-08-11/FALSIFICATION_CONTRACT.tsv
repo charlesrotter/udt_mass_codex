@@ -1,0 +1,16 @@
+check_id	claim_under_test	certification_or_falsification_rule	maximum_interpretation
+F01	frozen witness identity	exact sample ids parameters points and source hashes match preregistration	provenance only
+F02	Q2 complete orchestra remains live	all registered kappa phi beta Q and four S fields have nonzero dependence in source evaluator	query coverage only
+F03	pair regularity	h00<0 det(h)<0 and rank(dF)=2 reported at every sampled point; violations classified not discarded	bounded immersion regularity
+F04	terminal decomposition	reconstructed h agrees with direct pullback under grid refinement	algebraic/numeric consistency
+F05	Jacobi ownership	Q2 variation agrees with neighboring-rays derivative and geodesic Jacobi residual; Q1 is not promoted absent a geodesic ruling	query-scoped ownership
+F06	Gauss compatibility	one declared scalar/tensor Gauss residual converges toward zero across all three scales	common-immersion consistency
+F07	Codazzi compatibility	declared Codazzi residual converges toward zero or is classified numerically unresolved	common-immersion consistency
+F08	Ricci compatibility	declared Ricci/normal-curvature residual converges toward zero or is classified numerically unresolved	common-immersion consistency
+F09	small-loop ambient holonomy	loop return approaches the declared ambient curvature generator with shrinking area	local connection consistency
+F10	small-loop normal holonomy	loop angle approaches the declared normal curvature with shrinking area	local normal-connection consistency
+F11	extrinsic nonuniqueness	plane/cylinder equal-h unequal-II control reproduces	pair metric does not determine immersion
+F12	independent verification	separate implementation reproduces every load-bearing classification and magnitude within preregistered tolerance	bounded verification only
+F13	no common-path retrofit	every included loop and Jacobi field records its generating query; unmatched G63 data remain additional	semantic/type gate
+F14	no physical promotion	report contains no preferred query path action source bootstrap dynamics stability or observation claim	scope gate
+
