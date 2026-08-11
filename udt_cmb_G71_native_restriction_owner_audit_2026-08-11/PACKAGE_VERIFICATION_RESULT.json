@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "conditional_carry_only": true,
+    "dependency_graph": true,
+    "exact_replay": true,
+    "external_status": true,
+    "independent": true,
+    "no_native_owner": true,
+    "no_solve_or_anchor": true,
+    "numeric_gates": true,
+    "protected": true,
+    "scope": true,
+    "semantic_catches": true,
+    "source_atlas": true,
+    "source_manifest": true,
+    "strict_landing": true,
+    "target_census": true
+  },
+  "passed": 15,
+  "schema": "udt-cmb-g71-package-v1",
+  "total": 15
+}

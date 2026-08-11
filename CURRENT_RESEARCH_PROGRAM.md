@@ -7,7 +7,16 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G70 LEAD:**
+**CURRENT G71 LEAD:**
+`udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md` audits six possible
+restriction owners across the exact 21-source current evidence universe. The metric owns geometric
+carry only conditionally on a supplied query/path. Source shape and normalization, physical CMB
+endpoint/profile selection, and an independently observable carry channel remain `OPEN_NO_OWNER`;
+zero target is `OWNED_NATIVE`. Exact and independent source-congruence/amplitude tests and 13/13
+semantic catch-proofs pass. The result is internally verified and awaiting sealed external review.
+Next is one typed missing-map derivation, not another rank scan or fit.
+
+**G70 PARENT LEAD:**
 `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md` maps 19 exact
 source/channel-control variants across 285 frozen G69 sensitivity rows. Known source covariance
 including amplitude plus independently read carry is full rank in all `45/45` cells, while fixed

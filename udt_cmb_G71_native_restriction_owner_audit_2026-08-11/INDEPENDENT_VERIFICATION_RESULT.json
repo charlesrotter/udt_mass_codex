@@ -1,0 +1,13 @@
+{
+  "atlas_rows": 21,
+  "graph_edges": 16,
+  "imports_production_builder": false,
+  "maximum_congruence_relative": 8.400284655618154e-14,
+  "maximum_shape_coordinate_shift_under_amplitude": 3.324885712002196e-13,
+  "minimum_constructed_source_eigenvalue": 0.04847444920545459,
+  "numeric_trials": 200,
+  "schema": "udt-cmb-g71-independent-v1",
+  "source_rows": 21,
+  "status": "PASS",
+  "target_rows": 6
+}

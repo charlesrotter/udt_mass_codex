@@ -21,6 +21,17 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
+**LATEST LEAD = G71 NATIVE RESTRICTION-OWNER AUDIT,
+`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`; landing
+`GEOMETRIC_CARRY_OWNED__OBSERVABLE_AND_SELECTION_OWNERS_OPEN`.** Read
+`udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `OWNER_TARGET_LEDGER.tsv`, and `PREREGISTRATION.md`. The exact 21-source,
+six-target census finds zero `OWNED_NATIVE` targets. Geometric carry is real but only conditional
+on a supplied query/path; source shape/normalization, physical endpoint/profile, and an observable
+carry readout remain `OPEN_NO_OWNER`. Twelve exact and 200 independent source-freedom checks pass,
+with 13/13 semantic catches. NEXT: sealed adversarial review; then derive one missing typed map
+directly rather than fitting or repeating rank scans.
+
 **LATEST LEAD = G70 COMPLETE-QUERY-OWNED RESTRICTION AND CHANNEL ATLAS,
 `EXTERNALLY_VERIFIED_WITH_REPOSITORY_PROVENANCE_CAVEAT_CLOSED_LOCALLY`; strict landing
 `IDENTIFIABILITY_NUMERICALLY_UNRESOLVED`.** Read

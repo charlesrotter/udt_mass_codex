@@ -1,0 +1,20 @@
+{
+  "caught": {
+    "bootstrap_activated": true,
+    "carry_type_guard_removed": true,
+    "conditional_carry_promoted_universally": true,
+    "control_endpoint_promoted": true,
+    "control_profile_promoted": true,
+    "duplicate_source": true,
+    "duplicate_target": true,
+    "endpoint_selection_gap_hidden": true,
+    "geometric_carry_called_observed": true,
+    "known_control_promoted_to_normalization": true,
+    "metric_symmetry_promoted_to_source": true,
+    "missing_source": true,
+    "missing_target": true
+  },
+  "passed": 13,
+  "schema": "udt-cmb-g71-catch-v1",
+  "total": 13
+}

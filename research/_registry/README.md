@@ -3,7 +3,10 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-lead is `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`; it maps which source,
+lead is `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`; it finds geometric
+carry conditionally owned on a supplied query while the source, endpoint/profile, and
+observation-level carry owners remain open. It awaits external review. Its parent is
+`udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`; it maps which source,
 endpoint/profile, and carry-channel restrictions restore bounded local rank, while finding none
 currently owned and retaining 15 unresolved weaker-model cells. It is externally verified with the
 sealed-intake repository-state caveat closed locally; read its `EXTERNAL_REVIEW_ADJUDICATION.md`

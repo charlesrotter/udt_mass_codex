@@ -1,0 +1,16 @@
+{
+  "dependency_edges": 16,
+  "derived_conditional_targets": 1,
+  "exact_source_congruence_trials": 12,
+  "maximum_conclusion": "source-bounded typed ownership result only",
+  "new_ODE_solves": 0,
+  "observational_anchors_used": 0,
+  "open_or_mismatched_physical_restriction_targets": 5,
+  "owned_native_targets": 0,
+  "owner_targets": 6,
+  "primary_landing": "GEOMETRIC_CARRY_OWNED__OBSERVABLE_AND_SELECTION_OWNERS_OPEN",
+  "protected_draft_contents_read": false,
+  "schema": "udt-cmb-g71-owner-audit-v1",
+  "source_manifest_rows": 21,
+  "source_target_rows": 21
+}

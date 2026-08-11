@@ -9,7 +9,15 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G70 lead
+## Current G71 lead
+
+`udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md` controls the current owner
+gate. Geometric screen carry is `DERIVED_CONDITIONAL_ON_QUERY`; source shape/normalization,
+physical endpoint/profile, and observation-level carry remain `OPEN_NO_OWNER`. No target is
+`OWNED_NATIVE`. This is a source-bounded result awaiting external review, not a universal no-go or
+a CMB model.
+
+## G70 parent lead
 
 `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md` controls the current
 restriction/ownership gate. The uniformly successful tested inverse model supplies known source

@@ -4,11 +4,15 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G70 restriction/channel ownership externally verified)
+## TOP — CURRENT POINTER (2026-08-11, G71 native restriction-owner audit internally verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The current lead is
+`udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`: the 21-source owner census
+finds geometric carry conditionally metric-owned on a supplied query, while the source,
+endpoint/profile selectors, and observable carry readout remain open. It is internally verified
+and awaiting external review. Its parent is
 `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`: 285 frozen-map restriction
 rows show uniform full rank only after supplying known source covariance including amplitude plus
 independent carry (`45/45`). Fifteen weaker-model rows remain unresolved, and no current UDT source
