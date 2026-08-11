@@ -9,7 +9,30 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G63 refinement
+## Current G65 refinement
+
+`udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md` controls the current SNe
+compatibility gate. All 18 frozen M3 fits and 443 leaves replay exactly. The native observer-query
+retyping `phi_pair=log(1+z)` is algebraically identical to the frozen P1/P2/P3 formulas and supplies
+no numerical improvement by semantics alone. External review upheld
+`NO_OWNED_COMPLETE_SNE_QUERY_CORRECTION`; its only mechanical caveat is repaired. The physical
+complete SNe query, pair immersion, screen-area map, and time-live orchestra path remain OPEN.
+`d_A=r` and `d_L=(1+z)^2d_A` remain conditional readout premises, while
+`c_eff^(pair)/c_E=(1+z)^(-2)` remains a conditional pair-cone readout rather than material signal
+speed. P1 remains a conditional SNe/observer-pair profile and may not be promoted to a centered CMB
+lapse.
+
+## G64 parent refinement
+
+`udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md` controls the current
+query-architecture gate. A complete typed query supplies one or more regular realizations, and the
+metric evaluates their endpoint, extrinsic, Jacobi-when-geodesic, ambient-transport, and
+normal-transport channels branchwise. The R17 leaf and time-live Fermi controls own different
+channel sets. Their common-query channels are compatibility-linked without collapsing to one
+scalar. Q2 Codazzi remains numerically unresolved under its frozen trend rule. No physical query,
+branch, dynamics, or regime is selected.
+
+## G63 parent refinement
 
 `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md` controls the
 current solved-geometry gate. In the exact preregistered `14`-witness bounded atlas, endpoint

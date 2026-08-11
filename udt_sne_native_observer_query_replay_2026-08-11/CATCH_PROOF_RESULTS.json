@@ -1,0 +1,28 @@
+{
+  "catch_count": 14,
+  "catches": {
+    "BAO_data_import": "PASS_REJECTED",
+    "CMB_data_import": "PASS_REJECTED",
+    "P1_centered_lapse_promotion": "PASS_REJECTED",
+    "c_eff_signal_promotion": "PASS_REJECTED",
+    "changed_anchor": "PASS_REJECTED",
+    "changed_anchor_error": "PASS_REJECTED",
+    "changed_catalog": "PASS_REJECTED",
+    "changed_covariance": "PASS_REJECTED",
+    "changed_cut": "PASS_REJECTED",
+    "changed_menu": "PASS_REJECTED",
+    "extra_shape_coefficient": "PASS_REJECTED",
+    "orchestra_zeroing": "PASS_REJECTED",
+    "semantic_formula_retune": "PASS_REJECTED",
+    "unowned_correction": "PASS_REJECTED"
+  },
+  "note": "Regression guards only; not an independent semantic derivation.",
+  "schema": "udt-sne-native-query-catches-1.0",
+  "status": "PASS",
+  "type_catch_count": 3,
+  "type_catches": {
+    "boolean_in_float_leaf": "PASS_REJECTED",
+    "integer_numeric_float_leaf": "PASS_ACCEPTED",
+    "stringified_float_leaf": "PASS_REJECTED"
+  }
+}

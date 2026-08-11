@@ -1,7 +1,10 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-11 STATUS (RESTART ANCHOR): SOLVED-GEOMETRY SURVIVOR ATLAS VERIFIED WITH CORRECTIONS; NOTHING IN FLIGHT.** ACTIVE ARC = CMB PEAK
+> **2026-08-11 STATUS (RESTART ANCHOR): NATIVE OBSERVER-QUERY SNe REPLAY VERIFIED WITH CAVEATS; NOTHING IN FLIGHT.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-11) FIRST, then
+> `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_sne_native_observer_query_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then
 > `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then
 > `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
 > then `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then

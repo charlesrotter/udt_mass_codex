@@ -10,6 +10,8 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
+   `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_sne_native_observer_query_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then
    `udt_common_query_pair_immersion_reconstruction_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
    then `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then
@@ -47,7 +49,12 @@
    `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
-   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G64 checkpoint
+   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G65 checkpoint
+   reproduces all 18 frozen M3 SNe fits and 443 leaves exactly and proves that retyping the fitted
+   depth as `phi_pair=log(1+z)` changes no P1/P2/P3 formula. External review retained
+   `VERIFIED-WITH-CAVEATS`; its sole type-comparator caveat is repaired and all 43 final checks pass.
+   SNe is therefore a conditional low-redshift compatibility anchor, not a complete native query,
+   a centered CMB lapse, or a selected orchestra correction. Its G64 parent
    closes the universal preferred-path request: complete typed queries, not bare endpoints, supply
    regular realizations, and the metric evaluates their endpoint/extrinsic/Jacobi/transport
    channels branchwise. The R17 leaf and time-live Fermi controls own different channel sets.

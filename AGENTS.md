@@ -35,6 +35,9 @@ do not dump whole long files or recursively open cited evidence during orientati
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
 5. **ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION.** First read
+   `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_sne_native_observer_query_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+   `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then
    `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then
    `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
    `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`, then

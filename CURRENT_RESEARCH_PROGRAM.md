@@ -7,7 +7,19 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G64 CHECKPOINT:**
+**CURRENT G65 CHECKPOINT:**
+`udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md` reproduces the complete frozen
+18-fit M3 Pantheon+ universe and all 443 stored leaves with maximum numeric difference `0.0`.
+Writing the registered redshift depth as the terminal supplied-pair coordinate
+`phi_pair=log(1+z)` returns exactly the same P1/P2/P3 formulas. External review independently
+reproduced the replay, algebra, and P1 fit and retained `VERIFIED_WITH_CAVEATS`; its single
+leaf-type comparator caveat is repaired with three exercised controls and a 43-check final
+verifier. No current source owns a complete SNe query, physical pair immersion, complete screen-area
+law, time-live orchestra path, or coefficient-free correction. SNe remains a conditional low-z
+compatibility anchor. The next bounded question is the actual CMB observation query; P1 must not be
+promoted to its centered lapse or used to select its geometry.
+
+**G64 PARENT CHECKPOINT:**
 `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md` directly reconstructs
 two complete query realizations and closes the universal preferred-path request as a category error.
 The exact R17 leaf and time-live Fermi queries own different channel sets; on each supplied

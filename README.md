@@ -6,6 +6,12 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`: all 18 frozen M3 Pantheon+ fits
+and 443 stored leaves replay exactly, and the corrected terminal observer-pair typing leaves the
+P1/P2/P3 formulas unchanged. External review returned `VERIFIED_WITH_CAVEATS` and upheld that no
+complete native SNe correction is currently owned; its sole comparator-type caveat is repaired.
+This preserves SNe as a conditional low-redshift compatibility anchor, not a centered CMB lapse or
+a selected complete query. Its parent is
 `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`: the preferred-path
 search has been replaced by the correctly typed architecture `complete query -> regular
 realization(s) -> branchwise multichannel metric evaluation`. Two declared query classes directly

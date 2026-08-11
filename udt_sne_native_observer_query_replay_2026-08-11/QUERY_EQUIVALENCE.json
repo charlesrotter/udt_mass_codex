@@ -1,0 +1,24 @@
+{
+  "check_count": 9,
+  "checks": {
+    "P1_dL_pair_retype": "PASS",
+    "P1_n1_z_zplus2": "PASS",
+    "P1_r_pair_retype": "PASS",
+    "P2_dL_pair_retype": "PASS",
+    "P2_r_pair_retype": "PASS",
+    "P3_dL_pair_retype": "PASS",
+    "P3_r_pair_retype": "PASS",
+    "conditional_ceff_redshift_identity": "PASS",
+    "dimensionless_shape_contains_no_cE": "PASS"
+  },
+  "interpretation": {
+    "c_eff_pair": "CONDITIONAL_PAIR_CONE_READOUT_NOT_SIGNAL_SPEED",
+    "dA_equals_r": "CONDITIONAL_REGISTERED_READOUT",
+    "dL_relation": "CONDITIONAL_REGISTERED_READOUT",
+    "formula_change_from_retyping": false,
+    "phi_pair_identification": "CONDITIONAL_ON_REGISTERED_SNE_QUERY"
+  },
+  "schema": "udt-sne-query-equivalence-1.0",
+  "status": "PASS",
+  "sympy": "1.13.1"
+}

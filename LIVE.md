@@ -6,9 +6,28 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB PEAK OPTIMIZATION; COMMON-QUERY PAIR-IMMERSION RECONSTRUCTION EXTERNALLY VERIFIED WITH CAVEATS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB PEAK OPTIMIZATION; NATIVE OBSERVER-QUERY SNe REPLAY EXTERNALLY VERIFIED WITH CAVEATS; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — COMMON-QUERY PAIR-IMMERSION RECONSTRUCTION COMPLETE,
+**LATEST GATE — NATIVE OBSERVER-QUERY SNe REPLAY AND REGRADING COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`. All `18` frozen M3 Pantheon+ fits and all `443` stored leaves
+replay with maximum numeric difference `0.0`. The independent primary P1 reconstruction returns
+`n=1.0559321886`, `chi2/dof=1260.8480887/1365`, and
+`X_eff=2085.9590 Mpc`, inside every preregistered tolerance. Retyping the registered depth as the
+terminal observer-pair coordinate `phi_pair=log(1+z)` is exactly algebraically identical for
+P1/P2/P3; interpretation changes, not the score. The sealed reviewer independently reproduced the
+return and upheld `NO_OWNED_COMPLETE_SNE_QUERY_CORRECTION`. Its sole caveat—a comparator that could
+accept stringified floats—was preregistered and repaired; `3/3` type controls and `43/43` final
+package checks now pass. P1 remains a conditional observer-pair/SNe profile. The relations
+`d_A=r`, `d_L=(1+z)^2d_A`, and `c_eff^(pair)/c_E=(1+z)^(-2)` retain their declared conditional
+readout types; the last is not material signal speed. Phi+orchestra remains live upstream, but the
+physical complete SNe query, pair immersion, screen-area law, and time-live trajectory remain OPEN.
+NEXT: return to the actual CMB observation query, using this SNe result only as a low-redshift
+compatibility anchor. Do not copy P1 into a centered CMB lapse, invent a native correction, fit new
+freedom, or activate bootstrap.
+
+**PARENT GATE — COMMON-QUERY PAIR-IMMERSION RECONSTRUCTION COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Read
 `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then
 `EXTERNAL_REVIEW_ADJUDICATION.md`. The preferred-path search is closed as the wrong universal

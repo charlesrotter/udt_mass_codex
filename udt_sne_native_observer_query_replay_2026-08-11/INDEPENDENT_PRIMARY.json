@@ -1,0 +1,39 @@
+{
+  "absolute_differences": {
+    "X_eff_Mpc": 0.00033209704906767,
+    "chi2": 2.0885636331513524e-08,
+    "inv_n": 9.442350165089763e-07,
+    "offset": 3.4571131735106064e-07
+  },
+  "best": {
+    "X_eff_Mpc": 2085.9590069567967,
+    "chi2": 1260.8480887249352,
+    "chi2_dof": 0.9236982334981211,
+    "delta_chi2_n1": 7.944900501660641,
+    "inv_n": 0.9470305108426823,
+    "n": 1.0559321886157444,
+    "offset": 22.34352884732842,
+    "sigma_equivalent_one_parameter": 2.8186699880725024
+  },
+  "full_bounds_scan_minimum": 1260.8548398383707,
+  "method": "numpy_cholesky_whitening_plus_independent_bounded_scalar_search",
+  "n_data": 1367,
+  "numpy": "2.2.6",
+  "python": "3.10.12",
+  "reference": {
+    "X_eff_Mpc": 2085.9586748597476,
+    "chi2": 1260.8480887040496,
+    "inv_n": 0.9470295666076658,
+    "offset": 22.343528501617104
+  },
+  "scan_points": 208,
+  "schema": "udt-sne-primary-independent-1.0",
+  "scipy": "1.15.3",
+  "status": "PASS",
+  "tolerances": {
+    "X_eff_Mpc": 0.005,
+    "chi2": 2e-05,
+    "inv_n": 2e-06,
+    "offset": 2e-06
+  }
+}

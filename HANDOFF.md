@@ -18,7 +18,21 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = COMMON-QUERY PAIR-IMMERSION RECONSTRUCTION COMPLETE,
+**LATEST GATE = NATIVE OBSERVER-QUERY SNe REPLAY COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`. The frozen `18`-fit M3 universe replays exactly across `443`
+leaves; the corrected `phi_pair=log(1+z)` typing leaves every P1/P2/P3 formula and score unchanged.
+The independent P1 result remains `n=1.0559321886`, `chi2/dof=1260.8480887/1365`, and
+`X_eff=2085.9590 Mpc`. External review upheld the ownership boundary and found only a leaf-type
+comparator weakness, now preregistered and repaired with `3/3` exercised type controls and `43/43`
+final package checks. This is a conditional low-redshift compatibility anchor, not a complete SNe
+query or a new native correction. P1 is not a centered CMB lapse; phi+orchestra is not zero; the
+physical pair immersion, screen-area law, and time-live history remain OPEN. NEXT: type the actual
+CMB observation query and expose its endpoint, Jacobi, ambient-, and normal-transport read channels
+before any fit or population rule.
+
+**PARENT GATE = COMMON-QUERY PAIR-IMMERSION RECONSTRUCTION COMPLETE,
 `VERIFIED-WITH-CAVEATS`.** Read
 `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then
 `EXTERNAL_REVIEW_ADJUDICATION.md`. A universal preferred path is not the metric-owned object. A
