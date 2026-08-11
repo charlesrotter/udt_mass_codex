@@ -1,0 +1,14 @@
+axis_id	axis	question	required_output
+A01	pair_cone	What are both shifted null directions of the complete induced two-metric?	exact roots and domains
+A02	balanced_readout	Does the orientation-balanced cone combination equal exp(-2 phi_pair)?	exact identity or counterexample
+A03	time_live_dependence	How do time angular shift and mixing enter cone evolution?	full differential dependence
+A04	induced_causality	Does causal preservation constrain the pair immersion or follow tautologically from pullback?	typed theorem
+A05	local_transition_class	What is the full smooth local time-oriented causal transition class?	complete classification
+A06	reciprocity	What does observer exchange do to cone center width depth and orientation?	exact involution
+A07	composition	Do admissible transitions close under three-observer composition and inversion?	groupoid law
+A08	calibration	What freedom survives c_E anchoring and matched tape calibration?	residual-function ledger
+A09	regime_asymptotes	What happens at phi=0 and both infinite-depth limits?	limit atlas without physical labels
+A10	global_causality	What do chronology causality causal simplicity and global hyperbolicity constrain?	typed nested conditions and selection power
+A11	branch_path	What survives multiple paths cut loci and pair-family rebuilding?	branch/transition classification
+A12	selection	Do current UDT premises select one physical pair family or transition?	exact landing
+A13	material_signalling	Which conclusions remain unavailable without dynamics/coupling?	forbidden-inference ledger

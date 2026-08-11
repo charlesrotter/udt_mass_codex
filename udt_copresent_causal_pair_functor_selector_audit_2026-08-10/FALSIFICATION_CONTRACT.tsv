@@ -1,0 +1,16 @@
+catch_id	mutation_or_claim	required_catch
+F01	Set beta to zero before solving null directions	FAIL
+F02	Identify either one-way shifted coordinate speed with the invariant pair readout	FAIL
+F03	Drop angular or mixing dependence before forming h	FAIL
+F04	Claim pullback causal preservation selects the immersion	FAIL
+F05	Classify only affine or linear causal maps	FAIL
+F06	Treat causal composition as selection of one transition	FAIL
+F07	Equate co-presence with instantaneous causal access	FAIL
+F08	Call coordinate c_eff a material signal speed	FAIL
+F09	Use X_max as a wall boundary or numerical input	FAIL
+F10	Assign micro ordinary or cosmological physics from phi sign alone	FAIL
+F11	Call arbitrary time dependence an on-shell time-live solution	FAIL
+F12	Import GR field equations or acceleration mechanics	FAIL
+F13	Promote R17 from control to selected universe	FAIL
+F14	Erase cut-locus path or transition data	FAIL
+F15	Claim global chronology or hyperbolicity from local cone algebra	FAIL
