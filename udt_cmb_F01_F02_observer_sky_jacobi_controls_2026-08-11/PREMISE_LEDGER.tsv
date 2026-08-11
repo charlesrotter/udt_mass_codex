@@ -1,0 +1,19 @@
+item	value_or_definition	status	ownership_or_role	not_owned
+c_E	local clock/ruler calibration; units c_E=1 allowed	OBSERVED	local scale calibration	local variable signal speed
+F01	-A dt2+dr2/A+r2 dOmega2	CHOSE	round zero-mixing control	physical universe or selected screen
+F02	F01+2 h sin2(theta) dt dpsi	CHOSE	axis-regular mixing-on control	physical universe or selected screen
+regular_stratum	r>0; A>0; D=A*r2+h2*sin2(theta)>0	pinned-by-THEORY:metric signature	local algebra domain	global completeness
+observer_event	(t0,r0,pi/2,psi0)	CHOSE	identical equatorial query control	preferred center or observer
+observer_u	A^(-1/2) partial_t	CHOSE:metric-normalized	stationary local observer	global preferred congruence
+line_of_sight_n	A^(1/2) partial_r	CHOSE:metric-normalized	outward radial control	physical CMB branch selector
+screen	metric-orthonormal E_theta,E_psi	DERIVED conditional on query	observer celestial screen	population or polarization source
+generator_k	u+n	DERIVED conditional on query	metric-null comparison generator	material signal trajectory
+Jacobi_map	D_AB=g(E_A,J_B)	DERIVED conditional on metric+query	local remote-to-sky differential map	finite global angular map
+A_h_jets	arbitrary allowed local symbolic jets	free-and-explored	profile dependence census	field equation or global profile
+P1_SNe	low-z pair compatibility anchor	CONDITIONAL	later cross-regime compatibility	centered local lapse
+c_eff_pair	exp(-2 phi_pair) terminal ratio	CONDITIONAL	inter-observer readout	local propagation speed
+X_max	pair positional-dilation asymptote	WORKING	later global guard	local wall or boundary
+co_presence	whole-solution interpretation	POSIT	interpretive guard	local signalling mechanism
+source_population	unsupplied	OPEN	needed for nonzero TT power	derivable from spectrum alone
+bootstrap_action_dynamics	inactive	OPEN	outside bounded control	selector in this calculation
+

@@ -1,0 +1,14 @@
+id	mutation_or_failure	required_detection
+J01	change a frozen source hash	SOURCE_UNIVERSE_CHANGED
+J02	use different initial query data in F01 and F02	QUERY_MISMATCH
+J03	zero F02 h or omit t-psi mixing	F02_INCOMPLETE
+J04	F02 h=0 limit differs from independent F01	ROUND_LIMIT_FAILURE
+J05	fail tetrad orthonormality or k nullity	QUERY_TYPE_FAILURE
+J06	produce nonsymmetric screen tidal matrix	CURVATURE_OR_SCREEN_ERROR
+J07	promote local series to finite-distance map	SCOPE_PROMOTION
+J08	infer TT power from screen geometry alone	SOURCE_OWNERSHIP_ERROR
+J09	infer local signalling or local variable c	OBSERVER_LOCAL_CATEGORY_ERROR
+J10	select a control or import P1/Xmax as local profile/boundary	PHYSICAL_PREMISE_PROMOTION
+J11	share production curvature code with independent verifier	FALSE_INDEPENDENCE
+J12	discard a regular special sublocus	INCOMPLETE_SOLUTION_SPACE
+
