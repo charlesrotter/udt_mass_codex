@@ -1,0 +1,32 @@
+{
+  "behavior_counts": {
+    "CENTER_OFF_NO_INTERIOR_ROOT": 6,
+    "ENDPOINT_TAPER_NO_INTERIOR_ROOT": 5,
+    "INTERIOR_SIGN_CHANGE": 9,
+    "PERSISTENT_SIGN_NO_INTERIOR_ROOT": 28,
+    "ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT": 1
+  },
+  "checks": {
+    "all_center_smooth": true,
+    "all_signature_regular": true,
+    "behavior_label_replay": true,
+    "center_order_replay": true,
+    "complete_algebraic_row_replay": true,
+    "distinct_root_count_replay": true,
+    "endpoint_order_replay": true,
+    "exact_extrema_replay": true,
+    "exact_root_identity_replay": true,
+    "exact_shape_universe": true,
+    "no_physical_selection": true,
+    "normalization_exact": true,
+    "profile_count_591": true,
+    "root_multiplicity_sturm_replay": true,
+    "shape_count_49": true,
+    "stratum_label_replay": true
+  },
+  "passed": 16,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g75-corrected-local-replay-v1",
+  "status": "PASS",
+  "total": 16
+}

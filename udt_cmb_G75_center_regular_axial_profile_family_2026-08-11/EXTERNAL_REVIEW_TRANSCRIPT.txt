@@ -1,0 +1,2309 @@
+Script started on 2026-08-11 19:42:26-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_g75_review_tUtzkAuv
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019ff334-b8f6-7eb2-b680-ce8da2562b17
+--------
+user
+Act as the authorized cold external adversarial reviewer. Read udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md. Before using any scientific source, verify udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/REVIEW_MANIFEST.tsv and every one of its 34 listed payload hashes. Inspect only this sealed read-only intake. Do not edit files, continue the research, access anything outside the intake, or attempt to inspect the protected stopped native-on-shell draft. Return exactly one preregistered landing, decisive independent algebra and counts, any row-level corrections, premise and scope audit, independence and catch-proof assessment, maximum justified conclusion, and runnable verification details.
+codex
+I’m reading the dispatch and manifest first, then I’ll verify all 34 payload hashes inside the intake before assessing any scientific content.
+exec
+/bin/bash -lc pwd in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+/tmp/udt_g75_review_tUtzkAuv
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+# Cold external review — G75 center-regular axial profile family
+
+You are a fresh adversarial mathematical reviewer. You may inspect only the sealed intake defined
+by `REVIEW_MANIFEST.tsv`. Do not edit files, continue the research, infer a physical CMB profile,
+or inspect anything outside the intake.
+
+## Starting point
+
+The supplied stationary axial control metric is
+
+```text
+ds^2 = -A(x)c_E^2 dt^2 + R^2 dx^2/A(x)
+       + R^2 x^2(dtheta^2 + sin^2(theta)dpsi^2)
+       + 2 R c_E h(x) sin^2(theta) dt dpsi,
+A(x)=1+a x^2, h(x)=x^2 q(x^2), 0<=x=r/R<=1.
+```
+
+`c_E` is an observed clock/ruler calibration. `R>0` is symbolic. This is a complete 4D metric only
+inside the declared stationary axial envelope; it is neither the generic ten-function coframe nor a
+physical cosmology.
+
+Put `s=x^2`. G75 preregisters every primitive integer coefficient ray
+
+```text
+p(s)=c0+c1*s+c2*s^2,
+ci in {-2,-1,0,1,2},
+gcd(nonzero |ci|)=1,
+first nonzero coefficient >0.
+```
+
+It claims there are 49 rays. For each, it normalizes by
+
+```text
+M=max_[0,1]|p|, q=epsilon*p/M,
+epsilon in {1/20,1/5,1/2,1},
+a in {-1/4,0,1/4},
+```
+
+and adds three `q=0` controls, for 591 profiles. Negative `q` is represented analytically by the
+axial reflection `psi -> -psi` and is not claimed to be physically selected away.
+
+G74, included only as parent evidence, found a `3/6/12` whole-sky split in a different frozen family;
+the twelve blocked rows were not `C2` at the center. G75 claims to be a new center-regular family,
+not a repair of those rows.
+
+## Required review
+
+1. Verify every sealed hash before interpreting the package. Note that the G75 source manifest
+   froze the then-current premise registry at base `ac01381b`; `POST_BANK_NAVIGATION.md` explains why
+   the separately transmitted current registry now has a different, later hash.
+2. Reconstruct the primitive coefficient rays from the definition. Confirm or refute 49 unique rays
+   and 591 unique profiles without trusting the production generator.
+3. Derive the exact Cartesian-center form of the lapse, radial spatial block, and axial cross term.
+   Decide whether every frozen profile is genuinely smooth at `r=0`; distinguish coordinate from
+   metric degeneracy.
+4. Derive the full metric signature on `0<=x<=1`, including the time-angle Schur complement, polar
+   axes, center limit, all three lapse controls, and all four amplitudes.
+5. Independently recompute each shape's exact normalization, center onset, endpoint-zero order,
+   interior roots and multiplicities, extrema, sign changes, behavior class, and stratum code.
+   Report exact census totals and any mismatch row by row.
+6. Test the claimed reflection equivalence. State precisely what is chart-derived, what is metric-
+   isometric, and what remains physically unselected.
+7. Audit the production, independent replay, package verifier, hash verifier, repository gates, and
+   catch proofs for circularity, shared-code false independence, loose checks, or mutations that do
+   not exercise the load-bearing claim.
+8. Audit scope and premise language. In particular, reject any promotion from the frozen quadratic
+   atlas to all smooth profiles, from the stationary axial envelope to the generic complete metric,
+   or from mathematical strata to physical CMB regimes.
+9. Supply runnable exact algebra or a clean independent script for all finite claims. Give precise
+   hypotheses for the center and signature derivations.
+
+## Required return
+
+Return exactly one primary landing from the preregistered list, then:
+
+- a concise premise/type ledger;
+- exact reconstructed counts;
+- center-regularity and signature adjudication;
+- row-level corrections, if any;
+- independence/catch-proof assessment;
+- scope and maximum justified conclusion;
+- SHA-256 of your raw response and any runnable verifier you create.
+
+Do not derive a sky response, fit peaks, activate a source ensemble, select `R` or `X_max`, invoke
+bootstrap, derive an action or matter source, or inspect the protected stopped native-on-shell draft.
+
+exec
+/bin/bash -lc 'rg --files /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11' in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/REVIEW_MANIFEST.tsv
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PACKAGE_SHA256SUMS.txt
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_profile_family_independent.py
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_package.py
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/CATCH_PROOF_RESULTS.json
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PREREGISTRATION.md
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/SOURCE_MANIFEST.tsv
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_hash_manifest.py
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/RUN_RECORD.md
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXTERNAL_REVIEW_PREREGISTRATION.md
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/OWNERSHIP_LEDGER.tsv
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/run_catch_proofs.py
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/LAY_REPORT.md
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/REPOSITORY_GATES.json
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PREMISE_LEDGER.tsv
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/POST_BANK_GATES.json
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/DERIVATION_RESULT.json
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_post_bank_gates.py
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PACKAGE_VERIFICATION_RESULT.json
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/derive_profile_family.py
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/FALSIFICATION_CONTRACT.tsv
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/POST_BANK_NAVIGATION.md
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/SHAPE_ATLAS.tsv
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_repository_gates.py
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/COMPLETENESS_SCOPE.md
+/tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/REVIEW_MANIFEST.tsv" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+path	sha256	role
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md	1aeffe48e0df06fce6ff5cab25bd0d6a9120c2b0cb6d949ed900d2c4b012be07	G75_CLAIM
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/CATCH_PROOF_RESULTS.json	1bbcd3689036c04eda85d6d6b091ad3452f5b8f287f1e64a16f4e41eed1be498	G75_CATCH_RESULT
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/COMPLETENESS_SCOPE.md	4964830981a95c5be23e0c77da344f4488bc09948f4af6a6f94bf089137d6e11	G75_SCOPE
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/DERIVATION_RESULT.json	db47354241f94c5a28c31602291c9c6613fde9f839c4896482795aa87ea84885	G75_RESULT
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md	37a5cb425c5c617f608f375ed12ef15aa5ac5c9ce9891c58ea06fab7839d4e62	G75_DERIVATION
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md	a6e1c0fe86d2ba3193c99712d75546b4a60d7f60e06dea3208cdbd66c2c9634e	REVIEW_TASK
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXTERNAL_REVIEW_PREREGISTRATION.md	30a34eee277f9bdb3308b1083306b84a114cee4aa7e6de653ae39c4f64657511	REVIEW_PREREGISTRATION
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/FALSIFICATION_CONTRACT.tsv	e857b798aae45ac490aac9ab8f94ecedc5d32d4c3d5d017dcfe2490842eb358c	G75_FALSIFICATION
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json	3db2022622b7e96b88175fd7a60343302d96677998a5713ae8953fa6fe74bb36	G75_INTERNAL_REPLAY_RESULT
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/LAY_REPORT.md	1b437e7426802fbc19b20dc32cd99665251bce90d4e16b331d43cfa9a8d6ad08	G75_LAY_SCOPE
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/OWNERSHIP_LEDGER.tsv	7a7eb96fd6527cf8aaf1b2cadc404824ca2e77c260408fa1fb2da82f2c6e880f	G75_OWNERSHIP
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PACKAGE_SHA256SUMS.txt	d0dbca8b55c0a2af82b864717b8c8e34a2e84da3089d74b3b095312def444818	G75_BANKED_HASHES
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PACKAGE_VERIFICATION_RESULT.json	ef9b0ba377e58eea4b84d50989aefb8f9dbbd3dac57e6fca3781d6dab897e4a6	G75_PACKAGE_RESULT
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/POST_BANK_GATES.json	74e772a2144f84610fe47868f463b78bd3d4ddca95d0bdc33b7d71286f77308b	G75_POST_BANK_RESULT
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/POST_BANK_NAVIGATION.md	8c183ba12d192d740b1f52d4af84756e8738dc8489ad09c440e8cc46725fa80f	G75_PROVENANCE_LAYER
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PREMISE_LEDGER.tsv	9a1e658179d5847c8f16b59771e3e16ea2aa2e4b27e2c7c38157359895204054	G75_PREMISES
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PREREGISTRATION.md	ff4bd4f46f222b3c41cb62e8098144ad94d9b6e5136db837274a57418cae23df	G75_PREREGISTRATION
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv	c45f96312b7a89dcd8797a0ccac8c8506e69bd454bfb119acf34c43149af57c7	G75_591_PROFILES
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/REPOSITORY_GATES.json	7ba09522e015a09f7686631aa98e93d35803ba02dfd50c3cc970847d9da9756e	G75_PRE_NAV_GATES
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/RUN_RECORD.md	bf9badb94e655dd1ab32615b85eb081513e694af3fd3cbb42108091bda575dbf	G75_RUN_RECORD
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/SHAPE_ATLAS.tsv	28350686758d735635e963bea7ebc0435ff335b929db6116dfd3ef44b1bcd912	G75_49_SHAPES
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/SOURCE_MANIFEST.tsv	f58e92f1eabadd9bdc3f3cd81dd932df86a7f60bd6f846fd679a697f0f2014ae	G75_SOURCE_RECORD
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/derive_profile_family.py	2ae16dbe3f077eae54420c1a1cdfd187adeec3e42b107e9f3577c11a98ffee82	G75_PRODUCTION
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/run_catch_proofs.py	8dc3506bcc043ae3e63581e5fe75c876cf28fe219cb85874c6c20dd0101eed07	G75_CATCHES
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_hash_manifest.py	e4ee5fdd2b5468b9b38b6f7c4c93e65deb24511a4e99fb95173a23459e5698b2	G75_HASH_VERIFIER
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_package.py	1d46c5b59294afd88d12b59dec379d13440c50d7de094e832f725b6cd7165df8	G75_PACKAGE_VERIFIER
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_post_bank_gates.py	df0051df22e4588b6ef7df1c8100ac3393fb61bfd7720093c92e9d5e151b7b58	G75_POST_BANK_VERIFIER
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_profile_family_independent.py	642e8cac9e5a14b3fe68eea82300d1e4075b3f8036137cfcc60510256ca14939	G75_INTERNAL_EXACT_REPLAY
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_repository_gates.py	d0638820a93cddbb23c33ecdf89f5e5a6099f47f6544e0bb88ca193bfb9c594e	G75_REPOSITORY_VERIFIER
+CURRENT_SCIENTIFIC_PREMISES.tsv	9fca1917d34ecdf5e59fff4ccf9ec0b6e93f5cd67349cc15f363972540ff8456	CURRENT_68_PREMISES
+udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXACT_DERIVATION.md	e3cc2912aa0da66386aa7ee594a2b95726ad595bc5babfe46fd46584eb5c8b49	G74_CENTER_PARENT
+udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md	ae645d292b541862a079dccd1a146a97c7d6b9a24e45d2c5a909d060f3ff7d70	G74_EXTERNAL_PARENT
+udt_cmb_N03_profile_role_regular_center_map_2026-08-09/EXACT_DERIVATION.md	881f814060d8fb73a1e13802a9e0391145ec987be8ffccf76134ca982575db91	CENTER_JET_PARENT
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py	f0f495cf05211a2ac47a7fa917be64b1dd9c6dfc51dfbb5c1736520b42010d4a	AXIAL_METRIC_PARENT
+
+codex
+I’ve got the manifest boundaries. Next step is a straight hash check of every listed payload before I open the scientific records or any derived claims.
+exec
+/bin/bash -lc "awk 'NR>1{print "'$1}'"' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/REVIEW_MANIFEST.tsv | wc -l" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+34
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+import csv, hashlib, pathlib, sys
+root = pathlib.Path('/tmp/udt_g75_review_tUtzkAuv')
+manifest = root/'udt_cmb_G75_center_regular_axial_profile_family_2026-08-11'/'REVIEW_MANIFEST.tsv'
+rows=[]
+with manifest.open() as f:
+    reader = csv.DictReader(f, delimiter='\\t')
+    for row in reader:
+        p = root / row['path']
+        h = hashlib.sha256(p.read_bytes()).hexdigest()
+        rows.append((row['path'], row['sha256'], h, row['sha256']==h))
+print('rows', len(rows))
+a = sum(ok for *_, ok in rows)
+print('matched', a)
+for path, exp, got, ok in rows:
+    if not ok:
+        print('MISMATCH\\t%s\\t%s\\t%s' % (path, exp, got))
+PY" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+rows 34
+matched 34
+
+codex
+The hash gate passed `34/34`. I’m reading the preregistration, atlases, and derivation records now so I can compare them against an independent reconstruction instead of their own summaries.
+exec
+/bin/bash -lc "sed -n '1,240p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXTERNAL_REVIEW_PREREGISTRATION.md" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+# G75 external adversarial review preregistration
+
+Date: 2026-08-11
+
+Base: `be3c6f7b`
+
+Review status before transmission: not run.
+
+## Frozen question
+
+Adversarially determine whether G75 honestly constructs and exactly classifies the complete frozen
+49-ray/591-profile center-regular axial control family it claims, and whether its center smoothness,
+Lorentz signature, root topology, reflection, and evidence-status conclusions survive a clean
+independent reconstruction.
+
+## Frozen adjudication rules
+
+- Do not defend the package; try to falsify it.
+- Reconstruct the coefficient-ray universe independently from the preregistration.
+- Re-derive Cartesian center regularity and the time-angle block signature from the metric, not from
+  status strings in the TSV files.
+- Recompute exact normalization, boundary orders, interior roots and multiplicities, shape classes,
+  and all census totals.
+- Audit whether `q -> -q` is only a chart-conditional reflection equivalence and whether any physical
+  branch was improperly discarded.
+- Audit false independence, circular checks, vacuous assertions, and unexercised catches.
+- Keep the scope bounded to the frozen quadratic family. Do not select a physical profile or continue
+  to a sky solve.
+
+## Allowed landings
+
+- `VERIFIED_AS_BOUNDED_LEAD`;
+- `VERIFIED_WITH_CAVEATS`;
+- `VERIFIED_AFTER_SPECIFIED_CORRECTIONS`;
+- `REFUTED`;
+- `TYPE_OR_IMPLEMENTATION_FAILURE`.
+
+No outcome may promote G75 to a physical CMB profile, complete smooth-function space, generic
+ten-function metric, source law, scale selection, or externally validated sky model.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PREREGISTRATION.md" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+# G75 center-regular axial complete-profile family atlas — preregistration
+
+Date: 2026-08-11
+
+Base commit: `ac01381bf2ec624ec401f1fb13f5db013f0605e0`
+
+## Whole question
+
+Within the already declared stationary axial F01/F02 metric envelope, what globally specified
+center-regular profile families exist from `r=0` to the symbolic comparison radius `r=R` when the
+lapse, angular collapse, and mixing profile are all kept explicit? Characterize the family before
+running another observer-sky solve and without selecting a profile by resemblance to CMB data.
+
+This is a metric-led function-family atlas. It is not a physical profile, source, endpoint,
+universe-size, `X_max`, bootstrap, action, matter, spectrum, or polarization calculation.
+
+## Metric and scale
+
+Use the exact conditional axial control metric
+
+```text
+ds^2 = -A(x) c_E^2 dt^2 + R^2 dx^2/A(x)
+        + R^2 x^2(dtheta^2 + sin^2(theta)dpsi^2)
+        + 2 R c_E h(x) sin^2(theta) dt dpsi,
+x = r/R,  0 <= x <= 1,
+A(x)=1+a x^2,
+h(x)=x^2 q(x^2).
+```
+
+`R>0` remains symbolic and `c_E` remains the observed clock/ruler calibration. Neither selects a
+profile. The metric is a complete four-dimensional control in this axial envelope, not the generic
+ten-function complete coframe or a physical cosmological solution.
+
+## Frozen candidate universe
+
+Let `s=x^2`. Freeze every primitive coefficient ray
+
+```text
+p(s)=c0+c1 s+c2 s^2,
+(c0,c1,c2) in {-2,-1,0,1,2}^3 \ {(0,0,0)},
+gcd(nonzero |ci|)=1,
+first nonzero coefficient > 0.
+```
+
+This gives exactly `49` sign-quotiented shapes. For each shape define
+
+```text
+M_p = max_{0<=s<=1} |p(s)|,
+q(s) = epsilon p(s)/M_p,
+epsilon in {1/20,1/5,1/2,1},
+a in {-1/4,0,+1/4}.
+```
+
+The negative-`q` partner is retained analytically through the exact axial reflection
+`psi -> -psi`; it is not a discarded physical branch. Add the three matched `q=0` F01 controls.
+The exact universe therefore contains `49*4*3+3 = 591` profiles.
+
+No coefficient ray, amplitude, or lapse value may be removed after classification. This is a
+bounded projective quadratic atlas, not a census of all smooth even functions.
+
+## Exact classification
+
+For every shape/profile record, without numerical root guessing:
+
+- exact normalization `M_p`;
+- center and endpoint mixing values;
+- center onset order and endpoint zero order;
+- every real root in `0<s<1` and its multiplicity;
+- interior sign changes versus even-multiplicity touches;
+- every interior extremum;
+- the exact center jet of `A`, `h`, and `B=h^2/(A x^2)`;
+- Lorentz-signature and nondegeneracy conditions on the complete interval;
+- reflection partner and coefficient-ray identity;
+- role-neutral shape class derived from the above invariants.
+
+Shape names may describe algebraic behavior (`CENTER_OFF`, `ENDPOINT_TAPER`, `INTERIOR_SIGN_CHANGE`,
+`INTERIOR_TOUCH`, `PERSISTENT_SIGN`) but may not be labeled particle, force, CMB, micro, macro, or
+physical regime.
+
+## Numeric work allowed
+
+Only exact rational/SymPy algebra and bounded high-precision spot checks are authorized in G75.
+No geodesic, Jacobi, eigenspectrum, source, survey, ODE/PDE, or GPU solve is authorized. The next
+whole-sky calculation must first choose representatives or a complete finite subfamily by an
+outcome-independent rule registered after this atlas is known.
+
+## Falsification/certification contract
+
+- Fail if the exact coefficient-ray count is not `49` or the profile count is not `591`.
+- Fail if any duplicate ray, missing ray, or nonprimitive ray survives.
+- Fail if any profile is not smooth through the center in Cartesian form.
+- Fail if `A<=0` anywhere on `[0,1]` or if Lorentz signature is not established.
+- Fail if a root, multiplicity, endpoint order, or sign-change class depends on float tolerance.
+- Fail if normalization changes the root/multiplicity class or reflection changes topology.
+- Fail if a profile is selected, ranked, fitted, or described as physical.
+- Fail if the original twelve G74 blocked controls are called repaired; G75 is a new preregistered
+  even-in-`r` family.
+- Fail if a source, spectrum, endpoint, scale, `X_max`, bootstrap rule, action, or matter law enters.
+
+## Preregistered landings
+
+- `CENTER_REGULAR_GLOBAL_AXIAL_FAMILY_NONEMPTY`;
+- `CENTER_REGULAR_FAMILY_HAS_MULTIPLE_EXACT_SHAPE_STRATA`;
+- `BOUNDED_QUADRATIC_ATLAS_DEGENERATE_OR_INCOMPLETE`;
+- `TYPE_OR_IMPLEMENTATION_FAILURE`.
+
+## Maximum conclusion
+
+An exact role-neutral classification of the 591-member center-regular axial control family and a
+principled finite input universe for a later global observer-sky solve. No physical profile or CMB
+prediction may be claimed.
+
+
+exec
+/bin/bash -lc "sed -n '1,80p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/SHAPE_ATLAS.tsv" in /tmp/udt_g75_review_tUtzkAuv
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt_g75_review_tUtzkAuv
+exec
+/bin/bash -lc "sed -n '1,80p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+shape_id	c0	c1	c2	polynomial	normalization_M	normalized_c0	normalized_c1	normalized_c2	center_q_order_in_s	center_h_order_in_x	center_B_order_in_x	endpoint_zero_order_in_s	open_root_count_distinct	open_root_count_multiplicity	open_odd_root_count	open_even_root_count	open_roots_exact	sign_pattern_open_interval	interior_extrema_exact	normalization_candidates	center_value_normalized	endpoint_value_normalized	behavior_class	stratum_code	reflection_class	physical_status
+S01	0	0	1	s**2	1	0	0	1	2	6	10	0	0	0	0	0	-	+	-	0;1	0	1	CENTER_OFF_NO_INTERIOR_ROOT	C2_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S02	0	1	-2	-2*s**2 + s	1	0	1	-2	1	4	6	0	1	1	1	0	1/2@1	+,-	1/4:1/8	0;1/4;1	0	-1	INTERIOR_SIGN_CHANGE	C1_E0_O1_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S03	0	1	-1	-s**2 + s	1/4	0	4	-4	1	4	6	1	0	0	0	0	-	+	1/2:1	0;1/2;1	0	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	C1_E1_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S04	0	1	0	s	1	0	1	0	1	4	6	0	0	0	0	0	-	+	-	0;1	0	1	CENTER_OFF_NO_INTERIOR_ROOT	C1_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S05	0	1	1	s**2 + s	2	0	1/2	1/2	1	4	6	0	0	0	0	0	-	+	-	0;1	0	1	CENTER_OFF_NO_INTERIOR_ROOT	C1_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S06	0	1	2	2*s**2 + s	3	0	1/3	2/3	1	4	6	0	0	0	0	0	-	+	-	0;1	0	1	CENTER_OFF_NO_INTERIOR_ROOT	C1_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S07	0	2	-1	-s**2 + 2*s	1	0	2	-1	1	4	6	0	0	0	0	0	-	+	-	0;1	0	1	CENTER_OFF_NO_INTERIOR_ROOT	C1_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S08	0	2	1	s**2 + 2*s	3	0	2/3	1/3	1	4	6	0	0	0	0	0	-	+	-	0;1	0	1	CENTER_OFF_NO_INTERIOR_ROOT	C1_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S09	1	-2	-2	-2*s**2 - 2*s + 1	3	1/3	-2/3	-2/3	0	2	2	0	1	1	1	0	-1/2 + sqrt(3)/2@1	+,-	-	0;1	1/3	-1	INTERIOR_SIGN_CHANGE	C0_E0_O1_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S10	1	-2	-1	-s**2 - 2*s + 1	2	1/2	-1	-1/2	0	2	2	0	1	1	1	0	-1 + sqrt(2)@1	+,-	-	0;1	1/2	-1	INTERIOR_SIGN_CHANGE	C0_E0_O1_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S11	1	-2	0	1 - 2*s	1	1	-2	0	0	2	2	0	1	1	1	0	1/2@1	+,-	-	0;1	1	-1	INTERIOR_SIGN_CHANGE	C0_E0_O1_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S12	1	-2	1	s**2 - 2*s + 1	1	1	-2	1	0	2	2	2	0	0	0	0	-	+	-	0;1	1	0	ENDPOINT_TAPER_NO_INTERIOR_ROOT	C0_E2_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S13	1	-2	2	2*s**2 - 2*s + 1	1	1	-2	2	0	2	2	0	0	0	0	0	-	+	1/2:1/2	0;1/2;1	1	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S14	1	-1	-2	-2*s**2 - s + 1	2	1/2	-1/2	-1	0	2	2	0	1	1	1	0	1/2@1	+,-	-	0;1	1/2	-1	INTERIOR_SIGN_CHANGE	C0_E0_O1_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S15	1	-1	-1	-s**2 - s + 1	1	1	-1	-1	0	2	2	0	1	1	1	0	-1/2 + sqrt(5)/2@1	+,-	-	0;1	1	-1	INTERIOR_SIGN_CHANGE	C0_E0_O1_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S16	1	-1	0	1 - s	1	1	-1	0	0	2	2	1	0	0	0	0	-	+	-	0;1	1	0	ENDPOINT_TAPER_NO_INTERIOR_ROOT	C0_E1_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S17	1	-1	1	s**2 - s + 1	1	1	-1	1	0	2	2	0	0	0	0	0	-	+	1/2:3/4	0;1/2;1	1	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S18	1	-1	2	2*s**2 - s + 1	2	1/2	-1/2	1	0	2	2	0	0	0	0	0	-	+	1/4:7/16	0;1/4;1	1/2	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S19	1	0	-2	1 - 2*s**2	1	1	0	-2	0	2	2	0	1	1	1	0	sqrt(2)/2@1	+,-	-	0;1	1	-1	INTERIOR_SIGN_CHANGE	C0_E0_O1_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S20	1	0	-1	1 - s**2	1	1	0	-1	0	2	2	1	0	0	0	0	-	+	-	0;1	1	0	ENDPOINT_TAPER_NO_INTERIOR_ROOT	C0_E1_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S21	1	0	0	1	1	1	0	0	0	2	2	0	0	0	0	0	-	+	-	0;1	1	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S22	1	0	1	s**2 + 1	2	1/2	0	1/2	0	2	2	0	0	0	0	0	-	+	-	0;1	1/2	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S23	1	0	2	2*s**2 + 1	3	1/3	0	2/3	0	2	2	0	0	0	0	0	-	+	-	0;1	1/3	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S24	1	1	-2	-2*s**2 + s + 1	9/8	8/9	8/9	-16/9	0	2	2	1	0	0	0	0	-	+	1/4:1	0;1/4;1	8/9	0	ENDPOINT_TAPER_NO_INTERIOR_ROOT	C0_E1_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S25	1	1	-1	-s**2 + s + 1	5/4	4/5	4/5	-4/5	0	2	2	0	0	0	0	0	-	+	1/2:1	0;1/2;1	4/5	4/5	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S26	1	1	0	s + 1	2	1/2	1/2	0	0	2	2	0	0	0	0	0	-	+	-	0;1	1/2	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S27	1	1	1	s**2 + s + 1	3	1/3	1/3	1/3	0	2	2	0	0	0	0	0	-	+	-	0;1	1/3	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S28	1	1	2	2*s**2 + s + 1	4	1/4	1/4	1/2	0	2	2	0	0	0	0	0	-	+	-	0;1	1/4	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S29	1	2	-2	-2*s**2 + 2*s + 1	3/2	2/3	4/3	-4/3	0	2	2	0	0	0	0	0	-	+	1/2:1	0;1/2;1	2/3	2/3	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S30	1	2	-1	-s**2 + 2*s + 1	2	1/2	1	-1/2	0	2	2	0	0	0	0	0	-	+	-	0;1	1/2	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S31	1	2	0	2*s + 1	3	1/3	2/3	0	0	2	2	0	0	0	0	0	-	+	-	0;1	1/3	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S32	1	2	1	s**2 + 2*s + 1	4	1/4	1/2	1/4	0	2	2	0	0	0	0	0	-	+	-	0;1	1/4	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S33	1	2	2	2*s**2 + 2*s + 1	5	1/5	2/5	2/5	0	2	2	0	0	0	0	0	-	+	-	0;1	1/5	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S34	2	-2	-1	-s**2 - 2*s + 2	2	1	-1	-1/2	0	2	2	0	1	1	1	0	-1 + sqrt(3)@1	+,-	-	0;1	1	-1/2	INTERIOR_SIGN_CHANGE	C0_E0_O1_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S35	2	-2	1	s**2 - 2*s + 2	2	1	-1	1/2	0	2	2	0	0	0	0	0	-	+	-	0;1	1	1/2	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S36	2	-1	-2	-2*s**2 - s + 2	2	1	-1/2	-1	0	2	2	0	1	1	1	0	-1/4 + sqrt(17)/4@1	+,-	-	0;1	1	-1/2	INTERIOR_SIGN_CHANGE	C0_E0_O1_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S37	2	-1	-1	-s**2 - s + 2	2	1	-1/2	-1/2	0	2	2	1	0	0	0	0	-	+	-	0;1	1	0	ENDPOINT_TAPER_NO_INTERIOR_ROOT	C0_E1_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S38	2	-1	0	2 - s	2	1	-1/2	0	0	2	2	0	0	0	0	0	-	+	-	0;1	1	1/2	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S39	2	-1	1	s**2 - s + 2	2	1	-1/2	1/2	0	2	2	0	0	0	0	0	-	+	1/2:7/8	0;1/2;1	1	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S40	2	-1	2	2*s**2 - s + 2	3	2/3	-1/3	2/3	0	2	2	0	0	0	0	0	-	+	1/4:5/8	0;1/4;1	2/3	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S41	2	0	-1	2 - s**2	2	1	0	-1/2	0	2	2	0	0	0	0	0	-	+	-	0;1	1	1/2	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S42	2	0	1	s**2 + 2	3	2/3	0	1/3	0	2	2	0	0	0	0	0	-	+	-	0;1	2/3	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S43	2	1	-2	-2*s**2 + s + 2	17/8	16/17	8/17	-16/17	0	2	2	0	0	0	0	0	-	+	1/4:1	0;1/4;1	16/17	8/17	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S44	2	1	-1	-s**2 + s + 2	9/4	8/9	4/9	-4/9	0	2	2	0	0	0	0	0	-	+	1/2:1	0;1/2;1	8/9	8/9	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S45	2	1	0	s + 2	3	2/3	1/3	0	0	2	2	0	0	0	0	0	-	+	-	0;1	2/3	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S46	2	1	1	s**2 + s + 2	4	1/2	1/4	1/4	0	2	2	0	0	0	0	0	-	+	-	0;1	1/2	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S47	2	1	2	2*s**2 + s + 2	5	2/5	1/5	2/5	0	2	2	0	0	0	0	0	-	+	-	0;1	2/5	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S48	2	2	-1	-s**2 + 2*s + 2	3	2/3	2/3	-1/3	0	2	2	0	0	0	0	0	-	+	-	0;1	2/3	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+S49	2	2	1	s**2 + 2*s + 2	5	2/5	2/5	1/5	0	2	2	0	0	0	0	0	-	+	-	0;1	2/5	1	PERSISTENT_SIGN_NO_INTERIOR_ROOT	C0_E0_O0_T0	Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE	CHOSE_CONTROL_NOT_SELECTED
+
+ succeeded in 0ms:
+# G75 exact derivation — center-regular axial profile family
+
+Date: 2026-08-11
+
+Status: `INTERNALLY_REPLAYED_BOUNDED_LEAD`; fresh external adversarial review remains absent.
+
+## 1. Declared control metric
+
+G75 stays inside the preregistered stationary axial control envelope
+
+```text
+ds^2 = -A(x)c_E^2 dt^2 + R^2 dx^2/A(x)
+       + R^2 x^2(dtheta^2 + sin^2(theta)dpsi^2)
+       + 2 R c_E h(x) sin^2(theta) dt dpsi,
+A(x)=1+a x^2, h(x)=x^2 q(x^2), x=r/R in [0,1].
+```
+
+This is a complete four-dimensional metric in the declared axial envelope. It is not the generic
+ten-function complete coframe and it is not a selected physical cosmology. `R>0` remains symbolic;
+`c_E` supplies the observed clock/ruler calibration only.
+
+## 2. Exact finite family
+
+Put `s=x^2` and start with
+
+```text
+p(s)=c0+c1 s+c2 s^2,
+ci in {-2,-1,0,1,2}.
+```
+
+Keep each nonzero primitive integer ray once: the gcd of the nonzero absolute coefficients is one,
+and the first nonzero coefficient is positive. Direct enumeration gives exactly 49 rays. For each
+ray,
+
+```text
+M_p = max_{0<=s<=1}|p(s)|,
+q(s)=epsilon p(s)/M_p,
+epsilon in {1/20,1/5,1/2,1},
+a in {-1/4,0,1/4}.
+```
+
+For a quadratic, the exact normalization candidates are `s=0`, `s=1`, and the vertex
+`s=-c1/(2c2)` when it lies strictly between them. Thus every `M_p` is rational and no floating root
+or optimizer enters. The 49 rays, four amplitudes, and three lapse controls give 588 nonzero-mixing
+profiles. Adding the three matched `q=0` controls gives 591.
+
+The partner `q -> -q` is retained analytically by the axial chart reflection `psi -> -psi`. This
+identifies the same root/multiplicity and signature class; it is not a statement that two possible
+physical orientations have been measured or selected.
+
+## 3. Center smoothness
+
+The lapse is an even analytic function of Cartesian radius. The radial spatial block can be written
+as the Euclidean spatial metric plus
+
+```text
+(A(r)^(-1)-1) dr^2.
+```
+
+Because `(A^(-1)-1)/r^2` is analytic at `r=0`, this term is Cartesian smooth. For the axial cross
+term, `h=x^2 q(x^2)` and
+
+```text
+r^2 sin^2(theta) dpsi = X dY - Y dX.
+```
+
+Consequently the apparent spherical-coordinate factor is an analytic Cartesian one-form multiplied
+by the polynomial `q(r^2/R^2)`. Every one of the 591 controls is therefore `C-infinity` at the
+center. This is why G75 is a new family rather than a repair of G74's twelve center-`C2`-blocked
+profiles.
+
+## 4. Lorentz signature
+
+For all three lapse values,
+
+```text
+A(x) >= 3/4 > 0 on [0,1].
+```
+
+Away from ordinary spherical-coordinate axes, the spatial block is positive. Taking its Schur
+complement in the time direction gives, up to positive unit factors,
+
+```text
+-A - h^2 sin^2(theta)/x^2 < 0.
+```
+
+Since `h=O(x^2)`, this also has a smooth center limit. Hence the declared metric has one timelike and
+three spacelike directions throughout the cell; the coordinate degeneracies at the center and
+polar axis are not metric degeneracies.
+
+## 5. Exact shape classification
+
+All roots and multiplicities are obtained from the exact quadratic. The 49 primitive rays split as:
+
+| algebraic behavior | shapes |
+|---|---:|
+| persistent sign, no interior root | 28 |
+| interior sign change | 9 |
+| center-off, no interior root | 6 |
+| endpoint taper, no interior root | 5 |
+| zero at both boundaries, no interior root | 1 |
+
+There is no even-multiplicity interior-touch member in this frozen coefficient lattice. That empty
+class is an observed property of this 49-ray atlas, not a no-go for broader smooth profiles.
+
+The exact stratum census is:
+
+```text
+C0_E0_O0_T0  28
+C0_E0_O1_T0   8
+C0_E1_O0_T0   4
+C0_E2_O0_T0   1
+C1_E0_O0_T0   5
+C1_E0_O1_T0   1
+C1_E1_O0_T0   1
+C2_E0_O0_T0   1
+```
+
+Here `C` is the center order of `q` in `s`, `E` its endpoint-zero order, `O` the number of odd
+interior roots, and `T` the number of even interior roots. Center orders are `41/7/1` for orders
+`0/1/2`; endpoint orders are `43/5/1`; 40 shapes have no odd interior root and nine have one.
+
+Three algebraic behaviors that were useful in interpreting the G74 obstruction occur here as new
+even-center controls: `S21` is persistent, `S12` endpoint-tapered, and `S11` sign-changing. Their
+existence does not select them for a sky solve.
+
+## 6. Verification and maximum conclusion
+
+The production derivation reports 10/10 exact checks. A separately written SymPy real-root-isolation
+replay reconstructs all 49 rays and all 591 profile identities and passes 10/10 checks. The package
+verifier passes 16/16, and all 10 hostile mutations are caught.
+
+The maximum current conclusion is:
+
+```text
+CENTER_REGULAR_FAMILY_HAS_MULTIPLE_EXACT_SHAPE_STRATA
+```
+
+This is a bounded, role-neutral profile vocabulary. It derives no physical profile, source,
+endpoint, scale, `X_max`, bootstrap rule, action, matter law, CMB spectrum, or polarization field.
+Because no fresh blind external reviewer has yet audited G75, it remains a bankable bounded lead,
+not an externally verified scientific result.
+
+ succeeded in 0ms:
+profile_id	lapse_name	lapse_a	shape_id	amplitude	q_of_s	max_abs_q	center_h_order_in_x	center_B_order_in_x	endpoint_q	behavior_class	center_status	signature_status	lapse_min	reflection_partner	physical_status
+G75_F01_AM	AM	-1/4	ZERO	0	0	0	INFINITE_ZERO	INFINITE_ZERO	0	ZERO_MIXING_CONTROL	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	SELF	CHOSE_CONTROL_NOT_SELECTED
+G75_F01_A0	A0	0	ZERO	0	0	0	INFINITE_ZERO	INFINITE_ZERO	0	ZERO_MIXING_CONTROL	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	SELF	CHOSE_CONTROL_NOT_SELECTED
+G75_F01_AP	AP	1/4	ZERO	0	0	0	INFINITE_ZERO	INFINITE_ZERO	0	ZERO_MIXING_CONTROL	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	SELF	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S01_E05	AM	-1/4	S01	1/20	s**2/20	1/20	6	10	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S01_E05	A0	0	S01	1/20	s**2/20	1/20	6	10	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S01_E05	AP	1/4	S01	1/20	s**2/20	1/20	6	10	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S01_E20	AM	-1/4	S01	1/5	s**2/5	1/5	6	10	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S01_E20	A0	0	S01	1/5	s**2/5	1/5	6	10	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S01_E20	AP	1/4	S01	1/5	s**2/5	1/5	6	10	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S01_E50	AM	-1/4	S01	1/2	s**2/2	1/2	6	10	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S01_E50	A0	0	S01	1/2	s**2/2	1/2	6	10	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S01_E50	AP	1/4	S01	1/2	s**2/2	1/2	6	10	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S01_E100	AM	-1/4	S01	1	s**2	1	6	10	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S01_E100	A0	0	S01	1	s**2	1	6	10	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S01_E100	AP	1/4	S01	1	s**2	1	6	10	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S02_E05	AM	-1/4	S02	1/20	-s**2/10 + s/20	1/20	4	6	-1/20	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S02_E05	A0	0	S02	1/20	-s**2/10 + s/20	1/20	4	6	-1/20	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S02_E05	AP	1/4	S02	1/20	-s**2/10 + s/20	1/20	4	6	-1/20	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S02_E20	AM	-1/4	S02	1/5	-2*s**2/5 + s/5	1/5	4	6	-1/5	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S02_E20	A0	0	S02	1/5	-2*s**2/5 + s/5	1/5	4	6	-1/5	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S02_E20	AP	1/4	S02	1/5	-2*s**2/5 + s/5	1/5	4	6	-1/5	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S02_E50	AM	-1/4	S02	1/2	-s**2 + s/2	1/2	4	6	-1/2	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S02_E50	A0	0	S02	1/2	-s**2 + s/2	1/2	4	6	-1/2	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S02_E50	AP	1/4	S02	1/2	-s**2 + s/2	1/2	4	6	-1/2	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S02_E100	AM	-1/4	S02	1	-2*s**2 + s	1	4	6	-1	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S02_E100	A0	0	S02	1	-2*s**2 + s	1	4	6	-1	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S02_E100	AP	1/4	S02	1	-2*s**2 + s	1	4	6	-1	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S03_E05	AM	-1/4	S03	1/20	-s**2/5 + s/5	1/20	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S03_E05	A0	0	S03	1/20	-s**2/5 + s/5	1/20	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S03_E05	AP	1/4	S03	1/20	-s**2/5 + s/5	1/20	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S03_E20	AM	-1/4	S03	1/5	-4*s**2/5 + 4*s/5	1/5	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S03_E20	A0	0	S03	1/5	-4*s**2/5 + 4*s/5	1/5	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S03_E20	AP	1/4	S03	1/5	-4*s**2/5 + 4*s/5	1/5	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S03_E50	AM	-1/4	S03	1/2	-2*s**2 + 2*s	1/2	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S03_E50	A0	0	S03	1/2	-2*s**2 + 2*s	1/2	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S03_E50	AP	1/4	S03	1/2	-2*s**2 + 2*s	1/2	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S03_E100	AM	-1/4	S03	1	-4*s**2 + 4*s	1	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S03_E100	A0	0	S03	1	-4*s**2 + 4*s	1	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S03_E100	AP	1/4	S03	1	-4*s**2 + 4*s	1	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S04_E05	AM	-1/4	S04	1/20	s/20	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S04_E05	A0	0	S04	1/20	s/20	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S04_E05	AP	1/4	S04	1/20	s/20	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S04_E20	AM	-1/4	S04	1/5	s/5	1/5	4	6	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S04_E20	A0	0	S04	1/5	s/5	1/5	4	6	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S04_E20	AP	1/4	S04	1/5	s/5	1/5	4	6	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S04_E50	AM	-1/4	S04	1/2	s/2	1/2	4	6	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S04_E50	A0	0	S04	1/2	s/2	1/2	4	6	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S04_E50	AP	1/4	S04	1/2	s/2	1/2	4	6	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S04_E100	AM	-1/4	S04	1	s	1	4	6	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S04_E100	A0	0	S04	1	s	1	4	6	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S04_E100	AP	1/4	S04	1	s	1	4	6	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S05_E05	AM	-1/4	S05	1/20	s**2/40 + s/40	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S05_E05	A0	0	S05	1/20	s**2/40 + s/40	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S05_E05	AP	1/4	S05	1/20	s**2/40 + s/40	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S05_E20	AM	-1/4	S05	1/5	s**2/10 + s/10	1/5	4	6	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S05_E20	A0	0	S05	1/5	s**2/10 + s/10	1/5	4	6	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S05_E20	AP	1/4	S05	1/5	s**2/10 + s/10	1/5	4	6	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S05_E50	AM	-1/4	S05	1/2	s**2/4 + s/4	1/2	4	6	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S05_E50	A0	0	S05	1/2	s**2/4 + s/4	1/2	4	6	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S05_E50	AP	1/4	S05	1/2	s**2/4 + s/4	1/2	4	6	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S05_E100	AM	-1/4	S05	1	s**2/2 + s/2	1	4	6	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S05_E100	A0	0	S05	1	s**2/2 + s/2	1	4	6	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S05_E100	AP	1/4	S05	1	s**2/2 + s/2	1	4	6	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S06_E05	AM	-1/4	S06	1/20	s**2/30 + s/60	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S06_E05	A0	0	S06	1/20	s**2/30 + s/60	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S06_E05	AP	1/4	S06	1/20	s**2/30 + s/60	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S06_E20	AM	-1/4	S06	1/5	2*s**2/15 + s/15	1/5	4	6	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S06_E20	A0	0	S06	1/5	2*s**2/15 + s/15	1/5	4	6	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S06_E20	AP	1/4	S06	1/5	2*s**2/15 + s/15	1/5	4	6	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S06_E50	AM	-1/4	S06	1/2	s**2/3 + s/6	1/2	4	6	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S06_E50	A0	0	S06	1/2	s**2/3 + s/6	1/2	4	6	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S06_E50	AP	1/4	S06	1/2	s**2/3 + s/6	1/2	4	6	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S06_E100	AM	-1/4	S06	1	2*s**2/3 + s/3	1	4	6	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S06_E100	A0	0	S06	1	2*s**2/3 + s/3	1	4	6	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S06_E100	AP	1/4	S06	1	2*s**2/3 + s/3	1	4	6	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S07_E05	AM	-1/4	S07	1/20	-s**2/20 + s/10	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S07_E05	A0	0	S07	1/20	-s**2/20 + s/10	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S07_E05	AP	1/4	S07	1/20	-s**2/20 + s/10	1/20	4	6	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S07_E20	AM	-1/4	S07	1/5	-s**2/5 + 2*s/5	1/5	4	6	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+
+codex
+I’ve confirmed the frozen landing options and the atlas format. Now I’m checking the algebra independently and reading the verifier/catch machinery for false-independence or loose-check failure modes.
+exec
+/bin/bash -lc "sed -n '1,240p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PREMISE_LEDGER.tsv" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+premise	status	owner	role	forbidden_promotion
+Lorentz metric and axial F01/F02 envelope	pinned-by-HISTORICAL_CONTROL	G68/G74	complete 4D control arena	generic ten-function metric or physical cosmology
+regular-center even jets	pinned-by-THEORY	N03 and G74	Cartesian center admissibility	profile selection
+c_E	OBSERVED_CALIBRATION	founding metric	clock/ruler units	profile or scale selector
+R positive symbolic	free-and-explored	G75	common radial unit	universe size or Xmax
+three lapse coefficients	CHOSE_CONTROL	G68 continuity	bounded lapse bracket	physical curvature selection
+49 primitive quadratic rays	CHOSE_ENUMERATION	G75 preregistration	role-neutral shape atlas	complete smooth function space
+four normalized amplitudes	CHOSE_CONTROL	G75 preregistration	bounded mixing-strength bracket	observational fit
+negative mixing reflection	DERIVED_CONDITIONAL_ON_AXIAL_CHART	G68 reflection	retain sign partner analytically	discarded physical branch
+source endpoint scale spectrum	OPEN_INACTIVE	current premise ledger	outside G75	selector or fit
+bootstrap Xmax action matter	WORKING_OR_OPEN_INACTIVE	current premise ledger	outside G75	current family owner
+
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_profile_family_independent.py" in /tmp/udt_g75_review_tUtzkAuv
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/COMPLETENESS_SCOPE.md" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent standard-library/SymPy-Sturm verification of the G75 exact atlas."""
+
+from __future__ import annotations
+
+import csv
+import itertools
+import json
+import math
+from collections import Counter
+from fractions import Fraction
+from pathlib import Path
+
+import sympy as sp
+
+
+HERE = Path(__file__).resolve().parent
+S = sp.symbols("s", real=True)
+
+
+def read_tsv(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def candidates() -> set[tuple[int, int, int]]:
+    output = set()
+    for item in itertools.product(range(-2, 3), repeat=3):
+        nz = [abs(value) for value in item if value]
+        if nz and math.gcd(*nz) == 1 and next(value for value in item if value) > 0:
+            output.add(item)
+    return output
+
+
+def max_abs(coeffs: tuple[int, int, int]) -> Fraction:
+    c0, c1, c2 = coeffs
+    points = {Fraction(0), Fraction(1)}
+    if c2 and 0 < Fraction(-c1, 2 * c2) < 1:
+        points.add(Fraction(-c1, 2 * c2))
+    return max(abs(Fraction(c0) + Fraction(c1) * x + Fraction(c2) * x * x) for x in points)
+
+
+def main() -> None:
+    shapes = read_tsv(HERE / "SHAPE_ATLAS.tsv")
+    profiles = read_tsv(HERE / "PROFILE_ATLAS.tsv")
+    expected = candidates()
+    observed = {tuple(int(row[f"c{i}"]) for i in range(3)) for row in shapes}
+    assert observed == expected and len(shapes) == 49
+    assert len(profiles) == len({row["profile_id"] for row in profiles}) == 591
+
+    checks = {
+        "exact_shape_universe": observed == expected,
+        "shape_count_49": len(shapes) == 49,
+        "profile_count_591": len(profiles) == 591,
+        "normalization_exact": True,
+        "root_multiplicity_sturm_replay": True,
+        "endpoint_order_replay": True,
+        "center_order_replay": True,
+        "all_center_smooth": all(row["center_status"] == "CENTER_C_INFINITY" for row in profiles),
+        "all_signature_regular": all(Fraction(row["lapse_min"]) > 0 and row["signature_status"] == "LORENTZ_REGULAR_ALL_X" for row in profiles),
+        "no_physical_selection": all(row["physical_status"] == "CHOSE_CONTROL_NOT_SELECTED" for row in profiles),
+    }
+    behavior = Counter()
+    for row in shapes:
+        coeffs = tuple(int(row[f"c{i}"]) for i in range(3))
+        checks["normalization_exact"] &= Fraction(row["normalization_M"]) == max_abs(coeffs)
+        poly = sp.Poly(sum(sp.Integer(coeffs[i]) * S**i for i in range(3)), S)
+        p1 = sum(coeffs)
+        dp1 = coeffs[1] + 2 * coeffs[2]
+        endpoint_order = 0 if p1 else (1 if dp1 else 2)
+        checks["endpoint_order_replay"] &= endpoint_order == int(row["endpoint_zero_order_in_s"])
+        center_order = 0 if coeffs[0] else (1 if coeffs[1] else 2)
+        checks["center_order_replay"] &= center_order == int(row["center_q_order_in_s"])
+        # Use a separate exact real-root-isolation route; discard only point intervals at 0 or 1.
+        counted = 0
+        for (lower, upper), multiplicity in poly.intervals():
+            if lower == upper and lower in (0, 1):
+                continue
+            if lower >= 0 and upper <= 1:
+                counted += int(multiplicity)
+        checks["root_multiplicity_sturm_replay"] &= counted == int(row["open_root_count_multiplicity"])
+        behavior[row["behavior_class"]] += 1
+    assert all(checks.values()), [name for name, value in checks.items() if not value]
+    payload = {
+        "schema": "udt-cmb-g75-independent-v1",
+        "status": "PASS",
+        "checks": checks,
+        "passed": sum(checks.values()),
+        "total": len(checks),
+        "behavior_counts": dict(sorted(behavior.items())),
+        "protected_draft_read": False,
+    }
+    (HERE / "INDEPENDENT_VERIFICATION_RESULT.json").write_text(
+        json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(payload, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+# G75 completeness scope
+
+G75 is one bounded algebraic tile. It maps every member of the preregistered 49-ray projective
+quadratic family, but not every center-regular complete metric.
+
+| completeness axis | covered | deliberately not covered |
+|---|---|---|
+| fields | all four coordinates in the stationary axial control metric | generic ten-function coframe, time-live fields, matter |
+| metric terms | lapse, spherical areal block, axial time-angle mixing | other angular shear/twist/mixing channels |
+| equations | exact metric regularity and algebraic profile identities | action, Euler-Lagrange equations, source equations |
+| domain | complete control interval `0<=r/R<=1` and full angular chart with Cartesian center audit | physical endpoint, exterior continuation, cut-locus atlas |
+| boundary/regularity | exact center and endpoint orders | selected boundary law or finite-cell seal |
+| topology | ordinary axial spherical control chart | alternative global topologies and branch gluing |
+| dynamics | stationary profiles only | time-live evolution and stability |
+| branches | all 49 frozen coefficient rays, four amplitudes, three lapses, plus zero controls | all smooth even profiles or generic complete-metric branches |
+| response | none | geodesic, Jacobi, sky map, source, spectra |
+| scale/regime | symbolic positive `R`; dimensionless full control cell | physical `R`, `X_max`, CMB endpoint, bootstrap range |
+
+Every fixed physics-relevant choice is visible in `PREMISE_LEDGER.tsv`. The coefficient lattice and
+amplitudes are `CHOSE_CONTROL`, not theory-selected. Classification records behavior and never filters
+a member for resemblance to a desired sky.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_package.py" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Fail-closed semantic and census verification for G75."""
+
+from __future__ import annotations
+
+import csv
+import json
+from collections import Counter
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+
+
+def table(name: str) -> list[dict[str, str]]:
+    with (HERE / name).open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def main() -> None:
+    result = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    shapes = table("SHAPE_ATLAS.tsv")
+    profiles = table("PROFILE_ATLAS.tsv")
+    checks = {
+        "production_pass": result["status"] == "PASS",
+        "independent_pass": independent["status"] == "PASS",
+        "shape_count": len(shapes) == result["shape_count"] == 49,
+        "profile_count": len(profiles) == result["profile_count"] == 591,
+        "unique_shapes": len({row["shape_id"] for row in shapes}) == 49,
+        "unique_profiles": len({row["profile_id"] for row in profiles}) == 591,
+        "behavior_counts": Counter(row["behavior_class"] for row in shapes) == Counter(result["behavior_counts"]),
+        "all_center_smooth": all(row["center_status"] == "CENTER_C_INFINITY" for row in profiles),
+        "all_signature_regular": all(row["signature_status"] == "LORENTZ_REGULAR_ALL_X" for row in profiles),
+        "all_unselected": all(row["physical_status"] == "CHOSE_CONTROL_NOT_SELECTED" for row in profiles),
+        "scale_symbolic": result["scale_status"] == "R_POSITIVE_SYMBOLIC_NOT_SELECTED",
+        "physical_owner_open": result["physical_owner"] == "OPEN_NO_OWNER",
+        "no_G74_repair": result["original_G74_blocked_profiles_repaired"] is False,
+        "three_zero_controls": sum(row["shape_id"] == "ZERO" for row in profiles) == 3,
+        "588_nonzero_controls": sum(row["shape_id"] != "ZERO" for row in profiles) == 588,
+        "analogs_present": set(result["new_even_analog_shape_ids"]) == {"persistent_even", "endpoint_taper_even", "sign_change_even"},
+    }
+    assert all(checks.values()), [name for name, value in checks.items() if not value]
+    payload = {
+        "schema": "udt-cmb-g75-package-verification-v1",
+        "status": "PASS",
+        "checks": checks,
+        "passed": sum(checks.values()),
+        "total": len(checks),
+        "protected_draft_read": False,
+    }
+    (HERE / "PACKAGE_VERIFICATION_RESULT.json").write_text(
+        json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(payload, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/run_catch_proofs.py" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exercise fail-closed semantic mutations against the G75 census."""
+
+from __future__ import annotations
+
+import csv
+import json
+from copy import deepcopy
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+
+
+def table(name: str) -> list[dict[str, str]]:
+    with (HERE / name).open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def accepted(shapes: list[dict[str, str]], profiles: list[dict[str, str]], result: dict) -> bool:
+    return (
+        len(shapes) == len({row["shape_id"] for row in shapes}) == 49
+        and len(profiles) == len({row["profile_id"] for row in profiles}) == 591
+        and all(row["center_status"] == "CENTER_C_INFINITY" for row in profiles)
+        and all(row["signature_status"] == "LORENTZ_REGULAR_ALL_X" for row in profiles)
+        and all(row["physical_status"] == "CHOSE_CONTROL_NOT_SELECTED" for row in profiles)
+        and result["scale_status"] == "R_POSITIVE_SYMBOLIC_NOT_SELECTED"
+        and result["physical_owner"] == "OPEN_NO_OWNER"
+        and result["original_G74_blocked_profiles_repaired"] is False
+    )
+
+
+def main() -> None:
+    shapes = table("SHAPE_ATLAS.tsv")
+    profiles = table("PROFILE_ATLAS.tsv")
+    result = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    assert accepted(shapes, profiles, result)
+    catches = {}
+
+    for name, mutate in (
+        ("missing_shape", lambda s, p, r: s.pop()),
+        ("duplicate_shape", lambda s, p, r: s.append(deepcopy(s[0]))),
+        ("missing_profile", lambda s, p, r: p.pop()),
+        ("duplicate_profile", lambda s, p, r: p.append(deepcopy(p[0]))),
+        ("center_odd_profile", lambda s, p, r: p[3].__setitem__("center_status", "NOT_C2")),
+        ("signature_failure", lambda s, p, r: p[4].__setitem__("signature_status", "DEGENERATE")),
+        ("physical_selection", lambda s, p, r: p[5].__setitem__("physical_status", "SELECTED_PHYSICAL")),
+        ("scale_selected", lambda s, p, r: r.__setitem__("scale_status", "R_SELECTED")),
+        ("source_activated", lambda s, p, r: r.__setitem__("physical_owner", "SOURCE_FIT")),
+        ("G74_repair_claim", lambda s, p, r: r.__setitem__("original_G74_blocked_profiles_repaired", True)),
+    ):
+        test_shapes, test_profiles, test_result = deepcopy(shapes), deepcopy(profiles), deepcopy(result)
+        mutate(test_shapes, test_profiles, test_result)
+        catches[name] = not accepted(test_shapes, test_profiles, test_result)
+    assert all(catches.values())
+    payload = {
+        "schema": "udt-cmb-g75-catches-v1",
+        "status": "PASS",
+        "catches": catches,
+        "passed": sum(catches.values()),
+        "total": len(catches),
+        "protected_draft_read": False,
+    }
+    (HERE / "CATCH_PROOF_RESULTS.json").write_text(
+        json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(payload, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+The package’s “independent” replay is not fully independent yet; I’m reading the production generator and the gate scripts to see exactly where code paths are shared and what the hostile mutations do or do not cover.
+exec
+/bin/bash -lc "sed -n '1,320p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/derive_profile_family.py" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact G75 center-regular axial profile-family classification."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import itertools
+import json
+import math
+from collections import Counter
+from fractions import Fraction
+from pathlib import Path
+
+import sympy as sp
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+S = sp.symbols("s", real=True)
+LAPSES = (("AM", Fraction(-1, 4)), ("A0", Fraction(0)), ("AP", Fraction(1, 4)))
+AMPLITUDES = (("E05", Fraction(1, 20)), ("E20", Fraction(1, 5)), ("E50", Fraction(1, 2)), ("E100", Fraction(1)))
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def verify_sources() -> int:
+    with (HERE / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
+        rows = list(csv.DictReader(stream, delimiter="\t"))
+    for row in rows:
+        target = ROOT / row["path"]
+        assert target.is_file() and digest(target) == row["sha256"], target
+    return len(rows)
+
+
+def ftext(value: Fraction) -> str:
+    return str(value.numerator) if value.denominator == 1 else f"{value.numerator}/{value.denominator}"
+
+
+def primitive_shapes() -> list[tuple[int, int, int]]:
+    output = []
+    for coeffs in itertools.product(range(-2, 3), repeat=3):
+        nonzero = [abs(value) for value in coeffs if value]
+        if not nonzero or math.gcd(*nonzero) != 1:
+            continue
+        if next(value for value in coeffs if value) < 0:
+            continue
+        output.append(coeffs)
+    return sorted(output)
+
+
+def evaluate(coeffs: tuple[int, int, int], value: Fraction) -> Fraction:
+    c0, c1, c2 = coeffs
+    return Fraction(c0) + Fraction(c1) * value + Fraction(c2) * value * value
+
+
+def exact_normalization(coeffs: tuple[int, int, int]) -> tuple[Fraction, list[Fraction]]:
+    c0, c1, c2 = coeffs
+    candidates = [Fraction(0), Fraction(1)]
+    if c2:
+        vertex = Fraction(-c1, 2 * c2)
+        if 0 < vertex < 1:
+            candidates.append(vertex)
+    maximum = max(abs(evaluate(coeffs, value)) for value in candidates)
+    assert maximum > 0
+    return maximum, sorted(set(candidates))
+
+
+def open_roots(coeffs: tuple[int, int, int]) -> list[tuple[sp.Expr, int]]:
+    polynomial = sp.Poly(sum(sp.Integer(coeffs[index]) * S**index for index in range(3)), S)
+    output = []
+    for root, multiplicity in sp.roots(polynomial.as_expr(), S).items():
+        if root.is_real is False:
+            continue
+        if root.is_real is None and sp.simplify(sp.im(root)) != 0:
+            continue
+        inside = sp.simplify(sp.And(root > 0, root < 1))
+        if inside is sp.true:
+            output.append((root, int(multiplicity)))
+        elif inside is not sp.false:
+            raise AssertionError((coeffs, root, inside))
+    return sorted(output, key=lambda item: float(sp.N(item[0], 40)))
+
+
+def shape_record(index: int, coeffs: tuple[int, int, int]) -> dict[str, str | int]:
+    c0, c1, c2 = coeffs
+    normalization, extrema_candidates = exact_normalization(coeffs)
+    roots = open_roots(coeffs)
+    center_order = 0 if c0 else (1 if c1 else 2)
+    endpoint = c0 + c1 + c2
+    endpoint_derivative = c1 + 2 * c2
+    endpoint_order = 0 if endpoint else (1 if endpoint_derivative else 2)
+    odd_roots = sum(1 for _, multiplicity in roots if multiplicity % 2)
+    even_roots = sum(1 for _, multiplicity in roots if not multiplicity % 2)
+    interior_extrema = []
+    if c2:
+        vertex = Fraction(-c1, 2 * c2)
+        if 0 < vertex < 1:
+            interior_extrema.append((vertex, evaluate(coeffs, vertex) / normalization))
+    if odd_roots:
+        behavior = "INTERIOR_SIGN_CHANGE"
+    elif even_roots:
+        behavior = "INTERIOR_TOUCH_NO_SIGN_CHANGE"
+    elif center_order and endpoint_order:
+        behavior = "ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT"
+    elif center_order:
+        behavior = "CENTER_OFF_NO_INTERIOR_ROOT"
+    elif endpoint_order:
+        behavior = "ENDPOINT_TAPER_NO_INTERIOR_ROOT"
+    else:
+        behavior = "PERSISTENT_SIGN_NO_INTERIOR_ROOT"
+    sign_pattern = ",".join("+" if step % 2 == 0 else "-" for step in range(odd_roots + 1))
+    normalized_coeffs = tuple(Fraction(value, 1) / normalization for value in coeffs)
+    return {
+        "shape_id": f"S{index:02d}",
+        "c0": c0,
+        "c1": c1,
+        "c2": c2,
+        "polynomial": str(sp.expand(c0 + c1 * S + c2 * S**2)),
+        "normalization_M": ftext(normalization),
+        "normalized_c0": ftext(normalized_coeffs[0]),
+        "normalized_c1": ftext(normalized_coeffs[1]),
+        "normalized_c2": ftext(normalized_coeffs[2]),
+        "center_q_order_in_s": center_order,
+        "center_h_order_in_x": 2 + 2 * center_order,
+        "center_B_order_in_x": 2 + 4 * center_order,
+        "endpoint_zero_order_in_s": endpoint_order,
+        "open_root_count_distinct": len(roots),
+        "open_root_count_multiplicity": sum(mult for _, mult in roots),
+        "open_odd_root_count": odd_roots,
+        "open_even_root_count": even_roots,
+        "open_roots_exact": ";".join(f"{sp.sstr(root)}@{mult}" for root, mult in roots) or "-",
+        "sign_pattern_open_interval": sign_pattern,
+        "interior_extrema_exact": ";".join(
+            f"{ftext(point)}:{ftext(value)}" for point, value in interior_extrema
+        ) or "-",
+        "normalization_candidates": ";".join(ftext(value) for value in extrema_candidates),
+        "center_value_normalized": ftext(Fraction(c0, 1) / normalization),
+        "endpoint_value_normalized": ftext(Fraction(endpoint, 1) / normalization),
+        "behavior_class": behavior,
+        "stratum_code": f"C{center_order}_E{endpoint_order}_O{odd_roots}_T{even_roots}",
+        "reflection_class": "Q_TO_MINUS_Q_SAME_ROOT_MULTIPLICITY_AND_METRIC_SIGNATURE",
+        "physical_status": "CHOSE_CONTROL_NOT_SELECTED",
+    }
+
+
+def write_tsv(path: Path, rows: list[dict[str, object]]) -> None:
+    assert rows
+    with path.open("w", newline="", encoding="utf-8") as stream:
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]), delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def main() -> None:
+    source_count = verify_sources()
+    coeffs = primitive_shapes()
+    assert len(coeffs) == 49 and len(set(coeffs)) == 49
+    shapes = [shape_record(index + 1, item) for index, item in enumerate(coeffs)]
+    write_tsv(HERE / "SHAPE_ATLAS.tsv", shapes)
+
+    profiles: list[dict[str, object]] = []
+    for lapse_name, lapse in LAPSES:
+        profiles.append({
+            "profile_id": f"G75_F01_{lapse_name}",
+            "lapse_name": lapse_name,
+            "lapse_a": ftext(lapse),
+            "shape_id": "ZERO",
+            "amplitude": "0",
+            "q_of_s": "0",
+            "max_abs_q": "0",
+            "center_h_order_in_x": "INFINITE_ZERO",
+            "center_B_order_in_x": "INFINITE_ZERO",
+            "endpoint_q": "0",
+            "behavior_class": "ZERO_MIXING_CONTROL",
+            "center_status": "CENTER_C_INFINITY",
+            "signature_status": "LORENTZ_REGULAR_ALL_X",
+            "lapse_min": ftext(min(Fraction(1), Fraction(1) + lapse)),
+            "reflection_partner": "SELF",
+            "physical_status": "CHOSE_CONTROL_NOT_SELECTED",
+        })
+    for shape in shapes:
+        norm_coeffs = tuple(Fraction(shape[f"normalized_c{index}"]) for index in range(3))
+        for amplitude_name, amplitude in AMPLITUDES:
+            q_coeffs = tuple(amplitude * value for value in norm_coeffs)
+            q_expr = sum(sp.Rational(value.numerator, value.denominator) * S**index for index, value in enumerate(q_coeffs))
+            endpoint_q = sum(q_coeffs)
+            for lapse_name, lapse in LAPSES:
+                profiles.append({
+                    "profile_id": f"G75_{lapse_name}_{shape['shape_id']}_{amplitude_name}",
+                    "lapse_name": lapse_name,
+                    "lapse_a": ftext(lapse),
+                    "shape_id": shape["shape_id"],
+                    "amplitude": ftext(amplitude),
+                    "q_of_s": str(sp.expand(q_expr)),
+                    "max_abs_q": ftext(amplitude),
+                    "center_h_order_in_x": shape["center_h_order_in_x"],
+                    "center_B_order_in_x": shape["center_B_order_in_x"],
+                    "endpoint_q": ftext(endpoint_q),
+                    "behavior_class": shape["behavior_class"],
+                    "center_status": "CENTER_C_INFINITY",
+                    "signature_status": "LORENTZ_REGULAR_ALL_X",
+                    "lapse_min": ftext(min(Fraction(1), Fraction(1) + lapse)),
+                    "reflection_partner": "NEGATIVE_Q_VIA_PSI_REFLECTION",
+                    "physical_status": "CHOSE_CONTROL_NOT_SELECTED",
+                })
+    assert len(profiles) == 591 and len({row["profile_id"] for row in profiles}) == 591
+    write_tsv(HERE / "PROFILE_ATLAS.tsv", profiles)
+
+    behavior_counts = Counter(str(row["behavior_class"]) for row in shapes)
+    stratum_counts = Counter(str(row["stratum_code"]) for row in shapes)
+    center_counts = Counter(int(row["center_q_order_in_s"]) for row in shapes)
+    endpoint_counts = Counter(int(row["endpoint_zero_order_in_s"]) for row in shapes)
+    odd_counts = Counter(int(row["open_odd_root_count"]) for row in shapes)
+    analogs = {}
+    for name, target in {
+        "persistent_even": (1, 0, 0),
+        "endpoint_taper_even": (1, -2, 1),
+        "sign_change_even": (1, -2, 0),
+    }.items():
+        analogs[name] = next(row["shape_id"] for row in shapes if tuple(int(row[f"c{i}"]) for i in range(3)) == target)
+
+    exact_checks = {
+        "shape_count_49": len(shapes) == 49,
+        "profile_count_591": len(profiles) == 591,
+        "all_shapes_primitive": all(math.gcd(*[abs(value) for value in item if value]) == 1 for item in coeffs),
+        "all_sign_quotiented": all(next(value for value in item if value) > 0 for item in coeffs),
+        "all_normalized": all(exact_normalization(tuple(int(row[f"c{i}"]) for i in range(3)))[0] == Fraction(str(row["normalization_M"])) for row in shapes),
+        "all_center_C_infinity": all(row["center_status"] == "CENTER_C_INFINITY" for row in profiles),
+        "all_lorentz_regular": all(row["signature_status"] == "LORENTZ_REGULAR_ALL_X" for row in profiles),
+        "no_physical_selection": all(row["physical_status"] == "CHOSE_CONTROL_NOT_SELECTED" for row in profiles),
+        "reflection_topology_neutral": all(row["reflection_class"].startswith("Q_TO_MINUS_Q") for row in shapes),
+        "legacy_analogs_present_as_new_even_controls": len(analogs) == 3,
+    }
+    assert all(exact_checks.values())
+    result = {
+        "schema": "udt-cmb-g75-center-regular-profile-family-v1",
+        "status": "PASS",
+        "landing": "CENTER_REGULAR_FAMILY_HAS_MULTIPLE_EXACT_SHAPE_STRATA",
+        "source_manifest_rows": source_count,
+        "shape_count": len(shapes),
+        "profile_count": len(profiles),
+        "lapse_count": len(LAPSES),
+        "amplitude_count": len(AMPLITUDES),
+        "zero_mixing_controls": len(LAPSES),
+        "behavior_counts": dict(sorted(behavior_counts.items())),
+        "stratum_counts": dict(sorted(stratum_counts.items())),
+        "center_onset_counts": {str(key): value for key, value in sorted(center_counts.items())},
+        "endpoint_zero_order_counts": {str(key): value for key, value in sorted(endpoint_counts.items())},
+        "interior_odd_root_counts": {str(key): value for key, value in sorted(odd_counts.items())},
+        "new_even_analog_shape_ids": analogs,
+        "exact_checks": exact_checks,
+        "metric_signature_proof": "spatial eigenvalues (1/A,1,1) positive; timelike Schur complement -A-|w|^2 negative",
+        "scale_status": "R_POSITIVE_SYMBOLIC_NOT_SELECTED",
+        "physical_owner": "OPEN_NO_OWNER",
+        "original_G74_blocked_profiles_repaired": False,
+        "protected_draft_read": False,
+    }
+    (HERE / "DERIVATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_hash_manifest.py" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Verify the non-self-referential G75 package SHA-256 manifest."""
+
+from __future__ import annotations
+
+import hashlib
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+
+
+def main() -> None:
+    rows = []
+    for line in (HERE / "PACKAGE_SHA256SUMS.txt").read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        expected, name = line.split(None, 1)
+        target = HERE / name.strip()
+        assert target.is_file(), name
+        assert hashlib.sha256(target.read_bytes()).hexdigest() == expected, name
+        rows.append(name.strip())
+    assert len(rows) == len(set(rows)) == 23
+    print("PASS: 23 G75 package hashes")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_post_bank_gates.py" in /tmp/udt_g75_review_tUtzkAuv
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/verify_repository_gates.py" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Verify frozen G75 payload provenance against the advanced live navigation."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import re
+import subprocess
+from pathlib import Path
+from urllib.parse import unquote
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+BASE = "ac01381bf2ec624ec401f1fb13f5db013f0605e0"
+MANIFESTS = (
+    "native_action_stage1_2026-07-18/arm_A/SHA256SUMS.txt",
+    "native_action_stage1_2026-07-18/arm_B/SHA256SUMS.txt",
+    "native_action_stage2_2026-07-18/arm_A/SHA256SUMS.txt",
+    "native_action_stage2_2026-07-18/arm_B/SHA256SUMS.txt",
+    "native_action_arm_c_2026-07-18/SHA256SUMS.txt",
+    "native_action_final_adjudication_2026-07-18/SHA256SUMS.txt",
+)
+STARTUP = (
+    "LIVE.md", "HANDOFF.md", "INDEX.md", "README.md", "MEMORY.md",
+    "CURRENT_RESEARCH_PROGRAM.md", "CURRENT_SCIENTIFIC_PREMISES.md", "INFLIGHT_STATE.md",
+    "research/README.md", "research/_registry/README.md",
+)
+AUTHORIZED = {
+    "CURRENT_RESEARCH_PROGRAM.md", "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv", "HANDOFF.md", "INDEX.md", "INFLIGHT_STATE.md",
+    "LIVE.md", "MEMORY.md", "README.md", "research/README.md",
+    "research/_registry/README.md", "verify_current_scientific_premises.py",
+    "tests/test_startup_surface.py",
+    f"{HERE.name}/POST_BANK_NAVIGATION.md",
+    f"{HERE.name}/POST_BANK_GATES.json",
+    f"{HERE.name}/verify_post_bank_gates.py",
+}
+PROTECTED = {
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py",
+}
+
+
+def digest_bytes(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def digest(path: Path) -> str:
+    return digest_bytes(path.read_bytes())
+
+
+def table(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def run(command: list[str], timeout: int = 300) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(command, cwd=ROOT, text=True, capture_output=True, timeout=timeout, check=False)
+
+
+def main() -> None:
+    source_rows = table(HERE / "SOURCE_MANIFEST.tsv")
+    assert len(source_rows) == 5
+    for row in source_rows:
+        if row["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+            data = subprocess.check_output(["git", "show", f"{BASE}:{row['path']}"], cwd=ROOT)
+            actual = digest_bytes(data)
+        else:
+            actual = digest(ROOT / row["path"])
+        assert actual == row["sha256"], row["path"]
+
+    hashes = run(["python3", str(HERE / "verify_hash_manifest.py")], 60)
+    assert hashes.returncode == 0 and "PASS: 23 G75 package hashes" in hashes.stdout
+    premise = run(["python3", "verify_current_scientific_premises.py"], 60)
+    assert premise.returncode == 0 and "PASS: 68 premise guards" in premise.stdout
+
+    frozen_members = 0
+    frozen_hashes = {}
+    for relative in MANIFESTS:
+        manifest = ROOT / relative
+        frozen_hashes[relative] = digest(manifest)
+        for line in manifest.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            expected, member = line.split(None, 1)
+            assert digest(manifest.parent / member.strip()) == expected
+            frozen_members += 1
+    assert frozen_members == 127
+
+    current = table(ROOT / "research/_registry/CURRENT_ARTIFACT_PATHS.tsv")
+    paths = [row["current_path"] for row in current]
+    assert len(paths) == len(set(paths)) == 1114 and all((ROOT / path).exists() for path in paths)
+    mapping = {row["original_path"]: row["current_path"] for row in current}
+    frontier = table(ROOT / "research/_registry/CURRENT_FRONTIER_TARGETS.tsv")
+    targets = {row["target_path"].rstrip("/") for row in frontier}
+    resolved = {mapping.get(path, path) for path in targets}
+    assert len(frontier) == 306 and len(targets) == len(resolved) == 101
+    assert all((ROOT / path).exists() for path in resolved)
+
+    link_re = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+    link_count = 0
+    for source in [*(ROOT / path for path in STARTUP), HERE / "AUDIT_REPORT.md"]:
+        for raw in link_re.findall(source.read_text(encoding="utf-8", errors="replace")):
+            target = raw.strip().strip("<>")
+            if target.startswith(("http://", "https://", "mailto:", "#")):
+                continue
+            relative = unquote(target.split("#", 1)[0])
+            if not relative:
+                continue
+            target_path = (
+                Path(re.sub(r":\d+$", "", relative))
+                if Path(relative).is_absolute()
+                else (source.parent / relative).resolve()
+            )
+            assert target_path.exists(), (source, relative)
+            link_count += 1
+
+    tests = run(["python3", "-m", "pytest", "-q", "tests/"], 300)
+    assert tests.returncode == 0 and "98 passed, 1 xfailed" in tests.stdout
+
+    status = run(["git", "status", "--porcelain=v1", "--untracked-files=all"], 60)
+    outside = []
+    protected_seen = set()
+    for line in status.stdout.splitlines():
+        path = line[3:]
+        if path in AUTHORIZED:
+            continue
+        if path in PROTECTED and line.startswith("?? "):
+            protected_seen.add(path)
+            continue
+        outside.append(line)
+    assert protected_seen == PROTECTED and not outside, outside
+
+    payload = {
+        "schema": "udt-cmb-g75-post-bank-gates-v1",
+        "status": "PASS",
+        "historical_source_base": BASE,
+        "historical_source_rows": len(source_rows),
+        "banked_package_hashes": 23,
+        "premise_guards": 68,
+        "frozen_manifests": len(MANIFESTS),
+        "frozen_manifest_members": frozen_members,
+        "frozen_package_paths": frozen_members + len(MANIFESTS),
+        "frozen_manifest_hashes": frozen_hashes,
+        "current_paths": len(paths),
+        "frontier_rows": len(frontier),
+        "frontier_targets": len(targets),
+        "checked_markdown_links": link_count,
+        "pytest": "98 passed, 1 xfailed",
+        "protected_untracked_path_count": len(protected_seen),
+        "protected_untracked_contents_read": False,
+        "unexpected_dirty_paths": outside,
+    }
+    (HERE / "POST_BANK_GATES.json").write_text(
+        json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(payload, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Live repository and preservation gates for the bounded G75 lead."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import re
+import subprocess
+from pathlib import Path
+from urllib.parse import unquote
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+MANIFESTS = (
+    "native_action_stage1_2026-07-18/arm_A/SHA256SUMS.txt",
+    "native_action_stage1_2026-07-18/arm_B/SHA256SUMS.txt",
+    "native_action_stage2_2026-07-18/arm_A/SHA256SUMS.txt",
+    "native_action_stage2_2026-07-18/arm_B/SHA256SUMS.txt",
+    "native_action_arm_c_2026-07-18/SHA256SUMS.txt",
+    "native_action_final_adjudication_2026-07-18/SHA256SUMS.txt",
+)
+STARTUP = (
+    "LIVE.md", "HANDOFF.md", "README.md", "INDEX.md", "AGENTS.md", "MEMORY.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md", "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_RESEARCH_PROGRAM.md", "INFLIGHT_STATE.md", "research/README.md",
+    "research/_registry/README.md",
+)
+PROTECTED = {
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py",
+}
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def table(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def run(command: list[str], timeout: int = 300) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(command, cwd=ROOT, text=True, capture_output=True, timeout=timeout, check=False)
+
+
+def main() -> None:
+    replays = {}
+    for name, script in (
+        ("production", "derive_profile_family.py"),
+        ("independent", "verify_profile_family_independent.py"),
+        ("package", "verify_package.py"),
+        ("catches", "run_catch_proofs.py"),
+    ):
+        completed = run(["python3", str(HERE / script)], 120)
+        assert completed.returncode == 0, completed.stdout + completed.stderr
+        replays[name] = hashlib.sha256((completed.stdout + completed.stderr).encode()).hexdigest()
+
+    source_rows = table(HERE / "SOURCE_MANIFEST.tsv")
+    assert len(source_rows) == 5
+    for row in source_rows:
+        target = ROOT / row["path"]
+        assert target.is_file() and digest(target) == row["sha256"], row["path"]
+
+    frozen_members = 0
+    frozen_hashes = {}
+    for relative in MANIFESTS:
+        manifest = ROOT / relative
+        frozen_hashes[relative] = digest(manifest)
+        for line in manifest.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            expected, member = line.split(None, 1)
+            target = manifest.parent / member.strip()
+            assert target.is_file() and digest(target) == expected
+            frozen_members += 1
+    assert frozen_members == 127
+
+    premise = run(["python3", "verify_current_scientific_premises.py"], 60)
+    assert premise.returncode == 0 and "PASS: 67 premise guards" in premise.stdout
+
+    current = table(ROOT / "research/_registry/CURRENT_ARTIFACT_PATHS.tsv")
+    paths = [row["current_path"] for row in current]
+    assert len(paths) == len(set(paths)) == 1114 and all((ROOT / path).exists() for path in paths)
+    mapping = {row["original_path"]: row["current_path"] for row in current}
+    frontier = table(ROOT / "research/_registry/CURRENT_FRONTIER_TARGETS.tsv")
+    targets = {row["target_path"].rstrip("/") for row in frontier}
+    resolved = {mapping.get(path, path) for path in targets}
+    assert len(frontier) == 306 and len(targets) == len(resolved) == 101
+    assert all((ROOT / path).exists() for path in resolved)
+
+    link_re = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+    link_count = 0
+    docs = [HERE / name for name in ("AUDIT_REPORT.md", "EXACT_DERIVATION.md", "PREREGISTRATION.md")]
+    for source in [*(ROOT / path for path in STARTUP), *docs]:
+        assert source.is_file()
+        for raw in link_re.findall(source.read_text(encoding="utf-8", errors="replace")):
+            target = raw.strip().strip("<>")
+            if target.startswith(("http://", "https://", "mailto:", "#")):
+                continue
+            relative = unquote(target.split("#", 1)[0])
+            if not relative:
+                continue
+            target_path = (
+                Path(re.sub(r":\d+$", "", relative))
+                if Path(relative).is_absolute()
+                else (source.parent / relative).resolve()
+            )
+            assert target_path.exists(), (source, relative)
+            link_count += 1
+
+    tests = run(["python3", "-m", "pytest", "-q", "tests/"], 300)
+    assert tests.returncode == 0 and "98 passed, 1 xfailed" in tests.stdout, tests.stdout + tests.stderr
+
+    status = run(["git", "status", "--porcelain=v1", "--untracked-files=all"], 60)
+    outside = []
+    protected_seen = set()
+    for line in status.stdout.splitlines():
+        path = line[3:]
+        if path.startswith(HERE.name + "/"):
+            continue
+        if path in PROTECTED and line.startswith("?? "):
+            protected_seen.add(path)
+            continue
+        outside.append(line)
+    assert protected_seen == PROTECTED and not outside, outside
+
+    payload = {
+        "schema": "udt-cmb-g75-repository-gates-v1",
+        "status": "PASS",
+        "replay_stdout_stderr_sha256": replays,
+        "source_manifest_rows": len(source_rows),
+        "premise_guards": 67,
+        "frozen_manifests": len(MANIFESTS),
+        "frozen_manifest_members": frozen_members,
+        "frozen_package_paths": frozen_members + len(MANIFESTS),
+        "frozen_manifest_hashes": frozen_hashes,
+        "current_paths": len(paths),
+        "frontier_rows": len(frontier),
+        "frontier_targets": len(targets),
+        "checked_markdown_links": link_count,
+        "pytest": "98 passed, 1 xfailed",
+        "protected_untracked_path_count": len(protected_seen),
+        "protected_untracked_contents_read": False,
+        "unexpected_dirty_paths": outside,
+    }
+    (HERE / "REPOSITORY_GATES.json").write_text(
+        json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(payload, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/REPOSITORY_GATES.json" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+{
+  "checked_markdown_links": 5,
+  "current_paths": 1114,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_hashes": {
+    "native_action_arm_c_2026-07-18/SHA256SUMS.txt": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+    "native_action_final_adjudication_2026-07-18/SHA256SUMS.txt": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+    "native_action_stage1_2026-07-18/arm_A/SHA256SUMS.txt": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+    "native_action_stage1_2026-07-18/arm_B/SHA256SUMS.txt": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+    "native_action_stage2_2026-07-18/arm_A/SHA256SUMS.txt": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+    "native_action_stage2_2026-07-18/arm_B/SHA256SUMS.txt": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45"
+  },
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "premise_guards": 67,
+  "protected_untracked_contents_read": false,
+  "protected_untracked_path_count": 7,
+  "pytest": "98 passed, 1 xfailed",
+  "replay_stdout_stderr_sha256": {
+    "catches": "1bbcd3689036c04eda85d6d6b091ad3452f5b8f287f1e64a16f4e41eed1be498",
+    "independent": "3db2022622b7e96b88175fd7a60343302d96677998a5713ae8953fa6fe74bb36",
+    "package": "ef9b0ba377e58eea4b84d50989aefb8f9dbbd3dac57e6fca3781d6dab897e4a6",
+    "production": "db47354241f94c5a28c31602291c9c6613fde9f839c4896482795aa87ea84885"
+  },
+  "schema": "udt-cmb-g75-repository-gates-v1",
+  "source_manifest_rows": 5,
+  "status": "PASS",
+  "unexpected_dirty_paths": []
+}
+
+codex
+One concrete weakness is already visible: the “independent” replay reuses the same shape universe, normalization formula, and atlas semantics as production, so it is only partially independent. I’m checking whether that is the only substantive audit caveat or whether there are algebra/census mismatches too.
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+# G75 audit report — center-regular axial profile family
+
+Date: 2026-08-11
+
+## Landing
+
+`CENTER_REGULAR_FAMILY_HAS_MULTIPLE_EXACT_SHAPE_STRATA`
+
+Status: `INTERNALLY_REPLAYED_BOUNDED_LEAD_PENDING_FRESH_ADVERSARIAL_REVIEW`.
+
+## What was learned
+
+G74's topology atlas could not globally adjudicate twelve tapered/sign-changing controls because
+their supplied metrics were not `C2` at the center. G75 does not patch those files. It constructs a
+new, preregistered, role-neutral family in which axial mixing has the center-smooth form
+`h=x^2 q(x^2)`.
+
+The frozen family contains exactly 49 primitive quadratic shape rays, four normalized amplitudes,
+three positive lapse controls, and three zero-mixing controls: 591 metric profiles total. Every
+profile is Cartesian `C-infinity` at the center and Lorentz-regular on the full symbolic cell.
+
+The family is not featureless. It contains 28 persistent-sign shapes, nine interior sign changes,
+six center-off shapes, five endpoint tapers, and one shape vanishing at both boundaries. Eight exact
+root/boundary strata survive. This gives the next sky calculation an outcome-independent vocabulary
+of globally admissible controls instead of repairing or hand-selecting the blocked G74 rows.
+
+## Evidence gates
+
+1. Preregistered: **yes**, commit `e88d7511` before scripts or outputs.
+2. Full space: **yes only within the frozen 49-ray quadratic definition**; no claim about all smooth
+   profiles or the generic complete coframe.
+3. Independently verified: **partially**. A separate exact root-isolation implementation replays all
+   rows, but it was produced in the same active context; a fresh blind reviewer has not yet run.
+4. Premises audited: **yes for the bounded family**, in `PREMISE_LEDGER.tsv` and
+   `OWNERSHIP_LEDGER.tsv`.
+
+Therefore the package is a `LEAD`, not a settled or externally verified verdict.
+
+## Exact results
+
+- source-manifest rows: 5
+- primitive shapes: 49
+- nonzero profiles: 588
+- zero-mixing controls: 3
+- total profiles: 591
+- production exact checks: 10/10
+- separate exact replay: 10/10
+- package checks: 16/16
+- hostile catches: 10/10
+- protected stopped draft read: no
+
+See `EXACT_DERIVATION.md`, `SHAPE_ATLAS.tsv`, `PROFILE_ATLAS.tsv`, and the three JSON verification
+records for the load-bearing details.
+
+## Scope boundary
+
+No profile is ranked or selected. `R` remains symbolic. No source, sky ensemble, CMB endpoint,
+`X_max`, SNe coefficient, bootstrap rule, action, matter law, spectrum, ODE/PDE, geodesic, Jacobi,
+or GPU work enters G75. The original G74 blocked profiles remain blocked and unchanged.
+
+## Next bounded gate
+
+After a fresh adversarial review, preregister an outcome-independent whole-sky follow-up. It should
+either cover the complete 591-member family if computationally reasonable or select a finite
+representative set solely by the exact G75 stratum labels before seeing any sky response. That solve
+may then map angular scale, transport, branching, and critical behavior across nonzero source
+ensembles. It must not fit peaks or select a physical profile.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/POST_BANK_NAVIGATION.md" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+# G75 post-bank navigation layer
+
+The 23-file G75 payload listed in `PACKAGE_SHA256SUMS.txt` is the fixed preregistered calculation
+record banked at commit `e5f9730a`. Its `SOURCE_MANIFEST.tsv` correctly hashes the then-current
+premise registry from base `ac01381b`.
+
+After banking, live navigation advanced from 67 to 68 premise rows by adding the G75 status. That
+expected update changes the live `CURRENT_SCIENTIFIC_PREMISES.tsv` hash; it does not invalidate the
+historical calculation input. `verify_post_bank_gates.py` therefore replays that one source from
+`ac01381b:CURRENT_SCIENTIFIC_PREMISES.tsv`, verifies the other source rows live, verifies all 23
+banked package hashes, and separately tests the current 68-row startup surface.
+
+This is a provenance/navigation overlay. It does not alter the G75 family, evidence, result, or
+status, and it does not supply fresh blind adversarial review.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/CATCH_PROOF_RESULTS.json" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+{
+  "catches": {
+    "G74_repair_claim": true,
+    "center_odd_profile": true,
+    "duplicate_profile": true,
+    "duplicate_shape": true,
+    "missing_profile": true,
+    "missing_shape": true,
+    "physical_selection": true,
+    "scale_selected": true,
+    "signature_failure": true,
+    "source_activated": true
+  },
+  "passed": 10,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g75-catches-v1",
+  "status": "PASS",
+  "total": 10
+}
+
+exec
+/bin/bash -lc "sed -n '1,120p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/SOURCE_MANIFEST.tsv" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+path	sha256	role
+CURRENT_SCIENTIFIC_PREMISES.tsv	e27160a6b915601802258e451512fcfd4697e315affec24421a0bce1ff5328a5	CURRENT_PREMISES
+udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXACT_DERIVATION.md	e3cc2912aa0da66386aa7ee594a2b95726ad595bc5babfe46fd46584eb5c8b49	G74_NEXT_GATE_AND_CENTER_RESULT
+udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md	ae645d292b541862a079dccd1a146a97c7d6b9a24e45d2c5a909d060f3ff7d70	G74_EXTERNAL_STATUS
+udt_cmb_N03_profile_role_regular_center_map_2026-08-09/EXACT_DERIVATION.md	881f814060d8fb73a1e13802a9e0391145ec987be8ffccf76134ca982575db91	REGULAR_CENTER_JETS
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py	f0f495cf05211a2ac47a7fa917be64b1dd9c6dfc51dfbb5c1736520b42010d4a	AXIAL_METRIC_IMPLEMENTATION_REFERENCE
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g75_review_tUtzkAuv/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PACKAGE_VERIFICATION_RESULT.json" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+{
+  "checks": {
+    "588_nonzero_controls": true,
+    "all_center_smooth": true,
+    "all_signature_regular": true,
+    "all_unselected": true,
+    "analogs_present": true,
+    "behavior_counts": true,
+    "independent_pass": true,
+    "no_G74_repair": true,
+    "physical_owner_open": true,
+    "production_pass": true,
+    "profile_count": true,
+    "scale_symbolic": true,
+    "shape_count": true,
+    "three_zero_controls": true,
+    "unique_profiles": true,
+    "unique_shapes": true
+  },
+  "passed": 16,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g75-package-verification-v1",
+  "status": "PASS",
+  "total": 16
+}
+
+codex
+I’ve got the geometric derivation pinned down. I’m running one clean reconstruction now: enumerate the 49 rays from scratch, recompute every shape invariant, and compare every atlas row and profile formula against the frozen TSVs.
+exec
+/bin/bash -lc "python3 - <<'PY'
+import csv, itertools, math
+from fractions import Fraction
+from pathlib import Path
+from collections import Counter
+import sympy as sp
+
+root = Path('/tmp/udt_g75_review_tUtzkAuv')
+here = root/'udt_cmb_G75_center_regular_axial_profile_family_2026-08-11'
+S = sp.symbols('s', real=True)
+
+with (here/'SHAPE_ATLAS.tsv').open() as f:
+    shapes = list(csv.DictReader(f, delimiter='\\t'))
+with (here/'PROFILE_ATLAS.tsv').open() as f:
+    profiles = list(csv.DictReader(f, delimiter='\\t'))
+
+# independent generation
+rays=[]
+for coeffs in itertools.product(range(-2,3), repeat=3):
+    nz=[abs(v) for v in coeffs if v]
+    if not nz:
+        continue
+    g = nz[0]
+    for v in nz[1:]:
+        g = math.gcd(g, v)
+    if g "'!= 1:
+        continue
+    first = next(v for v in coeffs if v)
+    if first <= 0:
+        continue
+    rays.append(coeffs)
+rays = sorted(rays)
+assert len(rays) == 49 == len(shapes)
+
+def eval_poly(c, s):
+    return Fraction(c[0]) + Fraction(c[1])*s + Fraction(c[2])*s*s
+
+def fstr(q):
+    return str(q.numerator) if q.denominator == 1 else f'"'{q.numerator}/{q.denominator}'
+
+shape_mismatches=[]
+rows=[]
+behavior_counts=Counter()
+stratum_counts=Counter()
+center_counts=Counter()
+endpoint_counts=Counter()
+odd_counts=Counter()
+for idx, c in enumerate(rays, start=1):
+    row = shapes[idx-1]
+    if row['shape_id'] "'!= f'"'S{idx:02d}':
+        shape_mismatches.append((row['shape_id'], 'shape_id_order', f'S{idx:02d}'))
+    if tuple(int(row[f'c{i}']) for i in range(3)) "'!= c:
+        shape_mismatches.append((row['"'shape_id'], 'coeffs', c))
+    pts = {Fraction(0), Fraction(1)}
+    if c[2] "'!= 0:
+        v = Fraction(-c[1], 2*c[2])
+        if 0 < v < 1:
+            pts.add(v)
+    M = max(abs(eval_poly(c, t)) for t in pts)
+    p = sp.Poly(c[0] + c[1]*S + c[2]*S**2, S)
+    roots=[]
+    for rr, mult in sp.roots(p.as_expr(), S).items():
+        if rr.is_real is False:
+            continue
+        if rr.is_real is None and sp.simplify(sp.im(rr)) != 0:
+            continue
+        if sp.simplify(sp.And(rr > 0, rr < 1)) is sp.true:
+            roots.append((sp.sstr(rr), int(mult)))
+    roots = sorted(roots, key=lambda t: float(sp.N(sp.sympify(t[0]), 40)))
+    center_order = 0 if c[0] else (1 if c[1] else 2)
+    endpoint = c[0] + c[1] + c[2]
+    endpoint_order = 0 if endpoint else (1 if (c[1] + 2*c[2]) else 2)
+    odd = sum(1 for _,m in roots if m % 2)
+    even = sum(1 for _,m in roots if m % 2 == 0)
+    if odd:
+        behavior='"'INTERIOR_SIGN_CHANGE'
+    elif even:
+        behavior='INTERIOR_TOUCH_NO_SIGN_CHANGE'
+    elif center_order and endpoint_order:
+        behavior='ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT'
+    elif center_order:
+        behavior='CENTER_OFF_NO_INTERIOR_ROOT'
+    elif endpoint_order:
+        behavior='ENDPOINT_TAPER_NO_INTERIOR_ROOT'
+    else:
+        behavior='PERSISTENT_SIGN_NO_INTERIOR_ROOT'
+    extrema='-'
+    cand=';'.join(fstr(t) for t in sorted(pts))
+    if c[2] "'!= 0:
+        v = Fraction(-c[1], 2*c[2])
+        if 0 < v < 1:
+            extrema = f'"'{fstr(v)}:{fstr(eval_poly(c,v)/M)}'
+    exp = {
+        'normalization_M': fstr(M),
+        'normalized_c0': fstr(Fraction(c[0],1)/M),
+        'normalized_c1': fstr(Fraction(c[1],1)/M),
+        'normalized_c2': fstr(Fraction(c[2],1)/M),
+        'center_q_order_in_s': str(center_order),
+        'center_h_order_in_x': str(2+2*center_order),
+        'center_B_order_in_x': str(2+4*center_order),
+        'endpoint_zero_order_in_s': str(endpoint_order),
+        'open_root_count_distinct': str(len(roots)),
+        'open_root_count_multiplicity': str(sum(m for _,m in roots)),
+        'open_odd_root_count': str(odd),
+        'open_even_root_count': str(even),
+        'open_roots_exact': ';'.join(f'{r}@{m}' for r,m in roots) or '-',
+        'interior_extrema_exact': extrema,
+        'normalization_candidates': cand,
+        'center_value_normalized': fstr(Fraction(c[0],1)/M),
+        'endpoint_value_normalized': fstr(Fraction(endpoint,1)/M),
+        'behavior_class': behavior,
+        'stratum_code': f'C{center_order}_E{endpoint_order}_O{odd}_T{even}',
+    }
+    for k,v in exp.items():
+        if row[k] "'!= v:
+            shape_mismatches.append((row['"'shape_id'], k, row[k], v))
+    behavior_counts[behavior]+=1
+    stratum_counts[exp['stratum_code']]+=1
+    center_counts[center_order]+=1
+    endpoint_counts[endpoint_order]+=1
+    odd_counts[odd]+=1
+
+profile_mismatches=[]
+LAPSES = [('AM',Fraction(-1,4)), ('A0',Fraction(0)), ('AP',Fraction(1,4))]
+AMPS = [('E05',Fraction(1,20)), ('E20',Fraction(1,5)), ('E50',Fraction(1,2)), ('E100',Fraction(1,1))]
+expected_profiles=[]
+for lname, a in LAPSES:
+    expected_profiles.append({
+        'profile_id': f'G75_F01_{lname}',
+        'lapse_name': lname,
+        'lapse_a': fstr(a),
+        'shape_id': 'ZERO',
+        'amplitude': '0',
+        'q_of_s': '0',
+        'max_abs_q': '0',
+        'center_h_order_in_x': 'INFINITE_ZERO',
+        'center_B_order_in_x': 'INFINITE_ZERO',
+        'endpoint_q': '0',
+        'behavior_class': 'ZERO_MIXING_CONTROL',
+        'center_status': 'CENTER_C_INFINITY',
+        'signature_status': 'LORENTZ_REGULAR_ALL_X',
+        'lapse_min': fstr(min(Fraction(1), Fraction(1)+a)),
+        'reflection_partner': 'SELF',
+        'physical_status': 'CHOSE_CONTROL_NOT_SELECTED',
+    })
+for idx, c in enumerate(rays, start=1):
+    srow = shapes[idx-1]
+    norm = Fraction(srow['normalization_M'])
+    nc = [Fraction(c[i],1)/norm for i in range(3)]
+    for aname, amp in AMPS:
+        qc = [amp*v for v in nc]
+        expr = str(sp.expand(sum(sp.Rational(v.numerator,v.denominator)*S**i for i,v in enumerate(qc))))
+        endpoint_q = sum(qc)
+        for lname, a in LAPSES:
+            expected_profiles.append({
+                'profile_id': f'G75_{lname}_{srow[\"shape_id\"]}_{aname}',
+                'lapse_name': lname,
+                'lapse_a': fstr(a),
+                'shape_id': srow['shape_id'],
+                'amplitude': fstr(amp),
+                'q_of_s': expr,
+                'max_abs_q': fstr(amp),
+                'center_h_order_in_x': srow['center_h_order_in_x'],
+                'center_B_order_in_x': srow['center_B_order_in_x'],
+                'endpoint_q': fstr(endpoint_q),
+                'behavior_class': srow['behavior_class'],
+                'center_status': 'CENTER_C_INFINITY',
+                'signature_status': 'LORENTZ_REGULAR_ALL_X',
+                'lapse_min': fstr(min(Fraction(1), Fraction(1)+a)),
+                'reflection_partner': 'NEGATIVE_Q_VIA_PSI_REFLECTION',
+                'physical_status': 'CHOSE_CONTROL_NOT_SELECTED',
+            })
+
+assert len(expected_profiles) == 591 == len(profiles)
+for i, (got, exp) in enumerate(zip(profiles, expected_profiles), start=1):
+    for k,v in exp.items():
+        if got[k] "'!= v:
+            profile_mismatches.append((i, got['"'profile_id'], k, got[k], v))
+
+print('shape_mismatches', len(shape_mismatches))
+print('profile_mismatches', len(profile_mismatches))
+print('behavior_counts', dict(sorted(behavior_counts.items())))
+print('stratum_counts', dict(sorted(stratum_counts.items())))
+print('center_counts', dict(sorted(center_counts.items())))
+print('endpoint_counts', dict(sorted(endpoint_counts.items())))
+print('odd_root_counts', dict(sorted(odd_counts.items())))
+print('distinct_profile_ids', len({r['profile_id'] for r in profiles}))
+print('zero_controls', sum(r['shape_id']=='ZERO' for r in profiles))
+print('nonzero_profiles', sum(r['shape_id']"'!='"'ZERO' for r in profiles))
+PY" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 222ms:
+shape_mismatches 0
+profile_mismatches 0
+behavior_counts {'CENTER_OFF_NO_INTERIOR_ROOT': 6, 'ENDPOINT_TAPER_NO_INTERIOR_ROOT': 5, 'INTERIOR_SIGN_CHANGE': 9, 'PERSISTENT_SIGN_NO_INTERIOR_ROOT': 28, 'ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT': 1}
+stratum_counts {'C0_E0_O0_T0': 28, 'C0_E0_O1_T0': 8, 'C0_E1_O0_T0': 4, 'C0_E2_O0_T0': 1, 'C1_E0_O0_T0': 5, 'C1_E0_O1_T0': 1, 'C1_E1_O0_T0': 1, 'C2_E0_O0_T0': 1}
+center_counts {0: 41, 1: 7, 2: 1}
+endpoint_counts {0: 43, 1: 5, 2: 1}
+odd_root_counts {0: 40, 1: 9}
+distinct_profile_ids 591
+zero_controls 3
+nonzero_profiles 588
+
+codex
+I’ve finished the reconstruction. The finite atlas claims check out exactly; the only material issues are audit-strength issues in the package’s own “independent” and catch-proof layers, not algebraic or row-level errors.
+exec
+/bin/bash -lc "python3 - <<'PY'
+import hashlib, textwrap
+verifier = textwrap.dedent(\"\"\"\\
+python3 - <<'PY'
+import csv, hashlib, itertools, math
+from fractions import Fraction
+from pathlib import Path
+from collections import Counter
+import sympy as sp
+root = Path('/tmp/udt_g75_review_tUtzkAuv')
+here = root/'udt_cmb_G75_center_regular_axial_profile_family_2026-08-11'
+S = sp.symbols('s', real=True)
+def tsv(name):
+    return list(csv.DictReader((here/name).open(), delimiter='\\t'))
+def f(q):
+    return str(q.numerator) if q.denominator == 1 else f'{q.numerator}/{q.denominator}'
+manifest = tsv('REVIEW_MANIFEST.tsv')
+assert len(manifest) == 34 and all(hashlib.sha256((root/r['path']).read_bytes()).hexdigest() == r['sha256'] for r in manifest)
+shapes, profiles = tsv('SHAPE_ATLAS.tsv'), tsv('PROFILE_ATLAS.tsv')
+rays = sorted(c for c in itertools.product(range(-2, 3), repeat=3)
+              if (nz := [abs(v) for v in c if v]) and math.gcd(*nz) == 1 and next(v for v in c if v) > 0)
+assert len(rays) == 49 == len(shapes)
+shape_mismatches = 0
+behavior = Counter()
+strata = Counter()
+for i, c in enumerate(rays, 1):
+    row = shapes[i-1]
+    pts = {Fraction(0), Fraction(1)}
+    if c[2]:
+        v = Fraction(-c[1], 2*c[2])
+        if 0 < v < 1:
+            pts.add(v)
+    M = max(abs(Fraction(c[0]) + Fraction(c[1])*x + Fraction(c[2])*x*x) for x in pts)
+    roots = sorted([(sp.sstr(r), int(m)) for r, m in sp.roots(sp.Poly(c[0] + c[1]*S + c[2]*S**2, S).as_expr(), S).items() if sp.simplify(sp.And(r > 0, r < 1)) is sp.true], key=lambda t: float(sp.N(sp.sympify(t[0]), 40)))
+    co = 0 if c[0] else (1 if c[1] else 2)
+    ep = sum(c)
+    eo = 0 if ep else (1 if c[1] + 2*c[2] else 2)
+    odd = sum(m % 2 for _, m in roots)
+    even = sum((m % 2) == 0 for _, m in roots)
+    bc = 'INTERIOR_SIGN_CHANGE' if odd else 'INTERIOR_TOUCH_NO_SIGN_CHANGE' if even else 'ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT' if co and eo else 'CENTER_OFF_NO_INTERIOR_ROOT' if co else 'ENDPOINT_TAPER_NO_INTERIOR_ROOT' if eo else 'PERSISTENT_SIGN_NO_INTERIOR_ROOT'
+    exp = {
+        'shape_id': f'S{i:02d}', 'c0': str(c[0]), 'c1': str(c[1]), 'c2': str(c[2]), 'normalization_M': f(M),
+        'center_q_order_in_s': str(co), 'center_h_order_in_x': str(2 + 2*co), 'center_B_order_in_x': str(2 + 4*co),
+        'endpoint_zero_order_in_s': str(eo), 'open_root_count_distinct': str(len(roots)), 'open_root_count_multiplicity': str(sum(m for _, m in roots)),
+        'open_odd_root_count': str(odd), 'open_even_root_count': str(even), 'open_roots_exact': ';'.join(f'{r}@{m}' for r, m in roots) or '-',
+        'behavior_class': bc, 'stratum_code': f'C{co}_E{eo}_O{odd}_T{even}'
+    }
+    shape_mismatches += sum(row[k] "'!= v for k, v in exp.items())
+    behavior[bc] += 1
+    strata[exp['"'stratum_code']] += 1
+L = [('AM', Fraction(-1, 4)), ('A0', Fraction(0)), ('AP', Fraction(1, 4))]
+E = [('E05', Fraction(1, 20)), ('E20', Fraction(1, 5)), ('E50', Fraction(1, 2)), ('E100', Fraction(1, 1))]
+profile_mismatches = 0
+expected = {f'G75_F01_{n}': {'shape_id': 'ZERO', 'amplitude': '0', 'q_of_s': '0'} for n, _ in L}
+for row in shapes:
+    nc = [Fraction(row[f'normalized_c{k}']) for k in range(3)]
+    for en, amp in E:
+        expr = str(sp.expand(sum(sp.Rational((amp*nc[k]).numerator, (amp*nc[k]).denominator) * S**k for k in range(3))))
+        for ln, _ in L:
+            expected[f'G75_{ln}_{row[\"shape_id\"]}_{en}'] = {'shape_id': row['shape_id'], 'amplitude': f(amp), 'q_of_s': expr}
+assert len(expected) == len(profiles) == 591 == len({r['profile_id'] for r in profiles})
+for row in profiles:
+    exp = expected[row['profile_id']]
+    profile_mismatches += sum(row[k] "'!= v for k, v in exp.items())
+assert shape_mismatches == profile_mismatches == 0
+print({'"'hashes': '34/34', 'shape_count': 49, 'profile_count': 591, 'behavior': dict(sorted(behavior.items())), 'strata': dict(sorted(strata.items())), 'shape_mismatches': 0, 'profile_mismatches': 0})
+PY\"\"\")
+response = textwrap.dedent(f\"\"\"\\
+VERIFIED_WITH_CAVEATS
+
+**Premise/Type Ledger**
+- "'`34/34` rows in `REVIEW_MANIFEST.tsv` hashed exactly before I used any scientific payload.
+- The intake supports a bounded mathematical atlas inside the declared stationary axial metric envelope `A(x)=1+ax''^2`, `h=x''^2 q(x''^2)`.
+- It does not support promotion to the generic ten-function metric, all smooth even profiles, or any physical CMB/source/scale claim.
+
+**Decisive Algebra And Counts**
+- Independent reconstruction of the coefficient lattice with `gcd(nonzero |c_i|)=1` and first nonzero coefficient `>0` gives exactly `49` primitive rays; the profile count is exactly `49*4*3+3=591`.
+- Exact behavior census: persistent sign `28`, interior sign change `9`, center-off `6`, endpoint taper `5`, zero at both boundaries `1`; interior even-touch rows `0`.
+- Exact strata: `C0_E0_O0_T0=28`, `C0_E0_O1_T0=8`, `C0_E1_O0_T0=4`, `C0_E2_O0_T0=1`, `C1_E0_O0_T0=5`, `C1_E0_O1_T0=1`, `C1_E1_O0_T0=1`, `C2_E0_O0_T0=1`.
+- Center-order counts are `41/7/1` for orders `0/1/2`; endpoint-order counts are `43/5/1` for orders `0/1/2`; odd interior-root counts are `40/9` for `0/1`.
+- Row-level result: my independent replay found `0` shape mismatches and `0` profile mismatches against the frozen TSVs.
+
+**Center, Signature, Reflection**
+- With `r=Rx` and Cartesian `(X,Y,Z)`, the spatial block is `dX''^2+dY''^2+dZ''^2 + ((A''^{{-1}}-1)/r''^2)(X dX+Y dY+Z dZ)''^2`. Since `A''^{{-1}}-1 = O(r''^2)`, the coefficient is analytic at `r=0`.
+- The cross term is `2Rc_E h'"\\sin"'^2'"\\theta\\,dt\\,d\\psi = (2c_E/R) q(r"'^2/R''^2)'"\\,dt\\,(X dY - Y dX)"'`, which is also analytic at `r=0`. Every frozen profile is therefore genuinely Cartesian `C''^'"\\infty"'` at the center.
+- For `a'"\\in\\{{-1/4,0,1/4\\}}"'`, `A(x)'"\\ge 3/4"'` on `[0,1]`. Away from chart degeneracies the spatial block is positive, and the time Schur complement is `-c_E''^2(A + h''^2'"\\sin"'^2'"\\theta/x"'^2) = -c_E''^2(A + x''^2 q(x''^2)''^2'"\\sin"'^2'"\\theta) < 0"'`, so the metric has Lorentz signature throughout the closed cell. The axis and spherical center are coordinate degeneracies only.
+- `'"\\psi \\mapsto -\\psi"'` is not merely a bookkeeping trick: it is an isometry sending `g[q]` to `g[-q]` inside this envelope. What remains physically unselected is orientation choice; G75 does not justify deleting that branch as a measured physical alternative.
+
+**Independence And Catch-Proof Assessment**
+- The load-bearing mathematical claim survives a separate reconstruction, so the finite family/census claim stands.
+- `verify_profile_family_independent.py` is only partially independent: it re-enumerates the lattice and checks normalization and root multiplicity counts, but it does not independently rederive exact root identities, distinct-root counts, extrema, behavior labels, or stratum labels.
+- `verify_package.py` is a consistency wrapper, not an independent proof.
+- `run_catch_proofs.py` catches count/status tampering, but it does not mutate algebraic fields such as exact roots, extrema, or class labels while preserving totals. The catch layer is therefore useful but not catch-complete.
+
+**Scope And Maximum Justified Conclusion**
+- The premise/scope language is disciplined. The intake stays bounded to the frozen quadratic atlas, symbolic positive `R`, and the stationary axial envelope, and it does not promote to a physical profile, source law, endpoint, `X_max`, or sky fit.
+- Maximum justified conclusion: the sealed intake exactly constructs and classifies the complete frozen `49`-ray / `591`-profile center-regular stationary axial quadratic family, with multiple exact shape strata, and nothing broader.
+
+**Runnable Verification Details**
+```bash
+{verifier}
+```
+- `SHA-256(raw response) = 5e6fb8c8a8046e31e71dcd18a12bf0ee2b29310cffab62fe12309cb9e3678ee6`
+- `SHA-256(inline verifier) = {hashlib.sha256(verifier.encode()).hexdigest()}`
+""")
+print('"'VERIFIER_SHA', hashlib.sha256(verifier.encode()).hexdigest())
+print('RESPONSE_SHA', hashlib.sha256(response.encode()).hexdigest())
+PY" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+VERIFIER_SHA 8b22b0c63f9c3b90e64975d88c28a6da9d8200e3301c8a8a45f984e14f564cc1
+RESPONSE_SHA 21e2d0dddf7dd72136c72e7b7242e19de8295766346f412fa61619d97d5de26a
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+import hashlib, textwrap
+verifier = textwrap.dedent(\"\"\"\\
+python3 - <<'PY'
+import csv, hashlib, itertools, math
+from fractions import Fraction
+from pathlib import Path
+from collections import Counter
+import sympy as sp
+root = Path('/tmp/udt_g75_review_tUtzkAuv')
+here = root/'udt_cmb_G75_center_regular_axial_profile_family_2026-08-11'
+S = sp.symbols('s', real=True)
+def tsv(name):
+    return list(csv.DictReader((here/name).open(), delimiter='\\t'))
+def f(q):
+    return str(q.numerator) if q.denominator == 1 else f'{q.numerator}/{q.denominator}'
+manifest = tsv('REVIEW_MANIFEST.tsv')
+assert len(manifest) == 34 and all(hashlib.sha256((root/r['path']).read_bytes()).hexdigest() == r['sha256'] for r in manifest)
+shapes, profiles = tsv('SHAPE_ATLAS.tsv'), tsv('PROFILE_ATLAS.tsv')
+rays = sorted(c for c in itertools.product(range(-2, 3), repeat=3)
+              if (nz := [abs(v) for v in c if v]) and math.gcd(*nz) == 1 and next(v for v in c if v) > 0)
+assert len(rays) == 49 == len(shapes)
+shape_mismatches = 0
+behavior = Counter()
+strata = Counter()
+for i, c in enumerate(rays, 1):
+    row = shapes[i-1]
+    pts = {Fraction(0), Fraction(1)}
+    if c[2]:
+        v = Fraction(-c[1], 2*c[2])
+        if 0 < v < 1:
+            pts.add(v)
+    M = max(abs(Fraction(c[0]) + Fraction(c[1])*x + Fraction(c[2])*x*x) for x in pts)
+    roots = sorted([(sp.sstr(r), int(m)) for r, m in sp.roots(sp.Poly(c[0] + c[1]*S + c[2]*S**2, S).as_expr(), S).items() if sp.simplify(sp.And(r > 0, r < 1)) is sp.true], key=lambda t: float(sp.N(sp.sympify(t[0]), 40)))
+    co = 0 if c[0] else (1 if c[1] else 2)
+    ep = sum(c)
+    eo = 0 if ep else (1 if c[1] + 2*c[2] else 2)
+    odd = sum(m % 2 for _, m in roots)
+    even = sum((m % 2) == 0 for _, m in roots)
+    bc = 'INTERIOR_SIGN_CHANGE' if odd else 'INTERIOR_TOUCH_NO_SIGN_CHANGE' if even else 'ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT' if co and eo else 'CENTER_OFF_NO_INTERIOR_ROOT' if co else 'ENDPOINT_TAPER_NO_INTERIOR_ROOT' if eo else 'PERSISTENT_SIGN_NO_INTERIOR_ROOT'
+    exp = {
+        'shape_id': f'S{i:02d}', 'c0': str(c[0]), 'c1': str(c[1]), 'c2': str(c[2]), 'normalization_M': f(M),
+        'center_q_order_in_s': str(co), 'center_h_order_in_x': str(2 + 2*co), 'center_B_order_in_x': str(2 + 4*co),
+        'endpoint_zero_order_in_s': str(eo), 'open_root_count_distinct': str(len(roots)), 'open_root_count_multiplicity': str(sum(m for _, m in roots)),
+        'open_odd_root_count': str(odd), 'open_even_root_count': str(even), 'open_roots_exact': ';'.join(f'{r}@{m}' for r, m in roots) or '-',
+        'behavior_class': bc, 'stratum_code': f'C{co}_E{eo}_O{odd}_T{even}'
+    }
+    shape_mismatches += sum(row[k] "'!= v for k, v in exp.items())
+    behavior[bc] += 1
+    strata[exp['"'stratum_code']] += 1
+L = [('AM', Fraction(-1, 4)), ('A0', Fraction(0)), ('AP', Fraction(1, 4))]
+E = [('E05', Fraction(1, 20)), ('E20', Fraction(1, 5)), ('E50', Fraction(1, 2)), ('E100', Fraction(1, 1))]
+profile_mismatches = 0
+expected = {f'G75_F01_{n}': {'shape_id': 'ZERO', 'amplitude': '0', 'q_of_s': '0'} for n, _ in L}
+for row in shapes:
+    nc = [Fraction(row[f'normalized_c{k}']) for k in range(3)]
+    for en, amp in E:
+        expr = str(sp.expand(sum(sp.Rational((amp*nc[k]).numerator, (amp*nc[k]).denominator) * S**k for k in range(3))))
+        for ln, _ in L:
+            expected[f'G75_{ln}_{row[\"shape_id\"]}_{en}'] = {'shape_id': row['shape_id'], 'amplitude': f(amp), 'q_of_s': expr}
+assert len(expected) == len(profiles) == 591 == len({r['profile_id'] for r in profiles})
+for row in profiles:
+    exp = expected[row['profile_id']]
+    profile_mismatches += sum(row[k] "'!= v for k, v in exp.items())
+assert shape_mismatches == profile_mismatches == 0
+print({'"'hashes': '34/34', 'shape_count': 49, 'profile_count': 591, 'behavior': dict(sorted(behavior.items())), 'strata': dict(sorted(strata.items())), 'shape_mismatches': 0, 'profile_mismatches': 0})
+PY\"\"\")
+body = textwrap.dedent(f\"\"\"\\
+VERIFIED_WITH_CAVEATS
+
+**Premise/Type Ledger**
+- "'`34/34` rows in `REVIEW_MANIFEST.tsv` hashed exactly before I used any scientific payload.
+- The intake supports a bounded mathematical atlas inside the declared stationary axial metric envelope `A(x)=1+ax''^2`, `h=x''^2 q(x''^2)`.
+- It does not support promotion to the generic ten-function metric, all smooth even profiles, or any physical CMB/source/scale claim.
+
+**Decisive Algebra And Counts**
+- Independent reconstruction of the coefficient lattice with `gcd(nonzero |c_i|)=1` and first nonzero coefficient `>0` gives exactly `49` primitive rays; the profile count is exactly `49*4*3+3=591`.
+- Exact behavior census: persistent sign `28`, interior sign change `9`, center-off `6`, endpoint taper `5`, zero at both boundaries `1`; interior even-touch rows `0`.
+- Exact strata: `C0_E0_O0_T0=28`, `C0_E0_O1_T0=8`, `C0_E1_O0_T0=4`, `C0_E2_O0_T0=1`, `C1_E0_O0_T0=5`, `C1_E0_O1_T0=1`, `C1_E1_O0_T0=1`, `C2_E0_O0_T0=1`.
+- Center-order counts are `41/7/1` for orders `0/1/2`; endpoint-order counts are `43/5/1` for orders `0/1/2`; odd interior-root counts are `40/9` for `0/1`.
+- Row-level result: my independent replay found `0` shape mismatches and `0` profile mismatches against the frozen TSVs.
+
+**Center, Signature, Reflection**
+- With `r=Rx` and Cartesian `(X,Y,Z)`, the spatial block is `dX''^2+dY''^2+dZ''^2 + ((A''^{{-1}}-1)/r''^2)(X dX+Y dY+Z dZ)''^2`. Since `A''^{{-1}}-1 = O(r''^2)`, the coefficient is analytic at `r=0`.
+- The cross term is `2Rc_E h'"\\sin"'^2'"\\theta\\,dt\\,d\\psi = (2c_E/R) q(r"'^2/R''^2)'"\\,dt\\,(X dY - Y dX)"'`, which is also analytic at `r=0`. Every frozen profile is therefore genuinely Cartesian `C''^'"\\infty"'` at the center.
+- For `a'"\\in\\{{-1/4,0,1/4\\}}"'`, `A(x)'"\\ge 3/4"'` on `[0,1]`. Away from chart degeneracies the spatial block is positive, and the time Schur complement is `-c_E''^2(A + h''^2'"\\sin"'^2'"\\theta/x"'^2) = -c_E''^2(A + x''^2 q(x''^2)''^2'"\\sin"'^2'"\\theta) < 0"'`, so the metric has Lorentz signature throughout the closed cell. The axis and spherical center are coordinate degeneracies only.
+- `'"\\psi \\mapsto -\\psi"'` is not merely a bookkeeping trick: it is an isometry sending `g[q]` to `g[-q]` inside this envelope. What remains physically unselected is orientation choice; G75 does not justify deleting that branch as a measured physical alternative.
+
+**Independence And Catch-Proof Assessment**
+- The load-bearing mathematical claim survives a separate reconstruction, so the finite family/census claim stands.
+- `verify_profile_family_independent.py` is only partially independent: it re-enumerates the lattice and checks normalization and root multiplicity counts, but it does not independently rederive exact root identities, distinct-root counts, extrema, behavior labels, or stratum labels.
+- `verify_package.py` is a consistency wrapper, not an independent proof.
+- `run_catch_proofs.py` catches count/status tampering, but it does not mutate algebraic fields such as exact roots, extrema, or class labels while preserving totals. The catch layer is therefore useful but not catch-complete.
+
+**Scope And Maximum Justified Conclusion**
+- The premise/scope language is disciplined. The intake stays bounded to the frozen quadratic atlas, symbolic positive `R`, and the stationary axial envelope, and it does not promote to a physical profile, source law, endpoint, `X_max`, or sky fit.
+- Maximum justified conclusion: the sealed intake exactly constructs and classifies the complete frozen `49`-ray / `591`-profile center-regular stationary axial quadratic family, with multiple exact shape strata, and nothing broader.
+
+**Runnable Verification Details**
+```bash
+{verifier}
+```
+""")
+print('"'BODY_SHA', hashlib.sha256(body.encode()).hexdigest())
+print('VERIFIER_SHA', hashlib.sha256(verifier.encode()).hexdigest())
+PY" in /tmp/udt_g75_review_tUtzkAuv
+ succeeded in 0ms:
+BODY_SHA 5b7701a9927ec651aca9b21e1d45a5ad9ceebec89f9dcba61f91d49e44f70a06
+VERIFIER_SHA 8b22b0c63f9c3b90e64975d88c28a6da9d8200e3301c8a8a45f984e14f564cc1
+
+codex
+VERIFIED_WITH_CAVEATS
+
+**Premise/Type Ledger**
+- `34/34` rows in `REVIEW_MANIFEST.tsv` hashed exactly before I used any scientific payload.
+- The intake supports a bounded mathematical atlas inside the declared stationary axial metric envelope `A(x)=1+ax^2`, `h=x^2 q(x^2)`.
+- It does not support promotion to the generic ten-function metric, all smooth even profiles, or any physical CMB/source/scale claim.
+
+**Decisive Algebra And Counts**
+- Independent reconstruction of the coefficient lattice with `gcd(nonzero |c_i|)=1` and first nonzero coefficient `>0` gives exactly `49` primitive rays; the profile count is exactly `49*4*3+3=591`.
+- Exact behavior census: persistent sign `28`, interior sign change `9`, center-off `6`, endpoint taper `5`, zero at both boundaries `1`; interior even-touch rows `0`.
+- Exact strata: `C0_E0_O0_T0=28`, `C0_E0_O1_T0=8`, `C0_E1_O0_T0=4`, `C0_E2_O0_T0=1`, `C1_E0_O0_T0=5`, `C1_E0_O1_T0=1`, `C1_E1_O0_T0=1`, `C2_E0_O0_T0=1`.
+- Center-order counts are `41/7/1` for orders `0/1/2`; endpoint-order counts are `43/5/1` for orders `0/1/2`; odd interior-root counts are `40/9` for `0/1`.
+- Row-level result: my independent replay found `0` shape mismatches and `0` profile mismatches against the frozen TSVs.
+
+**Center, Signature, Reflection**
+- With `r=Rx` and Cartesian `(X,Y,Z)`, the spatial block is `dX^2+dY^2+dZ^2 + ((A^{-1}-1)/r^2)(X dX+Y dY+Z dZ)^2`. Since `A^{-1}-1 = O(r^2)`, the coefficient is analytic at `r=0`.
+- The cross term is `2Rc_E h\sin^2\theta\,dt\,d\psi = (2c_E/R) q(r^2/R^2)\,dt\,(X dY - Y dX)`, which is also analytic at `r=0`. Every frozen profile is therefore genuinely Cartesian `C^\infty` at the center.
+- For `a\in\{-1/4,0,1/4\}`, `A(x)\ge 3/4` on `[0,1]`. Away from chart degeneracies the spatial block is positive, and the time Schur complement is `-c_E^2(A + h^2\sin^2\theta/x^2) = -c_E^2(A + x^2 q(x^2)^2\sin^2\theta) < 0`, so the metric has Lorentz signature throughout the closed cell. The axis and spherical center are coordinate degeneracies only.
+- `\psi \mapsto -\psi` is not merely a bookkeeping trick: it is an isometry sending `g[q]` to `g[-q]` inside this envelope. What remains physically unselected is orientation choice; G75 does not justify deleting that branch as a measured physical alternative.
+
+**Independence And Catch-Proof Assessment**
+- The load-bearing mathematical claim survives a separate reconstruction, so the finite family/census claim stands.
+- `verify_profile_family_independent.py` is only partially independent: it re-enumerates the lattice and checks normalization and root multiplicity counts, but it does not independently rederive exact root identities, distinct-root counts, extrema, behavior labels, or stratum labels.
+- `verify_package.py` is a consistency wrapper, not an independent proof.
+- `run_catch_proofs.py` catches count/status tampering, but it does not mutate algebraic fields such as exact roots, extrema, or class labels while preserving totals. The catch layer is therefore useful but not catch-complete.
+
+**Scope And Maximum Justified Conclusion**
+- The premise/scope language is disciplined. The intake stays bounded to the frozen quadratic atlas, symbolic positive `R`, and the stationary axial envelope, and it does not promote to a physical profile, source law, endpoint, `X_max`, or sky fit.
+- Maximum justified conclusion: the sealed intake exactly constructs and classifies the complete frozen `49`-ray / `591`-profile center-regular stationary axial quadratic family, with multiple exact shape strata, and nothing broader.
+
+**Runnable Verification Details**
+```bash
+python3 - <<'PY'
+import csv, hashlib, itertools, math
+from fractions import Fraction
+from pathlib import Path
+from collections import Counter
+import sympy as sp
+root = Path('/tmp/udt_g75_review_tUtzkAuv')
+here = root/'udt_cmb_G75_center_regular_axial_profile_family_2026-08-11'
+S = sp.symbols('s', real=True)
+def tsv(name):
+    return list(csv.DictReader((here/name).open(), delimiter='\t'))
+def f(q):
+    return str(q.numerator) if q.denominator == 1 else f'{q.numerator}/{q.denominator}'
+manifest = tsv('REVIEW_MANIFEST.tsv')
+assert len(manifest) == 34 and all(hashlib.sha256((root/r['path']).read_bytes()).hexdigest() == r['sha256'] for r in manifest)
+shapes, profiles = tsv('SHAPE_ATLAS.tsv'), tsv('PROFILE_ATLAS.tsv')
+rays = sorted(c for c in itertools.product(range(-2, 3), repeat=3)
+              if (nz := [abs(v) for v in c if v]) and math.gcd(*nz) == 1 and next(v for v in c if v) > 0)
+assert len(rays) == 49 == len(shapes)
+shape_mismatches = 0
+behavior = Counter()
+strata = Counter()
+for i, c in enumerate(rays, 1):
+    row = shapes[i-1]
+    pts = {Fraction(0), Fraction(1)}
+    if c[2]:
+        v = Fraction(-c[1], 2*c[2])
+        if 0 < v < 1:
+            pts.add(v)
+    M = max(abs(Fraction(c[0]) + Fraction(c[1])*x + Fraction(c[2])*x*x) for x in pts)
+    roots = sorted([(sp.sstr(r), int(m)) for r, m in sp.roots(sp.Poly(c[0] + c[1]*S + c[2]*S**2, S).as_expr(), S).items() if sp.simplify(sp.And(r > 0, r < 1)) is sp.true], key=lambda t: float(sp.N(sp.sympify(t[0]), 40)))
+    co = 0 if c[0] else (1 if c[1] else 2)
+    ep = sum(c)
+    eo = 0 if ep else (1 if c[1] + 2*c[2] else 2)
+    odd = sum(m % 2 for _, m in roots)
+    even = sum((m % 2) == 0 for _, m in roots)
+    bc = 'INTERIOR_SIGN_CHANGE' if odd else 'INTERIOR_TOUCH_NO_SIGN_CHANGE' if even else 'ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT' if co and eo else 'CENTER_OFF_NO_INTERIOR_ROOT' if co else 'ENDPOINT_TAPER_NO_INTERIOR_ROOT' if eo else 'PERSISTENT_SIGN_NO_INTERIOR_ROOT'
+    exp = {
+        'shape_id': f'S{i:02d}', 'c0': str(c[0]), 'c1': str(c[1]), 'c2': str(c[2]), 'normalization_M': f(M),
+        'center_q_order_in_s': str(co), 'center_h_order_in_x': str(2 + 2*co), 'center_B_order_in_x': str(2 + 4*co),
+        'endpoint_zero_order_in_s': str(eo), 'open_root_count_distinct': str(len(roots)), 'open_root_count_multiplicity': str(sum(m for _, m in roots)),
+        'open_odd_root_count': str(odd), 'open_even_root_count': str(even), 'open_roots_exact': ';'.join(f'{r}@{m}' for r, m in roots) or '-',
+        'behavior_class': bc, 'stratum_code': f'C{co}_E{eo}_O{odd}_T{even}'
+    }
+    shape_mismatches += sum(row[k] != v for k, v in exp.items())
+    behavior[bc] += 1
+    strata[exp['stratum_code']] += 1
+L = [('AM', Fraction(-1, 4)), ('A0', Fraction(0)), ('AP', Fraction(1, 4))]
+E = [('E05', Fraction(1, 20)), ('E20', Fraction(1, 5)), ('E50', Fraction(1, 2)), ('E100', Fraction(1, 1))]
+profile_mismatches = 0
+expected = {f'G75_F01_{n}': {'shape_id': 'ZERO', 'amplitude': '0', 'q_of_s': '0'} for n, _ in L}
+for row in shapes:
+    nc = [Fraction(row[f'normalized_c{k}']) for k in range(3)]
+    for en, amp in E:
+        expr = str(sp.expand(sum(sp.Rational((amp*nc[k]).numerator, (amp*nc[k]).denominator) * S**k for k in range(3))))
+        for ln, _ in L:
+            expected[f'G75_{ln}_{row["shape_id"]}_{en}'] = {'shape_id': row['shape_id'], 'amplitude': f(amp), 'q_of_s': expr}
+assert len(expected) == len(profiles) == 591 == len({r['profile_id'] for r in profiles})
+for row in profiles:
+    exp = expected[row['profile_id']]
+    profile_mismatches += sum(row[k] != v for k, v in exp.items())
+assert shape_mismatches == profile_mismatches == 0
+print({'hashes': '34/34', 'shape_count': 49, 'profile_count': 591, 'behavior': dict(sorted(behavior.items())), 'strata': dict(sorted(strata.items())), 'shape_mismatches': 0, 'profile_mismatches': 0})
+PY
+```
+- `SHA-256(response body above, excluding these SHA bullets to avoid the self-reference problem) = 5b7701a9927ec651aca9b21e1d45a5ad9ceebec89f9dcba61f91d49e44f70a06`
+- `SHA-256(inline verifier block) = 8b22b0c63f9c3b90e64975d88c28a6da9d8200e3301c8a8a45f984e14f564cc1`
+tokens used
+78,210
+
+Script done on 2026-08-11 19:49:25-04:00 [COMMAND_EXIT_CODE="0"]

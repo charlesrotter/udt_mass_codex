@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "adjudication_status_present": true,
+    "corrected_catches_16_of_16": true,
+    "corrected_replay_16_of_16": true,
+    "current_G75_overlay": true,
+    "external_counts": true,
+    "external_landing": true,
+    "external_zero_profile_mismatches": true,
+    "external_zero_shape_mismatches": true,
+    "fixed_23_file_package_unchanged": true,
+    "hash_EXTERNAL_REVIEW_RAW.md": true,
+    "hash_EXTERNAL_REVIEW_TRANSCRIPT.txt": true,
+    "hash_PROFILE_ATLAS.tsv": true,
+    "hash_REVIEW_MANIFEST.tsv": true,
+    "hash_SHAPE_ATLAS.tsv": true,
+    "protected_draft_unread": true
+  },
+  "fixed_package_hashes": 23,
+  "passed": 15,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g75-external-review-verification-v1",
+  "status": "PASS",
+  "total": 15
+}

@@ -1,0 +1,26 @@
+{
+  "authorized_manifest_sha256": "917ddad22fd5885e0d8a1e52305c88dacbffb2fb35316fef6636c19c2c0bee71",
+  "authorized_payload_hashes_verified": 34,
+  "behavior_counts": {
+    "CENTER_OFF_NO_INTERIOR_ROOT": 6,
+    "ENDPOINT_TAPER_NO_INTERIOR_ROOT": 5,
+    "INTERIOR_SIGN_CHANGE": 9,
+    "PERSISTENT_SIGN_NO_INTERIOR_ROOT": 28,
+    "ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT": 1
+  },
+  "external_landing": "VERIFIED_WITH_CAVEATS",
+  "external_raw_sha256": "d4b0a0a8529b08930d180eee010edd9060bd43e0d72460cf82d29b482d14dde8",
+  "external_response_body_sha256": "5b7701a9927ec651aca9b21e1d45a5ad9ceebec89f9dcba61f91d49e44f70a06",
+  "external_transcript_sha256": "506245bd94ecdd5e23f11bfc9600413167203eb0381011e9d8a3dbdb8c4a9e21",
+  "external_verifier_sha256": "8b22b0c63f9c3b90e64975d88c28a6da9d8200e3301c8a8a45f984e14f564cc1",
+  "local_catch_proofs_after_correction": 16,
+  "local_independent_checks_after_correction": 16,
+  "profile_count": 591,
+  "profile_row_mismatches": 0,
+  "project_status": "EXTERNALLY_VERIFIED_BOUNDED_FAMILY__INTERNAL_INDEPENDENCE_AND_CATCH_COMPLETENESS_CAVEATS_CLOSED_LOCALLY",
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g75-external-review-v1",
+  "shape_count": 49,
+  "shape_row_mismatches": 0,
+  "status": "PASS"
+}

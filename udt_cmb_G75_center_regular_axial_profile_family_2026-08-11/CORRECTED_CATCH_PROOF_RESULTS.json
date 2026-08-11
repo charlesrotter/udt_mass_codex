@@ -1,0 +1,25 @@
+{
+  "catches": {
+    "G74_repair_claim": true,
+    "behavior_labels_swapped_same_census": true,
+    "center_odd_profile": true,
+    "duplicate_profile": true,
+    "duplicate_shape": true,
+    "missing_profile": true,
+    "missing_shape": true,
+    "physical_selection": true,
+    "scale_selected": true,
+    "signature_failure": true,
+    "source_activated": true,
+    "strata_swapped_same_census": true,
+    "wrong_distinct_root_count": true,
+    "wrong_exact_extremum": true,
+    "wrong_exact_root": true,
+    "wrong_normalization": true
+  },
+  "passed": 16,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g75-corrected-catches-v1",
+  "status": "PASS",
+  "total": 16
+}
