@@ -6,9 +6,26 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G68 FINITE-PATH OBSERVER-SKY CONTROL ATLAS VERIFIED WITH CAVEATS) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G69 PROFILE/ENDPOINT/SOURCE IDENTIFIABILITY ATLAS AWAITS EXTERNAL REVIEW) ============
 
-**LATEST GATE — G68 F01/F02 FINITE-PATH OBSERVER-SKY JACOBI CONTROL ATLAS COMPLETE,
+**LATEST LEAD — G69 PROFILE–ENDPOINT–SOURCE IDENTIFIABILITY ATLAS COMPLETE LOCALLY,
+`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`.** Read
+`udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md` and `PREREGISTRATION.md`. Without a new ODE solve, all `21 x 15 = 315`
+saved G68 profile/endpoint cells were reconstructed. The complete three-channel geometric readout
+`(area, anisotropy, azimuthal carry)` locally separates endpoint, lapse, and mixing-amplitude
+directions in all `15/15` frozen sensitivity cells, but it is often poorly conditioned
+(`66.82`--`2156.08`). An independent cubic-spline implementation agrees with PCHIP to
+`1.0141e-10`. Exact congruence algebra then proves that an unrestricted positive-definite source
+covariance can compensate any invertible `2 x 2` screen map; all `945/945` controls replay to
+`2.831e-16`. This is not a theorem that full TT/TE/EE/BB data are non-identifying: scalar TT does
+not directly read all three rank-test channels, and no physical source covariance has been owned.
+No observational anchor or coefficient was used. A later small preregistered coefficient set is
+allowed only after source/channel/profile/endpoint ownership reduces this freedom, with held-out
+checks. NEXT: sealed external review of the rank typing, conditioning, covariance theorem, and
+scope. Do not fit, select a profile/endpoint/source, or restart FD2.
+
+**PARENT GATE — G68 F01/F02 FINITE-PATH OBSERVER-SKY JACOBI CONTROL ATLAS COMPLETE,
 `VERIFIED_WITH_CAVEATS`.** Read
 `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
 `EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`. The exact preregistered

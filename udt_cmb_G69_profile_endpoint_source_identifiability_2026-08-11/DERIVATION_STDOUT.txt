@@ -1,0 +1,33 @@
+{
+  "anisotropy_log_range": [
+    0.0,
+    0.004647611939949943
+  ],
+  "area_log_range": [
+    -0.00019602454149323268,
+    0.011379469920484856
+  ],
+  "cells": 315,
+  "endpoints": 15,
+  "max_F01_anisotropy": 0.0,
+  "max_F01_polar_rotation": 0.0,
+  "max_x1_D_relative_error": 3.744434215769758e-16,
+  "maximum_conclusion": "bounded control-tile geometric sensitivity and exact unrestricted-source covariance nonidentifiability only",
+  "minimum_D_singular_value": 0.04961347467704763,
+  "new_ODE_solves": 0,
+  "observational_anchors_used": 0,
+  "primary_landing": "GEOMETRICALLY_SEPARATING__OBSERVATIONALLY_SOURCE_DEGENERATE",
+  "profiles": 21,
+  "psi_range": [
+    -0.12946143790625805,
+    0.06652495042843086
+  ],
+  "rank_counts": {
+    "FULL_RANK_OBSERVED": 15
+  },
+  "schema": "udt-cmb-g69-identifiability-v1",
+  "sensitivity_cells": 15,
+  "source_covariance_cells": 945,
+  "source_max_reconstruction_relative": 2.830524433501838e-16,
+  "source_min_eigenvalue": 1.561592189528903
+}

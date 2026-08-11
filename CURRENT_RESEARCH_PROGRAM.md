@@ -7,6 +7,18 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
+**CURRENT G69 LEAD:**
+`udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md` reconstructs all
+315 saved G68 profile/endpoint maps without a new ODE solve. Across the complete registered
+`(area, anisotropy, azimuthal carry)` readout, all 15 coarse sensitivity matrices locally separate
+endpoint, lapse, and mixing directions, though normalized condition numbers reach `2156.08`.
+Exact congruence algebra proves that an unrestricted positive-definite source covariance can absorb
+any invertible local screen map; all 945 controls replay at `2.831e-16`. This is internally verified
+and awaits external review. It is not a global full-CMB non-identifiability theorem, does not give
+scalar TT access to azimuthal carry, and selects no profile, endpoint, source, or coefficient.
+Observational anchors may enter only in a later preregistered low-dimensional model after ownership
+reduces the exact source freedom.
+
 **CURRENT G68 CHECKPOINT:**
 `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md` integrates the full
 geodesic, parallel-screen, and Jacobi system across the exact preregistered 21-profile stationary/

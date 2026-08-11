@@ -1,0 +1,18 @@
+{
+  "cells": 315,
+  "imports_production_builder": false,
+  "max_PCHIP_CubicSpline_D_relative": 1.0140650752554801e-10,
+  "max_covariance_reconstruction_relative": 2.830524433501838e-16,
+  "minimum_source_eigenvalue": 1.561592189528903,
+  "new_ODE_solves": 0,
+  "profiles": 21,
+  "rank_counts": {
+    "FULL_RANK_OBSERVED": 15
+  },
+  "schema": "udt-cmb-g69-independent-v1",
+  "sensitivity_cells": 15,
+  "source_covariance_cells": 945,
+  "source_manifest_rows": 8,
+  "source_mismatches": [],
+  "status": "PASS"
+}

@@ -5,7 +5,15 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+The active arc is **CMB PEAK OPTIMIZATION**. Its current lead is
+`udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`: all 315 saved
+G68 profile/endpoint maps were reconstructed without a new solve. The complete three-channel
+geometric map locally separates endpoint, lapse, and mixing in all 15 registered sensitivity
+cells, while exact covariance algebra shows that an unrestricted source can compensate every
+invertible local screen map. The result is internally verified and awaits sealed external review.
+It is not a full-CMB non-identifiability theorem and fits no coefficient. Observational anchors are
+permitted later only after source/channel ownership is narrowed and held-out checks are declared.
+Its parent checkpoint is
 `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`: the full
 geodesic/parallel-screen/Jacobi system is integrated across the exact 21-profile finite control
 tile. All rows reach the declared endpoint regularly. F01 returns exact `D=sI`; every mixing-on F02

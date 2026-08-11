@@ -9,6 +9,17 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
+## Current G69 lead
+
+`udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md` controls the
+current local identifiability lead. The complete three-channel G68 geometric readout is
+`FULL_RANK_OBSERVED` in all 15 frozen sensitivity cells, but often poorly conditioned. The exact
+identity `C_src=D^-1 C_obs D^-T` proves non-identifiability only when the local source covariance is
+unrestricted and `D` is invertible. It does not prove that full TT/TE/EE/BB observations are
+non-identifying. The numerical result is internally verified pending external review. No
+observational anchor, physical profile, endpoint, source, spectrum, or coefficient has been
+selected.
+
 ## Current G68 refinement
 
 `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md` controls the current

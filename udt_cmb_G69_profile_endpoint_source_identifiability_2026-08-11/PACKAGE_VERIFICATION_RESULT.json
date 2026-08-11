@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "F01_identity": true,
+    "anchor_policy": true,
+    "cell_census": true,
+    "channel_scope": true,
+    "covariance_census": true,
+    "covariance_gate": true,
+    "endpoint_regression": true,
+    "external_status_honest": true,
+    "independent_route": true,
+    "landing": true,
+    "lay_scope": true,
+    "no_anchor_or_solve": true,
+    "profile_endpoint_census": true,
+    "regular_maps": true,
+    "sensitivity_census": true,
+    "sensitivity_scope": true,
+    "source_hashes": true
+  },
+  "passed": 17,
+  "schema": "udt-cmb-g69-package-v1",
+  "total": 17
+}

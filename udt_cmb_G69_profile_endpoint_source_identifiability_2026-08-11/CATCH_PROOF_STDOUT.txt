@@ -1,0 +1,23 @@
+{
+  "caught": {
+    "F01_anisotropy_mutated": true,
+    "anchor_added_posthoc": true,
+    "covariance_residual_mutated": true,
+    "covariance_row_missing": true,
+    "duplicate_cell": true,
+    "endpoint_regression_mutated": true,
+    "external_status_promoted": true,
+    "holdout_deleted": true,
+    "missing_cell": true,
+    "missing_endpoint": true,
+    "missing_profile": true,
+    "rank_promoted": true,
+    "sensitivity_missing": true,
+    "singular_map": true,
+    "source_nonpositive": true,
+    "source_promoted": true
+  },
+  "passed": 16,
+  "schema": "udt-cmb-g69-catches-v1",
+  "total": 16
+}
