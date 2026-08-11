@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "core_science_upheld": true,
+    "external_landing": true,
+    "g68_unchanged": true,
+    "physical_owners_open": true,
+    "protected_excluded": true,
+    "protected_metadata": true,
+    "raw_hash": true,
+    "review_manifest_hash": true,
+    "reviewed_paths": true,
+    "topology_scope": true,
+    "transcript_hash": true
+  },
+  "effective_state": "EXTERNALLY_VERIFIED_WITH_TOPOLOGY_SCOPE_CAVEAT_CLOSED_LOCALLY",
+  "external_landing": "VERIFIED_WITH_CAVEATS",
+  "passed": 11,
+  "protected_draft_read": false,
+  "reviewed_manifest_rows": 32,
+  "schema": "udt-cmb-g73-external-adjudication-v1",
+  "status": "PASS",
+  "total": 11
+}

@@ -5,7 +5,9 @@ scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARC
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
 lead is `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`; it separates
 regular source-preserving response from strong-shear, repeated-image, fold, and multibranch
-kaleidoscope mechanisms without selecting a physical sky. Its parent is
+kaleidoscope mechanisms without selecting a physical sky. It is externally verified with an
+additions-only topology correction: the critical-point requirement is specific to repeated whole-
+sky smooth `S^2` self-imaging. Its parent is
 `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`; it derives a
 conditional source-free screen response (scale, shear, relative polar rotation) on a supplied
 regular query while leaving every physical CMB response/source/endpoint/global-scale owner open.

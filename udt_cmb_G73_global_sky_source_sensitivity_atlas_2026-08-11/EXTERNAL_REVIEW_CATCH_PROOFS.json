@@ -1,0 +1,15 @@
+{
+  "caught": {
+    "branch_combination_promoted": true,
+    "branch_set_denied": true,
+    "different_topology_forced_singular": true,
+    "duplicate_case": true,
+    "missing_case": true,
+    "partial_sky_forced_singular": true,
+    "strong_shear_called_repetition": true,
+    "whole_s2_singularity_erased": true
+  },
+  "passed": 8,
+  "schema": "udt-cmb-g73-external-catches-v1",
+  "total": 8
+}

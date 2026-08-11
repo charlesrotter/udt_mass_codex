@@ -4,7 +4,7 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G73 global-sky source-sensitivity atlas internally verified)
+## TOP — CURRENT POINTER (2026-08-11, G73 global-sky source-sensitivity atlas externally verified with topology caveat closed)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
@@ -13,8 +13,11 @@ Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 response preserves a unique arbitrary source, strong shear can align directions, and robust
 kaleidoscopic repetition requires global branching/noninjectivity or critical/fold structure. G68
 is weakly anisotropic on its bounded tile and does not test the asymptotic full sky. Both the
-unique-source and robust-kaleidoscope routes remain live. External review is pending; next is the
-complete symbolic-scale sky-relation branch/critical atlas before source ensembles. Its parent is
+unique-source and robust-kaleidoscope routes remain live. Next is the complete symbolic-scale sky-
+relation branch/critical atlas before source ensembles. External review
+verified `32/32` hashes and upheld the result; its additions-only correction restricts the
+singularity requirement to repeated whole-sky smooth `S^2 -> S^2` self-imaging. Different topology,
+partial skies, or regular branch-labelled relations need not be singular. Its parent is
 `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`: same-query Jacobi deformation
 and metric screen transport derive a conditional source-free response with common scale, shear,
 and relative polar rotation. A sealed reviewer verified `38/38` hashes and independently upheld the

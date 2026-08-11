@@ -6,13 +6,14 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS INTERNALLY VERIFIED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS EXTERNALLY VERIFIED WITH TOPOLOGY CAVEAT CLOSED) ============
 
 **LATEST LEAD — G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS,
-`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`; landing
+`EXTERNALLY_VERIFIED_WITH_TOPOLOGY_SCOPE_CAVEAT_CLOSED_LOCALLY`; landing
 `REGULAR_SKY_RESPONSE_SOURCE_INVERTIBLE__ROBUST_KALEIDOSCOPE_REQUIRES_GLOBAL_BRANCHING_SINGULARITY_OR_SOURCE_RESTRICTION`.**
 Read `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`, `RESPONSE_REGIME_ATLAS.tsv`, `OWNERSHIP_LEDGER.tsv`, and
+`EXTERNAL_REVIEW_ADJUDICATION.md`, `TOPOLOGY_SCOPE_CORRECTION.md`, `EXACT_DERIVATION.md`,
+`RESPONSE_REGIME_ATLAS.tsv`, `OWNERSHIP_LEDGER.tsv`, and
 `PREREGISTRATION.md`. A one-to-one sky map with pointwise invertible G72 response preserves an
 arbitrary nonhomogeneous source exactly, even if the appearance is strongly distorted. Exact
 strong-shear algebra nevertheless gives a geometry-dominated directional limit, with source
@@ -21,9 +22,12 @@ critical or fold structure, or restricted source statistics; a branch set is not
 observable without an owner. All 21 G68 controls replay with maximum singular-value ratio
 `1.0046584288394136`—weak anisotropy on that bounded tile, not a test of the complete asymptotic
 sky. Seven exact checks, 11/11 independent checks, a 400,000-direction replay, and 9/9 semantic
-catches pass. The unique-mass-distribution-plus-UDT-response route and the robust-kaleidoscope route
-both remain live. NEXT: sealed adversarial review, then map the complete symbolic-scale sky
-relation's bijective, repeated-image, set-valued, and critical strata before source ensembles. No
+catches pass. A sealed reviewer verified all `32/32` hashes and upheld the complete algebra and
+G68 result. Its sole caveat is closed additions-only: singularity is required for nontrivial
+repeated whole-sky smooth `S^2 -> S^2` self-imaging, not universally for different topology,
+partial skies, or regular multibranch relations. The unique-mass-distribution-plus-UDT-response and
+robust-kaleidoscope routes both remain live. NEXT: map the complete symbolic-scale sky relation's
+bijective, regular-cover, repeated-image, set-valued, and critical strata before source ensembles. No
 physical CMB source, endpoint/profile, global scale, spectrum, bootstrap law, or `X_max` value is
 selected.
 

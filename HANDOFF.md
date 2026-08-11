@@ -22,15 +22,18 @@ finite-cell seal, or boundary term.
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
 **LATEST LEAD = G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS,
-`INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`.** Read
+`EXTERNALLY_VERIFIED_WITH_TOPOLOGY_SCOPE_CAVEAT_CLOSED_LOCALLY`.** Read
 `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`, `RESPONSE_REGIME_ATLAS.tsv`, and `OWNERSHIP_LEDGER.tsv`. Regular bijective
+`EXTERNAL_REVIEW_ADJUDICATION.md`, `TOPOLOGY_SCOPE_CORRECTION.md`, `EXACT_DERIVATION.md`,
+`RESPONSE_REGIME_ATLAS.tsv`, and `OWNERSHIP_LEDGER.tsv`. Regular bijective
 G72 response preserves arbitrary source information exactly. Strong shear can geometrically align
 directions, while repeated-image kaleidoscope structure requires branching/noninjectivity,
 critical/fold behavior, or restricted source statistics. G68 is weakly anisotropic on its bounded
 tile (`max s1/s2=1.0046584288394136`) and does not test the asymptotic full sky. The unique-source
-and robust-kaleidoscope routes both survive. NEXT: cold-review G73, then build the complete symbolic-
-scale sky relation branch/critical atlas before source ensembles.
+and robust-kaleidoscope routes both survive. External review verified `32/32` hashes and all core
+results. Its corrected scope is: critical points are required for repeated whole-sky smooth
+`S^2 -> S^2` self-imaging, not universally for other topology or partial skies. NEXT: build the
+complete symbolic-scale sky relation branch/topology/critical atlas before source ensembles.
 
 **PARENT GATE = G72 METRIC SCREEN-RESPONSE JOIN,
 `EXTERNALLY_VERIFIED_AS_CONDITIONAL_RESPONSE`; landing

@@ -11,6 +11,8 @@
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
    `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+   `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/TOPOLOGY_SCOPE_CORRECTION.md`, then
    `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXACT_DERIVATION.md`, then
    `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/RESPONSE_REGIME_ATLAS.tsv`, then
    `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`, then

@@ -14,8 +14,11 @@ invertible response retains arbitrary source information; strong shear can align
 directions; robust repeated images require branching/noninjectivity or critical/fold structure.
 The 21 G68 controls have maximum singular-value ratio `1.0046584288394136`, so they are weakly
 anisotropic and do not test the asymptotic full sky. Internal exact, independent, angular-grid, and
-semantic gates pass. External review is pending. Next is the symbolic-scale global sky-relation
-branch/critical atlas before any source ensemble or observational fit.
+semantic gates pass. External review verified `32/32` hashes and upheld the result. Its one scope
+caveat is closed additions-only: critical points are required for nontrivial repeated whole-sky
+smooth `S^2 -> S^2` self-imaging, not universally for different topology or partial-sky domains.
+Next is the symbolic-scale global sky-relation branch/topology/critical atlas before any source
+ensemble or observational fit.
 
 **G72 PARENT LEAD:**
 `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md` derives the complete generic

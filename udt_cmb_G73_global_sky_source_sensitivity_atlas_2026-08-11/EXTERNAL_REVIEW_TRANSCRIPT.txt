@@ -1,0 +1,1888 @@
+Script started on 2026-08-11 18:21:23-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_g73_review_LNgXgAxi
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019ff2ea-8436-7fe0-bd47-dd329dcb97a9
+--------
+user
+Act as the cold adversarial reviewer. Read and follow udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md exactly. Verify REVIEW_MANIFEST.tsv before using any source. Inspect only this sealed intake. Do not edit files or continue the research. Return the required single landing with exact algebraic, type, topology, scope, ownership, and lay adjudication.
+codex
+I’m locating the sealed intake and reading the dispatch plus manifest first. I’ll verify the manifest before opening any review sources, then follow the review instructions exactly and keep the inspection confined to that intake.
+exec
+/bin/bash -c pwd in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+/tmp/udt_g73_review_LNgXgAxi
+
+exec
+/bin/bash -c 'rg --files /tmp/udt_g73_review_LNgXgAxi' in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G71_native_restriction_owner_audit_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md
+/tmp/udt_g73_review_LNgXgAxi/CURRENT_SCIENTIFIC_PREMISES.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_ATLAS.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/RUN_RECORD.md
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/verify_source_sensitivity_independent.py
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/OWNERSHIP_LEDGER.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/run_catch_proofs.py
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/FALSIFICATION_CONTRACT.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/LAY_REPORT.md
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/verify_repository_gates.py
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/REPOSITORY_GATES.json
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/DERIVATION_RESULT.json
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/PACKAGE_VERIFICATION_RESULT.json
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/G68_SOURCE_SENSITIVITY_ATLAS.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXACT_DERIVATION.md
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G72_metric_screen_response_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/build_review_manifest.py
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/CATCH_PROOF_RESULTS.json
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/SOURCE_MANIFEST.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/PREREGISTRATION.md
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/TYPE_LEDGER.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/RESPONSE_REGIME_ATLAS.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G72_metric_screen_response_join_2026-08-11/EXACT_DERIVATION.md
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G72_metric_screen_response_join_2026-08-11/G68_RESPONSE_ATLAS.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/derive_source_sensitivity.py
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/REVIEW_MANIFEST.tsv
+/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/verify_package.py
+
+codex
+I’ve identified the sealed intake. Next I’m reading only `EXTERNAL_REVIEW_DISPATCH.md` and `REVIEW_MANIFEST.tsv`, because the dispatch requires manifest verification before any other source is touched.
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+# G73 cold adversarial review dispatch
+
+Review only the files listed in `REVIEW_MANIFEST.tsv`. Verify every hash before source use. Do not
+edit files, continue the research, inspect anything outside the sealed intake, or inspect the
+protected stopped native-on-shell draft.
+
+## Question
+
+Does G73 correctly classify when the G72 observer-sky response preserves arbitrary source
+information, when geometry can dominate normalized direction, and what additional global map
+structure is required for a robust repeated-image kaleidoscope?
+
+## Required audit
+
+1. Type-check the source sky, observer sky, map `f`, pointwise response `M`, scalar pullback, and
+   vector/tensor response. Reject any silent physical TT or polarization identification.
+2. Prove or disprove the exact source-recovery theorem for a regular bijective sky relation with
+   pointwise invertible response.
+3. Independently derive the strong-shear angle map and angular-measure fraction. Check the
+   exceptional minor-axis set and retained source amplitude.
+4. Audit the distinction between:
+   - an invertible but visually dominant distortion;
+   - one source feature copied to several observer directions;
+   - several source/path branches arriving at one observer direction;
+   - a caustic/rank-loss event;
+   - a physical combining or detector rule.
+5. Test the `S^2 -> S^2` covering statement under its exact compactness, regularity, connectedness,
+   and topology hypotheses. State whether different source topology or partial-sky domains escape
+   it.
+6. Recompute all 21 G68 singular-value ratios and the three directional-compression diagnostics
+   from the frozen finite-path matrices, not the derived atlas alone.
+7. Determine whether the landing overstates the need for branching, singularity, or source
+   restriction. In particular, distinguish exact information recovery from visual/geometric
+   dominance of one unique realization.
+8. Audit whether source ensembles are genuinely premature until a complete global relation map is
+   supplied, or whether a smaller lawful ensemble test is already owned.
+9. Preserve `X_max`, SNe, bootstrap, source statistics, endpoint/profile, global scale, and physical
+   CMB observables as inactive/open unless the sealed sources explicitly own them.
+
+## Required landing
+
+Return exactly one:
+
+- `VERIFIED_SOURCE_SENSITIVITY_CLASSIFICATION`;
+- `VERIFIED_WITH_CAVEATS`;
+- `KALEIDOSCOPE_REQUIREMENT_OVERSTATED`;
+- `GLOBAL_MAP_TYPING_FAILURE`;
+- `G68_STRENGTH_MISCLASSIFIED`;
+- `TYPE_OR_SCOPE_FAILURE`;
+- or another precisely defined result.
+
+Separate `DERIVED`, `OBSERVED`, `CHOSE_QUERY`, `CONDITIONAL`, `WORKING`, and `OPEN`. Give a short lay
+adjudication. Do not derive an action, source, spectrum, `X_max` value, bootstrap law, or signalling
+law.
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/REVIEW_MANIFEST.tsv" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+path	sha256	role
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/PREREGISTRATION.md	9ecfda3ba3f9ae0a923c2dc8a0bc424ee125c5141d1309408f6a9859c992fd5f	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/SOURCE_MANIFEST.tsv	163d4b4227ad4c46f84d7eff5e1f40dc92a41c84fbd3ae4f79e0b3276bfe0abf	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/derive_source_sensitivity.py	c4672906bdb3c4e994fe770db9d3017fb373c423467bf8a85d937c6fd26fcbac	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/verify_source_sensitivity_independent.py	10f553d4a2b3e3bdf5d10bf28de259b075402f7fd11ac7597107a610b796a980	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/run_catch_proofs.py	f77a6b8343945a00a321da66acda3069ed334b5df7d09dbd40183053fefb589c	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/verify_package.py	e6e75cab85b50e38c9c72b808e54a0b445ff1a87c310d378bbdec4f189bc01f4	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/verify_repository_gates.py	9ba9f23156bc4d0a11876253532d02b85a7ec09d4afd53bf096561997ee726b1	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/DERIVATION_RESULT.json	844ff6d55f7792bf1e803000b5ef84a3a3524baba5aed33c18c3a00408f9415c	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json	4e5c3c1acce061bc1ef4c48b4463c9f8f70ebfd513235377e80b77960de8db02	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/G68_SOURCE_SENSITIVITY_ATLAS.tsv	fc07195e991097414d23934e0ca921f5fe1ea88d7794283abb732b5069618980	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/RESPONSE_REGIME_ATLAS.tsv	9ed0457b1bf37bc9451f040cf7683cb3f7f445b1629eaedbe5ad5d0929ea3347	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/FALSIFICATION_CONTRACT.tsv	885eb0164a923a0c0e8b82fbaa262ea6356c5839622a798029f068558b41a8f5	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/TYPE_LEDGER.tsv	c7a324c271ce1f24ff7273b178c60636da65a5f4bff6e035260e93e4fc57b4a8	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/OWNERSHIP_LEDGER.tsv	793af2dcfb07d6f476496e05f11ad1160995ba58b6516152e28e26471b580305	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/CATCH_PROOF_RESULTS.json	173cfa9105fe9d9c51aa2f8eafc207635c34711f1d6a5ad33c0169127c0e127b	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/PACKAGE_VERIFICATION_RESULT.json	afe768d52a47002018a15e20fdd85b45540aece8ecebc5d45ac6b872a9ce9a08	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/REPOSITORY_GATES.json	d8bc60265a506703057d8acd515c97167dfc815241aa06eadd5e2e87c8c324ac	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXACT_DERIVATION.md	f76874b2319285cd3bfc9b8bd6dff354113daf53ffe385a93900da8ccd3440ea	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md	f550cd39106882250327077aeb0401f66b291dde2583cc8c612fa31dcd452900	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/LAY_REPORT.md	526f32434679149055cf170b35c4e7c6c5d965336143660ea06f8f1b801d3c10	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/RUN_RECORD.md	43a90ef54c8571a64b75f4af165027e528bf03815c1cf58e20507a3e5e512c81	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md	abe49647da910ef34f531eae374eb73ebacff5645a7aed044151cdd0774774bc	G73_PACKAGE
+udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/build_review_manifest.py	8051c998fd5d4403a284a183fdc6e0cf3e9cbfb137f5276132f2f981dfac3709	G73_PACKAGE
+udt_cmb_G72_metric_screen_response_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md	3e4832707194fcda8bac716b93df28e89705723e5027f9b471ba170b2d35ed77	FROZEN_SOURCE
+udt_cmb_G72_metric_screen_response_join_2026-08-11/EXACT_DERIVATION.md	df319903a8beebe455ad9adde150b484104ec78f5e54ec9be50f155b626960d0	FROZEN_SOURCE
+udt_cmb_G72_metric_screen_response_join_2026-08-11/G68_RESPONSE_ATLAS.tsv	2c5862c0f9b2bf05fc90f0080e11e606842bf234e24577de856aa58890623595	FROZEN_SOURCE
+udt_cmb_G71_native_restriction_owner_audit_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md	cebee6f38a612672a6bb9d0ecf7959f687b2cca91c49b7e442b6282871f08072	FROZEN_SOURCE
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md	3c67542081edd46d32472d4aba5e5abcd21ca9866f4098f58a382a0fe83d6aef	FROZEN_SOURCE
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_ATLAS.tsv	a3c013122640f36526915d5ea458559ab3086031e3fabe5797cd9076cfdd66aa	FROZEN_SOURCE
+udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md	7d7b67f8f8d383336af85694eb0bd514d6789ccf53850d00853f93de00d895c5	FROZEN_SOURCE
+udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv	bff272867cb5405cb58b33ec552eae54aad182cbd5307c605690f253c7bb1516	FROZEN_SOURCE
+CURRENT_SCIENTIFIC_PREMISES.tsv	5daae8f8fd7bf5cad0399281bca6514057405a95b362d347e7f26d93da9ecbb9	FROZEN_SOURCE
+
+codex
+I have the dispatch requirements. Now I’m verifying the manifest entries and their hashes in bulk before opening any listed evidence, so the rest of the review stays within the declared sealed set.
+exec
+/bin/bash -c "python - <<'PY'
+import csv, hashlib, os, sys
+root='/tmp/udt_g73_review_LNgXgAxi'
+manifest=os.path.join(root,'udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11','REVIEW_MANIFEST.tsv')
+rows=[]
+with open(manifest,newline='') as f:
+    r=csv.DictReader(f, delimiter='\\t')
+    for row in r:
+        path=os.path.join(root,row['path'])
+        h=hashlib.sha256()
+        with open(path,'rb') as fh:
+            for chunk in iter(lambda: fh.read(1024*1024), b''):
+                h.update(chunk)
+        rows.append((row['path'], row['sha256'], h.hexdigest(), row['role']))
+
+bad=[x for x in rows if x[1]"'!=x[2]]
+print(f'"'MANIFEST_ENTRIES\\t{len(rows)}')
+print(f'HASH_OK\\t{len(rows)-len(bad)}')
+print(f'HASH_BAD\\t{len(bad)}')
+for path, exp, got, role in bad:
+    print(f'MISMATCH\\t{role}\\t{path}\\t{exp}\\t{got}')
+PY" in /tmp/udt_g73_review_LNgXgAxi
+ exited 127 in 0ms:
+/bin/bash: line 1: python: command not found
+
+codex
+The hash check command failed because only `python3` is available here. I’m rerunning the same verification with `python3` and then moving to the listed evidence only if the manifest is clean.
+exec
+/bin/bash -c "python3 - <<'PY'
+import csv, hashlib, os
+root='/tmp/udt_g73_review_LNgXgAxi'
+manifest=os.path.join(root,'udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11','REVIEW_MANIFEST.tsv')
+rows=[]
+with open(manifest,newline='') as f:
+    r=csv.DictReader(f, delimiter='\\t')
+    for row in r:
+        path=os.path.join(root,row['path'])
+        h=hashlib.sha256()
+        with open(path,'rb') as fh:
+            for chunk in iter(lambda: fh.read(1024*1024), b''):
+                h.update(chunk)
+        rows.append((row['path'], row['sha256'], h.hexdigest(), row['role']))
+
+bad=[x for x in rows if x[1]"'!=x[2]]
+print(f'"'MANIFEST_ENTRIES\\t{len(rows)}')
+print(f'HASH_OK\\t{len(rows)-len(bad)}')
+print(f'HASH_BAD\\t{len(bad)}')
+for path, exp, got, role in bad:
+    print(f'MISMATCH\\t{role}\\t{path}\\t{exp}\\t{got}')
+PY" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+MANIFEST_ENTRIES	32
+HASH_OK	32
+HASH_BAD	0
+
+codex
+I’ve confirmed all 32 manifest hashes match. The review now stays inside that verified set: I’ll read the package’s derivation, ledgers, falsification contract, and frozen upstream adjudications, then recompute the matrix-based diagnostics from the frozen G68 atlas and compare that against the package landing.
+exec
+/bin/bash -c "sed -n '1,260p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt_g73_review_LNgXgAxi
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/TYPE_LEDGER.tsv" in /tmp/udt_g73_review_LNgXgAxi
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/PREREGISTRATION.md" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+# G73 global-sky source-sensitivity atlas — preregistration
+
+Date: 2026-08-11
+
+Base commit: `aa855244f302316cdec978e599a997fa8011e226`
+
+## Whole question
+
+Given the G72 metric-owned screen response on a supplied observer-sky query, determine whether the
+output of a complete sky comparison is necessarily source-sensitive, can become geometry-dominated,
+or can acquire a true kaleidoscopic many-to-one/repeated-image structure. Do not demand a CMB-like
+answer and do not assume a smooth or homogeneous source.
+
+This is a metric-led response-classification problem. It is not a source model, fit, spectrum,
+bootstrap calculation, or physical last-scattering construction.
+
+## Exact bounded regimes
+
+1. `R1_REGULAR_SINGLE_BRANCH`: an oriented one-to-one sky map with a pointwise invertible G72
+   response `M(n)` on a supplied common query.
+2. `R2_REGULAR_STRONG_SHEAR`: the same regular class as the singular-value ratio grows, with no
+   caustic crossed.
+3. `R3_CAUSTIC_OR_FOLD_LIMIT`: rank loss or a noninjective sky map, characterized only as a domain
+   boundary/potential mechanism; no continuation or branch-combination law is supplied.
+4. `R4_MULTIBRANCH`: branch-labelled paths/images; distinguish the metric-owned set of branch
+   responses from any unowned sum, average, phase, or detector rule.
+5. `R5_G68_CONTROL_TILE`: all 21 frozen stationary/equatorial G68 endpoint response maps.
+
+This is not a function-space census of complete UDT solutions and not a full physical CMB sky.
+
+## Premise ledger
+
+- `pinned-by-THEORY`: G72 same-query typing `M=U^-1D`, endpoint-gauge quotient, singular values,
+  shear `chi`, relative polar angle, and regular-domain guards.
+- `pinned-by-THEORY`: a one-to-one regular sky pullback is composition with an invertible map.
+- `pinned-by-HISTORICAL_CONTROL`: the exact 21 G68 profiles, query, affine calibration, screens,
+  and endpoint.
+- `free-and-explored`: source values and orientations; no preferred realization or covariance.
+- `CHOSE_DIAGNOSTIC`: orientation cones of 5, 15, and 30 degrees, used only to display the exact
+  source-angle compression formula.
+- `OBSERVED`: `c_E` calibrates clock length but supplies no endpoint, global scale, source, or
+  branch-combination rule here.
+- `WORKING_INACTIVE`: `X_max`, co-presence global completion, and bootstrap.
+- `OPEN_INACTIVE`: physical CMB query, last-scattering surface, source statistics, detector law,
+  TT/TE/EE/BB map, action, carrier, and native matter source.
+
+No physical coefficient, source amplitude, boundary condition, cutoff, observational spectrum, or
+desired angular scale is fitted.
+
+## Exact tests
+
+1. Prove that a pointwise `GL+(2)` response over a one-to-one sky map is invertible and therefore
+   cannot erase arbitrary source dependence.
+2. Derive the canonical strong-shear directional map and the exact fraction of unoriented input
+   directions compressed into a declared output cone.
+3. Prove that rank loss can collapse source directions but retains source-dependent amplitude.
+4. Prove that a branch-labelled family is not a summed observable until weights and a combining
+   law are supplied.
+5. Replay every G68 `chi` and calculate its singular-value ratio `exp(2 chi)` plus the three
+   preregistered orientation-compression diagnostics.
+6. Separate scalar pullback, vector/tensor response, branch multiplicity, and physical observable
+   ownership.
+
+## Falsification and certification contract
+
+- Reject any claim of source universality on a regular one-to-one invertible response if an exact
+  inverse exists.
+- Reject any claim that G68 is strongly kaleidoscopic unless its registered singular-value ratios
+  demonstrate large directional compression.
+- Reject any caustic/fold conclusion derived solely from a regular G68 row.
+- Reject any summation, averaging, phase, parity, population, detector, or branch weight not owned
+  by the supplied query.
+- Reject identification of G68 azimuthal carry `psi` with image polar rotation.
+- Reject use of `X_max`, SNe, bootstrap, or CMB observations as a selector.
+- Certify a geometry-dominated directional limit only with an exact asymptotic statement and its
+  exceptional source set disclosed.
+- Preserve scalar-source and polarization/source-state typing.
+
+## Preregistered landing classes
+
+- `REGULAR_SKY_RESPONSE_INVERTIBLE__KALEIDOSCOPE_REQUIRES_NONINJECTIVITY_OR_RESTRICTED_SOURCE`;
+- `GEOMETRY_DOMINANT_DIRECTIONAL_LIMIT_WITH_SOURCE_AMPLITUDE_RETAINED`;
+- `BOUNDED_KALEIDOSCOPE_MECHANISM_FOUND`;
+- `SOURCE_DOMINANT_ON_REGISTERED_CONTROLS`;
+- `TYPE_OR_SCOPE_FAILURE`.
+
+Multiple compatible scoped landings may be joined, but no stronger claim is allowed.
+
+## Maximum conclusion
+
+A typed classification of when the complete geometric response retains, compresses, or can
+potentially fold generic nonhomogeneous input. No physical CMB anisotropy, source distribution,
+spectrum, endpoint, profile, global scale, `X_max` value, action, or bootstrap law may be claimed.
+
+ succeeded in 0ms:
+object	type	status	scope_guard
+source_scalar	scalar field on supplied source surface	FREE_AND_EXPLORED	no source statistics or physical population owned
+source_screen_vector	section of source screen bundle	FREE_AND_EXPLORED	magnitude and direction remain source data
+sky_relation	map or branch-labelled relation between source and observer skies	CONDITIONAL_ON_QUERY	one-to-one fold and multibranch cases kept separate
+M_response	pointwise source-screen endomorphism U^-1D	DERIVED_CONDITIONAL_ON_QUERY	regular oriented same-query stratum only
+regular_global_operator	pullback/remapping plus pointwise invertible response	DERIVED_AS_TYPED_CLASS	physical global query not selected
+strong_shear_limit	unbounded singular-value ratio with positive determinant	DERIVED_MATHEMATICAL_LIMIT	no branch/profile shown to realize it
+caustic_or_fold	rank loss or critical sky relation	OPEN_DOMAIN_BOUNDARY	no continuation or detector rule
+multibranch_response	set of path-labelled responses	CONDITIONAL_SET_VALUED	no sum average phase or weights
+physical_CMB_sky	observation-level temperature/polarization field	OPEN_NO_OWNER	no source endpoint profile or detector law
+
+ succeeded in 0ms:
+# G73 exact derivation — global-sky source sensitivity
+
+Date: 2026-08-11
+
+Primary landing:
+
+`REGULAR_SKY_RESPONSE_SOURCE_INVERTIBLE__ROBUST_KALEIDOSCOPE_REQUIRES_GLOBAL_BRANCHING_SINGULARITY_OR_SOURCE_RESTRICTION`
+
+This is a response-classification theorem. It is not a physical CMB source, sky, spectrum, or
+prediction.
+
+## 1. Correctly typed global question
+
+Let `S_o` be a supplied observer sky and `S_s` a supplied source surface/sky. A single regular
+query branch gives a map
+
+```text
+f:S_o -> S_s
+```
+
+and, after the G72 same-query screen transport is factored out, a pointwise response
+
+```text
+M(n)=U(n)^-1 D(n) in GL+(2).
+```
+
+For a scalar source `s`, the branch supplies a pullback `s_o(n)=s(f(n))`. For a source-screen
+vector `v`, transported observer coordinates give
+
+```text
+v_o_tilde(n)=M(n) v(f(n)).                                  (1)
+```
+
+Equation (1) is conditional on the physical source actually having that tensor type. It is not a
+TT or polarization law.
+
+## 2. Regular one-to-one response retains the source exactly
+
+If `f` is a diffeomorphism and every `M(n)` is invertible, then
+
+```text
+s(p)=s_o(f^-1(p)),
+v(p)=M(f^-1(p))^-1 v_o_tilde(f^-1(p)).                       (2)
+```
+
+Thus the complete regular response can produce a visually complicated rearrangement, scale,
+shear, and rotation while retaining all arbitrary source information. Geometry does not force two
+distinct unrestricted sources to the same output.
+
+This is an information statement, not a claim that geometry is visually unimportant. A complicated
+invertible map can dominate the appearance of one particular realization while remaining exactly
+reversible.
+
+The symbolic check verifies the generic `2 x 2` inverse. An independent finite global witness uses
+three source pixels, three invertible local blocks, and a nontrivial pixel permutation. Its full
+`6 x 6` response has exact rank six and an exact inverse.
+
+## 3. Strong shear can make directions geometry-dominated
+
+Write the positive canonical response, ignoring common scale and rotation, as
+
+```text
+P=ell diag(exp(chi),exp(-chi)).                              (3)
+```
+
+For an input direction `v=(cos alpha,sin alpha)`, the output angle `beta` satisfies
+
+```text
+tan beta = exp(-2 chi) tan alpha.                            (4)
+```
+
+For input directions uniform modulo sign, the exact fraction lying within an unoriented cone
+`epsilon` of the dominant output axis is
+
+```text
+F(chi,epsilon)=(2/pi) atan(exp(2 chi) tan epsilon).          (5)
+```
+
+For every fixed `epsilon>0`, `F -> 1` as `chi -> infinity`. Except for the exact minor-axis source
+direction, a sufficiently strong shear aligns the normalized output with the geometric dominant
+axis. That is a genuine geometry-dominated *directional* limit.
+
+It does not erase source amplitude. In the limit the surviving leading amplitude is proportional
+to the source magnitude times `|cos alpha|`; the exceptional minor-axis direction behaves
+differently. No current branch/profile is shown here to realize `chi -> infinity`.
+
+## 4. What a true kaleidoscope requires
+
+There are two mathematically different repeated-image cases.
+
+### 4.1 One source feature copied to several observer directions
+
+If `f:S_o -> S_s` is noninjective, distinct observer directions can sample the same source point.
+An exact discrete witness maps two source values to four observer values as
+
+```text
+(x1,x2) -> (x1,x2,x1,x2).                                   (6)
+```
+
+The source remains recoverable, but the geometry imposes exact repeated-image correlations. This
+is the clean mathematical analogue of a kaleidoscope overwhelming the organization of an ordinary
+source without manufacturing the source itself.
+
+For a smooth self-map `S^2 -> S^2`, an everywhere regular local diffeomorphism is a covering map.
+Because connected `S^2` is simply connected, a nontrivial multiple self-cover cannot remain regular
+everywhere. A repeated whole-sky self-image therefore requires critical/branch points. This
+statement is restricted to the `S^2` self-map case; different source topology or a partial sky must
+be classified separately.
+
+### 4.2 Several source/path branches arriving at one observer direction
+
+The metric may return a branch-labelled family
+
+```text
+{M_i(n) v(p_i)}_i.                                          (7)
+```
+
+That set is not yet a single observable. Summing, averaging, choosing, phase-combining, or assigning
+weights to its members requires an additional query/source/detector rule. No such owner is present
+in G68--G72.
+
+## 5. Caustic or fold limit
+
+At `det(D)=0`, the G72 regular response leaves its domain. The exact rank-one witness
+
+```text
+diag(1,0)(x1,x2)=(x1,0)                                     (8)
+```
+
+shows how geometry can collapse one source direction. The remaining amplitude `x1` is still source
+data. A caustic can therefore create strong geometric organization, but G72 supplies no rule for
+continuing, regularizing, combining, or measuring the branches across it.
+
+## 6. Complete G68 control replay
+
+All 21 frozen maps are regular. Independent direct SVD gives
+
+```text
+max chi                         0.0023238059699749714
+max singular-value ratio       1.0046584288394136
+max anisotropy gain            0.46584288394135864 percent.
+```
+
+For the strongest row, equation (5) changes the fractions inside the preregistered unoriented
+cones only from
+
+```text
+5 degrees:   0.0555555556 -> 0.0558130361
+15 degrees:  0.1666666667 -> 0.1674078470
+30 degrees:  0.3333333333 -> 0.3346160010.
+```
+
+So the registered stationary/equatorial G68 tile is weakly anisotropic, not strongly
+kaleidoscopic. This says nothing about a complete sky near the positional-dilation asymptote; G68
+does not sample that object.
+
+G68 azimuthal carry `psi` remains distinct from relative image rotation and is not used in this
+strength classification.
+
+## 7. The user's two physical possibilities both survive
+
+1. `UNIQUE_SOURCE_PLUS_UDT_RESPONSE`: the universe's actual nonhomogeneous mass/geometry field is
+   decisive, while UDT remaps and distorts its appearance. This is fully compatible with the exact
+   regular result.
+2. `ROBUST_GEOMETRIC_KALEIDOSCOPE`: many ordinary sources acquire common repeated or highly aligned
+   motifs because the global relation branches, folds, or becomes strongly anisotropic. This
+   remains a live but unselected global possibility.
+3. Intermediate regimes can preserve source-specific fine structure while geometry controls broad
+   organization.
+
+## 8. Exact boundary and next gate
+
+No seed ensemble can resolve the fork before the complete global relation map is supplied. On a
+regular bijective map, sampling more arbitrary seeds merely confirms exact invertibility. The next
+metric-led calculation is therefore the branch/critical atlas of a complete symbolic-scale
+observer-sky relation:
+
+- determine where the sky map is one-to-one, multi-covering, set-valued, or singular;
+- retain the complete angular sector and mixing;
+- keep the global scale symbolic;
+- do not use SNe, `X_max`, bootstrap, or CMB observations as selectors;
+- introduce source ensembles only after the relation topology and physical readout type are owned.
+
+The physical endpoint/profile/global scale, actual source distribution/statistics, detector rule,
+and TT/TE/EE/BB map remain `OPEN_NO_OWNER`.
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/OWNERSHIP_LEDGER.tsv" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+target	status	evidence	forbidden_promotion
+REGULAR_SOURCE_RECOVERY	DERIVED_EXACT	pointwise and finite-global inverse constructions	source universality or erasure
+STRONG_SHEAR_DIRECTIONAL_ALIGNMENT	DERIVED_ASYMPTOTIC_CONDITIONAL	exact tangent compression and angular-measure formula	physical regime selection
+SOURCE_AMPLITUDE_IN_STRONG_SHEAR	RETAINED_EXCEPT_COLLAPSED_COMPONENT	canonical singular-vector calculation	geometry creates amplitude
+GLOBAL_DUPLICATION_PATTERN	MATHEMATICAL_WITNESS_NOT_METRIC_OWNED	exact repeated-image matrix	UDT CMB kaleidoscope derived
+CAUSTIC_OR_FOLD_BRANCH	OPEN_NO_OWNER	G72 domain boundary only	regular G68 evidence of caustic
+MULTIBRANCH_COMBINATION_RULE	OPEN_NO_OWNER	branch-labelled response type	sum average phase weight or population
+G68_STRONG_KALEIDOSCOPE	NOT_OBSERVED_ON_BOUNDED_TILE	max singular-value ratio 1.0046584288394136	global no-go or physical-source ruling
+PHYSICAL_CMB_SOURCE_AND_OBSERVABLE	OPEN_NO_OWNER	G71 G72 boundaries	TT TE EE BB prediction
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/FALSIFICATION_CONTRACT.tsv" in /tmp/udt_g73_review_LNgXgAxi
+exec
+/bin/bash -c "sed -n '1,240p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+gate	failure_mutation	required_result
+G00	source_manifest_hash_drift	REJECT
+G01	regular_invertible_response_called_source_erasing	REJECT
+G02	strong_shear_limit_called_physically_selected	REJECT
+G03	caustic_or_fold_called_derived_from_regular_G68	REJECT
+G04	branch_family_summed_or_averaged_without_owner	REJECT
+G05	G68_called_strongly_kaleidoscopic	REJECT
+G06	G68_psi_identified_with_image_rotation	REJECT
+G07	physical_CMB_source_or_observable_promoted	REJECT
+G08	Xmax_SNe_or_bootstrap_used_as_selector	REJECT
+G09	missing_or_duplicate_G68_control	REJECT
+G10	unoriented_directional_limit_called_source_amplitude_independent	REJECT
+G11	global_nonconstant_sky_claimed_from_constant_scalar_pullback	REJECT
+
+ succeeded in 0ms:
+# G73 global-sky source-sensitivity atlas — audit report
+
+## Landing
+
+`REGULAR_SKY_RESPONSE_SOURCE_INVERTIBLE__ROBUST_KALEIDOSCOPE_REQUIRES_GLOBAL_BRANCHING_SINGULARITY_OR_SOURCE_RESTRICTION`
+
+## What was learned
+
+- A regular one-to-one sky relation plus pointwise invertible G72 response preserves arbitrary
+  source information exactly, even when its visual distortion is complicated.
+- Strong shear has a genuine geometry-dominated directional limit, while source amplitude remains.
+- A true repeated-image kaleidoscope requires a noninjective/global branch structure, critical or
+  fold behavior, or restricted source statistics.
+- A branch-labelled response family is not a summed physical observable without a combination law.
+- The unique-source interpretation remains fully viable: actual cosmic inhomogeneity can be
+  decisive while UDT frame response changes its appearance.
+
+## Bounded G68 result
+
+All 21 maps replay. Maximum shear is `0.0023238059699749714`, maximum singular-value ratio is
+`1.0046584288394136`, and maximum directional gain difference is `0.46584288394135864%`. These
+controls are weakly anisotropic, not a strong kaleidoscope. They do not sample a complete global
+sky or the asymptotic regime.
+
+## Verification
+
+- seven exact algebraic/global-map witnesses pass;
+- independent direct SVD reproduces every G68 row with maximum error `0.0`;
+- an independent 400,000-direction grid reproduces the analytic alignment fractions within
+  `2.153e-6`;
+- independent exact-Fraction ranks reproduce regular full rank, duplication, and rank loss;
+- all 9 semantic mutation catches pass.
+
+## Authority boundary
+
+No physical CMB source, source statistics, endpoint/profile, last-scattering surface, global scale,
+detector law, TT/TE/EE/BB observable, caustic continuation, branch weights, action, bootstrap law,
+or `X_max` value is supplied or derived.
+
+## Next gate
+
+Map the branch and critical structure of a complete symbolic-scale observer-sky relation before
+running source ensembles. Determine where it is bijective, repeated-image, set-valued, or singular
+without selecting the branch that resembles the CMB.
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G72_metric_screen_response_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+# G72 external-review adjudication
+
+Date: 2026-08-11
+
+External landing: `VERIFIED_AS_CONDITIONAL_RESPONSE`.
+
+Effective evidence state: `EXTERNALLY_VERIFIED_AS_CONDITIONAL_RESPONSE`.
+
+## Science adjudication
+
+The sealed reviewer upheld G72 without a mathematical or ownership correction. On one supplied,
+regular, calibrated observer-sky query, the same-query Jacobi map `D:S_s -> S_o` and metric screen
+isometry `U:S_s -> S_o` define
+
+```text
+M = U^-1 D : S_s -> S_s.
+```
+
+Endpoint gauge reduces to source-side conjugation. On the oriented positive-determinant regular
+stratum, the complete generic order-zero invariant set remains common response scale, dimensionless
+shear magnitude, and relative polar rotation modulo `2 pi`.
+
+The reviewer verified all `38/38` sealed hashes before source use and independently replayed the
+sealed exact, numerical, semantic, package, and scope checks. It reproduced:
+
+- formula-route maximum relative-angle gauge error `4.44e-16`;
+- independent SVD-route maximum relative-angle gauge error `6.66e-16`;
+- all `14/14` semantic mutations caught;
+- all `21` frozen G68 response maps;
+- maximum G68 shear `0.0023238059699749714`;
+- maximum G68 relative polar angle `3.549305994648684e-24`;
+- maximum saved azimuthal carry `|psi| = 0.12946143790625805`;
+- exact Jacobi-block noncomposition witness `D_total=5`, `D_2 D_1=6`.
+
+Thus `psi` is not hidden image polar rotation, and the endpoint Jacobi block is not itself the
+composable propagation object.
+
+## Exact scope emphasis
+
+The review adds no correction, but makes one boundary especially explicit. The zero/constant-source
+statement is a local order-zero response result: a zero input remains zero and a constant scalar
+input remains constant under that local response. It does not decide whether response data varying
+across a complete observer-sky query can define a nonconstant source-free geometric scalar field.
+That global question remains open and is the next bounded metric-led gate.
+
+## Status ledger
+
+- `DERIVED`: the same-query relative response and its generic oriented order-zero invariants.
+- `OBSERVED`: the bounded G68 replay values and numerical gauge checks.
+- `CHOSE_QUERY`: path, screens, orientation, affine calibration, and the analytic G68 control tile.
+- `CONDITIONAL`: regular positive-determinant/no-caustic stratum and common query typing.
+- `WORKING`: `X_max`, bootstrap, global-completion language, and co-presence semantics.
+- `OPEN`: physical CMB query, endpoint/profile, source state/population/normalization, detector
+  response, and TT/TE/EE/BB observable map.
+
+## Authority boundary
+
+This is a conditional geometric-response theorem, not a CMB prediction. It does not select or
+derive a physical sky source, endpoint, profile, global scale, spectrum, polarization law,
+coefficient, action, bootstrap law, `X_max` value, or local signalling law. SNe P1 remains only a
+future low-redshift compatibility bracket.
+
+## Next gate
+
+Preregister one complete symbolic-scale observer-sky construction and ask whether the metric-owned
+response data can define any nonconstant source-free scalar field across that sky. Do not fit a
+desired pattern or infer physical TT/polarization. If the global source-free field is still absent,
+the remaining missing joint is a native source/population or boundary/global-selection rule.
+
+exec
+/bin/bash -c "sed -n '1,260p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G72_metric_screen_response_join_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+# G72 exact derivation — metric screen-response join
+
+Date: 2026-08-11
+
+Primary landing:
+
+`METRIC_OWNS_SOURCE_FREE_SCREEN_RESPONSE__PHYSICAL_OBSERVABLE_OPEN`
+
+This is a conditional geometric response theorem on one supplied regular observer-sky query. It is
+not a physical CMB query, source, spectrum, polarization law, or prediction.
+
+## 1. Correctly typed screen data
+
+Let `S_s` and `S_o` be oriented positive-definite two-dimensional screen spaces at the source and
+observer ends of one supplied path/query. The complete metric conditionally owns:
+
+```text
+D:S_s -> S_o       finite Jacobi/image response,
+U:S_s -> S_o       metric screen isometry along the same supplied path.
+```
+
+Strictly, a null Jacobi map sends an initial transverse derivative/angle into endpoint separation.
+The comparison with `U` is therefore well typed only after the query supplies the source-screen
+metric, affine calibration, and identification used in the Jacobi initial condition. G68 does this
+by setting `P_B(0)=E_B` in its registered affine parameter. A positive rescaling of that affine
+parameter changes the common response scale but not shear ratio or polar angle.
+
+The result does not authorize combining a Jacobi map from one query with normal transport from a
+different pair immersion or path.
+
+## 2. Endpoint gauges and why one open transport has no angle
+
+In oriented orthonormal endpoint frames, let independent frame changes be
+
+```text
+R_s in SO(2),  R_o in SO(2).
+```
+
+Then
+
+```text
+D -> D' = R_o D R_s^-1,
+U -> U' = R_o U R_s^-1.                                      (1)
+```
+
+The displayed rotation angle of `U` changes by the independent source/observer frame angles. The
+left-right action is transitive on `SO(2)`, so no order-zero real angular scalar belongs to `U`
+alone on one unframed open path. This reproduces the banked open-path gauge result.
+
+## 3. The relative response is a new, correctly typed object
+
+Because `D` and `U` share both endpoints, define
+
+```text
+M = U^-1 D:S_s -> S_s.                                      (2)
+```
+
+Equation (1) gives
+
+```text
+M -> M' = R_s M R_s^-1.                                    (3)
+```
+
+The observer-end gauge has cancelled. The remaining source gauge acts by conjugation, not by
+independent left and right multiplication. That change of type is what permits relative angular
+information to survive.
+
+This is not a preferred path or physical query selector. It is the response assigned after the
+path/query has already been supplied.
+
+## 4. Exact polar response and its complete generic invariant set
+
+On the oriented regular stratum `det(M)>0`, write
+
+```text
+M = R(theta) P,
+P=(M^T M)^(1/2)>0,
+R(theta) in SO(2).                                           (4)
+```
+
+For
+
+```text
+M=[[a,b],[c,d]],
+q=a+d,
+p=c-b,
+z=sqrt(q^2+p^2),
+```
+
+the polar rotation is exactly
+
+```text
+R(theta)=(1/z)[[q,-p],[p,q]],
+theta=atan2(c-b,a+d).                                       (5)
+```
+
+If `det(M)>0`, `q` and `p` cannot vanish together. Direct symbolic calculation verifies
+
+```text
+R^T R=I,  det(R)=1,  P=R^T M=P^T,  RP=M.                   (6)
+```
+
+Diagonalize the positive factor as
+
+```text
+P=R(alpha) diag(ell exp(chi),ell exp(-chi)) R(alpha)^-1,
+ell>0, chi>=0.                                              (7)
+```
+
+Under source conjugation, `alpha` changes while rotations commute in two dimensions, so
+
+```text
+ell=sqrt(det M),
+chi=(1/2)log(s_max/s_min),
+theta modulo 2 pi                                           (8)
+```
+
+remain invariant. Conversely every positive-determinant `M` is conjugate to the canonical form
+
+```text
+R(theta) diag(ell exp(chi),ell exp(-chi)).                  (9)
+```
+
+Thus `(ell,chi,theta)` is a complete generic invariant set for the oriented order-zero pair
+`(D,U)` under independent endpoint frame gauges. The count agrees with the quotient dimension:
+`D` contributes four parameters, `U` one, and two endpoint rotations remove two, leaving three.
+
+At `chi=0` the shear axis is undefined but the invariants remain regular. If reflections are
+allowed, conjugation sends `theta -> -theta`; only its reflection orbit, for example `cos(theta)`,
+is unoriented scalar data.
+
+## 5. Tensor response versus a physical observable
+
+The positive factor also supplies a covariant source-side shear tensor
+
+```text
+Q_s = [log P]_TF.                                            (10)
+```
+
+Its eigenvalues are `(+chi,-chi)`. It transforms by source conjugation. An equivalent
+observer-side tensor can be formed from the positive factor of `D D^T`; its components rotate with
+the observer's chosen sky frame. These are genuine source-free geometric response tensors.
+
+They are not automatically temperature or polarization. A scalar source field is locally remapped
+by the observer-sky relation, but
+
+```text
+zero -> zero,
+constant -> constant.                                       (11)
+```
+
+Geometry can relocate, focus, or shear structure that exists; a pure pullback cannot populate a
+nonconstant scalar sky from absent or constant source data. Likewise any homogeneous tensor
+transport sends a zero orientation tensor to zero. To obtain physical TE/EE/BB, one must still
+specify which orientation-sensitive source/state exists and which tensor representation and
+measurement contraction define the observation. The metric can evaluate a declared tensor type;
+it does not thereby derive the source or choose the physical detector law.
+
+The absolute response scale `ell` is also dimensionful for the G68 Jacobi convention (initial
+angle/derivative to endpoint separation). Its logarithm needs an independently declared reference
+length. `c_E` calibrates clock length but does not by itself select the global endpoint or universe
+size. A later global completion or `X_max` construction could supply that reference; it is not
+owned here. The dimensionless shear `chi` and relative angle `theta` do not need that common-scale
+reference.
+
+## 6. G68 control replay
+
+G68 writes `D` in its registered parallel-transported endpoint screen, so `U=I` in that
+representation. Re-evaluating all `21` frozen maps gives
+
+```text
+rows                                      21
+max |relative polar angle|                3.549305994648684e-24
+max |new angle - saved polar rotation|    1.435469059354858e-20
+max shear magnitude                       0.0023238059699749714.
+```
+
+Thus the bounded stationary/equatorial controls carry nonzero source-free area and shear response,
+but no resolved image rotation. Their endpoint azimuthal coordinate carry `psi` reaches order
+`10^-1`; it is not the polar rotation of the Jacobi response. Therefore G72 does not retroactively
+turn the `psi` channel used in G69/G70 into a physical polarization or scalar-TT observable.
+
+General angular, non-equatorial, time-live, or globally completed queries may produce nonzero
+`theta`; that is open and must be calculated on those queries rather than inferred from `psi`.
+
+## 7. Why the endpoint Jacobi block is not a network functor
+
+The response `D` is one block of the full Jacobi transfer state. Even flat one-dimensional free
+propagation supplies the exact transfer
+
+```text
+T(L)=[[1,L],[0,1]].                                          (12)
+```
+
+For `L1=2`, `L2=3`,
+
+```text
+T(3)T(2)=T(5),
+D_total=5,
+D_2 D_1=6.                                                   (13)
+```
+
+The full transfer matrices compose; their upper-right endpoint blocks do not multiply. G72's
+response is therefore an endpoint evaluation on one supplied query, not a new groupoid arrow law.
+
+## 8. Independent verification
+
+The production route uses the closed two-dimensional polar formula and `512` random
+`SO(2)xSO(2)` endpoint-gauge trials. Maximum errors are
+
+```text
+M gauge covariance          1.175e-15
+common scale                6.661e-16
+shear                       6.217e-15
+relative angle              4.441e-16
+reflection angle            0
+source congruence replay    1.189e-14.
+```
+
+The independent route constructs positive-determinant maps from unrelated polar factors and uses
+SVD rather than equation (5). Across `1000` trials its maximum scale, shear, angle, and reflection
+errors are respectively
+
+```text
+4.441e-15, 5.551e-15, 6.661e-16, 0.
+```
+
+Every independently gauged raw open-path `U` angle changed, while every relative angle remained
+fixed. Both routes verify that zero source tensors remain zero. The exact rational transfer witness
+reproduces `D_total=5 != 6=D_2 D_1`.
+
+## 9. Domain boundaries
+
+- `det(D)=0`: Jacobi caustic; polar response is singular and no extension is asserted.
+- `det(D)<0`: parity-reversing branch; an `O(2)` polar factor exists but the oriented angle needs a
+  separate parity label.
+- missing screen orientation: only the reflection quotient of `theta` survives.
+- missing common source-screen/affine calibration: `U^-1 D` is not yet physically typed.
+- different paths: each path/query has its own response; no selector is supplied.
+- cut/focal locus: return the branch-labelled response family, not one preferred member.
+- absent global scale: keep `ell` dimensionful; do not manufacture a logarithmic scale.
+
+## 10. Exact ownership landing
+
+`DERIVED_CONDITIONAL_ON_QUERY`:
+
+- the relative response endomorphism `M=U^-1D`;
+- common response density/scale as a dimensionful geometric output;
+- dimensionless shear magnitude and covariant shear tensor;
+- relative polar rotation on an oriented regular query.
+
+`OPEN_NO_OWNER`:
+
+- the physical CMB observer query, endpoint, profile, and global scale;
+- source population, covariance, normalization, or polarization state;
+- the rule turning the geometric response into physical TT/TE/EE/BB;
+- a nonzero relative rotation on a complete physical CMB branch.
+
+The result strengthens the observer-effect route in one precise sense: the complete geometry can
+own a three-channel local screen response after a query is supplied. It simultaneously preserves
+
+exec
+/bin/bash -c "sed -n '261,340p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G72_metric_screen_response_join_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+G71's boundary: response is not source creation, physical query selection, or observation.
+
+codex
+I’ve cleared the high-level ownership and typing claims. Next I’m checking the frozen upstream controls and recomputing the G68 strength metrics directly from the frozen path matrices, because the dispatch explicitly forbids relying on the derived atlas alone.
+exec
+/bin/bash -c "sed -n '1,260p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt_g73_review_LNgXgAxi
+exec
+/bin/bash -c "sed -n '1,240p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G71_native_restriction_owner_audit_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+# G68 exact finite-path observer-sky Jacobi control atlas
+
+Date: 2026-08-11
+
+Primary landing: `FINITE_PATH_CONTROL_ATLAS_REGULAR_WITH_PROFILE_DEPENDENCE`
+
+Evidence grade after fresh sealed adversarial review:
+`VERIFIED_WITH_CAVEATS`
+
+## 1. Scope
+
+This is the complete result over the exact `21`-row analytic control universe frozen before any
+trajectory was inspected. It is not a function-space census and does not select a physical metric,
+profile, endpoint, CMB screen, or source.
+
+This is not a CMB prediction.
+
+In units `R=c_E=1`, the controls are
+
+```text
+ds^2 = -A(r)dt^2 + dr^2/A(r) + r^2(dtheta^2+sin^2(theta)dpsi^2)
+       + 2h(r)sin^2(theta)dt dpsi,
+
+A=1+a r^2,
+a in {-1/4,0,+1/4},
+h=epsilon r^2 f(r),
+f in {1,(1-r)^2,1-2r},
+epsilon in {1/20,1/5},
+```
+
+plus the matched `h=0` F01 rows. The query starts at `r=1/4`, `theta=pi/2`, with the G67
+future/outward null direction and parallel screen, and ends at the first outward crossing of
+`r=1`. The latter is a control surface, not `X_max` or last scattering.
+
+## 2. Full finite system
+
+For each supplied profile, the production code constructs the metric, its analytic first and
+second derivatives, the full Levi-Civita connection, and
+
+```text
+R^rho_(sigma mu nu)
+ = partial_mu Gamma^rho_(nu sigma)-partial_nu Gamma^rho_(mu sigma)
+   +Gamma^rho_(mu lambda)Gamma^lambda_(nu sigma)
+   -Gamma^rho_(nu lambda)Gamma^lambda_(mu sigma).
+```
+
+It integrates, without a local Taylor replacement,
+
+```text
+dx^rho/ds = k^rho,
+dk^rho/ds = -Gamma^rho_(mu nu) k^mu k^nu,
+dE_A^rho/ds = -Gamma^rho_(mu nu) k^mu E_A^nu,
+dJ_B^rho/ds = P_B^rho-Gamma^rho_(mu nu)k^mu J_B^nu,
+dP_B^rho/ds = -Gamma^rho_(mu nu)k^mu P_B^nu
+              -R^rho_(sigma mu nu)k^sigma J_B^mu k^nu,
+```
+
+with `J_B(0)=0`, `P_B(0)=E_B`. The finite screen map and its covariant derivative are
+
+```text
+D_AB = g(E_A,J_B),
+Ddot_AB = g(E_A,P_B).
+```
+
+The local connection/Riemann engine reproduces the exact G67 `T_F01=0` and full F02 `tau`
+polynomial on all `21/21` initial jets before finite integration.
+
+## 3. Complete outcome census
+
+All `21/21` registered IVPs reached `r=1`:
+
+```text
+ENDPOINT_REGULAR_NO_CAUSTIC = 21
+turning events               = 0
+post-origin Jacobi caustics  = 0
+solver/regularity failures   = 0
+```
+
+This is a result only for the bounded analytic ensemble and fixed equatorial outward query. It is
+not a theorem that F02 or the complete UDT metric has no turning, caustic, cut, or alternate branch.
+
+The minimum sampled lapse is `0.75`; the minimum sampled regular `t-psi` block quantity
+`A r^2+h^2 sin^2(theta)` is `0.0615234375`.
+
+## 4. F01 exact controls
+
+For all three F01 lapse profiles, stationarity and nullity give constant outward radial derivative
+
+```text
+dr/ds=sqrt(A(r0)).
+```
+
+Therefore
+
+```text
+s_end = (1-1/4)/sqrt(A(1/4)),
+D_end = s_end I.
+```
+
+The three numerical maps reproduce this result with maximum registered relative error
+`8.08e-15`.
+
+## 5. Finite F02 structure in the frozen ensemble
+
+Every F02 endpoint map is diagonal within numerical error in the parallel transported registered
+screen. Across the 18 rows:
+
+```text
+matched-F01 fractional area change:
+    -5.8161423988e-5  to  +1.1444462381e-2
+
+diagonal anisotropy (D_theta_theta-D_psi_psi)/mean diagonal:
+    +1.7322331460e-5  to  +4.6476035742e-3
+
+endpoint azimuthal carry psi:
+    -1.2946143791e-1  to  +6.6524950428e-2
+
+max endpoint antisymmetric-map norm: 3.81e-24
+max polar rotation magnitude:         1.44e-20.
+```
+
+The persistent-mixing controls have positive area change, the endpoint-tapered controls have small
+negative area change, and the sign-changing controls have positive area change in all three lapse
+families at both registered amplitudes. Thus the finite area correction is not owned by local
+mixing amplitude alone; it reads the complete profile history. A one-axis shear survives every
+nonzero registered F02 row, while no finite screen rotation appears on this equatorial stationary
+control query.
+
+That zero-rotation observation is not a general polarization result. Non-equatorial screens,
+general angular structure, time-live geometry, path holonomy, and spin-sensitive source/state data
+remain outside this slice.
+
+## 6. Weak mixing and reflection
+
+For all nine lapse/shape pairs, auxiliary endpoint-map errors relative to matched F01 decrease when
+`epsilon` is halved from `1e-2` to `5e-3`. The large/small error ratios lie between
+
+```text
+3.9998673827 and 3.9999959216.
+```
+
+Thus the finite map approaches F01 quadratically throughout this auxiliary ensemble, matching the
+local G67 parity result without imposing a fitted exponent.
+
+For every `18/18` F02 row, the complete negative-mixing run obeys the coordinate reflection
+`psi -> -psi` and screen conjugation
+
+```text
+D(-h)=S D(+h) S,  S=diag(1,-1),
+```
+
+with maximum coordinate discrepancy `2.67e-15` and maximum map discrepancy `3.36e-15` relative.
+
+## 7. Numerical and independent evidence
+
+Maximum production residuals across the complete registered universe are
+
+```text
+null                         1.49e-15
+screen Gram                  7.55e-15
+screen-ray orthogonality     2.50e-16
+Jacobi Wronskian             2.77e-33
+optical-tidal antisymmetry   6.69e-32
+stationary p_t conservation  1.67e-15
+axial p_psi conservation     1.93e-16.
+```
+
+The maximum endpoint-map disagreement is `1.05e-14` between production/refined DOP853 and
+`1.48e-14` between refined DOP853 and RK45.
+
+The independent verifier does not construct Riemann or integrate the Jacobi equation. It uses a
+separate direct-loop Christoffel implementation and central finite differences of null geodesic
+families for both screen directions at both preregistered deltas on all `21/21` rows. Its maximum
+fine-delta disagreement with the production Jacobi map is `8.93e-11`; coarse/fine bundle
+disagreement is `1.78e-10`.
+
+This is a strong cross-check of the endpoint Jacobi columns, but not fully separate verification of
+screen transport or endpoint selection. It shares the declared metric/query, float64 arithmetic,
+SciPy, analytic profile ensemble, production endpoint affine time, and production endpoint screen
+basis used for projection.
+
+The caustic detector searches for sign changes of `det(D)` and could in principle miss an
+even-multiplicity tangential zero. The sealed controls do not approach that ambiguity: fresh hostile
+dense sampling found `dr/ds >= 0.9654696034` and post-origin
+`sigma_min(D) >= 1.4884168151e-4` throughout all `21` rows.
+
+## 8. What changed—and what did not
+
+The local sky-map result now extends to an explicit finite map for every member of one complete
+control ensemble. It demonstrates that the angular/mixing sector can accumulate into profile-
+dependent area, shear, and azimuthal carry even when the local and finite screen-rotation channels
+remain zero on this query.
+
+The observer-sky Jacobi map is therefore a viable geometric replacement for an unexplained affine
+projection *once* a physical profile, endpoint, and source scale are supplied. This calculation
+does not supply those objects. It also does not produce the historical mode-ladder offset, TT
+power, peak heights, or polarization.
+
+## 9. Completeness and maximum conclusion
+
+This is one stationary/equatorial observer-query tile. It keeps all four spacetime coordinates in
+the geodesic/bundle calculation, all complete F02 mixing terms, and every preregistered profile
+outcome. It does not solve a native action, field equation, source, boundary selection, topology,
+time-live history, physical branch selection, or stability problem.
+
+`FINITE_PATH_CONTROL_ATLAS_REGULAR_WITH_PROFILE_DEPENDENCE` is therefore the maximum bounded
+landing. No physical F01/F02 selection, CMB scale, last-scattering surface, peak prediction,
+polarization result, local signal law, `X_max` value, action, source, bootstrap result, or dynamics
+follows.
+
+ succeeded in 0ms:
+# G71 external-review adjudication
+
+Date: 2026-08-11
+
+External landing: `VERIFIED_WITH_CAVEATS`.
+
+Effective evidence state:
+`EXTERNALLY_VERIFIED_WITH_LITERAL_CITATION_CAVEAT_CLOSED_LOCALLY`.
+
+## Science adjudication
+
+The reviewer upheld the scientific landing without changing any of the six target statuses:
+
+```text
+SOURCE_SHAPE_OWNER          OPEN_NO_OWNER
+SOURCE_NORMALIZATION_OWNER  OPEN_NO_OWNER
+PHYSICAL_ENDPOINT_OWNER     OPEN_NO_OWNER
+PHYSICAL_PROFILE_OWNER      OPEN_NO_OWNER
+GEOMETRIC_CARRY_OWNER       DERIVED_CONDITIONAL_ON_QUERY
+OBSERVABLE_CARRY_OWNER      OPEN_NO_OWNER
+```
+
+It independently verified all `44/44` sealed hashes before source use, reconstructed the exact
+21-source/six-target census, replayed 12 exact fraction congruence trials, 200 numerical positive-
+definite trials, and 13/13 semantic mutations. It found no overlooked source, endpoint, profile,
+global selector, or observation-level carry owner in the frozen source universe.
+
+The exact algebra remains unchanged: unrestricted positive-definite source covariance can absorb
+any invertible local screen map, and a positive common amplitude shifts the trace/log-area
+coordinate without changing normalized logarithmic shape.
+
+## Review caveat and correction layer
+
+The six target-ledger evidence tokens are literal and verified. The reviewer correctly observed
+that the original 21 `SOURCE_TARGET_ATLAS.tsv` `decisive_evidence` values are descriptive
+paraphrases, not literal citations. That reviewed atlas remains byte-identical.
+
+`SOURCE_TARGET_LITERAL_CITATION_OVERLAY.tsv` is the additions-only correction. It repeats all 21
+source identities and all six status fields exactly, then supplies one literal source token and
+exact line number per row. Verification passes 9/9, and eight exercised mutations reject missing or
+duplicate sources, nonliteral tokens, wrong lines/sources, role drift, and status promotion.
+
+This closes the evidence-hygiene caveat without changing the science.
+
+## Exact status ledger
+
+- `DERIVED`: source-congruence freedom; amplitude/shape separation; screen map and carry after a
+  path, screen, endpoint/profile, and query are supplied.
+- `OBSERVED`: bounded G68--G70 numerical controls and solved-path coexistence.
+- `CHOSE_CONTROL`: G68 endpoint/profile family; G70 source/normalization controls; screens,
+  thresholds, and sensitivity centers.
+- `CONDITIONAL`: G70 R05 sufficiency; SNe P1 low-redshift compatibility; any physical use of carry.
+- `WORKING`: `X_max`, bootstrap, global-completion language, and co-presence semantics.
+- `OPEN`: native source shape/normalization, physical CMB endpoint/profile, and observation-level
+  carry readout.
+
+## Authority boundary
+
+This is a source-bounded ownership result, not a universal no-go. It does not select a source,
+last-scattering surface, profile, spectrum, polarization law, coefficient, action, bootstrap law,
+`X_max` value, local signal law, or CMB model. The protected stopped draft was absent from the
+sealed intake and remains unread and unstaged in the live checkout.
+
+## Next gate
+
+Do not repeat the inverse-rank scan. The next bounded derivation must target one missing typed map
+directly. The closest metric-led candidate is the observation/response join: determine whether a
+complete observer-sky query plus metric-owned screen transport can derive an orientation-sensitive
+response without supplying a spin-sensitive source or desired CMB outcome. If it cannot, retain the
+observation owner as open and route separately to native source/global-selection work.
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_ATLAS.tsv" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+profile_id	family	lapse_a	mix_shape	mix_epsilon	status	affine_final	endpoint_psi	D_theta_theta	D_theta_psi	D_psi_theta	D_psi_psi	det_D	area_change_vs_matched_F01	diagonal_anisotropy	polar_rotation	first_caustic_affine	turning_count	max_null	max_gram	max_wronskian	refined_D_relative	second_method_D_relative
+G68_F01_AM	F01	-0.25	ZERO	0.0	ENDPOINT_REGULAR_NO_CAUSTIC	0.75592894601845106	0	0.75592894601845717	0	0	0.75592894601845717	0.5714285714285755	0	0	0	NONE	0	9.0090091403724352e-16	7.5495165674510645e-15	0	6.3153541493985602e-15	1.4540001413731566e-14
+G68_F01_A0	F01	0.0	ZERO	0.0	ENDPOINT_REGULAR_NO_CAUSTIC	0.75	0	0.75000000000000067	0	0	0.75000000000000067	0.562500000000001	0	0	0	NONE	0	0	1.3322676295501878e-15	0	9.3258734068513055e-15	1.2582527612418548e-14
+G68_F01_AP	F01	0.25	ZERO	0.0	ENDPOINT_REGULAR_NO_CAUSTIC	0.74420840753524831	0	0.74420840753525386	0	0	0.74420840753525386	0.55384615384615854	0	0	0	NONE	0	5.8248266954944225e-16	7.5495165674510645e-15	0	1.0442721546394178e-14	9.5476311281319205e-15
+G68_F02_AM_P05	F02	-0.25	PERSISTENT	0.05	ENDPOINT_REGULAR_NO_CAUSTIC	0.75631329051476481	-0.032810701080796326	0.75631329051476448	1.7357242139738201e-22	1.7357242064484863e-22	0.75608999641113195	0.57184091311099972	0.00072159794424231372	0.00029528381161667336	2.29498043762673e-22	NONE	0	4.5233319484091665e-16	2.1094237467877974e-15	5.0348774034420219e-34	1.6642714842969193e-15	1.0817640113279874e-14
+G68_F02_AM_P20	F02	-0.25	PERSISTENT	0.2	ENDPOINT_REGULAR_NO_CAUSTIC	0.76201095021526799	-0.12946143790625805	0.76201095021526877	1.0938437256521141e-20	1.0938425554758552e-20	0.75847763612111185	0.57796826421767922	0.011444462380931331	0.0046476035741517003	1.4354682897494368e-20	NONE	0	6.485461576840274e-16	2.2204460492503131e-15	2.7685242950566515e-33	1.0377711125909096e-15	1.1648494155465381e-14
+G68_F02_AM_T05	F02	-0.25	TAPERED	0.05	ENDPOINT_REGULAR_NO_CAUSTIC	0.7559303993762726	-0.0020804830587823745	0.75593593286440064	3.9492076338171504e-24	3.9492050850069634e-24	0.75592101013817348	0.57142785397060025	-1.2555514566914283e-06	1.9740923632001178e-05	5.2242589792531659e-24	NONE	0	4.5618120219310967e-16	4.1078251911130792e-15	2.4533669127615036e-34	2.5712527321682181e-15	1.2007815063339172e-14
+G68_F02_AM_T20	F02	-0.25	TAPERED	0.2	ENDPOINT_REGULAR_NO_CAUSTIC	0.75595218804785269	-0.0083161713161907479	0.75604065866130132	2.5248006672648473e-22	2.5247746013201369e-22	0.75580203043834682	0.57141706491015665	-2.0136407232973497e-05	0.00031567864127003535	3.3394693425492225e-22	NONE	0	1.10952701845966e-15	2.886579864025407e-15	1.4609984187500047e-33	7.5606050653133335e-16	1.308464083681024e-14
+G68_F02_AM_S05	F02	-0.25	SIGN_CHANGING	0.05	ENDPOINT_REGULAR_NO_CAUSTIC	0.756154529892478	0.016773993105072989	0.75604433029653018	1.594478221464856e-22	1.5945323115561806e-22	0.75596085666905311	0.57153991961074546	0.00019485931879748009	0.00011041447237967832	2.109046054125933e-22	NONE	0	5.5260909493037049e-16	3.7747582837255322e-15	4.0540449171159052e-34	1.8720335443219456e-15	1.3479441509712491e-14
+G68_F02_AM_S20	F02	-0.25	SIGN_CHANGING	0.2	ENDPOINT_REGULAR_NO_CAUSTIC	0.75951956863091485	0.06652495042843086	0.7577633590998194	1.0011645430800513e-20	1.0017019783308672e-20	0.75643477322860919	0.57319855470162095	0.0030974707278295099	0.0017548375511033042	1.3219192592273573e-20	NONE	0	5.8128719191113845e-16	1.5543122344752192e-15	2.094448814521119e-33	1.8548865130336051e-15	5.1575352147376515e-15
+G68_F02_A0_P05	F02	0.0	PERSISTENT	0.05	ENDPOINT_REGULAR_NO_CAUSTIC	0.75030742310164711	-0.028103463733203427	0.750307423101646	1.3442309325065373e-22	1.3442309287038091e-22	0.75013175092539941	0.56282942102356215	0.00058563737521977188	0.00023416101003961393	1.7915735434776618e-22	NONE	0	6.3021591593920562e-16	3.3306690738754696e-15	5.1190427989608976e-34	2.8175772603319795e-15	1.1294572382740514e-14
+G68_F02_A0_P20	F02	0.0	PERSISTENT	0.2	ENDPOINT_REGULAR_NO_CAUSTIC	0.75487283170834862	-0.11114457162109471	0.75487283170834751	8.4890767621025909e-21	8.489070802253276e-21	0.75208786715154474	0.56773069797017806	0.0092990186136481245	0.0036961342905754173	1.12456965540033e-20	NONE	0	3.6051657017726505e-16	3.1086244689504383e-15	1.7243091533341971e-33	1.4171258627139773e-15	8.7673805382570102e-15
+G68_F02_A0_T05	F02	0.0	TAPERED	0.05	ENDPOINT_REGULAR_NO_CAUSTIC	0.75000128006376665	-0.0017577287194551683	0.75000593528034576	3.5428699148966393e-24	3.5428681436481165e-24	0.74999211652888875	0.56249853881013534	-2.5976708722952324e-06	1.8425025872985517e-05	4.7237868088654829e-24	NONE	0	3.969725425544393e-16	1.5543122344752192e-15	1.4865228092101721e-34	1.2734015974035147e-15	1.4702733158710351e-14
+G68_F02_A0_T20	F02	0.0	TAPERED	0.2	ENDPOINT_REGULAR_NO_CAUSTIC	0.7500204715118558	-0.0070258915745152152	0.75009490039990923	2.2651184574668505e-22	2.2651003368260254e-22	0.74987392140026476	0.56247660438522096	-4.1592204053420012e-05	0.00029464479052205249	3.0197516815784227e-22	NONE	0	6.3966874803807663e-16	2.9976021664879227e-15	7.0774163874308286e-34	1.277721272085127e-15	1.2458084733828295e-14
+G68_F02_A0_S05	F02	0.0	SIGN_CHANGING	0.05	ENDPOINT_REGULAR_NO_CAUSTIC	0.75018232795308459	0.014056536539541352	0.75008854918258949	1.1424836782848396e-22	1.142519273729764e-22	0.7500196227659871	0.56258113069901239	0.00014423235379812382	9.1895261810161224e-05	1.5231791966092892e-22	NONE	0	5.5378809276067536e-16	2.886579864025407e-15	5.1938042396731951e-34	2.0563465298754588e-15	1.2459125928025157e-14
+G68_F02_A0_S20	F02	0.0	SIGN_CHANGING	0.2	ENDPOINT_REGULAR_NO_CAUSTIC	0.75290660090662476	0.055875241167844293	0.75141046209978413	7.2123199050486923e-21	7.2158885441962321e-21	0.7503112877670598	0.56379175145973059	0.002296447039519256	0.0014638854805449693	9.6031249339166023e-21	NONE	0	5.1301116474902214e-16	2.2204460492503131e-15	1.1074097180226606e-33	3.3062496277636295e-16	9.907721921701403e-15
+G68_F02_AP_P05	F02	0.25	PERSISTENT	0.05	ENDPOINT_REGULAR_NO_CAUSTIC	0.7444630607298629	-0.024682118495035137	0.74446306072986412	1.0835745873951136e-22	1.0835745852409737e-22	0.74431924188549159	0.55411818097420518	0.00049116009230631974	0.00019320332344075611	1.4555115524182598e-22	NONE	0	7.4115487141035159e-16	3.1086244689504383e-15	2.8181301566613521e-34	1.0857928078496339e-15	1.3722160889747195e-14
+G68_F02_AP_P20	F02	0.25	PERSISTENT	0.2	ENDPOINT_REGULAR_NO_CAUSTIC	0.74824918895444781	-0.097760398603668211	0.74824918895444814	6.8526342929884053e-21	6.8526309118182974e-21	0.74596641041800271	0.55816876158253148	0.0078047084128956001	0.0030554874911012352	9.1582203001030862e-21	NONE	0	4.074916646681938e-16	1.7763568394002505e-15	1.2548637293898084e-33	1.1606235275180058e-15	7.2167953981495935e-15
+G68_F02_AP_T05	F02	0.25	TAPERED	0.05	ENDPOINT_REGULAR_NO_CAUSTIC	0.74420956711039499	-0.0014919613803624399	0.74421350099060501	3.213490935324269e-24	3.2134897959440455e-24	0.74420060958931866	0.55384414110180924	-3.634121741757923e-06	1.7322331459662849e-05	4.317967615028006e-24	NONE	0	6.4950383666101813e-16	3.5527136788005009e-15	4.0791049873074978e-34	1.2833121519798193e-15	1.1432151195847175e-14
+G68_F02_AP_T20	F02	0.25	TAPERED	0.2	ENDPOINT_REGULAR_NO_CAUSTIC	0.74422695296172503	-0.0059634304339565266	0.74428984894094841	2.0546135636758728e-22	2.0546019069624292e-22	0.7440836955565141	0.55381394136518047	-5.8161423988178917e-05	0.00027701834018275363	2.7604862673942506e-22	NONE	0	8.1872899332961235e-16	1.4432899320127035e-15	7.136191104971943e-34	2.2821080770870868e-15	8.4557054772379987e-15
+G68_F02_AP_S05	F02	0.25	SIGN_CHANGING	0.05	ENDPOINT_REGULAR_NO_CAUSTIC	0.74436234321139061	0.012209984053534552	0.74428026401710645	8.7590557789934816e-23	8.7593098619108221e-23	0.74422014850442697	0.55390836861572501	0.00011233222282824862	8.0773256323987759e-05	1.1768832636558394e-22	NONE	0	8.2271913289505123e-16	4.4408920985006262e-15	1.8741053371953583e-34	3.3572291909240879e-15	1.1942256684017659e-14
+G68_F02_AP_S20	F02	0.25	SIGN_CHANGING	0.2	ENDPOINT_REGULAR_NO_CAUSTIC	0.74666471226223363	0.048603011399510537	0.74535429374873752	5.5475471284935097e-21	5.5501076141156863e-21	0.74439458597695163	0.55483770090123463	0.0017902932938873573	0.0012884154971978933	7.4462677154532547e-21	NONE	0	1.4801805964645761e-15	2.6645352591003757e-15	1.236808136161178e-33	1.8764703265789456e-15	7.7196379624987561e-15
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G72_metric_screen_response_join_2026-08-11/G68_RESPONSE_ATLAS.tsv" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+profile_id	family	status	length_scale	shear_magnitude	relative_polar_angle	endpoint_azimuthal_carry_psi	interpretation
+G68_F01_AM	F01	ENDPOINT_REGULAR_NO_CAUSTIC	0.75592894601845717	0	0	0	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F01_A0	F01	ENDPOINT_REGULAR_NO_CAUSTIC	0.75000000000000067	0	0	0	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F01_AP	F01	ENDPOINT_REGULAR_NO_CAUSTIC	0.74420840753525386	0	0	0	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AM_P05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75620163522105643	0.00014764190688109106	-4.9757454727106651e-31	-0.032810701080796326	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AM_P20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.76024224048501754	0.0023238059699749714	-7.6960542122196643e-27	-0.12946143790625805	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AM_T05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75592847146446351	9.8704618162950954e-06	-1.6858805317222881e-30	-0.0020804830587823745	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AM_T20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75592133513359483	0.00015783932194576343	-1.7241175221681138e-27	-0.0083161713161907479	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AM_S05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75600259233070455	5.5207236245970325e-05	3.5773747200616517e-27	0.016773993105072989	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AM_S20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75709877473261111	0.00087741900071606723	3.5493059946486842e-24	0.06652495042843086	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_A0_P05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75021958187157589	0.00011708050555480179	-2.5344101163292803e-31	-0.028103463733203427	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_A0_P20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75347906272847298	0.0018480692492253757	-3.9548803889779336e-27	-0.11114457162109471	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_A0_T05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74999902587279099	9.2125129367015489e-06	-1.180833882205649e-30	-0.0017577287194551683	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_A0_T20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74998440276129807	0.00014732239632680655	-1.2080678319250393e-27	-0.0070258915745152152	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_A0_S05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75005408518253691	4.5947630937397562e-05	2.3728585438053272e-27	0.014056536539541352	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_A0_S20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75086067380022681	0.00073194287098289374	2.3763650941702669e-24	0.055875241167844293	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AP_P05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74439114783439297	9.660166202085924e-05	-1.4469139938552062e-31	-0.024682118495035137	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AP_P20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74710692781055876	0.0015277449341372785	-2.2628395188561561e-27	-0.097760398603668211	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AP_T05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74420705526204822	8.6611657300522104e-06	-7.6549947714562223e-31	-0.0014919613803624399	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AP_T20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74418676511019766	0.00013850917097716665	-7.8318467072545475e-28	-0.0059634304339565266	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AP_S05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74425020565380096	4.0386628183758377e-05	1.7069724348283777e-27	0.012209984053534552	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+G68_F02_AP_S20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74487428530003275	0.0006442078377151795	1.7187363971357016e-24	0.048603011399510537	GEOMETRIC_RESPONSE_ON_SUPPLIED_CONTROL_QUERY
+
+codex
+The frozen G68 controls match the package’s stated regime: all rows are regular and the saved response atlas is weakly anisotropic. I’m now checking the remaining scope guards and independently recomputing the 21 singular-value diagnostics from `FINITE_PATH_ATLAS.tsv` rather than accepting the packaged replay at face value.
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv" in /tmp/udt_g73_review_LNgXgAxi
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+observable	definition	endpoint_pair	screen_Jacobi	ambient_transport	normal_transport	operator_modes	source_population	maximum_status
+FD1_RA2_AFFINE_TT_POSITION_DIAGNOSTIC	fit_conditional_scalar_frequencies_to_seven_attributed_TT_peak_locations	NOT_OWNED	REPLACED_BY_TWO_FITTED_AFFINE_FREEDOMS	NOT_READ	NOT_READ	C0_CONDITIONAL_10080_ROOT_ATLAS	ABSENT	ATTRIBUTED_COMPATIBILITY_ONLY
+PHYSICAL_TT_PEAK_POSITIONS	local_maxima_of_observed_scalar_angular_power_spectrum	REQUIRED_CONTEXT_NOT_SUFFICIENT	REQUIRED_FOR_NATIVE_REMOTE_TO_SKY_MAP	CONDITIONAL_NOT_DIRECT_SCALAR_ROTATION_READ	PURE_SO2_ROTATION_NOT_DIRECTLY_READ_BY_SCALAR_TT	REQUIRED_IF_CAVITY_MODE_INTERPRETATION_IS_USED	REQUIRED_TO_DECIDE_WHICH_MODES_FORM_PEAKS	OPEN
+PHYSICAL_TT_HEIGHTS_AND_OVERALL_AMPLITUDE	nonzero_values_of_observed_scalar_angular_power	REQUIRED_CONTEXT_NOT_SUFFICIENT	REQUIRED_FOR_ANGULAR_MAP	CONDITIONAL_RESPONSE_CONTEXT	NOT_DIRECT_FOR_SCALAR_TT	NOT_SUFFICIENT	REQUIRED_WITH_NORMALIZATION	OPEN_SOURCE_SIDE
+PHYSICAL_TE_EE_BB_POLARIZATION	orientation_sensitive_angular_correlations	REQUIRED_CONTEXT_NOT_SUFFICIENT	REQUIRED	REQUIRED_OR_EQUIVALENT_CARRY	REQUIRED_OR_EQUIVALENT_SCREEN_CONNECTION	SCALAR_OPERATOR_INSUFFICIENT	REQUIRED_SPIN_SENSITIVE_SOURCE	OPEN
+
+ succeeded in 0ms:
+# Complete CMB observation-query map — exact derivation
+
+## 1. The observed object and the theory-side object are different types
+
+The observational TT object can be represented, without importing a cosmological dynamics, as a
+real scalar field on the observer's celestial screen,
+
+```text
+Theta(n) = T(n)/T_bar - 1,
+a_lm = integral Theta(n) conjugate(Y_lm(n)) dOmega,
+C_l^TT = (1/(2l+1)) sum_m |a_lm|^2.
+```
+
+This is an `OBSERVED/COMPARISON` definition of the reported angular statistic. It does not say
+what produced `Theta`, how a comparison structure is related to the observer's sky, or which UDT
+geometry is physical.
+
+A UDT-native prediction of that object would require, at minimum, the following typed chain:
+
+```text
+ordered observer-sky query
+    -> one or more regular relation realizations
+    -> terminal pair state plus screen map and allowed transport
+    -> conditional/native response or mode structure
+    -> state/source covariance and normalization
+    -> scalar sky field or its covariance
+    -> C_l^TT and its peak positions/heights.
+```
+
+The arrows mean typed dependency, not material signal travel. This audit remains entirely about
+inter-observational-frame relations in a co-present geometry. Local calibration remains `c_E`.
+
+## 2. Exact separation of spectrum and power
+
+Let a conditional operator supply modes `e_j` with spectral locations `omega_j`. A scalar sky field
+expanded in their projected images has coefficients `a_j`. Its quadratic power reads the second
+moments `E[a_j conjugate(a_k)]`, not merely `omega_j`.
+
+Hold the operator and spectrum fixed. Three admissible algebraic covariance assignments are
+
+```text
+W_A = diag(1,0,1,0),
+W_B = diag(0,1,0,1),
+W_0 = 0.
+```
+
+They produce different nonzero mode supports, and the last produces no power at all, while the
+spectrum is identical. Therefore:
+
+```text
+mode existence does not derive nonzero angular power;
+the spectrum alone does not identify which modes form observed peaks;
+peak heights and overall amplitude require additional state/source information.
+```
+
+`verify_spectrum_power_nonuniqueness.py` checks this finite countermodel exactly. It is not a
+physical source model; it is a type/no-uniqueness proof.
+
+## 3. What the historical CMB calculation actually read
+
+The corrected F00 atlas owns `10,080` roots of a `CHOSE` stationary equatorial scalar operator,
+conditioned on the P1 shape family, sampled mixing, real `m=-1,0,+1`, and free D/N wall
+representatives. The attributed phase then fit each ladder to seven published TT peak locations
+with two affine freedoms.
+
+Consequently its map is
+
+```text
+conditional C0 scalar roots
+    -> two-parameter affine location comparison
+    -> attributed TT position residuals.
+```
+
+It did not construct the physical CMB observer query, a screen/Jacobi map, a native response
+kernel, a state covariance, peak power, or polarization. The result remains a compatibility
+diagnostic. The corrected three-ladder atlas also withdraws the earlier centered-multiplet reading.
+
+## 4. Complete-query channel typing
+
+Once a regular pair immersion `F` is supplied, the metric owns
+
+```text
+h = F* g,
+kappa_pair = (1/4) log(-det h),
+phi_pair = (1/4) log((-det h)/h_00^2),
+beta_pair = h_01/h_00.
+```
+
+The conditional pair cone then has
+
+```text
+c_eff^(pair)/c_E = exp(-2 phi_pair).
+```
+
+This is an inter-observer readout, not a local material speed. It does not by itself create a
+celestial angular map. That requires a screen Jacobi map or a mathematically equivalent component
+of the actual query realization. Ambient transport exists after a path is supplied. Normal/screen
+transport exists after a pair immersion is supplied.
+
+For a scalar TT observable, a pure `SO(2)` rotation of the screen basis does not alter the scalar
+temperature value. Therefore normal holonomy is not a direct scalar-TT modulation merely because
+it exists. An orientation-sensitive polarization field is different: it requires a screen-frame
+carry or equivalent connection and a spin-sensitive source/statistical rule. The runnable finite
+check records this distinction without claiming a polarization dynamics.
+
+## 5. Exact family census
+
+The frozen `F00`--`F17` universe is reproduced one-for-one in
+`FAMILY_REALIZATION_ATLAS.tsv`.
+
+- `F00` is the incomplete equatorial control and the only family with the historical attributed
+  position diagnostic.
+- `F01` is the round `SO(3)` local control.
+- `F02` is the conditional axis-regular C1 screen; its `15,420` coupling-matrix elements are banked,
+  but no eigenvalue solve or physical profile is selected.
+- `F03`--`F04` are general screen envelopes without selected profiles.
+- `F05`--`F14` are conditional S3 controls that may not be spliced into the WR-L radial background.
+- `F15` is the degenerate no-inverse control.
+- `F16` is the global non-toric availability countercontrol.
+- `F17` is the general positive-screen algebra envelope, not a physical completion.
+
+None of these ambient-geometry families supplies a physical CMB observer-pair query or pair
+immersion. Hence none currently owns the terminal pair state, observer-sky Jacobi map, same-query
+ambient/normal transports, source covariance, TT power prediction, or polarization prediction.
+This is not evidence that such a realization does not exist. It is an ownership result over the
+frozen registered universe.
+
+## 6. What does and does not follow
+
+The complete metric has much richer angular structure than the old equatorial slice: generic
+screens mix `ell`, may mix `m`, and contain a shift-divergence term absent from the axial shortcut.
+That structure remains live. But its existence is not yet a rule selecting a physical screen,
+population, or observed peak.
+
+The low-redshift P1 SNe result travels only as a compatibility anchor after a CMB pair profile is
+constructed. It cannot be copied into a centered CMB lapse. `X_max` travels only as the working
+observer-pair positional-dilation asymptote. It is not a local wall, a boundary condition, a path,
+or a family selector.
+
+## 7. Smallest next calculation
+
+The next calculation should construct one identical, explicit observer-sky query protocol on each
+of two nonphysical controls:
+
+1. the round `F01` geometry;
+2. the axis-regular mixing-on `F02` geometry.
+
+For each, derive the query's pair immersion/correspondence and screen Jacobi map from the same
+metric realization before any eigenvalue solve. The comparison is a control pair, not a contest to
+choose the universe. It will test which old affine projection freedom is replaced by geometry and
+which freedom remains query- or source-owned. Only after that map exists can FD2 be reformulated
+without postselecting a ladder.
+
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/CURRENT_SCIENTIFIC_PREMISES.tsv" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+premise_id	term	current_status	epistemic_label	active_use	open_scope	forbidden_regression	controlling_source	precedence_rule
+G01	founded_reciprocal_depth_character	DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH	DERIVED	ACTIVE_RELATIONAL_FOUNDATION	general observer/event/path-to-depth law; signed-orientation/nonnegative-magnitude join; endpoint-exact potential branches; physical normalization/profile	undefined placeholder; universal pointwise physical scalar; independent native scalar	udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G02	founded_reciprocal_character_action	DERIVED_DELTA_MAPS_TO_DIAG_EXP_MINUS_DELTA_EXP_PLUS_DELTA	DERIVED	ACTIVE_RELATIONAL_FOUNDATION	physical map to delta; physical complete-pair cocycle selection; degeneracy/global-loop continuation; complete realization	inverse exponential pair reopened; pointwise phi owner inferred from character action	udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G03	independent_phi_atlases	CHOSE_COMPARISON_CONFIGURATION	CHOSE	COMPARISON_ONLY_NOT_NATIVE	useful enlarged solution-space controls	native field ownership inferred from atlas independence	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G04	strong_local_CSN	CHALLENGED_OWNER_POSTULATE_NOT_DERIVED	OPEN	INACTIVE_UNLESS_CHARLES_EXPLICITLY_REAUTHORIZES	explicitly reauthorized counterfactual branch only	active gauge equivalence or primary rank subtraction	udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G05	common_factor_cancellation	DERIVED_ALGEBRAIC_RATIO_INVARIANCE	DERIVED	ALGEBRA_ONLY	physical status of common factor	local conformal gauge inferred from cancellation	udt_common_scale_neutrality_provenance_audit_2026-07-24/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G06	c_E_and_G_obs	OBSERVED_ANCHORS_RETAINED	OBSERVED	ACTIVE_CALIBRATION	complete native placement and absolute size closure	scale-free physical metric asserted as current fact	udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G07	generic_metric_configuration_rank	GENERIC_F4_6_MOD_COORDINATE_PRESENTATION	DERIVED	GENERIC_ARENA_BASELINE_ONLY	UDT reduction and dynamics	propagating modes or selected native field census	udt_global_functional_dof_constraint_rank_audit_2026-07-26/LOCAL_PRESENTATION_RANK.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G08	complete_4D_phi_extension	OPEN_SELECTION_WITH_EXACT_EXTENSION_CLASS	OPEN	ACTIVE_OPEN_GATE	angular generator; mixing; descent; global continuation	direct-sum spectator extension called unique unconditionally	udt_founded_phi_complete_coframe_extension_audit_2026-07-25/EXTENSION_CLASS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G09	S2_carrier	POSIT	POSIT	CONDITIONAL_CARRIER_BRANCH_ONLY	carrier emergence or replacement	native carrier derived from celestial fiber or Hopf quotient	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G10	C2_Bach_action	UNIQUE_CONDITIONAL_ONLY_IF_PRE_SCALE_STRONG_CSN_RETAINED	CONDITIONAL	INACTIVE_WITHOUT_STRONG_CSN_PREMISE	physical applicability	unconditional native action priority	udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G11	EH_action	CONDITIONAL_NOT_SELECTED	CONDITIONAL	NOT_SELECTED	native minimality and variation domain	GR familiarity used as derivation	udt_common_scale_neutrality_provenance_audit_2026-07-24/STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G12	bootstrap	WORKING_MUTUAL_ADMISSIBILITY_POSIT__PARTIAL_KINEMATIC_JOIN_DERIVED__SMOOTH_EXTENSION_CARTAN_NONSELECTION__FULL_FIRST_AND_SECOND_JET_CURVATURE_ATLASES_DERIVED__CONDITIONAL_LOCAL_SAME_SOLUTION_PHI_CURVATURE_COMPATIBILITY__GLOBAL_FACTORIZATION_GROUPOID_AND_OVERLAP_NONSELECTION_DERIVED__FOUNDING_RELATIONAL_CHARACTER_ON_SUPPLIED_DEPTH_DERIVED__POINTWISE_PHI_PRESENTATION_POTENTIAL_ON_SUPPLIED_FACTORIZATION__CONDITIONAL_STATIONARY_KILLING_DEPTH__COMPLETE_PAIR_ORCHESTRA_MODULATION_AND_GROUPOID_COCYCLE_HOME_DERIVED__PHYSICAL_COMPLETE_PAIR_COCYCLE_AND_COMPLETE_RETURN_OPEN	WORKING	FALSIFIABLE_RELATIONAL_ARCHITECTURE_ONLY	physical complete-pair cocycle selection; nonnegative magnitude and signed orientation join; nonstationary and defect-stratified continuation; complete interior relation; physical readout; response; mass-volume-density feedback; fixed point; dynamics	pointwise presentation potential called arbitrary placeholder or universally owned scalar; stationary Killing reduction promoted universally; complete-arrow strain or spectral magnitude promoted to physical law; local compatibility promoted to physical section; factorization redundancy called physical gauge; overlap cocycle or finite-cell glue called physical ownership; local equation optimizer scalar objective arbitrary configuration path or complete derived bootstrap law invented	udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G13	Maxwell_like_geometry	CONDITIONAL_TORIC_F_EQUALS_dS_AND_dF_EQUALS_ZERO	CONDITIONAL	TORIC_GEOMETRY_ONLY	U1 selection; action; source; current; charge; normalization	full native Maxwell system claimed	angular_toric_closure_selector_2026-07-19/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G14	Xmax	WORKING_FOUNDATIONAL_POSITIONAL_DILATION_ASYMPTOTE	WORKING	OWNER_RATIFIED_LIMIT_FRAME_AND_REQUIRED_DEPTH_LAW_GATE	exact observer/event/path separation-depth realization; signed-magnitude join; all-frame theorem; numerical value; WR-L/global join; angular/bootstrap and mass-density modulation	optional analogy; material wall edge radius center seal or boundary functional; selected tanh fractional-linear or WR-L profile; derived numerical constant	udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G15	static_Hopfion	SETTLED_STATIC_FINITE_BOX_CONDITIONAL	SETTLED	STATIC_FINITE_BOX_AND_CARRIER_CONDITIONAL	carrier emergence; infinite volume; time-live persistence; unconditional mass	unconditional particle stability or matter emergence	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G16	complete_native_action_source_boundary_mass	OPEN	OPEN	NO_COMPLETE_PHYSICS_CLAIM	all complete closure objects	conditional geometry promoted to complete physics	native_action_final_adjudication_2026-07-18/FINAL_STATUS_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G17	finite_cell_finiteness	KEPT_MULTIPLY_ANCHORED_SPLIT_FROM_MIRROR_CLAUSE	WORKING	ACTIVE_FOUNDATION_SPLIT_READING	sharpest form = causal horizon with trapped interior beyond (C-2026-07-09-1a); x_max value/pairing underived (G14); OWNER-KERNEL CLARIFICATION (Charles 2026-07-31): his owned foundation = {static = non-expanding with time FLOWING; x_max = max allowable distance between two observers (spatial, derivation held); very likely finite total mass-energy} -- the CELL DECOMPOSITION + "no spatial infinity" principle (C-2026-06-10-2) = a handover-day RATIFIED PROGRAM CONSTRUCTION on that kernel, NOT owner bedrock; grade rests on its derivational anchors only	finiteness cited via the mirror-closure clause; Rule-5 static read as finiteness; 2026-07-31 driver mis-attributed the finite-cell principle to the owner personally (second provenance-inversion instance) -- corrected same day	udt_mirror_canon_provenance_audit_2026-07-30/PROVENANCE_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G18	mirror_closure_clause	OWNER_RATIFIED_PROPOSAL_NOT_DERIVED_SPLIT_RULED_2026-07-30	WORKING	WORKING_PREMISE_ONLY_STAMPS_TRAVEL_VIA_CONSUMER_LEDGER	closure vs bridge-only vs partner-glue (option-d derivation authorized); eps_phi=-1 is canon-DEFINITIONAL wording	the closure clause cited as derived or bedrock; seam-bridge (neg_phi #235, DERIVED) conflated with closure	udt_mirror_canon_provenance_audit_2026-07-30/CONSUMER_LEDGER.tsv	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G19	complete_coframe_configuration	DEFINED_CONFIGURATION_ARCHITECTURE_NOT_ON_SHELL	DEFINED	CONFIGURATION_ARENA_ONLY	metric-native realization law; complete admissible histories; physical branch	configuration arena projector or Cartan reconstruction promoted to selected dynamics	udt_conceptual_object_type_dependency_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G20	variation_ownership	OPEN_CO_DEFINED_WITH_NATIVE_LAW__QUERY_NOT_FIELD__DERIVED_SECTION_USES_CHAIN_RULE	OPEN	NO_UNIVERSAL_VARIATION_DOMAIN_SELECTED	independent parent fields; metric-derived sections; global moduli; boundary tangents; stratified ownership	observer query varied as field; derived section independently varied; variation domain treated as standalone hidden object	udt_conceptual_object_type_dependency_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G21	native_source	OPEN_RESPONSE_OR_CURRENT_ROLE_NOT_SUBSTANCE	OPEN	NO_NATIVE_SOURCE_CLAIM	complete law; carrier/geometry ownership; coupling; measure; boundary; normalization	conditional stress identity geometric response or substrate picture promoted to native source	udt_conceptual_object_type_dependency_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G22	physical_mass	OPEN_NORMALIZED_GLOBAL_CHARGE_RESPONSE_OR_SOLUTION_READOUT	OPEN	NO_UNCONDITIONAL_MASS_CLAIM	selected law and solution; source; generator/reference; normalization; physical boundary	energy mass-like response or stable conditional configuration promoted to physical mass	udt_conceptual_object_type_dependency_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G23	copresence	WORKING_WHOLE_SOLUTION_DOMAIN_MEMBERSHIP_SEMANTICS	WORKING	SEMANTIC_FRAME_ONLY	owner retention in a complete theory; relation to complete response semantics	zero time separation instantaneous access signal or UDT selector	udt_conceptual_object_type_dependency_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G24	metric_causal_accessibility	DERIVED_ON_SUPPLIED_TIME_ORIENTED_LORENTZIAN_GEOMETRY__MATERIAL_RESPONSE_OPEN	DERIVED	GEOMETRIC_REACHABILITY_ONLY	material principal symbol; coupling; admissible data; retarded response; global causal regularity	copresence or metric cone promoted to information transfer or matter theorem	udt_conceptual_object_type_dependency_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G25	finite_domain_seam_boundary_types	DERIVED_TYPE_SEPARATION__STATUSES_REMAIN_G17_G18_G16	DERIVED	TYPE_GUARD_ONLY	complete domain realization; closure posture; differentiable boundary functional	finite cell mirror seal Xmax and variational boundary merged	udt_conceptual_object_type_dependency_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G26	angular_carrier_separation	ANGULAR_SCREEN_CONFIGURATION__CELESTIAL_S2_CONDITIONAL_FIBER__ROUND_S2_CARRIER_POSIT	MIXED	NO_CARRIER_EMERGENCE_CLAIM	selected section; transport; target metric; action; boundary; carrier emergence	angular sector celestial fiber and round particle carrier merged	udt_conceptual_object_type_dependency_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G27	action_closure_order	OPEN__ACTION_MAY_BE_UPSTREAM_PRINCIPLE_OR_DOWNSTREAM_INTEGRABLE_GENERATOR	OPEN	NO_ORDER_SELECTED	native response/admissibility law; variational integrability; complete fields and boundary	action assumed to precede bootstrap or bootstrap assumed to derive action	udt_conceptual_object_type_dependency_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G28	complete_pair_phi_orchestra	DERIVED_COMPLETE_ARROW_MODULATION_AND_GROUPOID_COCYCLE_HOME__UNIQUE_PHYSICAL_COCYCLE_OPEN	DERIVED	ACTIVE_RELATIONAL_STRUCTURE	metric-natural physical cocycle selection; loop periods and path labels; strain degeneracy crossing; c_E and Xmax gates; action source boundary bootstrap matter mass dynamics	angular sector held external as universal assumption; complete-arrow strain called selected physical law; spectral magnitude promoted; stationary screen-modulated family promoted without supplied Killing line screen split endpoint identification and area convention	udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G29	corrected_FD1_scalar_spectral_atlas	VERIFIED_WITH_CAVEATS__THREE_INTERLEAVED_ANGULAR_LADDERS__OLD_SAME_INDEX_MULTIPLET_WINDOW_WITHDRAWN	OBSERVED	CORRECTED_SCALAR_SLICE_BACKGROUND_GEOMETRY_ONLY	complete 4D angular completion; higher |m|; Robin wall family; mode-family ownership; invariant observer-pair projection; source weights; polarization; FD2 restart	old FD1 open compatibility window revived; same-index m triplet called physical; best standalone ladder postselected; scalar Box_g atlas promoted to native dynamics	udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G30	complete_angular_mode_ownership	DERIVED_CONDITIONAL_U1_MODE_DECOMPOSITION__FD1_ROOTS_DO_NOT_LIFT__PHYSICAL_COMPLETE_LIFT_AND_POPULATION_PROJECTION_OPEN	MIXED	FULL_ANGULAR_REGRESSION_GATE_ONLY	physical complete angular screen and global realization; full coupled spectrum; native probe and boundary; observer-pair response; source/state weights; polarization; FD2 restart	equatorial roots relabeled full-angular; same-index m rows called an SO3 multiplet; chosen spherical lift promoted to native; symmetry projector promoted to population law; best ladder postselected	udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G31	complete_angular_family_atlas	VERIFIED_DESIGN_MAP__GENERAL_STATIONARY_SCREEN_OPERATOR_DERIVED__PHYSICAL_SCREEN_AND_SOLVES_OPEN	MIXED	ARCHITECTURE_AND_REGRESSION_GATE_ONLY	physical complete angular screen and global join; native probe and boundary; converged coupled spectra; source/state weights; polarization; FD2 restart	axial shortcut applied to divergent general shift; C1 promoted to native screen; universal m label; conditional S3 spliced to WR-L; atlas disposition treated as physical merit; eigenvalue solve or FD2 called authorized	udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G32	C1_harmonic_coupling_matrix_atlas	VERIFIED_WITH_CAVEATS__CONDITIONAL_C1_FIXED_ABS_M_PARITY_MATRIX_ARCHITECTURE__NO_EIGENSOLVE	MIXED	BOUNDED_COUPLING_ARCHITECTURE_AND_REGRESSION_CONTROL_ONLY	physical B(r) and complete screen; radial profile and boundary; converged eigensystem; native probe; source/state weights; polarization; FD2 restart	C1 promoted to native screen; scalar Box_g promoted to native dynamics; order-256/512 agreement called independent; bounded coupling reach called physical spectrum; negative m discarded; eigenvalue solve FD2 data fit or GPU called authorized	udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G33	N02_radial_anchor_admissibility	VERIFIED_WITH_CAVEATS__NO_BANKED_P1_REGULAR_COMPLETE_C1_C2_CENTER_TO_WALL_ANCHOR__NO_EIGENSOLVE	MIXED	RADIAL_ADMISSIBILITY_AND_REGRESSION_GATE_ONLY	regular complete profile and observer-relation join; full Cartesian center smoothness; uniform infinite-basis wall theorem; physical boundary; converged eigensystem; native probe; source/state weights; polarization; FD2 restart	P1 relational or SNe role called invalid; P1 promoted to a smooth complete spherical metric; h equals O(r2) called sufficient for full smoothness; D or N called physically selected; N02 eigensolve profile repair inner cutoff FD2 fit or GPU called authorized	udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G34	N03_profile_role_regular_center_map	VERIFIED_WITH_CAVEATS__NO_MAPPED_ROLE_CORRECT_COMPLETE_GLOBAL_PROFILE__REGULAR_C1_LOCAL_JETS_NONEMPTY__PHYSICAL_GROUPOID_COCYCLE_OPEN	MIXED	PROFILE_ROLE_CENTER_REGULARITY_AND_REGRESSION_GATE_ONLY	metric-natural physical groupoid cocycle; complete global profile and topology; nonidentity pair-to-geometry join; physical screen and mixing profile; boundary; eigensystem; native probe; source/state weights; polarization; FD2 restart	P1 observer-pair or SNe role called invalid; P1 pair profile copied directly into a smooth centered local lapse; regular local jets called a global solution; k0 called selected invariant rotation or physical mu profile; transport or connection called derived from general cocycle regularity; nonzero q called fully smooth; Xmax called a wall; mu physically disabled; scalar Box_g promoted to native dynamics; eigensolve FD2 fit polarization or GPU called authorized	udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G35	reciprocal_flag_foundation_ownership	VERIFIED_WITH_CAVEATS__ABSTRACT_RECIPROCAL_CALIBRATION_SEED_DERIVED__RECIPROCAL_ROOT_CONDITIONAL_UNIQUE_UNIVERSAL_ORDER_ZERO_READOUT__PHYSICAL_FLAG_ARROW_CALIBRATION_OPEN	MIXED	FOUNDATION_OWNERSHIP_AND_REGRESSION_GATE_ONLY	pair-relative physical flag and exact update; complete exchange ownership; physical comparison or calibration morphism; c_eff calibration-line identification; null cut-locus and global-period continuation; complete profile join	delta_RF called selected physical law; timelike-strain eigenvalue called a general cocycle; K called a causal Lorentz exchange; Levi-Civita called nonzero reciprocal depth; arbitrary higher-jet nonmetric connection selected; c_eff endpoint scalar inferred on the bare flag; physical flag assumed founded; action source matter mass CMB signalling or Xmax value inferred	udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G36	reciprocal_calibration_state_solder	VERIFIED_WITH_CAVEATS__ABSTRACT_CALIBRATION_LINE_DERIVED__PAIR_FLAG_CONDITIONAL_REGULAR_QUERY__NO_NONZERO_ORDER_ZERO_OR_FIRST_METRIC_JET_NATURAL_SOLDER__STATIONARY_KILLING_SOLDER_CONDITIONAL__GENERAL_BILOCAL_GLOBAL_FUNCTOR_OPEN	MIXED	LOCAL_SOLDER_NOGO_AND_GLOBAL_OWNER_ROUTING_GATE_ONLY	complete-branch calibration owner; bilocal or global update; branch degeneracies; native dynamical or bootstrap owner; physical c_eff trivialization; fresh external semantic review	coordinate identity called physical; Levi-Civita called nonzero depth; metric distance called signed cocycle; dexp or Jacobi position block called compositional four-dimensional arrow; raw coframe current called invariant; stationary Killing ratio called universal; scoped local no-go generalized to all geometry; action source matter mass CMB signalling or Xmax value inferred	udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G37	terminal_reciprocal_ce_pair_metric_readout	VERIFIED_WITH_CAVEATS__PAIR_METRIC_DECOMPOSITION_DERIVED_ON_SUPPLIED_REGULAR_A_CALIBRATED_PAIR_METRIC__PHI_UNIQUE_RECIPROCAL_LOG_IMBALANCE_WITHIN_FIXED_CALIBRATION__PHYSICAL_PAIR_MAP_CEFF_AND_CALIBRATION_OWNER_OPEN	MIXED	ACTIVE_TERMINAL_READOUT_AND_PAIR_MAP_ROUTING_GATE_ONLY	physical calibrated pair surface or comparison Jacobian; physical calibration-state owner; signed cocycle-type composition; endpoint path and branch selection; universal mixed-geometry c_eff identification; Xmax value and profile	pair metric claimed derived from complete metric alone; reciprocal log imbalance called universal physical phi without owner; conditional pair readout called universal physical c_eff; supplied Jacobian witness called selected physical branch; Fermi surface called founded or unique; calibration state called eliminated; signed cocycle requirement withdrawn; Xmax value or profile inferred; action source matter mass CMB or signalling inferred	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G38	calibrated_pair_map_owner_atlas	VERIFIED_WITH_CAVEATS__LOCAL_ORTHOGONAL_EXPONENTIAL_TUBE_DERIVED_FROM_METRIC_AND_FULL_DECLARED_QUERY__NO_UNIQUE_UNIVERSAL_PAIR_MAP_FROM_BARE_ENDPOINTS__PHYSICAL_CALIBRATED_PAIR_RELATION_FUNCTOR_OPEN	MIXED	ACTIVE_PAIR_MAP_OWNERSHIP_AND_NEXT_FUNCTOR_ROUTING_GATE_ONLY	founding ownership of complete observer-query semantics; event pairing; direction evolution; branch-labelled global relation; middle calibration-state update; associative composition; global topology and periods; universal mixed-geometry c_eff	local exponential tube called universally selected; observer worldline or simultaneity claimed metric-derived; arbitrary coframe plane promoted; Killing norm called terminal pair depth without TL=1; equal pullback metrics called equal embeddings; dExp position block called compositional; reciprocal reset called common-scale gauge or automatically removed by c_E; one cut-locus branch postselected; action source matter mass CMB signalling or Xmax value inferred	udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G39	founding_pair_relation_functor_ownership	VERIFIED_WITH_CAVEATS__FOUNDED_ORDERED_DEPTH_CHARACTER_DERIVED__COMPLETE_CALIBRATED_QUERY_CONDITIONAL_LOCAL_ENRICHMENT__CE_CALIBRATION_NOT_RELATION_SELECTOR__ASSOCIATIVE_MIDDLE_CARRY_OPEN	MIXED	ACTIVE_QUERY_OWNERSHIP_AND_THREE_OBSERVER_OVERLAP_ROUTING_GATE_ONLY	physical operational query ownership; event-pairing principle; branch/global compatibility; associative calibration carry; triple-overlap and loop obstruction; universal mixed-geometry c_eff; complete dynamics	complete calibrated query called explicitly founded; ordering called a unique physical arrow; c_E called a simultaneity path or branch selector; Reciprocity called an existence or uniqueness theorem; conditional local tube called the universal physical relation; middle reset called automatically removed; terminal readout called complete dynamics; action source matter mass CMB signalling or Xmax value inferred	udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md	LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G40	three_observer_overlap_calibration_carry	VERIFIED_WITH_CAVEATS__CARRY_ASSOCIATIVITY_DERIVED_ON_MATCHED_ENRICHED_OBJECTS__DIRECT_EQUALS_COMPOSITE_IS_CECH_DESCENT_OR_PATH_INDEPENDENCE__TRIANGLE_LOOP_OBSTRUCTION_TYPED__PHYSICAL_GLOBAL_RELATION_FAMILY_AND_SCALAR_REDUCTION_OPEN	MIXED	ACTIVE_OVERLAP_TYPE_AND_GLOBAL_RELATION_FAMILY_ROUTING_GATE_ONLY	physical ownership of enriched query objects; global relation-family type; explicit middle transition when B states differ; path and branch selection; reciprocal scalar reduction and loop periods; universal mixed-geometry c_eff; complete dynamics	associativity conflated with path independence; nonidentity holonomy called associativity failure; independently rebuilt pair surfaces silently composed; M_B set to identity without matched objects; coherent reciprocal presentation change called every physical tape reset gauge; triangle identity called physical relation-family selection; general mixing matrix assigned an unowned scalar character; 144-cell atlas called fully independently re-derived; action source matter mass CMB signalling or Xmax value inferred	udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md	G40_OPERATIONALLY_REFINES_G39_MIDDLE_CARRY_PHRASE__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G41	global_relation_family_branch_classification	VERIFIED_WITH_CAVEATS__24_IDENTITIES_57_ALIASES__PATH_HOLONOMY_ENDPOINT_CLOCK_AND_STRATIFIED_SET_VALUED_GEOMETRIC_FAMILIES_SURVIVE__PHYSICAL_NONISOMETRIC_PAIR_FUNCTOR_AND_SCALAR_REDUCTION_OPEN	MIXED	ACTIVE_COMPLETE_BRANCH_FAMILY_CLASSIFICATION_AND_ROUTING_GATE_ONLY	branch-derived non-isometric calibration transition; physical enriched query ownership; middle transition; mixed scalar reciprocal character; universal c_eff; complete dynamics	geometric Levi-Civita path groupoid called physical depth; W02 clock coboundary called complete pair without TL=1; FC04 aggregate called one selected family; toric projector set called calibrated pair arrow; topology schema called actual metric; physical branch action source matter mass CMB signalling or Xmax value inferred	udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md	G41_REFINES_G40_GLOBAL_FAMILY_TYPE_WITHOUT_SELECTING_PHYSICAL_PAIR__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G42	branch_nonisometric_calibration_transition	VERIFIED_WITH_CAVEATS__R17_SEMIDIRECT_FORMULA_EXACT_ON_MATCHED_PATH_CARRIED_STATES__CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED__ZERO_BRANCH_OWNED_COMPLETE_TRANSITIONS	MIXED	ACTIVE_BRANCH_TRANSITION_OWNERSHIP_CORRECTION_AND_NEXT_MIDDLE_MORPHISM_GATE_ONLY	branch-owned calibrated pair-relation functor; carried-to-rebuilt middle morphism M_B; physical path and pair-surface integrability; universal mixed scalar reciprocal law; universal c_eff; complete dynamics	R17 semidirect assembly called branch-owned; exact matched composition called a physical selector; carried grading identified with rebuilt intrinsic grading; M_B set to identity; linear comparison arrow called an integrated pair surface; terminal carried-flag equality called universal mixed-geometry c_eff; action source matter mass CMB signalling or Xmax value inferred	udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md	G42_REFINES_G41_TRANSITION_OWNERSHIP_WITH_EXTERNAL_DEMOTION__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G43	carried_intrinsic_middle_morphism_ownership	VERIFIED_WITH_CAVEATS__REGULAR_C01_C06_PROJECTOR_ALIGNMENTS_FORM_PATH_LABELLED_SO2_BITORSORS__BALANCED_REPRESENTATIVE_FREE_COMPOSITION_EXACT__NO_SCREEN_PHASE_SELECTED__CALIBRATION_AND_SCALAR_DESCENT_OPEN	MIXED	ACTIVE_PROJECTOR_ALIGNMENT_GAUGE_GROUPOID_AND_NEXT_SCALAR_CALIBRATION_DESCENT_GATE_ONLY	terminal reciprocal scalar descent; delta_RF descent; calibration-density descent; physical pair atlas and pair-surface integrability; degenerate or null strata; universal mixed-geometry c_eff; complete dynamics	alignment bitorsor called a physical scalar law; arbitrary screen-phase representative called metric selected; double-coset shadow called a group; path labels or holonomy erased; projector alignment called calibration-density alignment; R17 promoted to branch-owned law; universal c_eff action source matter mass CMB signalling or Xmax value inferred	udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md	G43_REFINES_G42_MIDDLE_MORPHISM_FROM_MISSING_SINGLE_MAP_TO_DERIVED_ALIGNMENT_BITORSOR_WITH_SCALAR_DESCENT_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G44	reciprocal_scalar_calibration_bitorsor_descent	VERIFIED_WITH_CAVEATS__SUPPLIED_RECIPROCAL_READOUTS_DESCEND_THROUGH_REGULAR_C01_C06_SO2_ALIGNMENT_BITORSORS__BALANCED_DENSITY_TELESCOPING_EXACT__ISOMETRIC_ALIGNMENT_GENERATES_ZERO_CALIBRATION__PHYSICAL_NONISOMETRIC_MAGNITUDE_OWNER_OPEN	MIXED	ACTIVE_SCALAR_DESCENT_CORRECTION_AND_NEXT_NONISOMETRIC_CALIBRATION_OWNER_GATE_ONLY	physical non-isometric calibration magnitude and its owner; physical pair relation or pair surface; selection of delta_RF or R17 as the physical law; null or degenerate strata and cut-locus continuation; universal mixed-geometry c_eff; complete dynamics	scalar descent called physical-law selection; terminal determinant formula used without normalized source calibration; isometric alignment called a nonzero magnitude generator; arbitrary screen phase selected; path labels or holonomy erased; R17 promoted to branch-owned law; universal c_eff action source matter mass CMB signalling or Xmax value inferred	udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md	G44_REFINES_G43_BY_DERIVING_SCREEN_GAUGE_DESCENT_OF_SUPPLIED_READOUTS_WITHOUT_GENERATING_THEIR_MAGNITUDE__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G45	nonisometric_calibration_magnitude_ownership	VERIFIED_WITH_CAVEATS__R17_R18_OWN_BRANCH_CONDITIONAL_ENDPOINT_CLOCK_MAGNITUDES__ZERO_COMPLETE_PHYSICAL_MAGNITUDE_OWNERS__R17_RECIPROCAL_LIFT_SELECTION_AND_R18_RULER_COMPLETION_OPEN	MIXED	ACTIVE_BRANCH_CONDITIONAL_MAGNITUDE_OWNER_CORRECTION_AND_NEXT_R17_MAGNITUDE_TO_GRADING_SELECTION_GATE_ONLY	R17 selection of the non-isometric reciprocal lift and physical pair surface; R17 carried-to-intrinsic reset and physical path/query; R18 intrinsic ruler scale or TL=1 reciprocal completion; native dynamical or bootstrap calibration return; null or degenerate strata; universal mixed-geometry c_eff; complete dynamics	branch-conditional endpoint magnitude called a complete physical owner; R17 delta_K ownership confused with semidirect assembly ownership; R18 clock magnitude called a complete reciprocal law; supplied pair Jacobian called branch-selected; isometric transport called a nonzero magnitude generator; path labels or holonomy erased; bootstrap magnitude invented; bounded 24x5 negative generalized to all metrics; universal c_eff action source matter mass CMB signalling or Xmax value inferred	udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md	G45_REFINES_G44_BY_LOCATING_TWO_BRANCH_CONDITIONAL_CLOCK_MAGNITUDES_WITHOUT_FINDING_A_COMPLETE_PHYSICAL_OWNER__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G46	r17_magnitude_to_grading_selection	VERIFIED_WITH_CAVEATS__FOUNDED_NONZERO_DEPTH_FIXES_CLOCK_RULER_WEIGHTS__SUPPLIED_COMPLETE_C01_C06_COFRAME_FIXES_VERTICAL_RECIPROCAL_METRIC_CLASS_MOD_SO2__FULL_PHYSICAL_ARROW_OPEN	MIXED	ACTIVE_COMPLETE_COFRAME_CONDITIONAL_VERTICAL_METRIC_CLASS_AND_NEXT_R17_INTEGRABILITY_PAIR_SURFACE_GATE_ONLY	metric-owned R17 integrability or relation-family condition; physical pair-surface family; physical path/query and isometric carry; carried-to-intrinsic reset; R17 branch and lambda selection; on-shell equation; R18 ruler completion; universal mixed-geometry c_eff; complete dynamics	identity called a realization of nonzero founded depth; pair-only Reciprocity said to fix the screen; supplied off-shell complete coframe called universally selected; screen rotation called a physical observable; vertical metric factor called the complete physical arrow; R17 semidirect assembly promoted to branch ownership; lambda selected across C01-C06; path reset or pair surface invented; G42 demotion reversed; universal c_eff action source matter mass CMB signalling or Xmax value inferred	udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md	G46_REFINES_G45_BY_FIXING_THE_COMPLETE_COFRAME_CONDITIONAL_VERTICAL_METRIC_CLASS_MOD_SO2_WITHOUT_SELECTING_THE_PHYSICAL_ARROW__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G47	r17_intrinsic_pair_foliation_integrability	VERIFIED_WITH_CAVEATS__GLOBAL_R_X_S1_INTRINSIC_PAIR_FOLIATION_ON_SUPPLIED_C01_C06__LEAF_METRIC_DET_MINUS1_AND_TERMINAL_PHI__4D_SCREEN_NONINTEGRABLE_NORMAL_BUNDLE__FULL_NORMAL_CARRY_AND_PHYSICAL_ARROW_OPEN	MIXED	ACTIVE_R17_PAIR_SURFACE_CLOSURE_AND_NEXT_NORMAL_BUNDLE_HOLONOMY_GATE_ONLY	physical path/query and winding selection; cross-leaf common pair surface; normal-bundle connection carry and holonomy; carried-to-intrinsic reset; R17 branch and lambda selection; on-shell equation; other complete branches and time-live/null/rank-degenerate strata; universal mixed-geometry c_eff; complete dynamics	global foliation called branch selection or a universal pair map; four-dimensional normal bundle called a literal contact structure; endpoint scalar called a common cross-leaf pair surface; path labels winding holonomy or reset erased; one leaf or lambda selected; conditional delta_K promoted to universal mixed-geometry c_eff; action source matter mass bootstrap Xmax CMB signalling or dynamics inferred	udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md	G47_REFINES_G46_BY_CLOSING_THE_SUPPLIED_R17_PAIR_FOLIATION_AND_LEAF_DEPTH_WITHOUT_CLOSING_NORMAL_CARRY_CROSS_LEAF_COMPARISON_OR_THE_PHYSICAL_ARROW__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G48	r17_pair_leaf_normal_holonomy	VERIFIED_WITH_CAVEATS__METRIC_PROJECTED_NORMAL_CONNECTION_AND_LEAF_CURVATURE_DERIVED_ON_SUPPLIED_C01_C06__LAMBDA_MINUS_ONE_FLAT_AND_LAMBDA_ZERO_HOPF_BASIC_ROLES_DISTINCT__PHYSICAL_PATH_AND_COMPLETE_ARROW_OPEN	MIXED	ACTIVE_R17_NORMAL_HOLONOMY_CLASSIFICATION_AND_NEXT_GLOBAL_CONNECTION_DECOMPOSITION_GATE_ONLY	physical cross-leaf base path; full path-labelled connection on the pair-leaf bundle; vertical horizontal and mixed curvature decomposition; complete finite-cell and chart compatibility; relation between lambda minus one and lambda zero roles; R17 branch lambda and on-shell selection; physical observer arrow; universal mixed-geometry c_eff; action source matter bootstrap Xmax CMB signalling or dynamics	lambda minus one flatness called branch selection; lambda zero Hopf-basicness called branch selection; signed connection angle called O2 invariant; wound holonomy erased because curvature is zero; projected SO2 normal holonomy conflated with ambient Lorentz holonomy; horizontal lift said to select a base path; projected connection called the physical observer arrow; downstream physics inferred	udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md	G48_REFINES_G47_BY_DERIVING_THE_SUPPLIED_R17_PAIR_LEAF_NORMAL_CONNECTION_AND_HOLONOMY_CLASSIFICATION_WITHOUT_SELECTING_A_PATH_BRANCH_OR_PHYSICAL_ARROW__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G49	r17_path_labelled_connection_decomposition	VERIFIED_WITH_CAVEATS__COMPLETE_METRIC_PROJECTED_H_CONNECTION_AND_PATH_FUNCTOR_ON_SUPPLIED_REGULAR_STATIONARY_R17__FULL_CURVATURE_GENERALLY_NONZERO__PATH_SELECTION_AND_PHYSICAL_ARROW_OPEN	MIXED	ACTIVE_R17_COMPLETE_PATH_CONNECTION_CLASSIFICATION_AND_NEXT_SUBLOCUS_OWNERSHIP_GATE_ONLY	flat base-basic or reduced-holonomy compatible stationary jet subloci; global vertical and winding holonomy on those subloci; ownership by R17 equations or completion data; branch lambda and on-shell selection; time-live null degenerate and other complete branches; physical path and non-isometric observer arrow; universal mixed-geometry c_eff; action source matter bootstrap Xmax CMB signalling or dynamics	lambda minus one called completely flat; lambda zero called a descended base connection; lambda one called selected; Hopf horizontal lift said to select path or start phase; isometric normal carry called physical non-isometric observer arrow; open-path matrix called gauge invariant; path labels or holonomy erased; generic stationary result extended to time-live or other branches; downstream physics inferred	udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md	G49_REFINES_G48_BY_DERIVING_THE_COMPLETE_PROJECTED_NORMAL_CONNECTION_ALL_SIX_CURVATURE_PLANES_AND_SUPPLIED_PATH_FUNCTOR_WITHOUT_SELECTING_A_PATH_SUBLOCUS_BRANCH_OR_PHYSICAL_ARROW__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G50	r17_stationary_connection_sublocus_ownership	VERIFIED_WITH_CAVEATS__GLOBAL_CURVATURE_HORIZONTALITY_IFF_CONSTANT_PHI__FLAT_AND_ABSTRACT_DESCENT_LOCI_EXPLICIT__NO_REGULAR_CANONICAL_HOPF_TANGENT_DESCENT__COMPLETE_HOLONOMY_TRIVIAL_OR_SO2__MANIFEST_BACKED_R17_SOURCES_SELECT_NONE	MIXED	ACTIVE_STATIONARY_SUBLOCUS_CLASSIFICATION_AND_NEXT_GENERIC_JOINT_INVARIANT_GATE_ONLY	generic full-SO2 joint invariant between endpoint reciprocal depth and path-labelled normal holonomy; repo-wide independent selector exhaustion; R17 branch lambda profile and on-shell selection; time-live null degenerate and other complete branches; physical path and non-isometric observer arrow; universal mixed-geometry c_eff; action source matter bootstrap Xmax CMB signalling or dynamics	flat or integer-descent locus called physically selected; manifest-backed no-owner claim generalized to a repo-wide theorem; supporting local census called independently reviewed authority; inherited 2pi period called rederived; lambda minus one called generically completely flat; lambda zero called generically base-descended; canonical Hopf obstruction generalized beyond regular nonzero-twist stationary R17; full SO2 carry erased; downstream physics inferred	udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md	G50_REFINES_G49_BY_CLASSIFYING_ALL_STATIONARY_SPECIAL_SUBLOCI_AND_WITHDRAWING_THE_SEARCH_FOR_A_SELECTED_FLAT_BRANCH__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G51	r17_depth_holonomy_joint_invariant	VERIFIED_WITH_CAVEATS__ENDPOINT_DEPTH_AND_NORMAL_ISOMETRY_FORM_EXACT_PRODUCT_GROUPOID__COMPLETE_COFRAME_FIXES_SCREEN_CO2_WEIGHTS_BY_VARIANCE__UNIQUE_NORMALIZED_CONTINUOUS_REAL_ORDER_ZERO_CHARACTER_IS_DELTA_K__LOOP_AND_RELATIVE_PATH_HOLONOMY_SURVIVE__PHYSICAL_PATH_ARROW_AND_STATIONARY_HIGHER_JET_SELECTION_OPEN	MIXED	ACTIVE_R17_JOINT_KINEMATIC_CLASSIFICATION_AND_NEXT_NATIVE_ONE_FORM_SELECTION_GATE_ONLY	stationary R17-owned endpoint-frame-invariant non-exact scalar one-form; full compatible jet naturality; physical path or query; complete non-isometric observer arrow; carried-to-intrinsic endpoint identification; branch lambda and on-shell selection; time-live null rank-changing and other complete branches; universal mixed-geometry c_eff; action source matter bootstrap Xmax CMB signalling or dynamics	global normal carry called one fixed SO2 matrix group; open-path angular matrix called gauge invariant; local order-zero character theorem generalized to arbitrary path cocycles or endpoint coboundaries; general rectangle control called an R17 solution witness; screen CO2 representation called the physical observer arrow; higher-jet one-form path branch or lambda selected; loop or relative-path holonomy erased; universal c_eff or downstream physics inferred	udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md	G51_REFINES_G50_BY_DERIVING_THE_TYPED_DEPTH_NORMAL_ISOMETRY_PRODUCT_GROUPOID_AND_CLASSIFYING_ITS_ORDER_ZERO_REAL_SCALAR_SHADOW_WITHOUT_SELECTING_A_PATH_ARROW_OR_HIGHER_JET_LAW__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G52	r17_stationary_local_one_form_selection	VERIFIED_WITH_CAVEATS__CANONICAL_LOCAL_FORMS_BEYOND_dphi_AND_GENERIC_FIRST_JET_FULL_COTANGENT_DERIVED__CONSTRUCTIVE_NONUNIQUENESS_ONLY__NONCLOSED_PAIR_LEAF_AND_EXACT_PAIR_PURE_FAMILIES_SURVIVE__NO_DISTINGUISHED_ADDITIONAL_RECIPROCAL_TRANSGRESSION_SELECTED	MIXED	ACTIVE_STATIONARY_R17_LOCAL_ONE_FORM_NONSELECTION_AND_NEXT_FOUNDING_QUERY_MEASUREMENT_SELECTOR_GATE_ONLY	explicit physical query or measurement selection rule; on-shell or global-completion selection; exhaustive higher-jet classification; physical path and non-isometric observer arrow; branch lambda and profile selection; time-live null rank-changing and other complete branches; universal mixed-geometry c_eff; action source matter bootstrap Xmax CMB signalling or dynamics	constructive families called an exhaustive finite-jet classification; metric-owned form called selected physical transgression; line-integral composition or path independence called a coefficient selector; connection potential called endpoint-frame-invariant scalar; dphi endpoint ownership displaced; explicit query on-shell or global owner silently invented; universal c_eff or downstream physics inferred	udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md	G52_REFINES_G51_BY_DERIVING_MULTIPLE_STATIONARY_R17_LOCAL_FORMS_AND_CONSTRUCTIVELY_REFUTING_LOCAL_UNIQUENESS_WITHOUT_SELECTING_THE_PHYSICAL_TRANSGRESSION_OR_ITS_OWNER__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G53	multichannel_observer_relation_assembly	VERIFIED_WITH_CAVEATS__REGULAR_CALIBRATED_PAIR_METRIC_HAS_UNIQUE_KAPPA_PHI_BETA_STATE_COORDINATES__MATCHED_DELTA_KAPPA_AND_DELTA_PHI_ADD__ANGULAR_U_PATH_CHANNEL_DISTINCT__CONDITIONAL_MINIMAL_BANKED_ASSEMBLY__PHYSICAL_QUERY_PROJECTION_PATH_REGIME_AND_CONDUCTOR_OPEN	MIXED	ACTIVE_CONDITIONAL_MULTICHANNEL_ASSEMBLY_AND_NEXT_ORDERED_QUERY_PROJECTION_OWNERSHIP_GATE_ONLY	physical ordered-query projection or measurement rule; physical pair map and path; independently rebuilt tape transitions; pair embedding extrinsic geometry and all jets; physical regime map; on-shell or global bootstrap conductor; time-live null rank-changing and other complete branches; universal mixed-geometry c_eff; action source matter mass Xmax CMB signalling or dynamics	conditional state assembly called a selected physical observer arrow; kappa deleted by strong CSN or calibration cancellation; beta called a standalone additive character; U_gamma scalarized or path labels erased; screen representation double-counted as a fifth channel; geometric activity strata assigned micro ordinary or cosmological labels; c_E G_obs m_e or hbar used to select architecture; bounded minimality widened to full metric reconstruction; G52 scalarization families promoted without a query owner; conductor action source matter universal c_eff or downstream physics inferred	udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md	G53_REFINES_G52_BY_REPLACING_THE_ONE_SCALAR_SEARCH_WITH_A_BOUNDED_TYPED_MULTICHANNEL_ASSEMBLY_WHILE_LEAVING_THE_PHYSICAL_QUERY_PROJECTION_PATH_REGIME_AND_CONDUCTOR_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G54	ordered_observer_query_projection_ownership	VERIFIED_WITH_CAVEATS__AFTER_COMPLETE_CALIBRATED_QUERY_SUPPLIES_REGULAR_PAIR_RELATION_REALIZED_FOUNDING_RECIPROCAL_PROJECTION_IS_UNIQUELY_DELTA_PHI_WITHIN_CONTINUOUS_MATCHED_TWO_DENSITY_CHARACTERS__BROADER_MEASUREMENTS_AND_PAIR_OWNER_OPEN	MIXED	ACTIVE_CONDITIONAL_RECIPROCAL_PROJECTION_AND_NEXT_PAIR_RELATION_OR_MEASUREMENT_OWNER_GATE_ONLY	calibrated physical observer-query and pair-relation selector; optional common-scale shift angular or higher-jet measurement policy; physical path; independently rebuilt tape transition; regime map; on-shell or global bootstrap conductor; other branches and degenerate strata; universal mixed-geometry c_eff; action source matter mass Xmax CMB signalling or dynamics	bare observer endpoints said to select Delta_phi; conditional density exchange called raw founding theorem; uniqueness widened beyond continuous two-density characters; endpoint coboundaries called impossible; kappa deleted; beta promoted to founding character; U_gamma scalarized or erased; phi orchestra reduced to pure block; physical path regime conductor action source or dynamics inferred	udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md	G54_REFINES_G53_BY_SELECTING_DELTA_PHI_ONLY_AS_THE_CONDITIONAL_REALIZATION_OF_THE_FOUNDED_RECIPROCAL_PROJECTION_AFTER_THE_COMPLETE_CALIBRATED_PAIR_RELATION_IS_SUPPLIED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G55	multiregime_pair_relation_admissibility	VERIFIED_WITH_CORRECTIONS__24_BY_6_BRANCH_MEASUREMENT_ATLAS__11_MATHEMATICAL_APPARATUS_PATTERNS__FIVE_RESTRICTED_GLOBAL_RELATION_TYPES__R17_ONLY_FULL_PANEL_CONDITIONAL__ZERO_PHYSICAL_PAIR_ARROW_SELECTOR_OR_REGIME_OWNERS	MIXED	ACTIVE_BRANCH_DEPENDENT_APPARATUS_AVAILABILITY_MAP_AND_NEXT_ON_SHELL_GLOBAL_DESCENT_BOOTSTRAP_OR_PREMISE_DECISION_GATE_ONLY	time-live or on-shell realized branch/query selection; global descent selecting pair surfaces or middle resets; bootstrap closure correlating background completion with local admissibility; explicit observer-query premise; future static branches; physical pair relation path and non-isometric arrow; optional measurement coefficients; physical regime thresholds; universal mixed-geometry c_eff; action source matter mass Xmax CMB signalling or dynamics	R04 aggregate said to inherit one member's instrument panel; mathematical apparatus patterns called physical micro ordinary or cosmological regimes; R17 called the selected universe or physical observer relation; five bounded global restrictions called complete pair owners; pinned static-corpus workflow exhaustion called a theorem about all static geometry; kappa beta U_gamma or phi orchestra erased; time-live bootstrap action source or regime law inferred	udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md	G55_REFINES_G54_BY_MAPPING_THE_COMPLETE_PINNED_24_BRANCH_CORPUS_INTO_BOUNDED_MATHEMATICAL_APPARATUS_PATTERNS_WITHOUT_SELECTING_A_PHYSICAL_PAIR_RELATION_MEASUREMENT_POLICY_OR_REGIME_MAP__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G56	global_descent_pair_surface_reset_ownership	VERIFIED_WITH_CORRECTIONS__24_BY_10_GLOBAL_DESCENT_ATLAS__R17_GLOBAL_PAIR_FOLIATION_PATH_FUNCTOR_AND_SO2_ALIGNMENT_BITORSOR_OWNED__R18_CLOCK_ONLY_ENDPOINT_DESCENT_OWNED__CALIBRATION_RESET_PAIR_QUERY_AND_COMPLETE_SELECTOR_OPEN	MIXED	ACTIVE_BOUNDED_GLOBAL_DESCENT_OWNERSHIP_MAP_AND_NEXT_NATIVE_ON_SHELL_OR_TIME_LIVE_EQUATION_OWNERSHIP_GATE_ONLY	R17 calibration-bearing representative and scalar reset; physical pair leaf path winding and query selector; native on-shell or time-live equation; other branches and degenerate strata; bootstrap background closure; physical non-isometric arrow; universal mixed-geometry c_eff; action source matter mass Xmax CMB signalling or dynamics	SO2 alignment bitorsor called one selected calibration representative; R17 global foliation family called one physical leaf path or winding; R18 clock-only chain silently spliced into R17; lawful path holonomy erased or called failed composition; no complete selector in pinned corpus called a universal no-go; time-live solve launched without an owned native equation; physical regime action source bootstrap or downstream physics inferred	udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md	G56_REFINES_G55_BY_CONSOLIDATING_GLOBAL_PAIR_SURFACE_PATH_CARRY_ALIGNMENT_AND_CLOCK_ONLY_DESCENT_WHILE_LEAVING_CALIBRATION_RESET_PHYSICAL_QUERY_AND_COMPLETE_SELECTOR_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G57	complete_coframe_calibration_transport_from_scratch	VERIFIED_WITH_CAVEATS__LOCAL_LINEAR_POSITIVE_LINE_TRANSPORTS_AFFINE__CANONICAL_METRIC_AND_COMPLETE_COFRAME_TRANSPORTS_ISOMETRIC_ZERO__SUPPLIED_REGULAR_CALIBRATED_PAIR_FAMILY_INDUCES_EXACT_FULL_COFRAME_dPHI_PAIR_WITH_TIME_AND_MIXING__PHYSICAL_FAMILY_TRANSITION_AND_GLOBAL_OWNER_OPEN	MIXED	ACTIVE_CONDITIONAL_PAIR_FAMILY_TRANSPORT_RESULT_AND_NEXT_ON_SHELL_GLOBAL_FAMILY_OWNER_GATE_ONLY	physical calibrated observer-pair family or query selector; lawful transitions among independently rebuilt families; branch path winding and global-completion ownership; null rank-changing cut-locus and nonlocal strata; native on-shell or global family construction; universal mixed-geometry c_eff; action source carrier matter mass bootstrap Xmax CMB signalling or dynamics	supplied calibrated pair family called metric-selected; conditional dphi_pair called a universal physical law; isometric zero transport called absence of observer dilation; algebraically live time dependence called an on-shell time-live solution; catch-proof harness called independent derivation; arbitrary nonlocal transport claimed classified; an extra scalar reset equation invented after a common family is supplied; downstream physics inferred	udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md	G57_REFINES_G56_BY_DERIVING_THE_FULL_DECLARED_LOCAL_TRANSPORT_CLASS_AND_EXACT_SCALAR_DESCENT_ON_A_SUPPLIED_COHERENT_CALIBRATED_PAIR_FAMILY_WHILE_LEAVING_THE_PHYSICAL_FAMILY_TRANSITION_BRANCH_PATH_AND_GLOBAL_OWNER_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G58	copresent_causal_pair_functor_selector	VERIFIED_WITH_CORRECTIONS__SUPPLIED_PAIR_CONE_EXACTLY_JOINS_BETA_PHI_PAIR_AND_CONDITIONAL_CEFF__LOCAL_BIDIRECTIONAL_CAUSAL_ISOMORPHISMS_RETAIN_INFINITE_TRANSITION_CALIBRATION_FREEDOM__NO_AMBIENT_PHYSICAL_FAMILY_MULTIPLICITY_OR_SELECTOR_THEOREM	MIXED	ACTIVE_SCOPED_PAIR_CONE_CAUSAL_JOIN_AND_NEXT_AMBIENT_PHYSICAL_PAIR_SELECTOR_GATE_ONLY	metric/query construction of ambiently distinct pair immersions; quotient by coordinate calibration and null-reparameterization gauge; global causal order reflection and faithfulness; lawful branch/path transitions and cut loci; native on-shell or global family owner; universal physical c_eff and material signalling; action source carrier matter mass bootstrap Xmax CMB or dynamics	local transition or profile freedom called physically distinct ambient pair families; causality said to select or refute a unique physical family; one-way causal maps included in the bidirectional classification; sampled smoke test called theorem-strength independent proof; beta set to zero; conditional c_eff called material signal speed; copresence called causal access; downstream physics inferred	udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md	G58_REFINES_G57_BY_DERIVING_THE_EXACT_COMPLETE_PAIR_CONE_PHI_CEFF_JOIN_AND_CLASSIFYING_LOCAL_BIDIRECTIONAL_CAUSAL_ISOMORPHISMS_WHILE_LEAVING_THE_AMBIENT_PHYSICAL_PAIR_FAMILY_AND_GLOBAL_ON_SHELL_SELECTOR_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G59	pair_instrument_mixing_solution_space	VERIFIED_WITH_CORRECTIONS__CONDITIONAL_SPLIT_RELATIVE_MATRIX_ORCHESTRA_H_EQUALS_HR_PLUS_HA__GENERIC_CONTINUOUS_ORBIT_AND_SIGNED_AREA_LOCKS_DERIVED__ANGULAR_MODULATES_KAPPA_PHI_PAIR_BETA__POSITIVE_WEIGHTS_AND_PHYSICAL_REGIME_CURVE_OPEN	MIXED	ACTIVE_CONDITIONAL_POINTWISE_ORCHESTRA_ATLAS_AND_NEXT_OWNED_BRANCH_CURVE_GATE_ONLY	universal ownership of reciprocal/angular split; physical observer-pair family and path; actual time-live or scale-live curve s to (H_R,H_A); native on-shell or global-completion equation; background density/curvature influence after branch curve ownership; singular projector cut-locus and global strata; positive measurement weights; physical regime thresholds; action source carrier matter mass bootstrap Xmax CMB signalling or dynamics	conditional split-relative channels called full ambient Lorentz invariants; H_R or H_A called universal physical sectors without split ownership; signed R A M called positive probabilities or importance weights; same-h witness called physically distinct universes; off-shell algebra called time-live evolution; algebraic strata labeled micro terrestrial cosmic particle force or background; catch harness called independent proof; c_E used to select weights; R17 split called universal; downstream physics inferred	udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md	G59_REFINES_G58_BY_DERIVING_THE_COMPLETE_SPLIT_RELATIVE_MATRIX_AND_SIGNED_AREA_ORCHESTRA_ATLAS_WHILE_LEAVING_SPLIT_OWNERSHIP_AND_THE_PHYSICAL_TIME_LIVE_REGIME_CURVE_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G60	complete_timelive_orchestra_compatibility	VERIFIED_WITH_CORRECTIONS__FULL_REGULAR_PAIR_ADAPTED_COFRAME_MOVIES_OBEY_EXACT_BASE_ANGULAR_MIXING_COMPATIBILITY__ARBITRARY_TIME_ONLY_FREQUENCIES_SURVIVE__NO_NATIVE_EVOLUTION_CHARACTERISTIC_OR_REGIME_SELECTED	MIXED	ACTIVE_LOCAL_TIMELIVE_KINEMATIC_PARENT_AND_NEXT_OWNED_HISTORY_RESTRICTION_GATE_ONLY	universal ownership of the pair-adapted split; an owned principal differential relation or equivalent global-completion rule restricting full (B,Q,S) histories; physical observer-pair query and path; characteristics dispersion frequencies and regime map; null rank-changing cut-locus boundary and global strata; bootstrap tuning only after a history restriction is owned; action source carrier matter mass Xmax CMB signalling or dynamics	Maurer-Cartan compatibility called an equation of motion; an arbitrary smooth coframe movie called physical evolution; the metric null cone called a field characteristic without a principal operator; algebraically live time called an on-shell solve; R17 stationary split promoted universally; bootstrap density or curvature inserted into the kinematic identities; local nonselection widened to a theorem that no native or global law exists; downstream physics inferred	udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md	G60_REFINES_G59_BY_TURNING_ON_ALL_DECLARED_TIME_AND_SPACE_CHANNELS_AND_DERIVING_THE_EXACT_COMPATIBILITY_ORCHESTRA_WHILE_LEAVING_THE_HISTORY_SELECTION_LAW_GLOBAL_COMPLETION_AND_PHYSICAL_REGIMES_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G61	native_history_restriction_from_scratch	VERIFIED_WITH_CORRECTIONS__COMPLETE_REGULAR_CHART_LOCALLY_FINITE_JET_OPEN_ON_DECLARED_POSITIVE_SCREEN_TIME_ORIENTED_COMPONENT__NO_OWNED_NONIDENTITY_HISTORY_RESTRICTION_FOUND_IN_TEN_FROZEN_SOURCES	MIXED	ACTIVE_CHART_AND_SOURCE_BOUNDED_HISTORY_NONSELECTION_AND_NEXT_GLOBAL_SELECTOR_TYPE_GATE_ONLY	other chart components and split-changing null rank-changing cut-locus strata; physical split and observer query; global causal faithfulness chronology hyperbolicity completeness and descent; owned branch query reset and boundary semantics; first nonidentity global selector; bootstrap only after stronger metric-owned candidates; action source carrier matter mass Xmax CMB signalling or dynamics	local chart openness widened to every global law or branch; preservation of a boundary germ called preservation of global causality or completion; natural curvature readout silently set to zero; Cartan or Bianchi identities called dynamics; the type signature R(j^k g;G_global)=0 called a formula or derived law; bootstrap activated or fitted; deeper expansion of the same regular chart presented as history selection; downstream physics inferred	udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md	G61_REFINES_G60_BY_PROVING_FINITE_JET_OPENNESS_OF_THE_DECLARED_REGULAR_COMPLETE_CHART_AND_FINDING_NO_OWNED_NONIDENTITY_HISTORY_RESTRICTION_IN_THE_TEN_FROZEN_SOURCES_WHILE_LEAVING_GLOBAL_SELECTOR_OWNERSHIP_OTHER_BRANCHES_AND_BOOTSTRAP_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G62	complete_observer_network_assembly_from_scratch	VERIFIED_WITH_CORRECTIONS__FINITE_REGULAR_OBSERVER_NETWORK_HAS_EXACT_ENDPOINT_ATLAS_AND_PATH_LABELLED_ASSEMBLY_IDENTITIES__ROUTE_DEPENDENCE_ALLOWED__UNIVERSAL_FLAT_DESCENT_UNOWNED	MIXED	ACTIVE_NETWORK_ASSEMBLY_AND_PHYSICAL_RELATION_FAMILY_ROUTE_POLICY_OWNERSHIP_GATE_ONLY	physical calibrated observer pair query relation family; physical nonisometric arrow and lawful middle state; endpoint descended path labelled or path quotient policy branch by branch; chosen comparison connection; global causal faithfulness; nonabelian basepoint transport; singular null rank changing cut locus and global strata; action source carrier matter mass bootstrap Xmax CMB signalling or dynamics	K4 d2 or abelian Bianchi bookkeeping called new physics or a history law; endpoint coframe transition called the physical observer arrow; arbitrary separately rebuilt pair surfaces composed without a middle morphism; universal direct equals composite or flatness imposed; continuum curvature inferred without a chosen smooth local connection contractible neighborhood and identity sufficiently small based contractible loop holonomy; c_E set equal at every endpoint or used as a selector; route policy used before relation family ownership; bootstrap activated; downstream physics inferred	udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md	G62_REFINES_G61_AND_G40_BY_ASSEMBLING_THE_FINITE_REGULAR_NETWORK_IN_ENDPOINT_AND_PATH_LABELLED_HOMES_WHILE_CLASSIFYING_FOUR_FACE_COHERENCE_AS_BOOKKEEPING_AND_LEAVING_PHYSICAL_RELATION_FAMILY_ROUTE_POLICY_AND_UNIVERSAL_FLAT_DESCENT_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G63	solved_geometry_relation_family_survivor_atlas	VERIFIED_WITH_CORRECTIONS__BOUNDED_14_WITNESS_SOLVED_ATLAS_RETAINS_ENDPOINT_DEPTH_CAUSAL_PROPAGATORS_FULL_COFRAME_HOLONOMY_AND_R17_NORMAL_HOLONOMY__MULTIPLE_GEOMETRIC_SURVIVOR_FAMILIES__NO_PHYSICAL_SELECTOR_DYNAMICS_OR_STABILITY	OBSERVED	ACTIVE_BOUNDED_SOLVED_GEOMETRY_AND_NEXT_COUPLED_CHANNEL_RELATION_GATE_ONLY	physical calibrated observer query and relation family; metric-native relation or independence among endpoint depth causal propagator full-coframe holonomy and normal holonomy; native on-shell equation and time-live global completion; larger perturbation domains; singular null cut-locus conjugate and boundary strata; action source carrier matter mass bootstrap Xmax CMB signalling or dynamics	bounded persistence called physical or dynamical stability; endpoint scalar and path holonomy forced to compete as definitions of one number; local off-shell time-live witness called native evolution; one sampled family selected; arbitrary wider scan launched before channel invariants and independence contract; coefficients observations bootstrap or desired physics used to rank survivors	udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md	G63_REFINES_G62_G47_G49_G51_G60_BY_SOLVING_THE_EXACT_BOUNDED_WITNESS_ATLAS_AND_OBSERVING_TYPED_ENDPOINT_AND_PATH_CHANNELS_COEXIST_WHILE_LEAVING_THE_PHYSICAL_CHANNEL_RELATION_ON_SHELL_GLOBAL_COMPLETION_AND_ALL_DOWNSTREAM_PHYSICS_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G64	common_query_pair_immersion_reconstruction	VERIFIED_WITH_CAVEATS__QUERY_CLASS_DEPENDENT_CHANNEL_ARCHITECTURE__COMMON_QUERY_CHANNELS_COMPATIBILITY_LINKED_WITH_RETAINED_EXTRINSIC_DATA__PHYSICAL_QUERY_BRANCH_AND_DYNAMICS_OPEN	MIXED	ACTIVE_CONDITIONAL_COMMON_QUERY_RECONSTRUCTION_AND_ACTUAL_CMB_QUERY_TYPING_GATE_ONLY	physical observer query and branch; complete realization family; unresolved Q2 Codazzi certification; global and singular strata; native dynamics and completion; action source carrier matter mass bootstrap Xmax CMB spectrum signalling or regimes	universal preferred path search resumed; pair metric said to determine extrinsic data; nongeodesic ruling assigned a Jacobi channel; unresolved Codazzi called certified; supplied query called selected physical query; downstream physics inferred	udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md	G64_REFINES_G63_BY_PLACING_COEXISTING_ENDPOINT_EXTRINSIC_JACOBI_AND_TRANSPORT_CHANNELS_IN_THEIR_COMMON_TYPED_QUERY_REALIZATION_WHILE_RETAINING_QUERY_CLASS_DEPENDENCE_EXTRINSIC_DATA_AND_PHYSICAL_SELECTION_AS_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G65	native_observer_query_sne_replay	VERIFIED_WITH_CAVEATS__ALL_18_FROZEN_M3_SNE_FITS_AND_443_LEAVES_BIT_IDENTICAL__NATIVE_OBSERVER_QUERY_RETYPING_ALGEBRAICALLY_IDENTICAL__NO_OWNED_COMPLETE_SNE_QUERY_CORRECTION	MIXED	ACTIVE_CONDITIONAL_LOW_Z_COMPATIBILITY_ANCHOR_AND_NEXT_ACTUAL_CMB_QUERY_GATE_ONLY	physical complete SNe query and pair immersion; complete screen-area and flux transport; time-live orchestra trajectory; coefficient-free native correction; independent observations; action source carrier matter mass bootstrap Xmax CMB spectrum or signalling	conditional P1 fit called complete native cosmology; P1 promoted to centered CMB lapse; dA equals r or Etherington readout called complete-metric derivation; conditional pair c_eff called material signal speed; orchestra set to zero or an unowned correction inserted; semantics called numerical improvement	udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md	G65_REFINES_G64_AND_THE_FROZEN_M3_SNE_UNIVERSE_BY_REPLAYING_ALL_RESULTS_UNCHANGED_AND_RETYPING_THEIR_DEPTH_AS_A_SUPPLIED_PAIR_TERMINAL_COORDINATE_WHILE_LEAVING_THE_COMPLETE_SNE_QUERY_SCREEN_TIME_LIVE_HISTORY_AND_NATIVE_CORRECTION_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+G66	complete_CMB_observation_query_map	VERIFIED_AFTER_SPECIFIED_CORRECTIONS__16_SOURCE_F00_F17_QUERY_ARCHITECTURE_MAPPED__NO_COMPLETE_PHYSICAL_CMB_REALIZATION_OWNED__F00_COMPATIBILITY_ONLY	MIXED	ACTIVE_BOUNDED_CMB_QUERY_OWNERSHIP_MAP_AND_NEXT_IDENTICAL_F01_F02_SCREEN_JACOBI_CONTROL_ONLY	physical CMB observer-sky query and pair immersion; screen Jacobi map; response kernel; source state covariance and normalization; physical TT power and polarization; native boundary and population law; action source carrier matter mass bootstrap Xmax value or local signalling	conditional modes called physical CMB peaks; eigenvalues called nonzero power; F00 affine fit called prediction; local artifact checker called independent semantic derivation; catch harness called independent evidence; P1 copied into centered CMB lapse; Xmax used as wall or selector; pair c_eff called local signal speed; F01 or F02 ranked before identical-query construction	udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md	G66_REFINES_G65_G64_AND_THE_F00_F17_CMB_FAMILY_UNIVERSE_BY_TYPING_THE_COMPLETE_OBSERVATION_QUERY_AND_SEPARATING_CONDITIONAL_MODES_FROM_OBSERVER_SKY_MAPPING_AND_POWER_POPULATION_WHILE_LEAVING_THE_PHYSICAL_REALIZATION_SOURCE_AND_RESPONSE_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_CITED_SOURCE__CONFLICT_MEANS_STOP
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/SOURCE_MANIFEST.tsv" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+path	sha256	role
+udt_cmb_G72_metric_screen_response_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md	3e4832707194fcda8bac716b93df28e89705723e5027f9b471ba170b2d35ed77	CURRENT_G72_ADJUDICATION
+udt_cmb_G72_metric_screen_response_join_2026-08-11/EXACT_DERIVATION.md	df319903a8beebe455ad9adde150b484104ec78f5e54ec9be50f155b626960d0	CURRENT_G72_DERIVATION
+udt_cmb_G72_metric_screen_response_join_2026-08-11/G68_RESPONSE_ATLAS.tsv	2c5862c0f9b2bf05fc90f0080e11e606842bf234e24577de856aa58890623595	CURRENT_G72_CONTROL_RESPONSE
+udt_cmb_G71_native_restriction_owner_audit_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md	cebee6f38a612672a6bb9d0ecf7959f687b2cca91c49b7e442b6282871f08072	CURRENT_G71_OWNER_BOUNDARY
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md	3c67542081edd46d32472d4aba5e5abcd21ca9866f4098f58a382a0fe83d6aef	G68_FINITE_PATH_DERIVATION
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_ATLAS.tsv	a3c013122640f36526915d5ea458559ab3086031e3fabe5797cd9076cfdd66aa	G68_FINITE_PATH_DATA
+udt_cmb_complete_observation_query_map_2026-08-11/EXACT_DERIVATION.md	7d7b67f8f8d383336af85694eb0bd514d6789ccf53850d00853f93de00d895c5	CMB_QUERY_TYPE_PARENT
+udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv	bff272867cb5405cb58b33ec552eae54aad182cbd5307c605690f253c7bb1516	OBSERVABLE_TYPE_PARENT
+CURRENT_SCIENTIFIC_PREMISES.tsv	5daae8f8fd7bf5cad0399281bca6514057405a95b362d347e7f26d93da9ecbb9	CURRENT_PREMISES
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/RESPONSE_REGIME_ATLAS.tsv" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+regime	mathematical_map	current_owner	source_status	geometry_signature	missing_joint	maximum_conclusion
+R1_REGULAR_SINGLE_BRANCH	one-to-one sky map plus pointwise M in GL+(2)	DERIVED_CONDITIONAL_ON_SUPPLIED_QUERY	EXACTLY_RECOVERABLE	scale shear rotation and remapping	physical global query and source	no universal source erasure or forced motif
+R2_REGULAR_STRONG_SHEAR	invertible M with singular-value ratio tending to infinity	MATHEMATICAL_LIMIT_NOT_SELECTED	AMPLITUDE_RETAINED_DIRECTION_COMPRESSED	almost all unoriented vectors align to dominant axis	branch or profile reaching the limit	conditional geometry-dominated direction only
+R3_CAUSTIC_OR_FOLD	det(D)=0 or critical sky map	OPEN_DOMAIN_BOUNDARY	NONINVERTIBLE_OR_BRANCHING	rank collapse folding magnification or repeated image	continuation regularization branch and detector rules	candidate kaleidoscope mechanism not derived
+R4_MULTIBRANCH	branch-labelled response family	CONDITIONAL_SET_VALUED_GEOMETRY	ONE_RESPONSE_PER_BRANCH	path-dependent repeated or rotated images possible	selection sum averaging phase population and weights	do not collapse branch set into observable
+R5_G68_CONTROL_TILE	21 regular stationary equatorial endpoint maps	OBSERVED_BOUNDED_CONTROL	INVERTIBLE_AND_WEAKLY_ANISOTROPIC	nonzero area and shear no resolved polar rotation	full sky endpoint profile scale and source	not a strong kaleidoscope on this tile
+
+exec
+/bin/bash -c "sed -n '1,240p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/G68_SOURCE_SENSITIVITY_ATLAS.tsv" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+profile_id	family	status	length_scale_dimensionful	shear_chi	singular_value_ratio_exp_2chi	anisotropy_gain_percent	fraction_within_5deg_unoriented_axis	fraction_within_15deg_unoriented_axis	fraction_within_30deg_unoriented_axis	relative_polar_angle	endpoint_azimuthal_carry_psi	scope
+G68_F01_AM	F01	ENDPOINT_REGULAR_NO_CAUSTIC	0.75592894601845717	0	1	0	0.055555555555555552	0.16666666666666666	0.33333333333333331	0	0	REGISTERED_G68_CONTROL_ONLY
+G68_F01_A0	F01	ENDPOINT_REGULAR_NO_CAUSTIC	0.75000000000000067	0	1	0	0.055555555555555552	0.16666666666666666	0.33333333333333331	0	0	REGISTERED_G68_CONTROL_ONLY
+G68_F01_AP	F01	ENDPOINT_REGULAR_NO_CAUSTIC	0.74420840753525386	0	1	0	0.055555555555555552	0.16666666666666666	0.33333333333333331	0	0	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AM_P05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75620163522105643	0.00014764190688109106	1.0002953274143189	0.02953274143189244	0.055571879426251032	0.16671366855455361	0.33341473859115067	-4.9757454727106651e-31	-0.032810701080796326	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AM_P20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.76024224048501754	0.0023238059699749714	1.0046584288394136	0.46584288394135864	0.055813036107664048	0.1674078470190648	0.33461600100486338	-7.6960542122196643e-27	-0.12946143790625805	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AM_T05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75592847146446351	9.8704618162950954e-06	1.0000197411184859	0.0019741118485905318	0.055556646724626194	0.16666980855910099	0.33333877523100053	-1.6858805317222881e-30	-0.0020804830587823745	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AM_T20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75592133513359483	0.00015783932194576343	1.0003157284756381	0.031572847563809958	0.055573007067885441	0.1667169153513855	0.33342036157933069	-1.7241175221681138e-27	-0.0083161713161907479	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AM_S05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75600259233070455	5.5207236245970325e-05	1.0001104205683942	0.011042056839416503	0.055561658929388351	0.16668424051595135	0.33336377151806201	3.5773747200616517e-27	0.016773993105072989	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AM_S20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75709877473261111	0.00087741900071606723	1.0017563786306909	0.17563786306908913	0.055652636212003073	0.16694617010472762	0.33381729188165266	3.5493059946486842e-24	0.06652495042843086	REGISTERED_G68_CONTROL_ONLY
+G68_F02_A0_P05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75021958187157589	0.00011708050555480179	1.0002341884289392	0.023418842893918601	0.055568500047745405	0.16670393832799987	0.33339788697760681	-2.5344101163292803e-31	-0.028103463733203427	REGISTERED_G68_CONTROL_ONLY
+G68_F02_A0_P20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75347906272847298	0.0018480692492253757	1.0037029776418951	0.37029776418950888	0.055760227924573469	0.16725586754152855	0.33435316764077061	-3.9548803889779336e-27	-0.11114457162109471	REGISTERED_G68_CONTROL_ONLY
+G68_F02_A0_T05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74999902587279099	9.2125129367015489e-06	1.0000184251956152	0.0018425195615234813	0.055556573988416451	0.16666959912400686	0.33333841248131041	-1.180833882205649e-30	-0.0017577287194551683	REGISTERED_G68_CONTROL_ONLY
+G68_F02_A0_T20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74998440276129807	0.00014732239632680655	1.0002946882046941	0.029468820469413792	0.05557184409478029	0.16671356682520347	0.33341456240977368	-1.2080678319250393e-27	-0.0070258915745152152	REGISTERED_G68_CONTROL_ONLY
+G68_F02_A0_S05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75005408518253691	4.5947630937397562e-05	1.0000918994843737	0.0091899484373714202	0.05556063519782916	0.16668129283382965	0.33335866617190607	2.3728585438053272e-27	0.014056536539541352	REGISTERED_G68_CONTROL_ONLY
+G68_F02_A0_S20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.75086067380022681	0.00073194287098289374	1.0014649577457317	0.14649577457317431	0.055636528628386361	0.16689979904478769	0.33373702220031959	2.3763650941702669e-24	0.055875241167844293	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AP_P05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74439114783439297	9.660166202085924e-05	1.000193221989006	0.019322198900595389	0.055566235678896229	0.16669741850327321	0.33338659519325337	-1.4469139938552062e-31	-0.024682118495035137	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AP_P20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74710692781055876	0.0015277449341372785	1.0030601626354276	0.30601626354276323	0.055724698840183891	0.16715360676294244	0.33417626600538686	-2.2628395188561561e-27	-0.097760398603668211	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AP_T05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74420705526204822	8.6611657300522104e-06	1.0000173224814926	0.0017322481492554331	0.055556513037087932	0.16666942362202367	0.33333810850494744	-7.6549947714562223e-31	-0.0014919613803624399	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AP_T20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74418676511019766	0.00013850917097716665	1.0002770567150785	0.027705671507849416	0.055570869537261203	0.16671076079396244	0.3334097027296502	-7.8318467072545475e-28	-0.0059634304339565266	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AP_S05	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74425020565380096	4.0386628183758377e-05	1.0000807765186148	0.0080776518614822379	0.055560020388586304	0.16667952257932486	0.33335560009805831	1.7069724348283777e-27	0.012209984053534552	REGISTERED_G68_CONTROL_ONLY
+G68_F02_AP_S20	F02	ENDPOINT_REGULAR_NO_CAUSTIC	0.74487428530003275	0.0006442078377151795	1.0012892460394864	0.12892460394864358	0.055626816554870909	0.16687183882030343	0.33368861808151151	1.7187363971357016e-24	0.048603011399510537	REGISTERED_G68_CONTROL_ONLY
+
+exec
+/bin/bash -c "sed -n '1,240p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/CATCH_PROOF_RESULTS.json" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+{
+  "caught": {
+    "branch_sum_invented": true,
+    "false_g68_ratio": true,
+    "fold_promoted_to_derived": true,
+    "g68_called_strong": true,
+    "missing_g68_row": true,
+    "physical_cmb_promoted": true,
+    "regular_source_erased": true,
+    "strong_shear_promoted_to_owned": true,
+    "wrong_landing": true
+  },
+  "passed": 9,
+  "schema": "udt-cmb-g73-catches-v1",
+  "total": 9
+}
+
+exec
+/bin/bash -c "sed -n '1,240p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+{
+  "alignment_analytic": {
+    "15.0": 0.1674078470190648,
+    "30.0": 0.3346160010048634,
+    "5.0": 0.05581303610766405
+  },
+  "alignment_grid": {
+    "15.0": 0.16741,
+    "30.0": 0.334615,
+    "5.0": 0.055815
+  },
+  "checks": {
+    "alignment_grid": true,
+    "duplication_rank_and_constraints": true,
+    "g68_direct_svd": true,
+    "g68_max_chi": true,
+    "g68_max_condition": true,
+    "g68_rows": true,
+    "landing": true,
+    "physical_owner_open": true,
+    "rank_loss": true,
+    "regular_global_rank": true,
+    "source_manifest": true
+  },
+  "max_alignment_grid_error": 2.1529809351994444e-06,
+  "max_direct_atlas_error": 0.0,
+  "passed": 11,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g73-source-sensitivity-independent-v1",
+  "status": "PASS",
+  "total": 11
+}
+
+codex
+I’ve now cross-checked the packaged sensitivity atlas and independent verification report. I’m still not relying on them alone; I’m running a direct recomputation from the frozen matrix entries and the packaged verification harness to separate “package consistent” from “actually reproduced here.”
+exec
+/bin/bash -c "python3 - <<'PY'
+import csv, math, os
+root='/tmp/udt_g73_review_LNgXgAxi'
+path=os.path.join(root,'udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11','FINITE_PATH_ATLAS.tsv')
+rows=[]
+with open(path,newline='') as f:
+    r=csv.DictReader(f, delimiter='\\t')
+    for row in r:
+        a=float(row['D_theta_theta']); b=float(row['D_theta_psi']); c=float(row['D_psi_theta']); d=float(row['D_psi_psi'])
+        # singular values from eigenvalues of M"'^T M
+        s11=a*a+c*c
+        s12=a*b+c*d
+        s22=b*b+d*d
+        tr=s11+s22
+        det=s11*s22-s12*s12
+        disc=max(0.0,tr*tr-4.0*det)
+        lam1=(tr+math.sqrt(disc))/2.0
+        lam2=(tr-math.sqrt(disc))/2.0
+        sv1=math.sqrt(max(lam1,0.0)); sv2=math.sqrt(max(lam2,0.0))
+        if sv2==0.0:
+            ratio=float('"'inf'); chi=float('inf')
+        else:
+            ratio=sv1/sv2
+            chi=0.5*math.log(ratio)
+        epsvals={}
+        for deg in (5.0,15.0,30.0):
+            eps=math.radians(deg)
+            epsvals[deg]=(2.0/math.pi)*math.atan(ratio*math.tan(eps))
+        rows.append((row['profile_id'], row['status'], chi, ratio, (ratio-1.0)*100.0, epsvals))
+
+print('ROWS\\t{}'.format(len(rows)))
+for pid,status,chi,ratio,gain,eps in rows:
+    print('\\t'.join([
+        pid,status,
+        f'{chi:.18g}',f'{ratio:.18g}',f'{gain:.18g}',
+        f\"{eps[5.0]:.18g}\",f\"{eps[15.0]:.18g}\",f\"{eps[30.0]:.18g}\"
+    ]))
+mx=max(rows,key=lambda x:x[3])
+print('MAX_RATIO_ROW\\t{}\\t{:.18g}\\t{:.18g}\\t{:.18g}'.format(mx[0],mx[2],mx[3],mx[4]))
+PY" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+ROWS	21
+G68_F01_AM	ENDPOINT_REGULAR_NO_CAUSTIC	0	1	0	0.0555555555555555525	0.166666666666666657	0.333333333333333315
+G68_F01_A0	ENDPOINT_REGULAR_NO_CAUSTIC	0	1	0	0.0555555555555555525	0.166666666666666657	0.333333333333333315
+G68_F01_AP	ENDPOINT_REGULAR_NO_CAUSTIC	0	1	0	0.0555555555555555525	0.166666666666666657	0.333333333333333315
+G68_F02_AM_P05	ENDPOINT_REGULAR_NO_CAUSTIC	0.000147641906944133108	1.00029532741444505	0.0295327414445045733	0.0555718794262580057	0.166713668554573674	0.333414738591185422
+G68_F02_AM_P20	ENDPOINT_REGULAR_NO_CAUSTIC	0.00232380596997883897	1.00465842883942136	0.465842883942135799	0.0558130361076644779	0.167407847019066025	0.334616001004865438
+G68_F02_AM_T05	ENDPOINT_REGULAR_NO_CAUSTIC	9.87046184060850026e-06	1.00001974111853453	0.00197411185345330864	0.0555566467246288859	0.166669808559108734	0.333338775231013962
+G68_F02_AM_T20	ENDPOINT_REGULAR_NO_CAUSTIC	0.000157839321709360572	1.00031572847516514	0.0315728475165144573	0.0555730070678593091	0.166716915351310224	0.333420361579200353
+G68_F02_AM_S05	ENDPOINT_REGULAR_NO_CAUSTIC	5.5207236466325262e-05	1.00011042056883492	0.0110420568834923571	0.0555616589294127133	0.166684240516021459	0.333363771518183527
+G68_F02_AM_S20	ENDPOINT_REGULAR_NO_CAUSTIC	0.000877419000719170433	1.00175637863069711	0.175637863069710853	0.0556526362120034132	0.166946170104728564	0.333817291881654321
+G68_F02_A0_P05	ENDPOINT_REGULAR_NO_CAUSTIC	0.000117080505582106898	1.00023418842899381	0.0234188428993808984	0.0555685000477484231	0.166703938328008616	0.333397886977621793
+G68_F02_A0_P20	ENDPOINT_REGULAR_NO_CAUSTIC	0.00184806924922592867	1.0037029776418962	0.370297764189619905	0.0557602279245735313	0.167255867541528741	0.334353167640770943
+G68_F02_A0_T05	ENDPOINT_REGULAR_NO_CAUSTIC	9.2125123956998369e-06	1.00001842519453321	0.00184251945332114531	0.0555565739883566376	0.166669599123834639	0.333338412481012092
+G68_F02_A0_T20	ENDPOINT_REGULAR_NO_CAUSTIC	0.000147322396203941071	1.00029468820444833	0.0294688204448334545	0.0555718440947667036	0.166713566825164305	0.333414562409706017
+G68_F02_A0_S05	ENDPOINT_REGULAR_NO_CAUSTIC	4.59476309862428891e-05	1.00009189948447141	0.00918994844714138281	0.0555606351978345583	0.166681292833845168	0.333358666171932994
+G68_F02_A0_S20	ENDPOINT_REGULAR_NO_CAUSTIC	0.000731942870971031699	1.00146495774570798	0.146495774570798432	0.0556365286283850569	0.166899799044783914	0.333737022200313094
+G68_F02_AP_P05	ENDPOINT_REGULAR_NO_CAUSTIC	9.66016619299495382e-05	1.0001932219888241	0.0193221988824099355	0.0555662356788861819	0.166697418503244238	0.333386595193203239
+G68_F02_AP_P20	ENDPOINT_REGULAR_NO_CAUSTIC	0.00152774493413694655	1.00306016263542697	0.30601626354269662	0.0557246988401838561	0.167153606762942331	0.334176266005386746
+G68_F02_AP_T05	ENDPOINT_REGULAR_NO_CAUSTIC	8.66116301482679316e-06	1.00001732247606201	0.00173224760620094287	0.0555565130367877552	0.166669423621159385	0.333338108503450359
+G68_F02_AP_T20	ENDPOINT_REGULAR_NO_CAUSTIC	0.000138509171181946071	1.00027705671548817	0.0277056715488166461	0.0555708695372838443	0.166710760794027607	0.333409702729763058
+G68_F02_AP_S05	ENDPOINT_REGULAR_NO_CAUSTIC	4.03866287957748912e-05	1.00008077651983895	0.0080776519838954286	0.0555600203886539717	0.166679522579519707	0.33335560009839571
+G68_F02_AP_S20	ENDPOINT_REGULAR_NO_CAUSTIC	0.00064420783775997483	1.00128924603957614	0.128924603957614181	0.05562681655487587	0.166871838820317697	0.333688618081536159
+MAX_RATIO_ROW	G68_F02_AM_P20	0.00232380596997883897	1.00465842883942136	0.465842883942135799
+
+exec
+/bin/bash -c 'python3 /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/verify_package.py' in /tmp/udt_g73_review_LNgXgAxi
+ exited 1 in 0ms:
+Traceback (most recent call last):
+  File "/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/verify_package.py", line 81, in <module>
+    main()
+  File "/tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/verify_package.py", line 59, in main
+    status = subprocess.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'status', '--porcelain=v1', '--untracked-files=all']' returned non-zero exit status 128.
+
+codex
+The direct matrix recomputation is complete and matches the packaged atlas to rounding. One packaged verifier is environment-sensitive because this sealed intake is not a Git checkout, so I’m switching to the independent verification scripts that do not depend on repository state.
+exec
+/bin/bash -c "sed -n '1,240p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/DERIVATION_RESULT.json" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+{
+  "exact_checks": {
+    "canonical_common_area_is_ell_squared": true,
+    "direction_tangent_compresses_by_q_squared": true,
+    "finite_global_regular_inverse_exact": true,
+    "finite_global_regular_map_full_rank": true,
+    "global_sphere_note": "a smooth everywhere-local-diffeomorphism S2-to-S2 is a covering; connected S2 is simply connected, so nontrivial self-multiplicity requires critical/branch points",
+    "noninjective_duplication_imposes_repeated_images": true,
+    "pointwise_inverse_exact": true,
+    "rank_loss_collapses_one_direction": true
+  },
+  "g68_control": {
+    "baseline_alignment_fraction_15deg": 0.16666666666666666,
+    "baseline_alignment_fraction_30deg": 0.3333333333333333,
+    "baseline_alignment_fraction_5deg": 0.05555555555555555,
+    "max_alignment_fraction_15deg": 0.1674078470190648,
+    "max_alignment_fraction_30deg": 0.3346160010048634,
+    "max_alignment_fraction_5deg": 0.05581303610766405,
+    "max_anisotropy_gain_percent": 0.46584288394135864,
+    "max_shear_chi": 0.0023238059699749714,
+    "max_singular_value_ratio": 1.0046584288394136,
+    "rows": 21
+  },
+  "landing": "REGULAR_SKY_RESPONSE_SOURCE_INVERTIBLE__ROBUST_KALEIDOSCOPE_REQUIRES_GLOBAL_BRANCHING_SINGULARITY_OR_SOURCE_RESTRICTION",
+  "maximum_conclusion": "regular one-to-one G72 response preserves arbitrary source information exactly; geometry can dominate direction in a strong-shear limit, while robust repeated-image kaleidoscope behavior requires a global non-bijective or singular branch structure, or a restricted source family, none of which is selected by the current controls",
+  "schema": "udt-cmb-g73-source-sensitivity-v1",
+  "source_manifest_rows": 9,
+  "status": {
+    "g68_kaleidoscope_strength": "OBSERVED_WEAK_ON_BOUNDED_TILE",
+    "multibranch_observable_combination": "OPEN_NO_OWNER",
+    "physical_cmb_source_and_observable": "OPEN_NO_OWNER",
+    "rank_loss_or_fold_kaleidoscope": "POTENTIAL_MECHANISM_OPEN_NO_BRANCH_OWNER",
+    "regular_single_branch_source_recovery": "DERIVED_EXACT",
+    "strong_shear_directional_alignment": "DERIVED_ASYMPTOTIC_CONDITIONAL"
+  }
+}
+
+codex
+I’ve reached the main decision point. The algebra and G68 replay are holding up, but I’m checking whether the package’s headline overstates the topology requirement by collapsing “noninjective covering/branch structure” into “branching or singularity” too broadly.
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/LAY_REPORT.md" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+# G73 lay report
+
+The kaleidoscope idea survives, but we can now say exactly what it needs.
+
+An ordinary smooth lens can radically change the appearance of one particular picture while still
+being reversible. If we know the lens perfectly, we can reconstruct the original. That is the
+current regular UDT response: the unique cosmic mass pattern may remain decisive even though UDT
+distorts what we see.
+
+A stronger kaleidoscope does something more. It copies the same source feature into several places,
+folds directions together, or squashes almost every orientation onto a preferred geometric axis.
+Those operations can impose repeated motifs and symmetries that overwhelm the source's original
+organization.
+
+The existing G68 controls do not do that strongly. Their largest directional stretching difference
+is under half a percent. But those controls cover only a small regular stationary tile, not the
+complete sky near extreme dilation. They therefore neither prove nor disprove the cosmic
+kaleidoscope.
+
+The next object to map is not another collection of random source images. It is the optical layout
+itself: where the complete UDT sky relation is one-to-one, where it repeats images, where several
+paths arrive, and where it folds or becomes singular. Once that layout is known, broad source
+ensembles can test whether geometry or the unique mass distribution controls each observed feature.
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/PACKAGE_VERIFICATION_RESULT.json" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+{
+  "checks": {
+    "catches": true,
+    "exact_checks": true,
+    "g68_rows": true,
+    "g68_strength": true,
+    "independent": true,
+    "landing": true,
+    "owners_open": true,
+    "protected_excluded": true,
+    "protected_metadata": true,
+    "required_files": true,
+    "source_count_and_hashes": true
+  },
+  "landing": "REGULAR_SKY_RESPONSE_SOURCE_INVERTIBLE__ROBUST_KALEIDOSCOPE_REQUIRES_GLOBAL_BRANCHING_SINGULARITY_OR_SOURCE_RESTRICTION",
+  "passed": 11,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g73-package-v1",
+  "status": "PASS",
+  "total": 11
+}
+
+exec
+/bin/bash -c "sed -n '1,220p' /tmp/udt_g73_review_LNgXgAxi/udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/REPOSITORY_GATES.json" in /tmp/udt_g73_review_LNgXgAxi
+ succeeded in 0ms:
+{
+  "authorized_control_changes": [
+    " M CURRENT_RESEARCH_PROGRAM.md",
+    " M CURRENT_SCIENTIFIC_PREMISES.md",
+    " M HANDOFF.md",
+    " M INDEX.md",
+    " M INFLIGHT_STATE.md",
+    " M LIVE.md",
+    " M MEMORY.md",
+    " M README.md",
+    " M research/README.md",
+    " M research/_registry/README.md"
+  ],
+  "checked_markdown_links": 5,
+  "current_paths": 1114,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_hashes": {
+    "native_action_arm_c_2026-07-18/SHA256SUMS.txt": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+    "native_action_final_adjudication_2026-07-18/SHA256SUMS.txt": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+    "native_action_stage1_2026-07-18/arm_A/SHA256SUMS.txt": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+    "native_action_stage1_2026-07-18/arm_B/SHA256SUMS.txt": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+    "native_action_stage2_2026-07-18/arm_A/SHA256SUMS.txt": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+    "native_action_stage2_2026-07-18/arm_B/SHA256SUMS.txt": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45"
+  },
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "premise_guards": 66,
+  "protected_untracked_contents_read": false,
+  "protected_untracked_path_count": 7,
+  "pytest": "98 passed, 1 xfailed",
+  "replay_stdout_stderr_sha256": {
+    "catches": "173cfa9105fe9d9c51aa2f8eafc207635c34711f1d6a5ad33c0169127c0e127b",
+    "independent": "4e5c3c1acce061bc1ef4c48b4463c9f8f70ebfd513235377e80b77960de8db02",
+    "package": "afe768d52a47002018a15e20fdd85b45540aece8ecebc5d45ac6b872a9ce9a08",
+    "production": "844ff6d55f7792bf1e803000b5ef84a3a3524baba5aed33c18c3a00408f9415c"
+  },
+  "schema": "udt-cmb-g73-repository-gates-v1",
+  "status": "PASS",
+  "unexpected_dirty_paths": []
+}
+
+codex
+`VERIFIED_WITH_CAVEATS`
+
+`DERIVED`
+- `Type`: the sealed intake correctly separates scalar pullback `s_o=s∘f` from source-screen vector/tensor response `\tilde v_o(n)=M(n)v(f(n))` with `M(n)=U(n)^{-1}D(n)` on the regular same-query stratum. No silent TT/polarization identification is justified.
+- `Algebra`: if `f:S_o→S_s` is bijective and `M(n)∈GL^+(2)` pointwise, then `s(p)=s_o(f^{-1}(p))` and `v(p)=M(f^{-1}(p))^{-1}\tilde v_o(f^{-1}(p))`. The exact source-recovery theorem is correct: regular one-branch response does not erase arbitrary source information.
+- `Strong shear`: in canonical form `P=ℓ diag(e^χ,e^{-χ})`, the angle map `tan β=e^{-2χ} tan α` and cone fraction `F(χ,ε)=(2/π) atan(e^{2χ} tan ε)` are correct. As `χ→∞`, normalized direction becomes geometry-dominated except on the minor-axis exceptional set; source amplitude is retained in the surviving component.
+- `Topology`: the intake correctly distinguishes:
+  - invertible but visually dominant distortion;
+  - one source copied to several observer directions by noninjective `f`;
+  - several branch/path responses arriving at one observer direction;
+  - caustic/rank loss;
+  - physical combination/detector rules.
+- For smooth regular self-maps `S^2→S^2`, a nontrivial repeated whole-sky self-image cannot stay everywhere regular; critical/branch points are required. Different source topology or partial-sky domains can escape that `S^2` self-covering no-go.
+
+`OBSERVED`
+- I verified all `32/32` manifest hashes before using sealed evidence.
+- Recomputing directly from frozen `FINITE_PATH_ATLAS.tsv`, all `21` G68 rows are `ENDPOINT_REGULAR_NO_CAUSTIC`.
+- The strongest row is `G68_F02_AM_P20` with `χ=0.00232380596997883897`, singular-value ratio `1.00465842883942136`, and anisotropy gain `0.465842883942135799%`.
+- The strongest preregistered unoriented-axis fractions shift only from baseline to:
+  - `5°`: `0.0555555556 → 0.0558130361`
+  - `15°`: `0.1666666667 → 0.1674078470`
+  - `30°`: `0.3333333333 → 0.3346160010`
+- So the frozen G68 tile is weakly anisotropic, not a strong kaleidoscope. No branch multiplicity, many-to-one observer collapse, or caustic is observed there.
+
+`CHOSE_QUERY`
+- The sealed result is bounded to the supplied regular same-query G72 response and the frozen stationary/equatorial 21-row G68 control tile.
+- It is not a complete physical CMB observer-sky realization, not a source model, and not a detector/readout law.
+
+`CONDITIONAL`
+- The headline classification is valid if read as: robust repeated-image kaleidoscope requires global noninjectivity/branching, singularity on the `S^2` self-map case, or source restriction.
+- Caveat: if that headline is read as “singularity is always required,” it is too strong; regular noninjective covers can still occur for different source topology or partial-sky domains.
+- Source ensembles are premature for resolving the global fork, but a smaller lawful ensemble test is already owned on the regular control tile and would only reconfirm invertibility plus weak anisotropy there.
+
+`WORKING`
+- `X_max`, SNe, bootstrap, global scale, endpoint/profile completion, and co-presence/global-completion semantics remain inactive/working only.
+
+`OPEN`
+- Physical CMB observer query, source state/statistics/normalization, detector or branch-combination rule, TT/TE/EE/BB observable map, caustic continuation, multibranch weights/phases, and the actual full-sky branch/critical atlas remain unowned.
+
+`Lay adjudication`
+- A complicated lens can dominate appearance without destroying the original picture if the lens is still reversible. The sealed intake supports that reversible-distortion result. A true kaleidoscope needs real repeated-source directions, folds/critical points for whole-sky `S^2` self-imaging, or an extra rule that combines multiple arriving branches, and the present G68 controls do not show that.
+tokens used
+64,209
+
+Script done on 2026-08-11 18:25:07-04:00 [COMMAND_EXIT_CODE="0"]

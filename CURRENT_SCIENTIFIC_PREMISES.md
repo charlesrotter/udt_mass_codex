@@ -17,7 +17,10 @@ has a conditional geometry-dominated directional limit, while repeated-image kal
 requires global branching/noninjectivity, critical/fold structure, or restricted source statistics.
 G68 is weakly anisotropic on its bounded tile and does not test the complete asymptotic sky. No
 physical source, endpoint/profile, scale, branch combination, detector, or observable is selected.
-External review is pending.
+External review verified `32/32` hashes and upheld the result. The additions-only topology
+correction restricts the critical-point requirement to repeated whole-sky smooth `S^2 -> S^2`
+self-imaging; different topology, partial skies, and branch-labelled relations remain separately
+open.
 
 ## G72 parent lead
 

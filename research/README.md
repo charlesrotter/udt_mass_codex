@@ -12,7 +12,10 @@ Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 source recovery for regular bijective response, derives the conditional strong-shear directional
 limit, and identifies global branching/noninjectivity or critical/fold structure as the next home
 of a robust kaleidoscope. The bounded G68 tile is weakly anisotropic, not a full-sky test. External
-review is pending. Its parent is
+review verified `32/32` hashes and upheld the result. The topology correction limits the critical-
+point requirement to repeated whole-sky smooth `S^2` self-imaging. Read
+`../udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md` and
+`../udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/TOPOLOGY_SCOPE_CORRECTION.md`. Its parent is
 `../udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`. On a supplied regular
 query, same-query Jacobi deformation and screen transport derive common scale, shear, and relative
 polar rotation. This source-free geometric response is externally verified as conditional after
@@ -51,6 +54,8 @@ holonomy, and R17 normal holonomy throughout its exact bounded `14`-witness atla
 geometric coexistence, not physical selection, dynamics, global completion, or stability.
 Read in order:
 `../udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`, then
+`../udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`../udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/TOPOLOGY_SCOPE_CORRECTION.md`, then
 `../udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXACT_DERIVATION.md`, then
 `../udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`, then
 `../udt_cmb_G72_metric_screen_response_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
