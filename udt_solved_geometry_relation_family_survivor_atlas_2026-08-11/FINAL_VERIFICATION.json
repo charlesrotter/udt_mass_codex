@@ -1,0 +1,32 @@
+{
+  "catch_proofs": {
+    "passed": 23,
+    "total": 23
+  },
+  "external_review_landing": "MULTIPLE_GEOMETRIC_SURVIVOR_FAMILIES",
+  "independent": {
+    "checks": 56,
+    "pass_count": 56,
+    "status": "PASS"
+  },
+  "package_grade": "VERIFIED_WITH_CORRECTIONS",
+  "provenance": {
+    "frozen_source_commit": "4046b46279e87121e1c84373cafa3068d5b50354",
+    "original_intake_files": 50,
+    "original_package_files": 28,
+    "source_files": 22,
+    "status": "PASS"
+  },
+  "repository_tests": {
+    "passed": 98,
+    "xfailed": 1
+  },
+  "schema": "UDT_SOLVED_GEOMETRY_FINAL_VERIFICATION_V1",
+  "status": "PASS",
+  "survivors": {
+    "endpoint_regular": 14,
+    "levi_civita_nonidentity": 28,
+    "normal_holonomy_nonzero": 18,
+    "propagator_regular": 28
+  }
+}

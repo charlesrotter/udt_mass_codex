@@ -1,0 +1,21 @@
+{
+  "checks": 56,
+  "maxima": {
+    "atlas_defect": 6.718286562879488e-16,
+    "geodesic_endpoint_diff": 1.0777702837323036e-11,
+    "geodesic_norm_drift": 3.5177416535248085e-12,
+    "holonomy_matrix_diff": 6.632855803971152e-10,
+    "normal_angle_diff": 2.1001256289565617e-13,
+    "r17_phi_identity_defect": 1.6653345369377348e-16,
+    "transport_metric_defect": 8.186194983820604e-12
+  },
+  "pass_count": 56,
+  "production_hashes": {
+    "DERIVATION_RESULT.json": "7106ebb1857a74d7d02becf29e33856473b50a8dbfde4899658bc8fad949efd8",
+    "GEODESIC_DIAGNOSTICS.tsv": "9f245659ce01e7de0a5bd3dedef2baf68f40dbb3dc731117500f80d247b24e44",
+    "PATH_DIAGNOSTICS.tsv": "ea0a7214e3f5a63dfd6440f7cc9ebea53c0ee1ef5c3ee87d88df0cc36c4c4eb2",
+    "SOLVED_GEOMETRY_ATLAS.tsv": "65d28f50109fbcdb056eeb365a9b51d8bc4806dce0cc2f4e730d5d4f17c13b7b"
+  },
+  "schema": "UDT_SOLVED_GEOMETRY_INDEPENDENT_V1",
+  "status": "PASS"
+}

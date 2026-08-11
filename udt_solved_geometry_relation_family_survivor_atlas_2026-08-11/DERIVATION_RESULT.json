@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "geodesics": 28,
+    "paths": 28,
+    "samples": 14
+  },
+  "schema": "UDT_SOLVED_GEOMETRY_SURVIVOR_ATLAS_V1",
+  "scope": "bounded_metric_geometry_not_physical_stability",
+  "status": "PRODUCTION_COMPLETE_INDEPENDENT_PENDING",
+  "threshold_counts": {
+    "endpoint_regular": 14,
+    "nonidentity_loops": 28,
+    "numeric_unresolved": 0,
+    "regular_propagators": 28
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "scipy": "1.15.3"
+  }
+}

@@ -1,0 +1,24 @@
+test_id	statement	status
+C01	exact preregistered 14-row universe	PASS
+C02	missing sample is rejected	PASS
+C03	duplicate sample is rejected	PASS
+C04	output row counts are 14/28/28	PASS
+C05	every sample occurs once in atlas and four times in solved diagnostics	PASS
+C06	positive/zero/negative perturbations retained	PASS
+C07	all endpoint atlas defects pass registered tolerance	PASS
+C08	R17 pair readout reproduces field phi	PASS
+C09	all geodesic norm and transport defects pass	PASS
+C10	all declared dexp maps retained and classified	PASS
+C11	all loops retained and metric-compatible	PASS
+C12	nonidentity is observed rather than preferred	PASS
+C13	independent verifier passes all 56 comparisons	PASS
+C14	independent verifier does not import production solver	PASS
+C15	independent hashes bind exact production evidence	PASS
+C16	source scope excludes protected and stopped paths	PASS
+C17	solver does not invoke protected or stopped paths	PASS
+C18	no cE, Xmax, bootstrap, action, or matter parameter enters numerical solver	PASS
+C19	time-live family visibly depends on all four coordinates and epsilon	PASS
+C20	endpoint composition survives independent presentation changes	PASS
+C21	nonidentity loop remains nonidentity after basis conjugation	PASS
+C22	production result is explicitly non-physical scope	PASS
+C23	preregistered prose avoids physical-stability and uniqueness overclaim	PASS
