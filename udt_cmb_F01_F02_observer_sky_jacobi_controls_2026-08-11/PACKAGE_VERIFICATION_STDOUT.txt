@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "J01_source_hashes": true,
+    "J02_identical_query": true,
+    "J03_complete_F02": true,
+    "J04_round_limit": true,
+    "J05_query_type": true,
+    "J06_screen_symmetry": true,
+    "J07_local_scope": true,
+    "J08_source_ownership": true,
+    "J09_observer_local_guard": true,
+    "J10_no_control_selection": true,
+    "J11_independence": true,
+    "J12_complete_subloci": true,
+    "exact_factorization": true,
+    "semantic_guards": true
+  },
+  "passed": 14,
+  "total": 14
+}

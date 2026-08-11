@@ -1,0 +1,19 @@
+{
+  "caught": {
+    "J01_source_hash": true,
+    "J02_query_mismatch": true,
+    "J03_zero_F02": true,
+    "J04_mutate_round_limit": true,
+    "J05_nonnull_query": true,
+    "J06_nonsymmetric_screen": true,
+    "J07_scope_promotion": true,
+    "J08_infer_TT_power": true,
+    "J09_local_c_eff": true,
+    "J10_select_F02": true,
+    "J11_false_independence": true,
+    "J12_drop_sublocus": true
+  },
+  "diagnostics": {},
+  "passed": 12,
+  "total": 12
+}

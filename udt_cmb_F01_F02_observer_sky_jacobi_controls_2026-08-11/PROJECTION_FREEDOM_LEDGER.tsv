@@ -1,0 +1,7 @@
+historical_freedom	correct_mathematical_home	what_this_control_derives	what_remains_open	status_after_control
+affine_scale	observer-sky_Jacobi_map_plus_remote_source_scale	F01_D=sI_conditionally; F02_local_directional_cubic_correction	physical endpoint complete profile source scale and finite integration	GEOMETRIZED_HOME_BUT_NOT_NUMERICALLY_CLOSED
+affine_offset	mode_operator_boundary_phase	no offset term from screen Jacobi geometry	physical operator boundary and source population	NOT_OWNED_BY_THIS_QUERY
+directional_distortion	screen_Jacobi_tracefree_part	F01_zero; F02_shear_plus=-tau/2	complete path profile and physical screen	NEW_NONAFFINE_GEOMETRIC_CHANNEL
+screen_rotation	antisymmetric_Jacobi_or_screen_transport	zero at registered local cubic order	finite path holonomy and orientation-sensitive source	LOCALLY_ZERO_NOT_GLOBALLY_EXCLUDED
+TT_power	source_state_covariance_plus_response	none	native source population and response	OPEN
+

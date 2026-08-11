@@ -1,0 +1,9 @@
+sublocus	conditions	cubic_tidal_result	classification	remaining_open
+ROUND_F01	h0=h1=h2=0	T=0	EXACT_ROUND_CONTROL	remote endpoint and source scale
+MIXING_ZERO_AT_EVENT	h0=0; h1,h2 arbitrary	T=0	EXACT_LOCAL_CUBIC_DEGENERACY	higher Jacobi order and finite path
+NONZERO_MIX_CANCELLATION	h0!=0; N=0	T=0	CODIMENSION_ONE_LOCAL_JET_SUBLOCUS	higher order and global persistence
+GENERIC_MIXING	h0*N!=0	T=diag(0,tau)	ONE_AXIS_AREA_AND_SHEAR	profile path endpoint and source
+WEAK_MIXING	(h0,h1,h2)=epsilon*(H0,H1,H2)	tau=epsilon^2*tau2+O(epsilon^4)	NO_LINEAR_OR_CUBIC_AMPLITUDE_TERM	selected mixing amplitude and profile
+POSITIVE_CONTROL	first exact rational verifier sample	tau=5312099/109652445	EXISTENCE_WITNESS_NOT_PHYSICS	sign selection
+NEGATIVE_CONTROL	second exact rational verifier sample	tau=-20691746025/246491864192	EXISTENCE_WITNESS_NOT_PHYSICS	sign selection
+
