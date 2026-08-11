@@ -7,15 +7,26 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G66 CHECKPOINT:**
+**CURRENT G67 CHECKPOINT:**
+`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md` constructs the same
+explicit local observer-sky query on F01 and F02. Exact local results are `T_F01=0` and
+`T_F02=diag(0,tau)`, with weak mixing entering at quadratic order and no antisymmetric rotation at
+the registered order. The F01 radial Jacobi map conditionally integrates to `D=sI`; F02's finite
+map still needs a complete profile, path, and endpoint. The sky-map layer is therefore no longer
+just an untyped affine conversion, but neither historical fitted scale nor mode offset has yet
+become a physical prediction. Local independent algebra and repository gates pass. Evidence grade
+is `LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW`; the next gate is the sealed cold
+review, not finite-path integration or eigensolving.
+
+**G66 PARENT CHECKPOINT:**
 `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md` maps the complete currently
 registered CMB observation-query architecture across 16 frozen sources and F00--F17. It records 14
 typed query layers, four observable classes, zero owned complete physical CMB realizations, and
 exactly one historical attributed TT-position family: F00. The `10,080` C0 roots and `15,420` C1
 matrix elements remain conditional controls. External semantic review returned
 `VERIFIED_AFTER_SPECIFIED_CORRECTIONS`; its only repairs separate deterministic rendering and local
-artifact consistency from independent semantic review. The next bounded question is the identical
-declared observer-sky query and screen Jacobi map on F01/F02 before any eigensolve. No ranking, fit,
+artifact consistency from independent semantic review. Its bounded F01/F02 Jacobi question is the
+completed G67 lead above. No ranking, fit,
 population, bootstrap, or local-signalling inference is authorized.
 
 **G65 PARENT CHECKPOINT:**

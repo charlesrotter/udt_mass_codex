@@ -6,9 +6,26 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; COMPLETE OBSERVATION-QUERY MAP EXTERNALLY VERIFIED AFTER CORRECTIONS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; F01/F02 OBSERVER-SKY JACOBI CONTROLS LOCALLY COMPLETE AND INDEPENDENTLY REPRODUCED; EXTERNAL REVIEW PENDING) ============
 
-**LATEST GATE — COMPLETE CMB OBSERVATION-QUERY MAP COMPLETE,
+**LATEST GATE — F01/F02 OBSERVER-SKY JACOBI CONTROL COMPLETE LOCALLY,
+`LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW`.** Read
+`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`. One identical preregistered equatorial observer-sky query was applied to the
+round F01 and axis-regular mixing-on F02 controls before any eigensolve or fit. F01 has exact radial
+screen tidal matrix `T=0` for arbitrary regular local `A(r)` and conditionally integrates to
+`D(s)=sI` along a regular radial branch. F02 has `T=diag(0,tau)`, with exact `tau` determined by
+`A,h` and their first two radial derivatives; generic weak mixing first enters quadratically. The
+cross/antisymmetric rotation channel is zero at this local order, while positive, negative, and
+zero/cancellation subloci all survive. The observer-sky Jacobi map is now the correct geometric
+home of projection scale, but no remote endpoint, complete profile, or source scale is selected;
+the old mode-ladder offset remains boundary/operator-owned. Exact production and an independent
+lowered-Riemann implementation agree `6/6`; package gates pass `14/14`, mutations `12/12`, tests
+`98 passed, 1 xfailed`, and all six frozen manifests remain exact. NEXT: sealed cold semantic review
+of the 33-file manifest. Do not begin a finite-path integration, select F01/F02, restart FD2, fit
+peaks, add source populations, infer local signalling, or promote this lead before review.
+
+**PARENT GATE — COMPLETE CMB OBSERVATION-QUERY MAP COMPLETE,
 `VERIFIED-AFTER-SPECIFIED-CORRECTIONS`.** Read
 `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, then
 `EXTERNAL_REVIEW_ADJUDICATION.md`. Across the exact frozen `16`-source and `F00`--`F17` universe,
@@ -23,8 +40,9 @@ confirmed the semantic census and required only evidence-label repairs: the prod
 deterministic renderer, the `21/21` local checker certifies artifact consistency, and the `10/10`
 mutations test that checker. P1 remains a low-z pair-profile anchor, `X_max` a pair asymptotic guard,
 and `c_eff^(pair)` an inter-observational readout—not a centered lapse, selector, or local speed.
-NEXT: preregister one identical observer-sky query on the round F01 and axis-regular mixing-on F02
-controls and derive each screen Jacobi map before any eigensolve. Do not rank the controls, restart
+HISTORICAL NEXT (completed by the G67 lead above): preregister one identical observer-sky query on
+the round F01 and axis-regular mixing-on F02 controls and derive each screen Jacobi map before any
+eigensolve. Do not rank the controls, restart
 FD2, fit peaks, add populations, activate bootstrap, infer local propagation, or claim a CMB
 prediction.
 

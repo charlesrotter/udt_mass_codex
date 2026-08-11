@@ -7,17 +7,23 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The current G66 gate is
+**CMB PEAK OPTIMIZATION**. The current G67 local gate is
+`../udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`: the identical
+observer-sky control gives exact `T_F01=0` and `T_F02=diag(0,tau)`, with quadratic weak-mixing
+onset and no local cubic rotation. It is independently reproduced locally but pending sealed
+semantic review. No finite-path integration, eigensolve, or physical selection is authorized.
+Its G66 parent is
 `../udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`: 16 frozen sources and all
 F00--F17 families map to 14 query layers and four observable classes, with zero owned complete
 physical CMB realizations. F00 is only a historical mode-location/affine-position compatibility
 diagnostic. External semantic review returned `VERIFIED_AFTER_SPECIFIED_CORRECTIONS`; the local
-21/21 checker is artifact consistency and its 10/10 mutations are validator catches. Next is the
-same explicit observer-sky query and screen Jacobi map on F01/F02 before eigensolving. The G63
+21/21 checker is artifact consistency and its 10/10 mutations are validator catches. The G63
 solved-geometry parent retains endpoint reciprocal depth, causal propagators, full-coframe
 holonomy, and R17 normal holonomy throughout its exact bounded `14`-witness atlas. This is typed
 geometric coexistence, not physical selection, dynamics, global completion, or stability.
 Read in order:
+`../udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+`../udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then
 `../udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, then
 `../udt_cmb_complete_observation_query_map_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `../udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then

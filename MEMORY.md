@@ -4,18 +4,22 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, complete CMB observation-query map externally verified after corrections)
+## TOP — CURRENT POINTER (2026-08-11, F01/F02 observer-sky Jacobi controls locally complete; external review pending)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
-`udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`: the exact 16-source/F00--F17
+**CMB PEAK OPTIMIZATION**. The controlling local checkpoint is now
+`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`: one identical
+preregistered observer-sky query gives exact `T_F01=0` and `T_F02=diag(0,tau)`, with quadratic
+weak-mixing onset and no antisymmetric rotation at cubic Jacobi order. The sky projection now has a
+metric/Jacobi home, while physical endpoint/profile/source scale and mode offset remain open. The
+result is independently reproduced locally and awaits sealed adversarial review. Parent:
+`udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, where the exact 16-source/F00--F17
 universe maps to 14 typed query layers and four observable classes, with no complete physical CMB
 realization owned. F00 remains only a historical conditional mode-location/affine-position
 compatibility diagnostic. External review returned `VERIFIED_AFTER_SPECIFIED_CORRECTIONS`; local
 machine checks now honestly certify artifact consistency while the reviewer owns semantic
-independence. Next is the same explicit observer-sky query and screen Jacobi map on F01/F02 before
-eigensolving. Its query-architecture parent is
+independence. Its query-architecture parent is
 `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`: a complete typed query,
 not a universal preferred path, is the conditional home of the metric's endpoint, extrinsic,
 Jacobi-when-geodesic, and transport channels. The R17 leaf and time-live Fermi queries own different

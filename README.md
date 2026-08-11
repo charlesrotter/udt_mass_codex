@@ -5,14 +5,19 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+The active arc is **CMB PEAK OPTIMIZATION**. Its current local checkpoint is
+`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`: one identical
+observer-sky query gives `T_F01=0` and `T_F02=diag(0,tau)`, with generic weak mixing first entering
+quadratically. This locates projection scale in a metric-derived Jacobi map but leaves the remote
+endpoint, complete profile, source scale, and mode offset open. The result is independently
+reproduced locally and awaits sealed adversarial review; no finite-path solve or eigensolve is yet
+authorized. Its parent is
 `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`: the exact 16-source/F00--F17
 universe is mapped into 14 query layers and four observable classes, with no complete physical CMB
 realization currently owned. F00 retains only the historical conditional mode-location plus affine
 TT-position compatibility result. External review returned `VERIFIED_AFTER_SPECIFIED_CORRECTIONS`;
 the science survived, while local machine checks were correctly relabeled artifact consistency.
-The next bounded gate derives the same declared observer-sky screen/Jacobi map on F01 and F02 before
-any eigensolve or fit. Its SNe parent,
+Its next bounded gate was the now-completed local F01/F02 control above. Its SNe parent,
 `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, has all 18 frozen M3 Pantheon+ fits
 and 443 stored leaves replay exactly, and the corrected terminal observer-pair typing leaves the
 P1/P2/P3 formulas unchanged. External review returned `VERIFIED_WITH_CAVEATS` and upheld that no

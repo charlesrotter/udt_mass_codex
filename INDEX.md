@@ -10,6 +10,8 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
+   `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then
    `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, then
    `udt_cmb_complete_observation_query_map_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
@@ -51,13 +53,16 @@
    `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
-   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G66 checkpoint
-   maps 14 typed layers across the exact 16-source/F00--F17 universe and finds zero owned complete
+   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G67 local
+   checkpoint derives the first explicit observer-sky control: `T_F01=0`,
+   `T_F02=diag(0,tau)`, generic weak-mixing onset at quadratic order, and zero antisymmetric
+   rotation at cubic Jacobi order. It is independently reproduced locally and pending sealed
+   semantic review; no finite-path integration or eigensolve is authorized. Its G66 parent maps
+   14 typed layers across the exact 16-source/F00--F17 universe and finds zero owned complete
    physical CMB realizations. F00 remains only a historical conditional mode-location plus affine
    TT-position compatibility diagnostic. External review returned
    `VERIFIED_AFTER_SPECIFIED_CORRECTIONS`; its corrections distinguish semantic review from local
-   artifact consistency. The next gate constructs the same declared observer-sky query and screen
-   Jacobi map on F01 and F02 before any eigensolve or fit. Its G65 parent
+   artifact consistency. Its G65 parent
    reproduces all 18 frozen M3 SNe fits and 443 leaves exactly and proves that retyping the fitted
    depth as `phi_pair=log(1+z)` changes no P1/P2/P3 formula. External review retained
    `VERIFIED-WITH-CAVEATS`; its sole type-comparator caveat is repaired and all 43 final checks pass.

@@ -18,7 +18,21 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = COMPLETE CMB OBSERVATION-QUERY MAP COMPLETE,
+**LATEST GATE = F01/F02 OBSERVER-SKY JACOBI CONTROLS LOCALLY COMPLETE,
+`LEAD_INDEPENDENTLY_REPRODUCED_PENDING_ADVERSARIAL_REVIEW`.** Read
+`udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`. The same preregistered equatorial observer-sky query gives `T_F01=0` and
+`T_F02=diag(0,tau)`. F01 conditionally has `D=sI` along a regular radial branch; F02 generically
+adds one-axis area/shear at cubic Jacobi order, with weak mixing entering quadratically and the
+exact value dependent on local `A,h` jets. The local rotation channel is zero; positive, negative,
+and exact cancellation subloci are retained. This geometrizes the home of angular projection scale
+but does not close its physical value; mode-ladder offset remains boundary/operator-owned. Local
+evidence is `6/6` independent algebra, `14/14` package gates, `12/12` catches, and repository
+baseline `98 passed, 1 xfailed`. NEXT: cold review of the sealed 33-file manifest. No finite-path
+solve, physical control/profile/source selection, FD2 restart, data fit, or local signalling is
+authorized before review.
+
+**PARENT GATE = COMPLETE CMB OBSERVATION-QUERY MAP COMPLETE,
 `VERIFIED-AFTER-SPECIFIED-CORRECTIONS`.** Read
 `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, then
 `EXTERNAL_REVIEW_ADJUDICATION.md`. The exact frozen 16-source/F00--F17 universe yields 14 typed
@@ -28,8 +42,8 @@ elements remain conditional controls. Physical TT needs an observer-sky map and 
 source/state covariance; polarization additionally needs orientation-sensitive carry. External
 semantic review upheld the result and corrected only evidence labels: local `21/21` is artifact
 consistency and `10/10` are validator catches. P1 is only a low-z compatibility anchor, `X_max` only
-a pair asymptotic guard, and `c_eff^(pair)` only an inter-observational readout. NEXT: use the same
-declared observer-sky query on F01 and F02 and derive both screen Jacobi maps before eigensolving.
+a pair asymptotic guard, and `c_eff^(pair)` only an inter-observational readout. Its historical next
+step—the same declared observer-sky query on F01/F02—is the completed G67 lead above.
 Do not rank, fit, restart FD2, insert source weights, activate bootstrap, or infer local signalling.
 
 **PARENT GATE = NATIVE OBSERVER-QUERY SNe REPLAY COMPLETE,
