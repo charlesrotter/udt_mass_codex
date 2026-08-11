@@ -3,7 +3,10 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-lead is `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`; it classifies
+lead is `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`; it maps the
+bounded 49-shape/591-profile center-regular axial family as an internally replayed lead pending
+fresh blind review. It selects no physical profile, source, endpoint, scale, or CMB observable. Its
+parent is `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`; it classifies
 the exact frozen whole-sky control universe as three F01 exact diffeomorphisms, six persistent
 sampled-regular controls, and twelve unrepaired center-`C2` blocks. External review verified
 `34/34` hashes with method-independence caveats only; read its `EXTERNAL_REVIEW_ADJUDICATION.md`.

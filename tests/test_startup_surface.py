@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md",
     "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
     "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md",
     "udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md",
@@ -85,7 +86,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 67 premise guards" in result.stdout
+    assert "PASS: 68 premise guards" in result.stdout
 
 
 def test_catch_missing_latest_observer_network_route(tmp_path: Path) -> None:

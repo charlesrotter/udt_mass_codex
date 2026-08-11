@@ -7,7 +7,18 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G74 LEAD:**
+**CURRENT G75 LEAD:**
+`udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md` is the preregistered
+bounded center-regular profile vocabulary. It contains all 49 primitive quadratic rays in the
+frozen definition, four amplitudes, three lapse controls, and three zero controls: 591 profiles.
+Every profile is Cartesian `C-infinity` at the center and Lorentz-regular on the symbolic cell;
+eight exact root/boundary strata survive. Production, same-context exact replay, package, and catch
+gates pass, but fresh blind review is still open, so this remains a `LEAD`. No physical profile,
+source, endpoint, scale, `X_max`, bootstrap rule, or observable is selected. NEXT: fresh adversarial
+review, then preregister a whole-sky response atlas whose inputs are fixed by G75's exact strata
+before any response is inspected.
+
+**G74 PARENT LEAD:**
 `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md` classifies the exact
 frozen 21-profile control universe under one complete initial-sky, first-comparison-sphere query.
 Three F01 controls are exact degree-one whole-sky diffeomorphisms; six persistent controls are only
@@ -15,9 +26,8 @@ sampled regular; twelve tapered/sign-changing controls are blocked below `C2` at
 were not repaired. Production and direct-Christoffel routes agree, and the sealed reviewer verified
 all `34/34` hashes and reproduced the exact and worst numerical results. Its evidence caveats are
 retained: the replay shares profile/mesh helpers, one preregistration method label is inaccurate,
-and the executable exact checks are regression checks rather than proof owners. Next is a globally
-center-regular complete-metric profile family, followed by its global angular-scale/transport
-response over broad nonzero source ensembles. No source, physical endpoint/profile, scale,
+and the executable exact checks are regression checks rather than proof owners. G75 now supplies
+the bounded center-regular family without repairing those controls. No source, physical endpoint/profile, scale,
 `X_max`, spectrum, bootstrap law, action, or matter source is selected.
 
 **G73 PARENT LEAD:**

@@ -7,15 +7,21 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The current G74 lead is
-`../udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`. Its exact frozen
+**CMB PEAK OPTIMIZATION**. The current G75 lead is
+`../udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`. It is an
+internally replayed bounded atlas of all 49 preregistered primitive quadratic shapes and 591
+center-`C-infinity`, Lorentz-regular axial controls. Multiple exact shape strata survive, but fresh
+blind review and every physical profile/source/endpoint/scale choice remain open. Read its exact
+derivation and atlases before its G74 parent,
+`../udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`. G74's exact frozen
 whole-sky control census is three F01 degree-one diffeomorphisms, six persistent controls sampled
 regular but not globally proved, and twelve tapered/sign-changing controls blocked below `C2` at
 the center with no repair. External review verified `34/34` hashes and reproduced the exact and
 worst numerical results; read its `EXTERNAL_REVIEW_ADJUDICATION.md`. The direct-Christoffel replay
 is a separate-equation cross-check with shared profile/mesh helpers, not clean-room independence.
-Next is a globally center-regular complete-metric profile family and its global angular response,
-with no physical source, scale, spectrum, `X_max`, or bootstrap selection. Its G73 parent is
+G75 supplies the bounded center-regular family without repairing G74. Next is fresh review and an
+outcome-independent global angular response atlas, with no physical source, scale, spectrum,
+`X_max`, or bootstrap selection. G74's G73 parent is
 `../udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`. It proves exact
 source recovery for regular bijective response, derives the conditional strong-shear directional
 limit, and identifies global branching/noninjectivity or critical/fold structure as the next home
@@ -61,6 +67,8 @@ solved-geometry parent retains endpoint reciprocal depth, causal propagators, fu
 holonomy, and R17 normal holonomy throughout its exact bounded `14`-witness atlas. This is typed
 geometric coexistence, not physical selection, dynamics, global completion, or stability.
 Read in order:
+`../udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
+`../udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md`, then
 `../udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`, then
 `../udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `../udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXACT_DERIVATION.md`, then

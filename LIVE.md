@@ -6,9 +6,29 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G74 SYMBOLIC-SKY TOPOLOGY ATLAS EXTERNALLY VERIFIED WITH METHOD CAVEATS) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G75 CENTER-REGULAR PROFILE FAMILY INTERNALLY REPLAYED AS A BOUNDED LEAD) ============
 
-**LATEST LEAD — G74 SYMBOLIC-SCALE OBSERVER-SKY TOPOLOGY ATLAS,
+**LATEST LEAD — G75 CENTER-REGULAR AXIAL PROFILE FAMILY,
+`INTERNALLY_REPLAYED_BOUNDED_LEAD_PENDING_FRESH_ADVERSARIAL_REVIEW`; landing
+`CENTER_REGULAR_FAMILY_HAS_MULTIPLE_EXACT_SHAPE_STRATA`.** Read
+`udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `SHAPE_ATLAS.tsv`, `PROFILE_ATLAS.tsv`, `COMPLETENESS_SCOPE.md`, and
+`PREREGISTRATION.md`. G75 constructs a new center-safe family rather than repairing G74's blocked
+profiles. The frozen projective quadratic universe contains exactly `49` primitive shapes, four
+normalized amplitudes, three lapse controls, and three zero-mixing controls: `591` profiles total.
+Every member is Cartesian `C-infinity` at the center and Lorentz-regular across the full symbolic
+cell. Exact shape counts are `28` persistent, `9` sign-changing, `6` center-off, `5` endpoint-
+tapered, and `1` zero at both boundaries, distributed across eight exact root/boundary strata.
+Production passes `10/10`, a separate same-context exact root-isolation replay passes `10/10`, the
+package passes `16/16`, and all `10/10` hostile mutations are caught. This is not yet fresh blind
+verification, so the status remains `LEAD`. `R` is symbolic; no physical profile, source, endpoint,
+scale, `X_max`, bootstrap rule, action, matter law, sky response, or CMB spectrum is selected.
+NEXT: fresh adversarial review of G75, then preregister an outcome-independent whole-sky response
+map covering the complete family or representatives fixed solely by the exact G75 strata before
+any response is seen. Do not rank shapes, fit peaks, or call the stationary axial envelope the
+generic complete metric.
+
+**PARENT LEAD — G74 SYMBOLIC-SCALE OBSERVER-SKY TOPOLOGY ATLAS,
 `EXTERNALLY_VERIFIED_WITH_METHOD_INDEPENDENCE_AND_PREREG_WORDING_CAVEATS`; landing
 `MIXED_GLOBAL_COMPLETION_CLASSES`.** Read
 `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`, then
@@ -26,9 +46,9 @@ Christoffel/DOP853 replay agrees within `1.2166590761244587e-6`. The sealed revi
 worst rows. Its caveats are evidence-description only: the replay shares the frozen profile loader
 and mesh helper and is not clean-room independent; one preregistration line calls it Hamiltonian
 although it is a direct Christoffel solve; executable exact checks are sanity checks while the
-written/external derivations own the proofs. NEXT: derive or identify a globally center-regular
-complete-metric profile family, then compute its global angular-scale and angular-transport
-response across broad nonzero source ensembles. Do not fit peaks, select `R`/`X_max`, activate
+written/external derivations own the proofs. HISTORICAL NEXT: the bounded center-regular family is
+now supplied by G75 above; after its fresh review, compute an outcome-independent global angular-
+scale and angular-transport response across broad nonzero source ensembles. Do not fit peaks, select `R`/`X_max`, activate
 bootstrap, infer a physical source, or promote null query controls to local signals.
 
 **PARENT LEAD — G73 GLOBAL-SKY SOURCE-SENSITIVITY ATLAS,

@@ -9,7 +9,19 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G74 lead
+## Current G75 lead
+
+`udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md` controls the current
+bounded center-regular profile gate. It exactly catalogs all 49 preregistered primitive quadratic
+shape rays across four amplitudes and three lapse controls, plus three zero controls: 591 profiles.
+Every member is Cartesian `C-infinity` at the center and Lorentz-regular on the symbolic cell, and
+multiple exact shape strata survive. The production and same-context independent algebra replay,
+package checks, and hostile mutations pass. A fresh blind reviewer has not yet run, so G75 is a
+bounded `LEAD`, not an externally verified result. It does not repair G74, exhaust all smooth
+profiles, or select a physical profile, source, endpoint, scale, `X_max`, bootstrap law, or CMB
+observable.
+
+## G74 parent lead
 
 `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md` controls the current
 whole-sky topology gate. Across the exact frozen 21-profile query it classifies three F01 controls
@@ -18,8 +30,8 @@ proved, and twelve tapered/sign-changing controls as blocked below `C2` at the c
 repair. External review verified `34/34` hashes and reproduced the exact and worst numerical
 results. Its method caveat is binding: the direct-Christoffel replay shares profile/mesh helpers
 and is not clean-room independent. Physical CMB profile, endpoint, source, scale, spectrum,
-`X_max`, bootstrap law, action, and matter source remain open. Next is a globally center-regular
-complete-metric profile family and its global angular-scale/transport response.
+`X_max`, bootstrap law, action, and matter source remain open. G75 supplies a bounded center-regular
+control family; its fresh external review and an outcome-independent global response atlas are next.
 
 ## G73 parent lead
 

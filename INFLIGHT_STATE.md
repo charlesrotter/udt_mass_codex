@@ -1,7 +1,9 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-11 STATUS (RESTART ANCHOR): G74 SYMBOLIC-SCALE OBSERVER-SKY TOPOLOGY ATLAS EXTERNALLY VERIFIED WITH METHOD CAVEATS.** ACTIVE ARC = CMB PEAK
+> **2026-08-11 STATUS (RESTART ANCHOR): G75 CENTER-REGULAR PROFILE FAMILY INTERNALLY REPLAYED AS A BOUNDED LEAD; FRESH ADVERSARIAL REVIEW OPEN.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-11) FIRST, then
+> `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md`, then
 > `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`, then
 > `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXACT_DERIVATION.md`, then
