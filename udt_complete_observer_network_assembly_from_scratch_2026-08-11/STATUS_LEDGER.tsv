@@ -1,0 +1,15 @@
+claim_id	claim	status	scope
+S01	complete regular endpoint frames assemble with exact triangle descent	DERIVED_IDENTITY	arbitrary smooth supplied regular coframes
+S02	complete path-labelled arrows assemble with exact composition and reversal	DERIVED_CONDITIONAL	after typed paths objects and arrows are supplied
+S03	nonzero scalar angular or matrix holonomy is compatible with lawful composition	DERIVED_WITNESS	finite regular network and supplied path data
+S04	four face returns obey a tetrahedral Bianchi relation	DERIVED_BOOKKEEPING_IDENTITY	complete four-observer combinatorial simplex; no new physical compatibility theorem
+S05	four-observer Bianchi relation selects metric histories	REFUTED_TYPE_ERROR	identity holds for arbitrary edge data
+S06	terminal cE ratios expose the same reciprocal route monodromy	DERIVED_CONDITIONAL	supplied calibrated pair readouts
+S07	cE fixes every endpoint local c_eff equal to cE	REFUTED_REGRESSION	would trivialize every reciprocal depth
+S08	all-route direct-equals-composite forces flat descent	DERIVED_CONDITIONAL	finite network exactly; continuum only for chosen smooth connection contractible neighborhood and identity small-loop holonomy
+S09	all-route flat descent is currently owned universally by UDT	NOT_FOUND_SOURCE_BOUNDED	fifteen frozen sources
+S10	assembled network supplies a nonidentity metric-history law	NOT_DERIVED	declared regular network and frozen ownership set
+S11	the instruments remain merely an unassembled pile	REFUTED_IN_DECLARED_NETWORK	exact endpoint and path groupoid assemblies constructed
+S12	physical calibrated relation family plus route policy endpoint path or quotient	OPEN	founding semantic/global owner; relation family is logically prior
+S13	global causal faithfulness supplies current selector	OPEN	pair family and completion not yet owned
+S14	bootstrap is needed for this assembly	NOT_USED	deferred working hypothesis

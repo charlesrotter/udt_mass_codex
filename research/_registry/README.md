@@ -3,7 +3,10 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-gate is `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`; it proves local
+gate is `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`; it
+verifies exact finite observer-network assembly in endpoint-atlas and path-labelled homes while
+leaving physical relation-family ownership, route policy, and universal flat descent open. Its
+parent is `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`; it proves local
 finite-jet openness of the declared regular complete chart and finds no owned nonidentity history
 restriction in the ten frozen sources. Its parent is
 `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`; it turns

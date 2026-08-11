@@ -1,7 +1,8 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-10 STATUS (RESTART ANCHOR): NATIVE HISTORY RESTRICTION FROM SCRATCH VERIFIED WITH CORRECTIONS; NOTHING IN FLIGHT.** ACTIVE ARC = CMB PEAK
-> OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-10) FIRST, then
+> **2026-08-11 STATUS (RESTART ANCHOR): COMPLETE OBSERVER-NETWORK ASSEMBLY VERIFIED WITH CORRECTIONS; NOTHING IN FLIGHT.** ACTIVE ARC = CMB PEAK
+> OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-11) FIRST, then
+> `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then
 > `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`, then
 > `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -103,7 +104,8 @@
 > PRIOR (2026-08-01/06) history.
 
 **PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
-topmost block (2026-08-10), then
+topmost block (2026-08-11), then
+`udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then
 `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`,
 `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`,
 `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`,

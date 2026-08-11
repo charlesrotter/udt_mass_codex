@@ -98,6 +98,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
             "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md",
             "udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
@@ -163,6 +164,7 @@ def validate_startup_surface(root: Path) -> None:
         text = " ".join(controls[control].replace("\n> ", "\n").split())
         for token in (
             "CMB PEAK OPTIMIZATION",
+            "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
             "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md",
             "udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md",
             "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
@@ -196,7 +198,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md"
+    latest = "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -206,13 +208,14 @@ def validate_startup_surface(root: Path) -> None:
         require("BANKED + TABLED" in text, f"current route loses BAO status: {control}")
 
     memory_top = " ".join(controls["MEMORY.md"].split("## Historical memory archive", 1)[0].split())
-    require("2026-08-10" in memory_top, "MEMORY top pointer is not August 10 current")
+    require("2026-08-11" in memory_top, "MEMORY top pointer is not August 11 current")
     require("CMB PEAK OPTIMIZATION" in memory_top, "MEMORY top pointer is stale")
     require("RA2-PARTIAL-WEAK" in memory_top, "MEMORY top pointer loses RA2 grade")
 
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
         "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md",
         "udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md",
         "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
@@ -256,9 +259,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 61, "premise registry must contain exactly 61 rows")
+    require(len(rows) == 62, "premise registry must contain exactly 62 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 61, "duplicate premise id")
+    require(len(by_id) == 62, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1057,6 +1060,28 @@ def main() -> None:
         "native history restriction source changed",
     )
     require("G61_REFINES_G60_BY_PROVING_FINITE_JET_OPENNESS" in by_id["G61"]["precedence_rule"], "G60 history restriction refinement absent")
+    require(
+        by_id["G62"]["current_status"]
+        == "VERIFIED_WITH_CORRECTIONS__FINITE_REGULAR_OBSERVER_NETWORK_HAS_EXACT_ENDPOINT_ATLAS_AND_PATH_LABELLED_ASSEMBLY_IDENTITIES__ROUTE_DEPENDENCE_ALLOWED__UNIVERSAL_FLAT_DESCENT_UNOWNED",
+        "observer-network assembly status regressed or promoted",
+    )
+    require(by_id["G62"]["epistemic_label"] == "MIXED", "observer-network label changed")
+    require(
+        by_id["G62"]["active_use"]
+        == "ACTIVE_NETWORK_ASSEMBLY_AND_PHYSICAL_RELATION_FAMILY_ROUTE_POLICY_OWNERSHIP_GATE_ONLY",
+        "observer-network use promoted",
+    )
+    require("physical calibrated observer pair query relation family" in by_id["G62"]["open_scope"], "physical relation-family owner silently closed")
+    require("endpoint descended path labelled or path quotient policy branch by branch" in by_id["G62"]["open_scope"], "route policy silently selected")
+    require("K4 d2 or abelian Bianchi bookkeeping called new physics or a history law" in by_id["G62"]["forbidden_regression"], "four-face novelty guard absent")
+    require("continuum curvature inferred without a chosen smooth local connection" in by_id["G62"]["forbidden_regression"], "continuum-flatness hypothesis guard absent")
+    require("route policy used before relation family ownership" in by_id["G62"]["forbidden_regression"], "relation-family ordering guard absent")
+    require(
+        by_id["G62"]["controlling_source"]
+        == "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
+        "observer-network source changed",
+    )
+    require("G62_REFINES_G61_AND_G40_BY_ASSEMBLING_THE_FINITE_REGULAR_NETWORK" in by_id["G62"]["precedence_rule"], "G62 assembly refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1129,7 +1154,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 61 premise guards, declared regular complete chart finite-jet open with no owned nonidentity history restriction in ten frozen sources and global selector ownership still open, exact complete time-live compatibility orchestra with arbitrary time-only frequencies and native history selection still open, conditional complete split-relative matrix orchestra with generic orbit and signed area locks while positive weights and physical branch curve remain open, exact supplied-pair cone/phi/conditional-c_eff join with scoped local causal transition/calibration nonselection and ambient physical-family selector open, conditional full-coframe dphi_pair descent on a supplied coherent calibrated pair family with physical family/transition owner open, corrected global descent atlas with R17 foliation/path/alignment ownership and R18 clock-only descent while complete selector remains open, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 62 premise guards, exact finite observer-network assembly in endpoint-atlas and path-labelled homes with route dependence allowed and physical relation-family/route-policy ownership open, declared regular complete chart finite-jet open with no owned nonidentity history restriction in ten frozen sources and global selector ownership still open, exact complete time-live compatibility orchestra with arbitrary time-only frequencies and native history selection still open, conditional complete split-relative matrix orchestra with generic orbit and signed area locks while positive weights and physical branch curve remain open, exact supplied-pair cone/phi/conditional-c_eff join with scoped local causal transition/calibration nonselection and ambient physical-family selector open, conditional full-coframe dphi_pair descent on a supplied coherent calibrated pair family with physical family/transition owner open, corrected global descent atlas with R17 foliation/path/alignment ownership and R18 clock-only descent while complete selector remains open, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

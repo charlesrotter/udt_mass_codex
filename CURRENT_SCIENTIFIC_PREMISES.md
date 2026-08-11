@@ -9,7 +9,20 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G61 refinement
+## Current G62 refinement
+
+`udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md` controls the
+current assembly gate. The preregistered finite regular three-/four-observer network has two exact
+typed homes: endpoint-atlas descent and path-labelled composition with possible scalar, angular,
+and complete-arrow holonomy. External review returned `VERIFIED_WITH_CORRECTIONS`. The exact
+algebra survived; the four-observer identity is only discrete `d^2=0`/abelian-Bianchi bookkeeping,
+and the continuum flatness lemma requires a chosen smooth local connection, a contractible
+neighborhood, and identity holonomy on every sufficiently small based contractible loop. No source
+universally owns that restriction. The next gate is ownership of the physical calibrated relation
+family together with whether it is endpoint-descended, path-labelled, or quotiented by path data.
+Route policy cannot substitute for relation-family ownership. Bootstrap remains deferred.
+
+## G61 parent refinement
 
 `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md` controls the current
 history-selection gate. The declared positive-screen, time-oriented regular `(B,Q,S)`

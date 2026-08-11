@@ -4,7 +4,7 @@
 
 > **READ `LIVE.md` FIRST.** It wins every disagreement.
 >
-> **⚠ BRANCH: `grok` (2026-08-10).** Synchronize it before orientation.
+> **⚠ BRANCH: `grok` (2026-08-11).** Synchronize it before orientation.
 
 **CURRENT GUARDS:** use `CURRENT_SCIENTIFIC_PREMISES.tsv` for high-risk premise status and stop on
 any conflict with LIVE or a cited controlling source. This workstation may contain
@@ -16,9 +16,20 @@ them without an explicit later dispatch; a clean clone may not contain them.
 observer-pair positional-dilation asymptote, not a material wall, preferred center, radial edge,
 finite-cell seal, or boundary term.
 
-## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
+## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = NATIVE HISTORY RESTRICTION FROM SCRATCH COMPLETE,
+**LATEST GATE = COMPLETE OBSERVER-NETWORK ASSEMBLY FROM SCRATCH COMPLETE,
+`VERIFIED-WITH-CORRECTIONS`.** Read
+`udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`. A regular finite
+observer network assembles exactly either as one endpoint atlas or as path-labelled relations with
+lawful holonomy. The `K4`/four-face identity is exact bookkeeping, not a new physical theorem.
+Universal path independence remains unowned, and continuum flatness needs an owned smooth
+connection plus the explicit local-loop hypotheses. The next joint is ownership of the physical
+calibrated relation family together with its endpoint/path/quotient route policy. `c_E` calibrates
+the terminal readout; it does not select the family or set every endpoint ratio to one. Bootstrap,
+flatness, action, source, and downstream physics remain inactive.
+
+**PARENT GATE = NATIVE HISTORY RESTRICTION FROM SCRATCH COMPLETE,
 `VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
 `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`. The complete regular
 `(B,Q,S)` chart is locally open on every finite metric jet in the declared positive-screen,

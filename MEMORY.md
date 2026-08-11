@@ -4,11 +4,16 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; complete pair-instrument mixing atlas verified with corrections)
+## TOP — CURRENT POINTER (2026-08-11, CMB peak optimization; complete observer-network assembly verified with corrections)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
+`udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`: finite regular
+observer networks assemble exactly in endpoint-atlas and path-labelled homes. Four-observer
+coherence is bookkeeping, not a new physical law; universal route independence remains unowned.
+Next is ownership of the physical calibrated relation family plus its endpoint/path/quotient
+policy. Its parent is
 `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`: the declared regular
 complete chart is locally finite-jet open, with no owned nonidentity history restriction found in
 five classes across ten frozen sources. This is not a global no-go. Next is the first owned global

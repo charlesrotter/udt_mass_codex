@@ -6,6 +6,11 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
+`udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`: exact finite
+observer-network assembly survives in endpoint-atlas and path-labelled homes, while route
+dependence remains allowed. The four-observer identity is discrete bookkeeping, not a new law.
+The next gate is ownership of the physical calibrated relation family together with its
+endpoint/path/quotient policy; universal flat descent and bootstrap remain unowned. Its parent is
 `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`: the declared regular
 complete chart is locally open on every finite metric jet, and five owner classes across ten
 frozen sources contain no owned nonidentity history restriction. Deeper expansion of the same

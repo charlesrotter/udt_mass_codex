@@ -1,0 +1,26 @@
+{
+  "catch_count": 18,
+  "catches": {
+    "F01_exact_network_algebra_complete": true,
+    "F02_independent_implementation_complete": true,
+    "F03_associativity_not_descent": true,
+    "F04_nonzero_holonomy_retained": true,
+    "F05_four_face_identity_not_equation_or_novelty": true,
+    "F06_cE_is_terminal_not_everywhere_equal": true,
+    "F07_shift_and_mixing_retained": true,
+    "F08_time_live_arbitrary": true,
+    "F09_flatness_is_conditional": true,
+    "F10_global_causality_remains_open": true,
+    "F11_scalar_additivity_not_arbitrary_distance": true,
+    "F12_relation_family_and_route_policy_are_next_not_formula": true,
+    "F13_no_bootstrap_or_downstream_promotion": true,
+    "F14_source_scope_exact_and_protected_absent": true,
+    "F15_lay_machine_not_pile_but_not_score": true,
+    "F16_primary_landing_exact": true,
+    "F17_continuum_flatness_hypotheses_explicit": true,
+    "F18_external_grade_not_novelty": true
+  },
+  "caught_count": 18,
+  "failed": [],
+  "schema_version": 1
+}

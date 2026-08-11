@@ -34,7 +34,8 @@ do not dump whole long files or recursively open cited evidence during orientati
 3. `CURRENT_RESEARCH_PROGRAM.md` — the active dependency spine and bounded next question.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — the source-precedence
    registry for high-risk terms. Any disagreement with LIVE or a cited source is a mandatory stop.
-5. **ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION.** First read
+5. **ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION.** First read
+   `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then
    `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
    `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`, then

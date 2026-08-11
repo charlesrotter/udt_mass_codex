@@ -1,13 +1,23 @@
 # Current UDT research program
 
-Date: 2026-08-05 (updated through 2026-08-10; **STALE-BANNERED BELOW THE TOP BANNER**)
+Date: 2026-08-05 (updated through 2026-08-11; **STALE-BANNERED BELOW THE TOP BANNER**)
 
 Authority: active scientific navigation and dependency spine; not `CANON.md`
 
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G61 CHECKPOINT:**
+**CURRENT G62 CHECKPOINT:**
+`udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md` verifies exact
+finite observer-network assembly in two distinct typed homes: a common endpoint atlas and a
+path-labelled relation family that may retain holonomy. The four-observer face identity is exact
+discrete bookkeeping, not an evolution or compatibility law. Universal flat descent is not owned;
+its continuum form would require a chosen smooth connection and explicit contractible small-loop
+hypotheses. The next bounded question is which physical calibrated relation family is owned and,
+within it, whether route data descends, remains physical, or is quotiented branch by branch. Do not
+replace that ownership question with a generic global equation or bootstrap target.
+
+**G61 PARENT CHECKPOINT:**
 `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md` proves that the declared
 positive-screen, time-oriented regular `(B,Q,S)` chart is locally open on all finite metric jets.
 Across five owner classes and ten frozen current sources, no owned nonidentity history restriction

@@ -1,0 +1,9 @@
+{
+  "angular_holonomy_trials": 400,
+  "complete_time_live_frame_trials": 300,
+  "implementation": "independent_standard_library_fraction_only_no_sympy_no_production_import",
+  "nonflat_edge_cochain_trials": 400,
+  "object_coboundary_trials": 400,
+  "status": "PASS",
+  "total_exact_trials": 1500
+}

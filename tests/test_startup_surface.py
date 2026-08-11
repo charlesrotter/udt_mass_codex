@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
     "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md",
     "udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md",
     "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
@@ -84,7 +85,18 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 61 premise guards" in result.stdout
+    assert "PASS: 62 premise guards" in result.stdout
+
+
+def test_catch_missing_latest_observer_network_route(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "LIVE.md",
+        "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
+        "OBSERVER_NETWORK_ASSEMBLY_REPORT_REMOVED.md",
+    )
+    with pytest.raises(SystemExit, match="observer_network_assembly|latest complete-branch route"):
+        premise_guard.validate_startup_surface(root)
 
 
 def test_catch_missing_latest_native_history_route(tmp_path: Path) -> None:
@@ -240,7 +252,7 @@ def test_catch_lost_ra2_or_bao_status(tmp_path: Path) -> None:
 
 def test_catch_stale_memory_top(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "MEMORY.md", "2026-08-10", "2026-08-05")
+    _replace(root / "MEMORY.md", "2026-08-11", "2026-08-05")
     _replace(root / "MEMORY.md", "CMB PEAK OPTIMIZATION", "complete-pair cocycle home")
     with pytest.raises(SystemExit, match="MEMORY top pointer|current route lacks CMB PEAK OPTIMIZATION"):
         premise_guard.validate_startup_surface(root)

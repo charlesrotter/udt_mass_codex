@@ -2,13 +2,29 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-08-10).** Synchronize before orientation.
+**⚠ BRANCH: work is on `grok` (2026-08-11).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; NATIVE HISTORY RESTRICTION AUDIT VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB PEAK OPTIMIZATION; COMPLETE OBSERVER-NETWORK ASSEMBLY VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — NATIVE HISTORY RESTRICTION FROM SCRATCH COMPLETE,
+**LATEST GATE — COMPLETE OBSERVER-NETWORK ASSEMBLY FROM SCRATCH COMPLETE,
+`VERIFIED-WITH-CORRECTIONS`.** Read
+`udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md` first. On the
+preregistered regular finite three-/four-observer network, the complete instruments assemble
+exactly in two correctly typed homes: an endpoint-atlas family with automatic descent and a
+path-labelled family with lawful scalar periods and angular/complete-arrow holonomy. All `35/35`
+exact checks, `1,500/1,500` independent Fraction trials, and `18/18` corrected catches pass. The
+four-observer identity is discrete `d^2=0`/abelian-Bianchi bookkeeping, not new physics. Universal
+direct-equals-composite remains unowned; its continuum flatness interpretation would additionally
+require a chosen smooth local connection, a contractible neighborhood, and identity holonomy on
+all sufficiently small based contractible loops. `c_E` remains a terminal unit/readout anchor, not
+an endpoint selector. NEXT: determine which physical calibrated observer relation family is owned
+and, within it, whether the comparison is endpoint-descended, path-labelled, or quotiented by path
+data branch by branch. Do not skip relation-family ownership, impose flatness, or activate
+bootstrap.
+
+**PARENT GATE — NATIVE HISTORY RESTRICTION FROM SCRATCH COMPLETE,
 `VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
 `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md` first. On the declared
 positive-screen, time-oriented regular component, the complete `(B,Q,S)` parameterization is an

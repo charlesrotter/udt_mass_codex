@@ -9,7 +9,8 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-5a. ACTIVE ARC (2026-08-10): CMB PEAK OPTIMIZATION. Read
+5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
+   `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then
    `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
    `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`, then
    `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`, then
@@ -44,7 +45,10 @@
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
    `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected scalar atlas
    has three interleaved equatorial ladders and withdraws the old FD1 multiplet window. The latest
-   G61 proves the declared regular complete chart is locally open on every finite metric jet and
+   G62 verifies exact finite observer-network assembly in endpoint-atlas and path-labelled homes.
+   The four-observer identity is bookkeeping, not new physics; universal flat descent is unowned.
+   The next gate is ownership of the physical calibrated relation family plus its branch-by-branch
+   endpoint/path/quotient policy. Its G61 parent proves the declared regular complete chart is locally open on every finite metric jet and
    finds no owned nonidentity history restriction in five classes across ten frozen sources. This
    closes deeper chart expansion as a local equation source, not global selectors or other/singular
    branches. The next gate is the first owned global selector type with branch/query/reset/boundary
