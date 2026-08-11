@@ -1,0 +1,2849 @@
+{
+  "controls": {
+    "R": 1.0,
+    "affine_cap": 10.0,
+    "endpoint_x": 1.0,
+    "production": {
+      "atol": 1e-12,
+      "max_step": 0.005,
+      "method": "DOP853",
+      "rtol": 1e-10
+    },
+    "refined": {
+      "atol": 2e-14,
+      "max_step": 0.0025,
+      "method": "DOP853",
+      "rtol": 2e-12
+    },
+    "second_method": {
+      "atol": 2e-14,
+      "max_step": 0.0025,
+      "method": "RK45",
+      "rtol": 2e-12
+    },
+    "start_x": 0.25
+  },
+  "epsilon_limit_checks": [
+    {
+      "controls": [
+        {
+          "D_error_from_F01": 1.5603251043905793e-05,
+          "affine": 0.7559443307909957,
+          "endpoint_reached": true,
+          "epsilon": 0.01
+        },
+        {
+          "D_error_from_F01": 3.900942094074478e-06,
+          "affine": 0.755932792297566,
+          "endpoint_reached": true,
+          "epsilon": 0.005
+        }
+      ],
+      "lapse_a": -0.25,
+      "large_to_small_error_ratio": 3.9998673827040645,
+      "mix_shape": "PERSISTENT",
+      "nonincrease_or_below_floor": true
+    },
+    {
+      "controls": [
+        {
+          "D_error_from_F01": 3.9563003089611655e-07,
+          "affine": 0.7559290041546397,
+          "endpoint_reached": true,
+          "epsilon": 0.01
+        },
+        {
+          "D_error_from_F01": 9.890761975483632e-08,
+          "affine": 0.7559289605525155,
+          "endpoint_reached": true,
+          "epsilon": 0.005
+        }
+      ],
+      "lapse_a": -0.25,
+      "large_to_small_error_ratio": 3.9999954692749675,
+      "mix_shape": "TAPERED",
+      "nonincrease_or_below_floor": true
+    },
+    {
+      "controls": [
+        {
+          "D_error_from_F01": 4.481249871546773e-06,
+          "affine": 0.7559379724303901,
+          "endpoint_reached": true,
+          "epsilon": 0.01
+        },
+        {
+          "D_error_from_F01": 1.1203307634140934e-06,
+          "affine": 0.7559312026453516,
+          "endpoint_reached": true,
+          "epsilon": 0.005
+        }
+      ],
+      "lapse_a": -0.25,
+      "large_to_small_error_ratio": 3.999934678121863,
+      "mix_shape": "SIGN_CHANGING",
+      "nonincrease_or_below_floor": true
+    },
+    {
+      "controls": [
+        {
+          "D_error_from_F01": 1.262101223091159e-05,
+          "affine": 0.7500123043767003,
+          "endpoint_reached": true,
+          "epsilon": 0.01
+        },
+        {
+          "D_error_from_F01": 3.1553407655165152e-06,
+          "affine": 0.7500030761524498,
+          "endpoint_reached": true,
+          "epsilon": 0.005
+        }
+      ],
+      "lapse_a": 0.0,
+      "large_to_small_error_ratio": 3.9998888135448616,
+      "mix_shape": "PERSISTENT",
+      "nonincrease_or_below_floor": true
+    },
+    {
+      "controls": [
+        {
+          "D_error_from_F01": 3.7215682859924166e-07,
+          "affine": 0.7500000512040724,
+          "endpoint_reached": true,
+          "epsilon": 0.01
+        },
+        {
+          "D_error_from_F01": 9.303930764029606e-08,
+          "affine": 0.7500000128010303,
+          "endpoint_reached": true,
+          "epsilon": 0.005
+        }
+      ],
+      "lapse_a": 0.0,
+      "large_to_small_error_ratio": 3.999995679654624,
+      "mix_shape": "TAPERED",
+      "nonincrease_or_below_floor": true
+    },
+    {
+      "controls": [
+        {
+          "D_error_from_F01": 3.4214366468300475e-06,
+          "affine": 0.7500072948496527,
+          "endpoint_reached": true,
+          "epsilon": 0.01
+        },
+        {
+          "D_error_from_F01": 8.553691054997412e-07,
+          "affine": 0.7500018237259544,
+          "endpoint_reached": true,
+          "epsilon": 0.005
+        }
+      ],
+      "lapse_a": 0.0,
+      "large_to_small_error_ratio": 3.9999534994090133,
+      "mix_shape": "SIGN_CHANGING",
+      "nonincrease_or_below_floor": true
+    },
+    {
+      "controls": [
+        {
+          "D_error_from_F01": 1.0560850195056779e-05,
+          "affine": 0.7442185991130457,
+          "endpoint_reached": true,
+          "epsilon": 0.01
+        },
+        {
+          "D_error_from_F01": 2.640276486939337e-06,
+          "affine": 0.7442109554723086,
+          "endpoint_reached": true,
+          "epsilon": 0.005
+        }
+      ],
+      "lapse_a": 0.25,
+      "large_to_small_error_ratio": 3.9999031341218108,
+      "mix_shape": "PERSISTENT",
+      "nonincrease_or_below_floor": true
+    },
+    {
+      "controls": [
+        {
+          "D_error_from_F01": 3.539993017923887e-07,
+          "affine": 0.7442084539195014,
+          "endpoint_reached": true,
+          "epsilon": 0.01
+        },
+        {
+          "D_error_from_F01": 8.849991568198491e-08,
+          "affine": 0.744208419131323,
+          "endpoint_reached": true,
+          "epsilon": 0.005
+        }
+      ],
+      "lapse_a": 0.25,
+      "large_to_small_error_ratio": 3.999995921628307,
+      "mix_shape": "TAPERED",
+      "nonincrease_or_below_floor": true
+    },
+    {
+      "controls": [
+        {
+          "D_error_from_F01": 2.767797541941376e-06,
+          "affine": 0.74421456604395,
+          "endpoint_reached": true,
+          "epsilon": 0.01
+        },
+        {
+          "D_error_from_F01": 6.919554122761082e-07,
+          "affine": 0.7442099471708842,
+          "endpoint_reached": true,
+          "epsilon": 0.005
+        }
+      ],
+      "lapse_a": 0.25,
+      "large_to_small_error_ratio": 3.999965160814369,
+      "mix_shape": "SIGN_CHANGING",
+      "nonincrease_or_below_floor": true
+    }
+  ],
+  "maximum_conclusion": "finite-path classification of the exact 21-row control ensemble only; no physical CMB profile, endpoint, scale, TT power, polarization, local signalling, Xmax value, action, source, bootstrap result, or dynamics",
+  "profile_rows": 21,
+  "profiles": [
+    {
+      "F01_exact_D_relative": 8.077778563184256e-15,
+      "affine_final": 0.7559289460184511,
+      "antisymmetric_D": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 0.0,
+      "conserved_p_psi_endpoint": 0.0,
+      "conserved_p_t_endpoint": -0.9921567416492196,
+      "convergence": {
+        "production_refined_D_relative": 6.31535414939856e-15,
+        "production_refined_affine_absolute": 3.1086244689504383e-15,
+        "production_refined_state_relative": 2.3865701500887934e-15,
+        "refined_second_D_relative": 1.4540001413731566e-14,
+        "refined_second_affine_absolute": 0.0,
+        "refined_second_state_relative": 3.921170103053416e-15
+      },
+      "det_D": 0.5714285714285755,
+      "endpoint_D": [
+        [
+          0.7559289460184572,
+          0.0
+        ],
+        [
+          0.0,
+          0.7559289460184572
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.0000000000000078,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000000000000078
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.8472978603871997,
+        1.0,
+        1.5707963267948966,
+        0.0
+      ],
+      "endpoint_k": [
+        1.322875655532293,
+        0.9921567416492215,
+        0.0,
+        0.0
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          0.0,
+          0.0,
+          1.0000000000000036,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0000000000000036
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          1.1102230246251605e-15,
+          0.0
+        ],
+        [
+          0.0,
+          1.1102230246251605e-15
+        ]
+      ],
+      "family": "F01",
+      "first_caustic_affine": null,
+      "lapse_a": -0.25,
+      "min_singular_value_sampled_path": 0.0001511857892036901,
+      "mix_epsilon": 0.0,
+      "mix_shape": "ZERO",
+      "nfev": 2282,
+      "polar_rotation": 0.0,
+      "profile_id": "G68_F01_AM",
+      "residuals": {
+        "conserved_p_psi": 0.0,
+        "conserved_p_t": 1.6653345369377348e-15,
+        "min_A": 0.75,
+        "min_block_D": 0.0615234375,
+        "null": 9.009009140372435e-16,
+        "screen_gram": 7.549516567451064e-15,
+        "screen_ray": 0.0,
+        "tidal_antisymmetry": 0.0,
+        "wronskian": 0.0
+      },
+      "singular_values": [
+        0.7559289460184572,
+        0.7559289460184572
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7559289460184572,
+          0.0
+        ],
+        [
+          0.0,
+          0.7559289460184572
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "F01_exact_D_relative": 8.881784197001243e-16,
+      "affine_final": 0.75,
+      "antisymmetric_D": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 0.0,
+      "conserved_p_psi_endpoint": 0.0,
+      "conserved_p_t_endpoint": -1.0,
+      "convergence": {
+        "production_refined_D_relative": 9.325873406851305e-15,
+        "production_refined_affine_absolute": 5.440092820663267e-15,
+        "production_refined_state_relative": 5.0739479572652045e-15,
+        "refined_second_D_relative": 1.2582527612418548e-14,
+        "refined_second_affine_absolute": 1.1102230246251565e-16,
+        "refined_second_state_relative": 3.999048293185735e-15
+      },
+      "det_D": 0.562500000000001,
+      "endpoint_D": [
+        [
+          0.7500000000000007,
+          0.0
+        ],
+        [
+          0.0,
+          0.7500000000000007
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.0000000000000009,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000000000000009
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.75,
+        1.0,
+        1.5707963267948966,
+        0.0
+      ],
+      "endpoint_k": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          0.0,
+          0.0,
+          1.0000000000000002,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0000000000000002
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "family": "F01",
+      "first_caustic_affine": null,
+      "lapse_a": 0.0,
+      "min_singular_value_sampled_path": 0.00014999999999999985,
+      "mix_epsilon": 0.0,
+      "mix_shape": "ZERO",
+      "nfev": 2267,
+      "polar_rotation": 0.0,
+      "profile_id": "G68_F01_A0",
+      "residuals": {
+        "conserved_p_psi": 0.0,
+        "conserved_p_t": 0.0,
+        "min_A": 1.0,
+        "min_block_D": 0.0625,
+        "null": 0.0,
+        "screen_gram": 1.3322676295501878e-15,
+        "screen_ray": 0.0,
+        "tidal_antisymmetry": 0.0,
+        "wronskian": 0.0
+      },
+      "singular_values": [
+        0.7500000000000007,
+        0.7500000000000007
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7500000000000007,
+          0.0
+        ],
+        [
+          0.0,
+          0.7500000000000007
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "F01_exact_D_relative": 7.459086818852984e-15,
+      "affine_final": 0.7442084075352483,
+      "antisymmetric_D": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 0.0,
+      "conserved_p_psi_endpoint": 0.0,
+      "conserved_p_t_endpoint": -1.0077822185373195,
+      "convergence": {
+        "production_refined_D_relative": 1.0442721546394178e-14,
+        "production_refined_affine_absolute": 5.218048215738236e-15,
+        "production_refined_state_relative": 5.52334602184673e-15,
+        "refined_second_D_relative": 9.54763112813192e-15,
+        "refined_second_affine_absolute": 2.220446049250313e-16,
+        "refined_second_state_relative": 3.94710569089518e-15
+      },
+      "det_D": 0.5538461538461585,
+      "endpoint_D": [
+        [
+          0.7442084075352539,
+          0.0
+        ],
+        [
+          0.0,
+          0.7442084075352539
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.0000000000000067,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000000000000067
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.6785852289080876,
+        0.9999999999999999,
+        1.5707963267948966,
+        0.0
+      ],
+      "endpoint_k": [
+        0.8062257748298556,
+        1.0077822185373186,
+        0.0,
+        0.0
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          0.0,
+          0.0,
+          1.0000000000000036,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0000000000000036
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          1.3877787807814504e-16,
+          0.0
+        ],
+        [
+          0.0,
+          1.3877787807814504e-16
+        ]
+      ],
+      "family": "F01",
+      "first_caustic_affine": null,
+      "lapse_a": 0.25,
+      "min_singular_value_sampled_path": 0.00014884168150704953,
+      "mix_epsilon": 0.0,
+      "mix_shape": "ZERO",
+      "nfev": 2237,
+      "polar_rotation": 0.0,
+      "profile_id": "G68_F01_AP",
+      "residuals": {
+        "conserved_p_psi": 0.0,
+        "conserved_p_t": 8.881784197001252e-16,
+        "min_A": 1.015625,
+        "min_block_D": 0.0634765625,
+        "null": 5.824826695494423e-16,
+        "screen_gram": 7.549516567451064e-15,
+        "screen_ray": 0.0,
+        "tidal_antisymmetry": 0.0,
+        "wronskian": 0.0
+      },
+      "singular_values": [
+        0.7442084075352539,
+        0.7442084075352539
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7442084075352539,
+          0.0
+        ],
+        [
+          0.0,
+          0.7442084075352539
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7563132905147648,
+      "antisymmetric_D": [
+        [
+          0.0,
+          3.762666903917129e-31
+        ],
+        [
+          -3.762666903917129e-31,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 5.321214566211987e-31,
+      "conserved_p_psi_endpoint": 0.003149703941743534,
+      "conserved_p_t_endpoint": -0.9921567416492212,
+      "convergence": {
+        "production_refined_D_relative": 1.6642714842969193e-15,
+        "production_refined_affine_absolute": 3.3306690738754696e-16,
+        "production_refined_state_relative": 8.248911455748796e-16,
+        "refined_second_D_relative": 1.0817640113279874e-14,
+        "refined_second_affine_absolute": 6.661338147750939e-16,
+        "refined_second_state_relative": 3.799753724521108e-15
+      },
+      "det_D": 0.5718409131109997,
+      "endpoint_D": [
+        [
+          0.7563132905147645,
+          1.73572421397382e-22
+        ],
+        [
+          1.7357242064484863e-22,
+          0.756089996411132
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          0.9999999999999989,
+          7.638352965744415e-22
+        ],
+        [
+          7.638352893492491e-22,
+          0.9990173287486157
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.846733674534057,
+        1.0,
+        1.5707963267948966,
+        -0.032810701080796326
+      ],
+      "endpoint_k": [
+        1.318690002453566,
+        0.9906607376896541,
+        -6.845772981382801e-20,
+        -0.06278479618093477
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.0552663404780608e-19,
+          -2.605893698120533e-20,
+          0.9999999999999994,
+          -5.779836146440815e-19
+        ],
+        [
+          0.01582961952731068,
+          0.009507401293976297,
+          5.823531140425779e-19,
+          0.9992425375335546
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          -1.0408340855860836e-17,
+          -3.3790492060434716e-21
+        ],
+        [
+          -3.3790492060466893e-21,
+          0.004347369146736463
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": -0.25,
+      "min_singular_value_sampled_path": 0.00015126265810148782,
+      "mix_epsilon": 0.05,
+      "mix_shape": "PERSISTENT",
+      "nfev": 2282,
+      "polar_rotation": 2.29498043762673e-22,
+      "profile_id": "G68_F02_AM_P05",
+      "residuals": {
+        "conserved_p_psi": 2.6020852139652106e-17,
+        "conserved_p_t": 7.771561172376096e-16,
+        "min_A": 0.75,
+        "min_block_D": 0.061533203125,
+        "null": 4.523331948409166e-16,
+        "screen_gram": 2.1094237467877974e-15,
+        "screen_ray": 3.469446951953614e-17,
+        "tidal_antisymmetry": 1.3685763509109532e-32,
+        "wronskian": 5.034877403442022e-34
+      },
+      "singular_values": [
+        0.7563132905147645,
+        0.756089996411132
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7563132905147645,
+          1.7357242102111532e-22
+        ],
+        [
+          1.7357242102111532e-22,
+          0.756089996411132
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.762010950215268,
+      "antisymmetric_D": [
+        [
+          0.0,
+          5.850881294753012e-27
+        ],
+        [
+          -5.850881294753012e-27,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 8.274395678874764e-27,
+      "conserved_p_psi_endpoint": 0.012598815766974247,
+      "conserved_p_t_endpoint": -0.992156741649221,
+      "convergence": {
+        "production_refined_D_relative": 1.0377711125909096e-15,
+        "production_refined_affine_absolute": 4.440892098500626e-16,
+        "production_refined_state_relative": 7.756844889586218e-16,
+        "refined_second_D_relative": 1.164849415546538e-14,
+        "refined_second_affine_absolute": 1.2212453270876722e-15,
+        "refined_second_state_relative": 3.539011808669144e-15
+      },
+      "det_D": 0.5779682642176792,
+      "endpoint_D": [
+        [
+          0.7620109502152688,
+          1.0938437256521141e-20
+        ],
+        [
+          1.0938425554758552e-20,
+          0.7584776361211119
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.0,
+          4.6843024472355925e-20
+        ],
+        [
+          4.684291584582135e-20,
+          0.9848623728538868
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.8384721890615415,
+        1.0,
+        1.5707963267948966,
+        -0.12946143790625805
+      ],
+      "endpoint_k": [
+        1.2590841832944504,
+        0.969106311711795,
+        -1.0498753001219725e-18,
+        -0.23921802089191585
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.6014383340149543e-18,
+          -3.9745882008984906e-19,
+          1.0000000000000002,
+          -2.0183963993658234e-18
+        ],
+        [
+          0.060845457326675456,
+          0.03708250961313762,
+          2.282633638408783e-18,
+          0.9883763751108311
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          3.3653635433950067e-16,
+          -1.960657833530323e-19
+        ],
+        [
+          -1.9606578335302985e-19,
+          0.06341385563465443
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": -0.25,
+      "min_singular_value_sampled_path": 0.00015240219001907938,
+      "mix_epsilon": 0.2,
+      "mix_shape": "PERSISTENT",
+      "nfev": 2297,
+      "polar_rotation": 1.4354682897494368e-20,
+      "profile_id": "G68_F02_AM_P20",
+      "residuals": {
+        "conserved_p_psi": 1.457167719820518e-16,
+        "conserved_p_t": 4.440892098500626e-16,
+        "min_A": 0.75,
+        "min_block_D": 0.0616796875,
+        "null": 6.485461576840274e-16,
+        "screen_gram": 2.220446049250313e-15,
+        "screen_ray": 2.498001805406602e-16,
+        "tidal_antisymmetry": 6.680569494593224e-32,
+        "wronskian": 2.7685242950566515e-33
+      },
+      "singular_values": [
+        0.7620109502152688,
+        0.7584776361211119
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7620109502152688,
+          1.0938431405639846e-20
+        ],
+        [
+          1.0938431405639846e-20,
+          0.7584776361211119
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7559303993762726,
+      "antisymmetric_D": [
+        [
+          0.0,
+          1.2744050934786063e-30
+        ],
+        [
+          -1.2744050934786063e-30,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 1.802280967154797e-30,
+      "conserved_p_psi_endpoint": 0.0017717084672307466,
+      "conserved_p_t_endpoint": -0.9921567416492207,
+      "convergence": {
+        "production_refined_D_relative": 2.571252732168218e-15,
+        "production_refined_affine_absolute": 8.881784197001252e-16,
+        "production_refined_state_relative": 1.4306656389646317e-15,
+        "refined_second_D_relative": 1.2007815063339172e-14,
+        "refined_second_affine_absolute": 1.1102230246251565e-15,
+        "refined_second_state_relative": 3.711756582323947e-15
+      },
+      "det_D": 0.5714278539706003,
+      "endpoint_D": [
+        [
+          0.7559359328644006,
+          3.9492076338171504e-24
+        ],
+        [
+          3.9492050850069634e-24,
+          0.7559210101381735
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.000010358725757,
+          -9.451536745248142e-25
+        ],
+        [
+          -9.452287890147787e-25,
+          1.0000001978667399
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.8472925806593687,
+        0.9999999999999999,
+        1.5707963267948966,
+        -0.0020804830587823745
+      ],
+      "endpoint_k": [
+        1.3228756555322942,
+        0.992155555236592,
+        -6.415020578871301e-22,
+        0.001771708467230747
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.528083728785281e-21,
+          -2.21819979511067e-22,
+          0.9999999999999989,
+          -3.2802045385465634e-19
+        ],
+        [
+          -0.00044636585916287106,
+          -0.0016740597083374782,
+          3.2801988195965396e-19,
+          0.9999982063970484
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          2.4454137648763155e-16,
+          8.948319834823353e-23
+        ],
+        [
+          8.948319834818497e-23,
+          -0.00017578124999974377
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": -0.25,
+      "min_singular_value_sampled_path": 0.00015118607987428594,
+      "mix_epsilon": 0.05,
+      "mix_shape": "TAPERED",
+      "nfev": 2282,
+      "polar_rotation": 5.224258979253166e-24,
+      "profile_id": "G68_F02_AM_T05",
+      "residuals": {
+        "conserved_p_psi": 1.474514954580286e-17,
+        "conserved_p_t": 5.551115123125783e-16,
+        "min_A": 0.75,
+        "min_block_D": 0.061526527404785154,
+        "null": 4.561812021931097e-16,
+        "screen_gram": 4.107825191113079e-15,
+        "screen_ray": 1.973247953923618e-17,
+        "tidal_antisymmetry": 5.7687150167733595e-33,
+        "wronskian": 2.4533669127615036e-34
+      },
+      "singular_values": [
+        0.7559359328644006,
+        0.7559210101381735
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7559359328644006,
+          3.9492063594120565e-24
+        ],
+        [
+          3.9492063594120565e-24,
+          0.7559210101381735
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7559521880478527,
+      "antisymmetric_D": [
+        [
+          0.0,
+          1.3032972355192318e-27
+        ],
+        [
+          -1.3032972355192318e-27,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 1.8431406262746594e-27,
+      "conserved_p_psi_endpoint": 0.007086833868922977,
+      "conserved_p_t_endpoint": -0.9921567416492202,
+      "convergence": {
+        "production_refined_D_relative": 7.560605065313333e-16,
+        "production_refined_affine_absolute": 2.220446049250313e-16,
+        "production_refined_state_relative": 1.4776030651021897e-15,
+        "refined_second_D_relative": 1.308464083681024e-14,
+        "refined_second_affine_absolute": 6.661338147750939e-16,
+        "refined_second_state_relative": 4.0338901942002904e-15
+      },
+      "det_D": 0.5714170649101566,
+      "endpoint_D": [
+        [
+          0.7560406586613013,
+          2.5248006672648473e-22
+        ],
+        [
+          2.524774601320137e-22,
+          0.7558020304383468
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.0001656115966673,
+          -6.051537285991149e-23
+        ],
+        [
+          -6.059218137192903e-23,
+          1.000003203727078
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.8472134393655468,
+        1.0,
+        1.5707963267948966,
+        -0.008316171316190748
+      ],
+      "endpoint_k": [
+        1.3228756555322936,
+        0.992137758876904,
+        -1.0255759974935601e-20,
+        0.007086833868922977
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -2.443532597812671e-20,
+          -3.548118620374852e-21,
+          1.0000000000000004,
+          -1.3114860117932242e-18
+        ],
+        [
+          -0.0017817031969984429,
+          -0.006693394688115258,
+          1.3114493885201139e-18,
+          0.9999713223253511
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          8.043221579219499e-16,
+          5.723437899915327e-21
+        ],
+        [
+          5.723437899915162e-21,
+          -0.0028124999999992444
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": -0.25,
+      "min_singular_value_sampled_path": 0.00015119043759408512,
+      "mix_epsilon": 0.2,
+      "mix_shape": "TAPERED",
+      "nfev": 2282,
+      "polar_rotation": 3.3394693425492225e-22,
+      "profile_id": "G68_F02_AM_T20",
+      "residuals": {
+        "conserved_p_psi": 6.678685382510707e-17,
+        "conserved_p_t": 1.5543122344752192e-15,
+        "min_A": 0.75,
+        "min_block_D": 0.0615728759765625,
+        "null": 1.10952701845966e-15,
+        "screen_gram": 2.886579864025407e-15,
+        "screen_ray": 6.158268339717665e-17,
+        "tidal_antisymmetry": 3.0471822838851797e-32,
+        "wronskian": 1.4609984187500047e-33
+      },
+      "singular_values": [
+        0.7560406586613013,
+        0.7558020304383468
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7560406586613013,
+          2.5247876342924924e-22
+        ],
+        [
+          2.5247876342924924e-22,
+          0.7558020304383468
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.756154529892478,
+      "antisymmetric_D": [
+        [
+          0.0,
+          -2.7045045662263842e-27
+        ],
+        [
+          2.7045045662263842e-27,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 3.824747037057317e-27,
+      "conserved_p_psi_endpoint": 0.00157485197087176,
+      "conserved_p_t_endpoint": -0.9921567416492213,
+      "convergence": {
+        "production_refined_D_relative": 1.8720335443219456e-15,
+        "production_refined_affine_absolute": 7.771561172376096e-16,
+        "production_refined_state_relative": 1.2556553736154233e-15,
+        "refined_second_D_relative": 1.3479441509712491e-14,
+        "refined_second_affine_absolute": 3.3306690738754696e-16,
+        "refined_second_state_relative": 3.894214519260148e-15
+      },
+      "det_D": 0.5715399196107455,
+      "endpoint_D": [
+        [
+          0.7560443302965302,
+          1.594478221464856e-22
+        ],
+        [
+          1.5945323115561806e-22,
+          0.7559608566690531
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          0.999172283665033,
+          1.6084341711898114e-21
+        ],
+        [
+          1.6085051008064851e-21,
+          0.9986326498645012
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.8470440374278816,
+        1.0000000000000002,
+        1.5707963267948966,
+        0.01677399310507299
+      ],
+      "endpoint_k": [
+        1.3183760784726617,
+        0.9904277188803489,
+        -3.079480837728737e-20,
+        0.06749365589450487
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -3.008618438390827e-20,
+          1.0646588644570583e-21,
+          1.0000000000000016,
+          -2.929539827161629e-19
+        ],
+        [
+          -0.023232080372056263,
+          -0.018645612985874634,
+          2.919937481543075e-19,
+          0.9988096962268347
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          0.006673651603499005,
+          -1.9378610161639204e-20
+        ],
+        [
+          -1.9378610161636565e-20,
+          0.011328696648378267
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": -0.25,
+      "min_singular_value_sampled_path": 0.0001512309059774095,
+      "mix_epsilon": 0.05,
+      "mix_shape": "SIGN_CHANGING",
+      "nfev": 2282,
+      "polar_rotation": 2.109046054125933e-22,
+      "profile_id": "G68_F02_AM_S05",
+      "residuals": {
+        "conserved_p_psi": 4.0766001685454967e-17,
+        "conserved_p_t": 5.551115123125783e-16,
+        "min_A": 0.7499999999999999,
+        "min_block_D": 0.06152587890625,
+        "null": 5.526090949303705e-16,
+        "screen_gram": 3.774758283725532e-15,
+        "screen_ray": 4.163336342344337e-17,
+        "tidal_antisymmetry": 9.780112998841432e-33,
+        "wronskian": 4.054044917115905e-34
+      },
+      "singular_values": [
+        0.7560443302965302,
+        0.7559608566690531
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7560443302965302,
+          1.5945052665105183e-22
+        ],
+        [
+          1.5945052665105183e-22,
+          0.7559608566690531
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7595195686309149,
+      "antisymmetric_D": [
+        [
+          0.0,
+          -2.6871762540795665e-24
+        ],
+        [
+          2.6871762540795665e-24,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 3.800241103006253e-24,
+      "conserved_p_psi_endpoint": 0.006299407883487096,
+      "conserved_p_t_endpoint": -0.9921567416492222,
+      "convergence": {
+        "production_refined_D_relative": 1.854886513033605e-15,
+        "production_refined_affine_absolute": 1.9984014443252818e-15,
+        "production_refined_state_relative": 1.6850823607731664e-15,
+        "refined_second_D_relative": 5.1575352147376515e-15,
+        "refined_second_affine_absolute": 2.220446049250313e-15,
+        "refined_second_state_relative": 3.670480602659376e-15
+      },
+      "det_D": 0.573198554701621,
+      "endpoint_D": [
+        [
+          0.7577633590998194,
+          1.0011645430800513e-20
+        ],
+        [
+          1.0017019783308672e-20,
+          0.7564347732286092
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          0.9871970700152365,
+          9.704764822042667e-20
+        ],
+        [
+          9.711505678315427e-20,
+          0.9788860653204455
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.8433208943899705,
+        1.0,
+        1.5707963267948966,
+        0.06652495042843086
+      ],
+      "endpoint_k": [
+        1.2542998228766136,
+        0.9654696034333283,
+        -4.721504851862544e-19,
+        0.2571593724588098
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -4.57051300303169e-19,
+          2.0628477352939504e-20,
+          1.0,
+          -1.2494720615797399e-18
+        ],
+        [
+          -0.08829073655148177,
+          -0.07285329906001084,
+          1.1914127947920684e-18,
+          0.9818824704445792
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          0.0967664865978438,
+          -1.0910057471002649e-18
+        ],
+        [
+          -1.0910057471002587e-18,
+          0.1640478161568537
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": -0.25,
+      "min_singular_value_sampled_path": 0.00015190391370858427,
+      "mix_epsilon": 0.2,
+      "mix_shape": "SIGN_CHANGING",
+      "nfev": 2282,
+      "polar_rotation": 1.3219192592273573e-20,
+      "profile_id": "G68_F02_AM_S20",
+      "residuals": {
+        "conserved_p_psi": 1.6306400674181987e-16,
+        "conserved_p_t": 1.1102230246251565e-15,
+        "min_A": 0.75,
+        "min_block_D": 0.0615625,
+        "null": 5.812871919111384e-16,
+        "screen_gram": 1.5543122344752192e-15,
+        "screen_ray": 1.6653345369377348e-16,
+        "tidal_antisymmetry": 3.538896272811546e-32,
+        "wronskian": 2.094448814521119e-33
+      },
+      "singular_values": [
+        0.7577633590998194,
+        0.7564347732286092
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7577633590998194,
+          1.0014332607054593e-20
+        ],
+        [
+          1.0014332607054593e-20,
+          0.7564347732286092
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7503074231016471,
+      "antisymmetric_D": [
+        [
+          0.0,
+          1.9013641107954464e-31
+        ],
+        [
+          -1.9013641107954464e-31,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 2.6889349124963805e-31,
+      "conserved_p_psi_endpoint": 0.003124999999999996,
+      "conserved_p_t_endpoint": -1.0000000000000002,
+      "convergence": {
+        "production_refined_D_relative": 2.8175772603319795e-15,
+        "production_refined_affine_absolute": 6.661338147750939e-16,
+        "production_refined_state_relative": 1.181806104962541e-15,
+        "refined_second_D_relative": 1.1294572382740514e-14,
+        "refined_second_affine_absolute": 5.551115123125783e-16,
+        "refined_second_state_relative": 3.478493321633106e-15
+      },
+      "det_D": 0.5628294210235621,
+      "endpoint_D": [
+        [
+          0.750307423101646,
+          1.3442309325065373e-22
+        ],
+        [
+          1.344230928703809e-22,
+          0.7501317509253994
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          0.9999999999999984,
+          5.369660398578573e-22
+        ],
+        [
+          5.369660366380114e-22,
+          0.9992982453719802
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.7496049605328224,
+        0.9999999999999999,
+        1.5707963267948966,
+        -0.028103463733203427
+      ],
+      "endpoint_k": [
+        0.9976620947630924,
+        0.9989035057704013,
+        -4.8329344118766926e-20,
+        -0.04675810473815462
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -7.156141506436141e-20,
+          -2.1472644430368327e-20,
+          0.9999999999999989,
+          -5.705507667002634e-19
+        ],
+        [
+          0.012475645983477642,
+          0.009362754683860275,
+          5.734544999027149e-19,
+          0.9994104019524396
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          -2.219625823043486e-16,
+          -1.903918634375424e-21
+        ],
+        [
+          -1.9039186343774666e-21,
+          0.0024883240775868004
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.0,
+      "min_singular_value_sampled_path": 0.00015006148461892133,
+      "mix_epsilon": 0.05,
+      "mix_shape": "PERSISTENT",
+      "nfev": 2267,
+      "polar_rotation": 1.7915735434776618e-22,
+      "profile_id": "G68_F02_A0_P05",
+      "residuals": {
+        "conserved_p_psi": 1.6479873021779667e-17,
+        "conserved_p_t": 4.440892098500626e-16,
+        "min_A": 1.0,
+        "min_block_D": 0.062509765625,
+        "null": 6.302159159392056e-16,
+        "screen_gram": 3.3306690738754696e-15,
+        "screen_ray": 2.0816681711721685e-17,
+        "tidal_antisymmetry": 1.1716199214419772e-32,
+        "wronskian": 5.119042798960898e-34
+      },
+      "singular_values": [
+        0.750307423101646,
+        0.7501317509253994
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.750307423101646,
+          1.3442309306051733e-22
+        ],
+        [
+          1.3442309306051733e-22,
+          0.7501317509253994
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7548728317083486,
+      "antisymmetric_D": [
+        [
+          0.0,
+          2.979924657440735e-27
+        ],
+        [
+          -2.979924657440735e-27,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 4.214249865402686e-27,
+      "conserved_p_psi_endpoint": 0.012499999999999928,
+      "conserved_p_t_endpoint": -0.9999999999999998,
+      "convergence": {
+        "production_refined_D_relative": 1.4171258627139773e-15,
+        "production_refined_affine_absolute": 6.661338147750939e-16,
+        "production_refined_state_relative": 8.984613677556508e-16,
+        "refined_second_D_relative": 8.76738053825701e-15,
+        "refined_second_affine_absolute": 3.3306690738754696e-16,
+        "refined_second_state_relative": 3.6744057187297325e-15
+      },
+      "det_D": 0.567730697970178,
+      "endpoint_D": [
+        [
+          0.7548728317083475,
+          8.489076762102591e-21
+        ],
+        [
+          8.489070802253276e-21,
+          0.7520878671515447
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          0.9999999999999987,
+          3.3244498753399795e-20
+        ],
+        [
+          3.3244449475715136e-20,
+          0.9890899894472233
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.7437891621304056,
+        0.9999999999999999,
+        1.5707963267948966,
+        -0.11114457162109471
+      ],
+      "endpoint_k": [
+        0.9639423076923075,
+        0.9829526506712,
+        -7.486154810459704e-19,
+        -0.18028846153846156
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.099974426410949e-18,
+          -3.3098854185378574e-19,
+          0.9999999999999994,
+          -2.0810304646403816e-18
+        ],
+        [
+          0.04849677249654481,
+          0.036737439933639836,
+          2.2589670514075014e-18,
+          0.9908486827919576
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          -2.205770827536933e-16,
+          -1.1317146403984733e-19
+        ],
+        [
+          -1.1317146403984603e-19,
+          0.03716715976331332
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.0,
+      "min_singular_value_sampled_path": 0.00015097456631872838,
+      "mix_epsilon": 0.2,
+      "mix_shape": "PERSISTENT",
+      "nfev": 2267,
+      "polar_rotation": 1.12456965540033e-20,
+      "profile_id": "G68_F02_A0_P20",
+      "residuals": {
+        "conserved_p_psi": 8.673617379884035e-17,
+        "conserved_p_t": 3.3306690738754696e-16,
+        "min_A": 1.0,
+        "min_block_D": 0.06265625,
+        "null": 3.6051657017726505e-16,
+        "screen_gram": 3.1086244689504383e-15,
+        "screen_ray": 1.5265566588595902e-16,
+        "tidal_antisymmetry": 5.698345222955734e-32,
+        "wronskian": 1.724309153334197e-33
+      },
+      "singular_values": [
+        0.7548728317083475,
+        0.7520878671515447
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7548728317083475,
+          8.489073782177933e-21
+        ],
+        [
+          8.489073782177933e-21,
+          0.7520878671515447
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7500012800637667,
+      "antisymmetric_D": [
+        [
+          0.0,
+          8.856242614094042e-31
+        ],
+        [
+          -8.856242614094042e-31,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 1.2524618416518346e-30,
+      "conserved_p_psi_endpoint": 0.0017578124999999966,
+      "conserved_p_t_endpoint": -0.9999999999999996,
+      "convergence": {
+        "production_refined_D_relative": 1.2734015974035147e-15,
+        "production_refined_affine_absolute": 3.3306690738754696e-16,
+        "production_refined_state_relative": 6.412571504283822e-16,
+        "refined_second_D_relative": 1.470273315871035e-14,
+        "refined_second_affine_absolute": 1.1102230246251565e-16,
+        "refined_second_state_relative": 4.1587436381338244e-15
+      },
+      "det_D": 0.5624985388101353,
+      "endpoint_D": [
+        [
+          0.7500059352803458,
+          3.542869914896639e-24
+        ],
+        [
+          3.5428681436481165e-24,
+          0.7499921165288888
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.0000081863180648,
+          -1.0025083601292342e-24
+        ],
+        [
+          -1.0025686145480578e-24,
+          0.9999998412154212
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.7499956301823747,
+        1.0,
+        1.5707963267948966,
+        -0.0017577287194551683
+      ],
+      "endpoint_k": [
+        0.9999999999999996,
+        0.9999984550464139,
+        -5.351430141159043e-22,
+        0.0017578124999999966
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.210847446070303e-21,
+          -1.0811428307178468e-22,
+          0.9999999999999997,
+          -3.228958241645029e-19
+        ],
+        [
+          4.317061398357935e-08,
+          -0.0017577693294527146,
+          3.2289513523770086e-19,
+          0.9999984551222992
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          1.1549680665601169e-38,
+          8.351601986230223e-23
+        ],
+        [
+          8.351601986230223e-23,
+          -0.00017578125
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.0,
+      "min_singular_value_sampled_path": 0.00015000025601181446,
+      "mix_epsilon": 0.05,
+      "mix_shape": "TAPERED",
+      "nfev": 2267,
+      "polar_rotation": 4.723786808865483e-24,
+      "profile_id": "G68_F02_A0_T05",
+      "residuals": {
+        "conserved_p_psi": 1.1492543028346347e-17,
+        "conserved_p_t": 6.661338147750939e-16,
+        "min_A": 1.0,
+        "min_block_D": 0.06250308990478516,
+        "null": 3.969725425544393e-16,
+        "screen_gram": 1.5543122344752192e-15,
+        "screen_ray": 1.5395670849294163e-17,
+        "tidal_antisymmetry": 4.5842869088848226e-33,
+        "wronskian": 1.4865228092101721e-34
+      },
+      "singular_values": [
+        0.7500059352803458,
+        0.7499921165288888
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7500059352803458,
+          3.542869029272378e-24
+        ],
+        [
+          3.542869029272378e-24,
+          0.7499921165288888
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7500204715118558,
+      "antisymmetric_D": [
+        [
+          0.0,
+          9.06032041253646e-28
+        ],
+        [
+          -9.06032041253646e-28,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 1.2813228006854855e-27,
+      "conserved_p_psi_endpoint": 0.007031249999999985,
+      "conserved_p_t_endpoint": -0.9999999999999989,
+      "convergence": {
+        "production_refined_D_relative": 1.277721272085127e-15,
+        "production_refined_affine_absolute": 0.0,
+        "production_refined_state_relative": 8.219039449150809e-16,
+        "refined_second_D_relative": 1.2458084733828295e-14,
+        "refined_second_affine_absolute": 1.1102230246251565e-16,
+        "refined_second_state_relative": 3.6970572773790915e-15
+      },
+      "det_D": 0.562476604385221,
+      "endpoint_D": [
+        [
+          0.7500949003999092,
+          2.2651184574668505e-22
+        ],
+        [
+          2.2651003368260254e-22,
+          0.7498739214002648
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.0001308741646089,
+          -6.4178824010195e-23
+        ],
+        [
+          -6.424044163116139e-23,
+          0.9999974982897841
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.7499301286230281,
+        1.0,
+        1.5707963267948966,
+        -0.007025891574515215
+      ],
+      "endpoint_k": [
+        0.9999999999999989,
+        0.9999752804561908,
+        -8.555420134937952e-21,
+        0.007031249999999985
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.9362528014154246e-20,
+          -1.7295387142998422e-21,
+          0.9999999999999988,
+          -1.2910381394950343e-18
+        ],
+        [
+          2.7612175484834666e-06,
+          -0.007028488850707567,
+          1.290994041178725e-18,
+          0.9999752998710018
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          1.7625921051380957e-37,
+          5.3419625370269356e-21
+        ],
+        [
+          5.3419625370269356e-21,
+          -0.0028125000000000016
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.0,
+      "min_singular_value_sampled_path": 0.00015000409428736022,
+      "mix_epsilon": 0.2,
+      "mix_shape": "TAPERED",
+      "nfev": 2267,
+      "polar_rotation": 3.0197516815784227e-22,
+      "profile_id": "G68_F02_A0_T20",
+      "residuals": {
+        "conserved_p_psi": 4.9439619065339e-17,
+        "conserved_p_t": 1.3322676295501878e-15,
+        "min_A": 1.0,
+        "min_block_D": 0.0625494384765625,
+        "null": 6.396687480380766e-16,
+        "screen_gram": 2.9976021664879227e-15,
+        "screen_ray": 5.502326025363935e-17,
+        "tidal_antisymmetry": 1.9488003624768343e-32,
+        "wronskian": 7.077416387430829e-34
+      },
+      "singular_values": [
+        0.7500949003999092,
+        0.7498739214002648
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7500949003999092,
+          2.265109397146438e-22
+        ],
+        [
+          2.265109397146438e-22,
+          0.7498739214002648
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7501823279530846,
+      "antisymmetric_D": [
+        [
+          0.0,
+          -1.7797722462201855e-27
+        ],
+        [
+          1.7797722462201855e-27,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 2.516978048539814e-27,
+      "conserved_p_psi_endpoint": 0.0015625000000000083,
+      "conserved_p_t_endpoint": -1.0,
+      "convergence": {
+        "production_refined_D_relative": 2.0563465298754588e-15,
+        "production_refined_affine_absolute": 1.1102230246251565e-16,
+        "production_refined_state_relative": 1.0522422985904049e-15,
+        "refined_second_D_relative": 1.2459125928025157e-14,
+        "refined_second_affine_absolute": 0.0,
+        "refined_second_state_relative": 3.911415782889813e-15
+      },
+      "det_D": 0.5625811306990124,
+      "endpoint_D": [
+        [
+          0.7500885491825895,
+          1.1424836782848396e-22
+        ],
+        [
+          1.142519273729764e-22,
+          0.7500196227659871
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          0.9993229139534244,
+          1.0627344443573552e-21
+        ],
+        [
+          1.0627775942248719e-21,
+          0.9989339107610267
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.749839770724277,
+        1.0,
+        1.5707963267948966,
+        0.014056536539541352
+      ],
+      "endpoint_k": [
+        0.9974283042394015,
+        0.9986730890270772,
+        -1.960036199500636e-20,
+        0.05143391521197009
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.7891929133906372e-20,
+          2.1610380329173544e-21,
+          0.9999999999999998,
+          -2.878321067126899e-19
+        ],
+        [
+          -0.017141706180470406,
+          -0.01872767306937992,
+          2.872773900858115e-19,
+          0.9991148377705266
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          0.005130164283026847,
+          -1.1568098598750593e-20
+        ],
+        [
+          -1.1568098598748408e-20,
+          0.007927889130042763
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.0,
+      "min_singular_value_sampled_path": 0.00015003646558956192,
+      "mix_epsilon": 0.05,
+      "mix_shape": "SIGN_CHANGING",
+      "nfev": 2267,
+      "polar_rotation": 1.5231791966092892e-22,
+      "profile_id": "G68_F02_A0_S05",
+      "residuals": {
+        "conserved_p_psi": 2.905661822261152e-17,
+        "conserved_p_t": 4.440892098500626e-16,
+        "min_A": 1.0,
+        "min_block_D": 0.06250244140625,
+        "null": 5.537880927606754e-16,
+        "screen_gram": 2.886579864025407e-15,
+        "screen_ray": 4.163336342344337e-17,
+        "tidal_antisymmetry": 7.420096500582542e-33,
+        "wronskian": 5.193804239673195e-34
+      },
+      "singular_values": [
+        0.7500885491825895,
+        0.7500196227659871
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7500885491825895,
+          1.1425014760073017e-22
+        ],
+        [
+          1.1425014760073017e-22,
+          0.7500196227659871
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7529066009066248,
+      "antisymmetric_D": [
+        [
+          0.0,
+          -1.7843195737699305e-24
+        ],
+        [
+          1.7843195737699305e-24,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 2.5234089408332157e-24,
+      "conserved_p_psi_endpoint": 0.006250000000000033,
+      "conserved_p_t_endpoint": -1.0,
+      "convergence": {
+        "production_refined_D_relative": 3.3062496277636295e-16,
+        "production_refined_affine_absolute": 7.771561172376096e-16,
+        "production_refined_state_relative": 5.575812956067658e-16,
+        "refined_second_D_relative": 9.907721921701403e-15,
+        "refined_second_affine_absolute": 6.661338147750939e-16,
+        "refined_second_state_relative": 3.4416888303351988e-15
+      },
+      "det_D": 0.5637917514597306,
+      "endpoint_D": [
+        [
+          0.7514104620997841,
+          7.212319905048692e-21
+        ],
+        [
+          7.215888544196232e-21,
+          0.7503112877670598
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          0.9894416933793191,
+          6.509964604185221e-20
+        ],
+        [
+          6.514151415031416e-20,
+          0.9833893956316431
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.7474764732147345,
+        1.0,
+        1.5707963267948966,
+        0.05587524116784429
+      ],
+      "endpoint_k": [
+        0.9603365384615384,
+        0.9793350066695572,
+        -3.0362835604753416e-19,
+        0.19831730769230774
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -2.753791843677806e-19,
+          3.648822264728257e-20,
+          0.9999999999999997,
+          -1.1976035343812834e-18
+        ],
+        [
+          -0.06592471724494023,
+          -0.07361066646394358,
+          1.1635806225476771e-18,
+          0.9863656459962448
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          0.07618054271449701,
+          -6.72433616223905e-19
+        ],
+        [
+          -6.724336162238998e-19,
+          0.1176035502958578
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.0,
+      "min_singular_value_sampled_path": 0.000150581320164272,
+      "mix_epsilon": 0.2,
+      "mix_shape": "SIGN_CHANGING",
+      "nfev": 2267,
+      "polar_rotation": 9.603124933916602e-21,
+      "profile_id": "G68_F02_A0_S20",
+      "residuals": {
+        "conserved_p_psi": 1.0581813203458523e-16,
+        "conserved_p_t": 5.551115123125783e-16,
+        "min_A": 1.0,
+        "min_block_D": 0.0625390625,
+        "null": 5.130111647490221e-16,
+        "screen_gram": 2.220446049250313e-15,
+        "screen_ray": 1.1102230246251565e-16,
+        "tidal_antisymmetry": 2.4459310293717895e-32,
+        "wronskian": 1.1074097180226606e-33
+      },
+      "singular_values": [
+        0.7514104620997841,
+        0.7503112877670598
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7514104620997841,
+          7.214104224622462e-21
+        ],
+        [
+          7.214104224622462e-21,
+          0.7503112877670598
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7444630607298629,
+      "antisymmetric_D": [
+        [
+          0.0,
+          1.0770699737290672e-31
+        ],
+        [
+          -1.0770699737290672e-31,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 1.5232069644724801e-31,
+      "conserved_p_psi_endpoint": 0.00310086836473019,
+      "conserved_p_t_endpoint": -1.007782218537319,
+      "convergence": {
+        "production_refined_D_relative": 1.085792807849634e-15,
+        "production_refined_affine_absolute": 4.440892098500626e-16,
+        "production_refined_state_relative": 5.27115596400295e-16,
+        "refined_second_D_relative": 1.3722160889747195e-14,
+        "refined_second_affine_absolute": 1.1102230246251565e-16,
+        "refined_second_state_relative": 4.195591091404918e-15
+      },
+      "det_D": 0.5541181809742052,
+      "endpoint_D": [
+        [
+          0.7444630607298641,
+          1.0835745873951136e-22
+        ],
+        [
+          1.0835745852409737e-22,
+          0.7443192418854916
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.000000000000002,
+          4.0466068881509406e-22
+        ],
+        [
+          4.0466068715218704e-22,
+          0.9994628994098664
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.6782878720783496,
+        1.0000000000000002,
+        1.5707963267948966,
+        -0.024682118495035137
+      ],
+      "endpoint_k": [
+        0.8047403289066312,
+        1.0069248658159333,
+        -3.666960805808293e-20,
+        -0.037136148080601374
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -5.2740290626364484e-20,
+          -1.8293849061100092e-20,
+          1.0000000000000009,
+          -5.626468529325314e-19
+        ],
+        [
+          0.010445968784726365,
+          0.009221028585743456,
+          5.647481890294799e-19,
+          0.9995120253371689
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          -9.351243737687488e-17,
+          -1.2197429943385328e-21
+        ],
+        [
+          -1.2197429943355341e-21,
+          0.0016190136232981686
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.25,
+      "min_singular_value_sampled_path": 0.0001488926121446182,
+      "mix_epsilon": 0.05,
+      "mix_shape": "PERSISTENT",
+      "nfev": 2237,
+      "polar_rotation": 1.4555115524182598e-22,
+      "profile_id": "G68_F02_AP_P05",
+      "residuals": {
+        "conserved_p_psi": 3.5561831257524545e-17,
+        "conserved_p_t": 4.440892098500626e-16,
+        "min_A": 1.015625,
+        "min_block_D": 0.063486328125,
+        "null": 7.411548714103516e-16,
+        "screen_gram": 3.1086244689504383e-15,
+        "screen_ray": 3.122502256758253e-17,
+        "tidal_antisymmetry": 1.505460317075507e-32,
+        "wronskian": 2.818130156661352e-34
+      },
+      "singular_values": [
+        0.7444630607298641,
+        0.7443192418854916
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7444630607298641,
+          1.0835745863180437e-22
+        ],
+        [
+          1.0835745863180437e-22,
+          0.7443192418854916
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7482491889544478,
+      "antisymmetric_D": [
+        [
+          0.0,
+          1.6905850539756597e-27
+        ],
+        [
+          -1.6905850539756597e-27,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 2.390848311677629e-27,
+      "conserved_p_psi_endpoint": 0.012403473458920844,
+      "conserved_p_t_endpoint": -1.0077822185373189,
+      "convergence": {
+        "production_refined_D_relative": 1.1606235275180058e-15,
+        "production_refined_affine_absolute": 3.3306690738754696e-16,
+        "production_refined_state_relative": 1.1308200088493246e-15,
+        "refined_second_D_relative": 7.216795398149594e-15,
+        "refined_second_affine_absolute": 3.3306690738754696e-16,
+        "refined_second_state_relative": 3.648786114943219e-15
+      },
+      "det_D": 0.5581687615825315,
+      "endpoint_D": [
+        [
+          0.7482491889544481,
+          6.852634292988405e-21
+        ],
+        [
+          6.852630911818297e-21,
+          0.7459664104180027
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          0.9999999999999993,
+          2.5199915821675975e-20
+        ],
+        [
+          2.5199890100576477e-20,
+          0.991602986706219
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.6738957318762552,
+        0.9999999999999998,
+        1.5707963267948966,
+        -0.09776039860366821
+      ],
+      "endpoint_k": [
+        0.7831495451388396,
+        0.9943798914475324,
+        -5.714925446925666e-19,
+        -0.14422643556884707
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -8.170068501397384e-19,
+          -2.838542396329686e-19,
+          0.9999999999999998,
+          -2.1014494845536366e-18
+        ],
+        [
+          0.04087807336533713,
+          0.03631321382933191,
+          2.2312601022630934e-18,
+          0.9923745800592952
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          5.2041704279304176e-17,
+          -7.357446245318484e-20
+        ],
+        [
+          -7.357446245318464e-20,
+          0.024531855981288233
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.25,
+      "min_singular_value_sampled_path": 0.0001496498377688917,
+      "mix_epsilon": 0.2,
+      "mix_shape": "PERSISTENT",
+      "nfev": 2252,
+      "polar_rotation": 9.158220300103086e-21,
+      "profile_id": "G68_F02_AP_P20",
+      "residuals": {
+        "conserved_p_psi": 1.0755285551056204e-16,
+        "conserved_p_t": 4.440892098500626e-16,
+        "min_A": 1.015625,
+        "min_block_D": 0.0636328125,
+        "null": 4.074916646681938e-16,
+        "screen_gram": 1.7763568394002505e-15,
+        "screen_ray": 2.220446049250313e-16,
+        "tidal_antisymmetry": 6.370013291060783e-32,
+        "wronskian": 1.2548637293898084e-33
+      },
+      "singular_values": [
+        0.748249188954448,
+        0.7459664104180028
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7482491889544481,
+          6.852632602403352e-21
+        ],
+        [
+          6.852632602403352e-21,
+          0.7459664104180027
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.744209567110395,
+      "antisymmetric_D": [
+        [
+          0.0,
+          5.696901117125489e-31
+        ],
+        [
+          -5.696901117125489e-31,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 8.056634823337303e-31,
+      "conserved_p_psi_endpoint": 0.001744238455160739,
+      "conserved_p_t_endpoint": -1.0077822185373189,
+      "convergence": {
+        "production_refined_D_relative": 1.2833121519798193e-15,
+        "production_refined_affine_absolute": 2.1094237467877974e-15,
+        "production_refined_state_relative": 1.6532892389821448e-15,
+        "refined_second_D_relative": 1.1432151195847175e-14,
+        "refined_second_affine_absolute": 8.881784197001252e-16,
+        "refined_second_state_relative": 4.315739034206105e-15
+      },
+      "det_D": 0.5538441411018092,
+      "endpoint_D": [
+        [
+          0.744213500990605,
+          3.213490935324269e-24
+        ],
+        [
+          3.2134897959440455e-24,
+          0.7442006095893187
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.0000064444009447,
+          -1.0196454656563649e-24
+        ],
+        [
+          -1.0196944881429756e-24,
+          0.9999995365954825
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.6785815710858759,
+        1.0,
+        1.5707963267948966,
+        -0.0014919613803624399
+      ],
+      "endpoint_k": [
+        0.8062257748298551,
+        1.0077803317391467,
+        -4.514359130621871e-22,
+        0.001744238455160739
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.0093062791518542e-21,
+          -1.386884622197496e-23,
+          1.0000000000000007,
+          -3.179287821153287e-19
+        ],
+        [
+          0.0002596471492971271,
+          -0.0018389032094884906,
+          3.1792801749022876e-19,
+          0.999998689508538
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          8.663548275723556e-17,
+          7.863322159186017e-23
+        ],
+        [
+          7.863322159185211e-23,
+          -0.00017578124999992762
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.25,
+      "min_singular_value_sampled_path": 0.00014884191342116833,
+      "mix_epsilon": 0.05,
+      "mix_shape": "TAPERED",
+      "nfev": 2237,
+      "polar_rotation": 4.317967615028006e-24,
+      "profile_id": "G68_F02_AP_T05",
+      "residuals": {
+        "conserved_p_psi": 1.0408340855860843e-17,
+        "conserved_p_t": 4.440892098500626e-16,
+        "min_A": 1.015625,
+        "min_block_D": 0.06347965240478516,
+        "null": 6.495038366610181e-16,
+        "screen_gram": 3.552713678800501e-15,
+        "screen_ray": 1.2197274440461925e-17,
+        "tidal_antisymmetry": 3.631478207882309e-33,
+        "wronskian": 4.079104987307498e-34
+      },
+      "singular_values": [
+        0.744213500990605,
+        0.7442006095893187
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.744213500990605,
+          3.2134903656341573e-24
+        ],
+        [
+          3.2134903656341573e-24,
+          0.7442006095893187
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.744226952961725,
+      "antisymmetric_D": [
+        [
+          0.0,
+          5.828356721818615e-28
+        ],
+        [
+          -5.828356721818615e-28,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 8.242541122344277e-28,
+      "conserved_p_psi_endpoint": 0.006976953820642975,
+      "conserved_p_t_endpoint": -1.0077822185373189,
+      "convergence": {
+        "production_refined_D_relative": 2.282108077087087e-15,
+        "production_refined_affine_absolute": 4.440892098500626e-16,
+        "production_refined_state_relative": 9.501148760221644e-16,
+        "refined_second_D_relative": 8.455705477237999e-15,
+        "refined_second_affine_absolute": 6.661338147750939e-16,
+        "refined_second_state_relative": 3.405029809047505e-15
+      },
+      "det_D": 0.5538139413651805,
+      "endpoint_D": [
+        [
+          0.7442898489409484,
+          2.0546135636758728e-22
+        ],
+        [
+          2.0546019069624292e-22,
+          0.7440836955565141
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          1.0001030201011558,
+          -6.527161267766971e-23
+        ],
+        [
+          -6.532174623002648e-23,
+          0.9999926249743343
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.6785267424605135,
+        1.0,
+        1.5707963267948966,
+        -0.0059634304339565266
+      ],
+      "endpoint_k": [
+        0.8062257748298551,
+        1.0077520293426505,
+        -7.21719326385005e-21,
+        0.006976953820642975
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.6139861244046834e-20,
+          -2.2212087839085394e-22,
+          1.0000000000000004,
+          -1.2712134726407555e-18
+        ],
+        [
+          0.0010404932399105263,
+          -0.0073532685653184,
+          1.2711645400061086e-18,
+          0.9999790481984373
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          1.9261190407383895e-16,
+          5.029804696838631e-21
+        ],
+        [
+          5.029804696838585e-21,
+          -0.002812499999999784
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.25,
+      "min_singular_value_sampled_path": 0.00014884539057778614,
+      "mix_epsilon": 0.2,
+      "mix_shape": "TAPERED",
+      "nfev": 2237,
+      "polar_rotation": 2.7604862673942506e-22,
+      "profile_id": "G68_F02_AP_T20",
+      "residuals": {
+        "conserved_p_psi": 4.0766001685454967e-17,
+        "conserved_p_t": 4.440892098500626e-16,
+        "min_A": 1.015625,
+        "min_block_D": 0.0635260009765625,
+        "null": 8.187289933296124e-16,
+        "screen_gram": 1.4432899320127035e-15,
+        "screen_ray": 5.231275482242559e-17,
+        "tidal_antisymmetry": 2.2972733117893998e-32,
+        "wronskian": 7.136191104971943e-34
+      },
+      "singular_values": [
+        0.7442898489409484,
+        0.7440836955565141
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7442898489409484,
+          2.054607735319151e-22
+        ],
+        [
+          2.054607735319151e-22,
+          0.7440836955565141
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7443623432113906,
+      "antisymmetric_D": [
+        [
+          0.0,
+          -1.2704145867024633e-27
+        ],
+        [
+          1.2704145867024633e-27,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 1.7966375383512336e-27,
+      "conserved_p_psi_endpoint": 0.001550434182365161,
+      "conserved_p_t_endpoint": -1.0077822185373189,
+      "convergence": {
+        "production_refined_D_relative": 3.357229190924088e-15,
+        "production_refined_affine_absolute": 2.3314683517128287e-15,
+        "production_refined_state_relative": 2.252784430093194e-15,
+        "refined_second_D_relative": 1.1942256684017659e-14,
+        "refined_second_affine_absolute": 1.9984014443252818e-15,
+        "refined_second_state_relative": 4.188818336771311e-15
+      },
+      "det_D": 0.553908368615725,
+      "endpoint_D": [
+        [
+          0.7442802640171065,
+          8.759055778993482e-23
+        ],
+        [
+          8.759309861910822e-23,
+          0.744220148504427
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          0.9994232370147734,
+          7.68124947446945e-22
+        ],
+        [
+          7.68154139144862e-22,
+          0.9991151015643603
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.6784743667838148,
+        0.9999999999999999,
+        1.5707963267948966,
+        0.012209984053534552
+      ],
+      "endpoint_k": [
+        0.804554648166228,
+        1.0066970087654936,
+        -1.3669910502155407e-20,
+        0.041778166590676555
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.1777479177250557e-20,
+          2.7810744783192416e-21,
+          0.9999999999999983,
+          -2.8313557817980946e-19
+        ],
+        [
+          -0.013489929595711466,
+          -0.018804388088375975,
+          2.827797712743132e-19,
+          0.9992980249861876
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          0.004201602265298873,
+          -7.802541842231449e-21
+        ],
+        [
+          -7.802541842229208e-21,
+          0.006130886066803448
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.25,
+      "min_singular_value_sampled_path": 0.00014887246864125274,
+      "mix_epsilon": 0.05,
+      "mix_shape": "SIGN_CHANGING",
+      "nfev": 2237,
+      "polar_rotation": 1.1768832636558394e-22,
+      "profile_id": "G68_F02_AP_S05",
+      "residuals": {
+        "conserved_p_psi": 6.895525817007808e-17,
+        "conserved_p_t": 6.661338147750939e-16,
+        "min_A": 1.015625,
+        "min_block_D": 0.06347900390625,
+        "null": 8.227191328950512e-16,
+        "screen_gram": 4.440892098500626e-15,
+        "screen_ray": 6.591949208711867e-17,
+        "tidal_antisymmetry": 6.058780002782267e-33,
+        "wronskian": 1.8741053371953583e-34
+      },
+      "singular_values": [
+        0.7442802640171063,
+        0.7442201485044271
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7442802640171065,
+          8.759182820452152e-23
+        ],
+        [
+          8.759182820452152e-23,
+          0.744220148504427
+        ]
+      ],
+      "turning_events": []
+    },
+    {
+      "affine_final": 0.7466647122622336,
+      "antisymmetric_D": [
+        [
+          0.0,
+          -1.2802428110883394e-24
+        ],
+        [
+          1.2802428110883394e-24,
+          0.0
+        ]
+      ],
+      "antisymmetric_norm": 1.810536746571786e-24,
+      "conserved_p_psi_endpoint": 0.0062017367294605885,
+      "conserved_p_t_endpoint": -1.007782218537319,
+      "convergence": {
+        "production_refined_D_relative": 1.8764703265789456e-15,
+        "production_refined_affine_absolute": 1.1102230246251565e-16,
+        "production_refined_state_relative": 1.4547753325829288e-15,
+        "refined_second_D_relative": 7.719637962498756e-15,
+        "refined_second_affine_absolute": 3.3306690738754696e-16,
+        "refined_second_state_relative": 3.2008730420269266e-15
+      },
+      "det_D": 0.5548377009012346,
+      "endpoint_D": [
+        [
+          0.7453542937487375,
+          5.54754712849351e-21
+        ],
+        [
+          5.550107614115686e-21,
+          0.7443945859769516
+        ]
+      ],
+      "endpoint_Ddot": [
+        [
+          0.990960905191018,
+          4.748498377217771e-20
+        ],
+        [
+          4.7513649139420864e-20,
+          0.986137448278177
+        ]
+      ],
+      "endpoint_coordinates": [
+        0.6768337628695453,
+        0.9999999999999999,
+        1.5707963267948966,
+        0.04860301139951054
+      ],
+      "endpoint_k": [
+        0.7802650164274627,
+        0.990789425232251,
+        -2.1308314477746074e-19,
+        0.1622547400149531
+      ],
+      "endpoint_reached": true,
+      "endpoint_screen": [
+        [
+          -1.8271368783444574e-19,
+          4.5620043942514153e-20,
+          0.9999999999999994,
+          -1.1629559450194098e-18
+        ],
+        [
+          -0.05225603828622318,
+          -0.07417935900144426,
+          1.140941811843348e-18,
+          0.9891089620282599
+        ]
+      ],
+      "endpoint_tidal": [
+        [
+          0.06330084869160087,
+          -4.623703937952322e-19
+        ],
+        [
+          -4.623703937952393e-19,
+          0.09229006901397414
+        ]
+      ],
+      "family": "F02",
+      "first_caustic_affine": null,
+      "lapse_a": 0.25,
+      "min_singular_value_sampled_path": 0.00014933294243589957,
+      "mix_epsilon": 0.2,
+      "mix_shape": "SIGN_CHANGING",
+      "nfev": 2252,
+      "polar_rotation": 7.446267715453255e-21,
+      "profile_id": "G68_F02_AP_S20",
+      "residuals": {
+        "conserved_p_psi": 1.9255430583342559e-16,
+        "conserved_p_t": 6.661338147750939e-16,
+        "min_A": 1.015625,
+        "min_block_D": 0.063515625,
+        "null": 1.480180596464576e-15,
+        "screen_gram": 2.6645352591003757e-15,
+        "screen_ray": 1.8041124150158794e-16,
+        "tidal_antisymmetry": 3.120006509907322e-32,
+        "wronskian": 1.236808136161178e-33
+      },
+      "singular_values": [
+        0.7453542937487375,
+        0.7443945859769516
+      ],
+      "solver_message": "A termination event occurred.",
+      "solver_success": true,
+      "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+      "symmetric_D": [
+        [
+          0.7453542937487375,
+          5.548827371304598e-21
+        ],
+        [
+          5.548827371304598e-21,
+          0.7443945859769516
+        ]
+      ],
+      "turning_events": []
+    }
+  ],
+  "reflection_checks": {
+    "G68_F02_A0_P05": {
+      "D_conjugation_relative": 2.8175772603319795e-15,
+      "affine_absolute": 6.661338147750939e-16,
+      "coordinate_reflection_max_absolute": 1.5543122344752192e-15,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_A0_P20": {
+      "D_conjugation_relative": 1.4171258627139773e-15,
+      "affine_absolute": 6.661338147750939e-16,
+      "coordinate_reflection_max_absolute": 2.220446049250313e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_A0_S05": {
+      "D_conjugation_relative": 2.0563465298754588e-15,
+      "affine_absolute": 1.1102230246251565e-16,
+      "coordinate_reflection_max_absolute": 5.551115123125783e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_A0_S20": {
+      "D_conjugation_relative": 3.3062496277636295e-16,
+      "affine_absolute": 7.771561172376096e-16,
+      "coordinate_reflection_max_absolute": 4.440892098500626e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_A0_T05": {
+      "D_conjugation_relative": 1.2734015974035147e-15,
+      "affine_absolute": 3.3306690738754696e-16,
+      "coordinate_reflection_max_absolute": 8.881784197001252e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_A0_T20": {
+      "D_conjugation_relative": 1.277721272085127e-15,
+      "affine_absolute": 0.0,
+      "coordinate_reflection_max_absolute": 1.1102230246251565e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AM_P05": {
+      "D_conjugation_relative": 1.6642714842969193e-15,
+      "affine_absolute": 3.3306690738754696e-16,
+      "coordinate_reflection_max_absolute": 3.3306690738754696e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AM_P20": {
+      "D_conjugation_relative": 1.0377711125909096e-15,
+      "affine_absolute": 4.440892098500626e-16,
+      "coordinate_reflection_max_absolute": 4.440892098500626e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AM_S05": {
+      "D_conjugation_relative": 1.8720335443219456e-15,
+      "affine_absolute": 7.771561172376096e-16,
+      "coordinate_reflection_max_absolute": 8.881784197001252e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AM_S20": {
+      "D_conjugation_relative": 1.854886513033605e-15,
+      "affine_absolute": 1.9984014443252818e-15,
+      "coordinate_reflection_max_absolute": 2.6645352591003757e-15,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AM_T05": {
+      "D_conjugation_relative": 2.571252732168218e-15,
+      "affine_absolute": 8.881784197001252e-16,
+      "coordinate_reflection_max_absolute": 1.1102230246251565e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AM_T20": {
+      "D_conjugation_relative": 7.560605065313333e-16,
+      "affine_absolute": 2.220446049250313e-16,
+      "coordinate_reflection_max_absolute": 2.55351295663786e-15,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AP_P05": {
+      "D_conjugation_relative": 1.085792807849634e-15,
+      "affine_absolute": 4.440892098500626e-16,
+      "coordinate_reflection_max_absolute": 1.2212453270876722e-15,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AP_P20": {
+      "D_conjugation_relative": 1.1606235275180058e-15,
+      "affine_absolute": 3.3306690738754696e-16,
+      "coordinate_reflection_max_absolute": 5.551115123125783e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AP_S05": {
+      "D_conjugation_relative": 3.357229190924088e-15,
+      "affine_absolute": 2.3314683517128287e-15,
+      "coordinate_reflection_max_absolute": 2.220446049250313e-15,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AP_S20": {
+      "D_conjugation_relative": 1.8764703265789456e-15,
+      "affine_absolute": 1.1102230246251565e-16,
+      "coordinate_reflection_max_absolute": 2.220446049250313e-16,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AP_T05": {
+      "D_conjugation_relative": 1.2833121519798193e-15,
+      "affine_absolute": 2.1094237467877974e-15,
+      "coordinate_reflection_max_absolute": 1.6653345369377348e-15,
+      "negative_endpoint_reached": true
+    },
+    "G68_F02_AP_T20": {
+      "D_conjugation_relative": 2.282108077087087e-15,
+      "affine_absolute": 4.440892098500626e-16,
+      "coordinate_reflection_max_absolute": 2.220446049250313e-16,
+      "negative_endpoint_reached": true
+    }
+  },
+  "schema": "UDT_CMB_G68_FINITE_PATH_JACOBI_V1",
+  "status_counts": {
+    "ENDPOINT_REGULAR_NO_CAUSTIC": 21
+  }
+}

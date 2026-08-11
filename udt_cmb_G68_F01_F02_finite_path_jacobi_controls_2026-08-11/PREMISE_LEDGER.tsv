@@ -1,0 +1,15 @@
+item	value_or_role	status	owned_here	not_owned
+F01_metric	round zero-mixing control	CHOSE	finite geodesic and Jacobi evaluation	physical geometry
+F02_metric	round axis-regular mixing control	CHOSE	finite geodesic and Jacobi evaluation	physical geometry
+profile_universe	21 rows in PROFILE_UNIVERSE.tsv	CHOSE_CONTROL	complete bounded census	all profile functions
+R	1 dimensionless	CHOSE_CONTROL	numerical comparison scale	X_max or physical distance
+start_endpoint	x=1/4 to x=1	CHOSE_CONTROL	finite control interval	observer/CMB endpoint
+observer_query	stationary equatorial future-outward	CHOSE	identical query on every row	universal physical query
+connection_curvature	Levi-Civita and full Riemann	DERIVED	geodesic screen and Jacobi equations	metric dynamics
+c_E	clock/ruler calibration	OBSERVED	restorable unit conversion	local variable signal speed
+c_eff_pair	terminal inter-observer readout	CONDITIONAL	inactive	local propagation law
+X_max	observer-pair asymptotic guard	WORKING	inactive	local wall or G68 endpoint
+co_presence	whole-solution interpretation	POSIT	scope guard	signalling mechanism
+P1_SNe	low-z pair compatibility anchor	CONDITIONAL	inactive	centered lapse or CMB profile
+source_state	CMB excitation/covariance	OPEN	inactive	TT power or polarization
+action_bootstrap	global dynamics/closure	OPEN	inactive	profile selection

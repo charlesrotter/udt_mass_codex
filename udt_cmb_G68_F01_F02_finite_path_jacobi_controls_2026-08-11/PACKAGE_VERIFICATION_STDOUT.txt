@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "G01_profile_universe": true,
+    "G05_outcome_census": true,
+    "G06_G07_geometry_residuals": true,
+    "G08_method_convergence": true,
+    "G09_bundle_verification": true,
+    "G10_F01_exact": true,
+    "G11_reflection": true,
+    "G12_G13_G14_scope": true,
+    "epsilon_limit": true,
+    "finite_map_internal_algebra": true,
+    "profile_dependence_observed": true,
+    "raw_samples": true,
+    "rendered_atlases": true,
+    "semantic_completeness_scope": true,
+    "semantic_exact_scope": true,
+    "semantic_lay_scope": true,
+    "semantic_report_scope": true,
+    "source_hashes": true
+  },
+  "passed": 18,
+  "total": 18
+}

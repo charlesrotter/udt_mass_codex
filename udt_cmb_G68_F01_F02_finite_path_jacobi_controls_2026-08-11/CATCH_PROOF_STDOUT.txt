@@ -1,0 +1,25 @@
+{
+  "caught": {
+    "G01_missing_profile": true,
+    "G02_duplicate_profile": true,
+    "G05_hidden_outcome": true,
+    "G06_null_residual": true,
+    "G07_wronskian": true,
+    "G08_method_mismatch": true,
+    "G09_bundle_missing": true,
+    "G10_F01_mutated": true,
+    "G11_reflection_mutated": true,
+    "G12_scope_promoted": true,
+    "G14_control_promoted": true,
+    "adversarial_gate_promoted": true,
+    "bounded_scope_deleted": true,
+    "completeness_time_live_promoted": true,
+    "epsilon_nonconvergence": true,
+    "exact_landing_deleted": true,
+    "lay_control_scope_deleted": true,
+    "profile_effect_zeroed": true,
+    "rotation_promoted": true
+  },
+  "passed": 19,
+  "total": 19
+}
