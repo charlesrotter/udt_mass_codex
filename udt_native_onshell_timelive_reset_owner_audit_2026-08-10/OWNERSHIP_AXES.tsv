@@ -1,0 +1,9 @@
+axis_id	question	pass_requirement
+A01	Native equation provenance	Equation is derived from current UDT foundations rather than imported conditional or merely posited
+A02	Actual on-shell or time-live law	Source supplies an equation whose solutions define allowed histories rather than an identity readout ansatz or transfer formula
+A03	R17 domain compatibility	Equation acts on the complete regular R17 coframe or a proved faithful reduction of it
+A04	Variation or flow ownership	The varied/evolved variables and equation ownership are explicitly derived
+A05	Calibration-state action	Equation acts on the calibration-bearing representative or scalar density needed at the middle observer
+A06	Middle composition compatibility	Equation respects the matched carried/intrinsic middle-state and path-labelled composition types
+A07	Unique reset selection	Equation plus owned data selects one reset without an unfixed coefficient gauge phase path or branch
+A08	Closure independence	Selection does not require an unowned action source carrier boundary seam bootstrap law or physical regime assignment

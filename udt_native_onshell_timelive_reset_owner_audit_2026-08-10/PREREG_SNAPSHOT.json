@@ -1,0 +1,19 @@
+{
+  "axis_count": 8,
+  "base": "3edcad2592e8e4053e88a1e7f646cb9d8a660871",
+  "candidate_count": 36,
+  "falsification_count": 15,
+  "files": {
+    "CANDIDATE_UNIVERSE.tsv": "8f9943f08c4f33720e2879b6291435f29c385bfb334c07f4a51b8e03aa99db61",
+    "COMPLETENESS_MAP.md": "04bd596d18454c5bb6f120f723c32c984d384b4a0067729e30fe4d9d7d66f237",
+    "FALSIFICATION_CONTRACT.tsv": "134dca25ed34bd4ee22cfcb367a7c9b678146af6a14e560a729424e61ad1a271",
+    "OWNERSHIP_AXES.tsv": "950ba722ca4783dd638bb09a60363beaefc41006ad6614b5072e612a3f13d8da",
+    "PONDER_MAP.md": "1b50474dd79f7b044cb4460390fa44e6d77eecd76b9a893914b3cbe385989e58",
+    "PREMISE_LEDGER.tsv": "e1431dc4d9700a3cd5c2604581c668981ef4212d1b1fdd1ca51216fef0312aba",
+    "PREREGISTRATION.md": "6a811f69b6c64f39ac0aa3b7a84af31c7aac80db2d2d50093251f52c1c3c3c3f",
+    "build_preregistration.py": "cbedc8af3cab5279f6a18157efde976252e387d5c8cdaa43a57ad0554d744f96",
+    "verify_preregistration.py": "d9c5207efd39a00159810f2f0e873d6b489277eb9fc4ed4992c63464bc7e2aa5"
+  },
+  "schema": "udt-native-reset-prereg-v1",
+  "source_manifest_sha256": "172ca5f59537cc3cac7c06e5993e3dd5552fbaa4ceff22a39af98783e584c8d7"
+}

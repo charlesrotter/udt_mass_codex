@@ -1,0 +1,16 @@
+test_id	mutation_or_claim	required_rejection_or_outcome
+F01	Candidate omitted or duplicated	FAIL candidate-universe completeness
+F02	Source path or hash differs from frozen manifest	FAIL source integrity
+F03	Kinematic identity promoted to on-shell law	FAIL A02
+F04	Conditional action equation called native	FAIL A01 or A08
+F05	Time derivative alone called time-live ownership	FAIL A02 or A04
+F06	Equation on a frozen or reduced sector promoted to complete R17	FAIL A03
+F07	Equation does not act on calibration data but is called reset selector	FAIL A05
+F08	Path or middle-state mismatch erased	FAIL A06
+F09	Free coefficient gauge branch path or representative called unique	FAIL A07
+F10	Unowned action source carrier boundary or bootstrap input hidden	FAIL A08
+F11	R18 clock chain spliced into R17	FAIL typed-branch separation
+F12	SNe or CMB readout promoted upstream	FAIL readout/equation type
+F13	Bounded no-owner result called universal no-go	FAIL conclusion ceiling
+F14	Protected curvature atlas cited or read	FAIL protected-source gate
+F15	A true eight-gate owner is demoted because it is unfamiliar	FAIL owner-detection completeness
