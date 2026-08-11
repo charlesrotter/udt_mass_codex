@@ -1,0 +1,2248 @@
+Script started on 2026-08-11 16:15:56-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_g69_review_IOWOt6
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019ff277-abfc-7fa2-b118-b360978fe41d
+--------
+user
+Act as the cold adversarial reviewer. Read and follow udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md exactly. Verify REVIEW_MANIFEST.tsv before using sources. Inspect only this sealed intake. Do not edit files or continue the research. Return the required single landing with exact algebraic, numerical, type, scope, and lay adjudication.
+codex
+I’m reading the sealed intake instructions first, then I’ll verify `REVIEW_MANIFEST.tsv` before opening any listed sources.
+exec
+/bin/bash -lc pwd in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+/tmp/udt_g69_review_IOWOt6
+
+exec
+/bin/bash -lc 'rg --files /tmp/udt_g69_review_IOWOt6' in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_ATLAS.tsv
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_SAMPLES.npz
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/PROFILE_UNIVERSE.tsv
+/tmp/udt_g69_review_IOWOt6/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md
+/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv
+/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_repository_gates.py
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PRECALCULATION_CLARIFICATION.md
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PACKAGE_VERIFICATION_STDOUT.txt
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CATCH_PROOF_STDOUT.txt
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/FALSIFICATION_CONTRACT.tsv
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SOURCE_DEGENERACY_ATLAS.tsv
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/DERIVATION_RESULT.json
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PACKAGE_VERIFICATION_RESULT.json
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/REPOSITORY_GATES.json
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/DERIVATION_STDOUT.txt
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREMISE_LEDGER.tsv
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/INDEPENDENT_VERIFICATION_STDOUT.txt
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/build_package_manifest.py
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/run_catch_proofs.py
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/LAY_REPORT.md
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/OBSERVATIONAL_ANCHOR_POLICY.md
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SENSITIVITY_ATLAS.tsv
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/build_review_manifest.py
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CATCH_PROOF_RESULTS.json
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CELL_ATLAS.tsv
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SOURCE_MANIFEST.tsv
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_package.py
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/REVIEW_MANIFEST.tsv
+
+codex
+I’ve isolated the intake directory. Next I’m reading the dispatch and manifest requirements, then I’ll validate the manifest entries before touching any other source files.
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+# Cold adversarial review dispatch — G69 CMB identifiability atlas
+
+You are receiving a sealed read-only intake. Do not edit files, continue the research, import
+outside repository knowledge as affirmative UDT physics, or inspect anything outside the intake.
+
+## Claimed bounded result
+
+The package reconstructs `21 x 15 = 315` intermediate observer-sky Jacobi maps from already saved
+G68 trajectories. It reports:
+
+1. all `15/15` preregistered three-channel sensitivity matrices for
+   `(endpoint, lapse, mixing amplitude) -> (area, anisotropy, azimuthal carry)` are numerically full
+   rank under the frozen threshold, though condition numbers are large;
+2. for every invertible `D`, unrestricted positive-definite source covariance obeys the exact
+   compensation identity
+
+   ```text
+   C_obs = D C_src D^T,
+   C_src = D^-1 C_obs D^-T;
+   ```
+
+3. therefore the geometric instrument distinguishes the controls locally, while a sky covariance
+   cannot select the geometry until source/state or independent channel ownership is restricted.
+
+The package explicitly does not claim that scalar TT reads all three channels or that the full CMB
+data set is globally non-identifying.
+
+## Required review
+
+1. Reproduce every manifest hash before interpretation.
+2. Type-check the saved-state reconstruction `D_AB=E_A g J_B` and independently inspect the cell,
+   sensitivity, and covariance atlases.
+3. Audit whether the PCHIP/CubicSpline agreement is a legitimate interpolation check and whether it
+   is honestly distinguished from independent path integration.
+4. Recompute the finite-difference matrices and rank classifications. Challenge the midpoint,
+   normalization, threshold, conditioning, and use of azimuthal carry.
+5. Prove or refute the source-covariance congruence theorem, including positive definiteness and
+   singular-map qualifications.
+6. Determine exactly which observation classes the theorem does and does not address. In
+   particular, challenge any silent jump from a local `2 x 2` screen covariance to full TT/TE/EE/BB
+   spectra or a physical source population.
+7. Audit the observational-anchor policy. Decide whether a few future coefficients can be fitted
+   without violating the exact compensation freedom, and state the necessary ownership conditions.
+8. Search for omitted profile, endpoint, source, sign, branch, or query freedom that invalidates the
+   bounded conclusion.
+9. Run or independently replace the exact algebra and package checks. Do not accept same-code
+   agreement as independent evidence.
+
+## Required landing
+
+Return exactly one primary landing:
+
+- `VERIFIED_AS_BOUNDED`;
+- `VERIFIED_WITH_CAVEATS`;
+- `CORRECTABLE_DEFECT`;
+- `RANK_CLAIM_NOT_SUPPORTED`;
+- `SOURCE_DEGENERACY_CLAIM_NOT_SUPPORTED`;
+- `TYPE_OR_SCOPE_FAILURE`.
+
+Separate `DERIVED`, `OBSERVED`, `CHOSE_CONTROL`, `CONDITIONAL`, and `OPEN`. Give exact corrections,
+if any, and runnable algebra for every load-bearing challenge. Do not derive a physical CMB profile,
+source, endpoint, spectrum, action, bootstrap law, `X_max` value, or signalling rule.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/REVIEW_MANIFEST.tsv" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+path	sha256	role
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md	41b670894b0663d330148adc94be3e14776f40626bf02233f2cc14ef70c59d8e	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CATCH_PROOF_RESULTS.json	5179ee8267d61b869c708ee60f06dcf1cedde6aaddd6286f716fd65d2b0fff2f	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CATCH_PROOF_STDOUT.txt	5179ee8267d61b869c708ee60f06dcf1cedde6aaddd6286f716fd65d2b0fff2f	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CELL_ATLAS.tsv	a859c6ef18a31b3e287835fd7f4e2338f1fa7cf1da91f31d088e4ec66d567733	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/DERIVATION_RESULT.json	e240dbfc34c61a5d836fc8a20b2bafb42f1a169e40ad14081838899fa4cdbfbc	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/DERIVATION_STDOUT.txt	e240dbfc34c61a5d836fc8a20b2bafb42f1a169e40ad14081838899fa4cdbfbc	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md	e43cd3bc38d598fa7d2cedffec9b8b53afe93f58f2dfcc26891fa55fcd8c6f6f	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md	844b364ead6b7030ea6e92c728c8cf5d204a052fd247d2ddf351962fb6ba70d1	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/FALSIFICATION_CONTRACT.tsv	700b8526b419a621e72157fd059bec03b57f27d7690ae6b6566674561e53eaf0	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json	4785ed9539f27ffdcb27cae565c77a8a17919ce3434b7517894d8007b3eba9e4	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/INDEPENDENT_VERIFICATION_STDOUT.txt	4785ed9539f27ffdcb27cae565c77a8a17919ce3434b7517894d8007b3eba9e4	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/LAY_REPORT.md	90bd6ae810090983c12fb4560128c481df6ddb2531606da34e2c4dd75c961be9	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/OBSERVATIONAL_ANCHOR_POLICY.md	561afa9e265374ffeca1ea0832f43e000d9a6debf5e85fa36e4167af2176b119	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PACKAGE_VERIFICATION_RESULT.json	30f2d8cb1c47431283f79ecfdcf6d3aaa4dc32be66757da9c52669fc01ecc07e	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PACKAGE_VERIFICATION_STDOUT.txt	30f2d8cb1c47431283f79ecfdcf6d3aaa4dc32be66757da9c52669fc01ecc07e	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PRECALCULATION_CLARIFICATION.md	2916fce728d4a757e5811dd2f3d4faef58b17d504f42e58135ee3ae19317f046	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREMISE_LEDGER.tsv	c8a1da889430e8eba7485c6b2aa2b54caa85324bf5b0b6831a9c3c660304195d	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md	a3f0dd1fab298bbdf1a6dbb3140858a97bd3760032f9b288c8238690216102f4	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/REPOSITORY_GATES.json	f4f54940495a86a4145125dc7f301c8f0e3d37163adcf79662af0a60952a97dd	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SENSITIVITY_ATLAS.tsv	1906d9487a803d539d79df1da49c3cf8fec1e295737eeb79b350c5898bcd4f8a	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SOURCE_DEGENERACY_ATLAS.tsv	3dbdd15f016efc1d3dc76691d8f29765d1fd4f39530c8ce83bc2b21b88163a51	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SOURCE_MANIFEST.tsv	62b614d3695f5be8a0029e840cb888c4a15c3587178bd3527d5347e7146b9626	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/build_package_manifest.py	8e5c819f93308b95d5d0c9ff853785bfadd05e35403fea1cbe7efbafb9998a34	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/build_review_manifest.py	a5d3f979934842f0be6e110eed31e9ef5c2fcb979cb78c67ed1c148355467b5c	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py	1c38da76ceee7eecf5ed897dee925d0b04beeab0fb8910ab56814f688e19c816	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/run_catch_proofs.py	a42ccc646950d0d13d007cfd4df0e44332ab3332edec7836ce958ae228c11ea4	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py	a9371d2e9b824fe62cac0ae9d68fed1540286e9e4b656dbce57c40121484d500	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_package.py	f0786d62b0e4747ce96d7b2cfa6c8b030c629e677372d79a2191822ec0661b17	G69_PACKAGE
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_repository_gates.py	c1311e35ae2bfbac42c8f151a767f219850eb0755d7d8c14eb63c7dca9fd29ef	G69_PACKAGE
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_SAMPLES.npz	9cf2d3f8c7315c0dcbf7688ef295275ea1bea5f0d87fd6d5278f21fbbe17b725	CITED_SOURCE
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/PROFILE_UNIVERSE.tsv	b8b5c87fca94f91074368d1d454e33b5290290f8d7c454e244518da1ebe53985	CITED_SOURCE
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py	f0f495cf05211a2ac47a7fa917be64b1dd9c6dfc51dfbb5c1736520b42010d4a	CITED_SOURCE
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_ATLAS.tsv	a3c013122640f36526915d5ea458559ab3086031e3fabe5797cd9076cfdd66aa	CITED_SOURCE
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md	3c67542081edd46d32472d4aba5e5abcd21ca9866f4098f58a382a0fe83d6aef	CITED_SOURCE
+udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv	f016c32b675a5e3f8a576573091e7217d7f20c156f0b084925492713444db884	CITED_SOURCE
+udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv	bff272867cb5405cb58b33ec552eae54aad182cbd5307c605690f253c7bb1516	CITED_SOURCE
+udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md	30a1cd9887e04cffc86b3646083c7fe890ca030f3430bf86365cfbe4a87a5c0b	CITED_SOURCE
+
+codex
+I have the review contract. I’m verifying the full manifest now, then I’ll do an independent pass on the algebra, numerics, and scope without relying on package self-approval.
+Cold review constrained to the sealed intake and cited sources listed in REVIEW_MANIFEST.tsv.
+  → Verify every REVIEW_MANIFEST.tsv hash before using any source content
+  • Inspect the dispatch-listed algebra, atlases, and policy documents
+  • Independently recompute rank, conditioning, and covariance claims
+  • Assess scope, ownership conditions, and produce the required landing
+exec
+/bin/bash -lc "awk 'NR>1 {print "'$2 "  " $1}'"' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/REVIEW_MANIFEST.tsv | sha256sum -c" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CATCH_PROOF_RESULTS.json: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CATCH_PROOF_STDOUT.txt: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CELL_ATLAS.tsv: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/DERIVATION_RESULT.json: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/DERIVATION_STDOUT.txt: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXTERNAL_REVIEW_DISPATCH.md: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/FALSIFICATION_CONTRACT.tsv: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/INDEPENDENT_VERIFICATION_RESULT.json: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/INDEPENDENT_VERIFICATION_STDOUT.txt: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/LAY_REPORT.md: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/OBSERVATIONAL_ANCHOR_POLICY.md: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PACKAGE_VERIFICATION_RESULT.json: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PACKAGE_VERIFICATION_STDOUT.txt: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PRECALCULATION_CLARIFICATION.md: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREMISE_LEDGER.tsv: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/REPOSITORY_GATES.json: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SENSITIVITY_ATLAS.tsv: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SOURCE_DEGENERACY_ATLAS.tsv: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SOURCE_MANIFEST.tsv: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/build_package_manifest.py: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/build_review_manifest.py: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/run_catch_proofs.py: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_package.py: OK
+udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_repository_gates.py: OK
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_SAMPLES.npz: OK
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/PROFILE_UNIVERSE.tsv: OK
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py: OK
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_ATLAS.tsv: OK
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md: OK
+udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv: OK
+udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv: OK
+udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md: OK
+
+codex
+The manifest checks out. I’m now reading the derivation, preregistration, atlases, and scope documents that actually bear on the bounded claim.
+exec
+/bin/bash -lc 'wc -l /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/OBSERVATIONAL_ANCHOR_POLICY.md /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PRECALCULATION_CLARIFICATION.md /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/LAY_REPORT.md' in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+  162 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md
+  117 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md
+   20 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/OBSERVATIONAL_ANCHOR_POLICY.md
+   28 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PRECALCULATION_CLARIFICATION.md
+   19 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/LAY_REPORT.md
+  346 total
+
+exec
+/bin/bash -lc 'wc -l /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SENSITIVITY_ATLAS.tsv /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CELL_ATLAS.tsv /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SOURCE_DEGENERACY_ATLAS.tsv /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREMISE_LEDGER.tsv /tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv /tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv' in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+    16 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SENSITIVITY_ATLAS.tsv
+   316 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CELL_ATLAS.tsv
+   946 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SOURCE_DEGENERACY_ATLAS.tsv
+    16 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREMISE_LEDGER.tsv
+     5 /tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv
+    15 /tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv
+  1314 total
+
+exec
+/bin/bash -lc 'wc -l /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/run_catch_proofs.py /tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py' in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+  374 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py
+  161 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py
+   53 /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/run_catch_proofs.py
+  491 /tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py
+ 1079 total
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+# G69 profile–endpoint–source identifiability atlas — preregistration
+
+Date: 2026-08-11
+
+Base commit: `b39bce04a77055e685662d4364fbf851e88c2ef0`
+
+Precalculation clarification: `PRECALCULATION_CLARIFICATION.md`. It resolves the sensitivity-center,
+normalization, and numerical-rank conventions before any atlas outcome is computed.
+
+Mode: `MAP -> OBSERVE -> PONDER`; metric-led saved-field recomputation plus exact linear algebra;
+CPU float64; no new ODE solve, fit, eigensolve, or GPU work
+
+## Whole question
+
+Within the exact G68 finite-path control universe, can the observer-sky Jacobi map distinguish a
+change of complete metric profile from a change of endpoint surface? If the geometric map is
+known, can a scalar or tensor sky covariance identify either choice without an independently
+owned source/state covariance?
+
+The calculation will separate three questions that must not be conflated:
+
+1. **geometric sensitivity:** do the saved finite maps change with profile and endpoint?;
+2. **geometric identifiability:** are those changes locally independent inside this control tile?;
+3. **observational identifiability:** can an observed sky covariance select the map when its input
+   source covariance is unrestricted?
+
+This is an ownership and identifiability atlas. It does not select a physical profile, endpoint,
+last-scattering surface, source, spectrum, or parameter value.
+
+## Frozen universe
+
+Use all `21` G68 profiles and only the already saved `501`-sample trajectories in
+`FINITE_PATH_SAMPLES.npz`. No G68 trajectory will be reintegrated or filtered.
+
+Interrogate exactly the endpoint grid
+
+```text
+x = r/R in {0.30, 0.35, ..., 1.00}
+```
+
+for `15` endpoint surfaces and `21 x 15 = 315` profile/endpoint cells. The G68 start remains
+`x=0.25`. Each crossing state is reconstructed by monotone cubic interpolation of the saved state
+against its saved radial coordinate. The official `x=1` G68 endpoint is the interpolation
+regression check. All endpoint surfaces remain `CHOSE_CONTROL`; none is last scattering or
+`X_max`.
+
+For every cell compute from the same complete saved state:
+
+- affine depth `s`;
+- complete `2 x 2` screen Jacobi map `D`;
+- `det(D)`, singular values, logarithmic anisotropy `log(sigma_max/sigma_min)`, and polar rotation;
+- endpoint azimuthal carry `psi`;
+- matched-F01 area residual `det(D)/s_F01(a,x)^2 - 1`, using the F01 row with the same lapse label
+  and endpoint.
+
+No source population or CMB observable is inserted into these geometric readouts.
+
+## Bounded local sensitivity test
+
+For each F02 shape separately, form coarse finite-difference sensitivity columns for
+`(endpoint x, lapse a, mixing epsilon)` at the registered central lapse `a=0` and between the two
+registered positive amplitudes `epsilon=1/20,1/5`. Use only registered cells:
+
+- endpoint derivative: centered `Delta x=0.05` wherever both neighbours exist;
+- lapse derivative: centered endpoints `a=-1/4,+1/4`;
+- amplitude secant: `epsilon=1/20` to `1/5`.
+
+The readout vector is
+
+```text
+y = (log(det(D)/s_F01^2), log(sigma_max/sigma_min), psi).
+```
+
+Report the raw `3 x 3` sensitivity matrix, its singular values, determinant, and scale-normalized
+condition number at `x in {0.35,0.50,0.65,0.80,0.95}`. Because the amplitude column is a secant and
+the parameter spacing is coarse, numerical full rank is only `OBSERVED` local control-tile
+separation—not a theorem of physical identifiability.
+
+## Exact source-covariance degeneracy test
+
+For an invertible geometric transfer `D`, the generic covariance readout is
+
+```text
+C_obs = D C_src D^T.
+```
+
+For each positive-definite test covariance `C_obs` and every invertible G68 `D`, construct
+
+```text
+C_src = D^{-1} C_obs D^{-T}
+```
+
+and verify exact reconstruction and positive definiteness numerically. Use the three frozen
+dimensionless observed-covariance controls
+
+```text
+I,
+diag(2,1),
+[[2,1/3],[1/3,1]].
+```
+
+These are algebra controls, not observed CMB covariances. The analytic congruence identity, not the
+chosen examples, carries the conclusion: an unrestricted source covariance can absorb any
+invertible geometric transfer. Singular maps will be separately classified and cannot be inverted.
+
+## Observational-anchor policy
+
+No observational coefficient is fitted in G69. A later explicitly authorized anchor phase may use
+a small preregistered parameter vector only after this atlas identifies its rank and source
+dependencies. Each coefficient must have one declared owner and one primary anchor; at least one
+independent observable or regime must remain held out. The conditional P1 SNe result may constrain
+only a low-redshift observer-pair profile after a CMB pair profile exists. CMB peak positions,
+heights, and polarization cannot be treated as interchangeable anchors, because they read different
+geometric and source/state channels. Parameter count may not be increased after residual inspection.
+
+## Premise and scope ledger
+
+- G68 profiles, paths, query, screen, and saved states: `CHOSE_CONTROL`, frozen inputs.
+- `c_E`: `OBSERVED` clock/ruler calibration, dimensionless unit convention here.
+- endpoint grid and covariance controls: `CHOSE_CONTROL`, preregistered above.
+- Jacobi-map reconstruction and covariance congruence: `DERIVED` from the supplied metric/query and
+  linear algebra.
+- numerical sensitivity rank: `OBSERVED` only within the registered finite tile.
+- physical CMB profile, endpoint, source/state covariance, spectrum, and polarization law: `OPEN`.
+- P1 SNe profile: `CONDITIONAL` low-redshift cross-anchor and inactive in the computation.
+- `X_max`: `WORKING` observer-pair asymptotic guard and inactive.
+- action, native source law, bootstrap, time-live history, local signal law: `OPEN` and inactive.
+
+Outside scope: unregistered profiles, other endpoints, non-equatorial or time-live queries, other
+metric branches, singular maps, a last-scattering model, population physics, mode operators,
+TT/TE/EE/BB spectra, fitting, action/source derivation, bootstrap activation, and local signalling.
+
+## Certification and falsification
+
+The package fails closed if:
+
+1. any of the 21 saved profiles or 15 endpoints is omitted or duplicated;
+2. a new solve silently replaces the saved trajectories;
+3. interpolation fails to reproduce every official `x=1` endpoint `D` within `2e-8` relative;
+4. an F01 cell has anisotropy or polar rotation above `2e-10`;
+5. source-covariance reconstruction exceeds `2e-10` relative or loses positive definiteness;
+6. a rank observation is promoted to physical parameter selection;
+7. arbitrary source covariance is treated as physically owned;
+8. an observational anchor, fit, last-scattering surface, or `X_max` value is inserted.
+
+The independent verifier must reconstruct the cell census and covariance identity without importing
+the production atlas builder. Mutation catches must exercise the census, endpoint regression,
+source-degeneracy, scope, and anchor-policy gates.
+
+## Allowed landings
+
+Exactly one primary landing:
+
+1. `GEOMETRICALLY_SEPARATING__OBSERVATIONALLY_SOURCE_DEGENERATE`;
+2. `PROFILE_ENDPOINT_GEOMETRIC_DEGENERACY_OBSERVED`;
+3. `SINGULAR_MAPS_BLOCK_GENERIC_COVARIANCE_INVERSION`;
+4. `IDENTIFIABILITY_NUMERICALLY_UNRESOLVED`;
+5. `SAVED_FIELD_OR_QUERY_FAILURE`.
+
+Maximum conclusion: a bounded profile/endpoint sensitivity map and an exact statement of what an
+unrestricted source covariance prevents observations from identifying. No physical coefficient,
+profile, endpoint, source, spectrum, action, bootstrap result, or dynamics follows.
+
+exec
+/bin/bash -lc "sed -n '1,200p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+# G69 exact derivation — profile, endpoint, and source identifiability
+
+## Status
+
+- screen-map reconstruction from each supplied saved metric/query state: `DERIVED`;
+- three-channel finite-tile sensitivity rank: `OBSERVED`, coarse and control-scoped;
+- unrestricted positive-definite source-covariance degeneracy: `DERIVED`;
+- physical profile, endpoint, source/state, and observational coefficients: `OPEN`.
+
+## 1. Saved complete-state readout
+
+G68 stores the complete coordinate state along each already solved observer-sky path. At any
+intermediate radius, the transported screen vectors `E_A`, Jacobi vectors `J_B`, and complete
+metric give
+
+```text
+D_AB = E_A^mu g_mu_nu J_B^nu.
+```
+
+G69 reconstructs this object at fifteen declared surfaces `x=r/R=0.30,...,1.00`. No geodesic,
+screen, or Jacobi equation is reintegrated. The production PCHIP and independent cubic-spline
+reconstructions use different interpolation families and agree over all 315 cells to
+`1.0141e-10` relative. At `x=1`, the reconstruction agrees with the official G68 endpoint maps to
+`3.7445e-16` relative.
+
+The registered geometric readout is
+
+```text
+y = ( log(det(D)/s_F01(a,x)^2),
+      log(sigma_max(D)/sigma_min(D)),
+      psi ).
+```
+
+The three components are respectively matched-F01 logarithmic area, logarithmic anisotropy, and
+azimuthal carry. They are separate geometric channels; they are not automatically three observed
+CMB quantities.
+
+## 2. Coarse local sensitivity
+
+For each shape, define the control parameters
+
+```text
+p = (x_endpoint, a, epsilon).
+```
+
+The preregistered finite differences form
+
+```text
+S_ij = Delta y_i / Delta p_j.
+```
+
+Endpoint and lapse columns are averaged over the two registered amplitudes. The amplitude column
+is their secant. Each column is divided by its Euclidean norm before the numerical-rank test.
+
+All `15/15` registered shape/endpoint matrices have nonzero determinant and normalized
+`sigma_min/sigma_max` between `4.6381e-4` and `1.4965e-2`, above the preregistered `1e-6` full-rank
+threshold. Thus the complete three-channel geometric instrument locally separates endpoint, lapse,
+and mixing-amplitude directions inside this finite tile.
+
+This separation is not well conditioned uniformly. The normalized condition numbers range from
+`66.82` to `2156.08`. The result is therefore a real local distinction, but some parameter
+combinations would be highly noise-sensitive. It is neither a global injectivity theorem nor a
+license to fit three physical coefficients.
+
+## 3. Exact source-covariance degeneracy
+
+Let an invertible geometric screen transfer be `D`, a positive-definite source covariance be
+`C_src`, and its transported covariance be
+
+```text
+C_obs = D C_src D^T.
+```
+
+For any positive-definite target `C_obs`, define
+
+```text
+C_src(D) = D^-1 C_obs D^-T.
+```
+
+Then directly
+
+```text
+D C_src(D) D^T = C_obs.
+```
+
+For every nonzero vector `v`,
+
+```text
+v^T C_src(D) v = (D^-T v)^T C_obs (D^-T v) > 0,
+```
+
+so the constructed source covariance remains positive definite. Therefore an unrestricted source
+covariance can exactly absorb any invertible geometric map. This is a congruence identity, not a
+numerical coincidence.
+
+All 315 G69 maps are invertible; their minimum singular value is `0.0496135`. Across the three
+registered covariance controls and all `945` reconstructions, the maximum relative backward error
+is `2.8306e-16` and the minimum constructed source eigenvalue is `1.56159`.
+
+## 4. Channel ownership consequence
+
+The geometric rank uses area, anisotropy, **and** azimuthal carry. A scalar TT readout does not
+directly read arbitrary screen orientation/carry. Projecting from three readout channels to two or
+one can only reduce rank. More importantly, even a complete local covariance readout cannot select
+`D` while `C_src` is unrestricted, by the exact identity above.
+
+Consequently:
+
+- the metric map contains genuine profile and endpoint information;
+- that information does not by itself identify the physical profile or endpoint from a sky
+  covariance;
+- a typed source/state restriction, an independently owned endpoint/profile rule, or genuinely
+  independent observational channels are required before coefficients can be estimated;
+- an observational fit cannot be used to pretend that an unrestricted source has been derived.
+
+This result concerns the declared `2 x 2` screen-covariance transfer only. It is not a theorem that
+all full-sky TT/TE/EE/BB data are degenerate, and it supplies no population law.
+
+exec
+/bin/bash -lc "sed -n '1,120p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/OBSERVATIONAL_ANCHOR_POLICY.md" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+# G69 observational-anchor policy
+
+Observational anchors are permitted in a later separately preregistered phase; none is used in
+G69.
+
+Before any fit:
+
+1. declare the exact metric/profile family and physical query;
+2. declare each coefficient and whether it belongs to profile, endpoint, source/state, or readout;
+3. require the coefficient count not to exceed the identified independent readout rank;
+4. state which observable primarily anchors each coefficient;
+5. retain at least one independent observable, channel, or regime as a held-out check;
+6. do not add coefficients after inspecting residuals;
+7. preserve source freedom explicitly rather than absorbing it into geometric coefficients;
+8. keep the conditional P1 SNe anchor in its low-redshift observer-pair role unless a derived map
+   connects it to the CMB query.
+
+Peak positions, heights, scalar temperature, and polarization are not interchangeable data points.
+They read different parts of the geometric and source/state machinery. A successful fit is an
+`OBSERVED` compatibility result until its premises are independently justified.
+
+exec
+/bin/bash -lc "sed -n '1,120p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/LAY_REPORT.md" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+# G69 in plain language
+
+We asked whether changing the cosmic landscape and changing how far we look through it leave the
+same fingerprint.
+
+Inside our test map, they do not. The complete instrument reads three things: how the image area
+changes, how it stretches, and how it is carried sideways. Those three readings let us tell apart
+small changes in endpoint, background profile, and mixing strength throughout the tested region.
+
+But there is a second layer: we do not yet know the original pattern being viewed. If that source
+pattern is allowed to be anything, it can be adjusted to exactly cancel any of these geometric
+maps. It is like identifying a lens from the final photograph while allowing the original picture
+behind the lens to be redrawn freely. The lens contains real information, but the photograph alone
+cannot identify it.
+
+This tells us why observational anchors will eventually help and why they cannot simply be fitted
+yet. First we must restrict or derive enough of the source pattern—or find independent channels
+that read the geometry differently. Then a few fixed coefficients may be estimated honestly, with
+other observations held back as tests.
+
+exec
+/bin/bash -lc "sed -n '1,120p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PRECALCULATION_CLARIFICATION.md" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+# G69 precalculation clarification
+
+Date: 2026-08-11
+
+This clarification is registered after the primary preregistration commit `8b7340cb` but before
+writing or running the atlas derivation. It changes no profile, endpoint, source control, allowed
+landing, or authority boundary.
+
+For each F02 shape and registered sensitivity endpoint:
+
+1. The sensitivity center is the arithmetic midpoint of the readout vectors at the two registered
+   amplitudes `epsilon=1/20` and `epsilon=1/5`; no new `epsilon=1/8` metric is synthesized.
+2. The endpoint and lapse columns are the arithmetic means of their respective finite-difference
+   columns at those two registered amplitudes.
+3. The amplitude column is the secant between the two registered amplitudes.
+4. The raw matrix columns are derivatives with respect to `(x,a,epsilon)` in that order.
+5. The scale-normalized matrix is formed by dividing each nonzero raw column by its Euclidean norm.
+   A zero column gives infinite condition number. No result-dependent row scaling is allowed.
+6. Numerical rank is classified by `sigma_min/sigma_max` of the column-normalized matrix:
+   - greater than or equal to `1e-6`: `FULL_RANK_OBSERVED`;
+   - less than or equal to `1e-8`: `RANK_DEFICIENT_OBSERVED`;
+   - between those thresholds: `RANK_NUMERICALLY_UNRESOLVED`.
+7. An independent `CubicSpline` reconstruction must agree with the production monotone-PCHIP
+   intermediate `D` maps within `2e-7` relative over all 315 cells. This is an interpolation-method
+   check, not independent path integration.
+
+The rank remains a coordinate- and tile-scoped numerical observation. It cannot select a physical
+parameter or override the exact source-covariance non-identifiability statement.
+
+exec
+/bin/bash -lc "sed -n '1,40p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SENSITIVITY_ATLAS.tsv" in /tmp/udt_g69_review_IOWOt6
+exec
+/bin/bash -lc "sed -n '1,25p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/CELL_ATLAS.tsv" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+shape	endpoint_x	m00	m01	m02	m10	m11	m12	m20	m21	m22	determinant	column_norm_x	column_norm_a	column_norm_epsilon	normalized_sigma_max	normalized_sigma_mid	normalized_sigma_min	normalized_condition	sigma_ratio	classification
+PERSISTENT	0.35	0.003238920106491218	-4.468219844129145e-05	0.002192709400000013	0.0007064223615890346	-6.402375356136127e-06	0.0004158680529580519	-0.05968228922212347	0.0005751903579007782	-0.028434114090514356	7.947826303504497e-11	0.05977428613377479	0.000576958782834418	0.02852156666213668	1.7319467664996795	0.018821638107853478	0.002478699304334413	698.7320985127506	0.0014311636779367905	FULL_RANK_OBSERVED
+PERSISTENT	0.5	0.005700970769372274	-0.00028362360094123286	0.010352741185725097	0.0017599047120607433	-6.341628792618976e-05	0.0025922376389397525	-0.09289007077222794	0.0035632600668779723	-0.12413351846765848	2.4897007710741e-09	0.09308148892437361	0.0035750924850683824	0.12459144975958765	1.731970245003386	0.01657390523387225	0.0020919101817812465	827.9371935216768	0.0012078210857353134	FULL_RANK_OBSERVED
+PERSISTENT	0.65	0.007280609795904279	-0.000795541590065345	0.02187483565766034	0.002804494065959296	-0.00023777265793272707	0.006617283450658254	-0.10547725861086739	0.00954365775816045	-0.24387929587548282	1.0413723871401934e-08	0.1057654222798265	0.009579709059427653	0.24494776551754313	1.7319861463639727	0.014877401261746758	0.0016284148642567576	1063.6025157842607	0.0009402008599637783	FULL_RANK_OBSERVED
+PERSISTENT	0.8	0.008567111977415474	-0.0017041702720701768	0.035869709977454096	0.003838097557281028	-0.0006233468679265327	0.012471331716901428	-0.11137793360917213	0.019291634471019534	-0.3736475385957637	2.2981692936176618e-08	0.11177285222960867	0.019376788129031878	0.3755724341686067	1.7319977501872739	0.013503108278598477	0.0012080616864762299	1433.699760183027	0.000697496106069195	FULL_RANK_OBSERVED
+PERSISTENT	0.95	0.009721187235541419	-0.003179638108872682	0.051990709806668145	0.004858556759123754	-0.0013483532948656714	0.020130438572333383	-0.1144326342895391	0.03375971524926748	-0.5081749636216468	3.424367990005654e-08	0.11494753083687131	0.03393591797524849	0.5112240820962739	1.7320066503917722	0.012341705142602041	0.0008033136656532416	2156.0776623703177	0.0004638051854313236	FULL_RANK_OBSERVED
+TAPERED	0.35	3.8188544002045634e-05	-5.325464244529648e-06	6.345166498306103e-05	0.000296947341099627	-2.094867335480865e-06	0.00020899076906871696	-0.016284724071708757	0.00023466125355452568	-0.00889495443390811	5.1537127685583914e-12	0.016287475991692814	0.00023473102257340084	0.00889763550819242	1.7319540868478445	0.017617841862875388	0.004965148451233582	348.8222162657682	0.0028667898814050837	FULL_RANK_OBSERVED
+TAPERED	0.5	-0.00010373188812675598	-2.0124006064121897e-05	-1.500248950346152e-06	0.00038574253780251455	-1.1559850855074442e-05	0.0008658502463418577	-0.013592172020789507	0.001104376853743959	-0.028617387087861847	7.915914781411154e-11	0.013598040221032507	0.0011046206773627164	0.02863048275241546	1.7318800514413313	0.0239108672441977	0.00444498000029908	389.62606160765677	0.0025665634271841236	FULL_RANK_OBSERVED
+TAPERED	0.65	-0.00012836421004045736	-3.138036662167062e-05	-0.00023223456145003826	0.0002823343467790575	-2.389465499104603e-05	0.0014739975692400545	-0.004952449684637254	0.0020883295587690084	-0.0397602283379738	4.053886979401317e-11	0.004962151542693361	0.0020887019959713767	0.039788218849471924	1.7315090382460112	0.043298165874612896	0.0013112224328413074	1320.5303653126025	0.000757271492021522	FULL_RANK_OBSERVED
+TAPERED	0.8	-3.6840618320821207e-05	-3.67381536498165e-05	-0.0003929158458987918	0.0001197915624764162	-3.400936339266349e-05	0.0018333295975688836	0.0017891019282509205	0.00276018658117195	-0.04124357395446208	-3.210846523062186e-10	0.00179348625845585	0.002760640558206314	0.041286170478895996	1.7300161717797036	0.08321661604771784	0.010910554260274184	158.56354594915217	0.006306619809831182	FULL_RANK_OBSERVED
+TAPERED	0.95	0.00010521590174168577	-3.948807621764149e-05	-0.000336578520352826	-5.5107365557406034e-05	-3.994803285038757e-05	0.001891230734041744	0.00446622760892564	0.0029506185343085188	-0.036929806838766635	-6.904178127754924e-10	0.004467806650074243	0.002951153145551233	0.03697973325942687	1.7315694093693794	0.03155824262395629	0.025912503905753902	66.82370085373658	0.014964750338937313	FULL_RANK_OBSERVED
+SIGN_CHANGING	0.35	-0.00029744200496958266	-9.480579346900951e-07	-0.00016849096243858896	0.0003526218241652389	-1.931313118776902e-06	0.0002419551772898356	-0.0049460754698455595	0.0001627287432330978	-0.00428264811408768	8.950706530424882e-13	0.004967542294797893	0.00016274296500443195	0.004292785387291054	1.7308487805460766	0.06447602455603398	0.002311090567219357	748.931610511737	0.001335235401957077	FULL_RANK_OBSERVED
+SIGN_CHANGING	0.5	-0.0004091393675791018	4.284098381075528e-06	-0.00093014797207891	0.0005575552781025261	-8.477849387683783e-06	0.0010834291258926775	0.015783882155534175	0.00040769432379228053	3.643085289489251e-06	-8.191496523066519e-11	0.015799025248730794	0.0004078049645132142	0.0014279380913980503	1.4135441724429914	1.0009262062499762	0.006293027450237406	224.62069069628245	0.004451949626279688	FULL_RANK_OBSERVED
+SIGN_CHANGING	0.65	0.0005021433122411371	-6.244694533172668e-06	-0.0010710775874442332	0.0007630379416215536	-1.7388369149657508e-05	0.002212032861532752	0.046784082574665216	-0.0007292556046347967	0.036926214950667315	-2.580123643384689e-10	0.04679299901865103	0.0007294896082075194	0.037007913304612464	1.7314512724192856	0.045494707907128534	0.0025928343725405032	667.7832146766784	0.0014974919674855432	FULL_RANK_OBSERVED
+SIGN_CHANGING	0.8	0.0028272230987361267	-0.0001778043666708812	0.0015824910141371538	0.001358016006057272	-6.634720517440838e-05	0.003980806909147541	0.08086356796791942	-0.005421296224130772	0.11325404745335453	6.72105265046464e-09	0.08092437223991954	0.005424616953685878	0.11333503591575035	1.7318891597893455	0.023427606652354743	0.0033294820461560793	520.1677425438678	0.0019224567734814238	FULL_RANK_OBSERVED
+SIGN_CHANGING	0.95	0.006873335551957283	-0.0008996028999701451	0.009803679723922454	0.0026907927562304095	-0.0003115353676671057	0.007389310792302217	0.11555837690678765	-0.016650814959572158	0.2306540823946023	5.564337743984468e-08	0.11579387540193123	0.01667800882841996	0.23098056146656687	1.7319812538633366	0.014732150886720651	0.004888762239675442	354.2780705936561	0.0028226415434755014	FULL_RANK_OBSERVED
+
+ succeeded in 0ms:
+profile_id	family	lapse_a	shape	epsilon	endpoint_x	affine	endpoint_psi	D00	D01	D10	D11	det_D	sigma_max	sigma_min	anisotropy_log	polar_rotation	area_ratio_vs_F01	area_log_vs_F01	x1_official_relative
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.3	0.05039526306789703	0.0	0.05039526307409803	0.0	0.0	0.05039526307409803	0.002539682540307549	0.05039526307409803	0.05039526307409803	0.0	0.0	1.0000000002460947	2.4609470014339e-10	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.35	0.10079052613579413	0.0	0.10079052613831994	0.0	0.0	0.10079052613831994	0.010158730159239352	0.10079052613831994	0.10079052613831994	0.0	0.0	1.0000000000501197	5.011968617781715e-11	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.4	0.15118578920369127	0.0	0.15118578920369097	0.0	0.0	0.15118578920369097	0.02285714285714288	0.15118578920369097	0.15118578920369097	0.0	0.0	0.999999999999996	-3.9968028886505714e-15	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.45	0.2015810522715884	0.0	0.2015810522718944	0.0	0.0	0.2015810522718944	0.040634920635044224	0.2015810522718944	0.2015810522718944	0.0	0.0	1.000000000003036	3.0360158831353442e-12	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.5	0.2519763153394854	0.0	0.2519763153394846	0.0	0.0	0.2519763153394846	0.06349206349206339	0.2519763153394846	0.2519763153394846	0.0	0.0	0.9999999999999939	-6.10622663543838e-15	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.55	0.3023715784073821	0.0	0.3023715784073815	0.0	0.0	0.3023715784073815	0.09142857142857126	0.3023715784073815	0.3023715784073815	0.0	0.0	0.999999999999996	-3.9968028886505714e-15	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.6	0.3527668414752786	0.0	0.3527668414750844	0.0	0.0	0.3527668414750844	0.12444444444430731	0.3527668414750844	0.3527668414750844	0.0	0.0	0.999999999998899	-1.1010081735213738e-12	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.65	0.4031621045431751	0.0	0.4031621045429636	0.0	0.0	0.4031621045429636	0.16253968253951148	0.4031621045429636	0.4031621045429636	0.0	0.0	0.9999999999989506	-1.0493828028762485e-12	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.7	0.4535573676110716	0.0	0.4535573676110727	0.0	0.0	0.4535573676110727	0.2057142857142857	0.4535573676110727	0.4535573676110727	0.0	0.0	1.0000000000000047	4.6629367034256464e-15	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.75	0.5039526306789682	0.0	0.5039526306787712	0.0	0.0	0.5039526306787712	0.25396825396805395	0.5039526306787712	0.5039526306787712	0.0	0.0	0.999999999999218	-7.82041098546266e-13	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.8	0.554347893746865	0.0	0.5543478937466825	0.0	0.0	0.5543478937466825	0.3073015873013832	0.5543478937466825	0.5543478937466825	0.0	0.0	0.9999999999993415	-6.584732759053971e-13	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.85	0.6047431568147613	0.0	0.6047431568147643	0.0	0.0	0.6047431568147643	0.36571428571428666	0.6047431568147643	0.6047431568147643	0.0	0.0	1.00000000000001	9.992007221626358e-15	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.9	0.655138419882658	0.0	0.6551384198825084	0.0	0.0	0.6551384198825084	0.4292063492061499	0.6551384198825084	0.6551384198825084	0.0	0.0	0.9999999999995435	-4.565237077259686e-13	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	0.95	0.7055336829505545	0.0	0.7055336829504201	0.0	0.0	0.7055336829504201	0.49777777777758386	0.7055336829504201	0.7055336829504201	0.0	0.0	0.9999999999996189	-3.811395643538889e-13	nan
+G68_F01_AM	F01	-0.25	ZERO	0.0	1.0	0.7559289460184511	0.0	0.7559289460184572	0.0	0.0	0.7559289460184572	0.5714285714285755	0.7559289460184572	0.7559289460184572	0.0	0.0	1.0000000000000162	1.6209256159527153e-14	0.0
+G68_F01_A0	F01	0.0	ZERO	0.0	0.3	0.04999999999999995	0.0	0.05000000000615235	0.0	0.0	0.05000000000615235	0.0025000000006152353	0.05000000000615235	0.05000000000615235	0.0	0.0	1.0000000002460963	2.460962544556241e-10	nan
+G68_F01_A0	F01	0.0	ZERO	0.0	0.35	0.09999999999999995	0.0	0.10000000000250606	0.0	0.0	0.10000000000250606	0.010000000000501212	0.10000000000250606	0.10000000000250606	0.0	0.0	1.0000000000501221	5.0122128668471205e-11	nan
+G68_F01_A0	F01	0.0	ZERO	0.0	0.4	0.15	0.0	0.15	0.0	0.0	0.15	0.0225	0.15	0.15	0.0	0.0	1.0	0.0	nan
+G68_F01_A0	F01	0.0	ZERO	0.0	0.45	0.19999999999999996	0.0	0.2000000000003041	0.0	0.0	0.2000000000003041	0.04000000000012163	0.2000000000003041	0.2000000000003041	0.0	0.0	1.0000000000030413	3.041344953653529e-12	nan
+G68_F01_A0	F01	0.0	ZERO	0.0	0.5	0.24999999999999994	0.0	0.24999999999999986	0.0	0.0	0.24999999999999986	0.062499999999999924	0.24999999999999986	0.24999999999999986	0.0	0.0	0.9999999999999992	-7.771561172376099e-16	nan
+G68_F01_A0	F01	0.0	ZERO	0.0	0.55	0.3000000000000001	0.0	0.29999999999999977	0.0	0.0	0.29999999999999977	0.08999999999999986	0.29999999999999977	0.29999999999999977	0.0	0.0	0.9999999999999977	-2.3314683517128315e-15	nan
+G68_F01_A0	F01	0.0	ZERO	0.0	0.6	0.35	0.0	0.3499999999998072	0.0	0.0	0.3499999999998072	0.12249999999986505	0.3499999999998072	0.3499999999998072	0.0	0.0	0.9999999999988985	-1.1014522627312245e-12	nan
+G68_F01_A0	F01	0.0	ZERO	0.0	0.65	0.4	0.0	0.39999999999978947	0.0	0.0	0.39999999999978947	0.15999999999983158	0.39999999999978947	0.39999999999978947	0.0	0.0	0.9999999999989472	-1.05282449425259e-12	nan
+G68_F01_A0	F01	0.0	ZERO	0.0	0.7	0.45	0.0	0.45000000000000007	0.0	0.0	0.45000000000000007	0.20250000000000004	0.45000000000000007	0.45000000000000007	0.0	0.0	1.0000000000000002	2.2204460492503128e-16	nan
+
+exec
+/bin/bash -lc "sed -n '1,40p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/SOURCE_DEGENERACY_ATLAS.tsv" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+profile_id	endpoint_x	covariance_id	Csrc00	Csrc01	Csrc10	Csrc11	reconstruction_relative	source_min_eigenvalue
+G68_F01_AM	0.3	IDENTITY	393.7499999030992	0.0	0.0	393.7499999030992	0.0	393.7499999030992
+G68_F01_AM	0.3	DIAGONAL_2_1	787.4999998061984	0.0	0.0	393.7499999030992	0.0	393.7499999030992
+G68_F01_AM	0.3	CORRELATED	787.4999998061984	131.24999996769972	131.24999996769972	393.7499999030992	3.4353228470522584e-17	354.01069746055464
+G68_F01_AM	0.35	IDENTITY	98.4374999950659	0.0	0.0	98.4374999950659	0.0	98.4374999950659
+G68_F01_AM	0.35	DIAGONAL_2_1	196.8749999901318	0.0	0.0	98.4374999950659	0.0	98.4374999950659
+G68_F01_AM	0.35	CORRELATED	196.8749999901318	32.81249999835531	32.81249999835531	98.4374999950659	3.4353228470522584e-17	88.5026743824828
+G68_F01_AM	0.4	IDENTITY	43.74999999999995	0.0	0.0	43.74999999999995	2.220446049250313e-16	43.74999999999995
+G68_F01_AM	0.4	DIAGONAL_2_1	87.4999999999999	0.0	0.0	43.74999999999995	2.220446049250313e-16	43.74999999999995
+G68_F01_AM	0.4	CORRELATED	87.4999999999999	14.583333333333316	14.583333333333316	43.74999999999995	2.1726889389398783e-16	39.3345219497417
+G68_F01_AM	0.45	IDENTITY	24.609374999925148	0.0	0.0	24.609374999925148	0.0	24.609374999925148
+G68_F01_AM	0.45	DIAGONAL_2_1	49.218749999850296	0.0	0.0	24.609374999925148	0.0	24.609374999925148
+G68_F01_AM	0.45	CORRELATED	49.218749999850296	8.20312499997505	8.20312499997505	24.609374999925148	0.0	22.125668596662436
+G68_F01_AM	0.5	IDENTITY	15.750000000000027	0.0	0.0	15.750000000000027	0.0	15.750000000000027
+G68_F01_AM	0.5	DIAGONAL_2_1	31.500000000000053	0.0	0.0	15.750000000000027	0.0	15.750000000000027
+G68_F01_AM	0.5	CORRELATED	31.500000000000053	5.250000000000008	5.250000000000008	15.750000000000027	0.0	14.160427901907052
+G68_F01_AM	0.55	IDENTITY	10.93750000000002	0.0	0.0	10.93750000000002	2.220446049250313e-16	10.93750000000002
+G68_F01_AM	0.55	DIAGONAL_2_1	21.87500000000004	0.0	0.0	10.93750000000002	2.220446049250313e-16	10.93750000000002
+G68_F01_AM	0.55	CORRELATED	21.87500000000004	3.6458333333333397	3.6458333333333397	10.93750000000002	2.1996798985367138e-16	9.833630487435455
+G68_F01_AM	0.6	IDENTITY	8.03571428572314	0.0	0.0	8.03571428572314	0.0	8.03571428572314
+G68_F01_AM	0.6	DIAGONAL_2_1	16.07142857144628	0.0	0.0	8.03571428572314	0.0	8.03571428572314
+G68_F01_AM	0.6	CORRELATED	16.07142857144628	2.67857142857438	2.67857142857438	8.03571428572314	3.4353228470522584e-17	7.224708113225832
+G68_F01_AM	0.65	IDENTITY	6.152343750006475	0.0	0.0	6.152343750006475	0.0	6.152343750006475
+G68_F01_AM	0.65	DIAGONAL_2_1	12.30468750001295	0.0	0.0	6.152343750006475	0.0	6.152343750006475
+G68_F01_AM	0.65	CORRELATED	12.30468750001295	2.050781250002158	2.050781250002158	6.152343750006475	0.0	5.531417149188254
+G68_F01_AM	0.7	IDENTITY	4.861111111111111	0.0	0.0	4.861111111111111	0.0	4.861111111111111
+G68_F01_AM	0.7	DIAGONAL_2_1	9.722222222222221	0.0	0.0	4.861111111111111	0.0	4.861111111111111
+G68_F01_AM	0.7	CORRELATED	9.722222222222221	1.6203703703703702	1.6203703703703702	4.861111111111111	0.0	4.370502438860194
+G68_F01_AM	0.75	IDENTITY	3.9375000000031015	0.0	0.0	3.9375000000031015	0.0	3.9375000000031015
+G68_F01_AM	0.75	DIAGONAL_2_1	7.875000000006203	0.0	0.0	3.9375000000031015	0.0	3.9375000000031015
+G68_F01_AM	0.75	CORRELATED	7.875000000006203	1.3125000000010338	1.3125000000010338	3.9375000000031015	0.0	3.5401069754795453
+G68_F01_AM	0.8	IDENTITY	3.2541322314071204	0.0	0.0	3.2541322314071204	0.0	3.2541322314071204
+G68_F01_AM	0.8	DIAGONAL_2_1	6.508264462814241	0.0	0.0	3.2541322314071204	0.0	3.2541322314071204
+G68_F01_AM	0.8	CORRELATED	6.508264462814241	1.0847107438023733	1.0847107438023733	3.2541322314071204	0.0	2.9257082441976103
+G68_F01_AM	0.85	IDENTITY	2.7343749999999933	0.0	0.0	2.7343749999999933	0.0	2.7343749999999933
+G68_F01_AM	0.85	DIAGONAL_2_1	5.468749999999987	0.0	0.0	2.7343749999999933	0.0	2.7343749999999933
+G68_F01_AM	0.85	CORRELATED	5.468749999999987	0.9114583333333311	0.9114583333333311	2.7343749999999933	0.0	2.458407621858853
+G68_F01_AM	0.9	IDENTITY	2.3298816568058154	0.0	0.0	2.3298816568058154	1.1102230246251565e-16	2.3298816568058154
+G68_F01_AM	0.9	DIAGONAL_2_1	4.659763313611631	0.0	0.0	2.3298816568058154	1.1102230246251565e-16	2.3298816568058154
+G68_F01_AM	0.9	CORRELATED	4.659763313611631	0.7766272189352718	0.7766272189352718	2.3298816568058154	1.0863444694699391e-16	2.094737855312663
+
+exec
+/bin/bash -lc "sed -n '1,40p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREMISE_LEDGER.tsv" in /tmp/udt_g69_review_IOWOt6
+exec
+/bin/bash -lc "sed -n '1,40p' /tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+item	status	role	owner_or_source
+G68_saved_21_profile_paths	CHOSE_CONTROL	frozen_geometric_input	udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_SAMPLES.npz
+G68_observer_sky_query	CHOSE_CONTROL	common_query_for_all_cells	udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/PREREGISTRATION.md
+c_E	OBSERVED	clock_ruler_calibration_unit_convention	CURRENT_SCIENTIFIC_PREMISES.tsv
+endpoint_grid_0p30_to_1p00	CHOSE_CONTROL	15_intermediate_surfaces	PREREGISTRATION.md
+profile_coefficients	CHOSE_CONTROL	registered_G68_finite_tile	udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/PROFILE_UNIVERSE.tsv
+Jacobi_map_D	DERIVED	screen_transfer_on_supplied_query	udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md
+local_sensitivity_rank	OBSERVED	bounded_control_tile_only	PREREGISTRATION.md
+covariance_congruence	DERIVED	generic_linear_transfer_identity	PREREGISTRATION.md
+three_covariance_examples	CHOSE_CONTROL	algebra_catch_controls	PREREGISTRATION.md
+physical_CMB_profile	OPEN	no_selection	udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv
+physical_endpoint_surface	OPEN	no_last_scattering_or_Xmax_selection	udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv
+physical_source_state_covariance	OPEN	required_for_power	udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv
+P1_SNe_anchor	CONDITIONAL	inactive_low_z_cross_anchor	udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md
+X_max	WORKING	inactive_pair_asymptotic_guard	CURRENT_SCIENTIFIC_PREMISES.tsv
+action_source_bootstrap_dynamics	OPEN	inactive	CURRENT_SCIENTIFIC_PREMISES.tsv
+
+ succeeded in 0ms:
+observable	definition	endpoint_pair	screen_Jacobi	ambient_transport	normal_transport	operator_modes	source_population	maximum_status
+FD1_RA2_AFFINE_TT_POSITION_DIAGNOSTIC	fit_conditional_scalar_frequencies_to_seven_attributed_TT_peak_locations	NOT_OWNED	REPLACED_BY_TWO_FITTED_AFFINE_FREEDOMS	NOT_READ	NOT_READ	C0_CONDITIONAL_10080_ROOT_ATLAS	ABSENT	ATTRIBUTED_COMPATIBILITY_ONLY
+PHYSICAL_TT_PEAK_POSITIONS	local_maxima_of_observed_scalar_angular_power_spectrum	REQUIRED_CONTEXT_NOT_SUFFICIENT	REQUIRED_FOR_NATIVE_REMOTE_TO_SKY_MAP	CONDITIONAL_NOT_DIRECT_SCALAR_ROTATION_READ	PURE_SO2_ROTATION_NOT_DIRECTLY_READ_BY_SCALAR_TT	REQUIRED_IF_CAVITY_MODE_INTERPRETATION_IS_USED	REQUIRED_TO_DECIDE_WHICH_MODES_FORM_PEAKS	OPEN
+PHYSICAL_TT_HEIGHTS_AND_OVERALL_AMPLITUDE	nonzero_values_of_observed_scalar_angular_power	REQUIRED_CONTEXT_NOT_SUFFICIENT	REQUIRED_FOR_ANGULAR_MAP	CONDITIONAL_RESPONSE_CONTEXT	NOT_DIRECT_FOR_SCALAR_TT	NOT_SUFFICIENT	REQUIRED_WITH_NORMALIZATION	OPEN_SOURCE_SIDE
+PHYSICAL_TE_EE_BB_POLARIZATION	orientation_sensitive_angular_correlations	REQUIRED_CONTEXT_NOT_SUFFICIENT	REQUIRED	REQUIRED_OR_EQUIVALENT_CARRY	REQUIRED_OR_EQUIVALENT_SCREEN_CONNECTION	SCALAR_OPERATOR_INSUFFICIENT	REQUIRED_SPIN_SENSITIVE_SOURCE	OPEN
+
+exec
+/bin/bash -lc "sed -n '1,40p' /tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+layer_id	object	mathematical_home	required_for	current_owner	what_is_banked	status
+Q00	ORDERED_OBSERVER_SKY_QUERY	typed_observer_event_frame_and_celestial_screen	all_CMB_observables	OPEN_PHYSICAL_CMB_QUERY	query_architecture_only	OPEN
+Q01	REGULAR_BRANCH_REALIZATION	query_indexed_pair_immersion_or_correspondence	connect_remote_pattern_to_observer	NO_F00_F17_FAMILY_SUPPLIES_A_CMB_PAIR_IMMERSION	conditional_ambient_metric_families	OPEN
+Q02	TERMINAL_PAIR_METRIC	first_fundamental_form_h_equal_F_pullback_g	kappa_phi_beta_pair_state	DERIVED_ONCE_F_IS_SUPPLIED	exact_terminal_decomposition	DERIVED_CONDITIONAL
+Q03	PAIR_CONE_READOUT	terminal_pair_metric	inter_observer_clock_ruler_ratio	c_eff_pair_over_c_E_equal_exp_minus_2_phi_pair	conditional_pair_readout_not_local_speed	CONDITIONAL
+Q04	OBSERVER_SKY_ANGULAR_MAP	screen_Jacobi_or_equivalent_query_map	remote_scale_to_observed_multipole	OPEN_FOR_PHYSICAL_CMB_QUERY	conditional_screen_geometries_and_separate_Jacobi_controls	OPEN
+Q05	AMBIENT_TRANSPORT	path_groupoid_functor_after_path_is_supplied	carry_complete_frame_or_orientation_sensitive_data	METRIC_CONDITIONAL_ON_PATH	no_physical_CMB_path	CONDITIONAL_PATH_ONLY
+Q06	NORMAL_SCREEN_TRANSPORT	normal_bundle_of_supplied_pair_immersion	polarization_and_screen_orientation_memory	OPEN_FOR_PHYSICAL_CMB_QUERY	conditional_normal_transport_on_non_CMB_query_controls	OPEN
+Q07	CONDITIONAL_MODE_OPERATOR	chosen_scalar_operator_domain_and_boundary_realization	candidate_mode_locations	C0_SOLVED_C1_MATRIX_ONLY_GENERAL_SCREEN_FORM_ONLY	scalar_controls_not_native_dynamics	CHOSE_CONDITIONAL
+Q08	MODE_TO_MULTIPOLE_PROJECTION	observer_sky_evaluation_map	TT_peak_position_comparison	RA2_TWO_PARAMETER_AFFINE_DIAGNOSTIC_ONLY	attributed_compatibility_not_prediction	CONDITIONAL_WEAK
+Q09	STATE_SOURCE_COVARIANCE	mode_space_or_response_kernel	which_modes_have_nonzero_power_and_peak_heights	NONE_FROM_METRIC_ALONE	absence_explicitly_proved_in_mode_ownership_audit	OPEN
+Q10	SCALAR_TEMPERATURE_SKY_FIELD	real_scalar_on_observer_celestial_screen	a_lm_and_C_ell_TT	OBSERVED_MAP_TYPE_BUT_NO_NATIVE_PREDICTION_LAW	published_peak_locations_only	OBSERVED_READOUT_OPEN_THEORY
+Q11	POLARIZATION_SKY_FIELD	orientation_sensitive_screen_field	TE_EE_BB_channels	NONE	scalar_operator_only	OPEN
+Q12	XMAX_ASYMPTOTIC_GUARD	observer_pair_positional_dilation_limit	global_branch_admissibility_only	WORKING_FRAME	not_local_wall_not_selector_not_value	WORKING
+Q13	P1_SNE_COMPATIBILITY_ANCHOR	low_redshift_observer_pair_profile	cross_anchor_after_a_CMB_pair_profile_exists	CONDITIONAL_SNE_PAIR_ROLE_ONLY	must_not_be_copied_into_centered_CMB_lapse	CONDITIONAL
+
+codex
+The package docs are internally consistent so far. I’m moving to the saved-state format and the independent reconstruction path to check whether the type claims and interpolation distinction are real.
+exec
+/bin/bash -lc "sed -n '1,240p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent reconstruction of G69 cells without importing its production builder."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+from scipy.interpolate import CubicSpline
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+G68 = ROOT / "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11"
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def parse(value: str) -> float:
+    if "/" in value:
+        a, b = value.split("/", 1)
+        return float(a) / float(b)
+    return float(value)
+
+
+def load_tsv(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def metric(row: dict[str, str], state: np.ndarray) -> np.ndarray:
+    _, r, theta, _ = state[:4]
+    a = parse(row["lapse_a"])
+    epsilon = parse(row["mix_epsilon"])
+    A = 1.0 + a * r * r
+    shape = row["mix_shape"]
+    if row["metric_family"] == "F01" or shape == "ZERO":
+        h = 0.0
+    elif shape == "PERSISTENT":
+        h = epsilon * r**2
+    elif shape == "TAPERED":
+        h = epsilon * r**2 * (1.0 - r) ** 2
+    elif shape == "SIGN_CHANGING":
+        h = epsilon * r**2 * (1.0 - 2.0 * r)
+    else:
+        raise AssertionError(shape)
+    sine2 = math.sin(theta) ** 2
+    g = np.zeros((4, 4))
+    g[0, 0], g[1, 1], g[2, 2], g[3, 3] = -A, 1.0 / A, r * r, r * r * sine2
+    g[0, 3] = g[3, 0] = h * sine2
+    return g
+
+
+def D_from_state(row: dict[str, str], state: np.ndarray) -> np.ndarray:
+    E = state[8:16].reshape(2, 4)
+    J = state[16:24].reshape(2, 4)
+    return E @ metric(row, state) @ J.T
+
+
+def relative(a: np.ndarray, b: np.ndarray) -> float:
+    return float(np.linalg.norm(a - b) / max(1.0, np.linalg.norm(a), np.linalg.norm(b)))
+
+
+def main() -> None:
+    source_rows = load_tsv(HERE / "SOURCE_MANIFEST.tsv")
+    source_mismatches = [row["path"] for row in source_rows if digest(ROOT / row["path"]) != row["sha256"]]
+    assert not source_mismatches
+
+    profiles = {row["profile_id"]: row for row in load_tsv(G68 / "PROFILE_UNIVERSE.tsv")}
+    cells = load_tsv(HERE / "CELL_ATLAS.tsv")
+    assert len(profiles) == 21 and len(cells) == 315
+    archive = np.load(G68 / "FINITE_PATH_SAMPLES.npz")
+    maxima = []
+    for cell in cells:
+        profile_id = cell["profile_id"]
+        row = profiles[profile_id]
+        states = np.asarray(archive[profile_id + "__state"], dtype=np.float64)
+        radii = states[1]
+        independent_state = np.asarray(CubicSpline(radii, states.T, axis=0)(float(cell["endpoint_x"])))
+        independent_D = D_from_state(row, independent_state)
+        production_D = np.array(
+            [[float(cell["D00"]), float(cell["D01"])], [float(cell["D10"]), float(cell["D11"])]],
+            dtype=np.float64,
+        )
+        maxima.append(relative(independent_D, production_D))
+    max_interpolation_relative = max(maxima)
+    assert max_interpolation_relative <= 2.0e-7
+
+    covariance_controls = {
+        "IDENTITY": np.eye(2),
+        "DIAGONAL_2_1": np.diag([2.0, 1.0]),
+        "CORRELATED": np.array([[2.0, 1.0 / 3.0], [1.0 / 3.0, 1.0]]),
+    }
+    covariance_rows = load_tsv(HERE / "SOURCE_DEGENERACY_ATLAS.tsv")
+    assert len(covariance_rows) == 945
+    max_covariance_error = 0.0
+    min_source_eigenvalue = math.inf
+    cell_lookup = {(row["profile_id"], row["endpoint_x"]): row for row in cells}
+    for row in covariance_rows:
+        cell = cell_lookup[(row["profile_id"], row["endpoint_x"])]
+        D = np.array([[float(cell["D00"]), float(cell["D01"])], [float(cell["D10"]), float(cell["D11"])]])
+        observed = covariance_controls[row["covariance_id"]]
+        source = np.linalg.inv(D) @ observed @ np.linalg.inv(D).T
+        recorded = np.array(
+            [[float(row["Csrc00"]), float(row["Csrc01"])], [float(row["Csrc10"]), float(row["Csrc11"])]],
+        )
+        assert relative(source, recorded) <= 2.0e-12
+        max_covariance_error = max(max_covariance_error, relative(D @ source @ D.T, observed))
+        min_source_eigenvalue = min(min_source_eigenvalue, float(np.linalg.eigvalsh(source)[0]))
+    assert max_covariance_error <= 2.0e-10 and min_source_eigenvalue > 0.0
+
+    sensitivities = load_tsv(HERE / "SENSITIVITY_ATLAS.tsv")
+    assert len(sensitivities) == 15
+    rank_counts: dict[str, int] = {}
+    for row in sensitivities:
+        matrix = np.array([[float(row[f"m{i}{j}"]) for j in range(3)] for i in range(3)])
+        norms = np.linalg.norm(matrix, axis=0)
+        assert np.all(norms > 0.0)
+        singular = np.linalg.svd(matrix / norms, compute_uv=False)
+        ratio = float(singular[-1] / singular[0])
+        if ratio >= 1.0e-6:
+            classification = "FULL_RANK_OBSERVED"
+        elif ratio <= 1.0e-8:
+            classification = "RANK_DEFICIENT_OBSERVED"
+        else:
+            classification = "RANK_NUMERICALLY_UNRESOLVED"
+        assert classification == row["classification"]
+        rank_counts[classification] = rank_counts.get(classification, 0) + 1
+
+    result = {
+        "schema": "udt-cmb-g69-independent-v1",
+        "status": "PASS",
+        "source_manifest_rows": len(source_rows),
+        "source_mismatches": source_mismatches,
+        "profiles": len(profiles),
+        "cells": len(cells),
+        "max_PCHIP_CubicSpline_D_relative": max_interpolation_relative,
+        "source_covariance_cells": len(covariance_rows),
+        "max_covariance_reconstruction_relative": max_covariance_error,
+        "minimum_source_eigenvalue": min_source_eigenvalue,
+        "sensitivity_cells": len(sensitivities),
+        "rank_counts": rank_counts,
+        "imports_production_builder": False,
+        "new_ODE_solves": 0,
+    }
+    (HERE / "INDEPENDENT_VERIFICATION_RESULT.json").write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    text = json.dumps(result, indent=2, sort_keys=True) + "\n"
+    (HERE / "INDEPENDENT_VERIFICATION_STDOUT.txt").write_text(text, encoding="utf-8")
+    print(text, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc 'rg -n "D_AB|Pchip|CubicSpline|sensitivity|source covariance|eigvalsh|endpoint_x|psi|rank|sigma_ratio|det_D|J_B|E_A|g_mu" /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py /tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py' in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:37:    epsilon: float
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:51:                    epsilon=float(eval_fraction(row["mix_epsilon"])),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:72:    e = profile.sign * profile.epsilon
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:160:    e_psi = np.array([h / (math.sqrt(A) * math.sqrt(denom)), 0.0, 0.0, math.sqrt(A) / math.sqrt(denom)])
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:162:    E = np.stack((e_theta, e_psi))
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:273:        conserved_p_psi=0.0,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:279:    initial_ppsi = float(initial_g[3] @ initial_k)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:296:        maxima["conserved_p_psi"] = max(maxima["conserved_p_psi"], abs(float(g[3] @ k) - initial_ppsi))
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:331:    p_psi = float(g[3] @ k)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:337:        "mix_epsilon": profile.sign * profile.epsilon,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:351:        "det_D": float(np.linalg.det(D)),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:359:        "conserved_p_psi_endpoint": p_psi,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:406:def epsilon_limit_checks(profiles: list[Profile], f01_by_a: dict[float, dict]) -> list[dict]:
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:411:            for epsilon in (1.0e-2, 5.0e-3):
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:412:                auxiliary = Profile(f"EPS_{lapse_a}_{shape}_{epsilon}", "F02", lapse_a, shape, epsilon)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:418:                        "epsilon": epsilon,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:448:        line = f'{profile.profile_id} {summary["status"]} {summary["det_D"]}'
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:459:    epsilon_checks = epsilon_limit_checks(profiles, f01_by_a)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:470:        "epsilon_limit_checks": epsilon_checks,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:474:            "endpoint_x": END_X,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:13:from scipy.interpolate import CubicSpline
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:40:    epsilon = parse(row["mix_epsilon"])
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:46:        h = epsilon * r**2
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:48:        h = epsilon * r**2 * (1.0 - r) ** 2
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:50:        h = epsilon * r**2 * (1.0 - 2.0 * r)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:85:        independent_state = np.asarray(CubicSpline(radii, states.T, axis=0)(float(cell["endpoint_x"])))
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:104:    cell_lookup = {(row["profile_id"], row["endpoint_x"]): row for row in cells}
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:106:        cell = cell_lookup[(row["profile_id"], row["endpoint_x"])]
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:115:        min_source_eigenvalue = min(min_source_eigenvalue, float(np.linalg.eigvalsh(source)[0]))
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:120:    rank_counts: dict[str, int] = {}
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:134:        rank_counts[classification] = rank_counts.get(classification, 0) + 1
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:143:        "max_PCHIP_CubicSpline_D_relative": max_interpolation_relative,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:147:        "sensitivity_cells": len(sensitivities),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/verify_identifiability_independent.py:148:        "rank_counts": rank_counts,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:12:from scipy.interpolate import PchipInterpolator
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:46:                "epsilon": parse_fraction(row["mix_epsilon"]),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:54:    epsilon = float(profile["epsilon"])
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:59:        return epsilon * r**2
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:61:        return epsilon * r**2 * (1.0 - r) ** 2
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:63:        return epsilon * r**2 * (1.0 - 2.0 * r)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:99:                [float(row["D_theta_theta"]), float(row["D_theta_psi"])],
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:100:                [float(row["D_psi_theta"]), float(row["D_psi_psi"])],
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:117:        state_interp = PchipInterpolator(radius_saved, state_saved.T, axis=0)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:118:        affine_interp = PchipInterpolator(radius_saved, affine_saved)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:129:                    "endpoint_x": float(x),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:131:                    "endpoint_psi": float(state[3]),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:133:                    "det_D": float(np.linalg.det(D)),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:142:        (float(row["lapse_a"]), float(row["endpoint_x"])): float(row["affine"])
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:147:        reference = f01_affine[(float(row["lapse_a"]), float(row["endpoint_x"]))]
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:148:        ratio = float(row["det_D"]) / (reference * reference)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:156:        [float(row["area_log_vs_F01"]), float(row["anisotropy_log"]), float(row["endpoint_psi"])],
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:161:def sensitivity_rows(cells: list[dict[str, object]]) -> list[dict[str, object]]:
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:166:            float(row["epsilon"]),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:167:            round(float(row["endpoint_x"]), 2),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:177:            for epsilon in (0.05, 0.20):
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:179:                    (readout(lookup[(shape, 0.0, epsilon, round(x + 0.05, 2))])
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:180:                     - readout(lookup[(shape, 0.0, epsilon, round(x - 0.05, 2))]))
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:184:                    (readout(lookup[(shape, 0.25, epsilon, round(x, 2))])
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:185:                     - readout(lookup[(shape, -0.25, epsilon, round(x, 2))]))
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:215:                    "endpoint_x": x,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:221:                    "sigma_ratio": ratio,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:239:                    "endpoint_x": row["endpoint_x"],
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:243:                    "source_min_eigenvalue": float(np.linalg.eigvalsh(source)[0]),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:251:        "profile_id", "family", "lapse_a", "shape", "epsilon", "endpoint_x", "affine",
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:252:        "endpoint_psi", "D00", "D01", "D10", "D11", "det_D", "sigma_max", "sigma_min",
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:266:def write_sensitivity_atlas(rows: list[dict[str, object]]) -> None:
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:268:        "shape", "endpoint_x", "m00", "m01", "m02", "m10", "m11", "m12", "m20", "m21",
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:269:        "m22", "determinant", "column_norm_x", "column_norm_a", "column_norm_epsilon",
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:271:        "normalized_condition", "sigma_ratio", "classification",
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:280:            out = {"shape": row["shape"], "endpoint_x": row["endpoint_x"]}
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:284:                column_norm_x=norms[0], column_norm_a=norms[1], column_norm_epsilon=norms[2],
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:287:                sigma_ratio=row["sigma_ratio"], classification=row["classification"],
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:294:        "profile_id", "endpoint_x", "covariance_id", "Csrc00", "Csrc01", "Csrc10", "Csrc11",
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:304:                    "profile_id": row["profile_id"], "endpoint_x": row["endpoint_x"],
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:316:    sensitivities = sensitivity_rows(cells)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:319:    write_sensitivity_atlas(sensitivities)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:322:    endpoint_error = max(float(row["x1_official_relative"]) for row in cells if row["endpoint_x"] == 1.0)
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:328:    rank_counts: dict[str, int] = {}
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:330:        rank_counts[str(row["classification"])] = rank_counts.get(str(row["classification"]), 0) + 1
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:338:    elif rank_counts.get("RANK_NUMERICALLY_UNRESOLVED", 0):
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:340:    elif rank_counts.get("RANK_DEFICIENT_OBSERVED", 0):
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:351:        "sensitivity_cells": len(sensitivities),
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:353:        "rank_counts": rank_counts,
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:360:        "psi_range": [min(float(row["endpoint_psi"]) for row in cells), max(float(row["endpoint_psi"]) for row in cells)],
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py:365:        "maximum_conclusion": "bounded control-tile geometric sensitivity and exact unrestricted-source covariance nonidentifiability only",
+
+exec
+/bin/bash -lc "sed -n '1,260p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Build the preregistered G69 identifiability atlas from frozen G68 path samples."""
+
+from __future__ import annotations
+
+import csv
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+from scipy.interpolate import PchipInterpolator
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+G68 = ROOT / "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11"
+ENDPOINTS = np.round(np.arange(0.30, 1.0001, 0.05), 2)
+SENSITIVITY_ENDPOINTS = (0.35, 0.50, 0.65, 0.80, 0.95)
+SHAPES = ("PERSISTENT", "TAPERED", "SIGN_CHANGING")
+COVARIANCES = {
+    "IDENTITY": np.eye(2),
+    "DIAGONAL_2_1": np.diag([2.0, 1.0]),
+    "CORRELATED": np.array([[2.0, 1.0 / 3.0], [1.0 / 3.0, 1.0]]),
+}
+
+
+def parse_fraction(value: str) -> float:
+    if "/" in value:
+        left, right = value.split("/", 1)
+        return float(left) / float(right)
+    return float(value)
+
+
+def load_profiles() -> list[dict[str, object]]:
+    with (G68 / "PROFILE_UNIVERSE.tsv").open(newline="", encoding="utf-8") as stream:
+        rows = list(csv.DictReader(stream, delimiter="\t"))
+    profiles = []
+    for row in rows:
+        profiles.append(
+            {
+                "profile_id": row["profile_id"],
+                "family": row["metric_family"],
+                "lapse_a": parse_fraction(row["lapse_a"]),
+                "shape": row["mix_shape"],
+                "epsilon": parse_fraction(row["mix_epsilon"]),
+            }
+        )
+    assert len(profiles) == len({row["profile_id"] for row in profiles}) == 21
+    return profiles
+
+
+def h_value(profile: dict[str, object], r: float) -> float:
+    epsilon = float(profile["epsilon"])
+    shape = str(profile["shape"])
+    if profile["family"] == "F01" or shape == "ZERO":
+        return 0.0
+    if shape == "PERSISTENT":
+        return epsilon * r**2
+    if shape == "TAPERED":
+        return epsilon * r**2 * (1.0 - r) ** 2
+    if shape == "SIGN_CHANGING":
+        return epsilon * r**2 * (1.0 - 2.0 * r)
+    raise ValueError(shape)
+
+
+def metric(profile: dict[str, object], position: np.ndarray) -> np.ndarray:
+    _, r, theta, _ = position
+    r = float(r)
+    sine2 = math.sin(float(theta)) ** 2
+    A = 1.0 + float(profile["lapse_a"]) * r * r
+    h = h_value(profile, r)
+    g = np.zeros((4, 4), dtype=np.float64)
+    g[0, 0] = -A
+    g[1, 1] = 1.0 / A
+    g[2, 2] = r * r
+    g[3, 3] = r * r * sine2
+    g[0, 3] = g[3, 0] = h * sine2
+    return g
+
+
+def jacobi_map(profile: dict[str, object], state: np.ndarray) -> np.ndarray:
+    position = state[0:4]
+    screen = state[8:16].reshape(2, 4)
+    jacobi = state[16:24].reshape(2, 4)
+    return screen @ metric(profile, position) @ jacobi.T
+
+
+def relative(left: np.ndarray, right: np.ndarray) -> float:
+    return float(np.linalg.norm(left - right) / max(1.0, np.linalg.norm(left), np.linalg.norm(right)))
+
+
+def official_endpoints() -> dict[str, np.ndarray]:
+    with (G68 / "FINITE_PATH_ATLAS.tsv").open(newline="", encoding="utf-8") as stream:
+        rows = list(csv.DictReader(stream, delimiter="\t"))
+    return {
+        row["profile_id"]: np.array(
+            [
+                [float(row["D_theta_theta"]), float(row["D_theta_psi"])],
+                [float(row["D_psi_theta"]), float(row["D_psi_psi"])],
+            ]
+        )
+        for row in rows
+    }
+
+
+def interpolate_cells(profiles: list[dict[str, object]]) -> list[dict[str, object]]:
+    archive = np.load(G68 / "FINITE_PATH_SAMPLES.npz")
+    official = official_endpoints()
+    rows: list[dict[str, object]] = []
+    for profile in profiles:
+        profile_id = str(profile["profile_id"])
+        affine_saved = np.asarray(archive[profile_id + "__s"], dtype=np.float64)
+        state_saved = np.asarray(archive[profile_id + "__state"], dtype=np.float64)
+        radius_saved = state_saved[1]
+        assert np.all(np.diff(radius_saved) > 0.0)
+        state_interp = PchipInterpolator(radius_saved, state_saved.T, axis=0)
+        affine_interp = PchipInterpolator(radius_saved, affine_saved)
+        for x in ENDPOINTS:
+            state = np.asarray(state_interp(float(x)), dtype=np.float64)
+            affine = float(affine_interp(float(x)))
+            D = jacobi_map(profile, state)
+            singular = np.linalg.svd(D, compute_uv=False)
+            polar_u, _, polar_vt = np.linalg.svd(D)
+            polar = polar_u @ polar_vt
+            rows.append(
+                {
+                    **profile,
+                    "endpoint_x": float(x),
+                    "affine": affine,
+                    "endpoint_psi": float(state[3]),
+                    "D": D,
+                    "det_D": float(np.linalg.det(D)),
+                    "sigma_max": float(singular[0]),
+                    "sigma_min": float(singular[-1]),
+                    "anisotropy_log": float(math.log(singular[0] / singular[-1])),
+                    "polar_rotation": float(math.atan2(float(polar[1, 0]), float(polar[0, 0]))),
+                    "x1_official_relative": relative(D, official[profile_id]) if x == 1.0 else math.nan,
+                }
+            )
+    f01_affine = {
+        (float(row["lapse_a"]), float(row["endpoint_x"])): float(row["affine"])
+        for row in rows
+        if row["family"] == "F01"
+    }
+    for row in rows:
+        reference = f01_affine[(float(row["lapse_a"]), float(row["endpoint_x"]))]
+        ratio = float(row["det_D"]) / (reference * reference)
+        row["area_ratio_vs_F01"] = ratio
+        row["area_log_vs_F01"] = float(math.log(ratio))
+    return rows
+
+
+def readout(row: dict[str, object]) -> np.ndarray:
+    return np.array(
+        [float(row["area_log_vs_F01"]), float(row["anisotropy_log"]), float(row["endpoint_psi"])],
+        dtype=np.float64,
+    )
+
+
+def sensitivity_rows(cells: list[dict[str, object]]) -> list[dict[str, object]]:
+    lookup = {
+        (
+            str(row["shape"]),
+            float(row["lapse_a"]),
+            float(row["epsilon"]),
+            round(float(row["endpoint_x"]), 2),
+        ): row
+        for row in cells
+        if row["family"] == "F02"
+    }
+    outputs = []
+    for shape in SHAPES:
+        for x in SENSITIVITY_ENDPOINTS:
+            endpoint_columns = []
+            lapse_columns = []
+            for epsilon in (0.05, 0.20):
+                endpoint_columns.append(
+                    (readout(lookup[(shape, 0.0, epsilon, round(x + 0.05, 2))])
+                     - readout(lookup[(shape, 0.0, epsilon, round(x - 0.05, 2))]))
+                    / 0.10
+                )
+                lapse_columns.append(
+                    (readout(lookup[(shape, 0.25, epsilon, round(x, 2))])
+                     - readout(lookup[(shape, -0.25, epsilon, round(x, 2))]))
+                    / 0.50
+                )
+            endpoint_column = 0.5 * (endpoint_columns[0] + endpoint_columns[1])
+            lapse_column = 0.5 * (lapse_columns[0] + lapse_columns[1])
+            amplitude_column = (
+                readout(lookup[(shape, 0.0, 0.20, round(x, 2))])
+                - readout(lookup[(shape, 0.0, 0.05, round(x, 2))])
+            ) / 0.15
+            matrix = np.column_stack((endpoint_column, lapse_column, amplitude_column))
+            norms = np.linalg.norm(matrix, axis=0)
+            if np.any(norms == 0.0):
+                normalized = np.zeros_like(matrix)
+                singular = np.array([math.inf, 0.0, 0.0])
+                condition = math.inf
+                ratio = 0.0
+            else:
+                normalized = matrix / norms
+                singular = np.linalg.svd(normalized, compute_uv=False)
+                condition = float(singular[0] / singular[-1])
+                ratio = float(singular[-1] / singular[0])
+            if ratio >= 1.0e-6:
+                classification = "FULL_RANK_OBSERVED"
+            elif ratio <= 1.0e-8:
+                classification = "RANK_DEFICIENT_OBSERVED"
+            else:
+                classification = "RANK_NUMERICALLY_UNRESOLVED"
+            outputs.append(
+                {
+                    "shape": shape,
+                    "endpoint_x": x,
+                    "matrix": matrix,
+                    "determinant": float(np.linalg.det(matrix)),
+                    "column_norms": norms,
+                    "normalized_singular_values": singular,
+                    "normalized_condition": condition,
+                    "sigma_ratio": ratio,
+                    "classification": classification,
+                }
+            )
+    return outputs
+
+
+def covariance_rows(cells: list[dict[str, object]]) -> list[dict[str, object]]:
+    outputs = []
+    for row in cells:
+        D = np.asarray(row["D"], dtype=np.float64)
+        inverse = np.linalg.inv(D)
+        for covariance_id, observed in COVARIANCES.items():
+            source = inverse @ observed @ inverse.T
+            reconstructed = D @ source @ D.T
+            outputs.append(
+                {
+                    "profile_id": row["profile_id"],
+                    "endpoint_x": row["endpoint_x"],
+                    "covariance_id": covariance_id,
+                    "source": source,
+                    "reconstruction_relative": relative(reconstructed, observed),
+                    "source_min_eigenvalue": float(np.linalg.eigvalsh(source)[0]),
+                }
+            )
+    return outputs
+
+
+def write_cell_atlas(rows: list[dict[str, object]]) -> None:
+    fields = [
+        "profile_id", "family", "lapse_a", "shape", "epsilon", "endpoint_x", "affine",
+        "endpoint_psi", "D00", "D01", "D10", "D11", "det_D", "sigma_max", "sigma_min",
+        "anisotropy_log", "polar_rotation", "area_ratio_vs_F01", "area_log_vs_F01",
+        "x1_official_relative",
+    ]
+    with (HERE / "CELL_ATLAS.tsv").open("w", newline="", encoding="utf-8") as stream:
+        writer = csv.DictWriter(stream, fieldnames=fields, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        for row in rows:
+            D = np.asarray(row["D"])
+
+exec
+/bin/bash -lc "sed -n '240,390p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/derive_identifiability_atlas.py" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+                    "covariance_id": covariance_id,
+                    "source": source,
+                    "reconstruction_relative": relative(reconstructed, observed),
+                    "source_min_eigenvalue": float(np.linalg.eigvalsh(source)[0]),
+                }
+            )
+    return outputs
+
+
+def write_cell_atlas(rows: list[dict[str, object]]) -> None:
+    fields = [
+        "profile_id", "family", "lapse_a", "shape", "epsilon", "endpoint_x", "affine",
+        "endpoint_psi", "D00", "D01", "D10", "D11", "det_D", "sigma_max", "sigma_min",
+        "anisotropy_log", "polar_rotation", "area_ratio_vs_F01", "area_log_vs_F01",
+        "x1_official_relative",
+    ]
+    with (HERE / "CELL_ATLAS.tsv").open("w", newline="", encoding="utf-8") as stream:
+        writer = csv.DictWriter(stream, fieldnames=fields, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        for row in rows:
+            D = np.asarray(row["D"])
+            out = {key: row[key] for key in fields if key not in {"D00", "D01", "D10", "D11"}}
+            out.update(D00=D[0, 0], D01=D[0, 1], D10=D[1, 0], D11=D[1, 1])
+            writer.writerow(out)
+
+
+def write_sensitivity_atlas(rows: list[dict[str, object]]) -> None:
+    fields = [
+        "shape", "endpoint_x", "m00", "m01", "m02", "m10", "m11", "m12", "m20", "m21",
+        "m22", "determinant", "column_norm_x", "column_norm_a", "column_norm_epsilon",
+        "normalized_sigma_max", "normalized_sigma_mid", "normalized_sigma_min",
+        "normalized_condition", "sigma_ratio", "classification",
+    ]
+    with (HERE / "SENSITIVITY_ATLAS.tsv").open("w", newline="", encoding="utf-8") as stream:
+        writer = csv.DictWriter(stream, fieldnames=fields, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        for row in rows:
+            matrix = np.asarray(row["matrix"])
+            singular = np.asarray(row["normalized_singular_values"])
+            norms = np.asarray(row["column_norms"])
+            out = {"shape": row["shape"], "endpoint_x": row["endpoint_x"]}
+            out.update({f"m{i}{j}": matrix[i, j] for i in range(3) for j in range(3)})
+            out.update(
+                determinant=row["determinant"],
+                column_norm_x=norms[0], column_norm_a=norms[1], column_norm_epsilon=norms[2],
+                normalized_sigma_max=singular[0], normalized_sigma_mid=singular[1],
+                normalized_sigma_min=singular[2], normalized_condition=row["normalized_condition"],
+                sigma_ratio=row["sigma_ratio"], classification=row["classification"],
+            )
+            writer.writerow(out)
+
+
+def write_covariance_atlas(rows: list[dict[str, object]]) -> None:
+    fields = [
+        "profile_id", "endpoint_x", "covariance_id", "Csrc00", "Csrc01", "Csrc10", "Csrc11",
+        "reconstruction_relative", "source_min_eigenvalue",
+    ]
+    with (HERE / "SOURCE_DEGENERACY_ATLAS.tsv").open("w", newline="", encoding="utf-8") as stream:
+        writer = csv.DictWriter(stream, fieldnames=fields, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        for row in rows:
+            source = np.asarray(row["source"])
+            writer.writerow(
+                {
+                    "profile_id": row["profile_id"], "endpoint_x": row["endpoint_x"],
+                    "covariance_id": row["covariance_id"], "Csrc00": source[0, 0],
+                    "Csrc01": source[0, 1], "Csrc10": source[1, 0], "Csrc11": source[1, 1],
+                    "reconstruction_relative": row["reconstruction_relative"],
+                    "source_min_eigenvalue": row["source_min_eigenvalue"],
+                }
+            )
+
+
+def main() -> None:
+    profiles = load_profiles()
+    cells = interpolate_cells(profiles)
+    sensitivities = sensitivity_rows(cells)
+    covariances = covariance_rows(cells)
+    write_cell_atlas(cells)
+    write_sensitivity_atlas(sensitivities)
+    write_covariance_atlas(covariances)
+
+    endpoint_error = max(float(row["x1_official_relative"]) for row in cells if row["endpoint_x"] == 1.0)
+    f01_anisotropy = max(float(row["anisotropy_log"]) for row in cells if row["family"] == "F01")
+    f01_rotation = max(abs(float(row["polar_rotation"])) for row in cells if row["family"] == "F01")
+    min_sigma = min(float(row["sigma_min"]) for row in cells)
+    source_error = max(float(row["reconstruction_relative"]) for row in covariances)
+    source_min_eigenvalue = min(float(row["source_min_eigenvalue"]) for row in covariances)
+    rank_counts: dict[str, int] = {}
+    for row in sensitivities:
+        rank_counts[str(row["classification"])] = rank_counts.get(str(row["classification"]), 0) + 1
+
+    if endpoint_error > 2.0e-8 or f01_anisotropy > 2.0e-10 or f01_rotation > 2.0e-10:
+        landing = "SAVED_FIELD_OR_QUERY_FAILURE"
+    elif min_sigma <= 0.0:
+        landing = "SINGULAR_MAPS_BLOCK_GENERIC_COVARIANCE_INVERSION"
+    elif source_error > 2.0e-10 or source_min_eigenvalue <= 0.0:
+        landing = "IDENTIFIABILITY_NUMERICALLY_UNRESOLVED"
+    elif rank_counts.get("RANK_NUMERICALLY_UNRESOLVED", 0):
+        landing = "IDENTIFIABILITY_NUMERICALLY_UNRESOLVED"
+    elif rank_counts.get("RANK_DEFICIENT_OBSERVED", 0):
+        landing = "PROFILE_ENDPOINT_GEOMETRIC_DEGENERACY_OBSERVED"
+    else:
+        landing = "GEOMETRICALLY_SEPARATING__OBSERVATIONALLY_SOURCE_DEGENERATE"
+
+    result = {
+        "schema": "udt-cmb-g69-identifiability-v1",
+        "primary_landing": landing,
+        "profiles": len(profiles),
+        "endpoints": len(ENDPOINTS),
+        "cells": len(cells),
+        "sensitivity_cells": len(sensitivities),
+        "source_covariance_cells": len(covariances),
+        "rank_counts": rank_counts,
+        "max_x1_D_relative_error": endpoint_error,
+        "max_F01_anisotropy": f01_anisotropy,
+        "max_F01_polar_rotation": f01_rotation,
+        "minimum_D_singular_value": min_sigma,
+        "area_log_range": [min(float(row["area_log_vs_F01"]) for row in cells), max(float(row["area_log_vs_F01"]) for row in cells)],
+        "anisotropy_log_range": [min(float(row["anisotropy_log"]) for row in cells), max(float(row["anisotropy_log"]) for row in cells)],
+        "psi_range": [min(float(row["endpoint_psi"]) for row in cells), max(float(row["endpoint_psi"]) for row in cells)],
+        "source_max_reconstruction_relative": source_error,
+        "source_min_eigenvalue": source_min_eigenvalue,
+        "observational_anchors_used": 0,
+        "new_ODE_solves": 0,
+        "maximum_conclusion": "bounded control-tile geometric sensitivity and exact unrestricted-source covariance nonidentifiability only",
+    }
+    (HERE / "DERIVATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    text = json.dumps(result, indent=2, sort_keys=True) + "\n"
+    (HERE / "DERIVATION_STDOUT.txt").write_text(text, encoding="utf-8")
+    print(text, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '320,380p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py" in /tmp/udt_g69_review_IOWOt6
+exec
+/bin/bash -lc "sed -n '140,220p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+    dGamma = 0.5 * (
+        np.einsum("krl,lmn->krmn", dgi, q)
+        + np.einsum("rl,klmn->krmn", gi, dq)
+    )
+    R = (
+        dGamma.transpose(1, 3, 0, 2)
+        - dGamma.transpose(1, 3, 2, 0)
+        + np.einsum("rml,lns->rsmn", Gamma, Gamma)
+        - np.einsum("rnl,lms->rsmn", Gamma, Gamma)
+    )
+    return g, Gamma, R
+
+
+def initial_state(profile: Profile) -> np.ndarray:
+    position = np.array([0.0, START_X, math.pi / 2.0, 0.0], dtype=np.float64)
+    A, _, _, h, _, _ = profile_values(profile, START_X)
+    denom = A * START_X**2 + h**2
+    u = np.array([1.0 / math.sqrt(A), 0.0, 0.0, 0.0])
+    radial = np.array([0.0, math.sqrt(A), 0.0, 0.0])
+    e_theta = np.array([0.0, 0.0, 1.0 / START_X, 0.0])
+    e_psi = np.array([h / (math.sqrt(A) * math.sqrt(denom)), 0.0, 0.0, math.sqrt(A) / math.sqrt(denom)])
+    k = u + radial
+    E = np.stack((e_theta, e_psi))
+    J = np.zeros((2, 4), dtype=np.float64)
+    P = E.copy()
+    return np.concatenate((position, k, E.ravel(), J.ravel(), P.ravel()))
+
+
+def unpack(state: np.ndarray) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    return (
+        state[0:4],
+        state[4:8],
+        state[8:16].reshape(2, 4),
+        state[16:24].reshape(2, 4),
+        state[24:32].reshape(2, 4),
+    )
+
+
+def full_rhs(profile: Profile):
+    def rhs(_affine: float, state: np.ndarray) -> np.ndarray:
+        position, k, E, J, P = unpack(state)
+        _, Gamma, R = geometry(profile, position)
+        dk = -np.einsum("rmn,m,n->r", Gamma, k, k)
+        dE = -np.einsum("rmn,m,an->ar", Gamma, k, E)
+        dJ = P - np.einsum("rmn,m,an->ar", Gamma, k, J)
+        curvature = np.einsum("rsmn,s,am,n->ar", R, k, J, k)
+        dP = -np.einsum("rmn,m,an->ar", Gamma, k, P) - curvature
+        return np.concatenate((k, dk, dE.ravel(), dJ.ravel(), dP.ravel()))
+
+    return rhs
+
+
+def endpoint_event(_affine: float, state: np.ndarray) -> float:
+    return float(state[1] - END_X)
+
+
+endpoint_event.terminal = True
+endpoint_event.direction = 1.0
+
+
+def turning_event(_affine: float, state: np.ndarray) -> float:
+    return float(state[5])
+
+
+turning_event.terminal = False
+turning_event.direction = -1.0
+
+
+def integrate(profile: Profile, controls: dict) -> object:
+    return solve_ivp(
+        full_rhs(profile),
+        (0.0, S_CAP),
+        initial_state(profile),
+        events=(endpoint_event, turning_event),
+        dense_output=True,
+        **controls,
+    )
+
+
+def screen_objects(profile: Profile, state: np.ndarray) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    position, k, E, J, P = unpack(state)
+
+ succeeded in 0ms:
+    affine, state, D = endpoint_map(profile, solution)
+    position, k, E, _, _ = unpack(state)
+    _, Ddot, tidal, g = screen_objects(profile, state)
+    caustic, min_singular_path = first_caustic(profile, solution, affine)
+    singular = np.linalg.svd(D, compute_uv=False)
+    polar_u, _, polar_vt = np.linalg.svd(D)
+    polar = polar_u @ polar_vt
+    rotation = math.atan2(float(polar[1, 0]), float(polar[0, 0]))
+    symmetric = 0.5 * (D + D.T)
+    antisymmetric = 0.5 * (D - D.T)
+    p_t = float(g[0] @ k)
+    p_psi = float(g[3] @ k)
+    summary = {
+        "profile_id": profile.profile_id,
+        "family": profile.family,
+        "lapse_a": profile.lapse_a,
+        "mix_shape": profile.shape,
+        "mix_epsilon": profile.sign * profile.epsilon,
+        "status": classify_solution(solution, caustic),
+        "solver_success": bool(solution.success),
+        "solver_message": str(solution.message),
+        "endpoint_reached": bool(len(solution.t_events[0]) > 0),
+        "turning_events": [float(x) for x in solution.t_events[1]],
+        "first_caustic_affine": caustic,
+        "affine_final": affine,
+        "endpoint_coordinates": position.tolist(),
+        "endpoint_k": k.tolist(),
+        "endpoint_screen": E.tolist(),
+        "endpoint_D": D.tolist(),
+        "endpoint_Ddot": Ddot.tolist(),
+        "endpoint_tidal": tidal.tolist(),
+        "det_D": float(np.linalg.det(D)),
+        "singular_values": singular.tolist(),
+        "min_singular_value_sampled_path": min_singular_path,
+        "symmetric_D": symmetric.tolist(),
+        "antisymmetric_D": antisymmetric.tolist(),
+        "antisymmetric_norm": float(np.linalg.norm(antisymmetric)),
+        "polar_rotation": rotation,
+        "conserved_p_t_endpoint": p_t,
+        "conserved_p_psi_endpoint": p_psi,
+        "residuals": path_residuals(profile, solution, affine),
+        "nfev": int(solution.nfev),
+    }
+    return summary, state, D
+
+
+def run_registered_profile(profile: Profile) -> tuple[dict, dict[str, np.ndarray]]:
+    production = integrate(profile, PRODUCTION)
+    refined = integrate(profile, REFINED)
+    second = integrate(profile, SECOND_METHOD)
+    summary, _, D = endpoint_summary(profile, production)
+    refined_affine, refined_state, refined_D = endpoint_map(profile, refined)
+    second_affine, second_state, second_D = endpoint_map(profile, second)
+    summary["convergence"] = {
+        "production_refined_D_relative": relative_norm(D, refined_D),
+        "production_refined_state_relative": relative_norm(np.asarray(production.sol(summary["affine_final"])), refined_state),
+        "production_refined_affine_absolute": abs(summary["affine_final"] - refined_affine),
+        "refined_second_D_relative": relative_norm(refined_D, second_D),
+        "refined_second_state_relative": relative_norm(refined_state, second_state),
+        "refined_second_affine_absolute": abs(refined_affine - second_affine),
+    }
+
+exec
+/bin/bash -lc "sed -n '1,120p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/PROFILE_UNIVERSE.tsv" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+profile_id	metric_family	lapse_a	mix_shape	mix_epsilon	A_of_x	h_over_R	start_x	endpoint_x	profile_status
+G68_F01_AM	F01	-1/4	ZERO	0	1-x^2/4	0	1/4	1	CHOSE_CONTROL
+G68_F01_A0	F01	0	ZERO	0	1	0	1/4	1	CHOSE_CONTROL
+G68_F01_AP	F01	1/4	ZERO	0	1+x^2/4	0	1/4	1	CHOSE_CONTROL
+G68_F02_AM_P05	F02	-1/4	PERSISTENT	1/20	1-x^2/4	(1/20)*x^2	1/4	1	CHOSE_CONTROL
+G68_F02_AM_P20	F02	-1/4	PERSISTENT	1/5	1-x^2/4	(1/5)*x^2	1/4	1	CHOSE_CONTROL
+G68_F02_AM_T05	F02	-1/4	TAPERED	1/20	1-x^2/4	(1/20)*x^2*(1-x)^2	1/4	1	CHOSE_CONTROL
+G68_F02_AM_T20	F02	-1/4	TAPERED	1/5	1-x^2/4	(1/5)*x^2*(1-x)^2	1/4	1	CHOSE_CONTROL
+G68_F02_AM_S05	F02	-1/4	SIGN_CHANGING	1/20	1-x^2/4	(1/20)*x^2*(1-2*x)	1/4	1	CHOSE_CONTROL
+G68_F02_AM_S20	F02	-1/4	SIGN_CHANGING	1/5	1-x^2/4	(1/5)*x^2*(1-2*x)	1/4	1	CHOSE_CONTROL
+G68_F02_A0_P05	F02	0	PERSISTENT	1/20	1	(1/20)*x^2	1/4	1	CHOSE_CONTROL
+G68_F02_A0_P20	F02	0	PERSISTENT	1/5	1	(1/5)*x^2	1/4	1	CHOSE_CONTROL
+G68_F02_A0_T05	F02	0	TAPERED	1/20	1	(1/20)*x^2*(1-x)^2	1/4	1	CHOSE_CONTROL
+G68_F02_A0_T20	F02	0	TAPERED	1/5	1	(1/5)*x^2*(1-x)^2	1/4	1	CHOSE_CONTROL
+G68_F02_A0_S05	F02	0	SIGN_CHANGING	1/20	1	(1/20)*x^2*(1-2*x)	1/4	1	CHOSE_CONTROL
+G68_F02_A0_S20	F02	0	SIGN_CHANGING	1/5	1	(1/5)*x^2*(1-2*x)	1/4	1	CHOSE_CONTROL
+G68_F02_AP_P05	F02	1/4	PERSISTENT	1/20	1+x^2/4	(1/20)*x^2	1/4	1	CHOSE_CONTROL
+G68_F02_AP_P20	F02	1/4	PERSISTENT	1/5	1+x^2/4	(1/5)*x^2	1/4	1	CHOSE_CONTROL
+G68_F02_AP_T05	F02	1/4	TAPERED	1/20	1+x^2/4	(1/20)*x^2*(1-x)^2	1/4	1	CHOSE_CONTROL
+G68_F02_AP_T20	F02	1/4	TAPERED	1/5	1+x^2/4	(1/5)*x^2*(1-x)^2	1/4	1	CHOSE_CONTROL
+G68_F02_AP_S05	F02	1/4	SIGN_CHANGING	1/20	1+x^2/4	(1/20)*x^2*(1-2*x)	1/4	1	CHOSE_CONTROL
+G68_F02_AP_S20	F02	1/4	SIGN_CHANGING	1/5	1+x^2/4	(1/5)*x^2*(1-2*x)	1/4	1	CHOSE_CONTROL
+
+codex
+I’ve confirmed the reconstruction path is `D = E g J^T` from saved state, with the “independent” verifier only swapping `PCHIP` for `CubicSpline`. I’m checking whether the third channel is truly typed as carry rather than being silently promoted to a generic observable.
+exec
+/bin/bash -lc 'rg -n "psi|carry|azimuth|polarization|rotation|screen|orientation|endpoint_psi" /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md /tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv /tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv /tmp/udt_g69_review_IOWOt6/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md' in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+/tmp/udt_g69_review_IOWOt6/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md:21:does not yet select the complete SNe pair immersion, screen-area law, time-live trajectory, or
+/tmp/udt_g69_review_IOWOt6/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md:107:- the complete SNe screen-area map;
+/tmp/udt_g69_review_IOWOt6/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md:119:families. It does not cover every SNe query, complete metric branch, screen, cut-locus realization,
+/tmp/udt_g69_review_IOWOt6/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md:152:The CMB query must expose its own endpoint, screen/area, Jacobi, ambient-transport, and
+/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv:1:observable	definition	endpoint_pair	screen_Jacobi	ambient_transport	normal_transport	operator_modes	source_population	maximum_status
+/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv:5:PHYSICAL_TE_EE_BB_POLARIZATION	orientation_sensitive_angular_correlations	REQUIRED_CONTEXT_NOT_SUFFICIENT	REQUIRED	REQUIRED_OR_EQUIVALENT_CARRY	REQUIRED_OR_EQUIVALENT_SCREEN_CONNECTION	SCALAR_OPERATOR_INSUFFICIENT	REQUIRED_SPIN_SENSITIVE_SOURCE	OPEN
+/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv:2:Q00	ORDERED_OBSERVER_SKY_QUERY	typed_observer_event_frame_and_celestial_screen	all_CMB_observables	OPEN_PHYSICAL_CMB_QUERY	query_architecture_only	OPEN
+/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv:6:Q04	OBSERVER_SKY_ANGULAR_MAP	screen_Jacobi_or_equivalent_query_map	remote_scale_to_observed_multipole	OPEN_FOR_PHYSICAL_CMB_QUERY	conditional_screen_geometries_and_separate_Jacobi_controls	OPEN
+/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv:7:Q05	AMBIENT_TRANSPORT	path_groupoid_functor_after_path_is_supplied	carry_complete_frame_or_orientation_sensitive_data	METRIC_CONDITIONAL_ON_PATH	no_physical_CMB_path	CONDITIONAL_PATH_ONLY
+/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv:8:Q06	NORMAL_SCREEN_TRANSPORT	normal_bundle_of_supplied_pair_immersion	polarization_and_screen_orientation_memory	OPEN_FOR_PHYSICAL_CMB_QUERY	conditional_normal_transport_on_non_CMB_query_controls	OPEN
+/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv:12:Q10	SCALAR_TEMPERATURE_SKY_FIELD	real_scalar_on_observer_celestial_screen	a_lm_and_C_ell_TT	OBSERVED_MAP_TYPE_BUT_NO_NATIVE_PREDICTION_LAW	published_peak_locations_only	OBSERVED_READOUT_OPEN_THEORY
+/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/QUERY_LAYER_ATLAS.tsv:13:Q11	POLARIZATION_SKY_FIELD	orientation_sensitive_screen_field	TE_EE_BB_channels	NONE	scalar_operator_only	OPEN
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:50:- complete `2 x 2` screen Jacobi map `D`;
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:51:- `det(D)`, singular values, logarithmic anisotropy `log(sigma_max/sigma_min)`, and polar rotation;
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:52:- endpoint azimuthal carry `psi`;
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:61:`(endpoint x, lapse a, mixing epsilon)` at the registered central lapse `a=0` and between the two
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:62:registered positive amplitudes `epsilon=1/20,1/5`. Use only registered cells:
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:66:- amplitude secant: `epsilon=1/20` to `1/5`.
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:71:y = (log(det(D)/s_F01^2), log(sigma_max/sigma_min), psi).
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:113:heights, and polarization cannot be treated as interchangeable anchors, because they read different
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:118:- G68 profiles, paths, query, screen, and saved states: `CHOSE_CONTROL`, frozen inputs.
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:124:- physical CMB profile, endpoint, source/state covariance, spectrum, and polarization law: `OPEN`.
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PREREGISTRATION.md:140:4. an F01 cell has anisotropy or polar rotation above `2e-10`;
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md:55:This is a local identifiability result for a bounded control tile and a `2 x 2` screen-covariance
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md:57:TT/TE/EE/BB power, polarization, an action, bootstrap closure, time-live history, or local signal
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:5:- screen-map reconstruction from each supplied saved metric/query state: `DERIVED`;
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:13:intermediate radius, the transported screen vectors `E_A`, Jacobi vectors `J_B`, and complete
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:21:screen, or Jacobi equation is reintegrated. The production PCHIP and independent cubic-spline
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:31:      psi ).
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:35:azimuthal carry. They are separate geometric channels; they are not automatically three observed
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:43:p = (x_endpoint, a, epsilon).
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:67:Let an invertible geometric screen transfer be `D`, a positive-definite source covariance be
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:102:The geometric rank uses area, anisotropy, **and** azimuthal carry. A scalar TT readout does not
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:103:directly read arbitrary screen orientation/carry. Projecting from three readout channels to two or
+/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md:116:This result concerns the declared `2 x 2` screen-covariance transfer only. It is not a theorem that
+
+exec
+/bin/bash -lc "sed -n '1,220p' /tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+# G69 profile–endpoint–source identifiability atlas — audit report
+
+## Landing
+
+`GEOMETRICALLY_SEPARATING__OBSERVATIONALLY_SOURCE_DEGENERATE`.
+
+Evidence state: `INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING`.
+
+Within the complete registered three-channel geometric readout, endpoint position, lapse profile,
+and mixing amplitude are locally independent in all `15/15` preregistered sensitivity cells. But
+an unrestricted source covariance can exactly compensate every invertible geometric map. The
+metric instrument distinguishes the controls; the currently unowned source prevents a sky
+covariance from selecting them.
+
+## Main observations
+
+- All `21 x 15 = 315` saved profile/endpoint cells were reconstructed without a new ODE solve.
+- The PCHIP and independently coded cubic-spline maps agree to `1.0141e-10` relative.
+- The official G68 endpoint maps replay to `3.7445e-16` relative.
+- Every map is invertible; minimum singular value is `0.0496135`.
+- All `15/15` three-channel sensitivity matrices are `FULL_RANK_OBSERVED` under the frozen rule.
+- The rank is often poorly conditioned: normalized condition numbers span `66.82` to `2156.08`.
+- All `945/945` source-covariance constructions replay with maximum relative error
+  `2.8306e-16` and remain positive definite.
+- No observational anchor, fit, new coefficient, ODE solve, eigensolve, or GPU process was used.
+
+## What this means
+
+The G68 profile effects are not merely one generic blur: inside the complete geometric instrument,
+changing the endpoint, lapse, or mixing amplitude points in a different local direction. That is
+useful structure.
+
+It does not yet identify the real universe. An unknown source pattern can be reshaped so that
+different geometric maps produce the same observed local covariance. Scalar TT also does not
+directly read every channel used in the full-rank test. A later observational anchor can constrain
+a small coefficient set only after the source/state and channel ownership are typed tightly enough
+that this exact compensation freedom has been reduced.
+
+## Four evidence gates
+
+1. **Preregistered:** yes, at `8b7340cb`; sensitivity conventions clarified before calculation at
+   `88ab9381`.
+2. **Full or bounded:** complete over the exact 21 saved profiles, 15 endpoints, 315 maps, 15
+   sensitivity cells, and 945 covariance reconstructions. It is not all profiles, queries, or
+   source models.
+3. **Independent:** a separate explicit metric/readout implementation using cubic splines instead
+   of PCHIP reproduces all cells and the covariance identity. Both routes share the frozen G68 path
+   samples; fresh semantic external review remains pending.
+4. **Premises:** audited. Every profile, endpoint, covariance example, and rank convention is a
+   declared control. Physical profile, endpoint, source/state, spectrum, and coefficients remain
+   `OPEN`.
+
+## Authority boundary
+
+This is a local identifiability result for a bounded control tile and a `2 x 2` screen-covariance
+identity. It does not select last scattering, `X_max`, a CMB profile, a source covariance, a peak,
+TT/TE/EE/BB power, polarization, an action, bootstrap closure, time-live history, or local signal
+physics. It does not prove that full CMB data are globally non-identifying.
+
+## Next gate
+
+Adversarially review the finite-tile rank and the exact source-covariance theorem. If they survive,
+the next metric-led question is which restrictions on source/state or endpoint/profile are already
+owned by the complete query and geometry. Only after that ownership map may a small preregistered
+set of observationally anchored coefficients be introduced, with held-out channels.
+
+codex
+I’m recomputing the load-bearing numbers outside the package scripts now: cell census, interpolation replay, F01 sanity gates, rank spectra, and the covariance congruence check.
+exec
+/bin/bash -lc "python - <<'PY'
+import csv, math, json
+from pathlib import Path
+import numpy as np
+from scipy.interpolate import PchipInterpolator, CubicSpline
+
+root = Path('/tmp/udt_g69_review_IOWOt6')
+g69 = root/'udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11'
+g68 = root/'udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11'
+
+def load_tsv(path):
+    with path.open(newline='', encoding='utf-8') as f:
+        return list(csv.DictReader(f, delimiter='\\t'))
+
+def parse(x):
+    if '/' in x:
+        a,b=x.split('/',1)
+        return float(a)/float(b)
+    return float(x)
+
+profiles = {r['profile_id']:r for r in load_tsv(g68/'PROFILE_UNIVERSE.tsv')}
+cells = load_tsv(g69/'CELL_ATLAS.tsv')
+sens = load_tsv(g69/'SENSITIVITY_ATLAS.tsv')
+source = load_tsv(g69/'SOURCE_DEGENERACY_ATLAS.tsv')
+finite = {r['profile_id']:r for r in load_tsv(g68/'FINITE_PATH_ATLAS.tsv')}
+archive = np.load(g68/'FINITE_PATH_SAMPLES.npz')
+
+# independent metric and D reconstruction
+
+def metric(row, state):
+    _, r, theta, _ = state[:4]
+    a = parse(row['lapse_a'])
+    eps = parse(row['mix_epsilon'])
+    A = 1.0 + a*r*r
+    shape = row['mix_shape']
+    if row['metric_family'] == 'F01' or shape == 'ZERO':
+        h = 0.0
+    elif shape == 'PERSISTENT':
+        h = eps*r*r
+    elif shape == 'TAPERED':
+        h = eps*r*r*(1.0-r)**2
+    elif shape == 'SIGN_CHANGING':
+        h = eps*r*r*(1.0-2.0*r)
+    else:
+        raise ValueError(shape)
+    s2 = math.sin(theta)**2
+    g = np.zeros((4,4))
+    g[0,0], g[1,1], g[2,2], g[3,3] = -A, 1.0/A, r*r, r*r*s2
+    g[0,3] = g[3,0] = h*s2
+    return g
+
+def D_from_state(row, state):
+    E = np.asarray(state[8:16]).reshape(2,4)
+    J = np.asarray(state[16:24]).reshape(2,4)
+    return E @ metric(row, state) @ J.T
+
+def rel(a,b):
+    a=np.asarray(a); b=np.asarray(b)
+    return float(np.linalg.norm(a-b) / max(1.0, np.linalg.norm(a), np.linalg.norm(b)))
+
+max_pchip = 0.0
+max_cs = 0.0
+max_x1 = 0.0
+f01_aniso = 0.0
+f01_rot = 0.0
+min_sigma = float('inf')
+endpoint_set = set()
+for cell in cells:
+    pid = cell['profile_id']
+    prow = profiles[pid]
+    x = float(cell['endpoint_x'])
+    endpoint_set.add(x)
+    states = np.asarray(archive[pid+'__state'], dtype=float)
+    radii = states[1]
+    p_state = np.asarray(PchipInterpolator(radii, states.T, axis=0)(x), dtype=float)
+    c_state = np.asarray(CubicSpline(radii, states.T, axis=0)(x), dtype=float)
+    Dp = D_from_state(prow, p_state)
+    Dc = D_from_state(prow, c_state)
+    Drec = np.array([[float(cell['D00']), float(cell['D01'])],[float(cell['D10']), float(cell['D11'])]])
+    max_pchip = max(max_pchip, rel(Dp, Drec))
+    max_cs = max(max_cs, rel(Dc, Drec))
+    sv = np.linalg.svd(Drec, compute_uv=False)
+    min_sigma = min(min_sigma, float(sv[-1]))
+    if cell['family']=='F01':
+        f01_aniso = max(f01_aniso, abs(float(cell['anisotropy_log'])))
+        f01_rot = max(f01_rot, abs(float(cell['polar_rotation'])))
+    if abs(x-1.0) < 1e-12:
+        Doff = np.array([
+            [float(finite[pid]['D_theta_theta']), float(finite[pid]['D_theta_psi'])],
+            [float(finite[pid]['D_psi_theta']), float(finite[pid]['D_psi_psi'])],
+        ])
+        max_x1 = max(max_x1, rel(Drec, Doff))
+
+# recompute sensitivity matrices from cells
+lookup = {}
+for r in cells:
+    if r['family'] == 'F02':
+        lookup[(r['shape'], float(r['lapse_a']), float(r['epsilon']), round(float(r['endpoint_x']),2))] = r
+
+def readout(r):
+    return np.array([float(r['area_log_vs_F01']), float(r['anisotropy_log']), float(r['endpoint_psi'])])
+
+shapes = ['PERSISTENT','TAPERED','SIGN_CHANGING']
+xs = [0.35,0.50,0.65,0.80,0.95]
+recomp = []
+recomp_eps_only = []
+for shape in shapes:
+    for x in xs:
+        ec = []
+        ac = []
+        for eps in (0.05,0.20):
+            ec.append((readout(lookup[(shape,0.0,eps,round(x+0.05,2))]) - readout(lookup[(shape,0.0,eps,round(x-0.05,2))]))/0.10)
+            ac.append((readout(lookup[(shape,0.25,eps,round(x,2))]) - readout(lookup[(shape,-0.25,eps,round(x,2))]))/0.50)
+        endpoint = 0.5*(ec[0]+ec[1])
+        lapse = 0.5*(ac[0]+ac[1])
+        amp = (readout(lookup[(shape,0.0,0.20,round(x,2))]) - readout(lookup[(shape,0.0,0.05,round(x,2))]))/0.15
+        M = np.column_stack([endpoint,lapse,amp])
+        s = np.linalg.svd(M/np.linalg.norm(M, axis=0), compute_uv=False)
+        recomp.append((shape,x,float(s[-1]/s[0]),float(s[0]/s[-1]),float(np.linalg.det(M))))
+        for eps in (0.05,0.20):
+            endpoint2=(readout(lookup[(shape,0.0,eps,round(x+0.05,2))]) - readout(lookup[(shape,0.0,eps,round(x-0.05,2))]))/0.10
+            lapse2=(readout(lookup[(shape,0.25,eps,round(x,2))]) - readout(lookup[(shape,-0.25,eps,round(x,2))]))/0.50
+            M2=np.column_stack([endpoint2,lapse2,amp])
+            s2=np.linalg.svd(M2/np.linalg.norm(M2, axis=0), compute_uv=False)
+            recomp_eps_only.append((shape,x,eps,float(s2[-1]/s2[0])))
+
+# compare atlas sensitivity rows
+atlas_map = {(r['shape'], float(r['endpoint_x'])): r for r in sens}
+max_sens_entry = 0.0
+min_ratio = float('inf'); max_ratio = 0.0
+min_cond = float('inf'); max_cond = 0.0
+min_raw_ratio = float('inf'); max_raw_cond = 0.0
+for shape,x,ratio,cond,det in recomp:
+    r = atlas_map[(shape,x)]
+    Mrec = np.array([[float(r[f'm{i}{j}']) for j in range(3)] for i in range(3)])
+    # rebuild our own M again to compare explicitly
+    ec=[]; ac=[]
+    for eps in (0.05,0.20):
+        ec.append((readout(lookup[(shape,0.0,eps,round(x+0.05,2))]) - readout(lookup[(shape,0.0,eps,round(x-0.05,2))]))/0.10)
+        ac.append((readout(lookup[(shape,0.25,eps,round(x,2))]) - readout(lookup[(shape,-0.25,eps,round(x,2))]))/0.50)
+    M=np.column_stack([0.5*(ec[0]+ec[1]),0.5*(ac[0]+ac[1]),(readout(lookup[(shape,0.0,0.20,round(x,2))]) - readout(lookup[(shape,0.0,0.05,round(x,2))]))/0.15])
+    max_sens_entry = max(max_sens_entry, rel(M, Mrec))
+    s = np.linalg.svd(M/np.linalg.norm(M, axis=0), compute_uv=False)
+    min_ratio = min(min_ratio, float(s[-1]/s[0]))
+    max_ratio = max(max_ratio, float(s[-1]/s[0]))
+    min_cond = min(min_cond, float(s[0]/s[-1]))
+    max_cond = max(max_cond, float(s[0]/s[-1]))
+    sraw = np.linalg.svd(M, compute_uv=False)
+    min_raw_ratio = min(min_raw_ratio, float(sraw[-1]/sraw[0]))
+    max_raw_cond = max(max_raw_cond, float(sraw[0]/sraw[-1]))
+
+# 2-channel test excluding psi
+min_2ch_ratio = float('inf')
+max_2ch_rank = 0
+for shape in shapes:
+    for x in xs:
+        r = atlas_map[(shape,x)]
+        M = np.array([[float(r[f'm{i}{j}']) for j in range(3)] for i in range(3)])
+        M2 = M[:2,:]
+        s2 = np.linalg.svd(M2/np.linalg.norm(M2, axis=0), compute_uv=False)
+        min_2ch_ratio = min(min_2ch_ratio, float(s2[-1]/s2[0]))
+        max_2ch_rank = max(max_2ch_rank, np.linalg.matrix_rank(M2))
+
+# source covariance theorem numerics
+controls = {
+    'IDENTITY': np.eye(2),
+    'DIAGONAL_2_1': np.diag([2.0,1.0]),
+    'CORRELATED': np.array([[2.0,1.0/3.0],[1.0/3.0,1.0]]),
+}
+cell_lookup = {(r['profile_id'], r['endpoint_x']): r for r in cells}
+max_cov_replay = 0.0
+max_cov_atlas = 0.0
+min_src_eval = float('inf')
+for row in source:
+    cell = cell_lookup[(row['profile_id'], row['endpoint_x'])]
+    D = np.array([[float(cell['D00']), float(cell['D01'])],[float(cell['D10']), float(cell['D11'])]])
+    obs = controls[row['covariance_id']]
+    src = np.linalg.inv(D) @ obs @ np.linalg.inv(D).T
+    src_atlas = np.array([[float(row['Csrc00']), float(row['Csrc01'])],[float(row['Csrc10']), float(row['Csrc11'])]])
+    max_cov_atlas = max(max_cov_atlas, rel(src, src_atlas))
+    max_cov_replay = max(max_cov_replay, rel(D @ src @ D.T, obs))
+    min_src_eval = min(min_src_eval, float(np.linalg.eigvalsh(src)[0]))
+
+# alternative: using singular D destroys generic SPD surjectivity
+Dsing = np.array([[1.0,0.0],[0.0,0.0]])
+Cobs = np.eye(2)
+reachable_rank = np.linalg.matrix_rank(Dsing @ np.eye(2) @ Dsing.T)
+
+print(json.dumps({
+    'profiles': len(profiles),
+    'unique_endpoints': len(endpoint_set),
+    'cells': len(cells),
+    'sensitivity_cells': len(sens),
+    'source_rows': len(source),
+    'max_PCHIP_cell_D_relative': max_pchip,
+    'max_CubicSpline_cell_D_relative': max_cs,
+    'max_x1_official_D_relative': max_x1,
+    'max_F01_anisotropy_abs': f01_aniso,
+    'max_F01_rotation_abs': f01_rot,
+    'minimum_D_singular_value': min_sigma,
+    'max_sensitivity_matrix_relative_vs_atlas': max_sens_entry,
+    'normalized_sigma_ratio_min': min_ratio,
+    'normalized_sigma_ratio_max': max_ratio,
+    'normalized_condition_min': min_cond,
+    'normalized_condition_max': max_cond,
+    'raw_sigma_ratio_min': min_raw_ratio,
+    'raw_condition_max': max_raw_cond,
+    'min_sigma_ratio_eps05_or_eps20_only': min(v[3] for v in recomp_eps_only),
+    'min_2channel_sigma_ratio': min_2ch_ratio,
+    'max_2channel_rank': int(max_2ch_rank),
+    'max_covariance_source_relative_vs_atlas': max_cov_atlas,
+    'max_covariance_replay_relative': max_cov_replay,
+    'min_constructed_source_eigenvalue': min_src_eval,
+    'singular_demo_rank_DCDT': int(reachable_rank),
+}, indent=2, sort_keys=True))
+PY" in /tmp/udt_g69_review_IOWOt6
+ exited 127 in 0ms:
+/bin/bash: line 1: python: command not found
+
+codex
+The shell lacks `python`; I’m rerunning the independent checks with `python3`.
+exec
+/bin/bash -lc "python3 - <<'PY'
+import csv, math, json
+from pathlib import Path
+import numpy as np
+from scipy.interpolate import PchipInterpolator, CubicSpline
+
+root = Path('/tmp/udt_g69_review_IOWOt6')
+g69 = root/'udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11'
+g68 = root/'udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11'
+
+def load_tsv(path):
+    with path.open(newline='', encoding='utf-8') as f:
+        return list(csv.DictReader(f, delimiter='\\t'))
+
+def parse(x):
+    if '/' in x:
+        a,b=x.split('/',1)
+        return float(a)/float(b)
+    return float(x)
+
+profiles = {r['profile_id']:r for r in load_tsv(g68/'PROFILE_UNIVERSE.tsv')}
+cells = load_tsv(g69/'CELL_ATLAS.tsv')
+sens = load_tsv(g69/'SENSITIVITY_ATLAS.tsv')
+source = load_tsv(g69/'SOURCE_DEGENERACY_ATLAS.tsv')
+finite = {r['profile_id']:r for r in load_tsv(g68/'FINITE_PATH_ATLAS.tsv')}
+archive = np.load(g68/'FINITE_PATH_SAMPLES.npz')
+
+def metric(row, state):
+    _, r, theta, _ = state[:4]
+    a = parse(row['lapse_a'])
+    eps = parse(row['mix_epsilon'])
+    A = 1.0 + a*r*r
+    shape = row['mix_shape']
+    if row['metric_family'] == 'F01' or shape == 'ZERO':
+        h = 0.0
+    elif shape == 'PERSISTENT':
+        h = eps*r*r
+    elif shape == 'TAPERED':
+        h = eps*r*r*(1.0-r)**2
+    elif shape == 'SIGN_CHANGING':
+        h = eps*r*r*(1.0-2.0*r)
+    else:
+        raise ValueError(shape)
+    s2 = math.sin(theta)**2
+    g = np.zeros((4,4))
+    g[0,0], g[1,1], g[2,2], g[3,3] = -A, 1.0/A, r*r, r*r*s2
+    g[0,3] = g[3,0] = h*s2
+    return g
+
+def D_from_state(row, state):
+    E = np.asarray(state[8:16]).reshape(2,4)
+    J = np.asarray(state[16:24]).reshape(2,4)
+    return E @ metric(row, state) @ J.T
+
+def rel(a,b):
+    a=np.asarray(a); b=np.asarray(b)
+    return float(np.linalg.norm(a-b) / max(1.0, np.linalg.norm(a), np.linalg.norm(b)))
+
+max_pchip = 0.0
+max_cs = 0.0
+max_x1 = 0.0
+f01_aniso = 0.0
+f01_rot = 0.0
+min_sigma = float('inf')
+endpoint_set = set()
+for cell in cells:
+    pid = cell['profile_id']
+    prow = profiles[pid]
+    x = float(cell['endpoint_x'])
+    endpoint_set.add(x)
+    states = np.asarray(archive[pid+'__state'], dtype=float)
+    radii = states[1]
+    p_state = np.asarray(PchipInterpolator(radii, states.T, axis=0)(x), dtype=float)
+    c_state = np.asarray(CubicSpline(radii, states.T, axis=0)(x), dtype=float)
+    Dp = D_from_state(prow, p_state)
+    Dc = D_from_state(prow, c_state)
+    Drec = np.array([[float(cell['D00']), float(cell['D01'])],[float(cell['D10']), float(cell['D11'])]])
+    max_pchip = max(max_pchip, rel(Dp, Drec))
+    max_cs = max(max_cs, rel(Dc, Drec))
+    sv = np.linalg.svd(Drec, compute_uv=False)
+    min_sigma = min(min_sigma, float(sv[-1]))
+    if cell['family']=='F01':
+        f01_aniso = max(f01_aniso, abs(float(cell['anisotropy_log'])))
+        f01_rot = max(f01_rot, abs(float(cell['polar_rotation'])))
+    if abs(x-1.0) < 1e-12:
+        Doff = np.array([
+            [float(finite[pid]['D_theta_theta']), float(finite[pid]['D_theta_psi'])],
+            [float(finite[pid]['D_psi_theta']), float(finite[pid]['D_psi_psi'])],
+        ])
+        max_x1 = max(max_x1, rel(Drec, Doff))
+
+lookup = {}
+for r in cells:
+    if r['family'] == 'F02':
+        lookup[(r['shape'], float(r['lapse_a']), float(r['epsilon']), round(float(r['endpoint_x']),2))] = r
+
+def readout(r):
+    return np.array([float(r['area_log_vs_F01']), float(r['anisotropy_log']), float(r['endpoint_psi'])])
+
+shapes = ['PERSISTENT','TAPERED','SIGN_CHANGING']
+xs = [0.35,0.50,0.65,0.80,0.95]
+recomp_eps_only = []
+atlas_map = {(r['shape'], float(r['endpoint_x'])): r for r in sens}
+max_sens_entry = 0.0
+min_ratio = float('inf'); max_ratio = 0.0
+min_cond = float('inf'); max_cond = 0.0
+min_raw_ratio = float('inf'); max_raw_cond = 0.0
+min_2ch_ratio = float('inf')
+max_2ch_rank = 0
+for shape in shapes:
+    for x in xs:
+        ec=[]; ac=[]
+        for eps in (0.05,0.20):
+            ec.append((readout(lookup[(shape,0.0,eps,round(x+0.05,2))]) - readout(lookup[(shape,0.0,eps,round(x-0.05,2))]))/0.10)
+            ac.append((readout(lookup[(shape,0.25,eps,round(x,2))]) - readout(lookup[(shape,-0.25,eps,round(x,2))]))/0.50)
+            endpoint2=(readout(lookup[(shape,0.0,eps,round(x+0.05,2))]) - readout(lookup[(shape,0.0,eps,round(x-0.05,2))]))/0.10
+            lapse2=(readout(lookup[(shape,0.25,eps,round(x,2))]) - readout(lookup[(shape,-0.25,eps,round(x,2))]))/0.50
+            amp=(readout(lookup[(shape,0.0,0.20,round(x,2))]) - readout(lookup[(shape,0.0,0.05,round(x,2))]))/0.15
+            M2=np.column_stack([endpoint2,lapse2,amp])
+            s2=np.linalg.svd(M2/np.linalg.norm(M2, axis=0), compute_uv=False)
+            recomp_eps_only.append(float(s2[-1]/s2[0]))
+        M=np.column_stack([0.5*(ec[0]+ec[1]),0.5*(ac[0]+ac[1]),amp])
+        Mrec = np.array([[float(atlas_map[(shape,x)][f'm{i}{j}']) for j in range(3)] for i in range(3)])
+        max_sens_entry = max(max_sens_entry, rel(M, Mrec))
+        s = np.linalg.svd(M/np.linalg.norm(M, axis=0), compute_uv=False)
+        min_ratio = min(min_ratio, float(s[-1]/s[0]))
+        max_ratio = max(max_ratio, float(s[-1]/s[0]))
+        min_cond = min(min_cond, float(s[0]/s[-1]))
+        max_cond = max(max_cond, float(s[0]/s[-1]))
+        sraw = np.linalg.svd(M, compute_uv=False)
+        min_raw_ratio = min(min_raw_ratio, float(sraw[-1]/sraw[0]))
+        max_raw_cond = max(max_raw_cond, float(sraw[0]/sraw[-1]))
+        Mtwo = M[:2,:]
+        stwo = np.linalg.svd(Mtwo/np.linalg.norm(Mtwo, axis=0), compute_uv=False)
+        min_2ch_ratio = min(min_2ch_ratio, float(stwo[-1]/stwo[0]))
+        max_2ch_rank = max(max_2ch_rank, int(np.linalg.matrix_rank(Mtwo)))
+
+controls = {
+    'IDENTITY': np.eye(2),
+    'DIAGONAL_2_1': np.diag([2.0,1.0]),
+    'CORRELATED': np.array([[2.0,1.0/3.0],[1.0/3.0,1.0]]),
+}
+cell_lookup = {(r['profile_id'], r['endpoint_x']): r for r in cells}
+max_cov_replay = 0.0
+max_cov_atlas = 0.0
+min_src_eval = float('inf')
+for row in source:
+    cell = cell_lookup[(row['profile_id'], row['endpoint_x'])]
+    D = np.array([[float(cell['D00']), float(cell['D01'])],[float(cell['D10']), float(cell['D11'])]])
+    obs = controls[row['covariance_id']]
+    src = np.linalg.inv(D) @ obs @ np.linalg.inv(D).T
+    src_atlas = np.array([[float(row['Csrc00']), float(row['Csrc01'])],[float(row['Csrc10']), float(row['Csrc11'])]])
+    max_cov_atlas = max(max_cov_atlas, rel(src, src_atlas))
+    max_cov_replay = max(max_cov_replay, rel(D @ src @ D.T, obs))
+    min_src_eval = min(min_src_eval, float(np.linalg.eigvalsh(src)[0]))
+
+Dsing = np.array([[1.0,0.0],[0.0,0.0]])
+rank_singular_example = int(np.linalg.matrix_rank(Dsing @ np.eye(2) @ Dsing.T))
+
+print(json.dumps({
+    'profiles': len(profiles),
+    'unique_endpoints': len(endpoint_set),
+    'cells': len(cells),
+    'sensitivity_cells': len(sens),
+    'source_rows': len(source),
+    'max_PCHIP_cell_D_relative': max_pchip,
+    'max_CubicSpline_cell_D_relative': max_cs,
+    'max_x1_official_D_relative': max_x1,
+    'max_F01_anisotropy_abs': f01_aniso,
+    'max_F01_rotation_abs': f01_rot,
+    'minimum_D_singular_value': min_sigma,
+    'max_sensitivity_matrix_relative_vs_atlas': max_sens_entry,
+    'normalized_sigma_ratio_min': min_ratio,
+    'normalized_sigma_ratio_max': max_ratio,
+    'normalized_condition_min': min_cond,
+    'normalized_condition_max': max_cond,
+    'raw_sigma_ratio_min': min_raw_ratio,
+    'raw_condition_max': max_raw_cond,
+    'min_sigma_ratio_eps05_or_eps20_only': min(recomp_eps_only),
+    'min_2channel_sigma_ratio': min_2ch_ratio,
+    'max_2channel_rank': max_2ch_rank,
+    'max_covariance_source_relative_vs_atlas': max_cov_atlas,
+    'max_covariance_replay_relative': max_cov_replay,
+    'min_constructed_source_eigenvalue': min_src_eval,
+    'singular_example_output_rank': rank_singular_example,
+}, indent=2, sort_keys=True))
+PY" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 665ms:
+{
+  "cells": 315,
+  "max_2channel_rank": 2,
+  "max_CubicSpline_cell_D_relative": 1.0140650752554801e-10,
+  "max_F01_anisotropy_abs": 0.0,
+  "max_F01_rotation_abs": 0.0,
+  "max_PCHIP_cell_D_relative": 1.925929944387236e-34,
+  "max_covariance_replay_relative": 2.830524433501838e-16,
+  "max_covariance_source_relative_vs_atlas": 0.0,
+  "max_sensitivity_matrix_relative_vs_atlas": 0.0,
+  "max_x1_official_D_relative": 3.744434215769758e-16,
+  "min_2channel_sigma_ratio": 0.02986970486110666,
+  "min_constructed_source_eigenvalue": 1.561592189528903,
+  "min_sigma_ratio_eps05_or_eps20_only": 7.68915188345984e-05,
+  "minimum_D_singular_value": 0.04961347467704763,
+  "normalized_condition_max": 2156.0776623703177,
+  "normalized_condition_min": 66.82370085373658,
+  "normalized_sigma_ratio_max": 0.014964750338937313,
+  "normalized_sigma_ratio_min": 0.0004638051854313236,
+  "profiles": 21,
+  "raw_condition_max": 32554.628566659303,
+  "raw_sigma_ratio_min": 3.071759820427336e-05,
+  "sensitivity_cells": 15,
+  "singular_example_output_rank": 1,
+  "source_rows": 945,
+  "unique_endpoints": 15
+}
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+import csv, json
+from pathlib import Path
+from collections import Counter, defaultdict
+root=Path('/tmp/udt_g69_review_IOWOt6')
+g69=root/'udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11'
+with (g69/'CELL_ATLAS.tsv').open(newline='',encoding='utf-8') as f:
+    rows=list(csv.DictReader(f, delimiter='\\t'))
+count_by_profile=Counter(r['profile_id'] for r in rows)
+count_by_shape=Counter((r['family'], r['shape']) for r in rows)
+count_by_endpoint=Counter(r['endpoint_x'] for r in rows)
+missing=[k for k,v in count_by_profile.items() if v"'!=15]
+print(json.dumps({
+  '"'profiles_with_non15_cells': missing,
+  'count_by_family_shape': {str(k):v for k,v in sorted(count_by_shape.items())},
+  'count_by_endpoint': {k:v for k,v in sorted(count_by_endpoint.items(), key=lambda kv: float(kv[0]))}
+}, indent=2, sort_keys=True))
+PY" in /tmp/udt_g69_review_IOWOt6
+ succeeded in 0ms:
+{
+  "count_by_endpoint": {
+    "0.3": 21,
+    "0.35": 21,
+    "0.4": 21,
+    "0.45": 21,
+    "0.5": 21,
+    "0.55": 21,
+    "0.6": 21,
+    "0.65": 21,
+    "0.7": 21,
+    "0.75": 21,
+    "0.8": 21,
+    "0.85": 21,
+    "0.9": 21,
+    "0.95": 21,
+    "1.0": 21
+  },
+  "count_by_family_shape": {
+    "('F01', 'ZERO')": 45,
+    "('F02', 'PERSISTENT')": 90,
+    "('F02', 'SIGN_CHANGING')": 90,
+    "('F02', 'TAPERED')": 90
+  },
+  "profiles_with_non15_cells": []
+}
+
+Manifest verified and independent algebra/numerics reproduced from the sealed intake. Preparing the bounded landing and typed scope adjudication.
+  ✓ Verify every REVIEW_MANIFEST.tsv hash before using any source content
+  ✓ Inspect the dispatch-listed algebra, atlases, and policy documents
+  ✓ Independently recompute rank, conditioning, and covariance claims
+  → Assess scope, ownership conditions, and produce the required landing
+codex
+VERIFIED_AS_BOUNDED
+
+**DERIVED**
+- Saved-state reconstruction is type-correct on the sealed intake: `D_AB(x) = E_A^mu(x) g_mu_nu(x) J_B^nu(x)` from the interpolated saved state, with no new solve. My independent replay from `FINITE_PATH_SAMPLES.npz` reproduces the atlas `D` values to `1.9259e-34` relative with `PCHIP`, and the official `x=1` G68 endpoints to `3.7444e-16`.
+- The source-covariance theorem is exact for invertible `D`:
+```text
+C_obs = D C_src D^T,
+C_src = D^-1 C_obs D^-T,
+D C_src D^T = C_obs,
+v^T C_src v = (D^-T v)^T C_obs (D^-T v) > 0
+```
+  so positive definiteness is preserved when `C_obs` is positive definite.
+- Singular-map qualification is also exact:
+```text
+rank(D C_src D^T) <= rank(D)
+```
+  so if `rank(D) < 2`, a generic positive-definite `2 x 2` `C_obs` cannot be represented. In this intake that caveat is inactive because every recorded map is invertible.
+- Type adjudication: this theorem addresses only the declared local `2 x 2` screen-covariance transfer. It does not by itself address full TT/TE/EE/BB spectra, source populations, or a physical CMB prediction law.
+
+**OBSERVED**
+- `REVIEW_MANIFEST.tsv` verified cleanly before source use: every listed hash matched.
+- Census verified: `21` profiles, `15` endpoints, `315` cells, `15` sensitivity cells, `945` covariance reconstructions, with no omitted or duplicated profile-endpoint cells.
+- Interpolation check is legitimate but limited: `PCHIP` versus `CubicSpline` gives `1.0141e-10` maximum relative `D` disagreement across all `315` cells. That is an interpolation-family robustness check on the same frozen paths, not independent path integration. The package distinguishes this honestly in [PRECALCULATION_CLARIFICATION.md](/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/PRECALCULATION_CLARIFICATION.md).
+- F01 sanity gates pass exactly: max F01 anisotropy `0.0`, max F01 polar rotation `0.0`.
+- Rank claim survives recomputation from the atlas and from fresh replay. Column-normalized `sigma_min/sigma_max` spans `4.6381e-4` to `1.4965e-2`; normalized condition numbers span `66.8237` to `2156.0777`; all `15/15` cells are `FULL_RANK_OBSERVED`.
+- The rank result is not threshold-fragile under the registered challenge points. Without column normalization, the worst ratio is still `3.0718e-5 > 1e-6`. Using the `epsilon=1/20` or `epsilon=1/5` endpoint/lapse columns separately, the worst normalized ratio is still `7.6892e-5 > 1e-6`. So midpoint/averaging and normalization do not create the rank observation.
+- The azimuthal-carry channel is load-bearing. If it is removed, the readout becomes `2 x 3`, so rank is at most `2` by dimension; no one- or two-channel scalar reduction can identify all three controls.
+- Covariance replay also survives independent recomputation: max backward relative error `2.8305e-16`, minimum constructed source eigenvalue `1.56159`, minimum map singular value `0.0496135`.
+
+**CHOSE_CONTROL**
+- Registered controls are explicit and honored: endpoint grid `x in {0.30,...,1.00}`, control tile `(x,a,epsilon)`, readout `y = (log(det(D)/s_F01^2), log(sigma_max/sigma_min), psi)`, column normalization, and rank thresholds `1e-6` / `1e-8`.
+- Numerical adjudication of those controls: accepted. The full-rank result is comfortably above the preregistered threshold, so this is not a knife-edge classification artifact.
+- Exact correction: none.
+- One wording guard should remain strict: “independent verification” here means independent reconstruction/algebra on shared saved paths, not independent geodesic or Jacobi integration.
+
+**CONDITIONAL**
+- A few future coefficients may be fitted only if the exact compensation freedom is first broken by typed ownership. At least one of these must be supplied independently: a restricted source/state covariance family, an independently owned endpoint/profile rule, or additional independent observables that are not absorbed by the same unrestricted source freedom.
+- The hold-out rule is necessary: at least one independent observable/channel/regime must remain unused during fitting.
+- Without such ownership restrictions, fitting even a small geometric coefficient set to a local covariance is non-identifying, because `C_src = D^-1 C_obs D^-T` absorbs the map exactly.
+- The P1 SNe anchor remains inactive and conditional only, consistent with [OBSERVATIONAL_ANCHOR_POLICY.md](/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/OBSERVATIONAL_ANCHOR_POLICY.md).
+
+**OPEN**
+- Still open by type and scope: physical CMB profile, physical endpoint or last-scattering surface, source/state covariance, TT/TE/EE/BB spectra, polarization transport law, source population, action, bootstrap, and signalling claims.
+- Scope adjudication: the package does not silently prove global CMB non-identifiability. It proves a bounded local geometric separation result plus an exact non-identifiability result for unrestricted source covariance at the declared `2 x 2` screen-covariance level, consistent with [EXACT_DERIVATION.md](/tmp/udt_g69_review_IOWOt6/udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md) and [OBSERVABLE_CHANNEL_REQUIREMENTS.tsv](/tmp/udt_g69_review_IOWOt6/udt_cmb_complete_observation_query_map_2026-08-11/OBSERVABLE_CHANNEL_REQUIREMENTS.tsv).
+- Lay adjudication: inside this frozen test map, the geometry really does change in three distinguishable directions. But if the original source pattern is left completely free, that source can be re-chosen to cancel any invertible geometric map at the local covariance level. So the geometry contains information, but the sky covariance alone does not yet own enough information to pick the real profile or endpoint.
+tokens used
+78,519
+
+Script done on 2026-08-11 16:21:38-04:00 [COMMAND_EXIT_CODE="0"]
