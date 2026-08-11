@@ -1,0 +1,19 @@
+{
+  "catches": {
+    "G74_repair_claim": true,
+    "center_odd_profile": true,
+    "duplicate_profile": true,
+    "duplicate_shape": true,
+    "missing_profile": true,
+    "missing_shape": true,
+    "physical_selection": true,
+    "scale_selected": true,
+    "signature_failure": true,
+    "source_activated": true
+  },
+  "passed": 10,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g75-catches-v1",
+  "status": "PASS",
+  "total": 10
+}

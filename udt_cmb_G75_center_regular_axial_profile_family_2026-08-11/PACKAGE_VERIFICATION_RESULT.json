@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "588_nonzero_controls": true,
+    "all_center_smooth": true,
+    "all_signature_regular": true,
+    "all_unselected": true,
+    "analogs_present": true,
+    "behavior_counts": true,
+    "independent_pass": true,
+    "no_G74_repair": true,
+    "physical_owner_open": true,
+    "production_pass": true,
+    "profile_count": true,
+    "scale_symbolic": true,
+    "shape_count": true,
+    "three_zero_controls": true,
+    "unique_profiles": true,
+    "unique_shapes": true
+  },
+  "passed": 16,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g75-package-verification-v1",
+  "status": "PASS",
+  "total": 16
+}

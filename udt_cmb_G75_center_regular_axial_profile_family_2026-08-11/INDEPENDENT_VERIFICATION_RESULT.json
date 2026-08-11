@@ -1,0 +1,26 @@
+{
+  "behavior_counts": {
+    "CENTER_OFF_NO_INTERIOR_ROOT": 6,
+    "ENDPOINT_TAPER_NO_INTERIOR_ROOT": 5,
+    "INTERIOR_SIGN_CHANGE": 9,
+    "PERSISTENT_SIGN_NO_INTERIOR_ROOT": 28,
+    "ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT": 1
+  },
+  "checks": {
+    "all_center_smooth": true,
+    "all_signature_regular": true,
+    "center_order_replay": true,
+    "endpoint_order_replay": true,
+    "exact_shape_universe": true,
+    "no_physical_selection": true,
+    "normalization_exact": true,
+    "profile_count_591": true,
+    "root_multiplicity_sturm_replay": true,
+    "shape_count_49": true
+  },
+  "passed": 10,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g75-independent-v1",
+  "status": "PASS",
+  "total": 10
+}

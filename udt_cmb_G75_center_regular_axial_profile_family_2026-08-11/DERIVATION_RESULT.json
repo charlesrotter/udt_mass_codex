@@ -1,0 +1,64 @@
+{
+  "amplitude_count": 4,
+  "behavior_counts": {
+    "CENTER_OFF_NO_INTERIOR_ROOT": 6,
+    "ENDPOINT_TAPER_NO_INTERIOR_ROOT": 5,
+    "INTERIOR_SIGN_CHANGE": 9,
+    "PERSISTENT_SIGN_NO_INTERIOR_ROOT": 28,
+    "ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT": 1
+  },
+  "center_onset_counts": {
+    "0": 41,
+    "1": 7,
+    "2": 1
+  },
+  "endpoint_zero_order_counts": {
+    "0": 43,
+    "1": 5,
+    "2": 1
+  },
+  "exact_checks": {
+    "all_center_C_infinity": true,
+    "all_lorentz_regular": true,
+    "all_normalized": true,
+    "all_shapes_primitive": true,
+    "all_sign_quotiented": true,
+    "legacy_analogs_present_as_new_even_controls": true,
+    "no_physical_selection": true,
+    "profile_count_591": true,
+    "reflection_topology_neutral": true,
+    "shape_count_49": true
+  },
+  "interior_odd_root_counts": {
+    "0": 40,
+    "1": 9
+  },
+  "landing": "CENTER_REGULAR_FAMILY_HAS_MULTIPLE_EXACT_SHAPE_STRATA",
+  "lapse_count": 3,
+  "metric_signature_proof": "spatial eigenvalues (1/A,1,1) positive; timelike Schur complement -A-|w|^2 negative",
+  "new_even_analog_shape_ids": {
+    "endpoint_taper_even": "S12",
+    "persistent_even": "S21",
+    "sign_change_even": "S11"
+  },
+  "original_G74_blocked_profiles_repaired": false,
+  "physical_owner": "OPEN_NO_OWNER",
+  "profile_count": 591,
+  "protected_draft_read": false,
+  "scale_status": "R_POSITIVE_SYMBOLIC_NOT_SELECTED",
+  "schema": "udt-cmb-g75-center-regular-profile-family-v1",
+  "shape_count": 49,
+  "source_manifest_rows": 5,
+  "status": "PASS",
+  "stratum_counts": {
+    "C0_E0_O0_T0": 28,
+    "C0_E0_O1_T0": 8,
+    "C0_E1_O0_T0": 4,
+    "C0_E2_O0_T0": 1,
+    "C1_E0_O0_T0": 5,
+    "C1_E0_O1_T0": 1,
+    "C1_E1_O0_T0": 1,
+    "C2_E0_O0_T0": 1
+  },
+  "zero_mixing_controls": 3
+}
