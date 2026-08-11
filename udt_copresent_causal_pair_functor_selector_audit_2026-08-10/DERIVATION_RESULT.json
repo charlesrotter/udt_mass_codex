@@ -1,0 +1,59 @@
+{
+  "check_count": 33,
+  "checks": {
+    "causal_component_composition": true,
+    "causal_component_inverse": true,
+    "causal_equations_force_null_columns": true,
+    "ceff_is_inverse_centered_width": true,
+    "common_family_three_observer_telescope": true,
+    "common_scale_leaves_cone_center": true,
+    "common_scale_leaves_reciprocal_width": true,
+    "cone_center_is_minus_beta": true,
+    "cone_half_width_is_L_over_T": true,
+    "dbeta_uses_live_shift_derivatives": true,
+    "diagonal_causal_component": true,
+    "dphi_uses_all_pair_metric_derivatives": true,
+    "exchanged_null_component": true,
+    "general_null_jacobian_pullback": true,
+    "independent_family_offset_survives": true,
+    "negative_depth_ceff_limit": true,
+    "nonlinear_causal_family_fixes_anchor": true,
+    "nonlinear_causal_family_nontrivial": true,
+    "nonlinear_causal_family_positive_for_eps_positive": true,
+    "one_way_slopes_retain_shift": true,
+    "ordinary_anchor_ceff": true,
+    "orientation_balanced_inverse_slope": true,
+    "pair_metric_determinant": true,
+    "positive_depth_ceff_limit": true,
+    "profile_deformation_vanishes_at_endpoints": true,
+    "profile_family_common_center": true,
+    "profile_family_is_nontrivial": true,
+    "reciprocal_width_phi_join": true,
+    "shifted_null_root_minus": true,
+    "shifted_null_root_plus": true,
+    "time_live_angular_graph_determinant": true,
+    "time_live_angular_graph_metric": true,
+    "time_live_graph_phi_nonconstant": true
+  },
+  "landing": "PAIR_CONE_DERIVES_EXACT_SHIFT_NEUTRAL_PHI_CEFF_JOIN_ON_A_SUPPLIED_CALIBRATED_FAMILY__INDUCED_LOCAL_CAUSALITY_IS_AUTOMATIC__SMOOTH_LOCAL_TIME_ORIENTED_CAUSAL_ISOMORPHISMS_RETAIN_INFINITE_NULL_REPARAMETRIZATION_FREEDOM__RECIPROCITY_COMPOSITION_CE_ANCHOR_AND_BOTH_ASYMPTOTES_DO_NOT_SELECT_THE_LOCAL_TRANSITION_OR_CALIBRATION_CLASS_ON_A_SUPPLIED_FAMILY__AMBIENT_PHYSICAL_FAMILY_GLOBAL_CAUSAL_FAITHFULNESS_AND_ON_SHELL_OWNER_OPEN",
+  "question_type": "METRIC_LED_CAUSAL_SOLUTION_SPACE_DERIVATION",
+  "schema_version": 1,
+  "scope": {
+    "causal_transition_class": "smooth_local_1plus1_time_oriented_bidirectional_causal_isomorphisms",
+    "co_presence": "whole_solution_semantics_only",
+    "not_derived": [
+      "physical_pair_family",
+      "global_causal_faithfulness",
+      "material_signal_speed",
+      "native_time_evolution"
+    ],
+    "scope_correction": "local_transition_and_calibration_nonselection_only; no ambiently_distinct_physical_pair_immersion_multiplicity theorem",
+    "time_dependence": "retained_algebraically_not_on_shell"
+  },
+  "witnesses": {
+    "dbeta_general": "(-dh00*h01 + dh01*h00)/h00**2",
+    "dphi_general": "(-2*dh00*(h00*h11 - h01**2) + h00*(dh00*h11 - 2*dh01*h01 + dh11*h00))/(4*h00*(h00*h11 - h01**2))",
+    "independent_family_offset": "o_ab - o_ac + o_bc",
+    "time_live_graph_phi_argument": "-(q**2*s**2 - q**2*t**2 - 1)/((q*s - 1)**2*(q*s + 1)**2)"
+  }
+}

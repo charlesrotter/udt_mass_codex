@@ -1,0 +1,15 @@
+class_id	object	exact_result	selection_power	status
+K01	complete shifted pair cone	center=-beta; half-width=L/T=exp(2phi_pair)	fixes terminal reciprocal readout after calibrated family supplied	DERIVED_CONDITIONAL
+K02	balanced pair readout	c_eff_pair/c_E=T/L=exp(-2phi_pair)	shift-neutral but pair-family-conditional	DERIVED_CONDITIONAL
+K03	complete coframe time/angular/mixing	enters h and dh before cone extraction	retained but no on-shell evolution selected	DERIVED_STRUCTURAL
+K04	induced local causal type	h(v,v)=g(F_*v,F_*v)	automatic after immersion; does not choose F	DERIVED_NONSELECTION
+K05	local identity-component bidirectional causal isomorphism	u'=f(u), v'=g(v), f'>0, g'>0	infinite-dimensional transition/calibration freedom; may include gauge	DERIVED_NONUNIQUE_SCOPED
+K06	null-branch-exchange component	u'=f(v), v'=g(u)	distinct orientation component; not founded clock/ruler exchange	DERIVED_TYPE_SEPARATION
+K07	three-observer causal composition	functional composition of null reparameterizations	exact closure but no member selection	DERIVED_NONSELECTION
+K08	c_E anchor at one observer	value and first derivative normalization	leaves infinitely many nonlinear f and g	DERIVED_NONSELECTION
+K09	common conformal scale	leaves cone and phi_pair unchanged	causality cannot determine kappa	DERIVED_NONSELECTION
+K10	global chronology/causality/hyperbolicity	filters supplied global families	cannot follow from local cone algebra and is not unique	OPEN_GLOBAL_FILTER
+K11	causal faithfulness/order reflection	requires more than induced local causality; causal convexity is sufficient	nontrivial candidate global admissibility condition	OPEN_OWNER
+K12	three reciprocal limits	phi=0 gives c_E; positive/negative infinities give zero/infinite pair readout	necessary asymptotic behavior; profiles remain infinite	DERIVED_CONDITIONAL_NONSELECTION
+K13	material propagation	requires principal symbol coupling and admissible data	not supplied by pair cone	OPEN
+K14	physical ambient pair family	must join complete geometry query calibration branch path and global causality	local witnesses neither derive nor disprove a unique physical construction	OPEN

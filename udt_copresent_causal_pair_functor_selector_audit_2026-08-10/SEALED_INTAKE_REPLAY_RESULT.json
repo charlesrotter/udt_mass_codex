@@ -1,0 +1,9 @@
+{
+  "exact_source_files": 14,
+  "expected_package_files_including_manifest": 33,
+  "expected_total_files": 47,
+  "layout": "sealed_sources",
+  "prohibited_trees_present": false,
+  "schema_version": 1,
+  "status": "PASS"
+}

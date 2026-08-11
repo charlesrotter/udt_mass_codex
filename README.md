@@ -6,7 +6,12 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current checkpoint is
-`udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`: canonical
+`udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`: on a supplied
+regular calibrated pair family, the complete shifted cone exactly joins `beta`, `phi_pair`, and
+the conditional `c_eff^(pair)` readout. Local bidirectional causal isomorphisms retain infinite
+transition/calibration freedom, but this is not proof of multiple physically distinct ambient pair
+families. The physical ambient pair construction and global causal selector remain open. Its parent
+is `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`: canonical
 metric/coframe carries are isometric and generate zero reciprocal magnitude, while any supplied
 regular coherent calibrated pair family induces the exact complete-pair `d phi_pair` law and
 automatic scalar telescoping. Physical family/query/transition, branch/path, global completion,

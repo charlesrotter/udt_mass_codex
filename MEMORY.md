@@ -4,12 +4,16 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; conditional complete-coframe transport verified)
+## TOP — CURRENT POINTER (2026-08-10, CMB peak optimization; co-present pair-cone join verified with corrections)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
-`udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`: canonical
+`udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`: the supplied pair
+cone exactly yields `beta`, `phi_pair`, and conditional `c_eff`, while local bidirectional causal
+isomorphisms leave transition/calibration freedom. This is not an ambient physical-family
+multiplicity theorem. The physical ambient pair construction and global causal selector are open.
+Its parent is `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`: canonical
 metric/coframe transports are isometric zero in reciprocal magnitude; a supplied coherent regular
 calibrated pair family induces exact full-coframe `d phi_pair` and scalar telescoping. External
 review returned `CONDITIONAL_PAIR_FAMILY_RESULT_ONLY`. The physical family/query/transition,

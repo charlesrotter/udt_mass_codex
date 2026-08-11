@@ -6,9 +6,24 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; COMPLETE-COFRAME CALIBRATION TRANSPORT VERIFIED CONDITIONALLY; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-10 — ACTIVE ARC = CMB PEAK OPTIMIZATION; CO-PRESENT PAIR-CONE JOIN VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — COMPLETE-COFRAME CALIBRATION TRANSPORT FROM SCRATCH COMPLETE,
+**LATEST GATE — CO-PRESENT CAUSAL PAIR-FUNCTOR SELECTOR AUDIT COMPLETE,
+`VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
+`udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md` first. On every
+supplied regular calibrated pair family, the full shifted cone exactly has center `-beta`, centered
+half-width `L/T=exp(2 phi_pair)`, and conditional terminal readout
+`c_eff^(pair)/c_E=T/L=exp(-2 phi_pair)`. The full local smooth time-oriented bidirectional causal-
+isomorphism class retains arbitrary monotone reparameterizations of its two null coordinates after
+composition, one-point `c_E` calibration, and both reciprocal asymptotes. External review required
+the decisive scope correction: this proves local transition/calibration nonselection, not several
+physically distinct ambient pair families. Co-presence does not imply signalling. The physical
+ambient pair construction, gauge quotient, global causal faithfulness, branch/path transition, and
+on-shell owner remain OPEN. NEXT: construct and compare ambiently distinct pair immersions from the
+complete metric/query, quotient calibration gauge, and test global order reflection. Do not launch
+another local scalar search or call local relabeling a physical-family multiplicity theorem.
+
+**PARENT GATE — COMPLETE-COFRAME CALIBRATION TRANSPORT FROM SCRATCH COMPLETE,
 `VERIFIED-WITH-CAVEATS`; external verdict `CONDITIONAL_PAIR_FAMILY_RESULT_ONLY`.** Read
 `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md` first. Smooth
 local linear positive calibration-line transports form an affine connection family; composition

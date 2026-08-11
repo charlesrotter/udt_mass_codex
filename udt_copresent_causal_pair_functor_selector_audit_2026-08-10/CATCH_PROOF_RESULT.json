@@ -1,0 +1,31 @@
+{
+  "catch_count": 22,
+  "catches": {
+    "F01_beta_not_zeroed": true,
+    "F02_one_way_not_invariant": true,
+    "F03_full_graph_mixing_live": true,
+    "F04_pullback_not_selector": true,
+    "F05_nonlinear_maps_retained": true,
+    "F06_composition_not_selection": true,
+    "F07_copresence_not_access": true,
+    "F08_no_material_signal_claim": true,
+    "F09_xmax_not_wall": true,
+    "F10_regimes_not_physical_labels": true,
+    "F11_time_live_not_on_shell": true,
+    "F12_no_GR_equations": true,
+    "F13_R17_not_selected": true,
+    "F14_branch_path_retained": true,
+    "F15_local_not_global": true,
+    "R01_no_physical_family_nonselection_overclaim": true,
+    "R02_local_transition_scope_present": true,
+    "R03_no_ambient_multiplicity_theorem": true,
+    "R04_bidirectional_class_explicit": true,
+    "R05_branch_speed_notation_repaired": true,
+    "R06_sampled_verifier_not_overgraded": true,
+    "source_scope": true
+  },
+  "caught_count": 22,
+  "failed": [],
+  "implementation": "mixed_numeric_and_semantic_guards_not_independent_theorem_proof",
+  "schema_version": 1
+}

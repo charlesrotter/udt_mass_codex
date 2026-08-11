@@ -18,7 +18,16 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-10) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = COMPLETE-COFRAME CALIBRATION TRANSPORT FROM SCRATCH COMPLETE,
+**LATEST GATE = CO-PRESENT CAUSAL PAIR-FUNCTOR SELECTOR AUDIT COMPLETE,
+`VERIFIED-WITH-CAVEATS`; external verdict `VERIFIED_WITH_CORRECTIONS`.** Read
+`udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`. On a supplied regular
+calibrated pair family, the shifted cone exactly gives center `-beta`, centered half-width
+`exp(2 phi_pair)`, and conditional `c_eff^(pair)/c_E=exp(-2 phi_pair)`. Local bidirectional causal
+isomorphisms retain infinite null-coordinate transition/calibration freedom. This does not prove
+multiple physically distinct ambient pair families. Co-presence is not signalling. The next gate
+is the ambient pair-immersion construction/gauge/global-order audit in that package's `NEXT_STEP.md`.
+
+**PARENT GATE = COMPLETE-COFRAME CALIBRATION TRANSPORT FROM SCRATCH COMPLETE,
 `VERIFIED-WITH-CAVEATS`; external verdict `CONDITIONAL_PAIR_FAMILY_RESULT_ONLY`.** Start with
 `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`. Canonical
 metric and complete-coframe parallel transports carry geometry isometrically and create no

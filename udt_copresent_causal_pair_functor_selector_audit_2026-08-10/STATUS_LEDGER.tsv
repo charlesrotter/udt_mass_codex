@@ -1,0 +1,11 @@
+claim_id	claim	status	scope	open_boundary
+S01	The complete shifted pair cone has center -beta and half-width exp(2phi_pair)	DERIVED_CONDITIONAL	supplied regular calibrated pair family	physical family owner
+S02	The inverse centered cone half-width equals conditional c_eff_pair/c_E	DERIVED_CONDITIONAL	same family and calibration	universal physical c_eff and signalling
+S03	Time angular shift and mixing remain active upstream of cone readout	DERIVED_STRUCTURAL	arbitrary smooth pair Jacobian	actual on-shell evolution
+S04	An induced pair immersion preserves tangent causal type automatically	DERIVED	regular immersion	global order reflection and family selection
+S05	Smooth local time-oriented bidirectional causal isomorphisms retain arbitrary monotone null reparameterizations	DERIVED_NONUNIQUENESS_SCOPED	declared 1+1 local causal-isomorphism class; gauge equivalence not removed	one-way maps plus global singular and stratified maps
+S06	Reciprocity composition c_E anchoring and both asymptotes do not remove local transition/calibration freedom on a supplied family	DERIVED_NONSELECTION_SCOPED	declared gates	no ambient physical-family multiplicity theorem
+S07	Founding clock/ruler exchange is not the same as spatial or null-branch exchange	DERIVED_TYPE_SEPARATION	complete pair causal algebra	exact complete physical realization
+S08	Global causal conditions are genuine admissibility filters but not derived selectors	OPEN_FILTER	global completed pair families	branchwise causal-faithfulness audit
+S09	Co-presence does not imply causal access or material signalling	WORKING_PLUS_TYPE_GUARD	whole-solution semantics	native material response law
+S10	The physical causal pair family transition and on-shell owner remain open	OPEN	complete UDT	global causal descent or new premise

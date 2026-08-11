@@ -1,0 +1,20 @@
+**Findings**
+- High: The package overstates what is proved about nonselection of the `physical pair family`. The local cone algebra and the classification of smooth cone-preserving maps are solid, but the explicit witnesses used for residual freedom are mostly reparameterization/calibration/profile freedoms on an already supplied pair surface, not an explicit multiplicity proof for ambiently distinct physical immersions; see [EXACT_DERIVATION.md](/tmp/udt_copresent_causal_review_UhaZ6p/udt_copresent_causal_pair_functor_selector_audit_2026-08-10/EXACT_DERIVATION.md:23), especially lines 23-27, 147-164, 220-229, 247-248, and 294-303.
+- High: The claimed `independent` verification is not theorem-strength independent confirmation. It mostly checks one rational sample metric, one sample diagonal/anti-diagonal Jacobian, one sample graph witness, and manifest hashes, so it is a smoke test, not an independent proof of the universal identities or the full local classification; see [verify_causal_pair_selector_independent.py](/tmp/udt_copresent_causal_review_UhaZ6p/udt_copresent_causal_pair_functor_selector_audit_2026-08-10/verify_causal_pair_selector_independent.py:35), especially lines 35-64, 75-98, and 100-116.
+- Medium: The mandated “exact 14-source intake” audit is not independently closable from this sealed folder alone. [SOURCE_MANIFEST.tsv](/tmp/udt_copresent_causal_review_UhaZ6p/udt_copresent_causal_pair_functor_selector_audit_2026-08-10/SOURCE_MANIFEST.tsv:2) only lists external source paths, and the verification scripts read outside the intake via filesystem or `git show`; see [verify_preregistration.py](/tmp/udt_copresent_causal_review_UhaZ6p/udt_copresent_causal_pair_functor_selector_audit_2026-08-10/verify_preregistration.py:33) and [verify_causal_pair_selector_independent.py](/tmp/udt_copresent_causal_review_UhaZ6p/udt_copresent_causal_pair_functor_selector_audit_2026-08-10/verify_causal_pair_selector_independent.py:104).
+- Low: There is a notation slip in the cone section: `w_+` and `w_-` are both defined as `dy^1/dy^0`; they need branch-specific definitions such as `w_\pm = 1/r_\pm`; see [EXACT_DERIVATION.md](/tmp/udt_copresent_causal_review_UhaZ6p/udt_copresent_causal_pair_functor_selector_audit_2026-08-10/EXACT_DERIVATION.md:77).
+
+**Landing**
+`VERIFIED_WITH_CORRECTIONS`
+
+**Exact Corrections**
+- Replace the strong landing claim “`...DO_NOT_SELECT_THE_PHYSICAL_PAIR_FAMILY...`” with “`...DO_NOT_SELECT_THE_LOCAL_CAUSAL_TRANSITION_OR_CALIBRATION_CLASS_ON_A_SUPPLIED_FAMILY...`” unless a separate premise identifies those residual freedoms with genuinely distinct physical pair immersions.
+- Relabel the “independent reconstruction” as a `sampled independent smoke test`, not a full independent proof.
+- State explicitly that the 14-source premise search was not independently re-audited from within this sealed intake; only the manifest, ledgers, scripts, and recorded outputs inside the folder were reviewable.
+- Fix the branch notation in equation (3) to define `w_+` and `w_-` separately.
+
+**Strongest Justified Theorem**
+On any supplied regular calibrated pair metric `h=-T^2(dy^0+beta dy^1)^2+L^2(dy^1)^2`, the null roots are exactly `r_±=-beta±L/T`, so the cone center is `-beta`, the centered half-width is `L/T=e^{2 phi_pair}`, and `c_eff^(pair)/c_E=T/L=e^{-2 phi_pair}`. Within the declared local smooth time-orientation-preserving cone-preserving diffeomorphism class, the maps are exactly `u'=f(u), v'=g(v)` with `f',g'>0`, plus the null-branch-exchange component.
+
+**Smallest Remaining Joint**
+An owned premise that turns local causal/conformal freedom into a unique physical construction rule: specifically, a globally defined selector tying the supplied local pair metric to a unique ambient pair immersion/family, rather than leaving residual calibration/profile/transition freedom as possible gauge. I did not rerun the registered scripts because, inside this sealed read-only intake, they either write back into the intake or inspect external repo objects.

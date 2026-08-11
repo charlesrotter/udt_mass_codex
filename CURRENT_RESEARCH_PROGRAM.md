@@ -7,7 +7,16 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G57 CHECKPOINT:**
+**CURRENT G58 CHECKPOINT:**
+`udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md` derives the exact
+shifted pair-cone join to `phi_pair` and conditional `c_eff` on a supplied calibrated family. It
+classifies all declared local time-oriented bidirectional causal isomorphisms and proves that the
+tested gates leave transition/calibration freedom. External review corrected this to avoid treating
+gauge/profile freedom as multiple physical ambient families. The next bounded question is the
+ambient pair-immersion construction, gauge quotient, and global causal-order reflection—not a new
+local scalar, signal law, or unowned evolution solve.
+
+**G57 PARENT CHECKPOINT:**
 `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md` derives the
 full preregistered smooth local linear positive-line transport class from scratch. Canonical metric
 and complete-coframe transports are isometric and create zero reciprocal magnitude. Once one

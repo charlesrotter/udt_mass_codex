@@ -9,7 +9,20 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G57 refinement
+## Current G58 refinement
+
+`udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md` controls the current
+causal pair gate. On a supplied regular calibrated pair family, the complete shifted cone exactly
+has center `-beta`, centered half-width `L/T=exp(2phi_pair)`, and conditional terminal readout
+`c_eff^(pair)/c_E=T/L=exp(-2phi_pair)`. The full local smooth time-oriented bidirectional causal-
+isomorphism class retains arbitrary monotone reparameterizations of both null coordinates after
+composition, one-point `c_E` calibration, and both asymptotes. External review returned
+`VERIFIED_WITH_CORRECTIONS`: those witnesses establish local transition/calibration nonselection,
+not multiple physically distinct ambient pair families. The physical ambient pair construction,
+gauge quotient, global causal faithfulness, branch/path transition, and on-shell owner remain OPEN.
+Do not turn co-presence into signalling or call the sampled Fraction verifier an independent proof.
+
+## G57 parent refinement
 
 `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md` controls the
 current transport gate. In the preregistered smooth local linear positive-line class, transports
