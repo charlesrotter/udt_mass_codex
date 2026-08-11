@@ -1,0 +1,16 @@
+gate	mutation_or_failure	required_disposition
+G01	profile row missing duplicated or changed	REJECT_PROFILE_UNIVERSE
+G02	query initial data differ between F01 and F02	REJECT_QUERY_MISMATCH
+G03	t-psi mixing or its derivatives omitted	REJECT_INCOMPLETE_METRIC
+G04	local Taylor map substituted for finite integration	REJECT_LOCAL_AS_FINITE
+G05	turning caustic singular or non-endpoint row discarded	REJECT_FILTERED_OUTCOME
+G06	null screen Gram or screen-ray residual exceeds registered target	NUMERICALLY_UNRESOLVED_ROW
+G07	Jacobi Wronskian or tidal symmetry exceeds registered target	NUMERICALLY_UNRESOLVED_ROW
+G08	refined or second-method endpoint disagreement exceeds target	NUMERICALLY_UNRESOLVED_ROW
+G09	geodesic-bundle check is absent or fails delta convergence	VERIFICATION_INCOMPLETE
+G10	F01 exact D=sI limit fails	REJECT_ROUND_CONTROL
+G11	h-sign coordinate reflection fails	REJECT_REFLECTION_CHECK
+G12	control endpoint called Xmax last scattering or physical	REJECT_SCOPE_PROMOTION
+G13	finite Jacobi map promoted to TT power or polarization without source state	REJECT_SOURCE_PROMOTION
+G14	one profile or metric family selected as physical	REJECT_CONTROL_SELECTION
+G15	protected untracked files read staged or changed	REJECT_REPOSITORY_SCOPE
