@@ -4,18 +4,21 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, CMB peak optimization; solved-geometry survivor atlas verified with corrections)
+## TOP — CURRENT POINTER (2026-08-11, CMB peak optimization; common-query reconstruction externally verified with caveats)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The controlling checkpoint is now
-`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`: the exact bounded
-`14`-witness solve retains endpoint reciprocal depth, causal propagators, full-coframe holonomy,
-and R17 normal holonomy together. All `56/56` independent comparisons pass; external review
-retained `MULTIPLE_GEOMETRIC_SURVIVOR_FAMILIES`. This is bounded geometric coexistence, not a
-physical selector, native dynamics, global completion, or stability. Next is the coupled-channel
-relation/independence audit on the saved paths, before any wider scan or bootstrap use. Its parent
-is `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`: finite regular
+`udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`: a complete typed query,
+not a universal preferred path, is the conditional home of the metric's endpoint, extrinsic,
+Jacobi-when-geodesic, and transport channels. The R17 leaf and time-live Fermi queries own different
+channel sets. External review returned `VERIFIED_WITH_CAVEATS`; the Q2 normal loop is now fully
+independently regenerated without polar projection, while Q2 Codazzi remains numerically
+unresolved under its frozen trend gate. This selects no physical query or dynamics. Next is to type
+the actual banked CMB observation query and map all its regular realizations and read channels. Its
+G63 parent is `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, which
+established `56/56` bounded channel coexistence. Its earlier parent is
+`udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`: finite regular
 observer networks assemble exactly in endpoint-atlas and path-labelled homes. Four-observer
 coherence is bookkeeping, not a new physical law; universal route independence remains unowned.
 Its parent is

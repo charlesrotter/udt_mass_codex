@@ -7,18 +7,24 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G63 CHECKPOINT:**
-`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md` solves the exact
-preregistered `14`-witness bounded geometry atlas rather than continuing the algebraic census.
-Endpoint reciprocal-depth, timelike/spacelike geodesic-deviation, full-coframe loop holonomy, and
-R17 normal holonomy all persist in their declared classes. Independent numerics reproduce all
-`56/56` comparisons, and the external reviewer independently rebuilt representative R17 and
-time-live witnesses. The post-review replay correction is additions-only and passes read-only in
-both source layouts. This is a coexistence result, not a physical relation selector, dynamical
-stability result, native evolution, or global completion. The next bounded question is whether the
-complete metric and founding ordered observer query derive a relation among the saved endpoint,
-propagator, complete-holonomy, and normal-holonomy channels. Do not select coefficients, activate
-bootstrap, or widen the scan before that invariant/independence contract is frozen.
+**CURRENT G64 CHECKPOINT:**
+`udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md` directly reconstructs
+two complete query realizations and closes the universal preferred-path request as a category error.
+The exact R17 leaf and time-live Fermi queries own different channel sets; on each supplied
+immersion, the pair metric, extrinsic geometry, geodesic variation when present, and surface
+transport are compatibility-linked without collapsing to one scalar. External review returned
+`VERIFIED_WITH_CAVEATS`. The independent raw normal-loop replay closes the projection/independence
+gap, while Q2 Codazzi remains numerically unresolved because its finest-step sequence fails the
+registered trend gate despite sub-`3.47e-7` residuals and `4.34e-11` agreement between formulations.
+The next bounded question is to type the actual already-banked CMB observation query, enumerate all
+regular realizations, and identify the channels its declared observable reads. No physical branch,
+coefficient, bootstrap rule, dynamics, or fit is selected.
+
+**G63 PARENT CHECKPOINT:**
+`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md` established bounded
+coexistence of endpoint, causal-propagator, full-coframe-holonomy, and R17 normal-holonomy channels
+across all `56/56` registered comparisons. G64 now gives those channels their common conditional
+home without selecting a physical query.
 
 **G62 PARENT CHECKPOINT:**
 `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md` verifies exact

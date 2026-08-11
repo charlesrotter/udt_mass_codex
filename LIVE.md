@@ -6,25 +6,37 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB PEAK OPTIMIZATION; SOLVED-GEOMETRY SURVIVOR ATLAS VERIFIED WITH CORRECTIONS; BAO lane BANKED + TABLED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB PEAK OPTIMIZATION; COMMON-QUERY PAIR-IMMERSION RECONSTRUCTION EXTERNALLY VERIFIED WITH CAVEATS; BAO lane BANKED + TABLED) ============
 
-**LATEST GATE — SOLVED-GEOMETRY RELATION-FAMILY SURVIVOR ATLAS COMPLETE,
+**LATEST GATE — COMMON-QUERY PAIR-IMMERSION RECONSTRUCTION COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`. The preferred-path search is closed as the wrong universal
+question: a complete typed observer query supplies a regular realization, and the metric evaluates
+that realization branchwise through several correctly typed channels. On the exact two-query
+universe, the R17 Hopf-cylinder query owns a pair metric, extrinsic geometry, normal connection,
+and surface holonomy but no Jacobi channel for its declared nongeodesic ruling; the time-live Fermi
+query owns those channels plus its same-immersion Jacobi field. The sealed cold review reproduced
+the load-bearing algebra and returned `VERIFIED_WITH_CAVEATS`. A fresh independent raw-connection
+replay closes the prior normal-loop evidence gap without polar projection: production agreement is
+`1.44e-8` relative and loop/curvature agreement is `1.99e-6`. Q2 Codazzi remains the sole numerical
+caveat: two formulations agree to `4.34e-11` and all residuals are below `3.47e-7`, but the finest
+step trend fails the preregistered certification rule. The bounded landing is
+`QUERY_CLASS_DEPENDENT_CHANNEL_ARCHITECTURE`; the common channels are compatibility-linked but the
+pair metric alone does not determine extrinsic data. This selects no physical query, path, branch,
+regime, action, source, bootstrap rule, or signalling law. NEXT: type the actual CMB observation
+query using only already banked CMB definitions, enumerate every regular realization branchwise,
+and identify which endpoint, Jacobi, ambient-transport, and normal-transport channels its declared
+observable actually reads. Do not resume a universal preferred-path hunt, choose coefficients,
+fit peaks, activate bootstrap, or repeat finite-difference Codazzi scale chasing.
+
+**PARENT GATE — SOLVED-GEOMETRY RELATION-FAMILY SURVIVOR ATLAS COMPLETE,
 `VERIFIED-WITH-CORRECTIONS`.** Read
 `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then
-`EXTERNAL_REVIEW_ADJUDICATION.md`. Across the exact preregistered `14`-witness universe, `14/14`
-endpoint pair constructions, `28/28` timelike/spacelike geodesic-deviation propagators, `28/28`
-declared Levi-Civita loops, and `18/18` R17 normal-holonomy evaluations remain regular in their
-registered classes. An independent finite-difference/RK4 implementation reproduces all `56/56`
-load-bearing comparisons; external review independently reconstructed representative R17 and
-time-live witnesses and retained `MULTIPLE_GEOMETRIC_SURVIVOR_FAMILIES`. Its two sealed-intake
-replay defects were repaired additions-only and now pass read-only in repository and sealed-source
-layouts. The result is bounded geometric coexistence: endpoint reciprocal depth and path-labelled
-full-coframe/normal holonomy survive as distinct channels. It is not a physical selector, native
-dynamics, global completion, or stability theorem; the time-live family remains local and
-off-shell. NEXT: on the saved solved paths, test whether the complete metric and founding ordered
-observer query derive any relation among endpoint depth, causal propagation, full-coframe
-holonomy, and R17 normal holonomy. Do not choose coefficients, fit observations, activate
-bootstrap, or widen the scan before the channel invariants and independence contract are frozen.
+`EXTERNAL_REVIEW_ADJUDICATION.md`. Across the exact preregistered `14`-witness universe, all `56/56`
+endpoint, propagator, full-holonomy, and normal-holonomy comparisons survive. It established the
+coexisting channels now assembled conditionally by the common-query result above; it did not select
+a physical relation or query.
 
 **PARENT GATE — COMPLETE OBSERVER-NETWORK ASSEMBLY FROM SCRATCH COMPLETE,
 `VERIFIED-WITH-CORRECTIONS`.** Read

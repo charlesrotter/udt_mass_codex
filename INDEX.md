@@ -10,7 +10,9 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
-   `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then
+   `udt_common_query_pair_immersion_reconstruction_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+   then `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then
    `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
    then `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then
    `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
@@ -45,13 +47,18 @@
    `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
    `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then
-   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The corrected scalar atlas
-   has three interleaved equatorial ladders and withdraws the old FD1 multiplet window. The latest
-   G63 solves a bounded `14`-witness geometry atlas and finds that endpoint reciprocal depth,
+   `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The current G64 checkpoint
+   closes the universal preferred-path request: complete typed queries, not bare endpoints, supply
+   regular realizations, and the metric evaluates their endpoint/extrinsic/Jacobi/transport
+   channels branchwise. The R17 leaf and time-live Fermi controls own different channel sets.
+   External review returned `VERIFIED_WITH_CAVEATS`; Q2 normal transport is independently
+   regenerated without polar projection, while Q2 Codazzi remains numerically unresolved under the
+   frozen trend gate. The next gate types the actual banked CMB observation query and maps all
+   regular realizations and read channels without fitting or bootstrap. Its G63 parent solves a
+   bounded `14`-witness geometry atlas and finds that endpoint reciprocal depth,
    causal propagators, full-coframe holonomy, and R17 normal holonomy persist together; all `56/56`
    independent comparisons and the repaired read-only evidence replay pass. This is coexistence of
-   typed channels, not a physical selector or stability theorem. The next gate is whether the
-   complete metric and ordered observer query derive a relation among those saved channels. Its
+   typed channels, not a physical selector or stability theorem. Its
    G62 parent verifies exact finite observer-network assembly in endpoint-atlas and path-labelled
    homes. The four-observer identity is bookkeeping, not new physics; universal flat descent is
    unowned. Its G61 parent proves the declared regular complete chart is locally open on every finite metric jet and
@@ -84,7 +91,8 @@
    within the continuous matched two-density character class. It does not construct the pair
    relation from bare observers or erase common scale, shift, angular transport, broader
    coboundaries, or phi+orchestra modulation. The family MAP derives the general stationary operator and maps all 2,800 registered
-   axis cells without selecting a screen. N01 now supplies the exact conditional C1 coupling
+   axis cells without selecting a screen. The corrected scalar atlas has three interleaved
+   equatorial ladders and withdraws the old FD1 multiplet window. N01 now supplies the exact conditional C1 coupling
    matrices and full radial matrix flux, but no spectrum or physical screen. N02 shows that no
    banked P1 row is a regular complete spherical center-to-wall anchor, without invalidating P1's
    relational/SNe role. N03 separates the pair law from a centered local lapse, retains a nonempty

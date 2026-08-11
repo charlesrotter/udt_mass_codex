@@ -18,19 +18,27 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST GATE = SOLVED-GEOMETRY RELATION-FAMILY SURVIVOR ATLAS COMPLETE,
+**LATEST GATE = COMMON-QUERY PAIR-IMMERSION RECONSTRUCTION COMPLETE,
+`VERIFIED-WITH-CAVEATS`.** Read
+`udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then
+`EXTERNAL_REVIEW_ADJUDICATION.md`. A universal preferred path is not the metric-owned object. A
+complete typed observer query supplies one or more regular realizations, which the metric evaluates
+branchwise through endpoint, extrinsic, Jacobi-when-geodesic, ambient-transport, and normal-
+transport channels. The exact R17 leaf query and time-live Fermi query own different channel sets
+for geometric reasons. The sealed cold review retained
+`QUERY_CLASS_DEPENDENT_CHANNEL_ARCHITECTURE`. The post-review raw normal-connection replay matches
+production by `1.44e-8` relative without polar projection. Q2 Codazzi remains
+`NUMERICALLY_UNRESOLVED`: its two independent formulations agree to `4.34e-11` and residuals stay
+below `3.47e-7`, but the registered finest-step trend is not certifying. The pair metric does not
+determine the extrinsic channels, and no physical query/path/branch or dynamics is selected. NEXT:
+write the actual CMB observation query from banked definitions, return every regular realization,
+and type which channels the declared observable reads. Do not restart the preferred-path search,
+fit coefficients, invoke bootstrap, or repeat the same Codazzi scale chase.
+
+**PARENT GATE = SOLVED-GEOMETRY RELATION-FAMILY SURVIVOR ATLAS COMPLETE,
 `VERIFIED-WITH-CORRECTIONS`.** Read
-`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then
-`EXTERNAL_REVIEW_ADJUDICATION.md`. The bounded solved atlas retains `14/14` regular endpoint
-constructions, `28/28` causal propagators, `28/28` nonidentity full-coframe loop holonomies, and
-`18/18` nonzero R17 normal-holonomy evaluations. Independent numerics reproduce `56/56` classes;
-the cold reviewer reproduced representative R17 and time-live witnesses and accepted
-`MULTIPLE_GEOMETRIC_SURVIVOR_FAMILIES`. Two sealed-intake replay defects are repaired additions-only
-and replay read-only. Endpoint reciprocal depth and path memory coexist as different channels.
-This is bounded geometry, not physical selection, dynamics, global completion, or stability; the
-time-live witnesses are local/off-shell. NEXT: test for a metric-native relation among the saved
-endpoint, propagator, full-holonomy, and normal-holonomy channels before any wider scan, coefficient
-choice, observational fit, or bootstrap activation.
+`udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`. Its `56/56`
+bounded comparisons establish the channel coexistence assembled conditionally by the latest gate.
 
 **PARENT GATE = COMPLETE OBSERVER-NETWORK ASSEMBLY FROM SCRATCH COMPLETE,
 `VERIFIED-WITH-CORRECTIONS`.** Read
