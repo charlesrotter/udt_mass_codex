@@ -1,0 +1,23 @@
+{
+  "G74_regression_rows": 9,
+  "maximum_G74_regression_chord": 3.3306690738754696e-16,
+  "maximum_hamiltonian_backward_error": 3.3559291523488355e-07,
+  "maximum_mesh_degree_drift": 2.220446049250313e-16,
+  "maximum_reflection_chord": 0.0,
+  "maximum_time_refinement_chord": 7.99498667241396e-05,
+  "mesh_trial_rows": 2364,
+  "physical_owner": "OPEN_NO_OWNER",
+  "profile_count": 591,
+  "protected_draft_read": false,
+  "runtime_seconds": 503.0965256690979,
+  "sample_class_counts": {
+    "NUMERICALLY_UNRESOLVED": 4,
+    "SAMPLED_COMPLETE_ORIENTATION_PRESERVING": 587
+  },
+  "scale_status": "R_POSITIVE_SYMBOLIC_NOT_SELECTED",
+  "schema": "udt-cmb-g76-complete-family-whole-sky-v1",
+  "screen_transport_status": "OPEN_NOT_COMPUTED_BY_ENDPOINT_TANGENT_MAP",
+  "shape_count": 49,
+  "source_manifest_rows": 9,
+  "status": "PASS"
+}

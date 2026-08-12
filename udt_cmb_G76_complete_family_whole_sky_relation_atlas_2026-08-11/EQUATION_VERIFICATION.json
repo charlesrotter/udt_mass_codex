@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "24_exact_control_points": true,
+    "constant_q_limit_removes_dq_terms": true,
+    "inverse_metric_hamiltonian_matches_registered_H": true,
+    "metric_times_registered_inverse_is_identity": true,
+    "time_equation_matches_registered_rhs": true,
+    "variable_q_gradient_matches_registered_rhs": true
+  },
+  "exact_control_points": 24,
+  "passed": 6,
+  "protected_draft_read": false,
+  "schema": "udt-cmb-g76-equation-ownership-v1",
+  "status": "PASS",
+  "total": 6
+}

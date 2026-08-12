@@ -1,0 +1,17 @@
+object	status	owner_or_scope
+stationary_axial_metric	WORKING	G75 frozen control family; not generic complete metric
+q_profile_coefficients	CHOSE	complete 591-row G75 characterization family; no physical row selected
+q_s_terms	DERIVED	exact derivative of live q(s); load-bearing and not frozen
+c_E_equal_1	CHOSE_NUMERIC	dimensionless coordinate convention for angular relation; not removal of physical calibration
+R_positive	OPEN	symbolic overall scale not selected by G76
+observer_at_one_quarter	PINNED_BY_HISTORICAL_CONTROL	G74 supplied observer query; not a preferred observer
+comparison_sphere_at_one	PINNED_BY_HISTORICAL_CONTROL	control endpoint; not last scattering or X_max
+first_outward_crossing	CHOSE_QUERY	branch rule supplied by observer query
+icosphere_levels	CHOSE_NUMERIC	levels 2 3 4 convergence census
+RK4_steps	CHOSE_NUMERIC	512 and 1024 production; 2048 independent replay
+endpoint_tangent_map	OBSERVED	sampled intrinsic angular scale/shear only
+path_carried_screen_rotation	OPEN	not computed by endpoint tangent map
+source_population	OPEN	no source or excitation law used
+physical_profile	OPEN	no G75 row selected or ranked
+bootstrap_action_matter	OPEN_INACTIVE	forbidden as selectors in G76
+protected_native_onshell_draft	UNREAD_UNTOUCHED	excluded from source and review manifests

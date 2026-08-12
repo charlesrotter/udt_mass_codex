@@ -1,0 +1,13 @@
+{
+  "catch_count": 6,
+  "catches": {
+    "duplicate_profile_rejected": true,
+    "missing_mesh_trial_rejected": true,
+    "missing_profile_rejected": true,
+    "physical_promotion_rejected": true,
+    "stale_class_after_error_mutation_rejected": true,
+    "unresolved_promotion_rejected": true
+  },
+  "schema": "udt-cmb-g76-catch-proofs-v1",
+  "status": "PASS"
+}

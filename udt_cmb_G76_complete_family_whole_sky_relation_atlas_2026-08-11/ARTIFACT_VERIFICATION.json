@@ -1,0 +1,37 @@
+{
+  "G74": {
+    "maximum_chord": 3.3306690738754696e-16,
+    "rows": 9
+  },
+  "atlas": {
+    "classes": {
+      "NUMERICALLY_UNRESOLVED": 4,
+      "SAMPLED_COMPLETE_ORIENTATION_PRESERVING": 587
+    },
+    "unresolved": [
+      "G75_A0_S03_E100",
+      "G75_AM_S03_E100",
+      "G75_AM_S24_E100",
+      "G75_AP_S03_E100"
+    ]
+  },
+  "checks": {
+    "G74_nine_profile_replay": true,
+    "all_sampled_crossings_complete": true,
+    "endpoint_archive_shapes_and_norms": true,
+    "four_unresolved_rows_not_promoted": true,
+    "mesh_trial_census": true,
+    "no_physical_owner_claimed": true,
+    "no_sampled_negative_or_near_zero_faces": true,
+    "profile_census_and_exact_classes": true,
+    "source_hashes": true
+  },
+  "endpoints": {
+    "directions": 2562,
+    "faces": 5120,
+    "key_count": 2957
+  },
+  "schema": "udt-cmb-g76-independent-artifact-verification-v1",
+  "source_manifest_rows": 9,
+  "status": "PASS"
+}

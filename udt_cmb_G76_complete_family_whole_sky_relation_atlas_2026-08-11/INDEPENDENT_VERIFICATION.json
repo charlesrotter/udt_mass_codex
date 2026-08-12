@@ -1,0 +1,116 @@
+{
+  "checks": {
+    "all_eight_strata_present": true,
+    "all_panel_rows_verified": true,
+    "both_amplitude_extremes_present": true,
+    "both_lapse_extremes_present": true,
+    "unresolved_production_control_replayed": true
+  },
+  "maximum_endpoint_chord": 1.2089089529884446e-05,
+  "maximum_null_backward_error": 5.425556358351624e-10,
+  "method": "direct_metric_christoffel_geodesic_rk4",
+  "panel": [
+    {
+      "amplitude": "0.05",
+      "crossing_mask_mismatch": 0,
+      "lapse_a": -0.25,
+      "maximum_endpoint_chord": 7.940283792289194e-07,
+      "maximum_null_backward_error": 3.232969447708456e-13,
+      "production_class": "SAMPLED_COMPLETE_ORIENTATION_PRESERVING",
+      "profile_id": "G75_AM_S13_E05",
+      "ray_count": 162,
+      "status": "PASS",
+      "stratum": "C0_E0_O0_T0"
+    },
+    {
+      "amplitude": "1.0",
+      "crossing_mask_mismatch": 0,
+      "lapse_a": 0.25,
+      "maximum_endpoint_chord": 3.0904092628606194e-06,
+      "maximum_null_backward_error": 1.1194243882545196e-11,
+      "production_class": "SAMPLED_COMPLETE_ORIENTATION_PRESERVING",
+      "profile_id": "G75_AP_S09_E100",
+      "ray_count": 162,
+      "status": "PASS",
+      "stratum": "C0_E0_O1_T0"
+    },
+    {
+      "amplitude": "1.0",
+      "crossing_mask_mismatch": 0,
+      "lapse_a": -0.25,
+      "maximum_endpoint_chord": 4.95788622164085e-06,
+      "maximum_null_backward_error": 1.6625760664024103e-11,
+      "production_class": "SAMPLED_COMPLETE_ORIENTATION_PRESERVING",
+      "profile_id": "G75_AM_S16_E100",
+      "ray_count": 162,
+      "status": "PASS",
+      "stratum": "C0_E1_O0_T0"
+    },
+    {
+      "amplitude": "0.05",
+      "crossing_mask_mismatch": 0,
+      "lapse_a": 0.25,
+      "maximum_endpoint_chord": 2.9501299236646715e-08,
+      "maximum_null_backward_error": 3.765043832260062e-14,
+      "production_class": "SAMPLED_COMPLETE_ORIENTATION_PRESERVING",
+      "profile_id": "G75_AP_S12_E05",
+      "ray_count": 162,
+      "status": "PASS",
+      "stratum": "C0_E2_O0_T0"
+    },
+    {
+      "amplitude": "0.05",
+      "crossing_mask_mismatch": 0,
+      "lapse_a": 0.25,
+      "maximum_endpoint_chord": 2.7065293570218297e-07,
+      "maximum_null_backward_error": 3.5416114485542494e-14,
+      "production_class": "SAMPLED_COMPLETE_ORIENTATION_PRESERVING",
+      "profile_id": "G75_AP_S04_E05",
+      "ray_count": 162,
+      "status": "PASS",
+      "stratum": "C1_E0_O0_T0"
+    },
+    {
+      "amplitude": "1.0",
+      "crossing_mask_mismatch": 0,
+      "lapse_a": -0.25,
+      "maximum_endpoint_chord": 5.019840035279168e-06,
+      "maximum_null_backward_error": 7.43858767984773e-11,
+      "production_class": "SAMPLED_COMPLETE_ORIENTATION_PRESERVING",
+      "profile_id": "G75_AM_S02_E100",
+      "ray_count": 162,
+      "status": "PASS",
+      "stratum": "C1_E0_O1_T0"
+    },
+    {
+      "amplitude": "1.0",
+      "crossing_mask_mismatch": 0,
+      "lapse_a": 0.25,
+      "maximum_endpoint_chord": 1.2089089529884446e-05,
+      "maximum_null_backward_error": 5.425556358351624e-10,
+      "production_class": "NUMERICALLY_UNRESOLVED",
+      "profile_id": "G75_AP_S03_E100",
+      "ray_count": 162,
+      "status": "REPRODUCES_PRODUCTION_UNRESOLVED",
+      "stratum": "C1_E1_O0_T0"
+    },
+    {
+      "amplitude": "0.05",
+      "crossing_mask_mismatch": 0,
+      "lapse_a": -0.25,
+      "maximum_endpoint_chord": 8.289799067994589e-07,
+      "maximum_null_backward_error": 3.7484945702992434e-13,
+      "production_class": "SAMPLED_COMPLETE_ORIENTATION_PRESERVING",
+      "profile_id": "G75_AM_S01_E05",
+      "ray_count": 162,
+      "status": "PASS",
+      "stratum": "C2_E0_O0_T0"
+    }
+  ],
+  "panel_count": 8,
+  "production_rhs_imported": false,
+  "ray_count_per_profile": 162,
+  "schema": "udt-cmb-g76-independent-christoffel-replay-v1",
+  "status": "PASS",
+  "steps": 2048
+}
