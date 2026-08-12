@@ -7,7 +7,20 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G75 LEAD:**
+**CURRENT G76 LEAD:**
+`udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the complete-family whole-sky gate. Every one of the 591 frozen G75 profiles was evaluated
+under the same supplied G74 observer query with variable `q_s` terms live. The atlas contains 587
+sampled complete degree-one orientation-preserving rows and four time-refinement-unresolved rows;
+all stored rays cross and no sampled negative, near-zero, missing, or nonfinite face/ray appears.
+A sealed reviewer verified `38/38` hashes, independently reconstructed the equations, raw census,
+alternate tangent-plane orientation, and all eight direct-Christoffel stratum controls. No row was
+corrected. The historical `F01_identity` wording is superseded by the current consolidated contract.
+No physical profile, source, endpoint, scale, `X_max`, polarization, bootstrap rule, or observable
+is selected. NEXT: broaden the independent Christoffel replay, prioritizing the four unresolved
+rows; do not fit or rank profiles.
+
+**G75 PARENT LEAD:**
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md` is the preregistered
 bounded center-regular profile vocabulary. It contains all 49 primitive quadratic rays in the
 frozen definition, four amplitudes, three lapse controls, and three zero controls: 591 profiles.
@@ -16,8 +29,7 @@ eight exact root/boundary strata survive. A sealed reviewer verified `34/34` has
 `49/591` rows with zero mismatches. The original local replay/catch caveats are closed by a
 preregistered `16/16` + `16/16` repair, while the external reconstruction owns independence. No
 physical profile, source, endpoint, scale, `X_max`, bootstrap rule, or observable is selected.
-NEXT: preregister a whole-sky response atlas whose inputs are fixed by G75's exact strata
-before any response is inspected.
+Its historical whole-sky next gate is completed by G76 above.
 
 **G74 PARENT LEAD:**
 `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md` classifies the exact

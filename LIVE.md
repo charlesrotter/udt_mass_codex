@@ -6,9 +6,30 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G75 CENTER-REGULAR PROFILE FAMILY EXTERNALLY VERIFIED AS A BOUNDED EXACT ATLAS) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G76 COMPLETE-FAMILY WHOLE-SKY RELATION ATLAS EXTERNALLY VERIFIED WITH FOUR NUMERICAL EXCEPTIONS) ============
 
-**LATEST LEAD — G75 CENTER-REGULAR AXIAL PROFILE FAMILY,
+**LATEST LEAD — G76 COMPLETE-FAMILY WHOLE-SKY RELATION ATLAS,
+`VERIFIED_WITH_CAVEATS__FULL_FAMILY_CENSUS_CONFIRMED__FOUR_ROWS_REMAIN_NUMERICALLY_UNRESOLVED`.**
+Read `udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+then `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `CURRENT_FALSIFICATION_CONTRACT.tsv`,
+`WHOLE_SKY_RELATION_ATLAS.tsv`, and `PREMISE_LEDGER.tsv`. G76 applies the same preregistered G74
+observer-sky query to all `591/591` frozen G75 profiles with all variable-`q` terms live. At level 4,
+all `2,562` sampled directions cross for every profile; `587` rows are
+`SAMPLED_COMPLETE_ORIENTATION_PRESERVING`, while four strongest-profile rows remain
+`NUMERICALLY_UNRESOLVED` solely because the frozen `512`-versus-`1024` endpoint chord threshold is
+exceeded. Across the complete saved atlas there are zero missing/nonfinite rays, negative signed-area
+faces, negative intrinsic face maps, or near-`1e-2` faces; every degree is one to floating precision.
+The sealed reviewer verified `38/38` payload hashes, independently reconstructed the metric inverse,
+Hamiltonian, live `q_s` terms, all census/extrema, an alternate tangent-plane orientation map, and
+the eight-stratum direct-Christoffel replay. No numerical row changed. The old historical
+`F01_identity` contract row is superseded additions-only by `CURRENT_FALSIFICATION_CONTRACT.tsv`.
+The six local hostile mutations are not exhaustive; a broader direct-Christoffel replay is the next
+evidence-strengthening gate, prioritizing the four unresolved rows. This is a robust sampled
+degree-one relation family under one supplied stationary query—not continuum injectivity, a physical
+profile/source/endpoint, `R`, `X_max`, polarization transport, bootstrap, action, matter, or a CMB
+observable. Do not fit or rank profiles.
+
+**PARENT LEAD — G75 CENTER-REGULAR AXIAL PROFILE FAMILY,
 `EXTERNALLY_VERIFIED_BOUNDED_FAMILY__INTERNAL_INDEPENDENCE_AND_CATCH_COMPLETENESS_CAVEATS_CLOSED_LOCALLY`; landing
 `CENTER_REGULAR_FAMILY_HAS_MULTIPLE_EXACT_SHAPE_STRATA`.** Read
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
@@ -26,10 +47,8 @@ caveats were local evidence-strength issues: the original same-context replay wa
 original hostile layer was not algebraic-field complete. The preregistered correction expands both
 to `16/16`; the external reconstruction remains the independent proof owner. `R` is symbolic; no physical profile, source, endpoint,
 scale, `X_max`, bootstrap rule, action, matter law, sky response, or CMB spectrum is selected.
-NEXT: preregister an outcome-independent whole-sky response map covering the complete family or
-representatives fixed solely by the exact G75 strata before
-any response is seen. Do not rank shapes, fit peaks, or call the stationary axial envelope the
-generic complete metric.
+HISTORICAL NEXT: its outcome-independent whole-sky response map is now G76 above. Do not rank shapes,
+fit peaks, or call the stationary axial envelope the generic complete metric.
 
 **PARENT LEAD — G74 SYMBOLIC-SCALE OBSERVER-SKY TOPOLOGY ATLAS,
 `EXTERNALLY_VERIFIED_WITH_METHOD_INDEPENDENCE_AND_PREREG_WORDING_CAVEATS`; landing

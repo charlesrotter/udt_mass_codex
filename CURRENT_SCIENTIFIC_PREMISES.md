@@ -9,7 +9,19 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G75 lead
+## Current G76 lead
+
+`udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the current whole-sky relation gate. Under one supplied stationary observer query, all 591
+frozen G75 profiles have complete sampled crossing and degree one. Exactly 587 meet every frozen
+sampled orientation/refinement gate; four remain `NUMERICALLY_UNRESOLVED` only because their
+`512`-versus-`1024` endpoint chord exceeds `5e-5`. External review verified all `38/38` sealed
+hashes, the metric/Hamiltonian and `q_s` algebra, the raw atlas and extrema, an alternate
+tangent-plane orientation check, and an eight-stratum direct-Christoffel replay. This is not
+continuum global injectivity and does not select a physical profile, source, endpoint, scale,
+`X_max`, polarization, bootstrap rule, action, matter, or CMB observable.
+
+## G75 parent lead
 
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md` controls the current
 bounded center-regular profile gate. It exactly catalogs all 49 preregistered primitive quadratic
@@ -20,7 +32,7 @@ independently reconstructed every atlas row with zero mismatches. The original l
 partial and its catch layer incomplete; the preregistered correction strengthens both to `16/16`.
 G75 is externally verified only as this bounded exact atlas. It does not repair G74, exhaust all smooth
 profiles, or select a physical profile, source, endpoint, scale, `X_max`, bootstrap law, or CMB
-observable.
+observable. Its whole-sky next gate is completed by G76 above.
 
 ## G74 parent lead
 

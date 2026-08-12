@@ -10,6 +10,16 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
+   `udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+   then its `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `CURRENT_FALSIFICATION_CONTRACT.tsv`, and
+   whole-sky/mesh atlases. G76 maps all 591 frozen G75 profiles under one supplied whole-sky query:
+   587 sampled degree-one orientation-preserving rows and four time-refinement-unresolved rows, with
+   zero sampled missing/nonfinite rays, negative faces/maps, or near-zero areas. External review
+   verified all `38/38` sealed hashes, the metric/Hamiltonian algebra, raw atlas, alternate
+   tangent-plane orientation, and eight-stratum direct-Christoffel replay. No physical profile,
+   source, endpoint, scale, `X_max`, polarization, bootstrap rule, or CMB observable is selected.
+   The next bounded strengthening is a broader direct-Christoffel replay prioritizing the four
+   unresolved rows. Parent:
    `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then its
    `EXTERNAL_REVIEW_ADJUDICATION.md`, `EXACT_DERIVATION.md`, and shape/profile atlases. G75 is an externally
    verified bounded atlas: all 49 preregistered primitive
@@ -24,9 +34,9 @@
    center and sky topology atlases. G74 classifies the exact 21-profile whole-sky control universe
    as `3` exact F01 diffeomorphisms, `6` sampled-regular persistent controls, and `12` center-blocked
    controls. External review verified `34/34` hashes with method-independence caveats only. G75 now
-   supplies the bounded center-regular control family; the next post-review gate is an outcome-
-   independent global angular response atlas. No CMB source, scale, spectrum, `X_max`, or bootstrap
-   law is selected. Parent:
+   supplies the bounded center-regular control family; G76 above completes its outcome-independent
+   whole-sky relation atlas. No CMB source, scale, spectrum, `X_max`, or bootstrap law is selected.
+   Parent:
    `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`, then
    `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/TOPOLOGY_SCOPE_CORRECTION.md`, then

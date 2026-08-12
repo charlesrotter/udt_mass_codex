@@ -21,7 +21,22 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G75 CENTER-REGULAR AXIAL PROFILE FAMILY,
+**LATEST LEAD = G76 COMPLETE-FAMILY WHOLE-SKY RELATION ATLAS,
+`VERIFIED_WITH_CAVEATS__FULL_FAMILY_CENSUS_CONFIRMED__FOUR_ROWS_REMAIN_NUMERICALLY_UNRESOLVED`.**
+Read `udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+then `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `CURRENT_FALSIFICATION_CONTRACT.tsv`, and the two
+atlases. All `591` frozen G75 profiles were evaluated under the identical G74 whole-sky query with
+live variable-`q` terms. `587` rows pass the sampled complete degree-one orientation-preserving
+gates; four remain unresolved only at the frozen time-step refinement gate. Every stored profile has
+all `2,562` rays crossing and zero negative, near-zero, missing, or nonfinite sampled faces/rays. A
+sealed reviewer verified `38/38` hashes, independently reconstructed the algebra and raw census,
+used a different tangent-plane map with zero orientation reversals, and replayed all eight exact G75
+strata through direct Christoffel equations. No numerical row was corrected. The current contract
+explicitly supersedes the historical `F01_identity` wording. NEXT: a broader independent
+Christoffel replay, prioritizing the four unresolved rows; no profile ranking, source fitting,
+polarization claim, physical endpoint/scale, `X_max`, bootstrap, action, matter, or CMB observable.
+
+**PARENT LEAD = G75 CENTER-REGULAR AXIAL PROFILE FAMILY,
 `EXTERNALLY_VERIFIED_BOUNDED_FAMILY__INTERNAL_INDEPENDENCE_AND_CATCH_COMPLETENESS_CAVEATS_CLOSED_LOCALLY`; landing
 `CENTER_REGULAR_FAMILY_HAS_MULTIPLE_EXACT_SHAPE_STRATA`.** Read
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
@@ -35,7 +50,7 @@ with zero mismatches, while confirming center smoothness and signature. Its cave
 to the original local replay's partial independence and incomplete algebraic-field catches; both
 local layers now pass `16/16` under the preregistered correction. G75 does not repair G74's blocked
 rows or select a physical profile, source, endpoint, scale, `X_max`, bootstrap rule, or CMB result.
-NEXT: an outcome-independent whole-sky response atlas selected only by preregistered G75 strata.
+HISTORICAL NEXT: the outcome-independent whole-sky response atlas is now G76 above.
 
 **PARENT LEAD = G74 SYMBOLIC-SCALE OBSERVER-SKY TOPOLOGY ATLAS,
 `EXTERNALLY_VERIFIED_WITH_METHOD_INDEPENDENCE_AND_PREREG_WORDING_CAVEATS`; landing

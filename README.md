@@ -6,13 +6,18 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current lead is
+`udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`:
+all 591 frozen G75 profiles were mapped under one supplied whole-sky query. There are 587 sampled
+degree-one orientation-preserving rows and four retained time-refinement exceptions, with no sampled
+missing/nonfinite rays, negative faces/maps, or near-zero areas. The sealed reviewer verified all
+38 payload hashes, reconstructed the live variable-profile algebra and raw atlas, and replayed all
+eight exact profile strata by direct Christoffel integration. This selects no physical profile,
+source, endpoint, scale, `X_max`, polarization law, bootstrap rule, or CMB observable. Read its
+historical pre-review `AUDIT_REPORT.md` afterward. Its G75 parent is
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`: a preregistered,
 externally verified bounded atlas of 49 primitive quadratic shapes and 591 center-`C-infinity`,
 Lorentz-regular stationary axial controls. It contains multiple exact shape strata but selects no
-physical profile, source, endpoint, scale, `X_max`, bootstrap law, or CMB observable. Read its
-`EXTERNAL_REVIEW_ADJUDICATION.md`: all `34/34` hashes and `49/591` rows reproduced with zero
-mismatches; local evidence caveats are closed without changing the atlases. Any whole-sky response
-family must now be fixed by the exact G75 strata before its response is seen. Its G74 parent is
+physical profile. Its G74 parent is
 `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`: the exact frozen
 whole-sky control census is three F01 degree-one diffeomorphisms, six persistent controls that are
 sampled regular but not globally proved, and twelve tapered/sign-changing controls blocked below
