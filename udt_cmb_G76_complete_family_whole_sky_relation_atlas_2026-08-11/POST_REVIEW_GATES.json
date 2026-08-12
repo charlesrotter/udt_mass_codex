@@ -1,0 +1,17 @@
+{
+  "evidence_gates": {
+    "full_space_or_bounded_scope_justified": "PASS_ALL_591_FROZEN_G75_ROWS_UNDER_ONE_SUPPLIED_QUERY",
+    "independently_verified_load_bearing_premise": "PASS_DIRECT_CHRISTOFFEL_RAW_NPZ_ALTERNATE_FACE_MAP_AND_SEALED_GPT54",
+    "premises_audited": "PASS_NO_PHYSICAL_PROFILE_SOURCE_ENDPOINT_SCALE_OR_OBSERVABLE_OWNER",
+    "preregistered": "PASS_COMMITS_c3c2699d_AND_89e7a8a4"
+  },
+  "external_landing": "VERIFIED_WITH_CAVEATS__FULL_FAMILY_CENSUS_CONFIRMED__FOUR_ROWS_REMAIN_NUMERICALLY_UNRESOLVED",
+  "protected_stopped_draft": "UNREAD_UNSTAGED_UNTOUCHED",
+  "repository_tests": {
+    "passed": 98,
+    "xfailed": 1,
+    "xfailed_reason": "known HABIT pins in matter-sector solution-space gate"
+  },
+  "schema": "udt-cmb-g76-post-review-gates-v1",
+  "status": "PASS_WITH_CAVEATS"
+}

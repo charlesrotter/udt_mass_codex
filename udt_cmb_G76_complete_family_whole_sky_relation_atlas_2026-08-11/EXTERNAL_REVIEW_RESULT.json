@@ -1,0 +1,10 @@
+{
+  "landing": "VERIFIED_WITH_CAVEATS__FULL_FAMILY_CENSUS_CONFIRMED__FOUR_ROWS_REMAIN_NUMERICALLY_UNRESOLVED",
+  "manifest_listed_files": 38,
+  "manifest_sha256": "def7ae1bf0d25b9aa078bd1945beb344a3698d03215659ef49052d4f84f4d3d3",
+  "numerical_row_corrections": 0,
+  "required_documentary_repairs": 1,
+  "reviewer": "gpt-5.4",
+  "schema": "udt-cmb-g76-external-review-result-v1",
+  "status": "PASS_WITH_CAVEATS"
+}

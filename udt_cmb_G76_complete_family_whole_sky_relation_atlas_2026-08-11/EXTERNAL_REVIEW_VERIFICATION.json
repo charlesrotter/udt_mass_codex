@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "class_census": true,
+    "current_contract_replaces_obsolete_F01_gate": true,
+    "degree_range_reproduced": true,
+    "direct_area_orientation": true,
+    "four_unresolved_identities": true,
+    "independent_projected_tangent_orientation": true,
+    "profile_and_mesh_census": true,
+    "raw_review_landing_present": true,
+    "sealed_38_hashes_reproduced": true
+  },
+  "class_counts": {
+    "NUMERICALLY_UNRESOLVED": 4,
+    "SAMPLED_COMPLETE_ORIENTATION_PRESERVING": 587
+  },
+  "degree_range": [
+    0.9999999999999999,
+    1.0000000000000002
+  ],
+  "external_raw_sha256": "054ccdb109d2c7b6e6e1fb7a437e7e78aeceb8a0b7bc62bfee23ed05d5690930",
+  "external_transcript_sha256": "cbc5acdb55b9475e578d8f10a6b0181587a6534550129bb2f495cffd129afb03",
+  "independent_projected_singular_value_range": [
+    0.5969764684554125,
+    1.8866597197928578
+  ],
+  "near_area_1e2": 0,
+  "negative_faces": 0,
+  "negative_projected_face_maps": 0,
+  "schema": "udt-cmb-g76-external-review-local-reproduction-v1",
+  "signed_area_ratio_range": [
+    0.48488311917529653,
+    2.8720295134891574
+  ],
+  "status": "PASS",
+  "unresolved": [
+    "G75_A0_S03_E100",
+    "G75_AM_S03_E100",
+    "G75_AM_S24_E100",
+    "G75_AP_S03_E100"
+  ]
+}
