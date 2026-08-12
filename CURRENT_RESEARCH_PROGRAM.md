@@ -7,7 +7,17 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G84 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS:**
+**CURRENT G85 BANKED LEAD — INTERNALLY VERIFIED BOUNDED ATLAS; EXTERNAL REVIEW PENDING:**
+`udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, control the full `196 x 5 = 980` mixed AM time-live completion atlas. The
+exact seam gate is `4u_H-b_H^2<0`. Mixing-only time dependence remains degenerate. Nonvanishing
+clock-radial shift, negative clock-norm lift, and order-`A` mixing taper give distinct conditional
+regular families; only the taper class retains a uniformly null seam, and no family is selected.
+Internal algebra, independent census, `10/10` hostile catches, and repository gates pass. The
+corrected sealed review manifest awaits explicit authorization; do not begin another scientific
+step first.
+
+**PARENT G84 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS:**
 `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`, control the bounded AM global-completion/pair-diameter atlas. The minimal doubled
 spatial candidate is round `S^3` radius `2R`, diameter `2piR`. Zero mixing extends smoothly and
@@ -16,8 +26,8 @@ isometry orbit. This is not physical `X_max`, and topology, `R`, physical profil
 ownership, accelerated observers, and mixed time-live completion remain open. The exact `197` AM
 rows split one zero-mixing and `196` nonzero; the latter are obstructed only in the declared smooth
 stationary-axisymmetric bifurcate class. The fresh cold context reproduced the core and required
-the already banked precision repairs and required no new correction. NEXT: preregister the bounded
-mixed time-live global-completion atlas without filtering toward a desired branch.
+the already banked precision repairs and required no new correction. Its mixed time-live gate is
+G85 above.
 
 **PARENT G83 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`:**
 `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then

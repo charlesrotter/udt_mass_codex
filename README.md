@@ -5,8 +5,15 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The active arc is **CMB PEAK OPTIMIZATION**, currently at the externally
-`VERIFIED_WITH_CAVEATS` G84 AM global-completion/pair-diameter atlas. Start with
+The active arc is **CMB PEAK OPTIMIZATION**, currently at the internally verified bounded G85
+mixed AM time-live completion atlas, with external review pending. Start with
+`udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`. Its full `196 x 5 = 980` atlas shows that mixing-only time dependence does
+not repair the G84 seam, while complete-metric shift, lapse-lift, and mixing-taper channels provide
+distinct conditional regular continuations. Only the taper class retains a uniformly null seam;
+none is selected physics. The corrected sealed-review manifest is ready, but explicit transmission
+authorization is pending. Do not continue past that review gate. Its externally reviewed parent is
+G84. Read
 `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`. Its minimal doubled spatial candidate is round `S^3` of radius `2R`; zero mixing
 has a conditional common `piR` static-patch asymptote for the central-geodesic observer isometry
@@ -14,8 +21,8 @@ orbit. This does not select physical `X_max`, topology, `R`, profile, or a mixed
 completion. The exact `197`-row AM census is one zero-mixing and `196` nonzero controls, with the
 nonzero rows obstructed only in the declared stationary bifurcate extension class. The sealed
 reviewer verified all hashes, independently reproduced the geometry and census, and required zero
-new scientific corrections. Next is a preregistered mixed time-live global-completion atlas. Its
-externally reviewed parent is G83. Read
+new scientific corrections. Its mixed time-live gate is G85 above. G84's externally reviewed
+parent is G83. Read
 `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`. The registered G75
 domain has no infinite endpoint depth; a declared AM continuation has the correct stationary

@@ -21,7 +21,22 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
-**LATEST EXTERNALLY REVIEWED LEAD = G84 AM GLOBAL COMPLETION AND PAIR-DIAMETER AUDIT,
+**LATEST BANKED LEAD = G85 MIXED AM TIME-LIVE COMPLETION ATLAS,
+`INTERNALLY_VERIFIED_BOUNDED_LEAD__EXTERNAL_REVIEW_PENDING`.** Read
+`udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
+`INDEPENDENT_VERIFICATION.json`. The full preregistered census is `196` mixed AM profiles times five
+completion archetypes (`980` unique rows). Exact gate: `4u_H-b_H^2<0`. Mixing-only time dependence
+does not repair the stationary axial degeneracy. A nonvanishing clock-radial shift, a negative
+clock-norm lift, and an order-`A` mixing taper give distinct conditional regular families; only the
+taper class retains a uniformly null seam, and its zero-shift subcase requires a coefficient smooth
+in regular `U,V` coordinates. No family is selected. Internal algebra/census/hostile/repository
+gates pass, including `103 passed, 1 xfailed`. The corrected `36`-payload review manifest hash is
+`f8443b0c2032730af68bccca6a528f0714cf012ce36fcf952f705ff688a9d507`; the intake has not been
+transmitted because explicit authorization for this exact payload is pending. NEXT: cold external
+review only. Do not continue science or promote any seam to physical `X_max`.
+
+**PARENT EXTERNALLY REVIEWED LEAD = G84 AM GLOBAL COMPLETION AND PAIR-DIAMETER AUDIT,
 `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS.** Read
 `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
@@ -33,8 +48,7 @@ central-geodesic observer isometry orbit, with `phi=-log cos[s/(2R)]` and
 The exact AM census is one zero-mixing plus `196` nonzero rows; the latter are blocked only in the
 declared stationary-axisymmetric bifurcate completion class. The sealed reviewer verified all
 `37/37` hashes and independently reproduced the geometry and exact census. Preserve its five
-scope/evidence caveats. NEXT: preregister a bounded, outcome-independent mixed time-live
-global-completion atlas; do not promote `piR` or select a physical owner.
+scope/evidence caveats. Its mixed time-live next gate is G85 above.
 
 **PARENT EXTERNALLY REVIEWED LEAD = G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS,
 `VERIFIED_WITH_CAVEATS`.** Read

@@ -4,19 +4,24 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-12, G84 AM global-completion/pair-diameter atlas externally verified with caveats)
+## TOP — CURRENT POINTER (2026-08-12, G85 mixed time-live completion atlas internally verified; external review pending)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**, with current substep **AM GLOBAL COMPLETION/PAIR-DIAMETER ATLAS**.
-Read `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
+**CMB PEAK OPTIMIZATION**, with current substep **MIXED AM TIME-LIVE COMPLETION ATLAS**.
+Read `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`. All `980` preregistered rows are classified: mixing-only time dependence is
+degenerate, while shift, lapse-lift, and taper families provide different conditional regular
+completions. Only the taper class gives a uniformly null seam and no family is selected. Internal
+verification and repository gates pass; the corrected sealed manifest awaits explicit transmission
+authorization before cold review. Its parent is G84: read
+`udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 then `AUDIT_REPORT.md`. The minimal doubled spatial candidate is round `S^3` radius `2R`; the
 zero-mixing branch has a conditional shared `piR` static-patch asymptote for the central-geodesic
 observer isometry orbit. This is not physical `X_max`; topology, `R`, profile, pair-separation
 ownership, arbitrary observers, and mixed time-live completion remain open. The exact AM census is
 one zero-mixing and `196` nonzero controls. The sealed reviewer independently reproduced the
-result with zero new scientific corrections. Next is the bounded mixed time-live completion atlas.
-Its parent is G83: read
+result with zero new scientific corrections. Its mixed gate is G85 above. G84's parent is G83: read
 `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 then `AUDIT_REPORT.md`. The strict
 591-row G75 domain has no infinite stationary endpoint depth. A labelled AM continuation realizes

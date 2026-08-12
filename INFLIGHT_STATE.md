@@ -1,6 +1,13 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-12 STATUS (RESTART ANCHOR): G84 AM GLOBAL-COMPLETION/PAIR-DIAMETER ATLAS EXTERNALLY `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS.** Read LIVE first, then
+> **2026-08-12 STATUS (RESTART ANCHOR): G85 MIXED AM TIME-LIVE COMPLETION ATLAS INTERNALLY VERIFIED; EXTERNAL REVIEW PENDING.** Read LIVE first, then
+> `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`,
+> `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. The full `980`-row atlas
+> finds mixing-only time dependence degenerate and three distinct conditional regular completion
+> families: shift-supported, lapse-lifted, and mixing-tapered. Only the taper class retains a
+> uniformly null seam. No family, topology, scale, or physical `X_max` is selected. Internal gates
+> pass; the corrected sealed intake awaits explicit transmission authorization. NEXT: external
+> cold review only. Parent G84 is externally `VERIFIED_WITH_CAVEATS`; read
 > `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 > `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, and `STATUS_LEDGER.tsv`. The minimal doubled AM spatial
 > candidate is round `S^3` radius `2R`; zero mixing has a conditional common `piR` static-patch
@@ -8,7 +15,7 @@
 > profile, pair-separation ownership, and mixed time-live completion remain open. The exact AM
 > census is one zero-mixing and `196` nonzero controls; the latter are obstructed only in the
 > declared stationary bifurcate class. The sealed reviewer reproduced the geometry/census and
-> verified `37/37` hashes. NEXT: preregister the mixed time-live global-completion atlas. Parent G83 is externally
+> verified `37/37` hashes. Its mixed gate is G85 above. Parent G83 is externally
 > `VERIFIED_WITH_CAVEATS`. Read
 > `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 > `AUDIT_REPORT.md`,
