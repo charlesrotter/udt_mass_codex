@@ -6,9 +6,28 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G85 MIXED TIME-LIVE COMPLETION ATLAS EXTERNALLY VERIFIED WITH CAVEATS) ============
+## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G86 EXISTING-CONDITION COMPLETION-OWNER AUDIT INTERNALLY VERIFIED, EXTERNAL REVIEW PENDING) ============
 
-**LATEST EXTERNALLY REVIEWED LEAD — G85 MIXED AM TIME-LIVE COMPLETION ATLAS,
+**LATEST INTERNALLY VERIFIED BOUNDED LEAD — G86 EXISTING-CONDITION COMPLETION-OWNER AUDIT;
+EXTERNAL SEMANTIC REVIEW PENDING.** Read
+`udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `CONDITION_OWNER_ATLAS.tsv`, `FAMILY_CONDITION_MATRIX.tsv`,
+`CONDITIONAL_SELECTOR_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and `INDEPENDENT_VERIFICATION.json`.
+Across the exact preregistered `21`-source universe, `14` existing conditions, three regular G85
+families, and `42` family-condition cells, two conditions distinguish geometric properties but
+zero own a physical exclusion and zero are an `OWNED_NONIDENTITY_SELECTOR`. The shift family keeps
+the lapse-zero candidate with a causally nonuniform seam; the lapse lift removes that candidate
+divergence at this seam; the taper keeps a uniformly null seam. Current `X_max` semantics do not
+identify this seam with physical `X_max` or require uniform nullness, so these are classifications,
+not a selection. The separate stdlib replay reconstructs all `588` regular G85 rows and passes
+with caveats; `12/12` hostile mutations and all repository gates pass, including tests
+`103 passed, 1 xfailed`. Maximum grade:
+`INTERNALLY_VERIFIED_BOUNDED_LEAD__EXTERNAL_SEMANTIC_REVIEW_PENDING`. **NEXT, NOT YET
+AUTHORIZED:** fresh sealed external semantic review of the exact G86 package and frozen sources.
+Do not invent the missing native history/global relation rule, select a completion, promote the
+seam to physical `X_max`, fit CMB data, or begin downstream physics.
+
+**PARENT EXTERNALLY REVIEWED LEAD — G85 MIXED AM TIME-LIVE COMPLETION ATLAS,
 `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS.** Read
 `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
@@ -26,10 +45,8 @@ census, behavior counts, and all `980` classifications. Binding caveats: complet
 regularity is not geodesic completeness; the internal verifier is implementation-independent but
 not clean-room; hostile catches are regression evidence; and Git/repository gates are separate
 live evidence. Those live gates pass: six frozen manifests, `1114` current paths, frontier/links,
-and tests (`103 passed, 1 xfailed`). **NEXT, NOT YET AUTHORIZED:** determine whether an
-already-founded observer-query/global-completion condition distinguishes the shift-supported,
-lapse-lifted, or tapered families. Do not add another completion family, select one of these,
-promote the seam to physical `X_max`, or fit CMB data.
+and tests (`103 passed, 1 xfailed`). Its registered ownership gate is completed internally by G86
+above, without selecting a family.
 
 **PARENT EXTERNALLY REVIEWED LEAD — G84 AM GLOBAL COMPLETION AND PAIR-DIAMETER AUDIT,
 `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS.** Read

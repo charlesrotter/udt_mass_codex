@@ -5,8 +5,16 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The active arc is **CMB PEAK OPTIMIZATION**, currently at the externally
-`VERIFIED_WITH_CAVEATS` G85 mixed AM time-live completion atlas. Start with
+The active arc is **CMB PEAK OPTIMIZATION**, currently at the internally verified bounded G86
+existing-condition completion-owner audit. Start with
+`udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md` and the three TSV atlases. Across `21` frozen sources, `14` conditions, three
+regular G85 families, and `42` cells, it finds two property distinctions but zero owned exclusions
+and zero owned nonidentity selectors. Current `X_max` semantics do not identify the candidate seam
+or require uniform nullness. Its independent stdlib replay reconstructs all `588` regular G85 rows;
+`12/12` catches and repository gates pass. External semantic review is still pending, so the grade
+is `INTERNALLY_VERIFIED_BOUNDED_LEAD`, not externally settled. Its parent is the externally
+`VERIFIED_WITH_CAVEATS` G85 mixed AM time-live completion atlas. Read
 `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md` and `EXACT_DERIVATION.md`. Its full `196 x 5 = 980` atlas shows that mixing-only
 time dependence does not repair the G84 seam, while complete-metric shift, lapse-lift, and
@@ -15,9 +23,8 @@ retains a uniformly null seam; none is selected physics. The sealed reviewer ind
 reproduced the exact algebra, taper identity, profile/behavior census, and all classifications,
 with zero new scientific corrections. Preserve its caveats: no geodesic-completeness theorem,
 internal verification is not clean-room, catches are regression evidence, and live repository
-gates are separate. No next scientific step is authorized; the next candidate is an ownership
-audit of already-founded observer-query/global-completion conditions. Its externally reviewed
-parent is G84. Read
+gates are separate. Its ownership gate is G86 above, which selects no family. G85's externally
+reviewed parent is G84. Read
 `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`. Its minimal doubled spatial candidate is round `S^3` of radius `2R`; zero mixing
 has a conditional common `piR` static-patch asymptote for the central-geodesic observer isometry

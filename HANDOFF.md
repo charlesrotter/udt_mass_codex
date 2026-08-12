@@ -21,7 +21,20 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
-**LATEST EXTERNALLY REVIEWED LEAD = G85 MIXED AM TIME-LIVE COMPLETION ATLAS,
+**LATEST INTERNALLY VERIFIED BOUNDED LEAD = G86 EXISTING-CONDITION COMPLETION-OWNER AUDIT;
+EXTERNAL SEMANTIC REVIEW PENDING.** Read
+`udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `CONDITION_OWNER_ATLAS.tsv`, `FAMILY_CONDITION_MATRIX.tsv`,
+`CONDITIONAL_SELECTOR_ATLAS.tsv`, `STATUS_LEDGER.tsv`, and `INDEPENDENT_VERIFICATION.json`.
+The preregistered frozen arena contains `21` sources, `14` conditions, three regular G85 families,
+and `42` cells. Seam type and realization of the lapse divergence at this seam distinguish
+properties, but the audit finds zero owned exclusions and zero owned nonidentity selectors.
+Current `X_max` semantics do not identify the seam or require uniform nullness. The independent
+stdlib replay reconstructs `588` regular G85 rows; `12/12` catches and repository gates pass.
+Maximum grade is internal and bounded until a fresh external semantic review. NEXT, NOT
+AUTHORIZED: that sealed review only. Do not select a family or invent a native history/global rule.
+
+**PARENT EXTERNALLY REVIEWED LEAD = G85 MIXED AM TIME-LIVE COMPLETION ATLAS,
 `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS.** Read
 `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
@@ -35,9 +48,7 @@ verified `36/36` payload hashes and independently reproduced the algebra, taper 
 profile/behavior census, and all `980` classifications. Preserve four caveats: this is not
 geodesic completeness; internal independence is not clean-room; catches are regression evidence;
 and live Git/repository gates are separate. All live gates pass, including `103 passed, 1 xfailed`.
-NEXT, NOT AUTHORIZED: audit whether an already-founded observer-query/global-completion condition
-distinguishes the three regular families. Do not continue science or promote any seam to physical
-`X_max`.
+Its ownership gate is now G86 above; no family is selected.
 
 **PARENT EXTERNALLY REVIEWED LEAD = G84 AM GLOBAL COMPLETION AND PAIR-DIAMETER AUDIT,
 `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS.** Read

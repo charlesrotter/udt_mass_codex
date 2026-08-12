@@ -1,6 +1,15 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-12 STATUS (RESTART ANCHOR): G85 MIXED AM TIME-LIVE COMPLETION ATLAS EXTERNALLY `VERIFIED_WITH_CAVEATS`; ZERO SCIENTIFIC CORRECTIONS.** Read LIVE first, then
+> **2026-08-12 STATUS (RESTART ANCHOR): G86 EXISTING-CONDITION COMPLETION-OWNER AUDIT INTERNALLY VERIFIED; EXTERNAL SEMANTIC REVIEW PENDING.** Read LIVE first, then
+> `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`,
+> `EXACT_DERIVATION.md`, the three TSV atlases, `STATUS_LEDGER.tsv`, and
+> `INDEPENDENT_VERIFICATION.json`. The frozen `21`-source, `14`-condition, three-family, `42`-cell
+> result contains zero owned exclusions and zero owned nonidentity selectors. Two conditions
+> distinguish properties only. Current `X_max` semantics do not identify the candidate seam or
+> require uniform nullness. Independent replay reconstructs all `588` regular G85 rows; `12/12`
+> catches and repository gates pass. Maximum grade is internal and bounded. NEXT, NOT AUTHORIZED:
+> fresh sealed external semantic review. Parent G85 remains externally `VERIFIED_WITH_CAVEATS`.
+> Read
 > `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 > `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. The full
 > `980`-row atlas finds mixing-only time dependence degenerate and three distinct conditional
@@ -8,9 +17,8 @@
 > class retains a uniformly null seam. No family, topology, scale, or physical `X_max` is selected.
 > The reviewer verified `36/36` hashes and independently reproduced the algebra, taper identity,
 > exact census, and classification. Preserve its no-geodesic-completeness, non-clean-room,
-> regression-catch, and sealed/live-evidence caveats. Live gates pass. NEXT, NOT AUTHORIZED: test
-> whether an already-founded observer-query/global-completion condition distinguishes the three
-> families. Parent G84 is externally `VERIFIED_WITH_CAVEATS`; read
+> regression-catch, and sealed/live-evidence caveats. Live gates pass. Its ownership gate is G86
+> above and selects no family. Parent G84 is externally `VERIFIED_WITH_CAVEATS`; read
 > `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 > `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, and `STATUS_LEDGER.tsv`. The minimal doubled AM spatial
 > candidate is round `S^3` radius `2R`; zero mixing has a conditional common `piR` static-patch

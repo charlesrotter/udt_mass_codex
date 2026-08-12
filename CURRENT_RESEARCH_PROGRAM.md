@@ -7,7 +7,17 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G85 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC
+**CURRENT G86 INTERNALLY VERIFIED BOUNDED LEAD — EXTERNAL SEMANTIC REVIEW PENDING:**
+`udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, the three TSV atlases, and `INDEPENDENT_VERIFICATION.json`, control the
+frozen `21`-source / `14`-condition / three-family ownership test. Seam type and candidate
+divergence at this seam distinguish properties, but no existing condition owns an exclusion and
+no owned nonidentity selector exists. Current `X_max` semantics do not identify the seam or require
+uniform nullness. The separate stdlib replay reconstructs all `588` regular G85 rows; `12/12`
+catches and repository gates pass. This is not externally settled. The next candidate gate is a
+fresh sealed semantic review, only after explicit authorization.
+
+**PARENT G85 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC
 CORRECTIONS:**
 `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md` and `EXACT_DERIVATION.md`, control the full `196 x 5 = 980` mixed AM time-live
@@ -19,8 +29,7 @@ reproduced the load-bearing algebra, corrected taper identity, exact profile/beh
 all classifications. Internal algebra, census, `10/10` hostile catches, and live repository gates
 also pass. Preserve four caveats: complete-metric regularity is not geodesic completeness;
 internal verification is not clean-room; catches are regression evidence; and sealed review does
-not own live Git/repository gates. The next ownership audit is not yet authorized; do not begin
-another scientific step first.
+not own live Git/repository gates. Its ownership audit is G86 above and selects no family.
 
 **PARENT G84 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS:**
 `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then

@@ -9,20 +9,18 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-5a. ACTIVE ARC (2026-08-12): CMB PEAK OPTIMIZATION; current substep = G85 MIXED AM TIME-LIVE
-   COMPLETION ATLAS, externally `VERIFIED_WITH_CAVEATS` with zero new scientific corrections. Read
-   `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
-   `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
-   `EXTERNAL_REVIEW_VERIFICATION.json`. The full preregistered universe contains `980` rows (`196`
-   mixed profiles times five archetypes). Mixing-only time dependence remains degenerate; shift,
-   lapse-lift, and order-`A` taper families give distinct conditional regular completions. Only the
-   taper class has a uniformly null seam, and no class is physically selected. The reviewer
-   verified `36/36` payload hashes and independently reproduced the algebra, taper identity,
-   profile/behavior census, and complete classification. Preserve its geodesic-completeness,
-   non-clean-room-independence, regression-catch, and sealed/live-evidence caveats. Next, only
-   after explicit authorization, is an ownership audit asking whether an already-founded
-   observer-query/global-completion condition distinguishes those families; no further completion
-   or physical promotion is authorized.
+5a. ACTIVE ARC (2026-08-12): CMB PEAK OPTIMIZATION; current substep = G86 EXISTING-CONDITION
+   COMPLETION-OWNER AUDIT, internally verified as a bounded lead with external semantic review
+   pending. Read `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`,
+   then `EXACT_DERIVATION.md`, the three TSV atlases, `STATUS_LEDGER.tsv`, and
+   `INDEPENDENT_VERIFICATION.json`. The exact frozen arena is `21` sources, `14` conditions, three
+   regular G85 families, and `42` cells. Two conditions distinguish properties, but zero own an
+   exclusion and zero are nonidentity selectors. Current `X_max` semantics do not identify the
+   candidate seam or require uniform nullness. Independent replay reconstructs all `588` regular
+   rows; `12/12` catches and repository gates pass. Next, only after explicit authorization, is a
+   fresh sealed external semantic review. Parent G85 remains externally `VERIFIED_WITH_CAVEATS` at
+   `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md` and
+   supplies the three regular completion classes without selecting one.
 5b. PARENT EXTERNALLY REVIEWED SUBSTEP = G84 AM GLOBAL COMPLETION/PAIR-DIAMETER ATLAS,
    externally `VERIFIED_WITH_CAVEATS` with zero new scientific corrections. Read
    `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,

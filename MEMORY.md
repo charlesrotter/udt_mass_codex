@@ -4,21 +4,27 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-12, G85 mixed time-live completion atlas externally verified with caveats)
+## TOP — CURRENT POINTER (2026-08-12, G86 existing-condition completion-owner audit internally verified; external semantic review pending)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**, with current substep **MIXED AM TIME-LIVE COMPLETION ATLAS**.
-Read `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+**CMB PEAK OPTIMIZATION**, with current substep **EXISTING-CONDITION COMPLETION OWNERSHIP**.
+Read `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md` and the three TSV atlases. Its frozen `21`-source / `14`-condition /
+three-family / `42`-cell result finds zero owned exclusions and zero owned nonidentity selectors.
+Seam type and lapse-divergence realization distinguish properties only; `X_max` does not yet own
+the candidate seam or uniform nullness. Independent replay reconstructs `588` G85 regular rows and
+`12/12` catches pass. External semantic review remains the only next candidate gate and is not yet
+authorized. Parent G85 remains externally verified. Read
+`udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md` and `EXACT_DERIVATION.md`. All `980` preregistered rows are classified:
 mixing-only time dependence is degenerate, while shift, lapse-lift, and taper families provide
 different conditional regular completions. Only the taper class gives a uniformly null seam and no
 family is selected. The sealed reviewer independently reproduced the load-bearing algebra,
 Kruskal-taper identity, full profile/behavior census, and all classifications with zero scientific
 corrections. Preserve the geodesic-completeness, non-clean-room-independence, regression-catch, and
-sealed/live-evidence caveats. Live repository gates pass. The next candidate gate—requiring new
-authorization—is ownership by an already-founded observer-query/global-completion condition. Its
-parent is G84: read
+sealed/live-evidence caveats. Live repository gates pass. Its ownership gate is G86 above and
+selects no family. Its parent is G84: read
 `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 then `AUDIT_REPORT.md`. The minimal doubled spatial candidate is round `S^3` radius `2R`; the
 zero-mixing branch has a conditional shared `piR` static-patch asymptote for the central-geodesic
