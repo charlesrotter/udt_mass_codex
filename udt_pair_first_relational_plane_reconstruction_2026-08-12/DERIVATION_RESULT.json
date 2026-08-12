@@ -1,0 +1,140 @@
+{
+  "calibrated_components": {
+    "L_pair_squared": "((T**2 - a)*(L**2 - T**2*beta**2 + e) + (T**2*beta - d)**2)/(T**2 - a)",
+    "T_pair_squared": "T**2 - a",
+    "beta_pair": "(T**2*beta - d)/(T**2 - a)",
+    "c_eff_over_c_E_squared": "-(-T**2 + a)**2/(-L**2*T**2 + L**2*a - T**2*a*beta**2 + 2*T**2*beta*d - T**2*e + a*e - d**2)",
+    "h00": "-T**2 + a",
+    "h01": "-T**2*beta + d",
+    "h11": "L**2 - T**2*beta**2 + e",
+    "minus_det_h": "L**2*T**2 - L**2*a + T**2*a*beta**2 - 2*T**2*beta*d + T**2*e - a*e + d**2"
+  },
+  "checks": {
+    "determinant_terminal_identity": true,
+    "direct_pullback_identity": true,
+    "flat_counterfamily_det_minus_one": true,
+    "flat_counterfamily_metric": true,
+    "flat_counterfamily_phi_argument_one": true,
+    "pair_coordinate_covariance": true,
+    "pure_base_L": true,
+    "pure_base_beta": true,
+    "pure_base_metric": true,
+    "reduced_gram_identity": true,
+    "screen_frame_covariance": true
+  },
+  "claim_boundary": {
+    "abstract_channel_plane": "POSIT",
+    "global_integrable_pair_family_without_F": "OPEN",
+    "orthogonal_screen_given_timelike_F": "DERIVED_CONDITIONAL",
+    "pair_plane_given_F": "DERIVED_CONDITIONAL",
+    "physical_F": "OPEN"
+  },
+  "flat_counterfamily": {
+    "det_h": "-1",
+    "h": [
+      [
+        "-1",
+        "-k/ell"
+      ],
+      [
+        "-k/ell",
+        "1 - k**2/ell**2"
+      ]
+    ],
+    "phi_argument": "1"
+  },
+  "schema": "udt-pair-first-relational-plane-v1",
+  "signature_witnesses": [
+    {
+      "h": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "inertia": [
+        1,
+        0,
+        1
+      ],
+      "name": "zero_lorentzian"
+    },
+    {
+      "h": [
+        [
+          "-3/4",
+          "0"
+        ],
+        [
+          "0",
+          "5/4"
+        ]
+      ],
+      "inertia": [
+        1,
+        0,
+        1
+      ],
+      "name": "small_lorentzian"
+    },
+    {
+      "h": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "inertia": [
+        0,
+        1,
+        1
+      ],
+      "name": "clock_null_degenerate"
+    },
+    {
+      "h": [
+        [
+          "3",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "inertia": [
+        0,
+        0,
+        2
+      ],
+      "name": "large_positive_definite"
+    },
+    {
+      "h": [
+        [
+          "-3/4",
+          "1/6"
+        ],
+        [
+          "1/6",
+          "10/9"
+        ]
+      ],
+      "inertia": [
+        1,
+        0,
+        1
+      ],
+      "name": "rank_one_tilted_lorentzian"
+    }
+  ],
+  "status": "PASS"
+}

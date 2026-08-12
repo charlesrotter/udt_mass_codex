@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "coordinate_covariance": 160,
+    "direct_pullback": 160,
+    "reduced_gram": 160,
+    "screen_covariance": 160,
+    "terminal_reconstruction": 34
+  },
+  "exact_fraction_samples": 160,
+  "flat_counterfamily_rows": 5,
+  "orthogonal_screen_witness": "PASS",
+  "production_checks_reopened": 11,
+  "schema": "udt-pair-first-independent-v1",
+  "seed": 20260812,
+  "status": "PASS"
+}

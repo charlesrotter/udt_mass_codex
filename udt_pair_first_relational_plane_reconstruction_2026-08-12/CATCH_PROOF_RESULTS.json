@@ -1,0 +1,20 @@
+{
+  "catch_count": 12,
+  "catches": {
+    "drop_gram_cross_term": true,
+    "forget_pair_tensor_congruence": true,
+    "founding_does_not_own_F_guard": true,
+    "global_integrability_not_promoted_guard": true,
+    "gram_term_not_indefinite": true,
+    "omit_embedding_Z": true,
+    "omit_metric_mixing_S": true,
+    "omit_screen_metric_Q": true,
+    "omit_shift_square_in_L": true,
+    "terminal_phi_cannot_recover_pairing_k": true,
+    "wrong_base_signature": true,
+    "wrong_beta_sign": true
+  },
+  "caught": 12,
+  "schema": "udt-pair-first-catch-proofs-v1",
+  "status": "PASS"
+}

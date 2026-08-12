@@ -1,0 +1,30 @@
+{
+  "catch_count": 12,
+  "checks": {
+    "catch_proofs_complete": true,
+    "contract_present": true,
+    "external_clean_replay_200": true,
+    "external_review_accept": true,
+    "independent_coordinate_160": true,
+    "independent_direct_160": true,
+    "independent_pass": true,
+    "independent_reduced_160": true,
+    "independent_screen_160": true,
+    "no_required_files_missing": true,
+    "premises_present": true,
+    "production_pass": true,
+    "source_manifest_exact": true,
+    "status_has_conditional_plane": true,
+    "status_has_open_F": true
+  },
+  "contract_rows": 14,
+  "independent_samples": 160,
+  "missing": [],
+  "premise_rows": 14,
+  "production_exact_checks": 11,
+  "schema": "udt-pair-first-package-verification-v1",
+  "source_rows": 8,
+  "status": "PASS",
+  "status_rows": 15,
+  "terminal_reconstructions": 34
+}

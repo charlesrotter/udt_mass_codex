@@ -1,0 +1,21 @@
+{
+  "external_clean_replay": {
+    "direct_pullbacks": 200,
+    "inertia_classes": [
+      "Lorentzian",
+      "Degenerate",
+      "Positive"
+    ],
+    "pair_coordinate_covariance": 200,
+    "reduced_gram": 200,
+    "screen_frame_covariance": 200,
+    "terminal_reconstructions": 40
+  },
+  "intake_file_count": 26,
+  "model": "gpt-5.4",
+  "output_sha256": "3652fc9d486bc31f10e33d3168a2cfca0d63d10f77a0373ae9f18a322a4b6bf9",
+  "review_scope_sha256": "de5ad3b367c4cbd49cdc35f211213481e42c2d4a72b3636f0046d74da9b27a98",
+  "schema": "udt-pair-first-external-review-v1",
+  "session_id": "019ff72a-3858-7df1-9964-f6d29629b996",
+  "status": "ACCEPT__VERIFIED_WITH_CAVEATS"
+}
