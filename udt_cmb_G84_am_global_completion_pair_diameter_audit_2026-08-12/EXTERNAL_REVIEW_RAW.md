@@ -1,0 +1,28 @@
+`VERIFIED_WITH_CAVEATS`
+
+Manifest and hash verification passed. [REVIEW_MANIFEST.tsv](/tmp/udt_g84_review_2aO645/REVIEW_MANIFEST.tsv:1) has 37 payload rows, the workspace contains exactly 38 files total, all 37 listed SHA-256 payload hashes matched, and the manifest’s computed digest is `0154f12ecf5099391e2be71d656e624f86433df14ff8045e51b77f53d19d924a`. I did not inspect anything outside `/tmp/udt_g84_review_2aO645`.
+
+**Landing**
+The sealed intake supports exactly the bounded landing requested in [REVIEW_DISPATCH.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REVIEW_DISPATCH.md:7):
+`ZERO_MIXING_BRANCH_HAS_CONDITIONAL_FRAME_SHARED_RECENTERED_ASYMPTOTE__NONZERO_MIXED_COMPLETION_OPEN`.
+
+**Corrections And Caveats**
+- No new correction is required to the current intake. The needed repairs are already present in [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:41) and [PAIR_DISTANCE_COUNTEREXAMPLES.tsv](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PAIR_DISTANCE_COUNTEREXAMPLES.tsv:1): the round `S^3` is only the minimal doubled simply connected candidate, and the depth-vs-distance counterexample stays within one valid future-directed static patch.
+- The frame-sharing theorem is supported only for the zero-mixing constant-curvature branch and exactly the central timelike-geodesic isometry orbit, not arbitrary accelerated observers or mixed profiles [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:99).
+- `πR` is a conditional static-patch accessibility scale, not the global spatial diameter and not a physical `X_max` selection [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:153).
+
+**Independent Recomputations**
+- From `x=2 sinχ`, I recomputed `A=1-x^2/4=cos^2χ`, `dx^2/A=4 dχ^2`, hence `dℓ^2=4R^2[dχ^2+sin^2χ dΩ^2]`. That is the round `S^3` candidate of radius `2R`, sectional curvature `1/(4R^2)`, scalar curvature `3/(2R^2)`, injectivity radius `2πR`, and diameter `2πR`; `x=2` occurs at `χ=π/2`, so it is the equator, not the antipode [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:20).
+- I independently pulled back the zero-mixing embedding and reproduced `ds^2/R^2=-cos^2χ dτ^2+4[dχ^2+sin^2χ dΩ^2]`, confirming the constant-curvature Lorentzian hyperboloid and the stated observer-class scope [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:72).
+- With `s=2Rχ`, I recomputed `φ(s)=-log cos[s/(2R)]` and `c_eff/c_E=cos[s/(2R)]^2`, with `s→πR^-` giving `φ→+∞` and `c_eff/c_E→0`. The four recentered receiver rows all preserve own-horizon distance `πR` [RECENTERED_OBSERVER_LIMIT_ATLAS.tsv](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/RECENTERED_OBSERVER_LIMIT_ATLAS.tsv:1).
+- I independently checked the same-latitude same-patch counterexample: at `χ=π/4`, `d_S3/R=2 arccos[(1+cosγ)/2]` ranges from `0` to `π` while endpoint lapse-depth stays `0`, so stationary depth is not a single-valued function of completed spatial distance [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:141).
+- Using a separate exact rational parser on [PROFILE_ATLAS.tsv](/tmp/udt_g84_review_2aO645/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv:2), I recomputed all 197 AM rows: exactly one `q(4)=0` row (`G75_F01_AM`), 196 nonzero rows, 104 positive and 92 negative nonzero values, minimum nonzero `|q(4)|=1/20`, and zero mismatches against [PROFILE_COMPLETION_ATLAS.tsv](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PROFILE_COMPLETION_ATLAS.tsv:1).
+- For mixed continuation, I agree that nonzero `h_H=4q(4)` obstructs the declared smooth stationary-axisymmetric bifurcate extension class including the axial fixed set: off axis the `τ-ψ` block has determinant `-h_H^2 sin^4θ < 0`, but on the axis `∂ψ=0` and `g(∂τ,·)=0`, so the kernel is invariant and not removable by corotation [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:163). I do not read that as a generic time-live or symmetry-breaking no-go.
+
+**Reproducibility And Boundary**
+- Fresh reproducibility inside the sealed intake: `PASS`. I also ran `python3 .../verify_package.py`, which passed.
+- I treated [CATCH_PROOF_RESULT.json](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/CATCH_PROOF_RESULT.json:1) as regression evidence only, not as proof.
+- I did not independently rerun the repository-wide gates in [REPOSITORY_GATES.json](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REPOSITORY_GATES.json:1), because the sealed intake does not contain the non-intake repository paths targeted by `verify_repository_gates.py`.
+- Exact evidence boundary: only the 38 files enumerated by [REVIEW_MANIFEST.tsv](/tmp/udt_g84_review_2aO645/REVIEW_MANIFEST.tsv:1). Nothing here justifies a physical `X_max`, physical `R`, unique topology, physical pair-separation owner, arbitrary-observer theorem, mixed time-live completion, or any CMB/source/action/matter/bootstrap/boundary/signalling claim.
+
+Maximum justified conclusion: `BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS`.

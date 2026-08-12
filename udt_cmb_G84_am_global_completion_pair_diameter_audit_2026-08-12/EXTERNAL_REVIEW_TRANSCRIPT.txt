@@ -1,0 +1,2706 @@
+Script started on 2026-08-12 09:47:43-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_g84_review_2aO645
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019ff63a-99c4-7fa0-9603-bc24d374ed9f
+--------
+user
+You are the authorized cold external reviewer. Inspect only the 38-file sealed intake in your current working directory. Do not inspect any path outside it, do not edit files, and do not continue the research. First verify REVIEW_MANIFEST.tsv and all 37 payload hashes. Then follow udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REVIEW_DISPATCH.md exactly. Return the requested landing, corrections and caveats, independently recomputed load-bearing equations and counts, reproducibility status, exact evidence boundary, and maximum justified conclusion.
+codex
+I’m treating this as a sealed-package review: I’ll verify the manifest and all 37 payload hashes first, then read the dispatch instructions and audit strictly within the current working directory.
+exec
+/bin/bash -c pwd in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+/tmp/udt_g84_review_2aO645
+
+exec
+/bin/bash -c "rg --files -g 'REVIEW_MANIFEST.tsv' -g 'REVIEW_DISPATCH.md'" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+REVIEW_MANIFEST.tsv
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REVIEW_DISPATCH.md
+
+exec
+/bin/bash -c "find . -maxdepth 3 -type f | sed 's#"'^./##'"' | sort" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+CURRENT_SCIENTIFIC_PREMISES.tsv
+REVIEW_MANIFEST.tsv
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/derive_profile_family.py
+udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXACT_DERIVATION.md
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/PREMISE_LEDGER.tsv
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/PREREGISTRATION.md
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/STATUS_LEDGER.tsv
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/AUDIT_REPORT.md
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/CATCH_PROOF_RESULT.json
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COMPLETENESS_SCOPE.md
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COMPLETION_BRANCH_ATLAS.tsv
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/DERIVATION_RESULT.json
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/INDEPENDENT_VERIFICATION.json
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PAIR_DISTANCE_COUNTEREXAMPLES.tsv
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PREMISE_LEDGER.tsv
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PREREGISTRATION.md
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PROFILE_COMPLETION_ATLAS.tsv
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/RECENTERED_OBSERVER_LIMIT_ATLAS.tsv
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REPOSITORY_GATES.json
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REVIEW_DISPATCH.md
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/SOURCE_MANIFEST.tsv
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/STATUS_LEDGER.tsv
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/build_review_manifest.py
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/derive_completion_atlas.py
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/run_catch_proofs.py
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_independent.py
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_package.py
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_repository_gates.py
+udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md
+udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/STATUS_LEDGER.tsv
+udt_xmax_asymptotic_limit_frame_correction_2026-08-05/PREMISE_LEDGER.tsv
+udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md
+
+codex
+I’ve confirmed the intake is confined to the current workspace and found the manifest plus dispatch. Next I’m reading those instructions and validating the file inventory against the sealed-package claim before touching any substantive claims.
+exec
+/bin/bash -c "sed -n '1,220p' REVIEW_MANIFEST.tsv" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+path	sha256	role
+CURRENT_SCIENTIFIC_PREMISES.tsv	7d589e8c53f7f46097e435262973d3d9b00608add8d551cf4a4c57595f0e7c8f	frozen_source
+udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md	8860dbefd6e99f4f9de966497f56022b268d2e0d1299383354b457d60480c638	frozen_source
+udt_xmax_asymptotic_limit_frame_correction_2026-08-05/PREMISE_LEDGER.tsv	90dcd8c3b79f4e1e57ebe107a15e0a380240d53ae63d54b9476f3b54324982b8	frozen_source
+udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	frozen_source
+udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/STATUS_LEDGER.tsv	eef6633d11a7cce49c527d3560676794fae6ca52036dd9c4ee4b1b92410c1650	frozen_source
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv	c45f96312b7a89dcd8797a0ccac8c8506e69bd454bfb119acf34c43149af57c7	frozen_source
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md	37a5cb425c5c617f608f375ed12ef15aa5ac5c9ce9891c58ea06fab7839d4e62	frozen_source
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/derive_profile_family.py	2ae16dbe3f077eae54420c1a1cdfd187adeec3e42b107e9f3577c11a98ffee82	frozen_source
+udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md	0dbacc4fd34cb005f65fe5b48c2da67706fd6129f378d77e8e829edf005a5c19	frozen_source
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/PREREGISTRATION.md	38db8325b0903ab96e1a6a399efc2689e60be8d762f56cf568da75dbe231fcbf	frozen_source
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXACT_DERIVATION.md	3a1c4212d228534fbb892e1d9c08705c246fbe79d306c68a04bab84543c9af6d	frozen_source
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/STATUS_LEDGER.tsv	36a62b3d8d8ed3ec2783bca8e2f38a9c315f480eb8b20eafbc278a5b6d35a1b7	frozen_source
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/PREMISE_LEDGER.tsv	f8608ddc95c0e0f7c7d68a3c3f039dd39fe3de07dee4c2f4218311ec01d99360	frozen_source
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md	2ea89f4a5304dd1686a2ae06d3596c8305d44efb5fbf3a44ecb57a26eeb96693	frozen_source
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/AUDIT_REPORT.md	c0cb24a5dcf0e212412c8899db7bbae6d616165228e856e837f8aae0212ab7b1	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/CATCH_PROOF_RESULT.json	a3ce37b48c08f8472c9a07f259e36eceaab40a97f65b17c94bea0df6a5d0477a	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md	bc4e9b72643fbd2713d711dfb2e3cea3d1bce0ca9c19577f129b062b944505fd	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COMPLETENESS_SCOPE.md	471a99365d8636c83a9668dbe54dcef46b075694aced3d7e6c22eea064fe1635	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COMPLETION_BRANCH_ATLAS.tsv	beb633093e9511cc5db4e1f9d1cc64a54dfec691a9cb646d510150bd01f84c79	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/DERIVATION_RESULT.json	7dd4f160ae9b763e96bd2d3429f9482976816871ea078afbf69c3f346182cd7f	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md	72ae3903e5c729b1de85661811e7a2aa4d4ae0199ca105d8ebd74bdadac3e7ae	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/INDEPENDENT_VERIFICATION.json	35654695c73a3eb119074f474fefae52562ed5e0645e5baf96f72e70bdf395dc	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PAIR_DISTANCE_COUNTEREXAMPLES.tsv	779b629e29189a7e10cf2f698b7bd6038db215946ae4ebfd26a59b6f1a6e5184	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PREMISE_LEDGER.tsv	3a2f7bc4da3dc2239e99e61e52513eeee492f40178f544ab4336f924d9c42a17	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PREREGISTRATION.md	2ca70e65de44c377119d3869cff953f81fa0307e27b0e02a1008436f55c9ad7b	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PROFILE_COMPLETION_ATLAS.tsv	8522fd0a559b52c2b9793a6da20220b9ed038a6ffbf4de35ec96236c7dd5cc39	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/RECENTERED_OBSERVER_LIMIT_ATLAS.tsv	1f175dbfb1e26819a26b1cbee0d1619783ce241ad4e439ae3c9792080efa2dad	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REPOSITORY_GATES.json	f908fa3c4eb923e55db888d13152a318d1e5001b2c898ba89b73a3b903e54f04	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REVIEW_DISPATCH.md	ade9f2167290f3e715de7990df1687b45cc2d77b95732d2c7a82b0fdebe7b262	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/SOURCE_MANIFEST.tsv	6cd8dbfa4c5ff750f00380b3b5ee6421f97ac401cce26f7251e9c6605576e222	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/STATUS_LEDGER.tsv	6327e36659a744ddf252a26d5077d0a9eeda91e9f40344d2453022ffa3acb10e	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/build_review_manifest.py	f0978c2e8e720b58418d51846ce51d5b2039b7d1fa4b48a65984b36a9bd229e3	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/derive_completion_atlas.py	a68b9efd7e7b5f19c1e520feb8b7a943792c641b6e9e88c104d5f72e880629a1	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/run_catch_proofs.py	21684500d0e6f77bc4fa1ad27aa55d4f12ea597dea10f81277ee068d4e97508e	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_independent.py	ab452ad5eefa46f00858cc20ab10eb02eb14331cbed68a07112992af2610a901	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_package.py	61a4c904688bd09cb2411db46d126fd686f10cd7d1c62dbd184bdb4b6f420074	G84_package
+udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_repository_gates.py	8b0b9759da5ba03cf075d24f813659411aae45e61c958919114c8bb790e07642	G84_package
+
+exec
+/bin/bash -c "sed -n '1,260p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REVIEW_DISPATCH.md" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+# External review dispatch — G84 AM global completion and pair-diameter audit
+
+Perform a cold, read-only adversarial review of the sealed intake defined by
+`REVIEW_MANIFEST.tsv`. Verify every payload hash first. Do not inspect files outside the intake,
+edit files, or continue the research.
+
+## Central question
+
+Does the evidence support exactly this bounded landing?
+
+`ZERO_MIXING_BRANCH_HAS_CONDITIONAL_FRAME_SHARED_RECENTERED_ASYMPTOTE__NONZERO_MIXED_COMPLETION_OPEN`
+
+Test independently:
+
+1. whether `x=2 sin(chi)` gives the round minimal doubled, simply connected spatial completion
+   candidate of radius `2R`, diameter `2piR`, and `x=2` as its equator rather than its antipode or
+   boundary;
+2. whether the zero-mixing spacetime pullback is the displayed smooth constant-curvature
+   Lorentzian hyperboloid and whether its isometries recenter the static patch on the relevant
+   central timelike-geodesic observer orbit;
+3. whether each such recentered observer has center-to-horizon static-slice distance `piR` and the
+   conditional stationary laws
+   `phi=-log cos[s/(2R)]` and `c_eff/c_E=cos[s/(2R)]^2`;
+4. whether the entirely in-patch same-latitude example proves that stationary endpoint lapse-depth
+   is not a function of completed spatial geodesic distance;
+5. whether exact evaluation of all `197` frozen AM rows gives precisely one `q(4)=0` control and
+   `196` nonzero controls;
+6. whether nonzero `h_H=4q(4)` obstructs the declared smooth stationary-axisymmetric bifurcate
+   extension class, including the axial fixed set, without implying a generic time-live or
+   symmetry-breaking no-go.
+
+## Adversarial requirements
+
+- Recompute the geometry without trusting the production derivation.
+- Type-check spatial completion, stationary patch accessibility, global spatial distance, and
+  physical observer-pair separation as distinct objects.
+- Decide whether the isometry transitivity statement covers exactly the claimed observer class.
+- Inspect time orientation across the two static patches and reject any invalid opposite-patch
+  observer comparison.
+- Recompute the `197`-row `q(4)` census using an independent exact method.
+- Inspect the mixed fixed-set and bifurcation obstruction invariantly, not only through one
+  coordinate determinant.
+- Treat the mutation harness as regression evidence, not as an independent mathematical proof.
+- Identify any hidden promotion of the continuation, minimal topology, zero-mixing control,
+  symbolic `R`, or stationary query into physical authority.
+
+## Required landing
+
+Return exactly one: `VERIFIED`, `VERIFIED_WITH_CAVEATS`, `CORRECTION_REQUIRED`, or `FAILED`.
+
+Even a successful review cannot select physical `X_max`, `R`, topology, profile, pair-separation
+owner, arbitrary-observer theorem, time-live completion, CMB observable, source, action, matter,
+bootstrap closure, boundary law, or signalling law.
+
+codex
+The manifest and dispatch are consistent with a sealed 38-file intake: one manifest plus 37 payload entries. I’m verifying every listed SHA-256 now and then I’ll move to the mathematical audit items in the prescribed order.
+exec
+/bin/bash -c "python - <<'PY'
+import csv, hashlib, pathlib, sys
+root = pathlib.Path('.')
+manifest = root / 'REVIEW_MANIFEST.tsv'
+rows = list(csv.DictReader(manifest.open(), delimiter='\\t'))
+print(f'entries={len(rows)}')
+missing=[]
+mismatch=[]
+for row in rows:
+    p = root / row['path']
+    if not p.is_file():
+        missing.append(row['path'])
+        continue
+    h = hashlib.sha256(p.read_bytes()).hexdigest()
+    if h "'!= row['"'sha256']:
+        mismatch.append((row['path'], row['sha256'], h))
+print(f'missing={len(missing)}')
+print(f'mismatch={len(mismatch)}')
+if missing:
+    print('MISSING')
+    for x in missing: print(x)
+if mismatch:
+    print('MISMATCH')
+    for path,exp,got in mismatch:
+        print(path)
+        print(exp)
+        print(got)
+PY" in /tmp/udt_g84_review_2aO645
+ exited 127 in 0ms:
+/bin/bash: line 1: python: command not found
+
+exec
+/bin/bash -c 'wc -l REVIEW_MANIFEST.tsv' in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+38 REVIEW_MANIFEST.tsv
+
+exec
+/bin/bash -c "find . -type f | sed 's#"'^./##'"' | sort | wc -l" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+38
+
+codex
+`python` isn’t present in this intake environment, so I’m rerunning the hash verification with `python3`. The file count already matches the sealed claim: 38 files total, with 37 manifest payload rows plus the manifest itself.
+exec
+/bin/bash -c 'sha256sum REVIEW_MANIFEST.tsv' in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+0154f12ecf5099391e2be71d656e624f86433df14ff8045e51b77f53d19d924a  REVIEW_MANIFEST.tsv
+
+exec
+/bin/bash -c "python3 - <<'PY'
+import csv, hashlib, pathlib
+root = pathlib.Path('.')
+manifest = root / 'REVIEW_MANIFEST.tsv'
+rows = list(csv.DictReader(manifest.open(), delimiter='\\t'))
+print(f'entries={len(rows)}')
+missing=[]
+mismatch=[]
+for row in rows:
+    p = root / row['path']
+    if not p.is_file():
+        missing.append(row['path'])
+        continue
+    h = hashlib.sha256(p.read_bytes()).hexdigest()
+    if h "'!= row['"'sha256']:
+        mismatch.append((row['path'], row['sha256'], h))
+print(f'missing={len(missing)}')
+print(f'mismatch={len(mismatch)}')
+for x in missing:
+    print('MISSING\\t'+x)
+for path,exp,got in mismatch:
+    print('MISMATCH\\t'+path+'\\t'+exp+'\\t'+got)
+PY" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+entries=37
+missing=0
+mismatch=0
+
+exec
+/bin/bash -c "sed -n '1,220p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/SOURCE_MANIFEST.tsv" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+path	sha256	role
+CURRENT_SCIENTIFIC_PREMISES.tsv	7d589e8c53f7f46097e435262973d3d9b00608add8d551cf4a4c57595f0e7c8f	current premise controls
+udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md	8860dbefd6e99f4f9de966497f56022b268d2e0d1299383354b457d60480c638	X_max type and workflow
+udt_xmax_asymptotic_limit_frame_correction_2026-08-05/PREMISE_LEDGER.tsv	90dcd8c3b79f4e1e57ebe107a15e0a380240d53ae63d54b9476f3b54324982b8	X_max premise ownership
+udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	terminal reciprocal relation
+udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/STATUS_LEDGER.tsv	eef6633d11a7cce49c527d3560676794fae6ca52036dd9c4ee4b1b92410c1650	terminal relation scope
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv	c45f96312b7a89dcd8797a0ccac8c8506e69bd454bfb119acf34c43149af57c7	frozen 591-profile universe
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md	37a5cb425c5c617f608f375ed12ef15aa5ac5c9ce9891c58ea06fab7839d4e62	stationary axial metric derivation
+udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/derive_profile_family.py	2ae16dbe3f077eae54420c1a1cdfd187adeec3e42b107e9f3577c11a98ffee82	profile construction provenance
+udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md	0dbacc4fd34cb005f65fe5b48c2da67706fd6129f378d77e8e829edf005a5c19	stationary Killing query
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/PREREGISTRATION.md	38db8325b0903ab96e1a6a399efc2689e60be8d762f56cf568da75dbe231fcbf	parent preregistration
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXACT_DERIVATION.md	3a1c4212d228534fbb892e1d9c08705c246fbe79d306c68a04bab84543c9af6d	parent asymptote derivation
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/STATUS_LEDGER.tsv	36a62b3d8d8ed3ec2783bca8e2f38a9c315f480eb8b20eafbc278a5b6d35a1b7	parent claim scope
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/PREMISE_LEDGER.tsv	f8608ddc95c0e0f7c7d68a3c3f039dd39fe3de07dee4c2f4218311ec01d99360	parent premise scope
+udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md	2ea89f4a5304dd1686a2ae06d3596c8305d44efb5fbf3a44ecb57a26eeb96693	parent external review
+
+codex
+I’ve finished the intake-integrity step: 37 manifest entries verified against SHA-256, no missing files, and the workspace contains exactly 38 files total. Next I’m auditing the G84 package instructions and derivations, then I’ll independently recompute the geometry and the 197-row `q(4)` census before fixing the final landing.
+Sealed intake integrity is verified. Proceeding through the dispatch in the same dependency order as the audit question.
+  → Read the G84 review-facing documents to extract the exact claimed landing, scope limits, and dependency chain inside the intake
+  • Independently recompute the spatial completion, recentered observer geometry, horizon distance, and asymptotic laws from the sealed derivations and atlases
+  • Independently recompute the 197-row q(4) census and inspect the mixed completion obstruction claims and counterexample logic
+  • Assemble the required landing, corrections/caveats, evidence boundary, reproducibility status, and maximum justified conclusion
+exec
+/bin/bash -c "sed -n '1,240p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COMPLETENESS_SCOPE.md" in /tmp/udt_g84_review_2aO645
+exec
+/bin/bash -c "sed -n '1,220p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PREREGISTRATION.md" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+# G84 completeness scope
+
+G84 is one stationary metric tile.
+
+Covered:
+
+- every one of the 197 frozen G75 `AM` profiles;
+- the exact radial and full angular spatial geometry;
+- the transparent analytic continuation of the registered formulas;
+- the minimal doubled, simply connected zero-mixing constant-curvature Lorentzian completion
+  candidate;
+- the full nonzero-mixing coefficient at the candidate surface;
+- central geodesic observer re-centering on the zero-mixing isometry orbit.
+
+Dropped or still open:
+
+- the generic ten-function complete coframe;
+- time-live mixing histories and nonstationary observer queries;
+- arbitrary lapse functions and non-polynomial mixing;
+- accelerated-observer frame sharing;
+- a physical pair-separation operator;
+- uniqueness of the global topology or identification;
+- physical profile, topology, scale `R`, endpoint, and source ownership;
+- action, equations of motion, matter, bootstrap feedback, boundary variation, CMB readout, and
+  local signalling.
+
+Those omissions can carry structure. In particular, the mixed stationary continuation obstruction
+is a reason to examine time-live completion later, not a no-go for the mixed metric or UDT.
+
+ succeeded in 0ms:
+# G84 AM global-completion and pair-diameter audit — preregistration
+
+Date: 2026-08-12
+Status: `PREREGISTERED_BEFORE_SYMBOLIC_OR_PROFILE_OUTCOME`
+
+## Whole question
+
+For the exact stationary `AM` control family banked in G75/G83, does the metric itself turn the
+one-sided chart asymptote into a frame-shared observer-pair separation asymptote when the radial
+spatial geometry is maximally continued? Or do spatial completion, stationary clock depth, and
+full Lorentzian regularity remain different objects?
+
+This is a metric-led classification. It does not target a desired `X_max`, fit observations, or
+choose a physical profile.
+
+## Frozen bounded universe
+
+- Exact input profiles: all `197` G75 rows with `lapse_name=AM`, including zero mixing.
+- Metric:
+  `ds^2=-A c_E^2 dt^2+R^2 dx^2/A+R^2x^2 dOmega^2+2Rc_E h sin^2(theta)dt dpsi`,
+  with `A=1-x^2/4` and `h=x^2 q(x^2)`.
+- Registered G75 authority remains only `0<=x<=1`.
+- The analytic continuation toward and through `x=2` is `FREE_AND_EXPLORED`; it is not promoted to
+  physical cosmology.
+- The radial substitution `x=2 sin(chi)` will be analyzed on its one-chart branch and on the
+  minimal doubled spatial candidate `0<=chi<=pi`. The doubled candidate is a mathematical
+  completion to classify, not a selected topology.
+- `R>0` remains symbolic. `c_E` remains the `OBSERVED` clock/ruler calibration.
+- Every angular direction is retained. All exact G75 `q` polynomials are evaluated at the
+  continuation surface; no profile is ranked or removed.
+
+## Exact calculations registered in advance
+
+1. Pull back the complete spatial metric under `x=2 sin(chi)` and determine its intrinsic
+   curvature, chart multiplicity, maximal smooth spatial completion, diameter, injectivity radius,
+   and exact two-point distance formula.
+2. Determine whether the completed spatial distance is frame-shared under its own isometry group,
+   while separately testing whether the complete stationary spacetime shares that transitivity.
+3. Rewrite the stationary reciprocal endpoint depth on the continued chart and test whether it is
+   a globally single-valued function of the completed pair distance.
+4. Rewrite the complete four-metric in the continuation chart and classify the `A=0` surface for
+   every AM profile: full Lorentz regularity, off-axis Lorentz regularity with an invariant
+   degeneracy locus, or full-surface degeneracy.
+5. Evaluate `q(4)` and `h(2)=4q(4)` exactly for all 197 AM rows and preserve every resulting class.
+6. Keep spatial diameter, stationary-observer depth, null/path accessibility, and physical
+   observer-pair separation as different typed outputs unless the equations identify them.
+
+## Classification contract
+
+Every profile receives exactly one continuation regularity class. Every candidate completion is
+reported even if it fails to realize the intended universe. The audit must explicitly distinguish:
+
+- a coordinate/areal-radius branch;
+- an intrinsic spatial completion;
+- a stationary Killing-observer limit;
+- a globally nondegenerate Lorentzian completion; and
+- the still-open physical observer-pair `X_max` realization.
+
+No merit filter, physical-profile ranking, or desired-answer acceptance test is allowed.
+
+## Independent and hostile gates
+
+An independent implementation must reconstruct the spatial completion from an embedded constant-
+curvature model, reproduce the exact distance/diameter and stationary-depth countertests, and
+reclassify all 197 profiles directly from the frozen TSV. Hostile in-memory mutations must reject:
+
+1. a missing or duplicate AM profile;
+2. a wrong completion radius or diameter;
+3. treating `x` as one-to-one on the doubled completion;
+4. identifying `x=2` with the antipode;
+5. promoting a spatial completion to a Lorentzian completion;
+6. treating nonzero mixing as global regularity without checking the axial fixed set;
+7. treating stationary depth as a universal function of pair distance; and
+8. selecting a physical `X_max`, scale, profile, source, action, matter law, or bootstrap closure.
+
+## Falsification and conclusion ceiling
+
+The audit is falsified or downgraded if source hashes drift, the exact coordinate pullback fails,
+the 197-row census does not reproduce, the independent implementation disagrees, or any output
+silently promotes the mathematical completion to physical UDT.
+
+Maximum conclusion:
+
+`BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS`
+
+Even a perfect pass cannot derive the physical observer-pair separation operator, numerical
+`X_max`, physical `R`, a selected profile/source, time-live dynamics, CMB spectrum, action, matter,
+bootstrap closure, boundary functional, or local-signalling law.
+
+## Completeness-map stamp
+
+This covers one exact stationary axial metric family, all of its registered AM mixing profiles,
+the full angular manifold, and one metric-induced analytic continuation class. It drops generic
+ten-function coframe histories, time dependence, arbitrary lapse profiles, other topologies,
+sources, field equations, boundary variation, and bootstrap feedback. Those omissions can host
+additional structure; this audit is one stationary tile.
+
+exec
+/bin/bash -c "sed -n '1,240p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/STATUS_LEDGER.tsv" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+claim	status	scope	remaining_open
+AM_spatial_metric_has_minimal_doubled_round_S3_candidate_radius_2R	DERIVED_CONDITIONAL	transparent AM continuation and minimal doubled simply connected spatial completion candidate	uniqueness of topology physical topology and global spacetime selection
+completed_spatial_diameter_equals_2piR	DERIVED_CONDITIONAL	round S3 spatial candidate	physical observer-pair separation is not identified with this distance
+x_2_is_spatial_equator_not_antipode	DERIVED_CONDITIONAL	doubled S3 coordinate map	physical endpoint ownership
+zero_mix_has_smooth_constant_curvature_Lorentz_extension	DERIVED_CONDITIONAL	one zero-mixing AM control	physical profile and arbitrary mixed completion
+zero_mix_geodesic_observer_static_limit_equals_piR	DERIVED_CONDITIONAL	central-geodesic isometry orbit in zero-mixing completion	accelerated observers and generic complete coframe
+zero_mix_phi_of_patch_distance_equals_minus_log_cos	DERIVED_CONDITIONAL	stationary Killing query with receiver at recentered patch center	universal pair-depth law
+zero_mix_c_eff_ratio_equals_cos_squared	DERIVED_CONDITIONAL	terminal reciprocal readout on same supplied query	mixed/global c_eff ownership
+stationary_depth_is_not_function_of_global_S3_distance	DERIVED_WITHIN_CANDIDATE	zero-mixing doubled spatial completion	other UDT separation types remain open
+all_196_nonzero_AM_profiles_have_nonzero_q_at_4	DERIVED_EXACT	frozen G75 polynomial continuation	physical continuation authority absent
+196_mixed_analytic_chi_extensions_degenerate_on_equatorial_axial_fixed_set	DERIVED_WITHIN_EXTENSION_CLASS	smooth stationary axial doubled continuation	alternative time-live/global completion open
+zero_mix_piR_is_physical_Xmax	CONDITIONAL_CANDIDATE_ONLY	not promoted	needs physical profile scale separation owner and broader frame theorem
+physical_Xmax_value	OPEN	not calculated	R and global physical ownership
+physical_CMB_conclusion	OPEN	not tested	profile source endpoint and observable open
+
+exec
+/bin/bash -c "sed -n '1,260p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PREMISE_LEDGER.tsv" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+item	status	ownership
+c_E	OBSERVED	reciprocal clock/ruler calibration only
+R	SYMBOLIC_OPEN	positive scale retained; numerical value unselected
+AM_lapse	CHOSE_CONTROL	A=1-x^2/4 from frozen G75 family; not a physical profile selection
+G75_AM_profiles	CHOSE_CONTROL	all 197 exact AM rows retained without ranking
+G75_domain_0_1	INHERITED_CONTROL	only domain with original G75 authority
+continuation_to_x_2	FREE_AND_EXPLORED	exact formula continuation; not physical authority
+x_equals_2	CANDIDATE_SURFACE	stationary A=0 surface; not X_max, antipode, wall, or manifold boundary by name
+x_2_sin_chi	DERIVED_COORDINATE_MAP	one-chart radial map; doubled use requires a second branch/chart
+doubled_spatial_completion	CANDIDATE_TO_CLASSIFY	minimal smooth intrinsic spatial extension; topology not selected physics
+stationary_observers	CHOSE_QUERY	Killing-aligned worldlines where timelike; not every observer frame
+stationary_phi	DERIVED_CONDITIONAL	endpoint Killing ratio on the supplied stationary query
+angular_mixing_h	FREE_AND_EXPLORED	all exact q polynomials retained through their transparent continuation
+physical_pair_separation	OPEN	must not be identified with chart radius, one-sided proper length, or spatial diameter without proof
+frame_sharing	OPEN_THEOREM	must distinguish spatial-isometry homogeneity from complete-spacetime observer reciprocity
+physical_X_max	WORKING_FRAME_OPEN_REALIZATION	asymptotic role retained; law and value unselected
+source_action_matter_bootstrap	OPEN_NOT_USED	forbidden as selectors in this audit
+time_live_dynamics	OPEN_NOT_TESTED	stationary classification only
+
+exec
+/bin/bash -c "rg -n \"q\\(4\\)|197|same-latitude|phi=-log cos|c_eff/c_E|x=2 sin\\(chi\\)|equator|hyperboloid|piR|diameter|axial fixed set|bifurcate|observer\" udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md" in /tmp/udt_g84_review_2aO645
+exec
+/bin/bash -c "sed -n '1,260p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/AUDIT_REPORT.md" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+1:# G84 exact derivation — AM spatial completion and observer-patch asymptote
+16:All `197` exact AM controls are retained. Their G75 authority stops at `x=1`; everything below
+56:spatial diameter    = 2πR.
+65:The map `x=2sinχ` is two-to-one off its maximum on the doubled sphere. Thus `x=2` is the equator,
+66:not the antipode and not the spatial diameter. A north-pole observer reaches that equator after
+70:physical UDT observer-pair separation.
+81:It is the static presentation of the smooth constant-curvature Lorentzian hyperboloid
+96:collapse at the bifurcation sphere; additional time-live charts cover the remaining hyperboloid.
+99:The hyperboloid is homogeneous. Algebraically, its isometry group acts transitively on oriented
+101:geodesic observer frames. Each such observer admits an equivalent recentered static patch.
+102:This establishes frame sharing only for that geodesic-observer isometry orbit, not for arbitrary
+103:accelerated observers or nonzero-mixing profiles.
+108:observer. Since `s=2Rχ`, the stationary lapse is
+114:With the receiver normalized at the patch center, the G79/G83 Killing-observer depth and terminal
+126:                         c_eff/c_E -> 0.
+129:Every central geodesic observer in the isometry orbit receives the same stationary-patch limit
+138:accelerated observers are not covered, and the physical pair-separation operator has not been
+143:The completed spatial sphere and the observer-patch law are related but not identical:
+145:1. North pole to equator has `d_S3=πR` and divergent stationary depth.
+146:2. Entirely within the north static patch, take two observers at `χ=π/4` separated by angular
+150:3. Pairs lying within the equatorial two-sphere can have spatial distances ranging from zero to
+151:   `2πR`, while the original stationary observer congruence becomes null there.
+155:`πR` is an observer-patch accessibility scale, not the global spatial diameter. If it becomes
+174:At the equator, the `τ-ψ` block has determinant
+188:q(4)=0:     1 row, the zero-mixing control;
+189:q(4)!=0: 196 rows.
+193:stationary, axial, doubled/bifurcate extension class. This is not a generic no-go. A different
+208:No physical profile, numerical `R`/`X_max`, generic observer theorem, CMB result, source, action,
+
+ succeeded in 0ms:
+# G84 audit report
+
+## Result
+
+The one-sided G83 radial chart hid two different global scales. Its minimal doubled, simply connected
+spatial completion candidate is a round `S^3` of radius `2R`, with diameter `2πR`; the local metric
+does not uniquely select that topology. In this candidate, `x=2` is the equator, not its edge or
+antipode. On the zero-mixing spacetime control, that equator is the horizon of one
+static observer patch. Re-centering the constant-curvature completion on any equivalent central
+geodesic observer gives the same patch limit `πR` and the exact law
+
+```text
+phi(s)=-log cos[s/(2R)],
+c_eff(s)/c_E=cos[s/(2R)]^2.
+```
+
+This is a real conditional frame-sharing advance. It is not yet physical `X_max`: it covers one
+zero-mixing branch and one geodesic-observer class, and `R` plus the physical pair-separation owner
+remain open.
+
+The orchestra matters decisively. Exact evaluation of all 197 AM rows finds one zero-mixing row and
+196 with nonzero mixing at the candidate surface. Their standard stationary doubled continuation
+is Lorentzian off the axial fixed set but degenerates on that fixed set. Thus the zero-mixing global
+completion cannot be silently assigned to the mixed family. A time-live or otherwise different
+global completion is still open.
+
+## What changed
+
+- G83's receiver-dependent one-sided distance was a distance to one fixed chart horizon, not a
+  global maximum-distance formula.
+- Spatial diameter (`2πR`) and observer-patch asymptote (`πR`) are different typed objects.
+- The zero-mixing branch supplies a conditional no-preferred-center re-centering theorem for
+  central geodesic observers.
+- The 196 mixed profiles expose the next honest joint: full time-live/global completion, not more
+  stationary endpoint extrapolation.
+
+## Evidence gates
+
+1. **Preregistered:** yes, commit `3940de4d`, before symbolic/profile outcomes.
+2. **Full or bounded:** full 197-row AM control family, full angular manifold, one explicitly
+   bounded analytic completion class. Generic coframes and time-live histories are omitted.
+3. **Independently verified:** a separate embedding-based implementation reproduces the spatial and
+   zero-mixing spacetime metrics, exact limits, four receiver controls, and all 197 profile classes.
+   A fresh read-only adversarial context reproduced the core result and required the topology and
+   opposite-patch precision repairs now incorporated here.
+4. **Premises audited:** yes; continuation, doubled topology, stationary query, zero mixing, observer
+   class, `R`, and physical ownership remain explicit.
+
+## Landing
+
+`ZERO_MIXING_BRANCH_HAS_CONDITIONAL_FRAME_SHARED_RECENTERED_ASYMPTOTE__NONZERO_MIXED_COMPLETION_OPEN`
+
+Maximum conclusion:
+
+`BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS`.
+
+No physical `X_max`, profile, scale, source, action, matter, bootstrap, boundary, CMB, signal, or
+time-live law is selected.
+
+exec
+/bin/bash -c "sed -n '1,260p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+# G84 fresh cold adversarial review
+
+Date: `2026-08-12`
+
+Reviewer: fresh read-only Codex context `/root/g84_cold_adversary`
+
+Landing: `VERIFIED-WITH-CAVEATS`
+
+## Reproduced load-bearing claims
+
+The reviewer independently reproduced:
+
+- the `x=2 sin(chi)` refactor and round minimal doubled spatial candidate of radius `2R`;
+- sectional curvature `1/(4R^2)`, scalar curvature `3/(2R^2)`, injectivity radius `2piR`, and
+  diameter `2piR`;
+- the zero-mixing constant-curvature Lorentzian embedding and transitive central-geodesic observer
+  isometry orbit;
+- the recentered stationary laws
+  `phi(s)=-log cos[s/(2R)]` and `c_eff/c_E=cos[s/(2R)]^2` on `0<=s<piR`;
+- the conditional common center-to-static-horizon distance `piR` on that observer class;
+- all `197` exact AM rows, with one `q(4)=0` row and `196` nonzero rows, zero atlas
+  mismatches, `104` positive and `92` negative nonzero values, and minimum nonzero
+  `|q(4)|=1/20`;
+- the axial fixed-set degeneracy of the analytic mixed continuation and the stronger
+  symmetry-preserving bifurcation obstruction when `h_H=4q(4)` is nonzero.
+
+The exact profile census was recomputed with standard-library rational arithmetic rather than the
+production SymPy path.
+
+## Corrections required and incorporated
+
+1. The round `S^3` is the preregistered **minimal doubled, simply connected candidate**. The local
+   metric does not establish uniqueness among possible global topologies or identifications.
+2. The former antipodal zero-depth example compared equal lapse magnitudes across opposite static
+   patches, where the displayed static Killing field reverses global time orientation. It was
+   therefore not one valid future-directed stationary pair query. The banked counterexample now
+   stays wholly within the north static patch: at `chi=pi/4`, equal-latitude pairs have zero lapse
+   depth while their spatial distance ranges continuously from `0` to `piR`.
+3. The packaged mutation tests are regression locks, not independent proofs of the mathematics.
+   The embedding reconstruction, exact rational census, and invariant fixed-set calculation carry
+   the adversarial evidential load.
+
+## Scope that did not close
+
+No physical `X_max`, topology, profile, or scale is selected. The result does not cover arbitrary
+accelerated observers, the `196` mixed profiles beyond the declared stationary-axisymmetric
+bifurcate extension class, time-live completions, symmetry-breaking completions, a physical
+pair-separation owner, a CMB observable, source, action, matter, or bootstrap closure.
+
+The surviving maximum conclusion is:
+
+`BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS`.
+
+exec
+/bin/bash -c "sed -n '1,240p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/INDEPENDENT_VERIFICATION.json" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+{
+  "embedded_checks": {
+    "center_to_static_horizon_over_R": "pi",
+    "recentered_c_eff_limit": "ZERO",
+    "recentered_phi_limit": "POSITIVE_INFINITY",
+    "spatial_diameter_over_R": "2*pi",
+    "spatial_embedding_reproduced": true,
+    "spatial_radius_over_R": 2,
+    "zero_mix_spacetime_embedding_reproduced": true
+  },
+  "extension_class_counts": {
+    "NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED": 196,
+    "ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS": 1
+  },
+  "profile_mismatches": [],
+  "profile_rows": 197,
+  "recentered_rows": 4,
+  "schema": "udt-cmb-g84-independent-verification-v1",
+  "scope": "zero-mixing constant-curvature branch plus exact continued q(4) census; generic time-live mixed completion remains open",
+  "source_manifest_rows": 14,
+  "status": "PASS"
+}
+
+codex
+I’ve identified the package’s claimed outputs and the prior cold review. I’m not relying on them as proof; the next pass is data-level: read the frozen AM atlas and zero-mixing formulas directly, then recompute the geometry and the `q(4)` census from source tables and exact algebra.
+exec
+/bin/bash -c "sed -n '1,80p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PROFILE_COMPLETION_ATLAS.tsv" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+profile_id	shape_id	amplitude	q_at_s_4_exact	h_at_x_2_exact	mixing_vanishes_at_candidate_surface	extension_class	physical_status
+G75_F01_AM	ZERO	0	0	0	true	ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S01_E05	S01	1/20	4/5	16/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S01_E20	S01	1/5	16/5	64/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S01_E50	S01	1/2	8	32	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S01_E100	S01	1	16	64	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S02_E05	S02	1/20	-7/5	-28/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S02_E20	S02	1/5	-28/5	-112/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S02_E50	S02	1/2	-14	-56	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S02_E100	S02	1	-28	-112	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S03_E05	S03	1/20	-12/5	-48/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S03_E20	S03	1/5	-48/5	-192/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S03_E50	S03	1/2	-24	-96	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S03_E100	S03	1	-48	-192	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S04_E05	S04	1/20	1/5	4/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S04_E20	S04	1/5	4/5	16/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S04_E50	S04	1/2	2	8	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S04_E100	S04	1	4	16	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S05_E05	S05	1/20	1/2	2	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S05_E20	S05	1/5	2	8	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S05_E50	S05	1/2	5	20	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S05_E100	S05	1	10	40	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S06_E05	S06	1/20	3/5	12/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S06_E20	S06	1/5	12/5	48/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S06_E50	S06	1/2	6	24	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S06_E100	S06	1	12	48	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S07_E05	S07	1/20	-2/5	-8/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S07_E20	S07	1/5	-8/5	-32/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S07_E50	S07	1/2	-4	-16	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S07_E100	S07	1	-8	-32	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S08_E05	S08	1/20	2/5	8/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S08_E20	S08	1/5	8/5	32/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S08_E50	S08	1/2	4	16	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S08_E100	S08	1	8	32	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S09_E05	S09	1/20	-13/20	-13/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S09_E20	S09	1/5	-13/5	-52/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S09_E50	S09	1/2	-13/2	-26	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S09_E100	S09	1	-13	-52	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S10_E05	S10	1/20	-23/40	-23/10	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S10_E20	S10	1/5	-23/10	-46/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S10_E50	S10	1/2	-23/4	-23	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S10_E100	S10	1	-23/2	-46	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S11_E05	S11	1/20	-7/20	-7/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S11_E20	S11	1/5	-7/5	-28/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S11_E50	S11	1/2	-7/2	-14	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S11_E100	S11	1	-7	-28	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S12_E05	S12	1/20	9/20	9/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S12_E20	S12	1/5	9/5	36/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S12_E50	S12	1/2	9/2	18	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S12_E100	S12	1	9	36	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S13_E05	S13	1/20	5/4	5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S13_E20	S13	1/5	5	20	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S13_E50	S13	1/2	25/2	50	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S13_E100	S13	1	25	100	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S14_E05	S14	1/20	-7/8	-7/2	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S14_E20	S14	1/5	-7/2	-14	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S14_E50	S14	1/2	-35/4	-35	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S14_E100	S14	1	-35/2	-70	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S15_E05	S15	1/20	-19/20	-19/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S15_E20	S15	1/5	-19/5	-76/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S15_E50	S15	1/2	-19/2	-38	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S15_E100	S15	1	-19	-76	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S16_E05	S16	1/20	-3/20	-3/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S16_E20	S16	1/5	-3/5	-12/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S16_E50	S16	1/2	-3/2	-6	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S16_E100	S16	1	-3	-12	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S17_E05	S17	1/20	13/20	13/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S17_E20	S17	1/5	13/5	52/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S17_E50	S17	1/2	13/2	26	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S17_E100	S17	1	13	52	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S18_E05	S18	1/20	29/40	29/10	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S18_E20	S18	1/5	29/10	58/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S18_E50	S18	1/2	29/4	29	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S18_E100	S18	1	29/2	58	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S19_E05	S19	1/20	-31/20	-31/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S19_E20	S19	1/5	-31/5	-124/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S19_E50	S19	1/2	-31/2	-62	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S19_E100	S19	1	-31	-124	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S20_E05	S20	1/20	-3/4	-3	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+G75_AM_S20_E20	S20	1/5	-3	-12	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+
+exec
+/bin/bash -c "sed -n '1,80p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COMPLETION_BRANCH_ATLAS.tsv" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+object	domain	status	owns	does_not_own
+G75_REGISTERED_CELL	0<=x<=1	INHERITED_CONTROL_REGULAR	bounded stationary control family	continuation; global completion; X_max
+AM_NORTH_STATIC_BRANCH	0<=chi<pi/2	FREE_AND_EXPLORED_CONTINUATION	one stationary chart branch	antipode; global pair distance; physical endpoint
+DOUBLED_SPATIAL_S3	0<=chi<=pi	DERIVED_INTRINSIC_SPATIAL_COMPLETION_CANDIDATE	round spatial metric radius 2R and diameter 2piR	full Lorentzian history; clock-depth law; physical X_max
+ZERO_MIXING_LORENTZ_EXTENSION	complete constant-curvature hyperboloid	DERIVED_FOR_ZERO_MIXING_CONTROL	smooth extension and frame-shared piR static limit on the central-geodesic isometry orbit	physical profile; arbitrary observers; mixed orchestra; numerical R
+NONZERO_MIXING_STANDARD_EXTENSION	196 continued AM controls	OBSTRUCTED_WITHIN_SMOOTH_SYMMETRY_PRESERVING_BIFURCATE_CLASS	local fixed-point obstruction from nonzero h(2)	generic time-live completion no-go
+
+exec
+/bin/bash -c "sed -n '1,80p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/RECENTERED_OBSERVER_LIMIT_ATLAS.tsv" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+fixed_chart_receiver_x	fixed_chart_distance_to_original_horizon_over_R	recentered_own_horizon_distance_over_R	recentered_candidate_Xmax_over_R	recenter_operation	status
+1/4	pi - 2*asin(1/8)	pi	pi	GLOBAL_ZERO_MIXING_ISOMETRY_TO_NEW_STATIC_PATCH	DERIVED_CONDITIONAL_ZERO_MIXING_GEODESIC_OBSERVER_CLASS
+1/2	pi - 2*asin(1/4)	pi	pi	GLOBAL_ZERO_MIXING_ISOMETRY_TO_NEW_STATIC_PATCH	DERIVED_CONDITIONAL_ZERO_MIXING_GEODESIC_OBSERVER_CLASS
+3/4	pi - 2*asin(3/8)	pi	pi	GLOBAL_ZERO_MIXING_ISOMETRY_TO_NEW_STATIC_PATCH	DERIVED_CONDITIONAL_ZERO_MIXING_GEODESIC_OBSERVER_CLASS
+1	2*pi/3	pi	pi	GLOBAL_ZERO_MIXING_ISOMETRY_TO_NEW_STATIC_PATCH	DERIVED_CONDITIONAL_ZERO_MIXING_GEODESIC_OBSERVER_CLASS
+
+exec
+/bin/bash -c "sed -n '1,40p' udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+profile_id	lapse_name	lapse_a	shape_id	amplitude	q_of_s	max_abs_q	center_h_order_in_x	center_B_order_in_x	endpoint_q	behavior_class	center_status	signature_status	lapse_min	reflection_partner	physical_status
+G75_F01_AM	AM	-1/4	ZERO	0	0	0	INFINITE_ZERO	INFINITE_ZERO	0	ZERO_MIXING_CONTROL	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	SELF	CHOSE_CONTROL_NOT_SELECTED
+G75_F01_A0	A0	0	ZERO	0	0	0	INFINITE_ZERO	INFINITE_ZERO	0	ZERO_MIXING_CONTROL	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	SELF	CHOSE_CONTROL_NOT_SELECTED
+G75_F01_AP	AP	1/4	ZERO	0	0	0	INFINITE_ZERO	INFINITE_ZERO	0	ZERO_MIXING_CONTROL	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	SELF	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S01_E05	AM	-1/4	S01	1/20	s**2/20	1/20	6	10	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S01_E05	A0	0	S01	1/20	s**2/20	1/20	6	10	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S01_E05	AP	1/4	S01	1/20	s**2/20	1/20	6	10	1/20	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S01_E20	AM	-1/4	S01	1/5	s**2/5	1/5	6	10	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S01_E20	A0	0	S01	1/5	s**2/5	1/5	6	10	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S01_E20	AP	1/4	S01	1/5	s**2/5	1/5	6	10	1/5	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S01_E50	AM	-1/4	S01	1/2	s**2/2	1/2	6	10	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S01_E50	A0	0	S01	1/2	s**2/2	1/2	6	10	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S01_E50	AP	1/4	S01	1/2	s**2/2	1/2	6	10	1/2	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S01_E100	AM	-1/4	S01	1	s**2	1	6	10	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S01_E100	A0	0	S01	1	s**2	1	6	10	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S01_E100	AP	1/4	S01	1	s**2	1	6	10	1	CENTER_OFF_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S02_E05	AM	-1/4	S02	1/20	-s**2/10 + s/20	1/20	4	6	-1/20	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S02_E05	A0	0	S02	1/20	-s**2/10 + s/20	1/20	4	6	-1/20	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S02_E05	AP	1/4	S02	1/20	-s**2/10 + s/20	1/20	4	6	-1/20	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S02_E20	AM	-1/4	S02	1/5	-2*s**2/5 + s/5	1/5	4	6	-1/5	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S02_E20	A0	0	S02	1/5	-2*s**2/5 + s/5	1/5	4	6	-1/5	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S02_E20	AP	1/4	S02	1/5	-2*s**2/5 + s/5	1/5	4	6	-1/5	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S02_E50	AM	-1/4	S02	1/2	-s**2 + s/2	1/2	4	6	-1/2	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S02_E50	A0	0	S02	1/2	-s**2 + s/2	1/2	4	6	-1/2	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S02_E50	AP	1/4	S02	1/2	-s**2 + s/2	1/2	4	6	-1/2	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S02_E100	AM	-1/4	S02	1	-2*s**2 + s	1	4	6	-1	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S02_E100	A0	0	S02	1	-2*s**2 + s	1	4	6	-1	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S02_E100	AP	1/4	S02	1	-2*s**2 + s	1	4	6	-1	INTERIOR_SIGN_CHANGE	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S03_E05	AM	-1/4	S03	1/20	-s**2/5 + s/5	1/20	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S03_E05	A0	0	S03	1/20	-s**2/5 + s/5	1/20	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S03_E05	AP	1/4	S03	1/20	-s**2/5 + s/5	1/20	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S03_E20	AM	-1/4	S03	1/5	-4*s**2/5 + 4*s/5	1/5	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S03_E20	A0	0	S03	1/5	-4*s**2/5 + 4*s/5	1/5	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S03_E20	AP	1/4	S03	1/5	-4*s**2/5 + 4*s/5	1/5	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S03_E50	AM	-1/4	S03	1/2	-2*s**2 + 2*s	1/2	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S03_E50	A0	0	S03	1/2	-2*s**2 + 2*s	1/2	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S03_E50	AP	1/4	S03	1/2	-2*s**2 + 2*s	1/2	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AM_S03_E100	AM	-1/4	S03	1	-4*s**2 + 4*s	1	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_A0_S03_E100	A0	0	S03	1	-4*s**2 + 4*s	1	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+G75_AP_S03_E100	AP	1/4	S03	1	-4*s**2 + 4*s	1	4	6	0	ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	1	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+
+exec
+/bin/bash -c "sed -n '1,240p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+# G84 exact derivation — AM spatial completion and observer-patch asymptote
+
+## 1. Scope and metric
+
+The frozen stationary axial `AM` control family is
+
+```text
+ds^2/R^2 = -A(x) dτ^2 + dx^2/A(x)
+            + x^2(dθ^2+sin(θ)^2 dψ^2)
+            + 2 h(x) sin(θ)^2 dτ dψ,
+A(x)=1-x^2/4,
+h(x)=x^2 q(x^2),
+τ=c_E t/R.
+```
+
+All `197` exact AM controls are retained. Their G75 authority stops at `x=1`; everything below
+that uses `x>1` is a transparent `FREE_AND_EXPLORED` continuation. `R` remains symbolic and
+unselected.
+
+## 2. The spatial geometry hidden by the areal-radius chart
+
+Set
+
+```text
+x = 2 sin(χ).
+```
+
+On either monotone chart branch,
+
+```text
+A = cos(χ)^2,
+dx^2/A = 4 dχ^2.
+```
+
+Therefore every AM profile has the same intrinsic spatial metric
+
+```text
+dℓ^2 = 4R^2[dχ^2+sin(χ)^2 dΩ^2].
+```
+
+The minimal doubled, simply connected spatial completion candidate `0<=χ<=π` is the round
+three-sphere of radius `2R`. The local continuation does not uniquely select this topology; smooth
+quotients or other global identifications require a separate global-completion rule.
+This follows directly from the Euclidean embedding
+
+```text
+Y=(2R cosχ, 2R sinχ n),  n in S^2.
+```
+
+Consequently,
+
+```text
+sectional curvature = 1/(4R^2),
+scalar curvature    = 3/(2R^2),
+injectivity radius  = 2πR,
+spatial diameter    = 2πR.
+```
+
+For embedded points `Y_p,Y_q`, the exact completed spatial distance is
+
+```text
+d_S3(p,q) = 2R arccos[(Y_p·Y_q)/(4R^2)].
+```
+
+The map `x=2sinχ` is two-to-one off its maximum on the doubled sphere. Thus `x=2` is the equator,
+not the antipode and not the spatial diameter. A north-pole observer reaches that equator after
+proper radial distance `πR`; its antipode is `2πR` away.
+
+This derives an intrinsic spatial completion candidate. It does not make that spatial distance the
+physical UDT observer-pair separation.
+
+## 3. Zero-mixing spacetime extension
+
+For the single zero-mixing row, the full continued metric is
+
+```text
+ds^2/R^2 = -cos(χ)^2 dτ^2
+            +4[dχ^2+sin(χ)^2dΩ^2].
+```
+
+It is the static presentation of the smooth constant-curvature Lorentzian hyperboloid
+
+```text
+-X0^2+X1^2+X2^2+X3^2+X4^2 = 4R^2
+```
+
+under
+
+```text
+X0 = 2R cosχ sinh(τ/2),
+X4 = 2R cosχ cosh(τ/2),
+(X1,X2,X3) = 2R sinχ n.
+```
+
+Direct pullback returns the displayed metric. The static coordinates cover two static regions and
+collapse at the bifurcation sphere; additional time-live charts cover the remaining hyperboloid.
+Thus the lapse zero is a stationary-chart horizon, not a material edge or manifold boundary.
+
+The hyperboloid is homogeneous. Algebraically, its isometry group acts transitively on oriented
+timelike two-planes through the embedding origin, hence on the corresponding central timelike
+geodesic observer frames. Each such observer admits an equivalent recentered static patch.
+This establishes frame sharing only for that geodesic-observer isometry orbit, not for arbitrary
+accelerated observers or nonzero-mixing profiles.
+
+## 4. Recentered stationary pair law on the zero-mixing branch
+
+Let `s` be outward spatial proper distance on one recentered static slice from its central geodesic
+observer. Since `s=2Rχ`, the stationary lapse is
+
+```text
+A(s)=cos[s/(2R)]^2,       0<=s<πR.
+```
+
+With the receiver normalized at the patch center, the G79/G83 Killing-observer depth and terminal
+reciprocal readout become
+
+```text
+φ(s) = -log cos[s/(2R)],
+c_eff(s)/c_E = exp[-2φ(s)] = cos[s/(2R)]^2.
+```
+
+Therefore
+
+```text
+s -> πR from below  =>  φ -> +infinity,
+                         c_eff/c_E -> 0.
+```
+
+Every central geodesic observer in the isometry orbit receives the same stationary-patch limit
+`πR`. This is the first exact frame-shared recentered asymptote in the current branch record.
+Its exact status is
+
+```text
+DERIVED_CONDITIONAL_ZERO_MIXING_CONSTANT_CURVATURE_GEODESIC_OBSERVER_CLASS.
+```
+
+It is not yet physical `X_max`: zero mixing is one control, `R` is unselected, arbitrary
+accelerated observers are not covered, and the physical pair-separation operator has not been
+identified with this static-patch distance.
+
+## 5. Why stationary depth is not global spatial distance
+
+The completed spatial sphere and the observer-patch law are related but not identical:
+
+1. North pole to equator has `d_S3=πR` and divergent stationary depth.
+2. Entirely within the north static patch, take two observers at `χ=π/4` separated by angular
+   angle `γ`. They have identical lapse and hence zero endpoint lapse-depth, while
+   `d_S3/R=2 arccos[(1+cosγ)/2]` ranges continuously from zero to `π`. This avoids treating the
+   opposite static patch as one future-directed stationary pair query.
+3. Pairs lying within the equatorial two-sphere can have spatial distances ranging from zero to
+   `2πR`, while the original stationary observer congruence becomes null there.
+
+Thus no single-valued function `φ=f(d_S3)` exists even within one regular static patch of the
+minimal completed spatial sphere. The candidate
+`πR` is an observer-patch accessibility scale, not the global spatial diameter. If it becomes
+physical `X_max`, then the missing UDT separation type cannot be unrestricted spatial geodesic
+distance on the completed slice.
+
+This resolves G83's receiver-dependent one-sided lengths only in the central-geodesic recentered
+class. A receiver held at fixed nonzero radius is accelerated and is not silently promoted into
+that class.
+
+## 6. Complete nonzero-mixing continuation
+
+In `χ`, the complete continued metric is
+
+```text
+ds^2/R^2 = -cos(χ)^2 dτ^2
+            +4[dχ^2+sin(χ)^2dΩ^2]
+            +2h(χ)sin(θ)^2dτdψ,
+h(χ)=4sin(χ)^2 q(4sin(χ)^2).
+```
+
+At the equator, the `τ-ψ` block has determinant
+
+```text
+-h(π/2)^2 sin(θ)^4.
+```
+
+It is Lorentzian away from the axial fixed points when `h(π/2)!=0`. At either axial fixed point,
+the axial Killing vector vanishes, the mixing one-form vanishes, and `g(∂τ,·)=0`; the analytic
+`χ` continuation is genuinely degenerate there. A corotating redefinition cannot remove this
+fixed-point kernel because adding the vanishing axial generator leaves `∂τ` unchanged on the axis.
+
+Direct exact evaluation of every frozen AM polynomial at `s=x^2=4` gives:
+
+```text
+q(4)=0:     1 row, the zero-mixing control;
+q(4)!=0: 196 rows.
+```
+
+Hence all 196 nonzero-mixing continuations are obstructed within this standard smooth,
+stationary, axial, doubled/bifurcate extension class. This is not a generic no-go. A different
+time-live completion, symmetry reduction, branch topology, or metric evolution could change the
+extension problem, and none is supplied here.
+
+## 7. Exact landing
+
+```text
+ZERO_MIXING_BRANCH_HAS_CONDITIONAL_FRAME_SHARED_RECENTERED_ASYMPTOTE
+__NONZERO_MIXED_COMPLETION_OPEN
+```
+
+Maximum package conclusion:
+
+`BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS`.
+
+No physical profile, numerical `R`/`X_max`, generic observer theorem, CMB result, source, action,
+matter law, bootstrap closure, boundary functional, local-signalling law, or time-live dynamics is
+derived.
+
+exec
+/bin/bash -c "sed -n '1,220p' udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXACT_DERIVATION.md" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+# G83 exact derivation
+
+## 1. Metric and ownership
+
+The banked G75 stationary control family is
+
+\[
+ds^2=-A(x)c_E^2dt^2+\frac{R^2}{A(x)}dx^2
++R^2x^2(d\theta^2+\sin^2\theta\,d\psi^2)
++2Rc_Eh(x)\sin^2\theta\,dt\,d\psi,
+\]
+
+with
+
+\[
+A(x)=1+a x^2,\qquad h(x)=x^2q(x^2).
+\]
+
+The 591 G75 rows are `CHOSE_CONTROL`, not selected physical profiles. Their registered domain is `0<=x<=1`. The continuation below is `FREE_AND_EXPLORED`: it preserves the exact formula but does not claim that the G75 construction owned the region `x>1`.
+
+## 2. Strict registered-domain result
+
+For `a in {-1/4,0,+1/4}`,
+
+\[
+\min_{0\le x\le1}A(x)\in\{3/4,1,1\}>0.
+\]
+
+Therefore every one of the 591 registered profiles has a finite stationary endpoint ratio at the G75 control surface `x=1`. No G75 row realizes infinite stationary reciprocal depth on its declared domain.
+
+This is `DERIVED_WITHIN_THE_G75_CONTROL_DOMAIN`. It does not say that UDT lacks an observer-pair asymptote.
+
+## 3. Transparent lapse continuation
+
+The three lapse families behave differently if the same formulas are continued to positive `x`:
+
+\[
+A_-(x)=1-\frac{x^2}{4},\qquad A_0(x)=1,\qquad
+A_+(x)=1+\frac{x^2}{4}.
+\]
+
+Only `AM` has a positive lapse zero, at `x=2`. For a fixed stationary receiver `x_r<2` and a continued source `x_s<2`, the G79 stationary Killing-observer readout gives
+
+\[
+\phi_{\rm pair}(x_r,x_s)
+=\frac12\log\frac{A(x_r)}{A(x_s)},
+\]
+
+and the terminal reciprocal calibration gives conditionally
+
+\[
+\frac{c_{\rm eff}(x_s)}{c_{\rm eff}(x_r)}
+=e^{-2\phi_{\rm pair}}
+=\frac{A(x_s)}{A(x_r)}.
+\]
+
+Hence, on this stationary continuation,
+
+\[
+x_s\to2^-\quad\Longrightarrow\quad
+\phi_{\rm pair}\to+\infty,
+\qquad
+\frac{c_{\rm eff}(x_s)}{c_{\rm eff}(x_r)}\to0.
+\]
+
+That is an exact stationary asymptote candidate. It is not yet the physical `X_max`: `x` is a chart/control variable, `R` is unselected, the source surface is unowned, and no global observer-pair separation operator has been supplied.
+
+`A0` and `AP` have no positive stationary lapse zero. This classifies those two lapse ansatz continuations only; it does not exclude a different global pair relation from realizing `X_max`.
+
+## 4. Why radial proper length does not close `X_max`
+
+For the AM radial stationary slice,
+
+\[
+\frac{\ell(x_r,x_s)}{R}
+=\int_{x_r}^{x_s}\frac{dx}{\sqrt{1-x^2/4}}
+=2\left[\arcsin\frac{x_s}{2}-\arcsin\frac{x_r}{2}\right].
+\]
+
+The candidate limit is finite:
+
+\[
+\lim_{x_s\to2^-}\frac{\ell}{R}
+=\pi-2\arcsin\frac{x_r}{2}.
+\]
+
+But
+
+\[
+\frac{d}{dx_r}\left(\pi-2\arcsin\frac{x_r}{2}\right)
+=-\frac{2}{\sqrt{4-x_r^2}}\ne0.
+\]
+
+Thus this one-sided radial proper length depends on the receiver chart position. It is not, by itself, the frame-shared maximum distance between two observers. A pair-recentering or global-completion rule is still required.
+
+## 5. Complete path result
+
+The lapse calculation does not exhaust the metric. G83 continued all 197 AM G75 rows—zero mixing plus every polynomial shape and amplitude—to three fixed lapse levels:
+
+\[
+A_s\in\{2^{-4},2^{-8},2^{-12}\},
+\qquad x_s=2\sqrt{1-A_s}.
+\]
+
+The complete 32-state null-geodesic, transported-screen, and Jacobi system retained `h=x^2q(x^2)` and all induced metric mixing. From the fixed receiver `x_r=1/4`, the 591 paths classified as:
+
+| status | rows |
+|---|---:|
+| `ENDPOINT_REGULAR_NO_CAUSTIC` | 516 |
+| `TURNING_NO_ENDPOINT` | 18 |
+| `AFFINE_CAP_NO_ENDPOINT` | 57 |
+| solver/nonfinite failure | 0 |
+
+All 516 reached rows passed every preregistered raw residual threshold. Their maxima were:
+
+| residual | maximum |
+|---|---:|
+| null | `2.204e-14` |
+| screen Gram | `1.981e-11` |
+| screen-ray orthogonality | `3.371e-10` |
+| stationary `p_t` | `3.602e-11` |
+| axial `p_psi` | `7.541e-13` |
+
+The six profiles that turned did so at all three approach levels. Ten profiles hit the affine cap at all three levels; twelve first reached at `2^-4` but hit the cap at `2^-8` and `2^-12`; three reached through `2^-8` but hit the cap at `2^-12`; 166 reached all three surfaces.
+
+This is the main structural result: the AM lapse supplies one common stationary endpoint asymptote candidate, but complete observer-ray accessibility remains profile dependent once the angular/mixing orchestra is active. The scalar lapse endpoint and the path/screen channels are related but not interchangeable.
+
+The 75 unreached rows are not no-go results. `AFFINE_CAP_NO_ENDPOINT` is explicitly a bounded numerical status, and the G75 polynomials were normalized only on `0<=x<=1`; their continuation to `x>1` is exploratory.
+
+## 6. Independent gates
+
+- Exact SymPy reconstruction independently proved the lapse/source identity, the divergent reciprocal depth, the vanishing conditional `c_eff` ratio, and the receiver-dependent finite proper-length limit.
+- Eighteen stratified Radau replays covered zero mixing and every represented behavior class at all three approach levels. All 18 matched the DOP853 endpoint status, affine endpoint, and screen determinant within `1e-7`.
+- This Radau check is an independent solver-family replay, not an independent geometry implementation. The exact scalar proof is the independent load-bearing check for the asymptote statement.
+
+## 7. Landing
+
+`BOUNDED_STATIONARY_ENDPOINT_ASYMPTOTE_CANDIDATE_ATLAS`
+
+The AM continuation realizes the defining divergence pattern of an `X_max` candidate within a stationary chart, and the complete angular/mixing sector materially changes path accessibility to its neighborhood. Physical `X_max`, its numerical value, its observer-pair re-centering, the scale `R`, a source surface, and global completion all remain `OPEN`.
+
+exec
+/bin/bash -c "sed -n '1,220p' udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+# G79 exact derivation — one dimensional redshift and area query on one geometry
+
+Date: 2026-08-11
+
+Status before fresh external review:
+`PROVISIONAL_INTERNALLY_VERIFIED__FRESH_ADVERSARIAL_REVIEW_REQUIRED`
+
+## 1. Scoped metric and query
+
+The outcome-independent preregistered selection rule returns the first nonzero row of the frozen
+G75 atlas:
+
+```text
+profile_id = G75_AM_S01_E05
+A(x)       = 1 - x^2/4
+q(s)       = s^2/20
+h(x)       = x^2 q(x^2) = x^6/20.
+```
+
+This is a `CHOSE_CONTROL` geometry, not a physical profile.  Its dimensional metric is
+
+```text
+ds^2 = -A(x)c_E^2 dt^2 + R^2 A(x)^(-1) dx^2
+       + R^2 x^2(dtheta^2 + sin(theta)^2 dpsi^2)
+       + 2 R c_E h(x) sin(theta)^2 dt dpsi.
+```
+
+The receiver is the coordinate-stationary observer at `x_r=1/4`; the source is the first outward
+crossing of the control sphere `x_s=1`.  The ray is the outward radial member of the receiver's
+complete metric-orthonormal sky.  Both endpoint observers are proportional to the stationary
+Killing field.  These are query choices.  Neither endpoint is last scattering or `X_max`.
+
+With `tau=c_E t/R`,
+
+```text
+ds^2 = R^2 dSigma^2.
+```
+
+This factorization determines the scale power of the Jacobi result; it does not make the physical
+metric scale-free and it does not determine `R`.
+
+## 2. Stationary endpoint redshift
+
+Let `K=partial_tau`.  Along the null ray,
+
+```text
+E = -g(K,k)
+```
+
+is conserved.  A coordinate-stationary observer has four-velocity
+
+```text
+U = K/sqrt(A),
+```
+
+so its measured frequency is
+
+```text
+omega = -g(U,k) = E/sqrt(A).
+```
+
+For a source at `x_s` and receiver at `x_r`, the registered convention gives
+
+```text
+1+z = omega_source/omega_receiver = sqrt(A_receiver/A_source).
+```
+
+Here,
+
+```text
+A_receiver = 63/64,
+A_source   = 3/4,
+1+z        = sqrt(21)/4 = 1.14564392373896...,
+phi_pair   = log(sqrt(21)/4) = 0.13596685774182....
+```
+
+Direct endpoint contraction agrees with this exact Killing result to
+`2.886579864025407e-15`.  The mixing profile is not set to zero.  It does not enter this particular
+stationary endpoint ratio because Killing energy and the endpoint lapse own the ratio; it remains
+active in the null route, screen transport, and area response.
+
+## 3. Angular distance and physical scale
+
+The full null path, parallel screen, curvature, and two-column Jacobi system are integrated in the
+dimensionless metric.  If `D_hat` is the resulting dimensionless screen Jacobi matrix, the
+physical matrix is
+
+```text
+D = R D_hat,
+```
+
+and the angular diameter distance is
+
+```text
+d_A = sqrt(|det D|) = R sqrt(|det D_hat|).
+```
+
+The highest registered refinement gives
+
+```text
+D_hat = [[0.7559967070430084, -1.0146339127533253e-22],
+         [-1.0146395760931919e-22, 0.7559733363044177]],
+
+d_A/R = 0.7559850215834019.
+```
+
+All three `1024/2048/4096` maximum-step controls agree at roundoff scale.  The endpoint is regular,
+with no post-origin caustic.  The complete residuals are recorded in `DERIVATION_RESULT.json`.
+
+An independently written direct-Christoffel plus neighboring-ray implementation does not use the
+production Riemann or Jacobi equation.  It returns
+
+```text
+d_A/R                         = 0.7559850216165416,
+relative full-D difference    = 4.3838551044245423e-11,
+redshift absolute difference = 6.661338147750939e-16,
+maximum endpoint null error   = 2.1058184982859585e-15.
+```
+
+## 4. Exact SNe type join, without a fit
+
+The frozen SNe assembly conditionally identifies its radial profile with angular distance:
+
+```text
+d_A = r.
+```
+
+That makes its P1 distance the same output type as the G79 `d_A`, but only under that already
+registered conditional readout premise.  P1 is not inserted into the metric and no fit is run.
+At the single G79 point,
+
+```text
+R/R_w = [1-(1+z)^(-2/n)] / (d_A/R).
+```
+
+This is a no-fit compatibility expression with free `n`; it is not a determination of `R`, `R_w`,
+or a physical profile.
+
+## 5. Conditional lens-plus-redshift temperature readout
+
+Geometry has now supplied two distinct pieces for this one query:
+
+1. an endpoint frequency multiplier `1/(1+z)`;
+2. an angular Jacobi/lens map `D`.
+
+If, separately, a one-parameter thermal source spectrum is supplied and transforms only by the
+derived frequency ratio, then
+
+```text
+T_observed/T_source = 1/(1+z) = exp(-phi_pair) = 4/sqrt(21).
+```
+
+Only after the dimensional SNe relation and/or the physical `X_max` endpoint curve has been mapped,
+a future whole-sky query with source-direction map `F_sky(n)` and direction-dependent redshift could
+use the corresponding **conditional** readout
+
+```text
+T_observed(n) = T_source(F_sky(n)) / [1+z(n)].
+```
+
+This records—but does not yet activate—the user's old lenses-plus-redshift picture: the lens remaps
+which source direction is seen, while reciprocal clock dilation rescales the thermal
+frequency/temperature parameter.  It remains a typed future readout, not a native CMB source or
+thermalization law.  A uniform source and direction-independent redshift remain uniform; lensing
+alone does not create a temperature pattern in this conditional order-zero statement.
+
+## 6. Exact landing
+
+```text
+DERIVED_CONDITIONAL_ON_ONE_FROZEN_GEOMETRY_AND_ONE_CHOSEN_STATIONARY_QUERY
+```
+
+This is the first same-geometry join in this arc that returns both `phi_pair` and `d_A/R` before
+consulting P1.  It does not select the physical profile, `R`, endpoint, `X_max`, source state, SNe
+fit, CMB temperature field, CMB spectrum, action, matter law, or bootstrap rule.
+
+exec
+/bin/bash -c "sed -n '1,220p' udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+# Exact derivation — reciprocal `c_E` as the terminal positional evaluator
+
+Date: 2026-08-09
+Mode: metric-led, exact analytic/CPU
+Current grade: **VERIFIED-WITH-CAVEATS**
+
+## 1. The type reversal
+
+The previous solder audit asked the metric to transport already-normalized endpoint clock/ruler
+frames and then looked for dilation in that transport. Metric-compatible transport preserves the
+norms of normalized frames, so the result was necessarily zero.
+
+The corrected order is:
+
+```text
+complete metric/coframe
++ an A-calibrated ordered observer-pair relation
+    -> complete induced pair metric
+    -> clock density + orthogonal ruler density + shift
+    -> terminal reciprocal-c_E readout
+    -> reciprocal log-imbalance coordinate
+    -> conditional pair-calibration c_eff readout.
+```
+
+The dilation is not a deformation applied after a distance is known. It is the reciprocal
+anisotropy of the complete calibrated pair relation. The angular and mixing sectors enter before
+the final readout.
+
+Once a physically calibrated pair surface or comparison Jacobian is supplied, no additional
+scalar calibration variable is needed to perform the local algebraic readout. This re-expresses
+the needed calibration state in the supplied pair-map parameterization; it does **not** derive the
+physical calibration-state realization or observer/event-pair map from the complete metric alone.
+
+## 2. The complete pair metric
+
+Let `Sigma` be a two-dimensional comparison surface for an ordered observer query, and let
+
+```text
+F: Sigma -> (M,g)
+```
+
+be a regular pair map. Use dimension-matched comparison coordinates
+
+```text
+y^0 = c_E tau_A,
+y^1 = s_A,
+```
+
+where `tau_A` is observer A's proper clock parameter and `s_A` is a ruler parameter calibrated at
+A. The induced pair metric is
+
+```text
+h = F^* g.
+```
+
+For a complete coframe `theta^a` and pair-map tangents `J_i=F_*(partial_i)`, define
+
+```text
+V_i^a = theta^a(J_i),
+h_ij  = eta_ab V_i^a V_j^b.
+```
+
+This formula retains every coframe slot. Clock-screen, ruler-screen, angular, shift, twist, and
+global-branch effects can all alter `V_i^a` and therefore alter `h`. No angular correction is
+attached after the fact.
+
+The object is invariant under local Lorentz changes of complete coframe because
+
+```text
+V_i -> Lambda V_i,
+Lambda^T eta Lambda=eta,
+```
+
+leaves `h_ij` unchanged. It is also spacetime-diffeomorphism natural because it is a pullback
+metric.
+
+The physical premise lies in `F` and its calibration, not in a coordinate component identity.
+Arbitrary endpoint charts do not qualify.
+
+## 3. Unique clock–ruler–shift decomposition
+
+On the regular stratum
+
+```text
+h_00 < 0,
+det h < 0,
+```
+
+there are unique positive functions `T,L` and one real shift `beta` such that
+
+```text
+h = -T^2 (dy^0 + beta dy^1)^2 + L^2 (dy^1)^2.
+```
+
+They are read directly from the complete pair metric:
+
+```text
+T^2    = -h_00,
+beta   = h_01/h_00,
+L^2    = h_11 - h_01^2/h_00,
+T L    = sqrt(-det h).
+```
+
+`T` is the clock-line density. `L` is the ruler density after the ruler direction is
+orthogonalized against the clock line inside the complete pair plane. The shift is not thrown
+away; it is separated as its own exact datum.
+
+Now decompose the two positive densities uniquely as
+
+```text
+T = sigma exp(-phi),
+L = sigma exp(+phi).
+```
+
+Solving gives
+
+```text
+sigma = sqrt(T L) = (-det h)^(1/4),
+
+phi = (1/2) log(L/T)
+    = (1/4) log(-det h) - (1/2) log(-h_00)
+    = (1/4) log[(-det h)/h_00^2].
+```
+
+This is not an ansatz. It is the unique positive common-scale/reciprocal-depth decomposition of
+the regular pair metric relative to its calibrated clock line.
+
+The algebra has the exact required symmetries:
+
+- common scaling `(T,L)->(Omega T,Omega L)` changes `sigma` and leaves `phi` fixed;
+- reciprocal scaling `(T,L)->(exp(-a)T,exp(+a)L)` leaves `sigma` fixed and sends
+  `phi->phi+a`;
+- abstract channel exchange sends `phi->-phi` and leaves `sigma` fixed;
+- ruler orientation reversal leaves all density quantities unchanged.
+
+The common-scale cancellation is an algebraic property of this readout. It is **not** a restored
+claim that the physical metric is fundamentally scale free. `c_E` explicitly calibrates `y^0`.
+
+### Sharp uniqueness and calibration scope
+
+The uniqueness statement is exact but scoped. `phi` is the unique **reciprocal-channel coordinate**
+in the displayed common-scale/reciprocal/shift decomposition, equivalently the previously derived
+graded-density character. It is not a theorem forbidding somebody from defining a different
+higher-derivative or nonlocal scalar such as `phi+f(curvature)`; that would be an additional
+physical law, not the primary reciprocal positional channel.
+
+The pair-map calibration is load-bearing. A common rescaling of both tape coordinates changes only
+`sigma`, while an independent reciprocal rescaling changes `phi` by the rescaling depth. The latter
+is not gauge once `y^0=c_E tau_A` and the ruler parameter are physically fixed. Merely requiring
+`h=eta` at A is insufficient if arbitrary endpoint-dependent reparameterizations remain allowed;
+the supplied pair map must carry its A-fixed proper-time/affine-ruler parameterization to B.
+
+## 4. Reciprocal `c_E` is the terminal evaluator
+
+The two null slopes of the induced pair metric are
+
+```text
+w_+ = dy^1/dy^0 =  T/(L-T beta),
+w_- = dy^1/dy^0 = -T/(L+T beta).
+```
+
+The orientation-balanced inverse-slope combination is exact:
+
+```text
+(1/2)(1/w_+ - 1/w_-) = L/T.
+```
+
+Hence define the conditional geometric pair-calibration readout
+
+```text
+c_eff^(pair)/c_E = T/L = exp(-2 phi),
+
+phi = -(1/2) log[c_eff^(pair)/c_E].
+```
+
+This implements the user's proposed order on a supplied calibrated pair map: its full pullback
+metric is assembled first; the fixed reciprocal `c_E` conversion then assigns a terminal readout
+to the supplied B on A's calibrated clock/ruler tape. The shift is removed by an intrinsic two-way
+combination, not by setting it to zero.
+
+This `c_eff^(pair)` is a **conditional geometric pair-calibration readout**. On mixed complete
+geometries, identifying it with the universal physical `c_eff` ratio remains open because the
+physical pair map and calibration-state owner remain open. No statement about material signals,
+information propagation, or source dynamics follows.
+
+On the founded pure reciprocal branch,
+
+```text
+h = diag(-exp(-2phi), exp(+2phi)),
+```
+
+the determinant is `-1`, `T=exp(-phi)`, `L=exp(+phi)`, and every displayed formula returns the
+original `phi` and `c_eff/c_E=exp(-2phi)` exactly.
+
+## 5. Endpoint-relative depth and the role of A
+
+At two points on one consistently calibrated pair surface, write
+
+```text
+T_i=sigma_i exp(-phi_i),
+L_i=sigma_i exp(+phi_i).
+```
+
+The relative reciprocal depth is
+
+```text
+delta_AB
+ = (1/2) log[(L_B/T_B)/(L_A/T_A)]
+ = phi_B-phi_A.
+```
+
+All endpoint common scales cancel even when `sigma_A != sigma_B`. Choosing A's proper clock and
+ruler calibration sets `phi_A=0` on the tape origin, so the terminal value at B is `phi_AB`.
+
+This explains why the older factorization counterexamples do not refute the new result. Those
+examples allowed independent reciprocal refactorizations at each endpoint. Once one physical
+A-calibrated pair tape is supplied, such a refactorization changes the tape and is not a
+presentation gauge. Common scaling remains harmless; reciprocal rescaling is precisely the depth
+being measured.
+
+
+codex
+I have enough of the package’s stated logic to stop reading summaries and start recomputation. I’m now checking the exact atlases and, separately, the local verification scripts so I can report both mathematical reproduction and package reproducibility without conflating the two.
+exec
+/bin/bash -c "sed -n '1,260p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_package.py" in /tmp/udt_g84_review_2aO645
+exec
+/bin/bash -c "sed -n '1,160p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PAIR_DISTANCE_COUNTEREXAMPLES.tsv" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+case	spatial_distance_over_R	stationary_depth	meaning
+NORTH_POLE_TO_EQUATOR	pi	+infinity_limit	infinite stationary depth occurs at half the S3 diameter
+SAME_LATITUDE_NORTH_PATCH_GAMMA_RANGE	0_to_pi	0	at chi=pi/4, valid future-directed stationary pairs share phi while d/R=2*acos((1+cos(gamma))/2) varies
+EQUATOR_PAIR_VARIABLE_ANGLE	0_to_2*pi	stationary_observers_not_timelike	one lapse-zero surface contains many pair distances
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Fail-closed package verifier for G84."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+from collections import Counter
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+EXPECTED_COUNTS = {
+    "ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS": 1,
+    "NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED": 196,
+}
+FORBIDDEN_PROMOTIONS = (
+    "PHYSICAL_XMAX_SELECTED",
+    "PHYSICAL_PROFILE_SELECTED",
+    "PHYSICAL_R_SELECTED",
+    "CMB_PREDICTION",
+    "BOOTSTRAP_CLOSED",
+)
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def rows(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def verify_sources() -> int:
+    manifest = rows(HERE / "SOURCE_MANIFEST.tsv")
+    assert len(manifest) == len({row["path"] for row in manifest}) == 14
+    for row in manifest:
+        assert digest(ROOT / row["path"]) == row["sha256"]
+    return len(manifest)
+
+
+def validate_profiles(records: list[dict[str, str]]) -> Counter[str]:
+    assert len(records) == len({row["profile_id"] for row in records}) == 197
+    counts = Counter(row["extension_class"] for row in records)
+    assert counts == EXPECTED_COUNTS
+    zero = [row for row in records if row["extension_class"] == "ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS"]
+    assert len(zero) == 1 and zero[0]["profile_id"] == "G75_F01_AM"
+    assert zero[0]["q_at_s_4_exact"] == zero[0]["h_at_x_2_exact"] == "0"
+    for row in records:
+        if row["profile_id"] != "G75_F01_AM":
+            assert row["q_at_s_4_exact"] != "0"
+            assert row["mixing_vanishes_at_candidate_surface"] == "false"
+        assert row["physical_status"] == "CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS"
+    return counts
+
+
+def validate_geometry(geometry: dict[str, object]) -> None:
+    expected = {
+        "coordinate_map": "x=2*sin(chi)",
+        "spatial_radius_over_R": "2",
+        "spatial_diameter_over_R": "2*pi",
+        "spatial_injectivity_radius_over_R": "2*pi",
+        "equator_x": "2",
+        "north_pole_to_equator_over_R": "pi",
+        "x_map_multiplicity": "TWO_TO_ONE_OFF_EQUATOR_ON_DOUBLED_S3",
+        "zero_mix_recentered_static_limit_over_R": "pi",
+        "zero_mix_candidate_Xmax": "pi*R",
+        "zero_mix_frame_scope": "GLOBAL_ISOMETRY_ORBIT_OF_CENTRAL_GEODESIC_OBSERVERS",
+    }
+    for key, value in expected.items():
+        assert geometry[key] == value, key
+
+
+def validate_recenter(records: list[dict[str, str]]) -> None:
+    assert len(records) == len({row["fixed_chart_receiver_x"] for row in records}) == 4
+    assert len({row["fixed_chart_distance_to_original_horizon_over_R"] for row in records}) == 4
+    assert {row["recentered_own_horizon_distance_over_R"] for row in records} == {"pi"}
+    assert {row["recentered_candidate_Xmax_over_R"] for row in records} == {"pi"}
+    assert {row["status"] for row in records} == {"DERIVED_CONDITIONAL_ZERO_MIXING_GEODESIC_OBSERVER_CLASS"}
+
+
+def validate_counterexamples(records: list[dict[str, str]]) -> None:
+    assert len(records) == len({row["case"] for row in records}) == 3
+    by_case = {row["case"]: row for row in records}
+    assert by_case["NORTH_POLE_TO_EQUATOR"]["spatial_distance_over_R"] == "pi"
+    assert by_case["SAME_LATITUDE_NORTH_PATCH_GAMMA_RANGE"]["spatial_distance_over_R"] == "0_to_pi"
+    assert by_case["SAME_LATITUDE_NORTH_PATCH_GAMMA_RANGE"]["stationary_depth"] == "0"
+    assert by_case["EQUATOR_PAIR_VARIABLE_ANGLE"]["spatial_distance_over_R"] == "0_to_2*pi"
+
+
+def validate_authority(text: str) -> None:
+    for token in FORBIDDEN_PROMOTIONS:
+        assert token not in text
+    required = (
+        "physical `X_max`",
+        "time-live",
+        "zero-mixing",
+        "central geodesic",
+        "not the global spatial diameter",
+        "minimal doubled",
+    )
+    for token in required:
+        assert token in text, token
+
+
+def main() -> None:
+    source_rows = verify_sources()
+    result = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    profiles = rows(HERE / "PROFILE_COMPLETION_ATLAS.tsv")
+    recentered = rows(HERE / "RECENTERED_OBSERVER_LIMIT_ATLAS.tsv")
+    counterexamples = rows(HERE / "PAIR_DISTANCE_COUNTEREXAMPLES.tsv")
+    branches = rows(HERE / "COMPLETION_BRANCH_ATLAS.tsv")
+    counts = validate_profiles(profiles)
+    validate_geometry(result["geometry"])
+    validate_recenter(recentered)
+    validate_counterexamples(counterexamples)
+    assert len(branches) == len({row["object"] for row in branches}) == 5
+    assert result["extension_class_counts"] == dict(sorted(counts.items()))
+    assert result["physical_X_max_status"] == "OPEN"
+    assert independent["status"] == "PASS" and not independent["profile_mismatches"]
+    validate_authority(
+        (HERE / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+        + (HERE / "AUDIT_REPORT.md").read_text(encoding="utf-8")
+    )
+    output = {
+        "schema": "udt-cmb-g84-package-verification-v1",
+        "all_passed": True,
+        "source_rows": source_rows,
+        "profile_rows": len(profiles),
+        "extension_class_counts": dict(sorted(counts.items())),
+        "recentered_rows": len(recentered),
+        "pair_counterexamples": len(counterexamples),
+        "branch_rows": len(branches),
+        "physical_X_max_status": result["physical_X_max_status"],
+    }
+    print(json.dumps(output, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,260p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_independent.py" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent exact verification of the G84 completion and profile census."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import math
+from collections import Counter
+from pathlib import Path
+
+import sympy as sp
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+PROFILE_PATH = ROOT / "udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv"
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def rows(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def verify_sources() -> int:
+    manifest = rows(HERE / "SOURCE_MANIFEST.tsv")
+    assert len(manifest) == 14
+    for row in manifest:
+        assert digest(ROOT / row["path"]) == row["sha256"]
+    return len(manifest)
+
+
+def embedded_checks() -> dict[str, object]:
+    chi, tau, theta, psi, R, separation = sp.symbols(
+        "chi tau theta psi R separation", real=True, positive=True,
+    )
+    n = sp.Matrix([
+        sp.sin(theta) * sp.cos(psi),
+        sp.sin(theta) * sp.sin(psi),
+        sp.cos(theta),
+    ])
+    spatial = sp.Matrix([2 * R * sp.cos(chi), *[2 * R * sp.sin(chi) * item for item in n]])
+    spatial_coordinates = (chi, theta, psi)
+    induced_spatial = sp.Matrix([
+        [sp.simplify(sp.diff(spatial, a).dot(sp.diff(spatial, b))) for b in spatial_coordinates]
+        for a in spatial_coordinates
+    ])
+    expected_spatial = sp.diag(
+        4 * R**2,
+        4 * R**2 * sp.sin(chi)**2,
+        4 * R**2 * sp.sin(chi)**2 * sp.sin(theta)**2,
+    )
+    assert all(sp.trigsimp(induced_spatial[i, j] - expected_spatial[i, j]) == 0 for i in range(3) for j in range(3))
+
+    spacetime = sp.Matrix([
+        2 * R * sp.cos(chi) * sp.sinh(tau / 2),
+        *[2 * R * sp.sin(chi) * item for item in n],
+        2 * R * sp.cos(chi) * sp.cosh(tau / 2),
+    ])
+    eta = sp.diag(-1, 1, 1, 1, 1)
+    spacetime_coordinates = (tau, chi, theta, psi)
+    induced_spacetime = sp.Matrix([
+        [sp.simplify((sp.diff(spacetime, a).T * eta * sp.diff(spacetime, b))[0]) for b in spacetime_coordinates]
+        for a in spacetime_coordinates
+    ])
+    expected_spacetime = sp.diag(
+        -R**2 * sp.cos(chi)**2,
+        4 * R**2,
+        4 * R**2 * sp.sin(chi)**2,
+        4 * R**2 * sp.sin(chi)**2 * sp.sin(theta)**2,
+    )
+    assert all(sp.trigsimp(induced_spacetime[i, j] - expected_spacetime[i, j]) == 0 for i in range(4) for j in range(4))
+
+    phi = -sp.log(sp.cos(separation / (2 * R)))
+    ratio = sp.cos(separation / (2 * R))**2
+    assert sp.simplify(sp.exp(-2 * phi) - ratio) == 0
+    assert sp.limit(phi, separation, sp.pi * R, dir="-") == sp.oo
+    assert sp.limit(ratio, separation, sp.pi * R, dir="-") == 0
+    return {
+        "spatial_embedding_reproduced": True,
+        "zero_mix_spacetime_embedding_reproduced": True,
+        "spatial_radius_over_R": 2,
+        "spatial_diameter_over_R": "2*pi",
+        "center_to_static_horizon_over_R": "pi",
+        "recentered_phi_limit": "POSITIVE_INFINITY",
+        "recentered_c_eff_limit": "ZERO",
+    }
+
+
+def independent_profile_census() -> tuple[list[dict[str, object]], Counter[str]]:
+    s = sp.symbols("s", real=True)
+    profiles = [row for row in rows(PROFILE_PATH) if row["lapse_name"] == "AM"]
+    assert len(profiles) == len({row["profile_id"] for row in profiles}) == 197
+    output = []
+    for row in profiles:
+        expression = sp.sympify(row["q_of_s"], locals={"s": s})
+        q4 = sp.simplify(expression.subs(s, 4))
+        if row["shape_id"] == "ZERO":
+            classification = "ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS"
+        elif q4 != 0:
+            classification = "NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED"
+        else:
+            classification = "MIXING_VANISHES_AT_BIFURCATION__FURTHER_EXTENSION_AUDIT_REQUIRED"
+        output.append({
+            "profile_id": row["profile_id"],
+            "q4": sp.sstr(q4),
+            "h2": sp.sstr(sp.simplify(4 * q4)),
+            "classification": classification,
+        })
+    return output, Counter(str(row["classification"]) for row in output)
+
+
+def main() -> None:
+    source_rows = verify_sources()
+    embedded = embedded_checks()
+    independent, counts = independent_profile_census()
+    production = rows(HERE / "PROFILE_COMPLETION_ATLAS.tsv")
+    assert len(production) == len(independent) == 197
+    production_by_id = {row["profile_id"]: row for row in production}
+    mismatches = []
+    for row in independent:
+        saved = production_by_id[row["profile_id"]]
+        if (
+            saved["q_at_s_4_exact"] != row["q4"]
+            or saved["h_at_x_2_exact"] != row["h2"]
+            or saved["extension_class"] != row["classification"]
+        ):
+            mismatches.append(row["profile_id"])
+    assert not mismatches
+    assert counts == {
+        "ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS": 1,
+        "NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED": 196,
+    }
+
+    recentered = rows(HERE / "RECENTERED_OBSERVER_LIMIT_ATLAS.tsv")
+    assert len(recentered) == 4
+    for row in recentered:
+        receiver = float(sp.Rational(row["fixed_chart_receiver_x"]))
+        expected = math.pi - 2 * math.asin(receiver / 2)
+        observed = float(sp.N(sp.sympify(row["fixed_chart_distance_to_original_horizon_over_R"]), 40))
+        assert math.isclose(observed, expected, rel_tol=1e-15)
+        assert row["recentered_own_horizon_distance_over_R"] == "pi"
+
+    result = {
+        "schema": "udt-cmb-g84-independent-verification-v1",
+        "status": "PASS",
+        "source_manifest_rows": source_rows,
+        "embedded_checks": embedded,
+        "profile_rows": len(independent),
+        "profile_mismatches": mismatches,
+        "extension_class_counts": dict(sorted(counts.items())),
+        "recentered_rows": len(recentered),
+        "scope": "zero-mixing constant-curvature branch plus exact continued q(4) census; generic time-live mixed completion remains open",
+    }
+    (HERE / "INDEPENDENT_VERIFICATION.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,240p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_repository_gates.py" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Repository preservation gates for the bounded G84 package."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import re
+import subprocess
+from pathlib import Path
+from urllib.parse import unquote
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+MANIFESTS = (
+    "native_action_stage1_2026-07-18/arm_A/SHA256SUMS.txt",
+    "native_action_stage1_2026-07-18/arm_B/SHA256SUMS.txt",
+    "native_action_stage2_2026-07-18/arm_A/SHA256SUMS.txt",
+    "native_action_stage2_2026-07-18/arm_B/SHA256SUMS.txt",
+    "native_action_arm_c_2026-07-18/SHA256SUMS.txt",
+    "native_action_final_adjudication_2026-07-18/SHA256SUMS.txt",
+)
+STARTUP = (
+    "LIVE.md", "HANDOFF.md", "INDEX.md", "README.md", "MEMORY.md",
+    "CURRENT_RESEARCH_PROGRAM.md", "CURRENT_SCIENTIFIC_PREMISES.md", "INFLIGHT_STATE.md",
+    "research/README.md", "research/_registry/README.md",
+)
+PROTECTED = {
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py",
+}
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def table(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as stream:
+        return list(csv.DictReader(stream, delimiter="\t"))
+
+
+def run(command: list[str], timeout: int = 300) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(command, cwd=ROOT, text=True, capture_output=True, timeout=timeout, check=False)
+
+
+def main() -> None:
+    package = run(["python3", str(HERE / "verify_package.py")], 60)
+    assert package.returncode == 0 and '"all_passed": true' in package.stdout
+    catches = run(["python3", str(HERE / "run_catch_proofs.py")], 60)
+    assert catches.returncode == 0 and '"all_passed": true' in catches.stdout
+    premise = run(["python3", "verify_current_scientific_premises.py"], 60)
+    assert premise.returncode == 0 and "PASS: 83 premise guards" in premise.stdout
+
+    frozen_members = 0
+    manifest_hashes: dict[str, str] = {}
+    for relative in MANIFESTS:
+        manifest = ROOT / relative
+        manifest_hashes[relative] = digest(manifest)
+        for line in manifest.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            expected, member = line.split(None, 1)
+            assert digest(manifest.parent / member.strip()) == expected
+            frozen_members += 1
+    assert frozen_members == 127
+
+    current = table(ROOT / "research/_registry/CURRENT_ARTIFACT_PATHS.tsv")
+    paths = [row["current_path"] for row in current]
+    assert len(paths) == len(set(paths)) == 1114
+    assert all((ROOT / path).exists() for path in paths)
+    mapping = {row["original_path"]: row["current_path"] for row in current}
+    frontier = table(ROOT / "research/_registry/CURRENT_FRONTIER_TARGETS.tsv")
+    targets = {row["target_path"].rstrip("/") for row in frontier}
+    resolved = {mapping.get(path, path) for path in targets}
+    assert len(frontier) == 306 and len(targets) == len(resolved) == 101
+    assert all((ROOT / path).exists() for path in resolved)
+
+    link_re = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+    link_count = 0
+    for source in [*(ROOT / path for path in STARTUP), *HERE.glob("*.md")]:
+        for raw in link_re.findall(source.read_text(encoding="utf-8", errors="replace")):
+            target = raw.strip().strip("<>")
+            if target.startswith(("http://", "https://", "mailto:", "#")):
+                continue
+            relative = unquote(target.split("#", 1)[0])
+            if not relative:
+                continue
+            candidate = Path(re.sub(r":\d+$", "", relative))
+            target_path = candidate if candidate.is_absolute() else (source.parent / candidate).resolve()
+            assert target_path.exists(), (source, relative)
+            link_count += 1
+
+    tests = run(["python3", "-m", "pytest", "-q", "tests/"], 300)
+    assert tests.returncode == 0 and "103 passed, 1 xfailed" in tests.stdout, tests.stdout + tests.stderr
+
+    status = run(["git", "status", "--porcelain=v1", "--untracked-files=all"], 60)
+    protected_seen: set[str] = set()
+    outside: list[str] = []
+    for line in status.stdout.splitlines():
+        path = line[3:]
+        if path.startswith(HERE.name + "/"):
+            continue
+        if path in PROTECTED and line.startswith("?? "):
+            protected_seen.add(path)
+            continue
+        outside.append(line)
+    assert protected_seen == PROTECTED and not outside, outside
+
+    payload = {
+        "schema": "udt-cmb-g84-repository-gates-v1",
+        "status": "PASS",
+        "premise_guards": 83,
+        "frozen_manifests": len(MANIFESTS),
+        "frozen_manifest_members": frozen_members,
+        "frozen_package_paths": frozen_members + len(MANIFESTS),
+        "frozen_manifest_hashes": manifest_hashes,
+        "current_paths": len(paths),
+        "frontier_rows": len(frontier),
+        "frontier_targets": len(targets),
+        "checked_markdown_links": link_count,
+        "pytest": "103 passed, 1 xfailed",
+        "protected_untracked_path_count": len(protected_seen),
+        "protected_untracked_contents_read": False,
+        "unexpected_dirty_paths": outside,
+    }
+    rendered = json.dumps(payload, indent=2, sort_keys=True) + "\n"
+    (HERE / "REPOSITORY_GATES.json").write_text(rendered, encoding="utf-8")
+    print(rendered, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+I’m separating “package says it passes” from “I can reproduce it here.” The next step is a small local exact-arithmetic check inside the intake: count the AM rows, evaluate every `q(4)`, and confirm the sign structure and minimum nonzero magnitude without using the production artifacts as authority.
+exec
+/bin/bash -c "python3 - <<'PY'
+import csv, ast
+from fractions import Fraction
+from collections import Counter
+from pathlib import Path
+
+path = Path('udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv')
+rows = list(csv.DictReader(path.open(), delimiter='\\t'))
+am = [r for r in rows if r['lapse_name']=='AM']
+print('am_rows', len(am))
+print('unique_ids', len({r['profile_id'] for r in am}))
+
+s4 = Fraction(4,1)
+
+def eval_node(node, env):
+    if isinstance(node, ast.Expression):
+        return eval_node(node.body, env)
+    if isinstance(node, ast.BinOp):
+        a = eval_node(node.left, env)
+        b = eval_node(node.right, env)
+        if isinstance(node.op, ast.Add): return a + b
+        if isinstance(node.op, ast.Sub): return a - b
+        if isinstance(node.op, ast.Mult): return a * b
+        if isinstance(node.op, ast.Div): return a / b
+        if isinstance(node.op, ast.Pow): return a ** b
+        raise TypeError(type(node.op))
+    if isinstance(node, ast.UnaryOp):
+        v = eval_node(node.operand, env)
+        if isinstance(node.op, ast.USub): return -v
+        if isinstance(node.op, ast.UAdd): return +v
+        raise TypeError(type(node.op))
+    if isinstance(node, ast.Name):
+        return env[node.id]
+    if isinstance(node, ast.Constant):
+        if isinstance(node.value, int): return Fraction(node.value, 1)
+        raise TypeError(type(node.value))
+    raise TypeError(type(node))
+
+def exact_eval(expr, s_value):
+    tree = ast.parse(expr, mode='eval')
+    return eval_node(tree, {'s': s_value})
+
+def fmt(fr):
+    return str(fr.numerator) if fr.denominator == 1 else f'{fr.numerator}/{fr.denominator}'
+
+zero=[]
+nonzero=[]
+positive=negative=0
+min_abs=None
+min_rows=[]
+examples=[]
+for r in am:
+    q4 = exact_eval(r['q_of_s'], s4)
+    if len(examples) < 8:
+        examples.append((r['profile_id'], r['q_of_s'], fmt(q4)))
+    if q4 == 0:
+        zero.append(r['profile_id'])
+    else:
+        nonzero.append((r['profile_id'], q4))
+        if q4 > 0:
+            positive += 1
+        else:
+            negative += 1
+        a = abs(q4)
+        if min_abs is None or a < min_abs:
+            min_abs = a
+            min_rows = [r['profile_id']]
+        elif a == min_abs:
+            min_rows.append(r['profile_id'])
+
+print('q4_zero_count', len(zero))
+print('q4_nonzero_count', len(nonzero))
+print('positive_nonzero', positive)
+print('negative_nonzero', negative)
+print('min_abs_nonzero_q4', fmt(min_abs))
+print('min_abs_rows', ','.join(min_rows))
+print('zero_rows', ','.join(zero))
+for pid, expr, q4 in examples:
+    print('sample', pid, expr, q4)
+PY" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+am_rows 197
+unique_ids 197
+q4_zero_count 1
+q4_nonzero_count 196
+positive_nonzero 104
+negative_nonzero 92
+min_abs_nonzero_q4 1/20
+min_abs_rows G75_AM_S21_E05,G75_AM_S38_E05
+zero_rows G75_F01_AM
+sample G75_F01_AM 0 0
+sample G75_AM_S01_E05 s**2/20 4/5
+sample G75_AM_S01_E20 s**2/5 16/5
+sample G75_AM_S01_E50 s**2/2 8
+sample G75_AM_S01_E100 s**2 16
+sample G75_AM_S02_E05 -s**2/10 + s/20 -7/5
+sample G75_AM_S02_E20 -2*s**2/5 + s/5 -28/5
+sample G75_AM_S02_E50 -s**2 + s/2 -14
+
+exec
+/bin/bash -c "sed -n '1,220p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/DERIVATION_RESULT.json" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+{
+  "extension_class_counts": {
+    "NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED": 196,
+    "ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS": 1
+  },
+  "geometry": {
+    "coordinate_map": "x=2*sin(chi)",
+    "equator_x": "2",
+    "north_pole_to_equator_over_R": "pi",
+    "spatial_diameter_over_R": "2*pi",
+    "spatial_injectivity_radius_over_R": "2*pi",
+    "spatial_metric_over_R2": "4*(dchi^2+sin(chi)^2*dOmega2)",
+    "spatial_radius_over_R": "2",
+    "spatial_scalar_curvature_times_R2": "3/2",
+    "spatial_sectional_curvature_times_R2": "1/4",
+    "x_map_multiplicity": "TWO_TO_ONE_OFF_EQUATOR_ON_DOUBLED_S3",
+    "zero_mix_candidate_Xmax": "pi*R",
+    "zero_mix_embedding": "-X0^2+X1^2+X2^2+X3^2+X4^2=4",
+    "zero_mix_frame_scope": "GLOBAL_ISOMETRY_ORBIT_OF_CENTRAL_GEODESIC_OBSERVERS",
+    "zero_mix_recentered_c_eff_law": "c_eff(s)/c_E=cos(s/(2R))^2",
+    "zero_mix_recentered_depth_law": "phi(s)=-log(cos(s/(2R)))",
+    "zero_mix_recentered_static_limit_over_R": "pi",
+    "zero_mix_static_regions": "TWO_STATIC_PATCHES_PLUS_UNCOVERED_TIMELIVE_REGIONS"
+  },
+  "landing": "ZERO_MIXING_BRANCH_HAS_CONDITIONAL_FRAME_SHARED_RECENTERED_ASYMPTOTE__NONZERO_MIXED_COMPLETION_OPEN",
+  "maximum_conclusion": "BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS",
+  "pair_counterexamples": 3,
+  "physical_X_max_status": "OPEN",
+  "physical_scale_R_status": "OPEN",
+  "profile_rows": 197,
+  "recentered_receiver_rows": 4,
+  "schema": "udt-cmb-g84-am-completion-atlas-v1",
+  "source_manifest_rows": 14,
+  "status": "PASS",
+  "time_live_completion_status": "REQUIRED_NEXT_FOR_NONZERO_MIXING",
+  "zero_mix_frame_sharing_scope": "GLOBAL_ISOMETRY_ORBIT_OF_CENTRAL_GEODESIC_OBSERVERS",
+  "zero_mix_recentered_c_eff_law": "c_eff(s)/c_E=cos(s/(2R))^2",
+  "zero_mix_recentered_candidate_Xmax_over_R": "pi",
+  "zero_mix_recentered_depth_law": "phi(s)=-log(cos(s/(2R)))"
+}
+
+exec
+/bin/bash -c 'python3 udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_package.py' in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+{"all_passed": true, "branch_rows": 5, "extension_class_counts": {"NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED": 196, "ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS": 1}, "pair_counterexamples": 3, "physical_X_max_status": "OPEN", "profile_rows": 197, "recentered_rows": 4, "schema": "udt-cmb-g84-package-verification-v1", "source_rows": 14}
+
+exec
+/bin/bash -c "sed -n '1,220p' udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/CATCH_PROOF_RESULT.json" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+{
+  "all_passed": true,
+  "checks": {
+    "duplicate_profile_rejected": true,
+    "false_x_injectivity_rejected": true,
+    "immutable_mixed_companion_rejected": true,
+    "missing_profile_rejected": true,
+    "physical_Xmax_promotion_rejected": true,
+    "profile_promotion_rejected": true,
+    "same_patch_stationary_depth_as_global_distance_rejected": true,
+    "unconditional_frame_claim_rejected": true,
+    "wrong_diameter_rejected": true,
+    "wrong_radius_rejected": true,
+    "x2_as_antipode_rejected": true
+  },
+  "count": 11,
+  "schema": "udt-cmb-g84-catch-proofs-v1"
+}
+
+codex
+The mathematical side is mostly settled. I’m collecting exact file/line anchors now so the final report can state what was directly evidenced inside the intake, what I independently recomputed, and what remained only as packaged regression metadata.
+exec
+/bin/bash -c "nl -ba udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md | sed -n '1,220p'" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+     1	# G84 exact derivation — AM spatial completion and observer-patch asymptote
+     2
+     3	## 1. Scope and metric
+     4
+     5	The frozen stationary axial `AM` control family is
+     6
+     7	```text
+     8	ds^2/R^2 = -A(x) dτ^2 + dx^2/A(x)
+     9	            + x^2(dθ^2+sin(θ)^2 dψ^2)
+    10	            + 2 h(x) sin(θ)^2 dτ dψ,
+    11	A(x)=1-x^2/4,
+    12	h(x)=x^2 q(x^2),
+    13	τ=c_E t/R.
+    14	```
+    15
+    16	All `197` exact AM controls are retained. Their G75 authority stops at `x=1`; everything below
+    17	that uses `x>1` is a transparent `FREE_AND_EXPLORED` continuation. `R` remains symbolic and
+    18	unselected.
+    19
+    20	## 2. The spatial geometry hidden by the areal-radius chart
+    21
+    22	Set
+    23
+    24	```text
+    25	x = 2 sin(χ).
+    26	```
+    27
+    28	On either monotone chart branch,
+    29
+    30	```text
+    31	A = cos(χ)^2,
+    32	dx^2/A = 4 dχ^2.
+    33	```
+    34
+    35	Therefore every AM profile has the same intrinsic spatial metric
+    36
+    37	```text
+    38	dℓ^2 = 4R^2[dχ^2+sin(χ)^2 dΩ^2].
+    39	```
+    40
+    41	The minimal doubled, simply connected spatial completion candidate `0<=χ<=π` is the round
+    42	three-sphere of radius `2R`. The local continuation does not uniquely select this topology; smooth
+    43	quotients or other global identifications require a separate global-completion rule.
+    44	This follows directly from the Euclidean embedding
+    45
+    46	```text
+    47	Y=(2R cosχ, 2R sinχ n),  n in S^2.
+    48	```
+    49
+    50	Consequently,
+    51
+    52	```text
+    53	sectional curvature = 1/(4R^2),
+    54	scalar curvature    = 3/(2R^2),
+    55	injectivity radius  = 2πR,
+    56	spatial diameter    = 2πR.
+    57	```
+    58
+    59	For embedded points `Y_p,Y_q`, the exact completed spatial distance is
+    60
+    61	```text
+    62	d_S3(p,q) = 2R arccos[(Y_p·Y_q)/(4R^2)].
+    63	```
+    64
+    65	The map `x=2sinχ` is two-to-one off its maximum on the doubled sphere. Thus `x=2` is the equator,
+    66	not the antipode and not the spatial diameter. A north-pole observer reaches that equator after
+    67	proper radial distance `πR`; its antipode is `2πR` away.
+    68
+    69	This derives an intrinsic spatial completion candidate. It does not make that spatial distance the
+    70	physical UDT observer-pair separation.
+    71
+    72	## 3. Zero-mixing spacetime extension
+    73
+    74	For the single zero-mixing row, the full continued metric is
+    75
+    76	```text
+    77	ds^2/R^2 = -cos(χ)^2 dτ^2
+    78	            +4[dχ^2+sin(χ)^2dΩ^2].
+    79	```
+    80
+    81	It is the static presentation of the smooth constant-curvature Lorentzian hyperboloid
+    82
+    83	```text
+    84	-X0^2+X1^2+X2^2+X3^2+X4^2 = 4R^2
+    85	```
+    86
+    87	under
+    88
+    89	```text
+    90	X0 = 2R cosχ sinh(τ/2),
+    91	X4 = 2R cosχ cosh(τ/2),
+    92	(X1,X2,X3) = 2R sinχ n.
+    93	```
+    94
+    95	Direct pullback returns the displayed metric. The static coordinates cover two static regions and
+    96	collapse at the bifurcation sphere; additional time-live charts cover the remaining hyperboloid.
+    97	Thus the lapse zero is a stationary-chart horizon, not a material edge or manifold boundary.
+    98
+    99	The hyperboloid is homogeneous. Algebraically, its isometry group acts transitively on oriented
+   100	timelike two-planes through the embedding origin, hence on the corresponding central timelike
+   101	geodesic observer frames. Each such observer admits an equivalent recentered static patch.
+   102	This establishes frame sharing only for that geodesic-observer isometry orbit, not for arbitrary
+   103	accelerated observers or nonzero-mixing profiles.
+   104
+   105	## 4. Recentered stationary pair law on the zero-mixing branch
+   106
+   107	Let `s` be outward spatial proper distance on one recentered static slice from its central geodesic
+   108	observer. Since `s=2Rχ`, the stationary lapse is
+   109
+   110	```text
+   111	A(s)=cos[s/(2R)]^2,       0<=s<πR.
+   112	```
+   113
+   114	With the receiver normalized at the patch center, the G79/G83 Killing-observer depth and terminal
+   115	reciprocal readout become
+   116
+   117	```text
+   118	φ(s) = -log cos[s/(2R)],
+   119	c_eff(s)/c_E = exp[-2φ(s)] = cos[s/(2R)]^2.
+   120	```
+   121
+   122	Therefore
+   123
+   124	```text
+   125	s -> πR from below  =>  φ -> +infinity,
+   126	                         c_eff/c_E -> 0.
+   127	```
+   128
+   129	Every central geodesic observer in the isometry orbit receives the same stationary-patch limit
+   130	`πR`. This is the first exact frame-shared recentered asymptote in the current branch record.
+   131	Its exact status is
+   132
+   133	```text
+   134	DERIVED_CONDITIONAL_ZERO_MIXING_CONSTANT_CURVATURE_GEODESIC_OBSERVER_CLASS.
+   135	```
+   136
+   137	It is not yet physical `X_max`: zero mixing is one control, `R` is unselected, arbitrary
+   138	accelerated observers are not covered, and the physical pair-separation operator has not been
+   139	identified with this static-patch distance.
+   140
+   141	## 5. Why stationary depth is not global spatial distance
+   142
+   143	The completed spatial sphere and the observer-patch law are related but not identical:
+   144
+   145	1. North pole to equator has `d_S3=πR` and divergent stationary depth.
+   146	2. Entirely within the north static patch, take two observers at `χ=π/4` separated by angular
+   147	   angle `γ`. They have identical lapse and hence zero endpoint lapse-depth, while
+   148	   `d_S3/R=2 arccos[(1+cosγ)/2]` ranges continuously from zero to `π`. This avoids treating the
+   149	   opposite static patch as one future-directed stationary pair query.
+   150	3. Pairs lying within the equatorial two-sphere can have spatial distances ranging from zero to
+   151	   `2πR`, while the original stationary observer congruence becomes null there.
+   152
+   153	Thus no single-valued function `φ=f(d_S3)` exists even within one regular static patch of the
+   154	minimal completed spatial sphere. The candidate
+   155	`πR` is an observer-patch accessibility scale, not the global spatial diameter. If it becomes
+   156	physical `X_max`, then the missing UDT separation type cannot be unrestricted spatial geodesic
+   157	distance on the completed slice.
+   158
+   159	This resolves G83's receiver-dependent one-sided lengths only in the central-geodesic recentered
+   160	class. A receiver held at fixed nonzero radius is accelerated and is not silently promoted into
+   161	that class.
+   162
+   163	## 6. Complete nonzero-mixing continuation
+   164
+   165	In `χ`, the complete continued metric is
+   166
+   167	```text
+   168	ds^2/R^2 = -cos(χ)^2 dτ^2
+   169	            +4[dχ^2+sin(χ)^2dΩ^2]
+   170	            +2h(χ)sin(θ)^2dτdψ,
+   171	h(χ)=4sin(χ)^2 q(4sin(χ)^2).
+   172	```
+   173
+   174	At the equator, the `τ-ψ` block has determinant
+   175
+   176	```text
+   177	-h(π/2)^2 sin(θ)^4.
+   178	```
+   179
+   180	It is Lorentzian away from the axial fixed points when `h(π/2)!=0`. At either axial fixed point,
+   181	the axial Killing vector vanishes, the mixing one-form vanishes, and `g(∂τ,·)=0`; the analytic
+   182	`χ` continuation is genuinely degenerate there. A corotating redefinition cannot remove this
+   183	fixed-point kernel because adding the vanishing axial generator leaves `∂τ` unchanged on the axis.
+   184
+   185	Direct exact evaluation of every frozen AM polynomial at `s=x^2=4` gives:
+   186
+   187	```text
+   188	q(4)=0:     1 row, the zero-mixing control;
+   189	q(4)!=0: 196 rows.
+   190	```
+   191
+   192	Hence all 196 nonzero-mixing continuations are obstructed within this standard smooth,
+   193	stationary, axial, doubled/bifurcate extension class. This is not a generic no-go. A different
+   194	time-live completion, symmetry reduction, branch topology, or metric evolution could change the
+   195	extension problem, and none is supplied here.
+   196
+   197	## 7. Exact landing
+   198
+   199	```text
+   200	ZERO_MIXING_BRANCH_HAS_CONDITIONAL_FRAME_SHARED_RECENTERED_ASYMPTOTE
+   201	__NONZERO_MIXED_COMPLETION_OPEN
+   202	```
+   203
+   204	Maximum package conclusion:
+   205
+   206	`BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS`.
+   207
+   208	No physical profile, numerical `R`/`X_max`, generic observer theorem, CMB result, source, action,
+   209	matter law, bootstrap closure, boundary functional, local-signalling law, or time-live dynamics is
+   210	derived.
+
+exec
+/bin/bash -c "nl -ba udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PROFILE_COMPLETION_ATLAS.tsv | sed -n '1,20p'" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+     1	profile_id	shape_id	amplitude	q_at_s_4_exact	h_at_x_2_exact	mixing_vanishes_at_candidate_surface	extension_class	physical_status
+     2	G75_F01_AM	ZERO	0	0	0	true	ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+     3	G75_AM_S01_E05	S01	1/20	4/5	16/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+     4	G75_AM_S01_E20	S01	1/5	16/5	64/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+     5	G75_AM_S01_E50	S01	1/2	8	32	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+     6	G75_AM_S01_E100	S01	1	16	64	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+     7	G75_AM_S02_E05	S02	1/20	-7/5	-28/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+     8	G75_AM_S02_E20	S02	1/5	-28/5	-112/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+     9	G75_AM_S02_E50	S02	1/2	-14	-56	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    10	G75_AM_S02_E100	S02	1	-28	-112	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    11	G75_AM_S03_E05	S03	1/20	-12/5	-48/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    12	G75_AM_S03_E20	S03	1/5	-48/5	-192/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    13	G75_AM_S03_E50	S03	1/2	-24	-96	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    14	G75_AM_S03_E100	S03	1	-48	-192	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    15	G75_AM_S04_E05	S04	1/20	1/5	4/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    16	G75_AM_S04_E20	S04	1/5	4/5	16/5	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    17	G75_AM_S04_E50	S04	1/2	2	8	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    18	G75_AM_S04_E100	S04	1	4	16	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    19	G75_AM_S05_E05	S05	1/20	1/2	2	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+    20	G75_AM_S05_E20	S05	1/5	2	8	false	NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED	CONTROL_CLASSIFICATION_NOT_SELECTED_PHYSICS
+
+exec
+/bin/bash -c 'rg -n "''^G75_F01_AM|''^G75_AM_S21_E05|''^G75_AM_S38_E05" udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv' in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+2:G75_F01_AM	AM	-1/4	ZERO	0	0	0	INFINITE_ZERO	INFINITE_ZERO	0	ZERO_MIXING_CONTROL	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	SELF	CHOSE_CONTROL_NOT_SELECTED
+245:G75_AM_S21_E05	AM	-1/4	S21	1/20	1/20	1/20	2	2	1/20	PERSISTENT_SIGN_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+449:G75_AM_S38_E05	AM	-1/4	S38	1/20	1/20 - s/40	1/20	2	2	1/40	PERSISTENT_SIGN_NO_INTERIOR_ROOT	CENTER_C_INFINITY	LORENTZ_REGULAR_ALL_X	3/4	NEGATIVE_Q_VIA_PSI_REFLECTION	CHOSE_CONTROL_NOT_SELECTED
+
+exec
+/bin/bash -c "nl -ba udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/RECENTERED_OBSERVER_LIMIT_ATLAS.tsv | sed -n '1,20p'" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+     1	fixed_chart_receiver_x	fixed_chart_distance_to_original_horizon_over_R	recentered_own_horizon_distance_over_R	recentered_candidate_Xmax_over_R	recenter_operation	status
+     2	1/4	pi - 2*asin(1/8)	pi	pi	GLOBAL_ZERO_MIXING_ISOMETRY_TO_NEW_STATIC_PATCH	DERIVED_CONDITIONAL_ZERO_MIXING_GEODESIC_OBSERVER_CLASS
+     3	1/2	pi - 2*asin(1/4)	pi	pi	GLOBAL_ZERO_MIXING_ISOMETRY_TO_NEW_STATIC_PATCH	DERIVED_CONDITIONAL_ZERO_MIXING_GEODESIC_OBSERVER_CLASS
+     4	3/4	pi - 2*asin(3/8)	pi	pi	GLOBAL_ZERO_MIXING_ISOMETRY_TO_NEW_STATIC_PATCH	DERIVED_CONDITIONAL_ZERO_MIXING_GEODESIC_OBSERVER_CLASS
+     5	1	2*pi/3	pi	pi	GLOBAL_ZERO_MIXING_ISOMETRY_TO_NEW_STATIC_PATCH	DERIVED_CONDITIONAL_ZERO_MIXING_GEODESIC_OBSERVER_CLASS
+
+exec
+/bin/bash -c "nl -ba REVIEW_MANIFEST.tsv | sed -n '1,45p'" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+     1	path	sha256	role
+     2	CURRENT_SCIENTIFIC_PREMISES.tsv	7d589e8c53f7f46097e435262973d3d9b00608add8d551cf4a4c57595f0e7c8f	frozen_source
+     3	udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md	8860dbefd6e99f4f9de966497f56022b268d2e0d1299383354b457d60480c638	frozen_source
+     4	udt_xmax_asymptotic_limit_frame_correction_2026-08-05/PREMISE_LEDGER.tsv	90dcd8c3b79f4e1e57ebe107a15e0a380240d53ae63d54b9476f3b54324982b8	frozen_source
+     5	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	frozen_source
+     6	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/STATUS_LEDGER.tsv	eef6633d11a7cce49c527d3560676794fae6ca52036dd9c4ee4b1b92410c1650	frozen_source
+     7	udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv	c45f96312b7a89dcd8797a0ccac8c8506e69bd454bfb119acf34c43149af57c7	frozen_source
+     8	udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md	37a5cb425c5c617f608f375ed12ef15aa5ac5c9ce9891c58ea06fab7839d4e62	frozen_source
+     9	udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/derive_profile_family.py	2ae16dbe3f077eae54420c1a1cdfd187adeec3e42b107e9f3577c11a98ffee82	frozen_source
+    10	udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md	0dbacc4fd34cb005f65fe5b48c2da67706fd6129f378d77e8e829edf005a5c19	frozen_source
+    11	udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/PREREGISTRATION.md	38db8325b0903ab96e1a6a399efc2689e60be8d762f56cf568da75dbe231fcbf	frozen_source
+    12	udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXACT_DERIVATION.md	3a1c4212d228534fbb892e1d9c08705c246fbe79d306c68a04bab84543c9af6d	frozen_source
+    13	udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/STATUS_LEDGER.tsv	36a62b3d8d8ed3ec2783bca8e2f38a9c315f480eb8b20eafbc278a5b6d35a1b7	frozen_source
+    14	udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/PREMISE_LEDGER.tsv	f8608ddc95c0e0f7c7d68a3c3f039dd39fe3de07dee4c2f4218311ec01d99360	frozen_source
+    15	udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md	2ea89f4a5304dd1686a2ae06d3596c8305d44efb5fbf3a44ecb57a26eeb96693	frozen_source
+    16	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/AUDIT_REPORT.md	c0cb24a5dcf0e212412c8899db7bbae6d616165228e856e837f8aae0212ab7b1	G84_package
+    17	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/CATCH_PROOF_RESULT.json	a3ce37b48c08f8472c9a07f259e36eceaab40a97f65b17c94bea0df6a5d0477a	G84_package
+    18	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md	bc4e9b72643fbd2713d711dfb2e3cea3d1bce0ca9c19577f129b062b944505fd	G84_package
+    19	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COMPLETENESS_SCOPE.md	471a99365d8636c83a9668dbe54dcef46b075694aced3d7e6c22eea064fe1635	G84_package
+    20	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COMPLETION_BRANCH_ATLAS.tsv	beb633093e9511cc5db4e1f9d1cc64a54dfec691a9cb646d510150bd01f84c79	G84_package
+    21	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/DERIVATION_RESULT.json	7dd4f160ae9b763e96bd2d3429f9482976816871ea078afbf69c3f346182cd7f	G84_package
+    22	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md	72ae3903e5c729b1de85661811e7a2aa4d4ae0199ca105d8ebd74bdadac3e7ae	G84_package
+    23	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/INDEPENDENT_VERIFICATION.json	35654695c73a3eb119074f474fefae52562ed5e0645e5baf96f72e70bdf395dc	G84_package
+    24	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PAIR_DISTANCE_COUNTEREXAMPLES.tsv	779b629e29189a7e10cf2f698b7bd6038db215946ae4ebfd26a59b6f1a6e5184	G84_package
+    25	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PREMISE_LEDGER.tsv	3a2f7bc4da3dc2239e99e61e52513eeee492f40178f544ab4336f924d9c42a17	G84_package
+    26	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PREREGISTRATION.md	2ca70e65de44c377119d3869cff953f81fa0307e27b0e02a1008436f55c9ad7b	G84_package
+    27	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PROFILE_COMPLETION_ATLAS.tsv	8522fd0a559b52c2b9793a6da20220b9ed038a6ffbf4de35ec96236c7dd5cc39	G84_package
+    28	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/RECENTERED_OBSERVER_LIMIT_ATLAS.tsv	1f175dbfb1e26819a26b1cbee0d1619783ce241ad4e439ae3c9792080efa2dad	G84_package
+    29	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REPOSITORY_GATES.json	f908fa3c4eb923e55db888d13152a318d1e5001b2c898ba89b73a3b903e54f04	G84_package
+    30	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REVIEW_DISPATCH.md	ade9f2167290f3e715de7990df1687b45cc2d77b95732d2c7a82b0fdebe7b262	G84_package
+    31	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/SOURCE_MANIFEST.tsv	6cd8dbfa4c5ff750f00380b3b5ee6421f97ac401cce26f7251e9c6605576e222	G84_package
+    32	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/STATUS_LEDGER.tsv	6327e36659a744ddf252a26d5077d0a9eeda91e9f40344d2453022ffa3acb10e	G84_package
+    33	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/build_review_manifest.py	f0978c2e8e720b58418d51846ce51d5b2039b7d1fa4b48a65984b36a9bd229e3	G84_package
+    34	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/derive_completion_atlas.py	a68b9efd7e7b5f19c1e520feb8b7a943792c641b6e9e88c104d5f72e880629a1	G84_package
+    35	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/run_catch_proofs.py	21684500d0e6f77bc4fa1ad27aa55d4f12ea597dea10f81277ee068d4e97508e	G84_package
+    36	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_independent.py	ab452ad5eefa46f00858cc20ab10eb02eb14331cbed68a07112992af2610a901	G84_package
+    37	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_package.py	61a4c904688bd09cb2411db46d126fd686f10cd7d1c62dbd184bdb4b6f420074	G84_package
+    38	udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/verify_repository_gates.py	8b0b9759da5ba03cf075d24f813659411aae45e61c958919114c8bb790e07642	G84_package
+
+exec
+/bin/bash -c "nl -ba udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REVIEW_DISPATCH.md | sed -n '1,120p'" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+     1	# External review dispatch — G84 AM global completion and pair-diameter audit
+     2
+     3	Perform a cold, read-only adversarial review of the sealed intake defined by
+     4	`REVIEW_MANIFEST.tsv`. Verify every payload hash first. Do not inspect files outside the intake,
+     5	edit files, or continue the research.
+     6
+     7	## Central question
+     8
+     9	Does the evidence support exactly this bounded landing?
+    10
+    11	`ZERO_MIXING_BRANCH_HAS_CONDITIONAL_FRAME_SHARED_RECENTERED_ASYMPTOTE__NONZERO_MIXED_COMPLETION_OPEN`
+    12
+    13	Test independently:
+    14
+    15	1. whether `x=2 sin(chi)` gives the round minimal doubled, simply connected spatial completion
+    16	   candidate of radius `2R`, diameter `2piR`, and `x=2` as its equator rather than its antipode or
+    17	   boundary;
+    18	2. whether the zero-mixing spacetime pullback is the displayed smooth constant-curvature
+    19	   Lorentzian hyperboloid and whether its isometries recenter the static patch on the relevant
+    20	   central timelike-geodesic observer orbit;
+    21	3. whether each such recentered observer has center-to-horizon static-slice distance `piR` and the
+    22	   conditional stationary laws
+    23	   `phi=-log cos[s/(2R)]` and `c_eff/c_E=cos[s/(2R)]^2`;
+    24	4. whether the entirely in-patch same-latitude example proves that stationary endpoint lapse-depth
+    25	   is not a function of completed spatial geodesic distance;
+    26	5. whether exact evaluation of all `197` frozen AM rows gives precisely one `q(4)=0` control and
+    27	   `196` nonzero controls;
+    28	6. whether nonzero `h_H=4q(4)` obstructs the declared smooth stationary-axisymmetric bifurcate
+    29	   extension class, including the axial fixed set, without implying a generic time-live or
+    30	   symmetry-breaking no-go.
+    31
+    32	## Adversarial requirements
+    33
+    34	- Recompute the geometry without trusting the production derivation.
+    35	- Type-check spatial completion, stationary patch accessibility, global spatial distance, and
+    36	  physical observer-pair separation as distinct objects.
+    37	- Decide whether the isometry transitivity statement covers exactly the claimed observer class.
+    38	- Inspect time orientation across the two static patches and reject any invalid opposite-patch
+    39	  observer comparison.
+    40	- Recompute the `197`-row `q(4)` census using an independent exact method.
+    41	- Inspect the mixed fixed-set and bifurcation obstruction invariantly, not only through one
+    42	  coordinate determinant.
+    43	- Treat the mutation harness as regression evidence, not as an independent mathematical proof.
+    44	- Identify any hidden promotion of the continuation, minimal topology, zero-mixing control,
+    45	  symbolic `R`, or stationary query into physical authority.
+    46
+    47	## Required landing
+    48
+    49	Return exactly one: `VERIFIED`, `VERIFIED_WITH_CAVEATS`, `CORRECTION_REQUIRED`, or `FAILED`.
+    50
+    51	Even a successful review cannot select physical `X_max`, `R`, topology, profile, pair-separation
+    52	owner, arbitrary-observer theorem, time-live completion, CMB observable, source, action, matter,
+    53	bootstrap closure, boundary law, or signalling law.
+
+exec
+/bin/bash -c "nl -ba udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PAIR_DISTANCE_COUNTEREXAMPLES.tsv | sed -n '1,20p'" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+     1	case	spatial_distance_over_R	stationary_depth	meaning
+     2	NORTH_POLE_TO_EQUATOR	pi	+infinity_limit	infinite stationary depth occurs at half the S3 diameter
+     3	SAME_LATITUDE_NORTH_PATCH_GAMMA_RANGE	0_to_pi	0	at chi=pi/4, valid future-directed stationary pairs share phi while d/R=2*acos((1+cos(gamma))/2) varies
+     4	EQUATOR_PAIR_VARIABLE_ANGLE	0_to_2*pi	stationary_observers_not_timelike	one lapse-zero surface contains many pair distances
+
+exec
+/bin/bash -c "nl -ba udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md | sed -n '1,120p'" in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+     1	# G84 fresh cold adversarial review
+     2
+     3	Date: `2026-08-12`
+     4
+     5	Reviewer: fresh read-only Codex context `/root/g84_cold_adversary`
+     6
+     7	Landing: `VERIFIED-WITH-CAVEATS`
+     8
+     9	## Reproduced load-bearing claims
+    10
+    11	The reviewer independently reproduced:
+    12
+    13	- the `x=2 sin(chi)` refactor and round minimal doubled spatial candidate of radius `2R`;
+    14	- sectional curvature `1/(4R^2)`, scalar curvature `3/(2R^2)`, injectivity radius `2piR`, and
+    15	  diameter `2piR`;
+    16	- the zero-mixing constant-curvature Lorentzian embedding and transitive central-geodesic observer
+    17	  isometry orbit;
+    18	- the recentered stationary laws
+    19	  `phi(s)=-log cos[s/(2R)]` and `c_eff/c_E=cos[s/(2R)]^2` on `0<=s<piR`;
+    20	- the conditional common center-to-static-horizon distance `piR` on that observer class;
+    21	- all `197` exact AM rows, with one `q(4)=0` row and `196` nonzero rows, zero atlas
+    22	  mismatches, `104` positive and `92` negative nonzero values, and minimum nonzero
+    23	  `|q(4)|=1/20`;
+    24	- the axial fixed-set degeneracy of the analytic mixed continuation and the stronger
+    25	  symmetry-preserving bifurcation obstruction when `h_H=4q(4)` is nonzero.
+    26
+    27	The exact profile census was recomputed with standard-library rational arithmetic rather than the
+    28	production SymPy path.
+    29
+    30	## Corrections required and incorporated
+    31
+    32	1. The round `S^3` is the preregistered **minimal doubled, simply connected candidate**. The local
+    33	   metric does not establish uniqueness among possible global topologies or identifications.
+    34	2. The former antipodal zero-depth example compared equal lapse magnitudes across opposite static
+    35	   patches, where the displayed static Killing field reverses global time orientation. It was
+    36	   therefore not one valid future-directed stationary pair query. The banked counterexample now
+    37	   stays wholly within the north static patch: at `chi=pi/4`, equal-latitude pairs have zero lapse
+    38	   depth while their spatial distance ranges continuously from `0` to `piR`.
+    39	3. The packaged mutation tests are regression locks, not independent proofs of the mathematics.
+    40	   The embedding reconstruction, exact rational census, and invariant fixed-set calculation carry
+    41	   the adversarial evidential load.
+    42
+    43	## Scope that did not close
+    44
+    45	No physical `X_max`, topology, profile, or scale is selected. The result does not cover arbitrary
+    46	accelerated observers, the `196` mixed profiles beyond the declared stationary-axisymmetric
+    47	bifurcate extension class, time-live completions, symmetry-breaking completions, a physical
+    48	pair-separation owner, a CMB observable, source, action, matter, or bootstrap closure.
+    49
+    50	The surviving maximum conclusion is:
+    51
+    52	`BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS`.
+
+codex
+I’ve already reproduced the AM-row census with exact rational arithmetic. I’m doing one last symbolic pullback check for the zero-mixing embedding so the final landing rests on an actual recomputation rather than only hand algebra plus package summaries.
+exec
+/bin/bash -c "python3 - <<'PY'
+from fractions import Fraction
+import csv, ast
+from pathlib import Path
+from collections import Counter
+
+path = Path('udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv')
+rows = [r for r in csv.DictReader(path.open(), delimiter='\\t') if r['lapse_name']=='AM']
+
+def ev(n, env):
+    if isinstance(n, ast.Expression): return ev(n.body, env)
+    if isinstance(n, ast.BinOp):
+        a,b = ev(n.left, env), ev(n.right, env)
+        return {ast.Add:a+b, ast.Sub:a-b, ast.Mult:a*b, ast.Div:a/b, ast.Pow:a**b}[type(n.op)]
+    if isinstance(n, ast.UnaryOp):
+        v = ev(n.operand, env)
+        return -v if isinstance(n.op, ast.USub) else v
+    if isinstance(n, ast.Name): return env[n.id]
+    if isinstance(n, ast.Constant): return Fraction(n.value,1)
+    raise TypeError(type(n))
+
+def q4(expr): return ev(ast.parse(expr, mode='eval'), {'s': Fraction(4,1)})
+vals = {r['profile_id']: q4(r['q_of_s']) for r in rows}
+# Compare exactly to saved atlas
+atlas = list(csv.DictReader(Path('udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PROFILE_COMPLETION_ATLAS.tsv').open(), delimiter='\\t'))
+mm = []
+for r in atlas:
+    v = vals[r['profile_id']]
+    s = str(v.numerator) if v.denominator==1 else f'{v.numerator}/{v.denominator}'
+    if s "'!= r['"'q_at_s_4_exact']:
+        mm.append((r['profile_id'], s, r['q_at_s_4_exact']))
+print('atlas_mismatches', len(mm))
+print('sign_counts', Counter('zero' if v==0 else 'positive' if v>0 else 'negative' for v in vals.values()))
+print('hH_nonzero_count', sum(1 for v in vals.values() if 4*v "'!= 0))
+PY' in /tmp/udt_g84_review_2aO645
+ succeeded in 0ms:
+atlas_mismatches 0
+sign_counts Counter({'positive': 104, 'negative': 92, 'zero': 1})
+hH_nonzero_count 196
+
+exec
+/bin/bash -c "python3 - <<'PY'
+import sympy as sp
+chi,tau,theta,psi,R,gamma = sp.symbols('chi tau theta psi R gamma', positive=True, real=True)
+n = sp.Matrix([sp.sin(theta)*sp.cos(psi), sp.sin(theta)*sp.sin(psi), sp.cos(theta)])
+Y = sp.Matrix([2*R*sp.cos(chi), *(2*R*sp.sin(chi)*u for u in n)])
+coords_s = (chi,theta,psi)
+gs = sp.Matrix([[(sp.diff(Y,a).dot(sp.diff(Y,b))).simplify() for b in coords_s] for a in coords_s])
+print('spatial_diag', [sp.simplify(gs[i,i]/(4*R**2)) for i in range(3)])
+print('spatial_offdiag_zero', all(sp.simplify(gs[i,j])==0 for i in range(3) for j in range(3) if i"'!=j))
+X = sp.Matrix([2*R*sp.cos(chi)*sp.sinh(tau/2), *(2*R*sp.sin(chi)*u for u in n), 2*R*sp.cos(chi)*sp.cosh(tau/2)])
+eta = sp.diag(-1,1,1,1,1)
+coords_t = (tau,chi,theta,psi)
+gt = sp.Matrix([[(sp.diff(X,a).T*eta*sp.diff(X,b))[0].simplify() for b in coords_t] for a in coords_t])
+print('"'spacetime_diag', [sp.simplify(gt[i,i]/R**2) for i in range(4)])
+print('spacetime_offdiag_zero', all(sp.simplify(gt[i,j])==0 for i in range(4) for j in range(4) if i"'!=j))
+expr = sp.simplify(sp.cos(sp.pi/4)**2 + sp.sin(sp.pi/4)**2*sp.cos(gamma))
+print('"'same_lat_dot_factor', expr)
+print('same_lat_d_over_R', sp.simplify(2*sp.acos(expr)))
+PY" in /tmp/udt_g84_review_2aO645
+ succeeded in 670ms:
+spatial_diag [1, sin(chi)**2, sin(chi)**2*sin(theta)**2]
+spatial_offdiag_zero True
+spacetime_diag [-cos(chi)**2, 4, 4*sin(chi)**2, 4*sin(chi)**2*sin(theta)**2]
+spacetime_offdiag_zero True
+same_lat_dot_factor cos(gamma)/2 + 1/2
+same_lat_d_over_R 2*acos(cos(gamma)/2 + 1/2)
+
+The sealed-intake audit is complete: hashes verified, geometry and census independently recomputed, and package reproducibility within the intake checked.
+  ✓ Read the G84 review-facing documents to extract the exact claimed landing, scope limits, and dependency chain inside the intake
+  ✓ Independently recompute the spatial completion, recentered observer geometry, horizon distance, and asymptotic laws from the sealed derivations and atlases
+  ✓ Independently recompute the 197-row q(4) census and inspect the mixed completion obstruction claims and counterexample logic
+  → Assemble the required landing, corrections/caveats, evidence boundary, reproducibility status, and maximum justified conclusion
+codex
+`VERIFIED_WITH_CAVEATS`
+
+Manifest and hash verification passed. [REVIEW_MANIFEST.tsv](/tmp/udt_g84_review_2aO645/REVIEW_MANIFEST.tsv:1) has 37 payload rows, the workspace contains exactly 38 files total, all 37 listed SHA-256 payload hashes matched, and the manifest’s computed digest is `0154f12ecf5099391e2be71d656e624f86433df14ff8045e51b77f53d19d924a`. I did not inspect anything outside `/tmp/udt_g84_review_2aO645`.
+
+**Landing**
+The sealed intake supports exactly the bounded landing requested in [REVIEW_DISPATCH.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REVIEW_DISPATCH.md:7):
+`ZERO_MIXING_BRANCH_HAS_CONDITIONAL_FRAME_SHARED_RECENTERED_ASYMPTOTE__NONZERO_MIXED_COMPLETION_OPEN`.
+
+**Corrections And Caveats**
+- No new correction is required to the current intake. The needed repairs are already present in [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:41) and [PAIR_DISTANCE_COUNTEREXAMPLES.tsv](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PAIR_DISTANCE_COUNTEREXAMPLES.tsv:1): the round `S^3` is only the minimal doubled simply connected candidate, and the depth-vs-distance counterexample stays within one valid future-directed static patch.
+- The frame-sharing theorem is supported only for the zero-mixing constant-curvature branch and exactly the central timelike-geodesic isometry orbit, not arbitrary accelerated observers or mixed profiles [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:99).
+- `πR` is a conditional static-patch accessibility scale, not the global spatial diameter and not a physical `X_max` selection [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:153).
+
+**Independent Recomputations**
+- From `x=2 sinχ`, I recomputed `A=1-x^2/4=cos^2χ`, `dx^2/A=4 dχ^2`, hence `dℓ^2=4R^2[dχ^2+sin^2χ dΩ^2]`. That is the round `S^3` candidate of radius `2R`, sectional curvature `1/(4R^2)`, scalar curvature `3/(2R^2)`, injectivity radius `2πR`, and diameter `2πR`; `x=2` occurs at `χ=π/2`, so it is the equator, not the antipode [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:20).
+- I independently pulled back the zero-mixing embedding and reproduced `ds^2/R^2=-cos^2χ dτ^2+4[dχ^2+sin^2χ dΩ^2]`, confirming the constant-curvature Lorentzian hyperboloid and the stated observer-class scope [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:72).
+- With `s=2Rχ`, I recomputed `φ(s)=-log cos[s/(2R)]` and `c_eff/c_E=cos[s/(2R)]^2`, with `s→πR^-` giving `φ→+∞` and `c_eff/c_E→0`. The four recentered receiver rows all preserve own-horizon distance `πR` [RECENTERED_OBSERVER_LIMIT_ATLAS.tsv](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/RECENTERED_OBSERVER_LIMIT_ATLAS.tsv:1).
+- I independently checked the same-latitude same-patch counterexample: at `χ=π/4`, `d_S3/R=2 arccos[(1+cosγ)/2]` ranges from `0` to `π` while endpoint lapse-depth stays `0`, so stationary depth is not a single-valued function of completed spatial distance [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:141).
+- Using a separate exact rational parser on [PROFILE_ATLAS.tsv](/tmp/udt_g84_review_2aO645/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv:2), I recomputed all 197 AM rows: exactly one `q(4)=0` row (`G75_F01_AM`), 196 nonzero rows, 104 positive and 92 negative nonzero values, minimum nonzero `|q(4)|=1/20`, and zero mismatches against [PROFILE_COMPLETION_ATLAS.tsv](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/PROFILE_COMPLETION_ATLAS.tsv:1).
+- For mixed continuation, I agree that nonzero `h_H=4q(4)` obstructs the declared smooth stationary-axisymmetric bifurcate extension class including the axial fixed set: off axis the `τ-ψ` block has determinant `-h_H^2 sin^4θ < 0`, but on the axis `∂ψ=0` and `g(∂τ,·)=0`, so the kernel is invariant and not removable by corotation [EXACT_DERIVATION.md](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXACT_DERIVATION.md:163). I do not read that as a generic time-live or symmetry-breaking no-go.
+
+**Reproducibility And Boundary**
+- Fresh reproducibility inside the sealed intake: `PASS`. I also ran `python3 .../verify_package.py`, which passed.
+- I treated [CATCH_PROOF_RESULT.json](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/CATCH_PROOF_RESULT.json:1) as regression evidence only, not as proof.
+- I did not independently rerun the repository-wide gates in [REPOSITORY_GATES.json](/tmp/udt_g84_review_2aO645/udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/REPOSITORY_GATES.json:1), because the sealed intake does not contain the non-intake repository paths targeted by `verify_repository_gates.py`.
+- Exact evidence boundary: only the 38 files enumerated by [REVIEW_MANIFEST.tsv](/tmp/udt_g84_review_2aO645/REVIEW_MANIFEST.tsv:1). Nothing here justifies a physical `X_max`, physical `R`, unique topology, physical pair-separation owner, arbitrary-observer theorem, mixed time-live completion, or any CMB/source/action/matter/bootstrap/boundary/signalling claim.
+
+Maximum justified conclusion: `BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS`.
+tokens used
+80,559
+
+Script done on 2026-08-12 09:52:37-04:00 [COMMAND_EXIT_CODE="0"]
