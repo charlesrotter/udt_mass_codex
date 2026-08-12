@@ -4,20 +4,23 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-12, G83 stationary endpoint-asymptote candidate atlas internally verified; external review pending)
+## TOP — CURRENT POINTER (2026-08-12, G83 stationary endpoint-asymptote candidate atlas externally verified with caveats)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**, with current substep **STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS**.
-Read `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md` first. The strict
+Read `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
+then `AUDIT_REPORT.md`. The strict
 591-row G75 domain has no infinite stationary endpoint depth. A labelled AM continuation realizes
 the exact stationary divergence pattern at its lapse-zero candidate, while the complete path
 orchestra classifies 516 reached, 18 turning, and 57 affine-cap rows. The finite,
-receiver-dependent radial proper limit means physical `X_max` remains open. External review needs
-fresh transmission authorization; no profile, `R`, source surface, pair re-centering, global
-completion, or CMB field is selected. The latest externally reviewed support is
-`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; the scientific lead
-remains `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`: two fixed
+receiver-dependent radial proper limit means physical `X_max` remains open. External review found
+no scientific correction and reproduced the sealed hashes, algebra, census/residuals, derivatives,
+Radau coverage, and catches; retain its Git-free chronology, shared-geometry, no-full-DOP853-rerun,
+and sampled/bounded-status caveats. No profile, `R`, source surface, pair re-centering, global
+completion, or CMB field is selected. Parent support is
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; its G81 parent is
+`udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`: two fixed
 radial/nonradial controls verify the carried and independently rotated screen laws near `1e-14`,
 with bounded-independent neighboring-ray closure near `1e-8`. External review returns
 `VERIFIED_WITH_CAVEATS` and requires no scientific correction. Retain the live-source replay,

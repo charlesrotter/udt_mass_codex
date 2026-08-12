@@ -1,15 +1,17 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-12 STATUS (RESTART ANCHOR): G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS INTERNALLY VERIFIED; EXTERNAL REVIEW PENDING.** Read LIVE first, then
-> `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md`,
+> **2026-08-12 STATUS (RESTART ANCHOR): G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS EXTERNALLY `VERIFIED_WITH_CAVEATS`.** Read LIVE first, then
+> `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
+> `AUDIT_REPORT.md`,
 > `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. Strict G75 has no infinite
 > endpoint depth; a declared AM continuation has the exact stationary divergence pattern but a
 > receiver-dependent finite radial proper limit, so physical `X_max` remains open. Complete-path
-> counts are 516 reached, 18 turning, and 57 affine-cap. External transmission needs fresh explicit
-> authorization. The latest externally reviewed support remains G82 and the G81 two-control screen
+> counts are 516 reached, 18 turning, and 57 affine-cap. External review found no scientific
+> correction; retain its Git-free chronology, shared-geometry replay, no-full-DOP853-rerun, and
+> sampled/bounded-status caveats. Parent support remains G82 and the G81 two-control screen
 > covariance result remains its scientific ceiling. ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-12) FIRST, then
-> `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md` for the externally
+> `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md` for the parent
 > verified one-control non-DOP853 support result and binding caveats, then
 > `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/AUDIT_REPORT.md`, then

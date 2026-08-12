@@ -5,17 +5,19 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The active arc is **CMB PEAK OPTIMIZATION**, currently at the internally verified G83 stationary
-endpoint-asymptote candidate atlas. Start with
-`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md`. The registered G75
+The active arc is **CMB PEAK OPTIMIZATION**, currently at the externally
+`VERIFIED_WITH_CAVEATS` G83 stationary endpoint-asymptote candidate atlas. Start with
+`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`AUDIT_REPORT.md`. The registered G75
 domain has no infinite endpoint depth; a declared AM continuation has the correct stationary
 divergence pattern at a lapse-zero candidate, while the full angular/mixing path census is 516
 reached, 18 turning, and 57 affine-cap rows. Its finite receiver-dependent radial proper limit
-means this is not yet physical `X_max`. External review is pending fresh transmission
-authorization; no physical profile, `R`, endpoint, source, global completion, or CMB field is
-selected. Its latest externally reviewed support gate is
-`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; its controlling
-scientific lead remains
+means this is not yet physical `X_max`. External review found no scientific correction and
+reproduced all sealed hashes plus the load-bearing algebra and saved numerical census. Its
+Git-free chronology, shared-geometry replay, no-full-DOP853-rerun, and sampled/bounded-status
+caveats remain binding. No physical profile, `R`, endpoint, source, global completion, or CMB field
+is selected. The next gate is frame-shared pair re-centering/global completion. Parent support is
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; its G81 parent is
 `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`.
 The fixed radial and genuinely angular controls verify the carried and independently rotated
 screen covariance laws, with production residuals near `1e-14` and bounded-independent
@@ -25,7 +27,7 @@ direct-Christoffel neighboring-ray residuals near `1e-8`. External review return
 Jacobi/Wronskian covariance, not a UDT selector or signal. No physical profile, endpoint, scale,
 `X_max`, source, fit, or CMB field is selected. The same fixed-C1 Radau replay is externally
 `VERIFIED_WITH_CAVEATS`, differs from frozen DOP853 by at most `9.459627107202695e-12`, and closes
-only that registered method check. Its deferred endpoint question is now the bounded G83 internal
+only that registered method check. Its deferred endpoint question is now the bounded externally reviewed G83
 atlas above. Its G80 parent is
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
 G80's registered nonradial/rotated-screen gate. Its G79 parent is

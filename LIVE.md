@@ -6,11 +6,13 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS INTERNALLY VERIFIED; EXTERNAL REVIEW PENDING) ============
+## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS EXTERNALLY VERIFIED WITH CAVEATS) ============
 
-**LATEST INTERNAL LEAD — G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS,
-`BOUNDED_STATIONARY_ENDPOINT_ASYMPTOTE_CANDIDATE_ATLAS`; EXTERNAL REVIEW PENDING.** Read
-`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md`, then
+**LATEST EXTERNALLY REVIEWED LEAD — G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS,
+`VERIFIED_WITH_CAVEATS`; maximum conclusion
+`BOUNDED_STATIONARY_ENDPOINT_ASYMPTOTE_CANDIDATE_ATLAS`.** Read
+`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`AUDIT_REPORT.md`,
 `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
 `INDEPENDENT_VERIFICATION.json`. All 591 G75 controls have finite positive lapse on their declared
 `0<=x<=1` domain, so none contains infinite stationary endpoint depth there. Under a transparent
@@ -24,14 +26,19 @@ the preregistered 591-path census is 516 reached/no sampled caustic, 18 turning,
 all 516 reached rows pass raw residual gates, and 18 stratified Radau replays match. This shows a
 common stationary lapse-asymptote candidate can coexist with profile-dependent optical/Jacobi
 accessibility. It does not select a physical profile, `R`, source surface, separation operator,
-`X_max` value, CMB field, action, matter, bootstrap closure, or time-live dynamics. The 40-row
-sealed review manifest is frozen (41 files including the manifest), but transmission requires
-fresh explicit authorization. **NEXT:** obtain that cold review; if upheld, test whether complete
+`X_max` value, CMB field, action, matter, bootstrap closure, or time-live dynamics. The sealed
+reviewer verified all 40 payload hashes and independently reproduced the scalar identities, saved
+census, residual maxima, derivative formulas, 18-row Radau coverage, and eight hostile catches,
+with no scientific correction. Binding caveats: the Git-free intake could not verify commit
+chronology (the live repository separately proves preregistration commit `e4a30822` directly
+precedes calculation commit `6b07caec`); Radau shares the geometry implementation; the reviewer
+did not rerun the full 591-path DOP853 atlas; and no-caustic/continuation/cap statements retain
+their sampled or bounded scopes. **NEXT:** preregister a bounded metric-led test of whether complete
 observer-pair geometry supplies the frame-shared re-centering/global-completion law. Do not fit the
-continuation, extend affine caps to manufacture reachability, or begin the deferred thermal map.
+continuation, promote `x=2`, extend affine caps to manufacture reachability, or begin the deferred
+thermal map.
 
-**LATEST EXTERNALLY REVIEWED SUPPORT GATE — G82 FIXED-C1 RADAU REPLAY, `VERIFIED_WITH_CAVEATS`; SCIENTIFIC LEAD
-REMAINS G81 NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,
+**PARENT EXTERNALLY REVIEWED SUPPORT GATE — G82 FIXED-C1 RADAU REPLAY, `VERIFIED_WITH_CAVEATS`; G81 NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,
 `VERIFIED_WITH_CAVEATS`; maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`.** Read
 `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then

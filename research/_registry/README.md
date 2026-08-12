@@ -2,12 +2,14 @@
 
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
-`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current internal
-lead is `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md`: a bounded
+`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current externally
+reviewed lead is
+`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`: a bounded
 stationary asymptote candidate atlas, not a current-path registry change and not physical
-`X_max`. External review is pending. The latest externally reviewed support gate is
-`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; the current
-scientific lead is
+`X_max`. It is `VERIFIED_WITH_CAVEATS` with no scientific correction; the review's Git-free
+chronology, shared-geometry, no-full-DOP853-rerun, and sampled/bounded-status limits remain binding.
+Parent support is
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; its G81 parent is
 `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It externally verifies the carried and rotated screen covariance laws on exactly two fixed
 radial/nonradial controls, with binding live-source replay and bounded-independence caveats. The

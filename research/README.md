@@ -7,16 +7,17 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**, currently at the internally verified G83 stationary endpoint-asymptote
-candidate atlas. Read
-`../udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md` first. The strict
+**CMB PEAK OPTIMIZATION**, currently at the externally `VERIFIED_WITH_CAVEATS` G83 stationary
+endpoint-asymptote candidate atlas. Read
+`../udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
+then `AUDIT_REPORT.md`. The strict
 G75 domain has no infinite endpoint depth; a labelled AM continuation has the exact stationary
 divergence pattern but a finite receiver-dependent radial proper limit, so physical `X_max`
 remains open. Its 591 complete paths split 516 reached, 18 turning, and 57 affine-cap. External
-review is pending explicit authorization, and no physical profile/scale/source/CMB field is
-selected. The latest externally reviewed G82 support gate is
-`../udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; the current G81
-scientific lead is
+review found no scientific correction; its Git-free chronology, shared-geometry,
+no-full-DOP853-rerun, and sampled/bounded-status caveats remain binding. No physical
+profile/scale/source/CMB field is selected. Parent G82 support is
+`../udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; its G81 parent is
 `../udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`.
 Two fixed radial/nonradial controls verify the carried and rotated screen laws. External review
 returns `VERIFIED_WITH_CAVEATS`, with maximum conclusion

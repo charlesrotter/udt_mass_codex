@@ -21,9 +21,10 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
-**LATEST INTERNAL LEAD = G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS; EXTERNAL REVIEW
-PENDING.** Read
-`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md`, then
+**LATEST EXTERNALLY REVIEWED LEAD = G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS,
+`VERIFIED_WITH_CAVEATS`.** Read
+`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`AUDIT_REPORT.md`,
 `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
 `INDEPENDENT_VERIFICATION.json`. The declared G75 interval contains no infinite endpoint depth.
 A clearly labelled continuation of AM has an exact lapse zero at `x=2`, with stationary
@@ -32,9 +33,13 @@ zero. This is an asymptote candidate, not physical `X_max`: its radial proper-li
 receiver dependent, while `R`, source ownership, pair re-centering, and global completion remain
 open. The complete AM orchestra returns 516 reached, 18 turning, and 57 affine-cap paths across
 591 registered cases; all reached rows pass residual gates and 18 stratified Radau replays match.
-Read no more into the 57 cap rows, and do not call `x=2` a universe edge. The 41-file sealed review
-intake is prepared but needs explicit transmission authorization. NEXT: cold review, then the
-frame-shared observer-pair re-centering/global-completion question if G83 survives.
+The reviewer verified 40/40 payload hashes, reproduced the load-bearing algebra/census/residuals,
+and found no scientific correction. Preserve its caveats: sealed review did not establish Git
+chronology; Radau shares the geometry implementation; the full DOP853 atlas was not externally
+rerun; and caustic/continuation/cap claims remain sampled or bounded. Live Git separately proves
+`e4a30822 -> 6b07caec` preregistration chronology. Read no more into the 57 cap rows, and do not
+call `x=2` a universe edge. NEXT: preregister the frame-shared observer-pair
+re-centering/global-completion question.
 
 **LATEST EXTERNALLY REVIEWED SUPPORT = G82 FIXED-C1 RADAU REPLAY, `VERIFIED_WITH_CAVEATS`; SCIENTIFIC LEAD = G81
 NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,

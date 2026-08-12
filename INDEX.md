@@ -11,17 +11,19 @@
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-12): CMB PEAK OPTIMIZATION; current substep = STATIONARY
    ENDPOINT-ASYMPTOTE CANDIDATE ATLAS. Read
-   `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md`, then its
-   `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
-   `INDEPENDENT_VERIFICATION.json`. G83 is internally verified and awaits fresh-authorized sealed
-   external review. Its strict 591-row G75 domain has no infinite endpoint depth. A declared
+   `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
+   then its `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`,
+   and `INDEPENDENT_VERIFICATION.json`. G83 is externally `VERIFIED_WITH_CAVEATS` with no scientific
+   correction. Its strict 591-row G75 domain has no infinite endpoint depth. A declared
    continuation of AM has exact stationary `phi_pair->infinity` and conditional
    `c_eff(source)/c_eff(receiver)->0` at its lapse-zero candidate, while the complete 591-path
    orchestra classifies 516 reached, 18 turning, and 57 affine-cap rows. The finite,
    receiver-dependent radial proper limit prevents promotion to physical `X_max`; profile, `R`,
-   source surface, pair re-centering, global completion, and CMB ownership remain open. Next is
-   cold review, then the frame-shared pair re-centering/global-completion gate if upheld. The latest
-   externally reviewed support remains
+   source surface, pair re-centering, global completion, and CMB ownership remain open. The reviewer
+   reproduced all 40 sealed hashes, scalar identities, saved census/residuals, derivative formulas,
+   Radau coverage, and catches; its Git-free-chronology, shared-geometry, no-full-DOP853-rerun, and
+   sampled/bounded-status caveats remain binding. Next is a fresh preregistration for the
+   frame-shared pair re-centering/global-completion gate. Parent support remains
    `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, and `PREMISE_LEDGER.tsv`. The fixed radial and

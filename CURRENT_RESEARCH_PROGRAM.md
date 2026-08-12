@@ -7,16 +7,19 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G83 INTERNAL LEAD — EXTERNAL REVIEW PENDING:**
-`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md` controls the new
+**CURRENT G83 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`:**
+`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`AUDIT_REPORT.md`, control the new
 bounded endpoint-asymptote candidate atlas. All 591 strict G75 controls remain finite through
 `x=1`. A transparent, nonphysical continuation of AM gives exact stationary reciprocal-depth
 divergence at its `x=2` lapse zero, but its radial proper limit depends on receiver position and is
 not physical `X_max`. The complete AM path census is 516 reached, 18 turning, and 57 affine-cap;
 all reached rows are residual-certified and 18 stratified Radau replays match. Physical profile,
 scale, source surface, pair re-centering/global completion, `X_max`, and CMB ownership remain open.
-The sealed external review awaits explicit transmission authorization. NEXT: review first; then
-test the frame-shared re-centering/global-completion law if upheld.
+The sealed reviewer found no scientific correction after reproducing all hashes, scalar identities,
+saved census/residuals, derivatives, Radau coverage, and catches. Preserve its Git-free chronology,
+shared-geometry, no-full-DOP853-rerun, and sampled/bounded-status caveats. NEXT: preregister the
+frame-shared re-centering/global-completion law test.
 
 **CURRENT G82 EXTERNAL SUPPORT / G81 SCIENTIFIC LEAD:**
 `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md` is the latest support
@@ -32,7 +35,7 @@ fixed-C1 Radau support replay is externally `VERIFIED_WITH_CAVEATS`, with worst 
 difference `9.459627107202695e-12` and no scientific correction. It closes only the registered
 method check; the original catch harness is not exhaustive, repository gates are live rather than
 sealed-review evidence, and the write-suppressed byte match is not a literal packaged CLI rerun.
-Its deferred endpoint question is now the bounded G83 internal atlas above; G82 remains support for
+Its deferred endpoint question is now the bounded externally reviewed G83 atlas above; G82 remains support for
 G81 only.
 
 **G80 PARENT LEAD:**
