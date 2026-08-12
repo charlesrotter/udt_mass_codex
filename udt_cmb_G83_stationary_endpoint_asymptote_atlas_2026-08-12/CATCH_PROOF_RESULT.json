@@ -1,0 +1,15 @@
+{
+  "all_passed": true,
+  "checks": {
+    "bad_raw_residual_rejected": true,
+    "continuation_promotion_rejected": true,
+    "duplicate_path_rejected": true,
+    "false_receiver_independence_rejected": true,
+    "infinite_strict_depth_rejected": true,
+    "invalid_status_rejected": true,
+    "missing_path_rejected": true,
+    "nonpositive_strict_lapse_rejected": true
+  },
+  "count": 8,
+  "schema": "UDT_CMB_G83_CATCH_PROOFS_V1"
+}

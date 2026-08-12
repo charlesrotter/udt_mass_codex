@@ -1,0 +1,15 @@
+claim	status	scope	remaining_open
+all_591_G75_profiles_have_positive_finite_lapse_on_0_1	DERIVED	registered G75 control domain only	physical profile and endpoint not selected
+no_registered_G75_row_realizes_infinite_stationary_depth_by_x_1	DERIVED	stationary endpoint readout on 0<=x<=1	global observer-pair asymptote may lie elsewhere
+AM_formula_has_positive_lapse_zero_at_x_2	DERIVED_CONDITIONAL	mathematical continuation of A=1-x^2/4	x>1 was not registered G75 authority
+AM_stationary_phi_diverges_as_x_source_to_2	DERIVED_CONDITIONAL	fixed stationary receiver and continued AM lapse	physical source query and global join open
+AM_conditional_c_eff_ratio_tends_to_zero	DERIVED_CONDITIONAL	terminal reciprocal relation applied to stationary endpoint ratio	mixed/global c_eff ownership open
+A0_AP_have_no_positive_stationary_lapse_zero	DERIVED_WITHIN_ANSATZ	continued lapse formulas only	other global pair-asymptote mechanisms not excluded
+AM_radial_proper_limit_is_finite_receiver_dependent	DERIVED	continued radial stationary slice	therefore not itself universal X_max
+516_paths_reach_registered_near_asymptote_surfaces_without_sampled_caustic	OBSERVED_VERIFIED_WITH_CAVEATS	197 AM profiles x 3 levels; DOP853 plus stratified Radau	global completeness and independent geometry implementation open
+18_paths_turn_before_target	OBSERVED_VERIFIED_WITH_CAVEATS	six profiles at all three levels	physical interpretation and larger query family open
+57_paths_hit_affine_cap	OBSERVED_BOUNDED	25 profiles across registered levels	not a nonexistence result; longer affine evolution untested
+angular_mixing_changes_near_asymptote_path_accessibility	OBSERVED_VERIFIED_WITH_CAVEATS	continued G75 polynomial control family	physical profile and continuation ownership open
+AM_lapse_selects_physical_X_max	OPEN	not claimed	needs observer-pair separation/recentering and global completion
+physical_X_max_value	OPEN	not calculated	R and global mass/geometry join open
+physical_CMB_conclusion	OPEN	not tested	endpoint/profile/source and sky query remain open

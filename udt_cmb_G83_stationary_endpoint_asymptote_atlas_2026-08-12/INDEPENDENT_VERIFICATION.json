@@ -1,0 +1,32 @@
+{
+  "all_passed": true,
+  "certified_rows": 516,
+  "exact_scalar_checks": {
+    "A_source_identity": true,
+    "c_eff_ratio_limit": "ZERO",
+    "phi_limit": "POSITIVE_INFINITY",
+    "proper_limit_over_R": "pi - 2*asin(xr/2)",
+    "proper_limit_receiver_derivative": "-2/sqrt(4 - xr**2)",
+    "receiver_dependent": true
+  },
+  "maximum_conclusion": "independent verification of the bounded G83 candidate atlas only; physical X_max remains open",
+  "path_rows": 591,
+  "radau_passed": 18,
+  "radau_profile_ids": [
+    "G75_AM_S01_E100",
+    "G75_AM_S02_E100",
+    "G75_AM_S03_E100",
+    "G75_AM_S12_E100",
+    "G75_AM_S13_E100",
+    "G75_F01_AM"
+  ],
+  "radau_rows": 18,
+  "schema": "UDT_CMB_G83_INDEPENDENT_VERIFICATION_V1",
+  "source_hashes_passed": true,
+  "status_counts": {
+    "AFFINE_CAP_NO_ENDPOINT": 57,
+    "ENDPOINT_REGULAR_NO_CAUSTIC": 516,
+    "TURNING_NO_ENDPOINT": 18
+  },
+  "strict_rows": 591
+}

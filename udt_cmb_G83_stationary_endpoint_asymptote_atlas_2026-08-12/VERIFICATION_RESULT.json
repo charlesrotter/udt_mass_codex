@@ -1,0 +1,15 @@
+{
+  "all_passed": true,
+  "independent_radau_rows": 18,
+  "path_rows": 591,
+  "physical_X_max_status": "OPEN",
+  "reached_and_certified": 516,
+  "schema": "UDT_CMB_G83_PACKAGE_VERIFICATION_V1",
+  "source_rows": 14,
+  "status_counts": {
+    "AFFINE_CAP_NO_ENDPOINT": 57,
+    "ENDPOINT_REGULAR_NO_CAUSTIC": 516,
+    "TURNING_NO_ENDPOINT": 18
+  },
+  "strict_rows": 591
+}

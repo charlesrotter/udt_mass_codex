@@ -1,0 +1,41 @@
+{
+  "AM_profile_rows": 197,
+  "certified_counts": {
+    "false": 75,
+    "true": 516
+  },
+  "continued_path_rows": 591,
+  "controls": {
+    "affine_cap": 20.0,
+    "approach_powers": [
+      4,
+      8,
+      12
+    ],
+    "integrator": {
+      "atol": 1e-12,
+      "max_step": 0.0025,
+      "method": "DOP853",
+      "rtol": 1e-10
+    },
+    "receiver_x": 0.25,
+    "recenter_x": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "residual_tolerance": 1e-07
+  },
+  "maximum_conclusion": "BOUNDED_STATIONARY_ENDPOINT_ASYMPTOTE_CANDIDATE_ATLAS; no physical profile, R, source surface, separation operator, X_max, CMB field, action, matter source, bootstrap closure, or time-live dynamics selected",
+  "receiver_rows": 12,
+  "schema": "UDT_CMB_G83_STATIONARY_ENDPOINT_ASYMPTOTE_ATLAS_V1",
+  "source_count": 14,
+  "status_counts": {
+    "AFFINE_CAP_NO_ENDPOINT": 57,
+    "ENDPOINT_REGULAR_NO_CAUSTIC": 516,
+    "TURNING_NO_ENDPOINT": 18
+  },
+  "strict_domain_positive_finite": true,
+  "strict_profile_rows": 591
+}

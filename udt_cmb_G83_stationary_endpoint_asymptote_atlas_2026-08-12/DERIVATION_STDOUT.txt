@@ -1,0 +1,1 @@
+{"AM_profile_rows": 197, "certified_counts": {"false": 75, "true": 516}, "continued_path_rows": 591, "receiver_rows": 12, "source_count": 14, "status_counts": {"AFFINE_CAP_NO_ENDPOINT": 57, "ENDPOINT_REGULAR_NO_CAUSTIC": 516, "TURNING_NO_ENDPOINT": 18}, "strict_domain_positive_finite": true, "strict_profile_rows": 591}
