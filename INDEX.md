@@ -10,16 +10,18 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
+   `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+   then `EXACT_DERIVATION.md`, `DIRECT_CHRISTOFFEL_ATLAS.tsv`,
+   `UNRESOLVED_REFINEMENT_ATLAS.tsv`, and `PREMISE_LEDGER.tsv`. G77 independently replays all 591
+   frozen G75 profiles and 1,514,142 level-4 rays by direct metric Christoffel integration: 590
+   strong, one registered, zero unresolved. Its higher time ladder resolves all four historical
+   G76 exceptions without changing G76. External review verified all `40/40` payload hashes,
+   algebra, raw arrays, all eight strata, all four exceptions, and `8/8` catches. No physical
+   profile, source, endpoint, scale, `X_max`, polarization, bootstrap rule, or CMB observable is
+   selected. The next bounded gate is ownership of one such physical restriction, not another
+   numerical-method replay or fit. Historical parent:
    `udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
-   then its `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `CURRENT_FALSIFICATION_CONTRACT.tsv`, and
-   whole-sky/mesh atlases. G76 maps all 591 frozen G75 profiles under one supplied whole-sky query:
-   587 sampled degree-one orientation-preserving rows and four time-refinement-unresolved rows, with
-   zero sampled missing/nonfinite rays, negative faces/maps, or near-zero areas. External review
-   verified all `38/38` sealed hashes, the metric/Hamiltonian algebra, raw atlas, alternate
-   tangent-plane orientation, and eight-stratum direct-Christoffel replay. No physical profile,
-   source, endpoint, scale, `X_max`, polarization, bootstrap rule, or CMB observable is selected.
-   The next bounded strengthening is a broader direct-Christoffel replay prioritizing the four
-   unresolved rows. Parent:
+   whose frozen 587-plus-four result remains unchanged. Parent profile family:
    `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then its
    `EXTERNAL_REVIEW_ADJUDICATION.md`, `EXACT_DERIVATION.md`, and shape/profile atlases. G75 is an externally
    verified bounded atlas: all 49 preregistered primitive

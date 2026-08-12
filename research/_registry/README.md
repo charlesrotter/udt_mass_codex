@@ -3,7 +3,15 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-lead is `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`; it maps the
+lead is
+`udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+It externally verifies a direct metric-Christoffel replay of all 591 frozen G75 profiles and
+1,514,142 level-4 rays: 590 strong, one registered, zero unresolved. The four G76 exceptions are
+resolved only in this later G77 layer; the immutable G76 587-plus-four historical classification
+remains unchanged. This finite-mesh result selects no physical profile, source, endpoint, scale,
+`X_max`, polarization, bootstrap law, or observable. The next gate is physical profile,
+endpoint/global-scale, or source/state ownership—not another method replay or fit. Its G75 family
+parent is `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`; it maps the
 bounded 49-shape/591-profile center-regular axial family as an externally verified exact atlas. The
 sealed reviewer reproduced every row with zero mismatches; local evidence caveats are closed. It
 selects no physical profile, source, endpoint, scale, or CMB observable. Its

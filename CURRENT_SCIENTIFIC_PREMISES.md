@@ -9,17 +9,23 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G76 lead
+## Current G77 lead
 
-`udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
-controls the current whole-sky relation gate. Under one supplied stationary observer query, all 591
-frozen G75 profiles have complete sampled crossing and degree one. Exactly 587 meet every frozen
-sampled orientation/refinement gate; four remain `NUMERICALLY_UNRESOLVED` only because their
-`512`-versus-`1024` endpoint chord exceeds `5e-5`. External review verified all `38/38` sealed
-hashes, the metric/Hamiltonian and `q_s` algebra, the raw atlas and extrema, an alternate
-tangent-plane orientation check, and an eight-stratum direct-Christoffel replay. This is not
+`udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the numerical-method independence gate. Under the same supplied stationary observer query,
+all 591 frozen G75 profiles and all 1,514,142 level-4 rays were recomputed directly from the metric
+Christoffel equation. The result is 590 strong, one registered, and zero unresolved rows. Its higher
+time ladder resolves all four historical G76 exceptions while leaving the G76 record unchanged.
+External review verified `40/40` hashes, the full metric/`q_s` algebra, every raw endpoint/face,
+all eight strata and four exceptions by a different solver, and `8/8` hostile catches. This is not
 continuum global injectivity and does not select a physical profile, source, endpoint, scale,
 `X_max`, polarization, bootstrap rule, action, matter, or CMB observable.
+
+## G76 historical parent
+
+`udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+retains its exact historical classification: 587 resolved and four numerically unresolved under
+its frozen `512/1024` gate. G77 supplies later evidence; it does not rewrite that table.
 
 ## G75 parent lead
 

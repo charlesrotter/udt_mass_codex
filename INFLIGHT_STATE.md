@@ -1,7 +1,11 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-11 STATUS (RESTART ANCHOR): G75 CENTER-REGULAR PROFILE FAMILY EXTERNALLY VERIFIED AS A BOUNDED EXACT ATLAS; PHYSICAL PROFILE STILL OPEN.** ACTIVE ARC = CMB PEAK
+> **2026-08-11 STATUS (RESTART ANCHOR): G77 FULL-FAMILY DIRECT-CHRISTOFFEL REPLAY EXTERNALLY VERIFIED; 590 STRONG, 1 REGISTERED, 0 UNRESOLVED; PHYSICAL OWNERS STILL OPEN.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-11) FIRST, then
+> `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/DIRECT_CHRISTOFFEL_ATLAS.tsv`, then
+> `udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
 > `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md`, then

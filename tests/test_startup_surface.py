@@ -16,6 +16,8 @@ REPO = Path(__file__).resolve().parents[1]
 TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
     "udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md",
     "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
     "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md",
@@ -86,17 +88,17 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 68 premise guards" in result.stdout
+    assert "PASS: 70 premise guards" in result.stdout
 
 
-def test_catch_missing_latest_observer_network_route(tmp_path: Path) -> None:
+def test_catch_missing_latest_g77_route(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(
         root / "LIVE.md",
-        "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
-        "OBSERVER_NETWORK_ASSEMBLY_REPORT_REMOVED.md",
+        "udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G77_EXTERNAL_REVIEW_ADJUDICATION_REMOVED.md",
     )
-    with pytest.raises(SystemExit, match="observer_network_assembly|latest complete-branch route"):
+    with pytest.raises(SystemExit, match="G77|latest complete-branch route"):
         premise_guard.validate_startup_surface(root)
 
 

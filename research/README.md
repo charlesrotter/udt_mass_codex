@@ -7,7 +7,19 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The current G75 lead is
+**CMB PEAK OPTIMIZATION**. The current G77 lead is
+`../udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+It directly replays all 591 frozen G75 profiles and 1,514,142 level-4 rays from the metric
+Christoffel equation, returning 590 strong, one registered, and zero unresolved rows. The sealed
+review found no correction after verifying all 40 payload hashes, independently rebuilding the
+load-bearing algebra and raw census, and replaying all strata and the four historical G76
+exceptions. This is a finite-mesh equation-independent checkpoint for one supplied stationary
+axial query, not continuum injectivity or a physical profile, source, endpoint, scale, `X_max`,
+polarization, bootstrap law, or observable. Its immutable historical parent is
+`../udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`;
+G76's 587-plus-four classification is not rewritten by G77. The next gate is ownership of a
+physical profile, endpoint/global scale, or source/state restriction—not another method replay or
+profile fit. The G75 family parent is
 `../udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`. It is an
 externally verified bounded atlas of all 49 preregistered primitive quadratic shapes and 591
 center-`C-infinity`, Lorentz-regular axial controls. The sealed review reproduced `34/34` hashes and

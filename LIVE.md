@@ -6,28 +6,34 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G76 COMPLETE-FAMILY WHOLE-SKY RELATION ATLAS EXTERNALLY VERIFIED WITH FOUR NUMERICAL EXCEPTIONS) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G77 FULL-FAMILY DIRECT-CHRISTOFFEL REPLAY EXTERNALLY VERIFIED) ============
 
-**LATEST LEAD — G76 COMPLETE-FAMILY WHOLE-SKY RELATION ATLAS,
+**LATEST LEAD — G77 FULL-FAMILY DIRECT-CHRISTOFFEL REPLAY,
+`VERIFIED_FULL_FAMILY_DIRECT_REPLAY__FOUR_G76_EXCEPTIONS_RESOLVED_IN_G77`.** Read
+`udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`EXACT_DERIVATION.md`, `DIRECT_CHRISTOFFEL_ATLAS.tsv`, `UNRESOLVED_REFINEMENT_ATLAS.tsv`,
+`PREMISE_LEDGER.tsv`, and the historical pre-review `AUDIT_REPORT.md`. G77 recomputes every one of
+the `591` frozen G75 profiles and all `1,514,142` level-4 rays directly from the metric Christoffel
+equation, without importing G76's Hamiltonian solver. The complete census is `590`
+`STRONG_DIRECT_AGREEMENT`, one `REGISTERED_DIRECT_AGREEMENT` (`G75_AM_S03_E100` at
+`2.0269360962840678e-05`), and zero unresolved rows. Every ray crosses; every sampled map retains
+degree one; and there are zero nonfinite rays, negative signed faces, negative projected tangent
+maps, or near-`1e-2` faces. A direct `1024/2048/4096` ladder resolves all four rows historically
+retained as unresolved by G76, with roughly fourfold error reduction per step doubling. G76 history
+is unchanged. The sealed reviewer verified `40/40` payload hashes, independently rebuilt the metric
+derivatives and live `q_s` terms, reconstructed all raw endpoints/faces, reran all eight strata and
+the four exceptions through DOP853/full Christoffel equations, and passed `8/8` hostile catches.
+Correction list: none. This is an equation-independent finite-mesh result for one supplied
+stationary axial observer query—not continuum injectivity, a physical profile/source/endpoint,
+`R`, `X_max`, polarization, bootstrap, action, matter, or a CMB observable. The next
+information-bearing gate is ownership of a physical profile, endpoint/global scale, or source/state
+restriction; do not run another method-validation atlas or fit/rank profiles.
+
+**PARENT LEAD — G76 COMPLETE-FAMILY WHOLE-SKY RELATION ATLAS,
 `VERIFIED_WITH_CAVEATS__FULL_FAMILY_CENSUS_CONFIRMED__FOUR_ROWS_REMAIN_NUMERICALLY_UNRESOLVED`.**
-Read `udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
-then `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `CURRENT_FALSIFICATION_CONTRACT.tsv`,
-`WHOLE_SKY_RELATION_ATLAS.tsv`, and `PREMISE_LEDGER.tsv`. G76 applies the same preregistered G74
-observer-sky query to all `591/591` frozen G75 profiles with all variable-`q` terms live. At level 4,
-all `2,562` sampled directions cross for every profile; `587` rows are
-`SAMPLED_COMPLETE_ORIENTATION_PRESERVING`, while four strongest-profile rows remain
-`NUMERICALLY_UNRESOLVED` solely because the frozen `512`-versus-`1024` endpoint chord threshold is
-exceeded. Across the complete saved atlas there are zero missing/nonfinite rays, negative signed-area
-faces, negative intrinsic face maps, or near-`1e-2` faces; every degree is one to floating precision.
-The sealed reviewer verified `38/38` payload hashes, independently reconstructed the metric inverse,
-Hamiltonian, live `q_s` terms, all census/extrema, an alternate tangent-plane orientation map, and
-the eight-stratum direct-Christoffel replay. No numerical row changed. The old historical
-`F01_identity` contract row is superseded additions-only by `CURRENT_FALSIFICATION_CONTRACT.tsv`.
-The six local hostile mutations are not exhaustive; a broader direct-Christoffel replay is the next
-evidence-strengthening gate, prioritizing the four unresolved rows. This is a robust sampled
-degree-one relation family under one supplied stationary query—not continuum injectivity, a physical
-profile/source/endpoint, `R`, `X_max`, polarization transport, bootstrap, action, matter, or a CMB
-observable. Do not fit or rank profiles.
+Read `udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+Its frozen `587+4` classification remains the correct historical G76 result. G77 above supplies the
+later independent full-family replay and resolves those four rows only in the new calculation.
 
 **PARENT LEAD — G75 CENTER-REGULAR AXIAL PROFILE FAMILY,
 `EXTERNALLY_VERIFIED_BOUNDED_FAMILY__INTERNAL_INDEPENDENCE_AND_CATCH_COMPLETENESS_CAVEATS_CLOSED_LOCALLY`; landing

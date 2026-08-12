@@ -200,7 +200,7 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md"
+    latest = "udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
 
@@ -217,6 +217,8 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md",
         "udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md",
         "udt_cmb_complete_observation_query_map_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
@@ -266,9 +268,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 68, "premise registry must contain exactly 68 rows")
+    require(len(rows) == 70, "premise registry must contain exactly 70 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 68, "duplicate premise id")
+    require(len(by_id) == 70, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1187,6 +1189,32 @@ def main() -> None:
         "G75 family source changed",
     )
     require("G75_EXTERNALLY_VERIFIES_THE_BOUNDED_CENTER_REGULAR_PROFILE_FAMILY_MAP" in by_id["G75"]["precedence_rule"], "G75 family refinement absent")
+    require(
+        by_id["G76"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__587_SAMPLED_COMPLETE_ORIENTATION_PRESERVING__4_HISTORICAL_NUMERICALLY_UNRESOLVED_UNDER_FROZEN_G76_GATE",
+        "G76 historical whole-sky status rewritten",
+    )
+    require(by_id["G76"]["epistemic_label"] == "OBSERVED", "G76 historical label changed")
+    require("four G76 rows silently promoted" in by_id["G76"]["forbidden_regression"], "G76 immutable-history guard absent")
+    require(
+        by_id["G76"]["controlling_source"]
+        == "udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G76 historical source changed",
+    )
+    require(
+        by_id["G77"]["current_status"]
+        == "VERIFIED_FULL_FAMILY_DIRECT_REPLAY__590_STRONG__1_REGISTERED__0_UNRESOLVED__FOUR_G76_EXCEPTIONS_RESOLVED_IN_G77",
+        "G77 direct-replay status regressed or promoted",
+    )
+    require(by_id["G77"]["epistemic_label"] == "OBSERVED", "G77 direct-replay label changed")
+    require("continuum injectivity" in by_id["G77"]["open_scope"], "G77 finite-mesh scope promoted")
+    require("G77 used to rewrite G76 history" in by_id["G77"]["forbidden_regression"], "G77/G76 history guard absent")
+    require(
+        by_id["G77"]["controlling_source"]
+        == "udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G77 direct-replay source changed",
+    )
+    require("G77_STRENGTHENS_G76" in by_id["G77"]["precedence_rule"], "G77 refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1259,7 +1287,7 @@ def main() -> None:
     require(status["S04"]["status"] == "DERIVED_FOUNDED_PHI_ADDS_ZERO__COMPLETE_EXTENSION_OPEN", "DOF founded phi still conditional")
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
-    print("PASS: 68 premise guards, G75 bounded 49-shape and 591-profile center-regular Lorentz-control family externally verified with zero row mismatches and local evidence caveats closed while physical selection remains open; G74 exact frozen 21-profile whole-sky control census with 3 F01 global diffeomorphisms, 6 persistent sampled-regular controls, 12 unrepaired center-C2 blocks, and physical CMB profile/source/scale still open; bounded 16-source F00-F17 complete CMB query architecture with no owned physical realization and F00 compatibility only, exact frozen M3 SNe replay with algebraically identical native pair-depth retyping and no owned complete-query correction, conditional common-query channel architecture with physical query and Q2 Codazzi certification open, bounded solved-geometry endpoint/propagator/full-holonomy/normal-holonomy coexistence with no physical selector or stability promotion, exact finite observer-network assembly in endpoint-atlas and path-labelled homes with route dependence allowed and physical relation-family/route-policy ownership open, declared regular complete chart finite-jet open with no owned nonidentity history restriction in ten frozen sources and global selector ownership still open, exact complete time-live compatibility orchestra with arbitrary time-only frequencies and native history selection still open, conditional complete split-relative matrix orchestra with generic orbit and signed area locks while positive weights and physical branch curve remain open, exact supplied-pair cone/phi/conditional-c-eff join with scoped local causal transition/calibration nonselection and ambient physical-family selector open, conditional full-coframe dphi_pair descent on a supplied coherent calibrated pair family with physical family/transition owner open, corrected global descent atlas with R17 foliation/path/alignment ownership and R18 clock-only descent while complete selector remains open, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
+    print("PASS: 70 premise guards, G77 direct metric-Christoffel replay externally verified at 590 strong, 1 registered, 0 unresolved while preserving the immutable G76 587-plus-four historical result and leaving continuum and every physical owner open; G75 bounded 49-shape and 591-profile center-regular Lorentz-control family externally verified with zero row mismatches and local evidence caveats closed while physical selection remains open; G74 exact frozen 21-profile whole-sky control census with 3 F01 global diffeomorphisms, 6 persistent sampled-regular controls, 12 unrepaired center-C2 blocks, and physical CMB profile/source/scale still open; bounded 16-source F00-F17 complete CMB query architecture with no owned physical realization and F00 compatibility only, exact frozen M3 SNe replay with algebraically identical native pair-depth retyping and no owned complete-query correction, conditional common-query channel architecture with physical query and Q2 Codazzi certification open, bounded solved-geometry endpoint/propagator/full-holonomy/normal-holonomy coexistence with no physical selector or stability promotion, exact finite observer-network assembly in endpoint-atlas and path-labelled homes with route dependence allowed and physical relation-family/route-policy ownership open, declared regular complete chart finite-jet open with no owned nonidentity history restriction in ten frozen sources and global selector ownership still open, exact complete time-live compatibility orchestra with arbitrary time-only frequencies and native history selection still open, conditional complete split-relative matrix orchestra with generic orbit and signed area locks while positive weights and physical branch curve remain open, exact supplied-pair cone/phi/conditional-c-eff join with scoped local causal transition/calibration nonselection and ambient physical-family selector open, conditional full-coframe dphi_pair descent on a supplied coherent calibrated pair family with physical family/transition owner open, corrected global descent atlas with R17 foliation/path/alignment ownership and R18 clock-only descent while complete selector remains open, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":

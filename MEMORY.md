@@ -4,11 +4,23 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G75 center-regular profile family externally verified as a bounded exact atlas)
+## TOP — CURRENT POINTER (2026-08-11, G77 full-family direct-Christoffel replay externally verified)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The current lead is
+`udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`:
+all 591 frozen G75 profiles and 1,514,142 level-4 rays were replayed directly from the metric
+Christoffel equation, yielding 590 strong, one registered, and zero unresolved rows. The sealed
+review verified all 40 payload hashes, independently rebuilt the algebra and raw census, replayed
+all eight strata and all four historical G76 exceptions, and required no correction. G76 remains
+immutable history at
+`udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`;
+its 587-plus-four result is not rewritten. G77 is finite-mesh evidence for one supplied stationary
+axial query, not continuum injectivity or a selected physical profile, source, endpoint, scale,
+`X_max`, polarization, bootstrap law, or observable. Next: test physical profile,
+endpoint/global-scale, or source/state ownership; do not repeat method validation or fit profiles.
+Its family parent is
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
 `EXTERNAL_REVIEW_ADJUDICATION.md`, then `EXACT_DERIVATION.md`: the exact preregistered family contains 49 primitive quadratic shapes and
 591 center-`C-infinity`, Lorentz-regular controls with multiple exact root/boundary strata. A sealed

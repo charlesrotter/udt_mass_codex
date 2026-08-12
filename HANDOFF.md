@@ -21,20 +21,24 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G76 COMPLETE-FAMILY WHOLE-SKY RELATION ATLAS,
-`VERIFIED_WITH_CAVEATS__FULL_FAMILY_CENSUS_CONFIRMED__FOUR_ROWS_REMAIN_NUMERICALLY_UNRESOLVED`.**
-Read `udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
-then `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `CURRENT_FALSIFICATION_CONTRACT.tsv`, and the two
-atlases. All `591` frozen G75 profiles were evaluated under the identical G74 whole-sky query with
-live variable-`q` terms. `587` rows pass the sampled complete degree-one orientation-preserving
-gates; four remain unresolved only at the frozen time-step refinement gate. Every stored profile has
-all `2,562` rays crossing and zero negative, near-zero, missing, or nonfinite sampled faces/rays. A
-sealed reviewer verified `38/38` hashes, independently reconstructed the algebra and raw census,
-used a different tangent-plane map with zero orientation reversals, and replayed all eight exact G75
-strata through direct Christoffel equations. No numerical row was corrected. The current contract
-explicitly supersedes the historical `F01_identity` wording. NEXT: a broader independent
-Christoffel replay, prioritizing the four unresolved rows; no profile ranking, source fitting,
-polarization claim, physical endpoint/scale, `X_max`, bootstrap, action, matter, or CMB observable.
+**LATEST LEAD = G77 FULL-FAMILY DIRECT-CHRISTOFFEL REPLAY,
+`VERIFIED_FULL_FAMILY_DIRECT_REPLAY__FOUR_G76_EXCEPTIONS_RESOLVED_IN_G77`.** Read
+`udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`EXACT_DERIVATION.md`, both direct/refinement atlases, `PREMISE_LEDGER.tsv`, and the historical
+pre-review `AUDIT_REPORT.md`. G77 directly integrates all `591` G75 profiles and `1,514,142` rays
+from the metric Christoffel equation. It returns `590` strong, one registered, and zero unresolved
+cross-method rows; all rays cross and no sampled face/map flips or collapses. Its
+`1024/2048/4096` ladder resolves all four G76 exceptions while leaving G76's historical labels
+unchanged. The sealed reviewer verified `40/40` hashes, the live `q_s` algebra, all raw endpoints and
+faces, a different DOP853/full-Christoffel panel spanning all eight strata plus the four exceptions,
+and `8/8` hostile catches. Correction list: none. NEXT: audit whether the complete query/global
+geometry owns a physical profile, endpoint/scale, or source/state restriction. Do not repeat
+method validation, fit/rank profiles, or infer polarization, `X_max`, bootstrap, action, matter, or
+a CMB observable.
+
+**PARENT LEAD = G76 COMPLETE-FAMILY WHOLE-SKY RELATION ATLAS.** Its immutable `587` resolved plus
+four unresolved classification remains the historical G76 result; G77 is the later independent
+resolution layer. Read G76's `EXTERNAL_REVIEW_ADJUDICATION.md` for that exact scope.
 
 **PARENT LEAD = G75 CENTER-REGULAR AXIAL PROFILE FAMILY,
 `EXTERNALLY_VERIFIED_BOUNDED_FAMILY__INTERNAL_INDEPENDENCE_AND_CATCH_COMPLETENESS_CAVEATS_CLOSED_LOCALLY`; landing

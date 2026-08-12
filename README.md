@@ -6,14 +6,17 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current lead is
-`udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`:
-all 591 frozen G75 profiles were mapped under one supplied whole-sky query. There are 587 sampled
-degree-one orientation-preserving rows and four retained time-refinement exceptions, with no sampled
-missing/nonfinite rays, negative faces/maps, or near-zero areas. The sealed reviewer verified all
-38 payload hashes, reconstructed the live variable-profile algebra and raw atlas, and replayed all
-eight exact profile strata by direct Christoffel integration. This selects no physical profile,
-source, endpoint, scale, `X_max`, polarization law, bootstrap rule, or CMB observable. Read its
-historical pre-review `AUDIT_REPORT.md` afterward. Its G75 parent is
+`udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`:
+all 591 frozen G75 profiles and 1,514,142 level-4 rays were recomputed by a direct metric-
+Christoffel route independent of G76's Hamiltonian implementation. The result is 590 strong, one
+registered, and zero unresolved cross-method rows. A higher time ladder resolves the four rows
+historically retained as unresolved by G76 without rewriting G76. The sealed reviewer verified all
+40 payload hashes, the complete raw census, all eight strata plus the four exceptions, and 8/8
+hostile catches. This selects no physical profile, source, endpoint, scale, `X_max`, polarization
+law, bootstrap rule, or CMB observable. Read its `EXACT_DERIVATION.md` and historical pre-review
+`AUDIT_REPORT.md` afterward. G76 remains its immutable historical parent at
+`udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+Its G75 parent is
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`: a preregistered,
 externally verified bounded atlas of 49 primitive quadratic shapes and 591 center-`C-infinity`,
 Lorentz-regular stationary axial controls. It contains multiple exact shape strata but selects no

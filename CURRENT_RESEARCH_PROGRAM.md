@@ -7,18 +7,24 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G76 LEAD:**
-`udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
-controls the complete-family whole-sky gate. Every one of the 591 frozen G75 profiles was evaluated
-under the same supplied G74 observer query with variable `q_s` terms live. The atlas contains 587
-sampled complete degree-one orientation-preserving rows and four time-refinement-unresolved rows;
+**CURRENT G77 LEAD:**
+`udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the numerical-method independence gate. Every one of the 591 frozen G75 profiles and all
+1,514,142 level-4 rays were recomputed from the direct metric Christoffel equation with variable
+`q_s` live. The atlas contains 590 strong, one registered, and zero unresolved cross-method rows;
 all stored rays cross and no sampled negative, near-zero, missing, or nonfinite face/ray appears.
-A sealed reviewer verified `38/38` hashes, independently reconstructed the equations, raw census,
-alternate tangent-plane orientation, and all eight direct-Christoffel stratum controls. No row was
-corrected. The historical `F01_identity` wording is superseded by the current consolidated contract.
-No physical profile, source, endpoint, scale, `X_max`, polarization, bootstrap rule, or observable
-is selected. NEXT: broaden the independent Christoffel replay, prioritizing the four unresolved
-rows; do not fit or rank profiles.
+The higher direct time ladder resolves all four G76 exceptions without rewriting G76 history. A
+sealed reviewer verified `40/40` hashes, independently reconstructed the algebra and raw census,
+reran all eight strata plus all four exceptions by DOP853/full Christoffel equations, and passed
+`8/8` hostile catches. No physical profile, source, endpoint, scale, `X_max`, polarization,
+bootstrap rule, or observable is selected. NEXT: test ownership of a physical profile,
+endpoint/global scale, or source/state restriction; do not repeat method validation or fit/rank
+profiles.
+
+**G76 HISTORICAL PARENT:**
+`udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+retains its immutable 587 resolved plus four numerically unresolved classification. G77 is a later
+independent resolution layer, not a rewrite.
 
 **G75 PARENT LEAD:**
 `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md` is the preregistered
