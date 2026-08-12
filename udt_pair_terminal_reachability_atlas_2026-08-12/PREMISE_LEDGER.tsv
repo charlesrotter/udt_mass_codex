@@ -1,0 +1,14 @@
+item	status	scope_or_caveat
+base T0 positive	PINNED_BY_THEORY_SYMBOLIC	regular A-calibrated base; no numeric value
+base L0 positive	PINNED_BY_THEORY_SYMBOLIC	regular A-calibrated base; no numeric value
+base beta0 real	FREE_SYMBOLIC	all real values retained
+Gram P positive semidefinite	DERIVED	full image of C^T q C in pair-first theorem
+all Gram entries	FREE_AND_EXPLORED	full PSD(2), ranks zero one and two
+ambient q positive definite	DERIVED_CONDITIONAL	supplied regular complete-coframe split
+A-calibrated terminal readout	DERIVED_CONDITIONAL	h00<0 and det h<0
+c_E	OBSERVED	calibration anchor only
+pair basis shear	CHOSE_COORDINATE_TECHNIQUE	invertible congruence; transformed back before terminal report
+physical F query branch and history	OPEN_INACTIVE	not selected by pointwise atlas
+derivative and time-live channels	OPEN_INACTIVE	not present at zero order
+action source matter bootstrap X_max SNe CMB	OPEN_INACTIVE	not tested
+
