@@ -1,0 +1,17 @@
+gate	pass_condition	failure_landing
+source_hashes	all frozen source hashes exact	TYPE_OR_IMPLEMENTATION_FAILURE
+profile_census	591 unique profiles in exact frozen G75 order	TYPE_OR_IMPLEMENTATION_FAILURE
+mesh_identity	2562 directions and 5120 faces hash-identical to frozen G76 arrays	TYPE_OR_IMPLEMENTATION_FAILURE
+equation_independence	production imports no G76 Hamiltonian solver or RHS	TYPE_OR_IMPLEMENTATION_FAILURE
+contracted_full_gamma	registered control accelerations agree within 2e-12	TYPE_OR_IMPLEMENTATION_FAILURE
+complete_replay	591 completed direct rows and 591 raw endpoint/mask rows	DIRECT_REPLAY_NUMERICALLY_UNRESOLVED
+cross_method_agreement	all rows classified at frozen 2e-5 and 5e-5 thresholds without filtering	FULL_FAMILY_DIRECT_REPLAY_MIXED_NUMERICAL_CLASSES
+null_backward_error	per-row maximum absolute null error <=2e-7 or row explicitly unresolved	DIRECT_REPLAY_NUMERICALLY_UNRESOLVED
+degree_agreement	per-row direct/G76 degree difference <=5e-4 or row explicitly unresolved	DIRECT_REPLAY_NUMERICALLY_UNRESOLVED
+orientation_census	all negative and near-zero direct faces recorded without filtering	TYPE_OR_IMPLEMENTATION_FAILURE
+four_row_refinement	exact four frozen G76-unresolved identities receive 1024/2048/4096 direct ladder	TYPE_OR_IMPLEMENTATION_FAILURE
+history_preserved	no G76 row or historical classification modified	TYPE_OR_IMPLEMENTATION_FAILURE
+checkpoint_integrity	completion bitmap and raw arrays agree exactly with summary atlas	TYPE_OR_IMPLEMENTATION_FAILURE
+catch_proofs	all registered hostile mutations rejected	INTERNALLY_VERIFIED_LEAD_ONLY
+blind_verification	fresh independent implementation replays all strata and four unresolved rows	INTERNALLY_VERIFIED_LEAD_ONLY
+no_physical_selection	no profile rank fit source endpoint scale Xmax or observable promotion	TYPE_OR_IMPLEMENTATION_FAILURE

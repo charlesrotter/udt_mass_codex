@@ -1,0 +1,18 @@
+item	status	ownership_and_scope
+reciprocal_cE_calibration	OBSERVED_FOUNDATIONAL_ANCHOR	Inherited metric calibration; unit convention c_E=1 is not a physical fit.
+G75_stationary_axial_metric_family	CHOSE_BOUNDED_CONTROL	Exact frozen 591-row family; not the generic complete metric or physical background.
+profile_coefficients	PINNED_BY_REGISTERED_G75	All 49 shapes, four amplitudes, three lapse controls, and zero controls retained.
+observer_position	PINNED_BY_HISTORICAL_CONTROL	(1/4,0,0), inherited from G74/G76; not a preferred cosmic location.
+comparison_sphere	PINNED_BY_HISTORICAL_CONTROL	|X|=1 first outward crossing; not last scattering, X_max, or a material wall.
+initial_direction_sphere	DERIVED_CONDITIONAL_ON_QUERY	Complete metric-orthonormal sky for the supplied observer/query.
+null_geodesic_equation	DERIVED_FROM_SUPPLIED_METRIC	Direct contracted Christoffel equation; no GR field equation or action imported.
+stationarity_and_axiality	CHOSE_BOUNDED_CONTROL	Time-live complete metric and non-axial sectors remain open.
+level4_mesh	CHOSE_NUMERIC	2562 directions/5120 faces; soundness control, not physics.
+RK4_step_counts	CHOSE_NUMERIC	2048 all rows; 1024/2048/4096 for four prior unresolved rows.
+agreement_tolerances	CHOSE_NUMERIC	Frozen before run; characterize numerical agreement only.
+CPU_float64	CHOSE_NUMERIC	One-process bounded implementation; no scientific inference from runtime.
+physical_profile	OPEN	No profile ranking or selection allowed.
+physical_source_and_endpoint	OPEN	No CMB source, last-scattering surface, or observation population supplied.
+physical_scale_R_Xmax	OPEN	Symbolic control cell only.
+polarization_and_observable	OPEN	Endpoint relation is not TT/TE/EE/BB or screen-transport population.
+bootstrap_action_matter	OPEN	Inactive and not tested.
