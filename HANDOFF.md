@@ -21,13 +21,26 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
-**ACTIVE PREREGISTERED WORK = G88 AM RADIAL SNe/XMAX COMPATIBILITY ATLAS; NO OUTCOME YET.** Read
+**ACTIVE PREREGISTERED WORK = ONE COMPLETE PAIR RELATION'S RECIPROCAL/ORCHESTRA REGIME FLOW.** Read
+`udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/PREREGISTRATION.md` and its
+three ledgers. The exact metric-led calculation normalizes the full pair-first Gram contribution
+against the unique A-calibrated reciprocal base and tests the conditional partial-response kernel
+while retaining the exact all-sectors-live total derivative. It does not fit a quiet middle or rank
+profile families. `A/M` means angular/mixing orchestra here, not the stationary AM lapse family.
+Preregistration passes; no outcome artifacts exist.
+
+**LOCAL G88 PACKAGE = COMPLETED BUT UNBANKED/UNREVIEWED SCOPED CONTROL.** The prior startup text below
+is historical. Its `197` stationary AM profiles are inputs to one fixed bridge construction, not
+alternative reciprocal-`c_E` endpoint laws. Preserve the local artifacts but do not stage them with
+the active package or use their mismatch as a verdict on the terminal pair law.
+
+**PRIOR PREREGISTERED WORK = G88 AM RADIAL SNe/XMAX COMPATIBILITY ATLAS.** Read
 `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION.md` and its ledgers.
 The exact bounded universe is `197` frozen AM controls, one already owned stationary radial
 screen/Jacobi query, and `1367` frozen Pantheon rows. This is a complete-family radial-query census,
 not a whole-sky SNe test or physical profile selector. The AM `x=2` divergence remains a conditional
-candidate, not physical `X_max`. Preregistration passes and no outcome file exists. Preserve the
-seven protected stopped-draft paths below.
+candidate, not physical `X_max`. Its outcome now exists only as unbanked local evidence. Preserve
+the seven protected stopped-draft paths below.
 
 **CURRENT VERIFIED BOUNDED RESULT = ZERO-ORDER PAIR-CHORD NETWORK DESCENT.** Read
 `udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then `EXACT_DERIVATION.md`,

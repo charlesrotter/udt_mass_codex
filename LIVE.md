@@ -2,6 +2,33 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
+## ============ CURRENT STATE (2026-08-12 — ONE-RELATION RECIPROCAL/ORCHESTRA REGIME-FLOW DERIVATION PREREGISTERED) ============
+
+**ACTIVE BOUNDED WORK — DERIVE THE RESPONSE OF ONE COMPLETE PAIR RELATION; DO NOT RANK PROFILE
+FAMILIES.** Read
+`udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/PREREGISTRATION.md`, then
+`PREMISE_LEDGER.tsv`, `FALSIFICATION_CONTRACT.tsv`, and `SOURCE_MANIFEST.tsv`. The exact CPU/symbolic
+test starts from the pair-first identity `h=B^T eta B+P`, `P>=0`, forms the dimensionless loading
+operator `Pi=B^-T P B^-1`, and asks whether reciprocal normalization itself gives a conditional
+two-sided amplification kernel while retaining the full live derivative of both `B(lambda)` and
+`P(lambda)`. Here `A/M` means angular/mixing orchestra, not the G88 stationary AM lapse family.
+
+The partial derivative at fixed `(P,kappa,beta)` is a diagnostic that isolates reciprocal
+amplification; it is not a frozen physical history. Maximum conclusion is a conditional exact
+response kernel plus an ownership statement about the still-live total flow. No physical
+micro/middle/cosmological history, SNe/CMB fit, `X_max`, action, source, matter, or bootstrap rule can
+follow. Preregistration passes with 15 explicit premises, 11 falsification gates, six frozen sources,
+and no outcome artifacts.
+
+**LOCAL UNBANKED G88 NOTE:** the completed local G88 outcome package exists but remains uncommitted
+and unreviewed. Its stationary-AM whole-SNe bridge test is being regraded as a scoped control, not as
+a test of the unique reciprocal-`c_E` endpoint law. Preserve it; do not stage or interpret it as the
+current frontier.
+
+**⚠ BRANCH: work is on `grok` (2026-08-12).** Synchronize before orientation.
+**This topmost CURRENT STATE block overrides every older status description. Every block BELOW
+this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
+
 ## ============ CURRENT STATE (2026-08-12 — G88 AM RADIAL SNe/XMAX COMPATIBILITY ATLAS PREREGISTERED; NO OUTCOME YET) ============
 
 **ACTIVE BOUNDED WORK — OBSERVATIONAL RANKING, NOT PHYSICAL SELECTION.** Read
@@ -17,10 +44,6 @@ continuation, while physical `X_max` remains open. A one-ray score cannot certif
 whole-sky profile. Maximum future conclusion is an `OBSERVED` compatibility lead in this bounded
 query. At this checkpoint the preregistration verifier passes, all outcome artifacts are absent,
 and no new likelihood has been evaluated.
-
-**⚠ BRANCH: work is on `grok` (2026-08-12).** Synchronize before orientation.
-**This topmost CURRENT STATE block overrides every older status description. Every block BELOW
-this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
 ## ============ CURRENT STATE (2026-08-12 — ZERO-ORDER CHORD NETWORK EXTERNALLY VERIFIED WITH CAVEATS) ============
 

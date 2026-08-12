@@ -1,0 +1,16 @@
+id	object	status	provenance	role
+P01	c_E clock/ruler calibration	OBSERVED	terminal reciprocal-c_E derivation	calibrates pair coordinates; cancels from dimensionless loading
+P02	supplied regular A-calibrated pair relation F	CONDITIONAL	pair-first relational-plane theorem	owns the pair plane and terminal calibration
+P03	complete pair metric h=F* g	DERIVED	metric pullback	one internal relation assembled before readout
+P04	regular pair-first 2+2 chart	CONDITIONAL	pair-first relational-plane theorem	local chart only; no universal ambient split claimed
+P05	h=B^T eta B+P with P=C^T q C>=0	DERIVED	pair-first complete-coframe pullback	complete angular/mixing/embedding Gram contribution
+P06	B=[[T,T beta],[0,L]] with T=sigma e^-phi, L=sigma e^+phi	DERIVED	terminal reciprocal decomposition	unique in fixed A calibration
+P07	lambda generic relation parameter	CHOSE	this preregistration	no identification with time, distance, redshift, or scale
+P08	all B(lambda),P(lambda) entries live	free-and-explored	generic exact derivative	no physical sector frozen in total flow
+P09	partial_phi at fixed P,sigma,beta	CHOSE_DIAGNOSTIC	this preregistration	isolates reciprocal normalization kernel; not a physical trajectory
+P10	A_load=tr(Pi)	CHOSE_DIAGNOSTIC	this preregistration	compact A-calibrated summary; full Pi/eigenstructure remains primary
+P11	positive-definite/rank-one/zero P strata	free-and-explored	full PSD(2) image	classify all algebraic ranks
+P12	physical history or regime map	OPEN	current scientific premise index	not supplied or inferred
+P13	SNe P1 relation	INACTIVE	native observer-query SNe replay	future compatibility anchor only
+P14	G88 stationary AM lapse family	INACTIVE	G88 preregistration	distinct from angular/mixing A/M orchestra
+P15	bootstrap/matter/action/source/X_max	INACTIVE	current scientific premise index	no selector or mechanism imported

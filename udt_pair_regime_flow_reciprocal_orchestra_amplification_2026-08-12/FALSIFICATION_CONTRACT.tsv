@@ -1,0 +1,12 @@
+id	claim_or_gate	pass_condition	failure_landing
+F01	normalized reconstruction	h-B.T*(eta+Pi)*B is exactly zero	NO_RECIPROCAL_AMPLIFICATION_KERNEL
+F02	PSD preservation	all principal-minor identities map P>=0 to Pi>=0	TYPE_FAILURE
+F03	shift-completed components	Pi entries equal preregistered a,m_beta,n_beta formulas	NO_RECIPROCAL_AMPLIFICATION_KERNEL
+F04	determinant neutrality	partial_phi det(Pi)=0 exactly	NO_RECIPROCAL_AMPLIFICATION_KERNEL
+F05	strict full-rank convexity	partial_phi^2 A_load=4 A_load>0 and minimum formula exact	NO_RECIPROCAL_AMPLIFICATION_KERNEL
+F06	boundary classification	zero and rank-one strata retained with one-/two-sided status	BOUNDARY_ONLY_OR_ONE_SIDED_AMPLIFICATION if generic full-rank fails
+F07	terminal response	direct h decomposition equals x,y,z formulas exactly	NO_RECIPROCAL_AMPLIFICATION_KERNEL
+F08	live flow identity	direct dPi equals covariant product-rule identity exactly	NO_RECIPROCAL_AMPLIFICATION_KERNEL
+F09	independent witnesses	all frozen rational cases match exact/high-precision route	LEAD_ONLY
+F10	hostile catches	every registered mutation produces at least one failure	LEAD_ONLY
+F11	scope discipline	no physical quiet-middle/history/SNe/CMB claim is encoded	TYPE_FAILURE
