@@ -21,7 +21,22 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G77 FULL-FAMILY DIRECT-CHRISTOFFEL REPLAY,
+**LATEST LEAD = G78 PROFILE, ENDPOINT/SCALE, AND SOURCE-OWNER JOIN,
+`VERIFIED_WITH_CAVEATS__NO_PHYSICAL_PROFILE_ENDPOINT_SCALE_OR_SOURCE_OWNER_IN_EXACT_20_SOURCE_G78_UNIVERSE`.**
+Read `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+then `EXACT_DERIVATION.md`, `OWNER_ROUTE_LEDGER.tsv`, and `VERIFICATION_SCOPE_LEDGER.tsv`. The
+registered seven-route census is `4/1/1/1/0`: four open-no-owner, one SNe compatibility anchor,
+one `X_max` necessary requirement, one conditional identifiability route, and zero native owners.
+All 591 controls survive the bounded relation gates. The exact `tau=c_E t/R` factorization removes
+constant `R` and `c_E` only from the dimensionless null sky relation; it does not restore CSN or
+make UDT scale-free. `x=1`, `R`, and `X_max` remain distinct. The sealed reviewer reproduced the
+load-bearing algebra and found no contradictory owner, while requiring evidence-category caveats:
+the internal route-status check is regression-only, repository gates are not sealed scientific
+evidence, and the conclusion is exact-20-source/finite-mesh bounded. NEXT: derive one dimensional
+SNe observer query on one fixed G75/G77 geometry, returning `phi_pair` and `d_A` or `d_L`, before
+any P1 comparison or fit. Do not rank profiles or invent endpoint/source ownership.
+
+**PARENT LEAD = G77 FULL-FAMILY DIRECT-CHRISTOFFEL REPLAY,
 `VERIFIED_FULL_FAMILY_DIRECT_REPLAY__FOUR_G76_EXCEPTIONS_RESOLVED_IN_G77`.** Read
 `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `EXACT_DERIVATION.md`, both direct/refinement atlases, `PREMISE_LEDGER.tsv`, and the historical

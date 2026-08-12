@@ -4,11 +4,19 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G77 full-family direct-Christoffel replay externally verified)
+## TOP — CURRENT POINTER (2026-08-11, G78 owner join externally verified with caveats)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**. The current lead is
+`udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`:
+the exact twenty-source/seven-route owner audit finds zero native owners of the physical profile,
+endpoint/global scale, or source state. All 591 controls survive. Exact factorization removes
+constant `R` only from the dimensionless null sky relation and does not make UDT scale-free; SNe
+remains compatibility-only and `X_max` requirement-only. The external reviewer reproduced the
+load-bearing algebra and found no contradictory owner, with explicit caveats on semantic
+independence and sealed-evidence scope. Next is one dimensional same-geometry SNe query on one fixed
+G75/G77 realization before P1 comparison or fitting. Its parent is
 `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`:
 all 591 frozen G75 profiles and 1,514,142 level-4 rays were replayed directly from the metric
 Christoffel equation, yielding 590 strong, one registered, and zero unresolved rows. The sealed

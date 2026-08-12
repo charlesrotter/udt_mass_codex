@@ -10,6 +10,16 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
+   `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+   then `EXACT_DERIVATION.md`, `OWNER_ROUTE_LEDGER.tsv`, and `VERIFICATION_SCOPE_LEDGER.tsv`.
+   The exact twenty-source owner join finds zero native physical profile, endpoint/scale, or source
+   owners across seven registered routes. All 591 controls remain survivors; the exact
+   `ds^2=R^2 dSigma^2` factorization shows only that the dimensionless angular relation cannot set
+   `R`, not that UDT is scale-free. SNe is compatibility-only, `X_max` requirement-only, and `x=1`
+   remains a control endpoint. External review reproduced the algebra and found no contradictory
+   owner, with binding caveats separating semantic review, algebra/census replay, and repo-wide
+   regression gates. Next derive one same-geometry dimensional SNe query on one fixed realization
+   before P1 comparison or fitting. Parent:
    `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
    then `EXACT_DERIVATION.md`, `DIRECT_CHRISTOFFEL_ATLAS.tsv`,
    `UNRESOLVED_REFINEMENT_ATLAS.tsv`, and `PREMISE_LEDGER.tsv`. G77 independently replays all 591

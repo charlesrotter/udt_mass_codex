@@ -6,9 +6,31 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G77 FULL-FAMILY DIRECT-CHRISTOFFEL REPLAY EXTERNALLY VERIFIED) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = CMB QUERY CONSTRUCTION; G78 PROFILE/ENDPOINT/SOURCE OWNER JOIN VERIFIED WITH CAVEATS) ============
 
-**LATEST LEAD — G77 FULL-FAMILY DIRECT-CHRISTOFFEL REPLAY,
+**LATEST LEAD — G78 PROFILE, ENDPOINT/SCALE, AND SOURCE-OWNER JOIN,
+`VERIFIED_WITH_CAVEATS__NO_PHYSICAL_PROFILE_ENDPOINT_SCALE_OR_SOURCE_OWNER_IN_EXACT_20_SOURCE_G78_UNIVERSE`.**
+Read `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+then `EXACT_DERIVATION.md`, `OWNER_ROUTE_LEDGER.tsv`, `VERIFICATION_SCOPE_LEDGER.tsv`, and the
+historical pre-review `AUDIT_REPORT.md`. Across the exact preregistered twenty-source/seven-route
+universe, the owner counts are four `OPEN_NO_OWNER`, one `COMPATIBILITY_ANCHOR_ONLY` (SNe), one
+`NECESSARY_REQUIREMENT_ONLY` (`X_max`), one `CONDITIONAL_IDENTIFIABILITY_ONLY`, and zero
+`OWNED_NATIVE`. All 591 frozen profiles survive the registered regularity and sampled whole-sky
+gates, so those gates characterize rather than select. With `tau=c_E t/R`, the supplied stationary
+axial metric factors exactly as `ds^2=R^2 dSigma^2`; its dimensionless null sky relation cannot own
+constant `R`. This is not CSN and does not make UDT scale-free: `c_E` remains the observed
+clock/ruler calibration and `R` remains physical. The control sphere `x=1` is not `X_max`; frozen
+SNe P1 is a low-redshift compatibility anchor, not a map into G75 `A`, `q`, or endpoint; and an
+invertible response transports arbitrary positive-definite source covariance without deriving its
+physical state. The cold reviewer independently reproduced the census, factorization, endpoint
+typing, and source algebra and found no contradictory owner. Its caveats are binding: the internal
+ownership-status check is regression-only rather than an independent semantic derivation, the
+repo-wide package gates are not sealed-intake evidence, and this is a bounded 20-source result—not
+a generic UDT no-go or continuum theorem. **NEXT:** on one fixed G75/G77 realization, derive one
+same-geometry dimensional SNe query returning `phi_pair` and `d_A` or `d_L`, before P1 comparison,
+family fitting, or profile ranking. Source-state ownership remains a separate deeper program.
+
+**PARENT LEAD — G77 FULL-FAMILY DIRECT-CHRISTOFFEL REPLAY,
 `VERIFIED_FULL_FAMILY_DIRECT_REPLAY__FOUR_G76_EXCEPTIONS_RESOLVED_IN_G77`.** Read
 `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `EXACT_DERIVATION.md`, `DIRECT_CHRISTOFFEL_ATLAS.tsv`, `UNRESOLVED_REFINEMENT_ATLAS.tsv`,

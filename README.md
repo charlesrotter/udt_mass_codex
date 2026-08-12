@@ -6,6 +6,15 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**. Its current lead is
+`udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+The exact preregistered twenty-source/seven-route audit finds zero native owners of the physical
+profile, endpoint/global scale, or source state. All 591 controls remain bounded survivors. Exact
+factorization shows the dimensionless null sky relation cannot select constant `R`; it does not
+make UDT scale-free, and `c_E` remains the observed calibration. SNe remains compatibility-only,
+`X_max` requirement-only, and `x=1` is only a control endpoint. External review reproduced the
+load-bearing algebra and found no contradictory owner, while requiring explicit evidence-scope
+caveats. Next is one same-geometry dimensional SNe query on one fixed G75/G77 realization before
+P1 comparison or any fit. Its parent is
 `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`:
 all 591 frozen G75 profiles and 1,514,142 level-4 rays were recomputed by a direct metric-
 Christoffel route independent of G76's Hamiltonian implementation. The result is 590 strong, one

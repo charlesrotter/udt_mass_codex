@@ -1,7 +1,11 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-11 STATUS (RESTART ANCHOR): G77 FULL-FAMILY DIRECT-CHRISTOFFEL REPLAY EXTERNALLY VERIFIED; 590 STRONG, 1 REGISTERED, 0 UNRESOLVED; PHYSICAL OWNERS STILL OPEN.** ACTIVE ARC = CMB PEAK
+> **2026-08-11 STATUS (RESTART ANCHOR): G78 PROFILE/ENDPOINT/SOURCE OWNER JOIN VERIFIED WITH CAVEATS; ZERO NATIVE OWNERS IN THE EXACT 20-SOURCE UNIVERSE.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-11) FIRST, then
+> `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/OWNER_ROUTE_LEDGER.tsv`, then
+> `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/VERIFICATION_SCOPE_LEDGER.tsv`, then
 > `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXACT_DERIVATION.md`, then
 > `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/DIRECT_CHRISTOFFEL_ATLAS.tsv`, then

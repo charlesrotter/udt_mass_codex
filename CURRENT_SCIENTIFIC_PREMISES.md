@@ -9,7 +9,20 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G77 lead
+## Current G78 lead
+
+`udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the bounded physical-owner join. Across its exact twenty-source/seven-route universe, no
+native owner of the physical profile, endpoint/global scale, or source state is found. All 591
+profiles remain finite-mesh survivors. Exact constant-scale factorization leaves the dimensionless
+angular relation unable to determine `R`, while `c_E` remains the observational clock/ruler
+calibration and UDT is not declared scale-free. SNe P1 is compatibility-only, `X_max` is a
+necessary asymptotic requirement only, and `x=1` is a chosen control endpoint. The external review
+reproduced the load-bearing algebra and found no contradictory owner. Its evidence caveats are
+binding: the internal route-status check is regression-only, repository gates are not sealed
+scientific evidence, and this is not an exhaustive current-repository or generic UDT theorem.
+
+## G77 parent lead
 
 `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
 controls the numerical-method independence gate. Under the same supplied stationary observer query,

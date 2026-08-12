@@ -130,6 +130,13 @@ leaving the physical pair-map/calibration owner open. Its immediate foundation g
 A conflict
 between these controls and a cited source is a mandatory stop.
 
+The current scientific lead is the bounded G78 owner join at
+`udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+It adds no migration authority and changes no path registry: zero native physical profile,
+endpoint/scale, or source owners are found in its exact twenty-source universe. Its internal
+route-status checker is regression-only and its repo-wide package gates are not sealed scientific
+evidence; use `VERIFICATION_SCOPE_LEDGER.tsv` for the exact distinction.
+
 The dated scientific checkpoint prose formerly embedded here is preserved in
 `archive/startup_orientation_history_2026-08-05/research_registry_README.pre_cleanup.md`. The
 registry facts below remain the current reorganization/navigation semantics and do not create

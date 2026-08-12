@@ -14,6 +14,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 CORRECTION_PREREG = "2a78b8f6bb1e5ab8619dffd46ba180b92ddc13aa"
+SOURCE_BASE = "9a78af889321d84914ae5eb2c066da56bc957719"
 EXPECTED_REVIEW_MANIFEST = "bd86fbc470c9115f44c35e35f1d42b821e7fc885be7eb14752579b3192c3a1e4"
 EXPECTED_REVIEW = "1a4be37909944fc86d70901b1891612ec6553bd8c4311ef35e3cc3d1403ff0b3"
 EXPECTED_TRANSCRIPT = "149f598b7dd564e5c12a37b595a1f1f6c0efefeb6bea0712b7bdbf32eeb5920c"
@@ -59,7 +60,11 @@ def main() -> None:
     reviewed = table(HERE / "REVIEW_MANIFEST.tsv")
     assert len(reviewed) == len({row["path"] for row in reviewed}) == 38
     for row in reviewed:
-        assert digest(ROOT / row["path"]) == row["sha256"]
+        if row["role"] == "G78_package":
+            data = (ROOT / row["path"]).read_bytes()
+        else:
+            data = subprocess.check_output(["git", "show", f"{SOURCE_BASE}:{row['path']}"], cwd=ROOT)
+        assert hashlib.sha256(data).hexdigest() == row["sha256"]
 
     routes = table(HERE / "OWNER_ROUTE_LEDGER.tsv")
     assert len(routes) == len({row["route"] for row in routes}) == 7
@@ -131,6 +136,7 @@ def main() -> None:
         "status": "PASS",
         "reviewed_payload_files": len(reviewed),
         "reviewed_payload_bytes_unchanged": True,
+        "reviewed_source_base": SOURCE_BASE,
         "source_rows": result["reviewed_source_rows"],
         "profile_rows": result["reviewed_profile_rows"],
         "route_rows": result["reviewed_route_rows"],

@@ -7,7 +7,13 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The current G77 lead is
+**CMB PEAK OPTIMIZATION**. The current G78 lead is
+`../udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+It finds zero native physical profile, endpoint/scale, or source owners in the exact twenty-source
+G78 universe, while all 591 profiles remain bounded finite-mesh survivors. The exact constant-scale
+factorization does not make UDT scale-free. External review reproduced the algebra and found no
+contradictory owner, with explicit evidence-scope caveats. Next is one dimensional same-geometry
+SNe query on one fixed realization before P1 comparison or fitting. Its parent is
 `../udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It directly replays all 591 frozen G75 profiles and 1,514,142 level-4 rays from the metric
 Christoffel equation, returning 590 strong, one registered, and zero unresolved rows. The sealed

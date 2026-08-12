@@ -7,7 +7,21 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G77 LEAD:**
+**CURRENT G78 LEAD:**
+`udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the bounded physical-owner gate. In the exact twenty-source/seven-route universe it finds
+four open-no-owner routes, one SNe compatibility anchor, one `X_max` necessary requirement, one
+conditional-identifiability route, and zero native owners. All 591 frozen profiles survive the
+registered finite-mesh relation gates. The exact `tau=c_E t/R` substitution yields
+`ds^2=R^2 dSigma^2`, so this dimensionless angular relation cannot set constant `R`; this neither
+restores CSN nor makes UDT scale-free. The cold review independently reproduced the census,
+factorization, endpoint typing, and source algebra and found no contradictory owner. It also
+correctly limits the internal ownership-status script to regression evidence and the package-wide
+checks to repository gates outside the sealed scientific universe. NEXT: derive one dimensional
+SNe query on one fixed G75/G77 realization, returning `phi_pair` and `d_A` or `d_L` before P1
+comparison, fitting, or profile ranking.
+
+**G77 PARENT LEAD:**
 `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
 controls the numerical-method independence gate. Every one of the 591 frozen G75 profiles and all
 1,514,142 level-4 rays were recomputed from the direct metric Christoffel equation with variable
