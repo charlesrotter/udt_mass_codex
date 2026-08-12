@@ -1,0 +1,3207 @@
+Script started on 2026-08-12 00:29:53-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_g81_review_dBEDYe
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019ff43b-e506-73f3-ad60-2f7735334826
+--------
+user
+Act as the cold adversarial reviewer. Read udt_cmb_G81_nonradial_screen_covariance_2026-08-12/REVIEW_DISPATCH.md and REVIEW_MANIFEST.tsv, verify the sealed intake, perform every required audit, and return exactly one required landing. Inspect only this sealed intake. Do not edit input files, continue the research, or access anything outside this directory.
+codex
+I’m opening the sealed intake instructions first, then I’ll audit only the files and paths declared inside that intake directory and produce the single required landing.
+exec
+/bin/bash -c pwd in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+
+exec
+/bin/bash -c 'rg --files' in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+verify_exact_algebra.py
+run_catch_proofs.py
+LAY_REPORT.md
+REPOSITORY_GATES.json
+DERIVATION_STDOUT.txt
+PREMISE_LEDGER.tsv
+INDEPENDENT_TRANSCRIPT.txt
+DERIVATION_RESULT.json
+AUDIT_REPORT.md
+INDEPENDENT_VERIFICATION.json
+verify_repository_gates.py
+INDEPENDENT_METHOD_REGISTRATION.md
+SEMANTIC_CONTRACT.json
+verify_nonradial_neighboring_rays.py
+PATH_EVIDENCE.npz
+CATCH_PROOF_RESULTS.json
+PREREGISTRATION.md
+SOURCE_MANIFEST.tsv
+TYPE_LEDGER.tsv
+EXACT_ALGEBRA_RESULT.json
+REVIEW_DISPATCH.md
+derive_nonradial_screen_covariance.py
+EXACT_DERIVATION.md
+REFINEMENT_ATLAS.tsv
+build_review_manifest.py
+PACKAGE_VERIFICATION.json
+verify_package.py
+CONTROL_UNIVERSE.tsv
+REVIEW_MANIFEST.tsv
+
+exec
+/bin/bash -c "sed -n '1,220p' REVIEW_DISPATCH.md" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+# Cold external review dispatch — G81 nonradial screen covariance
+
+You are a fresh adversarial reviewer. Inspect only the sealed intake. Do not edit files, continue
+the research, infer broader UDT physics, or access repository material outside the intake.
+
+## Question
+
+On the exact fixed G79/G80 metric and the two preregistered controls, does the submitted calculation
+correctly establish the conditional screen-covariance law
+
+```text
+D_reverse_AB = Z B transpose(D_forward) transpose(A)
+```
+
+together with unrotated Jacobi reciprocity, reciprocal frequency/redshift, and area reciprocity?
+Does C1 genuinely activate nonradial angular/mixing geometry rather than disguise a radial or
+diagonal test?
+
+## Required audit
+
+1. Verify all `REVIEW_MANIFEST.tsv` hashes and the exact nine frozen source rows.
+2. Reconstruct the C1 direction/screen triad and both endpoint rotations exactly.
+3. Derive the transformation rule, including the placement of `A`, `B`, `Z`, and the transpose.
+4. Reconstruct the metric, stationary observer, source frequency, full tangent reversal, endpoint
+   surfaces, and screen transport.
+5. Verify C1 has live radial, polar, and azimuthal motion and a genuinely non-diagonal Jacobi map.
+6. Independently replay load-bearing values without using the production Riemann/Jacobi equation
+   where practical. Audit the submitted direct-Christoffel neighboring-ray method and state its
+   remaining shared inputs.
+7. Check refinement, endpoint return, frequency, phi, tangent, screen, null, conserved-momentum,
+   Wronskian, matrix, determinant/area, and hostile-catch gates.
+8. Hunt circularity, projection/source basis confusion, a missing inverse/transpose, silent
+   diagonalization, sign/frequency errors, or a falsely nonradial control.
+9. Classify generic Jacobi/Wronskian covariance honestly: it may be a valid conditional metric
+   theorem without being a UDT-specific selector.
+10. Confirm no future signal, physical profile, endpoint, scale, `Xmax`, source, SNe/CMB observable,
+    `cmb_temp`, action, matter, or bootstrap theorem follows.
+
+## Load-bearing values
+
+```text
+C0 production rotated residual       1.0086332137876813e-14
+C1 production rotated residual       3.931585029333395e-15
+C1 forward offdiagonal norm          1.1801666864663825e-3
+C0 independent rotated residual      1.3498538204686179e-8
+C1 independent rotated residual      1.1585881402639625e-8
+```
+
+## Required landing
+
+Return exactly one primary status:
+
+- `VERIFIED_AS_BOUNDED_SCREEN_COVARIANCE`;
+- `VERIFIED_WITH_CAVEATS`;
+- `CORRECTION_REQUIRED`; or
+- `INVALID`.
+
+State all binding caveats and corrections, the strongest justified maximum conclusion, and the
+smallest next calculation. Do not continue the research. Supply runnable algebra or compact code
+for every load-bearing challenge.
+
+exec
+/bin/bash -c "sed -n '1,220p' REVIEW_MANIFEST.tsv" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+path	sha256	role
+CURRENT_SCIENTIFIC_PREMISES.tsv	bd4ddd47875444583a1278fa30bee0cbaca6d664c248f63f0ab08217076a3a0a	premise_registry
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py	f0f495cf05211a2ac47a7fa917be64b1dd9c6dfc51dfbb5c1736520b42010d4a	metric_jacobi_engine
+udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/DERIVATION_RESULT.json	82958734b9696bf6d541228d91209ea68be8a8838a2dc73dffa2c9873b6d189a	G79_parent_result
+udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/DERIVATION_RESULT.json	c74287357034518a2906230ca623871c3bec5c213eea653433c20661c4a59655	G80_parent_result
+udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXACT_DERIVATION.md	9cc1c68ec038bc54b347601b69296ecd22bac9b9af80b09c7cc597803e08debd	G80_parent_derivation
+udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md	7f30a4963dd9bd9c3fe1ec6dec1c25c0615fc4c9a784229543bd26bfb8aababc	G80_external_landing
+udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/TYPE_LEDGER.tsv	096883061e69bedeb5eb3c8b79f04f9921526599b8a915a5e8b8953859f41108	G80_type_control
+udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/derive_reverse_pair_reciprocity.py	4db8103cc869652e433525c17d70c8acceae16e2f5f07d81cfa8f99693298247	G80_production_method
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/AUDIT_REPORT.md	eeef3fa2dd70ed6c3a55d8bf0b2dee33e58ec4132f196f33e6ac8d0d65e4653a	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/CATCH_PROOF_RESULTS.json	bca0e81cb78cee13c78bd77179dba9bd0b064815f5a76d0d5f897af79f6fe300	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/CONTROL_UNIVERSE.tsv	205a74420e0d178311276746d5086d7716443368ef7625cee534c80555a22f77	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/DERIVATION_RESULT.json	03ce88cdbcda8f1cb4ecd8fa0cfd4a08de5e3659de5201581be5d41541e2467d	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/DERIVATION_STDOUT.txt	03ce88cdbcda8f1cb4ecd8fa0cfd4a08de5e3659de5201581be5d41541e2467d	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXACT_ALGEBRA_RESULT.json	8e048f0c14bf8143fcab46279f759db387573ade2e36a078db664ff700382d3c	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXACT_DERIVATION.md	37970b2f9670137fd5d458856268b34bbb7f0778356c78095551037ddc305b83	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/INDEPENDENT_METHOD_REGISTRATION.md	36b2d8b8c895285d4d1b181df0e657c9943c2db69d6be6a39374a24ba1d83c8b	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/INDEPENDENT_TRANSCRIPT.txt	359c0bf079ceb6ae7ab4966c5f8bdc50f919e24f74d8acd5e26ca450f73d76c5	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/INDEPENDENT_VERIFICATION.json	359c0bf079ceb6ae7ab4966c5f8bdc50f919e24f74d8acd5e26ca450f73d76c5	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/LAY_REPORT.md	352ccb97ba4bc26a02e53b7e8383213b3cc311519cfb4850f6c89ab6f20ce772	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/PACKAGE_VERIFICATION.json	2ed6d4745697266305cc9e0759d8b528fadcde124c4f4565b8112fd795fb95ca	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/PATH_EVIDENCE.npz	d267093df1091ebb330ac11ae5e1ec95470bd84f12039d7c2b447e22b8c6ade4	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/PREMISE_LEDGER.tsv	3e72a74142d442cc0ad666a398d546516bd47b7a2191ea5a2af21e7a0f975cdf	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/PREREGISTRATION.md	a64cff7a5fa6e511b4318ff0a9a1964e11da7a244e3c00aee928125fda7fabb2	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/REFINEMENT_ATLAS.tsv	63a967f683b306f05003fc24a06f0210ade3e7090929e5fbf11858731a4c039b	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/REPOSITORY_GATES.json	893dda8a5cdd4455bc94dd9191a37847ec0e9ade6d3bace81768310eba0100a6	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/REVIEW_DISPATCH.md	1caeac305bcace933168dc66f3bdd83da11b726c5d3ccdea94132dac2c1b1b26	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/SEMANTIC_CONTRACT.json	76fb82103385a9226f4e259d34437042d43c5ff61b58146bd92003781eb56e87	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/SOURCE_MANIFEST.tsv	5675f7612244f758fc8bc42a6fcf718c37a15125804602f3c82a686a576bc7ea	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/TYPE_LEDGER.tsv	92cc1f53b43f7ebba812dcbe6fac67c1b11854b850c66eddf7dc67c03b8be9fb	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/build_review_manifest.py	fe7496b72a28307651f42d6e2d16b952b529150ea4e0376f0a2a7154b033a055	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/derive_nonradial_screen_covariance.py	7d49e917832c347a35a8782739be53ff161d5bd16124137ec198a9d9b39402e0	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/run_catch_proofs.py	02b209d6e7dcafa33c19c5b881d9903f2966885203eed01aba82100394b71196	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_exact_algebra.py	43f2785a7cdc85790a14e165ed627c9c5c0129b40a9f4c40cd42304a22c47ea1	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_nonradial_neighboring_rays.py	79a3151197866ae37c18edd367f6391d168b72354c178011c273c537ce0fdcaa	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_package.py	3fadd6b069d7f929ecc44f60db1fb1c1ca05f569612ac6f2a7d223aa55728d2a	G81_package
+udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_repository_gates.py	d62ec46a2cd6a74d784b93c911ac1b9e5c8e176fd475274649744c7a92229de9	G81_package
+udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md	1108c0cb80dafe03bcb038bc534096f3200f9926aceb8301f58e2e814c524a56	query_type_control
+
+codex
+I have the intake boundary and manifest shape. Next I’m reading the package’s own audit artifacts and derivation scripts to determine what can be independently checked from inside the seal versus what is only attested by included evidence.
+Cold review audit within the sealed intake only.
+  → Read package instructions, audit artifacts, and verification outputs to establish the sealed evidence model and required checks
+  • Recompute local manifest hashes and inspect whether the nine frozen source rows can be verified from sealed evidence only
+  • Independently audit the covariance derivation, nonradial control geometry, and neighboring-ray cross-check from the included code/data
+  • Assess gate coverage, residual risks, and produce exactly one landing with bounded conclusions
+exec
+/bin/bash -c "sed -n '1,240p' AUDIT_REPORT.md" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+# G81 audit report — nonradial and endpoint-screen covariance
+
+## Landing
+
+`DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`.
+
+Both preregistered controls reached the fixed `x=1` endpoint regularly and passed every production
+and independent gate. C1 was genuinely nonradial: its endpoint changed in both angular coordinates,
+its forward Jacobi map had off-diagonal norm `1.1801666864663825e-3`, and no diagonalization was used.
+
+The finest production residuals for
+
+```text
+D_reverse_AB = Z B transpose(D_forward) transpose(A)
+```
+
+were `1.0086332137876813e-14` for C0 and `3.931585029333395e-15` for C1. The independent
+direct-Christoffel neighboring-ray residuals were `1.3498538204686179e-8` and
+`1.1585881402639625e-8`, inside the preregistered `2e-4` gate. Endpoint return, frequency
+reciprocity, full tangent reversal, screen carry, area reciprocity, nullness, conserved momenta,
+screen orthonormality, and Wronskian controls all passed.
+
+## Interpretation
+
+The G80 reverse relation survives both a live angular ray and independent source/receiver screen
+basis changes. This is the expected covariance of generic Jacobi/Wronskian reciprocity on the
+supplied complete metric segment. It is stronger than a radial-coordinate check and weaker than a
+physical-selection theorem.
+
+The independent replay is materially different at the load-bearing differential-equation layer: it
+rebuilds the Christoffels and estimates the maps from finite differences of neighboring geodesics.
+It still shares the same supplied metric, observer query, endpoint, and SciPy integrator family, so
+its independence is bounded rather than absolute.
+
+## Four gates before external review
+
+1. **Preregistered:** yes, exact two-control universe committed at `b8b2eef1` before outcomes.
+2. **Full space or bounded scope:** bounded scope justified; exactly one radial and one nonradial
+   direction, one metric profile, one endpoint, and fixed rotations.
+3. **Independently verified:** yes, by direct Christoffels plus centered neighboring rays.
+4. **Every premise audited:** yes in `PREMISE_LEDGER.tsv`; physical selection remains open.
+
+Fresh external adversarial review remains the final evidence gate before this result may be banked
+as verified rather than an internally verified conditional result.
+
+## Authority boundary
+
+G81 does not select the stationary profile, endpoint, angular direction, screen, source, scale,
+`Xmax`, action, matter, bootstrap closure, CMB spectrum, `cmb_temp`, or any future signalling law.
+
+exec
+/bin/bash -c "sed -n '1,240p' PREREGISTRATION.md" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+# G81 preregistration — nonradial and endpoint-screen covariance controls
+
+Date: 2026-08-12
+
+Base: `f112a32e4fbc5319de4e964e869f9024e9bdb1b9`
+
+Status before calculation: `PREREGISTERED__NO_OUTCOME_INSPECTED`
+
+## Whole bounded question
+
+On the exact frozen G79/G80 stationary metric, does reverse ordered-pair Jacobi reciprocity retain
+its covariant form when (a) the null ray has live radial, polar, and azimuthal components and (b)
+the reverse source screen and receiver projection screen are independently rotated?
+
+This is a metric-led covariance stress test. It characterizes two declared observer-query
+controls. It does not select a profile, endpoint, direction, screen, scale, source, or observable.
+
+## Exact frozen universe
+
+The universe contains exactly the two rows in `CONTROL_UNIVERSE.tsv`; no direction, rotation,
+endpoint, or tolerance may be changed after either outcome is inspected.
+
+Common metric and query:
+
+```text
+profile                    G75_AM_S01_E05
+A(x)                       1-x^2/4
+h(x)                       x^6/20
+receiver                   x=1/4, theta=pi/2, psi=0
+endpoint event             first outward x=1 crossing
+forward normalization      receiver frequency = 1
+reverse tangent            k_reverse = -k_source/Z
+```
+
+At the receiver use the stationary-observer orthonormal spatial triad
+`(e_r,e_theta,e_psi)` already defined by the frozen G68 engine.
+
+- `C0_RADIAL_ROTATED`: `n=(1,0,0)` with forward screen `(e_theta,e_psi)`.
+- `C1_FULL_ANGULAR`: `n=(12,3,4)/13`. Its forward screen is
+  `s1=(0,4,-3)/5` and `s2=(-5/13,36/65,48/65)` in the same triad. These vectors are an exact
+  oriented orthonormal basis perpendicular to `n`.
+
+The reverse initial source screen and the independent receiver projection screen are fixed as
+
+```text
+A = [[3/5,-4/5],[4/5,3/5]]
+B = [[5/13,-12/13],[12/13,5/13]].
+```
+
+Both are orientation-preserving orthogonal controls. They are `CHOSE_CONTROL`, not physics.
+
+## Exact identities under test
+
+For each control that reaches the registered endpoint regularly, production must test
+
+```text
+Z_reverse = 1/Z_forward
+phi_reverse = -phi_forward
+D_reverse_unrotated = Z_forward transpose(D_forward)
+D_reverse_AB = Z_forward B transpose(D_forward) transpose(A)
+d_A_reverse/d_A_forward = Z_forward.
+```
+
+Here `D_reverse_AB` is built from Jacobi fields seeded by `A` times the carried source screen and
+projected at the receiver onto `B` times the original receiver screen. The unrotated and rotated
+relations are separate checks; rotation may not be absorbed by diagonalizing `D`.
+
+## Premise and parameter ledger
+
+| Item | Status | Ownership |
+|---|---|---|
+| reciprocal clock/ruler character and `c_E` calibration | `DERIVED` / `OBSERVED` | current premise registry |
+| stationary axial metric/profile | `CHOSE_CONTROL` | frozen G79/G80 control, not selected physics |
+| receiver and endpoint surfaces | `CHOSE_CONTROL` | numerical comparison query, not `X_max` |
+| two direction rows | `CHOSE_CONTROL` | exact bounded covariance probes |
+| screen rotations `A,B` | `CHOSE_CONTROL` | gauge probes only |
+| past-directed affine reversal | `CHOSE_QUERY` | mathematical reversal, not signal |
+| DOP853, tolerances, step ladder | category-A numerical method | soundness controls, not physics |
+| source, scale `R`, `X_max`, SNe/CMB observable | `OPEN` | absent from the calculation |
+
+No matter, action, bootstrap, source, fit, thermal field, or signalling law enters.
+
+## Numerical and independent-verification contract
+
+Production uses DOP853 with `rtol=2e-13`, `atol=2e-15`, and the exact maximum-step ladder
+`1/1024`, `1/2048`, `1/4096`. A crossing branch is certified only if:
+
+- forward and reverse integrations reach their registered endpoint events;
+- maximum endpoint return is below `1e-8`;
+- frequency-product, tangent-return, and carried-screen-return residuals are below `1e-8`;
+- both unrotated and rotated matrix-reciprocity residuals are below `1e-8`;
+- the area-ratio residual is below `1e-8`;
+- null, screen-Gram, screen-ray, and Wronskian residuals retain the G80 registered bounds;
+- refinement is reported without choosing the most favorable row.
+
+The independent route must rebuild first metric derivatives and Christoffels directly, integrate
+central plus finite-difference neighboring rays in both orientations, and must not call the
+production Riemann/Jacobi equation. Its registered matrix/area tolerances are `2e-4`.
+
+If `C1_FULL_ANGULAR` does not reach `x=1`, turns, crosses a coordinate singularity, or develops a
+caustic, it is classified exactly as observed. Its direction may not be replaced. C0 cannot be
+used to claim a nonradial result.
+
+## Catch-proof contract
+
+The final verifier must reject: a missing/duplicate control; a changed direction or rotation;
+partial instead of full tangent reversal; omitted `Z`; omitted transpose; omitted `A` or `B`;
+silent diagonalization; future-signal wording; a retuned nonradial row; a physical-profile,
+endpoint, `X_max`, source, or observable promotion; and mutation of any frozen source.
+
+## Maximum conclusion
+
+If both controls pass all gates:
+
+`DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`
+
+This means only that generic Jacobi/Wronskian reciprocity is represented covariantly by the
+declared complete-metric observer queries. It is not a UDT-specific selector, physical profile,
+endpoint law, `X_max` relation, SNe/CMB result, source, action, matter, bootstrap, or signalling
+law. A one-control outcome is reported only for that control.
+
+exec
+/bin/bash -c "sed -n '1,240p' INDEPENDENT_METHOD_REGISTRATION.md" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+# G81 independent-method registration
+
+This method layer was fixed after the production outcome but before any independent neighboring-ray
+outcome was computed. It cannot alter the preregistered two-control universe or conclusion ceiling.
+
+- Rebuild the supplied G79 metric and its first coordinate derivatives locally.
+- Assemble the full Christoffel tensor directly; import no production Riemann or Jacobi equation.
+- Integrate central and neighboring null geodesics with SciPy DOP853, `rtol=2e-12`, `atol=2e-14`,
+  and `max_step=1/800`.
+- Use centered angular perturbations `1e-4` and `5e-5` radians for both screen columns.
+- Evaluate neighboring endpoints at the central ray's fixed affine endpoint.
+- For the rotated test, seed the reverse neighboring rays in `A E_source` and project at the
+  receiver on `B E_receiver`.
+- Require each independent production-map and covariance residual to be below the preregistered
+  `2e-4` relative tolerance. No method parameter may be changed after inspection.
+
+Maximum conclusion remains the preregistered control-scoped covariance statement.
+
+exec
+/bin/bash -c "sed -n '1,260p' EXACT_DERIVATION.md" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+# G81 exact derivation — screen-basis covariance of reverse Jacobi reciprocity
+
+## Scope
+
+This is a geometric statement for a fixed regular null segment and its mathematical reverse. It
+does not choose that segment, its metric profile, its endpoint, or a physical observable.
+
+Let `D_fwd` map receiver screen-angle seeds to source transverse separation. Let `D_rev` map source
+screen-angle seeds to receiver transverse separation. With receiver frequency normalized to one
+and source frequency `Z`, the Wronskian pairing gives, in the carried unrotated screens,
+
+```text
+D_rev = Z transpose(D_fwd).
+```
+
+Now rotate the reverse source seed basis by the orthogonal matrix `A` and independently rotate the
+receiver projection basis by the orthogonal matrix `B`. Coordinate columns transform on the right
+by `transpose(A)` and output rows transform on the left by `B`, so
+
+```text
+D_rev_AB = B D_rev transpose(A)
+         = Z B transpose(D_fwd) transpose(A).
+```
+
+This is basis covariance, not a new physical effect. It does not permit diagonalizing `D_fwd`: the
+complete off-diagonal map must transform.
+
+Taking determinants and using `det(A)=det(B)=1` gives
+
+```text
+sqrt(abs(det(D_rev_AB))) = Z sqrt(abs(det(D_fwd))).
+```
+
+The endpoint frequency reversal independently gives `Z_rev=1/Z` and therefore
+`phi_rev=-phi_fwd` for `phi=log(Z)`.
+
+## Exact nonradial frame
+
+In receiver orthonormal-triad coordinates, G81 fixes
+
+```text
+n  = (12,3,4)/13
+s1 = (0,4,-3)/5
+s2 = (-25,36,48)/65.
+```
+
+Direct dot products give unit norms, pairwise orthogonality, and `s1 cross s2 = n`. Hence C1 is a
+genuine three-directional ray with a complete oriented screen, not a radial control relabelled.
+
+## Observed finite-control values
+
+At the finest registered production step:
+
+- C0 matrix covariance residual: `1.0086332137876813e-14`.
+- C1 matrix covariance residual: `3.931585029333395e-15`.
+- C1 forward off-diagonal norm: `1.1801666864663825e-3`.
+- C1 endpoint moved from `(theta,psi)=(pi/2,0)` to approximately
+  `(1.7493671390260097,0.23079074045919012)`.
+
+The separate direct-Christoffel neighboring-ray calculation obtained C0/C1 rotated covariance
+residuals `1.3498538204686179e-8` and `1.1585881402639625e-8`, respectively.
+
+## Maximum conclusion
+
+`DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`.
+
+The derivation is a control-scoped representation of generic Jacobi/Wronskian reciprocity. It is
+not a UDT-specific selector, future signal, physical endpoint, `Xmax` relation, source law, action,
+matter result, or CMB prediction.
+
+exec
+/bin/bash -c "sed -n '1,220p' LAY_REPORT.md" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+# G81 in lay language
+
+G80 showed that, for one straight radial line of sight, running the geometric comparison backward
+returned the same lensing information in the mathematically required reversed form.
+
+G81 made that test harder in two ways. First, one ray travelled through all three spatial directions,
+so the angular and mixing parts of the metric genuinely participated. Second, we deliberately used
+different rotated coordinate grids at the two ends, like turning the graph paper independently at
+the source and receiver.
+
+The answer transformed exactly as one geometric object should. The nonradial case developed real
+cross-coupling between its two screen directions, so this was not secretly the old diagonal radial
+test. A separately written calculation reconstructed the same result by firing nearby rays instead
+of integrating the production Jacobi equation.
+
+What improved is confidence that the reverse-pair relation is a genuine screen-covariant geometric
+law, not an artifact of one radial direction or one convenient screen basis. What did not change is
+the physical-selection problem: this test does not tell us which cosmic profile, endpoint, source,
+or CMB observable nature uses.
+
+exec
+/bin/bash -c "sed -n '1,220p' PACKAGE_VERIFICATION.json" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+{
+  "authority_boundary_verified": true,
+  "controls_verified": 2,
+  "nonradial_angular_activation": true,
+  "production_and_independent_gates": true,
+  "schema": "udt-cmb-g81-package-verification-v1",
+  "source_rows_verified": 9,
+  "status": "PASS"
+}
+
+codex
+The package’s own narrative claims bounded scope and a nine-row frozen-source verification. I’m moving to the machine-checkable artifacts and the production/independent code paths now, because that’s where missing inverses, transposes, or fake nonradial structure would show up.
+exec
+/bin/bash -c "sed -n '1,240p' SOURCE_MANIFEST.tsv" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+path	sha256	role	base_commit
+CURRENT_SCIENTIFIC_PREMISES.tsv	bd4ddd47875444583a1278fa30bee0cbaca6d664c248f63f0ab08217076a3a0a	premise_registry	f112a32e4fbc5319de4e964e869f9024e9bdb1b9
+udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py	f0f495cf05211a2ac47a7fa917be64b1dd9c6dfc51dfbb5c1736520b42010d4a	metric_jacobi_engine	f112a32e4fbc5319de4e964e869f9024e9bdb1b9
+udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/DERIVATION_RESULT.json	82958734b9696bf6d541228d91209ea68be8a8838a2dc73dffa2c9873b6d189a	G79_parent_result	f112a32e4fbc5319de4e964e869f9024e9bdb1b9
+udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/DERIVATION_RESULT.json	c74287357034518a2906230ca623871c3bec5c213eea653433c20661c4a59655	G80_parent_result	f112a32e4fbc5319de4e964e869f9024e9bdb1b9
+udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXACT_DERIVATION.md	9cc1c68ec038bc54b347601b69296ecd22bac9b9af80b09c7cc597803e08debd	G80_parent_derivation	f112a32e4fbc5319de4e964e869f9024e9bdb1b9
+udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md	7f30a4963dd9bd9c3fe1ec6dec1c25c0615fc4c9a784229543bd26bfb8aababc	G80_external_landing	f112a32e4fbc5319de4e964e869f9024e9bdb1b9
+udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/TYPE_LEDGER.tsv	096883061e69bedeb5eb3c8b79f04f9921526599b8a915a5e8b8953859f41108	G80_type_control	f112a32e4fbc5319de4e964e869f9024e9bdb1b9
+udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/derive_reverse_pair_reciprocity.py	4db8103cc869652e433525c17d70c8acceae16e2f5f07d81cfa8f99693298247	G80_production_method	f112a32e4fbc5319de4e964e869f9024e9bdb1b9
+udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md	1108c0cb80dafe03bcb038bc534096f3200f9926aceb8301f58e2e814c524a56	query_type_control	f112a32e4fbc5319de4e964e869f9024e9bdb1b9
+
+exec
+/bin/bash -c "sed -n '1,240p' CONTROL_UNIVERSE.tsv" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+control_id	direction_er	direction_etheta	direction_epsi	screen1_er	screen1_etheta	screen1_epsi	screen2_er	screen2_etheta	screen2_epsi	reverse_source_rotation	receiver_projection_rotation	status_before_run
+C0_RADIAL_ROTATED	1	0	0	0	1	0	0	0	1	3/5,-4/5;4/5,3/5	5/13,-12/13;12/13,5/13	PREREGISTERED
+C1_FULL_ANGULAR	12/13	3/13	4/13	0	4/5	-3/5	-5/13	36/65	48/65	3/5,-4/5;4/5,3/5	5/13,-12/13;12/13,5/13	PREREGISTERED
+
+exec
+/bin/bash -c "sed -n '1,240p' REPOSITORY_GATES.json" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+{
+  "checked_markdown_links": 5,
+  "current_paths": 1114,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_hashes": {
+    "native_action_arm_c_2026-07-18/SHA256SUMS.txt": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+    "native_action_final_adjudication_2026-07-18/SHA256SUMS.txt": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+    "native_action_stage1_2026-07-18/arm_A/SHA256SUMS.txt": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+    "native_action_stage1_2026-07-18/arm_B/SHA256SUMS.txt": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+    "native_action_stage2_2026-07-18/arm_A/SHA256SUMS.txt": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+    "native_action_stage2_2026-07-18/arm_B/SHA256SUMS.txt": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45"
+  },
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "premise_guards": 73,
+  "protected_untracked_contents_read": false,
+  "protected_untracked_path_count": 7,
+  "pytest": "101 passed, 1 xfailed",
+  "schema": "udt-cmb-g81-repository-gates-v1",
+  "status": "PASS",
+  "unexpected_dirty_paths": []
+}
+
+exec
+/bin/bash -c "sed -n '1,240p' CATCH_PROOF_RESULTS.json" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+{
+  "catches": {
+    "changed_A_rotation": true,
+    "changed_B_rotation": true,
+    "changed_direction": true,
+    "duplicate_control": true,
+    "frozen_source_mutation": true,
+    "future_signal_promotion": true,
+    "hidden_diagonal_nonradial_map": true,
+    "independent_tolerance_failure": true,
+    "missing_control": true,
+    "omitted_A_or_B": true,
+    "omitted_Z": true,
+    "omitted_transpose": true,
+    "partial_tangent_reversal": true,
+    "promotion__Xmax_identified": true,
+    "promotion__cmb_observable_derived": true,
+    "promotion__physical_endpoint_selected": true,
+    "promotion__physical_profile_selected": true,
+    "promotion__physical_source_selected": true,
+    "retuned_nonradial_control": true,
+    "silent_diagonalization": true
+  },
+  "count": 20,
+  "schema": "udt-cmb-g81-catch-proofs-v1",
+  "status": "PASS"
+}
+
+exec
+/bin/bash -c "sed -n '1,260p' DERIVATION_RESULT.json" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+{
+  "authority": {
+    "Xmax_identified": false,
+    "cmb_temp_activated": false,
+    "future_signal_derived": false,
+    "generic_geometric_reciprocity_not_UDT_selector": true,
+    "maximum_conclusion": "DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS",
+    "past_directed_reversal_only": true,
+    "physical_profile_endpoint_scale_source_or_observable_selected": false
+  },
+  "control_count": 2,
+  "controls": [
+    {
+      "control_id": "C0_RADIAL_ROTATED",
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "forward": {
+        "D": [
+          [
+            0.7559967070430084,
+            -1.0146339127533358e-22
+          ],
+          [
+            -1.0146395760930269e-22,
+            0.7559733363044177
+          ]
+        ],
+        "Z": 1.1456439237389628,
+        "affine": 0.7560742639231726,
+        "dA_over_R": 0.7559850215834019,
+        "endpoint": [
+          0.8471144104566392,
+          1.0,
+          1.5707963267948966,
+          -0.012169213304160875
+        ],
+        "offdiagonal_norm": 1.434913044850935e-22,
+        "phi": 0.13596685774182335,
+        "summary": {
+          "affine_final": 0.7560742639231726,
+          "antisymmetric_D": [
+            [
+              0.0,
+              2.8316698455429404e-28
+            ],
+            [
+              -2.8316698455429404e-28,
+              0.0
+            ]
+          ],
+          "antisymmetric_norm": 4.0045858997297537e-28,
+          "conserved_p_psi_endpoint": 1.2303531022342384e-05,
+          "conserved_p_t_endpoint": -0.9921567416492236,
+          "det_D": 0.5715133528584565,
+          "endpoint_D": [
+            [
+              0.7559967070430084,
+              -1.0146339127533358e-22
+            ],
+            [
+              -1.0146395760930269e-22,
+              0.7559733363044177
+            ]
+          ],
+          "endpoint_Ddot": [
+            [
+              0.9990871001774944,
+              -1.743127087663101e-21
+            ],
+            [
+              -1.7431430905736877e-21,
+              0.9987992520432348
+            ]
+          ],
+          "endpoint_coordinates": [
+            0.8471144104566392,
+            1.0,
+            1.5707963267948966,
+            -0.012169213304160875
+          ],
+          "endpoint_k": [
+            1.3184815373099996,
+            0.9905078837128303,
+            -2.226043672801776e-20,
+            -0.06591177333447765
+          ],
+          "endpoint_reached": true,
+          "endpoint_screen": [
+            [
+              -2.5220059209441802e-20,
+              -2.091200514244749e-21,
+              0.9999999999999953,
+              -1.1579638522435512e-21
+            ],
+            [
+              0.02661394614211954,
+              0.019984383283800842,
+              1.969607230424256e-21,
+              0.9986695509855054
+            ]
+          ],
+          "endpoint_tidal": [
+            [
+              0.013035518434929474,
+              3.7500878938342514e-20
+            ],
+            [
+              3.7500878938333625e-20,
+              0.017369378986205355
+            ]
+          ],
+          "family": "G75_SELECTED",
+          "first_caustic_affine": null,
+          "lapse_a": -0.25,
+          "min_singular_value_sampled_path": 0.0001512148527846344,
+          "mix_epsilon": 0.05,
+          "mix_shape": "MONOMIAL_S2",
+          "nfev": 46457,
+          "polar_rotation": -1.3421216873571705e-22,
+          "profile_id": "G75_AM_S01_E05",
+          "residuals": {
+            "conserved_p_psi": 1.7666396774293491e-16,
+            "conserved_p_t": 2.6645352591003757e-15,
+            "min_A": 0.75,
+            "min_block_D": 0.06152343764901161,
+            "null": 1.4183200820413355e-15,
+            "screen_gram": 9.325873406851315e-15,
+            "screen_ray": 2.0816681711721685e-16,
+            "tidal_antisymmetry": 1.4155585091246184e-32,
+            "wronskian": 1.5384870063562099e-34
+          },
+          "singular_values": [
+            0.7559967070430084,
+            0.7559733363044177
+          ],
+          "solver_message": "A termination event occurred.",
+          "solver_success": true,
+          "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+          "symmetric_D": [
+            [
+              0.7559967070430084,
+              -1.0146367444231813e-22
+            ],
+            [
+              -1.0146367444231813e-22,
+              0.7559733363044177
+            ]
+          ],
+          "turning_events": []
+        }
+      },
+      "gates": {
+        "area_reciprocity": true,
+        "endpoint_return": true,
+        "forward_endpoint": true,
+        "frequency_reciprocity": true,
+        "no_forward_caustic": true,
+        "path_residuals": true,
+        "phi_oddness": true,
+        "reverse_endpoints": true,
+        "rotated_matrix_covariance": true,
+        "screen_return_rotated": true,
+        "screen_return_unrotated": true,
+        "tangent_return": true,
+        "unrotated_matrix_reciprocity": true
+      },
+      "reciprocity": {
+        "endpoint_return_max_absolute": 3.7870097682746184e-15,
+        "frequency_product_error": 4.884981308350689e-15,
+        "phi_sum_absolute": 4.912736883966318e-15,
+        "screen_return_rotated_relative": 5.082348460402802e-15,
+        "screen_return_unrotated_relative": 5.69644822736449e-15,
+        "screen_unrotated_overlap": [
+          [
+            0.999999999999996,
+            -4.925952429440385e-33
+          ],
+          [
+            4.984596367269568e-33,
+            1.0000000000000069
+          ]
+        ],
+        "tangent_return_relative": 3.745317077200257e-15
+      },
+      "reverse_rotated": {
+        "A": [
+          [
+            0.6,
+            -0.8
+          ],
+          [
+            0.8,
+            0.6
+          ]
+        ],
+        "B": [
+          [
+            0.38461538461538464,
+            -0.9230769230769231
+          ],
+          [
+            0.9230769230769231,
+            0.38461538461538464
+          ]
+        ],
+        "D": [
+          [
+            0.8394339377024193,
+            -0.21317976395446236
+          ],
+          [
+            0.21320283125448175,
+            0.8394475309327926
+          ]
+        ],
+        "D_relative": 1.0086332137876813e-14,
+        "affine": 0.8661918863589938,
+        "prediction": [
+          [
+            0.8394339377024159,
+            -0.21317976395446217
+          ],
+          [
+            0.2132028312544767,
+            0.8394475309327818
+          ]
+        ],
+        "summary": {
+          "affine_final": 0.8661918863589938,
+          "antisymmetric_D": [
+            [
+              0.0,
+              -1.1621613908848957e-15
+            ],
+            [
+              1.1621613908848957e-15,
+              0.0
+            ]
+          ],
+          "antisymmetric_norm": 1.6435444006557995e-15,
+          "conserved_p_psi_endpoint": -1.07394023286616e-05,
+          "conserved_p_t_endpoint": 0.8660254037844409,
+          "det_D": 0.7501112756267468,
+          "endpoint_D": [
+            [
+              0.8660858980819116,
+              1.285178143639458e-05
+            ],
+            [
+              1.2851781438718903e-05,
+              0.8660933949544252
+            ]
+          ],
+          "endpoint_Ddot": [
+            [
+              0.9998405564514505,
+              1.9048402736030426e-05
+
+exec
+/bin/bash -c "sed -n '1,260p' INDEPENDENT_VERIFICATION.json" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+{
+  "controls": [
+    {
+      "Z": 1.1456439237389608,
+      "control_id": "C0_RADIAL_ROTATED",
+      "endpoint_return_max_absolute": 9.102961440188295e-16,
+      "forward_coarse_fine_relative": 1.8238770541612845e-10,
+      "forward_fine_D": [
+        [
+          0.7559967070092112,
+          -1.7721842698512895e-21
+        ],
+        [
+          1.489016580302481e-21,
+          0.7559733363384474
+        ]
+      ],
+      "forward_production_relative": 4.4860257222538456e-11,
+      "frequency_product_error": 1.1102230246251565e-16,
+      "gates": {
+        "area": true,
+        "endpoint": true,
+        "frequency": true,
+        "null": true,
+        "production_maps": true,
+        "rotated_covariance": true,
+        "unrotated_reciprocity": true
+      },
+      "independent_area_ratio_minus_Z": 1.6228208332691452e-08,
+      "independent_rotated_covariance_relative": 1.3498538204686179e-08,
+      "independent_unrotated_reciprocity_relative": 1.41651984859564e-08,
+      "inverse_Z": 0.8728715609439688,
+      "max_endpoint_null_absolute": 3.64312698144205e-14,
+      "reverse_coarse_fine_relative": 4.248786636772702e-08,
+      "reverse_fine_D": [
+        [
+          0.8661030215184616,
+          6.996807775272588e-33
+        ],
+        [
+          -6.88601962803396e-33,
+          0.8660762469815528
+        ]
+      ],
+      "reverse_production_relative": 1.4164995615707377e-08,
+      "rotated_coarse_fine_relative": 4.051416386903825e-08,
+      "rotated_endpoint_return_max_absolute": 9.102961440188295e-16,
+      "rotated_fine_D": [
+        [
+          0.8394339274703206,
+          -0.21317976448404713
+        ],
+        [
+          0.21320282573030502,
+          0.8394475191718177
+        ]
+      ],
+      "rotated_production_relative": 1.3509817198951072e-08,
+      "status": "PASS"
+    },
+    {
+      "Z": 1.1456439237389557,
+      "control_id": "C1_FULL_ANGULAR",
+      "endpoint_return_max_absolute": 2.3009345080302057e-15,
+      "forward_coarse_fine_relative": 6.579315233130842e-10,
+      "forward_fine_D": [
+        [
+          0.7696911933631989,
+          -0.0008345002965882142
+        ],
+        [
+          -0.0008345077322064465,
+          0.7720777798299315
+        ]
+      ],
+      "forward_production_relative": 2.1773139429658964e-10,
+      "frequency_product_error": 4.3298697960381105e-15,
+      "gates": {
+        "area": true,
+        "endpoint": true,
+        "frequency": true,
+        "null": true,
+        "production_maps": true,
+        "rotated_covariance": true,
+        "unrotated_reciprocity": true
+      },
+      "independent_area_ratio_minus_Z": 1.2242859170896736e-08,
+      "independent_rotated_covariance_relative": 1.1585881402639625e-08,
+      "independent_unrotated_reciprocity_relative": 1.140966805834531e-08,
+      "inverse_Z": 0.872871560943969,
+      "max_endpoint_null_absolute": 6.289413434501512e-14,
+      "reverse_coarse_fine_relative": 3.407629766122663e-08,
+      "reverse_fine_D": [
+        [
+          0.8817920271187236,
+          -0.000956050796001362
+        ],
+        [
+          -0.0009560434219661462,
+          0.8845262099664561
+        ]
+      ],
+      "reverse_production_relative": 1.1364277022136523e-08,
+      "rotated_coarse_fine_relative": 3.4498093543609317e-08,
+      "rotated_endpoint_return_max_absolute": 2.3009345080302057e-15,
+      "rotated_fine_D": [
+        [
+          0.8575027203094058,
+          -0.21808544055368476
+        ],
+        [
+          0.21670059439919542,
+          0.8544672598537586
+        ]
+      ],
+      "rotated_production_relative": 1.1497477713395441e-08,
+      "status": "PASS"
+    }
+  ],
+  "deltas": [
+    0.0001,
+    5e-05
+  ],
+  "method": "locally rebuilt full Christoffels plus centered neighboring rays; no production Riemann or Jacobi equation",
+  "schema": "udt-cmb-g81-independent-neighboring-ray-v1",
+  "status": "PASS"
+}
+
+exec
+/bin/bash -c "rg -n \"D_reverse_AB|transpose\\(|A =|B =|C1_FULL_ANGULAR|offdiagonal|endpoint|screen|Wronskian|nonradial|neighboring|Christoffel|reverse tangent|k_reverse|phi|Z_reverse|area\" derive_nonradial_screen_covariance.py verify_nonradial_neighboring_rays.py verify_exact_algebra.py run_catch_proofs.py verify_package.py verify_repository_gates.py EXACT_DERIVATION.md" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+EXACT_DERIVATION.md:1:# G81 exact derivation — screen-basis covariance of reverse Jacobi reciprocity
+EXACT_DERIVATION.md:6:does not choose that segment, its metric profile, its endpoint, or a physical observable.
+EXACT_DERIVATION.md:8:Let `D_fwd` map receiver screen-angle seeds to source transverse separation. Let `D_rev` map source
+EXACT_DERIVATION.md:9:screen-angle seeds to receiver transverse separation. With receiver frequency normalized to one
+EXACT_DERIVATION.md:10:and source frequency `Z`, the Wronskian pairing gives, in the carried unrotated screens,
+EXACT_DERIVATION.md:13:D_rev = Z transpose(D_fwd).
+EXACT_DERIVATION.md:18:by `transpose(A)` and output rows transform on the left by `B`, so
+EXACT_DERIVATION.md:21:D_rev_AB = B D_rev transpose(A)
+EXACT_DERIVATION.md:22:         = Z B transpose(D_fwd) transpose(A).
+EXACT_DERIVATION.md:34:The endpoint frequency reversal independently gives `Z_rev=1/Z` and therefore
+EXACT_DERIVATION.md:35:`phi_rev=-phi_fwd` for `phi=log(Z)`.
+EXACT_DERIVATION.md:37:## Exact nonradial frame
+EXACT_DERIVATION.md:48:genuine three-directional ray with a complete oriented screen, not a radial control relabelled.
+EXACT_DERIVATION.md:57:- C1 endpoint moved from `(theta,psi)=(pi/2,0)` to approximately
+EXACT_DERIVATION.md:60:The separate direct-Christoffel neighboring-ray calculation obtained C0/C1 rotated covariance
+EXACT_DERIVATION.md:67:The derivation is a control-scoped representation of generic Jacobi/Wronskian reciprocity. It is
+EXACT_DERIVATION.md:68:not a UDT-specific selector, future signal, physical endpoint, `Xmax` relation, source law, action,
+verify_package.py:18:IDS = ["C0_RADIAL_ROTATED", "C1_FULL_ANGULAR"]
+verify_package.py:37:        "future_signal_derived", "physical_profile_selected", "physical_endpoint_selected",
+verify_package.py:51:    assert production["authority"]["physical_profile_endpoint_scale_source_or_observable_selected"] is False
+verify_package.py:59:        assert row["reverse_unrotated"]["area_ratio_minus_Z"] < 1e-8
+verify_package.py:62:        assert check["independent_area_ratio_minus_Z"] < 2e-4
+verify_package.py:67:    assert c1["forward"]["offdiagonal_norm"] > 1e-5
+verify_package.py:68:    endpoint = c1["forward"]["endpoint"]
+verify_package.py:69:    assert abs(endpoint[2] - np.pi / 2) > 1e-3 and abs(endpoint[3]) > 1e-3
+verify_package.py:96:        "nonradial_angular_activation": True,
+run_catch_proofs.py:37:    case = copy.deepcopy(contract); case["directions"]["C1_FULL_ANGULAR"][0] = 1.0
+run_catch_proofs.py:54:    catches["retuned_nonradial_control"] = rejected(VERIFY.validate_contract, case)
+run_catch_proofs.py:57:    for field in ("physical_profile_selected", "physical_endpoint_selected", "Xmax_identified", "physical_source_selected", "cmb_observable_derived"):
+run_catch_proofs.py:60:    case = copy.deepcopy(production); case["controls"][1]["forward"]["offdiagonal_norm"] = 0.0
+run_catch_proofs.py:61:    catches["hidden_diagonal_nonradial_map"] = rejected(VERIFY.validate_outcomes, case, independent)
+verify_exact_algebra.py:17:    A = sp.Matrix([[sp.Rational(3, 5), -sp.Rational(4, 5)], [sp.Rational(4, 5), sp.Rational(3, 5)]])
+verify_exact_algebra.py:18:    B = sp.Matrix([[sp.Rational(5, 13), -sp.Rational(12, 13)], [sp.Rational(12, 13), sp.Rational(5, 13)]])
+verify_exact_algebra.py:22:    assert A.T * A == B.T * B == sp.eye(2)
+verify_exact_algebra.py:38:        "area_determinant_identity": True,
+verify_nonradial_neighboring_rays.py:2:"""Independent Christoffel/neighboring-ray replay of the two G81 controls."""
+verify_nonradial_neighboring_rays.py:21:        "C1_FULL_ANGULAR",
+verify_nonradial_neighboring_rays.py:66:    A = fields(float(position[1]))[0]
+verify_nonradial_neighboring_rays.py:90:    screen: np.ndarray | None,
+verify_nonradial_neighboring_rays.py:96:    state0 = np.concatenate((position, tangent)) if screen is None else np.concatenate((position, tangent, screen.ravel()))
+verify_nonradial_neighboring_rays.py:102:        if screen is None:
+verify_nonradial_neighboring_rays.py:128:def endpoint(solution: object, event: bool) -> tuple[float, np.ndarray]:
+verify_nonradial_neighboring_rays.py:133:def neighboring_map(
+verify_nonradial_neighboring_rays.py:137:    initial_screen: np.ndarray,
+verify_nonradial_neighboring_rays.py:139:    projection_screen: np.ndarray,
+verify_nonradial_neighboring_rays.py:140:    endpoint_metric: np.ndarray,
+verify_nonradial_neighboring_rays.py:149:            plus_k = time_sign * time_axis + direction_sign * direction_axis * math.cos(delta) + initial_screen[column] * math.sin(delta)
+verify_nonradial_neighboring_rays.py:150:            minus_k = time_sign * time_axis + direction_sign * direction_axis * math.cos(delta) - initial_screen[column] * math.sin(delta)
+verify_nonradial_neighboring_rays.py:155:            D[:, column] = projection_screen @ endpoint_metric @ deviation
+verify_nonradial_neighboring_rays.py:169:    control_id, direction, screen1, screen2 = control
+verify_nonradial_neighboring_rays.py:172:    E_r = np.stack((np.asarray(screen1) @ triad, np.asarray(screen2) @ triad))
+verify_nonradial_neighboring_rays.py:175:    forward_affine, forward_state = endpoint(forward, True)
+verify_nonradial_neighboring_rays.py:185:    reverse_affine, reverse_state = endpoint(reverse, True)
+verify_nonradial_neighboring_rays.py:186:    _, reverse_rot_state = endpoint(reverse_rot, True)
+verify_nonradial_neighboring_rays.py:192:    forward_maps, null_forward = neighboring_map(p_r, u_r, n_r, E_r, forward_affine, E_s, g_s, 1.0, 1.0)
+verify_nonradial_neighboring_rays.py:193:    reverse_maps, null_reverse = neighboring_map(p_s, u_s, n_s, E_s, reverse_affine, E_back, g_back, -1.0, -1.0)
+verify_nonradial_neighboring_rays.py:194:    rotated_maps, null_rotated = neighboring_map(
+verify_nonradial_neighboring_rays.py:209:        "endpoint_return_max_absolute": float(np.max(np.abs(p_back - p_r))),
+verify_nonradial_neighboring_rays.py:210:        "rotated_endpoint_return_max_absolute": float(np.max(np.abs(reverse_rot_state[:4] - p_r))),
+verify_nonradial_neighboring_rays.py:222:        "independent_area_ratio_minus_Z": abs(
+verify_nonradial_neighboring_rays.py:226:        "max_endpoint_null_absolute": max(null_forward, null_reverse, null_rotated),
+verify_nonradial_neighboring_rays.py:230:        "endpoint": max(result["endpoint_return_max_absolute"], result["rotated_endpoint_return_max_absolute"]) < 1.0e-8,
+verify_nonradial_neighboring_rays.py:236:        "area": result["independent_area_ratio_minus_Z"] < 2.0e-4,
+verify_nonradial_neighboring_rays.py:237:        "null": result["max_endpoint_null_absolute"] < 1.0e-9,
+verify_nonradial_neighboring_rays.py:249:        "schema": "udt-cmb-g81-independent-neighboring-ray-v1",
+verify_nonradial_neighboring_rays.py:250:        "method": "locally rebuilt full Christoffels plus centered neighboring rays; no production Riemann or Jacobi equation",
+derive_nonradial_screen_covariance.py:2:"""Run the preregistered G81 full-Jacobi screen-covariance controls."""
+derive_nonradial_screen_covariance.py:33:    screen1: tuple[float, float, float]
+derive_nonradial_screen_covariance.py:34:    screen2: tuple[float, float, float]
+derive_nonradial_screen_covariance.py:40:        "C1_FULL_ANGULAR",
+derive_nonradial_screen_covariance.py:108:    E = np.stack((np.asarray(control.screen1) @ triad, np.asarray(control.screen2) @ triad))
+derive_nonradial_screen_covariance.py:121:    def endpoint_event(_affine: float, state: np.ndarray) -> float:
+derive_nonradial_screen_covariance.py:124:    endpoint_event.terminal = True
+derive_nonradial_screen_covariance.py:125:    endpoint_event.direction = direction
+derive_nonradial_screen_covariance.py:130:        events=(endpoint_event, engine.turning_event),
+derive_nonradial_screen_covariance.py:139:def reverse_state(engine, forward_endpoint: np.ndarray, Z: float, rotation: np.ndarray) -> np.ndarray:
+derive_nonradial_screen_covariance.py:140:    position, k, E, _, _ = engine.unpack(forward_endpoint)
+derive_nonradial_screen_covariance.py:149:def endpoint(engine, profile, solution: object) -> tuple[float, np.ndarray, np.ndarray]:
+derive_nonradial_screen_covariance.py:152:    D, _, _, _ = engine.screen_objects(profile, state)
+derive_nonradial_screen_covariance.py:179:        forward_affine, forward_endpoint, D_forward = endpoint(engine, profile, forward)
+derive_nonradial_screen_covariance.py:181:        p_s, k_s, E_s, _, _ = engine.unpack(forward_endpoint)
+derive_nonradial_screen_covariance.py:184:            engine, profile, reverse_state(engine, forward_endpoint, Z, np.eye(2)), step_count, 0.25, -1.0
+derive_nonradial_screen_covariance.py:187:            engine, profile, reverse_state(engine, forward_endpoint, Z, A_ROT), step_count, 0.25, -1.0
+derive_nonradial_screen_covariance.py:204:        reverse_affine, reverse_endpoint, D_reverse = endpoint(engine, profile, reverse_unrot)
+derive_nonradial_screen_covariance.py:205:        reverse_rot_affine, reverse_rot_endpoint, _ = endpoint(engine, profile, reverse_rot)
+derive_nonradial_screen_covariance.py:206:        p_back, k_back, E_back, _, _ = engine.unpack(reverse_endpoint)
+derive_nonradial_screen_covariance.py:207:        p_back_rot, _, E_back_rot, J_back_rot, _ = engine.unpack(reverse_rot_endpoint)
+derive_nonradial_screen_covariance.py:209:        D_reverse_AB = (B_ROT @ E_r) @ g_back @ J_back_rot.T
+derive_nonradial_screen_covariance.py:211:        D_prediction_AB = Z * B_ROT @ D_forward.T @ A_ROT.T
+derive_nonradial_screen_covariance.py:223:            "rotated_D_relative": relative(D_reverse_AB, D_prediction_AB),
+derive_nonradial_screen_covariance.py:224:            "area_ratio_minus_Z": abs(dA_reverse / dA_forward - Z),
+derive_nonradial_screen_covariance.py:225:            "forward_offdiagonal_norm": float(np.linalg.norm(D_forward - np.diag(np.diag(D_forward)))),
+derive_nonradial_screen_covariance.py:230:            forward_summary, _, _ = engine.endpoint_summary(profile, forward)
+derive_nonradial_screen_covariance.py:231:            reverse_summary, _, _ = engine.endpoint_summary(profile, reverse_unrot)
+derive_nonradial_screen_covariance.py:232:            reverse_rot_summary, _, _ = engine.endpoint_summary(profile, reverse_rot)
+derive_nonradial_screen_covariance.py:233:            screen_unrot_overlap = E_back @ g_back @ E_r.T
+derive_nonradial_screen_covariance.py:234:            screen_rot_overlap = E_back_rot @ g_back @ E_r.T
+derive_nonradial_screen_covariance.py:236:                "forward_endpoint": len(forward.t_events[0]) == 1,
+derive_nonradial_screen_covariance.py:237:                "reverse_endpoints": len(reverse_unrot.t_events[0]) == len(reverse_rot.t_events[0]) == 1,
+derive_nonradial_screen_covariance.py:238:                "endpoint_return": max(
+derive_nonradial_screen_covariance.py:242:                "screen_return_unrotated": relative(E_back, E_r) < 1.0e-8,
+derive_nonradial_screen_covariance.py:243:                "screen_return_rotated": relative(E_back_rot, A_ROT @ E_r) < 1.0e-8,
+derive_nonradial_screen_covariance.py:245:                "phi_oddness": abs(math.log(Z) + math.log(inverse_Z)) < 1.0e-10,
+derive_nonradial_screen_covariance.py:247:                "rotated_matrix_covariance": relative(D_reverse_AB, D_prediction_AB) < 1.0e-8,
+derive_nonradial_screen_covariance.py:248:                "area_reciprocity": abs(dA_reverse / dA_forward - Z) < 1.0e-8,
+derive_nonradial_screen_covariance.py:254:                        for key in ("null", "conserved_p_t", "conserved_p_psi", "screen_gram", "screen_ray", "wronskian")
+derive_nonradial_screen_covariance.py:265:                    "endpoint": p_s.tolist(),
+derive_nonradial_screen_covariance.py:267:                    "phi": math.log(Z),
+derive_nonradial_screen_covariance.py:270:                    "offdiagonal_norm": row["forward_offdiagonal_norm"],
+derive_nonradial_screen_covariance.py:276:                    "phi": math.log(inverse_Z),
+derive_nonradial_screen_covariance.py:281:                    "area_ratio_minus_Z": row["area_ratio_minus_Z"],
+derive_nonradial_screen_covariance.py:288:                    "D": D_reverse_AB.tolist(),
+derive_nonradial_screen_covariance.py:291:                    "transported_screen_overlap_with_receiver": screen_rot_overlap.tolist(),
+derive_nonradial_screen_covariance.py:296:                    "phi_sum_absolute": abs(math.log(Z) + math.log(inverse_Z)),
+derive_nonradial_screen_covariance.py:297:                    "endpoint_return_max_absolute": max(
+derive_nonradial_screen_covariance.py:301:                    "screen_return_unrotated_relative": relative(E_back, E_r),
+derive_nonradial_screen_covariance.py:302:                    "screen_return_rotated_relative": relative(E_back_rot, A_ROT @ E_r),
+derive_nonradial_screen_covariance.py:303:                    "screen_unrotated_overlap": screen_unrot_overlap.tolist(),
+derive_nonradial_screen_covariance.py:317:                "D_reverse_AB": D_reverse_AB,
+derive_nonradial_screen_covariance.py:337:        "schema": "udt-cmb-g81-nonradial-screen-covariance-v1",
+derive_nonradial_screen_covariance.py:351:            "physical_profile_endpoint_scale_source_or_observable_selected": False,
+
+exec
+/bin/bash -c "sed -n '1,260p' derive_nonradial_screen_covariance.py" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Run the preregistered G81 full-Jacobi screen-covariance controls."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import importlib.util
+import json
+import math
+import subprocess
+import sys
+from dataclasses import dataclass
+from pathlib import Path
+
+import numpy as np
+from scipy.integrate import solve_ivp
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+BASE = "f112a32e4fbc5319de4e964e869f9024e9bdb1b9"
+ENGINE_PATH = ROOT / "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py"
+STEP_COUNTS = (1024, 2048, 4096)  # NUMERIC: preregistered refinement ladder.
+A_ROT = np.array([[3.0 / 5.0, -4.0 / 5.0], [4.0 / 5.0, 3.0 / 5.0]])  # CHOSE_CONTROL.
+B_ROT = np.array([[5.0 / 13.0, -12.0 / 13.0], [12.0 / 13.0, 5.0 / 13.0]])  # CHOSE_CONTROL.
+
+
+@dataclass(frozen=True)
+class Control:
+    control_id: str
+    direction: tuple[float, float, float]
+    screen1: tuple[float, float, float]
+    screen2: tuple[float, float, float]
+
+
+CONTROLS = (
+    Control("C0_RADIAL_ROTATED", (1.0, 0.0, 0.0), (0.0, 1.0, 0.0), (0.0, 0.0, 1.0)),
+    Control(
+        "C1_FULL_ANGULAR",
+        (12.0 / 13.0, 3.0 / 13.0, 4.0 / 13.0),
+        (0.0, 4.0 / 5.0, -3.0 / 5.0),
+        (-5.0 / 13.0, 36.0 / 65.0, 48.0 / 65.0),
+    ),
+)
+
+
+def digest(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def verify_preregistered_inputs() -> int:
+    with (HERE / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
+        rows = list(csv.DictReader(stream, delimiter="\t"))
+    assert len(rows) == len({row["path"] for row in rows}) == 9
+    for row in rows:
+        frozen = subprocess.check_output(["git", "show", f"{row['base_commit']}:{row['path']}"], cwd=ROOT)
+        assert digest(frozen) == row["sha256"]
+        assert row["base_commit"] == BASE
+    with (HERE / "CONTROL_UNIVERSE.tsv").open(newline="", encoding="utf-8") as stream:
+        controls = list(csv.DictReader(stream, delimiter="\t"))
+    assert [row["control_id"] for row in controls] == [control.control_id for control in CONTROLS]
+    assert len(controls) == 2
+    return len(rows)
+
+
+def load_engine():
+    spec = importlib.util.spec_from_file_location("g81_metric_engine", ENGINE_PATH)
+    assert spec and spec.loader
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
+def fields(x: float) -> tuple[float, float, float, float, float, float]:
+    return 1.0 - x**2 / 4.0, -x / 2.0, -0.5, x**6 / 20.0, 3.0 * x**5 / 10.0, 1.5 * x**4
+
+
+def observer(engine, profile, position: np.ndarray) -> np.ndarray:
+    g, _, _ = engine.geometry(profile, position)
+    return np.array([1.0 / math.sqrt(-float(g[0, 0])), 0.0, 0.0, 0.0])
+
+
+def frequency(engine, profile, position: np.ndarray, tangent: np.ndarray) -> float:
+    g, _, _ = engine.geometry(profile, position)
+    return -float(observer(engine, profile, position) @ g @ tangent)
+
+
+def receiver_frame(engine, profile) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    position = np.array([0.0, 0.25, math.pi / 2.0, 0.0], dtype=np.float64)  # CHOSE_CONTROL.
+    A, _, _, h, _, _ = fields(0.25)
+    block = A * 0.25**2 + h**2
+    u = observer(engine, profile, position)
+    radial = np.array([0.0, math.sqrt(A), 0.0, 0.0])
+    theta = np.array([0.0, 0.0, 4.0, 0.0])
+    psi = np.array([h / (math.sqrt(A) * math.sqrt(block)), 0.0, 0.0, math.sqrt(A) / math.sqrt(block)])
+    triad = np.stack((radial, theta, psi))
+    g, _, _ = engine.geometry(profile, position)
+    assert np.max(np.abs(triad @ g @ triad.T - np.eye(3))) < 1.0e-13
+    assert np.max(np.abs(triad @ g @ u)) < 1.0e-13
+    return position, u, triad
+
+
+def initial_state(engine, profile, control: Control) -> np.ndarray:
+    position, u, triad = receiver_frame(engine, profile)
+    n = np.asarray(control.direction) @ triad
+    E = np.stack((np.asarray(control.screen1) @ triad, np.asarray(control.screen2) @ triad))
+    k = u + n
+    g, _, _ = engine.geometry(profile, position)
+    assert abs(float(k @ g @ k)) < 1.0e-13
+    assert abs(frequency(engine, profile, position, k) - 1.0) < 1.0e-13
+    assert np.max(np.abs(E @ g @ E.T - np.eye(2))) < 1.0e-13
+    assert np.max(np.abs(E @ g @ k)) < 1.0e-13
+    J = np.zeros((2, 4), dtype=np.float64)
+    P = E.copy()
+    return np.concatenate((position, k, E.ravel(), J.ravel(), P.ravel()))
+
+
+def integrate(engine, profile, state0: np.ndarray, step_count: int, target_x: float, direction: float) -> object:
+    def endpoint_event(_affine: float, state: np.ndarray) -> float:
+        return float(state[1] - target_x)
+
+    endpoint_event.terminal = True
+    endpoint_event.direction = direction
+    return solve_ivp(
+        engine.full_rhs(profile),
+        (0.0, 10.0),  # NUMERIC: preregistered inherited affine cap.
+        state0,
+        events=(endpoint_event, engine.turning_event),
+        dense_output=True,
+        method="DOP853",
+        rtol=2.0e-13,
+        atol=2.0e-15,
+        max_step=1.0 / step_count,
+    )
+
+
+def reverse_state(engine, forward_endpoint: np.ndarray, Z: float, rotation: np.ndarray) -> np.ndarray:
+    position, k, E, _, _ = engine.unpack(forward_endpoint)
+    E_rot = rotation @ E
+    return np.concatenate((position, -k / Z, E_rot.ravel(), np.zeros(8), E_rot.ravel()))
+
+
+def relative(left: np.ndarray, right: np.ndarray) -> float:
+    return float(np.linalg.norm(left - right) / max(1.0, np.linalg.norm(left), np.linalg.norm(right)))
+
+
+def endpoint(engine, profile, solution: object) -> tuple[float, np.ndarray, np.ndarray]:
+    affine = float(solution.t_events[0][0])
+    state = np.asarray(solution.sol(affine), dtype=np.float64)
+    D, _, _, _ = engine.screen_objects(profile, state)
+    return affine, state, D
+
+
+def run_control(engine, profile, control: Control, source_rows: int) -> tuple[dict, list[dict], dict[str, np.ndarray]]:
+    refinement: list[dict] = []
+    finest: dict | None = None
+    evidence: dict[str, np.ndarray] = {}
+    for step_count in STEP_COUNTS:
+        forward = integrate(engine, profile, initial_state(engine, profile, control), step_count, 1.0, 1.0)
+        if not forward.success or len(forward.t_events[0]) != 1:
+            refinement.append({
+                "control_id": control.control_id,
+                "step_count": step_count,
+                "status": "NO_REGISTERED_FORWARD_CROSSING",
+                "forward_affine": float(forward.t[-1]),
+            })
+            if step_count == STEP_COUNTS[-1]:
+                finest = {
+                    "control_id": control.control_id,
+                    "status": "NO_REGISTERED_FORWARD_CROSSING",
+                    "solver_success": bool(forward.success),
+                    "turning_events": [float(value) for value in forward.t_events[1]],
+                    "source_rows": source_rows,
+                }
+            continue
+
+        forward_affine, forward_endpoint, D_forward = endpoint(engine, profile, forward)
+        p_r, k_r, E_r, _, _ = engine.unpack(np.asarray(forward.sol(0.0), dtype=np.float64))
+        p_s, k_s, E_s, _, _ = engine.unpack(forward_endpoint)
+        Z = frequency(engine, profile, p_s, k_s)
+        reverse_unrot = integrate(
+            engine, profile, reverse_state(engine, forward_endpoint, Z, np.eye(2)), step_count, 0.25, -1.0
+        )
+        reverse_rot = integrate(
+            engine, profile, reverse_state(engine, forward_endpoint, Z, A_ROT), step_count, 0.25, -1.0
+        )
+        if any(not item.success or len(item.t_events[0]) != 1 for item in (reverse_unrot, reverse_rot)):
+            refinement.append({
+                "control_id": control.control_id,
+                "step_count": step_count,
+                "status": "NO_REGISTERED_REVERSE_CROSSING",
+                "forward_affine": forward_affine,
+            })
+            if step_count == STEP_COUNTS[-1]:
+                finest = {
+                    "control_id": control.control_id,
+                    "status": "NO_REGISTERED_REVERSE_CROSSING",
+                    "source_rows": source_rows,
+                }
+            continue
+
+        reverse_affine, reverse_endpoint, D_reverse = endpoint(engine, profile, reverse_unrot)
+        reverse_rot_affine, reverse_rot_endpoint, _ = endpoint(engine, profile, reverse_rot)
+        p_back, k_back, E_back, _, _ = engine.unpack(reverse_endpoint)
+        p_back_rot, _, E_back_rot, J_back_rot, _ = engine.unpack(reverse_rot_endpoint)
+        g_back, _, _ = engine.geometry(profile, p_back_rot)
+        D_reverse_AB = (B_ROT @ E_r) @ g_back @ J_back_rot.T
+        D_prediction = Z * D_forward.T
+        D_prediction_AB = Z * B_ROT @ D_forward.T @ A_ROT.T
+        inverse_Z = abs(frequency(engine, profile, p_back, k_back))
+        dA_forward = math.sqrt(abs(float(np.linalg.det(D_forward))))
+        dA_reverse = math.sqrt(abs(float(np.linalg.det(D_reverse))))
+        row = {
+            "control_id": control.control_id,
+            "step_count": step_count,
+            "status": "CROSSED",
+            "forward_affine": forward_affine,
+            "reverse_affine": reverse_affine,
+            "Z": Z,
+            "unrotated_D_relative": relative(D_reverse, D_prediction),
+            "rotated_D_relative": relative(D_reverse_AB, D_prediction_AB),
+            "area_ratio_minus_Z": abs(dA_reverse / dA_forward - Z),
+            "forward_offdiagonal_norm": float(np.linalg.norm(D_forward - np.diag(np.diag(D_forward)))),
+        }
+        refinement.append(row)
+
+        if step_count == STEP_COUNTS[-1]:
+            forward_summary, _, _ = engine.endpoint_summary(profile, forward)
+            reverse_summary, _, _ = engine.endpoint_summary(profile, reverse_unrot)
+            reverse_rot_summary, _, _ = engine.endpoint_summary(profile, reverse_rot)
+            screen_unrot_overlap = E_back @ g_back @ E_r.T
+            screen_rot_overlap = E_back_rot @ g_back @ E_r.T
+            gates = {
+                "forward_endpoint": len(forward.t_events[0]) == 1,
+                "reverse_endpoints": len(reverse_unrot.t_events[0]) == len(reverse_rot.t_events[0]) == 1,
+                "endpoint_return": max(
+                    float(np.max(np.abs(p_back - p_r))), float(np.max(np.abs(p_back_rot - p_r)))
+                ) < 1.0e-8,
+                "tangent_return": relative(k_back, -k_r / Z) < 1.0e-8,
+                "screen_return_unrotated": relative(E_back, E_r) < 1.0e-8,
+                "screen_return_rotated": relative(E_back_rot, A_ROT @ E_r) < 1.0e-8,
+                "frequency_reciprocity": abs(Z * inverse_Z - 1.0) < 1.0e-10,
+                "phi_oddness": abs(math.log(Z) + math.log(inverse_Z)) < 1.0e-10,
+                "unrotated_matrix_reciprocity": relative(D_reverse, D_prediction) < 1.0e-8,
+                "rotated_matrix_covariance": relative(D_reverse_AB, D_prediction_AB) < 1.0e-8,
+                "area_reciprocity": abs(dA_reverse / dA_forward - Z) < 1.0e-8,
+                "no_forward_caustic": forward_summary["first_caustic_affine"] is None,
+                "path_residuals": max(
+                    *(
+                        summary["residuals"][key]
+                        for summary in (forward_summary, reverse_summary, reverse_rot_summary)
+                        for key in ("null", "conserved_p_t", "conserved_p_psi", "screen_gram", "screen_ray", "wronskian")
+                    )
+                ) < 1.0e-8,
+            }
+            finest = {
+                "control_id": control.control_id,
+                "status": "PASS" if all(gates.values()) else "FAIL",
+
+exec
+/bin/bash -c "sed -n '1,320p' verify_nonradial_neighboring_rays.py" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent Christoffel/neighboring-ray replay of the two G81 controls."""
+
+from __future__ import annotations
+
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+from scipy.integrate import solve_ivp
+
+
+HERE = Path(__file__).resolve().parent
+DELTAS = (1.0e-4, 5.0e-5)  # NUMERIC: independently registered before this run.
+A_ROT = np.array([[3.0 / 5.0, -4.0 / 5.0], [4.0 / 5.0, 3.0 / 5.0]])
+B_ROT = np.array([[5.0 / 13.0, -12.0 / 13.0], [12.0 / 13.0, 5.0 / 13.0]])
+CONTROLS = (
+    ("C0_RADIAL_ROTATED", (1.0, 0.0, 0.0), (0.0, 1.0, 0.0), (0.0, 0.0, 1.0)),
+    (
+        "C1_FULL_ANGULAR",
+        (12.0 / 13.0, 3.0 / 13.0, 4.0 / 13.0),
+        (0.0, 4.0 / 5.0, -3.0 / 5.0),
+        (-5.0 / 13.0, 36.0 / 65.0, 48.0 / 65.0),
+    ),
+)
+
+
+def fields(x: float) -> tuple[float, float, float, float]:
+    return 1.0 - x * x / 4.0, -x / 2.0, x**6 / 20.0, 3.0 * x**5 / 10.0
+
+
+def metric_and_first(position: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
+    _, x, theta, _ = position
+    A, Ax, h, hx = fields(float(x))
+    sn, cs = math.sin(float(theta)), math.cos(float(theta))
+    g = np.zeros((4, 4), dtype=np.float64)
+    g[0, 0], g[1, 1], g[2, 2], g[3, 3] = -A, 1.0 / A, x * x, x * x * sn * sn
+    g[0, 3] = g[3, 0] = h * sn * sn
+    dg = np.zeros((4, 4, 4), dtype=np.float64)
+    dg[1, 0, 0] = -Ax
+    dg[1, 1, 1] = -Ax / (A * A)
+    dg[1, 2, 2] = 2.0 * x
+    dg[1, 3, 3] = 2.0 * x * sn * sn
+    dg[1, 0, 3] = dg[1, 3, 0] = hx * sn * sn
+    dg[2, 3, 3] = 2.0 * x * x * sn * cs
+    dg[2, 0, 3] = dg[2, 3, 0] = 2.0 * h * sn * cs
+    return g, dg
+
+
+def connection(position: np.ndarray) -> np.ndarray:
+    g, dg = metric_and_first(position)
+    gi = np.linalg.inv(g)
+    Gamma = np.zeros((4, 4, 4), dtype=np.float64)
+    for rho in range(4):
+        for mu in range(4):
+            for nu in range(4):
+                for lam in range(4):
+                    Gamma[rho, mu, nu] += 0.5 * gi[rho, lam] * (
+                        dg[mu, lam, nu] + dg[nu, lam, mu] - dg[lam, mu, nu]
+                    )
+    return Gamma
+
+
+def observer(position: np.ndarray) -> np.ndarray:
+    A = fields(float(position[1]))[0]
+    return np.array([1.0 / math.sqrt(A), 0.0, 0.0, 0.0])
+
+
+def frequency(position: np.ndarray, tangent: np.ndarray) -> float:
+    g, _ = metric_and_first(position)
+    return -float(observer(position) @ g @ tangent)
+
+
+def receiver_frame() -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    p = np.array([0.0, 0.25, math.pi / 2.0, 0.0])
+    A, _, h, _ = fields(0.25)
+    block = A * 0.25**2 + h * h
+    triad = np.stack((
+        np.array([0.0, math.sqrt(A), 0.0, 0.0]),
+        np.array([0.0, 0.0, 4.0, 0.0]),
+        np.array([h / (math.sqrt(A) * math.sqrt(block)), 0.0, 0.0, math.sqrt(A) / math.sqrt(block)]),
+    ))
+    return p, observer(p), triad
+
+
+def integrate(
+    position: np.ndarray,
+    tangent: np.ndarray,
+    screen: np.ndarray | None,
+    *,
+    target_x: float | None = None,
+    direction: float = 0.0,
+    affine_end: float | None = None,
+) -> object:
+    state0 = np.concatenate((position, tangent)) if screen is None else np.concatenate((position, tangent, screen.ravel()))
+
+    def rhs(_affine: float, state: np.ndarray) -> np.ndarray:
+        p, k = state[:4], state[4:8]
+        Gamma = connection(p)
+        dk = -np.einsum("rmn,m,n->r", Gamma, k, k)
+        if screen is None:
+            return np.concatenate((k, dk))
+        E = state[8:16].reshape(2, 4)
+        dE = -np.einsum("rmn,m,an->ar", Gamma, k, E)
+        return np.concatenate((k, dk, dE.ravel()))
+
+    events = None
+    if target_x is not None:
+        def event(_affine: float, state: np.ndarray) -> float:
+            return float(state[1] - target_x)
+        event.terminal = True
+        event.direction = direction
+        events = event
+    return solve_ivp(
+        rhs,
+        (0.0, 10.0 if affine_end is None else affine_end),
+        state0,
+        events=events,
+        dense_output=True,
+        method="DOP853",
+        rtol=2.0e-12,
+        atol=2.0e-14,
+        max_step=1.0 / 800.0,
+    )
+
+
+def endpoint(solution: object, event: bool) -> tuple[float, np.ndarray]:
+    affine = float(solution.t_events[0][0]) if event else float(solution.t[-1])
+    return affine, np.asarray(solution.sol(affine), dtype=np.float64)
+
+
+def neighboring_map(
+    position: np.ndarray,
+    time_axis: np.ndarray,
+    direction_axis: np.ndarray,
+    initial_screen: np.ndarray,
+    affine: float,
+    projection_screen: np.ndarray,
+    endpoint_metric: np.ndarray,
+    time_sign: float,
+    direction_sign: float,
+) -> tuple[dict[float, np.ndarray], float]:
+    maps: dict[float, np.ndarray] = {}
+    max_null = 0.0
+    for delta in DELTAS:
+        D = np.zeros((2, 2))
+        for column in range(2):
+            plus_k = time_sign * time_axis + direction_sign * direction_axis * math.cos(delta) + initial_screen[column] * math.sin(delta)
+            minus_k = time_sign * time_axis + direction_sign * direction_axis * math.cos(delta) - initial_screen[column] * math.sin(delta)
+            plus = integrate(position, plus_k, None, affine_end=affine)
+            minus = integrate(position, minus_k, None, affine_end=affine)
+            assert plus.success and minus.success
+            deviation = (plus.y[:4, -1] - minus.y[:4, -1]) / (2.0 * delta)
+            D[:, column] = projection_screen @ endpoint_metric @ deviation
+            for solution in (plus, minus):
+                p, k = solution.y[:4, -1], solution.y[4:8, -1]
+                g, _ = metric_and_first(p)
+                max_null = max(max_null, abs(float(k @ g @ k)))
+        maps[delta] = D
+    return maps, max_null
+
+
+def relative(left: np.ndarray, right: np.ndarray) -> float:
+    return float(np.linalg.norm(left - right) / max(1.0, np.linalg.norm(left), np.linalg.norm(right)))
+
+
+def run_control(control: tuple, production: dict) -> dict:
+    control_id, direction, screen1, screen2 = control
+    p_r, u_r, triad = receiver_frame()
+    n_r = np.asarray(direction) @ triad
+    E_r = np.stack((np.asarray(screen1) @ triad, np.asarray(screen2) @ triad))
+    forward = integrate(p_r, u_r + n_r, E_r, target_x=1.0, direction=1.0)
+    assert forward.success and len(forward.t_events[0]) == 1
+    forward_affine, forward_state = endpoint(forward, True)
+    p_s, k_s = forward_state[:4], forward_state[4:8]
+    E_s = forward_state[8:16].reshape(2, 4)
+    Z = frequency(p_s, k_s)
+    u_s = observer(p_s)
+    n_s = k_s / Z - u_s
+    reverse = integrate(p_s, -k_s / Z, E_s, target_x=0.25, direction=-1.0)
+    reverse_rot = integrate(p_s, -k_s / Z, A_ROT @ E_s, target_x=0.25, direction=-1.0)
+    assert reverse.success and reverse_rot.success
+    assert len(reverse.t_events[0]) == len(reverse_rot.t_events[0]) == 1
+    reverse_affine, reverse_state = endpoint(reverse, True)
+    _, reverse_rot_state = endpoint(reverse_rot, True)
+    p_back, k_back = reverse_state[:4], reverse_state[4:8]
+    E_back = reverse_state[8:16].reshape(2, 4)
+    g_s, _ = metric_and_first(p_s)
+    g_back, _ = metric_and_first(p_back)
+
+    forward_maps, null_forward = neighboring_map(p_r, u_r, n_r, E_r, forward_affine, E_s, g_s, 1.0, 1.0)
+    reverse_maps, null_reverse = neighboring_map(p_s, u_s, n_s, E_s, reverse_affine, E_back, g_back, -1.0, -1.0)
+    rotated_maps, null_rotated = neighboring_map(
+        p_s, u_s, n_s, A_ROT @ E_s, reverse_affine, B_ROT @ E_r, g_back, -1.0, -1.0
+    )
+    forward_coarse, forward_fine = (forward_maps[value] for value in DELTAS)
+    reverse_coarse, reverse_fine = (reverse_maps[value] for value in DELTAS)
+    rotated_coarse, rotated_fine = (rotated_maps[value] for value in DELTAS)
+    D_forward_production = np.asarray(production["forward"]["D"])
+    D_reverse_production = np.asarray(production["reverse_unrotated"]["D"])
+    D_rotated_production = np.asarray(production["reverse_rotated"]["D"])
+    inverse_Z = abs(frequency(p_back, k_back)) / abs(frequency(p_s, -k_s / Z))
+    result = {
+        "control_id": control_id,
+        "Z": Z,
+        "inverse_Z": inverse_Z,
+        "frequency_product_error": abs(Z * inverse_Z - 1.0),
+        "endpoint_return_max_absolute": float(np.max(np.abs(p_back - p_r))),
+        "rotated_endpoint_return_max_absolute": float(np.max(np.abs(reverse_rot_state[:4] - p_r))),
+        "forward_coarse_fine_relative": relative(forward_coarse, forward_fine),
+        "reverse_coarse_fine_relative": relative(reverse_coarse, reverse_fine),
+        "rotated_coarse_fine_relative": relative(rotated_coarse, rotated_fine),
+        "forward_fine_D": forward_fine.tolist(),
+        "reverse_fine_D": reverse_fine.tolist(),
+        "rotated_fine_D": rotated_fine.tolist(),
+        "forward_production_relative": relative(forward_fine, D_forward_production),
+        "reverse_production_relative": relative(reverse_fine, D_reverse_production),
+        "rotated_production_relative": relative(rotated_fine, D_rotated_production),
+        "independent_unrotated_reciprocity_relative": relative(reverse_fine, Z * forward_fine.T),
+        "independent_rotated_covariance_relative": relative(rotated_fine, Z * B_ROT @ forward_fine.T @ A_ROT.T),
+        "independent_area_ratio_minus_Z": abs(
+            math.sqrt(abs(float(np.linalg.det(reverse_fine))))
+            / math.sqrt(abs(float(np.linalg.det(forward_fine)))) - Z
+        ),
+        "max_endpoint_null_absolute": max(null_forward, null_reverse, null_rotated),
+    }
+    gates = {
+        "frequency": result["frequency_product_error"] < 1.0e-10,
+        "endpoint": max(result["endpoint_return_max_absolute"], result["rotated_endpoint_return_max_absolute"]) < 1.0e-8,
+        "production_maps": max(
+            result["forward_production_relative"], result["reverse_production_relative"], result["rotated_production_relative"]
+        ) < 2.0e-4,
+        "unrotated_reciprocity": result["independent_unrotated_reciprocity_relative"] < 2.0e-4,
+        "rotated_covariance": result["independent_rotated_covariance_relative"] < 2.0e-4,
+        "area": result["independent_area_ratio_minus_Z"] < 2.0e-4,
+        "null": result["max_endpoint_null_absolute"] < 1.0e-9,
+    }
+    result["gates"] = gates
+    result["status"] = "PASS" if all(gates.values()) else "FAIL"
+    return result
+
+
+def main() -> None:
+    production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    assert [row["control_id"] for row in production["controls"]] == [row[0] for row in CONTROLS]
+    results = [run_control(control, prod) for control, prod in zip(CONTROLS, production["controls"], strict=True)]
+    output = {
+        "schema": "udt-cmb-g81-independent-neighboring-ray-v1",
+        "method": "locally rebuilt full Christoffels plus centered neighboring rays; no production Riemann or Jacobi equation",
+        "status": "PASS" if all(row["status"] == "PASS" for row in results) else "FAIL",
+        "deltas": list(DELTAS),
+        "controls": results,
+    }
+    rendered = json.dumps(output, indent=2, sort_keys=True) + "\n"
+    (HERE / "INDEPENDENT_VERIFICATION.json").write_text(rendered, encoding="utf-8")
+    (HERE / "INDEPENDENT_TRANSCRIPT.txt").write_text(rendered, encoding="utf-8")
+    print(rendered, end="")
+    if output["status"] != "PASS":
+        raise SystemExit("independent G81 gate failed")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,280p' verify_exact_algebra.py" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact finite-dimensional checks for the G81 basis-covariance statement."""
+
+import json
+from pathlib import Path
+
+import sympy as sp
+
+
+HERE = Path(__file__).resolve().parent
+
+
+def main() -> None:
+    n = sp.Matrix([12, 3, 4]) / 13
+    s1 = sp.Matrix([0, 4, -3]) / 5
+    s2 = sp.Matrix([-25, 36, 48]) / 65
+    A = sp.Matrix([[sp.Rational(3, 5), -sp.Rational(4, 5)], [sp.Rational(4, 5), sp.Rational(3, 5)]])
+    B = sp.Matrix([[sp.Rational(5, 13), -sp.Rational(12, 13)], [sp.Rational(12, 13), sp.Rational(5, 13)]])
+    assert n.dot(n) == s1.dot(s1) == s2.dot(s2) == 1
+    assert n.dot(s1) == n.dot(s2) == s1.dot(s2) == 0
+    assert s1.cross(s2) == n
+    assert A.T * A == B.T * B == sp.eye(2)
+    assert A.det() == B.det() == 1
+    z = sp.symbols("z", positive=True)
+    d11, d12, d21, d22 = sp.symbols("d11 d12 d21 d22", real=True)
+    D = sp.Matrix([[d11, d12], [d21, d22]])
+    reverse = z * D.T
+    rotated = B * reverse * A.T
+    prediction = z * B * D.T * A.T
+    assert rotated == prediction
+    assert sp.factor(rotated.det() - z**2 * D.det()) == 0
+    output = {
+        "schema": "udt-cmb-g81-exact-algebra-v1",
+        "status": "PASS",
+        "c1_oriented_orthonormal_triad": True,
+        "A_and_B_SO2": True,
+        "rotated_covariance_identity": True,
+        "area_determinant_identity": True,
+    }
+    rendered = json.dumps(output, indent=2, sort_keys=True) + "\n"
+    (HERE / "EXACT_ALGEBRA_RESULT.json").write_text(rendered, encoding="utf-8")
+    print(rendered, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '260,420p' derive_nonradial_screen_covariance.py" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+                "status": "PASS" if all(gates.values()) else "FAIL",
+                "source_rows": source_rows,
+                "direction": list(control.direction),
+                "forward": {
+                    "affine": forward_affine,
+                    "endpoint": p_s.tolist(),
+                    "Z": Z,
+                    "phi": math.log(Z),
+                    "D": D_forward.tolist(),
+                    "dA_over_R": dA_forward,
+                    "offdiagonal_norm": row["forward_offdiagonal_norm"],
+                    "summary": forward_summary,
+                },
+                "reverse_unrotated": {
+                    "affine": reverse_affine,
+                    "inverse_Z": inverse_Z,
+                    "phi": math.log(inverse_Z),
+                    "D": D_reverse.tolist(),
+                    "prediction": D_prediction.tolist(),
+                    "D_relative": row["unrotated_D_relative"],
+                    "dA_over_R": dA_reverse,
+                    "area_ratio_minus_Z": row["area_ratio_minus_Z"],
+                    "summary": reverse_summary,
+                },
+                "reverse_rotated": {
+                    "affine": reverse_rot_affine,
+                    "A": A_ROT.tolist(),
+                    "B": B_ROT.tolist(),
+                    "D": D_reverse_AB.tolist(),
+                    "prediction": D_prediction_AB.tolist(),
+                    "D_relative": row["rotated_D_relative"],
+                    "transported_screen_overlap_with_receiver": screen_rot_overlap.tolist(),
+                    "summary": reverse_rot_summary,
+                },
+                "reciprocity": {
+                    "frequency_product_error": abs(Z * inverse_Z - 1.0),
+                    "phi_sum_absolute": abs(math.log(Z) + math.log(inverse_Z)),
+                    "endpoint_return_max_absolute": max(
+                        float(np.max(np.abs(p_back - p_r))), float(np.max(np.abs(p_back_rot - p_r)))
+                    ),
+                    "tangent_return_relative": relative(k_back, -k_r / Z),
+                    "screen_return_unrotated_relative": relative(E_back, E_r),
+                    "screen_return_rotated_relative": relative(E_back_rot, A_ROT @ E_r),
+                    "screen_unrotated_overlap": screen_unrot_overlap.tolist(),
+                },
+                "gates": gates,
+            }
+            grid_f = np.linspace(0.0, forward_affine, 501)
+            grid_r = np.linspace(0.0, reverse_affine, 501)
+            evidence = {
+                "forward_affine": grid_f,
+                "forward_state": np.asarray(forward.sol(grid_f), dtype=np.float64),
+                "reverse_affine": grid_r,
+                "reverse_unrotated_state": np.asarray(reverse_unrot.sol(grid_r), dtype=np.float64),
+                "reverse_rotated_state": np.asarray(reverse_rot.sol(grid_r), dtype=np.float64),
+                "D_forward": D_forward,
+                "D_reverse": D_reverse,
+                "D_reverse_AB": D_reverse_AB,
+            }
+    assert finest is not None
+    return finest, refinement, evidence
+
+
+def main() -> None:
+    source_rows = verify_preregistered_inputs()
+    engine = load_engine()
+    profile = engine.Profile("G75_AM_S01_E05", "G75_SELECTED", -0.25, "MONOMIAL_S2", 0.05)
+    engine.profile_values = lambda _profile, x: fields(float(x))
+    results, refinement, evidence = [], [], {}
+    for control in CONTROLS:
+        result, rows, arrays = run_control(engine, profile, control, source_rows)
+        results.append(result)
+        refinement.extend(rows)
+        for key, value in arrays.items():
+            evidence[f"{control.control_id}__{key}"] = value
+    both_pass = len(results) == 2 and all(row["status"] == "PASS" for row in results)
+    output = {
+        "schema": "udt-cmb-g81-nonradial-screen-covariance-v1",
+        "status": "PASS" if both_pass else "PARTIAL_OR_FAIL",
+        "source_rows": source_rows,
+        "control_count": len(results),
+        "profile_id": "G75_AM_S01_E05",
+        "controls": results,
+        "authority": {
+            "maximum_conclusion": (
+                "DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS"
+                if both_pass else "CONTROL_SCOPED_OUTCOME_ONLY"
+            ),
+            "generic_geometric_reciprocity_not_UDT_selector": True,
+            "past_directed_reversal_only": True,
+            "future_signal_derived": False,
+            "physical_profile_endpoint_scale_source_or_observable_selected": False,
+            "Xmax_identified": False,
+            "cmb_temp_activated": False,
+        },
+    }
+    rendered = json.dumps(output, indent=2, sort_keys=True) + "\n"
+    (HERE / "DERIVATION_RESULT.json").write_text(rendered, encoding="utf-8")
+    keys = sorted({key for row in refinement for key in row})
+    with (HERE / "REFINEMENT_ATLAS.tsv").open("w", newline="", encoding="utf-8") as stream:
+        writer = csv.DictWriter(stream, fieldnames=keys, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(refinement)
+    np.savez_compressed(HERE / "PATH_EVIDENCE.npz", **evidence)
+    (HERE / "DERIVATION_STDOUT.txt").write_text(rendered, encoding="utf-8")
+    print(rendered, end="")
+    if all(row["status"] != "PASS" for row in results):
+        raise SystemExit("neither preregistered control passed")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,240p' verify_package.py" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Fail-closed verification of the G81 package and frozen inputs."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import subprocess
+from pathlib import Path
+
+import numpy as np
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+BASE = "f112a32e4fbc5319de4e964e869f9024e9bdb1b9"
+IDS = ["C0_RADIAL_ROTATED", "C1_FULL_ANGULAR"]
+MAXIMUM = "DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS"
+
+
+def validate_contract(contract: dict) -> None:
+    assert contract["control_ids"] == IDS
+    assert len(contract["control_ids"]) == len(set(contract["control_ids"])) == 2
+    np.testing.assert_allclose(contract["directions"][IDS[0]], [1.0, 0.0, 0.0], rtol=0.0, atol=0.0)
+    np.testing.assert_allclose(contract["directions"][IDS[1]], [12 / 13, 3 / 13, 4 / 13], rtol=0.0, atol=1e-16)
+    np.testing.assert_allclose(contract["reverse_source_rotation"], [[0.6, -0.8], [0.8, 0.6]], rtol=0.0, atol=0.0)
+    np.testing.assert_allclose(
+        contract["receiver_projection_rotation"], [[5 / 13, -12 / 13], [12 / 13, 5 / 13]], rtol=0.0, atol=1e-16
+    )
+    assert contract["tangent_reversal"] == "FULL_K_REVERSE_EQUALS_MINUS_K_SOURCE_OVER_Z"
+    assert contract["unrotated_matrix_law"] == "D_REVERSE_EQUALS_Z_TIMES_TRANSPOSE_D_FORWARD"
+    assert contract["rotated_matrix_law"] == "D_REVERSE_AB_EQUALS_Z_TIMES_B_TIMES_TRANSPOSE_D_FORWARD_TIMES_TRANSPOSE_A"
+    assert contract["diagonalization_permitted"] is False
+    assert contract["retuning_permitted"] is False
+    for field in (
+        "future_signal_derived", "physical_profile_selected", "physical_endpoint_selected",
+        "Xmax_identified", "physical_source_selected", "cmb_observable_derived",
+    ):
+        assert contract[field] is False
+
+
+def validate_outcomes(production: dict, independent: dict) -> None:
+    assert production["status"] == independent["status"] == "PASS"
+    assert production["control_count"] == 2
+    assert [row["control_id"] for row in production["controls"]] == IDS
+    assert [row["control_id"] for row in independent["controls"]] == IDS
+    assert len({row["control_id"] for row in production["controls"]}) == 2
+    assert production["authority"]["maximum_conclusion"] == MAXIMUM
+    assert production["authority"]["future_signal_derived"] is False
+    assert production["authority"]["physical_profile_endpoint_scale_source_or_observable_selected"] is False
+    assert production["authority"]["Xmax_identified"] is False
+    assert production["authority"]["cmb_temp_activated"] is False
+    for row, check in zip(production["controls"], independent["controls"], strict=True):
+        assert row["status"] == check["status"] == "PASS"
+        assert all(row["gates"].values()) and all(check["gates"].values())
+        assert row["reverse_unrotated"]["D_relative"] < 1e-8
+        assert row["reverse_rotated"]["D_relative"] < 1e-8
+        assert row["reverse_unrotated"]["area_ratio_minus_Z"] < 1e-8
+        assert check["independent_unrotated_reciprocity_relative"] < 2e-4
+        assert check["independent_rotated_covariance_relative"] < 2e-4
+        assert check["independent_area_ratio_minus_Z"] < 2e-4
+        assert check["forward_production_relative"] < 2e-4
+        assert check["reverse_production_relative"] < 2e-4
+        assert check["rotated_production_relative"] < 2e-4
+    c1 = production["controls"][1]
+    assert c1["forward"]["offdiagonal_norm"] > 1e-5
+    endpoint = c1["forward"]["endpoint"]
+    assert abs(endpoint[2] - np.pi / 2) > 1e-3 and abs(endpoint[3]) > 1e-3
+
+
+def validate_sources() -> int:
+    with (HERE / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
+        rows = list(csv.DictReader(stream, delimiter="\t"))
+    assert len(rows) == len({row["path"] for row in rows}) == 9
+    for row in rows:
+        assert row["base_commit"] == BASE
+        data = subprocess.check_output(["git", "show", f"{BASE}:{row['path']}"], cwd=ROOT)
+        assert hashlib.sha256(data).hexdigest() == row["sha256"]
+    return len(rows)
+
+
+def main() -> None:
+    contract = json.loads((HERE / "SEMANTIC_CONTRACT.json").read_text(encoding="utf-8"))
+    production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    validate_contract(contract)
+    validate_outcomes(production, independent)
+    sources = validate_sources()
+    output = {
+        "schema": "udt-cmb-g81-package-verification-v1",
+        "status": "PASS",
+        "source_rows_verified": sources,
+        "controls_verified": 2,
+        "production_and_independent_gates": True,
+        "nonradial_angular_activation": True,
+        "authority_boundary_verified": True,
+    }
+    rendered = json.dumps(output, indent=2, sort_keys=True) + "\n"
+    (HERE / "PACKAGE_VERIFICATION.json").write_text(rendered, encoding="utf-8")
+    print(rendered, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,220p' run_catch_proofs.py" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exercise hostile mutations against the fail-closed G81 verifier."""
+
+from __future__ import annotations
+
+import copy
+import importlib.util
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+SPEC = importlib.util.spec_from_file_location("g81_verify", HERE / "verify_package.py")
+assert SPEC and SPEC.loader
+VERIFY = importlib.util.module_from_spec(SPEC)
+SPEC.loader.exec_module(VERIFY)
+
+
+def rejected(function, *args) -> bool:
+    try:
+        function(*args)
+    except (AssertionError, KeyError, ValueError):
+        return True
+    return False
+
+
+def main() -> None:
+    contract = json.loads((HERE / "SEMANTIC_CONTRACT.json").read_text(encoding="utf-8"))
+    production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    catches = {}
+
+    case = copy.deepcopy(contract); case["control_ids"].pop()
+    catches["missing_control"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["control_ids"][1] = case["control_ids"][0]
+    catches["duplicate_control"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["directions"]["C1_FULL_ANGULAR"][0] = 1.0
+    catches["changed_direction"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["reverse_source_rotation"][0][0] = 1.0
+    catches["changed_A_rotation"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["receiver_projection_rotation"][0][0] = 1.0
+    catches["changed_B_rotation"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["tangent_reversal"] = "REVERSE_SPATIAL_PART_ONLY"
+    catches["partial_tangent_reversal"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["unrotated_matrix_law"] = "D_REVERSE_EQUALS_TRANSPOSE_D_FORWARD"
+    catches["omitted_Z"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["unrotated_matrix_law"] = "D_REVERSE_EQUALS_Z_TIMES_D_FORWARD"
+    catches["omitted_transpose"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["rotated_matrix_law"] = "D_REVERSE_AB_EQUALS_Z_TIMES_TRANSPOSE_D_FORWARD"
+    catches["omitted_A_or_B"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["diagonalization_permitted"] = True
+    catches["silent_diagonalization"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["retuning_permitted"] = True
+    catches["retuned_nonradial_control"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(contract); case["future_signal_derived"] = True
+    catches["future_signal_promotion"] = rejected(VERIFY.validate_contract, case)
+    for field in ("physical_profile_selected", "physical_endpoint_selected", "Xmax_identified", "physical_source_selected", "cmb_observable_derived"):
+        case = copy.deepcopy(contract); case[field] = True
+        catches[f"promotion__{field}"] = rejected(VERIFY.validate_contract, case)
+    case = copy.deepcopy(production); case["controls"][1]["forward"]["offdiagonal_norm"] = 0.0
+    catches["hidden_diagonal_nonradial_map"] = rejected(VERIFY.validate_outcomes, case, independent)
+    case = copy.deepcopy(independent); case["controls"][1]["independent_rotated_covariance_relative"] = 3e-4
+    catches["independent_tolerance_failure"] = rejected(VERIFY.validate_outcomes, production, case)
+    catches["frozen_source_mutation"] = (
+        __import__("hashlib").sha256(b"mutated").hexdigest()
+        != __import__("hashlib").sha256(b"original").hexdigest()
+    )
+
+    assert len(catches) == 20 and all(catches.values())
+    output = {
+        "schema": "udt-cmb-g81-catch-proofs-v1",
+        "status": "PASS",
+        "count": len(catches),
+        "catches": catches,
+    }
+    rendered = json.dumps(output, indent=2, sort_keys=True) + "\n"
+    (HERE / "CATCH_PROOF_RESULTS.json").write_text(rendered, encoding="utf-8")
+    print(rendered, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,260p' REFINEMENT_ATLAS.tsv" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+Z	area_ratio_minus_Z	control_id	forward_affine	forward_offdiagonal_norm	reverse_affine	rotated_D_relative	status	step_count	unrotated_D_relative
+1.1456439237389575	6.217248937900877e-15	C0_RADIAL_ROTATED	0.7560742639231719	1.4349130448515095e-22	0.8661918863589861	4.4125473418359625e-15	CROSSED	1024	5.711203542810473e-15
+1.1456439237389624	4.6629367034256575e-15	C0_RADIAL_ROTATED	0.7560742639231708	1.4349130448514228e-22	0.8661918863589925	1.3867504154629707e-15	CROSSED	2048	4.3376062513709e-15
+1.1456439237389628	6.661338147750939e-15	C0_RADIAL_ROTATED	0.7560742639231726	1.434913044850935e-22	0.8661918863589938	1.0086332137876813e-14	CROSSED	4096	6.885259158085081e-15
+1.1456439237389562	3.1086244689504383e-15	C1_FULL_ANGULAR	0.7692987297931645	0.0011801666864676187	0.8813424153276385	2.483372965249596e-15	CROSSED	1024	3.245880442824904e-15
+1.1456439237389584	6.661338147750939e-15	C1_FULL_ANGULAR	0.769298729793166	0.0011801666864674086	0.8813424153276389	4.754189311355485e-15	CROSSED	2048	5.994173277803026e-15
+1.145643923738963	8.215650382226158e-15	C1_FULL_ANGULAR	0.7692987297931658	0.0011801666864663825	0.8813424153276451	3.931585029333395e-15	CROSSED	4096	7.912576288630774e-15
+
+exec
+/bin/bash -c "sed -n '1,240p' PREMISE_LEDGER.tsv" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+item	status	ownership
+reciprocal_clock_ruler_character_and_cE	DERIVED_AND_OBSERVED	Current premise registry; not rederived here.
+stationary_axial_metric_profile	CHOSE_CONTROL	Frozen G79/G80 witness; not physically selected.
+receiver_and_x1_endpoint	CHOSE_CONTROL	Comparison surfaces; x=1 is not Xmax.
+C0_and_C1_directions	CHOSE_CONTROL	Exact bounded probes.
+A_and_B_screen_rotations	CHOSE_CONTROL	Gauge/covariance probes, not physical rotations.
+null_geodesic_and_Jacobi_equations	DERIVED_CONDITIONAL	Derived from the supplied metric; no action or field equation selected.
+past_directed_reverse	CHOSE_QUERY	Mathematical reverse segment, not a future signal.
+direct_Christoffel_neighboring_ray_method	NUMERICAL_CONTROL	Independent of production Riemann/Jacobi implementation but shares metric/query/integrator family.
+profile_endpoint_scale_source_observable	OPEN	Not selected by G81.
+Xmax	OPEN	Neither identified nor calculated.
+cmb_temp	INACTIVE	Not used.
+
+exec
+/bin/bash -c "sed -n '1,240p' TYPE_LEDGER.tsv" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+object	type	status
+Z	positive endpoint frequency ratio for the supplied observer pair	DERIVED_CONDITIONAL
+phi	logarithm of Z on this supplied pair query	DERIVED_CONDITIONAL
+D_forward	linear map from receiver screen-angle seed to source transverse separation	DERIVED_CONDITIONAL
+D_reverse	linear map from source screen-angle seed to receiver transverse separation on mathematical reverse	DERIVED_CONDITIONAL
+A	orientation-preserving source-screen basis change	CHOSE_CONTROL
+B	orientation-preserving receiver-projection basis change	CHOSE_CONTROL
+D_reverse_AB	coordinates of reverse Jacobi map in independently rotated endpoint screens	DERIVED_CONDITIONAL
+C1_direction	unit spatial direction with nonzero radial polar and azimuthal components	CHOSE_CONTROL
+x_equals_1_endpoint	registered numerical endpoint surface	CHOSE_CONTROL_NOT_XMAX
+physical_observable	CMB or SNe readout	OPEN_NOT_COMPUTED
+
+codex
+I’ve confirmed the package encodes the expected fail-closed checks, but the seal restriction matters: I can independently hash local package files, while the nine frozen upstream rows can only be assessed through the included verifier logic and attestations unless I break the intake boundary. I’m now recomputing the local evidence and replaying the geometric identities directly from the sealed data.
+exec
+/bin/bash -c "sed -n '1,240p' SEMANTIC_CONTRACT.json" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+{
+  "control_ids": [
+    "C0_RADIAL_ROTATED",
+    "C1_FULL_ANGULAR"
+  ],
+  "directions": {
+    "C0_RADIAL_ROTATED": [1.0, 0.0, 0.0],
+    "C1_FULL_ANGULAR": [0.9230769230769231, 0.23076923076923078, 0.3076923076923077]
+  },
+  "reverse_source_rotation": [[0.6, -0.8], [0.8, 0.6]],
+  "receiver_projection_rotation": [[0.38461538461538464, -0.9230769230769231], [0.9230769230769231, 0.38461538461538464]],
+  "tangent_reversal": "FULL_K_REVERSE_EQUALS_MINUS_K_SOURCE_OVER_Z",
+  "unrotated_matrix_law": "D_REVERSE_EQUALS_Z_TIMES_TRANSPOSE_D_FORWARD",
+  "rotated_matrix_law": "D_REVERSE_AB_EQUALS_Z_TIMES_B_TIMES_TRANSPOSE_D_FORWARD_TIMES_TRANSPOSE_A",
+  "diagonalization_permitted": false,
+  "retuning_permitted": false,
+  "future_signal_derived": false,
+  "physical_profile_selected": false,
+  "physical_endpoint_selected": false,
+  "Xmax_identified": false,
+  "physical_source_selected": false,
+  "cmb_observable_derived": false
+}
+
+exec
+/bin/bash -c "python - <<'PY'
+import json, math
+from pathlib import Path
+root = Path('.')
+prod = json.loads((root/'DERIVATION_RESULT.json').read_text())
+ind = json.loads((root/'INDEPENDENT_VERIFICATION.json').read_text())
+alg = json.loads((root/'EXACT_ALGEBRA_RESULT.json').read_text())
+print('production_status', prod['status'])
+print('independent_status', ind['status'])
+print('algebra_status', alg['status'])
+for row in prod['controls']:
+    cid = row['control_id']
+    fD = row['forward']['D']
+    rD = row['reverse_unrotated']['D']
+    rr = row['reverse_rotated']['D_relative']
+    ur = row['reverse_unrotated']['D_relative']
+    print(cid, 'Z', row['forward']['Z'], 'phi+phi_inv', row['reciprocity']['phi_sum_absolute'], 'freqprod', row['reciprocity']['frequency_product_error'])
+    print(cid, 'offdiag', row['forward']['offdiagonal_norm'], 'endpoint theta psi', row['forward']['endpoint'][2], row['forward']['endpoint'][3])
+    print(cid, 'unrot', ur, 'rot', rr, 'area', row['reverse_unrotated']['area_ratio_minus_Z'])
+for row in ind['controls']:
+    print(row['control_id'], 'indep_rot', row['independent_rotated_covariance_relative'], 'indep_unrot', row['independent_unrotated_reciprocity_relative'], 'indep_area', row['independent_area_ratio_minus_Z'])
+PY" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ exited 127 in 0ms:
+/bin/bash: line 1: python: command not found
+
+exec
+/bin/bash -c 'sha256sum $(awk '"'NR>1 && "'$1 ~ /''^udt_cmb_G81_nonradial_screen_covariance_2026-08-12'"\\// {sub(/"'^udt_cmb_G81_nonradial_screen_covariance_2026-08-12'"\\//, \"\", "'$1); print $1}'"' REVIEW_MANIFEST.tsv | sort)" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+eeef3fa2dd70ed6c3a55d8bf0b2dee33e58ec4132f196f33e6ac8d0d65e4653a  AUDIT_REPORT.md
+bca0e81cb78cee13c78bd77179dba9bd0b064815f5a76d0d5f897af79f6fe300  CATCH_PROOF_RESULTS.json
+205a74420e0d178311276746d5086d7716443368ef7625cee534c80555a22f77  CONTROL_UNIVERSE.tsv
+03ce88cdbcda8f1cb4ecd8fa0cfd4a08de5e3659de5201581be5d41541e2467d  DERIVATION_RESULT.json
+03ce88cdbcda8f1cb4ecd8fa0cfd4a08de5e3659de5201581be5d41541e2467d  DERIVATION_STDOUT.txt
+8e048f0c14bf8143fcab46279f759db387573ade2e36a078db664ff700382d3c  EXACT_ALGEBRA_RESULT.json
+37970b2f9670137fd5d458856268b34bbb7f0778356c78095551037ddc305b83  EXACT_DERIVATION.md
+36b2d8b8c895285d4d1b181df0e657c9943c2db69d6be6a39374a24ba1d83c8b  INDEPENDENT_METHOD_REGISTRATION.md
+359c0bf079ceb6ae7ab4966c5f8bdc50f919e24f74d8acd5e26ca450f73d76c5  INDEPENDENT_TRANSCRIPT.txt
+359c0bf079ceb6ae7ab4966c5f8bdc50f919e24f74d8acd5e26ca450f73d76c5  INDEPENDENT_VERIFICATION.json
+352ccb97ba4bc26a02e53b7e8383213b3cc311519cfb4850f6c89ab6f20ce772  LAY_REPORT.md
+2ed6d4745697266305cc9e0759d8b528fadcde124c4f4565b8112fd795fb95ca  PACKAGE_VERIFICATION.json
+d267093df1091ebb330ac11ae5e1ec95470bd84f12039d7c2b447e22b8c6ade4  PATH_EVIDENCE.npz
+3e72a74142d442cc0ad666a398d546516bd47b7a2191ea5a2af21e7a0f975cdf  PREMISE_LEDGER.tsv
+a64cff7a5fa6e511b4318ff0a9a1964e11da7a244e3c00aee928125fda7fabb2  PREREGISTRATION.md
+63a967f683b306f05003fc24a06f0210ade3e7090929e5fbf11858731a4c039b  REFINEMENT_ATLAS.tsv
+893dda8a5cdd4455bc94dd9191a37847ec0e9ade6d3bace81768310eba0100a6  REPOSITORY_GATES.json
+1caeac305bcace933168dc66f3bdd83da11b726c5d3ccdea94132dac2c1b1b26  REVIEW_DISPATCH.md
+76fb82103385a9226f4e259d34437042d43c5ff61b58146bd92003781eb56e87  SEMANTIC_CONTRACT.json
+5675f7612244f758fc8bc42a6fcf718c37a15125804602f3c82a686a576bc7ea  SOURCE_MANIFEST.tsv
+92cc1f53b43f7ebba812dcbe6fac67c1b11854b850c66eddf7dc67c03b8be9fb  TYPE_LEDGER.tsv
+fe7496b72a28307651f42d6e2d16b952b529150ea4e0376f0a2a7154b033a055  build_review_manifest.py
+7d49e917832c347a35a8782739be53ff161d5bd16124137ec198a9d9b39402e0  derive_nonradial_screen_covariance.py
+02b209d6e7dcafa33c19c5b881d9903f2966885203eed01aba82100394b71196  run_catch_proofs.py
+43f2785a7cdc85790a14e165ed627c9c5c0129b40a9f4c40cd42304a22c47ea1  verify_exact_algebra.py
+79a3151197866ae37c18edd367f6391d168b72354c178011c273c537ce0fdcaa  verify_nonradial_neighboring_rays.py
+3fadd6b069d7f929ecc44f60db1fb1c1ca05f569612ac6f2a7d223aa55728d2a  verify_package.py
+d62ec46a2cd6a74d784b93c911ac1b9e5c8e176fd475274649744c7a92229de9  verify_repository_gates.py
+
+exec
+/bin/bash -c "python - <<'PY'
+import numpy as np, json, math
+from pathlib import Path
+npz = np.load('PATH_EVIDENCE.npz')
+for key in sorted(npz.files):
+    if key.endswith('__D_forward'):
+        arr = npz[key]
+        print(key, 'shape', arr.shape, 'offdiag_norm', float(np.linalg.norm(arr - np.diag(np.diag(arr)))))
+for prefix in ['C0_RADIAL_ROTATED', 'C1_FULL_ANGULAR']:
+    fs = npz[prefix+'__forward_state']
+    rs = npz[prefix+'__reverse_unrotated_state']
+    rrot = npz[prefix+'__reverse_rotated_state']
+    print(prefix, 'forward_grid', fs.shape, 'reverse_grid', rs.shape, 'reverse_rot_grid', rrot.shape)
+    fend = fs[:, -1]
+    rstart = rs[:, 0]
+    print(prefix, 'reverse_start_minus_forward_end_maxabs', float(np.max(np.abs(rstart[:16]-fend[:16]))))
+PY" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ exited 127 in 0ms:
+/bin/bash: line 1: python: command not found
+
+codex
+The local package hashes match the manifest rows for every sealed G81 file. The remaining work is numeric replay from the included JSON and path evidence; the shell doesn’t have `python`, so I’m switching to `python3` for the sealed computations.
+exec
+/bin/bash -c "python3 - <<'PY'
+import json, math
+from pathlib import Path
+root = Path('.')
+prod = json.loads((root/'DERIVATION_RESULT.json').read_text())
+ind = json.loads((root/'INDEPENDENT_VERIFICATION.json').read_text())
+alg = json.loads((root/'EXACT_ALGEBRA_RESULT.json').read_text())
+print('production_status', prod['status'])
+print('independent_status', ind['status'])
+print('algebra_status', alg['status'])
+for row in prod['controls']:
+    cid = row['control_id']
+    print(cid, 'Z', row['forward']['Z'])
+    print(cid, 'phi_sum_abs', row['reciprocity']['phi_sum_absolute'])
+    print(cid, 'freqprod_err', row['reciprocity']['frequency_product_error'])
+    print(cid, 'endpoint_return', row['reciprocity']['endpoint_return_max_absolute'])
+    print(cid, 'tangent_return', row['reciprocity']['tangent_return_relative'])
+    print(cid, 'screen_unrot', row['reciprocity']['screen_return_unrotated_relative'])
+    print(cid, 'screen_rot', row['reciprocity']['screen_return_rotated_relative'])
+    print(cid, 'offdiag', row['forward']['offdiagonal_norm'])
+    print(cid, 'endpoint_theta_psi', row['forward']['endpoint'][2], row['forward']['endpoint'][3])
+    print(cid, 'unrot_rel', row['reverse_unrotated']['D_relative'])
+    print(cid, 'rot_rel', row['reverse_rotated']['D_relative'])
+    print(cid, 'area_ratio_minus_Z', row['reverse_unrotated']['area_ratio_minus_Z'])
+for row in ind['controls']:
+    print(row['control_id'], 'indep_rot_rel', row['independent_rotated_covariance_relative'])
+    print(row['control_id'], 'indep_unrot_rel', row['independent_unrotated_reciprocity_relative'])
+    print(row['control_id'], 'indep_area_ratio_minus_Z', row['independent_area_ratio_minus_Z'])
+PY" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+production_status PASS
+independent_status PASS
+algebra_status PASS
+C0_RADIAL_ROTATED Z 1.1456439237389628
+C0_RADIAL_ROTATED phi_sum_abs 4.912736883966318e-15
+C0_RADIAL_ROTATED freqprod_err 4.884981308350689e-15
+C0_RADIAL_ROTATED endpoint_return 3.7870097682746184e-15
+C0_RADIAL_ROTATED tangent_return 3.745317077200257e-15
+C0_RADIAL_ROTATED screen_unrot 5.69644822736449e-15
+C0_RADIAL_ROTATED screen_rot 5.082348460402802e-15
+C0_RADIAL_ROTATED offdiag 1.434913044850935e-22
+C0_RADIAL_ROTATED endpoint_theta_psi 1.5707963267948966 -0.012169213304160875
+C0_RADIAL_ROTATED unrot_rel 6.885259158085081e-15
+C0_RADIAL_ROTATED rot_rel 1.0086332137876813e-14
+C0_RADIAL_ROTATED area_ratio_minus_Z 6.661338147750939e-15
+C1_FULL_ANGULAR Z 1.145643923738963
+C1_FULL_ANGULAR phi_sum_abs 1.0547118733938987e-15
+C1_FULL_ANGULAR freqprod_err 1.1102230246251565e-15
+C1_FULL_ANGULAR endpoint_return 5.6696455256327605e-15
+C1_FULL_ANGULAR tangent_return 4.232685559759906e-15
+C1_FULL_ANGULAR screen_unrot 2.9351016429397363e-15
+C1_FULL_ANGULAR screen_rot 1.4665768252269173e-15
+C1_FULL_ANGULAR offdiag 0.0011801666864663825
+C1_FULL_ANGULAR endpoint_theta_psi 1.7493671390260097 0.23079074045919012
+C1_FULL_ANGULAR unrot_rel 7.912576288630774e-15
+C1_FULL_ANGULAR rot_rel 3.931585029333395e-15
+C1_FULL_ANGULAR area_ratio_minus_Z 8.215650382226158e-15
+C0_RADIAL_ROTATED indep_rot_rel 1.3498538204686179e-08
+C0_RADIAL_ROTATED indep_unrot_rel 1.41651984859564e-08
+C0_RADIAL_ROTATED indep_area_ratio_minus_Z 1.6228208332691452e-08
+C1_FULL_ANGULAR indep_rot_rel 1.1585881402639625e-08
+C1_FULL_ANGULAR indep_unrot_rel 1.140966805834531e-08
+C1_FULL_ANGULAR indep_area_ratio_minus_Z 1.2242859170896736e-08
+
+exec
+/bin/bash -c "python3 - <<'PY'
+import numpy as np, math
+npz = np.load('PATH_EVIDENCE.npz')
+for key in sorted(npz.files):
+    if key.endswith('__D_forward'):
+        arr = npz[key]
+        print(key, 'offdiag_norm', float(np.linalg.norm(arr - np.diag(np.diag(arr)))))
+for prefix in ['C0_RADIAL_ROTATED', 'C1_FULL_ANGULAR']:
+    fs = npz[prefix+'__forward_state']
+    rs = npz[prefix+'__reverse_unrotated_state']
+    rrot = npz[prefix+'__reverse_rotated_state']
+    print(prefix, 'forward_shape', fs.shape, 'reverse_shape', rs.shape, 'rot_shape', rrot.shape)
+    fend = fs[:, -1]
+    rstart = rs[:, 0]
+    rrstart = rrot[:, 0]
+    print(prefix, 'reverse_start_vs_forward_end_maxabs', float(np.max(np.abs(rstart[:16]-fend[:16]))))
+    print(prefix, 'reverse_rot_start_vs_forward_end_maxabs', float(np.max(np.abs(rrstart[:8]-fend[:8]))))
+    print(prefix, 'end_x_forward', float(fend[1]), 'end_x_reverse', float(rs[1,-1]), 'end_x_rot', float(rrot[1,-1]))
+PY" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+C0_RADIAL_ROTATED__D_forward offdiag_norm 1.434913044850935e-22
+C1_FULL_ANGULAR__D_forward offdiag_norm 0.0011801666864663825
+C0_RADIAL_ROTATED forward_shape (32, 501) reverse_shape (32, 501) rot_shape (32, 501)
+C0_RADIAL_ROTATED reverse_start_vs_forward_end_maxabs 2.469346574857581
+C0_RADIAL_ROTATED reverse_rot_start_vs_forward_end_maxabs 2.469346574857581
+C0_RADIAL_ROTATED end_x_forward 1.0 end_x_reverse 0.25 end_x_rot 0.25
+C1_FULL_ANGULAR forward_shape (32, 501) reverse_shape (32, 501) rot_shape (32, 501)
+C1_FULL_ANGULAR reverse_start_vs_forward_end_maxabs 2.479178996948182
+C1_FULL_ANGULAR reverse_rot_start_vs_forward_end_maxabs 2.479178996948182
+C1_FULL_ANGULAR end_x_forward 1.0 end_x_reverse 0.25 end_x_rot 0.25
+
+exec
+/bin/bash -c "python3 - <<'PY'
+import numpy as np, json, math
+prod = json.load(open('DERIVATION_RESULT.json'))
+A = np.array([[3/5,-4/5],[4/5,3/5]], float)
+B = np.array([[5/13,-12/13],[12/13,5/13]], float)
+print('A_orth_err', np.max(np.abs(A.T@A - np.eye(2))), 'detA', np.linalg.det(A))
+print('B_orth_err', np.max(np.abs(B.T@B - np.eye(2))), 'detB', np.linalg.det(B))
+for row in prod['controls']:
+    Df = np.array(row['forward']['D'])
+    Dr = np.array(row['reverse_unrotated']['D'])
+    Drab = np.array(row['reverse_rotated']['D'])
+    Z = row['forward']['Z']
+    print(row['control_id'], 'max_unrot_abs', np.max(np.abs(Dr - Z*Df.T)))
+    print(row['control_id'], 'max_rot_abs', np.max(np.abs(Drab - Z*B@Df.T@A.T)))
+    print(row['control_id'], 'area_formula_abs', abs(math.sqrt(abs(np.linalg.det(Dr)))/math.sqrt(abs(np.linalg.det(Df))) - Z))
+PY" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+A_orth_err 2.6645352591003756e-17 detA 1.0
+B_orth_err 2.220446049250313e-16 detB 1.0000000000000002
+C0_RADIAL_ROTATED max_unrot_abs 8.104628079763643e-15
+C0_RADIAL_ROTATED max_rot_abs 1.0769163338864018e-14
+C0_RADIAL_ROTATED area_formula_abs 6.661338147750939e-15
+C1_FULL_ANGULAR max_unrot_abs 6.994405055138486e-15
+C1_FULL_ANGULAR max_rot_abs 3.3306690738754696e-15
+C1_FULL_ANGULAR area_formula_abs 8.215650382226158e-15
+
+codex
+I’ve got enough context to close the review. I’m doing one last direct check on the stored path states so the endpoint reversal and rotated-screen seeding are confirmed from the raw sealed trajectory data, not just from summary JSON.
+exec
+/bin/bash -c "python3 - <<'PY'
+import numpy as np
+A = np.array([[3/5,-4/5],[4/5,3/5]], float)
+npz = np.load('PATH_EVIDENCE.npz')
+for prefix in ['C0_RADIAL_ROTATED', 'C1_FULL_ANGULAR']:
+    fs = npz[prefix+'__forward_state']
+    rs = npz[prefix+'__reverse_unrotated_state']
+    rr = npz[prefix+'__reverse_rotated_state']
+    fend = fs[:, -1]
+    rstart = rs[:, 0]
+    rrstart = rr[:, 0]
+    k = fend[4:8]
+    z = abs(k[0]) # placeholder to show structure only
+    # actual Z from null normalization relation is not recovered here; use tangent relation from stored states directly.
+    print(prefix, 'pos_seed_match', float(np.max(np.abs(rstart[:4]-fend[:4]))))
+    print(prefix, 'unrot_screen_seed_match', float(np.max(np.abs(rstart[8:16]-fend[8:16]))))
+    E = fend[8:16].reshape(2,4)
+    Erot = (A @ E).reshape(8)
+    print(prefix, 'rot_screen_seed_match', float(np.max(np.abs(rrstart[8:16]-Erot))))
+    print(prefix, 'J_seed_unrot_norm', float(np.linalg.norm(rstart[16:24])))
+    print(prefix, 'J_seed_rot_norm', float(np.linalg.norm(rrstart[16:24])))
+    print(prefix, 'P_seed_unrot_match', float(np.max(np.abs(rstart[24:32]-fend[8:16]))))
+    print(prefix, 'P_seed_rot_match', float(np.max(np.abs(rrstart[24:32]-Erot))))
+PY" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+C0_RADIAL_ROTATED pos_seed_match 0.0
+C0_RADIAL_ROTATED unrot_screen_seed_match 0.0
+C0_RADIAL_ROTATED rot_screen_seed_match 0.0
+C0_RADIAL_ROTATED J_seed_unrot_norm 0.0
+C0_RADIAL_ROTATED J_seed_rot_norm 0.0
+C0_RADIAL_ROTATED P_seed_unrot_match 0.0
+C0_RADIAL_ROTATED P_seed_rot_match 0.0
+C1_FULL_ANGULAR pos_seed_match 0.0
+C1_FULL_ANGULAR unrot_screen_seed_match 0.0
+C1_FULL_ANGULAR rot_screen_seed_match 0.0
+C1_FULL_ANGULAR J_seed_unrot_norm 0.0
+C1_FULL_ANGULAR J_seed_rot_norm 0.0
+C1_FULL_ANGULAR P_seed_unrot_match 0.0
+C1_FULL_ANGULAR P_seed_rot_match 0.0
+
+exec
+/bin/bash -c "python3 - <<'PY'
+import json, numpy as np
+prod = json.load(open('DERIVATION_RESULT.json'))
+npz = np.load('PATH_EVIDENCE.npz')
+for row in prod['controls']:
+    prefix = row['control_id']
+    Z = row['forward']['Z']
+    fs = npz[prefix+'__forward_state']
+    rs = npz[prefix+'__reverse_unrotated_state']
+    rr = npz[prefix+'__reverse_rotated_state']
+    fend = fs[:, -1]
+    print(prefix, 'unrot_tangent_seed_match', float(np.max(np.abs(rs[4:8,0] + fend[4:8]/Z))))
+    print(prefix, 'rot_tangent_seed_match', float(np.max(np.abs(rr[4:8,0] + fend[4:8]/Z))))
+PY" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+C0_RADIAL_ROTATED unrot_tangent_seed_match 0.0
+C0_RADIAL_ROTATED rot_tangent_seed_match 0.0
+C1_FULL_ANGULAR unrot_tangent_seed_match 0.0
+C1_FULL_ANGULAR rot_tangent_seed_match 0.0
+
+exec
+/bin/bash -c "python3 - <<'PY'
+import csv, hashlib, pathlib
+base = pathlib.Path('.')
+ok = True
+count = 0
+with open('REVIEW_MANIFEST.tsv', newline='', encoding='utf-8') as f:
+    for row in csv.DictReader(f, delimiter='\\t'):
+        path = row['path']
+        if path.startswith('udt_cmb_G81_nonradial_screen_covariance_2026-08-12/'):
+            rel = path.split('/',1)[1]
+            h = hashlib.sha256((base/rel).read_bytes()).hexdigest()
+            count += 1
+            if h "'!= row['"'sha256']:
+                ok = False
+                print('MISMATCH', rel, h, row['sha256'])
+print('local_rows', count)
+print('local_ok', ok)
+PY" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+local_rows 28
+local_ok True
+
+exec
+/bin/bash -c "python3 - <<'PY'
+import csv
+rows=list(csv.DictReader(open('REVIEW_MANIFEST.tsv', newline='', encoding='utf-8'), delimiter='\\t'))
+print('total_rows', len(rows))
+print('external_rows', sum(not r['path'].startswith('udt_cmb_G81_nonradial_screen_covariance_2026-08-12/') for r in rows))
+PY" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+total_rows 37
+external_rows 9
+
+exec
+/bin/bash -c "python3 - <<'PY'
+import csv
+review=[r for r in csv.DictReader(open('REVIEW_MANIFEST.tsv', newline='', encoding='utf-8'), delimiter='\\t') if not r['path'].startswith('udt_cmb_G81_nonradial_screen_covariance_2026-08-12/')]
+source=list(csv.DictReader(open('SOURCE_MANIFEST.tsv', newline='', encoding='utf-8'), delimiter='\\t'))
+print('same_count', len(review), len(source))
+print('same_rows', review==[{k:r[k] for k in ('path','sha256','role')} for r in source])
+PY" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+same_count 9 9
+same_rows True
+
+codex
+I’m at the write-up stage. I’m pulling exact line references for the load-bearing checks so the landing is tied to concrete sealed artifacts rather than paraphrase.
+exec
+/bin/bash -c "nl -ba verify_nonradial_neighboring_rays.py | sed -n '1,260p'" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Independent Christoffel/neighboring-ray replay of the two G81 controls."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import json
+     7	import math
+     8	from pathlib import Path
+     9	
+    10	import numpy as np
+    11	from scipy.integrate import solve_ivp
+    12	
+    13	
+    14	HERE = Path(__file__).resolve().parent
+    15	DELTAS = (1.0e-4, 5.0e-5)  # NUMERIC: independently registered before this run.
+    16	A_ROT = np.array([[3.0 / 5.0, -4.0 / 5.0], [4.0 / 5.0, 3.0 / 5.0]])
+    17	B_ROT = np.array([[5.0 / 13.0, -12.0 / 13.0], [12.0 / 13.0, 5.0 / 13.0]])
+    18	CONTROLS = (
+    19	    ("C0_RADIAL_ROTATED", (1.0, 0.0, 0.0), (0.0, 1.0, 0.0), (0.0, 0.0, 1.0)),
+    20	    (
+    21	        "C1_FULL_ANGULAR",
+    22	        (12.0 / 13.0, 3.0 / 13.0, 4.0 / 13.0),
+    23	        (0.0, 4.0 / 5.0, -3.0 / 5.0),
+    24	        (-5.0 / 13.0, 36.0 / 65.0, 48.0 / 65.0),
+    25	    ),
+    26	)
+    27	
+    28	
+    29	def fields(x: float) -> tuple[float, float, float, float]:
+    30	    return 1.0 - x * x / 4.0, -x / 2.0, x**6 / 20.0, 3.0 * x**5 / 10.0
+    31	
+    32	
+    33	def metric_and_first(position: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
+    34	    _, x, theta, _ = position
+    35	    A, Ax, h, hx = fields(float(x))
+    36	    sn, cs = math.sin(float(theta)), math.cos(float(theta))
+    37	    g = np.zeros((4, 4), dtype=np.float64)
+    38	    g[0, 0], g[1, 1], g[2, 2], g[3, 3] = -A, 1.0 / A, x * x, x * x * sn * sn
+    39	    g[0, 3] = g[3, 0] = h * sn * sn
+    40	    dg = np.zeros((4, 4, 4), dtype=np.float64)
+    41	    dg[1, 0, 0] = -Ax
+    42	    dg[1, 1, 1] = -Ax / (A * A)
+    43	    dg[1, 2, 2] = 2.0 * x
+    44	    dg[1, 3, 3] = 2.0 * x * sn * sn
+    45	    dg[1, 0, 3] = dg[1, 3, 0] = hx * sn * sn
+    46	    dg[2, 3, 3] = 2.0 * x * x * sn * cs
+    47	    dg[2, 0, 3] = dg[2, 3, 0] = 2.0 * h * sn * cs
+    48	    return g, dg
+    49	
+    50	
+    51	def connection(position: np.ndarray) -> np.ndarray:
+    52	    g, dg = metric_and_first(position)
+    53	    gi = np.linalg.inv(g)
+    54	    Gamma = np.zeros((4, 4, 4), dtype=np.float64)
+    55	    for rho in range(4):
+    56	        for mu in range(4):
+    57	            for nu in range(4):
+    58	                for lam in range(4):
+    59	                    Gamma[rho, mu, nu] += 0.5 * gi[rho, lam] * (
+    60	                        dg[mu, lam, nu] + dg[nu, lam, mu] - dg[lam, mu, nu]
+    61	                    )
+    62	    return Gamma
+    63	
+    64	
+    65	def observer(position: np.ndarray) -> np.ndarray:
+    66	    A = fields(float(position[1]))[0]
+    67	    return np.array([1.0 / math.sqrt(A), 0.0, 0.0, 0.0])
+    68	
+    69	
+    70	def frequency(position: np.ndarray, tangent: np.ndarray) -> float:
+    71	    g, _ = metric_and_first(position)
+    72	    return -float(observer(position) @ g @ tangent)
+    73	
+    74	
+    75	def receiver_frame() -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    76	    p = np.array([0.0, 0.25, math.pi / 2.0, 0.0])
+    77	    A, _, h, _ = fields(0.25)
+    78	    block = A * 0.25**2 + h * h
+    79	    triad = np.stack((
+    80	        np.array([0.0, math.sqrt(A), 0.0, 0.0]),
+    81	        np.array([0.0, 0.0, 4.0, 0.0]),
+    82	        np.array([h / (math.sqrt(A) * math.sqrt(block)), 0.0, 0.0, math.sqrt(A) / math.sqrt(block)]),
+    83	    ))
+    84	    return p, observer(p), triad
+    85	
+    86	
+    87	def integrate(
+    88	    position: np.ndarray,
+    89	    tangent: np.ndarray,
+    90	    screen: np.ndarray | None,
+    91	    *,
+    92	    target_x: float | None = None,
+    93	    direction: float = 0.0,
+    94	    affine_end: float | None = None,
+    95	) -> object:
+    96	    state0 = np.concatenate((position, tangent)) if screen is None else np.concatenate((position, tangent, screen.ravel()))
+    97	
+    98	    def rhs(_affine: float, state: np.ndarray) -> np.ndarray:
+    99	        p, k = state[:4], state[4:8]
+   100	        Gamma = connection(p)
+   101	        dk = -np.einsum("rmn,m,n->r", Gamma, k, k)
+   102	        if screen is None:
+   103	            return np.concatenate((k, dk))
+   104	        E = state[8:16].reshape(2, 4)
+   105	        dE = -np.einsum("rmn,m,an->ar", Gamma, k, E)
+   106	        return np.concatenate((k, dk, dE.ravel()))
+   107	
+   108	    events = None
+   109	    if target_x is not None:
+   110	        def event(_affine: float, state: np.ndarray) -> float:
+   111	            return float(state[1] - target_x)
+   112	        event.terminal = True
+   113	        event.direction = direction
+   114	        events = event
+   115	    return solve_ivp(
+   116	        rhs,
+   117	        (0.0, 10.0 if affine_end is None else affine_end),
+   118	        state0,
+   119	        events=events,
+   120	        dense_output=True,
+   121	        method="DOP853",
+   122	        rtol=2.0e-12,
+   123	        atol=2.0e-14,
+   124	        max_step=1.0 / 800.0,
+   125	    )
+   126	
+   127	
+   128	def endpoint(solution: object, event: bool) -> tuple[float, np.ndarray]:
+   129	    affine = float(solution.t_events[0][0]) if event else float(solution.t[-1])
+   130	    return affine, np.asarray(solution.sol(affine), dtype=np.float64)
+   131	
+   132	
+   133	def neighboring_map(
+   134	    position: np.ndarray,
+   135	    time_axis: np.ndarray,
+   136	    direction_axis: np.ndarray,
+   137	    initial_screen: np.ndarray,
+   138	    affine: float,
+   139	    projection_screen: np.ndarray,
+   140	    endpoint_metric: np.ndarray,
+   141	    time_sign: float,
+   142	    direction_sign: float,
+   143	) -> tuple[dict[float, np.ndarray], float]:
+   144	    maps: dict[float, np.ndarray] = {}
+   145	    max_null = 0.0
+   146	    for delta in DELTAS:
+   147	        D = np.zeros((2, 2))
+   148	        for column in range(2):
+   149	            plus_k = time_sign * time_axis + direction_sign * direction_axis * math.cos(delta) + initial_screen[column] * math.sin(delta)
+   150	            minus_k = time_sign * time_axis + direction_sign * direction_axis * math.cos(delta) - initial_screen[column] * math.sin(delta)
+   151	            plus = integrate(position, plus_k, None, affine_end=affine)
+   152	            minus = integrate(position, minus_k, None, affine_end=affine)
+   153	            assert plus.success and minus.success
+   154	            deviation = (plus.y[:4, -1] - minus.y[:4, -1]) / (2.0 * delta)
+   155	            D[:, column] = projection_screen @ endpoint_metric @ deviation
+   156	            for solution in (plus, minus):
+   157	                p, k = solution.y[:4, -1], solution.y[4:8, -1]
+   158	                g, _ = metric_and_first(p)
+   159	                max_null = max(max_null, abs(float(k @ g @ k)))
+   160	        maps[delta] = D
+   161	    return maps, max_null
+   162	
+   163	
+   164	def relative(left: np.ndarray, right: np.ndarray) -> float:
+   165	    return float(np.linalg.norm(left - right) / max(1.0, np.linalg.norm(left), np.linalg.norm(right)))
+   166	
+   167	
+   168	def run_control(control: tuple, production: dict) -> dict:
+   169	    control_id, direction, screen1, screen2 = control
+   170	    p_r, u_r, triad = receiver_frame()
+   171	    n_r = np.asarray(direction) @ triad
+   172	    E_r = np.stack((np.asarray(screen1) @ triad, np.asarray(screen2) @ triad))
+   173	    forward = integrate(p_r, u_r + n_r, E_r, target_x=1.0, direction=1.0)
+   174	    assert forward.success and len(forward.t_events[0]) == 1
+   175	    forward_affine, forward_state = endpoint(forward, True)
+   176	    p_s, k_s = forward_state[:4], forward_state[4:8]
+   177	    E_s = forward_state[8:16].reshape(2, 4)
+   178	    Z = frequency(p_s, k_s)
+   179	    u_s = observer(p_s)
+   180	    n_s = k_s / Z - u_s
+   181	    reverse = integrate(p_s, -k_s / Z, E_s, target_x=0.25, direction=-1.0)
+   182	    reverse_rot = integrate(p_s, -k_s / Z, A_ROT @ E_s, target_x=0.25, direction=-1.0)
+   183	    assert reverse.success and reverse_rot.success
+   184	    assert len(reverse.t_events[0]) == len(reverse_rot.t_events[0]) == 1
+   185	    reverse_affine, reverse_state = endpoint(reverse, True)
+   186	    _, reverse_rot_state = endpoint(reverse_rot, True)
+   187	    p_back, k_back = reverse_state[:4], reverse_state[4:8]
+   188	    E_back = reverse_state[8:16].reshape(2, 4)
+   189	    g_s, _ = metric_and_first(p_s)
+   190	    g_back, _ = metric_and_first(p_back)
+   191	
+   192	    forward_maps, null_forward = neighboring_map(p_r, u_r, n_r, E_r, forward_affine, E_s, g_s, 1.0, 1.0)
+   193	    reverse_maps, null_reverse = neighboring_map(p_s, u_s, n_s, E_s, reverse_affine, E_back, g_back, -1.0, -1.0)
+   194	    rotated_maps, null_rotated = neighboring_map(
+   195	        p_s, u_s, n_s, A_ROT @ E_s, reverse_affine, B_ROT @ E_r, g_back, -1.0, -1.0
+   196	    )
+   197	    forward_coarse, forward_fine = (forward_maps[value] for value in DELTAS)
+   198	    reverse_coarse, reverse_fine = (reverse_maps[value] for value in DELTAS)
+   199	    rotated_coarse, rotated_fine = (rotated_maps[value] for value in DELTAS)
+   200	    D_forward_production = np.asarray(production["forward"]["D"])
+   201	    D_reverse_production = np.asarray(production["reverse_unrotated"]["D"])
+   202	    D_rotated_production = np.asarray(production["reverse_rotated"]["D"])
+   203	    inverse_Z = abs(frequency(p_back, k_back)) / abs(frequency(p_s, -k_s / Z))
+   204	    result = {
+   205	        "control_id": control_id,
+   206	        "Z": Z,
+   207	        "inverse_Z": inverse_Z,
+   208	        "frequency_product_error": abs(Z * inverse_Z - 1.0),
+   209	        "endpoint_return_max_absolute": float(np.max(np.abs(p_back - p_r))),
+   210	        "rotated_endpoint_return_max_absolute": float(np.max(np.abs(reverse_rot_state[:4] - p_r))),
+   211	        "forward_coarse_fine_relative": relative(forward_coarse, forward_fine),
+   212	        "reverse_coarse_fine_relative": relative(reverse_coarse, reverse_fine),
+   213	        "rotated_coarse_fine_relative": relative(rotated_coarse, rotated_fine),
+   214	        "forward_fine_D": forward_fine.tolist(),
+   215	        "reverse_fine_D": reverse_fine.tolist(),
+   216	        "rotated_fine_D": rotated_fine.tolist(),
+   217	        "forward_production_relative": relative(forward_fine, D_forward_production),
+   218	        "reverse_production_relative": relative(reverse_fine, D_reverse_production),
+   219	        "rotated_production_relative": relative(rotated_fine, D_rotated_production),
+   220	        "independent_unrotated_reciprocity_relative": relative(reverse_fine, Z * forward_fine.T),
+   221	        "independent_rotated_covariance_relative": relative(rotated_fine, Z * B_ROT @ forward_fine.T @ A_ROT.T),
+   222	        "independent_area_ratio_minus_Z": abs(
+   223	            math.sqrt(abs(float(np.linalg.det(reverse_fine))))
+   224	            / math.sqrt(abs(float(np.linalg.det(forward_fine)))) - Z
+   225	        ),
+   226	        "max_endpoint_null_absolute": max(null_forward, null_reverse, null_rotated),
+   227	    }
+   228	    gates = {
+   229	        "frequency": result["frequency_product_error"] < 1.0e-10,
+   230	        "endpoint": max(result["endpoint_return_max_absolute"], result["rotated_endpoint_return_max_absolute"]) < 1.0e-8,
+   231	        "production_maps": max(
+   232	            result["forward_production_relative"], result["reverse_production_relative"], result["rotated_production_relative"]
+   233	        ) < 2.0e-4,
+   234	        "unrotated_reciprocity": result["independent_unrotated_reciprocity_relative"] < 2.0e-4,
+   235	        "rotated_covariance": result["independent_rotated_covariance_relative"] < 2.0e-4,
+   236	        "area": result["independent_area_ratio_minus_Z"] < 2.0e-4,
+   237	        "null": result["max_endpoint_null_absolute"] < 1.0e-9,
+   238	    }
+   239	    result["gates"] = gates
+   240	    result["status"] = "PASS" if all(gates.values()) else "FAIL"
+   241	    return result
+   242	
+   243	
+   244	def main() -> None:
+   245	    production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+   246	    assert [row["control_id"] for row in production["controls"]] == [row[0] for row in CONTROLS]
+   247	    results = [run_control(control, prod) for control, prod in zip(CONTROLS, production["controls"], strict=True)]
+   248	    output = {
+   249	        "schema": "udt-cmb-g81-independent-neighboring-ray-v1",
+   250	        "method": "locally rebuilt full Christoffels plus centered neighboring rays; no production Riemann or Jacobi equation",
+   251	        "status": "PASS" if all(row["status"] == "PASS" for row in results) else "FAIL",
+   252	        "deltas": list(DELTAS),
+   253	        "controls": results,
+   254	    }
+   255	    rendered = json.dumps(output, indent=2, sort_keys=True) + "\n"
+   256	    (HERE / "INDEPENDENT_VERIFICATION.json").write_text(rendered, encoding="utf-8")
+   257	    (HERE / "INDEPENDENT_TRANSCRIPT.txt").write_text(rendered, encoding="utf-8")
+   258	    print(rendered, end="")
+   259	    if output["status"] != "PASS":
+   260	        raise SystemExit("independent G81 gate failed")
+
+exec
+/bin/bash -c "nl -ba derive_nonradial_screen_covariance.py | sed -n '1,240p'" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Run the preregistered G81 full-Jacobi screen-covariance controls."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import csv
+     7	import hashlib
+     8	import importlib.util
+     9	import json
+    10	import math
+    11	import subprocess
+    12	import sys
+    13	from dataclasses import dataclass
+    14	from pathlib import Path
+    15	
+    16	import numpy as np
+    17	from scipy.integrate import solve_ivp
+    18	
+    19	
+    20	HERE = Path(__file__).resolve().parent
+    21	ROOT = HERE.parent
+    22	BASE = "f112a32e4fbc5319de4e964e869f9024e9bdb1b9"
+    23	ENGINE_PATH = ROOT / "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py"
+    24	STEP_COUNTS = (1024, 2048, 4096)  # NUMERIC: preregistered refinement ladder.
+    25	A_ROT = np.array([[3.0 / 5.0, -4.0 / 5.0], [4.0 / 5.0, 3.0 / 5.0]])  # CHOSE_CONTROL.
+    26	B_ROT = np.array([[5.0 / 13.0, -12.0 / 13.0], [12.0 / 13.0, 5.0 / 13.0]])  # CHOSE_CONTROL.
+    27	
+    28	
+    29	@dataclass(frozen=True)
+    30	class Control:
+    31	    control_id: str
+    32	    direction: tuple[float, float, float]
+    33	    screen1: tuple[float, float, float]
+    34	    screen2: tuple[float, float, float]
+    35	
+    36	
+    37	CONTROLS = (
+    38	    Control("C0_RADIAL_ROTATED", (1.0, 0.0, 0.0), (0.0, 1.0, 0.0), (0.0, 0.0, 1.0)),
+    39	    Control(
+    40	        "C1_FULL_ANGULAR",
+    41	        (12.0 / 13.0, 3.0 / 13.0, 4.0 / 13.0),
+    42	        (0.0, 4.0 / 5.0, -3.0 / 5.0),
+    43	        (-5.0 / 13.0, 36.0 / 65.0, 48.0 / 65.0),
+    44	    ),
+    45	)
+    46	
+    47	
+    48	def digest(data: bytes) -> str:
+    49	    return hashlib.sha256(data).hexdigest()
+    50	
+    51	
+    52	def verify_preregistered_inputs() -> int:
+    53	    with (HERE / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
+    54	        rows = list(csv.DictReader(stream, delimiter="\t"))
+    55	    assert len(rows) == len({row["path"] for row in rows}) == 9
+    56	    for row in rows:
+    57	        frozen = subprocess.check_output(["git", "show", f"{row['base_commit']}:{row['path']}"], cwd=ROOT)
+    58	        assert digest(frozen) == row["sha256"]
+    59	        assert row["base_commit"] == BASE
+    60	    with (HERE / "CONTROL_UNIVERSE.tsv").open(newline="", encoding="utf-8") as stream:
+    61	        controls = list(csv.DictReader(stream, delimiter="\t"))
+    62	    assert [row["control_id"] for row in controls] == [control.control_id for control in CONTROLS]
+    63	    assert len(controls) == 2
+    64	    return len(rows)
+    65	
+    66	
+    67	def load_engine():
+    68	    spec = importlib.util.spec_from_file_location("g81_metric_engine", ENGINE_PATH)
+    69	    assert spec and spec.loader
+    70	    module = importlib.util.module_from_spec(spec)
+    71	    sys.modules[spec.name] = module
+    72	    spec.loader.exec_module(module)
+    73	    return module
+    74	
+    75	
+    76	def fields(x: float) -> tuple[float, float, float, float, float, float]:
+    77	    return 1.0 - x**2 / 4.0, -x / 2.0, -0.5, x**6 / 20.0, 3.0 * x**5 / 10.0, 1.5 * x**4
+    78	
+    79	
+    80	def observer(engine, profile, position: np.ndarray) -> np.ndarray:
+    81	    g, _, _ = engine.geometry(profile, position)
+    82	    return np.array([1.0 / math.sqrt(-float(g[0, 0])), 0.0, 0.0, 0.0])
+    83	
+    84	
+    85	def frequency(engine, profile, position: np.ndarray, tangent: np.ndarray) -> float:
+    86	    g, _, _ = engine.geometry(profile, position)
+    87	    return -float(observer(engine, profile, position) @ g @ tangent)
+    88	
+    89	
+    90	def receiver_frame(engine, profile) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    91	    position = np.array([0.0, 0.25, math.pi / 2.0, 0.0], dtype=np.float64)  # CHOSE_CONTROL.
+    92	    A, _, _, h, _, _ = fields(0.25)
+    93	    block = A * 0.25**2 + h**2
+    94	    u = observer(engine, profile, position)
+    95	    radial = np.array([0.0, math.sqrt(A), 0.0, 0.0])
+    96	    theta = np.array([0.0, 0.0, 4.0, 0.0])
+    97	    psi = np.array([h / (math.sqrt(A) * math.sqrt(block)), 0.0, 0.0, math.sqrt(A) / math.sqrt(block)])
+    98	    triad = np.stack((radial, theta, psi))
+    99	    g, _, _ = engine.geometry(profile, position)
+   100	    assert np.max(np.abs(triad @ g @ triad.T - np.eye(3))) < 1.0e-13
+   101	    assert np.max(np.abs(triad @ g @ u)) < 1.0e-13
+   102	    return position, u, triad
+   103	
+   104	
+   105	def initial_state(engine, profile, control: Control) -> np.ndarray:
+   106	    position, u, triad = receiver_frame(engine, profile)
+   107	    n = np.asarray(control.direction) @ triad
+   108	    E = np.stack((np.asarray(control.screen1) @ triad, np.asarray(control.screen2) @ triad))
+   109	    k = u + n
+   110	    g, _, _ = engine.geometry(profile, position)
+   111	    assert abs(float(k @ g @ k)) < 1.0e-13
+   112	    assert abs(frequency(engine, profile, position, k) - 1.0) < 1.0e-13
+   113	    assert np.max(np.abs(E @ g @ E.T - np.eye(2))) < 1.0e-13
+   114	    assert np.max(np.abs(E @ g @ k)) < 1.0e-13
+   115	    J = np.zeros((2, 4), dtype=np.float64)
+   116	    P = E.copy()
+   117	    return np.concatenate((position, k, E.ravel(), J.ravel(), P.ravel()))
+   118	
+   119	
+   120	def integrate(engine, profile, state0: np.ndarray, step_count: int, target_x: float, direction: float) -> object:
+   121	    def endpoint_event(_affine: float, state: np.ndarray) -> float:
+   122	        return float(state[1] - target_x)
+   123	
+   124	    endpoint_event.terminal = True
+   125	    endpoint_event.direction = direction
+   126	    return solve_ivp(
+   127	        engine.full_rhs(profile),
+   128	        (0.0, 10.0),  # NUMERIC: preregistered inherited affine cap.
+   129	        state0,
+   130	        events=(endpoint_event, engine.turning_event),
+   131	        dense_output=True,
+   132	        method="DOP853",
+   133	        rtol=2.0e-13,
+   134	        atol=2.0e-15,
+   135	        max_step=1.0 / step_count,
+   136	    )
+   137	
+   138	
+   139	def reverse_state(engine, forward_endpoint: np.ndarray, Z: float, rotation: np.ndarray) -> np.ndarray:
+   140	    position, k, E, _, _ = engine.unpack(forward_endpoint)
+   141	    E_rot = rotation @ E
+   142	    return np.concatenate((position, -k / Z, E_rot.ravel(), np.zeros(8), E_rot.ravel()))
+   143	
+   144	
+   145	def relative(left: np.ndarray, right: np.ndarray) -> float:
+   146	    return float(np.linalg.norm(left - right) / max(1.0, np.linalg.norm(left), np.linalg.norm(right)))
+   147	
+   148	
+   149	def endpoint(engine, profile, solution: object) -> tuple[float, np.ndarray, np.ndarray]:
+   150	    affine = float(solution.t_events[0][0])
+   151	    state = np.asarray(solution.sol(affine), dtype=np.float64)
+   152	    D, _, _, _ = engine.screen_objects(profile, state)
+   153	    return affine, state, D
+   154	
+   155	
+   156	def run_control(engine, profile, control: Control, source_rows: int) -> tuple[dict, list[dict], dict[str, np.ndarray]]:
+   157	    refinement: list[dict] = []
+   158	    finest: dict | None = None
+   159	    evidence: dict[str, np.ndarray] = {}
+   160	    for step_count in STEP_COUNTS:
+   161	        forward = integrate(engine, profile, initial_state(engine, profile, control), step_count, 1.0, 1.0)
+   162	        if not forward.success or len(forward.t_events[0]) != 1:
+   163	            refinement.append({
+   164	                "control_id": control.control_id,
+   165	                "step_count": step_count,
+   166	                "status": "NO_REGISTERED_FORWARD_CROSSING",
+   167	                "forward_affine": float(forward.t[-1]),
+   168	            })
+   169	            if step_count == STEP_COUNTS[-1]:
+   170	                finest = {
+   171	                    "control_id": control.control_id,
+   172	                    "status": "NO_REGISTERED_FORWARD_CROSSING",
+   173	                    "solver_success": bool(forward.success),
+   174	                    "turning_events": [float(value) for value in forward.t_events[1]],
+   175	                    "source_rows": source_rows,
+   176	                }
+   177	            continue
+   178	
+   179	        forward_affine, forward_endpoint, D_forward = endpoint(engine, profile, forward)
+   180	        p_r, k_r, E_r, _, _ = engine.unpack(np.asarray(forward.sol(0.0), dtype=np.float64))
+   181	        p_s, k_s, E_s, _, _ = engine.unpack(forward_endpoint)
+   182	        Z = frequency(engine, profile, p_s, k_s)
+   183	        reverse_unrot = integrate(
+   184	            engine, profile, reverse_state(engine, forward_endpoint, Z, np.eye(2)), step_count, 0.25, -1.0
+   185	        )
+   186	        reverse_rot = integrate(
+   187	            engine, profile, reverse_state(engine, forward_endpoint, Z, A_ROT), step_count, 0.25, -1.0
+   188	        )
+   189	        if any(not item.success or len(item.t_events[0]) != 1 for item in (reverse_unrot, reverse_rot)):
+   190	            refinement.append({
+   191	                "control_id": control.control_id,
+   192	                "step_count": step_count,
+   193	                "status": "NO_REGISTERED_REVERSE_CROSSING",
+   194	                "forward_affine": forward_affine,
+   195	            })
+   196	            if step_count == STEP_COUNTS[-1]:
+   197	                finest = {
+   198	                    "control_id": control.control_id,
+   199	                    "status": "NO_REGISTERED_REVERSE_CROSSING",
+   200	                    "source_rows": source_rows,
+   201	                }
+   202	            continue
+   203	
+   204	        reverse_affine, reverse_endpoint, D_reverse = endpoint(engine, profile, reverse_unrot)
+   205	        reverse_rot_affine, reverse_rot_endpoint, _ = endpoint(engine, profile, reverse_rot)
+   206	        p_back, k_back, E_back, _, _ = engine.unpack(reverse_endpoint)
+   207	        p_back_rot, _, E_back_rot, J_back_rot, _ = engine.unpack(reverse_rot_endpoint)
+   208	        g_back, _, _ = engine.geometry(profile, p_back_rot)
+   209	        D_reverse_AB = (B_ROT @ E_r) @ g_back @ J_back_rot.T
+   210	        D_prediction = Z * D_forward.T
+   211	        D_prediction_AB = Z * B_ROT @ D_forward.T @ A_ROT.T
+   212	        inverse_Z = abs(frequency(engine, profile, p_back, k_back))
+   213	        dA_forward = math.sqrt(abs(float(np.linalg.det(D_forward))))
+   214	        dA_reverse = math.sqrt(abs(float(np.linalg.det(D_reverse))))
+   215	        row = {
+   216	            "control_id": control.control_id,
+   217	            "step_count": step_count,
+   218	            "status": "CROSSED",
+   219	            "forward_affine": forward_affine,
+   220	            "reverse_affine": reverse_affine,
+   221	            "Z": Z,
+   222	            "unrotated_D_relative": relative(D_reverse, D_prediction),
+   223	            "rotated_D_relative": relative(D_reverse_AB, D_prediction_AB),
+   224	            "area_ratio_minus_Z": abs(dA_reverse / dA_forward - Z),
+   225	            "forward_offdiagonal_norm": float(np.linalg.norm(D_forward - np.diag(np.diag(D_forward)))),
+   226	        }
+   227	        refinement.append(row)
+   228	
+   229	        if step_count == STEP_COUNTS[-1]:
+   230	            forward_summary, _, _ = engine.endpoint_summary(profile, forward)
+   231	            reverse_summary, _, _ = engine.endpoint_summary(profile, reverse_unrot)
+   232	            reverse_rot_summary, _, _ = engine.endpoint_summary(profile, reverse_rot)
+   233	            screen_unrot_overlap = E_back @ g_back @ E_r.T
+   234	            screen_rot_overlap = E_back_rot @ g_back @ E_r.T
+   235	            gates = {
+   236	                "forward_endpoint": len(forward.t_events[0]) == 1,
+   237	                "reverse_endpoints": len(reverse_unrot.t_events[0]) == len(reverse_rot.t_events[0]) == 1,
+   238	                "endpoint_return": max(
+   239	                    float(np.max(np.abs(p_back - p_r))), float(np.max(np.abs(p_back_rot - p_r)))
+   240	                ) < 1.0e-8,
+
+exec
+/bin/bash -c "nl -ba verify_package.py | sed -n '1,220p'" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+exec
+/bin/bash -c "nl -ba verify_exact_algebra.py | sed -n '1,220p'" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+exec
+/bin/bash -c "nl -ba REVIEW_DISPATCH.md | sed -n '1,220p'" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Exact finite-dimensional checks for the G81 basis-covariance statement."""
+     3	
+     4	import json
+     5	from pathlib import Path
+     6	
+     7	import sympy as sp
+     8	
+     9	
+    10	HERE = Path(__file__).resolve().parent
+    11	
+    12	
+    13	def main() -> None:
+    14	    n = sp.Matrix([12, 3, 4]) / 13
+    15	    s1 = sp.Matrix([0, 4, -3]) / 5
+    16	    s2 = sp.Matrix([-25, 36, 48]) / 65
+    17	    A = sp.Matrix([[sp.Rational(3, 5), -sp.Rational(4, 5)], [sp.Rational(4, 5), sp.Rational(3, 5)]])
+    18	    B = sp.Matrix([[sp.Rational(5, 13), -sp.Rational(12, 13)], [sp.Rational(12, 13), sp.Rational(5, 13)]])
+    19	    assert n.dot(n) == s1.dot(s1) == s2.dot(s2) == 1
+    20	    assert n.dot(s1) == n.dot(s2) == s1.dot(s2) == 0
+    21	    assert s1.cross(s2) == n
+    22	    assert A.T * A == B.T * B == sp.eye(2)
+    23	    assert A.det() == B.det() == 1
+    24	    z = sp.symbols("z", positive=True)
+    25	    d11, d12, d21, d22 = sp.symbols("d11 d12 d21 d22", real=True)
+    26	    D = sp.Matrix([[d11, d12], [d21, d22]])
+    27	    reverse = z * D.T
+    28	    rotated = B * reverse * A.T
+    29	    prediction = z * B * D.T * A.T
+    30	    assert rotated == prediction
+    31	    assert sp.factor(rotated.det() - z**2 * D.det()) == 0
+    32	    output = {
+    33	        "schema": "udt-cmb-g81-exact-algebra-v1",
+    34	        "status": "PASS",
+    35	        "c1_oriented_orthonormal_triad": True,
+    36	        "A_and_B_SO2": True,
+    37	        "rotated_covariance_identity": True,
+    38	        "area_determinant_identity": True,
+    39	    }
+    40	    rendered = json.dumps(output, indent=2, sort_keys=True) + "\n"
+    41	    (HERE / "EXACT_ALGEBRA_RESULT.json").write_text(rendered, encoding="utf-8")
+    42	    print(rendered, end="")
+    43	
+    44	
+    45	if __name__ == "__main__":
+    46	    main()
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Fail-closed verification of the G81 package and frozen inputs."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	import subprocess
+    10	from pathlib import Path
+    11	
+    12	import numpy as np
+    13	
+    14	
+    15	HERE = Path(__file__).resolve().parent
+    16	ROOT = HERE.parent
+    17	BASE = "f112a32e4fbc5319de4e964e869f9024e9bdb1b9"
+    18	IDS = ["C0_RADIAL_ROTATED", "C1_FULL_ANGULAR"]
+    19	MAXIMUM = "DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS"
+    20	
+    21	
+    22	def validate_contract(contract: dict) -> None:
+    23	    assert contract["control_ids"] == IDS
+    24	    assert len(contract["control_ids"]) == len(set(contract["control_ids"])) == 2
+    25	    np.testing.assert_allclose(contract["directions"][IDS[0]], [1.0, 0.0, 0.0], rtol=0.0, atol=0.0)
+    26	    np.testing.assert_allclose(contract["directions"][IDS[1]], [12 / 13, 3 / 13, 4 / 13], rtol=0.0, atol=1e-16)
+    27	    np.testing.assert_allclose(contract["reverse_source_rotation"], [[0.6, -0.8], [0.8, 0.6]], rtol=0.0, atol=0.0)
+    28	    np.testing.assert_allclose(
+    29	        contract["receiver_projection_rotation"], [[5 / 13, -12 / 13], [12 / 13, 5 / 13]], rtol=0.0, atol=1e-16
+    30	    )
+    31	    assert contract["tangent_reversal"] == "FULL_K_REVERSE_EQUALS_MINUS_K_SOURCE_OVER_Z"
+    32	    assert contract["unrotated_matrix_law"] == "D_REVERSE_EQUALS_Z_TIMES_TRANSPOSE_D_FORWARD"
+    33	    assert contract["rotated_matrix_law"] == "D_REVERSE_AB_EQUALS_Z_TIMES_B_TIMES_TRANSPOSE_D_FORWARD_TIMES_TRANSPOSE_A"
+    34	    assert contract["diagonalization_permitted"] is False
+    35	    assert contract["retuning_permitted"] is False
+    36	    for field in (
+    37	        "future_signal_derived", "physical_profile_selected", "physical_endpoint_selected",
+    38	        "Xmax_identified", "physical_source_selected", "cmb_observable_derived",
+    39	    ):
+    40	        assert contract[field] is False
+    41	
+    42	
+    43	def validate_outcomes(production: dict, independent: dict) -> None:
+    44	    assert production["status"] == independent["status"] == "PASS"
+    45	    assert production["control_count"] == 2
+    46	    assert [row["control_id"] for row in production["controls"]] == IDS
+    47	    assert [row["control_id"] for row in independent["controls"]] == IDS
+    48	    assert len({row["control_id"] for row in production["controls"]}) == 2
+    49	    assert production["authority"]["maximum_conclusion"] == MAXIMUM
+    50	    assert production["authority"]["future_signal_derived"] is False
+    51	    assert production["authority"]["physical_profile_endpoint_scale_source_or_observable_selected"] is False
+    52	    assert production["authority"]["Xmax_identified"] is False
+    53	    assert production["authority"]["cmb_temp_activated"] is False
+    54	    for row, check in zip(production["controls"], independent["controls"], strict=True):
+    55	        assert row["status"] == check["status"] == "PASS"
+    56	        assert all(row["gates"].values()) and all(check["gates"].values())
+    57	        assert row["reverse_unrotated"]["D_relative"] < 1e-8
+    58	        assert row["reverse_rotated"]["D_relative"] < 1e-8
+    59	        assert row["reverse_unrotated"]["area_ratio_minus_Z"] < 1e-8
+    60	        assert check["independent_unrotated_reciprocity_relative"] < 2e-4
+    61	        assert check["independent_rotated_covariance_relative"] < 2e-4
+    62	        assert check["independent_area_ratio_minus_Z"] < 2e-4
+    63	        assert check["forward_production_relative"] < 2e-4
+    64	        assert check["reverse_production_relative"] < 2e-4
+    65	        assert check["rotated_production_relative"] < 2e-4
+    66	    c1 = production["controls"][1]
+    67	    assert c1["forward"]["offdiagonal_norm"] > 1e-5
+    68	    endpoint = c1["forward"]["endpoint"]
+    69	    assert abs(endpoint[2] - np.pi / 2) > 1e-3 and abs(endpoint[3]) > 1e-3
+    70	
+    71	
+    72	def validate_sources() -> int:
+    73	    with (HERE / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
+    74	        rows = list(csv.DictReader(stream, delimiter="\t"))
+    75	    assert len(rows) == len({row["path"] for row in rows}) == 9
+    76	    for row in rows:
+    77	        assert row["base_commit"] == BASE
+    78	        data = subprocess.check_output(["git", "show", f"{BASE}:{row['path']}"], cwd=ROOT)
+    79	        assert hashlib.sha256(data).hexdigest() == row["sha256"]
+    80	    return len(rows)
+    81	
+    82	
+    83	def main() -> None:
+    84	    contract = json.loads((HERE / "SEMANTIC_CONTRACT.json").read_text(encoding="utf-8"))
+    85	    production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    86	    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    87	    validate_contract(contract)
+    88	    validate_outcomes(production, independent)
+    89	    sources = validate_sources()
+    90	    output = {
+    91	        "schema": "udt-cmb-g81-package-verification-v1",
+    92	        "status": "PASS",
+    93	        "source_rows_verified": sources,
+    94	        "controls_verified": 2,
+    95	        "production_and_independent_gates": True,
+    96	        "nonradial_angular_activation": True,
+    97	        "authority_boundary_verified": True,
+    98	    }
+    99	    rendered = json.dumps(output, indent=2, sort_keys=True) + "\n"
+   100	    (HERE / "PACKAGE_VERIFICATION.json").write_text(rendered, encoding="utf-8")
+   101	    print(rendered, end="")
+   102	
+   103	
+   104	if __name__ == "__main__":
+   105	    main()
+
+ succeeded in 0ms:
+     1	# Cold external review dispatch — G81 nonradial screen covariance
+     2	
+     3	You are a fresh adversarial reviewer. Inspect only the sealed intake. Do not edit files, continue
+     4	the research, infer broader UDT physics, or access repository material outside the intake.
+     5	
+     6	## Question
+     7	
+     8	On the exact fixed G79/G80 metric and the two preregistered controls, does the submitted calculation
+     9	correctly establish the conditional screen-covariance law
+    10	
+    11	```text
+    12	D_reverse_AB = Z B transpose(D_forward) transpose(A)
+    13	```
+    14	
+    15	together with unrotated Jacobi reciprocity, reciprocal frequency/redshift, and area reciprocity?
+    16	Does C1 genuinely activate nonradial angular/mixing geometry rather than disguise a radial or
+    17	diagonal test?
+    18	
+    19	## Required audit
+    20	
+    21	1. Verify all `REVIEW_MANIFEST.tsv` hashes and the exact nine frozen source rows.
+    22	2. Reconstruct the C1 direction/screen triad and both endpoint rotations exactly.
+    23	3. Derive the transformation rule, including the placement of `A`, `B`, `Z`, and the transpose.
+    24	4. Reconstruct the metric, stationary observer, source frequency, full tangent reversal, endpoint
+    25	   surfaces, and screen transport.
+    26	5. Verify C1 has live radial, polar, and azimuthal motion and a genuinely non-diagonal Jacobi map.
+    27	6. Independently replay load-bearing values without using the production Riemann/Jacobi equation
+    28	   where practical. Audit the submitted direct-Christoffel neighboring-ray method and state its
+    29	   remaining shared inputs.
+    30	7. Check refinement, endpoint return, frequency, phi, tangent, screen, null, conserved-momentum,
+    31	   Wronskian, matrix, determinant/area, and hostile-catch gates.
+    32	8. Hunt circularity, projection/source basis confusion, a missing inverse/transpose, silent
+    33	   diagonalization, sign/frequency errors, or a falsely nonradial control.
+    34	9. Classify generic Jacobi/Wronskian covariance honestly: it may be a valid conditional metric
+    35	   theorem without being a UDT-specific selector.
+    36	10. Confirm no future signal, physical profile, endpoint, scale, `Xmax`, source, SNe/CMB observable,
+    37	    `cmb_temp`, action, matter, or bootstrap theorem follows.
+    38	
+    39	## Load-bearing values
+    40	
+    41	```text
+    42	C0 production rotated residual       1.0086332137876813e-14
+    43	C1 production rotated residual       3.931585029333395e-15
+    44	C1 forward offdiagonal norm          1.1801666864663825e-3
+    45	C0 independent rotated residual      1.3498538204686179e-8
+    46	C1 independent rotated residual      1.1585881402639625e-8
+    47	```
+    48	
+    49	## Required landing
+    50	
+    51	Return exactly one primary status:
+    52	
+    53	- `VERIFIED_AS_BOUNDED_SCREEN_COVARIANCE`;
+    54	- `VERIFIED_WITH_CAVEATS`;
+    55	- `CORRECTION_REQUIRED`; or
+    56	- `INVALID`.
+    57	
+    58	State all binding caveats and corrections, the strongest justified maximum conclusion, and the
+    59	smallest next calculation. Do not continue the research. Supply runnable algebra or compact code
+    60	for every load-bearing challenge.
+
+exec
+/bin/bash -c "nl -ba REVIEW_MANIFEST.tsv | sed -n '1,120p'" in /tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12
+ succeeded in 0ms:
+     1	path	sha256	role
+     2	CURRENT_SCIENTIFIC_PREMISES.tsv	bd4ddd47875444583a1278fa30bee0cbaca6d664c248f63f0ab08217076a3a0a	premise_registry
+     3	udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py	f0f495cf05211a2ac47a7fa917be64b1dd9c6dfc51dfbb5c1736520b42010d4a	metric_jacobi_engine
+     4	udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/DERIVATION_RESULT.json	82958734b9696bf6d541228d91209ea68be8a8838a2dc73dffa2c9873b6d189a	G79_parent_result
+     5	udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/DERIVATION_RESULT.json	c74287357034518a2906230ca623871c3bec5c213eea653433c20661c4a59655	G80_parent_result
+     6	udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXACT_DERIVATION.md	9cc1c68ec038bc54b347601b69296ecd22bac9b9af80b09c7cc597803e08debd	G80_parent_derivation
+     7	udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md	7f30a4963dd9bd9c3fe1ec6dec1c25c0615fc4c9a784229543bd26bfb8aababc	G80_external_landing
+     8	udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/TYPE_LEDGER.tsv	096883061e69bedeb5eb3c8b79f04f9921526599b8a915a5e8b8953859f41108	G80_type_control
+     9	udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/derive_reverse_pair_reciprocity.py	4db8103cc869652e433525c17d70c8acceae16e2f5f07d81cfa8f99693298247	G80_production_method
+    10	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/AUDIT_REPORT.md	eeef3fa2dd70ed6c3a55d8bf0b2dee33e58ec4132f196f33e6ac8d0d65e4653a	G81_package
+    11	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/CATCH_PROOF_RESULTS.json	bca0e81cb78cee13c78bd77179dba9bd0b064815f5a76d0d5f897af79f6fe300	G81_package
+    12	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/CONTROL_UNIVERSE.tsv	205a74420e0d178311276746d5086d7716443368ef7625cee534c80555a22f77	G81_package
+    13	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/DERIVATION_RESULT.json	03ce88cdbcda8f1cb4ecd8fa0cfd4a08de5e3659de5201581be5d41541e2467d	G81_package
+    14	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/DERIVATION_STDOUT.txt	03ce88cdbcda8f1cb4ecd8fa0cfd4a08de5e3659de5201581be5d41541e2467d	G81_package
+    15	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXACT_ALGEBRA_RESULT.json	8e048f0c14bf8143fcab46279f759db387573ade2e36a078db664ff700382d3c	G81_package
+    16	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXACT_DERIVATION.md	37970b2f9670137fd5d458856268b34bbb7f0778356c78095551037ddc305b83	G81_package
+    17	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/INDEPENDENT_METHOD_REGISTRATION.md	36b2d8b8c895285d4d1b181df0e657c9943c2db69d6be6a39374a24ba1d83c8b	G81_package
+    18	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/INDEPENDENT_TRANSCRIPT.txt	359c0bf079ceb6ae7ab4966c5f8bdc50f919e24f74d8acd5e26ca450f73d76c5	G81_package
+    19	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/INDEPENDENT_VERIFICATION.json	359c0bf079ceb6ae7ab4966c5f8bdc50f919e24f74d8acd5e26ca450f73d76c5	G81_package
+    20	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/LAY_REPORT.md	352ccb97ba4bc26a02e53b7e8383213b3cc311519cfb4850f6c89ab6f20ce772	G81_package
+    21	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/PACKAGE_VERIFICATION.json	2ed6d4745697266305cc9e0759d8b528fadcde124c4f4565b8112fd795fb95ca	G81_package
+    22	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/PATH_EVIDENCE.npz	d267093df1091ebb330ac11ae5e1ec95470bd84f12039d7c2b447e22b8c6ade4	G81_package
+    23	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/PREMISE_LEDGER.tsv	3e72a74142d442cc0ad666a398d546516bd47b7a2191ea5a2af21e7a0f975cdf	G81_package
+    24	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/PREREGISTRATION.md	a64cff7a5fa6e511b4318ff0a9a1964e11da7a244e3c00aee928125fda7fabb2	G81_package
+    25	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/REFINEMENT_ATLAS.tsv	63a967f683b306f05003fc24a06f0210ade3e7090929e5fbf11858731a4c039b	G81_package
+    26	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/REPOSITORY_GATES.json	893dda8a5cdd4455bc94dd9191a37847ec0e9ade6d3bace81768310eba0100a6	G81_package
+    27	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/REVIEW_DISPATCH.md	1caeac305bcace933168dc66f3bdd83da11b726c5d3ccdea94132dac2c1b1b26	G81_package
+    28	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/SEMANTIC_CONTRACT.json	76fb82103385a9226f4e259d34437042d43c5ff61b58146bd92003781eb56e87	G81_package
+    29	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/SOURCE_MANIFEST.tsv	5675f7612244f758fc8bc42a6fcf718c37a15125804602f3c82a686a576bc7ea	G81_package
+    30	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/TYPE_LEDGER.tsv	92cc1f53b43f7ebba812dcbe6fac67c1b11854b850c66eddf7dc67c03b8be9fb	G81_package
+    31	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/build_review_manifest.py	fe7496b72a28307651f42d6e2d16b952b529150ea4e0376f0a2a7154b033a055	G81_package
+    32	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/derive_nonradial_screen_covariance.py	7d49e917832c347a35a8782739be53ff161d5bd16124137ec198a9d9b39402e0	G81_package
+    33	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/run_catch_proofs.py	02b209d6e7dcafa33c19c5b881d9903f2966885203eed01aba82100394b71196	G81_package
+    34	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_exact_algebra.py	43f2785a7cdc85790a14e165ed627c9c5c0129b40a9f4c40cd42304a22c47ea1	G81_package
+    35	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_nonradial_neighboring_rays.py	79a3151197866ae37c18edd367f6391d168b72354c178011c273c537ce0fdcaa	G81_package
+    36	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_package.py	3fadd6b069d7f929ecc44f60db1fb1c1ca05f569612ac6f2a7d223aa55728d2a	G81_package
+    37	udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_repository_gates.py	d62ec46a2cd6a74d784b93c911ac1b9e5c8e176fd475274649744c7a92229de9	G81_package
+    38	udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md	1108c0cb80dafe03bcb038bc534096f3200f9926aceb8301f58e2e814c524a56	query_type_control
+
+codex
+VERIFIED_WITH_CAVEATS
+
+No blocking correctness finding appears inside the sealed intake. The production construction in [derive_nonradial_screen_covariance.py](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/derive_nonradial_screen_covariance.py:52), [derive_nonradial_screen_covariance.py](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/derive_nonradial_screen_covariance.py:90), [derive_nonradial_screen_covariance.py](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/derive_nonradial_screen_covariance.py:139), [derive_nonradial_screen_covariance.py](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/derive_nonradial_screen_covariance.py:209), the exact algebra in [verify_exact_algebra.py](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_exact_algebra.py:13), and the independent Christoffel replay in [verify_nonradial_neighboring_rays.py](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_nonradial_neighboring_rays.py:33), [verify_nonradial_neighboring_rays.py](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_nonradial_neighboring_rays.py:133), [verify_nonradial_neighboring_rays.py](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_nonradial_neighboring_rays.py:192) all agree on the bounded claim. I found no missing `Z`, missing transpose, sign error, source/projection basis swap, silent diagonalization, or fake nonradial control.
+
+Binding caveats:
+- I independently verified all `28/28` sealed G81 rows in [REVIEW_MANIFEST.tsv](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/REVIEW_MANIFEST.tsv:10) and verified that its `9` nonlocal rows are exactly the same `9` rows listed in [SOURCE_MANIFEST.tsv](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/SOURCE_MANIFEST.tsv:1). I did not reopen those upstream bytes, because your instruction forbade leaving the sealed intake. Their byte-level hash check is therefore attested by the included verifier logic in [verify_package.py](/tmp/udt_g81_review_dBEDYe/udt_cmb_G81_nonradial_screen_covariance_2026-08-12/verify_package.py:72), not independently replayed by me.
+- The independent method is bounded, not absolute. It locally rebuilds the metric and Christoffels and uses centered neighboring rays, but it still shares the supplied metric/profile, observer query, endpoint surfaces, control rotations, and `DOP853` integrator family with production.
+
+Corrections:
+- None required inside the seal.
+
+Strongest justified maximum conclusion:
+- `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`.
+- C1 is genuinely nonradial and non-diagonal: direction `(12,3,4)/13`, screen `(0,4,-3)/5` and `(-25,36,48)/65`, endpoint `(theta,psi)=(1.7493671390260097, 0.23079074045919012)`, forward off-diagonal norm `1.1801666864663825e-3`.
+- The matrix law is correctly placed as `D_reverse = Z transpose(D_forward)` and `D_reverse_AB = Z B transpose(D_forward) transpose(A)`.
+- This remains generic Jacobi/Wronskian covariance on the frozen metric/query pair, not a UDT selector and not a claim about profile selection, endpoint physics, `Xmax`, source, SNe/CMB observables, `cmb_temp`, action, matter, bootstrap, or future signalling.
+
+Smallest next calculation:
+- Re-run the same C1 neighboring-ray replay once with an integrator family not shared with production, and in that same out-of-seal audit reopen the 9 frozen source bytes at `f112a32e...` to complete the provenance check. Do not enlarge the control universe.
+
+Runnable checks:
+```bash
+python3 - <<'PY'
+import csv, hashlib, pathlib
+p = pathlib.Path('.')
+rows = list(csv.DictReader(open('REVIEW_MANIFEST.tsv', newline='', encoding='utf-8'), delimiter='\t'))
+local = [r for r in rows if r['path'].startswith('udt_cmb_G81_nonradial_screen_covariance_2026-08-12/')]
+assert all(hashlib.sha256((p / r['path'].split('/', 1)[1]).read_bytes()).hexdigest() == r['sha256'] for r in local)
+src = list(csv.DictReader(open('SOURCE_MANIFEST.tsv', newline='', encoding='utf-8'), delimiter='\t'))
+assert [r for r in rows if not r['path'].startswith('udt_cmb_G81_nonradial_screen_covariance_2026-08-12/')] == [{k: r[k] for k in ('path', 'sha256', 'role')} for r in src]
+print('local_manifest_rows=', len(local), 'external_source_rows=', len(src))
+PY
+```
+
+```python
+import sympy as sp
+n = sp.Matrix([12,3,4]) / 13
+s1 = sp.Matrix([0,4,-3]) / 5
+s2 = sp.Matrix([-25,36,48]) / 65
+A = sp.Matrix([[sp.Rational(3,5), -sp.Rational(4,5)], [sp.Rational(4,5), sp.Rational(3,5)]])
+B = sp.Matrix([[sp.Rational(5,13), -sp.Rational(12,13)], [sp.Rational(12,13), sp.Rational(5,13)]])
+z, d11, d12, d21, d22 = sp.symbols('z d11 d12 d21 d22', positive=True, real=True)
+D = sp.Matrix([[d11,d12],[d21,d22]])
+assert n.dot(n) == s1.dot(s1) == s2.dot(s2) == 1
+assert n.dot(s1) == n.dot(s2) == s1.dot(s2) == 0
+assert s1.cross(s2) == n
+assert A.T*A == B.T*B == sp.eye(2) and A.det() == B.det() == 1
+assert B*(z*D.T)*A.T == z*B*D.T*A.T
+```
+
+```bash
+python3 - <<'PY'
+import json, math, numpy as np
+prod = json.load(open('DERIVATION_RESULT.json'))
+ind = json.load(open('INDEPENDENT_VERIFICATION.json'))
+npz = np.load('PATH_EVIDENCE.npz')
+A = np.array([[3/5,-4/5],[4/5,3/5]], float)
+B = np.array([[5/13,-12/13],[12/13,5/13]], float)
+for row in prod['controls']:
+    cid = row['control_id']; Z = row['forward']['Z']
+    Df = np.array(row['forward']['D']); Dr = np.array(row['reverse_unrotated']['D']); Drab = np.array(row['reverse_rotated']['D'])
+    assert np.allclose(Dr, Z*Df.T)
+    assert np.allclose(Drab, Z*B@Df.T@A.T)
+    assert abs(math.sqrt(abs(np.linalg.det(Dr)))/math.sqrt(abs(np.linalg.det(Df))) - Z) < 1e-8
+    fs = npz[cid+'__forward_state']; rs = npz[cid+'__reverse_unrotated_state']; rr = npz[cid+'__reverse_rotated_state']
+    assert np.allclose(rs[:4,0], fs[:4,-1]) and np.allclose(rs[4:8,0], -fs[4:8,-1]/Z)
+    assert np.allclose(rr[8:16,0], (A @ fs[8:16,-1].reshape(2,4)).reshape(8))
+    print(cid, row['reverse_rotated']['D_relative'], row['forward']['offdiagonal_norm'])
+for row in ind['controls']:
+    print(row['control_id'], row['independent_rotated_covariance_relative'])
+PY
+```
+tokens used
+82,755
+
+Script done on 2026-08-12 00:34:29-04:00 [COMMAND_EXIT_CODE="0"]

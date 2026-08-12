@@ -1,0 +1,20 @@
+{
+  "schema": "udt-cmb-g81-external-review-v1",
+  "status": "VERIFIED_WITH_CAVEATS",
+  "scientific_corrections": 0,
+  "binding_caveats": [
+    "The reviewer independently verified all 28 G81 package rows and exact equality of the nine-row source list, but did not reopen the nine source bytes at the intake root; their byte hashes were independently replayed in the live repository.",
+    "The direct-Christoffel neighboring-ray method is bounded independence: it shares the supplied metric/profile, observer query, endpoint surfaces, rotations, and DOP853 integrator family with production."
+  ],
+  "maximum_conclusion": "DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS",
+  "sealed_manifest_sha256": "edb6c1eb56b7b54241c4bc326fd24a714aec379872eb675c83cd5e5d3ed618e8",
+  "raw_review_sha256": "df2b72466e515c64711d05ba70e50e1110c37944224543032d29f3640cbffe99",
+  "review_transcript_sha256": "aa8916a3fe6150b033bd9a38bf2db2d0613c9a6449325c03dbbf86533409b92a",
+  "sealed_intake_files": 38,
+  "sealed_payload_rows": 37,
+  "reviewer_verified_G81_rows": 28,
+  "source_rows": 9,
+  "source_bytes_reopened_by_reviewer": false,
+  "source_bytes_verified_in_live_repository": true,
+  "smallest_next_calculation": "Repeat the fixed C1 neighboring-ray replay with a non-DOP853 integrator family without enlarging the control universe."
+}

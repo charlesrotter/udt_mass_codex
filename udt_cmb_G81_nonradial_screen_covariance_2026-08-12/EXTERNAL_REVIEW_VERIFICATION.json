@@ -1,0 +1,10 @@
+{
+  "binding_caveats": 2,
+  "live_payload_hashes_verified": 37,
+  "schema": "udt-cmb-g81-external-adjudication-verification-v1",
+  "scientific_corrections": 0,
+  "sealed_intake_files": 38,
+  "sealed_payload_rows": 37,
+  "source_bytes_verified_live": 9,
+  "status": "PASS"
+}
