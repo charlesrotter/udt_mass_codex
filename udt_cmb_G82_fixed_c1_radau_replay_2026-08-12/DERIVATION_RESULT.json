@@ -1,0 +1,89 @@
+{
+  "authority_boundary": "one-control integrator-family replay only; no selector, physical profile, endpoint, scale, Xmax, SNe/CMB observable, cmb_temp, source, action, matter, bootstrap closure, signalling law, or future signal",
+  "changed_from_g81": "integrator family only: Radau instead of DOP853",
+  "coarse_fine_max_relative": 3.449865616964161e-08,
+  "control": {
+    "Z": 1.145643923738985,
+    "control_id": "C1_FULL_ANGULAR",
+    "endpoint_return_max_absolute": 3.1179280077925364e-13,
+    "forward_coarse_fine_relative": 6.532119324073103e-10,
+    "forward_fine_D": [
+      [
+        0.7696911933556703,
+        -0.0008345003007869667
+      ],
+      [
+        -0.0008345077341388452,
+        0.7720777798292184
+      ]
+    ],
+    "forward_production_relative": 2.1862210014908422e-10,
+    "frequency_product_error": 2.4424906541753444e-15,
+    "gates": {
+      "area": true,
+      "endpoint": true,
+      "frequency": true,
+      "null": true,
+      "production_maps": true,
+      "rotated_covariance": true,
+      "unrotated_reciprocity": true
+    },
+    "independent_area_ratio_minus_Z": 1.2229577572853145e-08,
+    "independent_rotated_covariance_relative": 1.1582146620151037e-08,
+    "independent_unrotated_reciprocity_relative": 1.139757402684705e-08,
+    "inverse_Z": 0.8728715609439526,
+    "max_endpoint_null_absolute": 6.183942247162122e-14,
+    "reverse_coarse_fine_relative": 3.408637635645739e-08,
+    "reverse_fine_D": [
+      [
+        0.881792027120547,
+        -0.0009560507898453419
+      ],
+      [
+        -0.0009560434255556083,
+        0.884526209975702
+      ]
+    ],
+    "reverse_production_relative": 1.1359296295936352e-08,
+    "rotated_coarse_fine_relative": 3.449865616964161e-08,
+    "rotated_endpoint_return_max_absolute": 2.068091520517762e-13,
+    "rotated_fine_D": [
+      [
+        0.8575027203070251,
+        -0.21808544054800322
+      ],
+      [
+        0.21670059440874156,
+        0.8544672598522459
+      ]
+    ],
+    "rotated_production_relative": 1.1499379540972214e-08,
+    "status": "PASS"
+  },
+  "extra_gates": {
+    "all_frozen_g81_gates": true,
+    "coarse_fine": true,
+    "dop853_matrix_agreement": true,
+    "radau_not_dop853": true
+  },
+  "gate": 0.0002,
+  "maximum_conclusion_if_pass": "G81_C1_SCREEN_COVARIANCE_SURVIVES_ONE_FIXED_NON_DOP853_RADAU_REPLAY",
+  "method": {
+    "atol": 5e-13,
+    "integrator": "Radau",
+    "max_step": 0.001953125,
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "rtol": 5e-11,
+    "scipy": "1.15.3"
+  },
+  "radau_vs_dop853_matrix_relative": {
+    "forward_fine_D": 8.12971690308621e-12,
+    "reverse_fine_D": 9.459627107202695e-12,
+    "rotated_fine_D": 9.176648809164132e-12
+  },
+  "schema": "udt-cmb-g82-fixed-c1-radau-replay-v1",
+  "scientific_maximum_unchanged": "DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS",
+  "shared_with_g81": "metric, Christoffels, query, endpoint, rotations, finite-difference and projection implementation",
+  "status": "PASS"
+}

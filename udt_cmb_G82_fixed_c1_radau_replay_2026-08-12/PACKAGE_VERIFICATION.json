@@ -1,0 +1,9 @@
+{
+  "catch_proofs": 15,
+  "controls": 1,
+  "radau_vs_dop853_max_relative": 9.459627107202695e-12,
+  "schema": "udt-cmb-g82-package-verification-v1",
+  "scientific_maximum_unchanged": true,
+  "source_rows": 6,
+  "status": "PASS"
+}

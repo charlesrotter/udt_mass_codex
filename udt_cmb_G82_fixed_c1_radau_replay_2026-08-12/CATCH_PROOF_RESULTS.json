@@ -1,0 +1,22 @@
+{
+  "catches": {
+    "absolute_independence_promotion": true,
+    "changed_atol": true,
+    "changed_forward_matrix": true,
+    "changed_max_step": true,
+    "changed_reverse_matrix": true,
+    "changed_rotated_matrix": true,
+    "changed_rtol": true,
+    "dop853_masquerade": true,
+    "failed_extra_gate": true,
+    "false_pass": true,
+    "loosened_gate": true,
+    "science_promotion": true,
+    "selector_promotion": true,
+    "source_hash_mutation": true,
+    "wrong_control": true
+  },
+  "count": 15,
+  "schema": "udt-cmb-g82-catch-proofs-v1",
+  "status": "PASS"
+}

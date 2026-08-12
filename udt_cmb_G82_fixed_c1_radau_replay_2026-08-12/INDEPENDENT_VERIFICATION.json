@@ -1,0 +1,10 @@
+{
+  "controls": 1,
+  "radau_vs_dop853_max_relative": 9.459627107202695e-12,
+  "recomputed_area_residual": 1.2229577572853145e-08,
+  "recomputed_rotated_residual": 1.1582146620151037e-08,
+  "recomputed_unrotated_residual": 1.139757402684705e-08,
+  "schema": "udt-cmb-g82-independent-verification-v1",
+  "source_rows": 6,
+  "status": "PASS"
+}
