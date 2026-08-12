@@ -7,8 +7,14 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction. The latest G82
-support gate is
+**CMB PEAK OPTIMIZATION**, currently at the internally verified G83 stationary endpoint-asymptote
+candidate atlas. Read
+`../udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md` first. The strict
+G75 domain has no infinite endpoint depth; a labelled AM continuation has the exact stationary
+divergence pattern but a finite receiver-dependent radial proper limit, so physical `X_max`
+remains open. Its 591 complete paths split 516 reached, 18 turning, and 57 affine-cap. External
+review is pending explicit authorization, and no physical profile/scale/source/CMB field is
+selected. The latest externally reviewed G82 support gate is
 `../udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; the current G81
 scientific lead is
 `../udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`.
@@ -18,8 +24,8 @@ returns `VERIFIED_WITH_CAVEATS`, with maximum conclusion
 bounded independence and the reviewer/live-source replay boundary must be retained. No physical
 profile, endpoint, scale, `X_max`, source, fit, or CMB field is selected. The same fixed-C1 Radau
 replay is externally `VERIFIED_WITH_CAVEATS`, agrees with DOP853 to
-`9.459627107202695e-12`, and closes only that preregistered one-control method check. Next is a new
-bounded physical endpoint/`X_max` or thermal-map preregistration. Its G80 parent is
+`9.459627107202695e-12`, and closes only that preregistered one-control method check. Its deferred
+endpoint question is the G83 bounded atlas above. Its G80 parent is
 `../udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
 its nonradial/rotated-screen gate. Its G79 parent is
 `../udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,

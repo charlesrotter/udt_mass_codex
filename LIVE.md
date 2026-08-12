@@ -6,9 +6,31 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G82 FIXED-C1 RADAU SUPPORT EXTERNALLY VERIFIED WITH CAVEATS) ============
+## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS INTERNALLY VERIFIED; EXTERNAL REVIEW PENDING) ============
 
-**LATEST SUPPORT GATE — G82 FIXED-C1 RADAU REPLAY, `VERIFIED_WITH_CAVEATS`; SCIENTIFIC LEAD
+**LATEST INTERNAL LEAD — G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS,
+`BOUNDED_STATIONARY_ENDPOINT_ASYMPTOTE_CANDIDATE_ATLAS`; EXTERNAL REVIEW PENDING.** Read
+`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
+`INDEPENDENT_VERIFICATION.json`. All 591 G75 controls have finite positive lapse on their declared
+`0<=x<=1` domain, so none contains infinite stationary endpoint depth there. Under a transparent
+`FREE_AND_EXPLORED` continuation—not inherited G75 authority—only AM,
+`A=1-x^2/4`, has a positive lapse zero. For a fixed stationary receiver,
+`phi_pair=(1/2)log(A_r/A_s)->+infinity` and the conditional terminal ratio
+`c_eff(source)/c_eff(receiver)=A_s/A_r->0` as `x_s->2^-`. The radial proper limit
+`ell/R=pi-2 asin(x_r/2)` is finite and receiver dependent, so neither `x=2` nor that one-sided
+length is yet the frame-shared physical `X_max`. With every AM angular/mixing profile active,
+the preregistered 591-path census is 516 reached/no sampled caustic, 18 turning, and 57 affine-cap;
+all 516 reached rows pass raw residual gates, and 18 stratified Radau replays match. This shows a
+common stationary lapse-asymptote candidate can coexist with profile-dependent optical/Jacobi
+accessibility. It does not select a physical profile, `R`, source surface, separation operator,
+`X_max` value, CMB field, action, matter, bootstrap closure, or time-live dynamics. The 40-row
+sealed review manifest is frozen (41 files including the manifest), but transmission requires
+fresh explicit authorization. **NEXT:** obtain that cold review; if upheld, test whether complete
+observer-pair geometry supplies the frame-shared re-centering/global-completion law. Do not fit the
+continuation, extend affine caps to manufacture reachability, or begin the deferred thermal map.
+
+**LATEST EXTERNALLY REVIEWED SUPPORT GATE — G82 FIXED-C1 RADAU REPLAY, `VERIFIED_WITH_CAVEATS`; SCIENTIFIC LEAD
 REMAINS G81 NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,
 `VERIFIED_WITH_CAVEATS`; maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`.** Read
@@ -32,9 +54,8 @@ Radau and DOP853 matrices differ by at most `9.459627107202695e-12`, all three c
 residuals remain near `1.1e-8`--`1.2e-8`, and external review finds no scientific correction.
 Preserve its caveats: the original 15 catches are not exhaustive; repository gates are live rather
 than sealed-review evidence; and the write-suppressed byte-identical replay is supportive, not a
-literal packaged CLI rerun. **NEXT:** the registered method caveat is closed. Return to the
-deferred physical endpoint/`X_max` curve or thermal-map question under a new bounded
-preregistration; do not add controls or solvers merely to accumulate confirmations.
+literal packaged CLI rerun. **HISTORICAL NEXT:** its deferred endpoint/`X_max` question is the G83
+bounded candidate atlas above; G82 still changes only the integrator-family support for G81.
 
 **PARENT LEAD — G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
 `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`.** Read

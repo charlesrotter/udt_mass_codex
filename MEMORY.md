@@ -4,12 +4,18 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-12, G82 fixed-C1 Radau support externally verified with caveats)
+## TOP — CURRENT POINTER (2026-08-12, G83 stationary endpoint-asymptote candidate atlas internally verified; external review pending)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**, with current substep **DIMENSIONAL OBSERVER-QUERY CONSTRUCTION**. The
-latest support is
+**CMB PEAK OPTIMIZATION**, with current substep **STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS**.
+Read `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md` first. The strict
+591-row G75 domain has no infinite stationary endpoint depth. A labelled AM continuation realizes
+the exact stationary divergence pattern at its lapse-zero candidate, while the complete path
+orchestra classifies 516 reached, 18 turning, and 57 affine-cap rows. The finite,
+receiver-dependent radial proper limit means physical `X_max` remains open. External review needs
+fresh transmission authorization; no profile, `R`, source surface, pair re-centering, global
+completion, or CMB field is selected. The latest externally reviewed support is
 `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; the scientific lead
 remains `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`: two fixed
 radial/nonradial controls verify the carried and independently rotated screen laws near `1e-14`,
@@ -19,8 +25,8 @@ bounded-independence, generic-Jacobi, and no-future-signal boundaries. No physic
 endpoint, scale, `X_max`, source, fit, CMB field, or spectrum follows. The same fixed-C1 Radau
 replay is externally `VERIFIED_WITH_CAVEATS`, agrees with DOP853 to
 `9.459627107202695e-12`, and closes only that method check. Its catch-completeness, sealed/live
-repository, and non-literal CLI-rerun caveats remain binding. Next is a separately preregistered
-physical endpoint/`X_max` or thermal-map question. Its G80 parent is
+repository, and non-literal CLI-rerun caveats remain binding. Its deferred endpoint question is
+now G83 above. Its G80 parent is
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
 its nonradial/rotated-screen gate. Its G79 parent is
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, which

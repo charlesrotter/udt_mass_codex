@@ -21,7 +21,22 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
-**LATEST SUPPORT = G82 FIXED-C1 RADAU REPLAY, `VERIFIED_WITH_CAVEATS`; SCIENTIFIC LEAD = G81
+**LATEST INTERNAL LEAD = G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS; EXTERNAL REVIEW
+PENDING.** Read
+`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
+`INDEPENDENT_VERIFICATION.json`. The declared G75 interval contains no infinite endpoint depth.
+A clearly labelled continuation of AM has an exact lapse zero at `x=2`, with stationary
+`phi_pair->+infinity` and conditional `c_eff(source)/c_eff(receiver)->0`; A0/AP have no such lapse
+zero. This is an asymptote candidate, not physical `X_max`: its radial proper-limit is finite and
+receiver dependent, while `R`, source ownership, pair re-centering, and global completion remain
+open. The complete AM orchestra returns 516 reached, 18 turning, and 57 affine-cap paths across
+591 registered cases; all reached rows pass residual gates and 18 stratified Radau replays match.
+Read no more into the 57 cap rows, and do not call `x=2` a universe edge. The 41-file sealed review
+intake is prepared but needs explicit transmission authorization. NEXT: cold review, then the
+frame-shared observer-pair re-centering/global-completion question if G83 survives.
+
+**LATEST EXTERNALLY REVIEWED SUPPORT = G82 FIXED-C1 RADAU REPLAY, `VERIFIED_WITH_CAVEATS`; SCIENTIFIC LEAD = G81
 NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,
 `VERIFIED_WITH_CAVEATS`; maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`.** Read
@@ -37,9 +52,8 @@ Jacobi/Wronskian covariance, not physical selection or a signal. The same fixed-
 replay is externally `VERIFIED_WITH_CAVEATS` at the G82 adjudication above, with worst DOP853
 matrix difference `9.459627107202695e-12` and no scientific correction. Its catches are useful but
 not exhaustive, repository gates remain live-repository evidence, and its write-suppressed exact
-JSON reproduction is not a literal packaged CLI rerun. G81 remains the scientific ceiling. NEXT:
-preregister the deferred physical endpoint/`X_max` curve or thermal-map question; do not add more
-method controls merely to collect confirmations.
+JSON reproduction is not a literal packaged CLI rerun. G81 remains the externally reviewed
+screen-covariance ceiling. Its deferred endpoint/`X_max` question is the bounded G83 result above.
 
 **PARENT LEAD = G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
 `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`.** Read

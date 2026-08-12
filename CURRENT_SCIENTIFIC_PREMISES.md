@@ -9,7 +9,19 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G82 support and G81 scientific lead
+## Current G83 internal lead — external review pending
+
+`udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/AUDIT_REPORT.md` controls the bounded
+stationary endpoint-asymptote candidate atlas. The exact registered G75 interval contains no
+infinite stationary depth. A declared `FREE_AND_EXPLORED` AM continuation has the required
+stationary depth divergence and conditional terminal `c_eff` suppression at its lapse zero, while
+its finite receiver-dependent radial proper limit prevents promotion to frame-shared physical
+`X_max`. The full 591-path AM orchestra returns 516 reached, 18 turning, and 57 affine-cap rows;
+all reached rows pass residual gates and 18 stratified Radau replays match. This selects no
+physical profile, scale, endpoint/source, pair re-centering, global completion, or CMB field. The
+sealed external review awaits explicit transmission authorization.
+
+## Current G82 external support and G81 scientific lead
 
 `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md` controls the latest
 one-control integrator-family support gate. It is externally `VERIFIED_WITH_CAVEATS`: Radau agrees
@@ -27,7 +39,8 @@ not a UDT selector, physical profile, endpoint, scale, `X_max`, observable, sour
 bootstrap closure, or signal. G82 closes only its registered method check. Its fifteen catches are
 not exhaustive, repository gates remain live-repository evidence, and its write-suppressed exact
 JSON reproduction is not a literal packaged CLI rerun. G81 remains the controlling scientific
-ceiling. Next is a separately preregistered physical endpoint/`X_max` or thermal-map question.
+ceiling. Its separately preregistered endpoint question is now the bounded G83 internal result
+above.
 
 ## G80 parent lead
 
