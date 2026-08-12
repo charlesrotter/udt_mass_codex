@@ -1,0 +1,22 @@
+{
+  "base_commit": "b8875ccffaaa422e3447c58895017e475202a804",
+  "condition_count": 14,
+  "family_count": 3,
+  "matrix_row_count": 42,
+  "owned_exclusion_count": 0,
+  "owned_nonidentity_selector_count": 0,
+  "owner_class_counts": {
+    "CONDITIONAL_CANDIDATE": 1,
+    "IDENTITY_ONLY": 1,
+    "KINEMATIC_ADMISSIBILITY": 3,
+    "NECESSARY_NOT_SUFFICIENT": 4,
+    "OPEN_UNOWNED": 3,
+    "QUERY_CONDITIONAL": 2
+  },
+  "physical_promotions": 0,
+  "preregistration_commit": "2778b16e",
+  "primary_landing": "NO_EXISTING_OWNED_CONDITION_DISTINGUISHES_THE_THREE_G85_REGULAR_FAMILIES",
+  "property_distinguishing_condition_count": 2,
+  "smallest_missing_selector": "an_owned_native_history_or_global_relation rule deciding whether this candidate seam realizes the physical observer-pair asymptote and which complete-metric channels are permitted to change on approach",
+  "source_count": 21
+}

@@ -1,0 +1,93 @@
+{
+  "all_caught": true,
+  "cases": [
+    {
+      "caught": true,
+      "errors": [
+        "source_count_or_uniqueness",
+        "owner_source_outside_manifest"
+      ],
+      "name": "missing_source"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "matrix_coverage"
+      ],
+      "name": "duplicate_family_cell"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "owned_selector_present"
+      ],
+      "name": "promote_owner_to_selector"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "owned_exclusion_present"
+      ],
+      "name": "set_owned_exclusion"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "source_hash:udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md"
+      ],
+      "name": "corrupt_Xmax_source_hash"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "conditional_selector_promoted"
+      ],
+      "name": "promote_conditional_selector"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "current_owned_result_changed"
+      ],
+      "name": "change_current_owned_result"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "result_selector_count"
+      ],
+      "name": "claim_selector_in_result"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "result_exclusion_count"
+      ],
+      "name": "claim_exclusion_in_result"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "physical_promotion"
+      ],
+      "name": "claim_physical_promotion"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "landing"
+      ],
+      "name": "wrong_landing"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "owner_source_outside_manifest"
+      ],
+      "name": "generated_G86_source"
+    }
+  ],
+  "caught": 12,
+  "evidence_scope": "regression_mutations_not_standalone_semantic_proof",
+  "total": 12
+}

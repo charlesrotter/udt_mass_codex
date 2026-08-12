@@ -1,0 +1,19 @@
+{
+  "all_passed": true,
+  "checks": {
+    "condition_rows": true,
+    "conditional_rows": true,
+    "hostile_catches": true,
+    "independent_verifier": true,
+    "landing": true,
+    "matrix_rows": true,
+    "no_promotions": true,
+    "repository_gates": true,
+    "required_files": true,
+    "saved_independent": true,
+    "source_rows": true
+  },
+  "passed": 11,
+  "schema": "udt-cmb-g86-package-verification-v1",
+  "total": 11
+}

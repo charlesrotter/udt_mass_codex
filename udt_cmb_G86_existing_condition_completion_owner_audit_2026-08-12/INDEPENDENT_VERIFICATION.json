@@ -1,0 +1,11 @@
+{
+  "condition_count": 14,
+  "errors": [],
+  "family_count": 3,
+  "independence_caveat": "separate implementation without production imports; semantic guards still test the frozen source record and are not a fresh external semantic adjudication",
+  "matrix_row_count": 42,
+  "method": "independent_stdlib_manifest_census_seam_algebra_and_source_guard_reconstruction",
+  "regular_G85_rows_reconstructed": 588,
+  "source_count": 21,
+  "verdict": "VERIFIED_WITH_CAVEATS"
+}
