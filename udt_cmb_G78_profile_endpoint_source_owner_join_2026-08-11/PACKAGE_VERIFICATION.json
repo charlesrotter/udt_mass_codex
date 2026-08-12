@@ -1,0 +1,18 @@
+{
+  "catch_proofs": 10,
+  "current_paths": 1114,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "owned_native_routes": 0,
+  "owner_routes": 7,
+  "premise_guards": 70,
+  "preregistration_commit": "bd500a09",
+  "profile_rows": 591,
+  "protected_contents_read": false,
+  "protected_untracked_paths": 7,
+  "pytest": "98 passed, 1 xfailed",
+  "schema": "udt-cmb-g78-package-verification-v1",
+  "source_rows": 20,
+  "status": "PASS",
+  "unexpected_dirty_paths": []
+}

@@ -1,0 +1,18 @@
+{
+  "external_landing": "VERIFIED_WITH_CAVEATS",
+  "maximum_conclusion": "VERIFIED_WITH_CAVEATS__NO_PHYSICAL_PROFILE_ENDPOINT_SCALE_OR_SOURCE_OWNER_IN_EXACT_20_SOURCE_G78_UNIVERSE",
+  "reviewed_claim_survives": true,
+  "reviewed_source_rows": 20,
+  "reviewed_profile_rows": 591,
+  "reviewed_route_rows": 7,
+  "owned_native_routes": 0,
+  "internal_independent_semantic_ownership_grade": "REGRESSION_ONLY_NOT_INDEPENDENT_SEMANTIC_DERIVATION",
+  "external_semantic_ownership_grade": "NO_CONTRADICTORY_OWNER_FOUND_IN_BOUNDED_SCOPE",
+  "package_verifier_grade": "REPOSITORY_REGRESSION_NOT_SEALED_INTAKE_EVIDENCE",
+  "review_manifest_sha256": "bd86fbc470c9115f44c35e35f1d42b821e7fc885be7eb14752579b3192c3a1e4",
+  "external_review_sha256": "1a4be37909944fc86d70901b1891612ec6553bd8c4311ef35e3cc3d1403ff0b3",
+  "external_transcript_sha256": "149f598b7dd564e5c12a37b595a1f1f6c0efefeb6bea0712b7bdbf32eeb5920c",
+  "correction_preregistration_commit": "2a78b8f6bb1e5ab8619dffd46ba180b92ddc13aa",
+  "smallest_next_calculation": "derive_one_same_geometry_dimensional_SNe_query_on_one_fixed_G75_G77_realization_returning_phi_pair_and_dA_or_dL_before_P1_comparison_or_fit",
+  "schema": "udt-cmb-g78-external-review-result-v1"
+}

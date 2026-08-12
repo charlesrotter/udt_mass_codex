@@ -1,0 +1,14 @@
+item	status	ownership_and_scope
+c_E	OBSERVED_FOUNDATIONAL_ANCHOR	Physical clock/ruler calibration retained; its cancellation from a dimensionless angular relation does not make UDT scale-free.
+R	FREE_AND_UNSELECTED	Positive constant overall scale in the G75 stationary axial control metric; no physical value selected.
+G75_profile_family	CHOSE_BOUNDED_CONTROL	All 49 primitive quadratic rays, four amplitudes, three lapse controls, and three zero controls retained.
+observer_position	PINNED_BY_HISTORICAL_CONTROL	Dimensionless position (1/4,0,0); not a preferred cosmic observer.
+comparison_sphere	PINNED_BY_HISTORICAL_CONTROL	First outward crossing of x=1; not last scattering, X_max, or a material boundary.
+stationarity_and_axiality	CHOSE_BOUNDED_CONTROL	The generic ten-function and time-live complete metric remain outside this tile.
+G77_mesh_and_tolerances	CHOSE_NUMERIC	Soundness and finite-mesh characterization only; no physics selected by runtime or threshold.
+SNe_P1	OBSERVED_CONDITIONAL_COMPATIBILITY_ANCHOR	A low-z r(phi_pair) relation; no owned map into G75 A(x), q(x), or endpoint.
+X_max	WORKING_FOUNDATIONAL_FRAME	Observer-pair positional-dilation asymptote; value and realization remain open.
+source_state	FREE_AND_EXPLORED	Arbitrary positive-definite local covariance in the exact congruence test; no source law posited.
+bootstrap_action_matter	OPEN_INACTIVE	Forbidden as selectors in G78.
+polarization_and_CMB_population	OPEN_INACTIVE	No TT/TE/EE/BB or detector/source projection used.
+

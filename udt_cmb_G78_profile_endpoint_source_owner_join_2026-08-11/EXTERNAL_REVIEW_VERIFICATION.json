@@ -1,0 +1,28 @@
+{
+  "catch_count": 7,
+  "catch_proofs": {
+    "internal_semantic_independence_promotion": true,
+    "missing_route": true,
+    "owned_route_promotion": true,
+    "sealed_package_gate_promotion": true,
+    "source_scope_promotion": true,
+    "wrong_external_review_hash": true,
+    "wrong_review_manifest_hash": true
+  },
+  "external_landing": "VERIFIED_WITH_CAVEATS",
+  "owned_native_routes": 0,
+  "profile_rows": 591,
+  "reviewed_payload_bytes_unchanged": true,
+  "reviewed_payload_files": 38,
+  "route_rows": 7,
+  "route_status_counts": {
+    "COMPATIBILITY_ANCHOR_ONLY": 1,
+    "CONDITIONAL_IDENTIFIABILITY_ONLY": 1,
+    "NECESSARY_REQUIREMENT_ONLY": 1,
+    "OPEN_NO_OWNER": 4
+  },
+  "schema": "udt-cmb-g78-external-review-verification-v1",
+  "scope_ledger_rows": 8,
+  "source_rows": 20,
+  "status": "PASS"
+}

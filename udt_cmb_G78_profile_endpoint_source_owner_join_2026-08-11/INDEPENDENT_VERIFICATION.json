@@ -1,0 +1,13 @@
+{
+  "owned_native_routes": 0,
+  "profile_rows": 591,
+  "replay_rows": 591,
+  "route_rows": 7,
+  "scale_factorization_reproduced": true,
+  "schema": "udt-cmb-g78-independent-verification-v1",
+  "source_congruence_controls": 256,
+  "source_congruence_maximum_relative_residual": 2.1881601280209868e-14,
+  "source_congruence_minimum_source_eigenvalue": 0.012977997910275318,
+  "source_rows": 20,
+  "status": "PASS"
+}

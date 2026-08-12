@@ -1,0 +1,47 @@
+{
+  "family": {
+    "direct_classes": {
+      "REGISTERED_DIRECT_AGREEMENT": 1,
+      "STRONG_DIRECT_AGREEMENT": 590
+    },
+    "nonzero_profiles": 588,
+    "profiles": 591,
+    "sampled_degree_one": 591,
+    "sampled_missing_or_orientation_defects": 0,
+    "selector_rows_from_regular_topology": 0,
+    "zero_controls": 3
+  },
+  "landing": "NO_PHYSICAL_PROFILE_ENDPOINT_SCALE_OR_SOURCE_OWNER_IN_FROZEN_G78_UNIVERSE",
+  "maximum_scope": "exact_twenty_source_ownership_audit_plus_frozen_591_profile_finite_mesh_census",
+  "next_gate": "derive_or_supply_one_complete_physical_query_global_completion_or_native_source_state_map_before_any_fit",
+  "owned_native_routes": 0,
+  "route_status_counts": {
+    "COMPATIBILITY_ANCHOR_ONLY": 1,
+    "CONDITIONAL_IDENTIFIABILITY_ONLY": 1,
+    "NECESSARY_REQUIREMENT_ONLY": 1,
+    "OPEN_NO_OWNER": 4
+  },
+  "scale_factorization": {
+    "coefficient_checks": {
+      "psi_psi_unit_x2": true,
+      "tau_psi": true,
+      "tau_tau": true,
+      "theta_theta": true,
+      "x_x": true
+    },
+    "factorization": "ds^2=R^2*dSigma^2",
+    "interpretation": "dimensionless_null_sky_relation_independent_of_constant_R_and_unit_calibration_cE",
+    "non_implication": "does_not_make_UDT_scale_free_or_select_R_endpoint_or_Xmax",
+    "substitution": "tau=c_E*t/R"
+  },
+  "schema": "udt-cmb-g78-profile-endpoint-source-owner-join-v1",
+  "source_congruence": {
+    "deterministic_controls": 16,
+    "interpretation": "invertible_geometry_transports_arbitrary_positive_definite_source_data_but_does_not_derive_it",
+    "maximum_relative_residual": 2.697868955923053e-16,
+    "minimum_source_eigenvalue": 1.1066515825220558,
+    "symbolic_residual_zero": true
+  },
+  "source_rows": 20,
+  "status": "PASS"
+}
