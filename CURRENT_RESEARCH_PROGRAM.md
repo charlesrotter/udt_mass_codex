@@ -7,6 +7,17 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
+**CURRENT VERIFIED BOUNDED RESULT — CURVATURE-PRINCIPAL SPLIT OWNERSHIP IS STRATIFIED:** read
+`udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md` and `ADVERSARIAL_REVIEW.md`. Pointwise Weyl/Ricci curvature derives the
+registered reciprocal/angular split on a proper subset, not universally. The exact founding
+spherical family is Weyl-owned off its type-O locus, and Ricci still owns part of that locus.
+Across 1,221 distinct tested complete-metric jets, all 42 G63 controls are type I/misaligned; the
+G85 results contain owned, aligned/nonunique, and misaligned strata. This closes the proposed
+universal Petrov shortcut negatively while banking a real metric-native ownership mechanism.
+It does not select physical history/query/realization data. Next candidate: preregister a bounded
+joint curvature-derivative concomitant audit focused on the misaligned strata, with no-owner allowed.
+
 **CURRENT CONCEPTUAL PROGRAM — ZOOM-OUT CONSULTATION COMPLETE; AM SEAM DRILL PAUSED:**
 read `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md`,
 `CHAIR_ADJUDICATION.md`, and `PROGRAM_OPTIONS.tsv`. Independent whiteboard roles and mutual

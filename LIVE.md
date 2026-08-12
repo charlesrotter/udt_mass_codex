@@ -6,6 +6,30 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
+## ============ CURRENT STATE (2026-08-12 — CURVATURE-PRINCIPAL SPLIT AUDIT VERIFIED; PETROV SHORTCUT NARROWED) ============
+
+**LATEST VERIFIED BOUNDED RESULT — CURVATURE OWNS THE REGISTERED RECIPROCAL/ANGULAR SPLIT ONLY
+ON A PROPER SUBSET OF TESTED STRATA.** Read
+`udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and
+`INDEPENDENT_VERIFICATION.json`. The exact founding spherical family is Petrov D and its
+temporal-radial/angular split is uniquely Weyl-principal whenever
+`r^2 f''-2r f'+2f-2 != 0`. On its type-O family `f=1+a r+b r^2`, Ricci still owns the split when
+`a != 0`; therefore Petrov O does **not** imply a preferred flag/aether postulate. Across 1,806
+provenance rows representing 1,221 distinct complete-metric jets, Petrov counts are `591 D` and
+`1215 I`; 588 rows have Weyl/Ricci agreement, 21 more are Ricci-owned with finite Weyl alignment,
+3 are aligned but not uniquely owned, and 1,194 are robustly misaligned. All 42 G63 controls,
+including R17 and time-live rows, are type I/misaligned. The zero-shift Kruskal A05 subcase remains
+`INSUFFICIENT_OWNED_JET`. Independent finite differences reproduce 1,806/1,806 ledger rows;
+`14/14` hostile catches and repository gates pass. Grade: `VERIFIED-WITH-CAVEATS`.
+
+This is a metric-native structural advance and a falsification of the **universal** Petrov shortcut,
+not a physical history/query/realization selector. Do not install a preferred flag, return to AM
+seam drilling, or infer action/source/`X_max`/CMB physics. **NEXT BOUNDED QUESTION, NOT YET
+PREREGISTERED:** determine whether joint curvature-derivative concomitants recover the registered
+split on the robustly misaligned strata, retaining a no-owner result. The foundations-to-CMB
+consultation and G86 blocks below remain parent context, not the current frontier.
+
 ## ============ CURRENT STATE (2026-08-12 — FOUNDATIONS-TO-CMB ZOOM-OUT CONSULTATION COMPLETE; FURTHER AM SEAM EXCAVATION PAUSED) ============
 
 **CURRENT CONCEPTUAL ORIENTATION — SMOKING-JACKET WHITEBOARD AND COLD CONSULTATION PACKET

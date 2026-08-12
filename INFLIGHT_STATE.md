@@ -1,5 +1,14 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
+> **2026-08-12 CURRENT VERIFIED RESULT: CURVATURE-PRINCIPAL SPLIT OWNERSHIP IS PARTIAL.** Read
+> LIVE first, then `udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`,
+> `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. Exact spherical
+> nondegenerate strata are Weyl-owned; part of the type-O family is Ricci-owned. In the complete
+> bounded census, 1,806 ledger rows represent 1,221 distinct jets; all 42 G63 controls are type
+> I/misaligned. Independent replay and adversarial repair pass. No preferred flag or physical
+> `(g,Q,F)` selection follows. Next candidate is a preregistered curvature-derivative owner audit,
+> not AM seam work.
+
 > **2026-08-12 CURRENT CONCEPTUAL RESTART ANCHOR: FOUNDATIONS-TO-CMB ZOOM-OUT CONSULTATION
 > COMPLETE.** Read LIVE first, then
 > `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, `path.md`,

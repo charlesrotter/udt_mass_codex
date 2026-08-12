@@ -5,6 +5,14 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
+The latest verified bounded result is the curvature-principal split ownership audit. Read
+`udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md` and `ADVERSARIAL_REVIEW.md`. Weyl/Ricci curvature recovers the registered
+reciprocal/angular split on some metric strata but not universally; Petrov O alone does not require
+a preferred flag. The census covers 1,221 distinct local metric jets, with all 42 G63 controls
+type I/misaligned. No physical history/query/realization selector follows. The next candidate is a
+bounded preregistered curvature-derivative ownership audit, not further AM seam excavation.
+
 The current conceptual orientation is the completed foundations-to-CMB smoking-jacket consultation.
 Read `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md` and
 `CHAIR_ADJUDICATION.md`. Its internally cross-reviewed diagnosis is that the broader type-correction

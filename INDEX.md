@@ -9,6 +9,14 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+5p. CURRENT VERIFIED BOUNDED RESULT: read
+   `udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`, then
+   `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. The Petrov/curvature
+   proposal is real but partial: founding spherical nondegenerate strata are Weyl-owned, some
+   type-O strata remain Ricci-owned, while all 42 G63 controls and most G85 nonconstant-profile
+   controls are split-misaligned. The 1,806 ledger rows represent 1,221 distinct jets. No preferred
+   flag or physical `(g,Q,F)` subset follows. Next candidate is a preregistered curvature-derivative
+   owner audit on the misaligned strata, not another AM seam solve.
 5z. CURRENT CONCEPTUAL ORIENTATION: read
    `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md` and
    `CHAIR_ADJUDICATION.md`. The foundations-to-CMB whiteboard finds cumulative type-correction

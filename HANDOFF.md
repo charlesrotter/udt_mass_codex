@@ -21,6 +21,19 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
+**CURRENT VERIFIED BOUNDED RESULT = CURVATURE-PRINCIPAL SPLIT OWNERSHIP AUDIT.** Read
+`udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and
+`INDEPENDENT_VERIFICATION.json`. Curvature recovers the registered reciprocal/angular split only
+on a proper subset. The founding spherical family is Weyl-owned when nondegenerate and can remain
+Ricci-owned on part of its type-O family, so Petrov O is not an aether verdict. The complete-metric
+census is 1,806 provenance rows / 1,221 distinct jets: `591 D`, `1215 I`; owner classes are
+588 Weyl+Ricci, 21 Ricci with Weyl alignment, 3 aligned/nonunique, and 1,194 misaligned. All 42
+G63 points are I/misaligned; the strong A05 count is only three unique jets repeated for provenance.
+The zero-shift A05 subcase remains missing-jet. Independent replay, `14/14` catches, and repository
+gates pass. No history, query, realization, flag, action, source, `X_max`, or CMB branch is selected.
+NEXT, not preregistered: a bounded joint curvature-derivative ownership audit on misaligned strata.
+
 **CURRENT CONCEPTUAL ORIENTATION = FOUNDATIONS-TO-CMB ZOOM-OUT CONSULTATION COMPLETE.** Read
 `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md`,
 `CHAIR_ADJUDICATION.md`, and `WHITEBOARD_DEBATE.md`. The independent whiteboard plus mutual
