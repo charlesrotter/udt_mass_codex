@@ -1,0 +1,121 @@
+Script started on 2026-08-11 21:53:45-04:00 [<not executed on terminal>]
+G75_AM_S13_E05 PASS chord=1.967e-07 null=8.760e-11
+G75_AP_S09_E100 PASS chord=5.704e-07 null=4.472e-11
+G75_AM_S16_E100 PASS chord=1.167e-06 null=3.968e-11
+G75_AP_S12_E05 PASS chord=5.799e-09 null=5.475e-11
+G75_AP_S04_E05 PASS chord=6.679e-08 null=5.106e-11
+G75_AM_S02_E100 PASS chord=9.965e-07 null=1.537e-10
+G75_AP_S03_E100 PASS chord=2.794e-06 null=1.030e-10
+G75_AM_S01_E05 PASS chord=1.981e-07 null=5.415e-11
+G75_A0_S03_E100 PASS chord=3.552e-06 null=4.016e-11
+G75_AM_S03_E100 PASS chord=4.705e-06 null=6.895e-11
+G75_AM_S24_E100 PASS chord=3.004e-06 null=8.344e-11
+{
+  "checks": {
+    "all_eight_strata_present": true,
+    "all_four_G76_unresolved_present": true,
+    "all_panel_rows_pass": true,
+    "finite_difference_metric_derivative": true,
+    "scipy_DOP853_not_RK4": true
+  },
+  "finite_difference_step": 2e-06,
+  "maximum_endpoint_chord": 4.7046525883627355e-06,
+  "maximum_null_backward_error": 1.5370622830079839e-10,
+  "method": "SciPy_DOP853_full_Christoffel_central_finite_difference_metric",
+  "panel": [
+    {
+      "maximum_endpoint_chord": 1.9672320353124067e-07,
+      "maximum_null_backward_error": 8.760436820409723e-11,
+      "profile_id": "G75_AM_S13_E05",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C0_E0_O0_T0"
+    },
+    {
+      "maximum_endpoint_chord": 5.703659083976211e-07,
+      "maximum_null_backward_error": 4.4723474923458184e-11,
+      "profile_id": "G75_AP_S09_E100",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C0_E0_O1_T0"
+    },
+    {
+      "maximum_endpoint_chord": 1.1674543571721958e-06,
+      "maximum_null_backward_error": 3.9677983121322313e-11,
+      "profile_id": "G75_AM_S16_E100",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C0_E1_O0_T0"
+    },
+    {
+      "maximum_endpoint_chord": 5.799052982534656e-09,
+      "maximum_null_backward_error": 5.4753368505799926e-11,
+      "profile_id": "G75_AP_S12_E05",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C0_E2_O0_T0"
+    },
+    {
+      "maximum_endpoint_chord": 6.67909594506008e-08,
+      "maximum_null_backward_error": 5.1059684258447646e-11,
+      "profile_id": "G75_AP_S04_E05",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C1_E0_O0_T0"
+    },
+    {
+      "maximum_endpoint_chord": 9.964765969399115e-07,
+      "maximum_null_backward_error": 1.5370622830079839e-10,
+      "profile_id": "G75_AM_S02_E100",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C1_E0_O1_T0"
+    },
+    {
+      "maximum_endpoint_chord": 2.793870189601253e-06,
+      "maximum_null_backward_error": 1.029998725199377e-10,
+      "profile_id": "G75_AP_S03_E100",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C1_E1_O0_T0"
+    },
+    {
+      "maximum_endpoint_chord": 1.9809192688085978e-07,
+      "maximum_null_backward_error": 5.4150905981487085e-11,
+      "profile_id": "G75_AM_S01_E05",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C2_E0_O0_T0"
+    },
+    {
+      "maximum_endpoint_chord": 3.5516000687734498e-06,
+      "maximum_null_backward_error": 4.016498245107414e-11,
+      "profile_id": "G75_A0_S03_E100",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C1_E1_O0_T0"
+    },
+    {
+      "maximum_endpoint_chord": 4.7046525883627355e-06,
+      "maximum_null_backward_error": 6.894884663211087e-11,
+      "profile_id": "G75_AM_S03_E100",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C1_E1_O0_T0"
+    },
+    {
+      "maximum_endpoint_chord": 3.004463009772827e-06,
+      "maximum_null_backward_error": 8.344014368333319e-11,
+      "profile_id": "G75_AM_S24_E100",
+      "ray_count": 5,
+      "status": "PASS",
+      "stratum": "C0_E1_O0_T0"
+    }
+  ],
+  "panel_count": 11,
+  "rays_per_profile": 5,
+  "schema": "udt-cmb-g77-independent-scipy-fd-panel-v1",
+  "status": "PASS"
+}
+
+Script done on 2026-08-11 21:53:47-04:00 [COMMAND_EXIT_CODE="0"]

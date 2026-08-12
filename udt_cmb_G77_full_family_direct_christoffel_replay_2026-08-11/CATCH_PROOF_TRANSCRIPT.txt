@@ -1,0 +1,18 @@
+Script started on 2026-08-11 21:55:25-04:00 [<not executed on terminal>]
+{
+  "catch_count": 8,
+  "catches": {
+    "G76_history_rewrite_rejected": true,
+    "duplicate_profile_rejected": true,
+    "incomplete_checkpoint_rejected": true,
+    "missing_profile_rejected": true,
+    "missing_refinement_row_rejected": true,
+    "refinement_threshold_violation_rejected": true,
+    "stale_class_after_endpoint_mutation_rejected": true,
+    "strict_tier_promotion_rejected": true
+  },
+  "schema": "udt-cmb-g77-catch-proofs-v1",
+  "status": "PASS"
+}
+
+Script done on 2026-08-11 21:55:25-04:00 [COMMAND_EXIT_CODE="0"]

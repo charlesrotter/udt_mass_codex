@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "complete_checkpoint": true,
+    "contracted_full_gamma": true,
+    "four_row_refinement": true,
+    "history_preserved": true,
+    "mesh_identity": true,
+    "no_physical_selection": true,
+    "profile_census": true,
+    "source_hashes": true
+  },
+  "class_counts": {
+    "REGISTERED_DIRECT_AGREEMENT": 1,
+    "STRONG_DIRECT_AGREEMENT": 590
+  },
+  "elapsed_seconds_this_invocation": 2525.6971683502197,
+  "equation_control": {
+    "control_states": 24,
+    "maximum_acceleration_difference": 3.552713678800501e-15,
+    "pass": true,
+    "tolerance": 2e-12
+  },
+  "face_count_per_profile": 5120,
+  "maximum_degree_difference": 3.3306690738754696e-16,
+  "maximum_direct_G76_chord": 2.0269360962840678e-05,
+  "maximum_null_backward_error": 2.85631585050794e-09,
+  "near_area_1e2_total": 0,
+  "negative_faces_total": 0,
+  "negative_projected_face_maps_total": 0,
+  "profile_count": 591,
+  "ray_count_per_profile": 2562,
+  "refinement_counts": {
+    "DIRECT_TIME_REFINEMENT_RESOLVED": 4
+  },
+  "runtime": {
+    "numpy": "2.2.6",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "scipy": "1.15.3"
+  },
+  "schema": "udt-cmb-g77-direct-replay-v1",
+  "status": "PASS"
+}
