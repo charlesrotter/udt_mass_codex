@@ -4,17 +4,19 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-12, G84 AM global-completion/pair-diameter atlas internally verified with caveats; external review pending)
+## TOP — CURRENT POINTER (2026-08-12, G84 AM global-completion/pair-diameter atlas externally verified with caveats)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**, with current substep **AM GLOBAL COMPLETION/PAIR-DIAMETER ATLAS**.
-Read `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md`,
+Read `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 then `AUDIT_REPORT.md`. The minimal doubled spatial candidate is round `S^3` radius `2R`; the
 zero-mixing branch has a conditional shared `piR` static-patch asymptote for the central-geodesic
 observer isometry orbit. This is not physical `X_max`; topology, `R`, profile, pair-separation
 ownership, arbitrary observers, and mixed time-live completion remain open. The exact AM census is
-one zero-mixing and `196` nonzero controls. Sealed external review is next. Its parent is G83: read
+one zero-mixing and `196` nonzero controls. The sealed reviewer independently reproduced the
+result with zero new scientific corrections. Next is the bounded mixed time-live completion atlas.
+Its parent is G83: read
 `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 then `AUDIT_REPORT.md`. The strict
 591-row G75 domain has no infinite stationary endpoint depth. A labelled AM continuation realizes

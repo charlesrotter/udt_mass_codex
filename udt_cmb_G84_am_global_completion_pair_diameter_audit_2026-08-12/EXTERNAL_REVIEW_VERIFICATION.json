@@ -1,0 +1,17 @@
+{
+  "atlas_mismatches": 0,
+  "binding_caveats": 5,
+  "calculation_commit": "5950aef38c0ff194b8e231b3bb665efbd13c2593",
+  "chronology_verified": true,
+  "nonzero_q4_rows": 196,
+  "payload_hashes_verified_live": 37,
+  "physical_X_max_status": "OPEN",
+  "preregistration_commit": "3940de4d729352c6d1cb6b7d697e470d38de86b9",
+  "profile_rows": 197,
+  "schema": "udt-cmb-g84-external-adjudication-verification-v1",
+  "scientific_corrections": 0,
+  "sealed_intake_files": 38,
+  "sealed_payload_rows": 37,
+  "status": "PASS",
+  "zero_q4_rows": 1
+}

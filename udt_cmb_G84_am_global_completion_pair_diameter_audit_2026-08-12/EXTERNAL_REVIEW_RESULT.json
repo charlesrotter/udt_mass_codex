@@ -1,0 +1,31 @@
+{
+  "binding_caveats": [
+    "The round S3 result is the minimal doubled simply connected completion candidate, not a unique physical topology.",
+    "The frame-sharing theorem covers only the zero-mixing constant-curvature branch and the central timelike-geodesic observer isometry orbit, not accelerated observers or mixed profiles.",
+    "pi*R is a conditional stationary-patch accessibility scale, not the global spatial diameter or a selected physical X_max; R remains symbolic.",
+    "The eleven hostile mutations are regression locks rather than independent proofs of the mathematics.",
+    "Repository-wide gates were outside the sealed intake and require separate live-repository replay."
+  ],
+  "calculation_commit": "5950aef38c0ff194b8e231b3bb665efbd13c2593",
+  "external_profile_census": {
+    "atlas_mismatches": 0,
+    "minimum_nonzero_abs_q_at_4": "1/20",
+    "negative_nonzero": 92,
+    "nonzero": 196,
+    "positive_nonzero": 104,
+    "rows": 197,
+    "zero": 1,
+    "zero_profile": "G75_F01_AM"
+  },
+  "landing": "ZERO_MIXING_BRANCH_HAS_CONDITIONAL_FRAME_SHARED_RECENTERED_ASYMPTOTE__NONZERO_MIXED_COMPLETION_OPEN",
+  "maximum_conclusion": "BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS",
+  "preregistration_commit": "3940de4d729352c6d1cb6b7d697e470d38de86b9",
+  "raw_review_sha256": "31a9b962eae94a0b54091de81241584540f4f0589a78e7f9e4b49888844db6f4",
+  "review_transcript_sha256": "900848f43949e4d68d120e78e5bdce15e0c51f006b4136254fdf2ea89e0cbfa6",
+  "schema": "udt-cmb-g84-external-review-result-v1",
+  "scientific_corrections": 0,
+  "sealed_intake_files": 38,
+  "sealed_manifest_sha256": "0154f12ecf5099391e2be71d656e624f86433df14ff8045e51b77f53d19d924a",
+  "sealed_payload_rows": 37,
+  "status": "VERIFIED_WITH_CAVEATS"
+}

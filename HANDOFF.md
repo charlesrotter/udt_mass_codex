@@ -21,9 +21,9 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
-**LATEST BANKED LEAD = G84 AM GLOBAL COMPLETION AND PAIR-DIAMETER AUDIT,
-INTERNALLY `VERIFIED-WITH-CAVEATS`; EXTERNAL REVIEW PENDING.** Read
-`udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md`, then
+**LATEST EXTERNALLY REVIEWED LEAD = G84 AM GLOBAL COMPLETION AND PAIR-DIAMETER AUDIT,
+`VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS.** Read
+`udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
 `INDEPENDENT_VERIFICATION.json`. The minimal doubled simply connected AM spatial candidate is
 round `S^3` of radius `2R` and diameter `2piR`, with `x=2` as equator. Zero mixing has a smooth
@@ -31,9 +31,10 @@ constant-curvature Lorentzian completion and a conditional common `piR` static-p
 central-geodesic observer isometry orbit, with `phi=-log cos[s/(2R)]` and
 `c_eff/c_E=cos[s/(2R)]^2`. This is not physical `X_max`, and the topology is not uniquely selected.
 The exact AM census is one zero-mixing plus `196` nonzero rows; the latter are blocked only in the
-declared stationary-axisymmetric bifurcate completion class. A fresh cold verifier reproduced the
-core result and the banked precision fixes. NEXT: sealed external review of the 38-file intake with
-manifest SHA-256 `0154f12ecf5099391e2be71d656e624f86433df14ff8045e51b77f53d19d924a`.
+declared stationary-axisymmetric bifurcate completion class. The sealed reviewer verified all
+`37/37` hashes and independently reproduced the geometry and exact census. Preserve its five
+scope/evidence caveats. NEXT: preregister a bounded, outcome-independent mixed time-live
+global-completion atlas; do not promote `piR` or select a physical owner.
 
 **PARENT EXTERNALLY REVIEWED LEAD = G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS,
 `VERIFIED_WITH_CAVEATS`.** Read

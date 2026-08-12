@@ -1,13 +1,14 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-12 STATUS (RESTART ANCHOR): G84 AM GLOBAL-COMPLETION/PAIR-DIAMETER ATLAS INTERNALLY `VERIFIED-WITH-CAVEATS`; EXTERNAL REVIEW PENDING.** Read LIVE first, then
-> `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md`,
+> **2026-08-12 STATUS (RESTART ANCHOR): G84 AM GLOBAL-COMPLETION/PAIR-DIAMETER ATLAS EXTERNALLY `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS.** Read LIVE first, then
+> `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 > `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, and `STATUS_LEDGER.tsv`. The minimal doubled AM spatial
 > candidate is round `S^3` radius `2R`; zero mixing has a conditional common `piR` static-patch
 > asymptote on the central-geodesic observer isometry orbit. Physical `X_max`, topology, `R`,
 > profile, pair-separation ownership, and mixed time-live completion remain open. The exact AM
 > census is one zero-mixing and `196` nonzero controls; the latter are obstructed only in the
-> declared stationary bifurcate class. NEXT: sealed external review. Parent G83 is externally
+> declared stationary bifurcate class. The sealed reviewer reproduced the geometry/census and
+> verified `37/37` hashes. NEXT: preregister the mixed time-live global-completion atlas. Parent G83 is externally
 > `VERIFIED_WITH_CAVEATS`. Read
 > `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 > `AUDIT_REPORT.md`,

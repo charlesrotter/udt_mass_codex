@@ -3,9 +3,9 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current banked lead
-is `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md`,
-then `AUDIT_REPORT.md`: an internally `VERIFIED-WITH-CAVEATS` bounded AM global-completion and
-pair-diameter atlas pending sealed external review. It selects no current registry path, physical
+is `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
+then `AUDIT_REPORT.md`: an externally `VERIFIED_WITH_CAVEATS` bounded AM global-completion and
+pair-diameter atlas with zero new scientific corrections. It selects no current registry path, physical
 `X_max`, topology, `R`, profile, pair-separation owner, or mixed time-live completion. Its parent
 externally reviewed lead is
 `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`: a bounded

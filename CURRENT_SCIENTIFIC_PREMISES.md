@@ -9,9 +9,9 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G84 banked lead — internally verified with caveats; external review pending
+## Current G84 externally reviewed lead — verified with caveats
 
-`udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md`, then
+`udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`, control the bounded AM global-completion/pair-diameter result. Its minimal
 doubled, simply connected spatial candidate is round `S^3` radius `2R`; the local metric does not
 uniquely select that topology. Zero mixing has a smooth Lorentzian completion and a conditional
@@ -19,7 +19,8 @@ common `piR` static-patch asymptote only for the central-geodesic observer isome
 not physical `X_max`. The exact AM continuation census is one zero-mixing and `196` nonzero rows;
 the mixed obstruction is restricted to the declared stationary-axisymmetric bifurcate class.
 Physical topology, `R`, profile, pair-separation owner, arbitrary observers, and time-live mixed
-completion remain open. Sealed external review is the only next authorized scientific gate.
+completion remain open. The sealed reviewer independently reproduced the result and required zero
+new scientific corrections. The next bounded gate is the mixed time-live global-completion atlas.
 
 ## Parent G83 externally reviewed lead — verified with caveats
 

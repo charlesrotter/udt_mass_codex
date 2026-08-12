@@ -7,8 +7,8 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G84 BANKED LEAD — INTERNALLY `VERIFIED-WITH-CAVEATS`, EXTERNAL REVIEW PENDING:**
-`udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md`, then
+**CURRENT G84 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS:**
+`udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`, control the bounded AM global-completion/pair-diameter atlas. The minimal doubled
 spatial candidate is round `S^3` radius `2R`, diameter `2piR`. Zero mixing extends smoothly and
 re-centers to the same conditional `piR` static-patch limit on the central-geodesic observer
@@ -16,7 +16,8 @@ isometry orbit. This is not physical `X_max`, and topology, `R`, physical profil
 ownership, accelerated observers, and mixed time-live completion remain open. The exact `197` AM
 rows split one zero-mixing and `196` nonzero; the latter are obstructed only in the declared smooth
 stationary-axisymmetric bifurcate class. The fresh cold context reproduced the core and required
-two precision repairs now banked. NEXT: sealed external review only.
+the already banked precision repairs and required no new correction. NEXT: preregister the bounded
+mixed time-live global-completion atlas without filtering toward a desired branch.
 
 **PARENT G83 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`:**
 `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then

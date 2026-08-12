@@ -5,18 +5,17 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The active arc is **CMB PEAK OPTIMIZATION**, currently at the internally
-`VERIFIED-WITH-CAVEATS` G84 AM global-completion/pair-diameter atlas, pending sealed external
-review. Start with
-`udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md`, then
+The active arc is **CMB PEAK OPTIMIZATION**, currently at the externally
+`VERIFIED_WITH_CAVEATS` G84 AM global-completion/pair-diameter atlas. Start with
+`udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`. Its minimal doubled spatial candidate is round `S^3` of radius `2R`; zero mixing
 has a conditional common `piR` static-patch asymptote for the central-geodesic observer isometry
 orbit. This does not select physical `X_max`, topology, `R`, profile, or a mixed time-live
 completion. The exact `197`-row AM census is one zero-mixing and `196` nonzero controls, with the
-nonzero rows obstructed only in the declared stationary bifurcate extension class. External review
-is next; the 38-file intake manifest SHA-256 is
-`0154f12ecf5099391e2be71d656e624f86433df14ff8045e51b77f53d19d924a`. Its externally reviewed
-parent is G83. Read
+nonzero rows obstructed only in the declared stationary bifurcate extension class. The sealed
+reviewer verified all hashes, independently reproduced the geometry and census, and required zero
+new scientific corrections. Next is a preregistered mixed time-live global-completion atlas. Its
+externally reviewed parent is G83. Read
 `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`. The registered G75
 domain has no infinite endpoint depth; a declared AM continuation has the correct stationary
