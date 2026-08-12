@@ -1,0 +1,14 @@
+{
+  "binding_caveats": 4,
+  "chronology_verified": true,
+  "live_payload_hashes_verified": 25,
+  "load_bearing_numbers_reproduced": 5,
+  "mutable_registry_row_verified_at_review_base": 1,
+  "preregistration_base": "e36752ed5e01d45f46812cb154415683a353030f",
+  "preregistration_commit": "88afa190737df9f461e303f6dd88812a2bc8fb09",
+  "schema": "udt-cmb-g82-external-adjudication-verification-v1",
+  "scientific_corrections": 0,
+  "sealed_intake_files": 27,
+  "sealed_payload_rows": 26,
+  "status": "PASS"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "udt-cmb-g82-external-review-v1",
+  "status": "VERIFIED_WITH_CAVEATS",
+  "scientific_corrections": 0,
+  "binding_caveats": [
+    "The sealed reviewer could verify the preregistration text but not repository chronology; the live repository separately proves that e36752ed5e01d45f46812cb154415683a353030f is the declared base and 88afa190737df9f461e303f6dd88812a2bc8fb09 is the descendant commit that banked the preregistration.",
+    "The fifteen hostile mutations do not individually exercise every omitted-transform or changed-control possibility; exact sealed hashes, source boundaries, and direct reviewer inspection constrain those routes, but the catch harness alone is not catch-complete.",
+    "Repository-wide gate claims were outside the sealed review evidence and are replayed separately in the live repository.",
+    "The write-producing packaged CLI could not complete on the read-only intake; a write-suppressed execution of the same numerical path reproduced the saved 2972-byte JSON exactly, but this is supportive rather than a literal packaged CLI rerun."
+  ],
+  "maximum_G82_conclusion": "G81_C1_SCREEN_COVARIANCE_SURVIVES_ONE_FIXED_NON_DOP853_RADAU_REPLAY",
+  "scientific_ceiling": "DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS",
+  "sealed_manifest_sha256": "fe2a80592aa3236af5044f91675862be2989cc2209d5b9fefa66c87d6973ac5a",
+  "raw_review_sha256": "fb99a23e261e55ce1567a3118feac80a7b239f0e61007841dbfb9f69f0e21ada",
+  "review_transcript_sha256": "7944ace16025aaeafb682e7dcbbcd19e4c364e646121da22a80ff3def3b0df66",
+  "sealed_intake_files": 27,
+  "sealed_payload_rows": 26,
+  "reviewer_verified_payload_rows": 26,
+  "preregistration_base": "e36752ed5e01d45f46812cb154415683a353030f",
+  "preregistration_commit": "88afa190737df9f461e303f6dd88812a2bc8fb09",
+  "radau_vs_dop853_max_relative": 9.459627107202695e-12,
+  "max_coarse_fine_relative": 3.449865616964161e-8,
+  "unrotated_reciprocity_residual": 1.139757402684705e-8,
+  "rotated_covariance_residual": 1.1582146620151037e-8,
+  "area_reciprocity_residual": 1.2229577572853145e-8,
+  "write_suppressed_rendered_json_bytes": 2972,
+  "literal_packaged_cli_rerun_completed": false,
+  "next_scientific_gate": "Return to the already-deferred physical endpoint/X_max curve or thermal-map question; do not add more controls or numerical methods merely to accumulate confirmations."
+}
