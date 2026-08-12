@@ -1,0 +1,7 @@
+candidate	known_pre_audit_state	blind_numeric_audit	provisional_target_class
+LOCAL_ANGULAR_M2_M3	diagonal jackknife; unstable ruler fit; radial estimator absent	NO	CHARACTER_ONLY_OR_UNSUITABLE
+LOCAL_LYA_SELF_FIT	absolute fit failed; official summary retained instead	NO	UNSUITABLE_OR_REPROCESSABLE
+PUBLISHED_DR1_AP	published compressed summaries; fiducial packaging retained	NO	AP_READY_WITH_FIDUCIAL_MAP_OR_CHARACTER_ONLY
+OFFICIAL_DR2_GAUSSIAN	new official measurement vector and covariance candidate	YES	AP_READY_WITH_FIDUCIAL_MAP_OR_SCALE_READY_WITH_NUISANCE_RULER
+DR1_FULL_SHAPE_BAO_LIKELIHOOD	public observable window covariance products reported	YES	REPROCESSABLE_OR_PAIR_READY
+RAW_REDUCTION_ROUTE	raw catalogs/correlation products exist in several lineages	YES	REPROCESSABLE

@@ -1,0 +1,9 @@
+item	status	note
+audit_question	PREREGISTERED	no fit and no X_max estimate
+local_lineages	OPEN	must be classified against fixed gates
+official_DR2_vector	OPEN	numerical contents not inspected before registration
+official_DR2_covariance	OPEN	must be hashed and independently replayed
+fiducial_mapping	OPEN	comparison/readout only
+ruler_scale	OPEN	must remain nuisance or observed anchor
+joint_SNe_BAO_CMB_fit	FORBIDDEN_IN_THIS_PACKAGE	requires later preregistration
+X_max_estimate	FORBIDDEN_IN_THIS_PACKAGE	requires a selected one-relation history and finite-asymptote test

@@ -1,0 +1,14 @@
+scope	path_or_url	purpose
+local	udt_xmax_scale_observational_M2_build_2026-08-07/PREREGISTRATION.md	custom angular estimator contract
+local	udt_xmax_scale_observational_M2_build_2026-08-07/v_bao.py	custom angular estimator implementation
+local	udt_xmax_scale_observational_M3_runs_2026-08-07/BAO_RESULTS.md	custom angular result and limitations
+local	udt_xmax_scale_observational_M3_runs_2026-08-07/RESULTS_VERIFIER_REPORT.md	custom angular independent replay
+local	simple_metric_bao_disk_inventory_results.md	legacy local data inventory
+local	simple_metric_bao_pure_AP_character_results.md	legacy published AP use
+local	simple_metric_bao_proper_pass_results.md	legacy Ly-alpha self-fit verdict
+external	https://arxiv.org/abs/2503.14738	DESI DR2 galaxy and quasar BAO primary paper
+external	https://arxiv.org/abs/2503.14739	DESI DR2 Ly-alpha BAO primary paper
+external	https://data.desi.lbl.gov/doc/papers/dr2/	DESI DR2 primary release index
+external	https://help.desi.lbl.gov/index.php?qa=182	DESI confirmation of likelihood byte identity
+external	https://github.com/CobayaSampler/bao_data	public DESI DR2 measurement and covariance distribution
+external	https://data.desi.lbl.gov/doc/releases/dr1/vac/full-shape-bao-clustering/	DR1 observable window covariance products

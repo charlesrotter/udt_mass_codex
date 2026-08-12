@@ -1,0 +1,11 @@
+gate	required_for	pass_condition	failure_effect
+G-PROVENANCE	ALL	owner release version primary paper and immutable hash recorded	UNSUITABLE
+G-OBSERVABLE	ALL	operational meaning and units of every used component documented	UNSUITABLE
+G-COVARIANCE	PAIR_READY|AP_READY_WITH_FIDUCIAL_MAP|SCALE_READY_WITH_NUISANCE_RULER	full used covariance supplied and numerically valid	CHARACTER_ONLY_OR_UNSUITABLE
+G-FIDUCIAL	AP_READY_WITH_FIDUCIAL_MAP|SCALE_READY_WITH_NUISANCE_RULER	fiducial map and summary transformation documented	CHARACTER_ONLY
+G-TWOLEG	anisotropic claims	transverse and radial legs plus joint covariance present	isotropic_only
+G-LIKELIHOOD	calibration use	independent quadratic-form replay passes	CHARACTER_ONLY
+G-RULER	scale summary use	feature scale remains nuisance or declared observed anchor	UNSUITABLE_FOR_NATIVE_SCALE
+G-NO-ORIGIN-IMPORT	ALL	origin model absent from UDT prediction path	UNSUITABLE_FOR_UDT
+G-NO-FAVORABLE-SELECTION	calibration use	all covariance-coupled released components retained	UNSUITABLE
+G-REPRODUCIBLE	ALL	bytes hashes parser outputs and commands preserved	UNSUITABLE
