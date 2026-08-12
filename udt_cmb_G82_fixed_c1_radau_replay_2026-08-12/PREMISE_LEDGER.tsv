@@ -1,0 +1,10 @@
+item	status	ownership	forbidden_promotion
+G81_C1_metric_profile_endpoint	CHOSE_FROZEN_CONTROL	copied unchanged from G81	physical UDT geometry or X_max
+direction_and_screens	CHOSE_FROZEN_CONTROL	exact G81 C1 values	selected observation direction
+reverse_tangent	CHOSE_QUERY	full past-directed affine reversal	future signal
+Radau_method	CATEGORY_A_NUMERICAL_METHOD	non-DOP853 integrator-family probe	new physics
+finite_difference_deltas	CHOSE_FROZEN_NUMERICAL_CONTROL	exact G81 values	physical cutoff
+screen_covariance	DERIVED_CONDITIONAL_G81_TARGET	generic Jacobi/Wronskian relation	UDT-specific selector
+physical_profile_endpoint_scale_source	OPEN	absent from G82	selected physics
+SNe_CMB_cmb_temp_Xmax	OPEN	absent from G82	observable prediction
+action_matter_bootstrap_signalling	OPEN	absent from G82	native closure

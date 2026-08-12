@@ -1,0 +1,20 @@
+{
+  "allowed_if_pass": "G81_C1_SCREEN_COVARIANCE_SURVIVES_ONE_FIXED_NON_DOP853_RADAU_REPLAY",
+  "forbidden_promotions": [
+    "absolute numerical independence",
+    "generic direction theorem",
+    "UDT-specific selector",
+    "physical profile or endpoint selection",
+    "physical scale or X_max selection",
+    "SNe or CMB observable",
+    "cmb_temp",
+    "source, action, matter, or bootstrap closure",
+    "future signal"
+  ],
+  "integrator": "Radau",
+  "maximum_scientific_conclusion_unchanged": "DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS",
+  "schema": "udt-cmb-g82-semantic-contract-v1",
+  "status_before_run": "PREREGISTERED",
+  "tested_control_count": 1,
+  "tested_control_id": "C1_FULL_ANGULAR"
+}
