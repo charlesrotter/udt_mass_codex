@@ -6,7 +6,7 @@
     "rank_2": 3379
   },
   "character_checks": 8192,
-  "implementation": "stdlib Fraction; different state family; no production imports or result reads",
+  "implementation": "stdlib Fraction; different state family; no production imports or result reads; replays supplied closed-form transition and PSD claims; source hashes read parent repo",
   "increment_checks": 3955,
   "independent_middle_transition_required": true,
   "inverse_checks": 4096,

@@ -1,14 +1,17 @@
-# External review dispatch — explicit authorization required
+# External review dispatch — completed
 
 The cold review payload is a sealed, read-only 27-file intake at
-`/tmp/udt_chord_network_review_pLqDnX`. It contains the 18 current package files and only the exact
+`/tmp/udt_chord_network_review_pLqDnX`. It contains the 18 then-current package files and only the exact
 nine private-repository sources listed in `SOURCE_MANIFEST.tsv`. It excludes the protected
 curvature atlas and stopped native-on-shell draft.
 
-The attempted launch was blocked because this exact new private payload and destination require
-explicit user authorization. Do not retry under standing or inferred authorization.
+The first attempted launch was correctly blocked because this exact new private payload and
+destination required explicit user authorization. Charles then supplied the exact authorization
+below. The sealed read-only review completed on 2026-08-12 and returned
+`ACCEPT__VERIFIED_WITH_CAVEATS`; see `EXTERNAL_REVIEW_RAW.md` and
+`EXTERNAL_REVIEW_ADJUDICATION.md`.
 
-Required authorization text:
+Authorization text received:
 
 > I authorize transmitting the sealed 27-file intake at
 > `/tmp/udt_chord_network_review_pLqDnX`, containing

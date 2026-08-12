@@ -18,4 +18,4 @@ path_holonomy_extrinsic_Jacobi_normal_channels	RETAINED_SEPARATE	not encoded by 
 physical_global_relation_family	OPEN	not selected by composability
 T_zero_equals_Xmax	NOT_DERIVED	A-chart boundary only
 action_source_matter_bootstrap_cosmology_dynamics	OPEN_INACTIVE	not tested
-package_grade	INTERNAL_DERIVATION_REPLAY_COMPLETE__ADVERSARIAL_REVIEW_PENDING	preregistered exact bounded result
+package_grade	ACCEPT__VERIFIED_WITH_CAVEATS	preregistered exact bounded result; no mathematical correction; replay-independence caveat recorded

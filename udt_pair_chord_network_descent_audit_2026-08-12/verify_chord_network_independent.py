@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""Independent stdlib/Fraction replay of the chord-network theorem.
+"""Implementation-distinct stdlib/Fraction replay of the chord-network theorem.
 
-This file imports no production module and reads no production result or atlas.
+This file imports no production module and reads no production result or atlas. It independently
+replays the supplied closed-form transition algebra and PSD-order claims, but does not rederive the
+closed-form arrow from the coframe. Its source-hash provenance check reads parent-repository files.
 """
 
 from __future__ import annotations
@@ -177,7 +179,10 @@ def main():
     assert source_count == 9 and hashes_ok
     result = {
         "status": "INDEPENDENT_EXACT_FRACTION_CHORD_NETWORK_PASS",
-        "implementation": "stdlib Fraction; different state family; no production imports or result reads",
+        "implementation": (
+            "stdlib Fraction; different state family; no production imports or result reads; "
+            "replays supplied closed-form transition and PSD claims; source hashes read parent repo"
+        ),
         "state_count": n,
         "pair_count": n * n,
         "pair_counts": dict(sorted(pair_counts.items())),

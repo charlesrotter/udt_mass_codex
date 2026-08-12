@@ -6,13 +6,13 @@ record. Root `LIVE.md` wins every status disagreement.
 ## Current route
 
 Current verified bounded result: read
-`../udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. A supplied regular
-timelike pair immersion owns its clock/ruler tangent plane and positive orthogonal screen. The
-complete metric's base, angular, mixing, and embedding data form the pair metric before terminal
-reciprocal-`c_E` projection. Fresh review independently replayed 200 rational cases and accepted
-the bounded result with caveats. Physical realization remains open. Pause further excavation;
-next candidate is a preregistered metric-wide simplification ponder.
+`../udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `EXTERNAL_REVIEW_ADJUDICATION.md`, and `EVIDENCE_GATES.md`. On one common
+A-calibrated terminal family, endpoint coframe ratios compose and reverse and reciprocal depth
+telescopes, while PSD Gram reachability is a separate partial order. External review found no
+mathematical correction and accepted the result with evidence-provenance caveats. Physical global
+family ownership and path/derivative channels remain open. Next map whether existing complete
+branches already supply the common calibrated family; do not repeat the zero-order calculation.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. Before the current scientific

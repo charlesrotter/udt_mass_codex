@@ -29,6 +29,8 @@ def main():
         "derive_chord_network.py", "verify_chord_network_independent.py", "run_catch_proofs.py",
         "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOFS.json",
         "PAIR_ATLAS.tsv", "CHAIN_ATLAS.tsv",
+        "REVIEW_DISPATCH.md", "EXTERNAL_REVIEW_RAW.md", "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "RESULT_MANIFEST.tsv",
     ]
     checks["required_files"] = all((ROOT / name).is_file() for name in required)
 
@@ -62,7 +64,27 @@ def main():
         and independent["nontrivial_directed_loop_count"] == 0
     )
     checks["independent_middle"] = independent["independent_middle_transition_required"] is True
+    checks["independent_scope_wording"] = (
+        "replays supplied closed-form transition" in independent["implementation"]
+        and "source hashes read parent repo" in independent["implementation"]
+    )
     checks["catch_proofs"] = catches["catch_count"] == 11 and all(catches["catches"].values())
+
+    raw_review = (ROOT / "EXTERNAL_REVIEW_RAW.md").read_text()
+    adjudication = (ROOT / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text()
+    checks["external_verdict"] = (
+        "ACCEPT__VERIFIED_WITH_CAVEATS" in raw_review
+        and "Mathematical corrections:\n- None." in raw_review
+        and "ACCEPT__VERIFIED_WITH_CAVEATS" in adjudication
+    )
+
+    with (ROOT / "RESULT_MANIFEST.tsv").open(newline="") as handle:
+        result_rows = list(csv.DictReader(handle, delimiter="\t"))
+    checks["result_manifest_count"] = len(result_rows) == 20
+    checks["result_manifest_hashes"] = all(
+        (ROOT / row["path"]).is_file() and sha256(ROOT / row["path"]) == row["sha256"]
+        for row in result_rows
+    )
 
     with (ROOT / "PAIR_ATLAS.tsv").open(newline="") as handle:
         pairs = list(csv.DictReader(handle, delimiter="\t"))

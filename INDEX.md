@@ -9,13 +9,15 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-5l. CURRENT INTERNAL LEAD: read
+5l. CURRENT VERIFIED BOUNDED RESULT: read
    `udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then
-   `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `EVIDENCE_GATES.md`, and `REVIEW_DISPATCH.md`.
+   `EXACT_DERIVATION.md`, `EXTERNAL_REVIEW_ADJUDICATION.md`, `STATUS_LEDGER.tsv`, and
+   `EVIDENCE_GATES.md`.
    Endpoint chords compose and reverse exactly on one common A-calibrated terminal family; PSD
    Gram reachability is a separate partial order, not Reciprocity. Independent middle-state and
-   physical global-family ownership remain open. Internal checks pass; exact authorization for
-   the sealed external review is the only next action.
+   physical global-family ownership remain open. External review found no mathematical correction
+   and accepted the bounded result with evidence-provenance caveats. Next ask whether existing
+   complete branches already own one common calibrated global family.
 5m. CURRENT VERIFIED BOUNDED RESULT: read
    `udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md`, then
    `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`.

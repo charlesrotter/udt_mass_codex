@@ -5,16 +5,15 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The latest verified bounded result is the pair-first relational-plane reconstruction. Read
-`udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md` and `ADVERSARIAL_REVIEW.md`. Once a regular timelike observer-pair immersion
-is supplied, it owns its clock/ruler tangent plane and positive orthogonal screen. The complete
-metric combines base, angular, mixing, and embedding data before the terminal reciprocal-`c_E`
-readout. A universal curvature-selected observer plane is therefore unnecessary for conditional
-pair evaluation. Fresh review independently replayed 200 rational cases and accepted
-`VERIFIED_WITH_CAVEATS`. The physical realization and global compatible relation family remain
-open. Current posture: slow down for metric-wide synthesis; do not launch another solve or hunt a
-new mechanism.
+The latest verified bounded result is zero-order pair-chord network descent. Read
+`udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `EXTERNAL_REVIEW_ADJUDICATION.md`, and `EVIDENCE_GATES.md`. On one common
+A-calibrated regular terminal family, endpoint coframe ratios compose and reverse and reciprocal
+depth telescopes exactly, while PSD Gram reachability is a separate partial order rather than
+Reciprocity. External review accepted the result with evidence-provenance caveats and no
+mathematical correction. Physical global-family ownership, independently rebuilt middle states,
+and path/derivative channels remain open. Next map whether existing complete branches already
+supply one common calibrated global family; do not repeat the closed zero-order calculation.
 
 The current conceptual orientation is the completed foundations-to-CMB smoking-jacket consultation.
 Read `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md` and

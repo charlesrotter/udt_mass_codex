@@ -2,7 +2,7 @@
 
 Date: 2026-08-12
 
-Status: **INTERNALLY DERIVED AND INDEPENDENTLY REPLAYED; FRESH ADVERSARIAL REVIEW PENDING**
+Status: **ACCEPT — VERIFIED WITH CAVEATS**
 
 ## 1. Result first
 
@@ -284,8 +284,10 @@ nontrivial PSD reverses                  0
 nontrivial directed loops                0
 ```
 
-A hermetic standard-library `Fraction` route uses a different 64-state family and imports no
-production code or result:
+A separate standard-library `Fraction` route uses a different 64-state family and imports no
+production code or result. Its algebraic replay is self-contained, but it starts from the
+closed-form transition rather than independently deriving `R_ij=B_j B_i^-1`; its source-hash
+provenance check also reads parent-repository files:
 
 ```text
 all endpoint pairs                       4,096

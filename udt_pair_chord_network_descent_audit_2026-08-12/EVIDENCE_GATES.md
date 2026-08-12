@@ -16,14 +16,18 @@ paths, and global histories are outside scope.
 
 ## Gate 3 — independent verification
 
-INTERNAL PASS; FRESH ADVERSARIAL REVIEW PENDING. The production SymPy/Fraction route and separate
-stdlib Fraction route share no code or result artifacts and use different rational families. The
-second route checks every one of 262,144 endpoint triples in its family, 3,955 PSD chains, all
-inverses and characters, the rank rules, and a missing-middle counterexample.
+PASS WITH CAVEAT. The production SymPy/Fraction route and separate stdlib Fraction route share no
+code or result artifacts and use different rational families. The second route independently
+replays the supplied closed-form transition algebra and PSD-order claims across every one of
+262,144 endpoint triples in its family, 3,955 PSD chains, all inverses and characters, the rank
+rules, and a missing-middle counterexample. It does not independently derive
+`R_ij=B_j B_i^-1`, and its source-hash provenance check reads parent-repository files. A fresh
+sealed `gpt-5.4` reviewer independently reconstructed the load-bearing formulas and missing-middle
+witness, found no mathematical correction, and returned `ACCEPT__VERIFIED_WITH_CAVEATS`.
 
 ## Gate 4 — premise audit
 
-PASS INTERNALLY. The PSD construction order is explicitly separated from observer Reciprocity;
+PASS. The PSD construction order is explicitly separated from observer Reciprocity;
 the A calibration and common middle state are conditional; `c_E` remains an observed calibration;
 and physical history, global relation ownership, path channels, action, matter, `X_max`,
 cosmology, signalling, and dynamics remain open.
@@ -31,5 +35,5 @@ cosmology, signalling, and dynamics remain open.
 ## Current grade
 
 ```text
-INTERNALLY_DERIVED_AND_INDEPENDENTLY_REPLAYED__FRESH_ADVERSARIAL_REVIEW_PENDING
+ACCEPT__VERIFIED_WITH_CAVEATS__BOUNDED_ZERO_ORDER_CHORD_NETWORK_CLASSIFICATION
 ```

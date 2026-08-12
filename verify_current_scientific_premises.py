@@ -201,13 +201,15 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md"
+    latest = "udt_pair_chord_network_descent_audit_2026-08-12/"
+    cmb_latest = "udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md"
     parent = "udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md"
     grandparent = "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
     greatgrandparent = "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
     prior = "udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
+        require(cmb_latest in controls[control], f"latest complete-branch route absent: {control}")
         require(parent in controls[control], f"G81 parent scientific route absent: {control}")
         require(grandparent in controls[control], f"G80 grandparent route absent: {control}")
         require(greatgrandparent in controls[control], f"G79 great-grandparent route absent: {control}")
@@ -226,6 +228,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_pair_chord_network_descent_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
@@ -282,9 +285,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 75, "premise registry must contain exactly 75 rows")
+    require(len(rows) == 76, "premise registry must contain exactly 76 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 75, "duplicate premise id")
+    require(len(by_id) == 76, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1307,6 +1310,21 @@ def main() -> None:
         "G82 support source changed",
     )
     require("G82_CLOSES_ONLY_G81S_REGISTERED" in by_id["G82"]["precedence_rule"], "G82 refinement absent")
+    require(
+        by_id["G87"]["current_status"]
+        == "ACCEPT__VERIFIED_WITH_CAVEATS__EXACT_ENDPOINT_TRANSITIONS_AND_PSD_PARTIAL_ORDER_SEPARATED__PHYSICAL_GLOBAL_FAMILY_OPEN",
+        "G87 chord-network status regressed or promoted",
+    )
+    require(by_id["G87"]["epistemic_label"] == "MIXED", "G87 chord-network label changed")
+    require("physical common calibrated global state family" in by_id["G87"]["open_scope"], "G87 global-family owner promoted")
+    require("PSD reachability called Reciprocity" in by_id["G87"]["forbidden_regression"], "G87 order/Reciprocity guard absent")
+    require("independent derivation of the coframe transition" in by_id["G87"]["forbidden_regression"], "G87 replay-independence caveat absent")
+    require(
+        by_id["G87"]["controlling_source"]
+        == "udt_pair_chord_network_descent_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G87 chord-network source changed",
+    )
+    require("G87_CLOSES_THE_ZERO_ORDER_CHORD_COMPOSITION_QUESTION" in by_id["G87"]["precedence_rule"], "G87 refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1380,9 +1398,9 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: 83 premise guards, G82 fixed-C1 Radau support externally verified with catch, "
-        "sealed/live-evidence, and non-literal-rerun caveats; G81 remains the two-control scientific "
-        "ceiling and all physical owners remain open"
+        "PASS: 83 premise guards plus G87 chord-network guards; zero-order chord-network descent "
+        "externally accepted with evidence caveats; physical global-family and path/dynamical "
+        "ownership remain open; G82 remains bounded CMB support"
     )
     return
     # Unreachable pre-G79 verbose success text remains below only until the next mechanical guard cleanup.

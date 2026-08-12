@@ -1,5 +1,16 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
+> **2026-08-12 CURRENT VERIFIED RESULT: ZERO-ORDER PAIR-CHORD NETWORK DESCENT, ACCEPTED WITH
+> CAVEATS.** Read LIVE first, then
+> `udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, `EXACT_DERIVATION.md`,
+> `EXTERNAL_REVIEW_ADJUDICATION.md`, and `EVIDENCE_GATES.md`. On one common A-calibrated terminal
+> family, endpoint coframe ratios compose and reverse and `Delta phi` telescopes; PSD Gram
+> reachability is a separate partial order. The reviewer found no mathematical correction. Its
+> evidence caveat is binding: the separate Fraction route replays the supplied closed-form arrow
+> and reads parent files for source-hash provenance. Physical global-family ownership and
+> path/derivative channels remain open. NEXT, not launched: map whether existing complete branches
+> already supply one common calibrated global family.
+
 > **2026-08-12 CURRENT VERIFIED RESULT: PAIR-FIRST RELATIONAL PLANE, VERIFIED WITH CAVEATS.**
 > Read LIVE first, then
 > `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`,

@@ -3,12 +3,12 @@
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current verified
-result is `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`: on a
-supplied regular timelike pair immersion, the pair-relative tangent/normal split and
-complete-coframe Gram modulation are derived conditionally before terminal reciprocal-`c_E`
-readout. It changes no registry path, selects no physical realization, and pauses further linear
-excavation. The prior curvature atlases remain ambient-structure evidence, not pair-existence
-gates. The earlier conceptual orientation is
+result is `udt_pair_chord_network_descent_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`:
+endpoint coframe ratios compose and reverse on one common A-calibrated terminal family, while PSD
+Gram reachability is a distinct partial order. It changes no registry path, selects no physical
+global family, and requires no derivative law merely for zero-order endpoint composition. The
+prior pair-first and curvature atlases remain conditional structure evidence. The earlier
+conceptual orientation is
 `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`; it changes
 no registry path and adopts no new classification authority. The current verified bounded result
 is `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`: a local
