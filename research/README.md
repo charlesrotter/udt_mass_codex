@@ -7,14 +7,17 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction. The current G80
+**CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction. The current G81
 lead is
-`../udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
-On the exact G79 control, the past-directed affine reversal verifies reciprocal redshift and the
-carried-screen Jacobi/area laws. External review returns
-`VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`, with generic-theorem, bounded-independence,
-screen-gauge, and no-signal caveats. No physical profile, endpoint, scale, `X_max`, source, fit, or
-CMB field is selected. Next is one nonradial or rotated-screen covariance replay. Its G79 parent is
+`../udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`.
+Two fixed radial/nonradial controls verify the carried and rotated screen laws. External review
+returns `VERIFIED_WITH_CAVEATS`, with maximum conclusion
+`DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. The neighboring-ray replay is
+bounded independence and the reviewer/live-source replay boundary must be retained. No physical
+profile, endpoint, scale, `X_max`, source, fit, or CMB field is selected. Next is the same fixed C1
+control under a non-DOP853 integrator family. Its G80 parent is
+`../udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
+its nonradial/rotated-screen gate. Its G79 parent is
 `../udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
 which returns exact `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` before P1 comparison.
 `cmb_temp` is deferred. Its G78 parent is

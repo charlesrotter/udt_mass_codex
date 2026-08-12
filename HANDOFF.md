@@ -4,7 +4,7 @@
 
 > **READ `LIVE.md` FIRST.** It wins every disagreement.
 >
-> **⚠ BRANCH: `grok` (2026-08-11).** Synchronize it before orientation.
+> **⚠ BRANCH: `grok` (2026-08-12).** Synchronize it before orientation.
 
 **CURRENT GUARDS:** use `CURRENT_SCIENTIFIC_PREMISES.tsv` for high-risk premise status and stop on
 any conflict with LIVE or a cited controlling source. This workstation may contain
@@ -19,9 +19,23 @@ read during G68, and must not be staged, edited, mined, or deleted without expli
 observer-pair positional-dilation asymptote, not a material wall, preferred center, radial edge,
 finite-cell seal, or boundary term.
 
-## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
+## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
+**LATEST LEAD = G81 NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,
+`VERIFIED_WITH_CAVEATS`; maximum conclusion
+`DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`.** Read
+`udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then its
+`AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, and `PREMISE_LEDGER.tsv`. The fixed radial C0 and
+genuinely angular C1 controls verify the carried and independently rotated screen laws, with
+production residuals near `1e-14` and direct-Christoffel neighboring-ray residuals near `1e-8`.
+External review found no scientific correction. Preserve both caveats: the reviewer opened 28
+package rows while the live verifier reopened the nine frozen source bytes, and the independent
+route shares DOP853 plus the fixed geometry/query data. This is generic two-control
+Jacobi/Wronskian covariance, not physical selection or a signal. NEXT: preregister the same fixed
+C1 control with a non-DOP853 integrator family; do not enlarge the controls or open the deferred
+endpoint/`X_max` or temperature work first.
+
+**PARENT LEAD = G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
 `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`.** Read
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. On the exact G79 control and
@@ -32,8 +46,7 @@ review verified all 30 payload rows and found no correction. Keep its caveats: t
 Jacobi/Wronskian reciprocity on one fixed null curve, not a UDT selector; arbitrary endpoint screen
 bases require `D'_rev=Z S_r D_fwd^T S_s`; and the reverse is not a future signal. No physical
 profile, endpoint, scale, `X_max`, SNe/CMB observable, source, action, matter, bootstrap, or
-signalling law follows. NEXT: verify the conjugated law on one nonradial or explicitly rotated-
-screen control before opening the endpoint/`X_max` curve or `cmb_temp`.
+signalling law follows. G81 above completes its nonradial/rotated-screen gate.
 
 **PARENT LEAD = G79 SAME-GEOMETRY DIMENSIONAL REDSHIFT AND ANGULAR-DISTANCE QUERY,
 `VERIFIED_WITH_CAVEATS__BOUNDED_SAME_GEOMETRY_REDSHIFT_AND_ANGULAR_DISTANCE_QUERY`.** Read

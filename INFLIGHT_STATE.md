@@ -1,7 +1,11 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-11 STATUS (RESTART ANCHOR): G80 REVERSE-PAIR GEOMETRIC RECIPROCITY EXTERNALLY VERIFIED.** ACTIVE ARC = CMB PEAK
-> OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-11) FIRST, then
+> **2026-08-12 STATUS (RESTART ANCHOR): G81 NONRADIAL SCREEN COVARIANCE EXTERNALLY VERIFIED WITH CAVEATS.** ACTIVE ARC = CMB PEAK
+> OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-12) FIRST, then
+> `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/AUDIT_REPORT.md`, then
+> `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXACT_DERIVATION.md`, then
+> `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/PREMISE_LEDGER.tsv`, then
 > `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXACT_DERIVATION.md`, then
 > `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/TYPE_LEDGER.tsv`, then

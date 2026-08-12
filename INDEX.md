@@ -9,15 +9,22 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION; current substep = DIMENSIONAL
+5a. ACTIVE ARC (2026-08-12): CMB PEAK OPTIMIZATION; current substep = DIMENSIONAL
    OBSERVER-QUERY CONSTRUCTION. Read
-   `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+   `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+   `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, and `PREMISE_LEDGER.tsv`. The fixed radial and
+   genuinely angular controls verify the carried and independently rotated screen laws, with
+   production closure near `1e-14` and bounded-independent neighboring-ray closure near `1e-8`.
+   External review returns `VERIFIED_WITH_CAVEATS`; the maximum conclusion is strictly
+   `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. Next is a fixed-C1 non-DOP853
+   replay. Parent:
+   `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then its
    `EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. On the frozen G79
    metric/query, the past-directed affine reversal verifies `Z_rev=1/Z`, `phi_rev=-phi`,
    `D_rev=Z D_fwd^T`, and `d_A,rev=Z d_A,fwd`. The result is externally
    `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`: generic Jacobi/Wronskian reciprocity, not a UDT
    selector or future signal, and the bare transpose is carried-screen-gauge conditional. Next is
-   one nonradial or rotated-screen covariance replay. Parent:
+   G81 above completes the nonradial/rotated-screen covariance replay. Parent:
    `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
    which derives exact `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` on the same bounded control
    before P1 comparison. No profile, endpoint, scale, `X_max`, source, fit, or CMB temperature field

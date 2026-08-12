@@ -1,13 +1,24 @@
 # Current UDT research program
 
-Date: 2026-08-05 (updated through 2026-08-11; **STALE-BANNERED BELOW THE TOP BANNER**)
+Date: 2026-08-05 (updated through 2026-08-12; **STALE-BANNERED BELOW THE TOP BANNER**)
 
 Authority: active scientific navigation and dependency spine; not `CANON.md`
 
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G80 LEAD:**
+**CURRENT G81 LEAD:**
+`udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the two-control nonradial/endpoint-screen covariance gate. C0 and genuinely angular C1
+verify the carried and independently rotated Jacobi laws near `1e-14`; the direct-Christoffel
+neighboring-ray route closes near `1e-8`. External review returned `VERIFIED_WITH_CAVEATS` with
+no scientific correction and maximum conclusion
+`DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. Retain its live-source replay and
+bounded-independence caveats. No physical owner or downstream observable is selected. NEXT: replay
+the exact fixed C1 control with a non-DOP853 integrator family before endpoint/`X_max` or thermal
+work.
+
+**G80 PARENT LEAD:**
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
 controls the reverse ordered-pair check on the frozen G79 geometry/query. Past-directed affine
 reversal with source-frequency normalization gives `Z_rev=1/Z`, `phi_rev=-phi`,
@@ -18,7 +29,7 @@ Jacobi/Wronskian reciprocity, not a UDT selector; arbitrary endpoint screen base
 conjugated law and the reverse is not a future signal. No physical profile, scale, endpoint,
 `X_max`, source, SNe/CMB observable, action, matter, or bootstrap law follows. NEXT: verify the
 conjugated law on one nonradial or explicitly rotated-screen control before the endpoint/`X_max`
-curve or deferred thermal map.
+curve or deferred thermal map. G81 above completes that registered covariance gate.
 
 **G79 PARENT LEAD:**
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`

@@ -2,13 +2,34 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-**⚠ BRANCH: work is on `grok` (2026-08-11).** Synchronize before orientation.
+**⚠ BRANCH: work is on `grok` (2026-08-12).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G80 REVERSE-PAIR GEOMETRIC RECIPROCITY EXTERNALLY VERIFIED) ============
+## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G81 NONRADIAL SCREEN COVARIANCE EXTERNALLY VERIFIED WITH CAVEATS) ============
 
-**LATEST LEAD — G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
+**LATEST LEAD — G81 NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,
+`VERIFIED_WITH_CAVEATS`; maximum conclusion
+`DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`.** Read
+`udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `PREMISE_LEDGER.tsv`, and
+`EXTERNAL_REVIEW_VERIFICATION.json`. On the exact frozen G79/G80 metric/query, both the radial C0
+and genuinely angular C1 control satisfy `D_reverse=Z D_forward^T` in the carried screen and
+`D_reverse_AB=Z B D_forward^T A^T` after independent endpoint-screen rotations. The production
+rotated residuals are `1.0086332137876813e-14` and `3.931585029333395e-15`; the direct-Christoffel
+neighboring-ray residuals are `1.3498538204686179e-8` and `1.1585881402639625e-8`. C1 reaches
+approximately `(theta,psi)=(1.7493671390260097,0.23079074045919012)` and has nonzero forward
+off-diagonal norm `1.1801666864663825e-3`. The sealed reviewer found no scientific correction.
+Its two caveats are binding: it independently opened `28/28` package rows while the live verifier,
+not the reviewer, reopened all nine frozen source bytes; and the neighboring-ray route remains
+bounded independence because it shares the metric/profile, query, endpoints, rotations, and
+DOP853 family. This remains generic Jacobi/Wronskian covariance on two fixed controls—not a UDT
+selector, physical profile, endpoint, scale, `X_max`, CMB/SNe observable, `cmb_temp`, source,
+action, matter, bootstrap closure, or signal. **NEXT:** preregister one fixed-C1 replay using a
+non-DOP853 integrator family, without enlarging or retuning the control universe. Only after that
+bounded method gate should the deferred endpoint/`X_max` curve or temperature map be opened.
+
+**PARENT LEAD — G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
 `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`.** Read
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and the historical pre-review
@@ -23,9 +44,8 @@ self-adjoint Jacobi/Wronskian reciprocity theorem instantiated in one UDT contro
 specific selector; the bare transpose law is carried-screen-gauge conditional, with general form
 `D'_rev=Z S_r D_fwd^T S_s`; and the reverse path is past-directed mathematical reversal, not a
 future signal. No physical profile, endpoint, `R`, `X_max`, SNe fit, luminosity law, `cmb_temp`,
-CMB field/spectrum, source, action, matter, bootstrap, or signalling law is promoted. **NEXT:**
-preregister one less-symmetric nonradial or explicitly rotated-screen replay to verify the
-conjugated screen-gauge law before opening the endpoint/`X_max` curve or temperature map.
+CMB field/spectrum, source, action, matter, bootstrap, or signalling law is promoted. G81 above
+completes its registered nonradial/rotated-screen gate.
 
 **PARENT LEAD — G79 SAME-GEOMETRY DIMENSIONAL REDSHIFT AND ANGULAR-DISTANCE QUERY,
 `VERIFIED_WITH_CAVEATS__BOUNDED_SAME_GEOMETRY_REDSHIFT_AND_ANGULAR_DISTANCE_QUERY`.** Read

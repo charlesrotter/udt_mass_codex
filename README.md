@@ -7,14 +7,17 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 The active arc is **CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction.
 Its current lead is
-`udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
-On the frozen G79 metric/query, the past-directed affine reversal derives reciprocal redshift and
-the carried-screen Jacobi law `D_rev=Z D_fwd^T`, with production residuals near `1e-14` and a
-separate neighboring-ray replay near `1e-8`. External review returns
-`VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`. This is generic Jacobi/Wronskian reciprocity on one
-fixed null curve, not a UDT selector or signal; arbitrary endpoint screen changes require the
-conjugated law. No physical profile, endpoint, scale, `X_max`, source, fit, or CMB field is
-selected. Next is one nonradial or rotated-screen covariance replay. Its parent is
+`udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`.
+The fixed radial and genuinely angular controls verify the carried and independently rotated
+screen covariance laws, with production residuals near `1e-14` and bounded-independent
+direct-Christoffel neighboring-ray residuals near `1e-8`. External review returns
+`VERIFIED_WITH_CAVEATS`, with maximum conclusion
+`DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. This is generic
+Jacobi/Wronskian covariance, not a UDT selector or signal. No physical profile, endpoint, scale,
+`X_max`, source, fit, or CMB field is selected. Next is the same fixed C1 replay using a non-DOP853
+integrator family. Its G80 parent is
+`udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
+G80's registered nonradial/rotated-screen gate. Its G79 parent is
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, which
 derives exact `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` on the same bounded control before P1
 comparison. `cmb_temp` remains deferred. Its parent is

@@ -4,19 +4,21 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G80 reverse-pair geometric reciprocity externally verified)
+## TOP — CURRENT POINTER (2026-08-12, G81 nonradial screen covariance externally verified with caveats)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**, with current substep **DIMENSIONAL OBSERVER-QUERY CONSTRUCTION**. The
 current lead is
-`udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`: on the exact
-G79 metric/query, past-directed full-tangent reversal gives reciprocal redshift and
-`D_rev=Z D_fwd^T`, with production closure near `1e-14` and independent neighboring-ray closure
-near `1e-8`. External review returns `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`. Retain the
-generic-Jacobi, bounded-independence, carried-screen-gauge, and no-future-signal caveats. No
-physical profile, endpoint, scale, `X_max`, source, fit, CMB field, or spectrum follows. Next is a
-nonradial or explicitly rotated-screen covariance replay. Its parent is
+`udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`: two fixed
+radial/nonradial controls verify the carried and independently rotated screen laws near `1e-14`,
+with bounded-independent neighboring-ray closure near `1e-8`. External review returns
+`VERIFIED_WITH_CAVEATS` and requires no scientific correction. Retain the live-source replay,
+bounded-independence, generic-Jacobi, and no-future-signal boundaries. No physical profile,
+endpoint, scale, `X_max`, source, fit, CMB field, or spectrum follows. Next is the same fixed C1
+replay with a non-DOP853 integrator family. Its G80 parent is
+`udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
+its nonradial/rotated-screen gate. Its G79 parent is
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, which
 derives exact `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` on the same bounded control before P1
 comparison. `cmb_temp` remains deferred. Its parent is

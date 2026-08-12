@@ -4,12 +4,18 @@ These tables govern artifact navigation and reorganization classification; they 
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
 lead is
+`udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`.
+It externally verifies the carried and rotated screen covariance laws on exactly two fixed
+radial/nonradial controls, with binding live-source replay and bounded-independence caveats. The
+maximum conclusion is `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`; no physical
+owner or signal follows. Next is the same fixed C1 control with a non-DOP853 integrator family. Its
+G80 parent is
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It externally verifies bounded reciprocal redshift and carried-screen Jacobi/area reversal on the
 exact G79 control. The result is generic geometric reciprocity, not a UDT selector or future
 signal, and general screen bases require the conjugated law. It selects no physical profile,
-endpoint, scale, `X_max`, source, fit, or CMB field; next is one nonradial or rotated-screen
-covariance replay. Its parent is
+endpoint, scale, `X_max`, source, fit, or CMB field. G81 above completes its nonradial/rotated-
+screen gate. Its parent is
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, which
 derives the bounded same-metric redshift and angular distance before P1 comparison. Its parent is
 `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,

@@ -9,7 +9,20 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G80 lead
+## Current G81 lead
+
+`udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the two-fixed-control nonradial and endpoint-screen covariance result. C0 and genuinely
+angular C1 verify both the carried-screen law and its independently rotated basis form. External
+review returns `VERIFIED_WITH_CAVEATS` with no scientific correction and maximum conclusion
+`DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. The reviewer opened 28 package
+rows while the live verifier reopened the nine frozen source bytes, and the neighboring-ray route
+remains bounded independence because it shares DOP853 and the fixed geometry/query data. This is
+not a UDT selector, physical profile, endpoint, scale, `X_max`, observable, source, action, matter,
+bootstrap closure, or signal. Next is only the same fixed C1 replay with a non-DOP853 integrator
+family.
+
+## G80 parent lead
 
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
 controls the bounded reverse ordered-pair result. On the exact G79 metric/query, past-directed
@@ -18,8 +31,7 @@ reproduces the result as `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY` with no cor
 generic self-adjoint Jacobi/Wronskian theorem on one fixed null curve, not a UDT selector; arbitrary
 endpoint screen changes require the conjugated matrix law, and the reversed curve is not a future
 signal. No physical profile, endpoint, `R`, `X_max`, source, fit, CMB field, action, matter,
-bootstrap, or signalling law is promoted. Next is one nonradial or explicitly rotated-screen
-covariance replay.
+bootstrap, or signalling law is promoted. G81 above completes its nonradial/rotated-screen gate.
 
 ## G79 parent lead
 
