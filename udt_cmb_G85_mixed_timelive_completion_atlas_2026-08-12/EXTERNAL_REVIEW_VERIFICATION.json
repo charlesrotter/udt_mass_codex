@@ -1,0 +1,33 @@
+{
+  "behavior_counts": {
+    "CENTER_OFF_NO_INTERIOR_ROOT": 24,
+    "ENDPOINT_TAPER_NO_INTERIOR_ROOT": 20,
+    "INTERIOR_SIGN_CHANGE": 36,
+    "PERSISTENT_SIGN_NO_INTERIOR_ROOT": 112,
+    "ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT": 4
+  },
+  "binding_caveats": 4,
+  "calculation_commit": "c843400e14773f47408cfac40882dfbf950b39a2",
+  "chronology_verified": true,
+  "classification_counts": {
+    "CONDITIONAL_ON_NONVANISHING_SHIFT": 196,
+    "POINTWISE_DEGENERATE": 392,
+    "REGULAR_LORENTZ_NONNULL_SEAM": 196,
+    "REGULAR_LORENTZ_UNIFORM_NULL_SEAM": 196
+  },
+  "mixed_profile_rows": 196,
+  "negative_q4_rows": 92,
+  "payload_hashes_verified_live": 36,
+  "physical_promotions": 0,
+  "positive_q4_rows": 104,
+  "preregistration_commit": "473cf4a1c2344753368ef73e4b4de5f4b0c2ace2",
+  "profile_archetype_rows": 980,
+  "schema": "udt-cmb-g85-external-adjudication-verification-v1",
+  "scientific_corrections": 0,
+  "sealed_intake_files": 37,
+  "sealed_payload_rows": 36,
+  "status": "PASS",
+  "total_am_rows": 197,
+  "unique_profile_archetype_rows": 980,
+  "zero_q4_rows": 1
+}

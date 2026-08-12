@@ -6,28 +6,30 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G85 MIXED TIME-LIVE COMPLETION ATLAS INTERNALLY VERIFIED, EXTERNAL REVIEW PENDING) ============
+## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G85 MIXED TIME-LIVE COMPLETION ATLAS EXTERNALLY VERIFIED WITH CAVEATS) ============
 
-**LATEST BANKED LEAD — G85 MIXED AM TIME-LIVE COMPLETION ATLAS,
-`INTERNALLY_VERIFIED_BOUNDED_LEAD__EXTERNAL_REVIEW_PENDING`.** Read
-`udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
-`INDEPENDENT_VERIFICATION.json`. Across the full `196 x 5 = 980` preregistered mixed-profile/
+**LATEST EXTERNALLY REVIEWED LEAD — G85 MIXED AM TIME-LIVE COMPLETION ATLAS,
+`VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS.** Read
+`udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
+`EXTERNAL_REVIEW_VERIFICATION.json`. Across the full `196 x 5 = 980` preregistered mixed-profile/
 completion-archetype rows, the exact axial gate is `4u_H-b_H^2<0`. Retaining stationary mixing or
 making only that mixing time-dependent leaves `392` rows pointwise degenerate. Every mixed profile
-has a smooth complete-metric witness conditional on a nonvanishing clock-radial shift (`196`), a
+has a regular complete-metric witness conditional on a nonvanishing clock-radial shift (`196`), a
 clock-norm lift gives `196` regular timelike-seam witnesses but removes the lapse asymptote, and an
 order-`A` mixing taper gives `196` uniformly null-seam witnesses subject to the corrected regular-
 coordinate condition. A nonzero-shift/nonzero-mixing seam is timelike off axis and null on its
 axial subset, so it is not the zero-mixing uniform horizon. These are kinematic completion
-families, not selected histories. The full census, separate cofactor derivation, bounded smooth-
-gate checks, `10/10` hostile catches, six frozen manifests, `1114` current paths, frontier/links,
-and tests (`103 passed, 1 xfailed`) pass. The corrected sealed-review manifest is
-`f8443b0c2032730af68bccca6a528f0714cf012ce36fcf952f705ff688a9d507` (`36` payloads, `37` files
-including the manifest). It has not been transmitted because this exact payload still needs
-explicit user authorization. **NEXT:** obtain that authorization and run the cold adversarial
-review. Do not begin another completion family, select shift/lift/taper, promote the seam to
-physical `X_max`, or fit CMB data.
+families, not selected histories. The sealed `gpt-5.4` reviewer verified all `36/36` payload hashes
+and independently reproduced the determinant/Schur/seam algebra, Kruskal taper, `196`-profile
+census, behavior counts, and all `980` classifications. Binding caveats: complete-metric
+regularity is not geodesic completeness; the internal verifier is implementation-independent but
+not clean-room; hostile catches are regression evidence; and Git/repository gates are separate
+live evidence. Those live gates pass: six frozen manifests, `1114` current paths, frontier/links,
+and tests (`103 passed, 1 xfailed`). **NEXT, NOT YET AUTHORIZED:** determine whether an
+already-founded observer-query/global-completion condition distinguishes the shift-supported,
+lapse-lifted, or tapered families. Do not add another completion family, select one of these,
+promote the seam to physical `X_max`, or fit CMB data.
 
 **PARENT EXTERNALLY REVIEWED LEAD — G84 AM GLOBAL COMPLETION AND PAIR-DIAMETER AUDIT,
 `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS.** Read

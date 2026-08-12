@@ -7,15 +7,20 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G85 BANKED LEAD — INTERNALLY VERIFIED BOUNDED ATLAS; EXTERNAL REVIEW PENDING:**
-`udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`, control the full `196 x 5 = 980` mixed AM time-live completion atlas. The
-exact seam gate is `4u_H-b_H^2<0`. Mixing-only time dependence remains degenerate. Nonvanishing
-clock-radial shift, negative clock-norm lift, and order-`A` mixing taper give distinct conditional
-regular families; only the taper class retains a uniformly null seam, and no family is selected.
-Internal algebra, independent census, `10/10` hostile catches, and repository gates pass. The
-corrected sealed review manifest awaits explicit authorization; do not begin another scientific
-step first.
+**CURRENT G85 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC
+CORRECTIONS:**
+`udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`AUDIT_REPORT.md` and `EXACT_DERIVATION.md`, control the full `196 x 5 = 980` mixed AM time-live
+completion atlas. The exact seam gate is `4u_H-b_H^2<0`. Mixing-only time dependence remains
+degenerate. Nonvanishing clock-radial shift, negative clock-norm lift, and order-`A` mixing taper
+give distinct conditional regular families; only the taper class retains a uniformly null seam,
+and no family is selected. The cold reviewer verified all `36/36` payload hashes and independently
+reproduced the load-bearing algebra, corrected taper identity, exact profile/behavior census, and
+all classifications. Internal algebra, census, `10/10` hostile catches, and live repository gates
+also pass. Preserve four caveats: complete-metric regularity is not geodesic completeness;
+internal verification is not clean-room; catches are regression evidence; and sealed review does
+not own live Git/repository gates. The next ownership audit is not yet authorized; do not begin
+another scientific step first.
 
 **PARENT G84 EXTERNALLY REVIEWED LEAD — `VERIFIED_WITH_CAVEATS`; ZERO NEW SCIENTIFIC CORRECTIONS:**
 `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then

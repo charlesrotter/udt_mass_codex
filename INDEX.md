@@ -10,17 +10,19 @@
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-12): CMB PEAK OPTIMIZATION; current substep = G85 MIXED AM TIME-LIVE
-   COMPLETION ATLAS, internally verified as a bounded lead with external review pending. Read
-   `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`, then
-   `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
-   `INDEPENDENT_VERIFICATION.json`. The full preregistered universe contains `980` rows (`196`
+   COMPLETION ATLAS, externally `VERIFIED_WITH_CAVEATS` with zero new scientific corrections. Read
+   `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+   `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
+   `EXTERNAL_REVIEW_VERIFICATION.json`. The full preregistered universe contains `980` rows (`196`
    mixed profiles times five archetypes). Mixing-only time dependence remains degenerate; shift,
    lapse-lift, and order-`A` taper families give distinct conditional regular completions. Only the
-   taper class has a uniformly null seam, and no class is physically selected. The corrected
-   `36`-payload sealed manifest has SHA-256
-   `f8443b0c2032730af68bccca6a528f0714cf012ce36fcf952f705ff688a9d507`; explicit transmission
-   authorization is pending. Next is cold review only, with no further completion or physical
-   promotion.
+   taper class has a uniformly null seam, and no class is physically selected. The reviewer
+   verified `36/36` payload hashes and independently reproduced the algebra, taper identity,
+   profile/behavior census, and complete classification. Preserve its geodesic-completeness,
+   non-clean-room-independence, regression-catch, and sealed/live-evidence caveats. Next, only
+   after explicit authorization, is an ownership audit asking whether an already-founded
+   observer-query/global-completion condition distinguishes those families; no further completion
+   or physical promotion is authorized.
 5b. PARENT EXTERNALLY REVIEWED SUBSTEP = G84 AM GLOBAL COMPLETION/PAIR-DIAMETER ATLAS,
    externally `VERIFIED_WITH_CAVEATS` with zero new scientific corrections. Read
    `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,

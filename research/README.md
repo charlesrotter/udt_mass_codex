@@ -7,12 +7,15 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**, currently at the internally verified bounded G85 mixed AM time-live
-completion atlas, external review pending. Read
-`../udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`. Its full `980`-row classification retains multiple conditional regular
-completion families and selects none; only the tapered class has a uniformly null seam. The sealed
-intake awaits explicit transmission authorization. Its parent is G84; read
+**CMB PEAK OPTIMIZATION**, currently at the externally `VERIFIED_WITH_CAVEATS` G85 mixed AM
+time-live completion atlas. Read
+`../udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`AUDIT_REPORT.md` and `EXACT_DERIVATION.md`. Its full `980`-row classification retains multiple
+conditional regular completion families and selects none; only the tapered class has a uniformly
+null seam. The reviewer independently reproduced the algebra, taper identity, exact census, and
+classification with zero scientific corrections. Preserve its geodesic-completeness,
+non-clean-room-independence, regression-catch, and sealed/live-evidence caveats. The next ownership
+gate is not yet authorized. Its parent is G84; read
 `../udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 then `AUDIT_REPORT.md`. Its minimal doubled spatial candidate is round `S^3` radius `2R`; zero
 mixing has a conditional common `piR` static-patch asymptote for the central-geodesic observer

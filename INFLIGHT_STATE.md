@@ -1,13 +1,16 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-12 STATUS (RESTART ANCHOR): G85 MIXED AM TIME-LIVE COMPLETION ATLAS INTERNALLY VERIFIED; EXTERNAL REVIEW PENDING.** Read LIVE first, then
-> `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`,
-> `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. The full `980`-row atlas
-> finds mixing-only time dependence degenerate and three distinct conditional regular completion
-> families: shift-supported, lapse-lifted, and mixing-tapered. Only the taper class retains a
-> uniformly null seam. No family, topology, scale, or physical `X_max` is selected. Internal gates
-> pass; the corrected sealed intake awaits explicit transmission authorization. NEXT: external
-> cold review only. Parent G84 is externally `VERIFIED_WITH_CAVEATS`; read
+> **2026-08-12 STATUS (RESTART ANCHOR): G85 MIXED AM TIME-LIVE COMPLETION ATLAS EXTERNALLY `VERIFIED_WITH_CAVEATS`; ZERO SCIENTIFIC CORRECTIONS.** Read LIVE first, then
+> `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
+> `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. The full
+> `980`-row atlas finds mixing-only time dependence degenerate and three distinct conditional
+> regular completion families: shift-supported, lapse-lifted, and mixing-tapered. Only the taper
+> class retains a uniformly null seam. No family, topology, scale, or physical `X_max` is selected.
+> The reviewer verified `36/36` hashes and independently reproduced the algebra, taper identity,
+> exact census, and classification. Preserve its no-geodesic-completeness, non-clean-room,
+> regression-catch, and sealed/live-evidence caveats. Live gates pass. NEXT, NOT AUTHORIZED: test
+> whether an already-founded observer-query/global-completion condition distinguishes the three
+> families. Parent G84 is externally `VERIFIED_WITH_CAVEATS`; read
 > `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 > `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, and `STATUS_LEDGER.tsv`. The minimal doubled AM spatial
 > candidate is round `S^3` radius `2R`; zero mixing has a conditional common `piR` static-patch

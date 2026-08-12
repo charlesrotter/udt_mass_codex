@@ -4,17 +4,21 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-12, G85 mixed time-live completion atlas internally verified; external review pending)
+## TOP — CURRENT POINTER (2026-08-12, G85 mixed time-live completion atlas externally verified with caveats)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
 **CMB PEAK OPTIMIZATION**, with current substep **MIXED AM TIME-LIVE COMPLETION ATLAS**.
-Read `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`. All `980` preregistered rows are classified: mixing-only time dependence is
-degenerate, while shift, lapse-lift, and taper families provide different conditional regular
-completions. Only the taper class gives a uniformly null seam and no family is selected. Internal
-verification and repository gates pass; the corrected sealed manifest awaits explicit transmission
-authorization before cold review. Its parent is G84: read
+Read `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`AUDIT_REPORT.md` and `EXACT_DERIVATION.md`. All `980` preregistered rows are classified:
+mixing-only time dependence is degenerate, while shift, lapse-lift, and taper families provide
+different conditional regular completions. Only the taper class gives a uniformly null seam and no
+family is selected. The sealed reviewer independently reproduced the load-bearing algebra,
+Kruskal-taper identity, full profile/behavior census, and all classifications with zero scientific
+corrections. Preserve the geodesic-completeness, non-clean-room-independence, regression-catch, and
+sealed/live-evidence caveats. Live repository gates pass. The next candidate gate—requiring new
+authorization—is ownership by an already-founded observer-query/global-completion condition. Its
+parent is G84: read
 `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 then `AUDIT_REPORT.md`. The minimal doubled spatial candidate is round `S^3` radius `2R`; the
 zero-mixing branch has a conditional shared `piR` static-patch asymptote for the central-geodesic

@@ -1,0 +1,47 @@
+{
+  "banked_raw_review_sha256": "bb80763cc1108befc22f919924edf81ac4ae42a0a4e52cdf95c19b7e2528a499",
+  "banked_review_transcript_sha256": "618261429e468445e05dd52add60236fd6800c84cc407c8ead29c64c5ac94bbb",
+  "binding_caveats": [
+    "Complete metric means all declared tensor channels in this construction, not geodesic completeness; geodesic completeness is unproved.",
+    "The internal verifier is implementation-independent but not clean-room independent because it shares frozen data and the symbolic stack.",
+    "The ten hostile mutations are regression evidence rather than standalone proof of the mathematics.",
+    "Preregistration chronology and repository-wide gates lie outside the sealed intake and require separate live-repository replay."
+  ],
+  "calculation_commit": "c843400e14773f47408cfac40882dfbf950b39a2",
+  "external_classification_counts": {
+    "CONDITIONAL_ON_NONVANISHING_SHIFT": 196,
+    "POINTWISE_DEGENERATE": 392,
+    "REGULAR_LORENTZ_NONNULL_SEAM": 196,
+    "REGULAR_LORENTZ_UNIFORM_NULL_SEAM": 196
+  },
+  "external_profile_census": {
+    "behavior_counts": {
+      "CENTER_OFF_NO_INTERIOR_ROOT": 24,
+      "ENDPOINT_TAPER_NO_INTERIOR_ROOT": 20,
+      "INTERIOR_SIGN_CHANGE": 36,
+      "PERSISTENT_SIGN_NO_INTERIOR_ROOT": 112,
+      "ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT": 4
+    },
+    "mixed_rows": 196,
+    "negative_q4": 92,
+    "positive_q4": 104,
+    "profile_archetype_rows": 980,
+    "total_am_rows": 197,
+    "unique_profile_archetype_rows": 980,
+    "zero_mixing_rows": 1
+  },
+  "landing": "COMPLETE_METRIC_CHANNELS_ADMIT_MULTIPLE_KINEMATIC_COMPLETION_CLASSES__NO_NATIVE_HISTORY_SELECTED",
+  "maximum_conclusion": "BOUNDED_KINEMATIC_TIME_LIVE_COMPLETION_ARCHETYPE_ATLAS_ON_THE_G84_CANDIDATE",
+  "newline_normalization": "The terminal capture used script CRLF and the raw final answer lacked a terminal newline. The banked readable artifacts are LF-normalized; both original-capture and banked hashes are recorded.",
+  "original_raw_review_sha256": "e7273865e0d64eff51161470f4a349f6f5a6465a7673ca998d43d476b652a09d",
+  "original_review_transcript_sha256": "7b5c8275c98c673b7804aaae11914621e7a80669313d85c132276a607f17ffc1",
+  "preregistration_commit": "473cf4a1c2344753368ef73e4b4de5f4b0c2ace2",
+  "review_model": "gpt-5.4",
+  "review_session_id": "019ff661-6437-7740-8082-b19d08131ddd",
+  "schema": "udt-cmb-g85-external-review-result-v1",
+  "scientific_corrections": 0,
+  "sealed_intake_files": 37,
+  "sealed_manifest_sha256": "f8443b0c2032730af68bccca6a528f0714cf012ce36fcf952f705ff688a9d507",
+  "sealed_payload_rows": 36,
+  "status": "VERIFIED_WITH_CAVEATS"
+}
