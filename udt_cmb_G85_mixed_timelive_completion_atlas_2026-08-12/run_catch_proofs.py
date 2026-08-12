@@ -40,7 +40,7 @@ def validate(atlas: list[dict[str, str]], result: dict[str, object], manifest: l
             assert "<0" in row["u_H_condition"]
         elif archetype == "A05_MIXING_TAPER_BEFORE_SEAM":
             assert row["classification"] == "REGULAR_LORENTZ_UNIFORM_NULL_SEAM"
-            assert "A*h_tilde" in row["h_H_condition"]
+            assert "A*h_tilde_Kruskal_smooth" in row["h_H_condition"]
         else:
             raise AssertionError(archetype)
         assert row["frozen_cell_preserved"] == "true"
@@ -93,7 +93,7 @@ def main() -> None:
 
     weak_taper = copy.deepcopy(atlas)
     target = next(row for row in weak_taper if row["archetype_id"] == "A05_MIXING_TAPER_BEFORE_SEAM")
-    target["h_H_condition"] = "h_H=0_only"
+    target["h_H_condition"] = "h=A*h_tilde_of_singular_tau"
     catches.append(expect_failure("mere_zero_value_substituted_for_order_A_taper", lambda: validate(weak_taper, result, manifest)))
 
     cell_mutation = copy.deepcopy(atlas)

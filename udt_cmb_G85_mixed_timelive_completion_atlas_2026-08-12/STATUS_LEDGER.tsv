@@ -5,7 +5,7 @@ time_dependence_of_h_alone_does_not_repair_rank	DERIVED_WITHIN_ARCHETYPE	u_H=b_H
 radial_shift_completion_exists_for_all_196	DERIVED_CONSTRUCTIVE_CONDITIONAL	G84 R_times_S3 candidate with smooth nonvanishing shift gate	physical owner and geodesic/global causal completeness
 lapse_lift_completion_exists_for_all_196	DERIVED_CONSTRUCTIVE_CONDITIONAL	G84 R_times_S3 candidate with negative seam clock norm	physical owner; this class removes lapse asymptote
 nonzero_mix_lapse_zero_seam_has_nonuniform_causal_type	DERIVED_WITHIN_METRIC_BLOCK	regular shift-supported completion	different complete metric block or selected continuation
-order_A_mix_taper_has_smooth_local_bifurcate_extension	DERIVED_CONSTRUCTIVE_CONDITIONAL	G84 zero-mix base completion near seam	global physical selection and arbitrary weaker taper rates
+order_A_mix_taper_has_smooth_local_bifurcate_extension	DERIVED_CONSTRUCTIVE_CONDITIONAL	G84 zero-mix base completion with h_tilde smooth in regular U V coordinates	arbitrary singular-static-time dependence weaker taper rates and global physical selection
 shift_supported_zero_mix_seam_is_uniformly_null	DERIVED_CONSTRUCTIVE_CONDITIONAL	declared R_times_S3 completion	physical observer wall or X_max identification
 all_980_profile_archetype_rows_classified	OBSERVED_EXACT_CENSUS	196 frozen profiles times five preregistered archetypes	continuum of all smooth completion functions
 one_native_completion_selected	OPEN_NOT_DERIVED	no selector present	native history or global-completion law

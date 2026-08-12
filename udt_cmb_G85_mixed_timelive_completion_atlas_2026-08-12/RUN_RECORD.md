@@ -27,14 +27,16 @@ SHA-256 identities are:
 
 ```text
 1eb2ba55d54005f909a093dcacdf1e16509b096d3a0b52e5f843a2bac8043ffd  DERIVATION_RESULT.json
-6b6fb6923871b63183b7abbd4e3cbf8d677b0295ac74f898da1f8ed73627b298  INDEPENDENT_VERIFICATION.json
+577014c75b413760c702e0fb381dc7c5d8e80ae3e20fbea69d9aa279ccfebd9b  INDEPENDENT_VERIFICATION.json
 9c8dd2fb7429a2a9c8b667154a4f527bf8c35c44f28760fd52a03cbfd4077275  CATCH_PROOF_RESULT.json
 71a95b03b3b45242fe1687623126ba8b6b00d92a7551e8683116fb16d1075d09  PACKAGE_VERIFICATION.json
 94c94dcf88da0742b71dea6a9224a46fe597cedaabe32bd31fffb11b2859b445  REPOSITORY_GATES.json
 ```
 
-The production atlas SHA-256 is
-`459c74c6e6775d27ac727540e691dc62588054b60b77340c53a96eee6775d3b7`.
+The corrected production atlas SHA-256 is
+`f44ae2986b9df8b62327617d21b016f88c2d38e4818540bc571307b8046e037d`.
+The precision correction changes only the explicit regular-coordinate condition on the zero-shift
+taper; it does not change the derivation-result or classification-count hashes.
 
 ## Bounds
 

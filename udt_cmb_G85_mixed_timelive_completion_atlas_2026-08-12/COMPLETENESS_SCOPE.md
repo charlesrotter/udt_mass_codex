@@ -13,8 +13,9 @@ This package is one bounded solution-space tile.
 5. **Boundary/regularity:** inherited G75 cell is fixed exactly; equator, axes, poles, shift-zero
    times, and taper order are audited. Geodesic completeness is not proved.
 6. **Topology:** only the G84 minimal doubled candidate is tested; it remains conditional.
-7. **Dynamical character:** time-dependent kinematic witnesses are included; no on-shell dynamics
-   or characteristic operator exists.
+7. **Dynamical character:** time-dependent kinematic witnesses are included; the zero-shift taper
+   is restricted to coefficients smooth in the regular completion chart; no on-shell dynamics or
+   characteristic operator exists.
 8. **Branches:** all `196` frozen mixed profiles and five preregistered archetypes are classified;
    the continuum of all smooth completion functions is not exhausted.
 9. **Stability:** not tested and not relevant to this metric-completion gate.

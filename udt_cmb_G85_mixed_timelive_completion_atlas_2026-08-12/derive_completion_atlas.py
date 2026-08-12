@@ -144,7 +144,7 @@ def channel_atlas() -> list[dict[str, object]]:
         },
         {
             "channel_case": "C06_TAPER_ORDER_A_ZERO_SHIFT",
-            "u_H": "0", "b_H": "0", "h_H": "A*h_tilde",
+            "u_H": "0", "b_H": "0", "h_H": "A*h_tilde_Kruskal_smooth",
             "axis_gate": "static_chart_zero", "full_metric": "SMOOTH_LOCAL_BIFURCATE_EXTENSION",
             "seam_type": "UNIFORMLY_NULL",
             "scope": "Kruskal_local; h*dτ=(h_tilde/4)*(U*dV-V*dU)",
@@ -187,9 +187,9 @@ def archetype_rows(profiles: list[dict[str, object]]) -> list[dict[str, object]]
             "regular Lorentz global witness; seam timelike and lapse asymptote removed",
         ),
         "A05_MIXING_TAPER_BEFORE_SEAM": (
-            "0", "zero_or_nonzero", "h=A*h_tilde near seam", "REGULAR_LORENTZ_UNIFORM_NULL_SEAM",
-            "C-infinity gate equals original h on cell and A*h_tilde near seam",
-            "zero-shift local bifurcate or nonzero-shift global witness; mere h_H=0 is insufficient",
+            "0", "zero_or_nonzero", "h=A*h_tilde_Kruskal_smooth near seam", "REGULAR_LORENTZ_UNIFORM_NULL_SEAM",
+            "C-infinity gate equals original h on cell; zero-shift requires h_tilde smooth in U,V",
+            "zero-shift local bifurcate or nonzero-shift global time-live witness; mere h_H=0 is insufficient",
         ),
     }
     output: list[dict[str, object]] = []

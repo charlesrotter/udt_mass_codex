@@ -18,6 +18,7 @@ PACKAGE = (
     "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json", "PACKAGE_VERIFICATION.json",
     "REPOSITORY_GATES.json", "derive_completion_atlas.py", "verify_independent.py",
     "run_catch_proofs.py", "verify_package.py", "verify_repository_gates.py", "REVIEW_DISPATCH.md",
+    "ZERO_SHIFT_TAPER_PRECISION_PREREGISTRATION.md", "REVIEW_MANIFEST_CORRECTION.md",
 )
 
 
@@ -41,7 +42,7 @@ def main() -> None:
         path = ROOT / row["path"]
         assert path.is_file() and sha(path) == row["sha256"]
         records.append({"path": row["path"], "sha256": row["sha256"], "role": "frozen_source"})
-    assert len(records) == len({row["path"] for row in records}) == 34
+    assert len(records) == len({row["path"] for row in records}) == 36
     with (HERE / "REVIEW_MANIFEST.tsv").open("w", newline="", encoding="utf-8") as stream:
         writer = csv.DictWriter(stream, fieldnames=("path", "sha256", "role"), delimiter="\t", lineterminator="\n")
         writer.writeheader()

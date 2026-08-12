@@ -139,7 +139,9 @@ def kruskal_taper_check() -> dict[str, str]:
     return {
         "coefficient_dV": sp.sstr(coeff_dv),
         "coefficient_dU": sp.sstr(coeff_du),
-        "result": "SMOOTH_WHEN_HTILDE_IS_SMOOTH",
+        "required_coordinate_home": "HTILDE_SMOOTH_IN_REGULAR_U_V_CHART",
+        "singular_static_tau_dependence_automatically_allowed": "false",
+        "result": "SMOOTH_WHEN_HTILDE_IS_KRUSKAL_SMOOTH",
     }
 
 

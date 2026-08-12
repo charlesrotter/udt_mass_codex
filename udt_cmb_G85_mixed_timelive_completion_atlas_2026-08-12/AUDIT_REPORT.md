@@ -13,8 +13,9 @@ Across all `196 x 5 = 980` preregistered rows:
 - `392` are pointwise degenerate: stationary-germ and mixing-only time-live classes;
 - `196` are regular conditional on a nonvanishing time-live radial shift;
 - `196` are regular with a timelike, non-asymptotic seam after a clock-norm lift; and
-- `196` admit a uniformly null seam after an order-`A` mixing taper, either locally bifurcate at
-  zero shift or globally shift-supported on the declared candidate.
+- `196` admit a uniformly null seam after an order-`A` mixing taper: locally bifurcate at zero
+  shift when the residual coefficient is smooth in regular `U,V` coordinates, or globally
+  time-live and shift-supported on the declared candidate.
 
 The nonzero-shift, nonzero-mixing seam is timelike away from its axial subset and null on that
 subset. Therefore it is not the same uniform horizon-like object as the zero-mixing G84 control.

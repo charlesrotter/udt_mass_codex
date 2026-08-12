@@ -4,6 +4,6 @@ C02_DERIVATIVE_ONLY_MIXING	0	0	nonzero_function_of_time	0	POINTWISE_DEGENERATE_A
 C03_NONZERO_RADIAL_SHIFT	0	nonzero	nonzero	-b_H**2<0	REGULAR_LORENTZ	TIMELIKE_OFF_AXIS__NULL_ON_AXIAL_SUBSET	global R_times_S3 witness when shift gate is smooth
 C04_NEGATIVE_LAPSE_LIFT	negative	0	nonzero	4*u_H<0	REGULAR_LORENTZ	TIMELIKE_EVERYWHERE	global R_times_S3 witness when lift gate is smooth
 C05_TAPER_PLUS_SHIFT	0	nonzero	0	-b_H**2<0	REGULAR_LORENTZ	UNIFORMLY_NULL	global R_times_S3 witness
-C06_TAPER_ORDER_A_ZERO_SHIFT	0	0	A*h_tilde	static_chart_zero	SMOOTH_LOCAL_BIFURCATE_EXTENSION	UNIFORMLY_NULL	Kruskal_local; h*dτ=(h_tilde/4)*(U*dV-V*dU)
+C06_TAPER_ORDER_A_ZERO_SHIFT	0	0	A*h_tilde_Kruskal_smooth	static_chart_zero	SMOOTH_LOCAL_BIFURCATE_EXTENSION	UNIFORMLY_NULL	Kruskal_local; h*dτ=(h_tilde/4)*(U*dV-V*dU)
 C07_SHIFT_ZERO_CROSSING	0	0_at_t0	nonzero	0_at_t0	DEGENERATE_AT_T0	REGULARITY_NOT_UNIFORM_IN_TIME	hostile boundary of C03
 C08_GENERAL_AXIS_GATE	free	free	irrelevant_on_axis	4*u_H-b_H**2	REGULAR_LORENTZ_IFF_GATE_NEGATIVE	requires induced-metric test	declared positive radial coefficient 4

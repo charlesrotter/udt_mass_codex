@@ -13,8 +13,9 @@ For every one of the `196` nonzero-mixing AM controls:
   `R x S^3` candidate while preserving the exact G75 north cell;
 - a smooth negative clock-norm lift also gives a regular Lorentzian metric but removes the
   stationary lapse-zero asymptote; and
-- tapering the angular mixing at least as fast as the lapse gives a smooth uniformly null seam,
-  with a local zero-shift bifurcate realization or a global shift-supported realization.
+- tapering the angular mixing at least as fast as the lapse gives a smooth uniformly null seam
+  when the remaining zero-shift coefficient is smooth in the regular completion chart; a separate
+  shift-supported construction gives a global time-live realization.
 
 These are mutually distinct kinematic completions. The current metric identities select none of
 them. The exact landing is
@@ -147,7 +148,10 @@ mixing on the inherited cell and satisfying
 h=A h_tilde,   A=cos(chi)^2                         (10)
 ```
 
-near the seam. A stronger explicit witness sets `h=0` on an equatorial band by using (6).
+near the seam, with `h_tilde` smooth in regular `U,V` completion coordinates. The stationary
+subcase `h_tilde=h_tilde(A,angles)` is included. Arbitrary dependence on the singular static time
+`tau=log(V/U)` is not automatically smooth. A stronger explicit witness sets `h=0` on an
+equatorial band by using (6).
 
 For the zero-shift bifurcate chart, use the G84 coordinates
 
@@ -164,7 +168,9 @@ Then
 h dτ=(h_tilde/4)(U dV-V dU),                        (11)
 ```
 
-which is smooth. Equation (10), not merely `h_H=0`, is the sufficient zero-shift rate condition.
+which is smooth under the stated regular-coordinate condition. Equation (10), not merely `h_H=0`,
+is the sufficient zero-shift rate condition; it is not permission for arbitrary static-time
+dependence.
 Alternatively, combine the taper with (7); the ambient metric is globally regular in the
 `R x S^3` chart and equation (5) gives a uniformly null seam.
 

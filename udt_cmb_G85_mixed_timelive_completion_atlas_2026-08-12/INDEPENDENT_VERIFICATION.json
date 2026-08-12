@@ -9,7 +9,9 @@
   "kruskal_taper": {
     "coefficient_dU": "-V*htilde/4",
     "coefficient_dV": "U*htilde/4",
-    "result": "SMOOTH_WHEN_HTILDE_IS_SMOOTH"
+    "required_coordinate_home": "HTILDE_SMOOTH_IN_REGULAR_U_V_CHART",
+    "result": "SMOOTH_WHEN_HTILDE_IS_KRUSKAL_SMOOTH",
+    "singular_static_tau_dependence_automatically_allowed": "false"
   },
   "numeric_witnesses": {
     "grid_checks": 561,
