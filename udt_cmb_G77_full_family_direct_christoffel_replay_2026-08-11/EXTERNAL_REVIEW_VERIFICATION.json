@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "all_reviewed_payload_hashes": true,
+    "bounded_scope_preserved": true,
+    "exact_40_unique_payload_rows": true,
+    "external_raw_hash": true,
+    "external_transcript_hash": true,
+    "no_external_findings": true,
+    "no_required_corrections": true,
+    "required_landing_exact": true,
+    "review_manifest_hash": true
+  },
+  "external_raw_sha256": "36e4431d89581c514efca4fed1d56df1bf01416a07cee7d7691cb9132bf37441",
+  "external_transcript_sha256": "69a1e0218fe6bd462e8da4fb330f2133f26a41c49df07061173f5e2cfabf4297",
+  "landing": "VERIFIED_FULL_FAMILY_DIRECT_REPLAY__FOUR_G76_EXCEPTIONS_RESOLVED_IN_G77",
+  "manifest_sha256": "073351d373c27801553aeb347808216c5654c3b3a17665ded2eb79311718346a",
+  "schema": "udt-cmb-g77-external-review-adjudication-verification-v1",
+  "status": "PASS"
+}

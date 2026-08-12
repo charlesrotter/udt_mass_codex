@@ -1,0 +1,9 @@
+{
+  "correction_list": [],
+  "landing": "VERIFIED_FULL_FAMILY_DIRECT_REPLAY__FOUR_G76_EXCEPTIONS_RESOLVED_IN_G77",
+  "manifest_listed_files": 40,
+  "manifest_sha256": "073351d373c27801553aeb347808216c5654c3b3a17665ded2eb79311718346a",
+  "reviewer": "gpt-5.4",
+  "schema": "udt-cmb-g77-external-review-result-v1",
+  "status": "PASS"
+}
