@@ -1,0 +1,55 @@
+{
+  "all_metric_signatures_lorentzian": true,
+  "all_split_preserving_frame_classifications_covariant": true,
+  "counts": {
+    "g63_points": 42,
+    "g63_samples": 14,
+    "g85_archetypes": 3,
+    "g85_controls": 3,
+    "g85_profiles": 196,
+    "g85_rows": 1764,
+    "g85_unique_metric_jets": 1179,
+    "total_rows": 1806,
+    "total_unique_metric_jets": 1221
+  },
+  "maximum_conclusion": "bounded_pointwise_curvature_ownership_of_registered_split_only",
+  "no_physical_history_selected": true,
+  "no_query_or_realization_selected": true,
+  "owner_counts": {
+    "CURVATURE_ALIGNED_BUT_NOT_UNIQUE": 3,
+    "RICCI_DERIVED_WITH_WEYL_ALIGNMENT": 21,
+    "SPLIT_MISALIGNED_WITH_CURVATURE_PRINCIPALS": 1194,
+    "WEYL_AND_RICCI_AGREE_ON_SPLIT": 588
+  },
+  "petrov_counts": {
+    "D": 591,
+    "I": 1215
+  },
+  "primary_landing": "CURVATURE_OWNS_REGISTERED_SPLIT_ONLY_ON_A_PROPER_SUBSET_OF_TESTED_STRATA",
+  "schema": "udt-curvature-principal-split-ownership-v1",
+  "scope_owner_counts": {
+    "G63": {
+      "SPLIT_MISALIGNED_WITH_CURVATURE_PRINCIPALS": 42
+    },
+    "G85": {
+      "CURVATURE_ALIGNED_BUT_NOT_UNIQUE": 3,
+      "RICCI_DERIVED_WITH_WEYL_ALIGNMENT": 21,
+      "SPLIT_MISALIGNED_WITH_CURVATURE_PRINCIPALS": 1152,
+      "WEYL_AND_RICCI_AGREE_ON_SPLIT": 588
+    }
+  },
+  "source_manifest_rows": 12,
+  "status": "PRODUCTION_COMPLETE",
+  "unique_metric_jet_owner_counts": {
+    "CURVATURE_ALIGNED_BUT_NOT_UNIQUE": 3,
+    "RICCI_DERIVED_WITH_WEYL_ALIGNMENT": 21,
+    "SPLIT_MISALIGNED_WITH_CURVATURE_PRINCIPALS": 1194,
+    "WEYL_AND_RICCI_AGREE_ON_SPLIT": 3
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "sympy": "1.13.1",
+    "torch": "2.5.1+cu121"
+  }
+}

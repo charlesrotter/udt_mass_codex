@@ -1,0 +1,15 @@
+catch	status
+missing_G63_row	CAUGHT
+missing_G85_profile_identity	CAUGHT
+collapse_D_to_II	CAUGHT
+invent_type_O_aether_landing	CAUGHT
+promote_history_selection	CAUGHT
+promote_query_selection	CAUGHT
+corrupt_source_hash	CAUGHT
+false_frame_covariance	CAUGHT
+independent_check_removed	CAUGHT
+loosen_tensor_error	CAUGHT
+wrong_package_landing	CAUGHT
+owner_count_promotion	CAUGHT
+founding_D_without_O_branch	CAUGHT
+remove_unresolved_zero_shift_scope	CAUGHT

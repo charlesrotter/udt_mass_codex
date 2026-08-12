@@ -1,0 +1,27 @@
+{
+  "checks": 1806,
+  "max_ladder_ricci_outer_error": 1.9728174672092363e-08,
+  "max_ladder_weyl_outer_error": 2.6600303158697933e-08,
+  "max_ricci_relative_error": 7.055556072623316e-09,
+  "max_weyl_relative_error": 5.7420848945201e-09,
+  "owner_counts": {
+    "CURVATURE_ALIGNED_BUT_NOT_UNIQUE": 3,
+    "RICCI_DERIVED_WITH_WEYL_ALIGNMENT": 21,
+    "SPLIT_MISALIGNED_WITH_CURVATURE_PRINCIPALS": 1194,
+    "WEYL_AND_RICCI_AGREE_ON_SPLIT": 588
+  },
+  "pass_count": 1806,
+  "petrov_counts": {
+    "D": 591,
+    "I": 1215
+  },
+  "schema": "udt-curvature-split-independent-v1",
+  "status": "PASS",
+  "unique_metric_jet_owner_counts": {
+    "CURVATURE_ALIGNED_BUT_NOT_UNIQUE": 3,
+    "RICCI_DERIVED_WITH_WEYL_ALIGNMENT": 21,
+    "SPLIT_MISALIGNED_WITH_CURVATURE_PRINCIPALS": 1194,
+    "WEYL_AND_RICCI_AGREE_ON_SPLIT": 3
+  },
+  "unique_metric_jets": 1221
+}

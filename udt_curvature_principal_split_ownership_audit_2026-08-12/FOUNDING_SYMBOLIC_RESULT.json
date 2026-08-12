@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "conformally_flat_general_solution_check": true,
+    "ricci_gap_on_conformally_flat_family": true,
+    "weyl_trace": true
+  },
+  "classification_when_w_nonzero": "D",
+  "classification_when_w_zero": "O",
+  "magnetic_weyl": "zero",
+  "maximum_conclusion": "local_pointwise_split_ownership_only_not_history_or_relation_selection",
+  "metric_parameterization": "f(r)=exp(-2*phi(r)); c_E constant",
+  "ricci_gap_on_type_O_family": "a/r",
+  "ricci_pair_eigenvalue": "-(r*Derivative(f(r), (r, 2)) + 2*Derivative(f(r), r))/(2*r)",
+  "ricci_pair_minus_screen": "-(r**2*Derivative(f(r), (r, 2)) - 2*f(r) + 2)/(2*r**2)",
+  "ricci_screen_eigenvalue": "-(r*Derivative(f(r), r) + f(r) - 1)/r**2",
+  "scalar_curvature": "-(r**2*Derivative(f(r), (r, 2)) + 4*r*Derivative(f(r), r) + 2*f(r) - 2)/r**2",
+  "schema": "udt-founding-spherical-curvature-split-v1",
+  "split_result": {
+    "w_nonzero": "UNIQUE_WEYL_DERIVED_SPLIT",
+    "w_zero_a_nonzero": "RICCI_DERIVED_WHEN_WEYL_DEGENERATE",
+    "w_zero_a_zero": "NO_TESTED_POINTWISE_CURVATURE_OWNER"
+  },
+  "status": "PASS",
+  "type_O_local_family": "f(r)=1+a*r+b*r**2",
+  "weyl_amplitude": "(r**2*Derivative(f(r), (r, 2)) - 2*r*Derivative(f(r), r) + 2*f(r) - 2)/(6*r**2)",
+  "weyl_electric_eigenvalues": [
+    "(r**2*Derivative(f(r), (r, 2)) - 2*r*Derivative(f(r), r) + 2*f(r) - 2)/(6*r**2)",
+    "-(r**2*Derivative(f(r), (r, 2)) - 2*r*Derivative(f(r), r) + 2*f(r) - 2)/(12*r**2)",
+    "-(r**2*Derivative(f(r), (r, 2)) - 2*r*Derivative(f(r), r) + 2*f(r) - 2)/(12*r**2)"
+  ]
+}

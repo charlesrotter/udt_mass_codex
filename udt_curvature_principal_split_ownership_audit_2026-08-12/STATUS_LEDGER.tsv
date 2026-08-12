@@ -1,0 +1,16 @@
+object	status	result	scope_limit
+founding_spherical_nonzero_Weyl	DERIVED	Petrov D; registered temporal-radial versus angular split is the unique Weyl principal 2+2 split	local conditional founding family; no phi equation or history selected
+founding_spherical_type_O	DERIVED	Weyl vanishes exactly for exp(-2phi)=1+a*r+b*r^2	local family only
+founding_type_O_a_nonzero	DERIVED	Ricci pair/screen eigenvalue gap a/r recovers the split	pointwise away from a=0 and r=0
+founding_type_O_a_zero	DERIVED	neither tested Weyl nor Ricci pointwise curvature operator owns the split	other curvature derivatives and global/query structure not tested
+G63_R17	OBSERVED	27/27 points are Petrov I and the registered split is misaligned with Weyl principals and not Ricci-invariant	9 bounded off-shell field-profile witnesses at p/q/r
+G63_complete_timelive	OBSERVED	15/15 points are Petrov I and the registered split is misaligned with Weyl principals and not Ricci-invariant	5 bounded local off-shell witnesses at p/q/r
+G85_A03_nonconstant_profile	OBSERVED	576/576 profile-control rows are Petrov I and split-misaligned	192 profiles x 3 controls; one chosen shift amplitude and seam point
+G85_A03_constant_profile	OBSERVED	12/12 rows are Petrov I with the registered split one of three finite Weyl principal candidates	4 constant profiles x 3 controls
+G85_A04_nonconstant_profile	OBSERVED	576/576 rows are Petrov I and split-misaligned	192 profiles x 3 controls; one chosen lapse-lift amplitude and seam point
+G85_A04_constant_profile_generic	OBSERVED	9/9 rows are Petrov I with the registered split one of three finite Weyl principal candidates	3 constant amplitudes x 3 controls
+G85_A04_constant_profile_half	OBSERVED	3/3 rows are Petrov D and curvature-aligned but Ricci has no pair-screen spectral gap	one constant amplitude x 3 controls
+G85_A05_shift_supported_taper	OBSERVED	588/588 identity rows are Petrov D with Weyl and Ricci agreeing on the registered split	3 unique metric jets repeated across 196 preserved source identities; chosen equatorial h=0 witness
+G85_A05_ZERO_SHIFT_KRUSKAL_LOCAL	CONDITIONAL	INSUFFICIENT_OWNED_JET	not inserted into the 1806-row numerical atlas; the source does not own the complete regular second jet required by the preregistration
+package_landing	VERIFIED_WITH_CAVEATS	CURVATURE_OWNS_REGISTERED_SPLIT_ONLY_ON_A_PROPER_SUBSET_OF_TESTED_STRATA	bounded pointwise local split ownership; independent and adversarial verification required before stronger grade
+history_query_realization_selection	OPEN	no physical g Q or F selected	this audit cannot supply the missing admissibility law
