@@ -1,0 +1,6 @@
+archetype_id	stationary_polynomial_germ_at_seam	u_H	b_H	h_H	time_dependence	classification_question
+A01_PRESERVE_STATIONARY_GERM	preserved	0	0	nonzero_constant	none	does the G84 obstruction persist invariantly
+A02_MIXING_ONLY_TIMELIVE	nonzero seam mixing preserved	0	0	nonzero_function_of_time	h only	can derivatives of mixing repair pointwise rank
+A03_RADIAL_SHIFT_TIMELIVE	nonzero seam mixing preserved	0	nonzero_function_of_time	nonzero_function_of_time	b and h	can a complete clock-radial channel give a regular global metric while retaining lapse zero
+A04_LAPSE_LIFT_TIMELIVE	nonzero seam mixing preserved	negative_function_of_time	0	nonzero_function_of_time	u and h	can a complete clock norm give a regular global metric while removing lapse zero
+A05_MIXING_TAPER_BEFORE_SEAM	modified only outside inherited cell	0	zero_or_nonzero	0	free continuation beyond x=1	can a smooth continuation make the candidate seam uniformly null without selecting it

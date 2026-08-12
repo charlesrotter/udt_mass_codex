@@ -1,0 +1,15 @@
+gate_id	claim_under_test	failure_condition	maximum_consequence
+F01	full_mixed_profile_census	row count is not exactly 196 or any identity duplicates	package fails
+F02	five_archetypes_per_profile	atlas is not exactly 980 unique profile/archetype rows	package fails
+F03	axis_regular_lorentz_gate	independent algebra does not reproduce 4*u_H-b_H^2<0	axis classification withdrawn
+F04	time_derivatives_do_not_repair_rank	any derivative-only witness with u_H=b_H=0 is pointwise nondegenerate	mixing-only classification withdrawn
+F05	radial_shift_survivor	b_H stays nonzero but any complete-domain witness loses Lorentz signature	constructive shift class withdrawn
+F06	shift_zero_crossing	b_H reaches zero with u_H=0 and verifier does not detect axial degeneracy	package fails
+F07	lapse_lift_survivor	u_H<0 and b_H=0 but witness loses Lorentz signature	constructive lapse class withdrawn
+F08	uniform_null_test	h_H!=0 is classified uniformly null at the seam	package fails
+F09	cell_preservation	constructive witness changes any frozen metric component on 0<=x<=1	constructive class withdrawn
+F10	global_smoothness_scope	claimed witness lacks C2 joins or a stated Cinfinity replacement	constructive class withdrawn
+F11	no_physical_selection	any result row promotes profile topology R X_max source action matter bootstrap or signal	package fails
+F12	source_integrity	any frozen source hash differs from SOURCE_MANIFEST.tsv	package fails
+F13	independent_verification	second implementation shares the production determinant/classifier code	bank at LEAD only
+F14	repository_gates	frozen manifests current paths frontier links tests or protected metadata regress	no bank or push

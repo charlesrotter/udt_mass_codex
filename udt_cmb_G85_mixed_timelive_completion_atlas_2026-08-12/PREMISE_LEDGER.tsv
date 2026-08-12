@@ -1,0 +1,16 @@
+premise_id	object	status	use	forbidden_promotion
+P01	c_E	OBSERVED_CALIBRATION	dimensionless time tau=c_E*t/R only	path selector evolution coefficient or local signal speed
+P02	R	SYMBOLIC_OPEN	overall positive scale retained	numerical value or X_max selected
+P03	AM_lapse	CHOSE_CONTROL	frozen A=1-x^2/4 control and u=-cos(chi)^2 baseline	physical profile selected
+P04	196_nonzero_AM_profiles	CHOSE_CONTROL	full exact G84 mixed census	profile ranking or physical source
+P05	G75_north_cell	INHERITED_CONTROL	exact preservation on 0<=x<=1	global authority beyond the registered cell
+P06	G84_minimal_doubled_S3	CONDITIONAL_CANDIDATE	bounded global arena for this atlas	unique or physical topology
+P07	time_live_u_b_h	FREE_AND_EXPLORED	symbolic smooth completion functions	native dynamics or on-shell history
+P08	clock_radial_shift_b	FREE_AND_EXPLORED	complete-metric regularity channel	preferred shift or observer mechanics
+P09	lapse_lift_u	FREE_AND_EXPLORED	alternative complete-metric regularity channel	selected removal of asymptote
+P10	mixing_taper	FREE_AND_EXPLORED	alternative continuation outside G75 authority	selected physical profile repair
+P11	C2_and_Cinfinity_regularization	NUMERICAL_AND_ANALYTIC_METHOD	curvature-regular witness and smooth bump existence	boundary law or merit filter
+P12	time_interval	BOUNDED_CONTROL	classify nonvanishing conditions uniformly in time	complete physical history
+P13	physical_X_max	WORKING_FRAME_OPEN_REALIZATION	ownership guard only	identified with chi=pi/2
+P14	source_action_matter_bootstrap	OPEN_INACTIVE	none	used to select completion
+P15	native_evolution_law	OPEN_NOT_SUPPLIED	none	compatibility or regularity called dynamics
