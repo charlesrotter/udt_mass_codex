@@ -1,0 +1,15 @@
+item	value	provenance	role	not_covered
+founding_metric	-exp(-2phi)c_E^2 dt^2+exp(2phi)dr^2+r^2dOmega^2	pinned-by-THEORY: conditional founding readout	analytic spherical anchor	no native equation or global history for phi
+G63_samples	exact 14 frozen rows	pinned-by-THEORY: bounded G63 preregistered universe	complete-witness point census	not the complete metric solution space
+G63_points	registered p plus existing endpoint-atlas q and r	pinned-by-HABIT: inherited bounded local tiles	local persistence check	other points; global crossings
+G85_profiles	exact 196 nonzero-mixing AM profiles	pinned-by-THEORY: frozen G85 source census	retain profile dependence	other lapse families and physical selection
+G85_classes	A03;A04;shift-supported A05	pinned-by-THEORY: G85 regular constructive classes	regular seam witnesses	zero-shift A05 if regular second jet is unowned
+G85_seam_point	chi=pi/2;theta=1.1;tau in declared finite control set	pinned-by-HABIT: generic off-axis diagnostic points	pointwise seam curvature	angular axis and full spacetime domain
+G85_free_controls	bounded sign-symmetric B/L/epsilon/tau controls fixed in implementation preregistration	free-and-explored	probe dependence on constructive free functions	continuous parameter exhaustion
+pair_split	first two versus last two orthonormal coframe directions	pinned-by-THEORY: registered conditional complete-coframe split	object tested for curvature ownership	other unregistered splits
+Petrov_method	self-dual Weyl operator eigen/Jordan classification	category-A mathematical readout	curvature classification	not a UDT dynamics premise
+Ricci_method	mixed Ricci block preservation plus spectral separation	category-A mathematical readout	degenerate-Weyl owner test	higher-derivative curvature concomitants
+finite_difference_step	preregistered convergence ladder in implementation	category-A numerical control	independent curvature check	exact symbolic proof at every numeric point
+classification_thresholds	fixed in PREREGISTRATION.md	category-A numerical controls	avoid post-outcome retuning	near-threshold points remain unresolved
+physical_selector	none	OPEN and not introduced	preserve no-selection scope	history/query/realization admissibility
+

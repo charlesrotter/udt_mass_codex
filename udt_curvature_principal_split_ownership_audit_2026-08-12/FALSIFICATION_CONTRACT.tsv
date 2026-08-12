@@ -1,0 +1,16 @@
+gate_id	must_hold	failure_class
+F01	exactly 14 unique G63 sample identities are evaluated at p q and r	incomplete_sample_universe
+F02	all 196 frozen G85 mixed-profile identities are retained in every profile-dependent regular class	outcome_filter_or_incomplete_profile_space
+F03	Petrov classification uses eigenvalue multiplicity and Jordan/nilpotency data rather than discriminant alone	invalid_Petrov_classifier
+F04	registered split alignment is tested using an actual bivector/projector residual	label_without_split_recovery
+F05	Weyl-degenerate cases are tested against Ricci ownership before no-owner classification	premature_type_O_no_owner
+F06	production and independent curvature tensors agree within preregistered tolerance	curvature_implementation_unverified
+F07	frame-change tests preserve Petrov and split-owner classifications	presentation_dependent_result
+F08	near-degenerate numerical cases remain unresolved rather than forced	threshold_overclaim
+F09	G85 classes lacking an owned regular second jet return INSUFFICIENT_OWNED_JET	invented_completion_data
+F10	no pointwise Petrov result is promoted to a history/query/realization selector	category_error
+F11	no Petrov O result is promoted to an aether requirement	overclaim
+F12	all free numeric and physical choices remain tagged in PREMISE_LEDGER.tsv	premise_drift
+F13	catch proofs fail on removed samples false D/II collapse false O claim and owner promotion	uncaught_false_pass
+F14	current tests and protected stopped-draft metadata remain unchanged	repository_regression
+
