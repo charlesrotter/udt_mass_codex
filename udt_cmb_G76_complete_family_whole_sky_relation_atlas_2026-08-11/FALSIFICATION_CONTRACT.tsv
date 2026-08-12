@@ -1,0 +1,15 @@
+gate	pass_condition	failure_landing
+source_hashes	all frozen source hashes exact	TYPE_OR_IMPLEMENTATION_FAILURE
+profile_census	591 unique rows; 49 unique shapes; all lapse/amplitude controls present	TYPE_OR_IMPLEMENTATION_FAILURE
+metric_inverse	SymPy inverse reproduces registered Hamiltonian	TYPE_OR_IMPLEMENTATION_FAILURE
+variable_q_gradient	independent symbolic gradient agrees with hand-coded q and q_s terms	TYPE_OR_IMPLEMENTATION_FAILURE
+constant_q_regression	G74 endpoint replay max chord <=5e-6	TYPE_OR_IMPLEMENTATION_FAILURE
+F01_identity	all three zero controls degree one and endpoint chord <=2e-6	TYPE_OR_IMPLEMENTATION_FAILURE
+full_census	all 591 profiles retained in every required production classification	NUMERICALLY_UNRESOLVED_FAMILY
+time_refinement	per-row level4 512/1024 endpoint chord <=5e-5 or row explicitly unresolved	NUMERICALLY_UNRESOLVED_FAMILY
+mesh_refinement	per-row level3/4 degree drift <=5e-4 or row explicitly unresolved	NUMERICALLY_UNRESOLVED_FAMILY
+Hamiltonian_backward_error	per-row max absolute drift <=1e-6 or row explicitly unresolved	NUMERICALLY_UNRESOLVED_FAMILY
+reflection	all nonzero coarse partners agree under psi reflection within 2e-5	TYPE_OR_IMPLEMENTATION_FAILURE
+no_filtering	missing turning negative or near-zero rows remain recorded	TYPE_OR_IMPLEMENTATION_FAILURE
+no_physical_selection	no profile rank fit source endpoint scale Xmax or observable promotion	TYPE_OR_IMPLEMENTATION_FAILURE
+blind_verification	fresh reviewer independently derives q_s terms and replays all eight strata	INTERNALLY_VERIFIED_LEAD_ONLY
