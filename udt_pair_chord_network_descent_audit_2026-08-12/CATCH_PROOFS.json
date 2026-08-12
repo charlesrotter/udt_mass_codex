@@ -1,0 +1,17 @@
+{
+  "catch_count": 11,
+  "catches": {
+    "A_chart_boundary_not_geometric_or_Xmax_boundary": true,
+    "PSD_order_is_not_reciprocity": true,
+    "calibrated_transition_does_reverse": true,
+    "independent_middle_transition_required": true,
+    "matched_middle_composes": true,
+    "nontrivial_PSD_loop_impossible": true,
+    "rank1_distinct_directions_make_rank2": true,
+    "rank1_same_direction_stays_rank1": true,
+    "raw_beta_difference_telescopes_only_in_common_calibration": true,
+    "reciprocal_character_composes": true,
+    "upper_shear_is_not_additive": true
+  },
+  "status": "PASS"
+}

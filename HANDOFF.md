@@ -21,6 +21,17 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
+**CURRENT INTERNALLY VERIFIED LEAD = ZERO-ORDER PAIR-CHORD NETWORK DESCENT.** Read
+`udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then `EXACT_DERIVATION.md`,
+`STATUS_LEDGER.tsv`, `EVIDENCE_GATES.md`, and `REVIEW_DISPATCH.md`. On one common calibrated
+terminal-state family, unique upper-triangular endpoint coframes give exactly composable and
+invertible comparisons, and `Delta phi` telescopes without derivative machinery. PSD Gram
+reachability is instead a noninvertible partial order and must not be called Reciprocity.
+Independent middle pair tapes still require an explicit calibration transition; physical global
+family ownership and path channels remain open. Internal exact gates pass. External review is
+blocked pending the exact payload authorization in `REVIEW_DISPATCH.md`; that review is the only
+next action.
+
 **CURRENT VERIFIED BOUNDED RESULT = EXACT PAIR-TERMINAL REACHABILITY ATLAS.** Read
 `udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md`, then `EXACT_DERIVATION.md`,
 `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`. For one fixed symbolic

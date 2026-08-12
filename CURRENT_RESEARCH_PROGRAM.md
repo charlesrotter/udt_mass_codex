@@ -7,6 +7,15 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
+**CURRENT INTERNALLY VERIFIED BOUNDED LEAD — ZERO-ORDER CHORD NETWORK DESCENT:** read
+`udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then `EXACT_DERIVATION.md`,
+`STATUS_LEDGER.tsv`, and `REVIEW_DISPATCH.md`. Chords are sufficient for exact conditional endpoint
+composition on one common A-calibrated state family: endpoint coframe ratios compose and reverse,
+while PSD Gram reachability is a directed partial order rather than Reciprocity. No derivative
+atlas is logically required for this endpoint result. Independently rebuilt middle states and the
+physical global family remain open. The internal algebra and independent replay pass; fresh
+external review awaits exact private-payload authorization and is the only current next gate.
+
 **CURRENT VERIFIED BOUNDED RESULT — EXACT ZERO-ORDER PAIR-TERMINAL REACHABILITY:** read
 `udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md`, then `EXACT_DERIVATION.md`,
 `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. For one fixed symbolic A-calibrated Lorentzian

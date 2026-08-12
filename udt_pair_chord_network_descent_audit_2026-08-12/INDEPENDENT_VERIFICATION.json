@@ -1,0 +1,31 @@
+{
+  "all_triple_composition_checks": 262144,
+  "chain_counts": {
+    "rank_0": 64,
+    "rank_1": 512,
+    "rank_2": 3379
+  },
+  "character_checks": 8192,
+  "implementation": "stdlib Fraction; different state family; no production imports or result reads",
+  "increment_checks": 3955,
+  "independent_middle_transition_required": true,
+  "inverse_checks": 4096,
+  "nontrivial_directed_loop_count": 0,
+  "nontrivial_reverse_psd_count": 0,
+  "ordered_chain_count": 3955,
+  "ordered_pair_count": 786,
+  "pair_count": 4096,
+  "pair_counts": {
+    "incomparable": 3310,
+    "rank0": 64,
+    "rank1": 192,
+    "rank2": 530
+  },
+  "rank_rule_checks": 3955,
+  "source_count": 9,
+  "source_hashes": true,
+  "state_count": 64,
+  "status": "INDEPENDENT_EXACT_FRACTION_CHORD_NETWORK_PASS",
+  "strict_phi_checks": 722,
+  "terminal_reconstruction_checks": 64
+}

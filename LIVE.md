@@ -6,6 +6,32 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
+## ============ CURRENT STATE (2026-08-12 — ZERO-ORDER CHORD NETWORK INTERNALLY CLOSED; EXTERNAL REVIEW AUTHORIZATION REQUIRED) ============
+
+**LATEST INTERNALLY VERIFIED BOUNDED LEAD — CHORDS SUFFICE FOR CONDITIONAL ENDPOINT DESCENT.**
+Read `udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `EVIDENCE_GATES.md`, and `REVIEW_DISPATCH.md`. On one
+common A-calibrated regular terminal-state family, each chord uniquely reconstructs a positive
+upper-triangular coframe `B`; the endpoint comparison `R_ij=B_j B_i^-1` composes, reverses, and
+carries exact additive `Delta kappa` and `Delta phi`. No derivative or time-live law is needed for
+that conditional endpoint network.
+
+The positive-semidefinite Gram relation is a different object: it is a partial order with no
+nontrivial reverse or directed loop. It describes directional base-plus-orchestra reachability,
+not observer Reciprocity. Reversal belongs to the calibrated endpoint ratio. Independently rebuilt
+middle states still need an explicit transition, and zero-order chords do not erase path,
+holonomy, Jacobi, or extrinsic channels.
+
+Production passes 15 exact identities, 10,000 endpoint pairs, and 10,518 PSD chains. A separate
+Fraction implementation passes all 262,144 triples in a different family, 3,955 PSD chains, and
+11/11 hostile controls. The attempted external review was correctly blocked because this exact
+new private payload requires explicit authorization. Current grade:
+`INTERNALLY_DERIVED_AND_INDEPENDENTLY_REPLAYED__FRESH_ADVERSARIAL_REVIEW_PENDING`.
+
+**NEXT ONLY:** obtain the exact authorization in `REVIEW_DISPATCH.md`, then run the sealed
+read-only review. Do not launch derivatives, dynamics, phenomenological chord ranking, or another
+mechanism hunt before that gate.
+
 ## ============ CURRENT STATE (2026-08-12 — EXACT LOCAL PAIR-TERMINAL REACHABILITY VERIFIED WITH CAVEATS) ============
 
 **LATEST VERIFIED BOUNDED RESULT — THE LOCAL ORCHESTRA'S COMPLETE ZERO-ORDER CHORD MAP.** Read

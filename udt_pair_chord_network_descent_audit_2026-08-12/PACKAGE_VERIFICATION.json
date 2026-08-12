@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "atlas_composition": true,
+    "catch_proofs": true,
+    "chain_atlas": true,
+    "independent_all_triples": true,
+    "independent_chains": true,
+    "independent_middle": true,
+    "independent_no_reverse_loop": true,
+    "independent_states_pairs": true,
+    "pair_atlas": true,
+    "production_chains": true,
+    "production_no_reverse_loop": true,
+    "production_pairs": true,
+    "production_states": true,
+    "production_strata": true,
+    "required_files": true,
+    "source_count": true,
+    "source_hashes": true,
+    "symbolic_checks": true
+  },
+  "scope": "administrative and saved-artifact consistency; not independent derivation",
+  "status": "PASS"
+}

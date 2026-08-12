@@ -1,0 +1,21 @@
+claim	status	scope
+A_terminal_state_to_upper_triangular_coframe	DERIVED_BIJECTION	fixed oriented A calibration; T and L positive
+endpoint_transition_Rij	DERIVED_CONDITIONAL	one common calibrated terminal-state family
+transition_identity_composition_inverse	DERIVED_EXACT	literally matched middle endpoint state
+common_scale_character	DERIVED_EXACT	delta kappa equals one half log determinant
+reciprocal_character	DERIVED_EXACT	delta phi equals minus one half log diagonal ratio
+conditional_c_eff_ratio	DERIVED_CONDITIONAL	observer-pair endpoint calibration; not local signal speed
+raw_beta_difference	DERIVED_CONDITIONAL	telescopes only in one shared A calibration
+upper_triangular_shear_law	DERIVED_EXACT	semidirect matrix composition; not additive raw shear
+PSD_Gram_reachability	DERIVED_PARTIAL_ORDER	fixed pair-domain vector space and terminal subset
+PSD_Gram_reversal	REFUTED_EXCEPT_IDENTITY	nonzero positive increment has no positive reverse
+PSD_directed_loops	REFUTED_EXCEPT_CONSTANT	antisymmetry and transitivity
+Gram_rank_composition	DERIVED_EXACT	kernel intersection rule for PSD increments
+phi_monotone_on_Gram_order	DERIVED_CONDITIONAL	same A-terminal chart and Loewner order
+chords_sufficient_for_endpoint_descent	DERIVED_CONDITIONAL	one common state assignment; endpoint channels only
+independently_rebuilt_middle_state	REQUIRES_EXPLICIT_TRANSITION	M_B cannot be silently set to identity
+path_holonomy_extrinsic_Jacobi_normal_channels	RETAINED_SEPARATE	not encoded by zero-order chord
+physical_global_relation_family	OPEN	not selected by composability
+T_zero_equals_Xmax	NOT_DERIVED	A-chart boundary only
+action_source_matter_bootstrap_cosmology_dynamics	OPEN_INACTIVE	not tested
+package_grade	INTERNAL_DERIVATION_REPLAY_COMPLETE__ADVERSARIAL_REVIEW_PENDING	preregistered exact bounded result

@@ -1,0 +1,42 @@
+{
+  "chain_count": 10518,
+  "chain_counts": {
+    "edge_pattern_0": 100,
+    "edge_pattern_1": 3196,
+    "edge_pattern_2": 7222,
+    "total_rank_0": 100,
+    "total_rank_1": 1016,
+    "total_rank_2": 9402
+  },
+  "maximum_conclusion": "EXACT_ZERO_ORDER_CHORD_NETWORK_CLASSIFICATION_ON_ONE_COMMON_A_CALIBRATED_TERMINAL_FAMILY",
+  "nontrivial_directed_loop_count": 0,
+  "nontrivial_reverse_psd_count": 0,
+  "ordered_pair_count": 1698,
+  "pair_count": 10000,
+  "pair_counts": {
+    "INCOMPARABLE": 8302,
+    "PSD_RANK_0": 100,
+    "PSD_RANK_1": 358,
+    "PSD_RANK_2": 1240
+  },
+  "state_count": 100,
+  "status": "EXACT_ZERO_ORDER_CHORD_NETWORK_ATLAS_COMPLETE",
+  "symbolic_check_count": 15,
+  "symbolic_checks": {
+    "area_character_composes": true,
+    "det_common_scale_character": true,
+    "increment_addition": true,
+    "offdiagonal_composition": true,
+    "raw_beta_telescopes": true,
+    "reciprocal_character": true,
+    "reciprocal_character_composes": true,
+    "shifted_gram_determinant": true,
+    "shifted_gram_formula": true,
+    "terminal_coframe_unique_reconstruction": true,
+    "terminal_metric": true,
+    "transition_composition": true,
+    "transition_formula": true,
+    "transition_identity": true,
+    "transition_inverse": true
+  }
+}

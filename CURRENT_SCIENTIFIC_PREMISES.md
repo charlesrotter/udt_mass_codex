@@ -9,6 +9,17 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
+## Current chord-network result — internal lead pending external review
+
+`udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `EVIDENCE_GATES.md`, and `REVIEW_DISPATCH.md`, control
+the current bounded lead. The unique upper-triangular coframe and endpoint transition are
+conditional on one shared A calibration and literal middle-state equality. Their groupoid
+composition must not be conflated with PSD Gram reachability, which is a partial order with no
+nontrivial inverse. `Delta phi` is an endpoint cocycle only on the supplied common state family;
+independent pair tapes, physical global ownership, and path channels remain open. Internal exact
+verification passes; fresh adversarial review remains required before a verified grade.
+
 ## Current pair-terminal reachability result — verified with caveats
 
 `udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md`, then

@@ -4,6 +4,17 @@
 
 ---
 
+## TOP — CURRENT INTERNAL POINTER (2026-08-12, zero-order chord-network descent)
+
+Read `udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, and `REVIEW_DISPATCH.md`. On one common calibrated
+terminal family, endpoint coframe ratios compose and reverse and `Delta phi` telescopes without
+derivatives. PSD Gram reachability is a separate directed partial order, not Reciprocity.
+Independently rebuilt middle states and physical global family ownership remain open. Internal
+exact and independent checks pass; fresh external review awaits explicit payload authorization.
+
+---
+
 ## TOP — CURRENT VERIFIED POINTER (2026-08-12, exact local pair-terminal reachability)
 
 Read `udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md`, then
