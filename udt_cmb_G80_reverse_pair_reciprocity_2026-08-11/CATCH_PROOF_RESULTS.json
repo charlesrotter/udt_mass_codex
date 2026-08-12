@@ -1,0 +1,17 @@
+{
+  "catch_count": 10,
+  "catches": {
+    "Xmax_promotion_rejected": true,
+    "cmb_temp_activation_rejected": true,
+    "different_profile_rejected": true,
+    "future_signal_promotion_rejected": true,
+    "missing_Z_area_factor_rejected": true,
+    "missing_transpose_or_map_error_rejected": true,
+    "physical_profile_promotion_rejected": true,
+    "spatial_only_or_future_reversal_rejected": true,
+    "wrong_redshift_sign_rejected": true,
+    "wrong_source_normalization_rejected": true
+  },
+  "schema": "udt-cmb-g80-catch-proofs-v1",
+  "status": "PASS"
+}

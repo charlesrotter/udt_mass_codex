@@ -1,0 +1,12 @@
+object	type	owner	G80_status
+Z	positive endpoint frequency ratio	stationary Killing readout on supplied pair	DERIVED_CONDITIONAL
+phi_forward	logarithmic ordered-pair depth	log Z	DERIVED_CONDITIONAL
+phi_reverse	logarithmic reversed-pair depth	log inverse_Z	DERIVED_CONDITIONAL_EQUALS_NEGATIVE_FORWARD
+D_forward	linear map from receiver screen-angle seed to source transverse separation	full Jacobi query	DERIVED_CONDITIONAL
+D_reverse	linear map from source screen-angle seed to receiver transverse separation	reversed full Jacobi query	DERIVED_CONDITIONAL
+dA_forward	positive square-root determinant times R	forward screen-area map	DERIVED_CONDITIONAL
+dA_reverse	positive square-root determinant times R	reverse screen-area map	DERIVED_CONDITIONAL
+reverse_curve	past-directed affine reversal of the same spacetime curve	G80 mathematical query	CHOSE_CONTROL_NOT_SIGNAL
+luminosity_distance	flux/population/detector observable	no current owner	OPEN
+Xmax	observer-pair positional-dilation asymptote	working foundation	OPEN_NOT_x_EQUALS_1
+cmb_temp	conditional lens-plus-redshift future readout	deferred source-plus-observation query	INACTIVE

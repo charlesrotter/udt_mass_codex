@@ -1,0 +1,13 @@
+premise_id	item	status	role	open_scope
+G80_P01	G75_AM_S01_E05 metric profile	CHOSE_CONTROL	frozen exact bounded geometry	physical profile selection and all other profiles
+G80_P02	c_E	OBSERVED	clock/ruler calibration	foundational value or local signal interpretation
+G80_P03	R	FREE_AND_SYMBOLIC	physical length factor in both Jacobi maps	numerical value and relation to Xmax
+G80_P04	x_r=1/4 and x_s=1	CHOSE_CONTROL	ordered endpoint pair	physical SNe CMB or Xmax endpoints
+G80_P05	complete null screen and Jacobi equations	DERIVED_CONDITIONAL_ON_METRIC_AND_QUERY	full nonlinear propagation	physical query selection and time-live completion
+G80_P06	full affine reversal k_rev=-k_s/omega_s	CHOSE_MATHEMATICAL_RECIPROCITY_QUERY	reversal of the same curve with unit source frequency magnitude	future-directed source-to-receiver signalling query
+G80_P07	frequency inversion	DERIVED_CONDITIONAL_ON_QUERY	inverse endpoint clock ratio	physical cosmological redshift curve
+G80_P08	Jacobi transpose/rescaling	DERIVED_CONDITIONAL_ON_QUERY	self-adjoint screen propagation with endpoint normalization	global cut-locus branches and singular screens
+G80_P09	SNe P1	INACTIVE	not consulted	fit and physical scale selection
+G80_P10	cmb_temp	DEFERRED_INACTIVE	not computed	source temperature thermalization anisotropy and spectrum
+G80_P11	Xmax	OPEN_INACTIVE	not identified with x=1	physical endpoint curve and value
+G80_P12	future local signal	NOT_DERIVED	forbidden promotion	causal signalling law

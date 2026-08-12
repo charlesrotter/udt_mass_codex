@@ -1,0 +1,19 @@
+{
+  "catch_proofs": 10,
+  "current_paths": 1114,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "independent_reciprocity_relative": 1.4204869936356233e-08,
+  "premise_guards": 72,
+  "preregistration_commit": "76683fa1",
+  "production_reciprocity_relative": 6.885259158085081e-15,
+  "protected_contents_read": false,
+  "protected_untracked_paths": 7,
+  "pytest": "100 passed, 1 xfailed",
+  "reverse_path_sha256": "845aca117275b55ccd6a153fc3619604900f32dbf7a7678fc936c1b06f0cbd7d",
+  "schema": "udt-cmb-g80-package-verification-v1",
+  "scientific_grade": "PROVISIONAL_INTERNALLY_VERIFIED__FRESH_ADVERSARIAL_REVIEW_REQUIRED",
+  "source_rows": 10,
+  "status": "PASS",
+  "unexpected_dirty_paths": []
+}

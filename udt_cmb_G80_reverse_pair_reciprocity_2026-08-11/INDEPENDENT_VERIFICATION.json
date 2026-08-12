@@ -1,0 +1,39 @@
+{
+  "Z": 1.1456439237389608,
+  "endpoint_return_max_absolute": 1.1869296996712404e-16,
+  "forward_affine": 0.7560742639231713,
+  "forward_coarse_fine_relative": 1.3076660583424239e-10,
+  "forward_fine_D": [
+    [
+      0.755996707075825,
+      -1.7721842701531756e-21
+    ],
+    [
+      1.4890165804337925e-21,
+      0.7559733363378458
+    ]
+  ],
+  "forward_production_relative": 4.381542485329791e-11,
+  "frequency_product_error": 1.2212453270876722e-15,
+  "independent_area_ratio_minus_Z": 1.627372281376438e-08,
+  "independent_reciprocity_relative": 1.4204869936356233e-08,
+  "inverse_Z": 0.8728715609439678,
+  "max_endpoint_null_absolute": 3.321158061195084e-14,
+  "method": "direct Christoffel central rays plus finite-difference neighboring rays in both orientations; no production Riemann or Jacobi equation",
+  "reverse_affine": 0.8661918863589897,
+  "reverse_coarse_fine_relative": 4.249567152611014e-08,
+  "reverse_fine_D": [
+    [
+      0.8661030215262359,
+      -6.930277469457609e-33
+    ],
+    [
+      7.038385810471785e-33,
+      0.8660762469805874
+    ]
+  ],
+  "reverse_production_relative": 1.4161064164681488e-08,
+  "schema": "udt-cmb-g80-independent-neighboring-ray-v1",
+  "screen_return_relative": 3.371222397584041e-15,
+  "status": "PASS"
+}

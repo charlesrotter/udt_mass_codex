@@ -1,0 +1,144 @@
+{
+  "authority": {
+    "Xmax_identified": false,
+    "cmb_temp_activated": false,
+    "future_signal_derived": false,
+    "maximum_conclusion": "DERIVED_CONDITIONAL_RECIPROCITY_ON_ONE_FROZEN_GEOMETRY_AND_ONE_ORDERED_PAIR",
+    "past_directed_reversal_only": true,
+    "physical_profile_or_endpoint_selected": false
+  },
+  "forward": {
+    "D": [
+      [
+        0.7559967070430084,
+        -1.0146339127533358e-22
+      ],
+      [
+        -1.0146395760930269e-22,
+        0.7559733363044177
+      ]
+    ],
+    "Z": 1.1456439237389628,
+    "affine": 0.7560742639231726,
+    "dA_over_R": 0.7559850215834019,
+    "phi": 0.13596685774182335,
+    "residuals": {
+      "conserved_p_psi": 1.7666396774293491e-16,
+      "conserved_p_t": 2.6645352591003757e-15,
+      "min_A": 0.75,
+      "min_block_D": 0.06152343764901161,
+      "null": 1.4183200820413355e-15,
+      "screen_gram": 9.325873406851315e-15,
+      "screen_ray": 2.0816681711721685e-16,
+      "tidal_antisymmetry": 1.4155585091246184e-32,
+      "wronskian": 1.5384870063562099e-34
+    }
+  },
+  "gates": {
+    "area_reciprocity": true,
+    "endpoint_return": true,
+    "forward_residuals": true,
+    "frequency_reciprocity": true,
+    "jacobi_reciprocity": true,
+    "phi_oddness": true,
+    "reverse_residuals": true,
+    "screen_return": true,
+    "tangent_return": true
+  },
+  "profile_id": "G75_AM_S01_E05",
+  "query_type": "past_directed_mathematical_reversal_of_same_null_curve_not_future_signal",
+  "reciprocity": {
+    "D_prediction_Z_transpose_forward": [
+      [
+        0.8661030337904874,
+        -1.1624156651360532e-22
+      ],
+      [
+        -1.1624091769653482e-22,
+        0.8660762592458275
+      ]
+    ],
+    "D_relative": 6.885259158085081e-15,
+    "Z_times_inverse_Z_minus_one": 5.10702591327572e-15,
+    "dA_ratio": 1.1456439237389695,
+    "dA_ratio_minus_Z": 6.661338147750939e-15,
+    "endpoint_return_max_absolute": 3.7870097682746184e-15,
+    "phi_sum_absolute": 5.051514762044462e-15,
+    "screen_overlap": [
+      [
+        0.999999999999996,
+        -4.925952429440385e-33
+      ],
+      [
+        4.984596367269568e-33,
+        1.0000000000000069
+      ]
+    ],
+    "screen_return_relative": 5.69644822736449e-15,
+    "tangent_return_relative": 3.745317077200257e-15
+  },
+  "refinement": [
+    {
+      "D_reciprocity_relative": 5.711203542810473e-15,
+      "Z": 1.1456439237389575,
+      "dA_forward_over_R": 0.7559850215834042,
+      "dA_ratio_minus_Z": 6.217248937900877e-15,
+      "dA_reverse_over_R": 0.8660896464146869,
+      "forward_affine": 0.7560742639231719,
+      "reverse_affine": 0.8661918863589861,
+      "step_count": 1024
+    },
+    {
+      "D_reciprocity_relative": 4.3376062513709e-15,
+      "Z": 1.1456439237389624,
+      "dA_forward_over_R": 0.7559850215834044,
+      "dA_ratio_minus_Z": 4.6629367034256575e-15,
+      "dA_reverse_over_R": 0.8660896464146992,
+      "forward_affine": 0.7560742639231708,
+      "reverse_affine": 0.8661918863589925,
+      "step_count": 2048
+    },
+    {
+      "D_reciprocity_relative": 6.885259158085081e-15,
+      "Z": 1.1456439237389628,
+      "dA_forward_over_R": 0.7559850215834019,
+      "dA_ratio_minus_Z": 6.661338147750939e-15,
+      "dA_reverse_over_R": 0.8660896464146981,
+      "forward_affine": 0.7560742639231726,
+      "reverse_affine": 0.8661918863589938,
+      "step_count": 4096
+    }
+  ],
+  "reverse": {
+    "D": [
+      [
+        0.8661030337904897,
+        -1.162415665135894e-22
+      ],
+      [
+        -1.1624091769652467e-22,
+        0.8660762592458356
+      ]
+    ],
+    "affine": 0.8661918863589938,
+    "dA_over_R": 0.8660896464146981,
+    "inverse_Z": 0.8728715609439718,
+    "phi": -0.1359668577418183,
+    "receiver_frequency_signed": -0.8728715609439717,
+    "residuals": {
+      "conserved_p_psi": 9.020562075079397e-17,
+      "conserved_p_t": 3.9968028886505635e-15,
+      "min_A": 0.75,
+      "min_block_D": 0.06152343764901161,
+      "null": 4.587331082976013e-15,
+      "screen_gram": 1.7763568394002505e-14,
+      "screen_ray": 2.3245294578089215e-16,
+      "tidal_antisymmetry": 1.4315076164765751e-32,
+      "wronskian": 8.769187857134265e-36
+    },
+    "source_frequency_signed": -0.9999999999999999
+  },
+  "schema": "udt-cmb-g80-reverse-pair-reciprocity-v1",
+  "source_rows": 10,
+  "status": "PASS"
+}
