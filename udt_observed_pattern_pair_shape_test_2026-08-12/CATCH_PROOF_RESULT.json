@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "caught": 9,
+  "total": 9,
+  "checks": {
+    "missing_L_pair": true,
+    "missing_exp_phi": true,
+    "diagonal_only_covariance": true,
+    "delta_method_as_likelihood": true,
+    "fit_n": true,
+    "drop_worst_bin_C0": true,
+    "drop_worst_bin_C1": true,
+    "promote_C1_to_complete_history": true,
+    "isotropic_point_inserted": true
+  }
+}

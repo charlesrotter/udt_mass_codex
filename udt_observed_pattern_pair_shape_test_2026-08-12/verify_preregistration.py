@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import csv
+import io
+import subprocess
 from pathlib import Path
 
 
@@ -19,7 +21,16 @@ def main() -> None:
     premises = rows("PREMISE_LEDGER.tsv")
     gates = rows("FALSIFICATION_CONTRACT.tsv")
     sources = rows("SOURCE_MANIFEST.tsv")
-    status = rows("STATUS_LEDGER.tsv")
+    frozen_status_text = subprocess.check_output(
+        [
+            "git",
+            "show",
+            "efdecd35:udt_observed_pattern_pair_shape_test_2026-08-12/STATUS_LEDGER.tsv",
+        ],
+        cwd=ROOT.parent,
+        text=True,
+    )
+    status = list(csv.DictReader(io.StringIO(frozen_status_text), delimiter="\t"))
     prereg = (ROOT / "PREREGISTRATION.md").read_text()
 
     assert len(premises) == 15
