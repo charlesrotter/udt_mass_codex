@@ -6,9 +6,32 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS EXTERNALLY VERIFIED WITH CAVEATS) ============
+## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G84 AM GLOBAL-COMPLETION/PAIR-DIAMETER ATLAS INTERNALLY VERIFIED WITH CAVEATS, EXTERNAL REVIEW PENDING) ============
 
-**LATEST EXTERNALLY REVIEWED LEAD — G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS,
+**LATEST BANKED LEAD — G84 AM GLOBAL COMPLETION AND PAIR-DIAMETER AUDIT,
+`VERIFIED-WITH-CAVEATS` INTERNALLY; SEALED EXTERNAL REVIEW PENDING.** Read
+`udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md`, then
+`AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
+`INDEPENDENT_VERIFICATION.json`. The AM spatial metric has a minimal doubled, simply connected
+round-`S^3` completion candidate of radius `2R` and diameter `2piR`; `x=2` is its equator, not an
+edge or antipode, and the local metric does not uniquely select that topology. The zero-mixing
+control extends to a smooth constant-curvature Lorentzian hyperboloid. Re-centering its static
+patch on any central timelike-geodesic observer in the isometry orbit gives the same conditional
+center-to-horizon distance `piR` and
+`phi(s)=-log cos[s/(2R)]`, `c_eff(s)/c_E=cos[s/(2R)]^2`. This is not physical `X_max`: it omits
+accelerated observers and mixed/time-live completions, while `R`, physical topology, profile, and
+pair-separation ownership remain open. A same-patch equal-latitude counterexample proves the
+stationary endpoint depth is not global spatial distance. Exact continuation of all `197` AM
+controls gives one zero-mixing row and `196` nonzero rows; those `196` are obstructed only in the
+declared smooth stationary-axisymmetric bifurcate extension class. The fresh cold verifier
+reproduced the geometry and exact census and required the topology/opposite-patch precision fixes
+now banked. Four evidence gates pass; tests are `103 passed, 1 xfailed`; review manifest SHA-256 is
+`0154f12ecf5099391e2be71d656e624f86433df14ff8045e51b77f53d19d924a` (`37` payloads, `38` files
+including the manifest). **NEXT:** sealed external review of exactly that intake. Do not begin a
+mixed time-live completion, promote `piR` to physical `X_max`, select a topology/profile/scale, or
+start a CMB fit before review adjudication.
+
+**PARENT EXTERNALLY REVIEWED LEAD — G83 STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS,
 `VERIFIED_WITH_CAVEATS`; maximum conclusion
 `BOUNDED_STATIONARY_ENDPOINT_ASYMPTOTE_CANDIDATE_ATLAS`.** Read
 `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then

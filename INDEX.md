@@ -9,8 +9,18 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-5a. ACTIVE ARC (2026-08-12): CMB PEAK OPTIMIZATION; current substep = STATIONARY
-   ENDPOINT-ASYMPTOTE CANDIDATE ATLAS. Read
+5a. ACTIVE ARC (2026-08-12): CMB PEAK OPTIMIZATION; current substep = G84 AM GLOBAL
+   COMPLETION/PAIR-DIAMETER ATLAS, internally `VERIFIED-WITH-CAVEATS`, external review pending.
+   Read `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md`,
+   then `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and
+   `INDEPENDENT_VERIFICATION.json`. The minimal doubled AM spatial candidate is round `S^3` radius
+   `2R`, diameter `2piR`; the zero-mixing Lorentzian completion has a conditional frame-shared
+   `piR` static-patch asymptote for the central-geodesic observer isometry orbit. Physical `X_max`,
+   topology, `R`, profile, pair-separation owner, and mixed time-live completion remain open. All
+   `197` AM rows split one zero-mixing and `196` nonzero; the latter are obstructed only in the
+   declared stationary bifurcate class. Next is the sealed 38-file external review, manifest
+   SHA-256 `0154f12ecf5099391e2be71d656e624f86433df14ff8045e51b77f53d19d924a`.
+5b. PARENT EXTERNALLY REVIEWED SUBSTEP = STATIONARY ENDPOINT-ASYMPTOTE CANDIDATE ATLAS. Read
    `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
    then its `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, `PREMISE_LEDGER.tsv`,
    and `INDEPENDENT_VERIFICATION.json`. G83 is externally `VERIFIED_WITH_CAVEATS` with no scientific

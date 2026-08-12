@@ -1,0 +1,17 @@
+{
+  "current_paths": 1114,
+  "frontier_targets": 101,
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "premise_guards": 83,
+  "protected_untracked_contents_read": false,
+  "protected_untracked_path_count": 7,
+  "pytest": "103 passed, 1 xfailed",
+  "schema": "udt-cmb-g84-post-internal-navigation-gates-v1",
+  "sealed_intake_files": 38,
+  "sealed_manifest_sha256": "0154f12ecf5099391e2be71d656e624f86433df14ff8045e51b77f53d19d924a",
+  "sealed_payload_rows_unchanged": 37,
+  "status": "PASS",
+  "unexpected_dirty_paths": []
+}

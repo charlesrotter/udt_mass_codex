@@ -7,8 +7,14 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**, currently at the externally `VERIFIED_WITH_CAVEATS` G83 stationary
-endpoint-asymptote candidate atlas. Read
+**CMB PEAK OPTIMIZATION**, currently at the internally `VERIFIED-WITH-CAVEATS` G84 AM
+global-completion/pair-diameter atlas, pending external review. Read
+`../udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/COLD_ADVERSARIAL_REVIEW.md`,
+then `AUDIT_REPORT.md`. Its minimal doubled spatial candidate is round `S^3` radius `2R`; zero
+mixing has a conditional common `piR` static-patch asymptote for the central-geodesic observer
+isometry orbit. This does not select physical `X_max`, topology, `R`, profile, or mixed time-live
+completion. Exact AM counts are one zero-mixing and `196` nonzero controls. The next gate is the
+sealed external review. Its parent is G83; read
 `../udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
 then `AUDIT_REPORT.md`. The strict
 G75 domain has no infinite endpoint depth; a labelled AM continuation has the exact stationary
