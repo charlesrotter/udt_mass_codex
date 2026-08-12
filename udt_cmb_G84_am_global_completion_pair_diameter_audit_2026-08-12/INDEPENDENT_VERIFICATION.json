@@ -1,0 +1,22 @@
+{
+  "embedded_checks": {
+    "center_to_static_horizon_over_R": "pi",
+    "recentered_c_eff_limit": "ZERO",
+    "recentered_phi_limit": "POSITIVE_INFINITY",
+    "spatial_diameter_over_R": "2*pi",
+    "spatial_embedding_reproduced": true,
+    "spatial_radius_over_R": 2,
+    "zero_mix_spacetime_embedding_reproduced": true
+  },
+  "extension_class_counts": {
+    "NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED": 196,
+    "ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS": 1
+  },
+  "profile_mismatches": [],
+  "profile_rows": 197,
+  "recentered_rows": 4,
+  "schema": "udt-cmb-g84-independent-verification-v1",
+  "scope": "zero-mixing constant-curvature branch plus exact continued q(4) census; generic time-live mixed completion remains open",
+  "source_manifest_rows": 14,
+  "status": "PASS"
+}

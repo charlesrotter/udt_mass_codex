@@ -1,0 +1,6 @@
+object	domain	status	owns	does_not_own
+G75_REGISTERED_CELL	0<=x<=1	INHERITED_CONTROL_REGULAR	bounded stationary control family	continuation; global completion; X_max
+AM_NORTH_STATIC_BRANCH	0<=chi<pi/2	FREE_AND_EXPLORED_CONTINUATION	one stationary chart branch	antipode; global pair distance; physical endpoint
+DOUBLED_SPATIAL_S3	0<=chi<=pi	DERIVED_INTRINSIC_SPATIAL_COMPLETION_CANDIDATE	round spatial metric radius 2R and diameter 2piR	full Lorentzian history; clock-depth law; physical X_max
+ZERO_MIXING_LORENTZ_EXTENSION	complete constant-curvature hyperboloid	DERIVED_FOR_ZERO_MIXING_CONTROL	smooth extension and frame-shared piR static limit on the central-geodesic isometry orbit	physical profile; arbitrary observers; mixed orchestra; numerical R
+NONZERO_MIXING_STANDARD_EXTENSION	196 continued AM controls	OBSTRUCTED_WITHIN_SMOOTH_SYMMETRY_PRESERVING_BIFURCATE_CLASS	local fixed-point obstruction from nonzero h(2)	generic time-live completion no-go

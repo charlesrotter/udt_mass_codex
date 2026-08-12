@@ -1,0 +1,4 @@
+case	spatial_distance_over_R	stationary_depth	meaning
+NORTH_POLE_TO_EQUATOR	pi	+infinity_limit	infinite stationary depth occurs at half the S3 diameter
+SAME_LATITUDE_NORTH_PATCH_GAMMA_RANGE	0_to_pi	0	at chi=pi/4, valid future-directed stationary pairs share phi while d/R=2*acos((1+cos(gamma))/2) varies
+EQUATOR_PAIR_VARIABLE_ANGLE	0_to_2*pi	stationary_observers_not_timelike	one lapse-zero surface contains many pair distances

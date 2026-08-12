@@ -1,0 +1,40 @@
+{
+  "extension_class_counts": {
+    "NONZERO_BIFURCATION_MIXING__STANDARD_SMOOTH_SYMMETRY_EXTENSION_OBSTRUCTED": 196,
+    "ZERO_MIXING_CONSTANT_CURVATURE_GLOBAL_EXTENSION_EXISTS": 1
+  },
+  "geometry": {
+    "coordinate_map": "x=2*sin(chi)",
+    "equator_x": "2",
+    "north_pole_to_equator_over_R": "pi",
+    "spatial_diameter_over_R": "2*pi",
+    "spatial_injectivity_radius_over_R": "2*pi",
+    "spatial_metric_over_R2": "4*(dchi^2+sin(chi)^2*dOmega2)",
+    "spatial_radius_over_R": "2",
+    "spatial_scalar_curvature_times_R2": "3/2",
+    "spatial_sectional_curvature_times_R2": "1/4",
+    "x_map_multiplicity": "TWO_TO_ONE_OFF_EQUATOR_ON_DOUBLED_S3",
+    "zero_mix_candidate_Xmax": "pi*R",
+    "zero_mix_embedding": "-X0^2+X1^2+X2^2+X3^2+X4^2=4",
+    "zero_mix_frame_scope": "GLOBAL_ISOMETRY_ORBIT_OF_CENTRAL_GEODESIC_OBSERVERS",
+    "zero_mix_recentered_c_eff_law": "c_eff(s)/c_E=cos(s/(2R))^2",
+    "zero_mix_recentered_depth_law": "phi(s)=-log(cos(s/(2R)))",
+    "zero_mix_recentered_static_limit_over_R": "pi",
+    "zero_mix_static_regions": "TWO_STATIC_PATCHES_PLUS_UNCOVERED_TIMELIVE_REGIONS"
+  },
+  "landing": "ZERO_MIXING_BRANCH_HAS_CONDITIONAL_FRAME_SHARED_RECENTERED_ASYMPTOTE__NONZERO_MIXED_COMPLETION_OPEN",
+  "maximum_conclusion": "BOUNDED_AM_SPATIAL_COMPLETION_AND_STATIONARY_DEPTH_COMPATIBILITY_ATLAS",
+  "pair_counterexamples": 3,
+  "physical_X_max_status": "OPEN",
+  "physical_scale_R_status": "OPEN",
+  "profile_rows": 197,
+  "recentered_receiver_rows": 4,
+  "schema": "udt-cmb-g84-am-completion-atlas-v1",
+  "source_manifest_rows": 14,
+  "status": "PASS",
+  "time_live_completion_status": "REQUIRED_NEXT_FOR_NONZERO_MIXING",
+  "zero_mix_frame_sharing_scope": "GLOBAL_ISOMETRY_ORBIT_OF_CENTRAL_GEODESIC_OBSERVERS",
+  "zero_mix_recentered_c_eff_law": "c_eff(s)/c_E=cos(s/(2R))^2",
+  "zero_mix_recentered_candidate_Xmax_over_R": "pi",
+  "zero_mix_recentered_depth_law": "phi(s)=-log(cos(s/(2R)))"
+}

@@ -1,0 +1,18 @@
+{
+  "all_passed": true,
+  "checks": {
+    "duplicate_profile_rejected": true,
+    "false_x_injectivity_rejected": true,
+    "immutable_mixed_companion_rejected": true,
+    "missing_profile_rejected": true,
+    "physical_Xmax_promotion_rejected": true,
+    "profile_promotion_rejected": true,
+    "same_patch_stationary_depth_as_global_distance_rejected": true,
+    "unconditional_frame_claim_rejected": true,
+    "wrong_diameter_rejected": true,
+    "wrong_radius_rejected": true,
+    "x2_as_antipode_rejected": true
+  },
+  "count": 11,
+  "schema": "udt-cmb-g84-catch-proofs-v1"
+}
