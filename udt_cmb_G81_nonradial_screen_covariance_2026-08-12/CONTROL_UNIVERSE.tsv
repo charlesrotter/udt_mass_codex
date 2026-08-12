@@ -1,0 +1,3 @@
+control_id	direction_er	direction_etheta	direction_epsi	screen1_er	screen1_etheta	screen1_epsi	screen2_er	screen2_etheta	screen2_epsi	reverse_source_rotation	receiver_projection_rotation	status_before_run
+C0_RADIAL_ROTATED	1	0	0	0	1	0	0	0	1	3/5,-4/5;4/5,3/5	5/13,-12/13;12/13,5/13	PREREGISTERED
+C1_FULL_ANGULAR	12/13	3/13	4/13	0	4/5	-3/5	-5/13	36/65	48/65	3/5,-4/5;4/5,3/5	5/13,-12/13;12/13,5/13	PREREGISTERED
