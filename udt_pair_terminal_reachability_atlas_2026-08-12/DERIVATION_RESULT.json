@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "gram_rank_0": 1,
+    "gram_rank_1": 64,
+    "gram_rank_2": 259,
+    "signature_DEGENERATE": 5,
+    "signature_LORENTZIAN": 231,
+    "signature_POSITIVE_DEFINITE": 88,
+    "terminal_false": 155,
+    "terminal_true": 169
+  },
+  "maximum_conclusion": "EXACT_ZERO_ORDER_REACHABILITY_CLASSIFICATION_FOR_ALL_PSD_GRAM_ADDITIONS_TO_ONE_FIXED_SYMBOLIC_A_CALIBRATED_BASE_PAIR_METRIC",
+  "rational_case_count": 324,
+  "status": "EXACT_SYMBOLIC_AND_RATIONAL_ATLAS_COMPLETE",
+  "symbolic": {
+    "L_pair_squared": "(ell*p - ell*t - m**2 + n*p - n*t)/(p - t)",
+    "T_pair_squared": "-p + t",
+    "beta_pair_minus_beta0": "m/(p - t)",
+    "checks": "12",
+    "det_h": "ell*p - ell*t - m**2 + n*p - n*t",
+    "inverse_gram_det": "-A*L2 - A*db**2*t + A*ell + L2*t - ell*t",
+    "target_det": "-A*L2"
+  }
+}

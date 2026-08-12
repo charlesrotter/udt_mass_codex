@@ -1,0 +1,18 @@
+claim	status	scope
+full Gram image is PSD(2)	PARENT_DERIVED	pair-first theorem on declared local split
+base shift removal preserves PSD solution space	DERIVED	invertible covector congruence
+completed determinant formula	DERIVED	exact zero-order algebra
+three-signature atlas	DERIVED	all PSD Gram matrices; no negative-definite branch
+A-terminal image inequality	DERIVED_NECESSARY_AND_SUFFICIENT	fixed symbolic A-calibrated base
+explicit inverse Gram reconstruction	DERIVED	every target satisfying the inequality
+rank zero one two atlas	DERIVED	base equality and strict terminal strata
+phi monotone under PSD ordering	DERIVED_CONDITIONAL	both forms in same A-calibrated chart
+c_eff_pair ratio nonincreasing under PSD ordering	DERIVED_CONDITIONAL	observer-pair calibration; not signal speed
+kappa projection all real	DERIVED	projection only; joint variables constrained
+beta projection all real	DERIVED	projection only; joint variables constrained
+phi projection [phi0,infinity)	DERIVED	fixed base orientation and calibration
+factorization fiber	DERIVED_ALGEBRAIC	no physical equivalence or realization selection
+S versus W recovery from pair metric	NONIDENTIFIABLE_ZERO_ORDER	only C=S+W is audible
+T to zero boundary equals X_max	NOT_DERIVED	local chart boundary only
+physical history query branch or dynamics	OPEN_INACTIVE	not tested
+package grade	VERIFIED_WITH_CAVEATS	preregistered; exact; independent stdlib replay; fresh adversarial rederivation; bounded A-calibrated zero-order scope

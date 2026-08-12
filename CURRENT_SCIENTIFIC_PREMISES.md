@@ -9,6 +9,18 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
+## Current pair-terminal reachability result — verified with caveats
+
+`udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`,
+control the exact bounded zero-order chord map. For a fixed symbolic A-calibrated base, all
+pointwise `PSD(2)` Gram additions and completed signatures are classified, and the displayed
+terminal inequality is necessary and sufficient. `phi_pair` monotonicity is conditional on
+Loewner ordering and continued membership in the same A-terminal chart. Terminal variables are
+A-calibrated readouts; only the completed form, inertia, and Gram rank have the stated congruence
+covariance. No history, physical query/realization, derivative law, `X_max`, action, source,
+matter, bootstrap closure, observation, or dynamics is selected.
+
 ## Current pair-first metric-orchestra ponder — working synthesis only
 
 `udt_pair_first_metric_orchestra_ponder_2026-08-12/PONDER.md`, then `PREMISE_LEDGER.tsv` and
@@ -17,8 +29,8 @@ supplied observer-pair relation in three distinct layers: completed first fundam
 terminal reciprocal readout; derivative immersion/transport channels; and global relation-network
 compatibility. The first layer does not determine the other two. Edge `phi_AB` is not automatically
 a global point potential, and scalar descent need not erase normal holonomy. This package is a
-`PONDER / WORKING SYNTHESIS`, not a derivation, selector, or new physics result. The next candidate
-is to preregister the zero-order terminal reachability map; it has not been launched.
+`PONDER / WORKING SYNTHESIS`, not a derivation, selector, or new physics result. Its proposed
+zero-order terminal reachability map is now completed by the current result above.
 
 ## Current pair-first relational-plane result — verified with caveats
 

@@ -1,0 +1,66 @@
+{
+  "boundary_controls": {
+    "base": {
+      "signature": "LORENTZIAN",
+      "terminal": true
+    },
+    "clock_null_degenerate": {
+      "signature": "DEGENERATE",
+      "terminal": false
+    },
+    "clock_null_lorentzian": {
+      "signature": "LORENTZIAN",
+      "terminal": false
+    },
+    "mixed_rank1": {
+      "signature": "LORENTZIAN",
+      "terminal": true
+    },
+    "outside_chart_degenerate": {
+      "signature": "DEGENERATE",
+      "terminal": false
+    },
+    "outside_chart_lorentzian": {
+      "signature": "LORENTZIAN",
+      "terminal": false
+    },
+    "outside_chart_positive": {
+      "signature": "POSITIVE_DEFINITE",
+      "terminal": false
+    },
+    "pure_clock_rank1": {
+      "signature": "LORENTZIAN",
+      "terminal": true
+    },
+    "pure_ruler_rank1": {
+      "signature": "LORENTZIAN",
+      "terminal": true
+    },
+    "rank2": {
+      "signature": "LORENTZIAN",
+      "terminal": true
+    }
+  },
+  "covariance_controls": {
+    "pair_congruence": true,
+    "screen_rotation": true
+  },
+  "forward": {
+    "DEGENERATE": 2,
+    "LORENTZIAN": 325,
+    "POSITIVE_DEFINITE": 1,
+    "cases": 328,
+    "nonterminal": 6,
+    "rank0": 1,
+    "rank1": 60,
+    "rank2": 267,
+    "terminal": 322
+  },
+  "implementation": "stdlib Fraction; no production imports or artifact reads",
+  "inverse": {
+    "cases": 146,
+    "rank_boundary": 12,
+    "rank_interior": 134
+  },
+  "status": "INDEPENDENT_EXACT_FRACTION_REPLAY_PASS"
+}

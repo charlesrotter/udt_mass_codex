@@ -6,6 +6,40 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
+## ============ CURRENT STATE (2026-08-12 — EXACT LOCAL PAIR-TERMINAL REACHABILITY VERIFIED WITH CAVEATS) ============
+
+**LATEST VERIFIED BOUNDED RESULT — THE LOCAL ORCHESTRA'S COMPLETE ZERO-ORDER CHORD MAP.** Read
+`udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md`, then `EXACT_DERIVATION.md`,
+`ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`. For one fixed symbolic
+A-calibrated Lorentzian base pair form, the entire complete-orchestra Gram image `P>=0` and every
+signature stratum are now classified exactly. A terminal chord `(T,L,beta)` is reachable if and
+only if
+
+```text
+0<T^2<=T0^2,
+L^2>=L0^2,
+(T0^2-T^2)(L^2-L0^2)>=T0^2 T^2 (beta-beta0)^2.
+```
+
+The inverse Gram matrix is explicit and unique. Rank zero is the base, rank one is the equality
+boundary, and rank two is the strict interior. Under nonzero PSD/Loewner addition that remains in
+the same A-terminal chart, `phi_pair` strictly increases and the conditional observer-pair ratio
+`c_eff^(pair)/c_E` strictly decreases. This is an A-calibrated observer-pair statement, not a local
+signal-speed law. The full Gram atlas also includes Lorentzian states beyond loss of the A-clock
+chart, degenerate states, and positive-definite states; `T->0` is not thereby physical `X_max`.
+
+The preregistered exact SymPy and hermetic Fraction routes pass; two fresh adversarial
+rederivations reproduce the theorem. The main fresh review adds 2,279 forward cases, 776 inverse
+targets, 7,050 Loewner comparisons, and an exact 324-row replay. Grade:
+`VERIFIED_WITH_CAVEATS`, bounded to the complete pointwise `PSD(2)` image for one symbolic
+A calibration. Physical history, relation family, derivatives, global composition, action,
+source, matter, bootstrap, `X_max`, SNe, CMB, and dynamics remain open.
+
+**NEXT, NOT LAUNCHED:** the zero-order chord vocabulary is closed. Choose and preregister either
+(1) the matched first-/second-jet compatibility atlas—how allowed chords can vary and bend—or
+(2) the global network-descent audit—how edge chords compose across observers. Do not sample a few
+reality-looking melodies before one of these structural joins is owned.
+
 ## ============ CURRENT STATE (2026-08-12 — PAIR-FIRST METRIC ORCHESTRA PONDER BANKED; NO NEW PHYSICS CLAIM) ============
 
 **CURRENT WORKING SYNTHESIS — THREE-LAYER RELATIONAL GEOMETRY.** Read

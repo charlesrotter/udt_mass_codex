@@ -1,0 +1,14 @@
+{
+  "catch_count": 8,
+  "catches": {
+    "base_rank_zero_unique": true,
+    "beta_coupling_required": true,
+    "clock_direction_required": true,
+    "clock_null_not_always_degenerate": true,
+    "cross_term_required": true,
+    "positive_stratum_retained": true,
+    "rank_equality_required": true,
+    "ruler_direction_required": true
+  },
+  "status": "PASS"
+}

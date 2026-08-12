@@ -4,6 +4,19 @@
 
 ---
 
+## TOP — CURRENT VERIFIED POINTER (2026-08-12, exact local pair-terminal reachability)
+
+Read `udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. For one fixed symbolic
+A-calibrated Lorentzian base, the full pointwise `PSD(2)` orchestra has an exact terminal image,
+inverse Gram reconstruction, rank-zero/one/two atlas, and three-signature classification. Nonzero
+Loewner additions strictly increase `phi_pair` only while the same A-terminal chart persists. Two
+fresh adversarial derivations verify the theorem with caveats. This closes the zero-order chord
+vocabulary, not derivatives, global network composition, physical history, `X_max`, or dynamics.
+Next choose between the derivative-compatibility and global-descent joins.
+
+---
+
 ## TOP — CURRENT CONCEPTUAL POINTER (2026-08-12, pair-first orchestra ponder)
 
 Read `udt_pair_first_metric_orchestra_ponder_2026-08-12/PONDER.md`, then `PREMISE_LEDGER.tsv` and
@@ -11,7 +24,7 @@ Read `udt_pair_first_metric_orchestra_ponder_2026-08-12/PONDER.md`, then `PREMIS
 three differently typed layers: the local first fundamental form and terminal reciprocal-`c_E`
 readout; derivative immersion/transport geometry; and global network compatibility. The first
 layer does not own the other two. This is a `PONDER / WORKING SYNTHESIS`, not a derived physical
-selector. The next candidate is to preregister a zero-order terminal reachability map.
+selector. Its zero-order terminal reachability candidate is now completed by the current pointer.
 
 ---
 

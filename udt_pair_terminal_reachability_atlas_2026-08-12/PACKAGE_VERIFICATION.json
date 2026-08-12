@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "atlas_rows": true,
+    "atlas_unique_ids": true,
+    "catch_proofs": true,
+    "covariance": true,
+    "independent_forward": true,
+    "independent_inverse": true,
+    "independent_strata": true,
+    "production_case_count": true,
+    "production_strata": true,
+    "required_files": true,
+    "result_manifest_count": true,
+    "result_manifest_hashes": true,
+    "source_count": true,
+    "source_hashes": true,
+    "symbolic_checks": true
+  },
+  "scope": "administrative and saved-artifact consistency; not independent derivation",
+  "status": "PASS"
+}

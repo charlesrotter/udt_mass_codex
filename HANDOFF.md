@@ -21,6 +21,20 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
+**CURRENT VERIFIED BOUNDED RESULT = EXACT PAIR-TERMINAL REACHABILITY ATLAS.** Read
+`udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md`, then `EXACT_DERIVATION.md`,
+`ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`. For one fixed symbolic
+A-calibrated Lorentzian base, the complete pointwise `PSD(2)` orchestra has an exact
+necessary-and-sufficient terminal image:
+`0<T^2<=T0^2`, `L^2>=L0^2`, and
+`(T0^2-T^2)(L^2-L0^2)>=T0^2*T^2*(beta-beta0)^2`.
+The inverse Gram matrix and rank-zero/one/two strata are exact. Nonzero Loewner additions strictly
+raise `phi_pair` only while the same A-terminal chart persists. The larger Gram atlas retains
+Lorentzian, degenerate, and positive-definite strata; loss of the A-clock chart is not `X_max`.
+Two fresh adversarial derivations verify the bounded theorem. NEXT, not launched: choose between a
+first-/second-jet compatibility atlas and a global network-descent audit. No physical history,
+branch, action, source, matter, bootstrap, cosmology, or signal law follows.
+
 **CURRENT WORKING SYNTHESIS = PAIR-FIRST METRIC ORCHESTRA, THREE DISTINCT LAYERS.** Read
 `udt_pair_first_metric_orchestra_ponder_2026-08-12/PONDER.md`, then `PREMISE_LEDGER.tsv` and
 `WHITEBOARD.md`. One supplied relation first receives its complete pair metric and terminal
@@ -28,9 +42,8 @@ reciprocal-`c_E` readout; derivative bending/focusing/normal transport is a sepa
 layer; global calibration carry, scalar descent, branch retention, and route holonomy are a third
 network layer. This removes several false selector/single-scalar hunts but derives no physical
 history, realization, action, source, matter, bootstrap, `X_max`, SNe, or CMB branch. It is a
-`PONDER`, not a new verified physics result. NEXT, not launched: preregister the complete
-zero-order terminal reachability image of `h_base+P`, `P>=0`; do not infer higher-jet or global
-claims from that local map.
+`PONDER`, not a new verified physics result. Its proposed zero-order terminal reachability map is
+now completed by the current package above; do not infer higher-jet or global claims from it.
 
 **CURRENT VERIFIED BOUNDED RESULT = PAIR-FIRST RELATIONAL-PLANE RECONSTRUCTION.** Read
 `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then

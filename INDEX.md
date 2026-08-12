@@ -9,12 +9,20 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+5m. CURRENT VERIFIED BOUNDED RESULT: read
+   `udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md`, then
+   `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`.
+   The complete pointwise `PSD(2)` Gram image for one fixed symbolic A-calibrated base has an exact
+   terminal reachability inequality, inverse, rank atlas, and full signature classification.
+   Two fresh adversarial derivations verify it with caveats. This is a local observer-pair chord
+   map, not a physical history, signal law, `X_max`, or dynamics. Next choose between the derivative
+   compatibility and global network-descent joins.
 5n. CURRENT WORKING SYNTHESIS: read
    `udt_pair_first_metric_orchestra_ponder_2026-08-12/PONDER.md`, then `PREMISE_LEDGER.tsv` and
    `WHITEBOARD.md`. The pair-first architecture has three layers: local complete pair metric and
    terminal reciprocal-`c_E` readout; separate derivative immersion/transport channels; and global
-   observer-network compatibility. This is a ponder, not new physics. The next candidate is a
-   preregistration for a zero-order terminal reachability map, not a new mechanism or global selector.
+   observer-network compatibility. This is a ponder, not new physics. Its zero-order reachability
+   candidate is completed by item 5m.
 5o. CURRENT VERIFIED BOUNDED RESULT: read
    `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
    `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`.
