@@ -1,0 +1,18 @@
+item	status	ownership
+c_E	OBSERVED	reciprocal clock/ruler calibration only
+R	SYMBOLIC_OPEN	positive scale retained; numerical value unselected
+AM_lapse	CHOSE_CONTROL	A=1-x^2/4 from frozen G75 family; not a physical profile selection
+G75_AM_profiles	CHOSE_CONTROL	all 197 exact AM rows retained without ranking
+G75_domain_0_1	INHERITED_CONTROL	only domain with original G75 authority
+continuation_to_x_2	FREE_AND_EXPLORED	exact formula continuation; not physical authority
+x_equals_2	CANDIDATE_SURFACE	stationary A=0 surface; not X_max, antipode, wall, or manifold boundary by name
+x_2_sin_chi	DERIVED_COORDINATE_MAP	one-chart radial map; doubled use requires a second branch/chart
+doubled_spatial_completion	CANDIDATE_TO_CLASSIFY	minimal smooth intrinsic spatial extension; topology not selected physics
+stationary_observers	CHOSE_QUERY	Killing-aligned worldlines where timelike; not every observer frame
+stationary_phi	DERIVED_CONDITIONAL	endpoint Killing ratio on the supplied stationary query
+angular_mixing_h	FREE_AND_EXPLORED	all exact q polynomials retained through their transparent continuation
+physical_pair_separation	OPEN	must not be identified with chart radius, one-sided proper length, or spatial diameter without proof
+frame_sharing	OPEN_THEOREM	must distinguish spatial-isometry homogeneity from complete-spacetime observer reciprocity
+physical_X_max	WORKING_FRAME_OPEN_REALIZATION	asymptotic role retained; law and value unselected
+source_action_matter_bootstrap	OPEN_NOT_USED	forbidden as selectors in this audit
+time_live_dynamics	OPEN_NOT_TESTED	stationary classification only
