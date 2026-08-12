@@ -4,6 +4,14 @@ These tables govern artifact navigation and reorganization classification; they 
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
 lead is
+`udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+It derives exact redshift and angular distance from one chosen stationary query on one
+deterministically selected G75/G77 control, before P1 comparison, with external-review caveats on
+sealed portability and shared method inputs. It selects no physical profile, endpoint, scale,
+`X_max`, source, fit, or CMB field; next is the reverse source-initial reciprocity check. Its parent
+is `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+which finds zero native owners of the physical profile, endpoint/scale, or source in its exact
+twenty-source universe. Its finite-mesh parent is
 `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It externally verifies a direct metric-Christoffel replay of all 591 frozen G75 profiles and
 1,514,142 level-4 rays: 590 strong, one registered, zero unresolved. The four G76 exceptions are
@@ -130,7 +138,7 @@ leaving the physical pair-map/calibration owner open. Its immediate foundation g
 A conflict
 between these controls and a cited source is a mandatory stop.
 
-The current scientific lead is the bounded G78 owner join at
+The G78 scientific parent is the bounded owner join at
 `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It adds no migration authority and changes no path registry: zero native physical profile,
 endpoint/scale, or source owners are found in its exact twenty-source universe. Its internal

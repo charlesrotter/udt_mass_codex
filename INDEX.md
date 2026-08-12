@@ -9,7 +9,15 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION. Read
+5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION; current substep = DIMENSIONAL
+   OBSERVER-QUERY CONSTRUCTION. Read
+   `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+   then `EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, and `THERMAL_READOUT_LEDGER.tsv`. On one
+   outcome-independently selected G75/G77 control, one full stationary query returns exact
+   `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` before P1 comparison. The result is externally
+   verified with sealed-script portability and method-sharing caveats. No profile, endpoint,
+   scale, `X_max`, source, fit, or CMB temperature field is selected; `cmb_temp` is explicitly
+   deferred. Next is the reverse source-initial reciprocity check on the same geometry. Parent:
    `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
    then `EXACT_DERIVATION.md`, `OWNER_ROUTE_LEDGER.tsv`, and `VERIFICATION_SCOPE_LEDGER.tsv`.
    The exact twenty-source owner join finds zero native physical profile, endpoint/scale, or source

@@ -21,7 +21,20 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-11) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G78 PROFILE, ENDPOINT/SCALE, AND SOURCE-OWNER JOIN,
+**LATEST LEAD = G79 SAME-GEOMETRY DIMENSIONAL REDSHIFT AND ANGULAR-DISTANCE QUERY,
+`VERIFIED_WITH_CAVEATS__BOUNDED_SAME_GEOMETRY_REDSHIFT_AND_ANGULAR_DISTANCE_QUERY`.** Read
+`udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, and `THERMAL_READOUT_LEDGER.tsv`. One deterministically
+selected frozen control and one fully typed stationary query return both
+`1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` from the same complete metric before P1
+comparison. External replay reproduces the full result and leaves only sealed-portability and
+method-sharing caveats. This is one control tile: `x=1` is not `X_max`, `R` is not selected, and
+no physical profile, source, fit, last-scattering surface, CMB field, or spectrum follows.
+`cmb_temp` remains deferred until after the SNe and/or `X_max` endpoint curve. NEXT: reverse the
+same source/receiver branch and test redshift and angular-distance reciprocity before opening a
+new family.
+
+**PARENT LEAD = G78 PROFILE, ENDPOINT/SCALE, AND SOURCE-OWNER JOIN,
 `VERIFIED_WITH_CAVEATS__NO_PHYSICAL_PROFILE_ENDPOINT_SCALE_OR_SOURCE_OWNER_IN_EXACT_20_SOURCE_G78_UNIVERSE`.**
 Read `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
 then `EXACT_DERIVATION.md`, `OWNER_ROUTE_LEDGER.tsv`, and `VERIFICATION_SCOPE_LEDGER.tsv`. The

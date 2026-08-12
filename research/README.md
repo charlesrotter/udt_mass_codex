@@ -7,13 +7,20 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The current G78 lead is
+**CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction. The current G79
+lead is
+`../udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+One deterministically selected G75/G77 control and one chosen stationary query return exact
+`1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` from the same full metric before P1 comparison.
+External review reproduced the bounded result with sealed-portability and shared-method caveats.
+No physical profile, endpoint, scale, `X_max`, source, fit, or CMB field is selected. `cmb_temp` is
+deferred; next is the reverse source-initial reciprocity check. Its G78 parent is
 `../udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It finds zero native physical profile, endpoint/scale, or source owners in the exact twenty-source
 G78 universe, while all 591 profiles remain bounded finite-mesh survivors. The exact constant-scale
 factorization does not make UDT scale-free. External review reproduced the algebra and found no
-contradictory owner, with explicit evidence-scope caveats. Next is one dimensional same-geometry
-SNe query on one fixed realization before P1 comparison or fitting. Its parent is
+contradictory owner, with explicit evidence-scope caveats. Its dimensional single-query gate is
+completed by G79 above. Its parent is
 `../udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It directly replays all 591 frozen G75 profiles and 1,514,142 level-4 rays from the metric
 Christoffel equation, returning 590 strong, one registered, and zero unresolved rows. The sealed

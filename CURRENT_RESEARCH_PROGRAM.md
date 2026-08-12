@@ -7,7 +7,19 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G78 LEAD:**
+**CURRENT G79 LEAD:**
+`udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the first same-geometry dimensional cross-query result. The deterministic frozen control
+`G75_AM_S01_E05` and the chosen stationary `x=1/4 -> 1` observer query yield
+`1+z=sqrt(21)/4`, `phi_pair=log(sqrt(21)/4)`, and `d_A/R=0.7559850215834019` from one full
+metric before P1 is consulted. The external review independently reproduced all load-bearing
+algebra and numerics and returned `VERIFIED_WITH_CAVEATS`; sealed replay portability and shared
+metric/query/ODE-family caveats remain binding. This selects no physical profile, scale, endpoint,
+`X_max`, source, SNe fit, or CMB field. The thermal lens-plus-redshift map is deferred until after
+the dimensional SNe and/or `X_max` curve. NEXT: reverse the source-initial branch on the same
+geometry and test redshift plus angular-distance reciprocity.
+
+**G78 PARENT LEAD:**
 `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
 controls the bounded physical-owner gate. In the exact twenty-source/seven-route universe it finds
 four open-no-owner routes, one SNe compatibility anchor, one `X_max` necessary requirement, one
@@ -19,7 +31,7 @@ factorization, endpoint typing, and source algebra and found no contradictory ow
 correctly limits the internal ownership-status script to regression evidence and the package-wide
 checks to repository gates outside the sealed scientific universe. NEXT: derive one dimensional
 SNe query on one fixed G75/G77 realization, returning `phi_pair` and `d_A` or `d_L` before P1
-comparison, fitting, or profile ranking.
+comparison, fitting, or profile ranking. That next gate is now completed by G79 above.
 
 **G77 PARENT LEAD:**
 `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`

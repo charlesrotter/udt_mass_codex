@@ -9,7 +9,18 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G78 lead
+## Current G79 lead
+
+`udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the bounded same-geometry dimensional query. On one deterministically selected frozen
+control and one chosen stationary endpoint/ray query, the full metric returns exact reciprocal
+redshift and angular distance before P1 comparison. External review reproduces the result with
+sealed-portability and method-sharing caveats. The result is conditional on the control geometry
+and query and does not select a physical profile, `R`, endpoint, `X_max`, source state, SNe fit,
+CMB temperature field, or spectrum. The deferred thermal formula is only a typed future readout.
+Next is the reverse source-initial reciprocity check on the same geometry.
+
+## G78 parent lead
 
 `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
 controls the bounded physical-owner join. Across its exact twenty-source/seven-route universe, no

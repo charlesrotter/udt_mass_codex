@@ -4,11 +4,20 @@
 
 ---
 
-## TOP — CURRENT POINTER (2026-08-11, G78 owner join externally verified with caveats)
+## TOP — CURRENT POINTER (2026-08-11, G79 same-geometry dimensional query externally verified with caveats)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**. The current lead is
+**CMB PEAK OPTIMIZATION**, with current substep **DIMENSIONAL OBSERVER-QUERY CONSTRUCTION**. The current lead is
+`udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`:
+one deterministically selected frozen G75/G77 control and one full stationary observer query
+produce both exact `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` before consulting P1. The
+external reviewer independently reproduced the dimensional factorization, redshift, full Jacobi
+endpoint, refinement, and conditional SNe/thermal typing. Retain its caveats: sealed scripts still
+expect Git, and the neighboring-ray method shares the metric/query/ODE family. This is not a
+physical profile, endpoint, scale, `X_max`, source, fit, CMB field, or spectrum. `cmb_temp` is
+deferred until after the SNe and/or `X_max` endpoint curve. Next: reverse the same null/Jacobi
+branch and test observer-order reciprocity. Its parent is
 `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`:
 the exact twenty-source/seven-route owner audit finds zero native owners of the physical profile,
 endpoint/global scale, or source state. All 591 controls survive. Exact factorization removes
