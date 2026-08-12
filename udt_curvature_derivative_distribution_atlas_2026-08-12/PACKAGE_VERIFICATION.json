@@ -1,0 +1,16 @@
+{
+  "derivative_owners": 6,
+  "gram_spectral_rows": 3663,
+  "gram_spectral_unresolved": 3266,
+  "gram_spectral_verified": 397,
+  "prior_misaligned_ownership_unresolved": 7,
+  "prior_misaligned_positive_owners": 0,
+  "prior_misaligned_resolved_nonowners": 1187,
+  "prior_misaligned_rows": 1194,
+  "raw_artifact_rows": 16,
+  "rows": 1221,
+  "source_rows": 9,
+  "spi_unresolved_rows": 10,
+  "status": "PASS",
+  "verified_rows": 1211
+}

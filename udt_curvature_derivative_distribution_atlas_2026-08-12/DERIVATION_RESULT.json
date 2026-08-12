@@ -1,0 +1,44 @@
+{
+  "counts": {
+    "G63": 42,
+    "G85": 1179,
+    "rows": 1221
+  },
+  "derivative_owner_count": 6,
+  "k_ric_counts": {
+    "DERIVATIVE_GRAM_DEFINES_ALTERNATIVE_SPECTRAL_STRUCTURE": 1203,
+    "DERIVATIVE_GRAM_DEGENERATE": 1,
+    "DERIVATIVE_GRAM_OWNS_REGISTERED_SPLIT": 6,
+    "DERIVATIVE_GRAM_PRESERVES_WITHOUT_GAP": 3,
+    "NUMERICALLY_UNRESOLVED": 8
+  },
+  "k_riem_counts": {
+    "DERIVATIVE_GRAM_DEFINES_ALTERNATIVE_SPECTRAL_STRUCTURE": 1208,
+    "DERIVATIVE_GRAM_DEGENERATE": 1,
+    "DERIVATIVE_GRAM_OWNS_REGISTERED_SPLIT": 6,
+    "DERIVATIVE_GRAM_PRESERVES_WITHOUT_GAP": 3,
+    "NUMERICALLY_UNRESOLVED": 3
+  },
+  "k_weyl_counts": {
+    "DERIVATIVE_GRAM_DEFINES_ALTERNATIVE_SPECTRAL_STRUCTURE": 1206,
+    "DERIVATIVE_GRAM_DEGENERATE": 1,
+    "DERIVATIVE_GRAM_OWNS_REGISTERED_SPLIT": 5,
+    "DERIVATIVE_GRAM_PRESERVES_WITHOUT_GAP": 4,
+    "NUMERICALLY_UNRESOLVED": 5
+  },
+  "no_physical_selection": true,
+  "primary_landing": "FIRST_DERIVATIVE_ATLAS_NUMERICALLY_OR_JET_UNRESOLVED",
+  "schema": "udt-first-curvature-derivative-distribution-v1",
+  "source_manifest_rows": 9,
+  "spi_counts": {
+    "SPI_RANK0_OR_1_UNDERDETERMINED": 11,
+    "SPI_RANK2_ALTERNATIVE_PLANE": 392,
+    "SPI_RANK3_OR_4_NO_INTRINSIC_2PLANE": 818
+  },
+  "status": "PRODUCTION_COMPLETE",
+  "versions": {
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "torch": "2.5.1+cu121"
+  }
+}

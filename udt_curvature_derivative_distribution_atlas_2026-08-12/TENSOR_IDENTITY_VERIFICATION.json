@@ -1,0 +1,18 @@
+{
+  "maximum_defects": {
+    "gram_symmetry": 9.459433160613995e-16,
+    "ricci_symmetry": 1.5732370726068863e-15,
+    "riemann_differential_bianchi": 1.454655143374363e-14,
+    "riemann_first_pair_antisymmetry": 1.2061390265360097e-14,
+    "riemann_last_pair_antisymmetry": 4.2717988402428013e-16,
+    "riemann_pair_exchange": 9.492988687089819e-15,
+    "riemann_to_ricci_contraction": 1.1943258835895348e-15,
+    "weyl_first_pair_antisymmetry": 3.0317537611736346e-15,
+    "weyl_last_pair_antisymmetry": 1.969950802422119e-15,
+    "weyl_pair_exchange": 2.9563013345613564e-15,
+    "weyl_trace_free_contraction": 2.0738655961766704e-15
+  },
+  "rows": 1221,
+  "schema": "udt-curvature-derivative-identities-v1",
+  "status": "PASS"
+}

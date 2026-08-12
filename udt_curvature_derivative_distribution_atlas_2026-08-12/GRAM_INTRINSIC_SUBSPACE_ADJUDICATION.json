@@ -1,0 +1,33 @@
+{
+  "adjudicated_structure_counts": {
+    "FOUR_REAL_SIMPLE_LINES": 391,
+    "REAL_REPEATED_DIAGONALIZABLE": 6,
+    "SPECTRALLY_UNRESOLVED": 3266
+  },
+  "per_tensor_structure_counts": {
+    "k_ric": {
+      "FOUR_REAL_SIMPLE_LINES": 144,
+      "REAL_REPEATED_DIAGONALIZABLE": 2,
+      "SPECTRALLY_UNRESOLVED": 1075
+    },
+    "k_riem": {
+      "FOUR_REAL_SIMPLE_LINES": 163,
+      "REAL_REPEATED_DIAGONALIZABLE": 2,
+      "SPECTRALLY_UNRESOLVED": 1056
+    },
+    "k_weyl": {
+      "FOUR_REAL_SIMPLE_LINES": 84,
+      "REAL_REPEATED_DIAGONALIZABLE": 2,
+      "SPECTRALLY_UNRESOLVED": 1135
+    }
+  },
+  "resolved_candidate_2plane_counts": {
+    "0": 6,
+    "6": 391
+  },
+  "rows": 3663,
+  "schema": "udt-Gram-intrinsic-subspaces-adjudication-v1",
+  "spectrally_unresolved_rows": 3266,
+  "status": "PASS_WITH_SPECTRALLY_UNRESOLVED",
+  "verified_rows": 397
+}

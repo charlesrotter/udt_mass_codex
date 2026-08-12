@@ -1,0 +1,16 @@
+{
+  "comparison_unresolved": 13,
+  "exact_comparison_passes": 3650,
+  "independent_structure_counts": {
+    "DEFECTIVE": 9,
+    "FOUR_REAL_SIMPLE_LINES": 391,
+    "REAL_REPEATED_DIAGONALIZABLE": 6,
+    "SPECTRALLY_UNRESOLVED": 3257
+  },
+  "maximum_eigenvalue_error": 6.535617696423746e-05,
+  "maximum_finite_block_projector_defect": 1.0,
+  "maximum_finite_candidate_2plane_projector_defect": 0.00024305041402851194,
+  "rows": 3663,
+  "schema": "udt-Gram-intrinsic-subspaces-independent-v1",
+  "status": "PASS_WITH_SPECTRALLY_UNRESOLVED"
+}

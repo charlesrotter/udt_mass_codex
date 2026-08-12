@@ -1,0 +1,16 @@
+object	status	result	scope_or_limit
+production_tensor_identities	DERIVED	PASS_1221_OF_1221	worst normalized defect 1.46e-14
+independent_full_tensors	OBSERVED	PASS	worst relative error 1.27e-4 below frozen 5e-3 gate
+independent_Gram_classes	OBSERVED	PASS_1221_OF_1221	all three Gram classes reproduce on every jet
+Gram_full_spectral_maps	OBSERVED	397_VERIFIED_3266_UNRESOLVED	all 3663 production and independent rows preserved
+Gram_simple_real_eigenline_maps	OBSERVED	391	all six intrinsic two-line plane sums saved and cross-route verified
+Gram_repeated_real_maps	OBSERVED	6	no arbitrary subplane promoted inside repeated eigenspace
+independent_SPI_classes	OBSERVED	PASS_1211_UNRESOLVED_10	ten rows enter preregistered rank uncertainty band
+prior_pointwise_misaligned_stratum	OBSERVED	1187_RESOLVED_NO_OWNER_7_UNRESOLVED_0_POSITIVE	all 1194 SPI rows resolved; seven Gram ownership gates uncertain
+registered_split_derivative_owners	OBSERVED	SIX	all six already Ricci-derived with Weyl alignment in parent audit
+alternative_SPI_planes	OBSERVED	390	adjudicated bounded atlas
+SPI_rank3_or4	OBSERVED	818	adjudicated bounded atlas
+physical_history	OPEN	NO_OWNER_NOT_TESTED	no physical selection
+observer_query_realization	OPEN	NO_OWNER_NOT_TESTED	no pair immersion selected
+action_source_bootstrap	OPEN	NO_OWNER_NOT_TESTED	not in scope
+package	CONDITIONAL	VERIFIED_WITH_CAVEATS	primary landing FIRST_DERIVATIVE_ATLAS_NUMERICALLY_OR_JET_UNRESOLVED

@@ -1,0 +1,22 @@
+{
+  "candidate_2plane_counts": {
+    "0": 9,
+    "1": 1,
+    "2": 3260,
+    "6": 393
+  },
+  "rank_counts": {
+    "0": 3,
+    "1": 6,
+    "3": 3,
+    "4": 3651
+  },
+  "rows": 3663,
+  "schema": "udt-Gram-intrinsic-subspaces-production-v1",
+  "status": "COMPLETE",
+  "structure_counts": {
+    "FOUR_REAL_SIMPLE_LINES": 391,
+    "REAL_REPEATED_DIAGONALIZABLE": 18,
+    "SPECTRALLY_UNRESOLVED": 3254
+  }
+}

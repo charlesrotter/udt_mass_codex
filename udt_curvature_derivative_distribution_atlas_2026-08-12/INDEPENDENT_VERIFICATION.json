@@ -1,0 +1,17 @@
+{
+  "checks": 1221,
+  "max_finite_spi_projector_defect": 2.700278446102738e-06,
+  "max_gradient_relative_error": 0.00012737741822769707,
+  "max_outer_ladder_difference": 0.00019296188076108867,
+  "max_tensor_relative_error": 0.00012737741822769707,
+  "pass_count": 1211,
+  "schema": "udt-first-curvature-derivative-independent-v1",
+  "spi_counts": {
+    "SPI_DEGENERATE_OR_NUMERICALLY_UNRESOLVED": 10,
+    "SPI_RANK0_OR_1_UNDERDETERMINED": 3,
+    "SPI_RANK2_ALTERNATIVE_PLANE": 390,
+    "SPI_RANK3_OR_4_NO_INTRINSIC_2PLANE": 818
+  },
+  "spi_projector_unmatched_count": 10,
+  "status": "FAIL"
+}

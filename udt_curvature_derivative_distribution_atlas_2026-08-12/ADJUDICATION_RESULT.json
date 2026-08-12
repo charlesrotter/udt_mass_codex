@@ -1,0 +1,64 @@
+{
+  "adjudicated_spi_counts": {
+    "SPI_DEGENERATE_OR_NUMERICALLY_UNRESOLVED": 10,
+    "SPI_RANK0_OR_1_UNDERDETERMINED": 3,
+    "SPI_RANK2_ALTERNATIVE_PLANE": 390,
+    "SPI_RANK3_OR_4_NO_INTRINSIC_2PLANE": 818
+  },
+  "derivative_owner_count": 6,
+  "derivative_owner_parent_classes": {
+    "RICCI_DERIVED_WITH_WEYL_ALIGNMENT": 6
+  },
+  "gram_classifications_reproduced": 1221,
+  "k_ric_counts": {
+    "DERIVATIVE_GRAM_DEFINES_ALTERNATIVE_SPECTRAL_STRUCTURE": 1203,
+    "DERIVATIVE_GRAM_DEGENERATE": 1,
+    "DERIVATIVE_GRAM_OWNS_REGISTERED_SPLIT": 6,
+    "DERIVATIVE_GRAM_PRESERVES_WITHOUT_GAP": 3,
+    "NUMERICALLY_UNRESOLVED": 8
+  },
+  "k_riem_counts": {
+    "DERIVATIVE_GRAM_DEFINES_ALTERNATIVE_SPECTRAL_STRUCTURE": 1208,
+    "DERIVATIVE_GRAM_DEGENERATE": 1,
+    "DERIVATIVE_GRAM_OWNS_REGISTERED_SPLIT": 6,
+    "DERIVATIVE_GRAM_PRESERVES_WITHOUT_GAP": 3,
+    "NUMERICALLY_UNRESOLVED": 3
+  },
+  "k_weyl_counts": {
+    "DERIVATIVE_GRAM_DEFINES_ALTERNATIVE_SPECTRAL_STRUCTURE": 1206,
+    "DERIVATIVE_GRAM_DEGENERATE": 1,
+    "DERIVATIVE_GRAM_OWNS_REGISTERED_SPLIT": 5,
+    "DERIVATIVE_GRAM_PRESERVES_WITHOUT_GAP": 4,
+    "NUMERICALLY_UNRESOLVED": 5
+  },
+  "no_physical_history_selected": true,
+  "no_query_or_realization_selected": true,
+  "ownership_adjudication_counts": {
+    "OWNERSHIP_UNRESOLVED": 15,
+    "POSITIVE_OWNER": 6,
+    "RESOLVED_NO_OWNER": 1200
+  },
+  "primary_landing": "FIRST_DERIVATIVE_ATLAS_NUMERICALLY_OR_JET_UNRESOLVED",
+  "prior_misaligned_ownership_unresolved_count": 7,
+  "prior_misaligned_positive_owner_count": 0,
+  "prior_misaligned_resolved_no_owner_count": 1187,
+  "prior_misaligned_rows": 1194,
+  "prior_misaligned_spi_independently_resolved": 1194,
+  "rows": 1221,
+  "schema": "udt-first-curvature-derivative-adjudication-v1",
+  "spi_unresolved_keys": [
+    "G85|G75_AM_S21_E05:A03_RADIAL_SHIFT_TIMELIVE|C0",
+    "G85|G75_AM_S21_E05:A04_LAPSE_LIFT_TIMELIVE|C0",
+    "G85|G75_AM_S21_E100:A03_RADIAL_SHIFT_TIMELIVE|C0",
+    "G85|G75_AM_S21_E100:A04_LAPSE_LIFT_TIMELIVE|C0",
+    "G85|G75_AM_S21_E20:A03_RADIAL_SHIFT_TIMELIVE|C0",
+    "G85|G75_AM_S21_E20:A04_LAPSE_LIFT_TIMELIVE|C0",
+    "G85|G75_AM_S21_E20:A04_LAPSE_LIFT_TIMELIVE|CMINUS",
+    "G85|G75_AM_S21_E20:A04_LAPSE_LIFT_TIMELIVE|CPLUS",
+    "G85|A05_UNIQUE|C0",
+    "G85|A05_UNIQUE|CMINUS"
+  ],
+  "spi_unresolved_rows": 10,
+  "status": "PASS_WITH_PREREGISTERED_UNRESOLVED",
+  "verified_rows": 1211
+}
