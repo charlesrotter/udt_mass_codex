@@ -1,0 +1,14 @@
+gate_id	gate	pass_condition	failure_disposition	maximum_inference
+F01	source_manifest	all 15 frozen source hashes match	STOP_NO_COMPUTE	provenance only
+F02	profile_census	exactly 197 unique AM rows including 1 zero and 196 nonzero	STOP_NO_COMPUTE	bounded family identity only
+F03	data_census	exactly 1367 frozen mode-A rows; zmax=2.2613	STOP_NO_COMPUTE	frozen observational query only
+F04	redshift_surface	x_s(z) finite, increasing, and x_s,max=1.9052028080619356<2	STOP_NO_COMPUTE	conditional AM stationary mapping only
+F05	path_characterization	every profile receives exactly one declared path/query status	FAIL_PACKAGE	atlas completeness only
+F06	residual_certification	each likelihood row has all five residuals <=1e-7	WITHHOLD_LIKELIHOOD_AND_REPORT	bounded numerical certification only
+F07	distance_domain	each likelihood row has finite positive d_A at all 1367 redshifts	WITHHOLD_LIKELIHOOD_AND_REPORT	one radial query only
+F08	likelihood_identity	analytic and independent saved-curve chi2 agree <=1e-8	WITHHOLD_EMPIRICAL_VERDICT	likelihood implementation only
+F09	method_replay	six preregistered Radau curves agree <=2e-5 mag maximum	GRADE_NUMERICALLY_UNRESOLVED	bounded method sensitivity only
+F10	full_census	197 unique result rows and no silent filtering	FAIL_PACKAGE	solution-space completeness for frozen family
+F11	observational_anchor	chi2 reported against frozen P1 without retuning	REPORT_EXACT_OUTCOME	compatibility ranking only
+F12	xmax_semantics	x=2 remains candidate and physical Xmax remains false	FAIL_PREMISE_AUDIT	no physical Xmax conclusion
+F13	four_evidence_gates	preregistered; bounded scope; independent replay; premise audit all explicit	BANK_ONLY_LEAD_OR_OPEN_IF_ANY_ABSENT	never canonization

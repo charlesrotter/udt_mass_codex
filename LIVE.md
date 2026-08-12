@@ -2,6 +2,22 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
+## ============ CURRENT STATE (2026-08-12 — G88 AM RADIAL SNe/XMAX COMPATIBILITY ATLAS PREREGISTERED; NO OUTCOME YET) ============
+
+**ACTIVE BOUNDED WORK — OBSERVATIONAL RANKING, NOT PHYSICAL SELECTION.** Read
+`udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION.md`, then
+`PREMISE_LEDGER.tsv`, `FALSIFICATION_CONTRACT.tsv`, and `SOURCE_MANIFEST.tsv`. The frozen test will
+evaluate all `197` G75 AM controls with the complete nonlinear G68 screen/Jacobi machinery on one
+stationary outward equatorial radial observer query across the `1367` primary Pantheon rows. Only
+one common magnitude/scale offset is profiled; no profile coefficient, endpoint, redshift law, or
+physical scale is fitted. The registered P1 SNe result is a compatibility benchmark only.
+
+Every AM row retains the exact stationary `x=2` divergence **candidate** from the free AM
+continuation, while physical `X_max` remains open. A one-ray score cannot certify or reject the
+whole-sky profile. Maximum future conclusion is an `OBSERVED` compatibility lead in this bounded
+query. At this checkpoint the preregistration verifier passes, all outcome artifacts are absent,
+and no new likelihood has been evaluated.
+
 **⚠ BRANCH: work is on `grok` (2026-08-12).** Synchronize before orientation.
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**

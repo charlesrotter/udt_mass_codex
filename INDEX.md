@@ -9,6 +9,12 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+5k. ACTIVE PREREGISTERED WORK: read
+   `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION.md` and its premise,
+   falsification, and source ledgers. It freezes all `197` AM controls against the `1367` primary
+   Pantheon rows on one complete stationary radial Jacobi query. No outcome exists yet. This can
+   rank bounded-query compatibility only; it cannot select physics, certify the whole sky, or
+   identify the AM `x=2` candidate with physical `X_max`.
 5l. CURRENT VERIFIED BOUNDED RESULT: read
    `udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then
    `EXACT_DERIVATION.md`, `EXTERNAL_REVIEW_ADJUDICATION.md`, `STATUS_LEDGER.tsv`, and

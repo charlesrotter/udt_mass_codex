@@ -21,6 +21,14 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
+**ACTIVE PREREGISTERED WORK = G88 AM RADIAL SNe/XMAX COMPATIBILITY ATLAS; NO OUTCOME YET.** Read
+`udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION.md` and its ledgers.
+The exact bounded universe is `197` frozen AM controls, one already owned stationary radial
+screen/Jacobi query, and `1367` frozen Pantheon rows. This is a complete-family radial-query census,
+not a whole-sky SNe test or physical profile selector. The AM `x=2` divergence remains a conditional
+candidate, not physical `X_max`. Preregistration passes and no outcome file exists. Preserve the
+seven protected stopped-draft paths below.
+
 **CURRENT VERIFIED BOUNDED RESULT = ZERO-ORDER PAIR-CHORD NETWORK DESCENT.** Read
 `udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then `EXACT_DERIVATION.md`,
 `EXTERNAL_REVIEW_ADJUDICATION.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`. On one common

@@ -1,0 +1,20 @@
+premise_id	item	value_or_rule	status	provenance	open_scope
+P01	profile_universe	197 G75 AM rows	CHOSE__FREE_AND_EXPLORED	G75 frozen bounded control atlas	all smooth profiles; A0/AP; generic complete histories
+P02	lapse_continuation	A(x)=1-x^2/4 through x_s,max	CHOSE__FREE_AND_EXPLORED	G83 AM continuation	physical history and physical X_max realization
+P03	receiver	x_r=0.25	CHOSE_CONTROL	G68/G79/G83 historical query	observer recentering and arbitrary observers
+P04	ordered_ray	outward equatorial radial null ray	CHOSE_CONTROL	G79 verified same-geometry query	whole sky; nonradial branches; multiple paths
+P05	endpoint_observers	coordinate-stationary Killing observers	CONDITIONAL	G79 stationary query	accelerated or time-live observers
+P06	complete_orchestra	full G68 metric, screen transport, and Jacobi system live	DERIVED_CONDITIONAL_ON_PROFILE_AND_QUERY	G68/G79 evaluator	physical query/history selection
+P07	redshift	1+z=sqrt(A_r/A_s)	DERIVED_CONDITIONAL_ON_STATIONARY_ENDPOINT_QUERY	G79 exact derivation	time-live and nonstationary endpoint law
+P08	catalog	Pantheon+SH0ES.dat	OBSERVED	frozen repository data	other SNe catalogs and independent observations
+P09	redshift_column	zCMB	CHOSE__REGISTERED_PRIMARY	G65/M3 preregistered primary	zHD/zHEL sensitivity
+P10	data_cut	zCMB>0.023 and noncalibrators	CHOSE__REGISTERED_PRIMARY	G65/M3 frozen mode A	alternative cuts and calibrator mode
+P11	covariance	full STAT+SYS	OBSERVED__REGISTERED	frozen Pantheon covariance	unknown systematics
+P12	angular_distance	d_A/R=sqrt(abs(det D))	DERIVED_CONDITIONAL_ON_QUERY	G68/G79 Jacobi screen	whole-sky source-screen realization
+P13	luminosity_distance	d_L=(1+z)^2 d_A	CONDITIONAL_READOUT	G65/G79 registered comparison readout	native complete flux law
+P14	magnitude_offset	one common analytically profiled B	CHOSE_NUISANCE__OBSERVATION_CALIBRATION	absolute scale and absolute magnitude degeneracy	physical R and absolute calibration ownership
+P15	P1_benchmark	chi2=1260.8480887040496	OBSERVED__CONDITIONAL_ANCHOR	frozen A:zCMB:P1 result	physical cosmology and independent prediction
+P16	x2_asymptote	exact AM stationary lapse-zero divergence candidate	DERIVED_CONDITIONAL_ON_FREE_AM_CONTINUATION	G83	recentering; global completion; physical X_max
+P17	physical_Xmax	frame-shared observer-pair dilation asymptote	WORKING_FOUNDATIONAL_FRAME	Xmax correction layer	separation law; numeric value; realization in AM
+P18	bootstrap	possible later explanation of survivor structure	WORKING_HYPOTHESIS__INACTIVE	project hypothesis	native admissibility law and independent falsifier
+P19	c_E	observed clock/ruler calibration	OBSERVED	foundational metric calibration	absolute scale closure; no role as profile selector

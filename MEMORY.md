@@ -4,6 +4,17 @@
 
 ---
 
+## TOP — ACTIVE PREREGISTERED POINTER (2026-08-12, G88 AM radial SNe/Xmax compatibility)
+
+Read `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION.md` and its three
+ledgers. The frozen calculation covers all `197` G75 AM controls, the complete nonlinear radial
+screen/Jacobi query, and `1367` primary Pantheon rows with one common profiled magnitude offset.
+No new likelihood has been evaluated at this checkpoint. The result ceiling is a bounded
+observational compatibility lead; whole-sky response, physical profile/history, `R`, bootstrap,
+and physical `X_max` remain open.
+
+---
+
 ## TOP — CURRENT VERIFIED POINTER (2026-08-12, zero-order chord-network descent)
 
 Read `udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, then
