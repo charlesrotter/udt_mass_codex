@@ -14,9 +14,11 @@ verify the carried and independently rotated Jacobi laws near `1e-14`; the direc
 neighboring-ray route closes near `1e-8`. External review returned `VERIFIED_WITH_CAVEATS` with
 no scientific correction and maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. Retain its live-source replay and
-bounded-independence caveats. No physical owner or downstream observable is selected. NEXT: replay
-the exact fixed C1 control with a non-DOP853 integrator family before endpoint/`X_max` or thermal
-work.
+bounded-independence caveats. No physical owner or downstream observable is selected. The exact
+fixed-C1 Radau support replay is internally complete at
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`, with worst DOP853 matrix difference
+`9.459627107202695e-12`. NEXT: external review of that sealed package; then, if upheld, return to
+endpoint/`X_max` or thermal work.
 
 **G80 PARENT LEAD:**
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`

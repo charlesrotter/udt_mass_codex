@@ -25,9 +25,12 @@ not the reviewer, reopened all nine frozen source bytes; and the neighboring-ray
 bounded independence because it shares the metric/profile, query, endpoints, rotations, and
 DOP853 family. This remains generic Jacobi/Wronskian covariance on two fixed controls—not a UDT
 selector, physical profile, endpoint, scale, `X_max`, CMB/SNe observable, `cmb_temp`, source,
-action, matter, bootstrap closure, or signal. **NEXT:** preregister one fixed-C1 replay using a
-non-DOP853 integrator family, without enlarging or retuning the control universe. Only after that
-bounded method gate should the deferred endpoint/`X_max` curve or temperature map be opened.
+action, matter, bootstrap closure, or signal. **G82 SUPPORT GATE:**
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md` is internally verified, with
+external review pending. The exact fixed-C1 Radau replay passes and differs from the frozen
+DOP853 matrices by at most `9.459627107202695e-12`; this changes no scientific claim. **NEXT:**
+complete the sealed G82 external review. If upheld, close this method caveat and return to the
+deferred endpoint/`X_max` curve or temperature-map question without adding more controls.
 
 **PARENT LEAD — G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
 `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`.** Read

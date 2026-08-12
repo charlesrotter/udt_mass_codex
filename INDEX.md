@@ -16,8 +16,9 @@
    genuinely angular controls verify the carried and independently rotated screen laws, with
    production closure near `1e-14` and bounded-independent neighboring-ray closure near `1e-8`.
    External review returns `VERIFIED_WITH_CAVEATS`; the maximum conclusion is strictly
-   `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. Next is a fixed-C1 non-DOP853
-   replay. Parent:
+   `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. The fixed-C1 Radau replay is
+   internally complete at `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`;
+   external review is pending and is the next gate. Parent:
    `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then its
    `EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. On the frozen G79
    metric/query, the past-directed affine reversal verifies `Z_rev=1/Z`, `phi_rev=-phi`,

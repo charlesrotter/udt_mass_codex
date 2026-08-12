@@ -15,8 +15,9 @@ radial/nonradial controls verify the carried and independently rotated screen la
 with bounded-independent neighboring-ray closure near `1e-8`. External review returns
 `VERIFIED_WITH_CAVEATS` and requires no scientific correction. Retain the live-source replay,
 bounded-independence, generic-Jacobi, and no-future-signal boundaries. No physical profile,
-endpoint, scale, `X_max`, source, fit, CMB field, or spectrum follows. Next is the same fixed C1
-replay with a non-DOP853 integrator family. Its G80 parent is
+endpoint, scale, `X_max`, source, fit, CMB field, or spectrum follows. The same fixed-C1 Radau
+replay is internally complete at `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`,
+with external review pending as the next gate. Its G80 parent is
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
 its nonradial/rotated-screen gate. Its G79 parent is
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, which

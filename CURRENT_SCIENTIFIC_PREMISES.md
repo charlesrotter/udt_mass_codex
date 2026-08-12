@@ -19,8 +19,9 @@ review returns `VERIFIED_WITH_CAVEATS` with no scientific correction and maximum
 rows while the live verifier reopened the nine frozen source bytes, and the neighboring-ray route
 remains bounded independence because it shares DOP853 and the fixed geometry/query data. This is
 not a UDT selector, physical profile, endpoint, scale, `X_max`, observable, source, action, matter,
-bootstrap closure, or signal. Next is only the same fixed C1 replay with a non-DOP853 integrator
-family.
+bootstrap closure, or signal. The same fixed-C1 Radau replay is internally complete at
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`; external review is pending. G81
+remains the controlling externally verified scientific result until that review is adjudicated.
 
 ## G80 parent lead
 

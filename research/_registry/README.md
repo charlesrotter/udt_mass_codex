@@ -8,8 +8,9 @@ lead is
 It externally verifies the carried and rotated screen covariance laws on exactly two fixed
 radial/nonradial controls, with binding live-source replay and bounded-independence caveats. The
 maximum conclusion is `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`; no physical
-owner or signal follows. Next is the same fixed C1 control with a non-DOP853 integrator family. Its
-G80 parent is
+owner or signal follows. The same fixed-C1 Radau replay is internally complete at
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`; external review is pending. Its G80
+parent is
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It externally verifies bounded reciprocal redshift and carried-screen Jacobi/area reversal on the
 exact G79 control. The result is generic geometric reciprocity, not a UDT selector or future

@@ -14,8 +14,9 @@ direct-Christoffel neighboring-ray residuals near `1e-8`. External review return
 `VERIFIED_WITH_CAVEATS`, with maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. This is generic
 Jacobi/Wronskian covariance, not a UDT selector or signal. No physical profile, endpoint, scale,
-`X_max`, source, fit, or CMB field is selected. Next is the same fixed C1 replay using a non-DOP853
-integrator family. Its G80 parent is
+`X_max`, source, fit, or CMB field is selected. The same fixed-C1 Radau replay is internally
+complete at `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`; external review is
+pending and is the next gate. Its G80 parent is
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
 G80's registered nonradial/rotated-screen gate. Its G79 parent is
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, which

@@ -14,8 +14,10 @@ Two fixed radial/nonradial controls verify the carried and rotated screen laws. 
 returns `VERIFIED_WITH_CAVEATS`, with maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. The neighboring-ray replay is
 bounded independence and the reviewer/live-source replay boundary must be retained. No physical
-profile, endpoint, scale, `X_max`, source, fit, or CMB field is selected. Next is the same fixed C1
-control under a non-DOP853 integrator family. Its G80 parent is
+profile, endpoint, scale, `X_max`, source, fit, or CMB field is selected. The same fixed-C1 Radau
+replay is internally complete at
+`../udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`; external review is pending and
+is the next gate. Its G80 parent is
 `../udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
 its nonradial/rotated-screen gate. Its G79 parent is
 `../udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,

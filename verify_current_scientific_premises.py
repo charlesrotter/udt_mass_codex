@@ -202,11 +202,13 @@ def validate_startup_surface(root: Path) -> None:
             require(token in text, f"current route lacks {token}: {control}")
 
     latest = "udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md"
+    pending = "udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md"
     parent = "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
     grandparent = "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
     greatgrandparent = "udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
+        require(pending in controls[control], f"G82 pending-review support route absent: {control}")
         require(parent in controls[control], f"G80 parent route absent: {control}")
         require(grandparent in controls[control], f"G79 grandparent route absent: {control}")
         require(greatgrandparent in controls[control], f"G78 great-grandparent route absent: {control}")
@@ -1361,9 +1363,9 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: 81 premise guards, G81 two-control nonradial screen covariance externally verified "
-        "with source-replay and bounded-independence caveats; all physical owners remain open and "
-        "only the same fixed-C1 non-DOP853 replay is next"
+        "PASS: 82 premise guards, G81 two-control nonradial screen covariance externally verified "
+        "with source-replay and bounded-independence caveats; G82 fixed-C1 Radau support passes "
+        "internally with external review pending and all physical owners open"
     )
     return
     # Unreachable pre-G79 verbose success text remains below only until the next mechanical guard cleanup.

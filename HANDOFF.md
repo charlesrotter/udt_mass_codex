@@ -31,9 +31,11 @@ production residuals near `1e-14` and direct-Christoffel neighboring-ray residua
 External review found no scientific correction. Preserve both caveats: the reviewer opened 28
 package rows while the live verifier reopened the nine frozen source bytes, and the independent
 route shares DOP853 plus the fixed geometry/query data. This is generic two-control
-Jacobi/Wronskian covariance, not physical selection or a signal. NEXT: preregister the same fixed
-C1 control with a non-DOP853 integrator family; do not enlarge the controls or open the deferred
-endpoint/`X_max` or temperature work first.
+Jacobi/Wronskian covariance, not physical selection or a signal. The same fixed-C1 Radau support
+replay is internally complete at
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`, with worst DOP853 matrix difference
+`9.459627107202695e-12`. External review is pending and is the next gate; G81 remains the
+externally verified scientific lead.
 
 **PARENT LEAD = G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
 `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`.** Read
