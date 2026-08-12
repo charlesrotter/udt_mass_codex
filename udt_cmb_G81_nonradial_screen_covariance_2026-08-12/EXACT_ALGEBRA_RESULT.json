@@ -1,0 +1,8 @@
+{
+  "A_and_B_SO2": true,
+  "area_determinant_identity": true,
+  "c1_oriented_orthonormal_triad": true,
+  "rotated_covariance_identity": true,
+  "schema": "udt-cmb-g81-exact-algebra-v1",
+  "status": "PASS"
+}

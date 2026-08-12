@@ -1,0 +1,27 @@
+{
+  "catches": {
+    "changed_A_rotation": true,
+    "changed_B_rotation": true,
+    "changed_direction": true,
+    "duplicate_control": true,
+    "frozen_source_mutation": true,
+    "future_signal_promotion": true,
+    "hidden_diagonal_nonradial_map": true,
+    "independent_tolerance_failure": true,
+    "missing_control": true,
+    "omitted_A_or_B": true,
+    "omitted_Z": true,
+    "omitted_transpose": true,
+    "partial_tangent_reversal": true,
+    "promotion__Xmax_identified": true,
+    "promotion__cmb_observable_derived": true,
+    "promotion__physical_endpoint_selected": true,
+    "promotion__physical_profile_selected": true,
+    "promotion__physical_source_selected": true,
+    "retuned_nonradial_control": true,
+    "silent_diagonalization": true
+  },
+  "count": 20,
+  "schema": "udt-cmb-g81-catch-proofs-v1",
+  "status": "PASS"
+}

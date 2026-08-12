@@ -1,0 +1,986 @@
+{
+  "authority": {
+    "Xmax_identified": false,
+    "cmb_temp_activated": false,
+    "future_signal_derived": false,
+    "generic_geometric_reciprocity_not_UDT_selector": true,
+    "maximum_conclusion": "DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS",
+    "past_directed_reversal_only": true,
+    "physical_profile_endpoint_scale_source_or_observable_selected": false
+  },
+  "control_count": 2,
+  "controls": [
+    {
+      "control_id": "C0_RADIAL_ROTATED",
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "forward": {
+        "D": [
+          [
+            0.7559967070430084,
+            -1.0146339127533358e-22
+          ],
+          [
+            -1.0146395760930269e-22,
+            0.7559733363044177
+          ]
+        ],
+        "Z": 1.1456439237389628,
+        "affine": 0.7560742639231726,
+        "dA_over_R": 0.7559850215834019,
+        "endpoint": [
+          0.8471144104566392,
+          1.0,
+          1.5707963267948966,
+          -0.012169213304160875
+        ],
+        "offdiagonal_norm": 1.434913044850935e-22,
+        "phi": 0.13596685774182335,
+        "summary": {
+          "affine_final": 0.7560742639231726,
+          "antisymmetric_D": [
+            [
+              0.0,
+              2.8316698455429404e-28
+            ],
+            [
+              -2.8316698455429404e-28,
+              0.0
+            ]
+          ],
+          "antisymmetric_norm": 4.0045858997297537e-28,
+          "conserved_p_psi_endpoint": 1.2303531022342384e-05,
+          "conserved_p_t_endpoint": -0.9921567416492236,
+          "det_D": 0.5715133528584565,
+          "endpoint_D": [
+            [
+              0.7559967070430084,
+              -1.0146339127533358e-22
+            ],
+            [
+              -1.0146395760930269e-22,
+              0.7559733363044177
+            ]
+          ],
+          "endpoint_Ddot": [
+            [
+              0.9990871001774944,
+              -1.743127087663101e-21
+            ],
+            [
+              -1.7431430905736877e-21,
+              0.9987992520432348
+            ]
+          ],
+          "endpoint_coordinates": [
+            0.8471144104566392,
+            1.0,
+            1.5707963267948966,
+            -0.012169213304160875
+          ],
+          "endpoint_k": [
+            1.3184815373099996,
+            0.9905078837128303,
+            -2.226043672801776e-20,
+            -0.06591177333447765
+          ],
+          "endpoint_reached": true,
+          "endpoint_screen": [
+            [
+              -2.5220059209441802e-20,
+              -2.091200514244749e-21,
+              0.9999999999999953,
+              -1.1579638522435512e-21
+            ],
+            [
+              0.02661394614211954,
+              0.019984383283800842,
+              1.969607230424256e-21,
+              0.9986695509855054
+            ]
+          ],
+          "endpoint_tidal": [
+            [
+              0.013035518434929474,
+              3.7500878938342514e-20
+            ],
+            [
+              3.7500878938333625e-20,
+              0.017369378986205355
+            ]
+          ],
+          "family": "G75_SELECTED",
+          "first_caustic_affine": null,
+          "lapse_a": -0.25,
+          "min_singular_value_sampled_path": 0.0001512148527846344,
+          "mix_epsilon": 0.05,
+          "mix_shape": "MONOMIAL_S2",
+          "nfev": 46457,
+          "polar_rotation": -1.3421216873571705e-22,
+          "profile_id": "G75_AM_S01_E05",
+          "residuals": {
+            "conserved_p_psi": 1.7666396774293491e-16,
+            "conserved_p_t": 2.6645352591003757e-15,
+            "min_A": 0.75,
+            "min_block_D": 0.06152343764901161,
+            "null": 1.4183200820413355e-15,
+            "screen_gram": 9.325873406851315e-15,
+            "screen_ray": 2.0816681711721685e-16,
+            "tidal_antisymmetry": 1.4155585091246184e-32,
+            "wronskian": 1.5384870063562099e-34
+          },
+          "singular_values": [
+            0.7559967070430084,
+            0.7559733363044177
+          ],
+          "solver_message": "A termination event occurred.",
+          "solver_success": true,
+          "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+          "symmetric_D": [
+            [
+              0.7559967070430084,
+              -1.0146367444231813e-22
+            ],
+            [
+              -1.0146367444231813e-22,
+              0.7559733363044177
+            ]
+          ],
+          "turning_events": []
+        }
+      },
+      "gates": {
+        "area_reciprocity": true,
+        "endpoint_return": true,
+        "forward_endpoint": true,
+        "frequency_reciprocity": true,
+        "no_forward_caustic": true,
+        "path_residuals": true,
+        "phi_oddness": true,
+        "reverse_endpoints": true,
+        "rotated_matrix_covariance": true,
+        "screen_return_rotated": true,
+        "screen_return_unrotated": true,
+        "tangent_return": true,
+        "unrotated_matrix_reciprocity": true
+      },
+      "reciprocity": {
+        "endpoint_return_max_absolute": 3.7870097682746184e-15,
+        "frequency_product_error": 4.884981308350689e-15,
+        "phi_sum_absolute": 4.912736883966318e-15,
+        "screen_return_rotated_relative": 5.082348460402802e-15,
+        "screen_return_unrotated_relative": 5.69644822736449e-15,
+        "screen_unrotated_overlap": [
+          [
+            0.999999999999996,
+            -4.925952429440385e-33
+          ],
+          [
+            4.984596367269568e-33,
+            1.0000000000000069
+          ]
+        ],
+        "tangent_return_relative": 3.745317077200257e-15
+      },
+      "reverse_rotated": {
+        "A": [
+          [
+            0.6,
+            -0.8
+          ],
+          [
+            0.8,
+            0.6
+          ]
+        ],
+        "B": [
+          [
+            0.38461538461538464,
+            -0.9230769230769231
+          ],
+          [
+            0.9230769230769231,
+            0.38461538461538464
+          ]
+        ],
+        "D": [
+          [
+            0.8394339377024193,
+            -0.21317976395446236
+          ],
+          [
+            0.21320283125448175,
+            0.8394475309327926
+          ]
+        ],
+        "D_relative": 1.0086332137876813e-14,
+        "affine": 0.8661918863589938,
+        "prediction": [
+          [
+            0.8394339377024159,
+            -0.21317976395446217
+          ],
+          [
+            0.2132028312544767,
+            0.8394475309327818
+          ]
+        ],
+        "summary": {
+          "affine_final": 0.8661918863589938,
+          "antisymmetric_D": [
+            [
+              0.0,
+              -1.1621613908848957e-15
+            ],
+            [
+              1.1621613908848957e-15,
+              0.0
+            ]
+          ],
+          "antisymmetric_norm": 1.6435444006557995e-15,
+          "conserved_p_psi_endpoint": -1.07394023286616e-05,
+          "conserved_p_t_endpoint": 0.8660254037844409,
+          "det_D": 0.7501112756267468,
+          "endpoint_D": [
+            [
+              0.8660858980819116,
+              1.285178143639458e-05
+            ],
+            [
+              1.2851781438718903e-05,
+              0.8660933949544252
+            ]
+          ],
+          "endpoint_Ddot": [
+            [
+              0.9998405564514505,
+              1.9048402736030426e-05
+            ],
+            [
+              1.90484027409046e-05,
+              0.9998516680197224
+            ]
+          ],
+          "endpoint_coordinates": [
+            -3.7870097682746184e-15,
+            0.25,
+            1.5707963267948966,
+            4.696834978983676e-17
+          ],
+          "endpoint_k": [
+            -0.8797718387651463,
+            -0.8660254037844357,
+            1.0785787884189247e-33,
+            2.3203461738406693e-16
+          ],
+          "endpoint_reached": true,
+          "endpoint_screen": [
+            [
+              -3.968253963457407e-05,
+              -1.3334327498389157e-16,
+              2.399999999999995,
+              -3.199999996124768
+            ],
+            [
+              2.9761904725954468e-05,
+              7.131228616449078e-17,
+              3.200000000000012,
+              2.3999999970935844
+            ]
+          ],
+          "endpoint_tidal": [
+            [
+              -3.5312735961183105e-07,
+              2.648455174877917e-07
+            ],
+            [
+              2.6484551747143724e-07,
+              -1.9863414106501998e-07
+            ]
+          ],
+          "family": "G75_SELECTED",
+          "first_caustic_affine": null,
+          "lapse_a": -0.25,
+          "min_singular_value_sampled_path": 0.0001732383772603385,
+          "mix_epsilon": 0.05,
+          "mix_shape": "MONOMIAL_S2",
+          "nfev": 53222,
+          "polar_rotation": 1.2501217651539714e-15,
+          "profile_id": "G75_AM_S01_E05",
+          "residuals": {
+            "conserved_p_psi": 9.020562075079397e-17,
+            "conserved_p_t": 3.9968028886505635e-15,
+            "min_A": 0.75,
+            "min_block_D": 0.06152343764901161,
+            "null": 4.587331082976013e-15,
+            "screen_gram": 1.1102230246251565e-14,
+            "screen_ray": 1.6306400674181987e-16,
+            "tidal_antisymmetry": 6.375108774214766e-17,
+            "wronskian": 2.28719902175753e-15
+          },
+          "singular_values": [
+            0.8661030337905004,
+            0.8660762592458363
+          ],
+          "solver_message": "A termination event occurred.",
+          "solver_success": true,
+          "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+          "symmetric_D": [
+            [
+              0.8660858980819116,
+              1.2851781437556742e-05
+            ],
+            [
+              1.2851781437556742e-05,
+              0.8660933949544252
+            ]
+          ],
+          "turning_events": []
+        },
+        "transported_screen_overlap_with_receiver": [
+          [
+            0.5999999999999988,
+            -0.800000000000004
+          ],
+          [
+            0.800000000000003,
+            0.6000000000000051
+          ]
+        ]
+      },
+      "reverse_unrotated": {
+        "D": [
+          [
+            0.8661030337904897,
+            -1.162415665135894e-22
+          ],
+          [
+            -1.1624091769652467e-22,
+            0.8660762592458356
+          ]
+        ],
+        "D_relative": 6.885259158085081e-15,
+        "affine": 0.8661918863589938,
+        "area_ratio_minus_Z": 6.661338147750939e-15,
+        "dA_over_R": 0.8660896464146981,
+        "inverse_Z": 0.8728715609439717,
+        "phi": -0.13596685774181844,
+        "prediction": [
+          [
+            0.8661030337904874,
+            -1.1624156651360532e-22
+          ],
+          [
+            -1.1624091769653482e-22,
+            0.8660762592458275
+          ]
+        ],
+        "summary": {
+          "affine_final": 0.8661918863589938,
+          "antisymmetric_D": [
+            [
+              0.0,
+              -3.244085323693785e-28
+            ],
+            [
+              3.244085323693785e-28,
+              0.0
+            ]
+          ],
+          "antisymmetric_norm": 4.587829462263263e-28,
+          "conserved_p_psi_endpoint": -1.07394023286616e-05,
+          "conserved_p_t_endpoint": 0.8660254037844409,
+          "det_D": 0.7501112756267369,
+          "endpoint_D": [
+            [
+              0.8661030337904897,
+              -1.162415665135894e-22
+            ],
+            [
+              -1.1624091769652467e-22,
+              0.8660762592458356
+            ]
+          ],
+          "endpoint_Ddot": [
+            [
+              0.9998659543217655,
+              -1.5950107091087695e-22
+            ],
+            [
+              -1.5949992657035079e-22,
+              0.9998262701494011
+            ]
+          ],
+          "endpoint_coordinates": [
+            -3.7870097682746184e-15,
+            0.25,
+            1.5707963267948966,
+            4.696834978983676e-17
+          ],
+          "endpoint_k": [
+            -0.8797718387651463,
+            -0.8660254037844357,
+            1.0785787884189247e-33,
+            2.3203461738406693e-16
+          ],
+          "endpoint_reached": true,
+          "endpoint_screen": [
+            [
+              -2.783450565324155e-34,
+              2.4732516252666735e-34,
+              3.999999999999984,
+              -1.970380969389993e-32
+            ],
+            [
+              4.960317454325859e-05,
+              1.509300083094958e-16,
+              1.993838546907827e-32,
+              3.999999995155968
+            ]
+          ],
+          "endpoint_tidal": [
+            [
+              -2.997524294203215e-15,
+              -8.967893838239211e-29
+            ],
+            [
+              -8.96790020387685e-29,
+              -5.51761497715586e-07
+            ]
+          ],
+          "family": "G75_SELECTED",
+          "first_caustic_affine": null,
+          "lapse_a": -0.25,
+          "min_singular_value_sampled_path": 0.00017323837726033878,
+          "mix_epsilon": 0.05,
+          "mix_shape": "MONOMIAL_S2",
+          "nfev": 53222,
+          "polar_rotation": -1.342114196134352e-22,
+          "profile_id": "G75_AM_S01_E05",
+          "residuals": {
+            "conserved_p_psi": 9.020562075079397e-17,
+            "conserved_p_t": 3.9968028886505635e-15,
+            "min_A": 0.75,
+            "min_block_D": 0.06152343764901161,
+            "null": 4.587331082976013e-15,
+            "screen_gram": 1.7763568394002505e-14,
+            "screen_ray": 2.3245294578089215e-16,
+            "tidal_antisymmetry": 1.4315076164765751e-32,
+            "wronskian": 8.769187857134265e-36
+          },
+          "singular_values": [
+            0.8661030337904897,
+            0.8660762592458356
+          ],
+          "solver_message": "A termination event occurred.",
+          "solver_success": true,
+          "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+          "symmetric_D": [
+            [
+              0.8661030337904897,
+              -1.1624124210505703e-22
+            ],
+            [
+              -1.1624124210505703e-22,
+              0.8660762592458356
+            ]
+          ],
+          "turning_events": []
+        }
+      },
+      "source_rows": 9,
+      "status": "PASS"
+    },
+    {
+      "control_id": "C1_FULL_ANGULAR",
+      "direction": [
+        0.9230769230769231,
+        0.23076923076923078,
+        0.3076923076923077
+      ],
+      "forward": {
+        "D": [
+          [
+            0.7696911932801827,
+            -0.0008345001644133002
+          ],
+          [
+            -0.000834507569431947,
+            0.7720777797558562
+          ]
+        ],
+        "Z": 1.145643923738963,
+        "affine": 0.7692987297931658,
+        "dA_over_R": 0.7708831112488425,
+        "endpoint": [
+          0.8619257832681286,
+          1.0,
+          1.7493671390260097,
+          0.23079074045919012
+        ],
+        "offdiagonal_norm": 0.0011801666864663825,
+        "phi": 0.13596685774182354,
+        "summary": {
+          "affine_final": 0.7692987297931658,
+          "antisymmetric_D": [
+            [
+              0.0,
+              3.7025093233846416e-09
+            ],
+            [
+              -3.7025093233846416e-09,
+              0.0
+            ]
+          ],
+          "antisymmetric_norm": 5.236138899943392e-09,
+          "conserved_p_psi_endpoint": 0.07693538054725464,
+          "conserved_p_t_endpoint": -0.9921567416492241,
+          "det_D": 0.5942607712086951,
+          "endpoint_D": [
+            [
+              0.7696911932801827,
+              -0.0008345001644133002
+            ],
+            [
+              -0.000834507569431947,
+              0.7720777797558562
+            ]
+          ],
+          "endpoint_Ddot": [
+            [
+              1.0016385849651566,
+              -0.004569887412973472
+            ],
+            [
+              -0.0045700154412317276,
+              1.014817449386556
+            ]
+          ],
+          "endpoint_coordinates": [
+            0.8619257832681286,
+            1.0,
+            1.7493671390260097,
+            0.23079074045919012
+          ],
+          "endpoint_k": [
+            1.323731455294576,
+            0.9909036546724036,
+            0.05605851091764713,
+            0.013255198400493497
+          ],
+          "endpoint_reached": true,
+          "endpoint_screen": [
+            [
+              -0.01532034685745045,
+              -0.011602963846277155,
+              0.8130939820259037,
+              -0.5907702098884913
+            ],
+            [
+              -0.0035107131321184355,
+              -0.075184215399101,
+              0.5790224110801503,
+              0.8239569291027752
+            ]
+          ],
+          "endpoint_tidal": [
+            [
+              -0.0007761414608327862,
+              0.024960810993713632
+            ],
+            [
+              0.024960810993713646,
+              -0.07467781648391737
+            ]
+          ],
+          "family": "G75_SELECTED",
+          "first_caustic_affine": null,
+          "lapse_a": -0.25,
+          "min_singular_value_sampled_path": 0.00015385974595889893,
+          "mix_epsilon": 0.05,
+          "mix_shape": "MONOMIAL_S2",
+          "nfev": 47282,
+          "polar_rotation": -4.802936589808333e-09,
+          "profile_id": "G75_AM_S01_E05",
+          "residuals": {
+            "conserved_p_psi": 3.191891195797325e-16,
+            "conserved_p_t": 2.6645352591003757e-15,
+            "min_A": 0.75,
+            "min_block_D": 0.06152343764901161,
+            "null": 2.109952153791301e-15,
+            "screen_gram": 6.8833827526759706e-15,
+            "screen_ray": 1.4710455076283324e-15,
+            "tidal_antisymmetry": 6.689527404235562e-16,
+            "wronskian": 1.336821278674627e-15
+          },
+          "singular_values": [
+            0.7723406271209062,
+            0.7694283459151328
+          ],
+          "solver_message": "A termination event occurred.",
+          "solver_success": true,
+          "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+          "symmetric_D": [
+            [
+              0.7696911932801827,
+              -0.0008345038669226236
+            ],
+            [
+              -0.0008345038669226236,
+              0.7720777797558562
+            ]
+          ],
+          "turning_events": []
+        }
+      },
+      "gates": {
+        "area_reciprocity": true,
+        "endpoint_return": true,
+        "forward_endpoint": true,
+        "frequency_reciprocity": true,
+        "no_forward_caustic": true,
+        "path_residuals": true,
+        "phi_oddness": true,
+        "reverse_endpoints": true,
+        "rotated_matrix_covariance": true,
+        "screen_return_rotated": true,
+        "screen_return_unrotated": true,
+        "tangent_return": true,
+        "unrotated_matrix_reciprocity": true
+      },
+      "reciprocity": {
+        "endpoint_return_max_absolute": 5.6696455256327605e-15,
+        "frequency_product_error": 1.1102230246251565e-15,
+        "phi_sum_absolute": 1.0547118733938987e-15,
+        "screen_return_rotated_relative": 1.4665768252269173e-15,
+        "screen_return_unrotated_relative": 2.9351016429397363e-15,
+        "screen_unrotated_overlap": [
+          [
+            1.0000000000000038,
+            3.2022322667782616e-16
+          ],
+          [
+            4.935888212362866e-16,
+            1.000000000000002
+          ]
+        ],
+        "tangent_return_relative": 4.232685559759906e-15
+      },
+      "reverse_rotated": {
+        "A": [
+          [
+            0.6,
+            -0.8
+          ],
+          [
+            0.8,
+            0.6
+          ]
+        ],
+        "B": [
+          [
+            0.38461538461538464,
+            -0.9230769230769231
+          ],
+          [
+            0.9230769230769231,
+            0.38461538461538464
+          ]
+        ],
+        "D": [
+          [
+            0.8575027293940192,
+            -0.21808544375735667
+          ],
+          [
+            0.21670059665417085,
+            0.8544672702621061
+          ]
+        ],
+        "D_relative": 3.931585029333395e-15,
+        "affine": 0.8813424153276451,
+        "prediction": [
+          [
+            0.8575027293940161,
+            -0.2180854437573585
+          ],
+          [
+            0.21670059665417085,
+            0.8544672702621028
+          ]
+        ],
+        "summary": {
+          "affine_final": 0.8813424153276451,
+          "antisymmetric_D": [
+            [
+              0.0,
+              -4.241755728454956e-09
+            ],
+            [
+              4.241755728454956e-09,
+              0.0
+            ]
+          ],
+          "antisymmetric_norm": 5.9987484794547664e-09,
+          "conserved_p_psi_endpoint": -0.06715470571010049,
+          "conserved_p_t_endpoint": 0.8660254037844374,
+          "det_D": 0.7799672622114233,
+          "endpoint_D": [
+            [
+              0.8844597153583079,
+              -0.0010447174233802594
+            ],
+            [
+              -0.0010447089398688025,
+              0.8818585404096989
+            ]
+          ],
+          "endpoint_Ddot": [
+            [
+              1.0072089107285125,
+              -0.002387343991481538
+            ],
+            [
+              -0.0023873220250082367,
+              1.0012544043578477
+            ]
+          ],
+          "endpoint_coordinates": [
+            -5.6696455256327605e-15,
+            0.25,
+            1.5707963267948986,
+            -1.910418438028083e-15
+          ],
+          "endpoint_k": [
+            -0.8797851609806477,
+            -0.7994080650317855,
+            -0.8057275947175068,
+            -1.0743034583223539
+          ],
+          "endpoint_reached": true,
+          "endpoint_screen": [
+            [
+              -4.716117210411422e-05,
+              0.3052789974305314,
+              0.14769230769231306,
+              -3.803076918471343
+            ],
+            [
+              -1.8315018292344832e-06,
+              -0.22895924807289708,
+              3.8892307692307715,
+              -0.14769230751345439
+            ]
+          ],
+          "endpoint_tidal": [
+            [
+              -0.004261000731738068,
+              0.0013922177993556319
+            ],
+            [
+              0.0013922177993560304,
+              -0.0008274938629321092
+            ]
+          ],
+          "family": "G75_SELECTED",
+          "first_caustic_affine": null,
+          "lapse_a": -0.25,
+          "min_singular_value_sampled_path": 0.00017626848306076135,
+          "mix_epsilon": 0.05,
+          "mix_shape": "MONOMIAL_S2",
+          "nfev": 54152,
+          "polar_rotation": 4.802934819266512e-09,
+          "profile_id": "G75_AM_S01_E05",
+          "residuals": {
+            "conserved_p_psi": 7.494005416219807e-16,
+            "conserved_p_t": 1.7763568394002505e-15,
+            "min_A": 0.75,
+            "min_block_D": 0.06152343764901161,
+            "null": 3.298978241886127e-15,
+            "screen_gram": 1.021405182655144e-14,
+            "screen_ray": 1.7919693506840417e-15,
+            "tidal_antisymmetry": 6.216815257031882e-16,
+            "wronskian": 2.207435623180487e-16
+          },
+          "singular_values": [
+            0.8848273465178095,
+            0.8814909092501974
+          ],
+          "solver_message": "A termination event occurred.",
+          "solver_success": true,
+          "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+          "symmetric_D": [
+            [
+              0.8844597153583079,
+              -0.001044713181624531
+            ],
+            [
+              -0.001044713181624531,
+              0.8818585404096989
+            ]
+          ],
+          "turning_events": []
+        },
+        "transported_screen_overlap_with_receiver": [
+          [
+            0.6000000000000015,
+            -0.8000000000000006
+          ],
+          [
+            0.800000000000001,
+            0.5999999999999994
+          ]
+        ]
+      },
+      "reverse_unrotated": {
+        "D": [
+          [
+            0.8817920387368401,
+            -0.0009560485262319784
+          ],
+          [
+            -0.0009560400427226976,
+            0.8845262170311718
+          ]
+        ],
+        "D_relative": 7.912576288630774e-15,
+        "affine": 0.8813424153276451,
+        "area_ratio_minus_Z": 8.215650382226158e-15,
+        "dA_over_R": 0.8831575523152299,
+        "inverse_Z": 0.8728715609439681,
+        "phi": -0.1359668577418225,
+        "prediction": [
+          [
+            0.8817920387368331,
+            -0.0009560485262338808
+          ],
+          [
+            -0.000956040042719263,
+            0.8845262170311661
+          ]
+        ],
+        "summary": {
+          "affine_final": 0.8813424153276451,
+          "antisymmetric_D": [
+            [
+              0.0,
+              -4.241754640403866e-09
+            ],
+            [
+              4.241754640403866e-09,
+              0.0
+            ]
+          ],
+          "antisymmetric_norm": 5.998746940718158e-09,
+          "conserved_p_psi_endpoint": -0.06715470571010049,
+          "conserved_p_t_endpoint": 0.8660254037844374,
+          "det_D": 0.7799672622114279,
+          "endpoint_D": [
+            [
+              0.8817920387368401,
+              -0.0009560485262319784
+            ],
+            [
+              -0.0009560400427226976,
+              0.8845262170311718
+            ]
+          ],
+          "endpoint_Ddot": [
+            [
+              1.0011061869633757,
+              -0.0021897207988435144
+            ],
+            [
+              -0.002189698832374129,
+              1.0073571281229883
+            ]
+          ],
+          "endpoint_coordinates": [
+            -5.6696455256327605e-15,
+            0.25,
+            1.5707963267948986,
+            -1.910418438028083e-15
+          ],
+          "endpoint_k": [
+            -0.8797851609806477,
+            -0.7994080650317855,
+            -0.8057275947175068,
+            -1.0743034583223539
+          ],
+          "endpoint_reached": true,
+          "endpoint_screen": [
+            [
+              -2.9761904725834863e-05,
+              9.063989586634023e-16,
+              3.2000000000000135,
+              -2.3999999970935706
+            ],
+            [
+              3.663003658579733e-05,
+              -0.38159874678816424,
+              2.21538461538462,
+              2.953846150269005
+            ]
+          ],
+          "endpoint_tidal": [
+            [
+              -0.0007270272483206626,
+              0.0012582623132070662
+            ],
+            [
+              0.001258262313207447,
+              -0.004361467346349566
+            ]
+          ],
+          "family": "G75_SELECTED",
+          "first_caustic_affine": null,
+          "lapse_a": -0.25,
+          "min_singular_value_sampled_path": 0.00017626848306076146,
+          "mix_epsilon": 0.05,
+          "mix_shape": "MONOMIAL_S2",
+          "nfev": 54152,
+          "polar_rotation": 4.802933532731527e-09,
+          "profile_id": "G75_AM_S01_E05",
+          "residuals": {
+            "conserved_p_psi": 7.494005416219807e-16,
+            "conserved_p_t": 1.7763568394002505e-15,
+            "min_A": 0.75,
+            "min_block_D": 0.06152343764901161,
+            "null": 3.298978241886127e-15,
+            "screen_gram": 1.3322676295501878e-14,
+            "screen_ray": 1.3877787807814457e-15,
+            "tidal_antisymmetry": 6.271025365656158e-16,
+            "wronskian": 1.4458920172266687e-15
+          },
+          "singular_values": [
+            0.8848273465178129,
+            0.8814909092501991
+          ],
+          "solver_message": "A termination event occurred.",
+          "solver_success": true,
+          "status": "ENDPOINT_REGULAR_NO_CAUSTIC",
+          "symmetric_D": [
+            [
+              0.8817920387368401,
+              -0.000956044284477338
+            ],
+            [
+              -0.000956044284477338,
+              0.8845262170311718
+            ]
+          ],
+          "turning_events": []
+        }
+      },
+      "source_rows": 9,
+      "status": "PASS"
+    }
+  ],
+  "profile_id": "G75_AM_S01_E05",
+  "schema": "udt-cmb-g81-nonradial-screen-covariance-v1",
+  "source_rows": 9,
+  "status": "PASS"
+}

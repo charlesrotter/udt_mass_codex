@@ -1,0 +1,11 @@
+object	type	status
+Z	positive endpoint frequency ratio for the supplied observer pair	DERIVED_CONDITIONAL
+phi	logarithm of Z on this supplied pair query	DERIVED_CONDITIONAL
+D_forward	linear map from receiver screen-angle seed to source transverse separation	DERIVED_CONDITIONAL
+D_reverse	linear map from source screen-angle seed to receiver transverse separation on mathematical reverse	DERIVED_CONDITIONAL
+A	orientation-preserving source-screen basis change	CHOSE_CONTROL
+B	orientation-preserving receiver-projection basis change	CHOSE_CONTROL
+D_reverse_AB	coordinates of reverse Jacobi map in independently rotated endpoint screens	DERIVED_CONDITIONAL
+C1_direction	unit spatial direction with nonzero radial polar and azimuthal components	CHOSE_CONTROL
+x_equals_1_endpoint	registered numerical endpoint surface	CHOSE_CONTROL_NOT_XMAX
+physical_observable	CMB or SNe readout	OPEN_NOT_COMPUTED

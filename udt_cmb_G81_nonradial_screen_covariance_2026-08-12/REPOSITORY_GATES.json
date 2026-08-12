@@ -1,0 +1,24 @@
+{
+  "checked_markdown_links": 5,
+  "current_paths": 1114,
+  "frontier_rows": 306,
+  "frontier_targets": 101,
+  "frozen_manifest_hashes": {
+    "native_action_arm_c_2026-07-18/SHA256SUMS.txt": "99fc0d6c26aff24e43b8636d74f80e3486c56131590552308b47c1d107ed500f",
+    "native_action_final_adjudication_2026-07-18/SHA256SUMS.txt": "57be0046432c27046e84eaafd1706959558f43170d0f1e23dc3047966e512f33",
+    "native_action_stage1_2026-07-18/arm_A/SHA256SUMS.txt": "d72e8d6e1b4bc8682bd5518264a1a43a3b5f7b3b246b3d218ea6bfecc6927d19",
+    "native_action_stage1_2026-07-18/arm_B/SHA256SUMS.txt": "a99937a8fbba57ac24f490c2974937718f7dfbc2f2f7dd7c960d57fc5e839b92",
+    "native_action_stage2_2026-07-18/arm_A/SHA256SUMS.txt": "ad63ffacdd5282a35fe0aef62269464d987aa61b710a4d393d95836234fd670a",
+    "native_action_stage2_2026-07-18/arm_B/SHA256SUMS.txt": "30b2a3863f1d16e3b3507b5d0bf10a6b5b59c1e54d769cacc53127cc676d6d45"
+  },
+  "frozen_manifest_members": 127,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "premise_guards": 73,
+  "protected_untracked_contents_read": false,
+  "protected_untracked_path_count": 7,
+  "pytest": "101 passed, 1 xfailed",
+  "schema": "udt-cmb-g81-repository-gates-v1",
+  "status": "PASS",
+  "unexpected_dirty_paths": []
+}

@@ -1,0 +1,9 @@
+{
+  "authority_boundary_verified": true,
+  "controls_verified": 2,
+  "nonradial_angular_activation": true,
+  "production_and_independent_gates": true,
+  "schema": "udt-cmb-g81-package-verification-v1",
+  "source_rows_verified": 9,
+  "status": "PASS"
+}

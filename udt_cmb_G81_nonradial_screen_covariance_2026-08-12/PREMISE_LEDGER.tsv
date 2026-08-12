@@ -1,0 +1,12 @@
+item	status	ownership
+reciprocal_clock_ruler_character_and_cE	DERIVED_AND_OBSERVED	Current premise registry; not rederived here.
+stationary_axial_metric_profile	CHOSE_CONTROL	Frozen G79/G80 witness; not physically selected.
+receiver_and_x1_endpoint	CHOSE_CONTROL	Comparison surfaces; x=1 is not Xmax.
+C0_and_C1_directions	CHOSE_CONTROL	Exact bounded probes.
+A_and_B_screen_rotations	CHOSE_CONTROL	Gauge/covariance probes, not physical rotations.
+null_geodesic_and_Jacobi_equations	DERIVED_CONDITIONAL	Derived from the supplied metric; no action or field equation selected.
+past_directed_reverse	CHOSE_QUERY	Mathematical reverse segment, not a future signal.
+direct_Christoffel_neighboring_ray_method	NUMERICAL_CONTROL	Independent of production Riemann/Jacobi implementation but shares metric/query/integrator family.
+profile_endpoint_scale_source_observable	OPEN	Not selected by G81.
+Xmax	OPEN	Neither identified nor calculated.
+cmb_temp	INACTIVE	Not used.

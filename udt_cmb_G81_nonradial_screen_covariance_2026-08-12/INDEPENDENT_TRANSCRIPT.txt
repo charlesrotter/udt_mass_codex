@@ -1,0 +1,127 @@
+{
+  "controls": [
+    {
+      "Z": 1.1456439237389608,
+      "control_id": "C0_RADIAL_ROTATED",
+      "endpoint_return_max_absolute": 9.102961440188295e-16,
+      "forward_coarse_fine_relative": 1.8238770541612845e-10,
+      "forward_fine_D": [
+        [
+          0.7559967070092112,
+          -1.7721842698512895e-21
+        ],
+        [
+          1.489016580302481e-21,
+          0.7559733363384474
+        ]
+      ],
+      "forward_production_relative": 4.4860257222538456e-11,
+      "frequency_product_error": 1.1102230246251565e-16,
+      "gates": {
+        "area": true,
+        "endpoint": true,
+        "frequency": true,
+        "null": true,
+        "production_maps": true,
+        "rotated_covariance": true,
+        "unrotated_reciprocity": true
+      },
+      "independent_area_ratio_minus_Z": 1.6228208332691452e-08,
+      "independent_rotated_covariance_relative": 1.3498538204686179e-08,
+      "independent_unrotated_reciprocity_relative": 1.41651984859564e-08,
+      "inverse_Z": 0.8728715609439688,
+      "max_endpoint_null_absolute": 3.64312698144205e-14,
+      "reverse_coarse_fine_relative": 4.248786636772702e-08,
+      "reverse_fine_D": [
+        [
+          0.8661030215184616,
+          6.996807775272588e-33
+        ],
+        [
+          -6.88601962803396e-33,
+          0.8660762469815528
+        ]
+      ],
+      "reverse_production_relative": 1.4164995615707377e-08,
+      "rotated_coarse_fine_relative": 4.051416386903825e-08,
+      "rotated_endpoint_return_max_absolute": 9.102961440188295e-16,
+      "rotated_fine_D": [
+        [
+          0.8394339274703206,
+          -0.21317976448404713
+        ],
+        [
+          0.21320282573030502,
+          0.8394475191718177
+        ]
+      ],
+      "rotated_production_relative": 1.3509817198951072e-08,
+      "status": "PASS"
+    },
+    {
+      "Z": 1.1456439237389557,
+      "control_id": "C1_FULL_ANGULAR",
+      "endpoint_return_max_absolute": 2.3009345080302057e-15,
+      "forward_coarse_fine_relative": 6.579315233130842e-10,
+      "forward_fine_D": [
+        [
+          0.7696911933631989,
+          -0.0008345002965882142
+        ],
+        [
+          -0.0008345077322064465,
+          0.7720777798299315
+        ]
+      ],
+      "forward_production_relative": 2.1773139429658964e-10,
+      "frequency_product_error": 4.3298697960381105e-15,
+      "gates": {
+        "area": true,
+        "endpoint": true,
+        "frequency": true,
+        "null": true,
+        "production_maps": true,
+        "rotated_covariance": true,
+        "unrotated_reciprocity": true
+      },
+      "independent_area_ratio_minus_Z": 1.2242859170896736e-08,
+      "independent_rotated_covariance_relative": 1.1585881402639625e-08,
+      "independent_unrotated_reciprocity_relative": 1.140966805834531e-08,
+      "inverse_Z": 0.872871560943969,
+      "max_endpoint_null_absolute": 6.289413434501512e-14,
+      "reverse_coarse_fine_relative": 3.407629766122663e-08,
+      "reverse_fine_D": [
+        [
+          0.8817920271187236,
+          -0.000956050796001362
+        ],
+        [
+          -0.0009560434219661462,
+          0.8845262099664561
+        ]
+      ],
+      "reverse_production_relative": 1.1364277022136523e-08,
+      "rotated_coarse_fine_relative": 3.4498093543609317e-08,
+      "rotated_endpoint_return_max_absolute": 2.3009345080302057e-15,
+      "rotated_fine_D": [
+        [
+          0.8575027203094058,
+          -0.21808544055368476
+        ],
+        [
+          0.21670059439919542,
+          0.8544672598537586
+        ]
+      ],
+      "rotated_production_relative": 1.1497477713395441e-08,
+      "status": "PASS"
+    }
+  ],
+  "deltas": [
+    0.0001,
+    5e-05
+  ],
+  "method": "locally rebuilt full Christoffels plus centered neighboring rays; no production Riemann or Jacobi equation",
+  "schema": "udt-cmb-g81-independent-neighboring-ray-v1",
+  "status": "PASS"
+}
