@@ -21,6 +21,17 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
+**CURRENT WORKING SYNTHESIS = PAIR-FIRST METRIC ORCHESTRA, THREE DISTINCT LAYERS.** Read
+`udt_pair_first_metric_orchestra_ponder_2026-08-12/PONDER.md`, then `PREMISE_LEDGER.tsv` and
+`WHITEBOARD.md`. One supplied relation first receives its complete pair metric and terminal
+reciprocal-`c_E` readout; derivative bending/focusing/normal transport is a separate jet/query
+layer; global calibration carry, scalar descent, branch retention, and route holonomy are a third
+network layer. This removes several false selector/single-scalar hunts but derives no physical
+history, realization, action, source, matter, bootstrap, `X_max`, SNe, or CMB branch. It is a
+`PONDER`, not a new verified physics result. NEXT, not launched: preregister the complete
+zero-order terminal reachability image of `h_base+P`, `P>=0`; do not infer higher-jet or global
+claims from that local map.
+
 **CURRENT VERIFIED BOUNDED RESULT = PAIR-FIRST RELATIONAL-PLANE RECONSTRUCTION.** Read
 `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
 `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`.

@@ -9,6 +9,17 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
+## Current pair-first metric-orchestra ponder — working synthesis only
+
+`udt_pair_first_metric_orchestra_ponder_2026-08-12/PONDER.md`, then `PREMISE_LEDGER.tsv` and
+`WHITEBOARD.md`, control the current conceptual orientation. The metric naturally evaluates a
+supplied observer-pair relation in three distinct layers: completed first fundamental form and
+terminal reciprocal readout; derivative immersion/transport channels; and global relation-network
+compatibility. The first layer does not determine the other two. Edge `phi_AB` is not automatically
+a global point potential, and scalar descent need not erase normal holonomy. This package is a
+`PONDER / WORKING SYNTHESIS`, not a derivation, selector, or new physics result. The next candidate
+is to preregister the zero-order terminal reachability map; it has not been launched.
+
 ## Current pair-first relational-plane result — verified with caveats
 
 `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then

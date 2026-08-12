@@ -7,6 +7,15 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
+**CURRENT WORKING SYNTHESIS — PAIR-FIRST METRIC ORCHESTRA:** read
+`udt_pair_first_metric_orchestra_ponder_2026-08-12/PONDER.md`, then `PREMISE_LEDGER.tsv` and
+`WHITEBOARD.md`. The current geometry organizes naturally into three layers: the complete first
+fundamental form and terminal reciprocal-`c_E` readout on a supplied pair relation; distinct
+derivative immersion/transport channels; and global network compatibility with branch retention,
+calibration carry, scalar periods, and route holonomy. This is a premise-stamped ponder, not a new
+physical law. The next candidate is to preregister a zero-order terminal reachability map; no
+solve or derivation has been launched.
+
 **CURRENT VERIFIED BOUNDED RESULT — PAIR-FIRST SIMPLIFICATION:** read
 `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
 `EXACT_DERIVATION.md` and `ADVERSARIAL_REVIEW.md`. A supplied regular timelike pair immersion owns

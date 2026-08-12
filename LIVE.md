@@ -6,6 +6,34 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
+## ============ CURRENT STATE (2026-08-12 — PAIR-FIRST METRIC ORCHESTRA PONDER BANKED; NO NEW PHYSICS CLAIM) ============
+
+**CURRENT WORKING SYNTHESIS — THREE-LAYER RELATIONAL GEOMETRY.** Read
+`udt_pair_first_metric_orchestra_ponder_2026-08-12/PONDER.md`, then `PREMISE_LEDGER.tsv` and
+`WHITEBOARD.md`. Three independent metric-first readings plus cross-examination agree that the
+pair-first result has three distinct layers: (1) the complete first fundamental form and terminal
+`(kappa_pair,phi_pair,beta_pair,c_eff^(pair)/c_E)` chord; (2) derivative immersion geometry—`II`,
+normal connection/curvature, and Jacobi/focusing when the query owns it—which is not determined by
+the first chord alone; and (3) global observer-network compatibility—middle calibration, scalar
+loop periods, branch retention, and separately typed route holonomy. Given supplied relation/query
+data, the complete metric therefore naturally evaluates a layered multichannel relation, not one
+preferred path or one scalar that replaces the rest of the geometry.
+
+This is a `PONDER / WORKING SYNTHESIS`, not a derivation, physical selector, or independent new
+result. Most of the layered immersion/transport architecture is general Lorentzian geometry; the
+currently visible UDT-specific founded content is the abstract reciprocal clock/ruler character
+on supplied depth, while A-calibrated `h` conditionally defines `phi_pair` and observed `c_E`
+calibrates its terminal ratio. Their universal physical identification remains open. Physical
+history, event pairing, realization, global relation family, action, source, matter, bootstrap,
+`X_max`, SNe, and CMB remain open.
+
+**NEXT CANDIDATE, NOT YET LAUNCHED:** preregister the zero-order terminal reachability map for all
+positive-semidefinite Gram additions to one fixed calibrated base pair metric. Afterward, choose
+between the matched-first-jet/different-second-jet control and branch-retaining network descent;
+the whiteboard did not agree on their order. Do not call the nonlinear terminal-coordinate image
+a cone without proof, do not infer derivative channels from `h` alone, and do not promote edge
+`phi_AB` to a global point potential without scalar-period and calibration-carry tests.
+
 ## ============ CURRENT STATE (2026-08-12 — PAIR-FIRST RELATIONAL PLANE VERIFIED WITH CAVEATS; SIMPLIFICATION PAUSE) ============
 
 **LATEST VERIFIED BOUNDED RESULT — PAIR-FIRST RELATIONAL-PLANE RECONSTRUCTION.** Read

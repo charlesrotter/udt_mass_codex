@@ -4,6 +4,17 @@
 
 ---
 
+## TOP — CURRENT CONCEPTUAL POINTER (2026-08-12, pair-first orchestra ponder)
+
+Read `udt_pair_first_metric_orchestra_ponder_2026-08-12/PONDER.md`, then `PREMISE_LEDGER.tsv` and
+`WHITEBOARD.md`. Given supplied relation/query data, the complete metric evaluates and organizes
+three differently typed layers: the local first fundamental form and terminal reciprocal-`c_E`
+readout; derivative immersion/transport geometry; and global network compatibility. The first
+layer does not own the other two. This is a `PONDER / WORKING SYNTHESIS`, not a derived physical
+selector. The next candidate is to preregister a zero-order terminal reachability map.
+
+---
+
 ## TOP — CURRENT VERIFIED POINTER (2026-08-12, pair-first simplification)
 
 Read `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
