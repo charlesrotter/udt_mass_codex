@@ -1,0 +1,29 @@
+{
+  "binding_caveats": [
+    "generic_jacobi_wronskian_reciprocity_not_a_udt_selector",
+    "neighboring_ray_independence_is_bounded_by_shared_metric_query_and_integrator_family",
+    "bare_transpose_identity_is_conditional_on_the_carried_screen_gauge",
+    "reverse_branch_is_past_directed_mathematical_reversal_not_future_signal",
+    "no_profile_endpoint_scale_xmax_sne_cmb_source_action_matter_bootstrap_or_signalling_promotion"
+  ],
+  "external_model": "gpt-5.4",
+  "raw_review_sha256": "c61f235c18c20df629bd259683e13863508c5dc4e429f57693623652774cb8cd",
+  "reproduced": {
+    "Z_forward": 1.1456439237389628,
+    "Z_reverse": 0.8728715609439718,
+    "independent_area_ratio_residual": 1.627372281376438e-08,
+    "independent_D_reciprocity_relative": 1.4204869936356233e-08,
+    "phi_sum_absolute": 5.051514762044462e-15,
+    "production_area_ratio_residual": 6.661338147750939e-15,
+    "production_D_reciprocity_relative": 6.885259158085081e-15,
+    "profile_id": "G75_AM_S01_E05",
+    "redshift_product_residual": 5.10702591327572e-15
+  },
+  "reverse_path_sha256": "845aca117275b55ccd6a153fc3619604900f32dbf7a7678fc936c1b06f0cbd7d",
+  "schema": "udt-cmb-g80-external-review-v1",
+  "scientific_corrections": 0,
+  "sealed_intake_files": 31,
+  "sealed_manifest_sha256": "1bda2cbe5e8c04201d80736a1f1e2f24e1f5a150f3bf46d8bc781b1b5beeefa4",
+  "sealed_payload_rows": 30,
+  "status": "VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY"
+}

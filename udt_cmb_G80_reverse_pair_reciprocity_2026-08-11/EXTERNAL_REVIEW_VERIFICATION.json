@@ -1,0 +1,8 @@
+{
+  "binding_caveats": 5,
+  "schema": "udt-cmb-g80-external-adjudication-verification-v1",
+  "scientific_corrections": 0,
+  "sealed_intake_files": 31,
+  "sealed_payload_rows": 30,
+  "status": "PASS"
+}
