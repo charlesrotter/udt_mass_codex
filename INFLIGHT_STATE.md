@@ -1,5 +1,16 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
+> **2026-08-12 CURRENT VERIFIED RESULT: PAIR-FIRST RELATIONAL PLANE, VERIFIED WITH CAVEATS.**
+> Read LIVE first, then
+> `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`,
+> `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. A supplied regular
+> timelike pair immersion owns its tangent clock/ruler plane and positive orthogonal screen. The
+> full coframe pullback combines the orchestra before the terminal reciprocal-`c_E` readout; no
+> universal curvature selector is required for conditional evaluation. Physical realization and
+> global compatible pair-family ownership remain open. Fresh review replayed 200 rational cases
+> and accepted the bounded result. PAUSE: no solve or mechanism hunt. Next candidate is a
+> preregistered metric-wide simplification ponder.
+
 > **2026-08-12 CURRENT VERIFIED RESULT: FIRST CURVATURE-DERIVATIVE ATLAS, VERIFIED WITH CAVEATS.**
 > Read LIVE first, then
 > `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`,

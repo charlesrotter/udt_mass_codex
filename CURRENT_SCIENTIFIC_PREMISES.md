@@ -9,6 +9,18 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
+## Current pair-first relational-plane result — verified with caveats
+
+`udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`, control the bounded
+pair-first result. A supplied regular timelike immersion owns `E_pair=dF(TSigma)` and its unique
+positive orthogonal screen. The complete metric pullback produces the full pair geometry before
+the terminal reciprocal-`c_E` readout. This eliminates a universal curvature-selected split only
+as a prerequisite for evaluating that supplied relation. It does not derive the physical
+immersion, event pairing, branch, global pair family, history, action, source, bootstrap rule, or
+cosmology. The internal Fraction replay is not fully hermetic; the fresh external 200-case replay
+is the load-bearing independent algebra check.
+
 ## Current first-curvature-derivative result — verified with caveats
 
 `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then

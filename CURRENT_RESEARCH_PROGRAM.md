@@ -7,6 +7,17 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
+**CURRENT VERIFIED BOUNDED RESULT — PAIR-FIRST SIMPLIFICATION:** read
+`udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md` and `ADVERSARIAL_REVIEW.md`. A supplied regular timelike pair immersion owns
+its tangent clock/ruler plane and positive orthogonal screen. The complete coframe forms the pair
+metric through an exact base-plus-Gram decomposition before the already derived terminal
+reciprocal-`c_E` projection returns `phi_pair`. This removes the universal ambient-plane selector
+as a requirement for conditional pair evaluation while leaving physical realization and global
+compatibility open. Fresh review independently replays 200 rational cases and accepts the bounded
+result with caveats. Current posture: slow down; synthesize what this simplification removes before
+another derivation. Do not resume derivative-order, AM seam, GPU/ODE, or mechanism work.
+
 **CURRENT VERIFIED BOUNDED RESULT — FIRST CURVATURE-DERIVATIVE STRUCTURE IS RICH BUT DOES NOT
 UNIVERSALLY OWN THE REGISTERED SPLIT:** read
 `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then

@@ -4,6 +4,19 @@
 
 ---
 
+## TOP — CURRENT VERIFIED POINTER (2026-08-12, pair-first simplification)
+
+Read `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. A supplied regular
+timelike pair immersion owns its tangent clock/ruler plane and positive orthogonal screen. The
+complete coframe pullback incorporates the angular/mixing orchestra before terminal
+reciprocal-`c_E` projection; no universal ambient curvature selector is needed for conditional
+pair evaluation. Physical realization remains open. Fresh review independently replayed 200
+rational cases and accepted `VERIFIED_WITH_CAVEATS`. Pause linear excavation; next candidate is a
+preregistered metric-wide simplification ponder.
+
+---
+
 ## TOP — CURRENT VERIFIED POINTER (2026-08-12, first curvature-derivative atlas)
 
 Read `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then

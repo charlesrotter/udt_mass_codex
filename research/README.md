@@ -6,13 +6,13 @@ record. Root `LIVE.md` wins every status disagreement.
 ## Current route
 
 Current verified bounded result: read
-`../udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. Pointwise Weyl/Ricci
-curvature's partial ownership does not become universal at first derivative order: among the 1,194
-parent-misaligned jets, 1,187 are resolved derivative nonowners, seven remain unresolved, and zero
-are positive. The metric instead exposes higher-rank or alternative-plane local structure. This is
-a metric-native structural classification, not a physical `(g,Q,F)` selector. Next candidate is a
-common-pair-immersion tangent/normal/extrinsic map.
+`../udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. A supplied regular
+timelike pair immersion owns its clock/ruler tangent plane and positive orthogonal screen. The
+complete metric's base, angular, mixing, and embedding data form the pair metric before terminal
+reciprocal-`c_E` projection. Fresh review independently replayed 200 rational cases and accepted
+the bounded result with caveats. Physical realization remains open. Pause further excavation;
+next candidate is a preregistered metric-wide simplification ponder.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. Before the current scientific

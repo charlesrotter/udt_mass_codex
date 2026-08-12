@@ -21,6 +21,18 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
+**CURRENT VERIFIED BOUNDED RESULT = PAIR-FIRST RELATIONAL-PLANE RECONSTRUCTION.** Read
+`udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`.
+Given a supplied regular timelike pair immersion, its tangent plane and positive orthogonal screen
+are intrinsic to that realized comparison. The full coframe pullback combines base, angular,
+mixing, and embedding data through one positive-semidefinite Gram term before terminal
+`phi_pair` and `c_eff^(pair)/c_E` are read. No universal curvature-selected observer plane is
+needed for conditional evaluation. The physical immersion/event pairing/global relation family
+remain open; do not weaken that caveat. Fresh external review independently replayed 200 rational
+cases and accepted `VERIFIED_WITH_CAVEATS`. NEXT: pause linear excavation and conduct a separately
+preregistered metric-wide simplification ponder; do not launch a solve or invent a mechanism.
+
 **CURRENT VERIFIED BOUNDED RESULT = FIRST CURVATURE-DERIVATIVE INTRINSIC-DISTRIBUTION ATLAS.**
 Read `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then
 `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. On the 1,194 jets that

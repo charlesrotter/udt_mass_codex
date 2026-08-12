@@ -9,6 +9,14 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+5o. CURRENT VERIFIED BOUNDED RESULT: read
+   `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`, then
+   `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and `EVIDENCE_GATES.md`.
+   A supplied pair immersion owns its tangent clock/ruler plane and positive normal screen; the
+   complete metric forms the angular/mixing Gram contribution before terminal reciprocal-`c_E`
+   projection. Fresh review independently replayed 200 cases and accepted
+   `VERIFIED_WITH_CAVEATS`. Physical realization remains open. Next posture is synthesis and
+   simplification, not another solve.
 5p. CURRENT VERIFIED BOUNDED RESULT: read
    `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then
    `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. The 1,221-jet
