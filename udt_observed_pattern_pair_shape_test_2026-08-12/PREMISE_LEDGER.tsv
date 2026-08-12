@@ -1,0 +1,16 @@
+id	item	status	ownership_or_role
+P01	c_E clock-ruler calibration	OBSERVED	foundational scale; cancels from dimensionless shape operator
+P02	supplied regular calibrated pair immersion	CONDITIONAL	owns h and horizontal pair-ruler direction
+P03	complete pair metric h	DERIVED	full base plus angular/mixing/embedding pullback
+P04	phi_pair terminal depth	DERIVED_ON_SUPPLIED_PAIR	defines 1+z=exp(phi_pair)
+P05	complete screen Jacobi matrix D	CONDITIONAL_QUERY_OUTPUT	defines d_A when query owns the congruence and screen
+P06	lambda pair-history parameter	CHOSE_COORDINATE	must cancel under orientation-preserving reparameterization
+P07	F_pair=d_A(dz/dlambda)/L_pair	TO_DERIVE	generic complete normalization-free shape operator
+P08	publication coordinate conversion	CONDITIONAL_READOUT	common endpoint factor applied to both source-length legs and canceled
+P09	official DR2 six anisotropic blocks	OBSERVED	frozen pattern-shape data
+P10	per-bin amplitude profiling	CHOSE_DATA_PROJECTION	removes unpredicted along-direction publication normalization only
+P11	C0 n=1 scalar control	CONDITIONAL_CONTROL	exact residual-L special case; not complete UDT
+P12	C1 n=1.0559332414320268 scalar control	OBSERVED_CONDITIONAL_CONTROL	fixed by prior SNe fit; no refit
+P13	physical B(lambda),P(lambda) history	OPEN	not selected or fitted
+P14	acoustic scale standard ruler yardstick Lambda-CDM origin	INACTIVE_FORBIDDEN	public release ontology not imported
+P15	X_max bootstrap action source matter CMB microphysics	INACTIVE	no conclusion allowed
