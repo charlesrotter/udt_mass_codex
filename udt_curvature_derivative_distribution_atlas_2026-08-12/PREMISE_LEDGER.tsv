@@ -1,0 +1,17 @@
+object	status	ownership	scope_or_limit
+UDT_metric	POSIT	the metric is the theory	no field equation or physical history selected
+c_E	OBSERVED	clock/ruler calibration	no derivative-distribution selector role
+registered_2plus2_split	CONDITIONAL	parent complete-coframe presentation	comparison target only; not assumed metric-natural
+seven_SPI_family	CHOSE	bounded parameter-free scalar invariant family	not the full scalar polynomial invariant algebra
+SPI_gradient_span	DERIVED_FROM_SUPPLIED_METRIC	span of seven gradients	third local metric jet required
+K_Riem	DERIVED_FROM_SUPPLIED_METRIC	unweighted Riemann derivative Gram tensor	local third-jet concomitant only
+K_Ric	DERIVED_FROM_SUPPLIED_METRIC	unweighted Ricci derivative Gram tensor	local third-jet concomitant only
+K_Weyl	DERIVED_FROM_SUPPLIED_METRIC	unweighted Weyl derivative Gram tensor	local third-jet concomitant only
+G63_controls	WORKING	all 42 parent jets	bounded off-shell p/q/r tiles
+G85_A03_A04_controls	WORKING	all 1176 distinct parent jets	B L omega epsilon tau and seam point remain pinned-by-HABIT
+G85_A05_shift_supported	WORKING	three distinct parent jets	profile-independent local witness; no evidence multiplication
+G85_A05_zero_shift	CONDITIONAL	INSUFFICIENT_OWNED_JET	no third jet invented
+physical_history	OPEN	no owner	cannot be selected by this classification
+observer_query_realization	OPEN	no owner	cannot be selected by this classification
+action_source_bootstrap	OPEN	no owner	not tested
+

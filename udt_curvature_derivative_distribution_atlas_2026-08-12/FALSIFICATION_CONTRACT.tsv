@@ -1,0 +1,18 @@
+gate_id	must_hold	failure_class
+F01	exactly 1221 distinct parent metric jets are evaluated	incomplete_or_duplicated_jet_universe
+F02	all 42 G63 and 1179 distinct G85 jets are retained	outcome_filter
+F03	zero-shift A05 remains INSUFFICIENT_OWNED_JET	invented_third_jet
+F04	seven SPI gradients are computed covariantly without outcome-dependent weights	template_led_combination
+F05	K_Riem K_Ric and K_Weyl are computed separately	unregistered_concomitant_mix
+F06	SPI rank and plane signature are retained even when not two-dimensional	forced_2plane
+F07	alternative intrinsic planes are retained and reported	target_filter
+F08	Gram ownership requires registered block preservation plus spectral gap	alignment_overclaim
+F09	full simple eigenframes are not called unique 2plus2 owners	grouping_category_error
+F10	near-threshold rows remain unresolved	threshold_overclaim
+F11	independent derivative tensors and subspaces pass preregistered gates	implementation_unverified
+F12	provenance rows are not counted as independent jets	evidence_inflation
+F13	no local derivative result is promoted to physical g Q F selection	physical_selection_overclaim
+F14	no action source bootstrap X_max SNe or CMB law is inferred	downstream_promotion
+F15	catch proofs baseline-validate before hostile mutations	vacuous_catch_harness
+F16	repository tests manifests registry frontier and protected metadata remain unchanged	repository_regression
+
