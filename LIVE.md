@@ -6,11 +6,13 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G81 NONRADIAL SCREEN COVARIANCE EXTERNALLY VERIFIED WITH CAVEATS) ============
+## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G82 FIXED-C1 RADAU SUPPORT EXTERNALLY VERIFIED WITH CAVEATS) ============
 
-**LATEST LEAD — G81 NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,
+**LATEST SUPPORT GATE — G82 FIXED-C1 RADAU REPLAY, `VERIFIED_WITH_CAVEATS`; SCIENTIFIC LEAD
+REMAINS G81 NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,
 `VERIFIED_WITH_CAVEATS`; maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`.** Read
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `PREMISE_LEDGER.tsv`, and
 `EXTERNAL_REVIEW_VERIFICATION.json`. On the exact frozen G79/G80 metric/query, both the radial C0
@@ -25,12 +27,14 @@ not the reviewer, reopened all nine frozen source bytes; and the neighboring-ray
 bounded independence because it shares the metric/profile, query, endpoints, rotations, and
 DOP853 family. This remains generic Jacobi/Wronskian covariance on two fixed controls—not a UDT
 selector, physical profile, endpoint, scale, `X_max`, CMB/SNe observable, `cmb_temp`, source,
-action, matter, bootstrap closure, or signal. **G82 SUPPORT GATE:**
-`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md` is internally verified, with
-external review pending. The exact fixed-C1 Radau replay passes and differs from the frozen
-DOP853 matrices by at most `9.459627107202695e-12`; this changes no scientific claim. **NEXT:**
-complete the sealed G82 external review. If upheld, close this method caveat and return to the
-deferred endpoint/`X_max` curve or temperature-map question without adding more controls.
+action, matter, bootstrap closure, or signal. G82 changes only the integrator family for frozen C1:
+Radau and DOP853 matrices differ by at most `9.459627107202695e-12`, all three covariance/area
+residuals remain near `1.1e-8`--`1.2e-8`, and external review finds no scientific correction.
+Preserve its caveats: the original 15 catches are not exhaustive; repository gates are live rather
+than sealed-review evidence; and the write-suppressed byte-identical replay is supportive, not a
+literal packaged CLI rerun. **NEXT:** the registered method caveat is closed. Return to the
+deferred physical endpoint/`X_max` curve or thermal-map question under a new bounded
+preregistration; do not add controls or solvers merely to accumulate confirmations.
 
 **PARENT LEAD — G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
 `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`.** Read

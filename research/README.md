@@ -7,17 +7,19 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction. The current G81
-lead is
+**CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction. The latest G82
+support gate is
+`../udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; the current G81
+scientific lead is
 `../udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`.
 Two fixed radial/nonradial controls verify the carried and rotated screen laws. External review
 returns `VERIFIED_WITH_CAVEATS`, with maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. The neighboring-ray replay is
 bounded independence and the reviewer/live-source replay boundary must be retained. No physical
 profile, endpoint, scale, `X_max`, source, fit, or CMB field is selected. The same fixed-C1 Radau
-replay is internally complete at
-`../udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`; external review is pending and
-is the next gate. Its G80 parent is
+replay is externally `VERIFIED_WITH_CAVEATS`, agrees with DOP853 to
+`9.459627107202695e-12`, and closes only that preregistered one-control method check. Next is a new
+bounded physical endpoint/`X_max` or thermal-map preregistration. Its G80 parent is
 `../udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
 its nonradial/rotated-screen gate. Its G79 parent is
 `../udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,

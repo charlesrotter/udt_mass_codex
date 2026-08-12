@@ -21,9 +21,11 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
-**LATEST LEAD = G81 NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,
+**LATEST SUPPORT = G82 FIXED-C1 RADAU REPLAY, `VERIFIED_WITH_CAVEATS`; SCIENTIFIC LEAD = G81
+NONRADIAL AND ENDPOINT-SCREEN COVARIANCE,
 `VERIFIED_WITH_CAVEATS`; maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`.** Read
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then its
 `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, and `PREMISE_LEDGER.tsv`. The fixed radial C0 and
 genuinely angular C1 controls verify the carried and independently rotated screen laws, with
@@ -32,10 +34,12 @@ External review found no scientific correction. Preserve both caveats: the revie
 package rows while the live verifier reopened the nine frozen source bytes, and the independent
 route shares DOP853 plus the fixed geometry/query data. This is generic two-control
 Jacobi/Wronskian covariance, not physical selection or a signal. The same fixed-C1 Radau support
-replay is internally complete at
-`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`, with worst DOP853 matrix difference
-`9.459627107202695e-12`. External review is pending and is the next gate; G81 remains the
-externally verified scientific lead.
+replay is externally `VERIFIED_WITH_CAVEATS` at the G82 adjudication above, with worst DOP853
+matrix difference `9.459627107202695e-12` and no scientific correction. Its catches are useful but
+not exhaustive, repository gates remain live-repository evidence, and its write-suppressed exact
+JSON reproduction is not a literal packaged CLI rerun. G81 remains the scientific ceiling. NEXT:
+preregister the deferred physical endpoint/`X_max` curve or thermal-map question; do not add more
+method controls merely to collect confirmations.
 
 **PARENT LEAD = G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
 `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`.** Read

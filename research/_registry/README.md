@@ -2,15 +2,16 @@
 
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
-`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
-lead is
+`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The latest support gate
+is `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; the current
+scientific lead is
 `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It externally verifies the carried and rotated screen covariance laws on exactly two fixed
 radial/nonradial controls, with binding live-source replay and bounded-independence caveats. The
 maximum conclusion is `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`; no physical
-owner or signal follows. The same fixed-C1 Radau replay is internally complete at
-`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`; external review is pending. Its G80
-parent is
+owner or signal follows. The same fixed-C1 Radau replay is externally `VERIFIED_WITH_CAVEATS` and
+closes only its preregistered integrator-family check; its catch, sealed/live-evidence, and
+non-literal CLI-rerun caveats remain binding. Its G80 parent is
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It externally verifies bounded reciprocal redshift and carried-screen Jacobi/area reversal on the
 exact G79 control. The result is generic geometric reciprocity, not a UDT selector or future

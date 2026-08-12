@@ -11,14 +11,17 @@
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-12): CMB PEAK OPTIMIZATION; current substep = DIMENSIONAL
    OBSERVER-QUERY CONSTRUCTION. Read
+   `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
    `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, and `PREMISE_LEDGER.tsv`. The fixed radial and
    genuinely angular controls verify the carried and independently rotated screen laws, with
    production closure near `1e-14` and bounded-independent neighboring-ray closure near `1e-8`.
    External review returns `VERIFIED_WITH_CAVEATS`; the maximum conclusion is strictly
    `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. The fixed-C1 Radau replay is
-   internally complete at `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`;
-   external review is pending and is the next gate. Parent:
+   externally `VERIFIED_WITH_CAVEATS`, agrees with DOP853 to `9.459627107202695e-12`, and closes
+   only the registered one-control integrator-family check. Its catch-completeness, sealed/live
+   repository, and non-literal CLI-rerun caveats remain binding. Next is a new bounded
+   preregistration for the deferred physical endpoint/`X_max` curve or thermal-map question. Parent:
    `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then its
    `EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. On the frozen G79
    metric/query, the past-directed affine reversal verifies `Z_rev=1/Z`, `phi_rev=-phi`,

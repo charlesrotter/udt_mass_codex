@@ -1,9 +1,9 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
-> **2026-08-12 STATUS (RESTART ANCHOR): G81 NONRADIAL SCREEN COVARIANCE EXTERNALLY VERIFIED WITH CAVEATS.** ACTIVE ARC = CMB PEAK
+> **2026-08-12 STATUS (RESTART ANCHOR): G82 FIXED-C1 RADAU SUPPORT EXTERNALLY VERIFIED WITH CAVEATS; G81 REMAINS THE SCIENTIFIC CEILING.** ACTIVE ARC = CMB PEAK
 > OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-12) FIRST, then
-> `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md` for the internally verified
-> non-DOP853 support result awaiting external review, then
+> `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md` for the externally
+> verified one-control non-DOP853 support result and binding caveats, then
 > `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
 > `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/AUDIT_REPORT.md`, then
 > `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXACT_DERIVATION.md`, then

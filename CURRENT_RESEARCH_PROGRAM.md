@@ -7,7 +7,9 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G81 LEAD:**
+**CURRENT G82 SUPPORT / G81 SCIENTIFIC LEAD:**
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md` is the latest support
+gate;
 `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`
 controls the two-control nonradial/endpoint-screen covariance gate. C0 and genuinely angular C1
 verify the carried and independently rotated Jacobi laws near `1e-14`; the direct-Christoffel
@@ -15,10 +17,12 @@ neighboring-ray route closes near `1e-8`. External review returned `VERIFIED_WIT
 no scientific correction and maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. Retain its live-source replay and
 bounded-independence caveats. No physical owner or downstream observable is selected. The exact
-fixed-C1 Radau support replay is internally complete at
-`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`, with worst DOP853 matrix difference
-`9.459627107202695e-12`. NEXT: external review of that sealed package; then, if upheld, return to
-endpoint/`X_max` or thermal work.
+fixed-C1 Radau support replay is externally `VERIFIED_WITH_CAVEATS`, with worst DOP853 matrix
+difference `9.459627107202695e-12` and no scientific correction. It closes only the registered
+method check; the original catch harness is not exhaustive, repository gates are live rather than
+sealed-review evidence, and the write-suppressed byte match is not a literal packaged CLI rerun.
+NEXT: under a new bounded preregistration, return to deferred physical endpoint/`X_max` or thermal
+work.
 
 **G80 PARENT LEAD:**
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`

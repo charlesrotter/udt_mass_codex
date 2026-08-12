@@ -6,7 +6,9 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 ## Start here
 
 The active arc is **CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction.
-Its current lead is
+Its latest support gate is
+`udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`; its controlling
+scientific lead remains
 `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`.
 The fixed radial and genuinely angular controls verify the carried and independently rotated
 screen covariance laws, with production residuals near `1e-14` and bounded-independent
@@ -14,9 +16,10 @@ direct-Christoffel neighboring-ray residuals near `1e-8`. External review return
 `VERIFIED_WITH_CAVEATS`, with maximum conclusion
 `DERIVED_CONDITIONAL_SCREEN_COVARIANCE_ON_TWO_FIXED_CONTROLS`. This is generic
 Jacobi/Wronskian covariance, not a UDT selector or signal. No physical profile, endpoint, scale,
-`X_max`, source, fit, or CMB field is selected. The same fixed-C1 Radau replay is internally
-complete at `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md`; external review is
-pending and is the next gate. Its G80 parent is
+`X_max`, source, fit, or CMB field is selected. The same fixed-C1 Radau replay is externally
+`VERIFIED_WITH_CAVEATS`, differs from frozen DOP853 by at most `9.459627107202695e-12`, and closes
+only that registered method check. Next is a newly preregistered physical endpoint/`X_max` curve
+or thermal-map question. Its G80 parent is
 `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`; G81 completes
 G80's registered nonradial/rotated-screen gate. Its G79 parent is
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, which

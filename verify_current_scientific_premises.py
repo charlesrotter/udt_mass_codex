@@ -201,17 +201,17 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md"
-    pending = "udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/AUDIT_REPORT.md"
-    parent = "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
-    grandparent = "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
-    greatgrandparent = "udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
+    latest = "udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md"
+    parent = "udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md"
+    grandparent = "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
+    greatgrandparent = "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
+    prior = "udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
-        require(pending in controls[control], f"G82 pending-review support route absent: {control}")
-        require(parent in controls[control], f"G80 parent route absent: {control}")
-        require(grandparent in controls[control], f"G79 grandparent route absent: {control}")
-        require(greatgrandparent in controls[control], f"G78 great-grandparent route absent: {control}")
+        require(parent in controls[control], f"G81 parent scientific route absent: {control}")
+        require(grandparent in controls[control], f"G80 grandparent route absent: {control}")
+        require(greatgrandparent in controls[control], f"G79 great-grandparent route absent: {control}")
+        require(prior in controls[control], f"G78 prior route absent: {control}")
 
     for control in ("README.md", "research/README.md", "MEMORY.md"):
         text = controls[control]
@@ -226,6 +226,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
@@ -281,9 +282,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 74, "premise registry must contain exactly 74 rows")
+    require(len(rows) == 75, "premise registry must contain exactly 75 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 74, "duplicate premise id")
+    require(len(by_id) == 75, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1280,6 +1281,7 @@ def main() -> None:
         "G81 bounded covariance status regressed or promoted",
     )
     require(by_id["G81"]["epistemic_label"] == "MIXED", "G81 covariance label changed")
+    require("METHOD_CAVEAT_CLOSED_BY_G82" in by_id["G81"]["active_use"], "G81 method closure absent")
     require("integrator families" in by_id["G81"]["open_scope"], "G81 method scope promoted")
     require("two fixed controls called a generic UDT selector" in by_id["G81"]["forbidden_regression"], "G81 bounded-scope guard absent")
     require("bounded neighboring-ray independence called absolute" in by_id["G81"]["forbidden_regression"], "G81 independence guard absent")
@@ -1290,6 +1292,21 @@ def main() -> None:
         "G81 covariance source changed",
     )
     require("G81_COMPLETES_G80" in by_id["G81"]["precedence_rule"], "G81 refinement absent")
+    require(
+        by_id["G82"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__G81_C1_SCREEN_COVARIANCE_SURVIVES_ONE_FIXED_NON_DOP853_RADAU_REPLAY",
+        "G82 bounded method-support status regressed or promoted",
+    )
+    require(by_id["G82"]["epistemic_label"] == "OBSERVED", "G82 support label changed")
+    require("absolute method independence" in by_id["G82"]["open_scope"], "G82 method scope promoted")
+    require("original 15 catches called exhaustive" in by_id["G82"]["forbidden_regression"], "G82 catch caveat absent")
+    require("literal packaged CLI rerun" in by_id["G82"]["forbidden_regression"], "G82 rerun caveat absent")
+    require(
+        by_id["G82"]["controlling_source"]
+        == "udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G82 support source changed",
+    )
+    require("G82_CLOSES_ONLY_G81S_REGISTERED" in by_id["G82"]["precedence_rule"], "G82 refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1363,9 +1380,9 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: 82 premise guards, G81 two-control nonradial screen covariance externally verified "
-        "with source-replay and bounded-independence caveats; G82 fixed-C1 Radau support passes "
-        "internally with external review pending and all physical owners open"
+        "PASS: 83 premise guards, G82 fixed-C1 Radau support externally verified with catch, "
+        "sealed/live-evidence, and non-literal-rerun caveats; G81 remains the two-control scientific "
+        "ceiling and all physical owners remain open"
     )
     return
     # Unreachable pre-G79 verbose success text remains below only until the next mechanical guard cleanup.
