@@ -1,0 +1,50 @@
+{
+  "schema": "udt-cmb-g83-external-review-v1",
+  "status": "VERIFIED_WITH_CAVEATS",
+  "scientific_corrections": 0,
+  "binding_caveats": [
+    "The sealed Git-free intake could not independently verify the preregistration commit boundary; the live repository separately proves that e4a3082290123dcdb06b74bb5a5f6e26315c9933 is the preregistration commit and 6b07caec44918aa54ba014c024e78ac586da1112 its direct calculation child.",
+    "The Radau replay is solver-family-independent but shares the geometry implementation.",
+    "The reviewer recomputed the saved census and formulas but did not rerun the complete 591-path DOP853 atlas.",
+    "No-caustic language is limited to the registered sampled determinant test; the x>1 continuation is exploratory and affine-cap statuses are not nonexistence results."
+  ],
+  "maximum_conclusion": "BOUNDED_STATIONARY_ENDPOINT_ASYMPTOTE_CANDIDATE_ATLAS",
+  "sealed_manifest_sha256": "364a7284a92577fa2189e8288853b2af4bb9f5eacef9289be85e22c5ed4678e9",
+  "raw_review_sha256": "9a9aae6604ae96bec595140501755db64ec5694710454f2672cc19b7bcb23e7e",
+  "review_transcript_sha256": "bb0fd3149f748893dffecda6ab5a4f2e82c442e138f7394398de3a8f663d488b",
+  "sealed_intake_files": 41,
+  "sealed_payload_rows": 40,
+  "reviewer_verified_payload_rows": 40,
+  "preregistration_commit": "e4a3082290123dcdb06b74bb5a5f6e26315c9933",
+  "calculation_commit": "6b07caec44918aa54ba014c024e78ac586da1112",
+  "strict_rows": 591,
+  "path_rows": 591,
+  "am_profiles": 197,
+  "status_counts": {
+    "AFFINE_CAP_NO_ENDPOINT": 57,
+    "ENDPOINT_REGULAR_NO_CAUSTIC": 516,
+    "TURNING_NO_ENDPOINT": 18
+  },
+  "approach_pattern_counts": {
+    "AFFINE_CAP_NO_ENDPOINT|AFFINE_CAP_NO_ENDPOINT|AFFINE_CAP_NO_ENDPOINT": 10,
+    "ENDPOINT_REGULAR_NO_CAUSTIC|AFFINE_CAP_NO_ENDPOINT|AFFINE_CAP_NO_ENDPOINT": 12,
+    "ENDPOINT_REGULAR_NO_CAUSTIC|ENDPOINT_REGULAR_NO_CAUSTIC|AFFINE_CAP_NO_ENDPOINT": 3,
+    "ENDPOINT_REGULAR_NO_CAUSTIC|ENDPOINT_REGULAR_NO_CAUSTIC|ENDPOINT_REGULAR_NO_CAUSTIC": 166,
+    "TURNING_NO_ENDPOINT|TURNING_NO_ENDPOINT|TURNING_NO_ENDPOINT": 6
+  },
+  "certified_reached_rows": 516,
+  "residual_maxima": {
+    "null_residual": 2.203705967707137e-14,
+    "p_psi_residual": 7.540222786428519e-13,
+    "p_t_residual": 3.6015079807327766e-11,
+    "screen_gram_residual": 1.9806156714707868e-11,
+    "screen_ray_residual": 3.3707792113091273e-10
+  },
+  "radau_rows": 18,
+  "radau_passed": 18,
+  "radau_max_affine_difference": 1.9964474518019415e-10,
+  "radau_max_screen_determinant_difference": 5.812665904159076e-10,
+  "independent_profile_derivative_max_absolute_error": 2.84e-14,
+  "hostile_catches_passed": 8,
+  "next_scientific_gate": "Preregister a bounded metric-led test of frame-shared observer-pair recentering/global completion; do not promote the stationary chart endpoint to physical X_max."
+}

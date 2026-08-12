@@ -1,0 +1,17 @@
+{
+  "binding_caveats": 4,
+  "calculation_commit": "6b07caec44918aa54ba014c024e78ac586da1112",
+  "certified_reached_rows": 516,
+  "chronology_verified": true,
+  "hostile_catches_passed": 8,
+  "path_rows": 591,
+  "payload_hashes_verified_live": 40,
+  "preregistration_commit": "e4a3082290123dcdb06b74bb5a5f6e26315c9933",
+  "radau_rows": 18,
+  "schema": "udt-cmb-g83-external-adjudication-verification-v1",
+  "scientific_corrections": 0,
+  "sealed_intake_files": 41,
+  "sealed_payload_rows": 40,
+  "status": "PASS",
+  "strict_rows": 591
+}
