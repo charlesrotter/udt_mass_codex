@@ -21,6 +21,20 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
+**CURRENT VERIFIED BOUNDED RESULT = FIRST CURVATURE-DERIVATIVE INTRINSIC-DISTRIBUTION ATLAS.**
+Read `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. On the 1,194 jets that
+pointwise curvature failed to align with the registered split, 1,187 are robust tested
+first-derivative nonowners, seven remain ownership-unresolved, and zero are positive owners. The
+whole 1,221-jet atlas has six derivative owners, all on already Ricci-owned strata. SPI gradients
+mostly form rank-3/4 or alternative rank-2 distributions. The completed 3,663-row Gram
+spectrum/Jordan/subspace map is 397 cross-route resolved and 3,266 spectrally unresolved. Final
+cold verdict: `ACCEPT — VERIFIED-WITH-CAVEATS`; `24/24` catches and repository gates pass. No
+physical `(g,Q,F)`, flag, action, source, `X_max`, or cosmology is selected. NEXT, not
+preregistered: test this intrinsic structure on one supplied common pair immersion, separating
+tangent, normal, and extrinsic mixing; do not increase derivative order to manufacture the old
+split.
+
 **CURRENT VERIFIED BOUNDED RESULT = CURVATURE-PRINCIPAL SPLIT OWNERSHIP AUDIT.** Read
 `udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`, then
 `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and

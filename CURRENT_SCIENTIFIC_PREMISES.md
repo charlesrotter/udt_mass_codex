@@ -9,6 +9,17 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
+## Current first-curvature-derivative result — verified with caveats
+
+`udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`, control the bounded local
+derivative-ownership result. Among the 1,194 parent pointwise-misaligned jets, the declared seven
+SPI gradients and three derivative-Gram tensors give 1,187 resolved nonowners, seven ownership
+uncertainties, and zero positive owners. The six positive owners in the whole atlas occur only on
+already Ricci-owned strata. The detailed Gram spectral atlas is mostly unresolved and is not a
+physical selector. The registered `2+2` split remains `CONDITIONAL`; no preferred flag, history,
+query, realization, action, source, bootstrap rule, or cosmological branch is derived.
+
 ## Current G84 externally reviewed lead — verified with caveats
 
 `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then

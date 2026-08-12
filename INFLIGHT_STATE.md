@@ -1,5 +1,16 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
+> **2026-08-12 CURRENT VERIFIED RESULT: FIRST CURVATURE-DERIVATIVE ATLAS, VERIFIED WITH CAVEATS.**
+> Read LIVE first, then
+> `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`,
+> `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. The exact 1,221-jet
+> atlas yields 1,187 resolved nonowners, seven ownership uncertainties, and zero positive tested
+> derivative owners among 1,194 parent-misaligned jets. Full Gram spectra/subspaces are banked for
+> all 3,663 objects: 397 resolved, 3,266 unresolved. Final cold review accepts
+> `VERIFIED-WITH-CAVEATS`; 24/24 catches and repository gates pass. No physical `(g,Q,F)` or
+> downstream law follows. Next candidate: one common pair-immersion tangent/normal/extrinsic map,
+> not another derivative-order or AM seam drill.
+
 > **2026-08-12 CURRENT VERIFIED RESULT: CURVATURE-PRINCIPAL SPLIT OWNERSHIP IS PARTIAL.** Read
 > LIVE first, then `udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`,
 > `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. Exact spherical

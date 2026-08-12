@@ -4,7 +4,11 @@ These tables govern artifact navigation and reorganization classification; they 
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current conceptual
 orientation is `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`; it changes
-no registry path and adopts no new classification authority. The current banked scientific lead
+no registry path and adopts no new classification authority. The current verified bounded result
+is `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`: a local
+first-curvature-derivative structure map with 1,187 resolved nonowners and seven uncertainties
+among the 1,194 parent-misaligned jets. It changes no registry path and selects no physical
+history/query/realization. Its parent curvature audit remains historical evidence. The older CMB lead
 is `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`: an
 internally verified bounded ownership atlas with external semantic review pending. It finds zero
 owned exclusions among the three regular G85 families and changes no registry path. Its parent is

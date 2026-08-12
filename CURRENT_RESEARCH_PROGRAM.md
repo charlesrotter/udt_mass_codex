@@ -7,16 +7,18 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT VERIFIED BOUNDED RESULT — CURVATURE-PRINCIPAL SPLIT OWNERSHIP IS STRATIFIED:** read
-`udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`, then
-`EXACT_DERIVATION.md` and `ADVERSARIAL_REVIEW.md`. Pointwise Weyl/Ricci curvature derives the
-registered reciprocal/angular split on a proper subset, not universally. The exact founding
-spherical family is Weyl-owned off its type-O locus, and Ricci still owns part of that locus.
-Across 1,221 distinct tested complete-metric jets, all 42 G63 controls are type I/misaligned; the
-G85 results contain owned, aligned/nonunique, and misaligned strata. This closes the proposed
-universal Petrov shortcut negatively while banking a real metric-native ownership mechanism.
-It does not select physical history/query/realization data. Next candidate: preregister a bounded
-joint curvature-derivative concomitant audit focused on the misaligned strata, with no-owner allowed.
+**CURRENT VERIFIED BOUNDED RESULT — FIRST CURVATURE-DERIVATIVE STRUCTURE IS RICH BUT DOES NOT
+UNIVERSALLY OWN THE REGISTERED SPLIT:** read
+`udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md` and `ADVERSARIAL_REVIEW.md`. On the 1,194 pointwise-misaligned jets, 1,187
+are resolved tested derivative nonowners, seven are ownership-unresolved, and zero are positive
+owners. Across the whole 1,221-jet atlas, the six positive derivative owners were already
+Ricci-owned. Scalar-gradient structure is usually rank 3/4 or an alternative rank-2 plane. The
+complete 3,663-row Gram spectrum/Jordan/subspace map retains 397 fully resolved and 3,266
+spectrally unresolved objects. This falsifies the universal shortcut for the scoped objects but
+does not select physical history/query/realization data. Next candidate: on one supplied common
+pair immersion, map tangent, normal, and extrinsic-mixing ownership. Do not escalate derivative
+order merely to recover the registered split.
 
 **CURRENT CONCEPTUAL PROGRAM — ZOOM-OUT CONSULTATION COMPLETE; AM SEAM DRILL PAUSED:**
 read `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md`,

@@ -6,6 +6,38 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
+## ============ CURRENT STATE (2026-08-12 — FIRST CURVATURE-DERIVATIVE ATLAS VERIFIED WITH CAVEATS; UNIVERSAL REGISTERED-SPLIT RECOVERY FALSIFIED) ============
+
+**LATEST VERIFIED BOUNDED RESULT — FIRST CURVATURE-DERIVATIVE INTRINSIC-DISTRIBUTION ATLAS.**
+Read `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then
+`EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, `STATUS_LEDGER.tsv`, and
+`ADJUDICATION_RESULT.json`. Across all 1,221 owned distinct third-order metric jets, independent
+full-tensor finite differences reproduce the production tensors to worst relative error
+`1.27e-4`; tensor identities and Ricci/Weyl contractions pass near `1e-14`--`1e-15`. Of the 1,194
+jets previously misaligned with pointwise curvature, 1,187 are now robustly resolved with no
+tested first-derivative owner of the registered reciprocal/angular split, seven retain a numerical
+ownership uncertainty, and zero have a positive owner. The six positive derivative owners in the
+whole atlas all occur where Ricci already owned the split.
+
+The metric nevertheless supplies substantial intrinsic structure. The scalar-gradient span is
+rank 3/4 on 818 rows, an alternative rank-2 plane on 390, rank 0/1 on 3, and unresolved on 10.
+All 3,663 Gram endomorphisms now have full spectra, rank/Jordan data, spectral blocks, and candidate
+two-planes recorded by production and independent routes: 397 are fully cross-route resolved
+(391 with four simple real eigenlines and all six two-line plane sums; 6 repeated-real cases) and
+3,266 remain explicitly spectrally unresolved. The original broad result was repaired twice under
+cold adversarial review; final verdict is `ACCEPT — VERIFIED-WITH-CAVEATS`. Package verification,
+`24/24` hostile catches, strict JSON, six frozen manifests/133 paths, 1,114 current paths, 101
+frontier targets, and tests `103 passed, 1 xfailed` pass. The protected seven-file stopped draft
+remains unmodified and unread.
+
+This result falsifies universal ownership only for the declared seven SPI gradients and three
+first-derivative Gram tensors. It does not select a physical history, query, realization, flag,
+action, source, bootstrap law, `X_max`, SNe, or CMB branch. **NEXT BOUNDED QUESTION, NOT YET
+PREREGISTERED:** stop escalating derivative order merely to force the registered split. On one
+supplied common typed pair immersion, map how the robust rank-3/4 and alternative-plane structure
+decomposes into tangent, normal, and extrinsic-mixing channels. This is a metric-assembly test, not
+a preferred-path or physical-selector hunt.
+
 ## ============ CURRENT STATE (2026-08-12 — CURVATURE-PRINCIPAL SPLIT AUDIT VERIFIED; PETROV SHORTCUT NARROWED) ============
 
 **LATEST VERIFIED BOUNDED RESULT — CURVATURE OWNS THE REGISTERED RECIPROCAL/ANGULAR SPLIT ONLY

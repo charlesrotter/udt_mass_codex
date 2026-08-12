@@ -6,12 +6,13 @@ record. Root `LIVE.md` wins every status disagreement.
 ## Current route
 
 Current verified bounded result: read
-`../udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`, then
+`../udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then
 `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. Pointwise Weyl/Ricci
-curvature owns the registered reciprocal/angular split only on a proper subset of 1,221 distinct
-tested jets. Petrov O is not an aether verdict; all 42 G63 points are type I/misaligned. This is a
-metric-native structural classification, not a physical `(g,Q,F)` selector. Next candidate is a
-preregistered curvature-derivative owner audit on the misaligned strata.
+curvature's partial ownership does not become universal at first derivative order: among the 1,194
+parent-misaligned jets, 1,187 are resolved derivative nonowners, seven remain unresolved, and zero
+are positive. The metric instead exposes higher-rank or alternative-plane local structure. This is
+a metric-native structural classification, not a physical `(g,Q,F)` selector. Next candidate is a
+common-pair-immersion tangent/normal/extrinsic map.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. Before the current scientific

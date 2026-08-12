@@ -4,15 +4,16 @@
 
 ---
 
-## TOP — CURRENT VERIFIED POINTER (2026-08-12, curvature split audit)
+## TOP — CURRENT VERIFIED POINTER (2026-08-12, first curvature-derivative atlas)
 
-Read `udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`, then
+Read `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`, then
 `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. Pointwise curvature owns
-the registered reciprocal/angular split on a proper subset only. The founding spherical family is
-Weyl-owned away from type O, and Ricci can retain the split on type O when its pair/screen gap is
-nonzero. The complete census has 1,806 provenance rows / 1,221 distinct jets; all 42 G63 points are
-type I/misaligned. No flag, history, query, realization, action, source, `X_max`, or CMB selection
-is derived. Next candidate: preregister a curvature-derivative owner audit on misaligned strata.
+the registered reciprocal/angular split on a proper subset only, and first curvature derivatives
+do not universally recover it: 1,187 parent-misaligned jets are resolved nonowners, seven remain
+ownership-unresolved, and zero are positive. Full Gram spectral/subspace maps contain 397 resolved
+and 3,266 unresolved objects. No flag, history, query, realization, action, source, `X_max`, or CMB
+selection is derived. Next candidate: map tangent/normal/extrinsic structure on one supplied common
+pair immersion.
 
 ---
 
