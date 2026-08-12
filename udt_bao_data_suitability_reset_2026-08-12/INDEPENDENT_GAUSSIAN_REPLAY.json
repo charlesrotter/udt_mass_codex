@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "method": "stdlib Decimal Gaussian elimination and Cholesky; no numpy or production import",
+  "precision_digits": 70,
+  "cov_sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+  "logpdf": "-15.35000451492731833330499675571366499608581126755445133222553368085520",
+  "production_float_logpdf": "-15.350004514927313",
+  "abs_delta": "5.33330499675571366499608581126755445133222553368085520E-15",
+  "symmetric_exact": true,
+  "cholesky_positive": true
+}
