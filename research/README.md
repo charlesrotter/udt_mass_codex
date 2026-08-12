@@ -6,7 +6,11 @@ record. Root `LIVE.md` wins every status disagreement.
 ## Current route
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
-`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
+`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. Before the current scientific
+lead, read `../udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then
+`path.md`. It is the current conceptual orientation: the type-correction program is cumulative,
+the AM seam-selector drill is paused, and the unresolved arena is typed as `(g,Q,F)` with no
+physical subset selected. The scientific arc remains
 **CMB PEAK OPTIMIZATION**, currently at the internally verified bounded G86 existing-condition
 completion-owner audit. Read
 `../udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`, then

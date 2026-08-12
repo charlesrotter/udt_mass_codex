@@ -1,5 +1,15 @@
 # IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
 
+> **2026-08-12 CURRENT CONCEPTUAL RESTART ANCHOR: FOUNDATIONS-TO-CMB ZOOM-OUT CONSULTATION
+> COMPLETE.** Read LIVE first, then
+> `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, `path.md`,
+> `CHAIR_ADJUDICATION.md`, and `TYPE_DEPENDENCY_LEDGER.tsv`. Two independent roles, directed
+> cross-examination, and separate final cold rereads accept the repaired diagnosis: cumulative
+> type-correction/conditional-geometry progress, but exhausted AM seam selection. The typed arena
+> is `(g,Q,F)`; current evidence owns evaluations but no physical subset. Pause further AM seam
+> work. Next is cold outside consultation, then—only if needed—a no-solve factorization audit.
+> G86 remains the latest scientific lead and its external semantic review is pending.
+
 > **2026-08-12 STATUS (RESTART ANCHOR): G86 EXISTING-CONDITION COMPLETION-OWNER AUDIT INTERNALLY VERIFIED; EXTERNAL SEMANTIC REVIEW PENDING.** Read LIVE first, then
 > `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`,
 > `EXACT_DERIVATION.md`, the three TSV atlases, `STATUS_LEDGER.tsv`, and

@@ -4,6 +4,19 @@
 
 ---
 
+## TOP — CURRENT CONCEPTUAL POINTER (2026-08-12, foundations-to-CMB whiteboard complete)
+
+Read `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md`,
+`CHAIR_ADJUDICATION.md`, and `WHITEBOARD_DEBATE.md`. Two independent roles plus cross-examination
+and final cold rereads accepted the repaired packet. The accumulated work is linear as type
+correction/conditional geometry, but the AM seam-selector drill is exhausted. Keep history `g`,
+typed query `Q`, and calibrated realization `F` distinct. Current evidence derives evaluation
+arrows, not a physical subset of `(g,Q,F)`, and does not decide whether ownership factorizes or is
+joint. Pause more AM seam solves. G86 below remains the latest scientific lead and external review
+is still pending.
+
+---
+
 ## TOP — CURRENT POINTER (2026-08-12, G86 existing-condition completion-owner audit internally verified; external semantic review pending)
 
 Read `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and

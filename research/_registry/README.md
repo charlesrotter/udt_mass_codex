@@ -2,7 +2,9 @@
 
 These tables govern artifact navigation and reorganization classification; they do not govern
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
-`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current banked lead
+`CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current conceptual
+orientation is `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`; it changes
+no registry path and adopts no new classification authority. The current banked scientific lead
 is `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`: an
 internally verified bounded ownership atlas with external semantic review pending. It finds zero
 owned exclusions among the three regular G85 families and changes no registry path. Its parent is

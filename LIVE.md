@@ -6,7 +6,23 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-12 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G86 EXISTING-CONDITION COMPLETION-OWNER AUDIT INTERNALLY VERIFIED, EXTERNAL REVIEW PENDING) ============
+## ============ CURRENT STATE (2026-08-12 — FOUNDATIONS-TO-CMB ZOOM-OUT CONSULTATION COMPLETE; FURTHER AM SEAM EXCAVATION PAUSED) ============
+
+**CURRENT CONCEPTUAL ORIENTATION — SMOKING-JACKET WHITEBOARD AND COLD CONSULTATION PACKET
+COMPLETE.** Read
+`udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md`,
+`CHAIR_ADJUDICATION.md`, `WHITEBOARD_DEBATE.md`, and `TYPE_DEPENDENCY_LEDGER.tsv`. Two independent
+read-only theorists reconstructed the arc, cross-examined one another, found and forced correction
+of the packet's type errors, then both accepted the repaired cold brief. Landing:
+`LINEAR_AS_A_TYPE_CORRECTION_AND_CONDITIONAL_GEOMETRY_PROGRAM`, but
+`EXHAUSTED_AS_AN_AM_SEAM_SELECTION_PROGRAM`. Current evidence evaluates typed triples
+`(history g, ordered query Q, calibrated realization F)` but selects no physical subset. History
+ownership, relation ownership, and the `X_max` realization remain distinct proof obligations that
+a future global law may or may not constrain jointly. Do not launch another AM seam archetype or
+GPU/ODE solve. The next bounded action is cold outside review of `path.md`; if no existing owner is
+found, preregister the no-solve object-type/factorization audit. This package derives no new
+physical selector. G86 below remains the latest scientific lead and still awaits fresh external
+semantic review.
 
 **LATEST INTERNALLY VERIFIED BOUNDED LEAD — G86 EXISTING-CONDITION COMPLETION-OWNER AUDIT;
 EXTERNAL SEMANTIC REVIEW PENDING.** Read

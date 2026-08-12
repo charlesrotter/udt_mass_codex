@@ -9,6 +9,12 @@
 3. Read the marked current block in `HANDOFF.md`.
 4. Read `CURRENT_RESEARCH_PROGRAM.md`.
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+5z. CURRENT CONCEPTUAL ORIENTATION: read
+   `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md` and
+   `CHAIR_ADJUDICATION.md`. The foundations-to-CMB whiteboard finds cumulative type-correction
+   progress but an exhausted AM seam-selector program. It retypes the open arena as `(g,Q,F)` and
+   pauses further seam solves pending cold consultation/no-solve factorization audit. It derives no
+   physical selector; G86 remains the latest bounded scientific lead.
 5a. ACTIVE ARC (2026-08-12): CMB PEAK OPTIMIZATION; current substep = G86 EXISTING-CONDITION
    COMPLETION-OWNER AUDIT, internally verified as a bounded lead with external semantic review
    pending. Read `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`,

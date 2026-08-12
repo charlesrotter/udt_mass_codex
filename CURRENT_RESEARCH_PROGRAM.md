@@ -7,6 +7,16 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
+**CURRENT CONCEPTUAL PROGRAM — ZOOM-OUT CONSULTATION COMPLETE; AM SEAM DRILL PAUSED:**
+read `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md`,
+`CHAIR_ADJUDICATION.md`, and `PROGRAM_OPTIONS.tsv`. Independent whiteboard roles and mutual
+cross-examination agree that G63--G86 is cumulative as a type-correction/conditional-response
+program, but G83--G86 has exhausted what the chosen AM seam can own. The correct open arena keeps
+`g`, `Q`, and `F` separate. Current premises neither select a physical history nor a complete
+relation family, and do not decide whether one later law constrains both jointly. Do not run
+another AM completion or GPU/ODE atlas. Cold-review `path.md`; if it finds no owner, perform the
+no-solve object-type/factorization audit before any new physics premise.
+
 **CURRENT G86 INTERNALLY VERIFIED BOUNDED LEAD — EXTERNAL SEMANTIC REVIEW PENDING:**
 `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`, then
 `EXACT_DERIVATION.md`, the three TSV atlases, and `INDEPENDENT_VERIFICATION.json`, control the

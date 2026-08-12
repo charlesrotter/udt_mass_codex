@@ -21,6 +21,17 @@ finite-cell seal, or boundary term.
 
 ## RESTART ANCHOR (2026-08-12) — READ LIVE.md TOPMOST FIRST
 
+**CURRENT CONCEPTUAL ORIENTATION = FOUNDATIONS-TO-CMB ZOOM-OUT CONSULTATION COMPLETE.** Read
+`udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md`,
+`CHAIR_ADJUDICATION.md`, and `WHITEBOARD_DEBATE.md`. The independent whiteboard plus mutual
+cross-examination finds the overall type-correction/conditional-geometry arc cumulative, while the
+AM seam-selector drill is exhausted. The typed arena is `(g,Q,F)`—history, ordered query, and
+calibrated realization. Current evidence derives evaluation channels but no physical subset, and
+does not decide whether history and relation selection factorize or are constrained jointly.
+Pause further AM seam work. Use `path.md` for cold outside consultation; next internal work, if
+needed, is a no-solve object-type/factorization audit. No new physical premise or selector was
+adopted. G86 below remains the latest scientific lead.
+
 **LATEST INTERNALLY VERIFIED BOUNDED LEAD = G86 EXISTING-CONDITION COMPLETION-OWNER AUDIT;
 EXTERNAL SEMANTIC REVIEW PENDING.** Read
 `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`, then

@@ -5,7 +5,15 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 ## Start here
 
-The active arc is **CMB PEAK OPTIMIZATION**, currently at the internally verified bounded G86
+The current conceptual orientation is the completed foundations-to-CMB smoking-jacket consultation.
+Read `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, then `path.md` and
+`CHAIR_ADJUDICATION.md`. Its internally cross-reviewed diagnosis is that the broader type-correction
+and conditional-geometry program is cumulative, while further AM seam selection is exhausted.
+The current typed arena is `(history g, ordered query Q, calibrated realization F)`; the metric
+evaluates it but current premises select no physical subset. Use `path.md` for cold outside review.
+No new physical premise or selector was adopted.
+
+The latest scientific lead remains the **CMB PEAK OPTIMIZATION** arc at the internally verified bounded G86
 existing-condition completion-owner audit. Start with
 `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`, then
 `EXACT_DERIVATION.md` and the three TSV atlases. Across `21` frozen sources, `14` conditions, three
