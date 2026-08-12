@@ -1,0 +1,19 @@
+{
+  "catch_count": 12,
+  "catches": {
+    "CMB_temperature_promotion_rejected": true,
+    "P1_metric_insertion_rejected": true,
+    "R_selection_promotion_rejected": true,
+    "SNe_fit_promotion_rejected": true,
+    "dead_angular_mixing_label_rejected": true,
+    "different_profile_rejected": true,
+    "hidden_numeric_R_rejected": true,
+    "missing_refinement_rejected": true,
+    "physical_profile_promotion_rejected": true,
+    "redshift_sign_reversal_rejected": true,
+    "x1_to_Xmax_promotion_rejected": true,
+    "zeroed_mixing_rejected": true
+  },
+  "schema": "udt-cmb-g79-catch-proofs-v1",
+  "status": "PASS"
+}

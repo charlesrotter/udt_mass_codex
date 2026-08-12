@@ -1,0 +1,50 @@
+**Findings**
+1. Low: the sealed package is not self-rerunnable unchanged. Both [derive_same_geometry_sne_query.py](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/derive_same_geometry_sne_query.py:29) and [verify_same_geometry_sne_independent.py](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/verify_same_geometry_sne_independent.py:31) still depend on `git show`, so they fail inside the sealed intake as shipped. This is a reproducibility caveat, not a contradiction in the algebra or numerics.
+2. Low: the neighboring-ray verifier is materially different from the production Jacobi solve, but not fully end-to-end independent. It rebuilds Christoffels and uses finite-difference neighboring geodesics instead of the production Riemann/Jacobi system [verify_same_geometry_sne_independent.py](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/verify_same_geometry_sne_independent.py:66) [verify_same_geometry_sne_independent.py](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/verify_same_geometry_sne_independent.py:154), but it still shares the same metric ansatz, endpoint event, screen seed, and `DOP853` family [verify_same_geometry_sne_independent.py](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/verify_same_geometry_sne_independent.py:80) [verify_same_geometry_sne_independent.py](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/verify_same_geometry_sne_independent.py:117). For this bounded one-ray `d_A/R` claim, that is enough; for broader certification, it is a caveat.
+
+**Landing**
+`VERIFIED_WITH_CAVEATS`
+
+I found no redshift-sign error, endpoint-timelikeness error, Jacobi-scale error, P1 role error, or thermal-scope overreach inside the bounded claim. The deterministic selection, `ds^2=R^2 dSigma^2` factorization, one-power-of-`R` distance typing, stationary endpoint ratio, and reported `d_A/R` all reproduce from the sealed sources.
+
+**Exact Reproduced Values**
+- `36/36` sealed-manifest hashes matched, including the `16/16` source subset in [REVIEW_MANIFEST.tsv](/tmp/udt_g79_review_4zdyw2im/REVIEW_MANIFEST.tsv:1).
+- The first non-`ZERO` atlas row is [PROFILE_ATLAS.tsv](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/PROFILE_ATLAS.tsv:5): `G75_AM_S01_E05`, `A(x)=1-x^2/4`, `q(s)=s^2/20`, `h(x)=x^6/20`.
+- The dimensional factorization claimed in [EXACT_DERIVATION.md](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md:33) is correct: with `tau=c_E t/R`, every metric term carries one overall `R^2`, so `g_phys = R^2 g_hat`. Then `D_phys = R D_hat` and `d_A = R sqrt(|det D_hat|)`, consistent with [solve_finite_path.py](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/solve_finite_path.py:219).
+- Stationary observers are timelike at both endpoints because `g(K,K)=-A`, with `A_r=63/64` and `A_s=3/4` [EXACT_DERIVATION.md](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md:68).
+- Exact stationary ratio:
+  `1+z = sqrt(21)/4 = 1.14564392373896000164701179843`
+  `phi_pair = log(sqrt(21)/4) = 0.135966857741820879415834747267`
+  `T_obs/T_src = 4/sqrt(21) = 0.872871560943969525064389941662`
+- Direct endpoint contraction replay:
+  `1+z_direct = 1.1456439237389628`
+  absolute difference from exact `= 2.886579864025407e-15`
+- Recomputed `4096` Jacobi endpoint:
+  `D_hat = [[0.7559967070430084, -1.0146339127533358e-22], [-1.0146395760930278e-22, 0.7559733363044177]]`
+  `det(D_hat) = 0.5715133528584565`
+  `d_A/R = 0.7559850215834019`
+  `affine/R = 0.7560742639231726`
+- Refinement ladder:
+  `1024 -> 0.7559850215834042`
+  `2048 -> 0.7559850215834044`
+  `4096 -> 0.7559850215834019`
+  absolute deltas `2.220446049250313e-16` and `2.55351295663786e-15`
+- Residuals:
+  `null = 1.4183200820413355e-15`
+  `Killing-energy drift = 2.6645352591003757e-15`
+  `screen Gram = 9.325873406851315e-15`
+  endpoint classification `ENDPOINT_REGULAR_NO_CAUSTIC`
+- Independent neighboring-ray replay:
+  `d_A/R = 0.7559850216165241`
+  packaged file records `0.7559850216165416`; replay gap `1.7430501486614958e-14`
+  `fine_production_relative = 4.381542485329791e-11`
+  `redshift_abs_difference = 6.661338147750939e-16`
+  `max_endpoint_null_absolute = 2.1039887317575994e-15`
+- The P1 join remains conditional only through `d_A=r` [udt_sne_native_observer_query_replay_2026-08-11/EXACT_DERIVATION.md](/tmp/udt_g79_review_4zdyw2im/udt_sne_native_observer_query_replay_2026-08-11/EXACT_DERIVATION.md:53) and the thermal statement remains conditional only for a supplied one-parameter thermal spectrum [TYPE_LEDGER.tsv](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/TYPE_LEDGER.tsv:4) [THERMAL_READOUT_LEDGER.tsv](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/THERMAL_READOUT_LEDGER.tsv:4).
+
+**Caveats**
+- The observer-to-source branch is the one integrated for the angular map [EXACT_DERIVATION.md](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md:28). That is not a sign error here because the stationary endpoint ratio depends only on the conserved Killing energy and endpoint lapse values, so it matches the reverse physical source-to-receiver branch.
+- The thermal language is honest within scope: it does not claim lensing creates structure from a uniform source, and it does not claim a native source, detector law, or power spectrum [EXACT_DERIVATION.md](/tmp/udt_g79_review_4zdyw2im/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md:146).
+
+**Smallest Next Calculation**
+Run the same null-plus-Jacobi solve on the reverse source-initial branch and explicitly verify reciprocity on this same geometry/query pair. That is the smallest metric-led strengthening because it stress-tests the only nontrivial ordering subtlety without opening `X_max`, source physics, or any fit.

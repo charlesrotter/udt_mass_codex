@@ -1,0 +1,14 @@
+premise_id	object	value_or_rule	status	role	forbidden_promotion
+P01	geometry	G75_AM_S01_E05 selected by first non-ZERO frozen atlas row	CHOSE_CONTROL	bounded complete stationary axial geometry	physical profile or selected universe
+P02	metric_sectors	A=1-x^2/4; h=x^6/20; full angular sector live	DERIVED_CONDITIONAL_ON_FROZEN_CONTROL	complete nonlinear query input	mixing zeroed or angular spectator
+P03	c_E	observed clock/ruler calibration	OBSERVED	dimensional time-length conversion	scale-free physical metric
+P04	R	positive symbolic length	OPEN_FREE	physical scale factor in d_A	chosen number or Xmax identification
+P05	receiver	x=1/4 stationary Killing observer	CHOSE_CONTROL	query endpoint	privileged cosmic observer
+P06	source	x=1 first outward crossing; stationary Killing observer	CHOSE_CONTROL	query endpoint	last scattering or Xmax
+P07	ray	outward radial orthonormal-sky member	CHOSE_CONTROL	one fully typed sky direction	unique physical route
+P08	propagation	full null path, parallel screen, Riemann/Jacobi system	DERIVED_CONDITIONAL_ON_METRIC_QUERY	geometric evaluator	matter or signalling law
+P09	SNe_P1	inactive during solve; d_A=r only in frozen assembly	CONDITIONAL_COMPATIBILITY_ANCHOR_ONLY	post-derivation type comparison	metric profile or fit selector
+P10	thermal_identity	T_obs/T_src=1/(1+z) for supplied one-parameter thermal spectrum	CONDITIONAL_READOUT_ONLY	future lens-plus-redshift temperature map	native CMB source or thermalization law
+P11	Xmax	working observer-pair asymptotic limit; no realization here	OPEN_INACTIVE	authority guard	x=1 control sphere
+P12	source_action_bootstrap	no source state, action, matter law, or bootstrap selector supplied	OPEN_INACTIVE	authority guard	inferred from optical query
+

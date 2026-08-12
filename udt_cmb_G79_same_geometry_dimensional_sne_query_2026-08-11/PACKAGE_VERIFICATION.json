@@ -1,0 +1,19 @@
+{
+  "catch_proofs": 12,
+  "current_paths": 1114,
+  "dA_over_R": 0.7559850215834019,
+  "frozen_manifests": 6,
+  "frozen_package_paths": 133,
+  "independent_D_relative": 4.3838551044245423e-11,
+  "one_plus_z": 1.1456439237389628,
+  "premise_guards": 71,
+  "preregistration_commit": "4bea21b7",
+  "profile_id": "G75_AM_S01_E05",
+  "protected_contents_read": false,
+  "protected_untracked_paths": 7,
+  "pytest": "99 passed, 1 xfailed",
+  "schema": "udt-cmb-g79-package-verification-v1",
+  "source_rows": 16,
+  "status": "PASS",
+  "unexpected_dirty_paths": []
+}

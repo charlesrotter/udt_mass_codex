@@ -1,0 +1,9 @@
+object	mathematical_type	owner	status	open_scope
+phi_pair	real endpoint reciprocal-depth readout	stationary Killing frequency ratio on supplied query	DERIVED_CONDITIONAL_ON_QUERY	physical query/profile/endpoint
+d_A_over_R	positive dimensionless Jacobi area coefficient	full metric null-screen-Jacobi evaluator	DERIVED_CONDITIONAL_ON_QUERY	family/global continuation
+d_A	physical length R times d_A_over_R	metric plus symbolic R	DERIVED_FORM_WITH_OPEN_SCALE	value of R
+P1_r	conditional angular-distance length	frozen SNe assembly premise d_A=r	CONDITIONAL_COMPATIBILITY_ANCHOR_ONLY	native complete SNe realization
+thermal_scale_ratio	dimensionless frequency/temperature parameter ratio	derived redshift plus supplied thermal-spectrum premise	CONDITIONAL_READOUT_ONLY	physical source/thermalization/detector
+sky_lens_map	direction map plus screen Jacobi response	full query geometry	DERIVED_CONDITIONAL_ON_QUERY_FOR_ONE_RAY	whole-sky map and physical endpoint
+cmb_temp	observed temperature field on sky	unowned source field composed with lens/redshift readout	OPEN_NO_OWNER	physical source and full observation query
+

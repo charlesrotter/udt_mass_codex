@@ -1,0 +1,7 @@
+stage	input	map	status	G79_result	still_open
+frequency	stationary source and receiver plus null ray	omega=E/sqrt(A)	DERIVED_CONDITIONAL_ON_QUERY	1+z=sqrt(21)/4	physical profile and endpoint
+lens	neighboring null directions	Jacobi screen map D	DERIVED_CONDITIONAL_ON_QUERY	d_A/R=0.7559850215834019	whole-sky physical relation
+thermal_parameter	supplied one-parameter thermal spectrum	T_obs=T_src/(1+z)	CONDITIONAL_READOUT_ONLY	T_obs/T_src=4/sqrt(21)	native source and thermalization law
+temperature_sky	supplied T_src on supplied source surface	T_obs(n)=T_src(F_sky(n))/(1+z(n))	CONDITIONAL_FUTURE_MAP	not evaluated	physical source surface endpoint z(n) and detector
+power_spectra	physical stochastic/polarized source and observation operator	unsupplied	OPEN_NO_OWNER	none	TT TE EE BB and peak physics
+

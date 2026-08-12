@@ -1,0 +1,39 @@
+{
+  "affine_absolute_difference": 1.2212453270876722e-15,
+  "central_affine_over_R": 0.7560742639231713,
+  "coarse_D": [
+    [
+      0.7559967071713042,
+      -1.7721842704748725e-21
+    ],
+    [
+      1.4890165806219002e-21,
+      0.7559733364399788
+    ]
+  ],
+  "coarse_delta": 0.0001,
+  "coarse_fine_relative": 1.3074885673897038e-10,
+  "fine_D": [
+    [
+      0.755996707075825,
+      -1.772184270153288e-21
+    ],
+    [
+      1.4890165804338437e-21,
+      0.7559733363378804
+    ]
+  ],
+  "fine_delta": 5e-05,
+  "fine_production_relative": 4.3838551044245423e-11,
+  "independent_dA_over_R": 0.7559850216165416,
+  "max_endpoint_null_absolute": 2.1058184982859585e-15,
+  "method": "independent direct-loop Christoffel central screen plus finite-difference neighboring null geodesics; no production Riemann or Jacobi equation",
+  "one_plus_z_analytic": 1.14564392373896,
+  "one_plus_z_independent": 1.1456439237389606,
+  "production_affine_over_R": 0.7560742639231726,
+  "production_dA_over_R": 0.7559850215834019,
+  "profile_id": "G75_AM_S01_E05",
+  "redshift_absolute_difference": 6.661338147750939e-16,
+  "schema": "udt-cmb-g79-independent-neighboring-ray-v1",
+  "status": "PASS"
+}

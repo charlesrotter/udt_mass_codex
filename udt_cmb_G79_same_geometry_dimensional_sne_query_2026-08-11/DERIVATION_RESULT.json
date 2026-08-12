@@ -1,0 +1,138 @@
+{
+  "authority": {
+    "CMB_temperature_or_spectrum_derived": false,
+    "R_selected": false,
+    "SNe_fit_performed": false,
+    "Xmax_identified": false,
+    "maximum_conclusion": "DERIVED_CONDITIONAL_ON_ONE_FROZEN_GEOMETRY_AND_ONE_CHOSEN_STATIONARY_QUERY",
+    "physical_profile_selected": false
+  },
+  "distance": {
+    "P1_exact_numerator": "-2**(4/n)/21**(1/n) + 1",
+    "P1_no_fit_scale_expression": "R/R_w=[1-(1+z)^(-2/n)]/(d_A/R)",
+    "P1_type_match": "CONDITIONAL_REGISTERED_MATCH_BECAUSE_FROZEN_SNE_ASSEMBLY_POSITS_dA_equals_r",
+    "R_power": 1,
+    "dA_over_R": 0.7559850215834019,
+    "det_D_dimensionless": 0.5715133528584565,
+    "physical_relation": "d_A=R*(dA_over_R)"
+  },
+  "endpoint": {
+    "D": [
+      [
+        0.7559967070430084,
+        -1.0146339127533253e-22
+      ],
+      [
+        -1.0146395760931919e-22,
+        0.7559733363044177
+      ]
+    ],
+    "affine_over_R": 0.7560742639231726,
+    "classification": "ENDPOINT_REGULAR_NO_CAUSTIC",
+    "coordinates": [
+      0.8471144104566392,
+      1.0,
+      1.5707963267948966,
+      -0.012169213304160875
+    ],
+    "first_caustic_affine": null,
+    "singular_values": [
+      0.7559967070430084,
+      0.7559733363044177
+    ]
+  },
+  "q_coefficients_c0_c1_c2": [
+    0.0,
+    0.0,
+    0.05
+  ],
+  "query": {
+    "frequency_normalization": "unit_receiver_measured_frequency",
+    "mixing_and_angular_sectors": "LIVE",
+    "observer_type": "coordinate_stationary_proportional_to_stationary_Killing_field",
+    "receiver_x": 0.25,
+    "sky_direction": "outward_radial_member_of_complete_metric_orthonormal_sky",
+    "source_control_sphere_x": 1.0
+  },
+  "redshift": {
+    "A_receiver": 0.984375,
+    "A_source": 0.75,
+    "absolute_direct_analytic_difference": 2.886579864025407e-15,
+    "one_plus_z_analytic": 1.14564392373896,
+    "one_plus_z_direct": 1.1456439237389628,
+    "one_plus_z_exact": "sqrt(21)/4",
+    "phi_pair": 0.13596685774182335,
+    "phi_pair_exact": "log(sqrt(21)/4)",
+    "thermal_frequency_scale_ratio_conditional": 0.8728715609439673
+  },
+  "refinement": [
+    {
+      "D00": 0.755996707043016,
+      "D01": -1.0146339127540171e-22,
+      "D10": -1.0146395760938417e-22,
+      "D11": 0.755973336304415,
+      "affine_final": 0.7560742639231719,
+      "dA_over_R": 0.7559850215834042,
+      "det_D": 0.5715133528584602,
+      "nfev": 11627,
+      "step_count": 1024
+    },
+    {
+      "D00": 0.7559967070430156,
+      "D01": -1.014633912753309e-22,
+      "D10": -1.0146395760934237e-22,
+      "D11": 0.7559733363044157,
+      "affine_final": 0.7560742639231708,
+      "dA_over_R": 0.7559850215834044,
+      "det_D": 0.5715133528584605,
+      "nfev": 23237,
+      "step_count": 2048
+    },
+    {
+      "D00": 0.7559967070430084,
+      "D01": -1.0146339127533253e-22,
+      "D10": -1.0146395760931919e-22,
+      "D11": 0.7559733363044177,
+      "affine_final": 0.7560742639231726,
+      "dA_over_R": 0.7559850215834019,
+      "det_D": 0.5715133528584565,
+      "nfev": 46457,
+      "step_count": 4096
+    }
+  ],
+  "refinement_dA_absolute_1024_2048": 2.220446049250313e-16,
+  "refinement_dA_absolute_2048_4096": 2.55351295663786e-15,
+  "residuals": {
+    "conserved_p_psi": 1.6278617993512046e-16,
+    "conserved_p_t": 2.6645352591003757e-15,
+    "min_A": 0.75,
+    "min_block_D": 0.06152343764901161,
+    "null": 1.4183200820413355e-15,
+    "screen_gram": 9.325873406851315e-15,
+    "screen_ray": 1.942890293094024e-16,
+    "tidal_antisymmetry": 1.429100204046091e-32,
+    "wronskian": 1.4519706221356895e-34
+  },
+  "schema": "udt-cmb-g79-same-geometry-dimensional-sne-query-v1",
+  "selected_profile": {
+    "amplitude": "1/20",
+    "behavior_class": "CENTER_OFF_NO_INTERIOR_ROOT",
+    "center_B_order_in_x": "10",
+    "center_h_order_in_x": "6",
+    "center_status": "CENTER_C_INFINITY",
+    "endpoint_q": "1/20",
+    "lapse_a": "-1/4",
+    "lapse_min": "3/4",
+    "lapse_name": "AM",
+    "max_abs_q": "1/20",
+    "physical_status": "CHOSE_CONTROL_NOT_SELECTED",
+    "profile_id": "G75_AM_S01_E05",
+    "q_of_s": "s**2/20",
+    "reflection_partner": "NEGATIVE_Q_VIA_PSI_REFLECTION",
+    "shape_id": "S01",
+    "signature_status": "LORENTZ_REGULAR_ALL_X"
+  },
+  "selection_rule": "first_PROFILE_ATLAS_data_row_with_shape_id_not_ZERO",
+  "source_rows": 16,
+  "status": "PASS"
+}

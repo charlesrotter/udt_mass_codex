@@ -1,0 +1,27 @@
+{
+  "schema": "udt-cmb-g79-external-review-v1",
+  "status": "VERIFIED_WITH_CAVEATS",
+  "external_model": "gpt-5.4",
+  "sealed_payload_rows": 36,
+  "sealed_intake_files": 37,
+  "sealed_manifest_sha256": "375ebfab12f0eb091aac930ee812589d172831f3dffe5159c66f286474f3f185",
+  "raw_review_sha256": "327506e23ad1b77ec58151d3bc46b3cc8c0ab10a6d6bbc3fe59df753f94910cc",
+  "stdout_sha256": "876534fb1dcbf60bfcd4ff22389c1a2ceb493fab435cedea822414c1d6864026",
+  "transcript_sha256": "513fced7778263a005af4b877e110f507ca7273b3748308626eac17b8fe0ee27",
+  "scientific_corrections": 0,
+  "binding_caveats": [
+    "sealed_scripts_require_git_show_and_are_not_self_rerunnable_unchanged",
+    "neighboring_ray_route_is_method_distinct_but_not_fully_end_to_end_independent",
+    "reverse_source_initial_reciprocity_check_remains"
+  ],
+  "reproduced": {
+    "profile_id": "G75_AM_S01_E05",
+    "one_plus_z_exact": "sqrt(21)/4",
+    "dA_over_R": 0.7559850215834019,
+    "independent_replay_dA_over_R": 0.7559850216165241,
+    "fine_production_relative": 4.381542485329791e-11,
+    "null_residual": 1.4183200820413355e-15
+  },
+  "next": "reverse_source_initial_null_plus_jacobi_reciprocity_check_on_same_geometry"
+}
+
