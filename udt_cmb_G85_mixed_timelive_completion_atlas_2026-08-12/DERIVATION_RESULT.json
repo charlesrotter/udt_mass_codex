@@ -1,0 +1,42 @@
+{
+  "all_completion_functions_status": "FREE_AND_EXPLORED",
+  "archetypes_per_profile": 5,
+  "classification_counts": {
+    "CONDITIONAL_ON_NONVANISHING_SHIFT": 196,
+    "POINTWISE_DEGENERATE": 392,
+    "REGULAR_LORENTZ_NONNULL_SEAM": 196,
+    "REGULAR_LORENTZ_UNIFORM_NULL_SEAM": 196
+  },
+  "exact_algebra": {
+    "axis_clock_radial_determinant": "-b**2 + 4*u",
+    "induced_seam_determinant": "-D*z*(-D*u + h**2*z)",
+    "metric_determinant": "-D*z*(D*b**2 - 4*D*u + 4*h**2*z)",
+    "regular_lorentz_axis_gate": "4*u_H-b_H**2<0",
+    "time_schur_complement": "-(D*b**2 - 4*D*u + 4*h**2*z)/(4*D)",
+    "uniform_null_gate_with_u_H_zero": "h_H=0"
+  },
+  "landing": "COMPLETE_METRIC_CHANNELS_ADMIT_MULTIPLE_KINEMATIC_COMPLETION_CLASSES__NO_NATIVE_HISTORY_SELECTED",
+  "maximum_conclusion": "BOUNDED_KINEMATIC_TIME_LIVE_COMPLETION_ARCHETYPE_ATLAS_ON_THE_G84_CANDIDATE",
+  "mixed_profile_rows": 196,
+  "native_dynamics_selected": false,
+  "physical_Xmax_selected": false,
+  "physical_profile_selected": false,
+  "physical_topology_selected": false,
+  "profile_archetype_rows": 980,
+  "profile_behavior_counts": {
+    "CENTER_OFF_NO_INTERIOR_ROOT": 24,
+    "ENDPOINT_TAPER_NO_INTERIOR_ROOT": 20,
+    "INTERIOR_SIGN_CHANGE": 36,
+    "PERSISTENT_SIGN_NO_INTERIOR_ROOT": 112,
+    "ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT": 4
+  },
+  "q4_sign_counts": {
+    "negative": 92,
+    "positive": 104
+  },
+  "schema": "udt-cmb-g85-mixed-timelive-completion-v1",
+  "seam_channel_rows": 8,
+  "source_manifest_rows": 11,
+  "status": "PASS",
+  "unique_profile_archetype_pairs": 980
+}

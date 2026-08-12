@@ -1,0 +1,21 @@
+{
+  "all_passed": true,
+  "catch_proofs": 10,
+  "classification_counts": {
+    "CONDITIONAL_ON_NONVANISHING_SHIFT": 196,
+    "POINTWISE_DEGENERATE": 392,
+    "REGULAR_LORENTZ_NONNULL_SEAM": 196,
+    "REGULAR_LORENTZ_UNIFORM_NULL_SEAM": 196
+  },
+  "falsification_rows": 14,
+  "independent_verification": "PASS",
+  "premise_rows": 15,
+  "preregistration_commit": "473cf4a1",
+  "preregistration_preserved": true,
+  "profile_archetype_rows": 980,
+  "schema": "udt-cmb-g85-package-verification-v1",
+  "seam_channel_rows": 8,
+  "source_manifest_rows": 11,
+  "status": "PASS",
+  "unique_profile_archetype_pairs": 980
+}

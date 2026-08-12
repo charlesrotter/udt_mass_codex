@@ -1,0 +1,44 @@
+{
+  "implementation_independence": "NO_IMPORT_OF_PRODUCTION_DERIVATION",
+  "independent_algebra": {
+    "axis_gate": "-b**2 + 4*u",
+    "determinant": "-D*z*(D*b**2 - 4*D*u + 4*h**2*z)",
+    "induced": "-D*z*(-D*u + h**2*z)",
+    "schur": "-(D*b**2 - 4*D*u + 4*h**2*z)/(4*D)"
+  },
+  "kruskal_taper": {
+    "coefficient_dU": "-V*htilde/4",
+    "coefficient_dV": "U*htilde/4",
+    "result": "SMOOTH_WHEN_HTILDE_IS_SMOOTH"
+  },
+  "numeric_witnesses": {
+    "grid_checks": 561,
+    "minimum_lift_axis_margin_at_seam": 3.0,
+    "minimum_shift_axis_margin_at_seam": 0.5625,
+    "profiles_covered_by_symbolic_square_argument": 196
+  },
+  "profile_behavior_counts": {
+    "CENTER_OFF_NO_INTERIOR_ROOT": 24,
+    "ENDPOINT_TAPER_NO_INTERIOR_ROOT": 20,
+    "INTERIOR_SIGN_CHANGE": 36,
+    "PERSISTENT_SIGN_NO_INTERIOR_ROOT": 112,
+    "ZERO_BOTH_BOUNDARIES_NO_INTERIOR_ROOT": 4
+  },
+  "profile_sign_counts": {
+    "negative": 92,
+    "positive": 104
+  },
+  "saved_artifacts": {
+    "atlas_rows": 980,
+    "channel_rows": 8,
+    "classification_counts": {
+      "CONDITIONAL_ON_NONVANISHING_SHIFT": 196,
+      "POINTWISE_DEGENERATE": 392,
+      "REGULAR_LORENTZ_NONNULL_SEAM": 196,
+      "REGULAR_LORENTZ_UNIFORM_NULL_SEAM": 196
+    },
+    "unique_pairs": 980
+  },
+  "schema": "udt-cmb-g85-independent-verification-v1",
+  "status": "PASS"
+}

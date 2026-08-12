@@ -1,0 +1,58 @@
+{
+  "all_hostile_mutations_rejected": true,
+  "catch_count": 10,
+  "catches": [
+    {
+      "catch": "missing_move_equivalent_profile_row",
+      "meaning": "hostile mutation rejected",
+      "status": "PASS"
+    },
+    {
+      "catch": "duplicate_profile_archetype_pair",
+      "meaning": "hostile mutation rejected",
+      "status": "PASS"
+    },
+    {
+      "catch": "time_derivative_falsely_repairs_rank",
+      "meaning": "hostile mutation rejected",
+      "status": "PASS"
+    },
+    {
+      "catch": "shift_zero_crossing_admitted",
+      "meaning": "hostile mutation rejected",
+      "status": "PASS"
+    },
+    {
+      "catch": "nonzero_mix_falsely_uniform_null",
+      "meaning": "hostile mutation rejected",
+      "status": "PASS"
+    },
+    {
+      "catch": "mere_zero_value_substituted_for_order_A_taper",
+      "meaning": "hostile mutation rejected",
+      "status": "PASS"
+    },
+    {
+      "catch": "frozen_cell_modified",
+      "meaning": "hostile mutation rejected",
+      "status": "PASS"
+    },
+    {
+      "catch": "physical_Xmax_promoted",
+      "meaning": "hostile mutation rejected",
+      "status": "PASS"
+    },
+    {
+      "catch": "control_promoted_to_physics",
+      "meaning": "hostile mutation rejected",
+      "status": "PASS"
+    },
+    {
+      "catch": "frozen_source_hash_mutated",
+      "meaning": "hostile mutation rejected",
+      "status": "PASS"
+    }
+  ],
+  "schema": "udt-cmb-g85-catch-proofs-v1",
+  "status": "PASS"
+}
