@@ -10,7 +10,7 @@ COMPLETE_PAIR_SHAPE_OPERATOR_DERIVED__BOTH_FROZEN_SCALAR_CONTROLS_INCOMPATIBLE
 Evidence maturity:
 
 ```text
-INTERNALLY_VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_ADVERSARIAL_REVIEW_PENDING
+VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_SUSTAINED
 ```
 
 ## Result
@@ -80,6 +80,13 @@ dynamics is imported. The public release labels and symbols remain data-packagin
 - an independent 70-digit standard-library Decimal replay agrees to below `1.9e-13` per bin;
 - all 9 preregistered hostile mutations were caught;
 - no UDT parameter, `n`, row, covariance, or history coefficient was optimized.
+- a fresh sealed gpt-5.4 review independently reconstructed the operator and controls, directly
+  replayed the raw six-bin likelihood, verified exact zero cross-bin covariance, and returned
+  `SUSTAINED_VERIFIED_WITH_CAVEATS`.
+
+The reviewer's sole repair was documentary. `SOURCE_OWNERSHIP_CORRECTION.md` now makes explicit that
+the provisional regime-flow source is not load-bearing; the banked pair-first and G79 sources plus
+this package's self-contained derivation suffice.
 
 ## Maximum justified conclusion
 
@@ -90,8 +97,7 @@ history; it does not supply or select that history.
 
 ## Next bounded action
 
-First obtain a fresh adversarial review of this derivation, likelihood, and ontology boundary. If it
-survives, the next scientific calculation is not a fit of an arbitrary correction. It is to take a
+The next scientific calculation is not a fit of an arbitrary correction. It is to take a
 pre-existing, independently specified complete pair history and evaluate its native `d_A`,
 `L_pair`, and `phi_pair` in equation (1). If no such history is currently owned, the honest landing
 remains `OPEN` rather than constructing one from the residuals.

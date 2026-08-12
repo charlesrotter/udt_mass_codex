@@ -6,13 +6,13 @@ Date: 2026-08-12
 |---|---|---|
 | 1. preregistered | PASS | frozen before residual evaluation; commit `efdecd35` |
 | 2. full space or bounded scope justified | PASS-BOUNDED | exactly six released anisotropic two-leg blocks; no claim outside the regular monotone shape query |
-| 3. independently verified | PASS-INTERNAL | 70-digit Decimal implementation imports neither NumPy nor production code; fresh external semantic review pending |
-| 4. every premise audited | PASS-WITH-CAVEATS | complete-pair operator separated from conditional scalar controls; physical history and one provisional unbanked supporting source remain explicit |
+| 3. independently verified | PASS | 70-digit Decimal replay plus fresh sealed gpt-5.4 reconstruction and raw-data replay |
+| 4. every premise audited | PASS-WITH-CAVEATS | complete-pair operator separated from scalar controls; provisional source removed from load-bearing chain; physical history remains open |
 
 Overall bankable status before external review:
 
 ```text
-LEAD__INTERNALLY_VERIFIED_WITH_CAVEATS
+VERIFIED_WITH_CAVEATS__BOUNDED_OPERATOR_AND_FROZEN_CONTROL_NEGATIVES
 ```
 
 ## Preregistered calculation gates
@@ -33,7 +33,7 @@ LEAD__INTERNALLY_VERIFIED_WITH_CAVEATS
 ## Source caveat
 
 `SOURCE_MANIFEST.tsv` records the exact worktree source universe frozen at preregistration. One
-supporting orchestra-boundary document in that manifest is presently an unbanked provisional
-package and is not being smuggled into this commit. The load-bearing operator derivation is restated
-self-contained in `EXACT_DERIVATION.md`; external review must receive the exact frozen manifest and
-must adjudicate whether the banked pair-metric and G79 sources already suffice.
+supporting orchestra-boundary document in that manifest is an unbanked provisional package and is
+not smuggled into this evidence chain. The external review determined that the banked pair-first and
+G79 sources plus the self-contained `EXACT_DERIVATION.md` already suffice. See
+`SOURCE_OWNERSHIP_CORRECTION.md`.

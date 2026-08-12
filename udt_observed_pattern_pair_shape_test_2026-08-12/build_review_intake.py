@@ -24,7 +24,13 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def copy_file(source: Path, target: Path, role: str, records: list[dict[str, object]]) -> None:
+def copy_file(
+    source: Path,
+    target: Path,
+    intake_root: Path,
+    role: str,
+    records: list[dict[str, object]],
+) -> None:
     if not source.is_file():
         raise FileNotFoundError(source)
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -33,7 +39,7 @@ def copy_file(source: Path, target: Path, role: str, records: list[dict[str, obj
         {
             "role": role,
             "source": str(source),
-            "intake_path": str(target.relative_to(target.parents[1])),
+            "intake_path": str(target.relative_to(intake_root)),
             "bytes": target.stat().st_size,
             "sha256": sha256(target),
         }
@@ -47,7 +53,7 @@ def main() -> None:
     for source in sorted(HERE.iterdir()):
         if not source.is_file() or source.name == "build_review_intake.py":
             continue
-        copy_file(source, intake / "package" / source.name, "audit_package", records)
+        copy_file(source, intake / "package" / source.name, intake, "audit_package", records)
 
     with (HERE / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
         source_rows = list(csv.DictReader(stream, delimiter="\t"))
@@ -58,7 +64,7 @@ def main() -> None:
             target = intake / "external_sources" / f"{index:02d}_{source.name}"
         else:
             target = intake / "repository_sources" / raw
-        copy_file(source, target, row["scope"], records)
+        copy_file(source, target, intake, row["scope"], records)
 
     scope = {
         "status": "SEALED_READ_ONLY_REVIEW_INTAKE",

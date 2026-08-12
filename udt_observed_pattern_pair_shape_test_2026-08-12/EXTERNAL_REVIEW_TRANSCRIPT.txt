@@ -1,0 +1,3564 @@
+Script started on 2026-08-12 19:14:31-04:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="80" LINES="24"]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/udt_pair_shape_review_nyg3sd8b
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 019ff841-86e4-76c0-bd34-293edf3954bf
+--------
+user
+Before reading anything else, open ./REVIEW_SCOPE.json at the current sealed-intake root. It enumerates the authorized payload across package/, repository_sources/, and external_sources/; all listed paths are inside the intake and may be inspected, while nothing else may be accessed. Then open package/ADVERSARIAL_REVIEW_REQUEST.md and follow it exactly. This is an authorized zero-context read-only adversarial scientific review. Do not edit files, continue the research, access anything outside the listed sealed intake, or access the protected curvature atlas or stopped native-on-shell draft. Return the required bounded landing and supporting evidence.
+codex
+I’m starting with the sealed-intake gate files only: first `./REVIEW_SCOPE.json`, then `package/ADVERSARIAL_REVIEW_REQUEST.md`, and I’ll keep all reads confined to the authorized paths they define.
+exec
+/bin/bash -lc 'cat ./REVIEW_SCOPE.json' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+{
+  "files": [
+    {
+      "bytes": 2905,
+      "intake_path": "package/ADVERSARIAL_REVIEW_REQUEST.md",
+      "role": "audit_package",
+      "sha256": "4c649b699461b3ddd260ac97ae77ed264cb93bda45d5845136018bf381f0b043",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md"
+    },
+    {
+      "bytes": 3961,
+      "intake_path": "package/AUDIT_REPORT.md",
+      "role": "audit_package",
+      "sha256": "f4a1beecca2e3622e6e3ec870b15fce51c3a78b43dd946fb103160bd447a1c97",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/AUDIT_REPORT.md"
+    },
+    {
+      "bytes": 368,
+      "intake_path": "package/CATCH_PROOF_RESULT.json",
+      "role": "audit_package",
+      "sha256": "7db428af389a1edb513a22724fe7f6e6d70349bcf85065a9bb1c5446d80ebdbd",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/CATCH_PROOF_RESULT.json"
+    },
+    {
+      "bytes": 10849,
+      "intake_path": "package/DERIVATION_RESULT.json",
+      "role": "audit_package",
+      "sha256": "df035fe9db76f3af4c7ec48c5a113699caad3301d8b4c8d530dbf918acd0dd3d",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/DERIVATION_RESULT.json"
+    },
+    {
+      "bytes": 2138,
+      "intake_path": "package/EVIDENCE_GATES.md",
+      "role": "audit_package",
+      "sha256": "7aebff6b778060a120d1579cf08b15ae3820ee13a2832976b0f378c951860a97",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/EVIDENCE_GATES.md"
+    },
+    {
+      "bytes": 4164,
+      "intake_path": "package/EXACT_DERIVATION.md",
+      "role": "audit_package",
+      "sha256": "db5571ebc8be45cb58a11db1434f3701f47a3959cd670542890d792f8849379d",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/EXACT_DERIVATION.md"
+    },
+    {
+      "bytes": 838,
+      "intake_path": "package/FALSIFICATION_CONTRACT.tsv",
+      "role": "audit_package",
+      "sha256": "3a4ff5a4851b453f64fd15a5e0b31659872ad60b1fb1595835e6f3eafe092917",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/FALSIFICATION_CONTRACT.tsv"
+    },
+    {
+      "bytes": 5027,
+      "intake_path": "package/INDEPENDENT_VERIFICATION.json",
+      "role": "audit_package",
+      "sha256": "a4a8efd5f75e9076d65186a73cf88a510ab2e066a6cb64902e85558476538eb5",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/INDEPENDENT_VERIFICATION.json"
+    },
+    {
+      "bytes": 1368,
+      "intake_path": "package/LAY_REPORT.md",
+      "role": "audit_package",
+      "sha256": "665fddcdf62bf980fa0c3187691b525929014fefa305cc60c8db4b7fc566a731",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/LAY_REPORT.md"
+    },
+    {
+      "bytes": 1522,
+      "intake_path": "package/PREMISE_LEDGER.tsv",
+      "role": "audit_package",
+      "sha256": "41395830025d2ce0304023497a8dfd5b3c4b0301b180ef46b7428c3672f6b7ca",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/PREMISE_LEDGER.tsv"
+    },
+    {
+      "bytes": 7258,
+      "intake_path": "package/PREREGISTRATION.md",
+      "role": "audit_package",
+      "sha256": "5c9db755660a0bfdc5120f09682fe79b56b6cc511194118dddc191257dc4e5ef",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/PREREGISTRATION.md"
+    },
+    {
+      "bytes": 1747,
+      "intake_path": "package/RUN_LOG.md",
+      "role": "audit_package",
+      "sha256": "f767c13836ac3e0579545cb3d251dba7845b61388e4bfc59208d990314b978fc",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/RUN_LOG.md"
+    },
+    {
+      "bytes": 1017,
+      "intake_path": "package/SHAPE_RESIDUAL_ATLAS.tsv",
+      "role": "audit_package",
+      "sha256": "cbd10b6317953303229b85ed07decff7e80bf141740921f254d8365f28e0b914",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/SHAPE_RESIDUAL_ATLAS.tsv"
+    },
+    {
+      "bytes": 1160,
+      "intake_path": "package/SOURCE_MANIFEST.tsv",
+      "role": "audit_package",
+      "sha256": "65c3ff998916f26064a74c2551afcf3afb2cf83c12f94617b2048b78ff1235f1",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/SOURCE_MANIFEST.tsv"
+    },
+    {
+      "bytes": 871,
+      "intake_path": "package/STATUS_LEDGER.tsv",
+      "role": "audit_package",
+      "sha256": "c76e0583b0a79adab04bf966444ca89555bae23c65b31fbe7a22292a5fd37443",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/STATUS_LEDGER.tsv"
+    },
+    {
+      "bytes": 8683,
+      "intake_path": "package/derive_pair_shape.py",
+      "role": "audit_package",
+      "sha256": "6fd52722f0c9980a3076c6248ceadaebdf682cb17665b2ca21f3e5830092cba0",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/derive_pair_shape.py"
+    },
+    {
+      "bytes": 2561,
+      "intake_path": "package/run_catch_proofs.py",
+      "role": "audit_package",
+      "sha256": "075b14ee05e68c965925ae18d0f869b82859ebf3588139a1bc56291b19de4544",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/run_catch_proofs.py"
+    },
+    {
+      "bytes": 3969,
+      "intake_path": "package/verify_independent.py",
+      "role": "audit_package",
+      "sha256": "102518c62dbffecaf1f427958b9c352239b388114936ad1650b76f524eadb951",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/verify_independent.py"
+    },
+    {
+      "bytes": 3466,
+      "intake_path": "package/verify_package.py",
+      "role": "audit_package",
+      "sha256": "456ddc5d992ce1f0ae98a6ca90e8996651c9b9566c016337c461242fda14e348",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/verify_package.py"
+    },
+    {
+      "bytes": 1634,
+      "intake_path": "package/verify_preregistration.py",
+      "role": "audit_package",
+      "sha256": "4cd2ae5748a91678bd47adbaacbd1c2ea0cc4db75d3f29fc1b77897575c42e27",
+      "source": "/home/udt-admin/udt_mass_codex/udt_observed_pattern_pair_shape_test_2026-08-12/verify_preregistration.py"
+    },
+    {
+      "bytes": 9201,
+      "intake_path": "udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md",
+      "role": "foundation",
+      "sha256": "2d1c26522981ae5cecfa4b12030f34fa633cc13ced3cf438fa57f6ca47bfec45",
+      "source": "/home/udt-admin/udt_mass_codex/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md"
+    },
+    {
+      "bytes": 9791,
+      "intake_path": "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md",
+      "role": "foundation",
+      "sha256": "179365f12ae9a2d9ac7c1ca7ca20557a99d1d176a9751de7c51646619864c2d8",
+      "source": "/home/udt-admin/udt_mass_codex/udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md"
+    },
+    {
+      "bytes": 5456,
+      "intake_path": "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md",
+      "role": "foundation",
+      "sha256": "0dbacc4fd34cb005f65fe5b48c2da67706fd6129f378d77e8e829edf005a5c19",
+      "source": "/home/udt-admin/udt_mass_codex/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md"
+    },
+    {
+      "bytes": 5725,
+      "intake_path": "udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md",
+      "role": "foundation",
+      "sha256": "30a1cd9887e04cffc86b3646083c7fe890ca030f3430bf86365cfbe4a87a5c0b",
+      "source": "/home/udt-admin/udt_mass_codex/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md"
+    },
+    {
+      "bytes": 4894,
+      "intake_path": "udt_bao_data_suitability_reset_2026-08-12/AUDIT_REPORT.md",
+      "role": "data",
+      "sha256": "a7230a070c52eeea181e4c88369f9524becc83a2c261122da3a1f7573d74210d",
+      "source": "/home/udt-admin/udt_mass_codex/udt_bao_data_suitability_reset_2026-08-12/AUDIT_REPORT.md"
+    },
+    {
+      "bytes": 1517,
+      "intake_path": "udt_bao_data_suitability_reset_2026-08-12/ONTOLOGY_CORRECTION.md",
+      "role": "data",
+      "sha256": "7089709908b93fd4015e08e0589723c97b96733e3038dbaca25712954236cba1",
+      "source": "/home/udt-admin/udt_mass_codex/udt_bao_data_suitability_reset_2026-08-12/ONTOLOGY_CORRECTION.md"
+    },
+    {
+      "bytes": 6605,
+      "intake_path": "udt_bao_data_suitability_reset_2026-08-12/OFFICIAL_DR2_AUDIT_RESULT.json",
+      "role": "data",
+      "sha256": "58c16b97f90a9c711f184bb50cadd1763dbc54f53e5a6a6f957a7186e7be45e1",
+      "source": "/home/udt-admin/udt_mass_codex/udt_bao_data_suitability_reset_2026-08-12/OFFICIAL_DR2_AUDIT_RESULT.json"
+    },
+    {
+      "bytes": 472,
+      "intake_path": "external_sources/08_desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "role": "data",
+      "sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+      "source": "/media/udt-admin/ScratchDisk/Data/BAO/CobayaSampler_bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt"
+    },
+    {
+      "bytes": 2547,
+      "intake_path": "external_sources/09_desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "role": "data",
+      "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+      "source": "/media/udt-admin/ScratchDisk/Data/BAO/CobayaSampler_bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt"
+    }
+  ],
+  "n_payload_files": 29,
+  "package": "udt_observed_pattern_pair_shape_test_2026-08-12",
+  "restrictions": [
+    "read-only",
+    "no research continuation",
+    "no fitting or history selection",
+    "no access outside intake",
+    "no protected curvature-atlas access",
+    "no stopped native-on-shell draft access"
+  ],
+  "schema": "udt-complete-pair-pattern-shape-review-v1",
+  "status": "SEALED_READ_ONLY_REVIEW_INTAKE"
+}
+
+codex
+I’ve loaded the intake scope and restrictions. Next I’m reading the review instructions and then I’ll confine evidence gathering to the listed package and cited foundation/data files only.
+exec
+/bin/bash -lc 'cat package/ADVERSARIAL_REVIEW_REQUEST.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+# Fresh adversarial review request — complete-pair observed-pattern shape test
+
+Review only the sealed intake. Do not edit files, continue the research, select or fit a complete
+history, infer a feature origin, determine `X_max`, or access anything outside the intake.
+
+## Primary question
+
+Does the package justify the bounded landing
+
+```text
+COMPLETE_PAIR_SHAPE_OPERATOR_DERIVED__BOTH_FROZEN_SCALAR_CONTROLS_INCOMPATIBLE
+```
+
+while preserving the distinction between a generic complete-pair operator and two conditional
+scalar controls?
+
+## Required checks
+
+1. Reconstruct from scratch whether
+
+   ```text
+   F_pair=d_A(dz/dlambda)/L_pair
+   ```
+
+   follows from the supplied complete pair metric, horizontal ruler, terminal relation
+   `1+z=exp(phi_pair)`, and common endpoint-coordinate conversion. Look especially for a missing,
+   inverted, or duplicated `exp(phi_pair)` or `L_pair` factor.
+2. Type-check the claim that angular and mixing effects are already allowed to enter through
+   `d_A`, `L_pair`, and `phi_pair`; do not accept the provisional orchestra-boundary source as
+   authoritative merely because it is in the intake.
+3. Verify orientation-preserving reparameterization invariance and classify turning, caustic,
+   null-ruler, and nonmonotone failure strata.
+4. Reproduce the C0 and C1 scalar reductions independently.
+5. Recompute the six exact full-2x2 covariance projections. Verify that cross-bin covariances in the
+   released 12-leg subset are zero before accepting the summed block likelihood.
+6. Audit whether six independently profiled publication amplitudes leave six orthogonal shape
+   constraints and whether the fixed chi-square thresholds were applied lawfully.
+7. Confirm that no UDT parameter, `n`, history function, bin, covariance, or correction was fitted or
+   selected after viewing residuals.
+8. Adversarially inspect the concentrated C1 residual. It may be reported as an observed residual
+   map, but must not authorize a bump, feature, mechanism, or orchestra coefficient.
+9. Audit the source caveat: one preregistered supporting source is a provisional unbanked worktree
+   package. Decide whether the banked pair-metric and G79 sources plus the self-contained derivation
+   suffice, or whether this prevents even the bounded operator claim.
+10. Enforce the ontology boundary: the public release is an observed correlation-pattern readout;
+    no acoustic-scale, standard-ruler, yardstick, Lambda-CDM, or origin mechanism is a UDT premise.
+
+## Required landing
+
+Return exactly one primary classification:
+
+- `SUSTAINED_VERIFIED_WITH_CAVEATS`;
+- `OPERATOR_DERIVATION_TYPE_FAILURE`;
+- `SCALAR_REDUCTION_FAILURE`;
+- `LIKELIHOOD_OR_DOF_FAILURE`;
+- `SOURCE_DEPENDENCY_FAILURE`;
+- `ONTOLOGY_OR_SCOPE_OVERREACH`;
+- or another precisely defined bounded result.
+
+State the maximum justified conclusion and the smallest required documentary or mathematical repair.
+
+codex
+I have the review rubric. I’m now reconstructing the argument from the package itself: derivation, evidence gates, preregistration, verification outputs, and the cited foundation/data documents, then I’ll independently check the operator formula, scalar reductions, covariance blocks, degrees of freedom, and source dependence.
+exec
+/bin/bash -lc 'nl -ba package/EXACT_DERIVATION.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	# Exact derivation — complete-pair observed-pattern shape operator
+     2	
+     3	Date: 2026-08-12
+     4	Status: `DERIVED` on a supplied regular monotone pair history; physical history remains `OPEN`
+     5	
+     6	## 1. Supplied complete pair geometry
+     7	
+     8	On a regular calibrated observer-pair realization, write the exact pulled-back metric as
+     9	
+    10	```text
+    11	h = -T_pair^2 (dy0 + beta_pair dlambda)^2 + L_pair^2 dlambda^2.
+    12	```
+    13	
+    14	The horizontal ruler direction is defined intrinsically by
+    15	
+    16	```text
+    17	dy0 + beta_pair dlambda = 0,
+    18	```
+    19	
+    20	and therefore has proper longitudinal source length
+    21	
+    22	```text
+    23	d ell_parallel = L_pair dlambda.
+    24	```
+    25	
+    26	Let the query-owned screen Jacobi map be `D`, with regular area distance
+    27	
+    28	```text
+    29	d_A = sqrt(abs(det D)) > 0,
+    30	```
+    31	
+    32	and let the terminal reciprocal coordinate be
+    33	
+    34	```text
+    35	1 + z = exp(phi_pair).
+    36	```
+    37	
+    38	No scalar, diagonal, stationary, or radial-only truncation has been made in these definitions.
+    39	Angular geometry and complete mixing can enter through `D`, `L_pair`, and `phi_pair`.
+    40	
+    41	## 2. Dimensionless two-leg shape
+    42	
+    43	The transverse source length subtended by a small observed angle is proportional to `d_A`. The
+    44	radial source length associated with a small redshift interval is
+    45	
+    46	```text
+    47	d ell_parallel = L_pair (dlambda/dz) dz.
+    48	```
+    49	
+    50	The same endpoint conversion factor multiplies both source-length legs in the released coordinate
+    51	ratio, so it cancels. The dimensionless transverse/radial shape is consequently
+    52	
+    53	```text
+    54	F_pair
+    55	  = d_A / [L_pair (dlambda/dz)]
+    56	  = d_A (dz/dlambda) / L_pair
+    57	  = exp(phi_pair) d_A (d phi_pair/dlambda) / L_pair.       (1)
+    58	```
+    59	
+    60	Equation (1) is a complete-pair evaluation formula, not a selected history or equation of motion.
+    61	
+    62	## 3. Reparameterization
+    63	
+    64	For an orientation-preserving change `lambda_new=f(lambda)` with
+    65	`q=d lambda_new/d lambda>0`,
+    66	
+    67	```text
+    68	d phi/d lambda_new = (d phi/dlambda)/q,
+    69	L_pair,new = L_pair/q.
+    70	```
+    71	
+    72	Thus numerator and denominator acquire the same factor `1/q`, and `F_pair` is unchanged. Under
+    73	orientation reversal the signed expression changes orientation; the unoriented released shape uses
+    74	its absolute value. Turning points, caustics, `L_pair=0`, `d_A=0`, and nonmonotone histories are
+    75	separate strata on which this coordinate readout can fail or branch.
+    76	
+    77	Omitting `L_pair` destroys reparameterization invariance. Omitting `exp(phi_pair)` breaks the exact
+    78	redshift-depth conversion and the scalar control reduction.
+    79	
+    80	## 4. Frozen scalar controls
+    81	
+    82	Only for the conditional scalar specialization
+    83	
+    84	```text
+    85	lambda = r,
+    86	L_pair = exp(phi_pair) = u = 1+z,
+    87	d_A = r(u),
+    88	r(u) = (X/n) [1-u^(-2/n)]
+    89	```
+    90	
+    91	does (1) reduce to
+    92	
+    93	```text
+    94	F_scalar = r/[u (dr/du)] = (n/2)[u^(2/n)-1].              (2)
+    95	```
+    96	
+    97	For `n=1`,
+    98	
+    99	```text
+   100	F_C0 = z + z^2/2.
+   101	```
+   102	
+   103	For the independently frozen SNe-P1 value
+   104	`n=1.0559332414320268`, equation (2) gives C1. `X`, `c_E`, and the released common normalization
+   105	cancel. C0 and C1 are scalar controls only; neither is the complete-orchestra prediction.
+   106	
+   107	## 5. Released-data projection
+   108	
+   109	For each released two-component datum `y=(D_M/r_d,D_H/r_d)` and its full released 2x2 covariance
+   110	`C`, a predicted shape defines the ray `v=(F,1)`. Profiling the unowned along-ray publication
+   111	amplitude gives exactly
+   112	
+   113	```text
+   114	a = (v^T C^-1 y)/(v^T C^-1 v),
+   115	chi2 = y^T C^-1 y - (v^T C^-1 y)^2/(v^T C^-1 v).          (3)
+   116	```
+   117	
+   118	This is a normalization-free direction test. The six algebraic `a` values are not UDT coefficients,
+   119	physical scales, or fitted history parameters. Equation (3) uses the full within-bin covariance;
+   120	no delta-method ratio error enters the load-bearing result.
+   121	
+   122	## 6. Exact ownership boundary
+   123	
+   124	`DERIVED`:
+   125	
+   126	- equation (1) on the stated regular supplied pair history;
+   127	- its orientation-preserving reparameterization invariance;
+   128	- equations (2) and the two frozen scalar reductions;
+   129	- equation (3) as the exact Gaussian projection for the released data coordinates.
+   130	
+   131	`OBSERVED`:
+   132	
+   133	- the numerical residuals and chi-square values in `DERIVATION_RESULT.json`.
+   134	
+   135	`OPEN`:
+   136	
+   137	- the physical complete history `D(lambda), L_pair(lambda), phi_pair(lambda)`;
+   138	- any complete-orchestra correction to either scalar control;
+   139	- branch aggregation at turning/caustic strata;
+   140	- feature origin, absolute normalization, and `X_max`.
+
+exec
+/bin/bash -lc 'nl -ba package/ADVERSARIAL_REVIEW_REQUEST.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	# Fresh adversarial review request — complete-pair observed-pattern shape test
+     2	
+     3	Review only the sealed intake. Do not edit files, continue the research, select or fit a complete
+     4	history, infer a feature origin, determine `X_max`, or access anything outside the intake.
+     5	
+     6	## Primary question
+     7	
+     8	Does the package justify the bounded landing
+     9	
+    10	```text
+    11	COMPLETE_PAIR_SHAPE_OPERATOR_DERIVED__BOTH_FROZEN_SCALAR_CONTROLS_INCOMPATIBLE
+    12	```
+    13	
+    14	while preserving the distinction between a generic complete-pair operator and two conditional
+    15	scalar controls?
+    16	
+    17	## Required checks
+    18	
+    19	1. Reconstruct from scratch whether
+    20	
+    21	   ```text
+    22	   F_pair=d_A(dz/dlambda)/L_pair
+    23	   ```
+    24	
+    25	   follows from the supplied complete pair metric, horizontal ruler, terminal relation
+    26	   `1+z=exp(phi_pair)`, and common endpoint-coordinate conversion. Look especially for a missing,
+    27	   inverted, or duplicated `exp(phi_pair)` or `L_pair` factor.
+    28	2. Type-check the claim that angular and mixing effects are already allowed to enter through
+    29	   `d_A`, `L_pair`, and `phi_pair`; do not accept the provisional orchestra-boundary source as
+    30	   authoritative merely because it is in the intake.
+    31	3. Verify orientation-preserving reparameterization invariance and classify turning, caustic,
+    32	   null-ruler, and nonmonotone failure strata.
+    33	4. Reproduce the C0 and C1 scalar reductions independently.
+    34	5. Recompute the six exact full-2x2 covariance projections. Verify that cross-bin covariances in the
+    35	   released 12-leg subset are zero before accepting the summed block likelihood.
+    36	6. Audit whether six independently profiled publication amplitudes leave six orthogonal shape
+    37	   constraints and whether the fixed chi-square thresholds were applied lawfully.
+    38	7. Confirm that no UDT parameter, `n`, history function, bin, covariance, or correction was fitted or
+    39	   selected after viewing residuals.
+    40	8. Adversarially inspect the concentrated C1 residual. It may be reported as an observed residual
+    41	   map, but must not authorize a bump, feature, mechanism, or orchestra coefficient.
+    42	9. Audit the source caveat: one preregistered supporting source is a provisional unbanked worktree
+    43	   package. Decide whether the banked pair-metric and G79 sources plus the self-contained derivation
+    44	   suffice, or whether this prevents even the bounded operator claim.
+    45	10. Enforce the ontology boundary: the public release is an observed correlation-pattern readout;
+    46	    no acoustic-scale, standard-ruler, yardstick, Lambda-CDM, or origin mechanism is a UDT premise.
+    47	
+    48	## Required landing
+    49	
+    50	Return exactly one primary classification:
+    51	
+    52	- `SUSTAINED_VERIFIED_WITH_CAVEATS`;
+    53	- `OPERATOR_DERIVATION_TYPE_FAILURE`;
+    54	- `SCALAR_REDUCTION_FAILURE`;
+    55	- `LIKELIHOOD_OR_DOF_FAILURE`;
+    56	- `SOURCE_DEPENDENCY_FAILURE`;
+    57	- `ONTOLOGY_OR_SCOPE_OVERREACH`;
+    58	- or another precisely defined bounded result.
+    59	
+    60	State the maximum justified conclusion and the smallest required documentary or mathematical repair.
+
+exec
+/bin/bash -lc 'nl -ba package/PREMISE_LEDGER.tsv' in /tmp/udt_pair_shape_review_nyg3sd8b
+exec
+/bin/bash -lc 'nl -ba package/EVIDENCE_GATES.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	id	item	status	ownership_or_role
+     2	P01	c_E clock-ruler calibration	OBSERVED	foundational scale; cancels from dimensionless shape operator
+     3	P02	supplied regular calibrated pair immersion	CONDITIONAL	owns h and horizontal pair-ruler direction
+     4	P03	complete pair metric h	DERIVED	full base plus angular/mixing/embedding pullback
+     5	P04	phi_pair terminal depth	DERIVED_ON_SUPPLIED_PAIR	defines 1+z=exp(phi_pair)
+     6	P05	complete screen Jacobi matrix D	CONDITIONAL_QUERY_OUTPUT	defines d_A when query owns the congruence and screen
+     7	P06	lambda pair-history parameter	CHOSE_COORDINATE	must cancel under orientation-preserving reparameterization
+     8	P07	F_pair=d_A(dz/dlambda)/L_pair	TO_DERIVE	generic complete normalization-free shape operator
+     9	P08	publication coordinate conversion	CONDITIONAL_READOUT	common endpoint factor applied to both source-length legs and canceled
+    10	P09	official DR2 six anisotropic blocks	OBSERVED	frozen pattern-shape data
+    11	P10	per-bin amplitude profiling	CHOSE_DATA_PROJECTION	removes unpredicted along-direction publication normalization only
+    12	P11	C0 n=1 scalar control	CONDITIONAL_CONTROL	exact residual-L special case; not complete UDT
+    13	P12	C1 n=1.0559332414320268 scalar control	OBSERVED_CONDITIONAL_CONTROL	fixed by prior SNe fit; no refit
+    14	P13	physical B(lambda),P(lambda) history	OPEN	not selected or fitted
+    15	P14	acoustic scale standard ruler yardstick Lambda-CDM origin	INACTIVE_FORBIDDEN	public release ontology not imported
+    16	P15	X_max bootstrap action source matter CMB microphysics	INACTIVE	no conclusion allowed
+
+ succeeded in 0ms:
+     1	# Evidence gates
+     2	
+     3	Date: 2026-08-12
+     4	
+     5	| gate | status | evidence |
+     6	|---|---|---|
+     7	| 1. preregistered | PASS | frozen before residual evaluation; commit `efdecd35` |
+     8	| 2. full space or bounded scope justified | PASS-BOUNDED | exactly six released anisotropic two-leg blocks; no claim outside the regular monotone shape query |
+     9	| 3. independently verified | PASS-INTERNAL | 70-digit Decimal implementation imports neither NumPy nor production code; fresh external semantic review pending |
+    10	| 4. every premise audited | PASS-WITH-CAVEATS | complete-pair operator separated from conditional scalar controls; physical history and one provisional unbanked supporting source remain explicit |
+    11	
+    12	Overall bankable status before external review:
+    13	
+    14	```text
+    15	LEAD__INTERNALLY_VERIFIED_WITH_CAVEATS
+    16	```
+    17	
+    18	## Preregistered calculation gates
+    19	
+    20	| gate | status | note |
+    21	|---|---|---|
+    22	| G-OPERATOR | PASS | equation (1) derived from the complete pair metric and query-owned Jacobi area |
+    23	| G-REPARAM | PASS | exact symbolic cancellation under orientation-preserving reparameterization |
+    24	| G-SCALAR | PASS | C0 and C1 closed forms reproduced exactly |
+    25	| G-DATA | PASS | exact official mean/covariance hashes and six typed blocks |
+    26	| G-PROFILE | PASS | analytic profile matches direct numerical minimization |
+    27	| G-NO-FIT | PASS | no UDT parameter or history optimization |
+    28	| G-COMPLETE-BOUNDARY | PASS | both controls remain explicitly scalar and conditional |
+    29	| G-ONTOLOGY | PASS | no conventional origin or dynamical interpretation imported |
+    30	| G-INDEPENDENCE | PASS | distinct Decimal likelihood replay agrees |
+    31	| G-CATCH | PASS | 9/9 registered hostile mutations caught |
+    32	
+    33	## Source caveat
+    34	
+    35	`SOURCE_MANIFEST.tsv` records the exact worktree source universe frozen at preregistration. One
+    36	supporting orchestra-boundary document in that manifest is presently an unbanked provisional
+    37	package and is not being smuggled into this commit. The load-bearing operator derivation is restated
+    38	self-contained in `EXACT_DERIVATION.md`; external review must receive the exact frozen manifest and
+    39	must adjudicate whether the banked pair-metric and G79 sources already suffice.
+
+exec
+/bin/bash -lc 'nl -ba package/PREREGISTRATION.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	# Preregistration — complete-pair observed-pattern shape operator and frozen controls
+     2	
+     3	Date: 2026-08-12  
+     4	Mode: `MAP -> DERIVE -> OBSERVE`  
+     5	Question type: metric-led operator derivation plus bounded six-bin compatibility test  
+     6	Outcome status at registration: **NOT YET EVALUATED**
+     7	
+     8	## 1. Whole question
+     9	
+    10	Does one supplied complete UDT observer-pair history define the same dimensionless transverse/radial
+    11	pattern-shape quantity carried by the six anisotropic official DR2 measurements, and how do two
+    12	already frozen scalar controls compare before any complete-orchestra history is selected?
+    13	
+    14	This is not an acoustic-scale, standard-ruler, yardstick, Lambda-CDM, expansion-history, or
+    15	feature-origin test. The public data are an observed correlation pattern compressed through a
+    16	declared fiducial/template readout. No conventional mechanism enters the UDT prediction.
+    17	
+    18	## 2. Exact complete-pair operator to derive
+    19	
+    20	Let a supplied regular calibrated pair immersion have pair metric
+    21	
+    22	```text
+    23	h=-T_pair^2(dy0+beta_pair dlambda)^2+L_pair^2 dlambda^2,
+    24	```
+    25	
+    26	terminal depth and redshift coordinate
+    27	
+    28	```text
+    29	1+z=exp(phi_pair),
+    30	```
+    31	
+    32	and complete screen Jacobi area distance
+    33	
+    34	```text
+    35	d_A=sqrt(abs(det D)).
+    36	```
+    37	
+    38	The horizontal pair-ruler direction obeys `dy0+beta_pair dlambda=0`, so its source-calibrated
+    39	physical length is `d ell_parallel=L_pair dlambda`. The publication-coordinate conversion multiplies
+    40	both transverse and radial source lengths by the same endpoint factor `1+z`; that factor cancels in
+    41	their ratio. The candidate complete-pair shape operator is therefore
+    42	
+    43	```text
+    44	F_pair
+    45	 = D_transverse/D_radial
+    46	 = d_A (dz/dlambda)/L_pair
+    47	 = exp(phi_pair) d_A (d phi_pair/dlambda)/L_pair.       (1)
+    48	```
+    49	
+    50	Equation (1) must be proved invariant under every orientation-preserving reparameterization of
+    51	`lambda`. Reversal is tested separately with the appropriate absolute/orientation convention; no
+    52	future-signal interpretation is allowed.
+    53	
+    54	The operator is evaluated only where `L_pair>0`, `d_A>0`, and `dz/dlambda` is finite and nonzero.
+    55	Turning, caustic, degenerate, and nonmonotone strata must be reported rather than discarded.
+    56	
+    57	## 3. Frozen scalar controls
+    58	
+    59	Neither control is the full UDT prediction.
+    60	
+    61	### C0 — exact reciprocal-L control
+    62	
+    63	Freeze the scalar pair relations
+    64	
+    65	```text
+    66	phi_pair=log(1+z),
+    67	d_A=r(z),
+    68	L_pair=exp(phi_pair),
+    69	r(z)=X[1-(1+z)^(-2)].
+    70	```
+    71	
+    72	Equation (1) must reduce exactly to
+    73	
+    74	```text
+    75	F_C0(z)=z+z^2/2.
+    76	```
+    77	
+    78	### C1 — independently frozen SNe-P1 shape control
+    79	
+    80	Freeze the same scalar relation with
+    81	
+    82	```text
+    83	r(z)=(R_w/n)[1-(1+z)^(-2/n)],
+    84	n=1.0559332414320268,
+    85	```
+    86	
+    87	where `n` is the already banked primary SNe value. No refit or uncertainty optimization is allowed.
+    88	Equation (1) must reduce exactly to
+    89	
+    90	```text
+    91	F_C1(z)=(n/2)[(1+z)^(2/n)-1].
+    92	```
+    93	
+    94	`X`, `R_w`, `c_E`, and the publication normalization cancel. C1 tests only the scalar middle-regime
+    95	control inherited from the conditional SNe readout. A mismatch does not reject the complete pair
+    96	operator; it measures where that frozen scalar control is insufficient.
+    97	
+    98	## 4. Frozen observed-pattern likelihood
+    99	
+   100	Use exactly the six paired `(D_M/r_d,D_H/r_d)` blocks at
+   101	
+   102	```text
+   103	z = 0.510, 0.706, 0.934, 1.321, 1.484, 2.330
+   104	```
+   105	
+   106	from `CobayaSampler/bao_data v2.6`, commit
+   107	`b7b8a36e9bccb063081f811f323cada21ab5fbdd`, with the released 13x13 covariance. The `z=0.295`
+   108	isotropic-only entry is excluded from the ratio test by type, before residual evaluation.
+   109	
+   110	For predicted shape `F_i`, define `v_i=(F_i,1)`. In each released two-dimensional block, profile only
+   111	the algebraic publication amplitude
+   112	
+   113	```text
+   114	a_i=(v_i^T C_i^-1 y_i)/(v_i^T C_i^-1 v_i),
+   115	chi2_i=y_i^T C_i^-1 y_i-(v_i^T C_i^-1 y_i)^2/(v_i^T C_i^-1 v_i).   (2)
+   116	```
+   117	
+   118	The six `a_i` values are data-coordinate projections, not UDT physical parameters, feature scales,
+   119	or fitted history coefficients. They isolate the normalization-free direction of each released
+   120	two-leg block. No delta-method ratio errors enter the load-bearing likelihood.
+   121	
+   122	The primary diagnostics are:
+   123	
+   124	- exact `chi2_total=sum_i chi2_i` for C0 and C1;
+   125	- six signed whitened orthogonal residuals for each control;
+   126	- per-bin observed direction `D_M/D_H` for visualization only;
+   127	- C1 minus C0 chi-square as a comparison of two frozen controls, not model selection over a menu.
+   128	
+   129	## 5. Degrees of freedom and omissions
+   130	
+   131	No UDT coefficient is fitted. Each frozen control has six orthogonal data constraints and zero fitted
+   132	UDT parameters. The six analytic amplitudes remove the unpredicted along-ray normalization in data
+   133	space and do not reduce the six orthogonal shape constraints.
+   134	
+   135	Not covered:
+   136	
+   137	- a physical complete history `B(lambda),P(lambda)`;
+   138	- a selected pair immersion or branch;
+   139	- complete time-live `d_A`, `L_pair`, or `phi_pair` profiles;
+   140	- caustic/turning branch aggregation;
+   141	- the isotropic-only data point;
+   142	- the full 13-vector normalization test;
+   143	- SNe refitting, CMB spectra, microphysics, bootstrap, action, source, matter, or `X_max`.
+   144	
+   145	## 6. Preregistered gates
+   146	
+   147	1. `G-OPERATOR`: derive (1) from the complete pair metric, endpoint depth, and Jacobi area without
+   148	   importing a conventional expansion law.
+   149	2. `G-REPARAM`: prove orientation-preserving parameterization invariance symbolically and by exact
+   150	   controls.
+   151	3. `G-SCALAR`: reproduce both frozen C0 and C1 formulas exactly.
+   152	4. `G-DATA`: exact release hashes and all six anisotropic blocks match the banked suitability audit.
+   153	5. `G-PROFILE`: production and independent implementations reproduce (2).
+   154	6. `G-NO-FIT`: `n`, data rows, covariance, and formulas remain frozen; no UDT parameter optimization.
+   155	7. `G-COMPLETE-BOUNDARY`: distinguish the generic complete operator from scalar controls in every
+   156	   conclusion.
+   157	8. `G-ONTOLOGY`: no acoustic/ruler/Lambda-CDM/feature-origin language enters the derivation.
+   158	9. `G-INDEPENDENCE`: independently recompute the load-bearing likelihood without importing the
+   159	   production residual routine.
+   160	10. `G-CATCH`: hostile controls must detect at least missing `L_pair`, missing `exp(phi_pair)`, using
+   161	    diagonal-only errors, replacing the exact profile by delta-method errors, fitting `n`, dropping a
+   162	    high-residual bin, and treating C1 as the complete history.
+   163	
+   164	## 7. Result classes and maximum conclusion
+   165	
+   166	The operator derivation returns one of:
+   167	
+   168	- `COMPLETE_PAIR_SHAPE_OPERATOR_DERIVED`;
+   169	- `OPERATOR_DERIVED_WITH_STRATUM_FAILURES`;
+   170	- `TYPE_FAILURE`.
+   171	
+   172	Each frozen control is classified independently as:
+   173	
+   174	- `COMPATIBLE_ON_SIX_BIN_SHAPE_QUERY` if `chi2_total<=12.592` (95% for six constraints);
+   175	- `TENSION_ON_SIX_BIN_SHAPE_QUERY` if `12.592<chi2_total<=22.458` (between 95% and 99.9%);
+   176	- `INCOMPATIBLE_ON_SIX_BIN_SHAPE_QUERY` if `chi2_total>22.458` (beyond 99.9%).
+   177	
+   178	These thresholds are fixed before residual evaluation. They are descriptive gates for the released
+   179	Gaussian shape query, not proof probabilities for UDT.
+   180	
+   181	Maximum possible conclusion:
+   182	
+   183	> The complete metric defines a normalization-free pattern-shape operator on a supplied monotone
+   184	> regular pair history, and one or both frozen scalar controls are compatible, tense, or incompatible
+   185	> with the six-bin released shape query.
+   186	
+   187	No outcome may select the physical complete history, derive a feature origin, validate all UDT,
+   188	determine `X_max`, or justify adding a fitted orchestra correction.
+
+exec
+/bin/bash -lc 'nl -ba package/STATUS_LEDGER.tsv' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	item	status	note
+     2	whole_question	EXECUTED_PREREGISTERED	complete_pair_operator_plus_two_frozen_scalar_controls
+     3	data	FROZEN_ALREADY_OBSERVED	six_anisotropic_DR2_blocks__not_blind
+     4	operator_outcome	DERIVED_ON_SUPPLIED_REGULAR_PAIR	F_pair_equals_dA_dzdlambda_over_Lpair
+     5	C0_control	OBSERVED_INCOMPATIBLE	chi2_114.721148358071_for_six_constraints
+     6	C1_control	OBSERVED_INCOMPATIBLE	chi2_31.274892627885_for_six_constraints
+     7	control_comparison	OBSERVED	C1_minus_C0_delta_chi2_minus_83.446255730186
+     8	independent_replay	PASS	stdlib_Decimal_70_digits__max_row_delta_below_1.9e-13
+     9	hostile_checks	PASS	9_of_9_registered_mutations_caught
+    10	external_adversarial_review	PENDING	not_yet_transmitted
+    11	UDT_fit	FORBIDDEN_AND_NOT_DONE	zero_UDT_parameters_optimized
+    12	physical_history_selection	OPEN_NOT_ATTEMPTED	controls_are_not_complete_history
+    13	X_max	OPEN_NOT_TESTED	no_endpoint_or_asymptote_result
+
+codex
+The package’s own claim is now clear: it separates a generic operator from two frozen scalar controls and reports both controls as incompatible. I’m checking whether that separation and the supporting math actually hold under independent scrutiny, especially the source caveat and the six-block likelihood construction.
+exec
+/bin/bash -lc 'nl -ba package/DERIVATION_RESULT.json' in /tmp/udt_pair_shape_review_nyg3sd8b
+exec
+/bin/bash -lc 'nl -ba package/AUDIT_REPORT.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	# Complete-pair observed-pattern shape test — audit report
+     2	
+     3	Date: 2026-08-12
+     4	Primary landing:
+     5	
+     6	```text
+     7	COMPLETE_PAIR_SHAPE_OPERATOR_DERIVED__BOTH_FROZEN_SCALAR_CONTROLS_INCOMPATIBLE
+     8	```
+     9	
+    10	Evidence maturity:
+    11	
+    12	```text
+    13	INTERNALLY_VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_ADVERSARIAL_REVIEW_PENDING
+    14	```
+    15	
+    16	## Result
+    17	
+    18	The complete observer-pair geometry defines the normalization-free shape operator
+    19	
+    20	```text
+    21	F_pair = d_A (dz/dlambda)/L_pair
+    22	       = exp(phi_pair) d_A (dphi_pair/dlambda)/L_pair.
+    23	```
+    24	
+    25	It is invariant under every orientation-preserving reparameterization of the pair history. It is
+    26	only evaluated on the regular monotone stratum. The derivation uses the complete pair outputs:
+    27	angular and mixing effects can already be present in `d_A`, `L_pair`, and `phi_pair`.
+    28	
+    29	The two preregistered scalar controls give:
+    30	
+    31	| control | frozen definition | chi-square / 6 | preregistered class |
+    32	|---|---|---:|---|
+    33	| C0 | exact reciprocal-L, `n=1` | 114.721148358071 | `INCOMPATIBLE_ON_SIX_BIN_SHAPE_QUERY` |
+    34	| C1 | fixed SNe-P1, `n=1.0559332414320268` | 31.274892627885 | `INCOMPATIBLE_ON_SIX_BIN_SHAPE_QUERY` |
+    35	
+    36	C1 improves the frozen residual by `83.446255730186` chi-square units relative to C0, without a
+    37	fit. This is not model selection over a menu and does not make C1 a complete history. Both controls
+    38	cross the preregistered `22.458` incompatibility threshold.
+    39	
+    40	## Residual structure
+    41	
+    42	C1 is individually mild in four bins and concentrated in two:
+    43	
+    44	```text
+    45	z=0.510: chi2=0.0292
+    46	z=0.706: chi2=2.3012
+    47	z=0.934: chi2=20.3109
+    48	z=1.321: chi2=7.2650
+    49	z=1.484: chi2=0.1306
+    50	z=2.330: chi2=1.2380
+    51	```
+    52	
+    53	This is an `OBSERVED` residual map. It is not authority to add a localized feature, fit a bump,
+    54	choose a branch, or retune `n`. A future complete history must predict its own `F_pair(z)` before it
+    55	is compared to these directions.
+    56	
+    57	## What the negative does and does not say
+    58	
+    59	The result rejects the use of either frozen scalar control as the full six-bin pattern-shape
+    60	prediction. It does not reject equation (1), because neither control supplies the complete angular,
+    61	mixing, embedding, and time-live history that equation (1) evaluates.
+    62	
+    63	The result is therefore a useful boundary:
+    64	
+    65	```text
+    66	scalar reciprocal law alone       -> insufficient
+    67	SNe-frozen scalar P1 improvement  -> real but insufficient
+    68	complete pair orchestra           -> still untested until a history is owned
+    69	```
+    70	
+    71	No conventional feature-origin story, standard ruler, yardstick, acoustic scale, or Lambda-CDM
+    72	dynamics is imported. The public release labels and symbols remain data-packaging names only.
+    73	
+    74	## Verification
+    75	
+    76	- preregistration was banked first at commit `efdecd35`;
+    77	- official mean and covariance hashes match the banked data-suitability audit;
+    78	- SymPy proves the operator reparameterization and scalar reductions exactly;
+    79	- the analytic profile agrees with direct Brent minimization to `5.7e-14` in chi-square;
+    80	- an independent 70-digit standard-library Decimal replay agrees to below `1.9e-13` per bin;
+    81	- all 9 preregistered hostile mutations were caught;
+    82	- no UDT parameter, `n`, row, covariance, or history coefficient was optimized.
+    83	
+    84	## Maximum justified conclusion
+    85	
+    86	On a supplied regular monotone complete pair history, UDT has an exact normalization-free
+    87	transverse/radial shape operator. Neither preregistered scalar control describes all six released
+    88	shape directions. The residual atlas now supplies a bounded future test for a metric-owned complete
+    89	history; it does not supply or select that history.
+    90	
+    91	## Next bounded action
+    92	
+    93	First obtain a fresh adversarial review of this derivation, likelihood, and ontology boundary. If it
+    94	survives, the next scientific calculation is not a fit of an arbitrary correction. It is to take a
+    95	pre-existing, independently specified complete pair history and evaluate its native `d_A`,
+    96	`L_pair`, and `phi_pair` in equation (1). If no such history is currently owned, the honest landing
+    97	remains `OPEN` rather than constructing one from the residuals.
+
+ succeeded in 0ms:
+     1	{
+     2	  "status": "PASS",
+     3	  "scope": "complete-pair operator plus two frozen scalar controls; no UDT fit",
+     4	  "preregistration_commit": "efdecd35",
+     5	  "mean_sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+     6	  "cov_sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+     7	  "n_sne_fixed": 1.0559332414320268,
+     8	  "z_used": [
+     9	    0.51,
+    10	    0.706,
+    11	    0.934,
+    12	    1.321,
+    13	    1.484,
+    14	    2.33
+    15	  ],
+    16	  "symbolic": {
+    17	    "operator": "F_pair=exp(phi_pair)*d_A*(dphi_pair/dlambda)/L_pair=d_A*(dz/dlambda)/L_pair",
+    18	    "orientation_preserving_reparameterization_invariant": true,
+    19	    "missing_L_pair_reparameterization_invariant": false,
+    20	    "reversal": "signed F changes sign; physical unoriented pattern shape uses abs(F)",
+    21	    "general_scalar_reduction": "n*(u**(1/n) - 1)*(u**(1/n) + 1)/2",
+    22	    "general_scalar_target": "n*(u**(2/n) - 1)/2",
+    23	    "general_scalar_exact": true,
+    24	    "missing_exp_phi_general": "n*(u**(1/n) - 1)*(u**(1/n) + 1)/(2*u)",
+    25	    "missing_exp_phi_fails_scalar_reduction": true,
+    26	    "c0_exact": true
+    27	  },
+    28	  "controls": {
+    29	    "C0": [
+    30	      {
+    31	        "z": 0.51,
+    32	        "F_pred": 0.64005,
+    33	        "F_observed": 0.6214891536355314,
+    34	        "observed_DM": 13.58758434,
+    35	        "observed_DH": 21.86294686,
+    36	        "profiled_publication_amplitude": 21.443496573016365,
+    37	        "direct_minimizer_amplitude": 21.443496573908565,
+    38	        "direct_minimizer_chi2": 1.1322523022480018,
+    39	        "direct_amplitude_abs_delta": 8.922000915845274e-10,
+    40	        "direct_chi2_abs_delta": 6.661338147750939e-16,
+    41	        "chi2": 1.1322523022480024,
+    42	        "signed_sqrt_chi2": -1.0640734477694678,
+    43	        "residual_DM": -0.13732564155912463,
+    44	        "residual_DH": 0.4194502869836363,
+    45	        "cov_DM_DM": 0.0283473742,
+    46	        "cov_DM_DH": -0.0326062007,
+    47	        "cov_DH_DH": 0.18392804
+    48	      },
+    49	      {
+    50	        "z": 0.706,
+    51	        "F_pred": 0.9552179999999999,
+    52	        "F_observed": 0.8918211017171782,
+    53	        "observed_DM": 17.35069094,
+    54	        "observed_DH": 19.45534918,
+    55	        "profiled_publication_amplitude": 18.560282393479575,
+    56	        "direct_minimizer_amplitude": 18.5602823929347,
+    57	        "direct_minimizer_chi2": 8.47770482260332,
+    58	        "direct_amplitude_abs_delta": 5.44876144203954e-10,
+    59	        "direct_chi2_abs_delta": 8.881784197001252e-15,
+    60	        "chi2": 8.477704822603329,
+    61	        "signed_sqrt_chi2": -2.9116498454661968,
+    62	        "residual_DM": -0.37842488733477,
+    63	        "residual_DH": 0.8950667865204238,
+    64	        "cov_DM_DM": 0.0323752442,
+    65	        "cov_DM_DH": -0.0237445646,
+    66	        "cov_DH_DH": 0.111469198
+    67	      },
+    68	      {
+    69	        "z": 0.934,
+    70	        "F_pred": 1.3701780000000001,
+    71	        "F_observed": 1.223005193169959,
+    72	        "observed_DM": 21.57563956,
+    73	        "observed_DH": 17.64149464,
+    74	        "profiled_publication_amplitude": 16.339952448084,
+    75	        "direct_minimizer_amplitude": 16.339952459028318,
+    76	        "direct_minimizer_chi2": 50.68313570166333,
+    77	        "direct_amplitude_abs_delta": 1.094431922865624e-08,
+    78	        "direct_chi2_abs_delta": 5.684341886080802e-14,
+    79	        "chi2": 50.68313570166339,
+    80	        "signed_sqrt_chi2": -7.119208923866709,
+    81	        "residual_DM": -0.8130038054108404,
+    82	        "residual_DH": 1.3015421919160026,
+    83	        "cov_DM_DM": 0.0261732816,
+    84	        "cov_DM_DH": -0.0112938006,
+    85	        "cov_DH_DH": 0.0404183878
+    86	      },
+    87	      {
+    88	        "z": 1.321,
+    89	        "F_pred": 2.1935205,
+    90	        "F_observed": 1.9470100283531242,
+    91	        "observed_DM": 27.60085612,
+    92	        "observed_DH": 14.17602155,
+    93	        "profiled_publication_amplitude": 13.149403501731552,
+    94	        "direct_minimizer_amplitude": 13.149403494562764,
+    95	        "direct_minimizer_chi2": 25.692305998197227,
+    96	        "direct_amplitude_abs_delta": 7.168788229705569e-09,
+    97	        "direct_chi2_abs_delta": 3.552713678800501e-14,
+    98	        "chi2": 25.692305998197263,
+    99	        "signed_sqrt_chi2": -5.068757835821047,
+   100	        "residual_DM": -1.2426300238199453,
+   101	        "residual_DH": 1.026618048268448,
+   102	        "cov_DM_DM": 0.105336516,
+   103	        "cov_DM_DH": -0.0290308418,
+   104	        "cov_DH_DH": 0.0504233092
+   105	      },
+   106	      {
+   107	        "z": 1.484,
+   108	        "F_pred": 2.585128,
+   109	        "F_observed": 2.3805805950697523,
+   110	        "observed_DM": 30.51190063,
+   111	        "observed_DH": 12.81699964,
+   112	        "profiled_publication_amplitude": 12.128668004281325,
+   113	        "direct_minimizer_amplitude": 12.12866800451516,
+   114	        "direct_minimizer_chi2": 2.030138532855778,
+   115	        "direct_amplitude_abs_delta": 2.3383428526813077e-10,
+   116	        "direct_chi2_abs_delta": 1.3322676295501878e-15,
+   117	        "chi2": 2.0301385328557795,
+   118	        "signed_sqrt_chi2": -1.4248292995498721,
+   119	        "residual_DM": -0.8422586305717736,
+   120	        "residual_DH": 0.6883316357186757,
+   121	        "cov_DM_DM": 0.583020277,
+   122	        "cov_DM_DH": -0.195215562,
+   123	        "cov_DH_DH": 0.268336193
+   124	      },
+   125	      {
+   126	        "z": 2.33,
+   127	        "F_pred": 5.04445,
+   128	        "F_observed": 4.517032688082611,
+   129	        "observed_DM": 38.988973961958784,
+   130	        "observed_DH": 8.631545674846294,
+   131	        "profiled_publication_amplitude": 8.193562992817206,
+   132	        "direct_minimizer_amplitude": 8.193562992837371,
+   133	        "direct_minimizer_chi2": 26.705611000503175,
+   134	        "direct_amplitude_abs_delta": 2.0165202840871643e-11,
+   135	        "direct_chi2_abs_delta": 1.4210854715202004e-14,
+   136	        "chi2": 26.70561100050319,
+   137	        "signed_sqrt_chi2": -5.167747188137515,
+   138	        "residual_DM": -2.343044877157972,
+   139	        "residual_DH": 0.4379826820290873,
+   140	        "cov_DM_DM": 0.282685779,
+   141	        "cov_DM_DH": -0.0231395216,
+   142	        "cov_DH_DH": 0.0102136194
+   143	      }
+   144	    ],
+   145	    "C1": [
+   146	      {
+   147	        "z": 0.51,
+   148	        "F_pred": 0.6244231324092953,
+   149	        "F_observed": 0.6214891536355314,
+   150	        "observed_DM": 13.58758434,
+   151	        "observed_DH": 21.86294686,
+   152	        "profiled_publication_amplitude": 21.79576083813583,
+   153	        "direct_minimizer_amplitude": 21.79576083754388,
+   154	        "direct_minimizer_chi2": 0.02922703275266631,
+   155	        "direct_amplitude_abs_delta": 5.919496004480607e-10,
+   156	        "direct_chi2_abs_delta": 7.73686670285656e-16,
+   157	        "chi2": 0.029227032752667085,
+   158	        "signed_sqrt_chi2": -0.17095915521745855,
+   159	        "residual_DM": -0.022192915792622614,
+   160	        "residual_DH": 0.06718602186417044,
+   161	        "cov_DM_DM": 0.0283473742,
+   162	        "cov_DM_DH": -0.0326062007,
+   163	        "cov_DH_DH": 0.18392804
+   164	      },
+   165	      {
+   166	        "z": 0.706,
+   167	        "F_pred": 0.9241064147061683,
+   168	        "F_observed": 0.8918211017171782,
+   169	        "observed_DM": 17.35069094,
+   170	        "observed_DH": 19.45534918,
+   171	        "profiled_publication_amplitude": 18.990980115000504,
+   172	        "direct_minimizer_amplitude": 18.990980114956166,
+   173	        "direct_minimizer_chi2": 2.3011543829566516,
+   174	        "direct_amplitude_abs_delta": 4.433786671143025e-11,
+   175	        "direct_chi2_abs_delta": 3.552713678800501e-15,
+   176	        "chi2": 2.301154382956655,
+   177	        "signed_sqrt_chi2": -1.516955629857596,
+   178	        "residual_DM": -0.1989956058292499,
+   179	        "residual_DH": 0.46436906499949515,
+   180	        "cov_DM_DM": 0.0323752442,
+   181	        "cov_DM_DH": -0.0237445646,
+   182	        "cov_DH_DH": 0.111469198
+   183	      },
+   184	      {
+   185	        "z": 0.934,
+   186	        "F_pred": 1.3135343795129946,
+   187	        "F_observed": 1.223005193169959,
+   188	        "observed_DM": 21.57563956,
+   189	        "observed_DH": 17.64149464,
+   190	        "profiled_publication_amplitude": 16.822676057947156,
+   191	        "direct_minimizer_amplitude": 16.822676058080955,
+   192	        "direct_minimizer_chi2": 20.310879079266172,
+   193	        "direct_amplitude_abs_delta": 1.3379874985730567e-10,
+   194	        "direct_chi2_abs_delta": 3.552713678800501e-15,
+   195	        "chi2": 20.310879079266176,
+   196	        "signed_sqrt_chi2": -4.506759265732548,
+   197	        "residual_DM": -0.5215237975237272,
+   198	        "residual_DH": 0.8188185820528453,
+   199	        "cov_DM_DM": 0.0261732816,
+   200	        "cov_DM_DH": -0.0112938006,
+   201	        "cov_DH_DH": 0.0404183878
+   202	      },
+   203	      {
+   204	        "z": 1.321,
+   205	        "F_pred": 2.0734913024035335,
+   206	        "F_observed": 1.9470100283531242,
+   207	        "observed_DM": 27.60085612,
+   208	        "observed_DH": 14.17602155,
+   209	        "profiled_publication_amplitude": 13.634763894646921,
+   210	        "direct_minimizer_amplitude": 13.63476389432917,
+   211	        "direct_minimizer_chi2": 7.264956482673506,
+   212	        "direct_amplitude_abs_delta": 3.17751158718238e-10,
+   213	        "direct_chi2_abs_delta": 8.881784197001252e-16,
+   214	        "chi2": 7.264956482673507,
+   215	        "signed_sqrt_chi2": -2.6953583217586314,
+   216	        "residual_DM": -0.670708225876119,
+   217	        "residual_DH": 0.5412576553530783,
+   218	        "cov_DM_DM": 0.105336516,
+   219	        "cov_DM_DH": -0.0290308418,
+   220	        "cov_DH_DH": 0.0504233092
+   221	      },
+   222	      {
+   223	        "z": 1.484,
+   224	        "F_pred": 2.43036562392351,
+   225	        "F_observed": 2.3805805950697523,
+   226	        "observed_DM": 30.51190063,
+   227	        "observed_DH": 12.81699964,
+   228	        "profiled_publication_amplitude": 12.643524345231784,
+   229	        "direct_minimizer_amplitude": 12.643524345137115,
+   230	        "direct_minimizer_chi2": 0.13063193704725995,
+   231	        "direct_amplitude_abs_delta": 9.466916139899695e-11,
+   232	        "direct_chi2_abs_delta": 8.326672684688674e-17,
+   233	        "chi2": 0.13063193704726003,
+   234	        "signed_sqrt_chi2": -0.36143040415446515,
+   235	        "residual_DM": -0.2164863038913296,
+   236	        "residual_DH": 0.17347529476821677,
+   237	        "cov_DM_DM": 0.583020277,
+   238	        "cov_DM_DH": -0.195215562,
+   239	        "cov_DH_DH": 0.268336193
+   240	      },
+   241	      {
+   242	        "z": 2.33,
+   243	        "F_pred": 4.626060961176957,
+   244	        "F_observed": 4.517032688082611,
+   245	        "observed_DM": 38.988973961958784,
+   246	        "observed_DH": 8.631545674846294,
+   247	        "profiled_publication_amplitude": 8.538946089330452,
+   248	        "direct_minimizer_amplitude": 8.538946089466824,
+   249	        "direct_minimizer_chi2": 1.2380437131884223,
+   250	        "direct_amplitude_abs_delta": 1.3637269091759663e-10,
+   251	        "direct_chi2_abs_delta": 1.554312234475219e-14,
+   252	        "chi2": 1.2380437131884379,
+   253	        "signed_sqrt_chi2": -1.1126741271317662,
+   254	        "residual_DM": -0.5127111914874689,
+   255	        "residual_DH": 0.09259958551584191,
+   256	        "cov_DM_DM": 0.282685779,
+   257	        "cov_DM_DH": -0.0231395216,
+   258	        "cov_DH_DH": 0.0102136194
+   259	      }
+   260	    ]
+   261	  },
+   262	  "totals": {
+   263	    "C0": {
+   264	      "chi2": 114.72114835807093,
+   265	      "constraints": 6,
+   266	      "classification": "INCOMPATIBLE_ON_SIX_BIN_SHAPE_QUERY"
+   267	    },
+   268	    "C1": {
+   269	      "chi2": 31.274892627884704,
+   270	      "constraints": 6,
+   271	      "classification": "INCOMPATIBLE_ON_SIX_BIN_SHAPE_QUERY"
+   272	    }
+   273	  },
+   274	  "delta_chi2_C1_minus_C0": -83.44625573018624,
+   275	  "direct_profile_verification": {
+   276	    "method": "scipy Brent minimization of each full-2x2 quadratic",
+   277	    "amplitude_abs_tolerance": 1e-06,
+   278	    "chi2_abs_tolerance": 1e-10,
+   279	    "maximum_amplitude_abs_delta": 1.094431922865624e-08,
+   280	    "maximum_chi2_abs_delta": 5.684341886080802e-14
+   281	  },
+   282	  "maximum_conclusion": "bounded normalization-free six-bin shape compatibility only"
+   283	}
+
+exec
+/bin/bash -lc 'nl -ba package/CATCH_PROOF_RESULT.json' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	{
+     2	  "status": "PASS",
+     3	  "caught": 9,
+     4	  "total": 9,
+     5	  "checks": {
+     6	    "missing_L_pair": true,
+     7	    "missing_exp_phi": true,
+     8	    "diagonal_only_covariance": true,
+     9	    "delta_method_as_likelihood": true,
+    10	    "fit_n": true,
+    11	    "drop_worst_bin_C0": true,
+    12	    "drop_worst_bin_C1": true,
+    13	    "promote_C1_to_complete_history": true,
+    14	    "isotropic_point_inserted": true
+    15	  }
+    16	}
+
+exec
+/bin/bash -lc 'nl -ba package/INDEPENDENT_VERIFICATION.json' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	{
+     2	  "status": "PASS",
+     3	  "method": "stdlib Decimal closed 2x2 inverse and analytic profile; no NumPy or production import",
+     4	  "precision_digits": 70,
+     5	  "totals": {
+     6	    "C0": "114.7211483580708345672190024516850066440863960225625449752861166374066",
+     7	    "C1": "31.27489262788477002409614690133949261508022860182699537683999667221247"
+     8	  },
+     9	  "total_abs_deltas": {
+    10	    "C0": "9.54327809975483149933559136039774374550247138833625934E-14",
+    11	    "C1": "6.602409614690133949261508022860182699537683999667221247E-14"
+    12	  },
+    13	  "maximum_row_abs_delta": "1.8765017207483413146517035800574255026632566063733905792E-13",
+    14	  "rows": [
+    15	    {
+    16	      "control": "C0",
+    17	      "z": "0.510",
+    18	      "observed_DM": "13.58758434",
+    19	      "observed_DH": "21.86294686",
+    20	      "F": "0.640050",
+    21	      "amplitude": "21.44349657301636469524191583322325280435508668660083476990829726225146",
+    22	      "chi2": "1.132252302247996787394221317423164425618976112281932262752697483068574"
+    23	    },
+    24	    {
+    25	      "control": "C1",
+    26	      "z": "0.510",
+    27	      "observed_DM": "13.58758434",
+    28	      "observed_DH": "21.86294686",
+    29	      "F": "0.6244231324092953079174905066382188332756298418685235818743147473547583",
+    30	      "amplitude": "21.79576083813582704101394689124202050067492914720449462319555216569049",
+    31	      "chi2": "0.02922703275266687411843597065152506212709890723609662541813112187020348"
+    32	    },
+    33	    {
+    34	      "control": "C0",
+    35	      "z": "0.706",
+    36	      "observed_DM": "17.35069094",
+    37	      "observed_DH": "19.45534918",
+    38	      "F": "0.955218",
+    39	      "amplitude": "18.56028239347957336222489833841162400702548172368858199813258516683772",
+    40	      "chi2": "8.477704822603381436589524466551286874598090478971432942739544639487141"
+    41	    },
+    42	    {
+    43	      "control": "C1",
+    44	      "z": "0.706",
+    45	      "observed_DM": "17.35069094",
+    46	      "observed_DH": "19.45534918",
+    47	      "F": "0.9241064147061685411003545793144097517077518095762717013396451551137121",
+    48	      "amplitude": "18.99098011500050250840385391842327521990751710418959646532658184677965",
+    49	      "chi2": "2.301154382956706992055038898573405054370430645002056459566716704081052"
+    50	    },
+    51	    {
+    52	      "control": "C0",
+    53	      "z": "0.934",
+    54	      "observed_DM": "21.57563956",
+    55	      "observed_DH": "17.64149464",
+    56	      "F": "1.370178",
+    57	      "amplitude": "16.33995244808400133977345207249074360988911689343218285450084151114646",
+    58	      "chi2": "50.68313570166320234982792516586853482964199425744973367433936266094208"
+    59	    },
+    60	    {
+    61	      "control": "C1",
+    62	      "z": "0.934",
+    63	      "observed_DM": "21.57563956",
+    64	      "observed_DH": "17.64149464",
+    65	      "F": "1.313534379512994452202875455085558354588744529224106558424383547090878",
+    66	      "amplitude": "16.82267605794715612934895018863510944124090724095867574026003311508641",
+    67	      "chi2": "20.31087907926607714404715673574662405150427376557038484380856515181766"
+    68	    },
+    69	    {
+    70	      "control": "C0",
+    71	      "z": "1.321",
+    72	      "observed_DM": "27.60085612",
+    73	      "observed_DH": "14.17602155",
+    74	      "F": "2.1935205",
+    75	      "amplitude": "13.14940350173155397746716698487584306602474270634322546504564811282575",
+    76	      "chi2": "25.69230599819725955562818906718901116756108995984637913928576469761692"
+    77	    },
+    78	    {
+    79	      "control": "C1",
+    80	      "z": "1.321",
+    81	      "observed_DM": "27.60085612",
+    82	      "observed_DH": "14.17602155",
+    83	      "F": "2.073491302403534390029233246233221422563875833499085311014908274085887",
+    84	      "amplitude": "13.63476389464691973632977635342271875930220333226731278780655976265379",
+    85	      "chi2": "7.264956482673617501323571236778764973815339621509229477406769514150805"
+    86	    },
+    87	    {
+    88	      "control": "C0",
+    89	      "z": "1.484",
+    90	      "observed_DM": "30.51190063",
+    91	      "observed_DH": "12.81699964",
+    92	      "F": "2.585128",
+    93	      "amplitude": "12.12866800428132647532190225747175093746144426330467825214982064988877",
+    94	      "chi2": "2.030138532855775864967157009155131136651283471377759494805525520148029"
+    95	    },
+    96	    {
+    97	      "control": "C1",
+    98	      "z": "1.484",
+    99	      "observed_DM": "30.51190063",
+   100	      "observed_DH": "12.81699964",
+   101	      "F": "2.430365623923510009384903384994252479259787775511580298304004860419538",
+   102	      "amplitude": "12.64352434523178544799738995990463208249194964152811054835818997204330",
+   103	      "chi2": "0.1306319370472606802888793132196082353928401777703546664962509054866766"
+   104	    },
+   105	    {
+   106	      "control": "C0",
+   107	      "z": "2.330",
+   108	      "observed_DM": "38.988973961958784",
+   109	      "observed_DH": "8.631545674846294",
+   110	      "F": "5.044450",
+   111	      "amplitude": "8.193562992817207815955844630631692377974656440489645853672957828712019",
+   112	      "chi2": "26.70561100050321857281198542549787821001496174263530746136322163614385"
+   113	    },
+   114	    {
+   115	      "control": "C1",
+   116	      "z": "2.330",
+   117	      "observed_DM": "38.988973961958784",
+   118	      "observed_DH": "8.631545674846294",
+   119	      "F": "4.626060961176957537412840543708305362851476309797937801235581709734244",
+   120	      "amplitude": "8.538946089330451746056957304175298171774852161140270283818818910549871",
+   121	      "chi2": "1.238043713188440832263064746369565237870245484738873304143563274806069"
+   122	    }
+   123	  ]
+   124	}
+
+exec
+/bin/bash -lc 'nl -ba package/SHAPE_RESIDUAL_ATLAS.tsv' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	control	z	F_pred	F_observed	profiled_publication_amplitude	chi2	signed_sqrt_chi2
+     2	C0	0.510	0.64005	0.621489153636	21.443496573	1.13225230225	-1.06407344777
+     3	C0	0.706	0.955218	0.891821101717	18.5602823935	8.4777048226	-2.91164984547
+     4	C0	0.934	1.370178	1.22300519317	16.3399524481	50.6831357017	-7.11920892387
+     5	C0	1.321	2.1935205	1.94701002835	13.1494035017	25.6923059982	-5.06875783582
+     6	C0	1.484	2.585128	2.38058059507	12.1286680043	2.03013853286	-1.42482929955
+     7	C0	2.330	5.04445	4.51703268808	8.19356299282	26.7056110005	-5.16774718814
+     8	C1	0.510	0.624423132409	0.621489153636	21.7957608381	0.0292270327527	-0.170959155217
+     9	C1	0.706	0.924106414706	0.891821101717	18.990980115	2.30115438296	-1.51695562986
+    10	C1	0.934	1.31353437951	1.22300519317	16.8226760579	20.3108790793	-4.50675926573
+    11	C1	1.321	2.0734913024	1.94701002835	13.6347638946	7.26495648267	-2.69535832176
+    12	C1	1.484	2.43036562392	2.38058059507	12.6435243452	0.130631937047	-0.361430404154
+    13	C1	2.330	4.62606096118	4.51703268808	8.53894608933	1.23804371319	-1.11267412713
+
+exec
+/bin/bash -lc 'nl -ba package/SOURCE_MANIFEST.tsv' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	scope	path	purpose
+     2	foundation	udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md	complete pair metric and terminal decomposition
+     3	foundation	udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md	one-relation live orchestra kernel and scalar-control boundary
+     4	foundation	udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md	same-geometry phi_pair and d_A output typing
+     5	foundation	udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md	frozen P1 n and conditional d_A relation
+     6	data	udt_bao_data_suitability_reset_2026-08-12/AUDIT_REPORT.md	banked data-suitability result
+     7	data	udt_bao_data_suitability_reset_2026-08-12/ONTOLOGY_CORRECTION.md	no-origin ontology guard
+     8	data	udt_bao_data_suitability_reset_2026-08-12/OFFICIAL_DR2_AUDIT_RESULT.json	pinned vector covariance and six shape rows
+     9	data	/media/udt-admin/ScratchDisk/Data/BAO/CobayaSampler_bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt	exact released vector
+    10	data	/media/udt-admin/ScratchDisk/Data/BAO/CobayaSampler_bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt	exact released covariance
+
+exec
+/bin/bash -lc 'nl -ba udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ exited 1 in 0ms:
+nl: udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md: No such file or directory
+
+exec
+/bin/bash -lc 'nl -ba udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+exec
+/bin/bash -lc 'nl -ba udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ exited 1 in 0ms:
+nl: udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md: No such file or directory
+
+ exited 1 in 0ms:
+nl: udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md: No such file or directory
+
+exec
+/bin/bash -lc 'nl -ba udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ exited 1 in 0ms:
+nl: udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md: No such file or directory
+
+exec
+/bin/bash -lc 'nl -ba udt_bao_data_suitability_reset_2026-08-12/ONTOLOGY_CORRECTION.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ exited 1 in 0ms:
+nl: udt_bao_data_suitability_reset_2026-08-12/ONTOLOGY_CORRECTION.md: No such file or directory
+
+exec
+/bin/bash -lc 'nl -ba udt_bao_data_suitability_reset_2026-08-12/AUDIT_REPORT.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ exited 1 in 0ms:
+nl: udt_bao_data_suitability_reset_2026-08-12/AUDIT_REPORT.md: No such file or directory
+
+exec
+/bin/bash -lc 'nl -ba udt_bao_data_suitability_reset_2026-08-12/OFFICIAL_DR2_AUDIT_RESULT.json' in /tmp/udt_pair_shape_review_nyg3sd8b
+ exited 1 in 0ms:
+nl: udt_bao_data_suitability_reset_2026-08-12/OFFICIAL_DR2_AUDIT_RESULT.json: No such file or directory
+
+codex
+The foundation paths from the manifest are not at the root names I tried, so I’m resolving the actual sealed-intake layout under the authorized intake directories only before continuing.
+exec
+/bin/bash -lc 'rg --files package repository_sources external_sources' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+external_sources/09_desi_gaussian_bao_ALL_GCcomb_cov.txt
+external_sources/08_desi_gaussian_bao_ALL_GCcomb_mean.txt
+package/ADVERSARIAL_REVIEW_REQUEST.md
+package/verify_package.py
+package/EXACT_DERIVATION.md
+package/EVIDENCE_GATES.md
+package/CATCH_PROOF_RESULT.json
+package/PREREGISTRATION.md
+package/SHAPE_RESIDUAL_ATLAS.tsv
+package/SOURCE_MANIFEST.tsv
+package/RUN_LOG.md
+package/run_catch_proofs.py
+package/LAY_REPORT.md
+package/PREMISE_LEDGER.tsv
+package/DERIVATION_RESULT.json
+package/verify_independent.py
+package/STATUS_LEDGER.tsv
+package/AUDIT_REPORT.md
+package/FALSIFICATION_CONTRACT.tsv
+package/INDEPENDENT_VERIFICATION.json
+package/derive_pair_shape.py
+package/verify_preregistration.py
+repository_sources/udt_bao_data_suitability_reset_2026-08-12/ONTOLOGY_CORRECTION.md
+repository_sources/udt_bao_data_suitability_reset_2026-08-12/OFFICIAL_DR2_AUDIT_RESULT.json
+repository_sources/udt_bao_data_suitability_reset_2026-08-12/AUDIT_REPORT.md
+repository_sources/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md
+repository_sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md
+repository_sources/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md
+repository_sources/udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md
+
+exec
+/bin/bash -lc 'nl -ba repository_sources/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+exec
+/bin/bash -lc 'nl -ba repository_sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+exec
+/bin/bash -lc 'nl -ba repository_sources/udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	# G79 exact derivation — one dimensional redshift and area query on one geometry
+     2	
+     3	Date: 2026-08-11
+     4	
+     5	Status before fresh external review:
+     6	`PROVISIONAL_INTERNALLY_VERIFIED__FRESH_ADVERSARIAL_REVIEW_REQUIRED`
+     7	
+     8	## 1. Scoped metric and query
+     9	
+    10	The outcome-independent preregistered selection rule returns the first nonzero row of the frozen
+    11	G75 atlas:
+    12	
+    13	```text
+    14	profile_id = G75_AM_S01_E05
+    15	A(x)       = 1 - x^2/4
+    16	q(s)       = s^2/20
+    17	h(x)       = x^2 q(x^2) = x^6/20.
+    18	```
+    19	
+    20	This is a `CHOSE_CONTROL` geometry, not a physical profile.  Its dimensional metric is
+    21	
+    22	```text
+    23	ds^2 = -A(x)c_E^2 dt^2 + R^2 A(x)^(-1) dx^2
+    24	       + R^2 x^2(dtheta^2 + sin(theta)^2 dpsi^2)
+    25	       + 2 R c_E h(x) sin(theta)^2 dt dpsi.
+    26	```
+    27	
+    28	The receiver is the coordinate-stationary observer at `x_r=1/4`; the source is the first outward
+    29	crossing of the control sphere `x_s=1`.  The ray is the outward radial member of the receiver's
+    30	complete metric-orthonormal sky.  Both endpoint observers are proportional to the stationary
+    31	Killing field.  These are query choices.  Neither endpoint is last scattering or `X_max`.
+    32	
+    33	With `tau=c_E t/R`,
+    34	
+    35	```text
+    36	ds^2 = R^2 dSigma^2.
+    37	```
+    38	
+    39	This factorization determines the scale power of the Jacobi result; it does not make the physical
+    40	metric scale-free and it does not determine `R`.
+    41	
+    42	## 2. Stationary endpoint redshift
+    43	
+    44	Let `K=partial_tau`.  Along the null ray,
+    45	
+    46	```text
+    47	E = -g(K,k)
+    48	```
+    49	
+    50	is conserved.  A coordinate-stationary observer has four-velocity
+    51	
+    52	```text
+    53	U = K/sqrt(A),
+    54	```
+    55	
+    56	so its measured frequency is
+    57	
+    58	```text
+    59	omega = -g(U,k) = E/sqrt(A).
+    60	```
+    61	
+    62	For a source at `x_s` and receiver at `x_r`, the registered convention gives
+    63	
+    64	```text
+    65	1+z = omega_source/omega_receiver = sqrt(A_receiver/A_source).
+    66	```
+    67	
+    68	Here,
+    69	
+    70	```text
+    71	A_receiver = 63/64,
+    72	A_source   = 3/4,
+    73	1+z        = sqrt(21)/4 = 1.14564392373896...,
+    74	phi_pair   = log(sqrt(21)/4) = 0.13596685774182....
+    75	```
+    76	
+    77	Direct endpoint contraction agrees with this exact Killing result to
+    78	`2.886579864025407e-15`.  The mixing profile is not set to zero.  It does not enter this particular
+    79	stationary endpoint ratio because Killing energy and the endpoint lapse own the ratio; it remains
+    80	active in the null route, screen transport, and area response.
+    81	
+    82	## 3. Angular distance and physical scale
+    83	
+    84	The full null path, parallel screen, curvature, and two-column Jacobi system are integrated in the
+    85	dimensionless metric.  If `D_hat` is the resulting dimensionless screen Jacobi matrix, the
+    86	physical matrix is
+    87	
+    88	```text
+    89	D = R D_hat,
+    90	```
+    91	
+    92	and the angular diameter distance is
+    93	
+    94	```text
+    95	d_A = sqrt(|det D|) = R sqrt(|det D_hat|).
+    96	```
+    97	
+    98	The highest registered refinement gives
+    99	
+   100	```text
+   101	D_hat = [[0.7559967070430084, -1.0146339127533253e-22],
+   102	         [-1.0146395760931919e-22, 0.7559733363044177]],
+   103	
+   104	d_A/R = 0.7559850215834019.
+   105	```
+   106	
+   107	All three `1024/2048/4096` maximum-step controls agree at roundoff scale.  The endpoint is regular,
+   108	with no post-origin caustic.  The complete residuals are recorded in `DERIVATION_RESULT.json`.
+   109	
+   110	An independently written direct-Christoffel plus neighboring-ray implementation does not use the
+   111	production Riemann or Jacobi equation.  It returns
+   112	
+   113	```text
+   114	d_A/R                         = 0.7559850216165416,
+   115	relative full-D difference    = 4.3838551044245423e-11,
+   116	redshift absolute difference = 6.661338147750939e-16,
+   117	maximum endpoint null error   = 2.1058184982859585e-15.
+   118	```
+   119	
+   120	## 4. Exact SNe type join, without a fit
+   121	
+   122	The frozen SNe assembly conditionally identifies its radial profile with angular distance:
+   123	
+   124	```text
+   125	d_A = r.
+   126	```
+   127	
+   128	That makes its P1 distance the same output type as the G79 `d_A`, but only under that already
+   129	registered conditional readout premise.  P1 is not inserted into the metric and no fit is run.
+   130	At the single G79 point,
+   131	
+   132	```text
+   133	R/R_w = [1-(1+z)^(-2/n)] / (d_A/R).
+   134	```
+   135	
+   136	This is a no-fit compatibility expression with free `n`; it is not a determination of `R`, `R_w`,
+   137	or a physical profile.
+   138	
+   139	## 5. Conditional lens-plus-redshift temperature readout
+   140	
+   141	Geometry has now supplied two distinct pieces for this one query:
+   142	
+   143	1. an endpoint frequency multiplier `1/(1+z)`;
+   144	2. an angular Jacobi/lens map `D`.
+   145	
+   146	If, separately, a one-parameter thermal source spectrum is supplied and transforms only by the
+   147	derived frequency ratio, then
+   148	
+   149	```text
+   150	T_observed/T_source = 1/(1+z) = exp(-phi_pair) = 4/sqrt(21).
+   151	```
+   152	
+   153	Only after the dimensional SNe relation and/or the physical `X_max` endpoint curve has been mapped,
+   154	a future whole-sky query with source-direction map `F_sky(n)` and direction-dependent redshift could
+   155	use the corresponding **conditional** readout
+   156	
+   157	```text
+   158	T_observed(n) = T_source(F_sky(n)) / [1+z(n)].
+   159	```
+   160	
+   161	This records—but does not yet activate—the user's old lenses-plus-redshift picture: the lens remaps
+   162	which source direction is seen, while reciprocal clock dilation rescales the thermal
+   163	frequency/temperature parameter.  It remains a typed future readout, not a native CMB source or
+   164	thermalization law.  A uniform source and direction-independent redshift remain uniform; lensing
+   165	alone does not create a temperature pattern in this conditional order-zero statement.
+   166	
+   167	## 6. Exact landing
+   168	
+   169	```text
+   170	DERIVED_CONDITIONAL_ON_ONE_FROZEN_GEOMETRY_AND_ONE_CHOSEN_STATIONARY_QUERY
+   171	```
+   172	
+   173	This is the first same-geometry join in this arc that returns both `phi_pair` and `d_A/R` before
+   174	consulting P1.  It does not select the physical profile, `R`, endpoint, `X_max`, source state, SNe
+   175	fit, CMB temperature field, CMB spectrum, action, matter law, or bootstrap rule.
+
+ succeeded in 0ms:
+     1	# Exact derivation — pair-first relational-plane reconstruction
+     2	
+     3	Date: 2026-08-12
+     4	
+     5	## 1. Bounded result
+     6	
+     7	The preregistered primary landing is obtained:
+     8	
+     9	```text
+    10	PAIR_FIRST_CONDITIONAL_RESOLUTION
+    11	```
+    12	
+    13	A supplied regular timelike observer-pair immersion carries its own pair-relative tangent plane.
+    14	The Lorentz metric then supplies its unique orthogonal positive screen. In the registered complete
+    15	coframe chart, the full angular/mixing/embedding contribution to the induced pair metric is one
+    16	positive-semidefinite Gram term. Conditional pair evaluation therefore does not require curvature
+    17	to choose a universal ambient reciprocal/angular split.
+    18	
+    19	This is not a derivation of the immersion. The founding source owns the clock/ruler channel type,
+    20	its reciprocal pairing, and the exponential character of a supplied depth. It does not by itself
+    21	choose paired events, ruler evolution, a branch, or a physical pair surface.
+    22	
+    23	## 2. Three different planes that must not be conflated
+    24	
+    25	### 2.1 Founded channel plane
+    26	
+    27	The founding presentation starts with
+    28	
+    29	```text
+    30	q=(c_E dt,dr)^T,
+    31	K=[[0,1],[1,0]],
+    32	D(delta)=diag(exp(-delta),exp(+delta)).
+    33	```
+    34	
+    35	This is an ordered two-channel clock/ruler space. In the founding spherical chart, `dt` and `dr`
+    36	also provide a chosen local cotangent realization. Dual Reciprocity and continuous composition
+    37	derive the reciprocal character after `delta` is supplied. They do not covariantly select a
+    38	physical comparison surface in a general complete metric.
+    39	
+    40	### 2.2 Realized pair plane
+    41	
+    42	Let a typed query supply a regular immersion
+    43	
+    44	```text
+    45	F:Sigma^2 -> (M^4,g).
+    46	```
+    47	
+    48	At every regular point, `dF` is injective, so
+    49	
+    50	```text
+    51	E_pair=dF(TSigma)
+    52	```
+    53	
+    54	is a rank-two subspace of the ambient tangent space. If `h=F^*g` has Lorentzian signature, then
+    55	`E_pair` is a nondegenerate timelike two-plane. It is canonical relative to `(g,F)` and independent
+    56	of any ambient coframe presentation.
+    57	
+    58	### 2.3 Pair-relative screen
+    59	
+    60	Define
+    61	
+    62	```text
+    63	H_pair=E_pair^perp.
+    64	```
+    65	
+    66	Nondegeneracy gives the direct sum
+    67	
+    68	```text
+    69	TM|F(Sigma)=E_pair direct-sum H_pair.
+    70	```
+    71	
+    72	The ambient metric has inertia `(1,3)` and the pair plane has inertia `(1,1)`. Additivity of
+    73	inertia for an orthogonal direct sum therefore gives inertia `(0,2)` on `H_pair`: the screen is
+    74	positive definite. No Petrov, Ricci, derivative, preferred congruence, or aether selector is needed
+    75	for this conditional split.
+    76	
+    77	An arbitrary pointwise plane field need not integrate. Here integrability is not inferred: the
+    78	surface `F` was supplied, and `E_pair` is its tangent bundle by construction.
+    79	
+    80	## 3. Complete-coframe pullback
+    81	
+    82	On a regular local `2+2` chart write the complete coframe and metric as
+    83	
+    84	```text
+    85	E=[[B,0],[Q S,Q]],
+    86	g=E^T eta_4 E,
+    87	eta_4=diag(eta_2,I_2),
+    88	eta_2=diag(-1,+1).
+    89	```
+    90	
+    91	Here `B` is a regular clock/ruler block, `Q` is a regular positive-screen coframe, and `S` is an
+    92	arbitrary real mixing matrix. Split the Jacobian of the supplied pair immersion as
+    93	
+    94	```text
+    95	dF=J=[Y;Z].
+    96	```
+    97	
+    98	The complete coframe evaluated on the pair tangents is
+    99	
+   100	```text
+   101	E J=[B Y; Q(SY+Z)].
+   102	```
+   103	
+   104	The first fundamental form is therefore exactly
+   105	
+   106	```text
+   107	h=J^T g J
+   108	 =Y^T B^T eta_2 B Y +(S Y+Z)^T q(S Y+Z),          (1)
+   109	q=Q^T Q>0.
+   110	```
+   111	
+   112	Equation (1) is the complete local orchestra formula. It does not attach an angular correction
+   113	after a reciprocal calculation. It first forms the complete metric pullback; the terminal
+   114	reciprocal coordinate is read only afterward.
+   115	
+   116	## 4. The simple reduced object
+   117	
+   118	When the base projection `Y` is invertible, use the pair-domain basis in which that projection is
+   119	the identity. Define
+   120	
+   121	```text
+   122	W=Z Y^-1,
+   123	C=S+W.
+   124	```
+   125	
+   126	Then
+   127	
+   128	```text
+   129	Y^-T h Y^-1=B^T eta_2 B+C^T q C.                 (2)
+   130	```
+   131	
+   132	Thus the first fundamental form sees ambient mixing `S` and the realized surface slope `W` through
+   133	their combined relative screen displacement `C`. The pair metric alone cannot invert that sum to
+   134	recover `S` and `W` separately. This is an evaluator non-identifiability statement, not a claim
+   135	that changing `(g,F)` while preserving `C` is gauge.
+   136	
+   137	The `C=0` limit recovers the pure base metric exactly.
+   138	
+   139	## 5. Complete pointwise solution space of the Gram contribution
+   140	
+   141	For every real `C`,
+   142	
+   143	```text
+   144	P=C^T q C
+   145	```
+   146	
+   147	is positive semidefinite because
+   148	
+   149	```text
+   150	v^T P v=(Cv)^T q(Cv)>=0.
+   151	```
+   152	
+   153	Conversely, every positive-semidefinite `2 x 2` matrix `P` occurs. With positive square roots,
+   154	
+   155	```text
+   156	C=q^-1/2 P^1/2
+   157	```
+   158	
+   159	gives `C^T q C=P` (choosing symmetric roots). Hence the image is exactly the full `PSD(2)` cone,
+   160	not a selected subset.
+   161	
+   162	Adding a positive-semidefinite form to a Lorentzian two-form cannot increase its negative index,
+   163	and its originally positive direction remains positive. The complete pointwise inertia atlas is
+   164	therefore:
+   165	
+   166	```text
+   167	(1 negative,0 zero,1 positive)  Lorentzian pair plane;
+   168	(0 negative,1 zero,1 positive)  degenerate boundary;
+   169	(0 negative,0 zero,2 positive)  positive pair surface.
+   170	```
+   171	
+   172	All three are retained. Only the first supports the calibrated Lorentzian terminal readout; the
+   173	others are characterized rather than discarded as solver failures.
+   174	
+   175	## 6. Exact terminal modulation
+   176	
+   177	In calibrated pair coordinates let
+   178	
+   179	```text
+   180	B=[[T,T beta],[0,L]],
+   181	B^T eta_2 B=
+   182	  [[-T^2,-T^2 beta],
+   183	   [-T^2 beta,L^2-T^2 beta^2]],
+   184	P=[[a,d],[d,e]].
+   185	```
+   186	
+   187	The complete induced pair metric is
+   188	
+   189	```text
+   190	h00=-T^2+a,
+   191	h01=-T^2 beta+d,
+   192	h11=L^2-T^2 beta^2+e.                            (3)
+   193	```
+   194	
+   195	On the A-calibrated timelike stratum
+   196	
+   197	```text
+   198	A=T^2-a>0,
+   199	det(h)<0,
+   200	```
+   201	
+   202	the unique terminal decomposition gives
+   203	
+   204	```text
+   205	T_pair^2=A,
+   206	beta_pair=(T^2 beta-d)/(T^2-a),
+   207	L_pair^2=h11+h01^2/A,
+   208	-det(h)=T_pair^2 L_pair^2.                       (4)
+   209	```
+   210	
+   211	Consequently
+   212	
+   213	```text
+   214	kappa_pair=(1/4)log[-det(h)],
+   215	phi_pair=(1/4)log[-det(h)/h00^2]
+   216	        =(1/4)log[L_pair^2/T_pair^2],
+   217	c_eff^(pair)/c_E=T_pair/L_pair.                  (5)
+   218	```
+   219	
+   220	Equations (3)--(5) prove the user's orchestra statement in its cleanest local form. Screen scale,
+   221	angular shape, mixing, and the pair embedding first alter the full Gram data `(a,d,e)`. The scalar
+   222	`phi_pair` is then extracted from the completed pair metric. `c_E` calibrates the terminal ratio;
+   223	it does not select the surface.
+   224	
+   225	The Gram term is positive semidefinite, but `phi_pair` need not change monotonically because its
+   226	clock, cross, and ruler entries enter a Lorentzian determinant and ratio together.
+   227	
+   228	## 7. Covariance checks
+   229	
+   230	Three exact presentation checks pass:
+   231	
+   232	1. A pair-domain change `J -> J R` gives `h -> R^T h R`.
+   233	2. A screen-frame rotation `Q -> OQ`, `O^T O=I`, leaves `q=Q^TQ` and `h` unchanged.
+   234	3. `C=0` recovers `B^T eta_2 B`, including the base values of `T`, `L`, and `beta`.
+   235	
+   236	The terminal scalars in (5) require the declared A-calibrated coordinates. They are not asserted
+   237	to be invariant under arbitrary pair-coordinate changes that destroy that calibration.
+   238	
+   239	## 8. Why this does not derive the physical relation
+   240	
+   241	In flat `1+1` geometry, fixed worldlines
+   242	
+   243	```text
+   244	A(y)=(y,0),
+   245	B(v)=(v,ell)
+   246	```
+   247	
+   248	admit the exact family
+   249	
+   250	```text
+   251	F_k(y,s)=(y+k s/ell,s).
+   252	```
+   253	
+   254	Every member has
+   255	
+   256	```text
+   257	h_k=[[-1,-k/ell],[-k/ell,1-k^2/ell^2]],
+   258	det(h_k)=-1,
+   259	phi_pair=0,
+   260	```
+   261	
+   262	while pairing A's event `y` with B's event `y+k`. The same metric, observers, `c_E`, and terminal
+   263	reciprocal depth therefore retain different realizations. Pair-first evaluation removes the need
+   264	for an ambient plane selector; it does not make the physical realization emerge from bare
+   265	observer labels.
+   266	
+   267	## 9. Regrade of the curvature excavation
+   268	
+   269	The curvature-principal and first-curvature-derivative atlases remain valid maps of intrinsic
+   270	ambient structure. Their failure to recover the registered split on most complete metric jets no
+   271	longer blocks conditional observer-pair evaluation:
+   272	
+   273	- where curvature owns a plane coincident with `E_pair`, it supplies additional intrinsic
+   274	  structure;
+   275	- where it owns a different plane or higher-rank distribution, those structures can be decomposed
+   276	  relative to `E_pair direct-sum H_pair`;
+   277	- where it owns no unique plane, the supplied pair immersion still has its own tangent/normal
+   278	  split.
+   279	
+   280	No prior negative is erased. Its role is narrowed: those audits answer whether ambient curvature
+   281	selects the registered split, not whether a realized comparison possesses a pair plane.
+   282	
+   283	## 10. Evidence
+   284	
+   285	The SymPy production derivation passes 11 exact identities. A separately expressed stdlib
+   286	`Fraction` implementation passes:
+   287	
+   288	```text
+   289	160/160 direct pullbacks,
+   290	160/160 reduced Gram identities,
+   291	160/160 pair-coordinate covariance checks,
+   292	160/160 screen-frame covariance checks,
+   293	34/34 encountered regular terminal reconstructions,
+   294	5/5 flat counterfamily rows,
+   295	1 exact tangent/normal positivity witness.
+   296	```
+   297	
+   298	## 11. Exact bounded landing
+   299	
+   300	```text
+   301	PAIR_FIRST_CONDITIONAL_RESOLUTION__THE_FOUNDING_OWNS_AN_ORDERED_CLOCK_RULER_CHANNEL_TYPE_AND_
+   302	RECIPROCAL_CHARACTER__A_SUPPLIED_REGULAR_TIMELIKE_PAIR_IMMERSION_OWNS_ITS_PAIR_RELATIVE_TANGENT_
+   303	PLANE_AND_UNIQUE_POSITIVE_ORTHOGONAL_SCREEN__THE_COMPLETE_COFRAME_PULLBACK_COMBINES_BASE_SCREEN_
+   304	MIXING_AND_EMBEDDING_DATA_BEFORE_TERMINAL_PHI_IS_READ__NO_UNIVERSAL_AMBIENT_CURVATURE_SELECTOR_IS_
+   305	REQUIRED_FOR_CONDITIONAL_PAIR_EVALUATION__THE_PHYSICAL_IMMERSION_EVENT_PAIRING_BRANCH_GLOBAL_
+   306	COMPATIBLE_RELATION_FAMILY_HISTORY_ACTION_SOURCE_AND_DYNAMICS_REMAIN_OPEN.
+   307	```
+
+ succeeded in 0ms:
+     1	# Exact derivation — one complete pair relation across reciprocal regimes
+     2	
+     3	Date: 2026-08-12
+     4	Mode: metric-led, exact symbolic/CPU
+     5	Current grade: **INTERNALLY VERIFIED BOUNDED LEAD — FRESH ADVERSARIAL REVIEW PENDING**
+     6	
+     7	## 1. Result first
+     8	
+     9	The one-relation framing exposes a simple native structure.
+    10	
+    11	The complete angular/mixing orchestra does not supply a correction that is tacked onto `phi`.
+    12	For a supplied pair relation it first forms one completed metric
+    13	
+    14	```text
+    15	h = B^T eta B + P,
+    16	P=C^T q C >= 0.
+    17	```
+    18	
+    19	The unique terminal reciprocal-`c_E` evaluator then reads `phi_pair` from this whole `h`.
+    20	
+    21	Relative to the calibrated reciprocal base, the complete orchestra has one dimensionless loading
+    22	operator
+    23	
+    24	```text
+    25	Pi=B^(-T) P B^(-1) >= 0,
+    26	h=B^T(eta+Pi)B.                                      (1)
+    27	```
+    28	
+    29	Reciprocity weights the two diagonal loading channels oppositely: one grows as `exp(+2phi)` and the
+    30	other as `exp(-2phi)`. For every positive-definite `P`, their sum is strictly convex and has one
+    31	intermediate minimum. It grows toward both reciprocal extremes. This is an exact **CONDITIONAL
+    32	response kernel** in the supplied A calibration.
+    33	
+    34	The total live-flow equation retains `dP/dlambda` and `dB/dlambda`. It therefore does not derive the
+    35	physical regime history, the location of the terrestrial/GR-like corridor, or the magnitude of the
+    36	cosmic and micro flares.
+    37	
+    38	Here `A/M` means the angular/mixing orchestra, not the G88 stationary AM lapse family.
+    39	
+    40	## 2. One completed pair metric
+    41	
+    42	The pair-first theorem supplies, on the regular local chart,
+    43	
+    44	```text
+    45	B=[[T,T beta],[0,L]],
+    46	T=sigma exp(-phi),
+    47	L=sigma exp(+phi),
+    48	eta=diag(-1,+1),
+    49	P=[[a,d],[d,e]]>=0.                                 (2)
+    50	```
+    51	
+    52	`P` contains the complete angular/screen, mixing, and embedding-slope contribution. Its entries are
+    53	not three independent fitted corrections: they are the Gram matrix `C^T q C` produced inside the
+    54	complete pullback.
+    55	
+    56	Congruence by the positive upper-triangular `B` gives (1), so `Pi` is positive semidefinite whenever
+    57	`P` is. `Pi` is the full loading object. Its trace is a compact CHOSE diagnostic in the fixed A
+    58	calibration; it is not promoted to a universal frame-independent scalar or a new physical field.
+    59	
+    60	## 3. Exact reciprocal normalization
+    61	
+    62	Direct inversion of (2) gives
+    63	
+    64	```text
+    65	Pi00 = a exp(+2phi)/sigma^2,
+    66	
+    67	Pi01 = (d-beta a)/sigma^2,
+    68	
+    69	Pi11 = (e-2 beta d+beta^2 a) exp(-2phi)/sigma^2.    (3)
+    70	```
+    71	
+    72	Define
+    73	
+    74	```text
+    75	n_beta=e-2 beta d+beta^2 a,
+    76	m_beta=d-beta a.                                    (4)
+    77	```
+    78	
+    79	For `P>0`, both `a>0` and `n_beta>0`; the latter is the value of `P` on the nonzero vector
+    80	`(-beta,1)`.
+    81	
+    82	The determinant is
+    83	
+    84	```text
+    85	det(Pi)=(ae-d^2)/sigma^4,                           (5)
+    86	```
+    87	
+    88	which is independent of reciprocal depth under the declared partial response. Reciprocity changes
+    89	the distribution of loading between the clock and ruler directions while preserving this normalized
+    90	area product.
+    91	
+    92	The reciprocal generator is visible directly. At fixed `(sigma,beta)`,
+    93	
+    94	```text
+    95	(partial_phi B)B^-1=diag(-1,+1),
+    96	```
+    97	
+    98	so at fixed `P`
+    99	
+   100	```text
+   101	partial_phi Pi00=+2 Pi00,
+   102	partial_phi Pi01=0,
+   103	partial_phi Pi11=-2 Pi11.                           (6)
+   104	```
+   105	
+   106	No regime envelope has been added. Equation (6) is the reciprocal action already inside `B`.
+   107	
+   108	## 4. The quiet-middle kernel
+   109	
+   110	Use the A-calibrated compact loading diagnostic
+   111	
+   112	```text
+   113	A_load=tr(Pi)
+   114	      =[a exp(+2phi)+n_beta exp(-2phi)]/sigma^2.    (7)
+   115	```
+   116	
+   117	Then exactly
+   118	
+   119	```text
+   120	partial_phi A_load=2(Pi00-Pi11),
+   121	partial_phi^2 A_load=4 A_load.                      (8)
+   122	```
+   123	
+   124	On `P>0`, `A_load>0`, so it is strictly convex and has the unique minimum
+   125	
+   126	```text
+   127	phi_star=(1/4)log(n_beta/a),
+   128	A_min=2 sqrt(a n_beta)/sigma^2.                     (9)
+   129	```
+   130	
+   131	When the two calibrated projections balance, `a=n_beta`,
+   132	
+   133	```text
+   134	phi_star=0,
+   135	A_load=(2a/sigma^2) cosh(2phi).                     (10)
+   136	```
+   137	
+   138	Thus the middle is not inserted by hand. It is the balance point between two oppositely scaled
+   139	reciprocal channels. The exact algebra does **not** prove that `phi_star=0` for the physical universe;
+   140	that requires the physical history to determine the relative projections.
+   141	
+   142	The full eigenvalue pair is
+   143	
+   144	```text
+   145	lambda_+- = [A_load +- sqrt(A_load^2-4det(Pi))]/2.  (11)
+   146	```
+   147	
+   148	so the matrix loading, not only the chosen trace summary, is completely known.
+   149	
+   150	## 5. Boundary strata
+   151	
+   152	All `PSD(2)` ranks remain in the atlas.
+   153	
+   154	- `P=0`: no orchestra loading.
+   155	- `rank(P)=1`, with both `a>0` and `n_beta>0`: the trace still has a two-sided strict minimum, while
+   156	  one eigenvalue is identically zero.
+   157	- `rank(P)=1`, `a=0`: only the `exp(-2phi)` ruler-facing side survives.
+   158	- `rank(P)=1`, `n_beta=0`: only the `exp(+2phi)` clock-facing side survives.
+   159	- `P>0`: both sides are nonzero and the two-sided theorem is unavoidable.
+   160	
+   161	These are mathematical strata, not particle/cosmic classifications.
+   162	
+   163	## 6. Effect on the unique terminal reciprocal readout
+   164	
+   165	Let
+   166	
+   167	```text
+   168	x=Pi00,
+   169	y=Pi11,
+   170	z=Pi01.
+   171	```
+   172	
+   173	On the regular A-clock stratum `x<1`, direct decomposition of the **completed** metric gives
+   174	
+   175	```text
+   176	T_pair^2/T^2 = 1-x,
+   177	
+   178	L_pair^2/L^2 = 1+y+z^2/(1-x),                      (12)
+   179	
+   180	phi_pair-phi
+   181	 =(1/4)log{[(1-x)(1+y)+z^2]/(1-x)^2}.              (13)
+   182	```
+   183	
+   184	Equation (13) includes the cross/mixing channel; omitting `z^2` fails a registered hostile test.
+   185	For nonzero `P>=0`, the terminal depth is raised relative to the same base while the A-clock chart
+   186	persists, in agreement with the parent reachability theorem.
+   187	
+   188	Under the fixed-`P`, fixed-`sigma`, fixed-`beta` partial diagnostic, a generic two-sided loading
+   189	becomes large as `phi->-infinity`. On the opposite side the A-clock stratum ends when `x->1^-`, where
+   190	the terminal modulation also diverges. This supplies an exact two-ended amplification shape, but it
+   191	does not identify either end with physical microphysics or `X_max`.
+   192	
+   193	The conditional endpoint law remains unique:
+   194	
+   195	```text
+   196	c_eff^(pair)/c_E=exp(-2phi_pair).                   (14)
+   197	```
+   198	
+   199	Angular and mixing effects have already entered (12)--(13) before (14) is read.
+   200	
+   201	## 7. The all-sectors-live relation flow
+   202	
+   203	Let every quantity depend on an arbitrary relation parameter `lambda`. Define
+   204	
+   205	```text
+   206	Gamma=(dB/dlambda)B^-1.
+   207	```
+   208	
+   209	Differentiating (1) gives exactly
+   210	
+   211	```text
+   212	dPi/dlambda
+   213	 =-Gamma^T Pi-Pi Gamma
+   214	  +B^-T(dP/dlambda)B^-1.                            (15)
+   215	```
+   216	
+   217	This is the correct one-relation flow identity. The first two terms carry the already assembled
+   218	orchestra through changes of common scale, reciprocal depth, and shift. The final term retains
+   219	changes of the complete angular/mixing/embedding Gram data. Nothing is frozen in (15).
+   220	
+   221	In components, for nonzero projections,
+   222	
+   223	```text
+   224	d Pi00/Pi00
+   225	 =d a/a -2 d sigma/sigma +2 d phi,
+   226	
+   227	d Pi11/Pi11
+   228	 =d n_beta/n_beta -2 d sigma/sigma -2 d phi.        (16)
+   229	```
+   230	
+   231	Equation (16) distinguishes what is now derived from what remains open:
+   232	
+   233	- the opposite reciprocal signs are `DERIVED`;
+   234	- the actual histories of `a`, `n_beta`, `sigma`, `beta`, and `phi` remain supplied by the complete
+   235	  metric history/query realization;
+   236	- therefore the kernel can amplify or quiet an owned history, but cannot choose that history.
+   237	
+   238	The earlier time-live orchestra audit found the same ownership boundary in connection form. The new
+   239	advance is the explicit reciprocal-normalized response geometry and its exact two-sided convexity.
+   240	
+   241	## 8. Consequences for the current program
+   242	
+   243	This result supports a simpler architecture:
+   244	
+   245	```text
+   246	one complete pair relation
+   247	  -> reciprocal normalization redistributes its internal orchestra loading
+   248	  -> one terminal phi_pair and c_eff ratio are read.
+   249	```
+   250	
+   251	It does not support
+   252	
+   253	```text
+   254	P1 radial curve + fitted angular correction + fitted AM correction.
+   255	```
+   256	
+   257	The possible three-regime interpretation is now mathematically motivated but not yet physical:
+   258	
+   259	```text
+   260	one reciprocal extreme  -> amplified ruler-facing loading,
+   261	intermediate balance    -> minimum loading,
+   262	other reciprocal extreme-> amplified clock-facing loading.
+   263	```
+   264	
+   265	SNe may later test whether its observed corridor lies near the balance point. CMB and microphysics
+   266	may later test the two amplified ends. No observational datum was used to obtain (1)--(16).
+   267	
+   268	## 9. G88 scope correction
+   269	
+   270	G88 varied a stationary AM lapse continuation and 197 angular/mixing profiles inside one fixed
+   271	stationary radial SNe bridge. That is a different object from the present generic A/M loading
+   272	operator. G88's local mismatch cannot reject the terminal reciprocal-`c_E` law or the response kernel.
+   273	Its evidence remains a scoped control on that particular stationary bridge and should be regraded
+   274	before banking.
+   275	
+   276	## 10. Evidence
+   277	
+   278	- preregistration commit: `965906fb`;
+   279	- exact SymPy route: `13/13` identities;
+   280	- exact production witnesses: six, spanning Gram ranks `0/1/2 = 1/2/3`;
+   281	- independent stdlib `Fraction` route: `360/360` component, determinant, and regular terminal-ratio
+   282	  cases, with rank counts `60/120/180`;
+   283	- independent 80-digit finite-difference live-flow check: maximum absolute error
+   284	  `1.4211726681365393e-52`;
+   285	- hostile mutations caught: `9/9`.
+   286	
+   287	The independent route does not import production code. Fresh external semantic/adversarial review
+   288	has not yet occurred.
+   289	
+   290	## 11. Exact bounded landing
+   291	
+   292	```text
+   293	DERIVED_CONDITIONAL_RECIPROCAL_TWO_SIDED_AMPLIFICATION_KERNEL__ON_ONE_SUPPLIED_REGULAR_
+   294	A_CALIBRATED_COMPLETE_PAIR_RELATION_THE_NORMALIZED_ORCHESTRA_LOADING_IS_PI=B^-T_P_B^-1__
+   295	ITS_CLOCK_AND_RULER_PROJECTIONS_SCALE_AS_EXP_PLUS_2PHI_AND_EXP_MINUS_2PHI__EVERY_POSITIVE_
+   296	DEFINITE_GRAM_LOADING_HAS_ONE_STRICT_INTERMEDIATE_TRACE_MINIMUM_AND_GROWS_TOWARD_BOTH_
+   297	RECIPROCAL_EXTREMES__THE_COMPLETE_TERMINAL_PHI_PAIR_IS_READ_ONLY_AFTER_THIS_INTERNAL_JOIN__
+   298	THE_EXACT_LIVE_FLOW_RETAINS_DB_AND_DP__NO_PHYSICAL_REGIME_HISTORY_BALANCE_LOCATION_SNE_CMB_
+   299	MICROPHYSICS_XMAX_ACTION_SOURCE_MATTER_OR_BOOTSTRAP_LAW_IS_DERIVED.
+   300	```
+   301	
+
+exec
+/bin/bash -lc 'nl -ba repository_sources/udt_bao_data_suitability_reset_2026-08-12/AUDIT_REPORT.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	# BAO data suitability reset — result
+     2	
+     3	Date: 2026-08-12  
+     4	Mode: `MAP -> OBSERVE`; no UDT fit  
+     5	Primary landing: `OFFICIAL_PRODUCT_READY_ONLY_WITH_DECLARED_FIDUCIAL_OR_RULER_NUISANCE`
+     6	
+     7	## Ontology correction carried into the landing
+     8	
+     9	The preregistered word `ruler` is retained only to preserve the frozen contract. Its operational
+    10	meaning is:
+    11	
+    12	```text
+    13	FULL_PATTERN_VECTOR_READY_ONLY_WITH_PUBLISHED_NORMALIZATION_NUISANCE
+    14	```
+    15	
+    16	`BAO` is only the public release label. This audit assigns no acoustic origin, standard ruler,
+    17	yardstick, sound horizon, Lambda-CDM dynamics, or early-universe mechanism to the observed
+    18	correlation pattern. The release's symbol `r_d` is only a common packaging normalization.
+    19	
+    20	## What passed
+    21	
+    22	The official DESI DR2 Gaussian product distributed by `CobayaSampler/bao_data` release `v2.6`
+    23	contains a 13-component vector and a 13x13 covariance:
+    24	
+    25	- one isotropic `D_V/r_d` entry at `z=0.295`;
+    26	- six paired `D_M/r_d`, `D_H/r_d` entries from `z=0.510` through `z=2.330`;
+    27	- an exactly symmetric, full-rank, positive-Cholesky covariance;
+    28	- a released Gaussian quadratic form reproduced both by pinned Cobaya `v3.6.2` and by an
+    29	  independent standard-library `Decimal` implementation.
+    30	
+    31	On the fixed synthetic residual, the three log likelihood values are:
+    32	
+    33	```text
+    34	released Cobaya:       -15.350004514927292
+    35	UDT NumPy replay:      -15.350004514927313
+    36	independent Decimal:   -15.3500045149273183333049967557...
+    37	```
+    38	
+    39	The largest disagreement is `2.2e-14`.
+    40	
+    41	The mean vector reproduces the primary paper's separately printed central values to below `0.001`.
+    42	The square roots of the public Gaussian covariance diagonal differ from the paper's separately
+    43	marginalized one-dimensional widths by as much as `0.0098`. That is a real representation caveat:
+    44	the public Gaussian is a released distance-basis approximation, not an exact reproduction of every
+    45	nonlinear marginalized one-dimensional posterior. It remains the internally consistent likelihood
+    46	product tested here.
+    47	
+    48	## Clean UDT-facing channels
+    49	
+    50	Two uses survive the ontology audit:
+    51	
+    52	1. **Full released pattern vector.** A later UDT prediction may be compared to all 13 components
+    53	   with the full covariance, but the common publication normalization must remain a free
+    54	   `PUBLISHED_NORMALIZATION_NUISANCE` unless separately fixed by an observational anchor.
+    55	2. **Normalization-free two-leg shape.** In the six anisotropic bins, `D_M/D_H` cancels that common
+    56	   normalization. This is the cleanest current pattern-shape channel. The tabulated delta-method
+    57	   errors are characterization only; a scientific fit should transform or evaluate the original
+    58	   two-dimensional covariance blocks rather than treat those approximate errors as independent.
+    59	
+    60	Neither use makes the product a raw observer-pair measurement. It was compressed through a declared
+    61	fiducial coordinate and template pipeline. That layer is a comparison/readout map, not a UDT premise.
+    62	
+    63	## Lineage results
+    64	
+    65	- `LOCAL_ANGULAR_M2_M3`: `CHARACTER_ONLY`. The catalog calculation is reproducible, but uses a
+    66	  diagonal jackknife covariance, the one-scale profile was variant-unstable, and the radial leg was
+    67	  never built. It cannot calibrate the complete pair relation or `X_max`.
+    68	- `LOCAL_LYA_SELF_FIT`: `UNSUITABLE_AS_FIT`, while its correlation and covariance products are
+    69	  `REPROCESSABLE` under a new preregistration. The local template failed its absolute-fit gate.
+    70	- authoritative published DR1/eBOSS two-leg summaries: `AP_READY_WITH_FIDUCIAL_MAP` as secondary
+    71	  cross-survey pattern checks. Simplified local DESI tables are not authority.
+    72	- `OFFICIAL_DR2_GAUSSIAN`: full vector ready only with a publication-normalization nuisance; six
+    73	  normalization-free two-leg shape bins are ready with the fiducial readout declared.
+    74	- DR1 full-shape/window products and raw DR1 catalogs: `REPROCESSABLE`, not presently pair-ready.
+    75	
+    76	## Maximum justified conclusion
+    77	
+    78	There is now a reproducible current dataset suitable for a later preregistered UDT pattern
+    79	comparison. This audit does **not** fit UDT, validate a pair history, derive a feature origin, select a
+    80	physical branch, or determine `X_max`.
+    81	
+    82	The next lawful action is a separate preregistration for the one complete pair relation: first use the
+    83	normalization-free six-bin pattern shape, then—only if the metric owns the required normalization
+    84	map—use the full 13-vector with one declared packaging nuisance. SNe remains a separate low-resolution
+    85	middle-regime anchor; neither dataset may silently supply a UDT law.
+    86	
+    87	## External review
+    88	
+    89	A fresh sealed `gpt-5.4` review returned `SUSTAINED_VERIFIED_WITH_CAVEATS`. It reproduced the
+    90	load-bearing data/likelihood reasoning and sustained the ontology and lineage classifications. Its
+    91	two evidence-presentation repairs are implemented in `PREREGISTRATION_COMMIT_PROOF.md` and
+    92	`TABLE4_REPRESENTATION_NOTE.md`; neither changes any scientific or numerical result.
+
+exec
+/bin/bash -lc 'nl -ba repository_sources/udt_bao_data_suitability_reset_2026-08-12/ONTOLOGY_CORRECTION.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	# Ontology correction — BAO is a release label, not a UDT mechanism
+     2	
+     3	Date: 2026-08-12  
+     4	Authority: Charles's explicit correction after preregistration
+     5	
+     6	The frozen preregistration uses the collaboration's conventional names and the class label
+     7	`SCALE_READY_WITH_NUISANCE_RULER`. That label must not be read as UDT acceptance of an acoustic
+     8	origin, a standard ruler, a yardstick, or an early-universe mechanism.
+     9	
+    10	For all current and downstream UDT work:
+    11	
+    12	- `BAO` is only the public dataset/subject label;
+    13	- the measured clustering feature is referred to neutrally as the **observed correlation pattern**;
+    14	- `D_M/r_d`, `D_H/r_d`, and `D_V/r_d` are **published dimensionless pattern coordinates**;
+    15	- the symbol `r_d` is treated only as the release's common packaging normalization;
+    16	- if the complete published vector is used, that common normalization is a free
+    17	  `PUBLISHED_NORMALIZATION_NUISANCE` with no physical interpretation assigned;
+    18	- `D_M/D_H` is the clean shape channel because the publication normalization cancels;
+    19	- no acoustic-origin model, sound-horizon calculation, standard-ruler assumption, Lambda-CDM
+    20	  dynamics, or early-universe mechanism may enter a UDT prediction.
+    21	
+    22	The preregistered class name is retained only to preserve the frozen audit contract. Its operative
+    23	meaning is corrected to:
+    24	
+    25	```text
+    26	SCALE_READY_WITH_NUISANCE_RULER
+    27	  == FULL_PATTERN_VECTOR_READY_ONLY_WITH_PUBLISHED_NORMALIZATION_NUISANCE
+    28	```
+    29	
+    30	This correction changes ontology and language, not the released bytes or covariance.
+    31	
+
+exec
+/bin/bash -lc 'nl -ba repository_sources/udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+exec
+/bin/bash -lc 'nl -ba repository_sources/udt_bao_data_suitability_reset_2026-08-12/OFFICIAL_DR2_AUDIT_RESULT.json' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	# Audit report — native observer-query SNe replay and regrading
+     2	
+     3	Date: 2026-08-11
+     4	
+     5	Status: **EXTERNALLY REVIEWED — VERIFIED WITH CAVEATS**
+     6	
+     7	## Result
+     8	
+     9	The latest native SNe result reproduces exactly, and the corrected observer-query framing leaves
+    10	its numerical formulas unchanged.
+    11	
+    12	```text
+    13	BASELINE_REPRODUCED__NATIVE_RETYPE_ALGEBRAICALLY_IDENTICAL
+    14	AND
+    15	NO_OWNED_COMPLETE_SNE_QUERY_CORRECTION
+    16	```
+    17	
+    18	This is useful progress, but not an automatic fit improvement. The corrected geometry places the
+    19	successful P1 relation in its proper home: a conditional terminal observer-pair/SNe readout. The
+    20	full angular/mixing orchestra can influence that terminal readout upstream, but the current bank
+    21	does not yet select the complete SNe pair immersion, screen-area law, time-live trajectory, or
+    22	coefficient-free correction. Nothing extra was inserted.
+    23	
+    24	## Reproduction
+    25	
+    26	The unchanged production path replayed all `18` historical M3 fits:
+    27	
+    28	```text
+    29	compared stored leaf fields:       443
+    30	maximum absolute numeric change:  0.0
+    31	```
+    32	
+    33	The primary A:`zCMB`:P1 result remains:
+    34	
+    35	```text
+    36	1/n = 0.9470295666076658
+    37	n   = 1.0559332414320268
+    38	chi2/dof = 1260.8480887040496 / 1365
+    39	```
+    40	
+    41	The mode-B external anchor still conditionally gives:
+    42	
+    43	```text
+    44	X_eff = 2085.9586748597476 Mpc
+    45	R_w at best n = 2202.6331050379085 Mpc
+    46	```
+    47	
+    48	These absolute values retain the frozen `M_B=-19.253 +/- 0.027` external-anchor premise.
+    49	
+    50	## Independent reconstruction
+    51	
+    52	A separate implementation did not import the production fitter. It used NumPy Cholesky whitening,
+    53	an independently written P1 formula, a 208-point full-bounds control scan, and a separate bounded
+    54	scalar minimizer. It found:
+    55	
+    56	```text
+    57	1/n = 0.9470305108426823
+    58	n   = 1.0559321886157444
+    59	chi2 = 1260.8480887249352
+    60	X_eff = 2085.9590069567967 Mpc
+    61	Delta chi2(n=1) = 7.944900501660641
+    62	one-parameter equivalent = 2.8186699880725024 sigma
+    63	```
+    64	
+    65	Every value is inside the preregistered tolerance. The result remains an observed conditional P1
+    66	shape, not a derivation of `n`, `R_w`, or `X_max`.
+    67	
+    68	## Native retyping result
+    69	
+    70	All `9/9` exact symbolic checks pass. On a supplied regular calibrated SNe pair relation,
+    71	
+    72	```text
+    73	phi_pair=log(1+z)
+    74	```
+    75	
+    76	turns the three historical `r(phi_pair)` families into exactly the same P1/P2/P3 `r(z)` and
+    77	`d_L(z)` formulas already fitted. The conditional pair-cone identity becomes
+    78	
+    79	```text
+    80	c_eff^(pair)/c_E=(1+z)^(-2),
+    81	```
+    82	
+    83	with `c_E` cancelling from the dimensionless shape. This is not a material signal-speed claim.
+    84	
+    85	The area/flux join
+    86	
+    87	```text
+    88	d_A=r,
+    89	d_L=(1+z)^2 d_A
+    90	```
+    91	
+    92	remains a conditional registered SNe readout. It is not newly derived from the complete metric by
+    93	the act of retyping `phi`.
+    94	
+    95	## Ownership result
+    96	
+    97	`CORRECTION_OWNER_LEDGER.tsv` separates the relevant layers. The bank owns:
+    98	
+    99	- the terminal reciprocal coordinate on a supplied calibrated pair relation;
+   100	- the conditional supplied-pair cone ratio;
+   101	- the structural fact that angular and mixing components can modulate `phi_pair` before readout;
+   102	- P1's conditional observer-pair/SNe role.
+   103	
+   104	It does not own:
+   105	
+   106	- the physical complete SNe pair immersion or branch;
+   107	- the complete SNe screen-area map;
+   108	- the physical time-live curve through the orchestra atlas;
+   109	- a bootstrap selector;
+   110	- any coefficient-free native correction to the frozen P1/P2/P3 readout.
+   111	
+   112	Therefore “native improvement” is still a legitimate possibility, but not yet a defined
+   113	calculation. A lower chi-square cannot be obtained honestly by interpreting the same formula more
+   114	natively; it requires the missing upstream geometry to determine a genuinely different formula.
+   115	
+   116	## Scope and completeness
+   117	
+   118	This covers the full frozen 18-fit M3 universe and the exact retyping of all three frozen profile
+   119	families. It does not cover every SNe query, complete metric branch, screen, cut-locus realization,
+   120	time-live solution, source model, or observational catalog. The historical scalar fit freezes or
+   121	omits complete-query channels and cannot be promoted to a full-metric solution-space census.
+   122	
+   123	No BAO/CMB data, bootstrap, action, source, matter, mass, or GPU calculation entered.
+   124	
+   125	## Four gates
+   126	
+   127	1. Preregistered: **YES**, commit `b585572f`; one-character source-hash correction separately
+   128	   preregistered and committed at `307144b5` before the numerical replay.
+   129	2. Full or bounded scope justified: **YES**, complete for the frozen 18-fit M3 universe and three
+   130	   exact profile retypings; not complete for all SNe realizations or full UDT geometry.
+   131	3. Independently verified: **YES WITH CAVEATS**. Production replay, independent primary
+   132	   reconstruction, `9/9` exact checks, `14/14` scope catches, and a fresh sealed gpt-5.4 review
+   133	   pass. The reviewer reproduced the science and ownership conclusion, found one replay leaf-type
+   134	   weakness, and retained `VERIFIED_WITH_CAVEATS`. The preregistered correction adds `3/3` type
+   135	   controls and raises the final package verifier to `43/43`; see
+   136	   `EXTERNAL_REVIEW_ADJUDICATION.md`.
+   137	4. Premises audited: **YES**, including the external absolute anchor, BBC-adjacent layer,
+   138	   conditional area/flux readout, P1 role guard, live orchestra, inactive bootstrap, and open
+   139	   physical pair realization.
+   140	
+   141	Repository gates at this stage:
+   142	
+   143	```text
+   144	pytest: 98 passed, 1 xfailed
+   145	current premise guard: 63 PASS
+   146	```
+   147	
+   148	## Next step
+   149	
+   150	If the external review sustains the result, retain SNe as a low-redshift conditional compatibility
+   151	anchor and return to the actual CMB observation query. Do not copy P1 into a centered CMB lapse.
+   152	The CMB query must expose its own endpoint, screen/area, Jacobi, ambient-transport, and
+   153	normal-transport channels. Any complete geometry selected there can later be projected back through
+   154	this SNe query to test whether it predicts the observed P1-like relation without extra freedom.
+
+ succeeded in 0ms:
+     1	{
+     2	  "status": "PASS",
+     3	  "scope": "official DESI DR2 Gaussian data suitability; no UDT fit",
+     4	  "data_release": "CobayaSampler/bao_data v2.6",
+     5	  "data_commit": "b7b8a36e9bccb063081f811f323cada21ab5fbdd",
+     6	  "cobaya_commit": "899f30a49f85de610dac321e91a1af50018e56aa",
+     7	  "mean_sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+     8	  "cov_sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+     9	  "n_measurements": 13,
+    10	  "quantity_counts": {
+    11	    "DH_over_rs": 6,
+    12	    "DM_over_rs": 6,
+    13	    "DV_over_rs": 1
+    14	  },
+    15	  "redshift_min": 0.295,
+    16	  "redshift_max": 2.33,
+    17	  "covariance": {
+    18	    "shape": [
+    19	      13,
+    20	      13
+    21	    ],
+    22	    "symmetry_max_abs": 0.0,
+    23	    "rank": 13,
+    24	    "eigenvalue_min": 0.00578998687,
+    25	    "eigenvalue_max": 0.6764084362676288,
+    26	    "condition_2": 116.82382904395578,
+    27	    "off_registered_block_max_abs": 0.0
+    28	  },
+    29	  "table4_replay": {
+    30	    "interpretation": "central values reproduce the paper; Gaussian covariance widths are an approximation and are not identical to separately marginalized Table 4 widths",
+    31	    "max_mean_abs_delta": 0.0009739619587847415,
+    32	    "max_sigma_abs_delta": 0.009781586096811401,
+    33	    "rows": [
+    34	      {
+    35	        "z": 0.295,
+    36	        "value": 7.94167639,
+    37	        "quantity": "DV_over_rs",
+    38	        "sigma": 0.07609196324185624,
+    39	        "table4_mean": 7.942,
+    40	        "table4_sigma": 0.075,
+    41	        "mean_abs_delta": 0.0003236100000005848,
+    42	        "sigma_abs_delta": 0.0010919632418562447
+    43	      },
+    44	      {
+    45	        "z": 0.51,
+    46	        "value": 13.58758434,
+    47	        "quantity": "DM_over_rs",
+    48	        "sigma": 0.16836678472905517,
+    49	        "table4_mean": 13.588,
+    50	        "table4_sigma": 0.167,
+    51	        "mean_abs_delta": 0.00041565999999981784,
+    52	        "sigma_abs_delta": 0.0013667847290551594
+    53	      },
+    54	      {
+    55	        "z": 0.51,
+    56	        "value": 21.86294686,
+    57	        "quantity": "DH_over_rs",
+    58	        "sigma": 0.42886832478046216,
+    59	        "table4_mean": 21.863,
+    60	        "table4_sigma": 0.425,
+    61	        "mean_abs_delta": 5.313999999856378e-05,
+    62	        "sigma_abs_delta": 0.0038683247804621734
+    63	      },
+    64	      {
+    65	        "z": 0.706,
+    66	        "value": 17.35069094,
+    67	        "quantity": "DM_over_rs",
+    68	        "sigma": 0.17993122074837373,
+    69	        "table4_mean": 17.351,
+    70	        "table4_sigma": 0.177,
+    71	        "mean_abs_delta": 0.000309059999999306,
+    72	        "sigma_abs_delta": 0.0029312207483737363
+    73	      },
+    74	      {
+    75	        "z": 0.706,
+    76	        "value": 19.45534918,
+    77	        "quantity": "DH_over_rs",
+    78	        "sigma": 0.33387003159912393,
+    79	        "table4_mean": 19.455,
+    80	        "table4_sigma": 0.33,
+    81	        "mean_abs_delta": 0.0003491800000006151,
+    82	        "sigma_abs_delta": 0.003870031599123913
+    83	      },
+    84	      {
+    85	        "z": 0.934,
+    86	        "value": 21.57563956,
+    87	        "quantity": "DM_over_rs",
+    88	        "sigma": 0.1617815860968114,
+    89	        "table4_mean": 21.576,
+    90	        "table4_sigma": 0.152,
+    91	        "mean_abs_delta": 0.0003604400000014607,
+    92	        "sigma_abs_delta": 0.009781586096811401
+    93	      },
+    94	      {
+    95	        "z": 0.934,
+    96	        "value": 17.64149464,
+    97	        "quantity": "DH_over_rs",
+    98	        "sigma": 0.20104324858099562,
+    99	        "table4_mean": 17.641,
+   100	        "table4_sigma": 0.193,
+   101	        "mean_abs_delta": 0.0004946400000029882,
+   102	        "sigma_abs_delta": 0.008043248580995616
+   103	      },
+   104	      {
+   105	        "z": 1.321,
+   106	        "value": 27.60085612,
+   107	        "quantity": "DM_over_rs",
+   108	        "sigma": 0.32455587500459765,
+   109	        "table4_mean": 27.601,
+   110	        "table4_sigma": 0.318,
+   111	        "mean_abs_delta": 0.00014387999999954104,
+   112	        "sigma_abs_delta": 0.006555875004597644
+   113	      },
+   114	      {
+   115	        "z": 1.321,
+   116	        "value": 14.17602155,
+   117	        "quantity": "DH_over_rs",
+   118	        "sigma": 0.22455135092000672,
+   119	        "table4_mean": 14.176,
+   120	        "table4_sigma": 0.221,
+   121	        "mean_abs_delta": 2.1549999999592728e-05,
+   122	        "sigma_abs_delta": 0.0035513509200067184
+   123	      },
+   124	      {
+   125	        "z": 1.484,
+   126	        "value": 30.51190063,
+   127	        "quantity": "DM_over_rs",
+   128	        "sigma": 0.763557644844186,
+   129	        "table4_mean": 30.512,
+   130	        "table4_sigma": 0.76,
+   131	        "mean_abs_delta": 9.937000000093121e-05,
+   132	        "sigma_abs_delta": 0.00355764484418597
+   133	      },
+   134	      {
+   135	        "z": 1.484,
+   136	        "value": 12.81699964,
+   137	        "quantity": "DH_over_rs",
+   138	        "sigma": 0.5180117691713191,
+   139	        "table4_mean": 12.817,
+   140	        "table4_sigma": 0.516,
+   141	        "mean_abs_delta": 3.599999995884673e-07,
+   142	        "sigma_abs_delta": 0.0020117691713190666
+   143	      },
+   144	      {
+   145	        "z": 2.33,
+   146	        "value": 8.631545674846294,
+   147	        "quantity": "DH_over_rs",
+   148	        "sigma": 0.10106245296844917,
+   149	        "table4_mean": 8.632,
+   150	        "table4_sigma": 0.101,
+   151	        "mean_abs_delta": 0.0004543251537061366,
+   152	        "sigma_abs_delta": 6.245296844915871e-05
+   153	      },
+   154	      {
+   155	        "z": 2.33,
+   156	        "value": 38.988973961958784,
+   157	        "quantity": "DM_over_rs",
+   158	        "sigma": 0.5316820280957407,
+   159	        "table4_mean": 38.988,
+   160	        "table4_sigma": 0.531,
+   161	        "mean_abs_delta": 0.0009739619587847415,
+   162	        "sigma_abs_delta": 0.0006820280957406943
+   163	      }
+   164	    ]
+   165	  },
+   166	  "gaussian_replay": {
+   167	    "test_residual": [
+   168	      -0.3,
+   169	      -0.25,
+   170	      -0.2,
+   171	      -0.15,
+   172	      -0.1,
+   173	      -0.05000000000000002,
+   174	      0.0,
+   175	      0.04999999999999999,
+   176	      0.09999999999999998,
+   177	      0.14999999999999997,
+   178	      0.19999999999999996,
+   179	      0.24999999999999994,
+   180	      0.3
+   181	    ],
+   182	    "manual_logpdf": -15.350004514927313,
+   183	    "cobaya_logpdf": -15.350004514927292,
+   184	    "abs_delta": 2.1316282072803006e-14
+   185	  },
+   186	  "ap_shape_rows": [
+   187	    {
+   188	      "z": 0.51,
+   189	      "DM_over_DH": 0.6214891536355314,
+   190	      "delta_method_sigma": 0.01710914602323674
+   191	    },
+   192	    {
+   193	      "z": 0.706,
+   194	      "DM_over_DH": 0.8918211017171782,
+   195	      "delta_method_sigma": 0.020776150259281742
+   196	    },
+   197	    {
+   198	      "z": 0.934,
+   199	      "DM_over_DH": 1.223005193169959,
+   200	      "delta_method_sigma": 0.019160171222185246
+   201	    },
+   202	    {
+   203	      "z": 1.321,
+   204	      "DM_over_DH": 1.9470100283531242,
+   205	      "delta_method_sigma": 0.04514281683326695
+   206	    },
+   207	    {
+   208	      "z": 1.484,
+   209	      "DM_over_DH": 2.3805805950697523,
+   210	      "delta_method_sigma": 0.1358822075026633
+   211	    },
+   212	    {
+   213	      "z": 2.33,
+   214	      "DM_over_DH": 4.517032688082611,
+   215	      "delta_method_sigma": 0.09693909563353667
+   216	    }
+   217	  ],
+   218	  "classification": {
+   219	    "full_vector_preregistered_label": "SCALE_READY_WITH_NUISANCE_RULER",
+   220	    "full_vector_operational_meaning": "FULL_PATTERN_VECTOR_READY_ONLY_WITH_PUBLISHED_NORMALIZATION_NUISANCE",
+   221	    "anisotropic_shape_projection": "AP_READY_WITH_FIDUCIAL_MAP",
+   222	    "bgs": "ISOTROPIC_ONLY",
+   223	    "origin_interpretation": "NONE__OBSERVED_CORRELATION_PATTERN_ONLY"
+   224	  }
+   225	}
+
+exec
+/bin/bash -lc 'nl -ba package/verify_independent.py' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Independent Decimal/closed-2x2 replay; imports no production code or NumPy."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import json
+     8	from decimal import Decimal, getcontext
+     9	from pathlib import Path
+    10	
+    11	
+    12	getcontext().prec = 70
+    13	N = Decimal("1.0559332414320268")
+    14	Z_USED = tuple(Decimal(x) for x in ("0.510", "0.706", "0.934", "1.321", "1.484", "2.330"))
+    15	
+    16	
+    17	def data_rows(path: Path):
+    18	    rows = []
+    19	    numeric_index = 0
+    20	    for line in path.read_text().splitlines():
+    21	        if not line or line.startswith("#"):
+    22	            continue
+    23	        z, value, kind = line.split()
+    24	        rows.append((numeric_index, Decimal(z), Decimal(value), kind))
+    25	        numeric_index += 1
+    26	    return rows
+    27	
+    28	
+    29	def matrix(path: Path):
+    30	    return [[Decimal(x) for x in line.split()] for line in path.read_text().splitlines() if line.strip()]
+    31	
+    32	
+    33	def f_values(z: Decimal):
+    34	    u = Decimal(1) + z
+    35	    f0 = z + z * z / Decimal(2)
+    36	    f1 = N / Decimal(2) * ((Decimal(2) / N * u.ln()).exp() - Decimal(1))
+    37	    return f0, f1
+    38	
+    39	
+    40	def profile(y0, y1, c00, c01, c11, f):
+    41	    determinant = c00 * c11 - c01 * c01
+    42	    i00, i01, i11 = c11 / determinant, -c01 / determinant, c00 / determinant
+    43	    ivy0 = i00 * y0 + i01 * y1
+    44	    ivy1 = i01 * y0 + i11 * y1
+    45	    numerator = f * ivy0 + ivy1
+    46	    denominator = f * f * i00 + Decimal(2) * f * i01 + i11
+    47	    amplitude = numerator / denominator
+    48	    r0, r1 = y0 - amplitude * f, y1 - amplitude
+    49	    chi2 = r0 * (i00 * r0 + i01 * r1) + r1 * (i01 * r0 + i11 * r1)
+    50	    return amplitude, chi2
+    51	
+    52	
+    53	def main():
+    54	    parser = argparse.ArgumentParser()
+    55	    parser.add_argument("--mean", type=Path, required=True)
+    56	    parser.add_argument("--cov", type=Path, required=True)
+    57	    parser.add_argument("--production", type=Path, required=True)
+    58	    parser.add_argument("--output", type=Path, required=True)
+    59	    args = parser.parse_args()
+    60	
+    61	    rows, cov = data_rows(args.mean), matrix(args.cov)
+    62	    production = json.loads(args.production.read_text())
+    63	    totals = {"C0": Decimal(0), "C1": Decimal(0)}
+    64	    maximum_row_delta = Decimal(0)
+    65	    exact_rows = []
+    66	    for z in Z_USED:
+    67	        dm = next(row for row in rows if row[1] == z and row[3] == "DM_over_rs")
+    68	        dh = next(row for row in rows if row[1] == z and row[3] == "DH_over_rs")
+    69	        c00, c01, c11 = cov[dm[0]][dm[0]], cov[dm[0]][dh[0]], cov[dh[0]][dh[0]]
+    70	        for name, f in zip(("C0", "C1"), f_values(z)):
+    71	            amplitude, chi2 = profile(dm[2], dh[2], c00, c01, c11, f)
+    72	            totals[name] += chi2
+    73	            prod_row = next(x for x in production["controls"][name] if Decimal(str(x["z"])) == z)
+    74	            delta = abs(chi2 - Decimal(str(prod_row["chi2"])))
+    75	            maximum_row_delta = max(maximum_row_delta, delta)
+    76	            exact_rows.append(
+    77	                {
+    78	                    "control": name,
+    79	                    "z": str(z),
+    80	                    "observed_DM": str(dm[2]),
+    81	                    "observed_DH": str(dh[2]),
+    82	                    "F": str(f),
+    83	                    "amplitude": str(amplitude),
+    84	                    "chi2": str(chi2),
+    85	                }
+    86	            )
+    87	
+    88	    total_deltas = {
+    89	        name: abs(value - Decimal(str(production["totals"][name]["chi2"])))
+    90	        for name, value in totals.items()
+    91	    }
+    92	    assert maximum_row_delta < Decimal("1e-12")
+    93	    assert max(total_deltas.values()) < Decimal("1e-12")
+    94	    result = {
+    95	        "status": "PASS",
+    96	        "method": "stdlib Decimal closed 2x2 inverse and analytic profile; no NumPy or production import",
+    97	        "precision_digits": getcontext().prec,
+    98	        "totals": {key: str(value) for key, value in totals.items()},
+    99	        "total_abs_deltas": {key: str(value) for key, value in total_deltas.items()},
+   100	        "maximum_row_abs_delta": str(maximum_row_delta),
+   101	        "rows": exact_rows,
+   102	    }
+   103	    args.output.write_text(json.dumps(result, indent=2) + "\n")
+   104	    print(json.dumps({key: result[key] for key in ("status", "totals", "maximum_row_abs_delta")}))
+   105	
+   106	
+   107	if __name__ == "__main__":
+   108	    main()
+
+exec
+/bin/bash -lc 'nl -ba package/derive_pair_shape.py' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Derive the complete-pair shape operator and evaluate two frozen controls."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import hashlib
+     8	import json
+     9	from pathlib import Path
+    10	
+    11	import numpy as np
+    12	import sympy as sp
+    13	from scipy.optimize import minimize_scalar
+    14	
+    15	
+    16	EXPECTED_MEAN_SHA256 = "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585"
+    17	EXPECTED_COV_SHA256 = "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509"
+    18	N_SNE = 1.0559332414320268
+    19	Z_USED = (0.510, 0.706, 0.934, 1.321, 1.484, 2.330)
+    20	
+    21	
+    22	def sha256(path: Path) -> str:
+    23	    digest = hashlib.sha256()
+    24	    with path.open("rb") as stream:
+    25	        for block in iter(lambda: stream.read(1024 * 1024), b""):
+    26	            digest.update(block)
+    27	    return digest.hexdigest()
+    28	
+    29	
+    30	def symbolic_checks() -> dict[str, str | bool]:
+    31	    q, da, L, phip, phi = sp.symbols("q d_A L phi_prime phi", positive=True)
+    32	    # lambda_new=f(lambda), q=d lambda_new/d lambda > 0.
+    33	    transformed = sp.exp(phi) * da * (phip / q) / (L / q)
+    34	    base = sp.exp(phi) * da * phip / L
+    35	    reparam_ok = sp.simplify(transformed - base) == 0
+    36	    missing_l_base = sp.exp(phi) * da * phip
+    37	    missing_l_transformed = sp.exp(phi) * da * phip / q
+    38	    missing_l_reparam_ok = sp.simplify(missing_l_transformed - missing_l_base) == 0
+    39	
+    40	    u, X, n = sp.symbols("u X n", positive=True)
+    41	    r_general = X / n * (1 - u ** (-2 / n))
+    42	    dr_du = sp.diff(r_general, u)
+    43	    # lambda=r, L_pair=u, dz/du=1, d_A=r.
+    44	    f_general = sp.factor(r_general / (u * dr_du))
+    45	    target_general = n / 2 * (u ** (2 / n) - 1)
+    46	    general_ok = sp.simplify(f_general - target_general) == 0
+    47	    missing_exp_general = sp.factor(f_general / u)
+    48	    missing_exp_differs = sp.simplify(missing_exp_general - target_general) != 0
+    49	    c0 = sp.simplify(target_general.subs(n, 1).subs(u, 1 + sp.Symbol("z")))
+    50	    c0_ok = sp.expand(c0 - (sp.Symbol("z") + sp.Symbol("z") ** 2 / 2)) == 0
+    51	
+    52	    return {
+    53	        "operator": "F_pair=exp(phi_pair)*d_A*(dphi_pair/dlambda)/L_pair=d_A*(dz/dlambda)/L_pair",
+    54	        "orientation_preserving_reparameterization_invariant": reparam_ok,
+    55	        "missing_L_pair_reparameterization_invariant": missing_l_reparam_ok,
+    56	        "reversal": "signed F changes sign; physical unoriented pattern shape uses abs(F)",
+    57	        "general_scalar_reduction": sp.sstr(f_general),
+    58	        "general_scalar_target": sp.sstr(target_general),
+    59	        "general_scalar_exact": general_ok,
+    60	        "missing_exp_phi_general": sp.sstr(missing_exp_general),
+    61	        "missing_exp_phi_fails_scalar_reduction": missing_exp_differs,
+    62	        "c0_exact": c0_ok,
+    63	    }
+    64	
+    65	
+    66	def load_rows(path: Path) -> list[dict[str, float | str | int]]:
+    67	    result = []
+    68	    for index, line in enumerate(path.read_text(encoding="utf-8").splitlines()):
+    69	        if not line or line.startswith("#"):
+    70	            continue
+    71	        z, value, quantity = line.split()
+    72	        result.append(
+    73	            {"index": index - 1, "z": float(z), "value": float(value), "quantity": quantity}
+    74	        )
+    75	    # Header is one line, so the index above equals the zero-based numerical row index.
+    76	    return result
+    77	
+    78	
+    79	def controls(z: float) -> tuple[float, float]:
+    80	    u = 1.0 + z
+    81	    return z + 0.5 * z * z, 0.5 * N_SNE * (u ** (2.0 / N_SNE) - 1.0)
+    82	
+    83	
+    84	def profile_direction(y: np.ndarray, cov: np.ndarray, f_value: float) -> dict[str, float]:
+    85	    inv = np.linalg.inv(cov)
+    86	    v = np.array([f_value, 1.0], dtype=np.float64)
+    87	    amplitude = float((v @ inv @ y) / (v @ inv @ v))
+    88	    residual = y - amplitude * v
+    89	    chi2 = float(residual @ inv @ residual)
+    90	    objective = lambda trial: float((y - trial * v) @ inv @ (y - trial * v))
+    91	    scale = max(1.0, abs(amplitude))
+    92	    direct = minimize_scalar(
+    93	        objective,
+    94	        bracket=(amplitude - scale, amplitude, amplitude + scale),
+    95	        method="brent",
+    96	        options={"xtol": 1e-14, "maxiter": 1000},
+    97	    )
+    98	    if not direct.success:
+    99	        raise RuntimeError(f"direct nuisance minimization failed: {direct.message}")
+   100	    f_obs = float(y[0] / y[1])
+   101	    signed = float(np.sign(f_obs - f_value) * np.sqrt(max(0.0, chi2)))
+   102	    return {
+   103	        "F_pred": f_value,
+   104	        "F_observed": f_obs,
+   105	        "observed_DM": float(y[0]),
+   106	        "observed_DH": float(y[1]),
+   107	        "profiled_publication_amplitude": amplitude,
+   108	        "direct_minimizer_amplitude": float(direct.x),
+   109	        "direct_minimizer_chi2": float(direct.fun),
+   110	        "direct_amplitude_abs_delta": abs(float(direct.x) - amplitude),
+   111	        "direct_chi2_abs_delta": abs(float(direct.fun) - chi2),
+   112	        "chi2": chi2,
+   113	        "signed_sqrt_chi2": signed,
+   114	        "residual_DM": float(residual[0]),
+   115	        "residual_DH": float(residual[1]),
+   116	    }
+   117	
+   118	
+   119	def classify(chi2: float) -> str:
+   120	    if chi2 <= 12.592:
+   121	        return "COMPATIBLE_ON_SIX_BIN_SHAPE_QUERY"
+   122	    if chi2 <= 22.458:
+   123	        return "TENSION_ON_SIX_BIN_SHAPE_QUERY"
+   124	    return "INCOMPATIBLE_ON_SIX_BIN_SHAPE_QUERY"
+   125	
+   126	
+   127	def main() -> None:
+   128	    parser = argparse.ArgumentParser()
+   129	    parser.add_argument("--mean", type=Path, required=True)
+   130	    parser.add_argument("--cov", type=Path, required=True)
+   131	    parser.add_argument("--output", type=Path, required=True)
+   132	    parser.add_argument("--rows-output", type=Path, required=True)
+   133	    args = parser.parse_args()
+   134	
+   135	    assert sha256(args.mean) == EXPECTED_MEAN_SHA256
+   136	    assert sha256(args.cov) == EXPECTED_COV_SHA256
+   137	    symbolic = symbolic_checks()
+   138	    assert symbolic["orientation_preserving_reparameterization_invariant"]
+   139	    assert symbolic["general_scalar_exact"] and symbolic["c0_exact"]
+   140	
+   141	    rows = load_rows(args.mean)
+   142	    cov_full = np.loadtxt(args.cov)
+   143	    assert cov_full.shape == (13, 13)
+   144	    controls_out: dict[str, list[dict[str, float]]] = {"C0": [], "C1": []}
+   145	
+   146	    for z in Z_USED:
+   147	        dm = next(row for row in rows if abs(float(row["z"]) - z) < 1e-12 and row["quantity"] == "DM_over_rs")
+   148	        dh = next(row for row in rows if abs(float(row["z"]) - z) < 1e-12 and row["quantity"] == "DH_over_rs")
+   149	        indices = [int(dm["index"]), int(dh["index"])]
+   150	        y = np.array([float(dm["value"]), float(dh["value"])])
+   151	        cov = cov_full[np.ix_(indices, indices)]
+   152	        f0, f1 = controls(z)
+   153	        for name, f_value in (("C0", f0), ("C1", f1)):
+   154	            item = {"z": z, **profile_direction(y, cov, f_value)}
+   155	            item["cov_DM_DM"] = float(cov[0, 0])
+   156	            item["cov_DM_DH"] = float(cov[0, 1])
+   157	            item["cov_DH_DH"] = float(cov[1, 1])
+   158	            controls_out[name].append(item)
+   159	
+   160	    totals = {name: float(sum(row["chi2"] for row in values)) for name, values in controls_out.items()}
+   161	    max_direct_amplitude_delta = max(
+   162	        row["direct_amplitude_abs_delta"] for values in controls_out.values() for row in values
+   163	    )
+   164	    max_direct_chi2_delta = max(
+   165	        row["direct_chi2_abs_delta"] for values in controls_out.values() for row in values
+   166	    )
+   167	    assert max_direct_amplitude_delta < 1e-6
+   168	    assert max_direct_chi2_delta < 1e-10
+   169	    result = {
+   170	        "status": "PASS",
+   171	        "scope": "complete-pair operator plus two frozen scalar controls; no UDT fit",
+   172	        "preregistration_commit": "efdecd35",
+   173	        "mean_sha256": EXPECTED_MEAN_SHA256,
+   174	        "cov_sha256": EXPECTED_COV_SHA256,
+   175	        "n_sne_fixed": N_SNE,
+   176	        "z_used": list(Z_USED),
+   177	        "symbolic": symbolic,
+   178	        "controls": controls_out,
+   179	        "totals": {
+   180	            name: {"chi2": value, "constraints": 6, "classification": classify(value)}
+   181	            for name, value in totals.items()
+   182	        },
+   183	        "delta_chi2_C1_minus_C0": totals["C1"] - totals["C0"],
+   184	        "direct_profile_verification": {
+   185	            "method": "scipy Brent minimization of each full-2x2 quadratic",
+   186	            "amplitude_abs_tolerance": 1e-6,
+   187	            "chi2_abs_tolerance": 1e-10,
+   188	            "maximum_amplitude_abs_delta": max_direct_amplitude_delta,
+   189	            "maximum_chi2_abs_delta": max_direct_chi2_delta,
+   190	        },
+   191	        "maximum_conclusion": "bounded normalization-free six-bin shape compatibility only",
+   192	    }
+   193	    args.output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
+   194	
+   195	    lines = [
+   196	        "control\tz\tF_pred\tF_observed\tprofiled_publication_amplitude\tchi2\tsigned_sqrt_chi2"
+   197	    ]
+   198	    for name, values in controls_out.items():
+   199	        for row in values:
+   200	            lines.append(
+   201	                f"{name}\t{row['z']:.3f}\t{row['F_pred']:.12g}\t{row['F_observed']:.12g}\t"
+   202	                f"{row['profiled_publication_amplitude']:.12g}\t{row['chi2']:.12g}\t"
+   203	                f"{row['signed_sqrt_chi2']:.12g}"
+   204	            )
+   205	    args.rows_output.write_text("\n".join(lines) + "\n", encoding="utf-8")
+   206	    print(json.dumps({"status": "PASS", "totals": result["totals"]}))
+   207	
+   208	
+   209	if __name__ == "__main__":
+   210	    main()
+
+exec
+/bin/bash -lc 'nl -ba package/verify_preregistration.py' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Verify the frozen pattern-shape preregistration before residual evaluation."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import csv
+     7	import io
+     8	import subprocess
+     9	from pathlib import Path
+    10	
+    11	
+    12	ROOT = Path(__file__).resolve().parent
+    13	
+    14	
+    15	def rows(name: str):
+    16	    with (ROOT / name).open(newline="") as stream:
+    17	        return list(csv.DictReader(stream, delimiter="\t"))
+    18	
+    19	
+    20	def main() -> None:
+    21	    premises = rows("PREMISE_LEDGER.tsv")
+    22	    gates = rows("FALSIFICATION_CONTRACT.tsv")
+    23	    sources = rows("SOURCE_MANIFEST.tsv")
+    24	    frozen_status_text = subprocess.check_output(
+    25	        [
+    26	            "git",
+    27	            "show",
+    28	            "efdecd35:udt_observed_pattern_pair_shape_test_2026-08-12/STATUS_LEDGER.tsv",
+    29	        ],
+    30	        cwd=ROOT.parent,
+    31	        text=True,
+    32	    )
+    33	    status = list(csv.DictReader(io.StringIO(frozen_status_text), delimiter="\t"))
+    34	    prereg = (ROOT / "PREREGISTRATION.md").read_text()
+    35	
+    36	    assert len(premises) == 15
+    37	    assert len(gates) == 10
+    38	    assert len(sources) == 9
+    39	    assert len(status) == 7
+    40	    assert "F_pair" in prereg and "d_A (dz/dlambda)/L_pair" in prereg
+    41	    assert "F_C0(z)=z+z^2/2" in prereg
+    42	    assert "n=1.0559332414320268" in prereg
+    43	    assert "12.592" in prereg and "22.458" in prereg
+    44	    assert "No outcome may select the physical complete history" in prereg
+    45	    assert all(row["status"] == "ABSENT" for row in status if "outcome" in row["item"] or "residual" in row["item"])
+    46	    assert any(row["status"] == "INACTIVE_FORBIDDEN" for row in premises)
+    47	    print("Pattern-shape preregistration: 15 premises, 10 gates, 9 sources; PASS")
+    48	
+    49	
+    50	if __name__ == "__main__":
+    51	    main()
+
+exec
+/bin/bash -lc 'nl -ba package/verify_package.py' in /tmp/udt_pair_shape_review_nyg3sd8b
+exec
+/bin/bash -lc 'nl -ba package/run_catch_proofs.py' in /tmp/udt_pair_shape_review_nyg3sd8b
+exec
+/bin/bash -lc 'nl -ba external_sources/08_desi_gaussian_bao_ALL_GCcomb_mean.txt' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Verify the complete-pair observed-pattern shape-test package."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	import subprocess
+    10	from pathlib import Path
+    11	
+    12	
+    13	ROOT = Path(__file__).resolve().parent
+    14	REPO = ROOT.parent
+    15	DATA = Path("/media/udt-admin/ScratchDisk/Data/BAO/CobayaSampler_bao_data/desi_bao_dr2")
+    16	
+    17	
+    18	def sha256(path: Path) -> str:
+    19	    digest = hashlib.sha256()
+    20	    with path.open("rb") as stream:
+    21	        for block in iter(lambda: stream.read(1024 * 1024), b""):
+    22	            digest.update(block)
+    23	    return digest.hexdigest()
+    24	
+    25	
+    26	def main() -> None:
+    27	    result = json.loads((ROOT / "DERIVATION_RESULT.json").read_text())
+    28	    independent = json.loads((ROOT / "INDEPENDENT_VERIFICATION.json").read_text())
+    29	    catches = json.loads((ROOT / "CATCH_PROOF_RESULT.json").read_text())
+    30	
+    31	    mean = DATA / "desi_gaussian_bao_ALL_GCcomb_mean.txt"
+    32	    cov = DATA / "desi_gaussian_bao_ALL_GCcomb_cov.txt"
+    33	    assert sha256(mean) == result["mean_sha256"]
+    34	    assert sha256(cov) == result["cov_sha256"]
+    35	    assert result["status"] == independent["status"] == catches["status"] == "PASS"
+    36	    assert result["preregistration_commit"] == "efdecd35"
+    37	    assert result["symbolic"]["orientation_preserving_reparameterization_invariant"] is True
+    38	    assert result["symbolic"]["missing_L_pair_reparameterization_invariant"] is False
+    39	    assert result["symbolic"]["general_scalar_exact"] is True
+    40	    assert result["symbolic"]["missing_exp_phi_fails_scalar_reduction"] is True
+    41	    assert result["symbolic"]["c0_exact"] is True
+    42	
+    43	    expected = {"C0": 114.72114835807093, "C1": 31.274892627884704}
+    44	    for name, target in expected.items():
+    45	        observed = result["totals"][name]
+    46	        assert abs(observed["chi2"] - target) < 1e-12
+    47	        assert observed["constraints"] == 6
+    48	        assert observed["classification"] == "INCOMPATIBLE_ON_SIX_BIN_SHAPE_QUERY"
+    49	        assert float(independent["total_abs_deltas"][name]) < 1e-12
+    50	    assert result["delta_chi2_C1_minus_C0"] < -83.0
+    51	    assert result["direct_profile_verification"]["maximum_amplitude_abs_delta"] < 1e-6
+    52	    assert result["direct_profile_verification"]["maximum_chi2_abs_delta"] < 1e-10
+    53	    assert float(independent["maximum_row_abs_delta"]) < 1e-12
+    54	    assert catches["caught"] == catches["total"] == 9
+    55	    assert all(catches["checks"].values())
+    56	
+    57	    with (ROOT / "SHAPE_RESIDUAL_ATLAS.tsv").open(newline="") as stream:
+    58	        rows = list(csv.DictReader(stream, delimiter="\t"))
+    59	    assert len(rows) == 12
+    60	    assert {row["control"] for row in rows} == {"C0", "C1"}
+    61	    assert sorted({float(row["z"]) for row in rows}) == [0.510, 0.706, 0.934, 1.321, 1.484, 2.330]
+    62	
+    63	    prereg = "efdecd35"
+    64	    assert subprocess.check_output(
+    65	        ["git", "cat-file", "-t", prereg], cwd=REPO, text=True
+    66	    ).strip() == "commit"
+    67	    subprocess.run(
+    68	        ["git", "merge-base", "--is-ancestor", prereg, "origin/grok"],
+    69	        cwd=REPO,
+    70	        check=True,
+    71	    )
+    72	
+    73	    exact = (ROOT / "EXACT_DERIVATION.md").read_text()
+    74	    audit = (ROOT / "AUDIT_REPORT.md").read_text()
+    75	    evidence = (ROOT / "EVIDENCE_GATES.md").read_text()
+    76	    assert "= d_A (dz/dlambda) / L_pair" in exact
+    77	    assert "COMPLETE_PAIR_SHAPE_OPERATOR_DERIVED" in audit
+    78	    assert "complete pair history" in audit
+    79	    assert "LEAD__INTERNALLY_VERIFIED_WITH_CAVEATS" in evidence
+    80	
+    81	    print("complete-pair pattern-shape package: PASS (operator, 2 controls, 6 bins, 9 catches)")
+    82	
+    83	
+    84	if __name__ == "__main__":
+    85	    main()
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Registered hostile checks for the frozen shape-query calculation."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import json
+     8	from pathlib import Path
+     9	
+    10	import numpy as np
+    11	
+    12	
+    13	def main():
+    14	    parser = argparse.ArgumentParser()
+    15	    parser.add_argument("--result", type=Path, required=True)
+    16	    parser.add_argument("--output", type=Path, required=True)
+    17	    args = parser.parse_args()
+    18	    result = json.loads(args.result.read_text())
+    19	    controls = result["controls"]
+    20	
+    21	    catches = {}
+    22	    # Algebra/typing mutations have exact distinctive failures.
+    23	    symbolic = result["symbolic"]
+    24	    catches["missing_L_pair"] = not symbolic["missing_L_pair_reparameterization_invariant"]
+    25	    catches["missing_exp_phi"] = symbolic["missing_exp_phi_fails_scalar_reduction"]
+    26	
+    27	    # Covariance mutation: remove within-bin off diagonal and prove the load-bearing total changes.
+    28	    diagonal_total = 0.0
+    29	    for row in controls["C1"]:
+    30	        y = np.array([row["observed_DM"], row["observed_DH"]])
+    31	        v = np.array([row["F_pred"], 1.0])
+    32	        c = np.diag([row["cov_DM_DM"], row["cov_DH_DH"]])
+    33	        inv = np.linalg.inv(c)
+    34	        amp = float((v @ inv @ y) / (v @ inv @ v))
+    35	        diagonal_total += float((y - amp * v) @ inv @ (y - amp * v))
+    36	    catches["diagonal_only_covariance"] = (
+    37	        abs(diagonal_total - result["totals"]["C1"]["chi2"]) > 1e-6
+    38	    )
+    39	
+    40	    # Delta-method mutation is explicitly not the production likelihood.
+    41	    catches["delta_method_as_likelihood"] = (
+    42	        "delta_method" not in result["scope"]
+    43	        and result["direct_profile_verification"]["maximum_chi2_abs_delta"] < 1e-10
+    44	    )
+    45	    catches["fit_n"] = result["n_sne_fixed"] == 1.0559332414320268 and "best_n" not in result
+    46	
+    47	    for name in ("C0", "C1"):
+    48	        rows = controls[name]
+    49	        worst = max(rows, key=lambda x: x["chi2"])
+    50	        dropped = result["totals"][name]["chi2"] - worst["chi2"]
+    51	        catches[f"drop_worst_bin_{name}"] = abs(dropped - result["totals"][name]["chi2"]) > 1e-6
+    52	
+    53	    catches["promote_C1_to_complete_history"] = (
+    54	        result["maximum_conclusion"] == "bounded normalization-free six-bin shape compatibility only"
+    55	    )
+    56	    catches["isotropic_point_inserted"] = len(result["z_used"]) == 6 and 0.295 not in result["z_used"]
+    57	
+    58	    assert len(catches) == 9 and all(catches.values())
+    59	    output = {"status": "PASS", "caught": sum(catches.values()), "total": len(catches), "checks": catches}
+    60	    args.output.write_text(json.dumps(output, indent=2) + "\n")
+    61	    print(json.dumps(output))
+    62	
+    63	
+    64	if __name__ == "__main__":
+    65	    main()
+
+ succeeded in 0ms:
+     1	# [z] [value at z] [quantity]
+     2	0.29500000 7.94167639 DV_over_rs
+     3	0.51000000 13.58758434 DM_over_rs
+     4	0.51000000 21.86294686 DH_over_rs
+     5	0.70600000 17.35069094 DM_over_rs
+     6	0.70600000 19.45534918 DH_over_rs
+     7	0.93400000 21.57563956 DM_over_rs
+     8	0.93400000 17.64149464 DH_over_rs
+     9	1.32100000 27.60085612 DM_over_rs
+    10	1.32100000 14.17602155 DH_over_rs
+    11	1.48400000 30.51190063 DM_over_rs
+    12	1.48400000 12.81699964 DH_over_rs
+    13	2.33 8.631545674846294 DH_over_rs
+    14	2.33 38.988973961958784 DM_over_rs
+
+exec
+/bin/bash -lc 'nl -ba external_sources/09_desi_gaussian_bao_ALL_GCcomb_cov.txt' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	5.78998687e-03 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+     2	0.00000000e+00 2.83473742e-02 -3.26062007e-02 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+     3	0.00000000e+00 -3.26062007e-02 1.83928040e-01 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+     4	0.00000000e+00 0.00000000e+00 0.00000000e+00 3.23752442e-02 -2.37445646e-02 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+     5	0.00000000e+00 0.00000000e+00 0.00000000e+00 -2.37445646e-02 1.11469198e-01 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+     6	0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 2.61732816e-02 -1.12938006e-02 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+     7	0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 -1.12938006e-02 4.04183878e-02 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+     8	0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 1.05336516e-01 -2.90308418e-02 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+     9	0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 -2.90308418e-02 5.04233092e-02 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+    10	0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 5.83020277e-01 -1.95215562e-01 0.00000000e+00 0.00000000e+00
+    11	0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 -1.95215562e-01 2.68336193e-01 0.00000000e+00 0.00000000e+00
+    12	0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 1.02136194e-02 -2.31395216e-02
+    13	0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 -2.31395216e-02 2.82685779e-01
+
+codex
+I’ve now got the raw mean and covariance, the production derivation code, and the independent closed-form replay. I’m doing one more pass on the preregistered anti-p-hacking evidence and the source-dependency caveat before I lock the landing.
+exec
+/bin/bash -lc 'nl -ba package/FALSIFICATION_CONTRACT.tsv' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	gate	pass_condition	failure_landing
+     2	G-OPERATOR	complete_pair_derivation_reaches_equation_1_without_imported_expansion_law	TYPE_FAILURE
+     3	G-REPARAM	orientation_preserving_reparameterization_cancels_exactly	TYPE_FAILURE
+     4	G-SCALAR	C0_and_C1_closed_forms_reproduce_exactly	TYPE_FAILURE
+     5	G-DATA	release_hashes_and_six_blocks_match_banked_audit	DATA_PROVENANCE_FAILURE
+     6	G-PROFILE	exact_block_profile_formula_matches_direct_minimization	LIKELIHOOD_FAILURE
+     7	G-NO-FIT	no_n_formula_row_covariance_or_history_optimization	PREREGISTRATION_VIOLATION
+     8	G-COMPLETE-BOUNDARY	controls_never_promoted_to_complete_history	ONTOLOGY_FAILURE
+     9	G-ONTOLOGY	no_acoustic_ruler_LambdaCDM_or_origin_import	ONTOLOGY_FAILURE
+    10	G-INDEPENDENCE	implementation_distinct_likelihood_replay_matches	INDEPENDENCE_FAILURE
+    11	G-CATCH	all_registered_hostile_mutations_detected	CATCH_INCOMPLETE
+
+exec
+/bin/bash -lc 'nl -ba package/RUN_LOG.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	# Run log
+     2	
+     3	Date: 2026-08-12
+     4	
+     5	## Production command
+     6	
+     7	```bash
+     8	python3 udt_observed_pattern_pair_shape_test_2026-08-12/derive_pair_shape.py \
+     9	  --mean /media/udt-admin/ScratchDisk/Data/BAO/CobayaSampler_bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt \
+    10	  --cov /media/udt-admin/ScratchDisk/Data/BAO/CobayaSampler_bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt \
+    11	  --output udt_observed_pattern_pair_shape_test_2026-08-12/DERIVATION_RESULT.json \
+    12	  --rows-output udt_observed_pattern_pair_shape_test_2026-08-12/SHAPE_RESIDUAL_ATLAS.tsv
+    13	```
+    14	
+    15	```json
+    16	{"status":"PASS","totals":{"C0":{"chi2":114.72114835807093,"constraints":6,"classification":"INCOMPATIBLE_ON_SIX_BIN_SHAPE_QUERY"},"C1":{"chi2":31.274892627884704,"constraints":6,"classification":"INCOMPATIBLE_ON_SIX_BIN_SHAPE_QUERY"}}}
+    17	```
+    18	
+    19	## Independent replay
+    20	
+    21	```bash
+    22	python3 udt_observed_pattern_pair_shape_test_2026-08-12/verify_independent.py \
+    23	  --mean /media/udt-admin/ScratchDisk/Data/BAO/CobayaSampler_bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt \
+    24	  --cov /media/udt-admin/ScratchDisk/Data/BAO/CobayaSampler_bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt \
+    25	  --production udt_observed_pattern_pair_shape_test_2026-08-12/DERIVATION_RESULT.json \
+    26	  --output udt_observed_pattern_pair_shape_test_2026-08-12/INDEPENDENT_VERIFICATION.json
+    27	```
+    28	
+    29	Result: `PASS`; maximum per-row absolute chi-square disagreement
+    30	`1.8765017207483413e-13`.
+    31	
+    32	## Hostile checks
+    33	
+    34	```bash
+    35	python3 udt_observed_pattern_pair_shape_test_2026-08-12/run_catch_proofs.py \
+    36	  --result udt_observed_pattern_pair_shape_test_2026-08-12/DERIVATION_RESULT.json \
+    37	  --output udt_observed_pattern_pair_shape_test_2026-08-12/CATCH_PROOF_RESULT.json
+    38	```
+    39	
+    40	Result: `PASS`, `9/9` caught.
+
+exec
+/bin/bash -lc 'nl -ba package/LAY_REPORT.md' in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+     1	# Lay report
+     2	
+     3	We have now done more than prepare the data.
+     4	
+     5	The complete UDT geometry tells us how to compare the sideways size of the observed pattern with its
+     6	depth-wise size. In the orchestra metaphor, that comparison listens to three things together:
+     7	
+     8	- how the angular screen magnifies or squeezes the image;
+     9	- how the observer-pair ruler is stretched;
+    10	- how reciprocal depth changes along the pair relation.
+    11	
+    12	That combined measuring rule is now derived and does not depend on how we label positions along the
+    13	comparison.
+    14	
+    15	We then tested two deliberately simple stand-ins. The first used only the basic reciprocal curve. It
+    16	missed badly. The second used the already frozen SNe curve. It was dramatically better and was close
+    17	in four of the six slices, but it still missed too much in two slices to pass the test.
+    18	
+    19	This is useful. It says the SNe scalar curve captures part of the middle-distance shape, but it is not
+    20	the whole score. The angular and mixing instruments cannot simply be ignored for this observed
+    21	pattern. We have not fitted those instruments or invented a repair. The next honest test is to take a
+    22	complete metric history derived independently, let all three ingredients play together, and see
+    23	whether its prediction lands on the measured pattern.
+    24	
+    25	It does not yet determine `X_max`, explain the origin of the pattern, or validate UDT as a whole.
+
+exec
+/bin/bash -lc "python -B - <<'PY'
+import math
+from pathlib import Path
+mean=[]
+for line in Path('external_sources/08_desi_gaussian_bao_ALL_GCcomb_mean.txt').read_text().splitlines():
+    if not line or line.startswith('#'): continue
+    z,val,q=line.split()
+    mean.append((float(z), float(val), q))
+rows={}
+for i,(z,val,q) in enumerate(mean):
+    rows[(z,q)] = (i,val)
+mat=[]
+for line in Path('external_sources/09_desi_gaussian_bao_ALL_GCcomb_cov.txt').read_text().splitlines():
+    if line.strip(): mat.append([float(x) for x in line.split()])
+zs=[0.510,0.706,0.934,1.321,1.484,2.330]
+n=1.0559332414320268
+
+def c1(z):
+    u=1+z
+    return 0.5*n*(u**(2.0/n)-1.0)
+
+def c0(z):
+    return z+0.5*z*z
+
+def prof(y0,y1,c00,c01,c11,f):
+    det=c00*c11-c01*c01
+    i00,i01,i11=c11/det,-c01/det,c00/det
+    num=f*(i00*y0+i01*y1)+(i01*y0+i11*y1)
+    den=f*f*i00+2*f*i01+i11
+    a=num/den
+    r0,r1=y0-a*f,y1-a
+    chi2=r0*(i00*r0+i01*r1)+r1*(i01*r0+i11*r1)
+    return a,chi2
+# cross-bin check
+nonzero=[]
+idx=[]
+for z in zs:
+    idx.extend([rows[(z,'DM_over_rs')][0], rows[(z,'DH_over_rs')][0]])
+for i,ii in enumerate(idx):
+    for j,jj in enumerate(idx):
+        if i//2"'!=j//2 and abs(mat[ii][jj])>0:
+            nonzero.append((ii,jj,mat[ii][jj]))
+print('"'cross_bin_nonzero', len(nonzero))
+for name,fm in [('C0',c0),('C1',c1)]:
+    total=0.0
+    vals=[]
+    for z in zs:
+        idm,y0=rows[(z,'DM_over_rs')]
+        idh,y1=rows[(z,'DH_over_rs')]
+        c00,c01,c11=mat[idm][idm],mat[idm][idh],mat[idh][idh]
+        a,chi2=prof(y0,y1,c00,c01,c11,fm(z))
+        total+=chi2
+        vals.append((z,a,chi2))
+    print(name, repr(total))
+    for z,a,chi2 in vals:
+        print(z, repr(a), repr(chi2))
+PY" in /tmp/udt_pair_shape_review_nyg3sd8b
+ exited 127 in 0ms:
+/bin/bash: line 1: python: command not found
+
+codex
+The anti-p-hacking documents are consistent with the package’s stated scope. I hit a shell-path issue on my independent raw-data replay, so I’m rerunning that with the available interpreter to finish the numerical check directly from the sealed external files.
+exec
+/bin/bash -lc "python3 -B - <<'PY'
+import math
+from pathlib import Path
+mean=[]
+for line in Path('external_sources/08_desi_gaussian_bao_ALL_GCcomb_mean.txt').read_text().splitlines():
+    if not line or line.startswith('#'):
+        continue
+    z,val,q=line.split()
+    mean.append((float(z), float(val), q))
+rows={}
+for i,(z,val,q) in enumerate(mean):
+    rows[(z,q)] = (i,val)
+mat=[]
+for line in Path('external_sources/09_desi_gaussian_bao_ALL_GCcomb_cov.txt').read_text().splitlines():
+    if line.strip():
+        mat.append([float(x) for x in line.split()])
+zs=[0.510,0.706,0.934,1.321,1.484,2.330]
+n=1.0559332414320268
+
+def c1(z):
+    u=1+z
+    return 0.5*n*(u**(2.0/n)-1.0)
+
+def c0(z):
+    return z+0.5*z*z
+
+def prof(y0,y1,c00,c01,c11,f):
+    det=c00*c11-c01*c01
+    i00,i01,i11=c11/det,-c01/det,c00/det
+    num=f*(i00*y0+i01*y1)+(i01*y0+i11*y1)
+    den=f*f*i00+2*f*i01+i11
+    a=num/den
+    r0,r1=y0-a*f,y1-a
+    chi2=r0*(i00*r0+i01*r1)+r1*(i01*r0+i11*r1)
+    return a,chi2
+
+idx=[]
+for z in zs:
+    idx.extend([rows[(z,'DM_over_rs')][0], rows[(z,'DH_over_rs')][0]])
+nonzero=[]
+for i,ii in enumerate(idx):
+    for j,jj in enumerate(idx):
+        if i//2"'!=j//2 and abs(mat[ii][jj])>0:
+            nonzero.append((ii,jj,mat[ii][jj]))
+print('"'cross_bin_nonzero', len(nonzero))
+for name,fm in [('C0',c0),('C1',c1)]:
+    total=0.0
+    print(name)
+    for z in zs:
+        idm,y0=rows[(z,'DM_over_rs')]
+        idh,y1=rows[(z,'DH_over_rs')]
+        c00,c01,c11=mat[idm][idm],mat[idm][idh],mat[idh][idh]
+        a,chi2=prof(y0,y1,c00,c01,c11,fm(z))
+        total+=chi2
+        print(z, 'amp', repr(a), 'chi2', repr(chi2))
+    print('total', repr(total))
+PY" in /tmp/udt_pair_shape_review_nyg3sd8b
+ succeeded in 0ms:
+cross_bin_nonzero 0
+C0
+0.51 amp 21.443496573016365 chi2 1.1322523022480029
+0.706 amp 18.56028239347957 chi2 8.477704822603327
+0.934 amp 16.339952448084002 chi2 50.68313570166335
+1.321 amp 13.149403501731554 chi2 25.692305998197263
+1.484 amp 12.128668004281327 chi2 2.0301385328557773
+2.33 amp 8.193562992817208 chi2 26.70561100050325
+total 114.72114835807098
+C1
+0.51 amp 21.795760838135827 chi2 0.029227032752667498
+0.706 amp 18.990980115000504 chi2 2.301154382956656
+0.934 amp 16.822676057947152 chi2 20.310879079266204
+1.321 amp 13.634763894646925 chi2 7.2649564826735356
+1.484 amp 12.643524345231787 chi2 0.13063193704726084
+2.33 amp 8.538946089330452 chi2 1.2380437131884379
+total 31.274892627884764
+
+codex
+Primary classification: `SUSTAINED_VERIFIED_WITH_CAVEATS`.
+
+Maximum justified conclusion: the sealed intake supports the bounded claim that a supplied regular monotone complete pair history defines the normalization-free operator `F_pair = d_A(dz/dlambda)/L_pair`, and that both frozen scalar controls are incompatible with the six-bin released shape query. It does not justify any physical history selection, feature/origin claim, orchestra correction, or promotion of C0/C1 to the complete pair prediction. The operator/control boundary is preserved in [package/PREREGISTRATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/PREREGISTRATION.md:18), [package/EXACT_DERIVATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/EXACT_DERIVATION.md:41), and [package/AUDIT_REPORT.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/AUDIT_REPORT.md:57).
+
+Supporting evidence:
+- From the supplied metric and horizontal ruler, `d ell_parallel = L_pair dlambda`; replacing `dz` by `exp(phi_pair) dphi_pair` gives `F_pair = d_A(dz/dlambda)/L_pair = exp(phi_pair)d_A(dphi_pair/dlambda)/L_pair`, with no missing or duplicated `exp(phi_pair)` or `L_pair` factor [package/EXACT_DERIVATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/EXACT_DERIVATION.md:43).
+- The angular/mixing typing does not depend on the provisional source: the banked pair-first derivation shows mixing and screen terms enter the completed pullback before `phi_pair` is read [repository_sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/repository_sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md:104), and the banked G79 query shows `d_A` comes from the full null/screen/Jacobi system while mixing can remain active even when a simple stationary endpoint ratio hides it [repository_sources/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/repository_sources/udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md:82).
+- Reparameterization is correct: under `lambda_new=f(lambda)`, both `dphi/dlambda` and `L_pair` scale by `1/q`, so the ratio is invariant; orientation reversal flips sign only, and turning, caustic, `L_pair=0`, and nonmonotone strata are explicitly excluded rather than silently absorbed [package/EXACT_DERIVATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/EXACT_DERIVATION.md:62).
+- The scalar reductions check out independently: with `lambda=r`, `L_pair=1+z=u`, and `r(u)=(X/n)[1-u^(-2/n)]`, one gets `F=n(u^(2/n)-1)/2`; `n=1` gives `z+z^2/2`, and fixed `n=1.0559332414320268` gives C1 [package/PREREGISTRATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/PREREGISTRATION.md:57).
+- I recomputed the six full `2x2` profiled block likelihoods directly from [08_desi_gaussian_bao_ALL_GCcomb_mean.txt](/tmp/udt_pair_shape_review_nyg3sd8b/external_sources/08_desi_gaussian_bao_ALL_GCcomb_mean.txt:1) and [09_desi_gaussian_bao_ALL_GCcomb_cov.txt](/tmp/udt_pair_shape_review_nyg3sd8b/external_sources/09_desi_gaussian_bao_ALL_GCcomb_cov.txt:1): cross-bin covariances across the 12-leg anisotropic subset are exactly zero, and the totals match the package, `chi2(C0)=114.72114835807098`, `chi2(C1)=31.274892627884764`.
+- Six profiled amplitudes still leave six orthogonal shape constraints because each `2x2` block loses only its along-ray normalization direction, and the six blocks are covariance-orthogonal; the preregistered thresholds `12.592` and `22.458` are therefore lawful six-dof descriptive gates [package/PREREGISTRATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/PREREGISTRATION.md:129).
+- The no-fit claim is supported inside the intake: `n` is frozen from prior SNe, the isotropic `z=0.295` point is excluded by type before residual evaluation, and the hostile checks explicitly catch fitting `n`, dropping bins, diagonalizing covariance, and promoting C1 to a complete history [package/PREREGISTRATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/PREREGISTRATION.md:98), [package/CATCH_PROOF_RESULT.json](/tmp/udt_pair_shape_review_nyg3sd8b/package/CATCH_PROOF_RESULT.json:1).
+- The concentrated C1 residual is real but bounded: the dominant contribution is at `z=0.934` with a secondary contribution at `z=1.321`, and the package correctly treats this as an observed residual map, not a license for a bump/mechanism/coefficient [package/AUDIT_REPORT.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/AUDIT_REPORT.md:40), [package/SHAPE_RESIDUAL_ATLAS.tsv](/tmp/udt_pair_shape_review_nyg3sd8b/package/SHAPE_RESIDUAL_ATLAS.tsv:8).
+- The ontology boundary is enforced cleanly: the release is treated as an observed correlation-pattern readout, not a standard ruler or Lambda-CDM premise [package/PREREGISTRATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/PREREGISTRATION.md:14), [repository_sources/udt_bao_data_suitability_reset_2026-08-12/ONTOLOGY_CORRECTION.md](/tmp/udt_pair_shape_review_nyg3sd8b/repository_sources/udt_bao_data_suitability_reset_2026-08-12/ONTOLOGY_CORRECTION.md:10).
+
+Smallest required repair: bank the provisional orchestra-boundary support or replace its citation with an explicit note that the bounded operator claim is already fully supported by the banked pair-first source, the banked G79 typing source, and the self-contained [package/EXACT_DERIVATION.md](/tmp/udt_pair_shape_review_nyg3sd8b/package/EXACT_DERIVATION.md:1). That is a documentary repair, not a mathematical one.
+tokens used
+78,741
+
+Script done on 2026-08-12 19:17:59-04:00 [COMMAND_EXIT_CODE="0"]

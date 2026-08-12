@@ -73,10 +73,24 @@ def main() -> None:
     exact = (ROOT / "EXACT_DERIVATION.md").read_text()
     audit = (ROOT / "AUDIT_REPORT.md").read_text()
     evidence = (ROOT / "EVIDENCE_GATES.md").read_text()
+    review = (ROOT / "EXTERNAL_REVIEW_RAW.md").read_text()
+    adjudication = (ROOT / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text()
+    ownership = (ROOT / "SOURCE_OWNERSHIP_CORRECTION.md").read_text()
+    transmission = (ROOT / "TRANSMISSION_RECORD.md").read_text()
     assert "= d_A (dz/dlambda) / L_pair" in exact
     assert "COMPLETE_PAIR_SHAPE_OPERATOR_DERIVED" in audit
     assert "complete pair history" in audit
-    assert "LEAD__INTERNALLY_VERIFIED_WITH_CAVEATS" in evidence
+    assert "VERIFIED_WITH_CAVEATS__BOUNDED_OPERATOR" in evidence
+    assert "SUSTAINED_VERIFIED_WITH_CAVEATS" in review
+    assert "SUSTAINED_VERIFIED_WITH_CAVEATS" in adjudication
+    assert "not load-bearing" in ownership
+    assert "725214bf15579a16010c2e7996e590e48d61fbcac0b85b709fcdee6ddbb8bd74" in transmission
+    assert sha256(ROOT / "EXTERNAL_REVIEW_RAW.md") == (
+        "064be91fe0c9e346812043448136796929ebf77cd768c7e9c2af2887e0e85e20"
+    )
+    assert sha256(ROOT / "EXTERNAL_REVIEW_TRANSCRIPT.txt") == (
+        "3404aedf7445182370aa704f10553c2cd741534365dcfe50d6d1eef2476db381"
+    )
 
     print("complete-pair pattern-shape package: PASS (operator, 2 controls, 6 bins, 9 catches)")
 
