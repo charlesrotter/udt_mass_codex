@@ -1,0 +1,13 @@
+gate	pass_condition	failure_action
+source_identity	all SOURCE_MANIFEST hashes reproduce	stop and report source drift
+strict_profile_count	591 unique G75 identities	stop; do not calculate
+AM_profile_count	197 unique AM identities	stop; do not calculate
+path_count	591 unique profile-level pairs	bank incomplete atlas with missing identities explicit
+strict_domain_lapse	all 591 have min A>0 on 0<=x<=1	reject strict-domain conclusion
+strict_depth_finite	all registered x=1 endpoint depths finite	reject strict-domain conclusion
+AM_exact_limit	phi diverges and c_eff ratio tends to zero as A_s->0	reject asymptotic candidate
+proper_length_limit	independent exact formula agrees and receiver dependence remains explicit	reject or correct candidate readout
+status_exhaustiveness	every path has exactly one preregistered status	reject atlas completeness
+raw_residuals	null<=1e-7; screen_gram<=1e-7; screen_ray<=1e-7; conserved_p_t<=1e-7; conserved_p_psi<=1e-7 for certified reached rows	downgrade affected paths to NUMERIC_UNRESOLVED
+independent_replay	stratified Radau endpoint observables agree to <=1e-7 relative/absolute scale	downgrade affected strata
+semantic_guard	no physical X_max/profile/R/source/CMB selection in outputs	fail closed and correct wording
