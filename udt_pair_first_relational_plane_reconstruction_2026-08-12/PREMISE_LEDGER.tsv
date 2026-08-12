@@ -1,0 +1,15 @@
+item	status	role	boundary
+c_E	OBSERVED	clock/ruler calibration and terminal reference	not a direction, event-pairing map, branch selector, or local signal speed
+abstract clock/ruler channel pair	POSIT	founding ordered two-channel comparison type	not yet embedded in TM
+dual Reciprocity	POSIT	preserves the abstract cross-pairing	acts after an ordered depth/channel pair is supplied
+reciprocal exponential character	DERIVED	D(delta)=diag(exp(-delta),exp(+delta))	does not construct delta or a realization
+complete Lorentz metric g	CONDITIONAL	supplied history evaluated in this audit	physical history ownership OPEN
+ordered query Q	SUPPLIED_CONDITIONAL	types observer/event/ruler information	physical query ownership OPEN
+regular immersion F	SUPPLIED_CONDITIONAL	realizes one local observer-pair surface	physical realization and branch ownership OPEN
+E_pair=dF(TSigma)	DERIVED_CONDITIONAL	pair-relative tangent plane	only after F is supplied
+H_pair=E_pair_perp	DERIVED_CONDITIONAL	positive normal screen	only where E_pair is timelike
+complete triangular coframe	CONDITIONAL	local ten-component metric chart	not a selected physical coframe or global split
+B,Q,S	FREE_AND_EXPLORED	regular base, positive screen, arbitrary mixing	chart variables, not selected values
+base projection Y	FREE_AND_EXPLORED	pair-tangent projection into declared base chart	reduced formula requires det(Y)!=0
+screen projection Z	FREE_AND_EXPLORED	pair-tangent projection into declared screen chart	no preferred slope imposed
+action/source/carrier/bootstrap/X_max/SNe/CMB	OPEN_INACTIVE	none	cannot select or interpret the result

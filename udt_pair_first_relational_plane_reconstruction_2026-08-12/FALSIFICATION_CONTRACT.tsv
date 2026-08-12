@@ -1,0 +1,15 @@
+gate	pass_condition	failure_consequence
+regular_immersion	rank(dF)=2 on every declared regular witness	primary landing falsified on that witness
+timelike_pair_plane	h00<0 and det(h)<0 for terminal-readout witnesses	classify other signatures; do not read terminal phi
+orthogonal_screen	H_pair has rank 2 and positive induced metric	pair-first screen claim falsified
+direct_pullback_identity	direct J^T g J equals block formula exactly	algebraic failure
+reduced_gram_identity	reduced formula holds exactly whenever det(Y)!=0	algebraic failure
+gram_image	C^T q C is proved to range over the full PSD(2) cone	otherwise narrow the solution-space statement
+screen_frame_covariance	Q->OQ with O^T O=I leaves h unchanged	presentation dependence
+pair_coordinate_covariance	J->JR gives h->R^T h R	incorrect tensor typing
+pure_base_limit	C=0 recovers B^T eta_2 B	founding/base recovery failure
+terminal_reconstruction	reconstructed h matches input h on the Lorentzian calibrated stratum	terminal readout failure
+ownership_boundary	no output claims the founding algebra constructs F	category overclaim
+flat_counterfamily	distinct F_k share metric/observers/c_E and terminal phi	if false, revisit realization nonownership
+independent_replay	independently expressed component checks reproduce every exact identity	grade UNRESOLVED
+adversarial_review	fresh reviewer accepts bounded ownership and integrability wording	bank no stronger than LEAD if absent
