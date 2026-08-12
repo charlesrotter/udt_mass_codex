@@ -9,7 +9,19 @@ If `LIVE.md`, this index, and a cited source disagree, stop and report the confl
 the file that makes a desired derivation easiest. Older files retain their exact historical and
 premise-scoped meaning; they do not override a later source-specific correction.
 
-## Current G79 lead
+## Current G80 lead
+
+`udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the bounded reverse ordered-pair result. On the exact G79 metric/query, past-directed
+affine reversal gives reciprocal redshift and the carried-screen Jacobi/area law. External review
+reproduces the result as `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY` with no correction. This is a
+generic self-adjoint Jacobi/Wronskian theorem on one fixed null curve, not a UDT selector; arbitrary
+endpoint screen changes require the conjugated matrix law, and the reversed curve is not a future
+signal. No physical profile, endpoint, `R`, `X_max`, source, fit, CMB field, action, matter,
+bootstrap, or signalling law is promoted. Next is one nonradial or explicitly rotated-screen
+covariance replay.
+
+## G79 parent lead
 
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
 controls the bounded same-geometry dimensional query. On one deterministically selected frozen
@@ -18,7 +30,7 @@ redshift and angular distance before P1 comparison. External review reproduces t
 sealed-portability and method-sharing caveats. The result is conditional on the control geometry
 and query and does not select a physical profile, `R`, endpoint, `X_max`, source state, SNe fit,
 CMB temperature field, or spectrum. The deferred thermal formula is only a typed future readout.
-Next is the reverse source-initial reciprocity check on the same geometry.
+Its reverse source-initial reciprocity check is completed by G80 above.
 
 ## G78 parent lead
 

@@ -4,12 +4,15 @@ These tables govern artifact navigation and reorganization classification; they 
 scientific premise meanings. Read root `LIVE.md`, `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv` first. The current scientific
 lead is
-`udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
-It derives exact redshift and angular distance from one chosen stationary query on one
-deterministically selected G75/G77 control, before P1 comparison, with external-review caveats on
-sealed portability and shared method inputs. It selects no physical profile, endpoint, scale,
-`X_max`, source, fit, or CMB field; next is the reverse source-initial reciprocity check. Its parent
-is `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+`udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+It externally verifies bounded reciprocal redshift and carried-screen Jacobi/area reversal on the
+exact G79 control. The result is generic geometric reciprocity, not a UDT selector or future
+signal, and general screen bases require the conjugated law. It selects no physical profile,
+endpoint, scale, `X_max`, source, fit, or CMB field; next is one nonradial or rotated-screen
+covariance replay. Its parent is
+`udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, which
+derives the bounded same-metric redshift and angular distance before P1 comparison. Its parent is
+`udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
 which finds zero native owners of the physical profile, endpoint/scale, or source in its exact
 twenty-source universe. Its finite-mesh parent is
 `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.

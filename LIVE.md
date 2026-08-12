@@ -6,28 +6,36 @@
 **This topmost CURRENT STATE block overrides every older status description. Every block BELOW
 this one is PRIOR-SESSION HISTORY, superseded by this block; mine it for detail, not for status.**
 
-## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G79 SAME-GEOMETRY REDSHIFT/DISTANCE QUERY VERIFIED WITH CAVEATS) ============
+## ============ CURRENT STATE (2026-08-11 — ACTIVE ARC = DIMENSIONAL OBSERVER-QUERY CONSTRUCTION; G80 REVERSE-PAIR GEOMETRIC RECIPROCITY EXTERNALLY VERIFIED) ============
 
-**LATEST LEAD — G79 SAME-GEOMETRY DIMENSIONAL REDSHIFT AND ANGULAR-DISTANCE QUERY,
+**LATEST LEAD — G80 REVERSE ORDERED-PAIR GEOMETRIC RECIPROCITY,
+`VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`.** Read
+`udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+`EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, `PREMISE_LEDGER.tsv`, and the historical pre-review
+`AUDIT_REPORT.md`. On the exact frozen G79 metric, endpoint pair, null curve, stationary-observer
+convention, affine normalization, and carried screen gauge, reversing the complete tangent as
+`k_rev=-k_s/Z` gives `Z_rev=1/Z`, `phi_rev=-phi`, `D_rev=Z D_fwd^T`, and
+`d_A,rev=Z d_A,fwd`. Production residuals are about `5e-15`--`7e-15`; a separate direct-
+Christoffel neighboring-ray replay recovers the matrix and area laws to about `1.4e-8` and
+`1.6e-8`. The sealed `gpt-5.4` reviewer verified all `30/30` payload hashes, independently replayed
+both routes, and required no correction. Its boundaries are binding: this is the generic
+self-adjoint Jacobi/Wronskian reciprocity theorem instantiated in one UDT control, not a UDT-
+specific selector; the bare transpose law is carried-screen-gauge conditional, with general form
+`D'_rev=Z S_r D_fwd^T S_s`; and the reverse path is past-directed mathematical reversal, not a
+future signal. No physical profile, endpoint, `R`, `X_max`, SNe fit, luminosity law, `cmb_temp`,
+CMB field/spectrum, source, action, matter, bootstrap, or signalling law is promoted. **NEXT:**
+preregister one less-symmetric nonradial or explicitly rotated-screen replay to verify the
+conjugated screen-gauge law before opening the endpoint/`X_max` curve or temperature map.
+
+**PARENT LEAD — G79 SAME-GEOMETRY DIMENSIONAL REDSHIFT AND ANGULAR-DISTANCE QUERY,
 `VERIFIED_WITH_CAVEATS__BOUNDED_SAME_GEOMETRY_REDSHIFT_AND_ANGULAR_DISTANCE_QUERY`.** Read
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
-`EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, `THERMAL_READOUT_LEDGER.tsv`, and the historical
-pre-review `AUDIT_REPORT.md`. The outcome-independent first nonzero frozen G75 control is
-`G75_AM_S01_E05`, with `A=1-x^2/4` and `h=x^6/20`. On the one chosen stationary query from
-receiver `x=1/4` to the first outward `x=1` control-sphere crossing, the same full metric derives
-`1+z=sqrt(21)/4`, `phi_pair=log(sqrt(21)/4)`, and `d_A/R=0.7559850215834019` before P1 is
-consulted. A direct-Christoffel neighboring-ray route agrees with the full Jacobi map at roughly
-`4.4e-11` relative. The sealed reviewer hash-checked all `36/36` payload rows, independently
-reproduced the exact redshift, dimensional `R` power, full `4096` Jacobi endpoint, refinement,
-residuals, and conditional P1/thermal typing, and found no scientific correction. Its caveats are
-binding: the sealed scripts still expect `git show`, and the independent route shares the metric,
-query, screen seed, endpoint event, and DOP853 family even though it replaces the Riemann/Jacobi
-system. The geometry and endpoints remain `CHOSE_CONTROL`; `R`, physical SNe/CMB endpoints,
-`X_max`, source state, fit, and spectrum remain OPEN. `cmb_temp` is a deferred lens-plus-redshift
-readout only, to be revisited after dimensional SNe and/or `X_max` endpoint-curve work. **NEXT:**
-preregister the reverse source-initial null-plus-Jacobi branch on this exact geometry/pair and test
-redshift reversal plus angular-distance reciprocity. Do not open a profile fit, `X_max` family, or
-temperature map before that ordering check.
+`EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, and `THERMAL_READOUT_LEDGER.tsv`. The frozen control
+`G75_AM_S01_E05` and chosen stationary `x=1/4 -> 1` query derive
+`1+z=sqrt(21)/4`, `phi_pair=log(sqrt(21)/4)`, and `d_A/R=0.7559850215834019` from the same metric
+before P1 comparison. G80 above completes its registered reverse-reciprocity gate. The geometry
+and endpoints remain `CHOSE_CONTROL`; every physical owner remains OPEN and `cmb_temp` remains
+deferred.
 
 **PARENT LEAD — G78 PROFILE, ENDPOINT/SCALE, AND SOURCE-OWNER JOIN,
 `VERIFIED_WITH_CAVEATS__NO_PHYSICAL_PROFILE_ENDPOINT_SCALE_OR_SOURCE_OWNER_IN_EXACT_20_SOURCE_G78_UNIVERSE`.**

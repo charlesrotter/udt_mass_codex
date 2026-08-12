@@ -133,6 +133,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
             "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
             "udt_freedata_inventory_MAP_2026-08-09.md",
+            "D'_rev=Z S_r D_fwd^T S_s",
             "RA2-PARTIAL-WEAK",
             "BANKED + TABLED",
             "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
@@ -200,13 +201,13 @@ def validate_startup_surface(root: Path) -> None:
         ):
             require(token in text, f"current route lacks {token}: {control}")
 
-    latest = "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
-    parent = "udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
-    grandparent = "udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
+    latest = "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
+    parent = "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
+    grandparent = "udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
     for control in LATEST_ROUTE_CONTROLS:
         require(latest in controls[control], f"latest complete-branch route absent: {control}")
-        require(parent in controls[control], f"G78 parent route absent: {control}")
-        require(grandparent in controls[control], f"G77 grandparent route absent: {control}")
+        require(parent in controls[control], f"G79 parent route absent: {control}")
+        require(grandparent in controls[control], f"G78 grandparent route absent: {control}")
 
     for control in ("README.md", "research/README.md", "MEMORY.md"):
         text = controls[control]
@@ -221,6 +222,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
@@ -274,9 +276,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 72, "premise registry must contain exactly 72 rows")
+    require(len(rows) == 73, "premise registry must contain exactly 73 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 72, "duplicate premise id")
+    require(len(by_id) == 73, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1252,6 +1254,21 @@ def main() -> None:
         "G79 dimensional-query source changed",
     )
     require("G79_COMPLETES_G78" in by_id["G79"]["precedence_rule"], "G79 refinement absent")
+    require(
+        by_id["G80"]["current_status"] == "VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY",
+        "G80 bounded reciprocity status regressed or promoted",
+    )
+    require(by_id["G80"]["epistemic_label"] == "MIXED", "G80 reciprocity label changed")
+    require("nonradial and general endpoint-screen branches" in by_id["G80"]["open_scope"], "G80 screen scope promoted")
+    require("generic Jacobi theorem called a UDT-specific selector" in by_id["G80"]["forbidden_regression"], "G80 genericity guard absent")
+    require("past-directed reversal called a future signal" in by_id["G80"]["forbidden_regression"], "G80 signal guard absent")
+    require("bare transpose identity applied across arbitrary screen gauges" in by_id["G80"]["forbidden_regression"], "G80 screen-gauge guard absent")
+    require(
+        by_id["G80"]["controlling_source"]
+        == "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G80 reciprocity source changed",
+    )
+    require("G80_COMPLETES_G79" in by_id["G80"]["precedence_rule"], "G80 refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1325,9 +1342,9 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: 72 premise guards, G79 bounded same-geometry redshift and angular-distance query "
-        "externally verified with caveats; all physical owners remain open and only the reverse "
-        "source-initial reciprocity check is next"
+        "PASS: 73 premise guards, G80 bounded reverse-pair geometric reciprocity externally "
+        "verified with generic-theorem, screen-gauge, and no-signal caveats; all physical owners "
+        "remain open and only one nonradial or rotated-screen covariance replay is next"
     )
     return
     # Unreachable pre-G79 verbose success text remains below only until the next mechanical guard cleanup.

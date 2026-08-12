@@ -7,17 +7,27 @@ Authority: active scientific navigation and dependency spine; not `CANON.md`
 `LIVE.md` remains the final status authority. This file exists so a fresh session can see the
 current scientific structure without reconstructing it from dozens of dated packages.
 
-**CURRENT G79 LEAD:**
+**CURRENT G80 LEAD:**
+`udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
+controls the reverse ordered-pair check on the frozen G79 geometry/query. Past-directed affine
+reversal with source-frequency normalization gives `Z_rev=1/Z`, `phi_rev=-phi`,
+`D_rev=Z D_fwd^T`, and `d_A,rev=Z d_A,fwd`. Production closes near `1e-14`; a separate direct-
+Christoffel neighboring-ray replay closes near `1e-8`. External review returned
+`VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY` with no correction. This is generic self-adjoint
+Jacobi/Wronskian reciprocity, not a UDT selector; arbitrary endpoint screen bases require the
+conjugated law and the reverse is not a future signal. No physical profile, scale, endpoint,
+`X_max`, source, SNe/CMB observable, action, matter, or bootstrap law follows. NEXT: verify the
+conjugated law on one nonradial or explicitly rotated-screen control before the endpoint/`X_max`
+curve or deferred thermal map.
+
+**G79 PARENT LEAD:**
 `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
 controls the first same-geometry dimensional cross-query result. The deterministic frozen control
 `G75_AM_S01_E05` and the chosen stationary `x=1/4 -> 1` observer query yield
 `1+z=sqrt(21)/4`, `phi_pair=log(sqrt(21)/4)`, and `d_A/R=0.7559850215834019` from one full
-metric before P1 is consulted. The external review independently reproduced all load-bearing
-algebra and numerics and returned `VERIFIED_WITH_CAVEATS`; sealed replay portability and shared
-metric/query/ODE-family caveats remain binding. This selects no physical profile, scale, endpoint,
-`X_max`, source, SNe fit, or CMB field. The thermal lens-plus-redshift map is deferred until after
-the dimensional SNe and/or `X_max` curve. NEXT: reverse the source-initial branch on the same
-geometry and test redshift plus angular-distance reciprocity.
+metric before P1 is consulted. G80 above completes its reverse-reciprocity gate. The result still
+selects no physical profile, scale, endpoint, `X_max`, source, SNe fit, or CMB field, and the
+thermal lens-plus-redshift map remains deferred.
 
 **G78 PARENT LEAD:**
 `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`
@@ -31,7 +41,8 @@ factorization, endpoint typing, and source algebra and found no contradictory ow
 correctly limits the internal ownership-status script to regression evidence and the package-wide
 checks to repository gates outside the sealed scientific universe. NEXT: derive one dimensional
 SNe query on one fixed G75/G77 realization, returning `phi_pair` and `d_A` or `d_L` before P1
-comparison, fitting, or profile ranking. That next gate is now completed by G79 above.
+comparison, fitting, or profile ranking. That gate is completed by G79 and its reverse check by
+G80 above.
 
 **G77 PARENT LEAD:**
 `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`

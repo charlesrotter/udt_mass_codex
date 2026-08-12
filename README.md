@@ -7,13 +7,17 @@ file; `CANON.md` changes only with Charles's explicit sign-off.
 
 The active arc is **CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction.
 Its current lead is
-`udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
-On one deterministically selected frozen G75/G77 control and one chosen stationary query, the same
-full metric returns exact `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` before P1 is consulted.
-The result is externally `VERIFIED_WITH_CAVEATS`: sealed-script portability and shared
-metric/query/ODE-family caveats remain binding. It selects no physical profile, endpoint, scale,
-`X_max`, source, fit, or CMB field. `cmb_temp` is deferred. Next is the reverse source-initial
-null-plus-Jacobi reciprocity check on this exact geometry. Its parent is
+`udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+On the frozen G79 metric/query, the past-directed affine reversal derives reciprocal redshift and
+the carried-screen Jacobi law `D_rev=Z D_fwd^T`, with production residuals near `1e-14` and a
+separate neighboring-ray replay near `1e-8`. External review returns
+`VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`. This is generic Jacobi/Wronskian reciprocity on one
+fixed null curve, not a UDT selector or signal; arbitrary endpoint screen changes require the
+conjugated law. No physical profile, endpoint, scale, `X_max`, source, fit, or CMB field is
+selected. Next is one nonradial or rotated-screen covariance replay. Its parent is
+`udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, which
+derives exact `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` on the same bounded control before P1
+comparison. `cmb_temp` remains deferred. Its parent is
 `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
 The exact preregistered twenty-source/seven-route audit finds zero native owners of the physical
 profile, endpoint/global scale, or source state. All 591 controls remain bounded survivors. Exact

@@ -11,13 +11,17 @@
 5. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 5a. ACTIVE ARC (2026-08-11): CMB PEAK OPTIMIZATION; current substep = DIMENSIONAL
    OBSERVER-QUERY CONSTRUCTION. Read
+   `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+   `EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. On the frozen G79
+   metric/query, the past-directed affine reversal verifies `Z_rev=1/Z`, `phi_rev=-phi`,
+   `D_rev=Z D_fwd^T`, and `d_A,rev=Z d_A,fwd`. The result is externally
+   `VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`: generic Jacobi/Wronskian reciprocity, not a UDT
+   selector or future signal, and the bare transpose is carried-screen-gauge conditional. Next is
+   one nonradial or rotated-screen covariance replay. Parent:
    `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
-   then `EXACT_DERIVATION.md`, `TYPE_LEDGER.tsv`, and `THERMAL_READOUT_LEDGER.tsv`. On one
-   outcome-independently selected G75/G77 control, one full stationary query returns exact
-   `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` before P1 comparison. The result is externally
-   verified with sealed-script portability and method-sharing caveats. No profile, endpoint,
-   scale, `X_max`, source, fit, or CMB temperature field is selected; `cmb_temp` is explicitly
-   deferred. Next is the reverse source-initial reciprocity check on the same geometry. Parent:
+   which derives exact `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` on the same bounded control
+   before P1 comparison. No profile, endpoint, scale, `X_max`, source, fit, or CMB temperature field
+   is selected; `cmb_temp` is deferred. Parent:
    `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
    then `EXACT_DERIVATION.md`, `OWNER_ROUTE_LEDGER.tsv`, and `VERIFICATION_SCOPE_LEDGER.tsv`.
    The exact twenty-source owner join finds zero native physical profile, endpoint/scale, or source

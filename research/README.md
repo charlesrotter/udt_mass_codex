@@ -7,14 +7,17 @@ record. Root `LIVE.md` wins every status disagreement.
 
 Read root `LIVE.md` and `HANDOFF.md`, then `CURRENT_RESEARCH_PROGRAM.md` and
 `CURRENT_SCIENTIFIC_PREMISES.md` / `CURRENT_SCIENTIFIC_PREMISES.tsv`. The active arc is
-**CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction. The current G79
+**CMB PEAK OPTIMIZATION**, currently in dimensional observer-query construction. The current G80
 lead is
-`../udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
-One deterministically selected G75/G77 control and one chosen stationary query return exact
-`1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` from the same full metric before P1 comparison.
-External review reproduced the bounded result with sealed-portability and shared-method caveats.
-No physical profile, endpoint, scale, `X_max`, source, fit, or CMB field is selected. `cmb_temp` is
-deferred; next is the reverse source-initial reciprocity check. Its G78 parent is
+`../udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
+On the exact G79 control, the past-directed affine reversal verifies reciprocal redshift and the
+carried-screen Jacobi/area laws. External review returns
+`VERIFIED_AS_BOUNDED_GEOMETRIC_RECIPROCITY`, with generic-theorem, bounded-independence,
+screen-gauge, and no-signal caveats. No physical profile, endpoint, scale, `X_max`, source, fit, or
+CMB field is selected. Next is one nonradial or rotated-screen covariance replay. Its G79 parent is
+`../udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+which returns exact `1+z=sqrt(21)/4` and `d_A/R=0.7559850215834019` before P1 comparison.
+`cmb_temp` is deferred. Its G78 parent is
 `../udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`.
 It finds zero native physical profile, endpoint/scale, or source owners in the exact twenty-source
 G78 universe, while all 591 profiles remain bounded finite-mesh survivors. The exact constant-scale
