@@ -6,6 +6,8 @@ weight_ensemble	CHOSE_FREE_AND_EXPLORED	W0 W1 W2 W3 all retained
 angular_estimator	CHOSE_BORROWED_NUMERICAL_METHOD	Landy-Szalay only; no cosmological mechanism
 r1_implementation	VERIFIED_WITH_CAVEATS	Complete 110-cell random-only run; estimator algebra independently replayed and 12 compact real-catalog pair anchors exact
 r1_random_null_controls	OBSERVED_PASS	220 random-only curves and 330 registered guards pass; proxy is numerical not physical covariance
+r2_central_pattern_atlas	PREREGISTERED_NOT_EXECUTED	194 selections times four weights times three random ratios; no galaxy pair count yet
+r2_primary_engine	CHOSE_BORROWED_NUMERICAL_METHOD	Corrfunc 2.5.3 exact angular counts; TreeCorr 5.1.3 and brute force are independent anchors
 primary_covariance	OPEN	Data-only spatial resampling not yet constructed
 central_pattern	OPEN	No pair count evaluated
 feature_descriptor	OPEN	Must be preregistered before pattern inspection

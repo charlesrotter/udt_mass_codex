@@ -1,0 +1,57 @@
+{
+  "compact_direct": [
+    {
+      "component": "DD",
+      "integer_counts_exact": true,
+      "max_weight_abs_difference": 1.4317436125566019e-12,
+      "max_weight_relative_difference": 4.6547715770339103e-14
+    },
+    {
+      "component": "DR",
+      "integer_counts_exact": true,
+      "max_weight_abs_difference": 7.361222742474638e-12,
+      "max_weight_relative_difference": 6.242578548148917e-14
+    },
+    {
+      "component": "RR",
+      "integer_counts_exact": true,
+      "max_weight_abs_difference": 1.404032445861958e-11,
+      "max_weight_relative_difference": 1.0123635919626371e-13
+    }
+  ],
+  "corrfunc": "2.5.3",
+  "galaxy_catalog_read": false,
+  "large_random_only": [
+    {
+      "component": "DD",
+      "corrfunc_seconds": 0.32173827616497874,
+      "integer_counts_exact": true,
+      "max_weight_abs_difference": 0.00018346455181017518,
+      "max_weight_relative_difference": 3.515530444076895e-10,
+      "treecorr_seconds": 0.630952063947916
+    },
+    {
+      "component": "DR",
+      "corrfunc_seconds": 3.0331587800756097,
+      "integer_counts_exact": true,
+      "max_weight_abs_difference": 0.0013504577800631523,
+      "max_weight_relative_difference": 2.4107126492368067e-10,
+      "treecorr_seconds": 6.804044359829277
+    },
+    {
+      "component": "RR",
+      "corrfunc_seconds": 7.458721198141575,
+      "integer_counts_exact": true,
+      "max_weight_abs_difference": 0.0028193965554237366,
+      "max_weight_relative_difference": 1.963167018204446e-10,
+      "treecorr_seconds": 15.060799780767411
+    }
+  ],
+  "pseudo_data_count": 33107,
+  "pseudo_random_count": 165535,
+  "shell_id": 35,
+  "source": "/media/udt-admin/ScratchDisk/Data/boss_dr12/random0_DR12v5_CMASS_North.fits.gz",
+  "source_sha256": "dc8a37e1310d47c6ba696744ad30cf2fae506a42d2ec50040bb2f775ab06d8b6",
+  "status": "PASS",
+  "treecorr": "5.1.3"
+}

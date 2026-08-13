@@ -1,0 +1,4 @@
+engine	version	artifact	bytes	sha256	role	settings
+Corrfunc	2.5.3	corrfunc-2.5.3-cp310-cp310-linux_x86_64.whl	93630014	c66409cfa91c9f74a50e8a9b3770bbc49011c96a161024999e5dde8cbeedeabe	primary	DDtheta_mocks;8 threads;float64;pair_product;link_in_dec/link_in_ra;no thetaavg
+TreeCorr	5.1.3	treecorr-5.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl	20754433	d8c9e9829723fedb1404c4abce7298578d8f1f2bfab3919ccbd46a4fc78fb11d	independent anchor	Arc;Linear;bin_slop=0;angle_slop=0;float64
+SciPy	1.15.3	installed environment	NA	NA	compact independent anchor	brute/direct plus prior cKDTree R1 evidence
