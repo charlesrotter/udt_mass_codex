@@ -1,0 +1,16 @@
+id	item	status	ownership	effect_if_wrong
+R3P01	Use all 194 banked R2 selections	CHOSE	PINNED_BY_R2_SCOPE	Changes covariance coverage
+R3P02	Retain W0 W1 W2 W3	CHOSE	FREE_AND_EXPLORED_R2_WEIGHT_ENSEMBLE	A hidden lane selection can bias the result
+R3P03	Use deterministic 20x random readout	CHOSE	PINNED_BEFORE_R2_AS_HIGH_DENSITY_READOUT	Lower random density can inflate covariance
+R3P04	Use nested HEALPix NSIDE 4 8 16	CHOSE	RANDOM_GEOMETRY_AND_119_BIN_RANK_DESIGN	Block resolution owns covariance dependence
+R3P05	Block geometry uses full official random catalog only	CHOSE	OUTCOME_BLIND_GEOMETRY	Data-shaped blocks can bias covariance
+R3P06	Active selection block requires selected random occupancy	CHOSE	RANDOM_OWNS_FOOTPRINT	Empty random support invalidates deletion normalization
+R3P07	Delete every pair incident to omitted block	CHOSE	LITERAL_DELETE_ONE_SUBCATALOG	Cross-patch convention changes covariance
+R3P08	Use standard delete-one jackknife prefactor	CHOSE	BORROWED_NUMERICAL_METHOD	Unequal block coverage limits sampling interpretation
+R3P09	Rank threshold is 119 eps lambda_max	CHOSE	NUMERICAL_ALGEBRA_RULE	Different threshold changes reported rank
+R3P10	No covariance inversion or significance	CHOSE	BOUNDED_R3_SCOPE	Inversion before rank ownership creates false precision
+R3P11	TreeCorr patch counts are primary R3 engine	CHOSE	BORROWED_NUMERICAL_METHOD	Engine or patch bookkeeping errors alter covariance
+R3P12	Corrfunc and direct counts are independent anchors	CHOSE	INDEPENDENT_NUMERICAL_CHECK	Shared false pass can remain
+R3P13	Block freeze occurred after R2 output	OBSERVED	TIMING_DEVIATION	Perfect outcome blindness cannot be claimed
+R3P14	No individual R2 feature enters R3	CHOSE	OBSERVE_NOT_TARGET	Feature-led covariance can manufacture significance
+R3P15	No LCDM acoustic ruler mock UDT CMB SNe or Xmax input	CHOSE	UDT_PURITY_AND_DATA_FIRST_SCOPE	External theory can own the result

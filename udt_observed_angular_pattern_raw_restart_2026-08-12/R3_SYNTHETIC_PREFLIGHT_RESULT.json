@@ -1,0 +1,15 @@
+{
+  "all_integer_components_exact": true,
+  "all_weighted_components_within_tolerance": true,
+  "covariance_rank_bound_pass": true,
+  "data_rows": 120,
+  "nsides": [
+    4,
+    8,
+    16
+  ],
+  "probes_per_resolution_max": 3,
+  "random_rows": 480,
+  "seed": 20260813,
+  "status": "PASS"
+}

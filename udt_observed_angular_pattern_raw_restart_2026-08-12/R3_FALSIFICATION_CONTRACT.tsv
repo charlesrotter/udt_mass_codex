@@ -1,0 +1,13 @@
+gate	predeclared_test	failure_or_classification	allowed_response
+R3F01	Random-only block atlas hashes and populations reproduce	BLOCK_GEOMETRY_FAILURE	Stop and audit; do not substitute blocks
+R3F02	Every selected galaxy lies in an active random block	FOOTPRINT_OWNERSHIP_FAILURE	Stop affected cell; no silent reassignment
+R3F03	TreeCorr central integer components equal R2 exactly	PAIR_ENGINE_FAILURE	Block covariance interpretation
+R3F04	TreeCorr central weighted components meet frozen tolerance	WEIGHT_ACCUMULATOR_FAILURE	Audit engine; do not loosen after outcome
+R3F05	Fine patch sums reproduce full correlation totals	PATCH_DECOMPOSITION_FAILURE	Stop; do not form deletions
+R3F06	All deletion normalizations and RR bins are positive	UNSAMPLED_DELETE_BLOCK	Characterize exact cell and block; no shifted grid
+R3F07	Covariance is finite symmetric and PSD within threshold	COVARIANCE_CONSTRUCTION_FAILURE	Audit algebra before interpretation
+R3F08	Rank does not exceed min(119 K-1)	RANK_ALGEBRA_FAILURE	Stop and audit
+R3F09	All NSIDE values and lanes retained	PREREGISTRATION_VIOLATION	Restore complete atlas
+R3F10	Rank or scale changes materially by NSIDE	COVARIANCE_RESOLUTION_OR_RANK_LIMITED	Report dependence; no preferred NSIDE selected
+R3F11	Independent full deletion anchors pass	DELETE_ONE_IMPLEMENTATION_UNRESOLVED	Do not bank covariance verdict
+R3F12	No inverse significance feature or physical model enters	SCOPE_CONTAMINATION	Remove affected inference and regrade

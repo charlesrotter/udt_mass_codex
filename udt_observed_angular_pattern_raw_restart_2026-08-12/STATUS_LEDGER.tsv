@@ -11,6 +11,8 @@ r2_primary_engine	CHOSE_BORROWED_NUMERICAL_METHOD	Corrfunc 2.5.3 exact angular c
 primary_covariance	OPEN	Data-only spatial resampling and replication controls remain R3
 central_pattern	OBSERVED_VERIFIED_WITH_CAVEATS	Complete bounded raw observer-coordinate atlas; no feature significance or physical origin
 feature_descriptor	OBSERVED_VERIFIED_WITH_CAVEATS	Complete outcome-blind extrema DCT and lag vocabulary; no individual feature selected
+r3_block_geometry	VERIFIED_RANDOM_ONLY	2351 occupied nested HEALPix records across NSIDE 4 8 16; independently replayed without galaxy or R2 curve input
+r3_covariance_atlas	PREREGISTERED_NOT_EXECUTED	194 selections x four lanes x three NSIDEs at 20x; no covariance outcome yet
 udt_comparison	OPEN	Outside R0 through R3
 physical_origin	OPEN	No acoustic or UDT origin assigned
 xmax	OPEN	No value or estimate
