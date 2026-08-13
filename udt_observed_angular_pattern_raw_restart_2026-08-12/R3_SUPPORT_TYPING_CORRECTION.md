@@ -64,3 +64,19 @@ cell must store the exact active union, including zero random occupancies where 
 independent verifier must reconstruct that union for all 194 cells.
 
 Production restarts in a fresh checkpoint directory. Any prior checkpoint remains provenance only.
+
+## Banked affected-case gate
+
+After the correction was committed at `c8a59451`, the unchanged production `execute_selection`
+function was run on the exact formerly failing `CMASS_North_f1_g02` selection. The structural-only
+return was:
+
+- process exit 0;
+- 18,166 selected galaxies and 363,320 selected randoms;
+- 620 active NSIDE-16 blocks, including exactly one data-only active block;
+- all nine central component comparisons and all twelve covariance records completed;
+- wall time 146.387 seconds and peak RSS 3.270 GiB;
+- no covariance value, rank, eigenspectrum, scale, or feature was printed or reviewed.
+
+The helper and output remain under `/tmp/udt_r3_affected_smoke_N41h33/`. This closes the operational
+trigger without changing any scientific choice.
