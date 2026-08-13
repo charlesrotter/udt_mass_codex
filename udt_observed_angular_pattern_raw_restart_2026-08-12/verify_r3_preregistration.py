@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent
 def main() -> int:
     required = (
         "R3_PREREGISTRATION.md", "R3_PREMISE_LEDGER.tsv", "R3_FALSIFICATION_CONTRACT.tsv",
-        "R3_ENGINE_PROVENANCE.tsv", "R3_PREFLIGHT_NOTE.md", "R3_BLOCK_ATLAS.tsv",
+        "R3_ENGINE_PROVENANCE.tsv", "R3_PREFLIGHT_NOTE.md", "R3_PREEXECUTION_GATES.md", "R3_BLOCK_ATLAS.tsv",
         "R3_BLOCK_RESULT.json", "R3_SYNTHETIC_PREFLIGHT_RESULT.json",
         "run_r3_covariance_atlas.py", "verify_r3.py",
     )
@@ -38,11 +38,14 @@ def main() -> int:
     selections = sum(sum(1 for _ in r2.groups(sample)) * 2 for sample in ("CMASS", "LOWZ"))
     assert selections == 194
     prereg = (ROOT / "R3_PREREGISTRATION.md").read_text()
+    preexecution = (ROOT / "R3_PREEXECUTION_GATES.md").read_text()
     for phrase in (
         "No inverse, pseudoinverse", "No individual R2 feature", "outcome-blindness caveat",
         "NSIDE=16", "NSIDE=8", "NSIDE=4", "all four R2 weight lanes",
     ):
         assert phrase.lower() in prereg.lower()
+    assert "NO_COVARIANCE_OUTCOME_REVIEWED" in preexecution
+    assert "peak RSS: 3.143 GiB" in preexecution
     print("PASS: R3 preregistration (194 selections, 4 lanes, 3 NSIDEs, no covariance outcome)")
     return 0
 
