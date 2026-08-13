@@ -1,0 +1,14 @@
+source_id	type	location	role	status
+XW_S01	repository	AGENTS.md	Binding method and evidence rules	READ
+XW_S02	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/PREREGISTRATION.md	Frozen R0 observer-coordinate contract	READ
+XW_S03	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/DATA_MANIFEST.tsv	Eight-file input identity	READ
+XW_S04	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/PREMISE_LEDGER.tsv	Frozen local premise ownership	READ
+XW_S05	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/R1_EXECUTION_CONTRACT.md	Ingestion random and normalization contract	READ
+XW_S06	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/R1_FILE_INGESTION_SUMMARY.tsv	Observed file and population summary	READ
+XW_S07	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/R2_PREREGISTRATION.md	Frozen R2 pair estimator and comparison contract	READ
+XW_S08	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md	Completed bounded R2 claim	READ
+XW_S09	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/run_r2_central_pattern.py	Production implementation	READ
+XW_S10	primary_external	TO_BE_LOCATED_AFTER_PREREGISTRATION_COMMIT	Official SDSS/BOSS LSS catalog documentation	UNOPENED
+XW_S11	primary_external	TO_BE_LOCATED_AFTER_PREREGISTRATION_COMMIT	Original BOSS catalog-construction paper	UNOPENED
+XW_S12	primary_external	TO_BE_LOCATED_AFTER_PREREGISTRATION_COMMIT	Original BOSS observational-systematics and weighting sources	UNOPENED
+XW_S13	primary_external	TO_BE_LOCATED_AFTER_PREREGISTRATION_COMMIT	Original BOSS clustering estimator source	UNOPENED

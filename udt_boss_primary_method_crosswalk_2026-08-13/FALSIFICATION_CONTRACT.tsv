@@ -1,0 +1,11 @@
+id	gate	failure_class	required_action
+XW_F01	Every compared publication object has the same release catalog selection cap coordinate type weights estimator bins and correction state	TYPE_MISMATCH	Classify NONCOMPARABLE and do not compare values
+XW_F02	Local file identity and hashes remain those frozen in R0	INPUT_LINEAGE_FAILURE	Stop the affected input comparison
+XW_F03	Local weight formulas agree with the primary definitions of the underlying fields	WEIGHT_SEMANTICS_MISMATCH	Return PIPELINE_MISMATCH_REQUIRES_AUDIT for affected lanes
+XW_F04	Local random handling agrees with the primary footprint/completeness semantics	RANDOM_SEMANTICS_MISMATCH	Return PIPELINE_MISMATCH_REQUIRES_AUDIT
+XW_F05	Local pair-count normalization implements the cited estimator for weighted finite samples	ESTIMATOR_NORMALIZATION_MISMATCH	Return PIPELINE_MISMATCH_REQUIRES_AUDIT
+XW_F06	Required released masks and vetoes are either already encoded or explicitly applied	MASK_OR_VETO_MISMATCH	Return PIPELINE_MISMATCH_REQUIRES_AUDIT
+XW_F07	A claimed direct observable comparison is independently recomputed from saved local evidence	INDEPENDENT_REPLAY_MISSING	Do not bank the numeric comparison
+XW_F08	No quarantined BAO location distance ruler template reconstruction or mock covariance alters the local pipeline	INTERPRETATION_LEAK	Stop and regrade affected comparison
+XW_F09	R3 scientific content remains unopened until its own full verification	R3_FIREWALL_BREACH	Stop this audit and disclose
+XW_F10	No mismatch is repaired before it is recorded under the frozen contract	POSTOUTCOME_RETUNE	Bank mismatch; repair only in a new preregistered phase

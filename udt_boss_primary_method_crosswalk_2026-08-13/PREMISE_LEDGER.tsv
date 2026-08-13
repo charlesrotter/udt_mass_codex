@@ -1,0 +1,13 @@
+id	item	status	ownership	effect_if_wrong
+XW_P01	Eight DR12v5 pre-reconstruction LOWZ/CMASS North/South data/random files define the local input universe	CHOSE	FROZEN_R0_DATA_MANIFEST	Different lineage invalidates the crosswalk
+XW_P02	Primary SDSS/BOSS sources own catalog and field semantics	OBSERVED_SOURCE	ORIGINAL_COLLABORATION_RECORD	Secondary interpretation can misstate the release
+XW_P03	RA DEC Z define the local observer-coordinate location	CHOSE	FROZEN_R0_ONTOLOGY	A published 3D coordinate object is not the same observable
+XW_P04	All four local data-weight lanes remain visible	CHOSE	FREE_AND_EXPLORED	Selecting one after comparison would bias the audit
+XW_P05	Random weights are unity locally	CHOSE	FROZEN_R0_RANDOM_SEMANTICS	If official random semantics require another factor the estimator is biased
+XW_P06	Landy-Szalay is borrowed measurement machinery	CHOSE	METHOD_ONLY	Its use imports no BAO origin or cosmology
+XW_P07	Published cosmological distance and acoustic quantities are quarantined	CHOSE	UDT_PURITY_AND_TYPE_MATCH	Using them would contaminate the raw observer-coordinate lane
+XW_P08	R3 covariance content remains closed	CHOSE	OUTCOME_FIREWALL	Premature inspection can alter the crosswalk or R3 interpretation
+XW_P09	No local selection bin weight tolerance or descriptor changes during this audit	CHOSE	PREOUTCOME_FREEZE	Retuning can manufacture agreement
+XW_P10	Direct numeric comparison requires identical query typing	CHOSE	SCIENTIFIC_TYPE_SAFETY	Unlike observables can agree or disagree meaninglessly
+XW_P11	Publication claims are evidence only at exact cited locations	CHOSE	PRIMARY_SOURCE_PROVENANCE	Abstract-level paraphrase may omit conditioning
+XW_P12	No UDT feature or X_max inference is attempted	CHOSE	BOUNDED_CONCLUSION	Method agreement is not physical validation
