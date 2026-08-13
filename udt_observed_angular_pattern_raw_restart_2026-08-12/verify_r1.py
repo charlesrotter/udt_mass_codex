@@ -52,6 +52,7 @@ def main() -> int:
         (row["sample"], row["cap"], row["shell_id"], row["replicate"]): row
         for row in summaries if row["replicate"] in {"0", "1"}
     }
+    curves: dict[tuple[str, str, str, str], list[tuple[int, float, float]]] = {}
     for row in null:
         key = (row["sample"], row["cap"], row["shell_id"], row["replicate"])
         summary = nlookup[key]
@@ -67,6 +68,54 @@ def main() -> int:
         assert np.isclose(float(row["rr_norm"]), rrn, rtol=2e-15, atol=0.0)
         assert np.isclose(float(row["w_null"]), w, rtol=2e-14, atol=1e-18)
         assert np.isclose(float(row["sigma_proxy"]), sigma, rtol=2e-15, atol=0.0)
+        bin_id = int(round((float(row["theta_lo_deg"]) - 0.25) / 0.25))
+        curves.setdefault(key, []).append((bin_id, w, sigma))
+
+    # Reconstruct every per-replicate and between-replicate summary and guard independently.
+    summary_lookup = {
+        (row["sample"], row["cap"], row["shell_id"], row["replicate"]): row
+        for row in summaries
+    }
+    for key, values in curves.items():
+        values.sort()
+        assert [item[0] for item in values] == list(range(119))
+        w = np.asarray([item[1] for item in values])
+        sigma = np.asarray([item[2] for item in values])
+        z = w / sigma
+        recorded = summary_lookup[key]
+        checks = {
+            "max_abs_w": np.max(np.abs(w)),
+            "rms_w": np.sqrt(np.mean(w * w)),
+            "max_abs_z_proxy": np.max(np.abs(z)),
+            "rms_z_proxy": np.sqrt(np.mean(z * z)),
+        }
+        for field, value in checks.items():
+            assert np.isclose(float(recorded[field]), value, rtol=2e-14, atol=1e-18)
+        guard = int(checks["max_abs_z_proxy"] <= 12.0 and checks["rms_z_proxy"] <= 3.0)
+        assert int(recorded["within_registered_guard"]) == guard
+
+    shell_keys = sorted({key[:3] for key in curves})
+    for shell_key in shell_keys:
+        v0 = sorted(curves[shell_key + ("0",)])
+        v1 = sorted(curves[shell_key + ("1",)])
+        w0, s0 = np.asarray([x[1] for x in v0]), np.asarray([x[2] for x in v0])
+        w1, s1 = np.asarray([x[1] for x in v1]), np.asarray([x[2] for x in v1])
+        dw = w0 - w1
+        dz = dw / np.sqrt(s0 * s0 + s1 * s1)
+        recorded = summary_lookup[shell_key + ("DIFFERENCE_0_MINUS_1",)]
+        checks = {
+            "max_abs_w": np.max(np.abs(dw)),
+            "rms_w": np.sqrt(np.mean(dw * dw)),
+            "max_abs_z_proxy": np.max(np.abs(dz)),
+            "rms_z_proxy": np.sqrt(np.mean(dz * dz)),
+        }
+        for field, value in checks.items():
+            assert np.isclose(float(recorded[field]), value, rtol=2e-14, atol=1e-18)
+        guard = int(checks["max_abs_z_proxy"] <= 12.0 and checks["rms_z_proxy"] <= 3.0)
+        assert int(recorded["within_registered_guard"]) == guard
+
+    assert all(int(row["within_registered_guard"]) == 1 for row in summaries)
+    assert bool(result["registered_guards_pass"])
 
     # Independent brute-force replay on compact actual-catalog coordinate anchors.
     bundle = np.load(ROOT / "R1_ENGINE_ANCHOR_INPUTS.npz")

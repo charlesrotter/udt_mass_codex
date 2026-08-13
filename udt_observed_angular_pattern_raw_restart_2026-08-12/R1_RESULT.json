@@ -1,0 +1,18 @@
+{
+  "angular_bin_count": 119,
+  "fine_shells": 110,
+  "galaxy_pair_counts_computed": false,
+  "independent_actual_catalog_pair_anchors_pass": true,
+  "max_rss_gib": 1.6273994445800781,
+  "null_bin_rows": 26180,
+  "null_curve_count": 220,
+  "numpy": "2.2.6",
+  "python": "3.10.12",
+  "random_ratio": 5,
+  "registered_guards_pass": true,
+  "replicates": 2,
+  "sampled_shells": 110,
+  "scipy": "1.15.3",
+  "status": "OBSERVED__R1_RANDOM_NULL_CONTROLS_PASS",
+  "wall_seconds": 5458.909442892298
+}
