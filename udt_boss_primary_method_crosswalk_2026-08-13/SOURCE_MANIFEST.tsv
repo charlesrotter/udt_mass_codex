@@ -8,7 +8,11 @@ XW_S06	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/R1_FILE_IN
 XW_S07	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/R2_PREREGISTRATION.md	Frozen R2 pair estimator and comparison contract	READ
 XW_S08	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md	Completed bounded R2 claim	READ
 XW_S09	repository	udt_observed_angular_pattern_raw_restart_2026-08-12/run_r2_central_pattern.py	Production implementation	READ
-XW_S10	primary_external	TO_BE_LOCATED_AFTER_PREREGISTRATION_COMMIT	Official SDSS/BOSS LSS catalog documentation	UNOPENED
-XW_S11	primary_external	TO_BE_LOCATED_AFTER_PREREGISTRATION_COMMIT	Original BOSS catalog-construction paper	UNOPENED
-XW_S12	primary_external	TO_BE_LOCATED_AFTER_PREREGISTRATION_COMMIT	Original BOSS observational-systematics and weighting sources	UNOPENED
-XW_S13	primary_external	TO_BE_LOCATED_AFTER_PREREGISTRATION_COMMIT	Original BOSS clustering estimator source	UNOPENED
+XW_S10	primary_external	https://www.sdss4.org/dr17/spectro/lss/	Official SDSS/BOSS LSS catalog documentation	READ
+XW_S11	primary_external	https://data.sdss.org/datamodel/files/BOSS_LSS_REDUX/galaxy_DRX_SAMPLE_NS.html	Official BOSS galaxy data model	READ
+XW_S12	primary_external	https://data.sdss.org/datamodel/files/BOSS_LSS_REDUX/randomN_DRX_SAMPLE_NS.html	Official BOSS random data model	READ
+XW_S13	primary_external	https://data.sdss.org/sas/dr12/boss/lss/	Official DR12 BOSS LSS file listing	READ
+XW_S14	primary_external	https://arxiv.org/abs/1509.06529	Original DR12 BOSS catalog-construction and weighting paper	READ
+XW_S15	primary_external	https://arxiv.org/abs/2112.10000	Original thin-shell angular-correlation analysis	READ
+XW_S16	repository	udt_boss_primary_method_crosswalk_2026-08-13/verify_primary_crosswalk.py	Independent finite verifier	EXECUTED
+XW_S17	repository	udt_boss_primary_method_crosswalk_2026-08-13/INDEPENDENT_VERIFICATION.json	Independent verification output	PASS

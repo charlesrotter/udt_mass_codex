@@ -1,0 +1,172 @@
+{
+  "boundary_checks": [
+    {
+      "cap": "North",
+      "literal_equal_0p15": 0,
+      "literal_equal_0p43": 0,
+      "literal_equal_0p70": 0,
+      "name": "galaxy_DR12v5_CMASS_North.fits.gz",
+      "rows_local_scope": 568776,
+      "rows_publication_notation_scope": 568776,
+      "sample": "CMASS",
+      "stored_float32_equal_0p15": 0,
+      "stored_float32_equal_0p43": 0,
+      "stored_float32_equal_0p70": 0,
+      "symmetric_mask_difference": 0,
+      "w3_max": 18.36920749154092,
+      "w3_min": 0.7252740859985352,
+      "w_systot_product_max_abs_error": 5.9604559510262334e-08,
+      "w_systot_product_max_relative_error": 5.956193180128833e-08
+    },
+    {
+      "cap": "South",
+      "literal_equal_0p15": 0,
+      "literal_equal_0p43": 0,
+      "literal_equal_0p70": 0,
+      "name": "galaxy_DR12v5_CMASS_South.fits.gz",
+      "rows_local_scope": 208426,
+      "rows_publication_notation_scope": 208426,
+      "sample": "CMASS",
+      "stored_float32_equal_0p15": 0,
+      "stored_float32_equal_0p43": 0,
+      "stored_float32_equal_0p70": 0,
+      "symmetric_mask_difference": 0,
+      "w3_max": 15.532661009438016,
+      "w3_min": 0.6313978433609009,
+      "w_systot_product_max_abs_error": 1.0886557788580831e-07,
+      "w_systot_product_max_relative_error": 5.94684426978345e-08
+    },
+    {
+      "cap": "North",
+      "literal_equal_0p15": 0,
+      "literal_equal_0p43": 0,
+      "literal_equal_0p70": 0,
+      "name": "galaxy_DR12v5_LOWZ_North.fits.gz",
+      "rows_local_scope": 248237,
+      "rows_publication_notation_scope": 248237,
+      "sample": "LOWZ",
+      "stored_float32_equal_0p15": 0,
+      "stored_float32_equal_0p43": 0,
+      "stored_float32_equal_0p70": 0,
+      "symmetric_mask_difference": 0,
+      "w3_max": 5.0,
+      "w3_min": 1.0,
+      "w_systot_product_max_abs_error": 0.0,
+      "w_systot_product_max_relative_error": 0.0
+    },
+    {
+      "cap": "South",
+      "literal_equal_0p15": 0,
+      "literal_equal_0p43": 0,
+      "literal_equal_0p70": 0,
+      "name": "galaxy_DR12v5_LOWZ_South.fits.gz",
+      "rows_local_scope": 113525,
+      "rows_publication_notation_scope": 113525,
+      "sample": "LOWZ",
+      "stored_float32_equal_0p15": 0,
+      "stored_float32_equal_0p43": 0,
+      "stored_float32_equal_0p70": 0,
+      "symmetric_mask_difference": 0,
+      "w3_max": 6.0,
+      "w3_min": 1.0,
+      "w_systot_product_max_abs_error": 0.0,
+      "w_systot_product_max_relative_error": 0.0
+    }
+  ],
+  "boundary_status": "NO_REALIZED_ROW_DIFFERENCE",
+  "catalog_schema_match": true,
+  "file_checks": [
+    {
+      "actual_bytes": 138873951,
+      "kind": "data",
+      "manifest_bytes": 138873951,
+      "name": "galaxy_DR12v5_CMASS_North.fits.gz",
+      "official_bytes": 138873951,
+      "required_columns_present": true,
+      "rows": 618806
+    },
+    {
+      "actual_bytes": 51580500,
+      "kind": "data",
+      "manifest_bytes": 51580500,
+      "name": "galaxy_DR12v5_CMASS_South.fits.gz",
+      "official_bytes": 51580500,
+      "required_columns_present": true,
+      "rows": 230831
+    },
+    {
+      "actual_bytes": 73432436,
+      "kind": "data",
+      "manifest_bytes": 73432436,
+      "name": "galaxy_DR12v5_LOWZ_North.fits.gz",
+      "official_bytes": 73432436,
+      "required_columns_present": true,
+      "rows": 317780
+    },
+    {
+      "actual_bytes": 32341613,
+      "kind": "data",
+      "manifest_bytes": 32341613,
+      "name": "galaxy_DR12v5_LOWZ_South.fits.gz",
+      "official_bytes": 32341613,
+      "required_columns_present": true,
+      "rows": 145264
+    },
+    {
+      "actual_bytes": 3239878693,
+      "kind": "random",
+      "manifest_bytes": 3239878693,
+      "name": "random0_DR12v5_CMASS_North.fits.gz",
+      "official_bytes": 3239878693,
+      "required_columns_present": true,
+      "rows": 32151741
+    },
+    {
+      "actual_bytes": 1172229517,
+      "kind": "random",
+      "manifest_bytes": 1172229517,
+      "name": "random0_DR12v5_CMASS_South.fits.gz",
+      "official_bytes": 1172229517,
+      "required_columns_present": true,
+      "rows": 11636252
+    },
+    {
+      "actual_bytes": 1578615321,
+      "kind": "random",
+      "manifest_bytes": 1578615321,
+      "name": "random0_DR12v5_LOWZ_North.fits.gz",
+      "official_bytes": 1578615321,
+      "required_columns_present": true,
+      "rows": 15678814
+    },
+    {
+      "actual_bytes": 713300258,
+      "kind": "random",
+      "manifest_bytes": 713300258,
+      "name": "random0_DR12v5_LOWZ_South.fits.gz",
+      "official_bytes": 713300258,
+      "required_columns_present": true,
+      "rows": 7084128
+    }
+  ],
+  "implementation_independence": "ASTROPY_AND_DIRECT_ENUMERATION__NO_R0_R3_MODULE_IMPORT",
+  "official_file_listing_match": true,
+  "pair_normalization_check": {
+    "dd_direct": 10.9375,
+    "dd_exact": true,
+    "dd_formula": 10.9375,
+    "dr_direct": 38.5,
+    "dr_exact": true,
+    "dr_formula": 38.5,
+    "rr_direct": 21.0,
+    "rr_exact": true,
+    "rr_formula": 21.0
+  },
+  "r3_scientific_content_opened": false,
+  "status": "PASS",
+  "versions": {
+    "astropy": "6.1.7",
+    "numpy": "2.2.6",
+    "python": "3.10.12"
+  }
+}
