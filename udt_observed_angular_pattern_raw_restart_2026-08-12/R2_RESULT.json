@@ -1,0 +1,15 @@
+{
+  "angular_bin_count": 119,
+  "assembly_wall_seconds": 6.523161442950368,
+  "component_rows": 438634,
+  "corrfunc": "2.5.3",
+  "curve_count": 2328,
+  "curve_rows": 277032,
+  "dct_rows": 277032,
+  "feature_rows": 195124,
+  "lag_rows": 551736,
+  "max_rss_gib": 1.634429931640625,
+  "selection_count": 194,
+  "status": "OBSERVED__R2_CENTRAL_PATTERN_ATLAS_ASSEMBLED__VERIFICATION_PENDING",
+  "threads": 8
+}
