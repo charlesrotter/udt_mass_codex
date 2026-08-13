@@ -4,7 +4,7 @@ R3P02	Retain W0 W1 W2 W3	CHOSE	FREE_AND_EXPLORED_R2_WEIGHT_ENSEMBLE	A hidden lan
 R3P03	Use deterministic 20x random readout	CHOSE	PINNED_BEFORE_R2_AS_HIGH_DENSITY_READOUT	Lower random density can inflate covariance
 R3P04	Use nested HEALPix NSIDE 4 8 16	CHOSE	RANDOM_GEOMETRY_AND_119_BIN_RANK_DESIGN	Block resolution owns covariance dependence
 R3P05	Block geometry uses full official random catalog only	CHOSE	OUTCOME_BLIND_GEOMETRY	Data-shaped blocks can bias covariance
-R3P06	Active selection block requires selected random occupancy	CHOSE	RANDOM_OWNS_FOOTPRINT	Empty random support invalidates deletion normalization
+R3P06	Active selection block is the union of selected data and random occupancy inside the full random-owned footprint	CHOSE_CORRECTED_BEFORE_OUTCOME	LITERAL_SPATIAL_SUBCATALOG	Random-only activity silently drops valid data deletions
 R3P07	Delete every pair incident to omitted block	CHOSE	LITERAL_DELETE_ONE_SUBCATALOG	Cross-patch convention changes covariance
 R3P08	Use standard delete-one jackknife prefactor	CHOSE	BORROWED_NUMERICAL_METHOD	Unequal block coverage limits sampling interpretation
 R3P09	Rank threshold is 119 eps lambda_max	CHOSE	NUMERICAL_ALGEBRA_RULE	Different threshold changes reported rank

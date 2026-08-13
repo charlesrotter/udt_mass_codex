@@ -1,0 +1,220 @@
+{
+  "affected": [
+    {
+      "cap": "North",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 2,
+      "nside": 16,
+      "random_active_blocks": 619,
+      "sample": "CMASS",
+      "union_active_blocks": 620
+    },
+    {
+      "cap": "North",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 9,
+      "nside": 16,
+      "random_active_blocks": 619,
+      "sample": "CMASS",
+      "union_active_blocks": 620
+    },
+    {
+      "cap": "North",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 2,
+      "group": 4,
+      "nside": 16,
+      "random_active_blocks": 621,
+      "sample": "CMASS",
+      "union_active_blocks": 622
+    },
+    {
+      "cap": "North",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 4,
+      "group": 2,
+      "nside": 16,
+      "random_active_blocks": 621,
+      "sample": "CMASS",
+      "union_active_blocks": 622
+    },
+    {
+      "cap": "South",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 19,
+      "nside": 4,
+      "random_active_blocks": 25,
+      "sample": "CMASS",
+      "union_active_blocks": 26
+    },
+    {
+      "cap": "South",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 19,
+      "nside": 8,
+      "random_active_blocks": 74,
+      "sample": "CMASS",
+      "union_active_blocks": 75
+    },
+    {
+      "cap": "South",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 19,
+      "nside": 16,
+      "random_active_blocks": 257,
+      "sample": "CMASS",
+      "union_active_blocks": 258
+    },
+    {
+      "cap": "North",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 0,
+      "nside": 16,
+      "random_active_blocks": 568,
+      "sample": "LOWZ",
+      "union_active_blocks": 569
+    },
+    {
+      "cap": "North",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 1,
+      "nside": 16,
+      "random_active_blocks": 569,
+      "sample": "LOWZ",
+      "union_active_blocks": 570
+    },
+    {
+      "cap": "North",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 7,
+      "nside": 16,
+      "random_active_blocks": 569,
+      "sample": "LOWZ",
+      "union_active_blocks": 570
+    },
+    {
+      "cap": "North",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 17,
+      "nside": 16,
+      "random_active_blocks": 571,
+      "sample": "LOWZ",
+      "union_active_blocks": 572
+    },
+    {
+      "cap": "South",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 3,
+      "nside": 16,
+      "random_active_blocks": 257,
+      "sample": "LOWZ",
+      "union_active_blocks": 258
+    },
+    {
+      "cap": "South",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 25,
+      "nside": 4,
+      "random_active_blocks": 25,
+      "sample": "LOWZ",
+      "union_active_blocks": 26
+    },
+    {
+      "cap": "South",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 25,
+      "nside": 8,
+      "random_active_blocks": 74,
+      "sample": "LOWZ",
+      "union_active_blocks": 75
+    },
+    {
+      "cap": "South",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 25,
+      "nside": 16,
+      "random_active_blocks": 258,
+      "sample": "LOWZ",
+      "union_active_blocks": 259
+    },
+    {
+      "cap": "South",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 1,
+      "group": 27,
+      "nside": 16,
+      "random_active_blocks": 256,
+      "sample": "LOWZ",
+      "union_active_blocks": 257
+    },
+    {
+      "cap": "South",
+      "data_in_data_only_blocks": 1,
+      "data_only_blocks": 1,
+      "factor": 2,
+      "group": 13,
+      "nside": 16,
+      "random_active_blocks": 257,
+      "sample": "LOWZ",
+      "union_active_blocks": 258
+    }
+  ],
+  "affected_records": 17,
+  "by_nside": {
+    "16": {
+      "affected_selection_count": 13,
+      "max_data_objects_per_selection": 1,
+      "max_data_only_blocks_per_selection": 1,
+      "selection_count": 194,
+      "total_data_in_data_only_blocks": 13,
+      "total_data_only_blocks": 13
+    },
+    "4": {
+      "affected_selection_count": 2,
+      "max_data_objects_per_selection": 1,
+      "max_data_only_blocks_per_selection": 1,
+      "selection_count": 194,
+      "total_data_in_data_only_blocks": 2,
+      "total_data_only_blocks": 2
+    },
+    "8": {
+      "affected_selection_count": 2,
+      "max_data_objects_per_selection": 1,
+      "max_data_only_blocks_per_selection": 1,
+      "selection_count": 194,
+      "total_data_in_data_only_blocks": 2,
+      "total_data_only_blocks": 2
+    }
+  },
+  "selection_resolution_records": 582,
+  "status": "GEOMETRY_SUPPORT_AUDIT_ONLY__NO_PAIR_COUNTS_OR_COVARIANCE_READ"
+}

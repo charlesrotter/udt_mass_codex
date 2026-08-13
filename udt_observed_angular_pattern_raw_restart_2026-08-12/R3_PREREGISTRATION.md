@@ -51,9 +51,16 @@ For each sample/cap independently:
 2. map sky positions to nested HEALPix pixels at `NSIDE=16`;
 3. retain every occupied pixel, ordered by integer nested pixel ID;
 4. obtain `NSIDE=8` and `NSIDE=4` blocks by exact nested-parent mapping of those same pixels;
-5. for an individual redshift selection, call a block active only when its selected deterministic
-   `20x` random catalog contains at least one row;
-6. require every selected galaxy to lie in an active random block.
+5. for an individual redshift selection, call a block active when either its selected data catalog
+   or its deterministic `20x` random catalog contains at least one row;
+6. require every selected galaxy and selected random row to lie within the full official-random
+   footprint atlas.
+
+The union rule is a pre-outcome type correction registered after the first production attempt fired
+the original random-only support stop gate. A finite random subset can contain zero rows in a valid
+full-footprint block that contains one selected galaxy. Literal deletion still exists: that block
+removes data-incident pairs and has exactly zero random removal. See
+`R3_SUPPORT_TYPING_CORRECTION.md`.
 
 The blocks are not declared equal-area survey regions: edge pixels can have partial footprint
 coverage. Full-random and selected-random occupancy, data occupancy, coefficient of variation,

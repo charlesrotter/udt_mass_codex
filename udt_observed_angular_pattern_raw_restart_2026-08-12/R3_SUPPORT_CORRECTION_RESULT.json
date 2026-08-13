@@ -1,0 +1,22 @@
+{
+  "active_union_includes_target": true,
+  "exact_rerun_components": {
+    "DD": {
+      "removed_integer_pairs": 62,
+      "removed_weight": 97.02948460192832
+    },
+    "DR": {
+      "removed_integer_pairs": 482,
+      "removed_weight": 669.1294293403625
+    },
+    "RR": {
+      "removed_integer_pairs": 0,
+      "removed_weight": 0.0
+    }
+  },
+  "seed": 31082026,
+  "status": "PASS",
+  "target_full_footprint_pixel": 1142,
+  "target_selected_data_count": 1,
+  "target_selected_random_count": 0
+}

@@ -1,6 +1,6 @@
 gate	predeclared_test	failure_or_classification	allowed_response
 R3F01	Random-only block atlas hashes and populations reproduce	BLOCK_GEOMETRY_FAILURE	Stop and audit; do not substitute blocks
-R3F02	Every selected galaxy lies in an active random block	FOOTPRINT_OWNERSHIP_FAILURE	Stop affected cell; no silent reassignment
+R3F02	Every selected galaxy and random lies in the full official-random block atlas; active deletion blocks equal their occupancy union	FOOTPRINT_OR_ACTIVE_UNION_FAILURE	Stop affected cell; no silent reassignment or block removal
 R3F03	TreeCorr central integer components equal R2 exactly	PAIR_ENGINE_FAILURE	Block covariance interpretation
 R3F04	TreeCorr central weighted components meet frozen tolerance	WEIGHT_ACCUMULATOR_FAILURE	Audit engine; do not loosen after outcome
 R3F05	Fine patch sums reproduce full correlation totals	PATCH_DECOMPOSITION_FAILURE	Stop; do not form deletions

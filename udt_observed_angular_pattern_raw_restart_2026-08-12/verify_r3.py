@@ -119,6 +119,69 @@ def anchor_replays(cells):
     return records
 
 
+def support_replays(cells):
+    """Independently reconstruct every stored data/random active-block union."""
+    entries = r1.read_manifest()
+    de = {(e.sample, e.cap): e for e in entries if e.kind == "data"}
+    re = {(e.sample, e.cap): e for e in entries if e.kind == "random"}
+    blocks = block_pixels()
+    records = 0
+    data_only_records = 0
+    data_only_blocks = 0
+    for sample in ("CMASS", "LOWZ"):
+        for cap in ("North", "South"):
+            data_entry, random_entry = de[(sample, cap)], re[(sample, cap)]
+            data = r1.read_numeric_columns(data_entry.path, ["RA", "DEC", "Z"] + r1.WEIGHT_FIELDS, data_entry.rows)
+            random = r1.read_numeric_columns(random_entry.path, ["RA", "DEC", "Z"], random_entry.rows)
+            ds, rs = r1.assign_shells(data["Z"], sample), r1.assign_shells(random["Z"], sample)
+            hashes = r1.splitmix64(
+                np.arange(random_entry.rows, dtype=np.uint64), int(random_entry.sha256[:16], 16)
+            )
+            all_weights = r1.weight_arrays(data)
+            for group in r2.groups(sample):
+                lo, hi = int(group["members"][0]), int(group["members"][-1])
+                di = np.flatnonzero((ds >= lo) & (ds <= hi))
+                candidates = np.flatnonzero((rs >= lo) & (rs <= hi))
+                need = 20 * len(di)
+                local = np.argpartition(hashes[candidates], need - 1)[:need]
+                local = local[np.lexsort((candidates[local], hashes[candidates][local]))]
+                ri = candidates[local]
+                key = f"{sample}_{cap}_f{int(group['factor'])}_g{int(group['group']):02d}"
+                _, arrays = cells[key]
+                for nside in NSIDES:
+                    footprint = blocks[(sample, cap, nside)]
+                    dpix = pixel(data["RA"][di], data["DEC"][di], nside)
+                    rpix = pixel(random["RA"][ri], random["DEC"][ri], nside)
+                    dlabel = np.searchsorted(footprint, dpix)
+                    rlabel = np.searchsorted(footprint, rpix)
+                    assert np.all(dlabel < len(footprint)) and np.all(footprint[dlabel] == dpix)
+                    assert np.all(rlabel < len(footprint)) and np.all(footprint[rlabel] == rpix)
+                    nd = np.bincount(dlabel, minlength=len(footprint)).astype(np.int64)
+                    nr = np.bincount(rlabel, minlength=len(footprint)).astype(np.int64)
+                    active = (nd > 0) | (nr > 0)
+                    assert np.array_equal(arrays[f"active_pixel_n{nside}"], footprint[active])
+                    assert np.array_equal(arrays[f"data_count_n{nside}"], nd[active])
+                    assert np.array_equal(arrays[f"random_count_n{nside}"], nr[active])
+                    for lane_index, lane in enumerate(LANES):
+                        w = all_weights[lane][di]
+                        sumw = np.bincount(dlabel, weights=w, minlength=len(footprint))[active]
+                        sumw2 = np.bincount(dlabel, weights=w * w, minlength=len(footprint))[active]
+                        assert close(arrays[f"data_sumw_n{nside}"][lane_index], sumw)
+                        assert close(arrays[f"data_sumw2_n{nside}"][lane_index], sumw2)
+                    missing = (nd > 0) & (nr == 0)
+                    if np.any(missing):
+                        data_only_records += 1
+                        data_only_blocks += int(np.count_nonzero(missing))
+                    records += 1
+    assert records == 194 * 3
+    assert data_only_records == 17 and data_only_blocks == 17
+    return {
+        "selection_resolution_records": records,
+        "data_only_selection_resolution_records": data_only_records,
+        "data_only_blocks": data_only_blocks,
+    }
+
+
 def main() -> int:
     if OUTPUT.exists():
         raise FileExistsError(OUTPUT)
@@ -182,6 +245,7 @@ def main() -> int:
                     assert close(cov2, covariance, rtol=5e-11, atol=2e-14)
                     anchor_covariance_replays += 1
     assert len(cells) == 194 and anchor_covariance_replays == 8
+    support = support_replays(cells)
     corrfunc_records = anchor_replays(cells)
     assert len(corrfunc_records) == 8
 
@@ -193,6 +257,7 @@ def main() -> int:
         "all_central_components_replayed_against_R2": True,
         "anchor_covariance_replay_count": anchor_covariance_replays,
         "corrfunc_leave_one_anchor_records": corrfunc_records,
+        "active_union_independent_replay": support,
         "full_rank_counts_by_nside": full_rank_counts,
     }
     OUTPUT.write_text(json.dumps(verification, indent=2, sort_keys=True) + "\n")

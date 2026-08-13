@@ -350,9 +350,11 @@ def execute_selection(sample, cap, group, data, random, data_sid, random_sid, ha
         size = parent_sizes[nside]
         nr_all = occupancy(random_parent[nside], size).astype(np.int64)
         nd_all = occupancy(data_parent[nside], size).astype(np.int64)
-        active = nr_all > 0
-        if np.any((nd_all > 0) & ~active):
-            raise ValueError(f"data without selected-random block support {key}/nside{nside}")
+        # A literal spatial subcatalog is the union of selected data and random support.
+        # A full-footprint block can legitimately contain selected galaxies but zero rows
+        # from the finite deterministic 20x random subset. Deleting that block then removes
+        # data-incident DD/DR pairs while its RR removal is exactly zero.
+        active = (nr_all > 0) | (nd_all > 0)
         active_index = np.flatnonzero(active)
         if len(active_index) < 2:
             raise ValueError(f"too few active blocks {key}/nside{nside}")
