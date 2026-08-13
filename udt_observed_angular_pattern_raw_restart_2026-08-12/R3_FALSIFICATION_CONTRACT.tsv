@@ -11,3 +11,4 @@ R3F09	All NSIDE values and lanes retained	PREREGISTRATION_VIOLATION	Restore comp
 R3F10	Rank or scale changes materially by NSIDE	COVARIANCE_RESOLUTION_OR_RANK_LIMITED	Report dependence; no preferred NSIDE selected
 R3F11	Independent full deletion anchors pass	DELETE_ONE_IMPLEMENTATION_UNRESOLVED	Do not bank covariance verdict
 R3F12	No inverse significance feature or physical model enters	SCOPE_CONTAMINATION	Remove affected inference and regrade
+R3F13	Guarded TreeCorr first 119 bins equal exact unpatched and Corrfunc components; guard bin never enters stored analysis arrays	OUTER_GUARD_FAILURE	Stop; do not loosen central tolerances or retain contaminated cells

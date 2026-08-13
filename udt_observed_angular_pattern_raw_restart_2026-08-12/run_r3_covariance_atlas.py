@@ -31,6 +31,8 @@ LANES = tuple(r1.WEIGHT_LANES)
 NSIDES = (4, 8, 16)
 EDGES = np.arange(0.25, 30.0001, 0.25, dtype=np.float64)
 NBIN = len(EDGES) - 1
+TREE_NBIN = NBIN + 1
+TREE_MAX_SEP = float(EDGES[-1] + (EDGES[1] - EDGES[0]))
 THREADS = 8
 RSS_STOP_GIB = 16.0
 RATIO = 20
@@ -164,8 +166,11 @@ def parent_maps(sample, cap, block_pixels):
 def tree_count(catalog1, catalog2=None):
     config = dict(
         min_sep=0.25,
-        max_sep=30.0,
-        nbins=NBIN,
+        # One discarded outer guard bin prevents TreeCorr's patch-level
+        # _trivially_zero prefilter from dropping patch relations containing
+        # valid pairs just inside the 30-degree analysis boundary.
+        max_sep=TREE_MAX_SEP,
+        nbins=TREE_NBIN,
         sep_units="degrees",
         bin_type="Linear",
         bin_slop=0.0,
@@ -181,11 +186,15 @@ def tree_count(catalog1, catalog2=None):
 
 
 def correlation_arrays(corr):
-    counts_float = np.asarray(corr.npairs, dtype=np.float64)
+    full_counts = np.asarray(corr.npairs, dtype=np.float64)
+    full_weights = np.asarray(corr.weight, dtype=np.float64)
+    if full_counts.shape != (TREE_NBIN,) or full_weights.shape != (TREE_NBIN,):
+        raise ArithmeticError("invalid TreeCorr guarded component shape")
+    counts_float = full_counts[:NBIN]
     counts = np.rint(counts_float).astype(np.int64)
     if not np.array_equal(counts_float, counts.astype(np.float64)):
         raise ArithmeticError("TreeCorr returned noninteger pair counts")
-    weights = np.asarray(corr.weight, dtype=np.float64)
+    weights = full_weights[:NBIN]
     if counts.shape != (NBIN,) or weights.shape != (NBIN,) or np.any(counts < 0) or not np.all(np.isfinite(weights)):
         raise ArithmeticError("invalid TreeCorr central component")
     return counts, weights
@@ -206,11 +215,15 @@ def aggregate_removals(corr, fine_to_parent, parent_sizes, chunk_size=4096):
         chunk = items[start : start + chunk_size]
         left = np.fromiter((key[0] for key, _ in chunk), dtype=np.int32, count=len(chunk))
         right = np.fromiter((key[1] for key, _ in chunk), dtype=np.int32, count=len(chunk))
-        counts_float = np.stack([np.asarray(value.npairs, dtype=np.float64) for _, value in chunk])
+        counts_float = np.stack([
+            np.asarray(value.npairs, dtype=np.float64)[:NBIN] for _, value in chunk
+        ])
         counts = np.rint(counts_float).astype(np.int64)
         if not np.array_equal(counts_float, counts.astype(np.float64)):
             raise ArithmeticError("noninteger patch pair count")
-        weights = np.stack([np.asarray(value.weight, dtype=np.float64) for _, value in chunk])
+        weights = np.stack([
+            np.asarray(value.weight, dtype=np.float64)[:NBIN] for _, value in chunk
+        ])
         sum_count += np.sum(counts, axis=0, dtype=np.int64)
         sum_weight += np.sum(weights, axis=0, dtype=np.float64)
         for nside in NSIDES:
@@ -287,6 +300,8 @@ def cell_contract():
         "nsides": list(NSIDES),
         "ratio": RATIO,
         "nbin": NBIN,
+        "tree_nbin_with_discarded_outer_guard": TREE_NBIN,
+        "tree_max_sep_with_discarded_outer_guard_deg": TREE_MAX_SEP,
         "threads": THREADS,
     }
 

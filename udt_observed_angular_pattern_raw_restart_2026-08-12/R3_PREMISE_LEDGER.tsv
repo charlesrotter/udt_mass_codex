@@ -14,3 +14,4 @@ R3P12	Corrfunc and direct counts are independent anchors	CHOSE	INDEPENDENT_NUMER
 R3P13	Block freeze occurred after R2 output	OBSERVED	TIMING_DEVIATION	Perfect outcome blindness cannot be claimed
 R3P14	No individual R2 feature enters R3	CHOSE	OBSERVE_NOT_TARGET	Feature-led covariance can manufacture significance
 R3P15	No LCDM acoustic ruler mock UDT CMB SNe or Xmax input	CHOSE	UDT_PURITY_AND_DATA_FIRST_SCOPE	External theory can own the result
+R3P16	TreeCorr uses one discarded 30.00 to 30.25 degree outer guard bin	CHOSE_CORRECTED_BEFORE_OUTCOME	PATCH_PREFILTER_NUMERICAL_GUARD	Without the guard TreeCorr can skip an entire patch relation containing a valid sub-30-degree pair

@@ -1,0 +1,20 @@
+{
+  "analysis_bin_count": 119,
+  "covariance_read": false,
+  "discarded_guard_interval_deg": [
+    30.0,
+    30.25
+  ],
+  "guard_bin_pair_count": 834078,
+  "guarded_analysis_counts_exact": true,
+  "guarded_analysis_weights_exact": true,
+  "n_data": 20595,
+  "selection": "CMASS_North_f1_g17",
+  "status": "PASS",
+  "tree_bin_count": 120,
+  "trigger_relation_bin118_pair_count": 1,
+  "unguarded_bin118_count_difference": -1,
+  "unguarded_differing_bins": [
+    118
+  ]
+}

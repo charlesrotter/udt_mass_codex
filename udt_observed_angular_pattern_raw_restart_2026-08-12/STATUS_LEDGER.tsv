@@ -12,7 +12,7 @@ primary_covariance	OPEN	Data-only spatial resampling and replication controls re
 central_pattern	OBSERVED_VERIFIED_WITH_CAVEATS	Complete bounded raw observer-coordinate atlas; no feature significance or physical origin
 feature_descriptor	OBSERVED_VERIFIED_WITH_CAVEATS	Complete outcome-blind extrema DCT and lag vocabulary; no individual feature selected
 r3_block_geometry	VERIFIED_RANDOM_ONLY	2351 occupied nested HEALPix records across NSIDE 4 8 16; independently replayed without galaxy or R2 curve input
-r3_covariance_atlas	PREREGISTERED_SUPPORT_CORRECTION_GATE_PASSED	Corrected data-random occupancy union passed exact synthetic replay and the formerly failing real shell; fresh 194-cell production restart authorized
+r3_covariance_atlas	PREREGISTERED_OUTER_GUARD_CORRECTION_PENDING_RESTART	Persistent retry exposed one TreeCorr patch-prefilter omission at 29.999822 degrees in cell 18; one discarded outer guard bin restores exact counts and requires a fresh 194-cell restart
 udt_comparison	OPEN	Outside R0 through R3
 physical_origin	OPEN	No acoustic or UDT origin assigned
 xmax	OPEN	No value or estimate
