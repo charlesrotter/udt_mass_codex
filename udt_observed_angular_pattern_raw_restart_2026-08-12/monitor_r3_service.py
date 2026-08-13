@@ -11,7 +11,7 @@ import subprocess
 
 
 UNIT = "udt-r3-covariance-20260813.service"
-CHECKPOINTS = Path("/tmp/udt_boss_r3_checkpoints_union")
+CHECKPOINTS = Path("/tmp/udt_boss_r3_checkpoints_guarded")
 LOG = CHECKPOINTS / "R3_MONITOR.jsonl"
 
 

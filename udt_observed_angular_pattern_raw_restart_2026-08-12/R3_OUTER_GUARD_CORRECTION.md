@@ -58,3 +58,17 @@ fresh checkpoint directory under the new script hash.
 
 The 30-minute persistent health monitor records worker state and checkpoint progress without
 automatic restart. Scientific or numerical failures remain manual stop gates.
+
+## Full trigger-cell production gate
+
+After the correction was committed at `d87068d7`, the unchanged production `execute_selection`
+function completed the exact formerly failing `CMASS_North_f1_g17` cell:
+
+- all nine central component comparisons passed;
+- all twelve lane/resolution covariance records completed structurally;
+- stored central curve shape is `(4,119)` and every covariance shape is `(4,119,119)`;
+- wall time was 174.713 seconds and peak RSS was 3.341 GiB;
+- no covariance value, rank, eigenspectrum, scale, or feature was printed or reviewed.
+
+The helper and output remain under `/tmp/udt_r3_guarded_g17_smoke_QydtB9/`. Corrected full
+production is authorized in fresh `/tmp/udt_boss_r3_checkpoints_guarded/` checkpoints.
