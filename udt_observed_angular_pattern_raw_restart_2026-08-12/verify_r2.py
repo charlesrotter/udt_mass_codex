@@ -14,6 +14,7 @@ import numpy as np
 import treecorr
 
 import run_r1_ingestion_nulls as r1
+import run_r2_central_pattern as primary
 
 
 ROOT = Path(__file__).resolve().parent
@@ -335,10 +336,13 @@ def verify_brute_anchors(components):
                 ("RR", True, random["RA"][ri], random["DEC"][ri], np.ones(len(ri)), None, None, None),
             ):
                 dc, dw = direct_count(auto, ra1, dec1, w1, ra2, dec2, w2)
-                tc, tw = tc_count(auto, ra1, dec1, w1, ra2, dec2, w2)
-                exact = bool(np.array_equal(dc, tc))
-                absdiff = float(np.max(np.abs(dw - tw)))
-                reldiff = float(np.max(np.abs(dw - tw) / np.maximum(np.abs(dw), 1.0)))
+                pc, pw = primary.pair_count(
+                    ra1, dec1, None if component == "RR" else w1,
+                    None if auto else ra2, None if auto else dec2, None if auto else w2,
+                )
+                exact = bool(np.array_equal(dc, pc))
+                absdiff = float(np.max(np.abs(dw - pw)))
+                reldiff = float(np.max(np.abs(dw - pw) / np.maximum(np.abs(dw), 1.0)))
                 assert exact and (reldiff <= 5e-12 or absdiff <= 1e-10)
                 records.append({
                     "sample": sample, "cap": cap, "component": component,
