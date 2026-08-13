@@ -1,0 +1,13 @@
+item	status	scope
+raw_input_identity	OBSERVED_HASH_PINNED	Eight declared BOSS DR12 files only
+observer_coordinates	OBSERVED	Catalog RA DEC Z fields
+sample_and_grid_design	CHOSE	Frozen R0 LOWZ CMASS caps shells and angular bins
+weight_ensemble	CHOSE_FREE_AND_EXPLORED	W0 W1 W2 W3 all retained
+angular_estimator	CHOSE_BORROWED_NUMERICAL_METHOD	Landy-Szalay only; no cosmological mechanism
+primary_covariance	OPEN	Data-only spatial resampling not yet constructed
+central_pattern	OPEN	No pair count evaluated
+feature_descriptor	OPEN	Must be preregistered before pattern inspection
+udt_comparison	OPEN	Outside R0 through R3
+physical_origin	OPEN	No acoustic or UDT origin assigned
+xmax	OPEN	No value or estimate
+download_budget	OBSERVED_WITHIN_CEILING	Approximately 14.4 MB new temporary reconnaissance; hard ceiling below 2 TB

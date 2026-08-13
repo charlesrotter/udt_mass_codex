@@ -1,0 +1,20 @@
+id	item	status	ownership	effect_if_wrong
+P01	Use final BOSS DR12 pre-reconstruction clustering catalogs	CHOSE	PINNED_BY_OFFICIAL_RELEASE	Wrong catalog lineage invalidates the atlas
+P02	RA DEC and Z are the observer-coordinate inputs	OBSERVED	CATALOG_FIELDS	Wrong field semantics invalidates the measurement
+P03	LOWZ range 0.15<=Z<0.43 and CMASS range 0.43<=Z<=0.70	CHOSE	COLLABORATION_NATIVE_SAMPLE_ENVELOPE	Changes sampled population and shell coverage
+P04	Fine redshift origin 0.15 and width 0.01	CHOSE	NUMERICAL_RESOLUTION_FREEZE	Changes radial resolution; 0.02 and 0.04 are exact aggregates
+P05	Angular grid 0.25 to 30 degrees by 0.25 degree	CHOSE	NUMERICAL_RESOLUTION_FREEZE	Changes angular resolution and covered scales
+P06	Landy-Szalay angular estimator	CHOSE	BORROWED_NUMERICAL_METHOD	Estimator bias or normalization error changes every curve
+P07	Four weight lanes W0 through W3 are all retained	CHOSE	FREE_AND_EXPLORED_OBSERVATIONAL_TREATMENT	Hides dependence if any lane is silently privileged
+P08	WEIGHT_FKP and NZ are excluded	CHOSE	OBSERVER_COORDINATE_ONTOLOGY	Including them imports a 3D optimization/readout layer
+P09	Random weights are unity	CHOSE	OFFICIAL_RANDOM_DENSITY_ENCODES_COMPLETENESS	Incorrect random semantics biases the angular selection correction
+P10	Random ratios 5x 10x and 20x use deterministic hash thinning	CHOSE	NUMERICAL_CONVERGENCE_CONTROL	Random shot noise or selection bias may contaminate the curve
+P11	North and South caps remain separately visible	CHOSE	PINNED_BY_CATALOG_STRUCTURE	Combining too early can conceal footprint dependence
+P12	No cosmology-generated mock covariance enters the primary lane	CHOSE	UDT_PURITY_AND_DATA_FIRST_SCOPE	Mock cosmology can own the reported significance
+P13	Spatial resampling geometry is generated from randoms before galaxy outputs	CHOSE	OUTCOME_BLIND_DATA_ONLY_COVARIANCE	Data-shaped regions can bias uncertainty
+P14	Old repository BAO outputs are excluded from inputs and selection	CHOSE	CLEAN_RESTART_GUARD	Historical binning/covariance errors can be inherited
+P15	No expected feature location or UDT curve is supplied	CHOSE	OBSERVE_NOT_TARGET	A target-led pipeline can manufacture apparent agreement
+P16	BOSS is primary; DESI BGS is deferred replication	CHOSE	DATA_QUALITY_RECONNAISSANCE	A different footprint may produce different systematics
+P17	New download hard ceiling is below 2 TB	CHOSE	CHARLES_2026_08_12	Excess acquisition violates the authorized resource bound
+P18	No UDT fit or X_max estimate occurs in this phase	CHOSE	BOUNDED_CONCLUSION	Premature inference would outrun data provenance
+

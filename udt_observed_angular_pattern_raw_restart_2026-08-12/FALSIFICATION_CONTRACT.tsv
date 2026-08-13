@@ -1,0 +1,16 @@
+gate	predeclared_test	failure_or_classification	allowed_response
+F01	Every input byte count row count and SHA-256 matches DATA_MANIFEST.tsv	Any mismatch is INPUT_PROVENANCE_FAILURE	Stop; resolve source without substituting silently
+F02	RA DEC Z and all used weights are finite; used weights are nonnegative	Any violation is INPUT_SCHEMA_FAILURE	Report exact rows; do not repair silently
+F03	Every shell has positive data and random population in its declared sample/cap	Empty shell is UNSAMPLED	Retain it as unsampled; do not shift the shell
+F04	Independent random thinnings reproduce their own null correlation within registered sampling scatter	Failure is RANDOM_OR_ESTIMATOR_CONTAMINATION	Debug estimator/random handling before galaxy interpretation
+F05	5x 10x and 20x central curves are compared binwise and globally	Unstable result is RANDOM_DENSITY_LIMITED	Characterize; no feature claim
+F06	W0 W1 W2 and W3 are all retained	Feature confined to one lane is WEIGHT_DEPENDENT	Report dependence; do not select preferred lane post hoc
+F07	North and South remain separate	Disagreement is FOOTPRINT_OR_SAMPLE_DEPENDENT	Report both; do not average away disagreement
+F08	0.02 and 0.04 shells are exact aggregates of the frozen 0.01 grid	Any shifted/reselected shell is PREREGISTRATION_VIOLATION	Invalidate affected output
+F09	Spatial-resampling covariance is evaluated at every frozen block resolution	Instability is COVARIANCE_UNRESOLVED	No numerical significance claim
+F10	No covariance inversion is used outside its verified numerical rank	Violation is INVALID_INFERENCE	Restrict only by preregistered algebraic rank rule and restate scope
+F11	A second implementation independently reproduces load-bearing pair counts	Failure is IMPLEMENTATION_UNRESOLVED	Do not bank a pattern verdict
+F12	Forbidden 3D/template/mock fields and products are absent from primary execution	Any use is ONTOLOGY_CONTAMINATION	Separate into a labeled comparison lane or discard affected primary output
+F13	All angular bins remain present regardless of visual merit	Any merit-based removal is IMPOSITION	Restore full atlas
+F14	No feature angle period or UDT parameter is tuned after output inspection	Any tuning is TARGET_LEAKAGE	Regrade as exploratory and preregister a fresh independent test
+

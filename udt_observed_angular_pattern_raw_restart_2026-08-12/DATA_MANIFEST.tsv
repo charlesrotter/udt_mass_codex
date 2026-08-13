@@ -1,0 +1,10 @@
+sample	cap	kind	path	bytes	rows	sha256	allowed_fields	excluded_fields
+CMASS	North	data	/media/udt-admin/ScratchDisk/Data/boss_dr12/galaxy_DR12v5_CMASS_North.fits.gz	138873951	618806	ee2d5a11c9a046f59e96cdb67d7dcb026d07f9f3119d4cf34deaf6e2908a7294	RA,DEC,Z,WEIGHT_CP,WEIGHT_NOZ,WEIGHT_SYSTOT	WEIGHT_FKP,NZ
+CMASS	South	data	/media/udt-admin/ScratchDisk/Data/boss_dr12/galaxy_DR12v5_CMASS_South.fits.gz	51580500	230831	6bc9e5c698f03c8217058e42add904892aa88bb83cc414383249a8278be835a3	RA,DEC,Z,WEIGHT_CP,WEIGHT_NOZ,WEIGHT_SYSTOT	WEIGHT_FKP,NZ
+LOWZ	North	data	/media/udt-admin/ScratchDisk/Data/boss_dr12/galaxy_DR12v5_LOWZ_North.fits.gz	73432436	317780	823063434d1335c6c6807e24cf35092c876425edcdd160135f4d4c7e659a6e46	RA,DEC,Z,WEIGHT_CP,WEIGHT_NOZ,WEIGHT_SYSTOT	WEIGHT_FKP,NZ
+LOWZ	South	data	/media/udt-admin/ScratchDisk/Data/boss_dr12/galaxy_DR12v5_LOWZ_South.fits.gz	32341613	145264	92dfbdb6117a0670041e20c717366a4a13711e189b70a4324ff684395d995359	RA,DEC,Z,WEIGHT_CP,WEIGHT_NOZ,WEIGHT_SYSTOT	WEIGHT_FKP,NZ
+CMASS	North	random	/media/udt-admin/ScratchDisk/Data/boss_dr12/random0_DR12v5_CMASS_North.fits.gz	3239878693	32151741	dc8a37e1310d47c6ba696744ad30cf2fae506a42d2ec50040bb2f775ab06d8b6	RA,DEC,Z	WEIGHT_FKP,NZ
+CMASS	South	random	/media/udt-admin/ScratchDisk/Data/boss_dr12/random0_DR12v5_CMASS_South.fits.gz	1172229517	11636252	a503816e56e3e4148f596ffb5e1c8e943a535f548fd654ab778d96cb02a482a7	RA,DEC,Z	WEIGHT_FKP,NZ
+LOWZ	North	random	/media/udt-admin/ScratchDisk/Data/boss_dr12/random0_DR12v5_LOWZ_North.fits.gz	1578615321	15678814	555d36eae84318648824f077bd96fc911ff8d1c6da51279d0d86c35ae8ba2151	RA,DEC,Z	WEIGHT_FKP,NZ
+LOWZ	South	random	/media/udt-admin/ScratchDisk/Data/boss_dr12/random0_DR12v5_LOWZ_South.fits.gz	713300258	7084128	0a56098563a346fe4e7a55434ef4250f0159249c66d9ca4ac8d5e4778657627f	RA,DEC,Z	WEIGHT_FKP,NZ
+

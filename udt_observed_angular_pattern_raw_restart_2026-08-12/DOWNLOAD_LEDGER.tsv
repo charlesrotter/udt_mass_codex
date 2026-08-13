@@ -1,0 +1,4 @@
+date	purpose	location	bytes	retained_as_primary	status
+2026-08-12	DESI BGS angular-paper source reconnaissance	/tmp/udt_bgs_angular_2510.02144.tar.gz	427007	NO	TEMPORARY_DOCUMENTATION_ONLY
+2026-08-12	BOSS angular-C_l paper source reconnaissance	/tmp/udt_boss_angular_cl_1809.07204.tar.gz	13968925	NO	TEMPORARY_DOCUMENTATION_ONLY
+2026-08-12	Primary BOSS restart inputs	/media/udt-admin/ScratchDisk/Data/boss_dr12	0	YES	ALREADY_LOCAL_NO_NEW_DOWNLOAD

@@ -1,0 +1,12 @@
+source_id	type	location	role	status
+S01	repository	AGENTS.md	Binding UDT method and evidence rules	PINNED
+S02	official_documentation	https://www.sdss4.org/dr17/spectro/lss/	BOSS LSS catalog random and observational-weight semantics	PINNED_EXTERNAL
+S03	official_data	/media/udt-admin/ScratchDisk/Data/boss_dr12/galaxy_DR12v5_CMASS_North.fits.gz	CMASS North measured catalog	OBSERVED_HASH_PINNED
+S04	official_data	/media/udt-admin/ScratchDisk/Data/boss_dr12/galaxy_DR12v5_CMASS_South.fits.gz	CMASS South measured catalog	OBSERVED_HASH_PINNED
+S05	official_data	/media/udt-admin/ScratchDisk/Data/boss_dr12/galaxy_DR12v5_LOWZ_North.fits.gz	LOWZ North measured catalog	OBSERVED_HASH_PINNED
+S06	official_data	/media/udt-admin/ScratchDisk/Data/boss_dr12/galaxy_DR12v5_LOWZ_South.fits.gz	LOWZ South measured catalog	OBSERVED_HASH_PINNED
+S07	official_data	/media/udt-admin/ScratchDisk/Data/boss_dr12/random0_DR12v5_CMASS_North.fits.gz	CMASS North footprint random catalog	OBSERVED_HASH_PINNED
+S08	official_data	/media/udt-admin/ScratchDisk/Data/boss_dr12/random0_DR12v5_CMASS_South.fits.gz	CMASS South footprint random catalog	OBSERVED_HASH_PINNED
+S09	official_data	/media/udt-admin/ScratchDisk/Data/boss_dr12/random0_DR12v5_LOWZ_North.fits.gz	LOWZ North footprint random catalog	OBSERVED_HASH_PINNED
+S10	official_data	/media/udt-admin/ScratchDisk/Data/boss_dr12/random0_DR12v5_LOWZ_South.fits.gz	LOWZ South footprint random catalog	OBSERVED_HASH_PINNED
+
