@@ -4,6 +4,7 @@ observer_coordinates	OBSERVED	Catalog RA DEC Z fields
 sample_and_grid_design	CHOSE	Frozen R0 LOWZ CMASS caps shells and angular bins
 weight_ensemble	CHOSE_FREE_AND_EXPLORED	W0 W1 W2 W3 all retained
 angular_estimator	CHOSE_BORROWED_NUMERICAL_METHOD	Landy-Szalay only; no cosmological mechanism
+r1_implementation	PREREGISTERED_VERIFIED_NOT_EXECUTED	Streaming FITS plus SciPy cKDTree; galaxy angular pair counter disabled in R1
 primary_covariance	OPEN	Data-only spatial resampling not yet constructed
 central_pattern	OPEN	No pair count evaluated
 feature_descriptor	OPEN	Must be preregistered before pattern inspection
