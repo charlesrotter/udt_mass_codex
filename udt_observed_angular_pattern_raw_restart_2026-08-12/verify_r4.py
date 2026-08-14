@@ -329,7 +329,8 @@ def main():
     assert len(cap_rows) == 1164
     seen = set()
     max_cap_abs = 0.0
-    max_quadratic_rtol_bound = 0.0
+    max_projector_abs_difference = 0.0
+    max_projector_tolerance_bound = 0.0
     cap_by_selection = defaultdict(list)
     for row in cap_rows:
         cap_by_selection[(row["sample"], int(row["factor"]), int(row["group"]))].append(row)
@@ -353,14 +354,20 @@ def main():
                 for metric, expected_value in values.items():
                     saved = float(row[metric])
                     max_cap_abs = max(max_cap_abs, abs(saved - float(expected_value)))
-                    if metric == "range_quadratic_per_rank":
-                        q_rtol = max(
+                    if metric in {"range_fraction", "unresolved_fraction", "range_quadratic_per_rank"}:
+                        projector_bound = max(
                             3e-10,
                             2048.0 * np.finfo(np.float64).eps * values["positive_condition"],
                         )
-                        max_quadratic_rtol_bound = max(max_quadratic_rtol_bound, q_rtol)
+                        max_projector_abs_difference = max(
+                            max_projector_abs_difference, abs(saved - float(expected_value))
+                        )
+                        max_projector_tolerance_bound = max(
+                            max_projector_tolerance_bound, projector_bound
+                        )
+                        projector_atol = projector_bound if metric != "range_quadratic_per_rank" else 3e-12
                         assert_close(saved, float(expected_value), f"cap {key}/{metric}",
-                                     atol=3e-12, rtol=q_rtol)
+                                     atol=projector_atol, rtol=projector_bound)
                     else:
                         assert_close(saved, float(expected_value), f"cap {key}/{metric}",
                                      atol=3e-12, rtol=3e-10)
@@ -379,7 +386,8 @@ def main():
         "max_relation_descriptor_abs_difference": max_relation_abs,
         "max_cross_lag_abs_difference": max_lag_abs,
         "max_cap_descriptor_abs_difference": max_cap_abs,
-        "max_condition_aware_quadratic_rtol_bound": max_quadratic_rtol_bound,
+        "max_range_projector_abs_difference": max_projector_abs_difference,
+        "max_condition_aware_projector_tolerance_bound": max_projector_tolerance_bound,
         "scope": "bounded R4 data-only relation/covariance atlas; no physical interpretation",
     }
     if args.output.exists():

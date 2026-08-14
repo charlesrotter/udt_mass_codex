@@ -1,0 +1,20 @@
+{
+  "status": "FAIL__EIGENCONDITION_TOLERANCE_TO_CORRECT_BEFORE_RERUN",
+  "first_failed_record": {
+    "sample": "CMASS",
+    "factor": 1,
+    "group": 8,
+    "lane": "W1_SPECTRO",
+    "nside": 4,
+    "metric": "positive_condition",
+    "saved": 15267446.703116551,
+    "independent": 15267446.698380202,
+    "absolute_difference": 0.004736349,
+    "relative_difference_approx": 3.10e-10
+  },
+  "relation_and_cross_lag_replay_passed": true,
+  "range_projector_checks_before_failure_passed": true,
+  "production_outputs_changed": false,
+  "outcome_interpreted": false,
+  "verification_result_written": false
+}
