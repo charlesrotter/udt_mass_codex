@@ -166,6 +166,23 @@ def test_active_orientation_surface_stays_bounded() -> None:
         assert count <= maximum, f"{relative} regrew to {count} lines (limit {maximum})"
 
 
+def test_startup_does_not_promote_full_evidence_or_relocation_dump() -> None:
+    agents = (REPO / "AGENTS.md").read_text(encoding="utf-8")
+    index = (REPO / "INDEX.md").read_text(encoding="utf-8")
+    readme = (REPO / "README.md").read_text(encoding="utf-8")
+    registry = (REPO / "research/_registry/README.md").read_text(encoding="utf-8")
+    assert "Stop the startup read here" in agents
+    assert "does not make full scripts" in agents
+    assert "without dumping its wide rows into model context" in agents
+    assert "not a startup read or a current-frontier index" in agents
+    assert "not a startup read" in registry
+    assert "not a current-frontier index" in registry
+    assert "After orientation" in index
+    assert "verify_current_scientific_premises.py" in index
+    assert "after orientation" in readme
+    assert "verify_current_scientific_premises.py" in readme
+
+
 def test_retired_route_words_absent_from_active_orientation() -> None:
     for relative in premise_guard.CURRENT_ORIENTATION_CONTROLS:
         text = (REPO / relative).read_text(encoding="utf-8").lower()

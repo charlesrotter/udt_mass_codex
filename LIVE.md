@@ -16,13 +16,18 @@ pass. This is raw pattern characterization, not a preferred feature, significanc
 BAO interpretation, UDT response, CMB relation, cosmology, or `X_max`.
 
 R3 retains all 194 selections, four lanes, 119 bins, and NSIDE 4/8/16 exact delete-one-spatial-block
-covariance at the fixed 20x random readout. Read, in order:
+covariance at the fixed 20x random readout. For R3 validation or assembly **after the bounded startup
+orientation**, read package evidence in this order:
 
 1. `udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md`;
 2. `R3_PREREGISTRATION.md`;
 3. `R3_PREEXECUTION_GATES.md` and `R3_SUPPORT_TYPING_CORRECTION.md`;
 4. `R3_PATCH_CARDINALITY_CORRECTION_REPORT.md` and its adversarial review;
 5. `STATUS_LEDGER.tsv`.
+
+These correction documents preserve their report-time process state and commit IDs. They do not
+override this block for current runtime status. Monitoring alone does not require reading full R3
+implementations or raw checkpoint contents.
 
 The first guarded attempt produced 48 North checkpoints, then stopped before any covariance outcome
 was inspected because TreeCorr independently shrank data/random patch cardinalities. Those 48 files
@@ -105,6 +110,10 @@ Preserve without staging or mining unless explicitly dispatched:
 - local unbanked pair-response package named above;
 - local unbanked `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/` scoped control;
 - protected curvature/holonomy atlas when present.
+
+Some protected directories have tracked shells plus local untracked payloads. Seeing the directory
+in a clean clone does not mean the protected payload was banked; inspect Git status in the working
+repository and preserve every local file.
 
 ### Immediate next action
 

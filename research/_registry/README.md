@@ -3,10 +3,12 @@
 The registry supports artifact navigation and repository reorganization. It does not determine
 scientific premise meanings or current execution status.
 
-## Current-path table
+## Relocation table
 
-Use `CURRENT_ARTIFACT_PATHS.tsv` to locate current artifacts. Its entries are operational pointers,
-not scientific verdicts.
+Despite its historical filename, `CURRENT_ARTIFACT_PATHS.tsv` is the 1,115-row relocation ledger
+produced by the repository reorganization. Query it for a known old path. It is not a startup read,
+not a current-frontier index, and not guaranteed to include packages created after that snapshot.
+Use root `INDEX.md` for the compact current-frontier paths.
 
 ## Immutable historical tables
 

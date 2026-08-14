@@ -7,8 +7,9 @@
 1. Follow `AGENTS.md` synchronization and bounded-read rules.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`.
-4. Read `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
-5. Open only the exact evidence required by the task.
+4. Read `CURRENT_SCIENTIFIC_PREMISES.md` and run `python3 verify_current_scientific_premises.py`.
+5. After orientation, query only task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows and open only
+   the exact evidence required by the task.
 
 ## Active observational lane
 
@@ -39,7 +40,8 @@ lead pending semantic review and banking.
 - Current program: `CURRENT_RESEARCH_PROGRAM.md`
 - High-risk premise index: `CURRENT_SCIENTIFIC_PREMISES.md`
 - Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
-- Current artifact paths: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
+- Repository relocation lookup (known old paths only; not a startup/frontier index):
+  `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding metric orientation: `SIMPLE_METRIC_MACRO.md`
 - `X_max` semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`

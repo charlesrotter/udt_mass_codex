@@ -25,23 +25,30 @@ Read from disk in this exact bounded order:
 1. `LIVE.md` — only its `STARTUP_CURRENT` block. It overrides every other status description.
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
-4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `CURRENT_SCIENTIFIC_PREMISES.tsv` — high-risk premise
-   status and exact controlling sources. Any conflict is a mandatory stop.
-5. The exact preregistration, script, raw output, report, and verifier load-bearing for the current
-   task. Do not recursively open an entire historical chain during orientation.
-6. When carrier/topology is relevant, read
-   `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger. When mass/stability is
-   relevant, begin with
-   `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; use
-   `stability_branch_follow_256_DECISION.md` only as durable lane evidence.
-7. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
+4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
+   guide supplies bounded premise orientation; the verifier audits the entire 76-row exact registry
+   without dumping its wide rows into model context. Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv`
+   rows only after orientation when the requested task makes those objects load-bearing.
+5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
    `.claude/skills/*/SKILL.md` protocols triggered by the actual task.
-8. `INDEX.md` and `MEMORY.md` for compact pointers only. Neither can overrule `LIVE.md`.
+6. `INDEX.md` and `MEMORY.md` for compact pointers only. Neither can overrule `LIVE.md`.
+7. **Stop the startup read here and give the orientation report below.**
+
+Only after orientation, open the exact package evidence made load-bearing by the requested task. A
+status/orientation or monitoring request does not make full scripts, raw arrays, logs, wide registry
+rows, or historical correction chains load-bearing. Read implementations and raw outputs only when
+validating, changing, assembling, or interpreting them. When carrier/topology is relevant, begin
+with `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger. When mass/stability is
+relevant, begin with
+`udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; use
+`stability_branch_follow_256_DECISION.md` only as durable lane evidence.
 
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and files under `archive/` are historical compatibility
 paths, not generic startup reads. Open them only when a task makes dated evidence load-bearing. Use
-`research/_registry/CURRENT_ARTIFACT_PATHS.tsv` for current artifact locations; do not rewrite fixed
-historical ownership/readiness snapshots to mimic current paths.
+`INDEX.md` for the current frontier paths. Despite its historical name,
+`research/_registry/CURRENT_ARTIFACT_PATHS.tsv` is the 1,115-row repository-reorganization relocation
+ledger: query it only for a known old path; it is not a startup read or a current-frontier index. Do
+not rewrite fixed historical ownership/readiness snapshots to mimic current paths.
 
 Before doing research work, give Charles a short orientation: actual HEAD and dirt, current honest
 claim with premise stamps, open gate, and proposed bounded next action. Do not mutate files or start
@@ -57,7 +64,8 @@ cite these without an explicit dispatch:
 - the local unbanked pair-response and G88 packages identified by `LIVE.md`.
 
 A clean clone may not contain those paths. Their absence is not permission to reconstruct or
-promote them.
+promote them. Conversely, a clean clone can contain a tracked directory shell while the protected
+local payload is absent; directory presence does not prove that the unbanked work was committed.
 
 ## Codex/Claude compatibility
 

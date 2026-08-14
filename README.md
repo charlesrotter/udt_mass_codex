@@ -10,9 +10,9 @@ Fresh sessions must follow `AGENTS.md`. The bounded orientation path is:
 1. `LIVE.md` — current execution and scientific status;
 2. `HANDOFF.md` — lean resume details;
 3. `CURRENT_RESEARCH_PROGRAM.md` — dependency spine and open gates;
-4. `CURRENT_SCIENTIFIC_PREMISES.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv` — premise status and
-   exact controlling sources;
-5. only the evidence files needed for the current task.
+4. `CURRENT_SCIENTIFIC_PREMISES.md`, then `python3 verify_current_scientific_premises.py` — bounded
+   premise orientation plus full-registry consistency;
+5. after orientation, only task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows and evidence files.
 
 `INDEX.md` maps current packages. `MEMORY.md` is only a compact disk pointer. Neither overrides
 `LIVE.md` or the premise registry.

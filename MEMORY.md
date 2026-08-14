@@ -36,7 +36,8 @@ external semantic review is pending.
 - Strong local CSN is inactive.
 - Carrier, action, source, matter, dynamics, and bootstrap selection remain posit/conditional/open.
 
-Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact status and sources.
+After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and
+sources.
 
 ## Current next gate
 

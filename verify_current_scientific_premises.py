@@ -130,15 +130,24 @@ def validate_startup_surface(root: Path) -> None:
             "AGENTS lacks protected curvature-atlas guard")
 
     required_routes = {
+        "AGENTS.md": (
+            "Stop the startup read here",
+            "does not make full scripts",
+            "without dumping its wide rows into model context",
+            "not a startup read or a current-frontier index",
+        ),
         "INDEX.md": (
             "udt_observed_angular_pattern_raw_restart_2026-08-12/",
             "udt_pair_first_relational_plane_reconstruction_2026-08-12/",
             "udt_pair_terminal_reachability_atlas_2026-08-12/",
             "udt_pair_chord_network_descent_audit_2026-08-12/",
+            "After orientation",
+            "verify_current_scientific_premises.py",
         ),
         "MEMORY.md": (
             "udt-r3-covariance-patchlists-20260813.service",
             "Complete R3 -> assemble -> independently verify",
+            "After orientation",
         ),
         "CURRENT_RESEARCH_PROGRAM.md": (
             "194 component cells -> assembly -> independent verification -> outcome inspection",
@@ -151,10 +160,32 @@ def validate_startup_surface(root: Path) -> None:
             "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
         ),
-        "README.md": ("LIVE.md", "CURRENT_SCIENTIFIC_PREMISES.tsv", "AGENTS.md"),
-        "research/README.md": ("CURRENT_ARTIFACT_PATHS.tsv", "CURRENT_SCIENTIFIC_PREMISES.tsv"),
-        "research/_registry/README.md": ("CURRENT_ARTIFACT_PATHS.tsv", "CURRENT_SCIENTIFIC_PREMISES.tsv"),
-        "INFLIGHT_STATE.md": ("retired compatibility pointer", "INFLIGHT_STATE_before_cleanup.md"),
+        "README.md": (
+            "LIVE.md",
+            "CURRENT_SCIENTIFIC_PREMISES.tsv",
+            "verify_current_scientific_premises.py",
+            "after orientation",
+            "AGENTS.md",
+        ),
+        "research/README.md": (
+            "CURRENT_ARTIFACT_PATHS.tsv",
+            "CURRENT_SCIENTIFIC_PREMISES.tsv",
+            "After orientation",
+            "verify_current_scientific_premises.py",
+            "not a startup read",
+        ),
+        "research/_registry/README.md": (
+            "CURRENT_ARTIFACT_PATHS.tsv",
+            "CURRENT_SCIENTIFIC_PREMISES.tsv",
+            "not a startup read",
+            "not a current-frontier index",
+        ),
+        "INFLIGHT_STATE.md": (
+            "retired compatibility pointer",
+            "INFLIGHT_STATE_before_cleanup.md",
+            "After orientation",
+            "verify_current_scientific_premises.py",
+        ),
     }
     for control, tokens in required_routes.items():
         for token in tokens:

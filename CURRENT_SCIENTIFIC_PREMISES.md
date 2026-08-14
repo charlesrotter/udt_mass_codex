@@ -97,6 +97,10 @@ id, object, current classification, premise stamp, active scope,
 unresolved scope, prohibited inference, controlling source, precedence rule
 ```
 
+Premise IDs are stable ledger keys, not a consecutive result count. Gaps are intentional and do not
+mean startup evidence is missing. During orientation use this guide and the verifier below; query
+exact TSV rows only after orientation when the requested task makes those objects load-bearing.
+
 Before banking a high-risk result run:
 
 ```bash

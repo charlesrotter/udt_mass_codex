@@ -39,8 +39,10 @@ Controlling package:
 udt_observed_angular_pattern_raw_restart_2026-08-12/
 ```
 
-Read its `R2_OUTCOME_REPORT.md`, `R3_PREREGISTRATION.md`, correction reports, `STATUS_LEDGER.tsv`,
-and exact executable evidence only as needed. The primary-method cross-check is
+After the bounded startup orientation, read its `R2_OUTCOME_REPORT.md`, `R3_PREREGISTRATION.md`,
+correction reports, `STATUS_LEDGER.tsv`, and exact executable evidence only when the requested task
+makes them load-bearing. Monitoring does not require a full-script or raw-checkpoint read. The
+primary-method cross-check is
 `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`.
 
 ### Honest theory claim
@@ -69,13 +71,14 @@ Keep these distinctions fixed:
 - strong local CSN is inactive;
 - carrier, action, source, matter, bootstrap selection, and dynamics remain conditional/open.
 
-Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact sources.
+After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact sources.
 
 ### Protected dirt
 
 Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell
 draft, local pair-response package, or local G88 package without a specific dispatch. Preserve all
-other unrelated dirt.
+other unrelated dirt. A clean clone may show a tracked directory shell without the protected local
+payload; directory presence is not evidence that the unbanked work was committed.
 
 ### Next bounded action
 
