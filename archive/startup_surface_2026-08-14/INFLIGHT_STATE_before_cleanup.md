@@ -1,0 +1,278 @@
+# IN-FLIGHT STATE — live handoff ledger (updated + committed at every increment)
+
+> **2026-08-12 CURRENT VERIFIED RESULT: ZERO-ORDER PAIR-CHORD NETWORK DESCENT, ACCEPTED WITH
+> CAVEATS.** Read LIVE first, then
+> `udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md`, `EXACT_DERIVATION.md`,
+> `EXTERNAL_REVIEW_ADJUDICATION.md`, and `EVIDENCE_GATES.md`. On one common A-calibrated terminal
+> family, endpoint coframe ratios compose and reverse and `Delta phi` telescopes; PSD Gram
+> reachability is a separate partial order. The reviewer found no mathematical correction. Its
+> evidence caveat is binding: the separate Fraction route replays the supplied closed-form arrow
+> and reads parent files for source-hash provenance. Physical global-family ownership and
+> path/derivative channels remain open. NEXT, not launched: map whether existing complete branches
+> already supply one common calibrated global family.
+
+> **2026-08-12 CURRENT VERIFIED RESULT: PAIR-FIRST RELATIONAL PLANE, VERIFIED WITH CAVEATS.**
+> Read LIVE first, then
+> `udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md`,
+> `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. A supplied regular
+> timelike pair immersion owns its tangent clock/ruler plane and positive orthogonal screen. The
+> full coframe pullback combines the orchestra before the terminal reciprocal-`c_E` readout; no
+> universal curvature selector is required for conditional evaluation. Physical realization and
+> global compatible pair-family ownership remain open. Fresh review replayed 200 rational cases
+> and accepted the bounded result. PAUSE: no solve or mechanism hunt. Next candidate is a
+> preregistered metric-wide simplification ponder.
+
+> **2026-08-12 CURRENT VERIFIED RESULT: FIRST CURVATURE-DERIVATIVE ATLAS, VERIFIED WITH CAVEATS.**
+> Read LIVE first, then
+> `udt_curvature_derivative_distribution_atlas_2026-08-12/AUDIT_REPORT.md`,
+> `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. The exact 1,221-jet
+> atlas yields 1,187 resolved nonowners, seven ownership uncertainties, and zero positive tested
+> derivative owners among 1,194 parent-misaligned jets. Full Gram spectra/subspaces are banked for
+> all 3,663 objects: 397 resolved, 3,266 unresolved. Final cold review accepts
+> `VERIFIED-WITH-CAVEATS`; 24/24 catches and repository gates pass. No physical `(g,Q,F)` or
+> downstream law follows. Next candidate: one common pair-immersion tangent/normal/extrinsic map,
+> not another derivative-order or AM seam drill.
+
+> **2026-08-12 CURRENT VERIFIED RESULT: CURVATURE-PRINCIPAL SPLIT OWNERSHIP IS PARTIAL.** Read
+> LIVE first, then `udt_curvature_principal_split_ownership_audit_2026-08-12/AUDIT_REPORT.md`,
+> `EXACT_DERIVATION.md`, `ADVERSARIAL_REVIEW.md`, and `STATUS_LEDGER.tsv`. Exact spherical
+> nondegenerate strata are Weyl-owned; part of the type-O family is Ricci-owned. In the complete
+> bounded census, 1,806 ledger rows represent 1,221 distinct jets; all 42 G63 controls are type
+> I/misaligned. Independent replay and adversarial repair pass. No preferred flag or physical
+> `(g,Q,F)` selection follows. Next candidate is a preregistered curvature-derivative owner audit,
+> not AM seam work.
+
+> **2026-08-12 CURRENT CONCEPTUAL RESTART ANCHOR: FOUNDATIONS-TO-CMB ZOOM-OUT CONSULTATION
+> COMPLETE.** Read LIVE first, then
+> `udt_foundations_to_cmb_zoomout_consultation_2026-08-12/AUDIT_REPORT.md`, `path.md`,
+> `CHAIR_ADJUDICATION.md`, and `TYPE_DEPENDENCY_LEDGER.tsv`. Two independent roles, directed
+> cross-examination, and separate final cold rereads accept the repaired diagnosis: cumulative
+> type-correction/conditional-geometry progress, but exhausted AM seam selection. The typed arena
+> is `(g,Q,F)`; current evidence owns evaluations but no physical subset. Pause further AM seam
+> work. Next is cold outside consultation, then—only if needed—a no-solve factorization audit.
+> G86 remains the latest scientific lead and its external semantic review is pending.
+
+> **2026-08-12 STATUS (RESTART ANCHOR): G86 EXISTING-CONDITION COMPLETION-OWNER AUDIT INTERNALLY VERIFIED; EXTERNAL SEMANTIC REVIEW PENDING.** Read LIVE first, then
+> `udt_cmb_G86_existing_condition_completion_owner_audit_2026-08-12/AUDIT_REPORT.md`,
+> `EXACT_DERIVATION.md`, the three TSV atlases, `STATUS_LEDGER.tsv`, and
+> `INDEPENDENT_VERIFICATION.json`. The frozen `21`-source, `14`-condition, three-family, `42`-cell
+> result contains zero owned exclusions and zero owned nonidentity selectors. Two conditions
+> distinguish properties only. Current `X_max` semantics do not identify the candidate seam or
+> require uniform nullness. Independent replay reconstructs all `588` regular G85 rows; `12/12`
+> catches and repository gates pass. Maximum grade is internal and bounded. NEXT, NOT AUTHORIZED:
+> fresh sealed external semantic review. Parent G85 remains externally `VERIFIED_WITH_CAVEATS`.
+> Read
+> `udt_cmb_G85_mixed_timelive_completion_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
+> `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. The full
+> `980`-row atlas finds mixing-only time dependence degenerate and three distinct conditional
+> regular completion families: shift-supported, lapse-lifted, and mixing-tapered. Only the taper
+> class retains a uniformly null seam. No family, topology, scale, or physical `X_max` is selected.
+> The reviewer verified `36/36` hashes and independently reproduced the algebra, taper identity,
+> exact census, and classification. Preserve its no-geodesic-completeness, non-clean-room,
+> regression-catch, and sealed/live-evidence caveats. Live gates pass. Its ownership gate is G86
+> above and selects no family. Parent G84 is externally `VERIFIED_WITH_CAVEATS`; read
+> `udt_cmb_G84_am_global_completion_pair_diameter_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
+> `AUDIT_REPORT.md`, `EXACT_DERIVATION.md`, and `STATUS_LEDGER.tsv`. The minimal doubled AM spatial
+> candidate is round `S^3` radius `2R`; zero mixing has a conditional common `piR` static-patch
+> asymptote on the central-geodesic observer isometry orbit. Physical `X_max`, topology, `R`,
+> profile, pair-separation ownership, and mixed time-live completion remain open. The exact AM
+> census is one zero-mixing and `196` nonzero controls; the latter are obstructed only in the
+> declared stationary bifurcate class. The sealed reviewer reproduced the geometry/census and
+> verified `37/37` hashes. Its mixed gate is G85 above. Parent G83 is externally
+> `VERIFIED_WITH_CAVEATS`. Read
+> `udt_cmb_G83_stationary_endpoint_asymptote_atlas_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`,
+> `AUDIT_REPORT.md`,
+> `EXACT_DERIVATION.md`, `STATUS_LEDGER.tsv`, and `PREMISE_LEDGER.tsv`. Strict G75 has no infinite
+> endpoint depth; a declared AM continuation has the exact stationary divergence pattern but a
+> receiver-dependent finite radial proper limit, so physical `X_max` remains open. Complete-path
+> counts are 516 reached, 18 turning, and 57 affine-cap. External review found no scientific
+> correction; retain its Git-free chronology, shared-geometry replay, no-full-DOP853-rerun, and
+> sampled/bounded-status caveats. Parent support remains G82 and the G81 two-control screen
+> covariance result remains its scientific ceiling. ACTIVE ARC = CMB PEAK
+> OPTIMIZATION. IF YOU ARE THE NEW SESSION: read LIVE.md topmost block (2026-08-12) FIRST, then
+> `udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md` for the parent
+> verified one-control non-DOP853 support result and binding caveats, then
+> `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/AUDIT_REPORT.md`, then
+> `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXACT_DERIVATION.md`, then
+> `udt_cmb_G81_nonradial_screen_covariance_2026-08-12/PREMISE_LEDGER.tsv`, then
+> `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/TYPE_LEDGER.tsv`, then
+> `udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/PREMISE_LEDGER.tsv`, then
+> `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/TYPE_LEDGER.tsv`, then
+> `udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/THERMAL_READOUT_LEDGER.tsv`, then
+> `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/OWNER_ROUTE_LEDGER.tsv`, then
+> `udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/VERIFICATION_SCOPE_LEDGER.tsv`, then
+> `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/DIRECT_CHRISTOFFEL_ATLAS.tsv`, then
+> `udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G74_symbolic_sky_relation_topology_atlas_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/TOPOLOGY_SCOPE_CORRECTION.md`, then
+> `udt_cmb_G73_global_sky_source_sensitivity_atlas_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G72_metric_screen_response_join_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G72_metric_screen_response_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G72_metric_screen_response_join_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G71_native_restriction_owner_audit_2026-08-11/OWNER_TARGET_LEDGER.tsv`, then
+> `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G70_query_owned_restriction_atlas_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G69_profile_endpoint_source_identifiability_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_cmb_F01_F02_observer_sky_jacobi_controls_2026-08-11/EXACT_DERIVATION.md`, then
+> `udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_cmb_complete_observation_query_map_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_sne_native_observer_query_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`, then
+> `udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md`,
+> then `udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then
+> `udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_global_descent_pair_surface_reset_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`, then
+> `udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`, then
+> `udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`, then
+> `udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`, then
+> `udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`, then
+> `udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`, then
+> `udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`, then the corrected FD1
+> report `udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`. The equatorial roots
+> do not lift unchanged, and no metric-only population projector is
+> selected. The complete-angular family MAP is complete: exact stationary general-screen operator,
+> 18 families, and 2,800 axis cells, with no physical screen selected. N01 is complete and
+> `VERIFIED-WITH-CAVEATS`: exact conditional fixed-`|m|`/parity matrix wiring, no physical screen or
+> spectrum. N02 is complete and `VERIFIED-WITH-CAVEATS`: no banked P1 row is a regular complete
+> spherical anchor; P1's relational/SNe role survives, and mixed-wall D/N remain unselected.
+> N03 is complete and `VERIFIED-WITH-CAVEATS`: no mapped complete global profile; nonempty regular
+> C1 local jets compatible with mu on; full angular correction retained; physical groupoid cocycle
+> open and transport conditional only. The reciprocal-flag foundation audit is COMPLETE at
+> `udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`: abstract calibration
+> seed derived, exact conditional flag character, physical flag/update/arrow/calibration still open.
+> The solder audit is COMPLETE at
+> `udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`: calibration line
+> derived, regular pair directions conditional, local metric solder zero/no-go through first jet,
+> stationary Killing ratio conditional positive, general bilocal/global state open. The terminal
+> pair-metric audit is COMPLETE at
+> `udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`: on a supplied
+> regular A-calibrated pair metric the reciprocal log imbalance is derived within that fixed
+> calibration, with supplied angular/mixing Jacobians entering before readout. The pair-map atlas is
+> COMPLETE at `udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`: six families and 66
+> cells classified; local tube derived from a full query and branch; no universal tape from bare
+> endpoints. The founding pair-relation ownership audit is COMPLETE: reciprocal character founded
+> on supplied depth; complete query conditional; `c_E` not a selector. The three-observer audit is
+> COMPLETE at `udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`:
+> carry associative on matched objects; direct-equals-composite is descent/path independence;
+> relation-family ownership and scalar reduction were left open. The complete-branch follow-up is
+> now VERIFIED-WITH-CAVEATS at
+> `udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`: 24 stable
+> identities/57 aliases preserve path/holonomy, endpoint-clock, and stratified set-valued geometric
+> relation forms in bounded regimes. The branch-local follow-up at
+> `udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md` retains the
+> exact R17 semidirect formula only as `CONDITIONAL_ASSEMBLY_NOT_BRANCH_OWNED`; zero branch-owned
+> complete transitions survive. The carried/intrinsic middle-morphism audit is COMPLETE at
+> `udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`: all retained
+> regular branches own a path-labelled `SO(2)` alignment bitorsor with exact balanced composition;
+> no screen phase is selected. The reciprocal scalar/calibration descent audit is COMPLETE at
+> `udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`: supplied
+> regular reciprocal readouts descend through the full screen gauge, balanced telescoping is exact,
+> and every isometric alignment generates zero calibration. The magnitude-owner census is COMPLETE
+> at `udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`: R17/R18 own
+> branch-conditional endpoint clock magnitudes, but there are zero complete physical owners. The
+> completed selector follow-up at
+> `udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md` conditionally fixes the
+> R17 vertical reciprocal metric class modulo `SO(2)` on each supplied C01--C06 coframe but does not
+> select the physical arrow. The completed R17 foliation follow-up at
+> `udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md` derives the
+> global `S2`-family of `R x S1` pair leaves, their twisted determinant-`-1` metric, and same-leaf
+> `delta_K`, while leaving the 4D angular plane as a nonintegrable normal bundle. Its completed
+> normal-holonomy follow-up at
+> `udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md` derives the projected
+> leafwise connection and representative-free loop data. `lambda=-1` flatness and `lambda=0`
+> Hopf-basicness are distinct and unselected. Its completed path-labelled follow-up at
+> `udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md` derives the
+> complete projected normal connection, all six curvature planes, and exact isometric carry after
+> a path is supplied. No `lambda` is generically completely flat or base-descended. Its completed
+> sublocus follow-up at
+> `udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md` derives
+> horizontality iff constant `phi`, explicit flat/integer-descent loci, no regular canonical Hopf-
+> tangent descent, and trivial/full-`SO(2)` complete holonomy. Actual C01--C06 remain generic full-
+> `SO(2)` and manifest-backed R17 sources select no special locus. Its completed joint audit derives
+> the exact typed depth/normal-isometry product groupoid, the local order-zero real-character
+> classification, and surviving loop/relative-path holonomy without selecting a physical path or
+> arrow. NEXT, not launched, is the invariant local one-form/transgression classification in the
+> full compatible stationary R17 jet space; no
+> profile repair, inner cutoff, eigenvalue solve, or FD2;
+> `udt_freedata_inventory_MAP_2026-08-09.md` remains the parent menu. The BAO
+> lane is BANKED + TABLED (Charles 2026-08-09; M1-M3d complete/verified; the one decisive resume-build
+> = a broadband-clustered fair mock, NOT run = post-hoc F-RETRO). Foundation to build forward from:
+> phi+orchestra -> c_eff -> mu-ON -> x_max O1-O3 + M1-M4 -> the D1/D2 courier theorems. Binding
+> rulings in LIVE (mu-on-always, ruler=LCDM-import, terminology, C3, anti-epicycle epistemology,
+> macro/micro ontology). The Global Cell Assembly lane stays ARCHIVED-LEGACY. Everything below is
+> PRIOR (2026-08-01/06) history.
+
+**PURPOSE:** live zero-context resume ledger. IF YOU ARE THE NEW SESSION: read LIVE.md
+topmost block (2026-08-11), then
+`udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md`, then
+`udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md`,
+`udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md`,
+`udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md`,
+`udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md`,
+`udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md`,
+`udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md`,
+`udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md`,
+`udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md`,
+`udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md`,
+`udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md`,
+`udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md`,
+`udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md`,
+`udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md`,
+`udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md`,
+`udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md`,
+`udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md`, and the parent map
+`udt_freedata_inventory_MAP_2026-08-09.md`; current status is the top anchor. Binding method:
+CLAUDE.md (MAP/OBSERVE/PONDER before
+DERIVE; lay language with Charles; nothing launches without his go).
+
+**ARCHIVED (2026-08-06):** the prior 2026-08-01 A3 launch runbook + increment list that lived below
+here are moved to `archive/inflight_A3_runbook_2026-08-01.md` — the P4 angular arc they drove is
+COMPLETE and BANKED (A1-A3 at 2fd4af3/b85bea6/e379098). Nothing is in flight; the forward step is
+x_max O1 (pre-registration pending, Charles's go). Do not relaunch the archived runbook.

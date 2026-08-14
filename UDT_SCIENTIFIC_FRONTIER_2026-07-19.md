@@ -4,6 +4,18 @@ Date: 2026-07-28
 Authority: current navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
+## August 14 startup precedence notice
+
+This file remains the durable foundations/topology and historical precedence spine; it is not the
+current execution queue. Read the top blocks of `LIVE.md` and `HANDOFF.md` first. The active
+operational lane is the preregistered data-only R3 spatial-covariance production, which changes no
+UDT premise and permits no feature or physical interpretation before complete independent
+verification. The latest internally verified theory lead is a conditional reciprocal/orchestra
+response kernel on one supplied complete pair relation; it does not select the physical regime
+history. The verified zero-order pair-terminal reachability and chord-network results remain the
+current durable structural parents. Nothing in this notice changes the carrier, action, bootstrap,
+`X_max`, source, matter, or dynamics statuses recorded below and in the current premise ledger.
+
 ## August 9 reciprocal calibration-state solder precedence notice
 
 Before treating local frame transport, coordinate identity, metric distance, an exponential-map

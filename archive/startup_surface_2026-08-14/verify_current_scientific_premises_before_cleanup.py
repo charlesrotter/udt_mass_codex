@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import csv
-import hashlib
 from pathlib import Path
 
 
@@ -15,53 +14,39 @@ PREMISE_REGISTRY_CONTROLS = (
     "LIVE.md",
     "HANDOFF.md",
     "INDEX.md",
-    "MEMORY.md",
     "README.md",
     "research/README.md",
     "research/_registry/README.md",
-    "CURRENT_RESEARCH_PROGRAM.md",
-    "CURRENT_SCIENTIFIC_PREMISES.md",
-    "INFLIGHT_STATE.md",
+    "MEMORY.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
 )
 
-CURRENT_ORIENTATION_CONTROLS = (
+PROTECTED_ATLAS_CONTROLS = (
     "AGENTS.md",
     "LIVE.md",
     "HANDOFF.md",
     "INDEX.md",
+    "README.md",
     "MEMORY.md",
+)
+
+CURRENT_ROUTE_CONTROLS = (
+    "AGENTS.md",
+    "LIVE.md",
+    "HANDOFF.md",
+    "INDEX.md",
     "README.md",
     "research/README.md",
-    "research/_registry/README.md",
+    "MEMORY.md",
     "CURRENT_RESEARCH_PROGRAM.md",
-    "CURRENT_SCIENTIFIC_PREMISES.md",
     "INFLIGHT_STATE.md",
 )
 
-STALE_STARTUP_TOKENS = (
-    "CMB PEAK OPTIMIZATION",
-    "ACTIVE ARC =",
-    "G86 remains the latest",
-    "fresh restart pending",
-    "x_max O1 pending",
-    "global cell assembly lane is active",
+LATEST_ROUTE_CONTROLS = (
+    "LIVE.md", "HANDOFF.md", "INDEX.md", "README.md", "research/README.md",
+    "research/_registry/README.md", "MEMORY.md", "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md", "INFLIGHT_STATE.md",
 )
-
-ARCHIVED_STARTUP_SNAPSHOTS = {
-    "AGENTS_before_cleanup.md": ("4c4acf412daeb2761a19a3877ac1e589c69572d9c65c8a6fc5756789f7945bb3", 347),
-    "LIVE_before_cleanup.md": ("4edd35923db884a14ca8d1995119184044abbc9d3897229d1a2fee5dab63928a", 1314),
-    "HANDOFF_before_cleanup.md": ("2f307c1a4c8972a9b8e6aa9cb66a8f30b33a0d2d9427621f66dbb05e8738b56f", 839),
-    "INDEX_before_cleanup.md": ("abb7bb9a9bf46478ca21a5fa8ff51f594ee0a370e081aaae0c6fb580b9b2f386", 527),
-    "MEMORY_before_cleanup.md": ("fc9aef1bcd82e25f3e0f09bd7aed16fd2def3d85c0f8823c7439bce865b50f71", 471),
-    "CURRENT_RESEARCH_PROGRAM_before_cleanup.md": ("714a6d3fde1709289863f19cd3e134cc968a3f6972df8671d111eee5d4e7b3e8", 759),
-    "CURRENT_SCIENTIFIC_PREMISES_before_cleanup.md": ("e4e936e4408ced06ce2633462c0b9aaf3491e0a2ce56a2e5b484f53fe68dfcdb", 917),
-    "README_before_cleanup.md": ("d25c29b891a702345c06bc9767ccb38cdb345c0dc53cef106768f3dc2baf8ea9", 452),
-    "research_README_before_cleanup.md": ("a66a5653ead353b6c124ae2fa451ff61aef22080519a8ad05e64e4ad742ddfe8", 308),
-    "research_registry_README_before_cleanup.md": ("74ca21670526a7b6a1731b514b35be32ec0d93a415627c4140f0337f7db16224", 232),
-    "INFLIGHT_STATE_before_cleanup.md": ("0ab4394549b72f17a4fbdee75425d1da91a75d8d5cb13da5bb8051e7a748704f", 278),
-    "verify_current_scientific_premises_before_cleanup.py": ("f2abb9928bab03960fdfe7bb1283419abd3c04d63eab301eaa7326f10adb236c", 1411),
-    "test_startup_surface_before_cleanup.py": ("4e293c1d2204d2ec4d4c1b71f9f3dec62a43ce75ca32e899b15dcb195c0aee76", 420),
-}
 
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
@@ -87,9 +72,12 @@ def marked_current_block(path: Path) -> str:
 
 
 def validate_startup_surface(root: Path) -> None:
-    """Fail closed on current routing while preserving, not rereading, historical detail."""
+    """Validate current routing separately from the historical bodies of startup files."""
     controls: dict[str, str] = {}
-    for relative in CURRENT_ORIENTATION_CONTROLS:
+    for relative in set(
+        PREMISE_REGISTRY_CONTROLS + PROTECTED_ATLAS_CONTROLS + CURRENT_ROUTE_CONTROLS
+        + LATEST_ROUTE_CONTROLS
+    ):
         path = root / relative
         require(path.is_file(), f"missing startup control: {relative}")
         controls[relative] = path.read_text(encoding="utf-8")
@@ -103,89 +91,196 @@ def validate_startup_surface(root: Path) -> None:
     live = marked_current_block(root / "LIVE.md")
     handoff = marked_current_block(root / "HANDOFF.md")
     for name, block in (("LIVE.md", live), ("HANDOFF.md", handoff)):
-        for token in (
-            "udt_observed_angular_pattern_raw_restart_2026-08-12",
-            "udt-r3-covariance-patchlists-20260813.service",
-            "/tmp/udt_boss_r3_checkpoints_patchlists",
-            "194",
-            "independent verifier",
-            "CURRENT_SCIENTIFIC_PREMISES.tsv",
-            "archive/startup_surface_2026-08-14",
-        ):
-            require(token in block, f"marked current block lacks {token}: {name}")
-        require("assembl" in block.lower(), f"R3 assembly gate absent: {name}")
-        require("R2" in block and "VERIFIED-WITH-CAVEATS" in block, f"R2 grade absent: {name}")
+        flat_block = " ".join(block.split())
         require(
-            "no r3 outcome" in block.lower() or "only then inspect or bank an outcome" in block.lower(),
-            f"R3 no-outcome guard absent: {name}",
+            "CURRENT_SCIENTIFIC_PREMISES.tsv" in block,
+            f"marked current block lacks premise registry: {name}",
+        )
+        for token in (
+            "CMB PEAK OPTIMIZATION",
+            "udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md",
+            "udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md",
+            "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
+            "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md",
+            "udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md",
+            "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+            "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
+            "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
+            "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
+            "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
+            "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
+            "udt_freedata_inventory_MAP_2026-08-09.md",
+            "D'_rev=Z S_r D_fwd^T S_s",
+            "RA2-PARTIAL-WEAK",
+            "BANKED + TABLED",
+            "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
+            "positional-dilation asymptote",
+        ):
+            require(token in flat_block, f"marked current block lacks {token}: {name}")
+        lowered = block.lower()
+        require("o1 pending" not in lowered, f"stale x_max O1 route in marked current block: {name}")
+        require(
+            "global cell assembly lane is active" not in lowered,
+            f"stale Global Cell Assembly route in marked current block: {name}",
+        )
+        if "Global Cell Assembly" in block:
+            require("ARCHIVED-LEGACY" in block, f"Global Cell Assembly not archive-stamped: {name}")
+        require(
+            "OPEN-COMPATIBILITY-WINDOW` is WITHDRAWN" in flat_block,
+            f"corrected FD1 withdrawal absent: {name}",
         )
 
-    for token in (
-        "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
-        "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/",
-        "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/",
-    ):
-        require(token in live, f"LIVE lacks protected local path: {token}")
-    require("udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/" in controls["AGENTS.md"],
-            "AGENTS lacks protected curvature-atlas guard")
+    protected_atlas = "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/"
+    for name, block in (("LIVE.md", live), ("HANDOFF.md", handoff)):
+        for token in (protected_atlas, "83 protected untracked", "explicit later dispatch"):
+            require(token in block, f"marked current block lacks protected-atlas guard {token}: {name}")
 
-    required_routes = {
-        "INDEX.md": (
-            "udt_observed_angular_pattern_raw_restart_2026-08-12/",
-            "udt_pair_first_relational_plane_reconstruction_2026-08-12/",
-            "udt_pair_terminal_reachability_atlas_2026-08-12/",
-            "udt_pair_chord_network_descent_audit_2026-08-12/",
-        ),
-        "MEMORY.md": (
-            "udt-r3-covariance-patchlists-20260813.service",
-            "Complete R3 -> assemble -> independently verify",
-        ),
-        "CURRENT_RESEARCH_PROGRAM.md": (
-            "194 component cells -> assembly -> independent verification -> outcome inspection",
-            "udt_pair_first_relational_plane_reconstruction_2026-08-12/",
-            "udt_pair_terminal_reachability_atlas_2026-08-12/",
-            "udt_pair_chord_network_descent_audit_2026-08-12/",
-        ),
-        "CURRENT_SCIENTIFIC_PREMISES.md": (
-            "WORKING_FOUNDATIONAL_FRAME",
-            "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
-            "CURRENT_SCIENTIFIC_PREMISES.tsv",
-        ),
-        "README.md": ("LIVE.md", "CURRENT_SCIENTIFIC_PREMISES.tsv", "AGENTS.md"),
-        "research/README.md": ("CURRENT_ARTIFACT_PATHS.tsv", "CURRENT_SCIENTIFIC_PREMISES.tsv"),
-        "research/_registry/README.md": ("CURRENT_ARTIFACT_PATHS.tsv", "CURRENT_SCIENTIFIC_PREMISES.tsv"),
-        "INFLIGHT_STATE.md": ("retired compatibility pointer", "INFLIGHT_STATE_before_cleanup.md"),
-    }
-    for control, tokens in required_routes.items():
-        for token in tokens:
-            require(token in controls[control], f"current route lacks {token}: {control}")
+    for control in PROTECTED_ATLAS_CONTROLS:
+        text = controls[control]
+        for token in (protected_atlas, "83 protected untracked", "explicit later dispatch"):
+            require(token in text, f"control lacks protected-atlas guard {token}: {control}")
 
-    for control in CURRENT_ORIENTATION_CONTROLS:
-        lowered = controls[control].lower()
-        for token in STALE_STARTUP_TOKENS:
-            require(token.lower() not in lowered, f"stale startup token {token}: {control}")
+    for control in CURRENT_ROUTE_CONTROLS:
+        text = " ".join(controls[control].replace("\n> ", "\n").split())
+        for token in (
+            "CMB PEAK OPTIMIZATION",
+            "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
+            "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md",
+            "udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md",
+            "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+            "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
+            "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
+            "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
+            "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
+            "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
+            "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
+            "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
+            "udt_freedata_inventory_MAP_2026-08-09.md",
+        ):
+            require(token in text, f"current route lacks {token}: {control}")
+
+    latest = "udt_pair_chord_network_descent_audit_2026-08-12/"
+    cmb_latest = "udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md"
+    parent = "udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md"
+    grandparent = "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
+    greatgrandparent = "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
+    prior = "udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md"
+    for control in LATEST_ROUTE_CONTROLS:
+        require(latest in controls[control], f"latest complete-branch route absent: {control}")
+        require(cmb_latest in controls[control], f"latest complete-branch route absent: {control}")
+        require(parent in controls[control], f"G81 parent scientific route absent: {control}")
+        require(grandparent in controls[control], f"G80 grandparent route absent: {control}")
+        require(greatgrandparent in controls[control], f"G79 great-grandparent route absent: {control}")
+        require(prior in controls[control], f"G78 prior route absent: {control}")
+
+    for control in ("README.md", "research/README.md", "MEMORY.md"):
+        text = controls[control]
+        require("RA2-PARTIAL-WEAK" in text, f"current route loses RA2 grade: {control}")
+        require("BANKED + TABLED" in text, f"current route loses BAO status: {control}")
+
+    memory_top = " ".join(controls["MEMORY.md"].split("## Historical memory archive", 1)[0].split())
+    require("2026-08-12" in memory_top, "MEMORY top pointer is not August 12 current")
+    require("CMB PEAK OPTIMIZATION" in memory_top, "MEMORY top pointer is stale")
+    require("RA2-PARTIAL-WEAK" in memory_top, "MEMORY top pointer loses RA2 grade")
 
     for relative in (
+        "CURRENT_SCIENTIFIC_PREMISES.md",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
-        "udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md",
-        "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_PREREGISTRATION.md",
-        "udt_observed_angular_pattern_raw_restart_2026-08-12/STATUS_LEDGER.tsv",
-        "udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md",
-        "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",
-        "udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md",
-        "udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md",
+        "udt_pair_chord_network_descent_audit_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_cmb_G82_fixed_c1_radau_replay_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_cmb_G81_nonradial_screen_covariance_2026-08-12/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_cmb_G80_reverse_pair_reciprocity_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_cmb_G78_profile_endpoint_source_owner_join_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_cmb_G77_full_family_direct_christoffel_replay_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_cmb_G76_complete_family_whole_sky_relation_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_cmb_G75_center_regular_axial_profile_family_2026-08-11/AUDIT_REPORT.md",
+        "udt_cmb_complete_observation_query_map_2026-08-11/AUDIT_REPORT.md",
+        "udt_cmb_complete_observation_query_map_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/AUDIT_REPORT.md",
+        "udt_solved_geometry_relation_family_survivor_atlas_2026-08-11/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_complete_observer_network_assembly_from_scratch_2026-08-11/AUDIT_REPORT.md",
+        "udt_native_history_restriction_from_scratch_2026-08-10/AUDIT_REPORT.md",
+        "udt_complete_timelive_orchestra_compatibility_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_pair_instrument_mixing_solution_space_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_copresent_causal_pair_functor_selector_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_complete_coframe_calibration_transport_from_scratch_2026-08-10/AUDIT_REPORT.md",
+        "udt_multiregime_pair_relation_admissibility_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_ordered_observer_query_projection_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_multichannel_observer_relation_assembly_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_r17_stationary_local_one_form_selection_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_r17_depth_holonomy_joint_invariant_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_r17_stationary_connection_sublocus_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_r17_path_labelled_connection_decomposition_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_r17_pair_leaf_normal_holonomy_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_r17_intrinsic_pair_foliation_integrability_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_r17_magnitude_to_grading_selection_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_nonisometric_calibration_magnitude_owner_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_reciprocal_scalar_calibration_bitorsor_descent_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_carried_intrinsic_middle_morphism_ownership_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_branch_nonisometric_calibration_transition_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_global_relation_family_branch_classification_2026-08-10/AUDIT_REPORT.md",
+        "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+        "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md",
+        "udt_calibrated_pair_map_owner_atlas_2026-08-09/AUDIT_REPORT.md",
+        "udt_reciprocal_calibration_state_solder_audit_2026-08-09/AUDIT_REPORT.md",
+        "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
+        "udt_reciprocal_flag_foundation_ownership_audit_2026-08-09/AUDIT_REPORT.md",
+        "udt_cmb_N03_profile_role_regular_center_map_2026-08-09/AUDIT_REPORT.md",
+        "udt_cmb_complete_angular_family_atlas_map_2026-08-09/AUDIT_REPORT.md",
+        "udt_cmb_N01_C1_harmonic_coupling_matrix_atlas_2026-08-09/AUDIT_REPORT.md",
+        "udt_cmb_N02_radial_anchor_admissibility_2026-08-09/AUDIT_REPORT.md",
+        "udt_cmb_complete_angular_mode_ownership_2026-08-09/AUDIT_REPORT.md",
+        "udt_fd1_corrected_full_spectral_atlas_2026-08-09/FINAL_REPORT.md",
+        "udt_freedata_inventory_MAP_2026-08-09.md",
+        "udt_roadA_mode_quantization_MAP_2026-08-08.md",
+        "udt_roadA_RA1_muon_modes_2026-08-08/DERIVATION_NOTES.md",
+        "udt_roadA_RA2_projection_2026-08-08/DERIVATION_NOTES.md",
+        "udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
-
-    archive = root / "archive" / "startup_surface_2026-08-14"
-    require((archive / "SHA256_MANIFEST.tsv").is_file(), "startup archive manifest missing")
-    for name, (expected_hash, expected_lines) in ARCHIVED_STARTUP_SNAPSHOTS.items():
-        path = archive / name
-        require(path.is_file(), f"startup archive snapshot missing: {name}")
-        digest = hashlib.sha256(path.read_bytes()).hexdigest()
-        require(digest == expected_hash, f"startup archive hash mismatch: {name}")
-        line_count = len(path.read_text(encoding="utf-8").splitlines())
-        require(line_count == expected_lines, f"startup archive line-count mismatch: {name}")
 
 
 def main() -> None:
@@ -1261,36 +1356,31 @@ def main() -> None:
     for token in [
         "on **supplied ordered depth**",
         "presentation potential",
-        "complete observer/event/path-to-depth assignment",
-        "Angular, screen, and mixing data",
-        "observed clock/ruler calibration scale",
+        "universal physical scalar",
+        "complete-arrow strain",
+        "groupoid 1-cocycle",
+        "CHOSE_COMPARISON_CONFIGURATION",
         "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
+        "generic configuration-arena count",
         "WORKING_FOUNDATIONAL_FRAME",
-        "preferred center",
-        "S^2` carrier is a `POSIT",
-        "EH metric-only action is `CONDITIONAL",
-        "Bootstrap/stable-matter is a working hypothesis",
+        "positional-dilation asymptote",
+        "finite-cell seal",
     ]:
         require(token in agents, f"AGENTS guard absent: {token}")
 
-    xmax_controls = (
-        "AGENTS.md",
+    xmax_controls = [
         "LIVE.md",
         "HANDOFF.md",
         "INDEX.md",
-        "MEMORY.md",
-        "CURRENT_RESEARCH_PROGRAM.md",
-        "CURRENT_SCIENTIFIC_PREMISES.md",
-    )
+        "README.md",
+        "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+        "research/README.md",
+    ]
     xmax_source = "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md"
     for control in xmax_controls:
         text = (ROOT / control).read_text(encoding="utf-8")
-        require("X_max" in text, f"control lacks Xmax guard: {control}")
-        require("asymptot" in text.lower(), f"control lacks Xmax limiting meaning: {control}")
-    require("udt_xmax_asymptotic_limit_frame_correction_2026-08-05/" in
-            (ROOT / "INDEX.md").read_text(encoding="utf-8"),
-            "INDEX lacks controlling Xmax correction route")
-    require((ROOT / xmax_source).is_file(), "controlling Xmax correction source missing")
+        require(xmax_source in text, f"control lacks Xmax correction: {control}")
+        require("positional-dilation asymptote" in text, f"control lacks Xmax limiting meaning: {control}")
 
     adjudication = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/ACTIVE_SEMANTIC_ADJUDICATION.tsv"
@@ -1308,11 +1398,13 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: 83 premise guards (legacy package-gate compatibility); PASS: 76-row premise "
-        "registry, current bounded startup route, archive integrity, "
-        "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
-        "and corrected DOF semantics"
+        "PASS: 83 premise guards plus G87 chord-network guards; zero-order chord-network descent "
+        "externally accepted with evidence caveats; physical global-family and path/dynamical "
+        "ownership remain open; G82 remains bounded CMB support"
     )
+    return
+    # Unreachable pre-G79 verbose success text remains below only until the next mechanical guard cleanup.
+    print("PASS: 71 premise guards, G78 bounded 20-source profile-endpoint-scale-source owner join externally verified with caveats and zero native owners while internal route semantics remain regression-only, repository gates remain outside sealed scientific evidence, and only one pre-fit same-geometry dimensional SNe query is next; G77 direct metric-Christoffel replay externally verified at 590 strong, 1 registered, 0 unresolved while preserving the immutable G76 587-plus-four historical result and leaving continuum and every physical owner open; G75 bounded 49-shape and 591-profile center-regular Lorentz-control family externally verified with zero row mismatches and local evidence caveats closed while physical selection remains open; G74 exact frozen 21-profile whole-sky control census with 3 F01 global diffeomorphisms, 6 persistent sampled-regular controls, 12 unrepaired center-C2 blocks, and physical CMB profile/source/scale still open; bounded 16-source F00-F17 complete CMB query architecture with no owned physical realization and F00 compatibility only, exact frozen M3 SNe replay with algebraically identical native pair-depth retyping and no owned complete-query correction, conditional common-query channel architecture with physical query and Q2 Codazzi certification open, bounded solved-geometry endpoint/propagator/full-holonomy/normal-holonomy coexistence with no physical selector or stability promotion, exact finite observer-network assembly in endpoint-atlas and path-labelled homes with route dependence allowed and physical relation-family/route-policy ownership open, declared regular complete chart finite-jet open with no owned nonidentity history restriction in ten frozen sources and global selector ownership still open, exact complete time-live compatibility orchestra with arbitrary time-only frequencies and native history selection still open, conditional complete split-relative matrix orchestra with generic orbit and signed area locks while positive weights and physical branch curve remain open, exact supplied-pair cone/phi/conditional-c-eff join with scoped local causal transition/calibration nonselection and ambient physical-family selector open, conditional full-coframe dphi_pair descent on a supplied coherent calibrated pair family with physical family/transition owner open, corrected global descent atlas with R17 foliation/path/alignment ownership and R18 clock-only descent while complete selector remains open, corrected 24-by-6 multi-regime mathematical apparatus atlas with no physical regime owner, conditional founded reciprocal projection uniquely Delta_phi within continuous matched two-density characters with pair-relation and broader measurement owner open, conditional multi-channel pair-state and angular-transport assembly, stationary R17 canonical local forms and constructive nonuniqueness, depth/normal-holonomy product groupoid, flat/descent/holonomy subloci, complete metric-projected path functor, pair-leaf normal holonomy, global pair foliation, complete-coframe vertical reciprocal metric class, branch-conditional non-isometric magnitude ownership, reciprocal calibration bitorsor descent, carried/intrinsic alignment, branch-transition ownership, complete-branch relation families, three-observer overlap carry, founding pair-relation ownership, calibrated pair-map ownership, terminal reciprocal-c_E readout, calibration-state solder, reciprocal-flag ownership, N03 profile-role map, N02 radial admissibility, N01 coupling and complete-angular routing, marked-block atlas guards, relational-depth/orchestra and conceptual-type corrections, current startup controls, 754 historical candidate dispositions, corrected DOF semantics")
 
 
 if __name__ == "__main__":
