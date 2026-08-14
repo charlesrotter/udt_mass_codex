@@ -1,0 +1,11 @@
+gate_id	requirement	failure_return
+R4G01	parent tracked SHA-256 values match preregistration	R4_PARENT_IDENTITY_FAILURE
+R4G02	2328 unique curves each contain the identical 119-bin grid	R4_PARENT_CURVE_CENSUS_FAILURE
+R4G03	relation counts equal 1552/1746/1164/2184/2640 and total 9286	R4_RELATION_CENSUS_FAILURE
+R4G04	cross-lag shapes equal 9286x237 and 9286x235	R4_CROSS_LAG_SHAPE_FAILURE
+R4G05	194 archived R3 cells are uniquely typed to selection keys	R4_R3_CELL_OWNERSHIP_FAILURE
+R4G06	cap-covariance count equals 1164 with every lane and NSIDE retained	R4_CAP_COVARIANCE_CENSUS_FAILURE
+R4G07	all C_sum matrices are finite symmetric and PSD within -100*tau	R4_CAP_COVARIANCE_ALGEBRA_FAILURE
+R4G08	all descriptors and nondegenerate normalized arrays are finite	R4_DESCRIPTOR_FINITENESS_FAILURE
+R4G09	independent implementation reconstructs all outputs	R4_INDEPENDENT_REPLAY_FAILURE
+R4G10	repository tests pass	R4_REPOSITORY_GUARD_FAILURE
