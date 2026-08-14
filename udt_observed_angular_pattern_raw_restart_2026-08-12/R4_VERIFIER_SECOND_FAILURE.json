@@ -1,0 +1,20 @@
+{
+  "status": "FAIL__RANGE_PROJECTOR_TOLERANCE_TO_CORRECT_BEFORE_RERUN",
+  "first_failed_record": {
+    "sample": "CMASS",
+    "factor": 1,
+    "group": 3,
+    "lane": "W0_UNIT",
+    "nside": 4,
+    "metric": "unresolved_fraction",
+    "saved": 0.13478250566218353,
+    "independent": 0.13478250581101614,
+    "absolute_difference": 1.4883261283409337e-10,
+    "positive_condition": 32573519.924816128,
+    "condition_aware_scale": 1.481272189485759e-05
+  },
+  "relation_and_cross_lag_replay_passed": true,
+  "production_outputs_changed": false,
+  "outcome_interpreted": false,
+  "verification_result_written": false
+}

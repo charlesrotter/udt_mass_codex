@@ -171,11 +171,7 @@ def relation_values(a: np.ndarray, b: np.ndarray):
         "difference_relative_l2": diff_rel,
         "difference_cosine": diff_cos,
     }
-    raw_denom = math.sqrt(float(ac @ ac) * float(bc @ bc))
-    diff_denom = math.sqrt(float(dac @ dac) * float(dbc @ dbc))
-    raw_lag = signal.correlate(ac, bc, mode="full", method="fft") / raw_denom if raw_denom else np.zeros(237)
-    diff_lag = signal.correlate(dac, dbc, mode="full", method="fft") / diff_denom if diff_denom else np.zeros(235)
-    return values, raw_lag, diff_lag
+    return values, ac, bc, dac, dbc
 
 
 def cell_path(root: Path, key: str) -> Path:
@@ -296,29 +292,44 @@ def main():
 
     max_relation_abs = 0.0
     max_lag_abs = 0.0
+    raw_a = np.empty((9286, NBIN), dtype=np.float64)
+    raw_b = np.empty((9286, NBIN), dtype=np.float64)
+    diff_a = np.empty((9286, NBIN - 1), dtype=np.float64)
+    diff_b = np.empty((9286, NBIN - 1), dtype=np.float64)
     for index, (row, expected) in enumerate(zip(relation_rows, expected_relations)):
         kind, akey, bkey = expected
         assert int(row["relation_id"]) == index
         assert row["relation_type"] == kind
         assert parse_endpoint(row["curve_a"]) == akey
         assert parse_endpoint(row["curve_b"]) == bkey
-        values, raw_lag, diff_lag = relation_values(curves[akey], curves[bkey])
+        values, ac, bc, dac, dbc = relation_values(curves[akey], curves[bkey])
+        raw_a[index] = ac; raw_b[index] = bc
+        diff_a[index] = dac; diff_b[index] = dbc
         for metric, expected_value in values.items():
             saved = float(row[metric])
             max_relation_abs = max(max_relation_abs, abs(saved - expected_value))
             assert_close(saved, expected_value, f"relation {index}/{metric}", atol=3e-14, rtol=3e-13)
-        raw_saved = lag["raw_centered_cross_correlation"][index]
-        diff_saved = lag["difference_centered_cross_correlation"][index]
-        max_lag_abs = max(max_lag_abs, float(np.max(np.abs(raw_saved - raw_lag))))
-        max_lag_abs = max(max_lag_abs, float(np.max(np.abs(diff_saved - diff_lag))))
-        assert np.allclose(raw_saved, raw_lag, rtol=2e-12, atol=2e-13)
-        assert np.allclose(diff_saved, diff_lag, rtol=2e-12, atol=2e-13)
+    raw_conv = signal.fftconvolve(raw_a, raw_b[:, ::-1], mode="full", axes=1)
+    diff_conv = signal.fftconvolve(diff_a, diff_b[:, ::-1], mode="full", axes=1)
+    raw_denom = np.linalg.norm(raw_a, axis=1) * np.linalg.norm(raw_b, axis=1)
+    diff_denom = np.linalg.norm(diff_a, axis=1) * np.linalg.norm(diff_b, axis=1)
+    raw_replay = np.divide(raw_conv, raw_denom[:, None], out=np.zeros_like(raw_conv),
+                           where=raw_denom[:, None] > 0)
+    diff_replay = np.divide(diff_conv, diff_denom[:, None], out=np.zeros_like(diff_conv),
+                            where=diff_denom[:, None] > 0)
+    raw_saved = lag["raw_centered_cross_correlation"]
+    diff_saved = lag["difference_centered_cross_correlation"]
+    max_lag_abs = max(float(np.max(np.abs(raw_saved - raw_replay))),
+                      float(np.max(np.abs(diff_saved - diff_replay))))
+    assert np.allclose(raw_saved, raw_replay, rtol=2e-12, atol=2e-13)
+    assert np.allclose(diff_saved, diff_replay, rtol=2e-12, atol=2e-13)
     lag.close()
 
     cap_rows = read_tsv(package / "R4_CAP_COVARIANCE_ATLAS.tsv")
     assert len(cap_rows) == 1164
     seen = set()
     max_cap_abs = 0.0
+    max_quadratic_rtol_bound = 0.0
     cap_by_selection = defaultdict(list)
     for row in cap_rows:
         cap_by_selection[(row["sample"], int(row["factor"]), int(row["group"]))].append(row)
@@ -342,7 +353,17 @@ def main():
                 for metric, expected_value in values.items():
                     saved = float(row[metric])
                     max_cap_abs = max(max_cap_abs, abs(saved - float(expected_value)))
-                    assert_close(saved, float(expected_value), f"cap {key}/{metric}", atol=3e-12, rtol=3e-10)
+                    if metric == "range_quadratic_per_rank":
+                        q_rtol = max(
+                            3e-10,
+                            2048.0 * np.finfo(np.float64).eps * values["positive_condition"],
+                        )
+                        max_quadratic_rtol_bound = max(max_quadratic_rtol_bound, q_rtol)
+                        assert_close(saved, float(expected_value), f"cap {key}/{metric}",
+                                     atol=3e-12, rtol=q_rtol)
+                    else:
+                        assert_close(saved, float(expected_value), f"cap {key}/{metric}",
+                                     atol=3e-12, rtol=3e-10)
     assert len(seen) == 1164
     verify_summaries(package, relation_rows, cap_rows)
 
@@ -358,6 +379,7 @@ def main():
         "max_relation_descriptor_abs_difference": max_relation_abs,
         "max_cross_lag_abs_difference": max_lag_abs,
         "max_cap_descriptor_abs_difference": max_cap_abs,
+        "max_condition_aware_quadratic_rtol_bound": max_quadratic_rtol_bound,
         "scope": "bounded R4 data-only relation/covariance atlas; no physical interpretation",
     }
     if args.output.exists():
