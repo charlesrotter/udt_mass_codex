@@ -21,21 +21,17 @@ What remains unowned is the physical complete history and global relation family
 identities organize supplied geometry but do not yet select an on-shell subset. Bootstrap may
 eventually be a joint global/local admissibility law, but that remains a working hypothesis.
 
-## Active operational lane — raw observational pattern and covariance
+## Active operational lane — verified raw pattern and covariance
 
-The current calculation is R3, a preregistered data-only spatial-covariance atlas over the complete
-R2 BOSS observer-coordinate surface. It is metric-neutral data preparation/characterization, not a
-UDT fit or physical interpretation.
+R3 completed the preregistered data-only spatial-covariance atlas over the complete R2 BOSS
+observer-coordinate surface. All 194 cells, 2,328 covariance matrices, exact support/covariance/rank
+identities, and eight independent deletion anchors pass after two disclosed verifier-ownership
+repairs. Rank and covariance scale depend on deletion resolution, so the result is explicitly
+`COVARIANCE_RESOLUTION_OR_RANK_LIMITED` and selects no preferred grid.
 
-Current sequence:
-
-```text
-194 component cells -> assembly -> independent verification -> outcome inspection
-```
-
-Until that sequence finishes, no feature, oscillation, significance, scale, BAO origin, UDT
-response, CMB relation, or `X_max` statement is allowed. The primary-researcher method cross-check
-supports the frozen input/estimator architecture but supplies no exact target curve.
+This remains metric-neutral data preparation/characterization, not a feature selection, UDT fit, or
+physical interpretation. The primary-researcher method cross-check supports the input/estimator
+architecture but supplies no exact target curve.
 
 ## Current relational-geometry result stack
 
@@ -111,11 +107,13 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-1. Finish, assemble, and independently verify R3 before inspecting its outcome.
-2. Obtain a fresh semantic review of the local reciprocal/orchestra response package before banking.
-3. After R3, characterize the verified data-only atlas without importing a feature template.
-4. Only then decide with Charles whether the next theory step is the live regime-flow owner,
-   observational cross-query comparison, or return to matter/stability.
+1. Preserve and bank the complete verified R3 evidence without staging protected local work.
+2. Preregister characterization of the verified data-only atlas without importing a feature
+   template, published target, distance conversion, ruler, or theory curve.
+3. Obtain a fresh semantic review of the local reciprocal/orchestra response package before banking.
+4. Only after the observational characterization decide with Charles whether the next theory step
+   is the live regime-flow owner, observational cross-query comparison, or return to
+   matter/stability.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.

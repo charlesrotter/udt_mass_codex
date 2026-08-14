@@ -17,6 +17,9 @@ CURRENT_TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_PREREGISTRATION.md",
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_OUTCOME_REPORT.md",
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_VERIFICATION_RESULT.json",
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_FINAL_STATUS.json",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/STATUS_LEDGER.tsv",
     "udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md",
     "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",
@@ -81,9 +84,9 @@ def test_catch_duplicate_live_marker(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_missing_r3_service(tmp_path: Path) -> None:
+def test_catch_missing_r3_outcome_route(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "udt-r3-covariance-patchlists-20260813.service", "REMOVED.service")
+    _replace(root / "LIVE.md", "R3_OUTCOME_REPORT.md", "REMOVED_R3_OUTCOME.md")
     with pytest.raises(SystemExit, match="marked current block lacks"):
         premise_guard.validate_startup_surface(root)
 

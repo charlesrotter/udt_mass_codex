@@ -7,7 +7,7 @@
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
 
-### Active operational lane — R3 raw spatial covariance is running
+### Active operational lane — R3 raw spatial covariance is complete
 
 R2 is `VERIFIED-WITH-CAVEATS` in its exact bounded data-only role: 194 observer-coordinate
 selections, four weight lanes, three nested random ratios, 119 angular bins, and 2,328 curves. Every
@@ -15,37 +15,33 @@ curve/descriptor was independently reconstructed; nine TreeCorr and twelve direc
 pass. This is raw pattern characterization, not a preferred feature, significance, physical scale,
 BAO interpretation, UDT response, CMB relation, cosmology, or `X_max`.
 
-R3 retains all 194 selections, four lanes, 119 bins, and NSIDE 4/8/16 exact delete-one-spatial-block
-covariance at the fixed 20x random readout. For R3 validation or assembly **after the bounded startup
-orientation**, read package evidence in this order:
+R3 now has grade
+`OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. It retains all 194
+selections, four lanes, 119 bins, and NSIDE 4/8/16 exact delete-one-spatial-block covariance at the
+fixed 20x random readout. For R3 interpretation **after the bounded startup orientation**, read
+package evidence in this order:
 
 1. `udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md`;
 2. `R3_PREREGISTRATION.md`;
-3. `R3_PREEXECUTION_GATES.md` and `R3_SUPPORT_TYPING_CORRECTION.md`;
-4. `R3_PATCH_CARDINALITY_CORRECTION_REPORT.md` and its adversarial review;
-5. `STATUS_LEDGER.tsv`.
+3. `R3_OUTCOME_REPORT.md` and `R3_VERIFICATION_RESULT.json`;
+4. `R3_PREEXECUTION_GATES.md`, `R3_SUPPORT_TYPING_CORRECTION.md`, and the two
+   `R3_VERIFIER_*_CORRECTION_PREREGISTRATION.md` records;
+5. `R3_PATCH_CARDINALITY_CORRECTION_REPORT.md`, its adversarial review, and `STATUS_LEDGER.tsv`.
 
 These correction documents preserve their report-time process state and commit IDs. They do not
 override this block for current runtime status. Monitoring alone does not require reading full R3
 implementations or raw checkpoint contents.
 
-The first guarded attempt produced 48 North checkpoints, then stopped before any covariance outcome
-was inspected because TreeCorr independently shrank data/random patch cardinalities. Those 48 files
-are provenance only. The verified explicit-single-patch-list repair and failure-propagating wrapper
-are banked in `2ddb4066`; no statistical or scientific premise changed.
+All 194 cells and 2,328 covariances completed. Rank is resolution-limited exactly as the frozen
+block counts imply: 0/776 full-rank at NSIDE 4, 388/776 at NSIDE 8, and 776/776 at NSIDE 16.
+Covariance scale also changes with resolution, so no preferred grid is selected and no inverse or
+feature significance is permitted. Exact reconstruction, all 194 support unions, all covariance
+identities, eight deletion anchors, and repository tests pass under independent verification.
 
-Fresh empty component production began at `2026-08-13 23:34:54 EDT`:
-
-- service: `udt-r3-covariance-patchlists-20260813.service`;
-- checkpoints: `/tmp/udt_boss_r3_checkpoints_patchlists`;
-- read-only timer: `udt-r3-monitor-patchlists-20260813.timer`.
-
-The timer records service, checkpoint, memory, and partial-file health every 30 minutes and never
-restarts the worker. Do not freeze a transient checkpoint count into this file. Do not inspect
-covariance ranks, scales, or shapes while production is active.
-
-**R3 gate:** finish all 194 component cells -> assemble frozen outputs -> run the complete
-independent verifier -> only then inspect or bank an outcome.
+Two post-failure verifier ownership corrections are disclosed in the package. They removed no
+registered gate and changed no production output: they compare DD/DR/RR cross-engine differences at
+the frozen component tolerance, then test curve construction and delete-one reconstruction with
+their proper owners. The final grade therefore remains verified with caveats.
 
 The parallel primary-method cross-check is complete and bankable with caveats at
 `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`. Official BOSS sources support the
@@ -117,9 +113,12 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Monitor R3 resources and atomic completion only. After component completion, assemble and run the
-preregistered independent verification before any pattern discussion. Do not launch another solve,
-profile ranking, physical fit, or theory mechanism while this gate is open.
+Bank the complete R3 result. Its verified self-contained raw-output archive is
+`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; all 201 output-manifest rows match by
+byte count and SHA-256. Then preregister a bounded data-only empirical-structure phase that asks
+what patterns survive caps, lanes, shell widths, random controls, and all three covariance grids
+without supplying an expected BAO angle, period, physical ruler, UDT curve, or published target. Do
+not fit theory or select a preferred feature before that gate is written.
 
 ### Archive
 

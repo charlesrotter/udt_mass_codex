@@ -1,0 +1,8 @@
+{
+  "accepted_component_difference_can_exceed_removed_curve_gate": true,
+  "elementwise_allclose_false_pass_caught": true,
+  "integer_count_mismatch_caught": true,
+  "one_ulp_curve_corruption_caught": true,
+  "out_of_tolerance_component_caught": true,
+  "status": "PASS"
+}

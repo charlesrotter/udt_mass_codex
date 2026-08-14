@@ -1,0 +1,13 @@
+{
+  "angular_bin_count": 119,
+  "central_component_comparison_count": 1746,
+  "covariance_count": 2328,
+  "healpy": "1.19.0",
+  "lane_count": 4,
+  "max_rss_gib": 6.926601409912109,
+  "nside_count": 3,
+  "selection_count": 194,
+  "status": "OBSERVED__R3_COVARIANCE_ATLAS_ASSEMBLED__VERIFICATION_PENDING",
+  "total_selection_wall_seconds": 56047.89358753245,
+  "treecorr": "5.1.3"
+}

@@ -15,11 +15,14 @@
 
 - Raw BOSS R0-R3 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
 - Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
-- Current run: `udt-r3-covariance-patchlists-20260813.service`
-- Current checkpoints: `/tmp/udt_boss_r3_checkpoints_patchlists`
+- R3 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R3_OUTCOME_REPORT.md`
+- R3 exact verifier: `udt_observed_angular_pattern_raw_restart_2026-08-12/R3_VERIFICATION_RESULT.json`
+- Verified self-contained raw-output archive:
+  `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
+- Operational checkpoints: `/tmp/udt_boss_r3_checkpoints_patchlists`
 
-R2 is verified with caveats. R3 production is running and scientifically sealed until assembly and
-independent verification. The older official DR2 13-vector package is a compressed-publication
+R2 and R3 are verified with caveats. R3 is covariance-resolution/rank-limited and selects no
+preferred grid or feature. The older official DR2 13-vector package is a compressed-publication
 comparison only; it cannot seed raw-lane bins, covariance, normalization, or interpretation.
 
 ## Current relational-geometry spine

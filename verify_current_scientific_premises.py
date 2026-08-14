@@ -45,6 +45,9 @@ STALE_STARTUP_TOKENS = (
     "fresh restart pending",
     "x_max O1 pending",
     "global cell assembly lane is active",
+    "udt-r3-covariance-patchlists-20260813.service",
+    "Complete R3 -> assemble -> independently verify",
+    "194 component cells -> assembly -> independent verification -> outcome inspection",
 )
 
 ARCHIVED_STARTUP_SNAPSHOTS = {
@@ -105,19 +108,23 @@ def validate_startup_surface(root: Path) -> None:
     for name, block in (("LIVE.md", live), ("HANDOFF.md", handoff)):
         for token in (
             "udt_observed_angular_pattern_raw_restart_2026-08-12",
-            "udt-r3-covariance-patchlists-20260813.service",
-            "/tmp/udt_boss_r3_checkpoints_patchlists",
+            "R3_OUTCOME_REPORT.md",
+            "R3_VERIFICATION_RESULT.json",
+            "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
             "194",
-            "independent verifier",
+            "independent verification",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "archive/startup_surface_2026-08-14",
         ):
             require(token in block, f"marked current block lacks {token}: {name}")
-        require("assembl" in block.lower(), f"R3 assembly gate absent: {name}")
         require("R2" in block and "VERIFIED-WITH-CAVEATS" in block, f"R2 grade absent: {name}")
         require(
-            "no r3 outcome" in block.lower() or "only then inspect or bank an outcome" in block.lower(),
-            f"R3 no-outcome guard absent: {name}",
+            "OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED" in block,
+            f"R3 completed grade absent: {name}",
+        )
+        require(
+            "no preferred" in block.lower(),
+            f"R3 no-preferred-selection guard absent: {name}",
         )
 
     for token in (
@@ -145,12 +152,13 @@ def validate_startup_surface(root: Path) -> None:
             "verify_current_scientific_premises.py",
         ),
         "MEMORY.md": (
-            "udt-r3-covariance-patchlists-20260813.service",
-            "Complete R3 -> assemble -> independently verify",
+            "OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED",
+            "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
             "After orientation",
         ),
         "CURRENT_RESEARCH_PROGRAM.md": (
-            "194 component cells -> assembly -> independent verification -> outcome inspection",
+            "COVARIANCE_RESOLUTION_OR_RANK_LIMITED",
+            "Preregister characterization of the verified data-only atlas",
             "udt_pair_first_relational_plane_reconstruction_2026-08-12/",
             "udt_pair_terminal_reachability_atlas_2026-08-12/",
             "udt_pair_chord_network_descent_audit_2026-08-12/",
@@ -200,6 +208,9 @@ def validate_startup_surface(root: Path) -> None:
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_PREREGISTRATION.md",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_OUTCOME_REPORT.md",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_VERIFICATION_RESULT.json",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_FINAL_STATUS.json",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/STATUS_LEDGER.tsv",
         "udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md",
         "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",

@@ -69,7 +69,8 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
 - Reciprocal/orchestra response kernel: internally verified conditional lead; external semantic
   review and banking pending; no premise promotion.
 - R2 raw observational atlas: `OBSERVED`, `VERIFIED-WITH-CAVEATS`.
-- R3 covariance atlas: preregistered repair verified; production running; no outcome.
+- R3 covariance atlas: complete and independently verified with caveats;
+  `COVARIANCE_RESOLUTION_OR_RANK_LIMITED`; no preferred grid, feature, significance, or physics.
 
 The observational lane changes no UDT premise. A numerical pattern is not automatically physics.
 

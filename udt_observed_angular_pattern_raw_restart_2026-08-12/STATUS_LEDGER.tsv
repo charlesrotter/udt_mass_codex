@@ -8,11 +8,11 @@ r1_implementation	VERIFIED_WITH_CAVEATS	Complete 110-cell random-only run; estim
 r1_random_null_controls	OBSERVED_PASS	220 random-only curves and 330 registered guards pass; proxy is numerical not physical covariance
 r2_central_pattern_atlas	VERIFIED_WITH_CAVEATS	All 194 selections and 2328 curves assembled; full replay plus 9 TreeCorr and 12 direct anchors pass after disclosed verifier-ownership repair
 r2_primary_engine	CHOSE_BORROWED_NUMERICAL_METHOD	Corrfunc 2.5.3 exact angular counts; TreeCorr 5.1.3 and brute force are independent anchors
-primary_covariance	OPEN	Data-only spatial resampling and replication controls remain R3
+primary_covariance	OBSERVED_VERIFIED_WITH_CAVEATS_RESOLUTION_DEPENDENT	R3 supplies the complete frozen data-only delete-one-spatial-block covariance atlas; rank and scale vary by NSIDE, no preferred grid or inverse is selected, and it is not claimed as an exact sampling distribution
 central_pattern	OBSERVED_VERIFIED_WITH_CAVEATS	Complete bounded raw observer-coordinate atlas; no feature significance or physical origin
 feature_descriptor	OBSERVED_VERIFIED_WITH_CAVEATS	Complete outcome-blind extrema DCT and lag vocabulary; no individual feature selected
 r3_block_geometry	VERIFIED_RANDOM_ONLY	2351 occupied nested HEALPix records across NSIDE 4 8 16; independently replayed without galaxy or R2 curve input
-r3_covariance_atlas	PREREGISTERED_REPAIR_VERIFIED_PRODUCTION_RUNNING	The first guarded run preserved 48 North checkpoints then stopped on a TreeCorr patch-cardinality representation error; the verified repair is banked in 2ddb4066, old cells are provenance only, and fresh empty 194-cell component production is running under the sealed contract before assembly and independent verification
+r3_covariance_atlas	OBSERVED_VERIFIED_WITH_CAVEATS_COVARIANCE_RESOLUTION_OR_RANK_LIMITED	All 194 cells and 2328 covariances completed; all central/support/covariance/rank identities and eight independent deletion anchors pass after two disclosed verifier-ownership repairs; NSIDE 4 is wholly rank-limited, NSIDE 8 is half full-rank, and NSIDE 16 is wholly full-rank; no preferred grid or feature is selected
 udt_comparison	OPEN	Outside R0 through R3
 physical_origin	OPEN	No acoustic or UDT origin assigned
 xmax	OPEN	No value or estimate

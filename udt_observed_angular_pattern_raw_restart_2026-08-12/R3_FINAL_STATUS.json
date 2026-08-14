@@ -1,0 +1,15 @@
+{
+  "angular_bin_count": 119,
+  "banking_grade": "OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED",
+  "cell_count": 194,
+  "covariance_count": 2328,
+  "full_rank_counts_by_nside": {
+    "4": 0,
+    "8": 388,
+    "16": 776
+  },
+  "independent_leave_one_anchor_count": 8,
+  "repository_tests": "84 passed, 1 xfailed",
+  "status": "PASS",
+  "verifier_repairs_disclosed": 2
+}

@@ -4,13 +4,12 @@ Re-read from disk on resume. `LIVE.md` wins.
 
 ## Current execution
 
-R3 raw data-only covariance production is running under
-`udt-r3-covariance-patchlists-20260813.service`, with atomic checkpoints in
-`/tmp/udt_boss_r3_checkpoints_patchlists`. The repair is banked in `2ddb4066`. Do not inspect
-covariance content until all 194 components complete, assembly finishes, and the independent
-verifier passes.
-
-R2 is `VERIFIED-WITH-CAVEATS`; R3 currently has no outcome or physical interpretation.
+R3 raw data-only covariance production, assembly, and independent verification are complete. R2 is
+`VERIFIED-WITH-CAVEATS`; R3 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. Its 194 ignored NPZ cells
+and all manifest-owned outputs are preserved and hash-verified at
+`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No preferred feature, significance,
+physical scale, origin, UDT comparison, cosmology, or `X_max` has been established.
 
 ## Current theory picture
 
@@ -41,8 +40,9 @@ sources.
 
 ## Current next gate
 
-Complete R3 -> assemble -> independently verify -> audit four banking gates -> only then inspect the
-data-only covariance atlas. Do not start a competing solve or mechanism hunt while that gate is open.
+Bank R3, then preregister a data-only empirical-structure phase that retains every cap, lane, shell
+width, random control, and covariance grid without importing an expected BAO angle, period, ruler,
+UDT curve, or published target.
 
 ## Archive
 
