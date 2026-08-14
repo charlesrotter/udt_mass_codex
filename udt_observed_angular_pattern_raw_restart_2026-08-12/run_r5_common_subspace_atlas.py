@@ -43,8 +43,8 @@ NSIDES = (4, 8, 16)
 OUTPUTS = (
     "R5_VIEW_SPECTRA.tsv",
     "R5_RANKED_SUBSPACE_OVERLAPS.tsv",
-    "R5_COVARIANCE_MODE_ATLAS.tsv",
-    "R5_COVARIANCE_MODE_SUMMARY.tsv",
+    "R5_COVARIANCE_SUBSPACE_ATLAS.tsv",
+    "R5_COVARIANCE_SUBSPACE_SUMMARY.tsv",
     "R5_RESULT.json",
     "R5_OUTPUT_MANIFEST.tsv",
 )
@@ -310,11 +310,12 @@ def main():
 
     cov_fields = [
         "covariance_id", "sample", "factor", "group", "lane", "nside", "transform",
-        "mode_index", "dimension", "transformed_rank", "transformed_tau", "mode_variance",
-        "mode_standard_deviation", "mode_range_fraction", "signed_difference_projection",
-        "absolute_difference_projection", "absolute_projection_to_mode_sd", "mode_sd_degenerate",
+        "rank", "dimension", "transformed_rank", "transformed_tau",
+        "global_boundary_absolute_gap", "global_boundary_relative_gap_to_first",
+        "subspace_covariance_trace", "covariance_trace_per_rank", "subspace_range_overlap",
+        "difference_projection_norm", "projection_norm_to_trace_sd", "trace_sd_degenerate",
     ]
-    cov_temp = HERE / "R5_COVARIANCE_MODE_ATLAS.tsv.tmp"
+    cov_temp = HERE / "R5_COVARIANCE_SUBSPACE_ATLAS.tsv.tmp"
     summary_values = defaultdict(list)
     rank_values = defaultdict(list)
     covariance_row_count = 0
@@ -359,29 +360,43 @@ def main():
                             rank = int(np.sum(positive))
                             rank_values[(transform_name, nside)].append(float(rank))
                             basis = bases[(transform_name, "GLOBAL")]
-                            variances = np.einsum("ij,jk,ik->i", basis, transformed_covariance, basis)
-                            variances = np.maximum(variances, 0.0)
-                            projections = basis @ transformed_difference
+                            variances = np.maximum(
+                                np.einsum("ij,jk,ik->i", basis, transformed_covariance, basis), 0.0
+                            )
+                            projection_squares = np.square(basis @ transformed_difference)
                             if rank:
-                                range_fractions = np.sum(np.square(basis @ eigenvectors[:, positive]), axis=1)
+                                range_components = np.sum(
+                                    np.square(basis @ eigenvectors[:, positive]), axis=1
+                                )
                             else:
-                                range_fractions = np.zeros(dimension, dtype=np.float64)
-                            for mode_offset in range(dimension):
-                                variance = float(variances[mode_offset])
-                                sd = float(np.sqrt(variance))
-                                projection = float(projections[mode_offset])
-                                degenerate = int(sd == 0.0)
-                                ratio = float(abs(projection) / sd) if sd > 0.0 else 0.0
+                                range_components = np.zeros(dimension, dtype=np.float64)
+                            cumulative_variance = np.cumsum(variances)
+                            cumulative_projection_square = np.cumsum(projection_squares)
+                            cumulative_range = np.cumsum(range_components)
+                            global_singular = singular_values[(transform_name, "GLOBAL")]
+                            for rank_offset in range(dimension):
+                                subspace_rank = rank_offset + 1
+                                covariance_trace = float(cumulative_variance[rank_offset])
+                                trace_sd = float(np.sqrt(covariance_trace))
+                                projection_norm = float(np.sqrt(cumulative_projection_square[rank_offset]))
+                                range_overlap = float(cumulative_range[rank_offset] / subspace_rank)
+                                degenerate = int(trace_sd == 0.0)
+                                ratio = float(projection_norm / trace_sd) if trace_sd > 0.0 else 0.0
+                                next_singular = (
+                                    float(global_singular[subspace_rank])
+                                    if subspace_rank < dimension else 0.0
+                                )
+                                boundary_gap = float(global_singular[rank_offset] - next_singular)
                                 values = {
-                                    "mode_variance": variance,
-                                    "mode_range_fraction": float(range_fractions[mode_offset]),
-                                    "absolute_difference_projection": abs(projection),
-                                    "absolute_projection_to_mode_sd": ratio,
+                                    "covariance_trace_per_rank": covariance_trace / subspace_rank,
+                                    "subspace_range_overlap": range_overlap,
+                                    "difference_projection_norm": projection_norm,
+                                    "projection_norm_to_trace_sd": ratio,
                                 }
                                 for metric, value in values.items():
                                     if not np.isfinite(value):
-                                        raise AssertionError(f"nonfinite covariance mode {metric}")
-                                    summary_values[(transform_name, nside, mode_offset + 1, metric)].append(value)
+                                        raise AssertionError(f"nonfinite covariance subspace {metric}")
+                                    summary_values[(transform_name, nside, subspace_rank, metric)].append(value)
                                 writer.writerow({
                                     "covariance_id": covariance_row_count,
                                     "sample": sample,
@@ -390,31 +405,35 @@ def main():
                                     "lane": lane,
                                     "nside": nside,
                                     "transform": transform_name,
-                                    "mode_index": mode_offset + 1,
+                                    "rank": subspace_rank,
                                     "dimension": dimension,
                                     "transformed_rank": rank,
                                     "transformed_tau": tau,
-                                    "mode_variance": variance,
-                                    "mode_standard_deviation": sd,
-                                    "mode_range_fraction": float(range_fractions[mode_offset]),
-                                    "signed_difference_projection": projection,
-                                    "absolute_difference_projection": abs(projection),
-                                    "absolute_projection_to_mode_sd": ratio,
-                                    "mode_sd_degenerate": degenerate,
+                                    "global_boundary_absolute_gap": boundary_gap,
+                                    "global_boundary_relative_gap_to_first": (
+                                        float(boundary_gap / global_singular[0])
+                                        if global_singular[0] > 0.0 else 0.0
+                                    ),
+                                    "subspace_covariance_trace": covariance_trace,
+                                    "covariance_trace_per_rank": covariance_trace / subspace_rank,
+                                    "subspace_range_overlap": range_overlap,
+                                    "difference_projection_norm": projection_norm,
+                                    "projection_norm_to_trace_sd": ratio,
+                                    "trace_sd_degenerate": degenerate,
                                 })
                                 covariance_row_count += 1
-    os.replace(cov_temp, HERE / "R5_COVARIANCE_MODE_ATLAS.tsv")
+    os.replace(cov_temp, HERE / "R5_COVARIANCE_SUBSPACE_ATLAS.tsv")
     if covariance_row_count != 275868:
-        raise AssertionError(f"covariance mode census {covariance_row_count}")
+        raise AssertionError(f"covariance subspace census {covariance_row_count}")
 
     summary_rows = []
-    for (transform_name, nside, mode_index, metric), values in sorted(summary_values.items()):
+    for (transform_name, nside, rank_index, metric), values in sorted(summary_values.items()):
         q = quantiles(values)
         summary_rows.append({
-            "summary_type": "MODE",
+            "summary_type": "SUBSPACE",
             "transform": transform_name,
             "nside": nside,
-            "mode_index": mode_index,
+            "rank": rank_index,
             "metric": metric,
             "count": len(values),
             "min": q[0], "q25": q[1], "median": q[2], "q75": q[3],
@@ -426,7 +445,7 @@ def main():
             "summary_type": "RANK",
             "transform": transform_name,
             "nside": nside,
-            "mode_index": 0,
+            "rank": 0,
             "metric": "transformed_rank",
             "count": len(values),
             "min": q[0], "q25": q[1], "median": q[2], "q75": q[3],
@@ -434,7 +453,7 @@ def main():
         })
     if len(summary_rows) != 2850:
         raise AssertionError(f"summary census {len(summary_rows)}")
-    atomic_tsv(HERE / "R5_COVARIANCE_MODE_SUMMARY.tsv", summary_rows, list(summary_rows[0]))
+    atomic_tsv(HERE / "R5_COVARIANCE_SUBSPACE_SUMMARY.tsv", summary_rows, list(summary_rows[0]))
 
     result = {
         "status": "ASSEMBLED__INDEPENDENT_VERIFICATION_PENDING",
@@ -443,7 +462,7 @@ def main():
         "relation_count": len(relations),
         "view_spectrum_row_count": len(spectra_rows),
         "ranked_overlap_row_count": len(overlap_rows),
-        "covariance_mode_row_count": covariance_row_count,
+        "covariance_subspace_row_count": covariance_row_count,
         "covariance_summary_row_count": len(summary_rows),
         "degenerate_curve_counts": degenerate_by_transform,
         "max_basis_orthonormality_error": max_orthonormality_error,

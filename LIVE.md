@@ -68,6 +68,12 @@ transform, and all-grid covariance annotation of every global mode. No cross-Gra
 banked inside degenerate spectral blocks; boundary gaps remain explicit. No mode count, feature, or
 grid can be selected.
 
+The first R5 assembly completed its counts but failed method review before interpretation: signed
+individual-mode covariance projections are not invariant under SVD sign and degenerate-block basis
+freedom. `R5_COVARIANCE_SUBSPACE_CORRECTION_PREREGISTRATION.md` replaces only that layer with
+cumulative top-`k` projector invariants. The superseded first outputs are not evidence and no R5
+outcome has yet been accepted.
+
 The parallel primary-method cross-check is complete and bankable with caveats at
 `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`. Official BOSS sources support the
 input lineage, W3 observational weight, optional-FKP/unit-random branch, random/mask semantics, and

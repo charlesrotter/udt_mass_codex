@@ -1,0 +1,15 @@
+{
+  "status": "FAIL__INDIVIDUAL_MODE_COVARIANCE_ANNOTATION_NOT_INVARIANT",
+  "phase": "first assembly completed; no spectrum or covariance outcome interpreted",
+  "completed_censuses": {
+    "view_spectrum_rows": 2607,
+    "ranked_overlap_rows": 3555,
+    "covariance_mode_rows": 275868,
+    "covariance_summary_rows": 2850
+  },
+  "failure": "signed individual-mode projections and individual-mode covariance fields depend on SVD sign/basis conventions inside degenerate spectral blocks",
+  "production_outputs_promoted": false,
+  "superseded_outputs_preserved_temporarily_at": "/tmp/udt_r5_superseded_first_assembly_wlLYCR",
+  "outcome_interpreted": false,
+  "verification_result_written": false
+}
