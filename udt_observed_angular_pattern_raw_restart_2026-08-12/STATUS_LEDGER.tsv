@@ -12,7 +12,7 @@ primary_covariance	OPEN	Data-only spatial resampling and replication controls re
 central_pattern	OBSERVED_VERIFIED_WITH_CAVEATS	Complete bounded raw observer-coordinate atlas; no feature significance or physical origin
 feature_descriptor	OBSERVED_VERIFIED_WITH_CAVEATS	Complete outcome-blind extrema DCT and lag vocabulary; no individual feature selected
 r3_block_geometry	VERIFIED_RANDOM_ONLY	2351 occupied nested HEALPix records across NSIDE 4 8 16; independently replayed without galaxy or R2 curve input
-r3_covariance_atlas	PREREGISTERED_REPAIR_VERIFIED_FRESH_RESTART_PENDING	The first guarded run preserved 48 North checkpoints then stopped on a TreeCorr patch-cardinality representation error; explicit nonempty single-patch lists and failure-propagating wrapper are verified, old cells are provenance only, and fresh 194-cell production must restart empty
+r3_covariance_atlas	PREREGISTERED_REPAIR_VERIFIED_PRODUCTION_RUNNING	The first guarded run preserved 48 North checkpoints then stopped on a TreeCorr patch-cardinality representation error; the verified repair is banked in 2ddb4066, old cells are provenance only, and fresh empty 194-cell component production is running under the sealed contract before assembly and independent verification
 udt_comparison	OPEN	Outside R0 through R3
 physical_origin	OPEN	No acoustic or UDT origin assigned
 xmax	OPEN	No value or estimate
