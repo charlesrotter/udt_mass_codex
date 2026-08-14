@@ -40,6 +40,8 @@ RELATION_COUNTS = {
 TRANSFORMS = ("CENTERED_UNIT", "FIRST_DIFFERENCE_UNIT")
 LANES = ("W0_UNIT", "W1_SPECTRO", "W2_IMAGING", "W3_OFFICIAL_OBS")
 NSIDES = (4, 8, 16)
+EPS = np.finfo(np.float64).eps
+GAP_FLOOR = np.sqrt(EPS)
 OUTPUTS = (
     "R5_VIEW_SPECTRA.tsv",
     "R5_RANKED_SUBSPACE_OVERLAPS.tsv",
@@ -312,6 +314,8 @@ def main():
         "covariance_id", "sample", "factor", "group", "lane", "nside", "transform",
         "rank", "dimension", "transformed_rank", "transformed_tau",
         "global_boundary_absolute_gap", "global_boundary_relative_gap_to_first",
+        "covariance_range_relative_gap_to_threshold", "covariance_range_owned",
+        "global_subspace_owned", "range_overlap_owned",
         "subspace_covariance_trace", "covariance_trace_per_rank", "subspace_range_overlap",
         "difference_projection_norm", "projection_norm_to_trace_sd", "trace_sd_degenerate",
     ]
@@ -319,6 +323,8 @@ def main():
     summary_values = defaultdict(list)
     rank_values = defaultdict(list)
     covariance_row_count = 0
+    resolved_range_overlap_row_count = 0
+    unresolved_range_overlap_row_count = 0
     with cov_temp.open("w", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=cov_fields, delimiter="\t", lineterminator="\n")
         writer.writeheader()
@@ -358,6 +364,19 @@ def main():
                                 )
                             positive = eigenvalues > tau
                             rank = int(np.sum(positive))
+                            if rank in (0, dimension):
+                                covariance_range_relative_gap = 1.0
+                                covariance_range_owned = 1
+                            else:
+                                positive_min = float(eigenvalues[-rank])
+                                nonpositive_max = float(eigenvalues[-rank - 1])
+                                covariance_range_relative_gap = (
+                                    min(positive_min - tau, tau - nonpositive_max)
+                                    / max(largest, EPS)
+                                )
+                                covariance_range_owned = int(
+                                    covariance_range_relative_gap >= GAP_FLOOR
+                                )
                             rank_values[(transform_name, nside)].append(float(rank))
                             basis = bases[(transform_name, "GLOBAL")]
                             variances = np.maximum(
@@ -387,6 +406,19 @@ def main():
                                     if subspace_rank < dimension else 0.0
                                 )
                                 boundary_gap = float(global_singular[rank_offset] - next_singular)
+                                boundary_relative_gap = (
+                                    float(boundary_gap / global_singular[0])
+                                    if global_singular[0] > 0.0 else 0.0
+                                )
+                                global_subspace_owned = int(
+                                    subspace_rank == dimension
+                                    or boundary_relative_gap >= GAP_FLOOR
+                                )
+                                range_overlap_owned = int(
+                                    bool(global_subspace_owned) and bool(covariance_range_owned)
+                                )
+                                resolved_range_overlap_row_count += range_overlap_owned
+                                unresolved_range_overlap_row_count += 1 - range_overlap_owned
                                 values = {
                                     "covariance_trace_per_rank": covariance_trace / subspace_rank,
                                     "subspace_range_overlap": range_overlap,
@@ -396,7 +428,19 @@ def main():
                                 for metric, value in values.items():
                                     if not np.isfinite(value):
                                         raise AssertionError(f"nonfinite covariance subspace {metric}")
-                                    summary_values[(transform_name, nside, subspace_rank, metric)].append(value)
+                                    if metric == "subspace_range_overlap":
+                                        ownership_status = (
+                                            "OWNED" if range_overlap_owned
+                                            else "UNRESOLVED_NUMERICAL"
+                                        )
+                                    else:
+                                        ownership_status = (
+                                            "OWNED" if global_subspace_owned
+                                            else "UNRESOLVED_NUMERICAL"
+                                        )
+                                    summary_values[
+                                        (transform_name, nside, subspace_rank, metric, ownership_status)
+                                    ].append(value)
                                 writer.writerow({
                                     "covariance_id": covariance_row_count,
                                     "sample": sample,
@@ -410,10 +454,13 @@ def main():
                                     "transformed_rank": rank,
                                     "transformed_tau": tau,
                                     "global_boundary_absolute_gap": boundary_gap,
-                                    "global_boundary_relative_gap_to_first": (
-                                        float(boundary_gap / global_singular[0])
-                                        if global_singular[0] > 0.0 else 0.0
+                                    "global_boundary_relative_gap_to_first": boundary_relative_gap,
+                                    "covariance_range_relative_gap_to_threshold": (
+                                        covariance_range_relative_gap
                                     ),
+                                    "covariance_range_owned": covariance_range_owned,
+                                    "global_subspace_owned": global_subspace_owned,
+                                    "range_overlap_owned": range_overlap_owned,
                                     "subspace_covariance_trace": covariance_trace,
                                     "covariance_trace_per_rank": covariance_trace / subspace_rank,
                                     "subspace_range_overlap": range_overlap,
@@ -427,7 +474,9 @@ def main():
         raise AssertionError(f"covariance subspace census {covariance_row_count}")
 
     summary_rows = []
-    for (transform_name, nside, rank_index, metric), values in sorted(summary_values.items()):
+    for (transform_name, nside, rank_index, metric, ownership_status), values in sorted(
+        summary_values.items()
+    ):
         q = quantiles(values)
         summary_rows.append({
             "summary_type": "SUBSPACE",
@@ -435,6 +484,7 @@ def main():
             "nside": nside,
             "rank": rank_index,
             "metric": metric,
+            "ownership_status": ownership_status,
             "count": len(values),
             "min": q[0], "q25": q[1], "median": q[2], "q75": q[3],
             "q90": q[4], "q95": q[5], "max": q[6],
@@ -447,6 +497,7 @@ def main():
             "nside": nside,
             "rank": 0,
             "metric": "transformed_rank",
+            "ownership_status": "NUMERICAL_BOOKKEEPING",
             "count": len(values),
             "min": q[0], "q25": q[1], "median": q[2], "q75": q[3],
             "q90": q[4], "q95": q[5], "max": q[6],
@@ -464,6 +515,8 @@ def main():
         "ranked_overlap_row_count": len(overlap_rows),
         "covariance_subspace_row_count": covariance_row_count,
         "covariance_summary_row_count": len(summary_rows),
+        "resolved_range_overlap_row_count": resolved_range_overlap_row_count,
+        "unresolved_range_overlap_row_count": unresolved_range_overlap_row_count,
         "degenerate_curve_counts": degenerate_by_transform,
         "max_basis_orthonormality_error": max_orthonormality_error,
         "theta_bin_count": len(theta_grid),

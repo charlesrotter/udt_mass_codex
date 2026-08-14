@@ -331,9 +331,19 @@ def main():
                                 assert int(row["dimension"]) == dimension
                                 assert int(row["transformed_rank"]) == covariance_rank
                                 close(float(row["transformed_tau"]), tau, "transformed tau", atol=5e-12, rtol=5e-11)
+                                close(
+                                    float(row["covariance_range_relative_gap_to_threshold"]),
+                                    range_relative_gap,
+                                    "covariance range relative gap",
+                                )
+                                assert int(row["covariance_range_owned"]) == int(range_owned)
                                 gap, relative_gap, globally_owned = boundary(singular, rank)
                                 close(float(row["global_boundary_absolute_gap"]), gap, "global covariance gap")
                                 close(float(row["global_boundary_relative_gap_to_first"]), relative_gap, "global rel gap")
+                                assert int(row["global_subspace_owned"]) == int(globally_owned)
+                                assert int(row["range_overlap_owned"]) == int(
+                                    globally_owned and range_owned
+                                )
                                 trace = float(cumulative_variance[offset])
                                 trace_per_rank = trace / rank
                                 projection_norm = float(np.sqrt(cumulative_projection[offset]))
@@ -353,7 +363,19 @@ def main():
                                     "covariance_trace_per_rank", "subspace_range_overlap",
                                     "difference_projection_norm", "projection_norm_to_trace_sd",
                                 ):
-                                    saved_summary_values[(transform_name, nside, rank, metric)].append(saved[metric])
+                                    if metric == "subspace_range_overlap":
+                                        ownership_status = (
+                                            "OWNED" if globally_owned and range_owned
+                                            else "UNRESOLVED_NUMERICAL"
+                                        )
+                                    else:
+                                        ownership_status = (
+                                            "OWNED" if globally_owned
+                                            else "UNRESOLVED_NUMERICAL"
+                                        )
+                                    saved_summary_values[
+                                        (transform_name, nside, rank, metric, ownership_status)
+                                    ].append(saved[metric])
                                 if rank == 1:
                                     saved_rank_values[(transform_name, nside)].append(float(covariance_rank))
                                 if globally_owned:
@@ -397,15 +419,22 @@ def main():
     assert len(saved_summary_rows) == 2850
     expected_summaries = {}
     for key, values in saved_summary_values.items():
-        expected_summaries[("SUBSPACE", key[0], key[1], key[2], key[3])] = (len(values), summary_quantiles(values))
+        expected_summaries[("SUBSPACE", key[0], key[1], key[2], key[3], key[4])] = (
+            len(values), summary_quantiles(values)
+        )
     for key, values in saved_rank_values.items():
-        expected_summaries[("RANK", key[0], key[1], 0, "transformed_rank")] = (
+        expected_summaries[(
+            "RANK", key[0], key[1], 0, "transformed_rank", "NUMERICAL_BOOKKEEPING"
+        )] = (
             len(values), summary_quantiles(values)
         )
     assert len(expected_summaries) == 2850
     summary_fields = ("min", "q25", "median", "q75", "q90", "q95", "max")
     for row in saved_summary_rows:
-        key = (row["summary_type"], row["transform"], int(row["nside"]), int(row["rank"]), row["metric"])
+        key = (
+            row["summary_type"], row["transform"], int(row["nside"]), int(row["rank"]),
+            row["metric"], row["ownership_status"],
+        )
         count, expected = expected_summaries.pop(key)
         assert int(row["count"]) == count
         for field, value in zip(summary_fields, expected):
@@ -425,6 +454,8 @@ def main():
     assert result["ranked_overlap_row_count"] == 3555
     assert result["covariance_subspace_row_count"] == 275868
     assert result["covariance_summary_row_count"] == 2850
+    assert result["resolved_range_overlap_row_count"] == range_resolved
+    assert result["unresolved_range_overlap_row_count"] == range_unresolved
 
     theoretical_max_tolerance = max(2e-10, 8192.0 * EPS / GAP_FLOOR)
     assert max_overlap_tolerance <= theoretical_max_tolerance * (1.0 + 1e-12)
