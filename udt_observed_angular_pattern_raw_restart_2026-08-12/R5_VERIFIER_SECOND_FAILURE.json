@@ -1,0 +1,15 @@
+{
+  "status": "FAIL__VERIFIER_FULLSPACE_TOLERANCE_VACUOUS_TO_CORRECT_BEFORE_RERUN",
+  "rejected_result_had_status": "PASS",
+  "rejected_report": {
+    "max_gap_conditioned_overlap_tolerance": 50014.46984443175,
+    "max_gap_conditioned_covariance_tolerance": 47419.718690287686,
+    "max_resolved_overlap_field_abs_difference": 8.102407633714392e-13,
+    "max_resolved_covariance_field_abs_difference": 3.980149543281186e-14
+  },
+  "diagnosis": "full-dimensional identity projectors were correctly declared owned but their comparison tolerance was incorrectly conditioned on the tiny final singular value",
+  "rejected_result_preserved_temporarily_at": "/tmp/udt_r5_rejected_vacuous_tolerance_result.json",
+  "verification_result_accepted": false,
+  "outcome_interpreted": false,
+  "production_outputs_changed": false
+}

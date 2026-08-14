@@ -237,7 +237,9 @@ def main():
                 if owned_a and owned_b:
                     overlap = float(np.sum(gram[:rank, :rank]) / rank)
                     smallest = float(linalg.svdvals(va[:rank] @ vb[:rank].T)[-1])
-                    tolerance = conditioned_tolerance(relative_a, relative_b)
+                    effective_a = 1.0 if rank == dimension else relative_a
+                    effective_b = 1.0 if rank == dimension else relative_b
+                    tolerance = conditioned_tolerance(effective_a, effective_b)
                     max_overlap_tolerance = max(max_overlap_tolerance, tolerance)
                     max_resolved_overlap_difference = max(
                         max_resolved_overlap_difference,
@@ -355,7 +357,8 @@ def main():
                                 if rank == 1:
                                     saved_rank_values[(transform_name, nside)].append(float(covariance_rank))
                                 if globally_owned:
-                                    tolerance = conditioned_tolerance(relative_gap)
+                                    effective_gap = 1.0 if rank == dimension else relative_gap
+                                    tolerance = conditioned_tolerance(effective_gap)
                                     max_covariance_tolerance = max(max_covariance_tolerance, tolerance)
                                     direct_expected = {
                                         "subspace_covariance_trace": trace,
@@ -373,7 +376,8 @@ def main():
                                 else:
                                     covariance_core_unresolved += 1
                                 if globally_owned and range_owned:
-                                    tolerance = conditioned_tolerance(relative_gap, range_relative_gap)
+                                    effective_gap = 1.0 if rank == dimension else relative_gap
+                                    tolerance = conditioned_tolerance(effective_gap, range_relative_gap)
                                     max_covariance_tolerance = max(max_covariance_tolerance, tolerance)
                                     max_resolved_covariance_difference = max(
                                         max_resolved_covariance_difference,
@@ -421,6 +425,10 @@ def main():
     assert result["ranked_overlap_row_count"] == 3555
     assert result["covariance_subspace_row_count"] == 275868
     assert result["covariance_summary_row_count"] == 2850
+
+    theoretical_max_tolerance = max(2e-10, 8192.0 * EPS / GAP_FLOOR)
+    assert max_overlap_tolerance <= theoretical_max_tolerance * (1.0 + 1e-12)
+    assert max_covariance_tolerance <= theoretical_max_tolerance * (1.0 + 1e-12)
 
     payload = {
         "status": "PASS",
