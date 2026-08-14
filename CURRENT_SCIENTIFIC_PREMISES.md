@@ -71,6 +71,9 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
 - R2 raw observational atlas: `OBSERVED`, `VERIFIED-WITH-CAVEATS`.
 - R3 covariance atlas: complete and independently verified with caveats;
   `COVARIANCE_RESOLUTION_OR_RANK_LIMITED`; no preferred grid, feature, significance, or physics.
+- R4 empirical relation atlas: complete and independently verified with caveats; broad whole-curve
+  shape persists across every registered relation class, while amplitude/fine detail vary and full
+  covariance metrics remain grid-dependent; no individual feature, significance, or physics.
 
 The observational lane changes no UDT premise. A numerical pattern is not automatically physics.
 

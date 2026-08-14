@@ -8,8 +8,8 @@ Read `LIVE.md` first. It wins every disagreement.
 
 ### What is running
 
-No long R3 process remains. The complete 194-cell production, assembly, and independent verification
-finished successfully. Operational checkpoints remain under
+No long observational process remains. R4 saved-field assembly, independent replay, and hostile-
+mutation checks finished successfully. R3 operational checkpoints remain under
 `/tmp/udt_boss_r3_checkpoints_patchlists`. The ignored 194-cell NPZ evidence and every other
 manifest-owned output are preserved at
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; all 201 manifest rows were reverified by
@@ -22,6 +22,18 @@ R2 is a `VERIFIED-WITH-CAVEATS` raw observer-coordinate atlas. R3 is
 independent deletion anchors pass. NSIDE 4 is wholly rank-limited, NSIDE 8 is half full-rank, and
 NSIDE 16 is wholly full-rank. No preferred grid, feature, significance, physical scale, BAO origin,
 UDT response, CMB relation, cosmology, or `X_max` is claimed.
+
+R4 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT`.
+Across all 9,286 typed relations, the broad complete-curve shape is highly persistent, while
+amplitude and fine structure vary. All-grid cap readouts show comparatively consistent diagonal
+scale but strongly grid-dependent full covariance quadratics. No individual feature, significance,
+physical scale, origin, or preferred grid follows.
+
+R4 controlling closure records are `R4_OUTCOME_REPORT.md` and `R4_VERIFICATION_RESULT.json` in the
+same package. The final independent verification and hostile-mutation checks pass with three
+disclosed verifier-method corrections and no production change. A sealed external review returned
+`VERIFIED_WITH_CAVEATS`; its one required wording repair and reporting clarification are included.
 
 Controlling package:
 
@@ -72,11 +84,11 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-1. Bank and push the exact R3 evidence package without staging protected local work.
-2. Preregister the next data-only empirical-structure phase before inspecting or selecting a
-   feature; retain every cap, lane, shell width, random control, and covariance resolution.
-3. Keep published BAO locations and physical interpretations quarantined until the raw empirical
-   structure is independently established.
+1. Preregister a full-spectrum, symmetric common-subspace atlas to test whether structure beyond
+   the dominant envelope reproduces; retain every cap, lane, shell width, random control, and
+   covariance resolution.
+2. Keep mode counts, published BAO locations, and physical interpretations quarantined until that
+   empirical structure is independently established.
 
 Historical handoff material is preserved verbatim in
 `archive/startup_surface_2026-08-14/HANDOFF_before_cleanup.md` and older archive files.

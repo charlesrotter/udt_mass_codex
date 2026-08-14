@@ -1,0 +1,24 @@
+{
+  "cap_covariance_record_count": 1164,
+  "max_cap_descriptor_abs_difference": 0.17550820112228394,
+  "max_condition_aware_projector_tolerance_bound": 6.461232931571491e-05,
+  "max_condition_aware_projector_tolerance_bound_by_field": {
+    "range_fraction": 6.461232931571491e-05,
+    "range_quadratic_per_rank": 6.461232931571491e-05,
+    "unresolved_fraction": 6.461232931571491e-05
+  },
+  "max_cross_lag_abs_difference": 1.2212453270876722e-15,
+  "max_positive_condition_abs_difference": 0.17550820112228394,
+  "max_range_projector_abs_difference": 0.0005309076591402118,
+  "max_range_projector_abs_difference_by_field": {
+    "range_fraction": 3.092546219107817e-10,
+    "range_quadratic_per_rank": 0.0005309076591402118,
+    "unresolved_fraction": 3.092546219107817e-10
+  },
+  "max_relation_descriptor_abs_difference": 4.440892098500626e-16,
+  "relation_count": 9286,
+  "scope": "bounded R4 data-only relation/covariance atlas; no physical interpretation",
+  "status": "PASS",
+  "summary_record_count": 972,
+  "verifier": "independent scipy-FFT/scipy-eigh full replay"
+}

@@ -7,7 +7,7 @@
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
 
-### Active operational lane — R3 raw spatial covariance is complete
+### Active operational lane — R4 empirical relation atlas is complete
 
 R2 is `VERIFIED-WITH-CAVEATS` in its exact bounded data-only role: 194 observer-coordinate
 selections, four weight lanes, three nested random ratios, 119 angular bins, and 2,328 curves. Every
@@ -15,7 +15,7 @@ curve/descriptor was independently reconstructed; nine TreeCorr and twelve direc
 pass. This is raw pattern characterization, not a preferred feature, significance, physical scale,
 BAO interpretation, UDT response, CMB relation, cosmology, or `X_max`.
 
-R3 now has grade
+R3 has grade
 `OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. It retains all 194
 selections, four lanes, 119 bins, and NSIDE 4/8/16 exact delete-one-spatial-block covariance at the
 fixed 20x random readout. For R3 interpretation **after the bounded startup orientation**, read
@@ -42,6 +42,25 @@ Two post-failure verifier ownership corrections are disclosed in the package. Th
 registered gate and changed no production output: they compare DD/DR/RR cross-engine differences at
 the frozen component tolerance, then test curve construction and delete-one reconstruction with
 their proper owners. The final grade therefore remains verified with caveats.
+
+The verified self-contained R3 raw archive remains
+`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; its 201 manifest rows were independently
+verified by byte count and SHA-256.
+
+R4 now has grade
+`OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT`.
+All 9,286 preregistered relations, 4.38 million full-lag entries, 1,164 all-grid cap-covariance
+records, and 972 summaries independently replay. The whole measured curve has a highly persistent
+broad shape across random, weight, adjacent-shell, cap, and exact-union relations. Amplitude and
+fine detail vary, and no individual feature is selected. Diagonal cap/covariance scale is
+comparatively consistent, but the full covariance quadratic is strongly grid- and conditioning-
+dependent, so no inverse-covariance significance or preferred grid is permitted.
+
+For the active observational frontier, read `R4_PREREGISTRATION.md`, `R4_OUTCOME_REPORT.md`,
+`R4_VERIFICATION_RESULT.json`, `R4_EXTERNAL_ADVERSARIAL_REVIEW.md`, and the three disclosed
+verifier-correction records after R2/R3. The sealed external review returned
+`VERIFIED_WITH_CAVEATS`; its required control-language repair and fieldwise verifier-reporting
+clarification are incorporated.
 
 The parallel primary-method cross-check is complete and bankable with caveats at
 `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`. Official BOSS sources support the
@@ -113,12 +132,10 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Bank the complete R3 result. Its verified self-contained raw-output archive is
-`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; all 201 output-manifest rows match by
-byte count and SHA-256. Then preregister a bounded data-only empirical-structure phase that asks
-what patterns survive caps, lanes, shell widths, random controls, and all three covariance grids
-without supplying an expected BAO angle, period, physical ruler, UDT curve, or published target. Do
-not fit theory or select a preferred feature before that gate is written.
+Preregister a bounded data-only common-subspace atlas that retains the full singular spectrum and symmetrically tests
+whether anything beyond the dominant broad envelope reproduces across caps, neighboring redshift
+selections, lanes, shell factors, random controls, and all covariance grids. Do not choose a mode
+count, expected angle, period, physical ruler, UDT curve, published target, or theory fit.
 
 ### Archive
 

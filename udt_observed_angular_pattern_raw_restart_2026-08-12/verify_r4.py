@@ -321,8 +321,10 @@ def main():
     diff_saved = lag["difference_centered_cross_correlation"]
     max_lag_abs = max(float(np.max(np.abs(raw_saved - raw_replay))),
                       float(np.max(np.abs(diff_saved - diff_replay))))
-    assert np.allclose(raw_saved, raw_replay, rtol=2e-12, atol=2e-13)
-    assert np.allclose(diff_saved, diff_replay, rtol=2e-12, atol=2e-13)
+    if not np.allclose(raw_saved, raw_replay, rtol=2e-12, atol=2e-13):
+        raise AssertionError("raw cross-lag replay mismatch")
+    if not np.allclose(diff_saved, diff_replay, rtol=2e-12, atol=2e-13):
+        raise AssertionError("difference cross-lag replay mismatch")
     lag.close()
 
     cap_rows = read_tsv(package / "R4_CAP_COVARIANCE_ATLAS.tsv")
@@ -331,6 +333,17 @@ def main():
     max_cap_abs = 0.0
     max_projector_abs_difference = 0.0
     max_projector_tolerance_bound = 0.0
+    max_projector_abs_by_field = {
+        "range_fraction": 0.0,
+        "unresolved_fraction": 0.0,
+        "range_quadratic_per_rank": 0.0,
+    }
+    max_projector_tolerance_by_field = {
+        "range_fraction": 0.0,
+        "unresolved_fraction": 0.0,
+        "range_quadratic_per_rank": 0.0,
+    }
+    max_positive_condition_abs_difference = 0.0
     cap_by_selection = defaultdict(list)
     for row in cap_rows:
         cap_by_selection[(row["sample"], int(row["factor"]), int(row["group"]))].append(row)
@@ -362,12 +375,28 @@ def main():
                         max_projector_abs_difference = max(
                             max_projector_abs_difference, abs(saved - float(expected_value))
                         )
+                        max_projector_abs_by_field[metric] = max(
+                            max_projector_abs_by_field[metric], abs(saved - float(expected_value))
+                        )
                         max_projector_tolerance_bound = max(
                             max_projector_tolerance_bound, projector_bound
+                        )
+                        max_projector_tolerance_by_field[metric] = max(
+                            max_projector_tolerance_by_field[metric], projector_bound
                         )
                         projector_atol = projector_bound if metric != "range_quadratic_per_rank" else 3e-12
                         assert_close(saved, float(expected_value), f"cap {key}/{metric}",
                                      atol=projector_atol, rtol=projector_bound)
+                    elif metric == "positive_condition":
+                        condition_bound = max(
+                            3e-10,
+                            2048.0 * np.finfo(np.float64).eps * values["positive_condition"],
+                        )
+                        max_positive_condition_abs_difference = max(
+                            max_positive_condition_abs_difference, abs(saved - float(expected_value))
+                        )
+                        assert_close(saved, float(expected_value), f"cap {key}/{metric}",
+                                     atol=3e-12, rtol=condition_bound)
                     else:
                         assert_close(saved, float(expected_value), f"cap {key}/{metric}",
                                      atol=3e-12, rtol=3e-10)
@@ -388,6 +417,9 @@ def main():
         "max_cap_descriptor_abs_difference": max_cap_abs,
         "max_range_projector_abs_difference": max_projector_abs_difference,
         "max_condition_aware_projector_tolerance_bound": max_projector_tolerance_bound,
+        "max_range_projector_abs_difference_by_field": max_projector_abs_by_field,
+        "max_condition_aware_projector_tolerance_bound_by_field": max_projector_tolerance_by_field,
+        "max_positive_condition_abs_difference": max_positive_condition_abs_difference,
         "scope": "bounded R4 data-only relation/covariance atlas; no physical interpretation",
     }
     if args.output.exists():

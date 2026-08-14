@@ -1,0 +1,33 @@
+{
+  "angular_bin_count": 119,
+  "cap_covariance_record_count": 1164,
+  "difference_cross_lag_count": 235,
+  "lane_values": [
+    "W0_UNIT",
+    "W1_SPECTRO",
+    "W2_IMAGING",
+    "W3_OFFICIAL_OBS"
+  ],
+  "maximum_conclusion": "OBSERVED bounded complete relation and all-grid covariance-dependence atlas only; no preferred feature, significance, physical scale, BAO interpretation, cosmology, UDT comparison, CMB relation, or X_max",
+  "nside_values": [
+    4,
+    8,
+    16
+  ],
+  "parent_curve_count": 2328,
+  "random_ratios": [
+    5,
+    10,
+    20
+  ],
+  "raw_cross_lag_count": 237,
+  "relation_count": 9286,
+  "relation_counts": {
+    "ADJACENT_SHELL": 2184,
+    "CAP": 1164,
+    "COARSE_FINE_CONTAINMENT": 2640,
+    "RANDOM_DENSITY": 1552,
+    "WEIGHT_LANE": 1746
+  },
+  "status": "ASSEMBLED__INDEPENDENT_VERIFICATION_PENDING"
+}

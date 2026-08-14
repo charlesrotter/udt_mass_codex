@@ -1,0 +1,26 @@
+{
+  "case_count": 5,
+  "cases": {
+    "cap_descriptor": {
+      "caught_by": "difference_rms",
+      "returncode": 1
+    },
+    "cross_lag": {
+      "caught_by": "raw cross-lag replay mismatch",
+      "returncode": 1
+    },
+    "relation_descriptor": {
+      "caught_by": "relation 0/raw_rms_difference",
+      "returncode": 1
+    },
+    "result_census": {
+      "caught_by": "relation_count",
+      "returncode": 1
+    },
+    "summary": {
+      "caught_by": "summary",
+      "returncode": 1
+    }
+  },
+  "status": "PASS"
+}

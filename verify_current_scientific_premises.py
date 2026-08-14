@@ -110,6 +110,8 @@ def validate_startup_surface(root: Path) -> None:
             "udt_observed_angular_pattern_raw_restart_2026-08-12",
             "R3_OUTCOME_REPORT.md",
             "R3_VERIFICATION_RESULT.json",
+            "R4_OUTCOME_REPORT.md",
+            "R4_VERIFICATION_RESULT.json",
             "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
             "194",
             "independent verification",
@@ -121,6 +123,10 @@ def validate_startup_surface(root: Path) -> None:
         require(
             "OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED" in block,
             f"R3 completed grade absent: {name}",
+        )
+        require(
+            "OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT" in block,
+            f"R4 completed grade absent: {name}",
         )
         require(
             "no preferred" in block.lower(),
@@ -158,7 +164,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "CURRENT_RESEARCH_PROGRAM.md": (
             "COVARIANCE_RESOLUTION_OR_RANK_LIMITED",
-            "Preregister characterization of the verified data-only atlas",
+            "Preregister a full-spectrum common-subspace atlas",
             "udt_pair_first_relational_plane_reconstruction_2026-08-12/",
             "udt_pair_terminal_reachability_atlas_2026-08-12/",
             "udt_pair_chord_network_descent_audit_2026-08-12/",
@@ -211,6 +217,10 @@ def validate_startup_surface(root: Path) -> None:
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_OUTCOME_REPORT.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_VERIFICATION_RESULT.json",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_FINAL_STATUS.json",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_PREREGISTRATION.md",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_VERIFICATION_RESULT.json",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_FINAL_STATUS.json",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/STATUS_LEDGER.tsv",
         "udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md",
         "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",

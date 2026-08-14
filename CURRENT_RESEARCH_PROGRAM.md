@@ -21,7 +21,7 @@ What remains unowned is the physical complete history and global relation family
 identities organize supplied geometry but do not yet select an on-shell subset. Bootstrap may
 eventually be a joint global/local admissibility law, but that remains a working hypothesis.
 
-## Active operational lane — verified raw pattern and covariance
+## Active operational lane — verified raw pattern, covariance, and relation structure
 
 R3 completed the preregistered data-only spatial-covariance atlas over the complete R2 BOSS
 observer-coordinate surface. All 194 cells, 2,328 covariance matrices, exact support/covariance/rank
@@ -29,9 +29,14 @@ identities, and eight independent deletion anchors pass after two disclosed veri
 repairs. Rank and covariance scale depend on deletion resolution, so the result is explicitly
 `COVARIANCE_RESOLUTION_OR_RANK_LIMITED` and selects no preferred grid.
 
-This remains metric-neutral data preparation/characterization, not a feature selection, UDT fit, or
-physical interpretation. The primary-researcher method cross-check supports the input/estimator
-architecture but supplies no exact target curve.
+R4 then completed all 9,286 preregistered data-only relations and all-grid cap readouts. The broad
+complete-curve shape persists across every registered control and neighboring-selection class, but
+amplitude and fine detail vary. Full covariance-range metrics are strongly grid-dependent. No
+individual feature, mode, physical scale, origin, or preferred covariance grid is selected.
+
+This remains metric-neutral data characterization, not a UDT fit or physical interpretation. The
+primary-researcher method cross-check supports the input/estimator architecture but supplies no
+exact target curve.
 
 ## Current relational-geometry result stack
 
@@ -73,8 +78,8 @@ Local source: `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-1
 
 - The historical P1 SNe work remains a conditional low-redshift compatibility anchor after native
   observer-query retyping. It does not own the complete screen/flux law or cosmological history.
-- The current BOSS R2/R3 lane characterizes raw angular structure and its data-only covariance
-  without importing a standard ruler or Lambda-CDM interpretation.
+- The current BOSS R2--R4 lane characterizes raw angular structure, covariance, and complete
+  control-relation persistence without importing a standard ruler or Lambda-CDM interpretation.
 - Existing CMB geometry packages map conditional sky/Jacobi/screen response families. They do not
   select a physical profile, source covariance, global scale, `X_max`, or observed spectrum.
 
@@ -107,11 +112,10 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-1. Preserve and bank the complete verified R3 evidence without staging protected local work.
-2. Preregister characterization of the verified data-only atlas without importing a feature
-   template, published target, distance conversion, ruler, or theory curve.
-3. Obtain a fresh semantic review of the local reciprocal/orchestra response package before banking.
-4. Only after the observational characterization decide with Charles whether the next theory step
+1. Preregister a full-spectrum common-subspace atlas without importing a feature template,
+   published target, distance conversion, ruler, mode count, or theory curve.
+2. Obtain a fresh semantic review of the local reciprocal/orchestra response package before banking.
+3. Only after the observational characterization decide with Charles whether the next theory step
    is the live regime-flow owner, observational cross-query comparison, or return to
    matter/stability.
 

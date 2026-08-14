@@ -17,12 +17,14 @@
 - Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
 - R3 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R3_OUTCOME_REPORT.md`
 - R3 exact verifier: `udt_observed_angular_pattern_raw_restart_2026-08-12/R3_VERIFICATION_RESULT.json`
+- R4 empirical relation outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md`
+- R4 exact verifier: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_VERIFICATION_RESULT.json`
 - Verified self-contained raw-output archive:
   `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
 - Operational checkpoints: `/tmp/udt_boss_r3_checkpoints_patchlists`
 
-R2 and R3 are verified with caveats. R3 is covariance-resolution/rank-limited and selects no
-preferred grid or feature. The older official DR2 13-vector package is a compressed-publication
+R2 through R4 are verified with caveats. R4 finds persistent broad complete-curve shape without
+selecting an individual feature; full covariance metrics remain grid-dependent. The older official DR2 13-vector package is a compressed-publication
 comparison only; it cannot seed raw-lane bins, covariance, normalization, or interpretation.
 
 ## Current relational-geometry spine

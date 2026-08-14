@@ -4,12 +4,14 @@ Re-read from disk on resume. `LIVE.md` wins.
 
 ## Current execution
 
-R3 raw data-only covariance production, assembly, and independent verification are complete. R2 is
+R4 data-only relation assembly, independent replay, and hostile-mutation verification are complete. R2 is
 `VERIFIED-WITH-CAVEATS`; R3 is
 `OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. Its 194 ignored NPZ cells
 and all manifest-owned outputs are preserved and hash-verified at
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No preferred feature, significance,
-physical scale, origin, UDT comparison, cosmology, or `X_max` has been established.
+physical scale, origin, UDT comparison, cosmology, or `X_max` has been established. R4 observes a
+highly persistent broad complete-curve shape across every registered relation class, but no
+individual feature; its full covariance readouts remain strongly grid-dependent.
 
 ## Current theory picture
 
@@ -40,9 +42,9 @@ sources.
 
 ## Current next gate
 
-Bank R3, then preregister a data-only empirical-structure phase that retains every cap, lane, shell
-width, random control, and covariance grid without importing an expected BAO angle, period, ruler,
-UDT curve, or published target.
+Preregister a full-spectrum common-subspace atlas that tests whether structure beyond
+the dominant broad envelope reproduces across every cap, lane, shell width, random control, and
+covariance grid without importing an expected BAO angle, period, ruler, UDT curve, or target.
 
 ## Archive
 

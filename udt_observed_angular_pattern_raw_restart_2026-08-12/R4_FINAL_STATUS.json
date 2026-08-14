@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "banking_grade": "OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT",
+  "parent_curve_count": 2328,
+  "relation_count": 9286,
+  "cross_lag_entry_count": 4382992,
+  "cap_covariance_record_count": 1164,
+  "summary_record_count": 972,
+  "verifier_method_corrections_disclosed": 3,
+  "hostile_mutation_cases_passed": 5,
+  "external_adversarial_landing": "VERIFIED_WITH_CAVEATS",
+  "repository_tests": "89 passed, 1 xfailed"
+}
