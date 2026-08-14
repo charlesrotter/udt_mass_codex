@@ -62,6 +62,12 @@ verifier-correction records after R2/R3. The sealed external review returned
 `VERIFIED_WITH_CAVEATS`; its required control-language repair and fieldwise verifier-reporting
 clarification are incorporated.
 
+R5 is now preregistered but has no outcome. `R5_PREREGISTRATION.md` freezes two separate complete
+vector spaces, 11 full-spectrum views per transform, 15 all-rank projector comparisons per
+transform, and all-grid covariance annotation of every global mode. No cross-Gram mode matching is
+banked inside degenerate spectral blocks; boundary gaps remain explicit. No mode count, feature, or
+grid can be selected.
+
 The parallel primary-method cross-check is complete and bankable with caveats at
 `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`. Official BOSS sources support the
 input lineage, W3 observational weight, optional-FKP/unit-random branch, random/mask semantics, and
@@ -132,10 +138,9 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Preregister a bounded data-only common-subspace atlas that retains the full singular spectrum and symmetrically tests
-whether anything beyond the dominant broad envelope reproduces across caps, neighboring redshift
-selections, lanes, shell factors, random controls, and all covariance grids. Do not choose a mode
-count, expected angle, period, physical ruler, UDT curve, published target, or theory fit.
+Run the frozen R5 common-subspace assembly, then require a separate SciPy-SVD/SciPy-eigh replay and
+hostile-mutation catches before interpreting any spectrum. Do not choose a mode count, expected
+angle, period, physical ruler, UDT curve, published target, or theory fit.
 
 ### Archive
 

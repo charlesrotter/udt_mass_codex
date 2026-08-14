@@ -1,0 +1,14 @@
+gate_id	requirement	failure_return
+R5G01	parent SHA-256 identities match preregistration	R5_PARENT_IDENTITY_FAILURE
+R5G02	2328 unique curves each contain the identical 119-bin grid	R5_PARENT_CURVE_CENSUS_FAILURE
+R5G03	9286 R4 relations and exact class counts reconstruct	R5_RELATION_CENSUS_FAILURE
+R5G04	11 views per transform and 2607 spectrum rows emit	R5_VIEW_SPECTRUM_CENSUS_FAILURE
+R5G05	15 comparisons per transform and 3555 overlap rows emit	R5_SUBSPACE_CENSUS_FAILURE
+R5G06	all 3555 overlap rows retain both spectral-boundary gaps and finite values	R5_SUBSPACE_GAP_FAILURE
+R5G07	all bases orthonormal and full-rank overlaps equal one within 5e-12	R5_ORTHONORMALITY_FAILURE
+R5G08	1164 transformed covariance contexts and 275868 mode rows emit	R5_COVARIANCE_MODE_CENSUS_FAILURE
+R5G09	all transformed covariance matrices are PSD within -100*tau and all grids remain visible	R5_COVARIANCE_ALGEBRA_FAILURE
+R5G10	2850 fixed summary rows emit	R5_SUMMARY_CENSUS_FAILURE
+R5G11	independent SciPy implementation reconstructs every output class	R5_INDEPENDENT_REPLAY_FAILURE
+R5G12	hostile mutations are caught	R5_VERIFIER_CATCH_FAILURE
+R5G13	repository tests pass	R5_REPOSITORY_GUARD_FAILURE
