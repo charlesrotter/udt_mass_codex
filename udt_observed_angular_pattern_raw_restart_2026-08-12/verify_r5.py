@@ -225,20 +225,25 @@ def main():
                 saved_smallest = float(row["smallest_principal_cosine"])
                 assert np.isfinite([saved_overlap, saved_chord, saved_smallest]).all()
                 assert -5e-12 <= saved_overlap <= 1.0 + 5e-12
+                close(
+                    saved_chord,
+                    float(np.sqrt(max(0.0, 1.0 - saved_overlap))),
+                    f"saved chord transform/{transform_name}/{pair_id}/{rank}",
+                    atol=5e-15,
+                    rtol=5e-13,
+                )
                 if rank == dimension:
                     close(saved_overlap, 1.0, "full overlap", atol=5e-12, rtol=0.0)
                 if owned_a and owned_b:
                     overlap = float(np.sum(gram[:rank, :rank]) / rank)
-                    chord = float(np.sqrt(max(0.0, 1.0 - overlap)))
                     smallest = float(linalg.svdvals(va[:rank] @ vb[:rank].T)[-1])
                     tolerance = conditioned_tolerance(relative_a, relative_b)
                     max_overlap_tolerance = max(max_overlap_tolerance, tolerance)
                     max_resolved_overlap_difference = max(
                         max_resolved_overlap_difference,
-                        abs(saved_overlap - overlap), abs(saved_chord - chord), abs(saved_smallest - smallest),
+                        abs(saved_overlap - overlap), abs(saved_smallest - smallest),
                     )
                     close(saved_overlap, overlap, "resolved overlap", atol=tolerance, rtol=tolerance)
-                    close(saved_chord, chord, "resolved chord", atol=tolerance, rtol=tolerance)
                     close(saved_smallest, smallest, "resolved smallest cosine", atol=tolerance, rtol=tolerance)
                     resolved_overlap_rows += 1
                 else:

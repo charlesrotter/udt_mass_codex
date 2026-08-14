@@ -1,0 +1,15 @@
+{
+  "status": "FAIL__VERIFIER_CHORD_TRANSFORM_TO_CORRECT_BEFORE_RERUN",
+  "first_failed_record": {
+    "transform": "CENTERED_UNIT",
+    "pair_id": "RANDOM_DENSITY__A_VS_B",
+    "rank": 118,
+    "metric": "normalized_chord_distance",
+    "saved": 1.4901161193847656e-08,
+    "independent_from_recomputed_overlap": 0.0
+  },
+  "diagnosis": "sqrt(1-overlap) amplifies machine-level differences when overlap is numerically one; chord is a deterministic display transform, not an independent projector observable",
+  "verification_result_written": false,
+  "outcome_interpreted": false,
+  "production_outputs_changed": false
+}
