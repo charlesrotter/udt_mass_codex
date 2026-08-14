@@ -1,0 +1,19 @@
+{
+  "status": "FAIL__VERIFIER_METHOD_TO_CORRECT_BEFORE_RERUN",
+  "phase_completed_before_failure": "all 9286 relation descriptors and complete cross-lag arrays",
+  "first_failed_record": {
+    "sample": "CMASS",
+    "factor": 1,
+    "group": 0,
+    "lane": "W0_UNIT",
+    "nside": 4,
+    "metric": "range_quadratic_per_rank",
+    "saved": 547.3837280228104,
+    "independent": 547.3837289743768,
+    "absolute_difference": 9.515664380232105e-07,
+    "relative_difference": 1.738919558498532e-09
+  },
+  "production_outputs_changed": false,
+  "outcome_interpreted": false,
+  "verification_result_written": false
+}
