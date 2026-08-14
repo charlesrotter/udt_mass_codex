@@ -1,0 +1,58 @@
+{
+  "adversarial_verdict": "VERIFIED",
+  "legacy_checkpoint_contract_mismatches": [
+    "patch_cardinality_correction_preregistration_sha256",
+    "script_sha256",
+    "treecorr_patch_representation"
+  ],
+  "legacy_checkpoint_count": 48,
+  "legacy_checkpoints_reusable": false,
+  "north_regression": {
+    "central_array_count": 7,
+    "max_weight_abs_difference": 0.0002862773835659027,
+    "max_weight_relative_difference": 2.316075357408534e-10,
+    "selection_key": "CMASS_North_f1_g00"
+  },
+  "operational": {
+    "repository_tests": "103 passed, 1 xfailed",
+    "service_wrapper_failure_exit": 7
+  },
+  "production_script_sha256": "a09d287b24ce662ced9e986d0480ffc94caf54962c3205ea81ba2a1e8b2f7840",
+  "preregistration_sha256": "ad358dbff1d0e89ff76490dc26d70d902eab7b749b73e005696196caab428649",
+  "south_trigger": {
+    "comparison_count": 9,
+    "max_weight_abs_difference": 0.0002781408838927746,
+    "max_weight_relative_difference": 8.670449712771705e-10,
+    "selection_key": "CMASS_South_f1_g00"
+  },
+  "status": "VERIFIED__PATCH_CARDINALITY_REPRESENTATION_REPAIR__FRESH_PRODUCTION_REQUIRED",
+  "synthetic": {
+    "central_integer_counts_exact": true,
+    "central_weight_max_abs_difference": 0.0,
+    "central_weight_max_relative_difference": 0.0,
+    "data_occupied_patch_ids": [
+      0,
+      2,
+      7
+    ],
+    "data_only_patch_ids": [
+      7
+    ],
+    "global_npatch": 9,
+    "legacy_failure_reproduced": true,
+    "literal_deletion_checks": 12,
+    "literal_deletion_weight_max_abs_difference": 0.0,
+    "literal_deletion_weight_max_relative_difference": 0.0,
+    "random_occupied_patch_ids": [
+      0,
+      2,
+      5
+    ],
+    "random_only_patch_ids": [
+      5
+    ]
+  },
+  "treecorr": "5.1.3",
+  "verifier_script_sha256": "9f97d4537a5960db2098e620c01c5548c686fac9032e4a20aba434803909e506",
+  "wrapper_sha256": "1f4d769bc218c9f3c126c14e6380b6738c182e300fd9a4f122e80db9de625448"
+}

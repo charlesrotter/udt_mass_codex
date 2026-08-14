@@ -185,6 +185,36 @@ def tree_count(catalog1, catalog2=None):
     return corr
 
 
+def tree_patch_catalogs(ra, dec, weights, patch, npatch):
+    """Build an explicit TreeCorr catalog list on one frozen patch atlas.
+
+    TreeCorr accepts lists of single-patch catalogs.  Supplying that public
+    representation preserves the declared global patch cardinality even when
+    a selected catalog has no object in its highest-numbered patch.  The
+    complete-catalog constructor otherwise replaces an explicitly supplied
+    ``npatch`` with ``max(patch)+1`` while loading.
+    """
+    ra = np.asarray(ra, dtype=np.float64)
+    dec = np.asarray(dec, dtype=np.float64)
+    weights = np.asarray(weights, dtype=np.float64)
+    patch = np.asarray(patch, dtype=np.int32)
+    if not (ra.shape == dec.shape == weights.shape == patch.shape):
+        raise ValueError("incompatible TreeCorr patch-catalog arrays")
+    if ra.ndim != 1 or len(ra) == 0 or npatch < 1:
+        raise ValueError("invalid TreeCorr patch-catalog geometry")
+    occupied = np.unique(patch)
+    if occupied[0] < 0 or occupied[-1] >= npatch:
+        raise ValueError("TreeCorr patch label outside frozen atlas")
+    catalogs = []
+    for patch_id in occupied:
+        use = patch == patch_id
+        catalogs.append(treecorr.Catalog(
+            ra=ra[use], dec=dec[use], ra_units="degrees", dec_units="degrees",
+            w=weights[use], patch=int(patch_id), npatch=int(npatch),
+        ))
+    return catalogs
+
+
 def correlation_arrays(corr):
     full_counts = np.asarray(corr.npairs, dtype=np.float64)
     full_weights = np.asarray(corr.weight, dtype=np.float64)
@@ -291,6 +321,10 @@ def cell_contract():
     return {
         "script_sha256": sha256(SCRIPT),
         "preregistration_sha256": sha256(ROOT / "R3_PREREGISTRATION.md"),
+        "patch_cardinality_correction_preregistration_sha256": sha256(
+            ROOT / "R3_PATCH_CARDINALITY_CORRECTION_PREREGISTRATION.md"
+        ),
+        "treecorr_patch_representation": "explicit_nonempty_single_patch_catalog_lists_v1",
         "block_atlas_sha256": sha256(ROOT / "R3_BLOCK_ATLAS.tsv"),
         "r2_output_manifest_sha256": sha256(ROOT / "R2_OUTPUT_MANIFEST.tsv"),
         "treecorr": treecorr.__version__,
@@ -337,9 +371,9 @@ def execute_selection(sample, cap, group, data, random, data_sid, random_sid, ha
     data_parent = {nside: fine_to_parent[nside][data_patch] for nside in NSIDES}
     random_parent = {nside: fine_to_parent[nside][random_patch] for nside in NSIDES}
 
-    random_catalog = treecorr.Catalog(
-        ra=random["RA"][ri], dec=random["DEC"][ri], ra_units="degrees", dec_units="degrees",
-        w=np.ones(len(ri), dtype=np.float64), patch=random_patch, npatch=len(fine_pixels),
+    random_catalog = tree_patch_catalogs(
+        random["RA"][ri], random["DEC"][ri], np.ones(len(ri), dtype=np.float64),
+        random_patch, len(fine_pixels),
     )
     rr_corr = tree_count(random_catalog)
     rr_count, rr_weight = correlation_arrays(rr_corr)
@@ -381,9 +415,8 @@ def execute_selection(sample, cap, group, data, random, data_sid, random_sid, ha
 
     for lane_index, lane in enumerate(LANES):
         w = np.asarray(weights[lane][di], dtype=np.float64)
-        data_catalog = treecorr.Catalog(
-            ra=data["RA"][di], dec=data["DEC"][di], ra_units="degrees", dec_units="degrees",
-            w=w, patch=data_patch, npatch=len(fine_pixels),
+        data_catalog = tree_patch_catalogs(
+            data["RA"][di], data["DEC"][di], w, data_patch, len(fine_pixels),
         )
         dd_corr = tree_count(data_catalog)
         dr_corr = tree_count(data_catalog, random_catalog)
