@@ -4,14 +4,18 @@ Re-read from disk on resume. `LIVE.md` wins.
 
 ## Current execution
 
-R4 data-only relation assembly, independent replay, and hostile-mutation verification are complete. R2 is
+R5 data-only common-subspace assembly, independent replay, hostile-mutation verification, external
+repair, and follow-up are complete. R2 is
 `VERIFIED-WITH-CAVEATS`; R3 is
 `OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. Its 194 ignored NPZ cells
 and all manifest-owned outputs are preserved and hash-verified at
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No preferred feature, significance,
 physical scale, origin, UDT comparison, cosmology, or `X_max` has been established. R4 observes a
 highly persistent broad complete-curve shape across every registered relation class, but no
-individual feature; its full covariance readouts remain strongly grid-dependent.
+individual feature; its full covariance readouts remain strongly grid-dependent. R5 adds one
+numerically dominant shared whole-curve direction plus control-dependent additional subspace
+alignment. It selects no reduced rank or individual feature; 184,300 covariance-range-overlap rows
+remain explicitly unresolved.
 
 ## Current theory picture
 
@@ -42,9 +46,10 @@ sources.
 
 ## Current next gate
 
-Preregister a full-spectrum common-subspace atlas that tests whether structure beyond
-the dominant broad envelope reproduces across every cap, lane, shell width, random control, and
-covariance grid without importing an expected BAO angle, period, ruler, UDT curve, or target.
+Preregister a cross-fitted residual atlas using fixed sample-by-cap blocks as held-out folds. Freeze
+folds, residualization, scoring, full-rank retention, and the prohibition on rank/feature promotion.
+Ask only whether residual structure predicts a disjoint held-out cap; import no expected BAO angle,
+period, ruler, UDT curve, or target.
 
 ## Archive
 

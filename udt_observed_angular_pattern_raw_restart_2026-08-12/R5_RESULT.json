@@ -1,0 +1,20 @@
+{
+  "covariance_subspace_row_count": 275868,
+  "covariance_summary_row_count": 2850,
+  "degenerate_curve_counts": {
+    "CENTERED_UNIT": 0,
+    "FIRST_DIFFERENCE_UNIT": 0
+  },
+  "elapsed_seconds": 14.184900283813477,
+  "max_basis_orthonormality_error": 3.4416913763379853e-15,
+  "max_rss_gib": 0.7791748046875,
+  "parent_curve_count": 2328,
+  "ranked_overlap_row_count": 3555,
+  "relation_count": 9286,
+  "resolved_range_overlap_row_count": 91568,
+  "scope": "bounded R5 data-only full-spectrum common-subspace atlas",
+  "status": "ASSEMBLED__INDEPENDENT_VERIFICATION_PENDING",
+  "theta_bin_count": 119,
+  "unresolved_range_overlap_row_count": 184300,
+  "view_spectrum_row_count": 2607
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS__EXTERNAL_FOLLOWUP_VERIFIED_WITH_CAVEATS",
+  "external_followup_landing": "VERIFIED_WITH_CAVEATS",
+  "preregistered_repair_commit": "a771b626",
+  "covariance_subspace_row_count": 275868,
+  "resolved_range_overlap_row_count": 91568,
+  "unresolved_range_overlap_row_count": 184300,
+  "covariance_summary_row_count": 2850,
+  "owned_summary_row_count": 2369,
+  "unresolved_numerical_summary_row_count": 475,
+  "numerical_bookkeeping_summary_row_count": 6,
+  "independent_verification": "PASS",
+  "hostile_mutation_cases_passed": 5,
+  "blocking_repairs_applied": [
+    "row-level covariance threshold gap and ownership flags",
+    "ownership-aware covariance summaries",
+    "outcome wording distinguishes numerical reconstruction from scientific ownership",
+    "postselected proper-rank minima display their minimizer ranks"
+  ]
+}

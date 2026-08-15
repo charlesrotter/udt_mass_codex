@@ -15,7 +15,8 @@ r3_block_geometry	VERIFIED_RANDOM_ONLY	2351 occupied nested HEALPix records acro
 r3_covariance_atlas	OBSERVED_VERIFIED_WITH_CAVEATS_COVARIANCE_RESOLUTION_OR_RANK_LIMITED	All 194 cells and 2328 covariances completed; all central/support/covariance/rank identities and eight independent deletion anchors pass after two disclosed verifier-ownership repairs; NSIDE 4 is wholly rank-limited, NSIDE 8 is half full-rank, and NSIDE 16 is wholly full-rank; no preferred grid or feature is selected
 r4_empirical_relation_atlas	OBSERVED_VERIFIED_WITH_CAVEATS_BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION	All 9286 typed relations and 4.38 million full-lag entries verify; broad complete-curve shape persists across every registered relation class while amplitude and fine structure vary; no individual feature or physical origin is selected
 r4_cap_covariance_readout	OBSERVED_VERIFIED_WITH_CAVEATS_FULL_COVARIANCE_METRIC_GRID_DEPENDENT	All 1164 all-grid cap records verify; diagonal covariance scale is comparatively consistent but full range-quadratic readouts and conditioning vary strongly by NSIDE; no inverse-covariance significance or preferred grid
-udt_comparison	OPEN	Outside R0 through R4
+r5_full_spectrum_common_subspace_atlas	OBSERVED_VERIFIED_WITH_CAVEATS_ONE_DOMINANT_SHARED_DIRECTION_ADDITIONAL_SUBSPACE_ALIGNMENT_CONTROL_DEPENDENT_COVARIANCE_RANGE_PARTLY_UNRESOLVED	All 2328 curves, 9286 relations, 2607 spectrum rows, 3555 all-rank overlaps, and 275868 covariance-subspace rows verify; 91568 covariance-range overlaps are owned and 184300 remain explicitly unresolved; external follow-up returned VERIFIED_WITH_CAVEATS; no reduced rank, feature, ruler, cosmology, UDT response, CMB relation, or X_max claim
+udt_comparison	OPEN	Outside R0 through R5
 physical_origin	OPEN	No acoustic or UDT origin assigned
 xmax	OPEN	No value or estimate
 download_budget	OBSERVED_WITHIN_CEILING	Approximately 14.4 MB new temporary reconnaissance; hard ceiling below 2 TB

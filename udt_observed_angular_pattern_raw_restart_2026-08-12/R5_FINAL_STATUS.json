@@ -1,0 +1,20 @@
+{
+  "status": "PASS_WITH_CAVEATS",
+  "banking_grade": "OBSERVED_VERIFIED_WITH_CAVEATS__ONE_DOMINANT_SHARED_DIRECTION__ADDITIONAL_SUBSPACE_ALIGNMENT_CONTROL_DEPENDENT__COVARIANCE_RANGE_PARTLY_UNRESOLVED",
+  "parent_curve_count": 2328,
+  "relation_count": 9286,
+  "view_spectrum_row_count": 2607,
+  "ranked_overlap_row_count": 3555,
+  "covariance_subspace_row_count": 275868,
+  "covariance_summary_row_count": 2850,
+  "resolved_range_overlap_row_count": 91568,
+  "unresolved_range_overlap_row_count": 184300,
+  "owned_summary_row_count": 2369,
+  "unresolved_numerical_summary_row_count": 475,
+  "numerical_bookkeeping_summary_row_count": 6,
+  "assembly_method_corrections_disclosed": 1,
+  "verifier_method_corrections_disclosed": 2,
+  "hostile_mutation_cases_passed": 5,
+  "external_adversarial_landing": "VERIFIED_WITH_CAVEATS",
+  "repository_tests": "90 passed, 1 known xfailed"
+}

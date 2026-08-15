@@ -34,3 +34,15 @@ owned and unresolved numerical values without carrying their scientific ownershi
 
 The review did not refute or weaken the R5 spectral return. It blocked final banking until the
 covariance evidence schema and prose agree.
+
+## Repair disposition
+
+The repair was preregistered and banked at commit `a771b626` before rerun. The complete production
+atlas then reproduced the original numerical values and counts while adding row-level threshold-gap
+and ownership fields. Independent SciPy replay passed with exactly `91,568` owned and `184,300`
+unresolved range-overlap rows. The 2,850 summaries now carry `OWNED`, `UNRESOLVED_NUMERICAL`, or
+`NUMERICAL_BOOKKEEPING` status, and the hostile-mutation suite again caught all five mutations.
+
+A fresh sealed follow-up review returned `VERIFIED_WITH_CAVEATS` with no remaining blocking finding.
+Its independent recount, ownership reconstruction checks, and surviving caveats are banked in
+`R5_EXTERNAL_FOLLOWUP_REVIEW.md`.

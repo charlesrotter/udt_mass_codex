@@ -34,6 +34,14 @@ complete-curve shape persists across every registered control and neighboring-se
 amplitude and fine detail vary. Full covariance-range metrics are strongly grid-dependent. No
 individual feature, mode, physical scale, origin, or preferred covariance grid is selected.
 
+R5 then completed a full-spectrum common-subspace atlas without selecting a mode count. One
+whole-curve direction is numerically dominant across all preregistered relation classes. Additional
+subspace alignment survives, but its strength is control-dependent, especially across disjoint caps
+and exact shell aggregation. Every spectrum and all-rank overlap is independently owned. The
+covariance-range projector is owned on 91,568 rows and numerically unresolved on 184,300 rows, all
+explicitly labelled. A repaired evidence schema passed a fresh external review as
+`VERIFIED_WITH_CAVEATS`.
+
 This remains metric-neutral data characterization, not a UDT fit or physical interpretation. The
 primary-researcher method cross-check supports the input/estimator architecture but supplies no
 exact target curve.
@@ -112,10 +120,10 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-1. Preregister a full-spectrum common-subspace atlas without importing a feature template,
-   published target, distance conversion, ruler, mode count, or theory curve.
-2. Obtain a fresh semantic review of the local reciprocal/orchestra response package before banking.
-3. Only after the observational characterization decide with Charles whether the next theory step
+1. Preregister a cross-fitted residual atlas using fixed sample-by-cap held-out folds; freeze
+   residualization, scoring, full-rank retention, and no rank/feature promotion before execution.
+2. Do not act on the local reciprocal/orchestra response package without a specific dispatch.
+3. After the next bounded observational characterization, decide with Charles whether the next theory step
    is the live regime-flow owner, observational cross-query comparison, or return to
    matter/stability.
 

@@ -1,0 +1,26 @@
+{
+  "case_count": 5,
+  "cases": {
+    "covariance_subspace": {
+      "caught_by": "AssertionError: resolved covariance/subspace_covariance_trace: saved=0.11610419788299363 expected=0.016104197882993554 atol=2e-10 rtol=2e-10",
+      "returncode": 1
+    },
+    "ranked_overlap": {
+      "caught_by": "AssertionError",
+      "returncode": 1
+    },
+    "result_census": {
+      "caught_by": "AssertionError",
+      "returncode": 1
+    },
+    "spectrum": {
+      "caught_by": "AssertionError: spectrum/CENTERED_UNIT/GLOBAL/1: saved=47.803876248609235 expected=np.float64(47.70387624860922) atol=5e-12 rtol=5e-11",
+      "returncode": 1
+    },
+    "summary": {
+      "caught_by": "AssertionError: summary/('SUBSPACE', 'CENTERED_UNIT', 4, 1, 'covariance_trace_per_rank', 'OWNED')/median: saved=0.10709397390587545 expected=0.007093973905875442 atol=5e-14 rtol=5e-13",
+      "returncode": 1
+    }
+  },
+  "status": "PASS"
+}

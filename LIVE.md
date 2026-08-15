@@ -7,7 +7,7 @@
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
 
-### Active operational lane — R4 empirical relation atlas is complete
+### Active operational lane — R5 full-spectrum common-subspace atlas is complete
 
 R2 is `VERIFIED-WITH-CAVEATS` in its exact bounded data-only role: 194 observer-coordinate
 selections, four weight lanes, three nested random ratios, 119 angular bins, and 2,328 curves. Every
@@ -56,23 +56,33 @@ fine detail vary, and no individual feature is selected. Diagonal cap/covariance
 comparatively consistent, but the full covariance quadratic is strongly grid- and conditioning-
 dependent, so no inverse-covariance significance or preferred grid is permitted.
 
-For the active observational frontier, read `R4_PREREGISTRATION.md`, `R4_OUTCOME_REPORT.md`,
-`R4_VERIFICATION_RESULT.json`, `R4_EXTERNAL_ADVERSARIAL_REVIEW.md`, and the three disclosed
-verifier-correction records after R2/R3. The sealed external review returned
-`VERIFIED_WITH_CAVEATS`; its required control-language repair and fieldwise verifier-reporting
-clarification are incorporated.
+R5 now has grade
+`OBSERVED_VERIFIED_WITH_CAVEATS__ONE_DOMINANT_SHARED_DIRECTION__ADDITIONAL_SUBSPACE_ALIGNMENT_CONTROL_DEPENDENT__COVARIANCE_RANGE_PARTLY_UNRESOLVED`.
+It retains all 2,328 curves, all 9,286 relations, two separate complete transforms, all ranks, and
+all R3 grids. The verified evidence contains 2,607 spectrum rows, 3,555 all-rank overlap rows,
+275,868 covariance-subspace rows, and 2,850 ownership-labelled summaries.
 
-R5 is now preregistered but has no outcome. `R5_PREREGISTRATION.md` freezes two separate complete
-vector spaces, 11 full-spectrum views per transform, 15 all-rank projector comparisons per
-transform, and all-grid covariance annotation of every global mode. No cross-Gram mode matching is
-banked inside degenerate spectral blocks; boundary gaps remain explicit. No mode count, feature, or
-grid can be selected.
+One whole-curve direction is numerically dominant and almost identical between the A/B endpoint
+ensembles of every preregistered relation class. Additional aligned structure remains, but it is
+much more sensitive to disjoint caps and exact shell aggregation than to random-density, weight, or
+adjacent-shell controls. R5 therefore selects no universal reduced rank and no individual feature.
 
-The first R5 assembly completed its counts but failed method review before interpretation: signed
-individual-mode covariance projections are not invariant under SVD sign and degenerate-block basis
-freedom. `R5_COVARIANCE_SUBSPACE_CORRECTION_PREREGISTRATION.md` replaces only that layer with
-cumulative top-`k` projector invariants. The superseded first outputs are not evidence and no R5
-outcome has yet been accepted.
+The first covariance assembly was rejected before interpretation because signed individual-mode
+projections are not invariant under SVD sign and degenerate-block basis freedom. The preregistered
+repair uses cumulative top-`k` projector invariants. Two later verifier-method failures were also
+disclosed and corrected before acceptance. Independent replay owns all spectra and all 3,555
+all-rank overlaps. Of 275,868 covariance-range-overlap rows, 91,568 are owned and 184,300 remain
+explicitly `UNRESOLVED_NUMERICAL`; they were neither dropped nor promoted.
+
+For the active observational frontier, read `R5_OUTCOME_REPORT.md`, `R5_FINAL_STATUS.json`,
+`R5_VERIFICATION_RESULT.json`, `R5_EXTERNAL_ADVERSARIAL_REVIEW.md`,
+`R5_EXTERNAL_FOLLOWUP_REVIEW.md`, and `R5_FINAL_EVIDENCE_MANIFEST.tsv` after the R2--R4 outcome
+reports. The first sealed review found a blocking covariance-ownership schema omission. The repair
+was preregistered, independently replayed, and accepted by a fresh sealed follow-up as
+`VERIFIED_WITH_CAVEATS`, with no remaining blocking finding.
+
+The exact parent closure routes remain `R3_OUTCOME_REPORT.md`, `R3_VERIFICATION_RESULT.json`,
+`R4_OUTCOME_REPORT.md`, and `R4_VERIFICATION_RESULT.json` in the same package.
 
 The parallel primary-method cross-check is complete and bankable with caveats at
 `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`. Official BOSS sources support the
@@ -144,9 +154,11 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Run the frozen R5 common-subspace assembly, then require a separate SciPy-SVD/SciPy-eigh replay and
-hostile-mutation catches before interpreting any spectrum. Do not choose a mode count, expected
-angle, period, physical ruler, UDT curve, published target, or theory fit.
+Preregister—but do not yet interpret—a cross-fitted residual atlas using fixed sample-by-cap blocks
+as held-out folds. Freeze the folds, residualization, scoring rule, full-rank retention, and ban on
+rank/feature promotion before execution. The bounded question is whether residual angular
+structure learned without the held-out cap predicts that disjoint fold. Do not choose a mode count,
+expected angle, period, physical ruler, UDT curve, published target, or theory fit.
 
 ### Archive
 

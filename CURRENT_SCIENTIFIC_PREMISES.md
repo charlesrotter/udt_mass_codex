@@ -74,6 +74,10 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
 - R4 empirical relation atlas: complete and independently verified with caveats; broad whole-curve
   shape persists across every registered relation class, while amplitude/fine detail vary and full
   covariance metrics remain grid-dependent; no individual feature, significance, or physics.
+- R5 full-spectrum common-subspace atlas: complete, independently verified, and externally
+  `VERIFIED-WITH-CAVEATS`; one dominant shared whole-curve direction plus additional
+  control-dependent subspace alignment, with 184,300 covariance-range rows explicitly unresolved;
+  no reduced rank, feature, significance, ruler, cosmology, UDT response, CMB relation, or `X_max`.
 
 The observational lane changes no UDT premise. A numerical pattern is not automatically physics.
 

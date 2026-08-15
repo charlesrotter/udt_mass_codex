@@ -1,0 +1,21 @@
+{
+  "covariance_subspace_row_count": 275868,
+  "covariance_summary_row_count": 2850,
+  "gap_floor": 1.4901161193847656e-08,
+  "max_gap_conditioned_covariance_tolerance": 3.985084807802272e-07,
+  "max_gap_conditioned_overlap_tolerance": 1.1734601695850032e-06,
+  "max_resolved_covariance_field_abs_difference": 3.980149543281186e-14,
+  "max_resolved_overlap_field_abs_difference": 8.102407633714392e-13,
+  "max_singular_value_abs_difference": 4.263256414560601e-14,
+  "ranked_overlap_row_count": 3555,
+  "resolved_covariance_core_row_count": 275868,
+  "resolved_overlap_row_count": 3555,
+  "resolved_range_overlap_row_count": 91568,
+  "scope": "bounded R5 data-only atlas; ambiguous spectral boundaries retained but not independently certified",
+  "status": "PASS",
+  "unresolved_covariance_core_row_count": 0,
+  "unresolved_overlap_row_count": 0,
+  "unresolved_range_overlap_row_count": 184300,
+  "verifier": "independent scipy-gesvd/scipy-evr replay with gap-conditioned projector ownership",
+  "view_spectrum_row_count": 2607
+}
