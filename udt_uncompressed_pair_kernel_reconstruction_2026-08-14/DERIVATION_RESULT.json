@@ -1,0 +1,144 @@
+{
+  "checks": {
+    "A_calibrated_snapshot_determinant_exact": true,
+    "C_representative_fiber_exact": true,
+    "S_embedding_split_fiber_exact": true,
+    "all_five_generic_sensitivities_nonzero": true,
+    "generic_pair_is_regular": true,
+    "inequivalent_scalar_invariants_exist": true,
+    "pair_coordinate_covariance_exact": true,
+    "pullback_exact": true,
+    "reduced_formula_exact": true,
+    "same_P_and_Pdot_different_Adot": true,
+    "same_P_different_Pdot": true,
+    "screen_frame_fiber_exact": true,
+    "terminal_live_derivative_exact": true,
+    "terminal_ratio_squared_exact": true,
+    "terminal_reconstruction_exact": true,
+    "variation_exact": true
+  },
+  "compression_fibers": {
+    "same_zero_order_P": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "skew_Pdot": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "skew_uncompressed_Adot": [
+      [
+        "0",
+        "-1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "stationary_Pdot": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "symmetric_Pdot": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "date": "2026-08-14",
+  "generic_witness": {
+    "det_h": "-836141019434549027/91628742965760000",
+    "h": [
+      [
+        "-131543704739/38635833600",
+        "-3891466069/2918916000"
+      ],
+      [
+        "-3891466069/2918916000",
+        "93281107621/43222410000"
+      ]
+    ],
+    "h00": "-131543704739/38635833600",
+    "sensitivities_dphi": {
+      "B": "-33028920008308704836397871620/109989087380664777943307738953",
+      "Q": "16947498911352416709543033019/329967262141994333829923216859",
+      "S": "32976619891669139675721317145/219978174761329555886615477906",
+      "Y": "-61603981750872241682815778328/109989087380664777943307738953",
+      "Z": "17926538407835482078345353480/109989087380664777943307738953"
+    },
+    "sensitivities_nonzero": {
+      "B": true,
+      "Q": true,
+      "S": true,
+      "Y": true,
+      "Z": true
+    }
+  },
+  "mode": "exact symbolic production derivation",
+  "ownership": {
+    "complete_metric_and_supplied_pair_own_terminal_evaluation": "DERIVED_CONDITIONAL",
+    "modern_mixing": "four-component S in a conditional complete-coframe chart",
+    "old_mu": "distinct conditional scalar from an older mixed-base ansatz",
+    "physical_history_or_evolution": "OPEN",
+    "physical_pair_realization": "OPEN",
+    "unique_current_scalar_mu": "NO_OWNER_IN_DECLARED_ALGEBRAIC_CLASS"
+  },
+  "primary_landing": "FULL_UNCOMPRESSED_TERMINAL_EVALUATOR_DERIVED__NO_SCALAR_MU_OWNED__PHYSICAL_PAIR_AND_HISTORY_OPEN",
+  "scalar_invariant_counterfamily": {
+    "P_aniso": {
+      "sqrt_det": "6",
+      "trace": "13",
+      "trace_over_sqrt_det": "13/6"
+    },
+    "P_iso": {
+      "sqrt_det": "1",
+      "trace": "2",
+      "trace_over_sqrt_det": "2"
+    }
+  },
+  "schema": "udt.uncompressed_pair_evaluator.derivation.v1",
+  "symmetric_pure_base_witness": {
+    "h": [
+      [
+        "-4",
+        "0"
+      ],
+      [
+        "0",
+        "9/4"
+      ]
+    ],
+    "interpretation": "Q/S/Z first variations vanish because the screen Gram starts quadratically at A=0; generic sensitivities are nonzero.",
+    "sensitivities_dphi": {
+      "B": "-1/4",
+      "Q": "0",
+      "S": "0",
+      "Y": "-1/2",
+      "Z": "0"
+    }
+  }
+}

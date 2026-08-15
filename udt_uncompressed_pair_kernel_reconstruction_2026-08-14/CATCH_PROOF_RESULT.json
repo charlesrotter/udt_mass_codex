@@ -1,0 +1,64 @@
+{
+  "caught": {
+    "dB_sign_flip": true,
+    "omit_dQ": true,
+    "omit_dS": true,
+    "omit_dY": true,
+    "omit_dZ": true
+  },
+  "method": "exact Fraction centered derivatives with one live matrix channel",
+  "passed": true,
+  "residuals": {
+    "dB_sign_flip": [
+      [
+        "-47/6",
+        "-35/24"
+      ],
+      [
+        "-35/24",
+        "-16/75"
+      ]
+    ],
+    "omit_dQ": [
+      [
+        "262867/859950",
+        "-143307469/756756000"
+      ],
+      [
+        "-143307469/756756000",
+        "2188357/19057500"
+      ]
+    ],
+    "omit_dS": [
+      [
+        "2078/1365",
+        "-196253/600600"
+      ],
+      [
+        "-196253/600600",
+        "-2659/33000"
+      ]
+    ],
+    "omit_dY": [
+      [
+        "-24093851/3316950",
+        "-59295427/56133000"
+      ],
+      [
+        "-59295427/56133000",
+        "0"
+      ]
+    ],
+    "omit_dZ": [
+      [
+        "2078/1365",
+        "-2659/6600"
+      ],
+      [
+        "-2659/6600",
+        "0"
+      ]
+    ]
+  },
+  "schema": "udt.uncompressed_pair_evaluator.catch.v1"
+}

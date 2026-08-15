@@ -1,0 +1,47 @@
+{
+  "blackbox_dphi_sensitivities": {
+    "B": -0.3002926998979527,
+    "Q": 0.0513611526229557,
+    "S": 0.14990859856928163,
+    "Y": -0.5600917620168788,
+    "Z": 0.16298469999315168
+  },
+  "checks": {
+    "S_embedding_fiber": true,
+    "all_five_blackbox_sensitivities_nonzero": true,
+    "direct_equals_factored": true,
+    "matrix_derivative_converges_quadratically": true,
+    "phi_derivative_converges": true,
+    "ratio_squared_identity": true,
+    "regular_terminal_witness": true,
+    "screen_frame_fiber": true,
+    "terminal_reconstruction": true
+  },
+  "h": [
+    [
+      "-131543704739/38635833600",
+      "-3891466069/2918916000"
+    ],
+    [
+      "-3891466069/2918916000",
+      "93281107621/43222410000"
+    ]
+  ],
+  "imports_production_code": false,
+  "imports_sympy": false,
+  "matrix_derivative_error_by_step": {
+    "1/10": "1875616178874446797/5168433782912400000000",
+    "1/100": "46871032908714134683/12921084457281000000000000",
+    "1/1000": "2343541959654133216529/64605422286405000000000000000",
+    "1/10000": "234354186279631748135279/646054222864050000000000000000000"
+  },
+  "method": "standalone stdlib Fraction matrices plus shrinking-step black-box replay",
+  "passed": true,
+  "phi_derivative_error_by_step": {
+    "1/10": 2.5165727974979513e-06,
+    "1/100": 2.524395295577797e-08,
+    "1/1000": 2.524440934070782e-10,
+    "1/10000": 2.5710544804269375e-12
+  },
+  "schema": "udt.uncompressed_pair_evaluator.independent.v1"
+}

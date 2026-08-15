@@ -1,0 +1,17 @@
+claim	status	scope	remaining_open
+uncompressed pullback formula	DERIVED	supplied regular complete coframe and rank-two pair realization	physical metric and pair ownership
+terminal phi_pair formula	DERIVED	regular calibrated Lorentzian pair metric	none within local readout
+terminal c_eff/c_E formula	DERIVED	regular calibrated Lorentzian pair metric	physical relation/history and observational interpretation
+exact first variation	DERIVED	supplied differentiable E(lambda),J(lambda)	evolution law
+all B,Q,S,Y,Z blocks can affect phi_pair	OBSERVED_EXACT_WITNESS	one generic rational witness plus independent replay	global/regime prevalence
+pure-base screen channels first-order silent	DERIVED_BOUNDARY_BEHAVIOR	A=0 symmetric point	nonlinear and generic response remains active
+P sufficient for zero-order pair metric	DERIVED_CONDITIONAL	invertible-Y A calibration	chart boundary det(Y)=0
+P loses channel attribution	DERIVED_CONDITIONAL	exact fibers	whether another output channel observes the fiber
+P alone does not own live evolution	DERIVED_CONDITIONAL	exact equal-P/different-derivative witnesses	physical history law
+modern mixing S is four-component	CONDITIONAL	complete-coframe chart	physical ownership of chart/split
+old mu distinct from modern S	VERIFIED_WITH_CAVEATS	source/type audit	future explicit bridge
+unique scalar mu	OPEN_NO_OWNER	declared algebraic complete-pair class	global/dynamical selector could change status
+physical pair assignment	OPEN	foundational UDT	complete query/admissibility law
+physical metric history	OPEN	foundational UDT	native equation/admissibility law
+regime score	OPEN	macro/micro/cosmological relation family	history plus observational constraints later
+

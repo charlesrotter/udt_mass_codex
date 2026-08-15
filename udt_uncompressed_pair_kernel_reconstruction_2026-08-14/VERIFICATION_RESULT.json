@@ -1,0 +1,21 @@
+{
+  "banking_grade": "VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PENDING",
+  "checks": {
+    "all_production_checks_pass": true,
+    "catch_proofs_pass": true,
+    "derivation_landing_matches": true,
+    "exact_derivation_states_landing": true,
+    "external_review_not_falsely_claimed_complete": true,
+    "independent_verification_passes": true,
+    "mu_types_separated": true,
+    "physical_pair_remains_open": true,
+    "preregistered_landing_present": true,
+    "report_states_landing": true,
+    "required_files_present": true,
+    "source_hashes_match": true
+  },
+  "missing": [],
+  "passed": true,
+  "schema": "udt.uncompressed_pair_evaluator.package_verification.v1",
+  "source_mismatches": []
+}

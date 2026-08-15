@@ -1,0 +1,14 @@
+item	old_or_tacit_claim	new_grade	reason
+R01	P=C^TqC makes the terminal pair metric incomplete	REJECTED	P is sufficient for the zero-order A-calibrated pair metric once B and calibration are supplied
+R02	P retains the distinct orchestra instruments	REJECTED	P erases Q left frame, S versus embedding W, and Gram representatives
+R03	P(lambda) is a derived physical orchestra history	REJECTED	dot P and the histories of B,Q,S,Y,Z remain supplied
+R04	all-sectors-live identity supplies dynamics	REJECTED	it is an exact chain rule with free derivatives
+R05	fixed-P reciprocal trace proves a physical quiet middle	CONDITIONAL_DIAGNOSTIC_ONLY	it freezes P, common scale, and shift; symmetric quietness can also be quadratic
+R06	previous endpoint c_eff/c_E arithmetic is invalid	NOT_SHOWN_INVALID	it follows exactly from the complete h after compression
+R07	modern complete mixing is one scalar mu	REJECTED	modern mixing is S in Mat(2,R); no scalar selector is owned
+R08	July mu_old is the same as modern S/P	REJECTED_UNLESS_BRIDGED	distinct types and source domains; no current map
+R09	complete metric alone creates the observer-pair realization	REJECTED	Y,Z remain supplied query/immersion data
+R10	all orchestra channels enter one terminal c_eff/c_E once E and J are supplied	DERIVED_CONDITIONAL	h=J^TE^TetaEJ is formed before terminal readout
+R11	time-live uncompressed evaluator retains all input derivatives	DERIVED_CONDITIONAL	dot B,dot Q,dot S,dot Y,dot Z appear separately
+R12	one quiet/loud regime score is now derived	OPEN	no physical history or weighting law is supplied
+
