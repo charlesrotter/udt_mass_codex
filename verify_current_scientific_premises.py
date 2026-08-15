@@ -1321,20 +1321,21 @@ def main() -> None:
     require("G89_FRESH_SEALED_REVIEW_REPRODUCED_THE_COMPLETE_SUPPLIED_PAIR_EVALUATOR" in by_id["G89"]["precedence_rule"], "G89 review refinement absent")
     require(
         by_id["G90"]["current_status"]
-        == "INTERNALLY_VERIFIED_WITH_CAVEATS__NONIDENTITY_SIMULTANEOUS_OVERLAP_COMPATIBILITY__NO_LIVE_REGIME_SELECTION__LOUD_ENDS_QUIET_MIDDLE_CONDITIONAL_SURVIVOR_NOT_SELECTED",
+        == "INTERNALLY_VERIFIED_WITH_CAVEATS__NONIDENTITY_SIMULTANEOUS_OVERLAP_COMPATIBILITY__ALL_INSTRUMENTS_ACTIVITY_ALONE_DOES_NOT_SELECT_RESPONSE_SHAPE__LOUD_QUIET_LOUD_SURVIVES_DECLARED_ALL_ACTIVE_CLASS",
         "G90 overlap/loud-quiet status regressed or promoted",
     )
     require(by_id["G90"]["epistemic_label"] == "MIXED", "G90 overlap label changed")
     require("fresh semantic review" in by_id["G90"]["open_scope"], "G90 semantic review falsely closed")
-    require("physical pair family and live history" in by_id["G90"]["open_scope"], "G90 physical history promoted")
-    require("flat or monotone exact lifts omitted" in by_id["G90"]["forbidden_regression"], "G90 counterfamily guard absent")
-    require("quiet-middle survivor called universal" in by_id["G90"]["forbidden_regression"], "G90 selection guard absent")
+    require("physical pair family and metric/query history owner" in by_id["G90"]["open_scope"], "G90 physical history promoted")
+    require("original explicit lifts called fully live" in by_id["G90"]["forbidden_regression"], "G90 activity correction guard absent")
+    require("flat or monotone C2 lifts omitted" in by_id["G90"]["forbidden_regression"], "G90 C2 counterfamily guard absent")
+    require("quiet-middle survivor called universal physical law" in by_id["G90"]["forbidden_regression"], "G90 selection guard absent")
     require(
         by_id["G90"]["controlling_source"]
         == "udt_overlapping_pair_live_compatibility_audit_2026-08-14/AUDIT_REPORT.md",
         "G90 overlap source changed",
     )
-    require("G90_DERIVES_NONIDENTITY_SIMULTANEOUS_OVERLAP" in by_id["G90"]["precedence_rule"], "G90 refinement absent")
+    require("G90_CORRECTS_THE_EXPLICIT_LIFT_ALL_ACTIVE_CATEGORY_ERROR" in by_id["G90"]["precedence_rule"], "G90 correction refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"

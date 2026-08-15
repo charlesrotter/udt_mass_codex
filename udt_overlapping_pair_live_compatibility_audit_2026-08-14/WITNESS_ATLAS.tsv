@@ -1,11 +1,14 @@
 id	class	construction	exact_result	ownership
-W01	O1 nonidentity live overlap	R(t)=[[1,t],[0,1]] with flat fully lifted family	h_alpha=R^T h_beta R and full dot-R law exact	DERIVED chart compatibility
+W01	O1 nonidentity live overlap	R(t)=[[1,t],[0,1]] with flat explicit-lift family	h_alpha=R^T h_beta R and full dot-R law exact	DERIVED chart compatibility
 W02	O2 shared observer clock	u=(1,0,0,0); r1=(0,1,0,0); r2=(0,2,1,0)	h1=diag(-1,1); h2=diag(-1,5); phi differs	DERIVED shared h00 only
 W03	O3 middle reset	B_in=[[2,1],[0,3]]; B_out=[[1,1/2],[0,4]]	M_B=diag(1/2,4/3); identity reset changes composite	DERIVED conditional reset algebra
 W04	joint ambient Gram	[e0,e1,e2,e3,e0+e1]	rank=4 det=0 inertia=(1,3,1)	DERIVED simultaneous compatibility
 W05	inconsistent joint target	diag(-1,1,1,1,1)	rank=5 det=-1; no four-dimensional lift	REJECTED simultaneous assembly
 W06	fixed-response two-projection	P fixed with a>0 and n_beta>0	trace and terminal modulation have one interior minimum and loud ends	DERIVED conditional control
 W07	fixed-response one-sided rank stratum	a=0 or n_beta=0	one-sided monotone response	DERIVED boundary behavior
-W08	fully live flat	B=diag(1/t,t); Q=I; S=B/2; Y=I; Z=0	Pi=I/4; trace=1/2; terminal modulation=log(5/3)/4	REGULAR COUNTERFAMILY
-W09	fully live monotone	S=s(t)B; s=(2t+1)/(4(t+1))	trace and terminal modulation strictly increase	REGULAR COUNTERFAMILY
-W10	fully live quiet middle	Q=diag(t,1/t); S=diag(1/(2t),t/2); Y=I; Z=0	P=I/4; trace=(t^2+t^-2)/4; regular 0<t<2	CONDITIONAL SURVIVOR
+W08	explicit-lift flat with fixed Q Y Z	B=diag(1/t,t); Q=I; S=B/2; Y=I; Z=0	Pi=I/4; trace=1/2; terminal modulation=log(5/3)/4	CORRECTED ALGEBRAIC CONTROL
+W09	explicit-lift monotone with fixed Q Y Z	S=s(t)B; s=(2t+1)/(4(t+1)); Q=Y=I; Z=0	trace and terminal modulation strictly increase	CORRECTED ALGEBRAIC CONTROL
+W10	explicit-lift quiet middle with Y Z fixed	Q=diag(t,1/t); S=diag(1/(2t),t/2); Y=I; Z=0	P=I/4; trace=(t^2+t^-2)/4; regular 0<t<2	CONDITIONAL SURVIVOR
+W11	C2 all-active flat	B Q S Y Z and every H contribution live; target h=diag(-t^-2,t^2)	M_terminal=0 and trace constant; nonidentity overlap	KINEMATIC COUNTERFAMILY
+W12	C2 all-active monotone	B Q S Y Z and every H contribution live; target h=diag(-t^-2,t^4)	M_terminal=(1/2)log(t); nonidentity overlap	KINEMATIC COUNTERFAMILY
+W13	C2 all-active quiet middle	B Q S Y Z and every H contribution live; w=(t-1/2)(3/2-t)	trace and M_terminal loud at both ends with strict t=1 minimum	CONDITIONAL SURVIVOR

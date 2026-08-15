@@ -21,9 +21,15 @@ an adversarial exact reconstruction.
 6. Independently derive the fixed-response `A_trace` and terminal-modulation end/minimum
    classification, including rank-one boundary strata and the possible difference in minimum
    location between readouts.
-7. Reconstruct the complete `Q,S,Y,Z` lifts of the flat, monotone, and quiet-middle families. Check
-   regularity, nonidentity overlap, and every claimed derivative without importing production code.
-8. Search for a hidden fixed `P`, scalar `mu`, A-calibration promotion, physical history, `X_max`,
+7. Confirm the terminology correction: the original flat/monotone controls fixed `Q,Y,Z` and were
+   explicit lifts rather than all-instruments-live histories.
+8. Reconstruct the stricter C2 flat, monotone, and quiet-middle families in
+   `ALL_INSTRUMENTS_LIVE_CORRECTION.md`. Check that `B,Q,S,Y,Z`, all four `S` entries, and every
+   factor contribution to `dot h` are nonzero at the exact control point; check the contribution
+   partition, response shapes, regularity, and nonidentity live overlap.
+9. Adversarially assess the factorization `J=E^-1 V_*`: does it prove only kinematic nonselection
+   while leaving physical query/history ownership open, or was it improperly promoted?
+10. Search for a hidden fixed `P`, scalar `mu`, A-calibration promotion, physical history, `X_max`,
    bootstrap, or observational premise.
 
 ## Required landing
@@ -34,6 +40,7 @@ Return exactly one:
 - `OVERLAP_COMPATIBILITY_OVERCLAIM`;
 - `QUIET_MIDDLE_CLASSIFICATION_FAILURE`;
 - `HIDDEN_COMPRESSION_OR_FROZEN_SECTOR`;
+- `ALL_ACTIVE_COUNTERFAMILY_FAILURE`;
 - `PHYSICAL_OWNERSHIP_OVERCLAIM`;
 - `ALGEBRA_OR_TYPE_FAILURE`;
 - or a more precise blocking result.

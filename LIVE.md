@@ -50,12 +50,11 @@ resume downstream validation automatically.
 
 ### New bounded result — overlap consistency and loud/quiet classification
 The internally verified `udt_overlapping_pair_live_compatibility_audit_2026-08-14/` derives exact chart, shared-observer, middle-state, and joint four-dimensional Lorentz-Gram consistency laws.
-They reject inconsistent assemblies but do not select a live history. Its secondary result is
-`LOUD_ENDS_QUIET_MIDDLE_CONDITIONAL_SURVIVOR_NOT_SELECTED`: the pattern survives with `Q,S` live,
-while exact flat and monotone explicit lifts also survive. **Correction in progress:** those
-counterfamilies fixed `Q,Y,Z`, so they do not settle the stricter all-instruments-active class. The
-phrase “fully live” is withdrawn pending the preregistered correction in the same package. Fresh
-review is held; G89 is the last externally cleared authority.
+They reject inconsistent assemblies but do not select history. Charles caught that the first
+flat/monotone controls were explicit lifts, not all-active histories. The preregistered correction
+finds flat, monotone, and loud-quiet-loud families with every `B,Q,S,Y,Z` block and `dot h`
+contribution live. Loud-quiet-loud survives the complete orchestra, but activity does not select the
+score; metric/query history ownership remains open. Review is held; G89 remains external authority.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -154,11 +153,10 @@ repository and preserve every local file.
 ### Immediate next action
 
 1. Obtain a fresh sealed read-only adversarial semantic review of
-   `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and only its exact source manifest.
+   the corrected `udt_overlapping_pair_live_compatibility_audit_2026-08-14/` sealed intake.
 2. Repair any blocking type, covariance, or ownership finding before premise promotion.
-3. Only after that review, preregister a metric-led compatibility audit asking whether overlapping
-   supplied observer pairs impose any nonidentity relation among the live blocks `B,Q,S,Y,Z` beyond
-   pullback and chain-rule identities.
+3. Then ask what native metric/query-history law, if any, restricts `J=E^-1 V_*` without inserting
+   loud-quiet-loud or an observational target.
 
 The cross-fitted observational residual atlas is paused. Do not resume BAO/CMB/SNe validation,
 `X_max` inference, bootstrap tuning, or a regime fit until Charles explicitly returns to that lane.

@@ -34,9 +34,10 @@ physical pair/history remains open. A fresh sealed external semantic review inde
 reproduced the load-bearing claims and passed with caveats and no blocker.
 
 The next internally verified overlap audit derives genuine simultaneous chart/seam/middle/Gram
-constraints. It also confirms that loud-quiet-loud remains a fully lifted native response family,
-but exact flat and monotone overlap-compatible histories survive too. Thus overlap supplies assembly
-rules, not the physical score. Fresh external semantic review remains pending.
+constraints. Charles caught that its first “fully live” counterfamilies actually fixed `Q,Y,Z`.
+The preregistered correction now supplies exact contribution-live flat, monotone, and
+loud-quiet-loud families with every complete block varying. Thus the desired pattern survives the
+complete orchestra, but activity supplies no physical score. Fresh review remains pending.
 
 ## Premise memory
 
@@ -54,10 +55,11 @@ sources.
 
 ## Current next gate
 
-Obtain fresh sealed semantic review of
+Obtain fresh sealed semantic review of the corrected
 `udt_overlapping_pair_live_compatibility_audit_2026-08-14/`. If it passes, the next ownership
-question is whether another already founded metric object excludes the exact flat and monotone
-histories without inserting the loud-quiet-loud target. The observational lane remains paused.
+question is what native law couples the metric history to the physical pair realization strongly
+enough to reject arbitrary coordinated target coframes without inserting loud-quiet-loud. The
+observational lane remains paused.
 
 ## Archive
 

@@ -29,7 +29,7 @@ claimed to coexist:
   most four and negative index at most one.
 
 These conditions reject inconsistent simultaneous assemblies. They do not select a live metric or
-pair history. Exact fully lifted overlap-compatible histories exist with:
+pair history. Exact explicitly lifted overlap-compatible histories exist with:
 
 1. constant normalized orchestra loading and constant terminal modulation;
 2. strictly monotone loading and modulation; and
@@ -292,7 +292,13 @@ Boundary strata are exact:
 - `n_beta=0` forces `z=0`: `M=-(1/4)log(1-x)`, clock-side only;
 - `P=0`: `M=0`.
 
-## 8. LQ2/LQ3 — fully live lifted histories
+## 8. LQ2/LQ3 — explicit lifted histories (terminology corrected)
+
+**Correction:** the three original constructions below are explicit complete lifts, but they are
+not all-instruments-live histories. The flat and monotone families fix `Q,Y,Z`; the quiet-middle
+family fixes `Y,Z`. Their algebra remains valid, but the phrases “fully live” and “universal
+quiet-middle falsified in the declared fully live class” are withdrawn. The preregistered stricter
+test and exact replacement witnesses are in `ALL_INSTRUMENTS_LIVE_CORRECTION.md`.
 
 Set
 
@@ -306,7 +312,7 @@ Z=0.
 
 Every family below is a complete explicit `Q,S,Y,Z` lift, not an invented scalar `P(t)`.
 
-### 8.1 Flat response with live mixing
+### 8.1 Flat response with live mixing but fixed `Q,Y,Z`
 
 Choose
 
@@ -330,7 +336,7 @@ The family is regular for every `t>0`; `S` is genuinely live. With the nonidenti
 `R(t)=[[1,t],[0,1]]`, equations (1)--(3) hold exactly. It has neither loud ends nor a distinguished
 quiet middle.
 
-### 8.2 Strictly monotone response
+### 8.2 Strictly monotone response with fixed `Q,Y,Z`
 
 Choose
 
@@ -356,7 +362,7 @@ dM_terminal/dt
   /[(2t+3)(6t+5)(20t^2+36t+17)]>0.                (18)
 ```
 
-Thus both preregistered readouts are strictly monotone on a fully lifted regular history.
+Thus both preregistered readouts are strictly monotone on an explicitly lifted regular history.
 
 ### 8.3 Quiet-middle survivor with `Q` and `S` both live
 
@@ -407,8 +413,9 @@ Premise-stamped result:
 - overlap/gluing and joint-Gram laws: `DERIVED CONDITIONAL` on supplied overlap types;
 - fixed-response two-ended quiet-middle theorem: `DERIVED CONDITIONAL CONTROL`;
 - quiet-middle live family: `DERIVED/OBSERVED CONDITIONAL SURVIVOR`;
-- universal quiet-middle selection from overlap: `FALSIFIED WITHIN THE DECLARED FULLY LIFTED LIVE
-  CLASS`;
+- universal quiet-middle selection from overlap/activity: `NOT DERIVED`; the original
+  all-instruments wording was overbroad, while the correction independently proves that C2
+  activity alone permits flat, monotone, and quiet-middle families;
 - physical complete history, pair family, regime locations, and any scalar `mu`: `OPEN`;
 - `X_max`, observations, dynamics, action, source, matter, and bootstrap: inactive.
 

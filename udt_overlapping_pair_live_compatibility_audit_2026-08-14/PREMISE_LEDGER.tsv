@@ -10,7 +10,7 @@ P08	literal common calibrated middle terminal state	SUPPLIED CASE	overlap type O
 P09	path or branch labels and possible holonomy	CONDITIONAL GEOMETRY	overlap type O4	do not impose universal flat descent
 P10	joint Gram matrix mathcal K=mathcal J^T g mathcal J	DERIVED CONDITIONAL	one supplied common ambient realization	rank/inertia is compatibility not dynamics
 P11	fixed-P reciprocal-response derivative	CHOSE CONTROL	G89 predecessor	not a physical history
-P12	fully live P sigma beta Q S Y Z histories	FREE-AND-EXPLORED	this audit	must satisfy only declared regularity and overlap type
-P13	loud ends and quiet middle	OPEN	tested in LQ1-LQ3	one survivor is not selection; one regular counterfamily defeats universality
+P12	explicit-lift and calibrated contribution-live B Q S Y Z histories	FREE-AND-EXPLORED	G90 plus correction prereg ef881e7a	explicit presence is not activity; activity is not physical ownership
+P13	loud ends and quiet middle	OPEN PHYSICAL SELECTION	tested in LQ1-LQ3 and stricter C2 correction	one survivor is not selection; C2 counterfamilies defeat activity-only selection
 P14	modern mixing S has four components	CONDITIONAL	complete coframe chart	do not identify with July mu_old
 P15	physical history regime score X_max realization dynamics action source matter bootstrap	OPEN OR INACTIVE	outside scope	no downstream claim

@@ -38,7 +38,7 @@ comparison only; it cannot seed raw-lane bins, covariance, normalization, or int
 - No-shortcut complete-pair evaluator (active; fresh sealed external review passed with caveats):
   `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
 - Overlapping live pair compatibility and loud/quiet classification (internal verification passed;
-  fresh external review pending):
+  all-instruments-live correction included; fresh external review pending):
   `udt_overlapping_pair_live_compatibility_audit_2026-08-14/`
 - Pair-first synthesis: `udt_pair_first_metric_orchestra_ponder_2026-08-12/`
 - Pair relational-plane reconstruction: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`

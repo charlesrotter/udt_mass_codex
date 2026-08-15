@@ -70,9 +70,9 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   all `B,Q,S,Y,Z` channels and derivatives retained before terminal readout; physical pair/history
   and unique scalar `mu` open.
 - Overlapping-pair live compatibility: internally `VERIFIED-WITH-CAVEATS`; exact chart, shared-clock,
-  middle-state, and joint-Gram consistency laws derived conditionally; loud-quiet-loud is a complete
-  survivor but is not selected because exact flat and monotone live lifts also survive; fresh
-  semantic review pending.
+  middle-state, and joint-Gram consistency laws derived conditionally. The original “fully live”
+  wording was corrected; stricter contribution-live flat, monotone, and loud-quiet-loud lifts all
+  survive. Activity alone therefore does not select the score; fresh semantic review pending.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict
   intermediate trace minimum does not derive a physical quiet-middle regime.
 - R2 raw observational atlas: `OBSERVED`, `VERIFIED-WITH-CAVEATS`.

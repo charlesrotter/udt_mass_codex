@@ -1,0 +1,173 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "flat_all_checks": true,
+    "monotone_all_checks": true,
+    "quiet_all_checks": true
+  },
+  "families": [
+    {
+      "A_trace": "80002000/1624009401",
+      "all_checks_pass": true,
+      "checks": {
+        "B_live": true,
+        "H_B_nonzero": true,
+        "H_Q_nonzero": true,
+        "H_S_nonzero": true,
+        "H_Y_nonzero": true,
+        "H_Z_nonzero": true,
+        "Q_live": true,
+        "S_live": true,
+        "Y_live": true,
+        "Z_live": true,
+        "all_four_S_entries_live": true,
+        "ambient_metric_live": true,
+        "both_base_columns_present": true,
+        "both_screen_columns_present": true,
+        "hdot_partition": true,
+        "nonidentity_overlap": true,
+        "overlap_live_covariance": true,
+        "overlap_metric_covariance": true,
+        "pair_rank_two_at_t0": true,
+        "pair_regular_at_t0": true,
+        "target_metric": true,
+        "terminal_modulation_flat": true,
+        "terminal_shape_exact": true,
+        "trace_flat": true,
+        "uncompressed_factorization": true
+      },
+      "contribution_norms_squared_at_t0": {
+        "B": "3585421014407633352631481/435242891315422446613632",
+        "Q": "111199330255000/1005840176105410569",
+        "S": "68142871349431797650034256447350875/14018106685280274003024424297403700768",
+        "Y": "7505687404353728519028730368343058755/797474513651500032172056137807854977024",
+        "Z": "50424526504125734366597190719734675/2759427382877162741079779023556591616"
+      },
+      "exp_4M_terminal": "1",
+      "kind": "flat",
+      "pair_metric_at_t0": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "t0": "1"
+    },
+    {
+      "A_trace": "80002000/1624009401",
+      "all_checks_pass": true,
+      "checks": {
+        "B_live": true,
+        "H_B_nonzero": true,
+        "H_Q_nonzero": true,
+        "H_S_nonzero": true,
+        "H_Y_nonzero": true,
+        "H_Z_nonzero": true,
+        "Q_live": true,
+        "S_live": true,
+        "Y_live": true,
+        "Z_live": true,
+        "all_four_S_entries_live": true,
+        "ambient_metric_live": true,
+        "both_base_columns_present": true,
+        "both_screen_columns_present": true,
+        "hdot_partition": true,
+        "nonidentity_overlap": true,
+        "overlap_live_covariance": true,
+        "overlap_metric_covariance": true,
+        "pair_rank_two_at_t0": true,
+        "pair_regular_at_t0": true,
+        "target_metric": true,
+        "terminal_modulation_strictly_increasing": true,
+        "terminal_shape_exact": true,
+        "trace_flat": true,
+        "uncompressed_factorization": true
+      },
+      "contribution_norms_squared_at_t0": {
+        "B": "3585421014407633352631481/435242891315422446613632",
+        "Q": "111199330255000/1005840176105410569",
+        "S": "68142871349431797650034256447350875/14018106685280274003024424297403700768",
+        "Y": "2959745344732011574403801113296042453955/797474513651500032172056137807854977024",
+        "Z": "16271409717881101111741807376327381875/797474513651500032172056137807854977024"
+      },
+      "exp_4M_terminal": "t**2",
+      "kind": "monotone",
+      "pair_metric_at_t0": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "t0": "1"
+    },
+    {
+      "A_trace": "16*(144*t**4 - 576*t**3 + 888*t**2 - 624*t + 1769)*(3600*t**4 - 14400*t**3 + 22200*t**2 - 15600*t + 4229)/(91809*(2*t - 3)**2*(2*t - 1)**2*(12*t**2 - 24*t + 17)**2)",
+      "all_checks_pass": true,
+      "checks": {
+        "B_live": true,
+        "H_B_nonzero": true,
+        "H_Q_nonzero": true,
+        "H_S_nonzero": true,
+        "H_Y_nonzero": true,
+        "H_Z_nonzero": true,
+        "Q_live": true,
+        "S_live": true,
+        "Y_live": true,
+        "Z_live": true,
+        "all_four_S_entries_live": true,
+        "ambient_metric_live": true,
+        "both_base_columns_present": true,
+        "both_screen_columns_present": true,
+        "hdot_partition": true,
+        "nonidentity_overlap": true,
+        "overlap_live_covariance": true,
+        "overlap_metric_covariance": true,
+        "pair_rank_two_at_t0": true,
+        "pair_regular_at_t0": true,
+        "target_metric": true,
+        "terminal_loud_left": true,
+        "terminal_loud_right": true,
+        "terminal_quiet_stationary": true,
+        "terminal_quiet_strict_minimum": true,
+        "terminal_shape_exact": true,
+        "trace_loud_left": true,
+        "trace_loud_right": true,
+        "trace_quiet_stationary": true,
+        "trace_quiet_strict_minimum": true,
+        "uncompressed_factorization": true
+      },
+      "contribution_norms_squared_at_t0": {
+        "B": "475147341058724245151689/2811770546478246144",
+        "Q": "2345069894478896/35738791165539",
+        "S": "25243628952008419177933992927669097/28280489311475110204723066574736",
+        "Y": "540351202994725017819688091427375433/3217691228327834761070713352503296",
+        "Z": "18583387703407171457071065697438894201/3217691228327834761070713352503296"
+      },
+      "exp_4M_terminal": "256/((2*t - 3)**4*(2*t - 1)**4)",
+      "kind": "quiet",
+      "pair_metric_at_t0": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "256"
+        ]
+      ],
+      "t0": "1"
+    }
+  ],
+  "maximum_conclusion": "C2 activity in the declared calibrated complete-coframe/pair chart neither selects nor excludes loud-quiet-loud; physical history ownership remains open",
+  "primary_landing": "ALL_INSTRUMENTS_ACTIVITY_ALONE_DOES_NOT_SELECT_RESPONSE_SHAPE",
+  "schema": "udt.g90.all_instruments_live_correction.v1",
+  "secondary_landing": "LOUD_QUIET_LOUD_SURVIVES_DECLARED_ALL_ACTIVE_CLASS"
+}

@@ -23,10 +23,10 @@ not a physical regime law.
 Do not identify modern four-component `S` with the older July scalar `mu_old`; no bridge or unique
 current scalar `mu` is owned. Physical pair assignment and history remain open.
 
-That audit is internally complete at `udt_overlapping_pair_live_compatibility_audit_2026-08-14/`.
-Read its report, exact derivation, witness atlas, and machine evidence. Real overlap/Gram constraints
-exist but do not select history: loud-quiet-loud, flat, and monotone complete families all survive.
-Fresh external semantic review is next; observational validation remains paused.
+The corrected `udt_overlapping_pair_live_compatibility_audit_2026-08-14/` is internally complete.
+Its first controls were explicit lifts, not all-active; stricter replacements now keep every block
+and `dot h` contribution live. Flat, monotone, and loud-quiet-loud still survive: activity is not the
+missing score, and no counterfamily is thereby physical. Fresh review is next; validation is paused.
 
 ### What is running
 
@@ -119,10 +119,9 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-1. Fresh sealed semantic review of the uncompressed evaluator package and its exact sources.
+1. Fresh sealed semantic review of the corrected G90 package and exact sources.
 2. Repair any blocking type/covariance/ownership finding.
-3. Then decide whether a metric-owned compatibility law exists across overlapping live pair
-   histories. Do not resume the cross-fitted observational lane without Charles's explicit return.
+3. Then audit the native owner of `J=E^-1 V_*`; keep observational work paused.
 
 Historical handoff material is preserved verbatim in
 `archive/startup_surface_2026-08-14/HANDOFF_before_cleanup.md` and older archive files.

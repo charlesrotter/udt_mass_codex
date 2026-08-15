@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "baseline_all_active_passes": true,
+    "catch_frozen_Q": true,
+    "catch_frozen_Y": true,
+    "catch_frozen_Z": true,
+    "catch_omitted_HQ": true,
+    "catch_one_frozen_S_entry": true,
+    "catch_quiet_survival_called_selection": true
+  },
+  "passed": true,
+  "schema": "udt.g90.all_instruments_live_catches.v1"
+}
