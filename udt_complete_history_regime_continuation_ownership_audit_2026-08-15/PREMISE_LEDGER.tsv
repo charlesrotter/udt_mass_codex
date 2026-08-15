@@ -1,0 +1,17 @@
+item	status	role	forbidden_promotion
+c_E	OBSERVED	clock/ruler calibration	physical history selector
+reciprocal_character	DERIVED_ON_SUPPLIED_DEPTH	terminal representation	map from bare observers to physical history
+complete_coframe_chart	CONDITIONAL	regular ten-component metric arena	selected physical universe
+pair_realization_J	SUPPLIED_CONDITIONAL	observer-query realization	metric-derived physical query
+terminal_phi_pair	DERIVED_CONDITIONAL	readout of supplied regular h	universal history equation
+Maurer_Cartan_Cartan_Bianchi	DERIVED_IDENTITIES	compatibility of supplied smooth geometry	dynamics or on-shell selector
+overlap_and_joint_Gram	DERIVED_CONDITIONAL	coexistence constraints	history evolution law
+endpoint_composition	DERIVED_CONDITIONAL	matched-state telescope	physical global state family
+Jacobi_and_holonomy	DERIVED_CONDITIONAL	propagation/transport on supplied geometry	metric-history selector
+G85_completions	OBSERVED_BOUNDED	multiple regular completion witnesses	selected global completion
+G97_SNe_control	OBSERVED_CONDITIONAL	after-the-fact mismatch of one preselected control	native equation or UDT rejection
+EH_action	CONDITIONAL_NOT_SELECTED	inactive comparison branch	native UDT history owner
+C2_Bach_action	CONDITIONAL_INACTIVE_WITHOUT_STRONG_CSN	inactive comparison branch	native UDT history owner
+bootstrap	WORKING_HYPOTHESIS_INACTIVE	possible later global-local condition	current selector
+X_max	WORKING_ASYMPTOTIC_FRAME	later physical limit gate	chosen boundary/profile
+
