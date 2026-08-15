@@ -1,0 +1,16 @@
+{
+  "implementation": "stdlib_Fraction_no_SymPy_no_primary_import",
+  "determinant_expansion_identity": true,
+  "inverse_area_transport_zero": true,
+  "source_relabelling_invariant": true,
+  "query_tube_first_integral_closed": true,
+  "query_tube_nonfirst_integral_catch": true,
+  "star_k_nonclosure_catch": true,
+  "coframe_triple_nonclosure_catch": true,
+  "star_dphi_nonclosure_catch": true,
+  "chern_simons_nonclosure_catch": true,
+  "null_shell_projective_scale_not_fixed": true,
+  "arbitrary_distribution_not_transported": true,
+  "constant_distribution_is_one_of_many": true,
+  "all_pass": true
+}

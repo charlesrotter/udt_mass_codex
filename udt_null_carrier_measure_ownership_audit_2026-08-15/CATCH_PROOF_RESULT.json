@@ -1,0 +1,9 @@
+{
+  "catches": {
+    "physical_eta_promotion": true,
+    "label_current_type_promotion": true,
+    "metric_overcredit": true,
+    "missing_preregistration": true
+  },
+  "all_pass": true
+}
