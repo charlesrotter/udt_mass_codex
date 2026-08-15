@@ -71,8 +71,8 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   and unique scalar `mu` open.
 - Overlapping-pair live compatibility: internally `VERIFIED-WITH-CAVEATS`; exact chart, shared-clock,
   middle-state, and joint-Gram consistency laws derived conditionally. The original “fully live”
-  wording was corrected; stricter contribution-live flat, monotone, and loud-quiet-loud lifts all
-  survive. Activity alone therefore does not select the score; fresh semantic review pending.
+  wording was corrected; stricter flat, monotone, and loud-quiet-loud lifts are contribution-live
+  near an exact control. Activity alone does not select the score; fresh semantic review pending.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict
   intermediate trace minimum does not derive a physical quiet-middle regime.
 - R2 raw observational atlas: `OBSERVED`, `VERIFIED-WITH-CAVEATS`.

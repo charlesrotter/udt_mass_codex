@@ -53,7 +53,7 @@ The internally verified `udt_overlapping_pair_live_compatibility_audit_2026-08-1
 They reject inconsistent assemblies but do not select history. Charles caught that the first
 flat/monotone controls were explicit lifts, not all-active histories. The preregistered correction
 finds flat, monotone, and loud-quiet-loud families with every `B,Q,S,Y,Z` block and `dot h`
-contribution live. Loud-quiet-loud survives the complete orchestra, but activity does not select the
+contribution live near an exact control. Loud-quiet-loud survives the complete orchestra, but activity does not select the
 score; metric/query history ownership remains open. Review is held; G89 remains external authority.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused

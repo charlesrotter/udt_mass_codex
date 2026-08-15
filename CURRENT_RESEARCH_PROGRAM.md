@@ -100,7 +100,7 @@ The fixed-response loud-ends/quiet-middle theorem survives both in the normalize
 terminal modulation. The first report overstated explicit lifts as “fully live”; Charles caught
 that their `Q,Y,Z` blocks were fixed. The preregistered correction constructs stricter flat,
 monotone, and loud-quiet-loud families with `B,Q,S,Y,Z` and every separate `dot h` contribution
-live. Hence the pattern survives the complete orchestra, while activity and overlap alone do not
+live near an exact control. Hence the pattern survives the complete orchestra, while activity and overlap alone do not
 select the physical score.
 
 Source: `udt_overlapping_pair_live_compatibility_audit_2026-08-14/`.

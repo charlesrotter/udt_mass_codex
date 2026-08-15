@@ -24,8 +24,8 @@ Do not identify modern four-component `S` with the older July scalar `mu_old`; n
 current scalar `mu` is owned. Physical pair assignment and history remain open.
 
 The corrected `udt_overlapping_pair_live_compatibility_audit_2026-08-14/` is internally complete.
-Its first controls were explicit lifts, not all-active; stricter replacements now keep every block
-and `dot h` contribution live. Flat, monotone, and loud-quiet-loud still survive: activity is not the
+Its first controls were explicit lifts, not all-active; stricter replacements keep every block and
+`dot h` contribution live near an exact control. All three shapes survive: activity is not the
 missing score, and no counterfamily is thereby physical. Fresh review is next; validation is paused.
 
 ### What is running

@@ -36,7 +36,7 @@ reproduced the load-bearing claims and passed with caveats and no blocker.
 The next internally verified overlap audit derives genuine simultaneous chart/seam/middle/Gram
 constraints. Charles caught that its first “fully live” counterfamilies actually fixed `Q,Y,Z`.
 The preregistered correction now supplies exact contribution-live flat, monotone, and
-loud-quiet-loud families with every complete block varying. Thus the desired pattern survives the
+loud-quiet-loud families near an exact control, with every complete block varying. Thus the desired pattern survives the
 complete orchestra, but activity supplies no physical score. Fresh review remains pending.
 
 ## Premise memory
