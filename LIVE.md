@@ -52,8 +52,10 @@ resume downstream validation automatically.
 The internally verified `udt_overlapping_pair_live_compatibility_audit_2026-08-14/` derives exact chart, shared-observer, middle-state, and joint four-dimensional Lorentz-Gram consistency laws.
 They reject inconsistent assemblies but do not select a live history. Its secondary result is
 `LOUD_ENDS_QUIET_MIDDLE_CONDITIONAL_SURVIVOR_NOT_SELECTED`: the pattern survives with `Q,S` live,
-while equally regular exact flat and monotone lifts also survive. Fresh review remains pending; G89
-is the last externally cleared authority.
+while exact flat and monotone explicit lifts also survive. **Correction in progress:** those
+counterfamilies fixed `Q,Y,Z`, so they do not settle the stricter all-instruments-active class. The
+phrase “fully live” is withdrawn pending the preregistered correction in the same package. Fresh
+review is held; G89 is the last externally cleared authority.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
