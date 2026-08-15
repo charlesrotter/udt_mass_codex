@@ -7,92 +7,78 @@
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
 
-### Active operational lane — R5 full-spectrum common-subspace atlas is complete
+### Active scientific lane — no-shortcut reciprocal kernel reconstruction
 
-R2 is `VERIFIED-WITH-CAVEATS` in its exact bounded data-only role: 194 observer-coordinate
-selections, four weight lanes, three nested random ratios, 119 angular bins, and 2,328 curves. Every
-curve/descriptor was independently reconstructed; nine TreeCorr and twelve direct-primary anchors
-pass. This is raw pattern characterization, not a preferred feature, significance, physical scale,
-BAO interpretation, UDT response, CMB relation, cosmology, or `X_max`.
+The internally verified, banked package
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` now controls the theory frontier while
+fresh external semantic review remains pending. Its preregistered landing is
 
-R3 has grade
-`OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. It retains all 194
-selections, four lanes, 119 bins, and NSIDE 4/8/16 exact delete-one-spatial-block covariance at the
-fixed 20x random readout. For R3 interpretation **after the bounded startup orientation**, read
-package evidence in this order:
+```text
+FULL_UNCOMPRESSED_TERMINAL_EVALUATOR_DERIVED
+__NO_SCALAR_MU_OWNED
+__PHYSICAL_PAIR_AND_HISTORY_OPEN
+```
 
-1. `udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md`;
-2. `R3_PREREGISTRATION.md`;
-3. `R3_OUTCOME_REPORT.md` and `R3_VERIFICATION_RESULT.json`;
-4. `R3_PREEXECUTION_GATES.md`, `R3_SUPPORT_TYPING_CORRECTION.md`, and the two
-   `R3_VERIFIER_*_CORRECTION_PREREGISTRATION.md` records;
-5. `R3_PATCH_CARDINALITY_CORRECTION_REPORT.md`, its adversarial review, and `STATUS_LEDGER.tsv`.
+For a supplied complete coframe `E=[[B,0],[Q S,Q]]` and supplied regular pair realization
+`J=[Y;Z]`, it derives
 
-These correction documents preserve their report-time process state and commit IDs. They do not
-override this block for current runtime status. Monitoring alone does not require reading full R3
-implementations or raw checkpoint contents.
+```text
+h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
 
-All 194 cells and 2,328 covariances completed. Rank is resolution-limited exactly as the frozen
-block counts imply: 0/776 full-rank at NSIDE 4, 388/776 at NSIDE 8, and 776/776 at NSIDE 16.
-Covariance scale also changes with resolution, so no preferred grid is selected and no inverse or
-feature significance is permitted. Exact reconstruction, all 194 support unions, all covariance
-identities, eight deletion anchors, and repository tests pass under independent verification.
+phi_pair=(1/4)log[(-det h)/h00^2],
 
-Two post-failure verifier ownership corrections are disclosed in the package. They removed no
-registered gate and changed no production output: they compare DD/DR/RR cross-engine differences at
-the frozen component tolerance, then test curve construction and delete-one reconstruction with
-their proper owners. The final grade therefore remains verified with caveats.
+c_eff^(pair)/c_E=(-h00)/sqrt(-det h)=exp(-2phi_pair).
+```
 
-The verified self-contained R3 raw archive remains
-`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; its 201 manifest rows were independently
-verified by byte count and SHA-256.
+The exact live identity retains `dot B,dot Q,dot S,dot Y,dot Z` separately. Production symbolic,
+standalone Fraction replay, shrinking-step derivatives, hostile mutations, package verification,
+and repository tests (`90 passed, 1 xfailed`) pass.
 
-R4 now has grade
+This confirms conditionally that the complete orchestra is assembled inside one pair metric before
+the terminal reciprocal-`c_E` readout. It does **not** construct the physical pair realization or
+history. The old Gram matrix `P` is sufficient for the zero-order A-calibrated pair metric, but it
+erases screen representatives and the distinction between four-component ambient mixing `S` and
+pair embedding. Holding `P` fixed supplies only a diagnostic, not a physical quiet-middle score.
+
+Modern mixing is `S in Mat(2,R)`. The July scalar `mu_old` belongs to a different conditional
+mixed-base ansatz; no current bridge or unique scalar `mu` is derived.
+
+Current grade: `VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PENDING`. Do not promote it to
+canon or launch downstream validation before the review and any required repair.
+
+### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
+
+R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
+independently reconstructed. It is raw pattern characterization, not a preferred feature,
+significance, scale, BAO origin, UDT response, cosmology, CMB relation, or `X_max`.
+
+R3 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. All 2,328 covariances and
+eight deletion anchors pass independent verification; rank and covariance scale depend on NSIDE, so
+no preferred grid or inverse-covariance significance is permitted. Read `R3_OUTCOME_REPORT.md` and
+`R3_VERIFICATION_RESULT.json` after orientation.
+
+R4 is
 `OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT`.
-All 9,286 preregistered relations, 4.38 million full-lag entries, 1,164 all-grid cap-covariance
-records, and 972 summaries independently replay. The whole measured curve has a highly persistent
-broad shape across random, weight, adjacent-shell, cap, and exact-union relations. Amplitude and
-fine detail vary, and no individual feature is selected. Diagonal cap/covariance scale is
-comparatively consistent, but the full covariance quadratic is strongly grid- and conditioning-
-dependent, so no inverse-covariance significance or preferred grid is permitted.
+The broad complete-curve shape persists across 9,286 relations, while amplitude/fine detail and full
+covariance quadratics remain control- and grid-dependent. Read `R4_OUTCOME_REPORT.md` and
+`R4_VERIFICATION_RESULT.json`.
 
-R5 now has grade
+R5 is
 `OBSERVED_VERIFIED_WITH_CAVEATS__ONE_DOMINANT_SHARED_DIRECTION__ADDITIONAL_SUBSPACE_ALIGNMENT_CONTROL_DEPENDENT__COVARIANCE_RANGE_PARTLY_UNRESOLVED`.
-It retains all 2,328 curves, all 9,286 relations, two separate complete transforms, all ranks, and
-all R3 grids. The verified evidence contains 2,607 spectrum rows, 3,555 all-rank overlap rows,
-275,868 covariance-subspace rows, and 2,850 ownership-labelled summaries.
+It finds one dominant whole-curve direction plus control-dependent additional alignment, selects no
+rank or feature, and leaves 184,300 covariance-range rows explicitly unresolved. Read
+`R5_OUTCOME_REPORT.md`, `R5_VERIFICATION_RESULT.json`, `R5_EXTERNAL_FOLLOWUP_REVIEW.md`, and
+`R5_FINAL_EVIDENCE_MANIFEST.tsv`.
 
-One whole-curve direction is numerically dominant and almost identical between the A/B endpoint
-ensembles of every preregistered relation class. Additional aligned structure remains, but it is
-much more sensitive to disjoint caps and exact shell aggregation than to random-density, weight, or
-adjacent-shell controls. R5 therefore selects no universal reduced rank and no individual feature.
+The controlling package is `udt_observed_angular_pattern_raw_restart_2026-08-12/`. The verified raw
+archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. The parallel method crosswalk
+is `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`; no published curve exactly matches
+the query, so published peaks remain quarantined.
 
-The first covariance assembly was rejected before interpretation because signed individual-mode
-projections are not invariant under SVD sign and degenerate-block basis freedom. The preregistered
-repair uses cumulative top-`k` projector invariants. Two later verifier-method failures were also
-disclosed and corrected before acceptance. Independent replay owns all spectra and all 3,555
-all-rank overlaps. Of 275,868 covariance-range-overlap rows, 91,568 are owned and 184,300 remain
-explicitly `UNRESOLVED_NUMERICAL`; they were neither dropped nor promoted.
+### Regraded predecessor — conditional fixed-Gram reciprocal response
 
-For the active observational frontier, read `R5_OUTCOME_REPORT.md`, `R5_FINAL_STATUS.json`,
-`R5_VERIFICATION_RESULT.json`, `R5_EXTERNAL_ADVERSARIAL_REVIEW.md`,
-`R5_EXTERNAL_FOLLOWUP_REVIEW.md`, and `R5_FINAL_EVIDENCE_MANIFEST.tsv` after the R2--R4 outcome
-reports. The first sealed review found a blocking covariance-ownership schema omission. The repair
-was preregistered, independently replayed, and accepted by a fresh sealed follow-up as
-`VERIFIED_WITH_CAVEATS`, with no remaining blocking finding.
-
-The exact parent closure routes remain `R3_OUTCOME_REPORT.md`, `R3_VERIFICATION_RESULT.json`,
-`R4_OUTCOME_REPORT.md`, and `R4_VERIFICATION_RESULT.json` in the same package.
-
-The parallel primary-method cross-check is complete and bankable with caveats at
-`udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`. Official BOSS sources support the
-input lineage, W3 observational weight, optional-FKP/unit-random branch, random/mask semantics, and
-weighted Landy-Szalay normalization. W0-W2 are diagnostics. No published curve exactly matches this
-query, so published peaks remain quarantined.
-
-### Latest internal theory lead — conditional reciprocal/orchestra response
-
-The local unbanked package
+The protected local unbanked package
 `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/` derives, for one supplied
 complete A-calibrated pair relation,
 
@@ -105,9 +91,10 @@ has one strict intermediate trace minimum; the balanced diagnostic is proportion
 Internal exact, independent-rational, live-derivative, hostile-mutation, package, and repository
 checks pass.
 
-Status: `CONDITIONAL INTERNALLY VERIFIED LEAD`; fresh semantic review and banking remain pending.
-The full history retains both `B(lambda)` and `P(lambda)`. No physical micro/middle/cosmological
-regime history, action, source, matter, bootstrap selection, SNe/CMB result, or `X_max` follows.
+Its exact fixed-`P` convexity result remains a `CONDITIONAL_DIAGNOSTIC_ONLY`. The new uncompressed
+audit proves that `P` is sufficient for the zero-order pair metric but not for channel attribution,
+rotating screen motion, or physical history. No physical micro/middle/cosmological regime history,
+action, source, matter, bootstrap selection, SNe/CMB result, or `X_max` follows.
 
 ### Durable structural parents
 
@@ -130,6 +117,7 @@ global relation-family ownership, dynamics, action, source, matter, bootstrap, o
 - pointwise `phi`: presentation potential; universal physical ownership `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - angular/mixing orchestra enters before terminal readout: `DERIVED` conditionally.
+- modern complete-coframe mixing is the four-component `S`; no unique current scalar `mu` is owned.
 - `X_max`: `WORKING_FOUNDATIONAL_FRAME` for an observer-pair dilation asymptote; value and complete
   realization `OPEN`; not a wall, center, seal, or boundary term.
 - strong local CSN: `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED`, inactive.
@@ -154,11 +142,15 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Preregister—but do not yet interpret—a cross-fitted residual atlas using fixed sample-by-cap blocks
-as held-out folds. Freeze the folds, residualization, scoring rule, full-rank retention, and ban on
-rank/feature promotion before execution. The bounded question is whether residual angular
-structure learned without the held-out cap predicts that disjoint fold. Do not choose a mode count,
-expected angle, period, physical ruler, UDT curve, published target, or theory fit.
+1. Obtain a fresh sealed read-only adversarial semantic review of
+   `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and only its exact source manifest.
+2. Repair any blocking type, covariance, or ownership finding before premise promotion.
+3. Only after that review, preregister a metric-led compatibility audit asking whether overlapping
+   supplied observer pairs impose any nonidentity relation among the live blocks `B,Q,S,Y,Z` beyond
+   pullback and chain-rule identities.
+
+The cross-fitted observational residual atlas is paused. Do not resume BAO/CMB/SNe validation,
+`X_max` inference, bootstrap tuning, or a regime fit until Charles explicitly returns to that lane.
 
 ### Archive
 

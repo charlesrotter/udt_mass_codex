@@ -35,15 +35,19 @@ comparison only; it cannot seed raw-lane bins, covariance, normalization, or int
 
 ## Current relational-geometry spine
 
+- No-shortcut complete-pair evaluator (active, internally verified; external review pending):
+  `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
 - Pair-first synthesis: `udt_pair_first_metric_orchestra_ponder_2026-08-12/`
 - Pair relational-plane reconstruction: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
-- Local unbanked response lead:
+- Protected predecessor, now regraded as a fixed-Gram diagnostic:
   `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 
-The first four are durable structural parents with their recorded caveats. The last is an internal
-lead pending semantic review and banking.
+The active package carries `B,Q,S,Y,Z` and their derivatives to one terminal `phi_pair` and
+`c_eff/c_E`. It establishes no physical history and no unique scalar `mu`. The pair-first,
+reachability, and chord packages remain durable parents. The protected predecessor must not be used
+as the active kernel or staged without a separate dispatch.
 
 ## Foundational and premise authorities
 

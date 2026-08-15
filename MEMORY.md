@@ -19,16 +19,18 @@ remain explicitly unresolved.
 
 ## Current theory picture
 
-The complete metric conditionally evaluates one supplied pair relation as a layered object:
+The banked no-shortcut reconstruction now conditionally evaluates one supplied pair relation as a
+layered object:
 
 1. terminal pair metric and reciprocal readout;
 2. derivative/extrinsic/Jacobi/transport channels when the query owns them;
 3. global calibration, branch, and holonomy compatibility.
 
-Exact pointwise reachability and zero-order endpoint composition are verified with caveats. The
-latest local pair-response calculation conditionally finds reciprocal amplification of the
-normalized angular/mixing loading, but the physical `B(lambda),P(lambda)` history remains open and
-external semantic review is pending.
+Exact pointwise reachability and zero-order endpoint composition are verified with caveats. The new
+evaluator retains `B,Q,S,Y,Z` and all five derivatives before reading one terminal
+`phi_pair`/`c_eff/c_E`. The old Gram compression is zero-order sufficient but does not own channel
+attribution or history. Modern mixing is four-component `S`; no unique scalar `mu` is owned. The
+physical pair/history remains open and fresh external semantic review is pending.
 
 ## Premise memory
 
@@ -46,10 +48,10 @@ sources.
 
 ## Current next gate
 
-Preregister a cross-fitted residual atlas using fixed sample-by-cap blocks as held-out folds. Freeze
-folds, residualization, scoring, full-rank retention, and the prohibition on rank/feature promotion.
-Ask only whether residual structure predicts a disjoint held-out cap; import no expected BAO angle,
-period, ruler, UDT curve, or target.
+Obtain a fresh sealed semantic review of
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Repair any blocking finding, then decide
+whether the metric supplies a nonidentity compatibility law across overlapping live pair histories.
+The cross-fitted observational lane is paused.
 
 ## Archive
 

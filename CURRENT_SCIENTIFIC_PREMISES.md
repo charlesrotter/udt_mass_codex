@@ -66,8 +66,11 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   externally `VERIFIED-WITH-CAVEATS` (G87).
 - Pair-first relational-plane reconstruction: conditional complete-metric evaluation,
   `VERIFIED-WITH-CAVEATS`.
-- Reciprocal/orchestra response kernel: internally verified conditional lead; external semantic
-  review and banking pending; no premise promotion.
+- Uncompressed complete-pair evaluator: internally `VERIFIED-WITH-CAVEATS`; all `B,Q,S,Y,Z`
+  channels and derivatives retained before terminal readout; fresh semantic review pending;
+  physical pair/history and unique scalar `mu` open.
+- Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict
+  intermediate trace minimum does not derive a physical quiet-middle regime.
 - R2 raw observational atlas: `OBSERVED`, `VERIFIED-WITH-CAVEATS`.
 - R3 covariance atlas: complete and independently verified with caveats;
   `COVARIANCE_RESOLUTION_OR_RANK_LIMITED`; no preferred grid, feature, significance, or physics.

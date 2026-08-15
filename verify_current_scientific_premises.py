@@ -176,7 +176,8 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "CURRENT_RESEARCH_PROGRAM.md": (
             "COVARIANCE_RESOLUTION_OR_RANK_LIMITED",
-            "Preregister a cross-fitted residual atlas",
+            "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
+            "observational residual atlas paused",
             "udt_pair_first_relational_plane_reconstruction_2026-08-12/",
             "udt_pair_terminal_reachability_atlas_2026-08-12/",
             "udt_pair_chord_network_descent_audit_2026-08-12/",
@@ -244,6 +245,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",
         "udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md",
         "udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md",
+        "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -260,9 +262,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 76, "premise registry must contain exactly 76 rows")
+    require(len(rows) == 77, "premise registry must contain exactly 77 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 76, "duplicate premise id")
+    require(len(by_id) == 77, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1300,6 +1302,22 @@ def main() -> None:
         "G87 chord-network source changed",
     )
     require("G87_CLOSES_THE_ZERO_ORDER_CHORD_COMPOSITION_QUESTION" in by_id["G87"]["precedence_rule"], "G87 refinement absent")
+    require(
+        by_id["G89"]["current_status"]
+        == "INTERNALLY_VERIFIED_WITH_CAVEATS__FULL_B_Q_S_Y_Z_PULLBACK_AND_FIRST_VARIATION__TERMINAL_PHI_PAIR_AND_CEFF_OVER_CE_DERIVED__NO_UNIQUE_SCALAR_MU_OWNED__PHYSICAL_PAIR_AND_HISTORY_OPEN",
+        "G89 uncompressed evaluator status regressed or promoted",
+    )
+    require(by_id["G89"]["epistemic_label"] == "MIXED", "G89 evaluator label changed")
+    require("fresh semantic review" in by_id["G89"]["open_scope"], "G89 semantic review falsely closed")
+    require("physical pair realization and live history" in by_id["G89"]["open_scope"], "G89 pair/history promoted")
+    require("modern four-component S identified with July mu_old" in by_id["G89"]["forbidden_regression"], "G89 mu type guard absent")
+    require("fixed-P convexity called a derived quiet-middle regime" in by_id["G89"]["forbidden_regression"], "G89 fixed-P promotion guard absent")
+    require(
+        by_id["G89"]["controlling_source"]
+        == "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
+        "G89 evaluator source changed",
+    )
+    require("G89_RECONSTRUCTS_THE_COMPLETE_SUPPLIED_PAIR_EVALUATOR" in by_id["G89"]["precedence_rule"], "G89 refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1378,7 +1396,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: 83 premise guards (legacy package-gate compatibility); PASS: 76-row premise "
+        "PASS: 84 premise guards (legacy package-gate compatibility); PASS: 77-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

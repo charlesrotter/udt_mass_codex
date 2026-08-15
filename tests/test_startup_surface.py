@@ -35,6 +35,7 @@ CURRENT_TARGETS = (
     "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",
     "udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md",
     "udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md",
+    "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
 )
 
 
@@ -79,7 +80,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 76-row premise registry" in result.stdout
+    assert "PASS: 77-row premise registry" in result.stdout
 
 
 def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:

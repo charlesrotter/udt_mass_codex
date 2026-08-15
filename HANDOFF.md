@@ -6,6 +6,23 @@ Read `LIVE.md` first. It wins every disagreement.
 
 ## Resume anchor — 2026-08-14
 
+### Active theory reset
+
+Start with `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`, then its
+`EXACT_DERIVATION.md`, `SHORTCUT_REGRADE.tsv`, and machine evidence. It is banked at `98dc643a` with
+grade `VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PENDING`.
+
+For supplied `E=[[B,0],[Q S,Q]]` and `J=[Y;Z]`, the full pair metric is formed first and one terminal
+`phi_pair`/`c_eff/c_E` is read afterward. The exact derivative retains
+`dot B,dot Q,dot S,dot Y,dot Z`. The old `P=C^TqC` reduction is zero-order sufficient but loses
+instrument attribution and live screen rotation. Its fixed-`P` quiet-middle result is a diagnostic,
+not a physical regime law.
+
+Do not identify modern four-component `S` with the older July scalar `mu_old`; no bridge or unique
+current scalar `mu` is owned. Physical pair assignment and history remain open.
+
+Next: fresh sealed semantic review, then repairs if needed. Observational validation is paused.
+
 ### What is running
 
 No long observational process remains. R5 assembly, independent replay, hostile-mutation checks,
@@ -61,9 +78,10 @@ makes them load-bearing. The primary-method cross-check is
 
 ### Honest theory claim
 
-The unbanked pair-response package conditionally derives reciprocal amplification of one complete
-pair relation's normalized orchestra loading. It is internally verified, but semantic review and
-banking are pending. It does not own the physical regime history.
+The banked uncompressed evaluator conditionally derives one complete pair metric and terminal
+reciprocal-`c_E` readout with all coframe and pair-realization blocks retained. Its algebra and
+independent replay pass; fresh semantic review remains pending. It does not own the physical pair or
+regime history.
 
 Durable verified-with-caveats parents are:
 
@@ -96,10 +114,10 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-1. Preregister a cross-fitted residual atlas with fixed sample-by-cap held-out folds, frozen
-   residualization and scoring, full-rank retention, and no rank/feature promotion.
-2. Keep mode counts, published BAO locations, and physical interpretations quarantined. The next
-   test asks only whether training-fold residual structure predicts a disjoint held-out cap.
+1. Fresh sealed semantic review of the uncompressed evaluator package and its exact sources.
+2. Repair any blocking type/covariance/ownership finding.
+3. Then decide whether a metric-owned compatibility law exists across overlapping live pair
+   histories. Do not resume the cross-fitted observational lane without Charles's explicit return.
 
 Historical handoff material is preserved verbatim in
 `archive/startup_surface_2026-08-14/HANDOFF_before_cleanup.md` and older archive files.

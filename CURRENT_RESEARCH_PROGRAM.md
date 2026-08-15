@@ -73,14 +73,17 @@ rebuilt middle states, route channels, and the physical global family remain ope
 
 Source: `udt_pair_chord_network_descent_audit_2026-08-12/`.
 
-### 4. Reciprocal/orchestra response kernel — internal conditional lead
+### 4. Uncompressed complete-pair evaluator — internally verified, external review pending
 
-For one supplied complete pair relation, normalized orchestra loading has opposite reciprocal
-weights `exp(+2phi)` and `exp(-2phi)`, yielding a strict intermediate trace minimum for
-positive-definite loading. This is a response kernel, not the physical three-regime score. The live
-history retains `B(lambda)` and `P(lambda)`. External semantic review and banking remain pending.
+For supplied `E=[[B,0],[Q S,Q]]` and supplied `J=[Y;Z]`, the complete pair metric is assembled before
+the terminal `phi_pair` and `c_eff/c_E` readout. The exact live identity retains
+`dot B,dot Q,dot S,dot Y,dot Z`. Modern mixing is the four-component matrix `S`; no unique scalar
+`mu` is owned. Physical pair assignment and history remain open.
 
-Local source: `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`.
+Source: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
+
+The predecessor's fixed-`P` strict intermediate trace minimum remains a conditional diagnostic, not
+a physical regime score.
 
 ## Macro observational anchors
 
@@ -110,7 +113,8 @@ from `MASS_BRANCH_AUTHORITY_MAP.tsv`, not from historical single-branch summarie
 ## Current open joints
 
 1. Physical complete history/global relation-family ownership.
-2. The live regime evolution of the complete pair relation (`B(lambda),P(lambda)`).
+2. The live regime evolution of the uncompressed complete pair relation
+   (`B,Q,S,Y,Z` and their lawful overlaps).
 3. Complete SNe screen/flux and CMB source/population ownership.
 4. Exact `X_max` global realization and scale.
 5. Native action, source, boundary completion, carrier emergence, and stable matter.
@@ -120,12 +124,11 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-1. Preregister a cross-fitted residual atlas using fixed sample-by-cap held-out folds; freeze
-   residualization, scoring, full-rank retention, and no rank/feature promotion before execution.
-2. Do not act on the local reciprocal/orchestra response package without a specific dispatch.
-3. After the next bounded observational characterization, decide with Charles whether the next theory step
-   is the live regime-flow owner, observational cross-query comparison, or return to
-   matter/stability.
+1. Obtain a fresh sealed semantic review of the uncompressed evaluator and exact source manifest.
+2. Repair any blocking finding before premise promotion.
+3. Then preregister a metric-led overlapping-pair compatibility audit; do not infer a regime score
+   from a chosen fixed Gram matrix.
+4. Keep the observational residual atlas paused until Charles explicitly returns to validation.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.
