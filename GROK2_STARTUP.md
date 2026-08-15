@@ -3,9 +3,10 @@
 This file is the **grok2** startup surface. It exists only on branch `grok2`.
 It does not apply to `grok`. It does not edit `CANON.md`.
 
-On `grok2`, read this after the current blocks in `LIVE.md` and `HANDOFF.md`.
-Those two files on this branch point here. Older `grok` R3 prose below their
-`STARTUP_CURRENT_END` markers is inherited history, not this branch's dispatch.
+On `grok2`, read `GROK2_README.md` then `GROK2_LIVE.md` then this file.
+Do **not** treat `LIVE.md` / `HANDOFF.md` / `MEMORY.md` / `INDEX.md` as this
+branch's dispatch. Those four names track `origin/grok` so the branches cannot
+overwrite each other's orientation.
 
 ## Branch
 

@@ -1,41 +1,55 @@
 # MEMORY — compact disk pointer
 
-Re-read from disk on resume. `LIVE.md` wins. On branch `grok2`, `GROK2_STARTUP.md`
-is the branch-only orientation.
-
-## TOP — CURRENT POINTER (`grok2`)
-
-Unbanked dilation skeleton in `udt_session_dilation_skeleton_2026-08-14/`.
-Not canon. May align with the universe; not guaranteed. Parent `grok` R3 lane
-is inherited and not this branch's dispatch.
+Re-read from disk on resume. `LIVE.md` wins.
 
 ## Current execution
 
-This branch does not run R3. Do not inspect covariance content from `grok2`.
-Parent `grok` still had R3 production under
-`udt-r3-covariance-patchlists-20260813.service` at fork time.
+R5 data-only common-subspace assembly, independent replay, hostile-mutation verification, external
+repair, and follow-up are complete. R2 is
+`VERIFIED-WITH-CAVEATS`; R3 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. Its 194 ignored NPZ cells
+and all manifest-owned outputs are preserved and hash-verified at
+`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No preferred feature, significance,
+physical scale, origin, UDT comparison, cosmology, or `X_max` has been established. R4 observes a
+highly persistent broad complete-curve shape across every registered relation class, but no
+individual feature; its full covariance readouts remain strongly grid-dependent. R5 adds one
+numerically dominant shared whole-curve direction plus control-dependent additional subspace
+alignment. It selects no reduced rank or individual feature; 184,300 covariance-range-overlap rows
+remain explicitly unresolved.
 
-## Current theory picture (`grok2` first)
+## Current theory picture
 
-Session skeleton: \(\tanh\) lapse, rest \(z\), Liouville \(d_L\), August \(\mu\)
-as Earth–sky lock defect, megamaser \(X\sim 4\times 10^3\,\mathrm{Mpc}\)
-measured not derived. Lean-\(\mu\) is the wrong object. BAO not shown and
-not ruled out.
-
-Inherited parent picture below.
-
-## Inherited current theory picture (`grok`)
-
-The complete metric conditionally evaluates one supplied pair relation as a layered object:
+The banked no-shortcut reconstruction now conditionally evaluates one supplied pair relation as a
+layered object:
 
 1. terminal pair metric and reciprocal readout;
 2. derivative/extrinsic/Jacobi/transport channels when the query owns them;
 3. global calibration, branch, and holonomy compatibility.
 
-Exact pointwise reachability and zero-order endpoint composition are verified with caveats. The
-latest local pair-response calculation conditionally finds reciprocal amplification of the
-normalized angular/mixing loading, but the physical `B(lambda),P(lambda)` history remains open and
-external semantic review is pending.
+Exact pointwise reachability and zero-order endpoint composition are verified with caveats. The new
+evaluator retains `B,Q,S,Y,Z` and all five derivatives before reading one terminal
+`phi_pair`/`c_eff/c_E`. The old Gram compression is zero-order sufficient but does not own channel
+attribution or history. Modern mixing is four-component `S`; no unique scalar `mu` is owned. G92
+maps August `mu_lock` to one signed component of a supplied endpoint transition, retains its scoped
+gauge carve-out, and proves both nonunique full-matrix extension and terminal-pair non-recovery. It
+is not July `mu_old`. G93 joins the complete evaluator, endpoint composition, overlap, and crosswalk:
+fresh sealed review justifies a no-fit geometry-level SNe replay with caveats. Physical history and
+flux remain open; the independent implementation reuses the same three exact witnesses.
+
+The next internally verified overlap audit derives genuine simultaneous chart/seam/middle/Gram
+constraints. Charles caught that its first “fully live” counterfamilies actually fixed `Q,Y,Z`.
+The preregistered correction now supplies exact contribution-live flat, monotone, and
+loud-quiet-loud families near an exact control, with every complete block varying. Thus the desired pattern survives the
+complete orchestra, but activity supplies no physical score. Fresh review remains pending.
+
+A preregistered flux/luminosity ownership audit is now externally verified with caveats. On a supplied regular
+null/screen query, geometry fixes `d_G=Z d_A` and the clock factor, giving
+`F_o=L_Omega eta epsilon/(Z^3 d_A^2)`. The transfer product `eta epsilon` remains unselected under
+current source/action authority; `d_L=Z^2d_A` is a compatible conditional closure, not yet a native
+law. The review independently rebuilt the algebra and repaired only the character-family scope.
+
+G95/G96 retain response, transport, and query bookkeeping but no physical radiative population.
+`epsilon=1/Z` needs a carrier-covector premise; physical `eta=1` remains open.
 
 ## Premise memory
 
@@ -53,8 +67,12 @@ sources.
 
 ## Current next gate
 
-Complete R3 -> assemble -> independently verify -> audit four banking gates -> only then inspect the
-data-only covariance atlas. Do not start a competing solve or mechanism hunt while that gate is open.
+G97 verifies the first end-to-end SNe house test: under provisional `eta=1`, `epsilon=1/Z`, and source isotropy, one G79 control gives
+`chi2=16255.30/1366 dof` and is strongly incompatible. The evaluator works; history and native
+transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet-loud histories all
+survive with every factor contributing, so current equations permit but do not own the continuation.
+G99 freezes known P1 central `dL(z)` as an observed conditional middle chord with no refit/holdout—not a complete history; transfer and joint uncertainty remain open.
+Next preregister the BAO observer-angle map without reading the BAO curves, then open that holdout.
 
 ## Archive
 

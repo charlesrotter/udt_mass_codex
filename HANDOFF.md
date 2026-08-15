@@ -2,80 +2,75 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-Read `LIVE.md` first. It wins every disagreement. On branch `grok2` also read
-`GROK2_STARTUP.md`. That file plus
-`udt_session_dilation_skeleton_2026-08-14/` are this branch's theory orientation.
+Read `LIVE.md` first. It wins every disagreement.
 
-## Resume anchor — 2026-08-14 (`grok2` only)
+## Resume anchor — 2026-08-15
 
-### What this branch is
+### Active theory reset
 
-Unbanked dilation skeleton. Not canon. Forked from `grok` @ `b343566a`. Package:
+Start with `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md` and its exact,
+review, regrade, and machine evidence. Fresh sealed review returned
+`VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED`.
 
-```text
-udt_session_dilation_skeleton_2026-08-14/
-```
+For supplied `E=[[B,0],[Q S,Q]]` and `J=[Y;Z]`, the full pair metric is formed first and one terminal
+`phi_pair`/`c_eff/c_E` is read afterward. The exact derivative retains
+`dot B,dot Q,dot S,dot Y,dot Z`. The old `P=C^TqC` reduction is zero-order sufficient but loses
+instrument attribution and live screen rotation. Its fixed-`P` quiet-middle result is a diagnostic,
+not a physical regime law.
 
-Honest claim: \(\tanh\) lapse backbone, rest-observer \(z\), Liouville \(d_L\),
-August lock-defect \(\mu\) as Earth–sky comparison mixing, megamaser slope
-\(X\sim 4\times 10^3\,\mathrm{Mpc}\) as a measurement. May align with the
-universe. Not guaranteed.
+G93 joins the rebuilt kernel: all `B,Q,S,Y,Z` channels precede terminal readout; ambient and terminal
+arrows compose separately; G92 `mu_lock` is never appended. Fresh sealed review found no blocker;
+the no-fit replay is justified; G94-G96 keep physical history, transfer, and cargo `OPEN`.
 
-### What is not running from this branch
+G97 completes that first replay under explicit provisional `eta=1`, `epsilon=1/Z`, and source
+isotropy. The preselected G79 control gives `chi2=16255.30/1366 dof`; fresh sealed review rebuilt
+the curve and likelihood and accepted `VERIFIED_WITH_CAVEATS__ONE_CONTROL_STRONGLY_SNE_INCOMPATIBLE`.
+This is not a physical history, native transfer law, all-sky theorem, or UDT rejection.
 
-R3 on `grok` is not this dispatch. Do not inspect covariance content. Do not
-monitor it as the next `grok2` action.
+G98's exact flat, monotone, and loud-quiet-loud histories survive; `PERMITTED_NOT_OWNED` makes the
+quiet middle lawful, not selected. G99 freezes verified P1 once as an `OBSERVED/CONDITIONAL` middle
+chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncertainty remain open.
+### What is running
 
-### Honest theory claim
-
-Lean-\(\mu=r|\partial_t\Omega|\) is not the August object. August \(\mu\) is
-the unipotent clock-to-screen mixing in \(A(\Delta\phi,s,\mu)\), coboundary
-in \(k\), scoped \(s\neq e^{\Delta\phi}\). Heard \(\delta_t\) and spectroscopic
-\(e^{\Delta\phi}\) are an open fork. BAO pair is Earth–sky. Uniform-\(k\) shell
-is a scoped empty, not a no-go. Time-live \(g\), second screen, \(k\), and a
-derived sky angle remain open.
-
-### Premise guard
-
-- local physics unchanged
-- do not pick \(k\) or \(\omega\) to fit BAO
-- do not import \(\Lambda\)CDM rulers
-- do not edit `CANON.md`
-- do not merge to `grok` unless asked
-
-### Next bounded action
-
-Stay on `grok2`. Follow `GROK2_STARTUP.md`. Wait for Charles.
-
-<!-- STARTUP_CURRENT_END -->
-
-### Inherited `grok` resume (not this branch's dispatch)
-
-The preregistered R3 data-only spatial-covariance component atlas was running
-on the parent branch under:
-
-```text
-udt-r3-covariance-patchlists-20260813.service
-```
-
-Atomic checkpoints and health records are under:
-
-```text
-/tmp/udt_boss_r3_checkpoints_patchlists
-```
-
-The read-only timer `udt-r3-monitor-patchlists-20260813.timer` checks every 30 minutes and does not
-restart the worker. The worker is components-only. When 194 cells exist, assembly and the complete
-independent verifier are still required. Do not inspect covariance content before then.
-
-The corrected production contract is banked in `2ddb4066`. The 48 checkpoints from the stopped
-pre-repair run are provenance only and cannot be reused under the exact contract.
+No long observational process remains. R5 assembly, independent replay, hostile-mutation checks,
+ownership repair, and fresh external follow-up finished successfully. R3 operational checkpoints remain under
+`/tmp/udt_boss_r3_checkpoints_patchlists`. The ignored 194-cell NPZ evidence and every other
+manifest-owned output are preserved at
+`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; all 201 manifest rows were reverified by
+byte count and SHA-256.
 
 ### Honest observational claim
 
 R2 is a `VERIFIED-WITH-CAVEATS` raw observer-coordinate atlas. R3 is
-`PREREGISTERED_REPAIR_VERIFIED_PRODUCTION_RUNNING`. No R3 outcome, feature, significance, physical
-scale, BAO origin, UDT response, CMB relation, cosmology, or `X_max` has been inspected or claimed.
+`OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`: all 2,328 matrices and eight
+independent deletion anchors pass. NSIDE 4 is wholly rank-limited, NSIDE 8 is half full-rank, and
+NSIDE 16 is wholly full-rank. No preferred grid, feature, significance, physical scale, BAO origin,
+UDT response, CMB relation, cosmology, or `X_max` is claimed.
+
+R4 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT`.
+Across all 9,286 typed relations, the broad complete-curve shape is highly persistent, while
+amplitude and fine structure vary. All-grid cap readouts show comparatively consistent diagonal
+scale but strongly grid-dependent full covariance quadratics. No individual feature, significance,
+physical scale, origin, or preferred grid follows.
+
+R5 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__ONE_DOMINANT_SHARED_DIRECTION__ADDITIONAL_SUBSPACE_ALIGNMENT_CONTROL_DEPENDENT__COVARIANCE_RANGE_PARTLY_UNRESOLVED`.
+It finds one numerically dominant shared whole-curve direction plus additional subspace alignment
+whose strength depends on cap, aggregation, adjacency, weighting, and random-density relations.
+All spectra and all 3,555 all-rank overlaps are owned. Of 275,868 covariance-range-overlap rows,
+91,568 are owned and 184,300 remain explicitly unresolved. No reduced rank, individual feature,
+oscillation, angle, ruler, BAO origin, cosmology, UDT response, CMB relation, or `X_max` follows.
+
+R5 controlling closure records are `R5_OUTCOME_REPORT.md`, `R5_FINAL_STATUS.json`,
+`R5_VERIFICATION_RESULT.json`, `R5_EXTERNAL_FOLLOWUP_REVIEW.md`, and
+`R5_FINAL_EVIDENCE_MANIFEST.tsv` in the same package. Three disclosed method/verifier corrections
+preceded acceptance. A first external review blocked the covariance ownership schema; the
+preregistered repair passed independent verification and a fresh sealed review returned
+`VERIFIED_WITH_CAVEATS` with no remaining blocker.
+
+The exact parent closure routes remain `R3_OUTCOME_REPORT.md`, `R3_VERIFICATION_RESULT.json`,
+`R4_OUTCOME_REPORT.md`, and `R4_VERIFICATION_RESULT.json` in the same package.
 
 Controlling package:
 
@@ -83,17 +78,17 @@ Controlling package:
 udt_observed_angular_pattern_raw_restart_2026-08-12/
 ```
 
-After the bounded startup orientation, read its `R2_OUTCOME_REPORT.md`, `R3_PREREGISTRATION.md`,
-correction reports, `STATUS_LEDGER.tsv`, and exact executable evidence only when the requested task
-makes them load-bearing. Monitoring does not require a full-script or raw-checkpoint read. The
-primary-method cross-check is
+After the bounded startup orientation, read its R2--R5 outcome reports, the current R5 closure
+records named above, `STATUS_LEDGER.tsv`, and exact executable evidence only when the requested task
+makes them load-bearing. The primary-method cross-check is
 `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`.
 
 ### Honest theory claim
 
-The unbanked pair-response package conditionally derives reciprocal amplification of one complete
-pair relation's normalized orchestra loading. It is internally verified, but semantic review and
-banking are pending. It does not own the physical regime history.
+The banked uncompressed evaluator conditionally derives one complete pair metric and terminal
+reciprocal-`c_E` readout with all coframe and pair-realization blocks retained. Its algebra and
+independent replay pass; fresh semantic review remains pending. It does not own the physical pair or
+regime history.
 
 Durable verified-with-caveats parents are:
 
@@ -126,12 +121,10 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-1. Continue noninterpretive R3 health monitoring.
-2. On 194 atomic cells, run assembly.
-3. Run the preregistered independent verifier and repository gates.
-4. Report the four banking gates before any outcome is recorded.
+Derive and preregister the BAO observer-angle map without reading BAO curves or importing a standard
+ruler. Then test frozen G99 as a holdout with no SNe retuning, history promotion, or `X_max` inference.
 
 Historical handoff material is preserved verbatim in
 `archive/startup_surface_2026-08-14/HANDOFF_before_cleanup.md` and older archive files.
 
-<!-- INHERITED_GROK_HANDOFF_END -->
+<!-- STARTUP_CURRENT_END -->

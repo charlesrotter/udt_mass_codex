@@ -2,139 +2,98 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-## CURRENT STATE — 2026-08-14 (branch `grok2` only)
+## CURRENT STATE — 2026-08-15
 
-Branch: `grok2`, forked from `grok` @ `b343566a`. This block overrides every older status
-description **on this branch**. It does not apply to `grok`. Synchronize and inspect dirt
-before work. Preserve all unrelated untracked files.
+Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
+description.
 
-**Read next:** `GROK2_STARTUP.md`, then
-`udt_session_dilation_skeleton_2026-08-14/` (`README.md`, `STATUS.md`,
-`PREMISE_LEDGER.tsv`, `EXACT_DERIVATION.md`, `GROK_KERNEL_PARALLEL.md`).
+### Active scientific lane — no-shortcut reciprocal kernel reconstruction
 
-Compared to `origin/grok` @ `fbc1c9e0`: parallel, not contradiction. Their
-banked evaluator is the machine; this skeleton is a candidate history /
-Earth-sky pair. Incorporation brief is `GROK_KERNEL_PARALLEL.md`.
+The internally and externally verified, banked package
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` controls the theory frontier. A fresh
+sealed `gpt-5.4` adversary independently reproduced the load-bearing algebra and returned
+`VERIFIED_WITH_CAVEATS` with no blocking defect. Its preregistered landing is
 
-### Active theory lane on this branch — unbanked dilation skeleton
+```text
+FULL_UNCOMPRESSED_TERMINAL_EVALUATOR_DERIVED
+__NO_SCALAR_MU_OWNED
+__PHYSICAL_PAIR_AND_HISTORY_OPEN
+```
 
-Session package: `udt_session_dilation_skeleton_2026-08-14/` (commit `bb59925b` and
-follow-ons). Grade: unbanked conversational derivation. Not canon. Not a verifier
-pass. A skeleton that may align with the universe; not guaranteed.
+For a supplied complete coframe `E=[[B,0],[Q S,Q]]` and supplied regular pair realization
+`J=[Y;Z]`, it derives
 
-Owned here: \(\phi_{\mathrm{rad}}=\mathrm{artanh}(\rho/X)\); rest-observer
-\(1+z=e^{\Delta\phi_{\mathrm{rad}}}\); \(d_L=\rho(1+z)^2\) under Liouville and
-\(D_A=\rho\); August comparison-arrow \(\mu\) (lock defect, coboundary \(k\),
-scoped \(s\neq e^{\Delta\phi}\)) is the angular mixing, not worldline lean;
-BAO viewing pair is Earth–sky; uniform-\(k\) shell is a scoped empty, not a
-no-go.
+```text
+h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
 
-Measured here, not derived: five Hubble-flow megamaser disks,
-\(X\sim 4\times 10^3\,\mathrm{Mpc}\) to about ten percent. They do not test
-the \(\tanh\) bend.
+phi_pair=(1/4)log[(-det h)/h00^2],
 
-Open: time-live \(g\); second screen; regular \(s\) at the origin; which \(k\)
-exists; spectroscopic \(z\) versus heard \(\delta_t\); derived \(X\); derived
-sky angle. Do not pick \(k\) or \(\omega\) to fit BAO.
+c_eff^(pair)/c_E=(-h00)/sqrt(-det h)=exp(-2phi_pair).
+```
 
-### Inherited `grok` operational lane — do not drive it from here
+The exact live identity retains `dot B,dot Q,dot S,dot Y,dot Z` separately. Production symbolic,
+standalone Fraction replay, shrinking-step derivatives, hostile mutations, package verification,
+and repository tests (`90 passed, 1 xfailed`) pass.
 
-R3 covariance production remains the parent `grok` data-only lane
-(`udt-r3-covariance-patchlists-20260813.service`). This branch does not own
-that worker. Do not inspect covariance ranks, scales, or shapes. R2 remains
-`VERIFIED-WITH-CAVEATS` as raw pattern characterization only: not BAO, not
-\(X_{\max}\), not a UDT response.
+This confirms conditionally that the complete orchestra is assembled inside one pair metric before
+the terminal reciprocal-`c_E` readout. It does **not** construct the physical pair realization or
+history. The old Gram matrix `P` is sufficient for the zero-order A-calibrated pair metric, but it
+erases screen representatives and the distinction between four-component ambient mixing `S` and
+pair embedding. Holding `P` fixed supplies only a diagnostic, not a physical quiet-middle score.
 
-The unbanked reciprocal-kernel lead
-`udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/` and its
-durable pair-first / reachability / chord-descent parents remain on the parent
-history. They are not this skeleton and do not overrule it on `grok2`.
+G93 externally joins G87/G89/G90/G92 as one coherent release-candidate kernel with caveats. Ambient
+and terminal arrows remain distinct; all `B,Q,S,Y,Z` channels enter before readout and `mu_lock` is
+never appended. A no-fit replay is justified; physical history and flux remain `OPEN`.
 
-### High-risk premise guard
+G94 derives `F_o=L_Omega eta epsilon/(Z^3 d_A^2)` conditionally; G95/G96 retain only response,
+transport, and query bookkeeping. Physical `eta` and the carrier-covector premise remain open.
 
-- `c_E`: `OBSERVED` clock/ruler calibration. Local physics unchanged.
-- \(\phi_{\mathrm{rad}}=\mathrm{artanh}(\rho/X)\): `DERIVED` this session, unbanked.
-- August \(\mu\): `THEORY` 2026-08-06; lock defect, not lean speed.
-- \(s=R_q/R_p\) with \(R=\rho\): `CHOSE`; origin illegal.
-- spectroscopic \(1+z=e^{\Delta\phi}\) vs pair \(\delta_t\): `OPEN FORK`.
-- megamaser \(X\): `OBSERVED` slope only.
-- 3 K starlight screen: `POSIT`; \(T_\star\) interpretation-conditional.
-- `X_max` value: measured nearby, not derived; not a wall.
-- `S^2` carrier: `POSIT`.
-- BAO: not shown, not ruled out.
+G97 is the first externally verified end-to-end complete-geometry SNe house test. With provisional
+`eta=1`, `epsilon=1/Z`, and source isotropy, one preselected G79 control gives `chi2=16255.30` for
+`1366` degrees of freedom and is strongly incompatible with the registered SNe mean relation. The
+full curve and likelihood replay. This is one control/query/transfer tile—not a physical history,
+native radiation law, all-sky theorem, `X_max`, or rejection of UDT. Do not tune another geometry.
 
-### Local dirt and guards
+G98 is the preregistered zoom-out return:
+`INTERNALLY_VERIFIED_WITH_CAVEATS__PERMITTED_NOT_OWNED`. Exact flat, monotone, and loud-quiet-loud
+histories survive with every factor and `dot h` contribution live. Current compatibility equations
+therefore select no continuation. This is a frozen-source/regular-stratum result, not a generic
+no-go; the quiet-middle architecture is lawful but not selected.
+G99 freezes the verified P1 central SNe relation once as an `OBSERVED/CONDITIONAL` middle chord,
+with no optimizer or holdout read. It is not a complete history and lacks joint `(n,X_eff)` covariance.
+### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
-Preserve without staging unless Charles names the files. Do not mine protected
-`grok` payloads. Do not merge `grok2` into `grok` unless asked.
+R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
+independently reconstructed. It is raw pattern characterization, not a preferred feature,
+significance, scale, BAO origin, UDT response, cosmology, CMB relation, or `X_max`.
 
-### Immediate next action
+R3 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. All 2,328 covariances and
+eight deletion anchors pass independent verification; rank and covariance scale depend on NSIDE, so
+no preferred grid or inverse-covariance significance is permitted. Read `R3_OUTCOME_REPORT.md` and
+`R3_VERIFICATION_RESULT.json` after orientation.
 
-Stay on `grok2`. Follow `GROK2_STARTUP.md`. Wait for Charles to name the next
-scientific step. Do not launch a fit, a BAO mechanism, or an R3 inspection.
+R4 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT`.
+The broad complete-curve shape persists across 9,286 relations, while amplitude/fine detail and full
+covariance quadratics remain control- and grid-dependent. Read `R4_OUTCOME_REPORT.md` and
+`R4_VERIFICATION_RESULT.json`.
 
-### Archive
+R5 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__ONE_DOMINANT_SHARED_DIRECTION__ADDITIONAL_SUBSPACE_ALIGNMENT_CONTROL_DEPENDENT__COVARIANCE_RANGE_PARTLY_UNRESOLVED`.
+It finds one dominant whole-curve direction plus control-dependent additional alignment, selects no
+rank or feature, and leaves 184,300 covariance-range rows explicitly unresolved. Read
+`R5_OUTCOME_REPORT.md`, `R5_VERIFICATION_RESULT.json`, `R5_EXTERNAL_FOLLOWUP_REVIEW.md`, and
+`R5_FINAL_EVIDENCE_MANIFEST.tsv`.
 
-The `grok` 2026-08-14 R3/kernel startup prose is inherited below
-`STARTUP_CURRENT_END` and in `archive/startup_surface_2026-08-14/`. Provenance
-only on this branch.
+The controlling package is `udt_observed_angular_pattern_raw_restart_2026-08-12/`. The verified raw
+archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. The parallel method crosswalk
+is `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`; no published curve exactly matches
+the query, so published peaks remain quarantined.
 
-<!-- STARTUP_CURRENT_END -->
+### Regraded predecessor — conditional fixed-Gram reciprocal response
 
-## INHERITED GROK CURRENT STATE — 2026-08-14 (not this branch's dispatch)
-
-Branch at fork: `grok`. Left here so `grok2` does not erase the parent
-orientation. Do not treat the following as the `grok2` next action.
-
-### Active operational lane — R3 raw spatial covariance is running
-
-R2 is `VERIFIED-WITH-CAVEATS` in its exact bounded data-only role: 194 observer-coordinate
-selections, four weight lanes, three nested random ratios, 119 angular bins, and 2,328 curves. Every
-curve/descriptor was independently reconstructed; nine TreeCorr and twelve direct-primary anchors
-pass. This is raw pattern characterization, not a preferred feature, significance, physical scale,
-BAO interpretation, UDT response, CMB relation, cosmology, or `X_max`.
-
-R3 retains all 194 selections, four lanes, 119 bins, and NSIDE 4/8/16 exact delete-one-spatial-block
-covariance at the fixed 20x random readout. For R3 validation or assembly **after the bounded startup
-orientation**, read package evidence in this order:
-
-1. `udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md`;
-2. `R3_PREREGISTRATION.md`;
-3. `R3_PREEXECUTION_GATES.md` and `R3_SUPPORT_TYPING_CORRECTION.md`;
-4. `R3_PATCH_CARDINALITY_CORRECTION_REPORT.md` and its adversarial review;
-5. `STATUS_LEDGER.tsv`.
-
-These correction documents preserve their report-time process state and commit IDs. They do not
-override this block for current runtime status. Monitoring alone does not require reading full R3
-implementations or raw checkpoint contents.
-
-The first guarded attempt produced 48 North checkpoints, then stopped before any covariance outcome
-was inspected because TreeCorr independently shrank data/random patch cardinalities. Those 48 files
-are provenance only. The verified explicit-single-patch-list repair and failure-propagating wrapper
-are banked in `2ddb4066`; no statistical or scientific premise changed.
-
-Fresh empty component production began at `2026-08-13 23:34:54 EDT`:
-
-- service: `udt-r3-covariance-patchlists-20260813.service`;
-- checkpoints: `/tmp/udt_boss_r3_checkpoints_patchlists`;
-- read-only timer: `udt-r3-monitor-patchlists-20260813.timer`.
-
-The timer records service, checkpoint, memory, and partial-file health every 30 minutes and never
-restarts the worker. Do not freeze a transient checkpoint count into this file. Do not inspect
-covariance ranks, scales, or shapes while production is active.
-
-**R3 gate:** finish all 194 component cells -> assemble frozen outputs -> run the complete
-independent verifier -> only then inspect or bank an outcome.
-
-The parallel primary-method cross-check is complete and bankable with caveats at
-`udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`. Official BOSS sources support the
-input lineage, W3 observational weight, optional-FKP/unit-random branch, random/mask semantics, and
-weighted Landy-Szalay normalization. W0-W2 are diagnostics. No published curve exactly matches this
-query, so published peaks remain quarantined.
-
-### Latest internal theory lead — conditional reciprocal/orchestra response
-
-The local unbanked package
+The protected local unbanked package
 `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/` derives, for one supplied
 complete A-calibrated pair relation,
 
@@ -147,9 +106,10 @@ has one strict intermediate trace minimum; the balanced diagnostic is proportion
 Internal exact, independent-rational, live-derivative, hostile-mutation, package, and repository
 checks pass.
 
-Status: `CONDITIONAL INTERNALLY VERIFIED LEAD`; fresh semantic review and banking remain pending.
-The full history retains both `B(lambda)` and `P(lambda)`. No physical micro/middle/cosmological
-regime history, action, source, matter, bootstrap selection, SNe/CMB result, or `X_max` follows.
+Its exact fixed-`P` convexity result remains a `CONDITIONAL_DIAGNOSTIC_ONLY`. The new uncompressed
+audit proves that `P` is sufficient for the zero-order pair metric but not for channel attribution,
+rotating screen motion, or physical history. No physical micro/middle/cosmological regime history,
+action, source, matter, bootstrap selection, SNe/CMB result, or `X_max` follows.
 
 ### Durable structural parents
 
@@ -172,6 +132,9 @@ global relation-family ownership, dynamics, action, source, matter, bootstrap, o
 - pointwise `phi`: presentation potential; universal physical ownership `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - angular/mixing orchestra enters before terminal readout: `DERIVED` conditionally.
+- modern mixing is four-component `S`; G92 maps `mu_lock` to one supplied endpoint-transition
+  component, not a unique scalar or terminal correction; G93 keeps that arrow distinct from the
+  pair readout throughout exact composition and reversal.
 - `X_max`: `WORKING_FOUNDATIONAL_FRAME` for an observer-pair dilation asymptote; value and complete
   realization `OPEN`; not a wall, center, seal, or boundary term.
 - strong local CSN: `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED`, inactive.
@@ -196,14 +159,12 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Monitor R3 resources and atomic completion only. After component completion, assemble and run the
-preregistered independent verification before any pattern discussion. Do not launch another solve,
-profile ranking, physical fit, or theory mechanism while this gate is open.
+1. Derive and preregister the BAO observer-angle map without reading BAO curves or importing a ruler.
+2. Only then expose frozen G99 to the BAO holdout; no SNe retuning, `X_max`, or history promotion.
 
 ### Archive
-
 Superseded startup/status prose through this cleanup is preserved verbatim under
 `archive/startup_surface_2026-08-14/`. Earlier historical layers remain under `archive/`. They are
 provenance, not current authority.
 
-<!-- INHERITED_GROK_STARTUP_END -->
+<!-- STARTUP_CURRENT_END -->
