@@ -10,7 +10,11 @@ before work. Preserve all unrelated untracked files.
 
 **Read next:** `GROK2_STARTUP.md`, then
 `udt_session_dilation_skeleton_2026-08-14/` (`README.md`, `STATUS.md`,
-`PREMISE_LEDGER.tsv`, `EXACT_DERIVATION.md`).
+`PREMISE_LEDGER.tsv`, `EXACT_DERIVATION.md`, `GROK_KERNEL_PARALLEL.md`).
+
+Compared to `origin/grok` @ `fbc1c9e0`: parallel, not contradiction. Their
+banked evaluator is the machine; this skeleton is a candidate history /
+Earth-sky pair. Incorporation brief is `GROK_KERNEL_PARALLEL.md`.
 
 ### Active theory lane on this branch — unbanked dilation skeleton
 

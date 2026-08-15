@@ -94,9 +94,19 @@ interpretation-conditional.
 - Do not stage the large untracked dirt unless Charles names those files.
 - Do not merge this into `grok` unless Charles asks.
 
+## Parallel `grok` kernel (as of `fbc1c9e0`)
+
+Not a contradiction. `grok` owns the banked uncompressed pair evaluator and
+the August \(\mu_{\mathrm{lock}}\) crosswalk into \(M_{pq}\). This branch owns
+a candidate history and Earth-sky pair. See
+
+```text
+udt_session_dilation_skeleton_2026-08-14/GROK_KERNEL_PARALLEL.md
+```
+
+for the incorporation brief. Do not smash the layers.
+
 ## Immediate next action
 
-Stay on `grok2`. The next scientific step is whatever Charles names. The
-owned unfinished objects are: Earth-sky August \(\mu\) with a regular \(s\),
-the \(z\) vs \(\delta_t\) fork, time-live geometry (not only \(k(t)\)), and
-the second screen. Do not launch a fit.
+Stay on `grok2` unless Charles names a join. The other workstation can take
+`GROK_KERNEL_PARALLEL.md` as suggestions. Do not launch a fit.
