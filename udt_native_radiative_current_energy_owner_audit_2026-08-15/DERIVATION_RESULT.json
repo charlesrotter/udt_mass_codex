@@ -1,0 +1,26 @@
+{
+  "homogeneous_identity_dF_zero": true,
+  "response_definition_J3_dstarF": true,
+  "response_conservation_dJ3_zero": true,
+  "source_free_dstarF_zero_is_identity": false,
+  "source_free_counterexample": {
+    "A": "t^2 dx",
+    "F": {
+      "01": "2*t"
+    },
+    "starF": {
+      "23": "-2*t"
+    },
+    "J3": {
+      "023": "-2"
+    }
+  },
+  "gauge_invariance": true,
+  "response_normalization_free": true,
+  "hamiltonian_phase_volume_preserved": true,
+  "arbitrary_distribution_transport_residual": "-p0",
+  "distribution_transport_selected_by_metric": false,
+  "conditional_energy_ratio": "epsilon=1/Z after physical p proportional to null-query covector",
+  "physical_carrier_identification_selected": false,
+  "landing": "GEOMETRIC_RESPONSE_AND_PHASESPACE_TRANSPORT_ONLY__PHYSICAL_TRANSFER_OPEN"
+}

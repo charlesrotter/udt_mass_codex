@@ -1,0 +1,12 @@
+{
+  "implementation": "stdlib_Fraction_polynomial_exterior_algebra_no_SymPy_no_primary_import",
+  "dF_zero": true,
+  "dJ3_zero": true,
+  "J3_nonzero_generic_witness": true,
+  "source_free_counterexample_nonzero": true,
+  "gauge_invariance": true,
+  "phase_volume_divergence_zero": true,
+  "arbitrary_density_transport_nonzero": true,
+  "conditional_energy_ratio": "2/3",
+  "all_pass": true
+}
