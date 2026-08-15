@@ -186,7 +186,9 @@ def main() -> None:
         json.dumps(contract, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
     with (HERE / "CALIBRATION_NODES.tsv").open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, delimiter="\t", fieldnames=list(node_rows[0]))
+        writer = csv.DictWriter(
+            handle, delimiter="\t", fieldnames=list(node_rows[0]), lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(node_rows)
     print(
