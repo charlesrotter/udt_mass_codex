@@ -1,0 +1,70 @@
+{
+  "manifest": [
+    {
+      "actual": "50fb5a254a8161bafcf71310c11cd219218c359de7fbfad2abf4b3f0dcc7543c",
+      "expected": "50fb5a254a8161bafcf71310c11cd219218c359de7fbfad2abf4b3f0dcc7543c",
+      "pass": true,
+      "path": "udt_observed_middle_regime_pair_calibration_2026-08-15/CALIBRATION_CONTRACT.json"
+    },
+    {
+      "actual": "469fe2c116a732ca5041525437af12b3b2d97b40b8c5385ba302b59b2f2de4c7",
+      "expected": "469fe2c116a732ca5041525437af12b3b2d97b40b8c5385ba302b59b2f2de4c7",
+      "pass": true,
+      "path": "udt_observed_middle_regime_pair_calibration_2026-08-15/AUDIT_REPORT.md"
+    },
+    {
+      "actual": "33cf2128fcd96a962a8ae122d38b08de3c1ae1782e9d41135098e6f7adcb83d4",
+      "expected": "33cf2128fcd96a962a8ae122d38b08de3c1ae1782e9d41135098e6f7adcb83d4",
+      "pass": true,
+      "path": "udt_observed_middle_regime_pair_calibration_2026-08-15/PREMISE_LEDGER.tsv"
+    },
+    {
+      "actual": "2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf",
+      "expected": "2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf",
+      "pass": true,
+      "path": "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv"
+    },
+    {
+      "actual": "ffd3124b32148b1372bd95fda9299269f0352a9f8eee02d416c610e38495463b",
+      "expected": "ffd3124b32148b1372bd95fda9299269f0352a9f8eee02d416c610e38495463b",
+      "pass": true,
+      "path": "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/STAT+SYS.npz"
+    },
+    {
+      "actual": "ba596d4f035530e53bf5bf2c24359e2dc00ef6449661a30c83bdbe50ae26f6b2",
+      "expected": "ba596d4f035530e53bf5bf2c24359e2dc00ef6449661a30c83bdbe50ae26f6b2",
+      "pass": true,
+      "path": "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/STATONLY.npz"
+    },
+    {
+      "actual": "45ad71f8470eaecfe2b386699ef66b26b0717c50f445d5f32941988d32c75388",
+      "expected": "45ad71f8470eaecfe2b386699ef66b26b0717c50f445d5f32941988d32c75388",
+      "pass": true,
+      "path": "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/DES-Dovekie_Metadata.csv"
+    },
+    {
+      "actual": "7afa1b4c11f465d90eeb0352eb4ca0721f2baa856f545e16ac24af9aa067cf7e",
+      "expected": "7afa1b4c11f465d90eeb0352eb4ca0721f2baa856f545e16ac24af9aa067cf7e",
+      "pass": true,
+      "path": "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/README.md"
+    }
+  ],
+  "mu_consumed": false,
+  "n_all": 1820,
+  "n_des": 1623,
+  "precision_cholesky": "PASS",
+  "precision_shape": [
+    1820,
+    1820
+  ],
+  "precision_symmetry_max_abs": 0.0,
+  "status": "SCHEMA_AND_COVARIANCE_DRY_GATE_PASS",
+  "zHD_all_range": [
+    0.02509,
+    1.14418
+  ],
+  "zHD_des_range": [
+    0.07334,
+    1.14418
+  ]
+}
