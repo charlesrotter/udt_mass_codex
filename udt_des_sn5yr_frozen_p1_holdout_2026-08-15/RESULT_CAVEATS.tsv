@@ -1,0 +1,13 @@
+issue	status	consequence
+low_primary_chi2	ACTIVE	cannot call the fixed curve cleanly confirmed under literal N-1 chi-square semantics
+effective_degrees_of_freedom	OPEN	BEAMS/error renormalization and correlations may change the naive chi-square reference
+standardized_data	CONDITIONAL	MU inherits SALT3 host selection BEAMS and bias-correction processing
+event_overlap	OPEN	DES and Pantheon samples are not proven disjoint
+P1_ownership	CHOSE_OBSERVED_CONDITIONAL	robustness does not make P1 metric-derived
+absolute_scale	PROFILED_OUT	no X_eff H0 or Xmax return
+flux_transfer	CONDITIONAL	no native carrier/source closure follows
+complete_history	OPEN	terminal curve does not assign B Q S Y Z or time-live continuation
+redshift_semantics	CONDITIONAL	zHD is the preregistered closest analogue of G99 zCMB not a universal theorem
+external_semantic_review	PASS_WITH_CAVEATS	retain every caveat and the conditional non-rejection ceiling
+chi2_reference	APPROXIMATE_FOR_RELEASED_PRODUCT	lower-tail p is a warning diagnostic not an exact calibration theorem
+sealed_replay_portability	REPAIRED_AFTER_REVIEW	future intake replay can use --data-dir and --check-only

@@ -25,9 +25,7 @@ For a supplied complete coframe `E=[[B,0],[Q S,Q]]` and supplied regular pair re
 
 ```text
 h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
-
 phi_pair=(1/4)log[(-det h)/h00^2],
-
 c_eff^(pair)/c_E=(-h00)/sqrt(-det h)=exp(-2phi_pair).
 ```
 
@@ -59,8 +57,11 @@ G98 is the preregistered zoom-out return:
 histories survive with every factor and `dot h` contribution live. Current compatibility equations
 therefore select no continuation. This is a frozen-source/regular-stratum result, not a generic
 no-go; the quiet-middle architecture is lawful but not selected.
-G99 freezes the verified P1 central SNe relation once as an `OBSERVED/CONDITIONAL` middle chord,
-with no optimizer or holdout read. It is not a complete history and lacks joint `(n,X_eff)` covariance.
+G99 freezes P1 as an `OBSERVED/CONDITIONAL` middle chord, not a complete history. G100 tests that
+unchanged shape on 1623 DES-SN5YR/Dovekie rows with the correct marginal covariance:
+`VERIFIED_WITH_CAVEATS__FROZEN_P1_NOT_REJECTED__LOW_CHI2_REFERENCE_WARNING`. A sealed adversary
+reproduced `chi2=1444.18644/1622 nominal dof`; the processed-release chi-square is approximate. The
+secondary shift is `1.64 sigma`. No direct Lambda-CDM distance, scale, `X_max`, history, or UDT proof follows.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
@@ -159,12 +160,11 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-1. Derive and preregister the BAO observer-angle map without reading BAO curves or importing a ruler.
-2. Only then expose frozen G99 to the BAO holdout; no SNe retuning, `X_max`, or history promotion.
+Derive and preregister the BAO observer-angle map without reading BAO curves or importing a ruler;
+then expose frozen G99/G100 with no SNe retuning, `X_max`, or history promotion.
 
 ### Archive
-Superseded startup/status prose through this cleanup is preserved verbatim under
-`archive/startup_surface_2026-08-14/`. Earlier historical layers remain under `archive/`. They are
-provenance, not current authority.
+Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,
+not current authority.
 
 <!-- STARTUP_CURRENT_END -->

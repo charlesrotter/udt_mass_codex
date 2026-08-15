@@ -1,0 +1,141 @@
+{
+  "DES_only_STATONLY": {
+    "chi2": 1482.5694020539522,
+    "dof": 1622,
+    "lower_tail_p": 0.006034295993134066,
+    "offset_B": 41.70849325336433,
+    "reduced_chi2": 0.9140378557669249,
+    "status": "LOW_CHI2_COVARIANCE_OR_EFFECTIVE_DOF_WARNING",
+    "upper_tail_p": 0.9939657040068659
+  },
+  "DES_only_equal_count_residual_bins": [
+    {
+      "bin": 1,
+      "mean_residual_mag": 0.09526529627173737,
+      "n": 163,
+      "rms_residual_mag": 0.4152674860912749,
+      "z_max": 0.27659,
+      "z_min": 0.07334
+    },
+    {
+      "bin": 2,
+      "mean_residual_mag": 0.11794498988848519,
+      "n": 163,
+      "rms_residual_mag": 0.41875282067776914,
+      "z_max": 0.34273,
+      "z_min": 0.27694
+    },
+    {
+      "bin": 3,
+      "mean_residual_mag": 0.07902817031101259,
+      "n": 163,
+      "rms_residual_mag": 0.3475828214585394,
+      "z_max": 0.40031,
+      "z_min": 0.34291
+    },
+    {
+      "bin": 4,
+      "mean_residual_mag": 0.05966326472510534,
+      "n": 162,
+      "rms_residual_mag": 0.22123886922921054,
+      "z_max": 0.45675,
+      "z_min": 0.40109
+    },
+    {
+      "bin": 5,
+      "mean_residual_mag": 0.05990154858753697,
+      "n": 162,
+      "rms_residual_mag": 0.20035069138324305,
+      "z_max": 0.5192,
+      "z_min": 0.45682
+    },
+    {
+      "bin": 6,
+      "mean_residual_mag": 0.03594999785009787,
+      "n": 162,
+      "rms_residual_mag": 0.226977428241042,
+      "z_max": 0.56699,
+      "z_min": 0.51956
+    },
+    {
+      "bin": 7,
+      "mean_residual_mag": 0.042289860320542445,
+      "n": 162,
+      "rms_residual_mag": 0.22481566032423866,
+      "z_max": 0.61854,
+      "z_min": 0.5674
+    },
+    {
+      "bin": 8,
+      "mean_residual_mag": 0.05701078019792146,
+      "n": 162,
+      "rms_residual_mag": 0.25561677193606,
+      "z_max": 0.67713,
+      "z_min": 0.6187
+    },
+    {
+      "bin": 9,
+      "mean_residual_mag": 0.016683163924723635,
+      "n": 162,
+      "rms_residual_mag": 0.16927623779309842,
+      "z_max": 0.77327,
+      "z_min": 0.67746
+    },
+    {
+      "bin": 10,
+      "mean_residual_mag": -0.03205341824086712,
+      "n": 162,
+      "rms_residual_mag": 0.2117711525032591,
+      "z_max": 1.14418,
+      "z_min": 0.77334
+    }
+  ],
+  "DES_only_shape_profile": {
+    "bounds_s": [
+      0.0001,
+      40.0
+    ],
+    "chi2_best": 1441.5037432536483,
+    "chi2_frozen": 1444.1864417493343,
+    "delta_chi2_1dof_upper_tail_p": 0.10144369696694312,
+    "delta_chi2_frozen_minus_best": 2.6826984956860542,
+    "equivalent_abs_normal_sigma": 1.6378945313072066,
+    "n_best": 1.0152457866699016,
+    "n_delta_chi2_1": {
+      "hi": 1.0397634826261326,
+      "hi_open": false,
+      "lo": 0.9916910134637913,
+      "lo_open": false
+    },
+    "primary_repair_permitted": false,
+    "s_best": 0.9849831569162092,
+    "s_delta_chi2_1": {
+      "hi": 1.0083786042460816,
+      "hi_open": false,
+      "lo": 0.9617571848881421,
+      "lo_open": false
+    }
+  },
+  "DES_only_zHEL_STAT_SYS": {
+    "chi2": 1443.4738674461842,
+    "dof": 1622,
+    "lower_tail_p": 0.0005859507005671847,
+    "offset_B": 41.70315542846799,
+    "reduced_chi2": 0.8899345668595463,
+    "status": "LOW_CHI2_COVARIANCE_OR_EFFECTIVE_DOF_WARNING",
+    "upper_tail_p": 0.9994140492994328
+  },
+  "LambdaCDM_distance_used": false,
+  "full_1820_STAT_SYS": {
+    "chi2": 1654.530309960246,
+    "dof": 1819,
+    "lower_tail_p": 0.0025355676804399304,
+    "offset_B": 41.70624379400021,
+    "reduced_chi2": 0.9095823584168478,
+    "status": "LOW_CHI2_COVARIANCE_OR_EFFECTIVE_DOF_WARNING",
+    "upper_tail_p": 0.9974644323195601
+  },
+  "may_repair_primary": false,
+  "primary_status_unchanged": "LOW_CHI2_COVARIANCE_OR_EFFECTIVE_DOF_WARNING",
+  "status": "SECONDARY_DIAGNOSTICS_COMPLETE"
+}

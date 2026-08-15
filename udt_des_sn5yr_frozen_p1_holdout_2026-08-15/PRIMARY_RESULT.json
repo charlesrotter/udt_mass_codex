@@ -1,0 +1,21 @@
+{
+  "LambdaCDM_distance_used": false,
+  "absolute_scale_inferred": false,
+  "chi2": 1444.1864417493343,
+  "covariance": "STAT+SYS marginal DES block",
+  "dof": 1622,
+  "lower_tail_p": 0.0006144041635591934,
+  "n_data": 1623,
+  "n_frozen": 1.0559332414320268,
+  "observation": "MU",
+  "offset_B": 41.70895660296955,
+  "primary": true,
+  "profile": "P1",
+  "program": "G100",
+  "redshift": "zHD",
+  "reduced_chi2": 0.8903738851722159,
+  "sample": "IDSURVEY==10",
+  "secondary_diagnostics_evaluated": false,
+  "status": "LOW_CHI2_COVARIANCE_OR_EFFECTIVE_DOF_WARNING",
+  "upper_tail_p": 0.9993855958364408
+}

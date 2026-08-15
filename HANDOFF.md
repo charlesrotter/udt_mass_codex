@@ -30,14 +30,15 @@ This is not a physical history, native transfer law, all-sky theorem, or UDT rej
 G98's exact flat, monotone, and loud-quiet-loud histories survive; `PERMITTED_NOT_OWNED` makes the
 quiet middle lawful, not selected. G99 freezes verified P1 once as an `OBSERVED/CONDITIONAL` middle
 chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncertainty remain open.
+
+G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS`, conditional non-rejection
+at `chi2=1444.18644/1622 nominal dof`, low-chi-square reference warning, and `1.64 sigma` secondary
+shape shift. Read its `AUDIT_REPORT.md` and `EXTERNAL_REVIEW.md` before interpretation.
 ### What is running
 
-No long observational process remains. R5 assembly, independent replay, hostile-mutation checks,
-ownership repair, and fresh external follow-up finished successfully. R3 operational checkpoints remain under
-`/tmp/udt_boss_r3_checkpoints_patchlists`. The ignored 194-cell NPZ evidence and every other
-manifest-owned output are preserved at
-`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; all 201 manifest rows were reverified by
-byte count and SHA-256.
+No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`.
+The ignored evidence archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; all
+201 manifest rows were reverified by byte count and SHA-256.
 
 ### Honest observational claim
 
@@ -86,9 +87,8 @@ makes them load-bearing. The primary-method cross-check is
 ### Honest theory claim
 
 The banked uncompressed evaluator conditionally derives one complete pair metric and terminal
-reciprocal-`c_E` readout with all coframe and pair-realization blocks retained. Its algebra and
-independent replay pass; fresh semantic review remains pending. It does not own the physical pair or
-regime history.
+reciprocal-`c_E` readout with all coframe and pair-realization blocks retained. Its algebra,
+independent replay, and sealed review pass; it does not own the physical pair or regime history.
 
 Durable verified-with-caveats parents are:
 
@@ -122,9 +122,9 @@ payload; directory presence is not evidence that the unbanked work was committed
 ### Next bounded action
 
 Derive and preregister the BAO observer-angle map without reading BAO curves or importing a standard
-ruler. Then test frozen G99 as a holdout with no SNe retuning, history promotion, or `X_max` inference.
+ruler. Then test frozen G99/G100 as a holdout with no SNe retuning, history promotion, or `X_max`
+inference.
 
-Historical handoff material is preserved verbatim in
-`archive/startup_surface_2026-08-14/HANDOFF_before_cleanup.md` and older archive files.
+Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 
 <!-- STARTUP_CURRENT_END -->

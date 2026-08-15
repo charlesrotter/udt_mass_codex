@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "consume_forbidden_metadata_columns": "PASS_REJECTED",
+    "drop_systematics_in_primary": "PASS_REJECTED",
+    "import_LambdaCDM_distance": "PASS_REJECTED",
+    "infer_absolute_scale_from_offset": "PASS_REJECTED",
+    "move_frozen_n": "PASS_REJECTED",
+    "promote_low_chi2_to_clean_success": "PASS_REJECTED",
+    "replace_frozen_shape_with_DES_best": "PASS_REJECTED",
+    "replace_primary_covariance": "PASS_REJECTED",
+    "replace_primary_redshift": "PASS_REJECTED",
+    "replace_primary_sample": "PASS_REJECTED",
+    "secondary_repairs_primary": "PASS_REJECTED",
+    "silently_swap_zHD_for_zHEL": "PASS_REJECTED",
+    "skip_independent_replay": "PASS_REJECTED",
+    "subset_precision_instead_of_marginal_covariance": "PASS_REJECTED"
+  },
+  "n_checks": 14,
+  "primary_chi2": 1444.1864417493343,
+  "status": "PASS",
+  "wrong_precision_chi2": 1451.0553337559104
+}

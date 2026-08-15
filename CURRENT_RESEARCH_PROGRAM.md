@@ -119,13 +119,14 @@ sealed review rebuilt its full null/screen/Jacobi curve and raw-data likelihood 
 conditional evaluation path, not a physical history, native radiation law, all-sky theorem,
 `X_max`, or UDT rejection.
 
-G98's no-fit owner audit retains exact contribution-live flat, monotone, and loud-quiet-loud
-continuations plus multiple G85 global archetypes. `PERMITTED_NOT_OWNED` means the quiet middle is
-lawful but no active native equation selects it. G99 freezes verified P1 central `dL(z)` as an observed conditional middle chord with no refit/holdout, not a complete history or transfer.
+G98 retains exact contribution-live flat, monotone, and loud-quiet-loud continuations but selects
+none. G99 freezes P1 as an observed conditional middle chord, not a history or transfer. G100 tests
+it on DES-SN5YR/Dovekie: externally verified conditional non-rejection, low-chi-square reference
+warning, and about `1.64 sigma` secondary shape shift.
 ## Macro observational anchors
 
-- G99 freezes the historical P1 central SNe relation as an observed conditional middle-regime
-  calibration. It does not own the complete screen/flux law, joint covariance, or cosmological history.
+- G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
+  independent-release non-rejection with a low-chi-square warning, not a UDT test.
 - The current BOSS R2--R4 lane characterizes raw angular structure, covariance, and complete
   control-relation persistence without importing a standard ruler or Lambda-CDM interpretation.
 - Existing CMB geometry packages map conditional sky/Jacobi/screen response families. They do not
@@ -142,10 +143,9 @@ not physical `X_max`.
 
 ## Matter/stability lane
 
-The mass-emergence record contains plural conditional geometry branches and a conditional static
-finite-box Hopfion result. The implementation is full 3D Hopf-capable, but the `S^2` carrier remains
-a posit and time-live/infinite-volume/unconditional matter closure remains open. Resume this lane
-from `MASS_BRANCH_AUTHORITY_MAP.tsv`, not from historical single-branch summaries.
+The mass-emergence record contains plural conditional branches and a static finite-box Hopfion
+result. It is full 3D Hopf-capable, but the `S^2` carrier remains a posit and unconditional matter
+closure remains open. Resume from `MASS_BRANCH_AUTHORITY_MAP.tsv`.
 
 ## Current open joints
 
@@ -161,8 +161,8 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-1. Derive and preregister a BAO observer-angle map without reading BAO curves or importing a ruler.
-2. Keep the observational residual atlas paused until that map is frozen; then expose G99 once.
+Keep the observational residual atlas paused; derive and preregister a BAO observer-angle map
+without reading BAO curves or importing a ruler, then expose G99/G100 once with no SNe retuning.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.

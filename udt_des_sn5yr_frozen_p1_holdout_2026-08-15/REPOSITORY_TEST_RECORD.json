@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-15",
+  "package_verifier": {
+    "command": "python3 udt_des_sn5yr_frozen_p1_holdout_2026-08-15/verify_package.py",
+    "passed": 37,
+    "failed": 0
+  },
+  "sealed_portability_replay": {
+    "command": "python3 udt_des_sn5yr_frozen_p1_holdout_2026-08-15/verify_independent.py --data-dir /tmp/udt_g100_des_review_20260815/data --check-only",
+    "status": "PASS",
+    "writes": false
+  },
+  "premise_verifier": {
+    "command": "python3 verify_current_scientific_premises.py",
+    "guards_passed": 99,
+    "registry_rows": 87,
+    "status": "PASS"
+  },
+  "repository_tests": {
+    "command": "python3 -m pytest tests/",
+    "passed": 90,
+    "xfailed": 1,
+    "failed": 0,
+    "known_xfail": "test_no_habit_pins"
+  }
+}

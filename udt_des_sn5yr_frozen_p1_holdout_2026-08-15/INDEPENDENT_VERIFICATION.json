@@ -1,0 +1,33 @@
+{
+  "absolute_differences": {
+    "full_chi2": 2.5273948267567903e-08,
+    "hel_chi2": 5.939682523603551e-09,
+    "primary_chi2": 1.1575593816814944e-09,
+    "primary_offset": 7.105427357601002e-15,
+    "shape_delta_chi2": 5.008791958971415e-08,
+    "shape_n": 6.05281593291096e-07,
+    "stat_chi2": 1.0378016668255441e-08
+  },
+  "data_dir": "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT",
+  "method_independence": [
+    "numpy genfromtxt instead of production line parser",
+    "precision Schur complement instead of full precision inversion and covariance subblock",
+    "direct power P1 instead of log1p/expm1 P1",
+    "single bounded shape minimizer instead of production grid plus local minimizer"
+  ],
+  "n_all": 1820,
+  "n_des": 1623,
+  "replayed": {
+    "full_chi2": 1654.5303099349721,
+    "full_offset": 41.70624379400021,
+    "hel_chi2": 1443.4738674402445,
+    "hel_offset": 41.703155428468,
+    "n_best": 1.015246391951495,
+    "primary_chi2": 1444.186441750492,
+    "primary_offset": 41.70895660296954,
+    "shape_delta_chi2": 2.6826984455981346,
+    "stat_chi2": 1482.5694020643302,
+    "stat_offset": 41.70849325336433
+  },
+  "status": "PASS_INDEPENDENT_SCHUR_AND_DIRECT_POWER_REPLAY"
+}

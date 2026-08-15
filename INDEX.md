@@ -61,6 +61,8 @@ Its SNe adjudication records G97's strongly incompatible preselected control und
 G98 continuation ownership: `udt_complete_history_regime_continuation_ownership_audit_2026-08-15/`;
 flat, monotone, and loud-quiet-loud survive, with no active frozen-source selector.
 G99 frozen observed middle chord: `udt_observed_middle_regime_pair_calibration_2026-08-15/`.
+G100 DES-SN5YR/Dovekie frozen-P1 holdout and sealed review:
+`udt_des_sn5yr_frozen_p1_holdout_2026-08-15/`.
 
 G94/G95/G96: `udt_native_flux_luminosity_law_ownership_audit_2026-08-15/`, `udt_native_radiative_current_energy_owner_audit_2026-08-15/`, `udt_null_carrier_measure_ownership_audit_2026-08-15/`.
 
@@ -91,9 +93,7 @@ native-on-shell draft, or local unbanked packages without explicit authority.
 
 ## Archives
 
-- Pre-cleanup startup snapshot: `archive/startup_surface_2026-08-14/`
-- Earlier LIVE layers: `archive/LIVE_*.md` and `archive/live_history_pre_2026-08-09.md`
-- Earlier handoff layers: `HANDOFF_ARCHIVE.md` and `archive/handoff_spine_pre_2026-08-09.md`
+- Startup, LIVE, and handoff histories: `archive/startup_surface_2026-08-14/` and `archive/`
 - Pre-orchestra global-cell assembly: `archive/global_cell_assembly_2026-08-06_legacy/`
 - Historical July frontier: `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`
 

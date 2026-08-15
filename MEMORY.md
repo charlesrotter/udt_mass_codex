@@ -71,8 +71,8 @@ G97 verifies the first end-to-end SNe house test: under provisional `eta=1`, `ep
 `chi2=16255.30/1366 dof` and is strongly incompatible. The evaluator works; history and native
 transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet-loud histories all
 survive with every factor contributing, so current equations permit but do not own the continuation.
-G99 freezes known P1 central `dL(z)` as an observed conditional middle chord with no refit/holdout—not a complete history; transfer and joint uncertainty remain open.
-Next preregister the BAO observer-angle map without reading the BAO curves, then open that holdout.
+G99 freezes known P1 central `dL(z)` as an observed conditional middle chord with no refit/holdout—not a complete history; transfer and joint uncertainty remain open. G100 exposes that frozen shape to DES-SN5YR/Dovekie: no large-residual rejection, a fresh external `PASS_WITH_CAVEATS`, a low-chi-square reference warning, and a modest secondary shape shift. It does not promote P1 or infer scale.
+Next preregister the BAO observer-angle map without reading the BAO curves, then open that holdout with no SNe retuning.
 
 ## Archive
 

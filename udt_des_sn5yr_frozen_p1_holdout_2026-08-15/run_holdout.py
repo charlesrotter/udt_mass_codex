@@ -244,6 +244,7 @@ def profile_shape_diagnostic(cov: np.ndarray, z: np.ndarray,
     s_hi = S_BOUNDS[1] if hi_open else brentq(
         lambda s: objective(s) - target, s_best, S_BOUNDS[1])
     frozen = objective(1.0 / N_G99)
+    delta = frozen - c2_best
     return {
         "s_best": s_best, "n_best": 1.0 / s_best,
         "s_delta_chi2_1": {"lo": float(s_lo), "hi": float(s_hi),
@@ -251,7 +252,9 @@ def profile_shape_diagnostic(cov: np.ndarray, z: np.ndarray,
         "n_delta_chi2_1": {"lo": 1.0 / float(s_hi), "hi": 1.0 / float(s_lo),
                              "lo_open": hi_open, "hi_open": lo_open},
         "chi2_best": c2_best, "chi2_frozen": frozen,
-        "delta_chi2_frozen_minus_best": frozen - c2_best,
+        "delta_chi2_frozen_minus_best": delta,
+        "delta_chi2_1dof_upper_tail_p": float(chi2_dist.sf(delta, 1)),
+        "equivalent_abs_normal_sigma": float(np.sqrt(max(delta, 0.0))),
         "bounds_s": list(S_BOUNDS), "primary_repair_permitted": False,
     }
 

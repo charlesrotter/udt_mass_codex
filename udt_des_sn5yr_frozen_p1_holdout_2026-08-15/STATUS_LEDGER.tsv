@@ -1,0 +1,13 @@
+item	status	evidence	forbidden_promotion
+G100_primary	LOW_CHI2_COVARIANCE_OR_EFFECTIVE_DOF_WARNING	PRIMARY_RESULT.json	clean confirmation or UDT validation
+frozen_P1_large_residual_rejection	NOT_OBSERVED	chi2 1444.1864 for 1622 dof	proof or metric derivation of P1
+DES_shape_shift	OBSERVED_SECONDARY_MODEST	n_DES 1.01525 Delta chi2 2.68270 p 0.10144	primary retuning or new frozen calibration
+full_sample	LOW_CHI2_WARNING_SECONDARY	1654.5303 for 1819 dof	primary replacement
+stat_only	LOW_CHI2_WARNING_SECONDARY	1482.5694 for 1622 dof	claim systematic covariance fully explains warning
+zHEL_sensitivity	NEGLIGIBLE_FOR_CHI2_SECONDARY	1443.4739 versus 1444.1864	universal redshift-column theorem
+absolute_scale	OPEN	offset profiled	X_eff H0 or Xmax inference
+LambdaCDM_distance	NOT_USED	source and code audit	claim raw-photon independence
+complete_history	OPEN	G99/G100 scope	B Q S Y Z selection
+event_disjointness	OPEN	no crossmatch in G100	fully independent event-set claim
+native_transfer	OPEN	G94-G96 and G99 caveats	native luminosity/source law
+external_review	PASS_WITH_CAVEATS	EXTERNAL_REVIEW.md and EXTERNAL_REVIEW_ADJUDICATION.md	clean confirmation or theory-wide validation
