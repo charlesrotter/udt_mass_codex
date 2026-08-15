@@ -1,0 +1,10 @@
+{
+  "all_catches_pass": true,
+  "caught_mutations": [
+    "upper/lower variance sign collapse",
+    "S change without compensating Z carry",
+    "terminal pullback identified with full-arrow strain data",
+    "rank-one restricted agreement promoted to unique rank-two extension"
+  ],
+  "count": 4
+}

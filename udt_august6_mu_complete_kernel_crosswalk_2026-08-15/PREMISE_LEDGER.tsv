@@ -1,0 +1,9 @@
+item	status	ownership	guard
+august_arrow	CONDITIONAL	supplied one-screen endpoint comparison arrow	not a universal physical arrow
+august_mu_defect	DERIVED_WITH_CAVEATS	generic s!=r strain-spectrum defect; exact s=r carve-out	not a unique complete scalar or depth law
+complete_coframe	CONDITIONAL	supplied regular B Q S chart	not selected physical history
+pair_realization	CONDITIONAL	supplied regular Y Z query realization	not metric-selected
+pair_metric	DERIVED_CONDITIONAL	exact pullback h from E and J	not the full endpoint arrow
+terminal_readout	DERIVED_CONDITIONAL	phi_pair and c_eff/c_E from regular h	not local signalling speed
+endpoint_carry	OPEN	map relating endpoint coframes and query calibration	must not be silently inserted
+unique_complete_mu	OPEN	possible future invariant/selection law	must not be inferred from one-screen slice

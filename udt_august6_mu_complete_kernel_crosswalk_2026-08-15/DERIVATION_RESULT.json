@@ -1,0 +1,38 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "all_extensions_agree_on_restricted_slice": true,
+    "august_det_reproduced": true,
+    "august_inv2_reproduced": true,
+    "august_trace_reproduced": true,
+    "base_aligned_pair_metric": true,
+    "extensions_differ_on_rank_two_slice": true,
+    "general_endpoint_transition_formula": true,
+    "modern_one_screen_coframe_equals_lower_dual": true,
+    "pair_pullback_independent_of_screen_scale": true,
+    "pullback_fiber_exact": true,
+    "restricted_gram_is_mu2_rank_one": true,
+    "upper_adjoint_is_lower_modern_slice": true,
+    "upper_lower_charpolys_equal": true,
+    "upper_lower_strains_are_similar": true
+  },
+  "conditional_crosswalk": {
+    "lower_transition_mixing_block": "Q_q (S_q-S_p) B_p^-1",
+    "one_screen_relation": "m_lower=-mu_lock=Q_q*(S_q-S_p)*B_p^-1|screen,clock",
+    "reference_slice": "B_p=Q_p=I, S_p=0; B_q=diag(a,r), Q_q=s, S_q=(-mu/s,0)"
+  },
+  "landing": "MIXED__RESTRICTED_S_COORDINATE_BRIDGE_EXISTS__MU_LOCK_INVARIANT_REMAINS_FULL_ARROW_CHANNEL__TERMINAL_PAIR_RECOVERY_NONUNIQUE",
+  "nonuniqueness_witness": {
+    "F_1_minus_F_0_rank_two": "mu**2*u**2",
+    "F_alpha_rank_two": "alpha*mu**2*u**2 + mu**2 + u**2",
+    "F_alpha_restricted": "mu**2",
+    "restricted_P": "Matrix([[mu**2, 0], [0, 0]])"
+  },
+  "pair_pullback": {
+    "h": "Matrix([[-a**2 + mu**2, 0], [0, r**2]])",
+    "old_full_arrow_trace": "-mu**2 + r**2 + s**2 + r**(-2)",
+    "screen_scale_retained_by_base_pair_h": "0",
+    "screen_scale_retained_by_old_arrow": "2*s",
+    "terminal_ratio_squared_a_eq_1_over_r": "-(mu*r - 1)*(mu*r + 1)/r**4"
+  }
+}

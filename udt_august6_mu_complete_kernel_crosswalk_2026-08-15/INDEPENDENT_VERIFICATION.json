@@ -1,0 +1,22 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "adjoint_lower_crosswalk": true,
+    "august_numeric_invariants": true,
+    "base_pair_h_expected": true,
+    "general_transition_formula": true,
+    "pullback_fiber_exact": true,
+    "rank_two_extensions_differ": true,
+    "restricted_extensions_agree": true,
+    "same_h_different_screen_arrow": true,
+    "strain_character_data_match": true
+  },
+  "exact_witness": {
+    "h": [["-3/16", "0"], ["0", "4"]],
+    "old_trace_s3": "211/16",
+    "old_trace_s4": "323/16",
+    "rank_two_extension_gap": "25/576",
+    "same_terminal_h": true
+  },
+  "method": "independent exact Fraction implementation; no SymPy and no import of derive_crosswalk.py"
+}
