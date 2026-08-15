@@ -1,0 +1,16 @@
+id	item	tag	enters_claim	not_covered
+P01	static diagonal areal chart for the lapse backbone	CHOSE	yes — tanh and Killing z	time-live g; off-diagonal g; other observers as centers
+P02	R1-R3 exponential lapse and radial lock on g	THEORY:C-2026-06-18-1	yes	heard lock once August mu is on
+P03	finite max comparison plus reciprocity-as-boost => rho = X tanh phi_rad	DERIVED this session	yes	regularity of phi_rad at origin (phi'(0)!=0)
+P04	rest observers for spectroscopic 1+z = e^{Delta phi_rad}	CHOSE	yes — Killing frequency	moving sources; time-dependent g
+P05	collisionless Liouville => d_L = rho (1+z)^2 and D_A = rho	DERIVED this session under P01+P04	yes	absorption; Etherington if D_A is not rho
+P06	identify screen radius R with areal rho	CHOSE	yes — s = rho_q/rho_p	other screen calibrations; origin s undefined
+P07	August mu is the unipotent clock-to-screen mixing in A	THEORY:udt_mixing_channel_lane_2026-08-06	yes	second S^2 screen
+P08	legal mu is the coboundary mu(p,q)=e^{-Delta phi} k(q) - s k(p)	THEORY:same lane	yes	which k exists
+P09	s != e^{Delta phi} scope for mu as non-gauge lock defect	THEORY:BLIND_VERIFICATION_FINAL 2026-08-06	yes	s = e^{Delta phi} carve-out is gauge
+P10	BAO pair is Earth to sky not galaxy-galaxy	OBSERVED measurement geometry; UDT local physics unchanged	yes	what angular pattern if any exists
+P11	T_CMB = 2.725 K as measured bath; starlight-screen posit	OBSERVED + POSIT (Charles)	adjacency only	T_star not derived
+P12	megamaser D_A as geometric rho; CMB-frame optical z=v/c	OBSERVED catalog + CHOSE frame	X measurement	heliocentric frame; later masers
+P13	X ~ 4e3 Mpc from five Hubble-flow masers	OBSERVED this session	slope only	tanh bend; mu; derivation of X
+P14	do not pick k or omega to make BAO	HONESTY	forbids targeting	—
+P15	spectroscopic z from g vs heard delta_t from A	OPEN FORK	both kept	which one the sky reads as z
