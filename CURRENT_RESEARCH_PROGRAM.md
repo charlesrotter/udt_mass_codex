@@ -89,6 +89,20 @@ Source: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 The predecessor's fixed-`P` strict intermediate trace minimum remains a conditional diagnostic, not
 a physical regime score.
 
+### 5. Overlapping-pair live compatibility — internally verified, external review pending
+
+Genuine chart overlaps, shared observer tangents, literal middle states, and joint ambient Gram
+data impose exact nonidentity simultaneous-realizability conditions. A five-channel joint Gram
+matrix has rank at most four and Lorentz negative index at most one. These constraints reject
+inconsistent assemblies but accept arbitrary smooth realizable histories.
+
+The fixed-response loud-ends/quiet-middle theorem survives both in the normalized trace and the
+terminal modulation. A complete uncompressed quiet-middle lift exists with `Q` and `S` live. Fully
+lifted regular constant and monotone counterfamilies also obey the overlap laws, so the pattern is
+not selected by overlap alone.
+
+Source: `udt_overlapping_pair_live_compatibility_audit_2026-08-14/`.
+
 ## Macro observational anchors
 
 - The historical P1 SNe work remains a conditional low-redshift compatibility anchor after native

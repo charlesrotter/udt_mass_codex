@@ -23,9 +23,10 @@ not a physical regime law.
 Do not identify modern four-component `S` with the older July scalar `mu_old`; no bridge or unique
 current scalar `mu` is owned. Physical pair assignment and history remain open.
 
-Next: preregister whether the founding ordered-comparison semantics and complete metric supply a
-nonidentity compatibility law across overlapping live `B,Q,S,Y,Z` pair histories. Observational
-validation remains paused.
+That audit is internally complete at `udt_overlapping_pair_live_compatibility_audit_2026-08-14/`.
+Read its report, exact derivation, witness atlas, and machine evidence. Real overlap/Gram constraints
+exist but do not select history: loud-quiet-loud, flat, and monotone complete families all survive.
+Fresh external semantic review is next; observational validation remains paused.
 
 ### What is running
 

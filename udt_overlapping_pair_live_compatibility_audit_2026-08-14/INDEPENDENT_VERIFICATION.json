@@ -1,0 +1,76 @@
+{
+  "O1_t": "3/2",
+  "checks": {
+    "O1_nonidentity_overlap_V": true,
+    "O1_nonidentity_overlap_dh": true,
+    "O1_nonidentity_overlap_h": true,
+    "O2_different_phi": true,
+    "O2_regular": true,
+    "O2_shared_h00": true,
+    "O3_reset_changes_composite": true,
+    "O3_reset_nonidentity": true,
+    "flat_modulation_constant": true,
+    "flat_trace_constant": true,
+    "joint_Gram_det_zero": true,
+    "joint_Gram_inertia": true,
+    "joint_Gram_rank_four": true,
+    "monotone_modulation_strict": true,
+    "monotone_trace_strict": true,
+    "quiet_modulation_middle_lower_than_sampled_ends": true,
+    "quiet_trace_middle_lower": true
+  },
+  "flat_modulation": [
+    0.12770640594149762,
+    0.12770640594149762,
+    0.12770640594149768,
+    0.12770640594149762
+  ],
+  "flat_trace": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "joint_Gram": {
+    "determinant": "0",
+    "inertia": {
+      "negative": 1,
+      "positive": 3,
+      "zero": 1
+    },
+    "rank": 4
+  },
+  "method": "standalone stdlib Fraction matrices plus Numpy inertia; no production imports",
+  "monotone_modulation": [
+    0.045122093928073426,
+    0.05578588782855243,
+    0.07078156397898007,
+    0.08069334806576278
+  ],
+  "monotone_trace": [
+    0.18,
+    0.2222222222222222,
+    0.28125,
+    0.32
+  ],
+  "passed": true,
+  "quiet_modulation": [
+    0.40629656735055986,
+    0.18942142542437912,
+    0.12770640594149768,
+    0.23300977221057362
+  ],
+  "quiet_trace": [
+    4.015625,
+    1.0625,
+    0.5,
+    0.6736111111111112
+  ],
+  "samples_t": [
+    "1/4",
+    "1/2",
+    "1",
+    "3/2"
+  ],
+  "schema": "udt.overlapping_pair_live_compatibility.independent.v1"
+}

@@ -1,0 +1,55 @@
+{
+  "caught": {
+    "Gram_family_without_correct_lift": true,
+    "freeze_or_omit_S": true,
+    "identity_middle_reset": true,
+    "ignore_4D_joint_Gram_rank": true,
+    "omit_dot_R": true,
+    "shared_clock_promoted_to_shared_pair": true
+  },
+  "passed": true,
+  "residuals": {
+    "S_Gram": [
+      [
+        "1/9",
+        "0"
+      ],
+      [
+        "0",
+        "9/16"
+      ]
+    ],
+    "inconsistent_Gram_determinant": "-1",
+    "middle_reset": [
+      [
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "4/3"
+      ]
+    ],
+    "omit_dot_R": [
+      [
+        "0",
+        "-3/4"
+      ],
+      [
+        "-3/4",
+        "-9/4"
+      ]
+    ],
+    "wrong_lift_Gram": [
+      [
+        "1/9",
+        "0"
+      ],
+      [
+        "0",
+        "1/4"
+      ]
+    ]
+  },
+  "schema": "udt.overlapping_pair_live_compatibility.catch.v1"
+}

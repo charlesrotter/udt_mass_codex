@@ -33,6 +33,11 @@ attribution or history. Modern mixing is four-component `S`; no unique scalar `m
 physical pair/history remains open. A fresh sealed external semantic review independently
 reproduced the load-bearing claims and passed with caveats and no blocker.
 
+The next internally verified overlap audit derives genuine simultaneous chart/seam/middle/Gram
+constraints. It also confirms that loud-quiet-loud remains a fully lifted native response family,
+but exact flat and monotone overlap-compatible histories survive too. Thus overlap supplies assembly
+rules, not the physical score. Fresh external semantic review remains pending.
+
 ## Premise memory
 
 - `c_E` supplies observed clock/ruler calibration.
@@ -49,9 +54,10 @@ sources.
 
 ## Current next gate
 
-Preregister and test whether the metric and founding ordered-comparison semantics supply a
-nonidentity compatibility law across overlapping live pair histories. The externally checked
-uncompressed evaluator is the starting point. The cross-fitted observational lane is paused.
+Obtain fresh sealed semantic review of
+`udt_overlapping_pair_live_compatibility_audit_2026-08-14/`. If it passes, the next ownership
+question is whether another already founded metric object excludes the exact flat and monotone
+histories without inserting the loud-quiet-loud target. The observational lane remains paused.
 
 ## Archive
 

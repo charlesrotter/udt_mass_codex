@@ -262,9 +262,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 77, "premise registry must contain exactly 77 rows")
+    require(len(rows) == 78, "premise registry must contain exactly 78 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 77, "duplicate premise id")
+    require(len(by_id) == 78, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1319,6 +1319,22 @@ def main() -> None:
         "G89 evaluator source changed",
     )
     require("G89_FRESH_SEALED_REVIEW_REPRODUCED_THE_COMPLETE_SUPPLIED_PAIR_EVALUATOR" in by_id["G89"]["precedence_rule"], "G89 review refinement absent")
+    require(
+        by_id["G90"]["current_status"]
+        == "INTERNALLY_VERIFIED_WITH_CAVEATS__NONIDENTITY_SIMULTANEOUS_OVERLAP_COMPATIBILITY__NO_LIVE_REGIME_SELECTION__LOUD_ENDS_QUIET_MIDDLE_CONDITIONAL_SURVIVOR_NOT_SELECTED",
+        "G90 overlap/loud-quiet status regressed or promoted",
+    )
+    require(by_id["G90"]["epistemic_label"] == "MIXED", "G90 overlap label changed")
+    require("fresh semantic review" in by_id["G90"]["open_scope"], "G90 semantic review falsely closed")
+    require("physical pair family and live history" in by_id["G90"]["open_scope"], "G90 physical history promoted")
+    require("flat or monotone exact lifts omitted" in by_id["G90"]["forbidden_regression"], "G90 counterfamily guard absent")
+    require("quiet-middle survivor called universal" in by_id["G90"]["forbidden_regression"], "G90 selection guard absent")
+    require(
+        by_id["G90"]["controlling_source"]
+        == "udt_overlapping_pair_live_compatibility_audit_2026-08-14/AUDIT_REPORT.md",
+        "G90 overlap source changed",
+    )
+    require("G90_DERIVES_NONIDENTITY_SIMULTANEOUS_OVERLAP" in by_id["G90"]["precedence_rule"], "G90 refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1397,7 +1413,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: 84 premise guards (legacy package-gate compatibility); PASS: 77-row premise "
+        "PASS: 92 premise guards (legacy package-gate compatibility); PASS: 78-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

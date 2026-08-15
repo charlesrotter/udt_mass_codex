@@ -48,6 +48,13 @@ Current grade: `VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED`. T
 physical pair assignment, live history, regime score, and a unique scalar `mu` remain open. Do not
 resume downstream validation automatically.
 
+### New bounded result — overlap consistency and loud/quiet classification
+The internally verified `udt_overlapping_pair_live_compatibility_audit_2026-08-14/` derives exact chart, shared-observer, middle-state, and joint four-dimensional Lorentz-Gram consistency laws.
+They reject inconsistent assemblies but do not select a live history. Its secondary result is
+`LOUD_ENDS_QUIET_MIDDLE_CONDITIONAL_SURVIVOR_NOT_SELECTED`: the pattern survives with `Q,S` live,
+while equally regular exact flat and monotone lifts also survive. Fresh review remains pending; G89
+is the last externally cleared authority.
+
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
