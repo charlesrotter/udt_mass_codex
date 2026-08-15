@@ -1,0 +1,40 @@
+{
+  "rotated_anisotropic_screen": true,
+  "independently_integrated_unscaled_transpose_error": 1.7763568394002505e-15,
+  "scaled_screen_relation_error": 2.6645352591003757e-15,
+  "area_ratio_error": 1.1102230246251565e-15,
+  "factorization_rows": [
+    {
+      "name": "null_momentum_conserved_count",
+      "energy_ratio": 0.6666666666666666,
+      "survival": 1.0,
+      "direct_flux": 2.1246389846099167,
+      "factorized_flux": 2.12463898460992,
+      "relative_error": 1.4432899320127035e-15
+    },
+    {
+      "name": "invariant_packet_energy",
+      "energy_ratio": 1.0,
+      "survival": 1.0,
+      "direct_flux": 3.1869584769148753,
+      "factorized_flux": 3.18695847691488,
+      "relative_error": 1.5543122344752192e-15
+    },
+    {
+      "name": "compensated_transfer",
+      "energy_ratio": 0.9036020036098449,
+      "survival": 0.7377879464668811,
+      "direct_flux": 2.124638984609917,
+      "factorized_flux": 2.1246389846099203,
+      "relative_error": 1.4432899320127035e-15
+    }
+  ],
+  "maximum_factorization_relative_error": 1.5543122344752192e-15,
+  "maximum_character_composition_reversal_error": 2.220446049250313e-16,
+  "catch_proofs": {
+    "drop_energy_factor": true,
+    "drop_clock_factor": true,
+    "equate_reverse_and_forward_area": true
+  },
+  "all_pass": true
+}

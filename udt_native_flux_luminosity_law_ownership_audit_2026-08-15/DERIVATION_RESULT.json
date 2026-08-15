@@ -1,0 +1,16 @@
+{
+  "screen_dimension": 2,
+  "reverse_determinant_factor": "Z**2",
+  "reverse_area_distance_relation": "d_G = Z*d_A",
+  "clock_rate_relation": "d_tau_source/d_tau_observer = 1/Z",
+  "general_flux": "F_o = L_Omega*survival*energy_ratio/(Z^3*d_A^2)",
+  "general_luminosity_distance_squared": "d_L^2 = Z^3*d_A^2/(survival*energy_ratio)",
+  "conditional_historical_relation": "survival=1 and energy_ratio=1/Z imply d_L=Z^2*d_A",
+  "character_family": "regular: energy_ratio=Z^(-p), survival=Z^(-q), d_L=Z^((3+p+q)/2)*d_A",
+  "character_scope": "powers exhaust continuous/measurable/locally-bounded positive characters; composition alone permits pathological Cauchy characters",
+  "composition_selects_p_or_q": false,
+  "local_density_transport_family": "d(log n)=-a*d(log area); carried n*area is conserved only at a=1",
+  "local_transport_composes_for_all_a": true,
+  "wronskian_derivative_zero": true,
+  "scope": "regular single null branch with supplied metric and typed query"
+}

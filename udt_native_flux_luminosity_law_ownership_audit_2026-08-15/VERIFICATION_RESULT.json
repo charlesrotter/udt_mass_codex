@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "exists:PREREGISTRATION.md": true,
+    "exists:PREMISE_LEDGER.tsv": true,
+    "exists:SOURCE_CENSUS.tsv": true,
+    "exists:EXACT_DERIVATION.md": true,
+    "exists:STATUS_LEDGER.tsv": true,
+    "exists:DERIVATION_RESULT.json": true,
+    "exists:INDEPENDENT_VERIFICATION.json": true,
+    "exists:AUDIT_REPORT.md": true,
+    "exists:LAY_REPORT.md": true,
+    "exists:SOURCE_MANIFEST.tsv": true,
+    "exists:REVIEW_DISPATCH.md": true,
+    "exists:EXTERNAL_ADVERSARIAL_REVIEW.md": true,
+    "exists:EXTERNAL_REVIEW_ADJUDICATION.md": true,
+    "wronskian_exact": true,
+    "screen_factor_exact": true,
+    "composition_nonselection": true,
+    "independent_pass": true,
+    "three_catches": true,
+    "eta_open": true,
+    "epsilon_open": true,
+    "historical_law_conditional": true,
+    "fresh_review_banked": true,
+    "regular_character_scope_repaired": true,
+    "maxwell_regression_caught": true,
+    "no_full_validation": true
+  },
+  "passed": 25,
+  "total": 25,
+  "all_pass": true
+}

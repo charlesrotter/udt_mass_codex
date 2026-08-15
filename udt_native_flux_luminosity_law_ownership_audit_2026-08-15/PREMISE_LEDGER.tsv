@@ -1,0 +1,17 @@
+item	status	ownership	role_in_audit	forbidden_promotion
+c_E	OBSERVED	pinned-by-THEORY: CURRENT_SCIENTIFIC_PREMISES.tsv G06	clock/ruler calibration	local material signal speed
+complete_metric_history	SUPPLIED_CONDITIONAL	free-and-explored as an arbitrary regular history	geometry input	physical history selected
+complete_pair_query	SUPPLIED_CONDITIONAL	free-and-explored as an arbitrary regular typed query	observer/source/screen typing	universal physical relation selected
+terminal_phi_pair	DERIVED_CONDITIONAL	G89/G93	endpoint reciprocal readout	universal pointwise physical scalar
+Z_equals_exp_phi_pair	CONDITIONAL_REGISTERED_READOUT	G65/G93	redshift interface	untyped universal law
+null_branch	SUPPLIED_CONDITIONAL	query-owned regular branch	geometric screen transport	material signalling path
+Levi_Civita_connection	DERIVED_FROM_SUPPLIED_METRIC	pinned-by-THEORY: metric compatibility and torsion-free choice	conditional null/Jacobi evaluator	UDT dynamics or carrier law
+forward_Jacobi_map	DERIVED_CONDITIONAL	G79/G80 on supplied query	observer-angle to source-area map	physical endpoint or source selected
+reverse_Jacobi_map	DERIVED_CONDITIONAL	G80 bounded witness; general theorem to be audited	source-angle to receiver-area map	future signal or luminosity law
+source_isotropy	OPEN_OR_OBSERVED_SOURCE_MODEL	free; excluded from core theorem	optional conversion L_Omega=L/(4pi)	metric-derived source property
+radiative_survival	OPEN	free-and-explored transfer factor	carrier amount transport	photon-number conservation assumed
+energy_frequency_relation	OPEN	free-and-explored transfer factor	energy readout between endpoint clocks	Planck relation or Maxwell stress law assumed
+intrinsic_source_luminosity	OPEN_OR_OBSERVED	separate source calibration	input luminosity only	matter/source theory derived
+detector_bandpass	OBSERVED_QUERY_DATA	excluded from bolometric theorem	future measurement readout	metric-derived detector physics
+historical_dL_equals_Z2_dA	CONDITIONAL_FROZEN_READOUT	G65/G93	candidate to regrade	native law assumed
+X_max_bootstrap_BAO_CMB	INACTIVE	excluded	no role	downstream inference
