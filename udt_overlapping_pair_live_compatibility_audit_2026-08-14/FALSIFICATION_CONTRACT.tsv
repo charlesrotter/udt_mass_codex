@@ -1,0 +1,12 @@
+id	claim_under_test	falsifier	certification_method	maximum_status
+F01	one-surface chart overlap for J V h	nonzero exact residual	direct symbolic chain rule plus independent rational replay	DERIVED IDENTITY
+F02	live overlap derivative requires dot R	omitting dot R still agrees on a nonstationary transition	hostile nonconstant transition witness	DERIVED IDENTITY
+F03	shared observer tangent owns only h00	metric alone forces all h entries for arbitrary regular r1 r2	exact Minkowski counterfamily	DERIVED BOUNDARY OF OWNERSHIP
+F04	middle terminal mismatch requires M_B	identity reset composes unequal exact middle states	exact upper-triangular witness	DERIVED CONDITIONAL
+F05	joint ambient Gram rank and inertia laws	regular common realization violates rank<=4 or index<=1	exact 4D Gram determinants and eigen-inertia anchors	DERIVED CONDITIONAL
+F06	joint Gram laws select a live history	an exact law excludes an otherwise arbitrary smooth common-coframe movie	explicit arbitrary-history embedding/copy families	OPEN OR NEGATIVE WITHIN SCOPE
+F07	fixed-response A_trace has two-sided convex minimum	failure for a>0 and n_beta>0	symbolic derivatives and rank strata	DERIVED CONDITIONAL CONTROL
+F08	fixed-response terminal modulation end/middle behavior	registered symbolic stratum lacks claimed behavior	exact derivative and boundary classification	DERIVED CONDITIONAL CONTROL OR READOUT-DEPENDENT
+F09	overlap forces universal loud ends and quiet middle	one regular fully lifted overlap-compatible flat or monotone family	explicit Q S Y Z lift and overlap replay	DERIVED NONSELECTION WITHIN CLASS
+F10	quiet-middle family remains admissible	all fully lifted quiet-middle controls violate overlap or regularity	exact lifted survivor	OBSERVED/DERIVED CONDITIONAL SURVIVAL
+F11	no scalar mu is introduced silently	a unique source-owned scalar is required by overlap algebra	type and invariant census	OPEN NO OWNER OR DERIVED IF UNIQUE
