@@ -11,7 +11,7 @@
   },
   "primary": {
     "sample_filter": "IDSURVEY == 10",
-    "expected_n": 1635,
+    "expected_n": 1623,
     "redshift": "zHD",
     "observation": "MU",
     "precision_source": "STAT+SYS.npz",

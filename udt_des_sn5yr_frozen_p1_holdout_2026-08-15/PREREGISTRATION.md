@@ -54,7 +54,9 @@ the source universe.
 ## Primary test
 
 1. Read `DES-Dovekie_HD.csv` in its released order.
-2. Select exactly the rows with `IDSURVEY == 10` (`DES`), expected count `1635`.
+2. Select exactly the rows with `IDSURVEY == 10` (`DES`), expected count `1623` in the frozen
+   Dovekie Hubble diagram. The originally preregistered `1635` belonged to the documented upstream
+   DES quality-cut sample, not this later 1820-row Dovekie vector; see `DRY_GATE_REPAIR.md`.
 3. Use `zHD` as the primary redshift because it is the release's CMB-frame/VPEC-corrected Hubble-
    diagram coordinate and is the closest typed analogue of G99's primary `zCMB` coordinate.
 4. Use the released `MU` vector only as a standardized observational brightness relation.

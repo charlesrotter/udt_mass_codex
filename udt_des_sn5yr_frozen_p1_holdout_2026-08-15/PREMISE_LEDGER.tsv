@@ -3,7 +3,7 @@ question	frozen G99 P1 shape versus DES-SN5YR/Dovekie	OBSERVATIONAL_HOLDOUT	cros
 profile_family	P1 only	CHOSE_FROZEN_BY_G99	primary fixed shape	metric-native uniqueness of P1
 shape_n	1.0559332414320268	OBSERVED_CONDITIONAL_G99	fixed primary prediction	DES retuning before verdict
 absolute_scale	profile one additive brightness offset	FREE_NUISANCE_STRUCTURALLY_REQUIRED	remove luminosity/H0 zero point	absolute X_eff or H0
-primary_sample	IDSURVEY equals 10 expected N equals 1635	PINNED_BY_OFFICIAL_RELEASE_BEFORE_MU_READ	independent-survey emphasis	event-disjoint Pantheon crossmatch
+primary_sample	IDSURVEY equals 10 expected N equals 1623	PINNED_BY_FROZEN_DOVEKIE_VECTOR_DRY_GATE	independent-survey emphasis	event-disjoint Pantheon crossmatch
 primary_redshift	zHD	CHOSE_TO_MATCH_G99_CMB_FRAME_ROLE	observer-pair terminal coordinate	universal redshift semantics
 secondary_redshift	zHEL after primary	PREREGISTERED_SENSITIVITY_ONLY	frame-column sensitivity	primary-result replacement
 primary_covariance	STAT+SYS marginal covariance block	PINNED_BY_RELEASE_AND_CONTRACT	full published uncertainty	unknown systematics outside release
