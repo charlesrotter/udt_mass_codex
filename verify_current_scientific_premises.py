@@ -1304,20 +1304,21 @@ def main() -> None:
     require("G87_CLOSES_THE_ZERO_ORDER_CHORD_COMPOSITION_QUESTION" in by_id["G87"]["precedence_rule"], "G87 refinement absent")
     require(
         by_id["G89"]["current_status"]
-        == "INTERNALLY_VERIFIED_WITH_CAVEATS__FULL_B_Q_S_Y_Z_PULLBACK_AND_FIRST_VARIATION__TERMINAL_PHI_PAIR_AND_CEFF_OVER_CE_DERIVED__NO_UNIQUE_SCALAR_MU_OWNED__PHYSICAL_PAIR_AND_HISTORY_OPEN",
+        == "EXTERNALLY_VERIFIED_WITH_CAVEATS__FULL_B_Q_S_Y_Z_PULLBACK_AND_FIRST_VARIATION__TERMINAL_PHI_PAIR_AND_CEFF_OVER_CE_DERIVED__NO_UNIQUE_SCALAR_MU_OWNED__PHYSICAL_PAIR_AND_HISTORY_OPEN",
         "G89 uncompressed evaluator status regressed or promoted",
     )
     require(by_id["G89"]["epistemic_label"] == "MIXED", "G89 evaluator label changed")
-    require("fresh semantic review" in by_id["G89"]["open_scope"], "G89 semantic review falsely closed")
     require("physical pair realization and live history" in by_id["G89"]["open_scope"], "G89 pair/history promoted")
+    require("overlapping-pair compatibility law" in by_id["G89"]["open_scope"], "G89 compatibility-law gate absent")
     require("modern four-component S identified with July mu_old" in by_id["G89"]["forbidden_regression"], "G89 mu type guard absent")
     require("fixed-P convexity called a derived quiet-middle regime" in by_id["G89"]["forbidden_regression"], "G89 fixed-P promotion guard absent")
+    require("external review described as canonization" in by_id["G89"]["forbidden_regression"], "G89 external-review scope guard absent")
     require(
         by_id["G89"]["controlling_source"]
-        == "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
+        == "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/EXTERNAL_REVIEW_ADJUDICATION.md",
         "G89 evaluator source changed",
     )
-    require("G89_RECONSTRUCTS_THE_COMPLETE_SUPPLIED_PAIR_EVALUATOR" in by_id["G89"]["precedence_rule"], "G89 refinement absent")
+    require("G89_FRESH_SEALED_REVIEW_REPRODUCED_THE_COMPLETE_SUPPLIED_PAIR_EVALUATOR" in by_id["G89"]["precedence_rule"], "G89 review refinement absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"

@@ -1,7 +1,7 @@
 # UDT uncompressed complete-pair evaluator reconstruction
 
 Date: 2026-08-14  
-Current grade: `VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PENDING`
+Current grade: `VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED`
 
 ## Primary result
 
@@ -112,8 +112,12 @@ within this algebraic evaluator—not “mu was set to zero,” and not “mu ha
 - repository regression suite: `90 passed, 1 xfailed`; the xfail is the registered matter-lane
   `test_no_habit_pins` gate and is unrelated to this evaluator.
 
-Fresh external adversarial semantic review remains pending, so the result is not canon and is not
-yet the final startup authority.
+A fresh sealed external `gpt-5.4` adversary verified the exact 28-file scope and independently
+reproduced the pullback, a regular singular-`Y` witness, all five live sensitivities, the terminal
+ratio identity, the compression fibers, and the `mu` type result. It returned
+`VERIFIED_WITH_CAVEATS` with no blocking defect. See `EXTERNAL_ADVERSARIAL_REVIEW.md` and
+`EXTERNAL_REVIEW_ADJUDICATION.md`. The result remains non-canonical because its physical ownership
+limits remain open, not because an evidence gate is pending.
 
 ## Maximum justified conclusion
 
@@ -125,7 +129,8 @@ bootstrap law.
 
 ## Next bounded scientific question
 
-After adversarial review, the next question should be formulated from the uncompressed identities:
+After the passed adversarial review, the next question should be preregistered from the uncompressed
+identities:
 
 > Does the metric and the founding ordered-comparison semantics supply any nonidentity compatibility
 > law relating the live blocks `B,Q,S,Y,Z` across overlapping observer pairs, beyond the kinematic

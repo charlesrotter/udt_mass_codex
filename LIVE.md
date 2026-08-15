@@ -9,9 +9,10 @@ description.
 
 ### Active scientific lane — no-shortcut reciprocal kernel reconstruction
 
-The internally verified, banked package
-`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` now controls the theory frontier while
-fresh external semantic review remains pending. Its preregistered landing is
+The internally and externally verified, banked package
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` controls the theory frontier. A fresh
+sealed `gpt-5.4` adversary independently reproduced the load-bearing algebra and returned
+`VERIFIED_WITH_CAVEATS` with no blocking defect. Its preregistered landing is
 
 ```text
 FULL_UNCOMPRESSED_TERMINAL_EVALUATOR_DERIVED
@@ -43,8 +44,9 @@ pair embedding. Holding `P` fixed supplies only a diagnostic, not a physical qui
 Modern mixing is `S in Mat(2,R)`. The July scalar `mu_old` belongs to a different conditional
 mixed-base ansatz; no current bridge or unique scalar `mu` is derived.
 
-Current grade: `VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PENDING`. Do not promote it to
-canon or launch downstream validation before the review and any required repair.
+Current grade: `VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED`. This is not canon:
+physical pair assignment, live history, regime score, and a unique scalar `mu` remain open. Do not
+resume downstream validation automatically.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 

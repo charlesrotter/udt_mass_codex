@@ -73,12 +73,16 @@ rebuilt middle states, route channels, and the physical global family remain ope
 
 Source: `udt_pair_chord_network_descent_audit_2026-08-12/`.
 
-### 4. Uncompressed complete-pair evaluator — internally verified, external review pending
+### 4. Uncompressed complete-pair evaluator — externally verified with caveats
 
 For supplied `E=[[B,0],[Q S,Q]]` and supplied `J=[Y;Z]`, the complete pair metric is assembled before
 the terminal `phi_pair` and `c_eff/c_E` readout. The exact live identity retains
 `dot B,dot Q,dot S,dot Y,dot Z`. Modern mixing is the four-component matrix `S`; no unique scalar
 `mu` is owned. Physical pair assignment and history remain open.
+
+A fresh sealed `gpt-5.4` adversary independently reproduced the pullback, regular singular-`Y`
+boundary witness, five-channel live variation, terminal ratio, compression fibers, and `mu` type
+result. It returned `VERIFIED_WITH_CAVEATS` with no blocking defect.
 
 Source: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 

@@ -40,6 +40,8 @@ def main() -> None:
         "EVIDENCE_GATES.md",
         "LAY_REPORT.md",
         "AUDIT_REPORT.md",
+        "EXTERNAL_ADVERSARIAL_REVIEW.md",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
     ]
     missing = [name for name in required if not (HERE / name).is_file()]
 
@@ -56,6 +58,8 @@ def main() -> None:
     prereg = (HERE / "PREREGISTRATION.md").read_text()
     exact = (HERE / "EXACT_DERIVATION.md").read_text()
     report = (HERE / "AUDIT_REPORT.md").read_text()
+    external = (HERE / "EXTERNAL_ADVERSARIAL_REVIEW.md").read_text()
+    adjudication = (HERE / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text()
 
     checks = {
         "required_files_present": not missing,
@@ -69,7 +73,9 @@ def main() -> None:
         "report_states_landing": LANDING in report.replace("\n", ""),
         "physical_pair_remains_open": "physical pair assignment\tOPEN" in (HERE / "STATUS_LEDGER.tsv").read_text(),
         "mu_types_separated": "mu_old" in exact and "S in Mat(2,R)" in exact,
-        "external_review_not_falsely_claimed_complete": "pending" in (HERE / "EVIDENCE_GATES.md").read_text().lower(),
+        "external_review_landing_verified_with_caveats": "VERIFIED_WITH_CAVEATS" in external,
+        "external_review_no_blocking_defect": "No blocking defect found" in external,
+        "external_review_adjudicated": "FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED" in adjudication,
     }
     passed = all(checks.values())
     result = {
@@ -78,7 +84,7 @@ def main() -> None:
         "missing": missing,
         "source_mismatches": source_mismatches,
         "passed": passed,
-        "banking_grade": "VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PENDING",
+        "banking_grade": "VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED",
     }
     OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     print(json.dumps(result, indent=2, sort_keys=True))

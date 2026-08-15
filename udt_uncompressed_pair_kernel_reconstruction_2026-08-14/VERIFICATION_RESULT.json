@@ -1,11 +1,13 @@
 {
-  "banking_grade": "VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PENDING",
+  "banking_grade": "VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED",
   "checks": {
     "all_production_checks_pass": true,
     "catch_proofs_pass": true,
     "derivation_landing_matches": true,
     "exact_derivation_states_landing": true,
-    "external_review_not_falsely_claimed_complete": true,
+    "external_review_adjudicated": true,
+    "external_review_landing_verified_with_caveats": true,
+    "external_review_no_blocking_defect": true,
     "independent_verification_passes": true,
     "mu_types_separated": true,
     "physical_pair_remains_open": true,

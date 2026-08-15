@@ -9,8 +9,10 @@ Read `LIVE.md` first. It wins every disagreement.
 ### Active theory reset
 
 Start with `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`, then its
-`EXACT_DERIVATION.md`, `SHORTCUT_REGRADE.tsv`, and machine evidence. It is banked at `98dc643a` with
-grade `VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PENDING`.
+`EXACT_DERIVATION.md`, `EXTERNAL_ADVERSARIAL_REVIEW.md`, `EXTERNAL_REVIEW_ADJUDICATION.md`,
+`SHORTCUT_REGRADE.tsv`, and machine evidence. Its fresh sealed `gpt-5.4` review returned
+`VERIFIED_WITH_CAVEATS` with no blocking defect; current grade is
+`VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED`.
 
 For supplied `E=[[B,0],[Q S,Q]]` and `J=[Y;Z]`, the full pair metric is formed first and one terminal
 `phi_pair`/`c_eff/c_E` is read afterward. The exact derivative retains
@@ -21,7 +23,9 @@ not a physical regime law.
 Do not identify modern four-component `S` with the older July scalar `mu_old`; no bridge or unique
 current scalar `mu` is owned. Physical pair assignment and history remain open.
 
-Next: fresh sealed semantic review, then repairs if needed. Observational validation is paused.
+Next: preregister whether the founding ordered-comparison semantics and complete metric supply a
+nonidentity compatibility law across overlapping live `B,Q,S,Y,Z` pair histories. Observational
+validation remains paused.
 
 ### What is running
 

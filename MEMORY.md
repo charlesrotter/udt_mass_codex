@@ -30,7 +30,8 @@ Exact pointwise reachability and zero-order endpoint composition are verified wi
 evaluator retains `B,Q,S,Y,Z` and all five derivatives before reading one terminal
 `phi_pair`/`c_eff/c_E`. The old Gram compression is zero-order sufficient but does not own channel
 attribution or history. Modern mixing is four-component `S`; no unique scalar `mu` is owned. The
-physical pair/history remains open and fresh external semantic review is pending.
+physical pair/history remains open. A fresh sealed external semantic review independently
+reproduced the load-bearing claims and passed with caveats and no blocker.
 
 ## Premise memory
 
@@ -48,10 +49,9 @@ sources.
 
 ## Current next gate
 
-Obtain a fresh sealed semantic review of
-`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Repair any blocking finding, then decide
-whether the metric supplies a nonidentity compatibility law across overlapping live pair histories.
-The cross-fitted observational lane is paused.
+Preregister and test whether the metric and founding ordered-comparison semantics supply a
+nonidentity compatibility law across overlapping live pair histories. The externally checked
+uncompressed evaluator is the starting point. The cross-fitted observational lane is paused.
 
 ## Archive
 

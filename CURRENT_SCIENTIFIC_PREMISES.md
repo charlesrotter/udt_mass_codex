@@ -66,9 +66,9 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   externally `VERIFIED-WITH-CAVEATS` (G87).
 - Pair-first relational-plane reconstruction: conditional complete-metric evaluation,
   `VERIFIED-WITH-CAVEATS`.
-- Uncompressed complete-pair evaluator: internally `VERIFIED-WITH-CAVEATS`; all `B,Q,S,Y,Z`
-  channels and derivatives retained before terminal readout; fresh semantic review pending;
-  physical pair/history and unique scalar `mu` open.
+- Uncompressed complete-pair evaluator: `VERIFIED-WITH-CAVEATS` after a fresh sealed external review;
+  all `B,Q,S,Y,Z` channels and derivatives retained before terminal readout; physical pair/history
+  and unique scalar `mu` open.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict
   intermediate trace minimum does not derive a physical quiet-middle regime.
 - R2 raw observational atlas: `OBSERVED`, `VERIFIED-WITH-CAVEATS`.

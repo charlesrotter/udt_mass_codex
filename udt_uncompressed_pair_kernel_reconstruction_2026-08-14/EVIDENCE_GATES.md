@@ -18,7 +18,7 @@ actions, sources, matter, bootstrap, `X_max`, or observational models.
 
 ## Gate 3 — independently verified on the load-bearing premise
 
-**PASS for the algebra; fresh semantic adversary pending.**
+**PASS, including a fresh sealed external semantic adversary.**
 
 - production: exact SymPy matrix identities;
 - independent: standalone stdlib `Fraction` matrix implementation, importing neither SymPy nor the
@@ -30,9 +30,10 @@ actions, sources, matter, bootstrap, `X_max`, or observational models.
 - all registered checks passed.
 - repository regression suite: `90 passed, 1 xfailed` (`test_no_habit_pins`, known matter-lane
   solution-space gate) in 1.41 seconds.
-
-A fresh external read-only adversarial semantic review is still required by the preregistration
-before the package is treated as the final load-bearing orientation authority.
+- external: a fresh `gpt-5.4` read-only review verified the scope digest and all 28 payloads, then
+  independently reproduced the pullback, singular-`Y` witness, five-channel variation census,
+  terminal ratio, compression fibers, and `mu` type result. It returned
+  `VERIFIED_WITH_CAVEATS` with no blocking defect.
 
 ## Gate 4 — every premise audited
 
@@ -42,5 +43,6 @@ separates four-component modern mixing from the older conditional scalar.
 
 ## Current banking grade
 
-`VERIFIED-WITH-CAVEATS`, not canon. The remaining caveat is fresh adversarial semantic review, not a
-failed algebraic check.
+`VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED`, not canon. The remaining caveats are
+the explicit conditional scope: supplied metric and pair realization, kinematic rather than
+dynamical live formulas, no physical history, and no uniquely selected scalar `mu`.
