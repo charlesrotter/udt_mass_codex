@@ -1,0 +1,18 @@
+item	value_or_rule	status	role	uncovered_scope
+calibration_object	effective dL_cal(z) on the registered SNe observer-pair query	OBSERVED_CONDITIONAL:G65/G99	middle-regime terminal calibration	complete metric history and physical pair realization
+profile_family	P1 only	CHOSE:historical frozen M3 menu and G65 compatibility anchor	one-time forward calibration	metric-native uniqueness of P1
+redshift_coordinate	phi_pair=log(1+z)	CONDITIONAL:G65 registered SNe query	terminal reciprocal coordinate	universal observer-pair map
+pair_ce_readout	c_eff_pair/c_E=(1+z)^-2	DERIVED_CONDITIONAL:G65	dimensionless pair-cone readout	material signal speed or local physics
+shape	n from A:zCMB:P1	OBSERVED:G65	shape calibration	complete-orchestra attribution
+absolute_scale	X_eff from B:zCMB:P1	OBSERVED_CONDITIONAL:external M_B anchor	conditional Mpc scale	anchor-independent absolute scale
+joint_radius	R_w=n X_eff at the joint best point	DERIVED_FROM_FROZEN_PAIR	reporting convenience	marginal R_w measurement
+area_readout	d_A=r_cal	CONDITIONAL:frozen SNe readout	factorization of dL_cal	complete screen-area derivation
+luminosity_readout	d_L=exp(2phi_pair)d_A	CONDITIONAL:frozen SNe readout	effective observational transfer	physical carrier eta epsilon source law
+complete_orchestra	B Q S Y Z enter upstream of phi_pair	DERIVED_CONDITIONAL:G89/G93	future uplift requirement	physical history and query
+time_dependence	not selected by SNe terminal calibration	OPEN:G98	prevents history promotion	physical continuation and dynamics
+calibration_domain	frozen selected zCMB range only	CHOSE:historical M3 cuts	bounded empirical interval	zero micro CMB and endpoint extrapolation
+bao	strict holdout	PINNED_BY_G99_FORWARD_CONTRACT	independent later test	no calibration influence
+cmb	strict holdout	PINNED_BY_G99_FORWARD_CONTRACT	independent later test	no calibration influence
+xmax_endpoint	strict holdout	PINNED_BY_G99_FORWARD_CONTRACT	independent later test	no calibration influence
+bootstrap	inactive	WORKING_HYPOTHESIS_NOT_USED	no fitted selector	global-local closure
+action_source_carrier	inactive or open	OPEN_CONDITIONAL	no imported physics	physical transfer and dynamics

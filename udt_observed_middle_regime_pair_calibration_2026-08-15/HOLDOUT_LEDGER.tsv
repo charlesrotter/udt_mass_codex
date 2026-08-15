@@ -1,0 +1,8 @@
+lane	construction_access	later_permitted_use	forbidden_use
+BAO	NONE	independent test after calibration freeze	parameter tuning profile choice geometry choice or scale selection
+CMB	NONE	independent complete observer-sky test after calibration freeze	profile tuning source tuning geometry choice or endpoint selection
+Xmax_endpoint	NONE	independent asymptotic continuation test after calibration freeze	identifying R_w or X_eff with X_max or choosing a wall seam or completion
+micro_mass	NONE	later regime test after an owned micro query exists	tuning the macro calibration or claiming particle emergence
+bootstrap	NONE	later explicitly posited self-consistency test	selecting the calibration or manufacturing quiet-middle behavior
+G65_SNe_sensitivity_modes	READ_ONLY_PRIOR_DISCLOSURE	diagnostics carried with calibration	new tuning or uncertainty shrinkage
+G97_control_negative	CONTEXT_ONLY	falsifies that one preselected control	choosing a replacement geometry
