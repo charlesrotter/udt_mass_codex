@@ -121,11 +121,11 @@ conditional evaluation path, not a physical history, native radiation law, all-s
 
 G98's no-fit owner audit retains exact contribution-live flat, monotone, and loud-quiet-loud
 continuations plus multiple G85 global archetypes. `PERMITTED_NOT_OWNED` means the quiet middle is
-lawful but no active native equation selects it.
+lawful but no active native equation selects it. G99 freezes verified P1 central `dL(z)` as an observed conditional middle chord with no refit/holdout, not a complete history or transfer.
 ## Macro observational anchors
 
-- The historical P1 SNe work remains a conditional low-redshift compatibility anchor after native
-  observer-query retyping. It does not own the complete screen/flux law or cosmological history.
+- G99 freezes the historical P1 central SNe relation as an observed conditional middle-regime
+  calibration. It does not own the complete screen/flux law, joint covariance, or cosmological history.
 - The current BOSS R2--R4 lane characterizes raw angular structure, covariance, and complete
   control-relation persistence without importing a standard ruler or Lambda-CDM interpretation.
 - Existing CMB geometry packages map conditional sky/Jacobi/screen response families. They do not
@@ -161,8 +161,8 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-1. Choose a nonidentity history/query-law search or a minimal observational calibration frozen before BAO/CMB.
-2. Keep the observational residual atlas paused; transfer, `X_max`, bootstrap, CMB, and BAO remain open.
+1. Derive and preregister a BAO observer-angle map without reading BAO curves or importing a ruler.
+2. Keep the observational residual atlas paused until that map is frozen; then expose G99 once.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.

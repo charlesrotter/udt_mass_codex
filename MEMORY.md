@@ -67,12 +67,12 @@ sources.
 
 ## Current next gate
 
-G97 now verifies the first end-to-end complete-geometry SNe house test: under provisional
-`eta=1`, `epsilon=1/Z`, and source isotropy, one preselected G79 control gives
+G97 verifies the first end-to-end SNe house test: under provisional `eta=1`, `epsilon=1/Z`, and source isotropy, one G79 control gives
 `chi2=16255.30/1366 dof` and is strongly incompatible. The evaluator works; history and native
 transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet-loud histories all
 survive with every factor contributing, so current equations permit but do not own the continuation.
-Next choose a new owner search or an observational calibration frozen before independent tests.
+G99 freezes known P1 central `dL(z)` as an observed conditional middle chord with no refit/holdout—not a complete history; transfer and joint uncertainty remain open.
+Next preregister the BAO observer-angle map without reading the BAO curves, then open that holdout.
 
 ## Archive
 

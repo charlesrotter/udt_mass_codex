@@ -1,0 +1,10 @@
+{
+  "imports_production_extractor": false,
+  "maximum_absolute_node_difference": 1.1368683772161603e-13,
+  "method": "standalone_standard_library_direct_power_reconstruction",
+  "node_count": 6,
+  "origin_and_monotonicity_checks": "PASS",
+  "schema": "udt-observed-middle-regime-pair-calibration-independent-1.0",
+  "source_values_recovered": true,
+  "status": "PASS"
+}

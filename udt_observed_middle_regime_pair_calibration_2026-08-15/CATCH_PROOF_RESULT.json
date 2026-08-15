@@ -1,0 +1,19 @@
+{
+  "baseline": "PASS",
+  "mutation_count": 11,
+  "results": {
+    "append_orchestra_correction": "PASS_REJECTED",
+    "drop_CMB_holdout": "PASS_REJECTED",
+    "drop_anchor_condition": "PASS_REJECTED",
+    "identify_SNe_domain_with_Xmax": "PASS_REJECTED",
+    "independent_interval_box": "PASS_REJECTED",
+    "invent_joint_covariance": "PASS_REJECTED",
+    "promote_Rw_marginal": "PASS_REJECTED",
+    "promote_complete_history": "PASS_REJECTED",
+    "promote_signal_speed": "PASS_REJECTED",
+    "promote_transfer": "PASS_REJECTED",
+    "read_holdout": "PASS_REJECTED"
+  },
+  "schema": "udt-observed-middle-regime-pair-calibration-catches-1.0",
+  "status": "PASS"
+}

@@ -27,9 +27,9 @@ isotropy. The preselected G79 control gives `chi2=16255.30/1366 dof`; fresh seal
 the curve and likelihood and accepted `VERIFIED_WITH_CAVEATS__ONE_CONTROL_STRONGLY_SNE_INCOMPATIBLE`.
 This is not a physical history, native transfer law, all-sky theorem, or UDT rejection.
 
-G98 closes the frozen-source zoom-out: exact all-factor-live flat, monotone, and loud-quiet-loud
-histories all survive. Its `PERMITTED_NOT_OWNED` landing makes the quiet middle lawful, not selected.
-
+G98's exact flat, monotone, and loud-quiet-loud histories survive; `PERMITTED_NOT_OWNED` makes the
+quiet middle lawful, not selected. G99 freezes verified P1 once as an `OBSERVED/CONDITIONAL` middle
+chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncertainty remain open.
 ### What is running
 
 No long observational process remains. R5 assembly, independent replay, hostile-mutation checks,
@@ -121,8 +121,8 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-Choose a genuinely nonidentity history/query premise search or a minimal observational calibration
-frozen before BAO/CMB tests. Do not fit sequential controls, invent a repair, or infer `X_max`.
+Derive and preregister the BAO observer-angle map without reading BAO curves or importing a standard
+ruler. Then test frozen G99 as a holdout with no SNe retuning, history promotion, or `X_max` inference.
 
 Historical handoff material is preserved verbatim in
 `archive/startup_surface_2026-08-14/HANDOFF_before_cleanup.md` and older archive files.

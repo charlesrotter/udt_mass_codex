@@ -1,0 +1,5 @@
+item	result	consequence
+joint_n_X_eff_covariance	NOT_PRESENT_IN_FROZEN_G65_ARTIFACTS	central pair and separate profile intervals are banked but no rigorous joint uncertainty band may be propagated
+interval_combination	FORBIDDEN_AS_INDEPENDENT_BOX	n and X_eff intervals are not independent bounds and may not be combined corner by corner
+R_w_uncertainty	OPEN	only R_w=n X_eff at the joint best point is frozen; no marginal R_w interval is owned
+central_curve	FROZEN	the exact best-point dL_cal relation is available for later forward tests

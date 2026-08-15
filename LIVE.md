@@ -59,7 +59,8 @@ G98 is the preregistered zoom-out return:
 histories survive with every factor and `dot h` contribution live. Current compatibility equations
 therefore select no continuation. This is a frozen-source/regular-stratum result, not a generic
 no-go; the quiet-middle architecture is lawful but not selected.
-
+G99 freezes the verified P1 central SNe relation once as an `OBSERVED/CONDITIONAL` middle chord,
+with no optimizer or holdout read. It is not a complete history and lacks joint `(n,X_eff)` covariance.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
@@ -158,9 +159,8 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-1. Choose a new native history/query owner search or a minimal `OBSERVED/CONDITIONAL` middle-regime
-   calibration frozen before BAO/CMB tests.
-2. Do not fit sequential SNe geometries or call a survivor derived; transfer and later lanes remain open.
+1. Derive and preregister the BAO observer-angle map without reading BAO curves or importing a ruler.
+2. Only then expose frozen G99 to the BAO holdout; no SNe retuning, `X_max`, or history promotion.
 
 ### Archive
 Superseded startup/status prose through this cleanup is preserved verbatim under

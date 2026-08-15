@@ -60,6 +60,7 @@ Its SNe adjudication records G97's strongly incompatible preselected control und
 
 G98 continuation ownership: `udt_complete_history_regime_continuation_ownership_audit_2026-08-15/`;
 flat, monotone, and loud-quiet-loud survive, with no active frozen-source selector.
+G99 frozen observed middle chord: `udt_observed_middle_regime_pair_calibration_2026-08-15/`.
 
 G94/G95/G96: `udt_native_flux_luminosity_law_ownership_audit_2026-08-15/`, `udt_native_radiative_current_energy_owner_audit_2026-08-15/`, `udt_null_carrier_measure_ownership_audit_2026-08-15/`.
 

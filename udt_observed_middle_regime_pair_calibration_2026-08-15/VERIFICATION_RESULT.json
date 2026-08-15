@@ -1,0 +1,32 @@
+{
+  "check_count": 25,
+  "checks": {
+    "Rw_joint_only": "PASS",
+    "anchor_conditional": "PASS",
+    "audit_grade": "PASS",
+    "catch_count": "PASS",
+    "catch_status": "PASS",
+    "covariance_caveat": "PASS",
+    "exact_origin_slope": "PASS",
+    "history_open": "PASS",
+    "holdout_ledger": "PASS",
+    "independent_codepath": "PASS",
+    "independent_pass": "PASS",
+    "interval_box_forbidden": "PASS",
+    "joint_covariance_unavailable": "PASS",
+    "lay_scope": "PASS",
+    "no_holdout_read": "PASS",
+    "no_optimizer": "PASS",
+    "node_count": "PASS",
+    "not_Xmax_interval": "PASS",
+    "object_type_ledger": "PASS",
+    "pair_open": "PASS",
+    "prereg_holdout": "PASS",
+    "prereg_no_fit": "PASS",
+    "registered_status": "PASS",
+    "source_count": "PASS",
+    "transfer_conditional": "PASS"
+  },
+  "schema": "udt-observed-middle-regime-pair-calibration-package-1.0",
+  "status": "PASS"
+}

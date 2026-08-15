@@ -1,0 +1,191 @@
+{
+  "R_w_is_marginal_measurement": false,
+  "absolute_scale_is_conditional": true,
+  "c_eff_is_material_signal_speed": false,
+  "calibration": {
+    "M_B": -19.253,
+    "M_B_error": 0.027,
+    "R_w_Mpc_at_joint_best": 2202.6331050379085,
+    "X_eff_Mpc": 2085.9586748597476,
+    "X_eff_interval_Mpc": {
+      "best": 2085.9586748597476,
+      "hi": 2113.215524666156,
+      "hi_open": false,
+      "lo": 2059.055810200218,
+      "lo_open": false
+    },
+    "chi2": 1260.8480887040496,
+    "inv_n": 0.9470295666076658,
+    "inv_n_interval": {
+      "best": 0.9470295666076658,
+      "hi": 0.9657533560562794,
+      "hi_open": false,
+      "lo": 0.9283830965434827,
+      "lo_open": false
+    },
+    "n": 1.0559332414320268,
+    "n_data": 1367,
+    "n_interval": {
+      "best": 1.0559332414320268,
+      "hi": 1.0771415418087191,
+      "hi_open": false,
+      "lo": 1.0354610664606636,
+      "lo_open": false
+    },
+    "ndof": 1365,
+    "profile": "P1"
+  },
+  "complete_metric_history_owned": false,
+  "construction": {
+    "holdout_data_read": false,
+    "known_banked_result_adopted_once": true,
+    "optimizer_run": false,
+    "source_count": 10
+  },
+  "domain": {
+    "calibrators_excluded": true,
+    "is_Xmax_interval": false,
+    "redshift_column": "zCMB",
+    "z_cut": 0.023,
+    "z_max_observed": 2.2613,
+    "z_min_observed": 0.02307
+  },
+  "explicit_nonclaims": [
+    "complete_metric_history",
+    "physical_pair_realization",
+    "native_radiative_transfer",
+    "time_live_regime_continuation",
+    "Xmax_value_or_realization",
+    "cosmology_action_source_matter_mass_or_bootstrap_closure",
+    "rigorous_joint_n_X_eff_uncertainty_band"
+  ],
+  "formulas": {
+    "Z": "1+z",
+    "c_eff_pair_over_c_E": "Z^(-2)",
+    "conditional_factorization": "d_A=r_cal; d_L=exp(2*phi_pair)*d_A",
+    "dL_cal_Mpc": "Z^2*r_cal_Mpc",
+    "phi_pair": "log(Z)",
+    "r_cal_Mpc": "n*X_eff_Mpc*(1-Z^(-2/n))",
+    "radial_origin_slope": "dr_cal/dz at z=0 equals 2*X_eff_Mpc"
+  },
+  "holdouts": [
+    "BAO",
+    "CMB",
+    "Xmax_endpoint",
+    "micro_mass",
+    "bootstrap"
+  ],
+  "joint_n_X_eff_covariance_available": false,
+  "marginal_intervals_form_independent_box": false,
+  "nodes": [
+    {
+      "c_eff_pair_over_c_E": 0.9554089391218354,
+      "dL_cal_Mpc": 97.4731524812293,
+      "phi_pair": 0.02280791082598235,
+      "r_cal_Mpc": 93.1267212049522,
+      "z": 0.02307
+    },
+    {
+      "c_eff_pair_over_c_E": 0.8264462809917354,
+      "dL_cal_Mpc": 440.1997673674034,
+      "phi_pair": 0.09531017980432493,
+      "r_cal_Mpc": 363.8014606342176,
+      "z": 0.1
+    },
+    {
+      "c_eff_pair_over_c_E": 0.4444444444444444,
+      "dL_cal_Mpc": 2656.615043468681,
+      "phi_pair": 0.4054651081081644,
+      "r_cal_Mpc": 1180.7177970971916,
+      "z": 0.5
+    },
+    {
+      "c_eff_pair_over_c_E": 0.25,
+      "dL_cal_Mpc": 6440.067454992872,
+      "phi_pair": 0.6931471805599453,
+      "r_cal_Mpc": 1610.016863748218,
+      "z": 1.0
+    },
+    {
+      "c_eff_pair_over_c_E": 0.1111111111111111,
+      "dL_cal_Mpc": 17349.19029088539,
+      "phi_pair": 1.0986122886681098,
+      "r_cal_Mpc": 1927.687810098377,
+      "z": 2.0
+    },
+    {
+      "c_eff_pair_over_c_E": 0.09401962162613726,
+      "dL_cal_Mpc": 20930.878822508595,
+      "phi_pair": 1.1821258888959272,
+      "r_cal_Mpc": 1967.9133071947879,
+      "z": 2.2613
+    }
+  ],
+  "object_type": "effective_terminal_observer_pair_luminosity_relation",
+  "orchestra_correction_appended": false,
+  "physical_pair_realization_owned": false,
+  "program": "G99",
+  "schema": "udt-observed-middle-regime-pair-calibration-1.0",
+  "sensitivity_diagnostics_not_fit_freedom": {
+    "abs_C_minus_A_inv_n": 0.004384337752038281,
+    "abs_zHD_minus_zCMB_inv_n": 0.019821607909482508,
+    "abs_zHEL_minus_zCMB_inv_n": 0.00020420535584808608,
+    "mode_C_inv_n": 0.9426452288556275,
+    "mode_D_zHD_inv_n": 0.9272079586981833,
+    "mode_D_zHEL_inv_n": 0.9468253612518177
+  },
+  "sources": [
+    {
+      "path": "udt_complete_history_regime_continuation_ownership_audit_2026-08-15/AUDIT_REPORT.md",
+      "role": "G98 observational-calibration authorization boundary",
+      "sha256": "4ed4356deb9429aef59d15d135f6e1ac803a63c1d0c2a72a49c74c68d92661fa"
+    },
+    {
+      "path": "udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md",
+      "role": "G65 accepted result and scope",
+      "sha256": "30a1cd9887e04cffc86b3646083c7fe890ca030f3430bf86365cfbe4a87a5c0b"
+    },
+    {
+      "path": "udt_sne_native_observer_query_replay_2026-08-11/EXACT_DERIVATION.md",
+      "role": "terminal formulas and conditional transfer",
+      "sha256": "c497d51b6a9381364cc9f318ecddbf47fabda015f4a8d48ef301d3a1b3139354"
+    },
+    {
+      "path": "udt_sne_native_observer_query_replay_2026-08-11/PREMISE_LEDGER.tsv",
+      "role": "premise ownership source",
+      "sha256": "641960befca0304aee575d1181fd3cd84786047733cad24e378ff1a7e5c23219"
+    },
+    {
+      "path": "udt_sne_native_observer_query_replay_2026-08-11/REPLAY_RESULT.json",
+      "role": "frozen production result",
+      "sha256": "ae27f47dde24d7fab5c5a3fbfe21c9d0c223013ae6b0fad2d37881b21e9736f0"
+    },
+    {
+      "path": "udt_sne_native_observer_query_replay_2026-08-11/INDEPENDENT_PRIMARY.json",
+      "role": "independent reconstruction",
+      "sha256": "d91ac9b4c2fa95cafd0c34d0d30847561f377b8781640bba0da9d6d0e3bb4c23"
+    },
+    {
+      "path": "udt_xmax_scale_observational_M3_runs_2026-08-07/sne_dry_run.json",
+      "role": "frozen data domain and cuts",
+      "sha256": "227513c7f822da8580471ad005d8c92f64a1da30bbfe5c4b8931a9270a7f24aa"
+    },
+    {
+      "path": "udt_xmax_scale_observational_M3_runs_2026-08-07/sne_results.json",
+      "role": "original frozen fit return",
+      "sha256": "a6b8837114cb4be10248cd6cc6803ee34642e25d25e315193a9843e853ae2211"
+    },
+    {
+      "path": "Data/Pantheon+SH0ES.dat",
+      "role": "observational catalog provenance only no refit",
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    },
+    {
+      "path": "Data/Pantheon+SH0ES_STAT+SYS.cov",
+      "role": "observational covariance provenance only no refit",
+      "sha256": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc"
+    }
+  ],
+  "status": "OBSERVED_CONDITIONAL_TERMINAL_CALIBRATION_FROZEN",
+  "transfer_law_derived": false
+}
