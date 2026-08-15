@@ -1,0 +1,12 @@
+id	claim_under_test	falsifier	certification_method	maximum_status
+F01	uncompressed pullback identity	nonzero exact symbolic residual	direct block multiplication plus independent component replay	DERIVED
+F02	uncompressed first variation identity	nonzero exact symbolic residual	direct differentiation plus independent finite difference	DERIVED
+F03	all five matrix sectors retained	an omitted derivative passes hostile generic witness	one hostile mutation per dB,dQ,dS,dY,dZ	DERIVED within supplied evaluator
+F04	terminal decomposition reconstructs h	nonzero exact reconstruction residual	symbolic and rational regular witnesses	DERIVED on regular terminal stratum
+F05	live phi/c_eff derivative	disagreement with direct differentiation	symbolic derivative and shrinking-step high precision replay	DERIVED on regular terminal stratum
+F06	P compression has nontrivial fibers	registered distinct inputs fail to share P	exact rational counterfamilies	DERIVED conditional on invertible Y
+F07	P loses live information	all equal-P witnesses also force equal uncompressed derivative	exact equal-P/different-derivative witness	DERIVED conditional counterexample
+F08	no scalar mu is uniquely owned	a type-correct uniqueness theorem selects one invariant	candidate-invariant census plus counterexamples	OPEN or DERIVED no-selection within declared class
+F09	old mu and modern S are distinct types	an exact source-owned bridge identifies them	source/type audit	VERIFIED-WITH-CAVEATS
+F10	physical pair/history remain open	a current founding premise actually supplies Y,Z and five live histories	premise ownership audit	OPEN
+

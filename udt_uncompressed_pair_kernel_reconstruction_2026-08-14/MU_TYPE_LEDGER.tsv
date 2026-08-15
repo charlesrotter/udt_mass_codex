@@ -1,0 +1,7 @@
+name	type	domain	owner	enters_pair_metric_as	status_at_registration
+S	Mat(2,R)	complete 2+2 coframe chart	conditional chart	inside Q(SY+Z)	four-component modern mixing; not scalar
+C=S+ZY^-1	Mat(2,R)	invertible-Y calibrated quotient	derived conditional	inside C^TQ^TQC	mixing-plus-embedding combination
+P=C^TQ^TQC	SymPlus(2)	invertible-Y calibrated quotient	derived conditional	additive Gram correction	three-component compressed output
+mu_old=B_old^2/(A_old^2 b_old^2)	positive scalar	July mixed-base reciprocity ansatz	conditional old audit	not present in current complete-pair formula	no bridge registered
+mu_current	unknown	complete pair evaluator	none	none	OPEN; may not exist uniquely
+
