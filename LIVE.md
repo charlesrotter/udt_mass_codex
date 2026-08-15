@@ -2,7 +2,7 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-## CURRENT STATE — 2026-08-14
+## CURRENT STATE — 2026-08-15
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
@@ -41,20 +41,23 @@ history. The old Gram matrix `P` is sufficient for the zero-order A-calibrated p
 erases screen representatives and the distinction between four-component ambient mixing `S` and
 pair embedding. Holding `P` fixed supplies only a diagnostic, not a physical quiet-middle score.
 
-Modern mixing is `S in Mat(2,R)`. The July scalar `mu_old` belongs to a different conditional
-mixed-base ansatz; no current bridge or unique scalar `mu` is derived.
+G93 externally joins G87/G89/G90/G92 as one coherent release-candidate kernel with caveats. Ambient
+and terminal arrows remain distinct; all `B,Q,S,Y,Z` channels enter before readout and `mu_lock` is
+never appended. A no-fit replay is justified; physical history and flux remain `OPEN`.
 
-Current grade: `VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED`. This is not canon:
-physical pair assignment, live history, regime score, and a unique scalar `mu` remain open. Do not
-resume downstream validation automatically.
+G94 derives `F_o=L_Omega eta epsilon/(Z^3 d_A^2)` conditionally; G95/G96 retain only response,
+transport, and query bookkeeping. Physical `eta` and the carrier-covector premise remain open.
 
-### New bounded result — overlap consistency and loud/quiet classification
-The internally verified `udt_overlapping_pair_live_compatibility_audit_2026-08-14/` derives exact chart, shared-observer, middle-state, and joint four-dimensional Lorentz-Gram consistency laws.
-They reject inconsistent assemblies but do not select history. Charles caught that the first
-flat/monotone controls were explicit lifts, not all-active histories. The preregistered correction
-finds flat, monotone, and loud-quiet-loud families with every `B,Q,S,Y,Z` block and `dot h`
-contribution live near an exact control. Loud-quiet-loud survives the complete orchestra, but activity does not select the
-score; metric/query history ownership remains open. Review is held; G89 remains external authority.
+G97 is the first externally verified end-to-end complete-geometry SNe house test. With provisional
+`eta=1`, `epsilon=1/Z`, and source isotropy, one preselected G79 control gives `chi2=16255.30` for
+`1366` degrees of freedom and is strongly incompatible with the registered SNe mean relation. The
+full curve and likelihood replay. This is one control/query/transfer tile—not a physical history,
+native radiation law, all-sky theorem, `X_max`, or rejection of UDT. Do not tune another geometry.
+
+### Bounded overlap result
+The corrected overlap audit derives chart, middle-state, and joint-Gram consistency laws and keeps
+flat, monotone, and loud-quiet-loud contribution-live families. These reject inconsistent assembly
+but select neither score nor physical history; review remains held and G89 remains external authority.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -127,7 +130,9 @@ global relation-family ownership, dynamics, action, source, matter, bootstrap, o
 - pointwise `phi`: presentation potential; universal physical ownership `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - angular/mixing orchestra enters before terminal readout: `DERIVED` conditionally.
-- modern complete-coframe mixing is the four-component `S`; no unique current scalar `mu` is owned.
+- modern mixing is four-component `S`; G92 maps `mu_lock` to one supplied endpoint-transition
+  component, not a unique scalar or terminal correction; G93 keeps that arrow distinct from the
+  pair readout throughout exact composition and reversal.
 - `X_max`: `WORKING_FOUNDATIONAL_FRAME` for an observer-pair dilation asymptote; value and complete
   realization `OPEN`; not a wall, center, seal, or boundary term.
 - strong local CSN: `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED`, inactive.
@@ -152,14 +157,9 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-1. Obtain a fresh sealed read-only adversarial semantic review of
-   the corrected `udt_overlapping_pair_live_compatibility_audit_2026-08-14/` sealed intake.
-2. Repair any blocking type, covariance, or ownership finding before premise promotion.
-3. Then ask what native metric/query-history law, if any, restricts `J=E^-1 V_*` without inserting
-   loud-quiet-loud or an observational target.
-
-The cross-fitted observational residual atlas is paused. Do not resume BAO/CMB/SNe validation,
-`X_max` inference, bootstrap tuning, or a regime fit until Charles explicitly returns to that lane.
+1. Zoom out over G97 before another solve: identify whether existing complete-history equations own
+   one lawful regime continuation. Do not fit/rank another control or add a mismatch mechanism.
+2. Keep provisional transfer, physical history, `X_max`, bootstrap, and CMB/BAO explicitly open.
 
 ### Archive
 

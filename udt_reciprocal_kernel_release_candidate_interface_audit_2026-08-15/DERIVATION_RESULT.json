@@ -1,0 +1,43 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "SZ_compensation_changes_ambient_transition": true,
+    "SZ_compensation_preserves_pair_metric": true,
+    "SZ_compensation_preserves_terminal_transition": true,
+    "all_blocks_change_between_states": true,
+    "all_five_dh_sensitivities_nonzero": true,
+    "all_five_dphi_sensitivities_nonzero": true,
+    "ambient_and_terminal_transitions_are_not_identical": true,
+    "ambient_reversal": true,
+    "ambient_three_state_composition": true,
+    "direct_and_factored_pair_metrics_match": true,
+    "redshift_ceff_identity_each_state": true,
+    "terminal_ceff_character_composes": true,
+    "terminal_reconstruction_exact": true,
+    "terminal_reversal": true,
+    "terminal_three_state_composition": true,
+    "three_states_regular": true
+  },
+  "landing": "KERNEL_COHERENT__GEOMETRIC_SNE_QUERY_READY_CONDITIONALLY__FULL_SNE_VALIDATION_BLOCKED_BY_PHYSICAL_HISTORY_AND_FLUX_OWNERSHIP",
+  "sensitivities": {
+    "B": {"dh_nonzero": true, "dphi": "-33028920008308704836397871620/109989087380664777943307738953", "dphi_nonzero": true},
+    "Q": {"dh_nonzero": true, "dphi": "16947498911352416709543033019/329967262141994333829923216859", "dphi_nonzero": true},
+    "S": {"dh_nonzero": true, "dphi": "32976619891669139675721317145/219978174761329555886615477906", "dphi_nonzero": true},
+    "Y": {"dh_nonzero": true, "dphi": "-61603981750872241682815778328/109989087380664777943307738953", "dphi_nonzero": true},
+    "Z": {"dh_nonzero": true, "dphi": "17926538407835482078345353480/109989087380664777943307738953", "dphi_nonzero": true}
+  },
+  "separation_witness": {
+    "different_ambient_A_after_SZ_compensation": true,
+    "same_h_after_SZ_compensation": true,
+    "same_terminal_R_after_SZ_compensation": true
+  },
+  "sne_interface": {
+    "dA_to_dL_or_flux": "CONDITIONAL_NOT_KERNEL_DERIVED",
+    "null_screen_query_to_dA": "DERIVED_CONDITIONAL_ON_SUPPLIED_JACOBI_QUERY",
+    "pair_metric_to_phi_pair": "DERIVED_CONDITIONAL",
+    "phi_pair_to_1_plus_z": "CONDITIONAL_REGISTERED_SNE_READOUT",
+    "phi_pair_to_c_eff_over_cE": "DERIVED_CONDITIONAL_PAIR_IDENTITY",
+    "physical_history_and_pair_family": "OPEN"
+  },
+  "state_regularities": [true, true, true]
+}

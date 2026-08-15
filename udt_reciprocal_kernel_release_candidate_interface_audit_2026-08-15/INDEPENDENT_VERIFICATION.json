@@ -1,0 +1,28 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "SZ_fiber_changes_ambient_transition": true,
+    "SZ_fiber_preserves_h_exact": true,
+    "all_channel_dh_nonzero": true,
+    "all_channel_dphi_nonzero": true,
+    "ambient_composition_exact": true,
+    "ambient_reversal_exact": true,
+    "direct_factored_metrics_equal": true,
+    "redshift_ceff_squared_identity_exact": true,
+    "terminal_character_exact": true,
+    "terminal_composition_high_precision": true,
+    "terminal_reversal_high_precision": true,
+    "three_states_regular": true
+  },
+  "regular": [true, true, true],
+  "sensitivities": {
+    "B": {"dh_nonzero": true, "dphi": "-33028920008308704836397871620/109989087380664777943307738953", "dphi_nonzero": true},
+    "Q": {"dh_nonzero": true, "dphi": "16947498911352416709543033019/329967262141994333829923216859", "dphi_nonzero": true},
+    "S": {"dh_nonzero": true, "dphi": "32976619891669139675721317145/219978174761329555886615477906", "dphi_nonzero": true},
+    "Y": {"dh_nonzero": true, "dphi": "-61603981750872241682815778328/109989087380664777943307738953", "dphi_nonzero": true},
+    "Z": {"dh_nonzero": true, "dphi": "17926538407835482078345353480/109989087380664777943307738953", "dphi_nonzero": true}
+  },
+  "terminal_composition_residual": "1E-90",
+  "terminal_reversal_residual": "3E-90",
+  "method": "independent standard-library Fraction/Decimal implementation; no SymPy or primary imports"
+}

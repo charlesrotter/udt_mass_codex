@@ -15,6 +15,7 @@ choose the file that makes a desired derivation easiest.
 | Pointwise `phi` | `CONDITIONAL` presentation potential | Local factorized representation | Universal physical scalar ownership |
 | Terminal `phi_pair` | `DERIVED` conditionally | Unique reciprocal log imbalance on a supplied regular A-calibrated pair metric | Physical pair map and universal mixed-geometry identification |
 | Complete pair orchestra | `DERIVED` conditional structure | Angular/screen/mixing data enter before terminal readout | Unique physical pair cocycle/history |
+| Scoped `mu_lock` | `DERIVED` with caveats | Generic (`s!=r`) spectral defect and one signed component of a supplied endpoint transition; exact `s=r` carve-out retained | Physical carry/arrow/history owner and any unique full-`2x2` scalar |
 | Pair `c_eff` | `CONDITIONAL` observer-frame readout | Terminal ratio on a supplied calibrated pair relation | Universal physical owner; local material signal interpretation |
 | Co-presence | `WORKING` semantics | Whole-solution membership framing | New local tensor, signalling law, or selector |
 
@@ -69,6 +70,25 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
 - Uncompressed complete-pair evaluator: `VERIFIED-WITH-CAVEATS` after a fresh sealed external review;
   all `B,Q,S,Y,Z` channels and derivatives retained before terminal readout; physical pair/history
   and unique scalar `mu` open.
+- August 6 `mu_lock`: G92 internally derives the restricted bridge
+  `mu_lock=-[Q_q(S_q-S_p)B_p^-1]_(screen,clock)` for a supplied block-preserving identity carry.
+  It remains distinct from July `mu_old`; the rank-one slice selects no unique full-`2x2` scalar,
+  terminal `h` cannot recover it universally, and fresh semantic review remains open.
+- Reciprocal-kernel release candidate: G93 is externally `VERIFIED-WITH-CAVEATS`; one coherent
+  `B,Q,S,Y,Z -> h -> phi_pair` pipeline and distinct ambient/terminal composition justify only a
+  no-fit geometry replay. Physical history and flux/source ownership remain open.
+- Native flux ownership: G94 externally verifies the regular supplied-query factor
+  `F_o=L_Omega eta epsilon/(Z^3 d_A^2)`; `eta epsilon`, the full luminosity law, physical history,
+  singular/global propagation, and any SNe fit remain open.
+- Native current/energy ownership: G95 externally verifies only conditional Maxwell-shaped response
+  and null phase-volume transport; physical cargo stays open and `epsilon=1/Z` requires one carrier-covector identification.
+- Null-query label current: G96 externally confirms the closed pushforward three-form and exact
+  metric/Jacobi density representation, but classifies closure as tautological query bookkeeping.
+  It supplies no new physical owner; carrier identification, physical zero side flux, and `eta` remain open.
+- Complete-geometry SNe control: G97 is externally `VERIFIED-WITH-CAVEATS`; one preselected G79
+  control is strongly incompatible with the registered SNe mean relation under explicit provisional
+  `eta=1`, `epsilon=1/Z`, and source isotropy. The end-to-end evaluator works; physical history,
+  native transfer, all other geometries, all-sky ownership, and `X_max` remain open.
 - Overlapping-pair live compatibility: internally `VERIFIED-WITH-CAVEATS`; exact chart, shared-clock,
   middle-state, and joint-Gram consistency laws derived conditionally. The original “fully live”
   wording was corrected; stricter flat, monotone, and loud-quiet-loud lifts are contribution-live

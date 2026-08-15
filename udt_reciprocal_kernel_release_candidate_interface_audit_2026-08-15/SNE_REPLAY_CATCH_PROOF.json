@@ -1,0 +1,12 @@
+{
+  "all_pass": true,
+  "catches": {
+    "bad_fit_erasure": true,
+    "epsilon_premise_removed": true,
+    "eta_premise_removed": true,
+    "fitted_geometry_shape": true,
+    "missing_preregistration": true,
+    "transfer_promotion": true
+  },
+  "verifier_role": "scope_and_metadata_consistency_guards_not_independent_numerical_evidence"
+}

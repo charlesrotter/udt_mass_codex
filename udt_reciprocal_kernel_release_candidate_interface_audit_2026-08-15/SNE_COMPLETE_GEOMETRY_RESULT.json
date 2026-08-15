@@ -1,0 +1,91 @@
+{
+  "authority": {
+    "Xmax_identified": false,
+    "all_sky_isotropy_derived": false,
+    "native_radiative_law_derived": false,
+    "physical_history_selected": false,
+    "shape_parameter_fitted": false,
+    "single_offset_profiled": true
+  },
+  "checks": {
+    "all_endpoints_inside_chart": true,
+    "finite_positive_distances": true,
+    "killing_energy_below_1e_8": true,
+    "no_caustic": true,
+    "null_residual_below_1e_8": true,
+    "positive_lapse": true,
+    "refinement_relative_below_2e_7": true,
+    "screen_gram_below_1e_7": true,
+    "screen_ray_below_1e_7": true
+  },
+  "curve_atlas": {
+    "path": "SNE_COMPLETE_GEOMETRY_CURVE.tsv",
+    "rows": 1367,
+    "sha256": "08d0248cb382ac119fd673e4f09c3c1604306f8e9310838afc93cafb9bb2694c"
+  },
+  "data": {
+    "catalog": "Data/Pantheon+SH0ES.dat",
+    "catalog_sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+    "covariance": "Data/Pantheon+SH0ES_STAT+SYS.cov",
+    "covariance_sha256": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc",
+    "n": 1367,
+    "row_index_max": 1700,
+    "row_index_min": 317,
+    "selection": "zCMB>0.023 and IS_CALIBRATOR==0",
+    "z_max": 2.2613,
+    "z_min": 0.02307
+  },
+  "landing": "OBSERVED_CONDITIONAL_ONE_CONTROL_GEOMETRY_SNE_CURVE__PROVISIONAL_TRANSPARENT_NULL_CARRIER_INTERFACE__NO_HISTORY_XMAX_EM_OR_PARTICLE_CLOSURE",
+  "likelihood": {
+    "chi2": 16255.29713839297,
+    "chi2_dof": 11.899924698677138,
+    "offset": 19.767879189569076,
+    "offset_sigma": 0.0043398571174683535
+  },
+  "path": {
+    "final_affine_over_R": 2.0858505276259294,
+    "first_caustic_affine": null,
+    "minimum_lapse": 0.09255056503822878,
+    "minimum_sampled_screen_singular_value": 0.000417170105525186,
+    "residuals": {
+      "conserved_p_psi": 1.553937507099354e-14,
+      "conserved_p_t": 4.884981308350689e-15,
+      "min_A": 0.09255056503822878,
+      "min_block_D": 0.06152343764901161,
+      "null": 2.772492691619756e-15,
+      "screen_gram": 1.9761969838327786e-14,
+      "screen_ray": 9.2148511043888e-15,
+      "tidal_antisymmetry": 6.162975822039155e-32,
+      "wronskian": 5.361788965174065e-31
+    },
+    "source_x_max": 1.9052028080619356,
+    "source_x_min": 0.48793165731255095
+  },
+  "profile": {
+    "A_of_x": "1-x^2/4",
+    "geometry_shape_fitted": false,
+    "h_of_x": "x^6/20",
+    "profile_id": "G75_AM_S01_E05",
+    "receiver_x": 0.25
+  },
+  "provisional_transfer": {
+    "dL_relation": "d_L=Z^2*d_A",
+    "epsilon": "1/Z",
+    "eta": 1.0,
+    "status": "POSIT__CONDITIONAL__NOT_UDT_DERIVED"
+  },
+  "refinement": {
+    "max_relative_dA_difference": 1.0751279896101497e-14,
+    "step_controls": [
+      2048,
+      4096
+    ]
+  },
+  "schema": "udt-g93-one-complete-geometry-sne-replay-v1",
+  "status": "PASS",
+  "versions": {
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "scipy": "1.15.3"
+  }
+}

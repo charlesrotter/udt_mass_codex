@@ -1,0 +1,15 @@
+{
+  "all_catches_pass": true,
+  "count": 9,
+  "caught": [
+    "unmatched middle state silently identified",
+    "nonzero S sensitivity omitted",
+    "mu_lock appended after terminal phi_pair",
+    "S changed without compensating Z carry",
+    "historical d_A=r promoted from conditional",
+    "historical d_L law promoted from conditional",
+    "retype-only SNe replay called rebuilt-kernel replay",
+    "all-active history called selected physics",
+    "conditional geometry readiness called full validation readiness"
+  ]
+}

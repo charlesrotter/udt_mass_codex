@@ -37,6 +37,9 @@ comparison only; it cannot seed raw-lane bins, covariance, normalization, or int
 
 - No-shortcut complete-pair evaluator (active; fresh sealed external review passed with caveats):
   `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
+- Scoped clock-to-screen reciprocal-lock defect and its exact gauge carve-out/coupling-inert result:
+  `udt_mixing_channel_lane_2026-08-06/` (a restricted comparison-arrow scalar, not July `mu_old`
+  and not a uniquely selected scalar of the complete kernel)
 - Overlapping live pair compatibility and loud/quiet classification (internal verification passed;
   all-instruments-live correction included; fresh external review pending):
   `udt_overlapping_pair_live_compatibility_audit_2026-08-14/`
@@ -47,10 +50,19 @@ comparison only; it cannot seed raw-lane bins, covariance, normalization, or int
 - Protected predecessor, now regraded as a fixed-Gram diagnostic:
   `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 
-The active package carries `B,Q,S,Y,Z` and their derivatives to one terminal `phi_pair` and
-`c_eff/c_E`. It establishes no physical history and no unique scalar `mu`. The pair-first,
-reachability, and chord packages remain durable parents. The protected predecessor must not be used
-as the active kernel or staged without a separate dispatch.
+The active package carries `B,Q,S,Y,Z` to terminal `phi_pair`/`c_eff`; it selects no history or
+unique scalar `mu`. The protected predecessor must not be staged without a separate dispatch.
+
+August `mu_lock` crosswalk: `udt_august6_mu_complete_kernel_crosswalk_2026-08-15/` — restricted
+endpoint-transition component derived; unique complete scalar and terminal recovery rejected.
+
+Kernel release-candidate join (externally verified with caveats; no-fit geometry replay only):
+`udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/`.
+Its `SNE_EXTERNAL_REVIEW_ADJUDICATION.md` records G97: one preselected control is strongly SNe
+incompatible under provisional transfer; the end-to-end conditional evaluator is operational.
+
+G94/G95/G96 boundaries: `udt_native_flux_luminosity_law_ownership_audit_2026-08-15/`,
+`udt_native_radiative_current_energy_owner_audit_2026-08-15/`, `udt_null_carrier_measure_ownership_audit_2026-08-15/`.
 
 ## Foundational and premise authorities
 

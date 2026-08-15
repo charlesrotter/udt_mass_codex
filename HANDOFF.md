@@ -4,14 +4,12 @@
 
 Read `LIVE.md` first. It wins every disagreement.
 
-## Resume anchor — 2026-08-14
+## Resume anchor — 2026-08-15
 
 ### Active theory reset
 
-Start with `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`, then its
-`EXACT_DERIVATION.md`, `EXTERNAL_ADVERSARIAL_REVIEW.md`, `EXTERNAL_REVIEW_ADJUDICATION.md`,
-`SHORTCUT_REGRADE.tsv`, and machine evidence. Its fresh sealed `gpt-5.4` review returned
-`VERIFIED_WITH_CAVEATS` with no blocking defect; current grade is
+Start with `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md` and its exact,
+review, regrade, and machine evidence. Fresh sealed review returned
 `VERIFIED-WITH-CAVEATS__FRESH_EXTERNAL_SEMANTIC_REVIEW_PASSED`.
 
 For supplied `E=[[B,0],[Q S,Q]]` and `J=[Y;Z]`, the full pair metric is formed first and one terminal
@@ -20,13 +18,17 @@ For supplied `E=[[B,0],[Q S,Q]]` and `J=[Y;Z]`, the full pair metric is formed f
 instrument attribution and live screen rotation. Its fixed-`P` quiet-middle result is a diagnostic,
 not a physical regime law.
 
-Do not identify modern four-component `S` with the older July scalar `mu_old`; no bridge or unique
-current scalar `mu` is owned. Physical pair assignment and history remain open.
+G93 joins the rebuilt kernel: all `B,Q,S,Y,Z` channels precede terminal readout; ambient and terminal
+arrows compose separately; G92 `mu_lock` is never appended. Fresh sealed review found no blocker;
+the no-fit replay is justified; G94-G96 keep physical history, transfer, and cargo `OPEN`.
 
-The corrected `udt_overlapping_pair_live_compatibility_audit_2026-08-14/` is internally complete.
-Its first controls were explicit lifts, not all-active; stricter replacements keep every block and
-`dot h` contribution live near an exact control. All three shapes survive: activity is not the
-missing score, and no counterfamily is thereby physical. Fresh review is next; validation is paused.
+G97 completes that first replay under explicit provisional `eta=1`, `epsilon=1/Z`, and source
+isotropy. The preselected G79 control gives `chi2=16255.30/1366 dof`; fresh sealed review rebuilt
+the curve and likelihood and accepted `VERIFIED_WITH_CAVEATS__ONE_CONTROL_STRONGLY_SNE_INCOMPATIBLE`.
+This is not a physical history, native transfer law, all-sky theorem, or UDT rejection.
+
+The corrected overlap audit keeps every block contribution live and retains flat, monotone, and
+loud-quiet-loud families. Activity is not the missing score; fresh review remains held.
 
 ### What is running
 
@@ -119,9 +121,8 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-1. Fresh sealed semantic review of the corrected G90 package and exact sources.
-2. Repair any blocking type/covariance/ownership finding.
-3. Then audit the native owner of `J=E^-1 V_*`; keep observational work paused.
+Zoom out over G97 and ask whether existing complete-history equations own one lawful regime
+continuation. Do not fit/rank another control, invent a mismatch mechanism, or infer `X_max`.
 
 Historical handoff material is preserved verbatim in
 `archive/startup_surface_2026-08-14/HANDOFF_before_cleanup.md` and older archive files.

@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-14
+Date: 2026-08-15
 Authority: active dependency spine; not canonization
 
 `LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise
@@ -78,7 +78,10 @@ Source: `udt_pair_chord_network_descent_audit_2026-08-12/`.
 For supplied `E=[[B,0],[Q S,Q]]` and supplied `J=[Y;Z]`, the complete pair metric is assembled before
 the terminal `phi_pair` and `c_eff/c_E` readout. The exact live identity retains
 `dot B,dot Q,dot S,dot Y,dot Z`. Modern mixing is the four-component matrix `S`; no unique scalar
-`mu` is owned. Physical pair assignment and history remain open.
+`mu` is owned. G92 conditionally maps August 6 `mu_lock` to one signed component of the supplied
+endpoint transition `Q_q(S_q-S_p)B_p^-1`, but proves that its rank-one slice selects no unique full
+`2x2` scalar and that terminal `h` cannot reconstruct it universally. Physical carry, pair, and
+history ownership remain open; its use inside G93 has now received fresh sealed review.
 
 A fresh sealed `gpt-5.4` adversary independently reproduced the pullback, regular singular-`Y`
 boundary witness, five-channel live variation, terminal ratio, compression fibers, and `mu` type
@@ -105,6 +108,16 @@ select the physical score.
 
 Source: `udt_overlapping_pair_live_compatibility_audit_2026-08-14/`.
 
+G93 joins the release-candidate interfaces: ambient and terminal transitions remain distinct, all
+five complete channels precede readout, and `mu_lock` is not appended. G94 derives the conditional
+geometric flux factor; G95/G96 leave physical transfer and cargo open.
+
+G97 completes the first end-to-end house test with provisional `eta=1`, `epsilon=1/Z`, and source
+isotropy. One preselected G79 control gives `chi2=16255.30` for `1366` degrees of freedom. Fresh
+sealed review rebuilt its full null/screen/Jacobi curve and raw-data likelihood and accepted
+`VERIFIED_WITH_CAVEATS__ONE_CONTROL_STRONGLY_SNE_INCOMPATIBLE`. This establishes an operational
+conditional evaluation path, not a physical history, native radiation law, all-sky theorem,
+`X_max`, or UDT rejection.
 ## Macro observational anchors
 
 - The historical P1 SNe work remains a conditional low-redshift compatibility anchor after native
@@ -144,18 +157,14 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-1. Obtain a fresh sealed semantic review of the uncompressed evaluator and exact source manifest.
-2. Repair any blocking finding before premise promotion.
-3. Then preregister a metric-led overlapping-pair compatibility audit; do not infer a regime score
-   from a chosen fixed Gram matrix.
-4. Keep the observational residual atlas paused until Charles explicitly returns to validation.
+1. Zoom out over G97 and test whether existing complete-history equations own one lawful regime
+   continuation. Do not fit/rank another control or invent a mismatch mechanism.
+2. Keep the observational residual atlas paused; transfer, history, `X_max`, bootstrap, CMB, and BAO remain open.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.
 
 ## Historical detail
 
-The verbose pre-cleanup program is preserved verbatim at
-`archive/startup_surface_2026-08-14/CURRENT_RESEARCH_PROGRAM_before_cleanup.md`. Older dated packages
-retain their premise-scoped evidence and remain discoverable through the exact premise registry and
-git history.
+The verbose pre-cleanup program is under `archive/startup_surface_2026-08-14/`; older packages
+remain discoverable through the premise registry and git history.

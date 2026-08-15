@@ -1,0 +1,10 @@
+claim	status	scope	guard
+complete_pair_pipeline	DERIVED_CONDITIONAL	supplied regular B Q S Y Z	no physical history selection
+ambient_transition_composition	DERIVED_CONDITIONAL	supplied common endpoint carry and matched middle	not path-flatness
+terminal_transition_composition	DERIVED_CONDITIONAL	matched regular A-calibrated terminal states	not ambient arrow
+all_channel_sensitivity	VERIFIED_WITH_CAVEATS	generic local witness	not dynamics or regime selection
+mu_terminal_separation	DERIVED	declared S/Z pullback fiber	mu not appended after phi_pair
+geometric_sne_query_readiness	CONDITIONAL_READY	redshift plus supplied Jacobi screen distance	not full likelihood readiness
+physical_history	OPEN	global complete relation family	all-active history not selected
+native_flux_source_law	OPEN	SNe observed-flux interface	conditional dL law not promoted
+package_grade	EXTERNALLY_VERIFIED_WITH_CAVEATS__NO_FIT_GEOMETRY_REPLAY_JUSTIFIED	same-witness implementation independence; physical history and flux open	not canon or validation

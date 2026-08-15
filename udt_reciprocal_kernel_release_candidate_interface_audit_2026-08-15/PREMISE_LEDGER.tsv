@@ -1,0 +1,12 @@
+item	status	owner	guard
+complete_coframe	CONDITIONAL	supplied regular B Q S	no physical history selection
+pair_realization	CONDITIONAL	supplied regular Y Z query	no metric-selected J
+pair_metric	DERIVED_CONDITIONAL	h=J^T E^T eta E J	all channels enter before readout
+terminal_pair_state	DERIVED_CONDITIONAL	unique triangular decomposition of regular h	fixed A calibration only
+ambient_endpoint_transition	CONDITIONAL	supplied endpoint carry and coframes	not terminal R or physical path
+terminal_endpoint_transition	DERIVED_CONDITIONAL	matched terminal states	not ambient holonomy
+mu_lock	DERIVED_WITH_CAVEATS	restricted ambient transition component	not appended terminal correction
+sne_redshift	CONDITIONAL_READOUT	1+z=exp(phi_pair)	not old strain extractor
+sne_angular_distance	DERIVED_CONDITIONAL	supplied null screen Jacobi query	not selected physical profile
+sne_flux	CONDITIONAL	supplied area/flux/source law	not native kernel result
+physical_history	OPEN	future metric/query owner	all-active does not select

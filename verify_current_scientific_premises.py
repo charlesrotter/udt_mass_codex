@@ -140,6 +140,8 @@ def validate_startup_surface(root: Path) -> None:
             "no preferred" in block.lower(),
             f"R3 no-preferred-selection guard absent: {name}",
         )
+        require("G96" in block, f"G96 category boundary absent: {name}")
+        require("G97" in block, f"G97 SNe control result absent: {name}")
 
     for token in (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
@@ -165,6 +167,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_pair_first_relational_plane_reconstruction_2026-08-12/",
             "udt_pair_terminal_reachability_atlas_2026-08-12/",
             "udt_pair_chord_network_descent_audit_2026-08-12/",
+            "udt_null_carrier_measure_ownership_audit_2026-08-15/",
             "After orientation",
             "verify_current_scientific_premises.py",
         ),
@@ -246,6 +249,16 @@ def validate_startup_surface(root: Path) -> None:
         "udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md",
         "udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md",
         "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
+        "udt_august6_mu_complete_kernel_crosswalk_2026-08-15/AUDIT_REPORT.md",
+        "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_null_carrier_measure_ownership_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_null_carrier_measure_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/SNE_EXTERNAL_REVIEW_ADJUDICATION.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -262,9 +275,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 78, "premise registry must contain exactly 78 rows")
+    require(len(rows) == 85, "premise registry must contain exactly 85 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 78, "duplicate premise id")
+    require(len(by_id) == 85, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1336,6 +1349,130 @@ def main() -> None:
         "G90 overlap source changed",
     )
     require("G90_CORRECTS_THE_EXPLICIT_LIFT_ALL_ACTIVE_CATEGORY_ERROR" in by_id["G90"]["precedence_rule"], "G90 correction refinement absent")
+    require(
+        by_id["G91"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__ONE_SCREEN_COMPARISON_ARROW_MU_LOCK_IS_GENERIC_SPECTRAL_RECIPROCAL_LOCK_DEFECT_FOR_s_NE_r__EXACT_GAUGE_CARVEOUT_ON_PART_OF_s_EQ_r__COUPLING_INERT_FOR_PHI_PROFILE_SELECTION__COMPLETE_KERNEL_CROSSWALK_OPEN",
+        "G91 scoped mu_lock result regressed or promoted",
+    )
+    require(by_id["G91"]["epistemic_label"] == "MIXED", "G91 mu_lock label changed")
+    require("type-correct map into complete B Q S Y Z pair evaluator" in by_id["G91"]["open_scope"], "G91 complete-kernel crosswalk falsely closed")
+    require("mu_lock collapsed into July mu_old" in by_id["G91"]["forbidden_regression"], "G91 mu type guard absent")
+    require("s equals r gauge carve-out omitted" in by_id["G91"]["forbidden_regression"], "G91 gauge carve-out guard absent")
+    require("physical depth cocycle" in by_id["G91"]["forbidden_regression"], "G91 physical-depth promotion guard absent")
+    require(
+        by_id["G91"]["controlling_source"]
+        == "udt_mixing_channel_lane_2026-08-06/BLIND_VERIFICATION_FINAL.md",
+        "G91 mu_lock source changed",
+    )
+    require("G91_RECOVERS_THE_DISTINCT_AUGUST6_SCOPED_RECIPROCAL_LOCK_DEFECT" in by_id["G91"]["precedence_rule"], "G91 recovery precedence absent")
+    require(
+        by_id["G92"]["current_status"]
+        == "INTERNALLY_VERIFIED_WITH_CAVEATS__RESTRICTED_MU_LOCK_IS_SIGNED_COMPONENT_OF_SUPPLIED_ENDPOINT_TRANSITION__NO_UNIQUE_FULL_2X2_SCALAR_EXTENSION__NOT_UNIVERSALLY_RECOVERABLE_FROM_TERMINAL_PAIR_METRIC__FRESH_SEMANTIC_REVIEW_OPEN",
+        "G92 mu crosswalk status regressed or promoted",
+    )
+    require(by_id["G92"]["epistemic_label"] == "MIXED", "G92 crosswalk label changed")
+    require("fresh semantic adversary" in by_id["G92"]["open_scope"], "G92 fresh review falsely closed")
+    require("physical endpoint carry" in by_id["G92"]["open_scope"], "G92 endpoint carry promoted")
+    require("restricted component promoted to universal scalar" in by_id["G92"]["forbidden_regression"], "G92 scalar-promotion guard absent")
+    require("terminal h or phi_pair identified with full-arrow strain" in by_id["G92"]["forbidden_regression"], "G92 channel-type guard absent")
+    require("S/Z pullback fiber ignored" in by_id["G92"]["forbidden_regression"], "G92 pullback-fiber guard absent")
+    require("s equals r gauge carve-out omitted" in by_id["G92"]["forbidden_regression"], "G92 old gauge carve-out guard absent")
+    require(
+        by_id["G92"]["controlling_source"]
+        == "udt_august6_mu_complete_kernel_crosswalk_2026-08-15/AUDIT_REPORT.md",
+        "G92 crosswalk source changed",
+    )
+    require("G92_DERIVES_THE_RESTRICTED_ENDPOINT_TRANSITION_COMPONENT_BRIDGE" in by_id["G92"]["precedence_rule"], "G92 crosswalk precedence absent")
+    require(
+        by_id["G93"]["current_status"]
+        == "EXTERNALLY_VERIFIED_WITH_CAVEATS__G87_G89_G90_G92_KERNEL_INTERFACES_COHERENT__AMBIENT_AND_TERMINAL_TRANSITIONS_COMPOSE_SEPARATELY__ALL_FIVE_CHANNELS_PRECEDE_READOUT__NO_FIT_GEOMETRY_REPLAY_JUSTIFIED__PHYSICAL_HISTORY_AND_FLUX_OPEN",
+        "G93 release-candidate status regressed or promoted",
+    )
+    require(by_id["G93"]["epistemic_label"] == "MIXED", "G93 release-candidate label changed")
+    require("witness-independent state ensemble" in by_id["G93"]["open_scope"], "G93 shared-witness caveat silently closed")
+    require("semantic mutations beyond status guards" in by_id["G93"]["open_scope"], "G93 catch-proof caveat silently closed")
+    require("physical complete history and pair family" in by_id["G93"]["open_scope"], "G93 physical history promoted")
+    require("native flux source and luminosity law" in by_id["G93"]["open_scope"], "G93 flux owner promoted")
+    require("ambient and terminal arrows identified" in by_id["G93"]["forbidden_regression"], "G93 arrow-type guard absent")
+    require("mu_lock appended after phi_pair" in by_id["G93"]["forbidden_regression"], "G93 mu double-count guard absent")
+    require("frozen P1 retype called rebuilt-kernel replay" in by_id["G93"]["forbidden_regression"], "G93 replay-identity guard absent")
+    require("geometry readiness called full SNe validation" in by_id["G93"]["forbidden_regression"], "G93 validation-promotion guard absent")
+    require(
+        by_id["G93"]["controlling_source"]
+        == "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G93 release-candidate source changed",
+    )
+    require("G93_FRESH_SEALED_REVIEW_REPRODUCES_THE_JOINED_KERNEL" in by_id["G93"]["precedence_rule"], "G93 external-review precedence absent")
+    require(
+        by_id["G94"]["current_status"]
+        == "EXTERNALLY_VERIFIED_WITH_CAVEATS__Z3_GEOMETRIC_CLOCK_FACTOR_DERIVED_ON_REGULAR_SUPPLIED_QUERY__TRANSFER_PRODUCT_ETA_EPSILON_OPEN__HISTORICAL_Z2_LAW_COMPATIBLE_CONDITIONAL",
+        "G94 flux ownership status regressed or promoted",
+    )
+    require(by_id["G94"]["epistemic_label"] == "MIXED", "G94 flux label changed")
+    require("physical radiative carrier current and conserved measure" in by_id["G94"]["open_scope"], "G94 current ownership promoted")
+    require("energy-frequency law" in by_id["G94"]["open_scope"], "G94 energy ownership promoted")
+    require("caustics multiple images" in by_id["G94"]["open_scope"], "G94 singular/global scope promoted")
+    require("clock or frequency ratio identified with energy ratio" in by_id["G94"]["forbidden_regression"], "G94 clock-energy type guard absent")
+    require("eta set to one" in by_id["G94"]["forbidden_regression"], "G94 survival guard absent")
+    require("historical dL equals Z2 dA called unconditional" in by_id["G94"]["forbidden_regression"], "G94 luminosity-law guard absent")
+    require(
+        by_id["G94"]["controlling_source"]
+        == "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G94 flux source changed",
+    )
+    require("G94_FRESH_SEALED_REVIEW_RECONSTRUCTS_WRONSKIAN" in by_id["G94"]["precedence_rule"], "G94 external-review precedence absent")
+    require(
+        by_id["G95"]["current_status"]
+        == "EXTERNALLY_VERIFIED_WITH_CAVEATS__GEOMETRIC_RESPONSE_AND_PHASESPACE_TRANSPORT_ONLY__PHYSICAL_TRANSFER_OPEN__EPSILON_ONE_OVER_Z_ONLY_AFTER_ONE_CARRIER_COVECTOR_IDENTIFICATION",
+        "G95 current-energy status regressed or promoted",
+    )
+    require(by_id["G95"]["epistemic_label"] == "MIXED", "G95 current-energy label changed")
+    require("physical radiative carrier and populated conserved measure" in by_id["G95"]["open_scope"], "G95 physical carrier promoted")
+    require("energy-covector identification" in by_id["G95"]["open_scope"], "G95 energy premise promoted")
+    require("Maxwell-shaped response called physical Maxwell theory or cargo" in by_id["G95"]["forbidden_regression"], "G95 response-cargo guard absent")
+    require("Liouville volume called a populated conserved distribution" in by_id["G95"]["forbidden_regression"], "G95 population guard absent")
+    require("package consistency verifier called independent derivation" in by_id["G95"]["forbidden_regression"], "G95 evidence-scope repair absent")
+    require(
+        by_id["G95"]["controlling_source"]
+        == "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G95 current-energy source changed",
+    )
+    require("G95_FRESH_SEALED_REVIEW_RECONSTRUCTS_RESPONSE_COUNTEREXAMPLE" in by_id["G95"]["precedence_rule"], "G95 external-review precedence absent")
+    require(
+        by_id["G96"]["current_status"]
+        == "EXTERNALLY_REVIEWED_WITH_CAVEATS__LABEL_CURRENT_VALID_BUT_TAUTOLOGICAL__NO_NEW_OWNERSHIP_BEYOND_QUERY_TYPING__PHYSICAL_ETA_OPEN",
+        "G96 label-current status regressed or promoted",
+    )
+    require(by_id["G96"]["epistemic_label"] == "MIXED", "G96 label-current label changed")
+    require("physical radiative carrier identification" in by_id["G96"]["open_scope"], "G96 carrier identification promoted")
+    require("physical zero side flux" in by_id["G96"]["open_scope"], "G96 physical side-flux premise promoted")
+    require("query label closure called new metric dynamics" in by_id["G96"]["forbidden_regression"], "G96 tautology guard absent")
+    require("eta_label equals one substituted for physical eta equals one" in by_id["G96"]["forbidden_regression"], "G96 eta type guard absent")
+    require("det D called the full spacetime current" in by_id["G96"]["forbidden_regression"], "G96 Jacobian type guard absent")
+    require(
+        by_id["G96"]["controlling_source"]
+        == "udt_null_carrier_measure_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G96 label-current source changed",
+    )
+    require("G96_FRESH_SEALED_REVIEW_CONFIRMS_THE_LABEL_PUSHFORWARD_ALGEBRA" in by_id["G96"]["precedence_rule"], "G96 external-review precedence absent")
+    require(
+        by_id["G97"]["current_status"]
+        == "VERIFIED_WITH_CAVEATS__ONE_PRESELECTED_G79_CONTROL_STRONGLY_INCOMPATIBLE_WITH_REGISTERED_SNE_MEAN_RELATION__END_TO_END_CONDITIONAL_INTERFACE_OPERATIONAL__NO_HISTORY_OR_NATIVE_TRANSFER",
+        "G97 scoped SNe control result regressed or promoted",
+    )
+    require(by_id["G97"]["epistemic_label"] == "MIXED", "G97 SNe label changed")
+    require("all other complete geometries directions skies histories and branches" in by_id["G97"]["open_scope"], "G97 one-control scope promoted")
+    require("native radiative carrier transfer luminosity and source law" in by_id["G97"]["open_scope"], "G97 provisional transfer promoted")
+    require("one control negative called rejection of reciprocal kernel or UDT" in by_id["G97"]["forbidden_regression"], "G97 kernel/theory rejection guard absent")
+    require("one equatorial curve called all-sky isotropy" in by_id["G97"]["forbidden_regression"], "G97 all-sky guard absent")
+    require("another geometry fitted or tuned to repair the mismatch" in by_id["G97"]["forbidden_regression"], "G97 mismatch-tuning guard absent")
+    require("scope guards called independent numerical evidence" in by_id["G97"]["forbidden_regression"], "G97 evidence-scope guard absent")
+    require(
+        by_id["G97"]["controlling_source"]
+        == "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/SNE_EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G97 SNe source changed",
+    )
+    require("G97_FRESH_SEALED_REVIEW_REBUILDS_THE_FULL_CURVE_AND_RAW_LIKELIHOOD" in by_id["G97"]["precedence_rule"], "G97 external-review precedence absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1414,7 +1551,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: 92 premise guards (legacy package-gate compatibility); PASS: 78-row premise "
+        "PASS: 98 premise guards (legacy package-gate compatibility); PASS: 85-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

@@ -1,0 +1,78 @@
+{
+  "anchors": [
+    {
+      "affine_over_R": 0.28941870039170764,
+      "coarse_fine_relative": 9.629792197034097e-12,
+      "dA_over_R": 0.289418655110926,
+      "independent_production_relative": 1.0879599416574606e-11,
+      "max_endpoint_null_absolute": 3.04266641039444e-15,
+      "production_dA_over_R_exact_anchor": 0.28941865510777726,
+      "source_x": 0.5371485900436135,
+      "z": 0.03
+    },
+    {
+      "affine_over_R": 0.6185143908908284,
+      "coarse_fine_relative": 1.0722441200402763e-10,
+      "dA_over_R": 0.6184988860726333,
+      "independent_production_relative": 4.480767675908327e-11,
+      "max_endpoint_null_absolute": 2.9542329372520765e-15,
+      "production_dA_over_R_exact_anchor": 0.6184988860449198,
+      "source_x": 0.863636363636364,
+      "z": 0.1
+    },
+    {
+      "affine_over_R": 1.2783915386242153,
+      "coarse_fine_relative": 9.742402940002532e-11,
+      "dA_over_R": 1.2657970680352877,
+      "independent_production_relative": 3.4027563743378725e-11,
+      "max_endpoint_null_absolute": 6.570648024154316e-15,
+      "production_dA_over_R_exact_anchor": 1.2657970679922157,
+      "source_x": 1.5,
+      "z": 0.5
+    },
+    {
+      "affine_over_R": 1.617269924068148,
+      "coarse_fine_relative": 7.728906872170108e-11,
+      "dA_over_R": 1.5362564473442382,
+      "independent_production_relative": 9.329664476320482e-12,
+      "max_endpoint_null_absolute": 4.0434845684396425e-15,
+      "production_dA_over_R_exact_anchor": 1.5362564473299054,
+      "source_x": 1.7365554986812255,
+      "z": 1.0
+    },
+    {
+      "affine_over_R": 2.014474232711241,
+      "coarse_fine_relative": 4.9833941310491204e-11,
+      "dA_over_R": 1.7691554794697835,
+      "independent_production_relative": 1.842406626111726e-11,
+      "max_endpoint_null_absolute": 3.1801174378304903e-15,
+      "production_dA_over_R_exact_anchor": 1.7691554794371884,
+      "source_x": 1.8874586088176875,
+      "z": 2.0
+    }
+  ],
+  "checks": {
+    "all_anchor_dA_agree_below_3e_4": true,
+    "all_anchor_delta_converged": true,
+    "all_anchor_null": true,
+    "chi2_reproduced": true,
+    "five_anchor_rows": true,
+    "offset_reproduced": true
+  },
+  "chi2_absolute_difference": 1.2732925824820995e-11,
+  "likelihood": {
+    "chi2": 16255.297138392958,
+    "n": 1367,
+    "offset": 19.767879189569072
+  },
+  "method": "direct_loop_Christoffel_plus_finite_difference_neighboring_rays_and_explicit_covariance_inverse",
+  "offset_absolute_difference": 3.552713678800501e-15,
+  "production_likelihood": {
+    "chi2": 16255.29713839297,
+    "chi2_dof": 11.899924698677138,
+    "offset": 19.767879189569076,
+    "offset_sigma": 0.0043398571174683535
+  },
+  "schema": "udt-g93-one-complete-geometry-sne-independent-v1",
+  "status": "PASS"
+}
