@@ -1,0 +1,44 @@
+{
+  "program": "G100",
+  "date": "2026-08-15",
+  "question_type": "observational_holdout",
+  "frozen_model": {
+    "profile": "P1",
+    "n": 1.0559332414320268,
+    "shape_formula": "n*(1+z)^2*(1-(1+z)^(-2/n))",
+    "magnitude_formula": "5*log10(shape_formula)+B",
+    "primary_free_parameters": ["B_additive_brightness_offset"]
+  },
+  "primary": {
+    "sample_filter": "IDSURVEY == 10",
+    "expected_n": 1635,
+    "redshift": "zHD",
+    "observation": "MU",
+    "precision_source": "STAT+SYS.npz",
+    "subset_rule": "invert_full_precision_then_take_covariance_block",
+    "degrees_of_freedom": "N-1",
+    "upper_tail_tension_threshold": 0.01,
+    "lower_tail_warning_threshold": 0.01
+  },
+  "secondary_after_primary": [
+    "full_1820_STAT+SYS",
+    "DES_only_STATONLY",
+    "DES_only_zHEL",
+    "DES_only_profile_n_with_offset",
+    "equal_count_redshift_residual_characterization"
+  ],
+  "forbidden_inputs": [
+    "LambdaCDM_distance",
+    "author_cosmology_chains",
+    "MUMODEL",
+    "MURES",
+    "MUPULL",
+    "BAO",
+    "CMB",
+    "Xmax",
+    "bootstrap_selector",
+    "post_terminal_orchestra_correction"
+  ],
+  "source_commit": "c9a4fcafc4cbd19bd750dee47fc76194a45c181f",
+  "maximum_conclusion": "compatibility_or_tension_of_frozen_G99_P1_with_declared_DES_release_only"
+}
