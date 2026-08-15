@@ -70,7 +70,9 @@ sources.
 G97 now verifies the first end-to-end complete-geometry SNe house test: under provisional
 `eta=1`, `epsilon=1/Z`, and source isotropy, one preselected G79 control gives
 `chi2=16255.30/1366 dof` and is strongly incompatible. The evaluator works; history and native
-transfer remain open. Zoom out before another solve; do not fit another control to repair it.
+transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet-loud histories all
+survive with every factor contributing, so current equations permit but do not own the continuation.
+Next choose a new owner search or an observational calibration frozen before independent tests.
 
 ## Archive
 

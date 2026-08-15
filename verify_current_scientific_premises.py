@@ -142,6 +142,7 @@ def validate_startup_surface(root: Path) -> None:
         )
         require("G96" in block, f"G96 category boundary absent: {name}")
         require("G97" in block, f"G97 SNe control result absent: {name}")
+        require("G98" in block, f"G98 continuation ownership result absent: {name}")
 
     for token in (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
@@ -259,6 +260,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_null_carrier_measure_ownership_audit_2026-08-15/AUDIT_REPORT.md",
         "udt_null_carrier_measure_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/SNE_EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_complete_history_regime_continuation_ownership_audit_2026-08-15/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -275,9 +277,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 85, "premise registry must contain exactly 85 rows")
+    require(len(rows) == 86, "premise registry must contain exactly 86 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 85, "duplicate premise id")
+    require(len(by_id) == 86, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1473,6 +1475,24 @@ def main() -> None:
         "G97 SNe source changed",
     )
     require("G97_FRESH_SEALED_REVIEW_REBUILDS_THE_FULL_CURVE_AND_RAW_LIKELIHOOD" in by_id["G97"]["precedence_rule"], "G97 external-review precedence absent")
+    require(
+        by_id["G98"]["current_status"]
+        == "INTERNALLY_VERIFIED_WITH_CAVEATS__PERMITTED_NOT_OWNED__EXACT_FLAT_MONOTONE_AND_LOUD_QUIET_LOUD_CONTRIBUTION_LIVE_HISTORIES_SURVIVE__NO_ACTIVE_NATIVE_SELECTOR_IN_FROZEN_SOURCE_UNIVERSE",
+        "G98 continuation-owner status regressed or promoted",
+    )
+    require(by_id["G98"]["epistemic_label"] == "MIXED", "G98 continuation label changed")
+    require("fresh external semantic review" in by_id["G98"]["open_scope"], "G98 review scope silently closed")
+    require("physical metric history and query family" in by_id["G98"]["open_scope"], "G98 physical owner promoted")
+    require("permitted loud quiet loud family called selected UDT history" in by_id["G98"]["forbidden_regression"], "G98 survivor-selection guard absent")
+    require("kinematic identity called dynamics" in by_id["G98"]["forbidden_regression"], "G98 identity/dynamics guard absent")
+    require("one SNe mismatch called native history equation" in by_id["G98"]["forbidden_regression"], "G98 observation-owner guard absent")
+    require("source-bounded result called generic no-go" in by_id["G98"]["forbidden_regression"], "G98 scope guard absent")
+    require(
+        by_id["G98"]["controlling_source"]
+        == "udt_complete_history_regime_continuation_ownership_audit_2026-08-15/AUDIT_REPORT.md",
+        "G98 source changed",
+    )
+    require("G98_CONSTRUCTIVELY_PROVES_THAT_CURRENT_COMPLETE_EQUATIONS_PERMIT" in by_id["G98"]["precedence_rule"], "G98 precedence absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1551,7 +1571,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: 98 premise guards (legacy package-gate compatibility); PASS: 85-row premise "
+        "PASS: 99 premise guards (legacy package-gate compatibility); PASS: 86-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

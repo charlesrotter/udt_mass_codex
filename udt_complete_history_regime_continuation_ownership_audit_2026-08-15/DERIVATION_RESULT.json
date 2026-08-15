@@ -1,0 +1,75 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "all_family_checks": true,
+    "no_active_native_history_owner": true,
+    "source_hashes": true,
+    "three_separating_families": true
+  },
+  "families": [
+    {
+      "all_checks_pass": true,
+      "checks": {
+        "all_B_Q_S_Y_Z_live": true,
+        "all_five_h_contributions_live": true,
+        "all_four_S_entries_live": true,
+        "exact_hdot_contribution_partition": true,
+        "factorization": true,
+        "flat": true,
+        "rank_two": true,
+        "regular": true,
+        "target_metric": true
+      },
+      "exp_4_terminal_modulation": "1",
+      "kind": "flat",
+      "terminal_modulation": "0"
+    },
+    {
+      "all_checks_pass": true,
+      "checks": {
+        "all_B_Q_S_Y_Z_live": true,
+        "all_five_h_contributions_live": true,
+        "all_four_S_entries_live": true,
+        "exact_hdot_contribution_partition": true,
+        "factorization": true,
+        "monotone_exact": true,
+        "monotone_positive_at_control": true,
+        "rank_two": true,
+        "regular": true,
+        "target_metric": true
+      },
+      "exp_4_terminal_modulation": "t**2",
+      "kind": "monotone",
+      "terminal_modulation": "log(t)/2"
+    },
+    {
+      "all_checks_pass": true,
+      "checks": {
+        "all_B_Q_S_Y_Z_live": true,
+        "all_five_h_contributions_live": true,
+        "all_four_S_entries_live": true,
+        "exact_hdot_contribution_partition": true,
+        "factorization": true,
+        "lql_exact": true,
+        "lql_left_divergence": true,
+        "lql_right_divergence": true,
+        "lql_stationary": true,
+        "lql_strict_minimum": true,
+        "rank_two": true,
+        "regular": true,
+        "target_metric": true
+      },
+      "exp_4_terminal_modulation": "256/((2*t - 3)**4*(2*t - 1)**4)",
+      "kind": "loud_quiet_loud",
+      "terminal_modulation": "-log(256*t**8 - 2048*t**7 + 6912*t**6 - 12800*t**5 + 14176*t**4 - 9600*t**3 + 3888*t**2 - 864*t + 81)/4 + 2*log(2)"
+    }
+  ],
+  "landing": "PERMITTED_NOT_OWNED",
+  "maximum_conclusion": "No active equation in the frozen source universe owns a unique or separating complete-history regime continuation on the tested regular stratum.",
+  "owner_summary": {
+    "active_native_history_owner_count": 0,
+    "active_native_history_owners": [],
+    "candidate_count": 15
+  },
+  "schema": "udt.complete_history_regime_continuation_ownership.v1"
+}

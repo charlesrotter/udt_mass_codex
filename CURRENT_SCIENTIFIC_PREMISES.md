@@ -89,6 +89,9 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   control is strongly incompatible with the registered SNe mean relation under explicit provisional
   `eta=1`, `epsilon=1/Z`, and source isotropy. The end-to-end evaluator works; physical history,
   native transfer, all other geometries, all-sky ownership, and `X_max` remain open.
+- Complete-history continuation ownership: G98 is internally `VERIFIED-WITH-CAVEATS`; exact
+  contribution-live flat, monotone, and loud-quiet-loud histories all satisfy the current frozen
+  equation universe. The quiet middle is permitted, not selected; this is not a generic no-go.
 - Overlapping-pair live compatibility: internally `VERIFIED-WITH-CAVEATS`; exact chart, shared-clock,
   middle-state, and joint-Gram consistency laws derived conditionally. The original “fully live”
   wording was corrected; stricter flat, monotone, and loud-quiet-loud lifts are contribution-live

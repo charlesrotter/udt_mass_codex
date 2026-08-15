@@ -53,16 +53,15 @@ comparison only; it cannot seed raw-lane bins, covariance, normalization, or int
 The active package carries `B,Q,S,Y,Z` to terminal `phi_pair`/`c_eff`; it selects no history or
 unique scalar `mu`. The protected predecessor must not be staged without a separate dispatch.
 
-August `mu_lock` crosswalk: `udt_august6_mu_complete_kernel_crosswalk_2026-08-15/` — restricted
-endpoint-transition component derived; unique complete scalar and terminal recovery rejected.
+August `mu_lock` crosswalk: `udt_august6_mu_complete_kernel_crosswalk_2026-08-15/`; no unique scalar.
 
-Kernel release-candidate join (externally verified with caveats; no-fit geometry replay only):
-`udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/`.
-Its `SNE_EXTERNAL_REVIEW_ADJUDICATION.md` records G97: one preselected control is strongly SNe
-incompatible under provisional transfer; the end-to-end conditional evaluator is operational.
+Kernel release join: `udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/`.
+Its SNe adjudication records G97's strongly incompatible preselected control under provisional transfer.
 
-G94/G95/G96 boundaries: `udt_native_flux_luminosity_law_ownership_audit_2026-08-15/`,
-`udt_native_radiative_current_energy_owner_audit_2026-08-15/`, `udt_null_carrier_measure_ownership_audit_2026-08-15/`.
+G98 continuation ownership: `udt_complete_history_regime_continuation_ownership_audit_2026-08-15/`;
+flat, monotone, and loud-quiet-loud survive, with no active frozen-source selector.
+
+G94/G95/G96: `udt_native_flux_luminosity_law_ownership_audit_2026-08-15/`, `udt_native_radiative_current_energy_owner_audit_2026-08-15/`, `udt_null_carrier_measure_ownership_audit_2026-08-15/`.
 
 ## Foundational and premise authorities
 

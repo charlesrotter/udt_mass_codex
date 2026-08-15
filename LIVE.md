@@ -54,10 +54,11 @@ G97 is the first externally verified end-to-end complete-geometry SNe house test
 full curve and likelihood replay. This is one control/query/transfer tile—not a physical history,
 native radiation law, all-sky theorem, `X_max`, or rejection of UDT. Do not tune another geometry.
 
-### Bounded overlap result
-The corrected overlap audit derives chart, middle-state, and joint-Gram consistency laws and keeps
-flat, monotone, and loud-quiet-loud contribution-live families. These reject inconsistent assembly
-but select neither score nor physical history; review remains held and G89 remains external authority.
+G98 is the preregistered zoom-out return:
+`INTERNALLY_VERIFIED_WITH_CAVEATS__PERMITTED_NOT_OWNED`. Exact flat, monotone, and loud-quiet-loud
+histories survive with every factor and `dot h` contribution live. Current compatibility equations
+therefore select no continuation. This is a frozen-source/regular-stratum result, not a generic
+no-go; the quiet-middle architecture is lawful but not selected.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -157,12 +158,11 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-1. Zoom out over G97 before another solve: identify whether existing complete-history equations own
-   one lawful regime continuation. Do not fit/rank another control or add a mismatch mechanism.
-2. Keep provisional transfer, physical history, `X_max`, bootstrap, and CMB/BAO explicitly open.
+1. Choose a new native history/query owner search or a minimal `OBSERVED/CONDITIONAL` middle-regime
+   calibration frozen before BAO/CMB tests.
+2. Do not fit sequential SNe geometries or call a survivor derived; transfer and later lanes remain open.
 
 ### Archive
-
 Superseded startup/status prose through this cleanup is preserved verbatim under
 `archive/startup_surface_2026-08-14/`. Earlier historical layers remain under `archive/`. They are
 provenance, not current authority.

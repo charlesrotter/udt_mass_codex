@@ -1,0 +1,60 @@
+{
+  "all_checks_pass": true,
+  "caveat": "Exact rational samples independently support the symbolic family theorem; they are not a second symbolic proof of all-domain derivatives or limits.",
+  "checks": {
+    "conditional_actions_not_active": true,
+    "fifteen_candidates": true,
+    "flat_B_Q_S_Y_Z_change": true,
+    "flat_all_S_entries_change": true,
+    "flat_factorization_1": true,
+    "flat_factorization_3/4": true,
+    "flat_factorization_5/4": true,
+    "flat_regular_1": true,
+    "flat_regular_3/4": true,
+    "flat_regular_5/4": true,
+    "flat_shape": true,
+    "loud_quiet_loud_B_Q_S_Y_Z_change": true,
+    "loud_quiet_loud_all_S_entries_change": true,
+    "loud_quiet_loud_factorization_1": true,
+    "loud_quiet_loud_factorization_3/4": true,
+    "loud_quiet_loud_factorization_5/4": true,
+    "loud_quiet_loud_regular_1": true,
+    "loud_quiet_loud_regular_3/4": true,
+    "loud_quiet_loud_regular_5/4": true,
+    "lql_quiet_middle": true,
+    "lql_shape": true,
+    "monotone_B_Q_S_Y_Z_change": true,
+    "monotone_all_S_entries_change": true,
+    "monotone_factorization_1": true,
+    "monotone_factorization_3/4": true,
+    "monotone_factorization_5/4": true,
+    "monotone_regular_1": true,
+    "monotone_regular_3/4": true,
+    "monotone_regular_5/4": true,
+    "monotone_shape": true,
+    "no_active_native_owner": true,
+    "observation_not_native_owner": true,
+    "primary_landing": true,
+    "primary_pass": true,
+    "source_hashes": true
+  },
+  "exact_exp_4M_samples": {
+    "flat": [
+      "1",
+      "1",
+      "1"
+    ],
+    "loud_quiet_loud": [
+      "65536/81",
+      "256",
+      "65536/81"
+    ],
+    "monotone": [
+      "9/16",
+      "1",
+      "25/16"
+    ]
+  },
+  "method": "stdlib Fraction matrix replay; no SymPy and no production import",
+  "schema": "udt.complete_history_regime_continuation_independent.v1"
+}

@@ -46,6 +46,7 @@ CURRENT_TARGETS = (
     "udt_null_carrier_measure_ownership_audit_2026-08-15/AUDIT_REPORT.md",
     "udt_null_carrier_measure_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
     "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/SNE_EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_complete_history_regime_continuation_ownership_audit_2026-08-15/AUDIT_REPORT.md",
 )
 
 
@@ -90,7 +91,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 85-row premise registry" in result.stdout
+    assert "PASS: 86-row premise registry" in result.stdout
 
 
 def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:

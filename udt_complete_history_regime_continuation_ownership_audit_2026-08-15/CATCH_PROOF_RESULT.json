@@ -1,0 +1,16 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "baseline": true,
+    "catch:SNe_mismatch_promoted_to_native_owner": true,
+    "catch:candidate_omitted": true,
+    "catch:conditional_EH_promoted_to_native": true,
+    "catch:flat_separating_witness_silently_dropped": true,
+    "catch:maurer_cartan_promoted_to_dynamics": true,
+    "catch:nonselection_promoted_to_unique_selection": true
+  },
+  "passed": 7,
+  "role": "semantic and package-scope guards; not independent mathematical evidence",
+  "schema": "udt.complete_history_regime_continuation_catches.v1",
+  "total": 7
+}

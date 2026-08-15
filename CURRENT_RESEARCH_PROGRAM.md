@@ -118,6 +118,10 @@ sealed review rebuilt its full null/screen/Jacobi curve and raw-data likelihood 
 `VERIFIED_WITH_CAVEATS__ONE_CONTROL_STRONGLY_SNE_INCOMPATIBLE`. This establishes an operational
 conditional evaluation path, not a physical history, native radiation law, all-sky theorem,
 `X_max`, or UDT rejection.
+
+G98's no-fit owner audit retains exact contribution-live flat, monotone, and loud-quiet-loud
+continuations plus multiple G85 global archetypes. `PERMITTED_NOT_OWNED` means the quiet middle is
+lawful but no active native equation selects it.
 ## Macro observational anchors
 
 - The historical P1 SNe work remains a conditional low-redshift compatibility anchor after native
@@ -157,14 +161,10 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-1. Zoom out over G97 and test whether existing complete-history equations own one lawful regime
-   continuation. Do not fit/rank another control or invent a mismatch mechanism.
-2. Keep the observational residual atlas paused; transfer, history, `X_max`, bootstrap, CMB, and BAO remain open.
+1. Choose a nonidentity history/query-law search or a minimal observational calibration frozen before BAO/CMB.
+2. Keep the observational residual atlas paused; transfer, `X_max`, bootstrap, CMB, and BAO remain open.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.
 
-## Historical detail
-
-The verbose pre-cleanup program is under `archive/startup_surface_2026-08-14/`; older packages
-remain discoverable through the premise registry and git history.
+Historical detail remains under `archive/startup_surface_2026-08-14/` and the premise registry.
