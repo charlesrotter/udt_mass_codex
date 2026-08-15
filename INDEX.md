@@ -1,8 +1,20 @@
 # INDEX — current repository map
 
-`LIVE.md` is the only guaranteed-current status file.
+`LIVE.md` is the only guaranteed-current status file. On branch `grok2`,
+`GROK2_STARTUP.md` is the branch-only orientation and wins for this skeleton.
 
-## Startup
+## Startup (`grok2`)
+
+1. Confirm branch `grok2`. Follow `AGENTS.md` synchronization, but do not
+   treat parent `grok` R3 monitoring as this branch's next action.
+2. Read the current blocks in `LIVE.md` and `HANDOFF.md` (they point here).
+3. Read `GROK2_STARTUP.md`.
+4. Read `udt_session_dilation_skeleton_2026-08-14/` (`README.md`, `STATUS.md`,
+   `PREMISE_LEDGER.tsv`, `EXACT_DERIVATION.md`).
+5. Open August \(\mu\) notes and `CURRENT_SCIENTIFIC_PREMISES.tsv` only when
+   that object is load-bearing.
+
+## Inherited `grok` startup (not this branch's dispatch)
 
 1. Follow `AGENTS.md` synchronization and bounded-read rules.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
@@ -36,6 +48,8 @@ lead pending semantic review and banking.
 
 ## Foundational and premise authorities
 
+- Branch-only startup (`grok2`): `GROK2_STARTUP.md`
+- Branch-only skeleton (`grok2`): `udt_session_dilation_skeleton_2026-08-14/`
 - Current status: `LIVE.md`
 - Current program: `CURRENT_RESEARCH_PROGRAM.md`
 - High-risk premise index: `CURRENT_SCIENTIFIC_PREMISES.md`

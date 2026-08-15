@@ -1,18 +1,30 @@
 # MEMORY — compact disk pointer
 
-Re-read from disk on resume. `LIVE.md` wins.
+Re-read from disk on resume. `LIVE.md` wins. On branch `grok2`, `GROK2_STARTUP.md`
+is the branch-only orientation.
+
+## TOP — CURRENT POINTER (`grok2`)
+
+Unbanked dilation skeleton in `udt_session_dilation_skeleton_2026-08-14/`.
+Not canon. May align with the universe; not guaranteed. Parent `grok` R3 lane
+is inherited and not this branch's dispatch.
 
 ## Current execution
 
-R3 raw data-only covariance production is running under
-`udt-r3-covariance-patchlists-20260813.service`, with atomic checkpoints in
-`/tmp/udt_boss_r3_checkpoints_patchlists`. The repair is banked in `2ddb4066`. Do not inspect
-covariance content until all 194 components complete, assembly finishes, and the independent
-verifier passes.
+This branch does not run R3. Do not inspect covariance content from `grok2`.
+Parent `grok` still had R3 production under
+`udt-r3-covariance-patchlists-20260813.service` at fork time.
 
-R2 is `VERIFIED-WITH-CAVEATS`; R3 currently has no outcome or physical interpretation.
+## Current theory picture (`grok2` first)
 
-## Current theory picture
+Session skeleton: \(\tanh\) lapse, rest \(z\), Liouville \(d_L\), August \(\mu\)
+as Earth–sky lock defect, megamaser \(X\sim 4\times 10^3\,\mathrm{Mpc}\)
+measured not derived. Lean-\(\mu\) is the wrong object. BAO not shown and
+not ruled out.
+
+Inherited parent picture below.
+
+## Inherited current theory picture (`grok`)
 
 The complete metric conditionally evaluates one supplied pair relation as a layered object:
 

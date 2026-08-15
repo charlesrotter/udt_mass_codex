@@ -2,7 +2,9 @@
 
 **Branch target:** `grok2`  
 **Grade:** unbanked conversational derivation. Not canon. Not a verifier pass.  
-**Does not edit** `LIVE.md` or `CANON.md`.  
+**Does not edit** `CANON.md`. On `grok2` only, `LIVE.md` / `HANDOFF.md` /
+`MEMORY.md` / `INDEX.md` current blocks point at this package and at
+`GROK2_STARTUP.md`. That does not apply to `grok`.  
 **Does not replace** the running R3 lane or the unbanked reciprocal-kernel lead on `grok`.
 
 This package writes down the skeleton developed in the 2026-08-14 session so it can be committed. It is a starting frame that **may** align with the universe. It is not a completed universe.

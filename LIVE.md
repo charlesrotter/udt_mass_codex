@@ -2,10 +2,85 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-## CURRENT STATE — 2026-08-14
+## CURRENT STATE — 2026-08-14 (branch `grok2` only)
 
-Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
-description.
+Branch: `grok2`, forked from `grok` @ `b343566a`. This block overrides every older status
+description **on this branch**. It does not apply to `grok`. Synchronize and inspect dirt
+before work. Preserve all unrelated untracked files.
+
+**Read next:** `GROK2_STARTUP.md`, then
+`udt_session_dilation_skeleton_2026-08-14/` (`README.md`, `STATUS.md`,
+`PREMISE_LEDGER.tsv`, `EXACT_DERIVATION.md`).
+
+### Active theory lane on this branch — unbanked dilation skeleton
+
+Session package: `udt_session_dilation_skeleton_2026-08-14/` (commit `bb59925b` and
+follow-ons). Grade: unbanked conversational derivation. Not canon. Not a verifier
+pass. A skeleton that may align with the universe; not guaranteed.
+
+Owned here: \(\phi_{\mathrm{rad}}=\mathrm{artanh}(\rho/X)\); rest-observer
+\(1+z=e^{\Delta\phi_{\mathrm{rad}}}\); \(d_L=\rho(1+z)^2\) under Liouville and
+\(D_A=\rho\); August comparison-arrow \(\mu\) (lock defect, coboundary \(k\),
+scoped \(s\neq e^{\Delta\phi}\)) is the angular mixing, not worldline lean;
+BAO viewing pair is Earth–sky; uniform-\(k\) shell is a scoped empty, not a
+no-go.
+
+Measured here, not derived: five Hubble-flow megamaser disks,
+\(X\sim 4\times 10^3\,\mathrm{Mpc}\) to about ten percent. They do not test
+the \(\tanh\) bend.
+
+Open: time-live \(g\); second screen; regular \(s\) at the origin; which \(k\)
+exists; spectroscopic \(z\) versus heard \(\delta_t\); derived \(X\); derived
+sky angle. Do not pick \(k\) or \(\omega\) to fit BAO.
+
+### Inherited `grok` operational lane — do not drive it from here
+
+R3 covariance production remains the parent `grok` data-only lane
+(`udt-r3-covariance-patchlists-20260813.service`). This branch does not own
+that worker. Do not inspect covariance ranks, scales, or shapes. R2 remains
+`VERIFIED-WITH-CAVEATS` as raw pattern characterization only: not BAO, not
+\(X_{\max}\), not a UDT response.
+
+The unbanked reciprocal-kernel lead
+`udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/` and its
+durable pair-first / reachability / chord-descent parents remain on the parent
+history. They are not this skeleton and do not overrule it on `grok2`.
+
+### High-risk premise guard
+
+- `c_E`: `OBSERVED` clock/ruler calibration. Local physics unchanged.
+- \(\phi_{\mathrm{rad}}=\mathrm{artanh}(\rho/X)\): `DERIVED` this session, unbanked.
+- August \(\mu\): `THEORY` 2026-08-06; lock defect, not lean speed.
+- \(s=R_q/R_p\) with \(R=\rho\): `CHOSE`; origin illegal.
+- spectroscopic \(1+z=e^{\Delta\phi}\) vs pair \(\delta_t\): `OPEN FORK`.
+- megamaser \(X\): `OBSERVED` slope only.
+- 3 K starlight screen: `POSIT`; \(T_\star\) interpretation-conditional.
+- `X_max` value: measured nearby, not derived; not a wall.
+- `S^2` carrier: `POSIT`.
+- BAO: not shown, not ruled out.
+
+### Local dirt and guards
+
+Preserve without staging unless Charles names the files. Do not mine protected
+`grok` payloads. Do not merge `grok2` into `grok` unless asked.
+
+### Immediate next action
+
+Stay on `grok2`. Follow `GROK2_STARTUP.md`. Wait for Charles to name the next
+scientific step. Do not launch a fit, a BAO mechanism, or an R3 inspection.
+
+### Archive
+
+The `grok` 2026-08-14 R3/kernel startup prose is inherited below
+`STARTUP_CURRENT_END` and in `archive/startup_surface_2026-08-14/`. Provenance
+only on this branch.
+
+<!-- STARTUP_CURRENT_END -->
+
+## INHERITED GROK CURRENT STATE — 2026-08-14 (not this branch's dispatch)
+
+Branch at fork: `grok`. Left here so `grok2` does not erase the parent
+orientation. Do not treat the following as the `grok2` next action.
 
 ### Active operational lane — R3 raw spatial covariance is running
 
@@ -127,4 +202,4 @@ Superseded startup/status prose through this cleanup is preserved verbatim under
 `archive/startup_surface_2026-08-14/`. Earlier historical layers remain under `archive/`. They are
 provenance, not current authority.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- INHERITED_GROK_STARTUP_END -->

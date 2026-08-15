@@ -2,13 +2,57 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-Read `LIVE.md` first. It wins every disagreement.
+Read `LIVE.md` first. It wins every disagreement. On branch `grok2` also read
+`GROK2_STARTUP.md`. That file plus
+`udt_session_dilation_skeleton_2026-08-14/` are this branch's theory orientation.
 
-## Resume anchor — 2026-08-14
+## Resume anchor — 2026-08-14 (`grok2` only)
 
-### What is running
+### What this branch is
 
-The preregistered R3 data-only spatial-covariance component atlas is running under:
+Unbanked dilation skeleton. Not canon. Forked from `grok` @ `b343566a`. Package:
+
+```text
+udt_session_dilation_skeleton_2026-08-14/
+```
+
+Honest claim: \(\tanh\) lapse backbone, rest-observer \(z\), Liouville \(d_L\),
+August lock-defect \(\mu\) as Earth–sky comparison mixing, megamaser slope
+\(X\sim 4\times 10^3\,\mathrm{Mpc}\) as a measurement. May align with the
+universe. Not guaranteed.
+
+### What is not running from this branch
+
+R3 on `grok` is not this dispatch. Do not inspect covariance content. Do not
+monitor it as the next `grok2` action.
+
+### Honest theory claim
+
+Lean-\(\mu=r|\partial_t\Omega|\) is not the August object. August \(\mu\) is
+the unipotent clock-to-screen mixing in \(A(\Delta\phi,s,\mu)\), coboundary
+in \(k\), scoped \(s\neq e^{\Delta\phi}\). Heard \(\delta_t\) and spectroscopic
+\(e^{\Delta\phi}\) are an open fork. BAO pair is Earth–sky. Uniform-\(k\) shell
+is a scoped empty, not a no-go. Time-live \(g\), second screen, \(k\), and a
+derived sky angle remain open.
+
+### Premise guard
+
+- local physics unchanged
+- do not pick \(k\) or \(\omega\) to fit BAO
+- do not import \(\Lambda\)CDM rulers
+- do not edit `CANON.md`
+- do not merge to `grok` unless asked
+
+### Next bounded action
+
+Stay on `grok2`. Follow `GROK2_STARTUP.md`. Wait for Charles.
+
+<!-- STARTUP_CURRENT_END -->
+
+### Inherited `grok` resume (not this branch's dispatch)
+
+The preregistered R3 data-only spatial-covariance component atlas was running
+on the parent branch under:
 
 ```text
 udt-r3-covariance-patchlists-20260813.service
@@ -90,4 +134,4 @@ payload; directory presence is not evidence that the unbanked work was committed
 Historical handoff material is preserved verbatim in
 `archive/startup_surface_2026-08-14/HANDOFF_before_cleanup.md` and older archive files.
 
-<!-- STARTUP_CURRENT_END -->
+<!-- INHERITED_GROK_HANDOFF_END -->
