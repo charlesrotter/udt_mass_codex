@@ -1,0 +1,11 @@
+gate	failure_condition	required_landing
+C-TYPE	unit or orthogonality identities fail	TYPE_OR_ALGEBRA_FAILURE
+C-COMMON	angle is formed from unequal normalized observer clocks	QUERY_TYPE_FAILURE
+C-GAUGE	pair column calibration changes direction or angle	CALIBRATION_DEPENDENCE_FAILURE
+C-FRAME	common Lorentz change alters invariant outputs	FRAME_COVARIANCE_FAILURE
+C-PAIR	single source relation is silently treated as two-point statistic	QUERY_ARITY_FAILURE
+C-EST	synthetic exact estimator does not match independent enumeration	ESTIMATOR_JOIN_FAILURE
+C-BRANCH	map requires injectivity without explicit restriction	GLOBAL_BRANCH_FAILURE
+C-IDENT	unique curve is claimed with unrestricted source pair measure	SOURCE_IDENTIFIABILITY_FAILURE
+C-NOIMPORT	any excluded ruler profile Xmax acoustic or curve value enters	PREMISE_VIOLATION
+C-MAX	all gates pass	COMPLETE_TWO_SOURCE_OBSERVABLE_EVALUATOR_DERIVED__PHYSICAL_HISTORY_AND_SOURCE_PAIR_MEASURE_OPEN

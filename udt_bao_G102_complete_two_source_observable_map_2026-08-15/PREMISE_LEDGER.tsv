@@ -1,0 +1,13 @@
+id	item	status	role	forbidden_promotion
+P1	complete coframe E	FREE_AND_EXPLORED_SYMBOLIC_INPUT	ambient evaluator	physical history
+P2	two pair Jacobians J1 J2	FREE_AND_EXPLORED_REGULAR_INPUTS	observer-source realizations	selected physical pairs
+P3	common normalized observer clock	PINNED_BY_QUERY_SEMANTICS	one shared observer sky	global preferred congruence
+P4	terminal Zobs=exp(phi_pair)	OBSERVED_CONDITIONAL_G99	middle-regime redshift typing	universal source or dynamics law
+P5	pair ruler orthogonalization	CANDIDATE_DERIVED	observer direction readout	new physical mechanism
+P6	BOSS RA DEC Z weights mask bins randoms	OBSERVED_FROZEN	measurement inputs	metric derivation or source law
+P7	Landy-Szalay	BORROWED_CATEGORY_A_ESTIMATOR	finite-sample angular statistic	UDT dynamics or acoustic physics
+P8	G99 radial chord	OBSERVED_CONDITIONAL_FROZEN	optional later history coordinate	direct angular-ruler insertion
+P9	source one/two-point measures	OPEN	predictive population input	geometry-derived without proof
+P10	selection transfer and branch weights	OPEN	catalog population map	native flux or carrier law
+P11	Xmax standard ruler acoustic scale LambdaCDM	EXCLUDED	none	BAO map input
+P12	R2-R5 curve and descriptor artifacts	SEALED_FOR_G102	holdout	map-design input
