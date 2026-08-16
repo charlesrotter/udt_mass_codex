@@ -1,0 +1,10 @@
+# G116 commands
+
+```bash
+python3 udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/derive_calibrated_junction.py
+python3 udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/verify_calibrated_junction_independent.py
+python3 udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/run_catch_proofs.py
+python3 udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/verify_package.py
+python3 verify_current_scientific_premises.py
+python3 -m pytest tests/
+```

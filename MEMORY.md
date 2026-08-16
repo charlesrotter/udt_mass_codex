@@ -46,9 +46,9 @@ A flux/luminosity audit externally verifies conditionally
 
 G95/G96 retain no physical radiative population; `epsilon=1/Z` needs a carrier-covector premise and physical `eta=1` remains open.
 
-G110-G115 sharpen the architecture: one full `dF` owns pair/sky blocks; nonflat survival and SNe
-non-regression pass; P1 is not a smooth static profile; affine source loops compose; and the regular
-time-live jet separates quadratic terminal depth from possible linear source frequency without selection.
+G110-G116 sharpen the architecture: one full `dF` owns pair/sky blocks; nonflat survival and SNe
+non-regression pass; P1 is not a smooth static profile; source loops compose; the regular time-live
+jet separates frequency/depth and then joins them coefficient-free without selecting a history.
 
 ## Premise memory
 
@@ -71,8 +71,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106-G109 type projector, extension, Jacobi, and depth. G110-G113 derive distinct full-`dF` blocks, nonflat survival, SNe non-regression, and the static-profile correction. G114 closes the typed source network; G115 closes its first regular time-live local jet and source-boundary typing.
-Next derive the calibrated source-frequency/terminal-pair junction in G115 `NEXT_GATE.md`, with SNe sealed until the forward channels are frozen.
+G106-G109 type projector, extension, Jacobi, and depth. G110-G113 derive full-`dF` blocks, nonflat survival, SNe non-regression, and the static correction. G114-G116 close the source network, regular time-live jet, and coefficient-free frequency/terminal junction.
+Next follow G116 `NEXT_GATE.md`: type catalog frequency ownership, regrade the redshift interface, freeze strata, then run the bounded no-refit dual-SNe exposure.
 
 ## Archive
 

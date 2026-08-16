@@ -1,0 +1,13 @@
+{
+  "caught": {
+    "delete_relative_drift": true,
+    "delete_relative_drift_derivative": true,
+    "fail_fixed_label_sky_subtraction": true,
+    "identify_frequency_with_terminal_depth": true,
+    "naive_addition_double_counts_pure_branch": true,
+    "promote_b_as_invariant": true,
+    "reverse_optical_sign": true
+  },
+  "count": 7,
+  "status": "PASS"
+}

@@ -122,6 +122,9 @@ is `O(R^2)`, while a supplied source congruence permits invariant frequency `(b-
 carry precedes fixed-label readout; passive relabeling is gauge. Physical history and the calibrated
 observed-redshift junction remain open.
 
+G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` derives the missing local junction without a coefficient:
+`zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`. Its pure stationary reciprocal reduction is exact; generic live queries retain distinct typed channels and no selected mixture.
+
 ## Macro observational anchors
 
 - G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
@@ -148,7 +151,7 @@ closure remains open. Resume from `MASS_BRANCH_AUTHORITY_MAP.tsv`.
 
 ## Current open joints
 
-1. Calibrated junction between terminal reciprocal depth and source-clock frequency.
+1. Operational ownership of catalog frequency ratio and regrade of old redshift interfaces.
 2. Physical complete history/global relation-family ownership.
 3. Live regime evolution of `B,Q,S,Y,Z` and their lawful overlaps.
 4. Complete SNe screen/flux and CMB source/population ownership.
@@ -160,9 +163,7 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Follow G115 `NEXT_GATE.md`: derive the calibrated source-frequency/terminal-pair junction from the
-founding reciprocal-`c_E` semantics using only residual-slicing invariant combinations. Keep SNe
-sealed until the channel identity or nonuniqueness and the forward low-distance series are frozen.
+Follow G116 `NEXT_GATE.md`: type catalog spectroscopic redshift, regrade without refitting the old universal terminal-depth interface, freeze the three low-distance strata, then perform the bounded Pantheon+-calibration/DES-secondary no-refit exposure.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

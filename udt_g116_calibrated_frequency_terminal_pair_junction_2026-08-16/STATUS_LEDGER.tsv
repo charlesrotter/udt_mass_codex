@@ -1,0 +1,12 @@
+item	status	note
+preregistration	PASS	commit 4497ace9 precedes confirmatory work
+exact_junction	PASS	coefficient-free identity through O(R2)
+residual_gauge	PASS	all seven registered combinations invariant
+pure_reciprocal_reduction	PASS	zeta equals phi and c_eff/c_E equals exp(-2 zeta)
+frequency_composition	PASS	exact on one supplied ray/covector calibration
+terminal_composition	CONDITIONAL_PASS	requires matched terminal calibration local system
+universal_scalar_selection	OPEN_NONUNIQUE	founding group gates leave delta_alpha family
+observed_redshift_protocol	OPEN	no dataset or carrier population opened
+physical_history	OPEN	invariant jet values unselected
+downstream_physics	EXCLUDED	no SNe BAO CMB Xmax action bootstrap matter mass or signalling
+blind_review	PASS_WITH_CAVEATS	load-bearing equations independently rebuilt; declared-class, frequency-query, active-sky, verifier-independence, and zero-stratum wording repaired

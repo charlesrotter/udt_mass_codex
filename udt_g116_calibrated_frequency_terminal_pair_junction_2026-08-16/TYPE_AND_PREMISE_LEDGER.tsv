@@ -1,0 +1,19 @@
+object_or_choice	status	owner_or_definition	exclusion_or_limit
+c_E	OBSERVED_CALIBRATION	founding clock/ruler unit conversion	not a path history or redshift selector
+regular central time-live two-jet	DERIVED_CONDITIONAL_G115	smooth spherical metric and declared query	local through R2 only
+phi_pair quotient	DERIVED_CONDITIONAL	terminal reciprocal imbalance of supplied orthogonally reduced pair metric	not source-clock frequency by definition
+phi_pair fixed label	DERIVED_CONDITIONAL_ACTIVE_QUERY	complete fixed-label pullback including active sky drift	passive sky relabeling is gauge
+c_eff pair over c_E	DERIVED_CONDITIONAL	exp(-2 phi_pair) terminal tape readout	not local material signal speed
+source frequency ratio Z	DERIVED_CONDITIONAL_CANONICAL_FOR_DECLARED_RATIO_QUERY	[-g(k,U_s)]/[-g(k,U_o)] for supplied clocks ray covector normalization and group law	no uniqueness over arbitrary endpoint functions; no source population energy or transfer law
+zeta	DERIVED_CONDITIONAL	log Z	exact frequency-query additive depth on matched ray calibration
+v_rel=b-q	DERIVED_GAUGE_INVARIANT	relative source/tape drift coefficient	individual b and q are gauge representatives
+dot v_rel	DERIVED_GAUGE_INVARIANT	time derivative combination dot b-dot q	individual derivatives are not invariant
+A_opt	DERIVED_GAUGE_INVARIANT	2 ell+2 n+dot b from affine and Jacobi propagation	not a fitted angular correction
+G116 junction	DERIVED_CONDITIONAL	zeta=phi_pair+v_rel R+(dot v_rel-A_opt/4)R2+O(R3)	declared local quotient query; fixed-label version subtracts active sky term
+pure stationary reciprocal reduction	DERIVED_CONTROL	v_rel=dot v_rel=A_opt=0 gives zeta=phi_pair	not generic time-live identity
+frequency composition	DERIVED_CONDITIONAL	endpoint frequency ratios telescope on one supplied ray/covector calibration	not branch or source selection
+terminal composition	DERIVED_CONDITIONAL	terminal ratios telescope only in one matched calibration local system	independently rebuilt middle reset remains open
+delta_alpha family	DERIVED_NONUNIQUENESS_CONDITIONAL	continuous normalized homomorphisms on full abstract R2 channel group or spanning realized image	lower-dimensional co-descent does not establish completeness; no alpha selected
+spectroscopic redshift name	OPEN_OBSERVATIONAL_PROTOCOL	may later identify 1+z with Z for an explicitly typed frequency query	no dataset or carrier population opened here
+physical history	OPEN	no owner in G116	invariant coefficients not selected or fitted
+SNe BAO CMB Xmax action bootstrap matter mass signalling	EXCLUDED	outside preregistered scope	no downstream inference

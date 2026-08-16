@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "frequency_ratio_composition_reversal": true,
+    "gauge_invariance_256_fraction_trials": true,
+    "junction_256_fraction_trials": true,
+    "matched_terminal_ratio_composition_reversal": true,
+    "normalized_family_256_fraction_trials": true,
+    "pure_reciprocal_control": true,
+    "universal_zeta_equals_phi_rejected_generically": true
+  },
+  "generic_witness": {
+    "dv": "-173/255",
+    "f2": "-59662/474045",
+    "optical": "-505/1309",
+    "p2": "403619/884884",
+    "p2f": "1835697/3539536",
+    "v": "71/117",
+    "z2": "1491587/25598430"
+  },
+  "maximum_identity_residual_numerator": 0,
+  "method": "standard-library Fraction randomized identities; no production import",
+  "status": "PASS",
+  "trials": 256
+}

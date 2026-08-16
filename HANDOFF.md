@@ -55,6 +55,10 @@ blind `VERIFIED_WITH_CAVEATS` after repairs: modulo residual areal-time slicing,
 depth is quadratic while a supplied source congruence permits invariant linear frequency `b-q`.
 Active instrument sky carry can enter fixed-label depth; passive relabeling cannot. Boundary ranks
 require zero-order phase matching. Physical history and observed-redshift identification stay open.
+G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` is blind
+`VERIFIED_WITH_CAVEATS` after scope repairs. It derives the coefficient-free local junction
+`zeta=phi_pair+(b-q)R+[(dot b-dot q)-(2ell+2n+dot b)/4]R^2+O(R^3)`; the stationary pure reciprocal
+branch gives `zeta=phi_pair=-log(c_eff/c_E)/2`, while a generic live query does not.
 
 ### What is running
 
@@ -89,8 +93,8 @@ readout. G110 supplies distinct pair and sky-Jacobi blocks plus mixed compatibil
 `dF`, without a same-`W` solder; G111 verifies a bounded nonflat family. G112 preserves the frozen
 middle chord; G113 proves the bounded static chord and P1 center obstruction; G114 closes the typed
 phase network while exposing beam compatibility; G115 supplies its first regular time-live central
-jet and separates terminal depth from source-clock frequency. Exact and adversarial gates pass with
-the recorded method caveat.
+jet and G116 joins terminal depth to source-clock frequency without a new coefficient. Exact and
+adversarial gates pass with the recorded scope/method caveats.
 
 Durable verified-with-caveats parents are:
 
@@ -121,9 +125,6 @@ draft, local pair-response package, or local G88 package without a specific disp
 
 ### Next bounded action
 
-Follow G115 `NEXT_GATE.md`: derive the calibrated source-frequency/terminal-pair junction from the
-founding reciprocal-`c_E` semantics using only the G115 gauge-invariant combinations. Keep both SNe
-outcomes sealed until the possible redshift channels and composition laws are frozen.
-
+Follow G116 `NEXT_GATE.md`: type catalog spectroscopic redshift, regrade the old universal `1+z=exp(phi_pair)` interface, freeze all low-distance strata, and only then perform the preregistered no-refit Pantheon+/DES exposure. Do not fit a new history.
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

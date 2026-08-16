@@ -42,8 +42,8 @@ Controlling sources: G04, G05, G06, G14.
   mathematical homes. Do not force them into one scalar.
 - G110 derives distinct pair/sky blocks of one full `dF`; G111 verifies bounded nonflat survival.
 - G113 identifies `dF` as the local assembly; G114 derives common-source phase composition; G115
-  derives the residual-gauge-invariant regular central jet: terminal/areal depth is quadratic while
-  a supplied source congruence permits a distinct linear frequency channel. Its calibration remains open.
+  derives the regular central jet; G116 joins terminal depth and source frequency coefficient-free.
+  They coincide exactly on the pure stationary reciprocal branch, but remain distinct on live queries.
 - Exact endpoint chord composition on a shared calibrated family is verified with caveats. It does
   not select a universal path, global family, or dynamics.
 
@@ -95,8 +95,8 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   Jacobi/depth. G110 reconstructs distinct pair/sky blocks; G111
   proves bounded nonflat survival; G112 verifies conditional dual-SNe non-regression.
 - G113's static chord exposes P1's `1/r` center obstruction; G114's full phase carry survives
-  caustics without forcing beam alignment; G115 derives one bounded time-live central jet and typed
-  source boundaries without selecting physical history or redshift junction.
+  caustics; G115 derives the time-live central jet; G116 derives its invariant frequency/terminal
+  junction without selecting physical history or a universal observed-redshift protocol.
 - Overlapping-pair compatibility is internally `VERIFIED-WITH-CAVEATS`; corrected contribution-live
   flat, monotone, and loud-quiet-loud lifts survive, but activity selects no score.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict

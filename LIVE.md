@@ -68,7 +68,13 @@ composition and caustic survival; loop closure does not force point-observer bea
 `O(R^2)` while a supplied source congruence permits the invariant frequency term
 `log(omega_s/omega_o)=(b-q)R+O(R^2)`. Active instrument sky drift enters before fixed-label readout;
 passive relabeling is gauge. QW needs a zero-order phase-point match before tangent rank. Physical
-history, calibrated redshift junction, source transfer, and global branch remain open.
+history, source transfer, and global branch remain open. G116
+`udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` is blind
+`VERIFIED_WITH_CAVEATS` after scope repairs. It derives, without a fit coefficient,
+`zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`, where `zeta=log(omega_s/omega_o)`,
+`v_rel=b-q`, and `A_opt=2ell+2n+dot(b)`. The pure stationary reciprocal reduction gives exactly
+`zeta=phi_pair=-log(c_eff/c_E)/2`; generic live queries retain distinct typed channels. Founding
+composition/reversal does not select a universal mixture.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -125,7 +131,7 @@ global relation-family ownership, dynamics, action, source, matter, bootstrap, o
 - pointwise `phi`: presentation potential; universal physical ownership `OPEN`.
 - terminal `phi_pair`: `DERIVED` from the pair block of a supplied regular calibrated `dF`.
 - regular central time-live jet coefficients are gauge representatives; only the registered G115
-  terminal, areal, optical, and frequency combinations survive residual areal-time slicing.
+  invariants and G116 coefficient-free frequency/terminal junction survive residual slicing.
 - the distinct angular block gives the sky Jacobi map; `D_sky'(0)=I` only in matched bases.
 - modern mixing is four-component `S`; G92's `mu_lock` is one supplied transition component, not a
   unique scalar; G93 keeps ambient and terminal arrows distinct.
@@ -152,10 +158,10 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Follow G115 `NEXT_GATE.md`. Before exposing Pantheon+ or DES, derive the calibrated junction between
-the founded reciprocal-`c_E` terminal pair channel and the separately derived source-clock frequency
-channel. Work only with residual-slicing invariants and retain nonuniqueness/type obstruction as
-valid outcomes. Then freeze the forward low-distance series for a no-refit dual-SNe exposure.
+Follow G116 `NEXT_GATE.md`: first decide whether catalog spectroscopic redshift is explicitly the
+typed source/observer frequency ratio `Z`. Then regrade—not refit—the active SNe interfaces, freeze
+the separate linear, quadratic, and higher-order-or-zero strata, and expose Pantheon+ only as its
+existing calibration source and DES only as the no-refit secondary release.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

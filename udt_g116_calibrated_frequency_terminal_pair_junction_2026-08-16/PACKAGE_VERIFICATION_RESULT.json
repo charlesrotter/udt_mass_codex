@@ -1,0 +1,70 @@
+{
+  "checks": {
+    "all_outputs_exactly_reproduced": true,
+    "all_scripts_report_pass": true,
+    "all_scripts_return_zero": true,
+    "preregistered_commit_is_ancestor": true,
+    "required_files": true,
+    "source_manifest_at_prereg_commit": true
+  },
+  "manifest_checks": [
+    {
+      "actual": "913c0ba2522327ef7b946758d7dea10fe15806d07a6f8c47a53ffbd5a9bdc0b7",
+      "ok": true,
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md"
+    },
+    {
+      "actual": "ba3d99c0cabc8c256c474becaa8d977395769ecc79d77486bf0818125922f9d7",
+      "ok": true,
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv"
+    },
+    {
+      "actual": "fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a",
+      "ok": true,
+      "path": "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md"
+    },
+    {
+      "actual": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+      "ok": true,
+      "path": "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md"
+    },
+    {
+      "actual": "6826ffd6006f942d79e5266b349e4da799ea4cd213643304af176d23d03a3126",
+      "ok": true,
+      "path": "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/EXACT_DERIVATION.md"
+    },
+    {
+      "actual": "4d0500e869f95717d530eabbfbe02f499e2173c7a9d986a0fc91bead667a9c87",
+      "ok": true,
+      "path": "udt_g114_common_source_three_observer_network_2026-08-16/EXACT_DERIVATION.md"
+    },
+    {
+      "actual": "431f480612d10c72355c09507682cfaf60c4fb0609ae60f36d4794b42ba73381",
+      "ok": true,
+      "path": "udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/EXACT_DERIVATION.md"
+    },
+    {
+      "actual": "d21748285758ef70f677239a412d0370ccfef389942bdf8712f7a311161a3a13",
+      "ok": true,
+      "path": "udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/NEXT_GATE.md"
+    }
+  ],
+  "script_checks": {
+    "catch_proofs": {
+      "output_exactly_reproduced": true,
+      "reported_pass": true,
+      "returncode_zero": true
+    },
+    "independent": {
+      "output_exactly_reproduced": true,
+      "reported_pass": true,
+      "returncode_zero": true
+    },
+    "production": {
+      "output_exactly_reproduced": true,
+      "reported_pass": true,
+      "returncode_zero": true
+    }
+  },
+  "status": "PASS"
+}

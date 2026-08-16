@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "family_pure_reduction": true,
+    "frequency_composition": true,
+    "frequency_ratio_series": true,
+    "frequency_reversal": true,
+    "junction_fixed_label": true,
+    "junction_from_ceff_fixed": true,
+    "junction_from_ceff_quotient": true,
+    "junction_quotient": true,
+    "naive_sum_double_counts_pure_branch": true,
+    "normalized_additive_family": true,
+    "pure_ceff_frequency": true,
+    "pure_optical_zero": true,
+    "pure_phi": true,
+    "pure_zeta": true,
+    "raw_metric_fixed_label_reconstruction": true,
+    "raw_metric_frequency_reconstruction": true,
+    "raw_metric_optical_reconstruction": true,
+    "raw_metric_terminal_reconstruction": true,
+    "residual_slicing_invariants": true,
+    "terminal_matched_composition": true,
+    "terminal_matched_reversal": true,
+    "two_inequivalent_survivors": true
+  },
+  "classification": {
+    "founding_only_selector": "NONUNIQUE on the full abstract two-channel additive group or a spanning realized image: composition/reversal/pure normalization leave alpha free",
+    "frequency_query": "canonical invariant ratio for a declared direct frequency-ratio query once source clock, observer clock, ray covector, normalization, and group law are supplied",
+    "junction": "coefficient-free identity for the same G115 metric/query jet",
+    "registered_exp_phi_redshift": "exact only on the pure stationary reciprocal reduction or another branch where the correction vanishes",
+    "terminal_pair_query": "unique reciprocal imbalance once regular calibrated pair metric is supplied"
+  },
+  "derived": {
+    "continuous_normalized_combination_family": "delta_alpha=alpha*zeta+(1-alpha)*phi; conditional on both channels descending in one matched scalar system",
+    "frequency_ratio_Z": "R**2*b**2 - R**2*b*q + R**2*b_T/2 - R**2*n + R**2*q**2/2 - R**2*q_T + R*b - R*q + 1",
+    "frequency_redshift_if_query_declares_it": "R**2*b**2 - R**2*b*q + R**2*b_T/2 - R**2*n + R**2*q**2/2 - R**2*q_T + R*b - R*q",
+    "junction_fixed_label": "R**2*(b**2/2 + b_T/2 - n - q_T) + R*(b - q)",
+    "junction_quotient": "R**2*(b**2/2 + b_T/2 - n - q_T) + R*(b - q)",
+    "log_frequency_ratio": "R**2*(b**2/2 + b_T/2 - n - q_T) + R*(b - q)",
+    "optical_coefficient": "b_T + 2*ell + 2*n",
+    "phi_pair_fixed_label": "R**2*(b**2/2 - b_T/4 + ell/2 - n/2 + w2/2)",
+    "phi_pair_quotient": "R**2*(b**2/2 - b_T/4 + ell/2 - n/2)",
+    "raw_fixed_label_depth": "R**2*b**2/2 - R**2*b_T/4 + R**2*ell/2 - R**2*n/2 + R**2*w2/2",
+    "raw_frequency_depth": "R**2*b**2/2 + R**2*b_T/2 - R**2*n - R**2*q_T + R*b - R*q",
+    "raw_null_path": "R**3*b**2/3 + R**3*b_T/3 + R**3*ell/3 - R**3*n/3 + R**2*b/2 + R",
+    "raw_optical_coefficient": "b_T + 2*ell + 2*n",
+    "raw_terminal_depth": "R**2*b**2/2 - R**2*b_T/4 + R**2*ell/2 - R**2*n/2",
+    "relative_drift": "b - q",
+    "relative_drift_time_derivative": "b_T - q_T"
+  },
+  "gauge_residuals": {
+    "frequency_quadratic": "0",
+    "frequency_ratio_quadratic": "0",
+    "optical": "0",
+    "relative_drift": "0",
+    "relative_drift_time_derivative": "0",
+    "terminal_p2_fixed_without_active_sky": "0",
+    "terminal_p2_quotient": "0"
+  },
+  "scope": "regular central spherical time-live metric/query two-jet through R^2",
+  "status": "PASS"
+}
