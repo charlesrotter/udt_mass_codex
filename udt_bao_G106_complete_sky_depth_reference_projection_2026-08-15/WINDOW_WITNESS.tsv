@@ -1,0 +1,4 @@
+window	t_lo	t_hi	mean_angular_amplitude	pair_amplitude_coefficient	relative_to_middle
+LOWER	0	1/3	13/108	169/58320	169
+MIDDLE	1/3	2/3	1/108	1/58320	1
+UPPER	2/3	1	13/108	169/58320	169

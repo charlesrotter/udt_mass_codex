@@ -1,0 +1,19 @@
+{
+  "caught": {
+    "M01_unnormalized_selection": true,
+    "M02_nonidempotent_reference": true,
+    "M03_wrong_marginal_axis": true,
+    "M04_pure_radial_leak": true,
+    "M05_interaction_erasure": true,
+    "M06_independent_window_retune": true,
+    "M07_negative_full_sky_density": true,
+    "M08_pole_displacement": true,
+    "M09_linear_not_quadratic_pair_amplitude": true,
+    "M10_coordinate_jacobian_mismatch": true,
+    "M11_manifest_mutation": true,
+    "M12_outcome_token": true
+  },
+  "caught_count": 12,
+  "status": "PASS",
+  "total": 12
+}

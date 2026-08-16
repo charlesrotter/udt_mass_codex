@@ -1,0 +1,144 @@
+{
+  "checks": {
+    "coordinate_invariance": true,
+    "full_sky_witness": true,
+    "reference_projection": true
+  },
+  "coordinate_invariance_witness": {
+    "det_C": "2",
+    "invariant": true,
+    "positive": true,
+    "ratio": "323062/260925",
+    "transformed_ratio": "323062/260925"
+  },
+  "full_sky_witness": {
+    "P2": "3*mu**2/2 - 1/2",
+    "amplitude": "(2*t - 1)**2/4",
+    "checks": {
+      "density_lower_bound": true,
+      "density_upper_bound": true,
+      "fixed_separation_identity": true,
+      "full_sky_normalization": true,
+      "jacobian_identity": true,
+      "loud_quiet_loud": true,
+      "north_pole_fixed": true,
+      "pair_ratio_169": true,
+      "south_pole_fixed": true
+    },
+    "density_ratio": "(12*mu**2*t**2 - 12*mu**2*t + 3*mu**2 - 4*t**2 + 4*t + 7)/8",
+    "fixed_separation_correlation": "(3*c**2 - 1)/10",
+    "pair_coefficients": [
+      "169/58320",
+      "1/58320",
+      "169/58320"
+    ],
+    "source_mu_of_observer_mu": "mu*(4*mu**2*t**2 - 4*mu**2*t + mu**2 - 4*t**2 + 4*t + 7)/8",
+    "window_averages": [
+      "13/108",
+      "1/108",
+      "13/108"
+    ]
+  },
+  "landing": "COMPLETE_SKY_DEPTH_REFERENCE_PROJECTOR_DERIVED_CONDITIONALLY__PURE_RADIAL_MODULATION_REMOVED__DEPTH_DEPENDENT_ANGULAR_RESPONSE_SURVIVES__ONE_HISTORY_CROSS_WINDOW_TEST_DEFINED__PHYSICAL_HISTORY_AND_OUTCOMES_OPEN",
+  "outcome_paths_read": [],
+  "reference_projector_witness": {
+    "angular_mode": [
+      "-2",
+      "-1",
+      "0",
+      "1"
+    ],
+    "checks": {
+      "angular_depth_residual_nonzero": true,
+      "angular_mode_zero_selection_mean": true,
+      "density_normalized": true,
+      "density_positive": true,
+      "pure_radial_removed": true,
+      "reference_idempotent": true,
+      "residual_in_kernel": true,
+      "selection_normalized": true
+    },
+    "density": [
+      [
+        "1/75",
+        "3/100",
+        "1/20",
+        "11/150"
+      ],
+      [
+        "1/30",
+        "1/15",
+        "1/10",
+        "2/15"
+      ],
+      [
+        "3/100",
+        "2/25",
+        "3/20",
+        "6/25"
+      ]
+    ],
+    "depth_amplitude": [
+      "1/10",
+      "0",
+      "1/5"
+    ],
+    "depth_marginal": [
+      "1/6",
+      "1/3",
+      "1/2"
+    ],
+    "reference": [
+      [
+        "1/60",
+        "1/30",
+        "1/20",
+        "1/15"
+      ],
+      [
+        "1/30",
+        "1/15",
+        "1/10",
+        "2/15"
+      ],
+      [
+        "1/20",
+        "1/10",
+        "3/20",
+        "1/5"
+      ]
+    ],
+    "residual": [
+      [
+        "-1/300",
+        "-1/300",
+        "0",
+        "1/150"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1/50",
+        "-1/50",
+        "0",
+        "1/25"
+      ]
+    ],
+    "residual_row_masses": [
+      "0",
+      "0",
+      "0"
+    ],
+    "selection": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5"
+    ]
+  },
+  "status": "PASS"
+}

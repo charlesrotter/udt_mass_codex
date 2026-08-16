@@ -72,9 +72,8 @@ G97 verifies the first end-to-end SNe house test: under provisional `eta=1`, `ep
 transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet-loud histories all
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
-G102 verifies the two-chord join; G103 finds no regular local pattern selector; G104 proves the
-factorized intrinsic null. G105 externally derives a conditional complete-orchestra one-point
-Jacobian artifact channel. History, reference projection, `H`, and coefficients remain open/dormant; next lift the channel to a complete sky/depth family with outcomes sealed.
+G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
+G106 externally verifies the ideal sky/depth projector: radial abundance is removed and depth-varying angular response survives under one common-history constraint. Next construct that complete history with outcomes and coefficients sealed.
 ## Archive
 
 Verbose startup history is under `archive/startup_surface_2026-08-14/`; it is provenance only.

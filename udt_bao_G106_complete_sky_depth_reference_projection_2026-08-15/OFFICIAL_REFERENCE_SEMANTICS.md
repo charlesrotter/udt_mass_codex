@@ -8,8 +8,8 @@ Primary documentation:
 - <https://data.sdss.org/datamodel/files/BOSS_LSS_REDUX/randomN_DRX_SAMPLE_NS.html>
 
 The SDSS documentation states that the random angular points sample the survey footprint with
-density proportional to completeness. The DR12 random-catalog data model states that each random
-`Z` is obtained by randomly drawing from the observed galaxy redshifts and provides `ZINDX`, the
+density proportional to completeness. The DR12 random-catalog data model states that random redshifts
+`Z` are obtained by randomly drawing from the observed galaxy redshifts and provides `ZINDX`, the
 index of the contributing galaxy.
 
 G106 uses only the following idealized implication within each sample/cap stratum:

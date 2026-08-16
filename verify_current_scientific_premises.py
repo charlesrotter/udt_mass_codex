@@ -149,6 +149,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G103" in block, f"G103 restriction result absent: {name}")
         require("G104" in block, f"G104 kaleidoscope result absent: {name}")
         require("G105" in block, f"G105 Jacobian artifact result absent: {name}")
+        require("G106" in block, f"G106 sky-depth projector result absent: {name}")
 
     for token in (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
@@ -175,6 +176,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_pair_terminal_reachability_atlas_2026-08-12/",
             "udt_pair_chord_network_descent_audit_2026-08-12/",
             "udt_null_carrier_measure_ownership_audit_2026-08-15/",
+            "udt_bao_G106_complete_sky_depth_reference_projection_2026-08-15/",
             "After orientation",
             "verify_current_scientific_premises.py",
         ),
@@ -187,10 +189,10 @@ def validate_startup_surface(root: Path) -> None:
         "CURRENT_RESEARCH_PROGRAM.md": (
             "COVARIANCE_RESOLUTION_OR_RANK_LIMITED",
             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
-            "observational residual atlas paused",
             "udt_pair_first_relational_plane_reconstruction_2026-08-12/",
             "udt_pair_terminal_reachability_atlas_2026-08-12/",
             "udt_pair_chord_network_descent_audit_2026-08-12/",
+            "G106",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "WORKING_FOUNDATIONAL_FRAME",
@@ -273,6 +275,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_bao_G103_source_independent_restriction_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_bao_G104_kaleidoscope_forward_operator_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_bao_G105_complete_orchestra_two_route_lift_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_bao_G106_complete_sky_depth_reference_projection_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -289,9 +292,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 92, "premise registry must contain exactly 92 rows")
+    require(len(rows) == 93, "premise registry must contain exactly 93 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 92, "duplicate premise id")
+    require(len(by_id) == 93, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1607,6 +1610,26 @@ def main() -> None:
         "G105 source changed",
     )
     require("G105_FRESH_SEALED_REVIEW_REPRODUCES_THE_FACTORIZED_NULL" in by_id["G105"]["precedence_rule"], "G105 precedence absent")
+    require(
+        by_id["G106"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__COMPLETE_SKY_DEPTH_REFERENCE_PROJECTOR_DERIVED_CONDITIONALLY"
+        ),
+        "G106 sky-depth projector status regressed or promoted",
+    )
+    require(by_id["G106"]["epistemic_label"] == "MIXED", "G106 projector label changed")
+    require("physical complete history and common all-sector realization" in by_id["G106"]["open_scope"], "G106 history promoted")
+    require("exact finite random catalog weight and stratum projection" in by_id["G106"]["open_scope"], "G106 finite reference promoted")
+    require("angular mode basis and coefficients" in by_id["G106"]["open_scope"], "G106 coefficients promoted")
+    require("pure radial abundance called an observable angular pattern" in by_id["G106"]["forbidden_regression"], "G106 radial-null guard absent")
+    require("constructive P2 witness called a physical history or BAO prediction" in by_id["G106"]["forbidden_regression"], "G106 witness guard absent")
+    require("independent per-window retuning" in by_id["G106"]["forbidden_regression"], "G106 one-history guard absent")
+    require("ideal reference operator called the exact finite survey pipeline" in by_id["G106"]["forbidden_regression"], "G106 finite-pipeline guard absent")
+    require(
+        by_id["G106"]["controlling_source"]
+        == "udt_bao_G106_complete_sky_depth_reference_projection_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G106 source changed",
+    )
+    require("G106_FRESH_SEALED_REVIEW_REPLAYS_ALL_FOUR_EXECUTABLES" in by_id["G106"]["precedence_rule"], "G106 precedence absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1685,7 +1708,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G105-extended premise guards; PASS: 92-row premise "
+        "PASS: G106-extended premise guards; PASS: 93-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

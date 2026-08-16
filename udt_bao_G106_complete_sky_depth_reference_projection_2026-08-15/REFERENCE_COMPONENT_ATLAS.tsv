@@ -1,0 +1,10 @@
+component_id	component	ideal_reference_action	angular_pair_status	ownership
+C01	pure radial marginal f(zeta)s(n)	IN_RANGE_REMOVED	ZERO_AFTER_WINDOW_NORMALIZATION	physical abundance or selection remains separate
+C02	depth-independent zero-mean angular u(n)	IN_KERNEL_RETAINED	SAME_SHAPE_ACROSS_WINDOWS	physical owner open
+C03	depth-dependent amplitude a(zeta)u(n)	IN_KERNEL_RETAINED	WINDOW_AMPLITUDE_CHANGES_BY_ONE_HISTORY_AVERAGE	physical history open
+C04	depth-dependent angular mixture sum a_l(zeta)u_l(n)	IN_KERNEL_RETAINED	WINDOW_SHAPE_AND_AMPLITUDE_CAN_CHANGE	physical history and basis open
+C05	angular footprint/completeness encoded in s(n)	IN_REFERENCE_REMOVED	SELECTION_CORRECTION	official survey construction
+C06	finite-random fluctuation	NOT_PART_OF_IDEAL_OPERATOR	NOISE_OR_NUMERICAL_RESIDUAL	instrumental finite sample
+C07	weight or selection mismatch	NOT_PHYSICAL_PROJECTOR_MODE	POSSIBLE_SYSTEMATIC	measurement owner
+C08	branch-summed one-point modulation	PROJECTED_BY_ITS_RESULTING_MARGINAL	RETAINED_ONLY_IF_CONDITIONAL_ANGULAR	global branch weights open
+C09	nonfactorizing H	OUTSIDE_ONE_POINT_REFERENCE_OPERATOR	GENUINE_CONNECTED_ROUTE	physical H open

@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "density_normalized": true,
+    "density_positive": true,
+    "full_sky_density_bounds": true,
+    "interaction_survives": true,
+    "mode_zero_mean": true,
+    "pair_ratio": true,
+    "projector_idempotent": true,
+    "pure_radial_removed": true,
+    "residual_kernel": true,
+    "selection_normalized": true,
+    "source_hashes": true,
+    "window_averages": true
+  },
+  "outcome_paths_read": [],
+  "pair_coefficients": [
+    "169/58320",
+    "1/58320",
+    "169/58320"
+  ],
+  "status": "PASS",
+  "window_averages": [
+    "13/108",
+    "1/108",
+    "13/108"
+  ]
+}

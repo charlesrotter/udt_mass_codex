@@ -160,9 +160,9 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-G102 verifies the two-chord join; G103 finds only regular assembly constraints; G104 proves the
-factorized intrinsic null. G105 externally derives a conditional complete-orchestra one-point
-Jacobian artifact channel while history, reference projection, `H`, and coefficients remain open. Keep outcomes sealed; observational residual atlas paused until a sky/depth lift can preregister redshift-window differences as a cross-dataset falsifier.
+G102-G105 establish the conditional evaluator, local nonselection, factorized null, and Jacobian
+channel. G106 externally verifies the ideal sky/depth projector: radial abundance is removed while
+depth-dependent angular response survives, with all windows constraining one still-open complete history. Construct that history next with outcomes and coefficients sealed.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.
