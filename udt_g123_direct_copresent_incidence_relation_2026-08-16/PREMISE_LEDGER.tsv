@@ -1,0 +1,10 @@
+object_or_choice	status	owner_or_source	role
+complete_metric_history	SUPPLIED_CONDITIONALLY	query input	geometry evaluated, not selected
+observer_germs_and_sky_carry	SUPPLIED_QUERY	G110	defines each observer exponential
+common_event_incidence	SUPPLIED_QUERY	G123 bounded query	joins branch preimages without a route
+observer_exponential_differential	DERIVED_CONDITIONALLY	G110	complete local query tangent map
+direct_incidence_relation	OPEN	G123 target	must be derived as graph or relation
+terminal_pair_readout	DERIVED_CONDITIONALLY	G93/G110	longitudinal block only
+full_jacobi_phase	DERIVED_CONDITIONALLY	G114	caustic-robust causal carrier
+source_phase_matching	OPEN	G114	boundary compatibility, not assumed
+downstream_selectors	OMITTED	bounded scope	no preferred path/history/transfer/Xmax/bootstrap/action/matter/observation

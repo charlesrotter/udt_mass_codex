@@ -1,0 +1,5 @@
+witness	role	maximum_use
+F0_FLAT_ABC_COMMON_EVENT	exact regular graph composition/covariance witness	type and algebra only
+F1_VERTEX_LAMBDA_ZERO	singular incidence/rank-collapse witness	branch-retention only
+F2_PHASE_GRAPH_4_VS_5	common-event incidence without phase alignment	boundary-compatibility counterexample
+F3_PHASE_GRAPH_ALIGNED	nonempty matched phase stratum	existence only, not selection
