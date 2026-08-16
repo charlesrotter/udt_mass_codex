@@ -162,7 +162,7 @@ These are related, but no current result proves that one missing equation closes
 
 G102 verifies the two-chord join; G103 finds only regular assembly constraints; G104 proves the
 factorized intrinsic null. G105 externally derives a conditional complete-orchestra one-point
-Jacobian artifact channel while physical history, random-reference projection, `H`, and coefficients remain open. Keep outcomes sealed; observational residual atlas paused until the Jacobian is lifted to a complete sky/depth family.
+Jacobian artifact channel while history, reference projection, `H`, and coefficients remain open. Keep outcomes sealed; observational residual atlas paused until a sky/depth lift can preregister redshift-window differences as a cross-dataset falsifier.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.

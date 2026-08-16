@@ -160,8 +160,8 @@ repository and preserve every local file.
 Keep BOSS and CMB outcomes sealed. Lift G105's exact local Jacobian to a complete two-dimensional
 observer sky/depth family and separately type which physical modulation components the registered
 survey-random construction projects out. Do not activate coefficients until one history supplies a
-specific basis; do not import a ruler, Lambda-CDM/acoustic interpretation, retune G99/G100, or
-manufacture a target-shaped mode.
+specific basis. Preregister cross-dataset/redshift differences as a falsifier of one regime-dependent
+history; do not import a ruler, retune G99/G100, or manufacture a target-shaped mode.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,
