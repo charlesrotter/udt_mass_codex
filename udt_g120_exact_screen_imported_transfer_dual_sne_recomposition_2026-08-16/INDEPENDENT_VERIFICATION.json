@@ -1,0 +1,40 @@
+{
+  "absolute_residuals": {
+    "des_chi2": 1.8189894035458565e-12,
+    "des_offset": 7.105427357601002e-15,
+    "pantheon_chi2": 6.821210263296962e-13,
+    "pantheon_offset": 1.0658141036401503e-14,
+    "transfer_reduction": 0.0
+  },
+  "all_checks_pass": true,
+  "checks": {
+    "des_chi2": true,
+    "des_count": true,
+    "des_offset": true,
+    "pantheon_chi2": true,
+    "pantheon_count": true,
+    "pantheon_offset": true,
+    "transfer_reduces_to_Z2R": true
+  },
+  "method": "direct radius plus general Z3 transfer factorization; precision-domain Pantheon; DES precision Schur complement",
+  "method_metadata": {
+    "curve_rebuilt_from_general_Z3_factorization": true,
+    "des_schur_complement": true,
+    "imported_transfer_is_one_over_Z": true,
+    "precision_domain_route": true,
+    "shape_optimizer_called": false
+  },
+  "replayed": {
+    "des_chi2": 1444.1864417504914,
+    "des_offset": 41.70895660296954,
+    "pantheon_chi2": 1260.8480887274914,
+    "pantheon_offset": 22.343528501617104
+  },
+  "schema": "UDT_G120_INDEPENDENT_EXACT_SCREEN_TRANSFER_REPLAY_V1",
+  "tolerances": {
+    "des_chi2": 3e-06,
+    "des_offset": 3e-09,
+    "pantheon_chi2": 3e-06,
+    "pantheon_offset": 3e-09
+  }
+}

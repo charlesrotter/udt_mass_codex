@@ -1,0 +1,158 @@
+{
+  "absolute_differences": {
+    "des_chi2": 4.547473508864641e-13,
+    "des_curve_mag": 1.1657341758564144e-15,
+    "des_offset": 0.0,
+    "factorization": 1.1641532182693481e-10,
+    "g99_radius_nodes_Mpc": 0.0,
+    "pantheon_chi2": 1.8189894035458565e-12,
+    "pantheon_curve_mag": 3.552713678800501e-15,
+    "pantheon_offset": 0.0
+  },
+  "all_checks_pass": true,
+  "checks": {
+    "all_15_source_hashes": true,
+    "catalog_domain_Z_strictly_greater_than_one": true,
+    "des_chi2_preserved": true,
+    "des_count": true,
+    "des_curve_preserved": true,
+    "des_offset_preserved": true,
+    "formal_asymptote_identity": true,
+    "formal_asymptote_reproduces_G99_value": true,
+    "g94_g119_transfer_reduces_to_Z2R": true,
+    "g99_radius_nodes_reproduced": true,
+    "hostile_T_equal_one_caught": true,
+    "n_bit_identical": true,
+    "origin_slope_equals_2_Xeff": true,
+    "pantheon_chi2_preserved": true,
+    "pantheon_count": true,
+    "pantheon_curve_preserved": true,
+    "pantheon_offset_preserved": true,
+    "radius_derivative_identity": true,
+    "radius_strictly_increasing": true,
+    "radius_zero_at_Z1": true,
+    "shape_optimizer_not_called": true
+  },
+  "conditional_X_eff_Mpc": 2085.9586748597476,
+  "des": {
+    "chi2": 1444.1864417504896,
+    "dof": 1622,
+    "lower_tail_p": 0.0006144041636063324,
+    "n_data": 1623,
+    "offset_B": 41.708956602969536,
+    "redshift_column": "zHD",
+    "status": "LOW_CHI2_COVARIANCE_OR_EFFECTIVE_DOF_WARNING",
+    "upper_tail_p": 0.9993855958363936
+  },
+  "domain": {
+    "conditional_radius_curve": "outgoing catalog orientation Z>=1; evaluated rows have Z>1",
+    "reverse_or_blueshift_queries": "not represented by extending R_P1 into 0<Z<1"
+  },
+  "equations": {
+    "conditional_radius": "R_P1(Z)=n X_eff [1-Z^(-2/n)]",
+    "formal_family_limit": "R_P1 tends to n X_eff as Z tends to infinity; this is not X_max",
+    "general": "d_L^2=Z^3 R^2/(eta epsilon)",
+    "import": "eta epsilon=1/Z",
+    "origin_slope": "dR/dz at z=0 equals 2 X_eff",
+    "reduced": "d_L=Z^2 R"
+  },
+  "formal_P1_radius_limit_Mpc": 2202.6331050379085,
+  "frozen_n": 1.0559332414320268,
+  "hostile_transfer_check": {
+    "caught": true,
+    "des_nonconstant_mag_range": 0.7513098158291829,
+    "des_profile_chi2": 2135.4666044415126,
+    "pantheon_nonconstant_mag_range": 1.2587135016175295,
+    "pantheon_profile_chi2": 2279.7628244181906,
+    "replacement": "T=1 instead of imported T=1/Z"
+  },
+  "landing": "CONDITIONAL_RADIUS_FREQUENCY_RECOMPOSITION_PRESERVES_DUAL_SNE",
+  "maximum_conclusion": "with G119 d_A=R and explicitly imported transparent null-momentum transfer, the frozen dual-SNe luminosity relation is exactly one conditional empirical areal-radius-versus-frequency curve; no native light theory, complete physical metric history, terminal depth, X_max, or downstream cosmology is selected",
+  "pantheon": {
+    "chi2": 1260.8480887274907,
+    "dof": 1366,
+    "lower_tail_p": 0.020036563965824403,
+    "n_data": 1367,
+    "offset_B": 22.343528501617094,
+    "redshift_column": "zCMB",
+    "status": "COMPATIBLE",
+    "upper_tail_p": 0.9799634360341756
+  },
+  "pins": {
+    "LambdaCDM_distance_used": false,
+    "imported_conditional": "eta=1 and epsilon=1/Z, hence transfer product T=1/Z",
+    "metric_derived": "G119 d_A=R on the declared central-spherical radial point-observer class",
+    "observed_conditional": "processed zCMB/zHD frequency slots and frozen P1 n/X_eff"
+  },
+  "radius_nodes": [
+    {
+      "R_conditional_Mpc": 93.1267212049522,
+      "Z": 1.02307,
+      "fraction_of_formal_P1_asymptote": 0.04227972465861465,
+      "z": 0.02307
+    },
+    {
+      "R_conditional_Mpc": 363.8014606342176,
+      "Z": 1.1,
+      "fraction_of_formal_P1_asymptote": 0.1651666179910414,
+      "z": 0.1
+    },
+    {
+      "R_conditional_Mpc": 1180.7177970971916,
+      "Z": 1.5,
+      "fraction_of_formal_P1_asymptote": 0.5360483297906624,
+      "z": 0.5
+    },
+    {
+      "R_conditional_Mpc": 1610.016863748218,
+      "Z": 2.0,
+      "fraction_of_formal_P1_asymptote": 0.7309509968163802,
+      "z": 1.0
+    },
+    {
+      "R_conditional_Mpc": 1927.687810098377,
+      "Z": 3.0,
+      "fraction_of_formal_P1_asymptote": 0.8751742656048023,
+      "z": 2.0
+    },
+    {
+      "R_conditional_Mpc": 1967.9133071947879,
+      "Z": 3.2613,
+      "fraction_of_formal_P1_asymptote": 0.8934367247517234,
+      "z": 2.2613
+    }
+  ],
+  "schema": "UDT_G120_EXACT_SCREEN_IMPORTED_TRANSFER_DUAL_SNE_V1",
+  "shape_optimizer_called": false,
+  "source_hashes": {
+    "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv": true,
+    "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/STAT+SYS.npz": true,
+    "Data/Pantheon+SH0ES.dat": true,
+    "Data/Pantheon+SH0ES_STAT+SYS.cov": true,
+    "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/PRIMARY_RESULT.json": true,
+    "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/EXACT_DERIVATION.md": true,
+    "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/PRODUCTION_RESULT.json": true,
+    "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/run_operational_sne_regrade.py": true,
+    "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/verify_operational_sne_independent.py": true,
+    "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/EXACT_DERIVATION.md": true,
+    "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md": true,
+    "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/EXACT_DERIVATION.md": true,
+    "udt_observed_middle_regime_pair_calibration_2026-08-15/CALIBRATION_CONTRACT.json": true
+  },
+  "symbolic_factorization_residual": "0",
+  "symbolic_radius_residuals": {
+    "derivative": "0",
+    "formal_limit": "0",
+    "origin_slope": "0"
+  },
+  "tolerances": {
+    "curve_mag": 1e-12,
+    "des_chi2": 2e-06,
+    "des_offset": 2e-09,
+    "pantheon_chi2": 3e-05,
+    "pantheon_offset": 3e-06,
+    "radius_nodes_Mpc": 1e-09
+  }
+}

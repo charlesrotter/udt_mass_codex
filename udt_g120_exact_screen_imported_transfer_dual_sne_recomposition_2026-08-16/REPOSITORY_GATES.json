@@ -1,0 +1,32 @@
+{
+  "blind_review": {
+    "first_landing": "REPAIR_REQUIRED",
+    "final_landing": "REPAIRS_VERIFIED__CORE_CONDITIONAL_RESULT_STANDS",
+    "mandatory_repairs": 3,
+    "status": "PASS_WITH_CAVEATS"
+  },
+  "diff_check": "PASS",
+  "full_pytest": {
+    "passed": 90,
+    "status": "PASS",
+    "xfailed": 1
+  },
+  "premise_registry": {
+    "rows": 107,
+    "status": "PASS"
+  },
+  "startup_line_caps": {
+    "CURRENT_RESEARCH_PROGRAM.md": "170/170",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "150/150",
+    "HANDOFF.md": "130/130",
+    "INDEX.md": "100/100",
+    "LIVE.md": "170/170",
+    "MEMORY.md": "80/80",
+    "status": "PASS"
+  },
+  "startup_tests": {
+    "passed": 16,
+    "status": "PASS"
+  },
+  "status": "PASS"
+}

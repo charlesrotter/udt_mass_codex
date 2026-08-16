@@ -125,7 +125,7 @@ observed-redshift junction remain open.
 G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` derives the missing local junction without a coefficient:
 `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`. Its pure stationary reduction is exact; generic live queries retain distinct channels. G117 preserves frozen P1 dual-SNe numerics under conditional release-coordinate retyping but cannot identify terminal depth or G116 coefficients.
 
-G118 removes representation scaffolding. G119 externally verifies the exact arbitrary-finite-radius central-spherical time-live theorem `D_sky=R O`, `|det D_sky|=R^2`; zero shear and rank-zero/phase-surviving caustics follow. SNe still constrains conditional `R/sqrt(T)`, so transfer and history remain open.
+G118-G119 remove screen scaffolding and derive `d_A=R` on the exact finite-radius central-spherical class. G120 blind verifies that explicitly imported `eta=1,epsilon=1/Z` gives `d_L=Z^2R`; frozen P1 is one outgoing conditional radius-frequency curve preserving both SNe replays, not native transfer or complete history.
 ## Macro observational anchors
 
 - G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
@@ -163,7 +163,7 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-G120: recompose the frozen dual-SNe interface with exact `d_A=R` and test whether current network/reversal laws narrow transfer without assuming transparency, fitting, or selecting history.
+G121: test whether global co-present reciprocity, typed composition, and metric light-cone causality impose a nonidentity restriction on complete histories or merely encode evaluator consistency.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 
