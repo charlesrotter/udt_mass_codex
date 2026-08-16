@@ -122,7 +122,7 @@ supplied source congruence permits invariant frequency `(b-q)R`; physical histor
 
 G116 derives `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)` locally without a coefficient; G117 preserves frozen P1 dual-SNe numerics conditionally.
 
-G118-G119 derive `d_A=R`; G120 preserves both SNe replays under imported transfer. G121 separates local identities from conditional pair-scalar closure. G122 `udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/` derives a shared dependency record but distinct terminal/phase evaluations; direct `A-B` remains open.
+G118-G119 derive `d_A=R`; G120 preserves both SNe replays under imported transfer. G121 separates local identities from conditional pair-scalar closure. G122 derives a shared dependency record but distinct terminal/phase evaluations. G123 `udt_g123_direct_copresent_incidence_relation_2026-08-16/` derives the exact regular observer-chart graph for the supplied common-event query, while singular fibers, universal query ownership, phase matching, and history selection remain open.
 
 ## Macro observational anchors
 
@@ -161,7 +161,8 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Next: construct and type direct `A-B`; allow branches and do not invent `R_pair` from terminal data.
+Next: derive the finite-radius live observer-transition junction from one supplied complete
+history/query, keeping terminal, frequency, shift, screen, and phase channels correctly typed.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

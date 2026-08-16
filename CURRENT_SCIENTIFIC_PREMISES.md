@@ -96,7 +96,7 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   G115-G118 derive the live jet, frequency junction, SNe retyping, and scaffolding reduction. G119
   proves finite-radius `D_sky=R O`; G120 conditionally retypes one outgoing radius-frequency curve.
   G121 separates local identities from conditional pair-scalar descent. G122 keeps terminal pair
-  and causal phase distinct; terminal data cannot solder full phase, and direct `A-B` remains open.
+  and causal phase distinct. G123 derives a supplied common-event chart graph without selecting history or full phase.
 - Overlapping-pair compatibility is internally `VERIFIED-WITH-CAVEATS`; corrected contribution-live
   flat, monotone, and loud-quiet-loud lifts survive, but activity selects no score.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict

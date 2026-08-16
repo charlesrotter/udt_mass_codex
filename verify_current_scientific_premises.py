@@ -166,6 +166,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G120" in block, f"G120 exact-screen SNe recomposition absent: {name}")
         require("G121" in block, f"G121 causal/pair history consistency result absent: {name}")
         require("G122" in block, f"G122 common-dependency type result absent: {name}")
+        require("G123" in block, f"G123 common-event incidence result absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -233,6 +234,11 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/" in block
             or "G122" in block,
             f"G122 package route absent: {name}",
+        )
+        require(
+            "udt_g123_direct_copresent_incidence_relation_2026-08-16/" in block
+            or "G123" in block,
+            f"G123 package route absent: {name}",
         )
         require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
@@ -311,6 +317,7 @@ def validate_startup_surface(root: Path) -> None:
             "G120",
             "G121",
             "G122",
+            "G123",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -333,6 +340,7 @@ def validate_startup_surface(root: Path) -> None:
             "G120",
             "G121",
             "G122",
+            "G123",
         ),
         "README.md": (
             "LIVE.md",
@@ -441,9 +449,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 109, "premise registry must contain exactly 109 rows")
+    require(len(rows) == 110, "premise registry must contain exactly 110 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 109, "duplicate premise id")
+    require(len(by_id) == 110, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2126,6 +2134,47 @@ def main() -> None:
         == "udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/AUDIT_REPORT.md",
         "G122 source changed",
     )
+    require(
+        by_id["G123"]["current_status"].startswith(
+            "BLIND_VERIFIED_WITH_REPAIRS__DECLARED_COMMON_EVENT_INCIDENCE_RELATION"
+        ),
+        "G123 declared-query incidence status regressed or promoted",
+    )
+    require(by_id["G123"]["epistemic_label"] == "MIXED", "G123 label changed")
+    require(
+        "universal physical meaning of co-presence" in by_id["G123"]["open_scope"],
+        "G123 universal co-presence boundary absent",
+    )
+    require(
+        "declared common-event query called universal co-presence"
+        in by_id["G123"]["forbidden_regression"],
+        "G123 query-scope guard absent",
+    )
+    require(
+        "basis-free physical mixing magnitude"
+        in by_id["G123"]["forbidden_regression"],
+        "G123 split-relative mixing guard absent",
+    )
+    require(
+        "regular multiple preimages conflated with nontransverse singular fibers"
+        in by_id["G123"]["forbidden_regression"],
+        "G123 regular-versus-singular guard absent",
+    )
+    require(
+        "four-dimensional query tangent graph called full Jacobi phase"
+        in by_id["G123"]["forbidden_regression"],
+        "G123 query-tangent/phase guard absent",
+    )
+    require(
+        "no history selector in declared test called universal no-go"
+        in by_id["G123"]["forbidden_regression"],
+        "G123 bounded selector-negative guard absent",
+    )
+    require(
+        by_id["G123"]["controlling_source"]
+        == "udt_g123_direct_copresent_incidence_relation_2026-08-16/AUDIT_REPORT.md",
+        "G123 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2204,7 +2253,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G122-extended premise guards; PASS: 109-row premise "
+        "PASS: G123-extended premise guards; PASS: 110-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

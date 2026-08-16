@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "aligned_phase_stratum_nonempty": true,
+    "complete_pullback_isometry": true,
+    "direct_map_exact": true,
+    "direct_map_has_angular_to_pair_mixing_in_supplied_split": true,
+    "direct_map_reversal": true,
+    "incidence_does_not_force_phase_momentum": true,
+    "incidence_matches_source_position": true,
+    "mismatched_phase_planes_intersection_zero": true,
+    "point_observer_phase_lifts_rank_two": true,
+    "regular_source_leg_A": true,
+    "regular_source_leg_B": true,
+    "regular_source_leg_C": true,
+    "terminal_pair_blocks_regular": true,
+    "terminal_pair_depths_zero_in_flat_control": true,
+    "three_observer_composition": true,
+    "vertex_full_differential_rank_two": true
+  },
+  "exact_objects": {
+    "D_BA": "Matrix([[1, 1/5, 12/5, 0], [0, 4/5, -12/5, 0], [0, 3/25, 16/25, 0], [0, 0, 0, 4/5]])",
+    "D_BA_determinant": "16/25",
+    "D_collinear": "Matrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 4/5, 0], [0, 0, 0, 4/5]])",
+    "H_A": "Matrix([[-1, -1, 0, 0], [-1, 0, 0, 0], [0, 0, 16, 0], [0, 0, 0, 16]])",
+    "H_B": "Matrix([[-1, -1, 0, 0], [-1, 0, 0, 0], [0, 0, 25, 0], [0, 0, 0, 25]])",
+    "aligned_intersection_dimension": 2,
+    "angular_to_pair_block_rank_in_supplied_split": 1,
+    "lift_A_rank": 2,
+    "lift_B_rank": 2,
+    "mismatch_intersection_dimension": 0,
+    "vertex_dF_rank": 2
+  },
+  "landing": "DECLARED_COMMON_EVENT_OBSERVER_EXPONENTIAL_INCIDENCE_RELATION_DERIVED_CONDITIONALLY__REGULAR_STRATUM_IS_FOUR_DIMENSIONAL_LOCAL_QUERY_TANGENT_GRAPH__REGULAR_MULTIPLE_PREIMAGES_GIVE_LOCAL_GRAPH_BRANCHES__NONTRANSVERSE_VERTEX_OR_CAUSTIC_FIBERS_REMAIN_UNCLASSIFIED_STRATIFIED_RELATIONS__DIRECT_TANGENT_MAP_IS_NOT_A_FULL_JACOBI_PHASE_ARROW__PHASE_MATCHING_REMAINS_A_SOURCE_BOUNDARY_COMPATIBILITY_CONDITION__NO_HISTORY_SELECTOR_FOUND_IN_DECLARED_COMMON_EVENT_TEST",
+  "status": "PASS"
+}

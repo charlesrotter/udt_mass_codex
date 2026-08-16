@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "audit_report_present": true,
+    "blind_review_and_correction_present": true,
+    "independent_12_of_12": true,
+    "next_gate_present": true,
+    "preregistration_present": true,
+    "production_16_of_16": true,
+    "source::udt_common_query_pair_immersion_reconstruction_2026-08-11/AUDIT_REPORT.md": true,
+    "source::udt_g114_common_source_three_observer_network_2026-08-16/EXACT_DERIVATION.md": true,
+    "source::udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/AUDIT_REPORT.md": true,
+    "source::udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/EXACT_DERIVATION.md": true,
+    "source::udt_g123_direct_copresent_incidence_relation_2026-08-16/PRE_G123_CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "source::udt_observer_exponential_full_differential_type_audit_2026-08-16/EXACT_DERIVATION.md": true,
+    "source::udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md": true,
+    "source_count_seven": true
+  },
+  "source_count": 7,
+  "status": "PASS"
+}

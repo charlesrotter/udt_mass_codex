@@ -1,0 +1,52 @@
+{
+  "checks": {
+    "aligned_intersection_two": true,
+    "angular_to_pair_mixing_in_supplied_split": true,
+    "composition": true,
+    "direct_incidence_equation": true,
+    "mismatch_intersection_zero": true,
+    "phase_lifts_rank_two": true,
+    "pullback_isometry": true,
+    "regular_ranks_four": true,
+    "reversal": true,
+    "source_momentum_not_forced": true,
+    "source_position_matches": true,
+    "vertex_rank_two": true
+  },
+  "exact_values": {
+    "D_BA": [
+      [
+        "1",
+        "1/5",
+        "12/5",
+        "0"
+      ],
+      [
+        "0",
+        "4/5",
+        "-12/5",
+        "0"
+      ],
+      [
+        "0",
+        "3/25",
+        "16/25",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "4/5"
+      ]
+    ],
+    "angular_to_pair_block_rank_in_supplied_split": 1,
+    "phase_lift_ranks": [
+      2,
+      2
+    ],
+    "vertex_rank": 2
+  },
+  "implementation": "independent standard-library Fraction elimination; no production import",
+  "status": "PASS"
+}

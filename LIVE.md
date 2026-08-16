@@ -78,8 +78,7 @@ regular central-spherical branch `D_sky=R O`, `|det D_sky|=R^2`. G120
 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/` is blind verified:
 with explicitly imported `eta=1,epsilon=1/Z`, `d_L=Z^2R`; frozen P1 becomes one outgoing `Z>1`
 conditional radius-frequency curve and preserves both SNe replays. G121 is blind verified and finds local matched
-identities and conditional pair-scalar closure only. G122 `udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/`
-is blind verified after repairs: terminal pair and causal phase are distinct; direct `A-B` and history selection remain open.
+identities and conditional pair-scalar closure only. G122 `udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/` keeps terminal pair and causal phase distinct. G123 `udt_g123_direct_copresent_incidence_relation_2026-08-16/` derives the exact incidence graph for a supplied common-event query; it does not universalize same-event incidence or select history.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -161,7 +160,7 @@ Some protected directories have tracked shells plus local untracked payloads. Di
 does not prove banking; inspect Git status and preserve every local file.
 
 ### Immediate next action
-Construct and type direct `A-B` from the same query; allow branches and do not invent `R_pair`.
+Derive the finite-radius live observer-transition junction from one supplied complete history/query; keep terminal depth, frequency depth, shift, screen transport, and phase compatibility distinct.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,
