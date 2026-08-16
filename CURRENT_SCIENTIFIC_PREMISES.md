@@ -96,7 +96,7 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   proves bounded nonflat survival; G112 verifies conditional dual-SNe non-regression.
 - G113's static chord exposes P1's `1/r` center obstruction; G114's phase carry survives caustics;
   G115-G118 derive the live jet, frequency junction, SNe retyping, and scaffolding reduction. G119
-  proves finite-radius `D_sky=R O`; G120 conditionally imports transfer and retypes P1 as one outgoing radius-frequency curve. Native light and physical history remain open.
+  proves finite-radius `D_sky=R O`; G120 conditionally retypes one outgoing radius-frequency curve. G121 separates automatic local network identities from conditional global pair-scalar descent; no metric-only history selector follows.
 - Overlapping-pair compatibility is internally `VERIFIED-WITH-CAVEATS`; corrected contribution-live
   flat, monotone, and loud-quiet-loud lifts survive, but activity selects no score.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict

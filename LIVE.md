@@ -77,7 +77,7 @@ G118 `udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/` removes
 regular central-spherical branch `D_sky=R O`, `|det D_sky|=R^2`. G120
 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/` is blind verified:
 with explicitly imported `eta=1,epsilon=1/Z`, `d_L=Z^2R`; frozen P1 becomes one outgoing `Z>1`
-conditional radius-frequency curve and preserves both SNe replays. Native light and history stay open.
+conditional radius-frequency curve and preserves both SNe replays. G121 `udt_g121_copresent_reciprocal_causal_history_consistency_2026-08-16/` is blind verified: local matched causal/composition laws are identities on two inequivalent temporal histories; zero reciprocal triangle periods are a conditional nonidentity closure on supplied pair data, not a metric-only history selector.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -160,8 +160,8 @@ in a clean clone does not mean the protected payload was banked; inspect Git sta
 repository and preserve every local file.
 
 ### Immediate next action
-G121: test whether global co-present reciprocity, composition, and causal/light-cone compatibility
-impose a nonidentity restriction on complete histories or only restate geometric consistency.
+Type a common carrier for the mixed causal/co-present square `q_B R_causal=R_pair q_A`; freeze every
+map before evaluation and preserve lawful screen holonomy.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

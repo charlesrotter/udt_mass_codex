@@ -62,11 +62,11 @@ queries differ. G117 `udt_g117_operational_frequency_dual_sne_regrade_2026-08-16
 removed in its bounded scopes. G119 `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 is externally verified: every finite regular central-spherical time-live branch has `D_sky=R O`,
 `|det D_sky|=R^2`. G120 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/`
-is blind verified: imported `eta=1,epsilon=1/Z` gives `d_L=Z^2R`; one conditional outgoing P1 radius-frequency curve preserves both frozen SNe replays, not a native light law or full history.
+is blind verified: imported transfer gives `d_L=Z^2R` and preserves both SNe replays. G121 is blind verified: local matched cone/composition laws are identities on two inequivalent temporal histories; pair-scalar descent is conditional closure on supplied data, not a metric-only selector.
+
 ### What is running
 
-No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`.
-The ignored evidence archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; all
+No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`; the ignored evidence archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; all
 201 manifest rows were reverified by byte count and SHA-256.
 
 ### Honest observational claim
@@ -125,6 +125,6 @@ Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopp
 draft, local pair-response package, or local G88 package without a specific dispatch. Preserve all other unrelated dirt. A clean clone may show a tracked directory shell without the protected local payload; directory presence is not evidence that the unbanked work was committed.
 
 ### Next bounded action
-G121: determine whether co-present reciprocal/compositional/light-cone consistency cuts histories or is an identity.
+Type and preregister the common carrier/maps for `q_B R_causal=R_pair q_A`; do not multiply unlike phase and pair differentials.
 Historical detail is archived under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

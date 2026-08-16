@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": {
+    "fraction_phase_composite_symplectic": true,
+    "fraction_frequency_triangle": true,
+    "fraction_frequency_reversal": true,
+    "fraction_matched_reciprocal_triangle": true,
+    "fraction_reciprocity_only_loop_nonzero": true,
+    "fraction_path_holonomy_orthogonal": true,
+    "fraction_path_holonomy_orientation_preserving": true,
+    "fraction_path_holonomy_nonidentity": true,
+    "decimal_frozen_history_marker_nonzero": true,
+    "decimal_H1_tau_is_temporal_on_patch": true
+  },
+  "exact_raw_period": "92/105",
+  "exact_path_holonomy": [
+    [
+      "0",
+      "-1"
+    ],
+    [
+      "1",
+      "0"
+    ]
+  ],
+  "h1_g_inverse_dR_dR_at_tau_half_R_third": "1.0159996613842497628371562322904107541216382554627380123171248361135167751041837",
+  "H1_temporal_function_upper_bound": "-0.65932242456913227613862147608519550284099959307564735689804267410333347174131085",
+  "scope": "independent finite algebra and one high-precision witness marker; analytic metric theorem remains separately audited"
+}

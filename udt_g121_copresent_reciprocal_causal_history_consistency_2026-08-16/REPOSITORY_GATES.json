@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "premise_registry_rows": 108,
+  "premise_verifier": "PASS",
+  "startup_tests_passed": 16,
+  "full_tests_passed": 90,
+  "expected_xfail": 1,
+  "line_caps": {
+    "LIVE.md": "170/170",
+    "HANDOFF.md": "130/130",
+    "CURRENT_RESEARCH_PROGRAM.md": "170/170",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "150/150",
+    "INDEX.md": "100/100",
+    "MEMORY.md": "80/80"
+  },
+  "protected_untracked_work_touched": false
+}

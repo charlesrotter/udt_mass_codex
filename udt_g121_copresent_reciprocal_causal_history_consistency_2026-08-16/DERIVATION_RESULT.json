@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "landing": "LOCAL_CAUSAL_COMPOSITION_IDENTITIES_ONLY__PAIR_SCALAR_DESCENT_IS_A_CONDITIONAL_NONIDENTITY_CLOSURE_ON_SUPPLIED_PAIR_DATA__NO_METRIC_ONLY_HISTORY_SELECTOR__TYPED_MIXED_CAUSAL_PAIR_MAP_REMAINS_OPEN",
+  "checks": {
+    "generic_orbit_determinant": true,
+    "generic_inverse_areal_gradient": true,
+    "generic_plus_null": true,
+    "generic_minus_null": true,
+    "frequency_triangle": true,
+    "frequency_reversal": true,
+    "reciprocal_triangle_on_matched_state": true,
+    "reciprocal_reversal_on_matched_state": true,
+    "reciprocity_alone_does_not_force_descent": true,
+    "phase_p1_symplectic": true,
+    "phase_p2_symplectic": true,
+    "phase_composite_symplectic": true,
+    "phase_composite_invertible": true,
+    "path_holonomy_orthogonal": true,
+    "path_holonomy_orientation_preserving": true,
+    "path_holonomy_can_be_nonidentity": true,
+    "H0_null_hamiltonian_preserved": true,
+    "H1_null_hamiltonian_preserved": true,
+    "frozen_histories_invariantly_differ": true,
+    "both_frozen_patches_admit_tau_as_time_function": true
+  },
+  "exact_values": {
+    "det_h": "-L**2*T**2",
+    "null_plus": "0",
+    "null_minus": "0",
+    "frequencies": {
+      "A": "1",
+      "B": "1/2",
+      "C": "3/2"
+    },
+    "frequency_triangle_residual": "0",
+    "matched_reciprocal_triangle_residual": "0",
+    "independent_reciprocal_loop_period": "92/105",
+    "path_holonomy": [
+      [
+        "0",
+        "-1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "history_inequivalence_marker": "exp(2*R**2*tau/7) - 1",
+    "H1_temporal_function_upper_bound": "-exp(-2/5) + exp(2/7)/121",
+    "H1_temporal_function_upper_bound_numeric": "-0.659322424569132276138621476085"
+  },
+  "witnesses": {
+    "H0_FLAT": {
+      "determinant_residual": "0",
+      "areal_gradient_norm": "1",
+      "hamiltonian_null_preservation_residual": "0",
+      "regular_center_T": "1",
+      "regular_center_L": "1",
+      "regular_center_beta": "0"
+    },
+    "H1_LIVE": {
+      "determinant_residual": "0",
+      "areal_gradient_norm": "exp(2*R**2*tau/7)",
+      "hamiltonian_null_preservation_residual": "0",
+      "regular_center_T": "1",
+      "regular_center_L": "1",
+      "regular_center_beta": "0"
+    }
+  },
+  "claim_scope": "regular local central-spherical matched-query network; no global chronology, path-independence, history selection, source law, or signalling theorem"
+}
