@@ -91,7 +91,7 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   native transfer, all other geometries, all-sky ownership, and `X_max` remain open.
 - Complete-history continuation ownership: G98 internally verifies exact contribution-live flat,
   monotone, and loud-quiet-loud survivors; quiet middle is permitted, not selected or a generic no-go.
-- G99 freezes the observed conditional P1 middle calibration; G102-G105 type the two-source evaluator, local nonselection, factorized null, and conditional complete-orchestra Jacobian channel. G106 externally verifies the ideal sky/depth projector: pure radial abundance is removed, while zero-mean angular response may vary with depth under one common-history constraint. The physical complete history, finite survey projection, source density, global `H`, basis, coefficients, and outcomes remain open; no BAO prediction, ruler, or `X_max` follows.
+- G99 freezes the observed conditional P1 middle calibration; G102-G106 type the two-source evaluator, local nonselection, factorized null, Jacobian channel, and ideal sky/depth projector. G107 externally verifies the constant zero-order extension census: base-only gates leave one conditional screen-dilation weight, stronger complete gates remove it, screen rotation is zero-order gauge, and physical active `E/J` carry remains open. No physical score, coefficient, BAO prediction, ruler, or `X_max` follows.
 - Overlapping-pair live compatibility: internally `VERIFIED-WITH-CAVEATS`; exact chart, shared-clock,
   middle-state, and joint-Gram consistency laws derived conditionally. The original “fully live”
   wording was corrected; stricter flat, monotone, and loud-quiet-loud lifts are contribution-live

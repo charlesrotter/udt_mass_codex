@@ -1,0 +1,12 @@
+class	definition	finite_founded_recovery	screen_covariance	free_parameters	status
+infinitesimal_only	H=[[Hb,A],[C,Ds]] with only top-left Hb fixed	no categorical extension unless an embedding or quotient intertwiner is supplied	none	12 beyond Hb	REJECT_AS_FINITE_EXTENSION
+embedded_base	C=0; inclusion i obeys H i=i Hb	exact D(delta) on invariant base subspace	query-reduced unless A=0	A plus Ds	CONDITIONAL_TYPE
+quotient_base	A=0; projection p obeys p H=Hb p	exact D(delta) on base quotient	query-reduced unless C=0	C plus Ds	CONDITIONAL_TYPE
+split_base	A=C=0	exact embedded and quotient recovery	depends on Ds	Ds	VALID_EXTENSION_TYPE
+O2_structureless	H=Hb direct_sum a I2	exact	full residual O2	one real a	COMPLETE_CONSTANT_O2_CLASS
+SO2_structureless	H=Hb direct_sum (a I2+b epsilon)	exact	oriented SO2	wo real a,b	COMPLETE_CONSTANT_SO2_CLASS
+O2_full_det_or_pairing	H=Hb direct_sum 0	exact	full residual O2	none	NEUTRAL_SCREEN_LIFT
+SO2_full_det_or_pairing	H=Hb direct_sum b epsilon	exact	oriented SO2	one real b	ROTATION_GAUGE_AT_ZERO_ORDER
+exchange_fixed_screen	H=Hb direct_sum 0	exact	exchange lift diag(K,I)	none	CONDITIONAL_NEUTRAL_LIFT
+exchange_reflected_screen	H=Hb direct_sum b epsilon	exact	exchange lift diag(K,reflection)	one real b	CONDITIONAL_ROTATION_GAUGE
+

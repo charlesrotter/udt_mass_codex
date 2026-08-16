@@ -73,8 +73,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106 verifies the sky/depth projector. The whiteboard identifies `dV=E(dJ+E^-1dE J)` as assembly,
-not selection. Next census constant reciprocal extensions and reject passive gauge before fitting.
+G106 verifies the sky/depth projector. G107 externally verifies the constant zero-order extension census: only conditional screen dilation survives base-only gates, stronger complete gates kill it, and screen rotation is zero-order gauge.
+Next test survivors through conditional Jacobi/Riccati screen propagation with outcomes sealed; do not fit the remaining weight.
 ## Archive
 
 Verbose startup history is under `archive/startup_surface_2026-08-14/`; it is provenance only.

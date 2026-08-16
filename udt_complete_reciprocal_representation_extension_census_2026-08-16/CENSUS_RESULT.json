@@ -1,0 +1,53 @@
+{
+  "centralizers": {
+    "O2_base_to_screen_invariants": [
+      "{x0: 0, x1: 0, x2: 0, x3: 0}"
+    ],
+    "O2_screen_centralizer": [
+      "{a: d, b: 0, c: 0}"
+    ],
+    "O2_screen_to_base_invariants": [
+      "{x0: 0, x1: 0, x2: 0, x3: 0}"
+    ],
+    "SO2_base_to_screen_equation": "epsilon*C=0",
+    "SO2_base_to_screen_invariants": [
+      "{x0: 0, x1: 0, x2: 0, x3: 0}"
+    ],
+    "SO2_screen_centralizer": [
+      "{a: d, b: -c}"
+    ],
+    "SO2_screen_to_base_equation": "A*epsilon=0",
+    "SO2_screen_to_base_invariants": [
+      "{x0: 0, x1: 0, x2: 0, x3: 0}"
+    ],
+    "wrong_eigenvalue_one_mutant_differs": true
+  },
+  "finite_action": {
+    "active_screen_scale_changes_h": true,
+    "determinant": "exp(2*a*delta)",
+    "finite_family": "Matrix([[exp(-delta), 0, 0, 0], [0, exp(delta), 0, 0], [0, 0, exp(a*delta)*cos(b*delta), -exp(a*delta)*sin(b*delta)], [0, 0, exp(a*delta)*sin(b*delta), exp(a*delta)*cos(b*delta)]])",
+    "passive_coordinate_carry_cancels": true,
+    "screen_rotation_drops_from_metric": true,
+    "witness_ce_ratio_sq_neutral": "21/20",
+    "witness_ce_ratio_sq_original": "12",
+    "witness_ce_ratio_sq_screen_scale_a1": "9/32",
+    "witness_h_neutral_lift": "Matrix([[-21/4, 0], [0, 5]])",
+    "witness_h_original": "Matrix([[-24, 0], [0, 2]])",
+    "witness_h_screen_scale_a1": "Matrix([[-9/4, 0], [0, 8]])"
+  },
+  "gates": {
+    "base_generator_preserves_K": true,
+    "fixed_screen_exchange_condition": "a=0,b=0",
+    "fixed_screen_exchange_residual": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 2*a, -2*b], [0, 0, 2*b, 2*a]])",
+    "full_det_one_condition": "a=0",
+    "full_generator_trace": "2*a",
+    "full_pairing_condition": "a=0",
+    "full_pairing_residual": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 2*a, 0], [0, 0, 0, 2*a]])",
+    "reflected_screen_exchange_condition": "a=0",
+    "reflected_screen_exchange_residual": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 2*a, 0], [0, 0, 0, 2*a]])",
+    "screen_generator": "Matrix([[a, -b], [b, a]])"
+  },
+  "landing": "ONE_PARAMETER_SCREEN_DILATION_SURVIVES_BASE_ONLY_GATES__FULL_DET_PAIRING_OR_EXCHANGE_KILLS_DILATION__SO2_ROTATION_IS_ZERO_ORDER_GAUGE__ACTIVE_PLACEMENT_UNOWNED",
+  "scope": "constant zero-order generators; O2/SO2; no field-dependent owner"
+}
+

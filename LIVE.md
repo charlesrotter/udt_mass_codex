@@ -2,7 +2,7 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-## CURRENT STATE — 2026-08-15
+## CURRENT STATE — 2026-08-16
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
@@ -62,8 +62,9 @@ secondary shift is `1.64 sigma`. G101 partially integrates `grok2`: its correcte
 G104 proves the factorized intrinsic null; G105 derives the conditional complete-orchestra Jacobian channel.
 G106 is externally `VERIFIED_WITH_CAVEATS`: its ideal reference removes pure radial abundance while
 depth-dependent angular response survives. One history constrains all windows; that history, its basis/coefficients, and outcomes remain open.
-The multiagent `udt_orchestra_score_whiteboard_2026-08-15/` identifies exact joint-flow grammar
-`dV=E(dJ+E^-1dE J)`, not a score; next is an outcome-blind reciprocal-extension census, not a fit.
+The whiteboard's exact joint-flow grammar `dV=E(dJ+E^-1dE J)` remains an identity, not a score.
+G107 package `udt_complete_reciprocal_representation_extension_census_2026-08-16/` is externally `VERIFIED_WITH_CAVEATS`: only conditional screen dilation `a` survives base-only gates; complete determinant, tested pairing, or exchange kills it.
+Screen rotation is zero-order gauge. Physical active `E/J` carry remains `OPEN`; no coefficient or history is selected.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
@@ -160,8 +161,7 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Keep outcomes sealed. Run the preregistered constant reciprocal-extension census; carry `E,J`
-together and reject passive directions before any operator-bounded, held-out empirical fit.
+Keep outcomes sealed. Run a conditional Jacobi/Riccati propagation atlas on the G107 constant survivors to test whether metric-derived screen carry cancels or realizes `a`; do not fit `a`.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

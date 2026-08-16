@@ -1,0 +1,9 @@
+placement	transformation	pair_chord	pair_metric	classification
+coordinate_passive	E_to_E P^-1; J_to_P J	V_unchanged	h_unchanged	GAUGE_BOOKKEEPING
+orthonormal_screen_passive	E_to_diag(I2,O)E; J_fixed	V_rotated_on_screen	h_unchanged	SCREEN_FRAME_GAUGE
+active_left_coframe	E_to_G_ab(delta)E; J_fixed	V_to_G_ab V	h_changes through base weights and screen factor exp(2a delta)	CONDITIONAL_ACTIVE_CANDIDATE
+compensated_active_pair	E_to_G E; J_to_E^-1 G^-1 E J	V_unchanged	h_unchanged	EXACT_COMPENSATION_FIBER
+query_only_active	E_fixed; J_to_P(delta)J	depends on supplied ambient action P	generally changes	OPEN_QUERY_EVOLUTION_NOT_SELECTED
+screen_rotation_b	active left b with same a	V_screen rotates	h and terminal phi_pair unchanged	ZERO_ORDER_GAUGE_TRANSPORT_ONLY
+screen_dilation_a	active left a with J fixed	V_screen scales	h generally changes	ONE_PARAMETER_CONDITIONAL_ACTIVE_DIRECTION
+

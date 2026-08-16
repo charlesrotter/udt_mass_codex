@@ -4,7 +4,7 @@
 
 Read `LIVE.md` first. It wins every disagreement.
 
-## Resume anchor — 2026-08-15
+## Resume anchor — 2026-08-16
 
 ### Active theory reset
 
@@ -34,8 +34,8 @@ chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncert
 G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS` at `chi2=1444.18644/1622` nominal dof. G101 retains only the two-source query and local maser slope lead from `grok2`.
 G102 externally verifies the conditional two-chord join. G103 externally verifies that the frozen regular local/first-jet equations retain only legal sky/network/measure assembly and select no nontrivial source-independent pattern once `J` and source pairing are released. This is not a global no-go; critical/topological, bootstrap, and joint source-history laws remain open.
 
-G104/G105 verify the factorized null/Jacobian channel. G106 verifies ideal reference removal of
-radial abundance; the whiteboard derives `dV=E(dJ+E^-1dE J)` as grammar and preregisters the census.
+G104/G105 verify the factorized null/Jacobian channel. G106 verifies ideal reference removal of radial abundance.
+Following `udt_orchestra_score_whiteboard_2026-08-15/`, `udt_complete_reciprocal_representation_extension_census_2026-08-16/` externally verifies G107: only conditional screen dilation `a` survives base-only gates; stronger complete gates kill it, screen rotation is zero-order gauge, and physical active `E/J` carry remains open.
 
 ### What is running
 
@@ -118,13 +118,11 @@ After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for 
 ### Protected dirt
 
 Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell
-draft, local pair-response package, or local G88 package without a specific dispatch. Preserve all
-other unrelated dirt. A clean clone may show a tracked directory shell without the protected local
-payload; directory presence is not evidence that the unbanked work was committed.
+draft, local pair-response package, or local G88 package without a specific dispatch. Preserve all other unrelated dirt. A clean clone may show a tracked directory shell without the protected local payload; directory presence is not evidence that the unbanked work was committed.
 
 ### Next bounded action
 
-Keep outcomes sealed; census constant reciprocal extensions and reject passive carry before fitting.
+Keep outcomes sealed; test G107 survivors through conditional Jacobi/Riccati screen propagation before fitting any coefficient.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

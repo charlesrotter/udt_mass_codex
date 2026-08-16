@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-15
+Date: 2026-08-16
 Authority: active dependency spine; not canonization
 
 `LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise
@@ -119,10 +119,11 @@ sealed review rebuilt its full null/screen/Jacobi curve and raw-data likelihood 
 conditional evaluation path, not a physical history, native radiation law, all-sky theorem,
 `X_max`, or UDT rejection.
 
-G98 retains exact contribution-live flat, monotone, and loud-quiet-loud continuations but selects
-none. G99 freezes P1 as an observed conditional middle chord, not a history or transfer. G100 tests
-it on DES-SN5YR/Dovekie: externally verified conditional non-rejection, low-chi-square reference
-warning, and about `1.64 sigma` secondary shape shift.
+G98 retains exact contribution-live flat, monotone, and loud-quiet-loud continuations but selects none. G99 freezes P1 as an observed conditional middle chord, not a history or transfer.
+G100 tests it on DES-SN5YR/Dovekie: externally verified conditional non-rejection, low-chi-square reference warning, and about `1.64 sigma` secondary shape shift.
+
+G107 externally closes the constant zero-order reciprocal-extension census. Screen covariance eliminates constant off-block mixing and shear; full `O(2)` leaves only conditional common screen dilation `a`, while oriented `SO(2)` also permits zero-order gauge rotation.
+Complete determinant, the tested pairing, or exchange removes `a`. Physical active `E/J` carry remains open.
 ## Macro observational anchors
 
 - G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
@@ -160,11 +161,9 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-G102-G106 establish the evaluator, nonselection, factorized null, Jacobian channel, and sky/depth
-projector. The whiteboard identifies `dV=E(dJ+E^-1dE J)` as grammar, not score. Next run its finite
-reciprocal-extension census with outcomes sealed and passive versus active carry separated.
+G102-G106 establish the evaluator, nonselection, factorized null, Jacobian channel, and sky/depth projector; G107 closes the bounded constant-extension census.
+The whiteboard identity `dV=E(dJ+E^-1dE J)` remains grammar, not a score. Next run a conditional Jacobi/Riccati atlas with query, initial screen, branch, and affine parameter explicit; keep outcomes sealed and do not fit `a`.
 
-Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
-invention merely to create forward motion.
+Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 
 Historical detail remains under `archive/startup_surface_2026-08-14/` and the premise registry.

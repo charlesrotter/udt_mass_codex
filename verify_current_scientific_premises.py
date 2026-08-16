@@ -150,6 +150,12 @@ def validate_startup_surface(root: Path) -> None:
         require("G104" in block, f"G104 kaleidoscope result absent: {name}")
         require("G105" in block, f"G105 Jacobian artifact result absent: {name}")
         require("G106" in block, f"G106 sky-depth projector result absent: {name}")
+        require("G107" in block, f"G107 representation census absent: {name}")
+        require(
+            "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
+            or "constant reciprocal-extension census" in block.lower(),
+            f"G107 package route absent: {name}",
+        )
         require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
             or "whiteboard" in block.lower(),
@@ -183,6 +189,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_null_carrier_measure_ownership_audit_2026-08-15/",
             "udt_bao_G106_complete_sky_depth_reference_projection_2026-08-15/",
             "udt_orchestra_score_whiteboard_2026-08-15/",
+            "udt_complete_reciprocal_representation_extension_census_2026-08-16/",
             "After orientation",
             "verify_current_scientific_premises.py",
         ),
@@ -199,12 +206,14 @@ def validate_startup_surface(root: Path) -> None:
             "udt_pair_terminal_reachability_atlas_2026-08-12/",
             "udt_pair_chord_network_descent_audit_2026-08-12/",
             "G106",
+            "G107",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "WORKING_FOUNDATIONAL_FRAME",
             "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
+            "G107",
         ),
         "README.md": (
             "LIVE.md",
@@ -299,9 +308,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 93, "premise registry must contain exactly 93 rows")
+    require(len(rows) == 94, "premise registry must contain exactly 94 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 93, "duplicate premise id")
+    require(len(by_id) == 94, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1637,6 +1646,25 @@ def main() -> None:
         "G106 source changed",
     )
     require("G106_FRESH_SEALED_REVIEW_REPLAYS_ALL_FOUR_EXECUTABLES" in by_id["G106"]["precedence_rule"], "G106 precedence absent")
+    require(
+        by_id["G107"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__CONSTANT_ZERO_ORDER_O2_SO2_EXTENSION_CENSUS_COMPLETE"
+        ),
+        "G107 representation census status regressed or promoted",
+    )
+    require(by_id["G107"]["epistemic_label"] == "MIXED", "G107 census label changed")
+    require("physical active action and E/J carry" in by_id["G107"]["open_scope"], "G107 active carry promoted")
+    require("field-dependent or query-reduced generators" in by_id["G107"]["open_scope"], "G107 field-dependent scope silently closed")
+    require("coefficients" in by_id["G107"]["open_scope"], "G107 coefficient scope promoted")
+    require("constant bounded census called the complete orchestra score" in by_id["G107"]["forbidden_regression"], "G107 score-promotion guard absent")
+    require("screen dilation a fitted or promoted as physical" in by_id["G107"]["forbidden_regression"], "G107 dilation-promotion guard absent")
+    require("complete determinant pairing or exchange silently promoted" in by_id["G107"]["forbidden_regression"], "G107 complete-gate guard absent")
+    require(
+        by_id["G107"]["controlling_source"]
+        == "udt_complete_reciprocal_representation_extension_census_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G107 source changed",
+    )
+    require("G107_FRESH_SEALED_REVIEW_AND_CORRECTED_FOLLOWUP_VERIFY" in by_id["G107"]["precedence_rule"], "G107 precedence absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1715,7 +1743,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G106-extended premise guards; PASS: 93-row premise "
+        "PASS: G107-extended premise guards; PASS: 94-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
