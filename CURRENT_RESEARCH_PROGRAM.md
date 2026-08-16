@@ -160,9 +160,9 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-G102 verifies the two-chord join; G103 finds only regular assembly constraints. G104 verifies the
-source-null fork: factorized maps are silent; no `m` or `H` is owned, and coefficients are dormant.
-Keep the observational residual atlas paused and outcomes sealed. Seek a native one-point or connected pair/branch mode; do not fit or import ruler/acoustic/Lambda-CDM semantics.
+G102 verifies the two-chord join; G103 finds only regular assembly constraints; G104 proves the
+factorized intrinsic null. G105 externally derives a conditional complete-orchestra one-point
+Jacobian artifact channel while physical history, random-reference projection, `H`, and coefficients remain open. Keep outcomes sealed; observational residual atlas paused until the Jacobian is lifted to a complete sky/depth family.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.

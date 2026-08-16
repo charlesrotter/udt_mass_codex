@@ -1,0 +1,92 @@
+{
+  "checks": {
+    "B_sector_changes_jacobian": true,
+    "H_pair_marginal_preserved": true,
+    "H_pair_nonnegative": true,
+    "H_zero_column_marginals": true,
+    "H_zero_row_marginals": true,
+    "K_columns_normalized": true,
+    "Q_sector_changes_jacobian": true,
+    "S_sector_changes_jacobian": true,
+    "all_complete_blocks_nonzero": true,
+    "angular_jacobian_nonconstant": true,
+    "complete_clock_timelike": true,
+    "factorized_pushforward_exact": true,
+    "lambda_normalized": true,
+    "ls_identity_exact": true,
+    "ls_witness_nonzero": true,
+    "modulated_p_normalized": true,
+    "pair_regular_at_quarter": true,
+    "pair_regular_at_zero": true,
+    "pair_top_and_lower_embeddings_used": true,
+    "q_weighted_m_zero": true
+  },
+  "complete_orchestra_jacobian_witness": {
+    "L2_theta_0": "158597676/67475675",
+    "L2_theta_pi_over_2": "19897479/10796108",
+    "angular_speed2_theta_0": "6146426711425/8625933756036",
+    "angular_speed2_theta_pi_over_2": "2890074927168/2493762097225",
+    "h00": "-2699027/705600",
+    "speed2_difference": "-9601868905408767512090423/21511026653976256862600100",
+    "speed2_without_B": "5055144731/7521399076",
+    "speed2_without_Q": "368632341/372644416",
+    "speed2_without_S": "38025/52441"
+  },
+  "factorized_witness": {
+    "connected_residual": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "p": [
+      "5/12",
+      "7/12"
+    ]
+  },
+  "irreducible_H_witness": {
+    "H": [
+      [
+        "1/16",
+        "-1/16"
+      ],
+      [
+        "-1/16",
+        "1/16"
+      ]
+    ],
+    "pair_measure": [
+      [
+        "5/16",
+        "3/16"
+      ],
+      [
+        "3/16",
+        "5/16"
+      ]
+    ]
+  },
+  "landing": "COMPLETE_ORCHESTRA_ONE_POINT_OBSERVER_ARTIFACT_CHANNEL_DERIVED_CONDITIONALLY__FACTORIZED_INTRINSIC_CONNECTED_EXCESS_ZERO__LOCAL_COMMON_OBSERVER_H_NOT_OWNED__PHYSICAL_HISTORY_REFERENCE_PROJECTION_AND_GLOBAL_BRANCH_LAW_OPEN__BOSS_AND_CMB_OUTCOMES_UNREAD",
+  "one_point_witness": {
+    "ls_numerator": "1/72",
+    "m": [
+      "-1/2",
+      "1/4",
+      "1/4"
+    ],
+    "normalized_estimator": "1/16",
+    "p": [
+      "1/6",
+      "5/12",
+      "5/12"
+    ],
+    "q": [
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    "rr_denominator": "2/9"
+  },
+  "outcome_paths_read": [],
+  "status": "PASS"
+}

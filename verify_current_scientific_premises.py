@@ -148,6 +148,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G102" in block, f"G102 two-source evaluator absent: {name}")
         require("G103" in block, f"G103 restriction result absent: {name}")
         require("G104" in block, f"G104 kaleidoscope result absent: {name}")
+        require("G105" in block, f"G105 Jacobian artifact result absent: {name}")
 
     for token in (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
@@ -271,6 +272,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_bao_G102_complete_two_source_observable_map_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_bao_G103_source_independent_restriction_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_bao_G104_kaleidoscope_forward_operator_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_bao_G105_complete_orchestra_two_route_lift_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -287,9 +289,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 91, "premise registry must contain exactly 91 rows")
+    require(len(rows) == 92, "premise registry must contain exactly 92 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 91, "duplicate premise id")
+    require(len(by_id) == 92, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1587,6 +1589,24 @@ def main() -> None:
         "G104 source changed",
     )
     require("G104_FRESH_SEALED_REVIEW_REPRODUCES_THE_FACTORIZED_NULL" in by_id["G104"]["precedence_rule"], "G104 precedence absent")
+    require(
+        by_id["G105"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__COMPLETE_ORCHESTRA_ONE_POINT_OBSERVER_ARTIFACT_CHANNEL_DERIVED_CONDITIONALLY"
+        ),
+        "G105 Jacobian artifact status regressed or promoted",
+    )
+    require(by_id["G105"]["epistemic_label"] == "MIXED", "G105 Jacobian artifact label changed")
+    require("physical complete history and relation family" in by_id["G105"]["open_scope"], "G105 history promoted")
+    require("actual survey-random projection" in by_id["G105"]["open_scope"], "G105 reference projection promoted")
+    require("global nonfactorizing H" in by_id["G105"]["open_scope"], "G105 H promoted")
+    require("conditional existence witness called a physical BAO prediction" in by_id["G105"]["forbidden_regression"], "G105 prediction guard absent")
+    require("coefficients activated before a selected basis" in by_id["G105"]["forbidden_regression"], "G105 coefficient guard absent")
+    require(
+        by_id["G105"]["controlling_source"]
+        == "udt_bao_G105_complete_orchestra_two_route_lift_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G105 source changed",
+    )
+    require("G105_FRESH_SEALED_REVIEW_REPRODUCES_THE_FACTORIZED_NULL" in by_id["G105"]["precedence_rule"], "G105 precedence absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1665,7 +1685,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G104-extended premise guards; PASS: 91-row premise "
+        "PASS: G105-extended premise guards; PASS: 92-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

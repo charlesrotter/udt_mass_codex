@@ -1,10 +1,13 @@
 # G105 status
 
 ```text
-PREREGISTERED
-__DERIVATION_NOT_YET_RUN
+EXTERNALLY_VERIFIED_WITH_CAVEATS
+__COMPLETE_ORCHESTRA_ONE_POINT_OBSERVER_ARTIFACT_CHANNEL_DERIVED_CONDITIONALLY
+__FACTORIZED_INTRINSIC_CONNECTED_EXCESS_ZERO
+__LOCAL_COMMON_OBSERVER_H_NOT_OWNED
+__PHYSICAL_HISTORY_REFERENCE_PROJECTION_AND_GLOBAL_BRANCH_LAW_OPEN
 __BOSS_AND_CMB_OUTCOMES_SEALED
 ```
 
-The package distinguishes a complete-orchestra one-point Jacobian route from an irreducible
-two-source `H` route. No coefficient is active.
+The package derives the one-point Jacobian route conditionally and retains the irreducible
+two-source `H` route as open. No coefficient is active.

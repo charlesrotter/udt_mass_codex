@@ -1,0 +1,20 @@
+{
+  "caught": {
+    "M01_omit_second_cross_term": true,
+    "M02_force_reference_equal_physical": true,
+    "M03_break_m_normalization": true,
+    "M04_break_H_zero_margin": true,
+    "M05_make_H_pair_negative": true,
+    "M06_remove_B_sector": true,
+    "M07_remove_Q_sector": true,
+    "M08_remove_S_sector": true,
+    "M09_omit_unit_direction_projection": true,
+    "M10_call_angle_bin_a_measure_coupling": true,
+    "M11_replace_independent_branch_product_by_correlated_pair": true,
+    "M12_activate_coefficient_on_zero_unowned_basis": true
+  },
+  "caught_count": 12,
+  "outcome_paths_read": [],
+  "status": "PASS",
+  "total": 12
+}

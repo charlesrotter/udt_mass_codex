@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "H_pair_nonnegative": true,
+    "H_zero_margins": true,
+    "L2_quarter_exact": true,
+    "L2_zero_exact": true,
+    "clock_exact": true,
+    "factorized_pushforward_exact": true,
+    "jacobian_nonconstant": true,
+    "no_production_import": true,
+    "normalized_ls_exact": true,
+    "one_point_ls_exact": true,
+    "p_normalized": true,
+    "q_weighted_m_zero": true,
+    "speed_quarter_exact": true,
+    "speed_zero_exact": true
+  },
+  "exact": {
+    "factorized_residual": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "h00": "-2699027/705600",
+    "ls_normalized": "1/16",
+    "ls_numerator": "1/72",
+    "speed2_quarter": "2890074927168/2493762097225",
+    "speed2_zero": "6146426711425/8625933756036"
+  },
+  "outcome_paths_read": [],
+  "status": "PASS"
+}

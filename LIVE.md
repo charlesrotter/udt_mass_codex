@@ -59,8 +59,8 @@ unchanged shape on 1623 DES-SN5YR/Dovekie rows with the correct marginal covaria
 reproduced `chi2=1444.18644/1622 nominal dof`; the processed-release chi-square is approximate. The
 secondary shift is `1.64 sigma`. G101 partially integrates `grok2`: its corrected two-source query and a local megamaser-slope lead survive; its `X_max`, tanh, flux, scalar-`mu`, and startup promotions do not. G102 externally verifies the conditional two-source evaluator. G103 is externally `VERIFIED_WITH_CAVEATS`: current regular local/first-jet equations impose sky/network/measure consistency but own no nontrivial source-independent pattern after `J` and the source pair measure are released. Global/critical, bootstrap, and source-history joints remain open.
 
-G104 is externally `VERIFIED_WITH_CAVEATS`: under the working null-source posit, factorized one-source
-maps are silent; exact pattern homes are conditional, no `m` or `H` is owned, and outcomes stayed sealed.
+G104 proves the factorized intrinsic null. G105 is externally `VERIFIED_WITH_CAVEATS`: the complete
+orchestra conditionally owns a one-point Jacobian artifact channel; physical history, reference projection, `H`, and all coefficients remain open/dormant, with outcomes sealed.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
@@ -157,11 +157,11 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Keep BOSS and CMB outcomes sealed. Determine whether one complete UDT history derives either a
-physical one-point area/density modulation distinct from registered survey selection or a
-nonfactorizing common-observer pair/branch operator. Do not activate G104's coefficient homes until
-a nonzero native basis exists; do not import a ruler, Lambda-CDM/acoustic interpretation, retune
-G99/G100, or manufacture a target-shaped mode.
+Keep BOSS and CMB outcomes sealed. Lift G105's exact local Jacobian to a complete two-dimensional
+observer sky/depth family and separately type which physical modulation components the registered
+survey-random construction projects out. Do not activate coefficients until one history supplies a
+specific basis; do not import a ruler, Lambda-CDM/acoustic interpretation, retune G99/G100, or
+manufacture a target-shaped mode.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

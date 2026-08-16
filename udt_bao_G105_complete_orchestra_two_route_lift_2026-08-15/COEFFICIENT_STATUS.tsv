@@ -1,0 +1,5 @@
+coefficient	basis_home	basis_status	calibration_status	reason
+a_area	complete-map Jacobian modulation m	CONDITIONAL_NONZERO_WITNESS	DORMANT	physical history and residual random projection unowned
+a_conn	irreducible local two-source H	OPEN_NO_OWNER	DORMANT	common observer and angle function do not create measure coupling
+a_branch	global branch/holonomy/critical H	OPEN_NO_OWNER	DORMANT	no correlated physical branch family selected
+a_regime	depth evolution of one owned mode	OPEN_NO_OWNER	DORMANT	complete physical history unowned

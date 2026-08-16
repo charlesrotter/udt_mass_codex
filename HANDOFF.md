@@ -34,8 +34,7 @@ chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncert
 G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS` at `chi2=1444.18644/1622` nominal dof. G101 retains only the two-source query and local maser slope lead from `grok2`.
 G102 externally verifies the conditional two-chord join. G103 externally verifies that the frozen regular local/first-jet equations retain only legal sky/network/measure assembly and select no nontrivial source-independent pattern once `J` and source pairing are released. This is not a global no-go; critical/topological, bootstrap, and joint source-history laws remain open.
 
-G104 externally verifies the outcome-blind kaleidoscope fork: factorized maps are silent; exact
-pattern homes are conditional, no `m` or `H` is owned, and BOSS/CMB outcomes remain unopened.
+G104 verifies the factorized intrinsic null. G105 externally verifies a conditional complete-orchestra one-point Jacobian artifact channel; physical history, random-reference projection, irreducible `H`, and every coefficient remain open/dormant, with BOSS/CMB outcomes unopened.
 
 ### What is running
 
@@ -124,7 +123,7 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-Keep outcomes sealed; derive a native nonzero one-point or connected pair/branch mode before activating G104 coefficients. Do not fit or import ruler/acoustic/Lambda-CDM semantics.
+Keep outcomes sealed; lift G105's local Jacobian to a complete sky/depth family and type the survey-random projection before activating coefficients. Do not fit or import ruler/acoustic/Lambda-CDM semantics.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->
