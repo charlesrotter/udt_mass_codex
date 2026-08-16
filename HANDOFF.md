@@ -125,5 +125,5 @@ After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for 
 Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell draft, local pair-response package, or local G88 package without a specific dispatch. Preserve unrelated dirt; directory presence does not prove banking.
 
 ### Next bounded action
-Ponder whether G121-G124 co-present network consistency supplies an independent equation for G125's terminal allocations; do not solve or replay data if it merely restates the same score. Historical detail is archived under `archive/startup_surface_2026-08-14/`.
+The G125 three-role whiteboard stops further frequency-network algebra: it adds no rank. Map, without fitting, whether the banked angular lane independently constrains `K(R)` or screen phase on the same typed query; stop if no lawful bridge exists. Historical detail is archived under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

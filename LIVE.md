@@ -160,7 +160,7 @@ Some protected directories have tracked shells plus local untracked payloads. Di
 does not prove banking; inspect Git status and preserve every local file.
 
 ### Immediate next action
-Ponder—before another solve—whether G121-G124 co-present network consistency supplies an independent equation for G125's terminal allocations. Stop if it only restates the same score.
+The three-role G125 whiteboard proved the G121-G125 network route adds no rank and is stopped. Map—without fitting—whether the banked angular lane independently constrains `K(R)` or screen phase on the same typed query; stop if no lawful cross-query bridge exists.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

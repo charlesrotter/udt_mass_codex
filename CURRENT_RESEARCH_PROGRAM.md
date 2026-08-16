@@ -161,8 +161,8 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Next: ponder whether G121-G124 network consistency supplies an independent equation for G125's
-terminal allocations. Stop before a solve if it only re-expresses the same scalar score.
+Next: the three-role whiteboard stops G121-G125 network algebra because it adds no rank. Map, without
+fitting, whether the angular lane independently constrains `K(R)` or screen phase on the same query.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 
