@@ -1,0 +1,15 @@
+premise_id	item	status	role_or_scope	forbidden_promotion
+P01	complete coframe and pair evaluator	DERIVED_CONDITIONAL	supplied regular complete relation to sky/depth output	physical history or query selector
+P02	full target I_zeta x S2	CONDITIONAL	regular sky/depth observation arena	global UDT completion
+P03	factorized intrinsic source measure	POSIT_WORKING_OBSERVATIONAL_BASELINE	no intrinsic source pair pattern	UDT-derived source law
+P04	finite-to-one pushforward	DERIVED_MEASURE_GEOMETRY	branch-summed one-point observed density	physical branch weights
+P05	official angular random semantics	OBSERVED_PINNED_EXTERNAL	footprint/completeness reference	physical UDT angular response
+P06	official random redshift semantics	OBSERVED_PINNED_EXTERNAL	random Z drawn from observed galaxy redshifts	UDT distance law
+P07	normalized Landy-Szalay	CHOSE_BORROWED_MEASUREMENT	observer-coordinate pair readout	physical mechanism
+P08	registered sample cap and shell strata	CHOSE_DATA_FIRST	bounded reference cells	physical regime boundaries
+P09	one history across all depth windows	WORKING_FALSIFIABLE_HYPOTHESIS	cross-window consistency	independent per-window fits
+P10	smooth positive global witnesses	FREE_AND_EXPLORED	existence and catch proofs	selected physical cosmology
+P11	BOSS R2-R5 and CMB outcomes	SEALED_EXCLUDED	future falsification only	derivation target
+P12	observational coefficients	DORMANT	no selected history basis	fit freedom
+P13	X_max bootstrap action source H	OPEN_EXCLUDED	outside bounded projection audit	selector or explanation
+P14	Lambda-CDM acoustic ruler	EXCLUDED	no distance or origin import	UDT derivation

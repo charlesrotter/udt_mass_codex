@@ -1,0 +1,11 @@
+gate_id	requirement	failure_landing
+F01	full sky-depth Jacobian is coordinate invariant	JACOBIAN_TYPE_FAILURE
+F02	reference operator is normalized and idempotent	REFERENCE_NOT_A_PROJECTION
+F03	pure radial modulation is removed in each declared stratum	RADIAL_NULL_FAILURE
+F04	zero-angular-mean depth-angle residual survives	INTERACTION_KERNEL_FAILURE
+F05	window responses are restrictions/averages of one depth law	PER_WINDOW_RETUNING_FAILURE
+F06	full-sky exact witness is positive regular normalized and pole-safe	GLOBAL_WITNESS_FAILURE
+F07	finite random and selection effects remain separately typed	OWNER_COLLAPSE
+F08	no BOSS or CMB outcome is read	OUTCOME_BLINDNESS_FAILURE
+F09	no dormant coefficient or target template is activated	TARGET_INSERTION_FAILURE
+F10	independent verification matches every load-bearing identity	INDEPENDENT_VERIFICATION_FAILURE
