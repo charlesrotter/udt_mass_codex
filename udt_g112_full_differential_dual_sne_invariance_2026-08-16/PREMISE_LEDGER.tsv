@@ -1,0 +1,11 @@
+premise_id	statement	status	use_or_limit
+P01	G110/G111 full observer differential with distinct pair and sky blocks	DERIVED_CONDITIONAL	type architecture only after metric observer and query supplied
+P02	G99 P1 shape n=1.0559332414320268	OBSERVED_CONDITIONAL	frozen; no refit
+P03	phi_pair=log(1+z)	CONDITIONAL_OBSERVATIONAL_IDENTIFICATION	registered SNe query only
+P04	Dsky=lambda_A I2 with lambda_A=n(1-Z^(-2/n))	CONDITIONAL_REPRESENTATIVE	existence/invariance witness not physical history
+P05	dL=Z^2 sqrt(det Dsky)	CONDITIONAL_OBSERVATIONAL_TRANSFER	not native Maxwell/flux derivation
+P06	Pantheon+ and DES standardized magnitudes/covariances	OBSERVED_CONDITIONAL	inherited survey reductions
+P07	one additive magnitude offset per survey	OBSERVATIONAL_NUISANCE_CALIBRATION	profiled analytically; not geometry freedom
+P08	complete metric history R17 controls orchestra weights and regime score	SEALED	must not enter
+P09	LambdaCDM BAO CMB Xmax bootstrap mass and action	SEALED	must not enter
+P10	physical complete SNe realization and source transfer	OPEN	must remain open

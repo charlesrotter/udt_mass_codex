@@ -1,0 +1,11 @@
+gate_id	gate	pass_condition	failure_return
+F01	source_integrity	all 19 source hashes match	SOURCE_OR_TYPE_FAILURE
+F02	distinct_block_type	pair Phi and screen Dsky remain distinct objects	SOURCE_OR_TYPE_FAILURE
+F03	pointwise_invariance	legacy and retyped magnitude shapes agree <=1e-12 on every row	G110_G111_RETYPE_CHANGES_FROZEN_SNE_PREDICTION
+F04	no_shape_refit	n bit-identical and no shape optimizer invoked	SOURCE_OR_TYPE_FAILURE
+F05	Pantheon_replay	fresh fixed-n chi2 and offset reproduce G99/G65 within tolerance	DUAL_SNE_REPLAY_MISMATCH
+F06	DES_replay	fresh fixed-n chi2 and offset reproduce G100 within tolerance	DUAL_SNE_REPLAY_MISMATCH
+F07	independent_replay	distinct covariance algebra and power formula reproduce both	DUAL_SNE_REPLAY_MISMATCH
+F08	caveat_carry	DES low-chi2 warning and conditional-transfer status retained	SOURCE_OR_TYPE_FAILURE
+F09	catch_proofs	all registered hostile mutations rejected	VERIFIER_FAILURE
+F10	premise_scope	no complete-history observational or flux promotion	SOURCE_OR_TYPE_FAILURE
