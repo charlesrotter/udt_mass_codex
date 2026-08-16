@@ -1,0 +1,12 @@
+premise_id	statement	status	use_or_limit
+P01	stationary R17/W01 complete coframe and R x S3 completion	PINNED_BY_SUPPLIED_CONDITIONAL_SOURCE	not selected physical history
+P02	six lambda_R strata -2,-1,0,1/2,1,2	PINNED_BY_SUPPLIED_CONDITIONAL_SOURCE	all retained; none preferred
+P03	phi(q)=epsilon q0 on unit quaternions	FREE_AND_EXPLORED	global analytic control profile, not an equation
+P04	epsilon=+/-1/5 and twist a=+/-1/4	FREE_AND_EXPLORED	numerical control census, not fitted
+P05	eight sign-pattern points with q0 positive	FREE_AND_EXPLORED	bounded point census, not global exhaustiveness
+P06	six axial null sky directions at each control	FREE_AND_EXPLORED	bounded directional census, not full continuum
+P07	coframe-held celestial direction along observer	QUERY_SUPPLIED	one declared carry, not universal observer mechanics
+P08	Levi-Civita exponential and Jacobi equations	DERIVED_CONDITIONAL	metric-native evaluation tool on supplied query
+P09	pair and angular columns are distinct blocks of one dF	DERIVED_CONDITIONAL	G110 type rule under test
+P10	physical metric history and global branch weights	OPEN	must not be inferred
+P11	SNe BAO CMB and Xmax outcomes	SEALED	must not enter G111

@@ -1,0 +1,12 @@
+gate_id	gate	pass_condition	failure_return
+F01	source_integrity	all source SHA-256 values match	SOURCE_FAILURE
+F02	complete_metric_type	all coframes nonsingular and metrics Lorentzian	TYPE_OR_ALGEBRA_FAILURE
+F03	independent_geometry	independent brackets connection and Riemann agree exactly	TYPE_OR_ALGEBRA_FAILURE
+F04	Riemann_identities	all exact symmetry and Bianchi residuals vanish	TYPE_OR_ALGEBRA_FAILURE
+F05	null_screen_normalization	all exact null and orthonormal-screen residuals vanish	TYPE_OR_ALGEBRA_FAILURE
+F06	pair_screen_rank	all canonical null pair-screen projections have rank at most one	G110_TYPE_FAILURE
+F07	angular_vertex	D_sky(0)=0 and matched-basis derivative is identity	G110_TYPE_FAILURE
+F08	nonvacuous_curvature	at least one retained optical tidal matrix is nonzero	VACUOUS_NONFLAT_REPLAY
+F09	control_completeness	all 1152 parameter-point-direction controls are reported	INCOMPLETE_BOUNDED_CENSUS
+F10	catch_proofs	same-W sign contraction and vertex mutations are rejected	VERIFIER_FAILURE
+F11	outcome_seal	no observational outcome or likelihood enters package	HOLDOUT_CONTAMINATION
