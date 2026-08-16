@@ -51,6 +51,7 @@ CURRENT_TARGETS = (
     "udt_grok2_parallel_branch_integration_audit_2026-08-15/AUDIT_REPORT.md",
     "udt_bao_G102_complete_two_source_observable_map_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
     "udt_bao_G103_source_independent_restriction_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_bao_G104_kaleidoscope_forward_operator_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
 )
 
 
@@ -95,7 +96,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 90-row premise registry" in result.stdout
+    assert "PASS: 91-row premise registry" in result.stdout
 
 
 def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:

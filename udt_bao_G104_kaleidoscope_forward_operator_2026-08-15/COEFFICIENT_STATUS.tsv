@@ -1,0 +1,5 @@
+coefficient_id	status	derived_object	missing_owner
+a_conn	DORMANT	general connected operator home H	physical nonzero H and complete history
+a_branch	DORMANT	conditional same-parent branch kernel	physical branch maps joint visibility and weights
+a_area	DORMANT	exact one-point modulation autocorrelation	physical modulation m distinct from survey selection
+a_regime	DORMANT	conditional G99 depth coordinate	active base mode and owned continuation

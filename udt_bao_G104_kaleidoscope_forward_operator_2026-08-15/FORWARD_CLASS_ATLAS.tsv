@@ -1,0 +1,11 @@
+class_id	result_status	exact_result	physical_meaning	remaining_open
+K01	DERIVED_NULL	factorized K2 maps null factorial source to nu1 tensor nu1	simple lens cannot create connected structure	physical K2
+K02	DERIVED_NULL	full one-point random reference gives zero Landy-Szalay expectation	selection-corrected simple lens is silent	finite survey noise and systematics
+K03	DERIVED_CONDITIONAL	selection-reference mismatch gives autocorrelation of omitted physical one-point modulation	apparent curve can come from a physical density field absent from the registered random reference	metric-owned modulation m
+K04	DERIVED_NULL	independent exactly-one branch marking remains factorized	branch labels alone are not a kaleidoscope	correlated branch realization
+K05	DERIVED_CONDITIONAL	joint multi-image offspring gives exact same-parent connected term	constructive true-kaleidoscope subtype	physical branches and joint weights
+K06	PERMITTED_NOT_OWNED	common E overlap and Gram compatibility supply no probability kernel H	legal assembly is not connected statistics	joint relation law
+K07	DERIVED_REALIZABILITY_ONLY	rank and inertia restrict simultaneous labelled vectors but not histogram	finite-dimensional sky consistency remains real	global pair distribution
+K08	OPEN	global critical and holonomy sources do not own branch weights or H	possible native kaleidoscope home	global completion
+K09	ALL_DORMANT	four coefficient homes lack owned nonzero mode functions	no lawful low-dimensional fit yet	derive m or H
+K10	BLOCKED_BEFORE_DATA	no executable physical forward family exists without adding a premise	BOSS remains sealed	global/query premise decision

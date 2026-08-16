@@ -147,6 +147,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G101" in block, f"G101 grok2 integration result absent: {name}")
         require("G102" in block, f"G102 two-source evaluator absent: {name}")
         require("G103" in block, f"G103 restriction result absent: {name}")
+        require("G104" in block, f"G104 kaleidoscope result absent: {name}")
 
     for token in (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
@@ -269,6 +270,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_grok2_parallel_branch_integration_audit_2026-08-15/AUDIT_REPORT.md",
         "udt_bao_G102_complete_two_source_observable_map_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_bao_G103_source_independent_restriction_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_bao_G104_kaleidoscope_forward_operator_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -285,9 +287,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 90, "premise registry must contain exactly 90 rows")
+    require(len(rows) == 91, "premise registry must contain exactly 91 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 90, "duplicate premise id")
+    require(len(by_id) == 91, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1568,6 +1570,23 @@ def main() -> None:
         "G103 source changed",
     )
     require("G103_FRESH_SEALED_REVIEW_REPRODUCES_LOCAL_ZERO_AND_FIRST_JET_SURJECTION" in by_id["G103"]["precedence_rule"], "G103 precedence absent")
+    require(
+        by_id["G104"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__FACTORIZED_REGULAR_KALEIDOSCOPE_NULL_DERIVED"
+        ),
+        "G104 kaleidoscope status regressed or promoted",
+    )
+    require(by_id["G104"]["epistemic_label"] == "MIXED", "G104 kaleidoscope label changed")
+    require("physical nonzero one-point modulation m" in by_id["G104"]["open_scope"], "G104 modulation promoted")
+    require("nonfactorizing positive connected operator H" in by_id["G104"]["open_scope"], "G104 connected operator promoted")
+    require("dormant coefficients activated before a basis exists" in by_id["G104"]["forbidden_regression"], "G104 coefficient guard absent")
+    require("null source posit called metric-derived" in by_id["G104"]["forbidden_regression"], "G104 source-posit guard absent")
+    require(
+        by_id["G104"]["controlling_source"]
+        == "udt_bao_G104_kaleidoscope_forward_operator_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G104 source changed",
+    )
+    require("G104_FRESH_SEALED_REVIEW_REPRODUCES_THE_FACTORIZED_NULL" in by_id["G104"]["precedence_rule"], "G104 precedence absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1646,7 +1665,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G103-extended premise guards; PASS: 90-row premise "
+        "PASS: G104-extended premise guards; PASS: 91-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

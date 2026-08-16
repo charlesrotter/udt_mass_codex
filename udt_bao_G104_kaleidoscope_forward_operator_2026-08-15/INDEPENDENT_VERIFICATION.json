@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "cluster_nonzero": true,
+    "factorized_null": true,
+    "imports_production": false,
+    "independent_marking_null": true,
+    "outcome_artifacts_read": [],
+    "selection_mismatch_identity": true,
+    "selection_mismatch_nonzero": true
+  },
+  "status": "PASS"
+}

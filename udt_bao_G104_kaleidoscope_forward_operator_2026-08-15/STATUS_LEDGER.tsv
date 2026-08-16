@@ -1,0 +1,13 @@
+item	status	scope
+null_source_factorial_measure	POSIT_WORKING_OBSERVATIONAL_BASELINE	no intrinsic connected BAO-like source pattern
+factorized_complete_map	DERIVED_NULL	arbitrary regular one-source response
+full_selection_landy_szalay	DERIVED_NULL	random reference equals physical one-point measure
+selection_mismatch	DERIVED_CONDITIONAL	physical one-point modulation omitted from random selection
+independent_branch_marking	DERIVED_NULL	exactly one independently selected image per source
+correlated_multiimage_cluster	DERIVED_CONDITIONAL	exact same-parent branch-pair term
+general_connected_operator	TYPED_OPEN	K2 equals K1 tensor K1 plus H
+complete_overlap_and_Gram	PERMITS_NOT_OWNS	compatibility without probability kernel
+coefficient_homes	ALL_DORMANT	no nonzero physical mode selected
+BOSS_outcomes	SEALED_UNREAD	no R2-R5 outcome opened
+CMB	SEALED_UNREAD	reserved for later consilience
+global_critical_bootstrap	OPEN	outside regular bounded theorem

@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "cluster_connected_nonzero": true,
+    "cluster_connected_recovered": true,
+    "factorized_connected_zero": true,
+    "generic_connected_recovered": true,
+    "independent_branch_connected_zero": true,
+    "kernel_column_stochastic": true,
+    "ls_full_selection_null": true,
+    "ls_mismatch_identity": true,
+    "mismatch_nonzero": true,
+    "outcome_artifacts_read": [],
+    "source_weights_sum_one": true
+  },
+  "coefficient_status": {
+    "a_area": "DORMANT__SELECTION_MISMATCH_IDENTITY_DERIVED_BUT_NO_PHYSICAL_MODULATION_FIELD_OWNED",
+    "a_branch": "DORMANT__CONDITIONAL_CLUSTER_KERNEL_DERIVED_BUT_BRANCH_MAP_AND_WEIGHTS_UNOWNED",
+    "a_conn": "DORMANT__CONNECTED_HOME_TYPED_BUT_NO_PHYSICAL_H_OWNED",
+    "a_regime": "DORMANT__NO_ACTIVE_BASE_MODE_OR_OWNED_CONTINUATION"
+  },
+  "exact_witnesses": {
+    "cluster_connected": [
+      [
+        "0",
+        "1/2",
+        "1/6"
+      ],
+      [
+        "1/2",
+        "0",
+        "1/3"
+      ],
+      [
+        "1/6",
+        "1/3",
+        "0"
+      ]
+    ],
+    "mismatch_outer": [
+      [
+        "1/36",
+        "0",
+        "-1/36"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1/36",
+        "0",
+        "1/36"
+      ]
+    ],
+    "nu": [
+      "7/24",
+      "5/12",
+      "7/24"
+    ]
+  },
+  "landing": "FACTORIZED_REGULAR_KALEIDOSCOPE_NULL_DERIVED__SELECTION_REFERENCE_MISMATCH_AND_CORRELATED_MULTIIMAGE_TERMS_EXACT__CURRENT_COMPLETE_METRIC_PERMITS_BUT_DOES_NOT_OWN_A_NONZERO_CONNECTED_MODE__ALL_FOUR_COEFFICIENT_HOMES_DORMANT__BOSS_AND_CMB_UNREAD",
+  "status": "PASS"
+}

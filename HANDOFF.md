@@ -34,6 +34,9 @@ chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncert
 G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS` at `chi2=1444.18644/1622` nominal dof. G101 retains only the two-source query and local maser slope lead from `grok2`.
 G102 externally verifies the conditional two-chord join. G103 externally verifies that the frozen regular local/first-jet equations retain only legal sky/network/measure assembly and select no nontrivial source-independent pattern once `J` and source pairing are released. This is not a global no-go; critical/topological, bootstrap, and joint source-history laws remain open.
 
+G104 externally verifies the outcome-blind kaleidoscope fork: factorized maps are silent; exact
+pattern homes are conditional, no `m` or `H` is owned, and BOSS/CMB outcomes remain unopened.
+
 ### What is running
 
 No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`.
@@ -121,8 +124,7 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-Preregister the explicit smooth/unpatterned source-pair baseline and an outcome-blind low-dimensional orchestra forward family before opening BOSS. Survey randoms may encode only mask/selection. Do not import a ruler or acoustic/Lambda-CDM semantics, retune G99/G100, open CMB, promote a history, or infer `X_max`.
+Keep outcomes sealed; derive a native nonzero one-point or connected pair/branch mode before activating G104 coefficients. Do not fit or import ruler/acoustic/Lambda-CDM semantics.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
-
 <!-- STARTUP_CURRENT_END -->

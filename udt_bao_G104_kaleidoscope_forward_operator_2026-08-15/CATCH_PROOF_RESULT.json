@@ -1,0 +1,17 @@
+{
+  "caught_mutations": {
+    "cmb_tuning_detected": true,
+    "compatibility_called_owner_detected": true,
+    "dormant_coefficient_activation_detected": true,
+    "extra_coefficient_detected": true,
+    "factorized_called_connected_detected": true,
+    "full_random_nonnull_detected": true,
+    "independent_branch_called_cluster_detected": true,
+    "intrinsic_source_pattern_detected": true,
+    "local_to_global_promotion_detected": true,
+    "mask_mismatch_drop_detected": true,
+    "outcome_opening_detected": true,
+    "preferred_angle_detected": true
+  },
+  "status": "PASS"
+}

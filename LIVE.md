@@ -46,22 +46,21 @@ never appended. A no-fit replay is justified; physical history and flux remain `
 G94 derives `F_o=L_Omega eta epsilon/(Z^3 d_A^2)` conditionally; G95/G96 retain only response,
 transport, and query bookkeeping. Physical `eta` and the carrier-covector premise remain open.
 
-G97 is the first externally verified end-to-end complete-geometry SNe house test. With provisional
-`eta=1`, `epsilon=1/Z`, and source isotropy, one preselected G79 control gives `chi2=16255.30` for
-`1366` degrees of freedom and is strongly incompatible with the registered SNe mean relation. The
-full curve and likelihood replay. This is one control/query/transfer tile—not a physical history,
-native radiation law, all-sky theorem, `X_max`, or rejection of UDT. Do not tune another geometry.
+G97 externally verifies one end-to-end SNe house test: with provisional `eta=1`, `epsilon=1/Z`, and
+source isotropy, one G79 control gives `chi2=16255.30/1366 dof`. This is one incompatible control,
+not a physical history, native radiation law, all-sky theorem, `X_max`, or UDT rejection.
 
-G98 is the preregistered zoom-out return:
-`INTERNALLY_VERIFIED_WITH_CAVEATS__PERMITTED_NOT_OWNED`. Exact flat, monotone, and loud-quiet-loud
-histories survive with every factor and `dot h` contribution live. Current compatibility equations
-therefore select no continuation. This is a frozen-source/regular-stratum result, not a generic
-no-go; the quiet-middle architecture is lawful but not selected.
+G98 is `INTERNALLY_VERIFIED_WITH_CAVEATS__PERMITTED_NOT_OWNED`: exact flat, monotone, and
+loud-quiet-loud contribution-live histories survive. Compatibility selects no continuation; quiet
+middle is lawful but not selected, and the bounded result is not a generic no-go.
 G99 freezes P1 as an `OBSERVED/CONDITIONAL` middle chord, not a complete history. G100 tests that
 unchanged shape on 1623 DES-SN5YR/Dovekie rows with the correct marginal covariance:
 `VERIFIED_WITH_CAVEATS__FROZEN_P1_NOT_REJECTED__LOW_CHI2_REFERENCE_WARNING`. A sealed adversary
 reproduced `chi2=1444.18644/1622 nominal dof`; the processed-release chi-square is approximate. The
-secondary shift is `1.64 sigma`. G101 partially integrates `grok2`: its corrected two-source query and a local megamaser-slope lead survive; its `X_max`, tanh, flux, scalar-`mu`, and startup promotions do not. G102 externally verifies the conditional two-source evaluator. G103 is externally `VERIFIED_WITH_CAVEATS`: current regular local/first-jet equations impose sky/network/measure consistency but own no nontrivial source-independent pattern after `J` and the source pair measure are released. Global/critical, bootstrap, and source-history joints remain open. No BOSS outcome was opened.
+secondary shift is `1.64 sigma`. G101 partially integrates `grok2`: its corrected two-source query and a local megamaser-slope lead survive; its `X_max`, tanh, flux, scalar-`mu`, and startup promotions do not. G102 externally verifies the conditional two-source evaluator. G103 is externally `VERIFIED_WITH_CAVEATS`: current regular local/first-jet equations impose sky/network/measure consistency but own no nontrivial source-independent pattern after `J` and the source pair measure are released. Global/critical, bootstrap, and source-history joints remain open.
+
+G104 is externally `VERIFIED_WITH_CAVEATS`: under the working null-source posit, factorized one-source
+maps are silent; exact pattern homes are conditional, no `m` or `H` is owned, and outcomes stayed sealed.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
@@ -114,11 +113,9 @@ action, source, matter, bootstrap selection, SNe/CMB result, or `X_max` follows.
 
 ### Durable structural parents
 
-- `udt_pair_terminal_reachability_atlas_2026-08-12/`: exact bounded pointwise `PSD(2)` terminal
-  reachability, inverse, rank, and signature atlas; `VERIFIED-WITH-CAVEATS`.
-- `udt_pair_chord_network_descent_audit_2026-08-12/`: endpoint coframe ratios compose and reverse
-  on one supplied common calibration family; PSD reachability is a partial order, not Reciprocity;
-  externally `VERIFIED-WITH-CAVEATS`.
+- `udt_pair_terminal_reachability_atlas_2026-08-12/`: bounded pointwise `PSD(2)` terminal atlas.
+- `udt_pair_chord_network_descent_audit_2026-08-12/`: endpoint ratios compose on one supplied
+  calibration family; PSD reachability is a partial order, not Reciprocity.
 - `udt_pair_first_relational_plane_reconstruction_2026-08-12/`: a supplied regular pair immersion
   owns its tangent plane and screen, and the full orchestra enters before terminal readout;
   `VERIFIED-WITH-CAVEATS`.
@@ -160,7 +157,11 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Before opening the BOSS holdout, preregister the minimal empirical source premise: no intrinsic BAO-like source correlation beyond a smooth/ordinary galaxy baseline, with survey randoms carrying only mask/selection. Then derive an outcome-blind low-dimensional complete-orchestra forward family; do not import a ruler, Lambda-CDM/acoustic interpretation, retune G99/G100, or open CMB.
+Keep BOSS and CMB outcomes sealed. Determine whether one complete UDT history derives either a
+physical one-point area/density modulation distinct from registered survey selection or a
+nonfactorizing common-observer pair/branch operator. Do not activate G104's coefficient homes until
+a nonzero native basis exists; do not import a ruler, Lambda-CDM/acoustic interpretation, retune
+G99/G100, or manufacture a target-shaped mode.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

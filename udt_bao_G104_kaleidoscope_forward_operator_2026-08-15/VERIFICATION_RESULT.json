@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "atlas_exact_k01_to_k10": true,
+    "catch_proofs_12_of_12": true,
+    "external_review_accepted": true,
+    "four_coefficients_all_dormant": true,
+    "independent_imports_no_production": true,
+    "independent_outcomes_empty": true,
+    "independent_pass": true,
+    "landing_exact": true,
+    "manifest_frozen_from_prereg": true,
+    "manifest_has_exactly_11_sources": true,
+    "manifest_hashes_exact": true,
+    "no_outcome_paths_in_load_bearing_executables": true,
+    "production_checks_true": true,
+    "production_outcomes_empty": true,
+    "production_pass": true,
+    "random_reference_typing_corrected": true,
+    "read_only_replay_supported": true,
+    "required_files_present": true,
+    "scope_ceiling_retained": true
+  },
+  "landing": "FACTORIZED_REGULAR_KALEIDOSCOPE_NULL_DERIVED__SELECTION_REFERENCE_MISMATCH_AND_CORRELATED_MULTIIMAGE_TERMS_EXACT__CURRENT_COMPLETE_METRIC_PERMITS_BUT_DOES_NOT_OWN_A_NONZERO_CONNECTED_MODE__ALL_FOUR_COEFFICIENT_HOMES_DORMANT__BOSS_AND_CMB_UNREAD",
+  "manifest_checks": {
+    "udt_bao_G102_complete_two_source_observable_map_2026-08-15/EXACT_DERIVATION.md": true,
+    "udt_bao_G102_complete_two_source_observable_map_2026-08-15/PREREGISTRATION.md": true,
+    "udt_bao_G103_source_independent_restriction_ownership_audit_2026-08-15/EXACT_DERIVATION.md": true,
+    "udt_bao_G103_source_independent_restriction_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md": true,
+    "udt_complete_history_regime_continuation_ownership_audit_2026-08-15/EXACT_DERIVATION.md": true,
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/R2_PREREGISTRATION.md": true,
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/SOURCE_MANIFEST.tsv": true,
+    "udt_observed_middle_regime_pair_calibration_2026-08-15/EXACT_DERIVATION.md": true,
+    "udt_overlapping_pair_live_compatibility_audit_2026-08-14/EXACT_DERIVATION.md": true,
+    "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/EXACT_DERIVATION.md": true,
+    "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/EXACT_DERIVATION.md": true
+  },
+  "missing": [],
+  "status": "PASS"
+}

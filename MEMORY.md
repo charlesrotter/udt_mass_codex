@@ -72,9 +72,9 @@ G97 verifies the first end-to-end SNe house test: under provisional `eta=1`, `ep
 transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet-loud histories all
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
-G102 externally verifies the conditional two-chord join. G103 finds no nontrivial pattern selector in the frozen regular local/first-jet equations after releasing `J` and source pairing; global/critical, bootstrap, and joint source-history restrictions remain open. No BOSS outcome was read.
-Next preregister the smooth/unpatterned source baseline and an outcome-blind low-dimensional complete-orchestra family before opening BOSS; reserve CMB for consilience.
+G102 verifies the two-chord join; G103 finds no regular local pattern selector. G104 verifies the
+source-null fork: factorized response is silent; exact homes are conditional, no `m` or `H` is owned,
+and outcomes remain sealed. Next seek a native one-point or connected pair/branch mode.
 ## Archive
 
-The verbose pre-cleanup memory and linked startup histories are preserved under
-`archive/startup_surface_2026-08-14/`. They are historical provenance, not active memory.
+Verbose startup history is under `archive/startup_surface_2026-08-14/`; it is provenance only.
