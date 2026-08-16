@@ -31,9 +31,9 @@ G98's exact flat, monotone, and loud-quiet-loud histories survive; `PERMITTED_NO
 quiet middle lawful, not selected. G99 freezes verified P1 once as an `OBSERVED/CONDITIONAL` middle
 chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncertainty remain open.
 
-G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS` at `chi2=1444.18644/1622`
-nominal dof. G101 partially integrates `grok2`: retain a two-source observer query and local maser
-slope lead; reject its `X_max`, tanh, flux, scalar-`mu`, and stale-startup promotions.
+G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS` at `chi2=1444.18644/1622` nominal dof. G101 retains only the two-source query and local maser slope lead from `grok2`.
+G102 externally verifies the conditional two-chord join at one observer; redshift is separately endpoint-carried, while orientation, history, and source pair measure stay open.
+
 ### What is running
 
 No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`.
@@ -121,8 +121,8 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-Derive and preregister the G101 observer-plus-two-source BAO map without reading BAO curves or a ruler.
-Then test frozen G99/G100 with no SNe retuning, history promotion, or `X_max` inference.
+Audit whether existing complete-history equations impose a source-independent restriction on G102 before opening BOSS.
+If not, preregister the explicit source-pair premise; do not fit it, retune G99/G100, promote a history, or infer `X_max`.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 

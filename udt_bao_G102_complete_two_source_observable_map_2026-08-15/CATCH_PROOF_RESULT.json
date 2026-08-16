@@ -1,0 +1,10 @@
+{
+  "mutations": {
+    "drop_ruler_orthogonalization": "CAUGHT",
+    "erase_outward_ruler_orientation": "CAUGHT",
+    "join_unequal_observer_clocks": "CAUGHT",
+    "replace_two_source_query_with_one_source": "CAUGHT",
+    "reuse_observer_local_h_as_terminal_redshift": "CAUGHT"
+  },
+  "status": "PASS"
+}

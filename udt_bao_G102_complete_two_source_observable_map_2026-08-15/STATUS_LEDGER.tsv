@@ -1,0 +1,13 @@
+item	status	maximum_conclusion
+observer_endpoint_direction	DERIVED_CONDITIONALLY	unit pair-ruler direction from supplied complete pair
+direction_identification	QUERY_OWNED	ordered outward source direction
+common_observer_join	DERIVED_CONDITIONALLY	metric angle after normalized clocks agree
+terminal_redshift	OBSERVED_CONDITIONAL_G99	Z=exp(DeltaPhi) on supplied endpoint carry
+endpoint_local_separation	CORRECTED	observer-local h not accumulated source depth
+finite_estimator	VERIFIED_EXACT	BOSS normalization and Landy-Szalay join
+branch_globalization	DERIVED_AS_PUSHFORWARD	set/measure valued; injectivity not assumed
+source_identifiability	OPEN_OBSTRUCTION	unrestricted source pair measure absorbs invertible map
+physical_history	OPEN	no B Q S Y Z continuation selected
+bao_outcome	SEALED	zero curve/descriptor reads
+xmax_ruler_acoustic	EXCLUDED	no inference or input
+external_review	PASS_WITH_CAVEATS	30-file sealed review; all hashes and executable evidence independently replayed

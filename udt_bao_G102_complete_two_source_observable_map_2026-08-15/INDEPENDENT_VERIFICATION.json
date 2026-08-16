@@ -1,0 +1,34 @@
+{
+  "DD": [
+    "8",
+    "15",
+    "12"
+  ],
+  "DR": [
+    "19",
+    "18",
+    "13"
+  ],
+  "RR": [
+    "2",
+    "4",
+    "4"
+  ],
+  "common_observer": true,
+  "cos_theta": "3/5",
+  "implementation": "stdlib Fraction only; no sympy or production import",
+  "landy_szalay": [
+    "-58/35",
+    "19/70",
+    "39/70"
+  ],
+  "observer_local_phi_arguments_not_used_as_redshift": [
+    "9/4",
+    "25/9"
+  ],
+  "status": "PASS",
+  "terminal_Z_separately_typed": [
+    2,
+    3
+  ]
+}

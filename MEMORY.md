@@ -71,9 +71,9 @@ G97 verifies the first end-to-end SNe house test: under provisional `eta=1`, `ep
 `chi2=16255.30/1366 dof` and is strongly incompatible. The evaluator works; history and native
 transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet-loud histories all
 survive with every factor contributing, so current equations permit but do not own the continuation.
-G99 freezes P1 conditionally; G100 finds no large-residual DES rejection. G101 retains from `grok2` only a two-source observer query and local maser-slope lead—not its tanh/`X_max`, flux, scalar-`mu`, or startup claims.
-Next preregister that observer-plus-two-source BAO map without reading the curves or retuning SNe.
-
+G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
+G102 externally verifies the conditional two-chord join at one observer with separate endpoint depth carry; no BAO outcome, history, or source measure is owned.
+Next audit whether current history equations restrict that source/geometry degeneracy before opening BOSS.
 ## Archive
 
 The verbose pre-cleanup memory and linked startup histories are preserved under

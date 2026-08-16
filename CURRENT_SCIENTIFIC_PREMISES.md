@@ -91,7 +91,7 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   native transfer, all other geometries, all-sky ownership, and `X_max` remain open.
 - Complete-history continuation ownership: G98 internally verifies exact contribution-live flat,
   monotone, and loud-quiet-loud survivors; quiet middle is permitted, not selected or a generic no-go.
-- Observed middle calibration: G99 freezes verified P1 central `dL(z)` without a refit/holdout; it is conditional, not a complete history/transfer, and joint uncertainty remains open.
+- G99 freezes the observed conditional P1 middle calibration; G102 externally verifies the conditional two-source sky-angle evaluator with query-owned orientation and separate endpoint carry. No complete history, source pair measure, BAO prediction, ruler, or `X_max` follows.
 - Overlapping-pair live compatibility: internally `VERIFIED-WITH-CAVEATS`; exact chart, shared-clock,
   middle-state, and joint-Gram consistency laws derived conditionally. The original “fully live”
   wording was corrected; stricter flat, monotone, and loud-quiet-loud lifts are contribution-live

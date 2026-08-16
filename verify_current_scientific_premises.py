@@ -145,6 +145,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G98" in block, f"G98 continuation ownership result absent: {name}")
         require("G99" in block, f"G99 calibration result absent: {name}")
         require("G101" in block, f"G101 grok2 integration result absent: {name}")
+        require("G102" in block, f"G102 two-source evaluator absent: {name}")
 
     for token in (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
@@ -265,6 +266,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_complete_history_regime_continuation_ownership_audit_2026-08-15/AUDIT_REPORT.md",
         "udt_observed_middle_regime_pair_calibration_2026-08-15/AUDIT_REPORT.md",
         "udt_grok2_parallel_branch_integration_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_bao_G102_complete_two_source_observable_map_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -281,9 +283,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 88, "premise registry must contain exactly 88 rows")
+    require(len(rows) == 89, "premise registry must contain exactly 89 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 88, "duplicate premise id")
+    require(len(by_id) == 89, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1531,6 +1533,23 @@ def main() -> None:
         "G101 source changed",
     )
     require("G101_RETAINS_ONLY_THE_CORRECTED_OBSERVER_CENTERED_TWO_SOURCE_QUERY" in by_id["G101"]["precedence_rule"], "G101 precedence absent")
+    require(
+        by_id["G102"]["current_status"]
+        == "EXTERNALLY_VERIFIED_WITH_CAVEATS__COMPLETE_TWO_SOURCE_OBSERVABLE_EVALUATOR_DERIVED__DIRECTION_IDENTIFICATION_QUERY_OWNED__ENDPOINT_DEPTH_CARRY_CONDITIONAL__PHYSICAL_HISTORY_AND_SOURCE_PAIR_MEASURE_OPEN",
+        "G102 evaluator status regressed or promoted",
+    )
+    require(by_id["G102"]["epistemic_label"] == "MIXED", "G102 evaluator label changed")
+    require("source one and two point measures" in by_id["G102"]["open_scope"], "G102 source measure promoted")
+    require("physical complete history" in by_id["G102"]["open_scope"], "G102 history promoted")
+    require("conditional evaluator called BAO prediction" in by_id["G102"]["forbidden_regression"], "G102 prediction guard absent")
+    require("observer-local h reused as accumulated redshift" in by_id["G102"]["forbidden_regression"], "G102 endpoint guard absent")
+    require("image/support qualification dropped" in by_id["G102"]["forbidden_regression"], "G102 support guard absent")
+    require(
+        by_id["G102"]["controlling_source"]
+        == "udt_bao_G102_complete_two_source_observable_map_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G102 source changed",
+    )
+    require("G102_FRESH_SEALED_REVIEW_REPLAYS_THE_EXACT_TWO_SOURCE_JOIN" in by_id["G102"]["precedence_rule"], "G102 precedence absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1609,7 +1628,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G101-extended premise guards; PASS: 88-row premise "
+        "PASS: G102-extended premise guards; PASS: 89-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

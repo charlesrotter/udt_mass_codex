@@ -1,0 +1,62 @@
+{
+  "frame_checks": {
+    "observer_angle": "0"
+  },
+  "gauge_checks": {
+    "L2_covariance": "0",
+    "det_covariance": "0",
+    "ruler_covariance": "Matrix([[0], [0], [0], [0]])"
+  },
+  "maximum_conclusion": "COMPLETE_TWO_SOURCE_OBSERVABLE_EVALUATOR_DERIVED__DIRECTION_IDENTIFICATION_QUERY_OWNED__ENDPOINT_DEPTH_CARRY_CONDITIONAL__PHYSICAL_HISTORY_AND_SOURCE_PAIR_MEASURE_OPEN",
+  "outcome_artifacts_read": 0,
+  "source_nonidentifiability": {
+    "meaning": "distinct invertible sky map plus pulled-back source pair measure gives the same observed pair measure",
+    "permutation_reconstruction": true
+  },
+  "status": "PASS",
+  "symbolic_type_checks": {
+    "clock_ruler_orthogonal": "0",
+    "clock_unit": "0",
+    "direction_unit": "0",
+    "ruler_norm": "0"
+  },
+  "synthetic_estimator": {
+    "DD": [
+      "8",
+      "15",
+      "12"
+    ],
+    "DD_total": "35",
+    "DR": [
+      "19",
+      "18",
+      "13"
+    ],
+    "DR_total": "50",
+    "RR": [
+      "2",
+      "4",
+      "4"
+    ],
+    "RR_total": "10",
+    "landy_szalay": [
+      "-58/35",
+      "19/70",
+      "39/70"
+    ]
+  },
+  "synthetic_pairs": {
+    "common_observer": true,
+    "cos_theta": "3/5",
+    "observer_local_h1": "Matrix([[-4, -2], [-2, 8]])",
+    "observer_local_h2": "Matrix([[-9, 3], [3, 24]])",
+    "terminal_Z": [
+      "2",
+      "3"
+    ],
+    "terminal_depths_separately_typed": [
+      "log(2)",
+      "log(3)"
+    ]
+  }
+}
