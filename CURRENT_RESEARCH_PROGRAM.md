@@ -23,28 +23,12 @@ eventually be a joint global/local admissibility law, but that remains a working
 
 ## Active operational lane — verified raw pattern, covariance, and relation structure
 
-R3 completed the preregistered data-only spatial-covariance atlas over the complete R2 BOSS
-observer-coordinate surface. All 194 cells, 2,328 covariance matrices, exact support/covariance/rank
-identities, and eight independent deletion anchors pass after two disclosed verifier-ownership
-repairs. Rank and covariance scale depend on deletion resolution, so the result is explicitly
-`COVARIANCE_RESOLUTION_OR_RANK_LIMITED` and selects no preferred grid.
-
-R4 then completed all 9,286 preregistered data-only relations and all-grid cap readouts. The broad
-complete-curve shape persists across every registered control and neighboring-selection class, but
-amplitude and fine detail vary. Full covariance-range metrics are strongly grid-dependent. No
-individual feature, mode, physical scale, origin, or preferred covariance grid is selected.
-
-R5 then completed a full-spectrum common-subspace atlas without selecting a mode count. One
-whole-curve direction is numerically dominant across all preregistered relation classes. Additional
-subspace alignment survives, but its strength is control-dependent, especially across disjoint caps
-and exact shell aggregation. Every spectrum and all-rank overlap is independently owned. The
-covariance-range projector is owned on 91,568 rows and numerically unresolved on 184,300 rows, all
-explicitly labelled. A repaired evidence schema passed a fresh external review as
-`VERIFIED_WITH_CAVEATS`.
-
-This remains metric-neutral data characterization, not a UDT fit or physical interpretation. The
-primary-researcher method cross-check supports the input/estimator architecture but supplies no
-exact target curve.
+R3 completes all 194 cells, 2,328 covariances, and eight independent deletion anchors but is
+`COVARIANCE_RESOLUTION_OR_RANK_LIMITED`; no grid is selected. R4 finds broad whole-curve persistence
+across 9,286 relations while detail and full covariance remain grid-dependent. R5 finds one
+dominant common direction plus control-dependent additional alignment; 184,300 covariance-range
+rows remain explicitly unresolved. These externally verified-with-caveats results are metric-neutral
+data characterization, not a UDT fit, preferred feature, mode count, scale, or interpretation.
 
 ## Current relational-geometry result stack
 
@@ -125,6 +109,15 @@ G106 types the projector; G107 closes the constant census. G108's Jacobi algebra
 corrects their same-`W` join. One supplied point-observer full `dF`, with `dV=E(dJ+E^-1dE J)`, has a pair block owning
 `phi_pair`, a distinct sky-Jacobi block, and mixed compatibility. Its null pair-screen projection
 has rank at most one. Physical history, celestial field, global weights, and general queries remain open.
+
+G111 `udt_g111_nonflat_r17_full_differential_replay_2026-08-16/` verifies this architecture on a
+bounded nonflat R17 family. G112 `udt_g112_full_differential_dual_sne_invariance_2026-08-16/`
+establishes fixed-P1 Pantheon+/DES non-regression while leaving screen and transfer conditional.
+G113 `udt_g113_metric_native_orchestra_whiteboard_2026-08-16/` identifies one full observer
+differential as the local assembly. Its static central spherical subclass derives `phi_pair=phi`
+and `D_sky=r I`, but exact P1 static inversion has invariant `1/r` center curvature. The chord is
+null-cone data, not a derived smooth static profile; regular time-live realization remains open.
+
 ## Macro observational anchors
 
 - G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
@@ -162,8 +155,11 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-G110 replaces the same-`W` solder with one full observer differential. Replay its distinct blocks
-on one nonflat analytic complete UDT metric; retain every branch and full shear, and fit nothing.
+Follow G113 `NEXT_GATE.md`. First type one common-source, three-observer network with path-labelled
+exponential preimages, full Jacobi phase-space carry, separate terminal pair blocks, and explicit
+source/screen calibration. This is a no-solve gate. Then run an outcome-blind regular time-live
+spherical jet census under that frozen query contract. Do not open Pantheon+ or DES until the
+forward light-cone series are fixed.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

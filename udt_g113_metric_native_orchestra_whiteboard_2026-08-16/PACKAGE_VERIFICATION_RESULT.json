@@ -1,0 +1,18 @@
+{
+  "guards": {
+    "all_source_hashes": true,
+    "history_open": true,
+    "independent_pass": true,
+    "next_gate_explicit": true,
+    "no_missing_files": true,
+    "p1_center_scope_explicit": true,
+    "saved_independent_exact": true,
+    "saved_symbolic_exact": true,
+    "static_scope_explicit": true,
+    "symbolic_pass": true
+  },
+  "manifest_rows": 17,
+  "missing": [],
+  "preregistration_commit": "6c16eb3c",
+  "status": "PASS"
+}

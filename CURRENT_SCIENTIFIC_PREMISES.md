@@ -40,7 +40,9 @@ Controlling sources: G04, G05, G06, G14.
   response, principal symbol, coupling, admissible data, and signalling remain separate.
 - Endpoint scalars, shift state, Jacobi propagators, and path/normal holonomy have different natural
   mathematical homes. Do not force them into one scalar.
-- G110 derives distinct terminal-pair and angular-Jacobi blocks of one supplied full `dF`; equal size never identifies domains.
+- G110 derives distinct pair/sky blocks of one full `dF`; G111 verifies bounded nonflat survival.
+- G113 identifies `dF` as the local assembly: Jacobi phase space carries one-ray composition, while
+  cross-ray comparison still needs a typed common-source calibration junction.
 - Exact endpoint chord composition on a shared calibrated family is verified with caveats. It does
   not select a universal path, global family, or dynamics.
 
@@ -88,14 +90,14 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   It supplies no new physical owner; carrier identification, physical zero side flux, and `eta` remain open.
 - G97 externally verifies one incompatible SNe control under provisional transfer; this tests the evaluator, not physical history, other geometries, all-sky ownership, or `X_max`.
 - G98 verifies flat, monotone, and loud-quiet-loud survivors; quiet middle is permitted, not selected.
-- G99 freezes P1; G102-G107 type the evaluator. G108's Jacobi algebra and G109's terminal depth
-  survive. G110 reconstructs one supplied point-observer full `dF`: distinct pair and sky-Jacobi
-  blocks, null pair-screen rank at most one, and vertex data up to matched basis gauge. Physical
-  history, query ownership, global weights, and observations remain open.
-- Overlapping-pair live compatibility: internally `VERIFIED-WITH-CAVEATS`; exact chart, shared-clock,
-  middle-state, and joint-Gram consistency laws derived conditionally. The original “fully live”
-  wording was corrected; stricter flat, monotone, and loud-quiet-loud lifts are contribution-live
-  near an exact control. Activity alone does not select the score; fresh semantic review pending.
+- G99 freezes P1; G102-G106 type the evaluator; G107 closes the constant census; G108-G109 retain
+  Jacobi/depth. G110 reconstructs distinct pair/sky blocks; G111
+  proves bounded nonflat survival; G112 verifies conditional dual-SNe non-regression.
+- G113 derives `phi_pair=phi` and `D_sky=r I` on the static central spherical radial-null subclass,
+  but exact P1 static inversion has invariant `1/r` center curvature. The chord is null-cone data,
+  not a smooth static profile; regular time-live realization remains open.
+- Overlapping-pair compatibility is internally `VERIFIED-WITH-CAVEATS`; corrected contribution-live
+  flat, monotone, and loud-quiet-loud lifts survive, but activity selects no score.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict
   intermediate trace minimum does not derive a physical quiet-middle regime.
 - R2 raw observational atlas: `OBSERVED`, `VERIFIED-WITH-CAVEATS`.
@@ -104,10 +106,8 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
 - R4 empirical relation atlas: complete and independently verified with caveats; broad whole-curve
   shape persists across every registered relation class, while amplitude/fine detail vary and full
   covariance metrics remain grid-dependent; no individual feature, significance, or physics.
-- R5 full-spectrum common-subspace atlas: complete, independently verified, and externally
-  `VERIFIED-WITH-CAVEATS`; one dominant shared whole-curve direction plus additional
-  control-dependent subspace alignment, with 184,300 covariance-range rows explicitly unresolved;
-  no reduced rank, feature, significance, ruler, cosmology, UDT response, CMB relation, or `X_max`.
+- R5 is externally `VERIFIED-WITH-CAVEATS`: one dominant whole-curve direction, control-dependent
+  additional alignment, and 184,300 unresolved covariance rows; no rank, feature, or physics.
 
 The observational lane changes no UDT premise. A numerical pattern is not automatically physics.
 

@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "binomial_f0": true,
+    "binomial_f1": true,
+    "p1_angular_curvature_residue": true,
+    "p1_phi_prime_origin": true,
+    "p1_scalar_curvature_residue": true,
+    "pair_determinant": true,
+    "pair_h01": true,
+    "pair_h11": true,
+    "terminal_depth": true
+  },
+  "exact_control": {
+    "X_eff": "13/2",
+    "angular_curvature_residue": "2/13",
+    "f1": "-2/13",
+    "f2": "2/2873",
+    "n": "17/16",
+    "phi_prime_origin": "1/13",
+    "scalar_curvature_residue": "12/13"
+  },
+  "method": "standard-library Fraction binomial series plus direct numeric pullback",
+  "status": "PASS"
+}

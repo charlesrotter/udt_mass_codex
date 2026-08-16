@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "direct_ricci_formula": true,
+    "p1_angular_curvature_residue": true,
+    "p1_f_prime_origin": true,
+    "p1_phi_origin": true,
+    "p1_phi_prime_origin": true,
+    "p1_scalar_curvature_residue": true,
+    "pair_determinant": true,
+    "pair_h00": true,
+    "pair_h01": true,
+    "pair_h11": true,
+    "terminal_depth": true
+  },
+  "derived": {
+    "D_sky_on_central_spherical_subclass": "r I_2",
+    "det_h": "-1",
+    "h_parallel": [["-f", "-1"], ["-1", "0"]],
+    "limit_r_times_Ricci_scalar": "6/X_eff",
+    "limit_r_times_angular_sectional_curvature": "1/X_eff",
+    "p1_f": "(1-r/(n X_eff))^n",
+    "p1_f_prime_at_origin": "-1/X_eff",
+    "p1_phi_prime_at_origin": "1/(2 X_eff)",
+    "phi_pair": "-(1/2) log(f)"
+  },
+  "scope": "static central spherical radial null subclass; P1 exact inward extrapolation",
+  "status": "PASS"
+}

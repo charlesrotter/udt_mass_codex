@@ -39,6 +39,19 @@ Following the orchestra whiteboard, G104/G105/G106 type the Jacobian channels; G
 point-observer full `dF`: pair and sky-Jacobi maps are distinct blocks and the null pair-screen block
 has rank at most one. Physical history, query ownership, and global weights remain open.
 
+G111 `udt_g111_nonflat_r17_full_differential_replay_2026-08-16/` verifies the distinct-block
+construction on a bounded nonflat complete R17 family after an exact Cartan repair and replay. G112
+`udt_g112_full_differential_dual_sne_invariance_2026-08-16/` verifies fixed-P1 roundoff-level
+non-regression on Pantheon+ and DES under the declared conditional screen/transfer; it is not a
+one-history prediction.
+
+G113 `udt_g113_metric_native_orchestra_whiteboard_2026-08-16/` is the current synthesis. The local
+metric-native assembly is one full observer differential, not an appended scalar orchestra score.
+The static central spherical chord conditionally derives `phi_pair=phi` and `D_sky=r I`, but exact
+P1 inversion as a static spatial profile has invariant `1/r` center curvature. This exposes the
+null-cone-versus-static-profile category error without rejecting the empirical P1 chord. Physical
+time-live history, source intersection, transfer, and global network ownership remain open.
+
 ### What is running
 
 No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`.
@@ -47,53 +60,32 @@ The ignored evidence archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2
 
 ### Honest observational claim
 
-R2 is a `VERIFIED-WITH-CAVEATS` raw observer-coordinate atlas. R3 is
-`OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`: all 2,328 matrices and eight
-independent deletion anchors pass. NSIDE 4 is wholly rank-limited, NSIDE 8 is half full-rank, and
-NSIDE 16 is wholly full-rank. No preferred grid, feature, significance, physical scale, BAO origin,
-UDT response, CMB relation, cosmology, or `X_max` is claimed.
+R2 is `VERIFIED-WITH-CAVEATS`. R3 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`; all 2,328 matrices and eight
+independent deletion anchors pass. R4 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT`;
+the broad shape persists across 9,286 relations while detail and full covariance remain
+grid-dependent. R5 is
+`OBSERVED_VERIFIED_WITH_CAVEATS__ONE_DOMINANT_SHARED_DIRECTION__ADDITIONAL_SUBSPACE_ALIGNMENT_CONTROL_DEPENDENT__COVARIANCE_RANGE_PARTLY_UNRESOLVED`;
+one dominant direction survives, while 184,300 covariance-range rows remain unresolved. No preferred
+grid, feature, rank, significance, scale, BAO/UDT/CMB origin, cosmology, or `X_max` follows.
 
-R4 is
-`OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT`.
-Across all 9,286 typed relations, the broad complete-curve shape is highly persistent, while
-amplitude and fine structure vary. All-grid cap readouts show comparatively consistent diagonal
-scale but strongly grid-dependent full covariance quadratics. No individual feature, significance,
-physical scale, origin, or preferred grid follows.
-
-R5 is
-`OBSERVED_VERIFIED_WITH_CAVEATS__ONE_DOMINANT_SHARED_DIRECTION__ADDITIONAL_SUBSPACE_ALIGNMENT_CONTROL_DEPENDENT__COVARIANCE_RANGE_PARTLY_UNRESOLVED`.
-It finds one numerically dominant shared whole-curve direction plus additional subspace alignment
-whose strength depends on cap, aggregation, adjacency, weighting, and random-density relations.
-All spectra and all 3,555 all-rank overlaps are owned. Of 275,868 covariance-range-overlap rows,
-91,568 are owned and 184,300 remain explicitly unresolved. No reduced rank, individual feature,
-oscillation, angle, ruler, BAO origin, cosmology, UDT response, CMB relation, or `X_max` follows.
-
-R5 controlling closure records are `R5_OUTCOME_REPORT.md`, `R5_FINAL_STATUS.json`,
-`R5_VERIFICATION_RESULT.json`, `R5_EXTERNAL_FOLLOWUP_REVIEW.md`, and
-`R5_FINAL_EVIDENCE_MANIFEST.tsv` in the same package. Three disclosed method/verifier corrections
-preceded acceptance. A first external review blocked the covariance ownership schema; the
-preregistered repair passed independent verification and a fresh sealed review returned
-`VERIFIED_WITH_CAVEATS` with no remaining blocker.
-
-The exact parent closure routes remain `R3_OUTCOME_REPORT.md`, `R3_VERIFICATION_RESULT.json`,
-`R4_OUTCOME_REPORT.md`, and `R4_VERIFICATION_RESULT.json` in the same package.
-
-Controlling package:
-
-```text
-udt_observed_angular_pattern_raw_restart_2026-08-12/
-```
-
-After the bounded startup orientation, read its R2--R5 outcome reports, the current R5 closure
-records named above, `STATUS_LEDGER.tsv`, and exact executable evidence only when the requested task
-makes them load-bearing. The primary-method cross-check is
-`udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`.
+The controlling `udt_observed_angular_pattern_raw_restart_2026-08-12/` records are
+`R3_OUTCOME_REPORT.md`, `R3_VERIFICATION_RESULT.json`, `R4_OUTCOME_REPORT.md`,
+`R4_VERIFICATION_RESULT.json`, `R5_OUTCOME_REPORT.md`, `R5_VERIFICATION_RESULT.json`,
+`R5_EXTERNAL_FOLLOWUP_REVIEW.md`, and `R5_FINAL_EVIDENCE_MANIFEST.tsv`. All 194 cells have
+independent verification; the archive is
+`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. After orientation open only records
+made load-bearing by the task. Cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`.
 
 ### Honest theory claim
 
 The banked evaluator conditionally derives one complete pair metric and terminal reciprocal-`c_E`
 readout. G110 supplies distinct pair and sky-Jacobi blocks plus mixed compatibility from one full
-`dF`, without a same-`W` solder. Exact, independent, catch-proof, and blind-review gates pass.
+`dF`, without a same-`W` solder; G111 verifies that structure on a bounded nonflat family. G112
+preserves the frozen middle-regime chord but does not own its screen or transfer. G113 proves the
+bounded static spherical chord and its P1 smooth-center obstruction. Exact, independent,
+catch-proof, and adversarial gates pass within their stated scopes.
 
 Durable verified-with-caveats parents are:
 
@@ -124,7 +116,10 @@ draft, local pair-response package, or local G88 package without a specific disp
 
 ### Next bounded action
 
-Replay distinct pair/angular blocks and mixed compatibility on one nonflat analytic complete UDT metric; fit and select nothing.
+Follow G113 `NEXT_GATE.md`. First derive the no-solve common-source three-observer query contract:
+path-labelled rays, full Jacobi phase-space carry, separate terminal pair blocks, and explicit
+source/screen calibration. Then, and only then, run an outcome-blind regular time-live spherical
+jet census with both SNe outcomes sealed.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

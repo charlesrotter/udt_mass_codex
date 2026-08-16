@@ -36,20 +36,20 @@ is not July `mu_old`. G93 joins the complete evaluator, endpoint composition, ov
 fresh sealed review justifies a no-fit geometry-level SNe replay with caveats. Physical history and
 flux remain open; the independent implementation reuses the same three exact witnesses.
 
-The next internally verified overlap audit derives genuine simultaneous chart/seam/middle/Gram
-constraints. Charles caught that its first “fully live” counterfamilies actually fixed `Q,Y,Z`.
-The preregistered correction now supplies exact contribution-live flat, monotone, and
-loud-quiet-loud families near an exact control, with every complete block varying. Thus the desired pattern survives the
-complete orchestra, but activity supplies no physical score. Fresh review remains pending.
+The corrected overlap audit derives simultaneous chart/seam/middle/Gram constraints and exact
+contribution-live flat, monotone, and loud-quiet-loud families. The pattern survives the complete
+orchestra, but activity supplies no physical score; fresh review remains pending.
 
-A preregistered flux/luminosity ownership audit is now externally verified with caveats. On a supplied regular
-null/screen query, geometry fixes `d_G=Z d_A` and the clock factor, giving
-`F_o=L_Omega eta epsilon/(Z^3 d_A^2)`. The transfer product `eta epsilon` remains unselected under
-current source/action authority; `d_L=Z^2d_A` is a compatible conditional closure, not yet a native
-law. The review independently rebuilt the algebra and repaired only the character-family scope.
+A flux/luminosity audit externally verifies conditionally
+`F_o=L_Omega eta epsilon/(Z^3 d_A^2)`. The transfer `eta epsilon` remains unselected;
+`d_L=Z^2d_A` is compatible, not native.
 
-G95/G96 retain response, transport, and query bookkeeping but no physical radiative population.
-`epsilon=1/Z` needs a carrier-covector premise; physical `eta=1` remains open.
+G95/G96 retain no physical radiative population; `epsilon=1/Z` needs a carrier-covector premise and physical `eta=1` remains open.
+
+G110-G113 sharpen the local architecture: one full `dF` owns distinct pair and sky blocks; G111
+verifies a bounded nonflat replay; G112 preserves the conditional dual-SNe chord; G113 derives the
+static spherical chord but proves exact P1 static inversion has `1/r` center curvature. P1 remains
+a null-cone calibration; a regular time-live source/intersection realization is open.
 
 ## Premise memory
 
@@ -62,8 +62,7 @@ G95/G96 retain response, transport, and query bookkeeping but no physical radiat
 - Strong local CSN is inactive.
 - Carrier, action, source, matter, dynamics, and bootstrap selection remain posit/conditional/open.
 
-After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and
-sources.
+After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and sources.
 
 ## Current next gate
 
@@ -73,8 +72,9 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106-G107 type the projector and constant extension. G108's Jacobi algebra and G109's terminal depth survive. G110 derives one supplied point-observer full `dF` with distinct terminal-pair and sky-Jacobi blocks; the canonical null pair-screen projection has rank at most one. Physical history, query ownership, and global occupancy/weights remain open.
-Next replay those distinct blocks and their mixed compatibility on one nonflat analytic complete UDT metric; retain all branches and fit nothing.
+G106-G107 type the projector and constant extension. G108's Jacobi algebra and G109's terminal depth survive. G110 derives one supplied point-observer full `dF` with distinct terminal-pair and sky-Jacobi blocks; G111 verifies the nonflat bounded replay; G112 closes the fixed-shape dual-SNe non-regression gate; G113 exposes the null-cone/static-profile category error.
+Next type one common-source three-observer network with path-labelled rays, full Jacobi phase-space carry, separate terminal pair blocks, and explicit source/screen calibration. No solve or data. Then run the outcome-blind regular time-live spherical jet census described in G113 `NEXT_GATE.md`.
+
 ## Archive
 
 Verbose startup history is under `archive/startup_surface_2026-08-14/`; it is provenance only.

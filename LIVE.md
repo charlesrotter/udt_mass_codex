@@ -9,19 +9,9 @@ description.
 
 ### Active scientific lane — no-shortcut reciprocal kernel reconstruction
 
-The internally and externally verified, banked package
-`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` controls the theory frontier. A fresh
-sealed `gpt-5.4` adversary independently reproduced the load-bearing algebra and returned
-`VERIFIED_WITH_CAVEATS` with no blocking defect. Its preregistered landing is
-
-```text
-FULL_UNCOMPRESSED_TERMINAL_EVALUATOR_DERIVED
-__NO_SCALAR_MU_OWNED
-__PHYSICAL_PAIR_AND_HISTORY_OPEN
-```
-
-For a supplied complete coframe `E=[[B,0],[Q S,Q]]` and supplied regular pair realization
-`J=[Y;Z]`, it derives
+The externally `VERIFIED_WITH_CAVEATS` package
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` controls the evaluator. For supplied
+`E=[[B,0],[Q S,Q]]` and regular `J=[Y;Z]`, it derives
 
 ```text
 h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
@@ -29,19 +19,11 @@ phi_pair=(1/4)log[(-det h)/h00^2],
 c_eff^(pair)/c_E=(-h00)/sqrt(-det h)=exp(-2phi_pair).
 ```
 
-The exact live identity retains `dot B,dot Q,dot S,dot Y,dot Z` separately. Production symbolic,
-standalone Fraction replay, shrinking-step derivatives, hostile mutations, package verification,
-and repository tests (`90 passed, 1 xfailed`) pass.
-
-This confirms conditionally that the complete orchestra is assembled inside one pair metric before
-the terminal reciprocal-`c_E` readout. It does **not** construct the physical pair realization or
-history. The old Gram matrix `P` is sufficient for the zero-order A-calibrated pair metric, but it
-erases screen representatives and the distinction between four-component ambient mixing `S` and
-pair embedding. Holding `P` fixed supplies only a diagnostic, not a physical quiet-middle score.
-
-G93 externally joins G87/G89/G90/G92 as one coherent release-candidate kernel with caveats. Ambient
-and terminal arrows remain distinct; all `B,Q,S,Y,Z` channels enter before readout and `mu_lock` is
-never appended. A no-fit replay is justified; physical history and flux remain `OPEN`.
+The exact live identity retains all five derivatives. Symbolic, Fraction, shrinking-step, mutation,
+package, and repository gates pass. The orchestra is assembled before terminal readout; physical
+pair/history remain `OPEN`. Fixed Gram `P` is zero-order sufficient but erases attribution and is
+only diagnostic. G93 keeps ambient/terminal arrows distinct, all five channels upstream, and
+`mu_lock` unappended; physical history and flux remain open.
 
 G94 derives `F_o=L_Omega eta epsilon/(Z^3 d_A^2)` conditionally; G95/G96 retain only response,
 transport, and query bookkeeping. Physical `eta` and the carrier-covector premise remain open.
@@ -68,6 +50,25 @@ algebra. G110 `udt_observer_exponential_full_differential_type_audit_2026-08-16/
 point-observer relation from one full `dF`: its pair block owns `phi_pair`; its distinct angular block
 is the sky Jacobi map. The null pair-screen projection has rank at most one. Point-vertex data are
 fixed up to matched basis gauge; physical history, query ownership, and global weights remain open.
+
+G111 `udt_g111_nonflat_r17_full_differential_replay_2026-08-16/` is
+`BLIND_VERIFIED_WITH_REPAIRS`: the distinct pair, sky, and mixed blocks survive all 192 supplied
+nonflat R17 metric controls and 1,152 directions with nonzero curvature response, retained twist,
+and mostly nonzero cubic shear. This validates the evaluator, not R17 or a physical history.
+
+G112 `udt_g112_full_differential_dual_sne_invariance_2026-08-16/` is
+`BLIND_VERIFIED_WITH_CAVEATS`: retyping the frozen P1 chord changes Pantheon+ and DES predictions
+only at roundoff. This is fixed-shape non-regression under a conditional isotropic screen and
+transfer. Pantheon+ is the calibration set; DES retains its low-chi-square/effective-DOF warning.
+
+G113 `udt_g113_metric_native_orchestra_whiteboard_2026-08-16/` supplies the current synthesis. One
+full observer differential is the smallest local metric-native assembly; its typed pair, angular,
+mixed, shear, and transport readouts do not require an appended scalar score. On the precise static
+central spherical radial-null subclass, `phi_pair=phi` and `D_sky=r I` are derived conditionally.
+But exact P1 inversion as a static spatial profile has nonzero center slope and invariant `1/r`
+curvature, so the observed null-cone chord must not be promoted to a smooth static observer-centered
+metric. Physical time-live history, source intersection, transfer, and global relation ownership
+remain open.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS`: all 194 selections and 2,328 curves were independently reconstructed.
@@ -97,25 +98,12 @@ archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. The para
 is `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`; no published curve exactly matches
 the query, so published peaks remain quarantined.
 
-### Regraded predecessor — conditional fixed-Gram reciprocal response
+### Regraded predecessor
 
-The protected local unbanked package
-`udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/` derives, for one supplied
-complete A-calibrated pair relation,
-
-```text
-Pi = B^-T P B^-1,
-```
-
-whose reciprocal diagonal channels scale as `exp(+2phi)` and `exp(-2phi)`. Positive-definite loading
-has one strict intermediate trace minimum; the balanced diagnostic is proportional to `cosh(2phi)`.
-Internal exact, independent-rational, live-derivative, hostile-mutation, package, and repository
-checks pass.
-
-Its exact fixed-`P` convexity result remains a `CONDITIONAL_DIAGNOSTIC_ONLY`. The new uncompressed
-audit proves that `P` is sufficient for the zero-order pair metric but not for channel attribution,
-rotating screen motion, or physical history. No physical micro/middle/cosmological regime history,
-action, source, matter, bootstrap selection, SNe/CMB result, or `X_max` follows.
+The protected `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/` fixed-`P`
+convexity theorem remains `CONDITIONAL_DIAGNOSTIC_ONLY`. It neither retains live channel
+attribution nor selects a physical regime/history, action, source, matter, bootstrap, observation,
+or `X_max`.
 
 ### Durable structural parents
 
@@ -161,7 +149,11 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-On one nonflat analytic complete UDT metric, replay the distinct `dF` pair/angular blocks and mixed compatibility. Retain all branches and full `2x2` expansion/shear; fit and select nothing.
+Run the bounded G114 Phase-A derivation in G113 `NEXT_GATE.md`: type one common-source,
+three-observer network with path-labelled exponential preimages, full Jacobi phase-space carry,
+separate terminal pair blocks, and explicit source/screen calibration. No solve or data. Only after
+that contract is fixed may an outcome-blind regular time-live spherical jet census begin; SNe must
+remain sealed until its light-cone series are determined.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

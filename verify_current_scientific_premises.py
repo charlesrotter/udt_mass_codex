@@ -154,6 +154,9 @@ def validate_startup_surface(root: Path) -> None:
         require("G108" in block, f"G108 screen propagation result absent: {name}")
         require("G109" in block, f"G109 same-query depth join absent: {name}")
         require("G110" in block, f"G110 full-differential type correction absent: {name}")
+        require("G111" in block, f"G111 nonflat replay absent: {name}")
+        require("G112" in block, f"G112 dual-SNe replay absent: {name}")
+        require("G113" in block, f"G113 orchestra synthesis absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -171,6 +174,18 @@ def validate_startup_surface(root: Path) -> None:
         require(
             "udt_observer_exponential_full_differential_type_audit_2026-08-16/" in block,
             f"G110 package route absent: {name}",
+        )
+        require(
+            "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/" in block,
+            f"G111 package route absent: {name}",
+        )
+        require(
+            "udt_g112_full_differential_dual_sne_invariance_2026-08-16/" in block,
+            f"G112 package route absent: {name}",
+        )
+        require(
+            "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/" in block,
+            f"G113 package route absent: {name}",
         )
         require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
@@ -208,6 +223,9 @@ def validate_startup_surface(root: Path) -> None:
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/",
             "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/",
             "udt_observer_exponential_full_differential_type_audit_2026-08-16/",
+            "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/",
+            "udt_g112_full_differential_dual_sne_invariance_2026-08-16/",
+            "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/",
             "After orientation",
             "verify_current_scientific_premises.py",
         ),
@@ -228,6 +246,9 @@ def validate_startup_surface(root: Path) -> None:
             "G108",
             "G109",
             "G110",
+            "G111",
+            "G112",
+            "G113",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -238,6 +259,9 @@ def validate_startup_surface(root: Path) -> None:
             "G108",
             "G109",
             "G110",
+            "G111",
+            "G112",
+            "G113",
         ),
         "README.md": (
             "LIVE.md",
@@ -336,9 +360,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 97, "premise registry must contain exactly 97 rows")
+    require(len(rows) == 100, "premise registry must contain exactly 100 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 97, "duplicate premise id")
+    require(len(by_id) == 100, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1768,6 +1792,50 @@ def main() -> None:
         "G110_REFINES_G93_G98_G103_G107_G108_G109" in by_id["G110"]["precedence_rule"],
         "G110 precedence absent",
     )
+    require(
+        by_id["G111"]["current_status"].startswith(
+            "BLIND_VERIFIED_WITH_REPAIRS__G110_DISTINCT_PAIR_ANGULAR_AND_MIXED_BLOCKS_SURVIVE"
+        ),
+        "G111 nonflat replay status regressed or promoted",
+    )
+    require(by_id["G111"]["epistemic_label"] == "MIXED", "G111 label changed")
+    require("physical ownership of R17" in by_id["G111"]["open_scope"], "G111 R17 ownership promoted")
+    require("bounded 192 or 1152 census called all complete histories or skies" in by_id["G111"]["forbidden_regression"], "G111 bounded-scope guard absent")
+    require(
+        by_id["G111"]["controlling_source"]
+        == "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/AUDIT_REPORT.md",
+        "G111 source changed",
+    )
+    require(
+        by_id["G112"]["current_status"].startswith(
+            "BLIND_VERIFIED_WITH_CAVEATS__FIXED_P1_FULL_DIFFERENTIAL_RETYPE_BIT_LEVEL_NONREGRESSIVE"
+        ),
+        "G112 SNe nonregression status regressed or promoted",
+    )
+    require(by_id["G112"]["epistemic_label"] == "MIXED", "G112 label changed")
+    require("one complete metric and observer exponential jointly producing" in by_id["G112"]["open_scope"], "G112 one-F history promoted")
+    require("pointwise algebraic identity called an independent physical prediction" in by_id["G112"]["forbidden_regression"], "G112 regression-identity guard absent")
+    require("Pantheon called a holdout" in by_id["G112"]["forbidden_regression"], "G112 calibration guard absent")
+    require(
+        by_id["G112"]["controlling_source"]
+        == "udt_g112_full_differential_dual_sne_invariance_2026-08-16/AUDIT_REPORT.md",
+        "G112 source changed",
+    )
+    require(
+        by_id["G113"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__ONE_FULL_OBSERVER_DIFFERENTIAL_IS_THE_SMALLEST_LOCAL_ASSEMBLY"
+        ),
+        "G113 orchestra synthesis status regressed or promoted",
+    )
+    require(by_id["G113"]["epistemic_label"] == "MIXED", "G113 label changed")
+    require("physical complete time-live metric history" in by_id["G113"]["open_scope"], "G113 time-live history promoted")
+    require("observed P1 null-cone chord promoted to a smooth static spatial phi profile" in by_id["G113"]["forbidden_regression"], "G113 null-cone/static guard absent")
+    require("exact center singularity called rejection of P1 or UDT" in by_id["G113"]["forbidden_regression"], "G113 scoped-negative guard absent")
+    require(
+        by_id["G113"]["controlling_source"]
+        == "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/AUDIT_REPORT.md",
+        "G113 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1846,7 +1914,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G110-extended premise guards; PASS: 97-row premise "
+        "PASS: G113-extended premise guards; PASS: 100-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
