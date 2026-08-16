@@ -3,7 +3,8 @@ P1	complete coframe E	FREE_AND_EXPLORED_SYMBOLIC_INPUT	ambient evaluator	physica
 P2	two pair Jacobians J1 J2	FREE_AND_EXPLORED_REGULAR_INPUTS	observer-source realizations	selected physical pairs
 P3	common normalized observer clock	PINNED_BY_QUERY_SEMANTICS	one shared observer sky	global preferred congruence
 P4	terminal Zobs=exp(phi_pair)	OBSERVED_CONDITIONAL_G99	middle-regime redshift typing	universal source or dynamics law
-P5	pair ruler orthogonalization	CANDIDATE_DERIVED	observer direction readout	new physical mechanism
+P5	pair ruler orthogonalization	CANDIDATE_DERIVED_FROM_SUPPLIED_PAIR	unit positive pair direction	observed sky identification from metric alone
+P5b	pair ruler equals outward observed source direction	PINNED_BY_ORDERED_QUERY_SEMANTICS	catalog direction typing	metric theorem or global preferred orientation
 P6	BOSS RA DEC Z weights mask bins randoms	OBSERVED_FROZEN	measurement inputs	metric derivation or source law
 P7	Landy-Szalay	BORROWED_CATEGORY_A_ESTIMATOR	finite-sample angular statistic	UDT dynamics or acoustic physics
 P8	G99 radial chord	OBSERVED_CONDITIONAL_FROZEN	optional later history coordinate	direct angular-ruler insertion

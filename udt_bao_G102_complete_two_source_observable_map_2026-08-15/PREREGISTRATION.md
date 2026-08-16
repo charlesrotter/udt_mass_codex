@@ -55,6 +55,11 @@ cos(theta_12) = g(n_1,n_2),
 
 conditional on `u_1=u_2` in the common observer calibration.
 
+The normalized `n_a` is derived as the positive direction inside the supplied pair plane. Its
+identification with the catalogued source direction additionally requires the ordered query to
+declare the second channel as the observer-to-source ruler and to fix its outward sign. The metric
+does not infer that measurement convention from a bare pair plane.
+
 The exact pair counts and Landy--Szalay estimator will then be typed as a deterministic functional
 of the evaluated `(Zobs_a,n_a)` catalog, the frozen observational weights, mask/random catalog, and
 angular bins.
@@ -65,7 +70,8 @@ angular bins.
 - Common observer clock: `PINNED_BY_QUERY_SEMANTICS`; without it the two directions do not inhabit one
   observer sky.
 - `Zobs=exp(phi_pair)`: `OBSERVED_CONDITIONAL_G99` in the frozen middle regime.
-- Direction normalization and angle: candidate `DERIVED_FROM_COMPLETE_PAIR_VECTORS` to be checked.
+- Direction normalization: candidate `DERIVED_FROM_COMPLETE_PAIR_VECTORS`; identification and
+  outward orientation as the observed source direction: `PINNED_BY_ORDERED_QUERY_SEMANTICS`.
 - BOSS directions, redshifts, weights, masks, bins, and randoms: `OBSERVED` frozen measurement data.
 - Landy--Szalay: `BORROWED_CATEGORY_A_ESTIMATOR`, already primary-method cross-checked.
 - Source one- and two-point measures, selection/transfer, branch weights: `OPEN`.
@@ -85,18 +91,19 @@ pattern value may enter code or algebra.
 
 1. `C-TYPE`: `u_a` is unit timelike and `n_a` is unit spacelike orthogonal to `u_a`.
 2. `C-COMMON`: a joint sky angle is legal only when the normalized observer clocks agree.
-3. `C-GAUGE`: `n_a` and `theta_12` are invariant under positive clock rescaling and positive ruler
+3. `C-ORIENT`: the observed source direction is not claimed without ordered outward query orientation.
+4. `C-GAUGE`: `n_a` and `theta_12` are invariant under positive clock rescaling and positive ruler
    rescaling plus clock shift of each pair column.
-4. `C-FRAME`: common Lorentz/coframe changes leave `phi_a` and `theta_12` invariant.
-5. `C-PAIR`: one observer--source scalar cannot produce the two-source angular statistic.
-6. `C-EST`: normalized `DD`, `DR`, `RR`, and Landy--Szalay are reconstructed from a synthetic catalog
+5. `C-FRAME`: common Lorentz/coframe changes leave `phi_a` and `theta_12` invariant.
+6. `C-PAIR`: one observer--source scalar cannot produce the two-source angular statistic.
+7. `C-EST`: normalized `DD`, `DR`, `RR`, and Landy--Szalay are reconstructed from a synthetic catalog
    without reading observational outcomes.
-7. `C-BRANCH`: the continuous formulation must be a pushforward of one- and two-point source measures
+8. `C-BRANCH`: the continuous formulation must be a pushforward of one- and two-point source measures
    and must remain meaningful for multiple branches; an injective Jacobian formula may appear only as
    a reduction.
-8. `C-IDENT`: if the source pair measure/selection is unrestricted, no unique predicted angular curve
+9. `C-IDENT`: if the source pair measure/selection is unrestricted, no unique predicted angular curve
    may be claimed from the evaluator alone.
-9. `C-NOIMPORT`: no ruler, `X_max`, acoustic origin, Lambda-CDM distance, G99 refit, or observed feature
+10. `C-NOIMPORT`: no ruler, `X_max`, acoustic origin, Lambda-CDM distance, G99 refit, or observed feature
    enters the derivation.
 
 ## Certification ceiling
@@ -105,6 +112,7 @@ Maximum permitted landing:
 
 ```text
 COMPLETE_TWO_SOURCE_OBSERVABLE_EVALUATOR_DERIVED
+__DIRECTION_IDENTIFICATION_QUERY_OWNED
 __PHYSICAL_HISTORY_AND_SOURCE_PAIR_MEASURE_OPEN
 ```
 
