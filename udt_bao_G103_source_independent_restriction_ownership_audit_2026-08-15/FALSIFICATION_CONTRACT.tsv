@@ -1,0 +1,11 @@
+check_id	claim_under_test	pass_condition	failure_consequence
+F01	zero-order local target reconstruction	E*E^-1*V equals V exactly for generic rational invertible E and regular V	narrow or reject local surjection
+F02	first-jet local target reconstruction	dot(EJ) equals arbitrary dot V exactly	narrow or reject first-jet surjection
+F03	arbitrary common-sky pair angle	construct exact unit directions with prescribed rational cosine	identify missing sky restriction
+F04	finite sky Gram condition	all valid witnesses PSD diag one rank<=3 and hostile rank4 rejected	correct Gram classification
+F05	arbitrary positive star depth composition	Z_ij Z_jk=Z_ik and Z_ji=1/Z_ij exactly	identify endpoint-network restriction
+F06	fixed-base reachability scope	conditional inequality replays and fails to survive released coordinated J without extra premise	retain or revise C02
+F07	observable-measure multiplicity	at least three distinct symmetric pair histograms satisfy all local support conditions	identify hidden pair-measure restriction
+F08	outcome blindness	zero protected or R2-R5 outcome path opened by executable scripts	invalidate audit on breach
+F09	hostile mutations	each registered mutation triggers its named guard	verifier not adequate
+F10	conclusion scope	global critical topology bootstrap and physical source/history remain open	withdraw overclaim

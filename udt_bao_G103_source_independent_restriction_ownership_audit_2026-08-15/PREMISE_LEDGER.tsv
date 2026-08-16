@@ -1,0 +1,17 @@
+premise_id	item	status	role_or_scope	forbidden_promotion
+P01	complete coframe E=[[B,0],[QS,Q]]	CONDITIONAL	supplied regular local metric chart	physical history or equation of motion
+P02	pair Jacobian J=[Y;Zeta]	CONDITIONAL	supplied regular observer-query realization	metric-selected physical relation
+P03	complete pullback h=J^T E^T eta E J	DERIVED	exact evaluator	selection law
+P04	common observer clock	PINNED_BY_QUERY_SEMANTICS	places directions in one observer sky	preferred global congruence
+P05	outward ruler orientation	PINNED_BY_QUERY_SEMANTICS	identifies normalized ruler with catalog direction	metric-derived sign convention
+P06	Zobs=exp(DeltaPhi_pair)	OBSERVED_CONDITIONAL_G99	middle-regime endpoint carry	observer-local h or universal history law
+P07	source one- and two-point measures	FREE_AND_EXPLORED	arbitrary positive finite measures subject to generic consistency	fitted physical source law
+P08	selection transfer and branch weights	FREE_AND_EXPLORED	kept arbitrary	derived branch population
+P09	fixed-base PSD reachability	DERIVED_CONDITIONAL	same calibrated base and positive Gram addition only	universal restriction across released J/history
+P10	endpoint composition and reversal	DERIVED_CONDITIONAL	on one supplied coherent calibration family	physical family selector
+P11	joint ambient Gram rank/inertia	DERIVED	simultaneous local tangent collections	live history or angular-correlation prediction
+P12	BOSS outcomes	SEALED_EXCLUDED	no curve descriptor covariance feature or singular vector read	calibration or target
+P13	Lambda-CDM acoustic scale standard ruler	EXCLUDED	no interpretive or distance import	UDT derivation
+P14	X_max	OPEN_EXCLUDED	no value or realization used	wall ruler or selector
+P15	bootstrap source action matter	OPEN_INACTIVE	future possible joint owner	current restriction
+P16	global singular critical cut-locus strata	OPEN_NOT_COVERED	explicit conclusion boundary	local result generalized globally
