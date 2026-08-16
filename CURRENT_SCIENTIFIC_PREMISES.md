@@ -43,7 +43,7 @@ Controlling sources: G04, G05, G06, G14.
 - G110 derives distinct pair/sky blocks of one full `dF`; G111 verifies bounded nonflat survival.
 - G113 identifies `dF` as the local assembly; G114 derives common-source phase composition; G115
   derives the regular central jet; G116 joins terminal depth and source frequency coefficient-free.
-  G117 preserves SNe numerics while removing their universal identification on live queries.
+  G117 preserves SNe numerics; G118 removes an independent P1 screen pin only in banked static/two-jet scopes.
 - Exact endpoint chord composition on a shared calibrated family is verified with caveats. It does
   not select a universal path, global family, or dynamics.
 
@@ -96,7 +96,7 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   proves bounded nonflat survival; G112 verifies conditional dual-SNe non-regression.
 - G113's static chord exposes P1's `1/r` center obstruction; G114's full phase carry survives
   caustics; G115 derives the time-live central jet; G116 derives its invariant frequency/terminal
-  junction; G117 retypes frozen SNe to release frequency/screen without selecting history or transfer.
+  junction; G117 retypes SNe; G118 reduces the screen interface without selecting history or transfer.
 - Overlapping-pair compatibility is internally `VERIFIED-WITH-CAVEATS`; corrected contribution-live
   flat, monotone, and loud-quiet-loud lifts survive, but activity selects no score.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict

@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "all_16_source_hashes": true,
+    "category_tsv_rectangular": true,
+    "dependency_tsv_rectangular": true,
+    "hostile_signed_determinant_rejected": true,
+    "interface_fiber_invariant": true,
+    "orientation_reversing_absolute_determinant": true,
+    "orthogonal_screen_determinant": true,
+    "p1_sqrt_Z_retyping": true,
+    "scaffolding_tsv_rectangular": true,
+    "transparent_transfer_returns_Z2R": true
+  },
+  "scope": "finite-dimensional synthesis checks only; does not prove the proposed finite-radius time-live spherical Jacobi theorem",
+  "source_hashes": {
+    "udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md": true,
+    "udt_complete_reciprocal_representation_extension_census_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md": true,
+    "udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md": true,
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md": true,
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md": true,
+    "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g114_common_source_three_observer_network_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/EXACT_DERIVATION.md": true,
+    "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/EXACT_DERIVATION.md": true,
+    "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/EXACT_DERIVATION.md": true,
+    "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md": true,
+    "udt_observer_exponential_full_differential_type_audit_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md": true
+  },
+  "status": "PASS"
+}

@@ -63,21 +63,19 @@ the observed chord is null-cone data, not a derived smooth static profile.
 
 G114 `udt_g114_common_source_three_observer_network_2026-08-16/` derives affine-aware source-phase
 composition and caustic survival; loop closure does not force point-observer beam alignment. G115
-`udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/` is blind
-`VERIFIED_WITH_CAVEATS` after repairs: modulo residual areal-time slicing, terminal/areal depth is
-`O(R^2)` while a supplied source congruence permits the invariant frequency term
-`log(omega_s/omega_o)=(b-q)R+O(R^2)`. Active instrument sky drift enters before fixed-label readout;
-passive relabeling is gauge. QW needs a zero-order phase-point match before tangent rank. Physical
-history, source transfer, and global branch remain open. G116
+`udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/` is blind verified: its
+regular central jet separates quadratic terminal/areal depth from permitted linear source frequency;
+active sky carry precedes fixed-label readout. History, transfer, and global branch remain open. G116
 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` is blind
 `VERIFIED_WITH_CAVEATS` after scope repairs. It derives, without a fit coefficient,
 `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`, where `zeta=log(omega_s/omega_o)`,
-`v_rel=b-q`, and `A_opt=2ell+2n+dot(b)`. The pure stationary reduction gives
-`zeta=phi_pair=-log(c_eff/c_E)/2`; generic live queries retain distinct channels and no selected
-mixture. G117 `udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/` is blind
-`VERIFIED_WITH_CAVEATS`: conditional release-coordinate retyping preserves frozen Pantheon+/DES P1
-numerics, while the likelihood cannot identify terminal `phi_pair` or G116 coefficients. G94's old
-`Z=exp(phi_pair)` shortcut is superseded; its Wronskian/clock algebra survives.
+`v_rel=b-q`. The stationary reduction gives `zeta=phi_pair=-log(c_eff/c_E)/2`; live queries differ.
+G117 `udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/` preserves frozen Pantheon+/DES
+numerics under conditional release-coordinate retyping but identifies no terminal depth or history.
+G118 `udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/` is blind
+`VERIFIED_WITH_CAVEATS`: one full `dF` owns the local assembly; independent P1 screen-matrix shape is
+removed only in banked static/central-two-jet scopes. SNe constrains an effective chord involving
+`R/sqrt(T)`, not `R` or transfer `T` separately. Finite-radius time-live proof is G119.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -160,8 +158,8 @@ in a clean clone does not mean the protected payload was banked; inspect Git sta
 repository and preserve every local file.
 
 ### Immediate next action
-Follow G117 `NEXT_GATE.md`: run a fresh multiagent scaffolding-removal whiteboard across the founding
-character through G117. Return one dependency map and one bounded derivation—not a fitted history.
+Follow G118 `NEXT_DERIVATION.md`: prove the exact finite-radius time-live spherical screen theorem
+`D_sky=R O` and its basis-free determinant; do not select transfer, history, or data outcomes.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

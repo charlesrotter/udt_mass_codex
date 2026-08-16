@@ -1,0 +1,15 @@
+identification	grade	exact_breaker_or_condition
+supplied delta equals pointwise phi	FALSE_UNIVERSALLY	factorization shift changes phi while preserving complete coframe
+delta equals terminal phi_pair	CONDITIONAL_ONLY	requires supplied calibrated pair realization
+pointwise phi equals terminal phi_pair	FALSE_GENERALLY	exact only on declared reductions
+phi_pair equals direct frequency zeta	FALSE_GENERALLY	G115 permits linear zeta and quadratic phi_pair
+release log one plus z equals direct zeta	OBSERVED_CONDITIONAL	processed release coordinate slot adoption
+c_eff ratio equals frequency ratio squared inverse	CONDITIONAL_ONLY	requires zeta equals phi_pair
+pair-screen block equals D_sky	FALSE	flat catch proof ranks zero versus two
+D_sky equals full Jacobi carrier	FALSE	position block vanishes at caustic while phase carrier remains invertible
+D_sky equals d_A	FALSE_AS_TYPES	d_A squared equals absolute determinant only
+d_A equals d_L	FALSE_WITHOUT_TRANSFER	d_L squared equals Z cubed d_A squared over T
+query equals realization	FALSE	query can admit branch-labelled realizations
+realization equals branch	FALSE	realization may contain branch atlas
+local or observed chord equals complete history	FALSE	P1 static center promotion is singular
+interface fiber equals metric gauge	FALSE	it is inverse nonidentifiability and realizability is separate

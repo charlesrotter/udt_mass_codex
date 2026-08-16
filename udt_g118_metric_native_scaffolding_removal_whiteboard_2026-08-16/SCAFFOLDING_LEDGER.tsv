@@ -1,0 +1,21 @@
+item	classification	disposition	remaining_scope
+independent local orchestra score	REPRESENTATION_SCAFFOLDING	REMOVE_ON_POINT_OBSERVER_LOCAL_ASSEMBLY	use g F dF and typed blocks
+independent arbitrary point-vertex Jacobi map	REPRESENTATION_SCAFFOLDING	REMOVE_ON_POINT_OBSERVER_LOCAL_ASSEMBLY	use angular differential of F
+literal pair-screen equals sky-Jacobi solder	CATEGORY_ERROR	REMOVE	blocks share owner but differ in type and rank
+G107 constant aI plus b epsilon as physical score	DIAGNOSTIC_ONLY	REMOVE_FROM_ACTIVE_INTERFACE	field-dependent phase transport remains
+Riccati or inverse D as global carrier	LOCAL_CHART	REPLACE	use full Jacobi phase carrier through caustics
+source-normalized Q plus Q junction	SPECIAL_CALIBRATION	REPLACE	use affine-aware conformally symplectic junction
+individual n ell b q as invariants	GAUGE_REPRESENTATIVES	REMOVE	use phi_pair v_rel dot_v_rel and A_opt
+universal alpha mixture of zeta and phi_pair	UNSELECTED_CHARACTER	REMOVE	query requests typed channel
+universal phi_pair equals zeta	CATEGORY_ERROR	REMOVE	pure stationary reciprocal reduction only
+universal c_eff over c_E equals Z minus 2	CATEGORY_ERROR	REMOVE	terminal pair relation only when zeta equals phi_pair
+P1 independent isotropic 2 by 2 screen matrix	CONDITIONAL_ANSATZ	REMOVE_IN_BANKED_STATIC_AND_CENTRAL_TWO_JET_SCOPES	D_sky=R O; finite-radius time-live theorem open
+P1 scalar effective chord	OBSERVED_CONDITIONAL_PIN	RETYPE	Lambda=R/sqrt(Z T); not selected history
+transparent transfer T=1/Z	PHYSICAL_TRANSFER_PREMISE	KEEP_CONDITIONAL	metric counterfamily proves nonselection
+release coordinate equals direct frequency	OBSERVED_QUERY_PIN	KEEP_CONDITIONAL	data semantics not geometry theorem
+active fixed-label versus quotient readout	QUERY_CHOICE	IRREDUCIBLE	passive relabeling alone is gauge
+point-observer exponential protocol	QUERY_CHOICE	IRREDUCIBLE_AT_CURRENT_TYPE	other source boundary queries inequivalent
+source state luminosity occupancy polarization	SOURCE_DATA	IRREDUCIBLE_AT_CURRENT_TYPE	not owned by metric evaluator
+central spherical symmetry and radial branch	BOUNDED_ANSATZ	KEEP_VISIBLE	nonspherical off-center and finite-beam sectors open
+G115 two-jet truncation	LOCAL_SCOPE	KEEP_VISIBLE	finite-radius and global continuation open
+physical complete history	OPEN_PHYSICS_OWNER	NOT_SCAFFOLDING	needs native admissibility or dynamics

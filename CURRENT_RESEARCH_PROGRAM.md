@@ -125,6 +125,7 @@ observed-redshift junction remain open.
 G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` derives the missing local junction without a coefficient:
 `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`. Its pure stationary reduction is exact; generic live queries retain distinct channels. G117 preserves frozen P1 dual-SNe numerics under conditional release-coordinate retyping but cannot identify terminal depth or G116 coefficients.
 
+G118 removes the independent P1 screen-matrix pin only in banked static/central-two-jet scopes: one full `dF` owns local geometry, while SNe constrains a conditional effective chord involving `R/sqrt(T)`. Transfer, history, and the finite-radius time-live theorem remain open.
 ## Macro observational anchors
 
 - G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
@@ -135,7 +136,6 @@ G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` derives 
   select a physical profile, source covariance, global scale, `X_max`, or observed spectrum.
 
 Observations may later falsify or constrain an owned joint law; they do not currently derive one.
-
 ## `X_max` lane
 
 `X_max` is the working frame-shared observer-pair positional-dilation asymptote. The exact
@@ -163,7 +163,7 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Follow G117 `NEXT_GATE.md`: run a fresh multiagent scaffolding-removal whiteboard and return one dependency-reduction map plus one bounded metric-led derivation.
+Follow G118 `NEXT_DERIVATION.md`: prove the exact finite-radius time-live spherical `D_sky=R O` theorem and determinant, without selecting transfer or history.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

@@ -55,14 +55,14 @@ blind `VERIFIED_WITH_CAVEATS` after repairs: modulo residual areal-time slicing,
 depth is quadratic while a supplied source congruence permits invariant linear frequency `b-q`.
 Active instrument sky carry can enter fixed-label depth; passive relabeling cannot. Boundary ranks
 require zero-order phase matching. Physical history and observed-redshift identification stay open.
-G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` is blind
-`VERIFIED_WITH_CAVEATS` after scope repairs. It derives the coefficient-free local junction
-`zeta=phi_pair+(b-q)R+[(dot b-dot q)-(2ell+2n+dot b)/4]R^2+O(R^3)`; the stationary pure reciprocal
-branch gives `zeta=phi_pair=-log(c_eff/c_E)/2`, while live queries differ. G117
-`udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/` is blind `VERIFIED_WITH_CAVEATS`:
-release-coordinate retyping preserves frozen Pantheon+/DES numerics, but cannot identify terminal
-depth or G116 coefficients. G94's terminal/frequency shortcut is superseded.
-
+G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` derives the coefficient-free
+local frequency/depth junction; its stationary pure reciprocal branch agrees exactly while live
+queries differ. G117 `udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/` preserves frozen
+Pantheon+/DES numerics under conditional release-coordinate retyping but selects no terminal depth or history. G118
+`udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/` is blind
+`VERIFIED_WITH_CAVEATS`: full `dF` owns the local geometry; the independent P1 screen matrix is
+removed only in banked static/central-two-jet scopes. SNe constrains effective `R/sqrt(T)` shape,
+not radius or transfer separately; finite-radius time-live proof remains G119.
 ### What is running
 
 No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`.
@@ -125,6 +125,6 @@ Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopp
 draft, local pair-response package, or local G88 package without a specific dispatch. Preserve all other unrelated dirt. A clean clone may show a tracked directory shell without the protected local payload; directory presence is not evidence that the unbanked work was committed.
 
 ### Next bounded action
-Follow G117 `NEXT_GATE.md`: fresh multiagent scaffolding-removal whiteboard, then one bounded derivation; do not fit or invent a history.
+Follow G118 `NEXT_DERIVATION.md`: finite-radius time-live spherical `D_sky=R O` theorem; no fit or history selection.
 Historical detail is archived under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->
