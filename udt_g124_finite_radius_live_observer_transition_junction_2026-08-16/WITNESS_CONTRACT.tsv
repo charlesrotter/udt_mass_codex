@@ -1,0 +1,7 @@
+witness_id	inputs	required_result
+F0_FLAT	A=1;s=1;source_ratio=1	kappa=phi=zeta=chi=0;beta=1
+F1_RATIONAL	A=3/4;s=25/16;source_ratio=6/5	kappa=log(5/4);phi=log(5/3);zeta=log(8/5);beta=25/9
+F2_ORIENTATION	A=3/4;s=-25/16;source_ratio=6/5	same kappa phi zeta;beta=-25/9
+F3_TURNING	K_R->0;A finite;source_ratio finite	phi and kappa diverge together;phi-kappa finite
+F4_G116_SERIES	phi=p2R2;kappa=AoptR2/4;chi=vR+vdotR2	zeta=phi+vR+(vdot-Aopt/4)R2
+F5_SCREEN	D_sky=R O;theta=2K_R/R	kappa=-log(abs(R theta/2))/2
