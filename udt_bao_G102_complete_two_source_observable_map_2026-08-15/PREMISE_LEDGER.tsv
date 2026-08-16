@@ -2,7 +2,7 @@ id	item	status	role	forbidden_promotion
 P1	complete coframe E	FREE_AND_EXPLORED_SYMBOLIC_INPUT	ambient evaluator	physical history
 P2	two pair Jacobians J1 J2	FREE_AND_EXPLORED_REGULAR_INPUTS	observer-source realizations	selected physical pairs
 P3	common normalized observer clock	PINNED_BY_QUERY_SEMANTICS	one shared observer sky	global preferred congruence
-P4	terminal Zobs=exp(phi_pair)	OBSERVED_CONDITIONAL_G99	middle-regime redshift typing	universal source or dynamics law
+P4	terminal Zobs=exp(DeltaPhi_pair)	OBSERVED_CONDITIONAL_G99_WITH_PAIR_ENDPOINT_CARRY	middle-regime redshift typing	observer-local h silently used as accumulated depth
 P5	pair ruler orthogonalization	CANDIDATE_DERIVED_FROM_SUPPLIED_PAIR	unit positive pair direction	observed sky identification from metric alone
 P5b	pair ruler equals outward observed source direction	PINNED_BY_ORDERED_QUERY_SEMANTICS	catalog direction typing	metric theorem or global preferred orientation
 P6	BOSS RA DEC Z weights mask bins randoms	OBSERVED_FROZEN	measurement inputs	metric derivation or source law
@@ -12,3 +12,4 @@ P9	source one/two-point measures	OPEN	predictive population input	geometry-deriv
 P10	selection transfer and branch weights	OPEN	catalog population map	native flux or carrier law
 P11	Xmax standard ruler acoustic scale LambdaCDM	EXCLUDED	none	BAO map input
 P12	R2-R5 curve and descriptor artifacts	SEALED_FOR_G102	holdout	map-design input
+P13	observer-endpoint V and terminal DeltaPhi	SEPARATELY_TYPED_ON_SAME_SUPPLIED_PAIR_RELATION	join direction and redshift	one local matrix presumed to own both
