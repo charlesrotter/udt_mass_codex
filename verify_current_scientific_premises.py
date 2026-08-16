@@ -157,6 +157,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G111" in block, f"G111 nonflat replay absent: {name}")
         require("G112" in block, f"G112 dual-SNe replay absent: {name}")
         require("G113" in block, f"G113 orchestra synthesis absent: {name}")
+        require("G114" in block, f"G114 common-source network absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -186,6 +187,10 @@ def validate_startup_surface(root: Path) -> None:
         require(
             "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/" in block,
             f"G113 package route absent: {name}",
+        )
+        require(
+            "udt_g114_common_source_three_observer_network_2026-08-16/" in block,
+            f"G114 package route absent: {name}",
         )
         require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
@@ -226,6 +231,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/",
             "udt_g112_full_differential_dual_sne_invariance_2026-08-16/",
             "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/",
+            "udt_g114_common_source_three_observer_network_2026-08-16/",
             "After orientation",
             "verify_current_scientific_premises.py",
         ),
@@ -249,6 +255,7 @@ def validate_startup_surface(root: Path) -> None:
             "G111",
             "G112",
             "G113",
+            "G114",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -262,6 +269,7 @@ def validate_startup_surface(root: Path) -> None:
             "G111",
             "G112",
             "G113",
+            "G114",
         ),
         "README.md": (
             "LIVE.md",
@@ -360,9 +368,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 100, "premise registry must contain exactly 100 rows")
+    require(len(rows) == 101, "premise registry must contain exactly 101 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 100, "duplicate premise id")
+    require(len(by_id) == 101, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1836,6 +1844,22 @@ def main() -> None:
         == "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/AUDIT_REPORT.md",
         "G113 source changed",
     )
+    require(
+        by_id["G114"]["current_status"].startswith(
+            "BLIND_VERIFIED_WITH_CAVEATS__COMMON_SOURCE_FULL_PHASE_NETWORK_DERIVED_CONDITIONALLY"
+        ),
+        "G114 network status regressed or promoted",
+    )
+    require(by_id["G114"]["epistemic_label"] == "MIXED", "G114 label changed")
+    require("physical complete time-live metric history" in by_id["G114"]["open_scope"], "G114 history promoted")
+    require("physical matched-beam condition" in by_id["G114"]["open_scope"], "G114 source matching promoted")
+    require("identity full-phase loop called physical beam alignment" in by_id["G114"]["forbidden_regression"], "G114 beam-alignment guard absent")
+    require("Q direct sum Q used without affine frequency calibration" in by_id["G114"]["forbidden_regression"], "G114 affine guard absent")
+    require(
+        by_id["G114"]["controlling_source"]
+        == "udt_g114_common_source_three_observer_network_2026-08-16/AUDIT_REPORT.md",
+        "G114 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1914,7 +1938,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G113-extended premise guards; PASS: 100-row premise "
+        "PASS: G114-extended premise guards; PASS: 101-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

@@ -1,0 +1,22 @@
+{
+  "guards": {
+    "all_source_hashes": true,
+    "beam_compatibility_explicit": true,
+    "blind_followup_pass": true,
+    "caustic_scope": true,
+    "fresh_independent_exactly_matches_saved": true,
+    "fresh_symbolic_exactly_matches_saved": true,
+    "history_open": true,
+    "independent_pass": true,
+    "no_missing_files": true,
+    "no_signalling_claim": true,
+    "premise_ledger_open_slots": true,
+    "scalar_reduction_conditional": true,
+    "source_transfer_open": true,
+    "symbolic_pass": true
+  },
+  "manifest_rows": 14,
+  "missing": [],
+  "preregistration_commit": "38f7b665",
+  "status": "PASS"
+}

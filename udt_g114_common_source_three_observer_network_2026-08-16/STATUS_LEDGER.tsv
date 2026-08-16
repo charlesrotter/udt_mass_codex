@@ -1,0 +1,15 @@
+claim	status	scope	caveat
+one_full_phase_carrier_per_ray	DERIVED_CONDITIONALLY	smooth supplied Jacobi branch	physical history and query unselected
+phase_symplecticity	DERIVED	symmetric optical tidal operator	ordinary smooth Jacobi IVP
+phase_invertibility_at_caustic	DERIVED	ordinary Jacobi caustic	position block may be singular
+source_sky_bundle_and_connection	DERIVED_CONDITIONALLY	supplied source worldline tangent	comparison path not selected
+carried_edge_formula	DERIVED_CONDITIONALLY	correctly typed source junction	mathematical comparison not signalling
+observer_loop_source_holonomy	DERIVED_CONDITIONALLY	three composable junctions	conjugacy not scalar reduction
+common_trivialization_identity_loop	DERIVED_CONDITIONALLY	one supplied common source frame	no global celestial trivialization claim
+beam_intersection_rank	DERIVED_CONDITIONALLY	point-observer vertex planes and source junction	physical matching requires source boundary semantics
+generic_zero_intersection_witness	OBSERVED_EXACT	registered rational control	not a metric-history census
+aligned_rank_two_witness	OBSERVED_EXACT	registered rational control	proves nonempty conditional stratum only
+terminal_phi_network_cocycle	OPEN_OR_CONDITIONAL	common reciprocal local system required	three readable scalars alone do not close it
+physical_history_selection	OPEN	all histories	no selector derived
+source_transfer_selection	OPEN	all sources	sealed from audit
+time_live_spherical_realization	OPEN	regular central histories	G115 proposed

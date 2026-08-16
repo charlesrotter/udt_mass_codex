@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "aligned_beam_control_exists": true,
+    "caustic_phase_invertible": true,
+    "caustic_phase_symplectic": true,
+    "caustic_position_numerically_zero": true,
+    "common_loop_identity": true,
+    "generic_full_loop_does_not_force_beam_alignment": true,
+    "holonomy_conjugacy": true,
+    "holonomy_nonidentity": true,
+    "junction_descent": true,
+    "phase_determinants_one": true,
+    "phase_symplectic": true,
+    "reversal": true,
+    "unequal_source_frequency_junctions_conformally_symplectic": true,
+    "unequal_source_frequency_loop_identity": true
+  },
+  "generic_vertex_image_intersection_dimensions": {
+    "AC": 0,
+    "BA": 0,
+    "CB": 0
+  },
+  "independent_caustic": {
+    "phase_determinant": 1.0000000000000027,
+    "position_block_scalar": -1.221191116979048e-15,
+    "steps": 8192,
+    "symplectic_defect_max": 1.3322676295501878e-15
+  },
+  "status": "PASS"
+}

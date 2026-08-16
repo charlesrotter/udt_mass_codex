@@ -118,6 +118,10 @@ differential as the local assembly. Its static central spherical subclass derive
 and `D_sky=r I`, but exact P1 static inversion has invariant `1/r` center curvature. The chord is
 null-cone data, not a derived smooth static profile; regular time-live realization remains open.
 
+G114 `udt_g114_common_source_three_observer_network_2026-08-16/` derives the affine-aware typed
+phase network and caustic survival. Observer-loop holonomy is source-junction holonomy up to
+conjugacy; beam-intersection rank is compatible geometry, not physical selection.
+
 ## Macro observational anchors
 
 - G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
@@ -155,11 +159,10 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Follow G113 `NEXT_GATE.md`. First type one common-source, three-observer network with path-labelled
-exponential preimages, full Jacobi phase-space carry, separate terminal pair blocks, and explicit
-source/screen calibration. This is a no-solve gate. Then run an outcome-blind regular time-live
-spherical jet census under that frozen query contract. Do not open Pantheon+ or DES until the
-forward light-cone series are fixed.
+Follow G114 `NEXT_GATE.md`: freeze point-event, resolved-screen, and source-worldtube boundary
+queries separately, then run the outcome-blind regular time-live spherical jet census with every
+phase, pair, mixed, caustic, and beam-intersection stratum live. Keep SNe sealed until the forward
+light-cone series are fixed.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

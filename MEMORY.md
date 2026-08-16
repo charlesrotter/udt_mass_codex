@@ -46,10 +46,9 @@ A flux/luminosity audit externally verifies conditionally
 
 G95/G96 retain no physical radiative population; `epsilon=1/Z` needs a carrier-covector premise and physical `eta=1` remains open.
 
-G110-G113 sharpen the local architecture: one full `dF` owns distinct pair and sky blocks; G111
-verifies a bounded nonflat replay; G112 preserves the conditional dual-SNe chord; G113 derives the
-static spherical chord but proves exact P1 static inversion has `1/r` center curvature. P1 remains
-a null-cone calibration; a regular time-live source/intersection realization is open.
+G110-G114 sharpen the architecture: one full `dF` owns pair/sky blocks; G111 verifies nonflat
+survival; G112 preserves the conditional SNe chord; G113 exposes P1's static-center error; G114
+derives affine-aware source loops and beam-intersection compatibility without physical selection.
 
 ## Premise memory
 
@@ -72,8 +71,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106-G107 type the projector and constant extension. G108's Jacobi algebra and G109's terminal depth survive. G110 derives one supplied point-observer full `dF` with distinct terminal-pair and sky-Jacobi blocks; G111 verifies the nonflat bounded replay; G112 closes the fixed-shape dual-SNe non-regression gate; G113 exposes the null-cone/static-profile category error.
-Next type one common-source three-observer network with path-labelled rays, full Jacobi phase-space carry, separate terminal pair blocks, and explicit source/screen calibration. No solve or data. Then run the outcome-blind regular time-live spherical jet census described in G113 `NEXT_GATE.md`.
+G106-G109 type projector, extension, Jacobi, and depth. G110-G113 derive distinct full-`dF` blocks, nonflat survival, SNe non-regression, and the static-profile correction. G114 closes the typed source network but leaves source matching open.
+Next freeze separate source-boundary queries, then run the blinded regular time-live spherical jet census in G114 `NEXT_GATE.md`.
 
 ## Archive
 

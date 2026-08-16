@@ -1,0 +1,28 @@
+object_or_claim	type_or_status	owner	meaning
+g	SUPPLIED	query/history	Smooth time-oriented Lorentz metric; not physically selected
+z_i,u_i	SUPPLIED_QUERY	observer query	Three calibrated observer worldlines
+k_i(tau,n)	SUPPLIED_QUERY	observer query	Time-dependent celestial trivializations
+s,U_s	SUPPLIED_QUERY	source query	Marked source event and source rest tangent when a worldline is supplied
+B_i(s)	METRIC_DERIVED_CONDITIONALLY	g plus query	Complete path-labelled exponential preimage set
+dF_i	METRIC_DERIVED_CONDITIONALLY	g plus branch	One full observer differential per ray
+h_parallel_i,phi_i	DERIVED_CONDITIONALLY	dF_i and g	Terminal pair readout; not automatically a network cocycle
+D_i	DERIVED_CONDITIONALLY	dF_i and screen	Jacobi position block; may be singular
+P_i	DERIVED_CONDITIONALLY	Jacobi IVP	Full phase propagator; symplectic and invertible through ordinary caustics
+source screen S_i^s	DERIVED_CONDITIONALLY	g,U_s,K_i	Ray-specific source-rest screen
+source celestial sphere	DERIVED_CONDITIONALLY	g_s,U_s	Common round direction sphere at source
+source-sky connection	DERIVED_CONDITIONALLY	source celestial metric	Natural Levi-Civita connection; selects no path
+omega_i=-g(K_i,U_s)	DERIVED_CONDITIONALLY	g,K_i,U_s	Source frequency/affine calibration; ratios enter native phase junctions
+xi_ji	PATH_LABEL	query	Source-sky comparison path; all branches retained
+Q_ji,C_ji	DERIVED_CONDITIONALLY	connection plus xi_ji plus affine calibration	Screen and lifted phase junction maps; native form can be conformally symplectic
+R_ji	DERIVED_CONDITIONALLY	P_i,P_j,C_ji	Full carried observer edge
+loop holonomy	DERIVED_CONDITIONALLY	three C junctions	Observer loop conjugate to source-junction loop
+L_i^0	DERIVED	point-observer vertex	Two-dimensional physical angular initial plane J=0
+Lambda_i	DERIVED_CONDITIONALLY	P_i L_i^0	Source image of point-observer beam plane
+d_ji	DERIVED_CONDITIONALLY	C_ji,Lambda_i,Lambda_j	Beam intersection dimension 0,1,2
+matched-beam requirement	QUERY_CONDITION	source boundary semantics	Not a universal physical selector
+source screen/surface germ	SUPPLIED_QUERY	source query	Needed for resolved source variations; a bare event is insufficient
+source transfer,occupancy,weights	OPEN	unowned	Not supplied by geometric junction
+common reciprocal reduction	OPEN_OR_SUPPLIED	calibration local system	Required before phi_i differences become physical edge cocycle
+c_E	OBSERVED	foundational calibration	Fixes units; selects no path, junction, or history
+physical history/query/branch	OPEN	unowned	No selection theorem in G114
+X_max,bootstrap,action,matter,mass	OPEN	outside scope	Not used or derived

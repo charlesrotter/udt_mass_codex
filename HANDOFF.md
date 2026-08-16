@@ -52,6 +52,11 @@ P1 inversion as a static spatial profile has invariant `1/r` center curvature. T
 null-cone-versus-static-profile category error without rejecting the empirical P1 chord. Physical
 time-live history, source intersection, transfer, and global network ownership remain open.
 
+G114 `udt_g114_common_source_three_observer_network_2026-08-16/` derives the affine-aware typed
+full-phase network. Phase carry survives caustics and loop nonclosure is source-junction holonomy.
+Identity full-phase descent does not align point-observer beam planes; intersection rank is a
+metric/query compatibility descriptor. Source matching, transfer, and history remain open.
+
 ### What is running
 
 No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`.
@@ -82,10 +87,9 @@ made load-bearing by the task. Cross-check: `udt_boss_primary_method_crosswalk_2
 
 The banked evaluator conditionally derives one complete pair metric and terminal reciprocal-`c_E`
 readout. G110 supplies distinct pair and sky-Jacobi blocks plus mixed compatibility from one full
-`dF`, without a same-`W` solder; G111 verifies that structure on a bounded nonflat family. G112
-preserves the frozen middle-regime chord but does not own its screen or transfer. G113 proves the
-bounded static spherical chord and its P1 smooth-center obstruction. Exact, independent,
-catch-proof, and adversarial gates pass within their stated scopes.
+`dF`, without a same-`W` solder; G111 verifies a bounded nonflat family. G112 preserves the frozen
+middle chord; G113 proves the bounded static chord and P1 center obstruction; G114 closes the typed
+phase network while exposing beam compatibility. Exact and adversarial gates pass.
 
 Durable verified-with-caveats parents are:
 
@@ -116,10 +120,9 @@ draft, local pair-response package, or local G88 package without a specific disp
 
 ### Next bounded action
 
-Follow G113 `NEXT_GATE.md`. First derive the no-solve common-source three-observer query contract:
-path-labelled rays, full Jacobi phase-space carry, separate terminal pair blocks, and explicit
-source/screen calibration. Then, and only then, run an outcome-blind regular time-live spherical
-jet census with both SNe outcomes sealed.
+Follow G114 `NEXT_GATE.md`: freeze point-event, resolved-screen, and source-worldtube boundary
+queries separately, then run the outcome-blind regular time-live spherical jet census. Retain all
+phase, pair, mixed, caustic, and beam-intersection strata; keep both SNe outcomes sealed.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

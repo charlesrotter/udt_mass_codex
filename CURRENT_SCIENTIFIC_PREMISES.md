@@ -41,8 +41,8 @@ Controlling sources: G04, G05, G06, G14.
 - Endpoint scalars, shift state, Jacobi propagators, and path/normal holonomy have different natural
   mathematical homes. Do not force them into one scalar.
 - G110 derives distinct pair/sky blocks of one full `dF`; G111 verifies bounded nonflat survival.
-- G113 identifies `dF` as the local assembly: Jacobi phase space carries one-ray composition, while
-  cross-ray comparison still needs a typed common-source calibration junction.
+- G113 identifies `dF` as the local assembly; G114 derives the affine-aware common-source full-phase
+  network and beam-intersection rank, while physical source matching and scalar descent remain open.
 - Exact endpoint chord composition on a shared calibrated family is verified with caveats. It does
   not select a universal path, global family, or dynamics.
 
@@ -93,9 +93,9 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
 - G99 freezes P1; G102-G106 type the evaluator; G107 closes the constant census; G108-G109 retain
   Jacobi/depth. G110 reconstructs distinct pair/sky blocks; G111
   proves bounded nonflat survival; G112 verifies conditional dual-SNe non-regression.
-- G113 derives `phi_pair=phi` and `D_sky=r I` on the static central spherical radial-null subclass,
-  but exact P1 static inversion has invariant `1/r` center curvature. The chord is null-cone data,
-  not a smooth static profile; regular time-live realization remains open.
+- G113's static chord derives `phi_pair=phi` and `D_sky=r I`, but P1 static inversion has `1/r`
+  center curvature. G114's full phase carry survives caustics and closes typed loops; loop identity
+  does not force beam alignment. Regular time-live realization and source boundary remain open.
 - Overlapping-pair compatibility is internally `VERIFIED-WITH-CAVEATS`; corrected contribution-live
   flat, monotone, and loud-quiet-loud lifts survive, but activity selects no score.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict

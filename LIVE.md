@@ -69,6 +69,13 @@ But exact P1 inversion as a static spatial profile has nonzero center slope and 
 curvature, so the observed null-cone chord must not be promoted to a smooth static observer-centered
 metric. Physical time-live history, source intersection, transfer, and global relation ownership
 remain open.
+
+G114 `udt_g114_common_source_three_observer_network_2026-08-16/` is
+`BLIND_VERIFIED_WITH_CAVEATS`: affine-aware phase carriers compose through typed source junctions
+and survive caustics; observer-loop nonclosure is source holonomy up to conjugacy. Full loop closure
+does not align point-observer beam planes. Their intersection rank is a metric/query compatibility
+descriptor, not a history or source selector.
+
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS`: all 194 selections and 2,328 curves were independently reconstructed.
@@ -149,11 +156,10 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Run the bounded G114 Phase-A derivation in G113 `NEXT_GATE.md`: type one common-source,
-three-observer network with path-labelled exponential preimages, full Jacobi phase-space carry,
-separate terminal pair blocks, and explicit source/screen calibration. No solve or data. Only after
-that contract is fixed may an outcome-blind regular time-live spherical jet census begin; SNe must
-remain sealed until its light-cone series are determined.
+Follow G114 `NEXT_GATE.md`. Freeze separate point-event, resolved-screen, and source-worldtube
+boundary query classes. Then run the outcome-blind regular time-live spherical jet census with full
+pair, phase, mixed, caustic, and beam-intersection data. SNe remain sealed until its forward
+light-cone series are fixed.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,
