@@ -1,0 +1,13 @@
+gate_id	test	pass_condition	failure_meaning
+F01	flat terminal pair	pair h is Lorentzian with det(h)=-1 and phi_pair=0	full observer map was typed incorrectly
+F02	flat pair-screen block	transverse projections of F_tau and F_lambda vanish	pair block does not represent radial relation claimed
+F03	flat angular Jacobi block	D_sky=lambda I with D(0)=0 and D'(0)=I	angular block or vertex normalization is wrong
+F04	same-W catch proof	pair-screen block and D_sky have different rank for lambda>0	old literal solder was not actually falsified
+F05	independent domain covariance	pair and sky right-basis actions are independent	matrix equality is intrinsic without an owned solder
+F06	constant-curvature family	D_q solves D''+qD=0 for q positive zero and negative	analytic branch atlas is wrong
+F07	anisotropic screen	D=diag(sin(lambda),lambda) solves tidal diag(1,0) and has nonzero shear	full 2x2 response was frozen to isotropy
+F08	caustic continuation	D remains a finite second-order solution at det(D)=0 while D'D^-1 fails	caustic was treated as failure of geometry
+F09	zero-depth-rate control	phi_pair'=0 while flat sky area changes	terminal phi was incorrectly promoted to universal sky coordinate
+F10	distinct-block joined rate	on phi_pair' nonzero interval half d_phi log|det D| equals tr(D'D^-1)/(2 phi_pair')	corrected G109 join is algebraically false
+F11	scaffold quotient	passive screen/coframe/domain changes preserve covariant scalar invariants	representative scaffolding contaminated physics
+F12	premise regrade	G93-G109 dependencies explicitly distinguish survivor conditional results from conditions-changed negatives	repair silently overclaims or discards sound work
