@@ -1,0 +1,17 @@
+{
+  "executable_catch_count": 5,
+  "executable_catches": {
+    "appending_orchestra_correction_changes_curve": true,
+    "moving_n_changes_curve": true,
+    "universal_ceff_equals_Zminus2_rejected_on_live_witness": true,
+    "universal_phi_equals_zeta_rejected_on_live_witness": true,
+    "using_terminal_phi_in_frequency_transfer_changes_curve": true
+  },
+  "semantic_guard_count": 3,
+  "semantic_guards_not_catch_proofs": {
+    "conditional_transfer_guard": true,
+    "optimizer_absent_from_production": true,
+    "release_redshift_not_udt_distance_guard": true
+  },
+  "status": "PASS"
+}

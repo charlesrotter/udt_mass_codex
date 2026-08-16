@@ -1,0 +1,15 @@
+object	status	active meaning	forbidden promotion
+c_E	OBSERVED	clock/ruler calibration	dataset-fit scale or local signal speed
+Z_release=1+z_release	OBSERVED_RELEASE_COORDINATE_CONDITIONAL_FREQUENCY_SLOT	processed release redshift coordinate adopted by declared query	UDT distance raw universal one-ray ratio or G116 global coordinate
+zeta_obs=log Z_obs	DERIVED_FROM_ADOPTED_PROTOCOL	frequency-coordinate depth used by SNe interface	universal terminal phi_pair
+G116 junction	DERIVED_CONDITIONAL	local coefficient-free relation among one query's terminal frequency drift and optical channels	global history or fitted correction
+phi_pair=zeta_obs	CONDITIONAL_PURE_REDUCTION	exact stationary reciprocal control	generic live identity
+c_eff/c_E=Z_obs^-2	CONDITIONAL_PURE_REDUCTION	exact when phi_pair=zeta_obs	generic catalog inference or local signal speed
+P1 n	OBSERVED_CONDITIONAL_G99	bit-frozen calibration value	metric-derived constant or DES refit
+P1 screen chord	CHOSE_CONDITIONAL_OBSERVED_CHORD	isotropic representative lambda_A(zeta) I2	selected physical screen history
+dL=Z_obs^2 d_A	CONDITIONAL_TRANSFER	frozen SNe compatibility interface	native metric-only luminosity law
+Pantheon+ likelihood	OBSERVED_CALIBRATION_REPLAY	fixed-n regression with one offset	independent holdout or theory proof
+DES likelihood	OBSERVED_SECONDARY_NO_REFIT	frozen-n replay with marginal covariance	independent event set or exact chi-square semantics
+G116 invariant coefficients	OPEN	physical history inputs not used in SNe likelihood	fit knobs or zero by convenience
+SNe decomposition power	DERIVED_NEGATIVE_SCOPED	current conditional interface cannot separate zeta phi screen and transfer	global impossibility theorem
+G94 Z=exp(phi_pair)	SUPERSEDED_CONDITIONAL_IDENTIFICATION	Wronskian clock and conditional-transfer algebra retained	universal terminal/frequency identity restored

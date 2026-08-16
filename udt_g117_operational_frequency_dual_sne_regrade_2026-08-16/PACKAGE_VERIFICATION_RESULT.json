@@ -1,0 +1,120 @@
+{
+  "checks": {
+    "all_outputs_exactly_reproduced": true,
+    "all_scripts_report_pass": true,
+    "all_scripts_return_zero": true,
+    "preregistered_commit_is_ancestor": true,
+    "required_files": true,
+    "source_manifest_at_preregistration": true
+  },
+  "manifest_checks": [
+    {
+      "actual": "b260d3700cb61aed68a19593073b0c37970176b845edb506a2680b6c6296a944",
+      "ok": true,
+      "path": "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/AUDIT_REPORT.md"
+    },
+    {
+      "actual": "c202487b126ab9bd99df6cafda04c3c595befe6e1ab0be5bb658a5262c19314d",
+      "ok": true,
+      "path": "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/EXACT_DERIVATION.md"
+    },
+    {
+      "actual": "8769ec946de275b5e280bd6f3474652fe2f521deedea57733669064d68b0e284",
+      "ok": true,
+      "path": "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/NEXT_GATE.md"
+    },
+    {
+      "actual": "e10948bdda6f90971c604155766a39fd762d2c8b5a773888724626f9967c74f7",
+      "ok": true,
+      "path": "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/TYPE_AND_PREMISE_LEDGER.tsv"
+    },
+    {
+      "actual": "c2b6b20f734404a1f5c2f3335597d34cb0b3e5aeb172200f91ba86be27d3a95d",
+      "ok": true,
+      "path": "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/AUDIT_REPORT.md"
+    },
+    {
+      "actual": "1866a63c6e3d62c1d2360182435497f446a58f62e79649951bde712ca3bb6be2",
+      "ok": true,
+      "path": "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/EXACT_DERIVATION.md"
+    },
+    {
+      "actual": "469fe2c116a732ca5041525437af12b3b2d97b40b8c5385ba302b59b2f2de4c7",
+      "ok": true,
+      "path": "udt_observed_middle_regime_pair_calibration_2026-08-15/AUDIT_REPORT.md"
+    },
+    {
+      "actual": "50fb5a254a8161bafcf71310c11cd219218c359de7fbfad2abf4b3f0dcc7543c",
+      "ok": true,
+      "path": "udt_observed_middle_regime_pair_calibration_2026-08-15/CALIBRATION_CONTRACT.json"
+    },
+    {
+      "actual": "12855523615c4acef075df520bf6f83932b7a79eb5210246e389b3d1abe6f466",
+      "ok": true,
+      "path": "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/AUDIT_REPORT.md"
+    },
+    {
+      "actual": "420dc3da91c44ec2bda23a05f811b74f1b229f5ad55f410a3846465cb5a3760a",
+      "ok": true,
+      "path": "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/PRIMARY_RESULT.json"
+    },
+    {
+      "actual": "c89920532b4e34874d66ce0dce3335a6bf83ad63f399cb4c455d54c6b686af22",
+      "ok": true,
+      "path": "udt_g112_full_differential_dual_sne_invariance_2026-08-16/EXACT_METHOD.md"
+    },
+    {
+      "actual": "7410e204f39e6f3194dcb77e675060bfa8f063dbc20fbe4fdb2a923acf90df4f",
+      "ok": true,
+      "path": "udt_g112_full_differential_dual_sne_invariance_2026-08-16/run_dual_sne.py"
+    },
+    {
+      "actual": "22a8a16e58d7332ba78a81092da7483415980eaf722afa440f84b870305c83e8",
+      "ok": true,
+      "path": "udt_g112_full_differential_dual_sne_invariance_2026-08-16/verify_dual_sne_independent.py"
+    },
+    {
+      "actual": "1b0e412a61d9fcfd84d57b6071d9f8a2674a9b939f302cf6d0c557591dda700c",
+      "ok": true,
+      "path": "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/AUDIT_REPORT.md"
+    },
+    {
+      "actual": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+      "ok": true,
+      "path": "Data/Pantheon+SH0ES.dat"
+    },
+    {
+      "actual": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc",
+      "ok": true,
+      "path": "Data/Pantheon+SH0ES_STAT+SYS.cov"
+    },
+    {
+      "actual": "2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf",
+      "ok": true,
+      "path": "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv"
+    },
+    {
+      "actual": "ffd3124b32148b1372bd95fda9299269f0352a9f8eee02d416c610e38495463b",
+      "ok": true,
+      "path": "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/STAT+SYS.npz"
+    }
+  ],
+  "script_checks": {
+    "catch_proofs": {
+      "output_exactly_reproduced": true,
+      "reported_pass": true,
+      "returncode_zero": true
+    },
+    "independent": {
+      "output_exactly_reproduced": true,
+      "reported_pass": true,
+      "returncode_zero": true
+    },
+    "production": {
+      "output_exactly_reproduced": true,
+      "reported_pass": true,
+      "returncode_zero": true
+    }
+  },
+  "status": "PASS"
+}

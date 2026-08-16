@@ -1,0 +1,10 @@
+# G117 commands
+
+```bash
+python3 udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/run_operational_sne_regrade.py
+python3 udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/verify_operational_sne_independent.py
+python3 udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/run_catch_proofs.py
+python3 udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/verify_package.py
+python3 verify_current_scientific_premises.py
+python3 -m pytest -q
+```

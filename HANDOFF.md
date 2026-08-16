@@ -58,7 +58,10 @@ require zero-order phase matching. Physical history and observed-redshift identi
 G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` is blind
 `VERIFIED_WITH_CAVEATS` after scope repairs. It derives the coefficient-free local junction
 `zeta=phi_pair+(b-q)R+[(dot b-dot q)-(2ell+2n+dot b)/4]R^2+O(R^3)`; the stationary pure reciprocal
-branch gives `zeta=phi_pair=-log(c_eff/c_E)/2`, while a generic live query does not.
+branch gives `zeta=phi_pair=-log(c_eff/c_E)/2`, while live queries differ. G117
+`udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/` is blind `VERIFIED_WITH_CAVEATS`:
+release-coordinate retyping preserves frozen Pantheon+/DES numerics, but cannot identify terminal
+depth or G116 coefficients. G94's terminal/frequency shortcut is superseded.
 
 ### What is running
 
@@ -93,8 +96,8 @@ readout. G110 supplies distinct pair and sky-Jacobi blocks plus mixed compatibil
 `dF`, without a same-`W` solder; G111 verifies a bounded nonflat family. G112 preserves the frozen
 middle chord; G113 proves the bounded static chord and P1 center obstruction; G114 closes the typed
 phase network while exposing beam compatibility; G115 supplies its first regular time-live central
-jet and G116 joins terminal depth to source-clock frequency without a new coefficient. Exact and
-adversarial gates pass with the recorded scope/method caveats.
+jet; G116 joins terminal depth to source frequency without a coefficient; G117 preserves the SNe
+anchor while removing their universal identification. Exact/adversarial gates pass with caveats.
 
 Durable verified-with-caveats parents are:
 
@@ -106,7 +109,6 @@ Together they show that the complete metric can evaluate and compose supplied ca
 relations. They do not select which complete history or global relation family Nature realizes.
 
 ### Premise guard
-
 Keep these distinctions fixed:
 
 - founded `delta -> D(delta)` is derived; the complete observer query to `delta` is open;
@@ -119,12 +121,10 @@ Keep these distinctions fixed:
 After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact sources.
 
 ### Protected dirt
-
 Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell
 draft, local pair-response package, or local G88 package without a specific dispatch. Preserve all other unrelated dirt. A clean clone may show a tracked directory shell without the protected local payload; directory presence is not evidence that the unbanked work was committed.
 
 ### Next bounded action
-
-Follow G116 `NEXT_GATE.md`: type catalog spectroscopic redshift, regrade the old universal `1+z=exp(phi_pair)` interface, freeze all low-distance strata, and only then perform the preregistered no-refit Pantheon+/DES exposure. Do not fit a new history.
-Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
+Follow G117 `NEXT_GATE.md`: fresh multiagent scaffolding-removal whiteboard, then one bounded derivation; do not fit or invent a history.
+Historical detail is archived under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

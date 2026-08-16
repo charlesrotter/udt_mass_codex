@@ -1,0 +1,17 @@
+item	status	note
+preregistration	PASS	commit a7890d9f
+source_hashes	PASS	18 of 18
+retyped_curve	PASS	pointwise magnitude differences below 1.1e-14
+Pantheon_fixed_n_replay	PASS_WITH_CALIBRATION_CAVEAT	1260.8480887274925 for 1366 nominal dof
+DES_no_refit_replay	PASS_WITH_LOW_CHI2_WARNING	1444.1864417504900 for 1622 nominal dof
+internal_replay	PASS_REGRESSION_EVIDENCE	closely inherited precision route and DES Schur complement
+blind_replay	PASS_WITH_CAVEATS	fresh raw-data parse likelihood algebra and witness reconstruction
+local_nonidentifiability	PASS_SCOPED	formal local two-jet; current conditional interface only
+executable_mutations	PASS	5 of 5 caught
+semantic_guards	PASS_NOT_CATCH_PROOFS	3 of 3 text or declared-scope guards
+premise_startup_verifier	PASS	104-row registry and bounded startup route
+repository_tests	PASS_WITH_EXPECTED_XFAIL	90 passed and 1 known matter-sector xfail
+package_replay	PASS	all required files sources and rerunnable outputs verified
+physical_history	OPEN	no G116 coefficient or continuation selected
+screen_transfer	CONDITIONAL	P1 screen representative and Z2 law retained
+downstream	EXCLUDED	no BAO CMB Xmax bootstrap action matter mass signalling

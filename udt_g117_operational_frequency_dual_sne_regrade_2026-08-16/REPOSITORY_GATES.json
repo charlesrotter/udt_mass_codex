@@ -1,0 +1,19 @@
+{
+  "premise_verifier": {
+    "command": "python3 verify_current_scientific_premises.py",
+    "registry_rows": 104,
+    "status": "PASS"
+  },
+  "pytest": {
+    "command": "python3 -m pytest -q",
+    "passed": 90,
+    "status": "PASS_WITH_EXPECTED_XFAIL",
+    "xfailed": 1
+  },
+  "startup_line_caps": {
+    "CURRENT_RESEARCH_PROGRAM.md": 170,
+    "HANDOFF.md": 130,
+    "LIVE.md": 170,
+    "status": "PASS"
+  }
+}

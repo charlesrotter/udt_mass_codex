@@ -123,7 +123,7 @@ carry precedes fixed-label readout; passive relabeling is gauge. Physical histor
 observed-redshift junction remain open.
 
 G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` derives the missing local junction without a coefficient:
-`zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`. Its pure stationary reciprocal reduction is exact; generic live queries retain distinct typed channels and no selected mixture.
+`zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`. Its pure stationary reduction is exact; generic live queries retain distinct channels. G117 preserves frozen P1 dual-SNe numerics under conditional release-coordinate retyping but cannot identify terminal depth or G116 coefficients.
 
 ## Macro observational anchors
 
@@ -163,7 +163,7 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Follow G116 `NEXT_GATE.md`: type catalog spectroscopic redshift, regrade without refitting the old universal terminal-depth interface, freeze the three low-distance strata, then perform the bounded Pantheon+-calibration/DES-secondary no-refit exposure.
+Follow G117 `NEXT_GATE.md`: run a fresh multiagent scaffolding-removal whiteboard and return one dependency-reduction map plus one bounded metric-led derivation.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

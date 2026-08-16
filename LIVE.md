@@ -72,9 +72,12 @@ history, source transfer, and global branch remain open. G116
 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` is blind
 `VERIFIED_WITH_CAVEATS` after scope repairs. It derives, without a fit coefficient,
 `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`, where `zeta=log(omega_s/omega_o)`,
-`v_rel=b-q`, and `A_opt=2ell+2n+dot(b)`. The pure stationary reciprocal reduction gives exactly
-`zeta=phi_pair=-log(c_eff/c_E)/2`; generic live queries retain distinct typed channels. Founding
-composition/reversal does not select a universal mixture.
+`v_rel=b-q`, and `A_opt=2ell+2n+dot(b)`. The pure stationary reduction gives
+`zeta=phi_pair=-log(c_eff/c_E)/2`; generic live queries retain distinct channels and no selected
+mixture. G117 `udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/` is blind
+`VERIFIED_WITH_CAVEATS`: conditional release-coordinate retyping preserves frozen Pantheon+/DES P1
+numerics, while the likelihood cannot identify terminal `phi_pair` or G116 coefficients. G94's old
+`Z=exp(phi_pair)` shortcut is superseded; its Wronskian/clock algebra survives.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -157,11 +160,8 @@ in a clean clone does not mean the protected payload was banked; inspect Git sta
 repository and preserve every local file.
 
 ### Immediate next action
-
-Follow G116 `NEXT_GATE.md`: first decide whether catalog spectroscopic redshift is explicitly the
-typed source/observer frequency ratio `Z`. Then regrade—not refit—the active SNe interfaces, freeze
-the separate linear, quadratic, and higher-order-or-zero strata, and expose Pantheon+ only as its
-existing calibration source and DES only as the no-refit secondary release.
+Follow G117 `NEXT_GATE.md`: run a fresh multiagent scaffolding-removal whiteboard across the founding
+character through G117. Return one dependency map and one bounded derivation—not a fitted history.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

@@ -1,0 +1,103 @@
+{
+  "absolute_differences": {
+    "des_chi2": 1.1557403922779486e-09,
+    "des_offset": 1.4210854715202004e-14,
+    "des_prediction_mag": 3.1086244689504383e-15,
+    "pantheon_chi2": 2.3442908059223555e-08,
+    "pantheon_offset": 7.105427357601002e-15,
+    "pantheon_prediction_mag": 1.0658141036401503e-14
+  },
+  "all_checks_pass": true,
+  "checks": {
+    "all_18_source_hashes": true,
+    "des_chi2_reproduced": true,
+    "des_offset_reproduced": true,
+    "des_prediction_invariant": true,
+    "des_row_count": true,
+    "n_bit_identical": true,
+    "pantheon_chi2_reproduced": true,
+    "pantheon_offset_reproduced": true,
+    "pantheon_prediction_invariant": true,
+    "pantheon_row_count": true,
+    "positive_frequency_and_screen": true,
+    "shape_optimizer_not_called": true,
+    "two_terminal_decompositions_same_frequency": true,
+    "wrong_des_precision_subblock_detectable": true
+  },
+  "declared_scope_guards": {
+    "g116_use": "reject universal phi_pair=zeta and supply one formal local R^2-jet witness only; no extrapolation across the SNe range",
+    "g94_regrade": "supersede only G94's conditional Z=exp(phi_pair) identification; retain its independent Wronskian, clock, and conditional-transfer algebra",
+    "nonidentifiability": "structural only in the current conditional P1 release-coordinate interface whose likelihood omits terminal phi and G116 coefficients by construction",
+    "physical_history_selected": false,
+    "release_coordinates": "zCMB and zHD are processed release-redshift coordinates conditionally adopted for the G94 frequency slot; not raw one-ray Z, UDT distances, or G116-derived global coordinates",
+    "transfer_selected": false
+  },
+  "des": {
+    "chi2": 1444.18644175049,
+    "dof": 1622,
+    "hostile_precision_subblock_chi2": 1451.05533377145,
+    "lower_tail_p": 0.0006144041636063518,
+    "n_data": 1623,
+    "offset_B": 41.708956602969536,
+    "redshift_column": "zHD",
+    "status": "LOW_CHI2_COVARIANCE_OR_EFFECTIVE_DOF_WARNING",
+    "upper_tail_p": 0.9993855958363936
+  },
+  "frozen_n": 1.0559332414320268,
+  "landing": "FROZEN_P1_DUAL_SNE_NUMERICS_PRESERVED_UNDER_CONDITIONAL_RELEASE_COORDINATE_RETYPING__TERMINAL_DECOMPOSITION_STRUCTURALLY_UNIDENTIFIED_ONLY_IN_CURRENT_INTERFACE",
+  "local_nonidentifiability_witness": {
+    "correction": "337/1680000",
+    "inequivalent_terminal_depths": true,
+    "phi_live": "50063/1680000",
+    "phi_pure": "3/100",
+    "same_frequency_depth": true,
+    "sne_curve_uses_zeta_not_either_terminal_depth": true,
+    "zeta": "3/100"
+  },
+  "maximum_conclusion": "frozen P1 dual-SNe numerics are preserved under conditional release-coordinate retyping; terminal decomposition is structurally unidentified only in the current interface; no global G116 history, transfer, or physics is selected",
+  "pantheon": {
+    "chi2": 1260.8480887274925,
+    "dof": 1366,
+    "lower_tail_p": 0.020036563965826176,
+    "n_data": 1367,
+    "offset_B": 22.343528501617094,
+    "redshift_column": "zCMB",
+    "status": "COMPATIBLE",
+    "upper_tail_p": 0.9799634360341738
+  },
+  "schema": "UDT_G117_OPERATIONAL_FREQUENCY_DUAL_SNE_REGRADE_V1",
+  "shape_optimizer_called": false,
+  "source_hashes": {
+    "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv": true,
+    "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/STAT+SYS.npz": true,
+    "Data/Pantheon+SH0ES.dat": true,
+    "Data/Pantheon+SH0ES_STAT+SYS.cov": true,
+    "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/AUDIT_REPORT.md": true,
+    "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/PRIMARY_RESULT.json": true,
+    "udt_g112_full_differential_dual_sne_invariance_2026-08-16/EXACT_METHOD.md": true,
+    "udt_g112_full_differential_dual_sne_invariance_2026-08-16/run_dual_sne.py": true,
+    "udt_g112_full_differential_dual_sne_invariance_2026-08-16/verify_dual_sne_independent.py": true,
+    "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/EXACT_DERIVATION.md": true,
+    "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/NEXT_GATE.md": true,
+    "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/TYPE_AND_PREMISE_LEDGER.tsv": true,
+    "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/AUDIT_REPORT.md": true,
+    "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/EXACT_DERIVATION.md": true,
+    "udt_observed_middle_regime_pair_calibration_2026-08-15/AUDIT_REPORT.md": true,
+    "udt_observed_middle_regime_pair_calibration_2026-08-15/CALIBRATION_CONTRACT.json": true
+  },
+  "tolerances": {
+    "des_chi2": 2e-06,
+    "des_offset": 2e-09,
+    "pantheon_chi2": 3e-05,
+    "pantheon_offset": 3e-06,
+    "prediction_mag": 1e-12
+  },
+  "typed_interface": {
+    "observed": "Z_release=1+z_release; processed release coordinate conditionally adopted for the frequency-ratio slot",
+    "screen": "D_sky=lambda_A(zeta_obs)*I2; conditional observed chord representative",
+    "terminal": "phi_pair=zeta_obs-v_rel*R-[dot(v_rel)-A_opt/4]*R^2+O(R^3); not identified by SNe alone",
+    "transfer": "dL=exp(2*zeta_obs)*sqrt(det(D_sky)); conditional"
+  }
+}

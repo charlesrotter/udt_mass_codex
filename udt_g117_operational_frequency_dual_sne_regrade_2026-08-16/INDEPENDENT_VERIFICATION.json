@@ -1,0 +1,40 @@
+{
+  "absolute_residuals": {
+    "des_chi2": 1.5916157281026244e-12,
+    "des_curve": 1.3322676295501878e-15,
+    "des_offset": 7.105427357601002e-15,
+    "pantheon_chi2": 6.821210263296962e-13,
+    "pantheon_curve": 5.329070518200751e-15,
+    "pantheon_offset": 1.0658141036401503e-14
+  },
+  "all_checks_pass": true,
+  "checks": {
+    "des_chi2": true,
+    "des_count": true,
+    "des_curve": true,
+    "des_offset": true,
+    "des_schur_complement": true,
+    "pantheon_chi2": true,
+    "pantheon_count": true,
+    "pantheon_curve": true,
+    "pantheon_offset": true,
+    "precision_domain_route": true,
+    "shape_optimizer_not_called": true,
+    "terminal_phi_not_used_in_likelihood": true
+  },
+  "method": "frequency-coordinate curve reconstructed independently; precision-domain likelihood; DES Schur complement",
+  "replayed": {
+    "des_chi2": 1444.1864417504917,
+    "des_offset": 41.70895660296954,
+    "pantheon_chi2": 1260.8480887274918,
+    "pantheon_offset": 22.343528501617104
+  },
+  "schema": "UDT_G117_INDEPENDENT_FREQUENCY_REPLAY_V1",
+  "tolerances": {
+    "curve": 1e-12,
+    "des_chi2": 3e-06,
+    "des_offset": 3e-09,
+    "pantheon_chi2": 3e-06,
+    "pantheon_offset": 3e-09
+  }
+}
