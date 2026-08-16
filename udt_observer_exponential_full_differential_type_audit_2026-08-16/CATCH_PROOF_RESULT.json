@@ -1,0 +1,17 @@
+{
+  "all_catches_pass": true,
+  "catches": {
+    "caustic_inverse_rejected": true,
+    "isotropic_only_filter_detected": true,
+    "representative_only_change_detected_as_scaffold": true,
+    "wrong_same_w_detected": true,
+    "zero_phi_rate_division_rejected": true
+  },
+  "raw": {
+    "anisotropic_shear_norm": 0.19713104637584927,
+    "representative_change_norm": 3.4641016151377544,
+    "sky_log_area_rate_with_zero_phi_rate": 2.5,
+    "wrong_same_w_residual": 1.1313708498984762
+  },
+  "schema": "UDT_G110_CATCH_PROOFS_V1"
+}

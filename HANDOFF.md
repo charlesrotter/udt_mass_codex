@@ -27,14 +27,17 @@ isotropy. The preselected G79 control gives `chi2=16255.30/1366 dof`; fresh seal
 the curve and likelihood and accepted `VERIFIED_WITH_CAVEATS__ONE_CONTROL_STRONGLY_SNE_INCOMPATIBLE`.
 This is not a physical history, native transfer law, all-sky theorem, or UDT rejection.
 
-G98's exact flat, monotone, and loud-quiet-loud histories survive; `PERMITTED_NOT_OWNED` makes the
-quiet middle lawful, not selected. G99 freezes verified P1 once as an `OBSERVED/CONDITIONAL` middle
-chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncertainty remain open.
+G98's exact flat, monotone, and loud-quiet-loud histories survive; `PERMITTED_NOT_OWNED` makes the quiet middle lawful, not selected. G99 freezes verified P1 as an `OBSERVED/CONDITIONAL` middle chord; transfer and joint uncertainty remain open.
 
 G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS` at `chi2=1444.18644/1622` nominal dof. G101 retains only the two-source query and local maser slope lead from `grok2`.
 G102 externally verifies the conditional two-chord join. G103 externally verifies that the frozen regular local/first-jet equations retain only legal sky/network/measure assembly and select no nontrivial source-independent pattern once `J` and source pairing are released. This is not a global no-go; critical/topological, bootstrap, and joint source-history laws remain open.
 
-G104/G105 verify the factorized null/Jacobian channel. G106 verifies ideal reference removal of radial abundance. Following the orchestra whiteboard, G107 closes the constant reciprocal-extension census; G108 `udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/` propagates the supplied Jacobi screen. G109 `udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/` is externally verified: within one matched regular query, terminal `phi_pair` supplies G108's depth map. History, query, initial screen, branch, and global descent remain open.
+Following the orchestra whiteboard, G104/G105/G106 type the Jacobian channels; G107 is the constant reciprocal-extension census. G108
+`udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/` retains Jacobi algebra; G109
+`udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/` retains terminal depth. G110
+`udt_observer_exponential_full_differential_type_audit_2026-08-16/` reconstructs one supplied
+point-observer full `dF`: pair and sky-Jacobi maps are distinct blocks and the null pair-screen block
+has rank at most one. Physical history, query ownership, and global weights remain open.
 
 ### What is running
 
@@ -88,9 +91,9 @@ makes them load-bearing. The primary-method cross-check is
 
 ### Honest theory claim
 
-The banked uncompressed evaluator conditionally derives one complete pair metric and terminal
-reciprocal-`c_E` readout with all coframe and pair-realization blocks retained. Its algebra,
-independent replay, and sealed review pass; it does not own the physical pair or regime history.
+The banked evaluator conditionally derives one complete pair metric and terminal reciprocal-`c_E`
+readout. G110 supplies distinct pair and sky-Jacobi blocks plus mixed compatibility from one full
+`dF`, without a same-`W` solder. Exact, independent, catch-proof, and blind-review gates pass.
 
 Durable verified-with-caveats parents are:
 
@@ -121,7 +124,7 @@ draft, local pair-response package, or local G88 package without a specific disp
 
 ### Next bounded action
 
-Keep outcomes sealed; retain the full `2x2` expansion/shear response in terminal `phi_pair`. Fit nothing and select no history, query, branch, or initial screen.
+Replay distinct pair/angular blocks and mixed compatibility on one nonflat analytic complete UDT metric; fit and select nothing.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

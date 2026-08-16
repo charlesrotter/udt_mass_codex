@@ -1,0 +1,50 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "EJ_quotient": true,
+    "anisotropic_shear": true,
+    "caustic_typed": true,
+    "distinct_join": true,
+    "flat_pair": true,
+    "flat_pair_screen": true,
+    "flat_phi": true,
+    "flat_sky": true,
+    "jacobi_family": true,
+    "same_w_catch": true,
+    "screen_gauge": true,
+    "vertex_data": true,
+    "zero_rate_scope": true
+  },
+  "curvature": {
+    "anisotropic_shear_norm": 0.19713104637584936,
+    "caustic_derivative_norm": 1.4142135623730951,
+    "caustic_det_abs": 0.0,
+    "caustic_map_norm": 0.0,
+    "floating_sin_pi_map_norm": 1.7319121124709866e-16,
+    "maximum_jacobi_fd_residual": 3.216870303468511e-07,
+    "maximum_vertex_derivative_residual": 6.666678320499386e-11,
+    "riccati_trace_near_caustic": -1999999.999474848,
+    "second_order_continues_while_inverse_fails": true
+  },
+  "flat": {
+    "literal_same_w_rejected": true,
+    "maximum_pair_metric_residual": 2.2026824808563106e-13,
+    "pair_screen_norm": 0.0,
+    "pair_screen_rank": 0,
+    "sky_jacobi_rank": 2,
+    "sky_jacobi_residual": 0.0,
+    "terminal_phi_abs": 0.0
+  },
+  "join_and_gauge": {
+    "EJ_refactorization_residual": 0.0,
+    "flat_phi_rate": 0.0,
+    "flat_screen_log_area_rate": 2.8571428571932955,
+    "left_conjugacy_residual": 0.0,
+    "maximum_finite_difference_join_residual": 3.879030430198327e-11,
+    "metric_refactorization_residual": 0.0,
+    "right_basis_residual": 2.220446049250313e-16,
+    "trace_invariance_residual": 0.0,
+    "zero_phi_rate_not_universal": true
+  },
+  "schema": "UDT_G110_INDEPENDENT_FULL_DIFFERENTIAL_V1"
+}

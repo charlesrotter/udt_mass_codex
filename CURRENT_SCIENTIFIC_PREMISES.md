@@ -40,6 +40,7 @@ Controlling sources: G04, G05, G06, G14.
   response, principal symbol, coupling, admissible data, and signalling remain separate.
 - Endpoint scalars, shift state, Jacobi propagators, and path/normal holonomy have different natural
   mathematical homes. Do not force them into one scalar.
+- G110 derives distinct terminal-pair and angular-Jacobi blocks of one supplied full `dF`; equal size never identifies domains.
 - Exact endpoint chord composition on a shared calibrated family is verified with caveats. It does
   not select a universal path, global family, or dynamics.
 
@@ -85,13 +86,12 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
 - Null-query label current: G96 externally confirms the closed pushforward three-form and exact
   metric/Jacobi density representation, but classifies closure as tautological query bookkeeping.
   It supplies no new physical owner; carrier identification, physical zero side flux, and `eta` remain open.
-- Complete-geometry SNe control: G97 is externally `VERIFIED-WITH-CAVEATS`; one preselected G79
-  control is strongly incompatible with the registered SNe mean relation under explicit provisional
-  `eta=1`, `epsilon=1/Z`, and source isotropy. The end-to-end evaluator works; physical history,
-  native transfer, all other geometries, all-sky ownership, and `X_max` remain open.
-- Complete-history continuation ownership: G98 internally verifies exact contribution-live flat,
-  monotone, and loud-quiet-loud survivors; quiet middle is permitted, not selected or a generic no-go.
-- G99 freezes the observed conditional P1 middle calibration; G102-G107 type the evaluator through the constant reciprocal-extension census. G108 propagates the supplied Jacobi screen; G109 externally joins its local depth to terminal `phi_pair` inside one matched regular query. History, query, branch, initial screen, and global descent remain supplied/open; no physical score, coefficient, BAO prediction, ruler, or `X_max` follows.
+- G97 externally verifies one incompatible SNe control under provisional transfer; this tests the evaluator, not physical history, other geometries, all-sky ownership, or `X_max`.
+- G98 verifies flat, monotone, and loud-quiet-loud survivors; quiet middle is permitted, not selected.
+- G99 freezes P1; G102-G107 type the evaluator. G108's Jacobi algebra and G109's terminal depth
+  survive. G110 reconstructs one supplied point-observer full `dF`: distinct pair and sky-Jacobi
+  blocks, null pair-screen rank at most one, and vertex data up to matched basis gauge. Physical
+  history, query ownership, global weights, and observations remain open.
 - Overlapping-pair live compatibility: internally `VERIFIED-WITH-CAVEATS`; exact chart, shared-clock,
   middle-state, and joint-Gram consistency laws derived conditionally. The original “fully live”
   wording was corrected; stricter flat, monotone, and loud-quiet-loud lifts are contribution-live

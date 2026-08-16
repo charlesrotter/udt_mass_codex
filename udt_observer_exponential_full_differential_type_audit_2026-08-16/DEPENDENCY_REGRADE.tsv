@@ -1,0 +1,17 @@
+object	prior_status	G110_status	reason
+G93_terminal_pair_evaluator	DERIVED_CONDITIONAL	SURVIVES_UNCHANGED	h_parallel remains the first two columns of one full dF
+G93_independent_E_J_histories	SUPPLIED	CONDITIONS_CHANGED_POINT_OBSERVER_SUBCLASS	J=dF is metric-derived after g and observer exponential query are supplied; factorization representatives remain gauge
+G98_G103_arbitrary_J_nonselection	BOUNDED_NEGATIVE	CONDITIONS_CHANGED_POINT_OBSERVER_SUBCLASS	arbitrary J is no longer admitted in the point-vertex exponential subclass; history nonselection still survives
+G102_observer_local_ruler	CONDITIONAL	RECOVERED_CONDITIONALLY	clock-orthogonal part of F_lambda supplies the local ruler direction
+G104_G106_forward_projectors	DERIVED_CONDITIONAL	SURVIVE_CONDITIONALLY	full dF can supply their geometric Jacobian; source measure and weights remain open
+G107_active_passive_EJ_carry	OPEN	RESOLVED_CONDITIONALLY_POINT_OBSERVER	dF fixes the active realization from the supplied metric/query; no score coefficient is selected
+G108_pair_screen_area_identity	DERIVED_CONDITIONAL	ALGEBRAIC_ONLY__REGULAR_RANK2_STRATUM_EMPTY_POINT_OBSERVER_EXP	for null K the screen projection vanishes so W_parallel has rank at most one
+G108_Jacobi_Riccati_algebra	DERIVED_CONDITIONAL	SURVIVES_FOR_D_SKY	propagation equations are correct for the true angular Jacobi block
+G108_same_W_solder	CONDITIONAL	NOT_CANONICAL__CONDITIONS_CHANGED	exact flat observer sky gives W_parallel=0 and D_sky=lambda I
+G109_terminal_phi_pair	DERIVED_CONDITIONAL	SURVIVES_UNCHANGED	terminal reciprocal readout remains first-pair-block invariant
+G109_delta_endpoint_difference	DERIVED_CONDITIONAL	SURVIVES_MATCHED_FAMILY	Delta phi_pair still composes on one matched calibrated family
+G109_phi_as_sky_coordinate	DERIVED_CONDITIONAL_NONZERO_RATE	REPAIRED_DISTINCT_BLOCK_LOCAL_ONLY	valid chain rule between separate blocks only where phi_pair_dot is nonzero
+point_vertex_initial_screen	OPEN	DERIVED_CONDITIONAL_UP_TO_O2	D(0)=0 and D_lambda(0)=I from coincidence and unit-sky calibration
+local_branch	OPEN	METRIC_DERIVED_AFTER_INITIAL_DIRECTION	exponential initial-value problem supplies maximal local continuation
+global_endpoint_branch	OPEN	SET_VALUED_METRIC_OUTPUT__WEIGHTS_OPEN	multiple preimages retained; no preferred member or weight derived
+physical_metric_history	OPEN	OPEN	full evaluator still does not select g

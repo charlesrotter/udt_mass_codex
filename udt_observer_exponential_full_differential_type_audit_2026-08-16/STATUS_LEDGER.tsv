@@ -1,0 +1,16 @@
+object	status	maximum_claim
+observer_exponential_query	DERIVED_CONDITIONAL	metric-native local relation after g observer orientation and normalized sky direction are supplied
+full_dF	DERIVED_CONDITIONAL	one relation contains pair angular and mixed columns
+terminal_pair_metric	DERIVED_CONDITIONAL	first two columns give h_parallel and phi_pair on regular stratum
+angular_Jacobi_map	DERIVED_CONDITIONAL	angular columns give D_sky with point-vertex data up to O2
+pair_screen_rank2_stratum	DEGENERATE_INAPPLICABLE_POINT_OBSERVER_EXP	null tangent is screen-orthogonal so W_parallel has rank at most one
+pair_sky_same_W	CONDITIONS_CHANGED_NOT_CANONICAL	general rank bound plus flat catch proof reject the canonical identification
+local_branch_atlas	DERIVED_CONDITIONAL	maximal continuation follows from initial-value problem
+global_endpoint_preimages	SET_VALUED_METRIC_OUTPUT	no preferred member or physical weight selected
+phi_depth_parameter	DERIVED_LOCAL_ONLY	valid for sky propagation only where phi_pair_dot is nonzero
+full_screen_expansion_shear	DERIVED_CONDITIONAL	covariant optical matrix of D_sky; anisotropic shear retained
+caustic	DERIVED_DEGENERATE_STRATUM	second-order map continues while inverse Riccati chart fails
+physical_metric_history	OPEN	no history-selection law
+general_query_source_transfer_weights	OPEN	outside bounded point-observer geometry
+observational_outcomes	SEALED	no SNe BAO CMB or Xmax conclusion
+blind_review	VERIFIED_WITH_CAVEATS__REPAIRS_VERIFIED	fresh zero-context pass accepted core and follow-up accepted all bounded repairs

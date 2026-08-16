@@ -2,12 +2,12 @@ premise_id	statement	status	use_or_limit
 P01	D(delta)=diag(exp(-delta),exp(+delta)) acts on supplied ordered depth	DERIVED	terminal reciprocal normalization only
 P02	g is a supplied smooth Lorentz metric history	OPEN_PHYSICAL_SELECTION	metric evaluator input; audit does not select g
 P03	z(tau), u, time orientation, and requested sky channel are supplied observer measurement data	QUERY_SUPPLIED	not a universal preferred observer or new physical field
-P04	celestial directions satisfy g(k,k)=0 and g(k,u)=-1 in c_E-calibrated units	CONDITIONAL_QUERY_NORMALIZATION	conditional observer-sky fiber; not the S2 matter carrier
+P04	a time-dependent celestial trivialization k(tau,n) is supplied with g(k,k)=0 and g(k,u)=-1 in c_E-calibrated units	QUERY_SUPPLIED_CONDITIONAL_NORMALIZATION	needed to define F_tau across observer time; conditional observer-sky fiber, not the S2 matter carrier
 P05	F(tau,lambda,n)=Exp_z(lambda k) uses the Levi-Civita exponential map of g	DERIVED_CONDITIONAL	metric-native geometric method; not an imported field equation or signal law
 P06	the pair columns are (F_tau,F_lambda) and angular columns are (F_n1,F_n2)	DERIVED_TYPE_SPLIT	independent domain bundles must not be silently identified
 P07	terminal phi_pair is extracted from the regular pair metric h_parallel	DERIVED_CONDITIONAL	h00<0 and det(h)<0 only
 P08	the sky Jacobi map is the screen projection of the angular columns	DERIVED_CONDITIONAL	point-observer geodesic query only
-P09	D_sky(0)=0 and D_sky'(0)=I after unit-sky calibration	DERIVED_CONDITIONAL	up to passive O(2); not valid for arbitrary finite beams
+P09	D_sky(0)=0 and D_sky'(0) is the matched sky-to-screen basis identification after unit-sky calibration	DERIVED_CONDITIONAL	written I only in matched orthonormal bases; not valid for arbitrary finite beams
 P10	flat and product constant-curvature geometries are analytic controls	FREE_AND_EXPLORED	comparison witnesses, not physical UDT history choices
 P11	all exponential preimages and caustic branches are retained	FREE_AND_EXPLORED	characterize branch atlas; never select a preferred branch
 P12	phi_pair is used as propagation coordinate only where phi_pair' is nonzero	DERIVED_REGULARITY	zero-rate intervals remain valid and are reported

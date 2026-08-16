@@ -73,8 +73,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106 verifies the sky/depth projector; G107 closes the constant extension census; G108 propagates a supplied Jacobi screen. G109 externally joins its depth to terminal `phi_pair` inside one matched regular query. History, query, branch, initial screen, and global descent remain open.
-Next retain the full `2x2` expansion/shear response in terminal `phi_pair`; fit nothing.
+G106-G107 type the projector and constant extension. G108's Jacobi algebra and G109's terminal depth survive. G110 derives one supplied point-observer full `dF` with distinct terminal-pair and sky-Jacobi blocks; the canonical null pair-screen projection has rank at most one. Physical history, query ownership, and global occupancy/weights remain open.
+Next replay those distinct blocks and their mixed compatibility on one nonflat analytic complete UDT metric; retain all branches and fit nothing.
 ## Archive
 
 Verbose startup history is under `archive/startup_surface_2026-08-14/`; it is provenance only.

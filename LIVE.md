@@ -60,16 +60,18 @@ reproduced `chi2=1444.18644/1622 nominal dof`; the processed-release chi-square 
 secondary shift is `1.64 sigma`. G101 partially integrates `grok2`: its corrected two-source query and a local megamaser-slope lead survive; its `X_max`, tanh, flux, scalar-`mu`, and startup promotions do not. G102 externally verifies the conditional two-source evaluator. G103 is externally `VERIFIED_WITH_CAVEATS`: current regular local/first-jet equations impose sky/network/measure consistency but own no nontrivial source-independent pattern after `J` and the source pair measure are released. Global/critical, bootstrap, and source-history joints remain open.
 
 G104 proves the factorized intrinsic null; G105 derives the conditional complete-orchestra Jacobian channel.
-G106 is externally `VERIFIED_WITH_CAVEATS`: its ideal reference removes pure radial abundance while
-depth-dependent angular response survives. One history constrains all windows; that history, its basis/coefficients, and outcomes remain open.
+G106 is externally `VERIFIED_WITH_CAVEATS`: its ideal reference removes pure radial abundance while depth-dependent angular response survives; history, basis/coefficients, and outcomes remain open.
 The whiteboard's exact joint-flow grammar `dV=E(dJ+E^-1dE J)` remains an identity, not a score.
-G107's constant reciprocal-extension census leaves one conditional screen-dilation weight. G108 `udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/`
-propagates it from the supplied Jacobi screen. G109 `udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/` is externally verified: inside one matched regular query, `delta(lambda;lambda0)=phi_pair(lambda)-phi_pair(lambda0)`, so G108's local depth map is no longer independent. Physical history, query, branch, initial screen, and global descent remain open.
+G107's constant reciprocal-extension census, G108 `udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/`, and
+G109 `udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/` retain their conditional
+algebra. G110 `udt_observer_exponential_full_differential_type_audit_2026-08-16/` reconstructs one
+point-observer relation from one full `dF`: its pair block owns `phi_pair`; its distinct angular block
+is the sky Jacobi map. The null pair-screen projection has rank at most one. Point-vertex data are
+fixed up to matched basis gauge; physical history, query ownership, and global weights remain open.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
-R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
-independently reconstructed. It is raw pattern characterization, not a preferred feature,
-significance, scale, BAO origin, UDT response, cosmology, CMB relation, or `X_max`.
+R2 is `VERIFIED-WITH-CAVEATS`: all 194 selections and 2,328 curves were independently reconstructed.
+It is not a preferred feature, significance, scale, BAO origin, UDT response, cosmology, or `X_max`.
 
 R3 is
 `OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. All 2,328 covariances and
@@ -132,13 +134,11 @@ global relation-family ownership, dynamics, action, source, matter, bootstrap, o
 - `c_E`: `OBSERVED` clock/ruler calibration scale.
 - founding reciprocal character on supplied ordered depth: `DERIVED`.
 - pointwise `phi`: presentation potential; universal physical ownership `OPEN`.
-- terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
-- angular/mixing orchestra enters before terminal readout: `DERIVED` conditionally.
-- modern mixing is four-component `S`; G92 maps `mu_lock` to one supplied endpoint-transition
-  component, not a unique scalar or terminal correction; G93 keeps that arrow distinct from the
-  pair readout throughout exact composition and reversal.
-- `X_max`: `WORKING_FOUNDATIONAL_FRAME` for an observer-pair dilation asymptote; value and complete
-  realization `OPEN`; not a wall, center, seal, or boundary term.
+- terminal `phi_pair`: `DERIVED` from the pair block of a supplied regular calibrated `dF`.
+- the distinct angular block gives the sky Jacobi map; `D_sky'(0)=I` only in matched bases.
+- modern mixing is four-component `S`; G92's `mu_lock` is one supplied transition component, not a
+  unique scalar; G93 keeps ambient and terminal arrows distinct.
+- `X_max`: `WORKING_FOUNDATIONAL_FRAME` for an observer-pair dilation asymptote; value and complete realization `OPEN`; not a wall, center, seal, or boundary term.
 - strong local CSN: `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED`, inactive.
 - `S^2` matter carrier: `POSIT`.
 - EH action: `CONDITIONAL`; native action/source/matter law `OPEN`.
@@ -161,7 +161,7 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Keep outcomes sealed. Retain and classify the full `2x2` expansion/shear screen response in terminal `phi_pair`; do not fit a score or select history/query/branch/initial data.
+On one nonflat analytic complete UDT metric, replay the distinct `dF` pair/angular blocks and mixed compatibility. Retain all branches and full `2x2` expansion/shear; fit and select nothing.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

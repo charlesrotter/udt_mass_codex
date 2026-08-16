@@ -8,7 +8,7 @@ classification. This file answers only: what has been established, what is open,
 
 ## Program picture
 
-UDT currently has a strong conditional evaluator and an open physical-owner problem.
+UDT has a strong conditional evaluator, a unified point-observer differential, and an open physical-history problem.
 
 Given a complete metric history, a typed observer query, and a calibrated realization, the geometry
 can return a layered relation:
@@ -119,13 +119,12 @@ sealed review rebuilt its full null/screen/Jacobi curve and raw-data likelihood 
 conditional evaluation path, not a physical history, native radiation law, all-sky theorem,
 `X_max`, or UDT rejection.
 
-G98 retains exact contribution-live flat, monotone, and loud-quiet-loud continuations but selects none. G99 freezes P1 as an observed conditional middle chord, not a history or transfer.
-G100 tests it on DES-SN5YR/Dovekie: externally verified conditional non-rejection, low-chi-square reference warning, and about `1.64 sigma` secondary shape shift.
+G98 retains flat, monotone, and loud-quiet-loud continuations but selects none; G99 freezes P1, and G100 finds conditional DES non-rejection with a low-chi-square warning and about `1.64 sigma` shift.
 
-G107 closes the constant reciprocal-extension census. G108 propagates the conditional screen rate.
-G109 then joins its depth to the same query's terminal metric: `delta=lambda difference of phi_pair`,
-so `a_eff=tr(Wdot W^-1)/(2 phidot_pair)` has no separately supplied local depth map on a matched
-regular interval. Physical history, query, branch, initial screen, and global descent remain open.
+G106 types the projector; G107 closes the constant census. G108's Jacobi algebra and G109's terminal depth survive; G110
+corrects their same-`W` join. One supplied point-observer full `dF`, with `dV=E(dJ+E^-1dE J)`, has a pair block owning
+`phi_pair`, a distinct sky-Jacobi block, and mixed compatibility. Its null pair-screen projection
+has rank at most one. Physical history, celestial field, global weights, and general queries remain open.
 ## Macro observational anchors
 
 - G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
@@ -163,7 +162,8 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-G102-G106 establish the evaluator through the sky/depth projector; G107-G109 continue through conditional propagated screen volume and same-query terminal depth. Next retain and classify the full `2x2` expansion/shear response from `dV=E(dJ+E^-1dE J)` in terminal `phi_pair`. Keep outcomes sealed and fit nothing.
+G110 replaces the same-`W` solder with one full observer differential. Replay its distinct blocks
+on one nonflat analytic complete UDT metric; retain every branch and full shear, and fit nothing.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

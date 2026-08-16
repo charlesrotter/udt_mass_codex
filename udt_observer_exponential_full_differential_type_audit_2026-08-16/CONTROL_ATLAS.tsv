@@ -1,0 +1,8 @@
+control	det_D	det_h_pair	det_sky_jacobi	jacobi_residual_zero	lambda	phi_pair	rank_pair_screen	rank_sky_jacobi	trace_tidal
+flat_observer_sky		-1	0		0	0	0	0	NA
+flat_observer_sky		-1	1		1	0	0	2	NA
+flat_observer_sky		-1	4		2	0	0	2	NA
+focusing	sin(alpha*lambda)**2/alpha**2			True					2*alpha**2
+flat	lambda**2			True					0
+defocusing	sinh(alpha*lambda)**2/alpha**2			True					-2*alpha**2
+anisotropic	lambda*sin(lambda)			True					1
