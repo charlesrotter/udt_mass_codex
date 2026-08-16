@@ -1,0 +1,11 @@
+object_or_choice	status	owner_or_source	role
+complete_metric_history	SUPPLIED_CONDITIONALLY	query input	geometry evaluated, not selected
+observer_exponential_query	SUPPLIED_CONDITIONALLY	G110	ones common relation construction
+pair_metric_and_phi_pair	DERIVED	G110/G93	longitudinal terminal readout
+transverse_jacobi_phase	DERIVED_CONDITIONALLY	G114	caustic-robust causal carrier
+source_junction	SUPPLIED_QUERY	G114	cross-branch endpoint comparison
+common_metric_two_jet	DERIVED_CONDITIONALLY	g and F	candidate common parent data
+common_linear_carrier	OPEN	G122 target	must be proved, not dimension-matched
+pair_phase_arrow	OPEN	G122 target	must be derived before square
+c_E	OBSERVED	founding calibration	units only
+observational_or_dynamical_selectors	OMITTED	bounded scope	no SNe/BAO/CMB/X_max/bootstrap/action/matter
