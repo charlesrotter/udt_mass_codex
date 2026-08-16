@@ -1,0 +1,34 @@
+{
+  "absolute_residuals": {
+    "des_chi2": 2.2737367544323206e-12,
+    "des_offset": 7.105427357601002e-15,
+    "pantheon_chi2": 0.0,
+    "pantheon_offset": 1.0658141036401503e-14
+  },
+  "all_checks_pass": true,
+  "checks": {
+    "des_chi2": true,
+    "des_count": true,
+    "des_offset": true,
+    "direct_power_formula": true,
+    "pantheon_chi2": true,
+    "pantheon_count": true,
+    "pantheon_offset": true,
+    "precision_domain_route": true,
+    "shape_optimizer_not_called": true
+  },
+  "method": "direct-power P1 and precision-domain profiling; DES Schur complement",
+  "replayed": {
+    "des_chi2": 1444.186441750492,
+    "des_offset": 41.70895660296954,
+    "pantheon_chi2": 1260.8480887274916,
+    "pantheon_offset": 22.343528501617104
+  },
+  "schema": "UDT_G112_INDEPENDENT_PRECISION_REPLAY_V1",
+  "tolerances": {
+    "des_chi2": 3e-06,
+    "des_offset": 3e-09,
+    "pantheon_chi2": 3e-06,
+    "pantheon_offset": 3e-09
+  }
+}

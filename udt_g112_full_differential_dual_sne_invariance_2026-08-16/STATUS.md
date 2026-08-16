@@ -1,5 +1,7 @@
 # G112 status
 
-`PREREGISTERED__NO_G112_DATA_EVALUATION_RUN`
+`BLIND_VERIFIED_WITH_CAVEATS__READY_TO_BANK`
 
-The next permitted action is the frozen fixed-shape dual-SNe replay in `PREREGISTRATION.md`.
+The fixed-shape Pantheon+ calibration non-regression and DES cross-reduction replay pass. Fresh
+zero-context review returned `VERIFIED_WITH_CAVEATS`. The result is only a conditional isotropic
+screen/transfer existence witness; it does not derive or constrain the complete kernel history.

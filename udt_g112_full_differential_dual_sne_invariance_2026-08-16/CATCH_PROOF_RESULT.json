@@ -1,0 +1,14 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "reject_appended_orchestra_correction": true,
+    "reject_complete_history_promotion": true,
+    "reject_forbidden_cosmology_fields": true,
+    "reject_moving_frozen_n": true,
+    "reject_native_flux_promotion": true,
+    "reject_pair_sky_identification": true,
+    "reject_precision_subblock": true,
+    "reject_shape_optimizer": true
+  },
+  "schema": "UDT_G112_CATCH_PROOFS_V1"
+}

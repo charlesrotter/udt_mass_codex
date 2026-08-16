@@ -1,0 +1,89 @@
+{
+  "absolute_differences": {
+    "des_chi2": 1.155285644927062e-09,
+    "des_offset": 1.4210854715202004e-14,
+    "des_prediction_mag": 1.7763568394002505e-15,
+    "pantheon_chi2": 2.3441998564521782e-08,
+    "pantheon_offset": 7.105427357601002e-15,
+    "pantheon_prediction_mag": 4.440892098500626e-15
+  },
+  "all_checks_pass": true,
+  "checks": {
+    "all_19_source_hashes": true,
+    "complete_history_not_selected": true,
+    "des_chi2_reproduced": true,
+    "des_offset_reproduced": true,
+    "des_prediction_invariant": true,
+    "des_row_count": true,
+    "flux_law_remains_conditional": true,
+    "lambdaCDM_distance_not_used": true,
+    "n_bit_identical": true,
+    "pair_and_screen_blocks_distinct": true,
+    "pantheon_chi2_reproduced": true,
+    "pantheon_offset_reproduced": true,
+    "pantheon_prediction_invariant": true,
+    "pantheon_row_count": true,
+    "phi_pair_log_scale": true,
+    "positive_screen_radius": true,
+    "shape_optimizer_not_called": true
+  },
+  "des": {
+    "chi2": 1444.1864417504896,
+    "dof": 1622,
+    "frozen_G100_status": "LOW_CHI2_COVARIANCE_OR_EFFECTIVE_DOF_WARNING",
+    "hostile_precision_subblock_abs_difference": 6.868892020960402,
+    "hostile_precision_subblock_chi2": 1451.05533377145,
+    "lower_tail_p": 0.0006144041636063324,
+    "n_data": 1623,
+    "offset_B": 41.708956602969536,
+    "status": "LOW_CHI2_COVARIANCE_OR_EFFECTIVE_DOF_WARNING",
+    "upper_tail_p": 0.9993855958363936
+  },
+  "frozen_n": 1.0559332414320268,
+  "landing": "DUAL_SNE_NUMERICAL_INVARIANCE_WITH_EXISTING_CAVEATS",
+  "maximum_conclusion": "numeric and type compatibility of one frozen conditional SNe relation only; physical complete history and flux remain open",
+  "pantheon": {
+    "chi2": 1260.8480887274916,
+    "dof": 1366,
+    "lower_tail_p": 0.020036563965825295,
+    "n_data": 1367,
+    "offset_B": 22.343528501617094,
+    "status": "COMPATIBLE",
+    "upper_tail_p": 0.9799634360341748
+  },
+  "schema": "UDT_G112_DUAL_SNE_INVARIANCE_V1",
+  "shape_optimizer_called": false,
+  "source_hashes": {
+    "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv": true,
+    "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/STAT+SYS.npz": true,
+    "Data/Pantheon+SH0ES.dat": true,
+    "Data/Pantheon+SH0ES_STAT+SYS.cov": true,
+    "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/AUDIT_REPORT.md": true,
+    "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/PREMISE_LEDGER.tsv": true,
+    "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/PREREGISTRATION.md": true,
+    "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/PRIMARY_RESULT.json": true,
+    "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/run_holdout.py": true,
+    "udt_des_sn5yr_frozen_p1_holdout_2026-08-15/verify_independent.py": true,
+    "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/BLIND_REVIEW_FOLLOWUP.md": true,
+    "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/DERIVATION_RESULT.json": true,
+    "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/EXACT_DERIVATION.md": true,
+    "udt_observed_middle_regime_pair_calibration_2026-08-15/AUDIT_REPORT.md": true,
+    "udt_observed_middle_regime_pair_calibration_2026-08-15/CALIBRATION_CONTRACT.json": true,
+    "udt_observed_middle_regime_pair_calibration_2026-08-15/PREMISE_LEDGER.tsv": true,
+    "udt_observer_exponential_full_differential_type_audit_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_observer_exponential_full_differential_type_audit_2026-08-16/EXACT_DERIVATION.md": true
+  },
+  "tolerances": {
+    "des_chi2": 2e-06,
+    "des_offset": 2e-09,
+    "pantheon_chi2": 3e-05,
+    "pantheon_offset": 3e-06,
+    "prediction_mag": 1e-12
+  },
+  "typed_interface": {
+    "pair": "Phi=log(1+z)",
+    "screen": "Dsky=lambda_A*I2",
+    "transfer": "dL=exp(2*Phi)*sqrt(det(Dsky)); CONDITIONAL"
+  }
+}

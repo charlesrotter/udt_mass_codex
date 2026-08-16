@@ -1,0 +1,11 @@
+object	status	maximum_claim
+G110_G111_distinct_block_architecture	DERIVED_CONDITIONAL	one supplied observer relation contains distinct pair and sky blocks
+P1_shape_n	OBSERVED_CONDITIONAL_FROZEN	no refit in G112
+pair_depth_Phi	CONDITIONAL_OBSERVATIONAL_IDENTIFICATION	Phi=log(1+z) for registered SNe query
+isotropic_Dsky	CONDITIONAL_REPRESENTATIVE	existence/invariance witness not selected history
+luminosity_transfer	CONDITIONAL_OBSERVATIONAL_TRANSFER	not native flux derivation
+Pantheon_replay	OBSERVED_CALIBRATION_NONREGRESSION	fixed shape compatible; not independent holdout
+DES_replay	OBSERVED	fixed shape retains low-chi2 covariance/effective-dof warning
+complete_metric_history	OPEN	no history selected
+physical_SNe_realization	OPEN	conditional screen representative only
+blind_review	VERIFIED_WITH_CAVEATS	conditional existence/non-regression claim accepted
