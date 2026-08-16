@@ -1,0 +1,69 @@
+{
+  "checks": {
+    "affine_radial_tangent": true,
+    "affine_radius_map": true,
+    "areal_X_formula": true,
+    "areal_phi_formula": true,
+    "celestial_drift_difference": true,
+    "flat_control": true,
+    "geodesic_combination": true,
+    "jacobi_equation_through_order": true,
+    "kappa_formula": true,
+    "null_cross_identity": true,
+    "null_graph_coefficients": true,
+    "null_pullback_h11": true,
+    "phase_symplectic_through_order": true,
+    "phi_pair_formula": true,
+    "phi_quotient_formula": true,
+    "rank_polynomial": true,
+    "residual_areal_time_gauge_invariants": true,
+    "schur_reconstruction": true,
+    "source_frequency_formula": true,
+    "static_reciprocal_control": true
+  },
+  "declared_order": {
+    "metric": "smooth central fixed-time two-jet",
+    "source_boundary_rank": "exact",
+    "terminal_scalars": "through R^2",
+    "vertex_jacobi": "through lambda^3"
+  },
+  "derived": {
+    "D_vertex": "-b_T*lambda**3/6 - ell*lambda**3/3 - lambda**3*n/3 + lambda",
+    "Ddot_vertex": "-b_T*lambda**2/2 - ell*lambda**2 - lambda**2*n + 1",
+    "R_lambda": "-b_T*lambda**3/6 - ell*lambda**3/3 - lambda**3*n/3 + lambda",
+    "T_path": "R**3*b**2/3 + R**3*b_T/3 + R**3*ell/3 - R**3*n/3 + R**2*b/2 + R",
+    "T_tau": "R**2*b_T/2 + 1",
+    "X": "-R**2*b**2 - 2*R**2*ell + 1",
+    "affine_KR": "-R**2*b_T/2 - R**2*ell - R**2*n + 1",
+    "beta_pair": "R**2*b**2 - R**2*b_T/2 + R**2*ell - R**2*n + R**2*w_x**2 + R**2*w_y**2 + 1",
+    "h00": "R**2*b**2 - R**2*b_T - 2*R**2*n + R**2*w_x**2 + R**2*w_y**2 - 1",
+    "h01": "-R**2*b_T/2 - R**2*ell - R**2*n - 1",
+    "h11": "0",
+    "kappa_pair": "R**2*b_T/4 + R**2*ell/2 + R**2*n/2",
+    "log_source_frequency_ratio": "R**2*b**2/2 + R**2*b_T/2 - R**2*n - R**2*q_T + R*b - R*q",
+    "optical_A": "b_T + 2*ell + 2*n",
+    "phi_areal": "R**2*b**2/2 + R**2*ell",
+    "phi_orthogonal_quotient": "R**2*b**2/2 - R**2*b_T/4 + R**2*ell/2 - R**2*n/2",
+    "phi_pair": "R**2*b**2/2 - R**2*b_T/4 + R**2*ell/2 - R**2*n/2 + R**2*w_x**2/2 + R**2*w_y**2/2",
+    "residual_time_gauge_invariants": {
+      "areal": "b**2 + 2*ell",
+      "frequency_linear": "b - q",
+      "frequency_quadratic": "b**2/2 + b_T/2 - n - q_T",
+      "optical": "b_T + 2*ell + 2*n",
+      "terminal_quotient": "b**2 - b_T/2 + ell - n"
+    },
+    "source_graph_rank_polynomial": "h_11*h_22 - h_11*q_s - h_12**2 - h_22*q_s + q_s**2"
+  },
+  "source_boundary_classification": {
+    "graph_H_rank_0": "det(H-q_s I)!=0",
+    "graph_H_rank_1": "det(H-q_s I)=0 and H!=q_s I",
+    "graph_H_rank_2": "H=q_s I",
+    "point_event_noncaustic": 0,
+    "point_event_vertical_caustic_with_nonzero_momentum": 2,
+    "resolved_screen_phase_rank": "UNDEFINED_WITHOUT_PHASE_BOUNDARY",
+    "spherical_worldtube_after_zero_order_match": "rank 2 automatically",
+    "two_spherical_observer_planes": "rank 2 iff q_i=q_j, otherwise rank 0",
+    "worldtube_zero_order_gate": "ray phase point must satisfy Khat_s=k_s before tangent rank is typed"
+  },
+  "status": "PASS"
+}

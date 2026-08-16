@@ -39,23 +39,22 @@ Following the orchestra whiteboard, G104/G105/G106 type the Jacobian channels; G
 point-observer full `dF`: pair and sky-Jacobi maps are distinct blocks and the null pair-screen block
 has rank at most one. Physical history, query ownership, and global weights remain open.
 
-G111 `udt_g111_nonflat_r17_full_differential_replay_2026-08-16/` verifies the distinct-block
-construction on a bounded nonflat complete R17 family after an exact Cartan repair and replay. G112
-`udt_g112_full_differential_dual_sne_invariance_2026-08-16/` verifies fixed-P1 roundoff-level
-non-regression on Pantheon+ and DES under the declared conditional screen/transfer; it is not a
-one-history prediction.
+G111 `udt_g111_nonflat_r17_full_differential_replay_2026-08-16/` verifies bounded nonflat controls;
+G112 `udt_g112_full_differential_dual_sne_invariance_2026-08-16/` verifies only fixed-P1 SNe
+non-regression under its conditional screen/transfer.
 
-G113 `udt_g113_metric_native_orchestra_whiteboard_2026-08-16/` is the current synthesis. The local
-metric-native assembly is one full observer differential, not an appended scalar orchestra score.
-The static central spherical chord conditionally derives `phi_pair=phi` and `D_sky=r I`, but exact
-P1 inversion as a static spatial profile has invariant `1/r` center curvature. This exposes the
-null-cone-versus-static-profile category error without rejecting the empirical P1 chord. Physical
-time-live history, source intersection, transfer, and global network ownership remain open.
+G113 `udt_g113_metric_native_orchestra_whiteboard_2026-08-16/` identifies one full observer
+differential as the local assembly, not an appended score. Its static spherical chord derives
+`phi_pair=phi` and `D_sky=r I`, but exact P1 static inversion
+has invariant `1/r` center curvature: the chord is null-cone data, not a smooth static profile.
 
-G114 `udt_g114_common_source_three_observer_network_2026-08-16/` derives the affine-aware typed
-full-phase network. Phase carry survives caustics and loop nonclosure is source-junction holonomy.
-Identity full-phase descent does not align point-observer beam planes; intersection rank is a
-metric/query compatibility descriptor. Source matching, transfer, and history remain open.
+G114 `udt_g114_common_source_three_observer_network_2026-08-16/` derives affine-aware source-phase
+composition and caustic survival without selecting beam alignment. G115
+`udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/` is
+blind `VERIFIED_WITH_CAVEATS` after repairs: modulo residual areal-time slicing, terminal/areal
+depth is quadratic while a supplied source congruence permits invariant linear frequency `b-q`.
+Active instrument sky carry can enter fixed-label depth; passive relabeling cannot. Boundary ranks
+require zero-order phase matching. Physical history and observed-redshift identification stay open.
 
 ### What is running
 
@@ -89,7 +88,9 @@ The banked evaluator conditionally derives one complete pair metric and terminal
 readout. G110 supplies distinct pair and sky-Jacobi blocks plus mixed compatibility from one full
 `dF`, without a same-`W` solder; G111 verifies a bounded nonflat family. G112 preserves the frozen
 middle chord; G113 proves the bounded static chord and P1 center obstruction; G114 closes the typed
-phase network while exposing beam compatibility. Exact and adversarial gates pass.
+phase network while exposing beam compatibility; G115 supplies its first regular time-live central
+jet and separates terminal depth from source-clock frequency. Exact and adversarial gates pass with
+the recorded method caveat.
 
 Durable verified-with-caveats parents are:
 
@@ -120,9 +121,9 @@ draft, local pair-response package, or local G88 package without a specific disp
 
 ### Next bounded action
 
-Follow G114 `NEXT_GATE.md`: freeze point-event, resolved-screen, and source-worldtube boundary
-queries separately, then run the outcome-blind regular time-live spherical jet census. Retain all
-phase, pair, mixed, caustic, and beam-intersection strata; keep both SNe outcomes sealed.
+Follow G115 `NEXT_GATE.md`: derive the calibrated source-frequency/terminal-pair junction from the
+founding reciprocal-`c_E` semantics using only the G115 gauge-invariant combinations. Keep both SNe
+outcomes sealed until the possible redshift channels and composition laws are frozen.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

@@ -110,17 +110,17 @@ corrects their same-`W` join. One supplied point-observer full `dF`, with `dV=E(
 `phi_pair`, a distinct sky-Jacobi block, and mixed compatibility. Its null pair-screen projection
 has rank at most one. Physical history, celestial field, global weights, and general queries remain open.
 
-G111 `udt_g111_nonflat_r17_full_differential_replay_2026-08-16/` verifies this architecture on a
-bounded nonflat R17 family. G112 `udt_g112_full_differential_dual_sne_invariance_2026-08-16/`
-establishes fixed-P1 Pantheon+/DES non-regression while leaving screen and transfer conditional.
-G113 `udt_g113_metric_native_orchestra_whiteboard_2026-08-16/` identifies one full observer
-differential as the local assembly. Its static central spherical subclass derives `phi_pair=phi`
-and `D_sky=r I`, but exact P1 static inversion has invariant `1/r` center curvature. The chord is
-null-cone data, not a derived smooth static profile; regular time-live realization remains open.
+G111 verifies the architecture on bounded nonflat R17 controls; G112 establishes fixed-P1 dual-SNe
+non-regression while leaving screen and transfer conditional. G113 identifies one full observer
+differential as the local assembly: its static spherical chord gives `phi_pair=phi`, but exact P1
+static inversion has invariant `1/r` center curvature, so the chord is not a smooth static profile.
 
-G114 `udt_g114_common_source_three_observer_network_2026-08-16/` derives the affine-aware typed
-phase network and caustic survival. Observer-loop holonomy is source-junction holonomy up to
-conjugacy; beam-intersection rank is compatible geometry, not physical selection.
+G114 derives affine-aware source-phase composition and caustic survival without selecting beam
+alignment. G115 `udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/`
+derives the regular central time-live jet modulo residual areal-time slicing: terminal/areal depth
+is `O(R^2)`, while a supplied source congruence permits invariant frequency `(b-q)R`. Active sky
+carry precedes fixed-label readout; passive relabeling is gauge. Physical history and the calibrated
+observed-redshift junction remain open.
 
 ## Macro observational anchors
 
@@ -148,21 +148,21 @@ closure remains open. Resume from `MASS_BRANCH_AUTHORITY_MAP.tsv`.
 
 ## Current open joints
 
-1. Physical complete history/global relation-family ownership.
-2. Live regime evolution of `B,Q,S,Y,Z` and their lawful overlaps.
-3. Complete SNe screen/flux and CMB source/population ownership.
-4. Exact `X_max` global realization and scale.
-5. Native action, source, boundary completion, carrier emergence, and stable matter.
-6. Whether bootstrap supplies a nonidentity joint global/local admissibility condition.
+1. Calibrated junction between terminal reciprocal depth and source-clock frequency.
+2. Physical complete history/global relation-family ownership.
+3. Live regime evolution of `B,Q,S,Y,Z` and their lawful overlaps.
+4. Complete SNe screen/flux and CMB source/population ownership.
+5. Exact `X_max` global realization and scale.
+6. Native action, source, boundary completion, carrier emergence, and stable matter.
+7. Whether bootstrap supplies a nonidentity joint global/local admissibility condition.
 
-These are related, but no current result proves that one missing equation closes all six.
+These are related, but no current result proves that one missing equation closes all seven.
 
 ## Bounded next actions
 
-Follow G114 `NEXT_GATE.md`: freeze point-event, resolved-screen, and source-worldtube boundary
-queries separately, then run the outcome-blind regular time-live spherical jet census with every
-phase, pair, mixed, caustic, and beam-intersection stratum live. Keep SNe sealed until the forward
-light-cone series are fixed.
+Follow G115 `NEXT_GATE.md`: derive the calibrated source-frequency/terminal-pair junction from the
+founding reciprocal-`c_E` semantics using only residual-slicing invariant combinations. Keep SNe
+sealed until the channel identity or nonuniqueness and the forward low-distance series are frozen.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "all_outputs_exactly_reproduced": true,
+    "all_scripts_report_pass": true,
+    "all_scripts_return_zero": true,
+    "preregistered_commit_is_ancestor": true,
+    "required_files": true,
+    "source_manifest_at_prereg_commit": true
+  },
+  "manifest_checks": [
+    {
+      "actual": "136a84d2bd17506712f84ad637f93623fdc208506793be4184bdb00507fa1261",
+      "ok": true,
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md"
+    },
+    {
+      "actual": "8d3baddf97fb2deafff13205b4a53ab43be33b6e1b135bbaa4f1fd1bd73e4614",
+      "ok": true,
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv"
+    },
+    {
+      "actual": "5775e093e0260ed7f6eeb5e75541149a7fdc99241554ef76dd11baec53b9ed8e",
+      "ok": true,
+      "path": "udt_timelive_spherical_areal_polarization_audit_2026-07-22/AUDIT_REPORT.md"
+    },
+    {
+      "actual": "46c49b9e96d2434ed0430af4b550271337885282603891da1c31ff657261cd1b",
+      "ok": true,
+      "path": "udt_observer_exponential_full_differential_type_audit_2026-08-16/AUDIT_REPORT.md"
+    },
+    {
+      "actual": "d517a659d77969b88eb2801433016ece3af08f1dfe8e3474cad1deb8b05a52aa",
+      "ok": true,
+      "path": "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/EXACT_DERIVATION.md"
+    },
+    {
+      "actual": "4d0500e869f95717d530eabbfbe02f499e2173c7a9d986a0fc91bead667a9c87",
+      "ok": true,
+      "path": "udt_g114_common_source_three_observer_network_2026-08-16/EXACT_DERIVATION.md"
+    },
+    {
+      "actual": "91311fa17eb13f071566485a52b99173f97cf2ba9820ef9d45bd1f73f89c4ba5",
+      "ok": true,
+      "path": "udt_g114_common_source_three_observer_network_2026-08-16/NEXT_GATE.md"
+    }
+  ],
+  "script_checks": {
+    "catch_proofs": {
+      "output_exactly_reproduced": true,
+      "reported_pass": true,
+      "returncode_zero": true
+    },
+    "independent": {
+      "output_exactly_reproduced": true,
+      "reported_pass": true,
+      "returncode_zero": true
+    },
+    "production": {
+      "output_exactly_reproduced": true,
+      "reported_pass": true,
+      "returncode_zero": true
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,13 @@
+{
+  "diff_check": "PASS",
+  "package_verifier": "PASS",
+  "premise_registry": {
+    "rows": 102,
+    "status": "PASS"
+  },
+  "pytest": {
+    "passed": 90,
+    "status": "PASS_WITH_DOCUMENTED_XFAIL",
+    "xfailed": 1
+  }
+}

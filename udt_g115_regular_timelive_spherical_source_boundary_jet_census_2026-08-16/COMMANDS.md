@@ -1,0 +1,10 @@
+# G115 commands
+
+```bash
+python3 udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/derive_regular_timelive_jets.py
+python3 udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/verify_regular_timelive_independent.py
+python3 udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/run_catch_proofs.py
+python3 udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/verify_package.py
+python3 verify_current_scientific_premises.py
+python3 -m pytest tests/
+```

@@ -158,6 +158,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G112" in block, f"G112 dual-SNe replay absent: {name}")
         require("G113" in block, f"G113 orchestra synthesis absent: {name}")
         require("G114" in block, f"G114 common-source network absent: {name}")
+        require("G115" in block, f"G115 time-live source-boundary jet absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -191,6 +192,10 @@ def validate_startup_surface(root: Path) -> None:
         require(
             "udt_g114_common_source_three_observer_network_2026-08-16/" in block,
             f"G114 package route absent: {name}",
+        )
+        require(
+            "udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/" in block,
+            f"G115 package route absent: {name}",
         )
         require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
@@ -256,6 +261,7 @@ def validate_startup_surface(root: Path) -> None:
             "G112",
             "G113",
             "G114",
+            "G115",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -270,6 +276,7 @@ def validate_startup_surface(root: Path) -> None:
             "G112",
             "G113",
             "G114",
+            "G115",
         ),
         "README.md": (
             "LIVE.md",
@@ -352,6 +359,11 @@ def validate_startup_surface(root: Path) -> None:
         "udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_observer_exponential_full_differential_type_audit_2026-08-16/AUDIT_REPORT.md",
+        "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/AUDIT_REPORT.md",
+        "udt_g112_full_differential_dual_sne_invariance_2026-08-16/AUDIT_REPORT.md",
+        "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/AUDIT_REPORT.md",
+        "udt_g114_common_source_three_observer_network_2026-08-16/AUDIT_REPORT.md",
+        "udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -368,9 +380,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 101, "premise registry must contain exactly 101 rows")
+    require(len(rows) == 102, "premise registry must contain exactly 102 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 101, "duplicate premise id")
+    require(len(by_id) == 102, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1860,6 +1872,21 @@ def main() -> None:
         == "udt_g114_common_source_three_observer_network_2026-08-16/AUDIT_REPORT.md",
         "G114 source changed",
     )
+    require(
+        by_id["G115"]["current_status"].startswith(
+            "BLIND_VERIFIED_WITH_CAVEATS__REGULAR_CENTRAL_TIMELIVE_PAIR_AND_PHASE_JETS_DERIVED"
+        ),
+        "G115 time-live jet status regressed or promoted",
+    )
+    require(by_id["G115"]["epistemic_label"] == "MIXED", "G115 label changed")
+    require("physical complete history" in by_id["G115"]["open_scope"], "G115 history promoted")
+    require("individual n ell b q called invariants" in by_id["G115"]["forbidden_regression"], "G115 residual-gauge guard absent")
+    require("source frequency silently identified" in by_id["G115"]["forbidden_regression"], "G115 frequency/depth guard absent")
+    require(
+        by_id["G115"]["controlling_source"]
+        == "udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/AUDIT_REPORT.md",
+        "G115 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1938,7 +1965,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G114-extended premise guards; PASS: 101-row premise "
+        "PASS: G115-extended premise guards; PASS: 102-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

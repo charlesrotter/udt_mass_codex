@@ -1,0 +1,24 @@
+object_or_choice	status	owner_or_definition	exclusion_or_limit
+T=c_E*t	OBSERVED_CALIBRATION	reciprocal c_E clock-ruler unit conversion	not a path selector or local signal-speed claim
+regular central areal gauge	CHOSE_LOCAL_GAUGE	X>0 spherical center plus central proper time	residual T'=T+a(T)R^2 remains; not global or valid through areal-null chart failure
+N=1+nR^2+O(R^4)	DERIVED_REGULAR_FORM	smooth spherical scalar and central proper-time normalization	n(T) remains free history data
+L=1+ellR^2+O(R^4)	DERIVED_REGULAR_FORM	elementary flatness and smooth spherical scalar	ell(T) remains free history data
+beta=bR+O(R^3)	DERIVED_REGULAR_FORM	smooth spherical radial vector parity	b(T) remains free history data
+n,ell,b and time derivatives	FREE_AND_EXPLORED_GAUGE_REPRESENTATIVES	complete declared metric-history jet modulo residual areal-time slicing	individual coefficients are not invariants; no EOM or physical history selector
+five residual-slicing combinations	DERIVED_GAUGE_INVARIANTS	terminal quotient areal optical and two frequency coefficients	local declared jet order only
+central observer worldline	CONDITIONAL_QUERY	regular spherical fixed-point worldline	not every observer or a preferred universal congruence
+outgoing radial null branch	CONDITIONAL_QUERY	chosen orientation and local branch	reversal and nonradial branches separate
+celestial drift w_A	ACTIVE_QUERY_DATA_OR_PASSIVE_GAUGE	instrument-tied transport changes pair surface; passive relabeling is removable	not historical mu_lock and not metric-selected
+source radial velocity qR	SOURCE_HISTORY_QUERY_DATA	supplied smooth spherical source congruence	not derived source matter or dynamics
+phi_pair fixed label	DERIVED_CONDITIONAL	regular pair block of supplied complete observer map	starts at R^2 in declared class; not universal scalar law
+phi_pair quotient	DERIVED_CONDITIONAL_ALTERNATE_REDUCTION	Schur complement of angular directions	not selected over fixed-label query
+phi_areal	DERIVED_CONDITIONAL_X_POSITIVE	metric areal scalar X	not equal to terminal phi on generic time-live jets
+source frequency ratio	DERIVED_CONDITIONAL	metric ray plus supplied source congruence	not silently phi_pair or a luminosity law
+angular Jacobi D=R I	DERIVED_CONDITIONAL	central spherical isometry and matched screen	noncentral and nonspherical shear outside tile
+full phase carrier	DERIVED_CONDITIONAL	Jacobi equation from supplied metric ray	no physical branch or population selection
+point event Q0	QUERY_TYPE	J_s=0 endpoint condition	no rest screen or resolved image
+resolved screen Q2	QUERY_TYPE	allowed source position tangent	no phase graph without covector or transfer
+worldtube QW	QUERY_TYPE_WITH_ZERO_ORDER_GATE	supplied worldtube flow normal orientation and null branch	ray must satisfy Khat_s=k_s before tangent rank; query data not source physics
+phase graph H	CONDITIONAL_BOUNDARY_DATA	symmetric matrix parametrizing Lagrangian boundary	no universal source law inferred
+beam intersection rank	DERIVED_CONDITIONAL_INVARIANT	nullity of H-q_o I in regular chart	compatibility descriptor not selector
+physical history source state transfer weights	OPEN	no current owner	no observational or cosmological promotion

@@ -51,30 +51,24 @@ point-observer relation from one full `dF`: its pair block owns `phi_pair`; its 
 is the sky Jacobi map. The null pair-screen projection has rank at most one. Point-vertex data are
 fixed up to matched basis gauge; physical history, query ownership, and global weights remain open.
 
-G111 `udt_g111_nonflat_r17_full_differential_replay_2026-08-16/` is
-`BLIND_VERIFIED_WITH_REPAIRS`: the distinct pair, sky, and mixed blocks survive all 192 supplied
-nonflat R17 metric controls and 1,152 directions with nonzero curvature response, retained twist,
-and mostly nonzero cubic shear. This validates the evaluator, not R17 or a physical history.
+G111 `udt_g111_nonflat_r17_full_differential_replay_2026-08-16/` verifies distinct blocks on 192
+supplied R17 controls and 1,152 directions; G112
+`udt_g112_full_differential_dual_sne_invariance_2026-08-16/` verifies only fixed-P1 SNe
+non-regression under conditional screen/transfer. Neither selects R17, P1, or a history.
 
-G112 `udt_g112_full_differential_dual_sne_invariance_2026-08-16/` is
-`BLIND_VERIFIED_WITH_CAVEATS`: retyping the frozen P1 chord changes Pantheon+ and DES predictions
-only at roundoff. This is fixed-shape non-regression under a conditional isotropic screen and
-transfer. Pantheon+ is the calibration set; DES retains its low-chi-square/effective-DOF warning.
+G113 `udt_g113_metric_native_orchestra_whiteboard_2026-08-16/` identifies one full observer
+differential as the smallest local assembly. Its static central spherical subclass derives
+`phi_pair=phi` and `D_sky=r I`, but exact P1 static inversion has invariant `1/r` center curvature:
+the observed chord is null-cone data, not a derived smooth static profile.
 
-G113 `udt_g113_metric_native_orchestra_whiteboard_2026-08-16/` supplies the current synthesis. One
-full observer differential is the smallest local metric-native assembly; its typed pair, angular,
-mixed, shear, and transport readouts do not require an appended scalar score. On the precise static
-central spherical radial-null subclass, `phi_pair=phi` and `D_sky=r I` are derived conditionally.
-But exact P1 inversion as a static spatial profile has nonzero center slope and invariant `1/r`
-curvature, so the observed null-cone chord must not be promoted to a smooth static observer-centered
-metric. Physical time-live history, source intersection, transfer, and global relation ownership
-remain open.
-
-G114 `udt_g114_common_source_three_observer_network_2026-08-16/` is
-`BLIND_VERIFIED_WITH_CAVEATS`: affine-aware phase carriers compose through typed source junctions
-and survive caustics; observer-loop nonclosure is source holonomy up to conjugacy. Full loop closure
-does not align point-observer beam planes. Their intersection rank is a metric/query compatibility
-descriptor, not a history or source selector.
+G114 `udt_g114_common_source_three_observer_network_2026-08-16/` derives affine-aware source-phase
+composition and caustic survival; loop closure does not force point-observer beam alignment. G115
+`udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/` is blind
+`VERIFIED_WITH_CAVEATS` after repairs: modulo residual areal-time slicing, terminal/areal depth is
+`O(R^2)` while a supplied source congruence permits the invariant frequency term
+`log(omega_s/omega_o)=(b-q)R+O(R^2)`. Active instrument sky drift enters before fixed-label readout;
+passive relabeling is gauge. QW needs a zero-order phase-point match before tangent rank. Physical
+history, calibrated redshift junction, source transfer, and global branch remain open.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -130,6 +124,8 @@ global relation-family ownership, dynamics, action, source, matter, bootstrap, o
 - founding reciprocal character on supplied ordered depth: `DERIVED`.
 - pointwise `phi`: presentation potential; universal physical ownership `OPEN`.
 - terminal `phi_pair`: `DERIVED` from the pair block of a supplied regular calibrated `dF`.
+- regular central time-live jet coefficients are gauge representatives; only the registered G115
+  terminal, areal, optical, and frequency combinations survive residual areal-time slicing.
 - the distinct angular block gives the sky Jacobi map; `D_sky'(0)=I` only in matched bases.
 - modern mixing is four-component `S`; G92's `mu_lock` is one supplied transition component, not a
   unique scalar; G93 keeps ambient and terminal arrows distinct.
@@ -156,10 +152,10 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Follow G114 `NEXT_GATE.md`. Freeze separate point-event, resolved-screen, and source-worldtube
-boundary query classes. Then run the outcome-blind regular time-live spherical jet census with full
-pair, phase, mixed, caustic, and beam-intersection data. SNe remain sealed until its forward
-light-cone series are fixed.
+Follow G115 `NEXT_GATE.md`. Before exposing Pantheon+ or DES, derive the calibrated junction between
+the founded reciprocal-`c_E` terminal pair channel and the separately derived source-clock frequency
+channel. Work only with residual-slicing invariants and retain nonuniqueness/type obstruction as
+valid outcomes. Then freeze the forward low-distance series for a no-refit dual-SNe exposure.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

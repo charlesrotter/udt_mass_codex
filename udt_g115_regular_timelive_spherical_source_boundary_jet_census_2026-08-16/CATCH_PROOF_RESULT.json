@@ -1,0 +1,17 @@
+{
+  "mutant_predictions": {
+    "frequency_as_terminal_phi_linear": 0.0,
+    "frequency_without_source_motion_linear": 0.23,
+    "phi_without_b_T": -0.0667,
+    "phi_without_celestial_drift": -0.05105
+  },
+  "mutations": {
+    "identifying_source_frequency_with_quadratic_phi_is_rejected": true,
+    "omitting_b_T_from_phi_is_rejected": true,
+    "omitting_celestial_drift_from_fixed_label_phi_is_rejected": true,
+    "omitting_source_congruence_from_frequency_is_rejected": true,
+    "position_caustic_does_not_delete_phase": true,
+    "rank_one_is_not_rank_two": true
+  },
+  "status": "PASS"
+}

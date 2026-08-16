@@ -1,0 +1,64 @@
+{
+  "caustic_symplectic_defect": 0.0,
+  "checks": {
+    "caustic_phase_invertible": true,
+    "caustic_phase_symplectic": true,
+    "coefficient_convergence": true,
+    "null_pullback": true,
+    "rank_controls": true
+  },
+  "expected_coefficients": {
+    "KR_R2": 0.0049999999999999906,
+    "R_lambda3": 0.0016666666666666635,
+    "T_R2": 0.115,
+    "T_R3": -0.12903333333333333,
+    "logfreq_R1": 0.35,
+    "logfreq_R2": -0.32855,
+    "phi_R2": -0.0192
+  },
+  "intersection_ranks": {
+    "graph_rank_0": 0,
+    "graph_rank_1": 1,
+    "graph_rank_2": 2,
+    "point_noncaustic": 0,
+    "point_vertical_caustic": 2,
+    "rotation_invariance": 1
+  },
+  "max_null_pullback_residual": 2.220446049250313e-16,
+  "max_relative_error": 0.00017205983982684353,
+  "method": "RK4 metric geodesic plus separate null-graph integration and matrix-rank controls",
+  "observed_coefficients": {
+    "KR_R2": 0.005000025087384361,
+    "R_lambda3": 0.0016666715308504682,
+    "T_R2": 0.11500000025851972,
+    "T_R3": -0.1290334156567144,
+    "logfreq_R1": 0.3500002312694192,
+    "logfreq_R2": -0.3286065302603751,
+    "phi_R2": -0.019200008598999004
+  },
+  "relative_errors": {
+    "KR_R2": 5.01747687408489e-06,
+    "R_lambda3": 2.9185102827945147e-06,
+    "T_R2": 2.247997561046959e-09,
+    "T_R3": 6.380008865139364e-07,
+    "logfreq_R1": 6.60769769218155e-07,
+    "logfreq_R2": 0.00017205983982684353,
+    "phi_R2": 4.4786453155751715e-07
+  },
+  "status": "PASS",
+  "witness": {
+    "b": 0.23,
+    "b_T": -0.19,
+    "b_TT": 0.13,
+    "ell": -0.08,
+    "ell_T": 0.07,
+    "n": 0.17,
+    "n_T": -0.11,
+    "q": -0.12,
+    "q_T": 0.09,
+    "w": [
+      0.14,
+      -0.21
+    ]
+  }
+}
