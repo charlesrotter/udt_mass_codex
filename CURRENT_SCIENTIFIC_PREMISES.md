@@ -94,9 +94,9 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
 - G99 freezes P1; G102-G106 type the evaluator; G107 closes the constant census; G108-G109 retain
   Jacobi/depth. G110 reconstructs distinct pair/sky blocks; G111
   proves bounded nonflat survival; G112 verifies conditional dual-SNe non-regression.
-- G113's static chord exposes P1's `1/r` center obstruction; G114's full phase carry survives
-  caustics; G115 derives the time-live central jet; G116 derives its invariant frequency/terminal
-  junction; G117 retypes SNe; G118 reduces the screen interface without selecting history or transfer.
+- G113's static chord exposes P1's `1/r` center obstruction; G114's phase carry survives caustics;
+  G115-G118 derive the live jet, frequency junction, SNe retyping, and scaffolding reduction. G119
+  proves finite-radius central-spherical `D_sky=R O`; transfer and physical history remain open.
 - Overlapping-pair compatibility is internally `VERIFIED-WITH-CAVEATS`; corrected contribution-live
   flat, monotone, and loud-quiet-loud lifts survive, but activity selects no score.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict

@@ -125,7 +125,7 @@ observed-redshift junction remain open.
 G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` derives the missing local junction without a coefficient:
 `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`. Its pure stationary reduction is exact; generic live queries retain distinct channels. G117 preserves frozen P1 dual-SNe numerics under conditional release-coordinate retyping but cannot identify terminal depth or G116 coefficients.
 
-G118 removes the independent P1 screen-matrix pin only in banked static/central-two-jet scopes: one full `dF` owns local geometry, while SNe constrains a conditional effective chord involving `R/sqrt(T)`. Transfer, history, and the finite-radius time-live theorem remain open.
+G118 removes representation scaffolding. G119 externally verifies the exact arbitrary-finite-radius central-spherical time-live theorem `D_sky=R O`, `|det D_sky|=R^2`; zero shear and rank-zero/phase-surviving caustics follow. SNe still constrains conditional `R/sqrt(T)`, so transfer and history remain open.
 ## Macro observational anchors
 
 - G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
@@ -154,7 +154,7 @@ closure remains open. Resume from `MASS_BRANCH_AUTHORITY_MAP.tsv`.
 1. Operational ownership of catalog frequency ratio and regrade of old redshift interfaces.
 2. Physical complete history/global relation-family ownership.
 3. Live regime evolution of `B,Q,S,Y,Z` and their lawful overlaps.
-4. Complete SNe screen/flux and CMB source/population ownership.
+4. Complete SNe transfer/history and CMB source/population ownership.
 5. Exact `X_max` global realization and scale.
 6. Native action, source, boundary completion, carrier emergence, and stable matter.
 7. Whether bootstrap supplies a nonidentity joint global/local admissibility condition.
@@ -163,7 +163,7 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Follow G118 `NEXT_DERIVATION.md`: prove the exact finite-radius time-live spherical `D_sky=R O` theorem and determinant, without selecting transfer or history.
+G120: recompose the frozen dual-SNe interface with exact `d_A=R` and test whether current network/reversal laws narrow transfer without assuming transparency, fitting, or selecting history.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

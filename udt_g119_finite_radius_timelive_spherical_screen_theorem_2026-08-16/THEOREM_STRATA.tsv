@@ -1,0 +1,7 @@
+stratum	D_sky	rank	area	phase_carrier	conclusion
+observer_coincidence	0	0	0	Ddot=I_in_matched_normalized_bases	vertex_not_failure
+regular_finite_R_positive	R_O	2	R_squared	invertible	finite_radius_theorem
+areal_turning_point	R_O	2	R_squared	Ddot_zero_possible	zero_expansion_not_caustic
+regular_spherical_caustic	0	0	0	Ddot_full_rank	inverse_chart_fails_phase_survives
+orientation_reversed_basis	R_O_det_minus_1	2	absolute_R_squared	invertible	signed_det_basis_dependent
+multiple_radial_preimages	R_O_branchwise	branchwise	R_squared_per_branch	branch_label_retained	weights_and_aggregation_open

@@ -58,11 +58,11 @@ require zero-order phase matching. Physical history and observed-redshift identi
 G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` derives the coefficient-free
 local frequency/depth junction; its stationary pure reciprocal branch agrees exactly while live
 queries differ. G117 `udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/` preserves frozen
-Pantheon+/DES numerics under conditional release-coordinate retyping but selects no terminal depth or history. G118
-`udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/` is blind
+Pantheon+/DES numerics under conditional release-coordinate retyping but selects no terminal depth or history. G118 `udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/` is blind
 `VERIFIED_WITH_CAVEATS`: full `dF` owns the local geometry; the independent P1 screen matrix is
-removed only in banked static/central-two-jet scopes. SNe constrains effective `R/sqrt(T)` shape,
-not radius or transfer separately; finite-radius time-live proof remains G119.
+removed in its bounded scopes. G119 `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
+is externally verified: every finite regular central-spherical time-live branch has `D_sky=R O`,
+`|det D_sky|=R^2`; SNe still sees effective `R/sqrt(T)`, not radius or transfer separately.
 ### What is running
 
 No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`.
@@ -96,8 +96,8 @@ readout. G110 supplies distinct pair and sky-Jacobi blocks plus mixed compatibil
 `dF`, without a same-`W` solder; G111 verifies a bounded nonflat family. G112 preserves the frozen
 middle chord; G113 proves the bounded static chord and P1 center obstruction; G114 closes the typed
 phase network while exposing beam compatibility; G115 supplies its first regular time-live central
-jet; G116 joins terminal depth to source frequency without a coefficient; G117 preserves the SNe
-anchor while removing their universal identification. Exact/adversarial gates pass with caveats.
+jet; G116 joins terminal depth to source frequency; G117 preserves the SNe anchor while removing
+its universal identification; G119 derives the finite-radius spherical screen. Gates pass with caveats.
 
 Durable verified-with-caveats parents are:
 
@@ -125,6 +125,6 @@ Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopp
 draft, local pair-response package, or local G88 package without a specific dispatch. Preserve all other unrelated dirt. A clean clone may show a tracked directory shell without the protected local payload; directory presence is not evidence that the unbanked work was committed.
 
 ### Next bounded action
-Follow G118 `NEXT_DERIVATION.md`: finite-radius time-live spherical `D_sky=R O` theorem; no fit or history selection.
+G120: exact dual-SNe interface recomposition with `d_A=R`; no refit, transparent transfer, or history selection.
 Historical detail is archived under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "all_exact_residuals_zero": true,
+    "areal_radius": "sqrt(2*lambda + 1)*log(2*lambda + 1)/2",
+    "direct_tidal": "1/(4*lambda**2 + 4*lambda + 1)",
+    "jacobi_residual": "0",
+    "null_residual": "0",
+    "orbit_cross_term_nonzero": true,
+    "shifted_radial_geodesic_residual": "0",
+    "time_geodesic_residual": "0"
+  },
+  "scope": "exact off-diagonal coordinate witness; covariant arbitrary-h_ab theorem remains analytic",
+  "status": "PASS"
+}

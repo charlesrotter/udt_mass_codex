@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "absolute_area_equals_rho_squared": true,
+    "caustic_derivative_rank": 2,
+    "caustic_phase_survives": true,
+    "caustic_position_rank": 0,
+    "generic_mixed_curvature_identity": true,
+    "generic_mixed_curvature_residual": "0",
+    "jacobi_residual_zero": true,
+    "optical_matrix": [
+      [
+        "rho_1/rho",
+        "0"
+      ],
+      [
+        "0",
+        "rho_1/rho"
+      ]
+    ],
+    "reflection_flips_signed_not_absolute_area": true,
+    "rotation_determinant": "1",
+    "rotation_is_orthogonal": true,
+    "shear_zero": true,
+    "twist_zero": true
+  },
+  "scope": "generic diagonal orbit chart plus exact finite-dimensional basis/caustic controls; the semantic theorem also requires the declared smooth central spherical query",
+  "status": "PASS"
+}

@@ -46,9 +46,9 @@ A flux/luminosity audit externally verifies conditionally
 
 G95/G96 retain no physical radiative population; `epsilon=1/Z` needs a carrier-covector premise and physical `eta=1` remains open.
 
-G110-G118 sharpen the architecture: one full `dF` owns pair/sky blocks; nonflat survival and SNe
-non-regression pass; P1 is not a smooth static profile; source loops compose; the regular time-live
-jet joins frequency/depth. The P1 screen matrix reduces to areal radius only in banked static/two-jet scopes; transfer/history stay open.
+G110-G119 sharpen the architecture: one full `dF` owns pair/sky blocks; source loops compose; the
+live jet joins frequency/depth; and every finite regular central-spherical branch has
+`D_sky=R O`, `|det D_sky|=R^2`. Transfer/history stay open.
 
 ## Premise memory
 
@@ -71,8 +71,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106-G113 type and assemble full-`dF` geometry. G114-G118 close the network, live jet, junction, SNe regrade, and scaffolding map.
-Next follow G118 `NEXT_DERIVATION.md`: exact finite-radius time-live spherical screen theorem.
+G106-G119 type and assemble full-`dF` geometry through the exact finite-radius spherical screen.
+Next G120 recomposes the frozen SNe interface with `d_A=R` without fitting or assuming transfer.
 
 ## Archive
 

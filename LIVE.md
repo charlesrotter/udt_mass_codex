@@ -74,8 +74,10 @@ G117 `udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/` preserves fro
 numerics under conditional release-coordinate retyping but identifies no terminal depth or history.
 G118 `udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/` is blind
 `VERIFIED_WITH_CAVEATS`: one full `dF` owns the local assembly; independent P1 screen-matrix shape is
-removed only in banked static/central-two-jet scopes. SNe constrains an effective chord involving
-`R/sqrt(T)`, not `R` or transfer `T` separately. Finite-radius time-live proof is G119.
+removed in banked static/central-two-jet scopes. G119
+`udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/` extends this exactly to every
+finite regular central-spherical time-live branch: `D_sky=R O`, `|det D_sky|=R^2`, zero shear, and
+rank-zero/phase-surviving caustics. SNe still constrains `R/sqrt(T)`, not `R` or transfer separately.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -158,8 +160,8 @@ in a clean clone does not mean the protected payload was banked; inspect Git sta
 repository and preserve every local file.
 
 ### Immediate next action
-Follow G118 `NEXT_DERIVATION.md`: prove the exact finite-radius time-live spherical screen theorem
-`D_sky=R O` and its basis-free determinant; do not select transfer, history, or data outcomes.
+G120: recompose the frozen dual-SNe interface using G119's exact `d_A=R`; audit whether existing
+network/reversal laws narrow transfer without assuming transparency, refitting, or selecting history.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,
