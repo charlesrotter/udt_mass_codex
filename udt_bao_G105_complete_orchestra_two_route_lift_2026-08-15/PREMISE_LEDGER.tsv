@@ -1,0 +1,13 @@
+id	object	status	owner_or_source	forbidden_promotion
+P01	reciprocal character on supplied ordered depth	DERIVED	founding source	complete observer relation selected
+P02	complete pair pullback before terminal readout	DERIVED_CONDITIONAL	G93 and pair-first audit	physical pair or history selected
+P03	one observer plus two source directions evaluator	DERIVED_CONDITIONAL	G102	physical source measure selected
+P04	lambda_2_factorial=lambda_tensor_lambda off diagonal	POSIT_WORKING_OBSERVATIONAL_BASELINE	G104/user hypothesis	UDT-derived source law
+P05	physical observed one-point measure p=Psi_*lambda	DERIVED_DEFINITION	measure pushforward	p nonconstant or selected
+P06	survey random reference q	OBSERVED_QUERY_INPUT	survey protocol	q automatically equals p
+P07	all B,Q,S,Y,Zeta channels remain inside V=EJ	DERIVED_CONDITIONAL	G93	unique scalar mu
+P08	common observer clock and sky typing	QUERY_CONDITIONAL	G102	preferred observer or universal congruence
+P09	local complete-pair map is zero/first-jet surjective while J is supplied	DERIVED_BOUNDED	G103	global physical no-go
+P10	global branch/critical/holonomy joint data	OPEN	G103-G104	nonzero H assumed
+P11	BOSS R2-R5 and CMB outcomes	SEALED	preregistration	mode selection or tuning
+P12	observational coefficients	DORMANT	G104	activation before native basis

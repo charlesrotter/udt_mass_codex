@@ -1,0 +1,13 @@
+gate_id	claim_under_test	failure_condition	required_landing
+F01	BOSS and CMB outcomes remain unread	any outcome curve feature covariance mode or target opened	TARGET_LEAKAGE_STOP
+F02	null source premise remains explicit	intrinsic source correlation silently introduced	SOURCE_PREMISE_VIOLATION
+F03	one-point and irreducible two-source routes remain distinct	p-q autocorrelation relabelled H or H relabelled one-point density	TYPE_FAILURE
+F04	factorized pushforward proved exactly	connected-null claim rests only on analogy	ALGEBRA_FAILURE
+F05	physical modulation distinguished from survey-systematic mismatch	all p-q differences assigned one owner	OWNERSHIP_FAILURE
+F06	complete orchestra precedes the Jacobian readout	angular or mixing correction appended after Psi	KERNEL_REGRESSION
+F07	Jacobian mode is conditional on supplied family	nonconstant physical m claimed universally	SCOPE_PROMOTION_FAILURE
+F08	common observer alone tested for H	shared endpoint or angle function called nonfactorizing without measure proof	FALSE_CONNECTION_FAILURE
+F09	no coefficient activated without a derived nonzero basis	amplitude introduced before basis ownership	FIT_FREEDOM_REJECTED
+F10	no preferred feature or imported cosmology	angle scale wavelength ruler acoustic or Lambda-CDM input used	TEMPLATE_LEAKAGE_STOP
+F11	independent exact implementation	load-bearing identities share production code	VERIFIED_WITH_CAVEATS_ONLY
+F12	premise and package verification pass	manifest provenance or startup guard fails	BANKING_STOP
