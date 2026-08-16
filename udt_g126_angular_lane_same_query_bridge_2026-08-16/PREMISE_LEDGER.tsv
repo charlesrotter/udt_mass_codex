@@ -1,0 +1,9 @@
+item	status	role	guard
+R5_angular_atlas	OBSERVED_VERIFIED_WITH_CAVEATS	catalog two-point coordinate relations	no preferred feature rank ruler significance or UDT origin
+G119_screen	DERIVED_CONDITIONALLY	central-spherical endpoint screen theorem	not nonspherical displaced extended or phase theorem
+G105_artifact_route	DERIVED_CONDITIONALLY	one-point Jacobian can modulate observed density	requires supplied history source and reference
+G106_projection	DERIVED_CONDITIONALLY	ideal reference removes radial abundance	actual finite survey reference and history open
+G103_nonselection	DERIVED_BOUNDED_NEGATIVE	regular local/source-measure freedom	not global or singular no-go
+G125_total_score	DERIVED_CONDITIONALLY	frozen P1 frequency-score constraint	not K phase or complete-history measurement
+affine_frequency_map	OPEN	would connect K to processed depth	not inferred from catalog Z
+cross_query_history	OPEN	would join spherical background to angular departures	not supplied by shared coordinates
