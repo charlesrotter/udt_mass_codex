@@ -122,7 +122,7 @@ supplied source congruence permits invariant frequency `(b-q)R`; physical histor
 
 G116 derives `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)` locally without a coefficient; G117 preserves frozen P1 dual-SNe numerics conditionally.
 
-G118-G119 derive `d_A=R`; G120 preserves both SNe replays under imported transfer. G121, G122, and G123 separate conditional scalar closure, terminal/phase evaluation, and direct common-event incidence. G124 `udt_g124_finite_radius_live_observer_transition_junction_2026-08-16/` derives `zeta=phi_pair-kappa_pair+chi_s` exactly on one supplied regular null query; `kappa_pair` owns the screen-expansion magnitude and prior G116 optical term. History, query, source clock, transfer, branch, and `X_max` remain open.
+G118-G119 derive `d_A=R`; G120 preserves both SNe replays under imported transfer. G121, G122, and G123 separate conditional scalar closure, terminal/phase evaluation, and incidence. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; `kappa_pair` owns the screen-expansion magnitude. G125 `udt_g125_exact_sne_score_history_recomposition_2026-08-16/` conditionally fixes only the frozen P1 total score, leaves allocations/history open, and proves another SNe replay would be a loop.
 
 ## Macro observational anchors
 
@@ -161,8 +161,8 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Next: recompose the conditional SNe radius-frequency interface with G124 and determine analytically
-which G117/G120 identifications survive before any new fit, profile selection, or history solve.
+Next: ponder whether G121-G124 network consistency supplies an independent equation for G125's
+terminal allocations. Stop before a solve if it only re-expresses the same scalar score.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

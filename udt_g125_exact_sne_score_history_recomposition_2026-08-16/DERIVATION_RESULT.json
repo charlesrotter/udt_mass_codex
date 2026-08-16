@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "affine_rate_family_solves_score": true,
+    "center_radius": true,
+    "center_score": true,
+    "endpoint_clock_family_solves_score": true,
+    "formal_radius_limit": true,
+    "invert_R_of_Z": true,
+    "invert_Z_of_R_on_declared_domain": true,
+    "luminosity_curve_unchanged": true,
+    "radius_monotone": true,
+    "score_formal_limit": true,
+    "score_uses_screen_rate": true,
+    "terminal_phi_allocation": true,
+    "terminal_screen_rate_allocation": true,
+    "terminal_source_clock_allocation": true,
+    "two_parameter_split_family": true,
+    "zeta_is_log_Z_of_R": true
+  },
+  "exact_objects": {
+    "R_of_Z": "X*n*(1 - 1/Z**(2/n))",
+    "Z_of_R": "(-R/(X*n) + 1)**(-n/2)",
+    "affine_rate_family": "|K(R)| = exp(2[zeta(R)-phi_pair(R)-chi_s(R)])",
+    "conditional_luminosity_curve": "X*Z**2*n*(1 - 1/Z**(2/n))",
+    "joined_score": "phi_pair + (1/2)log|K(R)| + chi_s = zeta(R)",
+    "two_parameter_terminal_allocation_family": {
+      "abs_K_R": "exp(2*(1-a-b)*zeta(R))",
+      "chi_s": "b*zeta(R)",
+      "phi_pair": "a*zeta(R)"
+    },
+    "zeta_of_R": "-n*log(-R/(X*n) + 1)/2"
+  },
+  "landing": "EXACT_CONDITIONAL_SNE_SCORE_RECOMPOSITION__G120_NUMERICAL_INTERFACE_UNCHANGED__P1_IDENTIFIES_ONLY_ZETA_OF_R_EQUALS_MINUS_N_OVER_TWO_LOG_ONE_MINUS_R_OVER_RINF__G124_RETYPES_THIS_AS_PHI_PLUS_HALF_LOG_ABS_K_PLUS_CHI__TERMINAL_SCREEN_SOURCE_DECOMPOSITION_AND_COMPLETE_HISTORY_NOT_SELECTED__NO_LIKELIHOOD_REPLAY_JUSTIFIED",
+  "status": "PASS"
+}

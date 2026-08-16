@@ -78,7 +78,7 @@ regular central-spherical branch `D_sky=R O`, `|det D_sky|=R^2`. G120
 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/` is blind verified:
 with explicitly imported `eta=1,epsilon=1/Z`, `d_L=Z^2R`; frozen P1 becomes one outgoing `Z>1`
 conditional radius-frequency curve and preserves both SNe replays. G121 is blind verified and finds local matched
-identities and conditional pair-scalar closure only. G122 keeps terminal pair and causal phase distinct. G123 derives the exact incidence graph for a supplied common-event query. G124 `udt_g124_finite_radius_live_observer_transition_junction_2026-08-16/` is blind verified: `zeta=phi_pair-kappa_pair+chi_s` exactly on its supplied finite-radius null query, with `kappa_pair` owning the G119 screen-expansion magnitude and G116 optical term. It selects no history, query, source clock, transfer, branch, or `X_max`.
+identities and conditional pair-scalar closure only. G122 keeps terminal pair and causal phase distinct. G123 derives the supplied common-event incidence graph. G124 derives the exact finite-radius score `zeta=phi_pair-kappa_pair+chi_s`. G125 `udt_g125_exact_sne_score_history_recomposition_2026-08-16/` is blind verified: frozen P1 conditionally constrains the total `phi_pair+log|K|/2+chi_s`, leaves its terminal allocations/history open, and changes no SNe prediction by identity. `R_inf` is not `X_max`.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -160,7 +160,7 @@ Some protected directories have tracked shells plus local untracked payloads. Di
 does not prove banking; inspect Git status and preserve every local file.
 
 ### Immediate next action
-Recompose the conditional SNe radius-frequency interface with G124's exact junction and decide analytically which G117/G120 identifications survive before any new fit or history solve.
+Ponder—before another solve—whether G121-G124 co-present network consistency supplies an independent equation for G125's terminal allocations. Stop if it only restates the same score.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

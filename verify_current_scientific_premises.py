@@ -168,6 +168,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G122" in block, f"G122 common-dependency type result absent: {name}")
         require("G123" in block, f"G123 common-event incidence result absent: {name}")
         require("G124" in block, f"G124 finite-radius live junction absent: {name}")
+        require("G125" in block, f"G125 exact SNe total-score result absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -245,6 +246,11 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g124_finite_radius_live_observer_transition_junction_2026-08-16/" in block
             or "G124" in block,
             f"G124 package route absent: {name}",
+        )
+        require(
+            "udt_g125_exact_sne_score_history_recomposition_2026-08-16/" in block
+            or "G125" in block,
+            f"G125 package route absent: {name}",
         )
         require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
@@ -325,6 +331,7 @@ def validate_startup_surface(root: Path) -> None:
             "G122",
             "G123",
             "G124",
+            "G125",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -349,6 +356,7 @@ def validate_startup_surface(root: Path) -> None:
             "G122",
             "G123",
             "G124",
+            "G125",
         ),
         "README.md": (
             "LIVE.md",
@@ -457,9 +465,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 111, "premise registry must contain exactly 111 rows")
+    require(len(rows) == 112, "premise registry must contain exactly 112 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 111, "duplicate premise id")
+    require(len(by_id) == 112, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2228,6 +2236,47 @@ def main() -> None:
         == "udt_g124_finite_radius_live_observer_transition_junction_2026-08-16/AUDIT_REPORT.md",
         "G124 source changed",
     )
+    require(
+        by_id["G125"]["current_status"].startswith(
+            "BLIND_VERIFIED_WITH_REPAIRS__EXACT_CONDITIONAL_SNE_TOTAL_SCORE_DERIVED"
+        ),
+        "G125 total-score status regressed or promoted",
+    )
+    require(by_id["G125"]["epistemic_label"] == "MIXED", "G125 label changed")
+    require(
+        "terminal phi screen-rate and source-clock allocation"
+        in by_id["G125"]["open_scope"],
+        "G125 allocation boundary absent",
+    )
+    require(
+        "conditional P1 total score called a universal live UDT history constraint"
+        in by_id["G125"]["forbidden_regression"],
+        "G125 conditional-history guard absent",
+    )
+    require(
+        "exact frozen functional continuation called observational support outside evaluated SNe range"
+        in by_id["G125"]["forbidden_regression"],
+        "G125 observational-range guard absent",
+    )
+    require(
+        "terminal allocation witnesses called realized histories"
+        in by_id["G125"]["forbidden_regression"],
+        "G125 terminal/global guard absent",
+    )
+    require(
+        "Rinf called Xmax" in by_id["G125"]["forbidden_regression"],
+        "G125 Xmax guard absent",
+    )
+    require(
+        "likelihoods claimed newly revalidated rather than unchanged by identity"
+        in by_id["G125"]["forbidden_regression"],
+        "G125 anti-loop guard absent",
+    )
+    require(
+        by_id["G125"]["controlling_source"]
+        == "udt_g125_exact_sne_score_history_recomposition_2026-08-16/AUDIT_REPORT.md",
+        "G125 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2306,7 +2355,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G124-extended premise guards; PASS: 111-row premise "
+        "PASS: G125-extended premise guards; PASS: 112-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
