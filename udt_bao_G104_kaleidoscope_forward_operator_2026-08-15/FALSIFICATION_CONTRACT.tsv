@@ -1,0 +1,13 @@
+gate_id	preregistered_gate	failure_condition	required_landing
+F01	BOSS outcomes remain unread during derivation	any R2-R5 outcome descriptor covariance feature or array opened	TARGET_LEAKAGE_STOP
+F02	null source premise remains explicit	intrinsic source correlation silently introduced	SOURCE_PREMISE_VIOLATION
+F03	factorized theorem proved from measures not analogy	connected null asserted without exact derivation	TYPE_OR_ALGEBRA_FAILURE
+F04	random catalogs carry mask selection only	UDT response silently inserted into or removed from randoms	RANDOM_OWNER_FAILURE
+F05	every coefficient multiplies a derived nonzero mode	coefficient exists before its basis function	FIT_FREEDOM_REJECTED
+F06	maximum coefficient count is two primary plus two nested	additional amplitude phase width frequency or offset added	BUDGET_VIOLATION
+F07	no preferred angle ruler or oscillatory template	feature position or acoustic interpretation inserted	TEMPLATE_LEAKAGE_STOP
+F08	local compatibility distinguished from connected physics	overlap or Gram identity called a nonfactorizing K2 without proof	OWNERSHIP_FAILURE
+F09	branch correlation distinguished from independent thinning	independent branch choice called multiple-image connectedness	BRANCH_TYPE_FAILURE
+F10	global and critical scope retained	local null promoted to generic no-go	SCOPE_PROMOTION_FAILURE
+F11	CMB remains sealed	CMB used to select or tune a mode	CONSILIENCE_LEAKAGE_STOP
+F12	independent exact implementation	load-bearing connected measure not independently reconstructed	VERIFIED_WITH_CAVEATS_ONLY

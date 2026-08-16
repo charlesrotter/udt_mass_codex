@@ -1,0 +1,11 @@
+class_id	candidate	question	positive_return	negative_return
+K01	factorized_regular_pushforward	Does K2=K1 tensor K1 preserve the null factorial measure?	exact nonzero connected term	exact Cobs=0
+K02	full_selection_randoms	What does Landy-Szalay return when randoms trace nu1?	nonzero residual not caused by normalization	exact null
+K03	mask_only_randoms	Can omitted geometry-induced one-point modulation create an apparent pair curve?	exact autocorrelation term	constant modulation only or null
+K04	independent_stochastic_branch_choice	Does independent one-image branch choice create connected pairs?	exact connected term	Poisson mapping null
+K05	correlated_multiimage_branches	Do jointly realized branches create same-parent or connected cross-branch pairs?	exact nonfactorizing branch kernel	no lawful joint branch term
+K06	common_observer_complete_overlap	Do shared E and overlap constraints alone create K2 not equal to K1 tensor K1?	exact connected complete-pair mode	compatibility only
+K07	joint_Gram_restriction	Does finite-dimensional simultaneous realizability select a pair histogram?	nontrivial excluded observable family	realizability only
+K08	global_critical_holonomy	Does existing global evidence own branch relations or weights?	exact owned connected mode	permitted but unowned
+K09	coefficient_homes	Which preregistered native amplitudes have nonzero derived basis functions?	activate only derived modes	dormant coefficient
+K10	observational_exposure_gate	Is a forward family defined without outcome information?	frozen executable family and split contract	stop before BOSS
