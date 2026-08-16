@@ -1,0 +1,41 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "atlas_independence": true,
+    "caustic_typed": true,
+    "character": true,
+    "matrix_composition": true,
+    "middle_reset": true,
+    "nonlinear_join": true,
+    "pure_reciprocal": true,
+    "reversal": true,
+    "scalar_composition": true,
+    "terminal_phi": true,
+    "turning_depth_noninjective": true,
+    "zero_rate_typed": true
+  },
+  "hostile": {
+    "caustic_determinant": 0.0,
+    "caustic_inverse_rejected": true,
+    "noninjective_turning_depth": true,
+    "omitted_reset_nonzero": true,
+    "pure_reciprocal_residual": 0.0,
+    "reset_restored_residual": 0.0,
+    "zero_rate_endpoint_delta": 1.0,
+    "zero_rate_local_parameter_rejected": true,
+    "zero_rate_phi_dot_residual": 0.0,
+    "zero_rate_screen_log_area_dot": 2.000000000000667
+  },
+  "network": {
+    "character_residual": 2.7755575615628914e-17,
+    "matrix_composition_exact": true,
+    "reversal_residual": 2.7755575615628914e-17,
+    "scalar_composition_residual": 2.7755575615628914e-17
+  },
+  "nonlinear": {
+    "maximum_finite_difference_join_residual": 3.042849305856521e-11,
+    "maximum_independent_atlas_residual": 2.7755575615628914e-17,
+    "maximum_phi_recovery_residual": 1.1102230246251565e-16
+  },
+  "schema": "UDT_G109_INDEPENDENT_JOIN_VERIFICATION_V1"
+}

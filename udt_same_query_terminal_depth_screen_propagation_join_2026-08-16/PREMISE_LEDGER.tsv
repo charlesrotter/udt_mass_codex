@@ -1,0 +1,13 @@
+premise_id	statement	status	use
+P01	D(delta)=diag(exp(-delta),exp(+delta)) on supplied ordered depth	DERIVED	founded reciprocal normalization
+P02	h is the complete pullback metric of one supplied calibrated pair query	CONDITIONAL	terminal evaluator input
+P03	h00<0 and det(h)<0	FREE_AND_EXPLORED	regular terminal stratum
+P04	T and L are the unique positive clock and orthogonal-ruler densities of h	DERIVED	terminal reciprocal coordinate
+P05	all endpoints and middle states belong to one literally matched calibration family	CONDITIONAL	endpoint descent
+P06	W=Q(SY+Z) is the screen block of the same query	CONDITIONAL	complete orchestra tie
+P07	the supplied query identifies W with its regular Jacobi screen map	CONDITIONAL	G108 propagation tie
+P08	det(W) is nonzero on the tested interval	FREE_AND_EXPLORED	regular screen stratum
+P09	dot(phi_pair) is nonzero only where phi_pair is used as local parameter	FREE_AND_EXPLORED	local reparameterization
+P10	c_E is the observed clock/ruler calibration	OBSERVED	units and endpoint ratio
+P11	physical history query branch and initial screen	OPEN	not selected
+P12	observational outcome Xmax bootstrap action source matter or signalling	SEALED	not used

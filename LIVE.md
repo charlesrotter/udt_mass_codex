@@ -63,8 +63,8 @@ G104 proves the factorized intrinsic null; G105 derives the conditional complete
 G106 is externally `VERIFIED_WITH_CAVEATS`: its ideal reference removes pure radial abundance while
 depth-dependent angular response survives. One history constrains all windows; that history, its basis/coefficients, and outcomes remain open.
 The whiteboard's exact joint-flow grammar `dV=E(dJ+E^-1dE J)` remains an identity, not a score.
-G107's constant reciprocal-extension census leaves one conditional screen-dilation weight. G108 package
-`udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/` is externally verified: when the supplied query identifies `W=Q(SY+Z)` with its Jacobi screen map, `a_eff=(1/2)d_delta log|det W|` is propagated by the metric and initial data, not independently fitted. This is not a universal distance-only law; history, query, branch, initial screen, and `delta(lambda)` remain supplied/open.
+G107's constant reciprocal-extension census leaves one conditional screen-dilation weight. G108 `udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/`
+propagates it from the supplied Jacobi screen. G109 `udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/` is externally verified: inside one matched regular query, `delta(lambda;lambda0)=phi_pair(lambda)-phi_pair(lambda0)`, so G108's local depth map is no longer independent. Physical history, query, branch, initial screen, and global descent remain open.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
@@ -161,7 +161,7 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Keep outcomes sealed. Test whether the same supplied pair query owns `delta(lambda)` through its terminal `phi_pair`, then propagate the full expansion/shear screen response; do not fit a score.
+Keep outcomes sealed. Retain and classify the full `2x2` expansion/shear screen response in terminal `phi_pair`; do not fit a score or select history/query/branch/initial data.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

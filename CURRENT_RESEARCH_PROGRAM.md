@@ -122,10 +122,10 @@ conditional evaluation path, not a physical history, native radiation law, all-s
 G98 retains exact contribution-live flat, monotone, and loud-quiet-loud continuations but selects none. G99 freezes P1 as an observed conditional middle chord, not a history or transfer.
 G100 tests it on DES-SN5YR/Dovekie: externally verified conditional non-rejection, low-chi-square reference warning, and about `1.64 sigma` secondary shape shift.
 
-G107 closes the constant reciprocal-extension census at zero order. G108 then derives the surviving
-screen-volume rate conditionally: if the supplied query makes `W=Q(SY+Z)` its Jacobi screen map,
-`a_eff=(1/2)d_delta log|det W|` follows from metric propagation and initial data. It is not a universal
-distance law; the physical history, query, branch, initial screen, and `delta(lambda)` remain open.
+G107 closes the constant reciprocal-extension census. G108 propagates the conditional screen rate.
+G109 then joins its depth to the same query's terminal metric: `delta=lambda difference of phi_pair`,
+so `a_eff=tr(Wdot W^-1)/(2 phidot_pair)` has no separately supplied local depth map on a matched
+regular interval. Physical history, query, branch, initial screen, and global descent remain open.
 ## Macro observational anchors
 
 - G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
@@ -163,7 +163,7 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-G102-G106 establish the evaluator through the sky/depth projector; G107-G108 continue through conditional propagated screen volume. Next test whether the same supplied pair query owns `delta(lambda)` through terminal `phi_pair`, then retain the full expansion/shear response from `dV=E(dJ+E^-1dE J)`. Keep outcomes sealed and fit nothing.
+G102-G106 establish the evaluator through the sky/depth projector; G107-G109 continue through conditional propagated screen volume and same-query terminal depth. Next retain and classify the full `2x2` expansion/shear response from `dV=E(dJ+E^-1dE J)` in terminal `phi_pair`. Keep outcomes sealed and fit nothing.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

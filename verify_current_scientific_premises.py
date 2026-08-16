@@ -152,6 +152,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G106" in block, f"G106 sky-depth projector result absent: {name}")
         require("G107" in block, f"G107 representation census absent: {name}")
         require("G108" in block, f"G108 screen propagation result absent: {name}")
+        require("G109" in block, f"G109 same-query depth join absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -161,6 +162,10 @@ def validate_startup_surface(root: Path) -> None:
             "udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/" in block
             or "propagated screen" in block.lower(),
             f"G108 package route absent: {name}",
+        )
+        require(
+            "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/" in block,
+            f"G109 package route absent: {name}",
         )
         require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
@@ -196,6 +201,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_bao_G106_complete_sky_depth_reference_projection_2026-08-15/",
             "udt_orchestra_score_whiteboard_2026-08-15/",
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/",
+            "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/",
             "After orientation",
             "verify_current_scientific_premises.py",
         ),
@@ -214,6 +220,7 @@ def validate_startup_surface(root: Path) -> None:
             "G106",
             "G107",
             "G108",
+            "G109",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -222,6 +229,7 @@ def validate_startup_surface(root: Path) -> None:
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "G107",
             "G108",
+            "G109",
         ),
         "README.md": (
             "LIVE.md",
@@ -300,6 +308,9 @@ def validate_startup_surface(root: Path) -> None:
         "udt_bao_G104_kaleidoscope_forward_operator_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_bao_G105_complete_orchestra_two_route_lift_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_bao_G106_complete_sky_depth_reference_projection_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_complete_reciprocal_representation_extension_census_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -316,9 +327,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 95, "premise registry must contain exactly 95 rows")
+    require(len(rows) == 96, "premise registry must contain exactly 96 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 95, "duplicate premise id")
+    require(len(by_id) == 96, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1693,6 +1704,26 @@ def main() -> None:
         "G108 source changed",
     )
     require("G108_FRESH_SEALED_REVIEW_AND_CORRECTED_FOLLOWUP_VERIFY" in by_id["G108"]["precedence_rule"], "G108 precedence absent")
+    require(
+        by_id["G109"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__CONDITIONAL_SAME_QUERY_DEPTH_JOIN_DERIVED"
+        ),
+        "G109 same-query depth status regressed or promoted",
+    )
+    require(by_id["G109"]["epistemic_label"] == "MIXED", "G109 label changed")
+    require("physical complete metric history and observer query" in by_id["G109"]["open_scope"], "G109 history/query promoted")
+    require("branch and initial screen" in by_id["G109"]["open_scope"], "G109 branch/initial data promoted")
+    require("global endpoint descent" in by_id["G109"]["open_scope"], "G109 global descent promoted")
+    require("conditional same-query endpoint depth called a universal spacetime scalar" in by_id["G109"]["forbidden_regression"], "G109 universal-scalar guard absent")
+    require("matched middle calibration omitted" in by_id["G109"]["forbidden_regression"], "G109 middle-reset guard absent")
+    require("through dot(phi_pair)=0" in by_id["G109"]["forbidden_regression"], "G109 turning-point guard absent")
+    require("through det(W)=0" in by_id["G109"]["forbidden_regression"], "G109 caustic guard absent")
+    require(
+        by_id["G109"]["controlling_source"]
+        == "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G109 source changed",
+    )
+    require("G109_TWO_SEALED_REVIEWS_VERIFY" in by_id["G109"]["precedence_rule"], "G109 precedence absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1771,7 +1802,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G108-extended premise guards; PASS: 95-row premise "
+        "PASS: G109-extended premise guards; PASS: 96-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

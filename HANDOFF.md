@@ -34,7 +34,7 @@ chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncert
 G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS` at `chi2=1444.18644/1622` nominal dof. G101 retains only the two-source query and local maser slope lead from `grok2`.
 G102 externally verifies the conditional two-chord join. G103 externally verifies that the frozen regular local/first-jet equations retain only legal sky/network/measure assembly and select no nontrivial source-independent pattern once `J` and source pairing are released. This is not a global no-go; critical/topological, bootstrap, and joint source-history laws remain open.
 
-G104/G105 verify the factorized null/Jacobian channel. G106 verifies ideal reference removal of radial abundance. Following the orchestra whiteboard, G107 closes the constant reciprocal-extension census. G108 `udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/` is externally verified: for a supplied query tying `W=Q(SY+Z)` to its Jacobi screen, `a_eff=(1/2)d_delta log|det W|` is a propagated output. History, query, initial screen, branch, and `delta(lambda)` remain supplied/open.
+G104/G105 verify the factorized null/Jacobian channel. G106 verifies ideal reference removal of radial abundance. Following the orchestra whiteboard, G107 closes the constant reciprocal-extension census; G108 `udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/` propagates the supplied Jacobi screen. G109 `udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/` is externally verified: within one matched regular query, terminal `phi_pair` supplies G108's depth map. History, query, initial screen, branch, and global descent remain open.
 
 ### What is running
 
@@ -121,7 +121,7 @@ draft, local pair-response package, or local G88 package without a specific disp
 
 ### Next bounded action
 
-Keep outcomes sealed; test same-query ownership of `delta(lambda)` through terminal `phi_pair`, then the full expansion/shear response. Fit nothing.
+Keep outcomes sealed; retain the full `2x2` expansion/shear response in terminal `phi_pair`. Fit nothing and select no history, query, branch, or initial screen.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

@@ -1,0 +1,12 @@
+object	status	maximum_claim
+terminal_phi_pair	DERIVED_CONDITIONAL	unique reciprocal coordinate of supplied regular pair metric
+same_query_delta	DERIVED_CONDITIONAL	endpoint difference of phi_pair on one matched calibrated family
+endpoint_composition	DERIVED_CONDITIONAL	exact for literally matched middle state
+independent_middle_reset	DERIVED_REQUIRED	must be carried when pair tapes are rebuilt independently
+G108_depth_map	DERIVED_CONDITIONAL	delta_dot equals phi_pair_dot on regular same-query interval
+screen_volume_rate	DERIVED_CONDITIONAL	trace(Wdot W^-1)/(2 phi_pair_dot)
+zero_phi_rate	DERIVED_DEGENERATE	endpoint depth remains but local phi parameter fails
+physical_history_query_branch	OPEN	no selection theorem
+global_endpoint_descent	OPEN	no arbitrary path or all-query theorem
+observational_outcome	SEALED	no BAO CMB SNe or Xmax conclusion
+external_review	PASSED_WITH_CAVEATS	two passes accepted central algebra and all registered repairs

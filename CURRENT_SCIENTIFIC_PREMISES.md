@@ -91,7 +91,7 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   native transfer, all other geometries, all-sky ownership, and `X_max` remain open.
 - Complete-history continuation ownership: G98 internally verifies exact contribution-live flat,
   monotone, and loud-quiet-loud survivors; quiet middle is permitted, not selected or a generic no-go.
-- G99 freezes the observed conditional P1 middle calibration; G102-G107 type the evaluator through the constant reciprocal-extension census. G108 externally derives the propagated screen-volume rate `a_eff=(1/2)d_delta log|det Q(SY+Z)|` only when a supplied query identifies that same block as its Jacobi screen. History, query, branch, initial screen, and depth map remain supplied/open; no physical score, coefficient, BAO prediction, ruler, or `X_max` follows.
+- G99 freezes the observed conditional P1 middle calibration; G102-G107 type the evaluator through the constant reciprocal-extension census. G108 propagates the supplied Jacobi screen; G109 externally joins its local depth to terminal `phi_pair` inside one matched regular query. History, query, branch, initial screen, and global descent remain supplied/open; no physical score, coefficient, BAO prediction, ruler, or `X_max` follows.
 - Overlapping-pair live compatibility: internally `VERIFIED-WITH-CAVEATS`; exact chart, shared-clock,
   middle-state, and joint-Gram consistency laws derived conditionally. The original “fully live”
   wording was corrected; stricter flat, monotone, and loud-quiet-loud lifts are contribution-live

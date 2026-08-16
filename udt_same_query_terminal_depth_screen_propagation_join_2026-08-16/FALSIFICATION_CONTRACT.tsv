@@ -1,0 +1,11 @@
+gate_id	test	pass_condition	failure_meaning
+F01	terminal decomposition replay	phi_pair equals one half log(L/T)	factor or sign error
+F02	endpoint transition character	Delta phi equals minus one half log diagonal-ratio	terminal depth does not realize founded character
+F03	matched three-state composition	Delta phi_02 equals Delta phi_01 plus Delta phi_12	endpoint potential does not compose
+F04	reversal	Delta phi_ji equals minus Delta phi_ij	ordered depth type fails
+F05	common-scale mutation	Delta phi unchanged	common scale contaminated reciprocal depth
+F06	passive screen rotation mutation	terminal scalar and area rate unchanged	screen gauge contaminated joined readout
+F07	pure reciprocal normalization	phi_pair equals supplied reciprocal parameter	new sign unit or coefficient required
+F08	nonlinear same-query history	direct half log-area derivative divided by phi_dot equals joined G108 expression	depth-map join is algebraically false
+F09	independent middle reset mutation	omitting reset is detected	unmatched tapes silently composed
+F10	zero-rate stratum	endpoint Delta phi remains defined but phi is rejected as local parameter	degeneracy misclassified
