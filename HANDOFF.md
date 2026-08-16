@@ -31,9 +31,9 @@ G98's exact flat, monotone, and loud-quiet-loud histories survive; `PERMITTED_NO
 quiet middle lawful, not selected. G99 freezes verified P1 once as an `OBSERVED/CONDITIONAL` middle
 chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncertainty remain open.
 
-G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS`, conditional non-rejection
-at `chi2=1444.18644/1622 nominal dof`, low-chi-square reference warning, and `1.64 sigma` secondary
-shape shift. Read its `AUDIT_REPORT.md` and `EXTERNAL_REVIEW.md` before interpretation.
+G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS` at `chi2=1444.18644/1622`
+nominal dof. G101 partially integrates `grok2`: retain a two-source observer query and local maser
+slope lead; reject its `X_max`, tanh, flux, scalar-`mu`, and stale-startup promotions.
 ### What is running
 
 No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`.
@@ -121,9 +121,8 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-Derive and preregister the BAO observer-angle map without reading BAO curves or importing a standard
-ruler. Then test frozen G99/G100 as a holdout with no SNe retuning, history promotion, or `X_max`
-inference.
+Derive and preregister the G101 observer-plus-two-source BAO map without reading BAO curves or a ruler.
+Then test frozen G99/G100 with no SNe retuning, history promotion, or `X_max` inference.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 

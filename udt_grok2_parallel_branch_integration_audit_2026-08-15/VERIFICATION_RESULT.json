@@ -1,0 +1,13 @@
+{
+  "X_eff_Mpc": 2085.9586748597476,
+  "central_fractional_difference": 0.028393756804484888,
+  "checks": 7,
+  "maser_c_over_H0_Mpc": 4056.731502029769,
+  "maser_c_over_H0_sigma_Mpc": 164.6846347238066,
+  "matched_asymptote_ratio_tanh_over_p1": 1.8940591332153314,
+  "matched_tanh_X_Mpc": 4171.917349719495,
+  "n": 1.0559332414320268,
+  "p1_origin_slope_Mpc": 4171.917349719495,
+  "p1_radius_asymptote_Mpc": 2202.6331050379085,
+  "status": "PASS"
+}

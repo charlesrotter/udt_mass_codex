@@ -161,7 +161,7 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Keep the observational residual atlas paused; derive and preregister a BAO observer-angle map
+Keep the observational residual atlas paused; derive and preregister G101's observer-plus-two-source BAO map
 without reading BAO curves or importing a ruler, then expose G99/G100 once with no SNe retuning.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism

@@ -61,7 +61,7 @@ G99 freezes P1 as an `OBSERVED/CONDITIONAL` middle chord, not a complete history
 unchanged shape on 1623 DES-SN5YR/Dovekie rows with the correct marginal covariance:
 `VERIFIED_WITH_CAVEATS__FROZEN_P1_NOT_REJECTED__LOW_CHI2_REFERENCE_WARNING`. A sealed adversary
 reproduced `chi2=1444.18644/1622 nominal dof`; the processed-release chi-square is approximate. The
-secondary shift is `1.64 sigma`. No direct Lambda-CDM distance, scale, `X_max`, history, or UDT proof follows.
+secondary shift is `1.64 sigma`. G101 partially integrates `grok2`: its corrected two-source query and a local megamaser-slope lead survive; its `X_max`, tanh, flux, scalar-`mu`, and startup promotions do not.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
@@ -160,7 +160,7 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Derive and preregister the BAO observer-angle map without reading BAO curves or importing a ruler;
+Derive and preregister the G101 observer-plus-two-source BAO map without reading BAO curves or a ruler;
 then expose frozen G99/G100 with no SNe retuning, `X_max`, or history promotion.
 
 ### Archive

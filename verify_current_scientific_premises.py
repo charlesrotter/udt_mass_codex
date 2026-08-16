@@ -144,6 +144,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G97" in block, f"G97 SNe control result absent: {name}")
         require("G98" in block, f"G98 continuation ownership result absent: {name}")
         require("G99" in block, f"G99 calibration result absent: {name}")
+        require("G101" in block, f"G101 grok2 integration result absent: {name}")
 
     for token in (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
@@ -263,6 +264,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/SNE_EXTERNAL_REVIEW_ADJUDICATION.md",
         "udt_complete_history_regime_continuation_ownership_audit_2026-08-15/AUDIT_REPORT.md",
         "udt_observed_middle_regime_pair_calibration_2026-08-15/AUDIT_REPORT.md",
+        "udt_grok2_parallel_branch_integration_audit_2026-08-15/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -279,9 +281,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 87, "premise registry must contain exactly 87 rows")
+    require(len(rows) == 88, "premise registry must contain exactly 88 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 87, "duplicate premise id")
+    require(len(by_id) == 88, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1512,6 +1514,23 @@ def main() -> None:
         "G99 source changed",
     )
     require("G99_FREEZES_THE_ALREADY_VERIFIED_P1_CENTRAL_LUMINOSITY_RELATION" in by_id["G99"]["precedence_rule"], "G99 precedence absent")
+    require(
+        by_id["G101"]["current_status"]
+        == "INTERNALLY_VERIFIED_WITH_CAVEATS__PARTIAL_CONCEPTUAL_INTEGRATION_ONLY__OBSERVER_CENTERED_TWO_SOURCE_BAO_QUERY_CLARIFIED__MEGAMASER_LOCAL_SLOPE_SOURCE_LEAD__NO_BRANCH_MERGE_OR_XMAX_PROMOTION",
+        "G101 integration status regressed or promoted",
+    )
+    require(by_id["G101"]["epistemic_label"] == "MIXED", "G101 integration label changed")
+    require("raw megamaser table and uncertainty replay" in by_id["G101"]["open_scope"], "G101 raw maser replay promoted")
+    require("profile selection" in by_id["G101"]["open_scope"], "G101 profile selection promoted")
+    require("tanh profile called derived" in by_id["G101"]["forbidden_regression"], "G101 tanh guard absent")
+    require("c over H0 or nearby maser slope identified with Xmax" in by_id["G101"]["forbidden_regression"], "G101 Xmax guard absent")
+    require("single Earth-source arrow called a two-point angular statistic" in by_id["G101"]["forbidden_regression"], "G101 query-type guard absent")
+    require(
+        by_id["G101"]["controlling_source"]
+        == "udt_grok2_parallel_branch_integration_audit_2026-08-15/AUDIT_REPORT.md",
+        "G101 source changed",
+    )
+    require("G101_RETAINS_ONLY_THE_CORRECTED_OBSERVER_CENTERED_TWO_SOURCE_QUERY" in by_id["G101"]["precedence_rule"], "G101 precedence absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1590,7 +1609,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: 99 premise guards (legacy package-gate compatibility); PASS: 87-row premise "
+        "PASS: G101-extended premise guards; PASS: 88-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
