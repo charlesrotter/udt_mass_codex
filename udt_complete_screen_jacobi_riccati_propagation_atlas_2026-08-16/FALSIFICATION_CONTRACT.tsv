@@ -1,0 +1,8 @@
+gate	positive_requirement	falsifying_return	maximum_interpretation
+area_identity	2*a_eff equals d_delta log(abs(det W)) on every regular control	nonzero exact or above-tolerance residual	proposed identification rejected
+jacobi_riccati_equivalence	matrix and trace rates agree for the same W Wdot and tidal history	independent integrations disagree beyond tolerance	propagation implementation rejected
+screen_gauge	left O2 screen rotation leaves area and a_eff unchanged	rotation changes either scalar	candidate is screen-frame bookkeeping
+factorization_gauge	Q N redistributions with fixed W leave area and a_eff unchanged	result depends on Q or N separately	coframe/realization shortcut detected
+G68_saved_replay	all 21 regular saved endpoint maps produce finite direct rates and reproduce F01 analytic controls	invalid inverse nonfinite rate or F01 disagreement	saved-control application rejected
+constant_subfamily	constant G107 a occurs iff propagated log-area is affine in supplied delta	arbitrary propagation is silently called constant	constant census overpromoted
+scope_guard	no history query coefficient regime or outcome selected	conditional rate called physical score	result invalid

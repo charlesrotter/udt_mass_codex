@@ -151,10 +151,16 @@ def validate_startup_surface(root: Path) -> None:
         require("G105" in block, f"G105 Jacobian artifact result absent: {name}")
         require("G106" in block, f"G106 sky-depth projector result absent: {name}")
         require("G107" in block, f"G107 representation census absent: {name}")
+        require("G108" in block, f"G108 screen propagation result absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
             f"G107 package route absent: {name}",
+        )
+        require(
+            "udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/" in block
+            or "propagated screen" in block.lower(),
+            f"G108 package route absent: {name}",
         )
         require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
@@ -207,6 +213,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_pair_chord_network_descent_audit_2026-08-12/",
             "G106",
             "G107",
+            "G108",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -214,6 +221,7 @@ def validate_startup_surface(root: Path) -> None:
             "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "G107",
+            "G108",
         ),
         "README.md": (
             "LIVE.md",
@@ -308,9 +316,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 94, "premise registry must contain exactly 94 rows")
+    require(len(rows) == 95, "premise registry must contain exactly 95 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 94, "duplicate premise id")
+    require(len(by_id) == 95, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -1665,6 +1673,26 @@ def main() -> None:
         "G107 source changed",
     )
     require("G107_FRESH_SEALED_REVIEW_AND_CORRECTED_FOLLOWUP_VERIFY" in by_id["G107"]["precedence_rule"], "G107 precedence absent")
+    require(
+        by_id["G108"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__CONDITIONAL_SCREEN_DILATION_RATE_DERIVED"
+        ),
+        "G108 screen propagation status regressed or promoted",
+    )
+    require(by_id["G108"]["epistemic_label"] == "MIXED", "G108 label changed")
+    require("delta(lambda) ownership" in by_id["G108"]["open_scope"], "G108 depth map promoted")
+    require("initial screen and branch" in by_id["G108"]["open_scope"], "G108 initial data promoted")
+    require("universal identification" in by_id["G108"]["open_scope"], "G108 query tie promoted")
+    require("automatically called the physical Jacobi map" in by_id["G108"]["forbidden_regression"], "G108 type-tie guard absent")
+    require("universal distance-only law" in by_id["G108"]["forbidden_regression"], "G108 distance-law guard absent")
+    require("G68 affine rates called dimensionless G107 coefficients" in by_id["G108"]["forbidden_regression"], "G108 unit guard absent")
+    require("while shear survives" in by_id["G108"]["forbidden_regression"], "G108 full-family guard absent")
+    require(
+        by_id["G108"]["controlling_source"]
+        == "udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "G108 source changed",
+    )
+    require("G108_FRESH_SEALED_REVIEW_AND_CORRECTED_FOLLOWUP_VERIFY" in by_id["G108"]["precedence_rule"], "G108 precedence absent")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -1743,7 +1771,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G107-extended premise guards; PASS: 94-row premise "
+        "PASS: G108-extended premise guards; PASS: 95-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

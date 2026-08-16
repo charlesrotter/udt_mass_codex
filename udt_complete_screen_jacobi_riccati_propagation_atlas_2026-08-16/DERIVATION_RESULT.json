@@ -1,0 +1,87 @@
+{
+  "all_source_hashes_match": true,
+  "exact": {
+    "analytic_controls": {
+      "isotropic_defocusing": {
+        "area_rate": "kappa*tanh(kappa*lambda)",
+        "expected_rate": "kappa*tanh(kappa*lambda)",
+        "jacobi_residual_zero": true,
+        "rates_equal": true,
+        "trace_rate": "kappa*tanh(kappa*lambda)"
+      },
+      "isotropic_focusing": {
+        "area_rate": "-kappa*tan(kappa*lambda)",
+        "expected_rate": "-kappa*tan(kappa*lambda)",
+        "jacobi_residual_zero": true,
+        "rates_equal": true,
+        "trace_rate": "-kappa*tan(kappa*lambda)"
+      },
+      "mixed_anisotropic": {
+        "area_rate": "p*tanh(lambda*p)/2 - q*tan(lambda*q)/2",
+        "expected_rate": "p*tanh(lambda*p)/2 - q*tan(lambda*q)/2",
+        "jacobi_residual_zero": true,
+        "rates_equal": true,
+        "trace_rate": "p*tanh(lambda*p)/2 - q*tan(lambda*q)/2"
+      }
+    },
+    "constant_extension": {
+      "area": "exp(2*a*lambda)",
+      "half_log_area_rate": "a",
+      "half_optical_trace": "a",
+      "optical_matrix": [
+        [
+          "a",
+          "-b"
+        ],
+        [
+          "b",
+          "a"
+        ]
+      ],
+      "recovers_a": true,
+      "rotation_drops_from_area": true
+    },
+    "factorization": {
+      "N_rate": "-c/2 - d/2 + 1/2",
+      "Q_rate": "c/2 + d/2",
+      "W_equals_QN": true,
+      "coframe_rate_not_separately_invariant": true,
+      "rates_add": true,
+      "total_rate": "1/2"
+    },
+    "screen_rotation": {
+      "area_rate_unchanged": true,
+      "determinant_unchanged": true,
+      "nonconstant_rotation_used": true
+    }
+  },
+  "g68_saved_replay": {
+    "a_eff_affine_range_all": [
+      1.2984280687841196,
+      1.3438129665436138
+    ],
+    "a_eff_affine_range_f02": [
+      1.2984280687841196,
+      1.3438129665436138
+    ],
+    "all_rates_finite": true,
+    "f01_count": 3,
+    "f02_count": 18,
+    "max_area_identity_residual": 8.881784197001252e-16,
+    "max_f01_exact_rate_residual": 1.1102230246251565e-15,
+    "max_shear_frobenius_f02": 0.00978959111548136,
+    "max_twist_frobenius": 2.73218773580643e-33,
+    "row_count": 21
+  },
+  "maximum_conclusion": "when the supplied query identifies the complete pair-screen block with the physical Jacobi map, its conditional screen dilation rate is derived from propagated area; constant a is a special propagation subfamily; metric history, query, initial data, branch, and depth map remain supplied",
+  "schema": "UDT_G108_COMPLETE_SCREEN_PROPAGATION_V1",
+  "source_hashes": {
+    "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/EXACT_DERIVATION.md": true,
+    "udt_cmb_G68_F01_F02_finite_path_jacobi_controls_2026-08-11/FINITE_PATH_RESULT.json": true,
+    "udt_complete_reciprocal_representation_extension_census_2026-08-16/EXACT_DERIVATION.md": true,
+    "udt_complete_reciprocal_representation_extension_census_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md": true,
+    "udt_orchestra_score_whiteboard_2026-08-15/MULTIAGENT_WHITEBOARD.md": true,
+    "udt_orchestra_score_whiteboard_2026-08-15/NEXT_CALCULATION_PREREGISTRATION.md": true,
+    "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/EXACT_DERIVATION.md": true
+  }
+}

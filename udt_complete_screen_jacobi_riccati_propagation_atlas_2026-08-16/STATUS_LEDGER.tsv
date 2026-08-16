@@ -1,0 +1,12 @@
+object	status	maximum_claim
+screen_area_identity	DERIVED_CONDITIONAL	A_perp=abs(det(Q(SY+Z))) on regular rank-two pair screen
+pair_screen_jacobi_tie	CONDITIONAL_SUPPLIED_QUERY	W=Q(SY+Z) is the Jacobi map only when the supplied query identifies them
+affine_optical_rate	DERIVED_CONDITIONAL	half trace(Wdot W^-1) is half log-area rate
+reciprocal_depth_rate	DERIVED_CONDITIONAL	a_eff=trace(L)/(2 delta_dot) for supplied monotone delta(lambda)
+constant_G107_a	DERIVED_SPECIAL_CASE	constant isotropic propagated log-area rate only
+screen_rotation	DERIVED_ZERO_ORDER_GAUGE	no contribution to local area rate
+G68_endpoint_rates	OBSERVED_CONDITIONAL	21 regular finite affine-rate controls only
+physical_metric_history	OPEN	no selected UDT history
+physical_query_initial_data_branch	OPEN	no universal relation selector
+physical_depth_map	OPEN	no selected delta(lambda) beyond supplied relation
+observational_score	SEALED	no BAO CMB SNe comparison or coefficient

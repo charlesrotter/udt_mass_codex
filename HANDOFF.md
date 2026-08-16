@@ -34,8 +34,7 @@ chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncert
 G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS` at `chi2=1444.18644/1622` nominal dof. G101 retains only the two-source query and local maser slope lead from `grok2`.
 G102 externally verifies the conditional two-chord join. G103 externally verifies that the frozen regular local/first-jet equations retain only legal sky/network/measure assembly and select no nontrivial source-independent pattern once `J` and source pairing are released. This is not a global no-go; critical/topological, bootstrap, and joint source-history laws remain open.
 
-G104/G105 verify the factorized null/Jacobian channel. G106 verifies ideal reference removal of radial abundance.
-Following `udt_orchestra_score_whiteboard_2026-08-15/`, `udt_complete_reciprocal_representation_extension_census_2026-08-16/` externally verifies G107: only conditional screen dilation `a` survives base-only gates; stronger complete gates kill it, screen rotation is zero-order gauge, and physical active `E/J` carry remains open.
+G104/G105 verify the factorized null/Jacobian channel. G106 verifies ideal reference removal of radial abundance. Following the orchestra whiteboard, G107 closes the constant reciprocal-extension census. G108 `udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/` is externally verified: for a supplied query tying `W=Q(SY+Z)` to its Jacobi screen, `a_eff=(1/2)d_delta log|det W|` is a propagated output. History, query, initial screen, branch, and `delta(lambda)` remain supplied/open.
 
 ### What is running
 
@@ -122,7 +121,7 @@ draft, local pair-response package, or local G88 package without a specific disp
 
 ### Next bounded action
 
-Keep outcomes sealed; test G107 survivors through conditional Jacobi/Riccati screen propagation before fitting any coefficient.
+Keep outcomes sealed; test same-query ownership of `delta(lambda)` through terminal `phi_pair`, then the full expansion/shear response. Fit nothing.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

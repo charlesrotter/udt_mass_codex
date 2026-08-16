@@ -1,0 +1,84 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "G68_F01_exact": true,
+    "G68_all_rows_replayed": true,
+    "G68_matches_production": true,
+    "all_area_rates": true,
+    "all_factorization_gauge": true,
+    "all_jacobi_analytic": true,
+    "all_reparameterized_riccati": true,
+    "all_riccati_analytic": true,
+    "all_riccati_from_jacobi": true,
+    "all_rotation_gauge": true,
+    "constant_subfamily_jacobi": true,
+    "constant_subfamily_rate": true,
+    "nonconstant_controls_vary": true,
+    "wrong_missing_depth_rate_detected": true
+  },
+  "constant_a_special_subfamily": {
+    "a": 0.43,
+    "jacobi_residual": 0.0,
+    "rate_residual": 0.0
+  },
+  "controls": {
+    "isotropic_defocusing": {
+      "alpha_delta": 0.2867614540552638,
+      "alpha_lambda": 0.35558420302852717,
+      "delta_dot": 1.24,
+      "errors": {
+        "area_finite_difference": 1.6372458944147184e-11,
+        "factorization_rate": 5.551115123125783e-17,
+        "jacobi_analytic": 1.2560739669470201e-15,
+        "reparameterized_riccati": 7.850462293418876e-17,
+        "riccati_analytic": 0.0,
+        "riccati_from_jacobi": 7.850462293418876e-17,
+        "rotation_rate": 5.551115123125783e-17
+      }
+    },
+    "isotropic_focusing": {
+      "alpha_delta": -0.353923124626523,
+      "alpha_lambda": -0.4388646745368885,
+      "delta_dot": 1.24,
+      "errors": {
+        "area_finite_difference": 3.932293379804719e-11,
+        "factorization_rate": 0.0,
+        "jacobi_analytic": 4.710277376051325e-16,
+        "reparameterized_riccati": 1.5700924586837752e-16,
+        "riccati_analytic": 7.850462293418876e-17,
+        "riccati_from_jacobi": 1.5700924586837752e-16,
+        "rotation_rate": 0.0
+      }
+    },
+    "mixed_anisotropic": {
+      "alpha_delta": -0.13221326275302564,
+      "alpha_lambda": -0.16394444581375178,
+      "delta_dot": 1.24,
+      "errors": {
+        "area_finite_difference": 4.499317585171525e-11,
+        "factorization_rate": 2.7755575615628914e-17,
+        "jacobi_analytic": 3.3306690738754696e-16,
+        "reparameterized_riccati": 0.0,
+        "riccati_analytic": 1.1102230246251565e-16,
+        "riccati_from_jacobi": 2.2887833992611187e-16,
+        "rotation_rate": 0.0
+      }
+    }
+  },
+  "g68_saved_replay": {
+    "maximum_F01_exact_rate_delta": 1.1102230246251565e-15,
+    "maximum_independent_production_rate_delta": 2.220446049250313e-16,
+    "production_reported_rows": 21,
+    "row_count": 21
+  },
+  "maximum_residuals": {
+    "area_finite_difference": 4.499317585171525e-11,
+    "factorization_rate": 5.551115123125783e-17,
+    "jacobi_analytic": 1.2560739669470201e-15,
+    "reparameterized_riccati": 1.5700924586837752e-16,
+    "riccati_analytic": 1.1102230246251565e-16,
+    "riccati_from_jacobi": 2.2887833992611187e-16,
+    "rotation_rate": 5.551115123125783e-17
+  },
+  "schema": "UDT_G108_INDEPENDENT_SCREEN_PROPAGATION_V1"
+}

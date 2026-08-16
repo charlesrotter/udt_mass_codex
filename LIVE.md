@@ -63,8 +63,8 @@ G104 proves the factorized intrinsic null; G105 derives the conditional complete
 G106 is externally `VERIFIED_WITH_CAVEATS`: its ideal reference removes pure radial abundance while
 depth-dependent angular response survives. One history constrains all windows; that history, its basis/coefficients, and outcomes remain open.
 The whiteboard's exact joint-flow grammar `dV=E(dJ+E^-1dE J)` remains an identity, not a score.
-G107 package `udt_complete_reciprocal_representation_extension_census_2026-08-16/` is externally `VERIFIED_WITH_CAVEATS`: only conditional screen dilation `a` survives base-only gates; complete determinant, tested pairing, or exchange kills it.
-Screen rotation is zero-order gauge. Physical active `E/J` carry remains `OPEN`; no coefficient or history is selected.
+G107's constant reciprocal-extension census leaves one conditional screen-dilation weight. G108 package
+`udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/` is externally verified: when the supplied query identifies `W=Q(SY+Z)` with its Jacobi screen map, `a_eff=(1/2)d_delta log|det W|` is propagated by the metric and initial data, not independently fitted. This is not a universal distance-only law; history, query, branch, initial screen, and `delta(lambda)` remain supplied/open.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
@@ -161,7 +161,7 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Keep outcomes sealed. Run a conditional Jacobi/Riccati propagation atlas on the G107 constant survivors to test whether metric-derived screen carry cancels or realizes `a`; do not fit `a`.
+Keep outcomes sealed. Test whether the same supplied pair query owns `delta(lambda)` through its terminal `phi_pair`, then propagate the full expansion/shear screen response; do not fit a score.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,
