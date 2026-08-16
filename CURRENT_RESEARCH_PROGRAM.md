@@ -161,8 +161,8 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-G102 externally verifies the conditional two-chord join at one observer without opening BAO outcomes; orientation is query-owned and endpoint depth is separately carried.
-Keep the observational residual atlas paused while auditing source-independent history restrictions; otherwise preregister the required source-pair premise without fitting it or importing a ruler.
+G102 externally verifies the conditional two-chord join. G103 externally verifies that the frozen regular local/first-jet equations own only sky/network/measure consistency, not a nontrivial source-independent pattern after `J` and source pairing are released; global/critical, bootstrap, and source-history restrictions remain open.
+Keep the observational residual atlas paused and BOSS outcomes sealed while preregistering the smooth/unpatterned source baseline and an outcome-blind low-dimensional complete-orchestra forward family. Do not import a ruler or acoustic/Lambda-CDM semantics; reserve CMB for consilience.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.

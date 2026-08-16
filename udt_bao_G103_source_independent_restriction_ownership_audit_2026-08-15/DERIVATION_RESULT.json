@@ -1,0 +1,86 @@
+{
+  "checks": {
+    "couplings": {
+      "antipodal": {
+        "column_marginal": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "row_marginal": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "same_marginal": true,
+        "symmetric": true
+      },
+      "orthogonal": {
+        "column_marginal": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "row_marginal": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "same_marginal": true,
+        "symmetric": true
+      },
+      "parallel": {
+        "column_marginal": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "row_marginal": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "same_marginal": true,
+        "symmetric": true
+      }
+    },
+    "depth_composition_exact": true,
+    "depth_reversal_exact": true,
+    "first_jet_exact": true,
+    "fixed_base_gram_psd": true,
+    "fixed_base_margin": "6",
+    "gram": {
+      "hostile_det": "1",
+      "hostile_rank": 4,
+      "valid_det": "0",
+      "valid_diag": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "valid_rank": 3
+    },
+    "outcome_artifacts_read": [],
+    "phi_base": "log(9/4)/4",
+    "phi_released": "log(4/9)/4",
+    "released_j_exact": true,
+    "released_phi_below_base": true,
+    "sky": {
+      "common_clock": true,
+      "cosine": "3/5",
+      "n1_unit": true,
+      "n2_unit": true
+    },
+    "zero_order_exact": true,
+    "zero_order_target_regular": true
+  },
+  "landing": "LOCAL_REGULAR_ZERO_AND_FIRST_JET_OBSERVABLE_SURJECTION_DERIVED__COMMON_SKY_GRAM_AND_GENERIC_MEASURE_CONSISTENCY_ONLY__NO_NONTRIVIAL_SOURCE_INDEPENDENT_PATTERN_RESTRICTION_OWNED_IN_FROZEN_SOURCE_UNIVERSE__GLOBAL_CRITICAL_BOOTSTRAP_AND_SOURCE_HISTORY_JOINTS_OPEN",
+  "status": "PASS"
+}

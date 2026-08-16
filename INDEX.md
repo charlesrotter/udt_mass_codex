@@ -62,7 +62,7 @@ G98 continuation ownership: `udt_complete_history_regime_continuation_ownership_
 flat, monotone, and loud-quiet-loud survive, with no active frozen-source selector.
 G99 frozen observed middle chord: `udt_observed_middle_regime_pair_calibration_2026-08-15/`.
 G100 DES-SN5YR/Dovekie holdout: `udt_des_sn5yr_frozen_p1_holdout_2026-08-15/`.
-G101 `grok2` regrade: `udt_grok2_parallel_branch_integration_audit_2026-08-15/`; G102 two-source evaluator: `udt_bao_G102_complete_two_source_observable_map_2026-08-15/`.
+G101 `grok2` regrade: `udt_grok2_parallel_branch_integration_audit_2026-08-15/`; G102 two-source evaluator: `udt_bao_G102_complete_two_source_observable_map_2026-08-15/`; G103 restriction audit: `udt_bao_G103_source_independent_restriction_ownership_audit_2026-08-15/`.
 
 G94/G95/G96: `udt_native_flux_luminosity_law_ownership_audit_2026-08-15/`, `udt_native_radiative_current_energy_owner_audit_2026-08-15/`, `udt_null_carrier_measure_ownership_audit_2026-08-15/`.
 

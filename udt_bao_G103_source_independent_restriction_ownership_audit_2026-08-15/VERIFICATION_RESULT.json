@@ -1,0 +1,22 @@
+{
+  "failures": [],
+  "gate_count": 15,
+  "gates": {
+    "executable_outcome_blind": true,
+    "fixed_base_caveat_present": true,
+    "global_open_rows": true,
+    "hostile_mutations_11": true,
+    "independent_fraction_pass": true,
+    "landing_exact": true,
+    "measure_nonuniqueness_present": true,
+    "outcomes_empty": true,
+    "production_pass": true,
+    "protected_sources_absent": true,
+    "read_only_replay_mode": true,
+    "required_files": true,
+    "restriction_atlas_10": true,
+    "scope_language_present": true,
+    "source_manifest_9_exact": true
+  },
+  "status": "PASS"
+}

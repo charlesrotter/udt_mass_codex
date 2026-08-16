@@ -1,0 +1,15 @@
+item	status	scope
+zero_order_complete_pair_target_map	DERIVED	regular local supplied E and released J
+first_jet_complete_pair_target_map	DERIVED	regular local first jet only
+common_observer_sky	DERIVED_CONDITIONAL	one query-owned common observer
+outward_direction_sign	QUERY_OWNED	not metric-selected
+fixed_base_psd_order	DERIVED_CONDITIONAL	fixed A calibration and positive Gram addition
+sky_gram_rank	DERIVED	simultaneous directions in one 3D screen
+endpoint_ratio_composition	DERIVED_CONDITIONAL	one coherent endpoint potential family
+source_pair_pattern	OPEN	free source two-point measure
+physical_history_query	OPEN	no active owner
+global_critical_topological_restriction	OPEN	not covered by local regular theorem
+bootstrap_joint_law	WORKING_OPEN	no active equation
+BOSS_outcome	SEALED_UNREAD	no curve or descriptor opened
+fresh_external_review	PASS_WITH_CAVEATS	sealed 30-file gpt-5.4 review; all hashes and mathematics replayed
+read_only_replay_mode	VERIFIED	output-neutral post-review repair; normal and sealed modes pass

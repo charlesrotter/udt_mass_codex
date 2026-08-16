@@ -1,0 +1,81 @@
+{
+  "checks": {
+    "couplings": {
+      "antipodal": {
+        "columns": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "rows": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "same_uniform_marginal": true,
+        "symmetric": true
+      },
+      "orthogonal": {
+        "columns": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "rows": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "same_uniform_marginal": true,
+        "symmetric": true
+      },
+      "parallel": {
+        "columns": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "rows": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "same_uniform_marginal": true,
+        "symmetric": true
+      }
+    },
+    "depth_composition_exact": true,
+    "depth_reversal_exact": true,
+    "first_jet_exact": true,
+    "fixed_base_margin": "6",
+    "fixed_base_psd": true,
+    "gram": {
+      "hostile_rank": 4,
+      "valid_diagonal": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "valid_rank": 3
+    },
+    "imports_production": false,
+    "outcome_artifacts_read": [],
+    "released_j_exact": true,
+    "released_phi_below_base": true,
+    "sky": {
+      "cosine": "3/5",
+      "n1_norm": true,
+      "n2_norm": true,
+      "u_norm": true
+    },
+    "zero_order_exact": true
+  },
+  "status": "PASS"
+}

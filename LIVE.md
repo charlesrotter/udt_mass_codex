@@ -61,7 +61,7 @@ G99 freezes P1 as an `OBSERVED/CONDITIONAL` middle chord, not a complete history
 unchanged shape on 1623 DES-SN5YR/Dovekie rows with the correct marginal covariance:
 `VERIFIED_WITH_CAVEATS__FROZEN_P1_NOT_REJECTED__LOW_CHI2_REFERENCE_WARNING`. A sealed adversary
 reproduced `chi2=1444.18644/1622 nominal dof`; the processed-release chi-square is approximate. The
-secondary shift is `1.64 sigma`. G101 partially integrates `grok2`: its corrected two-source query and a local megamaser-slope lead survive; its `X_max`, tanh, flux, scalar-`mu`, and startup promotions do not. G102 is externally `VERIFIED_WITH_CAVEATS`: two supplied complete observer--source relations sharing one calibrated observer conditionally yield the joined sky angle, while accumulated terminal depth remains separately carried. Direction orientation is query-owned; physical history and source pair measure remain open. No BAO outcome was opened.
+secondary shift is `1.64 sigma`. G101 partially integrates `grok2`: its corrected two-source query and a local megamaser-slope lead survive; its `X_max`, tanh, flux, scalar-`mu`, and startup promotions do not. G102 externally verifies the conditional two-source evaluator. G103 is externally `VERIFIED_WITH_CAVEATS`: current regular local/first-jet equations impose sky/network/measure consistency but own no nontrivial source-independent pattern after `J` and the source pair measure are released. Global/critical, bootstrap, and source-history joints remain open. No BOSS outcome was opened.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
@@ -160,8 +160,7 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Before opening the BOSS holdout, determine whether existing complete-history equations impose any source-independent restriction on the G102 pushforward.
-If none is owned, preregister the explicit source-pair premise; do not fit it, retune G99/G100, or import a ruler.
+Before opening the BOSS holdout, preregister the minimal empirical source premise: no intrinsic BAO-like source correlation beyond a smooth/ordinary galaxy baseline, with survey randoms carrying only mask/selection. Then derive an outcome-blind low-dimensional complete-orchestra forward family; do not import a ruler, Lambda-CDM/acoustic interpretation, retune G99/G100, or open CMB.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

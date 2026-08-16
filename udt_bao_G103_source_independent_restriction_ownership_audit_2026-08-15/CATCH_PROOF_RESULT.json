@@ -1,0 +1,16 @@
+{
+  "caught_mutations": {
+    "common_observer_drop_detected": true,
+    "first_jet_omission_detected": true,
+    "fixed_base_overpromotion_detected": true,
+    "freeze_J_detected": true,
+    "image_support_drop_detected": true,
+    "local_to_global_promotion_detected": true,
+    "noncomposing_depth_detected": true,
+    "nonunit_sky_detected": true,
+    "outcome_opening_detected": true,
+    "pair_measure_uniqueness_detected": true,
+    "rank4_sky_detected": true
+  },
+  "status": "PASS"
+}
