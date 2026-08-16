@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "independent_15_of_15": true,
+    "present::AUDIT_REPORT.md": true,
+    "present::BLIND_REVIEW_FOLLOWUP.md": true,
+    "present::BLIND_REVIEW_RAW.md": true,
+    "present::CORRECTION_RECORD.md": true,
+    "present::EVIDENCE_GATES.md": true,
+    "present::EXACT_DERIVATION.md": true,
+    "present::LAY_REPORT.md": true,
+    "present::PREREGISTRATION.md": true,
+    "present::REVIEW_REQUEST.md": true,
+    "production_22_of_22": true,
+    "source::udt_g114_common_source_three_observer_network_2026-08-16/EXACT_DERIVATION.md": true,
+    "source::udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/AUDIT_REPORT.md": true,
+    "source::udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/AUDIT_REPORT.md": true,
+    "source::udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/EXACT_DERIVATION.md": true,
+    "source::udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/AUDIT_REPORT.md": true,
+    "source::udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/EXACT_DERIVATION.md": true,
+    "source::udt_g123_direct_copresent_incidence_relation_2026-08-16/AUDIT_REPORT.md": true,
+    "source::udt_observer_exponential_full_differential_type_audit_2026-08-16/EXACT_DERIVATION.md": true,
+    "source_count_eight": true
+  },
+  "source_count": 8,
+  "status": "PASS"
+}

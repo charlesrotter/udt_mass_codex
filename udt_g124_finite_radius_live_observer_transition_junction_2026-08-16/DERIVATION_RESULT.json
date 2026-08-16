@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "active_sky_drift_cancels_between_matched_phi_and_chi": true,
+    "common_event_does_not_force_phase_match": true,
+    "exact_finite_radius_junction": true,
+    "g116_two_jet_reproduced": true,
+    "g119_screen_kappa_link": true,
+    "g123_composition_preserved": true,
+    "g123_reversal_preserved": true,
+    "normalized_time_frequency": true,
+    "null_pair_beta_reciprocal_identity": true,
+    "orientation_reversal_changes_only_beta_sign": true,
+    "query_tangent_phase_images_remain_rank_two": true,
+    "radial_source_ratio_is_rapidity": true,
+    "rational_beta": true,
+    "rational_kappa": true,
+    "rational_phi": true,
+    "rational_zeta": true,
+    "raw_null_pair_determinant_both_orientations": true,
+    "terminal_beta_from_raw_block": true,
+    "terminal_ceff_identity": true,
+    "terminal_kappa_from_raw_block": true,
+    "terminal_phi_from_raw_block": true,
+    "turning_chart_divergence_cancels": true
+  },
+  "exact_objects": {
+    "beta_pair": "sigma*q/A**2",
+    "c_eff_over_c_E": "A**2/q",
+    "det_h": "-q**2",
+    "frequency_junction": "zeta = phi_pair - kappa_pair + chi_source",
+    "g116_reduction": "-R**2*optical/4 + R**2*p2 + R**2*vdot + R*vrel",
+    "h_parallel_orientation_covariant": "Matrix([[-A**2, -sigma*q], [-sigma*q, 0]]), sigma in {-1,+1}",
+    "kappa_pair": "log(q)/2",
+    "phi_pair": "-log(A) + log(q)/2",
+    "rational_values": {
+      "beta_pair": "25/9",
+      "kappa_pair": "log(5/4)",
+      "phi_pair": "log(5/3)",
+      "zeta": "log(8/5)"
+    },
+    "screen_link": "kappa_pair = -log(abs(K(R)))/2 on the oriented regular areal chart"
+  },
+  "landing": "EXACT_FINITE_RADIUS_KAPPA_PHI_SOURCE_CLOCK_JUNCTION_DERIVED_CONDITIONALLY__ZETA_EQUALS_PHI_PAIR_MINUS_KAPPA_PAIR_PLUS_CHI_SOURCE__KAPPA_PAIR_IS_THE_AFFINE_TO_AREAL_SCREEN_EXPANSION_MAGNITUDE__NULL_PAIR_BETA_EQUALS_ORIENTATION_TIMES_EXP_TWO_PHI__G116_TWO_JET_ACTIVE_SKY_CANCELLATION_AND_G119_SCREEN_THEOREM_RECOVERED__AREAL_TURNING_IS_A_CHART_FAILURE_AND_ALONE_ESTABLISHES_NEITHER_FREQUENCY_FINITENESS_NOR_DIVERGENCE__DIRECT_QUERY_TANGENT_AND_JACOBI_PHASE_REMAIN_DISTINCT__HISTORY_QUERY_SOURCE_TRANSFER_XMAX_AND_SELECTION_OPEN",
+  "status": "PASS"
+}

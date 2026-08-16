@@ -1,0 +1,49 @@
+{
+  "checks": {
+    "active_sky_drift_cancellation": true,
+    "flat_witness": true,
+    "g116_coefficient_replay": true,
+    "g123_composition": true,
+    "g123_reversal": true,
+    "mismatched_phase_intersection_zero": true,
+    "orientation_only_flips_beta": true,
+    "phase_images_rank_two": true,
+    "rational_beta": true,
+    "rational_exp_2kappa": true,
+    "rational_exp_2phi": true,
+    "rational_exp_2zeta": true,
+    "rational_junction": true,
+    "screen_link_exponentiated": true,
+    "turning_cancellation_exponentiated": true
+  },
+  "exact_values": {
+    "flat": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "g116_coefficients": [
+      "0",
+      "3/8",
+      "1637/5148"
+    ],
+    "orientation_reversed": [
+      "25/16",
+      "25/9",
+      "-25/9",
+      "64/25",
+      "64/25"
+    ],
+    "rational": [
+      "25/16",
+      "25/9",
+      "25/9",
+      "64/25",
+      "64/25"
+    ]
+  },
+  "implementation": "independent standard-library Fraction replay; logarithms checked through exact exponentiated ratios; no production import",
+  "status": "PASS"
+}

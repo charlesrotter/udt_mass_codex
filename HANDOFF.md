@@ -64,7 +64,7 @@ is externally verified: every finite regular central-spherical time-live branch 
 `|det D_sky|=R^2`. G120 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/`
 is blind verified: imported transfer gives `d_L=Z^2R` and preserves both SNe replays. G121 is blind verified with conditional pair-scalar closure only. G122
 `udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/` is blind verified after repairs: terminal
-pair and causal phase are distinct. G123 `udt_g123_direct_copresent_incidence_relation_2026-08-16/` derives the exact four-dimensional chart graph for a supplied common-event query; regular multibranches and singular fibers remain distinct, and history is not selected.
+pair and causal phase are distinct. G123 derives the supplied common-event chart graph. G124 `udt_g124_finite_radius_live_observer_transition_junction_2026-08-16/` is blind verified: its exact conditional score is `zeta=phi_pair-kappa_pair+chi_s`; `kappa_pair` is the screen-expansion magnitude and owns G116's former optical correction. History, query, source clock, transfer, branch, and `X_max` remain open.
 
 ### What is running
 
@@ -125,5 +125,5 @@ After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for 
 Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell draft, local pair-response package, or local G88 package without a specific dispatch. Preserve unrelated dirt; directory presence does not prove banking.
 
 ### Next bounded action
-Derive the finite-radius live observer-transition junction on one supplied complete history/query; keep terminal depth, frequency depth, shift, screen transport, and Jacobi phase distinct. Historical detail is archived under `archive/startup_surface_2026-08-14/`.
+Recompose the conditional SNe radius-frequency interface with G124's exact junction; first determine analytically which G117/G120 identifications survive, without a new fit or history solve. Historical detail is archived under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->
