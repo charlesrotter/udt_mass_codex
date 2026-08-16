@@ -122,7 +122,7 @@ supplied source congruence permits invariant frequency `(b-q)R`; physical histor
 
 G116 derives `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)` locally without a coefficient; G117 preserves frozen P1 dual-SNe numerics conditionally.
 
-G118-G119 derive `d_A=R`; G120 preserves both SNe replays under imported transfer. G121, G122, and G123 separate scalar closure, terminal/phase, and incidence. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 fixes only frozen P1's conditional total score. G126 `udt_g126_angular_lane_same_query_bridge_2026-08-16/` proves R5 cannot currently constrain `K` or phase through the exact spherical screen: that screen preserves angles, the ideal reference removes radial-only modulation, and `R(Z)` lacks affine rate.
+G118-G119 derive `d_A=R`; G120 preserves both SNe comparisons under imported transfer. G121, G122, and G123 separate scalar closure, terminal/phase, and incidence. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only to test frozen P1's combined score and owns no branch/history. G126 `udt_g126_angular_lane_same_query_bridge_2026-08-16/` proves R5 cannot currently constrain `K` or phase through the exact spherical screen: that screen preserves angles, the ideal reference removes radial-only modulation, and `R(Z)` lacks affine rate.
 
 ## Macro observational anchors
 
@@ -161,8 +161,8 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Next: G126 stops direct R5-to-`K`/phase fitting. Map, without observational fitting, whether the
-banked full nonlinear nonspherical/displaced differential shares one metric-owned history with G119/G125.
+Next: G126 stops direct R5-to-`K`/phase fitting. Map whether the nonlinear nonspherical/displaced
+differential joins the history whose central-spherical G119 projection is only SNe-checked through G125.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

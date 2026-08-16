@@ -80,6 +80,7 @@ def main() -> None:
         "CORRECTION_RECORD.md",
         "BLIND_REVIEW_FOLLOWUP.md",
         "AUDIT_REPORT.md",
+        "USER_FRAME_CORRECTION.md",
     ):
         checks[f"present::{name}"] = (HERE / name).is_file()
 

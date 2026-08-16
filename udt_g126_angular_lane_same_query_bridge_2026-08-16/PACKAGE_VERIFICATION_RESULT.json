@@ -15,6 +15,7 @@
     "present::PREMISE_LEDGER.tsv": true,
     "present::PREREGISTRATION.md": true,
     "present::REVIEW_REQUEST.md": true,
+    "present::USER_FRAME_CORRECTION.md": true,
     "production_15_of_15": true,
     "source::udt_bao_G103_source_independent_restriction_ownership_audit_2026-08-15/EXACT_DERIVATION.md": true,
     "source::udt_bao_G105_complete_orchestra_two_route_lift_2026-08-15/AUDIT_REPORT.md": true,

@@ -2315,6 +2315,11 @@ def main() -> None:
         "G126 no-fit bridge guard absent",
     )
     require(
+        "SNe comparison dataset called a metric branch history owner or selector"
+        in by_id["G126"]["forbidden_regression"],
+        "G126 SNe category guard absent",
+    )
+    require(
         by_id["G126"]["controlling_source"]
         == "udt_g126_angular_lane_same_query_bridge_2026-08-16/AUDIT_REPORT.md",
         "G126 source changed",

@@ -78,7 +78,7 @@ regular central-spherical branch `D_sky=R O`, `|det D_sky|=R^2`. G120
 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/` is blind verified:
 with explicitly imported `eta=1,epsilon=1/Z`, `d_L=Z^2R`; frozen P1 becomes one outgoing `Z>1`
 conditional radius-frequency curve and preserves both SNe replays. G121 is blind verified and finds local matched
-identities and conditional pair-scalar closure only. G122 keeps terminal pair and causal phase distinct. G123 derives the supplied common-event incidence graph. G124 derives the exact finite-radius score `zeta=phi_pair-kappa_pair+chi_s`. G125 conditionally constrains only frozen P1's total score. G126 `udt_g126_angular_lane_same_query_bridge_2026-08-16/` is blind verified after repairs: the exact G119 spherical screen is angle preserving, radial, and zero-shear; the ideal reference removes its pure radial modulation; `R(Z)` does not own affine rate; and R5's two-point curves do not invert to `K` or phase. `R_inf` is not `X_max`.
+identities and conditional pair-scalar closure only. G122 keeps terminal pair and causal phase distinct. G123 derives the supplied common-event incidence graph. G124 derives the exact finite-radius score `zeta=phi_pair-kappa_pair+chi_s`. G125 uses SNe only as a comparison/non-regression data set for frozen P1's combined score; SNe owns no metric branch or history. G126 `udt_g126_angular_lane_same_query_bridge_2026-08-16/` is blind verified after repairs: the exact G119 spherical screen is angle preserving, radial, and zero-shear; the ideal reference removes its pure radial modulation; `R(Z)` does not own affine rate; and R5's two-point curves do not invert to `K` or phase. `R_inf` is not `X_max`.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -160,7 +160,7 @@ Some protected directories have tracked shells plus local untracked payloads. Di
 does not prove banking; inspect Git status and preserve every local file.
 
 ### Immediate next action
-G126 stops direct R5-to-`K`/phase fitting. Next map—without observational fitting—whether the already banked full nonlinear nonspherical/displaced differential can be placed on the same complete history as the G119/G125 spherical background; stop if that same-history bridge is not metric-owned.
+G126 stops direct R5-to-`K`/phase fitting. Next map—without observational fitting—whether the banked nonlinear nonspherical/displaced differential can join the same history whose central-spherical G119 projection is merely checked against SNe through G125; stop if that bridge is not metric-owned.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

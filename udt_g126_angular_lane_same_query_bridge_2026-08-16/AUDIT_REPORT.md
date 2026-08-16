@@ -44,6 +44,11 @@ observable supplied. G126 does not say that future angular evidence cannot const
 that fitting R5 directly to the exact spherical endpoint screen would manufacture a bridge that the
 current objects do not own.
 
+SNe is only a comparison/non-regression data set in this chain. It checks a combined predicted
+redshift/brightness relation (with the registered transfer assumptions); it does not define, own,
+or select a metric branch or complete history, and current SNe comparisons do not isolate a tiny
+high-redshift angular contribution.
+
 ## Maximum conclusion
 
 ```text

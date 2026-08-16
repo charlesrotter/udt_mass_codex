@@ -86,7 +86,8 @@ K(R)=\frac{dR}{d\lambda}
 \tag{6}
 \]
 
-The processed catalog coordinate and the frozen SNe interface own `R(Z)`, not `dZ/dlambda`.
+The conditional frozen P1 comparison map specifies `R(Z)`; the SNe data only tests its downstream
+combined observable and derives neither `R(Z)` nor `dZ/dlambda`.
 For the displayed G125 P1 curve, one explicitly vertex-normalized positive witness is
 
 \[
