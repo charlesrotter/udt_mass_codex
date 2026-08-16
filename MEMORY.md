@@ -72,8 +72,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106-G120 assemble full-`dF` geometry through exact screen and conditional SNe radius retyping. G121 finds local matched causal/composition identities on two inequivalent histories and conditional pair-scalar descent only on supplied pair data.
-Next type the common carrier/maps for the mixed causal/co-present commuting square before computing any defect.
+G106-G120 assemble full-`dF` geometry through exact screen and conditional SNe radius retyping. G121 separates local identities from conditional pair-scalar closure. G122 derives one pathwise dependency record with distinct terminal-pair and causal-phase evaluations; terminal data alone cannot solder phase.
+Next construct and type the independent direct `A-B` relation; allow branches and do not invent `R_pair`.
 
 ## Archive
 

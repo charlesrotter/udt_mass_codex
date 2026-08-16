@@ -115,17 +115,15 @@ non-regression while leaving screen and transfer conditional. G113 identifies on
 differential as the local assembly: its static spherical chord gives `phi_pair=phi`, but exact P1
 static inversion has invariant `1/r` center curvature, so the chord is not a smooth static profile.
 
-G114 derives affine-aware source-phase composition and caustic survival without selecting beam
-alignment. G115 `udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/`
-derives the regular central time-live jet modulo residual areal-time slicing: terminal/areal depth
-is `O(R^2)`, while a supplied source congruence permits invariant frequency `(b-q)R`. Active sky
-carry precedes fixed-label readout; passive relabeling is gauge. Physical history and the calibrated
-observed-redshift junction remain open.
+G114 derives affine-aware source-phase composition and caustic survival without selecting beam alignment.
+G115 `udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/` derives the regular
+central time-live jet modulo residual areal-time slicing: terminal/areal depth is `O(R^2)`, while a
+supplied source congruence permits invariant frequency `(b-q)R`; physical history remains open.
 
-G116 `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` derives the missing local junction without a coefficient:
-`zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`. Its pure stationary reduction is exact; generic live queries retain distinct channels. G117 preserves frozen P1 dual-SNe numerics under conditional release-coordinate retyping but cannot identify terminal depth or G116 coefficients.
+G116 derives `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)` locally without a coefficient; G117 preserves frozen P1 dual-SNe numerics conditionally.
 
-G118-G119 remove screen scaffolding and derive `d_A=R` on the exact finite-radius central-spherical class. G120 preserves both SNe replays under explicitly imported transfer. G121 proves matched local causal/composition rules are identities on two inequivalent temporal histories; zero reciprocal triangle periods give conditional closure only after a physical pair network is supplied.
+G118-G119 derive `d_A=R`; G120 preserves both SNe replays under imported transfer. G121 separates local identities from conditional pair-scalar closure. G122 `udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/` derives a shared dependency record but distinct terminal/phase evaluations; direct `A-B` remains open.
+
 ## Macro observational anchors
 
 - G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
@@ -163,7 +161,7 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Next: derive and preregister common fibers/maps for the typed mixed square `q_B R_causal=R_pair q_A`; no raw multiplication of unlike carriers.
+Next: construct and type direct `A-B`; allow branches and do not invent `R_pair` from terminal data.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

@@ -86,17 +86,17 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   singular/global propagation, and any SNe fit remain open.
 - Native current/energy ownership: G95 externally verifies only conditional Maxwell-shaped response
   and null phase-volume transport; physical cargo stays open and `epsilon=1/Z` requires one carrier-covector identification.
-- Null-query label current: G96 externally confirms the closed pushforward three-form and exact
-  metric/Jacobi density representation, but classifies closure as tautological query bookkeeping.
-  It supplies no new physical owner; carrier identification, physical zero side flux, and `eta` remain open.
-- G97 externally verifies one incompatible SNe control under provisional transfer; this tests the evaluator, not physical history, other geometries, all-sky ownership, or `X_max`.
+- Null-query label current: G96 confirms the closed pushforward three-form and exact metric/Jacobi
+  density representation but no physical owner; carrier identification and `eta` remain open.
+- G97 verifies one incompatible provisional-transfer SNe control; it does not test physical history or `X_max`.
 - G98 verifies flat, monotone, and loud-quiet-loud survivors; quiet middle is permitted, not selected.
-- G99 freezes P1; G102-G106 type the evaluator; G107 closes the constant census; G108-G109 retain
-  Jacobi/depth. G110 reconstructs distinct pair/sky blocks; G111
-  proves bounded nonflat survival; G112 verifies conditional dual-SNe non-regression.
+- G99 freezes P1; G102-G106 type the evaluator; G107, G108, and G109 retain census/Jacobi/depth. G110 reconstructs distinct
+  pair/sky blocks; G111 proves bounded nonflat survival; G112 verifies dual-SNe non-regression.
 - G113's static chord exposes P1's `1/r` center obstruction; G114's phase carry survives caustics;
   G115-G118 derive the live jet, frequency junction, SNe retyping, and scaffolding reduction. G119
-  proves finite-radius `D_sky=R O`; G120 conditionally retypes one outgoing radius-frequency curve. G121 separates automatic local network identities from conditional global pair-scalar descent; no metric-only history selector follows.
+  proves finite-radius `D_sky=R O`; G120 conditionally retypes one outgoing radius-frequency curve.
+  G121 separates local identities from conditional pair-scalar descent. G122 keeps terminal pair
+  and causal phase distinct; terminal data cannot solder full phase, and direct `A-B` remains open.
 - Overlapping-pair compatibility is internally `VERIFIED-WITH-CAVEATS`; corrected contribution-live
   flat, monotone, and loud-quiet-loud lifts survive, but activity selects no score.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict

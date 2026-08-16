@@ -77,7 +77,9 @@ G118 `udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/` removes
 regular central-spherical branch `D_sky=R O`, `|det D_sky|=R^2`. G120
 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/` is blind verified:
 with explicitly imported `eta=1,epsilon=1/Z`, `d_L=Z^2R`; frozen P1 becomes one outgoing `Z>1`
-conditional radius-frequency curve and preserves both SNe replays. G121 `udt_g121_copresent_reciprocal_causal_history_consistency_2026-08-16/` is blind verified: local matched causal/composition laws are identities on two inequivalent temporal histories; zero reciprocal triangle periods are a conditional nonidentity closure on supplied pair data, not a metric-only history selector.
+conditional radius-frequency curve and preserves both SNe replays. G121 is blind verified and finds local matched
+identities and conditional pair-scalar closure only. G122 `udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/`
+is blind verified after repairs: terminal pair and causal phase are distinct; direct `A-B` and history selection remain open.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -155,13 +157,11 @@ Preserve without staging or mining unless explicitly dispatched:
 - local unbanked `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/` scoped control;
 - protected curvature/holonomy atlas when present.
 
-Some protected directories have tracked shells plus local untracked payloads. Seeing the directory
-in a clean clone does not mean the protected payload was banked; inspect Git status in the working
-repository and preserve every local file.
+Some protected directories have tracked shells plus local untracked payloads. Directory presence
+does not prove banking; inspect Git status and preserve every local file.
 
 ### Immediate next action
-Type a common carrier for the mixed causal/co-present square `q_B R_causal=R_pair q_A`; freeze every
-map before evaluation and preserve lawful screen holonomy.
+Construct and type direct `A-B` from the same query; allow branches and do not invent `R_pair`.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

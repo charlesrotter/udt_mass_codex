@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "flat_angular_jacobi_rank_two_for_nonzero_lambda": true,
+    "flat_angular_metric_exact": true,
+    "flat_pair_lorentzian": true,
+    "flat_pair_metric_exact": true,
+    "flat_pair_screen_rank_zero": true,
+    "generic_scalar_channels_differ": true,
+    "phase_survives_position_caustic": true,
+    "pure_reciprocal_scalar_channels_agree": true,
+    "screen_target_equivariant_family_is_two_parameter": true,
+    "trivial_target_invariance_forces_zero": true
+  },
+  "exact_objects": {
+    "angular_jacobi": "Matrix([[lam, 0], [0, lam]])",
+    "flat_dF": "Matrix([[1, 1, 0, 0], [0, 1, 0, 0], [0, 0, lam, 0], [0, 0, 0, lam]])",
+    "flat_pullback": "Matrix([[-1, -1, 0, 0], [-1, 0, 0, 0], [0, 0, lam**2, 0], [0, 0, 0, lam**2]])",
+    "g116_generic_example": "13*R**2/4 + 3*R",
+    "g116_pure_defect": "0",
+    "g116_scalar_defect": "-Aopt*R**2/4 + R**2*vdot + R*v",
+    "pair_screen": "Matrix([[0, 0], [0, 0]])",
+    "screen_target_equivariant_family": "{(x5, 0, x7, 0, 0, x5, 0, x7)}",
+    "trivial_target_invariant_residual": "Matrix([[-2*q0, -2*q1, -2*q2, -2*q3], [-2*q4, -2*q5, -2*q6, -2*q7]])"
+  },
+  "landing": "COMMON_OBSERVER_EXPONENTIAL_PATHWISE_DEPENDENCY_RECORD_DERIVED_CONDITIONALLY__NO_DATA_FREE_INFORMATION_PRESERVING_LINEAR_SOLDER_FROM_TERMINAL_PAIR_DATA__G116_LOCAL_TWO_JET_SCALAR_JUNCTION_ONLY__DIRECT_AB_PAIR_MAP_UNTESTED__NO_HISTORY_SELECTOR_FOUND_IN_DECLARED_TEST",
+  "status": "PASS"
+}

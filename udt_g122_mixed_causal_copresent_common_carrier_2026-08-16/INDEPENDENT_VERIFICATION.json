@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "angular_jacobi_rank_two": true,
+    "generic_scalar_difference_nonzero": true,
+    "half_turn_kills_nonzero_trivial_target_map": true,
+    "pair_lorentzian": true,
+    "pair_screen_rank_zero": true,
+    "phase_caustic_carrier_invertible": true,
+    "pure_scalar_difference_zero": true
+  },
+  "exact_values": {
+    "angular_jacobi_determinant": "49/25",
+    "generic_scalar_difference": "31/9",
+    "half_turn_constraint_determinant": "256",
+    "pair_determinant": "-1",
+    "phase_determinant": "1"
+  },
+  "implementation": "independent elementary exact arithmetic; no production import",
+  "status": "PASS"
+}

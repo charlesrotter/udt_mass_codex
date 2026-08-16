@@ -1,0 +1,20 @@
+{
+  "diff_check": "PASS",
+  "full_pytest": {
+    "expected_xfail": 1,
+    "failed": 0,
+    "passed": 90
+  },
+  "package_verifier": "PASS",
+  "premise_registry_rows": 109,
+  "premise_verifier": "PASS",
+  "python_compile": "PASS",
+  "startup_line_counts": {
+    "CURRENT_RESEARCH_PROGRAM.md": 168,
+    "CURRENT_SCIENTIFIC_PREMISES.md": 150,
+    "HANDOFF.md": 130,
+    "INDEX.md": 100,
+    "LIVE.md": 170,
+    "MEMORY.md": 80
+  }
+}

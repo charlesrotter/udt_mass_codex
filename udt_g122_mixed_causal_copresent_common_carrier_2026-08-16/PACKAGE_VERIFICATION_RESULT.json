@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "independent_7_of_7": true,
+    "independent_pass": true,
+    "next_gate_present": true,
+    "preregistration_present": true,
+    "production_10_of_10": true,
+    "production_pass": true,
+    "source::udt_g114_common_source_three_observer_network_2026-08-16/EXACT_DERIVATION.md": true,
+    "source::udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/EXACT_DERIVATION.md": true,
+    "source::udt_g121_copresent_reciprocal_causal_history_consistency_2026-08-16/EXACT_DERIVATION.md": true,
+    "source::udt_g121_copresent_reciprocal_causal_history_consistency_2026-08-16/NEXT_GATE.md": true,
+    "source::udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/PRE_G122_CURRENT_SCIENTIFIC_PREMISES.tsv": true,
+    "source::udt_observer_exponential_full_differential_type_audit_2026-08-16/EXACT_DERIVATION.md": true,
+    "source_manifest_nonempty": true
+  },
+  "source_count": 6,
+  "status": "PASS"
+}

@@ -62,12 +62,13 @@ queries differ. G117 `udt_g117_operational_frequency_dual_sne_regrade_2026-08-16
 removed in its bounded scopes. G119 `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 is externally verified: every finite regular central-spherical time-live branch has `D_sky=R O`,
 `|det D_sky|=R^2`. G120 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/`
-is blind verified: imported transfer gives `d_L=Z^2R` and preserves both SNe replays. G121 is blind verified: local matched cone/composition laws are identities on two inequivalent temporal histories; pair-scalar descent is conditional closure on supplied data, not a metric-only selector.
+is blind verified: imported transfer gives `d_L=Z^2R` and preserves both SNe replays. G121 is blind verified with conditional pair-scalar closure only. G122
+`udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/` is blind verified after repairs: terminal
+pair and causal phase are distinct; direct `A-B` pair construction and history selection remain open.
 
 ### What is running
 
-No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`; the ignored evidence archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; all
-201 manifest rows were reverified by byte count and SHA-256.
+No long process remains. R5 is closed; all 194 R3 cells and checkpoints remain under `/tmp/udt_boss_r3_checkpoints_patchlists`; the archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; all 201 rows were reverified.
 
 ### Honest observational claim
 
@@ -121,10 +122,9 @@ Keep these distinctions fixed:
 After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact sources.
 
 ### Protected dirt
-Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell
-draft, local pair-response package, or local G88 package without a specific dispatch. Preserve all other unrelated dirt. A clean clone may show a tracked directory shell without the protected local payload; directory presence is not evidence that the unbanked work was committed.
+Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell draft, local pair-response package, or local G88 package without a specific dispatch. Preserve unrelated dirt; directory presence does not prove banking.
 
 ### Next bounded action
-Type and preregister the common carrier/maps for `q_B R_causal=R_pair q_A`; do not multiply unlike phase and pair differentials.
+Construct and type direct `A-B`; allow branches and do not invent `R_pair` from terminal scalars.
 Historical detail is archived under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->
