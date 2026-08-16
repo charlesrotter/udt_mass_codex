@@ -62,6 +62,8 @@ secondary shift is `1.64 sigma`. G101 partially integrates `grok2`: its correcte
 G104 proves the factorized intrinsic null; G105 derives the conditional complete-orchestra Jacobian channel.
 G106 is externally `VERIFIED_WITH_CAVEATS`: its ideal reference removes pure radial abundance while
 depth-dependent angular response survives. One history constrains all windows; that history, its basis/coefficients, and outcomes remain open.
+The multiagent `udt_orchestra_score_whiteboard_2026-08-15/` identifies exact joint-flow grammar
+`dV=E(dJ+E^-1dE J)`, not a score; next is an outcome-blind reciprocal-extension census, not a fit.
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
 R2 is `VERIFIED-WITH-CAVEATS` in its bounded data-only role: all 194 selections and 2,328 curves were
@@ -158,10 +160,8 @@ repository and preserve every local file.
 
 ### Immediate next action
 
-Keep BOSS and CMB outcomes sealed. Construct or classify one explicit complete `B,Q,S,Y,Zeta`
-history that jointly realizes G105's local channel and G106's sky/depth map across every registered
-window. Do not activate a basis or coefficients, retune windows, import a ruler, or manufacture a
-target-shaped mode; cross-window differences must falsify one history rather than create new fits.
+Keep outcomes sealed. Run the preregistered constant reciprocal-extension census; carry `E,J`
+together and reject passive directions before any operator-bounded, held-out empirical fit.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

@@ -150,6 +150,11 @@ def validate_startup_surface(root: Path) -> None:
         require("G104" in block, f"G104 kaleidoscope result absent: {name}")
         require("G105" in block, f"G105 Jacobian artifact result absent: {name}")
         require("G106" in block, f"G106 sky-depth projector result absent: {name}")
+        require(
+            "udt_orchestra_score_whiteboard_2026-08-15/" in block
+            or "whiteboard" in block.lower(),
+            f"orchestra-score next-gate route absent: {name}",
+        )
 
     for token in (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
@@ -177,6 +182,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_pair_chord_network_descent_audit_2026-08-12/",
             "udt_null_carrier_measure_ownership_audit_2026-08-15/",
             "udt_bao_G106_complete_sky_depth_reference_projection_2026-08-15/",
+            "udt_orchestra_score_whiteboard_2026-08-15/",
             "After orientation",
             "verify_current_scientific_premises.py",
         ),
@@ -193,6 +199,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_pair_terminal_reachability_atlas_2026-08-12/",
             "udt_pair_chord_network_descent_audit_2026-08-12/",
             "G106",
+            "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "WORKING_FOUNDATIONAL_FRAME",

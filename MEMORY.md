@@ -73,7 +73,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106 externally verifies the ideal sky/depth projector: radial abundance is removed and depth-varying angular response survives under one common-history constraint. Next construct that complete history with outcomes and coefficients sealed.
+G106 verifies the sky/depth projector. The whiteboard identifies `dV=E(dJ+E^-1dE J)` as assembly,
+not selection. Next census constant reciprocal extensions and reject passive gauge before fitting.
 ## Archive
 
 Verbose startup history is under `archive/startup_surface_2026-08-14/`; it is provenance only.

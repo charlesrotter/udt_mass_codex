@@ -160,9 +160,9 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-G102-G105 establish the conditional evaluator, local nonselection, factorized null, and Jacobian
-channel. G106 externally verifies the ideal sky/depth projector: radial abundance is removed while
-depth-dependent angular response survives, with all windows constraining one still-open complete history. Construct that history next with outcomes and coefficients sealed.
+G102-G106 establish the evaluator, nonselection, factorized null, Jacobian channel, and sky/depth
+projector. The whiteboard identifies `dV=E(dJ+E^-1dE J)` as grammar, not score. Next run its finite
+reciprocal-extension census with outcomes sealed and passive versus active carry separated.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism
 invention merely to create forward motion.

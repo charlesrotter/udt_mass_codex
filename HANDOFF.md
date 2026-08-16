@@ -34,8 +34,8 @@ chord with no refit or holdout read—not `B,Q,S,Y,Z`; transfer and joint uncert
 G100 exposes frozen P1 to DES-SN5YR/Dovekie: external `PASS_WITH_CAVEATS` at `chi2=1444.18644/1622` nominal dof. G101 retains only the two-source query and local maser slope lead from `grok2`.
 G102 externally verifies the conditional two-chord join. G103 externally verifies that the frozen regular local/first-jet equations retain only legal sky/network/measure assembly and select no nontrivial source-independent pattern once `J` and source pairing are released. This is not a global no-go; critical/topological, bootstrap, and joint source-history laws remain open.
 
-G104 verifies the factorized null; G105 supplies the conditional Jacobian channel. G106 externally
-verifies that the ideal sky/depth reference removes radial abundance while depth-dependent angular response survives under one common-history constraint.
+G104/G105 verify the factorized null/Jacobian channel. G106 verifies ideal reference removal of
+radial abundance; the whiteboard derives `dV=E(dJ+E^-1dE J)` as grammar and preregisters the census.
 
 ### What is running
 
@@ -124,7 +124,7 @@ payload; directory presence is not evidence that the unbanked work was committed
 
 ### Next bounded action
 
-Keep outcomes sealed; construct one complete history jointly realizing G105 and G106 across windows. Do not activate coefficients or import ruler/acoustic/Lambda-CDM semantics.
+Keep outcomes sealed; census constant reciprocal extensions and reject passive carry before fitting.
 
 Historical handoff material is preserved under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->
