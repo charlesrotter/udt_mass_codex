@@ -1,0 +1,16 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "reject_dropped_control": true,
+    "reject_hidden_control_selection": true,
+    "reject_incompatible_second_jets": true,
+    "reject_non_normalized_null_screen": true,
+    "reject_rank_two_pair_screen": true,
+    "reject_same_W_zero_angular_map": true,
+    "reject_twist_sign_erasure": true,
+    "reject_wrong_riemann_contraction": true,
+    "reject_wrong_vertex_normalization": true
+  },
+  "maximum_twist_sign_trace_difference": 4.451081856984935,
+  "schema": "UDT_G111_CATCH_PROOFS_V1"
+}

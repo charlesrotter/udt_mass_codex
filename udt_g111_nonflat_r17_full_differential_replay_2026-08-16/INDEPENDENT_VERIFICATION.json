@@ -1,0 +1,34 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "all_1152_rows_compared": true,
+    "determinant_agrees": true,
+    "does_not_import_production": true,
+    "finite_difference_moving_frame_route": true,
+    "norm_agrees": true,
+    "optical_symmetry": true,
+    "pair_quadratic_agrees": true,
+    "pair_screen_agrees": true,
+    "phi_pair_linear_agrees": true,
+    "trace_agrees": true
+  },
+  "comparisons": 1152,
+  "maximum_absolute_residuals": {
+    "determinant": 1.3482921559671013e-05,
+    "frobenius": 2.402639073029178e-06,
+    "pair_h00_quadratic": 6.774246353036251e-07,
+    "pair_screen_norm": 6.031758426061629e-12,
+    "phi_pair_linear": 4.2651021603390404e-12,
+    "symmetry": 3.601274098680163e-06,
+    "trace": 3.4484700637271715e-06
+  },
+  "method": "numpy finite-difference quaternion-flow brackets and connection derivatives; no production import",
+  "schema": "UDT_G111_INDEPENDENT_MOVING_FRAME_V1",
+  "tolerances": {
+    "det": 0.0002,
+    "norm": 2e-05,
+    "pair": 2e-05,
+    "symmetry": 2e-05,
+    "trace": 2e-05
+  }
+}

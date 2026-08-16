@@ -1,0 +1,15 @@
+object	status	maximum_claim
+R17_complete_metric	SUPPLIED_CONDITIONAL_CONTROL	nonflat complete coframe test family not selected physical history
+analytic_profile	FREE_AND_EXPLORED	phi(q)=epsilon q0 bounded global control not field equation
+full_observer_differential	DERIVED_CONDITIONAL	one supplied exponential contains distinct pair angular and mixed blocks
+terminal_pair_series	DERIVED_CONDITIONAL	pair pullback yields local h and phi_pair coefficients on regular stratum
+sky_Jacobi_series	DERIVED_CONDITIONAL	Dsky vertex identity and curvature cubic term from same metric
+pair_screen_map	DERIVED_DEGENERATE	rank at most one for canonical null point-observer pair projection
+mixed_compatibility	DERIVED_CONDITIONAL	shared contraction agrees exactly without identifying pair and sky maps
+bounded_control_census	OBSERVED	192 metric controls and 1152 directional controls all retained
+nonflat_response	OBSERVED	all optical tidal matrices and pair-screen leading vectors nonzero
+angular_shear	OBSERVED	1088 of 1152 controls have nonzero cubic sky shear
+physical_metric_history	OPEN	no history selection
+global_relation_weights	OPEN	no endpoint occupancy or branch weights
+observations	SEALED	no SNe BAO CMB or Xmax outcome used
+blind_review	REPAIRS_VERIFIED	fresh zero-context review accepted all bounded repairs

@@ -1,0 +1,32 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "256_riemann_components_exact": true,
+    "64_bracket_components_exact": true,
+    "64_connection_components_exact": true,
+    "does_not_import_production": true,
+    "independent_exterior_form_route": true
+  },
+  "comparisons": {
+    "brackets": {
+      "all_component_hashes_equal": true,
+      "component_count": 64,
+      "expected_count": 64,
+      "mismatch_indices": []
+    },
+    "connection": {
+      "all_component_hashes_equal": true,
+      "component_count": 64,
+      "expected_count": 64,
+      "mismatch_indices": []
+    },
+    "riemann": {
+      "all_component_hashes_equal": true,
+      "component_count": 256,
+      "expected_count": 256,
+      "mismatch_indices": []
+    }
+  },
+  "method": "direct exterior derivatives of the R17 coframe plus exact Cartan/Koszul curvature; no production import",
+  "schema": "UDT_G111_INDEPENDENT_EXACT_CARTAN_V1"
+}
