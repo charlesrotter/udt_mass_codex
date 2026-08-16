@@ -169,6 +169,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G123" in block, f"G123 common-event incidence result absent: {name}")
         require("G124" in block, f"G124 finite-radius live junction absent: {name}")
         require("G125" in block, f"G125 exact SNe total-score result absent: {name}")
+        require("G126" in block, f"G126 angular same-query bridge result absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -253,6 +254,11 @@ def validate_startup_surface(root: Path) -> None:
             f"G125 package route absent: {name}",
         )
         require(
+            "udt_g126_angular_lane_same_query_bridge_2026-08-16/" in block
+            or "G126" in block,
+            f"G126 package route absent: {name}",
+        )
+        require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
             or "whiteboard" in block.lower(),
             f"orchestra-score next-gate route absent: {name}",
@@ -297,6 +303,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/",
             "udt_g121_copresent_reciprocal_causal_history_consistency_2026-08-16/",
             "udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/",
+            "udt_g126_angular_lane_same_query_bridge_2026-08-16/",
             "After orientation",
             "verify_current_scientific_premises.py",
         ),
@@ -332,6 +339,7 @@ def validate_startup_surface(root: Path) -> None:
             "G123",
             "G124",
             "G125",
+            "G126",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -357,6 +365,7 @@ def validate_startup_surface(root: Path) -> None:
             "G123",
             "G124",
             "G125",
+            "G126",
         ),
         "README.md": (
             "LIVE.md",
@@ -449,6 +458,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/AUDIT_REPORT.md",
         "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/AUDIT_REPORT.md",
         "udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/AUDIT_REPORT.md",
+        "udt_g126_angular_lane_same_query_bridge_2026-08-16/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -465,9 +475,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 112, "premise registry must contain exactly 112 rows")
+    require(len(rows) == 113, "premise registry must contain exactly 113 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 112, "duplicate premise id")
+    require(len(by_id) == 113, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2277,6 +2287,38 @@ def main() -> None:
         == "udt_g125_exact_sne_score_history_recomposition_2026-08-16/AUDIT_REPORT.md",
         "G125 source changed",
     )
+    require(
+        by_id["G126"]["current_status"].startswith(
+            "BLIND_VERIFIED_WITH_REPAIRS__NO_CURRENT_R5_TO_K_OR_PHASE_BRIDGE"
+        ),
+        "G126 angular bridge status regressed or promoted",
+    )
+    require(by_id["G126"]["epistemic_label"] == "MIXED", "G126 label changed")
+    require(
+        "metric-owned nonspherical or displaced query on the same complete history"
+        in by_id["G126"]["open_scope"],
+        "G126 same-history bridge boundary absent",
+    )
+    require(
+        "bounded current-bridge negative called a universal no-go"
+        in by_id["G126"]["forbidden_regression"],
+        "G126 bounded-negative guard absent",
+    )
+    require(
+        "R5 two-point curve inverted to K or phase"
+        in by_id["G126"]["forbidden_regression"],
+        "G126 two-point inversion guard absent",
+    )
+    require(
+        "fitting R5 used to manufacture bridge"
+        in by_id["G126"]["forbidden_regression"],
+        "G126 no-fit bridge guard absent",
+    )
+    require(
+        by_id["G126"]["controlling_source"]
+        == "udt_g126_angular_lane_same_query_bridge_2026-08-16/AUDIT_REPORT.md",
+        "G126 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2355,7 +2397,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G125-extended premise guards; PASS: 112-row premise "
+        "PASS: G126-extended premise guards; PASS: 113-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

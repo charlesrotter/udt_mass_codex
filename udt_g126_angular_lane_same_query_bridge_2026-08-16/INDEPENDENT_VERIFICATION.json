@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "K_requires_Z_affine_rate": true,
+    "angle_inner_product_scaled_only": true,
+    "matched_vertex_rate": true,
+    "orthogonal_rotation": true,
+    "pair_autocorrelation_does_not_fix_sign": true,
+    "position_block_does_not_fix_phase_rate": true,
+    "radial_pair_residual_zero": true,
+    "radial_reference_residual_zero": true,
+    "same_RZ_allows_distinct_finite_rate": true,
+    "screen_abs_area_R2": true,
+    "screen_derivative_is_KO": true,
+    "screen_gram_R2": true
+  },
+  "implementation": "independent standard-library Fraction replay; no production import",
+  "status": "PASS",
+  "witness": {
+    "K1": "1",
+    "K2": "6/5",
+    "K_screen_example": "3",
+    "R": "7",
+    "rate_factor": "6/5"
+  }
+}

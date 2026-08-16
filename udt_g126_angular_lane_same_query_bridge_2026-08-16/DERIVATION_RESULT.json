@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "K_requires_unowned_Z_affine_rate": true,
+    "RZ_derivative_known": true,
+    "finite_depth_rate_differs": true,
+    "fixed_radius_angle_numerator_preserved": true,
+    "matched_vertex_affine_normalization": true,
+    "pair_autocorrelation_sign_noninjective": true,
+    "phase_position_same_but_derivative_differs": true,
+    "radial_only_pair_residual_zero": true,
+    "radial_only_reference_residual_zero": true,
+    "same_endpoint_R_for_both_rates": true,
+    "screen_abs_area_is_R2": true,
+    "screen_expansion_is_2K_over_R": true,
+    "screen_orthogonal_gram": true,
+    "screen_shape_operator_is_K_over_R": true,
+    "screen_shear_zero": true
+  },
+  "exact_objects": {
+    "R5_type": "Landy--Szalay reference-projected two-point catalog-coordinate correlation in release-coordinate windows, not D_sky, D_sky', K, or Jacobi phase",
+    "processed_depth_chain_rule": "K(R)=dR/dlambda=(dR/dZ)(dZ/dlambda)",
+    "rate_counterfamily": "u1=Z^(2/n+1)/(2X), u2=[1+alpha(Z-1)]u1 both give K(1)=1 and preserve R(Z), but change K away from Z=1",
+    "screen_expansion": "theta_sky = 2 K(R)/R",
+    "screen_phase_derivative_on_parallel_screen": "D_sky' = K(R) O",
+    "screen_position": "D_sky = R O"
+  },
+  "landing": "NO_LAWFUL_CURRENT_R5_TO_K_OR_PHASE_BRIDGE__EXACT_G119_SPHERICAL_SCREEN_IS_ANGLE_PRESERVING_AND_RADIAL_ONLY__G106_REFERENCE_REMOVES_PURE_RADIAL_MODULATION__PROCESSED_Z_AND_R_OF_Z_DO_NOT_OWN_AFFINE_RATE__R5_TWO_POINT_OUTPUT_DOES_NOT_INVERT_TO_SCREEN_PHASE__CONDITIONAL_NONSPHERICAL_HISTORY_SOURCE_REFERENCE_BRIDGE_OPEN",
+  "status": "PASS"
+}

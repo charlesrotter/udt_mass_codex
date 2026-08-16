@@ -64,7 +64,7 @@ is externally verified: every finite regular central-spherical time-live branch 
 `|det D_sky|=R^2`. G120 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/`
 is blind verified: imported transfer gives `d_L=Z^2R` and preserves both SNe replays. G121 is blind verified with conditional pair-scalar closure only. G122
 `udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/` is blind verified after repairs: terminal
-pair and causal phase are distinct. G123 derives the supplied common-event chart graph. G124 derives `zeta=phi_pair-kappa_pair+chi_s`. G125 `udt_g125_exact_sne_score_history_recomposition_2026-08-16/` is blind verified: the frozen P1 interface conditionally fixes only the total `phi_pair+log|K|/2+chi_s`, does not change either SNe prediction, and does not select its allocations, history, transfer, or `X_max`.
+pair and causal phase are distinct. G123 derives the supplied common-event chart graph. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 fixes only frozen P1's conditional total score. G126 `udt_g126_angular_lane_same_query_bridge_2026-08-16/` is blind verified after repairs: G119's exact spherical screen preserves angles and has zero shear, G106 removes its radial-only modulation, `R(Z)` leaves affine rate open, and R5's two-point output does not invert to `K` or phase.
 
 ### What is running
 
@@ -125,5 +125,5 @@ After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for 
 Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell draft, local pair-response package, or local G88 package without a specific dispatch. Preserve unrelated dirt; directory presence does not prove banking.
 
 ### Next bounded action
-The G125 three-role whiteboard stops further frequency-network algebra: it adds no rank. Map, without fitting, whether the banked angular lane independently constrains `K(R)` or screen phase on the same typed query; stop if no lawful bridge exists. Historical detail is archived under `archive/startup_surface_2026-08-14/`.
+G126 stops direct R5-to-`K`/phase fitting. Next map, without observational fitting, whether the banked full nonlinear nonspherical/displaced differential can inhabit the same complete history as G119/G125; stop if the bridge is not metric-owned. Historical detail is archived under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->
