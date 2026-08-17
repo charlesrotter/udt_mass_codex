@@ -1,0 +1,14 @@
+item	status	role
+c_E	OBSERVED	clock-ruler calibration used only downstream in terminal pair readout
+reciprocal_character	DERIVED_ON_SUPPLIED_ORDERED_DEPTH	terminal channel structure; does not select network values
+complete_pair_pullback	DERIVED_CONDITIONALLY	h_a=A_a^T g A_a on supplied regular calibrated pair planes
+pair_plane_collection	FREE_AND_EXPLORED	coverage variable tested by exact rank
+Lorentz_signature	PINNED_BY_DECLARED_METRIC_ARENA	open stable stratum for exact perturbation witness
+overlap_transition	DERIVED_CONDITIONALLY	f_ji=F_j^-1 o F_i on supplied regular common-event overlaps
+overlap_cocycle	DERIVED_CONDITIONALLY	chart descent identity on triple overlaps
+copresence	WORKING_CONDITIONAL_SEMANTICS	whole-network interpretation; not promoted to a selector
+quiet_middle	FREE_CERTIFICATION_CONDITION	used only in a continuation nonuniqueness counterexample
+extreme_limits	FREE_CERTIFICATION_CONDITION	used only in a continuation nonuniqueness counterexample
+physical_history	OPEN	not selected or fitted
+observations	OMITTED	no SNe BAO CMB or other outcome enters
+singular_global_scope	OPEN	caustics cut loci branch populations and global topology omitted
