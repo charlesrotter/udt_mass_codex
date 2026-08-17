@@ -1,0 +1,138 @@
+{
+  "checks": {
+    "B_first_jet_live": true,
+    "Q_first_jet_live": true,
+    "S_first_jet_live": true,
+    "Y_first_jet_live": true,
+    "Z_first_jet_live": true,
+    "all_block_hdot_additivity": true,
+    "all_live_combined_hdot": true,
+    "all_live_combined_phidot": true,
+    "all_live_combined_projector_dot": true,
+    "ambient_norm_split": true,
+    "base_h00_timelike": true,
+    "base_pair_lorentzian": true,
+    "catch_missing_rest_space_tilt": true,
+    "catch_missing_screen_term": true,
+    "catch_wrong_radial_weight": true,
+    "complete_witness_phi_derivative": true,
+    "covariant_vector_decomposition": true,
+    "radial_derivative": true,
+    "radial_weight_negative_endpoint": true,
+    "radial_weight_neutral": true,
+    "radial_weight_positive_endpoint": true,
+    "rest_norm_split": true,
+    "rest_projection": true,
+    "screen_piece_in_pair_screen": true,
+    "screen_weight_negative_endpoint": true,
+    "screen_weight_neutral": true,
+    "screen_weight_positive_endpoint": true,
+    "screen_weight_unit_slope": true,
+    "terminal_phi_derivative_identity": true
+  },
+  "checks_passed": 29,
+  "checks_total": 29,
+  "details": {
+    "base_det_h": "-8157287/233280",
+    "base_h": [
+      [
+        "-7619/2025",
+        "-1492/1701"
+      ],
+      [
+        "-1492/1701",
+        "20779585/2286144"
+      ]
+    ],
+    "block_results": {
+      "B": {
+        "hdot": [
+          [
+            "-4/11",
+            "-1827/4862"
+          ],
+          [
+            "-1827/4862",
+            "59/247"
+          ]
+        ],
+        "phidot": "-501772157421263/37016449413478535",
+        "projector_dot_nonzero": true
+      },
+      "Q": {
+        "hdot": [
+          [
+            "7561832/516408075",
+            "-328217/247875876"
+          ],
+          [
+            "-328217/247875876",
+            "1801735525/291502030176"
+          ]
+        ],
+        "phidot": "783663938878137/665673094137211958",
+        "projector_dot_nonzero": true
+      },
+      "S": {
+        "hdot": [
+          [
+            "836/52029",
+            "9455783/469821870"
+          ],
+          [
+            "9455783/469821870",
+            "-61865/1292193"
+          ]
+        ],
+        "phidot": "-316141781002071/703902058009755479",
+        "projector_dot_nonzero": true
+      },
+      "Y": {
+        "hdot": [
+          [
+            "-5551153/56033775",
+            "-36011689943407/163082491840800"
+          ],
+          [
+            "-36011689943407/163082491840800",
+            "187149895/825107472"
+          ]
+        ],
+        "phidot": "2235003484291498317/1042761023851653953420",
+        "projector_dot_nonzero": true
+      },
+      "Z": {
+        "hdot": [
+          [
+            "7508/817965",
+            "3430796494/120773350215"
+          ],
+          [
+            "3430796494/120773350215",
+            "153235/7973154"
+          ]
+        ],
+        "phidot": "101714440983151875/129735206223837874513",
+        "projector_dot_nonzero": true
+      }
+    },
+    "combined_hdot": [
+      [
+        "-2327899509944646371203/5505724627049288374425",
+        "-588197867545238198669939027430368377/1070655543612943577911329082023448800"
+      ],
+      [
+        "-588197867545238198669939027430368377/1070655543612943577911329082023448800",
+        "2214607077611904214137331/4996756014260484865049568"
+      ]
+    ],
+    "combined_phidot": "-3591977369462450563397509418539427543846887/362829918081135766018409457770286471923633860",
+    "combined_projector_dot_nonzero": true,
+    "regime_weights": {
+      "radial": "sech(phi)^2",
+      "reciprocal_clock_ruler": "exp(-phi), exp(+phi)",
+      "screen_and_rest_space_tilt": "tanh(phi)"
+    }
+  },
+  "status": "PASS"
+}
