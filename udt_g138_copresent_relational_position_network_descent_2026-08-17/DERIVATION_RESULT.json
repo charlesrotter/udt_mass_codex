@@ -1,0 +1,27 @@
+{
+  "checks_passed": 22,
+  "checks_total": 22,
+  "classification": "ENDPOINT_DESCENT_IFF_ALL_MATCHED_CYCLE_RESIDUALS_VANISH__ALL_REFERENCE_DEPTH_GAUGES_FORM_A_MOBIUS_TORSOR__OBSERVER_ROOTED_CHARTS_ARE_MOBIUS_RELATED_WITH_NO_COORDINATE_ROOT_SELECTED__NONZERO_CYCLE_RESIDUAL_IS_PATH_HOLONOMY_ONLY_WHEN_DISTINCT_ROUTES_REMAIN_DISTINCT_ARROWS__CURRENT_FOUNDATIONS_DO_NOT_SELECT_BETWEEN_THESE_GLOBAL_RELATION_TYPES__XMAX_VALUE_PAIR_REALIZATION_HISTORY_AND_GLOBAL_COMPLETION_OPEN",
+  "exact": {
+    "cycle_tests": "sum(phi)=0 iff product(q)=1 iff MobiusSum(xi)=0",
+    "pair_chart": "xi_AB=(u_B-u_A)/(1-u_A*u_B)",
+    "root_change": "u_A^(R)=(u_A^(O)-u_R^(O))/(1-u_A^(O)*u_R^(O))"
+  },
+  "finite_graph": {
+    "corrupt_cycle_holonomy": "1/11",
+    "cycle_rank": 3,
+    "edges": 7,
+    "fundamental_residuals": [
+      "0",
+      "0",
+      "0"
+    ],
+    "vertices": 5
+  },
+  "open": [
+    "physical identification of direct and composite branches",
+    "network values pair realizations and complete history",
+    "X_max numerical value and dimensional owner",
+    "singular null and global completion"
+  ]
+}
