@@ -149,6 +149,7 @@ def validate_startup_surface(root: Path) -> None:
             "G139",
             "G140",
             "G141",
+            "G142",
             "rank ten",
             "conformal",
             "density",
@@ -204,6 +205,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g139_endpoint_position_transport_join_2026-08-17/",
             "udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/",
             "udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/",
+            "udt_g142_abstract_carrier_physical_carry_join_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -227,6 +229,7 @@ def validate_startup_surface(root: Path) -> None:
             "G139",
             "G140",
             "G141",
+            "G142",
             "bivector area bilinear",
             "complete history/solution law",
             "R2--R5",
@@ -248,6 +251,7 @@ def validate_startup_surface(root: Path) -> None:
             "G138",
             "G140",
             "G141",
+            "G142",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -273,10 +277,11 @@ def validate_startup_surface(root: Path) -> None:
             "G139",
             "G140",
             "G141",
+            "G142",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "128-row",
+            "129-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -338,6 +343,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/AUDIT_REPORT.md",
         "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/AUDIT_REPORT.md",
         "udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md",
+        "udt_g142_abstract_carrier_physical_carry_join_2026-08-17/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -364,9 +370,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 128, "premise registry must contain exactly 128 rows")
+    require(len(rows) == 129, "premise registry must contain exactly 129 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 128, "duplicate premise id")
+    require(len(by_id) == 129, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2687,6 +2693,35 @@ def main() -> None:
         == "udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md",
         "G141 source changed",
     )
+    require(
+        by_id["G142"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_FOLLOWUP_PASS__ON_SUPPLIED_REGULAR_ORDERED_BPLUS2"
+        ),
+        "G142 bounded status regressed or promoted",
+    )
+    require(by_id["G142"]["epistemic_label"] == "MIXED", "G142 label changed")
+    for open_item in (
+        "physical derivation or restriction to Bplus2",
+        "physical tangent-plane soldering carry query family and history",
+        "single-query versus cross-query carry ownership",
+        "numerical Xmax proper length",
+    ):
+        require(open_item in by_id["G142"]["open_scope"], f"G142 open boundary absent: {open_item}")
+    for guard in (
+        "abstract two-channel representation called a derived physical carrier",
+        "K called derived rather than posited",
+        "carry neutrality called gauge invariant under independent endpoint gauges",
+        "nonidentity neutral carry called recovery of G141 full transition",
+        "Bplus2 called a derived physical restriction",
+        "formal same-endpoint countermodel called two realized physical carries",
+        "total C called universal physical law or selector",
+    ):
+        require(guard in by_id["G142"]["forbidden_regression"], f"G142 guard absent: {guard}")
+    require(
+        by_id["G142"]["controlling_source"]
+        == "udt_g142_abstract_carrier_physical_carry_join_2026-08-17/AUDIT_REPORT.md",
+        "G142 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2765,7 +2800,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G141-extended premise guards; PASS: 128-row premise "
+        "PASS: G142-extended premise guards; PASS: 129-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

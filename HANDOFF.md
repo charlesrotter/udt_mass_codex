@@ -8,7 +8,7 @@ Read `LIVE.md` first. It wins every disagreement.
 
 ### Current theory state
 
-The banked evaluator forms one supplied pair metric from the full `B,Q,S,Y,Z` orchestra before
+The evaluator forms a supplied pair metric from the `B,Q,S,Y,Z` orchestra before
 terminal `phi_pair` and conditional pair `c_eff/c_E`. All live derivatives remain. Its bounded
 algebra is `VERIFIED_WITH_CAVEATS`; it selects neither network, values, nor metric history.
 
@@ -20,15 +20,16 @@ The active dependency chain is:
 4. G132: common scale is retained, not sourced; `c_E,G_obs` are anchors.
 5. G133: fixed `K` owns internal density only; supplied pair density descends on a common atlas;
    `kappa_pair` needs matched calibration; full `g` owns a symmetric bivector area bilinear.
-6. G134: complete area data recover `g` up to fixed sign on a rank-ten, codimension eleven locus.
+6. G134: area data recover `g` up to fixed sign on a rank-ten, codimension eleven locus.
 7. G135--G137 (G136 classification): each pair owns `chi=tanh(phi_pair)`; Charles adopted its
    same-Mobius unit-slope position chart.
 8. G138--G139: endpoint descent means zero matched-cycle residuals; endpoint position and route
    transport remain separately typed, so route holonomy may survive.
 9. G140: constant-metric pullback faithfulness does not imply positional congruence; terminal
    `bar_phi` is unoriented and all eight supplied sign lifts fail.
-10. G141: on a supplied matched pair carrier, triangular calibration comparisons compose, reverse,
-    and read `Phi_B-Phi_A`; identification with the physical inverse/query remains open.
+10. G141/G142: supplied endpoint factors and flag-preserving carry form invariant
+    `C_BA=R_B M_BA R_A^-1`; `chi(C)=Phi_B-Phi_A+chi(M)`. The abstract representation is supplied,
+    not a derived physical carrier; physical carry/query ownership remains open.
 
 The position chain passed review. `s/X_max=abs(tanh(phi_pair))` follows on a supplied pair; signed
 position is algebraically coherent on G141's supplied family. Physical inverse, `X_max`, proper
@@ -50,6 +51,7 @@ Open these after orientation only when load-bearing:
 - `udt_g139_endpoint_position_transport_join_2026-08-17/AUDIT_REPORT.md`
 - `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/AUDIT_REPORT.md`
 - `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md`
+- `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/AUDIT_REPORT.md`
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -77,8 +79,8 @@ No long process is running.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
 - working position constitution is adopted; signed `x/X_max=tanh(phi_pair)` and unsigned magnitude
   follow on supplied complete pairs, but neither is yet proper length or a selected history.
-- G139 chooses endpoint descent within supplied families; G140--G141 bound congruence and construct
-  calibration algebra without selecting the family or physical inverse.
+- G139 chooses endpoint descent within supplied families; G140--G142 bound congruence and derive
+  invariant conditional carrier/carry algebra without selecting the physical family or carry.
 - `X_max` is an observer-pair asymptotic frame, not a wall or center.
 - strong local CSN is inactive.
 - carrier, action, source, matter, bootstrap selection, and dynamics remain posit/conditional/open.
@@ -91,7 +93,7 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Derive or bound G141's shared carrier/family and physical-inverse identification from the complete
-pair metric plus co-presence. Keep `X_max`, proper length, realization, and history open.
+Test whether a single supplied pair realization already owns its calibrated carry, while keeping
+cross-query/network carry, `X_max`, proper length, realization, and history open.
 
 <!-- STARTUP_CURRENT_END -->
