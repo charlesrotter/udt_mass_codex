@@ -33,21 +33,21 @@ promote package conclusions.
   `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous co-present position classification:
   `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G142 position, descent, transport, calibration control:
+- G137--G143 position, descent, transport, calibration control:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`
+  `udt_g143_single_pair_domain_carry_ownership_2026-08-17/`
 The chain is evaluator → pullback faithfulness → co-presence typing → conformal ceiling → common-scale
 ownership → density/area typing → complete-area faithfulness → native bounded projective pair readout.
 Complete area data encode `g`; every supplied complete pair owns `chi=tanh(phi_pair)`. Charles adopted its same-native-Mobius unit-slope chart as working
 physical position. G138 follows the signed `x/X_max=tanh(phi_pair)` join, which does not
 select metric values or dimensional `X_max`. The last steps classify descent and provisionally
 choose endpoint position within supplied congruent families while preserving path transport. G140
-rejects pullback-only congruence; G141--G142 derive conditional invariant carrier/carry algebra but not its physical owner.
+rejects pullback-only congruence; G141--G143 derive invariant same-query carry algebra; cross-query gluing remains open.
 ## Durable prerequisites
 
-- Pair-first relational plane:
-  `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
+- Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability:
   `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent:
@@ -59,7 +59,7 @@ rejects pullback-only congruence; G141--G142 derive conditional invariant carrie
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 129-row premise registry controls current status, not the archived prose.
+load-bearing. The 130-row premise registry controls current status, not the archived prose.
 
 ## Observational lane
 

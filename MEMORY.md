@@ -23,9 +23,8 @@ Current dependency spine:
   `s/X_max=abs(tanh(phi_pair))` follow; only signed position composes.
 - G138: endpoint position descends iff matched cycles close; reference gauges form a Mobius torsor;
   nonzero cycles are holonomy only when routes remain distinct arrows.
-- G139/G140/G141/G142: endpoint position is provisional; route holonomy may remain. Pullbacks do not imply
-  congruence. Supplied ordered carrier/carry data give invariant `C=R_BMR_A^-1` and
-  `chi(C)=Phi_B-Phi_A+chi(M)`; physical carry/family ownership remains open.
+- G139/G140/G141/G142/G143: position is provisional; route holonomy may remain. Supplied carry data
+  give invariant `C=R_BMR_A^-1`; one calibrated query owns chart carry, while cross-query gluing is open.
 
 Network values, complete history/solution law, completion, observations, and `X_max` remain open.
 
@@ -56,8 +55,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Test whether one supplied pair realization owns its calibrated carry, separating this from
-cross-query/network carry. Keep `X_max`, proper length, family, and history open.
+Derive carry on genuine cross-query overlaps and prove endpoint incidence insufficient. Keep
+`X_max`, proper length, family, and history open.
 
 ## Historical route
 

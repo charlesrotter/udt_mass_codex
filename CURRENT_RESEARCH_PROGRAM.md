@@ -89,7 +89,7 @@ codimension eleven inside arbitrary symmetric bivector data. This gives real rel
 metricity constraints, but every regular Lorentz metric passes: numerical values and evolution are
 not selected. Fresh adversarial repair follow-up passed.
 
-### G135--G142 — co-present relational position
+### G135--G143 — co-present relational position
 
 After the orchestra forms a supplied calibrated pair metric, `T,L` own
 `q=T/L=exp(-2phi_pair)` and `chi=(L-T)/(L+T)=tanh(phi_pair)`. G136 classifies continuous
@@ -102,9 +102,9 @@ each supplied congruent physical relation family. G139 separates endpoint positi
 transport. G140 then proves, in one normalized constant-Minkowski control, that pooled rank-ten
 pullback faithfulness does not imply positional congruence. The pullback terminal scalar is
 unoriented; its tested antisymmetric lift is supplied. G141 proves that on a supplied shared carrier,
-triangular endpoint comparisons compose, reverse, and read `Phi_B-Phi_A`. G142 supplies the carry
-and derives gauge-invariant `C_BA=R_B M_BA R_A^-1`, with `chi(C)=Phi_B-Phi_A+chi(M)`. The abstract
-representation is founding-supplied/chosen; physical carry/query, family, `X_max`, and history remain open.
+triangular endpoint comparisons compose and reverse. G142 derives gauge-invariant
+`C_BA=R_B M_BA R_A^-1`. G143 proves one calibrated query chart supplies identity carry and any
+flag-preserving reparameterization produces the G142 form. Cross-query gluing remains open.
 
 ## Durable prerequisites
 
@@ -140,8 +140,7 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Does one supplied pair realization already own its calibrated carry through its domain/atlas,
-   and how does that differ from cross-query or network carry?
+1. When do two supplied query sheets represent one relation on overlap and thereby own their carry?
 2. What fixes the value, profile, and global realization of `X_max`?
 3. Do composition, co-presence, and causality constrain the complete metric beyond metricity?
 4. Can they derive a complete history and observer network rather than only evaluate supplied data?

@@ -27,11 +27,10 @@ The active dependency chain is:
    transport remain separately typed, so route holonomy may survive.
 9. G140: constant-metric pullback faithfulness does not imply positional congruence; terminal
    `bar_phi` is unoriented and all eight supplied sign lifts fail.
-10. G141/G142: supplied endpoint factors and flag-preserving carry form invariant
-    `C_BA=R_B M_BA R_A^-1`; `chi(C)=Phi_B-Phi_A+chi(M)`. The abstract representation is supplied,
-    not a derived physical carrier; physical carry/query ownership remains open.
+10. G141/G142/G143: `C_BA=R_B M_BA R_A^-1` is invariant. One supplied calibrated query chart
+    owns identity carry; reparameterization yields G142's form. Cross-query gluing remains open.
 
-The position chain passed review. `s/X_max=abs(tanh(phi_pair))` follows on a supplied pair; signed
+The position chain passed review. `s/X_max=abs(tanh(phi_pair))` follows on a supplied pair;
 position is algebraically coherent on G141's supplied family. Physical inverse, `X_max`, proper
 length, pair ownership, history/solution law, and completion remain `OPEN`. `CANON.md` is unchanged.
 
@@ -52,6 +51,7 @@ Open these after orientation only when load-bearing:
 - `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/AUDIT_REPORT.md`
 - `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md`
 - `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/AUDIT_REPORT.md`
+- `udt_g143_single_pair_domain_carry_ownership_2026-08-17/AUDIT_REPORT.md`
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -93,7 +93,7 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Test whether a single supplied pair realization already owns its calibrated carry, while keeping
-cross-query/network carry, `X_max`, proper length, realization, and history open.
+Derive cross-query carry exactly on genuine overlaps and prove endpoint incidence insufficient.
+Keep `X_max`, proper length, realization, family, and history open.
 
 <!-- STARTUP_CURRENT_END -->

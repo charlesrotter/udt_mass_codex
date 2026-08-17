@@ -57,10 +57,10 @@ derived only on a supplied regular calibrated pair realization.
   that native law, and separately chosen unit slope as a working physical-position constitution.
   The adopted join derives signed `x/X_max=tanh(phi_pair)` and nonnegative `s/X_max=abs(tanh(phi_pair))`; only
   signed position composes. `X_max` value, proper length, pair realization, and history remain open.
-- **G138/G139/G140/G141/G142 — descent, transport, calibration.** Endpoint descent and route transport remain
-  distinct. G140 rejects pullback-only congruence; G141 gives supplied-carrier endpoint algebra.
-  G142 derives `C_BA=R_B M_BA R_A^-1` on supplied ordered `B^+(2)` data: the total is gauge
-  invariant and `chi(C)=Phi_B-Phi_A+chi(M)`. Physical carry/query ownership remains open.
+- **G138/G139/G140/G141/G142/G143 — relation transport.** Endpoint descent and route transport remain
+  distinct. G140 rejects pullback-only congruence; G141--G142 derive invariant carrier/carry algebra.
+  G143 proves one supplied calibrated query chart owns identity carry; reparameterization gives the
+  G142 covariant form. Cross-query/branch gluing and physical history remain open.
 
 Maximum conclusion: every supplied complete pair owns bounded position magnitude. A supplied
 typed carrier/carry family owns an invariant algebraic comparison; its physical owner, values,
@@ -78,7 +78,7 @@ Primary sources:
 - `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
 - `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
-  `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`
+  `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`; `udt_g143_single_pair_domain_carry_ownership_2026-08-17/`
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -123,9 +123,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Test whether one supplied pair realization already owns its carry through its calibrated domain,
-and separate that query-owned case from cross-query/network transport. Do not invent a selector;
-keep physical family, `X_max`, proper length, completion, and history open.
+Derive exactly when two supplied query sheets are the same relation on overlap, so their transition
+map owns cross-query carry; prove endpoint incidence alone insufficient. Keep physical family,
+`X_max`, proper length, completion, and history open.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under
