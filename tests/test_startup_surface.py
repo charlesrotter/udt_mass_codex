@@ -43,6 +43,7 @@ CURRENT_TARGETS = (
     "udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md",
     "udt_g138_copresent_relational_position_network_descent_2026-08-17/AUDIT_REPORT.md",
     "udt_g139_endpoint_position_transport_join_2026-08-17/AUDIT_REPORT.md",
+    "udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md",
 )
 
 
@@ -96,7 +97,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 127-row premise registry" in result.stdout
+    assert "PASS: 128-row premise registry" in result.stdout
 
 
 def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:
@@ -186,6 +187,13 @@ def test_catch_missing_g140_current_result(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", "G140", "REMOVED_RESULT_140")
     with pytest.raises(SystemExit, match="marked current block lacks G140"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_g141_current_result(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "G141", "REMOVED_RESULT_141")
+    with pytest.raises(SystemExit, match="marked current block lacks G141"):
         premise_guard.validate_startup_surface(root)
 
 

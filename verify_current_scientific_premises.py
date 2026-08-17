@@ -148,6 +148,7 @@ def validate_startup_surface(root: Path) -> None:
             "G138",
             "G139",
             "G140",
+            "G141",
             "rank ten",
             "conformal",
             "density",
@@ -202,6 +203,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g138_copresent_relational_position_network_descent_2026-08-17/",
             "udt_g139_endpoint_position_transport_join_2026-08-17/",
             "udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/",
+            "udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -224,6 +226,7 @@ def validate_startup_surface(root: Path) -> None:
             "G139",
             "G139",
             "G140",
+            "G141",
             "bivector area bilinear",
             "complete history/solution law",
             "R2--R5",
@@ -244,6 +247,7 @@ def validate_startup_surface(root: Path) -> None:
             "G137",
             "G138",
             "G140",
+            "G141",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -268,10 +272,11 @@ def validate_startup_surface(root: Path) -> None:
             "G138",
             "G139",
             "G140",
+            "G141",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "127-row",
+            "128-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -332,6 +337,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/AUDIT_REPORT.md",
         "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/AUDIT_REPORT.md",
         "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/AUDIT_REPORT.md",
+        "udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -358,9 +364,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 127, "premise registry must contain exactly 127 rows")
+    require(len(rows) == 128, "premise registry must contain exactly 128 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 127, "duplicate premise id")
+    require(len(by_id) == 128, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2653,6 +2659,34 @@ def main() -> None:
         == "udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/AUDIT_REPORT.md",
         "G140 source changed",
     )
+    require(
+        by_id["G141"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_FOLLOWUP_PASS__SUPPLIED_SHARED_CARRIER"
+        ),
+        "G141 bounded status regressed or promoted",
+    )
+    require(by_id["G141"]["epistemic_label"] == "MIXED", "G141 label changed")
+    for open_item in (
+        "physical identification with observer-pair inverse and G123 full chart transition",
+        "derivation of shared carrier compatible endpoint family and matched calibration carry",
+        "numerical Xmax proper length physical scale and history",
+    ):
+        require(open_item in by_id["G141"]["open_scope"], f"G141 open boundary absent: {open_item}")
+    for guard in (
+        "positive triangular factor called arbitrary-coordinate invariant or metric-canonical",
+        "C_BA or D_BA called the full G123 transition",
+        "independent endpoint planes called a realized common-event transition",
+        "A-normalized constructed metric called a new physical pullback",
+        "Phi difference called invariant under independent endpoint gauges",
+        "nonzero channel coefficients called channel sensitivity without removal controls",
+        "calibration algebra called selection of family history or physical inverse",
+    ):
+        require(guard in by_id["G141"]["forbidden_regression"], f"G141 guard absent: {guard}")
+    require(
+        by_id["G141"]["controlling_source"]
+        == "udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md",
+        "G141 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2731,7 +2765,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G140-extended premise guards; PASS: 127-row premise "
+        "PASS: G141-extended premise guards; PASS: 128-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

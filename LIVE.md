@@ -57,15 +57,14 @@ derived only on a supplied regular calibrated pair realization.
   that native law, and separately chosen unit slope as a working physical-position constitution.
   The adopted join derives signed `x/X_max=tanh(phi_pair)` and nonnegative `s/X_max=abs(tanh(phi_pair))`; only
   signed position composes. `X_max` value, proper length, pair realization, and history remain open.
-- **G138/G139/G140 — descent, transport, congruence.** Endpoint position descends iff matched cycles
-  close; route transport may retain holonomy. In one normalized Minkowski affine control, pooled
-  rank-ten constant-metric pullbacks do not imply congruence. Terminal `bar_phi` is unoriented; all
-  eight supplied `delta` sign lifts fail. Physical inverse/query and family ownership remain open.
+- **G138/G139/G140/G141 — descent, transport, calibration.** Endpoint position descends iff matched cycles
+  close; route transport may retain holonomy. G140 proves constant-metric pullback faithfulness does
+  not imply congruence. G141 proves on a supplied matched carrier that triangular calibration
+  comparisons compose and read `Phi_B-Phi_A`; their physical inverse/query identification is open.
 
-Maximum conclusion: every supplied complete pair owns bounded position magnitude; signed position
-needs an ordered inverse/query lift. Within a congruent family route memory cannot change position
-but may retain holonomy. Family, inverse owner, values, complete history/solution law, completion,
-and `X_max` remain open.
+Maximum conclusion: every supplied complete pair owns bounded position magnitude. A supplied
+matched family owns an algebraic signed calibration comparison; its physical owner, family, values,
+history/solution law, completion, and `X_max` remain open.
 Primary sources:
 
 - `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
@@ -78,7 +77,8 @@ Primary sources:
 - `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
 - `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
-  `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`
+  `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
+  `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -123,9 +123,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Derive or bound the ordered inverse/query and congruent-family construction from the complete pair
-metric plus co-presence. G140 shows pullback faithfulness alone is insufficient. Keep `X_max`,
-proper length, completion, realization, and history open; do not launch a fit or mechanism.
+Derive or bound the shared calibrated carrier/family and test whether G141's constructed comparison
+is the physical observer inverse under complete-metric co-presence. Keep `X_max`, proper length,
+completion, realization, and history open; do not launch a fit or mechanism.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

@@ -23,9 +23,9 @@ Current dependency spine:
   `s/X_max=abs(tanh(phi_pair))` follow; only signed position composes.
 - G138: endpoint position descends iff matched cycles close; reference gauges form a Mobius torsor;
   nonzero cycles are holonomy only when routes remain distinct arrows.
-- G139--G140: endpoint position is provisional within supplied congruent families and route
-  transport may retain holonomy. Pooled rank-ten constant-metric pullbacks do not imply congruence;
-  terminal `bar_phi` is unoriented and the physical inverse/query lift remains open.
+- G139/G140/G141: endpoint position is provisional in supplied families; route holonomy may remain.
+  Pullbacks do not imply congruence. Supplied-carrier calibration comparisons compose and read
+  `Phi_B-Phi_A`, but physical inverse/query and carrier/family ownership remain open.
 
 Network values, complete history/solution law, completion, observations, and `X_max` remain open.
 
@@ -56,8 +56,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Derive or bound ordered inverse/query and congruent-family construction from the complete metric
-plus co-presence. Keep `X_max`, proper length, realization, history open.
+Derive or bound G141's shared carrier/family and physical-inverse identification from the complete
+metric plus co-presence. Keep `X_max`, proper length, realization, history open.
 
 ## Historical route
 

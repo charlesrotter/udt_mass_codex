@@ -25,13 +25,14 @@ The active dependency chain is:
    same-Mobius unit-slope position chart.
 8. G138--G139: endpoint descent means zero matched-cycle residuals; endpoint position and route
    transport remain separately typed, so route holonomy may survive.
-9. G140: in a normalized Minkowski affine control, pooled rank-ten constant-metric pullback
-   faithfulness does not imply positional congruence. Terminal `bar_phi` is unoriented, the tested
-   `delta` lift is supplied, and no one of eight sign lifts closes the nonclosing control.
+9. G140: constant-metric pullback faithfulness does not imply positional congruence; terminal
+   `bar_phi` is unoriented and all eight supplied sign lifts fail.
+10. G141: on a supplied matched pair carrier, triangular calibration comparisons compose, reverse,
+    and read `Phi_B-Phi_A`; identification with the physical inverse/query remains open.
 
-The position join and G140 passed review. `s/X_max=abs(tanh(phi_pair))` follows on a supplied pair;
-signed `x/X_max` uses ordered inverse/query semantics. `X_max`, proper length, inverse owner, pair
-ownership, history/solution law, and completion remain `OPEN`. `CANON.md` is unchanged.
+The position chain passed review. `s/X_max=abs(tanh(phi_pair))` follows on a supplied pair; signed
+position is algebraically coherent on G141's supplied family. Physical inverse, `X_max`, proper
+length, pair ownership, history/solution law, and completion remain `OPEN`. `CANON.md` is unchanged.
 
 Open these after orientation only when load-bearing:
 
@@ -48,6 +49,7 @@ Open these after orientation only when load-bearing:
 - `udt_g138_copresent_relational_position_network_descent_2026-08-17/AUDIT_REPORT.md`
 - `udt_g139_endpoint_position_transport_join_2026-08-17/AUDIT_REPORT.md`
 - `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/AUDIT_REPORT.md`
+- `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md`
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -75,8 +77,8 @@ No long process is running.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
 - working position constitution is adopted; signed `x/X_max=tanh(phi_pair)` and unsigned magnitude
   follow on supplied complete pairs, but neither is yet proper length or a selected history.
-- G139 provisionally chooses endpoint descent within supplied compatible families; G140 proves
-  constant-metric pullback faithfulness does not select the family or physical inverse lift.
+- G139 chooses endpoint descent within supplied families; G140--G141 bound congruence and construct
+  calibration algebra without selecting the family or physical inverse.
 - `X_max` is an observer-pair asymptotic frame, not a wall or center.
 - strong local CSN is inactive.
 - carrier, action, source, matter, bootstrap selection, and dynamics remain posit/conditional/open.
@@ -89,8 +91,7 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Derive or sharply bound the ordered inverse/query and congruent-family construction from the
-complete pair metric plus co-presence semantics. Keep `X_max`, proper length, realization, and
-history open.
+Derive or bound G141's shared carrier/family and physical-inverse identification from the complete
+pair metric plus co-presence. Keep `X_max`, proper length, realization, and history open.
 
 <!-- STARTUP_CURRENT_END -->

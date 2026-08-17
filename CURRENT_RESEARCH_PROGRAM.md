@@ -89,7 +89,7 @@ codimension eleven inside arbitrary symmetric bivector data. This gives real rel
 metricity constraints, but every regular Lorentz metric passes: numerical values and evolution are
 not selected. Fresh adversarial repair follow-up passed.
 
-### G135--G140 — co-present relational position
+### G135--G141 — co-present relational position
 
 After the orchestra forms a supplied calibrated pair metric, `T,L` own
 `q=T/L=exp(-2phi_pair)` and `chi=(L-T)/(L+T)=tanh(phi_pair)`. G136 classifies continuous
@@ -101,8 +101,8 @@ holonomy only for distinct physical arrows. Charles provisionally chose endpoint
 each supplied congruent physical relation family. G139 separates endpoint position from route
 transport. G140 then proves, in one normalized constant-Minkowski control, that pooled rank-ten
 pullback faithfulness does not imply positional congruence. The pullback terminal scalar is
-unoriented; its tested antisymmetric lift is supplied. Family/inverse ownership, proper length,
-`X_max` value, realization, and history remain open.
+unoriented; its tested antisymmetric lift is supplied. G141 proves that on a supplied shared carrier,
+triangular endpoint comparisons compose, reverse, and read `Phi_B-Phi_A`. Physical inverse/query identification, carrier/family ownership, proper length, `X_max`, and history remain open.
 
 ## Durable prerequisites
 
@@ -140,8 +140,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Can the complete metric plus co-presence semantics derive the physical ordered inverse/query and
-   congruent relation family, or only evaluate a supplied one?
+1. Can the complete metric plus co-presence derive G141's shared carrier/family and identify its
+   calibration comparison with the physical observer inverse, or only evaluate supplied data?
 2. What fixes the value, profile, and global realization of `X_max`?
 3. Do composition, co-presence, and causality constrain the complete metric beyond metricity?
 4. Can they derive a complete history and observer network rather than only evaluate supplied data?
@@ -150,6 +150,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Derive or sharply bound question 1 without inventing a path selector or fitting. Leave `X_max`,
-proper length, realization, history, and completion open; no census, fit, or mechanism.
+Derive or sharply bound question 1 without inventing a selector or fit. Leave `X_max`, proper length,
+realization, history, and completion open.
 Historical startup prose: `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-14/`.
