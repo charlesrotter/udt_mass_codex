@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "all_controllers_rerun_cleanly": true,
+    "catch_proofs_6_of_6": true,
+    "current_premise_verifier_passes": true,
+    "exact_derivation_required_guards": true,
+    "fresh_followup_pass_recorded": true,
+    "independent_21_of_21": true,
+    "physical_identification_remains_conditional": true,
+    "preregistered_landing_present": true,
+    "primary_35_of_35": true,
+    "report_grade_is_verified_with_caveats": true,
+    "source_manifest_15_rows": true,
+    "source_manifest_hashes_match": true,
+    "source_manifest_paths_exist": true,
+    "xmax_guards_are_exact": true
+  },
+  "checks_passed": 14,
+  "checks_total": 14,
+  "controller_runs": {
+    "derive_projective_pair_separation.py": {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"bounded_landing\": \"PROJECTIVE_PAIR_COORDINATE_DERIVED_IN_NATURAL_CLASS__PHYSICAL_SEPARATION_IDENTIFICATION_AND_XMAX_SCALE_OPEN\",\n  \"checks\": {\n    \"bounded_coordinate_not_ordinary_additive\": true,\n    \"chi_exchange_odd\": true,\n    \"chi_monotone\": true,\n    \"chi_negative_boundary\": true,\n    \"chi_neutral\": true,\n    \"chi_positive_boundary\": true,\n    \"chi_ratio_identity\": true,\n    \"chi_tanh_identity\": true,\n    \"common_scale_changes_pair_metric\": true,\n    \"common_scale_invariance\": true,\n    \"counterfamily_f_anchors\": true,\n    \"counterfamily_f_full_interval_extrema\": true,\n    \"counterfamily_f_odd\": true,\n    \"counterfamily_g_anchors\": true,\n    \"counterfamily_g_full_interval_extrema\": true,\n    \"counterfamily_g_neutral_slope\": true,\n    \"counterfamily_g_odd\": true,\n    \"mobius_associative\": true,\n    \"mobius_composition\": true,\n    \"mobius_identity\": true,\n    \"mobius_inverse\": true,\n    \"nonprojective_display_changes_mobius_formula\": true,\n    \"orchestra_changes_pair_metric\": true,\n    \"orchestra_changes_terminal_ratio\": true,\n    \"pair_det\": true,\n    \"projective_anchor_unique\": true,\n    \"projective_slope_is_chi\": true,\n    \"projective_solution_is_chi\": true,\n    \"reciprocal_kernel_sum_contrast_form\": true,\n    \"recover_L2\": true,\n    \"recover_T2\": true,\n    \"recover_beta\": true,\n    \"scale_countermodel_different_ruler_length\": true,\n    \"scale_countermodel_same_chi\": true,\n    \"scale_countermodel_same_q\": true\n  },\n  \"checks_passed\": 35,\n  \"checks_total\": 35,\n  \"exact_witnesses\": {\n    \"base_pair_metric\": \"[[-1/4, 0], [0, 4]]\",\n    \"base_q\": \"1/4\",\n    \"complete_pair_metric\": \"[[-3/16, 1/12], [1/12, 37/9]]\",\n    \"complete_q\": \"9*sqrt(7)/112\",\n    \"neutral_ray_projective_slope\": \"(p**2 - 1)/(p**2 + 1)\",\n    \"nonprojective_composition_deviation\": \"-45/29728\",\n    \"scale_pair_1_ruler_length\": \"2\",\n    \"scale_pair_2_ruler_length\": \"4\",\n    \"shared_chi\": \"1/3\",\n    \"shared_q\": \"1/2\",\n    \"sum_contrast_kernel\": \"[[(p**2 + 1)/(2*p), (p**2 - 1)/(2*p)], [(p**2 - 1)/(2*p), (p**2 + 1)/(2*p)]]\"\n  },\n  \"premise_boundary\": {\n    \"derived\": [\n      \"chi=(L-T)/(L+T)=(1-q)/(1+q)=tanh(phi_pair)\",\n      \"anchored first-degree projective uniqueness\",\n      \"fractional-linear composition\",\n      \"common-scale blindness\"\n    ],\n    \"open\": [\n      \"physical separation identification\",\n      \"X_max value and scale owner\",\n      \"physical pair realization\",\n      \"global completion and dynamics\"\n    ]\n  },\n  \"schema\": \"udt-g135-derivation-v1\",\n  \"status\": \"PASS\"\n}"
+    },
+    "run_catch_proofs.py": {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"caught\": 6,\n  \"checks\": {\n    \"bounded_display_not_ordinary_additive\": true,\n    \"c_E_does_not_fix_Xmax\": true,\n    \"orchestra_must_precede_terminal_readout\": true,\n    \"projective_scalar_is_not_physical_length\": true,\n    \"projective_scalars_do_not_recover_common_scale\": true,\n    \"unrestricted_chart_uniqueness_false\": true\n  },\n  \"schema\": \"udt-g135-catch-proofs-v1\",\n  \"status\": \"PASS\",\n  \"total\": 6\n}"
+    },
+    "verify_projective_pair_separation_independent.py": {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"checks\": {\n    \"bounded_not_ordinary_additive\": true,\n    \"ce_dimension_not_length\": true,\n    \"composition_associativity\": true,\n    \"composition_reversal\": true,\n    \"counterfamily_full_interval_extrema\": true,\n    \"f_counterfamily_anchors\": true,\n    \"f_counterfamily_odd_samples\": true,\n    \"g_counterfamily_anchors\": true,\n    \"g_counterfamily_neutral_slope\": true,\n    \"g_counterfamily_odd_samples\": true,\n    \"independent_projective_coefficients\": true,\n    \"nonprojective_marking_changes_formula\": true,\n    \"projective_slope_witness\": true,\n    \"ratio_bounds_samples\": true,\n    \"ratio_exchange\": true,\n    \"ratio_neutral\": true,\n    \"ratio_product_composition\": true,\n    \"scale_control_different_length\": true,\n    \"scale_control_same_chi\": true,\n    \"scale_control_same_q\": true,\n    \"sum_contrast_kernel_witness\": true\n  },\n  \"checks_passed\": 21,\n  \"checks_total\": 21,\n  \"exact_witnesses\": {\n    \"anchored_coefficients\": [\n      \"1\",\n      \"-1\",\n      \"1\",\n      \"1\"\n    ],\n    \"nonprojective_composition_deviation\": \"-45/29728\",\n    \"scale_lengths\": [\n      \"2\",\n      \"4\"\n    ],\n    \"shared_chi\": \"1/3\",\n    \"sum_contrast_witness\": [\n      \"5/4\",\n      \"3/4\"\n    ]\n  },\n  \"schema\": \"udt-g135-independent-v1\",\n  \"status\": \"PASS\"\n}"
+    }
+  },
+  "premise_verifier_stderr": "",
+  "premise_verifier_stdout": "PASS: G134-extended premise guards; PASS: 121-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
+  "schema": "udt-g135-package-verification-v1",
+  "status": "PASS"
+}

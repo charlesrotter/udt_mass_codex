@@ -1,8 +1,13 @@
 # G135 status
 
-`PREREGISTERED_BEFORE_OUTCOME_EVALUATION`
+`VERIFIED_WITH_CAVEATS__FRESH_ZERO_CONTEXT_FOLLOWUP_PASS`
 
-No derivation outcome has been inspected. The registered task is an exact bounded classification of
-the projective positional information already contained in a supplied complete calibrated pair
-metric. Physical-distance identification, `X_max` scale/value, global completion, and dynamics are
-not assumed.
+The preregistered derivation has been executed. Production exact algebra, independent rational
+verification, catch proofs, the premise verifier, and the repository suite pass. A fresh
+zero-context adversary returned `REPAIR_REQUIRED__LANDING_SURVIVES`; all six evidence/status repairs
+were implemented. A first repair-only follow-up caught one remaining lay-language leak, and the
+corrected second follow-up returned `FOLLOWUP_PASS` with the landing unchanged.
+
+The bounded landing remains: the complete pair metric owns an anchored projective reciprocal
+coordinate, while physical-distance identification, `X_max` scale/value, pair realization, global
+completion, and dynamics remain open or conditional.

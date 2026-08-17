@@ -1,0 +1,14 @@
+{
+  "caught": 6,
+  "checks": {
+    "bounded_display_not_ordinary_additive": true,
+    "c_E_does_not_fix_Xmax": true,
+    "orchestra_must_precede_terminal_readout": true,
+    "projective_scalar_is_not_physical_length": true,
+    "projective_scalars_do_not_recover_common_scale": true,
+    "unrestricted_chart_uniqueness_false": true
+  },
+  "schema": "udt-g135-catch-proofs-v1",
+  "status": "PASS",
+  "total": 6
+}

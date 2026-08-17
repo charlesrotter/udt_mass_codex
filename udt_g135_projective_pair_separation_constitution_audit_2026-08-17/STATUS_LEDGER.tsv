@@ -1,0 +1,17 @@
+claim_id	claim	status	scope_or_guard
+S01	complete h precedes every scalar readout	DERIVED_CONDITIONAL	supplied regular calibrated complete pair realization
+S02	T L beta decomposition is unique	DERIVED	regular Lorentzian pair metric with fixed clock/ruler calibration
+S03	chi=(L-T)/(L+T)=(1-q)/(1+q)=tanh(phi_pair)	DERIVED	exact algebra on positive T L
+S04	chi is the reciprocal kernel's common/contrast projective slope	DERIVED	exact basis change of D(phi)
+S05	chi has endpoints -1 +1 and neutral point 0	DERIVED	finite positive ray and its asymptotic boundary rays
+S06	chi composes by the Mobius law	DERIVED_CONDITIONAL	matched carried additive reciprocal depths
+S07	chi is unique among anchored first-degree fractional-linear readouts	DERIVED_IN_CLASS	declared projective class and three anchors
+S08	chi is unique among all smooth bounded lawful readouts	REFUTED	explicit f_epsilon and slope-matched g_epsilon families
+S09	strong local CSN is required	REFUTED_FOR_THIS_ALGEBRA	common scale is retained separately rather than declared gauge
+S10	chi determines common metric scale or proper length	REFUTED	exact h and 4h countermodel
+S11	all labelled chi values recover full g	REFUTED_IN_G131_SCOPE	bijective with phi_pair so positive conformal class only
+S12	c_E fixes X_max	NOT_DERIVED	dimensional and exact two-scale countercontrol
+S13	x/X_max=chi is the physical signed positional law	CONDITIONAL_ON_CONSTITUTIVE_CLARIFICATION	not present in active premise registry
+S14	nonnegative separation/X_max=abs(chi)	CONDITIONAL_ON_CONSTITUTIVE_CLARIFICATION	ordered sign and separation magnitude remain distinct types
+S15	complete physical pair realization and history values	OPEN	no query history dynamics or global selector derived
+S16	numerical X_max and global completion	OPEN	no value wall center seam or boundary inferred

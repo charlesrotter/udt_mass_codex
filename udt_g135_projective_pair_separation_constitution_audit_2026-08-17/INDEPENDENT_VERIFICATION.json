@@ -1,0 +1,47 @@
+{
+  "checks": {
+    "bounded_not_ordinary_additive": true,
+    "ce_dimension_not_length": true,
+    "composition_associativity": true,
+    "composition_reversal": true,
+    "counterfamily_full_interval_extrema": true,
+    "f_counterfamily_anchors": true,
+    "f_counterfamily_odd_samples": true,
+    "g_counterfamily_anchors": true,
+    "g_counterfamily_neutral_slope": true,
+    "g_counterfamily_odd_samples": true,
+    "independent_projective_coefficients": true,
+    "nonprojective_marking_changes_formula": true,
+    "projective_slope_witness": true,
+    "ratio_bounds_samples": true,
+    "ratio_exchange": true,
+    "ratio_neutral": true,
+    "ratio_product_composition": true,
+    "scale_control_different_length": true,
+    "scale_control_same_chi": true,
+    "scale_control_same_q": true,
+    "sum_contrast_kernel_witness": true
+  },
+  "checks_passed": 21,
+  "checks_total": 21,
+  "exact_witnesses": {
+    "anchored_coefficients": [
+      "1",
+      "-1",
+      "1",
+      "1"
+    ],
+    "nonprojective_composition_deviation": "-45/29728",
+    "scale_lengths": [
+      "2",
+      "4"
+    ],
+    "shared_chi": "1/3",
+    "sum_contrast_witness": [
+      "5/4",
+      "3/4"
+    ]
+  },
+  "schema": "udt-g135-independent-v1",
+  "status": "PASS"
+}

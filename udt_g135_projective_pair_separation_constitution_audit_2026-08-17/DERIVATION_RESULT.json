@@ -1,0 +1,71 @@
+{
+  "bounded_landing": "PROJECTIVE_PAIR_COORDINATE_DERIVED_IN_NATURAL_CLASS__PHYSICAL_SEPARATION_IDENTIFICATION_AND_XMAX_SCALE_OPEN",
+  "checks": {
+    "bounded_coordinate_not_ordinary_additive": true,
+    "chi_exchange_odd": true,
+    "chi_monotone": true,
+    "chi_negative_boundary": true,
+    "chi_neutral": true,
+    "chi_positive_boundary": true,
+    "chi_ratio_identity": true,
+    "chi_tanh_identity": true,
+    "common_scale_changes_pair_metric": true,
+    "common_scale_invariance": true,
+    "counterfamily_f_anchors": true,
+    "counterfamily_f_full_interval_extrema": true,
+    "counterfamily_f_odd": true,
+    "counterfamily_g_anchors": true,
+    "counterfamily_g_full_interval_extrema": true,
+    "counterfamily_g_neutral_slope": true,
+    "counterfamily_g_odd": true,
+    "mobius_associative": true,
+    "mobius_composition": true,
+    "mobius_identity": true,
+    "mobius_inverse": true,
+    "nonprojective_display_changes_mobius_formula": true,
+    "orchestra_changes_pair_metric": true,
+    "orchestra_changes_terminal_ratio": true,
+    "pair_det": true,
+    "projective_anchor_unique": true,
+    "projective_slope_is_chi": true,
+    "projective_solution_is_chi": true,
+    "reciprocal_kernel_sum_contrast_form": true,
+    "recover_L2": true,
+    "recover_T2": true,
+    "recover_beta": true,
+    "scale_countermodel_different_ruler_length": true,
+    "scale_countermodel_same_chi": true,
+    "scale_countermodel_same_q": true
+  },
+  "checks_passed": 35,
+  "checks_total": 35,
+  "exact_witnesses": {
+    "base_pair_metric": "[[-1/4, 0], [0, 4]]",
+    "base_q": "1/4",
+    "complete_pair_metric": "[[-3/16, 1/12], [1/12, 37/9]]",
+    "complete_q": "9*sqrt(7)/112",
+    "neutral_ray_projective_slope": "(p**2 - 1)/(p**2 + 1)",
+    "nonprojective_composition_deviation": "-45/29728",
+    "scale_pair_1_ruler_length": "2",
+    "scale_pair_2_ruler_length": "4",
+    "shared_chi": "1/3",
+    "shared_q": "1/2",
+    "sum_contrast_kernel": "[[(p**2 + 1)/(2*p), (p**2 - 1)/(2*p)], [(p**2 - 1)/(2*p), (p**2 + 1)/(2*p)]]"
+  },
+  "premise_boundary": {
+    "derived": [
+      "chi=(L-T)/(L+T)=(1-q)/(1+q)=tanh(phi_pair)",
+      "anchored first-degree projective uniqueness",
+      "fractional-linear composition",
+      "common-scale blindness"
+    ],
+    "open": [
+      "physical separation identification",
+      "X_max value and scale owner",
+      "physical pair realization",
+      "global completion and dynamics"
+    ]
+  },
+  "schema": "udt-g135-derivation-v1",
+  "status": "PASS"
+}
