@@ -1,0 +1,9 @@
+item	status	use	forbidden_promotion
+F_alpha_F_beta	SUPPLIED_CONDITIONAL	two regular calibrated pair realizations	selected physical queries or history
+open_overlap	SUPPLIED_AND_TESTED	common regular image patch	inferred from shared endpoints
+psi_ba	DERIVED_IF_EMBEDDED_OVERLAP_OR_SUPPLIED_IF_BRANCH_RESOLVED	F_beta inverse composed F_alpha	global selector across self intersections
+J_ba	DERIVED_CONDITIONALLY	differential tangent carry	new force or nonisometric dilation
+overlap_C	DERIVED_CONDITIONALLY	R_beta J R_alpha inverse	new positional depth at same event
+Bplus2	SUPPLIED_CONDITIONAL	positive triangular overlap gauge	derived universal physical gauge
+endpoint_only_witness	DERIVED_COUNTERMODEL	common boundary observers without open overlap	proof no queries can ever glue
+history_Xmax	OPEN_NOT_USED	outside overlap theorem	inferred from atlas descent
