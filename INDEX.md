@@ -27,10 +27,13 @@ promote package conclusions.
   `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/`
 - G133 density descent and full-metric area bilinear:
   `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`
+- G134 full-metric area faithfulness and history reframe:
+  `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 
 The current chain is evaluator → full-pullback faithfulness → co-presence typing → conformal
-scalar ceiling → common-scale ownership → density/area typing. None selects the physical history,
-query population, numerical values, or global completion.
+scalar ceiling → common-scale ownership → density/area typing → complete-area faithfulness. Complete
+area data already encode `g`, but no result selects its physical values, evolution, query population,
+or global completion.
 
 ## Durable prerequisites
 
@@ -47,7 +50,7 @@ query population, numerical values, or global completion.
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 120-row premise registry controls current status, not the archived prose.
+load-bearing. The 121-row premise registry controls current status, not the archived prose.
 
 ## Observational lane
 

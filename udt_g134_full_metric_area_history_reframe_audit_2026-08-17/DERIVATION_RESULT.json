@@ -1,0 +1,66 @@
+{
+  "area_map_input_dimension": 10,
+  "area_map_output_dimension": 21,
+  "check_count": 23,
+  "checks": {
+    "area_jacobian_cokernel_eta_is_11": true,
+    "area_jacobian_has_10_inputs": true,
+    "area_jacobian_rank_eta_is_10": true,
+    "area_jacobian_rank_generic_is_10": true,
+    "area_line_does_not_select_reciprocity": true,
+    "area_map_has_21_output_components": true,
+    "area_matrix_is_symmetric": true,
+    "banked_spherical_histories_are_curvature_distinct": true,
+    "conformal_weight_is_two_in_metric_multiplier": true,
+    "cross_plane_area_resolves_self_area_ambiguity": true,
+    "eta_area_determinant_identity": true,
+    "eta_area_nondegenerate": true,
+    "full_area_matrices_distinguish_witness": true,
+    "generic_area_determinant_identity": true,
+    "generic_area_nondegenerate": true,
+    "nonunit_scale_is_detected": true,
+    "plane_self_areas_can_match_for_distinct_labelled_metrics": true,
+    "reciprocal_D_preserves_K": true,
+    "reciprocal_D_preserves_area_line": true,
+    "sign_flip_is_global_algebraic_kernel": true,
+    "spherical_histories_have_distinct_full_area": true,
+    "spherical_histories_share_reciprocal_base_area": true,
+    "unipotent_also_preserves_area_line": true
+  },
+  "eta_left_nullspace_dimension": 11,
+  "generic_metric": [
+    [
+      5,
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      6,
+      1,
+      2
+    ],
+    [
+      3,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      1,
+      1
+    ]
+  ],
+  "history_witness_curvatures_at_areal_r_1": [
+    "3/2",
+    "-6"
+  ],
+  "jacobian_rank_eta": 10,
+  "jacobian_rank_generic": 10,
+  "local_metric_induced_codimension": 11,
+  "passed": 23,
+  "status": "PASS"
+}

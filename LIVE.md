@@ -29,7 +29,7 @@ zero-order diagnostic only; it does not own channel attribution, regime evolutio
 history. Pointwise `phi` is a presentation potential. Terminal `phi_pair` and pair `c_eff/c_E` are
 derived only on a supplied regular calibrated pair realization.
 
-### Current dependency spine — G129 through G133
+### Current dependency spine — G129 through G134
 
 - **G129 — full-pullback faithfulness.** On a supplied common observer network, known embeddings,
   full pullbacks, and overlap data recover the metric exactly iff the sampled tangent span has rank
@@ -48,6 +48,10 @@ derived only on a supplied regular calibrated pair realization.
   `kappa_pair` is a log-density coefficient requiring matched endpoint calibration. Full `g`
   derives the symmetric bivector area bilinear
   `A_g(u wedge v,w wedge z)=g(u,w)g(v,z)-g(u,z)g(v,w)`, not one alternating two-form.
+- **G134 — full-area faithfulness.** Fresh adversarial repair follow-up passed. Complete `A_g`
+  determines complete `g` up to sign; the fixed UDT Lorentz convention removes that ambiguity. In
+  four dimensions the map has rank ten and local codimension eleven, constraining arbitrary
+  relation-plane data without selecting numerical values, evolution, or one universe.
 
 Maximum conclusion: the metric now owns a stronger hierarchy of conditional relational readouts,
 conformal reconstruction, density descent, and area comparison. Physical network soldering and
@@ -62,6 +66,7 @@ Primary sources:
 - `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/`
 - `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/`
 - `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`
+- `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, the premise registry, and
@@ -104,9 +109,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Before another derivation, MAP/PONDER whether the full-`g` area bilinear changes the physical-history
-question or merely supplies the natural comparison object for already supplied observer planes.
-Do not launch another ownership loop, fit, seam atlas, preferred-path hunt, or mechanism invention.
+G134 answered the area reframe: a complete valued area field already is the complete metric history
+in another language, while its values/evolution remain open. MAP/PONDER founding ordered-depth
+composition, co-presence, and causality as possible differential/global conditions on that one
+field. Preregister identity versus nonidentity; do not launch another ownership census, fit, seam
+atlas, preferred-path hunt, or invented mechanism.
 
 ### Archive
 

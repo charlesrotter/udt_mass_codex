@@ -17,6 +17,8 @@ Current dependency spine:
 - G132: common scale is retained but not sourced.
 - G133: fixed `K` owns internal density only; supplied pair density descends conditionally;
   `kappa_pair` needs matched calibration; full `g` owns the bivector area bilinear.
+- G134: complete area data recover complete `g` up to fixed sign and obey a rank-ten,
+  local-codimension-eleven metricity locus; this is not a value or evolution law.
 
 Physical network soldering and values, the complete history/solution law, global completion,
 observations, and `X_max` remain open.
@@ -47,8 +49,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-MAP/PONDER whether the full-`g` area bilinear reframes the physical-history/value question or only
-evaluates supplied planes. Avoid another ownership loop until that conceptual distinction is clear.
+G134 settled the reframe: a complete valued area field already is the metric history in another
+language. MAP/PONDER whether founded composition, co-presence, and causality impose a genuine
+differential/global condition beyond metricity; preregister identity versus nonidentity.
 
 ## Historical route
 

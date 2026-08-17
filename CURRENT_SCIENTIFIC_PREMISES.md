@@ -18,7 +18,7 @@ choose the file that makes a desired derivation easiest.
 | Pair `c_eff` | `CONDITIONAL` observer-frame readout | Terminal ratio on a supplied calibrated pair relation | Universal owner and local material-signal interpretation |
 | Co-presence | `WORKING` semantics | Co-membership in one supplied complete solution | Query population, value assignment, signalling, or selection law |
 
-Use registry rows G01, G02, G23, G28, G37--G40, and the current G129--G133 chain when exact wording
+Use registry rows G01, G02, G23, G28, G37--G40, and the current G129--G134 chain when exact wording
 or source ownership is load-bearing.
 
 ## Current reconstruction hierarchy
@@ -31,6 +31,7 @@ or source ownership is load-bearing.
 | G131 all-plane terminal scalars | `DERIVED` in stated scope | Positive conformal class only; common scale remains open |
 | G132 common scale | `DERIVED` ownership boundary | Pair data retain supplied scale but do not source it |
 | G133 density and area | `DERIVED` in stated scope | Internal `K` density, conditional pair-density descent, and full-`g` bivector area bilinear |
+| G134 full-area faithfulness | `VERIFIED_WITH_CAVEATS` | Complete area data recover full `g` up to fixed sign; rank ten and local codimension eleven; no value/evolution law |
 
 None of these results selects the physical network, numerical metric values, complete history,
 global completion, observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
@@ -57,6 +58,8 @@ and package-local evidence; they are not required startup chronology.
   positive conformal class in the G131 scope.
 - Pair-volume density descends only on a genuine common atlas or matched local system. Across planes,
   the natural metric object is the symmetric bivector area bilinear.
+- Complete valued area data are equivalent to full metric data up to the fixed sign. Their local
+  codimension-eleven metricity constraints are not equations of motion or history selection.
 
 ## Carrier, action, source, and matter
 
@@ -95,7 +98,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the exact 120-row machine-readable authority. Each row records
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the exact 121-row machine-readable authority. Each row records
 the object, classification, premise stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

@@ -22,10 +22,12 @@ The active dependency chain is:
 4. G132: common scale is retained but not sourced; `c_E,G_obs` are anchors, not the missing bridge.
 5. G133: fixed `K` owns internal density only; supplied pair density descends on a common atlas;
    `kappa_pair` needs matched calibration; full `g` owns a symmetric bivector area bilinear.
+6. G134: complete area data recover complete `g` up to fixed sign and occupy a rank-ten,
+   local codimension eleven metricity locus; this constrains relation data but selects no values.
 
-G133 passed fresh adversarial repair follow-up. Its bounded maximum conclusion is `DERIVED`; physical
-network soldering and values, the history/solution law, global and singular completion,
-observations, and `X_max` remain `OPEN`.
+G134 passed fresh adversarial repair follow-up and is `VERIFIED_WITH_CAVEATS`. A complete valued area
+field already represents the metric history; the physical values/evolution or history/solution law,
+network soldering, global and singular completion, observations, and `X_max` remain `OPEN`.
 
 Open these after orientation only when load-bearing:
 
@@ -35,6 +37,7 @@ Open these after orientation only when load-bearing:
 - `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/AUDIT_REPORT.md`
 - `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/AUDIT_REPORT.md`
 - `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/AUDIT_REPORT.md`
+- `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/AUDIT_REPORT.md`
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -72,8 +75,8 @@ presence does not prove banking.
 
 ### Next bounded action
 
-MAP/PONDER whether the full-metric bivector area bilinear changes the history/value question or only
-evaluates supplied planes. Do not start another ownership loop or observational fit before that
-conceptual adjudication.
+MAP/PONDER whether founded ordered-depth composition, co-presence, and causality impose a genuine
+differential/global condition on the one complete metric/area field beyond pointwise metricity.
+Preregister identity versus nonidentity; avoid another ownership census or observational fit.
 
 <!-- STARTUP_CURRENT_END -->

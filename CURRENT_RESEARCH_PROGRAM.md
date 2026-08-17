@@ -81,7 +81,15 @@ matched density trivializations. Across different observer planes, full `g` owns
 bivector area bilinear, not a universal alternating two-form. Fresh adversarial follow-up passed.
 
 Sources: `udt_g129_copresent_relational_network_faithfulness_2026-08-16/` through
-`udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`; use `INDEX.md` for exact routes.
+`udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`; use `INDEX.md` for exact routes.
+
+### G134 — complete-area faithfulness
+
+Complete `A_g` determines complete `g` up to global sign; the fixed clock-negative/ruler-positive
+convention removes the minus branch. In four dimensions its image has local rank ten and
+codimension eleven inside arbitrary symmetric bivector data. This gives real relation-network
+metricity constraints, but every regular Lorentz metric passes: numerical values and evolution are
+not selected. Fresh adversarial repair follow-up passed.
 
 ## Durable prerequisites
 
@@ -119,9 +127,9 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Does the full-metric area bilinear supply a more natural global comparison architecture than the
-   scalar/density questions that preceded it?
-2. Can one complete history and observer network be derived from the founded metric structure, or
+1. Do ordered-depth composition, co-presence, and causality impose a differential/global condition
+   on the complete metric/area field beyond pointwise metricity?
+2. Can one complete history and observer network be derived from that founded structure, or
    are current results only evaluators on supplied data?
 3. How do lawful time-live histories determine the relative strength of pair, screen, mixing, and
    phase channels across regimes?
@@ -130,10 +138,10 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-MAP/PONDER question 1 at full-metric level. Determine whether the bivector area bilinear changes the
-history/value problem or simply evaluates supplied planes. Do not launch another ownership census,
-AM seam atlas, preferred-path hunt, observational fit, GPU solve, or mechanism invention merely to
-create forward motion.
+MAP/PONDER question 1 at full-metric level. Preregister whether each candidate consequence is a
+geometric identity or a genuine nonidentity condition before calculation. Do not launch another
+ownership census, AM seam atlas, preferred-path hunt, observational fit, GPU solve, or mechanism
+invention merely to create forward motion.
 
 Historical startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/` and
 `archive/startup_surface_2026-08-14/`.

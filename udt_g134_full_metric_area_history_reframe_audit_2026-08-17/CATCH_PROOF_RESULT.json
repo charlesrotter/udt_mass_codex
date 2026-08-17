@@ -1,0 +1,12 @@
+{
+  "check_count": 5,
+  "checks": {
+    "reject_area_existence_selects_history": true,
+    "reject_area_preservation_equals_reciprocity": true,
+    "reject_area_rule_is_scale_blind": true,
+    "reject_full_area_is_new_field_independent_of_g": true,
+    "reject_self_area_equals_full_area": true
+  },
+  "passed": 5,
+  "status": "PASS"
+}

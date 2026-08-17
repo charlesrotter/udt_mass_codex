@@ -141,10 +141,12 @@ def validate_startup_surface(root: Path) -> None:
             "G131",
             "G132",
             "G133",
+            "G134",
             "rank ten",
             "conformal",
             "density",
             "bivector area bilinear",
+            "codimension eleven",
             "history/solution law",
             "OPEN",
         ):
@@ -187,6 +189,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/",
             "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/",
             "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/",
+            "udt_g134_full_metric_area_history_reframe_audit_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -201,6 +204,7 @@ def validate_startup_surface(root: Path) -> None:
             "G131",
             "G132",
             "G133",
+            "G134",
             "bivector area bilinear",
             "complete history/solution law",
             "R2--R5",
@@ -215,6 +219,7 @@ def validate_startup_surface(root: Path) -> None:
             "G131",
             "G132",
             "G133",
+            "G134",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -232,10 +237,11 @@ def validate_startup_surface(root: Path) -> None:
             "G131",
             "G132",
             "G133",
+            "G134",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "120-row",
+            "121-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -322,9 +328,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 120, "premise registry must contain exactly 120 rows")
+    require(len(rows) == 121, "premise registry must contain exactly 121 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 120, "duplicate premise id")
+    require(len(by_id) == 121, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2406,6 +2412,36 @@ def main() -> None:
         == "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/AUDIT_REPORT.md",
         "G133 source changed",
     )
+    require(
+        by_id["G134"]["current_status"].startswith(
+            "FRESH_ADVERSARIAL_FOLLOWUP_PASS__AREA_BILINEAR_METRIC_FAITHFUL_UP_TO_SIGN"
+        ),
+        "G134 area-faithfulness result regressed or promoted",
+    )
+    require(by_id["G134"]["epistemic_label"] == "MIXED", "G134 label changed")
+    require(
+        "physical ownership of complete valued area or metric history" in by_id["G134"]["open_scope"],
+        "G134 physical-history ownership boundary absent",
+    )
+    require(
+        "individual plane self-areas called sufficient" in by_id["G134"]["forbidden_regression"],
+        "G134 full-cross-area guard absent",
+    )
+    require(
+        "local codimension eleven called eleven equations of motion"
+        in by_id["G134"]["forbidden_regression"],
+        "G134 metricity-versus-dynamics guard absent",
+    )
+    require(
+        "faithfulness called a law selecting numerical metric values or one universe"
+        in by_id["G134"]["forbidden_regression"],
+        "G134 faithfulness-selection guard absent",
+    )
+    require(
+        by_id["G134"]["controlling_source"]
+        == "udt_g134_full_metric_area_history_reframe_audit_2026-08-17/AUDIT_REPORT.md",
+        "G134 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2484,7 +2520,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G133-extended premise guards; PASS: 120-row premise "
+        "PASS: G134-extended premise guards; PASS: 121-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

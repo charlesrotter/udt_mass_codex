@@ -1,0 +1,27 @@
+{
+  "check_count": 19,
+  "checks": {
+    "D_determinant_one": true,
+    "D_preserves_K": true,
+    "U_determinant_one": true,
+    "U_not_K_orthogonal": true,
+    "ambient_area_dimension_21": true,
+    "cross_areas_separate": true,
+    "eta_determinant_identity": true,
+    "eta_jacobian_rank_10": true,
+    "full_area_separates": true,
+    "generic_determinant_identity": true,
+    "generic_jacobian_rank_10": true,
+    "global_sign_kernel": true,
+    "local_codimension_11": true,
+    "nonunit_common_scale_detected": true,
+    "scale_weight_two": true,
+    "self_areas_match": true,
+    "spherical_curvature_witnesses": true,
+    "spherical_full_areas_differ": true,
+    "spherical_reciprocal_base_determinants_match": true
+  },
+  "method": "stdlib Fraction matrices and independent Gaussian elimination",
+  "passed": 19,
+  "status": "PASS"
+}
