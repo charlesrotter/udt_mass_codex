@@ -1,0 +1,57 @@
+{
+  "checks": [
+    "total_transition_composes_when_carry_composes",
+    "composition_obstruction_exactly_carry_obstruction",
+    "off_closure_red_case_has_nonzero_matched_obstructions",
+    "total_transition_reverses",
+    "flag_preserving_total_is_upper_triangular",
+    "total_transition_endpoint_gauge_invariant",
+    "endpoint_factors_individually_gauge_variant",
+    "total_grading_is_endpoint_times_carry_ratio",
+    "grading_character_composes",
+    "grading_character_reverses",
+    "common_scale_character_separate",
+    "carry_grading_gauge_shift_exact",
+    "G141_scalar_grading_recovered_for_neutral_carry_in_fixed_matched_presentation",
+    "neutral_carry_need_not_be_identity",
+    "neutral_carry_retains_unipotent_shift",
+    "neutral_carry_may_retain_common_scale",
+    "founded_pure_reciprocal_matrix_retained",
+    "same_endpoint_identity_carry_zero_depth",
+    "same_endpoint_reciprocal_carry_nonzero_depth",
+    "copresence_and_endpoint_metrics_do_not_select_carry",
+    "source_hash_SIMPLE_METRIC_MACRO",
+    "source_hash_udt_founding_phi_ownership_morphism_audit_2026-08-05",
+    "source_hash_udt_founding_pair_relation_functor_ownership_audit_2026-08-09",
+    "source_hash_udt_three_observer_overlap_calibration_carry_audit_2026-08-10",
+    "source_hash_udt_pair_first_relational_plane_reconstruction_2026-08-12",
+    "source_hash_udt_g130_copresence_rank_complete_network_ownership_2026-08-16",
+    "source_hash_udt_g139_endpoint_position_transport_join_2026-08-17",
+    "source_hash_udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17"
+  ],
+  "checks_passed": 28,
+  "checks_total": 28,
+  "countermodel": {
+    "carry_nonzero": "diag(1/2,2); grading ratio 4; chi log(2)",
+    "carry_zero": "I; grading ratio 1; chi 0",
+    "same_endpoint_R_A_R_B": "I"
+  },
+  "landing": {
+    "G141_reduction": "in a fixed matched Bplus presentation chi(M_BA)=0 recovers G141 scalar grading; identity carry alone recovers its full transition",
+    "gauge": "R_i'=R_i P_i; M_BA'=P_B^-1 M_BA P_A; C_BA'=C_BA",
+    "grading": "chi(C_BA)=Phi_B-Phi_A+chi(M_BA)",
+    "ownership": "abstract two-channel representation supplied/chosen in founding; only D(delta) is derived on supplied depth; physical soldering/carry/query not selected by copresence alone",
+    "total_transition": "C_BA=R_B M_BA R_A^-1"
+  },
+  "source_hashes": {
+    "SIMPLE_METRIC_MACRO.md": "f0c045abf9810dc327d249d0df385cd7e8d6914eedfaf5b31c78d186eaa13d44",
+    "udt_founding_pair_relation_functor_ownership_audit_2026-08-09/AUDIT_REPORT.md": "a1c6871ee6731f5b7ec51f55ec57b1cac73fca07782dd5507ca0a61ab62ae42f",
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+    "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/EXACT_DERIVATION.md": "78f666cc4852e288a6e99467023ea6315d5aacda533e8912d2cfdd6136202704",
+    "udt_g139_endpoint_position_transport_join_2026-08-17/AUDIT_REPORT.md": "08898cf1ac3c66a920009699744dd2f0706e2a481119235be8a5e9067b2d0fa1",
+    "udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md": "0782f890b3cfe48c874d4b90b850edf673fcb79042d4622e7cd6394374afb7b5",
+    "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md": "2c73239e4b91799d3572da5725073e7a94914eaadf34820eadcd8dbcbe7c88e5",
+    "udt_three_observer_overlap_calibration_carry_audit_2026-08-10/AUDIT_REPORT.md": "449edc1285661b12cad5fd83986bc96d631159d9ad9c77d97b3a21c3425f530d"
+  },
+  "status": "PASS"
+}
