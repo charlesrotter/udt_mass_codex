@@ -1,0 +1,9 @@
+item	status	use	forbidden_promotion
+pair_realization_F	SUPPLIED_CONDITIONAL	one regular calibrated observer-pair domain	metric-selected physical query or history
+pair_metric_h	DERIVED_CONDITIONALLY	pullback F star g on supplied realization	owner of F or cross-query gluing
+spanning_pair_chart	SUPPLIED_CHOSEN	common coefficient model for points in one chart	coordinate-free tangent-fiber identification
+same_chart_identity_carry	DERIVED_PRESENTATION	identity on the common coordinate coefficient model	metric-derived physical transport
+endpoint_Jacobians	DERIVED_FROM_SUPPLIED_REPARAMETERIZATION	transform endpoint factors and carry	new physical field or force
+Bplus2	SUPPLIED_CONDITIONAL	flag-preserving regular algebraic scope	derived universal physical restriction
+cross_query_carry	OPEN_NOT_USED	outside same-query theorem	selected by pair metric or copresence alone
+history_Xmax_downstream	OPEN_NOT_USED	outside domain-carry theorem	inferred from coordinate carry
