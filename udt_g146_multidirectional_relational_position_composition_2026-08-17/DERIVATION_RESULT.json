@@ -1,0 +1,173 @@
+{
+  "boost_control": {
+    "interpretation": "ALGEBRAIC_ROTATION_FACTOR_CONTROL_ONLY",
+    "product_antisymmetric_part": [
+      "0",
+      "(-3*sqrt(6) + 4*sqrt(3))/12",
+      "-(-2*sqrt(6) + 3*sqrt(2))/12",
+      "0",
+      "-(-3*sqrt(6) + 4*sqrt(3))/12",
+      "0",
+      "-sqrt(6)/12",
+      "0",
+      "(-2*sqrt(6) + 3*sqrt(2))/12",
+      "sqrt(6)/12",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "checks": [
+    "mobius_left_identity",
+    "mobius_right_identity",
+    "mobius_right_inverse",
+    "mobius_left_inverse",
+    "einstein_left_identity",
+    "einstein_right_identity",
+    "einstein_right_inverse",
+    "einstein_left_inverse",
+    "mobius_symbolic_inverse",
+    "einstein_symbolic_inverse",
+    "mobius_symbolic_global_gap",
+    "einstein_symbolic_global_gap",
+    "mobius_symbolic_collinear_g137",
+    "einstein_symbolic_collinear_g137",
+    "rotation_orthogonal",
+    "rotation_proper",
+    "mobius_rotation_covariance",
+    "einstein_rotation_covariance",
+    "census_1_inputs_inside",
+    "census_1_mobius_gap_identity",
+    "census_1_einstein_gap_identity",
+    "census_1_mobius_inside",
+    "census_1_einstein_inside",
+    "census_2_inputs_inside",
+    "census_2_mobius_gap_identity",
+    "census_2_einstein_gap_identity",
+    "census_2_mobius_inside",
+    "census_2_einstein_inside",
+    "census_3_inputs_inside",
+    "census_3_mobius_gap_identity",
+    "census_3_einstein_gap_identity",
+    "census_3_mobius_inside",
+    "census_3_einstein_inside",
+    "census_4_inputs_inside",
+    "census_4_mobius_gap_identity",
+    "census_4_einstein_gap_identity",
+    "census_4_mobius_inside",
+    "census_4_einstein_inside",
+    "noncollinear_extensions_inequivalent",
+    "mobius_witness_inside",
+    "einstein_witness_inside",
+    "mobius_reverse_order_defect_nonzero",
+    "einstein_reverse_order_defect_nonzero",
+    "mobius_registered_triple_associates",
+    "einstein_registered_triple_associates",
+    "individual_boost_controls_symmetric",
+    "noncollinear_boost_product_not_symmetric"
+  ],
+  "checks_passed": 47,
+  "closure_census": [
+    {
+      "case": 1,
+      "einstein_gap": "2/3",
+      "mobius_gap": "24/37"
+    },
+    {
+      "case": 2,
+      "einstein_gap": "1016329/1345600",
+      "mobius_gap": "1016329/1375529"
+    },
+    {
+      "case": 3,
+      "einstein_gap": "155843497/193877776",
+      "mobius_gap": "155843497/199066861"
+    },
+    {
+      "case": 4,
+      "einstein_gap": "2/3",
+      "mobius_gap": "24/37"
+    }
+  ],
+  "grade": "OBSERVED_EXACT_ALGEBRA__PHYSICAL_SOLDER_UNTESTED",
+  "landing": "NONUNIQUE_EXTENSIONS__SCREEN_SOLDER_OPEN",
+  "preregistered_witness": {
+    "difference": [
+      "3/74",
+      "-(-54 + 37*sqrt(3))/222",
+      "0"
+    ],
+    "einstein": [
+      "1/2",
+      "sqrt(3)/6",
+      "0"
+    ],
+    "einstein_norm2": "1/3",
+    "einstein_reverse_order_defect": [
+      "(-3 + 2*sqrt(2))/6",
+      "-(-2 + sqrt(3))/6",
+      "0"
+    ],
+    "mobius": [
+      "20/37",
+      "9/37",
+      "0"
+    ],
+    "mobius_norm2": "13/37",
+    "mobius_reverse_order_defect": [
+      "-4/37",
+      "6/37",
+      "0"
+    ],
+    "u": [
+      "1/2",
+      "0",
+      "0"
+    ],
+    "v": [
+      "0",
+      "1/3",
+      "0"
+    ]
+  },
+  "registered_triple": {
+    "einstein": {
+      "difference": [
+        "0",
+        "0",
+        "0"
+      ],
+      "left": [
+        "1/2",
+        "sqrt(3)/6",
+        "sqrt(6)/12"
+      ],
+      "right": [
+        "1/2",
+        "sqrt(3)/6",
+        "sqrt(6)/12"
+      ]
+    },
+    "mobius": {
+      "difference": [
+        "0",
+        "0",
+        "0"
+      ],
+      "left": [
+        "68/121",
+        "153/605",
+        "96/605"
+      ],
+      "right": [
+        "68/121",
+        "153/605",
+        "96/605"
+      ]
+    }
+  },
+  "scope_guard": "Neither ball operation nor the boost factorization is selected as UDT physics; no equation presently solders either algebraic rotation to metric path transport U_gamma."
+}

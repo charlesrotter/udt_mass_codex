@@ -1,0 +1,71 @@
+{
+  "boost_max_asymmetry": "0.204124145231931508183107006225490949330495623388055844036057713937580031454776252211654952",
+  "checks": [
+    "fraction_mobius_left_identity",
+    "fraction_mobius_right_identity",
+    "fraction_mobius_inverse",
+    "decimal_einstein_left_identity",
+    "decimal_einstein_right_identity",
+    "decimal_einstein_inverse",
+    "collinear_1_mobius_exact",
+    "collinear_1_einstein_decimal",
+    "collinear_2_mobius_exact",
+    "collinear_2_einstein_decimal",
+    "collinear_3_mobius_exact",
+    "collinear_3_einstein_decimal",
+    "mobius_rotation_covariance",
+    "einstein_rotation_covariance",
+    "closure_1_mobius",
+    "closure_1_einstein",
+    "closure_2_mobius",
+    "closure_2_einstein",
+    "closure_3_mobius",
+    "closure_3_einstein",
+    "closure_4_mobius",
+    "closure_4_einstein",
+    "mobius_witness_exact",
+    "einstein_witness_x",
+    "einstein_witness_y",
+    "witness_inequivalent",
+    "mobius_reverse_order_defect_nonzero",
+    "einstein_reverse_order_defect_nonzero",
+    "mobius_registered_triple_associates",
+    "einstein_registered_triple_associates",
+    "boost_product_not_symmetric"
+  ],
+  "checks_passed": 31,
+  "closure": [
+    {
+      "case": 1,
+      "einstein_gap": "0.666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+      "mobius_gap": "0.648648648648648648648648648648648648648648648648648648648648648648648648648648648648648648"
+    },
+    {
+      "case": 2,
+      "einstein_gap": "0.755298008323424494649227110582639714625445897740784780023781212841854934601664684898929845",
+      "mobius_gap": "0.738864102465306074971883544439993631541028942319645750834769750401481902598927394478778710"
+    },
+    {
+      "case": 3,
+      "einstein_gap": "0.803823420173749053114782996066552774981285116453986969605015481506245460542109787766494701",
+      "mobius_gap": "0.782870118196117032256815462619868205989343449786953741135246011640279996176761937286990223"
+    },
+    {
+      "case": 4,
+      "einstein_gap": "0.666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+      "mobius_gap": "0.648648648648648648648648648648648648648648648648648648648648648648648648648648648648648648"
+    }
+  ],
+  "einstein_witness": [
+    "0.5",
+    "0.288675134594812882254574390250978727823800875635063438009301163241988836151466672846857698",
+    "0E-91"
+  ],
+  "grade": "INDEPENDENT_NUMERICAL_AND_EXACT_CONTROL_PASS",
+  "landing": "NONUNIQUE_EXTENSIONS__SCREEN_SOLDER_OPEN",
+  "mobius_witness": [
+    "20/37",
+    "9/37",
+    "0"
+  ]
+}
