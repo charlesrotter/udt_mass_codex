@@ -47,12 +47,19 @@ derived only on a supplied regular calibrated pair realization.
   relation data. The query atlas, calibrations, numerical valuation, and physical realization stay
   supplied or `OPEN`. Two opposite-curvature histories survive the same coherence and local-causal
   gates even with all nine non-`phi` complete-coframe fields live.
+- **G146 — multidirectional position.** `VERIFIED_WITH_CAVEATS` after fresh adversarial review. Two
+  inequivalent smooth rotation-covariant, parity-even open-ball position projections share the
+  exact G137 collinear law. Bare projections fail complete-arrow reverse order on the registered
+  non-collinear witness. The physical
+  three-position lift and rank-two solder from directional sphere tangent to metric pair screen
+  remain `OPEN`; neither control is UDT physics.
 
 Maximum conclusion: the complete pullback valuation and its reconstructed metric need no second
-bridge. Coherence is a compatibility grammar, not a numerical score: it does not determine the
-query population, profile/evolution, global completion, or `X_max`.
+bridge. Coherence is a compatibility grammar, not a numerical score. The radial position law also
+does not determine its non-collinear lift: a common rank-two directional/metric screen must be
+derived before positional rotation can be compared with path transport.
 Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
-`udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/`. Use `INDEX.md` for the chain.
+`udt_g146_multidirectional_relational_position_composition_2026-08-17/`. Use `INDEX.md` for the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -97,10 +104,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Stop compatibility and history-selector excavation. Map, then ponder, the remaining value problem:
-does complete time-live/global metric structure constrain the numerical relation valuation, or are
-initial/boundary/observational data legitimately required? Do not invent an action, source, fit, or
-selector. Keep `X_max`, proper length, and completion open unless derived.
+Derive, on one supplied regular complete pair query, whether its clock/ruler plane canonically
+identifies the rank-two tangent screen of nonzero relational position with the metric pair screen.
+Only after that carrier/type gate may positional gyration be compared with `U_gamma`. Do not select
+a ball control, identify `phi` with Lorentz rapidity, or infer a history, action, source, fit,
+`X_max`, proper length, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

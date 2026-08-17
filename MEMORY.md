@@ -17,6 +17,9 @@ Current dependency spine:
 - G145: full-pullback valuation determines the metric component on the supplied 4D base atlas.
   Query atlas, calibration, numerical valuation, and physical realization remain supplied/open;
   opposite-curvature survivors pass the same gates with all nine non-`phi` coframe fields live.
+- G146: two inequivalent smooth rotation-covariant position projections share the G137 collinear
+  law. Neither is a complete observer arrow. The rank-two directional-to-metric screen solder is
+  the next gate before comparing positional rotation with `U_gamma`.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -47,9 +50,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Map and ponder whether complete time-live/global metric structure constrains numerical relation
-values, versus lawful initial/boundary/observational data. Do not invent a selector or fit; keep
-`X_max`, proper length, and completion open.
+On one supplied regular complete pair query, derive or refute the rank-two solder from directional
+position screen to metric pair screen. Keep both ball laws as controls and do not infer Lorentz
+rapidity, a full arrow, history, `X_max`, proper length, or completion.
 
 ## Historical route
 

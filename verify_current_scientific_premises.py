@@ -143,6 +143,8 @@ def validate_startup_surface(root: Path) -> None:
             "G140",
             "G144",
             "G145",
+            "G146",
+            "rank-two",
             "rank ten",
             "conformal",
             "density",
@@ -164,6 +166,9 @@ def validate_startup_surface(root: Path) -> None:
         "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/",
     ):
         require(token in live, f"LIVE lacks protected local path: {token}")
+    normalized_live = " ".join(live.split())
+    for token in ("parity-even", "registered non-collinear witness"):
+        require(token in normalized_live, f"LIVE lacks G146 bounded caveat: {token}")
     require("udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/" in controls["AGENTS.md"],
             "AGENTS lacks protected curvature-atlas guard")
 
@@ -171,7 +176,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "132-row exact registry",
+            "133-row exact registry",
             "without dumping its wide rows into model context",
             "not a startup read or a current-frontier index",
         ),
@@ -203,6 +208,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g143_single_pair_domain_carry_ownership_2026-08-17/",
             "udt_g144_cross_query_overlap_carry_descent_2026-08-17/",
             "udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/",
+            "udt_g146_multidirectional_relational_position_composition_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -219,6 +225,7 @@ def validate_startup_surface(root: Path) -> None:
             "G140",
             "G144",
             "G145",
+            "G146",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -234,13 +241,14 @@ def validate_startup_surface(root: Path) -> None:
             "G140",
             "G144",
             "G145",
+            "G146",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
             "bivector area bilinear",
-            "numerical/global valuation problem",
+            "multidirectional position/screen solder",
             "184,300",
-            "Map and ponder question 1",
+            "rank-two solder",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "WORKING_FOUNDATIONAL_FRAME",
@@ -251,10 +259,11 @@ def validate_startup_surface(root: Path) -> None:
             "G135",
             "G144",
             "G145",
+            "G146",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "132-row",
+            "133-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -319,6 +328,8 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g142_abstract_carrier_physical_carry_join_2026-08-17/AUDIT_REPORT.md",
         "udt_g143_single_pair_domain_carry_ownership_2026-08-17/AUDIT_REPORT.md",
         "udt_g144_cross_query_overlap_carry_descent_2026-08-17/AUDIT_REPORT.md",
+        "udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/AUDIT_REPORT.md",
+        "udt_g146_multidirectional_relational_position_composition_2026-08-17/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -345,9 +356,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 132, "premise registry must contain exactly 132 rows")
+    require(len(rows) == 133, "premise registry must contain exactly 133 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 132, "duplicate premise id")
+    require(len(by_id) == 133, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2782,6 +2793,32 @@ def main() -> None:
         == "udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/AUDIT_REPORT.md",
         "G145 source changed",
     )
+    require(
+        by_id["G146"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_PASS__TWO_INEQUIVALENT_SMOOTH_SO3_COVARIANT"
+        ),
+        "G146 bounded status regressed or promoted",
+    )
+    require(by_id["G146"]["epistemic_label"] == "MIXED", "G146 label changed")
+    for open_item in (
+        "metric-derived physical three-position carrier and full observer-arrow lift",
+        "rank-two solder sigma from directional sphere tangent to pair screen",
+        "comparison of conjugated positional gyration with metric U_gamma",
+    ):
+        require(open_item in by_id["G146"]["open_scope"], f"G146 open boundary absent: {open_item}")
+    for guard in (
+        "Mobius or Einstein ball control selected as UDT physics",
+        "reciprocal phi identified with Lorentz rapidity",
+        "element inverse minus u called complete observer-arrow reversal",
+        "three-dimensional position ball silently identified with rank-two pair screen",
+        "algebraic gyration equated with U_gamma without a common carrier and typed path order",
+    ):
+        require(guard in by_id["G146"]["forbidden_regression"], f"G146 guard absent: {guard}")
+    require(
+        by_id["G146"]["controlling_source"]
+        == "udt_g146_multidirectional_relational_position_composition_2026-08-17/AUDIT_REPORT.md",
+        "G146 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2860,7 +2897,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G145-extended premise guards; PASS: 132-row premise "
+        "PASS: G146-extended premise guards; PASS: 133-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

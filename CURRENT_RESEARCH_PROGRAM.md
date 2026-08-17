@@ -9,7 +9,8 @@ classification. This file states only the current architecture, open gates, and 
 ## Program picture
 
 UDT currently has a strong conditional observer-pair evaluator, faithful metric reconstruction, a
-native bounded projective position readout, and an open numerical/global valuation problem.
+native bounded projective position readout, and an open multidirectional position/screen solder and
+numerical/global valuation problem.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -78,6 +79,16 @@ pass the same reciprocal, overlap, position, and local-causal gates with all nin
 complete-coframe fields live. Compatibility is not a value/evolution law, but no second bridge from
 complete pair valuations to their metric is needed.
 
+### G146 — multidirectional position projection
+
+Fresh adversarial review passed. The exact collinear Mobius law admits at least two
+inequivalent smooth `SO(3)`-covariant open-ball position projections. Both have element inverse and
+closure but fail the stronger complete-arrow reverse-order identity on the registered non-collinear
+witness. A standard boost control contains an angular factor but is not UDT physics and does not
+identify `phi` with rapidity. The next metric-native joint is first a rank-two solder from the
+directional sphere tangent at nonzero position into the pair metric screen; only then may a
+positional gyration be compared with path transport.
+
 ## Durable prerequisites
 
 - Pair-first reconstruction: a supplied pair immersion owns its tangent plane and positive screen.
@@ -110,15 +121,17 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Does complete time-live/global metric structure constrain numerical relation values beyond the
+1. Does a supplied complete pair query canonically solder its rank-two directional position screen
+   to its metric pair screen, and how is path order carried?
+2. After that type gate, does metric transport select a multidirectional position lift?
+3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
-2. What fixes the value, profile, and global realization of `X_max`?
-3. How do histories set pair, screen, mixing, and phase strengths across regimes?
-4. What are the native radiative/source and global-completion laws, if any?
+4. What fixes `X_max`, regime strengths, radiative/source structure, and global completion?
 
 ## Bounded next action
 
-Map and ponder question 1 before another solve. Distinguish a metric-native value law from legitimate
-initial, boundary, or observational data; do not invent an action, source, selector, or fit. Treat
-G145 as closing only the valuation-to-metric bridge. Leave `X_max`, proper length, and completion open.
+Derive or refute question 1 on one supplied regular complete pair query before comparing any
+gyration with `U_gamma`. Treat both G146 ball laws as controls only. Do not invent an action, source,
+selector, fit, Lorentz-rapidity identification, or history law. Leave `X_max`, proper length, and
+completion open.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

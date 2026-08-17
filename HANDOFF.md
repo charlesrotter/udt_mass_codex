@@ -25,6 +25,9 @@ The active dependency chain is:
    metric component on the supplied 4D base atlas. The labelled query atlas, calibration, numerical
    valuation, and physical realization remain supplied/open. Opposite-curvature survivors pass the
    same regular coherence and local-causal gates with all nine non-`phi` coframe fields live.
+5. G146: fresh adversarial review passed. At least two rotation-covariant ball projections share
+   the collinear law, but neither is a complete reversible observer arrow or UDT law. Derive the
+   rank-two directional/metric screen solder before comparison with path transport.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
@@ -73,8 +76,9 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Compatibility and carry are closed at the current regular local level. Map and ponder whether
-complete time-live/global metric structure constrains numerical relation values, versus lawful
-initial/boundary/observational data. Keep `X_max`, proper length, and completion open.
+On one supplied regular complete pair query, derive or refute the canonical rank-two solder from
+the tangent screen of nonzero relational position to the metric pair screen. Do not select either
+G146 ball control or identify `phi` with Lorentz rapidity. Keep physical arrow lift, history,
+`X_max`, proper length, and completion open.
 
 <!-- STARTUP_CURRENT_END -->

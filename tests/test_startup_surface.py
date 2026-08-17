@@ -48,6 +48,7 @@ CURRENT_TARGETS = (
     "udt_g143_single_pair_domain_carry_ownership_2026-08-17/AUDIT_REPORT.md",
     "udt_g144_cross_query_overlap_carry_descent_2026-08-17/AUDIT_REPORT.md",
     "udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/AUDIT_REPORT.md",
+    "udt_g146_multidirectional_relational_position_composition_2026-08-17/AUDIT_REPORT.md",
 )
 
 
@@ -101,7 +102,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 132-row premise registry" in result.stdout
+    assert "PASS: 133-row premise registry" in result.stdout
 
 
 def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:
