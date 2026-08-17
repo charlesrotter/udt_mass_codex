@@ -1,0 +1,13 @@
+item	status	role	guard
+c_E	OBSERVED	clock/ruler unit calibration	set to one only inside dimensionless calculation
+spherical_base_metric	CHOSE_BOUNDED_COMPLETE_BASE	keeps kappa phi beta and time dependence	no claim of complete nonspherical coframe
+H0_H3	FREE_AND_EXPLORED	certification histories	not physical cosmologies or fitted profiles
+observer_event	CHOSE_TEST_QUERY	shared event and Eulerian observer	not a preferred observer
+tilt_angles	FREE_AND_EXPLORED	query atlas	no observational anchoring
+Levi_Civita_geodesic	DERIVED_CONDITIONALLY	metric-native path for supplied point-observer query	not a universal physical relation selector
+parallel_screen	DERIVED_CONDITIONALLY	metric transport along each ray	basis gauge retained
+Jacobi_map	DERIVED_CONDITIONALLY	full differential of observer exponential	no free amplitude or appended angular response
+optical_shear	DERIVED_CONDITIONALLY	trace-free part of Dprime inverse-D on regular stratum	not tidal contrast itself
+physical_history	OPEN	future selection question	not inferred from survivor behavior
+observations	EXCLUDED	no SNe R5 BAO or CMB input	no fitting or post-hoc selection
+
