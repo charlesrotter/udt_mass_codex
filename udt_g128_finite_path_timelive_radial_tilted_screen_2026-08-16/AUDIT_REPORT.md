@@ -3,7 +3,7 @@
 Date: 2026-08-16
 
 Status:
-`EXTERNALLY_REVIEWED_PASS_WITH_REPAIRS__REPAIRS_IMPLEMENTED_AND_INTERNALLY_REPLAYED__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED__FOLLOWUP_REVIEW_OPEN__PHYSICAL_HISTORY_NONSPHERICAL_COMPLETION_AND_OBSERVATIONS_OPEN`
+`EXTERNAL_FOLLOWUP_FAIL_TEST_COVERAGE_ONLY__POSITIVE_N_L_GUARD_COVERAGE_ADDED_AND_INTERNALLY_VERIFIED__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED__SECOND_FOLLOWUP_OPEN__PHYSICAL_HISTORY_NONSPHERICAL_COMPLETION_AND_OBSERVATIONS_OPEN`
 
 ## Result
 
@@ -43,10 +43,13 @@ matter, mass, or signalling.
 - package/source replay and the exact 115-row repository premise/startup gates pass;
 - sealed external adversarial review returned `PASS_WITH_REPAIRS` and no blocking error;
 - the `h=2e-4` preregistration mismatch and missing runtime stop guards are repaired;
-- corrected production, independent, and isolated package replays pass; corrected follow-up review
-  remains open.
+- corrected production, independent, and isolated package replays pass;
 - the rational half-angle Riemann audit is exact on the declared spherical chart away from its
   polar singular set; it is not a global-chart proof.
+- the first corrected follow-up verified both solver repairs and the unchanged bounded landing, but
+  returned `FOLLOWUP_FAIL` because package verification had not separately forced invalid `N,L`;
+- production and independent invalid-`N` and invalid-`L` rejection checks now pass; second follow-up
+  remains open.
 
 ## Maximum justified conclusion
 

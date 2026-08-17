@@ -33,7 +33,7 @@ interval, solver tolerances, thresholds, candidate landings, or maximum conclusi
 - neither boundary event fires in the declared atlas.
 
 The corrected production replay retains 29/29 gates and the same landing. The corrected independent
-route retains 7/7 gates, with maximum endpoint-Jacobi disagreement `1.263e-11`, phase disagreement
+route retains 7/7 gates, with maximum endpoint-Jacobi disagreement `1.330e-11`, phase disagreement
 `2.442e-15`, and null/screen drift `3.997e-15`. Package verification now exercises the guard
 functions directly in addition to replaying both implementations.
 

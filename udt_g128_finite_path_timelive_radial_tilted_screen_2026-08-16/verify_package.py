@@ -104,6 +104,50 @@ def main():
             rejected.append(False)
     checks["runtime_nonfinite_rejection"] = all(rejected)
 
+    def production_scale_rejected(kappa: float, phi: float) -> bool:
+        jets = np.zeros(18)
+        jets[0] = kappa
+        jets[1] = phi
+        geometry = type(
+            "ScaleGeometry",
+            (),
+            {"histories": {"scale": {"fn": lambda _t, _r: jets.copy()}}},
+        )()
+        try:
+            production_module.validate_metric_state(geometry, "scale", radius_state)
+        except FloatingPointError:
+            return True
+        return False
+
+    def independent_scale_rejected(kappa: float, phi: float) -> bool:
+        original_fields = independent_module.fields
+        independent_module.fields = lambda _history, _t, _r: (
+            kappa,
+            phi,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+        )
+        try:
+            try:
+                independent_module.validate_metric_state("scale", radius_state[:8])
+            except FloatingPointError:
+                return True
+            return False
+        finally:
+            independent_module.fields = original_fields
+
+    # These finite exponent pairs force exactly one of N=exp(kappa-phi) or
+    # L=exp(kappa+phi) to underflow to zero while the other remains one.
+    checks["production_nonpositive_N_rejection"] = production_scale_rejected(-1000.0, 1000.0)
+    checks["production_nonpositive_L_rejection"] = production_scale_rejected(-1000.0, -1000.0)
+    checks["independent_nonpositive_N_rejection"] = independent_scale_rejected(-1000.0, 1000.0)
+    checks["independent_nonpositive_L_rejection"] = independent_scale_rejected(-1000.0, -1000.0)
+
     with tempfile.TemporaryDirectory(prefix="udt_g128_replay_") as temp_name:
         temp = Path(temp_name)
         for name in ("derive_finite_path.py", "verify_finite_path_independent.py"):
@@ -168,6 +212,8 @@ def main():
         "STATUS.md",
         "EXTERNAL_REVIEW_RAW.md",
         "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "EXTERNAL_FOLLOWUP_REVIEW_RAW.md",
+        "EXTERNAL_FOLLOWUP_REVIEW_ADJUDICATION.md",
     ):
         checks[f"present::{name}"] = (HERE / name).is_file()
 
