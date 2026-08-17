@@ -1,0 +1,52 @@
+{
+  "checks": [
+    "same_chart_identity_carry_presentation",
+    "same_chart_recovers_G141_full_transition",
+    "total_transition_reparameterization_invariant",
+    "induced_domain_carries_compose",
+    "total_transitions_compose_after_reparameterization",
+    "Bplus_flag_preserved",
+    "carry_grading_is_endpoint_Jacobian_difference",
+    "total_grading_reparameterization_invariant",
+    "same_chart_total_grading_is_endpoint_Phi_difference",
+    "endpoint_and_carry_grading_shifts_cancel",
+    "smooth_strip_Jacobian_exact",
+    "smooth_strip_chart_regular_on_unit_strip",
+    "smooth_strip_endpoint_Jacobians_unequal",
+    "same_query_carry_nonidentity_after_smooth_reparameterization",
+    "smooth_strip_inverse_coordinate_recovers_t",
+    "smooth_strip_inverse_coordinate_recovers_s",
+    "smooth_strip_nonidentity_carry_same_total",
+    "smooth_strip_carry_grading_nonzero",
+    "source_hash_udt_g142_abstract_carrier_physical_carry_join_2026-08-17",
+    "source_hash_udt_pair_first_relational_plane_reconstruction_2026-08-12",
+    "source_hash_udt_g133_fixed_K_two_density_overlap_descent_2026-08-16",
+    "source_hash_udt_g138_copresent_relational_position_network_descent_2026-08-17",
+    "source_hash_udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17",
+    "source_hash_udt_g130_copresence_rank_complete_network_ownership_2026-08-16"
+  ],
+  "checks_passed": 24,
+  "checks_total": 24,
+  "landing": {
+    "cross_query": "no carry without supplied overlap gluing common atlas path transport or other identification",
+    "ownership": "pair metric alone does not make identity carry coordinate-free or select physical query history",
+    "reparameterization": "R_i'=R_i J_i^-1; M_BA'=J_B M_BA J_A^-1; C_BA'=C_BA",
+    "same_query": "one supplied calibrated spanning chart has identity carry on its coordinate coefficient model"
+  },
+  "smooth_strip_witness": {
+    "J_A": "Matrix([[1, 0], [0, 1]])",
+    "J_B": "Matrix([[2, 0], [0, 1]])",
+    "M_BA_prime": "Matrix([[2, 0], [0, 1]])",
+    "carry_ratio": "1/2",
+    "map": "z0=(1+s)t; z1=s"
+  },
+  "source_hashes": {
+    "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/AUDIT_REPORT.md": "bf10a9de3c73b5078dcd04e7be076cf291a94bd1e0ecec57eb87c2b3a01b2fa8",
+    "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/AUDIT_REPORT.md": "84161a8e68f41918e3091fc4e35a3b10dd7fb0e23239cf574b34d23ca3b9fe19",
+    "udt_g138_copresent_relational_position_network_descent_2026-08-17/AUDIT_REPORT.md": "e9468b51378e5bd01e40a84f8d5e909c35e4d8e3a3ff7bcd4953d2238e6dedb9",
+    "udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md": "0782f890b3cfe48c874d4b90b850edf673fcb79042d4622e7cd6394374afb7b5",
+    "udt_g142_abstract_carrier_physical_carry_join_2026-08-17/AUDIT_REPORT.md": "aac5a2ec5c4ed4ea508aff4f65514e54e8d0502980c49f57f3595560596bd96d",
+    "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md": "2c73239e4b91799d3572da5725073e7a94914eaadf34820eadcd8dbcbe7c88e5"
+  },
+  "status": "PASS"
+}
