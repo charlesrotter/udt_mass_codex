@@ -144,6 +144,7 @@ def validate_startup_surface(root: Path) -> None:
             "G134",
             "G135",
             "G136",
+            "G137",
             "rank ten",
             "conformal",
             "density",
@@ -194,6 +195,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g134_full_metric_area_history_reframe_audit_2026-08-17/",
             "udt_g135_projective_pair_separation_constitution_audit_2026-08-17/",
             "udt_g136_copresent_projective_distance_constitution_2026-08-17/",
+            "udt_g137_copresent_relational_position_join_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -211,6 +213,7 @@ def validate_startup_surface(root: Path) -> None:
             "G134",
             "G135",
             "G136",
+            "G137",
             "bivector area bilinear",
             "complete history/solution law",
             "R2--R5",
@@ -228,6 +231,7 @@ def validate_startup_surface(root: Path) -> None:
             "G134",
             "G135",
             "G136",
+            "G137",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -248,10 +252,11 @@ def validate_startup_surface(root: Path) -> None:
             "G134",
             "G135",
             "G136",
+            "G137",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "123-row",
+            "124-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -338,9 +343,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 123, "premise registry must contain exactly 123 rows")
+    require(len(rows) == 124, "premise registry must contain exactly 124 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 123, "duplicate premise id")
+    require(len(by_id) == 124, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2526,6 +2531,30 @@ def main() -> None:
         == "udt_g136_copresent_projective_distance_constitution_2026-08-17/AUDIT_REPORT.md",
         "G136 source changed",
     )
+    require(
+        by_id["G137"]["current_status"].startswith(
+            "OWNER_ADOPTED_WORKING_FOUNDATIONAL_CLARIFICATION__FRESH_ADVERSARIAL_PASS__SIGNED_X_OVER_XMAX_EQUALS_TANH_PHI_PAIR"
+        ),
+        "G137 adopted position constitution regressed or promoted",
+    )
+    require(by_id["G137"]["epistemic_label"] == "MIXED", "G137 label changed")
+    require(
+        "numerical Xmax dimensional owner profile and global realization" in by_id["G137"]["open_scope"],
+        "G137 Xmax owner boundary absent",
+    )
+    for guard in (
+        "working constitution called algebraically forced or canonized",
+        "x or s called proper length areal radius signal distance universe size",
+        "unsigned magnitudes composed without orientation",
+        "conditional pair c_eff called local signal speed",
+        "supplied pair realization network or history called selected",
+    ):
+        require(guard in by_id["G137"]["forbidden_regression"], f"G137 guard absent: {guard}")
+    require(
+        by_id["G137"]["controlling_source"]
+        == "udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md",
+        "G137 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2604,7 +2633,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G136-extended premise guards; PASS: 123-row premise "
+        "PASS: G137-extended premise guards; PASS: 124-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

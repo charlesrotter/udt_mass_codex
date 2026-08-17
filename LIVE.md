@@ -29,7 +29,7 @@ zero-order diagnostic only; it does not own channel attribution, regime evolutio
 history. Pointwise `phi` is a presentation potential. Terminal `phi_pair` and pair `c_eff/c_E` are
 derived only on a supplied regular calibrated pair realization.
 
-### Current dependency spine — G129 through G136
+### Current dependency spine
 
 - **G129 — full-pullback faithfulness.** On a supplied common observer network, known embeddings,
   full pullbacks, and overlap data recover the metric exactly iff the sampled tangent span has rank
@@ -52,17 +52,16 @@ derived only on a supplied regular calibrated pair realization.
   determines complete `g` up to sign; the fixed UDT Lorentz convention removes that ambiguity. In
   four dimensions the map has rank ten and local codimension eleven, constraining arbitrary
   relation-plane data without selecting numerical values, evolution, or one universe.
-- **G135--G136 — projective position.** The complete pair owns
-  `chi=(L-T)/(L+T)=tanh(phi_pair)`. Every continuous increasing coordinate carrying the same native
-  Mobius law is `tanh(k phi_pair)`; a separately chosen unit position slope fixes `k=1`. Neither
-  `c_E` nor the chosen `phi` unit does so. Frozen sources do not yet say physical position has this
-  type; proper length, `X_max`, pair realization, and history remain open.
+- **G135--G137 — relational position.** The complete pair owns `chi=tanh(phi_pair)`. G136 classifies
+  same-native-Mobius ordered charts as `tanh(k phi_pair)`. Charles adopted continuous strict order,
+  that native law, and separately chosen unit slope as a working physical-position constitution.
+  G137 derives signed `x/X_max=tanh(phi_pair)` and nonnegative `s/X_max=abs(tanh(phi_pair))`; only
+  signed position composes. `X_max` value, proper length, pair realization, and history remain open.
 
-Maximum conclusion: the metric now owns a stronger hierarchy of conditional relational readouts,
-conformal reconstruction, density descent, area comparison, and one native bounded projective
-readout of every supplied complete pair. It does not yet own the statement that this chart is
-physical normalized separation. Physical network soldering and numerical values, the complete
-history/solution law, global completion, observations, and `X_max` remain `OPEN`.
+Maximum conclusion: under the adopted working constitution, every supplied complete pair owns a
+signed bounded physical-position coordinate and an unsigned separation magnitude. The metric still
+does not select the physical pair network, numerical values, complete history/solution law, global
+completion, observations, or the dimensional value of `X_max`.
 
 Primary sources:
 
@@ -75,6 +74,7 @@ Primary sources:
 - `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
+- `udt_g137_copresent_relational_position_join_2026-08-17/`
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, the premise registry, and
@@ -98,10 +98,8 @@ running. Observations remain comparison/falsification anchors; they do not selec
 - pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
-- `chi=tanh(phi_pair)`: `DERIVED_IN_ANCHORED_PROJECTIVE_CLASS` on a supplied complete pair;
-  operational physical-separation identification remains `CONDITIONAL/OPEN`.
-- continuous same-native-Mobius position charts: `tanh(k phi_pair)`; `k=1` requires a separately
-  chosen position-unit slope and physical use still requires owner clarification.
+- physical pair position: `CHOSE_WORKING_CONSTITUTION`; G137 derives signed
+  `x/X_max=tanh(phi_pair)` and symmetric `s/X_max=abs(tanh(phi_pair))` on supplied complete pairs.
 - angular/screen/mixing data enter before terminal readout.
 - `X_max`: `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair dilation asymptote;
   value and realization `OPEN`; not a wall, center, seal, or boundary term.
@@ -121,11 +119,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G136 leaves one owner decision before more derivation: does physical normalized position mean a
-continuous increasing coordinate of the completed reciprocal relation, carrying its native Mobius
-law with separately chosen unit slope? If adopted, `signed x/X_max=tanh(phi_pair)` follows while
-dimensional `X_max`, proper length, pair/history ownership, and global completion remain open. Do
-not launch another census, fit, seam atlas, preferred-path hunt, or invented mechanism.
+MAP/PONDER whether adopted signed positions form one coherent matched-calibration observer network,
+or remain branch-labelled pair outputs. If pursued, preregister finite-network overlap, reversal,
+and cycle gates without selecting a history. Keep `X_max` value, proper length, singular/global
+completion, and pair realization open; do not launch a fit, seam atlas, or invented mechanism.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

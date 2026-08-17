@@ -16,10 +16,10 @@ choose the file that makes a desired derivation easiest.
 | Terminal `phi_pair` | `DERIVED` conditionally | Reciprocal log imbalance on a supplied regular calibrated pair metric | Physical pair map and universal mixed-geometry identification |
 | Complete pair orchestra | `DERIVED` conditional structure | Angular, screen, and mixing data enter before terminal readout | Physical history and global relation family |
 | Pair `c_eff` | `CONDITIONAL` observer-frame readout | Terminal ratio on a supplied calibrated pair relation | Universal owner and local material-signal interpretation |
-| Projective pair readout `chi` | `DERIVED_IN_CLASS` | `chi=(1-c_eff/c_E)/(1+c_eff/c_E)=tanh(phi_pair)` after complete pair formation | Physical normalized-separation adoption, scale, and `X_max` value |
+| Physical pair position | `CHOSE` constitution + `DERIVED` join | `x/X_max=tanh(phi_pair)`, `s/X_max=abs(tanh(phi_pair))` on supplied complete pairs | `X_max` value, proper length, realization, history |
 | Co-presence | `WORKING` semantics | Co-membership in one supplied complete solution | Query population, value assignment, signalling, or selection law |
 
-Use registry rows G01, G02, G23, G28, G37--G40, and the current G129--G136 chain when exact wording
+Use registry rows G01, G02, G23, G28, G37--G40, and the current dependency chain when exact wording
 or source ownership is load-bearing.
 
 ## Current reconstruction hierarchy
@@ -35,6 +35,7 @@ or source ownership is load-bearing.
 | G134 full-area faithfulness | `VERIFIED_WITH_CAVEATS` | Complete area data recover full `g` up to fixed sign; rank ten and local codimension eleven; no value/evolution law |
 | G135 projective pair readout | `VERIFIED_WITH_CAVEATS` | `chi=tanh(phi_pair)` is native and Mobius-compositional on supplied complete pairs; physical distance and `X_max` remain open |
 | G136 continuous position classification | `VERIFIED_WITH_CAVEATS` | Same-native-Mobius charts are `tanh(k phi_pair)`; chosen unit slope fixes `k=1`; physical adoption remains open |
+| G137 relational position join | `VERIFIED_WITH_CAVEATS` | Working constitution adopted; signed position composes, unsigned separation is its magnitude |
 
 None of these results selects the physical network, numerical metric values, complete history,
 global completion, observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
@@ -64,10 +65,8 @@ and package-local evidence; they are not required startup chronology.
   the natural metric object is the symmetric bivector area bilinear.
 - Complete valued area data are equivalent to full metric data up to the fixed sign. Their local
   codimension-eleven metricity constraints are not equations of motion or history selection.
-- The complete pair owns the anchored bounded projective readout `chi=tanh(phi_pair)`. The formula
-  is unique only in the anchored first-degree projective class; it is not yet physical distance.
-- Over all continuous increasing same-native-Mobius charts, the only family is `tanh(k phi_pair)`.
-  Unit position slope is separately chosen; neither `c_E` nor the `phi` convention imposes it.
+- G135--G137 derive the bounded chart and classify same-native-Mobius coordinates. Charles chose its
+  unit-slope chart as working position; signed position composes and unsigned separation does not.
 
 ## Carrier, action, source, and matter
 
@@ -97,10 +96,9 @@ Do not:
 - call terminal `phi_pair`, `kappa_pair`, or a strain eigenvalue the unique physical law;
 - treat pair `c_eff` as local signal speed without a material response law;
 - identify a lapse zero, seam, diameter, or fitted endpoint with physical `X_max`;
-- call `chi=tanh(phi_pair)` unique proper distance, or write `x/X_max=chi` as unconditionally
-  derived before its constitutive meaning is owned;
-- call the same-law classification proof that physical position has this type, or hide `tanh`
-  inside the minimal constitutive premise;
+- call the adopted working constitution algebraically forced or canonized;
+- identify relational `x` or `s` with proper length, areal radius, signal distance, universe size,
+  a selected pair realization, or a selected history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
 - identify the celestial `S^2` fiber with the matter carrier;
 - call density descent a query-independent spacetime two-form or physical value law;
@@ -110,7 +108,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the exact 123-row machine-readable authority. Each row records
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the exact 124-row machine-readable authority. Each row records
 the object, classification, premise stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

@@ -33,13 +33,15 @@ promote package conclusions.
   `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous co-present position classification:
   `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
+- G137 adopted relational position and `X_max` join:
+  `udt_g137_copresent_relational_position_join_2026-08-17/`
 
 The current chain is evaluator → full-pullback faithfulness → co-presence typing → conformal
 scalar ceiling → common-scale ownership → density/area typing → complete-area faithfulness → native
 bounded projective pair readout. Complete area data already encode `g`, and every supplied complete
-pair owns `chi=tanh(phi_pair)`. Same-native-Mobius continuous position charts are `tanh(k phi_pair)`;
-unit slope is separately chosen, and no result yet makes that family physical normalized position
-or selects metric values, query population, `X_max`, or completion.
+pair owns `chi=tanh(phi_pair)`. Charles adopted its same-native-Mobius unit-slope chart as working
+physical position. G137 derives signed `x/X_max=tanh(phi_pair)` and unsigned magnitude but does not
+select metric values, query population, the dimensional `X_max`, or completion.
 
 ## Durable prerequisites
 
@@ -56,7 +58,7 @@ or selects metric values, query population, `X_max`, or completion.
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 123-row premise registry controls current status, not the archived prose.
+load-bearing. The 124-row premise registry controls current status, not the archived prose.
 
 ## Observational lane
 

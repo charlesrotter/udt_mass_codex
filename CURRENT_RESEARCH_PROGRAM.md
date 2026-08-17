@@ -91,16 +91,16 @@ codimension eleven inside arbitrary symmetric bivector data. This gives real rel
 metricity constraints, but every regular Lorentz metric passes: numerical values and evolution are
 not selected. Fresh adversarial repair follow-up passed.
 
-### G135--G136 — projective pair position
+### G135--G137 — co-present relational position
 
 After the complete orchestra has formed a supplied regular calibrated pair metric, its positive
 clock/ruler densities `T,L` own `q=T/L=exp(-2phi_pair)` and
 `chi=(L-T)/(L+T)=(1-q)/(1+q)=tanh(phi_pair)`. In the reciprocal kernel's common/contrast basis,
 `chi` is the projective contrast/common slope. G136 proves every continuous increasing coordinate
-carrying the same native Mobius law is `tanh(k phi_pair)`; a separately chosen unit position slope
-fixes `k=1`. Neither `c_E` nor the chosen `phi` unit fixes it. Fresh adversarial repair follow-up
-passed. Frozen sources do not entail that physical normalized position has this type; proper length,
-the value of `X_max`, pair realization, and history remain open.
+carrying the same native Mobius law is `tanh(k phi_pair)`; separately chosen unit slope fixes `k=1`.
+Charles adopted this as a working physical-position constitution. G137 derives signed
+`x/X_max=tanh(phi_pair)` and symmetric `s/X_max=abs(tanh(phi_pair))`; only the signed coordinate
+composes. Fresh adversarial review passed. Proper length, `X_max` value, realization, and history open.
 
 ## Durable prerequisites
 
@@ -138,9 +138,9 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Does physical normalized position carry the completed relation's native Mobius law, continuous
-   strict order, and a separately chosen unit slope, deriving `x/X_max=tanh(phi_pair)`?
-2. What fixes the value, profile, and global realization of `X_max` if that meaning is adopted?
+1. Do the adopted signed pair positions descend to one coherent matched-calibration observer
+   network, or remain branch-labelled outputs of supplied pair realizations?
+2. What fixes the value, profile, and global realization of `X_max`?
 3. Do composition, co-presence, and causality constrain the complete metric beyond metricity?
 4. Can they derive a complete history and observer network rather than only evaluate supplied data?
 5. How do time-live histories set pair, screen, mixing, and phase strengths across regimes?
@@ -148,8 +148,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-MAP/PONDER question 1 with Charles before more derivation. If adopted, preregister the signed/nonnegative
-`X_max` join while leaving scale, proper length, pair realization, history, and completion open. Do
-not launch another ownership census, seam atlas, preferred-path hunt, fit, GPU solve, or mechanism.
+MAP/PONDER question 1 with Charles. If pursued, preregister finite-network overlap, reversal, and
+cycle gates without selecting a history. Leave `X_max` value, proper length, pair realization, and
+completion open; do not launch another census, seam atlas, fit, GPU solve, or mechanism.
 
 Historical startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-14/`.

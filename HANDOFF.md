@@ -24,13 +24,12 @@ The active dependency chain is:
    `kappa_pair` needs matched calibration; full `g` owns a symmetric bivector area bilinear.
 6. G134: complete area data recover complete `g` up to fixed sign and occupy a rank-ten,
    local codimension eleven metricity locus; this constrains relation data but selects no values.
-7. G135--G136: each complete pair owns `chi=tanh(phi_pair)`; all continuous increasing same-Mobius
-   coordinates are `tanh(k phi_pair)`, and a separately chosen unit position slope fixes `k=1`.
+7. G135--G137 (including G136 classification): each complete pair owns `chi=tanh(phi_pair)`; Charles adopted its
+   same-Mobius unit-slope chart as working physical position.
 
-G136 passed fresh adversarial repair follow-up. Neither `c_E` nor the chosen `phi` unit fixes the
-physical-position slope. Frozen sources do not entail that physical position carries this law;
-owner adoption, the dimensional `X_max`, proper length, pair ownership, the history/solution law,
-and global completion remain `OPEN`.
+G137 passed fresh adversarial review. It derives signed `x/X_max=tanh(phi_pair)` and symmetric
+`s/X_max=abs(tanh(phi_pair))`; only signed position composes. `X_max` value, proper length, pair
+ownership, history/solution law, and completion remain `OPEN`. `CANON.md` is unchanged.
 
 Open these after orientation only when load-bearing:
 
@@ -43,6 +42,7 @@ Open these after orientation only when load-bearing:
 - `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/AUDIT_REPORT.md`
 - `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/AUDIT_REPORT.md`
 - `udt_g136_copresent_projective_distance_constitution_2026-08-17/AUDIT_REPORT.md`
+- `udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md`
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -68,9 +68,8 @@ No long process is running.
   conditional presentation potential.
 - the orchestra enters before terminal readout.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
-- `chi=tanh(phi_pair)` is derived as an anchored projective readout on a supplied complete pair;
-  calling it physical normalized separation is still a constitutive clarification.
-- same-native-Mobius composition leaves `tanh(k phi_pair)`; unit position slope is separately chosen.
+- working position constitution is adopted; signed `x/X_max=tanh(phi_pair)` and unsigned magnitude
+  follow on supplied complete pairs, but neither is yet proper length or a selected history.
 - `X_max` is an observer-pair asymptotic frame, not a wall or center.
 - strong local CSN is inactive.
 - carrier, action, source, matter, bootstrap selection, and dynamics remain posit/conditional/open.
@@ -83,9 +82,7 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Owner decision: does physical normalized position mean a continuous increasing coordinate of the
-completed reciprocal relation carrying its native Mobius law with separately chosen unit slope? If
-adopted, `signed x/X_max=tanh(phi_pair)` follows; keep `X_max` value, proper length, and pair/history
-ownership open. Avoid another ownership census or fit.
+MAP/PONDER whether signed pair positions descend to one coherent matched-calibration observer
+network or remain branch-labelled. Keep `X_max` value, proper length, and history open; avoid a fit.
 
 <!-- STARTUP_CURRENT_END -->
