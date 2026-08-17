@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "cE_G_density_length_is_cE_over_sqrt_G_rho": true,
+    "cE_G_energy_density_length_is_cE_squared_over_sqrt_G_epsilon": true,
+    "cE_G_mass_length_is_GM_over_cE_squared": true,
+    "cE_and_G_alone_do_not_form_length": true,
+    "common_rescaling_changes_base_determinant_by_Omega_four": true,
+    "conformal_pair_beta_weight_zero": true,
+    "conformal_pair_determinant_weight_four": true,
+    "conformal_pair_terminal_ratio_weight_zero": true,
+    "determinant_one_reciprocal_character": true,
+    "fixed_K_positive_common_factor_forced_to_one": true,
+    "fixed_pairing_scales_as_A_squared": true,
+    "founded_base_determinant_is_minus_cE_squared": true,
+    "four_volume_weight_four": true,
+    "pair_determinant_is_minus_exp_four_kappa": true,
+    "pair_terminal_ratio_is_exp_four_phi": true,
+    "positive_same_declared_base_determinant_solution_is_Omega_one": true,
+    "same_founded_base_form_forces_Omega_four_one": true,
+    "spherical_orbit_area_weight_two": true,
+    "terminal_triplet_reconstructs_pair_metric": true,
+    "two_anchor_family_agrees_at_one": true,
+    "two_anchor_family_agrees_at_zero": true,
+    "two_anchor_family_remains_nonconstant": true
+  },
+  "exact": {
+    "base_determinant": "-c_E**2",
+    "cE_G_solution": "EmptySet",
+    "density_solution": "{(1, -1/2, -1/2)}",
+    "energy_density_solution": "{(2, -1/2, -1/2)}",
+    "fixed_pairing": "Matrix([[0, A**2], [A**2, 0]])",
+    "mass_solution": "{(-2, 1, 1)}",
+    "pair_determinant": "-exp(4*kappa)",
+    "pair_terminal_ratio": "exp(4*phi)",
+    "two_anchor_exponent_midpoint": "anchor_strength/16"
+  },
+  "landing": "FIXED_K_RECIPROCAL_TRANSFORMATION_HAS_NO_INTERNAL_COMMON_FACTOR__COMPLETE_PAIR_EVALUATOR_RETAINS_SUPPLIED_COMMON_SCALE__NO_QUERY_INDEPENDENT_GENERAL_SCALE_OWNER_FOUND__GENERAL_HISTORY_AND_VALUE_LAW_OPEN",
+  "passed": 22,
+  "status": "PASS",
+  "total": 22
+}

@@ -26,7 +26,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   guide supplies bounded premise orientation; the verifier audits the entire 118-row exact registry
+   guide supplies bounded premise orientation; the verifier audits the entire 119-row exact registry
    without dumping its wide rows into model context. Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv`
    rows only after orientation when the requested task makes those objects load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
@@ -91,6 +91,9 @@ Disk evidence wins over conversational memory.
 - G131 proves only on a supplied shared full-dimensional open domain of identically labelled planes
   that all terminal `phi_pair` values determine the positive conformal class. Common local scale,
   query/value ownership, and the full metric remain open; `c_E` alone does not remove that kernel.
+- G132 proves fixed `K` removes only an internal reciprocal-transformation multiplier. The complete
+  pair triplet retains supplied scale but does not source it; `c_E,G_obs` require an additional
+  mass/density/energy datum plus a lawful bridge. A query-independent general scale owner is open.
 - The founding source derives
   `D(delta)=diag(exp(-delta),exp(+delta))` on **supplied ordered depth**. It does not derive the
   complete observer/event/path-to-depth assignment. Pointwise `phi` is a presentation potential;

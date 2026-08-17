@@ -175,6 +175,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G129" in block, f"G129 relational-network faithfulness result absent: {name}")
         require("G130" in block, f"G130 co-presence network-ownership result absent: {name}")
         require("G131" in block, f"G131 terminal-scalar conformal result absent: {name}")
+        require("G132" in block, f"G132 common-scale ownership result absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -289,6 +290,11 @@ def validate_startup_surface(root: Path) -> None:
             f"G131 package route absent: {name}",
         )
         require(
+            "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/" in block
+            or "G132" in block,
+            f"G132 package route absent: {name}",
+        )
+        require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
             or "whiteboard" in block.lower(),
             f"orchestra-score next-gate route absent: {name}",
@@ -336,6 +342,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g126_angular_lane_same_query_bridge_2026-08-16/",
             "udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/",
             "udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/",
+            "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/",
             "After orientation",
             "verify_current_scientific_premises.py",
         ),
@@ -377,6 +384,7 @@ def validate_startup_surface(root: Path) -> None:
             "G129",
             "G130",
             "G131",
+            "G132",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -408,6 +416,7 @@ def validate_startup_surface(root: Path) -> None:
             "G129",
             "G130",
             "G131",
+            "G132",
         ),
         "README.md": (
             "LIVE.md",
@@ -503,6 +512,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g126_angular_lane_same_query_bridge_2026-08-16/AUDIT_REPORT.md",
         "udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/AUDIT_REPORT.md",
         "udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/AUDIT_REPORT.md",
+        "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -519,9 +529,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 118, "premise registry must contain exactly 118 rows")
+    require(len(rows) == 119, "premise registry must contain exactly 119 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 118, "duplicate premise id")
+    require(len(by_id) == 119, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2534,6 +2544,43 @@ def main() -> None:
         == "udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/AUDIT_REPORT.md",
         "G131 source changed",
     )
+    require(
+        by_id["G132"]["current_status"].startswith(
+            "FRESH_ADVERSARIAL_FOLLOWUP_PASS__FIXED_K_RECIPROCAL_TRANSFORMATION_HAS_NO_INTERNAL_COMMON_FACTOR"
+        ),
+        "G132 scale-type result regressed or promoted",
+    )
+    require(by_id["G132"]["epistemic_label"] == "MIXED", "G132 label changed")
+    require(
+        "query-independent physical two-density or overlap descent for fixed K"
+        in by_id["G132"]["open_scope"],
+        "G132 fixed-K descent boundary absent",
+    )
+    require(
+        "fixed K representation normalization called physical conformal scale ownership"
+        in by_id["G132"]["forbidden_regression"],
+        "G132 representation/physical-scale guard absent",
+    )
+    require(
+        "kappa_pair said to source or select scale rather than retain supplied h"
+        in by_id["G132"]["forbidden_regression"],
+        "G132 kappa ownership guard absent",
+    )
+    require(
+        "areal coordinate called independently calibrated orbit area"
+        in by_id["G132"]["forbidden_regression"],
+        "G132 areal calibration guard absent",
+    )
+    require(
+        "c_E and G_obs alone said to form a length"
+        in by_id["G132"]["forbidden_regression"],
+        "G132 dimensional-anchor guard absent",
+    )
+    require(
+        by_id["G132"]["controlling_source"]
+        == "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/AUDIT_REPORT.md",
+        "G132 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2612,7 +2659,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G131-extended premise guards; PASS: 118-row premise "
+        "PASS: G132-extended premise guards; PASS: 119-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

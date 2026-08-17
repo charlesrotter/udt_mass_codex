@@ -5,7 +5,7 @@ fixed_K	POSIT_FOUNDING	exact dual-pair normalization	general complete-metric vol
 D_phi	DERIVED_ON_SUPPLIED_DEPTH	determinant-one reciprocal action	observer-query or history owner
 complete_pair_h	DERIVED_FROM_SUPPLIED_g_F	retains common scale and shift	physical query family
 terminal_triplet	DERIVED_ON_REGULAR_CALIBRATED_h	exact pair decomposition	query-independent universal observable
-areal_radius	CONDITIONAL_CENTRAL_SPHERICAL	intrinsic orbit-area scale on identified SO3 branch	universal nonspherical scale owner
+areal_radius	CONDITIONAL_CENTRAL_SPHERICAL	potential orbit-area scale datum when independently calibrated	universal nonspherical scale owner
 metric_volume	DERIVED_FROM_FULL_METRIC	nonzero conformal-weight density	independent selector from conformal class
 external_mass_density_energy	OBSERVED_CANDIDATE	may form a dimensional length with c_E and G_obs	native UDT closure or fitted value
 strong_local_CSN	CHALLENGED_OWNER_POSTULATE_NOT_DERIVED	inactive	common factor called gauge

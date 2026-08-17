@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "independent_json_pass": true,
+    "isolated_independent_byte_identical": true,
+    "isolated_independent_reports_pass": true,
+    "isolated_production_byte_identical": true,
+    "isolated_production_reports_pass": true,
+    "landing_keeps_general_history_open": true,
+    "manifest_has_ten_exact_sources": true,
+    "manifest_hashes_match": true,
+    "manifest_sources_exist": true,
+    "production_json_pass": true,
+    "protected_paths_absent_from_manifest": true,
+    "required_package_files_present": true
+  },
+  "passed": 12,
+  "status": "PASS",
+  "total": 12
+}

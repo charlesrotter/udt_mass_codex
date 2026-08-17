@@ -1,0 +1,44 @@
+{
+  "checks": {
+    "areal_radius_from_metric_area_has_weight_one": true,
+    "four_volume_from_metric_determinant_has_weight_four": true,
+    "fraction_beta_conformal_invariant": true,
+    "fraction_conformal_base_determinant_weight_four": true,
+    "fraction_conformal_pair_determinant_weight_four": true,
+    "fraction_fixed_pairing_scales_by_common_squared": true,
+    "fraction_founded_base_determinant_is_minus_cE_squared": true,
+    "fraction_nonunit_common_factor_fails_fixed_K": true,
+    "fraction_pair_determinant_is_minus_T2_L2": true,
+    "fraction_reciprocal_D_has_unit_determinant": true,
+    "fraction_terminal_ratio_conformal_invariant": true,
+    "fraction_terminal_triplet_reconstructs_h": true,
+    "independent_cE_G_no_length": true,
+    "independent_density_scale_exponents": true,
+    "independent_energy_density_scale_exponents": true,
+    "independent_mass_scale_exponents": true,
+    "screen_area_density_from_metric_determinant_has_weight_two": true,
+    "two_point_anchors_do_not_fix_function": true
+  },
+  "exact": {
+    "density_exponents": [
+      "1",
+      "-1/2",
+      "-1/2"
+    ],
+    "energy_density_exponents": [
+      "2",
+      "-1/2",
+      "-1/2"
+    ],
+    "mass_exponents": [
+      "-2",
+      "1",
+      "1"
+    ],
+    "pair_ratio": "100/81",
+    "scaled_pair_ratio": "100/81"
+  },
+  "passed": 18,
+  "status": "PASS",
+  "total": 18
+}

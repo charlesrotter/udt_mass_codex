@@ -64,7 +64,7 @@ is externally verified: every finite regular central-spherical time-live branch 
 `|det D_sky|=R^2`. G120 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/`
 is blind verified: imported transfer gives `d_L=Z^2R` and preserves both SNe replays. G121 is blind verified with conditional pair-scalar closure only. G122
 `udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/` is blind verified after repairs: terminal
-pair and causal phase are distinct. G123 derives the supplied common-event chart graph. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only as comparison. G126 stops direct R5 inversion; G127 derives local same-history screen response; G128 observes bounded finite-path persistence. G129 proves full-pullback network faithfulness iff rank ten. G130 separates conditional co-membership, law grammar, and unowned values. G131 `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/` is fresh-adversarial-follow-up passed: all terminal reciprocal scalars on a supplied shared full-dimensional open labelled plane domain determine exactly the positive conformal class. Clock tilts eliminate frozen-clock nonconformal shifts; positive common scale remains invisible and is not fixed by `c_E`. Query/value ownership, common scale, solution law, and global completion remain open.
+pair and causal phase are distinct. G123 derives the supplied common-event chart graph. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only as comparison. G126 stops direct R5 inversion; G127 derives local same-history screen response; G128 observes bounded finite-path persistence. G129 proves full-pullback network faithfulness iff rank ten; G130 separates conditional co-membership and unowned values; G131 proves scalar-only conformal faithfulness. G132 `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/` is fresh-adversarial-follow-up passed: fixed `K` excludes only an internal transformation multiplier; the conditional calibrated base determinant is not a universal scale theorem; the complete terminal triplet reconstructs `h` and retains supplied scale. No query-independent general scale owner is found. `c_E,G_obs` plus mass/density/energy form only dimensional calibrators pending a lawful bridge. Physical values, history, and global completion remain open.
 
 ### What is running
 
@@ -125,6 +125,6 @@ After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for 
 Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell draft, local pair-response package, or local G88 package without a specific dispatch. Preserve unrelated dirt; directory presence does not prove banking.
 
 ### Next bounded action
-G131's bounded conformal-kernel gate is closed. Next audit any already-derived query-independent
-datum of known nonzero conformal weight. Archive: `archive/startup_surface_2026-08-14/`.
+G132's bounded scale-type gate is closed. Next audit fixed `K` for a query-independent physical
+two-density with overlap descent. Archive: `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->
