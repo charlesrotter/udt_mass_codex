@@ -1,0 +1,6 @@
+id	item	outcome_status	ownership
+O01	same_native_Mobius_composition	PROPOSED_CONSTITUTIVE_CLAUSE	not entailed by frozen source as physical position
+O02	continuity_and_strict_order	PROPOSED_REGULARITY_CLAUSE	natural but must be stated for classification
+O03	physical_position_unit_slope_one	CHOSE_LOCAL_UNIT_CONVENTION	neither c_E nor chosen phi unit imposes this on a separate coordinate
+O04	F_equals_tanh_phi	DERIVED_AFTER_O01_O02_O03	not named in the minimal premise
+O05	X_max_dimensional_value	OPEN	no scale owner derived

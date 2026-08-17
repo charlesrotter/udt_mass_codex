@@ -1,0 +1,13 @@
+id	claim	status	boundary
+S01	complete pair owns chi=tanh(phi_pair)	INHERITED_G135_VERIFIED_WITH_CAVEATS	supplied regular calibrated pair only
+S02	same-Mobius continuous coordinate classification	DERIVED	F(phi)=tanh(k phi) with k>0
+S03	unit-normalized same-law coordinate	DERIVED_UNIQUE_AFTER_CHOSEN_POSITION_UNIT	F'(0)=1 fixes F(phi)=tanh(phi); phi unit and c_E alone do not impose it
+S04	G135 smooth counterfamilies	RECLASSIFIED_PRECISELY	they preserve conjugated group consistency but fail the same native Mobius display law
+S05	older assumed fractional-linear displacement law	SCAFFOLD_REMOVED_BY_G135	projective action comes from completed reciprocal kernel
+S06	physical normalized position is continuous increasing same-Mobius with unit slope	OWNER_FOUNDATIONAL_CLARIFICATION_REQUIRED	minimal condition does not name tanh or projective coordinate; not entailed by frozen source universe
+S07	signed positional law after S06	CONDITIONAL_DERIVED	x/X_max=tanh(phi_pair)
+S08	nonnegative separation after S06	CONDITIONAL_DERIVED	s/X_max=abs(tanh(phi_pair))
+S09	X_max limiting role	WORKING_FOUNDATIONAL_FRAME	numerical value profile and global realization open
+S10	proper length areal radius or signal distance identification	OPEN	not implied by projective positional constitution
+S11	physical pair realization and complete metric history	OPEN	G136 changes the readout ontology not the numerical history owner
+S12	current formal co-presence alone supplies distance constitution	REFUTED_IN_FROZEN_SOURCES	current G130 co-presence is conditional event co-membership only

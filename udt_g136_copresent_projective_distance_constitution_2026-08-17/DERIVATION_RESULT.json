@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "G135_constitution_open": true,
+    "coincidence": true,
+    "copresence_does_not_supply_depth": true,
+    "dimensional_composition": true,
+    "family_origin_slope_is_k": true,
+    "founding_depth_unit_chosen": true,
+    "historical_distance_chart_named": true,
+    "negative_endpoint": true,
+    "normalized_family_composes": true,
+    "origin_distance_unspecified": true,
+    "positive_endpoint": true,
+    "reversal": true,
+    "smooth_remarking_same_law_fails": true,
+    "smooth_remarking_unit_slope": true,
+    "tanh_composition": true,
+    "tanh_k_solves_classification_ode": true,
+    "unit_slope_selects_k_one": true,
+    "xmax_fixed_point": true,
+    "xmax_profile_open": true,
+    "xmax_scale_not_in_chi": true
+  },
+  "checks_passed": 20,
+  "checks_total": 20,
+  "classification": "F(phi)=tanh(k phi), k>0",
+  "exact_smooth_counterexample_deviation": "390123/25975936",
+  "grade": "DERIVED_CLASSIFICATION__SOURCE_ENTAILMENT_NEGATIVE__CONSTITUTIVE_CLARIFICATION_REMAINS",
+  "normalized_classification": "F(phi)=tanh(phi)",
+  "source_entailment": "NO_CURRENT_DIRECT_ENTAILMENT"
+}
