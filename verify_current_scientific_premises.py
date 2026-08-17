@@ -144,7 +144,9 @@ def validate_startup_surface(root: Path) -> None:
             "G144",
             "G145",
             "G146",
-            "rank-two",
+            "G147",
+            "physical carrier",
+            "O(2)",
             "rank ten",
             "conformal",
             "density",
@@ -176,7 +178,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "133-row exact registry",
+            "134-row exact registry",
             "without dumping its wide rows into model context",
             "not a startup read or a current-frontier index",
         ),
@@ -209,6 +211,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g144_cross_query_overlap_carry_descent_2026-08-17/",
             "udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/",
             "udt_g146_multidirectional_relational_position_composition_2026-08-17/",
+            "udt_g147_pair_directional_metric_screen_solder_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -226,6 +229,7 @@ def validate_startup_surface(root: Path) -> None:
             "G144",
             "G145",
             "G146",
+            "G147",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -242,13 +246,14 @@ def validate_startup_surface(root: Path) -> None:
             "G144",
             "G145",
             "G146",
+            "G147",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
             "bivector area bilinear",
-            "multidirectional position/screen solder",
+            "physical multidirectional carrier",
             "184,300",
-            "rank-two solder",
+            "Map and ponder question 1",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "WORKING_FOUNDATIONAL_FRAME",
@@ -260,10 +265,11 @@ def validate_startup_surface(root: Path) -> None:
             "G144",
             "G145",
             "G146",
+            "G147",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "133-row",
+            "134-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -330,6 +336,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g144_cross_query_overlap_carry_descent_2026-08-17/AUDIT_REPORT.md",
         "udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/AUDIT_REPORT.md",
         "udt_g146_multidirectional_relational_position_composition_2026-08-17/AUDIT_REPORT.md",
+        "udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -356,9 +363,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 133, "premise registry must contain exactly 133 rows")
+    require(len(rows) == 134, "premise registry must contain exactly 134 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 133, "duplicate premise id")
+    require(len(by_id) == 134, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2819,6 +2826,34 @@ def main() -> None:
         == "udt_g146_multidirectional_relational_position_composition_2026-08-17/AUDIT_REPORT.md",
         "G146 source changed",
     )
+    require(
+        by_id["G147"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_FOLLOWUP_PASS__WITHIN_DEFINED_QUERY_RELATIVE_REST_SPACE_LIFT"
+        ),
+        "G147 bounded status regressed or promoted",
+    )
+    require(by_id["G147"]["epistemic_label"] == "MIXED", "G147 label changed")
+    for open_item in (
+        "physical multidirectional three-position carrier and whether it is the query rest-space relation ball",
+        "solder from an independently owned ball carrier including O2 freedom",
+        "oriented solder and ordered-pair reversal",
+        "cross-query middle-observer carry and comparison with U_gamma",
+    ):
+        require(open_item in by_id["G147"]["open_scope"], f"G147 open boundary absent: {open_item}")
+    for guard in (
+        "defined xi equals rho n called a derived physical three-position or spacetime displacement",
+        "conditional rest-space identity called a universal metric solder",
+        "O2 freedom called mere gauge before a common carrier is owned",
+        "flag-preserving domain reparameterization called full calibrated-position covariance",
+        "tangent screen said to retain rho sign or derive reversal",
+        "conditional identity used to select a ball law equate gyration with U_gamma",
+    ):
+        require(guard in by_id["G147"]["forbidden_regression"], f"G147 guard absent: {guard}")
+    require(
+        by_id["G147"]["controlling_source"]
+        == "udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md",
+        "G147 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2897,7 +2932,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G146-extended premise guards; PASS: 133-row premise "
+        "PASS: G147-extended premise guards; PASS: 134-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

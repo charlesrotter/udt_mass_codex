@@ -29,15 +29,15 @@ promote package conclusions.
   `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous co-present position classification:
   `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G146 position, descent, transport, and relation/history control:
+- G137--G147 position, descent, transport, and relation/history control:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
   `udt_g143_single_pair_domain_carry_ownership_2026-08-17/`; `udt_g144_cross_query_overlap_carry_descent_2026-08-17/`;
   `udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/`;
-  `udt_g146_multidirectional_relational_position_composition_2026-08-17/`
+  `udt_g146_multidirectional_relational_position_composition_2026-08-17/`; `udt_g147_pair_directional_metric_screen_solder_2026-08-17/`
 The chain is evaluator → pullback faithfulness → co-presence typing → conformal ceiling → common-scale
-ownership → density/area typing → complete-area faithfulness → native bounded projective pair readout.
+ownership → density/area typing → complete-area faithfulness → bounded projective pair readout.
 Complete area data encode `g`; every supplied pair owns `chi=tanh(phi_pair)`. Charles adopted its
 unit-slope chart as working position. G138's `x/X_max=tanh(phi_pair)` join does not
 select metric values or dimensional `X_max`. The last steps classify descent and provisionally
@@ -46,7 +46,7 @@ rejects pullback-only congruence; G141--G144 show that a chart or genuine embedd
 presentation carry, while endpoint incidence alone does not glue distinct relation sheets. G145
 proves full-pullback valuation determines its metric component on the supplied 4D base atlas while
 query atlas, calibration, numerical valuation, and physical realization remain supplied or open.
-G146 proves the collinear law does not select a projection; arrow and screen solder remain open.
+G146--G147 leave physical carrier open; the rest-space screen identity is conditional.
 ## Durable prerequisites
 
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -59,7 +59,7 @@ G146 proves the collinear law does not select a projection; arrow and screen sol
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 133-row premise registry controls current status, not the archived prose.
+load-bearing. The 134-row premise registry controls current status, not the archived prose.
 
 ## Observational lane
 

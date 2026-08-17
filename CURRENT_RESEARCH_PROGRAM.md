@@ -9,7 +9,7 @@ classification. This file states only the current architecture, open gates, and 
 ## Program picture
 
 UDT currently has a strong conditional observer-pair evaluator, faithful metric reconstruction, a
-native bounded projective position readout, and an open multidirectional position/screen solder and
+native bounded projective position readout, and an open physical multidirectional carrier and
 numerical/global valuation problem.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
@@ -79,15 +79,13 @@ pass the same reciprocal, overlap, position, and local-causal gates with all nin
 complete-coframe fields live. Compatibility is not a value/evolution law, but no second bridge from
 complete pair valuations to their metric is needed.
 
-### G146 — multidirectional position projection
+### G146--G147 — multidirectional position and conditional screen identity
 
-Fresh adversarial review passed. The exact collinear Mobius law admits at least two
-inequivalent smooth `SO(3)`-covariant open-ball position projections. Both have element inverse and
-closure but fail the stronger complete-arrow reverse-order identity on the registered non-collinear
-witness. A standard boost control contains an angular factor but is not UDT physics and does not
-identify `phi` with rapidity. The next metric-native joint is first a rank-two solder from the
-directional sphere tangent at nonzero position into the pair metric screen; only then may a
-positional gyration be compared with path transport.
+G146 finds at least two inequivalent smooth rotation-covariant ball projections sharing the exact
+collinear law; neither is a complete arrow or UDT law. G147 passes adversarial repair/follow-up: if
+`xi = rho n` is **defined conditionally** in the query rest space, its unoriented tangent plane is
+identically the metric pair screen. This does not derive the physical three-position carrier or a
+displacement. An independent carrier retains `O(2)` solder freedom; cross-query carry remains open.
 
 ## Durable prerequisites
 
@@ -121,17 +119,16 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Does a supplied complete pair query canonically solder its rank-two directional position screen
-   to its metric pair screen, and how is path order carried?
-2. After that type gate, does metric transport select a multidirectional position lift?
+1. Do the active premises own the query rest-space relation ball as the physical multidirectional
+   position carrier, or only permit it as a conditional representation?
+2. If owned, how are its oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
 4. What fixes `X_max`, regime strengths, radiative/source structure, and global completion?
 
 ## Bounded next action
 
-Derive or refute question 1 on one supplied regular complete pair query before comparing any
-gyration with `U_gamma`. Treat both G146 ball laws as controls only. Do not invent an action, source,
-selector, fit, Lorentz-rapidity identification, or history law. Leave `X_max`, proper length, and
-completion open.
+Map and ponder question 1 before another derivation. Treat the G146 ball laws as controls and the
+G147 lift as conditional. Do not invent an action, source, selector, fit, Lorentz-rapidity
+identification, or history law. Leave `X_max`, proper length, and completion open.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

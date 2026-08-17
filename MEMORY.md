@@ -17,9 +17,9 @@ Current dependency spine:
 - G145: full-pullback valuation determines the metric component on the supplied 4D base atlas.
   Query atlas, calibration, numerical valuation, and physical realization remain supplied/open;
   opposite-curvature survivors pass the same gates with all nine non-`phi` coframe fields live.
-- G146: two inequivalent smooth rotation-covariant position projections share the G137 collinear
-  law. Neither is a complete observer arrow. The rank-two directional-to-metric screen solder is
-  the next gate before comparing positional rotation with `U_gamma`.
+- G146--G147: non-collinear projections remain nonunique. In a defined query-rest-space lift the
+  tangent and metric screens coincide, but physical carrier, independent `O(2)` solder,
+  cross-query carry, and complete arrow remain open.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -50,9 +50,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-On one supplied regular complete pair query, derive or refute the rank-two solder from directional
-position screen to metric pair screen. Keep both ball laws as controls and do not infer Lorentz
-rapidity, a full arrow, history, `X_max`, proper length, or completion.
+Map whether active premises own the query-rest-space relation ball as physical carrier or only allow
+it conditionally. Keep ball controls, `O(2)` solder, carry, arrow, history, `X_max`, length, and
+completion open.
 
 ## Historical route
 

@@ -7,7 +7,7 @@ Current grade: `VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_FOLLOWUP_PASS`
 ## Result first
 
 On one supplied regular calibrated observer-pair query at nonzero relational position, if normalized
-relation position is represented by the defined conditional lift `bold xi=rho n` in the query
+relation position is represented by the defined conditional lift `xi = rho n` in the query
 clock's rest space, its directional tangent screen and metric pair screen are the same subspace:
 
 \[

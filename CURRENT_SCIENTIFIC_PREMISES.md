@@ -30,7 +30,7 @@ or source ownership is load-bearing.
 | G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Rank-ten pullbacks and area bilinear recover `g`; scalars stop at its positive conformal class; Common pair scale is retained, not sourced |
 | G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Position is provisionally adopted; a supplied chart or genuine overlap owns carry; endpoints do not glue sheets |
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback valuation determines the metric on a supplied 4D base atlas; queries, calibration, values, and realization remain supplied/open |
-| G146 multidirectional position | `VERIFIED_WITH_CAVEATS` | Two parity-even rotation-covariant projections share the collinear law; reverse order fails on the registered witness; screen solder remains open |
+| G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections remain nonunique; rest-space screen identity is conditional; physical carrier remains open |
 
 None selects numerical metric values, the physical query population, global completion,
 observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
@@ -65,9 +65,8 @@ and package-local evidence; they are not required startup chronology.
 - G145 separates four-dimensional metric descent from two-dimensional pair-sheet carry. Complete
   pullback values determine their metric component; they do not determine their own numerical
   valuation, query population, or physical realization.
-- G146 separates a three-dimensional position projection from a complete observer arrow. Element
-  inverse is not reverse-order arrow composition; no ball control, Lorentz-rapidity solder, or
-  equality with rank-two metric screen transport is selected.
+- G146--G147 separate position projection, conditional rest-space identity, and physical carrier.
+  No ball control, displacement, independent `O(2)` solder, reversal, or transport equality is selected.
 
 ## Carrier, action, source, and matter
 
@@ -98,8 +97,8 @@ Do not:
 - treat pair `c_eff` as local signal speed without a material response law;
 - identify a lapse zero, seam, diameter, or fitted endpoint with physical `X_max`;
 - call the adopted working constitution algebraically forced or canonized;
-- select a G146 ball control as UDT physics, identify `phi` with Lorentz rapidity, or call element
-  inverse a complete multidirectional observer-arrow reversal;
+- select a G146 ball control, call G147's defined lift a physical carrier/displacement, erase its
+  independent `O(2)` solder, or identify `phi` with Lorentz rapidity;
 - identify relational `x` or `s` with proper length, areal radius, signal distance, universe size,
   a selected pair realization, or a selected history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
@@ -111,7 +110,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 133-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 134-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

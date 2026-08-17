@@ -6,7 +6,7 @@ Date: 2026-08-17
 
 On one supplied regular calibrated pair query at nonzero relational position, **if** normalized
 relation position is represented by the defined query-relative rest-space lift
-`bold xi=rho n`, the directional sphere tangent and metric pair screen are the same positive
+`xi = rho n`, the directional sphere tangent and metric pair screen are the same positive
 rank-two subspace of the ambient tangent space:
 
 \[
