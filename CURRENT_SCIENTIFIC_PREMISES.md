@@ -27,18 +27,12 @@ or source ownership is load-bearing.
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Full `B,Q,S,Y,Z` pullback and terminal readout for supplied regular data |
-| G129 full-pullback network | `DERIVED` in stated scope | Full metric is recoverable iff the sampled tangent span has rank ten |
-| G130 co-presence | `DERIVED` ownership boundary | Conditional co-membership, not query/value selection |
-| G131 all-plane terminal scalars | `DERIVED` in stated scope | Positive conformal class only; common scale remains open |
-| G132 common scale | `DERIVED` ownership boundary | Pair data retain supplied scale but do not source it |
-| G133 density and area | `DERIVED` in stated scope | Internal `K` density, conditional pair-density descent, and full-`g` bivector area bilinear |
-| G134 full-area faithfulness | `VERIFIED_WITH_CAVEATS` | Complete area data recover full `g` up to fixed sign; rank ten and local codimension eleven; no value/evolution law |
-| G135 projective pair readout | `VERIFIED_WITH_CAVEATS` | `chi=tanh(phi_pair)` is native and Mobius-compositional on supplied complete pairs; physical distance and `X_max` remain open |
-| G136 continuous position classification | `VERIFIED_WITH_CAVEATS` | Same-native-Mobius charts are `tanh(k phi_pair)`; chosen unit slope fixes `k=1`; physical adoption remains open |
-| G137--G144 position/network | `VERIFIED_WITH_CAVEATS` | Position adopted; a supplied chart or genuine overlap owns carry; `C=R_BMR_A^-1` is invariant; endpoint incidence alone does not glue distinct sheets |
+| G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Rank-ten pullbacks and area bilinear recover `g`; scalars stop at its positive conformal class; Common pair scale is retained, not sourced |
+| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Position is provisionally adopted; a supplied chart or genuine overlap owns carry; endpoints do not glue sheets |
+| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback valuation determines the metric on a supplied 4D base atlas; queries, calibration, values, and realization remain supplied/open |
 
-None of these results selects the physical network, numerical metric values, complete history,
-global completion, observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
+None selects numerical metric values, the physical query population, global completion,
+observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
 and package-local evidence; they are not required startup chronology.
 
 ## Scale and limits
@@ -65,9 +59,11 @@ and package-local evidence; they are not required startup chronology.
   the natural metric object is the symmetric bivector area bilinear.
 - Complete valued area data are equivalent to full metric data up to the fixed sign. Their local
   codimension-eleven metricity constraints are not equations of motion or history selection.
-- G138/G139/G140/G141/G142/G143/G144 derive network and carry algebra. One query owns chart carry;
-  a branch-resolved embedded overlap owns its transition. Endpoints do not glue sheets. Nonoverlap
-  population, family, and history remain unselected.
+- G138--G144 derive network/carry algebra: one query owns chart carry, a genuine overlap owns its
+  transition, and endpoints do not glue sheets.
+- G145 separates four-dimensional metric descent from two-dimensional pair-sheet carry. Complete
+  pullback values determine their metric component; they do not determine their own numerical
+  valuation, query population, or physical realization.
 
 ## Carrier, action, source, and matter
 
@@ -109,7 +105,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 131-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 132-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

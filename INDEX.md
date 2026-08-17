@@ -16,12 +16,9 @@ promote package conclusions.
 
 - Complete-pair evaluator:
   `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
-- G129 full-pullback network faithfulness:
-  `udt_g129_copresent_relational_network_faithfulness_2026-08-16/`
-- G130 co-presence ownership:
-  `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/`
-- G131 terminal-scalar conformal faithfulness:
-  `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/`
+- G129 full-pullback faithfulness: `udt_g129_copresent_relational_network_faithfulness_2026-08-16/`
+- G130 co-presence ownership: `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/`
+- G131 scalar conformal ceiling: `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/`
 - G132 common-scale ownership:
   `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/`
 - G133 density descent and full-metric area bilinear:
@@ -32,11 +29,12 @@ promote package conclusions.
   `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous co-present position classification:
   `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G144 position, descent, transport, calibration control:
+- G137--G145 position, descent, transport, and relation/history control:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
-  `udt_g143_single_pair_domain_carry_ownership_2026-08-17/`; `udt_g144_cross_query_overlap_carry_descent_2026-08-17/`
+  `udt_g143_single_pair_domain_carry_ownership_2026-08-17/`; `udt_g144_cross_query_overlap_carry_descent_2026-08-17/`;
+  `udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/`
 The chain is evaluator → pullback faithfulness → co-presence typing → conformal ceiling → common-scale
 ownership → density/area typing → complete-area faithfulness → native bounded projective pair readout.
 Complete area data encode `g`; every supplied pair owns `chi=tanh(phi_pair)`. Charles adopted its
@@ -44,7 +42,9 @@ unit-slope chart as working position. G138's `x/X_max=tanh(phi_pair)` join does 
 select metric values or dimensional `X_max`. The last steps classify descent and provisionally
 choose endpoint position within supplied congruent families while preserving path transport. G140
 rejects pullback-only congruence; G141--G144 show that a chart or genuine embedded overlap owns its
-presentation carry, while endpoint incidence alone does not glue distinct relation sheets.
+presentation carry, while endpoint incidence alone does not glue distinct relation sheets. G145
+proves full-pullback valuation determines its metric component on the supplied 4D base atlas while
+query atlas, calibration, numerical valuation, and physical realization remain supplied or open.
 ## Durable prerequisites
 
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -59,7 +59,7 @@ presentation carry, while endpoint incidence alone does not glue distinct relati
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 131-row premise registry controls current status, not the archived prose.
+load-bearing. The 132-row premise registry controls current status, not the archived prose.
 
 ## Observational lane
 

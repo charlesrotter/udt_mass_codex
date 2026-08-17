@@ -9,24 +9,16 @@ The evaluator forms one pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` 
 
 Current dependency spine:
 
-- G129: full pullbacks recover full `g` iff the sampled tangent span has rank ten.
-- G130: co-presence gives conditional co-membership, not network valuation.
-- G131: all terminal pair scalars recover only the positive conformal class.
-- G132: common scale is retained but not sourced.
-- G133: fixed `K` owns internal density only; supplied pair density descends conditionally;
-  `kappa_pair` needs matched calibration; full `g` owns the bivector area bilinear.
-- G134: area data recover `g` up to fixed sign on a rank-ten, codimension-eleven metricity locus;
-  this is not a value or evolution law.
-- G135--G137: the pair owns `chi=tanh(phi_pair)`; Charles adopted G136's unit-slope chart. Signed
-  `x/X_max=tanh(phi_pair)` and symmetric
-  `s/X_max=abs(tanh(phi_pair))` follow; only signed position composes.
-- G138: endpoint position descends iff matched cycles close; reference gauges form a Mobius torsor;
-  nonzero cycles are holonomy only when routes remain distinct arrows.
-- G139/G140/G141/G142/G143/G144: position is provisional; route holonomy may remain. Supplied carry data give invariant
-  `C=R_BMR_A^-1`; one chart or genuine overlap owns presentation carry. Shared endpoints do
-  not glue distinct sheets. Carry is not the missing mechanism.
+- G129--G134: rank-complete pullbacks and the bivector area bilinear recover `g`; terminal scalars stop at
+  its positive conformal class. Common scale is retained, not sourced; metricity is not evolution.
+- G135--G139: working signed `x/X_max=tanh(phi_pair)` composes within supplied congruent families;
+  endpoint position and route transport remain distinct.
+- G140--G144: one chart or genuine overlap owns presentation carry; endpoints do not glue sheets.
+- G145: full-pullback valuation determines the metric component on the supplied 4D base atlas.
+  Query atlas, calibration, numerical valuation, and physical realization remain supplied/open;
+  opposite-curvature survivors pass the same gates with all nine non-`phi` coframe fields live.
 
-Network values, complete history/solution law, completion, and `X_max` remain open.
+The numerical/global valuation, query population, completion, and `X_max` remain open.
 
 ## Observational pointer
 
@@ -55,9 +47,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Zoom out from the closed carry chain. Derive or sharply bound whether co-presence, reciprocal
-position, composition, and metric causality constrain a globally coherent physical relation-sheet
-network. Keep `X_max`, proper length, family, and history open unless the metric supplies them.
+Map and ponder whether complete time-live/global metric structure constrains numerical relation
+values, versus lawful initial/boundary/observational data. Do not invent a selector or fit; keep
+`X_max`, proper length, and completion open.
 
 ## Historical route
 

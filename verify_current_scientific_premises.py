@@ -137,27 +137,18 @@ def validate_startup_surface(root: Path) -> None:
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "archive/startup_surface_2026-08-17_pre_zoomout",
             "G129",
-            "G130",
-            "G131",
-            "G132",
-            "G133",
             "G134",
             "G135",
-            "G136",
-            "G137",
-            "G138",
             "G139",
             "G140",
-            "G141",
-            "G142",
-            "G143",
             "G144",
+            "G145",
             "rank ten",
             "conformal",
             "density",
             "bivector area bilinear",
             "codimension eleven",
-            "history/solution law",
+            "numerical valuation",
             "OPEN",
         ):
             require(token in normalized, f"marked current block lacks {token}: {name}")
@@ -180,6 +171,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
+            "132-row exact registry",
             "without dumping its wide rows into model context",
             "not a startup read or a current-frontier index",
         ),
@@ -210,6 +202,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g142_abstract_carrier_physical_carry_join_2026-08-17/",
             "udt_g143_single_pair_domain_carry_ownership_2026-08-17/",
             "udt_g144_cross_query_overlap_carry_descent_2026-08-17/",
+            "udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -220,24 +213,14 @@ def validate_startup_surface(root: Path) -> None:
         "MEMORY.md": (
             "B,Q,S,Y,Z",
             "G129",
-            "G130",
-            "G131",
-            "G132",
-            "G133",
             "G134",
             "G135",
-            "G136",
-            "G137",
-            "G138",
-            "G139",
             "G139",
             "G140",
-            "G141",
-            "G142",
-            "G143",
             "G144",
+            "G145",
             "bivector area bilinear",
-            "complete history/solution law",
+            "numerical/global valuation",
             "R2--R5",
             "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
@@ -246,52 +229,32 @@ def validate_startup_surface(root: Path) -> None:
         "CURRENT_RESEARCH_PROGRAM.md": (
             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
             "G129",
-            "G130",
-            "G131",
-            "G132",
-            "G133",
             "G134",
             "G135",
-            "G136",
-            "G137",
-            "G138",
             "G140",
-            "G141",
-            "G142",
-            "G143",
             "G144",
+            "G145",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
             "bivector area bilinear",
-            "physical-history problem",
+            "numerical/global valuation problem",
             "184,300",
-            "Derive or sharply bound question 1",
+            "Map and ponder question 1",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "WORKING_FOUNDATIONAL_FRAME",
             "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "G129",
-            "G130",
-            "G131",
-            "G132",
-            "G133",
             "G134",
             "G135",
-            "G136",
-            "G137",
-            "G138",
-            "G139",
-            "G140",
-            "G141",
-            "G142",
-            "G143",
             "G144",
+            "G145",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "131-row",
+            "132-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -382,9 +345,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 131, "premise registry must contain exactly 131 rows")
+    require(len(rows) == 132, "premise registry must contain exactly 132 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 131, "duplicate premise id")
+    require(len(by_id) == 132, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2789,6 +2752,36 @@ def main() -> None:
         == "udt_g144_cross_query_overlap_carry_descent_2026-08-17/AUDIT_REPORT.md",
         "G144 source changed",
     )
+    require(
+        by_id["G145"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_PASS__RANK_COMPLETE_FULL_PULLBACK_VALUATION"
+        ),
+        "G145 bounded status regressed or promoted",
+    )
+    require(by_id["G145"]["epistemic_label"] == "MIXED", "G145 label changed")
+    for open_item in (
+        "physical query atlas calibrations numerical valuation and realization",
+        "global topology singular null cut or non-Hausdorff strata",
+        "numerical Xmax proper length and completion",
+        "initial boundary observational or native value law",
+    ):
+        require(open_item in by_id["G145"]["open_scope"], f"G145 open boundary absent: {open_item}")
+    for guard in (
+        "two-dimensional pair sheets called a four-dimensional manifold atlas",
+        "rank completeness called selection of query population numerical values evolution or one universe",
+        "coherent relation network called literally identical to bare metric",
+        "compatibility composition or causality called a numerical value law",
+        "zero-jet orchestra called frozen after fixed nonzero cubic liveness",
+        "cE and G called sufficient to form a length or profile",
+        "reversible comparison equated with future causal propagation",
+        "bounded local counterfamily promoted to a global no-go",
+    ):
+        require(guard in by_id["G145"]["forbidden_regression"], f"G145 guard absent: {guard}")
+    require(
+        by_id["G145"]["controlling_source"]
+        == "udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/AUDIT_REPORT.md",
+        "G145 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2867,7 +2860,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G144-extended premise guards; PASS: 131-row premise "
+        "PASS: G145-extended premise guards; PASS: 132-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

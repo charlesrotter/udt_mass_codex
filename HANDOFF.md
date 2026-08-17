@@ -14,29 +14,23 @@ algebra is `VERIFIED_WITH_CAVEATS`; it selects neither network, values, nor metr
 
 The active dependency chain is:
 
-1. G129: full pullbacks recover `g` iff the tangent span has rank ten.
-2. G130: co-presence supplies membership, not query/value assignment.
-3. G131: terminal pair scalars recover only the positive conformal class.
-4. G132: common scale is retained, not sourced; `c_E,G_obs` are anchors.
-5. G133: fixed `K` owns internal density only; supplied pair density descends on a common atlas;
-   `kappa_pair` needs matched calibration; full `g` owns a symmetric bivector area bilinear.
-6. G134: area data recover `g` up to fixed sign on a rank-ten, codimension eleven locus.
-7. G135--G137 (G136 classification): each pair owns `chi=tanh(phi_pair)`; Charles adopted its
-   same-Mobius unit-slope position chart.
-8. G138--G139: endpoint descent means zero matched-cycle residuals; endpoint position and route
-   transport remain separately typed, so route holonomy may survive.
-9. G140: constant-metric pullback faithfulness does not imply positional congruence; terminal
-   `bar_phi` is unoriented and all eight supplied sign lifts fail.
-10. G141/G142/G143/G144: `C_BA=R_B M_BA R_A^-1` is invariant. One supplied calibrated query chart owns
-    identity carry. A branch-resolved embedded overlap owns `psi=F_beta^-1 o F_alpha` and `J=dpsi`;
-    the total is Lorentz-isometric and becomes identity in the positive-triangular same-event gauge.
-    Shared endpoint observers alone do not create overlap or carry; distinct sheets stay labelled.
+1. G129--G134: rank ten pullbacks recover `g`; scalar-only data stop at its positive conformal
+   class. Pair density descends on overlaps, and the bivector area bilinear recovers `g` up to the
+   fixed sign. Common scale is retained, not sourced; the codimension eleven locus is not evolution.
+2. G135--G139: Charles provisionally adopted the native unit-slope Mobius position chart. Signed
+   `x/X_max=tanh(phi_pair)` composes within supplied congruent families; route transport is distinct.
+3. G140--G144: a supplied chart or genuine embedded overlap owns presentation carry. Shared endpoint
+   observers do not glue sheets; carry is not another physical mechanism.
+4. G145: fresh adversarial repair passed. Rank-complete full-pullback valuation determines the
+   metric component on the supplied 4D base atlas. The labelled query atlas, calibration, numerical
+   valuation, and physical realization remain supplied/open. Opposite-curvature survivors pass the
+   same regular coherence and local-causal gates with all nine non-`phi` coframe fields live.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
 After orientation, open `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`
-or `udt_g144_cross_query_overlap_carry_descent_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
+or `udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
 `INDEX.md` routes the intervening chain.
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
@@ -79,8 +73,8 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Carry is closed kinematically. Bound whether co-presence, reciprocal position, composition, and
-causality constrain a coherent relation-sheet network. Keep `X_max`, proper length, realization,
-family, and history/solution law open.
+Compatibility and carry are closed at the current regular local level. Map and ponder whether
+complete time-live/global metric structure constrains numerical relation values, versus lawful
+initial/boundary/observational data. Keep `X_max`, proper length, and completion open.
 
 <!-- STARTUP_CURRENT_END -->

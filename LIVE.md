@@ -31,45 +31,28 @@ derived only on a supplied regular calibrated pair realization.
 
 ### Current dependency spine
 
-- **G129 — full-pullback faithfulness.** On a supplied common observer network, known embeddings,
-  full pullbacks, and overlap data recover the metric exactly iff the sampled tangent span has rank
-  ten. This is a conditional reconstruction theorem, not a law selecting the network or values.
-- **G130 — co-presence ownership.** Co-presence can mean co-membership in one supplied complete
-  solution. Reciprocity alone creates neither the query population nor its numerical valuations.
-- **G131 — scalar-only ceiling.** All terminal pair scalars on identically labelled planes over one
-  shared full-dimensional open domain recover only the positive conformal class. Common local scale
-  remains missing.
-- **G132 — scale typing.** The pair triplet retains supplied common scale but does not source it.
-  Fixed `K` removes only the internal reciprocal multiplier. `c_E` and `G_obs` are observed anchors;
-  their bridge to a physical metric history still requires lawful physical data.
-- **G133 — density and area typing.** Fresh adversarial follow-up passed. Fixed `K` owns only its
-  internal unimodular determinant density. A supplied pair metric owns
-  `nu_h=sqrt(-det h)|dy0 wedge dy1|`, which descends on a genuine common pair atlas.
-  `kappa_pair` is a log-density coefficient requiring matched endpoint calibration. Full `g`
-  derives the symmetric bivector area bilinear
-  `A_g(u wedge v,w wedge z)=g(u,w)g(v,z)-g(u,z)g(v,w)`, not one alternating two-form.
-- **G134 — full-area faithfulness.** Fresh adversarial repair follow-up passed. Complete `A_g`
-  determines complete `g` up to sign; the fixed UDT Lorentz convention removes that ambiguity. In
-  four dimensions the map has rank ten and local codimension eleven, constraining arbitrary
-  relation-plane data without selecting numerical values, evolution, or one universe.
-- **G135--G137 — relational position.** The complete pair owns `chi=tanh(phi_pair)`. G136 classifies
-  same-native-Mobius ordered charts as `tanh(k phi_pair)`. Charles adopted continuous strict order,
-  that native law, and separately chosen unit slope as a working physical-position constitution.
-  The adopted join derives signed `x/X_max=tanh(phi_pair)` and nonnegative `s/X_max=abs(tanh(phi_pair))`; only
-  signed position composes. `X_max` value, proper length, pair realization, and history remain open.
-- **G138/G139/G140/G141/G142/G143/G144 — relation transport.** Endpoint descent and route transport remain distinct. G140
-  rejects pullback-only congruence; G141--G142 derive invariant carrier/carry algebra. G143 proves
-  one supplied calibrated query chart owns identity carry. G144 proves a branch-resolved embedded
-  overlap owns its transition `psi=F_beta^-1 o F_alpha` and `J=dpsi`; its total calibrated carry is
-  Lorentz-isometric and is identity in the positive-triangular same-event gauge. Common endpoint
-  observers alone do not create an overlap or carry. Distinct sheets remain branch-labelled.
+- **G129--G134 — reconstruction.** Known rank ten full pullbacks recover full `g`; scalar-only
+  terminal data recover merely its positive conformal class. Common scale is retained, not sourced.
+  Pair density descends only on genuine overlaps; the bivector area bilinear recovers `g` up to the
+  fixed Lorentz sign on a codimension eleven metricity locus, not a numerical or evolution law.
+- **G135--G139 — position.** Charles provisionally adopted the classified native chart. On supplied
+  congruent complete pairs, signed `x/X_max=tanh(phi_pair)` composes by the Mobius law; unsigned
+  magnitude does not. Endpoint position and route transport remain separately typed.
+- **G140--G144 — carry.** Pullback faithfulness does not create positional congruence. A supplied
+  chart or genuine branch-resolved embedded overlap owns its presentation carry; common endpoint
+  observers do not glue distinct sheets. Carry is closed kinematically, not a missing force.
+- **G145 — relation/history descent.** `VERIFIED_WITH_CAVEATS` after fresh adversarial repair. A
+  rank-complete full-pullback valuation uniquely determines the metric component on its supplied
+  four-dimensional base atlas. Pair sheets remain two-dimensional and only carry their typed
+  relation data. The query atlas, calibrations, numerical valuation, and physical realization stay
+  supplied or `OPEN`. Two opposite-curvature histories survive the same coherence and local-causal
+  gates even with all nine non-`phi` complete-coframe fields live.
 
-Maximum conclusion: every supplied complete pair owns bounded position magnitude. A supplied query
-sheet, or a genuine overlap of two sheets, owns presentation carry. Carry is therefore
-not the missing physical mechanism. The physical relation family, values, history/solution law,
-completion, and `X_max` remain open.
+Maximum conclusion: the complete pullback valuation and its reconstructed metric need no second
+bridge. Coherence is a compatibility grammar, not a numerical score: it does not determine the
+query population, profile/evolution, global completion, or `X_max`.
 Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
-`udt_g144_cross_query_overlap_carry_descent_2026-08-17/`. Use `INDEX.md` for the intervening chain.
+`udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/`. Use `INDEX.md` for the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -114,9 +97,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Stop the carry excavation. Derive or sharply bound whether co-presence, reciprocal position,
-composition, and metric causality constrain a coherent relation-sheet network. Do not invent a
-selector; keep `X_max`, proper length, completion, and history open unless the metric supplies them.
+Stop compatibility and history-selector excavation. Map, then ponder, the remaining value problem:
+does complete time-live/global metric structure constrain the numerical relation valuation, or are
+initial/boundary/observational data legitimately required? Do not invent an action, source, fit, or
+selector. Keep `X_max`, proper length, and completion open unless derived.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under
