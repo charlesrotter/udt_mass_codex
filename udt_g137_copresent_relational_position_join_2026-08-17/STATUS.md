@@ -1,9 +1,9 @@
 # G137 status
 
 ```text
-PREREGISTERED__AWAITING_EXECUTION
+VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_PASS
 ```
 
-The owner clarification is approved as `CHOSE / WORKING_FOUNDATIONAL_CLARIFICATION`. The exact
-signed/nonnegative join and its certification gates are frozen in `PREREGISTRATION.md` before
-outcome execution. `CANON.md` is unchanged.
+The owner clarification is approved as `CHOSE / WORKING_FOUNDATIONAL_CLARIFICATION`. Production
+checks pass 21/21, an independent replay passes 37/37, and fresh adversarial review passed without
+repair. `CANON.md` is unchanged.

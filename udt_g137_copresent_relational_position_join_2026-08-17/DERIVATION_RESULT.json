@@ -1,0 +1,20 @@
+{
+  "checks_passed": 21,
+  "checks_total": 21,
+  "classification": "OWNER_ADOPTED_WORKING_POSITION_CONSTITUTION__SIGNED_AND_NONNEGATIVE_XMAX_JOIN_DERIVED_ON_SUPPLIED_REGULAR_COMPLETE_PAIRS__ORIENTATION_REQUIRED_FOR_COMPOSITION__XMAX_VALUE_PROPER_LENGTH_PAIR_REALIZATION_HISTORY_AND_GLOBAL_COMPLETION_OPEN",
+  "exact": {
+    "opposite_sign_magnitude_output": "0",
+    "q": "exp(-2*phi_pair)",
+    "s": "X_max*Abs(tanh(phi_pair))",
+    "same_sign_magnitude_output": "3/5",
+    "sigma": "Abs(tanh(phi_pair))",
+    "x": "X_max*tanh(phi_pair)",
+    "xi": "tanh(phi_pair)"
+  },
+  "open": [
+    "X_max numerical value dimensional owner profile and global realization",
+    "proper length areal radius and signal distance joins",
+    "pair realization and complete history",
+    "singular and null strata"
+  ]
+}
