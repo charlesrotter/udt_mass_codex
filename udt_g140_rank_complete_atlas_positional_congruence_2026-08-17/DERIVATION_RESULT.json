@@ -1,0 +1,72 @@
+{
+  "ambient_metric": "diag(-1,1,1,1)",
+  "calibration": {
+    "clock_unit": "tau_0=ell_0/c_E",
+    "coordinates": "dimensionless hatted variables",
+    "length_unit": "ell_0>0"
+  },
+  "checks": [
+    "nonclosing_design_rank_ten",
+    "closing_design_rank_ten",
+    "nonclosing_reconstructs_same_metric",
+    "closing_reconstructs_same_metric",
+    "nonclosing_pullback_(0, 1)", "closing_pullback_(0, 1)", "nonclosing_regular_(0, 1)", "closing_regular_(0, 1)",
+    "nonclosing_pullback_(0, 2)", "closing_pullback_(0, 2)", "nonclosing_regular_(0, 2)", "closing_regular_(0, 2)",
+    "nonclosing_pullback_(0, 3)", "closing_pullback_(0, 3)", "nonclosing_regular_(0, 3)", "closing_regular_(0, 3)",
+    "nonclosing_pullback_(1, 2)", "closing_pullback_(1, 2)", "nonclosing_regular_(1, 2)", "closing_regular_(1, 2)",
+    "nonclosing_pullback_(1, 3)", "closing_pullback_(1, 3)", "nonclosing_regular_(1, 3)", "closing_regular_(1, 3)",
+    "nonclosing_pullback_(2, 3)", "closing_pullback_(2, 3)", "nonclosing_regular_(2, 3)", "closing_regular_(2, 3)",
+    "right_tetrahedron_lengths",
+    "regular_tetrahedron_unit_lengths",
+    "nonclosing_face_residuals_log2_over4",
+    "closing_face_residuals_zero",
+    "no_inverse_sign_assignment_closes_nonclosing_data",
+    "nonclosing_mobius_residual",
+    "nonclosing_q_cycle_product",
+    "identical_metric_history",
+    "different_terminal_magnitude_networks_same_metric",
+    "source_hash_udt_uncompressed_pair_kernel_reconstruction_2026-08-14",
+    "source_hash_udt_g129_copresent_relational_network_faithfulness_2026-08-16",
+    "source_hash_udt_complete_observer_network_assembly_from_scratch_2026-08-11",
+    "source_hash_udt_g137_copresent_relational_position_join_2026-08-17",
+    "source_hash_udt_g138_copresent_relational_position_network_descent_2026-08-17",
+    "source_hash_udt_g139_endpoint_position_transport_join_2026-08-17"
+  ],
+  "checks_passed": 43,
+  "checks_total": 43,
+  "closing": {
+    "all_face_residuals": "0",
+    "all_squared_lengths": "1",
+    "design_rank": 10
+  },
+  "nonclosing": {
+    "design_rank": 10,
+    "face_residuals": {
+      "ABC": "log(2)/4",
+      "ABD": "log(2)/4",
+      "ACD": "log(2)/4",
+      "BCD": "log(2)/4"
+    },
+    "mobius_residual": "tanh(log(2)/4)",
+    "q_cycle_product": "sqrt(2)/2",
+    "inverse_sign_assignments_tested": 8,
+    "closing_sign_assignments": 0,
+    "squared_lengths": {
+      "AB": "1", "AC": "1", "AD": "1", "BC": "2", "BD": "2", "CD": "2"
+    }
+  },
+  "source_hashes": {
+    "udt_complete_observer_network_assembly_from_scratch_2026-08-11/EXACT_DERIVATION.md": "3f8362f799137ff0acc3d89ddb8024d10f765abc3f4aa68c6a23fd6d280063c6",
+    "udt_g129_copresent_relational_network_faithfulness_2026-08-16/EXACT_DERIVATION.md": "a2474b598890a89a97ea5d3086e5cb8b595f4f80e3c60db7bbc4530efbb7f783",
+    "udt_g137_copresent_relational_position_join_2026-08-17/EXACT_DERIVATION.md": "099f58050dfec4cfdd057a84590acc92c928c31b22fc5fc3af2d51c5cbddac0f",
+    "udt_g138_copresent_relational_position_network_descent_2026-08-17/EXACT_DERIVATION.md": "0c45c213e995b0dba9275ea4c2f9270400c2fe1d0fa420654f3407e76a2ac97f",
+    "udt_g139_endpoint_position_transport_join_2026-08-17/EXACT_DERIVATION.md": "91478f45c565bf469e2b3b97b32df1a7503029b8bc91c3e2dd7d998b9d95d6df",
+    "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md": "45fa4a9a2a7ff911e3abf20ceae33eb88b2622c9201b4e0c63e9f63693fb9a13"
+  },
+  "status": "PASS",
+  "typing": {
+    "cycle_input": "separately supplied antisymmetric ordered cochain delta",
+    "rank_scope": "pooled constant-metric coefficient reconstruction",
+    "terminal_readout": "unoriented bar_phi_{ij}=log(|Delta p_hat_ij|^2)/4"
+  }
+}

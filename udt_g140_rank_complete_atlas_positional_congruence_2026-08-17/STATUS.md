@@ -1,5 +1,6 @@
 # G140 status
 
-`PREREGISTERED__NO_OUTCOME_YET`
+`VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_FOLLOWUP_PASS`
 
-The exact same-metric closing/nonclosing rank-complete witness pair is registered before execution.
+Production passes 43/43 and independent replay passes 15/15 after the registered type repairs.
+Fresh repair-only adversarial follow-up passes.

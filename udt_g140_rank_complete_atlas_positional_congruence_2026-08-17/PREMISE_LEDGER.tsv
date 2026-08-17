@@ -1,12 +1,14 @@
 item	status	use	forbidden_promotion
-Minkowski_metric	CHOSE_EXACT_CONTROL	one common Lorentz history for both witnesses	physical UDT history or GR field-equation import
-c_E	OBSERVED_ANCHOR_SET_TO_UNIT	shared clock/ruler units	history selector or Xmax owner
+Minkowski_metric	CHOSE_EXACT_CONTROL	one common constant Lorentz metric for both controls	physical UDT history or GR field-equation import
+c_E	OBSERVED_CALIBRATION	defines tau_0=ell_0/c_E	history selector Xmax owner or absolute length
+ell_0	CHOSE_SHARED_ARBITRARY_UNIT	dimensional calibration common to every pair	physical scale Xmax or fitted coefficient
 observer_vertices	FREE_AND_EXPLORED	define two exact static query networks	physical observer population
-affine_pair_strips	FREE_AND_EXPLORED	regular full-pullback witnesses	preferred routes or UDT proper distances
+affine_pair_strips	FREE_AND_EXPLORED	regular full-pullback controls	preferred routes or UDT proper distances
 full_pullback	DERIVED_CONDITIONALLY	h equals F pullback g	physical pair-family ownership
-rank_ten	DERIVED_CRITERION	metric faithfulness of supplied pair network	positional congruence or value selection
-terminal_phi_pair	DERIVED_ON_SUPPLIED_REGULAR_CALIBRATED_PAIR	cycle test input	universal observer-to-depth assignment
+pooled_rank_ten	DERIVED_BOUNDED	constant metric coefficient faithfulness via Minkowski affine identification	generic G129 pointwise atlas positional congruence or value selection
+terminal_bar_phi	DERIVED_ON_SUPPLIED_REGULAR_CALIBRATED_PAIR	unoriented terminal scalar from h	ordered inverse or universal observer-to-depth assignment
+ordered_delta	SUPPLIED_G137_G138_LIFT	antisymmetric cochain used for cycle test	metric-derived physical inverse query
 endpoint_position_owner	CHOSE_PROVISIONAL_WORKING_FOUNDATIONAL_CLARIFICATION	classifies admitted congruent families	metric equation canon or family selector
-X_max	OPEN_NOT_USED	outside normalized depth closure	numerical value wall center diameter or proper length
-singular_timelive_global	OPEN_OMITTED	outside bounded exact affine arena	classified by finite witness
-downstream_physics	OPEN_OMITTED	no light EM observation bootstrap action matter mass or dynamics	inferred from query-network counterexample
+X_max	OPEN_NOT_USED	outside normalized closure test	numerical value wall center diameter or proper length
+singular_timelive_global	OPEN_OMITTED	outside bounded exact affine arena	classified by finite control
+downstream_physics	OPEN_OMITTED	no light EM observation bootstrap action matter mass or dynamics	inferred from query-network controls
