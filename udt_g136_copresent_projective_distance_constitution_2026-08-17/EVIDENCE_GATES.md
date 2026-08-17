@@ -10,6 +10,10 @@
 4. **Premise audit:** yes for reciprocal `c_E`, dual Reciprocity, positional composition, complete
    pair readout, current co-presence semantics, `X_max`, and the physical-distance ownership boundary.
 
+Verifier maintenance: the manifest freezes the append-only premise registry through G135. The
+independent checker verifies that historical prefix byte-for-byte, so later rows do not invalidate
+G136 and cannot conceal a mutation inside its frozen source scope.
+
 Maximum evidence grade before fresh adversarial review:
 
 ```text

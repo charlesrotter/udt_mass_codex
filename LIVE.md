@@ -29,7 +29,7 @@ zero-order diagnostic only; it does not own channel attribution, regime evolutio
 history. Pointwise `phi` is a presentation potential. Terminal `phi_pair` and pair `c_eff/c_E` are
 derived only on a supplied regular calibrated pair realization.
 
-### Current dependency spine — G129 through G135
+### Current dependency spine — G129 through G136
 
 - **G129 — full-pullback faithfulness.** On a supplied common observer network, known embeddings,
   full pullbacks, and overlap data recover the metric exactly iff the sampled tangent span has rank
@@ -52,12 +52,11 @@ derived only on a supplied regular calibrated pair realization.
   determines complete `g` up to sign; the fixed UDT Lorentz convention removes that ambiguity. In
   four dimensions the map has rank ten and local codimension eleven, constraining arbitrary
   relation-plane data without selecting numerical values, evolution, or one universe.
-- **G135 — projective pair readout.** Fresh zero-context repair follow-up passed. After the complete
-  orchestra forms `h`, its clock/ruler densities own
-  `chi=(L-T)/(L+T)=(1-q)/(1+q)=tanh(phi_pair)`. This is the reciprocal kernel's common/contrast
-  projective slope and composes by the Mobius law on matched additive depths. It is unique only in
-  the anchored first-degree projective class. Physical separation, proper length, common scale,
-  `X_max`, the pair realization, and history remain open or conditional.
+- **G135--G136 — projective position.** The complete pair owns
+  `chi=(L-T)/(L+T)=tanh(phi_pair)`. Every continuous increasing coordinate carrying the same native
+  Mobius law is `tanh(k phi_pair)`; a separately chosen unit position slope fixes `k=1`. Neither
+  `c_E` nor the chosen `phi` unit does so. Frozen sources do not yet say physical position has this
+  type; proper length, `X_max`, pair realization, and history remain open.
 
 Maximum conclusion: the metric now owns a stronger hierarchy of conditional relational readouts,
 conformal reconstruction, density descent, area comparison, and one native bounded projective
@@ -75,6 +74,7 @@ Primary sources:
 - `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`
 - `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
+- `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, the premise registry, and
@@ -100,6 +100,8 @@ running. Observations remain comparison/falsification anchors; they do not selec
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
 - `chi=tanh(phi_pair)`: `DERIVED_IN_ANCHORED_PROJECTIVE_CLASS` on a supplied complete pair;
   operational physical-separation identification remains `CONDITIONAL/OPEN`.
+- continuous same-native-Mobius position charts: `tanh(k phi_pair)`; `k=1` requires a separately
+  chosen position-unit slope and physical use still requires owner clarification.
 - angular/screen/mixing data enter before terminal readout.
 - `X_max`: `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair dilation asymptote;
   value and realization `OPEN`; not a wall, center, seal, or boundary term.
@@ -119,13 +121,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G135 exposes the smallest current conceptual joint. PONDER with Charles whether the founded phrase
-“positional comparison” is intended to mean the anchored projective readout of the completed
-clock/ruler pair. If explicitly adopted, preregister the conditional join
-`signed x/X_max=chi` and `nonnegative separation/X_max=abs(chi)` while keeping the dimensional
-`X_max` value and pair/history ownership open. Do not launch another ownership census, fit, seam
-atlas, preferred-path hunt, or invented mechanism.
-
+G136 leaves one owner decision before more derivation: does physical normalized position mean a
+continuous increasing coordinate of the completed reciprocal relation, carrying its native Mobius
+law with separately chosen unit slope? If adopted, `signed x/X_max=tanh(phi_pair)` follows while
+dimensional `X_max`, proper length, pair/history ownership, and global completion remain open. Do
+not launch another census, fit, seam atlas, preferred-path hunt, or invented mechanism.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

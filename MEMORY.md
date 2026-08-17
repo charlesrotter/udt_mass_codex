@@ -22,6 +22,8 @@ Current dependency spine:
 - G135: each supplied regular complete pair owns the anchored projective readout
   `chi=(L-T)/(L+T)=tanh(phi_pair)` with Mobius composition on matched depths; physical normalized
   separation, common scale, and `X_max` remain open.
+- G136: continuous increasing same-native-Mobius position charts are `tanh(k phi_pair)`; separately
+  chosen unit position slope fixes `k=1`, while physical adoption remains open.
 
 Physical network soldering and values, the complete history/solution law, global completion,
 observations, and `X_max` remain open.
@@ -53,10 +55,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G135 exposes the smaller next joint: decide whether founded “positional comparison” means the
-anchored projective readout of the completed clock/ruler pair. If adopted, preregister the
-conditional signed/nonnegative `X_max` join without promoting the dimensional scale, pair
-realization, or history.
+G136 leaves one owner decision: does physical normalized position carry continuous strict order,
+the completed relation's native Mobius law, and separately chosen unit slope? If adopted,
+`x/X_max=tanh(phi_pair)` follows without promoting scale, proper length, pair realization, or history.
 
 ## Historical route
 

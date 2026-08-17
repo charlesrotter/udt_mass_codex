@@ -20,6 +20,25 @@ def mobius(a: float, b: float) -> float:
     return (a + b) / (1.0 + a * b)
 
 
+def frozen_source_bytes(path: str) -> bytes:
+    """Return bytes in the exact historical source scope named by the manifest.
+
+    The current premise registry is append-only. G136 froze that source *through
+    G135*, so later rows must neither invalidate the historical check nor conceal
+    a mutation at or before G135.
+    """
+    payload = (ROOT / path).read_bytes()
+    if path != "CURRENT_SCIENTIFIC_PREMISES.tsv":
+        return payload
+
+    frozen = []
+    for line in payload.splitlines(keepends=True):
+        frozen.append(line)
+        if line.startswith(b"G135\t"):
+            return b"".join(frozen)
+    raise AssertionError("G135 row absent from append-only premise registry")
+
+
 def main() -> None:
     passed = 0
     total = 0
@@ -48,7 +67,7 @@ def main() -> None:
         path, digest, _ = line.split("\t", 2)
         manifest[path] = digest
     for path, expected in manifest.items():
-        actual = hashlib.sha256((ROOT / path).read_bytes()).hexdigest()
+        actual = hashlib.sha256(frozen_source_bytes(path)).hexdigest()
         check(actual == expected)
 
     check("physical_position_equals_chi\tOPEN" in (HERE / "PREMISE_LEDGER.tsv").read_text(encoding="utf-8"))
