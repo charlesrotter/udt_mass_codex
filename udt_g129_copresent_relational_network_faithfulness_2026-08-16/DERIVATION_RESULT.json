@@ -1,0 +1,127 @@
+{
+  "axial_kernel_basis": [
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ]
+  ],
+  "checks": {
+    "all_six_pair_metrics_regular_lorentzian": true,
+    "axial_kernel_exactly_spatial_cross_terms": true,
+    "exact_metric_reconstruction": true,
+    "faithful_network_detects_perturbation": true,
+    "frame_pullbacks_covariant": true,
+    "frame_rank_preserved": true,
+    "generic_metric_lorentz": true,
+    "invisible_perturbation_preserves_axial_pullbacks": true,
+    "invisible_perturbation_retains_lorentz_signature": true,
+    "overlap_corruption_detected": true,
+    "overlap_metric_descent": true,
+    "overlap_transition_cocycle": true,
+    "quiet_endpoint_bump_sample_regression": true,
+    "rank_deficient_network_hides_curved_nonisometric_germ": true,
+    "six_plane_rank_ten": true,
+    "source_hashes_match": true,
+    "terminal_phi_scalar_nonfaithful": true,
+    "three_axial_rank_seven": true
+  },
+  "curved_counterexample_ricci_squared_at_origin": "2*a**2",
+  "generic_metric_leading_pivots": [
+    "-4",
+    "109/36",
+    "1651322/329725",
+    "13838058198266/1975979336149"
+  ],
+  "landing": "FAITHFUL_IFF_PAIR_PLANE_SPAN_HAS_RANK_TEN",
+  "maximum_conclusion": "On the declared regular pointwise arena, full calibrated pair pullbacks reconstruct the Lorentz metric exactly iff their restriction design has rank ten. Compatible full-rank local reconstructions descend uniquely up to chart isometry on the declared regular cover. Rank-deficient query networks retain exact invisible metric and curved germ fibers. Terminal reciprocal depth, quiet-middle agreement, and endpoint behavior alone are not faithful and do not select a physical universe.",
+  "perturbed_metric_leading_pivots": [
+    "-4",
+    "109/36",
+    "1616012/329725",
+    "15476160028429/2209973978576"
+  ],
+  "production_check_count": 18,
+  "rank_atlas": [
+    {
+      "faithful": false,
+      "family": "one_axial_plane",
+      "kernel_dimension": 7,
+      "plane_count": 1,
+      "rank": 3,
+      "row_count": 3
+    },
+    {
+      "faithful": false,
+      "family": "two_axial_planes",
+      "kernel_dimension": 5,
+      "plane_count": 2,
+      "rank": 5,
+      "row_count": 6
+    },
+    {
+      "faithful": false,
+      "family": "three_axial_planes",
+      "kernel_dimension": 3,
+      "plane_count": 3,
+      "rank": 7,
+      "row_count": 9
+    },
+    {
+      "faithful": false,
+      "family": "axial_plus_e1e2",
+      "kernel_dimension": 2,
+      "plane_count": 4,
+      "rank": 8,
+      "row_count": 12
+    },
+    {
+      "faithful": false,
+      "family": "axial_plus_e1e2_e1e3",
+      "kernel_dimension": 1,
+      "plane_count": 5,
+      "rank": 9,
+      "row_count": 15
+    },
+    {
+      "faithful": true,
+      "family": "six_clock_ruler_planes",
+      "kernel_dimension": 0,
+      "plane_count": 6,
+      "rank": 10,
+      "row_count": 18
+    }
+  ],
+  "status": "PASS"
+}

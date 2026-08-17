@@ -64,7 +64,7 @@ is externally verified: every finite regular central-spherical time-live branch 
 `|det D_sky|=R^2`. G120 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/`
 is blind verified: imported transfer gives `d_L=Z^2R` and preserves both SNe replays. G121 is blind verified with conditional pair-scalar closure only. G122
 `udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/` is blind verified after repairs: terminal
-pair and causal phase are distinct. G123 derives the supplied common-event chart graph. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only to compare/non-regress frozen P1's combined score—SNe owns no branch. G126 stops direct R5 inversion. G127 `udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/` is blind verified: one supplied reciprocal spherical metric at one finite-radius event gives the symmetry-radial isotropic screen and generic tilted tidal contrast `sin(alpha)^2 Xi`; `D'D^-1` then gives optical shear with no appended angular law, coefficient, `mu`, second history, SNe, or R5 input. G128 `udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/` extends this across 16 finite affine branches in the complete spherical base: all radial controls remain isotropic and all three nonflat supplied families retain tilted response. Its second follow-up verified all four invalid-`N,L` guards and returned `SECOND_FOLLOWUP_PASS`; physical history, universal query, nonspherical completion, and observations remain open.
+pair and causal phase are distinct. G123 derives the supplied common-event chart graph. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only to compare/non-regress frozen P1's combined score—SNe owns no branch. G126 stops direct R5 inversion. G127 derives the local same-history radial/tilted screen bridge; G128 extends it across 16 finite affine complete-spherical-base controls and closes at `SECOND_FOLLOWUP_PASS`. G129 `udt_g129_copresent_relational_network_faithfulness_2026-08-16/` is fresh-adversarial-follow-up passed: pair pullbacks reconstruct the ambient metric iff their restriction map has rank ten; six explicit clock-ruler planes suffice, whereas axial rank seven hides nonisometric curved germs. A supplied complete compatible network therefore needs no second history selector. Whether founding co-presence owns that network and all its values, plus global extension and the physical solution, remains open.
 
 ### What is running
 
@@ -125,6 +125,6 @@ After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for 
 Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell draft, local pair-response package, or local G88 package without a specific dispatch. Preserve unrelated dirt; directory presence does not prove banking.
 
 ### Next bounded action
-G128's bounded complete-spherical-base review gate is externally closed. Next map the smallest
-nonspherical complete-coframe history. Archive: `archive/startup_surface_2026-08-14/`.
+G129's bounded network-faithfulness gate is closed. Next test whether founding co-presence owns the
+rank-complete calibrated pair network and values. Archive: `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

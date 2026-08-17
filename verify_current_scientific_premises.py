@@ -172,6 +172,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G126" in block, f"G126 angular same-query bridge result absent: {name}")
         require("G127" in block, f"G127 same-history screen-emergence result absent: {name}")
         require("G128" in block, f"G128 finite-path screen-persistence result absent: {name}")
+        require("G129" in block, f"G129 relational-network faithfulness result absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -271,6 +272,11 @@ def validate_startup_surface(root: Path) -> None:
             f"G128 package route absent: {name}",
         )
         require(
+            "udt_g129_copresent_relational_network_faithfulness_2026-08-16/" in block
+            or "G129" in block,
+            f"G129 package route absent: {name}",
+        )
+        require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
             or "whiteboard" in block.lower(),
             f"orchestra-score next-gate route absent: {name}",
@@ -356,6 +362,7 @@ def validate_startup_surface(root: Path) -> None:
             "G126",
             "G127",
             "G128",
+            "G129",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -384,6 +391,7 @@ def validate_startup_surface(root: Path) -> None:
             "G126",
             "G127",
             "G128",
+            "G129",
         ),
         "README.md": (
             "LIVE.md",
@@ -495,9 +503,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 115, "premise registry must contain exactly 115 rows")
+    require(len(rows) == 116, "premise registry must contain exactly 116 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 115, "duplicate premise id")
+    require(len(by_id) == 116, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2411,6 +2419,33 @@ def main() -> None:
         == "udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/AUDIT_REPORT.md",
         "G128 source changed",
     )
+    require(
+        by_id["G129"]["current_status"].startswith(
+            "FRESH_ADVERSARIAL_FOLLOWUP_PASS__PAIR_NETWORK_METRIC_FAITHFUL_IFF_RANK_TEN"
+        ),
+        "G129 relational-network faithfulness result regressed or promoted",
+    )
+    require(by_id["G129"]["epistemic_label"] == "MIXED", "G129 label changed")
+    require(
+        "founding ownership of rank-complete calibrated pair family"
+        in by_id["G129"]["open_scope"],
+        "G129 founding-ownership boundary absent",
+    )
+    require(
+        "rank-complete reconstruction called derivation of network values"
+        in by_id["G129"]["forbidden_regression"],
+        "G129 supplied-values guard absent",
+    )
+    require(
+        "quiet middle and endpoint behavior called unique continuation"
+        in by_id["G129"]["forbidden_regression"],
+        "G129 continuation guard absent",
+    )
+    require(
+        by_id["G129"]["controlling_source"]
+        == "udt_g129_copresent_relational_network_faithfulness_2026-08-16/AUDIT_REPORT.md",
+        "G129 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2489,7 +2524,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G128-extended premise guards; PASS: 115-row premise "
+        "PASS: G129-extended premise guards; PASS: 116-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

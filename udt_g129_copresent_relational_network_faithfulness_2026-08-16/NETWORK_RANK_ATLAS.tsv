@@ -1,0 +1,7 @@
+family	plane_count	row_count	rank	kernel_dimension	faithful
+one_axial_plane	1	3	3	7	False
+two_axial_planes	2	6	5	5	False
+three_axial_planes	3	9	7	3	False
+axial_plus_e1e2	4	12	8	2	False
+axial_plus_e1e2_e1e3	5	15	9	1	False
+six_clock_ruler_planes	6	18	10	0	True

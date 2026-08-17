@@ -1,0 +1,22 @@
+{
+  "axial_rank": 7,
+  "checks": {
+    "independent_all_six_pair_metrics_regular_lorentzian": true,
+    "independent_axial_invisible_perturbation": true,
+    "independent_base_lorentz": true,
+    "independent_curved_germ_invariant_nonzero": true,
+    "independent_exact_reconstruction": true,
+    "independent_full_network_detects_perturbation": true,
+    "independent_overlap_witness_and_corruption": true,
+    "independent_perturbed_lorentz": true,
+    "independent_quiet_endpoint_bump_sample_regression": true,
+    "independent_six_plane_rank_ten": true,
+    "independent_terminal_scalar_nonfaithful": true,
+    "independent_three_axial_rank_seven": true
+  },
+  "full_rank": 10,
+  "independent_check_count": 12,
+  "landing": "FAITHFUL_IFF_PAIR_PLANE_SPAN_HAS_RANK_TEN",
+  "ricci_squared_at_origin_for_a_3_over_5": "18/25",
+  "status": "PASS"
+}

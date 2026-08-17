@@ -122,7 +122,7 @@ supplied source congruence permits invariant frequency `(b-q)R`; physical histor
 
 G116 derives `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)` locally without a coefficient; G117 preserves frozen P1 dual-SNe numerics conditionally.
 
-G118-G119 derive `d_A=R`; G120 preserves both SNe comparisons under imported transfer. G121, G122, and G123 separate scalar closure, terminal/phase, and incidence. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only as a comparison and owns no branch/history. G126 stops direct R5 inversion. G127 `udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/` blind-verifies a local same-history bridge: one reciprocal spherical metric produces the radial isotropic and generic tilted `sin(alpha)^2 Xi` tidal screens, with optical shear derived from `D'D^-1` and no appended angular sector. G128 `udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/` observes the bridge persisting over a finite affine interval in all three nonflat supplied complete-spherical-base families. Its second follow-up verified all four invalid-`N,L` guards and returned `SECOND_FOLLOWUP_PASS`; the complete nonspherical extension remains open.
+G118-G119 derive `d_A=R`; G120 preserves both SNe comparisons under imported transfer. G121, G122, and G123 separate scalar closure, terminal/phase, and incidence. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only as comparison. G126 stops direct R5 inversion. G127 derives the local same-history radial/tilted bridge; G128 observes finite-path persistence and closes at `SECOND_FOLLOWUP_PASS`. G129 `udt_g129_copresent_relational_network_faithfulness_2026-08-16/` proves bounded regular pair-network faithfulness iff the restriction map has rank ten: six explicit clock-ruler planes reconstruct all ten metric components, while axial rank seven hides nonisometric curved germs. Thus a supplied complete compatible network requires no separate history selector; founding ownership of the network and values, global extension, and physical solution remain open.
 
 ## Macro observational anchors
 
@@ -161,9 +161,9 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Next: map the smallest genuinely nonspherical complete-coframe extension downstream of G128's
-externally closed bounded finite-path gate; do not fit an observational pattern or select a
-physical history.
+Next: test whether founding co-presence owns a rank-complete calibrated pair network and its values,
+or only imposes compatibility on a supplied network. Do not invent a selector, fit observations,
+or infer the physical global solution from bounded faithfulness.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 
