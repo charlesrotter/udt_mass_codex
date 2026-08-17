@@ -214,6 +214,8 @@ def main():
         "EXTERNAL_REVIEW_ADJUDICATION.md",
         "EXTERNAL_FOLLOWUP_REVIEW_RAW.md",
         "EXTERNAL_FOLLOWUP_REVIEW_ADJUDICATION.md",
+        "EXTERNAL_SECOND_FOLLOWUP_REVIEW_RAW.md",
+        "EXTERNAL_SECOND_FOLLOWUP_REVIEW_ADJUDICATION.md",
     ):
         checks[f"present::{name}"] = (HERE / name).is_file()
 

@@ -19,9 +19,10 @@
 9. **Registered repairs:** the independent route now uses preregistered `h=2e-4`; both solvers
    enforce the radius/pole terminal events and reject nonfinite or nonpositive metric states.
    Corrected production, independent, and package replays pass.
-10. **First follow-up:** `FOLLOWUP_FAIL` on missing explicit positive-`N,L` test coverage only; it
-    verified both solver repairs and retained the original landing. Production and independent
-    invalid-`N` and invalid-`L` rejection checks now pass; second follow-up is open.
+10. **Follow-up chain:** the first follow-up returned `FOLLOWUP_FAIL` on missing explicit
+    positive-`N,L` test coverage only while retaining the landing. The second follow-up verified
+    all four production/independent invalid-`N,L` checks as non-vacuous and passing, and returned
+    `SECOND_FOLLOWUP_PASS` with no blocking error.
 
 Current maximum status:
-`EXTERNAL_FOLLOWUP_FAIL_TEST_COVERAGE_ONLY__POSITIVE_N_L_GUARD_COVERAGE_ADDED_AND_INTERNALLY_VERIFIED__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED__SECOND_FOLLOWUP_OPEN__PHYSICAL_HISTORY_NONSPHERICAL_COMPLETION_AND_OBSERVATIONS_OPEN`.
+`EXTERNALLY_VERIFIED_BOUNDED__SECOND_FOLLOWUP_PASS__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED__PHYSICAL_HISTORY_NONSPHERICAL_COMPLETION_AND_OBSERVATIONS_OPEN`.

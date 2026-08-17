@@ -18,6 +18,8 @@
     "present::EXTERNAL_FOLLOWUP_REVIEW_RAW.md": true,
     "present::EXTERNAL_REVIEW_ADJUDICATION.md": true,
     "present::EXTERNAL_REVIEW_RAW.md": true,
+    "present::EXTERNAL_SECOND_FOLLOWUP_REVIEW_ADJUDICATION.md": true,
+    "present::EXTERNAL_SECOND_FOLLOWUP_REVIEW_RAW.md": true,
     "present::LAY_REPORT.md": true,
     "present::PREMISE_LEDGER.tsv": true,
     "present::PREREGISTRATION.md": true,

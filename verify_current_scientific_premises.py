@@ -2377,7 +2377,7 @@ def main() -> None:
     )
     require(
         by_id["G128"]["current_status"].startswith(
-            "EXTERNAL_FOLLOWUP_FAIL_TEST_COVERAGE_ONLY__POSITIVE_N_L_GUARD_COVERAGE_ADDED_AND_INTERNALLY_VERIFIED"
+            "EXTERNALLY_VERIFIED_BOUNDED__SECOND_FOLLOWUP_PASS"
         ),
         "G128 finite-path screen result regressed or promoted",
     )
@@ -2402,9 +2402,9 @@ def main() -> None:
         "G128 global-caustic guard absent",
     )
     require(
-        "positive-scale test coverage called external pass before second follow-up"
+        "bounded second-followup pass called universal physical validation"
         in by_id["G128"]["forbidden_regression"],
-        "G128 second-followup guard absent",
+        "G128 bounded-second-followup guard absent",
     )
     require(
         by_id["G128"]["controlling_source"]

@@ -3,7 +3,7 @@
 Date: 2026-08-16
 
 Status:
-`EXTERNAL_FOLLOWUP_FAIL_TEST_COVERAGE_ONLY__POSITIVE_N_L_GUARD_COVERAGE_ADDED_AND_INTERNALLY_VERIFIED__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED__SECOND_FOLLOWUP_OPEN__PHYSICAL_HISTORY_NONSPHERICAL_COMPLETION_AND_OBSERVATIONS_OPEN`
+`EXTERNALLY_VERIFIED_BOUNDED__SECOND_FOLLOWUP_PASS__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED__PHYSICAL_HISTORY_NONSPHERICAL_COMPLETION_AND_OBSERVATIONS_OPEN`
 
 ## Result
 
@@ -48,8 +48,9 @@ matter, mass, or signalling.
   polar singular set; it is not a global-chart proof.
 - the first corrected follow-up verified both solver repairs and the unchanged bounded landing, but
   returned `FOLLOWUP_FAIL` because package verification had not separately forced invalid `N,L`;
-- production and independent invalid-`N` and invalid-`L` rejection checks now pass; second follow-up
-  remains open.
+- production and independent invalid-`N` and invalid-`L` rejection checks pass;
+- the second follow-up independently verified that all four checks are non-vacuous and returned
+  `SECOND_FOLLOWUP_PASS` with no blocking error.
 
 ## Maximum justified conclusion
 
