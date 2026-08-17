@@ -72,6 +72,12 @@ The exact non-collinear witness is
 u=(1/2,0,0),\qquad v=(0,1/3,0).
 \]
 
+The exact associativity-control triple extends it by
+
+\[
+w=(0,0,1/4).
+\]
+
 The Lorentz-boost matrix built from `u` is also a control for one narrow algebraic fact: products of
 non-collinear symmetric boost matrices need not be symmetric and therefore contain a rotational
 factor. This does **not** identify G137 depth with physical Lorentz rapidity or select the control as
