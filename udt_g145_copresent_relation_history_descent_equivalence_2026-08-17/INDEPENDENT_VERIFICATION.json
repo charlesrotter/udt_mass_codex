@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checks_passed": 23,
+  "checks_total": 23,
+  "checks": [
+    "independent_six_plane_rank_ten",
+    "independent_overlap_cocycle",
+    "independent_pullback_descent",
+    "independent_four_dimensional_base_chart_cocycle",
+    "independent_four_dimensional_base_metric_descent",
+    "independent_q_composition",
+    "independent_q_reversal",
+    "independent_signed_position_mobius_composition",
+    "independent_linear_profile_negative_curvature",
+    "independent_quadratic_profile_positive_curvature",
+    "independent_active_orchestra_preserves_marked_two_jet",
+    "independent_cE_G_no_length_monomial",
+    "independent_source_hash_udt_founding_phi_ownership_morphism_audit_2026-08-05",
+    "independent_source_hash_udt_conceptual_object_type_dependency_audit_2026-08-05",
+    "independent_source_hash_udt_uncompressed_pair_kernel_reconstruction_2026-08-14",
+    "independent_source_hash_udt_g121_copresent_reciprocal_causal_history_consistency_2026-08-16",
+    "independent_source_hash_udt_g129_copresent_relational_network_faithfulness_2026-08-16",
+    "independent_source_hash_udt_g130_copresence_rank_complete_network_ownership_2026-08-16",
+    "independent_source_hash_udt_g134_full_metric_area_history_reframe_audit_2026-08-17",
+    "independent_source_hash_udt_g137_copresent_relational_position_join_2026-08-17",
+    "independent_source_hash_udt_g138_copresent_relational_position_network_descent_2026-08-17",
+    "independent_source_hash_udt_g139_endpoint_position_transport_join_2026-08-17",
+    "independent_source_hash_udt_g144_cross_query_overlap_carry_descent_2026-08-17"
+  ],
+  "source_count": 11,
+  "witness_curvatures": {
+    "linear": "-4",
+    "quadratic": "4"
+  },
+  "curvature_method": "direct_fraction_christoffel_ricci_contraction",
+  "independently_live_complete_coframe_fields": 9
+}
