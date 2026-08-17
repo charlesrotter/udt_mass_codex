@@ -17,6 +17,8 @@ HERE = Path(__file__).resolve().parent
 LAM_END = 0.8
 SAMPLES = np.linspace(0.0, LAM_END, 161)
 ANGLES = (0.0, math.pi / 12, math.pi / 6, math.pi / 4)
+MIN_RADIUS = 0.08
+MIN_ABS_SIN_THETA = 0.2
 
 
 def json_default(value):
@@ -399,8 +401,43 @@ def tidal(rlow, k, screens):
     return out
 
 
+def validate_metric_state(geo, history, y):
+    """Enforce the preregistered finite-state and positive-scale guards."""
+    if not np.all(np.isfinite(y)):
+        raise FloatingPointError(f"nonfinite state: {history}")
+    x = y[:4]
+    jets = np.asarray(geo.histories[history]["fn"](x[0], x[1]), dtype=float)
+    if not np.all(np.isfinite(jets)):
+        raise FloatingPointError(f"nonfinite metric jets: {history}")
+    try:
+        lapse = math.exp(float(jets[0] - jets[1]))
+        radial_scale = math.exp(float(jets[0] + jets[1]))
+    except OverflowError as exc:
+        raise FloatingPointError(f"nonfinite metric scale: {history}") from exc
+    if not (math.isfinite(lapse) and lapse > 0.0):
+        raise FloatingPointError(f"invalid lapse N: {history}")
+    if not (math.isfinite(radial_scale) and radial_scale > 0.0):
+        raise FloatingPointError(f"invalid radial scale L: {history}")
+
+
+def boundary_events():
+    """Return terminal events for the registered chart-domain boundaries."""
+
+    def radius_event(_lam, y):
+        return y[1] - MIN_RADIUS
+
+    def pole_event(_lam, y):
+        return abs(math.sin(y[2])) - MIN_ABS_SIN_THETA
+
+    for event in (radius_event, pole_event):
+        event.terminal = True
+        event.direction = 0
+    return (radius_event, pole_event)
+
+
 def full_rhs(geo, history):
     def rhs(_lam, y):
+        validate_metric_state(geo, history, y)
         x = y[0:4]
         k = y[4:8]
         screens = y[8:16].reshape(2, 4)
@@ -411,18 +448,25 @@ def full_rhs(geo, history):
         acceleration = -np.einsum("abc,b,c->a", gamma, k, k)
         screen_dot = -np.einsum("abc,b,Ac->Aa", gamma, k, screens)
         rperp = tidal(rlow, k, screens)
-        return np.concatenate(
+        derivative = np.concatenate(
             (k, acceleration, screen_dot.ravel(), P.ravel(), (-rperp @ D).ravel())
         )
+        if not np.all(np.isfinite(derivative)):
+            raise FloatingPointError(f"nonfinite full derivative: {history}")
+        return derivative
 
     return rhs
 
 
 def geodesic_rhs(geo, history):
     def rhs(_lam, y):
+        validate_metric_state(geo, history, y)
         x, k = y[:4], y[4:]
         gamma = geo.connection(history, x)
-        return np.concatenate((k, -np.einsum("abc,b,c->a", gamma, k, k)))
+        derivative = np.concatenate((k, -np.einsum("abc,b,c->a", gamma, k, k)))
+        if not np.all(np.isfinite(derivative)):
+            raise FloatingPointError(f"nonfinite geodesic derivative: {history}")
+        return derivative
 
     return rhs
 
@@ -442,10 +486,15 @@ def solve_full(geo, history, alpha, strict=False):
         method="DOP853",
         t_eval=SAMPLES,
         dense_output=True,
+        events=boundary_events(),
         **settings,
     )
-    if not sol.success or sol.t[-1] < LAM_END:
+    if not sol.success or any(len(times) for times in sol.t_events) or sol.t[-1] < LAM_END:
         raise RuntimeError(f"branch failed: {history} alpha={alpha}: {sol.message}")
+    if not np.all(np.isfinite(sol.y)):
+        raise RuntimeError(f"branch returned a nonfinite saved state: {history} alpha={alpha}")
+    for index in range(sol.y.shape[1]):
+        validate_metric_state(geo, history, sol.y[:, index])
     return sol
 
 
@@ -461,9 +510,11 @@ def solve_geodesic_endpoint(geo, history, alpha, axis, delta):
         rtol=2.5e-12,
         atol=2.5e-14,
         max_step=0.005,
+        events=boundary_events(),
     )
-    if not sol.success:
+    if not sol.success or any(len(times) for times in sol.t_events) or sol.t[-1] < LAM_END:
         raise RuntimeError(f"neighbor ray failed: {history} {alpha} {axis} {delta}")
+    validate_metric_state(geo, history, sol.y[:, -1])
     return sol.y[:4, -1]
 
 

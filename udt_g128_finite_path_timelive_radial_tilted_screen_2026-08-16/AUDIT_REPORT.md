@@ -3,7 +3,7 @@
 Date: 2026-08-16
 
 Status:
-`INTERNALLY_VERIFIED__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED__EXTERNAL_REVIEW_PENDING__PHYSICAL_HISTORY_NONSPHERICAL_COMPLETION_AND_OBSERVATIONS_OPEN`
+`EXTERNALLY_REVIEWED_PASS_WITH_REPAIRS__REPAIRS_IMPLEMENTED_AND_INTERNALLY_REPLAYED__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED__FOLLOWUP_REVIEW_OPEN__PHYSICAL_HISTORY_NONSPHERICAL_COMPLETION_AND_OBSERVATIONS_OPEN`
 
 ## Result
 
@@ -41,7 +41,12 @@ matter, mass, or signalling.
 - production 29/29 gates pass across all 16 branches;
 - independent 7/7 gates pass across eight representative branches;
 - package/source replay and the exact 115-row repository premise/startup gates pass;
-- external adversarial review is pending explicit authorization.
+- sealed external adversarial review returned `PASS_WITH_REPAIRS` and no blocking error;
+- the `h=2e-4` preregistration mismatch and missing runtime stop guards are repaired;
+- corrected production, independent, and isolated package replays pass; corrected follow-up review
+  remains open.
+- the rational half-angle Riemann audit is exact on the declared spherical chart away from its
+  polar singular set; it is not a global-chart proof.
 
 ## Maximum justified conclusion
 

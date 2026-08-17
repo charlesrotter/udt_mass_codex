@@ -122,7 +122,7 @@ supplied source congruence permits invariant frequency `(b-q)R`; physical histor
 
 G116 derives `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)` locally without a coefficient; G117 preserves frozen P1 dual-SNe numerics conditionally.
 
-G118-G119 derive `d_A=R`; G120 preserves both SNe comparisons under imported transfer. G121, G122, and G123 separate scalar closure, terminal/phase, and incidence. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only as a comparison and owns no branch/history. G126 stops direct R5 inversion. G127 `udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/` blind-verifies a local same-history bridge: one reciprocal spherical metric produces the radial isotropic and generic tilted `sin(alpha)^2 Xi` tidal screens, with optical shear derived from `D'D^-1` and no appended angular sector. G128 `udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/` internally observes the bridge persisting over a finite affine interval in all three nonflat supplied complete-spherical-base families; external review and the complete nonspherical extension remain open.
+G118-G119 derive `d_A=R`; G120 preserves both SNe comparisons under imported transfer. G121, G122, and G123 separate scalar closure, terminal/phase, and incidence. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only as a comparison and owns no branch/history. G126 stops direct R5 inversion. G127 `udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/` blind-verifies a local same-history bridge: one reciprocal spherical metric produces the radial isotropic and generic tilted `sin(alpha)^2 Xi` tidal screens, with optical shear derived from `D'D^-1` and no appended angular sector. G128 `udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/` observes the bridge persisting over a finite affine interval in all three nonflat supplied complete-spherical-base families. External review returned `PASS_WITH_REPAIRS` and no blocking error; the step-size and runtime-guard repairs pass internal replay. Corrected follow-up review and the complete nonspherical extension remain open.
 
 ## Macro observational anchors
 
@@ -161,9 +161,9 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Next: obtain fresh adversarial review of G128's finite-path complete-spherical-base result. If it
-survives, map the smallest genuinely nonspherical complete-coframe extension; do not fit an
-observational pattern or select a physical history.
+Next: obtain corrected follow-up review of G128's repaired finite-path complete-spherical-base
+package. If it confirms the repairs, map the smallest genuinely nonspherical complete-coframe
+extension; do not fit an observational pattern or select a physical history.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

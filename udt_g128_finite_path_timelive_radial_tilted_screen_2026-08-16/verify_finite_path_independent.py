@@ -20,7 +20,9 @@ from scipy.integrate import solve_ivp
 
 HERE = Path(__file__).resolve().parent
 LAM_END = 0.8
-STEP = 1.5e-4
+STEP = 2e-4
+MIN_RADIUS = 0.08
+MIN_ABS_SIN_THETA = 0.2
 CASES = (
     ("H0_flat", 0.0),
     ("H0_flat", math.pi / 4),
@@ -121,15 +123,53 @@ def initial_frame(history: str, alpha: float):
 
 def rhs(history: str, with_screen: bool):
     def evaluate(_lam, y):
+        validate_metric_state(history, y)
         x, k = y[:4], y[4:8]
         gamma = connection(history, x)
         pieces = [k, -np.einsum("abc,b,c->a", gamma, k, k)]
         if with_screen:
             screen = y[8:16].reshape(2, 4)
             pieces.append(-np.einsum("abc,b,Ac->Aa", gamma, k, screen).ravel())
-        return np.concatenate(pieces)
+        derivative = np.concatenate(pieces)
+        if not np.all(np.isfinite(derivative)):
+            raise FloatingPointError(f"nonfinite independent derivative: {history}")
+        return derivative
 
     return evaluate
+
+
+def validate_metric_state(history: str, y):
+    """Enforce the preregistered finite-state and positive-scale guards."""
+    if not np.all(np.isfinite(y)):
+        raise FloatingPointError(f"nonfinite independent state: {history}")
+    x = y[:4]
+    values = np.asarray(fields(history, x[0], x[1]), dtype=float)
+    if not np.all(np.isfinite(values)):
+        raise FloatingPointError(f"nonfinite independent metric data: {history}")
+    try:
+        lapse = math.exp(float(values[0] - values[1]))
+        radial_scale = math.exp(float(values[0] + values[1]))
+    except OverflowError as exc:
+        raise FloatingPointError(f"nonfinite independent metric scale: {history}") from exc
+    if not (math.isfinite(lapse) and lapse > 0.0):
+        raise FloatingPointError(f"invalid independent lapse N: {history}")
+    if not (math.isfinite(radial_scale) and radial_scale > 0.0):
+        raise FloatingPointError(f"invalid independent radial scale L: {history}")
+
+
+def boundary_events():
+    """Return terminal events for the registered chart-domain boundaries."""
+
+    def radius_event(_lam, y):
+        return y[1] - MIN_RADIUS
+
+    def pole_event(_lam, y):
+        return abs(math.sin(y[2])) - MIN_ABS_SIN_THETA
+
+    for event in (radius_event, pole_event):
+        event.terminal = True
+        event.direction = 0
+    return (radius_event, pole_event)
 
 
 def integrate(history: str, alpha: float, axis=None, delta=0.0, with_screen=False):
@@ -146,9 +186,11 @@ def integrate(history: str, alpha: float, axis=None, delta=0.0, with_screen=Fals
         rtol=5e-12,
         atol=5e-14,
         max_step=0.004,
+        events=boundary_events(),
     )
-    if not sol.success:
+    if not sol.success or any(len(times) for times in sol.t_events) or sol.t[-1] < LAM_END:
         raise RuntimeError(f"independent ray failed: {history} {alpha} {axis} {delta}")
+    validate_metric_state(history, sol.y[:, -1])
     return sol.y[:, -1]
 
 

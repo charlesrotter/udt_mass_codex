@@ -79,10 +79,14 @@ estimates each endpoint Jacobi column from the five-point formula
 \[
 J_A(\lambda_f)=
 \frac{-x(2h)+8x(h)-8x(-h)+x(-2h)}{12h},
-\qquad h=1.5\times10^{-4},
+\qquad h=2\times10^{-4},
 \]
 
 then projects onto its independently transported central screen.
+
+Both implementations enforce the preregistered terminal events at `R=0.08` and
+`|sin(theta)|=0.2`, and reject nonfinite states or nonfinite/nonpositive `N,L`. None of those guards
+fires in the saved atlas.
 
 ## Bounded result
 

@@ -2377,7 +2377,7 @@ def main() -> None:
     )
     require(
         by_id["G128"]["current_status"].startswith(
-            "INTERNALLY_VERIFIED__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED"
+            "EXTERNALLY_REVIEWED_PASS_WITH_REPAIRS__REPAIRS_IMPLEMENTED_AND_INTERNALLY_REPLAYED"
         ),
         "G128 finite-path screen result regressed or promoted",
     )
@@ -2400,6 +2400,11 @@ def main() -> None:
         "no caustic in the finite interval called global caustic freedom"
         in by_id["G128"]["forbidden_regression"],
         "G128 global-caustic guard absent",
+    )
+    require(
+        "pass-with-repairs called unqualified external verification before corrected follow-up"
+        in by_id["G128"]["forbidden_regression"],
+        "G128 corrected-followup guard absent",
     )
     require(
         by_id["G128"]["controlling_source"]

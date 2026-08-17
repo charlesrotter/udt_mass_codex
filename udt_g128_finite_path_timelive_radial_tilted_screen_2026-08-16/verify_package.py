@@ -5,7 +5,9 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import importlib.util
 import json
+import math
 from pathlib import Path
 import shutil
 import subprocess
@@ -25,6 +27,15 @@ def digest(path: Path) -> str:
         for chunk in iter(lambda: stream.read(1024 * 1024), b""):
             hasher.update(chunk)
     return hasher.hexdigest()
+
+
+def load_module(path: Path, name: str):
+    spec = importlib.util.spec_from_file_location(name, path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"cannot load {path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 def main():
@@ -48,6 +59,50 @@ def main():
         and len(independent.get("checks", {})) == 7
         and all(independent.get("checks", {}).values())
     )
+
+    production_module = load_module(HERE / "derive_finite_path.py", "g128_production_guards")
+    independent_module = load_module(
+        HERE / "verify_finite_path_independent.py", "g128_independent_guards"
+    )
+    production_events = production_module.boundary_events()
+    independent_events = independent_module.boundary_events()
+    radius_state = np.zeros(24)
+    radius_state[1] = 0.08
+    radius_state[2] = math.pi / 2
+    pole_state = radius_state.copy()
+    pole_state[1] = 0.4
+    pole_state[2] = math.asin(0.2)
+    checks["production_runtime_boundary_events"] = (
+        len(production_events) == 2
+        and all(event.terminal for event in production_events)
+        and abs(production_events[0](0.0, radius_state)) < 1e-15
+        and abs(production_events[1](0.0, pole_state)) < 1e-15
+    )
+    checks["independent_runtime_boundary_events"] = (
+        len(independent_events) == 2
+        and all(event.terminal for event in independent_events)
+        and abs(independent_events[0](0.0, radius_state)) < 1e-15
+        and abs(independent_events[1](0.0, pole_state)) < 1e-15
+    )
+    fake_geo = type(
+        "FakeGeometry",
+        (),
+        {"histories": {"safe": {"fn": lambda _t, _r: np.zeros(18)}}},
+    )()
+    production_module.validate_metric_state(fake_geo, "safe", radius_state)
+    independent_module.validate_metric_state("H0_flat", radius_state[:8])
+    rejected = []
+    for validator, args in (
+        (production_module.validate_metric_state, (fake_geo, "safe", np.full(24, np.nan))),
+        (independent_module.validate_metric_state, ("H0_flat", np.full(8, np.nan))),
+    ):
+        try:
+            validator(*args)
+        except FloatingPointError:
+            rejected.append(True)
+        else:
+            rejected.append(False)
+    checks["runtime_nonfinite_rejection"] = all(rejected)
 
     with tempfile.TemporaryDirectory(prefix="udt_g128_replay_") as temp_name:
         temp = Path(temp_name)
@@ -111,6 +166,8 @@ def main():
         "REVIEW_REQUEST.md",
         "AUDIT_REPORT.md",
         "STATUS.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
     ):
         checks[f"present::{name}"] = (HERE / name).is_file()
 

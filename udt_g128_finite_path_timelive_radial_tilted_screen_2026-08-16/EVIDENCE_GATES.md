@@ -14,7 +14,11 @@
    `2.45e-15`, null/screen geometry `4.00e-15`.
 7. **Package/premise audit:** isolated source/hash/production/independent replay passes; the exact
    115-row registry and startup-surface verifier pass.
-8. **Fresh adversarial review:** pending explicit transmission authorization.
+8. **Fresh adversarial review:** sealed review returned `PASS_WITH_REPAIRS`, accepted the bounded
+   landing, and found no blocking error.
+9. **Registered repairs:** the independent route now uses preregistered `h=2e-4`; both solvers
+   enforce the radius/pole terminal events and reject nonfinite or nonpositive metric states.
+   Corrected production, independent, and package replays pass; follow-up review is open.
 
 Current maximum status:
-`INTERNALLY_VERIFIED__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED__EXTERNAL_REVIEW_PENDING__PHYSICAL_HISTORY_NONSPHERICAL_COMPLETION_AND_OBSERVATIONS_OPEN`.
+`EXTERNALLY_REVIEWED_PASS_WITH_REPAIRS__REPAIRS_IMPLEMENTED_AND_INTERNALLY_REPLAYED__FINITE_PATH_SAME_HISTORY_SCREEN_EMERGENCE_OBSERVED__FOLLOWUP_REVIEW_OPEN__PHYSICAL_HISTORY_NONSPHERICAL_COMPLETION_AND_OBSERVATIONS_OPEN`.
