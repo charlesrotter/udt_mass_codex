@@ -26,6 +26,8 @@ The active dependency chain is:
    local codimension eleven metricity locus; this constrains relation data but selects no values.
 7. G135--G137 (including G136 classification): each complete pair owns `chi=tanh(phi_pair)`; Charles adopted its
    same-Mobius unit-slope chart as working physical position.
+8. G138: endpoint descent is equivalent to zero matched-cycle residuals; arbitrary reference-depth
+   gauges form a Mobius torsor, while nonzero cycles are holonomy only for distinct arrows.
 
 G137 passed fresh adversarial review. It derives signed `x/X_max=tanh(phi_pair)` and symmetric
 `s/X_max=abs(tanh(phi_pair))`; only signed position composes. `X_max` value, proper length, pair
@@ -43,6 +45,7 @@ Open these after orientation only when load-bearing:
 - `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/AUDIT_REPORT.md`
 - `udt_g136_copresent_projective_distance_constitution_2026-08-17/AUDIT_REPORT.md`
 - `udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md`
+- `udt_g138_copresent_relational_position_network_descent_2026-08-17/AUDIT_REPORT.md`
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -70,6 +73,7 @@ No long process is running.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
 - working position constitution is adopted; signed `x/X_max=tanh(phi_pair)` and unsigned magnitude
   follow on supplied complete pairs, but neither is yet proper length or a selected history.
+- G138 selects no coordinate root and does not choose endpoint descent over path holonomy.
 - `X_max` is an observer-pair asymptotic frame, not a wall or center.
 - strong local CSN is inactive.
 - carrier, action, source, matter, bootstrap selection, and dynamics remain posit/conditional/open.
@@ -82,7 +86,7 @@ presence does not prove banking.
 
 ### Next bounded action
 
-MAP/PONDER whether signed pair positions descend to one coherent matched-calibration observer
-network or remain branch-labelled. Keep `X_max` value, proper length, and history open; avoid a fit.
+MAP/PONDER whether positional depth must descend to endpoints while transport keeps path memory, or
+may itself carry branch holonomy. Keep `X_max` value, proper length, and history open.
 
 <!-- STARTUP_CURRENT_END -->

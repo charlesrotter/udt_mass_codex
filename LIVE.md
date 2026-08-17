@@ -55,8 +55,10 @@ derived only on a supplied regular calibrated pair realization.
 - **G135--G137 — relational position.** The complete pair owns `chi=tanh(phi_pair)`. G136 classifies
   same-native-Mobius ordered charts as `tanh(k phi_pair)`. Charles adopted continuous strict order,
   that native law, and separately chosen unit slope as a working physical-position constitution.
-  G137 derives signed `x/X_max=tanh(phi_pair)` and nonnegative `s/X_max=abs(tanh(phi_pair))`; only
+  The adopted join derives signed `x/X_max=tanh(phi_pair)` and nonnegative `s/X_max=abs(tanh(phi_pair))`; only
   signed position composes. `X_max` value, proper length, pair realization, and history remain open.
+- **G138 — network descent.** Endpoint position descends iff matched cycles close; arbitrary
+  reference gauges form a Mobius torsor. Nonzero cycles are holonomy only for distinct arrows.
 
 Maximum conclusion: under the adopted working constitution, every supplied complete pair owns a
 signed bounded physical-position coordinate and an unsigned separation magnitude. The metric still
@@ -75,6 +77,7 @@ Primary sources:
 - `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
 - `udt_g137_copresent_relational_position_join_2026-08-17/`
+- `udt_g138_copresent_relational_position_network_descent_2026-08-17/`
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, the premise registry, and
@@ -98,8 +101,8 @@ running. Observations remain comparison/falsification anchors; they do not selec
 - pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
-- physical pair position: `CHOSE_WORKING_CONSTITUTION`; G137 derives signed
-  `x/X_max=tanh(phi_pair)` and symmetric `s/X_max=abs(tanh(phi_pair))` on supplied complete pairs.
+- physical pair position: `CHOSE_WORKING_CONSTITUTION`; signed `x/X_max=tanh(phi_pair)` is derived,
+  with endpoint descent exactly distinguished from conditional path holonomy.
 - angular/screen/mixing data enter before terminal readout.
 - `X_max`: `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair dilation asymptote;
   value and realization `OPEN`; not a wall, center, seal, or boundary term.
@@ -119,10 +122,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-MAP/PONDER whether adopted signed positions form one coherent matched-calibration observer network,
-or remain branch-labelled pair outputs. If pursued, preregister finite-network overlap, reversal,
-and cycle gates without selecting a history. Keep `X_max` value, proper length, singular/global
-completion, and pair realization open; do not launch a fit, seam atlas, or invented mechanism.
+MAP/PONDER whether physical positional depth must descend to observer endpoints while transport
+channels may retain path memory, or may itself carry branch holonomy. Keep `X_max` value, proper
+length, global completion, pair realization, and history open; do not launch a fit or mechanism.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

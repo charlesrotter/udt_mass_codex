@@ -22,6 +22,8 @@ Current dependency spine:
 - G135--G137 (G136 classification): the complete pair owns `chi=tanh(phi_pair)`; Charles adopted its continuous
   same-Mobius unit-slope chart as working position. Signed `x/X_max=tanh(phi_pair)` and symmetric
   `s/X_max=abs(tanh(phi_pair))` follow; only signed position composes.
+- G138: endpoint position descends iff matched cycles close; reference gauges form a Mobius torsor;
+  nonzero cycles are holonomy only when routes remain distinct arrows.
 
 Physical network soldering and values, the complete history/solution law, global completion,
 observations, and `X_max` remain open.
@@ -53,8 +55,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-MAP/PONDER whether signed positions descend to one matched-calibration observer network or remain
-branch-labelled pair outputs; keep `X_max` value, proper length, realization, and history open.
+MAP/PONDER whether positional depth must descend to endpoints while transport retains path memory,
+or may itself carry branch holonomy. Keep `X_max` value, proper length, realization, and history open.
 
 ## Historical route
 

@@ -33,15 +33,15 @@ promote package conclusions.
   `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous co-present position classification:
   `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137 adopted relational position and `X_max` join:
-  `udt_g137_copresent_relational_position_join_2026-08-17/`
+- G137 position join and G138 network descent:
+  `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`
 
 The current chain is evaluator → full-pullback faithfulness → co-presence typing → conformal
 scalar ceiling → common-scale ownership → density/area typing → complete-area faithfulness → native
 bounded projective pair readout. Complete area data already encode `g`, and every supplied complete
 pair owns `chi=tanh(phi_pair)`. Charles adopted its same-native-Mobius unit-slope chart as working
 physical position. G137 derives signed `x/X_max=tanh(phi_pair)` and unsigned magnitude but does not
-select metric values, query population, the dimensional `X_max`, or completion.
+select metric values or dimensional `X_max`. G138 classifies endpoint descent versus path holonomy.
 
 ## Durable prerequisites
 
@@ -58,7 +58,7 @@ select metric values, query population, the dimensional `X_max`, or completion.
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 124-row premise registry controls current status, not the archived prose.
+load-bearing. The 125-row premise registry controls current status, not the archived prose.
 
 ## Observational lane
 
@@ -101,7 +101,7 @@ the stopped native-on-shell draft, or local unbanked packages without explicit a
 
 ## Archives
 
-- Pre-G133-cleanup startup surface: `archive/startup_surface_2026-08-17_pre_zoomout/`
+- Pre-cleanup startup surface: `archive/startup_surface_2026-08-17_pre_zoomout/`
 - Earlier startup surface: `archive/startup_surface_2026-08-14/`
 - Pre-orchestra global-cell assembly: `archive/global_cell_assembly_2026-08-06_legacy/`
 - Historical July frontier: `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`

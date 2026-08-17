@@ -35,7 +35,7 @@ or source ownership is load-bearing.
 | G134 full-area faithfulness | `VERIFIED_WITH_CAVEATS` | Complete area data recover full `g` up to fixed sign; rank ten and local codimension eleven; no value/evolution law |
 | G135 projective pair readout | `VERIFIED_WITH_CAVEATS` | `chi=tanh(phi_pair)` is native and Mobius-compositional on supplied complete pairs; physical distance and `X_max` remain open |
 | G136 continuous position classification | `VERIFIED_WITH_CAVEATS` | Same-native-Mobius charts are `tanh(k phi_pair)`; chosen unit slope fixes `k=1`; physical adoption remains open |
-| G137 relational position join | `VERIFIED_WITH_CAVEATS` | Working constitution adopted; signed position composes, unsigned separation is its magnitude |
+| G137--G138 position/network | `VERIFIED_WITH_CAVEATS` | Working position adopted; endpoint descent iff cycles close; reference gauges form a Mobius torsor |
 
 None of these results selects the physical network, numerical metric values, complete history,
 global completion, observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
@@ -60,13 +60,13 @@ and package-local evidence; they are not required startup chronology.
 - Endpoint scalars, density coefficients, shift state, Jacobi propagators, and path/normal holonomy
   have different natural mathematical homes.
 - Full pullbacks plus known embeddings can recover `g`; scalar-only pair data recover only its
-  positive conformal class in the G131 scope.
+  positive conformal class in the stated scope.
 - Pair-volume density descends only on a genuine common atlas or matched local system. Across planes,
   the natural metric object is the symmetric bivector area bilinear.
 - Complete valued area data are equivalent to full metric data up to the fixed sign. Their local
   codimension-eleven metricity constraints are not equations of motion or history selection.
-- G135--G137 derive the bounded chart and classify same-native-Mobius coordinates. Charles chose its
-  unit-slope chart as working position; signed position composes and unsigned separation does not.
+- G135--G138 derive the bounded chart, working position, and network fork: zero cycles give endpoint
+  descent; nonzero cycles are holonomy only when routes remain distinct physical arrows.
 
 ## Carrier, action, source, and matter
 
@@ -108,7 +108,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the exact 124-row machine-readable authority. Each row records
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the exact 125-row machine-readable authority. Each row records
 the object, classification, premise stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.
