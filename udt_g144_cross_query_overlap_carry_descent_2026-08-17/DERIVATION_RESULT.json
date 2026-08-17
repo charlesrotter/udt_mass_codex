@@ -1,0 +1,53 @@
+{
+  "checks": [
+    "pullback_metric_factor_transforms_by_overlap_Jacobian",
+    "Bplus_same_event_overlap_total_is_identity",
+    "overlap_total_is_Lorentz_isometric",
+    "overlap_differentials_compose",
+    "overlap_total_transitions_compose",
+    "Bplus_Lorentz_defect_first_equations_exact",
+    "Bplus_Lorentz_defect_last_equation_exact",
+    "positive_solution_identity_satisfies_Lorentz",
+    "flat_strip_pair_metric_exact",
+    "bulged_strip_clock_and_shift_exact",
+    "bulged_strip_ruler_metric_exact",
+    "bulged_strip_regular_timelike_determinant",
+    "two_strips_share_both_observer_boundaries",
+    "interior_separation_factor_exact",
+    "interior_images_distinct_witness",
+    "image_intersection_only_on_boundaries_in_strip_coordinate",
+    "source_hash_udt_g143_single_pair_domain_carry_ownership_2026-08-17",
+    "source_hash_udt_g142_abstract_carrier_physical_carry_join_2026-08-17",
+    "source_hash_udt_pair_first_relational_plane_reconstruction_2026-08-12",
+    "source_hash_udt_g133_fixed_K_two_density_overlap_descent_2026-08-16",
+    "source_hash_udt_g138_copresent_relational_position_network_descent_2026-08-17",
+    "source_hash_udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17"
+  ],
+  "checks_passed": 22,
+  "checks_total": 22,
+  "endpoint_countermodel": {
+    "F0": "(t,s,0,0)",
+    "Fbulge": "(t,s,eps*s*(1-s),0)",
+    "h0": "Matrix([[-1, 0], [0, 1]])",
+    "hbulge": "Matrix([[-1, 0], [0, eps**2*(2*s - 1)**2 + 1]])",
+    "intersection_s": [
+      "0",
+      "1"
+    ]
+  },
+  "landing": {
+    "endpoint_only": "same observer boundaries do not imply open image overlap or differential carry",
+    "genuine_overlap": "branch-resolved embedded open overlap owns psi=F_beta^-1 o F_alpha and J=dpsi",
+    "open": "nonoverlap gluing branch population physical query family history and Xmax",
+    "same_event_total": "C_beta_alpha=R_beta J_beta_alpha R_alpha^-1 is Lorentz isometric; in positive triangular gauge it is I"
+  },
+  "source_hashes": {
+    "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/AUDIT_REPORT.md": "84161a8e68f41918e3091fc4e35a3b10dd7fb0e23239cf574b34d23ca3b9fe19",
+    "udt_g138_copresent_relational_position_network_descent_2026-08-17/AUDIT_REPORT.md": "e9468b51378e5bd01e40a84f8d5e909c35e4d8e3a3ff7bcd4953d2238e6dedb9",
+    "udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md": "0782f890b3cfe48c874d4b90b850edf673fcb79042d4622e7cd6394374afb7b5",
+    "udt_g142_abstract_carrier_physical_carry_join_2026-08-17/AUDIT_REPORT.md": "aac5a2ec5c4ed4ea508aff4f65514e54e8d0502980c49f57f3595560596bd96d",
+    "udt_g143_single_pair_domain_carry_ownership_2026-08-17/AUDIT_REPORT.md": "e89a2d283ccf5685cbef8a20ad03c9855586c54d8f3c1717b2fd31b26db65d30",
+    "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md": "2c73239e4b91799d3572da5725073e7a94914eaadf34820eadcd8dbcbe7c88e5"
+  },
+  "status": "PASS"
+}
