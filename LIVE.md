@@ -7,11 +7,16 @@
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
 
-### Active scientific lane — no-shortcut reciprocal kernel reconstruction
+### Current honest theory claim
 
-The externally `VERIFIED_WITH_CAVEATS` package
-`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` controls the evaluator. For supplied
-`E=[[B,0],[Q S,Q]]` and regular `J=[Y;Z]`, it derives
+The externally `VERIFIED_WITH_CAVEATS` complete-pair evaluator remains the controlling local map.
+For supplied
+
+```text
+E=[[B,0],[Q S,Q]],   J=[Y;Z],
+```
+
+it forms the complete pair metric before any scalar readout:
 
 ```text
 h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
@@ -19,152 +24,94 @@ phi_pair=(1/4)log[(-det h)/h00^2],
 c_eff^(pair)/c_E=(-h00)/sqrt(-det h)=exp(-2phi_pair).
 ```
 
-The exact live identity retains all five derivatives. Symbolic, Fraction, shrinking-step, mutation,
-package, and repository gates pass. The orchestra is assembled before terminal readout; physical
-pair/history remain `OPEN`. Fixed Gram `P` is zero-order sufficient but erases attribution and is
-only diagnostic. G93 keeps ambient/terminal arrows distinct, all five channels upstream, and
-`mu_lock` unappended; physical history and flux remain open.
+All `B,Q,S,Y,Z` channels and their live derivatives remain upstream. Fixed Gram compression is a
+zero-order diagnostic only; it does not own channel attribution, regime evolution, or physical
+history. Pointwise `phi` is a presentation potential. Terminal `phi_pair` and pair `c_eff/c_E` are
+derived only on a supplied regular calibrated pair realization.
 
-G94 derives `F_o=L_Omega eta epsilon/(Z^3 d_A^2)` conditionally; G95/G96 retain only response,
-transport, and query bookkeeping. Physical `eta` and the carrier-covector premise remain open.
+### Current dependency spine — G129 through G133
 
-G97 externally verifies one end-to-end SNe house test: with provisional `eta=1`, `epsilon=1/Z`, and
-source isotropy, one G79 control gives `chi2=16255.30/1366 dof`. This is one incompatible control,
-not a physical history, native radiation law, all-sky theorem, `X_max`, or UDT rejection.
+- **G129 — full-pullback faithfulness.** On a supplied common observer network, known embeddings,
+  full pullbacks, and overlap data recover the metric exactly iff the sampled tangent span has rank
+  ten. This is a conditional reconstruction theorem, not a law selecting the network or values.
+- **G130 — co-presence ownership.** Co-presence can mean co-membership in one supplied complete
+  solution. Reciprocity alone creates neither the query population nor its numerical valuations.
+- **G131 — scalar-only ceiling.** All terminal pair scalars on identically labelled planes over one
+  shared full-dimensional open domain recover only the positive conformal class. Common local scale
+  remains missing.
+- **G132 — scale typing.** The pair triplet retains supplied common scale but does not source it.
+  Fixed `K` removes only the internal reciprocal multiplier. `c_E` and `G_obs` are observed anchors;
+  their bridge to a physical metric history still requires lawful physical data.
+- **G133 — density and area typing.** Fresh adversarial follow-up passed. Fixed `K` owns only its
+  internal unimodular determinant density. A supplied pair metric owns
+  `nu_h=sqrt(-det h)|dy0 wedge dy1|`, which descends on a genuine common pair atlas.
+  `kappa_pair` is a log-density coefficient requiring matched endpoint calibration. Full `g`
+  derives the symmetric bivector area bilinear
+  `A_g(u wedge v,w wedge z)=g(u,w)g(v,z)-g(u,z)g(v,w)`, not one alternating two-form.
 
-G98 is `INTERNALLY_VERIFIED_WITH_CAVEATS__PERMITTED_NOT_OWNED`: exact flat, monotone, and
-loud-quiet-loud contribution-live histories survive. Compatibility selects no continuation; quiet
-middle is lawful but not selected, and the bounded result is not a generic no-go.
-G99 freezes P1 as an `OBSERVED/CONDITIONAL` middle chord, not a complete history. G100 tests that
-unchanged shape on 1623 DES-SN5YR/Dovekie rows with the correct marginal covariance:
-`VERIFIED_WITH_CAVEATS__FROZEN_P1_NOT_REJECTED__LOW_CHI2_REFERENCE_WARNING`. A sealed adversary
-reproduced `chi2=1444.18644/1622 nominal dof`; the processed-release chi-square is approximate. The
-secondary shift is `1.64 sigma`. G101 partially integrates `grok2`: its corrected two-source query and a local megamaser-slope lead survive; its `X_max`, tanh, flux, scalar-`mu`, and startup promotions do not. G102 externally verifies the conditional two-source evaluator. G103 is externally `VERIFIED_WITH_CAVEATS`: current regular local/first-jet equations impose sky/network/measure consistency but own no nontrivial source-independent pattern after `J` and the source pair measure are released. Global/critical, bootstrap, and source-history joints remain open.
+Maximum conclusion: the metric now owns a stronger hierarchy of conditional relational readouts,
+conformal reconstruction, density descent, and area comparison. Physical network soldering and
+numerical values, the complete history/solution law, global completion, observations, and `X_max`
+remain `OPEN`.
 
-G104 proves the factorized intrinsic null; G105 derives the conditional complete-orchestra Jacobian channel.
-G106 is externally `VERIFIED_WITH_CAVEATS`: its ideal reference removes pure radial abundance while depth-dependent angular response survives; history, basis/coefficients, and outcomes remain open.
-The whiteboard's exact joint-flow grammar `dV=E(dJ+E^-1dE J)` remains an identity, not a score.
-G107's constant reciprocal-extension census, G108 `udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/`, and
-G109 `udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/` retain their conditional
-algebra. G110 `udt_observer_exponential_full_differential_type_audit_2026-08-16/` reconstructs one
-point-observer relation from one full `dF`: its pair block owns `phi_pair`; its distinct angular block
-is the sky Jacobi map. The null pair-screen projection has rank at most one. Point-vertex data are
-fixed up to matched basis gauge; physical history, query ownership, and global weights remain open.
+Primary sources:
 
-G111 `udt_g111_nonflat_r17_full_differential_replay_2026-08-16/` verifies distinct blocks on 192
-supplied R17 controls and 1,152 directions; G112
-`udt_g112_full_differential_dual_sne_invariance_2026-08-16/` verifies only fixed-P1 SNe
-non-regression under conditional screen/transfer. Neither selects R17, P1, or a history.
+- `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
+- `udt_g129_copresent_relational_network_faithfulness_2026-08-16/`
+- `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/`
+- `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/`
+- `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/`
+- `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`
 
-G113 `udt_g113_metric_native_orchestra_whiteboard_2026-08-16/` identifies one full observer
-differential as the smallest local assembly. Its static central spherical subclass derives
-`phi_pair=phi` and `D_sky=r I`, but exact P1 static inversion has invariant `1/r` center curvature:
-the observed chord is null-cone data, not a derived smooth static profile.
+Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
+package tree, the premise registry, and
+`archive/startup_surface_2026-08-17_pre_zoomout/`.
 
-G114 `udt_g114_common_source_three_observer_network_2026-08-16/` derives affine-aware source-phase
-composition and caustic survival; loop closure does not force point-observer beam alignment. G115
-`udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/` is blind verified: its
-regular central jet separates quadratic terminal/areal depth from permitted linear source frequency;
-active sky carry precedes fixed-label readout. History, transfer, and global branch remain open. G116
-`udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/` is blind
-`VERIFIED_WITH_CAVEATS` after scope repairs. It derives, without a fit coefficient,
-`zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)`, where `zeta=log(omega_s/omega_o)`,
-`v_rel=b-q`. The stationary reduction gives `zeta=phi_pair=-log(c_eff/c_E)/2`; live queries differ.
-G117 `udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/` preserves frozen Pantheon+/DES
-numerics under conditional release-coordinate retyping but identifies no terminal depth or history.
-G118 `udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/` removes representation scaffolding. G119
-`udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/` derives on every finite
-regular central-spherical branch `D_sky=R O`, `|det D_sky|=R^2`. G120
-`udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/` is blind verified:
-with explicitly imported `eta=1,epsilon=1/Z`, `d_L=Z^2R`; frozen P1 becomes one outgoing `Z>1`
-conditional radius-frequency curve and preserves both SNe replays. G121 is blind verified and finds local matched
-identities and conditional pair-scalar closure only. G122 keeps terminal pair and causal phase distinct. G123 derives the supplied common-event incidence graph. G124 derives the exact finite-radius score `zeta=phi_pair-kappa_pair+chi_s`. G125 uses SNe only as a comparison/non-regression data set for frozen P1's combined score; SNe owns no metric branch or history. G126 stops direct R5-to-`K`/phase fitting. G127 `udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/` and G128 derive/observe bounded same-history screen response. G129 proves full-pullback network faithfulness iff rank ten. G130 proves co-presence denotes co-membership conditional on supplied `S` while Reciprocity creates neither query domain nor values. G131 proves scalar-only all-plane data is conformally faithful. G132 separates retained supplied scale from a physical scale owner. G133 `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/` is fresh-adversarial-follow-up passed: fixed `K` owns only its internal unimodular determinant density; a supplied pair metric owns a positive density that descends on one genuine common atlas; `kappa_pair` is a log-density coefficient requiring matched calibration; full `g` derives the symmetric bivector area bilinear, not one alternating two-form. Physical network soldering and numerical values, history, global completion, and observations remain open. `c_E,G_obs` still need matter/density/energy plus a lawful bridge; `R_inf` is not `X_max`.
+### Banked observational lane
 
-### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
+R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are complete and verified with
+caveats. R4 observes broad whole-curve persistence across registered relations. R5 observes one
+dominant shared whole-curve direction plus control-dependent additional alignment; 184,300
+covariance-range rows remain unresolved. No preferred grid, feature, rank, significance, physical
+scale, BAO/UDT/CMB origin, cosmology, or `X_max` follows.
 
-R2 is `VERIFIED-WITH-CAVEATS`: all 194 selections and 2,328 curves were independently reconstructed.
-It is not a preferred feature, significance, scale, BAO origin, UDT response, cosmology, or `X_max`.
-
-R3 is
-`OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED`. All 2,328 covariances and
-eight deletion anchors pass independent verification; rank and covariance scale depend on NSIDE, so
-no preferred grid or inverse-covariance significance is permitted. Read `R3_OUTCOME_REPORT.md` and
-`R3_VERIFICATION_RESULT.json` after orientation.
-
-R4 is
-`OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT`.
-The broad complete-curve shape persists across 9,286 relations, while amplitude/fine detail and full
-covariance quadratics remain control- and grid-dependent. Read `R4_OUTCOME_REPORT.md` and
-`R4_VERIFICATION_RESULT.json`.
-
-R5 is
-`OBSERVED_VERIFIED_WITH_CAVEATS__ONE_DOMINANT_SHARED_DIRECTION__ADDITIONAL_SUBSPACE_ALIGNMENT_CONTROL_DEPENDENT__COVARIANCE_RANGE_PARTLY_UNRESOLVED`.
-It finds one dominant whole-curve direction plus control-dependent additional alignment, selects no
-rank or feature, and leaves 184,300 covariance-range rows explicitly unresolved. Read
-`R5_OUTCOME_REPORT.md`, `R5_VERIFICATION_RESULT.json`, `R5_EXTERNAL_FOLLOWUP_REVIEW.md`, and
-`R5_FINAL_EVIDENCE_MANIFEST.tsv`.
-
-The controlling package is `udt_observed_angular_pattern_raw_restart_2026-08-12/`. The verified raw
-archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. The parallel method crosswalk
-is `udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md`; no published curve exactly matches
-the query, so published peaks remain quarantined.
-
-### Regraded predecessor
-
-The protected `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/` fixed-`P`
-convexity theorem remains `CONDITIONAL_DIAGNOSTIC_ONLY`. It neither retains live channel
-attribution nor selects a physical regime/history, action, source, matter, bootstrap, observation,
-or `X_max`.
-
-### Durable structural parents
-
-- `udt_pair_terminal_reachability_atlas_2026-08-12/`: bounded pointwise `PSD(2)` terminal atlas.
-- `udt_pair_chord_network_descent_audit_2026-08-12/`: endpoint ratios compose on one supplied
-  calibration family; PSD reachability is a partial order, not Reciprocity.
-- `udt_pair_first_relational_plane_reconstruction_2026-08-12/`: a supplied regular pair immersion
-  owns its tangent plane and screen, and the full orchestra enters before terminal readout;
-  `VERIFIED-WITH-CAVEATS`.
-
-These close conditional evaluation and zero-order composition, not physical history, event pairing,
-global relation-family ownership, dynamics, action, source, matter, bootstrap, or `X_max`.
+The raw archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is
+running. Observations remain comparison/falsification anchors; they do not select the history.
 
 ### High-risk premise guard
 
-- `c_E`: `OBSERVED` clock/ruler calibration scale.
-- founding reciprocal character on supplied ordered depth: `DERIVED`.
-- pointwise `phi`: presentation potential; universal physical ownership `OPEN`.
-- terminal `phi_pair`: `DERIVED` from the pair block of a supplied regular calibrated `dF`.
-- regular central time-live jet coefficients are gauge representatives; only the registered G115
-  invariants and G116 coefficient-free frequency/terminal junction survive residual slicing.
-- the distinct angular block gives the sky Jacobi map; `D_sky'(0)=I` only in matched bases.
-- modern mixing is four-component `S`; G92's `mu_lock` is one supplied transition component, not a
-  unique scalar; G93 keeps ambient and terminal arrows distinct.
-- `X_max`: `WORKING_FOUNDATIONAL_FRAME` for an observer-pair dilation asymptote; value and complete realization `OPEN`; not a wall, center, seal, or boundary term.
+- `c_E`, `G_obs`: `OBSERVED` calibration anchors.
+- founded reciprocal character on supplied ordered depth: `DERIVED`.
+- pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
+- terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
+- pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
+- angular/screen/mixing data enter before terminal readout.
+- `X_max`: `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair dilation asymptote;
+  value and realization `OPEN`; not a wall, center, seal, or boundary term.
 - strong local CSN: `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED`, inactive.
-- `S^2` matter carrier: `POSIT`.
-- EH action: `CONDITIONAL`; native action/source/matter law `OPEN`.
-- bootstrap/stable-matter: `WORKING HYPOTHESIS`, not a theorem.
+- `S^2` matter carrier: `POSIT`; EH action: `CONDITIONAL`; bootstrap: `WORKING HYPOTHESIS`.
 
 `CURRENT_SCIENTIFIC_PREMISES.tsv` and its cited sources control exact wording.
 
-### Local dirt and guards
+### Protected local work
 
-Preserve without staging or mining unless explicitly dispatched:
+Preserve without staging, modifying, deleting, mining, or citing without a specific dispatch:
 
 - stopped native-on-shell draft under `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`;
-- local unbanked pair-response package named above;
-- local unbanked `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/` scoped control;
+- local `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/` payload;
+- local `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/` payload;
 - protected curvature/holonomy atlas when present.
 
-Some protected directories have tracked shells plus local untracked payloads. Directory presence
-does not prove banking; inspect Git status and preserve every local file.
-
 ### Immediate next action
-G133 closes the fixed-`K` density-type gate. Next MAP/PONDER whether the derived full-`g` area
-bilinear changes the history question, without launching another ownership loop or inventing values.
+
+Before another derivation, MAP/PONDER whether the full-`g` area bilinear changes the physical-history
+question or merely supplies the natural comparison object for already supplied observer planes.
+Do not launch another ownership loop, fit, seam atlas, preferred-path hunt, or mechanism invention.
 
 ### Archive
-Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,
-not current authority.
+
+The exact pre-cleanup startup surface is preserved under
+`archive/startup_surface_2026-08-17_pre_zoomout/`. Older verbose startup provenance remains under
+`archive/startup_surface_2026-08-14/`.
 
 <!-- STARTUP_CURRENT_END -->

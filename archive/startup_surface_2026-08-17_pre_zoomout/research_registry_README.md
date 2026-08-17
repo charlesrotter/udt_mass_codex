@@ -27,7 +27,5 @@ to make a historical package appear current.
 If these roles are confused or a path is missing, stop and report the mismatch. Do not infer a new
 scientific conclusion from registry housekeeping.
 
-The G133 pre-cleanup registry orientation is preserved at
-`../../archive/startup_surface_2026-08-17_pre_zoomout/research_registry_README.md`; the earlier
-verbose version remains at
+The verbose pre-cleanup registry orientation is preserved at
 `../../archive/startup_surface_2026-08-14/research_registry_README_before_cleanup.md`.

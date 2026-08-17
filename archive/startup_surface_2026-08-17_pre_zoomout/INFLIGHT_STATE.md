@@ -15,6 +15,3 @@ After orientation, query task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows an
 The exact pre-retirement contents are preserved at
 `archive/startup_surface_2026-08-14/INFLIGHT_STATE_before_cleanup.md` with a SHA-256 manifest.
 Historical wording is provenance only and cannot overrule current status.
-
-The later G133 pre-cleanup compatibility pointer is preserved at
-`archive/startup_surface_2026-08-17_pre_zoomout/INFLIGHT_STATE.md`.

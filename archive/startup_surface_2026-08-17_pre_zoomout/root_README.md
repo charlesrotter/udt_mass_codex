@@ -23,16 +23,13 @@ The active observational package is
 `udt_observed_angular_pattern_raw_restart_2026-08-12/`. Its exact running/completion state belongs
 only in `LIVE.md`; do not infer it from this README.
 
-The current relational-geometry spine begins with the complete-pair evaluator and culminates in the
-G129--G133 reconstruction/ownership chain:
+The current relational-geometry spine begins with:
 
-- `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`;
-- `udt_g129_copresent_relational_network_faithfulness_2026-08-16/`;
-- `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/` through
-  `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`.
+- `udt_pair_first_relational_plane_reconstruction_2026-08-12/`;
+- `udt_pair_terminal_reachability_atlas_2026-08-12/`;
+- `udt_pair_chord_network_descent_audit_2026-08-12/`.
 
 Their conclusions are conditional and premise-scoped. Read their reports and ledgers before reuse.
-Use `INDEX.md` for durable prerequisites and historical package routes.
 
 ## Repository rules
 
@@ -46,7 +43,7 @@ Use `INDEX.md` for durable prerequisites and historical package routes.
 
 ## Historical material
 
-The G133 pre-cleanup startup surface is preserved under
-`archive/startup_surface_2026-08-17_pre_zoomout/`; earlier verbose startup prose remains under
-`archive/startup_surface_2026-08-14/`. Both have SHA-256 provenance and neither is current authority.
-`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` is a historical compatibility checkpoint.
+Verbose superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` with
+SHA-256 provenance. Dated packages and archive files remain evidence, but they are not startup
+authority. `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` is a historical compatibility checkpoint, not a
+current status file.

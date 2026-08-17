@@ -13,13 +13,28 @@ choose the file that makes a desired derivation easiest.
 | `c_E`, `G_obs` | `OBSERVED` | Physical calibration anchors | Complete native placement and absolute closure |
 | Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))` on supplied ordered depth | Complete observer/event/path-to-`delta` owner |
 | Pointwise `phi` | `CONDITIONAL` presentation potential | Local factorized representation | Universal physical scalar ownership |
-| Terminal `phi_pair` | `DERIVED` conditionally | Unique reciprocal log imbalance on a supplied regular A-calibrated pair metric | Physical pair map and universal mixed-geometry identification |
-| Complete pair orchestra | `DERIVED` conditional structure | Angular/screen/mixing data enter before terminal readout | Unique physical pair cocycle/history |
-| Scoped `mu_lock` | `DERIVED` with caveats | Generic (`s!=r`) spectral defect and one signed component of a supplied endpoint transition; exact `s=r` carve-out retained | Physical carry/arrow/history owner and any unique full-`2x2` scalar |
-| Pair `c_eff` | `CONDITIONAL` observer-frame readout | Terminal ratio on a supplied calibrated pair relation | Universal physical owner; local material signal interpretation |
-| Co-presence | `WORKING` semantics | Whole-solution membership framing | New local tensor, signalling law, or selector |
+| Terminal `phi_pair` | `DERIVED` conditionally | Reciprocal log imbalance on a supplied regular calibrated pair metric | Physical pair map and universal mixed-geometry identification |
+| Complete pair orchestra | `DERIVED` conditional structure | Angular, screen, and mixing data enter before terminal readout | Physical history and global relation family |
+| Pair `c_eff` | `CONDITIONAL` observer-frame readout | Terminal ratio on a supplied calibrated pair relation | Universal owner and local material-signal interpretation |
+| Co-presence | `WORKING` semantics | Co-membership in one supplied complete solution | Query population, value assignment, signalling, or selection law |
 
-Controlling sources: registry rows G01, G02, G23, G28, G37-G40.
+Use registry rows G01, G02, G23, G28, G37--G40, and the current G129--G133 chain when exact wording
+or source ownership is load-bearing.
+
+## Current reconstruction hierarchy
+
+| Result | Bounded status | Maximum conclusion |
+|---|---|---|
+| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Full `B,Q,S,Y,Z` pullback and terminal readout for supplied regular data |
+| G129 full-pullback network | `DERIVED` in stated scope | Full metric is recoverable iff the sampled tangent span has rank ten |
+| G130 co-presence | `DERIVED` ownership boundary | Conditional co-membership, not query/value selection |
+| G131 all-plane terminal scalars | `DERIVED` in stated scope | Positive conformal class only; common scale remains open |
+| G132 common scale | `DERIVED` ownership boundary | Pair data retain supplied scale but do not source it |
+| G133 density and area | `DERIVED` in stated scope | Internal `K` density, conditional pair-density descent, and full-`g` bivector area bilinear |
+
+None of these results selects the physical network, numerical metric values, complete history,
+global completion, observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
+and package-local evidence; they are not required startup chronology.
 
 ## Scale and limits
 
@@ -28,26 +43,20 @@ Controlling sources: registry rows G01, G02, G23, G28, G37-G40.
 | `X_max` | `WORKING_FOUNDATIONAL_FRAME` | Observer-pair positional-dilation asymptote; not a wall, center, radial edge, seal, or boundary term |
 | Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless Charles explicitly reauthorizes a counterfactual branch |
 | Common-factor cancellation | `DERIVED` algebra only | Not a local Weyl-gauge theorem or proof that physical UDT is scale-free |
-
-Controlling sources: G04, G05, G06, G14.
+| Common pair scale | `SUPPLIED/RETAINED` | Not sourced by fixed `K`, terminal scalars, or `c_E` alone |
 
 ## Geometry, query, and causality
 
 - A Lorentz metric plus bare endpoints does not generically select one physical observer relation.
-- A supplied complete query/realization can be evaluated exactly; conditional evaluation is not
-  physical selection.
-- Metric causal accessibility is derived on a supplied time-oriented Lorentzian geometry. Material
-  response, principal symbol, coupling, admissible data, and signalling remain separate.
-- Endpoint scalars, shift state, Jacobi propagators, and path/normal holonomy have different natural
-  mathematical homes. Do not force them into one scalar.
-- G110 derives distinct pair/sky blocks of one full `dF`; G111 verifies bounded nonflat survival.
-- G113 identifies `dF` as the local assembly; G114 derives common-source phase composition; G115
-  derives the regular central jet; G116 joins terminal depth and source frequency coefficient-free.
-  G117 preserves SNe numerics; G118 removes an independent P1 screen pin only in banked static/two-jet scopes.
-- Exact endpoint chord composition on a shared calibrated family is verified with caveats. It does
-  not select a universal path, global family, or dynamics.
-
-Controlling sources: G24, G37-G45, G62-G64, G87.
+- A supplied complete query/realization can be evaluated exactly; evaluation is not selection.
+- Metric causal accessibility is derived on supplied time-oriented geometry. Material response,
+  principal symbol, coupling, admissible data, and signalling remain separate.
+- Endpoint scalars, density coefficients, shift state, Jacobi propagators, and path/normal holonomy
+  have different natural mathematical homes.
+- Full pullbacks plus known embeddings can recover `g`; scalar-only pair data recover only its
+  positive conformal class in the G131 scope.
+- Pair-volume density descends only on a genuine common atlas or matched local system. Across planes,
+  the natural metric object is the symmetric bivector area bilinear.
 
 ## Carrier, action, source, and matter
 
@@ -59,92 +68,43 @@ Controlling sources: G24, G37-G45, G62-G64, G87.
 | EH action | `CONDITIONAL_NOT_SELECTED` | Familiarity with GR is not derivation |
 | `C^2`/Bach action | Conditional on inactive strong-CSN premise | No current action priority |
 | Native source | `OPEN` | Geometric response/current roles do not supply source substance |
-| Bootstrap | `WORKING` mutual-admissibility posit | Partial kinematic joins exist; no complete fixed point, density selector, or matter theorem |
+| Bootstrap | `WORKING` mutual-admissibility posit | No complete fixed point, density selector, or matter theorem |
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 
-Controlling sources: G09-G13, G15-G16, G21, G26-G27.
+## Observational boundary
 
-## Current bounded results
-
-- Pair-terminal reachability: exact pointwise bounded theorem, `VERIFIED-WITH-CAVEATS`.
-- Chord-network descent: exact zero-order endpoint composition on one shared calibration family,
-  externally `VERIFIED-WITH-CAVEATS` (G87).
-- Pair-first relational-plane reconstruction: conditional complete-metric evaluation,
-  `VERIFIED-WITH-CAVEATS`.
-- Uncompressed complete-pair evaluator: `VERIFIED-WITH-CAVEATS` after a fresh sealed external review;
-  all `B,Q,S,Y,Z` channels and derivatives retained before terminal readout; physical pair/history
-  and unique scalar `mu` open.
-- August 6 `mu_lock`: G92 internally derives the restricted bridge
-  `mu_lock=-[Q_q(S_q-S_p)B_p^-1]_(screen,clock)` for a supplied block-preserving identity carry.
-  It remains distinct from July `mu_old`; the rank-one slice selects no unique full-`2x2` scalar,
-  terminal `h` cannot recover it universally, and fresh semantic review remains open.
-- Reciprocal-kernel release candidate: G93 is externally `VERIFIED-WITH-CAVEATS`; one coherent
-  `B,Q,S,Y,Z -> h -> phi_pair` pipeline and distinct ambient/terminal composition justify only a
-  no-fit geometry replay. Physical history and flux/source ownership remain open.
-- Native flux ownership: G94 externally verifies the regular supplied-query factor
-  `F_o=L_Omega eta epsilon/(Z^3 d_A^2)`; `eta epsilon`, the full luminosity law, physical history,
-  singular/global propagation, and any SNe fit remain open.
-- Native current/energy ownership: G95 externally verifies only conditional Maxwell-shaped response
-  and null phase-volume transport; physical cargo stays open and `epsilon=1/Z` requires one carrier-covector identification.
-- Null-query label current: G96 confirms the closed pushforward three-form and exact metric/Jacobi
-  density representation but no physical owner; carrier identification and `eta` remain open.
-- G97 verifies one incompatible provisional-transfer SNe control; it does not test physical history or `X_max`.
-- G98 verifies flat, monotone, and loud-quiet-loud survivors; quiet middle is permitted, not selected.
-- G99 freezes P1; G102-G106 type the evaluator; G107, G108, and G109 retain census/Jacobi/depth. G110 reconstructs distinct
-  pair/sky blocks; G111 proves bounded nonflat survival; G112 verifies dual-SNe non-regression.
-- G113's static chord exposes P1's `1/r` center obstruction; G114's phase carry survives caustics;
-  G115-G118 derive the live jet, frequency junction, SNe retyping, and scaffolding reduction. G119
-  proves finite-radius `D_sky=R O`; G120 conditionally retypes one outgoing radius-frequency curve.
-  G121 separates local identities from conditional pair-scalar descent. G122 keeps terminal pair
-  and causal phase distinct. G123, G124, G125, G126, G127, and G128 derive conditional incidence, scalar, and screen structure. G129 proves full-pullback faithfulness iff rank ten; G130 separates conditional co-membership and unowned values; G131 proves scalar-only conformal faithfulness. G132 separates supplied common scale from its physical owner. G133 proves fixed `K` owns only internal unimodular density, supplied pair density descends on a genuine common atlas, `kappa_pair` needs matched calibration, and full `g` owns a symmetric bivector area bilinear. Physical network soldering and values, history, global extension, observations, and `X_max` remain open.
-- Overlapping-pair compatibility is internally `VERIFIED-WITH-CAVEATS`; corrected contribution-live
-  flat, monotone, and loud-quiet-loud lifts survive, but activity selects no score.
-- Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict
-  intermediate trace minimum does not derive a physical quiet-middle regime.
-- R2 raw observational atlas: `OBSERVED`, `VERIFIED-WITH-CAVEATS`.
-- R3 covariance atlas: complete and independently verified with caveats;
-  `COVARIANCE_RESOLUTION_OR_RANK_LIMITED`; no preferred grid, feature, significance, or physics.
-- R4 empirical relation atlas: complete and independently verified with caveats; broad whole-curve
-  shape persists across every registered relation class, while amplitude/fine detail vary and full
-  covariance metrics remain grid-dependent; no individual feature, significance, or physics.
-- R5 is externally `VERIFIED-WITH-CAVEATS`: one dominant whole-curve direction, control-dependent
-  additional alignment, and 184,300 unresolved covariance rows; no rank, feature, or physics.
-
-The observational lane changes no UDT premise. A numerical pattern is not automatically physics.
+R2--R5 are `OBSERVED` and verified with caveats. Their broad shape, covariance, and common-subspace
+structure do not select a grid, feature, rank, physical scale, significance, BAO/UDT/CMB origin,
+cosmology, or `X_max`. Conditional SNe replays import radiative-transfer assumptions and select no
+metric history. A numerical resemblance or non-rejection is not automatically physics.
 
 ## Recurring prohibited promotions
 
 Do not:
 
 - call supplied ordered depth a universally derived pointwise field;
-- call terminal `phi_pair` or a strain eigenvalue the unique physical law;
+- call terminal `phi_pair`, `kappa_pair`, or a strain eigenvalue the unique physical law;
 - treat pair `c_eff` as local signal speed without a material response law;
 - identify a lapse zero, seam, diameter, or fitted endpoint with physical `X_max`;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
 - identify the celestial `S^2` fiber with the matter carrier;
-- call conditional geometry a native action, source, mass, or bootstrap theorem;
-- call a bounded stationary/time-live witness a selected universe;
+- call density descent a query-independent spacetime two-form or physical value law;
+- call conditional geometry a native action, source, mass, bootstrap theorem, or selected universe;
 - import GR, Lambda-CDM, Standard Model, quantum, or fluid mechanisms as UDT derivations;
 - use observational resemblance to select a branch before a preregistered comparison.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the exact machine-readable authority. Each row records:
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the exact 120-row machine-readable authority. Each row records
+the object, classification, premise stamp, scope, unresolved scope, prohibited inference,
+controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
+chronology.
 
-```text
-id, object, current classification, premise stamp, active scope,
-unresolved scope, prohibited inference, controlling source, precedence rule
-```
-
-Premise IDs are stable ledger keys, not a consecutive result count. Gaps are intentional and do not
-mean startup evidence is missing. During orientation use this guide and the verifier below; query
-exact TSV rows only after orientation when the requested task makes those objects load-bearing.
-
-Before banking a high-risk result run:
+During orientation use this guide and run:
 
 ```bash
 python3 verify_current_scientific_premises.py
 ```
 
-Verbose pre-cleanup commentary is preserved at
-`archive/startup_surface_2026-08-14/CURRENT_SCIENTIFIC_PREMISES_before_cleanup.md`; the TSV controls.
+Query exact TSV rows only after orientation when the requested task makes them load-bearing.
+Pre-cleanup startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/`.

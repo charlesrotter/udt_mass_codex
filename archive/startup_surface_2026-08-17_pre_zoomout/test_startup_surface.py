@@ -5,7 +5,6 @@ from __future__ import annotations
 import shutil
 import subprocess
 import sys
-import re
 from pathlib import Path
 
 import pytest
@@ -17,21 +16,61 @@ REPO = Path(__file__).resolve().parents[1]
 CURRENT_TARGETS = (
     "CURRENT_SCIENTIFIC_PREMISES.tsv",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md",
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_PREREGISTRATION.md",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_OUTCOME_REPORT.md",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_VERIFICATION_RESULT.json",
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_FINAL_STATUS.json",
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_PREREGISTRATION.md",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_VERIFICATION_RESULT.json",
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_FINAL_STATUS.json",
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_PREREGISTRATION.md",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_OUTCOME_REPORT.md",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_VERIFICATION_RESULT.json",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md",
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_STATUS.json",
     "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv",
+    "udt_observed_angular_pattern_raw_restart_2026-08-12/STATUS_LEDGER.tsv",
     "udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md",
     "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",
     "udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md",
     "udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md",
     "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
+    "udt_august6_mu_complete_kernel_crosswalk_2026-08-15/AUDIT_REPORT.md",
+    "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/AUDIT_REPORT.md",
+    "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/AUDIT_REPORT.md",
+    "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_native_radiative_current_energy_owner_audit_2026-08-15/AUDIT_REPORT.md",
+    "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_null_carrier_measure_ownership_audit_2026-08-15/AUDIT_REPORT.md",
+    "udt_null_carrier_measure_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/SNE_EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_complete_history_regime_continuation_ownership_audit_2026-08-15/AUDIT_REPORT.md",
+    "udt_observed_middle_regime_pair_calibration_2026-08-15/AUDIT_REPORT.md",
+    "udt_grok2_parallel_branch_integration_audit_2026-08-15/AUDIT_REPORT.md",
+    "udt_bao_G102_complete_two_source_observable_map_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_bao_G103_source_independent_restriction_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_bao_G104_kaleidoscope_forward_operator_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_bao_G105_complete_orchestra_two_route_lift_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_bao_G106_complete_sky_depth_reference_projection_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_complete_reciprocal_representation_extension_census_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+    "udt_observer_exponential_full_differential_type_audit_2026-08-16/AUDIT_REPORT.md",
+    "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/AUDIT_REPORT.md",
+    "udt_g112_full_differential_dual_sne_invariance_2026-08-16/AUDIT_REPORT.md",
+    "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/AUDIT_REPORT.md",
+    "udt_g114_common_source_three_observer_network_2026-08-16/AUDIT_REPORT.md",
+    "udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/AUDIT_REPORT.md",
     "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/AUDIT_REPORT.md",
+    "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/AUDIT_REPORT.md",
+    "udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/AUDIT_REPORT.md",
     "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/AUDIT_REPORT.md",
+    "udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/AUDIT_REPORT.md",
+    "udt_g126_angular_lane_same_query_bridge_2026-08-16/AUDIT_REPORT.md",
+    "udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/AUDIT_REPORT.md",
+    "udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/AUDIT_REPORT.md",
     "udt_g129_copresent_relational_network_faithfulness_2026-08-16/AUDIT_REPORT.md",
     "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/AUDIT_REPORT.md",
     "udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/AUDIT_REPORT.md",
@@ -63,15 +102,6 @@ def _startup_copy(tmp_path: Path) -> Path:
     )
     for name in premise_guard.ARCHIVED_STARTUP_SNAPSHOTS:
         shutil.copy2(REPO / "archive/startup_surface_2026-08-14" / name, archive / name)
-
-    pre_zoomout = tmp_path / "archive" / "startup_surface_2026-08-17_pre_zoomout"
-    pre_zoomout.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(
-        REPO / "archive/startup_surface_2026-08-17_pre_zoomout/SHA256_MANIFEST.tsv",
-        pre_zoomout / "SHA256_MANIFEST.tsv",
-    )
-    for name in premise_guard.PRE_ZOOMOUT_STARTUP_SNAPSHOTS:
-        shutil.copy2(REPO / "archive/startup_surface_2026-08-17_pre_zoomout" / name, pre_zoomout / name)
     return tmp_path
 
 
@@ -105,24 +135,23 @@ def test_catch_duplicate_live_marker(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_missing_observational_package_route(tmp_path: Path) -> None:
+def test_catch_missing_r3_outcome_route(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(
-        root / "LIVE.md",
-        "udt_observed_angular_pattern_raw_restart_2026-08-12",
-        "REMOVED_OBSERVATIONAL_PACKAGE",
-    )
+    _replace(root / "LIVE.md", "R3_OUTCOME_REPORT.md", "REMOVED_R3_OUTCOME.md")
     with pytest.raises(SystemExit, match="marked current block lacks"):
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
+def test_catch_missing_r4_outcome_route(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(
-        root / "LIVE.md",
-        "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
-        "REMOVED_RAW_ARCHIVE/",
-    )
+    _replace(root / "LIVE.md", "R4_OUTCOME_REPORT.md", "REMOVED_R4_OUTCOME.md")
+    with pytest.raises(SystemExit, match="marked current block lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_r5_outcome_route(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "R5_OUTCOME_REPORT.md", "REMOVED_R5_OUTCOME.md")
     with pytest.raises(SystemExit, match="marked current block lacks"):
         premise_guard.validate_startup_surface(root)
 
@@ -130,7 +159,7 @@ def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
 def test_catch_missing_g133_current_result(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", "G133", "REMOVED_RESULT_133")
-    with pytest.raises(SystemExit, match="marked current block lacks G133"):
+    with pytest.raises(SystemExit, match="G133 fixed-K density result absent"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -164,13 +193,6 @@ def test_catch_missing_current_parent_route(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_missing_complete_startup_order(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "INDEX.md", "`CLAUDE.md`", "`REMOVED_CHARTER.md`")
-    with pytest.raises(SystemExit, match="current route lacks CLAUDE.md"):
-        premise_guard.validate_startup_surface(root)
-
-
 def test_catch_missing_premise_registry_pointer(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "README.md", "CURRENT_SCIENTIFIC_PREMISES.tsv", "REMOVED_PREMISE_REGISTRY.tsv")
@@ -193,14 +215,6 @@ def test_catch_archive_snapshot_mutation(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_pre_zoomout_archive_snapshot_mutation(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    path = root / "archive/startup_surface_2026-08-17_pre_zoomout/LIVE.md"
-    path.write_text(path.read_text(encoding="utf-8") + "\nmutation\n", encoding="utf-8")
-    with pytest.raises(SystemExit, match="pre-zoomout archive hash mismatch"):
-        premise_guard.validate_startup_surface(root)
-
-
 def test_catch_missing_current_evidence_target(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     (root / "udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md").unlink()
@@ -208,48 +222,23 @@ def test_catch_missing_current_evidence_target(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-def test_active_orientation_surface_stays_readably_bounded() -> None:
+def test_active_orientation_surface_stays_bounded() -> None:
     limits = {
-        "AGENTS.md": (220, 1800),
-        "LIVE.md": (135, 900),
-        "HANDOFF.md": (100, 600),
-        "INDEX.md": (110, 550),
-        "MEMORY.md": (70, 450),
-        "CURRENT_RESEARCH_PROGRAM.md": (155, 1100),
-        "CURRENT_SCIENTIFIC_PREMISES.md": (135, 1250),
-        "README.md": (100, 400),
-        "research/README.md": (80, 300),
-        "research/_registry/README.md": (80, 280),
-        "INFLIGHT_STATE.md": (40, 150),
+        "AGENTS.md": 220,
+        "LIVE.md": 170,
+        "HANDOFF.md": 130,
+        "INDEX.md": 100,
+        "MEMORY.md": 80,
+        "CURRENT_RESEARCH_PROGRAM.md": 170,
+        "CURRENT_SCIENTIFIC_PREMISES.md": 150,
+        "README.md": 100,
+        "research/README.md": 80,
+        "research/_registry/README.md": 80,
+        "INFLIGHT_STATE.md": 40,
     }
-    for relative, (maximum_lines, maximum_words) in limits.items():
-        text = (REPO / relative).read_text(encoding="utf-8")
-        lines = text.splitlines()
-        words = text.split()
-        assert len(lines) <= maximum_lines, (
-            f"{relative} regrew to {len(lines)} lines (limit {maximum_lines})"
-        )
-        assert len(words) <= maximum_words, (
-            f"{relative} regrew to {len(words)} words (limit {maximum_words})"
-        )
-        longest = max((len(line) for line in lines), default=0)
-        assert longest <= 220, f"{relative} contains a {longest}-character compressed line"
-
-
-def test_startup_keeps_dependency_spine_not_execution_chronology() -> None:
-    for relative in (
-        "LIVE.md",
-        "HANDOFF.md",
-        "CURRENT_RESEARCH_PROGRAM.md",
-        "CURRENT_SCIENTIFIC_PREMISES.md",
-        "INDEX.md",
-        "MEMORY.md",
-    ):
-        text = (REPO / relative).read_text(encoding="utf-8")
-        mentions = re.findall(r"\bG(?:9\d|1[0-3]\d)\b", text)
-        assert len(mentions) <= 14, (
-            f"{relative} regrew an execution chronology with {len(mentions)} G-result mentions"
-        )
+    for relative, maximum in limits.items():
+        count = len((REPO / relative).read_text(encoding="utf-8").splitlines())
+        assert count <= maximum, f"{relative} regrew to {count} lines (limit {maximum})"
 
 
 def test_startup_does_not_promote_full_evidence_or_relocation_dump() -> None:

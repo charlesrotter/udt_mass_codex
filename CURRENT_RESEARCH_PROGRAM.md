@@ -4,167 +4,136 @@ Date: 2026-08-17
 Authority: active dependency spine; not canonization
 
 `LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise
-classification. This file answers only: what has been established, what is open, and what is next?
+classification. This file states only the current architecture, open gates, and next bounded move.
 
 ## Program picture
 
-UDT has a strong conditional evaluator, a unified point-observer differential, and an open physical-history problem.
+UDT currently has a strong conditional observer-pair evaluator, a faithful reconstruction hierarchy,
+and an open physical-history problem.
 
 Given a complete metric history, a typed observer query, and a calibrated realization, the geometry
-can return a layered relation:
+can return:
 
-1. a complete pair metric and terminal reciprocal readout;
-2. derivative/extrinsic/Jacobi/transport information when the query owns it;
-3. global calibration, branch, and holonomy compatibility.
+1. the complete pair metric and terminal reciprocal readout;
+2. derivative, extrinsic, Jacobi, and transport data when the query owns them;
+3. overlap, calibration, branch, density, and holonomy compatibility.
 
-What remains unowned is the physical complete history and global relation family. Existing metric
-identities organize supplied geometry but do not yet select an on-shell subset. Bootstrap may
-eventually be a joint global/local admissibility law, but that remains a working hypothesis.
+These are not separate mechanisms bolted onto the metric. They are different readouts of supplied
+complete metric and observer-relation data. What remains open is whether the metric already contains
+a simpler global organizing statement that determines the physical history and mutually consistent
+observer network, or whether an additional physical premise is required.
 
-## Active operational lane — verified raw pattern, covariance, and relation structure
+## Controlling local evaluator
 
-R3 completes all 194 cells, 2,328 covariances, and eight independent deletion anchors but is
-`COVARIANCE_RESOLUTION_OR_RANK_LIMITED`; no grid is selected. R4 finds broad whole-curve persistence
-across 9,286 relations while detail and full covariance remain grid-dependent. R5 finds one
-dominant common direction plus control-dependent additional alignment; 184,300 covariance-range
-rows remain explicitly unresolved. These externally verified-with-caveats results are metric-neutral
-data characterization, not a UDT fit, preferred feature, mode count, scale, or interpretation.
+For supplied regular `E=[[B,0],[Q S,Q]]` and `J=[Y;Z]`, the complete pullback is formed before scalar
+readout:
 
-## Current relational-geometry result stack
+```text
+h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
+phi_pair=(1/4)log[(-det h)/h00^2],
+c_eff^(pair)/c_E=exp(-2phi_pair).
+```
 
-### 1. Pair-first reconstruction — verified with caveats
-
-On a supplied regular timelike pair immersion, the tangent clock/ruler plane and positive screen are
-intrinsic to that realization. Angular and mixing sectors enter the pair pullback before terminal
-`phi_pair` and the conditional pair `c_eff` ratio are read. No universal ambient preferred plane is
-needed for conditional evaluation.
-
-Source: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`.
-
-### 2. Complete zero-order reachability — verified with caveats
-
-For one fixed symbolic A-calibrated Lorentzian base, the complete pointwise `PSD(2)` orchestra image
-has an exact terminal inequality, inverse Gram reconstruction, rank atlas, and signature
-classification. This maps possible terminal chords; it does not select a physical history.
-
-Source: `udt_pair_terminal_reachability_atlas_2026-08-12/`.
-
-### 3. Zero-order network descent — externally verified with caveats
-
-On one common calibrated endpoint family, coframe ratios compose and reverse and `Delta phi`
-telescopes. Positive-semidefinite reachability is instead a directed partial order. Independently
-rebuilt middle states, route channels, and the physical global family remain open.
-
-Source: `udt_pair_chord_network_descent_audit_2026-08-12/`.
-
-### 4. Uncompressed complete-pair evaluator — externally verified with caveats
-
-For supplied `E=[[B,0],[Q S,Q]]` and supplied `J=[Y;Z]`, the complete pair metric is assembled before
-the terminal `phi_pair` and `c_eff/c_E` readout. The exact live identity retains
-`dot B,dot Q,dot S,dot Y,dot Z`. Modern mixing is the four-component matrix `S`; no unique scalar
-`mu` is owned. G92 conditionally maps August 6 `mu_lock` to one signed component of the supplied
-endpoint transition `Q_q(S_q-S_p)B_p^-1`, but proves that its rank-one slice selects no unique full
-`2x2` scalar and that terminal `h` cannot reconstruct it universally. Physical carry, pair, and
-history ownership remain open; its use inside G93 has now received fresh sealed review.
-
-A fresh sealed `gpt-5.4` adversary independently reproduced the pullback, regular singular-`Y`
-boundary witness, five-channel live variation, terminal ratio, compression fibers, and `mu` type
-result. It returned `VERIFIED_WITH_CAVEATS` with no blocking defect.
+All `B,Q,S,Y,Z` channels and their live derivatives remain active upstream. This is
+`VERIFIED_WITH_CAVEATS` conditional geometry. It does not select the supplied history, query,
+realization, or physical radiative transfer.
 
 Source: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
-The predecessor's fixed-`P` strict intermediate trace minimum remains a conditional diagnostic, not
-a physical regime score.
+## Current reconstruction and ownership chain
 
-### 5. Overlapping-pair live compatibility — internally verified, external review pending
+### G129 — complete pullback faithfulness
 
-Genuine chart overlaps, shared observer tangents, literal middle states, and joint ambient Gram
-data impose exact nonidentity simultaneous-realizability conditions. A five-channel joint Gram
-matrix has rank at most four and Lorentz negative index at most one. These constraints reject
-inconsistent assemblies but accept arbitrary smooth realizable histories.
+On one supplied common observer network, the known embeddings, full pullbacks, and overlap data are
+equivalent to full `g` exactly when the sampled tangent span has rank ten. Lower rank retains an
+explicit metric kernel. This characterizes informational sufficiency; it does not choose the
+network or assign its values.
 
-The fixed-response loud-ends/quiet-middle theorem survives both in the normalized trace and the
-terminal modulation. The first report overstated explicit lifts as “fully live”; Charles caught
-that their `Q,Y,Z` blocks were fixed. The preregistered correction constructs stricter flat,
-monotone, and loud-quiet-loud families with `B,Q,S,Y,Z` and every separate `dot h` contribution
-live near an exact control. Hence the pattern survives the complete orchestra, while activity and overlap alone do not
-select the physical score.
+### G130 — co-presence
 
-Source: `udt_overlapping_pair_live_compatibility_audit_2026-08-14/`.
+Co-presence can be formalized as co-membership of events and relations in one supplied complete
+solution. It does not, by itself, create a query population, observer pairing, or numerical
+valuation. Reciprocity constrains comparisons after their ordered relational data are supplied.
 
-G93 joins the release-candidate interfaces: ambient and terminal transitions remain distinct, all
-five complete channels precede readout, and `mu_lock` is not appended. G94 derives the conditional
-geometric flux factor; G95/G96 leave physical transfer and cargo open.
+### G131 — scalar-only conformal ceiling
 
-G97 completes the first end-to-end house test with provisional `eta=1`, `epsilon=1/Z`, and source
-isotropy. One preselected G79 control gives `chi2=16255.30` for `1366` degrees of freedom. Fresh
-sealed review rebuilt its full null/screen/Jacobi curve and raw-data likelihood and accepted
-`VERIFIED_WITH_CAVEATS__ONE_CONTROL_STRONGLY_SNE_INCOMPATIBLE`. This establishes an operational
-conditional evaluation path, not a physical history, native radiation law, all-sky theorem,
-`X_max`, or UDT rejection.
+On a supplied shared full-dimensional open domain of identically labelled timelike planes, all
+terminal reciprocal scalars determine the positive conformal class. They do not recover the common
+local scale.
 
-G98 retains flat, monotone, and loud-quiet-loud continuations but selects none; G99 freezes P1, and G100 finds conditional DES non-rejection with a low-chi-square warning and about `1.64 sigma` shift.
+### G132 — common-scale ownership
 
-G106 types the projector; G107 closes the constant census. G108's Jacobi algebra and G109's terminal depth survive; G110
-corrects their same-`W` join. One supplied point-observer full `dF`, with `dV=E(dJ+E^-1dE J)`, has a pair block owning
-`phi_pair`, a distinct sky-Jacobi block, and mixed compatibility. Its null pair-screen projection
-has rank at most one. Physical history, celestial field, global weights, and general queries remain open.
+The complete pair triplet retains supplied scale but does not source it. Fixed `K` removes only an
+internal reciprocal multiplier. `c_E` and `G_obs` are observed anchors, but no current theorem
+derives their bridge to the physical complete metric history.
 
-G111 verifies the architecture on bounded nonflat R17 controls; G112 establishes fixed-P1 dual-SNe
-non-regression while leaving screen and transfer conditional. G113 identifies one full observer
-differential as the local assembly: its static spherical chord gives `phi_pair=phi`, but exact P1
-static inversion has invariant `1/r` center curvature, so the chord is not a smooth static profile.
+### G133 — density descent and metric area
 
-G114 derives affine-aware source-phase composition and caustic survival without selecting beam alignment.
-G115 `udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/` derives the regular
-central time-live jet modulo residual areal-time slicing: terminal/areal depth is `O(R^2)`, while a
-supplied source congruence permits invariant frequency `(b-q)R`; physical history remains open.
+Fixed `K` owns an internal unimodular determinant density only. For a supplied regular pair metric,
 
-G116 derives `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)` locally without a coefficient; G117 preserves frozen P1 dual-SNe numerics conditionally.
+```text
+nu_h=sqrt(-det h)|dy0 wedge dy1|
+```
 
-G118 and G119 derive exact screen structure; G120 retains conditional SNe comparison. G121, G122, G123, G124, G125, G126, G127, and G128 separate scalar, phase, incidence, and finite-path channels. G129 proves full-pullback network faithfulness iff rank ten; G130 separates conditional co-membership and unowned values; G131 proves scalar-only conformal faithfulness. G132 separates supplied common scale from its physical owner. G133 `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/` proves fixed `K` owns only internal unimodular determinant density; a supplied pair density descends on one genuine common atlas; `kappa_pair` needs matched calibration; full `g` owns the symmetric bivector area bilinear. Physical network soldering and values, history, solution law, and global completion remain open.
+is an intrinsic positive density and descends on genuine overlaps of one common pair atlas.
+`kappa_pair` is a log-density coefficient and becomes an endpoint scalar difference only after
+matched density trivializations. Across different observer planes, full `g` owns the symmetric
+bivector area bilinear, not a universal alternating two-form. Fresh adversarial follow-up passed.
 
-## Macro observational anchors
+Sources: `udt_g129_copresent_relational_network_faithfulness_2026-08-16/` through
+`udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`; use `INDEX.md` for exact routes.
 
-- G99 freezes historical P1 as a conditional middle-regime calibration; G100 supplies
-  independent-release non-rejection with a low-chi-square warning, not a UDT test.
-- The current BOSS R2--R4 lane characterizes raw angular structure, covariance, and complete
-  control-relation persistence without importing a standard ruler or Lambda-CDM interpretation.
-- Existing CMB geometry packages map conditional sky/Jacobi/screen response families. They do not
-  select a physical profile, source covariance, global scale, `X_max`, or observed spectrum.
+## Durable prerequisites
 
-Observations may later falsify or constrain an owned joint law; they do not currently derive one.
-## `X_max` lane
+- Pair-first relational-plane reconstruction: a supplied regular pair immersion owns its tangent
+  plane and positive screen; the orchestra enters before terminal readout.
+- Pair-terminal reachability: exact bounded pointwise terminal atlas, not history selection.
+- Chord-network descent: endpoint ratios compose on one supplied calibration family.
+- Finite-radius central-spherical screen theorem: `D_sky=R O`, `|det D_sky|=R^2` on its stated
+  regular branch.
+- Operational frequency junction: terminal depth and source frequency agree on the stationary pure
+  reciprocal reduction but differ on general live queries.
 
-`X_max` is the working frame-shared observer-pair positional-dilation asymptote. The exact
-separation-depth profile, global all-observer realization, numerical value, and angular/bootstrap
-modulation remain open. Conditional lapse-zero seams and static-patch diameters are witnesses only,
-not physical `X_max`.
+The G93--G128 execution chronology is archived provenance. Open those packages only when their
+specific premise or proof becomes load-bearing.
 
-## Matter/stability lane
+## Observational anchors
 
-The mass-emergence record contains plural conditional branches and a static finite-box Hopfion
-result. It is full 3D Hopf-capable, but the `S^2` carrier remains a posit and unconditional matter
-closure remains open. Resume from `MASS_BRANCH_AUTHORITY_MAP.tsv`.
+R2--R5 are metric-neutral data characterization. R4 finds broad whole-curve persistence; R5 finds
+one dominant shared direction plus control-dependent additional alignment. Covariance resolution,
+rank, and 184,300 covariance-range rows remain partly unresolved. No preferred feature, scale,
+significance, BAO/UDT/CMB origin, cosmology, or `X_max` is established.
+
+SNe work remains a conditional comparison/non-regression anchor with imported radiative transfer,
+not a branch selector or native luminosity theory. Existing CMB geometry packages map conditional
+screen/Jacobi response, not an observed spectrum.
+
+## Other live scientific lanes
+
+- `X_max`: working observer-pair positional-dilation asymptote; exact profile, value, global
+  realization, and angular/bootstrap modulation remain open.
+- Matter/stability: plural conditional mass-from-geometry branches and scoped finite-box Hopfion
+  stability remain banked; the `S^2` carrier is still a posit.
+- Action/source/bootstrap: no native action, source law, boundary completion, stable-matter theorem,
+  or bootstrap selector has been derived.
 
 ## Current open joints
 
-1. Operational ownership of catalog frequency ratio and regrade of old redshift interfaces.
-2. Physical complete history/global relation-family ownership.
-3. Live regime evolution of `B,Q,S,Y,Z` and their lawful overlaps.
-4. Complete SNe transfer/history and CMB source/population ownership.
-5. Exact `X_max` global realization and scale.
-6. Native action, source, boundary completion, carrier emergence, and stable matter.
-7. Whether bootstrap supplies a nonidentity joint global/local admissibility condition.
+1. Does the full-metric area bilinear supply a more natural global comparison architecture than the
+   scalar/density questions that preceded it?
+2. Can one complete history and observer network be derived from the founded metric structure, or
+   are current results only evaluators on supplied data?
+3. How do lawful time-live histories determine the relative strength of pair, screen, mixing, and
+   phase channels across regimes?
+4. What are the native radiative/source and global-completion laws, if any?
+5. What is the exact global realization and value of `X_max`?
 
-These are related, but no current result proves that one missing equation closes all seven.
+## Bounded next action
 
-## Bounded next actions
+MAP/PONDER question 1 at full-metric level. Determine whether the bivector area bilinear changes the
+history/value problem or simply evaluates supplied planes. Do not launch another ownership census,
+AM seam atlas, preferred-path hunt, observational fit, GPU solve, or mechanism invention merely to
+create forward motion.
 
-Next: MAP/PONDER whether the full-`g` area bilinear materially reframes the history/value question,
-or merely evaluates supplied planes. Do not launch another ownership loop, invent a selector, fit
-observations, or infer the physical global solution from bounded covariance.
-
-Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
-
-Historical detail remains under `archive/startup_surface_2026-08-14/` and the premise registry.
+Historical startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/` and
+`archive/startup_surface_2026-08-14/`.

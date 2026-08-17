@@ -48,9 +48,6 @@ STALE_STARTUP_TOKENS = (
     "udt-r3-covariance-patchlists-20260813.service",
     "Complete R3 -> assemble -> independently verify",
     "194 component cells -> assembly -> independent verification -> outcome inspection",
-    "external review pending",
-    "first end-to-end house test",
-    "R5 data-only common-subspace assembly",
 )
 
 ARCHIVED_STARTUP_SNAPSHOTS = {
@@ -67,22 +64,6 @@ ARCHIVED_STARTUP_SNAPSHOTS = {
     "INFLIGHT_STATE_before_cleanup.md": ("0ab4394549b72f17a4fbdee75425d1da91a75d8d5cb13da5bb8051e7a748704f", 278),
     "verify_current_scientific_premises_before_cleanup.py": ("f2abb9928bab03960fdfe7bb1283419abd3c04d63eab301eaa7326f10adb236c", 1411),
     "test_startup_surface_before_cleanup.py": ("4e293c1d2204d2ec4d4c1b71f9f3dec62a43ce75ca32e899b15dcb195c0aee76", 420),
-}
-
-PRE_ZOOMOUT_STARTUP_SNAPSHOTS = {
-    "AGENTS.md": ("b8281460b0661c9a8a3d129eefc3ea2bdf7617ca55f2270acb366fe70836d10d", 195),
-    "LIVE.md": ("708e52f3bb97b2f70dcf43e31c4ee4e0d42ee466a7f86d3d720cfb3a1ea9fac1", 170),
-    "HANDOFF.md": ("3f243e99bd1a6ccde29376c1e31bff739e946ea3251289651a9146b8cc60b50c", 130),
-    "CURRENT_RESEARCH_PROGRAM.md": ("c871d62c0f768706da914099dafbdcc62afc806454c59210f827a8d549aa3957", 170),
-    "CURRENT_SCIENTIFIC_PREMISES.md": ("5259b543f6dc179e91f2760901ac6903534bba5e520152cc64f7fc1ce187e999", 150),
-    "INDEX.md": ("d48def69cbcf64c6115991b11fb8466e1f838dede8ced111293d6480e262004b", 100),
-    "MEMORY.md": ("3ac19868b3bf431e5b44d8f877cbcb089cf2e3b8bff6864c64a5cad168bdecb5", 80),
-    "root_README.md": ("d5b684dcb5ff0b97a411274943261e54bb06c3c741d4502c145feb6c77d41868", 49),
-    "research_README.md": ("43819d472fd76d873e26f2922e55d0ba4af6c8bb78fa12b2dadd1b4e00c4912e", 35),
-    "research_registry_README.md": ("1d409ee70bd45eb7839b8ea6d4c9a223367019536dfd7e5078125d800e4debe9", 31),
-    "INFLIGHT_STATE.md": ("ea0a37eab7d264d0ae32ad784b3850110fdab3a164af92e3a5342b066514c75b", 17),
-    "verify_current_scientific_premises.py": ("d129e654e3a7833ffb38f5e21cc6206aecfa864c4c31257f5affd0b5825fe291", 2710),
-    "test_startup_surface.py": ("19c079a1bb448943b5456c644c9ae15bf178c158b239fa8aaef49a316ecc7326", 265),
 }
 
 
@@ -125,34 +106,204 @@ def validate_startup_surface(root: Path) -> None:
     live = marked_current_block(root / "LIVE.md")
     handoff = marked_current_block(root / "HANDOFF.md")
     for name, block in (("LIVE.md", live), ("HANDOFF.md", handoff)):
-        normalized = " ".join(block.split())
         for token in (
-            "udt_uncompressed_pair_kernel_reconstruction_2026-08-14",
-            "B,Q,S,Y,Z",
-            "phi_pair",
-            "c_eff",
             "udt_observed_angular_pattern_raw_restart_2026-08-12",
+            "R3_OUTCOME_REPORT.md",
+            "R3_VERIFICATION_RESULT.json",
+            "R4_OUTCOME_REPORT.md",
+            "R4_VERIFICATION_RESULT.json",
+            "R5_OUTCOME_REPORT.md",
+            "R5_VERIFICATION_RESULT.json",
+            "R5_EXTERNAL_FOLLOWUP_REVIEW.md",
+            "R5_FINAL_EVIDENCE_MANIFEST.tsv",
             "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
-            "184,300",
+            "194",
+            "independent verification",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
-            "archive/startup_surface_2026-08-17_pre_zoomout",
-            "G129",
-            "G130",
-            "G131",
-            "G132",
-            "G133",
-            "rank ten",
-            "conformal",
-            "density",
-            "bivector area bilinear",
-            "history/solution law",
-            "OPEN",
+            "archive/startup_surface_2026-08-14",
         ):
-            require(token in normalized, f"marked current block lacks {token}: {name}")
-        require("R2--R5" in normalized and "verified with caveats" in normalized.lower(), f"R2--R5 grade absent: {name}")
+            require(token in block, f"marked current block lacks {token}: {name}")
+        require("R2" in block and "VERIFIED-WITH-CAVEATS" in block, f"R2 grade absent: {name}")
         require(
-            "no preferred" in normalized.lower(),
-            f"observational no-preferred-selection guard absent: {name}",
+            "OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED" in block,
+            f"R3 completed grade absent: {name}",
+        )
+        require(
+            "OBSERVED_VERIFIED_WITH_CAVEATS__BROAD_SHAPE_PERSISTENCE_WITHOUT_FEATURE_SELECTION__FULL_COVARIANCE_METRIC_GRID_DEPENDENT" in block,
+            f"R4 completed grade absent: {name}",
+        )
+        require(
+            "OBSERVED_VERIFIED_WITH_CAVEATS__ONE_DOMINANT_SHARED_DIRECTION__ADDITIONAL_SUBSPACE_ALIGNMENT_CONTROL_DEPENDENT__COVARIANCE_RANGE_PARTLY_UNRESOLVED" in block,
+            f"R5 completed grade absent: {name}",
+        )
+        require(
+            "no preferred" in block.lower(),
+            f"R3 no-preferred-selection guard absent: {name}",
+        )
+        require("G96" in block, f"G96 category boundary absent: {name}")
+        require("G97" in block, f"G97 SNe control result absent: {name}")
+        require("G98" in block, f"G98 continuation ownership result absent: {name}")
+        require("G99" in block, f"G99 calibration result absent: {name}")
+        require("G101" in block, f"G101 grok2 integration result absent: {name}")
+        require("G102" in block, f"G102 two-source evaluator absent: {name}")
+        require("G103" in block, f"G103 restriction result absent: {name}")
+        require("G104" in block, f"G104 kaleidoscope result absent: {name}")
+        require("G105" in block, f"G105 Jacobian artifact result absent: {name}")
+        require("G106" in block, f"G106 sky-depth projector result absent: {name}")
+        require("G107" in block, f"G107 representation census absent: {name}")
+        require("G108" in block, f"G108 screen propagation result absent: {name}")
+        require("G109" in block, f"G109 same-query depth join absent: {name}")
+        require("G110" in block, f"G110 full-differential type correction absent: {name}")
+        require("G111" in block, f"G111 nonflat replay absent: {name}")
+        require("G112" in block, f"G112 dual-SNe replay absent: {name}")
+        require("G113" in block, f"G113 orchestra synthesis absent: {name}")
+        require("G114" in block, f"G114 common-source network absent: {name}")
+        require("G115" in block, f"G115 time-live source-boundary jet absent: {name}")
+        require("G116" in block, f"G116 frequency-terminal junction absent: {name}")
+        require("G117" in block, f"G117 operational SNe regrade absent: {name}")
+        require("G118" in block, f"G118 scaffolding-removal result absent: {name}")
+        require("G119" in block, f"G119 finite-radius screen theorem absent: {name}")
+        require("G120" in block, f"G120 exact-screen SNe recomposition absent: {name}")
+        require("G121" in block, f"G121 causal/pair history consistency result absent: {name}")
+        require("G122" in block, f"G122 common-dependency type result absent: {name}")
+        require("G123" in block, f"G123 common-event incidence result absent: {name}")
+        require("G124" in block, f"G124 finite-radius live junction absent: {name}")
+        require("G125" in block, f"G125 exact SNe total-score result absent: {name}")
+        require("G126" in block, f"G126 angular same-query bridge result absent: {name}")
+        require("G127" in block, f"G127 same-history screen-emergence result absent: {name}")
+        require("G128" in block, f"G128 finite-path screen-persistence result absent: {name}")
+        require("G129" in block, f"G129 relational-network faithfulness result absent: {name}")
+        require("G130" in block, f"G130 co-presence network-ownership result absent: {name}")
+        require("G131" in block, f"G131 terminal-scalar conformal result absent: {name}")
+        require("G132" in block, f"G132 common-scale ownership result absent: {name}")
+        require("G133" in block, f"G133 fixed-K density result absent: {name}")
+        require(
+            "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
+            or "constant reciprocal-extension census" in block.lower(),
+            f"G107 package route absent: {name}",
+        )
+        require(
+            "udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/" in block
+            or "propagated screen" in block.lower(),
+            f"G108 package route absent: {name}",
+        )
+        require(
+            "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/" in block,
+            f"G109 package route absent: {name}",
+        )
+        require(
+            "udt_observer_exponential_full_differential_type_audit_2026-08-16/" in block,
+            f"G110 package route absent: {name}",
+        )
+        require(
+            "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/" in block,
+            f"G111 package route absent: {name}",
+        )
+        require(
+            "udt_g112_full_differential_dual_sne_invariance_2026-08-16/" in block,
+            f"G112 package route absent: {name}",
+        )
+        require(
+            "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/" in block,
+            f"G113 package route absent: {name}",
+        )
+        require(
+            "udt_g114_common_source_three_observer_network_2026-08-16/" in block,
+            f"G114 package route absent: {name}",
+        )
+        require(
+            "udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/" in block,
+            f"G115 package route absent: {name}",
+        )
+        require(
+            "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/" in block,
+            f"G116 package route absent: {name}",
+        )
+        require(
+            "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/" in block,
+            f"G117 package route absent: {name}",
+        )
+        require(
+            "udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/" in block,
+            f"G118 package route absent: {name}",
+        )
+        require(
+            "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/" in block,
+            f"G119 package route absent: {name}",
+        )
+        require(
+            "udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/" in block,
+            f"G120 package route absent: {name}",
+        )
+        require(
+            "udt_g121_copresent_reciprocal_causal_history_consistency_2026-08-16/" in block
+            or "G121 is blind verified" in block,
+            f"G121 package route absent: {name}",
+        )
+        require(
+            "udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/" in block
+            or "G122" in block,
+            f"G122 package route absent: {name}",
+        )
+        require(
+            "udt_g123_direct_copresent_incidence_relation_2026-08-16/" in block
+            or "G123" in block,
+            f"G123 package route absent: {name}",
+        )
+        require(
+            "udt_g124_finite_radius_live_observer_transition_junction_2026-08-16/" in block
+            or "G124" in block,
+            f"G124 package route absent: {name}",
+        )
+        require(
+            "udt_g125_exact_sne_score_history_recomposition_2026-08-16/" in block
+            or "G125" in block,
+            f"G125 package route absent: {name}",
+        )
+        require(
+            "udt_g126_angular_lane_same_query_bridge_2026-08-16/" in block
+            or "G126" in block,
+            f"G126 package route absent: {name}",
+        )
+        require(
+            "udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/" in block
+            or "G127" in block,
+            f"G127 package route absent: {name}",
+        )
+        require(
+            "udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/" in block
+            or "G128" in block,
+            f"G128 package route absent: {name}",
+        )
+        require(
+            "udt_g129_copresent_relational_network_faithfulness_2026-08-16/" in block
+            or "G129" in block,
+            f"G129 package route absent: {name}",
+        )
+        require(
+            "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/" in block
+            or "G130" in block,
+            f"G130 package route absent: {name}",
+        )
+        require(
+            "udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/" in block
+            or "G131" in block,
+            f"G131 package route absent: {name}",
+        )
+        require(
+            "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/" in block
+            or "G132" in block,
+            f"G132 package route absent: {name}",
+        )
+        require(
+            "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/" in block
+            or "G133" in block,
+            f"G133 package route absent: {name}",
+        )
+        require(
+            "udt_orchestra_score_whiteboard_2026-08-15/" in block
+            or "whiteboard" in block.lower(),
+            f"orchestra-score next-gate route absent: {name}",
         )
 
     for token in (
@@ -176,66 +327,104 @@ def validate_startup_surface(root: Path) -> None:
             "R5_OUTCOME_REPORT.md",
             "R5_EXTERNAL_FOLLOWUP_REVIEW.md",
             "R5_FINAL_EVIDENCE_MANIFEST.tsv",
-            "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
             "udt_pair_first_relational_plane_reconstruction_2026-08-12/",
             "udt_pair_terminal_reachability_atlas_2026-08-12/",
             "udt_pair_chord_network_descent_audit_2026-08-12/",
-            "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/",
+            "udt_null_carrier_measure_ownership_audit_2026-08-15/",
+            "udt_bao_G106_complete_sky_depth_reference_projection_2026-08-15/",
+            "udt_orchestra_score_whiteboard_2026-08-15/",
+            "udt_complete_reciprocal_representation_extension_census_2026-08-16/",
+            "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/",
+            "udt_observer_exponential_full_differential_type_audit_2026-08-16/",
+            "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/",
+            "udt_g112_full_differential_dual_sne_invariance_2026-08-16/",
+            "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/",
+            "udt_g114_common_source_three_observer_network_2026-08-16/",
+            "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/",
+            "udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/",
             "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/",
-            "udt_g129_copresent_relational_network_faithfulness_2026-08-16/",
-            "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/",
-            "udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/",
+            "udt_g121_copresent_reciprocal_causal_history_consistency_2026-08-16/",
+            "udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/",
+            "udt_g126_angular_lane_same_query_bridge_2026-08-16/",
+            "udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/",
+            "udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/",
             "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/",
-            "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/",
-            "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
-            "CLAUDE.md",
-            "MEMORY.md",
-            "stop and give the orientation report",
             "After orientation",
             "verify_current_scientific_premises.py",
         ),
         "MEMORY.md": (
-            "B,Q,S,Y,Z",
-            "G129",
-            "G130",
-            "G131",
-            "G132",
-            "G133",
-            "bivector area bilinear",
-            "complete history/solution law",
-            "R2--R5",
+            "OBSERVED_VERIFIED_WITH_CAVEATS__COVARIANCE_RESOLUTION_OR_RANK_LIMITED",
+            "R5 data-only common-subspace assembly",
             "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
-            "CURRENT_SCIENTIFIC_PREMISES.tsv",
-            "archive/startup_surface_2026-08-17_pre_zoomout/",
+            "After orientation",
         ),
         "CURRENT_RESEARCH_PROGRAM.md": (
+            "COVARIANCE_RESOLUTION_OR_RANK_LIMITED",
             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
+            "udt_pair_first_relational_plane_reconstruction_2026-08-12/",
+            "udt_pair_terminal_reachability_atlas_2026-08-12/",
+            "udt_pair_chord_network_descent_audit_2026-08-12/",
+            "G106",
+            "G107",
+            "G108",
+            "G109",
+            "G110",
+            "G111",
+            "G112",
+            "G113",
+            "G114",
+            "G115",
+            "G116",
+            "G117",
+            "G118",
+            "G119",
+            "G120",
+            "G121",
+            "G122",
+            "G123",
+            "G124",
+            "G125",
+            "G126",
+            "G127",
+            "G128",
             "G129",
             "G130",
             "G131",
             "G132",
             "G133",
-            "rank ten",
-            "positive conformal class",
-            "common-scale ownership",
-            "bivector area bilinear",
-            "physical-history problem",
-            "184,300",
-            "MAP/PONDER",
+            "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "WORKING_FOUNDATIONAL_FRAME",
             "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
+            "G107",
+            "G108",
+            "G109",
+            "G110",
+            "G111",
+            "G112",
+            "G113",
+            "G114",
+            "G115",
+            "G116",
+            "G117",
+            "G118",
+            "G119",
+            "G120",
+            "G121",
+            "G122",
+            "G123",
+            "G124",
+            "G125",
+            "G126",
+            "G127",
+            "G128",
             "G129",
             "G130",
             "G131",
             "G132",
             "G133",
-            "positive conformal class",
-            "Common pair scale",
-            "bivector area bilinear",
-            "120-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -276,26 +465,62 @@ def validate_startup_surface(root: Path) -> None:
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R2_OUTCOME_REPORT.md",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_PREREGISTRATION.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_OUTCOME_REPORT.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_VERIFICATION_RESULT.json",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R3_FINAL_STATUS.json",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_PREREGISTRATION.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_VERIFICATION_RESULT.json",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R4_FINAL_STATUS.json",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_PREREGISTRATION.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_OUTCOME_REPORT.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_VERIFICATION_RESULT.json",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_STATUS.json",
         "udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv",
+        "udt_observed_angular_pattern_raw_restart_2026-08-12/STATUS_LEDGER.tsv",
         "udt_boss_primary_method_crosswalk_2026-08-13/AUDIT_REPORT.md",
         "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",
         "udt_pair_terminal_reachability_atlas_2026-08-12/AUDIT_REPORT.md",
         "udt_pair_chord_network_descent_audit_2026-08-12/AUDIT_REPORT.md",
         "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
+        "udt_august6_mu_complete_kernel_crosswalk_2026-08-15/AUDIT_REPORT.md",
+        "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_null_carrier_measure_ownership_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_null_carrier_measure_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/SNE_EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_complete_history_regime_continuation_ownership_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_observed_middle_regime_pair_calibration_2026-08-15/AUDIT_REPORT.md",
+        "udt_grok2_parallel_branch_integration_audit_2026-08-15/AUDIT_REPORT.md",
+        "udt_bao_G102_complete_two_source_observable_map_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_bao_G103_source_independent_restriction_ownership_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_bao_G104_kaleidoscope_forward_operator_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_bao_G105_complete_orchestra_two_route_lift_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_bao_G106_complete_sky_depth_reference_projection_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_complete_reciprocal_representation_extension_census_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_complete_screen_jacobi_riccati_propagation_atlas_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_same_query_terminal_depth_screen_propagation_join_2026-08-16/EXTERNAL_REVIEW_ADJUDICATION.md",
+        "udt_observer_exponential_full_differential_type_audit_2026-08-16/AUDIT_REPORT.md",
+        "udt_g111_nonflat_r17_full_differential_replay_2026-08-16/AUDIT_REPORT.md",
+        "udt_g112_full_differential_dual_sne_invariance_2026-08-16/AUDIT_REPORT.md",
+        "udt_g113_metric_native_orchestra_whiteboard_2026-08-16/AUDIT_REPORT.md",
+        "udt_g114_common_source_three_observer_network_2026-08-16/AUDIT_REPORT.md",
+        "udt_g115_regular_timelive_spherical_source_boundary_jet_census_2026-08-16/AUDIT_REPORT.md",
         "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/AUDIT_REPORT.md",
+        "udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/AUDIT_REPORT.md",
+        "udt_g118_metric_native_scaffolding_removal_whiteboard_2026-08-16/AUDIT_REPORT.md",
         "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/AUDIT_REPORT.md",
-        "udt_g129_copresent_relational_network_faithfulness_2026-08-16/AUDIT_REPORT.md",
-        "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/AUDIT_REPORT.md",
-        "udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/AUDIT_REPORT.md",
+        "udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/AUDIT_REPORT.md",
+        "udt_g126_angular_lane_same_query_bridge_2026-08-16/AUDIT_REPORT.md",
+        "udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/AUDIT_REPORT.md",
+        "udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/AUDIT_REPORT.md",
         "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/AUDIT_REPORT.md",
-        "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -308,16 +533,6 @@ def validate_startup_surface(root: Path) -> None:
         require(digest == expected_hash, f"startup archive hash mismatch: {name}")
         line_count = len(path.read_text(encoding="utf-8").splitlines())
         require(line_count == expected_lines, f"startup archive line-count mismatch: {name}")
-
-    pre_zoomout = root / "archive" / "startup_surface_2026-08-17_pre_zoomout"
-    require((pre_zoomout / "SHA256_MANIFEST.tsv").is_file(), "pre-zoomout archive manifest missing")
-    for name, (expected_hash, expected_lines) in PRE_ZOOMOUT_STARTUP_SNAPSHOTS.items():
-        path = pre_zoomout / name
-        require(path.is_file(), f"pre-zoomout startup snapshot missing: {name}")
-        digest = hashlib.sha256(path.read_bytes()).hexdigest()
-        require(digest == expected_hash, f"pre-zoomout archive hash mismatch: {name}")
-        line_count = len(path.read_text(encoding="utf-8").splitlines())
-        require(line_count == expected_lines, f"pre-zoomout archive line-count mismatch: {name}")
 
 
 def main() -> None:

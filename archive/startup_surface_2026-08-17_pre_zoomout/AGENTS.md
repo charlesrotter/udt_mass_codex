@@ -87,8 +87,7 @@ Disk evidence wins over conversational memory.
 - G130's bounded ownership result is a guard: co-presence denotes event co-membership conditional on
   a supplied solution `S`; it does not select `S`, create a physical query population, or assign the
   network's numerical values. A compatible `(known embeddings, full pullbacks, overlap data)`
-  valuation is equivalent to the metric in G129's rank-ten scope; G131 separately establishes the
-  scalar-only conformal ceiling.
+  valuation is equivalent to the metric, while scalar-only faithfulness remains the next open gate.
 - G131 proves only on a supplied shared full-dimensional open domain of identically labelled planes
   that all terminal `phi_pair` values determine the positive conformal class. Common local scale,
   query/value ownership, and the full metric remain open; `c_E` alone does not remove that kernel.
