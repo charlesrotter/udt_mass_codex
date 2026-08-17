@@ -24,10 +24,15 @@ The active dependency chain is:
    `kappa_pair` needs matched calibration; full `g` owns a symmetric bivector area bilinear.
 6. G134: complete area data recover complete `g` up to fixed sign and occupy a rank-ten,
    local codimension eleven metricity locus; this constrains relation data but selects no values.
+7. G135: every supplied regular complete pair owns the bounded anchored projective readout
+   `chi=(L-T)/(L+T)=tanh(phi_pair)`, with Mobius composition on matched additive depths; this does
+   not yet identify `chi` with physical normalized separation or fix `X_max`.
 
-G134 passed fresh adversarial repair follow-up and is `VERIFIED_WITH_CAVEATS`. A complete valued area
-field already represents the metric history; the physical values/evolution or history/solution law,
-network soldering, global and singular completion, observations, and `X_max` remain `OPEN`.
+G135 passed fresh zero-context adversarial repair follow-up and is `VERIFIED_WITH_CAVEATS`. The
+complete pair kernel therefore owns a native bounded projective chart after the orchestra forms the
+pair metric. The constitutive identification with physical normalized position, physical
+values/evolution or history/solution law, network soldering, global and singular completion,
+observations, and the dimensional value of `X_max` remain `OPEN`.
 
 Open these after orientation only when load-bearing:
 
@@ -38,6 +43,7 @@ Open these after orientation only when load-bearing:
 - `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/AUDIT_REPORT.md`
 - `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/AUDIT_REPORT.md`
 - `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/AUDIT_REPORT.md`
+- `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/AUDIT_REPORT.md`
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -63,6 +69,8 @@ No long process is running.
   conditional presentation potential.
 - the orchestra enters before terminal readout.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
+- `chi=tanh(phi_pair)` is derived as an anchored projective readout on a supplied complete pair;
+  calling it physical normalized separation is still a constitutive clarification.
 - `X_max` is an observer-pair asymptotic frame, not a wall or center.
 - strong local CSN is inactive.
 - carrier, action, source, matter, bootstrap selection, and dynamics remain posit/conditional/open.
@@ -75,8 +83,9 @@ presence does not prove banking.
 
 ### Next bounded action
 
-MAP/PONDER whether founded ordered-depth composition, co-presence, and causality impose a genuine
-differential/global condition on the one complete metric/area field beyond pointwise metricity.
-Preregister identity versus nonidentity; avoid another ownership census or observational fit.
+MAP/PONDER whether the founded phrase “positional comparison” means the anchored projective readout
+of the completed clock/ruler pair. If Charles adopts that meaning, preregister the conditional join
+`signed x/X_max=chi` and `nonnegative separation/X_max=abs(chi)` while keeping the dimensional
+`X_max` value and pair/history ownership open. Avoid another ownership census or observational fit.
 
 <!-- STARTUP_CURRENT_END -->

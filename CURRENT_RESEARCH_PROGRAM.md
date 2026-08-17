@@ -9,7 +9,7 @@ classification. This file states only the current architecture, open gates, and 
 ## Program picture
 
 UDT currently has a strong conditional observer-pair evaluator, a faithful reconstruction hierarchy,
-and an open physical-history problem.
+a native bounded projective pair readout, and an open physical-history problem.
 
 Given a complete metric history, a typed observer query, and a calibrated realization, the geometry
 can return:
@@ -91,6 +91,17 @@ codimension eleven inside arbitrary symmetric bivector data. This gives real rel
 metricity constraints, but every regular Lorentz metric passes: numerical values and evolution are
 not selected. Fresh adversarial repair follow-up passed.
 
+### G135 — projective pair coordinate
+
+After the complete orchestra has formed a supplied regular calibrated pair metric, its positive
+clock/ruler densities `T,L` own `q=T/L=exp(-2phi_pair)` and
+`chi=(L-T)/(L+T)=(1-q)/(1+q)=tanh(phi_pair)`. In the reciprocal kernel's common/contrast basis,
+`chi` is the projective contrast/common slope; matched additive depths induce Mobius composition.
+The anchored first-degree projective class fixes this formula uniquely, but unrestricted smooth
+odd endpoint-preserving charts are not unique. Fresh zero-context adversarial repair follow-up
+passed. Identifying this bounded projective readout with physical normalized separation remains a
+constitutive clarification, not a derived proper-length or `X_max` theorem.
+
 ## Durable prerequisites
 
 - Pair-first relational-plane reconstruction: a supplied regular pair immersion owns its tangent
@@ -127,21 +138,18 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Do ordered-depth composition, co-presence, and causality impose a differential/global condition
-   on the complete metric/area field beyond pointwise metricity?
-2. Can one complete history and observer network be derived from that founded structure, or
-   are current results only evaluators on supplied data?
-3. How do lawful time-live histories determine the relative strength of pair, screen, mixing, and
-   phase channels across regimes?
-4. What are the native radiative/source and global-completion laws, if any?
-5. What is the exact global realization and value of `X_max`?
+1. Does founded “positional comparison” mean `chi=tanh(phi_pair)`, conditionally giving signed
+   normalized position `x/X_max=chi`?
+2. What fixes the value, profile, and global realization of `X_max` if that meaning is adopted?
+3. Do composition, co-presence, and causality constrain the complete metric beyond metricity?
+4. Can they derive a complete history and observer network rather than only evaluate supplied data?
+5. How do time-live histories set pair, screen, mixing, and phase strengths across regimes?
+6. What are the native radiative/source and global-completion laws, if any?
 
 ## Bounded next action
 
-MAP/PONDER question 1 at full-metric level. Preregister whether each candidate consequence is a
-geometric identity or a genuine nonidentity condition before calculation. Do not launch another
-ownership census, AM seam atlas, preferred-path hunt, observational fit, GPU solve, or mechanism
-invention merely to create forward motion.
+MAP/PONDER question 1 with Charles. If adopted, preregister the bounded signed/nonnegative `X_max`
+join while leaving dimensional scale, pair realization, history, and global completion open. Do not
+launch another ownership census, seam atlas, preferred-path hunt, fit, GPU solve, or mechanism.
 
-Historical startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/` and
-`archive/startup_surface_2026-08-14/`.
+Historical startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-14/`.

@@ -29,11 +29,14 @@ promote package conclusions.
   `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`
 - G134 full-metric area faithfulness and history reframe:
   `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
+- G135 projective pair-separation constitution:
+  `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 
 The current chain is evaluator → full-pullback faithfulness → co-presence typing → conformal
-scalar ceiling → common-scale ownership → density/area typing → complete-area faithfulness. Complete
-area data already encode `g`, but no result selects its physical values, evolution, query population,
-or global completion.
+scalar ceiling → common-scale ownership → density/area typing → complete-area faithfulness → native
+bounded projective pair readout. Complete area data already encode `g`, and every supplied complete
+pair owns `chi=tanh(phi_pair)`, but no result yet promotes that chart to physical normalized
+separation or selects metric values, evolution, query population, `X_max`, or global completion.
 
 ## Durable prerequisites
 
@@ -50,7 +53,7 @@ or global completion.
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 121-row premise registry controls current status, not the archived prose.
+load-bearing. The 122-row premise registry controls current status, not the archived prose.
 
 ## Observational lane
 

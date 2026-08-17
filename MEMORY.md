@@ -19,6 +19,9 @@ Current dependency spine:
   `kappa_pair` needs matched calibration; full `g` owns the bivector area bilinear.
 - G134: complete area data recover complete `g` up to fixed sign and obey a rank-ten,
   local-codimension-eleven metricity locus; this is not a value or evolution law.
+- G135: each supplied regular complete pair owns the anchored projective readout
+  `chi=(L-T)/(L+T)=tanh(phi_pair)` with Mobius composition on matched depths; physical normalized
+  separation, common scale, and `X_max` remain open.
 
 Physical network soldering and values, the complete history/solution law, global completion,
 observations, and `X_max` remain open.
@@ -41,6 +44,7 @@ Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
   supplied regular calibrated pair metric.
 - Angular, screen, and mixing data enter before terminal readout.
 - Pair `c_eff` is an observer-frame readout, not automatically local signal speed.
+- `chi=tanh(phi_pair)` is a native bounded projective readout, not yet physical distance.
 - `X_max` is a working observer-pair asymptotic frame, not a wall or center.
 - Strong local CSN is inactive.
 - Carrier, action, source, matter, dynamics, and bootstrap selection remain posit/conditional/open.
@@ -49,9 +53,10 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G134 settled the reframe: a complete valued area field already is the metric history in another
-language. MAP/PONDER whether founded composition, co-presence, and causality impose a genuine
-differential/global condition beyond metricity; preregister identity versus nonidentity.
+G135 exposes the smaller next joint: decide whether founded “positional comparison” means the
+anchored projective readout of the completed clock/ruler pair. If adopted, preregister the
+conditional signed/nonnegative `X_max` join without promoting the dimensional scale, pair
+realization, or history.
 
 ## Historical route
 
