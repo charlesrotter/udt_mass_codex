@@ -1,0 +1,96 @@
+{
+  "checks": {
+    "B_sensitivity_changes_h": true,
+    "B_sensitivity_changes_screen_projector": true,
+    "Q_sensitivity_changes_h": true,
+    "Q_sensitivity_changes_screen_projector": true,
+    "S_sensitivity_changes_h": true,
+    "S_sensitivity_changes_screen_projector": true,
+    "Y_sensitivity_changes_h": true,
+    "Y_sensitivity_changes_screen_projector": true,
+    "Z_sensitivity_changes_h": true,
+    "Z_sensitivity_changes_screen_projector": true,
+    "ambient_basis_pair_metric_invariant": true,
+    "ambient_basis_projector_covariant": true,
+    "clock_ruler_orthogonal": true,
+    "constraint_rowspaces_equal": true,
+    "flag_and_pair_span_equal": true,
+    "flag_domain_clock_line_same": true,
+    "flag_domain_projector_same": true,
+    "flag_domain_ruler_line_mod_clock_same": true,
+    "nonflag_change_changes_clock_line": true,
+    "projector_idempotent": true,
+    "projector_kills_clock": true,
+    "projector_kills_ruler": true,
+    "projector_metric_self_adjoint": true,
+    "projector_rank_two": true,
+    "projectors_equal": true,
+    "registered_clock_timelike": true,
+    "registered_pair_lorentzian": true,
+    "rho_nonzero_inside_ball": true,
+    "ruler_positive": true,
+    "screen_nullspace_rank_two": true,
+    "screen_positive_determinant": true,
+    "screen_positive_first_minor": true,
+    "source_1_hash": true,
+    "source_2_hash": true,
+    "source_3_hash": true,
+    "source_4_hash": true,
+    "source_5_hash": true,
+    "source_6_hash": true,
+    "source_7_hash": true
+  },
+  "failures": [],
+  "landing": "INDEPENDENT_PASS",
+  "method": "independent Python stdlib Fraction matrix and row-space replay; no production imports",
+  "passed": 39,
+  "total": 39,
+  "witness": {
+    "h": [
+      [
+        "-7619/2025",
+        "-1492/1701"
+      ],
+      [
+        "-1492/1701",
+        "20779585/2286144"
+      ]
+    ],
+    "screen_gram": [
+      [
+        "4305637898180199/4225001950000225",
+        "358925588708148/845000390000045"
+      ],
+      [
+        "358925588708148/845000390000045",
+        "747260265444336/169000078000009"
+      ]
+    ],
+    "screen_projector": [
+      [
+        "8318757/799414126",
+        "-5839040/399707063",
+        "5026320/57101009",
+        "92133630/399707063"
+      ],
+      [
+        "-3019314/285505045",
+        "791933/57101009",
+        "226584/8157287",
+        "-5343048/57101009"
+      ],
+      [
+        "-78052777/799414126",
+        "97373075/799414126",
+        "57405380/57101009",
+        "13888530/399707063"
+      ],
+      [
+        "1299705439/15988282520",
+        "-129928084/1199121189",
+        "-242628/57101009",
+        "775747113/799414126"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+item	status	outcome_or_boundary
+Lorentz metric g	SUPPLIED_CONDITIONAL	owns the ambient bilinear form
+regular calibrated pair immersion F	SUPPLIED_QUERY	owns the timelike pair plane
+clock tangent J0 and oriented ruler quotient	SUPPLIED_QUERY_CALIBRATION	select u and n inside the pair plane
+rho=tanh(phi_pair)	CHOSE_WORKING_THEN_DERIVED_CONDITIONAL	bounded scalar position on supplied pair
+xi=rho n	DEFINED_SUPPLIED_CONDITIONAL_QUERY_RELATIVE_LIFT	relation-ball coordinate in R_u; not a physical three-position or displacement derivation
+directional sphere tangent equals H_pair	DERIVED_WITHIN_DEFINED_LIFT	literal unoriented subspace identity inside R_u
+independently owned position ball to H_pair solder	OPEN	fixing its radial axis leaves an unresolved O2 family
+complete B Q S Y Z witness	FREE_AND_EXPLORED_EXACT_CONTROL	all blocks live and registered regularity gate passes
+rho equals zero	OPEN_OUTSIDE_SCOPE	position alone loses its direction while supplied query screen may remain
+orientation and reversal	OPEN	tangent plane forgets rho sign and requires orientation conventions
+cross-query middle screen carry	OPEN	local equality does not identify screens at distinct ruler directions
+gyration equals U_gamma	OPEN	requires common carried screen path and typed order
+multidirectional ball law and complete arrow	OPEN	neither G146 control selected
+history Xmax proper length dynamics downstream physics	OPEN	not addressed or inferred
