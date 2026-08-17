@@ -72,8 +72,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106-G128 assemble full-`dF`, screen, scalar, phase, incidence, and finite-path structure. G129 proves full-pullback faithfulness iff rank ten; G130 separates conditional co-membership and unowned values; G131 proves scalar-only conformal faithfulness. G132 proves fixed `K` excludes only an internal transformation multiplier while the complete terminal triplet retains supplied scale; no query-independent general scale owner is found. `c_E,G_obs` need another dimensional anchor plus a lawful bridge.
-Next audit fixed `K` for a query-independent physical two-density with overlap descent.
+G106-G128 assemble full-`dF`, screen, scalar, phase, incidence, and finite-path structure. G129 proves full-pullback faithfulness iff rank ten; G130 separates conditional co-membership and unowned values; G131 proves scalar-only conformal faithfulness. G132 separates retained scale from its owner. G133 proves fixed `K` owns internal density only, supplied pair density descends conditionally, and full `g` owns the bivector area bilinear; physical network values remain open.
+Next MAP/PONDER whether that full-`g` area object reframes the history question without another ownership loop.
 
 ## Archive
 

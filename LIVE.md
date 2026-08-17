@@ -2,7 +2,7 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-## CURRENT STATE — 2026-08-16
+## CURRENT STATE — 2026-08-17
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
@@ -78,7 +78,7 @@ regular central-spherical branch `D_sky=R O`, `|det D_sky|=R^2`. G120
 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/` is blind verified:
 with explicitly imported `eta=1,epsilon=1/Z`, `d_L=Z^2R`; frozen P1 becomes one outgoing `Z>1`
 conditional radius-frequency curve and preserves both SNe replays. G121 is blind verified and finds local matched
-identities and conditional pair-scalar closure only. G122 keeps terminal pair and causal phase distinct. G123 derives the supplied common-event incidence graph. G124 derives the exact finite-radius score `zeta=phi_pair-kappa_pair+chi_s`. G125 uses SNe only as a comparison/non-regression data set for frozen P1's combined score; SNe owns no metric branch or history. G126 stops direct R5-to-`K`/phase fitting. G127 `udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/` and G128 derive/observe bounded same-history screen response. G129 proves full-pullback network faithfulness iff rank ten. G130 proves co-presence denotes co-membership conditional on supplied `S` while Reciprocity creates neither query domain nor values. G131 proves scalar-only all-plane data is conformally faithful. G132 `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/` is fresh-adversarial-follow-up passed: fixed `K` excludes only an internal common multiplier in the reciprocal transformation; the declared calibrated base determinant is conditional; the complete `(kappa_pair,phi_pair,beta_pair)` triplet reconstructs `h` and retains but does not source its supplied scale. No query-independent general scale owner was found. `c_E,G_obs` need a mass/density/energy datum plus a lawful bridge to make a dimensional calibration. Physical values, history, global completion, and observations remain open. `R_inf` is not `X_max`.
+identities and conditional pair-scalar closure only. G122 keeps terminal pair and causal phase distinct. G123 derives the supplied common-event incidence graph. G124 derives the exact finite-radius score `zeta=phi_pair-kappa_pair+chi_s`. G125 uses SNe only as a comparison/non-regression data set for frozen P1's combined score; SNe owns no metric branch or history. G126 stops direct R5-to-`K`/phase fitting. G127 `udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/` and G128 derive/observe bounded same-history screen response. G129 proves full-pullback network faithfulness iff rank ten. G130 proves co-presence denotes co-membership conditional on supplied `S` while Reciprocity creates neither query domain nor values. G131 proves scalar-only all-plane data is conformally faithful. G132 separates retained supplied scale from a physical scale owner. G133 `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/` is fresh-adversarial-follow-up passed: fixed `K` owns only its internal unimodular determinant density; a supplied pair metric owns a positive density that descends on one genuine common atlas; `kappa_pair` is a log-density coefficient requiring matched calibration; full `g` derives the symmetric bivector area bilinear, not one alternating two-form. Physical network soldering and numerical values, history, global completion, and observations remain open. `c_E,G_obs` still need matter/density/energy plus a lawful bridge; `R_inf` is not `X_max`.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -160,8 +160,8 @@ Some protected directories have tracked shells plus local untracked payloads. Di
 does not prove banking; inspect Git status and preserve every local file.
 
 ### Immediate next action
-G132's scale-type gate is adversarially closed. Next audit whether fixed `K` has a query-independent
-physical two-density with overlap descent, or remains internal to each supplied reciprocal representation.
+G133 closes the fixed-`K` density-type gate. Next MAP/PONDER whether the derived full-`g` area
+bilinear changes the history question, without launching another ownership loop or inventing values.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,

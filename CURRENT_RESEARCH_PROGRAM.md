@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-16
+Date: 2026-08-17
 Authority: active dependency spine; not canonization
 
 `LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise
@@ -122,7 +122,7 @@ supplied source congruence permits invariant frequency `(b-q)R`; physical histor
 
 G116 derives `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)` locally without a coefficient; G117 preserves frozen P1 dual-SNe numerics conditionally.
 
-G118 and G119 derive exact screen structure; G120 retains conditional SNe comparison. G121, G122, G123, G124, G125, G126, G127, and G128 separate scalar, phase, incidence, and finite-path channels. G129 proves full-pullback network faithfulness iff rank ten; G130 separates conditional co-membership and unowned values; G131 proves scalar-only conformal faithfulness. G132 `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/` proves fixed `K` excludes only an internal transformation multiplier, the complete terminal triplet reconstructs `h` and retains supplied scale, and no query-independent general scale owner is yet found. `c_E,G_obs` need an additional mass/density/energy datum plus a lawful bridge. Physical values, history, solution law, and global completion remain open.
+G118 and G119 derive exact screen structure; G120 retains conditional SNe comparison. G121, G122, G123, G124, G125, G126, G127, and G128 separate scalar, phase, incidence, and finite-path channels. G129 proves full-pullback network faithfulness iff rank ten; G130 separates conditional co-membership and unowned values; G131 proves scalar-only conformal faithfulness. G132 separates supplied common scale from its physical owner. G133 `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/` proves fixed `K` owns only internal unimodular determinant density; a supplied pair density descends on one genuine common atlas; `kappa_pair` needs matched calibration; full `g` owns the symmetric bivector area bilinear. Physical network soldering and values, history, solution law, and global completion remain open.
 
 ## Macro observational anchors
 
@@ -161,9 +161,9 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Next: audit whether fixed `K` possesses a query-independent physical two-density with overlap descent,
-or is only algebra internal to each supplied reciprocal representation. Do not invent a selector,
-fit observations, or infer the physical global solution from bounded faithfulness.
+Next: MAP/PONDER whether the full-`g` area bilinear materially reframes the history/value question,
+or merely evaluates supplied planes. Do not launch another ownership loop, invent a selector, fit
+observations, or infer the physical global solution from bounded covariance.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
 

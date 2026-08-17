@@ -176,6 +176,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G130" in block, f"G130 co-presence network-ownership result absent: {name}")
         require("G131" in block, f"G131 terminal-scalar conformal result absent: {name}")
         require("G132" in block, f"G132 common-scale ownership result absent: {name}")
+        require("G133" in block, f"G133 fixed-K density result absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -295,6 +296,11 @@ def validate_startup_surface(root: Path) -> None:
             f"G132 package route absent: {name}",
         )
         require(
+            "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/" in block
+            or "G133" in block,
+            f"G133 package route absent: {name}",
+        )
+        require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
             or "whiteboard" in block.lower(),
             f"orchestra-score next-gate route absent: {name}",
@@ -385,6 +391,7 @@ def validate_startup_surface(root: Path) -> None:
             "G130",
             "G131",
             "G132",
+            "G133",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -417,6 +424,7 @@ def validate_startup_surface(root: Path) -> None:
             "G130",
             "G131",
             "G132",
+            "G133",
         ),
         "README.md": (
             "LIVE.md",
@@ -529,9 +537,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 119, "premise registry must contain exactly 119 rows")
+    require(len(rows) == 120, "premise registry must contain exactly 120 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 119, "duplicate premise id")
+    require(len(by_id) == 120, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2581,6 +2589,38 @@ def main() -> None:
         == "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/AUDIT_REPORT.md",
         "G132 source changed",
     )
+    require(
+        by_id["G133"]["current_status"].startswith(
+            "FRESH_ADVERSARIAL_FOLLOWUP_PASS__FIXED_K_INTERNAL_UNIMODULAR_DENSITY_DERIVED"
+        ),
+        "G133 fixed-K density result regressed or promoted",
+    )
+    require(by_id["G133"]["epistemic_label"] == "MIXED", "G133 label changed")
+    require(
+        "physical soldering and ownership of the complete observer network"
+        in by_id["G133"]["open_scope"],
+        "G133 physical-network ownership boundary absent",
+    )
+    require(
+        "fixed K called a query-independent spacetime two-form physical scale or observer-network owner"
+        in by_id["G133"]["forbidden_regression"],
+        "G133 internal-K promotion guard absent",
+    )
+    require(
+        "kappa_pair called an unrestricted scalar under independent endpoint retrivializations"
+        in by_id["G133"]["forbidden_regression"],
+        "G133 kappa density-weight guard absent",
+    )
+    require(
+        "full-g bivector area bilinear called an alternating two-form"
+        in by_id["G133"]["forbidden_regression"],
+        "G133 area-bilinear type guard absent",
+    )
+    require(
+        by_id["G133"]["controlling_source"]
+        == "udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/AUDIT_REPORT.md",
+        "G133 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2659,7 +2699,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G132-extended premise guards; PASS: 119-row premise "
+        "PASS: G133-extended premise guards; PASS: 120-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

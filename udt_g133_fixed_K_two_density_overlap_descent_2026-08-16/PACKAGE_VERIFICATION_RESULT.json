@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "bounded_landing_keeps_physical_value_law_open": true,
+    "followup_exact_counts_recorded": true,
+    "followup_pass_recorded": true,
+    "fresh_review_grade_recorded": true,
+    "independent_json_pass": true,
+    "isolated_independent_byte_identical": true,
+    "isolated_independent_reports_pass": true,
+    "isolated_production_byte_identical": true,
+    "isolated_production_reports_pass": true,
+    "manifest_has_twelve_exact_sources": true,
+    "manifest_hashes_match": true,
+    "manifest_sources_exist": true,
+    "production_json_pass": true,
+    "protected_paths_absent_from_manifest": true,
+    "required_package_files_present": true
+  },
+  "passed": 15,
+  "status": "PASS",
+  "total": 15
+}
