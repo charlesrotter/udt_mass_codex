@@ -173,6 +173,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G127" in block, f"G127 same-history screen-emergence result absent: {name}")
         require("G128" in block, f"G128 finite-path screen-persistence result absent: {name}")
         require("G129" in block, f"G129 relational-network faithfulness result absent: {name}")
+        require("G130" in block, f"G130 co-presence network-ownership result absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -277,6 +278,11 @@ def validate_startup_surface(root: Path) -> None:
             f"G129 package route absent: {name}",
         )
         require(
+            "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/" in block
+            or "G130" in block,
+            f"G130 package route absent: {name}",
+        )
+        require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
             or "whiteboard" in block.lower(),
             f"orchestra-score next-gate route absent: {name}",
@@ -363,6 +369,7 @@ def validate_startup_surface(root: Path) -> None:
             "G127",
             "G128",
             "G129",
+            "G130",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -392,6 +399,7 @@ def validate_startup_surface(root: Path) -> None:
             "G127",
             "G128",
             "G129",
+            "G130",
         ),
         "README.md": (
             "LIVE.md",
@@ -503,9 +511,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 116, "premise registry must contain exactly 116 rows")
+    require(len(rows) == 117, "premise registry must contain exactly 117 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 116, "duplicate premise id")
+    require(len(by_id) == 117, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2446,6 +2454,42 @@ def main() -> None:
         == "udt_g129_copresent_relational_network_faithfulness_2026-08-16/AUDIT_REPORT.md",
         "G129 source changed",
     )
+    require(
+        by_id["G130"]["current_status"].startswith(
+            "FRESH_ADVERSARIAL_FOLLOWUP_PASS__COPRESENCE_DENOTES_EVENT_COMEMBERSHIP_IN_SUPPLIED_S"
+        ),
+        "G130 co-presence/network ownership result regressed or promoted",
+    )
+    require(by_id["G130"]["epistemic_label"] == "MIXED", "G130 label changed")
+    require(
+        "physical query family and calibrated plane embeddings" in by_id["G130"]["open_scope"],
+        "G130 query-family ownership boundary absent",
+    )
+    require(
+        "co-presence said to select or construct S or its domain"
+        in by_id["G130"]["forbidden_regression"],
+        "G130 conditional co-membership guard absent",
+    )
+    require(
+        "all-plane certification family called a derived physical observer population"
+        in by_id["G130"]["forbidden_regression"],
+        "G130 certification-domain guard absent",
+    )
+    require(
+        "compatible numerical matrices without known embeddings or overlap data called the metric"
+        in by_id["G130"]["forbidden_regression"],
+        "G130 typed representation-equivalence guard absent",
+    )
+    require(
+        "terminal reciprocal depths called rank-complete without proof"
+        in by_id["G130"]["forbidden_regression"],
+        "G130 scalar-faithfulness guard absent",
+    )
+    require(
+        by_id["G130"]["controlling_source"]
+        == "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/AUDIT_REPORT.md",
+        "G130 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2524,7 +2568,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G129-extended premise guards; PASS: 116-row premise "
+        "PASS: G130-extended premise guards; PASS: 117-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

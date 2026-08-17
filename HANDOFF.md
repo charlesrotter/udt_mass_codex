@@ -64,7 +64,7 @@ is externally verified: every finite regular central-spherical time-live branch 
 `|det D_sky|=R^2`. G120 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/`
 is blind verified: imported transfer gives `d_L=Z^2R` and preserves both SNe replays. G121 is blind verified with conditional pair-scalar closure only. G122
 `udt_g122_mixed_causal_copresent_common_carrier_2026-08-16/` is blind verified after repairs: terminal
-pair and causal phase are distinct. G123 derives the supplied common-event chart graph. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only to compare/non-regress frozen P1's combined score—SNe owns no branch. G126 stops direct R5 inversion. G127 derives the local same-history radial/tilted screen bridge; G128 extends it across 16 finite affine complete-spherical-base controls and closes at `SECOND_FOLLOWUP_PASS`. G129 `udt_g129_copresent_relational_network_faithfulness_2026-08-16/` is fresh-adversarial-follow-up passed: pair pullbacks reconstruct the ambient metric iff their restriction map has rank ten; six explicit clock-ruler planes suffice, whereas axial rank seven hides nonisometric curved germs. A supplied complete compatible network therefore needs no second history selector. Whether founding co-presence owns that network and all its values, plus global extension and the physical solution, remains open.
+pair and causal phase are distinct. G123 derives the supplied common-event chart graph. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only to compare/non-regress frozen P1's combined score—SNe owns no branch. G126 stops direct R5 inversion. G127 derives the local same-history radial/tilted screen bridge; G128 extends it across 16 finite affine complete-spherical-base controls and closes at `SECOND_FOLLOWUP_PASS`. G129 proves full-pullback network faithfulness iff rank ten. G130 `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/` is fresh-adversarial-follow-up passed: co-presence denotes event co-membership conditional on supplied `S`; Reciprocity governs supplied comparisons but creates neither their domain nor values. The metric-dependent all-plane certification family contains a rank-ten witness, and a smooth compatible `(A,h,overlap)` valuation is equivalent to the metric. Physical query totality, numerical valuation, solution law, and global completion remain open.
 
 ### What is running
 
@@ -125,6 +125,6 @@ After orientation, use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for 
 Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell draft, local pair-response package, or local G88 package without a specific dispatch. Preserve unrelated dirt; directory presence does not prove banking.
 
 ### Next bounded action
-G129's bounded network-faithfulness gate is closed. Next test whether founding co-presence owns the
-rank-complete calibrated pair network and values. Archive: `archive/startup_surface_2026-08-14/`.
+G130's bounded ownership gate is closed. Next classify the all-plane terminal reciprocal-scalar
+faithfulness kernel. Archive: `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

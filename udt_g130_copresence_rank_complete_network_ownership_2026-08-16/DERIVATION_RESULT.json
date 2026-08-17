@@ -1,0 +1,32 @@
+{
+  "axial_rank": 7,
+  "checks": {
+    "all_plane_family_contains_rank_ten_witness": true,
+    "axial_rank_seven": true,
+    "composition_allows_distinct_complete_depth_networks": true,
+    "conditional_law_does_not_imply_domain_totality": true,
+    "countermodel_pair_values_differ": true,
+    "countermodels_both_reciprocal_clock_ruler_determinant": true,
+    "countermodels_same_domain_and_exact_lorentz_signature": true,
+    "lexical_anchor_copresence_is_event_domain_membership": true,
+    "lexical_anchor_every_comparison_wording_present": true,
+    "lexical_anchor_founding_profile_explicitly_open": true,
+    "lexical_anchor_founding_relative_depth_is_input": true,
+    "negative_depth_member_scalar_minus_six": true,
+    "one_plane_rank_three": true,
+    "positive_depth_member_scalar_three_halves": true,
+    "rank_ten_fixed_values_reconstruct_metric_and_left_inverse": true,
+    "scalar_curvature_formula": true,
+    "source_hashes_match": true,
+    "two_nontrivial_foundational_members_are_nonisometric": true
+  },
+  "landing": "COPRESENCE_DENOTES_EVENT_COMEMBERSHIP_IN_SUPPLIED_S__RECIPROCITY_OWNS_LAW_SCHEMA__RANK_COMPLETE_NETWORK_VALUES_OPEN",
+  "maximum_conclusion": "Co-presence denotes event co-membership conditional on supplied S, and Reciprocity owns the common law schema on supplied comparisons. Declaring all admissible clock-ruler planes makes the query domain rank complete, and compatible rank-complete pair values are equivalent to one Lorentz metric. The active founding sources do not supply those numerical values: two nontrivial nonisometric reciprocal metrics satisfy the same conditional membership and law statements.",
+  "one_plane_rank": 3,
+  "production_check_count": 18,
+  "rank_complete_witness": 10,
+  "registered_scalar_s_four_at_r1": "-6",
+  "registered_scalar_s_quarter_at_r1": "3/2",
+  "scalar_curvature_family": "2*(1 - s)/r**2",
+  "status": "PASS"
+}

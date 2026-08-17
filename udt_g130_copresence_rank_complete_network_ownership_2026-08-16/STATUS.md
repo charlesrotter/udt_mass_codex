@@ -1,0 +1,7 @@
+# G130 status
+
+`FRESH_ADVERSARIAL_FOLLOWUP_PASS__COPRESENCE_DENOTES_EVENT_COMEMBERSHIP_IN_SUPPLIED_S__RECIPROCITY_OWNS_LAW_SCHEMA__ALL_PLANE_CERTIFICATION_RANK_COMPLETE_CONDITIONALLY__SMOOTH_COMPATIBLE_FULL_PULLBACK_VALUATION_EQUIVALENT_TO_METRIC__FOUNDING_VALUATION_AND_GLOBAL_SOLUTION_OPEN`
+
+Production passes 18/18 exact checks and the independent stdlib/Fraction route passes 10/10 after
+the registered repairs. Preregistration is commit `9b34974c`. Three fresh adversarial roles returned
+`PASS_WITH_REPAIRS`; two independent follow-up roles returned `FOLLOWUP_PASS`.

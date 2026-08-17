@@ -122,7 +122,7 @@ supplied source congruence permits invariant frequency `(b-q)R`; physical histor
 
 G116 derives `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)` locally without a coefficient; G117 preserves frozen P1 dual-SNe numerics conditionally.
 
-G118-G119 derive `d_A=R`; G120 preserves both SNe comparisons under imported transfer. G121, G122, and G123 separate scalar closure, terminal/phase, and incidence. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only as comparison. G126 stops direct R5 inversion. G127 derives the local same-history radial/tilted bridge; G128 observes finite-path persistence and closes at `SECOND_FOLLOWUP_PASS`. G129 `udt_g129_copresent_relational_network_faithfulness_2026-08-16/` proves bounded regular pair-network faithfulness iff the restriction map has rank ten: six explicit clock-ruler planes reconstruct all ten metric components, while axial rank seven hides nonisometric curved germs. Thus a supplied complete compatible network requires no separate history selector; founding ownership of the network and values, global extension, and physical solution remain open.
+G118-G119 derive `d_A=R`; G120 preserves both SNe comparisons under imported transfer. G121, G122, G123, G124, G125, G126, G127, and G128 separate scalar closure, phase, incidence, and finite-path screen response. G129 proves complete-pullback network faithfulness iff rank ten. G130 `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/` proves co-presence denotes event co-membership only conditional on supplied `S`, while Reciprocity governs supplied comparisons without creating their domain or values. A metric-dependent all-plane certification family contains a rank-ten witness; a smooth compatible `(A,h,overlap)` valuation and the metric are equivalent representations. Physical query totality, numerical valuation, solution law, and global completion remain open.
 
 ## Macro observational anchors
 
@@ -161,8 +161,8 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Next: test whether founding co-presence owns a rank-complete calibrated pair network and its values,
-or only imposes compatibility on a supplied network. Do not invent a selector, fit observations,
+Next: classify the all-plane terminal reciprocal-scalar faithfulness kernel—metric, conformal class,
+or larger equivalence class. Do not invent a selector, fit observations,
 or infer the physical global solution from bounded faithfulness.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.
