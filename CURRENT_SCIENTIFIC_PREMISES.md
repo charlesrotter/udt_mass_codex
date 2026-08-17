@@ -35,7 +35,7 @@ or source ownership is load-bearing.
 | G134 full-area faithfulness | `VERIFIED_WITH_CAVEATS` | Complete area data recover full `g` up to fixed sign; rank ten and local codimension eleven; no value/evolution law |
 | G135 projective pair readout | `VERIFIED_WITH_CAVEATS` | `chi=tanh(phi_pair)` is native and Mobius-compositional on supplied complete pairs; physical distance and `X_max` remain open |
 | G136 continuous position classification | `VERIFIED_WITH_CAVEATS` | Same-native-Mobius charts are `tanh(k phi_pair)`; chosen unit slope fixes `k=1`; physical adoption remains open |
-| G137--G143 position/network | `VERIFIED_WITH_CAVEATS` | Position adopted; one calibrated query owns chart carry; `C=R_BMR_A^-1` is invariant; cross-query gluing remains open |
+| G137--G144 position/network | `VERIFIED_WITH_CAVEATS` | Position adopted; a supplied chart or genuine overlap owns carry; `C=R_BMR_A^-1` is invariant; endpoint incidence alone does not glue distinct sheets |
 
 None of these results selects the physical network, numerical metric values, complete history,
 global completion, observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
@@ -65,8 +65,9 @@ and package-local evidence; they are not required startup chronology.
   the natural metric object is the symmetric bivector area bilinear.
 - Complete valued area data are equivalent to full metric data up to the fixed sign. Their local
   codimension-eleven metricity constraints are not equations of motion or history selection.
-- G138/G139/G140/G141/G142/G143 derive network and conditional carry algebra. One calibrated query
-  owns chart carry; physical cross-query gluing, family, and history remain unselected.
+- G138/G139/G140/G141/G142/G143/G144 derive network and carry algebra. One query owns chart carry;
+  a branch-resolved embedded overlap owns its transition. Endpoints do not glue sheets. Nonoverlap
+  population, family, and history remain unselected.
 
 ## Carrier, action, source, and matter
 
@@ -108,7 +109,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 130-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 131-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

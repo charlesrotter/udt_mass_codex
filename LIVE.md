@@ -57,28 +57,19 @@ derived only on a supplied regular calibrated pair realization.
   that native law, and separately chosen unit slope as a working physical-position constitution.
   The adopted join derives signed `x/X_max=tanh(phi_pair)` and nonnegative `s/X_max=abs(tanh(phi_pair))`; only
   signed position composes. `X_max` value, proper length, pair realization, and history remain open.
-- **G138/G139/G140/G141/G142/G143 — relation transport.** Endpoint descent and route transport remain
-  distinct. G140 rejects pullback-only congruence; G141--G142 derive invariant carrier/carry algebra.
-  G143 proves one supplied calibrated query chart owns identity carry; reparameterization gives the
-  G142 covariant form. Cross-query/branch gluing and physical history remain open.
+- **G138/G139/G140/G141/G142/G143/G144 — relation transport.** Endpoint descent and route transport remain distinct. G140
+  rejects pullback-only congruence; G141--G142 derive invariant carrier/carry algebra. G143 proves
+  one supplied calibrated query chart owns identity carry. G144 proves a branch-resolved embedded
+  overlap owns its transition `psi=F_beta^-1 o F_alpha` and `J=dpsi`; its total calibrated carry is
+  Lorentz-isometric and is identity in the positive-triangular same-event gauge. Common endpoint
+  observers alone do not create an overlap or carry. Distinct sheets remain branch-labelled.
 
-Maximum conclusion: every supplied complete pair owns bounded position magnitude. A supplied
-typed carrier/carry family owns an invariant algebraic comparison; its physical owner, values,
-history/solution law, completion, and `X_max` remain open.
-Primary sources:
-
-- `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
-- `udt_g129_copresent_relational_network_faithfulness_2026-08-16/`
-- `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/`
-- `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/`
-- `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/`
-- `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`
-- `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
-- `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
-- `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
-  `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
-  `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`; `udt_g143_single_pair_domain_carry_ownership_2026-08-17/`
+Maximum conclusion: every supplied complete pair owns bounded position magnitude. A supplied query
+sheet, or a genuine overlap of two sheets, owns presentation carry. Carry is therefore
+not the missing physical mechanism. The physical relation family, values, history/solution law,
+completion, and `X_max` remain open.
+Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
+`udt_g144_cross_query_overlap_carry_descent_2026-08-17/`. Use `INDEX.md` for the intervening chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -123,9 +114,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Derive exactly when two supplied query sheets are the same relation on overlap, so their transition
-map owns cross-query carry; prove endpoint incidence alone insufficient. Keep physical family,
-`X_max`, proper length, completion, and history open.
+Stop the carry excavation. Derive or sharply bound whether co-presence, reciprocal position,
+composition, and metric causality constrain a coherent relation-sheet network. Do not invent a
+selector; keep `X_max`, proper length, completion, and history open unless the metric supplies them.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

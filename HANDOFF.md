@@ -27,31 +27,17 @@ The active dependency chain is:
    transport remain separately typed, so route holonomy may survive.
 9. G140: constant-metric pullback faithfulness does not imply positional congruence; terminal
    `bar_phi` is unoriented and all eight supplied sign lifts fail.
-10. G141/G142/G143: `C_BA=R_B M_BA R_A^-1` is invariant. One supplied calibrated query chart
-    owns identity carry; reparameterization yields G142's form. Cross-query gluing remains open.
+10. G141/G142/G143/G144: `C_BA=R_B M_BA R_A^-1` is invariant. One supplied calibrated query chart owns
+    identity carry. A branch-resolved embedded overlap owns `psi=F_beta^-1 o F_alpha` and `J=dpsi`;
+    the total is Lorentz-isometric and becomes identity in the positive-triangular same-event gauge.
+    Shared endpoint observers alone do not create overlap or carry; distinct sheets stay labelled.
 
-The position chain passed review. `s/X_max=abs(tanh(phi_pair))` follows on a supplied pair;
-position is algebraically coherent on G141's supplied family. Physical inverse, `X_max`, proper
-length, pair ownership, history/solution law, and completion remain `OPEN`. `CANON.md` is unchanged.
+The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
+inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
-Open these after orientation only when load-bearing:
-
-- `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`
-- `udt_g129_copresent_relational_network_faithfulness_2026-08-16/AUDIT_REPORT.md`
-- `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/AUDIT_REPORT.md`
-- `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/AUDIT_REPORT.md`
-- `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/AUDIT_REPORT.md`
-- `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/AUDIT_REPORT.md`
-- `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/AUDIT_REPORT.md`
-- `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/AUDIT_REPORT.md`
-- `udt_g136_copresent_projective_distance_constitution_2026-08-17/AUDIT_REPORT.md`
-- `udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md`
-- `udt_g138_copresent_relational_position_network_descent_2026-08-17/AUDIT_REPORT.md`
-- `udt_g139_endpoint_position_transport_join_2026-08-17/AUDIT_REPORT.md`
-- `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/AUDIT_REPORT.md`
-- `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/AUDIT_REPORT.md`
-- `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/AUDIT_REPORT.md`
-- `udt_g143_single_pair_domain_carry_ownership_2026-08-17/AUDIT_REPORT.md`
+After orientation, open `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`
+or `udt_g144_cross_query_overlap_carry_descent_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
+`INDEX.md` routes the intervening chain.
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -93,7 +79,8 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Derive cross-query carry exactly on genuine overlaps and prove endpoint incidence insufficient.
-Keep `X_max`, proper length, realization, family, and history open.
+Carry is closed kinematically. Bound whether co-presence, reciprocal position, composition, and
+causality constrain a coherent relation-sheet network. Keep `X_max`, proper length, realization,
+family, and history/solution law open.
 
 <!-- STARTUP_CURRENT_END -->

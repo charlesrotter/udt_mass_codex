@@ -17,14 +17,11 @@ Given a complete metric history, typed query, and calibrated realization, geomet
 2. derivative, extrinsic, Jacobi, and transport data when the query owns them;
 3. overlap, calibration, branch, density, and holonomy compatibility.
 
-These are readouts of supplied complete metric and observer-relation data, not bolted-on mechanisms.
-It remains open whether the metric contains a global organizing statement determining the history
-and consistent observer network, or whether another physical premise is required.
+These are readouts of supplied metric and observer-relation data. Whether the metric globally organizes the history and observer network remains open.
 
 ## Controlling local evaluator
 
-For supplied regular `E=[[B,0],[Q S,Q]]` and `J=[Y;Z]`, the complete pullback is formed before scalar
-readout:
+For supplied regular `E=[[B,0],[Q S,Q]]` and `J=[Y;Z]`, the complete pullback is formed before scalar readout:
 
 ```text
 h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
@@ -78,8 +75,7 @@ is an intrinsic positive density and descends on genuine overlaps of one common 
 matched density trivializations. Across different observer planes, full `g` owns the symmetric
 bivector area bilinear, not a universal alternating two-form. Fresh adversarial follow-up passed.
 
-Sources: `udt_g129_copresent_relational_network_faithfulness_2026-08-16/` through
-`udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`; use `INDEX.md` for exact routes.
+Use `INDEX.md` for these sources.
 
 ### G134 — complete-area faithfulness
 
@@ -89,7 +85,7 @@ codimension eleven inside arbitrary symmetric bivector data. This gives real rel
 metricity constraints, but every regular Lorentz metric passes: numerical values and evolution are
 not selected. Fresh adversarial repair follow-up passed.
 
-### G135--G143 — co-present relational position
+### G135--G144 — co-present relational position
 
 After the orchestra forms a supplied calibrated pair metric, `T,L` own
 `q=T/L=exp(-2phi_pair)` and `chi=(L-T)/(L+T)=tanh(phi_pair)`. G136 classifies continuous
@@ -104,19 +100,21 @@ pullback faithfulness does not imply positional congruence. The pullback termina
 unoriented; its tested antisymmetric lift is supplied. G141 proves that on a supplied shared carrier,
 triangular endpoint comparisons compose and reverse. G142 derives gauge-invariant
 `C_BA=R_B M_BA R_A^-1`. G143 proves one calibrated query chart supplies identity carry and any
-flag-preserving reparameterization produces the G142 form. Cross-query gluing remains open.
+flag-preserving reparameterization produces the G142 form. G144 proves that a branch-resolved
+embedded overlap supplies its own transition differential and hence a Lorentz-isometric calibrated
+carry; in the positive-triangular same-event gauge it is identity. Common boundary observers alone
+do not imply an overlap. Thus carry is not an additional physical law, while nonoverlapping relation
+sheets, their physical population, and complete history remain open.
 
 ## Durable prerequisites
 
 - Pair-first reconstruction: a supplied pair immersion owns its tangent plane and positive screen.
-- Pair-terminal reachability: exact bounded pointwise terminal atlas, not history selection.
+- Pair-terminal reachability: bounded pointwise terminal atlas, not history selection.
 - Chord-network descent: endpoint ratios compose on one supplied calibration family.
-- Finite-radius central-spherical screen theorem: `D_sky=R O`, `|det D_sky|=R^2` on its stated
-  regular branch.
+- Finite-radius screen theorem: `D_sky=R O`, `|det D_sky|=R^2` on its regular branch.
 - Operational frequency junction: depth and source frequency agree only on its stated reduction.
 
-The G93--G128 execution chronology is archived provenance. Open those packages only when their
-specific premise or proof becomes load-bearing.
+G93--G128 are archived provenance; open only load-bearing packages.
 
 ## Observational anchors
 
@@ -140,15 +138,18 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. When do two supplied query sheets represent one relation on overlap and thereby own their carry?
-2. What fixes the value, profile, and global realization of `X_max`?
-3. Do composition, co-presence, and causality constrain the complete metric beyond metricity?
-4. Can they derive a complete history and observer network rather than only evaluate supplied data?
-5. How do time-live histories set pair, screen, mixing, and phase strengths across regimes?
-6. What are the native radiative/source and global-completion laws, if any?
+1. Do composition, co-presence, reciprocal position, and causality constrain a globally coherent
+   physical relation-sheet network beyond metricity and overlap compatibility?
+2. Can that coherence derive a complete history and observer network rather than only evaluate
+   supplied data?
+3. What fixes the value, profile, and global realization of `X_max`?
+4. How do time-live histories set pair, screen, mixing, and phase strengths across regimes?
+5. What are the native radiative/source and global-completion laws, if any?
 
 ## Bounded next action
 
-Derive or sharply bound question 1 without inventing a selector or fit. Leave physical family,
-`X_max`, proper length, history, and completion open.
-Historical startup prose: `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-14/`.
+Zoom out before another calculation. Derive or sharply bound question 1 from the metric and the
+adopted co-present positional constitution, without inventing a selector or fit. Treat G141--G144 as
+closing presentation carry, not as selecting the physical family. Leave `X_max`, proper length,
+history, and completion open.
+History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

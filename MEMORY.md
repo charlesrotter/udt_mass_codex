@@ -4,9 +4,8 @@ Re-read from disk on resume. `LIVE.md` wins.
 
 ## Current theory picture
 
-The complete-pair evaluator forms one pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and
-conditional `c_eff/c_E`. Live derivatives remain upstream. It evaluates supplied data; it does
-not select history, query population, or values.
+The evaluator forms one pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and conditional
+`c_eff/c_E`. Live derivatives stay upstream; history, query population, and values are unselected.
 
 Current dependency spine:
 
@@ -16,17 +15,18 @@ Current dependency spine:
 - G132: common scale is retained but not sourced.
 - G133: fixed `K` owns internal density only; supplied pair density descends conditionally;
   `kappa_pair` needs matched calibration; full `g` owns the bivector area bilinear.
-- G134: complete area data recover complete `g` up to fixed sign and obey a rank-ten,
-  local-codimension-eleven metricity locus; this is not a value or evolution law.
-- G135--G137 (G136 classification): the complete pair owns `chi=tanh(phi_pair)`; Charles adopted its continuous
-  same-Mobius unit-slope chart as working position. Signed `x/X_max=tanh(phi_pair)` and symmetric
+- G134: area data recover `g` up to fixed sign on a rank-ten, codimension-eleven metricity locus;
+  this is not a value or evolution law.
+- G135--G137: the pair owns `chi=tanh(phi_pair)`; Charles adopted G136's unit-slope chart. Signed
+  `x/X_max=tanh(phi_pair)` and symmetric
   `s/X_max=abs(tanh(phi_pair))` follow; only signed position composes.
 - G138: endpoint position descends iff matched cycles close; reference gauges form a Mobius torsor;
   nonzero cycles are holonomy only when routes remain distinct arrows.
-- G139/G140/G141/G142/G143: position is provisional; route holonomy may remain. Supplied carry data
-  give invariant `C=R_BMR_A^-1`; one calibrated query owns chart carry, while cross-query gluing is open.
+- G139/G140/G141/G142/G143/G144: position is provisional; route holonomy may remain. Supplied carry data give invariant
+  `C=R_BMR_A^-1`; one chart or genuine overlap owns presentation carry. Shared endpoints do
+  not glue distinct sheets. Carry is not the missing mechanism.
 
-Network values, complete history/solution law, completion, observations, and `X_max` remain open.
+Network values, complete history/solution law, completion, and `X_max` remain open.
 
 ## Observational pointer
 
@@ -55,8 +55,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Derive carry on genuine cross-query overlaps and prove endpoint incidence insufficient. Keep
-`X_max`, proper length, family, and history open.
+Zoom out from the closed carry chain. Derive or sharply bound whether co-presence, reciprocal
+position, composition, and metric causality constrain a globally coherent physical relation-sheet
+network. Keep `X_max`, proper length, family, and history open unless the metric supplies them.
 
 ## Historical route
 
