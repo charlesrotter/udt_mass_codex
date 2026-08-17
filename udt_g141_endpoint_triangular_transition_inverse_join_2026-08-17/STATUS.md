@@ -1,5 +1,6 @@
 # G141 status
 
-`PREREGISTERED__NO_OUTCOME_YET`
+`VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_FOLLOWUP_PASS`
 
-The endpoint triangular-transition inverse join is frozen before execution.
+Production passes 65/65, independent replay passes 40/40, and the package verifier passes 29/29.
+The initial fresh review required repair; the same adversary returned `FOLLOWUP_PASS` after repair.
