@@ -70,6 +70,7 @@ CURRENT_TARGETS = (
     "udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/AUDIT_REPORT.md",
     "udt_g126_angular_lane_same_query_bridge_2026-08-16/AUDIT_REPORT.md",
     "udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/AUDIT_REPORT.md",
+    "udt_g128_finite_path_timelive_radial_tilted_screen_2026-08-16/AUDIT_REPORT.md",
 )
 
 
@@ -114,7 +115,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 114-row premise registry" in result.stdout
+    assert "PASS: 115-row premise registry" in result.stdout
 
 
 def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:

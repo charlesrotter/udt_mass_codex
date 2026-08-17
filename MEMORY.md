@@ -72,8 +72,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106-G120 assemble full-`dF` geometry through exact screen and conditional SNe comparison. G121-G125 separate scalar closure, phase, incidence, and the total score. G126 stops direct R5 inversion. G127 derives a local same-history radial/tilted screen bridge from one metric, with optical shear downstream of the Jacobi map and no appended angular sector.
-Next extend G127 from the vertex jet to finite affine propagation on one supplied time-live history; classify persistence, zeros, branches, and caustics without fitting or selecting a history.
+G106-G120 assemble full-`dF` geometry through exact screen and conditional SNe comparison. G121-G125 separate scalar closure, phase, incidence, and the total score. G126 stops direct R5 inversion. G127 derives a local same-history radial/tilted screen bridge from one metric, with optical shear downstream of the Jacobi map and no appended angular sector. G128 internally observes that bridge persisting across 16 finite-path complete-spherical-base controls, including time-live `phi` and time-live `kappa,phi,beta`; external review remains pending.
+Next obtain fresh adversarial review of G128. If it survives, extend to the smallest genuinely nonspherical complete-coframe history without fitting or selecting a physical history.
 
 ## Archive
 

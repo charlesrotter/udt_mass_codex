@@ -1,0 +1,237 @@
+{
+  "cases": [
+    {
+      "D_max_abs_error": 6.3055116683585766e-12,
+      "alpha": 0.0,
+      "history": "H0_flat",
+      "independent_D_endpoint": [
+        [
+          0.7999999999936945,
+          0.0
+        ],
+        [
+          0.0,
+          0.8000000000000007
+        ]
+      ],
+      "null_screen_drift": 2.220446049250313e-16,
+      "phase_max_abs_error": 0.0,
+      "production_D_endpoint": [
+        [
+          0.8,
+          0.0
+        ],
+        [
+          0.0,
+          0.8
+        ]
+      ]
+    },
+    {
+      "D_max_abs_error": 1.1958212198237561e-12,
+      "alpha": 0.7853981633974483,
+      "history": "H0_flat",
+      "independent_D_endpoint": [
+        [
+          0.7999999999988042,
+          -6.235129266284492e-14
+        ],
+        [
+          0.0,
+          0.8000000000000013
+        ]
+      ],
+      "null_screen_drift": 2.0261570199409107e-15,
+      "phase_max_abs_error": 6.661338147750939e-16,
+      "production_D_endpoint": [
+        [
+          0.8,
+          0.0
+        ],
+        [
+          0.0,
+          0.8
+        ]
+      ]
+    },
+    {
+      "D_max_abs_error": 4.532818564939589e-12,
+      "alpha": 0.0,
+      "history": "H1_static_reciprocal",
+      "independent_D_endpoint": [
+        [
+          0.7999999999954672,
+          0.0
+        ],
+        [
+          0.0,
+          0.8000000000000009
+        ]
+      ],
+      "null_screen_drift": 3.9968028886505635e-15,
+      "phase_max_abs_error": 2.220446049250313e-16,
+      "production_D_endpoint": [
+        [
+          0.8,
+          0.0
+        ],
+        [
+          0.0,
+          0.8
+        ]
+      ]
+    },
+    {
+      "D_max_abs_error": 3.415379090654369e-12,
+      "alpha": 0.7853981633974483,
+      "history": "H1_static_reciprocal",
+      "independent_D_endpoint": [
+        [
+          0.7988372184751504,
+          7.516171283615463e-14
+        ],
+        [
+          0.0,
+          0.7996704594386894
+        ]
+      ],
+      "null_screen_drift": 1.457167719820518e-15,
+      "phase_max_abs_error": 1.3322676295501878e-15,
+      "production_D_endpoint": [
+        [
+          0.798837218471735,
+          0.0
+        ],
+        [
+          0.0,
+          0.7996704594386902
+        ]
+      ]
+    },
+    {
+      "D_max_abs_error": 9.814038470778996e-12,
+      "alpha": 0.0,
+      "history": "H2_timelive_reciprocal",
+      "independent_D_endpoint": [
+        [
+          0.7945680713500678,
+          0.0
+        ],
+        [
+          0.0,
+          0.7945680713402522
+        ]
+      ],
+      "null_screen_drift": 2.3314683517128287e-15,
+      "phase_max_abs_error": 6.661338147750939e-16,
+      "production_D_endpoint": [
+        [
+          0.7945680713402538,
+          0.0
+        ],
+        [
+          0.0,
+          0.7945680713402538
+        ]
+      ]
+    },
+    {
+      "D_max_abs_error": 7.884470853980474e-12,
+      "alpha": 0.7853981633974483,
+      "history": "H2_timelive_reciprocal",
+      "independent_D_endpoint": [
+        [
+          0.793703738896725,
+          2.608418025706533e-13
+        ],
+        [
+          0.0,
+          0.7948719292590831
+        ]
+      ],
+      "null_screen_drift": 2.9976021664879227e-15,
+      "phase_max_abs_error": 2.4424906541753444e-15,
+      "production_D_endpoint": [
+        [
+          0.7937037388888405,
+          0.0
+        ],
+        [
+          0.0,
+          0.794871929259082
+        ]
+      ]
+    },
+    {
+      "D_max_abs_error": 1.5489831639570184e-12,
+      "alpha": 0.0,
+      "history": "H3_timelive_full_spherical_base",
+      "independent_D_endpoint": [
+        [
+          0.7873106663078863,
+          0.0
+        ],
+        [
+          0.0,
+          0.7873106663094372
+        ]
+      ],
+      "null_screen_drift": 6.661338147750939e-16,
+      "phase_max_abs_error": 1.1102230246251565e-15,
+      "production_D_endpoint": [
+        [
+          0.7873106663094352,
+          0.0
+        ],
+        [
+          0.0,
+          0.7873106663094352
+        ]
+      ]
+    },
+    {
+      "D_max_abs_error": 1.2626011347549593e-11,
+      "alpha": 0.7853981633974483,
+      "history": "H3_timelive_full_spherical_base",
+      "independent_D_endpoint": [
+        [
+          0.7863995782411697,
+          4.466756412385772e-16
+        ],
+        [
+          0.0,
+          0.7861817115697052
+        ]
+      ],
+      "null_screen_drift": 3.635980405647388e-15,
+      "phase_max_abs_error": 2.220446049250313e-15,
+      "production_D_endpoint": [
+        [
+          0.7863995782285437,
+          0.0
+        ],
+        [
+          0.0,
+          0.786181711569708
+        ]
+      ]
+    }
+  ],
+  "checks": {
+    "all_eight_cases_replayed": true,
+    "all_nonflat_tilted_endpoints_anisotropic": true,
+    "flat_endpoint_is_lambda_identity": true,
+    "independent_D_agreement": true,
+    "independent_null_screen_geometry": true,
+    "independent_phase_agreement": true,
+    "radial_endpoint_isotropic": true
+  },
+  "maxima": {
+    "D_max_abs_error": 1.2626011347549593e-11,
+    "null_screen_drift": 3.9968028886505635e-15,
+    "phase_max_abs_error": 2.4424906541753444e-15
+  },
+  "maximum_conclusion": "independent verification of eight declared G128 controls only",
+  "method": "independent direct metric-derivative connection plus five-point nonlinear neighboring rays",
+  "status": "PASS"
+}
