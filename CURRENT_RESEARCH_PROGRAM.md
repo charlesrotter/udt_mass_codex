@@ -122,7 +122,7 @@ supplied source congruence permits invariant frequency `(b-q)R`; physical histor
 
 G116 derives `zeta=phi_pair+v_rel R+(dot(v_rel)-A_opt/4)R^2+O(R^3)` locally without a coefficient; G117 preserves frozen P1 dual-SNe numerics conditionally.
 
-G118-G119 derive `d_A=R`; G120 preserves both SNe comparisons under imported transfer. G121, G122, G123, G124, G125, G126, G127, and G128 separate scalar closure, phase, incidence, and finite-path screen response. G129 proves complete-pullback network faithfulness iff rank ten. G130 `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/` proves co-presence denotes event co-membership only conditional on supplied `S`, while Reciprocity governs supplied comparisons without creating their domain or values. A metric-dependent all-plane certification family contains a rank-ten witness; a smooth compatible `(A,h,overlap)` valuation and the metric are equivalent representations. Physical query totality, numerical valuation, solution law, and global completion remain open.
+G118 and G119 derive exact screen structure; G120 retains conditional SNe comparison. G121, G122, G123, G124, G125, G126, G127, and G128 separate scalar, phase, incidence, and finite-path channels. G129 proves full-pullback network faithfulness iff rank ten. G130 separates conditional co-membership and reciprocal law grammar from unowned values. G131 `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/` proves a supplied all-plane terminal scalar valuation determines exactly positive conformal Lorentz geometry; one frozen clock is insufficient, clock tilts remove nonconformal shifts, and common scale remains invisible despite fixed `c_E`. Query/value ownership, scale, solution law, and global completion remain open.
 
 ## Macro observational anchors
 
@@ -161,8 +161,8 @@ These are related, but no current result proves that one missing equation closes
 
 ## Bounded next actions
 
-Next: classify the all-plane terminal reciprocal-scalar faithfulness kernel—metric, conformal class,
-or larger equivalence class. Do not invent a selector, fit observations,
+Next: audit whether any already-derived query-independent norm, area, volume, or full-pullback datum
+of known nonzero conformal weight owns common scale. Do not invent a selector, fit observations,
 or infer the physical global solution from bounded faithfulness.
 
 Do not launch a new AM seam atlas, preferred-path hunt, profile ranking, GPU solve, or mechanism invention merely to create forward motion.

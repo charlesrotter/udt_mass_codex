@@ -174,6 +174,7 @@ def validate_startup_surface(root: Path) -> None:
         require("G128" in block, f"G128 finite-path screen-persistence result absent: {name}")
         require("G129" in block, f"G129 relational-network faithfulness result absent: {name}")
         require("G130" in block, f"G130 co-presence network-ownership result absent: {name}")
+        require("G131" in block, f"G131 terminal-scalar conformal result absent: {name}")
         require(
             "udt_complete_reciprocal_representation_extension_census_2026-08-16/" in block
             or "constant reciprocal-extension census" in block.lower(),
@@ -283,6 +284,11 @@ def validate_startup_surface(root: Path) -> None:
             f"G130 package route absent: {name}",
         )
         require(
+            "udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/" in block
+            or "G131" in block,
+            f"G131 package route absent: {name}",
+        )
+        require(
             "udt_orchestra_score_whiteboard_2026-08-15/" in block
             or "whiteboard" in block.lower(),
             f"orchestra-score next-gate route absent: {name}",
@@ -370,6 +376,7 @@ def validate_startup_surface(root: Path) -> None:
             "G128",
             "G129",
             "G130",
+            "G131",
             "dV=E(dJ+E^-1dE J)",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
@@ -400,6 +407,7 @@ def validate_startup_surface(root: Path) -> None:
             "G128",
             "G129",
             "G130",
+            "G131",
         ),
         "README.md": (
             "LIVE.md",
@@ -511,9 +519,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 117, "premise registry must contain exactly 117 rows")
+    require(len(rows) == 118, "premise registry must contain exactly 118 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 117, "duplicate premise id")
+    require(len(by_id) == 118, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2490,6 +2498,42 @@ def main() -> None:
         == "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/AUDIT_REPORT.md",
         "G130 source changed",
     )
+    require(
+        by_id["G131"]["current_status"].startswith(
+            "FRESH_ADVERSARIAL_FOLLOWUP_PASS__ALL_PLANE_TERMINAL_SCALAR_CONFORMAL_FAITHFUL_ONLY"
+        ),
+        "G131 terminal-scalar conformal result regressed or promoted",
+    )
+    require(by_id["G131"]["epistemic_label"] == "MIXED", "G131 label changed")
+    require(
+        "physical ownership of the all-plane query family and scalar values"
+        in by_id["G131"]["open_scope"],
+        "G131 query/value ownership boundary absent",
+    )
+    require(
+        "fixed-clock slice called all-plane coverage" in by_id["G131"]["forbidden_regression"],
+        "G131 clock-tilt guard absent",
+    )
+    require(
+        "equality on a lower-dimensional or unlabeled domain called conformal faithfulness"
+        in by_id["G131"]["forbidden_regression"],
+        "G131 shared-domain guard absent",
+    )
+    require(
+        "positive conformal factor said to be fixed by c_E alone"
+        in by_id["G131"]["forbidden_regression"],
+        "G131 c_E common-scale guard absent",
+    )
+    require(
+        "scalar readout common-scale blindness called scale-free UDT"
+        in by_id["G131"]["forbidden_regression"],
+        "G131 scale-free regression guard absent",
+    )
+    require(
+        by_id["G131"]["controlling_source"]
+        == "udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/AUDIT_REPORT.md",
+        "G131 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2568,7 +2612,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G130-extended premise guards; PASS: 117-row premise "
+        "PASS: G131-extended premise guards; PASS: 118-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

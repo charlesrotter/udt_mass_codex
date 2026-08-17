@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "all_plane_result_is_certification_not_value_ownership": true,
+    "common_scale_hidden_even_with_fixed_cE_symbol": true,
+    "conformal_curvature_formula": true,
+    "conformal_curvature_nonzero_at_origin": true,
+    "fixed_clock_family_matches_eta_exactly": true,
+    "fixed_clock_q_is_spatial_norm": true,
+    "lexical_G130_scalar_depths_not_faithful": true,
+    "lexical_foundation_cE_is_conversion_anchor": true,
+    "lexical_foundation_profile_remains_open": true,
+    "lexical_terminal_formula_present": true,
+    "nonconstant_conformal_metric_differs_off_origin": true,
+    "positive_conformal_invariance_generic": true,
+    "single_clock_nonconformal_shift_survives": true,
+    "source_hashes_match": true,
+    "three_basis_tilts_force_b_zero": true,
+    "tilted_clock_detects_nonconformal_shift": true,
+    "tilted_derivative_exact": true,
+    "zero_b_candidate_is_positive_conformal_eta_when_a_negative": true
+  },
+  "conformal_curvature": "-12/(xpos**2 + 1)**3",
+  "fixed_clock_tilt_derivative": "-4*(x1**2 + x2**2 + x3**2)*(b1*x1 + b2*x2 + b3*x3)/a",
+  "landing": "ALL_PLANE_TERMINAL_SCALAR_CONFORMAL_FAITHFUL_ONLY__COMMON_SCALE_OPEN",
+  "maximum_conclusion": "On a shared open regular all-plane certification domain, equality of terminal reciprocal scalars forces two Lorentz forms to differ by one positive pointwise conformal factor. The scalar is exactly blind to that common scale. Observed c_E calibrates clock-ruler units but does not supply the missing pointwise conformal datum.",
+  "production_check_count": 18,
+  "status": "PASS",
+  "tilted_shift_witness_mismatch": "32630000/138791961"
+}

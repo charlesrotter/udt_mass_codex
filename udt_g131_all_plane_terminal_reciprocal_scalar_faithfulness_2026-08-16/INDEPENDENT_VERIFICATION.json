@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "independent_conformal_metrics_have_different_full_pullbacks": true,
+    "independent_fixed_clock_nonconformal_family_matches": true,
+    "independent_nonconstant_conformal_curvature_minus_twelve": true,
+    "independent_positive_conformal_scaling_matches_all_samples": true,
+    "independent_scalar_ratio_has_no_absolute_scale_slot": true,
+    "independent_three_nonzero_shift_components_detected": true,
+    "independent_three_tilt_derivatives_match_formula": true,
+    "independent_tilted_clock_breaks_nonconformal_match": true
+  },
+  "conformal_curvature_at_origin": "-12",
+  "independent_check_count": 8,
+  "landing": "ALL_PLANE_TERMINAL_SCALAR_CONFORMAL_FAITHFUL_ONLY__COMMON_SCALE_OPEN",
+  "status": "PASS"
+}

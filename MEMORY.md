@@ -72,8 +72,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106-G128 assemble full-`dF`, screen, scalar, phase, incidence, and finite-path structure. G129 proves full-pullback network faithfulness iff rank ten. G130 proves co-presence denotes event co-membership conditional on supplied `S`, while Reciprocity governs supplied comparisons but does not create their domain or values; a compatible `(A,h,overlap)` valuation is equivalent to the metric.
-Next classify the all-plane terminal reciprocal-scalar faithfulness kernel: metric, conformal class, or larger class.
+G106-G128 assemble full-`dF`, screen, scalar, phase, incidence, and finite-path structure. G129 proves full-pullback faithfulness iff rank ten; G130 separates conditional co-membership and reciprocal grammar from unowned values. G131 proves all terminal `phi_pair` values on a supplied shared full-dimensional open labelled plane domain determine exactly positive conformal geometry; common scale survives and `c_E` alone does not fix it.
+Next audit any already-derived query-independent datum of known nonzero conformal weight for common-scale ownership.
 
 ## Archive
 
