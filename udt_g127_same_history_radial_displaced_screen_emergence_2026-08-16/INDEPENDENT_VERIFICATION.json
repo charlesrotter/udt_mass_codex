@@ -1,0 +1,52 @@
+{
+  "checks": {
+    "cartan_Xi": true,
+    "cartan_scalar_T": true,
+    "cartan_scalar_U": true,
+    "cartan_scalar_V": true,
+    "cartan_scalar_W": true,
+    "jacobi_cubic_eigenvalue_difference": true,
+    "optical_linear_matrix_is_minus_tidal_over_three": true,
+    "optical_shear_eigenvalue_contrast": true,
+    "optical_shear_tracefree_is_minus_tidal_tracefree_over_three": true,
+    "radial_isotropic_and_zero": true,
+    "screen_determinant_covariant": true,
+    "screen_rotation_is_orthogonal": true,
+    "screen_trace_covariant": true,
+    "screen_tracefree_norm_covariant": true,
+    "tilt_reversal_even": true,
+    "tilted_exact_matrix": true,
+    "tilted_tidal_contrast_is_s2_Xi": true
+  },
+  "exact_witness": {
+    "T": "1/4",
+    "U": "-1/4",
+    "V": "1/4",
+    "W": "1/2",
+    "Xi": "1/4",
+    "jacobi_cubic_difference": "-2/75",
+    "optical_linear_difference": "-4/75",
+    "radial": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "tilted": [
+      [
+        "8/25",
+        "0"
+      ],
+      [
+        "0",
+        "4/25"
+      ]
+    ]
+  },
+  "implementation": "independent standard-library Fraction replay using Cartan/warped-curvature ratios; no production import",
+  "status": "PASS"
+}

@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "fresh_independent_byte_identical": true,
+    "fresh_production_byte_identical": true,
+    "fresh_replay_exit::derive_same_history_screen.py": true,
+    "fresh_replay_exit::verify_same_history_independent.py": true,
+    "independent_17_of_17": true,
+    "present::AUDIT_REPORT.md": true,
+    "present::BLIND_REVIEW_FOLLOWUP.md": true,
+    "present::BLIND_REVIEW_RAW.md": true,
+    "present::CORRECTION_RECORD.md": true,
+    "present::EVIDENCE_GATES.md": true,
+    "present::EXACT_DERIVATION.md": true,
+    "present::LAY_REPORT.md": true,
+    "present::PREMISE_LEDGER.tsv": true,
+    "present::PREREGISTRATION.md": true,
+    "present::PREREGISTRATION_SCOPE_CORRECTION.md": true,
+    "present::REVIEW_REQUEST.md": true,
+    "production_26_of_26": true,
+    "source::udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/AUDIT_REPORT.md": true,
+    "source::udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/EXACT_DERIVATION.md": true,
+    "source::udt_g126_angular_lane_same_query_bridge_2026-08-16/AUDIT_REPORT.md": true,
+    "source::udt_g126_angular_lane_same_query_bridge_2026-08-16/USER_FRAME_CORRECTION.md": true,
+    "source::udt_observer_exponential_full_differential_type_audit_2026-08-16/AUDIT_REPORT.md": true,
+    "source::udt_observer_exponential_full_differential_type_audit_2026-08-16/EXACT_DERIVATION.md": true,
+    "source_count_six": true
+  },
+  "source_count": 6,
+  "status": "PASS",
+  "verification_kind": "source_manifest_plus_fresh_isolated_replay_and_byte_comparison"
+}

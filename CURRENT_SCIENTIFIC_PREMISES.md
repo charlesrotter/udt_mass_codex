@@ -96,7 +96,7 @@ Controlling sources: G09-G13, G15-G16, G21, G26-G27.
   G115-G118 derive the live jet, frequency junction, SNe retyping, and scaffolding reduction. G119
   proves finite-radius `D_sky=R O`; G120 conditionally retypes one outgoing radius-frequency curve.
   G121 separates local identities from conditional pair-scalar descent. G122 keeps terminal pair
-  and causal phase distinct. G123 derives a supplied common-event graph. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only as a comparison/non-regression check on frozen P1's combined score—not as a branch. G126 proves the exact spherical screen cannot supply R5's nontrivial angular structure or identify `K`/phase; the nonspherical same-history bridge remains open. History, transfer, and `X_max` remain open.
+  and causal phase distinct. G123 derives a supplied common-event graph. G124 derives `zeta=phi_pair-kappa_pair+chi_s`; G125 uses SNe only as a comparison—not as a branch. G126 stops direct R5 inversion. G127 derives the local same-history radial/tilted screen bridge from one supplied reciprocal spherical metric: generic tidal contrast is `sin(alpha)^2 Xi`, while optical shear follows separately from `D'D^-1`; no appended angular law, coefficient, `mu`, second history, SNe, or R5 enters. Physical history, query ownership, finite propagation, transfer, and `X_max` remain open.
 - Overlapping-pair compatibility is internally `VERIFIED-WITH-CAVEATS`; corrected contribution-live
   flat, monotone, and loud-quiet-loud lifts survive, but activity selects no score.
 - Fixed-Gram reciprocal/orchestra response: regraded to `CONDITIONAL_DIAGNOSTIC_ONLY`; its strict

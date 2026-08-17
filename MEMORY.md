@@ -72,8 +72,8 @@ transfer remain open. G98 completes the zoom-out: flat, monotone, and loud-quiet
 survive with every factor contributing, so current equations permit but do not own the continuation.
 G99 freezes P1; G100 finds no large-residual DES rejection; G101 retains only the two-source query and local maser-slope lead from `grok2`.
 G102-G105 derive the conditional evaluator, local nonselection, factorized null, and Jacobian channel.
-G106-G120 assemble full-`dF` geometry through exact screen and conditional SNe comparison. G121-G123 separate scalar closure, terminal/phase, and incidence. G124 derives `zeta=phi-kappa+chi`; G125 treats SNe only as a comparison check, not a branch. G126 proves the exact spherical screen cannot supply R5's angular pattern or identify `K`/phase.
-Direct R5 fitting is stopped. Next map whether the nonlinear nonspherical/displaced differential joins the history whose G119 projection is merely SNe-checked through G125; do not fit.
+G106-G120 assemble full-`dF` geometry through exact screen and conditional SNe comparison. G121-G125 separate scalar closure, phase, incidence, and the total score. G126 stops direct R5 inversion. G127 derives a local same-history radial/tilted screen bridge from one metric, with optical shear downstream of the Jacobi map and no appended angular sector.
+Next extend G127 from the vertex jet to finite affine propagation on one supplied time-live history; classify persistence, zeros, branches, and caustics without fitting or selecting a history.
 
 ## Archive
 

@@ -78,7 +78,7 @@ regular central-spherical branch `D_sky=R O`, `|det D_sky|=R^2`. G120
 `udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/` is blind verified:
 with explicitly imported `eta=1,epsilon=1/Z`, `d_L=Z^2R`; frozen P1 becomes one outgoing `Z>1`
 conditional radius-frequency curve and preserves both SNe replays. G121 is blind verified and finds local matched
-identities and conditional pair-scalar closure only. G122 keeps terminal pair and causal phase distinct. G123 derives the supplied common-event incidence graph. G124 derives the exact finite-radius score `zeta=phi_pair-kappa_pair+chi_s`. G125 uses SNe only as a comparison/non-regression data set for frozen P1's combined score; SNe owns no metric branch or history. G126 `udt_g126_angular_lane_same_query_bridge_2026-08-16/` is blind verified after repairs: the exact G119 spherical screen is angle preserving, radial, and zero-shear; the ideal reference removes its pure radial modulation; `R(Z)` does not own affine rate; and R5's two-point curves do not invert to `K` or phase. `R_inf` is not `X_max`.
+identities and conditional pair-scalar closure only. G122 keeps terminal pair and causal phase distinct. G123 derives the supplied common-event incidence graph. G124 derives the exact finite-radius score `zeta=phi_pair-kappa_pair+chi_s`. G125 uses SNe only as a comparison/non-regression data set for frozen P1's combined score; SNe owns no metric branch or history. G126 stops direct R5-to-`K`/phase fitting. G127 `udt_g127_same_history_radial_displaced_screen_emergence_2026-08-16/` is blind verified: at one shared finite-radius event, one supplied reciprocal spherical metric gives an isotropic symmetry-radial tidal screen and a tilted contrast `sin(alpha)^2 Xi`; Jacobi propagation gives optical shear without an appended angular law, amplitude, `mu`, second history, SNe, or R5 input. Physical history, query ownership, finite/time-live propagation, and observations remain open. `R_inf` is not `X_max`.
 
 ### Banked observational lane — R5 full-spectrum common-subspace atlas is complete; next solve paused
 
@@ -160,7 +160,7 @@ Some protected directories have tracked shells plus local untracked payloads. Di
 does not prove banking; inspect Git status and preserve every local file.
 
 ### Immediate next action
-G126 stops direct R5-to-`K`/phase fitting. Next map—without observational fitting—whether the banked nonlinear nonspherical/displaced differential can join the same history whose central-spherical G119 projection is merely checked against SNe through G125; stop if that bridge is not metric-owned.
+G127 closes the local same-history bridge. Next extend its metric-owned radial/tilted screen relation from the vertex jet to finite affine propagation on one supplied time-live reciprocal history; classify persistence, zeros, branching, and caustics without observations or history selection.
 
 ### Archive
 Superseded startup prose is preserved under `archive/startup_surface_2026-08-14/` as provenance,
