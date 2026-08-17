@@ -1,0 +1,11 @@
+item	status	role
+c_E	OBSERVED	fixed clock-ruler unit calibration; not assumed to be a pointwise norm field
+complete_pair_pullback	DERIVED_CONDITIONALLY	h=A^T g A on supplied regular calibrated plane
+terminal_Phi	DERIVED_CONDITIONALLY	one dimensionless reciprocal scalar read from h
+all_plane_domain	CONDITIONAL_CERTIFICATION_PROBE	metric-dependent mathematical domain; not physical observer totality
+known_plane_embeddings	SUPPLIED	required to compare scalar valuations on the same queries
+Lorentz_signature	PINNED_BY_THEORY	one negative and three positive directions
+positive_conformal_factor	FREE_AND_EXPLORED	exact kernel witness only
+physical_query_family	OPEN	not selected by this classification
+numerical_scalar_field	OPEN	not supplied by this classification
+history_dynamics_global_completion	OMITTED	no solution or selection claim
