@@ -57,15 +57,15 @@ derived only on a supplied regular calibrated pair realization.
   that native law, and separately chosen unit slope as a working physical-position constitution.
   The adopted join derives signed `x/X_max=tanh(phi_pair)` and nonnegative `s/X_max=abs(tanh(phi_pair))`; only
   signed position composes. `X_max` value, proper length, pair realization, and history remain open.
-- **G138 — network descent.** Endpoint position descends iff matched cycles close; arbitrary
-  reference gauges form a Mobius torsor. Nonzero cycles are holonomy only for distinct arrows.
-- **G139 — endpoint position / route transport.** Position provisionally descends within each
-  supplied congruent physical relation family while path transport may retain angular holonomy.
+- **G138/G139/G140 — descent, transport, congruence.** Endpoint position descends iff matched cycles
+  close; route transport may retain holonomy. In one normalized Minkowski affine control, pooled
+  rank-ten constant-metric pullbacks do not imply congruence. Terminal `bar_phi` is unoriented; all
+  eight supplied `delta` sign lifts fail. Physical inverse/query and family ownership remain open.
 
-Maximum conclusion: every supplied complete pair owns bounded signed position and unsigned
-magnitude. Within a supplied congruent family, route memory cannot change endpoint position but may
-retain angular holonomy. Family, values, complete history/solution law, completion, and `X_max` remain open.
-
+Maximum conclusion: every supplied complete pair owns bounded position magnitude; signed position
+needs an ordered inverse/query lift. Within a congruent family route memory cannot change position
+but may retain holonomy. Family, inverse owner, values, complete history/solution law, completion,
+and `X_max` remain open.
 Primary sources:
 
 - `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
@@ -77,11 +77,11 @@ Primary sources:
 - `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`; `udt_g139_endpoint_position_transport_join_2026-08-17/`
+- `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
+  `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
-package tree, the premise registry, and
-`archive/startup_surface_2026-08-17_pre_zoomout/`.
+package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ### Banked observational lane
 
@@ -123,9 +123,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Test whether one common rank-complete full-pullback observer atlas induces the required positional
-route congruence or whether it remains a nonidentity global admissibility condition. Keep `X_max`
-value, proper length, completion, realization, and history open; do not launch a fit or mechanism.
+Derive or bound the ordered inverse/query and congruent-family construction from the complete pair
+metric plus co-presence. G140 shows pullback faithfulness alone is insufficient. Keep `X_max`,
+proper length, completion, realization, and history open; do not launch a fit or mechanism.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

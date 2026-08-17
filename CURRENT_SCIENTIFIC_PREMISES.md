@@ -35,7 +35,7 @@ or source ownership is load-bearing.
 | G134 full-area faithfulness | `VERIFIED_WITH_CAVEATS` | Complete area data recover full `g` up to fixed sign; rank ten and local codimension eleven; no value/evolution law |
 | G135 projective pair readout | `VERIFIED_WITH_CAVEATS` | `chi=tanh(phi_pair)` is native and Mobius-compositional on supplied complete pairs; physical distance and `X_max` remain open |
 | G136 continuous position classification | `VERIFIED_WITH_CAVEATS` | Same-native-Mobius charts are `tanh(k phi_pair)`; chosen unit slope fixes `k=1`; physical adoption remains open |
-| G137--G139 position/network | `VERIFIED_WITH_CAVEATS` | Position adopted; descent iff cycles close; provisional endpoint owner and separate route transport |
+| G137--G139/G140 position/network | `VERIFIED_WITH_CAVEATS` | Position adopted; descent iff cycles close; route transport separate; constant-metric pullback faithfulness does not imply congruence or inverse ownership |
 
 None of these results selects the physical network, numerical metric values, complete history,
 global completion, observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
@@ -65,9 +65,9 @@ and package-local evidence; they are not required startup chronology.
   the natural metric object is the symmetric bivector area bilinear.
 - Complete valued area data are equivalent to full metric data up to the fixed sign. Their local
   codimension-eleven metricity constraints are not equations of motion or history selection.
-- G138--G139 derive network algebra. Charles provisionally chose endpoint descent within supplied
-  congruent physical relation families; route transport may retain
-  holonomy, and the family/congruence remains unselected.
+- G138--G140 derive network algebra and one exact insufficiency control. Charles provisionally chose
+  endpoint descent within supplied congruent families; route transport may retain holonomy, while
+  the family and physical inverse/query lift remain unselected.
 
 ## Carrier, action, source, and matter
 
@@ -109,8 +109,8 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the exact 126-row machine-readable authority. Each row records
-the object, classification, premise stamp, scope, unresolved scope, prohibited inference,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 127-row authority. Each row records the object,
+classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.
 

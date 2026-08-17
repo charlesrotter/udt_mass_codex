@@ -8,11 +8,9 @@ Read `LIVE.md` first. It wins every disagreement.
 
 ### Current theory state
 
-The banked complete-pair evaluator forms one supplied pair metric from the full `B,Q,S,Y,Z`
-orchestra before reading terminal `phi_pair` and conditional pair `c_eff/c_E`. All five live
-derivatives remain present. Its algebra is exact in its bounded regular scope and the package is
-`VERIFIED_WITH_CAVEATS`; it does not select the physical observer network, its values, or the
-complete metric history.
+The banked evaluator forms one supplied pair metric from the full `B,Q,S,Y,Z` orchestra before
+terminal `phi_pair` and conditional pair `c_eff/c_E`. All live derivatives remain. Its bounded
+algebra is `VERIFIED_WITH_CAVEATS`; it selects neither network, values, nor metric history.
 
 The active dependency chain is:
 
@@ -25,13 +23,14 @@ The active dependency chain is:
 6. G134: complete area data recover `g` up to fixed sign on a rank-ten, codimension eleven locus.
 7. G135--G137 (G136 classification): each pair owns `chi=tanh(phi_pair)`; Charles adopted its
    same-Mobius unit-slope position chart.
-8. G138: endpoint descent is equivalent to zero matched-cycle residuals; arbitrary reference-depth
-   gauges form a Mobius torsor, while nonzero cycles are holonomy only for distinct arrows.
-9. G139: Charles provisionally chose endpoint position within each supplied congruent physical
-   relation family; route transport remains separately path-labelled and may have loop holonomy.
+8. G138--G139: endpoint descent means zero matched-cycle residuals; endpoint position and route
+   transport remain separately typed, so route holonomy may survive.
+9. G140: in a normalized Minkowski affine control, pooled rank-ten constant-metric pullback
+   faithfulness does not imply positional congruence. Terminal `bar_phi` is unoriented, the tested
+   `delta` lift is supplied, and no one of eight sign lifts closes the nonclosing control.
 
-The position join passed fresh review. It derives signed `x/X_max=tanh(phi_pair)` and symmetric
-`s/X_max=abs(tanh(phi_pair))`; only signed position composes. `X_max` value, proper length, pair
+The position join and G140 passed review. `s/X_max=abs(tanh(phi_pair))` follows on a supplied pair;
+signed `x/X_max` uses ordered inverse/query semantics. `X_max`, proper length, inverse owner, pair
 ownership, history/solution law, and completion remain `OPEN`. `CANON.md` is unchanged.
 
 Open these after orientation only when load-bearing:
@@ -48,6 +47,7 @@ Open these after orientation only when load-bearing:
 - `udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md`
 - `udt_g138_copresent_relational_position_network_descent_2026-08-17/AUDIT_REPORT.md`
 - `udt_g139_endpoint_position_transport_join_2026-08-17/AUDIT_REPORT.md`
+- `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/AUDIT_REPORT.md`
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -75,8 +75,8 @@ No long process is running.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
 - working position constitution is adopted; signed `x/X_max=tanh(phi_pair)` and unsigned magnitude
   follow on supplied complete pairs, but neither is yet proper length or a selected history.
-- G139 provisionally chooses endpoint descent for position within each supplied compatible family,
-  not the family itself; path transport remains route-labelled.
+- G139 provisionally chooses endpoint descent within supplied compatible families; G140 proves
+  constant-metric pullback faithfulness does not select the family or physical inverse lift.
 - `X_max` is an observer-pair asymptotic frame, not a wall or center.
 - strong local CSN is inactive.
 - carrier, action, source, matter, bootstrap selection, and dynamics remain posit/conditional/open.
@@ -89,8 +89,8 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Test whether one common rank-complete full-pullback atlas induces the required positional route
-congruence or leaves it as a nonidentity global admissibility condition. Keep `X_max`, proper length,
-pair realization, and history open.
+Derive or sharply bound the ordered inverse/query and congruent-family construction from the
+complete pair metric plus co-presence semantics. Keep `X_max`, proper length, realization, and
+history open.
 
 <!-- STARTUP_CURRENT_END -->

@@ -11,17 +11,15 @@ classification. This file states only the current architecture, open gates, and 
 UDT currently has a strong conditional observer-pair evaluator, a faithful reconstruction hierarchy,
 a native bounded projective pair readout, and an open physical-history problem.
 
-Given a complete metric history, a typed observer query, and a calibrated realization, the geometry
-can return:
+Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
 1. the complete pair metric and terminal reciprocal readout;
 2. derivative, extrinsic, Jacobi, and transport data when the query owns them;
 3. overlap, calibration, branch, density, and holonomy compatibility.
 
-These are not separate mechanisms bolted onto the metric. They are different readouts of supplied
-complete metric and observer-relation data. What remains open is whether the metric already contains
-a simpler global organizing statement that determines the physical history and mutually consistent
-observer network, or whether an additional physical premise is required.
+These are readouts of supplied complete metric and observer-relation data, not bolted-on mechanisms.
+It remains open whether the metric contains a global organizing statement determining the history
+and consistent observer network, or whether another physical premise is required.
 
 ## Controlling local evaluator
 
@@ -91,7 +89,7 @@ codimension eleven inside arbitrary symmetric bivector data. This gives real rel
 metricity constraints, but every regular Lorentz metric passes: numerical values and evolution are
 not selected. Fresh adversarial repair follow-up passed.
 
-### G135--G139 — co-present relational position
+### G135--G140 — co-present relational position
 
 After the orchestra forms a supplied calibrated pair metric, `T,L` own
 `q=T/L=exp(-2phi_pair)` and `chi=(L-T)/(L+T)=tanh(phi_pair)`. G136 classifies continuous
@@ -100,9 +98,11 @@ this working position constitution. G137 derives signed `x/X_max=tanh(phi_pair)`
 `s/X_max=abs(tanh(phi_pair))`; only signed position composes. G138 proves endpoint descent iff
 matched cycles close; arbitrary reference-depth gauges form a Mobius torsor. Nonzero cycles are
 holonomy only for distinct physical arrows. Charles provisionally chose endpoint descent within
-each supplied congruent physical relation family. G139 proves endpoint position and route transport
-compose separately; zero positional return does not erase angular holonomy. The family/congruence,
-proper length, `X_max` value, realization, and history remain open.
+each supplied congruent physical relation family. G139 separates endpoint position from route
+transport. G140 then proves, in one normalized constant-Minkowski control, that pooled rank-ten
+pullback faithfulness does not imply positional congruence. The pullback terminal scalar is
+unoriented; its tested antisymmetric lift is supplied. Family/inverse ownership, proper length,
+`X_max` value, realization, and history remain open.
 
 ## Durable prerequisites
 
@@ -140,8 +140,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Does one common rank-complete full-pullback observer atlas induce the supplied positional route
-   congruence, or is that congruence a nonidentity global admissibility condition?
+1. Can the complete metric plus co-presence semantics derive the physical ordered inverse/query and
+   congruent relation family, or only evaluate a supplied one?
 2. What fixes the value, profile, and global realization of `X_max`?
 3. Do composition, co-presence, and causality constrain the complete metric beyond metricity?
 4. Can they derive a complete history and observer network rather than only evaluate supplied data?
@@ -150,6 +150,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Test question 1 on one common full-pullback atlas without inventing a path selector or fitting.
-Leave `X_max`, proper length, realization, history, and completion open; no census, fit, or mechanism.
+Derive or sharply bound question 1 without inventing a path selector or fitting. Leave `X_max`,
+proper length, realization, history, and completion open; no census, fit, or mechanism.
 Historical startup prose: `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-14/`.

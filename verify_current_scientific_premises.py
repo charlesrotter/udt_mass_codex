@@ -147,6 +147,7 @@ def validate_startup_surface(root: Path) -> None:
             "G137",
             "G138",
             "G139",
+            "G140",
             "rank ten",
             "conformal",
             "density",
@@ -200,6 +201,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g137_copresent_relational_position_join_2026-08-17/",
             "udt_g138_copresent_relational_position_network_descent_2026-08-17/",
             "udt_g139_endpoint_position_transport_join_2026-08-17/",
+            "udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -221,6 +223,7 @@ def validate_startup_surface(root: Path) -> None:
             "G138",
             "G139",
             "G139",
+            "G140",
             "bivector area bilinear",
             "complete history/solution law",
             "R2--R5",
@@ -240,13 +243,14 @@ def validate_startup_surface(root: Path) -> None:
             "G136",
             "G137",
             "G138",
+            "G140",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
             "bivector area bilinear",
             "physical-history problem",
             "184,300",
-            "Test question 1",
+            "Derive or sharply bound question 1",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "WORKING_FOUNDATIONAL_FRAME",
@@ -263,10 +267,11 @@ def validate_startup_surface(root: Path) -> None:
             "G137",
             "G138",
             "G139",
+            "G140",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "126-row",
+            "127-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -353,9 +358,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 126, "premise registry must contain exactly 126 rows")
+    require(len(rows) == 127, "premise registry must contain exactly 127 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 126, "duplicate premise id")
+    require(len(by_id) == 127, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2620,6 +2625,34 @@ def main() -> None:
         == "udt_g139_endpoint_position_transport_join_2026-08-17/AUDIT_REPORT.md",
         "G139 source changed",
     )
+    require(
+        by_id["G140"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_FOLLOWUP_PASS__POOLED_RANK_TEN"
+        ),
+        "G140 bounded status regressed or promoted",
+    )
+    require(by_id["G140"]["epistemic_label"] == "MIXED", "G140 label changed")
+    for open_item in (
+        "physical ordered inverse observer query and congruent relation family",
+        "generic varying-metric pointwise atlas",
+        "numerical Xmax proper length physical scale and history",
+    ):
+        require(open_item in by_id["G140"]["open_scope"], f"G140 open boundary absent: {open_item}")
+    for guard in (
+        "pooled separated-strip rank called generic G129 pointwise rank completeness",
+        "terminal bar_phi called an oriented depth",
+        "affine strip reversal called the physical inverse query",
+        "supplied delta lift called metric-derived",
+        "arbitrary ell_0 called a physical scale or Xmax",
+        "zero of eight sign lifts called a universal no-go",
+        "same-metric controls called a selected universe",
+    ):
+        require(guard in by_id["G140"]["forbidden_regression"], f"G140 guard absent: {guard}")
+    require(
+        by_id["G140"]["controlling_source"]
+        == "udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/AUDIT_REPORT.md",
+        "G140 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2698,7 +2731,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G139-extended premise guards; PASS: 126-row premise "
+        "PASS: G140-extended premise guards; PASS: 127-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
