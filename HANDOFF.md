@@ -16,20 +16,21 @@ complete metric history.
 
 The active dependency chain is:
 
-1. G129: full pullbacks recover full `g` exactly iff the sampled tangent span has rank ten.
-2. G130: co-presence supplies conditional co-membership, not query/value assignment.
-3. G131: all terminal pair scalars recover only the positive conformal class.
-4. G132: common scale is retained but not sourced; `c_E,G_obs` are anchors, not the missing bridge.
+1. G129: full pullbacks recover `g` iff the tangent span has rank ten.
+2. G130: co-presence supplies membership, not query/value assignment.
+3. G131: terminal pair scalars recover only the positive conformal class.
+4. G132: common scale is retained, not sourced; `c_E,G_obs` are anchors.
 5. G133: fixed `K` owns internal density only; supplied pair density descends on a common atlas;
    `kappa_pair` needs matched calibration; full `g` owns a symmetric bivector area bilinear.
-6. G134: complete area data recover complete `g` up to fixed sign and occupy a rank-ten,
-   local codimension eleven metricity locus; this constrains relation data but selects no values.
-7. G135--G137 (including G136 classification): each complete pair owns `chi=tanh(phi_pair)`; Charles adopted its
-   same-Mobius unit-slope chart as working physical position.
+6. G134: complete area data recover `g` up to fixed sign on a rank-ten, codimension eleven locus.
+7. G135--G137 (G136 classification): each pair owns `chi=tanh(phi_pair)`; Charles adopted its
+   same-Mobius unit-slope position chart.
 8. G138: endpoint descent is equivalent to zero matched-cycle residuals; arbitrary reference-depth
    gauges form a Mobius torsor, while nonzero cycles are holonomy only for distinct arrows.
+9. G139: Charles provisionally chose endpoint position within each supplied congruent physical
+   relation family; route transport remains separately path-labelled and may have loop holonomy.
 
-G137 passed fresh adversarial review. It derives signed `x/X_max=tanh(phi_pair)` and symmetric
+The position join passed fresh review. It derives signed `x/X_max=tanh(phi_pair)` and symmetric
 `s/X_max=abs(tanh(phi_pair))`; only signed position composes. `X_max` value, proper length, pair
 ownership, history/solution law, and completion remain `OPEN`. `CANON.md` is unchanged.
 
@@ -46,6 +47,7 @@ Open these after orientation only when load-bearing:
 - `udt_g136_copresent_projective_distance_constitution_2026-08-17/AUDIT_REPORT.md`
 - `udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md`
 - `udt_g138_copresent_relational_position_network_descent_2026-08-17/AUDIT_REPORT.md`
+- `udt_g139_endpoint_position_transport_join_2026-08-17/AUDIT_REPORT.md`
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -73,7 +75,8 @@ No long process is running.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
 - working position constitution is adopted; signed `x/X_max=tanh(phi_pair)` and unsigned magnitude
   follow on supplied complete pairs, but neither is yet proper length or a selected history.
-- G138 selects no coordinate root and does not choose endpoint descent over path holonomy.
+- G139 provisionally chooses endpoint descent for position within each supplied compatible family,
+  not the family itself; path transport remains route-labelled.
 - `X_max` is an observer-pair asymptotic frame, not a wall or center.
 - strong local CSN is inactive.
 - carrier, action, source, matter, bootstrap selection, and dynamics remain posit/conditional/open.
@@ -86,7 +89,8 @@ presence does not prove banking.
 
 ### Next bounded action
 
-MAP/PONDER whether positional depth must descend to endpoints while transport keeps path memory, or
-may itself carry branch holonomy. Keep `X_max` value, proper length, and history open.
+Test whether one common rank-complete full-pullback atlas induces the required positional route
+congruence or leaves it as a nonidentity global admissibility condition. Keep `X_max`, proper length,
+pair realization, and history open.
 
 <!-- STARTUP_CURRENT_END -->

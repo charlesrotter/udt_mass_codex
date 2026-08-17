@@ -146,6 +146,7 @@ def validate_startup_surface(root: Path) -> None:
             "G136",
             "G137",
             "G138",
+            "G139",
             "rank ten",
             "conformal",
             "density",
@@ -198,6 +199,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g136_copresent_projective_distance_constitution_2026-08-17/",
             "udt_g137_copresent_relational_position_join_2026-08-17/",
             "udt_g138_copresent_relational_position_network_descent_2026-08-17/",
+            "udt_g139_endpoint_position_transport_join_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -217,6 +219,8 @@ def validate_startup_surface(root: Path) -> None:
             "G136",
             "G137",
             "G138",
+            "G139",
+            "G139",
             "bivector area bilinear",
             "complete history/solution law",
             "R2--R5",
@@ -242,7 +246,7 @@ def validate_startup_surface(root: Path) -> None:
             "bivector area bilinear",
             "physical-history problem",
             "184,300",
-            "MAP/PONDER",
+            "Test question 1",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "WORKING_FOUNDATIONAL_FRAME",
@@ -258,10 +262,11 @@ def validate_startup_surface(root: Path) -> None:
             "G136",
             "G137",
             "G138",
+            "G139",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "125-row",
+            "126-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -348,9 +353,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 125, "premise registry must contain exactly 125 rows")
+    require(len(rows) == 126, "premise registry must contain exactly 126 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 125, "duplicate premise id")
+    require(len(by_id) == 126, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2585,6 +2590,36 @@ def main() -> None:
         == "udt_g138_copresent_relational_position_network_descent_2026-08-17/AUDIT_REPORT.md",
         "G138 source changed",
     )
+    require(
+        by_id["G139"]["current_status"].startswith(
+            "FRESH_ADVERSARIAL_FOLLOWUP_PASS__PROVISIONAL_ENDPOINT_POSITION_OWNER"
+        ),
+        "G139 provisional endpoint owner regressed or promoted",
+    )
+    require(by_id["G139"]["epistemic_label"] == "MIXED", "G139 label changed")
+    for open_item in (
+        "composition-and-inversion-compatible positional route congruence",
+        "complete observer network values pair realizations routes branches and metric history",
+        "singular null calibration-mismatched undefined and noncomposable strata",
+        "numerical Xmax dimensional owner profile and global realization",
+    ):
+        require(open_item in by_id["G139"]["open_scope"], f"G139 open boundary absent: {open_item}")
+    for guard in (
+        "provisional owner called DERIVED CANON or universal selection",
+        "endpoint constancy said to construct the quotient or prove closure",
+        "categorical product called a physical metric decomposition or global fiber bundle",
+        "path transport said to alter endpoint position inside one identified family",
+        "angular screen mixing removed from the complete pullback or bolted on after phi_pair",
+        "different terminal depths silently averaged absorbed into transport or left unlabelled",
+        "bounded dichotomy extended to singular mismatched undefined or noncomposable cases",
+        "zero positional loop return said to force trivial angular holonomy",
+    ):
+        require(guard in by_id["G139"]["forbidden_regression"], f"G139 guard absent: {guard}")
+    require(
+        by_id["G139"]["controlling_source"]
+        == "udt_g139_endpoint_position_transport_join_2026-08-17/AUDIT_REPORT.md",
+        "G139 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2663,7 +2698,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G138-extended premise guards; PASS: 125-row premise "
+        "PASS: G139-extended premise guards; PASS: 126-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

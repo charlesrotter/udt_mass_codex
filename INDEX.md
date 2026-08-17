@@ -33,15 +33,16 @@ promote package conclusions.
   `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous co-present position classification:
   `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137 position join and G138 network descent:
-  `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`
+- G137--G139 position, network descent, and route-transport join:
+  `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`; `udt_g139_endpoint_position_transport_join_2026-08-17/`
 
 The current chain is evaluator → full-pullback faithfulness → co-presence typing → conformal
 scalar ceiling → common-scale ownership → density/area typing → complete-area faithfulness → native
 bounded projective pair readout. Complete area data already encode `g`, and every supplied complete
 pair owns `chi=tanh(phi_pair)`. Charles adopted its same-native-Mobius unit-slope chart as working
-physical position. G137 derives signed `x/X_max=tanh(phi_pair)` and unsigned magnitude but does not
-select metric values or dimensional `X_max`. G138 classifies endpoint descent versus path holonomy.
+physical position. G138 follows the signed `x/X_max=tanh(phi_pair)` join, which does not
+select metric values or dimensional `X_max`. The last steps classify descent and provisionally
+choose endpoint position within supplied congruent families while preserving path transport.
 
 ## Durable prerequisites
 
@@ -58,7 +59,7 @@ select metric values or dimensional `X_max`. G138 classifies endpoint descent ve
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 125-row premise registry controls current status, not the archived prose.
+load-bearing. The 126-row premise registry controls current status, not the archived prose.
 
 ## Observational lane
 

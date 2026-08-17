@@ -4,10 +4,9 @@ Re-read from disk on resume. `LIVE.md` wins.
 
 ## Current theory picture
 
-The banked complete-pair evaluator forms one supplied pair metric from the full `B,Q,S,Y,Z`
-orchestra before reading terminal `phi_pair` and conditional pair `c_eff/c_E`. All five live
-derivatives remain upstream. It evaluates supplied regular data; it does not select physical
-history, query population, or values.
+The complete-pair evaluator forms one pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and
+conditional `c_eff/c_E`. All live derivatives remain upstream. It evaluates supplied data; it does
+not select history, query population, or values.
 
 Current dependency spine:
 
@@ -24,6 +23,8 @@ Current dependency spine:
   `s/X_max=abs(tanh(phi_pair))` follow; only signed position composes.
 - G138: endpoint position descends iff matched cycles close; reference gauges form a Mobius torsor;
   nonzero cycles are holonomy only when routes remain distinct arrows.
+- G139: endpoint position is provisional within supplied congruent families; route transport may
+  retain loop holonomy.
 
 Physical network soldering and values, the complete history/solution law, global completion,
 observations, and `X_max` remain open.
@@ -55,8 +56,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-MAP/PONDER whether positional depth must descend to endpoints while transport retains path memory,
-or may itself carry branch holonomy. Keep `X_max` value, proper length, realization, and history open.
+Test whether a common rank-complete full-pullback atlas induces the required positional route
+congruence or leaves it as a nonidentity global admissibility condition. Keep `X_max`, proper length,
+realization, and history open.
 
 ## Historical route
 

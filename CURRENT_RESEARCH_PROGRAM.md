@@ -91,7 +91,7 @@ codimension eleven inside arbitrary symmetric bivector data. This gives real rel
 metricity constraints, but every regular Lorentz metric passes: numerical values and evolution are
 not selected. Fresh adversarial repair follow-up passed.
 
-### G135--G138 — co-present relational position
+### G135--G139 — co-present relational position
 
 After the orchestra forms a supplied calibrated pair metric, `T,L` own
 `q=T/L=exp(-2phi_pair)` and `chi=(L-T)/(L+T)=tanh(phi_pair)`. G136 classifies continuous
@@ -99,8 +99,10 @@ same-native-Mobius coordinates as `tanh(k phi_pair)`; chosen unit slope fixes `k
 this working position constitution. G137 derives signed `x/X_max=tanh(phi_pair)` and symmetric
 `s/X_max=abs(tanh(phi_pair))`; only signed position composes. G138 proves endpoint descent iff
 matched cycles close; arbitrary reference-depth gauges form a Mobius torsor. Nonzero cycles are
-holonomy only for distinct physical arrows. Neither global type is selected. Proper length,
-`X_max` value, realization, and history remain open.
+holonomy only for distinct physical arrows. Charles provisionally chose endpoint descent within
+each supplied congruent physical relation family. G139 proves endpoint position and route transport
+compose separately; zero positional return does not erase angular holonomy. The family/congruence,
+proper length, `X_max` value, realization, and history remain open.
 
 ## Durable prerequisites
 
@@ -138,8 +140,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Must physical positional depth descend to endpoints while transport channels retain path memory,
-   or may positional depth itself carry branch holonomy?
+1. Does one common rank-complete full-pullback observer atlas induce the supplied positional route
+   congruence, or is that congruence a nonidentity global admissibility condition?
 2. What fixes the value, profile, and global realization of `X_max`?
 3. Do composition, co-presence, and causality constrain the complete metric beyond metricity?
 4. Can they derive a complete history and observer network rather than only evaluate supplied data?
@@ -148,8 +150,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-MAP/PONDER question 1 with Charles. Do not infer the physical branch from cycle algebra. Leave
-`X_max` value, proper length, pair realization, history, and completion open; do not launch another
-census, seam atlas, fit, GPU solve, or mechanism.
-
-Historical startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-14/`.
+Test question 1 on one common full-pullback atlas without inventing a path selector or fitting.
+Leave `X_max`, proper length, realization, history, and completion open; no census, fit, or mechanism.
+Historical startup prose: `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-14/`.
