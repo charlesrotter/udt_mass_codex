@@ -22,10 +22,8 @@ Current dependency spine:
 - G148: in a chosen working relation-first representation, the exact covariant first jet splits
   into radial, screen-turn, and rest-space-tilt pieces. `lambda` proves algebraic block liveness only;
   coefficient limits do not select amplitudes or history.
-- G149: one smooth metric/query derives the same chord from pair-clock/Levi-Civita geometry.
-  Registered `B,Q,S` gradients and clock-direction `Y,Z` jets are live; history remains open.
-- G150: the four named chord readouts are freely specifiable in the unrestricted smooth local class;
-  this closes that pointwise algebraic selector only.
+- G149/G150/G151: one metric realizes the chord; four named notes are locally free. A query-owned
+  connecting family restricts them and joins chord change to curvature; Jacobi is conditional.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -55,8 +53,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Move once to a minimal next-pair-frame-jet/curvature/Jacobi join asking how the chord changes along
-one supplied family. Do not reopen first-order atlases, fit histories, or infer dynamics.
+Test whether the pair immersion owns G151's variational field by classifying exact magnitude,
+shift, and commutator conditions. Do not assume it or infer dynamics.
 
 ## Historical route
 

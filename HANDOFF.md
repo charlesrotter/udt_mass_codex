@@ -25,15 +25,15 @@ The active dependency chain is:
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
 6. G148: in a chosen working representation, the covariant first jet splits into radial, screen-turn,
    and rest-space-tilt pieces. `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149--G150: one smooth metric/pair derives the chord; in the unrestricted smooth local class its
-   four named notes are freely specifiable at every finite depth. Other first-order objects,
-   physical-query restrictions, curvature/Jacobi, history, and dynamics remain open.
+7. G149/G150/G151: one metric realizes the chord; its four named notes are unrestricted locally. G151
+   joins chord change to curvature. A connecting family restricts the notes and conditionally gives
+   Jacobi deviation, but the pair terminal readout does not yet own that family.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
 After orientation, open `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`
-or `udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
+or `udt_g151_pair_chord_generalized_deviation_join_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
 `INDEX.md` routes the intervening chain.
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
@@ -76,8 +76,8 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Proceed once to a minimal next-pair-frame-jet/metric-curvature/Jacobi join asking how the chord
-changes along one supplied co-present family. Do not reopen arbitrary first-order atlases or turn
-G149/G150 into a selected history, fitted regime pattern, dynamics, `X_max`, or completion.
+Test whether the pair immersion owns G151's variational identification by comparing `xi=rho n`
+with its natural ruler variation and classifying magnitude, shift, and commutator conditions. Do
+not assume a connecting family or infer history, dynamics, `X_max`, or completion.
 
 <!-- STARTUP_CURRENT_END -->

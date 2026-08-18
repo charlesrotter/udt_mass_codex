@@ -53,6 +53,7 @@ CURRENT_TARGETS = (
     "udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/AUDIT_REPORT.md",
     "udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/AUDIT_REPORT.md",
     "udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/AUDIT_REPORT.md",
+    "udt_g151_pair_chord_generalized_deviation_join_2026-08-17/AUDIT_REPORT.md",
 )
 
 
@@ -106,7 +107,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 137-row premise registry" in result.stdout
+    assert "PASS: 138-row premise registry" in result.stdout
 
 
 def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:

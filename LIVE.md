@@ -49,15 +49,16 @@ derived only on a supplied regular calibrated pair realization.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
   The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G150 — realized covariant chord and first-order ceiling.** G149 derives `dot(phi_pair),a_n,Omega`
-  from one smooth metric/pair. G150 proves those four named components are freely specifiable at
-  every finite depth in the unrestricted smooth local class. Other first-order objects, physical
-  query restrictions, next pair-frame jets, curvature/Jacobi, history, and dynamics remain open.
+- **G149--G151 — realized chord, ceiling, and curvature join.** G149 realizes the covariant chord;
+  G150 makes its four named notes free in the unrestricted local class. G151 derives the exact
+  second chord/curvature commutator. A query-owned connecting family is a sufficient restriction
+  and, away from zero chord, forces `a_n=0` and spatial-gradient laws for depth and screen turn.
+  Geodesic Jacobi reduction is conditional; query, history, and dynamics remain open.
 
-Maximum conclusion: the metric assembles one local first-order chord, but unrestricted first-order
-kinematics do not select its four named relative volumes. This closes that selector search only.
+Maximum conclusion: curvature organizes change of an actual carried relation family; it does not
+turn every terminal pair readout into a connecting field or select the family/history.
 Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
-`udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/`. Use `INDEX.md` for the chain.
+`udt_g151_pair_chord_generalized_deviation_join_2026-08-17/`. Use `INDEX.md` for the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -102,9 +103,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Move once to the smallest next-pair-frame-jet/metric-curvature/Jacobi join: ask whether curvature
-constrains how the joined chord changes along one supplied co-present pair family. Do not reopen
-arbitrary first-order atlases, fit histories, or infer dynamics, regime amplitudes, `X_max`, or completion.
+Determine whether the complete pair immersion itself owns G151's variational identification:
+compare `xi=rho n` with its natural ruler variation and classify the exact magnitude, shift, and
+commutator conditions. Do not assume a connecting family, fit histories, or infer dynamics,
+regime amplitudes, `X_max`, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

@@ -98,8 +98,15 @@ Fresh adversarial repair/follow-up passed. At every finite pair depth, an explic
 immersion makes `(dot(phi_pair),a_n,Omega_2,Omega_3)` surjective over `R^4` in the unrestricted
 smooth regular local class. Therefore no nontrivial universal pointwise algebraic relation among
 those four outputs can be found by another first-order atlas. Other first-order objects, physical
-query restrictions, next pair-frame jets, curvature/Jacobi, global completion, and dynamics remain open.
-This is the bounded first-order ceiling; it is not a history or regime law.
+query restrictions, curvature/Jacobi, completion, and dynamics remain open; the first-order ceiling is no history law.
+
+### G151 — pair chord generalized-deviation join
+
+Fresh adversarial repair/follow-up passed. The exact second chord derivative exposes the full
+curvature commutator. A smooth two-parameter query identifying its variation with `xi` is a
+canonical sufficient reduction; for nonzero chord it forces `a_n=0` and ties depth/screen turn to
+spatial observer-flow gradients. A geodesic family conditionally gives Jacobi deviation. This
+constrains a supplied family but does not make terminal pair data own that family or select history.
 
 ## Durable prerequisites
 
@@ -133,7 +140,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. At the smallest next pair-frame jet, how do curvature and Jacobi data govern change of the joined chord?
+1. Does the complete pair immersion own G151's variational identification, including magnitude,
+   shift, and commutator conditions, or is it additional query structure?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -141,8 +149,7 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Move once to the minimal next-pair-frame-jet/metric-curvature/Jacobi join in question 1. Ask whether
-curvature constrains how the joined chord changes along one supplied co-present pair family; do not
-reopen arbitrary first-order atlases. Characterize rather than fit. Leave carrier
+Resolve question 1 by comparing `xi=rho n` with the immersion's natural ruler variation and
+classifying the exact equality/bracket conditions. Characterize rather than fit. Leave carrier
 ownership, dynamics, `X_max`, length, and completion open.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.
