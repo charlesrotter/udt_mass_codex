@@ -9,29 +9,29 @@ The evaluator forms one pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` 
 
 Current dependency spine:
 
-- G129--G134: rank-complete pullbacks and the bivector area bilinear recover `g`; terminal scalars stop at
-  its positive conformal class. Common scale is retained, not sourced; metricity is not evolution.
+- G129--G134: pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal
+  class. Common scale is retained, not sourced.
 - G135--G139: working signed `x/X_max=tanh(phi_pair)` composes within supplied congruent families;
   endpoint position and route transport remain distinct.
 - G140--G144: one chart or genuine overlap owns presentation carry; endpoints do not glue sheets.
-- G145: full-pullback valuation determines the metric component on the supplied 4D base atlas.
-  Query atlas, calibration, numerical valuation, and physical realization remain supplied/open;
-  opposite-curvature survivors pass the same gates with all nine non-`phi` coframe fields live.
+- G145: full-pullback values determine `g` on the supplied 4D atlas, not their own valuation or
+  realization; opposite-curvature survivors remain.
 - G146--G147: non-collinear projections remain nonunique. In a defined query-rest-space lift the
   tangent and metric screens coincide, but physical carrier, independent `O(2)` solder,
   cross-query carry, and complete arrow remain open.
 - G148: in a chosen working relation-first representation, the exact covariant first jet splits
   into radial, screen-turn, and rest-space-tilt pieces. `lambda` proves algebraic block liveness only;
   coefficient limits do not select amplitudes or history.
+- G149: one smooth metric/query derives the same chord from pair-clock/Levi-Civita geometry.
+  Registered `B,Q,S` gradients and clock-direction `Y,Z` jets are live; history remains open.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
 ## Observational pointer
 
-R2--R5 are complete and verified with caveats. R4 retains broad whole-curve persistence; R5 retains
-one dominant shared direction plus control-dependent additional alignment. Covariance resolution,
-rank, and 184,300 covariance-range rows remain partly unresolved. No preferred feature, scale,
-significance, BAO/UDT/CMB origin, cosmology, or `X_max` follows.
+R2--R5 are verified with caveats. R4 retains broad persistence; R5 retains one dominant direction
+plus control-dependent alignment. The 184,300 covariance-range rows remain unresolved. No preferred
+feature, scale, significance, BAO/UDT/CMB origin, cosmology, or `X_max` follows.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -53,9 +53,10 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Compute G148's `dot phi`, `a_n`, and `Omega` from one genuine smooth all-block-live complete
-spacetime/query history and its Levi-Civita connection. Characterize rather than fit; keep carrier,
-history selection, dynamics, `X_max`, length, and completion open.
+Close the first-order ceiling: determine whether arbitrary supplied smooth regular histories obey
+any invariant relation among `dot(phi_pair)`, `a_n`, and `Omega` beyond G148 and frame
+orthogonality. If none does, bank that once and move to the smallest second-jet curvature/Jacobi
+join. Do not fit histories or infer dynamics.
 
 ## Historical route
 

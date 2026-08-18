@@ -19,9 +19,6 @@ choose the file that makes a desired derivation easiest.
 | Pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `x/X_max=tanh(phi_pair)`; endpoint position in congruent families; route holonomy may remain | Family, `X_max`, proper length, realization, history |
 | Co-presence | `WORKING` semantics | Co-membership in one supplied complete solution | Query population, value assignment, signalling, or selection law |
 
-Use registry rows G01, G02, G23, G28, G37--G40, and the current dependency chain when exact wording
-or source ownership is load-bearing.
-
 ## Current reconstruction hierarchy
 
 | Result | Bounded status | Maximum conclusion |
@@ -32,10 +29,10 @@ or source ownership is load-bearing.
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback valuation determines the metric on a supplied 4D base atlas; queries, calibration, values, and realization remain supplied/open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections remain nonunique; rest-space screen identity is conditional; physical carrier remains open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Exact covariant identity inside a chosen working representation; coefficient limits only |
+| G149 genuine spacetime first jet | `VERIFIED_WITH_CAVEATS` | One smooth all-live metric/query witness realizes the G148 chord exactly; no history selection |
 
-None selects numerical metric values, the physical query population, global completion,
-observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
-and package-local evidence; they are not required startup chronology.
+None selects metric values, query population, completion, observations, or `X_max`. G93--G128
+details remain in the registry and package evidence.
 
 ## Scale and limits
 
@@ -49,23 +46,16 @@ and package-local evidence; they are not required startup chronology.
 
 ## Geometry, query, and causality
 
-- Bare endpoints do not select a relation; supplied queries are evaluated, not selected.
-- Metric causal accessibility is derived on supplied time-oriented geometry. Material response,
-  principal symbol, coupling, admissible data, and signalling remain separate.
-- Endpoint scalars, density coefficients, shift state, Jacobi propagators, and path/normal holonomy
-  have different natural mathematical homes.
-- Full pullbacks with known embeddings recover `g`; scalar pair data stop at its conformal class.
-- Pair-volume density descends only on a genuine common atlas or matched local system. Across planes,
-  the natural metric object is the symmetric bivector area bilinear.
-- Complete area data recover the metric up to fixed sign; metricity is not dynamics or selection.
-- G138--G144 derive network/carry algebra: one query owns chart carry, a genuine overlap owns its
-  transition, and endpoints do not glue sheets.
-- G145 separates 4D metric descent from 2D pair-sheet carry. Values determine `g`, not their own
-  valuation, query population, or realization.
-- G146--G147 separate position projection, conditional rest-space identity, and physical carrier.
-  No ball control, displacement, independent `O(2)` solder, reversal, or transport equality is selected.
-- G148 uses, but does not derive, the working rest-space representation. Its `lambda` witness proves
-  algebraic block liveness only; the covariant identity does not select history or regime amplitudes.
+- Bare endpoints do not select relations; metric causality gives admissibility, not material response.
+- Endpoint scalars, shift, Jacobi data, and holonomy have different mathematical homes.
+- Full pullbacks recover `g`; scalar data stop at its conformal class. The bivector area bilinear
+  recovers `g` up to sign, but metricity is not dynamics.
+- G138--G144: a chart or overlap owns carry; endpoints do not glue sheets.
+- G145: values determine `g`, not their valuation, query population, or realization.
+- G146--G147: carrier, independent `O(2)` solder, reversal, and transport equality remain open.
+- G148's working representation gives the identity; `lambda` gives algebraic liveness only.
+- G149 realizes the chord in one smooth metric/query. Registered `B,Q,S` gradients and
+  clock-direction `Y,Z` jets are live; the `sigma` jet and physical history remain open.
 
 ## Carrier, action, source, and matter
 
@@ -100,6 +90,8 @@ Do not:
   independent `O(2)` solder, or identify `phi` with Lorentz rapidity;
 - identify G148's `lambda` derivative with clock flow, call coefficient limits a physical
   loud--quiet--loud law, or promote its first-jet identity to dynamics/history selection;
+- promote G149's rational witness into the physical history, extend its `Y,Z` liveness to the
+  untested `sigma` direction, or call its exact local chord a regime-amplitude/dynamics law;
 - identify relational `x` or `s` with proper length, areal radius, signal distance, universe size,
   a selected pair realization, or a selected history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
@@ -111,7 +103,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 135-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 136-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

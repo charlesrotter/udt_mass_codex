@@ -10,7 +10,8 @@ classification. This file states only the current architecture, open gates, and 
 
 UDT currently has a strong conditional observer-pair evaluator, faithful metric reconstruction, a
 working bounded projective position readout, an exact working-representation first-jet identity,
-and open physical multidirectional carrier and numerical/global valuation problems.
+one genuine smooth spacetime/query realization of that identity, plus open numerical/global
+valuation problems and an open physical multidirectional carrier.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -41,51 +42,29 @@ Source: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ### G129--G134 — reconstruction and ownership
 
-G129 proves that known rank ten pair pullbacks recover full `g`. G130 keeps co-presence at
-co-membership rather than query/value creation. G131 proves the positive conformal class ceiling of
-terminal scalars; G132 common-scale ownership shows scale is retained but not sourced. G133 types pair-density
-descent and the full-`g` bivector area bilinear. G134 proves complete area data recover `g` up to the
-fixed Lorentz sign on a rank-ten, codimension-eleven metricity locus. None supplies numerical values
-or evolution. Use `INDEX.md` for exact sources.
+G129--G134 show that rank ten pullbacks and the bivector area bilinear recover `g`; terminal scalars
+stop at its positive conformal class. G132 common-scale ownership retains scale without sourcing
+it, and metricity is not evolution. Use `INDEX.md` for exact sources.
 
 ### G135--G144 — co-present relational position
 
-After the orchestra forms a supplied calibrated pair metric, `T,L` own
-`q=T/L=exp(-2phi_pair)` and `chi=(L-T)/(L+T)=tanh(phi_pair)`. G136 classifies continuous
-same-native-Mobius coordinates as `tanh(k phi_pair)`; chosen unit slope fixes `k=1`. Charles adopted
-this working position constitution. G137 derives signed `x/X_max=tanh(phi_pair)` and symmetric
-`s/X_max=abs(tanh(phi_pair))`; only signed position composes. G138 proves endpoint descent iff
-matched cycles close; arbitrary reference-depth gauges form a Mobius torsor. Nonzero cycles are
-holonomy only for distinct physical arrows. Charles provisionally chose endpoint descent within
-each supplied congruent physical relation family. G139 separates endpoint position from route
-transport. G140 then proves, in one normalized constant-Minkowski control, that pooled rank-ten
-pullback faithfulness does not imply positional congruence. The pullback terminal scalar is
-unoriented; its tested antisymmetric lift is supplied. G141 proves that on a supplied shared carrier,
-triangular endpoint comparisons compose and reverse. G142 derives gauge-invariant
-`C_BA=R_B M_BA R_A^-1`. G143 proves one calibrated query chart supplies identity carry and any
-flag-preserving reparameterization produces the G142 form. G144 proves that a branch-resolved
-embedded overlap supplies its own transition differential and hence a Lorentz-isometric calibrated
-carry; in the positive-triangular same-event gauge it is identity. Common boundary observers alone
-do not imply an overlap. Thus carry is not an additional physical law, while nonoverlapping relation
-sheets remain branch-labelled.
+G135--G137 classify and adopt the working unit-slope chart
+`x/X_max=tanh(phi_pair)`; only signed position composes. G138--G139 separate endpoint descent from
+route transport. G140 rejects pullback-only positional congruence. G141--G144 show that a supplied
+chart or genuine overlap owns calibrated carry, while common boundary observers do not glue
+distinct sheets. Carry is kinematic compatibility, not another force.
 
 ### G145 — relation/history descent equivalence
 
-Fresh adversarial repair passed. A rank-complete full-pullback valuation uniquely determines the
-metric component on the supplied four-dimensional base atlas. G144's pair sheets remain
-two-dimensional and supply only typed relation carry. The query atlas, calibrations, numerical
-valuation, and physical realization remain supplied or open. Exact opposite-curvature survivors
-pass the same reciprocal, overlap, position, and local-causal gates with all nine non-`phi`
-complete-coframe fields live. Compatibility is not a value/evolution law, but no second bridge from
-complete pair valuations to their metric is needed.
+A rank-complete full-pullback valuation determines `g` on its supplied 4D atlas, but query atlas,
+calibration, values, and realization remain supplied/open. Opposite-curvature survivors pass the
+same gates with all nine non-`phi` fields live. Compatibility is not evolution.
 
 ### G146--G147 — multidirectional position and conditional screen identity
 
-G146 finds at least two inequivalent smooth rotation-covariant ball projections sharing the exact
-collinear law; neither is a complete arrow or UDT law. G147 passes adversarial repair/follow-up: if
-`xi = rho n` is **defined conditionally** in the query rest space, its unoriented tangent plane is
-identically the metric pair screen. This does not derive the physical three-position carrier or a
-displacement. An independent carrier retains `O(2)` solder freedom; cross-query carry remains open.
+G146 leaves non-collinear projection nonunique. If G147's `xi=rho n` is **defined conditionally** in
+the query rest space, its tangent plane equals the metric pair screen. Physical carrier,
+independent `O(2)` solder, and cross-query carry remain open.
 
 ### G148 — relation-first complete-pair first jet
 
@@ -102,6 +81,16 @@ This covariant identity has no local solder coefficient inside that representati
 The exact `lambda` witness establishes algebraic first-variation liveness of `h`, `phi_pair`, and
 coordinate screen projector for every `B,Q,S,Y,Z` block; it does not compute the connection or
 identify `lambda` with clock flow. Coefficient limits do not determine physical amplitudes.
+
+### G149 — genuine spacetime/query first-jet join
+
+Fresh adversarial repair/follow-up passed. One preregistered smooth complete coframe, assembled from
+coordinate-affine `B,Q,S`, and one quadratic calibrated pair immersion supply the terminal
+`dot(phi_pair)`, Levi-Civita `a_n,Omega`, and direct `nabla_u xi` from the same geometry. The G148
+identity holds exactly. An independent implementation replays the base identity and all five
+removal controls: every `B,Q,S` spacetime-gradient family and pair-clock-direction `Y,Z` first jet
+is live in this witness. The `sigma`-direction jet is untested. This joins the instruments inside
+one local history but does not select that history, determine regime amplitudes, or provide dynamics.
 
 ## Durable prerequisites
 
@@ -135,16 +124,18 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. On one genuine smooth complete spacetime/query history, do the same live `B,Q,S,Y,Z` fields
-   compute `dot phi`, `a_n`, and `Omega` and reproduce G148's covariant first jet?
-2. How are oriented screens carried across pair queries and compared with `U_gamma`?
-3. Does complete time-live/global metric structure constrain numerical relation values beyond the
+1. Does first-order smooth metric/query geometry impose any further invariant relation among
+   `dot(phi_pair)`, `a_n`, and `Omega`, beyond the exact G148 identity and frame orthogonality?
+2. At the smallest second jet, how do curvature and Jacobi data govern change of the joined chord?
+3. How are oriented screens carried across pair queries and compared with `U_gamma`?
+4. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
-4. What fixes `X_max`, regime strengths, radiative/source structure, and global completion?
+5. What fixes `X_max`, regime strengths, radiative/source structure, and global completion?
 
 ## Bounded next action
 
-Derive question 1 on one explicit untuned smooth local history. Keep every complete-coframe and
-query block live, compute the Levi-Civita connection directly, and preregister exact residuals.
-Characterize rather than fit. Leave carrier ownership, dynamics, `X_max`, length, and completion open.
+Close the first-order ceiling in question 1 symbolically before launching another witness atlas. If arbitrary smooth regular
+first jets admit no additional invariant, bank that ceiling and move once to the minimal
+second-jet curvature/Jacobi join in question 2. Characterize rather than fit. Leave carrier
+ownership, dynamics, `X_max`, length, and completion open.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

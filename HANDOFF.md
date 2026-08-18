@@ -14,27 +14,25 @@ algebra is `VERIFIED_WITH_CAVEATS`; it selects neither network, values, nor metr
 
 The active dependency chain is:
 
-1. G129--G134: rank ten pullbacks recover `g`; scalar-only data stop at its positive conformal
-   class. Pair density descends on overlaps, and the bivector area bilinear recovers `g` up to the
-   fixed sign. Common scale is retained, not sourced; the codimension eleven locus is not evolution.
-2. G135--G139: Charles provisionally adopted the native unit-slope Mobius position chart. Signed
-   `x/X_max=tanh(phi_pair)` composes within supplied congruent families; route transport is distinct.
-3. G140--G144: a supplied chart or genuine embedded overlap owns presentation carry. Shared endpoint
-   observers do not glue sheets; carry is not another physical mechanism.
+1. G129--G134: rank ten pullbacks, pair density, and the bivector area bilinear recover `g`; scalars stop at its conformal class.
+   Common scale is retained, not sourced; the codimension eleven metricity locus is not evolution.
+2. G135--G139: working signed `x/X_max=tanh(phi_pair)` composes in supplied congruent families;
+   route transport stays distinct.
+3. G140--G144: a chart or genuine overlap owns carry; shared endpoints do not glue sheets.
 4. G145: rank-complete full-pullback valuation determines the metric on its supplied 4D atlas.
-   Query atlas, calibration, numerical valuation, and realization remain supplied/open. Opposite-curvature
-   survivors pass the same gates with all nine non-`phi` fields live.
+   Query atlas, numerical valuation, and realization remain supplied/open; opposite-curvature survivors persist.
 5. G146--G147: non-collinear projections remain nonunique. Inside a defined query-rest-space lift,
-   directional tangent and metric screen are identical; physical carrier, independent `O(2)`
-   solder, cross-query carry, and complete arrow remain open.
+   tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
 6. G148: in a chosen working representation, the covariant first jet splits into radial, screen-turn,
    and rest-space-tilt pieces. `lambda` proves algebraic liveness only; amplitudes remain open.
+7. G149: one smooth metric/pair derives the same chord from its pair-clock/Levi-Civita geometry.
+   Registered `B,Q,S` gradients and clock-direction `Y,Z` jets are live; history remains open.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
 After orientation, open `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`
-or `udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
+or `udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
 `INDEX.md` routes the intervening chain.
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
@@ -77,8 +75,9 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Compute the G148 covariant quantities from one genuine explicit smooth time-live complete
-coframe/query history, with all `B,Q,S,Y,Z` blocks live and one Levi-Civita connection. Do not turn
-that witness into a selected history, fitted regime pattern, dynamics, `X_max`, or completion.
+Close the first-order ceiling: test symbolically whether arbitrary smooth regular histories obey any
+additional invariant relation among `dot(phi_pair)`, `a_n`, and `Omega`. If the answer is no, bank
+that ceiling and proceed to one minimal second-jet curvature/Jacobi join. Do not turn G149's witness
+into a selected history, fitted regime pattern, dynamics, `X_max`, or completion.
 
 <!-- STARTUP_CURRENT_END -->

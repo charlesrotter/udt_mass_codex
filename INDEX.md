@@ -1,7 +1,6 @@
 # INDEX — current repository map
 
-`LIVE.md` is the only guaranteed-current status file. This file routes to evidence; it does not
-promote package conclusions.
+`LIVE.md` is the only guaranteed-current status file. This routes evidence, not conclusions.
 ## Startup
 
 1. Follow `AGENTS.md` synchronization and bounded-read rules.
@@ -19,24 +18,22 @@ promote package conclusions.
 - G129 full-pullback faithfulness: `udt_g129_copresent_relational_network_faithfulness_2026-08-16/`
 - G130 co-presence ownership: `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/`
 - G131 scalar conformal ceiling: `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/`
-- G132 common-scale ownership:
-  `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/`
-- G133 density descent and full-metric area bilinear:
-  `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`
-- G134 full-metric area faithfulness and history reframe:
-  `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
+- G132 common-scale ownership: `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/`
+- G133 density/area bilinear: `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`
+- G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution:
   `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous co-present position classification:
   `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G148 position, descent, transport, and relation/history control:
+- G137--G149 position, descent, transport, and relation/history control:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
   `udt_g143_single_pair_domain_carry_ownership_2026-08-17/`; `udt_g144_cross_query_overlap_carry_descent_2026-08-17/`;
   `udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/`;
   `udt_g146_multidirectional_relational_position_composition_2026-08-17/`; `udt_g147_pair_directional_metric_screen_solder_2026-08-17/`;
-  `udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/`
+  `udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/`;
+  `udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/`
 The chain is evaluator → pullback faithfulness → co-presence typing → conformal ceiling → common-scale
 ownership → density/area typing → complete-area faithfulness → bounded projective pair readout.
 Complete area data encode `g`; every supplied pair owns `chi=tanh(phi_pair)`. Charles adopted its
@@ -47,7 +44,9 @@ rejects pullback-only congruence; G141--G144 show that a chart or genuine embedd
 presentation carry, while endpoint incidence alone does not glue distinct relation sheets. G145
 proves full-pullback valuation determines its metric component on the supplied 4D base atlas while
 query atlas, calibration, numerical valuation, and physical realization remain supplied or open.
-G146--G147 leave carrier open; G148 derives a working-representation first-jet identity; amplitudes and history remain open.
+G146--G147 leave carrier open; G148 derives a working-representation first-jet identity; G149
+realizes that chord from one genuine all-live smooth metric/query witness. Amplitudes and physical
+history remain open.
 
 ## Durable prerequisites
 
@@ -59,7 +58,7 @@ G146--G147 leave carrier open; G148 derives a working-representation first-jet i
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 135-row premise registry controls current status, not the archived prose.
+load-bearing. The 136-row premise registry controls current status, not the archived prose.
 
 ## Observational lane
 

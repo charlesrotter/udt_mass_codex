@@ -32,41 +32,33 @@ derived only on a supplied regular calibrated pair realization.
 ### Current dependency spine
 
 - **G129--G134 — reconstruction.** Known rank ten full pullbacks recover full `g`; scalar-only
-  terminal data recover merely its positive conformal class. Common scale is retained, not sourced.
-  Pair density descends only on genuine overlaps; the bivector area bilinear recovers `g` up to the
-  fixed Lorentz sign on a codimension eleven metricity locus, not a numerical or evolution law.
+  data stop at its positive conformal class. The bivector area bilinear recovers `g` up to fixed
+  sign on a codimension eleven metricity locus; pair density and common scale remain typed, not sourced.
 - **G135--G139 — position.** Charles provisionally adopted the classified native chart. On supplied
-  congruent complete pairs, signed `x/X_max=tanh(phi_pair)` composes by the Mobius law; unsigned
-  magnitude does not. Endpoint position and route transport remain separately typed.
-- **G140--G144 — carry.** Pullback faithfulness does not create positional congruence. A supplied
-  chart or genuine branch-resolved embedded overlap owns its presentation carry; common endpoint
-  observers do not glue distinct sheets. Carry is closed kinematically, not a missing force.
+  congruent pairs, signed `x/X_max=tanh(phi_pair)` composes; route transport stays distinct.
+- **G140--G144 — carry.** A supplied chart or genuine embedded overlap owns presentation carry;
+  shared endpoints neither create positional congruence nor glue sheets.
 - **G145 — relation/history descent.** `VERIFIED_WITH_CAVEATS` after fresh adversarial repair. A
-  rank-complete full-pullback valuation uniquely determines the metric component on its supplied
-  four-dimensional base atlas. Pair sheets remain two-dimensional and only carry their typed
-  relation data. The query atlas, calibrations, numerical valuation, and physical realization stay
-  supplied or `OPEN`. Two opposite-curvature histories survive the same coherence and local-causal
-  gates even with all nine non-`phi` complete-coframe fields live.
+  rank-complete valuation determines `g` on its supplied 4D atlas; query atlas, calibration, numerical valuation,
+  and realization remain `OPEN`. Opposite-curvature histories survive the same gates with all nine
+  non-`phi` fields live.
 - **G146--G147 — multidirectional position.** G146 finds two inequivalent parity-even projections
-  with the same collinear law; both fail reverse order on the registered non-collinear witness and
-  neither is a complete arrow or UDT law. G147 is
-  `VERIFIED_WITH_CAVEATS` after adversarial repair and follow-up: inside the **defined conditional**
-  lift `xi = rho n` in the query rest space, its unoriented tangent plane is identically the
-  metric pair screen. This does not derive the physical three-position carrier or displacement;
-  independent-carrier `O(2)` solder and cross-query carry remain `OPEN`.
+  sharing the collinear law; both fail reverse order on the registered non-collinear witness.
+  Inside G147's **defined conditional** `xi=rho n`, directional tangent equals metric pair screen;
+  physical carrier, independent `O(2)` solder, and cross-query carry remain `OPEN`.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
-  Charles authorized `xi=X_max tanh(phi_pair)n` as a working representation for this calculation.
-  On a supplied smooth regular pair it obeys the exact covariant radial/screen/rest-space identity.
-  The registered `lambda` family proves only algebraic first-variation liveness of every
-  `B,Q,S,Y,Z` block; it is not the query clock flow or a connection derivation. `sech(phi)^2` and
-  `tanh(phi)` limits are exact coefficients, not a physical regime-amplitude law.
+  The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
+  `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
+- **G149 — genuine spacetime/query join.** `VERIFIED_WITH_CAVEATS` after fresh adversarial repair
+  and follow-up. One smooth metric/pair derives `dot(phi_pair),a_n,Omega` from one geometry and
+  reproduces G148's covariant identity. Registered `B,Q,S` gradients and clock-direction `Y,Z` jets are live;
+  the `sigma` jet is untested. This is a local chord, not history selection or dynamics.
 
-Maximum conclusion: the complete pullback valuation and its reconstructed metric need no second
-bridge. Coherence is a compatibility grammar, not a numerical score. G148 bypasses the independent
-carrier question within one chosen representation and exposes a coefficient-free first-jet
-identity; physical carrier ownership, realized amplitudes, history, and cross-query transport remain open.
+Maximum conclusion: G149 realizes G148's first-jet chord in one all-live smooth witness rather than
+an external slider. The physical carrier, amplitudes, history, dynamics, and cross-query transport
+remain open.
 Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
-`udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/`. Use `INDEX.md` for the chain.
+`udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/`. Use `INDEX.md` for the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -111,10 +103,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-On one explicit smooth time-live complete coframe/query history, compute `dot phi`, `a_n`, and
-`Omega` from the same Levi-Civita geometry with every `B,Q,S,Y,Z` block live. Verify the G148
-covariant identity as a genuine spacetime first jet rather than a `lambda` control. Characterize all
-outputs; do not fit a regime pattern or infer dynamics, history selection, `X_max`, or completion.
+First close the first-order ceiling: determine whether any additional invariant relation among
+`dot(phi_pair)`, `a_n`, and `Omega` follows for arbitrary supplied smooth regular histories, beyond
+the exact G148 identity and frame orthogonality. If none does, record that result once and move to
+the smallest second-jet curvature/Jacobi join describing how the chord changes. Do not sweep fitted
+histories or infer dynamics, a physical regime pattern, `X_max`, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

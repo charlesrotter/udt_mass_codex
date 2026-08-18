@@ -146,6 +146,7 @@ def validate_startup_surface(root: Path) -> None:
             "G146",
             "G147",
             "G148",
+            "G149",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -181,7 +182,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "135-row exact registry",
+            "136-row exact registry",
             "without dumping its wide rows into model context",
             "not a startup read or a current-frontier index",
         ),
@@ -216,6 +217,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g146_multidirectional_relational_position_composition_2026-08-17/",
             "udt_g147_pair_directional_metric_screen_solder_2026-08-17/",
             "udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/",
+            "udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -235,6 +237,7 @@ def validate_startup_surface(root: Path) -> None:
             "G146",
             "G147",
             "G148",
+            "G149",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -253,13 +256,14 @@ def validate_startup_surface(root: Path) -> None:
             "G146",
             "G147",
             "G148",
+            "G149",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
             "bivector area bilinear",
             "physical multidirectional carrier",
             "184,300",
-            "one explicit untuned smooth local history",
+            "first-order ceiling",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
             "WORKING_FOUNDATIONAL_FRAME",
@@ -273,10 +277,11 @@ def validate_startup_surface(root: Path) -> None:
             "G146",
             "G147",
             "G148",
+            "G149",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "135-row",
+            "136-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -371,9 +376,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 135, "premise registry must contain exactly 135 rows")
+    require(len(rows) == 136, "premise registry must contain exactly 136 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 135, "duplicate premise id")
+    require(len(by_id) == 136, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2889,6 +2894,33 @@ def main() -> None:
         == "udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/AUDIT_REPORT.md",
         "G148 source changed",
     )
+    require(
+        by_id["G149"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_FOLLOWUP_PASS__EXPLICIT_SMOOTH_COMPLETE_SPACETIME_QUERY_WITNESS"
+        ),
+        "G149 bounded status regressed or promoted",
+    )
+    require(by_id["G149"]["epistemic_label"] == "MIXED", "G149 label changed")
+    for open_item in (
+        "physical multidirectional carrier and independent O2 solder",
+        "arbitrary-history first-order invariant ceiling",
+        "sigma-direction pair first jet",
+        "physical history query family dynamics and selection",
+    ):
+        require(open_item in by_id["G149"]["open_scope"], f"G149 open boundary absent: {open_item}")
+    for guard in (
+        "one rational witness called selected physical history or universe",
+        "registered liveness called universal dependence or a loud quiet loud law",
+        "Y Z clock-direction controls called full two-direction pair-jet coverage",
+        "fixture-specific lambda mismatch called a coordinate-invariant theorem",
+        "exact first-jet identity called dynamics history selection Xmax law or downstream prediction",
+    ):
+        require(guard in by_id["G149"]["forbidden_regression"], f"G149 guard absent: {guard}")
+    require(
+        by_id["G149"]["controlling_source"]
+        == "udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/AUDIT_REPORT.md",
+        "G149 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -2967,7 +2999,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G148-extended premise guards; PASS: 135-row premise "
+        "PASS: G149-extended premise guards; PASS: 136-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
