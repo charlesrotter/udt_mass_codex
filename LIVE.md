@@ -49,16 +49,20 @@ derived only on a supplied regular calibrated pair realization.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
   The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G151 — realized chord, ceiling, and curvature join.** G149 realizes the covariant chord;
+- **G149--G152 — realized chord, ceiling, curvature, and immersion ownership.** G149 realizes the covariant chord;
   G150 makes its four named notes free in the unrestricted local class. G151 derives the exact
   second chord/curvature commutator. A query-owned connecting family is a sufficient restriction
   and, away from zero chord, forces `a_n=0` and spatial-gradient laws for depth and screen turn.
-  Geodesic Jacobi reduction is conditional; query, history, and dynamics remain open.
+  G152 proves the pair immersion owns coordinate and orthogonal ruler variations, but does not
+  automatically identify either with the working chord. Their exact magnitude, shift, lapse, and
+  carry conditions are now classified. Geodesic Jacobi reduction, query, history, and dynamics
+  remain conditional/open.
 
-Maximum conclusion: curvature organizes change of an actual carried relation family; it does not
-turn every terminal pair readout into a connecting field or select the family/history.
+Maximum conclusion: curvature organizes change of an actual carried relation family. The pair
+immersion owns the ingredients and exact test for that identification, not an automatic pass or a
+selected family/history.
 Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
-`udt_g151_pair_chord_generalized_deviation_join_2026-08-17/`. Use `INDEX.md` for the chain.
+`udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/`. Use `INDEX.md` for the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -103,10 +107,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Determine whether the complete pair immersion itself owns G151's variational identification:
-compare `xi=rho n` with its natural ruler variation and classify the exact magnitude, shift, and
-commutator conditions. Do not assume a connecting family, fit histories, or infer dynamics,
-regime amplitudes, `X_max`, or completion.
+Audit the semantic join between the adopted working pair position and G152's metric-owned
+orthogonal ruler: determine whether active premises identify `xi` with `+/-r`, merely permit that
+as a calibrated query condition, or leave it open. If it remains conditional, state the smallest
+additional clarification before any network-constancy test. Do not infer proper length, fit
+histories, select a query, or derive dynamics, regime amplitudes, `X_max`, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

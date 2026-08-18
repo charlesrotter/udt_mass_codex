@@ -25,15 +25,16 @@ The active dependency chain is:
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
 6. G148: in a chosen working representation, the covariant first jet splits into radial, screen-turn,
    and rest-space-tilt pieces. `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149/G150/G151: one metric realizes the chord; its four named notes are unrestricted locally. G151
+7. G149--G152: G149 realizes one chord; G150 makes its four named notes unrestricted locally. G151
    joins chord change to curvature. A connecting family restricts the notes and conditionally gives
-   Jacobi deviation, but the pair terminal readout does not yet own that family.
+   Jacobi deviation. G152 shows the immersion owns its coordinate and orthogonal ruler variations,
+   but their equality with—and carry of—the working chord requires separate exact conditions.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
 After orientation, open `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`
-or `udt_g151_pair_chord_generalized_deviation_join_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
+or `udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
 `INDEX.md` routes the intervening chain.
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
@@ -76,8 +77,8 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Test whether the pair immersion owns G151's variational identification by comparing `xi=rho n`
-with its natural ruler variation and classifying magnitude, shift, and commutator conditions. Do
-not assume a connecting family or infer history, dynamics, `X_max`, or completion.
+Audit whether adopted pair-position semantics identifies `xi` with G152's metric-owned
+orthogonal ruler, merely permits that as calibrated query structure, or leaves it open. Do not
+silently equate pair position with proper length or infer history, dynamics, `X_max`, or completion.
 
 <!-- STARTUP_CURRENT_END -->

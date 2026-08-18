@@ -149,6 +149,7 @@ def validate_startup_surface(root: Path) -> None:
             "G149",
             "G150",
             "G151",
+            "G152",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -184,7 +185,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "138-row exact registry",
+            "139-row exact registry",
             "without dumping its wide rows into model context",
             "not a startup read or a current-frontier index",
         ),
@@ -222,6 +223,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/",
             "udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/",
             "udt_g151_pair_chord_generalized_deviation_join_2026-08-17/",
+            "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -244,6 +246,7 @@ def validate_startup_surface(root: Path) -> None:
             "G149",
             "G150",
             "G151",
+            "G152",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -265,6 +268,7 @@ def validate_startup_surface(root: Path) -> None:
             "G149",
             "G150",
             "G151",
+            "G152",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -288,10 +292,11 @@ def validate_startup_surface(root: Path) -> None:
             "G149",
             "G150",
             "G151",
+            "G152",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "138-row",
+            "139-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -363,6 +368,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/AUDIT_REPORT.md",
         "udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/AUDIT_REPORT.md",
         "udt_g151_pair_chord_generalized_deviation_join_2026-08-17/AUDIT_REPORT.md",
+        "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -389,9 +395,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 138, "premise registry must contain exactly 138 rows")
+    require(len(rows) == 139, "premise registry must contain exactly 139 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 138, "duplicate premise id")
+    require(len(by_id) == 139, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2990,6 +2996,35 @@ def main() -> None:
         == "udt_g151_pair_chord_generalized_deviation_join_2026-08-17/AUDIT_REPORT.md",
         "G151 source changed",
     )
+    require(
+        by_id["G152"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_PASS__PAIR_IMMERSION_OWNS_COORDINATE_AND_ORTHOGONAL_RULER_VARIATIONS"
+        ),
+        "G152 bounded status regressed or promoted",
+    )
+    require(by_id["G152"]["epistemic_label"] == "MIXED", "G152 label changed")
+    for open_item in (
+        "whether adopted pair-position semantics identifies xi with oriented metric ruler",
+        "universal constancy and sufficiency of conditional Xmax candidate",
+        "physical query population history dynamics regime amplitudes and selection",
+        "numerical Xmax proper length areal radius",
+    ):
+        require(open_item in by_id["G152"]["open_scope"], f"G152 open boundary absent: {open_item}")
+    for guard in (
+        "pair immersion said to automatically own xi",
+        "collinearity called equality of magnitude",
+        "orthogonal ruler silently equated with coordinate variation when beta nonzero",
+        "coordinate and normalized-u bracket coefficients confused",
+        "equality said to imply connecting carry or carry said to imply equality",
+        "conditional Xmax candidate called universal constant or physical value",
+        "metric ruler called proper length or areal radius",
+    ):
+        require(guard in by_id["G152"]["forbidden_regression"], f"G152 guard absent: {guard}")
+    require(
+        by_id["G152"]["controlling_source"]
+        == "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md",
+        "G152 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3068,7 +3103,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G151-extended premise guards; PASS: 138-row premise "
+        "PASS: G152-extended premise guards; PASS: 139-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

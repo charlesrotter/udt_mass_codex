@@ -3,15 +3,14 @@
 Date: 2026-08-17
 Authority: active dependency spine; not canonization
 
-`LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise
-classification. This file states only the current architecture, open gates, and next bounded move.
+`LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise classification. This file states only the current architecture, open gates, and next bounded move.
 
 ## Program picture
 
-UDT currently has a strong conditional observer-pair evaluator, faithful metric reconstruction, a
-working bounded projective position readout, an exact first-jet identity, one smooth realization,
-and a closed four-output first-order selector ceiling, plus open numerical/global
-valuation problems and an open physical multidirectional carrier.
+UDT currently has a strong conditional observer-pair evaluator, faithful metric reconstruction, a working
+bounded projective position readout, an exact first-jet identity, one smooth realization,
+a closed four-output first-order selector ceiling, and an exact immersion/chord ownership test,
+plus open numerical/global valuation problems and an open physical multidirectional carrier.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -100,13 +99,14 @@ smooth regular local class. Therefore no nontrivial universal pointwise algebrai
 those four outputs can be found by another first-order atlas. Other first-order objects, physical
 query restrictions, curvature/Jacobi, completion, and dynamics remain open; the first-order ceiling is no history law.
 
-### G151 — pair chord generalized-deviation join
+### G151--G152 — curvature join and immersion ownership
 
-Fresh adversarial repair/follow-up passed. The exact second chord derivative exposes the full
-curvature commutator. A smooth two-parameter query identifying its variation with `xi` is a
-canonical sufficient reduction; for nonzero chord it forces `a_n=0` and ties depth/screen turn to
-spatial observer-flow gradients. A geodesic family conditionally gives Jacobi deviation. This
-constrains a supplied family but does not make terminal pair data own that family or select history.
+Fresh adversarial gates passed. G151 exposes the curvature commutator: a two-parameter query identifying
+its variation with `xi` is sufficient, restrictive, and conditionally Jacobi. G152 shows the immersion owns
+`J1=beta T u+L n` and metric ruler `r=L n`, not their automatic identity with `xi=rho n`. Coordinate equality
+also needs `beta=0`; connecting carry separately needs `u(rho/L)=0` and `J1(log T)-u(beta T)=0`. Exact
+counterexamples separate equality from carry. The conditional `X_max^(epsilon)=epsilon L(L+T)/(L-T)` is no
+value law; universality requires a coherently identified family and constant candidate.
 
 ## Durable prerequisites
 
@@ -140,8 +140,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Does the complete pair immersion own G151's variational identification, including magnitude,
-   shift, and commutator conditions, or is it additional query structure?
+1. Does adopted pair-position semantics identify `xi` with G152's metric ruler, or is equality
+   calibrated query structure?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -149,7 +149,7 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Resolve question 1 by comparing `xi=rho n` with the immersion's natural ruler variation and
-classifying the exact equality/bracket conditions. Characterize rather than fit. Leave carrier
-ownership, dynamics, `X_max`, length, and completion open.
+Resolve question 1 at the premise/type level before another solve. If equality is conditional,
+state the smallest clarification and preregister—not execute—the network constancy/carry test.
+Leave carrier, dynamics, numerical `X_max`, proper length, and completion open.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.
