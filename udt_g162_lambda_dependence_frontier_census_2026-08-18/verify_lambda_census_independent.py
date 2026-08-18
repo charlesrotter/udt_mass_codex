@@ -102,7 +102,8 @@ def root(t, ell, beta):
 
 
 def boost(z):
-    assert F(-1) < z < F(1)
+    primal = z.value if isinstance(z, Dual) else z
+    assert F(-1) < primal < F(1)
     den = 1 - z * z
     c, s = (1 + z * z) / den, 2 * z / den
     return [[c, s], [s, c]]
