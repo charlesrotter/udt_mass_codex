@@ -1,6 +1,9 @@
 {
   "checks": {
     "class_limit": true,
+    "external_boolean": true,
+    "external_first_failure_guard": true,
+    "external_full_network_caveat": true,
     "independent_source_check": true,
     "production_boolean": true,
     "production_status": true,

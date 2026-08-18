@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "all_conformal_twins_obey_pullback_overlap_coherence": true,
+    "complete_two_plane_pullbacks_reconstruct_supplied_metric": true,
+    "cutoff_preserves_anchor_neighborhood": true,
+    "cutoff_retains_exact_asymptotic_power": true,
+    "divergent_class_four_orders": false,
+    "finite_class_limit": true,
+    "four_dimensional_conformal_twins_preserve_causal_class": true,
+    "mobius_group_bundle_scale_isomorphism": true,
+    "normalized_response_and_gradient_norm_rescale": true,
+    "oscillatory_subsequences_separated": true,
+    "pair_phi_beta_invariant_kappa_shifts": true,
+    "quiet_class_four_orders": true
+  },
+  "implementation": "python_stdlib_no_sympy_no_g154_imports",
+  "landing": "REJECT_EXTERNAL_STRENGTHENING__LOAD_BEARING_CHECK_FAILED",
+  "max_errors": {
+    "group": 1.0658141036401503e-14,
+    "pair": 2.4424906541753444e-15,
+    "pullback": 1.1368683772161603e-13,
+    "response": 3.0531133177191805e-16
+  },
+  "status": "FAIL",
+  "tails": {
+    "divergent": 39999.99999999992,
+    "finite": 4.0,
+    "oscillatory_minus": 4.0,
+    "oscillatory_plus": 12.0,
+    "quiet": 3.9999999999999915e-08
+  }
+}

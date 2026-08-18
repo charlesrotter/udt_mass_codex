@@ -1,0 +1,20 @@
+PASS: fixed-X Mobius law is linearized by artanh
+PASS: all positive-X Mobius groups are scale-isomorphic
+PASS: normalization x -> x/X removes the dimensionful scale
+PASS: det(h) = -T^2 L^2
+PASS: phi_pair readout is conformally invariant
+PASS: beta readout is conformally invariant
+PASS: common scale shifts by lam: exp(kappa') = lam exp(kappa)
+PASS: normalized response changes under common conformal scale
+PASS: G154 spatial-response formula
+PASS: G154 zero / finite / divergent asymptotic classes
+PASS: positive oscillatory common scale has unequal subsequential limits
+PASS: variable X can exactly cancel the phi term
+PASS: cancellation example still has X(phi) -> Xstar
+PASS: kappa endpoint cocycle closes for arbitrary kappa values
+PASS: phi endpoint cocycle closes independently of kappa
+PASS: global Mobius triangle closure depends only on endpoint phi
+PASS: additive endpoint network has rank <= 2 and is kappa-blind
+PASS: complete two-plane pullbacks faithfully encode the metric
+
+ALL CHECKS PASSED

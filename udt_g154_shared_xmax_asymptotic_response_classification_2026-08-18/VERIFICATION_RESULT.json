@@ -1,9 +1,13 @@
 {
+  "cold_external_review": "INDEPENDENT_LOCAL_REPLAY_PASS_WITH_CAVEATS",
+  "external_independent_check_count": 12,
+  "external_manifest_rows": 4,
   "fresh_adversarial_review": "REPAIR_FOLLOWUP_PASS",
+  "g154_sublanding": "EVEN_FIXED_LEAF_SCALE_NOT_DERIVED__RESPONSE_CLASS_NOT_SELECTED",
   "independent_check_count": 16,
   "manifest_rows": 7,
   "preregistered_commit": "f5946fa0",
-  "primary_landing": "EVEN_FIXED_LEAF_SCALE_NOT_DERIVED__RESPONSE_CLASS_NOT_SELECTED",
+  "primary_landing": "CONFORMAL_NETWORK_NONSELECTION__CURRENT_IDENTITIES_ONLY_EVALUATE_SUPPLIED_HISTORY",
   "production_check_count": 14,
   "status": "PASS"
 }
