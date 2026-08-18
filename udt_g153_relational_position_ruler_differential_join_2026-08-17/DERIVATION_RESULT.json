@@ -1,0 +1,68 @@
+{
+  "schema": "udt.g153.differential_join.v1",
+  "status": "PASS",
+  "formulas": {
+    "rho": "X_max*tanh(phi)",
+    "theta0_coordinate": [
+      "T",
+      "T*beta"
+    ],
+    "theta1_coordinate": [
+      "0",
+      "L"
+    ],
+    "u_rho": "(X_max*partial_tau_phi + partial_tau_Xmax*sinh(2*phi)/2)/(T*cosh(phi)**2)",
+    "n_rho": "(2*X_max*partial_sigma_phi - beta*(2*X_max*partial_tau_phi + partial_tau_Xmax*sinh(2*phi)) + partial_sigma_Xmax*sinh(2*phi))/(2*L*cosh(phi)**2)",
+    "fixed_Xmax_u_rho": "X_max*partial_tau_phi/(T*cosh(phi)**2)",
+    "fixed_Xmax_n_rho": "-X_max*(beta*partial_tau_phi - partial_sigma_phi)/(L*cosh(phi)**2)",
+    "d_rho_coordinate": [
+      "(X_max*partial_tau_phi + partial_tau_Xmax*sinh(2*phi)/2)/cosh(phi)**2",
+      "(X_max*partial_sigma_phi + partial_sigma_Xmax*sinh(2*phi)/2)/cosh(phi)**2"
+    ],
+    "metric_norm_d_rho": "-(L**2*(2*X_max*partial_tau_phi + partial_tau_Xmax*sinh(2*phi))**2 - T**2*(2*X_max*partial_sigma_phi - beta*(2*X_max*partial_tau_phi + partial_tau_Xmax*sinh(2*phi)) + partial_sigma_Xmax*sinh(2*phi))**2)/(4*L**2*T**2*cosh(phi)**4)",
+    "chi": "(L - T)/(L + T)",
+    "dchi_tau": "2*(-L*T_tau + L_tau*T)/(L + T)**2",
+    "dchi_sigma": "2*(-L*T_sigma + L_sigma*T)/(L + T)**2",
+    "optional_spatial_unit_ruler_condition": "n(rho)=epsilon",
+    "optional_full_one_form_condition": "u(rho)=0 and n(rho)=epsilon"
+  },
+  "common_scale": {
+    "rho_base": "1",
+    "L_base": "1",
+    "rho_after_scale_2": "1",
+    "L_after_scale_2": "2",
+    "response_coefficients_scale": "u(rho),n(rho) -> Omega^-1 times themselves",
+    "coframes_scale": "theta0,theta1 -> Omega times themselves",
+    "d_rho": "unchanged when Xmax and phi are common-scale invariant"
+  },
+  "source_hashes": {
+    "udt_g135_projective_pair_separation_constitution_audit_2026-08-17/AUDIT_REPORT.md": "82324b957e0187f7cc3c47fec0878ba62fe8b7a32d3799ac96d92d62b263fc14",
+    "udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md": "879e20e4b28e46aa03d32bebbdab768417c8556bd7545ff25e617fca63d7600a",
+    "udt_g147_pair_directional_metric_screen_solder_2026-08-17/EXACT_DERIVATION.md": "558964b31f4c4973f54dc5c7350bf1f44bbbbafbb2c058d63a9ea74f241a5b38",
+    "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md": "d8ea9eb9b16257cd61f9cd694b9c202657636c74baf1c2f1274a88f1f7502383"
+  },
+  "gates": {
+    "coordinate_frame_decomposition_exact": true,
+    "common_scale_reconstruction_invariant": true,
+    "chi_tau_derivative_exact": true,
+    "chi_sigma_derivative_exact": true,
+    "finite_equality_base": true,
+    "finite_equality_destroyed_by_common_scale": true,
+    "position_unchanged_by_common_scale": true,
+    "G135_common_scale_blind": true,
+    "G137_proper_length_open": true,
+    "G147_lift_conditional": true,
+    "G147_not_displacement_or_length": true,
+    "G152_no_automatic_identity": true
+  },
+  "premise_stamps": {
+    "finite_relational_position": "CHOSE_WORKING_FOUNDATIONAL_CLARIFICATION_AND_DERIVED_DOWNSTREAM",
+    "rest_space_vector_lift": "DEFINED_SUPPLIED_CONDITIONAL",
+    "metric_ruler_coframe": "DERIVED_FROM_SUPPLIED_PAIR_METRIC",
+    "differential_response": "DERIVED_ON_SUPPLIED_SMOOTH_PAIR_FAMILY_INCLUDING_D_XMAX",
+    "fixed_Xmax_response": "CONDITIONAL_SUBCASE",
+    "unit_ruler_identification": "OPTIONAL_ADDITIONAL_CALIBRATION_NOT_ADOPTED",
+    "proper_length_history_Xmax_value_completion": "OPEN"
+  },
+  "maximum_conclusion": "G137_OWNS_FINITE_RELATIONAL_POSITION_NOT_METRIC_PROPER_RULER_LENGTH__G147_REST_SPACE_VECTOR_LIFT_REMAINS_CONDITIONAL__FINITE_CHORD_EQUALS_LOCAL_RULER_IS_NOT_THE_NATIVE_JOIN__D_RHO_HAS_EXACT_METRIC_FRAME_DECOMPOSITION_ON_SUPPLIED_SMOOTH_PAIR_FAMILY__UNIT_RULER_IDENTIFICATION_PROPER_LENGTH_HISTORY_XMAX_VALUE_AND_COMPLETION_OPEN"
+}
