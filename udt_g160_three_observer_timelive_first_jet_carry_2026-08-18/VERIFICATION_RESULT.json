@@ -1,0 +1,18 @@
+{
+  "algebra_mutation_count": 11,
+  "exact_checks": 13,
+  "fresh_adversarial": "PASS",
+  "independent_bplus2_trials": 500,
+  "independent_closed_triangle_trials": 500,
+  "independent_general_phi_beta_rate_trials": 500,
+  "independent_general_trials": 500,
+  "independent_live_gauge_trials": 500,
+  "independent_nonclosed_defect_trials": 500,
+  "independent_total_composition_trials": 500,
+  "independent_total_live_gauge_trials": 500,
+  "landing": "TIMELIVE_PAIR_FIRST_JET_CARRY_DERIVED__FULL_GLPLUS2_PULLBACK_AND_RIGHT_CONNECTION_COMPOSITION_EXACT__CARRY_CLOSURE_SUFFICIENT_NOT_NECESSARY_DUE_TO_LORENTZ_STABILIZER__ONLY_COMBINED_CARRIED_FIRST_JET_IS_LIVE_SOURCE_GAUGE_COVARIANT__JOINED_TOTAL_RATE_IS_LIVE_ENDPOINT_GAUGE_INVARIANT__KAPPA_HAS_UNIVERSAL_DETERMINANT_RATE__NO_PHI_BETA_CARRY_ONLY_LAW_ON_UNRESTRICTED_GLPLUS2__BPLUS2_SUFFICIENT_NOT_NECESSARY_FOR_EXACT_CHARACTER_LAWS__SCALAR_RATE_CLOSURE_WEAKER_THAN_MATRIX_RATE_CLOSURE__PHYSICAL_CARRY_HISTORY_QUERY_LAMBDA_AND_COMPLETION_OPEN",
+  "metadata_guard_mutation_count": 4,
+  "required_files": 18,
+  "source_count": 10,
+  "status": "PASS"
+}

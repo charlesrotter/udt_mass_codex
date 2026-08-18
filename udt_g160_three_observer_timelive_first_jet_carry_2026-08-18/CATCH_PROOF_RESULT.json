@@ -1,0 +1,69 @@
+{
+  "algebra_mutation_count": 11,
+  "catch_count": 15,
+  "caught": [
+    {
+      "caught": true,
+      "name": "freeze_live_carry_rate"
+    },
+    {
+      "caught": true,
+      "name": "omit_left_connection_term"
+    },
+    {
+      "caught": true,
+      "name": "reverse_noncommuting_carry_order"
+    },
+    {
+      "caught": true,
+      "name": "reverse_right_rate_composition_order"
+    },
+    {
+      "caught": true,
+      "name": "freeze_live_source_endpoint_gauge"
+    },
+    {
+      "caught": true,
+      "name": "drop_half_trace_common_scale_rate"
+    },
+    {
+      "caught": true,
+      "name": "promote_general_gl2_phi_shift_to_carry_only_character"
+    },
+    {
+      "caught": true,
+      "name": "scalar_rate_closure_promoted_to_matrix_rate_closure"
+    },
+    {
+      "caught": true,
+      "name": "omit_source_endpoint_score_from_total_rate"
+    },
+    {
+      "caught": true,
+      "name": "promote_equal_pair_first_jets_to_finite_and_rate_carry_closure"
+    },
+    {
+      "caught": true,
+      "name": "promote_positive_bplus2_from_sufficient_to_necessary"
+    },
+    {
+      "caught": true,
+      "name": "promote_connection_split_to_gauge_independent"
+    },
+    {
+      "caught": true,
+      "name": "promote_supplied_carry_to_physical"
+    },
+    {
+      "caught": true,
+      "name": "promote_history_to_derived"
+    },
+    {
+      "caught": true,
+      "name": "promote_lambda_to_physical"
+    }
+  ],
+  "metadata_guard_mutation_count": 4,
+  "metadata_guards_are_independent_semantic_proofs": false,
+  "status": "PASS"
+}

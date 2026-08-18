@@ -1,7 +1,6 @@
 # Scientific premise index
 
-This is a precedence guide, not `CANON.md`. Read `LIVE.md` first; the TSV owns exact status. On any
-conflict, stop and report it.
+`LIVE.md` and the TSV own status; this guide is not `CANON.md`. On conflict, stop.
 ## Foundational relation
 
 | Object | Current status | What is owned | What remains open |
@@ -25,7 +24,7 @@ conflict, stop and report it.
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Pullbacks determine `g` on a supplied 4D atlas; query and realization open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections nonunique; screen identity conditional; carrier open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Covariant identity in a chosen representation; coefficient limits only |
-| G149--G159 score/first jet | `VERIFIED_WITH_CAVEATS` | Score descends to calibrated first jet; carry/history open |
+| G149--G160 score/carry | `VERIFIED_WITH_CAVEATS` | First jet carries exactly; stabilizer/history open |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits
@@ -56,7 +55,7 @@ None selects values, completion, observations, or `X_max`.
 - G151 derives the curvature commutator; conditional connecting/Jacobi structure is query-owned.
 - G152/G153/G154/G155/G156/G157 derive conditional carry, live-`dX_max`, conformal-response
   freedom, zero bounded scale-history rank, and changing base balance. G158 derives the gauge-fixed
-  full score; G159 descends it to calibrated `(h,dot h)` rates. History, parameter, and carry stay open.
+  full score; G159 descends it to `(h,dot h)`; G160 carries that jet but cannot see Lorentz stabilizers.
 
 ## Carrier, action, source, and matter
 
@@ -104,6 +103,7 @@ Do not:
   or its changing witness physical history;
 - call G159 coefficients arbitrary-`GL(2)` observables, freeze `dot J`, or promote local descent to
   evolution, history selection, physical carry, or light speed;
+- infer carry closure from equal first jets, or call positive `B+(2)` necessary;
 - identify relational position with proper length, signal distance, universe size, or history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
 - identify celestial `S^2` with the matter carrier or density descent with a physical value law;
@@ -113,7 +113,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 146-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 147-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

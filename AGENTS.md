@@ -26,7 +26,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   guide supplies bounded premise orientation; the verifier audits the entire 146-row exact registry
+   guide supplies bounded premise orientation; the verifier audits the entire 147-row exact registry
    without dumping its wide rows into model context. Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv`
    rows only after orientation when the requested task makes those objects load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the

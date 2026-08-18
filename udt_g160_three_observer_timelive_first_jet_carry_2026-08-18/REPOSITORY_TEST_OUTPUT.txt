@@ -1,0 +1,2 @@
+120 passed, 1 xfailed in 1.73s
+Expected XFAIL: tests/test_solution_space_gate.py::test_no_habit_pins — known matter-sector HABIT pins remain outside G160 scope.

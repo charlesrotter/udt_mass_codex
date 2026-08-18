@@ -86,7 +86,7 @@ At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega
 `R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
 those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
 
-### G151--G159 — curvature, scale carry, complete score, and terminal first jet
+### G151--G160 — curvature, score, terminal first jet, and time-live carry
 
 G151 exposes the curvature commutator and conditional Jacobi reduction. G152 shows the immersion
 owns `J1=beta T u+L n` and ruler `r=L n`, not their automatic identity with `xi=rho n`; equality and
@@ -105,7 +105,8 @@ factors into common scale, reciprocal depth, and normalized shift. Their exact s
 changing relative strengths; one scalar-parameter fixed-generator subgroup is an extra ansatz.
 G158 derives the gauge-fixed `3+3+4` score `dot V=Omega_R V+E dot J`; it organizes but does not
 select a history or observable score. G159 derives `dot h=P^T eta V+V^T eta P`; live Lorentz gauge
-cancels from `(h,dot h)`, while terminal rates require a timelike calibrated chart and lawful carry.
+cancels from `(h,dot h)`. G160 derives supplied `GL+(2)` first-jet carry and right-rate composition;
+Lorentz stabilizers make the pair first jet nonfaithful to carry closure.
 
 ## Durable prerequisites
 
@@ -138,8 +139,8 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. How does the G159 calibrated first jet carry through a supplied time-live three-observer network,
-   and which terms are intrinsic score versus calibration connection?
+1. What is the exact Lorentz stabilizer quotient of G160 carry, and does complete screen-normal
+   transport resolve its pair-first-jet-invisible data?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -147,6 +148,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G159 closes local score-to-terminal-first-jet descent. Next derive supplied three-observer time-live
-carry of `(h,dot h)` and terminal rates without adding a physical selector, evolution law, or fit.
+G160 closes supplied time-live first-jet carry. Next classify its stabilizer quotient and screen-normal
+lift without adding a physical selector, evolution law, or fit.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.
