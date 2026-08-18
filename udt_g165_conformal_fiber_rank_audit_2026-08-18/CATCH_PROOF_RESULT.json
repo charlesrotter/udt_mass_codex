@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "catch_count": 9,
+  "catches": [
+    {
+      "case": "promote_evaluator_to_metric_law",
+      "caught": true
+    },
+    {
+      "case": "promote_full_valued_reconstruction_to_prediction",
+      "caught": true
+    },
+    {
+      "case": "promote_supplied_G156_carry_to_physical_carry",
+      "caught": true
+    },
+    {
+      "case": "claim_cE_Gobs_form_length_without_third_datum",
+      "caught": true
+    },
+    {
+      "case": "claim_finite_anchors_remove_compact_bump",
+      "caught": true
+    },
+    {
+      "case": "insert_Xmax_into_conformal_condition",
+      "caught": true
+    },
+    {
+      "case": "replace_primary_landing",
+      "caught": true
+    },
+    {
+      "case": "erase_functional_secondary_kernel",
+      "caught": true
+    },
+    {
+      "case": "erase_valued_network_typing",
+      "caught": true
+    }
+  ]
+}

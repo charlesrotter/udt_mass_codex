@@ -1,0 +1,57 @@
+{
+  "primary_landing": "NO_OWNED_NONIDENTITY_CONDITION",
+  "secondary_classifications": {
+    "current_anchor_readout_map": "FUNCTIONAL_KERNEL",
+    "full_valued_rank_complete_network": "VALUED_NETWORK_RECONSTRUCTION_ONLY",
+    "anchor_only_closure": "FAILS_IN_FROZEN_REGULAR_ARENA"
+  },
+  "source_count": 19,
+  "candidate_counts": {
+    "g155_rows": 41,
+    "post_g155_candidates": 18,
+    "total_rows": 59,
+    "owned_metric_restrictors": 0,
+    "valued_network_reconstruction_rows": 2,
+    "conformal_invariant_or_anchor_rows": 4
+  },
+  "algebra": {
+    "checks": {
+      "determinant_weight_four": true,
+      "phi_pair_invariant": true,
+      "beta_invariant": true,
+      "ceff_ratio_invariant": true,
+      "chi_invariant_given_q": true,
+      "half_density_weight_one_via_fourth_power": true,
+      "causal_polynomial_positive_scale": true,
+      "bump_nonzero_at_center": true,
+      "bump_stationary_at_center": true,
+      "bump_changes_curvature": true,
+      "ce_g_dimensional_rank_two": true,
+      "ce_g_leave_one_unit_direction": true,
+      "ce_g_null_direction_equal_units": true
+    },
+    "determinant_ratio": "exp(4*w)",
+    "causal_polynomial_ratio": "exp(2*w)",
+    "kappa_shift": "w",
+    "bump_center": "exp(-36)",
+    "bump_second_center": "-2592*exp(-36)",
+    "conformal_scalar_curvature_center": "15552*exp(-36 - 2*exp(-36))",
+    "dimensional_rank": 2,
+    "dimensional_nullspace": [
+      [
+        "1",
+        "1",
+        "1"
+      ]
+    ]
+  },
+  "nonlinear_catch": {
+    "compact_support_interval": [
+      "1/3",
+      "2/3"
+    ],
+    "anchor_neighborhoods_preserved": true,
+    "curvature_changed_at_center": true
+  },
+  "maximum_conclusion": "No owned metric restriction survives G165. The anchor map has a functional conformal kernel; a complete valued network reconstructs only its supplied scale."
+}

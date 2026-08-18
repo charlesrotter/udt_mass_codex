@@ -1,5 +1,5 @@
-# INDEX — map
-`LIVE.md` controls current status. This index routes evidence.
+# INDEX
+`LIVE.md` controls current status.
 ## Startup
 
 1. Follow `AGENTS.md` synchronization and bounded-read rules.
@@ -21,7 +21,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G163 position/descent/transport/relation/scale/score/quotient/dependency closure:
+- G137--G165 position/descent/transport/relation/scale/score/quotient/dependency closure:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -41,7 +41,8 @@
   `udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/`;
   `udt_g162_lambda_dependence_frontier_census_2026-08-18/`;
   `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`;
-  `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`
+  `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`;
+  `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
 The chain runs evaluator → metric faithfulness → bounded position → carry → chord → curvature →
 scale balance. Area data encode `g`; supplied pairs own working `chi=tanh(phi_pair)`, not metric
 values or `X_max`. G140--G145 separate congruence, carry, and reconstruction.
@@ -53,9 +54,8 @@ quotient and its unique regular positive-triangular section. G162 removes residu
 conditional flag from the scalar-kernel gate while preserving supplied route/frame memory as a
 separate channel. G163 closes the X-free scalar kernel at `chi=tanh(phi_pair)`, regrades
 dimensionful descendants as conditional, and makes `X_max` a global-completion consequence target
-rather than a kernel input. G164 provisionally removes the missing-local-profile and ten-independent-
-melodies scaffolds, while its conformal counterfamily leaves metric valuation function-valued.
-Physical carry/complete realization remain open.
+rather than a kernel input. G164 removes two scaffolds; G165 finds no owned metric restrictor, so
+finite anchors retain functional conformal freedom. Physical carry/complete realization remain open.
 ## Durable prerequisites
 
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -65,7 +65,7 @@ Physical carry/complete realization remain open.
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 
 For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only
-load-bearing packages. The 150-row premise registry controls current status.
+load-bearing packages. The 151-row premise registry controls current status.
 
 ## Observational lane
 
@@ -90,7 +90,7 @@ feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
   `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding metric orientation: `SIMPLE_METRIC_MACRO.md`
 - Current `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
-- Current scaffold/anchor ponder: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`
+- Scaffold ponder: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; rank result: `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
 

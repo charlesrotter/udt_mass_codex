@@ -26,6 +26,7 @@
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Covariant identity in a chosen representation; coefficient limits only |
 | G149--G162 score/carry/quotient | `VERIFIED_WITH_CAVEATS` | First jet carries; scalar kernel ignores residual rapidity; route/frame memory remains separate; realization open |
 | G163 Xmax dependency reversal | `VERIFIED_WITH_CAVEATS` | Native scalar kernel ends at dimensionless `chi`; G135--G154 dimensional descendants are conditional |
+| G165 conformal-fiber rank | `VERIFIED_WITH_CAVEATS` | No owned metric restrictor; finite anchors retain functional conformal freedom |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits
@@ -55,6 +56,8 @@ None selects values, completion, observations, or `X_max`.
   transport channels remain separate.
 - G163 proves the X-free pair kernel closes at `chi`. Its zero X column is structural by
   construction; the frozen 26-source census finds no independent dimensionful `X_max` owner.
+- G165 finds no active metric restrictor in 59 rows; valued networks reconstruct supplied scale,
+  while finite anchors do not remove functional conformal freedom.
 
 ## Carrier, action, source, and matter
 
@@ -108,7 +111,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 150-row authority. On conflict, stop. IDs are stable.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 151-row authority. On conflict, stop. IDs are stable.
 
 During orientation use this guide and run:
 

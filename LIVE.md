@@ -59,18 +59,18 @@ not channel attribution or evolution. Pointwise `phi` is a presentation potentia
   gate. G163 removes `X_max` from the native kernel and finds no independent owner in its 26-source
   census. Exact endpoint carry is not physical overlap; joined `C,Gamma` retain route/frame memory;
   normal/Jacobi/extrinsic channels stay separate.
-- **G164 — scaffold-subtraction whiteboard (`PONDER_LEAD`).** The pointwise scalar kernel has no
-  extra response profile after `h -> chi`. The ten-channel arena overcounted presentation, query,
-  and one metric as independent melodies. Co-presence reconstructs but does not value that metric.
-  Finite anchors leave functional conformal freedom; finite-data prediction needs a native
-  nonidentity relative-scale or global-admissibility restriction, not necessarily evolution.
+- **G164--G165 — scaffold subtraction and conformal rank.** G164 removed an extra local profile and
+  ten-independent-history scaffolds. Preregistered G165 finds zero owned metric restrictors across
+  59 candidates: finite anchors retain functional conformal freedom, while full valued networks
+  reconstruct only supplied scale. Finite-data prediction still needs a native nonidentity
+  restriction, not necessarily evolution.
 
 Maximum conclusion: ten coframe channels form one coupled changing machine whose scale-free scalar
 kernel ends at `chi`; they are not ten independently selectable histories. No physical score,
 cross-query carry, complete metric valuation, independent
 dimensionful separation, finite all-frame supremum, or numerical `X_max` is derived.
 Controlling derived source: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`.
-Current ponder: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`.
+Current rank source: `udt_g165_conformal_fiber_rank_audit_2026-08-18/`; G164 is its ponder parent.
 Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 G93--G128 chronology is provenance under `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -117,10 +117,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G164 narrows the open issue from a missing local chord or mandatory evolution equation to the rank
-of native restrictions on the coherent metric's relative scale. Preregister and run the bounded
-conformal-fiber rank test. Do not insert `X_max`, a fit, a preferred flag/path, or a desired response
-class into the candidate condition.
+G165 closes the current-source rank question negatively. Before another calculation, choose whether
+UDT claims a fully valued relational state or finite-data prediction requiring a still-unowned
+metric-native scale restriction. Do not repeat an identity census or insert `X_max`, fits, or targets.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

@@ -8,8 +8,8 @@ Date: 2026-08-18
 UDT has a conditional pair evaluator, faithful metric reconstruction, working bounded normalized position,
 exact chord identities, an exact variable-balance complete-coframe transition, an exact regular
 Lorentz quotient, and a residual-rapidity-independent scalar kernel; physical multidirectional carrier,
-route carry, and physical metric valuation remain open. G164 provisionally reframes the ten-channel
-arena as presentation plus query plus one metric, not ten independently selected histories.
+route carry, and physical metric valuation remain open. G164--G165 reduce the ten-channel arena to
+presentation plus query plus one metric, then find no current source-owned scale restriction.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -100,15 +100,13 @@ normal transport remains separate. G162 removes rapidity from the scalar gate wh
 kernel without `X_max`, preserves Xmax-independent G135--G154 theorems, and retypes dimensionful
 descendants. Its zero X column is structural; the 26-source census finds no independent owner.
 
-### G164 — scaffold subtraction and anchor sufficiency (`PONDER_LEAD`)
+### G164--G165 — scaffold subtraction and conformal rank
 
-The local scalar kernel needs no additional response profile after a supplied complete pair metric
-fixes `chi`. Global co-presence and rank-complete descent reconstruct one coherent metric, but do not
-assign its values. The present `chi`, causal, incidence, `c_E`, and `G_obs` data admit arbitrary
-positive conformal variations away from finite anchor loci. A conventional evolution equation is
-not logically mandatory; any native nonidentity relative-scale or global-admissibility condition
-could suffice if it reduces the quotient family to finite moduli. This is an exploratory reframe,
-not a preregistered derivation.
+G164 removes an extra local profile and ten-independent-history scaffolds. G165's preregistered
+59-row census finds no active metric restrictor. The current `chi`, causal, incidence, `c_E`,
+`G_obs`, and finite-anchor map admits compact conformal bumps; full valued networks reconstruct the
+scale function supplied to them. Evolution is not uniquely required, but finite-data prediction
+needs a native nonidentity restriction reducing the quotient family to finite moduli.
 
 ## Observational anchors
 
@@ -132,8 +130,7 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Do any currently owned global conditions have nonzero differential rank on positive conformal
-   variations, or do they only reconstruct/evaluate a supplied valued metric?
+1. Is the complete valued co-present network the physical state, or must UDT generate it from finite data?
 2. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
 3. If relative scale descends to finite moduli, which lawful observational datum calibrates the
@@ -143,7 +140,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G164 narrows the question to relative-scale rank. Preregister and run the conformal-fiber rank test
-against every currently owned nonidentity global condition. Exclude evaluators, identities,
-full-valued supplied networks, `X_max`, desired response classes, fits, and preferred flags/paths
-from the candidate-selector set.
+G165 closes the current-source rank gate. Resolve the architecture fork with Charles before another
+solve. If finite-data prediction is required, map only genuinely new metric-native relative-scale
+candidates; do not repeat compatibility audits or insert `X_max`, fits, or targets.

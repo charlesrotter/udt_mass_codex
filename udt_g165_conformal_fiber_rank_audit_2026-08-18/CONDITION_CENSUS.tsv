@@ -1,0 +1,60 @@
+candidate_id	source_scope	source_role	g165_class	survives_metric_restrictor_filter	conformal_rank	rationale
+G155_E01	current premise registry	INACTIVE_OR_OPEN	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Authority metadata cannot supply a differential coefficient.
+G155_E02	current research program	INACTIVE_OR_OPEN	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Workflow is not physics.
+G155_E03	G155 whiteboard	INACTIVE_OR_OPEN	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	A ranked question is not an equation.
+G155_E04	founded reciprocal character	REPRESENTATION_CONSTRAINT	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The reciprocal character acts after depth is supplied and has no common-scale variable.
+G155_E05	founded reciprocal derivation	REPRESENTATION_CONSTRAINT	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	This constrains a one-parameter representation, not g or kappa.
+G155_E06	strong local CSN provenance	INACTIVE_OR_OPEN	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Activating it would be a new premise, not a current equation.
+G155_E07	Xmax semantics	CALIBRATION_OR_WORKING_FRAME	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The semantic asymptote supplies no kappa profile or equation.
+G155_E08	conceptual dependency audit	INACTIVE_OR_OPEN	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	A type audit identifies the missing joint but does not fill it.
+G155_E09	complete-pair orchestra	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	It restricts compatible supplied pair data, not the ambient common-scale history.
+G155_E10	terminal reciprocal cE evaluator	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The formulas reconstruct common scale; they do not constrain its value.
+G155_E11	complete time-live compatibility	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Arbitrary time frequencies survive, so the identity has no history principal part.
+G155_E12	finite-jet chart openness	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	This proves absence of a chart-generated history equation in its bounded source universe.
+G155_E13	uncompressed pair evaluator	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The external adjudication explicitly leaves physical history and pair ownership open.
+G155_E14	copresent reciprocal causal consistency	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Two inequivalent regular temporal histories survive the gate.
+G155_E15	G129 metric faithfulness	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Faithful reconstruction is not generation or history selection.
+G155_E16	G130 network ownership	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Consistency cuts synthetic networks, not the space of smooth metric histories.
+G155_E17	G131 terminal scalar faithfulness	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The scalar cannot supply a common-scale equation.
+G155_E18	G132 scale owner and anchors	CALIBRATION_OR_WORKING_FRAME	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Internal determinant normalization is not physical metric-volume ownership.
+G155_E19	G133 two-density descent	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Density descent reconstructs scale data but does not choose it.
+G155_E20	G134 full-metric area faithfulness	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Every smooth metric supplies a compatible area network, so metricity is not a history equation.
+G155_E21	G135 projective separation	REPRESENTATION_CONSTRAINT	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Projective position is common-scale blind.
+G155_E22	G136 tanh classification	REPRESENTATION_CONSTRAINT	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The theorem classifies a position representation, not kappa.
+G155_E23	G137 position-Xmax join	CALIBRATION_OR_WORKING_FRAME	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The adopted chart contains no common-scale equation.
+G155_E24	G138 position network descent	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Descent tests edge coherence and is kappa-blind.
+G155_E25	G139 endpoint/path join	QUERY_EVOLUTION	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Transport evolves a state on a supplied history, not the metric common scale.
+G155_E26	G140 positional congruence	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The congruence condition is not an equation selecting among all smooth metrics.
+G155_E27	G141 endpoint transition	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Transition closure carries scale but does not set it.
+G155_E28	G142 carrier carry	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The carry problem types comparison data; it does not propagate kappa.
+G155_E29	G143 single-domain carry	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Local carry is a descent identity.
+G155_E30	G144 cross-query carry	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Cross-query consistency does not select the common-scale field.
+G155_E31	G145 network-history equivalence	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Equivalence is reconstructive and explicitly leaves physical history open.
+G155_E32	G146 multidirectional position	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	No evolution law or unique composition is generated.
+G155_E33	G147 directional screen identity	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The relation is an identity once the query and split are supplied.
+G155_E34	G148 pair first-jet decomposition	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	It reads first jets and does not prescribe their amplitudes.
+G155_E35	G149 spacetime witness	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Existence of a witness is not selection of its history.
+G155_E36	G150 first-order freedom ceiling	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Surjectivity rules out an algebraic first-order selector in the bounded arena.
+G155_E37	G151 deviation join	QUERY_EVOLUTION	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Jacobi principal rank belongs to the query field, not to kappa or g.
+G155_E38	G152 variational chord ownership	NETWORK_ADMISSIBILITY	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	They do not universally restrict the ambient metric history.
+G155_E39	G153 ruler differential	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Its value changes under common rescaling but no value is imposed.
+G155_E40	G154 asymptotic response	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	The counterfamily passes current identities and leaves the response class open.
+G155_E41	G154 external adjudication	DEFINITION_OR_EVALUATOR	EXCLUDED_BY_PREREGISTERED_ROLE	False	0	Network reconstruction remains compatible with every regular conformal twin.
+C01	G155 frozen 41-source ledger	Any active physical-history condition through G154	META_CENSUS	False	0	The frozen ledger is evidence, not a metric equation.
+C02	G156 pair half-density	The metric supplies a positive half-density section	DEFINITION_OR_EVALUATOR	False	0	Half-density is computed from supplied h.
+C03	G156 supplied scale character	A typed carry has one-half log absolute determinant character	SUPPLIED_CARRY_CHARACTER	False	0	The physical cross-query carry is open.
+C04	G156 flat carry subfamilies	Chart rechart genuine overlap and Levi-Civita carry are scale-flat	CONDITIONAL_FLAT_SUBFAMILIES	False	0	Chart, overlap, and Levi-Civita carries do not own physical nonisometric carry.
+C05	G157 base semidirect composition	Common reciprocal and shift coordinates compose exactly	REPRESENTATION_CONSTRAINT	False	0	Semidirect composition does not assign metric values.
+C06	G158 complete semidirect score	The gauge-fixed ten-channel coframe group and supplied score close	REPRESENTATION_AND_EVALUATOR	False	0	The score differentiates a supplied coframe history.
+C07	G159 terminal first-jet descent	Complete score and live query motion descend to h and dot h	DEFINITION_OR_EVALUATOR	False	0	Terminal descent reads supplied first jets.
+C08	G160 three-observer first-jet carry	Supplied GLplus2 carry and rates compose	NETWORK_ADMISSIBILITY	False	0	Three-observer composition assumes supplied carries.
+C09	G161 Lorentz quotient	The regular metric-pair quotient has a positive section	PRESENTATION_QUOTIENT	False	0	The positive section removes gauge scaffolding only.
+C10	G162 rapidity census	Residual rapidity is absent from the scalar gate	DEPENDENCY_CLASSIFICATION	False	0	Rapidity absence does not restrict common scale.
+C11	G163 Xmax dependency reversal	The native scalar kernel is X-free	DEPENDENCY_CLASSIFICATION	False	0	X-free kernel closure is common-scale blind.
+C12	G164 scaffold whiteboard	A relative-scale or global-admissibility restriction may be sufficient	OPEN_PROPOSAL	False	0	G164 is a ponder lead, not an active restriction.
+C13	G129 rank-complete faithfulness	Complete supplied pair pullbacks reconstruct g	VALUED_NETWORK_RECONSTRUCTION	False	0	Complete pullback values already contain g.
+C14	G145 relation-network equivalence	A compatible rank-complete valued atlas is equivalent to one g	VALUED_NETWORK_RECONSTRUCTION	False	0	Equivalence decodes supplied values.
+C15	observed c_E and G_obs	Calibration anchors restrict the absolute metric scale	CALIBRATION_WITHOUT_BRIDGE	False	0	c_E and G_obs leave one dimensional direction and no metric equation.
+C16	normalized reciprocal and causal data	chi pair c_eff ratio and positive causal structure restrict common scale	CONFORMAL_INVARIANT_READOUT	False	0	Response and cones are conformally invariant.
+C17	unvalued co-presence incidence	Global observer incidence restricts common scale	UNVALUED_INCIDENCE	False	0	Incidence contains no scale valuation.
+C18	finite anchor neighborhoods	Finite observed calibration loci determine the whole conformal function	FINITE_ANCHOR_DATA	False	0	A compact smooth bump can vanish on every finite anchor neighborhood.

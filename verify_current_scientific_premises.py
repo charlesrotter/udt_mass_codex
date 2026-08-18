@@ -191,6 +191,7 @@ def validate_startup_surface(root: Path) -> None:
             "G161",
             "G162",
             "G163",
+            "G165",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -228,7 +229,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "150-row exact registry",
+            "151-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -277,6 +278,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/",
             "udt_g162_lambda_dependence_frontier_census_2026-08-18/",
             "udt_g163_xmax_dependency_reversal_audit_2026-08-18/",
+            "udt_g165_conformal_fiber_rank_audit_2026-08-18/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -311,6 +313,7 @@ def validate_startup_surface(root: Path) -> None:
             "G161",
             "G162",
             "G163",
+            "G165",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -344,6 +347,7 @@ def validate_startup_surface(root: Path) -> None:
             "G161",
             "G162",
             "G163",
+            "G165",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -379,10 +383,11 @@ def validate_startup_surface(root: Path) -> None:
             "G161",
             "G162",
             "G163",
+            "G165",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "150-row",
+            "151-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -641,9 +646,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 150, "premise registry must contain exactly 150 rows")
+    require(len(rows) == 151, "premise registry must contain exactly 151 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 150, "duplicate premise id")
+    require(len(by_id) == 151, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3612,6 +3617,38 @@ def main() -> None:
         == "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
         "G163 source changed",
     )
+    require(
+        by_id["G165"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__PREREGISTERED__19_SOURCE_FREEZE__59_ROW_CENSUS__NO_ACTIVE_SOURCE_OWNED_METRIC_RESTRICTOR"
+        ),
+        "G165 conformal-fiber landing regressed or promoted",
+    )
+    require(by_id["G165"]["epistemic_label"] == "MIXED", "G165 label changed")
+    for open_item in (
+        "future native relative-scale carry global admissibility",
+        "physical query and relation domain",
+        "finite-moduli theorem and lawful observational calibration bridge",
+        "scale holonomy and singular null cut topology-changing strata",
+        "proper distance numerical Xmax",
+    ):
+        require(open_item in by_id["G165"]["open_scope"], f"G165 open boundary absent: {open_item}")
+    for guard in (
+        "proof that no future native UDT scale law exists",
+        "common scale called gauge",
+        "evaluator reconstruction metricity Cartan Bianchi overlap composition or supplied carry promoted to a metric law",
+        "full valued network called finite-anchor prediction",
+        "c_E and G_obs alone called a length",
+        "finite anchors called sufficient for an arbitrary function",
+        "compact bump called physical UDT",
+        "conventional evolution equation called uniquely necessary",
+        "protected work inserted",
+    ):
+        require(guard in by_id["G165"]["forbidden_regression"], f"G165 guard absent: {guard}")
+    require(
+        by_id["G165"]["controlling_source"]
+        == "udt_g165_conformal_fiber_rank_audit_2026-08-18/AUDIT_REPORT.md",
+        "G165 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3690,7 +3727,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G163-extended premise guards; PASS: 150-row premise "
+        "PASS: G165-extended premise guards; PASS: 151-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

@@ -23,10 +23,9 @@ Dependency spine:
   `dchi`; G154 fixed scale conditional; G155 scale rank zero; G156 carry; G157 balance; G158 score;
   G159 descent; G160 time-live carry; G161 quotient; G162 rapidity removal; G163 removes `X_max`
   from the native kernel and retypes dimensional descendants.
-- G164 (`PONDER_LEAD`): the local kernel has no extra profile, and the ten-channel arena is
-  presentation plus query plus one metric rather than ten independent histories. Co-presence
-  reconstructs but does not value that metric; current finite anchors leave functional conformal
-  freedom unless a native restriction first reduces it to finite moduli.
+- G164--G165: no extra local profile or ten independent histories. The 59-row census finds no owned
+  metric restrictor; finite anchors retain functional conformal freedom, while valued networks
+  reconstruct only supplied scale.
 
 Valuation, query, metric separation, completion, and `X_max` remain open.
 
@@ -55,9 +54,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Preregister the conformal-fiber rank test: ask which owned global conditions actually restrict
-positive conformal metric variations rather than merely evaluate or reconstruct supplied data.
-Do not insert `X_max`, a fit, preferred flag/path, or desired response class. Keep proper length,
-dynamics, numerical `X_max`, and completion open.
+Choose the relational-state versus finite-data prediction architecture before another solve. Do not
+repeat identity audits or insert `X_max`, fits, preferred paths, or target responses.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

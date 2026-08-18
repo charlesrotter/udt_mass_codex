@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "exact_rational_trials": 1200,
+  "independent_census": {
+    "g155_rows": 41,
+    "g155_active_physical_restrictors": 0,
+    "g156_open_owner_rows_checked": 2,
+    "post_g156_report_guards": 8
+  },
+  "primary_landing": "NO_OWNED_NONIDENTITY_CONDITION"
+}
