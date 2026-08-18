@@ -1,6 +1,5 @@
-# INDEX — current repository map
-
-`LIVE.md` alone controls current status. This index routes evidence.
+# INDEX — map
+`LIVE.md` controls current status. This index routes evidence.
 ## Startup
 
 1. Follow `AGENTS.md` synchronization and bounded-read rules.
@@ -10,7 +9,6 @@
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only task-triggered `.claude/skills/*/SKILL.md` files.
 6. Read `INDEX.md` and `MEMORY.md` as compact pointers, then stop and give the orientation report.
 7. After orientation, query only task-relevant registry rows and evidence.
-
 ## Current relational-geometry frontier
 
 - Complete-pair evaluator:
@@ -42,7 +40,8 @@
   `udt_g160_three_observer_timelive_first_jet_carry_2026-08-18/`;
   `udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/`;
   `udt_g162_lambda_dependence_frontier_census_2026-08-18/`;
-  `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
+  `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`;
+  `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`
 The chain runs evaluator → metric faithfulness → bounded position → carry → chord → curvature →
 scale balance. Area data encode `g`; supplied pairs own working `chi=tanh(phi_pair)`, not metric
 values or `X_max`. G140--G145 separate congruence, carry, and reconstruction.
@@ -54,7 +53,9 @@ quotient and its unique regular positive-triangular section. G162 removes residu
 conditional flag from the scalar-kernel gate while preserving supplied route/frame memory as a
 separate channel. G163 closes the X-free scalar kernel at `chi=tanh(phi_pair)`, regrades
 dimensionful descendants as conditional, and makes `X_max` a global-completion consequence target
-rather than a kernel input. Physical carry/complete realization remain open.
+rather than a kernel input. G164 provisionally removes the missing-local-profile and ten-independent-
+melodies scaffolds, while its conformal counterfamily leaves metric valuation function-valued.
+Physical carry/complete realization remain open.
 ## Durable prerequisites
 
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -89,6 +90,7 @@ feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
   `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding metric orientation: `SIMPLE_METRIC_MACRO.md`
 - Current `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
+- Current scaffold/anchor ponder: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
 

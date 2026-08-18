@@ -8,7 +8,8 @@ Date: 2026-08-18
 UDT has a conditional pair evaluator, faithful metric reconstruction, working bounded normalized position,
 exact chord identities, an exact variable-balance complete-coframe transition, an exact regular
 Lorentz quotient, and a residual-rapidity-independent scalar kernel; physical multidirectional carrier,
-route carry, and physical score/history remain open.
+route carry, and physical metric valuation remain open. G164 provisionally reframes the ten-channel
+arena as presentation plus query plus one metric, not ten independently selected histories.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -99,13 +100,15 @@ normal transport remains separate. G162 removes rapidity from the scalar gate wh
 kernel without `X_max`, preserves Xmax-independent G135--G154 theorems, and retypes dimensionful
 descendants. Its zero X column is structural; the 26-source census finds no independent owner.
 
-## Durable prerequisites
+### G164 — scaffold subtraction and anchor sufficiency (`PONDER_LEAD`)
 
-- Pair-first reconstruction: a supplied pair immersion owns its tangent plane and positive screen.
-- Pair-terminal reachability: bounded pointwise terminal atlas, not history selection.
-- Chord-network descent: endpoint ratios compose on one supplied calibration family.
-- Finite-radius screen theorem: `D_sky=R O`, `|det D_sky|=R^2` on its regular branch.
-- Operational frequency junction: depth and source frequency agree only on its stated reduction.
+The local scalar kernel needs no additional response profile after a supplied complete pair metric
+fixes `chi`. Global co-presence and rank-complete descent reconstruct one coherent metric, but do not
+assign its values. The present `chi`, causal, incidence, `c_E`, and `G_obs` data admit arbitrary
+positive conformal variations away from finite anchor loci. A conventional evolution equation is
+not logically mandatory; any native nonidentity relative-scale or global-admissibility condition
+could suffice if it reduces the quotient family to finite moduli. This is an exploratory reframe,
+not a preregistered derivation.
 
 ## Observational anchors
 
@@ -129,18 +132,18 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Which metric-owned separation, if any, can be defined without `X_max` and joined to normalized
-   `chi` on the completed physical relation domain?
+1. Do any currently owned global conditions have nonzero differential rank on positive conformal
+   variations, or do they only reconstruct/evaluate a supplied valued metric?
 2. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
-3. Does complete time-live/global metric structure constrain numerical relation values beyond the
-   compatibility identities, or are initial/boundary/observational data required?
+3. If relative scale descends to finite moduli, which lawful observational datum calibrates the
+   residue; if it stays function-valued, what native global restriction is actually owned?
 4. Does a completed realization prove a finite all-frame supremum that may then be named `X_max`,
    and what fixes regime strengths and radiative/source structure?
 
 ## Bounded next action
 
-G163 closes the scaffold-free quotient-native scalar kernel at `chi`. Next map candidate
-metric-owned separations and completion semantics without defining them through `X_max`. Do not run
-another flag-selection or compatibility-identity census, and do not assume a finite supremum,
-physical query, carry, complete metric realization, evolution, or fit.
+G164 narrows the question to relative-scale rank. Preregister and run the conformal-fiber rank test
+against every currently owned nonidentity global condition. Exclude evaluators, identities,
+full-valued supplied networks, `X_max`, desired response classes, fits, and preferred flags/paths
+from the candidate-selector set.
