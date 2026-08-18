@@ -1,0 +1,57 @@
+{
+  "algebra_mutation_count": 4,
+  "catch_count": 12,
+  "caught": [
+    {
+      "caught": true,
+      "name": "move_Lambda_outside_endpoint_factorization"
+    },
+    {
+      "caught": true,
+      "name": "erase_joined_route_transition"
+    },
+    {
+      "caught": true,
+      "name": "promote_endpoint_rebuild_to_actual_flat_overlap"
+    },
+    {
+      "caught": true,
+      "name": "claim_Lambda_changes_determinant_character"
+    },
+    {
+      "caught": true,
+      "name": "claim_scalar_kernel_retains_Lambda"
+    },
+    {
+      "caught": true,
+      "name": "promote_calibration_section_to_physical_path"
+    },
+    {
+      "caught": true,
+      "name": "erase_C_and_Gamma_route_channel"
+    },
+    {
+      "caught": true,
+      "name": "claim_every_active_object_is_Lambda_invariant"
+    },
+    {
+      "caught": true,
+      "name": "collapse_normal_Jacobi_extrinsic_channels_into_Lambda"
+    },
+    {
+      "caught": true,
+      "name": "retain_rapidity_selector_as_scalar_kernel_gate"
+    },
+    {
+      "caught": true,
+      "name": "promote_census_to_history_law"
+    },
+    {
+      "caught": true,
+      "name": "promote_census_to_query_path_carry_law"
+    }
+  ],
+  "metadata_guard_mutation_count": 8,
+  "metadata_guards_are_independent_semantic_proofs": false,
+  "status": "PASS"
+}

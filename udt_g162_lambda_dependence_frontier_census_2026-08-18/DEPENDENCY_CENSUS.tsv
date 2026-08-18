@@ -1,0 +1,23 @@
+id	object	class	reason	source
+D01	complete_pair_metric_h	QUOTIENT_OWNED__LAMBDA_INVARIANT	M^T h_B M=h_A cancels every Lambda in SOplus(1,1)	S01,S09,S11
+D02	pair_first_jet_h_doth	QUOTIENT_OWNED__LAMBDA_INVARIANT	differentiate the exact metric identity for arbitrary live Lambda	S01,S09,S10,S11
+D03	terminal_T_L_beta	QUOTIENT_OWNED__LAMBDA_INVARIANT	unique calibrated functions of h	S01,S09,S11,S12
+D04	terminal_kappa_phi_and_rates	QUOTIENT_OWNED__LAMBDA_INVARIANT	functions of h,doth in the supplied calibrated chart	S01,S09,S10
+D05	conditional_pair_c_eff_over_c_E	QUOTIENT_OWNED__LAMBDA_INVARIANT	equals exp(-2 phi_pair) from h	S01,S09
+D06	working_pair_position_chi_tanh_phi	QUOTIENT_OWNED__LAMBDA_INVARIANT	depends on terminal phi and supplied Xmax only	S02,S04
+D07	pair_position_differential_and_metric_frame_response	QUOTIENT_OWNED__LAMBDA_INVARIANT	depends on quotient history derivatives, not vertical rapidity	S04,S05
+D08	pair_volume_density_and_positive_half_density	QUOTIENT_OWNED__LAMBDA_INVARIANT	sqrt(-det h)=TL and fourth-root sqrt(TL) both factor through h	S06
+D09	joined_sigma_and_raw_carry_determinant_grading	QUOTIENT_OWNED__LAMBDA_INVARIANT	C=Lambda makes joined sigma zero; half log det M=kappa_A-kappa_B	S06,S10
+D10	canonical_endpoint_calibration_carry_Mcal	CANONICAL_ENDPOINT_SECTION__LAMBDA_SET_TO_IDENTITY_BY_REBUILD	R_B^-1 R_A is exact and composable but has joined Lambda=I	S07,S11
+D11	general_compatible_pair_carry_M	SUPPLIED_ROUTE_FRAME_CHANNEL__LAMBDA_SENSITIVE	M=R_B^-1 Lambda R_A retains supplied rapidity	S10,S11
+D12	supplied_carry_right_rate_K_BA	SUPPLIED_ROUTE_FRAME_CHANNEL__LAMBDA_SENSITIVE	K=dot M M^-1 retains supplied endpoint and Lambda-rate data	S10
+D13	metric_symmetric_skew_rate_split_S_h_A_h	REPRESENTATIVE_COFRAME_GAUGE_CHANNEL__NOT_A_QUOTIENT_OBSERVABLE	presentation split; only the complete carried first jet is covariant	S10
+D14	joined_transition_C	SUPPLIED_ROUTE_FRAME_CHANNEL__LAMBDA_SENSITIVE	C=R_B M R_A^-1=Lambda is endpoint-gauge invariant	S10
+D15	joined_rate_Gamma	SUPPLIED_ROUTE_FRAME_CHANNEL__LAMBDA_SENSITIVE	Gamma=dot Lambda Lambda^-1 retains rapidity rate	S10
+D16	three_observer_defect_F_and_rate_K_F	SUPPLIED_ROUTE_FRAME_CHANNEL__LAMBDA_SENSITIVE	finite and first-order route closure retain supplied carry data	S10
+D17	complete_coframe_score_components	REPRESENTATIVE_COFRAME_GAUGE_CHANNEL__NOT_A_QUOTIENT_OBSERVABLE	upstream representative data transform inhomogeneously; only h,doth descend	S08,S09
+D18	normal_and_screen_holonomy_Ugamma	INDEPENDENT_PATH_OR_EXTRINSIC_CHANNEL__NOT_REDUCIBLE_TO_TANGENT_LAMBDA	separate path-labelled SO(2) channel, not tangent SOplus(1,1)	S13
+D19	Jacobi_and_ambient_transport	INDEPENDENT_PATH_OR_EXTRINSIC_CHANNEL__NOT_REDUCIBLE_TO_TANGENT_LAMBDA	query/congruence/path-labelled channels	S03,S12
+D20	II_CII_and_conditional_eigenflag	INDEPENDENT_PATH_OR_EXTRINSIC_CHANNEL__NOT_REDUCIBLE_TO_TANGENT_LAMBDA	immersion-owned extrinsic data; flag covariant but not scalar-kernel input	S11,S12
+D21	physical_selection_or_evolution_of_B_Q_S_Y_Z_kappa_histories	HISTORY_VALUE_OR_EVOLUTION_OPEN__CENSUS_DOES_NOT_SELECT	supplied kappa is D04; census selects no physical values or evolution	S01,S05,S08
+D22	physical_query_path_carry_Xmax_and_completion	HISTORY_VALUE_OR_EVOLUTION_OPEN__CENSUS_DOES_NOT_SELECT	not owned by residual-Lorentz factorization	S02,S05,S10,S11,S12

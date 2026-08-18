@@ -189,6 +189,7 @@ def validate_startup_surface(root: Path) -> None:
             "G159",
             "G160",
             "G161",
+            "G162",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -226,7 +227,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "148-row exact registry",
+            "149-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -272,6 +273,8 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g158_complete_coframe_semidirect_score_audit_2026-08-18/",
             "udt_g159_complete_score_terminal_descent_2026-08-18/",
             "udt_g160_three_observer_timelive_first_jet_carry_2026-08-18/",
+            "udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/",
+            "udt_g162_lambda_dependence_frontier_census_2026-08-18/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -304,6 +307,7 @@ def validate_startup_surface(root: Path) -> None:
             "G159",
             "G160",
             "G161",
+            "G162",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -335,6 +339,7 @@ def validate_startup_surface(root: Path) -> None:
             "G159",
             "G160",
             "G161",
+            "G162",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -368,10 +373,11 @@ def validate_startup_surface(root: Path) -> None:
             "G159",
             "G160",
             "G161",
+            "G162",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "148-row",
+            "149-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -630,9 +636,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 148, "premise registry must contain exactly 148 rows")
+    require(len(rows) == 149, "premise registry must contain exactly 149 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 148, "duplicate premise id")
+    require(len(by_id) == 149, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3529,6 +3535,39 @@ def main() -> None:
         == "udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/AUDIT_REPORT.md",
         "G161 source changed",
     )
+    require(
+        by_id["G162"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__ORIGINAL_TYPE_FAILURE_AND_FIRST_REPAIR_FAILURE_PRESERVED__FRESH_ADVERSARIAL_SECOND_REPAIR_PASS__PREREGISTERED_POST_COMMIT_FINAL_RERUN__INDEPENDENT_FRACTION_DUAL_AND_SOURCE_CROSSWALK_PASS__BOUNDED_SCALAR_RECIPROCAL_KERNEL_AND_FIRST_JET_LAMBDA_INVARIANT"
+        ),
+        "G162 bounded status regressed or promoted",
+    )
+    require(by_id["G162"]["epistemic_label"] == "MIXED", "G162 label changed")
+    for open_item in (
+        "physical query path carry and complete relation assignment",
+        "physical values and evolution of B Q S Y Z and kappa",
+        "ownership of route Lambda C Gamma and carry defects",
+        "relation among normal holonomy Jacobi ambient and extrinsic channels",
+        "null past-clock degenerate cut topology-changing and global-completion strata",
+        "Xmax value profile and completion",
+    ):
+        require(open_item in by_id["G162"]["open_scope"], f"G162 open boundary absent: {open_item}")
+    for guard in (
+        "original type failure or first repair failure erased",
+        "volume density conflated with half-density",
+        "joined sigma conflated with raw half-log determinant grading",
+        "complete-coframe score called path or extrinsic data",
+        "canonical endpoint section called physical overlap path or carry",
+        "residual rapidity reintroduced as a scalar-kernel input",
+        "supplied C Gamma carry defects or route memory erased",
+        "normal Jacobi ambient and extrinsic channels collapsed into tangent Lambda",
+        "bounded regular result promoted to history selection global completion Xmax dynamics or prediction",
+    ):
+        require(guard in by_id["G162"]["forbidden_regression"], f"G162 guard absent: {guard}")
+    require(
+        by_id["G162"]["controlling_source"]
+        == "udt_g162_lambda_dependence_frontier_census_2026-08-18/AUDIT_REPORT.md",
+        "G162 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3607,7 +3646,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G161-extended premise guards; PASS: 148-row premise "
+        "PASS: G162-extended premise guards; PASS: 149-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

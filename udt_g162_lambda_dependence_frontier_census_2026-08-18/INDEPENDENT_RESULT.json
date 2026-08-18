@@ -1,0 +1,33 @@
+{
+  "all_active_objects_lambda_invariant": false,
+  "canonical_endpoint_section_exact_and_composable": true,
+  "canonical_endpoint_section_is_physical_overlap_or_path": false,
+  "canonical_section_trials": 900,
+  "census_rows": 22,
+  "class_counts": {
+    "CANONICAL_ENDPOINT_SECTION__LAMBDA_SET_TO_IDENTITY_BY_REBUILD": 1,
+    "HISTORY_VALUE_OR_EVOLUTION_OPEN__CENSUS_DOES_NOT_SELECT": 2,
+    "INDEPENDENT_PATH_OR_EXTRINSIC_CHANNEL__NOT_REDUCIBLE_TO_TANGENT_LAMBDA": 3,
+    "QUOTIENT_OWNED__LAMBDA_INVARIANT": 9,
+    "REPRESENTATIVE_COFRAME_GAUGE_CHANNEL__NOT_A_QUOTIENT_OBSERVABLE": 2,
+    "SUPPLIED_ROUTE_FRAME_CHANNEL__LAMBDA_SENSITIVE": 5
+  },
+  "fraction_dual_trials": 900,
+  "general_factorization_trials": 900,
+  "independent_expected_object_inventory_rows": 22,
+  "joined_C_Gamma_lambda_sensitive": true,
+  "landing": "BOUNDED_SCALAR_RECIPROCAL_KERNEL_IS_RESIDUAL_LORENTZ_INVARIANT__UNIQUE_POSITIVE_ENDPOINT_ROOTS_GIVE_EXACT_FLAT_CALIBRATION_CARRY__GENERAL_COMPATIBLE_CARRY_FACTORS_AS_RB_INVERSE_LAMBDA_RA__JOINED_C_AND_GAMMA_RETAIN_SUPPLIED_ROUTE_FRAME_RAPIDITY__NORMAL_HOLONOMY_JACOBI_AND_EXTRINSIC_CHANNELS_REMAIN_SEPARATELY_TYPED__RAPIDITY_SELECTION_RETIRED_AS_SCALAR_KERNEL_GATE_ONLY__PHYSICAL_HISTORY_QUERY_PATH_CARRY_XMAX_AND_COMPLETION_OPEN",
+  "live_first_jet_trials": 900,
+  "metric_rate_split_trials": 900,
+  "normal_jacobi_extrinsic_channels_reduced_to_tangent_lambda": false,
+  "physical_history_derived": false,
+  "physical_query_path_carry_derived": false,
+  "rapidity_selection_remains_scalar_kernel_gate": false,
+  "registered_outcome_class": "SECOND_REPAIR_SCALAR_KERNEL_DESCENDS_TO_QUOTIENT__CANONICAL_ENDPOINT_CARRY_EXACT__JOINED_ROUTE_FRAME_CHANNEL_RETAINS_LAMBDA__HISTORY_GAP_UNCHANGED",
+  "reverse_factorization_trials": 900,
+  "scalar_kernel_lambda_invariant": true,
+  "source_count": 13,
+  "source_object_crosswalk_rows": 13,
+  "status": "PASS",
+  "three_observer_composition_trials": 900
+}

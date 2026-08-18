@@ -7,8 +7,9 @@ Authority: active dependency spine; not canonization
 ## Program picture
 
 UDT has a conditional pair evaluator, faithful metric reconstruction, working bounded position,
-exact chord identities, an exact variable-balance complete-coframe transition, and an exact regular
-Lorentz quotient of pair carry; physical multidirectional carrier and physical score/history remain open.
+exact chord identities, an exact variable-balance complete-coframe transition, an exact regular
+Lorentz quotient, and a residual-rapidity-independent scalar kernel; physical multidirectional carrier,
+route carry, and physical score/history remain open.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -87,7 +88,7 @@ At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega
 `R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
 those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
 
-### G151--G161 — curvature, score, carry, and quotient
+### G151--G162 — curvature, score, carry, quotient, and dependency frontier
 
 G151 joins chord change to curvature/Jacobi structure; G152 keeps ruler equality query-owned.
 G153 derives the live position differential without making position proper length. G154 exhibits
@@ -97,6 +98,11 @@ gauge-fixed `3+3+4` score, and G159 descends it to `(h,dot h)`. G160 carries tha
 but cannot see Lorentz stabilizers. G161 classifies the exact left quotient and unique positive
 section. Sweeps fix quotient paths, not vertical rapidity. Normal transport is insufficient;
 simple extrinsic `C_II` spectrum conditionally supplies a causal flag on a supplied immersion.
+G162 then classifies the active dependency frontier: the bounded scalar kernel and first jet are
+independent of residual tangent rapidity; the exact endpoint section is calibration rather than a
+physical overlap; supplied joined `C,Gamma` retain route/frame memory; and normal, Jacobi, ambient,
+and extrinsic channels remain separately typed. Rapidity/eigenflag selection is therefore retired
+as a scalar-kernel gate, while the history gap is unchanged.
 
 ## Durable prerequisites
 
@@ -129,16 +135,18 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Where G161's conditional extrinsic eigenflag exists, does it descend and compose consistently
-   across supplied overlapping pair immersions, and what happens at eigen-crossings?
-2. How are oriented screens carried across pair queries and compared with `U_gamma`?
+1. What is the minimal quotient-native statement of the complete scalar kernel once unneeded
+   tangent rapidity/eigenflag scaffolding is removed?
+2. When a route/frame observable is actually requested, what supplied overlap or path owns its
+   `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
 4. What fixes `X_max`, regime strengths, radiative/source structure, and global completion?
 
 ## Bounded next action
 
-G161 closes the regular carry quotient and identifies a conditional extrinsic flag. Next test that
-flag's overlap and three-observer composition on supplied simple-spectrum pair immersions, without
-assuming it selects the physical query, carry, history, evolution, or fit.
+G162 closes the residual-Lorentz dependency census. Next consolidate the scaffold-free
+quotient-native kernel and explicitly isolate the remaining history/value joint. Do not run another
+flag-selection or compatibility-identity census, and do not assume a physical query, carry,
+history, evolution, or fit.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

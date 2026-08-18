@@ -1,0 +1,41 @@
+{
+  "all_active_objects_lambda_invariant": false,
+  "canonical_endpoint_section_exact_and_composable": true,
+  "canonical_endpoint_section_is_physical_overlap_or_path": false,
+  "census_rows": 22,
+  "class_counts": {
+    "CANONICAL_ENDPOINT_SECTION__LAMBDA_SET_TO_IDENTITY_BY_REBUILD": 1,
+    "HISTORY_VALUE_OR_EVOLUTION_OPEN__CENSUS_DOES_NOT_SELECT": 2,
+    "INDEPENDENT_PATH_OR_EXTRINSIC_CHANNEL__NOT_REDUCIBLE_TO_TANGENT_LAMBDA": 3,
+    "QUOTIENT_OWNED__LAMBDA_INVARIANT": 9,
+    "REPRESENTATIVE_COFRAME_GAUGE_CHANNEL__NOT_A_QUOTIENT_OBSERVABLE": 2,
+    "SUPPLIED_ROUTE_FRAME_CHANNEL__LAMBDA_SENSITIVE": 5
+  },
+  "exact_check_names": [
+    "residual_factor_is_proper_orthochronous_lorentz",
+    "general_compatible_carry_factorization_and_joined_transition",
+    "compatible_carry_implies_joined_lorentz_factor_reverse_direction",
+    "canonical_endpoint_section_is_metric_compatible_and_joined_identity",
+    "canonical_endpoint_section_three_observer_composition",
+    "general_joined_transition_three_observer_composition",
+    "terminal_kappa_phi_beta_ceff_and_position_lambda_invariant",
+    "half_density_and_determinant_scale_character_lambda_invariant",
+    "pair_metric_and_first_jet_lambda_invariant_for_live_sweep",
+    "metric_self_adjoint_skew_rate_split_typed_exactly",
+    "joined_C_and_Gamma_retain_live_rapidity_while_section_is_flat",
+    "equal_endpoint_metrics_do_not_determine_actual_overlap_boost",
+    "extrinsic_CII_is_conjugacy_covariant_not_tangent_scalar",
+    "twenty_two_object_dependency_census_matches_repaired_inventory"
+  ],
+  "exact_checks": 14,
+  "joined_C_Gamma_lambda_sensitive": true,
+  "landing": "BOUNDED_SCALAR_RECIPROCAL_KERNEL_IS_RESIDUAL_LORENTZ_INVARIANT__UNIQUE_POSITIVE_ENDPOINT_ROOTS_GIVE_EXACT_FLAT_CALIBRATION_CARRY__GENERAL_COMPATIBLE_CARRY_FACTORS_AS_RB_INVERSE_LAMBDA_RA__JOINED_C_AND_GAMMA_RETAIN_SUPPLIED_ROUTE_FRAME_RAPIDITY__NORMAL_HOLONOMY_JACOBI_AND_EXTRINSIC_CHANNELS_REMAIN_SEPARATELY_TYPED__RAPIDITY_SELECTION_RETIRED_AS_SCALAR_KERNEL_GATE_ONLY__PHYSICAL_HISTORY_QUERY_PATH_CARRY_XMAX_AND_COMPLETION_OPEN",
+  "normal_jacobi_extrinsic_channels_reduced_to_tangent_lambda": false,
+  "physical_history_derived": false,
+  "physical_query_path_carry_derived": false,
+  "rapidity_selection_remains_scalar_kernel_gate": false,
+  "registered_outcome_class": "SECOND_REPAIR_SCALAR_KERNEL_DESCENDS_TO_QUOTIENT__CANONICAL_ENDPOINT_CARRY_EXACT__JOINED_ROUTE_FRAME_CHANNEL_RETAINS_LAMBDA__HISTORY_GAP_UNCHANGED",
+  "scalar_kernel_lambda_invariant": true,
+  "source_count": 13,
+  "status": "PASS"
+}

@@ -2,16 +2,16 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-Read `LIVE.md` first. It wins every disagreement.
+Read `LIVE.md` first. It wins.
 
 ## Resume anchor — 2026-08-18
 
 ### Current theory state
 
-The covariant evaluator forms a supplied pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and
-conditional `c_eff/c_E`. It selects neither values nor history.
+The evaluator forms a pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and
+conditional `c_eff/c_E`; it selects neither values nor history.
 
-The dependency chain is:
+Dependency chain:
 
 1. G129--G134: rank ten pullbacks, density, and bivector area bilinear recover `g`; scalars stop at its conformal class.
    Common scale is retained; the codimension eleven metricity locus is not evolution.
@@ -24,7 +24,7 @@ The dependency chain is:
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
 6. G148: its chosen first jet splits into radial, screen-turn, and rest-space-tilt pieces.
    `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149--G161: G149 realizes one chord; G150 makes four notes locally. G151
+7. G149--G162: G149 realizes one covariant chord; G150 makes four notes locally. G151
    joins chord change to curvature. A connecting family restricts the notes and conditionally gives
    Jacobi deviation. G152 classifies immersion/ruler equality and carry. G153 shows finite pair
    position is not proper length and derives its exact time-live metric-frame differential. G154
@@ -33,13 +33,13 @@ The dependency chain is:
    G155 finds no common-scale history equation. G156 derives conditional scale carry. G157 removes
    base lockstep. G158 derives the `3+3+4` score; G159 descends it to `(h,dot h)`. G160 derives its
    supplied time-live carry. G161 classifies its exact left Lorentz quotient and unique positive
-   section. Sweeps miss vertical rapidity; only simple extrinsic spectrum conditionally fixes a
-   flag. Physical carry and history remain open.
+   section. G162 proves the scalar kernel ignores surviving rapidity, retiring rapidity/eigenflag
+   selection as its gate. Supplied joined route/frame data retain rapidity. Carry and history stay open.
 
 The position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
-After orientation, open `udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/AUDIT_REPORT.md`
+After orientation, open `udt_g162_lambda_dependence_frontier_census_2026-08-18/AUDIT_REPORT.md`
 only when load-bearing. Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 For G93--G128 provenance use `INDEX.md` or
@@ -85,8 +85,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G161 closes the regular Lorentz quotient. Next test whether its conditional extrinsic eigenflag
-descends and composes across supplied overlapping pair immersions. No physical selector, fit, or
-evolution law is authorized.
+G162 closes the rapidity census. Consolidate the quotient-native kernel and re-state the
+history joint; do not reopen flag selection or infer a selector, fit, or evolution law.
 
 <!-- STARTUP_CURRENT_END -->

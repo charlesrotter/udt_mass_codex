@@ -1,30 +1,30 @@
 # Scientific premise index
 
-`LIVE.md` and the TSV own status; this guide is not `CANON.md`. On conflict, stop.
+`LIVE.md` and TSV own status; this is not `CANON.md`. On conflict, stop.
 ## Foundational relation
 
 | Object | Current status | What is owned | What remains open |
 |---|---|---|---|
 | `c_E`, `G_obs` | `OBSERVED` | Calibration anchors | Native placement and absolute closure |
 | Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))` on supplied ordered depth | Complete observer/event/path-to-`delta` owner |
-| Pointwise `phi` | `CONDITIONAL` presentation potential | Local factorized representation | Universal physical scalar ownership |
-| Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric reciprocal imbalance | Physical pair map and mixed-geometry identification |
-| Complete pair orchestra | `DERIVED` conditional | Angular, screen, mixing precede terminal readout | History and global relation family |
+| Pointwise `phi` | `CONDITIONAL` potential | Local factorization | Universal physical scalar ownership |
+| Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map and mixed-geometry identification |
+| Complete pair orchestra | `DERIVED` conditional | Angular/screen/mixing precede readout | History and global relation family |
 | Pair `c_eff` | `CONDITIONAL` observer-frame readout | Calibrated terminal ratio | Universal owner and local signal interpretation |
 | Pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `x/X_max=tanh(phi_pair)` in congruent families | Family, `X_max`, proper length, history |
-| Co-presence | `WORKING` semantics | Co-membership in one solution | Query population, valuation, signalling, or selection law |
+| Co-presence | `WORKING` | Co-membership in one solution | Query population, valuation, signalling, selection law |
 
 ## Current reconstruction hierarchy
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
-| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | `B,Q,S,Y,Z` pullback and terminal readout |
+| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | `B,Q,S,Y,Z` pullback/readout |
 | G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks recover `g`; scalars stop at positive conformal class |
-| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Provisional position; chart/overlap owns carry; endpoints do not glue sheets |
-| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Pullbacks determine `g` on a supplied 4D atlas; query and realization open |
-| G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections nonunique; screen identity conditional; carrier open |
+| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Provisional position; overlap owns carry; endpoints do not glue sheets |
+| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Pullbacks determine `g` on a supplied atlas; realization open |
+| G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections nonunique; screen conditional; carrier open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Covariant identity in a chosen representation; coefficient limits only |
-| G149--G161 score/carry/quotient | `VERIFIED_WITH_CAVEATS` | First jet carries exactly; G161 classifies its Lorentz quotient and conditional extrinsic flag; history open |
+| G149--G162 score/carry/quotient | `VERIFIED_WITH_CAVEATS` | First jet carries; scalar kernel ignores residual rapidity; route/frame memory remains separate; history open |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits
@@ -43,18 +43,18 @@ None selects values, completion, observations, or `X_max`.
 
 ## Geometry, query, and causality
 
-- Bare endpoints do not select relations; causality gives admissibility, not response. Scalars,
-  shift, Jacobi data, and holonomy have different homes.
+- Endpoints do not select relations; causality gives admissibility, not response. Scalars, shift,
+  Jacobi data, and holonomy have different homes.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal class.
   Metricity is not dynamics.
 - G138--G145: charts/overlaps own carry and values determine `g`; endpoints do not glue sheets or
   own valuation, query population, or realization.
-- G146--G150: carrier and `O(2)` solder remain open; `lambda` proves liveness; one chord is realized
-  and four notes are pointwise free.
+- G146--G150: carrier and `O(2)` solder remain open; `lambda` proves liveness; four notes are locally free.
 - G151/G152/G153/G154/G155/G156/G157 give bounded curvature-through-balance results, not history.
   G158 derives the score; G159 descends it; G160 carries it.
-- G161 gives the exact left Lorentz quotient and unique positive section. Sweeps miss vertical
-  rapidity; normal transport is insufficient; simple extrinsic spectrum conditionally fixes a flag.
+- G161 gives the left Lorentz quotient and positive section. G162 removes residual rapidity from
+  the scalar kernel/first jet; it survives in supplied joined route/frame data. Normal, Jacobi,
+  ambient, and extrinsic channels stay separate.
 
 ## Carrier, action, source, and matter
 
@@ -106,6 +106,8 @@ Do not:
 - write G161's left quotient as a right quotient, promote its triangular section to physical carry,
   claim a distance sweep fixes vertical rapidity, or assume its extrinsic simple-spectrum flag
   exists or composes on every physical query;
+- require rapidity/eigenflag in the scalar kernel, erase joined `C,Gamma`, call endpoint calibration
+  a physical overlap, or collapse other transport channels into tangent `Lambda`;
 - identify relational position with proper length, signal distance, universe size, or history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
 - identify celestial `S^2` with the matter carrier or density descent with a physical value law;
@@ -115,7 +117,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 148-row authority. On conflict, stop. IDs are stable.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 149-row authority. On conflict, stop. IDs are stable.
 
 During orientation use this guide and run:
 
