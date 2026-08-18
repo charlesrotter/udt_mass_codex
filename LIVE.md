@@ -24,63 +24,56 @@ phi_pair=(1/4)log[(-det h)/h00^2],
 c_eff^(pair)/c_E=(-h00)/sqrt(-det h)=exp(-2phi_pair).
 ```
 
-All `B,Q,S,Y,Z` channels and their live derivatives remain upstream. Fixed Gram compression is a
-zero-order diagnostic only; it does not own channel attribution, regime evolution, or physical
-history. Pointwise `phi` is a presentation potential. Terminal `phi_pair` and pair `c_eff/c_E` are
-derived only on a supplied regular calibrated pair realization.
+All `B,Q,S,Y,Z` channels and derivatives remain upstream. Fixed Gram compression is diagnostic,
+not channel attribution or evolution. Pointwise `phi` is a presentation potential; terminal
+`phi_pair` and pair `c_eff/c_E` require a supplied regular calibrated pair realization.
 
 ### Current dependency spine
 
-- **G129--G134 — reconstruction.** Known rank ten full pullbacks recover full `g`; scalar-only
-  data stop at its positive conformal class. The bivector area bilinear recovers `g` up to fixed
-  sign on a codimension eleven metricity locus; pair density and common scale remain typed, not sourced.
-- **G135--G139 — position.** Charles provisionally adopted the classified native chart. On supplied
-  congruent pairs, signed `x/X_max=tanh(phi_pair)` composes; route transport stays distinct.
+- **G129--G134 — reconstruction.** Known rank ten pullbacks recover `g`; scalars stop at its positive
+  conformal class. The bivector area bilinear recovers `g` up to sign on a codimension eleven
+  metricity locus; density and common scale remain typed, not sourced.
+- **G135--G139, regraded by G163 — normalized position.** The complete pair natively gives
+  `chi=(L-T)/(L+T)=tanh(phi_pair)` with `-1<chi<1`; signed `chi` composes on matched depths and
+  route transport stays distinct. Charles's physical normalized-position meaning remains
+  `CHOSE / WORKING`. The dimensional display `x=X_max chi` is conditional, not kernel-native.
 - **G140--G144 — carry.** A supplied chart or genuine embedded overlap owns presentation carry;
   shared endpoints neither create positional congruence nor glue sheets.
-- **G145 — relation/history descent.** `VERIFIED_WITH_CAVEATS` after fresh adversarial repair. A
-  rank-complete valuation determines `g` on its supplied 4D atlas; query atlas, calibration, numerical valuation,
-  and realization remain `OPEN`. Opposite-curvature histories survive the same gates with all nine
-  non-`phi` fields live.
+- **G145 — descent.** Rank-complete valuation determines `g` on its supplied 4D atlas; query atlas,
+  calibration, numerical valuation, and realization remain `OPEN`. Opposite-curvature witnesses
+  survive with nine non-`phi` fields live.
 - **G146--G147 — multidirectional position.** G146 finds two inequivalent parity-even projections
   sharing the collinear law; both fail reverse order on the registered non-collinear witness.
   Inside G147's **defined conditional** `xi=rho n`, directional tangent equals metric pair screen;
   physical carrier, independent `O(2)` solder, and cross-query carry remain `OPEN`.
-- **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
-  The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
+- **G148 — relation-first first jet.** The normalized lift `chi n` has an exact
+  radial/screen/rest-space corollary; the prior
+  `xi=X_max chi n` theorem remains exact only after a dimensionful realization is supplied.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G162 — chord through time-live carry and quotient.** G149 realizes one covariant chord; G150 makes four
-  notes locally free. G151 joins chord change to curvature and conditionally to Jacobi deviation.
-  G152 owns ruler tests, not automatic chord equality. G153 proves finite position is not proper
-  length and derives `d rho=u(rho) theta0+n(rho) theta1` with live `d X_max`. G154 leaves fixed
-  `X_max` unowned and admits four common-scale response classes; coherent conformal twins share
-  reciprocal position. G155's preregistered 41-source census finds no active `kappa` constraint or
-  evolution equation. G156 derives the pair metric half-density and conditional determinant scale
-  carry. G157 removes base lockstep. G158 derives the gauge-fixed `3+3+4` semidirect score.
-  G159 joins it to `dot h=P^T eta V+V^T eta P`, with `P=Omega_R V+E dot J`. The pair first jet is
-  live-Lorentz-coframe-gauge invariant. G160 derives supplied `GL+(2)` first-jet carry and right-rate
-  composition. G161 classifies the exact left Lorentz quotient and unique positive `B+(2)` section.
-  G162 proves the scalar kernel and first jet ignore residual rapidity, retiring rapidity/eigenflag
-  selection as their gate. The exact endpoint carry is not a physical overlap. Supplied joined
-  `C,Gamma` retain route/frame memory; normal/Jacobi/extrinsic channels remain separate. No result
-  chooses physical history, query, parameter, or carry.
+- **G149--G163 — chord, score, carry, quotient, dependency.** G149 is one covariant chord; G150
+  frees four notes; G151 joins curvature/Jacobi conditionally; G152 owns ruler tests. G153 gives
+  native `dchi`; G154 leaves fixed scale conditional; G155 finds no active `kappa` equation. G156
+  derives scale carry; G157 removes base lockstep; G158 derives the `3+3+4` score, G159 descends it,
+  and G160 carries it.
+  G161 gives the Lorentz quotient/positive section; G162 removes residual rapidity from the scalar
+  gate. G163 removes `X_max` from the native kernel and finds no independent owner in its 26-source
+  census. Exact endpoint carry is not physical overlap; joined `C,Gamma` retain route/frame memory;
+  normal/Jacobi/extrinsic channels stay separate.
 
-Maximum conclusion: ten coframe channels form one coupled changing machine whose score descends and
-carries exactly on supplied regular data. No physical score, cross-query carry, history evolution,
-or numerical `X_max` is derived.
-Primary source: `udt_g162_lambda_dependence_frontier_census_2026-08-18/`.
+Maximum conclusion: ten coframe channels form one coupled changing machine whose scale-free scalar
+kernel ends at `chi`. No physical score, cross-query carry, complete metric realization, independent
+dimensionful separation, finite all-frame supremum, or numerical `X_max` is derived.
+Primary source: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`.
 Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
-Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
-package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
+G93--G128 chronology is provenance under `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ### Banked observational lane
 
-R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are complete and verified with
-caveats. R4 observes broad whole-curve persistence across registered relations. R5 observes one
-dominant shared whole-curve direction plus control-dependent additional alignment; 184,300
-covariance-range rows remain unresolved. No preferred grid, feature, rank, significance, physical
-scale, BAO/UDT/CMB origin, cosmology, or `X_max` follows.
+R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats. R4 finds
+broad persistence; R5 one dominant direction plus control-dependent alignment; 184,300 covariance
+rows remain unresolved. No preferred grid, feature, rank, significance, scale, BAO/UDT/CMB origin,
+cosmology, or `X_max` follows.
 
 The raw archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is
 running. Observations remain comparison/falsification anchors; they do not select the history.
@@ -92,12 +85,14 @@ running. Observations remain comparison/falsification anchors; they do not selec
 - pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
-- physical pair position: `CHOSE / PROVISIONAL_WORKING_FOUNDATIONAL_CLARIFICATION`; signed
-  `x/X_max=tanh(phi_pair)` is derived. Position descends within each supplied congruent relation
-  family while path transport may retain holonomy; the family itself remains unselected.
+- physical normalized pair position: `CHOSE / PROVISIONAL_WORKING_FOUNDATIONAL_CLARIFICATION`;
+  signed `chi=tanh(phi_pair)` is derived. It descends within each supplied congruent relation family
+  while path transport may retain holonomy; the family itself remains unselected.
 - angular/screen/mixing data enter before terminal readout.
-- `X_max`: `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair dilation asymptote;
-  value and realization `OPEN`; not a wall, center, seal, or boundary term.
+- `X_max`: owner-ratified working asymptotic global-completion consequence target, inactive as a local kernel
+  input. A dimensionful value requires an independently metric-derived separation, physical
+  relation domain, all-frame finite-supremum theorem, and divergent-depth join; not a wall, center,
+  seam, seal, or boundary term.
 - strong local CSN: `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED`, inactive.
 - `S^2` matter carrier: `POSIT`; EH action: `CONDITIONAL`; bootstrap: `WORKING HYPOTHESIS`.
 
@@ -115,9 +110,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G162 removes rapidity/eigenflag selection from the scalar-kernel frontier while preserving supplied
-route/frame memory separately. Next consolidate the quotient-native kernel and re-state the
-physical-history joint without another flag, selector, fit, or compatibility-identity loop.
+G163 closes the scaffold-free local scalar kernel at dimensionless `chi` and reverses the `X_max`
+dependency. Next audit candidate metric-owned separations and completion semantics without using
+`X_max` in their definitions; do not reopen flag selection, insert a fit, or infer a finite bound.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

@@ -71,7 +71,7 @@ def main() -> None:
     z((T2 * L2) ** 2 - scale**4 * (T * L) ** 2)
     checks.append("common_rescaling_preserves_kernel_changes_volume")
 
-    # Native residuals contain no X: the exact identifiability Jacobian has rank zero.
+    # The preregistered X-free residuals have a structurally zero X column by construction.
     native = sp.Matrix([
         q - T / L,
         chi - (1 - q) / (1 + q),
@@ -81,7 +81,7 @@ def main() -> None:
     jac_x = native.jacobian([X])
     assert jac_x == sp.zeros(native.rows, 1)
     assert jac_x.rank() == 0
-    checks.append("native_xmax_identifiability_rank_zero")
+    checks.append("xmax_absent_from_preregistered_x_free_residuals")
 
     # The same local slope and reciprocal depth admit every positive finite asymptote.
     delta = sp.symbols("delta", real=True)
@@ -115,9 +115,14 @@ def main() -> None:
     checks.append("ce_g_dimensional_length_no_go")
 
     with (HERE / "DEPENDENCY_LEDGER_PREREG.tsv").open(newline="", encoding="utf-8") as handle:
-        ledger = list(csv.DictReader(handle, delimiter="\t"))
-    assert [row["id"] for row in ledger] == [f"G{i}" for i in range(135, 155)]
-    assert len({row["expected_class"] for row in ledger}) >= 8
+        prereg_ledger = list(csv.DictReader(handle, delimiter="\t"))
+    with (HERE / "DEPENDENCY_LEDGER.tsv").open(newline="", encoding="utf-8") as handle:
+        final_ledger = list(csv.DictReader(handle, delimiter="\t"))
+    expected_ids = [f"G{i}" for i in range(135, 155)]
+    assert [row["id"] for row in prereg_ledger] == expected_ids
+    assert [row["id"] for row in final_ledger] == expected_ids
+    assert len({row["expected_class"] for row in prereg_ledger}) >= 8
+    assert all(row["final_class"] and row["native_scale_free_content"] for row in final_ledger)
     checks.append("complete_g135_g154_dependency_inventory")
 
     result = {
@@ -126,10 +131,12 @@ def main() -> None:
         "source_count": source_count,
         "exact_checks": len(checks),
         "exact_check_names": checks,
-        "native_xmax_jacobian_rank": 0,
+        "xmax_absent_from_preregistered_x_free_residuals": True,
+        "xmax_jacobian_zero_by_construction": True,
+        "source_census_independent_xmax_owner_found": False,
         "dimensionless_bound_derived": True,
         "dimensionful_xmax_derived": False,
-        "dependency_rows": len(ledger),
+        "dependency_rows": len(final_ledger),
     }
     (HERE / "DERIVATION_RESULT.json").write_text(
         json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"

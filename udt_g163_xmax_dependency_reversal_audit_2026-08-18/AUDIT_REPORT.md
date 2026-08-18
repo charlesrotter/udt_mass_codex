@@ -1,7 +1,7 @@
 # G163 audit report — Xmax dependency reversal
 
 Date: 2026-08-18
-Provisional grade: `LEAD_PENDING_FRESH_ADVERSARIAL_AND_REPOSITORY_GATES`
+Final grade: `VERIFIED_WITH_CAVEATS`
 
 ## Primary landing
 
@@ -9,7 +9,9 @@ Provisional grade: `LEAD_PENDING_FRESH_ADVERSARIAL_AND_REPOSITORY_GATES`
 SCALE_FREE_RECIPROCAL_KERNEL_CLOSES_WITHOUT_XMAX__
 CHI_PROJECTIVE_BOUNDARY_AND_NATIVE_COMPOSITION_DERIVED__
 PHYSICAL_NORMALIZED_POSITION_REMAINS_OWNER_ADOPTED_WORKING_CONSTITUTION__
-DIMENSIONFUL_XMAX_HAS_ZERO_NATIVE_IDENTIFIABILITY_RANK__
+XMAX_IS_ABSENT_FROM_THE_PREREGISTERED_X_FREE_RESIDUAL_SET__
+ZERO_JACOBIAN_COLUMN_IS_A_STRUCTURAL_CHECK_BY_CONSTRUCTION__
+FROZEN_26_SOURCE_CENSUS_FINDS_NO_INDEPENDENT_XMAX_OWNER__
 G135_G154_SPLIT_INTO_SCALE_FREE_RESULTS_AND_CONDITIONAL_XMAX_PROBES__
 XMAX_CAN_BE_A_GLOBAL_COMPLETION_CONSEQUENCE_ONLY_AFTER_AN_INDEPENDENT_METRIC_SEPARATION__
 DIMENSIONFUL_POSITION_ALL_FRAME_SUPREMUM_VALUE_AND_COMPLETION_OPEN
@@ -25,8 +27,10 @@ chi = (L-T)/(L+T) = tanh(phi_pair),
 c_eff/c_E = (1-chi)/(1+chi).
 ```
 
-The bound `-1 < chi < 1`, reversal, Mobius composition, and `dchi=(1-chi^2)dphi` are exact and
-dimensionless. Residual rapidity remains absent by G162.
+The bound `-1 < chi < 1`, reversal, matched-ratio Mobius composition, and
+`dchi=(1-chi^2)dphi` on a supplied smooth regular calibrated pair family are exact and
+dimensionless. Pair `c_eff/c_E` remains a conditional inter-observer readout. Residual rapidity
+remains absent by G162.
 
 The prior formula `x=Xmax*chi` is a conditional dimensional display. Its finite endpoint cannot be
 used as evidence that the kernel derived `Xmax`, because the scale was already present in the
@@ -44,8 +48,10 @@ Separating them removes the circularity without discarding the reciprocal positi
 
 Every G135--G154 package has exactly one registered row in `DEPENDENCY_LEDGER.tsv`. G135--G136 own
 the scale-free projective result and its classification. G137--G139 retain normalized endpoint and
-network semantics. G140--G150 retain their metric, carry, overlap, screen, and normalized first-jet
-results. G151--G153 remain exact for supplied scalar chords or supplied dimensional realizations,
+network semantics. G140--G150 retain their Xmax-independent metric, carry, overlap,
+conditional-screen, and bounded first-jet results. G148--G149's normalized formulas are
+corollaries on supplied lifts rather than unchanged dimensionful theorems. G151--G153 remain exact
+for supplied scalar chords or supplied dimensional realizations,
 but do not create their `Xmax` factor. G154's conformal nonselection survives, while its fixed-scale
 response families remain conditional probes.
 
@@ -54,11 +60,11 @@ response families remain conditional probes.
 - preregistration and 26-source freeze committed at `fb7e0f8e` before execution;
 - 13 exact production checks;
 - 1,200 independent exact-rational trials;
-- exact native `Xmax` Jacobian rank zero;
+- structural zero Jacobian column because the preregistered residual set is X-free by construction;
 - complete 20-row G135--G154 dependency inventory;
-- eight mutation/semantic catches, of which the algebraic catches are independent and the ledger
-  guards enforce the preregistered typing;
-- fresh adversarial and final repository gates pending.
+- three genuine algebraic mutation catches plus five explicit semantic/typing guards;
+- fresh adversarial `PASS_WITH_REPAIRS`;
+- 150-row premise verifier, 122-test repository suite, package verifier, and diff gate pass.
 
 ## Honest ceiling
 

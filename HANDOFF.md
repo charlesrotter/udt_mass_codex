@@ -13,43 +13,40 @@ conditional `c_eff/c_E`; it selects neither values nor history.
 
 Dependency chain:
 
-1. G129--G134: rank ten pullbacks, density, and bivector area bilinear recover `g`; scalars stop at its conformal class.
-   Common scale is retained; the codimension eleven metricity locus is not evolution.
-2. G135--G139: working signed `x/X_max=tanh(phi_pair)` composes in supplied congruent families;
-   route transport stays distinct.
+1. G129--G134: rank ten pullbacks, density, and bivector area bilinear recover `g`; scalars stop at
+   its conformal class. Common scale remains; the codimension eleven locus is not evolution.
+2. G135--G139, regraded by G163: native signed `chi=tanh(phi_pair)` composes on matched depths in
+   supplied congruent families; physical normalized-position semantics are working and route
+   transport stays distinct. `x=X_max chi` is a conditional dimensional display.
 3. G140--G144: a chart or genuine overlap owns carry; shared endpoints do not glue sheets.
 4. G145: rank-complete pullbacks determine the metric on their supplied 4D atlas.
    Query atlas, numerical valuation, and realization remain open.
 5. G146--G147: non-collinear projections remain nonunique. Inside a defined query-rest-space lift,
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
-6. G148: its chosen first jet splits into radial, screen-turn, and rest-space-tilt pieces.
-   `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149--G162: G149 realizes one covariant chord; G150 makes four notes locally. G151
-   joins chord change to curvature. A connecting family restricts the notes and conditionally gives
-   Jacobi deviation. G152 classifies immersion/ruler equality and carry. G153 shows finite pair
-   position is not proper length and derives its exact time-live metric-frame differential. G154
-   leaves fixed scale open with four common-scale response classes. Review shows conformal twins
-   are distinct coherent networks with one reciprocal subnetwork.
-   G155 finds no common-scale history equation. G156 derives conditional scale carry. G157 removes
-   base lockstep. G158 derives the `3+3+4` score; G159 descends it to `(h,dot h)`. G160 derives its
-   supplied time-live carry. G161 classifies its exact left Lorentz quotient and unique positive
-   section. G162 proves the scalar kernel ignores surviving rapidity, retiring rapidity/eigenflag
-   selection as its gate. Supplied joined route/frame data retain rapidity. Carry and history stay open.
+6. G148: normalized `chi n` has a first-jet corollary splitting radial, screen-turn, and
+   rest-space-tilt pieces. `X_max chi n` is conditional; `lambda` proves algebraic liveness only.
+7. G149--G163: G149 gives one covariant chord; G150 local freedom; G151 curvature/Jacobi; G152
+   ruler tests. G153 gives native `dchi`; G154 leaves fixed scale conditional; conformal twins remain.
+   G155 finds no common-scale equation; G156 scale carry; G157 changing balance; G158 score; G159
+   descent; G160 time-live carry. G161 gives the Lorentz quotient/positive section; G162 removes
+   rapidity from the scalar gate but retains supplied route/frame memory. G163 removes `X_max`
+   from the native kernel. Carry and complete metric realization stay open.
 
-The position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
-inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
+The kernel gives `chi=tanh(phi_pair)` and normalized magnitude `abs(chi)` on a supplied pair.
+Dimensionful position, `X_max`, proper length, family, complete metric realization, and completion
+remain `OPEN`; `CANON.md` is unchanged.
 
-After orientation, open `udt_g162_lambda_dependence_frontier_census_2026-08-18/AUDIT_REPORT.md`
+After orientation, open `udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md`
 only when load-bearing. Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
-For G93--G128 provenance use `INDEX.md` or
-`archive/startup_surface_2026-08-17_pre_zoomout/` only when load-bearing.
+For G93--G128 provenance use `INDEX.md` or `archive/startup_surface_2026-08-17_pre_zoomout/` only
+when load-bearing.
 
 ### Observational state
 
 R2--R5 are verified with caveats. R5 retains one dominant direction plus control-dependent
-alignment; 184,300 covariance rows remain unresolved. No preferred feature, scale, rank,
-BAO/UDT/CMB origin, cosmology, or `X_max` follows.
+alignment; 184,300 covariance rows remain unresolved. No preferred feature, scale, rank, origin,
+cosmology, or `X_max` follows.
 
 Controlling package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -64,11 +61,12 @@ No long process is running.
   conditional presentation potential.
 - the orchestra enters before terminal readout.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
-- working position is adopted; signed `x/X_max=tanh(phi_pair)` follows on supplied complete pairs,
-  but is not proper length or a selected history.
+- working normalized position is adopted; signed `chi=tanh(phi_pair)` follows on supplied complete
+  pairs, but is not proper length or a selected complete metric realization.
 - G139 chooses endpoint descent within supplied families; G140--G142 bound congruence and derive
   invariant conditional carrier/carry algebra without selecting the physical family or carry.
-- `X_max` is an observer-pair asymptotic frame, not a wall or center.
+- `X_max` is a working asymptotic global-completion consequence target, not a local kernel input, wall, center,
+  or seam.
 - strong local CSN is inactive.
 - carrier, action, source, matter, bootstrap selection, and dynamics remain posit/conditional/open.
 
@@ -85,7 +83,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G162 closes the rapidity census. Consolidate the quotient-native kernel and re-state the
-history joint; do not reopen flag selection or infer a selector, fit, or evolution law.
+G163 closes the native scalar kernel at dimensionless `chi`. Next audit independently metric-owned
+separation and completion candidates without defining them through `X_max`; do not reopen flag
+selection or infer a finite bound, selector, fit, or evolution law.
 
 <!-- STARTUP_CURRENT_END -->

@@ -23,7 +23,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G162 position/descent/transport/relation/scale/score/quotient closure:
+- G137--G163 position/descent/transport/relation/scale/score/quotient/dependency closure:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -41,17 +41,20 @@
   `udt_g159_complete_score_terminal_descent_2026-08-18/`;
   `udt_g160_three_observer_timelive_first_jet_carry_2026-08-18/`;
   `udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/`;
-  `udt_g162_lambda_dependence_frontier_census_2026-08-18/`
+  `udt_g162_lambda_dependence_frontier_census_2026-08-18/`;
+  `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 The chain runs evaluator → metric faithfulness → bounded position → carry → chord → curvature →
-scale rank and balance. Area data encode `g`; supplied pairs own working `chi=tanh(phi_pair)`, but neither metric
-values nor `X_max` follow. G140--G145 separate congruence, overlap carry, and metric reconstruction.
+scale balance. Area data encode `g`; supplied pairs own working `chi=tanh(phi_pair)`, not metric
+values or `X_max`. G140--G145 separate congruence, carry, and reconstruction.
 G146--G153 keep carrier, ruler equality, and proper length conditional. G154 leaves coherent
 conformal histories; G155 finds scale-history rank zero; G156 derives conditional scale carry; G157
 removes base lockstep. G158 derives the `3+3+4` score; G159 descends it to a pair first jet; G160
 carries it exactly but cannot detect Lorentz-stabilizer defects. G161 classifies the exact left
 quotient and its unique regular positive-triangular section. G162 removes residual rapidity and the
 conditional flag from the scalar-kernel gate while preserving supplied route/frame memory as a
-separate channel. Physical carry/history remain open.
+separate channel. G163 closes the X-free scalar kernel at `chi=tanh(phi_pair)`, regrades
+dimensionful descendants as conditional, and makes `X_max` a global-completion consequence target
+rather than a kernel input. Physical carry/complete realization remain open.
 ## Durable prerequisites
 
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -60,9 +63,8 @@ separate channel. Physical carry/history remain open.
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 
-For G93--G128 chronology, use
-`archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 149-row premise registry controls current status, not archived prose.
+For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only
+load-bearing packages. The 150-row premise registry controls current status.
 
 ## Observational lane
 
@@ -86,7 +88,8 @@ feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
 - Known-old-path relocation lookup only:
   `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding metric orientation: `SIMPLE_METRIC_MACRO.md`
-- `X_max` semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
+- Current `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
+- Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
 
 ## Matter/stability lane
@@ -101,10 +104,5 @@ See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected cur
 the stopped native-on-shell draft, or local unbanked packages without explicit authority.
 
 ## Archives
-
-- Pre-cleanup startup surface: `archive/startup_surface_2026-08-17_pre_zoomout/`
-- Earlier startup surface: `archive/startup_surface_2026-08-14/`
-- Pre-orchestra global-cell assembly: `archive/global_cell_assembly_2026-08-06_legacy/`
-- Historical July frontier: `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`
-
-Archive files are provenance only and cannot overrule current status or premise classification.
+- Startup snapshots: `archive/startup_surface_2026-08-17_pre_zoomout/` and
+  `archive/startup_surface_2026-08-14/`; older global-cell/July files are provenance only.

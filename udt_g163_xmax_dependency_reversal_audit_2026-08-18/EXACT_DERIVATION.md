@@ -45,7 +45,8 @@ Because T and L are positive, the exact gap
 proves `-1 < chi < 1`. The endpoints are projective boundary rays, not regular finite-pair
 lengths.
 
-For multiplicative reciprocal ratios `q12=q1*q2`, direct algebra gives
+For matched multiplicative reciprocal ratios `q12=q1*q2`, equivalently matched additive ordered
+depths, direct algebra gives
 
 ```text
 chi12 = (chi1+chi2)/(1+chi1*chi2).
@@ -57,16 +58,19 @@ Observer reversal sends `q` to `1/q` and `chi` to `-chi`. The exact first differ
 dchi = (1-chi^2) dphi.
 ```
 
-This is the native replacement for differentiating `Xmax*chi` inside the local kernel.
+This is exact on a supplied smooth regular calibrated pair family and is the native replacement for
+differentiating `Xmax*chi` inside the local kernel.
 
-## 3. Xmax identifiability rank
+## 3. Structural Xmax-absence check and semantic ownership census
 
-Assemble only the native terminal, inverse, composition, reversal, and differential residuals.
-Introduce a new symbol `X` only after that system is complete. None of its entries contains `X`,
-so its exact Jacobian with respect to `X` is the zero column and has rank zero.
+Assemble only the preregistered X-free terminal, inverse, matched-composition, reversal, and
+differential residuals. Introduce a new symbol `X` only after that system is complete. None of its
+entries contains `X`, so its exact Jacobian with respect to `X` is the zero column.
 
-Therefore current native kernel equations cannot identify a dimensionful `Xmax`. This is a type
-statement, not a numerical failure.
+This zero column is a structural check by construction, not independent identifiability evidence.
+The substantive ownership result is the separate frozen 26-source semantic census: it finds no
+G135--G154 equation that owns a dimensionful `Xmax` without defining position through that scale,
+inserting it into a dimensional composition law, or imposing an extra ruler equality.
 
 ## 4. Conformal and dimensional no-go
 
@@ -80,18 +84,22 @@ L -> aL,
 the quantities `q`, `phi`, and `chi` are unchanged, while pair volume density and half-density
 scale. Hence the projective kernel cannot return a length that transforms with the metric scale.
 
-The observed anchors also do not supply a length by themselves. Assigning exponents `alpha,beta`
-to `c_E^alpha G_obs^beta`, zero mass power forces `beta=0`; zero time power then forces
-`alpha=0`, contradicting the required length power one.
+For dimensionally homogeneous monomial/power constructions, the observed anchors do not supply a
+length by themselves. Assigning exponents `alpha,beta` to `c_E^alpha G_obs^beta`, zero mass power
+forces `beta=0`; zero time power then forces `alpha=0`, contradicting the required length power one.
+Thus no such monomial has the dimensions of length; an additional dimensionful datum or lawful
+bridge is required.
 
-Reciprocal algebra alone also admits every positive finite dimensional display scale once such a
-scale is supplied, and it admits an unbounded marking if the working finite-asymptote semantics is
-not imposed. Thus the dimensionless boundary is derived while a finite physical length is not.
+For every supplied positive `Xp`, the display `xp=Xp*chi` has endpoints `+/-Xp`, so the normalized
+kernel cannot select `Xp`. The broader marking `Xp*tanh(ellp*delta/Xp)` preserves a chosen local
+slope but lies outside the adopted unit-slope same-native-Mobius position class unless `ellp=Xp`.
+The unbounded marking `ellp*delta` is excluded by the active working finite-asymptote frame; it is
+only a control showing what reciprocal algebra alone permits, not an admissible physical model.
 
-## 5. Noncircular global consequence theorem
+## 5. Noncircular supremum-ownership criterion
 
-A completed realization may derive `Xmax` only after independently supplying all of the following
-without using `Xmax`:
+Under the chosen meaning of `Xmax` as a finite all-frame metric-separation supremum, a noncircular
+derivation must first own all of the following without using `Xmax`:
 
 1. a physical co-present relation space;
 2. a dimensionful metric-natural nonnegative separation on that space;
@@ -103,6 +111,8 @@ without using `Xmax`:
 
 Only then may the supremum be named `Xmax`. Defining separation as `Xmax*chi`, inserting `Xmax`
 into the Mobius law, or cutting the domain off at `Xmax` before taking its supremum is circular.
+This is an audit criterion, not a derivation of those objects or proof that no other independent
+scale owner could exist.
 
 ## 6. Ownership boundary
 

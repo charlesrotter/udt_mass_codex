@@ -11,3 +11,7 @@ distance means. If that distance has one finite observer-independent supremum, t
 supremum may then be called `Xmax`.
 
 This preserves the reciprocal response and removes a circular dimensional scaffold.
+
+The zero `Xmax` column in the algebra is only a bookkeeping check because the test was
+intentionally written without `Xmax`. The real evidence is that the frozen G135--G154 source
+census found no independent equation that puts the missing ruler back.

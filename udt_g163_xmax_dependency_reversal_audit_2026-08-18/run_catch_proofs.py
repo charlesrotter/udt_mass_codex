@@ -23,18 +23,27 @@ def main() -> None:
     with (HERE / "DEPENDENCY_LEDGER_PREREG.tsv").open(newline="", encoding="utf-8") as handle:
         ledger = {row["id"]: row for row in csv.DictReader(handle, delimiter="\t")}
 
-    catches = [
+    mutation_catches = [
         {"name": "reversed_chi_sign", "caught": (T - L) / (T + L) != chi},
         {"name": "wrong_mobius_denominator", "caught": (chi + chi2) / (1 - chi * chi2) != correct_comp},
-        {"name": "hidden_X_in_native_residual", "caught": Fraction(2) * chi != Fraction(3) * chi},
         {"name": "common_scale_not_gauge", "caught": (Fraction(3) * T * Fraction(3) * L) ** 2 != (T * L) ** 2},
-        {"name": "ce_G_cannot_make_length", "caught": True},
+    ]
+    semantic_guards = [
+        {"name": "inserted_scale_changes_dimensional_display", "held": Fraction(2) * chi != Fraction(3) * chi},
+        {"name": "ce_G_monomial_scope_recorded", "held": True},
         {"name": "G137_dimensionful_join_not_native", "caught": "CONDITIONAL" in ledger["G137"]["expected_class"]},
         {"name": "G153_live_dX_not_native", "caught": "PRODUCT_RULE_CONDITIONAL" in ledger["G153"]["expected_class"]},
         {"name": "G154_fixed_scale_probe_not_derivation", "caught": "PROBES_CONDITIONAL" in ledger["G154"]["expected_class"]},
     ]
-    assert all(item["caught"] for item in catches)
-    result = {"status": "PASS", "catch_count": len(catches), "caught": catches}
+    assert all(item["caught"] for item in mutation_catches)
+    assert all(item.get("caught", item.get("held")) for item in semantic_guards)
+    result = {
+        "status": "PASS",
+        "genuine_mutation_catch_count": len(mutation_catches),
+        "semantic_guard_count": len(semantic_guards),
+        "mutation_catches": mutation_catches,
+        "semantic_guards_not_independent_proofs": semantic_guards,
+    }
     (HERE / "CATCH_PROOF_RESULT.json").write_text(
         json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )

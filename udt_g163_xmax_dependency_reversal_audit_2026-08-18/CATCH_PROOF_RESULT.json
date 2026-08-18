@@ -1,6 +1,6 @@
 {
-  "catch_count": 8,
-  "caught": [
+  "genuine_mutation_catch_count": 3,
+  "mutation_catches": [
     {
       "caught": true,
       "name": "reversed_chi_sign"
@@ -11,15 +11,18 @@
     },
     {
       "caught": true,
-      "name": "hidden_X_in_native_residual"
-    },
-    {
-      "caught": true,
       "name": "common_scale_not_gauge"
+    }
+  ],
+  "semantic_guard_count": 5,
+  "semantic_guards_not_independent_proofs": [
+    {
+      "held": true,
+      "name": "inserted_scale_changes_dimensional_display"
     },
     {
-      "caught": true,
-      "name": "ce_G_cannot_make_length"
+      "held": true,
+      "name": "ce_G_monomial_scope_recorded"
     },
     {
       "caught": true,

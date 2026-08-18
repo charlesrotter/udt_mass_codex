@@ -1,12 +1,11 @@
 # Current UDT research program
 
 Date: 2026-08-18
-Authority: active dependency spine; not canonization
 `LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise classification. This file states only the current architecture, open gates, and next bounded move.
 
 ## Program picture
 
-UDT has a conditional pair evaluator, faithful metric reconstruction, working bounded position,
+UDT has a conditional pair evaluator, faithful metric reconstruction, working bounded normalized position,
 exact chord identities, an exact variable-balance complete-coframe transition, an exact regular
 Lorentz quotient, and a residual-rapidity-independent scalar kernel; physical multidirectional carrier,
 route carry, and physical score/history remain open.
@@ -44,10 +43,11 @@ G129--G134 show that rank ten pullbacks and the bivector area bilinear recover `
 stop at its positive conformal class. G132 common-scale ownership retains scale without sourcing
 it, and metricity is not evolution. Use `INDEX.md` for exact sources.
 
-### G135--G144 — co-present relational position
+### G135--G144, regraded by G163 — co-present normalized relational position
 
 G135--G137 classify and adopt the working unit-slope chart
-`x/X_max=tanh(phi_pair)`; only signed position composes. G138--G139 separate endpoint descent from
+`chi=tanh(phi_pair)`; only signed normalized position composes on matched depths. The display
+`x=X_max chi` is conditional and does not derive its supplied factor. G138--G139 separate endpoint descent from
 route transport. G140 rejects pullback-only positional congruence. G141--G144 show that a supplied
 chart or genuine overlap owns calibrated carry, while common boundary observers do not glue
 distinct sheets. Carry is kinematic compatibility, not another force.
@@ -66,15 +66,16 @@ independent `O(2)` solder, and cross-query carry remain open.
 
 ### G148 — relation-first complete-pair first jet
 
-Within the authorized `CHOSE / WORKING` representation `xi=X_max tanh(phi_pair)n`,
+For the normalized supplied lift `chi n`, G148's exact first-jet corollary is
 
 ```text
-nabla_u xi = X_max sech(phi)^2 dot(phi) n
-           + X_max tanh(phi) Omega
-           + X_max tanh(phi) a_n u.
+nabla_u (chi n) = sech(phi)^2 dot(phi) n
+                + tanh(phi) Omega
+                + tanh(phi) a_n u.
 ```
 
-This has no solder coefficient inside that representation. `lambda` proves algebraic
+The prior `X_max`-weighted identity remains exact only after a dimensionful realization is
+supplied. This has no solder coefficient inside that representation. `lambda` proves algebraic
 `B,Q,S,Y,Z` liveness, not clock flow, connection, or physical amplitudes.
 
 ### G149 — genuine spacetime/query first-jet join
@@ -88,21 +89,15 @@ At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega
 `R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
 those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
 
-### G151--G162 — curvature, score, carry, quotient, and dependency frontier
+### G151--G163 — curvature, score, carry, quotient, and dependency reversal
 
-G151 joins chord change to curvature/Jacobi structure; G152 keeps ruler equality query-owned.
-G153 derives the live position differential without making position proper length. G154 exhibits
-four conformal response classes; G155 finds no active `kappa` evolution in its frozen corpus.
-G156 derives conditional half-density carry; G157 removes base lockstep. G158 derives the
-gauge-fixed `3+3+4` score, and G159 descends it to `(h,dot h)`. G160 carries that first jet exactly
-but cannot see Lorentz stabilizers. G161 classifies the exact left quotient and unique positive
-section. Sweeps fix quotient paths, not vertical rapidity. Normal transport is insufficient;
-simple extrinsic `C_II` spectrum conditionally supplies a causal flag on a supplied immersion.
-G162 then classifies the active dependency frontier: the bounded scalar kernel and first jet are
-independent of residual tangent rapidity; the exact endpoint section is calibration rather than a
-physical overlap; supplied joined `C,Gamma` retain route/frame memory; and normal, Jacobi, ambient,
-and extrinsic channels remain separately typed. Rapidity/eigenflag selection is therefore retired
-as a scalar-kernel gate, while the history gap is unchanged.
+G151--G152 keep curvature/Jacobi and ruler equality conditional. G153 gives native `dchi`; G154
+retains four fixed-scale probes; G155 finds no `kappa` evolution. G156 derives carry; G157 balance;
+G158 score; G159 descent; G160 first-jet carry. G161 gives the Lorentz quotient/positive section;
+normal transport remains separate. G162 removes rapidity from the scalar gate while joined
+`C,Gamma`, normal, Jacobi, ambient, and extrinsic channels retain their types. G163 closes the local
+kernel without `X_max`, preserves Xmax-independent G135--G154 theorems, and retypes dimensionful
+descendants. Its zero X column is structural; the 26-source census finds no independent owner.
 
 ## Durable prerequisites
 
@@ -111,8 +106,6 @@ as a scalar-kernel gate, while the history gap is unchanged.
 - Chord-network descent: endpoint ratios compose on one supplied calibration family.
 - Finite-radius screen theorem: `D_sky=R O`, `|det D_sky|=R^2` on its regular branch.
 - Operational frequency junction: depth and source frequency agree only on its stated reduction.
-
-Pre-G129 execution details are archived provenance; open only load-bearing packages.
 
 ## Observational anchors
 
@@ -127,26 +120,27 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Other live scientific lanes
 
-- `X_max`: working observer-pair positional-dilation asymptote; exact profile, value, global
-  realization, and angular/bootstrap modulation remain open.
+- `X_max`: working asymptotic global-completion consequence target, inactive as a local kernel input. An
+  independent metric separation, physical relation domain, all-frame finite supremum, divergent-depth
+  join, value, realization, and angular/bootstrap modulation remain open.
 - Matter/stability: plural conditional mass-from-geometry branches and scoped finite-box Hopfion
   stability remain banked; the `S^2` carrier is still a posit.
 - Action/source/bootstrap: no native action, source law, boundary completion, stable-matter theorem,
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. What is the minimal quotient-native statement of the complete scalar kernel once unneeded
-   tangent rapidity/eigenflag scaffolding is removed?
+1. Which metric-owned separation, if any, can be defined without `X_max` and joined to normalized
+   `chi` on the completed physical relation domain?
 2. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
-4. What fixes `X_max`, regime strengths, radiative/source structure, and global completion?
+4. Does a completed realization prove a finite all-frame supremum that may then be named `X_max`,
+   and what fixes regime strengths and radiative/source structure?
 
 ## Bounded next action
 
-G162 closes the residual-Lorentz dependency census. Next consolidate the scaffold-free
-quotient-native kernel and explicitly isolate the remaining history/value joint. Do not run another
-flag-selection or compatibility-identity census, and do not assume a physical query, carry,
-history, evolution, or fit.
-History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.
+G163 closes the scaffold-free quotient-native scalar kernel at `chi`. Next map candidate
+metric-owned separations and completion semantics without defining them through `X_max`. Do not run
+another flag-selection or compatibility-identity census, and do not assume a finite supremum,
+physical query, carry, complete metric realization, evolution, or fit.

@@ -51,23 +51,29 @@ def main() -> None:
         assert Ts / Ls == q
         assert (Ts * Ls) ** 2 == scale**4 * (T * L) ** 2
 
-        # Native residual tuple is intentionally independent of the after-the-fact X label.
+        # This only confirms the independently encoded algebra omits the after-the-fact X label.
         native = (q, chi, chi_from_ratio(q * q2), -chi)
         for X in (Fraction(1), Fraction(2), Fraction(17, 3)):
             assert (q, chi, chi_from_ratio(q * q2), -chi) == native
 
     with (HERE / "DEPENDENCY_LEDGER_PREREG.tsv").open(newline="", encoding="utf-8") as handle:
-        ledger = list(csv.DictReader(handle, delimiter="\t"))
-    assert [row["id"] for row in ledger] == [f"G{i}" for i in range(135, 155)]
-    assert all(row["scale_free_survivor"] and row["xmax_dependent_content"] for row in ledger)
+        prereg_ledger = list(csv.DictReader(handle, delimiter="\t"))
+    with (HERE / "DEPENDENCY_LEDGER.tsv").open(newline="", encoding="utf-8") as handle:
+        final_ledger = list(csv.DictReader(handle, delimiter="\t"))
+    expected_ids = [f"G{i}" for i in range(135, 155)]
+    assert [row["id"] for row in prereg_ledger] == expected_ids
+    assert [row["id"] for row in final_ledger] == expected_ids
+    assert all(row["scale_free_survivor"] and row["xmax_dependent_content"] for row in prereg_ledger)
+    assert all(row["final_class"] and row["conditional_or_open_dimensional_content"] for row in final_ledger)
 
     result = {
         "status": "PASS",
         "registered_outcome_class": OUTCOME,
         "source_count": len(sources),
         "fraction_trials": trials,
-        "dependency_rows": len(ledger),
-        "native_xmax_finite_difference_rank": 0,
+        "dependency_rows": len(final_ledger),
+        "xmax_absent_from_independently_encoded_algebra": True,
+        "xmax_absence_is_structural_not_independent_identifiability_evidence": True,
         "dimensionless_bound_derived": True,
         "dimensionful_xmax_derived": False,
     }

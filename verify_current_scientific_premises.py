@@ -190,6 +190,7 @@ def validate_startup_surface(root: Path) -> None:
             "G160",
             "G161",
             "G162",
+            "G163",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -227,7 +228,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "149-row exact registry",
+            "150-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -275,6 +276,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g160_three_observer_timelive_first_jet_carry_2026-08-18/",
             "udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/",
             "udt_g162_lambda_dependence_frontier_census_2026-08-18/",
+            "udt_g163_xmax_dependency_reversal_audit_2026-08-18/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -308,6 +310,7 @@ def validate_startup_surface(root: Path) -> None:
             "G160",
             "G161",
             "G162",
+            "G163",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -340,6 +343,7 @@ def validate_startup_surface(root: Path) -> None:
             "G160",
             "G161",
             "G162",
+            "G163",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -349,7 +353,7 @@ def validate_startup_surface(root: Path) -> None:
             "first-order ceiling",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
-            "WORKING_FOUNDATIONAL_FRAME",
+            "working asymptotic global-completion consequence target",
             "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "G129",
@@ -374,10 +378,11 @@ def validate_startup_surface(root: Path) -> None:
             "G160",
             "G161",
             "G162",
+            "G163",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "149-row",
+            "150-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -636,9 +641,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 149, "premise registry must contain exactly 149 rows")
+    require(len(rows) == 150, "premise registry must contain exactly 150 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 149, "duplicate premise id")
+    require(len(by_id) == 150, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -670,16 +675,20 @@ def main() -> None:
     require("complete-arrow strain or spectral magnitude promoted" in by_id["G12"]["forbidden_regression"], "orchestra promotion guard absent")
     require(by_id["G13"]["active_use"] == "TORIC_GEOMETRY_ONLY", "Maxwell promoted")
     require(
-        by_id["G14"]["current_status"] == "WORKING_FOUNDATIONAL_POSITIONAL_DILATION_ASYMPTOTE",
-        "Xmax limiting role reopened or promoted",
+        by_id["G14"]["current_status"].startswith(
+            "OWNER_REFRAMED_WORKING_GLOBAL_COMPLETION_CONSEQUENCE_TARGET"
+        ),
+        "Xmax consequence frame reopened or promoted",
     )
     require(
-        by_id["G14"]["active_use"] == "OWNER_RATIFIED_LIMIT_FRAME_AND_REQUIRED_DEPTH_LAW_GATE",
-        "Xmax workflow gate mistyped",
+        by_id["G14"]["active_use"]
+        == "OWNER_RATIFIED_LIMIT_MEANING__INACTIVE_AS_LOCAL_KERNEL_INPUT__GLOBAL_SUPREMUM_TARGET_ONLY",
+        "Xmax dependency reversal mistyped",
     )
     require("numerical value" in by_id["G14"]["open_scope"], "numerical Xmax promoted")
-    require("all-frame theorem" in by_id["G14"]["open_scope"], "Xmax frame theorem promoted")
+    require("all-frame recentering theorem" in by_id["G14"]["open_scope"], "Xmax frame theorem promoted")
     require("material wall" in by_id["G14"]["forbidden_regression"], "Xmax wall guard absent")
+    require("native kernel input" in by_id["G14"]["forbidden_regression"], "Xmax kernel-input guard absent")
     require(by_id["G15"]["active_use"] == "STATIC_FINITE_BOX_AND_CARRIER_CONDITIONAL", "Hopfion promoted")
     require(by_id["G16"]["current_status"] == "OPEN", "complete physics promoted")
     require(
@@ -2826,7 +2835,7 @@ def main() -> None:
     )
     require(
         by_id["G137"]["current_status"].startswith(
-            "OWNER_ADOPTED_WORKING_FOUNDATIONAL_CLARIFICATION__FRESH_ADVERSARIAL_PASS__SIGNED_X_OVER_XMAX_EQUALS_TANH_PHI_PAIR"
+            "OWNER_ADOPTED_WORKING_NORMALIZED_POSITION_CONSTITUTION__FRESH_G163_ADVERSARIAL_PASS_WITH_REPAIRS__SIGNED_CHI_EQUALS_TANH_PHI_PAIR"
         ),
         "G137 adopted position constitution regressed or promoted",
     )
@@ -2836,7 +2845,8 @@ def main() -> None:
         "G137 Xmax owner boundary absent",
     )
     for guard in (
-        "working constitution called algebraically forced or canonized",
+        "working normalized constitution called algebraically forced or canonized",
+        "x equals Xmax chi called native or used to derive its supplied factor",
         "x or s called proper length areal radius signal distance universe size",
         "unsigned magnitudes composed without orientation",
         "conditional pair c_eff called local signal speed",
@@ -2845,7 +2855,7 @@ def main() -> None:
         require(guard in by_id["G137"]["forbidden_regression"], f"G137 guard absent: {guard}")
     require(
         by_id["G137"]["controlling_source"]
-        == "udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md",
+        == "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
         "G137 source changed",
     )
     require(
@@ -3268,7 +3278,7 @@ def main() -> None:
     )
     require(
         by_id["G153"]["current_status"].startswith(
-            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REPAIR_FOLLOWUP_PASS__FINITE_RELATIONAL_POSITION_NOT_METRIC_PROPER_LENGTH"
+            "VERIFIED_WITH_CAVEATS__FRESH_G163_ADVERSARIAL_PASS_WITH_REPAIRS__FINITE_DIMENSIONAL_DISPLAY_NOT_METRIC_PROPER_LENGTH"
         ),
         "G153 bounded status regressed or promoted",
     )
@@ -3281,50 +3291,53 @@ def main() -> None:
     ):
         require(open_item in by_id["G153"]["open_scope"], f"G153 open boundary absent: {open_item}")
     for guard in (
-        "finite relational position called local metric proper length or spacetime displacement",
+        "dchi identity called a dimensionful proper-length law",
+        "finite dimensional display called local metric proper length or spacetime displacement",
         "G147 conditional lift promoted to physical chord",
-        "Xmax silently frozen in generic differential",
+        "Xmax silently inserted into the native kernel",
+        "conditional live dXmax product rule erased",
         "sech squared coefficient alone called a physical loud quiet loud amplitude law",
         "exact differential called history selection dynamics global asymptote realization numerical Xmax",
-        "common-scale covariance called scale-free physics or strong local CSN",
+        "common-scale covariance called scale-free metric physics or strong local CSN",
     ):
         require(guard in by_id["G153"]["forbidden_regression"], f"G153 guard absent: {guard}")
     require(
         by_id["G153"]["controlling_source"]
-        == "udt_g153_relational_position_ruler_differential_join_2026-08-17/AUDIT_REPORT.md",
+        == "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
         "G153 source changed",
     )
     require(
         by_id["G154"]["current_status"].startswith(
-            "VERIFIED_WITH_CAVEATS__COLD_EXTERNAL_REVIEW__INDEPENDENT_LOCAL_REPLAY_PASS__CONFORMAL_NETWORK_NONSELECTION__CURRENT_IDENTITIES_ONLY_EVALUATE_SUPPLIED_HISTORY"
+            "VERIFIED_WITH_CAVEATS__G163_REGRADING__COLD_EXTERNAL_REVIEW__INDEPENDENT_LOCAL_REPLAY_PASS__XMAX_INDEPENDENT_CONFORMAL_NETWORK_NONSELECTION"
         ),
         "G154 bounded status regressed or promoted",
     )
     require(by_id["G154"]["epistemic_label"] == "MIXED", "G154 label changed")
     for open_item in (
         "physical fixed-scale descent or scale carry law",
-        "selected common-scale metric history",
+        "selected common-scale complete metric realization",
         "relation between additive depth and normalized clock or ruler rate",
-        "diffeomorphism-natural nonidentity common-scale or history admissibility law",
+        "diffeomorphism-natural nonidentity common-scale or realization admissibility law",
         "all-frame shared Xmax numerical value angular or bootstrap modulation",
     ):
         require(open_item in by_id["G154"]["open_scope"], f"G154 open boundary absent: {open_item}")
     for guard in (
         "normalized Mobius composition called derivation of one fixed dimensionful Xmax",
         "conditional fixed-scale consistency theorem promoted to ownership",
-        "live dXmax discarded before fixed-scale descent is independently supplied",
+        "live dXmax discarded when a dimensional realization is supplied",
+        "fixed-scale response probes called native kernel theorems",
         "sech squared coefficient alone called physical loud quiet loud response",
         "conformal twins called the same complete network or common scale called gauge",
-        "reciprocal-position network faithfulness called complete-network history selection",
+        "reciprocal-position network faithfulness called complete-network realization selection",
         "endpoint kappa bookkeeping called universal physical descent",
-        "compatibility metricity Cartan Bianchi causal overlap transport or rank identities called a nonidentity history law",
-        "bounded counterfamilies called physical histories",
+        "compatibility metricity Cartan Bianchi causal overlap transport or rank identities called a nonidentity realization law",
+        "bounded counterfamilies called physical realizations",
         "sign-paired witnesses called universal reversal without carried frame",
     ):
         require(guard in by_id["G154"]["forbidden_regression"], f"G154 guard absent: {guard}")
     require(
         by_id["G154"]["controlling_source"]
-        == "udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/AUDIT_REPORT.md",
+        == "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
         "G154 source changed",
     )
     require(
@@ -3568,6 +3581,37 @@ def main() -> None:
         == "udt_g162_lambda_dependence_frontier_census_2026-08-18/AUDIT_REPORT.md",
         "G162 source changed",
     )
+    require(
+        by_id["G163"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_PASS_WITH_REPAIRS__PREREGISTERED__INDEPENDENT_FRACTION_REPLAY_PASS__DIMENSIONLESS_RECIPROCAL_KERNEL_CLOSES_WITHOUT_XMAX"
+        ),
+        "G163 dependency reversal regressed or promoted",
+    )
+    require(by_id["G163"]["epistemic_label"] == "MIXED", "G163 label changed")
+    for open_item in (
+        "independent metric-natural dimensionful separation and physical relation domain",
+        "all-frame recentering and overlap theorem",
+        "global completion finite positive supremum and divergent-depth correspondence",
+        "numerical Xmax value",
+    ):
+        require(open_item in by_id["G163"]["open_scope"], f"G163 open boundary absent: {open_item}")
+    for guard in (
+        "Xmax inserted into the native pair kernel",
+        "structural zero Jacobian called independent identifiability evidence",
+        "dimensionless projective boundary called a finite length",
+        "x equals Xmax chi or any Xmax-weighted response called native",
+        "G153 conditional product rule erased",
+        "G154 fixed-scale probes called derivations",
+        "Xmax-independent full-metric results called scale-free metric physics",
+        "unbounded control called an admissible physical model",
+        "supremum criterion called a derived completion theorem",
+    ):
+        require(guard in by_id["G163"]["forbidden_regression"], f"G163 guard absent: {guard}")
+    require(
+        by_id["G163"]["controlling_source"]
+        == "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
+        "G163 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3580,7 +3624,7 @@ def main() -> None:
                 "G01": "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
                 "G02": "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
                 "G12": "udt_complete_pair_phi_orchestra_audit_2026-08-05/AUDIT_REPORT.md",
-                "G14": "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md",
+                "G14": "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
             }[guard]
             require(
                 by_id[guard]["controlling_source"] == expected,
@@ -3603,7 +3647,7 @@ def main() -> None:
         "Angular, screen, and mixing data",
         "observed clock/ruler calibration scale",
         "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
-        "WORKING_FOUNDATIONAL_FRAME",
+        "native scalar kernel ends at dimensionless `chi=tanh(phi_pair)`",
         "preferred center",
         "S^2` carrier is a `POSIT",
         "EH metric-only action is `CONDITIONAL",
@@ -3620,14 +3664,14 @@ def main() -> None:
         "CURRENT_RESEARCH_PROGRAM.md",
         "CURRENT_SCIENTIFIC_PREMISES.md",
     )
-    xmax_source = "udt_xmax_asymptotic_limit_frame_correction_2026-08-05/STATUS_AND_WORKFLOW.md"
+    xmax_source = "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md"
     for control in xmax_controls:
         text = (ROOT / control).read_text(encoding="utf-8")
         require("X_max" in text, f"control lacks Xmax guard: {control}")
         require("asymptot" in text.lower(), f"control lacks Xmax limiting meaning: {control}")
-    require("udt_xmax_asymptotic_limit_frame_correction_2026-08-05/" in
+    require("udt_g163_xmax_dependency_reversal_audit_2026-08-18/" in
             (ROOT / "INDEX.md").read_text(encoding="utf-8"),
-            "INDEX lacks controlling Xmax correction route")
+            "INDEX lacks controlling Xmax dependency-reversal route")
     require((ROOT / xmax_source).is_file(), "controlling Xmax correction source missing")
 
     adjudication = read_tsv(
@@ -3646,7 +3690,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G162-extended premise guards; PASS: 149-row premise "
+        "PASS: G163-extended premise guards; PASS: 150-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

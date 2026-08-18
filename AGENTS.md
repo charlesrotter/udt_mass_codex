@@ -26,7 +26,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   guide supplies bounded premise orientation; the verifier audits the entire 149-row exact registry
+   guide supplies bounded premise orientation; the verifier audits the entire 150-row exact registry
    without dumping its wide rows into model context. Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv`
    rows only after orientation when the requested task makes those objects load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
@@ -107,10 +107,12 @@ Disk evidence wins over conversational memory.
   unique physical observer law.
 - `c_E` is an observed clock/ruler calibration scale. Conditional `c_eff` ratios are inter-observer
   frame readouts, not automatically local signal speeds.
-- `X_max` is the `WORKING_FOUNDATIONAL_FRAME` for the frame-shared observer-pair positional-dilation
-  asymptote. Its value, exact profile, global realization, angular/bootstrap modulation, and
-  boundary completion remain `OPEN`. Never turn it into a preferred center, material wall,
-  finite-cell seal, or boundary term.
+- `X_max` retains its owner-ratified working asymptotic meaning but is inactive as a local reciprocal
+  kernel input. The native scalar kernel ends at dimensionless `chi=tanh(phi_pair)`. A dimensionful
+  `X_max` may be named only after an independent metric separation, physical relation domain,
+  all-frame finite supremum, and divergent-depth join are derived from a global completion. Its
+  value, realization, and modulation remain `OPEN`; never infer it from `x=X_max chi` or turn it
+  into a preferred center, material wall, seam, finite-cell seal, or boundary term.
 - Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive unless Charles explicitly
   reauthorizes it. Measured `c_E` and `G_obs` remain observational anchors.
 - Keep macro WR-L work separate from particle-mass/carrier work.

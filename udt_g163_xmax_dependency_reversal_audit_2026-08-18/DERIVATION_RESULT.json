@@ -10,7 +10,7 @@
     "scale_free_first_differential",
     "bounded_open_interval_gap",
     "common_rescaling_preserves_kernel_changes_volume",
-    "native_xmax_identifiability_rank_zero",
+    "xmax_absent_from_preregistered_x_free_residuals",
     "arbitrary_finite_asymptote_same_local_slope",
     "unbounded_marking_countermodel",
     "dimensionful_mobius_scale_is_inserted_parameter",
@@ -18,8 +18,10 @@
     "complete_g135_g154_dependency_inventory"
   ],
   "exact_checks": 13,
-  "native_xmax_jacobian_rank": 0,
   "registered_outcome_class": "SCALE_FREE_KERNEL_CLOSES__XMAX_IS_DIMENSIONAL_NULL_DIRECTION__DEPENDENCY_REVERSAL_REQUIRED",
+  "source_census_independent_xmax_owner_found": false,
   "source_count": 26,
-  "status": "PASS"
+  "status": "PASS",
+  "xmax_absent_from_preregistered_x_free_residuals": true,
+  "xmax_jacobian_zero_by_construction": true
 }
