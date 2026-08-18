@@ -1,0 +1,50 @@
+{
+  "cancellation_sum_max_error": 2.220446049250313e-15,
+  "checks": {
+    "both_oscillatory_duals_have_distinct_limits": true,
+    "cancellation_constant_rho": true,
+    "cancellation_terms_nonzero_and_cancel": true,
+    "fixed_critical_hits_four_X_over_three": true,
+    "fixed_divergent_grows": true,
+    "fixed_quiet_trends_zero": true,
+    "fixed_sign_paired_witnesses": true,
+    "live_divergent_grows": true,
+    "live_finite_hits_minus_half": true,
+    "live_quiet_trends_zero": true,
+    "mobius_grid": true,
+    "normalized_composition_does_not_fix_scale": true,
+    "responses_recovered_from_spatial_pair_metrics": true,
+    "responses_recovered_from_temporal_pair_metrics": true,
+    "source_manifest_hashes": true,
+    "temporal_dual_uses_same_normalized_formula": true
+  },
+  "fixed_tail": {
+    "critical": 4.0,
+    "divergent": 400000.00000000204,
+    "quiet": 4.000000000000082e-10
+  },
+  "implementation": "stdlib_float_and_source_hash_replay_no_sympy",
+  "live_tail": {
+    "divergent": 250000000000000.0,
+    "finite": -0.5,
+    "quiet": 5.000000000000028e-30
+  },
+  "max_mobius_error": 7.194245199571014e-14,
+  "max_normalized_composition_error": 1.1102230246251565e-16,
+  "nonconstant_scale_samples": [
+    3.8,
+    3.3,
+    3.1
+  ],
+  "oscillatory_pair_metric_values": {
+    "spatial": [
+      5.999924073996956,
+      1.9999746913331564
+    ],
+    "temporal": [
+      5.999924073996956,
+      1.9999746913331593
+    ]
+  },
+  "status": "PASS"
+}

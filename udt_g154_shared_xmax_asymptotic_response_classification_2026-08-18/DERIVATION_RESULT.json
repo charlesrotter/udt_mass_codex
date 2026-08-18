@@ -1,0 +1,58 @@
+{
+  "cancellation": {
+    "response": "0",
+    "rho": "C",
+    "scale_endpoint": "C"
+  },
+  "checks": {
+    "cancellation_response_zero": true,
+    "cancellation_rho_constant": true,
+    "fixed_divergent_both_signs": true,
+    "fixed_finite_both_signs": true,
+    "fixed_nonconvergent_subsequences_differ": true,
+    "fixed_quiet_both_signs": true,
+    "live_endpoint_divergent": true,
+    "live_endpoint_finite": true,
+    "live_endpoint_quiet": true,
+    "live_nonconvergent_subsequences_differ": true,
+    "mobius_composition_exact": true,
+    "normalized_composition_allows_nonconstant_scale": true,
+    "normalized_composition_exact_without_scale": true,
+    "temporal_dual_matches_spatial_classes": true
+  },
+  "fixed_nonconvergent_subsequences": {
+    "sin_minus_one": "2*X_star/3",
+    "sin_plus_one": "2*X_star"
+  },
+  "fixed_scale_limits": {
+    "divergent": {
+      "-1": "-oo",
+      "1": "oo"
+    },
+    "finite_live": {
+      "-1": "-4*X_star/3",
+      "1": "4*X_star/3"
+    },
+    "quiet": {
+      "-1": "0",
+      "1": "0"
+    }
+  },
+  "landing_candidate": "EVEN_FIXED_LEAF_SCALE_NOT_DERIVED__RESPONSE_CLASS_NOT_SELECTED",
+  "live_nonconvergent_subsequences": {
+    "cos_minus_one": "-1/2",
+    "cos_plus_one": "1/2"
+  },
+  "live_scale_limits": {
+    "divergent": "-oo",
+    "finite_live": "-1/2",
+    "quiet": "0"
+  },
+  "mobius_residual": "0",
+  "normalized_composition_countermodel": {
+    "composition_residual": "0",
+    "scale_derivative": "1",
+    "scale_field": "X_star + q"
+  },
+  "status": "PASS"
+}
