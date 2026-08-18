@@ -103,7 +103,8 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 - stopped native-on-shell draft under `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`;
 - local `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/` payload;
 - local `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/` payload;
-- protected curvature/holonomy atlas when present.
+- protected curvature/holonomy atlas at
+  `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` when present.
 
 ### Immediate next action
 

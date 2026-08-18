@@ -60,7 +60,13 @@ CURRENT_TARGETS = (
 
 
 def _startup_copy(tmp_path: Path) -> Path:
-    for relative in premise_guard.CURRENT_ORIENTATION_CONTROLS:
+    for relative in premise_guard.STARTUP_SURFACE_CONTROLS:
+        source = REPO / relative
+        destination = tmp_path / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, destination)
+
+    for relative in premise_guard.MAPPED_SKILL_FILES:
         source = REPO / relative
         destination = tmp_path / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -73,6 +79,11 @@ def _startup_copy(tmp_path: Path) -> Path:
             shutil.copy2(REPO / relative, destination)
         else:
             destination.touch()
+
+    relocation = Path("research/_registry/CURRENT_ARTIFACT_PATHS.tsv")
+    relocation_destination = tmp_path / relocation
+    relocation_destination.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(REPO / relocation, relocation_destination)
 
     archive = tmp_path / "archive" / "startup_surface_2026-08-14"
     archive.mkdir(parents=True, exist_ok=True)
@@ -219,6 +230,17 @@ def test_catch_missing_protected_pair_response(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
+def test_catch_missing_handoff_protected_path(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "HANDOFF.md",
+        "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/",
+        "REMOVED_G88/",
+    )
+    with pytest.raises(SystemExit, match="HANDOFF lacks protected local path"):
+        premise_guard.validate_startup_surface(root)
+
+
 def test_catch_missing_current_parent_route(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(
@@ -234,6 +256,145 @@ def test_catch_missing_complete_startup_order(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "INDEX.md", "`CLAUDE.md`", "`REMOVED_CHARTER.md`")
     with pytest.raises(SystemExit, match="current route lacks CLAUDE.md"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_abbreviated_readme_startup_order(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "README.md", "CLAUDE.md", "REMOVED_CHARTER.md")
+    with pytest.raises(SystemExit, match="current route lacks CLAUDE.md"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_weakened_mandatory_claude_sections(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "README.md", "DRIVER TRIGGERS", "TASK_TRIGGERED_ONLY")
+    with pytest.raises(SystemExit, match="current route lacks DRIVER TRIGGERS"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_reordered_startup_route(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "README.md",
+        "1. `LIVE.md` — only its `STARTUP_CURRENT` block;\n2. `HANDOFF.md` — only its matching current block;",
+        "2. `HANDOFF.md` — only its matching current block;\n1. `LIVE.md` — only its `STARTUP_CURRENT` block;",
+    )
+    with pytest.raises(SystemExit, match="startup order broken"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_driver_skill_mapping(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "CLAUDE.md",
+        "mnemonic trigger labels, not filesystem paths",
+        "unspecified trigger references",
+    )
+    with pytest.raises(SystemExit, match="current route lacks mnemonic trigger labels"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_swapped_driver_skill_mapping(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    claude = root / "CLAUDE.md"
+    text = claude.read_text(encoding="utf-8")
+    no_shortcuts = ".claude/skills/no-shortcuts/SKILL.md"
+    solver_first = ".claude/skills/solver-first/SKILL.md"
+    assert no_shortcuts in text and solver_first in text
+    text = text.replace(no_shortcuts, "MAPPING_SWAP_PLACEHOLDER", 1)
+    text = text.replace(solver_first, no_shortcuts, 1)
+    text = text.replace("MAPPING_SWAP_PLACEHOLDER", solver_first, 1)
+    claude.write_text(text, encoding="utf-8")
+    with pytest.raises(SystemExit, match="CLAUDE skill mapping missing or changed"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_mapped_skill_file(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    (root / ".claude/skills/no-shortcuts/SKILL.md").unlink()
+    with pytest.raises(SystemExit, match="mapped CLAUDE skill missing"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_hard_coded_readme_frontier(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    readme = root / "README.md"
+    readme.write_text(
+        readme.read_text(encoding="utf-8")
+        + "\nCurrent: `udt_g153_relational_position_ruler_differential_join_2026-08-17/`.\n",
+        encoding="utf-8",
+    )
+    with pytest.raises(SystemExit, match="README hard-codes a moving G-frontier package"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_bare_hard_coded_readme_frontier(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    readme = root / "README.md"
+    readme.write_text(readme.read_text(encoding="utf-8") + "\nCurrent: udt_g154.\n", encoding="utf-8")
+    with pytest.raises(SystemExit, match="README hard-codes a moving G-frontier package"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_ambiguous_research_index_wording(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "research/README.md",
+        "Use root `INDEX.md` for the compact current-frontier path list. The relocation ledger is not a",
+        "Use root `INDEX.md` for the compact current-frontier path list. It is not a",
+    )
+    with pytest.raises(SystemExit, match="ambiguously says INDEX.md"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_relocation_row_count_mutation(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    ledger = root / "research/_registry/CURRENT_ARTIFACT_PATHS.tsv"
+    lines = ledger.read_text(encoding="utf-8").splitlines()
+    ledger.write_text("\n".join(lines[:-1]) + "\n", encoding="utf-8")
+    with pytest.raises(SystemExit, match="relocation ledger must have 1,114 data rows plus header"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_relocation_header_mutation(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    ledger = root / "research/_registry/CURRENT_ARTIFACT_PATHS.tsv"
+    lines = ledger.read_text(encoding="utf-8").splitlines()
+    lines[0] = "mutated_header"
+    ledger.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    with pytest.raises(SystemExit, match="relocation ledger header changed"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_relocation_blank_row_substitution(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    ledger = root / "research/_registry/CURRENT_ARTIFACT_PATHS.tsv"
+    lines = ledger.read_text(encoding="utf-8").splitlines()
+    lines[1] = ""
+    ledger.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    with pytest.raises(SystemExit, match="1,114 parsed data rows"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_claude_handoff_order_omission(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "CLAUDE.md", "Follow it with `HANDOFF.md`,", "Continue directly to")
+    with pytest.raises(SystemExit, match="startup order broken at `HANDOFF.md`"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_readme_late_premise_verifier(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    readme = root / "README.md"
+    text = readme.read_text(encoding="utf-8")
+    text = text.replace(
+        ", then `python3 verify_current_scientific_premises.py` — bounded\n   premise orientation plus full-registry consistency;",
+        " — bounded premise orientation;",
+    )
+    text += "\nAfter all startup steps run `python3 verify_current_scientific_premises.py`.\n"
+    readme.write_text(text, encoding="utf-8")
+    with pytest.raises(SystemExit, match="startup order broken"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -336,7 +497,7 @@ def test_startup_does_not_promote_full_evidence_or_relocation_dump() -> None:
 
 
 def test_retired_route_words_absent_from_active_orientation() -> None:
-    for relative in premise_guard.CURRENT_ORIENTATION_CONTROLS:
+    for relative in premise_guard.STARTUP_SURFACE_CONTROLS:
         text = (REPO / relative).read_text(encoding="utf-8").lower()
         for token in premise_guard.STALE_STARTUP_TOKENS:
             assert token.lower() not in text, f"{token!r} revived in {relative}"

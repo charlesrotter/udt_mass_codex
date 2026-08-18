@@ -46,8 +46,8 @@ relevant, begin with
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and files under `archive/` are historical compatibility
 paths, not generic startup reads. Open them only when a task makes dated evidence load-bearing. Use
 `INDEX.md` for the current frontier paths. Despite its historical name,
-`research/_registry/CURRENT_ARTIFACT_PATHS.tsv` is the 1,115-row repository-reorganization relocation
-ledger: query it only for a known old path; it is not a startup read or a current-frontier index. Do
+`research/_registry/CURRENT_ARTIFACT_PATHS.tsv` is the repository-reorganization relocation ledger
+(1,114 data rows plus its header): query it only for a known old path; it is not a startup read or a current-frontier index. Do
 not rewrite fixed historical ownership/readiness snapshots to mimic current paths.
 
 Before doing research work, give Charles a short orientation: actual HEAD and dirt, current honest

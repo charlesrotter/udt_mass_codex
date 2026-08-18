@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import re
 from pathlib import Path
 
 
@@ -37,7 +38,20 @@ CURRENT_ORIENTATION_CONTROLS = (
     "CURRENT_RESEARCH_PROGRAM.md",
     "CURRENT_SCIENTIFIC_PREMISES.md",
     "CLAUDE.md",
+)
+
+RETIRED_COMPATIBILITY_CONTROLS = (
     "INFLIGHT_STATE.md",
+)
+
+STARTUP_SURFACE_CONTROLS = CURRENT_ORIENTATION_CONTROLS + RETIRED_COMPATIBILITY_CONTROLS
+
+MAPPED_SKILL_FILES = (
+    ".claude/skills/no-shortcuts/SKILL.md",
+    ".claude/skills/solver-first/SKILL.md",
+    ".claude/skills/completeness-map/SKILL.md",
+    ".claude/skills/verifier-before-record/SKILL.md",
+    ".claude/skills/solution-space-not-imposition/SKILL.md",
 )
 
 STALE_STARTUP_TOKENS = (
@@ -100,6 +114,16 @@ def require(condition: bool, message: str) -> None:
         raise SystemExit(message)
 
 
+def require_ordered_tokens(text: str, tokens: tuple[str, ...], name: str) -> None:
+    """Require each startup-routing token to occur after its predecessor."""
+    text = " ".join(text.split())
+    cursor = 0
+    for token in tokens:
+        position = text.find(token, cursor)
+        require(position >= 0, f"startup order broken at {token}: {name}")
+        cursor = position + len(token)
+
+
 def marked_current_block(path: Path) -> str:
     """Return the bounded startup block; fail closed on missing or duplicate markers."""
     text = path.read_text(encoding="utf-8")
@@ -115,7 +139,7 @@ def marked_current_block(path: Path) -> str:
 def validate_startup_surface(root: Path) -> None:
     """Fail closed on current routing while preserving, not rereading, historical detail."""
     controls: dict[str, str] = {}
-    for relative in CURRENT_ORIENTATION_CONTROLS:
+    for relative in STARTUP_SURFACE_CONTROLS:
         path = root / relative
         require(path.is_file(), f"missing startup control: {relative}")
         controls[relative] = path.read_text(encoding="utf-8")
@@ -178,8 +202,10 @@ def validate_startup_surface(root: Path) -> None:
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
         "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/",
         "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/",
+        "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/",
     ):
         require(token in live, f"LIVE lacks protected local path: {token}")
+        require(token in handoff, f"HANDOFF lacks protected local path: {token}")
     normalized_live = " ".join(live.split())
     for token in ("parity-even", "registered non-collinear witness"):
         require(token in normalized_live, f"LIVE lacks G146 bounded caveat: {token}")
@@ -192,6 +218,7 @@ def validate_startup_surface(root: Path) -> None:
             "does not make full scripts",
             "140-row exact registry",
             "without dumping its wide rows into model context",
+            "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
         ),
         "INDEX.md": (
@@ -313,11 +340,25 @@ def validate_startup_surface(root: Path) -> None:
             "verify_current_scientific_premises.py",
             "after orientation",
             "AGENTS.md",
-            "udt_g153_relational_position_ruler_differential_join_2026-08-17/",
+            "CLAUDE.md",
+            "How we work",
+            "DRIVER TRIGGERS",
+            "Repo discipline",
+            "INDEX.md",
+            "MEMORY.md",
+            "stop and give the orientation report",
         ),
         "CLAUDE.md": (
             "This file is binding method, not scientific status",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
+            "verify_current_scientific_premises.py",
+            "without dumping the exact registry into context",
+            "stop and give the orientation report",
+            "mnemonic trigger labels, not filesystem paths",
+            ".claude/skills/no-shortcuts/SKILL.md",
+            ".claude/skills/solver-first/SKILL.md",
+            ".claude/skills/completeness-map/SKILL.md",
+            ".claude/skills/verifier-before-record/SKILL.md",
             "historical relocation ledger",
             "not a current-frontier index",
             "Use `INDEX.md` for current evidence routes",
@@ -327,11 +368,17 @@ def validate_startup_surface(root: Path) -> None:
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "After orientation",
             "verify_current_scientific_premises.py",
+            "1,114 data rows plus header",
+            "How we work",
+            "DRIVER TRIGGERS",
+            "Repo discipline",
+            "stop and give the orientation report",
             "not a startup read",
         ),
         "research/_registry/README.md": (
             "CURRENT_ARTIFACT_PATHS.tsv",
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
+            "1,114 data rows plus its header",
             "not a startup read",
             "not a current-frontier index",
         ),
@@ -340,13 +387,144 @@ def validate_startup_surface(root: Path) -> None:
             "INFLIGHT_STATE_before_cleanup.md",
             "After orientation",
             "verify_current_scientific_premises.py",
+            "CLAUDE.md",
+            "How we work",
+            "DRIVER TRIGGERS",
+            "Repo discipline",
+            "INDEX.md",
+            "MEMORY.md",
+            "stop and give the orientation report",
         ),
     }
     for control, tokens in required_routes.items():
         for token in tokens:
             require(token in controls[control], f"current route lacks {token}: {control}")
 
-    for control in CURRENT_ORIENTATION_CONTROLS:
+    ordered_routes = {
+        "AGENTS.md": (
+            "1. `LIVE.md`",
+            "2. `HANDOFF.md`",
+            "3. `CURRENT_RESEARCH_PROGRAM.md`",
+            "4. `CURRENT_SCIENTIFIC_PREMISES.md`",
+            "python3 verify_current_scientific_premises.py",
+            "5. `CLAUDE.md`",
+            "6. `INDEX.md` and `MEMORY.md`",
+            "7. **Stop the startup read",
+        ),
+        "README.md": (
+            "1. `LIVE.md`",
+            "2. `HANDOFF.md`",
+            "3. `CURRENT_RESEARCH_PROGRAM.md`",
+            "4. `CURRENT_SCIENTIFIC_PREMISES.md`",
+            "python3 verify_current_scientific_premises.py",
+            "5. `CLAUDE.md`",
+            "6. `INDEX.md` and `MEMORY.md`",
+            "7. stop and give the orientation report",
+        ),
+        "INFLIGHT_STATE.md": (
+            "1. `LIVE.md`",
+            "2. `HANDOFF.md`",
+            "3. `CURRENT_RESEARCH_PROGRAM.md`",
+            "4. `CURRENT_SCIENTIFIC_PREMISES.md`",
+            "python3 verify_current_scientific_premises.py",
+            "5. `CLAUDE.md`",
+            "6. `INDEX.md` and `MEMORY.md`",
+            "7. stop and give the orientation report",
+        ),
+        "research/README.md": (
+            "1. the current blocks in `../LIVE.md` and `../HANDOFF.md`",
+            "2. `../CURRENT_RESEARCH_PROGRAM.md`",
+            "3. `../CURRENT_SCIENTIFIC_PREMISES.md`",
+            "python3 ../verify_current_scientific_premises.py",
+            "4. `../CLAUDE.md`",
+            "5. `../INDEX.md` and `../MEMORY.md`",
+            "6. stop and give the orientation report",
+        ),
+        "INDEX.md": (
+            "1. Follow `AGENTS.md`",
+            "2. Read the current blocks in `LIVE.md` and `HANDOFF.md`",
+            "3. Read `CURRENT_RESEARCH_PROGRAM.md`",
+            "4. Read `CURRENT_SCIENTIFIC_PREMISES.md`",
+            "python3 verify_current_scientific_premises.py",
+            "5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`",
+            "6. Read `INDEX.md` and `MEMORY.md`",
+            "7. After orientation",
+        ),
+    }
+    for control, tokens in ordered_routes.items():
+        require_ordered_tokens(controls[control], tokens, control)
+
+    claude_orientation = controls["CLAUDE.md"].split("## Orientation", 1)
+    require(len(claude_orientation) == 2, "CLAUDE orientation section missing")
+    require_ordered_tokens(
+        claude_orientation[1],
+        (
+            "Work on `grok`",
+            "`LIVE.md` is the first read",
+            "`HANDOFF.md`",
+            "`CURRENT_RESEARCH_PROGRAM.md`",
+            "`CURRENT_SCIENTIFIC_PREMISES.md`",
+            "python3 verify_current_scientific_premises.py",
+            "Always read `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`",
+            "`INDEX.md` and `MEMORY.md`",
+            "stop and give the orientation report",
+        ),
+        "CLAUDE.md Orientation",
+    )
+
+    normalized_claude = " ".join(controls["CLAUDE.md"].split())
+    skill_mapping_phrases = (
+        "`apply-purist-logic-proactively` and `derive-natively-not-inherited-form` use `.claude/skills/no-shortcuts/SKILL.md`",
+        "`solver-first-not-mechanism` uses `.claude/skills/solver-first/SKILL.md`",
+        "`sweep-whole-not-fragments` uses `.claude/skills/completeness-map/SKILL.md`",
+        "`session-handoff-pointer` uses `.claude/skills/verifier-before-record/SKILL.md`",
+        "`solution-space-not-imposition` maps to its same-named live skill",
+    )
+    for phrase in skill_mapping_phrases:
+        require(phrase in normalized_claude, f"CLAUDE skill mapping missing or changed: {phrase}")
+    for relative in MAPPED_SKILL_FILES:
+        require((root / relative).is_file(), f"mapped CLAUDE skill missing: {relative}")
+
+    require(
+        re.search(r"\budt_g\d+", controls["README.md"], flags=re.IGNORECASE) is None,
+        "README hard-codes a moving G-frontier package",
+    )
+
+    require(
+        "Use root `INDEX.md` for the compact current-frontier path list. It is not a startup read"
+        not in controls["research/README.md"],
+        "research README ambiguously says INDEX.md is not a startup read",
+    )
+
+    relocation = root / "research" / "_registry" / "CURRENT_ARTIFACT_PATHS.tsv"
+    require(relocation.is_file(), "relocation ledger missing")
+    relocation_lines = relocation.read_text(encoding="utf-8").splitlines()
+    require(len(relocation_lines) == 1115, "relocation ledger must have 1,114 data rows plus header")
+    relocation_header = (
+        "original_path",
+        "current_path",
+        "path_status",
+        "fixed_base_blob_oid",
+        "fixed_base_sha256",
+    )
+    require(
+        tuple(relocation_lines[0].split("\t")) == relocation_header,
+        "relocation ledger header changed",
+    )
+    relocation_rows = read_tsv(relocation)
+    require(len(relocation_rows) == 1114, "relocation ledger must contain 1,114 parsed data rows")
+    require(
+        all(None not in row and all((row.get(column) or "").strip() for column in relocation_header)
+            for row in relocation_rows),
+        "relocation ledger contains a malformed or blank data row",
+    )
+    require(
+        len({row["original_path"] for row in relocation_rows}) == 1114
+        and len({row["current_path"] for row in relocation_rows}) == 1114,
+        "relocation ledger path columns must remain unique",
+    )
+
+    for control in STARTUP_SURFACE_CONTROLS:
         lowered = controls[control].lower()
         for token in STALE_STARTUP_TOKENS:
             require(token.lower() not in lowered, f"stale startup token {token}: {control}")

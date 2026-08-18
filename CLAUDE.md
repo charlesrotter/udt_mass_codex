@@ -162,6 +162,14 @@ do NOT replace them, they unfold them on demand.)
 
 ## DRIVER TRIGGERS (binding, always-loaded — fire WITHOUT being challenged)
 
+The double-bracket names below are mnemonic trigger labels, not filesystem paths. Their live
+protocol mapping is: `apply-purist-logic-proactively` and `derive-natively-not-inherited-form` use
+`.claude/skills/no-shortcuts/SKILL.md`; `solver-first-not-mechanism` uses
+`.claude/skills/solver-first/SKILL.md`; `sweep-whole-not-fragments` uses
+`.claude/skills/completeness-map/SKILL.md`; and `session-handoff-pointer` uses
+`.claude/skills/verifier-before-record/SKILL.md`. `solution-space-not-imposition` maps to its
+same-named live skill. Read a mapped skill only when its trigger fires.
+
 The cognitive corral above is recall-class: this session it fired only when Charles challenged, not on
 its own (the driver drifted to a "cured" headline; the verifier caught it). These triggers fix that:
 each binds to an OBSERVABLE SELF-OUTPUT TOKEN the driver is about to write — you cannot emit the token
@@ -312,10 +320,13 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 - Work on `grok` and perform the exact synchronization/status sequence in `AGENTS.md`.
 - `LIVE.md` is the first read and wins every status disagreement. Follow it with `HANDOFF.md`,
-  `CURRENT_RESEARCH_PROGRAM.md`, `CURRENT_SCIENTIFIC_PREMISES.md`, and the exact
-  `CURRENT_SCIENTIFIC_PREMISES.tsv` registry.
-- This file is binding method, not scientific status. Read only the sections triggered by the task.
-- Use `INDEX.md` and `MEMORY.md` as compact pointer checks after current authority is understood.
+  `CURRENT_RESEARCH_PROGRAM.md`, and `CURRENT_SCIENTIFIC_PREMISES.md`; then run
+  `python3 verify_current_scientific_premises.py` without dumping the exact registry into context.
+- This file is binding method, not scientific status. Always read `How we work`, `DRIVER TRIGGERS`,
+  and `Repo discipline`, then any task-triggered `.claude/skills/*/SKILL.md` protocols.
+- Use `INDEX.md` and `MEMORY.md` as compact pointer checks, then stop and give the orientation report.
+  Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows only afterward when the task makes them
+  load-bearing.
 - `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the byte-identical control snapshots under
   `archive/startup_orientation_history_2026-08-05/` are historical evidence, not generic startup.
 - `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` is a historical relocation ledger.

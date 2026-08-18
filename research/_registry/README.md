@@ -5,9 +5,10 @@ scientific premise meanings or current execution status.
 
 ## Relocation table
 
-Despite its historical filename, `CURRENT_ARTIFACT_PATHS.tsv` is the 1,115-row relocation ledger
-produced by the repository reorganization. Query it for a known old path. It is not a startup read,
-not a current-frontier index, and not guaranteed to include packages created after that snapshot.
+Despite its historical filename, `CURRENT_ARTIFACT_PATHS.tsv` is the relocation ledger produced by
+the repository reorganization (1,114 data rows plus its header). Query it for a known old path. It
+is not a startup read, not a current-frontier index, and not guaranteed to include packages created
+after that snapshot.
 Use root `INDEX.md` for the compact current-frontier paths.
 
 ## Immutable historical tables

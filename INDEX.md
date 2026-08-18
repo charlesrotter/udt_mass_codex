@@ -1,13 +1,13 @@
 # INDEX — current repository map
 
-`LIVE.md` is the only guaranteed-current status file. This routes evidence, not conclusions.
+`LIVE.md` alone controls current status. This index routes evidence.
 ## Startup
 
 1. Follow `AGENTS.md` synchronization and bounded-read rules.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`.
 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
-5. Read the required `CLAUDE.md` sections and only task-triggered `.claude/skills/*/SKILL.md` files.
+5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only task-triggered `.claude/skills/*/SKILL.md` files.
 6. Read `INDEX.md` and `MEMORY.md` as compact pointers, then stop and give the orientation report.
 7. After orientation, query only task-relevant registry rows and evidence.
 
@@ -57,7 +57,7 @@ differential without calling it proper length. History open.
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 
-For G93--G128 chronology and exact package names, use
+For G93--G128 chronology, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
 load-bearing. The 140-row premise registry controls current status, not archived prose.
 

@@ -71,9 +71,14 @@ No long process is running.
 
 ### Protected dirt
 
-Do not stage, modify, delete, mine, or cite the protected curvature atlas, stopped native-on-shell
-draft, local pair-response payload, or local G88 payload without a specific dispatch. Directory
-presence does not prove banking.
+Do not stage, modify, delete, mine, or cite these without a specific dispatch:
+
+- `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/`;
+- `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`;
+- `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
+- `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
+
+Directory presence does not prove banking.
 
 ### Next bounded action
 
