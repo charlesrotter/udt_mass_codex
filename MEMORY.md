@@ -24,7 +24,8 @@ Current dependency spine:
   coefficient limits do not select amplitudes or history.
 - G149--G154: G149 realizes one chord; G150 makes four named notes locally free. G151 joins change
   to curvature; G152 owns ruler tests; G153 gives the exact differential; G154 leaves fixed scale
-  and response class unselected while common scale realizes four asymptotic classes.
+  and response unselected. Distinct conformal histories remain coherent, share reciprocal position,
+  and realize four asymptotic classes; network reconstruction does not select one.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -54,8 +55,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-After authorization, submit G154's metric-first cold-review problem on whether relational closure
-restricts common-scale/history. Keep proper length, dynamics, numerical `X_max`, and completion open.
+G154's cold review is closed. Next map and ponder a metric-native nonidentity law capable of
+separating conformal twins; do not solve before authorization. Keep proper length, dynamics,
+numerical `X_max`, and completion open.
 
 ## Historical route
 

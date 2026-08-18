@@ -4,13 +4,12 @@
 
 Read `LIVE.md` first. It wins every disagreement.
 
-## Resume anchor — 2026-08-17
+## Resume anchor — 2026-08-18
 
 ### Current theory state
 
-The evaluator forms a supplied pair metric from the `B,Q,S,Y,Z` orchestra before
-terminal `phi_pair` and conditional pair `c_eff/c_E`. All live derivatives remain. Its bounded
-algebra is `VERIFIED_WITH_CAVEATS`; it selects neither network, values, nor metric history.
+The evaluator forms a supplied pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and
+conditional `c_eff/c_E`. Live derivatives remain. It selects neither values nor history.
 
 The active dependency chain is:
 
@@ -29,7 +28,8 @@ The active dependency chain is:
    joins chord change to curvature. A connecting family restricts the notes and conditionally gives
    Jacobi deviation. G152 classifies immersion/ruler equality and carry. G153 shows finite pair
    position is not proper length and derives its exact time-live metric-frame differential. G154
-   leaves fixed scale unowned and retains four exact common-scale-controlled response classes.
+   leaves fixed scale unowned and retains four common-scale response classes. External review and
+   independent replay show conformal twins are distinct coherent networks with one reciprocal subnetwork.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
@@ -82,8 +82,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Use G154's prepared metric-first cold-review problem to ask whether complete relational closure
-restricts common-scale/history or only evaluates supplied histories. External transmission needs
-authorization; proper length, selected history, dynamics, numerical `X_max`, and completion stay open.
+G154's cold review is closed: current identities only evaluate supplied histories. Next map and
+ponder a metric-native law separating conformal twins; do not solve before Charles says go.
 
 <!-- STARTUP_CURRENT_END -->

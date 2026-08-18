@@ -106,7 +106,8 @@ G153 proves finite `rho=X_max tanh(phi_pair)` is not metric proper length: commo
 preserve `rho` while changing `L`. On a supplied smooth family the premise-owned join is
 `d rho=u(rho)theta0+n(rho)theta1`, with exact `tanh(phi)dX_max` and
 `X_max sech(phi)^2 dphi` terms. Fixed `X_max` and unit-ruler equality are conditional subcases;
-history, value, proper length, and completion remain open. G154 proves normalized composition does not derive fixed `Xmax`; even with `Xstar` supplied, common scale realizes all four preregistered response classes.
+history, value, proper length, and completion remain open. G154 proves normalized composition does not derive fixed `Xmax`;
+with `Xstar` supplied, common scale realizes all four response classes. Cold review extends this network-wide: distinct coherent conformal histories share reciprocal position, and current identities select none.
 
 ## Durable prerequisites
 
@@ -140,8 +141,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Does global relation-network closure restrict the common-scale/history freedom left by G154, or
-   only evaluate supplied histories?
+1. What metric-native nonidentity admissibility law, if any, can restrict the conformal
+   common-scale/history freedom that current network identities only evaluate?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -149,7 +150,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Use G154's prepared metric-first cold-review problem for outside adjudication after authorization.
-Do not add a fitted law; leave carrier, history selection, dynamics, numerical `X_max`, proper
-length, and completion open.
+G154's cold review is closed. Map, then ponder, a metric-native nonidentity history law using
+preregistered conformal twins; do not solve before Charles says go. Do not fit.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

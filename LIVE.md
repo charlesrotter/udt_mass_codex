@@ -59,10 +59,12 @@ derived only on a supplied regular calibrated pair realization.
   `d rho=u(rho) theta0+n(rho) theta1`, retaining shift, time dependence, and live `d X_max` terms.
   G154 proves normalized composition does not derive fixed dimensionful `X_max`; even after a
   fixed `X_star` is supplied, common scale realizes quiet, finite, divergent, or nonconvergent response.
+  Cold external review plus independent replay prove that conformal twins are different coherent
+  complete networks sharing one reciprocal-position subnetwork; current identities select none.
 
 Maximum conclusion: a supplied pair family owns an exact differential response for finite
-relational position. Neither normalized composition nor local response selects fixed scale,
-proper length, family, history, asymptotic class, or numerical `X_max`.
+relational position. Its complete network can reconstruct its metric, but current identities do not
+select fixed scale, proper length, family, history, asymptotic class, or numerical `X_max`.
 Primary source: `udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/`.
 Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
@@ -110,10 +112,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G154's metric-first cold-review problem is prepared. Seek outside adjudication of whether the
-complete relation network derives a common-scale/history restriction or only evaluates supplied
-histories. Do not transmit without authorization or invent an action, source, fitted profile,
-proper length, numerical `X_max`, dynamics, or completion.
+G154's cold review is closed: current network identities evaluate supplied histories but do not
+select common scale. Next `MAP -> PONDER` the smallest metric-native nonidentity admissibility law
+that could separate preregistered conformal twins. Do not solve or invent an action, source, fitted
+profile, proper length, numerical `X_max`, dynamics, or completion before Charles says go.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

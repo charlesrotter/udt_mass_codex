@@ -9,13 +9,13 @@ choose the file that makes a desired derivation easiest.
 
 | Object | Current status | What is owned | What remains open |
 |---|---|---|---|
-| `c_E`, `G_obs` | `OBSERVED` | Physical calibration anchors | Complete native placement and absolute closure |
+| `c_E`, `G_obs` | `OBSERVED` | Calibration anchors | Native placement and absolute closure |
 | Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))` on supplied ordered depth | Complete observer/event/path-to-`delta` owner |
 | Pointwise `phi` | `CONDITIONAL` presentation potential | Local factorized representation | Universal physical scalar ownership |
-| Terminal `phi_pair` | `DERIVED` conditionally | Reciprocal log imbalance on a supplied regular calibrated pair metric | Physical pair map and universal mixed-geometry identification |
-| Complete pair orchestra | `DERIVED` conditional structure | Angular, screen, and mixing data enter before terminal readout | Physical history and global relation family |
+| Terminal `phi_pair` | `DERIVED` conditionally | Reciprocal imbalance on a supplied pair metric | Physical pair map and mixed-geometry identification |
+| Complete pair orchestra | `DERIVED` conditional | Angular, screen, mixing precede terminal readout | History and global relation family |
 | Pair `c_eff` | `CONDITIONAL` observer-frame readout | Terminal ratio on a supplied calibrated pair relation | Universal owner and local material-signal interpretation |
-| Pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `x/X_max=tanh(phi_pair)`; endpoint position in congruent families; route holonomy may remain | Family, `X_max`, proper length, realization, history |
+| Pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `x/X_max=tanh(phi_pair)` in congruent families | Family, `X_max`, proper length, history |
 | Co-presence | `WORKING` semantics | Co-membership in one supplied complete solution | Query population, value assignment, signalling, or selection law |
 
 ## Current reconstruction hierarchy
@@ -23,12 +23,12 @@ choose the file that makes a desired derivation easiest.
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Full `B,Q,S,Y,Z` pullback and terminal readout for supplied regular data |
-| G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks and area recover `g`; scalars stop at its positive conformal class; scale is retained, not sourced |
+| G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks recover `g`; scalars stop at positive conformal class; scale retained, not sourced |
 | G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Position is provisional; a chart or overlap owns carry; endpoints do not glue sheets |
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback values determine `g` on a supplied 4D atlas; query and realization remain open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections remain nonunique; rest-space screen identity is conditional; physical carrier remains open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Exact covariant identity inside a chosen working representation; coefficient limits only |
-| G149--G154 chord/curvature/response | `VERIFIED_WITH_CAVEATS` | Not metric proper length; neither scale nor response is fixed |
+| G149--G154 chord/curvature/response | `VERIFIED_WITH_CAVEATS` | Not proper length; coherent conformal networks select neither scale nor response |
 
 None selects values, query population, completion, observations, or `X_max`. G93--G128 details
 remain in the registry and package evidence.
@@ -46,18 +46,19 @@ remain in the registry and package evidence.
 
 - Bare endpoints do not select relations; metric causality gives admissibility, not material response.
 - Endpoint scalars, shift, Jacobi data, and holonomy have different mathematical homes.
-- Full pullbacks recover `g`; scalar data stop at its conformal class. The bivector area bilinear
-  recovers `g` up to sign, but metricity is not dynamics.
+- Full pullbacks recover `g`; scalar data stop at its conformal class; the bivector area bilinear recovers `g` up to sign;
+  metricity is not dynamics.
 - G138--G144: a chart or overlap owns carry; endpoints do not glue sheets.
 - G145: values determine `g`, not their valuation, query population, or realization.
 - G146--G147: carrier, independent `O(2)` solder, reversal, and transport equality remain open.
 - G148's working representation gives the identity; `lambda` gives algebraic liveness only.
 - G149 realizes one chord; G150 closes only pointwise algebraic relations among four named notes.
-- G151 derives the curvature commutator. Connecting-family identification is sufficient, restrictive,
-  and query-owned; conditional Jacobi reduction does not select history.
+- G151 derives the curvature commutator. Connecting-family identification is query-owned;
+  conditional Jacobi reduction does not select history.
 - G152 derives ruler equality/carry conditions; neither is selected. G153 gives the exact position
   differential with live `dX_max`. G154 leaves fixed scale unowned and retains quiet, finite,
-  divergent, and nonconvergent common-scale responses. Proper length and history stay open.
+  divergent, and nonconvergent responses. Distinct conformal histories preserve reciprocal position
+  and current identities; coherence reconstructs but does not select.
 
 ## Carrier, action, source, and matter
 
@@ -98,6 +99,8 @@ Do not:
   or G152 as automatically identifying pair position with proper ruler length;
 - call G153's differential a proper-length identity, claim normalized composition fixes `X_max`,
   discard live `dX_max`, or select response from `sech(phi)^2` alone;
+- call conformal twins one gauge-equivalent complete network, or call network reconstruction a
+  physical common-scale/history selection law;
 - identify relational `x` or `s` with proper length, areal radius, signal distance, universe size,
   a selected pair realization, or a selected history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;

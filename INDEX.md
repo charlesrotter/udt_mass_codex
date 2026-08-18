@@ -47,8 +47,8 @@ presentation carry, while endpoint incidence alone does not glue distinct relati
 proves full-pullback valuation determines its metric component on the supplied 4D base atlas while
 query atlas, calibration, numerical valuation, and physical realization remain supplied or open.
 G146--G147 leave carrier open; G148--G150 derive, realize, and bound the first chord. G151 joins
-change to curvature for a query-owned family. G152 gives ruler tests; G153 derives the position
-differential; G154 leaves fixed scale and response class unselected. History open.
+change to curvature for a query-owned family. G152 gives ruler tests; G153 derives position.
+G154 shows distinct coherent conformal networks share reciprocal position; reconstruction does not select history.
 ## Durable prerequisites
 
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`

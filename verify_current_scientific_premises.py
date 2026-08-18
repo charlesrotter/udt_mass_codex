@@ -3257,7 +3257,7 @@ def main() -> None:
     )
     require(
         by_id["G154"]["current_status"].startswith(
-            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REPAIR_FOLLOWUP_PASS__NORMALIZED_COMPOSITION_DOES_NOT_DERIVE_FIXED_DIMENSIONFUL_XMAX"
+            "VERIFIED_WITH_CAVEATS__COLD_EXTERNAL_REVIEW__INDEPENDENT_LOCAL_REPLAY_PASS__CONFORMAL_NETWORK_NONSELECTION__CURRENT_IDENTITIES_ONLY_EVALUATE_SUPPLIED_HISTORY"
         ),
         "G154 bounded status regressed or promoted",
     )
@@ -3266,6 +3266,7 @@ def main() -> None:
         "physical fixed-scale descent or scale carry law",
         "selected common-scale metric history",
         "relation between additive depth and normalized clock or ruler rate",
+        "diffeomorphism-natural nonidentity common-scale or history admissibility law",
         "all-frame shared Xmax numerical value angular or bootstrap modulation",
     ):
         require(open_item in by_id["G154"]["open_scope"], f"G154 open boundary absent: {open_item}")
@@ -3274,7 +3275,11 @@ def main() -> None:
         "conditional fixed-scale consistency theorem promoted to ownership",
         "live dXmax discarded before fixed-scale descent is independently supplied",
         "sech squared coefficient alone called physical loud quiet loud response",
-        "local counterfamilies called physical histories",
+        "conformal twins called the same complete network or common scale called gauge",
+        "reciprocal-position network faithfulness called complete-network history selection",
+        "endpoint kappa bookkeeping called universal physical descent",
+        "compatibility metricity Cartan Bianchi causal overlap transport or rank identities called a nonidentity history law",
+        "bounded counterfamilies called physical histories",
         "sign-paired witnesses called universal reversal without carried frame",
     ):
         require(guard in by_id["G154"]["forbidden_regression"], f"G154 guard absent: {guard}")
