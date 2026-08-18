@@ -49,20 +49,20 @@ derived only on a supplied regular calibrated pair realization.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
   The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G152 — realized chord, ceiling, curvature, and immersion ownership.** G149 realizes the covariant chord;
+- **G149--G153 — chord, curvature, ruler ownership, and differential join.** G149 realizes the covariant chord;
   G150 makes its four named notes free in the unrestricted local class. G151 derives the exact
   second chord/curvature commutator. A query-owned connecting family is a sufficient restriction
   and, away from zero chord, forces `a_n=0` and spatial-gradient laws for depth and screen turn.
-  G152 proves the pair immersion owns coordinate and orthogonal ruler variations, but does not
-  automatically identify either with the working chord. Their exact magnitude, shift, lapse, and
-  carry conditions are now classified. Geodesic Jacobi reduction, query, history, and dynamics
-  remain conditional/open.
+  G152 proves the immersion owns coordinate and orthogonal ruler variations, not their automatic
+  identity with the working chord. G153 resolves the join: finite pair position is not metric proper
+  length; on a supplied smooth family its exact metric-native join is
+  `d rho=u(rho) theta0+n(rho) theta1`, retaining shift, time dependence, and live `d X_max` terms.
 
 Maximum conclusion: curvature organizes change of an actual carried relation family. The pair
 immersion owns the ingredients and exact test for that identification, not an automatic pass or a
 selected family/history.
 Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
-`udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/`. Use `INDEX.md` for the chain.
+`udt_g153_relational_position_ruler_differential_join_2026-08-17/`. Use `INDEX.md` for the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -107,11 +107,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Audit the semantic join between the adopted working pair position and G152's metric-owned
-orthogonal ruler: determine whether active premises identify `xi` with `+/-r`, merely permit that
-as a calibrated query condition, or leave it open. If it remains conditional, state the smallest
-additional clarification before any network-constancy test. Do not infer proper length, fit
-histories, select a query, or derive dynamics, regime amplitudes, `X_max`, or completion.
+Preregister a bounded asymptotic-response classification of G153's exact `u(rho),n(rho)` terms:
+state when one supplied coherent pair family approaches a shared finite `X_max`, separating fixed-
+`X_max` saturation from live `d X_max` modulation. Do not infer proper length, fit or select a
+history/query, or derive dynamics, regime amplitudes, a numerical `X_max`, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

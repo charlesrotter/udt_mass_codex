@@ -22,9 +22,9 @@ Current dependency spine:
 - G148: in a chosen working relation-first representation, the exact covariant first jet splits
   into radial, screen-turn, and rest-space-tilt pieces. `lambda` proves algebraic block liveness only;
   coefficient limits do not select amplitudes or history.
-- G149--G152: G149 realizes one chord; G150 makes four named notes locally free. G151 joins change
-  to curvature for a query-owned connecting family. G152 shows the pair immersion owns
-  coordinate/ruler candidates and exact equality/carry tests, not automatic identification.
+- G149--G153: G149 realizes one chord; G150 makes four named notes locally free. G151 joins change
+  to curvature for a query-owned family. G152 owns ruler tests; G153 proves finite position is not
+  proper length and derives its exact time-live differential.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -54,9 +54,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Audit whether the adopted pair-position semantics identifies the working chord with G152's
-metric-owned orthogonal ruler or leaves that equality as calibrated query structure. Do not equate
-it silently with proper length or infer dynamics.
+Preregister the asymptotic-response classes of G153's differential, separating fixed from varying
+`X_max`. Keep history, proper length, dynamics, numerical `X_max`, and completion open.
 
 ## Historical route
 

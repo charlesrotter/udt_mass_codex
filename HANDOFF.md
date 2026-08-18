@@ -25,10 +25,10 @@ The active dependency chain is:
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
 6. G148: in a chosen working representation, the covariant first jet splits into radial, screen-turn,
    and rest-space-tilt pieces. `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149--G152: G149 realizes one chord; G150 makes its four named notes unrestricted locally. G151
+7. G149--G153: G149 realizes one chord; G150 makes its four named notes unrestricted locally. G151
    joins chord change to curvature. A connecting family restricts the notes and conditionally gives
-   Jacobi deviation. G152 shows the immersion owns its coordinate and orthogonal ruler variations,
-   but their equality with—and carry of—the working chord requires separate exact conditions.
+   Jacobi deviation. G152 classifies immersion/ruler equality and carry. G153 shows finite pair
+   position is not proper length and derives its exact time-live metric-frame differential.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
@@ -77,8 +77,8 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Audit whether adopted pair-position semantics identifies `xi` with G152's metric-owned
-orthogonal ruler, merely permits that as calibrated query structure, or leaves it open. Do not
-silently equate pair position with proper length or infer history, dynamics, `X_max`, or completion.
+Preregister the bounded asymptotic-response classes of G153's exact differential, keeping fixed
+versus varying `X_max` explicit. Do not equate pair position with proper length or infer a selected
+history, dynamics, numerical `X_max`, or completion.
 
 <!-- STARTUP_CURRENT_END -->

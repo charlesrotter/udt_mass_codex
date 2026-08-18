@@ -5,7 +5,6 @@ sources, unresolved scope, and prohibited inferences are in `CURRENT_SCIENTIFIC_
 
 If `LIVE.md`, this guide, the TSV, and a cited source disagree, stop and report the conflict. Never
 choose the file that makes a desired derivation easiest.
-
 ## Foundational relation
 
 | Object | Current status | What is owned | What remains open |
@@ -24,22 +23,21 @@ choose the file that makes a desired derivation easiest.
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Full `B,Q,S,Y,Z` pullback and terminal readout for supplied regular data |
-| G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Rank-ten pullbacks and area bilinear recover `g`; scalars stop at its positive conformal class; Common pair scale is retained, not sourced |
-| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Position is provisionally adopted; a supplied chart or genuine overlap owns carry; endpoints do not glue sheets |
-| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback valuation determines the metric on a supplied 4D base atlas; queries, calibration, values, and realization remain supplied/open |
+| G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks and area recover `g`; scalars stop at its positive conformal class; scale is retained, not sourced |
+| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Position is provisional; a chart or overlap owns carry; endpoints do not glue sheets |
+| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback values determine `g` on a supplied 4D atlas; query and realization remain open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections remain nonunique; rest-space screen identity is conditional; physical carrier remains open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Exact covariant identity inside a chosen working representation; coefficient limits only |
-| G149--G152 chord/curvature/immersion | `VERIFIED_WITH_CAVEATS` | One metric realizes the chord; four notes are free; carried families join curvature; immersions own ruler candidates and tests, not automatic identity |
+| G149--G153 chord/curvature/differential | `VERIFIED_WITH_CAVEATS` | Immersions own ruler tests; finite position is not proper length; its supplied-family differential is exact |
 
-None selects metric values, query population, completion, observations, or `X_max`. G93--G128
-details remain in the registry and package evidence.
-
+None selects values, query population, completion, observations, or `X_max`. G93--G128 details
+remain in the registry and package evidence.
 ## Scale and limits
 
 | Object | Current status | Guard |
 |---|---|---|
-| `X_max` | `WORKING_FOUNDATIONAL_FRAME` | Observer-pair positional-dilation asymptote; not a wall, center, radial edge, seal, or boundary term |
-| Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless Charles explicitly reauthorizes a counterfactual branch |
+| `X_max` | `WORKING_FOUNDATIONAL_FRAME` | Observer-pair dilation asymptote; not a wall, center, radial edge, seal, or boundary term |
+| Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless explicitly reauthorized |
 | Common-factor cancellation | `DERIVED` algebra only | Not a local Weyl-gauge theorem or proof that physical UDT is scale-free |
 | Common pair scale | `SUPPLIED/RETAINED` | Not sourced by fixed `K`, terminal scalars, or `c_E` alone |
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
@@ -57,9 +55,9 @@ details remain in the registry and package evidence.
 - G149 realizes one chord; G150 closes only pointwise algebraic relations among four named notes.
 - G151 derives the curvature commutator. Connecting-family identification is sufficient, restrictive,
   and query-owned; conditional Jacobi reduction does not select history.
-- G152 derives magnitude, shift, lapse, and commutator conditions relating the working chord
-  to an immersion's coordinate and orthogonal ruler variations. Equality and carry are independent;
-  neither is selected.
+- G152 derives ruler equality/carry conditions; neither is selected. G153 replaces finite equality
+  with the exact metric-frame position differential, retaining live `dX_max`. Proper length,
+  calibration, history, value, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -69,7 +67,7 @@ details remain in the registry and package evidence.
 | Matter `S^2` carrier | `POSIT` | Conditional carrier branch only |
 | Static Hopfion | `SETTLED` only in scoped static finite-box carrier problem | Not unconditional particle stability or matter emergence |
 | EH action | `CONDITIONAL_NOT_SELECTED` | Familiarity with GR is not derivation |
-| `C^2`/Bach action | Conditional on inactive strong-CSN premise | No current action priority |
+| `C^2`/Bach action | Conditional on inactive strong-CSN premise | No priority |
 | Native source | `OPEN` | Geometric response/current roles do not supply source substance |
 | Bootstrap | `WORKING` mutual-admissibility posit | No complete fixed point, density selector, or matter theorem |
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
@@ -98,6 +96,8 @@ Do not:
   untested `sigma` direction, or call its exact local chord a regime-amplitude/dynamics law;
 - read G150 as exhausting first-order geometry, G151 as making every terminal chord a Jacobi field,
   or G152 as automatically identifying pair position with proper ruler length;
+- call G153's differential a proper-length identity, freeze `X_max` silently, or infer a selected
+  history, global asymptote realization, or numerical value from it;
 - identify relational `x` or `s` with proper length, areal radius, signal distance, universe size,
   a selected pair realization, or a selected history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
@@ -109,7 +109,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 139-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 140-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

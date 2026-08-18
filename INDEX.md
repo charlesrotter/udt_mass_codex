@@ -25,7 +25,7 @@
   `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous co-present position classification:
   `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G152 position, descent, transport, and relation/history control:
+- G137--G153 position, descent, transport, and relation/history control:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -35,8 +35,9 @@
   `udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/`;
   `udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/`;
   `udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/`; `udt_g151_pair_chord_generalized_deviation_join_2026-08-17/`;
-  `udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/`
-The chain is evaluator → pullback faithfulness → co-presence typing → conformal ceiling → common-scale
+  `udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/`;
+  `udt_g153_relational_position_ruler_differential_join_2026-08-17/`
+The chain is evaluator → pullback faithfulness → co-presence → conformal ceiling → common-scale
 ownership → density/area typing → complete-area faithfulness → bounded projective pair readout.
 Complete area data encode `g`; supplied pairs own `chi=tanh(phi_pair)`. Charles adopted its
 unit-slope chart as working position. G138 does not select metric values or `X_max`. Later steps
@@ -46,9 +47,8 @@ presentation carry, while endpoint incidence alone does not glue distinct relati
 proves full-pullback valuation determines its metric component on the supplied 4D base atlas while
 query atlas, calibration, numerical valuation, and physical realization remain supplied or open.
 G146--G147 leave carrier open; G148--G150 derive, realize, and bound the first chord. G151 joins
-change to curvature for a query-owned family. G152 gives metric ruler candidates and exact tests,
-not automatic identification. Family and history remain open.
-
+change to curvature for a query-owned family. G152 gives ruler tests; G153 derives the position
+differential without calling it proper length. History open.
 ## Durable prerequisites
 
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -59,7 +59,7 @@ not automatic identification. Family and history remain open.
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 139-row premise registry controls current status, not archived prose.
+load-bearing. The 140-row premise registry controls current status, not archived prose.
 
 ## Observational lane
 
