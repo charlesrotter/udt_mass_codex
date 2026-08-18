@@ -1,0 +1,10 @@
+{
+  "dependency_rows": 20,
+  "dimensionful_xmax_derived": false,
+  "dimensionless_bound_derived": true,
+  "fraction_trials": 1200,
+  "native_xmax_finite_difference_rank": 0,
+  "registered_outcome_class": "SCALE_FREE_KERNEL_CLOSES__XMAX_IS_DIMENSIONAL_NULL_DIRECTION__DEPENDENCY_REVERSAL_REQUIRED",
+  "source_count": 26,
+  "status": "PASS"
+}

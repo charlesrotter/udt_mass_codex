@@ -1,0 +1,25 @@
+{
+  "dependency_rows": 20,
+  "dimensionful_xmax_derived": false,
+  "dimensionless_bound_derived": true,
+  "exact_check_names": [
+    "projective_pair_identity",
+    "projective_inverse",
+    "mobius_composition_from_ratio_multiplication",
+    "reversal",
+    "scale_free_first_differential",
+    "bounded_open_interval_gap",
+    "common_rescaling_preserves_kernel_changes_volume",
+    "native_xmax_identifiability_rank_zero",
+    "arbitrary_finite_asymptote_same_local_slope",
+    "unbounded_marking_countermodel",
+    "dimensionful_mobius_scale_is_inserted_parameter",
+    "ce_g_dimensional_length_no_go",
+    "complete_g135_g154_dependency_inventory"
+  ],
+  "exact_checks": 13,
+  "native_xmax_jacobian_rank": 0,
+  "registered_outcome_class": "SCALE_FREE_KERNEL_CLOSES__XMAX_IS_DIMENSIONAL_NULL_DIRECTION__DEPENDENCY_REVERSAL_REQUIRED",
+  "source_count": 26,
+  "status": "PASS"
+}

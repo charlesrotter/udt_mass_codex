@@ -1,0 +1,38 @@
+{
+  "catch_count": 8,
+  "caught": [
+    {
+      "caught": true,
+      "name": "reversed_chi_sign"
+    },
+    {
+      "caught": true,
+      "name": "wrong_mobius_denominator"
+    },
+    {
+      "caught": true,
+      "name": "hidden_X_in_native_residual"
+    },
+    {
+      "caught": true,
+      "name": "common_scale_not_gauge"
+    },
+    {
+      "caught": true,
+      "name": "ce_G_cannot_make_length"
+    },
+    {
+      "caught": true,
+      "name": "G137_dimensionful_join_not_native"
+    },
+    {
+      "caught": true,
+      "name": "G153_live_dX_not_native"
+    },
+    {
+      "caught": true,
+      "name": "G154_fixed_scale_probe_not_derivation"
+    }
+  ],
+  "status": "PASS"
+}
