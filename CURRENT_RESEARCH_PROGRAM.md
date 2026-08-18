@@ -9,8 +9,8 @@ classification. This file states only the current architecture, open gates, and 
 ## Program picture
 
 UDT currently has a strong conditional observer-pair evaluator, faithful metric reconstruction, a
-working bounded projective position readout, an exact working-representation first-jet identity,
-one genuine smooth spacetime/query realization of that identity, plus open numerical/global
+working bounded projective position readout, an exact first-jet identity, one smooth realization,
+and a closed four-output first-order selector ceiling, plus open numerical/global
 valuation problems and an open physical multidirectional carrier.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
@@ -92,6 +92,15 @@ removal controls: every `B,Q,S` spacetime-gradient family and pair-clock-directi
 is live in this witness. The `sigma`-direction jet is untested. This joins the instruments inside
 one local history but does not select that history, determine regime amplitudes, or provide dynamics.
 
+### G150 — first-order four-output freedom ceiling
+
+Fresh adversarial repair/follow-up passed. At every finite pair depth, an explicit smooth quadratic
+immersion makes `(dot(phi_pair),a_n,Omega_2,Omega_3)` surjective over `R^4` in the unrestricted
+smooth regular local class. Therefore no nontrivial universal pointwise algebraic relation among
+those four outputs can be found by another first-order atlas. Other first-order objects, physical
+query restrictions, next pair-frame jets, curvature/Jacobi, global completion, and dynamics remain open.
+This is the bounded first-order ceiling; it is not a history or regime law.
+
 ## Durable prerequisites
 
 - Pair-first reconstruction: a supplied pair immersion owns its tangent plane and positive screen.
@@ -124,18 +133,16 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Does first-order smooth metric/query geometry impose any further invariant relation among
-   `dot(phi_pair)`, `a_n`, and `Omega`, beyond the exact G148 identity and frame orthogonality?
-2. At the smallest second jet, how do curvature and Jacobi data govern change of the joined chord?
-3. How are oriented screens carried across pair queries and compared with `U_gamma`?
-4. Does complete time-live/global metric structure constrain numerical relation values beyond the
+1. At the smallest next pair-frame jet, how do curvature and Jacobi data govern change of the joined chord?
+2. How are oriented screens carried across pair queries and compared with `U_gamma`?
+3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
-5. What fixes `X_max`, regime strengths, radiative/source structure, and global completion?
+4. What fixes `X_max`, regime strengths, radiative/source structure, and global completion?
 
 ## Bounded next action
 
-Close the first-order ceiling in question 1 symbolically before launching another witness atlas. If arbitrary smooth regular
-first jets admit no additional invariant, bank that ceiling and move once to the minimal
-second-jet curvature/Jacobi join in question 2. Characterize rather than fit. Leave carrier
+Move once to the minimal next-pair-frame-jet/metric-curvature/Jacobi join in question 1. Ask whether
+curvature constrains how the joined chord changes along one supplied co-present pair family; do not
+reopen arbitrary first-order atlases. Characterize rather than fit. Leave carrier
 ownership, dynamics, `X_max`, length, and completion open.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

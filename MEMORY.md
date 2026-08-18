@@ -24,6 +24,8 @@ Current dependency spine:
   coefficient limits do not select amplitudes or history.
 - G149: one smooth metric/query derives the same chord from pair-clock/Levi-Civita geometry.
   Registered `B,Q,S` gradients and clock-direction `Y,Z` jets are live; history remains open.
+- G150: the four named chord readouts are freely specifiable in the unrestricted smooth local class;
+  this closes that pointwise algebraic selector only.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -53,10 +55,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Close the first-order ceiling: determine whether arbitrary supplied smooth regular histories obey
-any invariant relation among `dot(phi_pair)`, `a_n`, and `Omega` beyond G148 and frame
-orthogonality. If none does, bank that once and move to the smallest second-jet curvature/Jacobi
-join. Do not fit histories or infer dynamics.
+Move once to a minimal next-pair-frame-jet/curvature/Jacobi join asking how the chord changes along
+one supplied family. Do not reopen first-order atlases, fit histories, or infer dynamics.
 
 ## Historical route
 

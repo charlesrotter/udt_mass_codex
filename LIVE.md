@@ -49,16 +49,15 @@ derived only on a supplied regular calibrated pair realization.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
   The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149 — genuine spacetime/query join.** `VERIFIED_WITH_CAVEATS` after fresh adversarial repair
-  and follow-up. One smooth metric/pair derives `dot(phi_pair),a_n,Omega` from one geometry and
-  reproduces G148's covariant identity. Registered `B,Q,S` gradients and clock-direction `Y,Z` jets are live;
-  the `sigma` jet is untested. This is a local chord, not history selection or dynamics.
+- **G149--G150 — realized covariant chord and first-order ceiling.** G149 derives `dot(phi_pair),a_n,Omega`
+  from one smooth metric/pair. G150 proves those four named components are freely specifiable at
+  every finite depth in the unrestricted smooth local class. Other first-order objects, physical
+  query restrictions, next pair-frame jets, curvature/Jacobi, history, and dynamics remain open.
 
-Maximum conclusion: G149 realizes G148's first-jet chord in one all-live smooth witness rather than
-an external slider. The physical carrier, amplitudes, history, dynamics, and cross-query transport
-remain open.
+Maximum conclusion: the metric assembles one local first-order chord, but unrestricted first-order
+kinematics do not select its four named relative volumes. This closes that selector search only.
 Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
-`udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/`. Use `INDEX.md` for the chain.
+`udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/`. Use `INDEX.md` for the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -103,11 +102,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-First close the first-order ceiling: determine whether any additional invariant relation among
-`dot(phi_pair)`, `a_n`, and `Omega` follows for arbitrary supplied smooth regular histories, beyond
-the exact G148 identity and frame orthogonality. If none does, record that result once and move to
-the smallest second-jet curvature/Jacobi join describing how the chord changes. Do not sweep fitted
-histories or infer dynamics, a physical regime pattern, `X_max`, or completion.
+Move once to the smallest next-pair-frame-jet/metric-curvature/Jacobi join: ask whether curvature
+constrains how the joined chord changes along one supplied co-present pair family. Do not reopen
+arbitrary first-order atlases, fit histories, or infer dynamics, regime amplitudes, `X_max`, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

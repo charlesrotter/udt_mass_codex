@@ -30,6 +30,7 @@ choose the file that makes a desired derivation easiest.
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections remain nonunique; rest-space screen identity is conditional; physical carrier remains open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Exact covariant identity inside a chosen working representation; coefficient limits only |
 | G149 genuine spacetime first jet | `VERIFIED_WITH_CAVEATS` | One smooth all-live metric/query witness realizes the G148 chord exactly; no history selection |
+| G150 first-order freedom ceiling | `VERIFIED_WITH_CAVEATS` | Four named chord readouts are surjective in the unrestricted local class; curvature and physical restrictions remain open |
 
 None selects metric values, query population, completion, observations, or `X_max`. G93--G128
 details remain in the registry and package evidence.
@@ -56,6 +57,8 @@ details remain in the registry and package evidence.
 - G148's working representation gives the identity; `lambda` gives algebraic liveness only.
 - G149 realizes the chord in one smooth metric/query. Registered `B,Q,S` gradients and
   clock-direction `Y,Z` jets are live; the `sigma` jet and physical history remain open.
+- G150 closes only universal pointwise algebraic relations among the four named readouts; other
+  first-order objects and curvature/Jacobi remain open.
 
 ## Carrier, action, source, and matter
 
@@ -92,6 +95,7 @@ Do not:
   loud--quiet--loud law, or promote its first-jet identity to dynamics/history selection;
 - promote G149's rational witness into the physical history, extend its `Y,Z` liveness to the
   untested `sigma` direction, or call its exact local chord a regime-amplitude/dynamics law;
+- read G150 as exhausting first-order geometry or excluding curvature, query, global, or dynamical laws;
 - identify relational `x` or `s` with proper length, areal radius, signal distance, universe size,
   a selected pair realization, or a selected history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
@@ -103,7 +107,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 136-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 137-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

@@ -25,14 +25,15 @@ The active dependency chain is:
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
 6. G148: in a chosen working representation, the covariant first jet splits into radial, screen-turn,
    and rest-space-tilt pieces. `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149: one smooth metric/pair derives the same chord from its pair-clock/Levi-Civita geometry.
-   Registered `B,Q,S` gradients and clock-direction `Y,Z` jets are live; history remains open.
+7. G149--G150: one smooth metric/pair derives the chord; in the unrestricted smooth local class its
+   four named notes are freely specifiable at every finite depth. Other first-order objects,
+   physical-query restrictions, curvature/Jacobi, history, and dynamics remain open.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
 After orientation, open `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`
-or `udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
+or `udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
 `INDEX.md` routes the intervening chain.
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
@@ -75,9 +76,8 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Close the first-order ceiling: test symbolically whether arbitrary smooth regular histories obey any
-additional invariant relation among `dot(phi_pair)`, `a_n`, and `Omega`. If the answer is no, bank
-that ceiling and proceed to one minimal second-jet curvature/Jacobi join. Do not turn G149's witness
-into a selected history, fitted regime pattern, dynamics, `X_max`, or completion.
+Proceed once to a minimal next-pair-frame-jet/metric-curvature/Jacobi join asking how the chord
+changes along one supplied co-present family. Do not reopen arbitrary first-order atlases or turn
+G149/G150 into a selected history, fitted regime pattern, dynamics, `X_max`, or completion.
 
 <!-- STARTUP_CURRENT_END -->

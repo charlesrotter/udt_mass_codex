@@ -25,7 +25,7 @@
   `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous co-present position classification:
   `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G149 position, descent, transport, and relation/history control:
+- G137--G150 position, descent, transport, and relation/history control:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -33,20 +33,20 @@
   `udt_g145_copresent_relation_history_descent_equivalence_2026-08-17/`;
   `udt_g146_multidirectional_relational_position_composition_2026-08-17/`; `udt_g147_pair_directional_metric_screen_solder_2026-08-17/`;
   `udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/`;
-  `udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/`
+  `udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/`;
+  `udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/`
 The chain is evaluator → pullback faithfulness → co-presence typing → conformal ceiling → common-scale
 ownership → density/area typing → complete-area faithfulness → bounded projective pair readout.
-Complete area data encode `g`; every supplied pair owns `chi=tanh(phi_pair)`. Charles adopted its
-unit-slope chart as working position. G138's `x/X_max=tanh(phi_pair)` join does not
-select metric values or dimensional `X_max`. The last steps classify descent and provisionally
-choose endpoint position within supplied congruent families while preserving path transport. G140
+Complete area data encode `g`; supplied pairs own `chi=tanh(phi_pair)`. Charles adopted its
+unit-slope chart as working position. G138 does not select metric values or `X_max`. Later steps
+classify descent and provisionally choose position in supplied congruent families. G140
 rejects pullback-only congruence; G141--G144 show that a chart or genuine embedded overlap owns its
 presentation carry, while endpoint incidence alone does not glue distinct relation sheets. G145
 proves full-pullback valuation determines its metric component on the supplied 4D base atlas while
 query atlas, calibration, numerical valuation, and physical realization remain supplied or open.
-G146--G147 leave carrier open; G148 derives a working-representation first-jet identity; G149
-realizes that chord from one genuine all-live smooth metric/query witness. Amplitudes and physical
-history remain open.
+G146--G147 leave carrier open; G148 derives a first-jet identity; G149 realizes it in one smooth
+metric/query; G150 closes only a universal algebraic relation among its four named outputs.
+Curvature/Jacobi, amplitudes, and physical history remain open.
 
 ## Durable prerequisites
 
@@ -58,7 +58,7 @@ history remain open.
 
 For G93--G128 chronology and exact package names, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 136-row premise registry controls current status, not the archived prose.
+load-bearing. The 137-row premise registry controls current status, not the archived prose.
 
 ## Observational lane
 

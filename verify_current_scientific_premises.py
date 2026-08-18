@@ -147,6 +147,7 @@ def validate_startup_surface(root: Path) -> None:
             "G147",
             "G148",
             "G149",
+            "G150",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -182,7 +183,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "136-row exact registry",
+            "137-row exact registry",
             "without dumping its wide rows into model context",
             "not a startup read or a current-frontier index",
         ),
@@ -218,6 +219,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g147_pair_directional_metric_screen_solder_2026-08-17/",
             "udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/",
             "udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/",
+            "udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -238,6 +240,7 @@ def validate_startup_surface(root: Path) -> None:
             "G147",
             "G148",
             "G149",
+            "G150",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -257,6 +260,7 @@ def validate_startup_surface(root: Path) -> None:
             "G147",
             "G148",
             "G149",
+            "G150",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -278,10 +282,11 @@ def validate_startup_surface(root: Path) -> None:
             "G147",
             "G148",
             "G149",
+            "G150",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "136-row",
+            "137-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -350,6 +355,8 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g146_multidirectional_relational_position_composition_2026-08-17/AUDIT_REPORT.md",
         "udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md",
         "udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/AUDIT_REPORT.md",
+        "udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/AUDIT_REPORT.md",
+        "udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -376,9 +383,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 136, "premise registry must contain exactly 136 rows")
+    require(len(rows) == 137, "premise registry must contain exactly 137 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 136, "duplicate premise id")
+    require(len(by_id) == 137, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -2903,7 +2910,8 @@ def main() -> None:
     require(by_id["G149"]["epistemic_label"] == "MIXED", "G149 label changed")
     for open_item in (
         "physical multidirectional carrier and independent O2 solder",
-        "arbitrary-history first-order invariant ceiling",
+        "relations involving other first-order objects",
+        "next pair-frame jet metric curvature and Jacobi",
         "sigma-direction pair first jet",
         "physical history query family dynamics and selection",
     ):
@@ -2920,6 +2928,33 @@ def main() -> None:
         by_id["G149"]["controlling_source"]
         == "udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/AUDIT_REPORT.md",
         "G149 source changed",
+    )
+    require(
+        by_id["G150"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_FOLLOWUP_PASS__NO_NONTRIVIAL_UNIVERSAL_POINTWISE_ALGEBRAIC_RELATION"
+        ),
+        "G150 bounded status regressed or promoted",
+    )
+    require(by_id["G150"]["epistemic_label"] == "MIXED", "G150 label changed")
+    for open_item in (
+        "other first-order objects and unused jet kernel combinations",
+        "physical query restrictions",
+        "next pair-frame jet metric curvature Jacobi and differential relations",
+        "global completion physical history dynamics regime amplitudes",
+    ):
+        require(open_item in by_id["G150"]["open_scope"], f"G150 open boundary absent: {open_item}")
+    for guard in (
+        "four-output surjectivity called exhaustion of first-order geometry",
+        "absence of pointwise algebraic relation called no-go against differential curvature query global dynamical or regime laws",
+        "flat counterfamily called evidence that curvature is irrelevant",
+        "separate implementation replay called substantially independent",
+        "phi zero pair-frame freedom called a nonzero positional chord",
+    ):
+        require(guard in by_id["G150"]["forbidden_regression"], f"G150 guard absent: {guard}")
+    require(
+        by_id["G150"]["controlling_source"]
+        == "udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/AUDIT_REPORT.md",
+        "G150 source changed",
     )
 
     guard_rows = read_tsv(
@@ -2999,7 +3034,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G149-extended premise guards; PASS: 136-row premise "
+        "PASS: G150-extended premise guards; PASS: 137-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
