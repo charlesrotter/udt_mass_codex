@@ -49,7 +49,7 @@ derived only on a supplied regular calibrated pair realization.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
   The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G160 — chord through time-live carry.** G149 realizes one covariant chord; G150 makes four
+- **G149--G161 — chord through time-live carry and quotient.** G149 realizes one covariant chord; G150 makes four
   notes locally free. G151 joins chord change to curvature and conditionally to Jacobi deviation.
   G152 owns ruler tests, not automatic chord equality. G153 proves finite position is not proper
   length and derives `d rho=u(rho) theta0+n(rho) theta1` with live `d X_max`. G154 leaves fixed
@@ -59,13 +59,15 @@ derived only on a supplied regular calibrated pair realization.
   carry. G157 removes base lockstep. G158 derives the gauge-fixed `3+3+4` semidirect score.
   G159 joins it to `dot h=P^T eta V+V^T eta P`, with `P=Omega_R V+E dot J`. The pair first jet is
   live-Lorentz-coframe-gauge invariant. G160 derives supplied `GL+(2)` first-jet carry and right-rate
-  composition. Closure is sufficient, not necessary modulo Lorentz stabilizers; `B+(2)` is a
-  sufficient terminal-law class. No result chooses a physical history, query, parameter, or carry.
+  composition. G161 classifies the exact left Lorentz quotient and unique positive `B+(2)` section;
+  neither selects physical carry. Smooth sweeps fix quotient paths but not vertical rapidity.
+  Normal transport is insufficient; simple extrinsic spectrum conditionally supplies a flag on a
+  supplied immersion. No result chooses physical history, query, parameter, or carry.
 
 Maximum conclusion: ten coframe channels form one coupled changing machine whose score descends and
 carries exactly on supplied regular data. No physical score, cross-query carry, history evolution,
 or numerical `X_max` is derived.
-Primary source: `udt_g160_three_observer_timelive_first_jet_carry_2026-08-18/`.
+Primary source: `udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/`.
 Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
@@ -112,9 +114,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G160 closes supplied pair-first-jet carry. Next classify its Lorentz stabilizer quotient and whether
-the complete coframe/screen-normal transport resolves the invisible carry data. Do not add a
-selector, fit, evolution law, or completion.
+G161 closes the regular pair-carry quotient. Next test whether its conditional simple-spectrum
+extrinsic eigenflag descends and composes across supplied overlapping pair immersions, including
+the first eigen-crossing boundary. Do not assume physical query, carry, history, selector, fit,
+evolution law, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

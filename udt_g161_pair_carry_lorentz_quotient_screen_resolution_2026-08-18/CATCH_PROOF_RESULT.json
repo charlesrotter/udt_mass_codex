@@ -1,0 +1,57 @@
+{
+  "algebra_mutation_count": 5,
+  "catch_count": 12,
+  "caught": [
+    {
+      "caught": true,
+      "name": "replace_left_stabilizer_fiber_by_right_action"
+    },
+    {
+      "caught": true,
+      "name": "reverse_lorentzian_qr_boost_sign"
+    },
+    {
+      "caught": true,
+      "name": "drop_future_clock_condition"
+    },
+    {
+      "caught": true,
+      "name": "promote_null_clock_to_regular_section"
+    },
+    {
+      "caught": true,
+      "name": "claim_extrinsic_CII_always_has_simple_spectrum"
+    },
+    {
+      "caught": true,
+      "name": "promote_bplus2_section_to_physical_carry"
+    },
+    {
+      "caught": true,
+      "name": "claim_distance_sweep_fixes_vertical_rapidity"
+    },
+    {
+      "caught": true,
+      "name": "claim_screen_normal_transport_universally_solders_tangent_boost"
+    },
+    {
+      "caught": true,
+      "name": "promote_bare_pair_plane_to_owner_of_second_fundamental_form"
+    },
+    {
+      "caught": true,
+      "name": "close_null_and_degenerate_strata_without_proof"
+    },
+    {
+      "caught": true,
+      "name": "promote_quotient_section_to_physical_carry"
+    },
+    {
+      "caught": true,
+      "name": "promote_kinematic_quotient_to_physical_history"
+    }
+  ],
+  "metadata_guard_mutation_count": 7,
+  "metadata_guards_are_independent_semantic_proofs": false,
+  "status": "PASS"
+}

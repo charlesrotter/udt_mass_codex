@@ -1,0 +1,1 @@
+PASS: G161-extended premise guards; PASS: 148-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics

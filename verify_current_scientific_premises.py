@@ -188,6 +188,7 @@ def validate_startup_surface(root: Path) -> None:
             "G158",
             "G159",
             "G160",
+            "G161",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -225,7 +226,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "147-row exact registry",
+            "148-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -302,6 +303,7 @@ def validate_startup_surface(root: Path) -> None:
             "G158",
             "G159",
             "G160",
+            "G161",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -332,6 +334,7 @@ def validate_startup_surface(root: Path) -> None:
             "G158",
             "G159",
             "G160",
+            "G161",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -364,10 +367,11 @@ def validate_startup_surface(root: Path) -> None:
             "G158",
             "G159",
             "G160",
+            "G161",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "147-row",
+            "148-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -626,9 +630,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 147, "premise registry must contain exactly 147 rows")
+    require(len(rows) == 148, "premise registry must contain exactly 148 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 147, "duplicate premise id")
+    require(len(by_id) == 148, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3495,6 +3499,36 @@ def main() -> None:
         == "udt_g160_three_observer_timelive_first_jet_carry_2026-08-18/AUDIT_REPORT.md",
         "G160 source changed",
     )
+    require(
+        by_id["G161"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REPAIR_FOLLOWUP_PASS__PREREGISTERED__INDEPENDENT_RAW_FRACTION_AND_DUAL_EXACT_REPLAY_PASS__PAIR_METRIC_AND_FIRST_JET_ARE_EXACT_LEFT_LORENTZ_STABILIZER_QUOTIENTS"
+        ),
+        "G161 bounded status regressed or promoted",
+    )
+    require(by_id["G161"]["epistemic_label"] == "MIXED", "G161 label changed")
+    for open_item in (
+        "physical nonisometric cross-query carry query population and history",
+        "ownership and global compatibility of supplied pair immersions",
+        "extrinsic eigenflag composition across observer networks",
+        "null past-clock degenerate eigen-crossing cut topology-changing and global-completion strata",
+    ):
+        require(open_item in by_id["G161"]["open_scope"], f"G161 open boundary absent: {open_item}")
+    for guard in (
+        "left quotient written as right quotient",
+        "positive Bplus2 quotient section called the physical carry",
+        "distance sweep said to fix vertical rapidity",
+        "Lorentz stabilizer declared physically trivial rather than coframe-equivalent on the bounded evaluator",
+        "screen metric normal connection or holonomy claimed to universally fix tangent boost",
+        "bare pair plane called owner of II",
+        "simple CII spectrum assumed on all physical pairs",
+        "conditional eigenflag called query or history selection",
+    ):
+        require(guard in by_id["G161"]["forbidden_regression"], f"G161 guard absent: {guard}")
+    require(
+        by_id["G161"]["controlling_source"]
+        == "udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/AUDIT_REPORT.md",
+        "G161 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3573,7 +3607,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G160-extended premise guards; PASS: 147-row premise "
+        "PASS: G161-extended premise guards; PASS: 148-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

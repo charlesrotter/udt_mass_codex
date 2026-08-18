@@ -1,0 +1,33 @@
+{
+  "exact_check_names": [
+    "finite_fibers_are_exact_left_lorentz_stabilizer_orbits",
+    "first_jet_kernel_is_one_dimensional_metric_skew_boost_rate",
+    "constructive_positive_lorentzian_qr_section",
+    "pair_terminal_T_beta_L_are_exact_quotient_coordinates",
+    "positive_section_uniqueness_and_null_boundary_equations",
+    "full_distance_sweep_and_first_jet_leave_vertical_rapidity_invisible",
+    "vertical_rapidity_rate_is_exact_first_jet_kernel",
+    "flat_product_screen_normal_data_do_not_resolve_tangent_boost",
+    "extrinsic_CII_is_normal_rotation_invariant_and_tangent_self_adjoint",
+    "simple_extrinsic_spectrum_conditionally_supplies_causal_pair_flag",
+    "umbilic_jordan_and_complex_extrinsic_failure_strata_explicit"
+  ],
+  "exact_checks": 11,
+  "extrinsic_CII_simple_causal_spectrum_conditionally_fixes_flag": true,
+  "finite_pair_metric_fiber": "left_SOplus(h)_orbit_on_time_oriented_component",
+  "first_jet_vertical_dimensions": 2,
+  "landing": "PAIR_FIRST_JET_IS_EXACT_LORENTZ_STABILIZER_QUOTIENT__POSITIVE_BPLUS2_IS_UNIQUE_TIME_ORIENTED_GAUGE_SECTION_ON_FUTURE_TIMELIKE_CLOCK_STRATUM__DISTANCE_SWEEP_FIXES_QUOTIENT_PATH_AND_FIRST_JET_NOT_VERTICAL_RAPIDITY__SCREEN_NORMAL_TRANSPORT_DOES_NOT_UNIVERSALLY_RESOLVE_TANGENT_BOOST__NORMAL_GAUGE_INVARIANT_EXTRINSIC_SIMPLE_CAUSAL_SPECTRUM_CONDITIONALLY_FIXES_PAIR_FLAG__DEGENERATE_NULL_AND_GLOBAL_STRATA_OPEN__PHYSICAL_CARRY_HISTORY_QUERY_AND_COMPLETION_OPEN",
+  "metric_plus_bare_pair_plane_owns_II": false,
+  "null_and_degenerate_strata_closed": false,
+  "pair_immersion_is_required_to_own_II": true,
+  "physical_carry_derived": false,
+  "physical_history_derived": false,
+  "positive_bplus2_is_physical_carry_selector": false,
+  "positive_bplus2_unique_quotient_section": true,
+  "registered_outcome_class": "LORENTZ_QUOTIENT_AND_UNIQUE_BPLUS2_SECTION_DERIVED__SWEEP_FIXES_QUOTIENT_NOT_VERTICAL_RAPIDITY__NORMAL_TRANSPORT_INDEPENDENT__EXTRINSIC_SIMPLE_SPECTRUM_CONDITIONALLY_FIXES_FLAG",
+  "screen_normal_transport_universally_resolves_tangent_boost": false,
+  "smooth_distance_sweep_fixes_quotient_path": true,
+  "smooth_distance_sweep_fixes_vertical_rapidity": false,
+  "source_count": 10,
+  "status": "PASS"
+}

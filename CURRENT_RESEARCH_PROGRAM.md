@@ -7,7 +7,8 @@ Authority: active dependency spine; not canonization
 ## Program picture
 
 UDT has a conditional pair evaluator, faithful metric reconstruction, working bounded position,
-exact chord identities, and an exact variable-balance complete-coframe transition; physical multidirectional carrier and physical score/history remain open.
+exact chord identities, an exact variable-balance complete-coframe transition, and an exact regular
+Lorentz quotient of pair carry; physical multidirectional carrier and physical score/history remain open.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -86,27 +87,16 @@ At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega
 `R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
 those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
 
-### G151--G160 — curvature, score, terminal first jet, and time-live carry
+### G151--G161 — curvature, score, carry, and quotient
 
-G151 exposes the curvature commutator and conditional Jacobi reduction. G152 shows the immersion
-owns `J1=beta T u+L n` and ruler `r=L n`, not their automatic identity with `xi=rho n`; equality and
-carry are independent. Its conditional `X_max` expression is no value law.
-G153 proves finite `rho` is not proper length and derives
-`d rho=u(rho)theta0+n(rho)theta1` with live `dX_max`. G154 leaves fixed `Xmax` unowned; with supplied
-`Xstar`, common scale realizes four response classes across distinct coherent conformal histories.
-G155's 41-source census finds no active `kappa` constraint or evolution equation: bounded
-common-scale history rank is zero, not scale gauge or a future-law no-go.
-G156 identifies the positive metric half-density as the pair scale carrier. A supplied typed carry
-owns `sigma=one-half log|det C|`; full three-observer carry closure implies scalar scale closure,
-but determinant-one shear remains invisible. Query charts and genuine overlaps are scale-flat;
-physical nonisometric cross-query carry and `kappa` evolution remain open.
-G157 corrects the lockstep framing. Every regular positive-triangular `B+(2)` comparison uniquely
-factors into common scale, reciprocal depth, and normalized shift. Their exact semidirect law allows
-changing relative strengths; one scalar-parameter fixed-generator subgroup is an extra ansatz.
-G158 derives the gauge-fixed `3+3+4` score `dot V=Omega_R V+E dot J`; it organizes but does not
-select a history or observable score. G159 derives `dot h=P^T eta V+V^T eta P`; live Lorentz gauge
-cancels from `(h,dot h)`. G160 derives supplied `GL+(2)` first-jet carry and right-rate composition;
-Lorentz stabilizers make the pair first jet nonfaithful to carry closure.
+G151 joins chord change to curvature/Jacobi structure; G152 keeps ruler equality query-owned.
+G153 derives the live position differential without making position proper length. G154 exhibits
+four conformal response classes; G155 finds no active `kappa` evolution in its frozen corpus.
+G156 derives conditional half-density carry; G157 removes base lockstep. G158 derives the
+gauge-fixed `3+3+4` score, and G159 descends it to `(h,dot h)`. G160 carries that first jet exactly
+but cannot see Lorentz stabilizers. G161 classifies the exact left quotient and unique positive
+section. Sweeps fix quotient paths, not vertical rapidity. Normal transport is insufficient;
+simple extrinsic `C_II` spectrum conditionally supplies a causal flag on a supplied immersion.
 
 ## Durable prerequisites
 
@@ -139,8 +129,8 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. What is the exact Lorentz stabilizer quotient of G160 carry, and does complete screen-normal
-   transport resolve its pair-first-jet-invisible data?
+1. Where G161's conditional extrinsic eigenflag exists, does it descend and compose consistently
+   across supplied overlapping pair immersions, and what happens at eigen-crossings?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -148,6 +138,7 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G160 closes supplied time-live first-jet carry. Next classify its stabilizer quotient and screen-normal
-lift without adding a physical selector, evolution law, or fit.
+G161 closes the regular carry quotient and identifies a conditional extrinsic flag. Next test that
+flag's overlap and three-observer composition on supplied simple-spectrum pair immersions, without
+assuming it selects the physical query, carry, history, evolution, or fit.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

@@ -24,7 +24,7 @@ The dependency chain is:
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
 6. G148: its chosen first jet splits into radial, screen-turn, and rest-space-tilt pieces.
    `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149--G160: G149 realizes one chord; G150 makes four notes locally. G151
+7. G149--G161: G149 realizes one chord; G150 makes four notes locally. G151
    joins chord change to curvature. A connecting family restricts the notes and conditionally gives
    Jacobi deviation. G152 classifies immersion/ruler equality and carry. G153 shows finite pair
    position is not proper length and derives its exact time-live metric-frame differential. G154
@@ -32,12 +32,14 @@ The dependency chain is:
    are distinct coherent networks with one reciprocal subnetwork.
    G155 finds no common-scale history equation. G156 derives conditional scale carry. G157 removes
    base lockstep. G158 derives the `3+3+4` score; G159 descends it to `(h,dot h)`. G160 derives its
-   supplied time-live carry, with Lorentz-stabilizer nonfaithfulness. History and carry remain open.
+   supplied time-live carry. G161 classifies its exact left Lorentz quotient and unique positive
+   section. Sweeps miss vertical rapidity; only simple extrinsic spectrum conditionally fixes a
+   flag. Physical carry and history remain open.
 
 The position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
-After orientation, open `udt_g160_three_observer_timelive_first_jet_carry_2026-08-18/AUDIT_REPORT.md`
+After orientation, open `udt_g161_pair_carry_lorentz_quotient_screen_resolution_2026-08-18/AUDIT_REPORT.md`
 only when load-bearing. Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 For G93--G128 provenance use `INDEX.md` or
@@ -83,7 +85,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G160 closes supplied pair-first-jet carry. Next classify the invisible Lorentz stabilizer and test
-whether complete screen-normal transport resolves it. No selector, fit, or evolution law is authorized.
+G161 closes the regular Lorentz quotient. Next test whether its conditional extrinsic eigenflag
+descends and composes across supplied overlapping pair immersions. No physical selector, fit, or
+evolution law is authorized.
 
 <!-- STARTUP_CURRENT_END -->

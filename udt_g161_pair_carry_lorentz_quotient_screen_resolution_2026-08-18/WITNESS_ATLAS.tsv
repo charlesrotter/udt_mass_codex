@@ -1,0 +1,10 @@
+witness	object	result	role
+W01	M2 M1^-1 fiber identity	equal pair metrics iff left Lorentz-related	finite quotient theorem
+W02	eta-skew boost generator	one-dimensional infinitesimal kernel	first-jet quotient
+W03	Lorentzian QR formula	unique positive upper-triangular representative	quotient section
+W04	smooth rational live boost L(lambda)	same pair sweep and first jet	vertical rapidity survives distance sweep
+W05	flat 2+2 product with II=0	same screen normal connection and holonomy	normal transport no-go
+W06	A2=diag(1,2), A3=0	C_II=diag(1,4), discriminant 9	conditional flag success
+W07	umbilic shape operators	C_II scalar	full boost stabilizer survives
+W08	C_II=[[5,5],[-5,-5]]	discriminant 0	Jordan/null failure stratum
+W09	C_II=[[0,36],[-36,0]]	discriminant -5184	complex-spectrum failure stratum

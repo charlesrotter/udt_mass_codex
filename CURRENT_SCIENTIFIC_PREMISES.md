@@ -24,7 +24,7 @@
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Pullbacks determine `g` on a supplied 4D atlas; query and realization open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections nonunique; screen identity conditional; carrier open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Covariant identity in a chosen representation; coefficient limits only |
-| G149--G160 score/carry | `VERIFIED_WITH_CAVEATS` | First jet carries exactly; stabilizer/history open |
+| G149--G161 score/carry/quotient | `VERIFIED_WITH_CAVEATS` | First jet carries exactly; G161 classifies its Lorentz quotient and conditional extrinsic flag; history open |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits
@@ -43,19 +43,18 @@ None selects values, completion, observations, or `X_max`.
 
 ## Geometry, query, and causality
 
-- Bare endpoints do not select relations; causality gives admissibility, not material response.
-- Scalars, shift, Jacobi data, and holonomy have different homes.
-- Pullbacks recover `g`; scalars stop at its conformal class; the bivector area bilinear recovers `g` up to sign.
+- Bare endpoints do not select relations; causality gives admissibility, not response. Scalars,
+  shift, Jacobi data, and holonomy have different homes.
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal class.
   Metricity is not dynamics.
-- G138--G144: a chart or overlap owns carry; endpoints do not glue sheets.
-- G145: values determine `g`, not their valuation, query population, or realization.
-- G146--G147: carrier, independent `O(2)` solder, reversal, and transport equality remain open.
-- G148's working representation gives the identity; `lambda` gives algebraic liveness only.
-- G149 realizes one chord; G150 closes pointwise relations among four notes.
-- G151 derives the curvature commutator; conditional connecting/Jacobi structure is query-owned.
-- G152/G153/G154/G155/G156/G157 derive conditional carry, live-`dX_max`, conformal-response
-  freedom, zero bounded scale-history rank, and changing base balance. G158 derives the gauge-fixed
-  full score; G159 descends it to `(h,dot h)`; G160 carries that jet but cannot see Lorentz stabilizers.
+- G138--G145: charts/overlaps own carry and values determine `g`; endpoints do not glue sheets or
+  own valuation, query population, or realization.
+- G146--G150: carrier and `O(2)` solder remain open; `lambda` proves liveness; one chord is realized
+  and four notes are pointwise free.
+- G151/G152/G153/G154/G155/G156/G157 give bounded curvature-through-balance results, not history.
+  G158 derives the score; G159 descends it; G160 carries it.
+- G161 gives the exact left Lorentz quotient and unique positive section. Sweeps miss vertical
+  rapidity; normal transport is insufficient; simple extrinsic spectrum conditionally fixes a flag.
 
 ## Carrier, action, source, and matter
 
@@ -104,6 +103,9 @@ Do not:
 - call G159 coefficients arbitrary-`GL(2)` observables, freeze `dot J`, or promote local descent to
   evolution, history selection, physical carry, or light speed;
 - infer carry closure from equal first jets, or call positive `B+(2)` necessary;
+- write G161's left quotient as a right quotient, promote its triangular section to physical carry,
+  claim a distance sweep fixes vertical rapidity, or assume its extrinsic simple-spectrum flag
+  exists or composes on every physical query;
 - identify relational position with proper length, signal distance, universe size, or history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
 - identify celestial `S^2` with the matter carrier or density descent with a physical value law;
@@ -113,10 +115,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 147-row authority. Each row records the object,
-classification, stamp, scope, unresolved scope, prohibited inference,
-controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
-chronology.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 148-row authority. On conflict, stop. IDs are stable.
 
 During orientation use this guide and run:
 
