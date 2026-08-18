@@ -1,10 +1,7 @@
 # Scientific premise index
 
-This is a precedence guide, not `CANON.md`. Read `LIVE.md` first. Exact status and scope are in
-`CURRENT_SCIENTIFIC_PREMISES.tsv`.
-
-If `LIVE.md`, this guide, the TSV, and a cited source disagree, stop and report the conflict. Never
-choose the file that makes a desired derivation easiest.
+This is a precedence guide, not `CANON.md`. Read `LIVE.md` first; the TSV owns exact status. On any
+conflict, stop and report it.
 ## Foundational relation
 
 | Object | Current status | What is owned | What remains open |
@@ -28,9 +25,9 @@ choose the file that makes a desired derivation easiest.
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback values determine `g` on a supplied 4D atlas; query and realization remain open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections nonunique; screen identity conditional; carrier open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Exact covariant identity inside a chosen working representation; coefficient limits only |
-| G149--G156 chord/scale | `VERIFIED_WITH_CAVEATS` | No scale-history equation; conditional half-density carry derived, selector open |
+| G149--G157 chord/scale/balance | `VERIFIED_WITH_CAVEATS` | `B+(2)` balance may vary; full orchestra score/evolution open |
 
-None selects values, completion, observations, or `X_max`. Earlier details remain in the registry.
+None selects values, completion, observations, or `X_max`.
 ## Scale and limits
 
 | Object | Current status | Guard |
@@ -41,27 +38,25 @@ None selects values, completion, observations, or `X_max`. Earlier details remai
 | Common pair scale | `SUPPLIED/RETAINED` | Not sourced by fixed `K`, terminal scalars, or `c_E` alone |
 | Common-scale principal rank | `DERIVED` source-bounded zero | No active constraint or evolution equation for `kappa` in G155's frozen 41-source regular arena; not a future-law no-go |
 | Pair scale carry | `DERIVED_CONDITIONAL` | Half-density determinant character; incomplete closure |
+| Base channel balance | `DERIVED` bounded | `B+(2)` semidirect composition permits changing ratios; full screen/mixing law open |
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
 
 ## Geometry, query, and causality
 
 - Bare endpoints do not select relations; causality gives admissibility, not material response.
 - Scalars, shift, Jacobi data, and holonomy have different homes.
-- Full pullbacks recover `g`; scalar data stop at its conformal class; the bivector area bilinear recovers `g` up to sign;
-  metricity is not dynamics.
+- Full pullbacks recover `g`; scalars stop at its conformal class; the bivector area bilinear
+  recovers `g` up to sign. Metricity is not dynamics.
 - G138--G144: a chart or overlap owns carry; endpoints do not glue sheets.
 - G145: values determine `g`, not their valuation, query population, or realization.
 - G146--G147: carrier, independent `O(2)` solder, reversal, and transport equality remain open.
 - G148's working representation gives the identity; `lambda` gives algebraic liveness only.
 - G149 realizes one chord; G150 closes only pointwise algebraic relations among four named notes.
-- G151 derives the curvature commutator. Connecting-family identification is query-owned;
-  conditional Jacobi reduction does not select history.
-- G152 derives ruler equality/carry conditions; neither is selected. G153 gives the exact position
-  differential with live `dX_max`. G154 leaves fixed scale unowned and retains quiet, finite,
-  divergent, and nonconvergent responses. Distinct conformal histories preserve reciprocal position
-  and current identities; coherence reconstructs but does not select. G155 classifies the active
-  equation roles and finds zero owned physical-history principal rank for common scale. This is not
-  scale gauge. G156 derives half-density carry; physical carry and history stay open.
+- G151 derives the curvature commutator; conditional connecting/Jacobi structure is query-owned.
+- G152 derives ruler equality/carry conditions. G153 gives the position differential with live
+  `dX_max`. G154 retains four responses across conformal histories. G155 finds zero source-bounded
+  scale-history rank, not scale gauge. G156 derives half-density carry. G157 removes lockstep only
+  for `B+(2)`; full screen/mixing composition and physical score remain open.
 
 ## Carrier, action, source, and matter
 
@@ -103,6 +98,8 @@ Do not:
 - call G155 rank zero a no-go against a future native scale law, or treat finite common-scale data
   as propagating without an owned evolution equation;
 - call G156 scalar scale closure full matrix closure or its conditional carry metric-selected;
+- call G157's `B+(2)` law full orchestra composition, fixed ratios, a loud--quiet--loud prediction,
+  or a physical-history/value law;
 - identify relational position with proper length, signal distance, universe size, or history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
 - identify celestial `S^2` with the matter carrier or density descent with a physical value law;
@@ -112,7 +109,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 143-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 144-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

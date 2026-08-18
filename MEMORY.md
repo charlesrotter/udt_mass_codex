@@ -20,11 +20,12 @@ Current dependency spine:
   physical carrier, `O(2)` solder, and cross-query carry remain open.
 - G148: the chosen representation has an exact covariant first-jet split. `lambda` proves block
   liveness only; coefficient limits select neither amplitudes nor history.
-- G149--G156: G149 realizes one chord; G150 makes four named notes locally free. G151 joins change
+- G149--G157: G149 realizes one chord; G150 makes four named notes locally free. G151 joins change
   to curvature; G152 owns ruler tests; G153 gives the exact differential; G154 leaves fixed scale
   and response unselected. Distinct conformal histories remain coherent, share reciprocal position,
   and realize four asymptotic classes; network reconstruction does not select one. G155 finds zero
-  scale-history rank zero. G156 derives conditional half-density carry; scalar closure misses shear.
+  scale-history rank zero. G156 derives conditional scale carry. G157 shows `B+(2)` composition
+  permits changing scale/reciprocal/shift ratios; full screen/mixing composition stays open.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -53,8 +54,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G156 closes the local scale-carrier audit. Next classify whether scale, reciprocal, and shift
-exhaust the supplied triangular carry; do not add a selector or evolution law.
+G157 closes the base lockstep question. Next derive the supplied full `B,Q,S` composition; do not
+add a selector, fit, or evolution law.
 Keep proper length, dynamics, numerical `X_max`, and completion open.
 
 ## Historical route

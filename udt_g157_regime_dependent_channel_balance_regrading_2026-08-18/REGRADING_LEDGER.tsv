@@ -1,0 +1,21 @@
+source_id	object	active_depth_only_lockstep	regraded_role	retained_open	rationale
+S01	complete_pair_kernel	NO	KINEMATIC_EVALUATOR	physical pair history and regime functions	Full B Q S Y Z pullback is live before readout; fixed compressed P is only a diagnostic template
+S02	finite_radius_screen	NO	KINEMATIC_CHANNEL_IDENTITY	physical radius frequency and transfer history	D_sky=R O is an exact conditional factorization and does not impose a fixed ratio
+S03	endpoint_triangular_transition	NO	EXPECTED_CHANNEL_FREEDOM	physical compatible family and history	B+(2) transition contains independent common-scale reciprocal and shift entries
+S04	physical_carry_join	NO	GENUINE_TYPED_OWNER_OPEN	physical cross-query carry and query family	Conditional total carry algebra is exact but a supplied carry is still required
+S05	single_query_carry	NO	CONDITIONAL_QUERY_RESTRICTION	cross-query branch carry	One supplied query chart owns identity carry between its own presentations without constraining other query sheets
+S06	genuine_overlap_carry	NO	GENUINE_TYPED_OWNER_OPEN	nonoverlap transport and branch population	Overlap differential is owned only after genuine overlap is proved
+S07	relation_history_descent	NO	HISTORY_DATA_OR_LAW_OPEN	numerical valuation query population and realization	A rank-complete valued network reconstructs its supplied metric history while physical realization remains open
+S08	multidirectional_projection	NO	GENUINE_QUERY_OUTPUT_MULTIPLICITY	physical output protocol and reversal extension	Two inequivalent mathematical projections and controls survive; neither is physically selected or lifted
+S09	triangular_transition_exact_algebra	NO	ALGEBRAIC_SUPPORT	physical family history and carry	Exact B+(2) construction contains separate determinant grading reciprocal grading and shift
+S10	directional_screen_solder	NO	GENUINE_TYPED_OWNER_OPEN	physical carrier independent O2 solder and cross-query carry	Conditional metric-screen identity does not select a universal vector lift
+S11	relation_first_first_jet	NO	HISTORY_DATA_OR_LAW_OPEN	realized derivatives and regime amplitudes	Coefficient functions are derived but channel amplitudes depend on the supplied time-live history
+S12	genuine_spacetime_chord	NO	KINEMATIC_LIVENESS_WITNESS	physical history query and regime amplitudes	One full-metric witness establishes coexistence and liveness of the registered chord components only
+S13	first_order_freedom_ceiling	NO	EXPECTED_CHANNEL_FREEDOM	physical differential global or query restrictions	Rank-four surjectivity directly excludes a universal pointwise algebraic lockstep for the four named outputs
+S14	generalized_deviation	NO	CONDITIONAL_QUERY_RESTRICTION	physical connecting congruence and history	Connecting and geodesic conditions can correlate chord and readout components for a supplied query but are not universal
+S15	immersion_ruler_ownership	NO	GENUINE_TYPED_OWNER_OPEN	physical ruler identification and query family	J1=beta T u+L n and r=L n; xi=epsilon r iff rho=epsilon L; for f=rho/L connecting carry holds iff u(f)=0 and J1(log T)-u(beta T)=0
+S16	position_differential	NO	HISTORY_DATA_OR_LAW_OPEN	Xmax realization and time-live channel derivatives	Exact differential retains live dXmax and history-dependent derivatives rather than fixed strengths
+S17	asymptotic_response_classes	NO	HISTORY_SPACE_CLASSIFICATION	law or data determining realized asymptotic behavior	Four classes are permitted supplied-history behaviors not four notes required to share one ratio
+S18	common_scale_principal_rank	NO	GENUINE_EVOLUTION_LAW_OPEN	common-scale constraint evolution or supplied data	Rank zero means the current record does not propagate kappa; it does not require a fixed ratio
+S19	three_observer_scale_carry	NO	EXPECTED_CHANNEL_FREEDOM	physical cross-query carry and kappa history	Determinant character composes but determinant-one reciprocal and shear structure remains independently live
+S20	current_research_program	NO	MIXED_PROGRAM_FRAME	laws or data determining regime-dependent score	Program treats complete metric and relation values as supplied and leaves their physical numerical valuation open

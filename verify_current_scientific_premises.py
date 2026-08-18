@@ -184,6 +184,7 @@ def validate_startup_surface(root: Path) -> None:
             "G154",
             "G155",
             "G156",
+            "G157",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -221,7 +222,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "143-row exact registry",
+            "144-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -263,6 +264,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/",
             "udt_g153_relational_position_ruler_differential_join_2026-08-17/",
             "udt_g156_three_observer_scale_carry_audit_2026-08-18/",
+            "udt_g157_regime_dependent_channel_balance_regrading_2026-08-18/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -290,6 +292,7 @@ def validate_startup_surface(root: Path) -> None:
             "G154",
             "G155",
             "G156",
+            "G157",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -316,6 +319,7 @@ def validate_startup_surface(root: Path) -> None:
             "G154",
             "G155",
             "G156",
+            "G157",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -344,10 +348,11 @@ def validate_startup_surface(root: Path) -> None:
             "G154",
             "G155",
             "G156",
+            "G157",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "143-row",
+            "144-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -606,9 +611,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 143, "premise registry must contain exactly 143 rows")
+    require(len(rows) == 144, "premise registry must contain exactly 144 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 143, "duplicate premise id")
+    require(len(by_id) == 144, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3355,6 +3360,36 @@ def main() -> None:
         == "udt_g156_three_observer_scale_carry_audit_2026-08-18/AUDIT_REPORT.md",
         "G156 source changed",
     )
+    require(
+        by_id["G157"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REPAIR_FOLLOWUP_PASS__PREREGISTERED__INDEPENDENT_EXACT_REPLAY_PASS__BPLUS2_UNIQUE_THREE_CHANNEL_FACTORIZATION"
+        ),
+        "G157 bounded status regressed or promoted",
+    )
+    require(by_id["G157"]["epistemic_label"] == "MIXED", "G157 label changed")
+    for open_item in (
+        "full B Q S Y Z screen and mixing composition law",
+        "physical regime-dependent channel functions and their history evolution",
+        "physical nonisometric cross-query carry and query population",
+        "singular null degenerate cut topology-changing and global-completion strata",
+    ):
+        require(open_item in by_id["G157"]["open_scope"], f"G157 open boundary absent: {open_item}")
+    for guard in (
+        "Bplus2 theorem called full orchestra composition",
+        "lawful composition called fixed channel ratios",
+        "founded reciprocal D promoted to the full positive-triangular or complete-metric transition",
+        "changing-balance endpoint family called a physical loud quiet loud prediction",
+        "supplied valued-network reconstruction called dynamics physical-history selection or value law",
+        "G155 common-scale rank-zero gap erased",
+        "G142-G144 cross-query carry gap erased",
+        "full screen or mixing balance claimed derived",
+    ):
+        require(guard in by_id["G157"]["forbidden_regression"], f"G157 guard absent: {guard}")
+    require(
+        by_id["G157"]["controlling_source"]
+        == "udt_g157_regime_dependent_channel_balance_regrading_2026-08-18/AUDIT_REPORT.md",
+        "G157 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3433,7 +3468,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G156-extended premise guards; PASS: 143-row premise "
+        "PASS: G157-extended premise guards; PASS: 144-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

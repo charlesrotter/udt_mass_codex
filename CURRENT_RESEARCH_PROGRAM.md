@@ -7,7 +7,7 @@ Authority: active dependency spine; not canonization
 ## Program picture
 
 UDT has a conditional pair evaluator, faithful metric reconstruction, working bounded position,
-exact chord identities, and open valuation, physical multidirectional carrier, and scale closure.
+exact chord identities, and an exact variable-balance base transition; physical multidirectional carrier and full-orchestra valuation remain open.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -86,26 +86,28 @@ At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega
 `R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
 those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
 
-### G151--G156 — curvature, differential, scale rank, and scale carry
+### G151--G157 — curvature, differential, scale carry, and regime balance
 
 G151 exposes the curvature commutator and conditional Jacobi reduction. G152 shows the immersion
 owns `J1=beta T u+L n` and ruler `r=L n`, not their automatic identity with `xi=rho n`; equality and
 carry are independent. Its conditional `X_max` expression is no value law.
-
 G153 proves finite `rho` is not proper length and derives
 `d rho=u(rho)theta0+n(rho)theta1` with live `dX_max`. G154 leaves fixed `Xmax` unowned; with supplied
 `Xstar`, common scale realizes four response classes across distinct coherent conformal histories.
-
 G155 then separates definitions, evaluators, network admissibility, query evolution, calibration,
 and physical-history equations across 41 frozen sources. No active owned statement is a constraint
 or evolution equation for `kappa`; the common-scale physical-history principal rank is zero in that
 regular source-bounded arena. Finite common-scale data therefore do not presently propagate. This
 does not make common scale gauge or exclude a future native scale law.
-
 G156 identifies the positive metric half-density as the pair scale carrier. A supplied typed carry
 owns `sigma=one-half log|det C|`; full three-observer carry closure implies scalar scale closure,
 but determinant-one shear remains invisible. Query charts and genuine overlaps are scale-flat;
 physical nonisometric cross-query carry and `kappa` evolution remain open.
+G157 corrects the lockstep framing. Every regular positive-triangular `B+(2)` comparison uniquely
+factors into common scale, reciprocal depth, and normalized shift. Their exact semidirect law allows
+changing relative strengths; one scalar-parameter fixed-generator subgroup is an extra ansatz.
+This already refutes universal fixed-ratio necessity, but full `B,Q,S` screen/mixing composition and
+the realized history score remain open.
 
 ## Durable prerequisites
 
@@ -139,8 +141,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Do joined scale, reciprocal, and shift characters exhaust the supplied positive-triangular
-   three-observer transition, and exactly what determinant-one structure remains?
+1. What is the full `B,Q,S` screen/mixing transition composition, beyond the classified `B+(2)`
+   base law, and how does one supplied time-live history carry its changing balance?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -148,6 +150,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G156 closes the local scale-carrier/carry audit. Next classify the complete supplied triangular
-transition without adding a physical selector, evolution law, or fit.
+G157 closes the base fixed-ratio question. Next derive the supplied complete `B,Q,S` composition
+without adding a physical selector, evolution law, or fit.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

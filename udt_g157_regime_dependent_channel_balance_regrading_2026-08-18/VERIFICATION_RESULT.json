@@ -1,0 +1,11 @@
+{
+  "catch_count": 6,
+  "exact_checks": 10,
+  "independent_semidirect_trials": 500,
+  "independent_subgroup_trials": 300,
+  "landing": "MIXED_REGRADING__BPLUS2_NO_FIXED_CHANNEL_RATIO_DERIVED__REGIME_DEPENDENT_BASE_BALANCE_ALLOWED_BY_NATIVE_SEMIDIRECT_COMPOSITION__SUPPLIED_VALUED_HISTORY_CAN_CARRY_CHANGING_SCORE__FULL_SCREEN_MIXING_COMPOSITION_PHYSICAL_CROSS_QUERY_CARRY_AND_HISTORY_EVOLUTION_REMAIN_OPEN",
+  "ledger_count": 20,
+  "required_files": 19,
+  "source_count": 20,
+  "status": "PASS"
+}

@@ -1,0 +1,48 @@
+{
+  "active_depth_only_lockstep_sources": 0,
+  "changing_balance_frames": [
+    "Matrix([[1, 0], [0, 1]])",
+    "Matrix([[2, 1], [0, 2]])",
+    "Matrix([[3, 4], [0, 5]])"
+  ],
+  "channel_jacobian_determinant": "-2*exp(-delta + 3*sigma)",
+  "composition_law": "(s2,d2,m2)*(s1,d1,m1)=(s2+s1,d2+d1,m1+exp(2d1)m2)",
+  "cross_query_carry_derived": false,
+  "exact_check_names": [
+    "unique_positive_triangular_channel_parameterization",
+    "channel_coordinate_jacobian_rank_three",
+    "native_semidirect_composition",
+    "native_semidirect_inverse",
+    "common_scale_central_in_Bplus2",
+    "reciprocal_depth_rescales_shift_under_conjugation",
+    "changing_balance_endpoint_family_composes_exactly",
+    "changing_balance_family_is_not_depth_only_homomorphism",
+    "scalar_parameter_full_transition_subgroup_is_extra_fixed_generator_ansatz",
+    "founded_reciprocal_core_is_special_slice_not_full_lockstep"
+  ],
+  "exact_checks": 10,
+  "fixed_channel_ratio_derived": false,
+  "history_evolution_derived": false,
+  "inverse_law": "(s,d,m)^-1=(-s,-d,-exp(-2d)m)",
+  "landing": "MIXED_REGRADING__BPLUS2_NO_FIXED_CHANNEL_RATIO_DERIVED__REGIME_DEPENDENT_BASE_BALANCE_ALLOWED_BY_NATIVE_SEMIDIRECT_COMPOSITION__SUPPLIED_VALUED_HISTORY_CAN_CARRY_CHANGING_SCORE__FULL_SCREEN_MIXING_COMPOSITION_PHYSICAL_CROSS_QUERY_CARRY_AND_HISTORY_EVOLUTION_REMAIN_OPEN",
+  "ledger_count": 20,
+  "physical_regime_score_derived": false,
+  "regime_dependent_balance_kinematically_allowed": true,
+  "registered_outcome_class": "MIXED_REGRADING",
+  "role_counts": {
+    "ALGEBRAIC_SUPPORT": 1,
+    "CONDITIONAL_QUERY_RESTRICTION": 2,
+    "EXPECTED_CHANNEL_FREEDOM": 3,
+    "GENUINE_EVOLUTION_LAW_OPEN": 1,
+    "GENUINE_QUERY_OUTPUT_MULTIPLICITY": 1,
+    "GENUINE_TYPED_OWNER_OPEN": 4,
+    "HISTORY_DATA_OR_LAW_OPEN": 3,
+    "HISTORY_SPACE_CLASSIFICATION": 1,
+    "KINEMATIC_CHANNEL_IDENTITY": 1,
+    "KINEMATIC_EVALUATOR": 1,
+    "KINEMATIC_LIVENESS_WITNESS": 1,
+    "MIXED_PROGRAM_FRAME": 1
+  },
+  "source_count": 20,
+  "status": "PASS"
+}

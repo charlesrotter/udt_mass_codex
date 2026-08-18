@@ -1,0 +1,30 @@
+{
+  "catch_count": 6,
+  "caught": [
+    {
+      "caught": true,
+      "name": "omit_source"
+    },
+    {
+      "caught": true,
+      "name": "activate_depth_only_lockstep"
+    },
+    {
+      "caught": true,
+      "name": "call_G150_missing_selector"
+    },
+    {
+      "caught": true,
+      "name": "erase_common_scale_evolution_gap"
+    },
+    {
+      "caught": true,
+      "name": "erase_cross_query_carry_gap"
+    },
+    {
+      "caught": true,
+      "name": "promote_varying_balance_to_prediction"
+    }
+  ],
+  "status": "PASS"
+}

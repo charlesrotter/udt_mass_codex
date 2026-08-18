@@ -24,19 +24,20 @@ The active dependency chain is:
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
 6. G148: in a chosen working representation, the covariant first jet splits into radial, screen-turn,
    and rest-space-tilt pieces. `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149--G156: G149 realizes one chord; G150 makes its four named notes unrestricted locally. G151
+7. G149--G157: G149 realizes one chord; G150 makes four named notes unrestricted locally. G151
    joins chord change to curvature. A connecting family restricts the notes and conditionally gives
    Jacobi deviation. G152 classifies immersion/ruler equality and carry. G153 shows finite pair
    position is not proper length and derives its exact time-live metric-frame differential. G154
    leaves fixed scale unowned and retains four common-scale response classes. External review and
    independent replay show conformal twins are distinct coherent networks with one reciprocal subnetwork.
-   G155 finds zero active common-scale history equations. G156 derives the metric half-density and
-   conditional scale character; scale closure is weaker than full carry closure.
+   G155 finds zero active common-scale history equations. G156 derives conditional scale carry.
+   G157 proves `B+(2)` scale/reciprocal/shift composition allows changing ratios; full screen/mixing
+   composition and the realized score remain open.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
-After orientation, open `udt_g156_three_observer_scale_carry_audit_2026-08-18/AUDIT_REPORT.md`
+After orientation, open `udt_g157_regime_dependent_channel_balance_regrading_2026-08-18/AUDIT_REPORT.md`
 only when load-bearing. Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 For G93--G128 provenance use `INDEX.md` or
@@ -82,7 +83,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G156 closes the local carrier/carry question conditionally. Next map whether scale, reciprocal,
-and shift exhaust the supplied triangular carry; no selector or evolution law is authorized.
+G157 removes fixed-ratio lockstep from the base transition. Next derive full `B,Q,S` screen/mixing
+composition for a supplied history; no selector, fit, or evolution law is authorized.
 
 <!-- STARTUP_CURRENT_END -->

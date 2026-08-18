@@ -49,20 +49,22 @@ derived only on a supplied regular calibrated pair realization.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
   The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G156 — chord through scale carry.** G149 realizes one covariant chord; G150 makes its four
+- **G149--G157 — chord through regime balance.** G149 realizes one covariant chord; G150 makes four
   notes locally free. G151 joins chord change to curvature and conditionally to Jacobi deviation.
   G152 owns ruler tests, not automatic chord equality. G153 proves finite position is not proper
   length and derives `d rho=u(rho) theta0+n(rho) theta1` with live `d X_max`. G154 leaves fixed
   `X_max` unowned and admits four common-scale response classes; coherent conformal twins share
   reciprocal position. G155's preregistered 41-source census finds no active `kappa` constraint or
   evolution equation. G156 derives the pair metric half-density and conditional determinant scale
-  carry; one-query/overlap scale is flat, while physical cross-query carry and `kappa` history stay open.
+  carry. G157 regrades the lockstep framing: the `B+(2)` scale/reciprocal/shift transition has an
+  exact three-channel semidirect law with no fixed ratio. This refutes universal lockstep but does
+  not yet classify full screen/mixing composition or determine the physical score.
 
-Maximum conclusion: a supplied pair family owns an exact differential response for finite
-relational position. Its complete network can reconstruct its metric, but current identities do not
-select a nonisometric cross-query carry, constrain or evolve common scale, select history, or fix
-numerical `X_max`.
-Primary source: `udt_g156_three_observer_scale_carry_audit_2026-08-18/`.
+Maximum conclusion: a supplied pair family owns exact finite-position response and its `B+(2)`
+channels may change balance while composing lawfully. Its network can reconstruct its supplied
+metric, but no physical score, full screen/mixing composition, cross-query carry, common-scale
+evolution, or numerical `X_max` is derived.
+Primary source: `udt_g157_regime_dependent_channel_balance_regrading_2026-08-18/`.
 Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
@@ -109,10 +111,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G156 closes the local scale-carrier question: the pair metric owns its half-density and a supplied
-carry owns the determinant character, but scalar closure misses determinant-one structure. Next
-map whether the joined scale, reciprocal, and shift characters exhaust the already supplied
-positive-triangular carry. Do not add a selector, evolution law, fit, or completion.
+G157 closes the false lockstep question for `B+(2)`: composition coordinates the three base
+channels without fixing their ratios. Next derive the complete `B,Q,S` screen/mixing transition
+composition and test whether one supplied time-live history can carry a changing full-orchestra
+score. Do not add a selector, fit, evolution law, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under
