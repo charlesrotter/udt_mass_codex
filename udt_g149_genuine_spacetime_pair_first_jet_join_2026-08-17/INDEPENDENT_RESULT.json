@@ -1,0 +1,92 @@
+{
+  "schema": "udt.g149.independent.v2",
+  "status": "PASS",
+  "method": "independent NumPy float64 LC, pair-chain-rule, and five-control replay; no production import",
+  "dotphi": -0.0057293225391223885,
+  "a_n": -0.04707490789324866,
+  "Omega": [
+    -0.00032847309529049004,
+    -0.00012753204966511186,
+    -0.00412449697419622,
+    0.0001567924157272046
+  ],
+  "identity_residual_max_abs": 8.673617379884035e-19,
+  "production_comparison_abs": {
+    "dotphi": 8.673617379884035e-19,
+    "a_n": 0.0,
+    "Omega_max": 1.734723475976807e-18
+  },
+  "liveness": {
+    "B": {
+      "changed": true,
+      "delta_dotphi": -0.007472168455764641,
+      "delta_a_n": -0.0371192332608343,
+      "delta_Omega": [
+        -0.0006586857017336502,
+        -0.0001602490493015774,
+        -0.0067792315890214845,
+        -0.0002491510808715908
+      ]
+    },
+    "Q": {
+      "changed": true,
+      "delta_dotphi": 0.00022292012587255168,
+      "delta_a_n": -0.00010539668915316575,
+      "delta_Omega": [
+        2.4335532032317727e-05,
+        -7.345203644224224e-05,
+        -0.0009893729619488588,
+        0.00047764654133687813
+      ]
+    },
+    "S": {
+      "changed": true,
+      "delta_dotphi": 1.0746825051670926e-05,
+      "delta_a_n": 0.0007084324924845481,
+      "delta_Omega": [
+        -0.00023708666460061484,
+        0.00014611625593222196,
+        0.000743280184851933,
+        -0.0012924450166203049
+      ]
+    },
+    "Y": {
+      "changed": true,
+      "delta_dotphi": 0.001104986422565733,
+      "delta_a_n": -0.011780483795092132,
+      "delta_Omega": [
+        -2.1494799925716318e-05,
+        1.894269970097409e-05,
+        0.00015635341712912088,
+        -0.00015078953592990822
+      ]
+    },
+    "Z": {
+      "changed": true,
+      "delta_dotphi": 0.00040419254315227516,
+      "delta_a_n": 0.0012217733593463675,
+      "delta_Omega": [
+        0.0005644585389371835,
+        -5.888991955448662e-05,
+        0.002744473974793068,
+        0.0013715315078121318
+      ]
+    }
+  },
+  "liveness_production_comparison_max_abs": {
+    "B": 1.734723475976807e-18,
+    "Q": 9.093745721722168e-18,
+    "S": 5.658180087658726e-18,
+    "Y": 8.673617379884035e-18,
+    "Z": 9.053088140253962e-18
+  },
+  "gates": {
+    "regular": true,
+    "orthonormal": true,
+    "screen": true,
+    "identity": true,
+    "production_agreement": true,
+    "all_BQS_gradient_and_clock_direction_YZ_families_live": true,
+    "liveness_deltas_agree": true
+  }
+}

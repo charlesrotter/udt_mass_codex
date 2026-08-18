@@ -63,8 +63,9 @@ F^\mu(\tau,\sigma)=J_\tau^\mu\tau+J_\sigma^\mu\sigma
 +\tfrac12F_{\sigma\sigma}^\mu\sigma^2.
 \]
 
-The block-removal liveness controls set only the corresponding first-jet family to zero while
-leaving its base value and every other registered datum unchanged:
+The block-removal liveness controls set only the corresponding spacetime gradient (`B,Q,S`) or
+pair-clock-direction first-jet family (`Y,Z`) to zero while leaving its base value and every other
+registered datum unchanged:
 
 ```text
 B control: all dB_dx -> 0
@@ -75,4 +76,6 @@ Z control: screen-coordinate components of F_tau_tau and F_tau_sigma -> 0
 ```
 
 For the `Y` and `Z` controls, the names refer to the base and screen rows of the pair Jacobian
-`[J_tau,J_sigma]`; they are not new spacetime coframe blocks.
+`[J_tau,J_sigma]` differentiated along `tau`; they are not new spacetime coframe blocks. The
+registered `F_sigma_sigma` makes the immersion genuinely quadratic but is not part of this
+clock-direction liveness test, so no `sigma`-direction liveness claim is preregistered.

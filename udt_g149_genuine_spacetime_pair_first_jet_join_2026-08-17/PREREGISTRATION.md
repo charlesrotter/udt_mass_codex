@@ -21,7 +21,8 @@ that history as physical.
 
 ## Exact bounded regime
 
-- one affine complete coframe `E(x)` on a local four-coordinate patch, evaluated at one marked point;
+- one smooth complete coframe `E(x)` assembled from coordinate-affine `B(x),Q(x),S(x)` on a local
+  four-coordinate patch, evaluated at one marked point;
 - one quadratic calibrated pair immersion `F(tau,sigma)` through that point;
 - regular time-oriented pair data: `h00<0`, `det(h)<0`, finite real `phi_pair`;
 - all complete-coframe blocks `B,Q,S` and pair first-jet blocks `Y,Z` retained;
@@ -38,7 +39,7 @@ that history as physical.
 | terminal `phi_pair=(1/4)log((-det h)/h00^2)` | `DERIVED` on regular pair | frozen sources |
 | `xi=X_max tanh(phi_pair)n` | `CHOSE / WORKING_RELATION_FIRST_REPRESENTATION` | G148; not spacetime displacement |
 | Levi-Civita connection | `DERIVED` uniquely from supplied metric | no GR field equations |
-| affine coframe, quadratic immersion, rational entries | `CHOSE_NUMERICAL_WITNESS` | frozen before outcome; not fitted |
+| affine `B,Q,S`, quadratic immersion, rational entries | `CHOSE_NUMERICAL_WITNESS` | frozen before outcome; not fitted |
 | `X_max` | `WORKING_FOUNDATIONAL_FRAME`, symbolic | value and realization `OPEN` |
 | physical history, dynamics, bootstrap, observations | omitted / `OPEN` | not inferred |
 
@@ -98,8 +99,9 @@ The bounded landing requires:
 4. exact vanishing of the four-vector residual in the G148 decomposition;
 5. exact screen orthogonality `g(Omega,u)=g(Omega,n)=0`;
 6. exact agreement of direct and independently reconstructed `a_n` and `Omega`;
-7. each registered block family `B,Q,S,Y,Z`, when removed from the first jet alone, changes at
-   least one of `dot(phi_pair)`, `a_n`, or `Omega` relative to the all-live witness;
+7. each registered spacetime-gradient family `B,Q,S` and pair-clock-direction first-jet family
+   `Y,Z`, when removed alone, changes at least one of `dot(phi_pair)`, `a_n`, or `Omega` relative to
+   the all-live witness; no `sigma`-direction liveness claim is made;
 8. an independent implementation that does not import the production module;
 9. catch proofs that reject a wrong `a_n` sign, omission of `Omega`, and substitution of the G148
    algebraic `lambda` derivative for the spacetime clock derivative.
@@ -113,8 +115,8 @@ At most:
 
 ```text
 EXPLICIT_SMOOTH_COMPLETE_SPACETIME_QUERY_WITNESS__
-LEVI_CIVITA_DERIVED_DOTPHI_AN_OMEGA__
+PAIR_CLOCK_DERIVED_DOTPHI__LEVI_CIVITA_DERIVED_AN_OMEGA__
 G148_COVARIANT_IDENTITY_EXACTLY_REALIZED__
-ALL_BQSYZ_BLOCK_FAMILIES_FIRST_JET_LIVE_IN_THE_REGISTERED_WITNESS__
+ALL_BQS_SPACETIME_GRADIENT_FAMILIES_AND_PAIR_CLOCK_DIRECTION_YZ_FIRST_JETS_LIVE_IN_THE_REGISTERED_WITNESS__
 PHYSICAL_HISTORY_DYNAMICS_REGIME_AMPLITUDES_AND_GLOBAL_COMPLETION_OPEN
 ```

@@ -1,0 +1,121 @@
+{
+  "schema": "udt.g149.production.v1",
+  "status": "PASS",
+  "scope": "one preregistered local smooth complete-coframe and quadratic pair-immersion witness",
+  "witness": {
+    "det_E0": "12",
+    "det_g0": "-144",
+    "h": [
+      [
+        "-7619/2025",
+        "-1492/1701"
+      ],
+      [
+        "-1492/1701",
+        "20779585/2286144"
+      ]
+    ],
+    "det_h": "-8157287/233280",
+    "phi_ratio": "9176947875/3715146304",
+    "T_float": 1.9397085182579545,
+    "L_float": 3.048580342297088,
+    "beta_float": 0.2331264570403565
+  },
+  "derived_first_jet": {
+    "dotphi_exact": "-41104205367815385595283327177545201523861939176594892892515261182424164222463303193*sqrt(7619)/626227263951087773371375849380115808162305604055453752782889349928073982818676482345410",
+    "dotphi_float": -0.005729322539122389,
+    "a_n_exact": "-46680916235776309932885685040087822485192798649279745721937020989654251761055221692041*sqrt(310751848265)/552785640320909676511281180728459110539361317772848082155312043670078179103530043410743164260",
+    "a_n_float": -0.04707490789324866,
+    "Omega_float": [
+      -0.0003284730952904886,
+      -0.00012753204966511184,
+      -0.0041244969741962186,
+      0.000156792415727204
+    ],
+    "Omega_norm2_float": 1.6895466984777257e-05,
+    "g148_lambda_phidot_float": -0.009899893008986142
+  },
+  "liveness": {
+    "B": {
+      "changed": true,
+      "delta_dotphi_float": -0.007472168455764639,
+      "delta_a_n_float": -0.0371192332608343,
+      "delta_Omega_float": [
+        -0.0006586857017336496,
+        -0.00016024904930157728,
+        -0.006779231589021484,
+        -0.0002491510808715922
+      ]
+    },
+    "Q": {
+      "changed": true,
+      "delta_dotphi_float": 0.0002229201258725521,
+      "delta_a_n_float": -0.00010539668915315665,
+      "delta_Omega_float": [
+        2.4335532032320164e-05,
+        -7.34520364422422e-05,
+        -0.000989372961948857,
+        0.00047764654133687737
+      ]
+    },
+    "S": {
+      "changed": true,
+      "delta_dotphi_float": 1.0746825051676584e-05,
+      "delta_a_n_float": 0.0007084324924845458,
+      "delta_Omega_float": [
+        -0.0002370866646006184,
+        0.0001461162559322214,
+        0.0007432801848519317,
+        -0.0012924450166203044
+      ]
+    },
+    "Y": {
+      "changed": true,
+      "delta_dotphi_float": 0.0011049864225657373,
+      "delta_a_n_float": -0.011780483795092124,
+      "delta_Omega_float": [
+        -2.149479992571858e-05,
+        1.8942699700973687e-05,
+        0.0001563534171291215,
+        -0.0001507895359299086
+      ]
+    },
+    "Z": {
+      "changed": true,
+      "delta_dotphi_float": 0.0004041925431522842,
+      "delta_a_n_float": 0.0012217733593463697,
+      "delta_Omega_float": [
+        0.0005644585389371778,
+        -5.888991955448745e-05,
+        0.0027444739747930686,
+        0.0013715315078121318
+      ]
+    }
+  },
+  "exact_gates": {
+    "regular_h00_negative": true,
+    "regular_det_h_negative": true,
+    "orthonormal": true,
+    "torsion_free": true,
+    "metric_compatible": true,
+    "dotphi_trace_identity": true,
+    "screen_orthogonal": true,
+    "nabla_n_decomposition": true,
+    "g148_identity": true,
+    "all_BQS_gradient_and_clock_direction_YZ_families_live": true,
+    "wrong_sign_caught": true,
+    "omitted_omega_caught": true,
+    "lambda_substitution_caught": true
+  },
+  "premise_stamps": {
+    "metric_and_pullback": "DERIVED_ON_SUPPLIED_SMOOTH_WITNESS",
+    "position_representation": "CHOSE_WORKING_RELATION_FIRST_REPRESENTATION",
+    "witness_values": "CHOSE_NUMERICAL_WITNESS",
+    "levi_civita_first_jet": "DERIVED_FROM_SUPPLIED_METRIC_AND_PAIR",
+    "physical_history": "OPEN",
+    "dynamics": "OPEN",
+    "regime_amplitudes": "OPEN",
+    "X_max_value_and_global_realization": "OPEN"
+  },
+  "maximum_conclusion": "EXPLICIT_SMOOTH_COMPLETE_SPACETIME_QUERY_WITNESS__PAIR_CLOCK_DERIVED_DOTPHI__LEVI_CIVITA_DERIVED_AN_OMEGA__G148_COVARIANT_IDENTITY_EXACTLY_REALIZED__ALL_BQS_SPACETIME_GRADIENT_FAMILIES_AND_PAIR_CLOCK_DIRECTION_YZ_FIRST_JETS_LIVE_IN_THE_REGISTERED_WITNESS__PHYSICAL_HISTORY_DYNAMICS_REGIME_AMPLITUDES_AND_GLOBAL_COMPLETION_OPEN"
+}
