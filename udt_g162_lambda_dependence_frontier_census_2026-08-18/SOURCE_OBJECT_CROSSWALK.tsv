@@ -1,0 +1,14 @@
+source_id	object_ids	coverage_note
+S01	D01,D02,D03,D04,D05,D21	complete pair metric terminal readout and supplied-history boundary
+S02	D06,D07,D22	working pair position response and open completion
+S03	D19	Jacobi and ambient propagation channel
+S04	D06,D07	position and differential response
+S05	D07,D21,D22	common-scale response and history/completion boundary
+S06	D08,D09	half-density joined sigma and carry determinant grading
+S07	D10	canonical endpoint calibration transition
+S08	D17,D21	complete coframe score representative and supplied-history boundary
+S09	D01,D02,D03,D04,D05,D17	pair first-jet descent and representative score boundary
+S10	D02,D04,D09,D11,D12,D13,D14,D15,D16,D22	carry rate split joined channels defects and open physical carry
+S11	D01,D02,D03,D10,D11,D20,D22	quotient section extrinsic flag and open carry
+S12	D03,D19,D20,D22	pair immersion Jacobi ambient and extrinsic channels
+S13	D18	normal and screen holonomy

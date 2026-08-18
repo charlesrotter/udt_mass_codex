@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-18",
+  "status": "FRESH_ADVERSARIAL_FAIL_BEFORE_BANKING",
+  "failed_followup": "REPAIRED_SCALAR_KERNEL_DESCENDS_TO_QUOTIENT__CANONICAL_ENDPOINT_CARRY_EXACT__JOINED_ROUTE_FRAME_CHANNEL_RETAINS_LAMBDA__HISTORY_GAP_UNCHANGED",
+  "issues": [
+    "D09 conflated joined sigma=one-half log det C with the raw carry determinant grading one-half log det M",
+    "the authored row count did not independently certify source-to-object completeness",
+    "G160 K_BA, S_h/A_h, and K_F were absent or only implicit",
+    "open history selection did not explicitly distinguish supplied quotient-invariant kappa",
+    "the flat-overlap mutation catch compared a boost with an endpoint section for unrelated metrics",
+    "the reverse direction of the compatible-carry factorization was not written"
+  ],
+  "core_factorization_algebra_rejected": false,
+  "banked": false
+}

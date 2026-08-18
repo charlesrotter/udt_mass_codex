@@ -1,0 +1,9 @@
+{
+  "date": "2026-08-18",
+  "initial_registered_outcome": "DEPENDENCY_CENSUS_TYPE_FAILURE",
+  "status": "CAUGHT_BEFORE_BANKING",
+  "trigger": "D15 complete_coframe_score_components is representative coframe gauge data and fits none of the five original classes",
+  "invalid_initial_landing": "SCALAR_KERNEL_DESCENDS_TO_QUOTIENT__CANONICAL_ENDPOINT_CARRY_EXACT__JOINED_ROUTE_FRAME_CHANNEL_RETAINS_LAMBDA__HISTORY_GAP_UNCHANGED",
+  "core_algebra_rejected": false,
+  "repair_required": "add an explicit representative coframe gauge class and rerun the bounded census"
+}
