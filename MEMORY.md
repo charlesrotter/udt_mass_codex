@@ -19,13 +19,12 @@ Current dependency spine:
   physical carrier, `O(2)` solder, and cross-query carry remain open.
 - G148: the chosen representation has a covariant first-jet split. `lambda` proves liveness only;
   coefficient limits select neither amplitudes nor history.
-- G149--G158: G149 realizes one chord; G150 makes four notes locally free. G151 joins change
+- G149--G159: G149 realizes one chord; G150 makes four notes locally free. G151 joins change
   to curvature; G152 owns ruler tests; G153 gives the exact differential; G154 leaves fixed scale
   and response unselected. Distinct conformal histories share reciprocal position and realize four
   asymptotic classes; reconstruction does not select one. G155 finds
   scale-history rank zero. G156 derives conditional scale carry. G157 removes base lockstep. G158
-  derives gauge-fixed `3+3+4` composition and changing score; physical
-  history, gauge-independent score, and cross-query carry remain open.
+  derives `3+3+4` score; G159 descends it to a calibrated first jet. Carry/history remain open.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -54,9 +53,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G158 closes the supplied full `B,Q,S` composition. Next descend its score to the terminal pair
-first jet with query motion live and audit gauge/chart invariance; do not add a selector, fit, or
-evolution law.
+G159 closes local score-to-first-jet descent. Next derive supplied three-observer time-live
+calibration carry; do not add a selector, fit, or evolution law.
 Keep proper length, dynamics, numerical `X_max`, and completion open.
 
 ## Historical route

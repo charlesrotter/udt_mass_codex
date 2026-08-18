@@ -49,24 +49,22 @@ derived only on a supplied regular calibrated pair realization.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
   The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G158 — chord through complete score.** G149 realizes one covariant chord; G150 makes four
+- **G149--G159 — chord through terminal first jet.** G149 realizes one covariant chord; G150 makes four
   notes locally free. G151 joins chord change to curvature and conditionally to Jacobi deviation.
   G152 owns ruler tests, not automatic chord equality. G153 proves finite position is not proper
   length and derives `d rho=u(rho) theta0+n(rho) theta1` with live `d X_max`. G154 leaves fixed
   `X_max` unowned and admits four common-scale response classes; coherent conformal twins share
   reciprocal position. G155's preregistered 41-source census finds no active `kappa` constraint or
   evolution equation. G156 derives the pair metric half-density and conditional determinant scale
-  carry. G157 regrades the lockstep framing for `B+(2)`. G158 derives the supplied gauge-fixed
-  complete `B,Q,S` transition as a `3+3+4` semidirect machine: base and screen frames act on
-  four mixing channels. Its time-live logarithmic velocity gives
-  `dot V=Omega_R V+E dot J`, separating coframe-history change from query change. Channel
-  ratios may vary; the algebra does not choose a physical history, query, score, or carry.
+  carry. G157 removes base lockstep. G158 derives the gauge-fixed `3+3+4` semidirect score.
+  G159 joins it to `dot h=P^T eta V+V^T eta P`, with `P=Omega_R V+E dot J`. The pair first jet is
+  live-Lorentz-coframe-gauge invariant; terminal rates require calibrated pair carry. Neither result
+  chooses a physical history, query, parameter, or carry.
 
-Maximum conclusion: in the supplied regular triangular gauge, ten coframe channels
-form one coupled machine whose balance can change. Its network can reconstruct its supplied
-metric, but no gauge-independent physical score, cross-query carry, history evolution, or numerical
-`X_max` is derived.
-Primary source: `udt_g158_complete_coframe_semidirect_score_audit_2026-08-18/`.
+Maximum conclusion: ten coframe channels form one coupled changing machine whose complete score
+descends exactly to a supplied calibrated pair first jet. No physical score, cross-query carry,
+history evolution, or numerical `X_max` is derived.
+Primary source: `udt_g159_complete_score_terminal_descent_2026-08-18/`.
 Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
@@ -113,11 +111,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G158 closes the complete gauge-fixed composition question: the `3+3+4` coframe channels compose
-without fixed ratios, and a supplied time-live history has an exact changing logarithmic score.
-Next descend that score to the heard pair-metric first jet—`dot h`, `dot phi_pair`, `dot kappa_pair`,
-and `dot beta`—with `dot J` live, and classify which statements survive coframe gauge and pair-chart
-changes. Do not add a selector, fit, evolution law, or completion.
+G159 closes local score-to-terminal-first-jet descent with query motion live. Next derive the
+three-observer time-live carry of `(h,dot h)` and terminal rates under supplied lawful `GL+(2)`
+calibration, separating intrinsic score from carry-connection terms. Do not add a selector, fit,
+evolution law, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

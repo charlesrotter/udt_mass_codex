@@ -25,7 +25,7 @@ conflict, stop and report it.
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Pullbacks determine `g` on a supplied 4D atlas; query and realization open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections nonunique; screen identity conditional; carrier open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Covariant identity in a chosen representation; coefficient limits only |
-| G149--G158 chord/scale/score | `VERIFIED_WITH_CAVEATS` | Gauge-fixed complete `3+3+4` balance may vary; physical score/evolution open |
+| G149--G159 score/first jet | `VERIFIED_WITH_CAVEATS` | Score descends to calibrated first jet; carry/history open |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits
@@ -54,11 +54,9 @@ None selects values, completion, observations, or `X_max`.
 - G148's working representation gives the identity; `lambda` gives algebraic liveness only.
 - G149 realizes one chord; G150 closes pointwise relations among four notes.
 - G151 derives the curvature commutator; conditional connecting/Jacobi structure is query-owned.
-- G152 derives ruler equality/carry conditions. G153 gives the position differential with live
-  `dX_max`. G154 retains four responses across conformal histories. G155 finds zero source-bounded
-  scale-history rank, not scale gauge. G156 derives half-density carry. G157 removes base lockstep.
-  G158 derives the supplied gauge-fixed full `B,Q,S` score; physical history, gauge-independent
-  score, query carry, and terminal score descent remain open.
+- G152/G153/G154/G155/G156/G157 derive conditional carry, live-`dX_max`, conformal-response
+  freedom, zero bounded scale-history rank, and changing base balance. G158 derives the gauge-fixed
+  full score; G159 descends it to calibrated `(h,dot h)` rates. History, parameter, and carry stay open.
 
 ## Carrier, action, source, and matter
 
@@ -102,8 +100,10 @@ Do not:
 - call G156 scalar scale closure full matrix closure or its conditional carry metric-selected;
 - call G157's `B+(2)` law full orchestra composition, fixed ratios, a loud--quiet--loud prediction,
   or a physical-history/value law;
-- call G158's gauge-fixed structured group the physical observer functor, its right/left score a
-  gauge-independent observable, `Y,Z` group coordinates, or its changing witness physical history;
+- call G158's structured group a physical functor, its score observable, `Y,Z` group coordinates,
+  or its changing witness physical history;
+- call G159 coefficients arbitrary-`GL(2)` observables, freeze `dot J`, or promote local descent to
+  evolution, history selection, physical carry, or light speed;
 - identify relational position with proper length, signal distance, universe size, or history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
 - identify celestial `S^2` with the matter carrier or density descent with a physical value law;
@@ -113,7 +113,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 145-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 146-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

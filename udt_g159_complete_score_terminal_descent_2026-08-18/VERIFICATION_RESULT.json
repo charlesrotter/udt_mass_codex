@@ -1,0 +1,12 @@
+{
+  "algebra_mutation_count": 6,
+  "exact_checks": 9,
+  "fresh_adversarial_followup": "PASS",
+  "independent_dual_number_trials": 500,
+  "independent_exact_trials": 500,
+  "landing": "CALIBRATED_PAIR_FIRST_JET_DERIVED__COMPLETE_SCORE_DESCENDS_WITH_DOTJ_LIVE__H_AND_DOTH_LIVE_LORENTZ_COFRAME_GAUGE_INVARIANT__KAPPA_DENSITY_COEFFICIENT_AND_PHI_BETA_CEFF_REQUIRE_PAIR_CALIBRATION_CARRY__PHYSICAL_HISTORY_QUERY_LAMBDA_AND_GLOBAL_COMPLETION_OPEN",
+  "metadata_guard_mutation_count": 4,
+  "required_files": 20,
+  "source_count": 7,
+  "status": "PASS"
+}

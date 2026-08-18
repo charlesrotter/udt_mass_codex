@@ -1,0 +1,35 @@
+{
+  "calibration_carry_derived": false,
+  "exact_check_names": [
+    "complete_score_descends_to_symmetric_pair_first_jet",
+    "independent_linear_family_kappa_phi_beta_differentiation",
+    "independent_conditional_ceff_log_rate",
+    "live_lorentz_coframe_gauge_cancels_from_h_and_doth",
+    "inhomogeneous_score_gauge_law",
+    "arbitrary_live_pair_rechart_density_and_terminal_laws",
+    "live_diagonal_clock_ruler_recalibration_control",
+    "nonzero_query_motion_changes_all_registered_terminal_rates",
+    "pair_chart_covariance_is_not_terminal_scalar_invariance"
+  ],
+  "exact_checks": 9,
+  "h_and_doth_lorentz_coframe_gauge_invariant": true,
+  "landing": "CALIBRATED_PAIR_FIRST_JET_DERIVED__COMPLETE_SCORE_DESCENDS_WITH_DOTJ_LIVE__H_AND_DOTH_LIVE_LORENTZ_COFRAME_GAUGE_INVARIANT__KAPPA_DENSITY_COEFFICIENT_AND_PHI_BETA_CEFF_REQUIRE_PAIR_CALIBRATION_CARRY__PHYSICAL_HISTORY_QUERY_LAMBDA_AND_GLOBAL_COMPLETION_OPEN",
+  "physical_history_derived": false,
+  "physical_lambda_owned": false,
+  "query_motion_frozen": false,
+  "query_motion_witness": {
+    "beta_dot": "1",
+    "kappa_dot": "1/2",
+    "phi_dot": "1/2"
+  },
+  "registered_outcome_class": "CALIBRATED_PAIR_FIRST_JET_DERIVED__H_DOTH_LORENTZ_GAUGE_INVARIANT__TERMINAL_COMPONENTS_REQUIRE_CALIBRATION_CARRY",
+  "source_count": 7,
+  "status": "PASS",
+  "terminal_coefficients_arbitrary_gl2_invariant": false,
+  "terminal_rates": {
+    "beta_dot": "(dh01*h00-h01*dh00)/h00^2",
+    "kappa_dot": "1/4*tr(h^-1*dh)",
+    "log_ceff_ratio_dot": "-2*phi_dot",
+    "phi_dot": "1/4*tr(h^-1*dh)-1/2*dh00/h00"
+  }
+}

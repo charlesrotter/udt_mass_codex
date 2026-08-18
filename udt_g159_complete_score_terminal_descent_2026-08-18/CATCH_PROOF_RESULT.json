@@ -1,0 +1,50 @@
+{
+  "algebra_mutation_count": 6,
+  "catch_count": 10,
+  "caught": [
+    {
+      "caught": true,
+      "name": "double_kappa_determinant_rate"
+    },
+    {
+      "caught": true,
+      "name": "omit_clock_norm_from_phi_rate"
+    },
+    {
+      "caught": true,
+      "name": "omit_beta_quotient_rule"
+    },
+    {
+      "caught": true,
+      "name": "freeze_query_motion"
+    },
+    {
+      "caught": true,
+      "name": "omit_live_lorentz_inhomogeneous_term"
+    },
+    {
+      "caught": true,
+      "name": "call_log_ceff_rate_minus_phi"
+    },
+    {
+      "caught": true,
+      "name": "promote_terminal_coefficients_to_gl2_invariants"
+    },
+    {
+      "caught": true,
+      "name": "promote_history_to_derived"
+    },
+    {
+      "caught": true,
+      "name": "promote_lambda_to_owned"
+    },
+    {
+      "caught": true,
+      "name": "promote_calibration_carry_to_derived"
+    }
+  ],
+  "live_lorentz_catch_targets_dotV_score_law_not_terminal_doth": true,
+  "metadata_guard_mutation_count": 4,
+  "metadata_guards_are_independent_semantic_proofs": false,
+  "status": "PASS"
+}

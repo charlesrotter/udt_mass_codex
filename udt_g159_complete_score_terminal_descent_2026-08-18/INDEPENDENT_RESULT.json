@@ -1,0 +1,19 @@
+{
+  "arbitrary_live_gl2_rechart_trials": 500,
+  "attempts": 5093,
+  "calibration_carry_derived": false,
+  "exact_fraction_trials": 500,
+  "h_and_doth_lorentz_coframe_gauge_invariant": true,
+  "independent_dual_number_definition_derivative_trials": 500,
+  "landing": "CALIBRATED_PAIR_FIRST_JET_DERIVED__COMPLETE_SCORE_DESCENDS_WITH_DOTJ_LIVE__H_AND_DOTH_LIVE_LORENTZ_COFRAME_GAUGE_INVARIANT__KAPPA_DENSITY_COEFFICIENT_AND_PHI_BETA_CEFF_REQUIRE_PAIR_CALIBRATION_CARRY__PHYSICAL_HISTORY_QUERY_LAMBDA_AND_GLOBAL_COMPLETION_OPEN",
+  "live_lorentz_gauge_trials": 500,
+  "method": "stdlib_fraction_independent_pair_metric_rechart_and_lorentz_replay",
+  "physical_history_derived": false,
+  "physical_lambda_owned": false,
+  "query_motion_frozen": false,
+  "query_motion_witnesses": 1,
+  "registered_outcome_class": "CALIBRATED_PAIR_FIRST_JET_DERIVED__H_DOTH_LORENTZ_GAUGE_INVARIANT__TERMINAL_COMPONENTS_REQUIRE_CALIBRATION_CARRY",
+  "source_count": 7,
+  "status": "PASS",
+  "terminal_coefficients_arbitrary_gl2_invariant": false
+}

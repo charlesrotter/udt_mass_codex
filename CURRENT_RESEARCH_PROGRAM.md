@@ -86,7 +86,7 @@ At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega
 `R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
 those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
 
-### G151--G158 — curvature, differential, scale carry, and complete score
+### G151--G159 — curvature, scale carry, complete score, and terminal first jet
 
 G151 exposes the curvature commutator and conditional Jacobi reduction. G152 shows the immersion
 owns `J1=beta T u+L n` and ruler `r=L n`, not their automatic identity with `xi=rho n`; equality and
@@ -94,10 +94,8 @@ carry are independent. Its conditional `X_max` expression is no value law.
 G153 proves finite `rho` is not proper length and derives
 `d rho=u(rho)theta0+n(rho)theta1` with live `dX_max`. G154 leaves fixed `Xmax` unowned; with supplied
 `Xstar`, common scale realizes four response classes across distinct coherent conformal histories.
-G155 separates evaluators, admissibility, calibration, and history equations across 41 sources. No
-active statement constrains or evolves `kappa`; common-scale physical-history principal rank is zero
-in that bounded arena. Finite common-scale data do not propagate. This neither makes scale gauge nor
-excludes a future native law.
+G155's 41-source census finds no active `kappa` constraint or evolution equation: bounded
+common-scale history rank is zero, not scale gauge or a future-law no-go.
 G156 identifies the positive metric half-density as the pair scale carrier. A supplied typed carry
 owns `sigma=one-half log|det C|`; full three-observer carry closure implies scalar scale closure,
 but determinant-one shear remains invisible. Query charts and genuine overlaps are scale-flat;
@@ -105,10 +103,9 @@ physical nonisometric cross-query carry and `kappa` evolution remain open.
 G157 corrects the lockstep framing. Every regular positive-triangular `B+(2)` comparison uniquely
 factors into common scale, reciprocal depth, and normalized shift. Their exact semidirect law allows
 changing relative strengths; one scalar-parameter fixed-generator subgroup is an extra ansatz.
-G158 closes the supplied gauge-fixed complete-coframe algebra: `B` and `Q` each carry three
-triangular channels and act on four `S` channels. The exact score obeys
-`dot V=Omega_R V+E dot J`; it organizes a supplied history but neither selects it nor makes the
-right/left logarithmic velocities gauge-independent observables.
+G158 derives the gauge-fixed `3+3+4` score `dot V=Omega_R V+E dot J`; it organizes but does not
+select a history or observable score. G159 derives `dot h=P^T eta V+V^T eta P`; live Lorentz gauge
+cancels from `(h,dot h)`, while terminal rates require a timelike calibrated chart and lawful carry.
 
 ## Durable prerequisites
 
@@ -141,8 +138,8 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. How does the G158 complete score descend to the pair-metric/terminal first jet, with query motion
-   live, and which combinations survive coframe gauge and pair-chart changes?
+1. How does the G159 calibrated first jet carry through a supplied time-live three-observer network,
+   and which terms are intrinsic score versus calibration connection?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -150,6 +147,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G158 closes supplied complete `B,Q,S` composition. Next derive its terminal pair first jet and
-invariance class without adding a physical selector, evolution law, or fit.
+G159 closes local score-to-terminal-first-jet descent. Next derive supplied three-observer time-live
+carry of `(h,dot h)` and terminal rates without adding a physical selector, evolution law, or fit.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.
