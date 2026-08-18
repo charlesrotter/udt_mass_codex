@@ -1,6 +1,6 @@
 source_id	object_ids	coverage_note
 S01	D01,D02,D03,D04,D05,D21	complete pair metric terminal readout and supplied-history boundary
-S02	D06,D07,D22	working pair position response and open completion
+S02	D06,D22	working pair position and open completion
 S03	D19	Jacobi and ambient propagation channel
 S04	D06,D07	position and differential response
 S05	D07,D21,D22	common-scale response and history/completion boundary
