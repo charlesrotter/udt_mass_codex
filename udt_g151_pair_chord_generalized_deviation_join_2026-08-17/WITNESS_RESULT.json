@@ -1,0 +1,61 @@
+{
+  "schema": "udt.g151.exact_warped_witness.v1",
+  "status": "PASS",
+  "marked_point": {
+    "T": "1/3",
+    "L": "1",
+    "rho": "1",
+    "rho_dot": "3/10",
+    "rho_ddot": "93/100",
+    "acceleration": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "bracket": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "D_u2_xi": [
+      "0",
+      "93/100",
+      "0",
+      "0"
+    ],
+    "R_xi_u_u": [
+      "0",
+      "-93/100",
+      "0",
+      "0"
+    ],
+    "K_n": "-93/100",
+    "jacobi_residual": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "gates": {
+    "lorentz_regular": true,
+    "terminal_rho_equals_L": true,
+    "T0_frozen": true,
+    "rho0_frozen": true,
+    "rho_dot0_frozen": true,
+    "rho_ddot0_frozen": true,
+    "connecting_bracket_zero": true,
+    "geodesic_congruence": true,
+    "connecting_bracket_zero_all_t": true,
+    "geodesic_congruence_all_t": true,
+    "jacobi_residual_zero_all_t": true,
+    "direct_second_equals_rho_ddot_n": true,
+    "curvature_Kn_frozen": true,
+    "jacobi_residual_zero": true,
+    "mutation_wrong_curvature_sign_rejected": true,
+    "mutation_coordinate_time_used_as_unit_clock_rejected": true
+  },
+  "scope": "exact coordinate sign/type witness; not a selected physical history"
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "udt.g151.abstract_deviation.v1",
+  "status": "PASS",
+  "curvature_convention": "R(X,Y)Z=nabla_X_nabla_Y_Z-nabla_Y_nabla_X_Z-nabla_[X,Y]_Z",
+  "formulas": {
+    "D_u_u": [
+      "0",
+      "a_n",
+      "A2",
+      "A3"
+    ],
+    "D_u_n": [
+      "a_n",
+      "0",
+      "Omega2",
+      "Omega3"
+    ],
+    "D_u_Omega": [
+      "A2*Omega2 + A3*Omega3",
+      "-Omega2**2 - Omega3**2",
+      "Pi2",
+      "Pi3"
+    ],
+    "D_u2_xi": [
+      "A2*Omega2*rho + A3*Omega3*rho + 2*a_n*rho_dot + dot_a_n*rho",
+      "-Omega2**2*rho - Omega3**2*rho + a_n**2*rho + rho_ddot",
+      "A2*a_n*rho + 2*Omega2*rho_dot + Pi2*rho",
+      "A3*a_n*rho + 2*Omega3*rho_dot + Pi3*rho"
+    ],
+    "rho_dot": "X_max*dot_phi/cosh(phi)**2",
+    "rho_ddot": "X_max*(ddot_phi - 2*dot_phi**2*tanh(phi))/cosh(phi)**2",
+    "geodesic_jacobi_residual_components": [
+      "0",
+      "K_n*rho - rho*(Omega2**2 + Omega3**2) + rho_ddot",
+      "K_2*rho + 2*Omega2*rho_dot + Pi2*rho",
+      "K_3*rho + 2*Omega3*rho_dot + Pi3*rho"
+    ],
+    "general_commutator_identity": "D_u2_xi + R(xi,u)u - nabla_xi(D_u_u) = nabla_u_C + nabla_C_u, C=[u,xi]",
+    "generalized_deviation": "D_u2_xi + R(xi,u)u - nabla_xi(D_u_u) = 0 when [u,xi]=0",
+    "connecting_C_components": [
+      "a_n*rho",
+      "-b*rho + rho_dot",
+      "rho*(-N2 + Omega2)",
+      "rho*(-N3 + Omega3)"
+    ],
+    "connecting_compatibility_away_from_rho_zero": "a_n=0; rho_dot=rho*g(n,nabla_n u); Omega=P_H nabla_n u"
+  },
+  "gates": {
+    "orthonormal_u_n": true,
+    "Omega_and_A_screen": true,
+    "DOmega_preserves_Omega_u_orthogonality": true,
+    "DOmega_preserves_Omega_n_orthogonality": true,
+    "direct_equals_decomposed": true,
+    "rho_dot_exact": true,
+    "rho_ddot_exact": true,
+    "jacobi_projection_exact": true,
+    "general_commutator_identity_bookkeeping_exact": true,
+    "connecting_reduction_bookkeeping_exact": true,
+    "connecting_first_order_compatibility_exact": true,
+    "connecting_condition_not_necessary_counterexample": true,
+    "mutation_wrong_omega_norm_sign_rejected": true,
+    "mutation_omitted_omega_A_rejected": true,
+    "mutation_omitted_acceleration_gradient_rejected": true,
+    "mutation_wrong_curvature_sign_rejected": true
+  },
+  "premise_stamps": {
+    "xi_equals_Xmax_tanh_phi_n": "CHOSE_WORKING_RELATION_FIRST_REPRESENTATION",
+    "connecting_field_bracket_zero": "CONDITIONAL_QUERY_STRUCTURE",
+    "geodesic_congruence": "CONDITIONAL_REDUCTION",
+    "curvature": "DERIVED_FROM_SUPPLIED_METRIC",
+    "physical_history_and_dynamics": "OPEN"
+  },
+  "maximum_conclusion": "EXACT_NEXT_PAIR_FRAME_CHORD_IDENTITY_ON_SUPPLIED_SMOOTH_REGULAR_PAIR__FULL_CURVATURE_COMMUTATOR_IDENTITY_WITH_QUERY_OWNED_C_SOURCE__CONNECTING_TWO_PARAMETER_REALIZATION_IS_A_SUFFICIENT_REDUCTION_AND_FORCES_AN_ZERO_AWAY_FROM_COINCIDENCE__GENERALIZED_DEVIATION_DERIVED_WITH_ACCELERATION_GRADIENT__GEODESIC_JACOBI_REDUCTION_CONDITIONAL__EXACT_RADIAL_WARPED_CONTROL__NECESSITY_PHYSICAL_QUERY_HISTORY_DYNAMICS_REGIME_AMPLITUDES_XMAX_AND_GLOBAL_COMPLETION_OPEN"
+}
