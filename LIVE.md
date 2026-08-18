@@ -49,20 +49,20 @@ derived only on a supplied regular calibrated pair realization.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
   The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G155 — chord through scale rank.** G149 realizes one covariant chord; G150 makes its four
+- **G149--G156 — chord through scale carry.** G149 realizes one covariant chord; G150 makes its four
   notes locally free. G151 joins chord change to curvature and conditionally to Jacobi deviation.
   G152 owns ruler tests, not automatic chord equality. G153 proves finite position is not proper
   length and derives `d rho=u(rho) theta0+n(rho) theta1` with live `d X_max`. G154 leaves fixed
   `X_max` unowned and admits four common-scale response classes; coherent conformal twins share
   reciprocal position. G155's preregistered 41-source census finds no active `kappa` constraint or
-  evolution equation: common-scale principal rank is zero in that regular source-bounded arena,
-  not universally and not because scale is gauge.
+  evolution equation. G156 derives the pair metric half-density and conditional determinant scale
+  carry; one-query/overlap scale is flat, while physical cross-query carry and `kappa` history stay open.
 
 Maximum conclusion: a supplied pair family owns an exact differential response for finite
 relational position. Its complete network can reconstruct its metric, but current identities do not
-constrain or evolve common scale, select proper length, family, history, asymptotic class, or
+select a nonisometric cross-query carry, constrain or evolve common scale, select history, or fix
 numerical `X_max`.
-Primary source: `udt_g155_scale_sector_closure_whiteboard_2026-08-18/`.
+Primary source: `udt_g156_three_observer_scale_carry_audit_2026-08-18/`.
 Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
@@ -109,11 +109,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G155 closes the preregistered source-bounded role/rank audit at common-scale principal rank zero.
-After Charles says go, preregister the three-observer scale-carry audit: determine whether the
-complete network already owns a positive scale line/torsor and whether carry is endpoint-exact,
-path-labelled, or holonomic. Do not add a law, volume target, completeness premise, action, source,
-fit, proper length, numerical `X_max`, dynamics, or completion.
+G156 closes the local scale-carrier question: the pair metric owns its half-density and a supplied
+carry owns the determinant character, but scalar closure misses determinant-one structure. Next
+map whether the joined scale, reciprocal, and shift characters exhaust the already supplied
+positive-triangular carry. Do not add a selector, evolution law, fit, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

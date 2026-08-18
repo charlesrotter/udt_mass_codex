@@ -1,0 +1,38 @@
+{
+  "catch_count": 8,
+  "caught": [
+    {
+      "caught": true,
+      "name": "treat_kappa_coefficient_as_coordinate_scalar"
+    },
+    {
+      "caught": true,
+      "name": "promote_conditional_determinant_carry_to_metric_selector"
+    },
+    {
+      "caught": true,
+      "name": "infer_full_matrix_closure_from_scale_closure"
+    },
+    {
+      "caught": true,
+      "name": "assign_nonzero_levi_civita_scale_holonomy"
+    },
+    {
+      "caught": true,
+      "name": "invent_cross_query_carry_from_shared_endpoints"
+    },
+    {
+      "caught": true,
+      "name": "promote_scale_carry_to_kappa_evolution"
+    },
+    {
+      "caught": true,
+      "name": "change_registered_landing"
+    },
+    {
+      "caught": true,
+      "name": "omit_frozen_source"
+    }
+  ],
+  "status": "PASS"
+}

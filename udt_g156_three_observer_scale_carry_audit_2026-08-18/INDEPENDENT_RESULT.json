@@ -1,0 +1,13 @@
+{
+  "composition_trials": 500,
+  "gauge_trials": 500,
+  "half_density_determinant_trials": 500,
+  "landing": "PAIR_METRIC_CANONICALLY_SUPPLIES_POSITIVE_HALF_DENSITY_SECTION__ANY_SUPPLIED_TYPED_CARRY_INDUCES_GAUGE_INVARIANT_LOG_DETERMINANT_CHARACTER__FULL_CLOSURE_IMPLIES_BUT_IS_NOT_IMPLIED_BY_SCALE_CLOSURE__OWNED_CHART_OVERLAP_AND_LEVI_CIVITA_CARRIES_ARE_SCALE_FLAT__ARBITRARY_SUPPLIED_NONISOMETRIC_CARRIES_NEED_NOT_BE_FLAT__NO_METRIC_OWNED_CROSS_QUERY_CARRY_OR_KAPPA_HISTORY",
+  "method": "stdlib_fraction_exact_no_production_import",
+  "nonzero_scale_defect_witness": "1/2",
+  "randomized_exact_trials": 500,
+  "registered_outcome_class": "CONDITIONAL_FLAT_SCALE_CARRY",
+  "sl2_kernel_counterexample": true,
+  "source_count": 19,
+  "status": "PASS"
+}

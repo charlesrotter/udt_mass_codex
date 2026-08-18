@@ -183,6 +183,7 @@ def validate_startup_surface(root: Path) -> None:
             "G153",
             "G154",
             "G155",
+            "G156",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -220,7 +221,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "142-row exact registry",
+            "143-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -261,6 +262,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g151_pair_chord_generalized_deviation_join_2026-08-17/",
             "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/",
             "udt_g153_relational_position_ruler_differential_join_2026-08-17/",
+            "udt_g156_three_observer_scale_carry_audit_2026-08-18/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -287,6 +289,7 @@ def validate_startup_surface(root: Path) -> None:
             "G153",
             "G154",
             "G155",
+            "G156",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -312,6 +315,7 @@ def validate_startup_surface(root: Path) -> None:
             "G153",
             "G154",
             "G155",
+            "G156",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -339,10 +343,11 @@ def validate_startup_surface(root: Path) -> None:
             "G153",
             "G154",
             "G155",
+            "G156",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "142-row",
+            "143-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -601,9 +606,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 142, "premise registry must contain exactly 142 rows")
+    require(len(rows) == 143, "premise registry must contain exactly 143 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 142, "duplicate premise id")
+    require(len(by_id) == 143, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3322,6 +3327,34 @@ def main() -> None:
         == "udt_g155_scale_sector_closure_whiteboard_2026-08-18/AUDIT_REPORT.md",
         "G155 source changed",
     )
+    require(
+        by_id["G156"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REPAIR_FOLLOWUP_PASS__PREREGISTERED__INDEPENDENT_EXACT_REPLAY_PASS__CANONICAL_PAIR_HALF_DENSITY_DERIVED"
+        ),
+        "G156 bounded status regressed or promoted",
+    )
+    require(by_id["G156"]["epistemic_label"] == "MIXED", "G156 label changed")
+    for open_item in (
+        "physical nonisometric cross-query carry or path-labelled scale connection",
+        "complete reciprocal scale shift screen and mixing carry closure",
+        "nonidentity common-scale constraint evolution or joint relational law",
+        "physical query population and history",
+    ):
+        require(open_item in by_id["G156"]["open_scope"], f"G156 open boundary absent: {open_item}")
+    for guard in (
+        "positive half-density section called a selected history fixed volume or common scale gauge",
+        "conditional determinant character called a metric-selected physical cross-query carry",
+        "zero scalar scale defect called full matrix carry closure",
+        "determinant-one shear reciprocal or mixing data erased",
+        "Levi-Civita or genuine overlap transport assigned nonzero scale dilation",
+        "shared endpoints called an overlap",
+    ):
+        require(guard in by_id["G156"]["forbidden_regression"], f"G156 guard absent: {guard}")
+    require(
+        by_id["G156"]["controlling_source"]
+        == "udt_g156_three_observer_scale_carry_audit_2026-08-18/AUDIT_REPORT.md",
+        "G156 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3400,7 +3433,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G155-extended premise guards; PASS: 142-row premise "
+        "PASS: G156-extended premise guards; PASS: 143-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

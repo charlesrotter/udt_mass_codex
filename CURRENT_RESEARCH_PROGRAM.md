@@ -86,7 +86,7 @@ At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega
 `R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
 those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
 
-### G151--G155 — curvature, immersion ownership, differential, asymptotic classes, and scale rank
+### G151--G156 — curvature, differential, scale rank, and scale carry
 
 G151 exposes the curvature commutator and conditional Jacobi reduction. G152 shows the immersion
 owns `J1=beta T u+L n` and ruler `r=L n`, not their automatic identity with `xi=rho n`; equality and
@@ -101,6 +101,11 @@ and physical-history equations across 41 frozen sources. No active owned stateme
 or evolution equation for `kappa`; the common-scale physical-history principal rank is zero in that
 regular source-bounded arena. Finite common-scale data therefore do not presently propagate. This
 does not make common scale gauge or exclude a future native scale law.
+
+G156 identifies the positive metric half-density as the pair scale carrier. A supplied typed carry
+owns `sigma=one-half log|det C|`; full three-observer carry closure implies scalar scale closure,
+but determinant-one shear remains invisible. Query charts and genuine overlaps are scale-flat;
+physical nonisometric cross-query carry and `kappa` evolution remain open.
 
 ## Durable prerequisites
 
@@ -134,8 +139,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. What positive scale line/torsor and three-observer scale carry, if any, does the complete network
-   already own before any common-scale constraint or evolution law is proposed?
+1. Do joined scale, reciprocal, and shift characters exhaust the supplied positive-triangular
+   three-observer transition, and exactly what determinant-one structure remains?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -143,6 +148,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G155's preregistered role/rank audit is closed at source-bounded rank zero. After Charles says go,
-preregister the three-observer conformal-weight/scale-carry audit. Add no law or fit.
+G156 closes the local scale-carrier/carry audit. Next classify the complete supplied triangular
+transition without adding a physical selector, evolution law, or fit.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

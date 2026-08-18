@@ -1,0 +1,13 @@
+claim_id	object	status	exact_claim	open_boundary
+C01	half_density_line_and_positive_ray	DERIVED_CONDITIONAL	A supplied regular pair plane has the vector line |Lambda2 V*|^(1/2) and its positive ray	The pair realization and plane remain supplied
+C02	metric_half_density_section	DERIVED_CONDITIONAL	The pair metric supplies ell_h=(-det h)^(1/4)|dy0 wedge dy1|^(1/2)	No history selection or evolution follows
+C03	local_kappa_coefficient	DERIVED_PRESENTATION	In a calibrated density trivialization ell_h=e^kappa times the coordinate half-density	Kappa is not an arbitrary-coordinate scalar and common scale is not declared gauge
+C04	total_scale_character	DERIVED_CONDITIONAL	sigma_BA=one-half log absolute determinant C_BA equals kappa_B-kappa_A plus one-half log absolute determinant M_BA	Requires a typed supplied carry M_BA
+C05	three_observer_scale_defect	DERIVED_CONDITIONAL	Omega_sc is one-half log absolute determinant of M_CB M_BA M_CA inverse	Does not choose the carries
+C06	full_to_scale_closure	DERIVED	Full carry closure implies zero scalar scale defect	Converse is false because SL2 lies in the kernel
+C07	single_query_scale_carry	DERIVED_CONDITIONAL	One supplied chart owns endpoint-exact scale carry under recharting	Not a cross-query physical carry theorem
+C08	genuine_overlap_scale_carry	DERIVED_CONDITIONAL	A proved same-relation overlap is isometric and has zero total scale character	Shared endpoints alone are insufficient
+C09	levi_civita_scale_carry	DERIVED_CONDITIONAL	Metric-compatible parallel transport preserves the metric half-density and has zero scale character	May retain non-scale path holonomy
+C10	nonisometric_triangle_defect	OPEN_PHYSICAL_OWNER	Supplied nonisometric carries can have a nonzero determinant triangle defect	It is not holonomy without a declared path or loop functor
+C11	common_scale_history	OPEN	No active law restricts or evolves the metric half-density section or kappa history	G155 rank-zero boundary remains
+C12	primary_landing	VERIFIED_WITH_CAVEATS	Pair metric supplies positive half-density section; supplied carry owns determinant character; only chart overlap and Levi-Civita regimes are scale-flat	Physical cross-query carry and kappa history remain open

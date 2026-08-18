@@ -1,4 +1,4 @@
-# Current scientific premise index
+# Scientific premise index
 
 This is a precedence guide, not `CANON.md`. Read `LIVE.md` first. Exact status and scope are in
 `CURRENT_SCIENTIFIC_PREMISES.tsv`.
@@ -28,7 +28,7 @@ choose the file that makes a desired derivation easiest.
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback values determine `g` on a supplied 4D atlas; query and realization remain open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections nonunique; screen identity conditional; carrier open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Exact covariant identity inside a chosen working representation; coefficient limits only |
-| G149--G155 chord/scale sector | `VERIFIED_WITH_CAVEATS` | Not proper length; conformal networks do not select scale; G155 owns no common-scale history equation |
+| G149--G156 chord/scale | `VERIFIED_WITH_CAVEATS` | No scale-history equation; conditional half-density carry derived, selector open |
 
 None selects values, completion, observations, or `X_max`. Earlier details remain in the registry.
 ## Scale and limits
@@ -40,6 +40,7 @@ None selects values, completion, observations, or `X_max`. Earlier details remai
 | Common-factor cancellation | `DERIVED` algebra only | Not a local Weyl-gauge theorem or proof that physical UDT is scale-free |
 | Common pair scale | `SUPPLIED/RETAINED` | Not sourced by fixed `K`, terminal scalars, or `c_E` alone |
 | Common-scale principal rank | `DERIVED` source-bounded zero | No active constraint or evolution equation for `kappa` in G155's frozen 41-source regular arena; not a future-law no-go |
+| Pair scale carry | `DERIVED_CONDITIONAL` | Half-density determinant character; incomplete closure |
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
 
 ## Geometry, query, and causality
@@ -60,7 +61,7 @@ None selects values, completion, observations, or `X_max`. Earlier details remai
   divergent, and nonconvergent responses. Distinct conformal histories preserve reciprocal position
   and current identities; coherence reconstructs but does not select. G155 classifies the active
   equation roles and finds zero owned physical-history principal rank for common scale. This is not
-  a declaration that common scale is gauge or that no future native scale law exists.
+  scale gauge. G156 derives half-density carry; physical carry and history stay open.
 
 ## Carrier, action, source, and matter
 
@@ -101,6 +102,7 @@ Do not:
   physical common-scale/history selection law;
 - call G155 rank zero a no-go against a future native scale law, or treat finite common-scale data
   as propagating without an owned evolution equation;
+- call G156 scalar scale closure full matrix closure or its conditional carry metric-selected;
 - identify relational position with proper length, signal distance, universe size, or history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
 - identify celestial `S^2` with the matter carrier or density descent with a physical value law;
@@ -110,7 +112,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 142-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 143-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

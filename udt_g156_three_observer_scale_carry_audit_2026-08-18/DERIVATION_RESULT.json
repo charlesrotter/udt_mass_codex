@@ -1,0 +1,32 @@
+{
+  "exact_check_names": [
+    "pair_metric_half_density_coefficient_is_sqrt_TL",
+    "positive_half_density_coordinate_covariance",
+    "total_scale_character_endpoint_plus_carry_formula",
+    "determinant_character_equals_half_density_carry_squared",
+    "endpoint_gauge_invariance_of_total_scale_carry",
+    "three_observer_scale_defect_cancels_endpoint_kappa",
+    "full_carry_closure_implies_zero_scale_defect",
+    "zero_scale_defect_does_not_imply_full_carry_closure",
+    "single_query_chart_scale_carry_is_endpoint_exact",
+    "lorentz_isometry_has_zero_metric_scale_character",
+    "positive_triangular_genuine_overlap_is_identity",
+    "supplied_nonisometric_carry_can_have_determinant_triangle_defect"
+  ],
+  "exact_checks": 12,
+  "half_density_line": "|Lambda^2 V*|^(1/2)",
+  "half_density_positive_ray": "(|Lambda^2 V*|^(1/2))_{>0}",
+  "half_density_section": "ell_h=(-det h)^(1/4)|dy0 wedge dy1|^(1/2)",
+  "landing": "PAIR_METRIC_CANONICALLY_SUPPLIES_POSITIVE_HALF_DENSITY_SECTION__ANY_SUPPLIED_TYPED_CARRY_INDUCES_GAUGE_INVARIANT_LOG_DETERMINANT_CHARACTER__FULL_CLOSURE_IMPLIES_BUT_IS_NOT_IMPLIED_BY_SCALE_CLOSURE__OWNED_CHART_OVERLAP_AND_LEVI_CIVITA_CARRIES_ARE_SCALE_FLAT__ARBITRARY_SUPPLIED_NONISOMETRIC_CARRIES_NEED_NOT_BE_FLAT__NO_METRIC_OWNED_CROSS_QUERY_CARRY_OR_KAPPA_HISTORY",
+  "metric_selects_cross_query_nonisometric_carry": false,
+  "metric_selects_kappa_history": false,
+  "nonzero_defect_ratio_witness": "1/2",
+  "registered_outcome_class": "CONDITIONAL_FLAT_SCALE_CARRY",
+  "scale_character": "sigma_BA=1/2 log|det C_BA|",
+  "scale_character_split": "kappa_B-kappa_A+1/2 log|det M_BA|",
+  "scale_quotient_kernel": "B+(2) intersect SL(2) in the declared triangular arena",
+  "source_count": 19,
+  "source_snapshot": "b42c771d",
+  "status": "PASS",
+  "three_observer_defect": "Omega_sc=1/2 log|det(M_CB M_BA M_CA^-1)|"
+}
