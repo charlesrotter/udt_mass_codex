@@ -21,13 +21,14 @@ The active dependency chain is:
    `x/X_max=tanh(phi_pair)` composes within supplied congruent families; route transport is distinct.
 3. G140--G144: a supplied chart or genuine embedded overlap owns presentation carry. Shared endpoint
    observers do not glue sheets; carry is not another physical mechanism.
-4. G145: fresh adversarial repair passed. Rank-complete full-pullback valuation determines the
-   metric component on the supplied 4D base atlas. The labelled query atlas, calibration, numerical
-   valuation, and physical realization remain supplied/open. Opposite-curvature survivors pass the
-   same regular coherence and local-causal gates with all nine non-`phi` coframe fields live.
+4. G145: rank-complete full-pullback valuation determines the metric on its supplied 4D atlas.
+   Query atlas, calibration, numerical valuation, and realization remain supplied/open. Opposite-curvature
+   survivors pass the same gates with all nine non-`phi` fields live.
 5. G146--G147: non-collinear projections remain nonunique. Inside a defined query-rest-space lift,
    directional tangent and metric screen are identical; physical carrier, independent `O(2)`
    solder, cross-query carry, and complete arrow remain open.
+6. G148: in a chosen working representation, the covariant first jet splits into radial, screen-turn,
+   and rest-space-tilt pieces. `lambda` proves algebraic liveness only; amplitudes remain open.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
@@ -76,8 +77,8 @@ presence does not prove banking.
 
 ### Next bounded action
 
-Map whether the premises own the query rest-space relation ball as physical position carrier or
-only allow it conditionally. Preserve `O(2)` solder and cross-query carry; do not select a ball law,
-identify `phi` with rapidity, or infer arrow, history, `X_max`, length, or completion.
+Compute the G148 covariant quantities from one genuine explicit smooth time-live complete
+coframe/query history, with all `B,Q,S,Y,Z` blocks live and one Levi-Civita connection. Do not turn
+that witness into a selected history, fitted regime pattern, dynamics, `X_max`, or completion.
 
 <!-- STARTUP_CURRENT_END -->

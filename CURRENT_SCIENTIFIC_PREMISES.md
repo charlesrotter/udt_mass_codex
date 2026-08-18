@@ -31,6 +31,7 @@ or source ownership is load-bearing.
 | G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Position is provisionally adopted; a supplied chart or genuine overlap owns carry; endpoints do not glue sheets |
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback valuation determines the metric on a supplied 4D base atlas; queries, calibration, values, and realization remain supplied/open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections remain nonunique; rest-space screen identity is conditional; physical carrier remains open |
+| G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Exact covariant identity inside a chosen working representation; coefficient limits only |
 
 None selects numerical metric values, the physical query population, global completion,
 observations, or `X_max`. Earlier G93--G128 details remain in the exact registry
@@ -48,25 +49,23 @@ and package-local evidence; they are not required startup chronology.
 
 ## Geometry, query, and causality
 
-- A Lorentz metric plus bare endpoints does not generically select one physical observer relation.
-- A supplied complete query/realization can be evaluated exactly; evaluation is not selection.
+- Bare endpoints do not select a relation; supplied queries are evaluated, not selected.
 - Metric causal accessibility is derived on supplied time-oriented geometry. Material response,
   principal symbol, coupling, admissible data, and signalling remain separate.
 - Endpoint scalars, density coefficients, shift state, Jacobi propagators, and path/normal holonomy
   have different natural mathematical homes.
-- Full pullbacks plus known embeddings can recover `g`; scalar-only pair data recover only its
-  positive conformal class in the stated scope.
+- Full pullbacks with known embeddings recover `g`; scalar pair data stop at its conformal class.
 - Pair-volume density descends only on a genuine common atlas or matched local system. Across planes,
   the natural metric object is the symmetric bivector area bilinear.
-- Complete valued area data are equivalent to full metric data up to the fixed sign. Their local
-  codimension-eleven metricity constraints are not equations of motion or history selection.
+- Complete area data recover the metric up to fixed sign; metricity is not dynamics or selection.
 - G138--G144 derive network/carry algebra: one query owns chart carry, a genuine overlap owns its
   transition, and endpoints do not glue sheets.
-- G145 separates four-dimensional metric descent from two-dimensional pair-sheet carry. Complete
-  pullback values determine their metric component; they do not determine their own numerical
-  valuation, query population, or physical realization.
+- G145 separates 4D metric descent from 2D pair-sheet carry. Values determine `g`, not their own
+  valuation, query population, or realization.
 - G146--G147 separate position projection, conditional rest-space identity, and physical carrier.
   No ball control, displacement, independent `O(2)` solder, reversal, or transport equality is selected.
+- G148 uses, but does not derive, the working rest-space representation. Its `lambda` witness proves
+  algebraic block liveness only; the covariant identity does not select history or regime amplitudes.
 
 ## Carrier, action, source, and matter
 
@@ -99,6 +98,8 @@ Do not:
 - call the adopted working constitution algebraically forced or canonized;
 - select a G146 ball control, call G147's defined lift a physical carrier/displacement, erase its
   independent `O(2)` solder, or identify `phi` with Lorentz rapidity;
+- identify G148's `lambda` derivative with clock flow, call coefficient limits a physical
+  loud--quiet--loud law, or promote its first-jet identity to dynamics/history selection;
 - identify relational `x` or `s` with proper length, areal radius, signal distance, universe size,
   a selected pair realization, or a selected history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
@@ -110,7 +111,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 134-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 135-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

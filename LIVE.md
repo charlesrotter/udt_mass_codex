@@ -54,13 +54,19 @@ derived only on a supplied regular calibrated pair realization.
   lift `xi = rho n` in the query rest space, its unoriented tangent plane is identically the
   metric pair screen. This does not derive the physical three-position carrier or displacement;
   independent-carrier `O(2)` solder and cross-query carry remain `OPEN`.
+- **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
+  Charles authorized `xi=X_max tanh(phi_pair)n` as a working representation for this calculation.
+  On a supplied smooth regular pair it obeys the exact covariant radial/screen/rest-space identity.
+  The registered `lambda` family proves only algebraic first-variation liveness of every
+  `B,Q,S,Y,Z` block; it is not the query clock flow or a connection derivation. `sech(phi)^2` and
+  `tanh(phi)` limits are exact coefficients, not a physical regime-amplitude law.
 
 Maximum conclusion: the complete pullback valuation and its reconstructed metric need no second
-bridge. Coherence is a compatibility grammar, not a numerical score. The radial law does not select
-its non-collinear lift. One conditional carrier makes the two screens identical, but ownership of
-the physical carrier remains open before positional rotation can be compared with path transport.
+bridge. Coherence is a compatibility grammar, not a numerical score. G148 bypasses the independent
+carrier question within one chosen representation and exposes a coefficient-free first-jet
+identity; physical carrier ownership, realized amplitudes, history, and cross-query transport remain open.
 Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
-`udt_g147_pair_directional_metric_screen_solder_2026-08-17/`. Use `INDEX.md` for the chain.
+`udt_g148_relation_first_pair_first_jet_decomposition_2026-08-17/`. Use `INDEX.md` for the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -105,10 +111,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Map and ponder whether the active premises own the query rest-space relation ball as the physical
-multidirectional position carrier, or merely allow that conditional lift. Preserve its unresolved
-`O(2)` solder and cross-query carry. Do not select a ball control, equate gyration with `U_gamma`,
-identify `phi` with rapidity, or infer history, action, source, `X_max`, length, or completion.
+On one explicit smooth time-live complete coframe/query history, compute `dot phi`, `a_n`, and
+`Omega` from the same Levi-Civita geometry with every `B,Q,S,Y,Z` block live. Verify the G148
+covariant identity as a genuine spacetime first jet rather than a `lambda` control. Characterize all
+outputs; do not fit a regime pattern or infer dynamics, history selection, `X_max`, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

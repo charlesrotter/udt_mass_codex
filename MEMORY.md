@@ -20,6 +20,9 @@ Current dependency spine:
 - G146--G147: non-collinear projections remain nonunique. In a defined query-rest-space lift the
   tangent and metric screens coincide, but physical carrier, independent `O(2)` solder,
   cross-query carry, and complete arrow remain open.
+- G148: in a chosen working relation-first representation, the exact covariant first jet splits
+  into radial, screen-turn, and rest-space-tilt pieces. `lambda` proves algebraic block liveness only;
+  coefficient limits do not select amplitudes or history.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -50,9 +53,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Map whether active premises own the query-rest-space relation ball as physical carrier or only allow
-it conditionally. Keep ball controls, `O(2)` solder, carry, arrow, history, `X_max`, length, and
-completion open.
+Compute G148's `dot phi`, `a_n`, and `Omega` from one genuine smooth all-block-live complete
+spacetime/query history and its Levi-Civita connection. Characterize rather than fit; keep carrier,
+history selection, dynamics, `X_max`, length, and completion open.
 
 ## Historical route
 

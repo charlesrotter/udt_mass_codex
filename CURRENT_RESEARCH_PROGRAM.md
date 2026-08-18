@@ -9,8 +9,8 @@ classification. This file states only the current architecture, open gates, and 
 ## Program picture
 
 UDT currently has a strong conditional observer-pair evaluator, faithful metric reconstruction, a
-native bounded projective position readout, and an open physical multidirectional carrier and
-numerical/global valuation problem.
+working bounded projective position readout, an exact working-representation first-jet identity,
+and open physical multidirectional carrier and numerical/global valuation problems.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -87,6 +87,22 @@ collinear law; neither is a complete arrow or UDT law. G147 passes adversarial r
 identically the metric pair screen. This does not derive the physical three-position carrier or a
 displacement. An independent carrier retains `O(2)` solder freedom; cross-query carry remains open.
 
+### G148 — relation-first complete-pair first jet
+
+Fresh adversarial repair/follow-up passed. For this bounded calculation Charles authorized
+`xi=X_max tanh(phi_pair)n` as a `CHOSE / WORKING` representation. On a supplied smooth regular pair,
+
+```text
+nabla_u xi = X_max sech(phi)^2 dot(phi) n
+           + X_max tanh(phi) Omega
+           + X_max tanh(phi) a_n u.
+```
+
+This covariant identity has no local solder coefficient inside that representation.
+The exact `lambda` witness establishes algebraic first-variation liveness of `h`, `phi_pair`, and
+coordinate screen projector for every `B,Q,S,Y,Z` block; it does not compute the connection or
+identify `lambda` with clock flow. Coefficient limits do not determine physical amplitudes.
+
 ## Durable prerequisites
 
 - Pair-first reconstruction: a supplied pair immersion owns its tangent plane and positive screen.
@@ -119,16 +135,16 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Do the active premises own the query rest-space relation ball as the physical multidirectional
-   position carrier, or only permit it as a conditional representation?
-2. If owned, how are its oriented screens carried across pair queries and compared with `U_gamma`?
+1. On one genuine smooth complete spacetime/query history, do the same live `B,Q,S,Y,Z` fields
+   compute `dot phi`, `a_n`, and `Omega` and reproduce G148's covariant first jet?
+2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
 4. What fixes `X_max`, regime strengths, radiative/source structure, and global completion?
 
 ## Bounded next action
 
-Map and ponder question 1 before another derivation. Treat the G146 ball laws as controls and the
-G147 lift as conditional. Do not invent an action, source, selector, fit, Lorentz-rapidity
-identification, or history law. Leave `X_max`, proper length, and completion open.
+Derive question 1 on one explicit untuned smooth local history. Keep every complete-coframe and
+query block live, compute the Levi-Civita connection directly, and preregister exact residuals.
+Characterize rather than fit. Leave carrier ownership, dynamics, `X_max`, length, and completion open.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.
