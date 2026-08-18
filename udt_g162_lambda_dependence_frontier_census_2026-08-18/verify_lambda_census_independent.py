@@ -102,6 +102,7 @@ def root(t, ell, beta):
 
 
 def boost(z):
+    assert F(-1) < z < F(1)
     den = 1 - z * z
     c, s = (1 + z * z) / den, 2 * z / den
     return [[c, s], [s, c]]
@@ -184,6 +185,7 @@ def main():
         assert mm(mm(tr(mcal), hb), mcal) == ha
         assert mm(mm(rb, mcal), inv2(ra)) == [[F(1), F(0)], [F(0), F(1)]]
         assert det2(m) == det2(ra) / det2(rb) == det2(mcal)
+        assert -det2(ha) == det2(ra) ** 2
 
         # A second rapidity changes joined carry but not scalar endpoint data.
         z2 = F(rng.randint(-7, 7), 11)

@@ -4,7 +4,7 @@ S02	D06,D22	working pair position and open completion
 S03	D19	Jacobi and ambient propagation channel
 S04	D06,D07	position and differential response
 S05	D07,D21,D22	common-scale response and history/completion boundary
-S06	D08,D09	half-density joined sigma and carry determinant grading
+S06	D08,D09	volume density half-density joined sigma and carry determinant grading
 S07	D10	canonical endpoint calibration transition
 S08	D17,D21	complete coframe score representative and supplied-history boundary
 S09	D01,D02,D03,D04,D05,D17	pair first-jet descent and representative score boundary

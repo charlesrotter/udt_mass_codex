@@ -67,10 +67,10 @@ def root_from_metric(h: sp.Matrix) -> sp.Matrix:
     return root(t, ell, beta)
 
 
-def boost(z: sp.Expr) -> sp.Matrix:
-    den = 1 - z**2
-    return sp.Matrix([[(1 + z**2) / den, 2 * z / den],
-                      [2 * z / den, (1 + z**2) / den]])
+def boost(a: sp.Expr) -> sp.Matrix:
+    """SO+(1,1) boost parameterized by a positive scale a=exp(theta)."""
+    return sp.Matrix([[(a + 1 / a) / 2, (a - 1 / a) / 2],
+                      [(a - 1 / a) / 2, (a + 1 / a) / 2]])
 
 
 def terminal(h: sp.Matrix) -> tuple[sp.Expr, sp.Expr, sp.Expr, sp.Expr, sp.Expr]:
@@ -105,8 +105,8 @@ def census_rows() -> list[dict[str, str]]:
          "reason": "depends on terminal phi and supplied Xmax only", "source": "S02,S04"},
         {"id": "D07", "object": "pair_position_differential_and_metric_frame_response", "class": q,
          "reason": "depends on quotient history derivatives, not vertical rapidity", "source": "S04,S05"},
-        {"id": "D08", "object": "positive_pair_half_density", "class": q,
-         "reason": "sqrt(abs(det h)) is unchanged", "source": "S06"},
+        {"id": "D08", "object": "pair_volume_density_and_positive_half_density", "class": q,
+         "reason": "sqrt(-det h)=TL and fourth-root sqrt(TL) both factor through h", "source": "S06"},
         {"id": "D09", "object": "joined_sigma_and_raw_carry_determinant_grading", "class": q,
          "reason": "C=Lambda makes joined sigma zero; half log det M=kappa_A-kappa_B", "source": "S06,S10"},
         {"id": "D10", "object": "canonical_endpoint_calibration_carry_Mcal", "class": s,
@@ -142,7 +142,7 @@ def exact_checks() -> dict[str, object]:
     checks: list[str] = []
     eta = sp.diag(-1, 1)
     ta, la, ba, tb, lb, bb = sp.symbols("ta la ba tb lb bb", positive=True)
-    z = sp.symbols("z", real=True)
+    z = sp.symbols("z", positive=True)
     ra, rb = root(ta, la, ba), root(tb, lb, bb)
     ha, hb = ra.T * eta * ra, rb.T * eta * rb
     lam = boost(z)
@@ -176,7 +176,7 @@ def exact_checks() -> dict[str, object]:
     assert_zero(m_cb_cal * m_ba_cal - rc.inv() * ra)
     checks.append("canonical_endpoint_section_three_observer_composition")
 
-    z1, z2 = sp.symbols("z1 z2", real=True)
+    z1, z2 = sp.symbols("z1 z2", positive=True)
     lam_ba, lam_cb = boost(z1), boost(z2)
     m_ba = rb.inv() * lam_ba * ra
     m_cb = rc.inv() * lam_cb * rb
@@ -192,13 +192,15 @@ def exact_checks() -> dict[str, object]:
     checks.append("terminal_kappa_phi_beta_ceff_and_position_lambda_invariant")
 
     assert_zero(m.det() - ra.det() / rb.det())
+    assert_zero(sp.sqrt(-ha.det()) - ta * la)
+    assert_zero((-ha.det()) ** sp.Rational(1, 4) - sp.sqrt(ta * la))
     checks.append("half_density_and_determinant_scale_character_lambda_invariant")
 
     # Live first jet: an arbitrary varying Lambda cancels pointwise and after differentiation.
     u = sp.symbols("u", real=True)
     ra_live = root(2 + u, 3 + u**2, 1 + u / 5)
     rb_live = root(4 + u**2, 5 + u, 2 - u / 7)
-    lam_live = boost(u / 9)
+    lam_live = boost(sp.exp(u / 9))
     ha_live, hb_live = ra_live.T * eta * ra_live, rb_live.T * eta * rb_live
     m_live = rb_live.inv() * lam_live * ra_live
     carried_live = m_live.T * hb_live * m_live
@@ -225,7 +227,7 @@ def exact_checks() -> dict[str, object]:
     checks.append("joined_C_and_Gamma_retain_live_rapidity_while_section_is_flat")
 
     # Flat overlap counterexample: endpoint rebuilding cannot recover an actual boost.
-    witness = boost(sp.Rational(1, 3))
+    witness = boost(sp.Rational(2))
     assert_zero(witness.T * eta * witness - eta)
     assert witness != sp.eye(2)
     assert sp.eye(2).T * eta * sp.eye(2) == eta
