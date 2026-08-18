@@ -7,7 +7,7 @@ Authority: active dependency spine; not canonization
 ## Program picture
 
 UDT has a conditional pair evaluator, faithful metric reconstruction, working bounded position,
-exact chord identities, and an exact variable-balance base transition; physical multidirectional carrier and full-orchestra valuation remain open.
+exact chord identities, and an exact variable-balance complete-coframe transition; physical multidirectional carrier and physical score/history remain open.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -15,8 +15,8 @@ Given a complete metric history, typed query, and calibrated realization, geomet
 2. derivative, extrinsic, Jacobi, and transport data when the query owns them;
 3. overlap, calibration, branch, density, and holonomy compatibility.
 
-These are readouts of supplied metric and observer-relation data. The full pullbacks faithfully
-encode the metric; what supplies their physical numerical values and global completion remains open.
+These read supplied metric and observer-relation data. Full pullbacks encode the metric; physical
+values and global completion remain open.
 
 ## Controlling local evaluator
 
@@ -86,7 +86,7 @@ At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega
 `R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
 those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
 
-### G151--G157 — curvature, differential, scale carry, and regime balance
+### G151--G158 — curvature, differential, scale carry, and complete score
 
 G151 exposes the curvature commutator and conditional Jacobi reduction. G152 shows the immersion
 owns `J1=beta T u+L n` and ruler `r=L n`, not their automatic identity with `xi=rho n`; equality and
@@ -94,11 +94,10 @@ carry are independent. Its conditional `X_max` expression is no value law.
 G153 proves finite `rho` is not proper length and derives
 `d rho=u(rho)theta0+n(rho)theta1` with live `dX_max`. G154 leaves fixed `Xmax` unowned; with supplied
 `Xstar`, common scale realizes four response classes across distinct coherent conformal histories.
-G155 then separates definitions, evaluators, network admissibility, query evolution, calibration,
-and physical-history equations across 41 frozen sources. No active owned statement is a constraint
-or evolution equation for `kappa`; the common-scale physical-history principal rank is zero in that
-regular source-bounded arena. Finite common-scale data therefore do not presently propagate. This
-does not make common scale gauge or exclude a future native scale law.
+G155 separates evaluators, admissibility, calibration, and history equations across 41 sources. No
+active statement constrains or evolves `kappa`; common-scale physical-history principal rank is zero
+in that bounded arena. Finite common-scale data do not propagate. This neither makes scale gauge nor
+excludes a future native law.
 G156 identifies the positive metric half-density as the pair scale carrier. A supplied typed carry
 owns `sigma=one-half log|det C|`; full three-observer carry closure implies scalar scale closure,
 but determinant-one shear remains invisible. Query charts and genuine overlaps are scale-flat;
@@ -106,8 +105,10 @@ physical nonisometric cross-query carry and `kappa` evolution remain open.
 G157 corrects the lockstep framing. Every regular positive-triangular `B+(2)` comparison uniquely
 factors into common scale, reciprocal depth, and normalized shift. Their exact semidirect law allows
 changing relative strengths; one scalar-parameter fixed-generator subgroup is an extra ansatz.
-This already refutes universal fixed-ratio necessity, but full `B,Q,S` screen/mixing composition and
-the realized history score remain open.
+G158 closes the supplied gauge-fixed complete-coframe algebra: `B` and `Q` each carry three
+triangular channels and act on four `S` channels. The exact score obeys
+`dot V=Omega_R V+E dot J`; it organizes a supplied history but neither selects it nor makes the
+right/left logarithmic velocities gauge-independent observables.
 
 ## Durable prerequisites
 
@@ -140,9 +141,8 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-
-1. What is the full `B,Q,S` screen/mixing transition composition, beyond the classified `B+(2)`
-   base law, and how does one supplied time-live history carry its changing balance?
+1. How does the G158 complete score descend to the pair-metric/terminal first jet, with query motion
+   live, and which combinations survive coframe gauge and pair-chart changes?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -150,6 +150,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G157 closes the base fixed-ratio question. Next derive the supplied complete `B,Q,S` composition
-without adding a physical selector, evolution law, or fit.
+G158 closes supplied complete `B,Q,S` composition. Next derive its terminal pair first jet and
+invariance class without adding a physical selector, evolution law, or fit.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

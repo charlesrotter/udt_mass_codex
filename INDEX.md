@@ -23,7 +23,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G157 position/descent/transport/relation/scale closure:
+- G137--G158 position/descent/transport/relation/scale/score closure:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -36,13 +36,15 @@
   `udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/`;
   `udt_g153_relational_position_ruler_differential_join_2026-08-17/`; `udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/`;
   `udt_g155_scale_sector_closure_whiteboard_2026-08-18/`; `udt_g156_three_observer_scale_carry_audit_2026-08-18/`;
-  `udt_g157_regime_dependent_channel_balance_regrading_2026-08-18/`
+  `udt_g157_regime_dependent_channel_balance_regrading_2026-08-18/`;
+  `udt_g158_complete_coframe_semidirect_score_audit_2026-08-18/`
 The chain runs evaluator → metric faithfulness → bounded position → carry → chord → curvature →
 scale rank and balance. Area data encode `g`; supplied pairs own working `chi=tanh(phi_pair)`, but neither metric
 values nor `X_max` follow. G140--G145 separate congruence, overlap carry, and metric reconstruction.
 G146--G153 keep carrier, ruler equality, and proper length conditional. G154 leaves coherent
 conformal histories; G155 finds scale-history rank zero; G156 derives conditional scale carry; G157
-shows the three base channels compose semidirectly without fixed ratios. Full orchestra composition is open.
+removes base lockstep. G158 derives the gauge-fixed complete `3+3+4` semidirect composition and a
+supplied-history logarithmic score; physical score/history and cross-query carry remain open.
 ## Durable prerequisites
 
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -53,7 +55,7 @@ shows the three base channels compose semidirectly without fixed ratios. Full or
 
 For G93--G128 chronology, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 144-row premise registry controls current status, not archived prose.
+load-bearing. The 145-row premise registry controls current status, not archived prose.
 
 ## Observational lane
 

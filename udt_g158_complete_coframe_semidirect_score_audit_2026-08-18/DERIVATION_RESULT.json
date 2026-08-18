@@ -1,0 +1,51 @@
+{
+  "base_channel_count": 3,
+  "changing_score_base_blocks": {
+    "lambda_0": "[[1,0],[0,0]]",
+    "lambda_1": "[[1/2,3/4],[0,1]]"
+  },
+  "changing_score_witness_noncollinear": true,
+  "composition_law": {
+    "B21": "B2*B1",
+    "Q21": "Q2*Q1",
+    "S21": "S1+Q1^-1*S2*B1"
+  },
+  "coordinate_count": 10,
+  "exact_check_names": [
+    "unique_complete_coframe_factorization",
+    "ten_coordinate_jacobian_full_rank",
+    "exact_complete_coframe_closure_and_composition",
+    "identity_and_exact_inverse",
+    "associativity_inherited_from_matrix_group",
+    "base_screen_conjugation_and_additive_mixing_normal_subgroup",
+    "base_and_screen_determinant_characters_miss_mixing",
+    "query_representation_action_and_pair_domain_covariance",
+    "exact_right_and_left_logarithmic_score",
+    "pair_score_splits_metric_generator_and_query_motion",
+    "changing_full_score_endpoint_family_telescopes",
+    "fixed_generator_full_score_is_extra_one_parameter_restriction"
+  ],
+  "exact_checks": 12,
+  "fixed_ratios_derived": false,
+  "inverse_law": {
+    "B_inv": "B^-1",
+    "Q_inv": "Q^-1",
+    "S_inv": "-Q*S*B^-1"
+  },
+  "landing": "GAUGE_FIXED_COMPLETE_COFRAME_SEMIDIRECT_SCORE_DERIVED__TEN_CHANNEL_REGULAR_GROUP_CLOSES__BASE_AND_SCREEN_BPLUS2_CHANNELS_ACT_ON_FOUR_MIXING_COMPONENTS__Y_Z_ARE_QUERY_REPRESENTATION_DATA_NOT_GROUP_COORDINATES__CHANGING_BALANCE_ALLOWED__PHYSICAL_CARRY_HISTORY_SCORE_AND_GLOBAL_COMPLETION_OPEN",
+  "mixing_channel_count": 4,
+  "pair_score": "dV=Omega_R*V+E*dJ",
+  "physical_cross_query_carry_derived": false,
+  "physical_score_derived": false,
+  "query_blocks_are_group_coordinates": false,
+  "registered_outcome_class": "COMPLETE_COFRAME_SEMIDIRECT_SCORE_DERIVED",
+  "right_score": {
+    "base": "dB*B^-1",
+    "mixing": "Q*dS*B^-1",
+    "screen": "dQ*Q^-1"
+  },
+  "screen_channel_count": 3,
+  "source_count": 10,
+  "status": "PASS",
+  "ten_coordinate_jacobian_determinant": "q00**2*q11**2"
+}

@@ -185,6 +185,7 @@ def validate_startup_surface(root: Path) -> None:
             "G155",
             "G156",
             "G157",
+            "G158",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -222,7 +223,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "144-row exact registry",
+            "145-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -265,6 +266,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g153_relational_position_ruler_differential_join_2026-08-17/",
             "udt_g156_three_observer_scale_carry_audit_2026-08-18/",
             "udt_g157_regime_dependent_channel_balance_regrading_2026-08-18/",
+            "udt_g158_complete_coframe_semidirect_score_audit_2026-08-18/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -293,6 +295,7 @@ def validate_startup_surface(root: Path) -> None:
             "G155",
             "G156",
             "G157",
+            "G158",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -320,6 +323,7 @@ def validate_startup_surface(root: Path) -> None:
             "G155",
             "G156",
             "G157",
+            "G158",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -349,10 +353,11 @@ def validate_startup_surface(root: Path) -> None:
             "G155",
             "G156",
             "G157",
+            "G158",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "144-row",
+            "145-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -611,9 +616,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 144, "premise registry must contain exactly 144 rows")
+    require(len(rows) == 145, "premise registry must contain exactly 145 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 144, "duplicate premise id")
+    require(len(by_id) == 145, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3390,6 +3395,35 @@ def main() -> None:
         == "udt_g157_regime_dependent_channel_balance_regrading_2026-08-18/AUDIT_REPORT.md",
         "G157 source changed",
     )
+    require(
+        by_id["G158"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REPAIR_FOLLOWUP_PASS__PREREGISTERED__INDEPENDENT_EXACT_REPLAY_PASS__GAUGE_FIXED_COMPLETE_COFRAME_SEMIDIRECT_SCORE_DERIVED"
+        ),
+        "G158 bounded status regressed or promoted",
+    )
+    require(by_id["G158"]["epistemic_label"] == "MIXED", "G158 label changed")
+    for open_item in (
+        "physical nonisometric cross-query carry",
+        "gauge-independent observable score",
+        "physical E and J histories and lambda ownership",
+        "singular null degenerate cut topology-changing and global-completion strata",
+    ):
+        require(open_item in by_id["G158"]["open_scope"], f"G158 open boundary absent: {open_item}")
+    for guard in (
+        "gauge-fixed structured matrix group called the physical observer functor",
+        "right or left logarithmic velocity called a gauge-independent observable",
+        "Y Z query blocks promoted to ambient group coordinates",
+        "fixed generator called generic composition",
+        "changing-score witness called a physical loud quiet loud prediction",
+        "determinant closure called full carry closure",
+        "algebraic score called history evolution or selection",
+    ):
+        require(guard in by_id["G158"]["forbidden_regression"], f"G158 guard absent: {guard}")
+    require(
+        by_id["G158"]["controlling_source"]
+        == "udt_g158_complete_coframe_semidirect_score_audit_2026-08-18/AUDIT_REPORT.md",
+        "G158 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3468,7 +3502,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G157-extended premise guards; PASS: 144-row premise "
+        "PASS: G158-extended premise guards; PASS: 145-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

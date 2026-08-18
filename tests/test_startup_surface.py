@@ -59,6 +59,8 @@ CURRENT_TARGETS = (
     "udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/AUDIT_REPORT.md",
     "udt_g155_scale_sector_closure_whiteboard_2026-08-18/AUDIT_REPORT.md",
     "udt_g156_three_observer_scale_carry_audit_2026-08-18/AUDIT_REPORT.md",
+    "udt_g157_regime_dependent_channel_balance_regrading_2026-08-18/AUDIT_REPORT.md",
+    "udt_g158_complete_coframe_semidirect_score_audit_2026-08-18/AUDIT_REPORT.md",
 )
 
 
@@ -123,7 +125,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 144-row premise registry" in result.stdout
+    assert "PASS: 145-row premise registry" in result.stdout
 
 
 def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:
@@ -220,6 +222,13 @@ def test_catch_missing_g156_current_result(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", "G156", "REMOVED_RESULT_156")
     with pytest.raises(SystemExit, match="marked current block lacks G156"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_g158_current_result(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "G158", "REMOVED_RESULT_158")
+    with pytest.raises(SystemExit, match="marked current block lacks G158"):
         premise_guard.validate_startup_surface(root)
 
 

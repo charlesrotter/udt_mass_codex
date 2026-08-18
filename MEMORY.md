@@ -4,8 +4,8 @@ Re-read from disk on resume. `LIVE.md` wins.
 
 ## Current theory picture
 
-The evaluator forms one pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and conditional
-`c_eff/c_E`. Live derivatives stay upstream; history, query population, and values are unselected.
+The evaluator forms a pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and conditional
+`c_eff/c_E`; history, query population, and values are unselected.
 
 Current dependency spine:
 
@@ -14,18 +14,18 @@ Current dependency spine:
 - G135--G139: working signed `x/X_max=tanh(phi_pair)` composes within supplied congruent families;
   endpoint position and route transport remain distinct.
 - G140--G144: one chart or genuine overlap owns presentation carry; endpoints do not glue sheets.
-- G145: full-pullback values determine `g` on the supplied 4D atlas, not their own valuation or
-  realization; opposite-curvature survivors remain.
+- G145: pullback values determine `g` on the supplied 4D atlas, not their valuation or realization.
 - G146--G147: projections remain nonunique. A defined rest-space lift matches the metric screen;
   physical carrier, `O(2)` solder, and cross-query carry remain open.
-- G148: the chosen representation has an exact covariant first-jet split. `lambda` proves block
-  liveness only; coefficient limits select neither amplitudes nor history.
-- G149--G157: G149 realizes one chord; G150 makes four named notes locally free. G151 joins change
+- G148: the chosen representation has a covariant first-jet split. `lambda` proves liveness only;
+  coefficient limits select neither amplitudes nor history.
+- G149--G158: G149 realizes one chord; G150 makes four notes locally free. G151 joins change
   to curvature; G152 owns ruler tests; G153 gives the exact differential; G154 leaves fixed scale
-  and response unselected. Distinct conformal histories remain coherent, share reciprocal position,
-  and realize four asymptotic classes; network reconstruction does not select one. G155 finds zero
-  scale-history rank zero. G156 derives conditional scale carry. G157 shows `B+(2)` composition
-  permits changing scale/reciprocal/shift ratios; full screen/mixing composition stays open.
+  and response unselected. Distinct conformal histories share reciprocal position and realize four
+  asymptotic classes; reconstruction does not select one. G155 finds
+  scale-history rank zero. G156 derives conditional scale carry. G157 removes base lockstep. G158
+  derives gauge-fixed `3+3+4` composition and changing score; physical
+  history, gauge-independent score, and cross-query carry remain open.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -54,8 +54,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G157 closes the base lockstep question. Next derive the supplied full `B,Q,S` composition; do not
-add a selector, fit, or evolution law.
+G158 closes the supplied full `B,Q,S` composition. Next descend its score to the terminal pair
+first jet with query motion live and audit gauge/chart invariance; do not add a selector, fit, or
+evolution law.
 Keep proper length, dynamics, numerical `X_max`, and completion open.
 
 ## Historical route

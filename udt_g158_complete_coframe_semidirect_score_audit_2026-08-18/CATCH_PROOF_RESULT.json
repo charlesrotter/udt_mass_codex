@@ -1,0 +1,49 @@
+{
+  "algebra_mutation_count": 5,
+  "catch_count": 10,
+  "caught": [
+    {
+      "caught": true,
+      "name": "reverse_base_order"
+    },
+    {
+      "caught": true,
+      "name": "reverse_screen_order"
+    },
+    {
+      "caught": true,
+      "name": "omit_Q1_inverse_from_mixing"
+    },
+    {
+      "caught": true,
+      "name": "omit_B1_from_mixing"
+    },
+    {
+      "caught": true,
+      "name": "make_mixing_direct_additive"
+    },
+    {
+      "caught": true,
+      "name": "promote_YZ_to_group_coordinates"
+    },
+    {
+      "caught": true,
+      "name": "derive_fixed_ratios"
+    },
+    {
+      "caught": true,
+      "name": "promote_score_to_physical"
+    },
+    {
+      "caught": true,
+      "name": "promote_cross_query_carry"
+    },
+    {
+      "caught": true,
+      "name": "inflate_coordinate_count_with_query_blocks"
+    }
+  ],
+  "metadata_guard_mutation_count": 5,
+  "metadata_guards_are_independent_semantic_proofs": false,
+  "status": "PASS"
+}

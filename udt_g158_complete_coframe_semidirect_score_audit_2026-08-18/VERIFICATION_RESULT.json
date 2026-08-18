@@ -1,0 +1,12 @@
+{
+  "algebra_mutation_count": 5,
+  "changing_score_witness_noncollinear": true,
+  "exact_checks": 12,
+  "independent_exact_trials": 500,
+  "independent_fixed_generator_trials": 200,
+  "landing": "GAUGE_FIXED_COMPLETE_COFRAME_SEMIDIRECT_SCORE_DERIVED__TEN_CHANNEL_REGULAR_GROUP_CLOSES__BASE_AND_SCREEN_BPLUS2_CHANNELS_ACT_ON_FOUR_MIXING_COMPONENTS__Y_Z_ARE_QUERY_REPRESENTATION_DATA_NOT_GROUP_COORDINATES__CHANGING_BALANCE_ALLOWED__PHYSICAL_CARRY_HISTORY_SCORE_AND_GLOBAL_COMPLETION_OPEN",
+  "metadata_guard_mutation_count": 5,
+  "required_files": 20,
+  "source_count": 10,
+  "status": "PASS"
+}

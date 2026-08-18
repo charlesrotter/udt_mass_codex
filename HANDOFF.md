@@ -8,36 +8,37 @@ Read `LIVE.md` first. It wins every disagreement.
 
 ### Current theory state
 
-The evaluator forms a supplied pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and
-conditional `c_eff/c_E`. Live derivatives remain. It selects neither values nor history.
+The covariant evaluator forms a supplied pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and
+conditional `c_eff/c_E`. It selects neither values nor history.
 
-The active dependency chain is:
+The dependency chain is:
 
-1. G129--G134: rank ten pullbacks, pair density, and the bivector area bilinear recover `g`; scalars stop at its conformal class.
-   Common scale is retained, not sourced; the codimension eleven metricity locus is not evolution.
+1. G129--G134: rank ten pullbacks, density, and bivector area bilinear recover `g`; scalars stop at its conformal class.
+   Common scale is retained; the codimension eleven metricity locus is not evolution.
 2. G135--G139: working signed `x/X_max=tanh(phi_pair)` composes in supplied congruent families;
    route transport stays distinct.
 3. G140--G144: a chart or genuine overlap owns carry; shared endpoints do not glue sheets.
-4. G145: rank-complete full-pullback valuation determines the metric on its supplied 4D atlas.
-   Query atlas, numerical valuation, and realization remain supplied/open; opposite-curvature survivors persist.
+4. G145: rank-complete pullbacks determine the metric on their supplied 4D atlas.
+   Query atlas, numerical valuation, and realization remain open.
 5. G146--G147: non-collinear projections remain nonunique. Inside a defined query-rest-space lift,
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
-6. G148: in a chosen working representation, the covariant first jet splits into radial, screen-turn,
-   and rest-space-tilt pieces. `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149--G157: G149 realizes one chord; G150 makes four named notes unrestricted locally. G151
+6. G148: its chosen first jet splits into radial, screen-turn, and rest-space-tilt pieces.
+   `lambda` proves algebraic liveness only; amplitudes remain open.
+7. G149--G158: G149 realizes one chord; G150 makes four notes locally. G151
    joins chord change to curvature. A connecting family restricts the notes and conditionally gives
    Jacobi deviation. G152 classifies immersion/ruler equality and carry. G153 shows finite pair
    position is not proper length and derives its exact time-live metric-frame differential. G154
-   leaves fixed scale unowned and retains four common-scale response classes. External review and
-   independent replay show conformal twins are distinct coherent networks with one reciprocal subnetwork.
-   G155 finds zero active common-scale history equations. G156 derives conditional scale carry.
-   G157 proves `B+(2)` scale/reciprocal/shift composition allows changing ratios; full screen/mixing
-   composition and the realized score remain open.
+   leaves fixed scale open with four common-scale response classes. Review shows conformal twins
+   are distinct coherent networks with one reciprocal subnetwork.
+   G155 finds no active common-scale history equation. G156 derives conditional scale carry.
+   G157 removes base lockstep. G158 derives the supplied gauge-fixed complete coframe as a `3+3+4`
+   semidirect machine and the exact split `dot V=Omega_R V+E dot J`. Changing balance is lawful;
+   physical history, gauge-independent score, and cross-query carry remain open.
 
-The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
+The position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
-After orientation, open `udt_g157_regime_dependent_channel_balance_regrading_2026-08-18/AUDIT_REPORT.md`
+After orientation, open `udt_g158_complete_coframe_semidirect_score_audit_2026-08-18/AUDIT_REPORT.md`
 only when load-bearing. Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 For G93--G128 provenance use `INDEX.md` or
@@ -46,7 +47,7 @@ For G93--G128 provenance use `INDEX.md` or
 ### Observational state
 
 R2--R5 are verified with caveats. R5 retains one dominant direction plus control-dependent
-alignment; 184,300 covariance-range rows remain unresolved. No preferred feature, scale, rank,
+alignment; 184,300 covariance rows remain unresolved. No preferred feature, scale, rank,
 BAO/UDT/CMB origin, cosmology, or `X_max` follows.
 
 Controlling package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
@@ -62,8 +63,8 @@ No long process is running.
   conditional presentation potential.
 - the orchestra enters before terminal readout.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
-- working position constitution is adopted; signed `x/X_max=tanh(phi_pair)` and unsigned magnitude
-  follow on supplied complete pairs, but neither is yet proper length or a selected history.
+- working position is adopted; signed `x/X_max=tanh(phi_pair)` follows on supplied complete pairs,
+  but is not proper length or a selected history.
 - G139 chooses endpoint descent within supplied families; G140--G142 bound congruence and derive
   invariant conditional carrier/carry algebra without selecting the physical family or carry.
 - `X_max` is an observer-pair asymptotic frame, not a wall or center.
@@ -83,7 +84,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G157 removes fixed-ratio lockstep from the base transition. Next derive full `B,Q,S` screen/mixing
-composition for a supplied history; no selector, fit, or evolution law is authorized.
+G158 closes the gauge-fixed `B,Q,S` composition and supplied-history score. Next descend the score
+to `dot h`, `dot phi_pair`, `dot kappa_pair`, and `dot beta` with query motion live, and audit
+coframe-gauge/pair-chart invariance. No selector, fit, or evolution law is authorized.
 
 <!-- STARTUP_CURRENT_END -->

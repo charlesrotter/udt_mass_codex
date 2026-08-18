@@ -9,23 +9,23 @@ conflict, stop and report it.
 | `c_E`, `G_obs` | `OBSERVED` | Calibration anchors | Native placement and absolute closure |
 | Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))` on supplied ordered depth | Complete observer/event/path-to-`delta` owner |
 | Pointwise `phi` | `CONDITIONAL` presentation potential | Local factorized representation | Universal physical scalar ownership |
-| Terminal `phi_pair` | `DERIVED` conditionally | Reciprocal imbalance on a supplied pair metric | Physical pair map and mixed-geometry identification |
+| Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric reciprocal imbalance | Physical pair map and mixed-geometry identification |
 | Complete pair orchestra | `DERIVED` conditional | Angular, screen, mixing precede terminal readout | History and global relation family |
-| Pair `c_eff` | `CONDITIONAL` observer-frame readout | Terminal ratio on a supplied calibrated pair relation | Universal owner and local material-signal interpretation |
+| Pair `c_eff` | `CONDITIONAL` observer-frame readout | Calibrated terminal ratio | Universal owner and local signal interpretation |
 | Pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `x/X_max=tanh(phi_pair)` in congruent families | Family, `X_max`, proper length, history |
-| Co-presence | `WORKING` semantics | Co-membership in one supplied complete solution | Query population, value assignment, signalling, or selection law |
+| Co-presence | `WORKING` semantics | Co-membership in one solution | Query population, valuation, signalling, or selection law |
 
 ## Current reconstruction hierarchy
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
-| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Full `B,Q,S,Y,Z` pullback and terminal readout |
+| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | `B,Q,S,Y,Z` pullback and terminal readout |
 | G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks recover `g`; scalars stop at positive conformal class |
-| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Position is provisional; a chart or overlap owns carry; endpoints do not glue sheets |
-| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback values determine `g` on a supplied 4D atlas; query and realization remain open |
+| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Provisional position; chart/overlap owns carry; endpoints do not glue sheets |
+| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Pullbacks determine `g` on a supplied 4D atlas; query and realization open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections nonunique; screen identity conditional; carrier open |
-| G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Exact covariant identity inside a chosen working representation; coefficient limits only |
-| G149--G157 chord/scale/balance | `VERIFIED_WITH_CAVEATS` | `B+(2)` balance may vary; full orchestra score/evolution open |
+| G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Covariant identity in a chosen representation; coefficient limits only |
+| G149--G158 chord/scale/score | `VERIFIED_WITH_CAVEATS` | Gauge-fixed complete `3+3+4` balance may vary; physical score/evolution open |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits
@@ -39,24 +39,26 @@ None selects values, completion, observations, or `X_max`.
 | Common-scale principal rank | `DERIVED` source-bounded zero | No active constraint or evolution equation for `kappa` in G155's frozen 41-source regular arena; not a future-law no-go |
 | Pair scale carry | `DERIVED_CONDITIONAL` | Half-density determinant character; incomplete closure |
 | Base channel balance | `DERIVED` bounded | `B+(2)` semidirect composition permits changing ratios; full screen/mixing law open |
+| Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4` law and supplied-history velocity; not physical history |
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
 
 ## Geometry, query, and causality
 
 - Bare endpoints do not select relations; causality gives admissibility, not material response.
 - Scalars, shift, Jacobi data, and holonomy have different homes.
-- Full pullbacks recover `g`; scalars stop at its conformal class; the bivector area bilinear
-  recovers `g` up to sign. Metricity is not dynamics.
+- Pullbacks recover `g`; scalars stop at its conformal class; the bivector area bilinear recovers `g` up to sign.
+  Metricity is not dynamics.
 - G138--G144: a chart or overlap owns carry; endpoints do not glue sheets.
 - G145: values determine `g`, not their valuation, query population, or realization.
 - G146--G147: carrier, independent `O(2)` solder, reversal, and transport equality remain open.
 - G148's working representation gives the identity; `lambda` gives algebraic liveness only.
-- G149 realizes one chord; G150 closes only pointwise algebraic relations among four named notes.
+- G149 realizes one chord; G150 closes pointwise relations among four notes.
 - G151 derives the curvature commutator; conditional connecting/Jacobi structure is query-owned.
 - G152 derives ruler equality/carry conditions. G153 gives the position differential with live
   `dX_max`. G154 retains four responses across conformal histories. G155 finds zero source-bounded
-  scale-history rank, not scale gauge. G156 derives half-density carry. G157 removes lockstep only
-  for `B+(2)`; full screen/mixing composition and physical score remain open.
+  scale-history rank, not scale gauge. G156 derives half-density carry. G157 removes base lockstep.
+  G158 derives the supplied gauge-fixed full `B,Q,S` score; physical history, gauge-independent
+  score, query carry, and terminal score descent remain open.
 
 ## Carrier, action, source, and matter
 
@@ -100,6 +102,8 @@ Do not:
 - call G156 scalar scale closure full matrix closure or its conditional carry metric-selected;
 - call G157's `B+(2)` law full orchestra composition, fixed ratios, a loud--quiet--loud prediction,
   or a physical-history/value law;
+- call G158's gauge-fixed structured group the physical observer functor, its right/left score a
+  gauge-independent observable, `Y,Z` group coordinates, or its changing witness physical history;
 - identify relational position with proper length, signal distance, universe size, or history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
 - identify celestial `S^2` with the matter carrier or density descent with a physical value law;
@@ -109,7 +113,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 144-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 145-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

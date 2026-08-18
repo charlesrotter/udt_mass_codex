@@ -1,0 +1,16 @@
+{
+  "changing_balance_witnesses": 1,
+  "changing_score_witness_noncollinear": true,
+  "coordinate_count": 10,
+  "exact_fraction_trials": 500,
+  "fixed_generator_attempts": 220,
+  "fixed_generator_trials": 200,
+  "landing": "GAUGE_FIXED_COMPLETE_COFRAME_SEMIDIRECT_SCORE_DERIVED__TEN_CHANNEL_REGULAR_GROUP_CLOSES__BASE_AND_SCREEN_BPLUS2_CHANNELS_ACT_ON_FOUR_MIXING_COMPONENTS__Y_Z_ARE_QUERY_REPRESENTATION_DATA_NOT_GROUP_COORDINATES__CHANGING_BALANCE_ALLOWED__PHYSICAL_CARRY_HISTORY_SCORE_AND_GLOBAL_COMPLETION_OPEN",
+  "method": "stdlib_fraction_exact_plus_independent_float_fixed_generator",
+  "physical_cross_query_carry_derived": false,
+  "physical_score_derived": false,
+  "query_blocks_are_group_coordinates": false,
+  "registered_outcome_class": "COMPLETE_COFRAME_SEMIDIRECT_SCORE_DERIVED",
+  "source_count": 10,
+  "status": "PASS"
+}
