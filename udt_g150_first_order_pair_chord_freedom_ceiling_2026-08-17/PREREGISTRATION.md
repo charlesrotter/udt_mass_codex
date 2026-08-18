@@ -82,7 +82,8 @@ The bounded theorem requires:
 3. exact rank four of the output map for arbitrary positive `T,L`;
 4. exact symbolic recovery of arbitrary targets under the registered right inverse;
 5. independent numerical replay of every preregistered rational target;
-6. catches for missing normalized-clock factor, missing screen channel, and a forced false relation;
+6. injected mutations for missing normalized-clock factor and missing screen channel, plus an
+   explicit counterexample to a forced false relation;
 7. explicit restriction of the no-go to universal algebraic first-order relations under the stated
    unrestricted smooth-query class.
 
@@ -96,7 +97,6 @@ At most:
 ```text
 UNIVERSAL_ALGEBRAIC_FIRST_ORDER_PAIR_CHORD_SELECTOR_ABSENT_IN_UNRESTRICTED_SMOOTH_REGULAR_METRIC_QUERY_KINEMATICS__
 DOTPHI_AN_AND_TWO_OMEGA_COMPONENTS_CONSTRUCTIVELY_INDEPENDENT_AT_ANY_FINITE_PAIR_DEPTH__
-G148_IDENTITY_AND_FRAME_ORTHOGONALITY_EXHAUST_THIS_BOUNDED_FIRST_ORDER_KINEMATIC_CONTENT__
-PHYSICAL_QUERY_RESTRICTIONS_CURVATURE_GLOBAL_COMPLETION_DYNAMICS_AND_REGIME_LAW_OPEN
+NO_ADDITIONAL_UNIVERSAL_ALGEBRAIC_RELATION_AMONG_THESE_FOUR_OUTPUTS__
+PHYSICAL_QUERY_RESTRICTIONS_NEXT_PAIR_FRAME_JET_METRIC_CURVATURE_GLOBAL_COMPLETION_DYNAMICS_AND_REGIME_LAW_OPEN
 ```
-

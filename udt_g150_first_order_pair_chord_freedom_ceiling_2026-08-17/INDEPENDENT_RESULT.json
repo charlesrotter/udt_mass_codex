@@ -1,0 +1,82 @@
+{
+  "schema": "udt.g150.independent.v1",
+  "status": "PASS",
+  "method": "direct NumPy pullback and normalized-frame replay; no production import",
+  "cases": [
+    {
+      "id": "W1",
+      "target": [
+        0.2857142857142857,
+        -0.2727272727272727,
+        0.38461538461538464,
+        -0.4117647058823529
+      ],
+      "output": [
+        0.2857142857142857,
+        -0.27272727272727265,
+        0.38461538461538464,
+        -0.411764705882353
+      ],
+      "max_abs_error": 5.551115123125783e-17,
+      "regular": true,
+      "orthonormal_error": 0.0,
+      "screen_error": 0.0,
+      "wrong_clock_error": 0.14285714285714285,
+      "missing_screen_error": 0.4117647058823529,
+      "dotphi_equals_an_residual": 0.5584415584415583
+    },
+    {
+      "id": "W2",
+      "target": [
+        -0.2631578947368421,
+        0.4782608695652174,
+        -0.4482758620689655,
+        0.5483870967741935
+      ],
+      "output": [
+        -0.2631578947368421,
+        0.47826086956521735,
+        -0.44827586206896547,
+        0.5483870967741935
+      ],
+      "max_abs_error": 5.551115123125783e-17,
+      "regular": true,
+      "orthonormal_error": 0.0,
+      "screen_error": 0.0,
+      "wrong_clock_error": 0.08771929824561403,
+      "missing_screen_error": 0.5483870967741935,
+      "dotphi_equals_an_residual": 0.7414187643020594
+    },
+    {
+      "id": "W3",
+      "target": [
+        0.0,
+        0.0,
+        0.5135135135135135,
+        -0.5609756097560976
+      ],
+      "output": [
+        0.0,
+        0.0,
+        0.5135135135135135,
+        -0.5609756097560976
+      ],
+      "max_abs_error": 0.0,
+      "regular": true,
+      "orthonormal_error": 0.0,
+      "screen_error": 0.0,
+      "wrong_clock_error": 0.0,
+      "missing_screen_error": 0.5609756097560976,
+      "dotphi_equals_an_residual": 0.0
+    }
+  ],
+  "gates": {
+    "all_targets_recovered": true,
+    "all_regular": true,
+    "all_orthonormal": true,
+    "all_screen": true,
+    "mutation_unnormalized_clock_rejected": true,
+    "mutation_missing_screen_rejected": true,
+    "counterexample_dotphi_equals_an": true
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "udt.g150.symbolic.v1",
+  "status": "PASS",
+  "scope": "unrestricted smooth regular local pair first jets at arbitrary positive T,L",
+  "derived": {
+    "h": [
+      [
+        "-T**2",
+        "0"
+      ],
+      [
+        "0",
+        "L**2"
+      ]
+    ],
+    "phi_pair": "log(L/T)/2",
+    "dotphi": "(-A0*L + B1*T)/(2*L*T**2)",
+    "a_n": "A1/T**2",
+    "Omega": [
+      "0",
+      "0",
+      "B2/(L*T)",
+      "B3/(L*T)"
+    ],
+    "output_jacobian": [
+      [
+        "-1/(2*T**2)",
+        "0",
+        "1/(2*L*T)",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "T**(-2)",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1/(L*T)",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1/(L*T)"
+      ]
+    ],
+    "rank_four_minor_columns_A1_B1_B2_B3": "-1/(2*L**3*T**5)",
+    "right_inverse_recovered": [
+      "p",
+      "a",
+      "w2",
+      "w3"
+    ]
+  },
+  "gates": {
+    "regular_h": true,
+    "orthonormal_u_n": true,
+    "dotphi_formula": true,
+    "a_n_formula": true,
+    "Omega_formula": true,
+    "Omega_screen": true,
+    "rank_four_minor_nonzero": true,
+    "right_inverse_exact": true,
+    "explicit_quadratic_immersion_realizes_jets": true,
+    "mutation_unnormalized_clock_rejected": true,
+    "mutation_missing_screen_rejected": true,
+    "counterexample_dotphi_equals_an": true
+  },
+  "premise_stamps": {
+    "flat_metric": "CHOSE_MATHEMATICAL_COUNTERFAMILY",
+    "pair_jets": "FREE_AND_EXPLORED",
+    "kinematic_ceiling": "DERIVED_IN_STATED_UNRESTRICTED_LOCAL_CLASS",
+    "physical_query_restrictions": "OPEN",
+    "next_pair_frame_jet_and_metric_curvature": "OPEN",
+    "dynamics_and_global_completion": "OPEN"
+  },
+  "maximum_conclusion": "UNIVERSAL_ALGEBRAIC_FIRST_ORDER_PAIR_CHORD_SELECTOR_ABSENT_IN_UNRESTRICTED_SMOOTH_REGULAR_METRIC_QUERY_KINEMATICS__DOTPHI_AN_AND_TWO_OMEGA_COMPONENTS_CONSTRUCTIVELY_INDEPENDENT_AT_ANY_FINITE_PAIR_DEPTH__NO_ADDITIONAL_UNIVERSAL_ALGEBRAIC_RELATION_AMONG_THESE_FOUR_OUTPUTS__PHYSICAL_QUERY_RESTRICTIONS_NEXT_PAIR_FRAME_JET_METRIC_CURVATURE_GLOBAL_COMPLETION_DYNAMICS_AND_REGIME_LAW_OPEN"
+}

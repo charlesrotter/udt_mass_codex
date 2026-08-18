@@ -2,8 +2,8 @@
 
 Date: 2026-08-17
 
-The symbolic proof is primary. These three rational cases are frozen before execution for an
-independent direct replay. They span nonunit scales, signs, zeros, and nonzero screen components.
+The symbolic proof is primary. These three rational cases are frozen before execution for a
+separate implementation replay. They span nonunit scales, signs, zeros, and nonzero screen components.
 
 | id | T | L | p=`dot(phi)` | a=`a_n` | omega_2 | omega_3 |
 |---|---:|---:|---:|---:|---:|---:|
@@ -20,4 +20,3 @@ B=[0,2*p*T*L,omega_2*T*L,omega_3*T*L]
 
 and use the direct pair pullback/frame derivative rather than evaluating the proposed output formula
 alone.
-
