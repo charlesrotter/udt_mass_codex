@@ -1,0 +1,36 @@
+{
+  "beta_weight": 0,
+  "common_scale_physical_history_principal_rank": 0,
+  "conformal_2d_scalar_curvature": "2*(Derivative(w(t, x), (t, 2)) - Derivative(w(t, x), (x, 2)))*exp(-2*w(t, x))",
+  "exact_check_names": [
+    "pair_determinant_conformal_weight_four",
+    "terminal_phi_ratio_conformal_weight_zero",
+    "terminal_beta_conformal_weight_zero",
+    "reciprocal_carrier_unimodular",
+    "carrier_unimodularity_does_not_fix_pair_volume",
+    "bounded_position_conformal_weight_zero",
+    "normalized_ruler_response_conformal_weight_minus_one",
+    "G121_triangle_descent_survives_common_scale_twins",
+    "conformal_curvature_evaluates_supplied_second_jets"
+  ],
+  "exact_checks": 9,
+  "landing": "RANK_ZERO",
+  "ledger_count": 41,
+  "maximum_conclusion": "source-bounded equation-role and principal-rank classification only",
+  "normalized_response_weight": -1,
+  "owned_physical_history_equation_count": 0,
+  "pair_determinant_weight": 4,
+  "phi_pair_weight": 0,
+  "rho_weight": 0,
+  "role_counts": {
+    "CALIBRATION_OR_WORKING_FRAME": 3,
+    "DEFINITION_OR_EVALUATOR": 15,
+    "INACTIVE_OR_OPEN": 5,
+    "NETWORK_ADMISSIBILITY": 12,
+    "QUERY_EVOLUTION": 2,
+    "REPRESENTATION_CONSTRAINT": 4
+  },
+  "scope": "41-source frozen active record; regular complete-coframe and relation-network arena",
+  "source_count": 41,
+  "status": "PASS"
+}

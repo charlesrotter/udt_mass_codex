@@ -1,0 +1,30 @@
+{
+  "catch_count": 6,
+  "caught": [
+    {
+      "caught": true,
+      "name": "omit_frozen_source"
+    },
+    {
+      "caught": true,
+      "name": "promote_evaluator_to_metric_evolution"
+    },
+    {
+      "caught": true,
+      "name": "activate_strong_CSN"
+    },
+    {
+      "caught": true,
+      "name": "promote_fixed_K_to_volume_law"
+    },
+    {
+      "caught": true,
+      "name": "promote_Jacobi_to_metric_evolution"
+    },
+    {
+      "caught": true,
+      "name": "change_reported_landing"
+    }
+  ],
+  "status": "PASS"
+}

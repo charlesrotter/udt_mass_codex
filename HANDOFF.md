@@ -24,29 +24,29 @@ The active dependency chain is:
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
 6. G148: in a chosen working representation, the covariant first jet splits into radial, screen-turn,
    and rest-space-tilt pieces. `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149--G154: G149 realizes one chord; G150 makes its four named notes unrestricted locally. G151
+7. G149--G155: G149 realizes one chord; G150 makes its four named notes unrestricted locally. G151
    joins chord change to curvature. A connecting family restricts the notes and conditionally gives
    Jacobi deviation. G152 classifies immersion/ruler equality and carry. G153 shows finite pair
    position is not proper length and derives its exact time-live metric-frame differential. G154
    leaves fixed scale unowned and retains four common-scale response classes. External review and
    independent replay show conformal twins are distinct coherent networks with one reciprocal subnetwork.
+   G155 finds zero active common-scale physical-history constraint/evolution equations and zero
+   `kappa` principal rank in its preregistered frozen 41-source arena.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
-After orientation, open `udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/AUDIT_REPORT.md`
+After orientation, open `udt_g155_scale_sector_closure_whiteboard_2026-08-18/AUDIT_REPORT.md`
 only when load-bearing. Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
-The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
-package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
-dependency reconstruction is actually needed.
+For G93--G128 provenance use `INDEX.md` or
+`archive/startup_surface_2026-08-17_pre_zoomout/` only when load-bearing.
 
 ### Observational state
 
-R2--R5 are complete and verified with caveats. R4 retains broad complete-curve shape without feature
-selection. R5 retains one dominant shared direction plus control-dependent additional alignment;
-184,300 covariance-range rows remain unresolved. No preferred grid, feature, rank, significance,
-physical scale, BAO/UDT/CMB origin, cosmology, or `X_max` follows.
+R2--R5 are verified with caveats. R5 retains one dominant direction plus control-dependent
+alignment; 184,300 covariance-range rows remain unresolved. No preferred feature, scale, rank,
+BAO/UDT/CMB origin, cosmology, or `X_max` follows.
 
 Controlling package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -82,7 +82,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G155's whiteboard reframes the joint as scale-sector closure, not universe selection. After Charles
-says go, audit equation roles and `kappa` principal rank; no new law is authorized.
+G155 localizes the joint as scale-sector closure and closes the bounded role/rank audit at rank
+zero. After Charles says go, audit three-observer scale carry; no new law is authorized.
 
 <!-- STARTUP_CURRENT_END -->

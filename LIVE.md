@@ -49,23 +49,20 @@ derived only on a supplied regular calibrated pair realization.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
   The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G154 — chord, curvature, ruler ownership, and asymptotic classification.** G149 realizes the covariant chord;
-  G150 makes its four named notes free in the unrestricted local class. G151 derives the exact
-  second chord/curvature commutator. A query-owned connecting family is a sufficient restriction
-  and, away from zero chord, forces `a_n=0` and spatial-gradient laws for depth and screen turn.
-  G152 proves the immersion owns coordinate and orthogonal ruler variations, not their automatic
-  identity with the working chord. G153 resolves the join: finite pair position is not metric proper
-  length; on a supplied smooth family its exact metric-native join is
-  `d rho=u(rho) theta0+n(rho) theta1`, retaining shift, time dependence, and live `d X_max` terms.
-  G154 proves normalized composition does not derive fixed dimensionful `X_max`; even after a
-  fixed `X_star` is supplied, common scale realizes quiet, finite, divergent, or nonconvergent response.
-  Cold external review plus independent replay prove that conformal twins are different coherent
-  complete networks sharing one reciprocal-position subnetwork; current identities select none.
+- **G149--G155 — chord through scale rank.** G149 realizes one covariant chord; G150 makes its four
+  notes locally free. G151 joins chord change to curvature and conditionally to Jacobi deviation.
+  G152 owns ruler tests, not automatic chord equality. G153 proves finite position is not proper
+  length and derives `d rho=u(rho) theta0+n(rho) theta1` with live `d X_max`. G154 leaves fixed
+  `X_max` unowned and admits four common-scale response classes; coherent conformal twins share
+  reciprocal position. G155's preregistered 41-source census finds no active `kappa` constraint or
+  evolution equation: common-scale principal rank is zero in that regular source-bounded arena,
+  not universally and not because scale is gauge.
 
 Maximum conclusion: a supplied pair family owns an exact differential response for finite
 relational position. Its complete network can reconstruct its metric, but current identities do not
-select fixed scale, proper length, family, history, asymptotic class, or numerical `X_max`.
-Primary source: `udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/`.
+constrain or evolve common scale, select proper length, family, history, asymptotic class, or
+numerical `X_max`.
+Primary source: `udt_g155_scale_sector_closure_whiteboard_2026-08-18/`.
 Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
@@ -112,10 +109,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G155's zoomed-out whiteboard reframes the open joint as scale-sector closure, not unique-universe
-selection. After Charles says go, preregister an equation-role/principal-rank audit of `kappa`, then
-a three-observer scale-carry audit. Do not add a law, volume target, completeness premise, action,
-source, fit, proper length, numerical `X_max`, dynamics, or completion.
+G155 closes the preregistered source-bounded role/rank audit at common-scale principal rank zero.
+After Charles says go, preregister the three-observer scale-carry audit: determine whether the
+complete network already owns a positive scale line/torsor and whether carry is endpoint-exact,
+path-labelled, or holonomic. Do not add a law, volume target, completeness premise, action, source,
+fit, proper length, numerical `X_max`, dynamics, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

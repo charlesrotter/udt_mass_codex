@@ -21,11 +21,9 @@
 - G132 common-scale ownership: `udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/`
 - G133 density/area bilinear: `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
-- G135 projective pair-separation constitution:
-  `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
-- G136 continuous co-present position classification:
-  `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G154 position/descent/transport/relation:
+- G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
+- G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
+- G137--G155 position/descent/transport/relation/scale closure:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -36,19 +34,14 @@
   `udt_g149_genuine_spacetime_pair_first_jet_join_2026-08-17/`;
   `udt_g150_first_order_pair_chord_freedom_ceiling_2026-08-17/`; `udt_g151_pair_chord_generalized_deviation_join_2026-08-17/`;
   `udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/`;
-  `udt_g153_relational_position_ruler_differential_join_2026-08-17/`; `udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/`
-The chain is evaluator → pullback faithfulness → co-presence → conformal ceiling → common-scale
-ownership → density/area typing → complete-area faithfulness → bounded projective pair readout.
-Complete area data encode `g`; supplied pairs own `chi=tanh(phi_pair)`. Charles adopted its
-unit-slope chart as working position. The chain selects neither metric values nor `X_max`. Later
-steps classify descent and provisionally choose position in supplied congruent families. G140
-rejects pullback-only congruence; G141--G144 show that a chart or genuine embedded overlap owns its
-presentation carry, while endpoint incidence alone does not glue distinct relation sheets. G145
-proves full-pullback valuation determines its metric component on the supplied 4D base atlas while
-query atlas, calibration, numerical valuation, and physical realization remain supplied or open.
-G146--G147 leave carrier open; G148--G150 derive, realize, and bound the first chord. G151 joins
-change to curvature for a query-owned family. G152 gives ruler tests; G153 derives position.
-G154 shows distinct coherent conformal networks share reciprocal position; reconstruction does not select history.
+  `udt_g153_relational_position_ruler_differential_join_2026-08-17/`; `udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/`;
+  `udt_g155_scale_sector_closure_whiteboard_2026-08-18/`
+The chain runs evaluator → metric faithfulness → bounded position → carry → chord → curvature →
+scale rank. Area data encode `g`; supplied pairs own working `chi=tanh(phi_pair)`, but neither metric
+values nor `X_max` follow. G140--G145 separate congruence, overlap carry, and metric reconstruction.
+G146--G153 keep carrier, ruler equality, and proper length conditional. G154 leaves coherent
+conformal histories; G155 finds no active common-scale equation and zero `kappa` principal rank in
+its frozen 41-source regular arena.
 ## Durable prerequisites
 
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -59,7 +52,7 @@ G154 shows distinct coherent conformal networks share reciprocal position; recon
 
 For G93--G128 chronology, use
 `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only the package made
-load-bearing. The 141-row premise registry controls current status, not archived prose.
+load-bearing. The 142-row premise registry controls current status, not archived prose.
 
 ## Observational lane
 
@@ -68,10 +61,8 @@ load-bearing. The 141-row premise registry controls current status, not archived
 - R4 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md`
 - R5 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_OUTCOME_REPORT.md`
 - R5 verification: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_VERIFICATION_RESULT.json`
-- R5 accepted follow-up:
-  `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`
-- R5 evidence manifest:
-  `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
+- R5 accepted follow-up: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`
+- R5 evidence manifest: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
 - Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
 
 R2--R5 are verified with caveats and remain metric-neutral data characterization. They select no

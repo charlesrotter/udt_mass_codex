@@ -1,15 +1,13 @@
 # Current UDT research program
 
-Date: 2026-08-17
+Date: 2026-08-18
 Authority: active dependency spine; not canonization
 `LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise classification. This file states only the current architecture, open gates, and next bounded move.
 
 ## Program picture
 
-UDT currently has a strong conditional observer-pair evaluator, faithful metric reconstruction, a working
-bounded projective position readout, an exact first-jet identity, one smooth realization,
-a closed four-output first-order selector ceiling, an exact immersion/chord ownership test, and a
-metric-frame differential join, plus open valuation problems and an open physical multidirectional carrier.
+UDT has a conditional pair evaluator, faithful metric reconstruction, working bounded position,
+exact chord identities, and open valuation, physical multidirectional carrier, and scale closure.
 
 Given a complete metric history, typed query, and calibrated realization, geometry can return:
 
@@ -66,8 +64,7 @@ independent `O(2)` solder, and cross-query carry remain open.
 
 ### G148 — relation-first complete-pair first jet
 
-Fresh adversarial repair/follow-up passed. For this bounded calculation Charles authorized
-`xi=X_max tanh(phi_pair)n` as a `CHOSE / WORKING` representation. On a supplied smooth regular pair,
+Within the authorized `CHOSE / WORKING` representation `xi=X_max tanh(phi_pair)n`,
 
 ```text
 nabla_u xi = X_max sech(phi)^2 dot(phi) n
@@ -75,17 +72,13 @@ nabla_u xi = X_max sech(phi)^2 dot(phi) n
            + X_max tanh(phi) a_n u.
 ```
 
-This covariant identity has no local solder coefficient inside that representation.
-The exact `lambda` witness establishes algebraic first-variation liveness of `h`, `phi_pair`, and
-coordinate screen projector for every `B,Q,S,Y,Z` block; it does not compute the connection or
-identify `lambda` with clock flow. Coefficient limits do not determine physical amplitudes.
+This has no solder coefficient inside that representation. `lambda` proves algebraic
+`B,Q,S,Y,Z` liveness, not clock flow, connection, or physical amplitudes.
 
 ### G149 — genuine spacetime/query first-jet join
 
-Fresh adversarial follow-up passed. One smooth complete coframe and pair immersion realize
-`dot(phi_pair)`, Levi-Civita `a_n,Omega`, and `nabla_u xi` from the same geometry. Independent
-removal controls keep every registered `B,Q,S,Y,Z` clock-direction jet live. The `sigma` jet,
-history, amplitudes, and dynamics remain open.
+One smooth coframe/immersion realizes `dot(phi_pair)`, Levi-Civita `a_n,Omega`, and `nabla_u xi`.
+Registered clock-direction jets stay live; `sigma`, history, amplitudes, and dynamics remain open.
 
 ### G150 — first-order ceiling for four-output freedom
 
@@ -93,21 +86,21 @@ At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega
 `R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
 those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
 
-### G151--G154 — curvature, immersion ownership, differential, and asymptotic classes
+### G151--G155 — curvature, immersion ownership, differential, asymptotic classes, and scale rank
 
-Fresh adversarial gates passed. G151 exposes the curvature commutator: a two-parameter query identifying
-its variation with `xi` is sufficient, restrictive, and conditionally Jacobi. G152 shows the immersion owns
-`J1=beta T u+L n` and metric ruler `r=L n`, not their automatic identity with `xi=rho n`. Coordinate equality
-also needs `beta=0`; connecting carry separately needs `u(rho/L)=0` and `J1(log T)-u(beta T)=0`. Exact
-counterexamples separate equality from carry. The conditional `X_max^(epsilon)=epsilon L(L+T)/(L-T)` is no
-value law; universality requires a coherently identified family and constant candidate.
+G151 exposes the curvature commutator and conditional Jacobi reduction. G152 shows the immersion
+owns `J1=beta T u+L n` and ruler `r=L n`, not their automatic identity with `xi=rho n`; equality and
+carry are independent. Its conditional `X_max` expression is no value law.
 
-G153 proves finite `rho=X_max tanh(phi_pair)` is not metric proper length: common scaling can
-preserve `rho` while changing `L`. On a supplied smooth family the premise-owned join is
-`d rho=u(rho)theta0+n(rho)theta1`, with exact `tanh(phi)dX_max` and
-`X_max sech(phi)^2 dphi` terms. Fixed `X_max` and unit-ruler equality are conditional subcases;
-history, value, proper length, and completion remain open. G154 proves normalized composition does not derive fixed `Xmax`;
-with `Xstar` supplied, common scale realizes all four response classes. Cold review extends this network-wide: distinct coherent conformal histories share reciprocal position, and current identities select none.
+G153 proves finite `rho` is not proper length and derives
+`d rho=u(rho)theta0+n(rho)theta1` with live `dX_max`. G154 leaves fixed `Xmax` unowned; with supplied
+`Xstar`, common scale realizes four response classes across distinct coherent conformal histories.
+
+G155 then separates definitions, evaluators, network admissibility, query evolution, calibration,
+and physical-history equations across 41 frozen sources. No active owned statement is a constraint
+or evolution equation for `kappa`; the common-scale physical-history principal rank is zero in that
+regular source-bounded arena. Finite common-scale data therefore do not presently propagate. This
+does not make common scale gauge or exclude a future native scale law.
 
 ## Durable prerequisites
 
@@ -141,8 +134,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. What metric-native nonidentity admissibility law, if any, can restrict the conformal
-   common-scale/history freedom that current network identities only evaluate?
+1. What positive scale line/torsor and three-observer scale carry, if any, does the complete network
+   already own before any common-scale constraint or evolution law is proposed?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -150,6 +143,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G155's whiteboard reframes the joint as scale-sector closure. After Charles says go, preregister an
-equation-role/principal-rank audit of `kappa`, then scale carry. Add no law or fit.
+G155's preregistered role/rank audit is closed at source-bounded rank zero. After Charles says go,
+preregister the three-observer conformal-weight/scale-carry audit. Add no law or fit.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

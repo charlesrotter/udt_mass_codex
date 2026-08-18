@@ -16,24 +16,22 @@ Current dependency spine:
 - G140--G144: one chart or genuine overlap owns presentation carry; endpoints do not glue sheets.
 - G145: full-pullback values determine `g` on the supplied 4D atlas, not their own valuation or
   realization; opposite-curvature survivors remain.
-- G146--G147: non-collinear projections remain nonunique. In a defined query-rest-space lift the
-  tangent and metric screens coincide, but physical carrier, independent `O(2)` solder,
-  cross-query carry, and complete arrow remain open.
-- G148: in a chosen working relation-first representation, the exact covariant first jet splits
-  into radial, screen-turn, and rest-space-tilt pieces. `lambda` proves algebraic block liveness only;
-  coefficient limits do not select amplitudes or history.
-- G149--G154: G149 realizes one chord; G150 makes four named notes locally free. G151 joins change
+- G146--G147: projections remain nonunique. A defined rest-space lift matches the metric screen;
+  physical carrier, `O(2)` solder, and cross-query carry remain open.
+- G148: the chosen representation has an exact covariant first-jet split. `lambda` proves block
+  liveness only; coefficient limits select neither amplitudes nor history.
+- G149--G155: G149 realizes one chord; G150 makes four named notes locally free. G151 joins change
   to curvature; G152 owns ruler tests; G153 gives the exact differential; G154 leaves fixed scale
   and response unselected. Distinct conformal histories remain coherent, share reciprocal position,
-  and realize four asymptotic classes; network reconstruction does not select one.
+  and realize four asymptotic classes; network reconstruction does not select one. G155 finds zero
+  active common-scale history equations and zero `kappa` principal rank in its frozen source arena.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
 ## Observational pointer
 
-R2--R5 are verified with caveats. R4 retains broad persistence; R5 retains one dominant direction
-plus control-dependent alignment. The 184,300 covariance-range rows remain unresolved. No preferred
-feature, scale, significance, BAO/UDT/CMB origin, cosmology, or `X_max` follows.
+R2--R5 are verified with caveats. R5 retains one dominant direction plus control-dependent
+alignment; 184,300 covariance rows remain unresolved. No preferred scale or origin follows.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -55,9 +53,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G154's cold review is closed. Next map and ponder a metric-native nonidentity law capable of
-separating conformal twins; do not solve before authorization. Keep proper length, dynamics,
-numerical `X_max`, and completion open.
+G155's source-bounded role/rank audit is closed. Next audit the three-observer scale line and carry
+already owned by the complete network, if any; do not propose a law before that type is settled.
+Keep proper length, dynamics, numerical `X_max`, and completion open.
 
 ## Historical route
 

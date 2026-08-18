@@ -57,6 +57,7 @@ CURRENT_TARGETS = (
     "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md",
     "udt_g153_relational_position_ruler_differential_join_2026-08-17/AUDIT_REPORT.md",
     "udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/AUDIT_REPORT.md",
+    "udt_g155_scale_sector_closure_whiteboard_2026-08-18/AUDIT_REPORT.md",
 )
 
 
@@ -121,7 +122,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 141-row premise registry" in result.stdout
+    assert "PASS: 142-row premise registry" in result.stdout
 
 
 def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:
@@ -204,6 +205,13 @@ def test_catch_missing_g154_current_result(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", "G154", "REMOVED_RESULT_154")
     with pytest.raises(SystemExit, match="marked current block lacks G154"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_g155_current_result(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "G155", "REMOVED_RESULT_155")
+    with pytest.raises(SystemExit, match="marked current block lacks G155"):
         premise_guard.validate_startup_surface(root)
 
 

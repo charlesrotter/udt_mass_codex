@@ -1,0 +1,19 @@
+{
+  "common_scale_physical_history_principal_rank": 0,
+  "landing": "RANK_ZERO",
+  "ledger_rows": 41,
+  "manifest_files": 41,
+  "method": "stdlib_only_no_production_import",
+  "numeric_conformal_trials": 500,
+  "owned_physical_history_equation_count": 0,
+  "role_counts": {
+    "CALIBRATION_OR_WORKING_FRAME": 3,
+    "DEFINITION_OR_EVALUATOR": 15,
+    "INACTIVE_OR_OPEN": 5,
+    "NETWORK_ADMISSIBILITY": 12,
+    "QUERY_EVOLUTION": 2,
+    "REPRESENTATION_CONSTRAINT": 4
+  },
+  "status": "PASS",
+  "three_observer_conformal_triangle_trials": 500
+}

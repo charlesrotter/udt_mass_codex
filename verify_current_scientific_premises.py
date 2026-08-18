@@ -182,6 +182,7 @@ def validate_startup_surface(root: Path) -> None:
             "G152",
             "G153",
             "G154",
+            "G155",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -219,7 +220,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "141-row exact registry",
+            "142-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -285,6 +286,7 @@ def validate_startup_surface(root: Path) -> None:
             "G152",
             "G153",
             "G154",
+            "G155",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -309,6 +311,7 @@ def validate_startup_surface(root: Path) -> None:
             "G152",
             "G153",
             "G154",
+            "G155",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -335,10 +338,11 @@ def validate_startup_surface(root: Path) -> None:
             "G152",
             "G153",
             "G154",
+            "G155",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "141-row",
+            "142-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -597,9 +601,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 141, "premise registry must contain exactly 141 rows")
+    require(len(rows) == 142, "premise registry must contain exactly 142 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 141, "duplicate premise id")
+    require(len(by_id) == 142, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3288,6 +3292,36 @@ def main() -> None:
         == "udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/AUDIT_REPORT.md",
         "G154 source changed",
     )
+    require(
+        by_id["G155"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__INTERNAL_ADVERSARIAL_REPAIR_FOLLOWUP_PASS__FROZEN_41_SOURCE_EQUATION_ROLE_CENSUS"
+        ),
+        "G155 bounded status regressed or promoted",
+    )
+    require(by_id["G155"]["epistemic_label"] == "MIXED", "G155 label changed")
+    for open_item in (
+        "positive scale line or torsor and lawful three-observer scale carry",
+        "future native common-scale constraint evolution equation or joint relational law",
+        "actual initial boundary or observational data",
+        "singular null cut locus topology-changing and global-completion strata",
+    ):
+        require(open_item in by_id["G155"]["open_scope"], f"G155 open boundary absent: {open_item}")
+    for guard in (
+        "rank zero called proof that no native UDT scale law can exist",
+        "common scale called gauge",
+        "source-bounded role census widened beyond the frozen 41 sources",
+        "finite initial data called sufficient without an evolution equation",
+        "G121 supplied-edge closure called metric-only scale selection",
+        "G134 metricity called history evolution",
+        "G151 Jacobi principal part assigned to the metric",
+        "fixed K reciprocal determinant promoted to physical volume",
+    ):
+        require(guard in by_id["G155"]["forbidden_regression"], f"G155 guard absent: {guard}")
+    require(
+        by_id["G155"]["controlling_source"]
+        == "udt_g155_scale_sector_closure_whiteboard_2026-08-18/AUDIT_REPORT.md",
+        "G155 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3366,7 +3400,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G154-extended premise guards; PASS: 141-row premise "
+        "PASS: G155-extended premise guards; PASS: 142-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
