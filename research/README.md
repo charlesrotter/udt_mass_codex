@@ -31,6 +31,6 @@ premise registry, and the load-bearing source.
 Use root `INDEX.md` for the compact current-frontier path list. It is not a startup read: the
 relocation ledger is not guaranteed to contain packages created after the reorganization snapshot.
 
-The G133 pre-cleanup research orientation is preserved at
+The pre-zoomout research orientation is preserved at
 `../archive/startup_surface_2026-08-17_pre_zoomout/research_README.md`; the earlier verbose version
 remains at `../archive/startup_surface_2026-08-14/research_README_before_cleanup.md`.

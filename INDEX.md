@@ -40,8 +40,8 @@
 The chain is evaluator → pullback faithfulness → co-presence → conformal ceiling → common-scale
 ownership → density/area typing → complete-area faithfulness → bounded projective pair readout.
 Complete area data encode `g`; supplied pairs own `chi=tanh(phi_pair)`. Charles adopted its
-unit-slope chart as working position. G138 does not select metric values or `X_max`. Later steps
-classify descent and provisionally choose position in supplied congruent families. G140
+unit-slope chart as working position. The chain selects neither metric values nor `X_max`. Later
+steps classify descent and provisionally choose position in supplied congruent families. G140
 rejects pullback-only congruence; G141--G144 show that a chart or genuine embedded overlap owns its
 presentation carry, while endpoint incidence alone does not glue distinct relation sheets. G145
 proves full-pullback valuation determines its metric component on the supplied 4D base atlas while

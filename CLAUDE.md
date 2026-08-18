@@ -312,12 +312,14 @@ redirect (nonstationary weld sector / transfer ladder / ensembles).
 
 - Work on `grok` and perform the exact synchronization/status sequence in `AGENTS.md`.
 - `LIVE.md` is the first read and wins every status disagreement. Follow it with `HANDOFF.md`,
-  `CURRENT_RESEARCH_PROGRAM.md`, and the current premise registry.
+  `CURRENT_RESEARCH_PROGRAM.md`, `CURRENT_SCIENTIFIC_PREMISES.md`, and the exact
+  `CURRENT_SCIENTIFIC_PREMISES.tsv` registry.
 - This file is binding method, not scientific status. Read only the sections triggered by the task.
 - Use `INDEX.md` and `MEMORY.md` as compact pointer checks after current authority is understood.
 - `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the byte-identical control snapshots under
   `archive/startup_orientation_history_2026-08-05/` are historical evidence, not generic startup.
-- Current artifact locations come from `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; fixed R0-R1C
-  inventories remain historical snapshots.
+- `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` is a historical relocation ledger.
+- It is not a current-frontier index. Use `INDEX.md` for current evidence routes; fixed inventories
+  remain snapshots.
 - Run `python3 -m pytest tests/` when verification is required; trust the current run rather than a
   count copied into this charter.

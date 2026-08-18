@@ -21,6 +21,7 @@ PREMISE_REGISTRY_CONTROLS = (
     "research/_registry/README.md",
     "CURRENT_RESEARCH_PROGRAM.md",
     "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CLAUDE.md",
     "INFLIGHT_STATE.md",
 )
 
@@ -35,6 +36,7 @@ CURRENT_ORIENTATION_CONTROLS = (
     "research/_registry/README.md",
     "CURRENT_RESEARCH_PROGRAM.md",
     "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CLAUDE.md",
     "INFLIGHT_STATE.md",
 )
 
@@ -51,6 +53,8 @@ STALE_STARTUP_TOKENS = (
     "external review pending",
     "first end-to-end house test",
     "R5 data-only common-subspace assembly",
+    "culminates in the G129--G133 reconstruction/ownership chain",
+    "Current artifact locations come from `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`",
 )
 
 ARCHIVED_STARTUP_SNAPSHOTS = {
@@ -309,6 +313,14 @@ def validate_startup_surface(root: Path) -> None:
             "verify_current_scientific_premises.py",
             "after orientation",
             "AGENTS.md",
+            "udt_g153_relational_position_ruler_differential_join_2026-08-17/",
+        ),
+        "CLAUDE.md": (
+            "This file is binding method, not scientific status",
+            "CURRENT_SCIENTIFIC_PREMISES.tsv",
+            "historical relocation ledger",
+            "not a current-frontier index",
+            "Use `INDEX.md` for current evidence routes",
         ),
         "research/README.md": (
             "CURRENT_ARTIFACT_PATHS.tsv",

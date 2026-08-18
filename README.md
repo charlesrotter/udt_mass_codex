@@ -19,20 +19,11 @@ Fresh sessions must follow `AGENTS.md`. The bounded orientation path is:
 
 ## Current work
 
-The active observational package is
-`udt_observed_angular_pattern_raw_restart_2026-08-12/`. Its exact running/completion state belongs
-only in `LIVE.md`; do not infer it from this README.
-
-The current relational-geometry spine begins with the complete-pair evaluator and culminates in the
-G129--G133 reconstruction/ownership chain:
-
-- `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`;
-- `udt_g129_copresent_relational_network_faithfulness_2026-08-16/`;
-- `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/` through
-  `udt_g133_fixed_K_two_density_overlap_descent_2026-08-16/`.
-
-Their conclusions are conditional and premise-scoped. Read their reports and ledgers before reuse.
-Use `INDEX.md` for durable prerequisites and historical package routes.
+The banked observational package is `udt_observed_angular_pattern_raw_restart_2026-08-12/`. The
+relational-geometry route currently runs from the complete-pair evaluator through
+`udt_g153_relational_position_ruler_differential_join_2026-08-17/`. Exact execution status and the
+next gate belong only in `LIVE.md`; use `INDEX.md` for the complete dependency and evidence routes.
+Do not reconstruct the frontier from this deliberately low-churn README.
 
 ## Repository rules
 
@@ -46,7 +37,7 @@ Use `INDEX.md` for durable prerequisites and historical package routes.
 
 ## Historical material
 
-The G133 pre-cleanup startup surface is preserved under
+The pre-zoomout startup surface is preserved under
 `archive/startup_surface_2026-08-17_pre_zoomout/`; earlier verbose startup prose remains under
 `archive/startup_surface_2026-08-14/`. Both have SHA-256 provenance and neither is current authority.
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` is a historical compatibility checkpoint.

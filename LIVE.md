@@ -58,9 +58,9 @@ derived only on a supplied regular calibrated pair realization.
   length; on a supplied smooth family its exact metric-native join is
   `d rho=u(rho) theta0+n(rho) theta1`, retaining shift, time dependence, and live `d X_max` terms.
 
-Maximum conclusion: curvature organizes change of an actual carried relation family. The pair
-immersion owns the ingredients and exact test for that identification, not an automatic pass or a
-selected family/history.
+Maximum conclusion: a supplied pair family owns an exact differential response for finite
+relational position. It does not make that position proper length or select the family, history,
+asymptotic realization, or numerical `X_max`.
 Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
 `udt_g153_relational_position_ruler_differential_join_2026-08-17/`. Use `INDEX.md` for the chain.
 

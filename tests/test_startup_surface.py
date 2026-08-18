@@ -196,6 +196,18 @@ def test_catch_stale_active_arc(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
+def test_catch_stale_readme_frontier(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    path = root / "README.md"
+    path.write_text(
+        path.read_text(encoding="utf-8")
+        + "\nThe current spine culminates in the G129--G133 reconstruction/ownership chain.\n",
+        encoding="utf-8",
+    )
+    with pytest.raises(SystemExit, match="stale startup token"):
+        premise_guard.validate_startup_surface(root)
+
+
 def test_catch_missing_protected_pair_response(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(

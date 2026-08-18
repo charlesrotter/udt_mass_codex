@@ -34,7 +34,7 @@ The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pa
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
 After orientation, open `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`
-or `udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
+or `udt_g153_relational_position_ruler_differential_join_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
 `INDEX.md` routes the intervening chain.
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
