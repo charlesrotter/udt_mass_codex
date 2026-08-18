@@ -1,0 +1,95 @@
+{
+  "schema": "udt.g152.variational_ownership.v1",
+  "status": "PASS",
+  "formulas": {
+    "phi_pair": "log(L/T)/2",
+    "rho": "X_max*(L - T)/(L + T)",
+    "J1_in_u_n": [
+      "T*beta",
+      "L"
+    ],
+    "r_in_u_n": [
+      "0",
+      "L"
+    ],
+    "xi_in_u_n": [
+      "0",
+      "X_max*(L - T)/(L + T)"
+    ],
+    "C_coordinate": [
+      "(-T*(beta*partial_tau_f + f*partial_tau_beta) + f*(-beta*partial_tau_T + partial_sigma_T))/T**2",
+      "partial_tau_f/T"
+    ],
+    "C_u_n": [
+      "f*(-T*partial_tau_beta - beta*partial_tau_T + partial_sigma_T)/T",
+      "L*partial_tau_f/T"
+    ],
+    "C_invariant": [
+      "f*(-T*partial_tau_beta - beta*partial_tau_T + partial_sigma_T)/T",
+      "L*partial_tau_f/T"
+    ],
+    "kappa": "(-T*partial_tau_beta - beta*partial_tau_T + partial_sigma_T)/T",
+    "branches": {
+      "1": {
+        "epsilon": 1,
+        "T_for_oriented_match": "L*(-L + X_max)/(L + X_max)",
+        "X_candidate": "L*(L + T)/(L - T)",
+        "rho_after_T_substitution": "L",
+        "rho_after_X_substitution": "L",
+        "domain": "T>0,L>0,X>0 requires 0<L<X and epsilon*(L-T)>0"
+      },
+      "-1": {
+        "epsilon": -1,
+        "T_for_oriented_match": "-L*(L + X_max)/(L - X_max)",
+        "X_candidate": "-L*(L + T)/(L - T)",
+        "rho_after_T_substitution": "-L",
+        "rho_after_X_substitution": "-L",
+        "domain": "T>0,L>0,X>0 requires 0<L<X and epsilon*(L-T)>0"
+      }
+    }
+  },
+  "counterexamples": {
+    "regular_non_equality": {
+      "T": "1",
+      "L": "3/2",
+      "X": "4",
+      "beta": "1/5",
+      "rho": "4/5"
+    },
+    "equality_without_carry": {
+      "X": "2",
+      "L_sigma": "sigma/10 + 1",
+      "T_sigma": "(100 - sigma**2)/(10*(sigma + 30))",
+      "rho_equals_L": true,
+      "kappa_at_zero": "-1/30"
+    },
+    "connecting_without_equality": {
+      "T": "1",
+      "L": "2",
+      "X": "3",
+      "rho": "1",
+      "rho_over_L": "1/2",
+      "kappa": "0"
+    }
+  },
+  "gates": {
+    "terminal_tanh_identity": true,
+    "J1_decomposition": true,
+    "both_orientation_branches_exact": true,
+    "coordinate_bracket_matches_invariant_split": true,
+    "carried_oriented_ruler_requires_kappa_zero": true,
+    "coordinate_subcase_beta_zero_requires_Tsigma_zero": true,
+    "counterexample_regular_non_equality": true,
+    "counterexample_equality_without_carry": true,
+    "counterexample_connecting_without_equality": true
+  },
+  "premise_stamps": {
+    "pair_immersion": "SUPPLIED",
+    "T_L_beta_and_variations": "DERIVED_FROM_SUPPLIED_PAIR_METRIC",
+    "xi": "CHOSE_WORKING_RELATION_FIRST_REPRESENTATION",
+    "epsilon": "CHOSE_ORIENTATION_LABEL",
+    "identification_and_connecting_carry": "CONDITIONAL_NOT_AUTOMATIC",
+    "Xmax_value_and_physical_history": "OPEN"
+  },
+  "maximum_conclusion": "PAIR_IMMERSION_OWNS_COORDINATE_AND_ORTHOGONAL_VARIATIONS_BUT_NOT_THEIR_IDENTIFICATION_WITH_WORKING_XI__EXACT_MAGNITUDE_SHIFT_LAPSE_AND_COMMUTATOR_CONDITIONS_CLASSIFIED__UNIVERSAL_XMAX_WOULD_REQUIRE_CANDIDATE_CONSTANCY_ACROSS_THE_SUPPLIED_FAMILY__PHYSICAL_IDENTIFICATION_QUERY_HISTORY_DYNAMICS_XMAX_VALUE_AND_COMPLETION_OPEN"
+}

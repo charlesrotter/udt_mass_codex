@@ -1,0 +1,61 @@
+{
+  "schema": "udt.g152.independent_witnesses.v1",
+  "status": "PASS",
+  "orientation_cases": [
+    {
+      "name": "oriented_match_1",
+      "epsilon": 1,
+      "rho": "1",
+      "matches": true,
+      "bracket": [
+        "0",
+        "0"
+      ],
+      "carried": true
+    },
+    {
+      "name": "oriented_match_-1",
+      "epsilon": -1,
+      "rho": "-1",
+      "matches": true,
+      "bracket": [
+        "0",
+        "0"
+      ],
+      "carried": true
+    }
+  ],
+  "equality_without_carry": {
+    "coordinate_bracket_at_origin": [
+      "-1/10",
+      "0"
+    ],
+    "normalized_u_coefficient_at_origin": "-1/30"
+  },
+  "connecting_without_equality": {
+    "rho_over_L": "1/2",
+    "bracket": [
+      "0",
+      "0"
+    ]
+  },
+  "shift_control": {
+    "J1_in_u_n": [
+      "1/21",
+      "1"
+    ],
+    "xi_in_u_n": [
+      "0",
+      "1"
+    ]
+  },
+  "gates": {
+    "positive_oriented_match_carried": true,
+    "negative_oriented_match_carried": true,
+    "equality_without_carry_exact": true,
+    "connecting_without_equality_exact": true,
+    "shift_separates_coordinate_and_orthogonal_variations": true,
+    "terminal_match_holds_in_shift_control": true
+  },
+  "scope": "exact finite witness replay; not a physical query or Xmax value"
+}
