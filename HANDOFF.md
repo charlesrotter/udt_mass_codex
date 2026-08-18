@@ -25,17 +25,17 @@ The active dependency chain is:
    tangent equals metric screen; physical carrier, `O(2)` solder, and cross-query carry remain open.
 6. G148: in a chosen working representation, the covariant first jet splits into radial, screen-turn,
    and rest-space-tilt pieces. `lambda` proves algebraic liveness only; amplitudes remain open.
-7. G149--G153: G149 realizes one chord; G150 makes its four named notes unrestricted locally. G151
+7. G149--G154: G149 realizes one chord; G150 makes its four named notes unrestricted locally. G151
    joins chord change to curvature. A connecting family restricts the notes and conditionally gives
    Jacobi deviation. G152 classifies immersion/ruler equality and carry. G153 shows finite pair
-   position is not proper length and derives its exact time-live metric-frame differential.
+   position is not proper length and derives its exact time-live metric-frame differential. G154
+   leaves fixed scale unowned and retains four exact common-scale-controlled response classes.
 
 The reviewed position chain gives `s/X_max=abs(tanh(phi_pair))` on a supplied pair. Physical
 inverse, `X_max`, proper length, family, history, and completion remain `OPEN`; `CANON.md` is unchanged.
 
-After orientation, open `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md`
-or `udt_g153_relational_position_ruler_differential_join_2026-08-17/AUDIT_REPORT.md` only when load-bearing;
-`INDEX.md` routes the intervening chain.
+After orientation, open `udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/AUDIT_REPORT.md`
+only when load-bearing. Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 The G93--G128 chronology is not required for startup. Use `INDEX.md`, the exact premise registry,
 package-local reports, or `archive/startup_surface_2026-08-17_pre_zoomout/` when historical
@@ -82,8 +82,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Preregister the bounded asymptotic-response classes of G153's exact differential, keeping fixed
-versus varying `X_max` explicit. Do not equate pair position with proper length or infer a selected
-history, dynamics, numerical `X_max`, or completion.
+Use G154's prepared metric-first cold-review problem to ask whether complete relational closure
+restricts common-scale/history or only evaluates supplied histories. External transmission needs
+authorization; proper length, selected history, dynamics, numerical `X_max`, and completion stay open.
 
 <!-- STARTUP_CURRENT_END -->

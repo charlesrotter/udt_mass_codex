@@ -28,7 +28,7 @@ choose the file that makes a desired derivation easiest.
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Full-pullback values determine `g` on a supplied 4D atlas; query and realization remain open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections remain nonunique; rest-space screen identity is conditional; physical carrier remains open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Exact covariant identity inside a chosen working representation; coefficient limits only |
-| G149--G153 chord/curvature/differential | `VERIFIED_WITH_CAVEATS` | Immersions own ruler tests; finite position is not proper length; its supplied-family differential is exact |
+| G149--G154 chord/curvature/response | `VERIFIED_WITH_CAVEATS` | Not metric proper length; neither scale nor response is fixed |
 
 None selects values, query population, completion, observations, or `X_max`. G93--G128 details
 remain in the registry and package evidence.
@@ -55,9 +55,9 @@ remain in the registry and package evidence.
 - G149 realizes one chord; G150 closes only pointwise algebraic relations among four named notes.
 - G151 derives the curvature commutator. Connecting-family identification is sufficient, restrictive,
   and query-owned; conditional Jacobi reduction does not select history.
-- G152 derives ruler equality/carry conditions; neither is selected. G153 replaces finite equality
-  with the exact metric-frame position differential, retaining live `dX_max`. Proper length,
-  calibration, history, value, and completion stay open.
+- G152 derives ruler equality/carry conditions; neither is selected. G153 gives the exact position
+  differential with live `dX_max`. G154 leaves fixed scale unowned and retains quiet, finite,
+  divergent, and nonconvergent common-scale responses. Proper length and history stay open.
 
 ## Carrier, action, source, and matter
 
@@ -96,8 +96,8 @@ Do not:
   untested `sigma` direction, or call its exact local chord a regime-amplitude/dynamics law;
 - read G150 as exhausting first-order geometry, G151 as making every terminal chord a Jacobi field,
   or G152 as automatically identifying pair position with proper ruler length;
-- call G153's differential a proper-length identity, freeze `X_max` silently, or infer a selected
-  history, global asymptote realization, or numerical value from it;
+- call G153's differential a proper-length identity, claim normalized composition fixes `X_max`,
+  discard live `dX_max`, or select response from `sech(phi)^2` alone;
 - identify relational `x` or `s` with proper length, areal radius, signal distance, universe size,
   a selected pair realization, or a selected history;
 - revive strong local CSN or scale-free UDT because a common factor cancels;
@@ -109,7 +109,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 140-row authority. Each row records the object,
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 141-row authority. Each row records the object,
 classification, stamp, scope, unresolved scope, prohibited inference,
 controlling source, and precedence rule. Premise IDs are stable ledger keys, not a required startup
 chronology.

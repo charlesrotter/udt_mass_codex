@@ -93,7 +93,7 @@ At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega
 `R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
 those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
 
-### G151--G153 — curvature, immersion ownership, and differential join
+### G151--G154 — curvature, immersion ownership, differential, and asymptotic classes
 
 Fresh adversarial gates passed. G151 exposes the curvature commutator: a two-parameter query identifying
 its variation with `xi` is sufficient, restrictive, and conditionally Jacobi. G152 shows the immersion owns
@@ -106,7 +106,7 @@ G153 proves finite `rho=X_max tanh(phi_pair)` is not metric proper length: commo
 preserve `rho` while changing `L`. On a supplied smooth family the premise-owned join is
 `d rho=u(rho)theta0+n(rho)theta1`, with exact `tanh(phi)dX_max` and
 `X_max sech(phi)^2 dphi` terms. Fixed `X_max` and unit-ruler equality are conditional subcases;
-history, value, proper length, and completion remain open.
+history, value, proper length, and completion remain open. G154 proves normalized composition does not derive fixed `Xmax`; even with `Xstar` supplied, common scale realizes all four preregistered response classes.
 
 ## Durable prerequisites
 
@@ -140,8 +140,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Current open joints
 
-1. Which asymptotic classes of G153's differential approach one shared finite `X_max` on a supplied
-   coherent relation family?
+1. Does global relation-network closure restrict the common-scale/history freedom left by G154, or
+   only evaluate supplied histories?
 2. How are oriented screens carried across pair queries and compared with `U_gamma`?
 3. Does complete time-live/global metric structure constrain numerical relation values beyond the
    compatibility identities, or are initial/boundary/observational data required?
@@ -149,7 +149,7 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Preregister—not yet solve—the asymptotic-response classification for G153's temporal and spatial
-coefficients, separating fixed-`X_max` saturation from live modulation. Leave carrier, history
-selection, dynamics, numerical `X_max`, proper length, and completion open.
+Use G154's prepared metric-first cold-review problem for outside adjudication after authorization.
+Do not add a fitted law; leave carrier, history selection, dynamics, numerical `X_max`, proper
+length, and completion open.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

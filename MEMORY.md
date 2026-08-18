@@ -22,9 +22,9 @@ Current dependency spine:
 - G148: in a chosen working relation-first representation, the exact covariant first jet splits
   into radial, screen-turn, and rest-space-tilt pieces. `lambda` proves algebraic block liveness only;
   coefficient limits do not select amplitudes or history.
-- G149--G153: G149 realizes one chord; G150 makes four named notes locally free. G151 joins change
-  to curvature for a query-owned family. G152 owns ruler tests; G153 proves finite position is not
-  proper length and derives its exact time-live differential.
+- G149--G154: G149 realizes one chord; G150 makes four named notes locally free. G151 joins change
+  to curvature; G152 owns ruler tests; G153 gives the exact differential; G154 leaves fixed scale
+  and response class unselected while common scale realizes four asymptotic classes.
 
 The numerical/global valuation, query population, completion, and `X_max` remain open.
 
@@ -54,8 +54,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Preregister the asymptotic-response classes of G153's differential, separating fixed from varying
-`X_max`. Keep history, proper length, dynamics, numerical `X_max`, and completion open.
+After authorization, submit G154's metric-first cold-review problem on whether relational closure
+restricts common-scale/history. Keep proper length, dynamics, numerical `X_max`, and completion open.
 
 ## Historical route
 

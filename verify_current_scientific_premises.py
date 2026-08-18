@@ -67,6 +67,8 @@ STALE_STARTUP_TOKENS = (
     "external review pending",
     "first end-to-end house test",
     "R5 data-only common-subspace assembly",
+    "Preregister the asymptotic-response classes of G153",
+    "Preregister a bounded asymptotic-response classification of G153",
     "culminates in the G129--G133 reconstruction/ownership chain",
     "Current artifact locations come from `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`",
 )
@@ -179,6 +181,7 @@ def validate_startup_surface(root: Path) -> None:
             "G151",
             "G152",
             "G153",
+            "G154",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -216,7 +219,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "140-row exact registry",
+            "141-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -281,6 +284,7 @@ def validate_startup_surface(root: Path) -> None:
             "G151",
             "G152",
             "G153",
+            "G154",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -304,6 +308,7 @@ def validate_startup_surface(root: Path) -> None:
             "G151",
             "G152",
             "G153",
+            "G154",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -329,10 +334,11 @@ def validate_startup_surface(root: Path) -> None:
             "G151",
             "G152",
             "G153",
+            "G154",
             "positive conformal class",
             "Common pair scale",
             "bivector area bilinear",
-            "140-row",
+            "141-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -591,9 +597,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 140, "premise registry must contain exactly 140 rows")
+    require(len(rows) == 141, "premise registry must contain exactly 141 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 140, "duplicate premise id")
+    require(len(by_id) == 141, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3249,6 +3255,34 @@ def main() -> None:
         == "udt_g153_relational_position_ruler_differential_join_2026-08-17/AUDIT_REPORT.md",
         "G153 source changed",
     )
+    require(
+        by_id["G154"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REPAIR_FOLLOWUP_PASS__NORMALIZED_COMPOSITION_DOES_NOT_DERIVE_FIXED_DIMENSIONFUL_XMAX"
+        ),
+        "G154 bounded status regressed or promoted",
+    )
+    require(by_id["G154"]["epistemic_label"] == "MIXED", "G154 label changed")
+    for open_item in (
+        "physical fixed-scale descent or scale carry law",
+        "selected common-scale metric history",
+        "relation between additive depth and normalized clock or ruler rate",
+        "all-frame shared Xmax numerical value angular or bootstrap modulation",
+    ):
+        require(open_item in by_id["G154"]["open_scope"], f"G154 open boundary absent: {open_item}")
+    for guard in (
+        "normalized Mobius composition called derivation of one fixed dimensionful Xmax",
+        "conditional fixed-scale consistency theorem promoted to ownership",
+        "live dXmax discarded before fixed-scale descent is independently supplied",
+        "sech squared coefficient alone called physical loud quiet loud response",
+        "local counterfamilies called physical histories",
+        "sign-paired witnesses called universal reversal without carried frame",
+    ):
+        require(guard in by_id["G154"]["forbidden_regression"], f"G154 guard absent: {guard}")
+    require(
+        by_id["G154"]["controlling_source"]
+        == "udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/AUDIT_REPORT.md",
+        "G154 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3327,7 +3361,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G153-extended premise guards; PASS: 140-row premise "
+        "PASS: G154-extended premise guards; PASS: 141-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

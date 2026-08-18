@@ -2,7 +2,7 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-## CURRENT STATE — 2026-08-17
+## CURRENT STATE — 2026-08-18
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
@@ -49,7 +49,7 @@ derived only on a supplied regular calibrated pair realization.
 - **G148 — relation-first first jet.** `VERIFIED_WITH_CAVEATS` after adversarial repair/follow-up.
   The working `xi=X_max tanh(phi_pair)n` obeys an exact radial/screen/rest-space identity.
   `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G153 — chord, curvature, ruler ownership, and differential join.** G149 realizes the covariant chord;
+- **G149--G154 — chord, curvature, ruler ownership, and asymptotic classification.** G149 realizes the covariant chord;
   G150 makes its four named notes free in the unrestricted local class. G151 derives the exact
   second chord/curvature commutator. A query-owned connecting family is a sufficient restriction
   and, away from zero chord, forces `a_n=0` and spatial-gradient laws for depth and screen turn.
@@ -57,12 +57,14 @@ derived only on a supplied regular calibrated pair realization.
   identity with the working chord. G153 resolves the join: finite pair position is not metric proper
   length; on a supplied smooth family its exact metric-native join is
   `d rho=u(rho) theta0+n(rho) theta1`, retaining shift, time dependence, and live `d X_max` terms.
+  G154 proves normalized composition does not derive fixed dimensionful `X_max`; even after a
+  fixed `X_star` is supplied, common scale realizes quiet, finite, divergent, or nonconvergent response.
 
 Maximum conclusion: a supplied pair family owns an exact differential response for finite
-relational position. It does not make that position proper length or select the family, history,
-asymptotic realization, or numerical `X_max`.
-Primary sources: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` and
-`udt_g153_relational_position_ruler_differential_join_2026-08-17/`. Use `INDEX.md` for the chain.
+relational position. Neither normalized composition nor local response selects fixed scale,
+proper length, family, history, asymptotic class, or numerical `X_max`.
+Primary source: `udt_g154_shared_xmax_asymptotic_response_classification_2026-08-18/`.
+Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
 
 Earlier G93--G128 execution chronology is provenance, not startup reading. It is preserved in the
 package tree, premise registry, and `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -108,10 +110,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Preregister a bounded asymptotic-response classification of G153's exact `u(rho),n(rho)` terms:
-state when one supplied coherent pair family approaches a shared finite `X_max`, separating fixed-
-`X_max` saturation from live `d X_max` modulation. Do not infer proper length, fit or select a
-history/query, or derive dynamics, regime amplitudes, a numerical `X_max`, or completion.
+G154's metric-first cold-review problem is prepared. Seek outside adjudication of whether the
+complete relation network derives a common-scale/history restriction or only evaluates supplied
+histories. Do not transmit without authorization or invent an action, source, fitted profile,
+proper length, numerical `X_max`, dynamics, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under
