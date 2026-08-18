@@ -150,6 +150,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G154's cold review is closed. Map, then ponder, a metric-native nonidentity history law using
-preregistered conformal twins; do not solve before Charles says go. Do not fit.
+G155's whiteboard reframes the joint as scale-sector closure. After Charles says go, preregister an
+equation-role/principal-rank audit of `kappa`, then scale carry. Add no law or fit.
 History: `archive/startup_surface_2026-08-17_pre_zoomout/`; `archive/startup_surface_2026-08-14/`.

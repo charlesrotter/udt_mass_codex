@@ -82,7 +82,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G154's cold review is closed: current identities only evaluate supplied histories. Next map and
-ponder a metric-native law separating conformal twins; do not solve before Charles says go.
+G155's whiteboard reframes the joint as scale-sector closure, not universe selection. After Charles
+says go, audit equation roles and `kappa` principal rank; no new law is authorized.
 
 <!-- STARTUP_CURRENT_END -->

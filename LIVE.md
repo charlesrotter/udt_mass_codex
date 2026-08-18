@@ -112,10 +112,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G154's cold review is closed: current network identities evaluate supplied histories but do not
-select common scale. Next `MAP -> PONDER` the smallest metric-native nonidentity admissibility law
-that could separate preregistered conformal twins. Do not solve or invent an action, source, fitted
-profile, proper length, numerical `X_max`, dynamics, or completion before Charles says go.
+G155's zoomed-out whiteboard reframes the open joint as scale-sector closure, not unique-universe
+selection. After Charles says go, preregister an equation-role/principal-rank audit of `kappa`, then
+a three-observer scale-carry audit. Do not add a law, volume target, completeness premise, action,
+source, fit, proper length, numerical `X_max`, dynamics, or completion.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under
