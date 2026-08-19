@@ -229,6 +229,8 @@ def validate_startup_surface(root: Path) -> None:
         require(token in normalized_live, f"LIVE lacks G146 bounded caveat: {token}")
     require("udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/" in controls["AGENTS.md"],
             "AGENTS lacks protected curvature-atlas guard")
+    require("Primary-kernel regression gate" in controls["AGENTS.md"],
+            "AGENTS guard absent: Primary-kernel regression gate")
 
     required_routes = {
         "AGENTS.md": (
@@ -3869,8 +3871,23 @@ def main() -> None:
         "S^2` carrier is a `POSIT",
         "EH metric-only action is `CONDITIONAL",
         "Bootstrap/stable-matter is a working hypothesis",
+        "Primary-kernel regression gate",
+        "primary metric -> supplied pair germ -> h=F^*g -> endpoint Phi values -> endpoint difference",
+        "G142--G160 abstract carrier/carry/score architecture remains conditional historical control",
+        "archive/scaffolded_kernel_controls_2026-08-19/README.md",
     ]:
         require(token in agents, f"AGENTS guard absent: {token}")
+
+    scaffold_archive = ROOT / "archive/scaffolded_kernel_controls_2026-08-19/README.md"
+    require(scaffold_archive.is_file(), "scaffolded-kernel quarantine pointer missing")
+    scaffold_text = " ".join(scaffold_archive.read_text(encoding="utf-8").split())
+    for token in (
+        "quarantines a **use**, not the immutable evidence packages",
+        "They are not the active derivation route",
+        "complete pullback h=F^*g",
+        "blocks regression from the metric pullback back to an independently scaffolded kernel",
+    ):
+        require(token in scaffold_text, f"scaffolded-kernel quarantine guard absent: {token}")
 
     xmax_controls = (
         "AGENTS.md",

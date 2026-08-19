@@ -133,6 +133,13 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
     assert "PASS: 156-row premise registry" in result.stdout
 
 
+def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "AGENTS.md", "Primary-kernel regression gate", "REMOVED_KERNEL_GATE")
+    with pytest.raises(SystemExit, match="AGENTS guard absent"):
+        premise_guard.validate_startup_surface(root)
+
+
 def test_current_startup_surface_passes_in_isolation(tmp_path: Path) -> None:
     premise_guard.validate_startup_surface(_startup_copy(tmp_path))
 

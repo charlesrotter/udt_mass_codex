@@ -105,6 +105,13 @@ Disk evidence wins over conversational memory.
 - Angular, screen, and mixing data enter the complete pair pullback before terminal reciprocal
   readout. Do not bolt the orchestra on afterward or promote a conditional strain/readout into the
   unique physical observer law.
+- **Primary-kernel regression gate:** the active scalar route is
+  `primary metric -> supplied pair germ -> h=F^*g -> endpoint Phi values -> endpoint difference`.
+  The G142--G160 abstract carrier/carry/score architecture remains conditional historical control
+  evidence. Do not import its `R/M/C`, calibration-torsor, score, or history-selection variables to
+  define or repair the primary reciprocal kernel. Use those packages only for an explicitly scoped
+  covariance or negative-control question. See
+  `archive/scaffolded_kernel_controls_2026-08-19/README.md`.
 - `c_E` is an observed clock/ruler calibration scale. Conditional `c_eff` ratios are inter-observer
   frame readouts, not automatically local signal speeds.
 - `X_max` retains its owner-ratified working asymptotic meaning but is inactive as a local reciprocal
