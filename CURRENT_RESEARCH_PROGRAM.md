@@ -25,8 +25,8 @@ Charles provisionally adopts completed-pair Dual Reciprocity. After angular, scr
 shift enter the supplied pullback, G176 uniquely derives
 `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1`, and `Phi=-log T`. Other calibrations are control queries,
 not rival kernels. Event/germ realization remains open.
-G177 removes registered scaffolds; G178 externally accepts it. G179 extends the conditional theorem
-to arbitrary complete coframes and supplied regular rank-two germs; fresh review is pending.
+G177 removes scaffolds; G178 accepts. G179 extends to arbitrary coframes and regular germs; review
+accepts without repair.
 
 ## Controlling local evaluator
 
@@ -108,13 +108,12 @@ arbitrary calibrated control tapes. Grade: `VERIFIED_WITH_CAVEATS` after externa
 
 ### G176--G179 — completed-pair reciprocity and complete-coframe extension
 
-Under Charles's `WORKING_FOUNDATIONAL_CLARIFICATION`, the physical reciprocal-pair domain is
-narrower than the arbitrary-calibration arena. For every regular shifted pair,
-`m=T L_sigma=sqrt(-det h_sigma)` is the unique positive ruler density with `T L=1`; shift remains
+Under the `WORKING_FOUNDATIONAL_CLARIFICATION`, every regular shifted pair has
+`m=T L_sigma=sqrt(-det h_sigma)`, the unique positive ruler density with `T L=1`; shift remains
 active. In G173, `m^2=exp(-2phi)H` and `Phi=phi`, including angular turns. Grade:
 `VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL_ON_WORKING_FOUNDATIONAL_CLARIFICATION`. G177 rebuilds it;
 G178 accepts it. G179 extends it to arbitrary `E,J`; BQSYZ, shift, singular-Y, covariance, and live
-controls pass. Review is pending.
+controls pass; fresh review accepts.
 
 ## Observational anchors
 
@@ -146,4 +145,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Submit sealed G179 for fresh review before singular/global or observational extension.
+Preregister a smooth primary-metric completed-pair family across separation. Keep it metric-led;
+exclude G142--G160 scaffolds, `X_max`, and observations. Test whether the pointwise kernel glues
+without a new scalar.

@@ -110,8 +110,8 @@ Disk evidence wins over conversational memory.
   regular pair this fixes the reciprocal ruler density by
   `m=T*L_sigma=sqrt(-det(h_sigma))`. Arbitrarily calibrated curves remain lawful control queries,
   not alternative UDT reciprocal kernels. This does not select the observer events or pair germ.
-  G177 scaffold-checks; G178 accepts; G179 conditionally extends to arbitrary coframes and regular
-  supplied germs, pending review.
+  G177 scaffold-checks; G178 accepts; G179 extends to arbitrary coframes and regular supplied germs,
+  externally accepted within bounds.
 - **Primary-kernel regression gate:** the active scalar route is `primary metric -> supplied pair
   germ -> h=F^*g -> complete-pair Dual Reciprocity -> endpoint Phi values -> endpoint difference`.
   The G142--G160 abstract carrier/carry/score architecture remains conditional historical control

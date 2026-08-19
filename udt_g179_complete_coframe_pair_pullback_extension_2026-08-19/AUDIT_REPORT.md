@@ -58,9 +58,16 @@ exact witness gives nonzero (d\Phi) and (d(m^2)) from each of (B,Q,S,Y,Z).
 - Lorentz gauge, ambient coordinate, ruler reparameterization, orientation, and live product-rule
   controls: pass.
 
+## Fresh external review
+
+A sealed read-only gpt-5.4 review independently rebuilt both exact witnesses, replayed 20,000
+exact-fraction cases, verified all source hashes and covariance controls, and returned
+`G179_ACCEPTED_WITH_STATED_BOUNDS`. It found no hidden scalar, scaffold dependency, or required
+repair.
+
 ## Scientific grade
 
-`DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS_PENDING_FRESH_ADVERSARIAL_REVIEW`
+`DERIVED_CONDITIONAL__FRESH_EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS`
 
 This is a general local scalar-kernel theorem on supplied regular completed pair germs, conditional
 on the `WORKING_FOUNDATIONAL_CLARIFICATION`. It is not canon and does not select observer events or

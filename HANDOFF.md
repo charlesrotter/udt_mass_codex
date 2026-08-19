@@ -32,7 +32,7 @@ kernels. Physical event/germ realization remains open.
 G178 externally accepts this result with stated bounds; coordinate reversal is not pair reversal.
 G179 extends conditionally to arbitrary coframes and regular germs:
 `h=J^T E^T eta_4 E J`, `m=sqrt(-det h)`, `Phi=-1/2 log(-h00)`. Full-orchestra and
-covariance controls pass; review is pending.
+covariance pass; review accepts without repair.
 
 Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry; valuation stays open.
 G146--G163 bound the controls and remove `X_max` from the kernel. G164--G165 remove scaffolds/control
@@ -91,6 +91,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Submit sealed G179 for fresh adversarial review before singular/global extension or observations.
+Preregister a primary-metric completed-pair family across separation, excluding carry/score,
+`X_max`, and observations.
 
 <!-- STARTUP_CURRENT_END -->

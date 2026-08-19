@@ -8,6 +8,7 @@
 4. **Premise audit:** pass locally — ten source hashes match, the completed-pair premise remains
    explicitly `WORKING_FOUNDATIONAL_CLARIFICATION`, and no downstream mechanism is imported.
 
-Additional promotion gate: fresh adversarial review remains pending.
+Additional promotion gate: pass — fresh external gpt-5.4 review independently reconstructs the
+exact witnesses and 20,000-trial replay and returns `G179_ACCEPTED_WITH_STATED_BOUNDS`.
 
-Grade: `DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS_PENDING_FRESH_ADVERSARIAL_REVIEW`.
+Grade: `DERIVED_CONDITIONAL__FRESH_EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS`.

@@ -4,6 +4,8 @@
   "independent_exact_fraction_trials": 20000,
   "landing": "GENERAL_COMPLETE_COFRAME_PULLBACK_EXTENDS_COMPLETED_PAIR_KERNEL_WITHOUT_EXTRA_SCALAR",
   "preregistration_commit": "c8070adb",
+  "external_review": "G179_ACCEPTED_WITH_STATED_BOUNDS",
+  "external_review_session": "01a01bdd-a436-7a33-ab35-1782bee57ec5",
   "source_count": 10,
-  "status": "PASS__DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS_PENDING_FRESH_ADVERSARIAL_REVIEW"
+  "status": "PASS__DERIVED_CONDITIONAL__FRESH_EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS"
 }

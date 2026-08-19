@@ -4183,7 +4183,7 @@ def main() -> None:
     )
     require(
         by_id["G179"]["current_status"].startswith(
-            "DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS_PENDING_FRESH_ADVERSARIAL_REVIEW__"
+            "DERIVED_CONDITIONAL__FRESH_EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__"
             "PREREGISTERED_AT_C8070ADB"
         ),
         "G179 complete-coframe landing changed",
@@ -4202,7 +4202,6 @@ def main() -> None:
         "cross-query relation population and global completion",
         "positive dimensionful distance numerical Xmax",
         "observations radiative transfer dynamics action source matter bootstrap mass and signalling",
-        "fresh external adversarial review",
     ):
         require(open_item in by_id["G179"]["open_scope"], f"G179 open boundary absent: {open_item}")
     for guard in (
@@ -4227,6 +4226,10 @@ def main() -> None:
     require(
         (ROOT / "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/VERIFICATION_RESULT.json").is_file(),
         "G179 verification result missing",
+    )
+    require(
+        (ROOT / "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXTERNAL_REVIEW_ADJUDICATION.md").is_file(),
+        "G179 external adjudication missing",
     )
 
     guard_rows = read_tsv(

@@ -48,7 +48,7 @@ G178 independently accepts this bounded result and confirms that spatial-coordin
 itself the separate observer-pair reversal theorem owned by G170--G171.
 G179 conditionally extends this to arbitrary coframes and supplied regular germs:
 `h=J^T E^T eta_4 E J`, `m=sqrt(-det h)`, `Phi=-1/2 log(-h00)`. Full BQSYZ, shift,
-singular-Y, covariance, and live controls pass; review is pending.
+singular-Y, covariance, and live controls pass. Fresh review accepts them without repair.
 
 ### Current dependency spine
 
@@ -121,7 +121,8 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Submit sealed G179 for fresh review before singular/global or observational extension.
+Preregister a smooth primary-metric completed-pair family across separation, excluding G142--G160
+scaffolds, `X_max`, and observations.
 
 ### Archive
 Pre-cleanup startup surfaces are under `archive/startup_surface_2026-08-17_pre_zoomout/` and

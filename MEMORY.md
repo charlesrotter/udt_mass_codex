@@ -12,8 +12,8 @@ on bare line data. G174 gives one scalar per calibrated ruler. G175 proves a loc
 propagate across arbitrary tapes. G176 provisionally applies Dual Reciprocity after the complete
 pair pullback and uniquely fixes `m=T L_sigma=sqrt(-det h_sigma)`. Arbitrary calibrations remain
 controls, not rival kernels. G177 removes scaffolds; G178 externally accepts it. G179 extends the
-conditional theorem to arbitrary complete coframes and supplied regular germs; fresh review is
-pending. Physical event/germ and global realization remain open.
+conditional theorem to arbitrary coframes and regular germs; review accepts without repair.
+Physical event/germ and global realization remain open.
 
 Dependency spine:
 
@@ -55,7 +55,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Submit sealed G179 for fresh adversarial review; preserve the working—not canon—grade and open
-event/germ/global scope.
+Derive a smooth primary-metric completed-pair family across separation; preserve the working—not
+canon—grade and exclude carry/score, `X_max`, and observational scaffolds.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

@@ -279,7 +279,10 @@ The preregistered landing is
 GENERAL_COMPLETE_COFRAME_PULLBACK_EXTENDS_COMPLETED_PAIR_KERNEL_WITHOUT_EXTRA_SCALAR
 ```
 
-Status: `DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS_PENDING_FRESH_ADVERSARIAL_REVIEW`.
+Status: `DERIVED_CONDITIONAL__FRESH_EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS`.
+
+A fresh sealed gpt-5.4 review independently reconstructed both registered witnesses, reran the
+20,000 exact-fraction controls without writing to the intake, and found no defect or hidden scalar.
 
 The theorem is local to supplied smooth regular rank-two completed pair germs and conditional on
 the working completed-pair clarification. Event/germ realization, null and degenerate strata,

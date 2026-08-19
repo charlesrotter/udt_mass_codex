@@ -12,6 +12,9 @@ In plain language, no extra knob is needed after the music is played. Different 
 change the clock-side depth, the spacing of the reciprocal ruler, or the shift between them, but
 they do so from inside the metric calculation.
 
+A fresh outside reviewer rebuilt the calculation from the sealed raw ingredients and found the
+same result, including the full mixing and singular-base-projection tests. It required no repair.
+
 What remains unfinished is not another hidden local kernel formula. We have not yet extended this
 regular local result to singular or global cases, nor used it to select concrete observer events or
 make SNe/BAO/CMB predictions.

@@ -34,6 +34,11 @@ def main() -> None:
         "EVIDENCE_GATES.md",
         "STATUS_LEDGER.tsv",
         "ADVERSARIAL_REVIEW_REQUEST.md",
+        "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+        "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt.gz",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "REVIEW_EXECUTION_BOUNDARY.md",
+        "TRANSMISSION_RECORD.md",
         "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json",
         "CATCH_PROOF_RESULT.json",
@@ -58,6 +63,16 @@ def main() -> None:
         "thirty_catches": catches.get("status") == "PASS" and catches.get("catch_count") == 30,
         "landing_matches": derivation.get("landing") == expected_landing
         and summary.get("landing") == expected_landing,
+        "external_review_accepted": summary.get("external_review")
+        == "G179_ACCEPTED_WITH_STATED_BOUNDS",
+        "external_review_hash": hashlib.sha256(
+            (HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_bytes()
+        ).hexdigest()
+        == "af2009155fde266e62038bac7bddbc084dc87e7ab1a1d4d7d73b610d56fc6744",
+        "external_transcript_hash": hashlib.sha256(
+            (HERE / "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt.gz").read_bytes()
+        ).hexdigest()
+        == "6ebb508f634198344628a5ea75859a1970f1991455ce8a6912ad93b8e8fed0c5",
         "files_present": not missing,
     }
     failed = [name for name, passed in checks.items() if not passed]

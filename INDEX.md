@@ -58,7 +58,7 @@ endpoint-relative reversal; G171 derives the pair-germ-relative scalar network a
 arbitrary triangle additivity and scaffolded carry. G172--G175 remain accepted controls: turns are
 regular, one calibrated germ has one scalar, and arbitrary tapes differ lawfully. G176 provisionally
 closes the ruler; G177 removes scaffolds; G178 accepts it; G179 extends it to complete coframes and
-regular germs, pending review. Event/germ and global extension remain open.
+regular germs and is accepted. Event/germ/global extension remains open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
