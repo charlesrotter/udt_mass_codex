@@ -49,8 +49,7 @@ G179 extends conditionally to arbitrary coframes/regular germs:
 `h=J^T E^T eta_4 E J`, `m=sqrt(-det h)`, `Phi=-1/2 log(-h00)`; full controls pass review.
 G180 glues smooth regular intervals. In the primary family,
 `ds/dsigma=sqrt(v^2+exp(-2phi)r^2b^2)` and `Phi(s)=phi(r(s))`; angular/common scale act through the
-tape, not afterward. Fresh review accepts and independently reproduces the theorem; corrected
-sealed replay of two packaging repairs is pending.
+tape, not afterward. Scientific and repair reviews accept; no-write sealed replays pass.
 
 ### Current dependency spine
 
@@ -123,8 +122,8 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Submit the corrected sealed G180 intake for repair-only replay before global/singular or
-observational extension.
+G180 evidence closure is complete. Next, preregister one bounded extension without reopening the
+kernel: either its first excluded singular/branch stratum or one conditional observational replay.
 
 ### Archive
 Pre-cleanup startup surfaces are under `archive/startup_surface_2026-08-17_pre_zoomout/` and

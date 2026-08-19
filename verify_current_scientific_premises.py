@@ -4236,7 +4236,7 @@ def main() -> None:
     require(
         by_id["G180"]["current_status"].startswith(
             "DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__"
-            "REPAIR_ONLY_REPLAY_PENDING__"
+            "REPAIR_ACCEPTED__"
             "PREREGISTERED_AT_AE24EBBC"
         ),
         "G180 smooth-family landing changed",
@@ -4255,7 +4255,6 @@ def main() -> None:
         "supplied metric and common-scale profile selection",
         "positive metric-space distance numerical Xmax",
         "observations radiative transfer dynamics action source matter bootstrap mass and signalling",
-        "repair-only external replay of sealed evidence packaging",
     ):
         require(open_item in by_id["G180"]["open_scope"], f"G180 open boundary absent: {open_item}")
     for guard in (
@@ -4290,6 +4289,15 @@ def main() -> None:
     require(
         (ROOT / "udt_g180_completed_pair_smooth_family_descent_2026-08-19/REVIEW_REPAIR_PREREGISTRATION.md").is_file(),
         "G180 repair preregistration missing",
+    )
+    require(
+        (ROOT / "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_RAW.md").read_text().strip()
+        == "G180_REPAIR_ACCEPTED",
+        "G180 repair-only external acceptance missing",
+    )
+    require(
+        (ROOT / "udt_g180_completed_pair_smooth_family_descent_2026-08-19/FOLLOWUP_TRANSMISSION_RECORD.md").is_file(),
+        "G180 follow-up transmission record missing",
     )
 
     guard_rows = read_tsv(

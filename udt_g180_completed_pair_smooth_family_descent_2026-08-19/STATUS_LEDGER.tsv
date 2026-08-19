@@ -12,4 +12,5 @@ time-live derivatives	DERIVED_KINEMATIC	not dynamics or a history law
 physical family realization	OPEN	metric evaluator does not select events or germs here
 singular and global completion	OPEN	null degenerate zero-tangent branch and topology omitted
 non-scalar transport and observations	OPEN	separately typed downstream questions
-fresh external adversarial review	ACCEPTED_WITH_STATED_BOUNDS	no scientific defect; sealed-replay packaging repair pending follow-up
+fresh external adversarial review	ACCEPTED_WITH_STATED_BOUNDS	no scientific defect
+repair-only external follow-up	REPAIR_ACCEPTED	corrected dependency-free sealed replays and no-write traces pass; scientific landing unchanged

@@ -9,7 +9,8 @@
    `WORKING_FOUNDATIONAL_CLARIFICATION`; no scaffold, `X_max`, observation, or dynamics is imported.
 
 Fresh adversarial review: scientific pass — `G180_ACCEPTED_WITH_STATED_BOUNDS`; it independently
-reproduced the exact result and found no theorem defect. A repair-only replay of corrected sealed
-source paths and dependency-free catches remains pending before evidence closure.
+reproduced the exact result and found no theorem defect. Repair-only follow-up:
+`G180_REPAIR_ACCEPTED`; corrected dependency-free replays reproduced all counts without path repair
+or writes, and both syscall write-attempt searches were empty.
 
-Grade: `DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__REPAIR_ONLY_REPLAY_PENDING`.
+Grade: `DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__REPAIR_ACCEPTED`.

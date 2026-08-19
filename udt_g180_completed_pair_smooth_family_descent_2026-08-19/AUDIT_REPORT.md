@@ -65,11 +65,12 @@ profile is still not selected by this theorem.
 - nine frozen source hashes match;
 - fresh external gpt-5.4 independently reconstructed the theorem and exact population and returned
   `G180_ACCEPTED_WITH_STATED_BOUNDS`;
-- its only defect was sealed-replay packaging; the corrected repair-only replay is pending.
+- its only defect was sealed-replay packaging; a repair-only follow-up independently verified the
+  corrected no-write replays and returned `G180_REPAIR_ACCEPTED`.
 
 ## Scientific grade and ceiling
 
-`DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__REPAIR_ONLY_REPLAY_PENDING`
+`DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__REPAIR_ACCEPTED`
 
 The result is conditional on the working completed-pair clarification and on a supplied smooth
 regular family. It does not select events or families, prove a positive metric-space distance,

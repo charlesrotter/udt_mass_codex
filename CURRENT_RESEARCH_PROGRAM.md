@@ -29,7 +29,8 @@ G177 removes scaffolds; G178 accepts. G179 extends to arbitrary coframes and reg
 accepts without repair.
 G180 glues the density along every supplied smooth regular interval. In the primary family,
 angular motion changes the completed tape map while `Phi(s)=phi(r(s))`. Fresh review accepts the
-theorem and independently reproduces its exact population; packaging repair replay is pending.
+theorem and independently reproduces its exact population; repair-only follow-up accepts the
+corrected dependency-free no-write replays.
 
 ## Controlling local evaluator
 
@@ -104,8 +105,8 @@ active. In G173, `m^2=exp(-2phi)H` and `Phi=phi`, including angular turns. Grade
 G178 accepts it. G179 extends it to arbitrary `E,J`; BQSYZ, shift, singular-Y, covariance, and live
 controls pass; fresh review accepts.
 G180 integrates `m=sqrt(-det h)` on smooth regular intervals. In the primary family the angular
-sector changes `s(sigma)` and `r(s)`, not completed `Phi=phi`; review accepts with only sealed-replay
-packaging repair pending.
+sector changes `s(sigma)` and `r(s)`, not completed `Phi=phi`; scientific review and repair-only
+evidence follow-up both accept.
 
 ## Observational anchors
 
@@ -137,5 +138,5 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Submit corrected sealed G180 for repair-only replay before global/singular or observational
-extension.
+G180 evidence closure is complete. Preregister one bounded next extension—its first excluded
+singular/branch stratum or one conditional observational replay—without reopening the kernel.

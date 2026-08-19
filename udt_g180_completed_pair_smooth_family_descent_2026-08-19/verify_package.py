@@ -51,6 +51,9 @@ def main() -> None:
         "REVIEW_EXECUTION_BOUNDARY.md",
         "REVIEW_REPAIR_PREREGISTRATION.md",
         "FOLLOWUP_REVIEW_REQUEST.md",
+        "EXTERNAL_FOLLOWUP_REVIEW_RAW.md",
+        "EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt.gz",
+        "FOLLOWUP_TRANSMISSION_RECORD.md",
     }
     missing = sorted(name for name in required if not (HERE / name).is_file())
     landing = "COMPLETED_PAIR_SMOOTH_FAMILY_DESCENT__ORCHESTRA_ENTERS_THE_PHYSICAL_TAPE_MAP"
@@ -68,6 +71,8 @@ def main() -> None:
         in (HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_text(),
         "repair_scope_preregistered": "make no change to the theorem"
         in (HERE / "REVIEW_REPAIR_PREREGISTRATION.md").read_text(),
+        "repair_followup_accepted": "G180_REPAIR_ACCEPTED"
+        in (HERE / "EXTERNAL_FOLLOWUP_REVIEW_RAW.md").read_text(),
         "files_present": not missing,
     }
     failed = [name for name, passed in checks.items() if not passed]
