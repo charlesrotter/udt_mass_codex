@@ -2,7 +2,7 @@
 
 Date: 2026-08-18
 
-Grade: `VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN`
+Grade: `VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REPAIR_FOLLOWUP_PASS`
 
 ## Primary landing
 
@@ -74,7 +74,8 @@ ownership and the global coexistence/carry of those germs.
 - repository regression: 125 passed, 1 registered xfail;
 - the first fresh external review returned
   `REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE`;
-- the ownership repair is applied; repair-only follow-up remains open before startup promotion.
+- the ownership repair is applied; a fresh sealed repair-only follow-up returned
+  `FOLLOWUP_PASS__OWNERSHIP_REGRADE_COMPLETE__CONDITIONAL_LOCAL_THEOREM_RETAINED`.
 
 ## Maximum conclusion
 

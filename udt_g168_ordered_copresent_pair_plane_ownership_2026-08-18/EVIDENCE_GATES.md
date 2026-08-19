@@ -22,7 +22,8 @@ event pairing, cross-query carry, path outputs, general ambient completion, or d
 - independent stdlib `Fraction` replay: 6,012/6,012 over 1,200 trials;
 - semantic mutation catches: 12/12;
 - repository regression: 125 passed, 1 registered xfail;
-- first fresh external review: repair required; ownership regrade applied; follow-up open.
+- first fresh external review: repair required; ownership regrade applied;
+- fresh sealed repair-only follow-up: pass, conditional local theorem retained.
 
 ## Gate 4 — premise audit
 
@@ -32,11 +33,12 @@ germ is stamped `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`; only the metric projec
 derived conditionally.
 
 The first external review required this ownership regrade and left the local algebra intact. The
-repaired administrative package gate passes all production, independent, mutation, source, and
-premise checks. A fresh repair-only follow-up is open.
+fresh repair-only follow-up verified that the regrade is complete and the conditional local theorem
+is retained. The repaired administrative package gate passes all production, independent,
+mutation, source, premise, and external-follow-up checks.
 
 ## Current grade
 
 ```text
-VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN
+VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REPAIR_FOLLOWUP_PASS
 ```

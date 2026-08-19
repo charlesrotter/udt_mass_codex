@@ -1,0 +1,2029 @@
+OpenAI Codex v0.144.5
+--------
+workdir: /intake
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 01a017fa-8f2b-7343-bb9b-1a62f1c381e3
+--------
+user
+# G168 repair-only external follow-up
+
+Work cold, read-only, and only inside the sealed intake. Do not continue the research.
+
+The first review returned:
+
+```text
+REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE
+```
+
+Verify only the repairs registered in
+`udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/REPAIR_PREREGISTRATION.md`:
+
+1. Physical ownership of `(u_A,s_AB)` must now be `PROPOSED_WORKING_POSTULATE_NOT_DERIVED` or an
+   equivalent explicitly conditional status.
+2. The local theorem must remain: once a regular germ is supplied, the metric uniquely derives the
+   orthogonal ruler, Lorentzian pair plane, positive screen, and primary-metric `Y,Z` decomposition
+   without a path or complete pair surface.
+3. Bare labels/event pairing must remain insufficient, and coincidence, reversal/carry, relative
+   motion, global network, and general ambient completion boundaries must remain explicit.
+4. Generated landing fields, reports, ledgers, semantic catches, evidence status, and package gate
+   must agree with the regrade.
+5. No algebra, witness, source, trial count, metric, counterfamily, tolerance, or excluded scope may
+   have changed except as required by the ownership regrade.
+
+Return exactly one:
+
+- `FOLLOWUP_PASS__OWNERSHIP_REGRADE_COMPLETE__CONDITIONAL_LOCAL_THEOREM_RETAINED`
+- `FOLLOWUP_REPAIR_REQUIRED__<precise defect>`
+- `FOLLOWUP_FAIL__<precise reason>`
+
+Do not edit files, use the internet, inspect outside the intake, or perform new research.
+
+codex
+Verifying the preregistered G168 ownership-only repair inside the intake. I’m locating the package files first, then I’ll compare the regraded status fields and check that nothing beyond the ownership claim changed.
+exec
+/bin/bash -lc "rg --files /intake | rg 'udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18|G168|g168'" in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc 'rg -n "REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE|PROPOSED_WORKING_POSTULATE_NOT_DERIVED|OWNERSHIP|regular germ|orthogonal ruler|Lorentzian pair plane|positive screen|Y,Z decomposition|event pairing|coincidence|reversal|relative motion|global network|ambient completion|package gate|landing|ledger|semantic catch|evidence status" /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18' in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+codex
+`rg` is unavailable here, so I’m falling back to `find` and `grep` to read the preregistration and the generated package artifacts directly.
+exec
+/bin/bash -lc "find /intake -maxdepth 3 \\( -path '/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18' -o -path '/intake/*g168*' -o -path '/intake/*G168*' \\) -print" in /intake
+ succeeded in 0ms:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/TRANSMISSION_RECORD.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/REPAIR_PREREGISTRATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/LAY_REPORT.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/VERIFICATION_RESULT.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXECUTION_NOTE.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_RAW.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/CATCH_PROOF_RESULT.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md
+
+exec
+/bin/bash -lc 'find /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18 -maxdepth 3 -type f | sort' in /intake
+ succeeded in 0ms:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/CATCH_PROOF_RESULT.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXECUTION_NOTE.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_RAW.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/LAY_REPORT.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/REPAIR_PREREGISTRATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/TRANSMISSION_RECORD.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/VERIFICATION_RESULT.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py
+
+codex
+The package is self-contained. I’m reading the repair preregistration and the generated status artifacts now, then I’ll cross-check whether only the ownership claim was regraded.
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/REPAIR_PREREGISTRATION.md" in /intake
+ succeeded in 0ms:
+# G168 repair preregistration
+
+Date: 2026-08-19
+
+Trigger: first fresh sealed external review.
+
+## Frozen reviewer finding
+
+```text
+REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE
+```
+
+## Registered repairs
+
+1. Replace every unconditional or merely clarificatory ownership statement for the germ with
+   `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`, or state the theorem conditionally on a supplied germ.
+2. Change the scientific landing to distinguish the conditional local theorem from the open
+   physical ownership of the germ.
+3. Update the audit, exact derivation, lay report, ledgers, generated landing fields, evidence grade,
+   and verifier to the same boundary.
+4. Add a semantic catch that fails if the report again says the completed relation *derivedly* or
+   automatically owns its one-jet.
+
+No projection formula, witness, source, trial count, metric, counterfamily, tolerance, or excluded
+scope may change. A repair-only reviewer must verify that the local theorem survives while the
+ownership overstatement is removed.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md" in /intake
+ succeeded in 0ms:
+# G168 first external-review adjudication
+
+Date: 2026-08-19
+
+## Return
+
+```text
+REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE
+```
+
+## Adjudication
+
+The local theorem survives:
+
+- a **supplied** regular germ `(u_A,s_AB)` uniquely determines its orthogonal ruler and Lorentzian
+  plane through the metric;
+- its primary-metric coordinate components are the G167 `Y,Z` blocks;
+- no path or full pair surface is required after the germ is supplied;
+- the counterfamily still proves that bare labels and boundary event pairing do not select it.
+
+The ownership statement does not survive unchanged. The frozen premise record says that pair-plane
+ownership and physical realization remain open. Calling “the completed relation supplies its
+one-jet” merely a semantic clarification understates its epistemic cost. It is an additional
+working postulate unless separately derived or explicitly adopted.
+
+The required repair is therefore an ownership regrade, not an algebra change. Startup promotion
+remains blocked pending a fresh repair-only follow-up review.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+claim	status	scope_or_boundary
+reciprocal character on supplied ordered depth	DERIVED	founding regular one-parameter representation
+physical normalized position constitution	CHOSE_WORKING_FOUNDATIONAL_CLARIFICATION	regular completed co-present observer pairs
+local ordered pair germ (u_A,s_AB)	SUPPLIED_CONDITIONAL_DATA	one event and nonzero separation one-jet
+physical completed relation owns its one-jet	PROPOSED_WORKING_POSTULATE_NOT_DERIVED	first external review required this ownership regrade
+orthogonal ruler r_AB	DERIVED	unique metric projection on regular timelike clock stratum
+local Lorentzian pair plane E_AB	DERIVED_FROM_GERM_AND_METRIC	nonzero projected separation
+positive pair screen	DERIVED_FROM_GERM_AND_METRIC	orthogonal complement in Lorentz signature (1,3)
+G167 Y,Z blocks	DERIVED_AS_COORDINATE_COMPONENTS	once primary metric chart and pair germ are supplied
+angular Gram before reciprocal readout	DERIVED	nonradial local germ
+bare observer labels to local pair germ	OPEN	exact same-label counterfamily
+coincidence direction	OPEN_SINGULAR_BOUNDARY	pair plane rank drops to one
+full observer reversal carry	OPEN	different tangent fibers require lawful comparison
+B velocity in A positional plane	NOT_REQUIRED_AND_FALSE_IN_GENERAL	exact relative-motion counterexample
+path or complete pair surface	NOT_REQUIRED_FOR_LOCAL_PLANE	may be needed for separately typed global/path outputs
+global physical relation network	OPEN	germ ownership event/calibration population and cross-query carry
+X_max profile dynamics source action bootstrap	OPEN_OR_OUT_OF_SCOPE	not used
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/LAY_REPORT.md" in /intake
+ succeeded in 0ms:
+# G168 lay report
+
+The local mathematics is simpler than a path-selection law, but the cold review exposed one honest
+remaining premise.
+
+To evaluate a local pair with a metric, you must give it two directions: which way the observer's
+clock points and which way the other observer lies. That tiny local object is the **pair germ**. It
+is the first infinitesimal arrow of the relationship, not a route drawn through spacetime.
+
+Once those two directions are supplied, the UDT metric does all the rest. It removes any clock component
+from the separation direction, produces the physical ruler direction, and therefore fixes the
+two-dimensional clock/ruler plane. If the separation points partly around the sphere rather than
+only radially, those angular components automatically enter the same pullback before the reciprocal
+kernel is read. Nothing is bolted on afterward.
+
+What the current foundation cannot yet do is turn the names “observer A” and “observer B” into that local arrow.
+Names are not a measurement. Even two fixed observer worldlines can be joined by different smooth
+comparison surfaces with different initial directions. But UDT does not need to choose a whole
+surface to evaluate a local pair: the supplied local arrow is enough.
+
+So the simplification is:
+
+```text
+supplied local pair germ -> clock and separation directions
+metric -> ruler + pair plane + angular participation
+pair pullback -> one reciprocal response
+```
+
+The local pair-plane calculation is closed conditionally. What remains is not a path: it is the
+physical ownership statement that completed UDT relations really supply these germs, followed by
+the global question of which germs coexist and how their frames are carried between locations.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md" in /intake
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+# G168 exact derivation — the local pair plane is the one-jet of the relation
+
+Date: 2026-08-18
+
+## 1. Exact type order
+
+The bounded construction is
+
+```text
+local ordered co-present positional-comparison germ (u_A,s_AB)
++ primary UDT metric g
+    -> orthogonal ruler r_AB
+    -> local Lorentzian pair plane E_AB
+    -> G167 blocks Y,Z
+    -> complete pullback h_AB
+    -> terminal reciprocal readout.
+```
+
+It is not
+
+```text
+two observer names -> metric-selected path -> externally attached kernel.
+```
+
+The supplied local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
+clock tangent (u_A\in T_pM) and a nonzero tangent (s_{AB}\in T_pM) representing the local
+ordered positional variation toward B. It is a local differential datum of the relation, not a
+curve between separated endpoints.
+
+The founding reciprocal algebra does not manufacture this germ from two names. Declaring that a
+physical completed positional relation supplies this one-jet is an **additional working postulate**,
+not a derivation or cost-free typing clarification. The theorem below is conditional on that germ;
+it still proves that no path or full surface is needed after the germ is supplied.
+
+## 2. Unique clock-orthogonal ruler
+
+Let (g(u_A,u_A)<0). Among all representatives in the affine line
+
+\[
+s_{AB}+\operatorname{span}(u_A),
+\]
+
+there is exactly one clock-orthogonal vector:
+
+\[
+\boxed{
+r_{AB}=s_{AB}-
+\frac{g(u_A,s_{AB})}{g(u_A,u_A)}u_A .
+}
+\]
+
+Indeed,
+
+\[
+g(u_A,r_{AB})=0.
+\]
+
+If (r'=s_{AB}+a u_A) is also orthogonal to (u_A), then
+
+\[
+0=g(u_A,s_{AB})+a g(u_A,u_A),
+\]
+
+so (a=-g(u_A,s_{AB})/g(u_A,u_A)). The ruler is therefore unique.
+
+Because a Lorentzian metric of index one is positive definite on (u_A^\perp), every nonzero
+(r_{AB}\in u_A^\perp) is spacelike. Hence
+
+\[
+\boxed{
+E_{AB}=\operatorname{span}\{u_A,r_{AB}\}
+      =\operatorname{span}\{u_A,s_{AB}\}
+}
+\]
+
+is a nondegenerate Lorentzian two-plane. Its orthogonal complement is a positive two-dimensional
+screen.
+
+Writing
+
+\[
+U=g(u_A,u_A)<0,
+\quad G=g(u_A,s_{AB}),
+\quad S=g(s_{AB},s_{AB}),
+\]
+
+gives
+
+\[
+g(r_{AB},r_{AB})=S-\frac{G^2}{U}>0.
+\]
+
+In the raw basis ((u_A,s_{AB})),
+
+\[
+h=\begin{pmatrix}U&G\\G&S\end{pmatrix},
+\qquad
+\det h=U\left(S-\frac{G^2}{U}\right)<0.
+\]
+
+In the orthogonal basis ((u_A,r_{AB})), the same plane metric is diagonal. No ambient plane
+selector, path, curvature eigenplane, or independent screen is required.
+
+## 3. The primary metric determines all coefficients after the germ is supplied
+
+For
+
+\[
+g=-c_E^2e^{-2\phi}dt^2+e^{2\phi}dr^2
+  +r^2d\theta^2+r^2\sin^2\theta\,d\varphi^2,
+\]
+
+write the two germ tangents as columns of (J=(u_A,s_{AB})). Their base and angular components are
+
+\[
+Y=
+\begin{pmatrix}
+u^t&s^t\\
+u^r&s^r
+\end{pmatrix},
+\qquad
+Z=
+\begin{pmatrix}
+u^\theta&s^\theta\\
+u^\varphi&s^\varphi
+\end{pmatrix}.
+\]
+
+Therefore the G167 pullback is not missing another local assembly rule:
+
+\[
+\boxed{
+h=Y^TB^T\eta_2BY+Z^TQ^TQZ,
+}
+\]
+
+with metric-owned
+
+\[
+B=\operatorname{diag}(c_Ee^{-\phi},e^\phi),
+\qquad
+Q=\operatorname{diag}(r,r\sin\theta).
+\]
+
+Once ((u_A,s_{AB})) is supplied, (Y) and (Z) are simply its coordinate components. They are
+not four additional physical functions.
+
+A nonradial separation has nonzero angular entries in (Z), so the angular Gram term enters before
+the terminal reciprocal readout. A central radial separation has (Z=0); in that special case its
+scalar kernel is radial while angular response remains in the screen/Jacobi channels.
+
+Under an angular coordinate change with Jacobian (K),
+
+\[
+Z\mapsto KZ,
+\qquad
+q_{S^2}\mapsto K^{-T}q_{S^2}K^{-1},
+\]
+
+and (Z^Tq_{S^2}Z) is unchanged. Positive rescaling of the raw separation tangent preserves its
+line and normalized ruler direction. Pair-metric components transform covariantly; a terminal
+readout remains tied to its declared calibration.
+
+## 4. Exact rational witness
+
+Take
+
+\[
+g=\operatorname{diag}\left(-\frac14,4,9,\frac{144}{25}\right),
+\quad
+u=(2,0,0,0),
+\quad
+s=\left(1,\frac12,\frac13,\frac14\right).
+\]
+
+Then
+
+\[
+g(u,u)=-1,
+\qquad
+g(u,s)=-\frac12,
+\]
+
+and the unique orthogonal ruler is
+
+\[
+r=\left(0,\frac12,\frac13,\frac14\right),
+\qquad
+g(r,r)=\frac{59}{25}.
+\]
+
+The raw and orthogonal pair metrics are
+
+\[
+h_{(u,s)}=
+\begin{pmatrix}
+-1&-1/2\\
+-1/2&211/100
+\end{pmatrix},
+\qquad
+h_{(u,r)}=
+\begin{pmatrix}
+-1&0\\
+0&59/25
+\end{pmatrix},
+\]
+
+and both have determinant (-59/25).
+
+With
+
+\[
+B=\operatorname{diag}(1/2,2),
+\quad Q=\operatorname{diag}(3,12/5),
+\]
+
+the germ supplies
+
+\[
+Y=\begin{pmatrix}2&1\\0&1/2\end{pmatrix},
+\qquad
+Z=\begin{pmatrix}0&1/3\\0&1/4\end{pmatrix},
+\]
+
+and the G167 block formula returns (h_{(u,s)}) exactly. Removing (Z) changes the pair metric.
+
+## 5. Why bare observer labels still do not own the plane
+
+In flat four-dimensional spacetime let
+
+\[
+A(\tau)=(\tau,0,0,0),
+\qquad
+B(\tau)=(\tau,1,0,0).
+\]
+
+For every real (a), the smooth timelike surface
+
+\[
+F_a(\tau,\sigma)
+=\bigl(\tau,\sigma,a\sigma(1-\sigma),0\bigr),
+\qquad 0\le\sigma\le1,
+\]
+
+has exactly the same boundary observers and the same boundary event pairing:
+
+\[
+F_a(\tau,0)=A(\tau),
+\qquad
+F_a(\tau,1)=B(\tau).
+\]
+
+But at A its separation tangent is
+
+\[
+\partial_\sigma F_a|_{\sigma=0}=(0,1,a,0).
+\]
+
+The planes for (a=0) and (a=1) are different. The induced metric remains Lorentzian:
+
+
+ succeeded in 0ms:
+# G168 audit report — ordered co-present pair-plane ownership
+
+Date: 2026-08-18
+
+Grade: `VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN`
+
+## Primary landing
+
+```text
+SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE
+__NO_PATH_REQUIRED
+__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE
+```
+
+## Result first
+
+The final local input left open by G167 is now isolated but not derived. Conditional on a calibrated
+clock tangent (u_A) and nonzero ordered separation tangent (s_{AB}), the metric uniquely removes
+the clock component,
+
+\[
+r_{AB}=s_{AB}-\frac{g(u_A,s_{AB})}{g(u_A,u_A)}u_A,
+\]
+
+and thereby owns the Lorentzian pair plane
+
+\[
+E_{AB}=\operatorname{span}(u_A,r_{AB}).
+\]
+
+No path, geodesic, curvature selector, complete pair surface, independent screen, or scalar `mu`
+is needed **after the germ is supplied**. In the primary metric, the coordinate components of
+((u_A,s_{AB})) are exactly the G167 (Y,Z) blocks, so nonradial angular participation enters the
+pullback automatically before terminal reciprocal readout.
+
+## The important caveat
+
+Two observer names do not supply the germ. An exact flat counterfamily has the same two boundary
+worldlines and the same event pairing but different regular surface tangents—and hence different
+local pair planes. The result therefore does not derive an event-pairing or global realization
+law.
+
+This is a conditional local closure:
+
+- a supplied pair germ gives the metric its two local arguments;
+- the **metric** derives its ruler, pair plane, screen, and pullback;
+- the reciprocal kernel reads the completed pullback.
+
+The first external reviewer correctly required an ownership regrade: saying that every physical
+completed relation supplies this one-jet is an additional working postulate, not something the
+current founding record derives. The remaining questions therefore include both physical germ
+ownership and the global coexistence/carry of those germs.
+
+## Boundary controls
+
+- Local ruler reversal preserves the unoriented plane but does not alone reverse reciprocal depth.
+- Full A/B reversal changes tangent fibers and still requires lawful carry.
+- At coincidence the separation direction vanishes and the plane drops to rank one.
+- B's velocity can lie outside the A-side positional plane; the plane is not a complete
+  relative-motion state.
+- A radial pair has (Z=0); a nonradial pair has metric-determined angular (Z).
+- Rescaling the raw separation germ preserves the plane, while terminal scalar coordinates retain
+  their declared calibration dependence.
+
+## Evidence so far
+
+- preregistered and pushed at `1341994a` before production;
+- 36/36 exact symbolic/source checks pass after one recorded structural-simplification repair;
+- independent standard-library `Fraction` replay: 6,012/6,012 checks over 1,200 trials;
+- exact nonradial, radial, angular-coordinate, reversal, coincidence, relative-motion, and
+  same-label counterfamily controls pass;
+- 12/12 semantic mutation catches pass;
+- the complete 153-row current-premise verifier passes;
+- repository regression: 125 passed, 1 registered xfail;
+- the first fresh external review returned
+  `REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE`;
+- the ownership repair is applied; repair-only follow-up remains open before startup promotion.
+
+## Maximum conclusion
+
+Within the regular local primary-metric arena, a **supplied** ordered co-present pair germ uniquely
+derives the pair plane needed by G167 without a path. Bare labels remain insufficient, and physical
+ownership of the germ is an additional working postulate. No global relation family, history,
+profile, `X_max`, dynamics, observation, or general ambient completion is derived.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md" in /intake
+ succeeded in 0ms:
+# G168 evidence gates
+
+Date: 2026-08-18
+
+## Gate 1 — preregistration
+
+Passed. `PREREGISTRATION.md` and the ten-source frozen manifest were committed and pushed at
+`1341994a` before production execution.
+
+## Gate 2 — full or bounded space
+
+Complete for all regular local germs consisting of a timelike clock tangent and a nonzero
+clock-orthogonalizable separation tangent in Lorentz signature `(1,3)`. The primary-metric block
+reconstruction is complete for their arbitrary radial/nonradial coordinate components.
+
+Not covered: coincidence, null/degenerate strata, derivation of the germ from bare labels, global
+event pairing, cross-query carry, path outputs, general ambient completion, or dynamics.
+
+## Gate 3 — independent verification
+
+- exact symbolic/source checks: 36/36;
+- independent stdlib `Fraction` replay: 6,012/6,012 over 1,200 trials;
+- semantic mutation catches: 12/12;
+- repository regression: 125 passed, 1 registered xfail;
+- first fresh external review: repair required; ownership regrade applied; follow-up open.
+
+## Gate 4 — premise audit
+
+Passed. `verify_current_scientific_premises.py` reports the complete 153-row registry and current
+G167-extended guards passing. After the first external review, physical ownership of the typed pair
+germ is stamped `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`; only the metric projection and plane are
+derived conditionally.
+
+The first external review required this ownership regrade and left the local algebra intact. The
+repaired administrative package gate passes all production, independent, mutation, source, and
+premise checks. A fresh repair-only follow-up is open.
+
+## Current grade
+
+```text
+VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN
+```
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/CATCH_PROOF_RESULT.json" in /intake
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/VERIFICATION_RESULT.json" in /intake
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json" in /intake
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json" in /intake
+ succeeded in 0ms:
+{
+  "catches": {
+    "bare_label_ownership_overclaim": true,
+    "bare_labels_open_guard": true,
+    "coincidence_plane_overclaim": true,
+    "counterfamily_boundary_taper": true,
+    "drop_angular_gram": true,
+    "freeze_nonradial_Z": true,
+    "germ_ownership_postulate_guard": true,
+    "global_ceiling_guard": true,
+    "no_path_required_guard": true,
+    "relative_velocity_plane_overclaim": true,
+    "ruler_flip_is_not_depth_reversal": true,
+    "wrong_projection_sign": true
+  },
+  "catches_passed": 12,
+  "catches_total": 12
+}
+
+ succeeded in 0ms:
+{
+  "independent_checks": 6012,
+  "premise_verifier_returncode": 0,
+  "premise_verifier_stdout": "PASS: G167-extended premise guards; PASS: 153-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
+  "production_checks": 36,
+  "required_files": 14,
+  "semantic_catches": 12,
+  "source_hashes": 10,
+  "status": "PASS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN"
+}
+
+ succeeded in 0ms:
+{
+  "checks": {
+    "angular_content_changes_pair_metric": true,
+    "angular_coordinate_covariance": true,
+    "clock_is_unit_timelike": true,
+    "coincidence_rank_loss": true,
+    "counterfamily_boundary_A_fixed": true,
+    "counterfamily_boundary_B_fixed": true,
+    "counterfamily_is_regular_timelike": true,
+    "g167_blocks_recovered_from_germ": true,
+    "local_reversal_congruence": true,
+    "local_reversal_flips_orientation": true,
+    "nonradial_angular_block_live": true,
+    "normalized_ruler_rescaling_invariant": true,
+    "orthogonal_pair_metric": true,
+    "pair_gram_determinant": true,
+    "projected_norm": true,
+    "projected_ruler_is_spacelike": true,
+    "projection_is_orthogonal": true,
+    "radial_pair_has_zero_angular_block": true,
+    "raw_pair_metric": true,
+    "raw_separation_has_clock_component": true,
+    "relative_velocity_not_in_position_plane": true,
+    "relative_velocity_unit_timelike": true,
+    "same_labels_can_have_distinct_plane_germs": true,
+    "same_plane_same_gram_determinant": true,
+    "separation_rescaling_projects_linearly": true,
+    "source_hash__AUDIT_REPORT.md__0": true,
+    "source_hash__AUDIT_REPORT.md__2": true,
+    "source_hash__AUDIT_REPORT.md__4": true,
+    "source_hash__AUDIT_REPORT.md__6": true,
+    "source_hash__AUDIT_REPORT.md__7": true,
+    "source_hash__AUDIT_REPORT.md__8": true,
+    "source_hash__CURRENT_SCIENTIFIC_PREMISES.md__9": true,
+    "source_hash__EXACT_DERIVATION.md__1": true,
+    "source_hash__EXACT_DERIVATION.md__3": true,
+    "source_hash__EXACT_DERIVATION.md__5": true,
+    "unique_projection_coefficient": true
+  },
+  "checks_passed": 36,
+  "checks_total": 36,
+  "exact_witness": {
+    "Y": [
+      [
+        "2",
+        "1"
+      ],
+      [
+        "0",
+        "1/2"
+      ]
+    ],
+    "Z": [
+      [
+        "0",
+        "1/3"
+      ],
+      [
+        "0",
+        "1/4"
+      ]
+    ],
+    "g": [
+      [
+        "-1/4",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "4",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "9",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "144/25"
+      ]
+    ],
+    "h_orth": [
+      [
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "59/25"
+      ]
+    ],
+    "h_raw": [
+      [
+        "-1",
+        "-1/2"
+      ],
+      [
+        "-1/2",
+        "211/100"
+      ]
+    ],
+    "r": [
+      "0",
+      "1/2",
+      "1/3",
+      "1/4"
+    ],
+    "s": [
+      "1",
+      "1/2",
+      "1/3",
+      "1/4"
+    ],
+    "u": [
+      "2",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "landing": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+  "source_manifest": [
+    {
+      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+      "role": "kernel type order and remaining pair typing",
+      "sha256": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7"
+    },
+    {
+      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md",
+      "role": "primary reciprocal pair algebra",
+      "sha256": "9e985bbd73a2ffe099a57257ea51778fff9ec75eb48721565faafaafd14edc62"
+    },
+    {
+      "path": "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
+      "role": "full primary-metric pair pullback result",
+      "sha256": "c1a1f722e393e431b1b0805a7e2d5ad8e27813c48db989f824b76898bc499593"
+    },
+    {
+      "path": "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md",
+      "role": "general pair tangent formula",
+      "sha256": "e51704c01a72c546401e31f59ecf0b1881ee2c273324ccba2e4572fc7d01941d"
+    },
+    {
+      "path": "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",
+      "role": "pair-first conditional ownership and flat counterfamily",
+      "sha256": "2c73239e4b91799d3572da5725073e7a94914eaadf34820eadcd8dbcbe7c88e5"
+    },
+    {
+      "path": "udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md",
+      "role": "pair-plane and screen algebra",
+      "sha256": "2d1c26522981ae5cecfa4b12030f34fa633cc13ced3cf438fa57f6ca47bfec45"
+    },
+    {
+      "path": "udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md",
+      "role": "working co-present ordered-position constitution",
+      "sha256": "879e20e4b28e46aa03d32bebbdab768417c8556bd7545ff25e617fca63d7600a"
+    },
+    {
+      "path": "udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md",
+      "role": "query-relative direction and screen identity",
+      "sha256": "19e72eb22393648846ffef8231e4c741ee5b5564eb6311c33901ec5f73b12519"
+    },
+    {
+      "path": "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md",
+      "role": "orthogonal ruler and immersion boundary",
+      "sha256": "d8ea9eb9b16257cd61f9cd694b9c202657636c74baf1c2f1274a88f1f7502383"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "role": "current premise orientation",
+      "sha256": "3af471bd7b6a4d912885c31dee4a05edbcf5a1dbc292596c9343af9bb748fb5d"
+    }
+  ]
+}
+
+ succeeded in 0ms:
+{
+  "checks_passed": 6012,
+  "implementation": "stdlib Fraction; no production imports",
+  "landing_supported": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+  "seed": 168,
+  "trials": 1200
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+item	status	what_it_owns	what_it_does_not_own
+c_E	OBSERVED	clock/ruler unit calibration	pair germ or dynamics
+primary static-spherical UDT metric	WORKING	bilinear evaluation and areal screen coefficients	general ambient history law
+ordered co-present positional comparison one-jet	PROPOSED_WORKING_POSTULATE_NOT_DERIVED	would supply typed local clock/separation germ if adopted	derivation from founding postulates or bare names
+metric orthogonal projection	DERIVED	unique ruler direction	global event pairing
+pair tangent decomposition	DERIVED	Y,Z and angular participation	path or branch selection
+reciprocal terminal readout	DERIVED_CONDITIONAL	scalar response after full pullback	local germ or global network population
+
+codex
+I’ve confirmed the main report, ledger, and machine-readable outputs all use the conditional ownership grade. Next I’m scanning the whole package for any stale unconditional phrasing or drift in counts, scope, or boundaries.
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXECUTION_NOTE.md" in /intake
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md" in /intake
+ succeeded in 0ms:
+# G168 execution note
+
+The first production run stopped at `pair_gram_determinant` because the test used direct SymPy
+structural equality on two algebraically equal rational expressions. The assertion was repaired to
+test whether their simplified difference is zero. No scientific expression, input, premise,
+landing, or tolerance changed. The independent standard-library Fraction replay had already passed
+all 6,012 checks on that first attempt.
+
+The first administrative package-verifier run then looked for the prose phrase `fresh external
+review`, while the audit uses the exact machine grade `FRESH_EXTERNAL_REVIEW_OPEN`. The gate was
+repaired to test the registered grade. No scientific evidence or conclusion changed.
+
+After the external-review regrade, the first repair verifier looked for one scope-ceiling sentence
+as a contiguous string even though the repaired prose wraps it across a line. The gate was changed
+to require both substantive clauses separately: physical germ ownership is not derived, and the
+event-pairing rule remains outside the conclusion. No scientific content changed.
+
+ succeeded in 0ms:
+# G168 preregistration — ordered co-present pair-plane ownership
+
+Date: 2026-08-18
+
+## Whole question
+
+Does one **local, calibrated, ordered co-present positional-comparison germ** already own the
+rank-two clock/ruler plane needed by the primary UDT metric pullback, or must a path, complete pair
+surface, ambient plane selector, or other independent mechanism be supplied?
+
+The phrase above is deliberately stronger than two observer names. The test must determine the
+smallest exact datum between those extremes.
+
+## Bounded arena
+
+- one event on observer A with a calibrated future timelike clock tangent;
+- one regular nonzero co-present separation germ from A toward B;
+- the declared primary static-spherical UDT metric;
+- local tangent-space algebra only;
+- both radial and nonradial separation directions;
+- observer reversal, coincidence, coordinate/screen covariance, and relative-motion controls.
+
+Excluded: a selected path, geodesic, signal trajectory, full pair immersion, global foliation,
+`X_max`, fitting, source, action, bootstrap, mass, radiative transfer, protected packages, and a
+general nonspherical or ambient-time-dependent metric law.
+
+## Premise ledger before calculation
+
+| Item | Status before test | Role |
+|---|---|---|
+| observed `c_E` | `OBSERVED` | clock/ruler calibration |
+| primary static-spherical metric | `WORKING` declared macro metric | evaluates supplied tangents |
+| reciprocal character on supplied ordered depth | `DERIVED` | terminal reciprocal grading |
+| physical normalized position constitution | `CHOSE / WORKING_FOUNDATIONAL_CLARIFICATION` | ordered positional semantics |
+| observer A clock tangent | `SUPPLIED_OBSERVER_GERM` | clock direction |
+| A-to-B co-present separation germ | `CANDIDATE_MINIMAL_PAIR_DATUM` | possible ruler direction |
+| complete path or pair surface | `NOT_SUPPLIED` | forbidden shortcut |
+| physical event pairing from bare observer names | `OPEN` | must not be smuggled in |
+
+## Competing landings
+
+1. `BARE_ORDERED_OBSERVER_LABELS_AND_PRIMARY_METRIC_OWN_UNIQUE_PAIR_PLANE`
+2. `ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED`
+3. `MINIMAL_EVENT_SEPARATION_GERM_STILL_FAILS_TO_OWN_PAIR_PLANE`
+4. `SOURCE_CONTRADICTION_BLOCKS_CLASSIFICATION`
+
+Landing 2 is allowed only if the plane and complete G167 tangent blocks follow from the local germ,
+while an exact same-label counterexample proves that bare labels do not suffice.
+
+## Required exact tests
+
+1. Given a timelike clock tangent `u` and a nonzero separation vector `s`, construct the unique
+   clock-orthogonal separation
+   `r=s+g(u,s)u/(-g(u,u))` and prove its uniqueness.
+2. On the regular stratum `g(r,r)>0`, prove that `span(u,r)` is Lorentzian and its orthogonal
+   complement is positive definite.
+3. Decompose `u` and `r` in the primary spherical chart and recover the G167 `Y,Z` blocks without
+   an independent screen or mixing choice.
+4. Show explicitly how nonradial separation produces live angular `Z`, while a central radial pair
+   has `Z=0`.
+5. Prove invariance under angular-coordinate changes and positive rescaling of the raw separation
+   germ.
+6. Test reversal: direction orientation changes, while the unoriented local plane is unchanged only
+   after both ordered germs are lawfully compared in one tangent space.
+7. Test coincidence: `s=0` must be classified as a genuine rank-loss boundary, not silently given a
+   direction.
+8. Test relative motion: B's velocity need not lie in `span(u,r)`; do not promote the positional
+   plane into a complete two-observer kinematic plane.
+9. Give an exact counterfamily with the same observer worldline labels and metric but different
+   event/separation germs, producing different planes or calibration states.
+
+## Certification contract
+
+- exact symbolic production checks;
+- independent standard-library rational replay with no production imports;
+- semantic mutations that must catch projection-sign, normalization, radial-freeze, coincidence,
+  reversal-overclaim, and bare-label-ownership errors;
+- frozen source hashes;
+- current scientific-premise verifier;
+- package verifier;
+- fresh sealed adversarial review before startup promotion.
+
+## Maximum conclusion
+
+At most, G168 may prove that a **typed local ordered co-present pair germ** supplies the local
+calibrated plane and therefore the G167 pullback inputs. It may not derive which events are paired
+from two observer names, a global pair realization, a path, cross-query carry, a unique observer
+network, a physical profile, `X_max`, dynamics, signalling, or a general complete metric.
+
+exec
+/bin/bash -lc "grep -RIn \"owns its one-jet\\|supplies its one-jet\\|physical completed relation owns its one-jet\\|PROPOSED_WORKING_POSTULATE_NOT_DERIVED\\|FOLLOWUP_OPEN\\|NO_PATH_REQUIRED\\|same-label\\|coincidence\\|relative-motion\\|global network\\|ambient completion\\|12/12\\|36/36\\|6012\\|1200\\|153-row\\|125 passed, 1 registered xfail\" /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18" in /intake
+ succeeded in 0ms:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:36:trials = 1200
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:91:require(all(x == 0 for x in zero), "coincidence_rank_loss")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:98:    "landing_supported": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:32:5. Test the reversal, coincidence, relative-motion, and calibration caveats.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:35:7. State whether “completed local relation supplies its one-jet” is a legitimate minimal semantic
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:141:5. Test the reversal, coincidence, relative-motion, and calibration caveats.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:144:7. State whether “completed local relation supplies its one-jet” is a legitimate minimal semantic
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:438:Not covered: coincidence, null/degenerate strata, derivation of the germ from bare labels, global
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:439:event pairing, cross-query carry, path outputs, general ambient completion, or dynamics.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:443:- exact symbolic/source checks: 36/36;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:446:- repository regression: 125 passed, 1 registered xfail;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:451:Passed. `verify_current_scientific_premises.py` reports the complete 153-row registry and current
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:897:## 6. Reversal, coincidence, and relative motion
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:910:At coincidence the separation tangent is zero and
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:916:The reciprocal scalar can have its coincidence value, but there is no direction-owned rank-two
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:945:open is which event/calibration germs form the physical global network and how distinct basepoints
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:953:__NO_PATH_REQUIRED
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1134:## 4. Reversal, coincidence, and composition
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1142:At coincidence `q=1`, so `delta=0` and `chi=0`.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1229:- reversal, coincidence, and matched-depth composition;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1252:__NO_PATH_REQUIRED
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1285:- the **completed local relation** supplies its one-jet;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1296:- At coincidence the separation direction vanishes and the plane drops to rank one.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1298:  relative-motion state.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1306:- 36/36 exact symbolic/source checks pass after one recorded structural-simplification repair;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1308:- exact nonradial, radial, angular-coordinate, reversal, coincidence, relative-motion, and
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1309:  same-label counterfamily controls pass;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1311:- the complete 153-row current-premise verifier passes;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1312:- repository regression: 125 passed, 1 registered xfail;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1319:history, profile, `X_max`, dynamics, observation, or general ambient completion is derived.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1489:I have the core proof and its own caveat language. The remaining check is whether the crucial “completed local relation supplies its one-jet” step is already an admitted premise in the sealed record, or whether G168 promotes it from open status to working input without acknowledging the extra physics.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1501:reciprocal terminal readout	DERIVED_CONDITIONAL	scalar response after full pullback	local germ or global network population
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1614:`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 153-row authority. On conflict, stop. IDs are stable.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1670:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:45:- the **completed local relation** supplies its one-jet;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1674:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:79:history, profile, `X_max`, dynamics, observation, or general ambient completion is derived.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1678:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:10:bare observer labels to local pair germ	OPEN	exact same-label counterfamily
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1705:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/VERIFICATION_RESULT.json:4:  "premise_verifier_stdout": "PASS: G167-extended premise guards; PASS: 153-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1730:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:7:reciprocal terminal readout	DERIVED_CONDITIONAL	scalar response after full pullback	local germ or global network population
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1732:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:16:Not covered: coincidence, null/degenerate strata, derivation of the germ from bare labels, global
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1733:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:17:event pairing, cross-query carry, path outputs, general ambient completion, or dynamics.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1754:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:316:open is which event/calibration germs form the physical global network and how distinct basepoints
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1765:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:23:7. State whether “completed local relation supplies its one-jet” is a legitimate minimal semantic
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1790:- observer reversal, coincidence, coordinate/screen covariance, and relative-motion controls.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1812:2. `ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED`
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1817:while an exact same-label counterexample proves that bare labels do not suffice.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1834:7. Test coincidence: `s=0` must be classified as a genuine rank-loss boundary, not silently given a
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1845:- semantic mutations that must catch projection-sign, normalization, radial-freeze, coincidence,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2374:bare observer labels to local pair germ	OPEN	exact same-label counterfamily
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2375:coincidence direction	OPEN_SINGULAR_BOUNDARY	pair plane rank drops to one
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2377:B velocity in A positional plane	NOT_REQUIRED_AND_FALSE_IN_GENERAL	exact relative-motion counterexample
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3129:   111	`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 153-row authority. On conflict, stop. IDs are stable.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3190:   268	## 6. Reversal, coincidence, and relative motion
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3203:   281	At coincidence the separation tangent is zero and
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3209:   287	The reciprocal scalar can have its coincidence value, but there is no direction-owned rank-two
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3238:   316	open is which event/calibration germs form the physical global network and how distinct basepoints
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3246:   324	__NO_PATH_REQUIRED
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3261:     7	reciprocal terminal readout	DERIVED_CONDITIONAL	scalar response after full pullback	local germ or global network population
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3392:   125	check("coincidence_rank_loss", J_zero.rank() == 1)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3403:   136	    "landing": "ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3460:    36	trials = 1200
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3515:    91	require(all(x == 0 for x in zero), "coincidence_rank_loss")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3522:    98	    "landing_supported": "ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3571:    42	# Mutant 4: coincidence promoted to a plane.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3572:    43	catch("coincidence_plane_overclaim", sp.Matrix.hstack(u, sp.zeros(4, 1)).rank() != 2)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/REPAIR_PREREGISTRATION.md:16:   `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`, or state the theorem conditionally on a supplied germ.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/REPAIR_PREREGISTRATION.md:22:   automatically owns its one-jet.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json:2:  "checks_passed": 6012,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json:4:  "landing_supported": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json:6:  "trials": 1200
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:5:Grade: `VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN`
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:11:__NO_PATH_REQUIRED
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:58:- At coincidence the separation direction vanishes and the plane drops to rank one.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:60:  relative-motion state.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:68:- 36/36 exact symbolic/source checks pass after one recorded structural-simplification repair;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:70:- exact nonradial, radial, angular-coordinate, reversal, coincidence, relative-motion, and
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:71:  same-label counterfamily controls pass;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:72:- 12/12 semantic mutation catches pass;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:73:- the complete 153-row current-premise verifier passes;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:74:- repository regression: 125 passed, 1 registered xfail;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:84:profile, `X_max`, dynamics, observation, or general ambient completion is derived.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:5:physical completed relation owns its one-jet	PROPOSED_WORKING_POSTULATE_NOT_DERIVED	first external review required this ownership regrade
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:11:bare observer labels to local pair germ	OPEN	exact same-label counterfamily
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:12:coincidence direction	OPEN_SINGULAR_BOUNDARY	pair plane rank drops to one
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:14:B velocity in A positional plane	NOT_REQUIRED_AND_FALSE_IN_GENERAL	exact relative-motion counterexample
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:6:    "coincidence_rank_loss": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:128:  "landing": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:125:check("coincidence_rank_loss", J_zero.rank() == 1)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:136:    "landing": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/VERIFICATION_RESULT.json:2:  "independent_checks": 6012,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/VERIFICATION_RESULT.json:4:  "premise_verifier_stdout": "PASS: G167-extended premise guards; PASS: 153-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/VERIFICATION_RESULT.json:9:  "status": "PASS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN"
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py:42:# Mutant 4: coincidence promoted to a plane.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py:43:catch("coincidence_plane_overclaim", sp.Matrix.hstack(u, sp.zeros(4, 1)).rank() != 2)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py:71:    and "PROPOSED_WORKING_POSTULATE_NOT_DERIVED" in (HERE / "STATUS_LEDGER.tsv").read_text(),
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:21:- observer reversal, coincidence, coordinate/screen covariance, and relative-motion controls.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:43:2. `ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED`
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:48:while an exact same-label counterexample proves that bare labels do not suffice.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:65:7. Test coincidence: `s=0` must be classified as a genuine rank-loss boundary, not silently given a
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:76:- semantic mutations that must catch projection-sign, normalization, radial-freeze, coincidence,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/CATCH_PROOF_RESULT.json:5:    "coincidence_plane_overclaim": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:4:ordered co-present positional comparison one-jet	PROPOSED_WORKING_POSTULATE_NOT_DERIVED	would supply typed local clock/separation germ if adopted	derivation from founding postulates or bare names
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:7:reciprocal terminal readout	DERIVED_CONDITIONAL	scalar response after full pullback	local germ or global network population
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:16:Not covered: coincidence, null/degenerate strata, derivation of the germ from bare labels, global
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:17:event pairing, cross-query carry, path outputs, general ambient completion, or dynamics.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:21:- exact symbolic/source checks: 36/36;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:23:- semantic mutation catches: 12/12;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:24:- repository regression: 125 passed, 1 registered xfail;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:29:Passed. `verify_current_scientific_premises.py` reports the complete 153-row registry and current
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:31:germ is stamped `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`; only the metric projection and plane are
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:41:VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:270:## 6. Reversal, coincidence, and relative motion
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:283:At coincidence the separation tangent is zero and
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:289:The reciprocal scalar can have its coincidence value, but there is no direction-owned rank-two
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:312:   physical ownership by a completed relation is a `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:318:natively own these germs, which event/calibration germs form the physical global network, and how
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:325:__NO_PATH_REQUIRED
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py:44:landing = "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE"
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py:47:require(independent["checks_passed"] == 6012, "independent checks")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py:62:require("EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN" in audit, "repair follow-up status absent")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py:68:require("PROPOSED_WORKING_POSTULATE_NOT_DERIVED" in exact, "germ ownership regrade absent")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py:80:    "status": "PASS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:20:5. Test the reversal, coincidence, relative-motion, and calibration caveats.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:23:7. State whether “completed local relation supplies its one-jet” is a legitimate minimal semantic
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/TRANSMISSION_RECORD.md" in /intake
+ succeeded in 0ms:
+# G168 external-review transmission record
+
+Date: 2026-08-18/19
+
+Charles explicitly authorized the sealed 29-file intake:
+
+```text
+/tmp/udt_g168_pair_plane_review_j2fzn22g
+```
+
+with `REVIEW_SCOPE.json` SHA-256:
+
+```text
+eed53d7e3f64a9d7a81214159a92aeaf83eebd50b332e0457600118e1cbf8729
+```
+
+The first launch entered the correct `gpt-5.4`, read-only, intake-rooted context but could not
+resolve the API host because the outer isolation omitted the system resolver target. It returned no
+scientific review. The retry changed only the outer resolver bind and used the identical authorized
+intake and scope hash.
+
+The accepted reviewer ran as fresh ephemeral external Codex `gpt-5.4`, high reasoning, web search
+disabled, approvals disabled, and read-only inside an outer sandbox exposing only the sealed intake,
+system runtime, isolated authentication home, and return directory. It returned:
+
+```text
+REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE
+```
+
+Raw return SHA-256:
+
+```text
+c1a42d955b3946f8ed4ff473d73a1c100889c5aa15fc142300591b89a9d96cc7
+```
+
+Transcript SHA-256:
+
+```text
+9269b6863cc3c030505afd34337573bc7842e9f376e2636dfe7396271c7a1a79
+```
+
+The intake scope hash was rechecked unchanged after return.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py" in /intake
+exec
+/bin/bash -lc "sed -n '240,340p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+F_a(\tau,\sigma)
+=\bigl(\tau,\sigma,a\sigma(1-\sigma),0\bigr),
+\qquad 0\le\sigma\le1,
+\]
+
+has exactly the same boundary observers and the same boundary event pairing:
+
+\[
+F_a(\tau,0)=A(\tau),
+\qquad
+F_a(\tau,1)=B(\tau).
+\]
+
+But at A its separation tangent is
+
+\[
+\partial_\sigma F_a|_{\sigma=0}=(0,1,a,0).
+\]
+
+The planes for (a=0) and (a=1) are different. The induced metric remains Lorentzian:
+
+\[
+F_a^*\eta=-d\tau^2+
+\left[1+a^2(1-2\sigma)^2\right]d\sigma^2.
+\]
+
+Therefore even observer labels plus a fixed boundary event pairing do not select a surface germ.
+The local germ is the smallest datum that closes the local plane calculation. Supplying it is much
+less than supplying an entire path or surface.
+
+## 6. Reversal, coincidence, and relative motion
+
+### Local orientation reversal
+
+Inside one tangent space, (r_{AB}\mapsto-r_{AB}) preserves the unoriented plane and flips its
+orientation. It does **not** by itself send the terminal reciprocal depth to its negative; signed
+depth reversal belongs to the ordered reciprocal calibration.
+
+Full observer reversal changes the base event from A to B. Comparing the A-side and B-side planes
+then requires lawful calibration/transport. G168 does not invent that carry.
+
+### Coincidence
+
+At coincidence the separation tangent is zero and
+
+\[
+\operatorname{rank}(u_A,0)=1.
+\]
+
+The reciprocal scalar can have its coincidence value, but there is no direction-owned rank-two
+plane. A limiting direction exists only when a pair germ is supplied. This is a genuine boundary,
+not a failure of the regular theorem.
+
+### Relative motion
+
+B's velocity need not lie in the positional plane. In Minkowski coordinates,
+
+\[
+u_A=(1,0,0,0),
+\quad r_{AB}=(0,1,0,0),
+\quad v_B=(5/4,0,3/4,0)
+\]
+
+has (g(v_B,v_B)=-1), but (v_B\notin\operatorname{span}(u_A,r_{AB})). The local positional plane
+is therefore not promoted into the complete relative-velocity kinematics of both observers.
+
+## 7. Epistemic ownership
+
+The exact result separates three levels:
+
+1. **Bare labels ((A,B)):** insufficient.
+2. **Typed local ordered co-present pair germ ((u_A,s_{AB})):** `SUPPLIED_CONDITIONALLY`; its
+   physical ownership by a completed relation is a `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`.
+3. **Pair plane, orthogonal ruler, positive screen, and G167 (Y,Z):** `DERIVED` from the germ and
+   metric.
+
+Thus the local plane is not an additional freedom **after a germ is supplied**, and it is not an
+arbitrary immersion menu at that stage. What remains open is whether physical completed relations
+natively own these germs, which event/calibration germs form the physical global network, and how
+distinct basepoints carry their frames.
+
+## Maximum conclusion
+
+```text
+SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE
+__NO_PATH_REQUIRED
+__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE
+```
+
+This does not derive that a physical relation supplies the germ. It also does not derive a global
+event-pairing rule, path, pair surface, cross-query carry, physical profile, `X_max`, dynamics,
+signalling, source, action, bootstrap, or general complete metric.
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Administrative and evidence gate for G168."""
+
+from __future__ import annotations
+
+import hashlib
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+HERE = Path(__file__).resolve().parent
+
+
+def require(condition: bool, message: str) -> None:
+    if not condition:
+        raise AssertionError(message)
+
+
+required = [
+    "PREREGISTRATION.md",
+    "SOURCE_MANIFEST.tsv",
+    "EXECUTION_NOTE.md",
+    "EXACT_DERIVATION.md",
+    "AUDIT_REPORT.md",
+    "LAY_REPORT.md",
+    "STATUS_LEDGER.tsv",
+    "OUTCOME_PREMISE_LEDGER.tsv",
+    "derive_pair_plane_ownership.py",
+    "verify_pair_plane_independent.py",
+    "run_catch_proofs.py",
+    "DERIVATION_RESULT.json",
+    "INDEPENDENT_VERIFICATION.json",
+    "CATCH_PROOF_RESULT.json",
+]
+for name in required:
+    require((HERE / name).is_file(), f"missing {name}")
+
+derivation = json.loads((HERE / "DERIVATION_RESULT.json").read_text())
+independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text())
+catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text())
+landing = "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE"
+require(derivation["landing"] == landing, "production landing mismatch")
+require(derivation["checks_passed"] == derivation["checks_total"] == 36, "production checks")
+require(independent["checks_passed"] == 6012, "independent checks")
+require(independent["landing_supported"] == landing, "independent landing")
+require(catches["catches_passed"] == catches["catches_total"], "semantic catches")
+
+manifest_count = 0
+for line in (HERE / "SOURCE_MANIFEST.tsv").read_text().splitlines()[1:]:
+    expected, rel, _role = line.split("\t")
+    actual = hashlib.sha256((ROOT / rel).read_bytes()).hexdigest()
+    require(actual == expected, f"source hash {rel}")
+    manifest_count += 1
+require(manifest_count == 10, "manifest count")
+
+audit = (HERE / "AUDIT_REPORT.md").read_text()
+exact = (HERE / "EXACT_DERIVATION.md").read_text()
+require(landing.split("__")[0] in audit, "audit landing")
+require("EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN" in audit, "repair follow-up status absent")
+require(
+    "does not derive that a physical relation supplies the germ" in exact
+    and "event-pairing rule" in exact,
+    "scope ceiling",
+)
+require("PROPOSED_WORKING_POSTULATE_NOT_DERIVED" in exact, "germ ownership regrade absent")
+
+premise = subprocess.run(
+    [sys.executable, str(ROOT / "verify_current_scientific_premises.py")],
+    cwd=ROOT,
+    text=True,
+    capture_output=True,
+    check=False,
+)
+require(premise.returncode == 0, "current premise verifier failed")
+
+result = {
+    "status": "PASS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN",
+    "required_files": len(required),
+    "source_hashes": manifest_count,
+    "production_checks": derivation["checks_total"],
+    "independent_checks": independent["checks_passed"],
+    "semantic_catches": catches["catches_total"],
+    "premise_verifier_returncode": premise.returncode,
+    "premise_verifier_stdout": premise.stdout.strip(),
+}
+(HERE / "VERIFICATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+print(json.dumps(result, sort_keys=True))
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Semantic mutation catches for G168."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import sympy as sp
+
+
+HERE = Path(__file__).resolve().parent
+catches: dict[str, bool] = {}
+
+
+def catch(name: str, condition: object) -> None:
+    value = bool(condition)
+    catches[name] = value
+    if not value:
+        raise AssertionError(name)
+
+
+g = sp.diag(sp.Rational(-1, 4), 4, 9, sp.Rational(144, 25))
+u = sp.Matrix([2, 0, 0, 0])
+s = sp.Matrix([1, sp.Rational(1, 2), sp.Rational(1, 3), sp.Rational(1, 4)])
+inner = lambda x, y: (x.T * g * y)[0]
+guu = inner(u, u)
+gus = inner(u, s)
+r = s - gus / guu * u
+
+# Mutant 1: wrong projection sign.
+r_wrong = s + gus / guu * u
+catch("wrong_projection_sign", inner(u, r_wrong) != 0)
+
+# Mutants 2-3: angular deletion/freeze.
+h_full = sp.Matrix.hstack(u, s).T * g * sp.Matrix.hstack(u, s)
+g_no_angular = sp.diag(sp.Rational(-1, 4), 4, 0, 0)
+h_no_angular = sp.Matrix.hstack(u, s).T * g_no_angular * sp.Matrix.hstack(u, s)
+catch("drop_angular_gram", h_no_angular != h_full)
+catch("freeze_nonradial_Z", inner(r, r) != 4 * sp.Rational(1, 4))
+
+# Mutant 4: coincidence promoted to a plane.
+catch("coincidence_plane_overclaim", sp.Matrix.hstack(u, sp.zeros(4, 1)).rank() != 2)
+
+# Mutant 5: ruler flip claimed to reverse scalar depth.
+h_orth = sp.diag(-1, sp.Rational(59, 25))
+R = sp.diag(1, -1)
+catch("ruler_flip_is_not_depth_reversal", R.T * h_orth * R == h_orth)
+
+# Mutant 6: B velocity forced into positional plane.
+vb = sp.Matrix([sp.Rational(5, 4), 0, sp.Rational(3, 4), 0])
+catch("relative_velocity_plane_overclaim", vb[2] != 0)
+
+# Mutant 7: bare labels claimed to own the surface germ.
+s0 = sp.Matrix([0, 1, 0, 0])
+s1 = sp.Matrix([0, 1, 1, 0])
+catch("bare_label_ownership_overclaim", sp.Matrix.hstack(u, s0).columnspace() != sp.Matrix.hstack(u, s1).columnspace())
+
+# Mutant 8: counterfamily ceases to share the B boundary if the taper is removed.
+alpha = sp.symbols("alpha", nonzero=True)
+catch("counterfamily_boundary_taper", alpha * 1 != 0)
+
+report = (HERE / "AUDIT_REPORT.md").read_text()
+exact = (HERE / "EXACT_DERIVATION.md").read_text()
+catch("no_path_required_guard", "No path" in report and "not a\n+curve between separated endpoints".replace("\n+", "\n") in exact)
+catch("bare_labels_open_guard", "Bare labels" in exact and "insufficient" in exact)
+catch("global_ceiling_guard", "global physical relation network" in (HERE / "STATUS_LEDGER.tsv").read_text())
+catch(
+    "germ_ownership_postulate_guard",
+    "additional working postulate" in exact
+    and "PROPOSED_WORKING_POSTULATE_NOT_DERIVED" in (HERE / "STATUS_LEDGER.tsv").read_text(),
+)
+
+result = {
+    "catches_passed": sum(catches.values()),
+    "catches_total": len(catches),
+    "catches": catches,
+}
+(HERE / "CATCH_PROOF_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+print(json.dumps({"passed": result["catches_passed"], "total": result["catches_total"]}))
+
+codex
+The remaining question is drift outside the ownership claim. I’m checking the frozen-source manifest and the package verifier logic to ensure the repair preserved the witness, counts, scope ceilings, and source set.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv" in /intake
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py" in /intake
+ succeeded in 0ms:
+sha256	path	role
+3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7	udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md	kernel type order and remaining pair typing
+9e985bbd73a2ffe099a57257ea51778fff9ec75eb48721565faafaafd14edc62	udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md	primary reciprocal pair algebra
+c1a1f722e393e431b1b0805a7e2d5ad8e27813c48db989f824b76898bc499593	udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md	full primary-metric pair pullback result
+e51704c01a72c546401e31f59ecf0b1881ee2c273324ccba2e4572fc7d01941d	udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md	general pair tangent formula
+2c73239e4b91799d3572da5725073e7a94914eaadf34820eadcd8dbcbe7c88e5	udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md	pair-first conditional ownership and flat counterfamily
+2d1c26522981ae5cecfa4b12030f34fa633cc13ced3cf438fa57f6ca47bfec45	udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md	pair-plane and screen algebra
+879e20e4b28e46aa03d32bebbdab768417c8556bd7545ff25e617fca63d7600a	udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md	working co-present ordered-position constitution
+19e72eb22393648846ffef8231e4c741ee5b5564eb6311c33901ec5f73b12519	udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md	query-relative direction and screen identity
+d8ea9eb9b16257cd61f9cd694b9c202657636c74baf1c2f1274a88f1f7502383	udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md	orthogonal ruler and immersion boundary
+3af471bd7b6a4d912885c31dee4a05edbcf5a1dbc292596c9343af9bb748fb5d	CURRENT_SCIENTIFIC_PREMISES.md	current premise orientation
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact symbolic checks for G168.  No numerical fitting or protected inputs."""
+
+from __future__ import annotations
+
+import hashlib
+import json
+from pathlib import Path
+
+import sympy as sp
+
+
+ROOT = Path(__file__).resolve().parents[1]
+HERE = Path(__file__).resolve().parent
+
+
+def sha256(path: Path) -> str:
+    h = hashlib.sha256()
+    h.update(path.read_bytes())
+    return h.hexdigest()
+
+
+checks: dict[str, bool] = {}
+
+
+def check(name: str, condition: object) -> None:
+    value = bool(condition)
+    checks[name] = value
+    if not value:
+        raise AssertionError(name)
+
+
+# Abstract projection algebra.
+guu, gus, gss = sp.symbols("guu gus gss", nonzero=True, real=True)
+a = -gus / guu
+check("unique_projection_coefficient", sp.simplify(gus + a * guu) == 0)
+rr = sp.simplify(gss + 2 * a * gus + a**2 * guu)
+check("projected_norm", rr == sp.simplify(gss - gus**2 / guu))
+check(
+    "pair_gram_determinant",
+    sp.simplify(sp.det(sp.Matrix([[guu, 0], [0, rr]])) - guu * rr) == 0,
+)
+
+# Exact primary-metric witness.
+g = sp.diag(sp.Rational(-1, 4), 4, 9, sp.Rational(144, 25))
+u = sp.Matrix([2, 0, 0, 0])
+s = sp.Matrix([1, sp.Rational(1, 2), sp.Rational(1, 3), sp.Rational(1, 4)])
+inner = lambda x, y: (x.T * g * y)[0]
+guu_w = inner(u, u)
+gus_w = inner(u, s)
+r = sp.simplify(s - gus_w / guu_w * u)
+check("clock_is_unit_timelike", guu_w == -1)
+check("raw_separation_has_clock_component", gus_w == sp.Rational(-1, 2))
+check("projection_is_orthogonal", inner(u, r) == 0)
+check("projected_ruler_is_spacelike", inner(r, r) == sp.Rational(59, 25))
+
+J_raw = sp.Matrix.hstack(u, s)
+J_orth = sp.Matrix.hstack(u, r)
+h_raw = sp.simplify(J_raw.T * g * J_raw)
+h_orth = sp.simplify(J_orth.T * g * J_orth)
+check(
+    "raw_pair_metric",
+    h_raw == sp.Matrix([[-1, sp.Rational(-1, 2)], [sp.Rational(-1, 2), sp.Rational(211, 100)]]),
+)
+check("orthogonal_pair_metric", h_orth == sp.diag(-1, sp.Rational(59, 25)))
+check("same_plane_same_gram_determinant", h_raw.det() == h_orth.det() == sp.Rational(-59, 25))
+
+# Recover the G167 B,Q,Y,Z pullback from the local germ.
+B = sp.diag(sp.Rational(1, 2), 2)
+Q = sp.diag(3, sp.Rational(12, 5))
+eta2 = sp.diag(-1, 1)
+Y = sp.Matrix([[2, 1], [0, sp.Rational(1, 2)]])
+Z = sp.Matrix([[0, sp.Rational(1, 3)], [0, sp.Rational(1, 4)]])
+h_blocks = sp.simplify(Y.T * B.T * eta2 * B * Y + Z.T * Q.T * Q * Z)
+check("g167_blocks_recovered_from_germ", h_blocks == h_raw)
+check("nonradial_angular_block_live", Z != sp.zeros(2))
+
+Z_radial = sp.zeros(2)
+Y_radial = sp.Matrix([[2, 1], [0, sp.Rational(1, 2)]])
+h_radial = sp.simplify(Y_radial.T * B.T * eta2 * B * Y_radial)
+check("radial_pair_has_zero_angular_block", Z_radial == sp.zeros(2))
+check("angular_content_changes_pair_metric", h_radial != h_raw)
+
+# Angular-coordinate covariance with a nonorthogonal coordinate Jacobian.
+K = sp.Matrix([[1, 1], [0, 1]])
+q = Q.T * Q
+q_prime = K.inv().T * q * K.inv()
+Z_prime = K * Z
+check("angular_coordinate_covariance", sp.simplify(Z_prime.T * q_prime * Z_prime) == Z.T * q * Z)
+
+# Positive raw-germ rescaling leaves the plane and normalized ruler unchanged.
+lam = sp.Rational(7, 3)
+s_lam = lam * s
+r_lam = sp.simplify(s_lam - inner(u, s_lam) / guu_w * u)
+check("separation_rescaling_projects_linearly", r_lam == lam * r)
+check(
+    "normalized_ruler_rescaling_invariant",
+    sp.simplify(r_lam / sp.sqrt(inner(r_lam, r_lam)) - r / sp.sqrt(inner(r, r))) == sp.zeros(4, 1),
+)
+
+# Local orientation reversal preserves the unoriented plane but flips the wedge orientation.
+R = sp.diag(1, -1)
+check("local_reversal_congruence", sp.simplify(R.T * h_orth * R) == h_orth)
+check("local_reversal_flips_orientation", sp.det(R) == -1)
+
+# Relative motion does not have to lie in the positional pair plane.
+v_b = sp.Matrix([sp.Rational(5, 4), 0, sp.Rational(3, 4), 0])
+eta4 = sp.diag(-1, 1, 1, 1)
+check("relative_velocity_unit_timelike", (v_b.T * eta4 * v_b)[0] == -1)
+check("relative_velocity_not_in_position_plane", v_b[2] != 0)
+
+# Same observer boundaries and same event pairing, different smooth regular surface germs.
+sigma, alpha = sp.symbols("sigma alpha", real=True)
+spatial_speed_sq = sp.simplify(1 + alpha**2 * (1 - 2 * sigma) ** 2)
+check("counterfamily_is_regular_timelike", spatial_speed_sq.subs({alpha: 1, sigma: sp.Rational(1, 3)}) > 0)
+s0 = sp.Matrix([0, 1, 0, 0])
+s1 = sp.Matrix([0, 1, 1, 0])
+check("same_labels_can_have_distinct_plane_germs", sp.Matrix.hstack(u / 2, s0).columnspace() != sp.Matrix.hstack(u / 2, s1).columnspace())
+check("counterfamily_boundary_A_fixed", sp.Matrix([0, 0, alpha * 0 * (1 - 0), 0]) == sp.zeros(4, 1))
+check("counterfamily_boundary_B_fixed", sp.simplify(alpha * 1 * (1 - 1)) == 0)
+
+# Coincidence is a genuine rank-loss boundary.
+s_zero = sp.zeros(4, 1)
+J_zero = sp.Matrix.hstack(u, s_zero)
+check("coincidence_rank_loss", J_zero.rank() == 1)
+
+# Frozen source hashes.
+manifest_rows = []
+for line in (HERE / "SOURCE_MANIFEST.tsv").read_text().splitlines()[1:]:
+    expected, rel, role = line.split("\t")
+    actual = sha256(ROOT / rel)
+    check(f"source_hash__{Path(rel).name}__{len(manifest_rows)}", actual == expected)
+    manifest_rows.append({"path": rel, "sha256": actual, "role": role})
+
+result = {
+    "landing": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+    "checks_passed": sum(checks.values()),
+    "checks_total": len(checks),
+    "checks": checks,
+    "exact_witness": {
+        "g": [[str(v) for v in row] for row in g.tolist()],
+        "u": [str(v) for v in u],
+        "s": [str(v) for v in s],
+        "r": [str(v) for v in r],
+        "h_raw": [[str(v) for v in row] for row in h_raw.tolist()],
+        "h_orth": [[str(v) for v in row] for row in h_orth.tolist()],
+        "Y": [[str(v) for v in row] for row in Y.tolist()],
+        "Z": [[str(v) for v in row] for row in Z.tolist()],
+    },
+    "source_manifest": manifest_rows,
+}
+(HERE / "DERIVATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+print(json.dumps({"landing": result["landing"], "passed": result["checks_passed"], "total": result["checks_total"]}))
+
+exec
+/bin/bash -lc "grep -RIn \"tolerance\\|metric\\|counterfamily\\|trial\\|seed\\|source hash\\|excluded\\|Not covered\\|global event pairing\\|cross-query carry\\|general ambient completion\" /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18" in /intake
+ succeeded in 0ms:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:36:trials = 1200
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:37:for i in range(trials):
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:38:    # Static diagonal primary-metric rational control.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:43:    metric = (-a, b, c, d)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:46:    guu = dot_diag(u, metric, u)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:47:    gus = dot_diag(u, metric, s)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:49:    require(dot_diag(u, metric, r) == 0, f"orthogonality_{i}")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:50:    rr = dot_diag(r, metric, r)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:51:    require(rr == dot_diag(s, metric, s) - gus * gus / guu, f"norm_{i}")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:57:    rl = add(sl, scale(-dot_diag(u, metric, sl) / guu, u))
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:61:metric = (F(-1, 4), F(4), F(9), F(144, 25))
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:64:guu = dot_diag(u, metric, u)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:65:gus = dot_diag(u, metric, s)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:66:gss = dot_diag(s, metric, s)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:70:require(dot_diag(r, metric, r) == F(59, 25), "witness_rr")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:72:angular = metric[2] * s[2] * s[2] + metric[3] * s[3] * s[3]
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:74:require(gss - angular != gss, "radial_freeze_changes_metric")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:80:require(s0 != s1, "counterfamily_distinct_germs")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:81:require(dot_diag(e0, (F(-1), F(1), F(1), F(1)), s0) == 0, "counterfamily_s0_orthogonal")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:82:require(dot_diag(e0, (F(-1), F(1), F(1), F(1)), s1) == 0, "counterfamily_s1_orthogonal")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:95:    "seed": 168,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:96:    "trials": trials,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:27:2. Verify the unique metric projection and Lorentzian/positive-screen proof.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:28:3. Verify that `Y,Z` are exactly coordinate components of the supplied germ in the primary metric,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:30:4. Decide whether the flat `F_a` counterfamily really proves bare labels plus boundary event pairing
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:71:/intake/sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:73:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:74:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:75:/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:76:/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:104:/intake/sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:106:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:107:/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:136:2. Verify the unique metric projection and Lorentzian/positive-screen proof.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:137:3. Verify that `Y,Z` are exactly coordinate components of the supplied germ in the primary metric,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:139:4. Decide whether the flat `F_a` counterfamily really proves bare labels plus boundary event pairing
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:171:+ primary UDT metric g
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:182:two observer names -> metric-selected path -> externally attached kernel.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:185:The local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:224:Because a Lorentzian metric of index one is positive definite on (u_A^\perp), every nonzero
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:259:In the orthogonal basis ((u_A,r_{AB})), the same plane metric is diagonal. No ambient plane
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:262:## 3. The primary metric determines all coefficients after the germ is supplied
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:295:with metric-owned
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:319:line and normalized ruler direction. Pair-metric components transform covariantly; a terminal
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:350:The raw and orthogonal pair metrics are
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:383:and the G167 block formula returns (h_{(u,s)}) exactly. Removing (Z) changes the pair metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:417:The planes for (a=0) and (a=1) are different. The induced metric remains Lorentzian:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:435:clock-orthogonalizable separation tangent in Lorentz signature `(1,3)`. The primary-metric block
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:438:Not covered: coincidence, null/degenerate strata, derivation of the germ from bare labels, global
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:439:event pairing, cross-query carry, path outputs, general ambient completion, or dynamics.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:444:- independent stdlib `Fraction` replay: 6,012/6,012 over 1,200 trials;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:453:for the typed pair germ and a derivation only for the metric projection and plane.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:455:The administrative package gate passes with 14 required files, ten frozen source hashes, all
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:490:      "path": "sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:500:      "path": "sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:505:      "path": "sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:510:      "path": "sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:515:      "path": "sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:622:/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md" in /intake
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:624:# G167 exact derivation — bounded primary-metric general pair pullback
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:630:The declared primary static-spherical UDT metric is
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:637:This is a four-dimensional metric, not only a radial line element. Its static, spherical, diagonal,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:652:The pair metric is not another ansatz. It is the pullback \(h=F^*g\).
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:669:metric,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:719:- \(Q\) is fixed by the areal spherical metric;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:722:- the angular Gram matrix \(P=Z^TQ^TQZ\) is derived from the metric and pair realization.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:725:this slice. It collapses to one supplied primary metric plus one supplied pair realization.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:735:the complete pair metric is \(h=h_{\rm base}+P\) before the terminal kernel is evaluated. Although
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:736:the ambient metric is diagonal, the pair metric generally is not:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:752:can be nonzero even when the base contribution to \(h_{01}\) and every ambient off-diagonal metric
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:808:The base-only value is \(4\), so the metric-derived angular Gram changes the terminal reciprocal
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:853:For the primary metric,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:874:Production algebra proves this equals the full directional derivative with every metric and pair
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:878:This is a complete query-live kinematic identity in the declared static ambient metric. It is not
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:879:an ambient time-evolution equation and does not derive a time-dependent UDT metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:883:The primary metric supplies the full angular Gram matrix \(P\), not a scalar mixing coefficient.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:941:   metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:956:This does not derive a global event-pairing rule, path, pair surface, cross-query carry, physical
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:957:profile, `X_max`, dynamics, signalling, source, action, bootstrap, or general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:960:/bin/bash -lc "sed -n '1,220p' /intake/sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md" in /intake
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:962:# G147 audit report — pair-directional / metric-screen solder
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:972:clock's rest space, its directional tangent screen and metric pair screen are the same subspace:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:999:metric `U_gamma`.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1003:- preregistered with source hashes at commit `9d9b9e90`;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1009:- exact separate sensitivity of the pair metric and projector to each `B,Q,S,Y,Z` block;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1020:carrier `O(2)` solder, and cross-query carry remain open. It does not select
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1022:positional gyration with metric transport, or determine query population, history, `X_max`, proper
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1028:/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md" in /intake
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1032:# G166 exact derivation — the kernel is the ordered-pair metric readout
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1043:+ primary UDT reciprocal metric
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1044:    -> completed ordered-pair metric h_AB
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1052:    -> arbitrary metric choice
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1104:does not declare the entire metric scale gauge.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1106:## 3. Exact reduction to the primary UDT metric
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1160:## 5. Orchestra terms are internal to the completed metric
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1162:Let the founded base pair metric be
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1169:If the native complete UDT assembly supplies a symmetric screen/mixing Gram contribution
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1196:derived orchestra can modulate the one pair response, but only by entering the complete metric
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1201:the primary UDT metric remains open.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1221:a broader metric-envelope control, not a freedom generated by the founded reciprocal block.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1227:- the reciprocal pair metric block from the founding representation and interval readout;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1230:- orchestra-before-readout dependence for any completed pair metric;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1231:- exclusion of an independent post-metric response profile.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1259:(s_{AB}). The metric uniquely removes the clock component,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1272:is needed for this local step. In the primary metric, the coordinate components of
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1278:Two observer names do not supply the germ. An exact flat counterfamily has the same two boundary
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1286:- the **metric** derives its ruler, pair plane, screen, and pullback;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1299:- A radial pair has (Z=0); a nonradial pair has metric-determined angular (Z).
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1307:- independent standard-library `Fraction` replay: 6,012/6,012 checks over 1,200 trials;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1309:  same-label counterfamily controls pass;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1317:Within the regular local primary-metric arena, the ordered co-present pair **germ**, not a path,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1319:history, profile, `X_max`, dynamics, observation, or general ambient completion is derived.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1344:Here `x_AB` is signed ordered position and `s_AB` is nonnegative symmetric separation. Position is
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1345:not bolted onto the metric: the full angular/screen/mixing orchestra first forms the pair pullback,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1371:- “spacetime” still names the complete metric arena;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1382:- the physical pair realization and complete metric history;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1390:- source hashes checked in their frozen through-G136 scope;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1429:The immersion owns `J1`, and its pullback metric owns the orthogonal ruler `r`. It does not
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1497:primary static-spherical UDT metric	WORKING	bilinear evaluation and areal screen coefficients	general ambient history law
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1499:metric orthogonal projection	DERIVED	unique ruler direction	global event pairing
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1514:| Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1532:| G165 conformal-fiber rank | `VERIFIED_WITH_CAVEATS` control | Unrestricted metric envelope has a functional conformal kernel; not physical UDT multiplicity |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1533:| G166 primary-metric pair descent | `VERIFIED_WITH_CAVEATS` | Founded ordered-pair metric owns its scalar kernel; general `3+1` assembly remains conditional |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1534:| G167 primary-metric general pair pullback | `VERIFIED_WITH_CAVEATS` | Primary spherical four-metric owns the full local regular pair-pullback orchestra; `Y,Z` remain pair data |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1541:| `X_max` | working asymptotic global-completion consequence target | Not a local kernel input; requires independent metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1544:| Founded pair common scale | `FIXED` in bounded block | Determinant-one reciprocal clock/ruler block; not a general complete-metric theorem |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1563:- G165 remains a valid control on the unrestricted metric envelope. G166 proves that this arbitrary
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1565:- G166 relocates the kernel to the primary metric. G167 derives its complete local regular pair
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1578:| Native source | `OPEN` | Geometric response/current roles do not supply source substance |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1585:`X_max`. Conditional SNe replays import radiative transfer and select no metric history.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1628:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:20:`c_E` and constrained by Reciprocity. It does not begin with a path or pre-existing distance and
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1629:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:44:and the variation of `delta`; it is not silently treated here as a physical path length known
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1630:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:104:## Pair relation versus path
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1631:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:109:the physical query supplies the ordered co-present pair, no additional path selector is needed to
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1632:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:129:4. A dimensionful separation and numerical `X_max`, which remains downstream.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1633:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:150:assembly from the primary reciprocal structure, not a selector over arbitrary metrics and not a
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1634:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:151:kernel applied to a pre-existing path.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1635:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md:20:pre-existing path or distance
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1636:/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md:207:- physical depth values, `X_max`, dynamics, sources, and observations.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1638:/intake/sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md:37:have different screen planes, requiring lawful carry and typed path/order before comparison with
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1639:/intake/sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md:61:positional gyration with metric transport, or determine query population, history, `X_max`, proper
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1642:/intake/sources/udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md:25:The immersion owns `J1`, and its pullback metric owns the orthogonal ruler `r`. It does not
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1646:/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:38:| `X_max` | working asymptotic global-completion consequence target | Not a local kernel input; requires independent metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1650:/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:82:`X_max`. Conditional SNe replays import radiative transfer and select no metric history.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1654:/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md:33:physical immersion. The exact flat `F_k` counterfamily still proves that distinct realizations can
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1664:/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md:104:   supplied pair realization are explicit. No path, fit, `X_max`, action, source, matter, bootstrap,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1665:/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md:18:Let a supplied regular ordered-pair realization be a local rank-two immersion
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1667:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:80:require(s0 != s1, "counterfamily_distinct_germs")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1669:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:38:Two observer names do not supply the germ. An exact flat counterfamily has the same two boundary
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1673:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:77:Within the regular local primary-metric arena, the ordered co-present pair **germ**, not a path,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1674:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:79:history, profile, `X_max`, dynamics, observation, or general ambient completion is derived.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1676:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:8:G167 Y,Z blocks	DERIVED_AS_COORDINATE_COMPONENTS	once primary metric chart and pair germ are supplied
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1678:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:10:bare observer labels to local pair germ	OPEN	exact same-label counterfamily
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1683:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:131:      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1684:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:136:      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1685:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:141:      "path": "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1686:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:146:      "path": "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1690:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:166:      "path": "udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1712:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:8:rank-two clock/ruler plane needed by the primary UDT metric pullback, or must a path, complete pair
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1724:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:87:from two observer names, a global pair realization, a path, cross-query carry, a unique observer
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1725:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:88:network, a physical profile, `X_max`, dynamics, signalling, or a general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1732:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:16:Not covered: coincidence, null/degenerate strata, derivation of the germ from bare labels, global
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1733:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:17:event pairing, cross-query carry, path outputs, general ambient completion, or dynamics.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1735:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:31:for the typed pair germ and a derivation only for the metric projection and plane.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1738:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:22:two observer names -> metric-selected path -> externally attached kernel.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1739:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:25:The local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1743:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:102:## 3. The primary metric determines all coefficients after the germ is supplied
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1755:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:327:This does not derive a global event-pairing rule, path, pair surface, cross-query carry, physical
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1756:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:328:profile, `X_max`, dynamics, signalling, source, action, bootstrap, or general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1763:/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:16:3. Verify that `Y,Z` are exactly coordinate components of the supplied germ in the primary metric,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1777:rank-two clock/ruler plane needed by the primary UDT metric pullback, or must a path, complete pair
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1787:- the declared primary static-spherical UDT metric;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1794:general nonspherical or ambient-time-dependent metric law.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1801:| primary static-spherical metric | `WORKING` declared macro metric | evaluates supplied tangents |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1838:9. Give an exact counterfamily with the same observer worldline labels and metric but different
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1847:- frozen source hashes;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1856:from two observer names, a global pair realization, a path, cross-query carry, a unique observer
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1857:network, a physical profile, `X_max`, dynamics, signalling, or a general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1875:The Lorentz metric then supplies its unique orthogonal positive screen. In the registered complete
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1876:coframe chart, the full angular/mixing/embedding contribution to the induced pair metric is one
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1899:physical comparison surface in a general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1933:The ambient metric has inertia `(1,3)` and the pair plane has inertia `(1,1)`. Additivity of
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1943:On a regular local `2+2` chart write the complete coframe and metric as
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1974:after a reciprocal calculation. It first forms the complete metric pullback; the terminal
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1994:their combined relative screen displacement `C`. The pair metric alone cannot invert that sum to
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1998:The `C=0` limit recovers the pure base metric exactly.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2020:gives `C^T q C=P` (choosing symmetric roots). Hence the image is exactly the full `PSD(2)` cone,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2048:The complete induced pair metric is
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2083:`phi_pair` is then extracted from the completed pair metric. `c_E` calibrates the terminal ratio;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2123:while pairing A's event `y` with B's event `y+k`. The same metric, observers, `c_E`, and terminal
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2131:ambient structure. Their failure to recover the registered split on most complete metric jets no
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2155:5/5 flat counterfamily rows,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2173:/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md" in /intake
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2189:tangent plane is the clock/ruler comparison plane, and the Lorentz metric uniquely supplies the
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2193:induced pair metric through one positive-semidefinite Gram term:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2200:metric has been formed. This retains the phi-plus-orchestra result while eliminating the demand
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2207:physical immersion. The exact flat `F_k` counterfamily still proves that distinct realizations can
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2208:share the same observers, metric, `c_E`, and terminal `phi_pair`.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2219:- 34/34 encountered regular terminal pair metrics reconstruct exactly.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2243:is a metric-wide conceptual synthesis asking which apparent missing objects disappear once the
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2248:# G167 audit report — bounded primary-metric general pair pullback orchestra
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2263:Within the declared primary static-spherical UDT metric, the complete local pair metric and scalar
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2265:ordinary metric pullback. No
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2285:Even though the ambient metric is diagonal, nonradial pair tangents can generate a nonzero pair
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2298:reduces in the primary metric to
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2307:Thus `B,Q,S` are not three independent physical histories here. The metric fixes `B,Q,S=0`; the
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2318:  metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2319:- Query-live variation through a static metric is derived; an ambient time-dependent field law is
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2322:  reconstructed from the terminal pair metric alone.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2325:- A genuinely nonspherical or ambient-mixed UDT metric remains outside this declared slice.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2326:- The metric does not select an event/calibration realization from two bare observer names.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2331:- ten frozen source hashes pass;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2333:- 1,200 standalone `Fraction` pullback and live-derivative trials pass, including 381 regular
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2347:   primary metric; not a general ambient nonspherical/time-dependent theorem.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2356:The declared primary UDT metric already contains a complete local pair orchestra: the screen is
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2357:metric-fixed and the pair's angular participation is fixed by its supplied tangent geometry before
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2369:orthogonal ruler r_AB	DERIVED	unique metric projection on regular timelike clock stratum
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2372:G167 Y,Z blocks	DERIVED_AS_COORDINATE_COMPONENTS	once primary metric chart and pair germ are supplied
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2374:bare observer labels to local pair germ	OPEN	exact same-label counterfamily
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2379:global physical relation network	OPEN	event/calibration population and cross-query carry
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2397:    11	+ primary UDT metric g
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2408:    22	two observer names -> metric-selected path -> externally attached kernel.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2411:    25	The local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2450:    64	Because a Lorentzian metric of index one is positive definite on (u_A^\perp), every nonzero
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2485:    99	In the orthogonal basis ((u_A,r_{AB})), the same plane metric is diagonal. No ambient plane
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2488:   102	## 3. The primary metric determines all coefficients after the germ is supplied
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2521:   135	with metric-owned
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2545:   159	line and normalized ruler direction. Pair-metric components transform covariantly; a terminal
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2576:   190	The raw and orthogonal pair metrics are
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2609:/bin/bash -lc "nl -ba /intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md | sed -n '1,180p'" in /intake
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2613:     1	# G167 exact derivation — bounded primary-metric general pair pullback
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2619:     7	The declared primary static-spherical UDT metric is
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2626:    14	This is a four-dimensional metric, not only a radial line element. Its static, spherical, diagonal,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2641:    29	The pair metric is not another ansatz. It is the pullback \(h=F^*g\).
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2658:    46	metric,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2708:    96	- \(Q\) is fixed by the areal spherical metric;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2711:    99	- the angular Gram matrix \(P=Z^TQ^TQZ\) is derived from the metric and pair realization.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2714:   102	this slice. It collapses to one supplied primary metric plus one supplied pair realization.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2724:   112	the complete pair metric is \(h=h_{\rm base}+P\) before the terminal kernel is evaluated. Although
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2725:   113	the ambient metric is diagonal, the pair metric generally is not:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2741:   129	can be nonzero even when the base contribution to \(h_{01}\) and every ambient off-diagonal metric
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2808:    14	The Lorentz metric then supplies its unique orthogonal positive screen. In the registered complete
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2809:    15	coframe chart, the full angular/mixing/embedding contribution to the induced pair metric is one
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2832:    38	physical comparison surface in a general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2866:    72	The ambient metric has inertia `(1,3)` and the pair plane has inertia `(1,1)`. Additivity of
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2876:    82	On a regular local `2+2` chart write the complete coframe and metric as
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2907:   113	after a reciprocal calculation. It first forms the complete metric pullback; the terminal
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2927:   133	their combined relative screen displacement `C`. The pair metric alone cannot invert that sum to
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2931:   137	The `C=0` limit recovers the pure base metric exactly.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2953:   159	gives `C^T q C=P` (choosing symmetric roots). Hence the image is exactly the full `PSD(2)` cone,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2981:   187	The complete induced pair metric is
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3029:    11	| Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3047:    29	| G165 conformal-fiber rank | `VERIFIED_WITH_CAVEATS` control | Unrestricted metric envelope has a functional conformal kernel; not physical UDT multiplicity |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3048:    30	| G166 primary-metric pair descent | `VERIFIED_WITH_CAVEATS` | Founded ordered-pair metric owns its scalar kernel; general `3+1` assembly remains conditional |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3049:    31	| G167 primary-metric general pair pullback | `VERIFIED_WITH_CAVEATS` | Primary spherical four-metric owns the full local regular pair-pullback orchestra; `Y,Z` remain pair data |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3056:    38	| `X_max` | working asymptotic global-completion consequence target | Not a local kernel input; requires independent metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3059:    41	| Founded pair common scale | `FIXED` in bounded block | Determinant-one reciprocal clock/ruler block; not a general complete-metric theorem |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3078:    60	- G165 remains a valid control on the unrestricted metric envelope. G166 proves that this arbitrary
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3080:    62	- G166 relocates the kernel to the primary metric. G167 derives its complete local regular pair
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3093:    75	| Native source | `OPEN` | Geometric response/current roles do not supply source substance |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3100:    82	`X_max`. Conditional SNe replays import radiative transfer and select no metric history.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3145:   223	and the G167 block formula returns (h_{(u,s)}) exactly. Removing (Z) changes the pair metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3179:   257	The planes for (a=0) and (a=1) are different. The induced metric remains Lorentzian:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3234:   312	   metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3249:   327	This does not derive a global event-pairing rule, path, pair surface, cross-query carry, physical
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3250:   328	profile, `X_max`, dynamics, signalling, source, action, bootstrap, or general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3257:     3	primary static-spherical UDT metric	WORKING	bilinear evaluation and areal screen coefficients	general ambient history law
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3259:     5	metric orthogonal projection	DERIVED	unique ruler direction	global event pairing
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3311:    44	# Exact primary-metric witness.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3329:    62	    "raw_pair_metric",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3332:    65	check("orthogonal_pair_metric", h_orth == sp.diag(-1, sp.Rational(59, 25)))
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3349:    82	check("angular_content_changes_pair_metric", h_radial != h_raw)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3382:   115	check("counterfamily_is_regular_timelike", spatial_speed_sq.subs({alpha: 1, sigma: sp.Rational(1, 3)}) > 0)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3386:   119	check("counterfamily_boundary_A_fixed", sp.Matrix([0, 0, alpha * 0 * (1 - 0), 0]) == sp.zeros(4, 1))
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3387:   120	check("counterfamily_boundary_B_fixed", sp.simplify(alpha * 1 * (1 - 1)) == 0)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3394:   127	# Frozen source hashes.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3460:    36	trials = 1200
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3461:    37	for i in range(trials):
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3462:    38	    # Static diagonal primary-metric rational control.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3467:    43	    metric = (-a, b, c, d)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3470:    46	    guu = dot_diag(u, metric, u)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3471:    47	    gus = dot_diag(u, metric, s)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3473:    49	    require(dot_diag(u, metric, r) == 0, f"orthogonality_{i}")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3474:    50	    rr = dot_diag(r, metric, r)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3475:    51	    require(rr == dot_diag(s, metric, s) - gus * gus / guu, f"norm_{i}")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3481:    57	    rl = add(sl, scale(-dot_diag(u, metric, sl) / guu, u))
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3485:    61	metric = (F(-1, 4), F(4), F(9), F(144, 25))
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3488:    64	guu = dot_diag(u, metric, u)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3489:    65	gus = dot_diag(u, metric, s)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3490:    66	gss = dot_diag(s, metric, s)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3494:    70	require(dot_diag(r, metric, r) == F(59, 25), "witness_rr")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3496:    72	angular = metric[2] * s[2] * s[2] + metric[3] * s[3] * s[3]
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3498:    74	require(gss - angular != gss, "radial_freeze_changes_metric")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3504:    80	require(s0 != s1, "counterfamily_distinct_germs")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3505:    81	require(dot_diag(e0, (F(-1), F(1), F(1), F(1)), s0) == 0, "counterfamily_s0_orthogonal")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3506:    82	require(dot_diag(e0, (F(-1), F(1), F(1), F(1)), s1) == 0, "counterfamily_s1_orthogonal")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3519:    95	    "seed": 168,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3520:    96	    "trials": trials,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3588:    59	# Mutant 8: counterfamily ceases to share the B boundary if the taper is removed.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3590:    61	catch("counterfamily_boundary_taper", alpha * 1 != 0)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/REPAIR_PREREGISTRATION.md:24:No projection formula, witness, source, trial count, metric, counterfamily, tolerance, or excluded
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json:5:  "seed": 168,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json:6:  "trials": 1200
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md:16:  plane through the metric;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md:17:- its primary-metric coordinate components are the G167 `Y,Z` blocks;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md:19:- the counterfamily still proves that bare labels and boundary event pairing do not select it.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:18:clock tangent (u_A) and nonzero ordered separation tangent (s_{AB}), the metric uniquely removes
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:32:is needed **after the germ is supplied**. In the primary metric, the coordinate components of
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:38:Two observer names do not supply the germ. An exact flat counterfamily has the same two boundary
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:45:- a supplied pair germ gives the metric its two local arguments;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:46:- the **metric** derives its ruler, pair plane, screen, and pullback;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:61:- A radial pair has (Z=0); a nonradial pair has metric-determined angular (Z).
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:69:- independent standard-library `Fraction` replay: 6,012/6,012 checks over 1,200 trials;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:71:  same-label counterfamily controls pass;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:81:Within the regular local primary-metric arena, a **supplied** ordered co-present pair germ uniquely
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:84:profile, `X_max`, dynamics, observation, or general ambient completion is derived.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:6:orthogonal ruler r_AB	DERIVED	unique metric projection on regular timelike clock stratum
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:9:G167 Y,Z blocks	DERIVED_AS_COORDINATE_COMPONENTS	once primary metric chart and pair germ are supplied
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:11:bare observer labels to local pair germ	OPEN	exact same-label counterfamily
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:16:global physical relation network	OPEN	germ ownership event/calibration population and cross-query carry
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:3:    "angular_content_changes_pair_metric": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:7:    "counterfamily_boundary_A_fixed": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:8:    "counterfamily_boundary_B_fixed": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:9:    "counterfamily_is_regular_timelike": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:15:    "orthogonal_pair_metric": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:21:    "raw_pair_metric": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:131:      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:136:      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:141:      "path": "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:142:      "role": "full primary-metric pair pullback result",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:146:      "path": "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:152:      "role": "pair-first conditional ownership and flat counterfamily",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:166:      "path": "udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:44:# Exact primary-metric witness.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:62:    "raw_pair_metric",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:65:check("orthogonal_pair_metric", h_orth == sp.diag(-1, sp.Rational(59, 25)))
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:82:check("angular_content_changes_pair_metric", h_radial != h_raw)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:115:check("counterfamily_is_regular_timelike", spatial_speed_sq.subs({alpha: 1, sigma: sp.Rational(1, 3)}) > 0)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:119:check("counterfamily_boundary_A_fixed", sp.Matrix([0, 0, alpha * 0 * (1 - 0), 0]) == sp.zeros(4, 1))
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:120:check("counterfamily_boundary_B_fixed", sp.simplify(alpha * 1 * (1 - 1)) == 0)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:127:# Frozen source hashes.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/LAY_REPORT.md:6:To evaluate a local pair with a metric, you must give it two directions: which way the observer's
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/LAY_REPORT.md:10:Once those two directions are supplied, the UDT metric does all the rest. It removes any clock component
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/LAY_REPORT.md:25:metric -> ruler + pair plane + angular participation
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py:59:# Mutant 8: counterfamily ceases to share the B boundary if the taper is removed.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py:61:catch("counterfamily_boundary_taper", alpha * 1 != 0)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXECUTION_NOTE.md:6:landing, or tolerance changed. The independent standard-library Fraction replay had already passed
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv:2:3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7	udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md	kernel type order and remaining pair typing
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv:3:9e985bbd73a2ffe099a57257ea51778fff9ec75eb48721565faafaafd14edc62	udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md	primary reciprocal pair algebra
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv:4:c1a1f722e393e431b1b0805a7e2d5ad8e27813c48db989f824b76898bc499593	udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md	full primary-metric pair pullback result
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv:5:e51704c01a72c546401e31f59ecf0b1881ee2c273324ccba2e4572fc7d01941d	udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md	general pair tangent formula
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv:6:2c73239e4b91799d3572da5725073e7a94914eaadf34820eadcd8dbcbe7c88e5	udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md	pair-first conditional ownership and flat counterfamily
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv:9:19e72eb22393648846ffef8231e4c741ee5b5564eb6311c33901ec5f73b12519	udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md	query-relative direction and screen identity
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:8:rank-two clock/ruler plane needed by the primary UDT metric pullback, or must a path, complete pair
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:18:- the declared primary static-spherical UDT metric;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:25:general nonspherical or ambient-time-dependent metric law.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:32:| primary static-spherical metric | `WORKING` declared macro metric | evaluates supplied tangents |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:69:9. Give an exact counterfamily with the same observer worldline labels and metric but different
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:78:- frozen source hashes;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:87:from two observer names, a global pair realization, a path, cross-query carry, a unique observer
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:88:network, a physical profile, `X_max`, dynamics, signalling, or a general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/CATCH_PROOF_RESULT.json:6:    "counterfamily_boundary_taper": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:3:primary static-spherical UDT metric	WORKING	bilinear evaluation and areal screen coefficients	general ambient history law
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:5:metric orthogonal projection	DERIVED	unique ruler direction	global event pairing
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:13:clock-orthogonalizable separation tangent in Lorentz signature `(1,3)`. The primary-metric block
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:16:Not covered: coincidence, null/degenerate strata, derivation of the germ from bare labels, global
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:17:event pairing, cross-query carry, path outputs, general ambient completion, or dynamics.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:22:- independent stdlib `Fraction` replay: 6,012/6,012 over 1,200 trials;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:31:germ is stamped `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`; only the metric projection and plane are
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:11:+ primary UDT metric g
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:22:two observer names -> metric-selected path -> externally attached kernel.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:25:The supplied local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:66:Because a Lorentzian metric of index one is positive definite on (u_A^\perp), every nonzero
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:101:In the orthogonal basis ((u_A,r_{AB})), the same plane metric is diagonal. No ambient plane
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:104:## 3. The primary metric determines all coefficients after the germ is supplied
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:137:with metric-owned
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:161:line and normalized ruler direction. Pair-metric components transform covariantly; a terminal
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:192:The raw and orthogonal pair metrics are
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:225:and the G167 block formula returns (h_{(u,s)}) exactly. Removing (Z) changes the pair metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:259:The planes for (a=0) and (a=1) are different. The induced metric remains Lorentzian:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:314:   metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:330:event-pairing rule, path, pair surface, cross-query carry, physical profile, `X_max`, dynamics,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:331:signalling, source, action, bootstrap, or general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py:55:    require(actual == expected, f"source hash {rel}")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:15:2. Verify the unique metric projection and Lorentzian/positive-screen proof.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:16:3. Verify that `Y,Z` are exactly coordinate components of the supplied germ in the primary metric,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:18:4. Decide whether the flat `F_a` counterfamily really proves bare labels plus boundary event pairing
+
+codex
+I’ve reduced this to a final consistency check: stale pre-repair landing strings or ownership claims in the live package outputs, excluding the frozen preregistration and historical review transcript.
+exec
+/bin/bash -lc "grep -RIn \"ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE\\|completed local relation\\|physical completed relation owns its one-jet\\|supplies its one-jet\" /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18 --exclude=PREREGISTRATION.md --exclude=EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt --exclude=EXTERNAL_ADVERSARIAL_REVIEW_RAW.md --exclude=ADVERSARIAL_REVIEW_REQUEST.md --exclude=EXTERNAL_REVIEW_ADJUDICATION.md --exclude=REPAIR_PREREGISTRATION.md" in /intake
+ succeeded in 0ms:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:5:physical completed relation owns its one-jet	PROPOSED_WORKING_POSTULATE_NOT_DERIVED	first external review required this ownership regrade
+
+exec
+/bin/bash -lc "grep -RIn \"SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE\\|PROPOSED_WORKING_POSTULATE_NOT_DERIVED\" /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18 --exclude=PREREGISTRATION.md --exclude=EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt --exclude=EXTERNAL_ADVERSARIAL_REVIEW_RAW.md --exclude=ADVERSARIAL_REVIEW_REQUEST.md" in /intake
+ succeeded in 0ms:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:98:    "landing_supported": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/REPAIR_PREREGISTRATION.md:16:   `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`, or state the theorem conditionally on a supplied germ.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json:4:  "landing_supported": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:5:physical completed relation owns its one-jet	PROPOSED_WORKING_POSTULATE_NOT_DERIVED	first external review required this ownership regrade
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:128:  "landing": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:136:    "landing": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py:71:    and "PROPOSED_WORKING_POSTULATE_NOT_DERIVED" in (HERE / "STATUS_LEDGER.tsv").read_text(),
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:4:ordered co-present positional comparison one-jet	PROPOSED_WORKING_POSTULATE_NOT_DERIVED	would supply typed local clock/separation germ if adopted	derivation from founding postulates or bare names
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:31:germ is stamped `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`; only the metric projection and plane are
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:312:   physical ownership by a completed relation is a `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py:44:landing = "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE"
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py:68:require("PROPOSED_WORKING_POSTULATE_NOT_DERIVED" in exact, "germ ownership regrade absent")
+
+codex
+FOLLOWUP_PASS__OWNERSHIP_REGRADE_COMPLETE__CONDITIONAL_LOCAL_THEOREM_RETAINED
+tokens used
+55,720
+FOLLOWUP_PASS__OWNERSHIP_REGRADE_COMPLETE__CONDITIONAL_LOCAL_THEOREM_RETAINED

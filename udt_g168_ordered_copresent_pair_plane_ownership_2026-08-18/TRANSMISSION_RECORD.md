@@ -40,3 +40,36 @@ Transcript SHA-256:
 ```
 
 The intake scope hash was rechecked unchanged after return.
+
+## Repair-only follow-up
+
+Charles explicitly authorized the corrected sealed 34-file intake:
+
+```text
+/tmp/udt_g168_pair_plane_review_12j7h_d0
+```
+
+with `REVIEW_SCOPE.json` SHA-256:
+
+```text
+ad0db46fc8f63a2b85ff31d3aeb4de84bb87871b177c0ba1d18e704c5e7da380
+```
+
+The fresh external `gpt-5.4` reviewer was restricted to verifying only the registered ownership
+regrade and retained conditional local theorem. It returned:
+
+```text
+FOLLOWUP_PASS__OWNERSHIP_REGRADE_COMPLETE__CONDITIONAL_LOCAL_THEOREM_RETAINED
+```
+
+Raw return SHA-256:
+
+```text
+6d667d399a26bfc1f902263a60b75467eff2214097219e5d0cba5e4605d8c708
+```
+
+Transcript SHA-256:
+
+```text
+e9684ca57630a019c8d3505016cf745ea2c02939b493e0a86b489631ab91991b
+```

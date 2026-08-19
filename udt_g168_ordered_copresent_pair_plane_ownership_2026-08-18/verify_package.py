@@ -34,6 +34,9 @@ required = [
     "DERIVATION_RESULT.json",
     "INDEPENDENT_VERIFICATION.json",
     "CATCH_PROOF_RESULT.json",
+    "EXTERNAL_FOLLOWUP_REVIEW_RAW.md",
+    "EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt",
+    "EXTERNAL_FOLLOWUP_REVIEW.md",
 ]
 for name in required:
     require((HERE / name).is_file(), f"missing {name}")
@@ -59,13 +62,22 @@ require(manifest_count == 10, "manifest count")
 audit = (HERE / "AUDIT_REPORT.md").read_text()
 exact = (HERE / "EXACT_DERIVATION.md").read_text()
 require(landing.split("__")[0] in audit, "audit landing")
-require("EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN" in audit, "repair follow-up status absent")
+require(
+    "VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REPAIR_FOLLOWUP_PASS" in audit,
+    "repair follow-up pass absent",
+)
 require(
     "does not derive that a physical relation supplies the germ" in exact
     and "event-pairing rule" in exact,
     "scope ceiling",
 )
 require("PROPOSED_WORKING_POSTULATE_NOT_DERIVED" in exact, "germ ownership regrade absent")
+
+followup = (HERE / "EXTERNAL_FOLLOWUP_REVIEW_RAW.md").read_text().strip()
+require(
+    followup == "FOLLOWUP_PASS__OWNERSHIP_REGRADE_COMPLETE__CONDITIONAL_LOCAL_THEOREM_RETAINED",
+    "external follow-up landing mismatch",
+)
 
 premise = subprocess.run(
     [sys.executable, str(ROOT / "verify_current_scientific_premises.py")],
@@ -77,7 +89,7 @@ premise = subprocess.run(
 require(premise.returncode == 0, "current premise verifier failed")
 
 result = {
-    "status": "PASS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN",
+    "status": "PASS__FRESH_EXTERNAL_REPAIR_FOLLOWUP_PASS",
     "required_files": len(required),
     "source_hashes": manifest_count,
     "production_checks": derivation["checks_total"],
