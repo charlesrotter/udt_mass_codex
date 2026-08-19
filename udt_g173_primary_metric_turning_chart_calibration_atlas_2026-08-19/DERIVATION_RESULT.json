@@ -1,0 +1,192 @@
+{
+  "H": "r**2*(psi_s**2*sin(theta)**2 + theta_s**2) + v**2*exp(2*phi)",
+  "b2": "psi_s**2*sin(theta)**2 + theta_s**2",
+  "checks": [
+    {
+      "detail": "Matrix([[-exp(-2*phi), 0], [0, psi_s**2*r**2*sin(theta)**2 + r**2*theta_s**2 + v**2*exp(2*phi)]])",
+      "name": "pullback_time",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-exp(-2*phi), 0], [0, psi_s**2*r**2*sin(theta)**2 + r**2*theta_s**2 + v**2*exp(2*phi)]])",
+      "name": "pullback_time_orthogonal",
+      "passed": true
+    },
+    {
+      "detail": "psi_s**2*r**2*sin(theta)**2 + r**2*theta_s**2 + v**2*exp(2*phi)",
+      "name": "pullback_full_spatial",
+      "passed": true
+    },
+    {
+      "detail": "-(psi_s**2*r**2*sin(theta)**2 + r**2*theta_s**2 + v**2*exp(2*phi))*exp(-2*phi)",
+      "name": "determinant",
+      "passed": true
+    },
+    {
+      "detail": "(psi_s**2*r**2*sin(theta)**2 + r**2*theta_s**2 + v**2*exp(2*phi))*exp(2*phi)",
+      "name": "raw_readout_weight",
+      "passed": true
+    },
+    {
+      "detail": "lambda**2*(r**2*(psi_s**2*sin(theta)**2 + theta_s**2) + v**2*exp(2*phi))",
+      "name": "spatial_weight_two",
+      "passed": true
+    },
+    {
+      "detail": "lambda**2*(r**2*(psi_s**2*sin(theta)**2 + theta_s**2) + v**2*exp(2*phi))*exp(2*phi)",
+      "name": "raw_phi_is_density",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mA_weight_one",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mP_weight_one",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "G172_overlap",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mA_invariant_readout",
+      "passed": true
+    },
+    {
+      "detail": "exp(4*phi)",
+      "name": "mP_readout_is_phi",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mA_transition_from_areal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mP_transition_from_areal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mA_radial_recovery",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mP_radial_recovery",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mA_turning_value",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mP_turning_value",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "turning_calibrations_inequivalent",
+      "passed": true
+    },
+    {
+      "detail": "-r**2*(psi_s**2*sin(theta)**2 + theta_s**2)*exp(-2*phi)",
+      "name": "turning_determinant",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "true_rank_loss",
+      "passed": true
+    },
+    {
+      "detail": "-9/4",
+      "name": "rational_turn_regular",
+      "passed": true
+    },
+    {
+      "detail": "4",
+      "name": "rational_turn_mA",
+      "passed": true
+    },
+    {
+      "detail": "16",
+      "name": "rational_turn_mP",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "rational_turn_nonuniqueness",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mf_radial_recovery",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mf_turning_family",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mf_contains_mA",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mf_contains_mP",
+      "passed": true
+    },
+    {
+      "detail": "11",
+      "name": "source_count",
+      "passed": true
+    },
+    {
+      "detail": "[]",
+      "name": "source_hashes_match",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "scaffold_sources_excluded",
+      "passed": true
+    }
+  ],
+  "checks_passed": 32,
+  "checks_total": 32,
+  "det_h": "-(psi_s**2*r**2*sin(theta)**2 + r**2*theta_s**2 + v**2*exp(2*phi))*exp(-2*phi)",
+  "exp_4Phi_A": "(psi_s**2*r**2*sin(theta)**2 + r**2*theta_s**2 + v**2*exp(2*phi))*exp(2*phi)/(r**2*(psi_s**2*sin(theta)**2 + theta_s**2) + v**2)",
+  "exp_4Phi_P": "exp(4*phi)",
+  "exp_4Phi_r": "(psi_s**2*r**2*sin(theta)**2 + r**2*theta_s**2 + v**2*exp(2*phi))*exp(2*phi)/v**2",
+  "landing": "PULLBACK_EXTENDS__CALIBRATION_ATLAS_NONUNIQUE__RADIAL_TURN_WITH_ANGULAR_MOTION_IS_REGULAR__RAW_TERMINAL_PHI_IS_AN_AFFINE_LOG_DENSITY__ANY_POSITIVE_WEIGHT_ONE_CALIBRATION_GIVES_AN_INVARIANT_SCALAR_CHART__TWO_METRIC_BUILT_CALIBRATIONS_SURVIVE_AND_DISAGREE__NO_FINITE_CALIBRATION_CAN_EQUAL_G172_ON_EVERY_PUNCTURED_MONOTONE_NEIGHBORHOOD__TRUE_FIRST_RANK_BOUNDARY_IS_ZERO_COMPLETE_SPATIAL_TANGENT__NO_PHYSICAL_CALIBRATION_OR_GLOBAL_SELECTION",
+  "m_A_squared": "r**2*(psi_s**2*sin(theta)**2 + theta_s**2) + v**2",
+  "m_P_squared": "(r**2*(psi_s**2*sin(theta)**2 + theta_s**2) + v**2*exp(2*phi))*exp(-2*phi)",
+  "m_r_squared": "v**2",
+  "metric": "Matrix([[-exp(-2*phi), 0, 0, 0], [0, exp(2*phi), 0, 0], [0, 0, r**2, 0], [0, 0, 0, r**2*sin(theta)**2]])",
+  "pair_metric": "Matrix([[-exp(-2*phi), 0], [0, psi_s**2*r**2*sin(theta)**2 + r**2*theta_s**2 + v**2*exp(2*phi)]])",
+  "rational_turning_witness": {
+    "b2": 1,
+    "det_h": "-9/4",
+    "exp_2phi": 4,
+    "exp_4Phi_A": "4",
+    "exp_4Phi_P": "16",
+    "r": 3,
+    "v": 0
+  },
+  "raw_exp_4Phi": "(psi_s**2*r**2*sin(theta)**2 + r**2*theta_s**2 + v**2*exp(2*phi))*exp(2*phi)",
+  "source_count": 11,
+  "source_failures": [],
+  "status": "DERIVED_BOUNDED_AWAITING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+  "turning_det": "-r**2*(psi_s**2*sin(theta)**2 + theta_s**2)*exp(-2*phi)"
+}

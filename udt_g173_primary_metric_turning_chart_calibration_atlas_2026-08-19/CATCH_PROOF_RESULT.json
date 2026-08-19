@@ -1,0 +1,102 @@
+{
+  "catches": [
+    {
+      "caught": true,
+      "detail": "v=0 remains regular only when r^2 b^2 is retained",
+      "name": "dropped_angular_gram"
+    },
+    {
+      "caught": true,
+      "detail": "exact turning determinant is negative",
+      "name": "turning_called_rank_failure"
+    },
+    {
+      "caught": true,
+      "detail": "zero complete spatial tangent is explicit",
+      "name": "true_rank_boundary_erased"
+    },
+    {
+      "caught": true,
+      "detail": "raw Phi chart shift is explicit",
+      "name": "raw_phi_called_scalar"
+    },
+    {
+      "caught": true,
+      "detail": "scalar calibration type is explicit",
+      "name": "calibration_weight_omitted"
+    },
+    {
+      "caught": true,
+      "detail": "two registered metric-built turning readouts disagree",
+      "name": "unique_calibration_imposed"
+    },
+    {
+      "caught": true,
+      "detail": "radial recovery is retained",
+      "name": "mA_radial_failure"
+    },
+    {
+      "caught": true,
+      "detail": "bounded no-go is explicit",
+      "name": "finite_G172_extension_claimed"
+    },
+    {
+      "caught": true,
+      "detail": "G172 overlap has exact transition",
+      "name": "chart_transition_erased"
+    },
+    {
+      "caught": true,
+      "detail": "radial and angular data enter h directly",
+      "name": "postreadout_orchestra"
+    },
+    {
+      "caught": true,
+      "detail": "selection is forbidden",
+      "name": "physical_ruler_selected"
+    },
+    {
+      "caught": true,
+      "detail": "cross-calibration carry remains open",
+      "name": "cross_calibration_telescoping"
+    },
+    {
+      "caught": true,
+      "detail": "transport remains separately typed",
+      "name": "scalar_equals_transport"
+    },
+    {
+      "caught": true,
+      "detail": "global completion remains open",
+      "name": "globalized_local_atlas"
+    },
+    {
+      "caught": true,
+      "detail": "time-live extension remains open",
+      "name": "time_live_widening"
+    },
+    {
+      "caught": true,
+      "detail": "Xmax is excluded",
+      "name": "Xmax_inserted"
+    },
+    {
+      "caught": true,
+      "detail": "retired scaffold is inactive",
+      "name": "scaffold_reintroduced"
+    },
+    {
+      "caught": true,
+      "detail": "production is not pre-promoted",
+      "name": "external_review_premature"
+    },
+    {
+      "caught": true,
+      "detail": "independent replay is stdlib-only",
+      "name": "independent_replay_shared_code"
+    }
+  ],
+  "catches_passed": 19,
+  "catches_total": 19,
+  "status": "PASS__G173_MUTATION_AND_SEMANTIC_CATCHES"
+}

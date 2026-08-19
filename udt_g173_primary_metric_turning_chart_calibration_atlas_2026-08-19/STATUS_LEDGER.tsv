@@ -1,0 +1,18 @@
+claim	status	scope
+G173 primary landing	DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW	static time-orthogonal non-areal primary-metric pair families with r>0
+full non-areal pair tensor	DERIVED_BOUNDED	h=diag(-exp(-2phi),exp(2phi)v2+r2b2)
+radial turn with angular motion	DERIVED_REGULAR	v=0 b>0 gives det h<0
+true local rank boundary	DERIVED_BOUNDED	v=b=0 gives zero complete spatial tangent and rank one
+raw terminal Phi	DERIVED_AFFINE_LOG_DENSITY	shifts by one half log absolute reparameterization Jacobian
+calibrated Phi_m	DERIVED_BOUNDED_SCALAR	positive weight-one density m cancels raw chart shift
+G172 areal overlap	DERIVED_BOUNDED	m_r=abs(v) for v nonzero
+m_A turning calibration	DERIVED_BOUNDED	metric-built areal-reference density; Phi_A=phi/2 at turn
+m_P turning calibration	DERIVED_BOUNDED	metric-built clock-weighted proper-spatial density; Phi_P=phi
+unique turning calibration	REFUTED_UNDER_ACTIVE_GATES	m_A and m_P satisfy registered gates and disagree for generic phi
+pointwise finite G172 scalar extension	NO_GO_BOUNDED	G172 equality forces m=abs(v), which vanishes at turn
+same-calibration reversal and telescoping	DERIVED_BOUNDED	scalar endpoint identities only
+cross-calibration carry	OPEN	not selected by metric or G173
+physical calibration or family ownership	OPEN	not selected
+time-live nonspherical micro global extension	OPEN	not tested
+non-scalar transport closure	OPEN	not implied
+co-presence Xmax G142-G160 fits observations action source matter bootstrap signalling	INACTIVE_OR_EXCLUDED	none enters G173

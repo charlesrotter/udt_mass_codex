@@ -20,29 +20,31 @@ and scaffolded carry/score are not load-bearing.
 
 G172 derives closure on the registered static, time-orthogonal, monotone-areal family:
 `Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`, for every supplied smooth sphere curve `gamma(r)` and its
-induced angular speed `a2(r)`. The explicit immersion and static Frobenius bracket close; radial
-recovery is exact. Fresh gpt-5.4 review reproduced the algebra and returned
-`G172_ACCEPTED_WITH_STATED_BOUNDS`. The first boundary is calibration or regularity loss,
-particularly `dr/dsigma=0`; arbitrary formal `a2` converse realization is also not proved.
+induced angular speed `a2(r)`. Immersion, Frobenius, and radial recovery close. External review
+returned `G172_ACCEPTED_WITH_STATED_BOUNDS`.
 
-Dependency chain:
+G173 covers the first non-areal turn. With `v=dr/dsigma`, the pullback stays Lorentzian at
+`v=0,b2>0`; only zero complete spatial tangent loses rank. Raw `Phi` is an affine log-density.
+Positive weight-one calibrations yield scalar charts, but two metric-built choices survive and
+disagree at a generic turn. No physical calibration is selected. Internal checks pass; fresh
+external review is pending.
 
-1. G129--G145 reconstruct `g`, normalized `chi`, and overlap carry on supplied data; valuation stays open.
-2. G146--G163 bound direction, first-jet, scale, score, carry, quotient, and remove `X_max` from the kernel.
-3. G164--G165 remove scaffolds and control the unrestricted metric envelope.
-4. G166--G172 derive scalar kernel, spherical pullback, supplied-germ plane, endpoint-relative reversal, pair-germ-relative network, and bounded smooth-family closure.
+Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry on supplied data; valuation
+stays open. G146--G163 bound direction, first-jet, scale, score, carry, and quotient, removing
+`X_max` from the kernel. G164--G165 remove scaffolds/control the envelope. G166--G173 derive the
+scalar kernel through the bounded turning calibration atlas.
 
 Milestones: G129 G134 G135 G139 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154
-G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172. Guards: rank ten,
+G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173. Guards: rank ten,
 density, bivector area bilinear, codimension eleven, conformal; physical carrier/`O(2)` open;
 covariant `lambda` only; numerical valuation `OPEN`.
 
-Local supplied-germ construction, same-pair reversal, and the bounded monotone-areal smooth family
-are closed internally. Physical germ realization, turning charts, global/ambient extension,
+Supplied-germ construction, same-pair reversal, and bounded tensor extension through a radial turn
+with angular motion close internally. Physical germ/calibration realization, global/ambient extension,
 `X_max`, and completion remain `OPEN`; `CANON.md` is unchanged.
 
-Open `udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/AUDIT_REPORT.md` first,
-then G171, G170, G168, G167, and G166. G163 controls `X_max`; G164--G165 control
+Open `udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/AUDIT_REPORT.md` first,
+then G172, G171, G170, G168, G167, and G166. G163 controls `X_max`; G164--G165 control
 scaffolds; `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
 
 For G93--G128 provenance use `INDEX.md` or `archive/startup_surface_2026-08-17_pre_zoomout/` only
@@ -63,14 +65,13 @@ No long process is running.
 
 - `delta -> D(delta)` and the determinant-one pair metric block are derived on supplied ordered
   depth; the physical kernel argument is owner-clarified as the ordered pair, not a fixed path.
-- reciprocal reversal is `DERIVED_CONDITIONAL` from endpoint differences on the same supplied
-  completed pair; G171 removes arbitrary triangle additivity as a requirement and derives exact
-  matched-readout telescoping. No positive metric-space distance or global realization follows.
+- reciprocal reversal is `DERIVED_CONDITIONAL` on the same completed pair; G171 removes arbitrary
+  triangle additivity and retains matched-readout telescoping. No global distance follows.
 - `phi_pair` is derived on a supplied regular calibrated pair metric; pointwise `phi` is a
   conditional presentation potential.
 - the orchestra enters before terminal readout.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
-- signed `chi=tanh(phi_pair)` is working normalized position, not proper length or a selected realization.
+- signed `chi=tanh(phi_pair)` is working normalized position, not proper length.
 - `X_max` is a working asymptotic global-completion consequence target, not a local kernel input, wall, center,
   or seam.
 - strong local CSN is inactive.
@@ -89,8 +90,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Test the excluded `dr/dsigma=0` turning stratum in a non-areal chart. Do not select a curve or force
-global
+Obtain fresh adversarial review of G173. Do not select a calibration or curve, force global
 completion, revive carry/score scaffolds, or collapse scalar closure into non-scalar transport.
 
 <!-- STARTUP_CURRENT_END -->

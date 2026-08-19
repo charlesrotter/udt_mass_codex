@@ -1,0 +1,6 @@
+witness	exp_2phi	r	v	b2	det_h	exp_4Phi_A	exp_4Phi_P	classification
+pure_radial	4	3	2	0	-4	16	16	regular; both recover G172 radial Phi=phi
+nonradial_monotone	4	3	1	1	-13/4	26/5	16	regular; exact calibration transition; readouts differ
+radial_turn	4	3	0	1	-9/4	4	16	regular turn; m_A and m_P disagree
+zero_complete_spatial_tangent	4	3	0	0	0	undefined	undefined	true rank-one boundary
+flat_reciprocal_zero	1	3	0	1	-9	1	1	regular turn; registered witnesses coincide at phi=0 only

@@ -1,0 +1,5 @@
+calibration	density_squared	domain	exp_4Phi	radial_value	turning_value	status
+G172_areal_mr	v^2	v_nonzero	exp(2phi)H/v^2	exp(4phi)	undefined	derived overlap chart only
+areal_reference_mA	v^2+r^2b^2	complete_spatial_tangent_nonzero	exp(2phi)H/(v^2+r^2b^2)	exp(4phi)	exp(2phi)	metric-built lawful candidate not selected
+clock_weighted_proper_mP	v^2+exp(-2phi)r^2b^2	complete_spatial_tangent_nonzero	exp(4phi)	exp(4phi)	exp(4phi)	metric-built lawful candidate not selected
+algebraic_family_mf	v^2+f*r^2b^2	f_positive_and_complete_spatial_tangent_nonzero	exp(2phi)H/(v^2+f*r^2b^2)	exp(4phi)	exp(2phi)/f	solution-space display only; arbitrary f not promoted

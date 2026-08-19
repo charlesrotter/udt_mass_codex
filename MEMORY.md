@@ -9,8 +9,8 @@ G166: the founded pair metric owns `phi_pair`, conditional `c_eff/c_E`, and `chi
 a supplied germ derives the plane, but bare labels do not. G170 differences endpoint densities.
 G171 makes the scalar network pair-relative; arbitrary triangles need not telescope. G172 closes
 the supplied monotone-areal family with `Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]` for supplied smooth
-sphere curves. Fresh gpt-5.4 review accepted the bounded theorem. Turning calibration,
-arbitrary-formal-`a2` converse realization, and physical/global realization remain open.
+sphere curves. G173 derives regular tensor passage through radial turns with angular motion, but
+finds a nonunique scalar calibration atlas. G172 is externally accepted; G173 awaits review.
 
 Dependency spine:
 
@@ -22,11 +22,11 @@ Dependency spine:
 - G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
   bounded controls; G163 removes `X_max` from the kernel.
 - G164 G165 G166 G167 G168 G169: scaffold, kernel, pullback, germ, and reversal controls.
-- G170 G171 G172: endpoint densities differ to give directed response; the scalar network is
+- G170 G171 G172 G173: endpoint densities differ to give directed response; the scalar network is
   pair-germ-relative, needs no universal carry scaffold, and closes on the bounded smooth
-  monotone-areal family.
+  monotone-areal family; its tensor extends through turns while scalar calibration remains open.
 
-Physical germ realization, turning charts, global extendability, ambient extension, separation,
+Physical germ/calibration realization, global extendability, ambient extension, separation,
 completion, and `X_max` remain open.
 
 ## Observational pointer
@@ -53,8 +53,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Test the first excluded G172 radial-turning stratum with a non-areal local chart.
-Do not revive co-presence, observer-only endpoint potentials, arbitrary triangle closure,
+Obtain fresh adversarial review of G173. Do not select a calibration or revive co-presence,
+observer-only endpoint potentials, arbitrary triangle closure,
 scaffolded carry/score kernels, `X_max`, fits, or paths.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

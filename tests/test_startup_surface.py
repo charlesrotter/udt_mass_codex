@@ -67,6 +67,7 @@ CURRENT_TARGETS = (
     "udt_g162_lambda_dependence_frontier_census_2026-08-18/AUDIT_REPORT.md",
     "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
     "udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/AUDIT_REPORT.md",
+    "udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/AUDIT_REPORT.md",
 )
 
 
@@ -131,7 +132,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 158-row premise registry" in result.stdout
+    assert "PASS: 159-row premise registry" in result.stdout
 
 
 def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:
@@ -305,6 +306,13 @@ def test_catch_missing_g172_current_result(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", "G172", "REMOVED_RESULT_172")
     with pytest.raises(SystemExit, match="marked current block lacks G172"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_g173_current_result(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "G173", "REMOVED_RESULT_173")
+    with pytest.raises(SystemExit, match="marked current block lacks G173"):
         premise_guard.validate_startup_surface(root)
 
 

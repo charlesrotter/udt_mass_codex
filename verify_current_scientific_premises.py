@@ -199,6 +199,7 @@ def validate_startup_surface(root: Path) -> None:
             "G170",
             "G171",
             "G172",
+            "G173",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -238,7 +239,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "158-row exact registry",
+            "159-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -294,6 +295,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/",
             "udt_g171_primary_metric_multi_pair_response_2026-08-19/",
             "udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/",
+            "udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -335,6 +337,7 @@ def validate_startup_surface(root: Path) -> None:
             "G170",
             "G171",
             "G172",
+            "G173",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -375,6 +378,7 @@ def validate_startup_surface(root: Path) -> None:
             "G170",
             "G171",
             "G172",
+            "G173",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -403,10 +407,11 @@ def validate_startup_surface(root: Path) -> None:
             "G170",
             "G171",
             "G172",
+            "G173",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "158-row",
+            "159-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -665,9 +670,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 158, "premise registry must contain exactly 158 rows")
+    require(len(rows) == 159, "premise registry must contain exactly 159 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 158, "duplicate premise id")
+    require(len(by_id) == 159, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3911,6 +3916,47 @@ def main() -> None:
         == "udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/AUDIT_REPORT.md",
         "G172 source changed",
     )
+    require(
+        by_id["G173"]["current_status"].startswith(
+            "DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW__PREREGISTERED__PULLBACK_EXTENDS_THROUGH_RADIAL_TURN_WHEN_ANGULAR_TANGENT_NONZERO"
+        ),
+        "G173 turning-chart calibration-atlas landing regressed or promoted",
+    )
+    require(by_id["G173"]["epistemic_label"] == "MIXED", "G173 label changed")
+    for open_item in (
+        "fresh external adversarial review",
+        "physical calibration and pair-family ownership",
+        "whether a future native relation law selects one calibration-atlas chart",
+        "cross-calibration carry",
+        "time-live pair shift and nonspherical micro ambient extension",
+        "center coincidence null singular cut focal and topology-changing strata",
+        "smooth and global completion",
+        "non-scalar screen connection Jacobi orientation and holonomy transport",
+        "positive global distance dimensionful separation numerical Xmax",
+    ):
+        require(open_item in by_id["G173"]["open_scope"], f"G173 open boundary absent: {open_item}")
+    for guard in (
+        "radial turn with angular motion called metric or rank singularity",
+        "zero radial component conflated with zero complete spatial tangent",
+        "raw coordinate Phi called scalar without a weight-one calibration density",
+        "m_A or m_P selected as the physical ruler",
+        "bounded calibration nonuniqueness called proof that physical UDT has multiple rulers",
+        "arbitrary m_f promoted to physics",
+        "finite nonareal scalar claimed numerically identical to G172 throughout a punctured turn",
+        "exact calibration transition erased",
+        "G172 overwritten rather than retained as the areal overlap chart",
+        "cross-calibration or arbitrary triangle closure imposed",
+        "scalar reversal called non-scalar transport closure",
+        "local atlas globalized",
+        "conditional pair c_eff called local signal speed",
+        "co-presence Xmax observations or G142 through G160 scaffolds inserted",
+    ):
+        require(guard in by_id["G173"]["forbidden_regression"], f"G173 guard absent: {guard}")
+    require(
+        by_id["G173"]["controlling_source"]
+        == "udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/AUDIT_REPORT.md",
+        "G173 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -4004,7 +4050,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G172-extended premise guards; PASS: 158-row premise "
+        "PASS: G173-extended premise guards; PASS: 159-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
