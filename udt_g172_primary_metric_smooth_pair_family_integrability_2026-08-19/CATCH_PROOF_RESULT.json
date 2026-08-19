@@ -1,0 +1,101 @@
+{
+  "catches": [
+    {
+      "caught": true,
+      "detail": "nonradial witness has W=29/9, not the radial W=1",
+      "name": "drop_angular_gram"
+    },
+    {
+      "caught": true,
+      "detail": "a minus-sign mutation destroys regularity on an otherwise regular witness",
+      "name": "wrong_angular_sign"
+    },
+    {
+      "caught": true,
+      "detail": "the angular term is weighted by exp(-2 phi), not appended unweighted",
+      "name": "omit_reciprocal_weight"
+    },
+    {
+      "caught": true,
+      "detail": "two admissible angular speeds cannot both equal one fitted constant",
+      "name": "replace_curve_by_constant"
+    },
+    {
+      "caught": true,
+      "detail": "variable a^2 contributes r^2(a^2)'",
+      "name": "omit_angular_speed_derivative"
+    },
+    {
+      "caught": true,
+      "detail": "raw Phi shifts under independent positive spatial-coordinate rescaling",
+      "name": "raw_reparameterization_invariance"
+    },
+    {
+      "caught": true,
+      "detail": "a^2=b^2/v^2 is undefined at v=0",
+      "name": "zero_radial_speed_calibration"
+    },
+    {
+      "caught": true,
+      "detail": "the theorem expressly excludes turning and pure-angular calibration strata",
+      "name": "turning_stratum_widening"
+    },
+    {
+      "caught": true,
+      "detail": "the supplied family is not promoted to a preferred physical path",
+      "name": "preferred_path_promotion"
+    },
+    {
+      "caught": true,
+      "detail": "finite-interval extension is not global completion",
+      "name": "global_completion_promotion"
+    },
+    {
+      "caught": true,
+      "detail": "X_max is absent from load-bearing algebra",
+      "name": "xmax_insertion"
+    },
+    {
+      "caught": true,
+      "detail": "G142--G160 are excluded from the frozen source manifest",
+      "name": "scaffolded_kernel_import"
+    },
+    {
+      "caught": true,
+      "detail": "phi remains symbolic and supplied; no profile or coefficient is selected",
+      "name": "chosen_phi_profile"
+    },
+    {
+      "caught": true,
+      "detail": "scalar telescoping is not promoted to screen or holonomy closure",
+      "name": "scalar_equals_complete_transport"
+    },
+    {
+      "caught": true,
+      "detail": "the bounded integrability proof has no co-presence premise",
+      "name": "copresence_dependency"
+    },
+    {
+      "caught": true,
+      "detail": "the r->0+ statement is kept as a one-sided chart limit",
+      "name": "smooth_center_promotion"
+    },
+    {
+      "caught": true,
+      "detail": "conditional c_eff is retained as an inter-observer frame readout",
+      "name": "local_signal_speed_promotion"
+    },
+    {
+      "caught": true,
+      "detail": "the full angular Gram enters h before Phi is formed",
+      "name": "postprocessed_orchestra"
+    },
+    {
+      "caught": true,
+      "detail": "scope language blocks promotion beyond the preregistered class",
+      "name": "unbounded_landing"
+    }
+  ],
+  "catches_passed": 19,
+  "catches_total": 19
+}

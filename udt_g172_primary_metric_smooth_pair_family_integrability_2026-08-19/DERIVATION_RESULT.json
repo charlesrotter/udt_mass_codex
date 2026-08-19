@@ -1,0 +1,148 @@
+{
+  "Phi": "phi + log(a2*r**2*exp(-2*phi) + 1)/4",
+  "Phi_prime": "phi_p + (-2*a2*phi_p*r**2 + 2*a2*r + a2_p*r**2)*exp(-2*phi)/(4*a2*r**2*exp(-2*phi) + 4)",
+  "W": "a2*r**2*exp(-2*phi) + 1",
+  "W_prime": "(-2*a2*phi_p*r**2 + 2*a2*r + a2_p*r**2)*exp(-2*phi)",
+  "angular_speed": "psi_p**2*sin(theta)**2 + theta_p**2",
+  "ceff_over_cE": "exp(-2*phi)/sqrt(a2*r**2*exp(-2*phi) + 1)",
+  "checks": [
+    {
+      "detail": "Matrix([[-exp(-2*phi), 0], [0, psi_p**2*r**2*sin(theta)**2 + r**2*theta_p**2 + exp(2*phi)]])",
+      "name": "pullback_time_component",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-exp(-2*phi), 0], [0, psi_p**2*r**2*sin(theta)**2 + r**2*theta_p**2 + exp(2*phi)]])",
+      "name": "pullback_cross_component",
+      "passed": true
+    },
+    {
+      "detail": "psi_p**2*r**2*sin(theta)**2 + r**2*theta_p**2 + exp(2*phi)",
+      "name": "pullback_angular_gram_retained",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-exp(-2*phi), 0], [0, a2*r**2 + exp(2*phi)]])",
+      "name": "invariant_speed_reduction",
+      "passed": true
+    },
+    {
+      "detail": "-a2*r**2*exp(-2*phi) - 1",
+      "name": "determinant",
+      "passed": true
+    },
+    {
+      "detail": "a2*r**2*exp(-2*phi) + 1",
+      "name": "regular_lorentzian",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "readout_exponential",
+      "passed": true
+    },
+    {
+      "detail": "exp(-2*phi)/(a2*r**2 + exp(2*phi))",
+      "name": "q2_exact",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "ceff_square_is_q2",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "ceff_is_exp_minus_2Phi",
+      "passed": true
+    },
+    {
+      "detail": "log(a2*r**2*exp(-2*phi) + 1)/4",
+      "name": "angular_modulation_nonnegative",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "radial_Phi_recovery",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "radial_ceff_recovery",
+      "passed": true
+    },
+    {
+      "detail": "-2*a2*phi_p*r**2*exp(-2*phi) + 2*a2*r*exp(-2*phi) + a2_p*r**2*exp(-2*phi)",
+      "name": "W_derivative",
+      "passed": true
+    },
+    {
+      "detail": "a2*r*exp(-2*phi)/(2*(a2*r**2*exp(-2*phi) + 1)) + a2_p*r**2*exp(-2*phi)/(4*(a2*r**2*exp(-2*phi) + 1)) + phi_p*(-a2*r**2*exp(-2*phi)/(2*(a2*r**2*exp(-2*phi) + 1)) + 1)",
+      "name": "Phi_derivative",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "same_family_reversal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "same_family_telescoping",
+      "passed": true
+    },
+    {
+      "detail": "K=Matrix([[1, 0, 0, 0]]), S=Matrix([[0, 1, theta_p, psi_p]])",
+      "name": "static_frobenius_bracket",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "sigma_determinant",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "raw_reparameterization_shift",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "areal_calibration_removes_speed",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "areal_angular_speed",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "bounded_angular_center_W_limit",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "bounded_angular_center_modulation_limit",
+      "passed": true
+    },
+    {
+      "detail": "[]",
+      "name": "source_hashes_match",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "scaffolded_sources_excluded",
+      "passed": true
+    }
+  ],
+  "checks_passed": 26,
+  "checks_total": 26,
+  "landing": "SMOOTH_FAMILY_CLOSURE__PRIMARY_METRIC_PULLBACK_GIVES_EXACT_RADIAL_PLUS_ANGULAR_RESPONSE__STATIC_TIME_ORTHOGONAL_MONOTONE_AREAL_FAMILIES_INTEGRATE__REVERSAL_AND_TELESCOPING_HOLD_WITHIN_ONE_SUPPLIED_FAMILY__FIRST_BOUNDARY_IS_CALIBRATION_OR_REGULARITY_LOSS__NO_PHYSICAL_FAMILY_SELECTION_OR_GLOBAL_COMPLETION",
+  "metric": "Matrix([[-exp(-2*phi), 0, 0, 0], [0, exp(2*phi), 0, 0], [0, 0, r**2, 0], [0, 0, 0, r**2*sin(theta)**2]])",
+  "pair_metric": "Matrix([[-exp(-2*phi), 0], [0, a2*r**2 + exp(2*phi)]])",
+  "source_count": 11,
+  "source_failures": [],
+  "status": "DERIVED_BOUNDED_AWAITING_INDEPENDENT_AND_EXTERNAL_REVIEW"
+}

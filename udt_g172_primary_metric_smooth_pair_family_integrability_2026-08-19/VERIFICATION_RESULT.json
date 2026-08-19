@@ -1,0 +1,10 @@
+{
+  "gate": "REPOSITORY_OUTER_GATE",
+  "independent_checks": 144000,
+  "premise_verifier_returncode": 0,
+  "production_checks": 26,
+  "required_files": 18,
+  "semantic_catches": 19,
+  "source_hashes": 11,
+  "status": "PASS__G172__READY_FOR_FRESH_EXTERNAL_REVIEW"
+}

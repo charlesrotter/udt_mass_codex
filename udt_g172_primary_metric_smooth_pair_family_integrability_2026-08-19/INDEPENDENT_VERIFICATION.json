@@ -1,0 +1,10 @@
+{
+  "checks_passed": 144000,
+  "derivative_checks": 24000,
+  "implementation": "stdlib fractions and independent dual numbers; no sympy or production imports",
+  "landing_supported": "SMOOTH_FAMILY_CLOSURE__PRIMARY_METRIC_PULLBACK_GIVES_EXACT_RADIAL_PLUS_ANGULAR_RESPONSE__STATIC_TIME_ORTHOGONAL_MONOTONE_AREAL_FAMILIES_INTEGRATE__REVERSAL_AND_TELESCOPING_HOLD_WITHIN_ONE_SUPPLIED_FAMILY__FIRST_BOUNDARY_IS_CALIBRATION_OR_REGULARITY_LOSS__NO_PHYSICAL_FAMILY_SELECTION_OR_GLOBAL_COMPLETION",
+  "nonradial_cases": 11953,
+  "reparameterization_checks": 24000,
+  "telescoping_checks": 24000,
+  "trials": 12000
+}

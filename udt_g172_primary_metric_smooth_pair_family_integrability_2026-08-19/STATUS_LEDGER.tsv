@@ -1,0 +1,17 @@
+claim	status	scope
+G172 primary landing	DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW	static time-orthogonal monotone-areal smooth pair families
+complete angular Gram enters before terminal readout	DERIVED_BOUNDED	primary static-spherical metric and supplied smooth gamma(r)
+Phi=phi+1/4 log(1+r^2 exp(-2phi) a^2)	DERIVED_BOUNDED	registered family only
+conditional c_eff_pair/c_E=exp(-2Phi)	DERIVED_BOUNDED_INTEROBSERVER_FRAME_READOUT	not a local signal-speed law
+radial family recovery	DERIVED_BOUNDED	a^2=0
+smooth family integrability	DERIVED_BOUNDED	explicit immersion and static Frobenius bracket
+same-family reversal and telescoping	DERIVED_BOUNDED	scalar endpoint difference inside one calibrated family
+areal-radius calibration	DERIVED_BOUNDED	dr/dsigma nonzero
+turning and pure-angular strata	OPEN	require another chart or calibration
+center behavior	DERIVED_ONE_SIDED_LIMIT	finite phi and bounded a^2; not smooth-center completion
+physical angular-family ownership	OPEN	not selected by G172
+global completion	OPEN	not selected by G172
+non-scalar transport closure	OPEN	not implied by scalar telescoping
+co-presence	INACTIVE	not used
+X_max	INACTIVE	not used
+G142--G160 scaffolded kernel	EXCLUDED	not in source manifest or derivation
