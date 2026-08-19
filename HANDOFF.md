@@ -8,39 +8,42 @@ Read `LIVE.md` first. It wins.
 
 ### Current theory state
 
-G166 derives `phi_pair=delta_AB`, conditional `c_eff/c_E=exp(-2 delta_AB)`, and
-`chi=tanh(delta_AB)` from the founded pair metric without a fixed path. G167 pulls the primary
+G166 derives `phi_pair`, conditional `c_eff/c_E`, and `chi` from the founded pair metric without a
+path. G167 pulls the primary
 static-spherical four-metric back to every supplied local regular pair plane:
-`h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`, with the metric fixing
-Here `B=diag(c_E exp(-phi),exp(phi))`, `Q=diag(r,r sin(theta))`, and `S=0`. The angular orchestra is
+`h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`, with metric-fixed
+`B=diag(c_E exp(-phi),exp(phi))`, `Q=diag(r,r sin(theta))`, and `S=0`. The orchestra is
 internal before readout; only `Y,Z` are supplied. The former `B,Q,S,Y,Z` envelope is metric-fixed
 plus pair-kinematic, not five histories.
 
+G168 conditionally derives ruler, plane, screen, and G167 `Y,Z` from supplied `(u_A,s_AB)`, with no
+path. Bare observers do not supply that germ; physical ownership is
+`PROPOSED_WORKING_POSTULATE_NOT_DERIVED`.
+
 Dependency chain:
 
-1. G129--G145: G129--G134 rank ten pullbacks, density, and the bivector area bilinear recover `g`
-   on a codimension eleven locus; scalars stop at its conformal class. G135--G139 give working
-   `chi`; G140--G144 require overlap for carry; G145 leaves numerical valuation `OPEN`.
-2. G146--G148: G146 projections remain nonunique; G147 physical carrier and `O(2)` solder remain
-   open; G148's covariant identity uses `lambda` only for algebraic liveness.
+1. G129--G145: G129--G134 rank ten, density, bivector area bilinear, codimension eleven; G135--G139
+   give `chi`; G140--G144 require overlap; G145 leaves numerical valuation open.
+2. G146--G148: projections remain nonunique; G147 physical carrier and `O(2)` solder stay open; covariant `lambda` proves
+   only algebraic liveness.
 3. G149--G163: G149 chord; G150 freedom; G151 curvature/Jacobi; G152 ruler; G153 `dchi`; G154
    scale; G155 rank; G156 carry; G157 balance; G158 score; G159 descent; G160 time-live carry;
    G161 quotient; G162 rapidity removal; G163 X-free kernel.
-8. G164 removes extra-profile and ten-independent-history scaffolds. G165 proves conformal
-   nonselection only in the broadened unrestricted metric envelope; it remains a control, not a
-   theorem that physical UDT has infinitely many metrics.
+8. G164 removes scaffolds. G165's unrestricted-envelope conformal nonselection is a control, not physical multiplicity.
 9. G166 derives the primary ordered-pair kernel directly from the founded metric and relocates the
    open joint to native nonspherical/mixing/time-live `3+1` assembly.
 10. G167 closes the local regular pair orchestra for the primary spherical metric; pair-plane
-    ownership and general ambient/global extensions remain open.
+    realization and general ambient/global extensions remain open.
+11. G168 derives the pair plane from a supplied local germ; physical ownership of the germ remains
+    a proposed working postulate.
 
-The kernel gives `chi=tanh(phi_pair)`. Pair-plane ownership, general ambient extension,
-dimensionful position, `X_max`, proper length, global carry, and completion remain `OPEN`;
+The kernel gives `chi=tanh(phi_pair)`. Supplied-germ plane construction is closed; physical germ
+ownership, ambient extension, dimensional position, `X_max`, carry, and completion remain `OPEN`;
 `CANON.md` is unchanged.
 
 When load-bearing, open
-`udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md` first, then G166
-for scalar descent. G163 controls
+`udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md` first, then G167 for
+the pullback and G166 for scalar descent. G163 controls
 `X_max` dependency; G164--G165 are scaffold controls; the uncompressed evaluator is conditional
 upstream evidence at `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
@@ -87,9 +90,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Test whether an ordered co-present observer pair itself owns G167's calibrated local pair plane—its
-clock and separation directions and resulting `Y,Z`—without inserting a fixed path. Derive the
-plane if owned; otherwise isolate the minimum remaining event/calibration datum. General ambient
-nonspherical/time-dependent extension comes only after this local ownership gate.
+Resolve whether founding semantics derives the calibrated germ or Charles adopts that ownership as
+a provisional working postulate. Do not redo G168's projection or insert a path. General ambient
+extension follows only after this gate.
 
 <!-- STARTUP_CURRENT_END -->

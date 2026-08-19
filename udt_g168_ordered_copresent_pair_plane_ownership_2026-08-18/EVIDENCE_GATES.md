@@ -27,8 +27,8 @@ event pairing, cross-query carry, path outputs, general ambient completion, or d
 
 ## Gate 4 — premise audit
 
-Passed. `verify_current_scientific_premises.py` reports the complete 153-row registry and current
-G167-extended guards passing. After the first external review, physical ownership of the typed pair
+Passed. `verify_current_scientific_premises.py` reports the complete 154-row registry and current
+G168-extended guards passing. After the first external review, physical ownership of the typed pair
 germ is stamped `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`; only the metric projection and plane are
 derived conditionally.
 
@@ -36,6 +36,10 @@ The first external review required this ownership regrade and left the local alg
 fresh repair-only follow-up verified that the regrade is complete and the conditional local theorem
 is retained. The repaired administrative package gate passes all production, independent,
 mutation, source, premise, and external-follow-up checks.
+
+`SOURCE_MANIFEST.tsv` remains frozen. Its mutable startup-guide source is verified at the
+preregistration commit `1341994a`; the separately executed current-premise verifier audits the live
+154-row registry. Updating the startup surface therefore does not rewrite the reviewed source set.
 
 ## Current grade
 

@@ -194,6 +194,7 @@ def validate_startup_surface(root: Path) -> None:
             "G165",
             "G166",
             "G167",
+            "G168",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -231,7 +232,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "153-row exact registry",
+            "154-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -283,6 +284,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g165_conformal_fiber_rank_audit_2026-08-18/",
             "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/",
             "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/",
+            "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -320,6 +322,7 @@ def validate_startup_surface(root: Path) -> None:
             "G165",
             "G166",
             "G167",
+            "G168",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -356,6 +359,7 @@ def validate_startup_surface(root: Path) -> None:
             "G165",
             "G166",
             "G167",
+            "G168",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -394,10 +398,11 @@ def validate_startup_surface(root: Path) -> None:
             "G165",
             "G166",
             "G167",
+            "G168",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "153-row",
+            "154-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -656,9 +661,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 153, "premise registry must contain exactly 153 rows")
+    require(len(rows) == 154, "premise registry must contain exactly 154 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 153, "duplicate premise id")
+    require(len(by_id) == 154, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3728,6 +3733,40 @@ def main() -> None:
         == "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
         "G167 source changed",
     )
+    require(
+        by_id["G168"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__PREREGISTERED__FRESH_EXTERNAL_REPAIR_FOLLOWUP_PASS__SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_PROPOSED_WORKING_POSTULATE_NOT_DERIVED"
+        ),
+        "G168 supplied-germ pair-plane landing regressed or promoted",
+    )
+    require(by_id["G168"]["epistemic_label"] == "MIXED", "G168 label changed")
+    for open_item in (
+        "derivation of physical calibrated pair germ from founding postulates or bare observer labels",
+        "event pairing local one-jet ownership and query population",
+        "cross-query reversal calibration carry and global relation network",
+        "general nonspherical angular mixed shift-bearing ambient time-dependent and micro 3plus1 metric",
+        "coincidence null degenerate rank-changing cut topology-changing and global-completion strata",
+        "connection Jacobi normal transport holonomy and route-labelled observables",
+        "dimensionful separation numerical Xmax",
+    ):
+        require(open_item in by_id["G168"]["open_scope"], f"G168 open boundary absent: {open_item}")
+    for guard in (
+        "supplied pair germ called founded automatically physical or selected by bare observer labels",
+        "metric projection formula called derivation of event pairing or global realization",
+        "path or complete pair surface required after a regular germ is supplied",
+        "same boundary observers and event pairing called sufficient to select one local plane",
+        "B velocity forced into the A-side positional plane",
+        "local ruler reversal called full reciprocal observer reversal",
+        "coincidence treated as regular rank two",
+        "G168 called general ambient global dynamics completion or numerical Xmax",
+        "protected work inserted",
+    ):
+        require(guard in by_id["G168"]["forbidden_regression"], f"G168 guard absent: {guard}")
+    require(
+        by_id["G168"]["controlling_source"]
+        == "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md",
+        "G168 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3806,7 +3845,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G167-extended premise guards; PASS: 153-row premise "
+        "PASS: G168-extended premise guards; PASS: 154-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

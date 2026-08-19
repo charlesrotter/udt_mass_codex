@@ -9,14 +9,16 @@ and `chi`, without a fixed path. G167 derives the complete local regular pair pu
 primary spherical four-metric: the metric fixes `B,Q,S=0`, the supplied pair plane provides `Y,Z`,
 and the angular Gram enters before readout.
 The former `B,Q,S,Y,Z` envelope is therefore metric-fixed plus pair-kinematic in this bounded arena.
+G168 derives that plane from a supplied clock/separation germ, path-free; physical germ
+ownership stays proposed.
 
 Dependency spine:
 
-- G129--G134: rank ten pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal class.
-- G135--G139, regraded by G163: `chi=tanh(phi_pair)` composes on matched depths; route transport is
+- G129--G134: rank ten pullbacks and bivector area bilinear recover `g`; scalars stop at conformal class.
+- G135--G139/G163: `chi=tanh(phi_pair)` composes on matched depths; route transport is
   separate and `x=X_max chi` conditional.
-- G140--G144: one chart or genuine overlap owns presentation carry; endpoints do not glue sheets.
-- G145: values determine `g` on the supplied atlas, not numerical/global valuation or realization.
+- G140--G144: genuine overlap owns carry; endpoints do not glue sheets.
+- G145: values determine `g` on a supplied atlas, not numerical/global valuation or realization.
 - G146--G147: projections remain nonunique; physical carrier, `O(2)` solder, and carry remain open.
 - G148: covariant first-jet split; `lambda` proves liveness, not amplitudes or history.
 - G149 chord; G150 freedom; G151 curvature; G152 ruler; G153 `dchi`; G154 scale; G155 rank; G156
@@ -25,10 +27,10 @@ Dependency spine:
 - G164--G165: no extra profile or ten histories; G165 is an unrestricted-envelope control.
 - G166: the primary pair metric owns its kernel; the open joint is native nonspherical, mixing,
   shift-bearing, and time-live `3+1` assembly.
-- G167: the primary spherical metric owns its bounded pair orchestra; pair-plane ownership is next.
+- G167: the primary spherical metric owns its bounded pair orchestra.
+- G168: a supplied pair germ determines the plane; physical germ ownership remains open.
 
-Pair-plane ownership, general ambient extension, global carry, metric separation, completion, and
-`X_max` remain open.
+Physical germ ownership, ambient extension, carry, separation, completion, and `X_max` remain open.
 
 ## Observational pointer
 
@@ -55,8 +57,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Determine whether the ordered co-present observer pair owns its G167 local pair plane directly from
-the primary metric. Do not search the unrestricted metric envelope or insert `X_max`, fits,
-preferred paths, or target responses.
+Resolve whether founding semantics derives the germ or Charles adopts that ownership provisionally.
+Do not redo G168 or insert `X_max`, fits, paths, or target responses.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

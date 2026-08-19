@@ -12,6 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
+FROZEN_SOURCE_COMMIT = "1341994a"
 
 
 def require(condition: bool, message: str) -> None:
@@ -54,7 +55,16 @@ require(catches["catches_passed"] == catches["catches_total"], "semantic catches
 manifest_count = 0
 for line in (HERE / "SOURCE_MANIFEST.tsv").read_text().splitlines()[1:]:
     expected, rel, _role = line.split("\t")
-    actual = hashlib.sha256((ROOT / rel).read_bytes()).hexdigest()
+    if rel == "CURRENT_SCIENTIFIC_PREMISES.md":
+        frozen = subprocess.run(
+            ["git", "show", f"{FROZEN_SOURCE_COMMIT}:{rel}"],
+            cwd=ROOT,
+            capture_output=True,
+            check=True,
+        ).stdout
+        actual = hashlib.sha256(frozen).hexdigest()
+    else:
+        actual = hashlib.sha256((ROOT / rel).read_bytes()).hexdigest()
     require(actual == expected, f"source hash {rel}")
     manifest_count += 1
 require(manifest_count == 10, "manifest count")
@@ -92,6 +102,7 @@ result = {
     "status": "PASS__FRESH_EXTERNAL_REPAIR_FOLLOWUP_PASS",
     "required_files": len(required),
     "source_hashes": manifest_count,
+    "mutable_source_frozen_at": FROZEN_SOURCE_COMMIT,
     "production_checks": derivation["checks_total"],
     "independent_checks": independent["checks_passed"],
     "semantic_catches": catches["catches_total"],

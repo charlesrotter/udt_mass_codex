@@ -10,48 +10,38 @@ pair owns its scalar kernel algebraically. The kernel is not an extra profile, a
 or a selector among arbitrary metrics. G167 then derives the complete local regular pair pullback
 of the declared primary static-spherical four-metric. In this bounded arena the metric fixes the
 reciprocal and areal-screen blocks and zero ambient mixing; the supplied pair plane alone determines
-its tangent participation.
+its tangent participation. G168 derives that pair plane uniquely from a **supplied** regular
+clock/separation germ by metric orthogonal projection. The metric algebra is closed locally; the
+physical relation's ownership of that germ is not yet derived.
 
 Geometry can read one ordered relation's pair metric, terminal kernel, owned derivative/transport
-channels, and compatibility. Event/calibration and pair-plane typing, general ambient/micro
+channels, and compatibility. Physical germ/event calibration, general ambient/micro
 assembly, carry, completion, physical multidirectional carrier, and route/frame transport remain open.
 
 ## Controlling local evaluator
-
-For the founded ordered-pair block,
 
 ```text
 h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB)),
 phi_pair=delta_AB,
 c_eff^(pair)/c_E=exp(-2 delta_AB),
 chi_AB=tanh(delta_AB).
-```
-
-On any regular natively completed pair metric, the same algebraic readout is
-
-```text
+On a regular completed pair metric:
 phi_pair=(1/4)log[(-det h)/h00^2],
 c_eff^(pair)/c_E=(-h00)/sqrt(-det h).
-```
-
-The general conditional envelope
-
-```text
+General conditional envelope:
 h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
-```
-
-proves that all `B,Q,S,Y,Z` channels can enter before readout. G167 reduces it in the primary
+with all `B,Q,S,Y,Z` upstream. G167 reduces it in the primary
 spherical metric to
-
-```text
 h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z,
 B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 ```
 
-The remaining local question is whether the ordered pair itself owns `Y,Z`, not how to select five
+G168 answers the algebraic part: supplied `(u_A,s_AB)` determines `Y,Z`. The remaining local
+question is whether physical ordered-pair semantics owns that germ, not how to select five
 independent histories.
 
-Source: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; scalar descent:
+Source: `udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/`; pullback:
+`udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; scalar descent:
 `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; conditional complete
 evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
@@ -118,6 +108,14 @@ tangent variations without becoming ambient dynamics. No independent scalar `mu`
 owned in this representation. Physical pair-plane/event calibration and general ambient extension
 remain open.
 
+### G168 — supplied ordered-germ pair-plane descent
+
+For supplied timelike `u_A` and nonzero `s_AB`, the metric uniquely derives ruler `r_AB`, plane
+`span(u_A,r_AB)`, positive screen, and G167 `Y,Z`, without a path. A flat counterfamily proves bare
+labels and event pairing do not select the germ. External follow-up retained this theorem while
+requiring physical germ ownership to remain
+`PROPOSED_WORKING_POSTULATE_NOT_DERIVED`.
+
 ## Observational anchors
 
 R2--R5 are metric-neutral characterization. R5 finds one dominant direction; covariance resolution,
@@ -139,8 +137,8 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Does the ordered co-present observer pair itself determine the calibrated local pair plane and
-   its `Y,Z` tangents in the primary metric, or is one event/calibration datum still required?
+1. Does the founding ordered co-present relation semantics derive its calibrated local one-jet, or
+   must physical germ ownership be explicitly adopted as a provisional working postulate?
 2. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
 3. How are physical ordered-pair values and independent query calibrations carried across a network?
@@ -149,7 +147,7 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Map and derive the local pair-plane ownership implicit in an ordered co-present observer pair. Use
-the primary metric and the pair's clock/separation directions; do not choose a path or arbitrary
-immersion family. Return either a metric-owned plane construction or the smallest explicit
-event/calibration remainder. Defer general ambient extension until this bounded local gate closes.
+Do not redo the closed metric projection. Audit only the ownership step from a physical completed
+ordered relation to its calibrated local one-jet. Return either a derivation from the founding
+semantics or the exact proposed working postulate for Charles's decision. Defer general ambient
+extension until this epistemic gate closes.

@@ -70,7 +70,7 @@ ownership and the global coexistence/carry of those germs.
 - exact nonradial, radial, angular-coordinate, reversal, coincidence, relative-motion, and
   same-label counterfamily controls pass;
 - 12/12 semantic mutation catches pass;
-- the complete 153-row current-premise verifier passes;
+- the complete 154-row G168-extended current-premise verifier passes;
 - repository regression: 125 passed, 1 registered xfail;
 - the first fresh external review returned
   `REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE`;

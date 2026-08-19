@@ -9,30 +9,28 @@ description.
 
 ### Current honest theory claim
 
-G166 derives the scalar kernel of the founded ordered-pair metric:
-
 ```text
-h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB)).
-```
-
-```text
+G166: h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB)),
 phi_pair=delta_AB,
 c_eff^(pair)/c_E=exp(-2 delta_AB),
 chi_AB=tanh(delta_AB).
 ```
 
-G167 now performs the missing bounded assembly directly from the declared primary static-spherical
+G167 performs the missing bounded assembly directly from the declared primary static-spherical
 four-metric. For every supplied local regular rank-two ordered-pair realization,
 
 ```text
 h=F^*g=Y^T B^T eta_2 B Y+Z^T Q^T Q Z,
 B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 ```
-The metric fixes `B,Q,S=0`; the pair plane supplies `Y,Z`. Its angular Gram enters before readout
-and can induce a calibrated cross-term despite diagonal ambient `g`. No independent screen history,
-mixing matrix, scalar `mu`, or post-kernel correction is needed here. The former `B,Q,S,Y,Z`
-envelope is metric-fixed plus pair-kinematic, not five histories. Bare observer names still need
-event/calibration and pair-plane typing; no fixed path enters the scalar kernel.
+The metric fixes `B,Q,S=0`; the plane supplies `Y,Z`. Its angular Gram enters before readout and can
+induce a cross-term despite diagonal ambient `g`. No independent screen history, scalar `mu`, or
+post-kernel correction is needed. `B,Q,S,Y,Z` is metric-fixed plus pair-kinematic, not five histories.
+
+G168 closes the **conditional local geometry**. From supplied `(u_A,s_AB)`, the metric projects
+`r_AB=s_AB-[g(u_A,s_AB)/g(u_A,u_A)]u_A` and derives `span(u_A,r_AB)`, its positive screen, and G167
+`Y,Z`, without a path. Bare labels and boundary event pairing do not derive the germ; physical
+one-jet ownership is `PROPOSED_WORKING_POSTULATE_NOT_DERIVED` after fresh external review.
 
 ### Current dependency spine
 
@@ -49,23 +47,17 @@ event/calibration and pair-plane typing; no fixed path enters the scalar kernel.
 - **G164--G165 — scaffold controls.** G164 removed an extra local profile and ten-independent-history
   scaffolds. G165 correctly proves conformal blindness only after the metric is broadened to an
   unrestricted configuration envelope; it does not establish infinitely many physical UDT metrics.
-- **G166 — primary-metric kernel descent.** The determinant-one founded ordered-pair block returns
-  `phi_pair=delta_AB`, `c_eff/c_E=exp(-2 delta_AB)`, and `chi=tanh(delta_AB)` exactly. An arbitrary
-  common conformal factor leaves that founded family unless it is trivial. The next open derivation
-  is the native complete `3+1` orchestra assembly from the primary reciprocal metric.
-- **G167 — bounded primary-metric general pair pullback.** Pulling the declared primary spherical
-  four-metric back to every supplied local regular pair plane fixes the reciprocal block and areal
-  screen internally, with `S=0`; pair tangents supply `Y,Z`. The full angular Gram and query-live
-  first derivative are derived before terminal readout. General nonspherical, ambient-mixed,
-  ambient-time-dependent, global, and physical pair-realization ownership remain open.
+- **G166.** Founded pair metric gives `phi_pair`, conditional `c_eff/c_E`, and `chi` exactly.
+- **G167.** Primary spherical `F^*g` owns the angular Gram and live derivative before readout.
+- **G168.** A supplied germ derives the plane without a path; physical germ ownership is a proposed
+  working postulate. General ambient, coincidence, reversal-carry, and global strata stay open.
 
 Maximum conclusion: the primary static-spherical UDT metric algebraically owns its reciprocal
-kernel and its complete local regular pair-pullback orchestra. The orchestra is the metric heard on
-the supplied pair plane, not ten independent histories or a post-readout correction. Physical
-pair-plane realization, general nonspherical/ambient-mixed/time-dependent and micro assembly,
-cross-query carry, dimensional separation, global completion, and numerical `X_max` remain open.
-Controls: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; G166 controls scalar
-descent.
+kernel and local regular pair-pullback orchestra. The orchestra is the metric heard on a supplied
+pair plane; G168 derives that plane from a supplied germ, not bare labels. Physical germ ownership,
+general ambient/micro assembly, carry, separation, completion, and numerical `X_max` remain open.
+Controls: `udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/`; G167 controls the
+primary-metric pullback and G166 controls scalar descent.
 G163 controls `X_max` dependency; G164--G165 are scaffold controls; the uncompressed evaluator is
 conditional upstream evidence at `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain.
@@ -116,11 +108,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Determine whether the ordered observer-pair semantics already supplies the local pair plane used by
-G167: the calibrated clock direction and co-present separation direction, including any nonradial
-angular tangent content. Start from the primary metric and the ordered pair, not a chosen path or
-arbitrary immersion menu. If the pair plane is owned, derive it; if not, isolate the smallest
-remaining event/calibration datum. Do not insert `X_max`, a fit, or a target response.
+Resolve the remaining ownership statement without redoing the projection: derive a physical
+relation's calibrated one-jet from founding semantics, or present it to Charles for provisional
+adoption. Then extend to the general ambient metric. Do not insert `X_max`, a path, or a fit.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

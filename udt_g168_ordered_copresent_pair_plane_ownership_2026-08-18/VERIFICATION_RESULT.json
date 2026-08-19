@@ -1,7 +1,8 @@
 {
   "independent_checks": 6012,
+  "mutable_source_frozen_at": "1341994a",
   "premise_verifier_returncode": 0,
-  "premise_verifier_stdout": "PASS: G167-extended premise guards; PASS: 153-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
+  "premise_verifier_stdout": "PASS: G168-extended premise guards; PASS: 154-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
   "production_checks": 36,
   "required_files": 17,
   "semantic_catches": 12,
