@@ -20,6 +20,10 @@ pair-independent endpoint density; arbitrary triangle additivity is not required
 endpoint readouts telescope. No co-presence premise, separately supplied inverse scalar, universal
 observer potential, or scaffolded carry/score kernel is needed.
 
+G172 extends this to every supplied static time-orthogonal monotone-areal family:
+`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`. Explicit immersion and Frobenius close the arbitrary smooth
+angular speed; turning calibration, physical selection, transport, and global completion stay open.
+
 ## Controlling local evaluator
 
 ```text
@@ -39,14 +43,16 @@ B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 ```
 
 G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities; G171
-shows that independently evaluated pairs remain native without forced scalar triangle closure.
+shows that independently evaluated pairs remain native without forced scalar triangle closure;
+G172 proves smooth closure across the registered monotone-areal family.
 
 Source: `udt_g171_primary_metric_multi_pair_response_2026-08-19/`; endpoint-difference control:
 `udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/`; prior reversal control:
 `udt_g169_bidirectional_copresent_metric_distance_2026-08-18/`; supplied-germ projection:
 `udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/`; pullback:
 `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; scalar descent:
-`udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; conditional complete
+`udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; smooth-family control:
+`udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/`; conditional complete
 evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ## Current reconstruction and ownership chain
@@ -58,7 +64,7 @@ open. G146--G163 bound direction, first jets, scale, score, carry, and quotient,
 `X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
 
 Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155
-G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171. Retained guards: rank ten;
+G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172. Retained guards: rank ten;
 positive conformal class; common-scale ownership; bivector area bilinear;
 physical multidirectional carrier; first-order ceiling; 184,300 covariance rows unresolved.
 
@@ -98,6 +104,13 @@ triangle additivity is unnecessary and the matched-readout subfamily telescopes.
 G142--G160 carry/score/history scaffolds are absent. Physical germ realization, global extension,
 and non-scalar screen, connection, orientation, and holonomy transport remain open.
 
+### G172 — bounded smooth pair-family closure
+
+Arbitrary smooth `gamma(r)` enters through its full angular Gram before readout. Explicit immersion
+and zero static Frobenius bracket close every connected regular interval. Areal calibration fails at
+`dr/dsigma=0`; turning charts, physical realization, transport, and global extension remain open.
+Grade: `DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW`.
+
 ## Observational anchors
 
 R2--R5 are metric-neutral characterization. R5 finds one dominant direction; covariance resolution,
@@ -119,8 +132,8 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Does a smooth changing-separation family of primary-metric pair germs integrate and extend
-   coherently, and where is its first genuine obstruction?
+1. Does the G172 result survive fresh adversarial review, and can its first excluded radial-turning
+   stratum be covered by a lawful non-areal chart without selecting a physical family?
 2. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
 3. Which pair germs constitute the physical relation family, without collapsing pair-indexed
@@ -130,9 +143,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Do not redo the closed metric projection, reversal quotient, or abstract carry audits. Construct
-the smallest smooth one-parameter primary-metric pair-germ family across changing separation and
-test local integrability and global extendability directly. Return either a native family theorem
-or the exact first obstruction. Do not impose observer-only endpoint densities, arbitrary triangle
-additivity, co-presence, G142--G160 scaffolding, `X_max`, a path, an observational fit, or an adopted
-postulate by implication. Keep non-scalar transport separate.
+Review G172 externally. If retained, test `dr/dsigma=0` with a non-areal chart. Do not redo closed
+audits or impose observer-only density, triangle closure, co-presence, G142--G160, `X_max`, paths,
+fits, or postulates. Keep non-scalar transport separate.

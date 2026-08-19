@@ -4,17 +4,12 @@ Re-read on resume. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166 restores UDT order: the founded ordered-pair metric owns `phi_pair`, conditional `c_eff/c_E`,
-and `chi`, without a fixed path. G167 derives the complete local regular pair pullback of the
-primary spherical four-metric: the metric fixes `B,Q,S=0`, the supplied pair plane provides `Y,Z`,
-and the angular Gram enters before readout.
-The former `B,Q,S,Y,Z` envelope is therefore metric-fixed plus pair-kinematic in this bounded arena.
-G168 derives that plane from a supplied clock/separation germ, path-free; physical germ
-ownership is not derived from bare labels. G170 regrades G169: completed endpoint densities differ
-to give directed response. G171 shows that each supplied pair owns this response natively; a shared
-observer need not have one pair-independent endpoint density, arbitrary triangles need not
-telescope, and the matched-readout subfamily does. This is not a positive metric distance or a
-global germ-realization theorem.
+G166: the founded pair metric owns `phi_pair`, conditional `c_eff/c_E`, and `chi`. G167: the primary
+`B,Q,S,Y,Z` pullback fixes `B,Q,S=0`; supplied `Y,Z` contribute angular Gram before readout. G168:
+a supplied germ derives the plane, but bare labels do not. G170 differences endpoint densities.
+G171 makes the scalar network pair-relative; arbitrary triangles need not telescope. G172 closes
+the supplied monotone-areal family with `Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`. Turning calibration
+and physical/global realization remain open; external review is pending.
 
 Dependency spine:
 
@@ -26,11 +21,12 @@ Dependency spine:
 - G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
   bounded controls; G163 removes `X_max` from the kernel.
 - G164 G165 G166 G167 G168 G169: scaffold, kernel, pullback, germ, and reversal controls.
-- G170 G171: endpoint densities differ to give directed response; the scalar network is
-  pair-germ-relative and needs no universal carry scaffold.
+- G170 G171 G172: endpoint densities differ to give directed response; the scalar network is
+  pair-germ-relative, needs no universal carry scaffold, and closes on the bounded smooth
+  monotone-areal family.
 
-Physical germ realization, global extendability, ambient extension, separation, completion, and
-`X_max` remain open.
+Physical germ realization, turning charts, global extendability, ambient extension, separation,
+completion, and `X_max` remain open.
 
 ## Observational pointer
 
@@ -56,8 +52,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Construct the smallest smooth changing-separation family of primary-metric pair germs and test
-local integrability and global extendability. Do not revive co-presence, observer-only endpoint
-potentials, arbitrary triangle closure, scaffolded carry/score kernels, `X_max`, fits, or paths.
+Complete fresh external review of G172; if retained, test the first excluded radial-turning chart.
+Do not revive co-presence, observer-only endpoint potentials, arbitrary triangle closure,
+scaffolded carry/score kernels, `X_max`, fits, or paths.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

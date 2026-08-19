@@ -39,6 +39,11 @@ Gram. Therefore arbitrary three-pair additivity is neither derived nor required.
 endpoint-readout subfamily telescopes. Co-presence, a path, an abstract carry kernel, and G142--G160
 score/history scaffolds are not load-bearing.
 
+G172 closes the preregistered static time-orthogonal monotone-areal family:
+`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]` for arbitrary smooth `a2(r)`. Immersion, Frobenius,
+reversal, telescoping, and radial recovery close. Turning calibration, physical-family selection,
+non-scalar transport, and global completion remain open; external review is pending.
+
 ### Current dependency spine
 
 - **G129--G145.** G129 G134 rank ten pullbacks, density, and bivector area bilinear recover `g` on a
@@ -48,18 +53,21 @@ score/history scaffolds are not load-bearing.
   physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
 - **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
   G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
-- **G164--G171.** G164 removes scaffolds; G165 is a conformal-envelope control; G166 owns the scalar;
+- **G164--G172.** G164 removes scaffolds; G165 is a conformal-envelope control; G166 owns the scalar;
   G167 the angular pullback; G168 the supplied-germ plane; G169 the reversal type check; G170 the
-  endpoint difference; G171 the pair-relative network. Physical germ realization remains open.
+  endpoint difference; G171 the pair-relative network; G172 the smooth bounded family closure.
+  Physical germ realization remains open.
 
 Maximum conclusion: the primary static-spherical UDT metric owns its reciprocal kernel and local
 pair-pullback orchestra on supplied endpoint germs. G171 shows that the native scalar network is
 pair-relative: no separate inverse scalar, co-presence postulate, universal observer potential, or
-scaffolded carry kernel is needed. Which pair germs are physically realized, whether a smooth
-family extends globally, general ambient/micro assembly, completion, and numerical `X_max` remain
-open. Current control: `udt_g171_primary_metric_multi_pair_response_2026-08-19/`; G170 controls the
-endpoint difference, G168 the supplied-germ projection, G167 the primary-metric pullback, and G166
-scalar descent.
+scaffolded carry kernel is needed. G172 proves smooth scalar closure throughout the registered
+static time-orthogonal monotone-areal family, while leaving turning charts, physical family
+realization, global extension, general ambient/micro assembly, completion, and numerical `X_max`
+open. Current control:
+`udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/`; G171 controls the
+pair-relative network, G170 the endpoint difference, G168 the supplied-germ projection, G167 the
+primary-metric pullback, and G166 scalar descent.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain.
@@ -84,6 +92,9 @@ complete metric assembly.
 - endpoint-relative reciprocal reversal: `DERIVED_CONDITIONAL` on each supplied completed pair;
   G171 proves arbitrary triangle additivity is not required, while matched endpoint readouts
   telescope. This is not a positive metric-space distance or global realization theorem.
+- smooth primary-metric pair-family closure: `DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW` for static,
+  time-orthogonal, monotone-areal families only; turning/pure-angular calibration and global
+  extension remain open.
 - pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
@@ -112,11 +123,8 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Construct the smallest smooth one-parameter family of primary-metric pair germs across changing
-separation and test its local integrability and global extendability. The metric must produce every
-pair pullback and endpoint difference directly. Do not force observer-only endpoint densities,
-triangle additivity, co-presence, a carry/score kernel, `X_max`, a path, or a fit. Return either a
-native family theorem or the exact first obstruction; keep non-scalar transport separate.
+Obtain fresh review of sealed G172. If retained, cover `dr/dsigma=0` with a non-areal chart and test
+extension. Do not select an angular curve, globalize, revive G142--G160, or conflate transport.
 
 ### Archive
 The exact pre-cleanup startup surface is `archive/startup_surface_2026-08-17_pre_zoomout/`; older

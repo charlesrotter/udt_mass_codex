@@ -18,23 +18,30 @@ G170 differences completed endpoint densities. G171 gives each supplied pair
 arbitrary triangle closure are unnecessary, and matched endpoint readouts telescope. Co-presence
 and scaffolded carry/score are not load-bearing.
 
+G172 derives smooth closure on the full registered static, time-orthogonal, monotone-areal family:
+`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`, with arbitrary supplied smooth angular speed `a2(r)`.
+The explicit immersion and static Frobenius bracket close; radial recovery is exact. The first
+boundary is calibration or regularity loss, particularly `dr/dsigma=0`. Internal and sealed gates
+pass; fresh review remains required.
+
 Dependency chain:
 
 1. G129--G145 reconstruct `g`, normalized `chi`, and overlap carry on supplied data; valuation stays open.
 2. G146--G163 bound direction, first-jet, scale, score, carry, quotient, and remove `X_max` from the kernel.
 3. G164--G165 remove scaffolds and control the unrestricted metric envelope.
-4. G166--G171 derive scalar kernel, spherical pullback, supplied-germ plane, endpoint-relative reversal, and the pair-germ-relative scalar network.
+4. G166--G172 derive scalar kernel, spherical pullback, supplied-germ plane, endpoint-relative reversal, pair-germ-relative network, and bounded smooth-family closure.
 
 Milestones: G129 G134 G135 G139 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154
-G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171. Guards: rank ten,
+G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172. Guards: rank ten,
 density, bivector area bilinear, codimension eleven, conformal; physical carrier/`O(2)` open;
 covariant `lambda` only; numerical valuation `OPEN`.
 
-Local supplied-germ construction and same-pair reversal are closed. Physical germ realization,
-global/ambient extension, `X_max`, and completion remain `OPEN`; `CANON.md` is unchanged.
+Local supplied-germ construction, same-pair reversal, and the bounded monotone-areal smooth family
+are closed internally. Physical germ realization, turning charts, global/ambient extension,
+`X_max`, and completion remain `OPEN`; `CANON.md` is unchanged.
 
-Open `udt_g171_primary_metric_multi_pair_response_2026-08-19/AUDIT_REPORT.md` first, then G170,
-G168, G167, and G166. G163 controls `X_max`; G164--G165 control
+Open `udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/AUDIT_REPORT.md` first,
+then G171, G170, G168, G167, and G166. G163 controls `X_max`; G164--G165 control
 scaffolds; `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
 
 For G93--G128 provenance use `INDEX.md` or `archive/startup_surface_2026-08-17_pre_zoomout/` only
@@ -81,8 +88,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Build the smallest smooth changing-separation family of primary-metric pair germs and test whether
-its local germs integrate and extend coherently without any carry/score scaffold. Do not force an
-observer-only scalar, arbitrary triangle closure, co-presence, `X_max`, a path, or a fit.
+Complete fresh external review of G172. If it is retained, use a non-areal local chart to test the
+first excluded `dr/dsigma=0` turning stratum. Do not select an angular curve, force global
+completion, revive carry/score scaffolds, or collapse scalar closure into non-scalar transport.
 
 <!-- STARTUP_CURRENT_END -->

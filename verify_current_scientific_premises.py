@@ -198,6 +198,7 @@ def validate_startup_surface(root: Path) -> None:
             "G169",
             "G170",
             "G171",
+            "G172",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -237,7 +238,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "157-row exact registry",
+            "158-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -292,6 +293,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/",
             "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/",
             "udt_g171_primary_metric_multi_pair_response_2026-08-19/",
+            "udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -332,6 +334,7 @@ def validate_startup_surface(root: Path) -> None:
             "G168",
             "G170",
             "G171",
+            "G172",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -371,6 +374,7 @@ def validate_startup_surface(root: Path) -> None:
             "G168",
             "G170",
             "G171",
+            "G172",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -398,10 +402,11 @@ def validate_startup_surface(root: Path) -> None:
             "G168",
             "G170",
             "G171",
+            "G172",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "157-row",
+            "158-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -660,9 +665,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 157, "premise registry must contain exactly 157 rows")
+    require(len(rows) == 158, "premise registry must contain exactly 158 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 157, "duplicate premise id")
+    require(len(by_id) == 158, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3871,6 +3876,41 @@ def main() -> None:
         == "udt_g171_primary_metric_multi_pair_response_2026-08-19/AUDIT_REPORT.md",
         "G171 source changed",
     )
+    require(
+        by_id["G172"]["current_status"].startswith(
+            "DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW__PREREGISTERED__SMOOTH_FAMILY_CLOSURE_ON_STATIC_TIME_ORTHOGONAL_MONOTONE_AREAL_CLASS"
+        ),
+        "G172 smooth pair-family landing regressed or promoted",
+    )
+    require(by_id["G172"]["epistemic_label"] == "MIXED", "G172 label changed")
+    for open_item in (
+        "fresh external adversarial review",
+        "physical angular-family realization",
+        "turning and pure-angular charts at dr/dsigma equals zero",
+        "non-scalar screen connection orientation and holonomy transport",
+        "nonspherical time-live micro and ambient extension",
+        "smooth center and global completion",
+        "dimensionful separation numerical Xmax",
+    ):
+        require(open_item in by_id["G172"]["open_scope"], f"G172 open boundary absent: {open_item}")
+    for guard in (
+        "supplied smooth angular family called selected physical path or universe",
+        "arbitrary a2 replaced by fitted constant",
+        "angular Gram dropped or appended after terminal readout",
+        "raw pair-coordinate Phi called reparameterization invariant without areal calibration",
+        "monotone-areal theorem widened through dr/dsigma equals zero",
+        "one-sided r-to-zero limit called smooth-center completion",
+        "finite regular interval called global completion",
+        "scalar telescoping called complete non-scalar transport closure",
+        "conditional pair c_eff called local signal speed",
+        "co-presence Xmax observations or G142 through G160 scaffolds inserted",
+    ):
+        require(guard in by_id["G172"]["forbidden_regression"], f"G172 guard absent: {guard}")
+    require(
+        by_id["G172"]["controlling_source"]
+        == "udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/AUDIT_REPORT.md",
+        "G172 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3964,7 +4004,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G171-extended premise guards; PASS: 157-row premise "
+        "PASS: G172-extended premise guards; PASS: 158-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
