@@ -1,0 +1,76 @@
+{
+  "catches": [
+    {
+      "caught": true,
+      "detail": "same observer has q2=1 and q2=25/59 on two pair germs",
+      "name": "observer_only_collapse"
+    },
+    {
+      "caught": true,
+      "detail": "pair-specific B factors leave nonunit loop product",
+      "name": "forced_triangle_zero"
+    },
+    {
+      "caught": true,
+      "detail": "reversal is explicitly bounded to swapping the same edge data",
+      "name": "independent_reverse_rebuild"
+    },
+    {
+      "caught": true,
+      "detail": "angular germ changes the terminal q-squared",
+      "name": "angular_gram_drop"
+    },
+    {
+      "caught": true,
+      "detail": "angular Gram is displayed inside the pullback before the terminal readout",
+      "name": "post_readout_mu"
+    },
+    {
+      "caught": true,
+      "detail": "pair-germ dependence is not retyped as failed calibration",
+      "name": "calibration_failure_label"
+    },
+    {
+      "caught": true,
+      "detail": "the local defect is not promoted to path holonomy",
+      "name": "holonomy_label"
+    },
+    {
+      "caught": true,
+      "detail": "the local defect is not promoted to a force",
+      "name": "new_force_label"
+    },
+    {
+      "caught": true,
+      "detail": "production source manifest excludes G142--G160",
+      "name": "scaffolded_RMC_import"
+    },
+    {
+      "caught": true,
+      "detail": "X_max is absent from the load-bearing derivation code",
+      "name": "xmax_insertion"
+    },
+    {
+      "caught": true,
+      "detail": "no path or proper-length functional is used",
+      "name": "path_length_insertion"
+    },
+    {
+      "caught": true,
+      "detail": "no fitted, source, matter, bootstrap, or action variable enters the derivation",
+      "name": "downstream_physics_promotion"
+    },
+    {
+      "caught": true,
+      "detail": "A and C incidence values must also match to close an independently evaluated AC edge",
+      "name": "same_middle_implies_full_triangle"
+    },
+    {
+      "caught": true,
+      "detail": "only one shared calibrated rechart cancels within a pair",
+      "name": "arbitrary_pair_rechart_invariance"
+    }
+  ],
+  "catches_passed": 14,
+  "catches_total": 14
+}

@@ -1,0 +1,209 @@
+{
+  "checks": [
+    {
+      "detail": "",
+      "name": "same_pair_reversal",
+      "passed": true
+    },
+    {
+      "detail": "-Phi_A_AB + Phi_A_AC + Phi_B_AB - Phi_B_BC - Phi_C_AC + Phi_C_BC",
+      "name": "three_pair_defect_identity",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "observer_only_is_sufficient_for_zero_defect",
+      "passed": true
+    },
+    {
+      "detail": "-Phi_A_AB + Phi_A_AC - Phi_C_AC + Phi_C_BC",
+      "name": "middle_match_alone_not_full_triangle_closure",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "middle_match_alone_not_identically_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "same_metric",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "same_clock_tangent",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "same_base_pair_components",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-1, -1/2], [-1/2, 3/4]])",
+      "name": "radial_metric_exact",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-1, -1/2], [-1/2, 211/100]])",
+      "name": "angular_metric_exact",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[0, 0], [0, 34/25]])",
+      "name": "angular_gram_exact",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "radial_regular",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_regular",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "radial_determinant",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_determinant",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "radial_q2",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_q2",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "radial_phi",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_phi",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "shared_observer_not_observer_only",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_data_precedes_readout",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "network_AB_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "network_BC_nonzero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "network_AC_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "network_triangle_defect_nonzero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "network_BC_reverse",
+      "passed": true
+    },
+    {
+      "detail": "-log(a)/2 + log(d)/2",
+      "name": "shared_pair_rechart_shift",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "shared_pair_rechart_cancels_in_delta",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "independent_pair_rechart_exposed",
+      "passed": true
+    },
+    {
+      "detail": "[]",
+      "name": "source_hashes_match",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "scaffolded_sources_excluded",
+      "passed": true
+    }
+  ],
+  "checks_passed": 31,
+  "checks_total": 31,
+  "landing": "PRIMARY_METRIC_PAIR_GERM_RELATIVE_NETWORK__EACH_ORDERED_PAIR_RESPONSE_NATIVE_FROM_ITS_COMPLETE_PULLBACK__SAME_PAIR_REVERSAL_AUTOMATIC__SHARED_OBSERVER_DOES_NOT_FORCE_PAIR_INDEPENDENT_ENDPOINT_DENSITY__GENERAL_TRIANGLE_ADDITIVITY_NOT_DERIVED_OR_REQUIRED__MATCHED_ENDPOINT_READOUT_SUBFAMILY_TELESCOPES__NO_SCAFFOLDED_CARRY_KERNEL",
+  "network_deltas": {
+    "delta_AB": "0",
+    "delta_AC": "0",
+    "delta_BC": "-log(59)/4 + log(5)/2",
+    "omega": "-log(59)/4 + log(5)/2"
+  },
+  "pair_rechart_phi_shift": "-log(a)/2 + log(d)/2",
+  "same_observer_witness": {
+    "angular_gram": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "34/25"
+      ]
+    ],
+    "h_angular": [
+      [
+        "-1",
+        "-1/2"
+      ],
+      [
+        "-1/2",
+        "211/100"
+      ]
+    ],
+    "h_radial": [
+      [
+        "-1",
+        "-1/2"
+      ],
+      [
+        "-1/2",
+        "3/4"
+      ]
+    ],
+    "phi_angular": "log(59/25)/4",
+    "phi_radial": "0",
+    "q2_angular": "25/59",
+    "q2_radial": "1"
+  },
+  "source_count": 12,
+  "source_failures": [],
+  "status": "DERIVED_BOUNDED_AWAITING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+  "three_pair_defect": "-Phi_A_AB + Phi_A_AC + Phi_B_AB - Phi_B_BC - Phi_C_AC + Phi_C_BC"
+}

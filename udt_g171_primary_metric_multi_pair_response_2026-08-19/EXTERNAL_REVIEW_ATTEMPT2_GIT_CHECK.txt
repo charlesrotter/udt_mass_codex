@@ -1,0 +1,4 @@
+Script started on 2026-08-19 12:23:05-04:00 [<not executed on terminal>]
+Not inside a trusted directory and --skip-git-repo-check was not specified.
+
+Script done on 2026-08-19 12:23:05-04:00 [COMMAND_EXIT_CODE="1"]

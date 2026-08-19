@@ -1,0 +1,11 @@
+{
+  "checks_passed": 108000,
+  "different_pair_readouts": 12000,
+  "implementation": "stdlib fractions; no sympy or production imports",
+  "landing_supported": "PRIMARY_METRIC_PAIR_GERM_RELATIVE_NETWORK__EACH_ORDERED_PAIR_RESPONSE_NATIVE_FROM_ITS_COMPLETE_PULLBACK__SAME_PAIR_REVERSAL_AUTOMATIC__SHARED_OBSERVER_DOES_NOT_FORCE_PAIR_INDEPENDENT_ENDPOINT_DENSITY__GENERAL_TRIANGLE_ADDITIVITY_NOT_DERIVED_OR_REQUIRED__MATCHED_ENDPOINT_READOUT_SUBFAMILY_TELESCOPES__NO_SCAFFOLDED_CARRY_KERNEL",
+  "matched_triangle_checks": 12000,
+  "reversal_checks": 12000,
+  "shared_rechart_checks": 12000,
+  "trials": 12000,
+  "unmatched_triangle_nonzero": 12000
+}

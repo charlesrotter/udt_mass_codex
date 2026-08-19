@@ -1,0 +1,9 @@
+{
+  "independent_checks": 108000,
+  "premise_verifier_returncode": 0,
+  "production_checks": 31,
+  "required_files": 17,
+  "semantic_catches": 14,
+  "source_hashes": 12,
+  "status": "PASS__INTERNAL_G171__FRESH_EXTERNAL_REVIEW_REQUIRED"
+}
