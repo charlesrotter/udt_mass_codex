@@ -133,7 +133,7 @@ for line in (HERE / "SOURCE_MANIFEST.tsv").read_text().splitlines()[1:]:
     manifest_rows.append({"path": rel, "sha256": actual, "role": role})
 
 result = {
-    "landing": "ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED",
+    "landing": "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE",
     "checks_passed": sum(checks.values()),
     "checks_total": len(checks),
     "checks": checks,

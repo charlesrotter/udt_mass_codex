@@ -2,21 +2,21 @@
 
 Date: 2026-08-18
 
-Grade: `VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_OPEN`
+Grade: `VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN`
 
 ## Primary landing
 
 ```text
-ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE
-__BARE_LABELS_DO_NOT
+SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE
 __NO_PATH_REQUIRED
+__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE
 ```
 
 ## Result first
 
-The final local input left open by G167 is now isolated. A physically typed local positional
-comparison must contain a calibrated clock tangent (u_A) and a nonzero ordered separation tangent
-(s_{AB}). The metric uniquely removes the clock component,
+The final local input left open by G167 is now isolated but not derived. Conditional on a calibrated
+clock tangent (u_A) and nonzero ordered separation tangent (s_{AB}), the metric uniquely removes
+the clock component,
 
 \[
 r_{AB}=s_{AB}-\frac{g(u_A,s_{AB})}{g(u_A,u_A)}u_A,
@@ -29,7 +29,7 @@ E_{AB}=\operatorname{span}(u_A,r_{AB}).
 \]
 
 No path, geodesic, curvature selector, complete pair surface, independent screen, or scalar `mu`
-is needed for this local step. In the primary metric, the coordinate components of
+is needed **after the germ is supplied**. In the primary metric, the coordinate components of
 ((u_A,s_{AB})) are exactly the G167 (Y,Z) blocks, so nonradial angular participation enters the
 pullback automatically before terminal reciprocal readout.
 
@@ -40,14 +40,16 @@ worldlines and the same event pairing but different regular surface tangents—a
 local pair planes. The result therefore does not derive an event-pairing or global realization
 law.
 
-This is a type closure, not a new mechanism:
+This is a conditional local closure:
 
-- the **completed local relation** supplies its one-jet;
+- a supplied pair germ gives the metric its two local arguments;
 - the **metric** derives its ruler, pair plane, screen, and pullback;
 - the reciprocal kernel reads the completed pullback.
 
-The remaining global question is which calibrated relation germs coexist and how frames are
-carried between their different basepoints. It is no longer a local pair-plane selection problem.
+The first external reviewer correctly required an ownership regrade: saying that every physical
+completed relation supplies this one-jet is an additional working postulate, not something the
+current founding record derives. The remaining questions therefore include both physical germ
+ownership and the global coexistence/carry of those germs.
 
 ## Boundary controls
 
@@ -67,13 +69,16 @@ carried between their different basepoints. It is no longer a local pair-plane s
 - independent standard-library `Fraction` replay: 6,012/6,012 checks over 1,200 trials;
 - exact nonradial, radial, angular-coordinate, reversal, coincidence, relative-motion, and
   same-label counterfamily controls pass;
-- 11/11 semantic mutation catches pass;
+- 12/12 semantic mutation catches pass;
 - the complete 153-row current-premise verifier passes;
 - repository regression: 125 passed, 1 registered xfail;
-- the package gate passes; fresh external review remains open before startup promotion.
+- the first fresh external review returned
+  `REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE`;
+- the ownership repair is applied; repair-only follow-up remains open before startup promotion.
 
 ## Maximum conclusion
 
-Within the regular local primary-metric arena, the ordered co-present pair **germ**, not a path,
-owns the pair plane needed by G167. Bare labels remain insufficient. No global relation family,
-history, profile, `X_max`, dynamics, observation, or general ambient completion is derived.
+Within the regular local primary-metric arena, a **supplied** ordered co-present pair germ uniquely
+derives the pair plane needed by G167 without a path. Bare labels remain insufficient, and physical
+ownership of the germ is an additional working postulate. No global relation family, history,
+profile, `X_max`, dynamics, observation, or general ambient completion is derived.

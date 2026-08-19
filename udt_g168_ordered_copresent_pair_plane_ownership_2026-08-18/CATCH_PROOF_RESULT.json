@@ -6,12 +6,13 @@
     "counterfamily_boundary_taper": true,
     "drop_angular_gram": true,
     "freeze_nonradial_Z": true,
+    "germ_ownership_postulate_guard": true,
     "global_ceiling_guard": true,
     "no_path_required_guard": true,
     "relative_velocity_plane_overclaim": true,
     "ruler_flip_is_not_depth_reversal": true,
     "wrong_projection_sign": true
   },
-  "catches_passed": 11,
-  "catches_total": 11
+  "catches_passed": 12,
+  "catches_total": 12
 }

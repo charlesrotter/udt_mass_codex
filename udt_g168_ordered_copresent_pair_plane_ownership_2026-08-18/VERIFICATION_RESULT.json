@@ -4,7 +4,7 @@
   "premise_verifier_stdout": "PASS: G167-extended premise guards; PASS: 153-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
   "production_checks": 36,
   "required_files": 14,
-  "semantic_catches": 11,
+  "semantic_catches": 12,
   "source_hashes": 10,
-  "status": "PASS__FRESH_EXTERNAL_REVIEW_OPEN"
+  "status": "PASS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN"
 }

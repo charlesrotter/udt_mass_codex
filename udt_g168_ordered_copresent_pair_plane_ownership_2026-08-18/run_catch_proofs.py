@@ -65,6 +65,11 @@ exact = (HERE / "EXACT_DERIVATION.md").read_text()
 catch("no_path_required_guard", "No path" in report and "not a\n+curve between separated endpoints".replace("\n+", "\n") in exact)
 catch("bare_labels_open_guard", "Bare labels" in exact and "insufficient" in exact)
 catch("global_ceiling_guard", "global physical relation network" in (HERE / "STATUS_LEDGER.tsv").read_text())
+catch(
+    "germ_ownership_postulate_guard",
+    "additional working postulate" in exact
+    and "PROPOSED_WORKING_POSTULATE_NOT_DERIVED" in (HERE / "STATUS_LEDGER.tsv").read_text(),
+)
 
 result = {
     "catches_passed": sum(catches.values()),

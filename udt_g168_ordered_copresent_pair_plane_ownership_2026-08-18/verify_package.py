@@ -41,7 +41,7 @@ for name in required:
 derivation = json.loads((HERE / "DERIVATION_RESULT.json").read_text())
 independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text())
 catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text())
-landing = "ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED"
+landing = "SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE__NO_PATH_REQUIRED__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE"
 require(derivation["landing"] == landing, "production landing mismatch")
 require(derivation["checks_passed"] == derivation["checks_total"] == 36, "production checks")
 require(independent["checks_passed"] == 6012, "independent checks")
@@ -59,8 +59,13 @@ require(manifest_count == 10, "manifest count")
 audit = (HERE / "AUDIT_REPORT.md").read_text()
 exact = (HERE / "EXACT_DERIVATION.md").read_text()
 require(landing.split("__")[0] in audit, "audit landing")
-require("FRESH_EXTERNAL_REVIEW_OPEN" in audit, "external review status absent")
-require("does not derive a global event-pairing rule" in exact, "scope ceiling")
+require("EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN" in audit, "repair follow-up status absent")
+require(
+    "does not derive that a physical relation supplies the germ" in exact
+    and "event-pairing rule" in exact,
+    "scope ceiling",
+)
+require("PROPOSED_WORKING_POSTULATE_NOT_DERIVED" in exact, "germ ownership regrade absent")
 
 premise = subprocess.run(
     [sys.executable, str(ROOT / "verify_current_scientific_premises.py")],
@@ -72,7 +77,7 @@ premise = subprocess.run(
 require(premise.returncode == 0, "current premise verifier failed")
 
 result = {
-    "status": "PASS__FRESH_EXTERNAL_REVIEW_OPEN",
+    "status": "PASS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN",
     "required_files": len(required),
     "source_hashes": manifest_count,
     "production_checks": derivation["checks_total"],

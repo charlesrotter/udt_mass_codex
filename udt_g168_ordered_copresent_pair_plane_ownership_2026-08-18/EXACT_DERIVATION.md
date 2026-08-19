@@ -22,13 +22,15 @@ It is not
 two observer names -> metric-selected path -> externally attached kernel.
 ```
 
-The local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
+The supplied local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
 clock tangent (u_A\in T_pM) and a nonzero tangent (s_{AB}\in T_pM) representing the local
 ordered positional variation toward B. It is a local differential datum of the relation, not a
 curve between separated endpoints.
 
-The founding reciprocal algebra does not manufacture this germ from two names. Its ownership is a
-typing clarification of a **completed positional comparison**, not a new dynamics or path law.
+The founding reciprocal algebra does not manufacture this germ from two names. Declaring that a
+physical completed positional relation supplies this one-jet is an **additional working postulate**,
+not a derivation or cost-free typing clarification. The theorem below is conditional on that germ;
+it still proves that no path or full surface is needed after the germ is supplied.
 
 ## 2. Unique clock-orthogonal ruler
 
@@ -306,23 +308,24 @@ is therefore not promoted into the complete relative-velocity kinematics of both
 The exact result separates three levels:
 
 1. **Bare labels ((A,B)):** insufficient.
-2. **Typed local ordered co-present pair germ ((u_A,s_{AB})):** supplied by the completed local
-   relation as a `WORKING` semantic clarification.
+2. **Typed local ordered co-present pair germ ((u_A,s_{AB})):** `SUPPLIED_CONDITIONALLY`; its
+   physical ownership by a completed relation is a `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`.
 3. **Pair plane, orthogonal ruler, positive screen, and G167 (Y,Z):** `DERIVED` from the germ and
    metric.
 
-Thus the local plane is not an additional physical history to be selected, and it is not an
-arbitrary immersion menu. It is the tangent content of the relation being evaluated. What remains
-open is which event/calibration germs form the physical global network and how distinct basepoints
-carry their frames—not the local plane once a relation is present.
+Thus the local plane is not an additional freedom **after a germ is supplied**, and it is not an
+arbitrary immersion menu at that stage. What remains open is whether physical completed relations
+natively own these germs, which event/calibration germs form the physical global network, and how
+distinct basepoints carry their frames.
 
 ## Maximum conclusion
 
 ```text
-ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE
-__BARE_LABELS_DO_NOT
+SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE
 __NO_PATH_REQUIRED
+__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE
 ```
 
-This does not derive a global event-pairing rule, path, pair surface, cross-query carry, physical
-profile, `X_max`, dynamics, signalling, source, action, bootstrap, or general complete metric.
+This does not derive that a physical relation supplies the germ. It also does not derive a global
+event-pairing rule, path, pair surface, cross-query carry, physical profile, `X_max`, dynamics,
+signalling, source, action, bootstrap, or general complete metric.

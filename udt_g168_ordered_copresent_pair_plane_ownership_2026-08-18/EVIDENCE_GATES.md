@@ -20,22 +20,23 @@ event pairing, cross-query carry, path outputs, general ambient completion, or d
 
 - exact symbolic/source checks: 36/36;
 - independent stdlib `Fraction` replay: 6,012/6,012 over 1,200 trials;
-- semantic mutation catches: 11/11;
+- semantic mutation catches: 12/12;
 - repository regression: 125 passed, 1 registered xfail;
-- fresh external review: open.
+- first fresh external review: repair required; ownership regrade applied; follow-up open.
 
 ## Gate 4 — premise audit
 
 Passed. `verify_current_scientific_premises.py` reports the complete 153-row registry and current
-G167-extended guards passing. The result is explicitly stamped as a working semantic clarification
-for the typed pair germ and a derivation only for the metric projection and plane.
+G167-extended guards passing. After the first external review, physical ownership of the typed pair
+germ is stamped `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`; only the metric projection and plane are
+derived conditionally.
 
-The administrative package gate passes with 14 required files, ten frozen source hashes, all
-production/independent/mutation checks, and the premise verifier. External review remains the only
-open evidence gate.
+The first external review required this ownership regrade and left the local algebra intact. The
+repaired administrative package gate passes all production, independent, mutation, source, and
+premise checks. A fresh repair-only follow-up is open.
 
 ## Current grade
 
 ```text
-VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_OPEN
+VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_REPAIR_APPLIED__FOLLOWUP_OPEN
 ```
