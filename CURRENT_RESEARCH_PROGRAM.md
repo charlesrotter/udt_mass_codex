@@ -13,14 +13,12 @@ reciprocal and areal-screen blocks and zero ambient mixing; the supplied pair pl
 its tangent participation. G168 derives that pair plane uniquely from a **supplied** regular
 clock/separation germ by metric orthogonal projection. The metric algebra is closed locally; the
 physical relation's ownership of that germ is not derived from bare labels. G170 then restores the
-endpoint-relative rule already implicit in the calibrated terminal ratios:
-`delta_AB=Phi_B-Phi_A`. Reversal by endpoint swap and matched composition through a literally
-shared middle calibration state are automatic. No co-presence premise or separately supplied
-inverse scalar is needed. Cross-query reciprocal calibration carry remains open.
-
-Geometry evaluates supplied germs, pair metrics, endpoint-relative scalar, and owned transport
-channels. Event selection, cross-query carry, ambient/micro assembly, completion,
-physical multidirectional carrier, and route/frame transport remain open.
+endpoint-relative rule already implicit in the calibrated terminal ratios. G171 completes the
+bounded scalar network reframe: every supplied pair owns
+`delta_XY=Phi_Y|XY-Phi_X|XY`; same-pair reversal is exact; a shared observer need not carry one
+pair-independent endpoint density; arbitrary triangle additivity is not required; and matched
+endpoint readouts telescope. No co-presence premise, separately supplied inverse scalar, universal
+observer potential, or scaffolded carry/score kernel is needed.
 
 ## Controlling local evaluator
 
@@ -40,10 +38,11 @@ h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z,
 B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 ```
 
-G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities. The next
-scalar question is whether genuine overlap aligns separately represented queries.
+G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities; G171
+shows that independently evaluated pairs remain native without forced scalar triangle closure.
 
-Source: `udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/`; prior reversal control:
+Source: `udt_g171_primary_metric_multi_pair_response_2026-08-19/`; endpoint-difference control:
+`udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/`; prior reversal control:
 `udt_g169_bidirectional_copresent_metric_distance_2026-08-18/`; supplied-germ projection:
 `udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/`; pullback:
 `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; scalar descent:
@@ -59,9 +58,9 @@ open. G146--G163 bound direction, first jets, scale, score, carry, and quotient,
 `X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
 
 Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155
-G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170. Retained guards: rank ten;
-positive conformal class; common-scale ownership; bivector area bilinear; physical multidirectional
-carrier; first-order ceiling; 184,300 covariance rows unresolved.
+G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171. Retained guards: rank ten;
+positive conformal class; common-scale ownership; bivector area bilinear;
+physical multidirectional carrier; first-order ceiling; 184,300 covariance rows unresolved.
 
 ### G166 — primary-metric ordered-pair kernel descent
 
@@ -89,22 +88,15 @@ labels and event pairing do not select the germ. External follow-up retained thi
 requiring physical germ ownership to remain `OPEN_NOT_DERIVED`; G168's ownership statement remains
 a proposal, not an adopted premise.
 
-### G169 — supplied two-ended reversal quotient
+### G169--G171 — reversal and pair-germ-relative network
 
-G169 conditionally classified endpoint exchange and showed ordinary surface reversal is not
-reciprocal inversion. G170 supersedes its single-endpoint interpretation; arbitrary triangle and
-full carry closure remain open.
-
-### G170 — endpoint-relative bidirectional response
-
-For completed endpoint pair metrics in one consistently carried reciprocal calibration class,
-`Phi_X=(1/2)log(L_X/T_X)` and `delta_AB=Phi_B-Phi_A`. Reversal follows by exchanging the same two
-endpoint readings, and matched scalar composition telescopes through a literally shared middle
-state. G169's equal nonzero endpoint densities therefore yield zero relative depth and do not
-counterexample reversal. The primary angular Gram enters each endpoint pullback before the
-difference. Co-presence is not load-bearing. Independent recalibrations shift the proposed joined
-depth by `c_B-c_A`, so cross-query reciprocal calibration carry remains `OPEN_LOAD_BEARING`; full
-screen, connection, orientation, and holonomy carry remain separate.
+G169 classified reversal conditionally; G170 derives
+`delta_XY=Phi_Y|XY-Phi_X|XY` from completed endpoint densities. G171 proves that each pair owns
+those incidence values: changing only angular participation can change a shared observer's readout.
+Same-pair reversal is exact. The three-pair defect is the sum of incidence mismatches, so arbitrary
+triangle additivity is unnecessary and the matched-readout subfamily telescopes. Co-presence and
+G142--G160 carry/score/history scaffolds are absent. Physical germ realization, global extension,
+and non-scalar screen, connection, orientation, and holonomy transport remain open.
 
 ## Observational anchors
 
@@ -127,18 +119,20 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Does the founding ordered co-present relation semantics derive both calibrated endpoint germs
-   and their inverse carry, or would that require an additional premise?
+1. Does a smooth changing-separation family of primary-metric pair germs integrate and extend
+   coherently, and where is its first genuine obstruction?
 2. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
-3. How are physical ordered-pair values and independent query calibrations carried across a network?
+3. Which pair germs constitute the physical relation family, without collapsing pair-indexed
+   endpoint densities to one observer-only potential?
 4. Does a completed native realization prove a finite all-frame supremum that may then be named `X_max`,
    and what fixes regime strengths and radiative/source structure?
 
 ## Bounded next action
 
-Do not redo the closed metric projection or the conditional reversal quotient. Audit the founding
-co-presence semantics directly for ownership of both calibrated endpoint germs and their inverse
-carry. Return either a derivation or the exact boundary showing that an additional premise would be
-needed. Do not insert `X_max`, a path, an observational fit, or an adopted postulate by implication.
-Defer general ambient extension until this epistemic gate closes.
+Do not redo the closed metric projection, reversal quotient, or abstract carry audits. Construct
+the smallest smooth one-parameter primary-metric pair-germ family across changing separation and
+test local integrability and global extendability directly. Return either a native family theorem
+or the exact first obstruction. Do not impose observer-only endpoint densities, arbitrary triangle
+additivity, co-presence, G142--G160 scaffolding, `X_max`, a path, an observational fit, or an adopted
+postulate by implication. Keep non-scalar transport separate.

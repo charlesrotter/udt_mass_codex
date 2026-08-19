@@ -35,3 +35,39 @@ Transcript SHA-256:
 
 The reviewer retained the scientific landing and exposed a sealed-versus-repository verifier
 ambiguity. Its repair was preregistered before implementation.
+
+## Packaging-repair follow-up
+
+Charles authorized the corrected sealed 42-file intake:
+
+```text
+/tmp/udt_g171_primary_metric_review_18qqhs99
+```
+
+with `REVIEW_SCOPE.json` SHA-256:
+
+```text
+87b2b95e58515ed96d9644aa7547eb813ba35d6c2afee23f2281e92687e8b8aa
+```
+
+The fresh repair-only `gpt-5.4` reviewer received only the read-only seal, with web disabled and no
+repository or protected-package mount. It returned:
+
+```text
+PACKAGING_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED
+```
+
+Raw return SHA-256:
+
+```text
+98c18483cfc007a1f2e3ec0189deea5ee8965f23227f2b20d7ce3f7322254bb5
+```
+
+Transcript SHA-256:
+
+```text
+5870c024ddce4673eb01c66b64a357cbd50ef36499b1d05e56ed27b086a77b16
+```
+
+The transcript content is exact; CRLF line endings from the external PTY were normalized to LF
+before banking.

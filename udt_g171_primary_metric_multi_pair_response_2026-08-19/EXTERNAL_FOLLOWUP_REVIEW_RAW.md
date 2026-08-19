@@ -1,0 +1,9 @@
+PACKAGING_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED
+
+- [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json) has the required SHA-256 `87b2b95e58515ed96d9644aa7547eb813ba35d6c2afee23f2281e92687e8b8aa`.
+- The sealed intake is complete and byte-identical: 41 scoped tree entries plus `REVIEW_SCOPE.json` equals 42 files total; I found no missing files, extras, size drift, or hash drift anywhere under `/intake`.
+- [build_review_intake.py](/intake/udt_g171_primary_metric_multi_pair_response_2026-08-19/build_review_intake.py) is present and included in the sealed tree.
+- Running `python3 /intake/udt_g171_primary_metric_multi_pair_response_2026-08-19/verify_sealed_intake.py` returned `gate=SEALED_INTAKE_REPLAY`, `source_hashes=12`, `production_checks=31`, `independent_checks=108000`, `semantic_catches=14`, `status=PASS__SEALED_G171_REPLAY`.
+- [verify_sealed_intake.py](/intake/udt_g171_primary_metric_multi_pair_response_2026-08-19/verify_sealed_intake.py:40) replays in a temporary directory and reads the seal without writing it, so the sealed verification path matches the requested boundary.
+- [VERIFICATION_RESULT.json](/intake/udt_g171_primary_metric_multi_pair_response_2026-08-19/VERIFICATION_RESULT.json:2) now identifies itself as `REPOSITORY_OUTER_GATE`.
+- [REPAIR_PREREGISTRATION.md](/intake/udt_g171_primary_metric_multi_pair_response_2026-08-19/REPAIR_PREREGISTRATION.md:12) explicitly states no scientific formula or boundary changed, and the landing string remains the same in [AUDIT_REPORT.md](/intake/udt_g171_primary_metric_multi_pair_response_2026-08-19/AUDIT_REPORT.md:9) and [EXACT_DERIVATION.md](/intake/udt_g171_primary_metric_multi_pair_response_2026-08-19/EXACT_DERIVATION.md:248).

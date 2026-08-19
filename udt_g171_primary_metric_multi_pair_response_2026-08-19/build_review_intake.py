@@ -16,7 +16,7 @@ out = Path(tempfile.mkdtemp(prefix="udt_g171_primary_metric_review_", dir="/tmp"
 package_out = out / HERE.name
 package_out.mkdir()
 
-exclude = {"build_review_intake.py", "__pycache__"}
+exclude = {"__pycache__"}
 for src in sorted(HERE.iterdir()):
     if src.is_file() and src.name not in exclude:
         shutil.copy2(src, package_out / src.name)
@@ -24,6 +24,8 @@ for src in sorted(HERE.iterdir()):
 for line in (HERE / "SOURCE_MANIFEST.tsv").read_text().splitlines()[1:]:
     expected, rel, _role = line.split("\t")
     src = ROOT / rel
+    if not src.is_file():
+        src = ROOT / "sources" / rel
     actual = hashlib.sha256(src.read_bytes()).hexdigest()
     if actual != expected:
         raise RuntimeError(f"source drift: {rel}")

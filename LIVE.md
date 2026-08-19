@@ -30,42 +30,36 @@ G168 derives ruler, plane, screen, and G167 `Y,Z` from supplied `(u_A,s_AB)`, wi
 labels do not derive the germ; physical one-jet ownership remains `OPEN_NOT_DERIVED`. Its ownership
 statement is proposed, not adopted.
 
-G170 corrects the remaining scalar type error. Each supplied endpoint pullback yields an endpoint
-reciprocal density `Phi_X`; the directed pair depth on one consistently calibrated pair family is
-`delta_AB=Phi_B-Phi_A`. Endpoint swap therefore gives exact reversal, and a literally shared
-middle calibration state gives matched scalar composition. The angular Gram remains upstream in
-each endpoint readout. Co-presence is not load-bearing. Cross-query reciprocal calibration carry
-and the full non-scalar carry remain `OPEN_LOAD_BEARING`.
+G170 corrects the remaining scalar type error: completed endpoint densities differ to give the
+directed pair response. G171 then removes the unnecessary universal-carry scaffold. For each
+supplied completed pair `(XY)`, `delta_XY=Phi_Y|XY-Phi_X|XY`. Same-pair reversal is exact. A shared
+observer may have different incident endpoint densities when
+the complete pair germ changes; the primary metric itself permits this through the upstream angular
+Gram. Therefore arbitrary three-pair additivity is neither derived nor required. The exact matched
+endpoint-readout subfamily telescopes. Co-presence, a path, an abstract carry kernel, and G142--G160
+score/history scaffolds are not load-bearing.
 
 ### Current dependency spine
 
-- **G129--G145.** G129--G134 rank ten pullbacks, density, and the bivector area bilinear recover `g`
-  on a codimension eleven locus; scalars stop at its conformal class. G135--G139 give `chi`;
-  G140--G144 require overlap; G145 leaves numerical valuation `OPEN`.
-- **G146 G147 G148.** parity-even candidates fail on the registered non-collinear witness; physical
-  carrier and `O(2)` remain open; covariant `lambda` proves only liveness.
-- **G149--G163 — bounded controls.** G149 chord; G150 freedom; G151 curvature/Jacobi; G152 ruler;
-  G153 `dchi`; G154 scale; G155 rank; G156 carry; G157 balance; G158 score; G159 descent; G160
-  time-live carry; G161 quotient; G162 rapidity removal; G163 removes `X_max` from the kernel.
-- **G164--G165.** G164 removes extra-profile/history scaffolds. G165 is an unrestricted-envelope
-  conformal control, not evidence for many physical UDT metrics.
-- **G166.** Founded pair metric gives `phi_pair`, conditional `c_eff/c_E`, and `chi` exactly.
-- **G167.** Primary spherical `F^*g` owns the angular Gram and live derivative before readout.
-- **G168.** A supplied germ derives the plane without a path; physical ownership remains open.
-- **G169.** Its supplied-relation quotient was a useful type check, but its equal-density witness is
-  not a reversal counterexample: equal endpoint densities imply zero relative depth.
-- **G170.** On one consistently calibrated endpoint family,
-  `delta_AB=Phi_B-Phi_A`; reversal and matched scalar composition are automatic. This is not a
-  positive metric-space distance, and independent pair calculations still require lawful
-  reciprocal calibration carry before their scalars can be joined.
+- **G129--G145.** G129 G134 rank ten pullbacks, density, and bivector area bilinear recover `g` on a
+  codimension eleven locus; G135 G139 give `chi`; G140 G144 require overlap; G145 leaves numerical
+  valuation `OPEN` and scalars at the conformal class.
+- **G146--G148.** G146 G147 parity-even candidates fail on the registered non-collinear witness;
+  physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
+- **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
+  G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
+- **G164--G171.** G164 removes scaffolds; G165 is a conformal-envelope control; G166 owns the scalar;
+  G167 the angular pullback; G168 the supplied-germ plane; G169 the reversal type check; G170 the
+  endpoint difference; G171 the pair-relative network. Physical germ realization remains open.
 
 Maximum conclusion: the primary static-spherical UDT metric owns its reciprocal kernel and local
-pair-pullback orchestra on supplied endpoint germs. G170 shows that directed scalar depth is the
-difference of endpoint readings; no separate inverse scalar or co-presence
-postulate is needed. Which events constitute an experiment, cross-query calibration carry, general
-ambient/micro assembly, completion, and numerical `X_max` remain open. Current control:
-`udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/`; G169 is regraded by G170,
-G168 controls the supplied-germ projection, G167 the primary-metric pullback, and G166 scalar descent.
+pair-pullback orchestra on supplied endpoint germs. G171 shows that the native scalar network is
+pair-relative: no separate inverse scalar, co-presence postulate, universal observer potential, or
+scaffolded carry kernel is needed. Which pair germs are physically realized, whether a smooth
+family extends globally, general ambient/micro assembly, completion, and numerical `X_max` remain
+open. Current control: `udt_g171_primary_metric_multi_pair_response_2026-08-19/`; G170 controls the
+endpoint difference, G168 the supplied-germ projection, G167 the primary-metric pullback, and G166
+scalar descent.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain.
@@ -87,9 +81,9 @@ complete metric assembly.
 - `c_E`, `G_obs`: `OBSERVED` calibration anchors.
 - founded reciprocal character and determinant-one pair block on supplied ordered depth: `DERIVED`;
   Charles owner-clarifies the physical kernel argument as the ordered observer pair, not a fixed path.
-- endpoint-relative reciprocal reversal and matched scalar composition: `DERIVED_CONDITIONAL` on
-  one consistently calibrated endpoint family; this is not a positive metric-space distance and
-  does not close cross-query or non-scalar carry.
+- endpoint-relative reciprocal reversal: `DERIVED_CONDITIONAL` on each supplied completed pair;
+  G171 proves arbitrary triangle additivity is not required, while matched endpoint readouts
+  telescope. This is not a positive metric-space distance or global realization theorem.
 - pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
@@ -118,13 +112,13 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Audit genuine overlaps of primary-metric pair pullbacks: do shared endpoint coframes already align
-the reciprocal zero so G170 scalars compose across separately represented queries, or does a
-residual calibration torsor remain? Do not reintroduce co-presence, a separate inverse scalar,
-`X_max`, a path, or a fit. Keep screen/connection/holonomy carry separate from this scalar gate.
+Construct the smallest smooth one-parameter family of primary-metric pair germs across changing
+separation and test its local integrability and global extendability. The metric must produce every
+pair pullback and endpoint difference directly. Do not force observer-only endpoint densities,
+triangle additivity, co-presence, a carry/score kernel, `X_max`, a path, or a fit. Return either a
+native family theorem or the exact first obstruction; keep non-scalar transport separate.
 
 ### Archive
-
 The exact pre-cleanup startup surface is `archive/startup_surface_2026-08-17_pre_zoomout/`; older
 verbose startup provenance remains under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->

@@ -39,6 +39,14 @@ required = [
     "ADVERSARIAL_REVIEW_REQUEST.md",
     "verify_sealed_intake.py",
     "build_review_intake.py",
+    "REPAIR_PREREGISTRATION.md",
+    "EXTERNAL_REVIEW_ADJUDICATION.md",
+    "TRANSMISSION_RECORD.md",
+    "REVIEW_EXECUTION_BOUNDARY.md",
+    "FOLLOWUP_REVIEW_REQUEST.md",
+    "EXTERNAL_FOLLOWUP_REVIEW_RAW.md",
+    "EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt",
+    "FOLLOWUP_REVIEW_ADJUDICATION.md",
 ]
 for name in required:
     require((HERE / name).is_file(), f"missing {name}")
@@ -88,7 +96,7 @@ manifest = (HERE / "SOURCE_MANIFEST.tsv").read_text()
 require(all(f"udt_g{i}" not in manifest for i in range(142, 161)), "scaffold source entered manifest")
 audit = (HERE / "AUDIT_REPORT.md").read_text()
 ledger = (HERE / "STATUS_LEDGER.tsv").read_text()
-require("FRESH_EXTERNAL_REVIEW_REQUIRED" in audit, "pre-review grade missing")
+require("PACKAGING_REPAIR_FOLLOWUP_PASS" in audit, "repair-followup pass grade missing")
 require("scaffolded carrier carry score kernel\tEXCLUDED_BY_GATE" in ledger, "scaffold guard missing")
 require("arbitrary triangle additivity\tNOT_DERIVED_NOT_REQUIRED" in ledger, "triangle boundary missing")
 require("positive metric-space distance\tNOT_CLAIMED" in ledger, "distance boundary missing")
@@ -103,13 +111,15 @@ premise = subprocess.run(
 require(premise.returncode == 0, f"premise verifier\n{premise.stdout}\n{premise.stderr}")
 
 result = {
-    "status": "PASS__INTERNAL_G171__FRESH_EXTERNAL_REVIEW_REQUIRED",
+    "gate": "REPOSITORY_OUTER_GATE",
+    "status": "PASS__G171__EXTERNAL_AND_SEALED_REPAIR_FOLLOWUP_COMPLETE",
     "required_files": len(required),
     "source_hashes": len(rows),
     "production_checks": production["checks_total"],
     "independent_checks": independent["checks_passed"],
     "semantic_catches": catches["catches_total"],
     "premise_verifier_returncode": premise.returncode,
+    "sealed_replay": "RUN_VERIFY_SEALED_INTAKE_INSIDE_SEAL",
 }
 (HERE / "VERIFICATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
 print(json.dumps(result, sort_keys=True))

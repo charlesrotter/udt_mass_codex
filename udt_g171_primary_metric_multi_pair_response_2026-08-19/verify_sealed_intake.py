@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import hashlib
+import csv
 import json
 from pathlib import Path
 import shutil
@@ -26,12 +27,20 @@ require(scope_path.is_file(), "missing REVIEW_SCOPE.json")
 scope = json.loads(scope_path.read_text())
 require(scope["package"] == HERE.name, "package name mismatch")
 require(scope["files_before_scope"] == len(scope["tree"]), "scope tree count mismatch")
+require((HERE / "REVIEW_EXECUTION_BOUNDARY.md").is_file(), "missing two-gate execution boundary")
 
 for row in scope["tree"]:
     path = INTAKE / row["path"]
     require(path.is_file(), f"missing sealed file: {row['path']}")
     require(path.stat().st_size == row["bytes"], f"sealed size drift: {row['path']}")
     require(hashlib.sha256(path.read_bytes()).hexdigest() == row["sha256"], f"sealed hash drift: {row['path']}")
+
+source_rows = list(csv.DictReader((HERE / "SOURCE_MANIFEST.tsv").open(), delimiter="\t"))
+require(len(source_rows) == 12, "sealed source manifest count")
+for row in source_rows:
+    source = INTAKE / "sources" / row["path"]
+    require(source.is_file(), f"missing sealed source: {row['path']}")
+    require(hashlib.sha256(source.read_bytes()).hexdigest() == row["sha256"], f"sealed source hash: {row['path']}")
 
 with tempfile.TemporaryDirectory(prefix="udt_g171_sealed_replay_") as replay_dir:
     replay_root = Path(replay_dir)
@@ -58,8 +67,10 @@ require(independent["checks_passed"] == 108000, "independent replay count")
 require(catches["catches_passed"] == catches["catches_total"] == 14, "catch replay count")
 
 result = {
+    "gate": "SEALED_INTAKE_REPLAY",
     "status": "PASS__SEALED_G171_REPLAY",
     "sealed_tree_files": len(scope["tree"]),
+    "source_hashes": len(source_rows),
     "production_checks": production["checks_total"],
     "independent_checks": independent["checks_passed"],
     "semantic_catches": catches["catches_total"],

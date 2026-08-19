@@ -1,9 +1,11 @@
 {
+  "gate": "REPOSITORY_OUTER_GATE",
   "independent_checks": 108000,
   "premise_verifier_returncode": 0,
   "production_checks": 31,
-  "required_files": 17,
+  "required_files": 25,
+  "sealed_replay": "RUN_VERIFY_SEALED_INTAKE_INSIDE_SEAL",
   "semantic_catches": 14,
   "source_hashes": 12,
-  "status": "PASS__INTERNAL_G171__FRESH_EXTERNAL_REVIEW_REQUIRED"
+  "status": "PASS__G171__EXTERNAL_AND_SEALED_REPAIR_FOLLOWUP_COMPLETE"
 }

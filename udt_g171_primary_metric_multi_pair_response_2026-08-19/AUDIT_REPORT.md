@@ -1,7 +1,7 @@
 # G171 audit report — primary-metric multi-pair response
 
 Date: 2026-08-19
-Grade: `LEAD__INTERNAL_EXACT_AND_INDEPENDENT_PASS__FRESH_EXTERNAL_REVIEW_REQUIRED`
+Grade: `VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_SCIENTIFIC_REVIEW_RETAINED__PACKAGING_REPAIR_FOLLOWUP_PASS__LOCAL_REGULAR_PRIMARY_METRIC_PAIR_GERM_RELATIVE_SCALAR_NETWORK`
 
 ## Primary landing
 
@@ -52,8 +52,13 @@ repository regression gate. Angular geometry remains inside `h=F^*g` before read
 - 12,000/12,000 same-edge reversals and matched observer-only telescoping controls pass;
 - 12,000/12,000 unmatched pair-germ network controls retain a nonunit scalar product;
 - semantic/algebraic catches: 14/14;
-- repository premise, regression, and fresh external-review gates remain to be completed before a
-  verified grade.
+- repository premise and regression gates pass;
+- the fresh external review retained every bounded scientific finding and exposed only a
+  sealed-versus-repository verifier ambiguity;
+- the preregistered packaging repair passed a fresh repair-only follow-up: all 42 sealed files and
+  the exact scope hash were verified, and the sealed replay returned 12 source hashes, 31
+  production checks, 108,000 independent checks, 14 catches, and
+  `PASS__SEALED_G171_REPLAY`.
 
 ## Exact boundary
 
@@ -79,4 +84,6 @@ Not derived:
 
 The native primary-metric network is pair-relative. It does not require one scalar state per
 observer or a scaffolded carry law. A shared observer becomes a common scalar junction only on the
-matched-germ/readout subfamily. The result remains a `LEAD` until fresh adversarial review.
+matched-germ/readout subfamily. This local regular scalar theorem is now
+`VERIFIED_WITH_CAVEATS`; physical pair-germ realization, global extension, non-scalar transport,
+singular strata, and downstream physics remain open.
