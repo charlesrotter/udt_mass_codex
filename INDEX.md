@@ -58,7 +58,7 @@ arbitrary triangle additivity and scaffolded carry. G172--G175 remain accepted c
 regular, one calibrated germ has one scalar, and arbitrary tapes differ lawfully. G176 provisionally
 closes the ruler; G177 removes scaffolds; G178 accepts it; G179 extends it to complete coframes and
 regular germs and is accepted. G180 glues smooth intervals and moves angular response into the tape
-map; review is pending. Event/germ/global extension remains open.
+map; fresh review accepts, corrected packaging awaits repair-only replay, and event/germ/global extension remains open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`

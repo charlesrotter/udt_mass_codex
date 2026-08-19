@@ -44,6 +44,13 @@ def main() -> None:
         "build_review_intake.py",
         "verify_sealed_intake.py",
         "verify_package.py",
+        "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+        "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt.gz",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "TRANSMISSION_RECORD.md",
+        "REVIEW_EXECUTION_BOUNDARY.md",
+        "REVIEW_REPAIR_PREREGISTRATION.md",
+        "FOLLOWUP_REVIEW_REQUEST.md",
     }
     missing = sorted(name for name in required if not (HERE / name).is_file())
     landing = "COMPLETED_PAIR_SMOOTH_FAMILY_DESCENT__ORCHESTRA_ENTERS_THE_PHYSICAL_TAPE_MAP"
@@ -57,6 +64,10 @@ def main() -> None:
         and catches.get("catch_count") == 28,
         "landing_matches": derivation.get("landing") == landing
         and summary.get("landing") == landing,
+        "external_review_accepted": "G180_ACCEPTED_WITH_STATED_BOUNDS"
+        in (HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_text(),
+        "repair_scope_preregistered": "make no change to the theorem"
+        in (HERE / "REVIEW_REPAIR_PREREGISTRATION.md").read_text(),
         "files_present": not missing,
     }
     failed = [name for name, passed in checks.items() if not passed]

@@ -7,6 +7,7 @@ import csv
 from fractions import Fraction as F
 import hashlib
 import json
+import os
 from pathlib import Path
 import random
 
@@ -141,9 +142,12 @@ def main() -> None:
             "exact_first_jet_chain_rules",
         ],
     }
-    (HERE / "INDEPENDENT_VERIFICATION.json").write_text(
-        json.dumps(result, indent=2, sort_keys=True) + "\n"
-    )
+    output_path = HERE / "INDEPENDENT_VERIFICATION.json"
+    if os.environ.get("UDT_READ_ONLY_REPLAY") == "1":
+        if json.loads(output_path.read_text()) != result:
+            raise SystemExit("FAIL: read-only replay differs from banked result")
+    else:
+        output_path.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     if result["status"] != "PASS":
         raise SystemExit(f"FAIL: source hashes {failures}")
     print(

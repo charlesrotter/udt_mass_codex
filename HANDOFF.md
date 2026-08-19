@@ -30,8 +30,9 @@ G178 externally accepts this result with stated bounds; coordinate reversal is n
 G179 extends conditionally to arbitrary coframes and regular germs:
 `h=J^T E^T eta_4 E J`, `m=sqrt(-det h)`, `Phi=-1/2 log(-h00)`. Full-orchestra and
 covariance pass; review accepts without repair.
-G180 glues the density along supplied smooth regular families. In the primary family,
-`ds/dsigma=sqrt(v^2+exp(-2phi)r^2b^2)` and `Phi(s)=phi(r(s))`; review is pending.
+G180 glues supplied smooth families:
+`ds/dsigma=sqrt(v^2+exp(-2phi)r^2b^2)`, `Phi(s)=phi(r(s))`. Fresh review accepts; corrected sealed
+replay awaits repair-only follow-up.
 
 Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry; valuation stays open.
 G146--G163 bound controls and remove `X_max`; G164--G165 remove scaffolds/control the envelope;
@@ -90,6 +91,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Submit sealed G180 for fresh review before global/singular or observational extension.
+Submit corrected sealed G180 for repair-only replay before global/singular or observational
+extension.
 
 <!-- STARTUP_CURRENT_END -->

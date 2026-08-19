@@ -8,6 +8,8 @@
 4. **Premise audit:** pass locally — nine source hashes match; completed-pair Reciprocity remains
    `WORKING_FOUNDATIONAL_CLARIFICATION`; no scaffold, `X_max`, observation, or dynamics is imported.
 
-Additional promotion gate: fresh adversarial review remains pending.
+Fresh adversarial review: scientific pass — `G180_ACCEPTED_WITH_STATED_BOUNDS`; it independently
+reproduced the exact result and found no theorem defect. A repair-only replay of corrected sealed
+source paths and dependency-free catches remains pending before evidence closure.
 
-Grade: `DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS_PENDING_FRESH_ADVERSARIAL_REVIEW`.
+Grade: `DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__REPAIR_ONLY_REPLAY_PENDING`.

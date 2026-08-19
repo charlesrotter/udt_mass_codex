@@ -12,7 +12,8 @@ pair pullback and uniquely fixes `m=T L_sigma=sqrt(-det h_sigma)`. Arbitrary cal
 controls, not rival kernels. G177 removes scaffolds; G178 externally accepts it. G179 extends the
 conditional theorem to arbitrary coframes and regular germs; review accepts without repair.
 G180 glues the density on smooth regular intervals; angular/common scale act through the completed
-tape, with primary `Phi(s)=phi(r(s))`. Physical event/germ/global realization remains open.
+tape, with primary `Phi(s)=phi(r(s))`. Fresh review accepts the theorem; corrected sealed replay
+packaging awaits repair-only follow-up. Physical event/germ/global realization remains open.
 
 Dependency spine:
 
@@ -54,6 +55,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Submit sealed G180 for fresh review; preserve its working—not canon—grade and open global scope.
+Submit corrected sealed G180 for repair-only replay; preserve its working—not canon—grade and open
+global scope.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

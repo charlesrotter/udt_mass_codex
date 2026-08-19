@@ -34,7 +34,9 @@ for line in (HERE / "SOURCE_MANIFEST.tsv").read_text().splitlines()[1:]:
     actual = hashlib.sha256(frozen).hexdigest()
     if actual != expected:
         raise RuntimeError(f"source hash mismatch: {rel}: {actual} != {expected}")
-    destination = out / "sources" / rel
+    # Preserve the repository-relative manifest layout inside the intake so
+    # every dependency-free replay resolves the same paths in both arenas.
+    destination = out / rel
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_bytes(frozen)
 

@@ -39,7 +39,7 @@
 | G173 turning atlas | `VERIFIED_WITH_CAVEATS` | Angular turns stay regular; bare lines retain scalar charts |
 | G174 calibrated germ | `VERIFIED_WITH_CAVEATS` | One calibrated ruler fixes one scalar; bare line retains atlas |
 | G175 calibration equivalence | `VERIFIED_WITH_CAVEATS` | Local anchor does not propagate; endpoint depths fix tape modulo constant unit |
-| G176--G180 completed-pair kernel | conditional; G180 review pending | Ruler extends through smooth families |
+| G176--G180 completed-pair kernel | conditional; accepted, repair replay pending | Ruler extends through smooth families |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits

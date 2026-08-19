@@ -4,10 +4,10 @@
 from __future__ import annotations
 
 import ast
+from fractions import Fraction as F
 import json
+import os
 from pathlib import Path
-
-import sympy as sp
 
 
 HERE = Path(__file__).resolve().parent
@@ -31,9 +31,10 @@ def main() -> None:
     }
 
     primary = derivation["primary_full_witness"]
-    h = sp.diag(sp.Rational(-1, 4), sp.Rational(89, 4))
-    arbitrary_phi = sp.log((-h.det()) / h[0, 0] ** 2) / 4
-    completed_phi = -sp.log(-h[0, 0]) / 2
+    # The two readouts agree only if m^2=1: exponentiating four times gives
+    # m^2/q^2 for the old arbitrary-coordinate control and 1/q^2 for the
+    # completed depth.  The registered angular witness has m^2=89/16.
+    primary_m2 = F(primary["m_squared"])
 
     forbidden_executable = {
         "X_max",
@@ -70,9 +71,7 @@ def main() -> None:
         "primary_orchestra_not_bolted_onto_depth": checks[
             "angular_channel_not_direct_depth"
         ],
-        "arbitrary_control_not_completed_depth": sp.simplify(
-            arbitrary_phi - completed_phi
-        ) != 0,
+        "arbitrary_control_not_completed_depth": primary_m2 != 1,
         "primary_calibrated_metric_reciprocal": checks["primary_calibrated_metric"]
         and checks["primary_calibrated_determinant"],
         "radial_recovery": checks["radial_recovery"],
@@ -103,9 +102,12 @@ def main() -> None:
         "failed": failed,
         "catches": catches,
     }
-    (HERE / "CATCH_PROOF_RESULT.json").write_text(
-        json.dumps(result, indent=2, sort_keys=True) + "\n"
-    )
+    output_path = HERE / "CATCH_PROOF_RESULT.json"
+    if os.environ.get("UDT_READ_ONLY_REPLAY") == "1":
+        if json.loads(output_path.read_text()) != result:
+            raise SystemExit("FAIL: read-only catch replay differs from banked result")
+    else:
+        output_path.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     if result["status"] != "PASS":
         raise SystemExit(f"FAIL: {failed}")
     print(f"PASS: {len(catches)} semantic and algebraic mutation catches")

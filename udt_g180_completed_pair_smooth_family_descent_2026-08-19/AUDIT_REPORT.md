@@ -62,11 +62,14 @@ profile is still not selected by this theorem.
 - 29/29 production symbolic checks;
 - 20,000 independent exact-rational families and 341,579 assertions;
 - 1,461 turning, 1,461 pure-angular, and 118 radial independent controls;
-- nine frozen source hashes match.
+- nine frozen source hashes match;
+- fresh external gpt-5.4 independently reconstructed the theorem and exact population and returned
+  `G180_ACCEPTED_WITH_STATED_BOUNDS`;
+- its only defect was sealed-replay packaging; the corrected repair-only replay is pending.
 
 ## Scientific grade and ceiling
 
-`DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS_PENDING_FRESH_ADVERSARIAL_REVIEW`
+`DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__REPAIR_ONLY_REPLAY_PENDING`
 
 The result is conditional on the working completed-pair clarification and on a supplied smooth
 regular family. It does not select events or families, prove a positive metric-space distance,

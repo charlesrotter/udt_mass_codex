@@ -1,10 +1,12 @@
 {
   "audit": "G180",
   "catch_count": 28,
+  "external_review": "G180_ACCEPTED_WITH_STATED_BOUNDS",
   "independent_exact_assertions": 341579,
   "independent_exact_fraction_trials": 20000,
   "landing": "COMPLETED_PAIR_SMOOTH_FAMILY_DESCENT__ORCHESTRA_ENTERS_THE_PHYSICAL_TAPE_MAP",
   "preregistration_commit": "ae24ebbc",
+  "repair_status": "LOCAL_CORRECTED_SEALED_REPLAY_PASS__EXTERNAL_FOLLOWUP_PENDING",
   "source_count": 9,
-  "status": "PASS__DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS_PENDING_FRESH_ADVERSARIAL_REVIEW"
+  "status": "PASS__DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__REPAIR_ONLY_REPLAY_PENDING"
 }
