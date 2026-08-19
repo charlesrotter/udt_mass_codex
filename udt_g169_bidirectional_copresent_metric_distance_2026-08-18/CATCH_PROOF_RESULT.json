@@ -1,0 +1,18 @@
+{
+  "catches": {
+    "arbitrary_triangle_category_guard": true,
+    "coincidence_boundary_retained": true,
+    "distance_definition_not_canonized": true,
+    "external_review_still_open": true,
+    "false_arbitrary_triangle_additivity": true,
+    "false_chi_evenness": true,
+    "false_q_reversal": true,
+    "no_scalar_metric_overclaim": true,
+    "ownership_not_derived": true,
+    "path_not_inserted": true,
+    "scalar_closure_not_matrix_closure": true,
+    "surface_reversal_not_reciprocal": true
+  },
+  "catches_passed": 12,
+  "catches_total": 12
+}

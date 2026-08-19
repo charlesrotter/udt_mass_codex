@@ -1,0 +1,13 @@
+statement	status	evidence_or_boundary
+distance as reversal orbit of supplied complete pair response	PROPOSED_WORKING_DEFINITION_CANDIDATE	reversal is an involution and gauge-equivariant
+pure reciprocal scalar reversal	DERIVED_CONDITIONAL	G166 and 36 exact production checks
+matched reciprocal chain composition	DERIVED_CONDITIONAL	additive depth multiplicative q and Mobius chi
+absolute depth as matched-chain pseudoseparation	DERIVED_CONDITIONAL	symmetric and subadditive but not point-separating
+full endpoint orchestra under reversal	CONDITIONAL_ENDPOINT_EXCHANGE	no universal parity assigned to every channel
+surface or endpoint reversal produces reciprocal inversion	REFUTED_IN_BOUNDED_ARENA	G168 flat family has equal nonzero endpoint depths
+arbitrary observer triangle scalar additivity	NOT_DERIVED_AND_NOT_REQUIRED	non-collinear middle germs differ
+complete supplied carry inversion and composition	DERIVED_CONDITIONAL	G156 and G160
+scalar closure implies complete carry closure	REFUTED	determinant-one shear witness
+physical co-present relation owns both endpoint germs	PROPOSED_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_DERIVED	owner decision remains
+coincidence identity for complete regular response	OPEN_BOUNDARY	rank-two plane degenerates
+path Xmax dynamics observation or completion	EXCLUDED	not part of G169

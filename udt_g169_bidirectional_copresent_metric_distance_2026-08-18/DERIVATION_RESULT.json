@@ -1,0 +1,210 @@
+{
+  "arbitrary_triangle": {
+    "q_AB": "1/2",
+    "q_AC_if_matched_composition": "1/6",
+    "q_AC_independently_supplied": "1/5",
+    "q_BC": "1/3"
+  },
+  "checks": [
+    {
+      "detail": "",
+      "name": "reversal_involution",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reversal_swaps_endpoints",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-exp(-2*d), 0], [0, exp(2*d)]])",
+      "name": "founded_metric",
+      "passed": true
+    },
+    {
+      "detail": "-1",
+      "name": "founded_determinant",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-exp(2*d), 0], [0, exp(-2*d)]])",
+      "name": "reverse_metric",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure_reverse_identification",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure_reverse_identification_inverse",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "q_reversal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "chi_reversal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "absolute_depth_descends",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "squared_chi_descends",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "D_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "q_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "chi_mobius_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_depth_triangle_2_3",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_depth_triangle_2_-3",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_depth_triangle_-2_3",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_depth_triangle_-2_-3",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_reverse_same_metric",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_reverse_same_terminal_depth",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_reverse_not_reciprocal_witness",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_endpoint_q2_equal",
+      "passed": true
+    },
+    {
+      "detail": "1/4",
+      "name": "surface_endpoint_q_not_inverse_witness",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "distinct_observers_zero_scalar_witness",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "independent_pairs_each_positive",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "arbitrary_triangle_not_forced",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_triangle_expected_q",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "full_carry_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "full_carry_reverse",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "full_carry_associativity",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reversal_gauge_equivariance",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "gauged_reversal_involution",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "shear_nonidentity",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "shear_scale_character_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "shear_reciprocal_character_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "scalar_closure_weaker_than_matrix_closure",
+      "passed": true
+    }
+  ],
+  "checks_passed": 36,
+  "checks_total": 36,
+  "key_counterexample": {
+    "delta_A": "log(2)/4",
+    "delta_B_after_surface_reversal": "log(2)/4",
+    "endpoint_metric": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "required_reciprocal_delta_B": "-log(2)/4",
+    "surface_parameter": 1
+  },
+  "landing": "CONDITIONAL_RELATIONAL_DISTANCE_OBJECT__RECIPROCAL_SCALAR_REVERSAL_DERIVED_ON_ONE_SUPPLIED_RELATION__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+  "status": "DERIVED_CONDITIONAL"
+}
