@@ -4,15 +4,13 @@ Re-read on resume. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166: the founded pair metric owns `phi_pair`, conditional `c_eff/c_E`, and `chi`. G167: the primary
-`B,Q,S,Y,Z` pullback fixes `B,Q,S=0`; supplied `Y,Z` contribute angular Gram before readout. G168:
-a supplied germ derives the plane, but bare labels do not. G170 differences endpoint densities.
-G171 makes the scalar network pair-relative; arbitrary triangles need not telescope. G172 closes
-the supplied monotone-areal family with `Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]` for supplied smooth
-sphere curves. G173 derives regular tensor passage through radial turns with angular motion, but
-finds a scalar calibration atlas on uncalibrated line data. G174 proves a supplied nonzero
-calibrated ruler vector fixes the density and terminal scalar uniquely; physical calibration and
-cross-tape carry remain open. G172--G174 are externally accepted with stated bounds.
+G166 owns `phi_pair`, conditional `c_eff/c_E`, and `chi`. G167 pulls the primary `B,Q,S,Y,Z` metric
+with angular Gram before readout; G168 derives the plane from a supplied germ, not bare labels.
+G170 differences endpoint densities; G171 makes the network pair-relative. G172 closes supplied
+smooth monotone-areal curves. G173 keeps angular radial turns regular but finds a calibration atlas
+on bare line data. G174 gives one scalar per calibrated ruler. G175 proves a local anchor does not
+propagate; all endpoint depths fix a connected tape up to constant unit. G172--G175 are externally
+accepted with stated bounds; physical calibration/cross-tape carry remain open.
 
 Dependency spine:
 
@@ -24,10 +22,8 @@ Dependency spine:
 - G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
   bounded controls; G163 removes `X_max` from the kernel.
 - G164 G165 G166 G167 G168 G169: scaffold, kernel, pullback, germ, and reversal controls.
-- G170 G171 G172 G173 G174: endpoint densities differ to give directed response; the scalar network is
-  pair-germ-relative, needs no universal carry scaffold, and closes on the bounded smooth
-  monotone-areal family; its tensor extends through turns, and one supplied calibrated germ has one
-  scalar while an uncalibrated line retains the atlas.
+- G170--G175: pair-relative endpoint differences need no universal carry scaffold; smooth families
+  and turns close; one calibrated germ has one scalar; complete-tape equivalence is constant-unit.
 
 Physical germ/calibration realization, global extendability, ambient extension, separation,
 completion, and `X_max` remain open.
@@ -56,8 +52,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Audit whether A-fixed reciprocal-`c_E` pair semantics own a relation-wide calibration equivalence
-class. Do not select `m_A` or `m_P`, invent carry/path transport, revive co-presence, observer-only
-potentials, arbitrary triangle closure, scaffolded kernels, `X_max`, or fits.
+Audit whether the founded determinant-one reciprocal normalization extends uniquely to the
+complete angular pair pullback. Do not select `m_P`, invent carry/path transport, revive
+co-presence, observer-only potentials, arbitrary triangle closure, scaffolded kernels, `X_max`, or
+fits.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

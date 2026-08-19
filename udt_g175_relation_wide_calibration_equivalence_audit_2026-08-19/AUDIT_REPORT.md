@@ -43,7 +43,10 @@ anchored counterfamily respects `c_E` at A.
 - Independent `Fraction` replay: 144,000 checks over 12,000 trials.
 - A-anchored changed-depth controls: 2,000/2,000.
 - Semantic/mutation catches and repository gates are recorded separately.
-- Fresh external adversarial review remains required for final banking.
+- Fresh external gpt-5.4 review returned `G175_ACCEPTED_WITH_STATED_BOUNDS`, independently replayed
+  the exact algebra and anchored counterfamily, and found no scientific defect.
+- Packaging caveat: production scripts may write registered artifacts and the symbolic script uses
+  SymPy; the designated dependency-free read-only sealed verifier passed.
 
 ## Maximum conclusion
 
@@ -51,4 +54,4 @@ G175 classifies the calibration equivalence of one bounded connected static pair
 select the physical pair map or ruler, derive cross-tape carry, or add paths, connections, dynamics,
 global completion, `X_max`, observations, action, source, matter, bootstrap, signalling, or canon.
 
-Current grade: `LEAD__INTERNALLY_DERIVED_AND_INDEPENDENTLY_REPLAYED__AWAITING_EXTERNAL_REVIEW`.
+Current grade: `VERIFIED_WITH_CAVEATS` for the bounded calibration-equivalence theorem.

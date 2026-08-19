@@ -18,32 +18,26 @@ G170 differences completed endpoint densities. G171 gives each supplied pair
 arbitrary triangle closure are unnecessary, and matched endpoint readouts telescope. Co-presence
 and scaffolded carry/score are not load-bearing.
 
-G172 derives closure on the registered static, time-orthogonal, monotone-areal family:
-`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`, for every supplied smooth sphere curve `gamma(r)` and its
-induced angular speed `a2(r)`. Immersion, Frobenius, and radial recovery close. External review
-returned `G172_ACCEPTED_WITH_STATED_BOUNDS`.
+G172 closes the registered static, time-orthogonal, monotone-areal family with
+`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`; immersion, Frobenius, and radial recovery pass.
 
-G173 keeps the pullback regular at `v=0,b2>0`; only zero complete spatial tangent loses rank. G174
-identifies `m=|ds/dsigma|` as the ruler Jacobian: one calibrated vector fixes `m,Phi`; an
-uncalibrated line retains the atlas. Constant units cancel from endpoint depth; varying calibration
-changes the tape. Both reviews accepted the bounds. Physical calibration/carry remain open.
+G173 keeps angular radial turns regular. G174 identifies `m=|ds/dsigma|` as the ruler Jacobian: one
+calibrated vector fixes `m,Phi`; a bare line retains the atlas. G175 proves a local anchor does not
+propagate; a full tape is sufficient and endpoint depths fix it up to constant unit. Metric
+arclength gives `Phi=phi/2`; determinant-one gives `Phi=phi` but is unselected. Reviews accepted
+these bounds; physical calibration/carry remain open.
 
-Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry on supplied data; valuation
-stays open. G146--G163 bound direction, first-jet, scale, score, carry, and quotient, removing
-`X_max` from the kernel. G164--G165 remove scaffolds/control the envelope. G166--G174 derive the
-scalar kernel through the bounded turning atlas and calibrated-germ scalar ownership.
+Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry; valuation stays open.
+G146--G163 bound the controls and remove `X_max` from the kernel. G164--G165 remove scaffolds/control
+the envelope. G166--G175 derive the bounded kernel through relation-wide calibration equivalence.
 
 Milestones: G129 G134 G135 G139 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154
-G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174. Guards: rank ten,
+G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175. Guards: rank ten,
 density, bivector area bilinear, codimension eleven, conformal; physical carrier/`O(2)` open;
 covariant `lambda` only; numerical valuation `OPEN`.
 
-Supplied-germ construction, same-pair reversal, angular-turn tensor extension, and calibrated-germ
-scalar uniqueness close locally. Physical calibration, global/ambient extension, `X_max`, and
-completion remain `OPEN`; `CANON.md` is unchanged.
-
-Open `udt_g174_native_calibrated_pair_germ_chart_ownership_2026-08-19/AUDIT_REPORT.md` first,
-then G173, G172, G171, G170, G168, G167, and G166. G163 controls `X_max`; G164--G165 control
+Open `udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/AUDIT_REPORT.md` first,
+then G174, G173, G172, G171, G170, G168, G167, and G166. G163 controls `X_max`; G164--G165 control
 scaffolds; `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
 
 For G93--G128 provenance use `INDEX.md` or `archive/startup_surface_2026-08-17_pre_zoomout/` only
@@ -88,8 +82,9 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Audit whether the A-fixed reciprocal-`c_E` pair construction owns one calibration equivalence class
-along each supplied relation. Do not select a calibration or curve, invent carry/transport, force
-global completion, revive scaffolds, or collapse scalar into non-scalar transport.
+Audit whether the founded determinant-one reciprocal normalization extends from the pure radial
+branch to the complete angular pair pullback. Test `m^2=exp(-2phi)H` without selecting it in
+advance. Do not invent carry/transport, force global completion, revive scaffolds, or collapse
+scalar into non-scalar transport.
 
 <!-- STARTUP_CURRENT_END -->

@@ -5,28 +5,23 @@ Date: 2026-08-19
 
 ## Program picture
 
-G166 restores the primary UDT order: the determinant-one reciprocal metric of an ordered observer
-pair owns its scalar kernel algebraically. The kernel is not an extra profile, a fixed-path readout,
-or a selector among arbitrary metrics. G167 then derives the complete local regular pair pullback
-of the declared primary static-spherical four-metric. In this bounded arena the metric fixes the
-reciprocal and areal-screen blocks and zero ambient mixing; the supplied pair plane alone determines
-its tangent participation. G168 derives that pair plane uniquely from a **supplied** regular
-clock/separation germ by metric orthogonal projection. The metric algebra is closed locally; the
-physical relation's ownership of that germ is not derived from bare labels. G170 then restores the
-endpoint-relative rule already implicit in the calibrated terminal ratios. G171 completes the
-bounded scalar network reframe: every supplied pair owns
-`delta_XY=Phi_Y|XY-Phi_X|XY`; same-pair reversal is exact; a shared observer need not carry one
-pair-independent endpoint density; arbitrary triangle additivity is not required; and matched
-endpoint readouts telescope. No co-presence premise, separately supplied inverse scalar, universal
-observer potential, or scaffolded carry/score kernel is needed.
+G166 restores the primary order: the determinant-one ordered-pair metric owns its scalar kernel,
+not an extra profile or fixed-path readout. G167 pulls back the declared static-spherical metric;
+the metric fixes reciprocal/areal-screen blocks and zero mixing, while the supplied plane fixes
+tangent participation. G168 derives that plane from a **supplied** regular germ, not bare labels.
+G170 differences calibrated endpoint ratios. G171 gives every supplied pair
+`delta_XY=Phi_Y|XY-Phi_X|XY`: reversal is exact, arbitrary triangles need not telescope, and matched
+readouts do. No co-presence, observer-only potential, or scaffolded carry/score kernel is needed.
 
 G172 closes supplied monotone-areal sphere curves with
-`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`. G173 keeps the tensor regular through an angular radial turn;
-only zero complete spatial tangent loses rank. G174 identifies its calibration density as the exact
-Jacobian to a supplied ruler coordinate: one calibrated vector fixes one scalar; an uncalibrated
-line retains the atlas. Constant unit changes cancel from endpoint depth; varying recalibration
-changes the tape. G172--G174 are externally accepted with stated bounds. Physical calibration and
-cross-tape carry remain open.
+`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`. G173 keeps angular radial turns regular. G174 identifies the
+ruler Jacobian: one calibrated vector fixes one scalar; a bare line retains the atlas. Constant
+units cancel; varying calibration changes the tape. G172--G174 are externally accepted.
+
+G175 proves a local anchor does not propagate along one connected bounded tape. A supplied full
+tape is sufficient; all endpoint depths fix it modulo constant unit. Metric arclength and
+determinant-one remain distinct lawful, unselected choices. G175 is externally accepted. Physical
+calibration and cross-tape carry remain open.
 
 ## Controlling local evaluator
 
@@ -49,18 +44,12 @@ B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities; G171
 shows that independently evaluated pairs remain native without forced scalar triangle closure;
 G172 proves monotone-areal closure; G173 derives the bounded turning calibration atlas; G174 proves
-one supplied fully calibrated germ has one local scalar.
+one supplied fully calibrated germ has one local scalar; G175 classifies relation-wide
+calibration equivalence and local-anchor nonselection.
 
-Source: `udt_g171_primary_metric_multi_pair_response_2026-08-19/`; endpoint-difference control:
-`udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/`; prior reversal control:
-`udt_g169_bidirectional_copresent_metric_distance_2026-08-18/`; supplied-germ projection:
-`udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/`; pullback:
-`udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; scalar descent:
-`udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; smooth-family control:
-`udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/`; turning-chart control:
-`udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/`; calibrated-germ control:
-`udt_g174_native_calibrated_pair_germ_chart_ownership_2026-08-19/`; conditional complete
-evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
+Current controls: `udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/`, then
+G174--G166 in `INDEX.md`. Conditional complete evaluator:
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ## Current reconstruction and ownership chain
 
@@ -70,10 +59,10 @@ G129--G145 reconstruct `g`, derive `chi`, and require genuine overlap for carry;
 open. G146--G163 bound direction, first jets, scale, score, carry, and quotient, then remove
 `X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
 
-Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155
-G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174. Retained guards: rank ten;
-positive conformal class; common-scale ownership; bivector area bilinear;
-physical multidirectional carrier; first-order ceiling; 184,300 covariance rows unresolved.
+Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156
+G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175. Guards:
+rank ten, positive conformal class, common-scale ownership, bivector area bilinear, physical multidirectional carrier,
+first-order ceiling, and 184,300 unresolved covariance rows.
 
 ### G166--G168 — kernel, pullback, and supplied germ
 
@@ -105,6 +94,13 @@ fixed calibrated vector uniquely fixes `m`; a bare line does not. Distinct `m_A,
 inputs. Constant unit rescaling cancels from endpoint depth. Grade: `VERIFIED_WITH_CAVEATS`;
 physical calibration and cross-tape carry remain open.
 
+### G175 — relation-wide calibration equivalence
+
+For `n=fm`, depth changes by `(1/2)log[f(p)/f(q)]`. A smooth shoulder preserves every A-local jet but
+changes B. All endpoint depths agree iff `n/m` is constant on each connected tape. A supplied full
+tape is sufficient; local calibration generates no carry. Metric-unit and determinant-one remain
+distinct and unselected. Grade: `VERIFIED_WITH_CAVEATS` after external acceptance.
+
 ## Observational anchors
 
 R2--R5 are metric-neutral characterization. R5 finds one dominant direction; covariance resolution,
@@ -126,8 +122,8 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Does the A-fixed reciprocal-`c_E` pair construction own one calibration equivalence class along
-   each supplied relation, without importing a path or transport law?
+1. Does the founded determinant-one reciprocal normalization extend from the pure radial block to
+   the complete angular pair pullback, or is `m^2=exp(-2phi)H` an additional calibration choice?
 2. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
 3. Which pair germs constitute the physical relation family, without collapsing pair-indexed
@@ -137,6 +133,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Audit relation-wide calibration ownership. Do not select `m_A` or `m_P`, redo G172--G174, impose
-observer-only density, triangle closure, co-presence, G142--G160, `X_max`, paths, fits, or
-postulates. Keep non-scalar transport separate.
+Audit the determinant-one normalization ownership from the founding metric and reciprocal block.
+Do not select `m_P` in advance, redo G172--G175, impose observer-only density, triangle closure,
+co-presence, G142--G160, `X_max`, paths, fits, or postulates. Keep non-scalar transport separate.

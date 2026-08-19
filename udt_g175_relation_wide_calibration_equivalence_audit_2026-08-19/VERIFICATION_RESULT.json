@@ -7,5 +7,5 @@
   "required_files": 19,
   "semantic_catches": 18,
   "source_hashes": 8,
-  "status": "PASS__G175__EXTERNAL_PENDING"
+  "status": "PASS__G175__EXTERNAL_ACCEPTED_WITH_STATED_BOUNDS"
 }
