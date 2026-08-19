@@ -1,0 +1,12 @@
+{
+  "candidate_difference_cases": 9958,
+  "gate": "REPOSITORY_OUTER_GATE",
+  "independent_checks": 156000,
+  "premise_verifier_returncode": 0,
+  "production_checks": 32,
+  "required_files": 20,
+  "semantic_catches": 18,
+  "source_hashes": 12,
+  "status": "PASS__G174__EXTERNAL_PENDING",
+  "turning_cases": 2000
+}

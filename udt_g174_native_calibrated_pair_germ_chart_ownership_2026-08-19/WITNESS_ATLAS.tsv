@@ -1,0 +1,5 @@
+case	exp_2phi	r	v	b2	m_A2	m_P2	exp_4Phi_A	exp_4Phi_P	classification
+pure_radial	4	3	2	0	4	4	16	16	same_calibrated_density
+radial_turn	4	3	0	1	9	9/4	4	16	distinct_calibrated_vectors_same_line
+generic_nonradial	4	3	1	1	10	13/4	26/5	16	distinct_calibrated_vectors_same_line
+generic_reparam_lambda_3	4	3	3	9	90	117/4	26/5	16	same_each_calibration_in_new_auxiliary_chart

@@ -1,0 +1,9 @@
+object	input_owned	terminal_status	interpretation	open_boundary
+unparameterized_spatial_line	line_or_plane_only	ATLAS_NONUNIQUE	positive vector scale forgotten	physical calibration not selected
+auxiliary_sigma_plus_transformed_m	ds_equals_mu_dsigma	UNIQUE_AND_COVARIANT	same calibrated ruler in another auxiliary chart	global carry open
+fully_calibrated_nonzero_vector	Fstar_partial_s	UNIQUE_LOCAL_SCALAR	m is unique proportionality to auxiliary tangent	physical germ ownership open
+ruler_one_form	ds	UNIQUE_LOCAL_SCALAR	m equals absolute evaluation on partial_sigma	physical germ ownership open
+constant_unit_rescale	n_equals_c_times_m	SAME_ENDPOINT_DEPTH	all endpoint densities shift equally	absolute origin convention remains
+position_dependent_recalibration	n_equals_f_times_m	DIFFERENT_CALIBRATED_TAPE	endpoint transition depends on f ratio	cross-calibration carry open
+m_A_candidate	undilated_areal_reference_density	LAWFUL_UNSELECTED_CALIBRATION	distinct calibrated vector when m_A differs	no physical priority derived
+m_P_candidate	clock_weighted_proper_spatial_density	LAWFUL_UNSELECTED_CALIBRATION	distinct calibrated vector when m_P differs	no physical priority derived

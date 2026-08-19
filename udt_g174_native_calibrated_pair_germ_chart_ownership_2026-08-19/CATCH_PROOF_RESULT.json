@@ -1,0 +1,98 @@
+{
+  "catches": [
+    {
+      "caught": true,
+      "detail": "line and calibrated vector are separated",
+      "name": "line_called_calibrated_vector"
+    },
+    {
+      "caught": true,
+      "detail": "m is typed as calibration Jacobian",
+      "name": "m_called_new_physical_scalar"
+    },
+    {
+      "caught": true,
+      "detail": "density transforms with the auxiliary chart",
+      "name": "m_held_fixed_under_reparam"
+    },
+    {
+      "caught": true,
+      "detail": "calibrated tangent is chart-independent",
+      "name": "calibrated_tangent_changed_by_reparam"
+    },
+    {
+      "caught": true,
+      "detail": "G173 candidates have different calibrated vectors",
+      "name": "two_scalars_same_germ"
+    },
+    {
+      "caught": true,
+      "detail": "m_A remains unselected",
+      "name": "mA_selected"
+    },
+    {
+      "caught": true,
+      "detail": "m_P remains unselected",
+      "name": "mP_selected"
+    },
+    {
+      "caught": true,
+      "detail": "same-tape endpoint response is constant-scale blind",
+      "name": "constant_unit_changes_depth"
+    },
+    {
+      "caught": true,
+      "detail": "variable ruler rescaling is a different input",
+      "name": "variable_recalibration_called_gauge"
+    },
+    {
+      "caught": true,
+      "detail": "turning regularity is retained",
+      "name": "G173_tensor_rejected"
+    },
+    {
+      "caught": true,
+      "detail": "physical ownership remains open",
+      "name": "physical_owner_claimed"
+    },
+    {
+      "caught": true,
+      "detail": "no route selector is introduced",
+      "name": "path_inserted"
+    },
+    {
+      "caught": true,
+      "detail": "Xmax remains inactive",
+      "name": "Xmax_inserted"
+    },
+    {
+      "caught": true,
+      "detail": "retired scaffold remains inactive",
+      "name": "scaffold_reintroduced"
+    },
+    {
+      "caught": true,
+      "detail": "local type theorem is not globalized",
+      "name": "globalized"
+    },
+    {
+      "caught": true,
+      "detail": "the decisive falsifier was preregistered",
+      "name": "prereg_falsifier_missing"
+    },
+    {
+      "caught": true,
+      "detail": "ledger retains ownership boundary",
+      "name": "status_ledger_owner_drift"
+    },
+    {
+      "caught": true,
+      "detail": "independent replay is stdlib-only",
+      "name": "independent_shared_code"
+    }
+  ],
+  "catches_passed": 18,
+  "catches_total": 18,
+  "production_status": "DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW",
+  "status": "PASS__G174_MUTATION_AND_SEMANTIC_CATCHES"
+}

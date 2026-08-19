@@ -1,0 +1,188 @@
+{
+  "H": "A*v**2 + b2*r**2",
+  "checks": [
+    {
+      "detail": "Matrix([[-1/A, 0], [0, (A*v**2 + b2*r**2)/m**2]])",
+      "name": "calibrated_clock_entry",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-1/A, 0], [0, (A*v**2 + b2*r**2)/m**2]])",
+      "name": "calibrated_time_orthogonal",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-1/A, 0], [0, (A*v**2 + b2*r**2)/m**2]])",
+      "name": "calibrated_ruler_entry",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "calibrated_determinant",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "G173_Phi_m_recovered",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "auxiliary_tangent_weight",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "calibrated_scalar_reparam_invariant",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "radial_tangent_invariant",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_speed_invariant",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "density_unique_radial_component",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "density_unique_angular_component",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mP_readout",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mA_turning_readout",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mP_turning_readout",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "turning_density_ratio",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "candidate_calibrations_generic_difference",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mA_radial_density",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mP_radial_density",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mA_radial_kernel",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "mP_radial_kernel",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "constant_unit_cancels",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "variable_recalibration_transition",
+      "passed": true
+    },
+    {
+      "detail": "9",
+      "name": "turn_witness_mA_squared",
+      "passed": true
+    },
+    {
+      "detail": "9/4",
+      "name": "turn_witness_mP_squared",
+      "passed": true
+    },
+    {
+      "detail": "4",
+      "name": "turn_witness_e4A",
+      "passed": true
+    },
+    {
+      "detail": "16",
+      "name": "turn_witness_e4P",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "turn_witness_distinct_germs",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "G173_tensor_retained",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "turn_regular",
+      "passed": true
+    },
+    {
+      "detail": "12",
+      "name": "source_count",
+      "passed": true
+    },
+    {
+      "detail": "[]",
+      "name": "source_hashes_match",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "scaffold_sources_excluded",
+      "passed": true
+    }
+  ],
+  "checks_passed": 32,
+  "checks_total": 32,
+  "constant_unit_relative_invariance": "m1**2/m2**2",
+  "exp_4Phi_m": "A*(A*v**2 + b2*r**2)/m**2",
+  "h_calibrated": "Matrix([[-1/A, 0], [0, (A*v**2 + b2*r**2)/m**2]])",
+  "h_sigma": "Matrix([[-1/A, 0], [0, A*v**2 + b2*r**2]])",
+  "landing": "CALIBRATED_GERM_OWNS_UNIQUE_SCALAR__UNCALIBRATED_LINE_RETAINS_ATLAS__G173_TENSOR_AND_RANK_THEOREM_RETAINED__M_IS_THE_JACOBIAN_FROM_AUXILIARY_PARAMETER_TO_SUPPLIED_RULER_COORDINATE__DISTINCT_M_DEFINE_DISTINCT_CALIBRATED_GERMS_UNLESS_IDENTICAL__CONSTANT_UNIT_RESCALE_CANCELS_FROM_ENDPOINT_DEPTH__PHYSICAL_CALIBRATION_AND_CARRY_OWNER_REMAIN_OPEN",
+  "m_A_squared": "b2*r**2 + v**2",
+  "m_P_squared": "v**2 + b2*r**2/A",
+  "source_count": 12,
+  "source_failures": [],
+  "status": "DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW",
+  "turning_witness": {
+    "b2": 1,
+    "exp_2phi": 4,
+    "exp_4Phi_A": "4",
+    "exp_4Phi_P": "16",
+    "m_A_squared": "9",
+    "m_P_squared": "9/4",
+    "r": 3,
+    "v": 0
+  },
+  "variable_recalibration_factor": "m2**2*n1**2/(m1**2*n2**2)"
+}

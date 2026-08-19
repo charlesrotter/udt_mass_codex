@@ -6,3 +6,7 @@ G174-S04	calibrated ruler vector	SUPPLIED_CONDITIONAL	F_*partial_s fixes scale o
 G174-S05	terminal Phi	DERIVED_CONDITIONAL	unique from one fully calibrated pair metric	arbitrary recalibration is a different input
 G174-S06	m_A and m_P	FREE_AND_CLASSIFIED_CANDIDATES	lawful distinct calibrations	neither may be selected here
 G174-S07	physical calibration owner	OPEN	no owner promoted	no path fit Xmax action source or bootstrap
+G174-S08	calibrated germ scalar uniqueness	DERIVED_BOUNDED	one fixed nonzero calibrated vector fixes m and Phi	external review pending
+G174-S09	constant ruler-unit change	DERIVED_BOUNDED	endpoint-relative depth invariant	position-dependent recalibration is different input
+G174-S10	G173 calibration nonuniqueness	RECLASSIFIED	valid for unparameterized line or image	not multiple outputs for one fully calibrated germ
+G174-S11	G173 tensor and rank theorem	RETAINED_DERIVED_BOUNDED	turn regular when b2 positive	ambient and global strata open
