@@ -1,0 +1,11 @@
+item	status	meaning	boundary
+G176 provisional clarification	WORKING_FOUNDATIONAL_CLARIFICATION	Dual Reciprocity applies after complete-pair contributions	Not canon
+generic completed pair	DERIVED_CONDITIONAL	m=T L_sigma=sqrt(-det h_sigma)	Regular Lorentzian rank two only
+determinant-one equivalence	DERIVED_CONDITIONAL	T L=1 iff det h_s=-1 iff unique positive m	Fixed dimension-matched reciprocal convention
+terminal scalar	DERIVED_CONDITIONAL	Phi=-log T	Supplied completed reciprocal pair
+shift	RETAINED_DERIVED	beta_s=beta/(T L_sigma)	Not erased by determinant
+static spherical specialization	DERIVED_BOUNDED	m^2=exp(-2phi)H and Phi=phi	G173 family only
+angular radial turn	DERIVED_BOUNDED	m positive when complete spatial tangent nonzero	Center and zero tangent excluded
+G173-G175 arbitrary calibrations	RECLASSIFIED_CONTROLS	Lawful other queries not rival reciprocal kernels	Historical evidence unchanged
+physical event and germ population	OPEN	Not selected by scalar normalization	No global relation theorem
+non-scalar and global physics	OPEN	Transport completion Xmax observations dynamics remain outside G176	No downstream promotion

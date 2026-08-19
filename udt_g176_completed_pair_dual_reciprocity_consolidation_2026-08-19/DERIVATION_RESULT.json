@@ -1,0 +1,51 @@
+{
+  "audit": "G176",
+  "checked_sources": [
+    "SIMPLE_METRIC_MACRO.md",
+    "udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md",
+    "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md",
+    "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+    "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md",
+    "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
+    "udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/EXACT_DERIVATION.md",
+    "udt_g174_native_calibrated_pair_germ_chart_ownership_2026-08-19/EXACT_DERIVATION.md",
+    "udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/EXACT_DERIVATION.md"
+  ],
+  "epistemic_grade": "DERIVED_CONDITIONAL_ON_WORKING_FOUNDATIONAL_CLARIFICATION",
+  "generic_formula": "m=T*L_sigma=sqrt(-det(h_sigma))",
+  "landing": "COMPLETED_PAIR_DUAL_RECIPROCITY_UNIQUELY_FIXES_RECIPROCAL_RULER__ARBITRARY_CALIBRATIONS_ARE_CONTROL_QUERIES",
+  "open_scope": [
+    "physical event and pair-germ population",
+    "singular and global strata",
+    "non-scalar transport",
+    "dimensionful distance and X_max",
+    "observations and radiative transfer",
+    "dynamics action source matter bootstrap mass signalling"
+  ],
+  "source_hash_count": 9,
+  "source_hashes_pass": true,
+  "static_formula": "m^2=exp(-2*phi)*H",
+  "symbolic_check_count": 20,
+  "symbolic_checks": {
+    "angular_turn_regular": true,
+    "auxiliary_determinant": true,
+    "calibrated_determinant": true,
+    "calibrated_h00": true,
+    "calibrated_h01": true,
+    "calibrated_h11": true,
+    "orientation_reversal_determinant": true,
+    "orientation_reversal_shift": true,
+    "positive_reparameterization_covariance": true,
+    "pure_radial_recovery": true,
+    "reciprocal_determinant": true,
+    "reciprocal_shift": true,
+    "reciprocal_spatial_scale": true,
+    "shift_survives": true,
+    "spatial_scale": true,
+    "static_determinant": true,
+    "static_reciprocal_density": true,
+    "static_spatial_scale": true,
+    "static_terminal_phi": true,
+    "unique_positive_root": true
+  }
+}

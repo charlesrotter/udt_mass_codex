@@ -1,0 +1,25 @@
+{
+  "audit": "G176",
+  "catch_count": 18,
+  "catches": {
+    "angular_term_must_enter_before_normalization": true,
+    "arbitrary_curve_not_rival_kernel": true,
+    "conditional_pair_ceff_not_signal_speed": true,
+    "constant_wrong_density_breaks_reciprocal_normalization": true,
+    "dropping_angular_term_changes_density": true,
+    "local_theorem_not_global_completion": true,
+    "metric_arclength_is_not_reciprocal_generic": true,
+    "negative_density_rejected": true,
+    "no_action_source_or_bootstrap_inserted": true,
+    "omit_clock_factor_from_m": true,
+    "post_readout_angular_addition_forbidden": true,
+    "same_pair_image_does_not_select_events": true,
+    "scalar_normalization_not_holonomy": true,
+    "shift_does_not_change_determinant_condition": true,
+    "shift_not_erased": true,
+    "spatial_orchestra_moves_tape_not_extra_phi": true,
+    "xmax_not_kernel_input": true,
+    "zero_density_rejected": true
+  },
+  "pass": true
+}

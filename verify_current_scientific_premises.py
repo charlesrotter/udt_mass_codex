@@ -202,6 +202,7 @@ def validate_startup_surface(root: Path) -> None:
             "G173",
             "G174",
             "G175",
+            "G176",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -236,12 +237,14 @@ def validate_startup_surface(root: Path) -> None:
             "AGENTS lacks protected curvature-atlas guard")
     require("Primary-kernel regression gate" in controls["AGENTS.md"],
             "AGENTS guard absent: Primary-kernel regression gate")
+    require("WORKING_FOUNDATIONAL_CLARIFICATION` (G176)" in controls["AGENTS.md"],
+            "AGENTS lacks G176 completed-pair clarification")
 
     required_routes = {
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "161-row exact registry",
+            "162-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -344,6 +347,7 @@ def validate_startup_surface(root: Path) -> None:
             "G173",
             "G174",
             "G175",
+            "G176",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -387,6 +391,7 @@ def validate_startup_surface(root: Path) -> None:
             "G173",
             "G174",
             "G175",
+            "G176",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -418,10 +423,11 @@ def validate_startup_surface(root: Path) -> None:
             "G173",
             "G174",
             "G175",
+            "G176",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "161-row",
+            "162-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -680,9 +686,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 161, "premise registry must contain exactly 161 rows")
+    require(len(rows) == 162, "premise registry must contain exactly 162 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 161, "duplicate premise id")
+    require(len(by_id) == 162, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -4040,6 +4046,47 @@ def main() -> None:
         == "udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/AUDIT_REPORT.md",
         "G175 source changed",
     )
+    require(
+        by_id["G176"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__WORKING_FOUNDATIONAL_CLARIFICATION_NOT_CANON__PREREGISTERED_AT_EB306A0D"
+        ),
+        "G176 completed-pair clarification regressed or promoted",
+    )
+    require(by_id["G176"]["epistemic_label"] == "MIXED", "G176 label changed")
+    require(
+        by_id["G176"]["active_use"]
+        == "ACTIVE_GENERIC_LOCAL_REGULAR_COMPLETED_PHYSICAL_UDT_RECIPROCAL_PAIR_NORMALIZATION_AND_BOUNDED_G173_STATIC_SPECIALIZATION_ONLY",
+        "G176 active scope widened",
+    )
+    for open_item in (
+        "which observer events and pair germs are physically realized",
+        "complete nonspherical timelive micro and ambient history ownership beyond supplied pullback",
+        "coincidence null degenerate singular cut focal topology-changing and global strata",
+        "non-scalar screen orientation connection Jacobi and holonomy transport",
+        "cross-query and global relation population",
+        "positive dimensionful separation numerical Xmax and global completion",
+        "observations radiative transfer dynamics action source matter bootstrap mass and signalling",
+    ):
+        require(open_item in by_id["G176"]["open_scope"], f"G176 open boundary absent: {open_item}")
+    for guard in (
+        "working clarification called canon or derived from bare metric",
+        "determinant-one applied before angular screen mixing or shift contributions enter",
+        "arbitrary arclength or calibrated curves restored as rival reciprocal kernels",
+        "post-readout angular correction bolted onto Phi",
+        "shift erased because determinant is shift-blind",
+        "unique ruler theorem called event or pair-germ selection",
+        "G173 G174 or G175 historical controls erased",
+        "local regular theorem globalized",
+        "physical pair c_eff called local signal speed",
+        "non-scalar transport collapsed into scalar",
+        "co-presence Xmax fits G142 through G160 action source matter or bootstrap inserted",
+    ):
+        require(guard in by_id["G176"]["forbidden_regression"], f"G176 guard absent: {guard}")
+    require(
+        by_id["G176"]["controlling_source"]
+        == "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
+        "G176 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -4081,7 +4128,7 @@ def main() -> None:
         "EH metric-only action is `CONDITIONAL",
         "Bootstrap/stable-matter is a working hypothesis",
         "Primary-kernel regression gate",
-        "primary metric -> supplied pair germ -> h=F^*g -> endpoint Phi values -> endpoint difference",
+        "germ -> h=F^*g -> complete-pair Dual Reciprocity -> endpoint Phi values -> endpoint difference",
         "G142--G160 abstract carrier/carry/score architecture remains conditional historical control",
         "archive/scaffolded_kernel_controls_2026-08-19/README.md",
     ]:
@@ -4133,7 +4180,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G175-extended premise guards; PASS: 161-row premise "
+        "PASS: G176-extended premise guards; PASS: 162-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

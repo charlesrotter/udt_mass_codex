@@ -18,10 +18,13 @@ G172 closes supplied monotone-areal sphere curves with
 ruler Jacobian: one calibrated vector fixes one scalar; a bare line retains the atlas. Constant
 units cancel; varying calibration changes the tape. G172--G174 are externally accepted.
 
-G175 proves a local anchor does not propagate along one connected bounded tape. A supplied full
-tape is sufficient; all endpoint depths fix it modulo constant unit. Metric arclength and
-determinant-one remain distinct lawful, unselected choices. G175 is externally accepted. Physical
-calibration and cross-tape carry remain open.
+G175 proves a local anchor does not propagate; endpoint depths fix a supplied connected tape modulo
+constant unit. It is externally accepted as an arbitrary-calibration control theorem.
+
+Charles provisionally adopts completed-pair Dual Reciprocity. After angular, screen, mixing, and
+shift enter the supplied pullback, G176 uniquely derives
+`m=T L_sigma=sqrt(-det h_sigma)`, `T L=1`, and `Phi=-log T`. Other calibrations are control queries,
+not rival kernels. Event/germ realization remains open.
 
 ## Controlling local evaluator
 
@@ -33,6 +36,8 @@ chi_AB=tanh(delta_AB).
 On a regular completed pair metric:
 phi_pair=(1/4)log[(-det h)/h00^2],
 c_eff^(pair)/c_E=(-h00)/sqrt(-det h).
+For the completed physical reciprocal pair in an auxiliary ruler chart:
+m=T L_sigma=sqrt(-det h_sigma), T L=1, phi_pair=-log(T).
 General conditional envelope:
 h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
 with all `B,Q,S,Y,Z` upstream. G167 reduces it in the primary
@@ -43,9 +48,8 @@ B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 
 G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities; G171
 shows that independently evaluated pairs remain native without forced scalar triangle closure;
-G172 proves monotone-areal closure; G173 derives the bounded turning calibration atlas; G174 proves
-one supplied fully calibrated germ has one local scalar; G175 classifies relation-wide
-calibration equivalence and local-anchor nonselection.
+G172 proves monotone-areal closure; G173--G175 classify turning and arbitrary-calibration controls;
+G176 closes reciprocal normalization on supplied completed physical pairs.
 
 Current controls: `udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/`, then
 G174--G166 in `INDEX.md`. Conditional complete evaluator:
@@ -60,7 +64,7 @@ open. G146--G163 bound direction, first jets, scale, score, carry, and quotient,
 `X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
 
 Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156
-G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175. Guards:
+G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176. Guards:
 rank ten, positive conformal class, common-scale ownership, bivector area bilinear, physical multidirectional carrier,
 first-order ceiling, and 184,300 unresolved covariance rows.
 
@@ -98,8 +102,17 @@ physical calibration and cross-tape carry remain open.
 
 For `n=fm`, depth changes by `(1/2)log[f(p)/f(q)]`. A smooth shoulder preserves every A-local jet but
 changes B. All endpoint depths agree iff `n/m` is constant on each connected tape. A supplied full
-tape is sufficient; local calibration generates no carry. Metric-unit and determinant-one remain
-distinct and unselected. Grade: `VERIFIED_WITH_CAVEATS` after external acceptance.
+tape is sufficient; local calibration generates no carry. This remains a valid classification of
+arbitrary calibrated control tapes. Grade: `VERIFIED_WITH_CAVEATS` after external acceptance.
+
+### G176 — completed-pair Dual Reciprocity
+
+Under Charles's `WORKING_FOUNDATIONAL_CLARIFICATION`, the physical reciprocal-pair domain is
+narrower than the arbitrary-calibration arena. For every regular shifted pair,
+`m=T L_sigma=sqrt(-det h_sigma)` is the unique positive ruler density with `T L=1`; shift remains
+active. In G173, `m^2=exp(-2phi)H` and `Phi=phi`, including angular turns. Grade:
+`VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL_ON_WORKING_FOUNDATIONAL_CLARIFICATION`; fresh review and
+the G177 scaffold audit remain pending.
 
 ## Observational anchors
 
@@ -122,17 +135,17 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Does the founded determinant-one reciprocal normalization extend from the pure radial block to
-   the complete angular pair pullback, or is `m^2=exp(-2phi)H` an additional calibration choice?
-2. When a route/frame observable is actually requested, what supplied overlap or path owns its
+1. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
-3. Which pair germs constitute the physical relation family, without collapsing pair-indexed
+2. Which pair germs constitute the physical relation family, without collapsing pair-indexed
    endpoint densities to one observer-only potential?
-4. Does a completed native realization prove a finite all-frame supremum that may then be named `X_max`,
+3. Does a completed native realization prove a finite all-frame supremum that may then be named `X_max`,
    and what fixes regime strengths and radiative/source structure?
 
 ## Bounded next action
 
-Audit the determinant-one normalization ownership from the founding metric and reciprocal block.
-Do not select `m_P` in advance, redo G172--G175, impose observer-only density, triangle closure,
-co-presence, G142--G160, `X_max`, paths, fits, or postulates. Keep non-scalar transport separate.
+Run G177 as a scaffold-regression audit of the G176 kernel. Reconstruct it from the primary metric,
+supplied pair germ, complete pullback, and Dual Reciprocity only. Attempt to catch any dependence on
+`X_max`, paths, G142--G160 score/carry variables, observer-only density, post-readout angular terms,
+fits, actions, sources, bootstrap, or hidden calibration. Keep event/germ realization and
+non-scalar transport explicitly open.

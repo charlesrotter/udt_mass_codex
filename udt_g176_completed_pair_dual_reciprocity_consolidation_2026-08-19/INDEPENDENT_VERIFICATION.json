@@ -1,0 +1,10 @@
+{
+  "angular_turn_positive_checks": 2204,
+  "audit": "G176",
+  "exact_assertion_count": 260000,
+  "implementation": "independent Python standard-library Fraction replay",
+  "landing_replayed": "COMPLETED_PAIR_DUAL_RECIPROCITY_UNIQUELY_FIXES_RECIPROCAL_RULER",
+  "pass": true,
+  "seed": 17620260819,
+  "trials": 20000
+}

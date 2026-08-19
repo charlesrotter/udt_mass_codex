@@ -21,24 +21,27 @@ and scaffolded carry/score are not load-bearing.
 G172 closes the registered static, time-orthogonal, monotone-areal family with
 `Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`; immersion, Frobenius, and radial recovery pass.
 
-G173 keeps angular radial turns regular. G174 identifies `m=|ds/dsigma|` as the ruler Jacobian: one
-calibrated vector fixes `m,Phi`; a bare line retains the atlas. G175 proves a local anchor does not
-propagate; a full tape is sufficient and endpoint depths fix it up to constant unit. Metric
-arclength gives `Phi=phi/2`; determinant-one gives `Phi=phi` but is unselected. Reviews accepted
-these bounds; physical calibration/carry remain open.
+G173--G175 are accepted controls: angular turns remain regular, one calibrated ruler fixes one
+scalar, and arbitrary connected tapes differ by the exact recalibration law.
+
+Charles provisionally clarifies that the physical UDT reciprocal pair remains reciprocal after all
+complete-pullback contributions enter. G176 derives
+`m=T L_sigma=sqrt(-det h_sigma)`, `T L=1`, and `Phi=-log T`; in G173,
+`m^2=exp(-2phi)H` and `Phi=phi`. Metric/arclength alternatives are other query controls, not rival
+kernels. Physical event/germ realization remains open.
 
 Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry; valuation stays open.
 G146--G163 bound the controls and remove `X_max` from the kernel. G164--G165 remove scaffolds/control
-the envelope. G166--G175 derive the bounded kernel through relation-wide calibration equivalence.
+the envelope. G166--G176 derive the bounded kernel through completed-pair reciprocal normalization.
 
 Milestones: G129 G134 G135 G139 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154
-G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175. Guards: rank ten,
+G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176. Guards: rank ten,
 density, bivector area bilinear, codimension eleven, conformal; physical carrier/`O(2)` open;
 covariant `lambda` only; numerical valuation `OPEN`.
 
-Open `udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/AUDIT_REPORT.md` first,
-then G174, G173, G172, G171, G170, G168, G167, and G166. G163 controls `X_max`; G164--G165 control
-scaffolds; `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
+Open `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md` first,
+then G175 through G166. G163 controls `X_max`; G164--G165 control scaffolds;
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
 
 For G93--G128 provenance use `INDEX.md` or `archive/startup_surface_2026-08-17_pre_zoomout/` only
 when load-bearing.
@@ -58,6 +61,8 @@ No long process is running.
 
 - `delta -> D(delta)` and the determinant-one pair metric block are derived on supplied ordered
   depth; the physical kernel argument is owner-clarified as the ordered pair, not a fixed path.
+- completed-pair Dual Reciprocity is a `WORKING_FOUNDATIONAL_CLARIFICATION`: after the complete
+  pullback it uniquely fixes the reciprocal ruler; it does not select the events or germ.
 - reciprocal reversal is `DERIVED_CONDITIONAL` on the same completed pair; G171 removes arbitrary
   triangle additivity and retains matched-readout telescoping. No global distance follows.
 - `phi_pair` is derived on a supplied regular calibrated pair metric; pointwise `phi` is a
@@ -82,9 +87,9 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Audit whether the founded determinant-one reciprocal normalization extends from the pure radial
-branch to the complete angular pair pullback. Test `m^2=exp(-2phi)H` without selecting it in
-advance. Do not invent carry/transport, force global completion, revive scaffolds, or collapse
-scalar into non-scalar transport.
+Run G177 as a scaffolding-regression audit: attempt to falsify the G176 kernel by removing every
+non-load-bearing path, `X_max`, score/carry, observer-only potential, post-readout angular term,
+fit, action, source, and hidden calibration. Do not confuse this with event/germ selection or
+non-scalar transport.
 
 <!-- STARTUP_CURRENT_END -->

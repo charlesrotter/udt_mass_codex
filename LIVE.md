@@ -35,21 +35,15 @@ observer may have different incident densities when its complete pair germ chang
 three-pair additivity is not required; matched endpoint readouts telescope. Co-presence, paths, and
 G142--G160 carry/score scaffolds are not load-bearing.
 
-G172 closes supplied smooth sphere curves in the static time-orthogonal monotone-areal family:
-`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`, with `a2` the induced speed. Immersion, Frobenius, reversal,
-telescoping, and radial recovery close. External gpt-5.4 review returned
-`G172_ACCEPTED_WITH_STATED_BOUNDS`.
+G172, G173, G174, and G175 are accepted bounded controls. Smooth curves and angular turns remain
+regular when the complete spatial tangent is nonzero. One calibrated ruler gives one scalar;
+arbitrary tapes obey the exact recalibration law and endpoint depths forget one constant unit.
 
-G173 derives `H=exp(2phi)v^2+r^2b2`: `v=0,b2>0` is regular; only zero complete spatial tangent loses
-rank. G174 then identifies `m=|ds/dsigma|` as the Jacobian to a supplied calibrated ruler. One fixed
-nonzero calibrated ruler vector fixes `m` and the scalar uniquely; an uncalibrated line retains the
-G173 atlas, so distinct `m_A,m_P` are distinct inputs. Constant unit changes cancel from endpoint
-depth; varying recalibration changes the tape. Both reviews accepted the bounds; physical
-calibration/cross-tape carry remain `OPEN`.
-
-G175 proves `n=fm` changes depth by `(1/2)log[f(p)/f(q)]`; every A-local jet can agree while B
-differs. A supplied connected tape is sufficient, and endpoint depths forget one constant unit.
-Metric arclength and determinant-one remain distinct, unselected options. External review accepted.
+Charles provisionally adopts completed-pair Dual Reciprocity after angular, screen, mixing, and
+shift enter the supplied pullback. G176 derives uniquely `m=T L_sigma=sqrt(-det h_sigma)`, retains
+shift, and gives `Phi=-log T`; on G173,
+`m^2=exp(-2phi)H` and `Phi=phi`. Arbitrary metric/arclength calibrations remain control queries,
+not rival reciprocal kernels. Event and pair-germ realization remain open.
 
 ### Current dependency spine
 
@@ -59,18 +53,17 @@ Metric arclength and determinant-one remain distinct, unselected options. Extern
   physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
 - **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
   G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
-- **G164--G175.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
+- **G164--G176.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
   pullback, and plane; G169--G171 give reversal, endpoint difference, and pair-relative network;
-  G172--G175 close smooth/turning families, local scalar uniqueness, and exact relation-wide
-  calibration equivalence. Physical ownership is open.
+  G172--G175 close smooth/turning and arbitrary-calibration controls; G176 closes reciprocal ruler
+  normalization on supplied completed physical pairs. Physical germ/global realization is open.
 
-Maximum conclusion: the primary static-spherical metric owns its kernel/orchestra on supplied
-germs. Smooth curves and angular turns close; one calibrated germ has one scalar. A connected
-endpoint network fixes the tape modulo constant unit, but a local anchor does not propagate.
-Physical ownership, cross-tape carry, ambient/global extension, completion, and numerical `X_max`
-remain open. Current control:
-`udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/`; then G174, G173, G172, G171,
-G170, G168, G167, and G166.
+Maximum conclusion: the primary metric owns a coherent reciprocal scalar kernel on every supplied
+regular completed physical pair. The complete orchestra enters first; Dual Reciprocity then fixes
+the ruler and scalar uniquely. G173--G175 classify broader control measurements, not rival kernels.
+Physical event/germ population, ambient/global extension, completion, and numerical `X_max` remain
+open. Current control:
+`udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`; then G175 through G166.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain.
@@ -93,8 +86,10 @@ Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No lon
   G171 proves arbitrary triangle additivity is not required, while matched endpoint readouts
   telescope. This is not a positive metric-space distance or global realization theorem.
 - smooth pair-family closure: `VERIFIED_WITH_CAVEATS`; angular turns remain regular, one calibrated
-  germ has one scalar, and A-local calibration does not propagate. All endpoint depths determine
-  one constant-unit class. Do not select a ruler or claim physical carry.
+  germ has one scalar, and A-local calibration does not propagate across arbitrary control tapes.
+- completed-pair Dual Reciprocity: `WORKING_FOUNDATIONAL_CLARIFICATION`; G176 conditionally derives
+  the unique reciprocal ruler after the full pair pullback. Do not call this event/germ selection,
+  global carry, or canon.
 - pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
@@ -120,11 +115,14 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Audit whether the founded determinant-one normalization extends from the radial block to the
-complete angular pullback. Test `m^2=exp(-2phi)H` without selecting it. Do not invent transport,
-globalize, revive G142--G160, or conflate scalar and non-scalar response.
+Run the bounded G177 scaffolding-regression audit on G176. Attempt to reconstruct the kernel without
+`X_max`, paths, score/carry machinery, observer-only potentials, post-readout angular corrections,
+fits, actions, sources, or hidden ruler choices. Preserve non-scalar channels and the open physical
+event/germ population.
 
 ### Archive
-The exact pre-cleanup startup surface is `archive/startup_surface_2026-08-17_pre_zoomout/`; older
-verbose startup provenance remains under `archive/startup_surface_2026-08-14/`.
+Pre-cleanup startup surfaces are under `archive/startup_surface_2026-08-17_pre_zoomout/` and
+`archive/startup_surface_2026-08-14/`.
+The superseded G173--G175 rival-kernel framing is summarized at
+`archive/g173_g175_rival_calibration_reframe_2026-08-19.md`; historical packages remain unchanged.
 <!-- STARTUP_CURRENT_END -->

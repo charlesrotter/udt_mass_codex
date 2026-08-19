@@ -1,0 +1,10 @@
+{
+  "angular_turn_checks": 2204,
+  "audit": "G176",
+  "independent_exact_assertions": 260000,
+  "mutation_catches": 18,
+  "premise_verifier_returncode": 0,
+  "source_hashes": 9,
+  "status": "PASS__VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REVIEW_PENDING",
+  "symbolic_checks": 20
+}
