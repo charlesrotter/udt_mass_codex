@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-18
+Date: 2026-08-19
 `LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise classification. This file states only the current architecture, open gates, and next bounded move.
 
 ## Program picture
@@ -12,11 +12,15 @@ of the declared primary static-spherical four-metric. In this bounded arena the 
 reciprocal and areal-screen blocks and zero ambient mixing; the supplied pair plane alone determines
 its tangent participation. G168 derives that pair plane uniquely from a **supplied** regular
 clock/separation germ by metric orthogonal projection. The metric algebra is closed locally; the
-physical relation's ownership of that germ is not yet derived.
+physical relation's ownership of that germ is not yet derived. G169 shows that one supplied
+two-ended reciprocal relation has an exact reversal quotient and matched scalar composition, but
+does not promote that quotient to physical UDT distance. Both endpoint germs and their inverse
+carry still have to be physically owned.
 
-Geometry can read one ordered relation's pair metric, terminal kernel, owned derivative/transport
-channels, and compatibility. Physical germ/event calibration, general ambient/micro
-assembly, carry, completion, physical multidirectional carrier, and route/frame transport remain open.
+Geometry can read one ordered relation's pair metric, terminal kernel, conditional reversal,
+owned derivative/transport channels, and compatibility. Physical two-ended germ/event calibration,
+inverse carry, general ambient/micro assembly, completion, physical multidirectional carrier, and
+route/frame transport remain open.
 
 ## Controlling local evaluator
 
@@ -36,59 +40,32 @@ h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z,
 B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 ```
 
-G168 answers the algebraic part: supplied `(u_A,s_AB)` determines `Y,Z`. The remaining local
-question is whether physical ordered-pair semantics owns that germ, not how to select five
-independent histories.
+G168 answers the one-ended algebraic part: supplied `(u_A,s_AB)` determines `Y,Z`. G169 answers the
+conditional reversal part after both endpoint germs and inverse carry are supplied. The remaining
+local question is whether physical ordered-pair semantics owns that complete two-ended data, not
+how to select five independent histories.
 
-Source: `udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/`; pullback:
+Source: `udt_g169_bidirectional_copresent_metric_distance_2026-08-18/`; supplied-germ projection:
+`udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/`; pullback:
 `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; scalar descent:
 `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; conditional complete
 evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ## Current reconstruction and ownership chain
 
-### G129--G134 — reconstruction and ownership
+### G129--G165 — reconstruction and scaffold controls
 
-G129--G134 show that rank ten pullbacks and the bivector area bilinear recover `g`; scalars stop at
-its positive conformal class. G132 common-scale ownership is not sourcing or evolution.
+G129--G145 reconstruct `g` from rank-complete pullbacks, derive normalized `chi`, and show that
+genuine overlap—not shared endpoints—owns carry; numerical valuation and realization stay open.
+G146--G163 bound direction, carrier, first jets, curvature, scale, score, carry, and quotient, then
+remove `X_max` from the scalar kernel. G164 removes extra-profile and independent-history
+scaffolds. G165 is an unrestricted-envelope conformal control, not evidence for multiple physical
+UDT metrics. `INDEX.md` routes exact packages.
 
-### G135--G144, regraded by G163 — co-present normalized relational position
-
-G135--G137 adopt `chi=tanh(phi_pair)`; `x=X_max chi` remains conditional. G138--G140 separate
-endpoint position, route transport, and congruence. G141--G144 show that a chart or genuine overlap
-owns carry; shared boundary observers do not glue sheets.
-
-### G145 — relation/history descent equivalence
-
-A rank-complete full-pullback valuation determines `g` on its supplied 4D atlas, but query atlas,
-calibration, values, and realization remain supplied/open. Opposite-curvature survivors pass the
-same gates with all nine non-`phi` fields live. Compatibility is not evolution.
-
-### G146--G147 — multidirectional position and conditional screen identity
-
-G146 leaves non-collinear projection nonunique. If G147's `xi=rho n` is **defined conditionally** in
-the query rest space, its tangent plane equals the metric pair screen. Physical carrier,
-independent `O(2)` solder, and cross-query carry remain open.
-
-### G148--G150 — first-jet controls
-
-G148 gives a covariant live-`lambda` split; G149 joins first jets; G150 gives a first-order ceiling
-in the unrestricted class. None supplies physical values.
-
-### G151--G163 — curvature, score, carry, quotient, and dependency reversal
-
-G151 curvature; G152 ruler; G153 `dchi`; G154 scale; G155 rank; G156 carry; G157 balance; G158
-score; G159 descent; G160 first-jet carry; G161 quotient; G162 rapidity removal. G163 closes the
-kernel without `X_max`; its census finds no independent dimensional owner.
-
-### G164--G165 — scaffold subtraction and conformal rank
-
-G164 removes an extra local profile and ten-independent-history scaffolds. G165's preregistered
-59-row census finds no active metric restrictor. The current `chi`, causal, incidence, `c_E`,
-`G_obs`, and finite-anchor map admits compact conformal bumps; full valued networks reconstruct the
-scale function supplied to them inside the unrestricted metric envelope. G166 limits this result:
-an arbitrary conformal factor is not generated by the founded determinant-one reciprocal block, so
-G165 is a general-envelope control rather than evidence of infinitely many physical UDT metrics.
+Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155
+G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169. Retained guards: rank ten;
+positive conformal class; common-scale ownership; bivector area bilinear; physical multidirectional
+carrier; first-order ceiling; 184,300 covariance rows unresolved.
 
 ### G166 — primary-metric ordered-pair kernel descent
 
@@ -113,8 +90,18 @@ remain open.
 For supplied timelike `u_A` and nonzero `s_AB`, the metric uniquely derives ruler `r_AB`, plane
 `span(u_A,r_AB)`, positive screen, and G167 `Y,Z`, without a path. A flat counterfamily proves bare
 labels and event pairing do not select the germ. External follow-up retained this theorem while
-requiring physical germ ownership to remain
-`PROPOSED_WORKING_POSTULATE_NOT_DERIVED`.
+requiring physical germ ownership to remain `OPEN_NOT_DERIVED`; G168's ownership statement remains
+a proposal, not an adopted premise.
+
+### G169 — supplied two-ended reversal quotient
+
+On one supplied two-ended reciprocal relation, endpoint exchange is a gauge-compatible involution
+and quotient. Pure reciprocal depth, its ratio, and `chi` reverse exactly, and matched
+one-dimensional scalar chains compose. Ordinary surface reversal does not generate reciprocal
+inversion; arbitrary triangle additivity is neither required nor derived; scalar closure does not
+close the full carry. The external review therefore retains the conditional reversal theorem while
+classifying the quotient as `NOT_YET_PHYSICAL_UDT_DISTANCE`. Physical ownership of both endpoint
+germs and inverse carry remains `OPEN_NOT_DERIVED`.
 
 ## Observational anchors
 
@@ -137,8 +124,8 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Does the founding ordered co-present relation semantics derive its calibrated local one-jet, or
-   must physical germ ownership be explicitly adopted as a provisional working postulate?
+1. Does the founding ordered co-present relation semantics derive both calibrated endpoint germs
+   and their inverse carry, or would that require an additional premise?
 2. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
 3. How are physical ordered-pair values and independent query calibrations carried across a network?
@@ -147,7 +134,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Do not redo the closed metric projection. Audit only the ownership step from a physical completed
-ordered relation to its calibrated local one-jet. Return either a derivation from the founding
-semantics or the exact proposed working postulate for Charles's decision. Defer general ambient
-extension until this epistemic gate closes.
+Do not redo the closed metric projection or the conditional reversal quotient. Audit the founding
+co-presence semantics directly for ownership of both calibrated endpoint germs and their inverse
+carry. Return either a derivation or the exact boundary showing that an additional premise would be
+needed. Do not insert `X_max`, a path, an observational fit, or an adopted postulate by implication.
+Defer general ambient extension until this epistemic gate closes.

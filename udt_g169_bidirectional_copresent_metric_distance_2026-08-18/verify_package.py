@@ -12,6 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
+FROZEN_SOURCE_COMMIT = "c3351201"
 
 
 def require(condition: bool, message: str) -> None:
@@ -54,7 +55,16 @@ for name in required:
 manifest_count = 0
 for line in (HERE / "SOURCE_MANIFEST.tsv").read_text().splitlines()[1:]:
     expected, relative, _role = line.split("\t")
-    actual = hashlib.sha256((ROOT / relative).read_bytes()).hexdigest()
+    if relative == "CURRENT_SCIENTIFIC_PREMISES.md":
+        frozen = subprocess.run(
+            ["git", "show", f"{FROZEN_SOURCE_COMMIT}:{relative}"],
+            cwd=ROOT,
+            capture_output=True,
+            check=True,
+        ).stdout
+        actual = hashlib.sha256(frozen).hexdigest()
+    else:
+        actual = hashlib.sha256((ROOT / relative).read_bytes()).hexdigest()
     require(actual == expected, f"source hash {relative}")
     manifest_count += 1
 require(manifest_count == 12, "manifest count")

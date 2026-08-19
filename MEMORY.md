@@ -10,7 +10,8 @@ primary spherical four-metric: the metric fixes `B,Q,S=0`, the supplied pair pla
 and the angular Gram enters before readout.
 The former `B,Q,S,Y,Z` envelope is therefore metric-fixed plus pair-kinematic in this bounded arena.
 G168 derives that plane from a supplied clock/separation germ, path-free; physical germ
-ownership stays proposed.
+ownership remains open. G169 derives an exact reversal quotient on a supplied two-ended reciprocal
+relation, but does not supply that relation or establish physical UDT distance.
 
 Dependency spine:
 
@@ -19,23 +20,21 @@ Dependency spine:
   separate and `x=X_max chi` conditional.
 - G140--G144: genuine overlap owns carry; endpoints do not glue sheets.
 - G145: values determine `g` on a supplied atlas, not numerical/global valuation or realization.
-- G146--G147: projections remain nonunique; physical carrier, `O(2)` solder, and carry remain open.
-- G148: covariant first-jet split; `lambda` proves liveness, not amplitudes or history.
-- G149 chord; G150 freedom; G151 curvature; G152 ruler; G153 `dchi`; G154 scale; G155 rank; G156
-  carry; G157 balance; G158 score; G159 descent; G160 time-live; G161 quotient; G162 rapidity; G163
-  removes `X_max` from the kernel.
+- G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
+  bounded controls; G163 removes `X_max` from the kernel.
 - G164--G165: no extra profile or ten histories; G165 is an unrestricted-envelope control.
-- G166: the primary pair metric owns its kernel; the open joint is native nonspherical, mixing,
-  shift-bearing, and time-live `3+1` assembly.
+- G166: the primary pair metric owns its scalar kernel.
 - G167: the primary spherical metric owns its bounded pair orchestra.
 - G168: a supplied pair germ determines the plane; physical germ ownership remains open.
+- G169: a supplied two-ended relation reverses and composes scalarly; endpoint-germ and inverse-carry
+  ownership remain open.
 
-Physical germ ownership, ambient extension, carry, separation, completion, and `X_max` remain open.
+Physical two-ended germ and inverse-carry ownership, ambient extension, separation, completion, and
+`X_max` remain open.
 
 ## Observational pointer
 
-R2--R5 are verified with caveats. R5 retains one dominant direction; 184,300 covariance rows remain
-unresolved and no preferred scale follows.
+R2--R5 are verified with caveats; covariance and physical interpretation remain unresolved.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -44,9 +43,9 @@ Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
 
 - `c_E`, `G_obs` are observed anchors.
 - Founded Reciprocity acts on supplied ordered depth.
-- Pointwise `phi` is conditional; terminal `phi_pair` is derived on a supplied calibrated pair.
-- Angular, screen, and mixing data enter before terminal readout.
-- Pair `c_eff` is an observer-frame readout, not automatically local signal speed.
+- Pointwise `phi` is conditional; terminal `phi_pair` is derived on a supplied pair whose orchestra
+  precedes readout.
+- Pair `c_eff` is an observer-frame readout, not automatically signal speed.
 - working pair position `chi` is not proper length or a selected realization.
 - `X_max` is a working asymptotic global-completion consequence target, not a local kernel input, wall, center,
   or seam.
@@ -57,7 +56,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Resolve whether founding semantics derives the germ or Charles adopts that ownership provisionally.
-Do not redo G168 or insert `X_max`, fits, paths, or target responses.
+Audit whether founding co-presence semantics derives both calibrated endpoint germs and inverse
+carry. Do not call the G169 quotient physical distance, redo G168, or insert `X_max`, fits, paths,
+or target responses.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

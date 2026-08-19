@@ -4,46 +4,42 @@
 
 Read `LIVE.md` first. It wins.
 
-## Resume anchor — 2026-08-18
+## Resume anchor — 2026-08-19
 
 ### Current theory state
 
 G166 derives `phi_pair`, conditional `c_eff/c_E`, and `chi` from the founded pair metric without a
-path. G167 pulls the primary
-static-spherical four-metric back to every supplied local regular pair plane:
+path. G167 pulls the primary static-spherical metric onto every supplied regular pair plane:
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`, with metric-fixed
-`B=diag(c_E exp(-phi),exp(phi))`, `Q=diag(r,r sin(theta))`, and `S=0`. The orchestra is
-internal before readout; only `Y,Z` are supplied. The former `B,Q,S,Y,Z` envelope is metric-fixed
-plus pair-kinematic, not five histories.
+`B=diag(c_E exp(-phi),exp(phi))`, `Q=diag(r,r sin(theta))`, `S=0`. The orchestra precedes readout;
+`B,Q,S,Y,Z` is metric-fixed plus pair-kinematic.
 
-G168 conditionally derives ruler, plane, screen, and G167 `Y,Z` from supplied `(u_A,s_AB)`, with no
-path. Bare observers do not supply that germ; physical ownership is
-`PROPOSED_WORKING_POSTULATE_NOT_DERIVED`.
+G168 derives ruler, plane, screen, and `Y,Z` from supplied `(u_A,s_AB)`, without a path. Physical
+germ ownership remains `OPEN_NOT_DERIVED`; G168's ownership statement is proposed, not adopted.
+
+G169 derives reversal and matched scalar composition on one **supplied two-ended reciprocal
+relation**. Ordinary surface reversal is not reciprocal inversion; scalar closure is not carry
+closure. The quotient is `NOT_YET_PHYSICAL_UDT_DISTANCE`; endpoint-germ and inverse-carry ownership
+remains `OPEN_NOT_DERIVED`.
 
 Dependency chain:
 
-1. G129--G145: G129--G134 rank ten, density, bivector area bilinear, codimension eleven; G135--G139
-   give `chi`; G140--G144 require overlap; G145 leaves numerical valuation open.
-2. G146--G148: projections remain nonunique; G147 physical carrier and `O(2)` solder stay open; covariant `lambda` proves
-   only algebraic liveness.
-3. G149--G163: G149 chord; G150 freedom; G151 curvature/Jacobi; G152 ruler; G153 `dchi`; G154
-   scale; G155 rank; G156 carry; G157 balance; G158 score; G159 descent; G160 time-live carry;
-   G161 quotient; G162 rapidity removal; G163 X-free kernel.
-8. G164 removes scaffolds. G165's unrestricted-envelope conformal nonselection is a control, not physical multiplicity.
-9. G166 derives the primary ordered-pair kernel directly from the founded metric and relocates the
-   open joint to native nonspherical/mixing/time-live `3+1` assembly.
-10. G167 closes the local regular pair orchestra for the primary spherical metric; pair-plane
-    realization and general ambient/global extensions remain open.
-11. G168 derives the pair plane from a supplied local germ; physical ownership of the germ remains
-    a proposed working postulate.
+1. G129--G145 reconstruct `g`, normalized `chi`, and overlap carry on supplied data; valuation stays open.
+2. G146--G163 bound direction, first-jet, scale, score, carry, quotient, and remove `X_max` from the kernel.
+3. G164--G165 remove scaffolds and control the unrestricted metric envelope.
+4. G166--G169 derive scalar kernel, spherical pullback, supplied-germ plane, and conditional reversal.
 
-The kernel gives `chi=tanh(phi_pair)`. Supplied-germ plane construction is closed; physical germ
-ownership, ambient extension, dimensional position, `X_max`, carry, and completion remain `OPEN`;
-`CANON.md` is unchanged.
+Milestones: G129 G134 G135 G139 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154
+G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169. Guards: rank ten,
+density, bivector area bilinear, codimension eleven, conformal; physical carrier/`O(2)` open;
+covariant `lambda` only; numerical valuation `OPEN`.
+
+Supplied-germ construction and conditional reversal are closed. Physical two-ended germ/carry
+ownership, ambient extension, `X_max`, and completion remain `OPEN`; `CANON.md` is unchanged.
 
 When load-bearing, open
-`udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md` first, then G167 for
-the pullback and G166 for scalar descent. G163 controls
+`udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md` first, then G168 for
+the supplied-germ projection, G167 for the pullback, and G166 for scalar descent. G163 controls
 `X_max` dependency; G164--G165 are scaffold controls; the uncompressed evaluator is conditional
 upstream evidence at `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
@@ -65,13 +61,13 @@ No long process is running.
 
 - `delta -> D(delta)` and the determinant-one pair metric block are derived on supplied ordered
   depth; the physical kernel argument is owner-clarified as the ordered pair, not a fixed path.
+- reciprocal reversal and matched scalar composition are `DERIVED_CONDITIONAL` on one supplied
+  two-ended reciprocal relation; the reversal quotient is `NOT_YET_PHYSICAL_UDT_DISTANCE`.
 - `phi_pair` is derived on a supplied regular calibrated pair metric; pointwise `phi` is a
   conditional presentation potential.
 - the orchestra enters before terminal readout.
 - pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
-- working normalized position is adopted; signed `chi=tanh(phi_pair)` follows on supplied complete
-  pairs, but is not proper length or a selected complete metric realization.
-- G139 chooses endpoint descent; G140--G142 do not select the physical family or carry.
+- signed `chi=tanh(phi_pair)` is working normalized position, not proper length or a selected realization.
 - `X_max` is a working asymptotic global-completion consequence target, not a local kernel input, wall, center,
   or seam.
 - strong local CSN is inactive.
@@ -90,8 +86,9 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Resolve whether founding semantics derives the calibrated germ or Charles adopts that ownership as
-a provisional working postulate. Do not redo G168's projection or insert a path. General ambient
-extension follows only after this gate.
+Audit the founding co-presence semantics directly: does a physical ordered pair own both calibrated
+endpoint germs and their inverse carry, or would that be an additional premise? Do not hide this
+inside the G169 quotient, redo G168's projection, or insert `X_max`, a path, or a fit. General
+ambient extension follows only after this ownership gate.
 
 <!-- STARTUP_CURRENT_END -->

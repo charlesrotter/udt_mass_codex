@@ -195,6 +195,7 @@ def validate_startup_surface(root: Path) -> None:
             "G166",
             "G167",
             "G168",
+            "G169",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -232,7 +233,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "154-row exact registry",
+            "155-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -402,7 +403,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "154-row",
+            "155-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -661,9 +662,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 154, "premise registry must contain exactly 154 rows")
+    require(len(rows) == 155, "premise registry must contain exactly 155 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 154, "duplicate premise id")
+    require(len(by_id) == 155, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3767,6 +3768,41 @@ def main() -> None:
         == "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md",
         "G168 source changed",
     )
+    require(
+        by_id["G169"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__PREREGISTERED__FRESH_EXTERNAL_TYPE_FAILURE__TWO_REPAIR_FOLLOWUPS_FINAL_PASS__CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE"
+        ),
+        "G169 conditional reversal landing regressed or promoted",
+    )
+    require(by_id["G169"]["epistemic_label"] == "MIXED", "G169 label changed")
+    for open_item in (
+        "derivation that physical co-presence supplies both endpoint germs and inverse carry",
+        "event pairing query population and global relation category",
+        "full reversal parity of every angular screen shift and mixing channel",
+        "coincidence identity completion",
+        "arbitrary noncollinear triangle calibration",
+        "general ambient time-dependent micro and global extension",
+        "route transport holonomy connection Jacobi and normal channels",
+        "dimensionful separation numerical Xmax",
+    ):
+        require(open_item in by_id["G169"]["open_scope"], f"G169 open boundary absent: {open_item}")
+    for guard in (
+        "reversal quotient called physical UDT distance",
+        "supplied two-ended relation called derived from bare observers co-presence or one endpoint germ",
+        "ordinary surface reversal or endpoint exchange called reciprocal inversion",
+        "arbitrary noncollinear triangles forced to obey one-dimensional additive depth",
+        "absolute delta or chi called a point-separating metric distance",
+        "scalar closure called complete carry closure",
+        "coincidence treated as regular rank two",
+        "endpoint orchestra parities invented",
+        "path Xmax dynamics observations or protected work inserted",
+    ):
+        require(guard in by_id["G169"]["forbidden_regression"], f"G169 guard absent: {guard}")
+    require(
+        by_id["G169"]["controlling_source"]
+        == "udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md",
+        "G169 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3845,7 +3881,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G168-extended premise guards; PASS: 154-row premise "
+        "PASS: G169-extended premise guards; PASS: 155-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

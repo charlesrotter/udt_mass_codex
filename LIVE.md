@@ -2,7 +2,7 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-## CURRENT STATE — 2026-08-18
+## CURRENT STATE — 2026-08-19
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
@@ -16,21 +16,24 @@ c_eff^(pair)/c_E=exp(-2 delta_AB),
 chi_AB=tanh(delta_AB).
 ```
 
-G167 performs the missing bounded assembly directly from the declared primary static-spherical
-four-metric. For every supplied local regular rank-two ordered-pair realization,
+G167 pulls the declared primary static-spherical four-metric onto every supplied local regular
+rank-two pair realization:
 
 ```text
 h=F^*g=Y^T B^T eta_2 B Y+Z^T Q^T Q Z,
 B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 ```
-The metric fixes `B,Q,S=0`; the plane supplies `Y,Z`. Its angular Gram enters before readout and can
-induce a cross-term despite diagonal ambient `g`. No independent screen history, scalar `mu`, or
-post-kernel correction is needed. `B,Q,S,Y,Z` is metric-fixed plus pair-kinematic, not five histories.
+The metric fixes `B,Q,S=0`; the plane supplies `Y,Z`. The angular Gram enters before readout and can
+induce a cross-term. `B,Q,S,Y,Z` is metric-fixed plus pair-kinematic; no scalar `mu` is needed.
 
-G168 closes the **conditional local geometry**. From supplied `(u_A,s_AB)`, the metric projects
-`r_AB=s_AB-[g(u_A,s_AB)/g(u_A,u_A)]u_A` and derives `span(u_A,r_AB)`, its positive screen, and G167
-`Y,Z`, without a path. Bare labels and boundary event pairing do not derive the germ; physical
-one-jet ownership is `PROPOSED_WORKING_POSTULATE_NOT_DERIVED` after fresh external review.
+G168 derives ruler, plane, screen, and G167 `Y,Z` from supplied `(u_A,s_AB)`, without a path. Bare
+labels do not derive the germ; physical one-jet ownership remains `OPEN_NOT_DERIVED`. Its ownership
+statement is proposed, not adopted.
+
+G169 proves a gauge-compatible reversal quotient and matched scalar composition on **one supplied
+two-ended reciprocal relation**. Ordinary surface reversal does not generate reciprocal inversion.
+The quotient is `NOT_YET_PHYSICAL_UDT_DISTANCE`; ownership of both endpoint germs and inverse carry
+remains `OPEN_NOT_DERIVED`.
 
 ### Current dependency spine
 
@@ -49,15 +52,17 @@ one-jet ownership is `PROPOSED_WORKING_POSTULATE_NOT_DERIVED` after fresh extern
   unrestricted configuration envelope; it does not establish infinitely many physical UDT metrics.
 - **G166.** Founded pair metric gives `phi_pair`, conditional `c_eff/c_E`, and `chi` exactly.
 - **G167.** Primary spherical `F^*g` owns the angular Gram and live derivative before readout.
-- **G168.** A supplied germ derives the plane without a path; physical germ ownership is a proposed
-  working postulate. General ambient, coincidence, reversal-carry, and global strata stay open.
+- **G168.** A supplied germ derives the plane without a path; physical ownership remains open.
+- **G169.** A supplied two-ended reciprocal relation has an exact reversal quotient and matched
+  scalar composition. The quotient does not supply the relation and is not yet physical UDT
+  distance; endpoint-germ and inverse-carry ownership remain open.
 
-Maximum conclusion: the primary static-spherical UDT metric algebraically owns its reciprocal
-kernel and local regular pair-pullback orchestra. The orchestra is the metric heard on a supplied
-pair plane; G168 derives that plane from a supplied germ, not bare labels. Physical germ ownership,
-general ambient/micro assembly, carry, separation, completion, and numerical `X_max` remain open.
-Controls: `udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/`; G167 controls the
-primary-metric pullback and G166 controls scalar descent.
+Maximum conclusion: the primary static-spherical UDT metric owns its reciprocal kernel and local
+pair-pullback orchestra on a supplied germ. G169 derives reversal only after both endpoint germs
+and inverse carry are supplied. Physical relation ownership, general ambient/micro assembly,
+completion, and numerical `X_max` remain open. Current control:
+`udt_g169_bidirectional_copresent_metric_distance_2026-08-18/`; G168 controls the supplied-germ
+projection, G167 the primary-metric pullback, and G166 scalar descent.
 G163 controls `X_max` dependency; G164--G165 are scaffold controls; the uncompressed evaluator is
 conditional upstream evidence at `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain.
@@ -66,10 +71,9 @@ G93--G128 chronology is provenance under `archive/startup_surface_2026-08-17_pre
 
 ### Banked observational lane
 
-R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats. R4 finds
-broad persistence; R5 one dominant direction plus control-dependent alignment; 184,300 covariance
-rows remain unresolved. No preferred grid, feature, rank, significance, scale, BAO/UDT/CMB origin,
-cosmology, or `X_max` follows.
+R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats. R5 has
+one dominant direction; 184,300 covariance rows remain unresolved. No preferred scale or physical
+interpretation follows.
 
 The raw archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is
 running. Observations remain comparison/falsification anchors; they do not derive the native
@@ -80,6 +84,8 @@ complete metric assembly.
 - `c_E`, `G_obs`: `OBSERVED` calibration anchors.
 - founded reciprocal character and determinant-one pair block on supplied ordered depth: `DERIVED`;
   Charles owner-clarifies the physical kernel argument as the ordered observer pair, not a fixed path.
+- reciprocal reversal and matched scalar composition: `DERIVED_CONDITIONAL` on one supplied
+  two-ended reciprocal relation; the reversal quotient is `NOT_YET_PHYSICAL_UDT_DISTANCE`.
 - pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
@@ -108,13 +114,13 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Resolve the remaining ownership statement without redoing the projection: derive a physical
-relation's calibrated one-jet from founding semantics, or present it to Charles for provisional
-adoption. Then extend to the general ambient metric. Do not insert `X_max`, a path, or a fit.
+Audit the founding co-presence semantics directly: does a physical ordered pair own both calibrated
+endpoint germs and their inverse carry, or is that an additional premise? Do not hide the question
+inside a reversal quotient, redo G168's projection, or insert `X_max`, a path, or a fit. General
+ambient extension follows only after this ownership gate is resolved.
+
 ### Archive
 
-The exact pre-cleanup startup surface is preserved under
-`archive/startup_surface_2026-08-17_pre_zoomout/`. Older verbose startup provenance remains under
-`archive/startup_surface_2026-08-14/`.
-
+The exact pre-cleanup startup surface is `archive/startup_surface_2026-08-17_pre_zoomout/`; older
+verbose startup provenance remains under `archive/startup_surface_2026-08-14/`.
 <!-- STARTUP_CURRENT_END -->
