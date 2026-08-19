@@ -1,0 +1,1296 @@
+Script started on 2026-08-19 00:11:24-04:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+OpenAI Codex v0.144.5
+--------
+workdir: /intake
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a01837-7d38-7330-af09-15e1edd39651
+--------
+user
+Perform the final repair-only review of the corrected sealed G169 intake. Do not reopen or continue the science. Verify only: (1) STATUS_LEDGER.tsv explicitly labels physical two-ended germ and carry ownership OPEN_NOT_DERIVED; (2) OUTCOME_PREMISE_LEDGER.tsv explicitly labels ownership of both endpoint germs and inverse carry OPEN_NOT_DERIVED; (3) the quotient is still NOT_YET_PHYSICAL_UDT_DISTANCE; (4) the conditional reversal quotient theorem, reciprocal scalar reversal, matched composition, ordinary-reversal counterexample, arbitrary-triangle correction, scalar limitation, full-carry distinction, and coincidence boundary are unchanged; and (5) fail-closed scripts and evidence metadata require the complete germ-and-carry wording. Historical evidence may retain earlier wording. Return exactly one: FINAL_FOLLOWUP_PASS__GERM_CARRY_LEDGER_ALIGNMENT_COMPLETE__CONDITIONAL_REVERSAL_THEOREM_RETAINED; FINAL_FOLLOWUP_REPAIR_REQUIRED__LANDING_SURVIVES; FINAL_FOLLOWUP_FAIL__OWNERSHIP_OVERPROMOTION_OR_THEOREM_DRIFT; or another precise repair-only result. Do not edit files, inspect outside /intake, use the internet, access protected packages, or derive new physics.
+codex
+Reviewing the sealed G169 intake strictly as a repair-only check. I’m locating the ledger, theorem, and fail-closed script/evidence files inside `/intake` and will verify only the listed conditions without modifying anything.
+exec
+/bin/bash -lc "rg --files /intake | rg 'STATUS_LEDGER\\.tsv|OUTCOME_PREMISE_LEDGER\\.tsv|evidence|script|theorem|reversal|counterexample|triangle|scalar|carry|coincidence|quotient'" in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc "find /intake -maxdepth 2 -type f | sed 's#"'^/intake/##'"' | sort | rg 'STATUS_LEDGER\\.tsv|OUTCOME_PREMISE_LEDGER\\.tsv|evidence|script|theorem|reversal|counterexample|triangle|scalar|carry|coincidence|quotient'" in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+codex
+`rg` is unavailable here, so I’m falling back to `find` and `grep`. Next I’m reading the ledgers and locating the repair-gating scripts/metadata that mention germ-and-carry wording.
+exec
+/bin/bash -lc "find /intake -type f | sort | grep -E 'STATUS_LEDGER\\.tsv|OUTCOME_PREMISE_LEDGER\\.tsv|evidence|script|theorem|reversal|counterexample|triangle|scalar|carry|coincidence|quotient'" in /intake
+ succeeded in 0ms:
+/intake/sources/udt_g156_three_observer_scale_carry_audit_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g156_three_observer_scale_carry_audit_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_g160_three_observer_timelive_first_jet_carry_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g160_three_observer_timelive_first_jet_carry_2026-08-18/EXACT_DERIVATION.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/STATUS_LEDGER.tsv
+
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type f | sort' in /intake
+ succeeded in 0ms:
+/intake/REVIEW_SCOPE.json
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/CATCH_PROOF_RESULT.json
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/DERIVATION_RESULT.json
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_RAW.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_RAW.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/FOLLOWUP_REVIEW_ADJUDICATION.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/INDEPENDENT_VERIFICATION.json
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/LAY_REPORT.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PONDER_MAP.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PREREGISTRATION.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SOURCE_MANIFEST.tsv
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/STATUS_LEDGER.tsv
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/TRANSMISSION_RECORD.md
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/VERIFICATION_RESULT.json
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/derive_bidirectional_distance.py
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/run_catch_proofs.py
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_bidirectional_distance_independent.py
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py
+
+codex
+I’ve isolated the G169 package. Now I’m checking the two ledgers first, then the derivation and gate metadata for the unchanged theorem clauses and the complete germ-and-carry wording requirement.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/STATUS_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+object	pretest_status	note
+oriented supplied complete pair response	CONDITIONAL_WELL_TYPED	two endpoint evaluations plus any supplied inverse identification
+reversal quotient of supplied response	CONDITIONAL_REPRESENTATION_THEOREM	symmetric and gauge-compatible only after the complete relation is supplied
+pure reciprocal reversal	DERIVED_CONDITIONAL	G166 and exact replay
+arbitrary full-response reversal	CONDITIONAL_ENDPOINT_EXCHANGE	channel parities beyond signed depth not derived
+matched reciprocal composition	DERIVED_CONDITIONAL	G166 additive and Mobius laws
+arbitrary observer triangle additivity	NOT_DERIVED_AND_NOT_REQUIRED	one-dimensional law needs matched middle calibration
+full supplied carry composition	DERIVED_CONDITIONAL	G156 and G160; scalar closure strictly weaker
+physical two-ended germ and carry ownership	OPEN_NOT_DERIVED	the quotient cannot supply or replace either missing input
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+statement	status	evidence_or_boundary
+reversal quotient of supplied complete pair response	CONDITIONAL_REPRESENTATION_THEOREM	reversal is an involution and gauge-equivariant on supplied data
+reversal quotient is physical UDT distance	NOT_DERIVED_TYPE_FAILURE	current premises do not supply the two-ended relation being quotiented
+pure reciprocal scalar reversal	DERIVED_CONDITIONAL	G166 and 36 exact production checks
+matched reciprocal chain composition	DERIVED_CONDITIONAL	additive depth multiplicative q and Mobius chi
+absolute depth as matched-chain pseudoseparation	DERIVED_CONDITIONAL	symmetric and subadditive but not point-separating
+full endpoint orchestra under reversal	CONDITIONAL_ENDPOINT_EXCHANGE	no universal parity assigned to every channel
+surface or endpoint reversal produces reciprocal inversion	REFUTED_IN_BOUNDED_ARENA	G168 flat family has equal nonzero endpoint depths
+arbitrary observer triangle scalar additivity	NOT_DERIVED_AND_NOT_REQUIRED	non-collinear middle germs differ
+complete supplied carry inversion and composition	DERIVED_CONDITIONAL	G156 and G160
+scalar closure implies complete carry closure	REFUTED	determinant-one shear witness
+physical co-present relation owns both endpoint germs and inverse carry	OPEN_NOT_DERIVED	external review confirmed that the quotient only renames these missing ownership inputs
+coincidence identity for complete regular response	OPEN_BOUNDARY	rank-two plane degenerates
+path Xmax dynamics observation or completion	EXCLUDED	not part of G169
+
+exec
+/bin/bash -lc "grep -RInE 'NOT_YET_PHYSICAL_UDT_DISTANCE|conditional reversal quotient theorem|reciprocal scalar reversal|matched composition|ordinary-reversal counterexample|arbitrary-triangle correction|scalar limitation|full-carry distinction|coincidence boundary|germ-and-carry|two-ended germ|inverse carry|endpoint germ|OPEN_NOT_DERIVED' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18" in /intake
+ succeeded in 0ms:
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:28:1. Type-check the oriented response `R_AB`, its reversal `R_BA`, the endpoint germs, and any supplied
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:42:7. Test the coincidence boundary, where the scalar identity survives but the regular rank-two pair
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:46:9. State whether “a physical co-present pair owns both endpoint germs as reciprocal orientations of
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:117:1. Type-check the oriented response `R_AB`, its reversal `R_BA`, the endpoint germs, and any supplied
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:131:7. Test the coincidence boundary, where the scalar identity survives but the regular rank-two pair
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:135:9. State whether “a physical co-present pair owns both endpoint germs as reciprocal orientations of
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:222:For a supplied endpoint germ \((u_A,s_{AB})\), G168 derives
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:297:evaluated endpoint germs automatically realize this inverse pair.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:408:are individually admissible pair readouts, while matched composition would require
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:464:require opposite signs. The metric evaluates each endpoint germ but does not by itself declare two
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:505:derive its pure reciprocal reversal and matched composition, but not physical ownership of both
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:506:endpoint germs, their carry, the coincidence completion, a scalar metric distance, general ambient
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:724:I have the packet’s claimed landing; now I’m checking whether that landing is actually earned by the founding semantics, especially around the supplied two-ended relation and the coincidence boundary where the pair plane degenerates.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:914:\(\mathcal R_{AB}\), both endpoint germs, or their physical inverse carry. Adopting that ownership is
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:942:4. a metric evaluation of supplied endpoint germs from a derivation that the physical relation owns
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:984:| physical relation owns one endpoint germ | `PROPOSED_WORKING_POSTULATE_NOT_DERIVED` |
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:985:| physical relation owns both endpoint germs and their inverse identification | `OPEN` |
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1010:   it after its endpoint germs/carry are supplied.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1016:- full observer reversal cannot be constructed from the metric and one endpoint germ;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1017:- two regular endpoint germs for the same boundary observers give terminal depths that are not
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1031:   endpoint germs, reversal, and complete matched composition.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1177:The core open issue is already visible in the packet’s own premise index: G168 yields a pair-plane evaluator from a supplied germ, while physical ownership of both endpoint germs and their carry remains open. I’m now pinning the exact lines and checking whether the proposed orbit adds anything beyond that missing supplied input.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1247:    67	For a supplied endpoint germ \((u_A,s_{AB})\), G168 derives
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1322:   142	evaluated endpoint germs automatically realize this inverse pair.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1570:    22	4. a metric evaluation of supplied endpoint germs from a derivation that the physical relation owns
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1612:    64	| physical relation owns one endpoint germ | `PROPOSED_WORKING_POSTULATE_NOT_DERIVED` |
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1613:    65	| physical relation owns both endpoint germs and their inverse identification | `OPEN` |
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1638:    90	   it after its endpoint germs/carry are supplied.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1644:    96	- full observer reversal cannot be constructed from the metric and one endpoint germ;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1645:    97	- two regular endpoint germs for the same boundary observers give terminal depths that are not
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1659:   111	   endpoint germs, reversal, and complete matched composition.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1730:    45	require opposite signs. The metric evaluates each endpoint germ but does not by itself declare two
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1771:    86	derive its pure reciprocal reversal and matched composition, but not physical ownership of both
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1772:    87	endpoint germs, their carry, the coincidence completion, a scalar metric distance, general ambient
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3775:/bin/bash -lc "grep -RIn \"owns both endpoint germs\\|inverse identification\\|ownership open\\|additional working postulate\\|does not map\" /intake/sources /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18 | sed -n '1,200p'" in /intake
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3781:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PREREGISTRATION.md:65:| physical relation owns both endpoint germs and their inverse identification | `OPEN` |
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3782:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:11:physical co-present relation owns both endpoint germs	PROPOSED_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_DERIVED	owner decision remains
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3784:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:33:9. State whether “a physical co-present pair owns both endpoint germs as reciprocal orientations of
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3804:     9	physical two-ended germ ownership	PROPOSED_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_DERIVED	owner decision remains
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3811:     3	pure reciprocal scalar reversal	DERIVED_CONDITIONAL	G166 and 36 exact production checks
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3819:    11	physical co-present relation owns both endpoint germs	PROPOSED_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_DERIVED	owner decision remains
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md:14:   __NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md:27:   - founded reciprocal scalar reversal;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md:29:   - the G168 ordinary-reversal counterexample;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/INDEPENDENT_VERIFICATION.json:4:  "landing_supported": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md:22:or one supplied endpoint germ, into a physical two-ended relation containing the reverse germ and
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md:23:inverse carry. Consequently, quotienting a **supplied** two-ended relation by reversal is a lawful
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md:29:1. retain the conditional reversal quotient theorem;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_REVIEW_ADJUDICATION.md:33:4. retain physical two-ended germ/carry ownership as `OPEN`;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:11:__NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:47:require opposite signs. The metric evaluates each endpoint germ but does not by itself declare two
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:92:matched composition, but they do not derive the supplied two-ended relation and therefore do not
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/STATUS_LEDGER.tsv:9:physical two-ended germ and carry ownership	OPEN_NOT_DERIVED	the quotient cannot supply or replace either missing input
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/DERIVATION_RESULT.json:208:  "landing": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_bidirectional_distance_independent.py:104:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/derive_bidirectional_distance.py:163:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/run_catch_proofs.py:34:    "physical co-present relation owns both endpoint germs and inverse carry\tOPEN_NOT_DERIVED" in ledger
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/run_catch_proofs.py:35:    and "physical two-ended germ and carry ownership\tOPEN_NOT_DERIVED" in status
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md:9:1. Change the `STATUS_LEDGER.tsv` object label from `physical two-ended germ ownership` to
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md:10:   `physical two-ended germ and carry ownership`.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md:12:   endpoint germs` to `physical co-present relation owns both endpoint germs and inverse carry`.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md:13:3. Retain `OPEN_NOT_DERIVED` and state that the quotient cannot supply or replace either input.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md:14:4. Strengthen catch proofs and package verification to require the full germ-and-carry wording.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md:21:The repair fails if any live outcome ledger narrows the open ownership joint to endpoint germs alone
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/FOLLOWUP_REVIEW_ADJUDICATION.md:21:No scientific landing changes. Both ledgers must explicitly name two-ended germ **and carry**
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/FOLLOWUP_REVIEW_ADJUDICATION.md:22:ownership as `OPEN_NOT_DERIVED`, and the package guards must check the complete phrase.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PREREGISTRATION.md:22:4. a metric evaluation of supplied endpoint germs from a derivation that the physical relation owns
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PREREGISTRATION.md:64:| physical relation owns one endpoint germ | `PROPOSED_WORKING_POSTULATE_NOT_DERIVED` |
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PREREGISTRATION.md:65:| physical relation owns both endpoint germs and their inverse identification | `OPEN` |
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PREREGISTRATION.md:90:   it after its endpoint germs/carry are supplied.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PREREGISTRATION.md:96:- full observer reversal cannot be constructed from the metric and one endpoint germ;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PREREGISTRATION.md:97:- two regular endpoint germs for the same boundary observers give terminal depths that are not
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PREREGISTRATION.md:111:   endpoint germs, reversal, and complete matched composition.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PONDER_MAP.md:24:1. **Two directions are one object, not two independent solves.** If the A and B endpoint germs are
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PONDER_MAP.md:38:> arrow-valued channels. The metric could then evaluate both endpoint germs.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/PONDER_MAP.md:41:physical co-present pair owns such a two-ended germ/carry object is not derived from the written
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:4:pure reciprocal scalar reversal	DERIVED_CONDITIONAL	G166 and 36 exact production checks
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:12:physical co-present relation owns both endpoint germs and inverse carry	OPEN_NOT_DERIVED	external review confirmed that the quotient only renames these missing ownership inputs
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md:16:Not covered: derivation of physical two-ended germs/carry, coincidence completion, singular/null
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md:35:two-ended germ/carry ownership `OPEN` and no longer labels the conditional quotient as UDT distance.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:68:For a supplied endpoint germ \((u_A,s_{AB})\), G168 derives
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:143:evaluated endpoint germs automatically realize this inverse pair.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:254:are individually admissible pair readouts, while matched composition would require
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:309:__NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:326:\(\mathcal R_{AB}\), both endpoint germs, or their physical inverse carry. Without that additional
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py:64:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py:82:    "physical co-present relation owns both endpoint germs and inverse carry\tOPEN_NOT_DERIVED" in ledger,
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py:86:    "physical two-ended germ and carry ownership\tOPEN_NOT_DERIVED" in status_ledger,
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:14:Review the corrected sealed G169 intake cold, read-only, and repair-only. Do not reopen or continue the scientific program. Read REPAIR_PREREGISTRATION.md, EXTERNAL_REVIEW_ADJUDICATION.md, and the repaired live package files. Verify only: (1) the unsupported promotion of the reversal quotient to physical UDT distance has been removed from all live outcome files and executable landing strings; (2) physical two-ended germ/carry ownership remains OPEN_NOT_DERIVED; (3) the conditional reversal quotient theorem on one supplied two-ended reciprocal relation is retained; (4) pure reciprocal scalar reversal, matched-chain composition, the flat ordinary-reversal counterexample, arbitrary-triangle category correction, scalar pseudoseparation limitation, carry-versus-scalar closure distinction, and coincidence boundary remain intact; and (5) the repaired internal evidence gates and fail-closed guards are coherent. Historical preregistration, original request, raw first review, and transcript may retain the original wording as immutable evidence and must not be counted as repair failures. Return exactly one: FOLLOWUP_PASS__OWNERSHIP_REGRADE_COMPLETE__CONDITIONAL_REVERSAL_THEOREM_RETAINED; FOLLOWUP_REPAIR_REQUIRED__LANDING_SURVIVES; FOLLOWUP_FAIL__OVERPROMOTION_REMAINS; or another precisely stated repair-only result. Do not edit files, inspect outside /intake, use the internet, access protected packages, or derive any new physics.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:296:or one supplied endpoint germ, into a physical two-ended relation containing the reverse germ and
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:297:inverse carry. Consequently, quotienting a **supplied** two-ended relation by reversal is a lawful
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:303:1. retain the conditional reversal quotient theorem;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:307:4. retain physical two-ended germ/carry ownership as `OPEN`;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:328:   __NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:341:   - founded reciprocal scalar reversal;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:343:   - the G168 ordinary-reversal counterexample;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:376:physical two-ended germ ownership	OPEN_NOT_DERIVED	the quotient cannot supply or replace this missing relation
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:396:Not covered: derivation of physical two-ended germs/carry, coincidence completion, singular/null
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:413:two-ended germ/carry ownership `OPEN` and no longer labels the conditional quotient as UDT distance.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:633:  "landing": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:638:/bin/bash -lc "grep -RInE 'physical UDT distance|UDT distance|relational distance object|physical relational-distance object|NOT_YET_PHYSICAL_UDT_DISTANCE|OPEN_NOT_DERIVED|CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION|pure reciprocal|matched chain|ordinary-reversal|flat same-surface|arbitrary triangle|pseudoseparation|closure|coincidence' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18" in /intake
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:641:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:42:7. Test the coincidence boundary, where the scalar identity survives but the regular rank-two pair
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:644:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:131:7. Test the coincidence boundary, where the scalar identity survives but the regular rank-two pair
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:651:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:505:derive its pure reciprocal reversal and matched composition, but not physical ownership of both
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:652:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:506:endpoint germs, their carry, the coincidence completion, a scalar metric distance, general ambient
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:654:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:724:I have the packet’s claimed landing; now I’m checking whether that landing is actually earned by the founding semantics, especially around the supplied two-ended relation and the coincidence boundary where the pair plane degenerates.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:680:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1771:    86	derive its pure reciprocal reversal and matched composition, but not physical ownership of both
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:681:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1772:    87	endpoint germs, their carry, the coincidence completion, a scalar metric distance, general ambient
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:708:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3811:     3	pure reciprocal scalar reversal	DERIVED_CONDITIONAL	G166 and 36 exact production checks
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:714:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md:14:   __NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:717:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md:29:   - the G168 ordinary-reversal counterexample;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:722:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/INDEPENDENT_VERIFICATION.json:4:  "landing_supported": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:729:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:11:__NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:737:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/STATUS_LEDGER.tsv:9:physical two-ended germ ownership	OPEN_NOT_DERIVED	the quotient cannot supply or replace this missing relation
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:739:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/DERIVATION_RESULT.json:208:  "landing": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:743:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_bidirectional_distance_independent.py:104:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:747:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/derive_bidirectional_distance.py:163:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:749:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/run_catch_proofs.py:32:catches["ownership_not_derived"] = "OPEN_NOT_DERIVED" in ledger
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:763:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:4:pure reciprocal scalar reversal	DERIVED_CONDITIONAL	G166 and 36 exact production checks
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:766:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:12:physical co-present relation owns both endpoint germs	OPEN_NOT_DERIVED	external review confirmed that the quotient only renames this missing ownership input
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:768:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md:16:Not covered: derivation of physical two-ended germs/carry, coincidence completion, singular/null
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:769:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md:33:two-ended germ/carry ownership `OPEN` and no longer labels the conditional quotient as UDT distance.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:777:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:309:__NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:779:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py:60:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:780:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py:76:require("OPEN_NOT_DERIVED" in ledger, "ownership boundary")
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:782:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:29:7. Test the coincidence boundary, where the scalar identity survives but the regular rank-two pair
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:826:  "landing_supported": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:907:For a supplied endpoint germ \((u_A,s_{AB})\), G168 derives
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:982:evaluated endpoint germs automatically realize this inverse pair.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1093:are individually admissible pair readouts, while matched composition would require
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1148:__NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1165:\(\mathcal R_{AB}\), both endpoint germs, or their physical inverse carry. Without that additional
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1205:__NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1241:require opposite signs. The metric evaluates each endpoint germ but does not by itself declare two
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1284:matched composition, but they do not derive the supplied two-ended relation and therefore do not
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1294:pure reciprocal scalar reversal	DERIVED_CONDITIONAL	G166 and 36 exact production checks
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1302:physical co-present relation owns both endpoint germs	OPEN_NOT_DERIVED	external review confirmed that the quotient only renames this missing ownership input
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1412:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1428:require("OPEN_NOT_DERIVED" in ledger, "ownership boundary")
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1499:catches["ownership_not_derived"] = "OPEN_NOT_DERIVED" in ledger
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1684:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1820:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1841:/bin/bash -lc "grep -RInE 'PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN|OPEN_NOT_DERIVED|carry' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/LAY_REPORT.md /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/STATUS_LEDGER.tsv /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/DERIVATION_RESULT.json /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/INDEPENDENT_VERIFICATION.json /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/run_catch_proofs.py" in /intake
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1866:1. **Two directions are one object, not two independent solves.** If the A and B endpoint germs are
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1880:> arrow-valued channels. The metric could then evaluate both endpoint germs.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1883:physical co-present pair owns such a two-ended germ/carry object is not derived from the written
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1897:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:326:\(\mathcal R_{AB}\), both endpoint germs, or their physical inverse carry. Without that additional
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1900:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:12:physical co-present relation owns both endpoint germs	OPEN_NOT_DERIVED	external review confirmed that the quotient only renames this missing ownership input
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1902:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/STATUS_LEDGER.tsv:9:physical two-ended germ ownership	OPEN_NOT_DERIVED	the quotient cannot supply or replace this missing relation
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1903:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md:16:Not covered: derivation of physical two-ended germs/carry, coincidence completion, singular/null
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1904:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md:33:two-ended germ/carry ownership `OPEN` and no longer labels the conditional quotient as UDT distance.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1908:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/DERIVATION_RESULT.json:208:  "landing": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1909:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/INDEPENDENT_VERIFICATION.json:4:  "landing_supported": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1911:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py:76:require("OPEN_NOT_DERIVED" in ledger, "ownership boundary")
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1912:/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/run_catch_proofs.py:32:catches["ownership_not_derived"] = "OPEN_NOT_DERIVED" in ledger
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:15:1. Type-check the oriented response `R_AB`, its reversal `R_BA`, the endpoint germs, and any supplied
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:29:7. Test the coincidence boundary, where the scalar identity survives but the regular rank-two pair
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:33:9. State whether “a physical co-present pair owns both endpoint germs as reciprocal orientations of
+
+codex
+The live ledgers already show the repaired ownership labels and `OPEN_NOT_DERIVED`. I’m now checking whether the package’s live landing, theorem clauses, and guard scripts still match that repaired boundary rather than drifting.
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md | sed -n '300,340p'" in /intake
+ succeeded in 0ms:
+   300	contain its own identity arrow. A full global relation category must adjoin or derive the degenerate
+   301	identity stratum. This audit does not perform that boundary completion.
+   302	
+   303	## 9. Epistemic landing
+   304	
+   305	The exact landing is
+   306	
+   307	```text
+   308	CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION
+   309	__NOT_YET_PHYSICAL_UDT_DISTANCE
+   310	__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED
+   311	__MATCHED_CHAIN_COMPOSITION_DERIVED
+   312	__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED
+   313	__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
+   314	```
+   315	
+   316	The mathematical definition
+   317	
+   318	\[
+   319	\mathfrak Q(A,B)=[\mathcal R_{AB}]_{\mathcal R\sim\mathcal R^{-1}}
+   320	\]
+   321	
+   322	is consistent on supplied regular two-ended reciprocal relations. It does not derive that physical
+   323	distance is such an object, because it cannot supply the relation on which the quotient acts.
+   324	
+   325	What is **not** derived is that the present founding word “co-presence” already supplies
+   326	\(\mathcal R_{AB}\), both endpoint germs, or their physical inverse carry. Without that additional
+   327	ownership statement, the quotient is a conditional representation theorem and not a UDT definition
+   328	of distance.
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md | sed -n '1,220p'" in /intake
+ succeeded in 0ms:
+     1	# G169 evidence gates
+     2	
+     3	Date: 2026-08-18
+     4	
+     5	## Gate 1 — preregistration
+     6	
+     7	Passed. The question, allowed outcomes, falsifiers, exclusions, and 12-source frozen manifest were
+     8	committed and pushed at `c3351201` before outcome algebra.
+     9	
+    10	## Gate 2 — full or bounded space
+    11	
+    12	Complete for the finite-dimensional identities of supplied regular two-ended reciprocal relations,
+    13	the founded pure pair block, the G168 flat same-boundary counterfamily, matched scalar chains, and
+    14	supplied invertible two-dimensional carries.
+    15	
+    16	Not covered: derivation of physical two-ended germs/carry, coincidence completion, singular/null
+    17	strata, general ambient metrics, global query populations, paths, dynamics, observation, or
+    18	`X_max`.
+    19	
+    20	## Gate 3 — independent verification
+    21	
+    22	- production exact checks: 36/36;
+    23	- independent stdlib `Fraction` replay: 12,005/12,005 over 1,200 trials;
+    24	- semantic/algebraic mutation catches: 12/12;
+    25	- current premise verifier: PASS over the 154-row registry;
+    26	- repository regression: 126 passed, 1 expected failure;
+    27	- fresh adversarial review: `TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION`;
+    28	- ownership regrade: implemented;
+    29	- first repair-only follow-up: `FOLLOWUP_REPAIR_REQUIRED__LANDING_SURVIVES`;
+    30	- exact germ/carry ledger alignment: implemented; final repair-only follow-up open.
+    31	
+    32	## Gate 4 — premise audit
+    33	
+    34	The frozen manifest and current 154-row premise verifier pass. The repaired landing keeps physical
+    35	two-ended germ/carry ownership `OPEN` and no longer labels the conditional quotient as UDT distance.
+    36	
+    37	## Current grade
+    38	
+    39	```text
+    40	VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_IMPLEMENTED__FINAL_REPAIR_FOLLOWUP_OPEN
+    41	```
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py | sed -n '1,220p'" in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Fail-closed package verifier for G169."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import hashlib
+     7	import json
+     8	import subprocess
+     9	import sys
+    10	from pathlib import Path
+    11	
+    12	
+    13	ROOT = Path(__file__).resolve().parents[1]
+    14	HERE = Path(__file__).resolve().parent
+    15	
+    16	
+    17	def require(condition: bool, message: str) -> None:
+    18	    if not condition:
+    19	        raise AssertionError(message)
+    20	
+    21	
+    22	required = [
+    23	    "PREREGISTRATION.md",
+    24	    "SOURCE_MANIFEST.tsv",
+    25	    "STATUS_LEDGER.tsv",
+    26	    "PONDER_MAP.md",
+    27	    "EXACT_DERIVATION.md",
+    28	    "AUDIT_REPORT.md",
+    29	    "LAY_REPORT.md",
+    30	    "OUTCOME_PREMISE_LEDGER.tsv",
+    31	    "EVIDENCE_GATES.md",
+    32	    "derive_bidirectional_distance.py",
+    33	    "verify_bidirectional_distance_independent.py",
+    34	    "run_catch_proofs.py",
+    35	    "DERIVATION_RESULT.json",
+    36	    "INDEPENDENT_VERIFICATION.json",
+    37	    "CATCH_PROOF_RESULT.json",
+    38	    "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+    39	    "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt",
+    40	    "EXTERNAL_REVIEW_ADJUDICATION.md",
+    41	    "REPAIR_PREREGISTRATION.md",
+    42	    "TRANSMISSION_RECORD.md",
+    43	    "EXTERNAL_FOLLOWUP_REVIEW_RAW.md",
+    44	    "EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt",
+    45	    "FOLLOWUP_REVIEW_ADJUDICATION.md",
+    46	    "SECOND_REPAIR_PREREGISTRATION.md",
+    47	]
+    48	for name in required:
+    49	    require((HERE / name).is_file(), f"missing {name}")
+    50	
+    51	manifest_count = 0
+    52	for line in (HERE / "SOURCE_MANIFEST.tsv").read_text().splitlines()[1:]:
+    53	    expected, relative, _role = line.split("\t")
+    54	    actual = hashlib.sha256((ROOT / relative).read_bytes()).hexdigest()
+    55	    require(actual == expected, f"source hash {relative}")
+    56	    manifest_count += 1
+    57	require(manifest_count == 12, "manifest count")
+    58	
+    59	derivation = json.loads((HERE / "DERIVATION_RESULT.json").read_text())
+    60	independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text())
+    61	catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text())
+    62	landing = (
+    63	    "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION"
+    64	    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+    65	    "__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED"
+    66	    "__MATCHED_CHAIN_COMPOSITION_DERIVED"
+    67	    "__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED"
+    68	    "__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN"
+    69	)
+    70	require(derivation["landing"] == landing, "production landing")
+    71	require(derivation["checks_passed"] == derivation["checks_total"] == 36, "production checks")
+    72	require(independent["checks_passed"] == 12005, "independent count")
+    73	require(independent["landing_supported"] == landing, "independent landing")
+    74	require(catches["catches_passed"] == catches["catches_total"] == 12, "mutation catches")
+    75	
+    76	audit = (HERE / "AUDIT_REPORT.md").read_text()
+    77	exact = (HERE / "EXACT_DERIVATION.md").read_text()
+    78	ledger = (HERE / "OUTCOME_PREMISE_LEDGER.tsv").read_text()
+    79	status_ledger = (HERE / "STATUS_LEDGER.tsv").read_text()
+    80	require("FINAL_REPAIR_FOLLOWUP_OPEN" in audit, "external followup status")
+    81	require(
+    82	    "physical co-present relation owns both endpoint germs and inverse carry\tOPEN_NOT_DERIVED" in ledger,
+    83	    "outcome ownership boundary",
+    84	)
+    85	require(
+    86	    "physical two-ended germ and carry ownership\tOPEN_NOT_DERIVED" in status_ledger,
+    87	    "status ownership boundary",
+    88	)
+    89	require("NOT_DERIVED_TYPE_FAILURE" in ledger, "physical distance boundary")
+    90	require("surface reversal or endpoint exchange alone does not generate UDT Reciprocity" in exact, "counterexample boundary")
+    91	require("arbitrary" in audit and "one-dimensional additive rule" in audit, "triangle category guard")
+    92	require(
+    93	    hashlib.sha256((HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_bytes()).hexdigest()
+    94	    == "722a1013b5f221e3c15cc843c1efda058375a25927e595108b6d775c12265762",
+    95	    "external raw hash",
+    96	)
+    97	require(
+    98	    hashlib.sha256((HERE / "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt").read_bytes()).hexdigest()
+    99	    == "e3fd11474760c1885260352c76a839fe410acaceeea7355926c089375627ef2e",
+   100	    "external transcript hash",
+   101	)
+   102	require(
+   103	    hashlib.sha256((HERE / "EXTERNAL_FOLLOWUP_REVIEW_RAW.md").read_bytes()).hexdigest()
+   104	    == "ffa4e6ceb1164102b223607d2eacc984b65546f45f46175cb051b42d62ec7e2a",
+   105	    "external followup raw hash",
+   106	)
+   107	require(
+   108	    hashlib.sha256((HERE / "EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt").read_bytes()).hexdigest()
+   109	    == "ce0260faea817b6adba97cada472b497e532cd7f25a3bf8c86c870590c7c97f4",
+   110	    "external followup transcript hash",
+   111	)
+   112	
+   113	premise = subprocess.run(
+   114	    [sys.executable, str(ROOT / "verify_current_scientific_premises.py")],
+   115	    cwd=ROOT,
+   116	    text=True,
+   117	    capture_output=True,
+   118	    check=False,
+   119	)
+   120	require(premise.returncode == 0, "current premise verifier")
+   121	
+   122	result = {
+   123	    "status": "PASS__SECOND_LEDGER_REPAIR_INTERNAL_GATES__FINAL_REPAIR_FOLLOWUP_OPEN",
+   124	    "required_files": len(required),
+   125	    "source_hashes": manifest_count,
+   126	    "production_checks": derivation["checks_total"],
+   127	    "independent_checks": independent["checks_passed"],
+   128	    "semantic_catches": catches["catches_total"],
+   129	    "premise_verifier_returncode": premise.returncode,
+   130	    "premise_verifier_stdout": premise.stdout.strip(),
+   131	}
+   132	(HERE / "VERIFICATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   133	print(json.dumps(result, sort_keys=True))
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md | sed -n '1,130p'" in /intake
+ succeeded in 0ms:
+     1	# G169 audit report — bidirectional co-present metric distance
+     2	
+     3	Date: 2026-08-18
+     4	
+     5	Grade: `VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_IMPLEMENTED__FINAL_REPAIR_FOLLOWUP_OPEN`
+     6	
+     7	## Primary landing
+     8	
+     9	```text
+    10	CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION
+    11	__NOT_YET_PHYSICAL_UDT_DISTANCE
+    12	__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED
+    13	__MATCHED_CHAIN_COMPOSITION_DERIVED
+    14	__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED
+    15	__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
+    16	```
+    17	
+    18	## Result first
+    19	
+    20	The fresh adversarial review found a type failure in the proposed physical-distance wording. A
+    21	reversal quotient is mathematically coherent **after one two-ended reciprocal relation has been
+    22	supplied**, but current UDT premises do not supply that relation. The quotient therefore cannot yet
+    23	be called physical UDT distance.
+    24	
+    25	For the oriented relation,
+    26	
+    27	\[
+    28	\delta_{BA}=-\delta_{AB},\qquad
+    29	q_{BA}=q_{AB}^{-1},\qquad
+    30	\chi_{BA}=-\chi_{AB}.
+    31	\]
+    32	
+    33	The conditional quotient
+    34	
+    35	\[
+    36	\mathfrak Q(A,B)=\{\mathcal R_{AB},\mathcal R_{BA}\}
+    37	\]
+    38	
+    39	is symmetric and gauge-compatible on supplied data. It can retain both endpoint orchestras rather
+    40	than compressing all angular and shift information into one scalar, but it does not create or select
+    41	those endpoint data.
+    42	
+    43	## The decisive boundary
+    44	
+    45	G168's exact same-boundary flat surface family gives the same terminal depth at both ends after
+    46	ordinary surface reversal. For the witness `a=1`, both are `log(2)/4`; reciprocal reversal would
+    47	require opposite signs. The metric evaluates each endpoint germ but does not by itself declare two
+    48	independently supplied germs to be inverse views of one physical relation.
+    49	
+    50	Thus “co-present physical pair owns a two-ended reciprocal germ” remains the smallest missing
+    51	ownership statement. It is `OPEN`, not derived, and the quotient cannot substitute for it.
+    52	
+    53	## Three-observer correction
+    54	
+    55	Matched reciprocal chains compose exactly by additive depth and the bounded Mobius law. An arbitrary
+    56	non-collinear observer triangle need not obey that one-dimensional additive rule: the middle
+    57	observer's two pair directions and calibrations differ. When a full sequential comparison is
+    58	requested, supplied complete carries compose exactly, but scalar closure remains weaker than matrix
+    59	closure because determinant-one shear can be invisible.
+    60	
+    61	This removes another artificial demand. A conditional reversal quotient need not supply an additive
+    62	scalar on every observer triangle.
+    63	
+    64	## Scalar shadows
+    65	
+    66	`abs(delta)` and `abs(chi)` descend to symmetric nonnegative readouts. They are not established
+    67	metric-space distances: distinct boundary observers can have `delta=0`, so identity of
+    68	indiscernibles fails in the admitted local arena. The full complete response may distinguish more,
+    69	but no unique scalar compression is derived.
+    70	
+    71	## Evidence
+    72	
+    73	- preregistered and pushed at `c3351201` before outcome algebra;
+    74	- 12 frozen source hashes pass;
+    75	- 36/36 exact symbolic/source checks pass;
+    76	- independent standard-library `Fraction` replay: 12,005/12,005 over 1,200 trials;
+    77	- exact reversal, gauge, same-surface, arbitrary-triangle, complete-carry, and scalar-blind-shear
+    78	  witnesses pass;
+    79	- semantic mutation catches: 12/12;
+    80	- current 154-row premise audit passes;
+    81	- repository regression: 126 passed, 1 expected failure;
+    82	- fresh adversarial review returned
+    83	  `TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION`;
+    84	- the first repair-only follow-up returned `FOLLOWUP_REPAIR_REQUIRED__LANDING_SURVIVES` because two
+    85	  ledger labels omitted the still-open carry ownership joint;
+    86	- that exact ledger alignment is implemented and a final repair-only follow-up remains open.
+    87	
+    88	## Maximum conclusion
+    89	
+    90	In the bounded regular primary-metric arena, reversal defines a gauge-compatible quotient **when a
+    91	two-ended reciprocal relation is supplied**. Current premises derive pure reciprocal reversal and
+    92	matched composition, but they do not derive the supplied two-ended relation and therefore do not
+    93	yet derive a physical UDT distance. They also do not derive the carry, coincidence completion, a
+    94	scalar metric distance, general ambient completion, `X_max`, dynamics, or observations.
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/run_catch_proofs.py | sed -n '1,220p'" in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Semantic and algebraic mutation catches for G169."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import json
+     7	from fractions import Fraction
+     8	from pathlib import Path
+     9	
+    10	
+    11	HERE = Path(__file__).resolve().parent
+    12	audit = (HERE / "AUDIT_REPORT.md").read_text()
+    13	exact = (HERE / "EXACT_DERIVATION.md").read_text()
+    14	ledger = (HERE / "OUTCOME_PREMISE_LEDGER.tsv").read_text()
+    15	status = (HERE / "STATUS_LEDGER.tsv").read_text()
+    16	repair = (HERE / "REPAIR_PREREGISTRATION.md").read_text()
+    17	
+    18	catches: dict[str, bool] = {}
+    19	
+    20	# Algebra mutations: each asserted bad rule must be caught by an exact witness.
+    21	q = Fraction(2, 1)
+    22	catches["false_q_reversal"] = q * q != 1
+    23	chi = (1 - q) / (1 + q)
+    24	catches["false_chi_evenness"] = chi != -chi
+    25	catches["false_arbitrary_triangle_additivity"] = Fraction(1, 5) != Fraction(1, 2) * Fraction(1, 3)
+    26	catches["surface_reversal_not_reciprocal"] = Fraction(1, 2) * Fraction(1, 2) != 1
+    27	
+    28	identity = ((1, 0), (0, 1))
+    29	shear = ((1, 1), (0, 1))
+    30	catches["scalar_closure_not_matrix_closure"] = shear != identity and shear[0][0] * shear[1][1] == 1
+    31	
+    32	# Semantic catches: fail closed on the main tempting promotions.
+    33	catches["ownership_not_derived"] = (
+    34	    "physical co-present relation owns both endpoint germs and inverse carry\tOPEN_NOT_DERIVED" in ledger
+    35	    and "physical two-ended germ and carry ownership\tOPEN_NOT_DERIVED" in status
+    36	)
+    37	catches["physical_distance_not_derived"] = "NOT_DERIVED_TYPE_FAILURE" in ledger
+    38	catches["no_scalar_metric_overclaim"] = "not established physical metric distances" in exact
+    39	catches["coincidence_boundary_retained"] = "OPEN_BOUNDARY" in ledger and "rank two to rank one" in exact
+    40	catches["arbitrary_triangle_category_guard"] = "arbitrary-triangle category correction" in repair and "category error" in exact
+    41	catches["external_type_failure_recorded"] = "TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION" in audit
+    42	catches["repair_followup_open"] = "FINAL_REPAIR_FOLLOWUP_OPEN" in audit
+    43	
+    44	for name, passed in catches.items():
+    45	    if not passed:
+    46	        raise AssertionError(name)
+    47	
+    48	result = {
+    49	    "catches_passed": sum(catches.values()),
+    50	    "catches_total": len(catches),
+    51	    "catches": catches,
+    52	}
+    53	(HERE / "CATCH_PROOF_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    54	print(json.dumps({"passed": result["catches_passed"], "total": result["catches_total"]}, sort_keys=True))
+
+codex
+The guard scripts already hard-require the repaired ledger phrases, not just a generic `OPEN_NOT_DERIVED`. I’m doing one more pass over the live derivation/report text to confirm the listed theorem boundaries remain intact and unchanged in substance.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/DERIVATION_RESULT.json" in /intake
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md | sed -n '1,220p'" in /intake
+ succeeded in 0ms:
+     1	# G169 ownership regrade preregistration
+     2	
+     3	Date: 2026-08-18
+     4	
+     5	Trigger: fresh external return
+     6	`TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION`.
+     7	
+     8	## Frozen repairs
+     9	
+    10	1. Replace the primary landing with:
+    11	
+    12	   ```text
+    13	   CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION
+    14	   __NOT_YET_PHYSICAL_UDT_DISTANCE
+    15	   __PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED
+    16	   __MATCHED_CHAIN_COMPOSITION_DERIVED
+    17	   __ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED
+    18	   __PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
+    19	   ```
+    20	
+    21	2. Replace language saying the proposal is a coherent physical relational-distance object with the
+    22	   narrower theorem: reversal defines a gauge-compatible involution and quotient **after** a
+    23	   two-ended reciprocal relation and allowed endpoint gauges have been supplied.
+    24	3. State explicitly that the quotient is not currently a derived UDT distance and cannot supply
+    25	   its own missing relation.
+    26	4. Preserve unchanged:
+    27	   - founded reciprocal scalar reversal;
+    28	   - matched one-dimensional chain composition;
+    29	   - the G168 ordinary-reversal counterexample;
+    30	   - arbitrary-triangle category correction;
+    31	   - scalar pseudoseparation limitation;
+    32	   - complete-carry versus scalar-closure distinction;
+    33	   - coincidence as an open rank-changing boundary.
+    34	5. Update executable landing strings, ledgers, reports, catch proofs, and package verification to
+    35	   fail closed against the old overpromotion.
+    36	6. Run all internal gates and obtain a fresh repair-only external follow-up before any startup or
+    37	   premise-registry promotion.
+    38	
+    39	## Falsifier for the repair
+    40	
+    41	The repair fails if any live result still presents the reversal quotient as physical UDT distance,
+    42	or if it weakens the surviving bounded algebra in order to hide the ownership failure.
+    43	
+    44	## Maximum conclusion
+    45	
+    46	At most, the repaired package may establish a conditional representation theorem on supplied
+    47	two-ended reciprocal relations and identify the exact missing co-presence ownership statement. It
+    48	may not adopt that statement, canonize a definition of distance, or infer paths, dynamics,
+    49	observations, or `X_max`.
+
+ succeeded in 0ms:
+{
+  "arbitrary_triangle": {
+    "q_AB": "1/2",
+    "q_AC_if_matched_composition": "1/6",
+    "q_AC_independently_supplied": "1/5",
+    "q_BC": "1/3"
+  },
+  "checks": [
+    {
+      "detail": "",
+      "name": "reversal_involution",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reversal_swaps_endpoints",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-exp(-2*d), 0], [0, exp(2*d)]])",
+      "name": "founded_metric",
+      "passed": true
+    },
+    {
+      "detail": "-1",
+      "name": "founded_determinant",
+      "passed": true
+    },
+    {
+      "detail": "Matrix([[-exp(2*d), 0], [0, exp(-2*d)]])",
+      "name": "reverse_metric",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure_reverse_identification",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure_reverse_identification_inverse",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "q_reversal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "chi_reversal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "absolute_depth_descends",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "squared_chi_descends",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "D_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "q_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "chi_mobius_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_depth_triangle_2_3",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_depth_triangle_2_-3",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_depth_triangle_-2_3",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_depth_triangle_-2_-3",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_reverse_same_metric",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_reverse_same_terminal_depth",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_reverse_not_reciprocal_witness",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_endpoint_q2_equal",
+      "passed": true
+    },
+    {
+      "detail": "1/4",
+      "name": "surface_endpoint_q_not_inverse_witness",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "distinct_observers_zero_scalar_witness",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "independent_pairs_each_positive",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "arbitrary_triangle_not_forced",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_triangle_expected_q",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "full_carry_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "full_carry_reverse",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "full_carry_associativity",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reversal_gauge_equivariance",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "gauged_reversal_involution",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "shear_nonidentity",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "shear_scale_character_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "shear_reciprocal_character_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "scalar_closure_weaker_than_matrix_closure",
+      "passed": true
+    }
+  ],
+  "checks_passed": 36,
+  "checks_total": 36,
+  "key_counterexample": {
+    "delta_A": "log(2)/4",
+    "delta_B_after_surface_reversal": "log(2)/4",
+    "endpoint_metric": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "required_reciprocal_delta_B": "-log(2)/4",
+    "surface_parameter": 1
+  },
+  "landing": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+  "status": "DERIVED_CONDITIONAL"
+}
+
+exec
+/bin/bash -lc "grep -RInE 'ordinary-reversal|category error|rank two to rank one|not established physical metric distances|surface reversal or endpoint exchange alone does not generate UDT Reciprocity|coincidence|complete carry|scalar closure|shear|matched chain|one-dimensional additive rule' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md" in /intake
+ succeeded in 0ms:
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:180:\text{surface reversal or endpoint exchange alone does not generate UDT Reciprocity.}
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:199:These are symmetric scalar readouts. They are not established physical metric distances. In the
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:243:But three individually regular pair metrics do not automatically form one matched chain. The exact
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:264:quotient. It is a category error to impose a one-dimensional reciprocal-chain law on every observer
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:290:characters see zero defect. The shear remains in their kernel.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:298:At coincidence, \(s_{AA}=0\) and the G168 pair plane drops from rank two to rank one. The scalar
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:56:non-collinear observer triangle need not obey that one-dimensional additive rule: the middle
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:58:requested, supplied complete carries compose exactly, but scalar closure remains weaker than matrix
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:59:closure because determinant-one shear can be invisible.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:77:- exact reversal, gauge, same-surface, arbitrary-triangle, complete-carry, and scalar-blind-shear
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:93:yet derive a physical UDT distance. They also do not derive the carry, coincidence completion, a
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md:29:   - the G168 ordinary-reversal counterexample;
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md:33:   - coincidence as an open rank-changing boundary.
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md | sed -n '1,220p'" in /intake
+ succeeded in 0ms:
+     1	# G169 second repair preregistration — germ/carry ledger alignment
+     2	
+     3	Date: 2026-08-19
+     4	
+     5	Trigger: repair-only external return `FOLLOWUP_REPAIR_REQUIRED__LANDING_SURVIVES`.
+     6	
+     7	## Frozen repair
+     8	
+     9	1. Change the `STATUS_LEDGER.tsv` object label from `physical two-ended germ ownership` to
+    10	   `physical two-ended germ and carry ownership`.
+    11	2. Change the `OUTCOME_PREMISE_LEDGER.tsv` statement from `physical co-present relation owns both
+    12	   endpoint germs` to `physical co-present relation owns both endpoint germs and inverse carry`.
+    13	3. Retain `OPEN_NOT_DERIVED` and state that the quotient cannot supply or replace either input.
+    14	4. Strengthen catch proofs and package verification to require the full germ-and-carry wording.
+    15	5. Change no algebra, landing component, or other premise status.
+    16	6. Rerun the complete internal package, premise, and repository gates before requesting a final
+    17	   repair-only follow-up.
+    18	
+    19	## Falsifier
+    20	
+    21	The repair fails if any live outcome ledger narrows the open ownership joint to endpoint germs alone
+    22	or promotes either the germs or carry to derived status.
+    23	
+    24	## Maximum conclusion
+    25	
+    26	The repair may only align ledger wording with the already retained landing. It cannot strengthen the
+    27	conditional reversal theorem or adopt a physical UDT distance definition.
+
+exec
+/bin/bash -lc "sed -n '1,80p' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/INDEPENDENT_VERIFICATION.json" in /intake
+ succeeded in 0ms:
+{
+  "checks_passed": 12005,
+  "implementation": "stdlib Fraction; no production imports",
+  "landing_supported": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+  "seed": 169,
+  "trials": 1200
+}
+
+codex
+I’m avoiding the executable verifiers because they overwrite result files, and this review is read-only. Instead I’m checking the existing result metadata and the verifier source itself to confirm the fail-closed requirement is encoded in the live package.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/CATCH_PROOF_RESULT.json" in /intake
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/VERIFICATION_RESULT.json" in /intake
+ succeeded in 0ms:
+{
+  "catches": {
+    "arbitrary_triangle_category_guard": true,
+    "coincidence_boundary_retained": true,
+    "external_type_failure_recorded": true,
+    "false_arbitrary_triangle_additivity": true,
+    "false_chi_evenness": true,
+    "false_q_reversal": true,
+    "no_scalar_metric_overclaim": true,
+    "ownership_not_derived": true,
+    "physical_distance_not_derived": true,
+    "repair_followup_open": true,
+    "scalar_closure_not_matrix_closure": true,
+    "surface_reversal_not_reciprocal": true
+  },
+  "catches_passed": 12,
+  "catches_total": 12
+}
+
+ succeeded in 0ms:
+{
+  "independent_checks": 12005,
+  "premise_verifier_returncode": 0,
+  "premise_verifier_stdout": "PASS: G168-extended premise guards; PASS: 154-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
+  "production_checks": 36,
+  "required_files": 24,
+  "semantic_catches": 12,
+  "source_hashes": 12,
+  "status": "PASS__SECOND_LEDGER_REPAIR_INTERNAL_GATES__FINAL_REPAIR_FOLLOWUP_OPEN"
+}
+
+exec
+/bin/bash -lc "grep -RInE 'physical co-present relation owns both endpoint germs and inverse carry|physical two-ended germ and carry ownership|OPEN_NOT_DERIVED|FINAL_REPAIR_FOLLOWUP_OPEN|GERM_CARRY_LEDGER_ALIGNMENT_IMPLEMENTED|SECOND_LEDGER_REPAIR' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/CATCH_PROOF_RESULT.json /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/VERIFICATION_RESULT.json" in /intake
+ succeeded in 0ms:
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:5:Grade: `VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_IMPLEMENTED__FINAL_REPAIR_FOLLOWUP_OPEN`
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EVIDENCE_GATES.md:40:VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_IMPLEMENTED__FINAL_REPAIR_FOLLOWUP_OPEN
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/VERIFICATION_RESULT.json:9:  "status": "PASS__SECOND_LEDGER_REPAIR_INTERNAL_GATES__FINAL_REPAIR_FOLLOWUP_OPEN"
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md | sed -n '150,210p'" in /intake
+ succeeded in 0ms:
+   150	F_a(\tau,\sigma)
+   151	=
+   152	(\tau,\sigma,a\sigma(1-\sigma),0).
+   153	\]
+   154	
+   155	At A, its separation tangent is \((0,1,a,0)\). At B, reversing the surface orientation gives
+   156	the reverse-directed tangent \((0,-1,a,0)\). Both have the same norm. The endpoint pullbacks are
+   157	
+   158	\[
+   159	h_A=h_B^{\rm reversed}
+   160	=
+   161	\operatorname{diag}(-1,1+a^2).
+   162	\]
+   163	
+   164	Therefore both terminal readouts are
+   165	
+   166	\[
+   167	\phi_A=\phi_B^{\rm reversed}
+   168	=
+   169	\frac14\log(1+a^2).
+   170	\]
+   171	
+   172	For \(a=1\), both equal \(\tfrac14\log2\), whereas reciprocal inversion would require the second
+   173	to equal \(-\tfrac14\log2\). Equivalently, both squared ratios are \(q^2=1/2\); they are equal,
+   174	not reciprocal.
+   175	
+   176	This proves:
+   177	
+   178	\[
+   179	\boxed{
+   180	\text{surface reversal or endpoint exchange alone does not generate UDT Reciprocity.}
+   181	}
+   182	\]
+   183	
+   184	The two endpoint evaluations must be typed as inverse orientations of one reciprocal relation.
+   185	That is an ontological/ownership statement with mathematical consequences, not a path selection.
+   186	
+   187	## 5. Scalar shadows of the reversal quotient
+   188	
+   189	Any odd scalar on oriented relations gives an even magnitude on the reversal orbit. In particular,
+   190	
+   191	\[
+   192	|\delta_{BA}|=|\delta_{AB}|,
+   193	\qquad
+   194	|\chi_{BA}|=|\chi_{AB}|,
+   195	\qquad
+   196	\chi_{BA}^2=\chi_{AB}^2.
+   197	\]
+   198	
+   199	These are symmetric scalar readouts. They are not established physical metric distances. In the
+   200	same flat family, \(a=0\) gives two distinct boundary observers with terminal \(\delta=0\). Thus
+   201	\(|\delta|\) and \(|\chi|\) fail identity of indiscernibles on the admitted local pair arena.
+   202	They are at most pseudoseparation readouts unless additional complete response data or a stronger
+   203	global theorem restores separation.
+   204	
+   205	The full reversal orbit retains both complete endpoint responses and need not compress their
+   206	angular, shift, or screen data to one number. Reversal swaps those endpoint responses; this audit
+   207	does not invent an odd/even law for every orchestra channel.
+   208	
+   209	## 6. Matched reciprocal chains compose; arbitrary triangles need not add
+   210	
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md | sed -n '210,275p'" in /intake
+ succeeded in 0ms:
+   210	
+   211	For a matched one-dimensional reciprocal chain,
+   212	
+   213	\[
+   214	D(\delta_{BC})D(\delta_{AB})
+   215	=
+   216	D(\delta_{AB}+\delta_{BC}),
+   217	\]
+   218	
+   219	so
+   220	
+   221	\[
+   222	\delta_{AC}=\delta_{AB}+\delta_{BC},
+   223	\qquad
+   224	q_{AC}=q_{AB}q_{BC},
+   225	\]
+   226	
+   227	and
+   228	
+   229	\[
+   230	\chi_{AC}
+   231	=
+   232	\frac{\chi_{AB}+\chi_{BC}}
+   233	{1+\chi_{AB}\chi_{BC}}.
+   234	\]
+   235	
+   236	The absolute signed depth obeys the ordinary triangle inequality on this matched additive chain:
+   237	
+   238	\[
+   239	|\delta_{AC}|
+   240	\le |\delta_{AB}|+|\delta_{BC}|.
+   241	\]
+   242	
+   243	But three individually regular pair metrics do not automatically form one matched chain. The exact
+   244	positive values
+   245	
+   246	\[
+   247	q_{AB}=\frac12,
+   248	\qquad
+   249	q_{BC}=\frac13,
+   250	\qquad
+   251	q_{AC}=\frac15
+   252	\]
+   253	
+   254	are individually admissible pair readouts, while matched composition would require
+   255	
+   256	\[
+   257	q_{AC}=\frac16.
+   258	\]
+   259	
+   260	At a non-collinear middle observer, the B-to-A and B-to-C germs also define different pair planes.
+   261	Demanding arbitrary scalar additivity would silently identify those calibrations and directions.
+   262	
+   263	Therefore arbitrary-triangle additivity is neither derived nor required by the conditional reversal
+   264	quotient. It is a category error to impose a one-dimensional reciprocal-chain law on every observer
+   265	triangle. When a sequential comparison is physically requested, its middle-state carry must be
+   266	matched or supplied.
+   267	
+   268	## 7. Complete carry is stronger than scalar agreement
+   269	
+   270	For supplied typed carries,
+   271	
+   272	\[
+   273	M_{CA}=M_{CB}M_{BA}
+   274	\]
+   275	
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md | sed -n '275,305p'" in /intake
+ succeeded in 0ms:
+   275	
+   276	gives exact inverse, associative, metric-pullback, and first-jet composition, as G156/G160 derive.
+   277	Reversal commutes with endpoint reparameterization, so a supplied complete relation has a lawful
+   278	quotient-independent inverse.
+   279	
+   280	Scalar closure cannot replace complete closure. Let
+   281	
+   282	\[
+   283	M_{BA}=M_{CB}=I,
+   284	\qquad
+   285	M_{CA}=
+   286	\begin{pmatrix}1&1\\0&1\end{pmatrix}.
+   287	\]
+   288	
+   289	The direct/staged matrix triangle fails, yet both determinant/common-scale and diagonal reciprocal
+   290	characters see zero defect. The shear remains in their kernel.
+   291	
+   292	Hence a supplied complete bidirectional response is mathematically richer than signed depth. This
+   293	supports retaining the conditional reversal quotient while preserving the open physical relation
+   294	and carry problem.
+   295	
+   296	## 8. Coincidence is a boundary stratum
+   297	
+   298	At coincidence, \(s_{AA}=0\) and the G168 pair plane drops from rank two to rank one. The scalar
+   299	identity \(\delta_{AA}=0\) remains meaningful, but the regular complete pair response does not
+   300	contain its own identity arrow. A full global relation category must adjoin or derive the degenerate
+   301	identity stratum. This audit does not perform that boundary completion.
+   302	
+   303	## 9. Epistemic landing
+   304	
+   305	The exact landing is
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/derive_bidirectional_distance.py | sed -n '150,190p'" in /intake
+ succeeded in 0ms:
+   150	    return sp.cancel(matrix[1, 1] / matrix[0, 0])
+   151	
+   152	
+   153	check("shear_nonidentity", shear != I)
+   154	check("shear_scale_character_zero", scale_square(shear) == 1)
+   155	check("shear_reciprocal_character_zero", reciprocal_square(shear) == 1)
+   156	check(
+   157	    "scalar_closure_weaker_than_matrix_closure",
+   158	    scale_square(shear) == reciprocal_square(shear) == 1 and shear != I,
+   159	)
+   160	
+   161	landing = (
+   162	    "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION"
+   163	    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+   164	    "__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED"
+   165	    "__MATCHED_CHAIN_COMPOSITION_DERIVED"
+   166	    "__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED"
+   167	    "__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN"
+   168	)
+   169	
+   170	result = {
+   171	    "landing": landing,
+   172	    "checks_passed": sum(int(row["passed"]) for row in checks),
+   173	    "checks_total": len(checks),
+   174	    "checks": checks,
+   175	    "key_counterexample": {
+   176	        "surface_parameter": 1,
+   177	        "endpoint_metric": [[-1, 0], [0, 2]],
+   178	        "delta_A": "log(2)/4",
+   179	        "delta_B_after_surface_reversal": "log(2)/4",
+   180	        "required_reciprocal_delta_B": "-log(2)/4",
+   181	    },
+   182	    "arbitrary_triangle": {
+   183	        "q_AB": "1/2",
+   184	        "q_BC": "1/3",
+   185	        "q_AC_independently_supplied": "1/5",
+   186	        "q_AC_if_matched_composition": "1/6",
+   187	    },
+   188	    "status": "DERIVED_CONDITIONAL",
+   189	}
+   190	(HERE / "DERIVATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_bidirectional_distance_independent.py | sed -n '95,125p'" in /intake
+ succeeded in 0ms:
+    95	require(shear != identity, "shear nonclosure")
+    96	require(det(shear) == 1, "scale scalar blind to shear")
+    97	require(reciprocal_ratio(shear) == 1, "reciprocal scalar blind to shear")
+    98	
+    99	require(Fraction(1, 5) != Fraction(1, 2) * Fraction(1, 3), "arbitrary triangle counterexample")
+   100	require(Fraction(1, 2) * Fraction(1, 3) == Fraction(1, 6), "matched triangle")
+   101	
+   102	landing = (
+   103	    "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION"
+   104	    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+   105	    "__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED"
+   106	    "__MATCHED_CHAIN_COMPOSITION_DERIVED"
+   107	    "__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED"
+   108	    "__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN"
+   109	)
+   110	result = {
+   111	    "implementation": "stdlib Fraction; no production imports",
+   112	    "seed": SEED,
+   113	    "trials": TRIALS,
+   114	    "checks_passed": checks,
+   115	    "landing_supported": landing,
+   116	}
+   117	(HERE / "INDEPENDENT_VERIFICATION.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   118	print(json.dumps(result, sort_keys=True))
+
+codex
+I have enough to decide the repair-only outcome. I’m doing one last narrow search for stray live-package regressions outside the permitted historical transcripts/raw evidence, then I’ll return the single required result token.
+exec
+/bin/bash -lc "grep -RIn 'physical two-ended germ ownership\\|physical co-present relation owns both endpoint germs"'$'"\\|physical co-present relation owns both endpoint germs	\\|inverse identification' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18 --exclude='EXTERNAL_*' --exclude='PREREGISTRATION.md' --exclude='ADVERSARIAL_REVIEW_REQUEST.md'" in /intake
+ succeeded in 0ms:
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/STATUS_LEDGER.tsv:2:oriented supplied complete pair response	CONDITIONAL_WELL_TYPED	two endpoint evaluations plus any supplied inverse identification
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md:9:1. Change the `STATUS_LEDGER.tsv` object label from `physical two-ended germ ownership` to
+
+exec
+/bin/bash -lc "grep -RIn 'PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN\\|__NOT_YET_PHYSICAL_UDT_DISTANCE\\|OPEN_NOT_DERIVED' /intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18 --exclude='EXTERNAL_*'" in /intake
+ succeeded in 0ms:
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md:14:   __NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/REPAIR_PREREGISTRATION.md:18:   __PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/INDEPENDENT_VERIFICATION.json:4:  "landing_supported": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:11:__NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md:15:__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/STATUS_LEDGER.tsv:9:physical two-ended germ and carry ownership	OPEN_NOT_DERIVED	the quotient cannot supply or replace either missing input
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/DERIVATION_RESULT.json:208:  "landing": "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION__NOT_YET_PHYSICAL_UDT_DISTANCE__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED__MATCHED_CHAIN_COMPOSITION_DERIVED__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN",
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_bidirectional_distance_independent.py:104:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_bidirectional_distance_independent.py:108:    "__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/derive_bidirectional_distance.py:163:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/derive_bidirectional_distance.py:167:    "__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/run_catch_proofs.py:34:    "physical co-present relation owns both endpoint germs and inverse carry\tOPEN_NOT_DERIVED" in ledger
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/run_catch_proofs.py:35:    and "physical two-ended germ and carry ownership\tOPEN_NOT_DERIVED" in status
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/SECOND_REPAIR_PREREGISTRATION.md:13:3. Retain `OPEN_NOT_DERIVED` and state that the quotient cannot supply or replace either input.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/FOLLOWUP_REVIEW_ADJUDICATION.md:22:ownership as `OPEN_NOT_DERIVED`, and the package guards must check the complete phrase.
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:12:physical co-present relation owns both endpoint germs and inverse carry	OPEN_NOT_DERIVED	external review confirmed that the quotient only renames these missing ownership inputs
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:309:__NOT_YET_PHYSICAL_UDT_DISTANCE
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md:313:__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py:64:    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py:68:    "__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN"
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py:82:    "physical co-present relation owns both endpoint germs and inverse carry\tOPEN_NOT_DERIVED" in ledger,
+/intake/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/verify_package.py:86:    "physical two-ended germ and carry ownership\tOPEN_NOT_DERIVED" in status_ledger,
+
+codex
+FINAL_FOLLOWUP_PASS__GERM_CARRY_LEDGER_ALIGNMENT_COMPLETE__CONDITIONAL_REVERSAL_THEOREM_RETAINED
+tokens used
+40,704
+
+Script done on 2026-08-19 00:12:55-04:00 [COMMAND_EXIT_CODE="0"]

@@ -72,3 +72,36 @@ Transcript SHA-256:
 ```text
 ce0260faea817b6adba97cada472b497e532cd7f25a3bf8c86c870590c7c97f4
 ```
+
+## Final repair-only follow-up
+
+Charles explicitly authorized the corrected sealed 40-file intake:
+
+```text
+/tmp/udt_g169_bidirectional_review_14dnsv3m
+```
+
+with `REVIEW_SCOPE.json` SHA-256:
+
+```text
+50c8b7629f560720da4e1050aae89b0f0651271747183e9d53f014b34a544146
+```
+
+The reviewer was restricted to the germ-and-carry ledger alignment and retained conditional
+reversal theorem. It returned:
+
+```text
+FINAL_FOLLOWUP_PASS__GERM_CARRY_LEDGER_ALIGNMENT_COMPLETE__CONDITIONAL_REVERSAL_THEOREM_RETAINED
+```
+
+Raw return SHA-256:
+
+```text
+91811eb8725c19665e4658a5df8cf0168585f21ba3a432ef0d7b1837e4bb4b6a
+```
+
+Transcript SHA-256:
+
+```text
+3851a98c7c2050d874eb0aeb878b031f6145dcb7c38ad954f093b9092395d3d8
+```

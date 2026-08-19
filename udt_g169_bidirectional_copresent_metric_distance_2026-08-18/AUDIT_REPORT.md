@@ -2,7 +2,7 @@
 
 Date: 2026-08-18
 
-Grade: `VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_IMPLEMENTED__FINAL_REPAIR_FOLLOWUP_OPEN`
+Grade: `VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_PASS__CONDITIONAL_REVERSAL_THEOREM_RETAINED`
 
 ## Primary landing
 
@@ -83,7 +83,9 @@ but no unique scalar compression is derived.
   `TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION`;
 - the first repair-only follow-up returned `FOLLOWUP_REPAIR_REQUIRED__LANDING_SURVIVES` because two
   ledger labels omitted the still-open carry ownership joint;
-- that exact ledger alignment is implemented and a final repair-only follow-up remains open.
+- that exact ledger alignment was implemented;
+- the final repair-only follow-up returned
+  `FINAL_FOLLOWUP_PASS__GERM_CARRY_LEDGER_ALIGNMENT_COMPLETE__CONDITIONAL_REVERSAL_THEOREM_RETAINED`.
 
 ## Maximum conclusion
 

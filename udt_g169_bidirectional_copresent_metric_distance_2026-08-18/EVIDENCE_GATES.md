@@ -27,7 +27,9 @@ strata, general ambient metrics, global query populations, paths, dynamics, obse
 - fresh adversarial review: `TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION`;
 - ownership regrade: implemented;
 - first repair-only follow-up: `FOLLOWUP_REPAIR_REQUIRED__LANDING_SURVIVES`;
-- exact germ/carry ledger alignment: implemented; final repair-only follow-up open.
+- exact germ/carry ledger alignment: implemented;
+- final repair-only follow-up:
+  `FINAL_FOLLOWUP_PASS__GERM_CARRY_LEDGER_ALIGNMENT_COMPLETE__CONDITIONAL_REVERSAL_THEOREM_RETAINED`.
 
 ## Gate 4 — premise audit
 
@@ -37,5 +39,5 @@ two-ended germ/carry ownership `OPEN` and no longer labels the conditional quoti
 ## Current grade
 
 ```text
-VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_IMPLEMENTED__FINAL_REPAIR_FOLLOWUP_OPEN
+VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_PASS__CONDITIONAL_REVERSAL_THEOREM_RETAINED
 ```

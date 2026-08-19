@@ -39,7 +39,10 @@ catches["no_scalar_metric_overclaim"] = "not established physical metric distanc
 catches["coincidence_boundary_retained"] = "OPEN_BOUNDARY" in ledger and "rank two to rank one" in exact
 catches["arbitrary_triangle_category_guard"] = "arbitrary-triangle category correction" in repair and "category error" in exact
 catches["external_type_failure_recorded"] = "TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION" in audit
-catches["repair_followup_open"] = "FINAL_REPAIR_FOLLOWUP_OPEN" in audit
+catches["final_followup_pass"] = (
+    "FINAL_FOLLOWUP_PASS__GERM_CARRY_LEDGER_ALIGNMENT_COMPLETE"
+    "__CONDITIONAL_REVERSAL_THEOREM_RETAINED" in audit
+)
 
 for name, passed in catches.items():
     if not passed:

@@ -44,6 +44,9 @@ required = [
     "EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt",
     "FOLLOWUP_REVIEW_ADJUDICATION.md",
     "SECOND_REPAIR_PREREGISTRATION.md",
+    "EXTERNAL_FINAL_FOLLOWUP_REVIEW_RAW.md",
+    "EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt",
+    "FINAL_REVIEW_ADJUDICATION.md",
 ]
 for name in required:
     require((HERE / name).is_file(), f"missing {name}")
@@ -77,7 +80,11 @@ audit = (HERE / "AUDIT_REPORT.md").read_text()
 exact = (HERE / "EXACT_DERIVATION.md").read_text()
 ledger = (HERE / "OUTCOME_PREMISE_LEDGER.tsv").read_text()
 status_ledger = (HERE / "STATUS_LEDGER.tsv").read_text()
-require("FINAL_REPAIR_FOLLOWUP_OPEN" in audit, "external followup status")
+require(
+    "FINAL_FOLLOWUP_PASS__GERM_CARRY_LEDGER_ALIGNMENT_COMPLETE"
+    "__CONDITIONAL_REVERSAL_THEOREM_RETAINED" in audit,
+    "external followup status",
+)
 require(
     "physical co-present relation owns both endpoint germs and inverse carry\tOPEN_NOT_DERIVED" in ledger,
     "outcome ownership boundary",
@@ -109,6 +116,16 @@ require(
     == "ce0260faea817b6adba97cada472b497e532cd7f25a3bf8c86c870590c7c97f4",
     "external followup transcript hash",
 )
+require(
+    hashlib.sha256((HERE / "EXTERNAL_FINAL_FOLLOWUP_REVIEW_RAW.md").read_bytes()).hexdigest()
+    == "91811eb8725c19665e4658a5df8cf0168585f21ba3a432ef0d7b1837e4bb4b6a",
+    "external final followup raw hash",
+)
+require(
+    hashlib.sha256((HERE / "EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt").read_bytes()).hexdigest()
+    == "3851a98c7c2050d874eb0aeb878b031f6145dcb7c38ad954f093b9092395d3d8",
+    "external final followup transcript hash",
+)
 
 premise = subprocess.run(
     [sys.executable, str(ROOT / "verify_current_scientific_premises.py")],
@@ -120,7 +137,7 @@ premise = subprocess.run(
 require(premise.returncode == 0, "current premise verifier")
 
 result = {
-    "status": "PASS__SECOND_LEDGER_REPAIR_INTERNAL_GATES__FINAL_REPAIR_FOLLOWUP_OPEN",
+    "status": "PASS__FINAL_REPAIR_FOLLOWUP__CONDITIONAL_REVERSAL_THEOREM_VERIFIED_WITH_CAVEATS",
     "required_files": len(required),
     "source_hashes": manifest_count,
     "production_checks": derivation["checks_total"],
