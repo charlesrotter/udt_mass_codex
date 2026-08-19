@@ -9,14 +9,11 @@ description.
 
 ### Current honest theory claim
 
-G166 corrects the dependency order. For a founded ordered observer pair with reciprocal depth
-`delta_AB`, the primary UDT clock/ruler metric block is
+G166 derives the scalar kernel of the founded ordered-pair metric:
 
 ```text
 h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB)).
 ```
-
-Its kernel is the algebraic readout of that metric, not a path-dependent or post-metric law:
 
 ```text
 phi_pair=delta_AB,
@@ -24,11 +21,18 @@ c_eff^(pair)/c_E=exp(-2 delta_AB),
 chi_AB=tanh(delta_AB).
 ```
 
-On any derived complete pair metric the same terminal formula applies. Angular, screen, mixing,
-shift, and time-live sectors must enter `h_AB` before readout. The existing
-`E=[[B,0],[QS,Q]], J=[Y;Z]` formula retains the `B,Q,S,Y,Z` channels as a verified conditional envelope and
-evaluator; its arbitrary ten functions are not the derived UDT solution space. Bare observer names
-still require event/calibration typing, but the scalar kernel itself requires no fixed path.
+G167 now performs the missing bounded assembly directly from the declared primary static-spherical
+four-metric. For every supplied local regular rank-two ordered-pair realization,
+
+```text
+h=F^*g=Y^T B^T eta_2 B Y+Z^T Q^T Q Z,
+B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
+```
+The metric fixes `B,Q,S=0`; the pair plane supplies `Y,Z`. Its angular Gram enters before readout
+and can induce a calibrated cross-term despite diagonal ambient `g`. No independent screen history,
+mixing matrix, scalar `mu`, or post-kernel correction is needed here. The former `B,Q,S,Y,Z`
+envelope is metric-fixed plus pair-kinematic, not five histories. Bare observer names still need
+event/calibration and pair-plane typing; no fixed path enters the scalar kernel.
 
 ### Current dependency spine
 
@@ -49,12 +53,19 @@ still require event/calibration typing, but the scalar kernel itself requires no
   `phi_pair=delta_AB`, `c_eff/c_E=exp(-2 delta_AB)`, and `chi=tanh(delta_AB)` exactly. An arbitrary
   common conformal factor leaves that founded family unless it is trivial. The next open derivation
   is the native complete `3+1` orchestra assembly from the primary reciprocal metric.
+- **G167 — bounded primary-metric general pair pullback.** Pulling the declared primary spherical
+  four-metric back to every supplied local regular pair plane fixes the reciprocal block and areal
+  screen internally, with `S=0`; pair tangents supply `Y,Z`. The full angular Gram and query-live
+  first derivative are derived before terminal readout. General nonspherical, ambient-mixed,
+  ambient-time-dependent, global, and physical pair-realization ownership remain open.
 
-Maximum conclusion: the founded ordered-pair UDT metric algebraically owns its reciprocal kernel.
-The complete orchestra must be one upstream metric assembly, not ten independent histories or a
-post-readout correction. General nonspherical, mixing, shift-bearing, time-live, and micro assembly,
+Maximum conclusion: the primary static-spherical UDT metric algebraically owns its reciprocal
+kernel and its complete local regular pair-pullback orchestra. The orchestra is the metric heard on
+the supplied pair plane, not ten independent histories or a post-readout correction. Physical
+pair-plane realization, general nonspherical/ambient-mixed/time-dependent and micro assembly,
 cross-query carry, dimensional separation, global completion, and numerical `X_max` remain open.
-Controlling source: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`.
+Controls: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; G166 controls scalar
+descent.
 G163 controls `X_max` dependency; G164--G165 are scaffold controls; the uncompressed evaluator is
 conditional upstream evidence at `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain.
@@ -105,9 +116,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Derive the native complete `3+1` assembly joining the primary reciprocal pair block to its
-nonspherical angular, mixing, shift, and time-live sectors. Begin from the UDT metric rather than
-the unrestricted coframe envelope; do not add a path, post-kernel orchestra, `X_max`, fit, or target.
+Determine whether the ordered observer-pair semantics already supplies the local pair plane used by
+G167: the calibrated clock direction and co-present separation direction, including any nonradial
+angular tangent content. Start from the primary metric and the ordered pair, not a chosen path or
+arbitrary immersion menu. If the pair plane is owned, derive it; if not, isolate the smallest
+remaining event/calibration datum. Do not insert `X_max`, a fit, or a target response.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under

@@ -21,7 +21,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G166 position/descent/transport/relation/scale/score/quotient/dependency closure:
+- G137--G167 position/descent/transport/relation/scale/score/quotient/dependency and primary-pullback closure:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -43,12 +43,15 @@
   `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`;
   `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`;
   `udt_g165_conformal_fiber_rank_audit_2026-08-18/`;
-  `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
+  `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`;
+  `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 G140--G145 separate carry and reconstruction. G146--G153 keep carrier, ruler, and length conditional.
 G154--G157 classify scale and balance. G158--G160 derive, descend, and carry the score.
 G161--G162 give the quotient and remove rapidity while route/frame memory remains separate.
 G163 removes `X_max` from the kernel. G164--G165 are scaffold controls. G166 proves the founded
-ordered-pair metric owns its kernel; native `3+1` assembly and global carry remain open.
+ordered-pair metric owns its kernel. G167 derives the full local regular pair pullback of the
+primary spherical four-metric; pair-plane ownership, general ambient extension, and global carry
+remain open.
 ## Durable prerequisites
 
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -58,7 +61,7 @@ ordered-pair metric owns its kernel; native `3+1` assembly and global carry rema
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 
 For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only
-load-bearing packages. The 152-row premise registry controls current status.
+load-bearing packages. The 153-row premise registry controls current status.
 
 ## Observational lane
 
@@ -84,6 +87,8 @@ feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
 - Founding metric orientation: `SIMPLE_METRIC_MACRO.md`
 - Current `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
+- Primary-metric bounded general pair pullback:
+  `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - Scaffold controls: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`

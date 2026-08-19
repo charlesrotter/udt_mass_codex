@@ -3,6 +3,7 @@
     "bounded_landing": true,
     "catch_proofs_pass": true,
     "displayed_component_sums_repaired": true,
+    "external_followup_pass": true,
     "first_external_core_verified": true,
     "independent_pass": true,
     "production_19_of_19": true,

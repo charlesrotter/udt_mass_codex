@@ -8,11 +8,13 @@ Read `LIVE.md` first. It wins.
 
 ### Current theory state
 
-G166 restores the UDT dependency order. The founded determinant-one ordered-pair metric block owns
-`phi_pair=delta_AB`, conditional `c_eff/c_E=exp(-2 delta_AB)`, and `chi=tanh(delta_AB)` algebraically.
-The kernel is not applied to a fixed path. A derived complete orchestra must enter the one pair
-metric before readout; the general `B,Q,S,Y,Z` construction is a conditional envelope/evaluator,
-not the derived UDT solution space. Its covariant algebra remains valid within that scope.
+G166 derives `phi_pair=delta_AB`, conditional `c_eff/c_E=exp(-2 delta_AB)`, and
+`chi=tanh(delta_AB)` from the founded pair metric without a fixed path. G167 pulls the primary
+static-spherical four-metric back to every supplied local regular pair plane:
+`h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`, with the metric fixing
+Here `B=diag(c_E exp(-phi),exp(phi))`, `Q=diag(r,r sin(theta))`, and `S=0`. The angular orchestra is
+internal before readout; only `Y,Z` are supplied. The former `B,Q,S,Y,Z` envelope is metric-fixed
+plus pair-kinematic, not five histories.
 
 Dependency chain:
 
@@ -29,13 +31,16 @@ Dependency chain:
    theorem that physical UDT has infinitely many metrics.
 9. G166 derives the primary ordered-pair kernel directly from the founded metric and relocates the
    open joint to native nonspherical/mixing/time-live `3+1` assembly.
+10. G167 closes the local regular pair orchestra for the primary spherical metric; pair-plane
+    ownership and general ambient/global extensions remain open.
 
-The kernel gives `chi=tanh(phi_pair)` on the ordered reciprocal pair. Complete assembly,
+The kernel gives `chi=tanh(phi_pair)`. Pair-plane ownership, general ambient extension,
 dimensionful position, `X_max`, proper length, global carry, and completion remain `OPEN`;
 `CANON.md` is unchanged.
 
 When load-bearing, open
-`udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md` first. G163 controls
+`udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md` first, then G166
+for scalar descent. G163 controls
 `X_max` dependency; G164--G165 are scaffold controls; the uncompressed evaluator is conditional
 upstream evidence at `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
@@ -44,9 +49,8 @@ when load-bearing.
 
 ### Observational state
 
-R2--R5 are verified with caveats. R5 retains one dominant direction plus control-dependent
-alignment; 184,300 covariance rows remain unresolved. No preferred feature, scale, rank, origin,
-cosmology, or `X_max` follows.
+R2--R5 are verified with caveats. R5 retains one dominant direction; 184,300 covariance rows remain
+unresolved. No preferred scale follows.
 
 Controlling package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -83,8 +87,9 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Derive the complete nonspherical, angular, mixing, shift, and time-live UDT metric assembly from the
-primary reciprocal block. Do not search an arbitrary metric arena for a selector or insert a fixed
-path, bound, fit, `X_max`, or mandatory evolution law.
+Test whether an ordered co-present observer pair itself owns G167's calibrated local pair plane—its
+clock and separation directions and resulting `Y,Z`—without inserting a fixed path. Derive the
+plane if owned; otherwise isolate the minimum remaining event/calibration datum. General ambient
+nonspherical/time-dependent extension comes only after this local ownership gate.
 
 <!-- STARTUP_CURRENT_END -->

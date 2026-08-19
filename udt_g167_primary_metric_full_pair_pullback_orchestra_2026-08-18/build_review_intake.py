@@ -33,6 +33,7 @@ def main() -> None:
         "EVIDENCE_GATES.md",
         "EXACT_DERIVATION.md",
         "EXTERNAL_ADVERSARIAL_REVIEW.md",
+        "EXTERNAL_FOLLOWUP_REVIEW.md",
         "INDEPENDENT_RESULT.json",
         "LAY_REPORT.md",
         "PREREGISTRATION.md",

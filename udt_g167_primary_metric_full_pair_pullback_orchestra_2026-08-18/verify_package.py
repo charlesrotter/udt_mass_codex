@@ -26,6 +26,7 @@ def main() -> None:
         "CATCH_PROOF_RESULT.json",
         "EVIDENCE_GATES.md",
         "EXTERNAL_ADVERSARIAL_REVIEW.md",
+        "EXTERNAL_FOLLOWUP_REVIEW.md",
         "REPAIR_PREREGISTRATION.md",
         "REPOSITORY_GATE_RECORD.json",
         "derive_primary_metric_pair_pullback.py",
@@ -47,6 +48,7 @@ def main() -> None:
     exact_text = (HERE / "EXACT_DERIVATION.md").read_text()
     evidence_text = (HERE / "EVIDENCE_GATES.md").read_text()
     review_text = (HERE / "EXTERNAL_ADVERSARIAL_REVIEW.md").read_text()
+    followup_text = (HERE / "EXTERNAL_FOLLOWUP_REVIEW.md").read_text()
 
     checks = {
         "required_files": not missing,
@@ -59,15 +61,18 @@ def main() -> None:
         "catch_proofs_pass": catches.get("status") == "PASS"
         and catches.get("caught") == catches.get("total"),
         "repository_gate_record": repository_gates.get("status") == "PASS"
-        and repository_gates.get("premise_rows") == 152
-        and repository_gates.get("pytest_passed") == 124
+        and repository_gates.get("premise_rows") == 153
+        and repository_gates.get("pytest_passed") == 125
         and repository_gates.get("pytest_xfailed") == 1,
         "first_external_core_verified":
         "VERIFIED_WITH_CAVEATS__BOUNDED_PRIMARY_PAIR_PULLBACK__SOURCE_HASH_REPLAY_BROKEN"
         in review_text,
         "repair_status_consistent":
-        "VERIFIED_WITH_CAVEATS__REPAIR_IMPLEMENTED__FOLLOWUP_OPEN" in evidence_text
+        "VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REPAIR_FOLLOWUP_PASS" in evidence_text
         and "PREREGISTERED__NOT_YET_RUN" not in evidence_text,
+        "external_followup_pass":
+        "PASS__FIRST_REVIEW_MANDATORY_REPAIRS_CLOSED" in followup_text
+        and "Mandatory repairs\n\nNone" in followup_text,
         "displayed_component_sums_repaired":
         "+e^{2\\phi}r_ir_j" in exact_text
         and "+r^2\\theta_i\\theta_j" in exact_text

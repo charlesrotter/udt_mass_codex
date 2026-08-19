@@ -1,11 +1,13 @@
 {
   "commit_before_repair": "42a3cc2a",
-  "note": "Repository-side provenance record. These gates ran in the full repository and are not claimed as intake-local replays.",
+  "external_followup_intake_premise_rows": 152,
+  "external_followup_intake_pytest_passed": 124,
+  "note": "Repository-side provenance record updated after final G167 registry/startup banking. These gates ran in the full repository and are not claimed as intake-local replays.",
   "premise_command": "python3 verify_current_scientific_premises.py",
-  "premise_rows": 152,
+  "premise_rows": 153,
   "premise_status": "PASS",
   "pytest_command": "python3 -m pytest -q",
-  "pytest_passed": 124,
+  "pytest_passed": 125,
   "pytest_status": "PASS",
   "pytest_xfailed": 1,
   "status": "PASS"

@@ -5,35 +5,35 @@ Re-read on resume. `LIVE.md` wins.
 ## Current theory picture
 
 G166 restores UDT order: the founded ordered-pair metric owns `phi_pair`, conditional `c_eff/c_E`,
-and `chi`, without a fixed path. The orchestra enters before readout; `B,Q,S,Y,Z` remain conditional
-until derived from the primary metric.
+and `chi`, without a fixed path. G167 derives the complete local regular pair pullback of the
+primary spherical four-metric: the metric fixes `B,Q,S=0`, the supplied pair plane provides `Y,Z`,
+and the angular Gram enters before readout.
+The former `B,Q,S,Y,Z` envelope is therefore metric-fixed plus pair-kinematic in this bounded arena.
 
 Dependency spine:
 
-- G129--G134: pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal class.
-- G135--G139, regraded by G163: native signed `chi=tanh(phi_pair)` composes on matched depths within
-  supplied families. Working normalized position is distinct from route transport; `x=X_max chi`
-  is conditional.
+- G129--G134: rank ten pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal class.
+- G135--G139, regraded by G163: `chi=tanh(phi_pair)` composes on matched depths; route transport is
+  separate and `x=X_max chi` conditional.
 - G140--G144: one chart or genuine overlap owns presentation carry; endpoints do not glue sheets.
-- G145: pullback values determine `g` on the supplied 4D atlas, not their numerical/global valuation or realization.
-- G146--G147: projections remain nonunique. A defined rest-space lift matches the metric screen;
-  physical carrier, `O(2)` solder, and cross-query carry remain open.
+- G145: values determine `g` on the supplied atlas, not numerical/global valuation or realization.
+- G146--G147: projections remain nonunique; physical carrier, `O(2)` solder, and carry remain open.
 - G148: covariant first-jet split; `lambda` proves liveness, not amplitudes or history.
-- G149--G163: G149 chord; G150 local freedom; G151 curvature/Jacobi; G152 ruler tests; G153 native
-  `dchi`; G154 fixed scale conditional; G155 scale rank zero; G156 carry; G157 balance; G158 score;
-  G159 descent; G160 time-live carry; G161 quotient; G162 rapidity removal; G163 removes `X_max`
-  from the native kernel and retypes dimensional descendants.
-- G164--G165: no extra local profile or ten independent histories. G165's conformal family is a
-  valid unrestricted-envelope control, not proof of physical UDT metric multiplicity.
+- G149 chord; G150 freedom; G151 curvature; G152 ruler; G153 `dchi`; G154 scale; G155 rank; G156
+  carry; G157 balance; G158 score; G159 descent; G160 time-live; G161 quotient; G162 rapidity; G163
+  removes `X_max` from the kernel.
+- G164--G165: no extra profile or ten histories; G165 is an unrestricted-envelope control.
 - G166: the primary pair metric owns its kernel; the open joint is native nonspherical, mixing,
   shift-bearing, and time-live `3+1` assembly.
+- G167: the primary spherical metric owns its bounded pair orchestra; pair-plane ownership is next.
 
-Complete assembly, pair values, global carry, metric separation, completion, and `X_max` remain open.
+Pair-plane ownership, general ambient extension, global carry, metric separation, completion, and
+`X_max` remain open.
 
 ## Observational pointer
 
 R2--R5 are verified with caveats. R5 retains one dominant direction; 184,300 covariance rows remain
-unresolved. No preferred scale follows.
+unresolved and no preferred scale follows.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -45,17 +45,18 @@ Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
 - Pointwise `phi` is conditional; terminal `phi_pair` is derived on a supplied calibrated pair.
 - Angular, screen, and mixing data enter before terminal readout.
 - Pair `c_eff` is an observer-frame readout, not automatically local signal speed.
-- working normalized pair position `chi` is not proper length or a selected realization.
+- working pair position `chi` is not proper length or a selected realization.
 - `X_max` is a working asymptotic global-completion consequence target, not a local kernel input, wall, center,
   or seam.
 - Strong local CSN is inactive.
-- Carrier, action, source, matter, dynamics, and bootstrap selection remain posit/conditional/open.
+- Carrier, action, source, matter, dynamics, and bootstrap remain posit/conditional/open.
 
 Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and sources.
 
 ## Next gate
 
-Derive the complete UDT `3+1` orchestra from the primary reciprocal metric. Do not search the
-unrestricted metric envelope for a selector or insert `X_max`, fits, preferred paths, or target responses.
+Determine whether the ordered co-present observer pair owns its G167 local pair plane directly from
+the primary metric. Do not search the unrestricted metric envelope or insert `X_max`, fits,
+preferred paths, or target responses.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

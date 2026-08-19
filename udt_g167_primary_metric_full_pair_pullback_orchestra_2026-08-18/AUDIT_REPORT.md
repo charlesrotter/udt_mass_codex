@@ -2,7 +2,7 @@
 
 Date: 2026-08-18
 
-Grade: `VERIFIED_WITH_CAVEATS__REPAIR_IMPLEMENTED__FOLLOWUP_OPEN`
+Grade: `VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REPAIR_FOLLOWUP_PASS`
 
 ## Primary landing
 
@@ -90,15 +90,16 @@ The simplification is not universal closure.
   `EVIDENCE_GATES.md`;
 - the first fresh external review independently reproduced every load-bearing scientific identity;
 - its mandatory sealed-replay and evidence-metadata repairs have been implemented locally;
-- a fresh corrected sealed-intake follow-up remains open.
+- the fresh corrected sealed-intake follow-up passes every registered repair check and returns no
+  mandatory repair.
 
 ## Four gates
 
 1. Preregistered: yes.
 2. Full or bounded: complete for all local rank-two pair tangents in the declared static-spherical
    primary metric; not a general ambient nonspherical/time-dependent theorem.
-3. Independent: exact standalone rational replay and the first fresh external reconstruction pass;
-   fresh review of the corrected sealed replay remains open.
+3. Independent: exact standalone rational replay, the first fresh external scientific
+   reconstruction, and the fresh corrected sealed-replay follow-up all pass.
 4. Premises: reciprocal base, declared static spherical arena, areal screen, supplied profile, and
    supplied pair realization are explicit. No path, fit, `X_max`, action, source, matter, bootstrap,
    or protected work entered.
