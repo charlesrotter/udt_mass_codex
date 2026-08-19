@@ -1,0 +1,44 @@
+{
+  "audit": "G181",
+  "domain": "one supplied one-sided smooth regular interior pair family",
+  "endpoint_classification": {
+    "auxiliary_stall": "may be one-sidedly removable; two-sided immersion carry remains open",
+    "depth_tape_relation": "independent in the unrestricted supplied interior family",
+    "finite_tape_iff": "m is locally integrable at the endpoint",
+    "m_limit_alone": "neither proves nor forbids regular completed extension",
+    "regular_finite_completed_metric_iff": "T approaches a finite positive limit and beta/m approaches a finite limit in the retained calibrated clock chart"
+  },
+  "generic_identities": {
+    "completed_coordinate": "ds=m*d_sigma",
+    "completed_depth": "Phi=-log(T)",
+    "completed_shift": "B=beta/m",
+    "det_h_s": "-1 on the regular interior",
+    "det_h_sigma": "-T^2*L_sigma^2=-m^2"
+  },
+  "landing": "COMPLETED_PAIR_ENDPOINT_CLASSIFICATION__REMOVABLE_STALLS_SEPARATED_FROM_INTRINSIC_BOUNDARIES",
+  "open_scope": [
+    "physical event pair-germ and family selection",
+    "two-sided branch and immersion carry",
+    "null cut focal topology-changing and global completion strata",
+    "non-scalar transport",
+    "metric-space distance and numerical Xmax",
+    "dynamics action source matter bootstrap radiative transfer and observations"
+  ],
+  "power_law": {
+    "finite_depth": "a=0",
+    "finite_tape": "a+b>-1",
+    "log_infinite_tape": "a+b=-1",
+    "negative_depth_infinity": "a<0",
+    "positive_depth_infinity": "a>0",
+    "power_infinite_tape": "a+b<-1"
+  },
+  "power_witness_count": 9,
+  "primary_boundary": {
+    "angular_turn": "regular when r>0 and b!=0",
+    "center": "m=abs(v)",
+    "density_squared": "v^2+exp(-2phi)*r^2*b^2",
+    "r_positive_zero_iff": "v=0 and b=0"
+  },
+  "status": "PASS",
+  "witness_count": 19
+}

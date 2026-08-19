@@ -1,0 +1,20 @@
+witness	family	a	b	p=a+b	tape_class	depth_class	boundary_note
+finite_depth_plus	power	1	0	1	FINITE	POSITIVE_INFINITY	q_to_0_positive
+finite_depth_zero	power	0	0	0	FINITE	FINITE	q_to_0_positive
+finite_depth_minus	power	-1	1	0	FINITE	NEGATIVE_INFINITY	q_to_0_positive
+log_infinite_depth_plus	power	1	-2	-1	INFINITE_LOG	POSITIVE_INFINITY	q_to_0_positive
+log_infinite_depth_zero	power	0	-1	-1	INFINITE_LOG	FINITE	q_to_0_positive
+log_infinite_depth_minus	power	-1	0	-1	INFINITE_LOG	NEGATIVE_INFINITY	q_to_0_positive
+power_infinite_depth_plus	power	1	-3	-2	INFINITE_POWER	POSITIVE_INFINITY	q_to_0_positive
+power_infinite_depth_zero	power	0	-2	-2	INFINITE_POWER	FINITE	q_to_0_positive
+power_infinite_depth_minus	power	-1	-1	-2	INFINITE_POWER	NEGATIVE_INFINITY	q_to_0_positive
+finite_tape_nonconvergent_depth	oscillatory	NA	NA	0	FINITE	NO_LIMIT	m=1; T=2+sin(log(q))
+infinite_tape_nonconvergent_depth	oscillatory	NA	NA	-1	INFINITE_LOG	NO_LIMIT	m=1/q; T=2+sin(log(q))
+one_sided_removable_stall	primary_radial	NA	NA	k-1	FINITE	FINITE	r=r0+q^k; s=q^k; h_s=diag(-1,1)
+two_sided_cusp_warning	primary_radial	NA	NA	1	FINITE_EACH_SIDE	FINITE	r=r0+q^2; s=q*abs(q); r=r0+abs(s)
+finite_regular_with_m_to_zero	generic_shifted	0	1	1	FINITE	FINITE	T=1; m=q; beta=B*m; h_s regular
+finite_irregular_with_m_to_zero	generic	1	0	1	FINITE	POSITIVE_INFINITY	T=q; m=q; h00_s_to_0; hss_s_to_infinity
+finite_regular_with_m_to_infinity	generic	0	-1/2	-1/2	FINITE	FINITE	T=1; m=q^(-1/2); h_s regular
+primary_angular_turn	primary	NA	NA	NA	INTERIOR_REGULAR	FINITE	v=0; r>0; bang!=0; m>0
+primary_zero_complete_tangent	primary	NA	NA	NA	DEGENERATE	UNCLASSIFIED	r>0; v=0; bang=0; m=0
+primary_center_radial_control	primary	NA	NA	NA	INTERIOR_REGULAR_IFF_V_NONZERO	FINITE	r=0; m=abs(v)

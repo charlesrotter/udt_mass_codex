@@ -1,0 +1,39 @@
+{
+  "audit": "G181",
+  "cross_class_counts": {
+    "FINITE__FINITE": 667,
+    "FINITE__NEGATIVE_INFINITY": 2180,
+    "FINITE__POSITIVE_INFINITY": 6328,
+    "INFINITE_LOG__FINITE": 312,
+    "INFINITE_LOG__NEGATIVE_INFINITY": 1945,
+    "INFINITE_LOG__POSITIVE_INFINITY": 1847,
+    "INFINITE_POWER__FINITE": 563,
+    "INFINITE_POWER__NEGATIVE_INFINITY": 5169,
+    "INFINITE_POWER__POSITIVE_INFINITY": 989
+  },
+  "depth_counts": {
+    "FINITE": 1542,
+    "NEGATIVE_INFINITY": 9294,
+    "POSITIVE_INFINITY": 9164
+  },
+  "exact_assertions": 192841,
+  "exact_trials": 20000,
+  "method": "independent standard-library exact Fraction replay; no production import",
+  "required_cross_classes": 9,
+  "stall_exact_checks": 512,
+  "status": "PASS",
+  "tape_counts": {
+    "FINITE": 9175,
+    "INFINITE_LOG": 4104,
+    "INFINITE_POWER": 6721
+  },
+  "verified": [
+    "generic determinant and completed determinant",
+    "completed shift",
+    "finite logarithmic and power-infinite tape thresholds",
+    "all tape/depth cross classes",
+    "primary positive-radius zero-density iff zero complete spatial tangent",
+    "one-sided removable auxiliary stalls",
+    "m-limit nonclassification"
+  ]
+}

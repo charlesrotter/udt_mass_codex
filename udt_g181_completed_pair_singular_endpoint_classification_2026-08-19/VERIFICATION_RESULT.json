@@ -1,0 +1,12 @@
+{
+  "audit": "G181",
+  "catch_count": 33,
+  "external_review": "G181_REQUIRES_REPAIR",
+  "independent_exact_assertions": 192841,
+  "independent_exact_trials": 20000,
+  "landing": "COMPLETED_PAIR_ENDPOINT_CLASSIFICATION__REMOVABLE_STALLS_SEPARATED_FROM_INTRINSIC_BOUNDARIES",
+  "preregistration_commit": "a4dacea9",
+  "source_count": 7,
+  "status": "LEAD__DERIVED_CONDITIONAL__EXTERNAL_REVIEW_REQUIRES_REPAIR",
+  "witness_count": 19
+}
