@@ -44,6 +44,8 @@ shift enter the supplied pullback. G176 derives uniquely `m=T L_sigma=sqrt(-det 
 shift, and gives `Phi=-log T`; on G173,
 `m^2=exp(-2phi)H` and `Phi=phi`. Arbitrary metric/arclength calibrations remain control queries,
 not rival reciprocal kernels. Event and pair-germ realization remain open.
+G178 independently accepts this bounded result and confirms that spatial-coordinate reversal is not
+itself the separate observer-pair reversal theorem owned by G170--G171.
 
 ### Current dependency spine
 
@@ -53,17 +55,18 @@ not rival reciprocal kernels. Event and pair-germ realization remain open.
   physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
 - **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
   G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
-- **G164--G177.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
+- **G164--G178.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
   pullback, and plane; G169--G171 give reversal, endpoint difference, and pair-relative network;
   G172--G175 close controls; G176 closes reciprocal normalization; G177 independently reconstructs
-  the kernel without registered scaffolds. Physical germ/global realization is open.
+  the kernel without registered scaffolds; G178 externally accepts it. Physical germ/global
+  realization is open.
 
 Maximum conclusion: the primary metric owns a coherent reciprocal scalar kernel on every supplied
 regular completed physical pair. The complete orchestra enters first; Dual Reciprocity then fixes
 the ruler and scalar uniquely. G173--G175 classify broader control measurements, not rival kernels.
 Physical event/germ population, ambient/global extension, completion, and numerical `X_max` remain
-open. Current control:
-`udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`; then G175 through G166.
+open. Current control: `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`, then
+G176 through G166.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain.
@@ -115,9 +118,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G177 passed 200,000 exact assertions, 25,000 orchestra variations, an AST census, and 28 deletion
-catches. Prepare one fresh adversarial review of G176--G177 before broader applications; do not
-expand the claim to event/germ selection, non-scalar transport, completion, or observations.
+G178 externally accepted G176--G177 with stated bounds. Next preregister the bounded complete-
+coframe pullback extension: test nonspherical, time-live, screen, and mixing terms through one
+supplied regular rank-two germ without selecting events, global completion, or observations.
 
 ### Archive
 Pre-cleanup startup surfaces are under `archive/startup_surface_2026-08-17_pre_zoomout/` and

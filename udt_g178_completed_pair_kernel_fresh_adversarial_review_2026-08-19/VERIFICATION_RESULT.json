@@ -1,0 +1,8 @@
+{
+  "audit": "G178",
+  "banked_review_sha256": "490fd476149d5171c981e03829be67f3abc4913e1aa2e11268d7516aaf02fb15",
+  "compressed_transcript_sha256": "c43501c1c335dcff1c03959fb5a74229cc676f63afe7e775a0fc151c4a99d7ae",
+  "landing": "G176_G177_ACCEPTED_WITH_STATED_BOUNDS",
+  "scope_sha256": "152c55aeac85d816a711f474a043a510dcfa808589237418ce8e8510262e0ffe",
+  "status": "PASS__FRESH_ADVERSARIAL_REVIEW_BANKED_WITH_STATED_BOUNDS"
+}

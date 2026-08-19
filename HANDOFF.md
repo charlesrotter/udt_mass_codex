@@ -29,18 +29,19 @@ complete-pullback contributions enter. G176 derives
 `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1`, and `Phi=-log T`; in G173,
 `m^2=exp(-2phi)H` and `Phi=phi`. Metric/arclength alternatives are other query controls, not rival
 kernels. Physical event/germ realization remains open.
+G178 externally accepts this result with stated bounds; coordinate reversal is not pair reversal.
 
 Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry; valuation stays open.
 G146--G163 bound the controls and remove `X_max` from the kernel. G164--G165 remove scaffolds/control
-the envelope. G166--G177 derive and independently scaffold-check the bounded completed-pair kernel.
+the envelope. G166--G178 derive, scaffold-check, and externally accept the bounded pair kernel.
 
 Milestones: G129 G134 G135 G139 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154
-G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177. Guards: rank ten,
+G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178. Guards: rank ten,
 density, bivector area bilinear, codimension eleven, conformal; physical carrier/`O(2)` open;
 covariant `lambda` only; numerical valuation `OPEN`.
 
-Open `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md` first,
-then G175 through G166. G163 controls `X_max`; G164--G165 control scaffolds;
+Open `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/AUDIT_REPORT.md` first,
+then G176 through G166. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
 
 For G93--G128 provenance use `INDEX.md` or `archive/startup_surface_2026-08-17_pre_zoomout/` only
@@ -87,7 +88,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G177 passes 200,000 exact assertions and 28 scaffold-deletion catches. Prepare a fresh adversarial
-review of G176--G177 before applications; preserve open event/germ, non-scalar, and global scope.
+G178 accepts G176--G177 externally. Next preregister a complete-coframe pullback extension across
+nonspherical, time-live, screen, and mixing witnesses; preserve open event/germ and global scope.
 
 <!-- STARTUP_CURRENT_END -->

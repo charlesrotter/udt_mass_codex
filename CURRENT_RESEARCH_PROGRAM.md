@@ -25,7 +25,7 @@ Charles provisionally adopts completed-pair Dual Reciprocity. After angular, scr
 shift enter the supplied pullback, G176 uniquely derives
 `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1`, and `Phi=-log T`. Other calibrations are control queries,
 not rival kernels. Event/germ realization remains open.
-G177 independently reconstructs this kernel without registered historical scaffolds.
+G177 reconstructs it without registered scaffolds; G178 externally accepts it with stated bounds.
 
 ## Controlling local evaluator
 
@@ -106,14 +106,14 @@ changes B. All endpoint depths agree iff `n/m` is constant on each connected tap
 tape is sufficient; local calibration generates no carry. This remains a valid classification of
 arbitrary calibrated control tapes. Grade: `VERIFIED_WITH_CAVEATS` after external acceptance.
 
-### G176--G177 — completed-pair reciprocity and scaffold regression
+### G176--G178 — completed-pair reciprocity, scaffold regression, and external acceptance
 
 Under Charles's `WORKING_FOUNDATIONAL_CLARIFICATION`, the physical reciprocal-pair domain is
 narrower than the arbitrary-calibration arena. For every regular shifted pair,
 `m=T L_sigma=sqrt(-det h_sigma)` is the unique positive ruler density with `T L=1`; shift remains
 active. In G173, `m^2=exp(-2phi)H` and `Phi=phi`, including angular turns. Grade:
 `VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL_ON_WORKING_FOUNDATIONAL_CLARIFICATION`. G177 rebuilds it
-from raw pair matrices with 200,000 assertions and 28 deletion catches. Fresh review remains pending.
+from raw pair matrices; G178 independently accepts the bounded theorem and finds no hidden factor.
 
 ## Observational anchors
 
@@ -145,6 +145,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Prepare a sealed fresh adversarial review of G176--G177 before broader applications. It must test
-the conditional type clarification, generic shifted algebra, orchestra ordering, scaffold deletion,
-and retained open event/germ and non-scalar/global boundaries—without continuing the research.
+Preregister a complete-coframe pullback extension of the accepted kernel. Test explicit
+nonspherical, time-live, screen, and mixing witnesses on supplied regular rank-two germs while
+retaining open event/germ realization, singular/global strata, and downstream physics.
