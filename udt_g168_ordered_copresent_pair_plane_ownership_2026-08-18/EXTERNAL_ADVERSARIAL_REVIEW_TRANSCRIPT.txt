@@ -1,0 +1,3610 @@
+OpenAI Codex v0.144.5
+--------
+workdir: /intake
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: high
+reasoning summaries: none
+session id: 01a017f2-a779-7121-abdf-1c7e9b492d50
+--------
+user
+# G168 fresh adversarial review request
+
+Review the sealed G168 packet cold and read-only. Do not defend its proposed landing.
+
+## Primary question
+
+Does a local typed ordered co-present positional-comparison germ `(u_A,s_AB)` genuinely suffice to
+derive the local calibrated Lorentzian pair plane used by G167, without importing a path or full
+pair immersion? Or has the packet merely renamed the missing realization as a “germ”?
+
+## Required attacks
+
+1. Type-check the difference among two observer names, paired events, a local separation germ, a
+   complete pair surface, and a path.
+2. Verify the unique metric projection and Lorentzian/positive-screen proof.
+3. Verify that `Y,Z` are exactly coordinate components of the supplied germ in the primary metric,
+   including angular-coordinate covariance.
+4. Decide whether the flat `F_a` counterfamily really proves bare labels plus boundary event pairing
+   do not own the local surface tangent.
+5. Test the reversal, coincidence, relative-motion, and calibration caveats.
+6. Identify any circular use of a pre-existing distance, `X_max`, path, selector, or post-kernel
+   orchestra.
+7. State whether “completed local relation supplies its one-jet” is a legitimate minimal semantic
+   clarification or an unacknowledged additional physical postulate.
+
+## Required landing
+
+Return exactly one:
+
+- `PASS__LOCAL_PAIR_GERM_CLOSES_PLANE_WITH_STATED_CAVEATS`
+- `REPAIR_REQUIRED__LANDING_SURVIVES`
+- `TYPE_FAILURE__GERM_ONLY_RENAMES_MISSING_REALIZATION`
+- `COUNTEREXAMPLE__LOCAL_GERM_DOES_NOT_OWN_UNIQUE_PLANE`
+- another precisely stated result.
+
+Do not edit files, continue the research, inspect outside the sealed intake, or access protected
+packages.
+
+codex
+Reviewing the sealed G168 packet read-only. I’ll first locate the packet contents and map the claims to the seven required attacks before deciding the landing.
+exec
+/bin/bash -lc 'rg --files /intake' in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc pwd in /intake
+ succeeded in 0ms:
+/intake
+
+codex
+`rg` is unavailable here, so I’m falling back to filesystem listing and targeted reads inside `/intake` only. Next I’m identifying the G168 packet files and any referenced G167 material needed to check whether the germ actually closes the plane.
+exec
+/bin/bash -lc 'find /intake -maxdepth 3 -type f | sort' in /intake
+ succeeded in 0ms:
+/intake/REVIEW_SCOPE.json
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/sources/udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md
+/intake/sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md
+/intake/sources/udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/CATCH_PROOF_RESULT.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXECUTION_NOTE.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/LAY_REPORT.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/VERIFICATION_RESULT.json
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py
+
+exec
+/bin/bash -lc 'find /intake -maxdepth 3 -type d | sort' in /intake
+ succeeded in 0ms:
+/intake
+/intake/sources
+/intake/sources/udt_g137_copresent_relational_position_join_2026-08-17
+/intake/sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17
+/intake/sources/udt_g152_pair_immersion_variational_chord_ownership_2026-08-17
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18
+/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18
+
+codex
+I’ve isolated the packet and the immediate predecessor it claims to replace or subsume. Now I’m reading the sealed derivation itself, its stated proof gates, and the G167 dependency chain to test whether “germ” has semantic content beyond relabeling a missing surface realization.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md" in /intake
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md" in /intake
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_SCOPE.json" in /intake
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md" in /intake
+ succeeded in 0ms:
+# G168 fresh adversarial review request
+
+Review the sealed G168 packet cold and read-only. Do not defend its proposed landing.
+
+## Primary question
+
+Does a local typed ordered co-present positional-comparison germ `(u_A,s_AB)` genuinely suffice to
+derive the local calibrated Lorentzian pair plane used by G167, without importing a path or full
+pair immersion? Or has the packet merely renamed the missing realization as a “germ”?
+
+## Required attacks
+
+1. Type-check the difference among two observer names, paired events, a local separation germ, a
+   complete pair surface, and a path.
+2. Verify the unique metric projection and Lorentzian/positive-screen proof.
+3. Verify that `Y,Z` are exactly coordinate components of the supplied germ in the primary metric,
+   including angular-coordinate covariance.
+4. Decide whether the flat `F_a` counterfamily really proves bare labels plus boundary event pairing
+   do not own the local surface tangent.
+5. Test the reversal, coincidence, relative-motion, and calibration caveats.
+6. Identify any circular use of a pre-existing distance, `X_max`, path, selector, or post-kernel
+   orchestra.
+7. State whether “completed local relation supplies its one-jet” is a legitimate minimal semantic
+   clarification or an unacknowledged additional physical postulate.
+
+## Required landing
+
+Return exactly one:
+
+- `PASS__LOCAL_PAIR_GERM_CLOSES_PLANE_WITH_STATED_CAVEATS`
+- `REPAIR_REQUIRED__LANDING_SURVIVES`
+- `TYPE_FAILURE__GERM_ONLY_RENAMES_MISSING_REALIZATION`
+- `COUNTEREXAMPLE__LOCAL_GERM_DOES_NOT_OWN_UNIQUE_PLANE`
+- another precisely stated result.
+
+Do not edit files, continue the research, inspect outside the sealed intake, or access protected
+packages.
+
+ succeeded in 0ms:
+# G168 exact derivation — the local pair plane is the one-jet of the relation
+
+Date: 2026-08-18
+
+## 1. Exact type order
+
+The bounded construction is
+
+```text
+local ordered co-present positional-comparison germ (u_A,s_AB)
++ primary UDT metric g
+    -> orthogonal ruler r_AB
+    -> local Lorentzian pair plane E_AB
+    -> G167 blocks Y,Z
+    -> complete pullback h_AB
+    -> terminal reciprocal readout.
+```
+
+It is not
+
+```text
+two observer names -> metric-selected path -> externally attached kernel.
+```
+
+The local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
+clock tangent (u_A\in T_pM) and a nonzero tangent (s_{AB}\in T_pM) representing the local
+ordered positional variation toward B. It is a local differential datum of the relation, not a
+curve between separated endpoints.
+
+The founding reciprocal algebra does not manufacture this germ from two names. Its ownership is a
+typing clarification of a **completed positional comparison**, not a new dynamics or path law.
+
+## 2. Unique clock-orthogonal ruler
+
+Let (g(u_A,u_A)<0). Among all representatives in the affine line
+
+\[
+s_{AB}+\operatorname{span}(u_A),
+\]
+
+there is exactly one clock-orthogonal vector:
+
+\[
+\boxed{
+r_{AB}=s_{AB}-
+\frac{g(u_A,s_{AB})}{g(u_A,u_A)}u_A .
+}
+\]
+
+Indeed,
+
+\[
+g(u_A,r_{AB})=0.
+\]
+
+If (r'=s_{AB}+a u_A) is also orthogonal to (u_A), then
+
+\[
+0=g(u_A,s_{AB})+a g(u_A,u_A),
+\]
+
+so (a=-g(u_A,s_{AB})/g(u_A,u_A)). The ruler is therefore unique.
+
+Because a Lorentzian metric of index one is positive definite on (u_A^\perp), every nonzero
+(r_{AB}\in u_A^\perp) is spacelike. Hence
+
+\[
+\boxed{
+E_{AB}=\operatorname{span}\{u_A,r_{AB}\}
+      =\operatorname{span}\{u_A,s_{AB}\}
+}
+\]
+
+is a nondegenerate Lorentzian two-plane. Its orthogonal complement is a positive two-dimensional
+screen.
+
+Writing
+
+\[
+U=g(u_A,u_A)<0,
+\quad G=g(u_A,s_{AB}),
+\quad S=g(s_{AB},s_{AB}),
+\]
+
+gives
+
+\[
+g(r_{AB},r_{AB})=S-\frac{G^2}{U}>0.
+\]
+
+In the raw basis ((u_A,s_{AB})),
+
+\[
+h=\begin{pmatrix}U&G\\G&S\end{pmatrix},
+\qquad
+\det h=U\left(S-\frac{G^2}{U}\right)<0.
+\]
+
+In the orthogonal basis ((u_A,r_{AB})), the same plane metric is diagonal. No ambient plane
+selector, path, curvature eigenplane, or independent screen is required.
+
+## 3. The primary metric determines all coefficients after the germ is supplied
+
+For
+
+\[
+g=-c_E^2e^{-2\phi}dt^2+e^{2\phi}dr^2
+  +r^2d\theta^2+r^2\sin^2\theta\,d\varphi^2,
+\]
+
+write the two germ tangents as columns of (J=(u_A,s_{AB})). Their base and angular components are
+
+\[
+Y=
+\begin{pmatrix}
+u^t&s^t\\
+u^r&s^r
+\end{pmatrix},
+\qquad
+Z=
+\begin{pmatrix}
+u^\theta&s^\theta\\
+u^\varphi&s^\varphi
+\end{pmatrix}.
+\]
+
+Therefore the G167 pullback is not missing another local assembly rule:
+
+\[
+\boxed{
+h=Y^TB^T\eta_2BY+Z^TQ^TQZ,
+}
+\]
+
+with metric-owned
+
+\[
+B=\operatorname{diag}(c_Ee^{-\phi},e^\phi),
+\qquad
+Q=\operatorname{diag}(r,r\sin\theta).
+\]
+
+Once ((u_A,s_{AB})) is supplied, (Y) and (Z) are simply its coordinate components. They are
+not four additional physical functions.
+
+A nonradial separation has nonzero angular entries in (Z), so the angular Gram term enters before
+the terminal reciprocal readout. A central radial separation has (Z=0); in that special case its
+scalar kernel is radial while angular response remains in the screen/Jacobi channels.
+
+Under an angular coordinate change with Jacobian (K),
+
+\[
+Z\mapsto KZ,
+\qquad
+q_{S^2}\mapsto K^{-T}q_{S^2}K^{-1},
+\]
+
+and (Z^Tq_{S^2}Z) is unchanged. Positive rescaling of the raw separation tangent preserves its
+line and normalized ruler direction. Pair-metric components transform covariantly; a terminal
+readout remains tied to its declared calibration.
+
+## 4. Exact rational witness
+
+Take
+
+\[
+g=\operatorname{diag}\left(-\frac14,4,9,\frac{144}{25}\right),
+\quad
+u=(2,0,0,0),
+\quad
+s=\left(1,\frac12,\frac13,\frac14\right).
+\]
+
+Then
+
+\[
+g(u,u)=-1,
+\qquad
+g(u,s)=-\frac12,
+\]
+
+and the unique orthogonal ruler is
+
+\[
+r=\left(0,\frac12,\frac13,\frac14\right),
+\qquad
+g(r,r)=\frac{59}{25}.
+\]
+
+The raw and orthogonal pair metrics are
+
+\[
+h_{(u,s)}=
+\begin{pmatrix}
+-1&-1/2\\
+-1/2&211/100
+\end{pmatrix},
+\qquad
+h_{(u,r)}=
+\begin{pmatrix}
+-1&0\\
+0&59/25
+\end{pmatrix},
+\]
+
+and both have determinant (-59/25).
+
+With
+
+\[
+B=\operatorname{diag}(1/2,2),
+\quad Q=\operatorname{diag}(3,12/5),
+\]
+
+the germ supplies
+
+\[
+Y=\begin{pmatrix}2&1\\0&1/2\end{pmatrix},
+\qquad
+Z=\begin{pmatrix}0&1/3\\0&1/4\end{pmatrix},
+\]
+
+and the G167 block formula returns (h_{(u,s)}) exactly. Removing (Z) changes the pair metric.
+
+## 5. Why bare observer labels still do not own the plane
+
+In flat four-dimensional spacetime let
+
+\[
+A(\tau)=(\tau,0,0,0),
+\qquad
+B(\tau)=(\tau,1,0,0).
+\]
+
+For every real (a), the smooth timelike surface
+
+\[
+F_a(\tau,\sigma)
+=\bigl(\tau,\sigma,a\sigma(1-\sigma),0\bigr),
+\qquad 0\le\sigma\le1,
+\]
+
+has exactly the same boundary observers and the same boundary event pairing:
+
+\[
+F_a(\tau,0)=A(\tau),
+\qquad
+F_a(\tau,1)=B(\tau).
+\]
+
+But at A its separation tangent is
+
+\[
+\partial_\sigma F_a|_{\sigma=0}=(0,1,a,0).
+\]
+
+The planes for (a=0) and (a=1) are different. The induced metric remains Lorentzian:
+
+\[
+F_a^*\eta=-d\tau^2+
+
+ succeeded in 0ms:
+# G168 evidence gates
+
+Date: 2026-08-18
+
+## Gate 1 — preregistration
+
+Passed. `PREREGISTRATION.md` and the ten-source frozen manifest were committed and pushed at
+`1341994a` before production execution.
+
+## Gate 2 — full or bounded space
+
+Complete for all regular local germs consisting of a timelike clock tangent and a nonzero
+clock-orthogonalizable separation tangent in Lorentz signature `(1,3)`. The primary-metric block
+reconstruction is complete for their arbitrary radial/nonradial coordinate components.
+
+Not covered: coincidence, null/degenerate strata, derivation of the germ from bare labels, global
+event pairing, cross-query carry, path outputs, general ambient completion, or dynamics.
+
+## Gate 3 — independent verification
+
+- exact symbolic/source checks: 36/36;
+- independent stdlib `Fraction` replay: 6,012/6,012 over 1,200 trials;
+- semantic mutation catches: 11/11;
+- repository regression: 125 passed, 1 registered xfail;
+- fresh external review: open.
+
+## Gate 4 — premise audit
+
+Passed. `verify_current_scientific_premises.py` reports the complete 153-row registry and current
+G167-extended guards passing. The result is explicitly stamped as a working semantic clarification
+for the typed pair germ and a derivation only for the metric projection and plane.
+
+The administrative package gate passes with 14 required files, ten frozen source hashes, all
+production/independent/mutation checks, and the premise verifier. External review remains the only
+open evidence gate.
+
+## Current grade
+
+```text
+VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_OPEN
+```
+
+ succeeded in 0ms:
+{
+  "files_before_scope": 28,
+  "package": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18",
+  "restrictions": [
+    "read-only",
+    "no edits",
+    "no continuation of research",
+    "no repository access outside intake",
+    "no protected-package access",
+    "no internet"
+  ],
+  "tree": [
+    {
+      "bytes": 8814,
+      "path": "sources/CURRENT_SCIENTIFIC_PREMISES.md",
+      "sha256": "3af471bd7b6a4d912885c31dee4a05edbcf5a1dbc292596c9343af9bb748fb5d"
+    },
+    {
+      "bytes": 2960,
+      "path": "sources/udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md",
+      "sha256": "879e20e4b28e46aa03d32bebbdab768417c8556bd7545ff25e617fca63d7600a"
+    },
+    {
+      "bytes": 3096,
+      "path": "sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md",
+      "sha256": "19e72eb22393648846ffef8231e4c741ee5b5564eb6311c33901ec5f73b12519"
+    },
+    {
+      "bytes": 2309,
+      "path": "sources/udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md",
+      "sha256": "d8ea9eb9b16257cd61f9cd694b9c202657636c74baf1c2f1274a88f1f7502383"
+    },
+    {
+      "bytes": 5664,
+      "path": "sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+      "sha256": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7"
+    },
+    {
+      "bytes": 4709,
+      "path": "sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md",
+      "sha256": "9e985bbd73a2ffe099a57257ea51778fff9ec75eb48721565faafaafd14edc62"
+    },
+    {
+      "bytes": 4611,
+      "path": "sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
+      "sha256": "c1a1f722e393e431b1b0805a7e2d5ad8e27813c48db989f824b76898bc499593"
+    },
+    {
+      "bytes": 7639,
+      "path": "sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md",
+      "sha256": "e51704c01a72c546401e31f59ecf0b1881ee2c273324ccba2e4572fc7d01941d"
+    },
+    {
+      "bytes": 3291,
+      "path": "sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",
+      "sha256": "2c73239e4b91799d3572da5725073e7a94914eaadf34820eadcd8dbcbe7c88e5"
+    },
+    {
+      "bytes": 9201,
+      "path": "sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md",
+      "sha256": "2d1c26522981ae5cecfa4b12030f34fa633cc13ced3cf438fa57f6ca47bfec45"
+    },
+    {
+      "bytes": 1709,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md",
+      "sha256": "65e1236463b062f459e25fbd8dc5d5dfaa7d4a0154f00e1ce71f8d7a37a653ef"
+    },
+    {
+      "bytes": 3330,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md",
+      "sha256": "2f86ba284ac14c66ae752f2a43e0a4f414066d7d37dda2eb7e44cb84ef61d944"
+    },
+    {
+      "bytes": 493,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/CATCH_PROOF_RESULT.json",
+      "sha256": "7a710ae48d46d8de9d523b69e8250ffeab39c298904d07df6b45ed864c1004ca"
+    },
+    {
+      "bytes": 5184,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json",
+      "sha256": "38718ccc545e5093255e56dd9c5d669ef509e1247e941e9b44f482aa459b47a1"
+    },
+    {
+      "bytes": 1584,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md",
+      "sha256": "cd77fae6e691b640e23ce771713d8c30482cdb9f66485feb07d49997755f2114"
+    },
+    {
+      "bytes": 7680,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md",
+      "sha256": "030e703578fa236967f3907421068e01faac4a93262688b3d8d57e5978f2853c"
+    },
+    {
+      "bytes": 726,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXECUTION_NOTE.md",
+      "sha256": "5c14f87a850c7403a02e0fa840c0543fa77e27a5cbe6fa5a367e4c8e5b567ec2"
+    },
+    {
+      "bytes": 248,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/INDEPENDENT_VERIFICATION.json",
+      "sha256": "27e5fbd82ce8b15b391448ec330b3e87e8acb53b145033702a15ea97c8a50678"
+    },
+    {
+      "bytes": 1617,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/LAY_REPORT.md",
+      "sha256": "299dfbf71e97fdef141e1f891abeea537bfa374c9b6c5937a555d47d83417364"
+    },
+    {
+      "bytes": 691,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv",
+      "sha256": "55f7b8284869576e6c5343340a44d849804ca0bdde1f4e7c128f7253f12674ab"
+    },
+    {
+      "bytes": 4603,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md",
+      "sha256": "69f42862d815c19128900649cc0701f20aa49321fcfd96b5cab0ea16a612c319"
+    },
+    {
+      "bytes": 1794,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv",
+      "sha256": "d84ab692afd7f7b93156c8b4b931f0b26d2d5a4b26afc076ce6a4815f26abbc7"
+    },
+    {
+      "bytes": 1430,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv",
+      "sha256": "8008eb86465cf03475e1c710390d185357f6a2adedf84d087bb0a487fcba15d3"
+    },
+    {
+      "bytes": 476,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/VERIFICATION_RESULT.json",
+      "sha256": "ff0503554f15a12e6cf7abc2384c044e0518ea85e0e9738af018b8247bca9def"
+    },
+    {
+      "bytes": 6083,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py",
+      "sha256": "5b24123894495d400e32d9c0e481fc1e6366dd5a9653b179d44890435ba177f9"
+    },
+    {
+      "bytes": 2759,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py",
+      "sha256": "adaf66a922226e0761223d77313dff5fd6d4ca13dd529225b35b5497ec7632a1"
+    },
+    {
+      "bytes": 3059,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py",
+      "sha256": "81cfdd1be420f3c0a109bc4ff2d0063a00525109dfe724f3be2ea084d545210d"
+    },
+    {
+      "bytes": 3495,
+      "path": "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py",
+      "sha256": "a2415111ccd618221cf1fcc276da5a955424c90492fcb6fa44ebb83e49637ea6"
+    }
+  ]
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+# G167 exact derivation — bounded primary-metric general pair pullback
+
+Date: 2026-08-18
+
+## 1. Bounded arena
+
+The declared primary static-spherical UDT metric is
+
+\[
+g=-c_E^2e^{-2\phi(r)}dt^2+e^{2\phi(r)}dr^2
+  +r^2d\theta^2+r^2\sin^2\theta\,d\varphi^2.
+\]
+
+This is a four-dimensional metric, not only a radial line element. Its static, spherical, diagonal,
+and areal properties remain the declared macro slice. The function \(\phi(r)\) is supplied here; no
+field equation or profile is derived.
+
+Let a supplied regular ordered-pair realization be a local rank-two immersion
+
+\[
+F:\Sigma^2\to M^4,
+\qquad
+X_i=F_*\partial_i
+    =t_i\partial_t+r_i\partial_r
+      +\theta_i\partial_\theta+\varphi_i\partial_\varphi.
+\]
+
+The two tangent directions need not be radial, static, geodesic, or aligned with the ambient chart.
+The pair metric is not another ansatz. It is the pullback \(h=F^*g\).
+
+## 2. Exact general-pair pullback
+
+Direct substitution gives
+
+\[
+\boxed{
+h_{ij}
+=-c_E^2e^{-2\phi}t_it_j
++e^{2\phi}r_ir_j
++r^2\theta_i\theta_j
++r^2\sin^2\theta\,\varphi_i\varphi_j.
+}
+\]
+
+Equivalently, if \(w_i\) is the angular component of \(X_i\) and \(\gamma_{S^2}\) is the unit-sphere
+metric,
+
+\[
+h_{ij}
+=-c_E^2e^{-2\phi}t_it_j
++e^{2\phi}r_ir_j
++r^2\gamma_{S^2}(w_i,w_j).
+\]
+
+This formula is angular-coordinate covariant. Under an angular coordinate change with Jacobian
+\(K\), \(Z\mapsto KZ\) and \(q_{S^2}\mapsto K^{-T}q_{S^2}K^{-1}\), so
+
+\[
+Z^Tq_{S^2}Z
+\mapsto
+Z^TK^TK^{-T}q_{S^2}K^{-1}KZ
+=Z^Tq_{S^2}Z.
+\]
+
+## 3. Exact relation to the conditional complete-coframe evaluator
+
+In the primary coframe,
+
+\[
+B=\begin{pmatrix}c_Ee^{-\phi}&0\\0&e^\phi\end{pmatrix},
+\qquad
+Q=\begin{pmatrix}r&0\\0&r\sin\theta\end{pmatrix},
+\qquad
+S=0.
+\]
+
+For
+
+\[
+Y=\begin{pmatrix}t_0&t_1\\r_0&r_1\end{pmatrix},
+\qquad
+Z=\begin{pmatrix}\theta_0&\theta_1\\\varphi_0&\varphi_1\end{pmatrix},
+\]
+
+the uncompressed formula reduces exactly to
+
+\[
+\boxed{
+h=Y^TB^T\eta_2BY+Z^TQ^TQZ.
+}
+\]
+
+Thus, in this bounded primary arena:
+
+- \(B\) is fixed by \(c_E\) and the supplied \(\phi\) profile;
+- \(Q\) is fixed by the areal spherical metric;
+- ambient base-screen mixing \(S\) is exactly zero in this coframe;
+- \(Y,Z\) are the supplied pair tangents;
+- the angular Gram matrix \(P=Z^TQ^TQZ\) is derived from the metric and pair realization.
+
+The conditional \(B,Q,S,Y,Z\) evaluator therefore does not require five independent histories in
+this slice. It collapses to one supplied primary metric plus one supplied pair realization.
+
+## 4. Angular terms and terminal shift are internal
+
+Writing
+
+\[
+P=\begin{pmatrix}x&z\\z&y\end{pmatrix},
+\]
+
+the complete pair metric is \(h=h_{\rm base}+P\) before the terminal kernel is evaluated. Although
+the ambient metric is diagonal, the pair metric generally is not:
+
+\[
+h_{01}
+=-c_E^2e^{-2\phi}t_0t_1
++e^{2\phi}r_0r_1
++r^2\theta_0\theta_1
++r^2\sin^2\theta\,\varphi_0\varphi_1.
+\]
+
+Therefore the calibrated terminal shift state
+
+\[
+\beta_{\rm pair}=\frac{h_{01}}{h_{00}}
+\]
+
+can be nonzero even when the base contribution to \(h_{01}\) and every ambient off-diagonal metric
+component vanish. This is pair-embedding geometry in the supplied calibrated pair chart, not a
+separately posited or chart-invariant ambient shift.
+
+## 5. Terminal reciprocal kernel
+
+On the regular calibrated Lorentzian stratum
+
+\[
+h_{00}<0,
+\qquad
+\det h<0,
+\]
+
+the unique terminal readout remains
+
+\[
+\boxed{
+\phi_{\rm pair}
+=\frac14\log\frac{-\det h}{h_{00}^2},
+\qquad
+\left(\frac{c_{\rm eff}^{(\rm pair)}}{c_E}\right)^2
+=\frac{h_{00}^2}{-\det h}.
+}
+\]
+
+All angular terms have already entered \(h\). No post-readout angular correction occurs.
+
+An exact nonradial witness with \(c_E=1\), \(e^\phi=2\), \(r=3\), and
+\(\sin\theta=4/5\) gives
+
+\[
+h=
+\begin{pmatrix}
+-391/100&9/50\\
+9/50&2
+\end{pmatrix},
+\qquad
+P=
+\begin{pmatrix}
+9/100&9/50\\
+9/50&1
+\end{pmatrix}.
+\]
+
+Here
+
+\[
+\det h=-\frac{19631}{2500},
+\qquad
+\beta_{\rm pair}=-\frac{18}{391},
+\qquad
+\left(\frac{c_{\rm eff}^{(\rm pair)}}{c_E}\right)^2
+=\frac{152881}{78524}.
+\]
+
+The base-only value is \(4\), so the metric-derived angular Gram changes the terminal reciprocal
+readout exactly.
+
+## 6. The radial and central boundary
+
+For the calibrated radial pair
+
+\[
+J=(\partial_t,\partial_r),
+\qquad
+Z=0,
+\]
+
+the pullback is the founded block
+
+\[
+h=\operatorname{diag}(-e^{-2\phi},e^{2\phi})
+\]
+
+after setting \(c_E=1\) in dimension-matched coordinates. Hence
+
+\[
+\phi_{\rm pair}=\phi,
+\qquad
+\frac{c_{\rm eff}^{(\rm pair)}}{c_E}=e^{-2\phi}.
+\]
+
+For this exact radial pair the scalar angular Gram is zero. The primary angular sector still owns
+the separate finite-radius screen/Jacobi response of G119, but it does not automatically modulate
+the scalar depth of every radial pair. Angular modulation of the scalar requires angular components
+in the pair realization or a genuine ambient nonspherical/mixed extension.
+
+This boundary prevents the result from being promoted into a universal loud-orchestra claim.
+
+## 7. Query-live derivative versus ambient dynamics
+
+Along any supplied parameter \(\lambda\),
+
+\[
+\boxed{
+\dot h
+=\dot J^TgJ+J^Tg\dot J+J^T\dot gJ.
+}
+\]
+
+For the primary metric,
+
+\[
+\dot g=\operatorname{diag}\!\left(
+2c_E^2e^{-2\phi}\dot\phi,
+2e^{2\phi}\dot\phi,
+2r\dot r,
+2r\dot r\sin^2\theta
++2r^2\sin\theta\cos\theta\dot\theta
+\right).
+\]
+
+When \(\phi=\phi(r)\), \(\dot\phi=\phi'(r)\dot r\) along the supplied realization. The terminal
+variation is
+
+\[
+\dot\phi_{\rm pair}
+=\frac14\operatorname{tr}(h^{-1}\dot h)
+-\frac12\frac{\dot h_{00}}{h_{00}}.
+\]
+
+Production algebra proves this equals the full directional derivative with every metric and pair
+tangent term retained. On the exact generic witness, profile, areal-radius, angular-chart,
+clock-tangent, radial-tangent, theta-tangent, and varphi-tangent variations are all nonzero.
+
+This is a complete query-live kinematic identity in the declared static ambient metric. It is not
+an ambient time-evolution equation and does not derive a time-dependent UDT metric.
+
+## 8. No independent scalar `mu`
+
+The primary metric supplies the full angular Gram matrix \(P\), not a scalar mixing coefficient.
+
+codex
+The derivation’s critical move is already visible: it upgrades a “completed positional comparison” into a supplied one-jet. I’m reading the remainder plus predecessor audit notes to see whether that move is already licensed in the sealed premises or whether it silently adds the missing realization.
+exec
+/bin/bash -lc "sed -n '261,520p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+\left[1+a^2(1-2\sigma)^2\right]d\sigma^2.
+\]
+
+Therefore even observer labels plus a fixed boundary event pairing do not select a surface germ.
+The local germ is the smallest datum that closes the local plane calculation. Supplying it is much
+less than supplying an entire path or surface.
+
+## 6. Reversal, coincidence, and relative motion
+
+### Local orientation reversal
+
+Inside one tangent space, (r_{AB}\mapsto-r_{AB}) preserves the unoriented plane and flips its
+orientation. It does **not** by itself send the terminal reciprocal depth to its negative; signed
+depth reversal belongs to the ordered reciprocal calibration.
+
+Full observer reversal changes the base event from A to B. Comparing the A-side and B-side planes
+then requires lawful calibration/transport. G168 does not invent that carry.
+
+### Coincidence
+
+At coincidence the separation tangent is zero and
+
+\[
+\operatorname{rank}(u_A,0)=1.
+\]
+
+The reciprocal scalar can have its coincidence value, but there is no direction-owned rank-two
+plane. A limiting direction exists only when a pair germ is supplied. This is a genuine boundary,
+not a failure of the regular theorem.
+
+### Relative motion
+
+B's velocity need not lie in the positional plane. In Minkowski coordinates,
+
+\[
+u_A=(1,0,0,0),
+\quad r_{AB}=(0,1,0,0),
+\quad v_B=(5/4,0,3/4,0)
+\]
+
+has (g(v_B,v_B)=-1), but (v_B\notin\operatorname{span}(u_A,r_{AB})). The local positional plane
+is therefore not promoted into the complete relative-velocity kinematics of both observers.
+
+## 7. Epistemic ownership
+
+The exact result separates three levels:
+
+1. **Bare labels ((A,B)):** insufficient.
+2. **Typed local ordered co-present pair germ ((u_A,s_{AB})):** supplied by the completed local
+   relation as a `WORKING` semantic clarification.
+3. **Pair plane, orthogonal ruler, positive screen, and G167 (Y,Z):** `DERIVED` from the germ and
+   metric.
+
+Thus the local plane is not an additional physical history to be selected, and it is not an
+arbitrary immersion menu. It is the tangent content of the relation being evaluated. What remains
+open is which event/calibration germs form the physical global network and how distinct basepoints
+carry their frames—not the local plane once a relation is present.
+
+## Maximum conclusion
+
+```text
+ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE
+__BARE_LABELS_DO_NOT
+__NO_PATH_REQUIRED
+```
+
+This does not derive a global event-pairing rule, path, pair surface, cross-query carry, physical
+profile, `X_max`, dynamics, signalling, source, action, bootstrap, or general complete metric.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+# G147 audit report — pair-directional / metric-screen solder
+
+Date: 2026-08-17
+
+Current grade: `VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_FOLLOWUP_PASS`
+
+## Result first
+
+On one supplied regular calibrated observer-pair query at nonzero relational position, if normalized
+relation position is represented by the defined conditional lift `xi = rho n` in the query
+clock's rest space, its directional tangent screen and metric pair screen are the same subspace:
+
+\[
+T_{\boldsymbol\xi}S^2_{|\rho|}(u^\perp)
+=\{w:g(w,u)=g(w,n)=0\}
+=E_{\rm pair}^{\perp}.
+\]
+
+The exact landing is
+
+```text
+CONDITIONAL_QUERY_RELATIVE_REST_SPACE_IDENTITY__PHYSICAL_THREE_POSITION_LIFT_AND_CROSS_QUERY_CARRY_OPEN
+```
+
+The identity has no coefficient inside that defined representation. It does not derive that the
+physical multidirectional position carrier is the observer rest space. An independently owned ball
+carrier retains an `O(2)` solder family after its radial axis is aligned.
+
+## Why this matters
+
+G146 showed that radial position alone cannot own a complete non-collinear observer arrow. G147
+proves a conditional simplification: within the rest-space lift, the two proposed screens are two
+descriptions of one query-relative plane. It does not close physical carrier ownership.
+
+The physical three-position lift remains open. If the rest-space lift is later owned, a further
+problem remains between distinct pair relations: comparisons toward different directions generally
+have different screen planes, requiring lawful carry and typed path/order before comparison with
+metric `U_gamma`.
+
+## Evidence
+
+- preregistered with source hashes at commit `9d9b9e90`;
+- exact production algebra: `53/53`;
+- independent stdlib/Fraction replay without production imports: `39/39`;
+- registered exact witness retains every `B,Q,S,Y,Z` block and passes its untuned Lorentzian gates;
+- exact projector equality, positivity, ambient-basis covariance, and flag-preserving pair-domain
+  reparameterization; terminal-position covariance requires calibration carry or equal scaling;
+- exact separate sensitivity of the pair metric and projector to each `B,Q,S,Y,Z` block;
+- first-run Boolean serialization repair recorded without changing any scientific input.
+
+Fresh adversarial review returned `REPAIR_REQUIRED`; its carrier-ownership, calibration, sign,
+orientation, and liveness repairs are incorporated. Repair-only follow-up returned
+`FOLLOWUP_PASS` with fresh isolated production `53/53`, independent `39/39`, and package `74/74`.
+
+## Scope ceiling
+
+The result does not derive the physical three-position carrier or an oriented solder; the tangent
+plane forgets `rho` sign. Coincidence, null/degenerate pairs, singular/global strata, independent
+carrier `O(2)` solder, and cross-query carry remain open. It does not select
+a G146 ball control, identify `phi` with Lorentz rapidity, derive complete arrow reversal, equate a
+positional gyration with metric transport, or determine query population, history, `X_max`, proper
+length, dynamics, observations, light, action, source, bootstrap, matter, mass, or completion.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/sources/udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md" in /intake
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md" in /intake
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+# G166 exact derivation — the kernel is the ordered-pair metric readout
+
+Date: 2026-08-18
+
+## 1. Correct type order
+
+The bounded UDT construction is
+
+```text
+ordered co-present observer pair
++ c_E-calibrated clock/ruler channels
++ primary UDT reciprocal metric
+    -> completed ordered-pair metric h_AB
+    -> reciprocal scalar kernel.
+```
+
+It is not
+
+```text
+pre-existing path or distance
+    -> arbitrary metric choice
+    -> appended reciprocal correction.
+```
+
+The word `pair` still includes event and calibration typing. This derivation does not construct an
+arbitrary global observer network from two bare names.
+
+## 2. Unique regular pair decomposition
+
+On the regular calibrated Lorentzian stratum,
+
+```text
+h00<0,  det(h)<0,
+```
+
+there are unique positive densities `T,L` and a real shift `beta` such that
+
+```text
+h=-T^2(dy0+beta dy1)^2+L^2(dy1)^2.
+```
+
+Therefore
+
+```text
+T^2=-h00,
+beta=h01/h00,
+L^2=h11-h01^2/h00,
+-det(h)=T^2 L^2.
+```
+
+Writing
+
+```text
+T=sigma exp(-delta),
+L=sigma exp(+delta)
+```
+
+gives the unique reciprocal grading
+
+```text
+delta=(1/2)log(L/T)
+     =(1/4)log[(-det h)/h00^2].
+```
+
+The dimensionless terminal readouts are
+
+```text
+q=T/L=(-h00)/sqrt(-det h)=exp(-2 delta),
+chi=(L-T)/(L+T)=(1-q)/(1+q)=tanh(delta).
+```
+
+The common density `sigma` cancels. That cancellation is a property of the reciprocal scalar; it
+does not declare the entire metric scale gauge.
+
+## 3. Exact reduction to the primary UDT metric
+
+For the dimension-matched founded clock/ruler block,
+
+```text
+h_AB=diag(-exp(-2 delta_AB), exp(+2 delta_AB)),
+```
+
+one has
+
+```text
+det(h_AB)=-1,
+T_AB=exp(-delta_AB),
+L_AB=exp(+delta_AB).
+```
+
+Substitution into the universal algebraic readout returns
+
+```text
+phi_pair=delta_AB,
+q_AB=exp(-2 delta_AB),
+chi_AB=tanh(delta_AB).
+```
+
+No independent kernel profile is present. The pointwise notation `delta=phi(r)` in the recorded
+static spherical chart describes how the relational grading is presented across that realization;
+it does not turn `r` into a pre-kernel operational distance.
+
+## 4. Reversal, coincidence, and composition
+
+Channel reversal sends `q` to `1/q`, hence
+
+```text
+chi(1/q)=-chi(q).
+```
+
+At coincidence `q=1`, so `delta=0` and `chi=0`.
+
+For matched carried reciprocal states,
+
+```text
+delta_AC=delta_AB+delta_BC,
+q_AC=q_AB q_BC.
+```
+
+Eliminating `q` gives
+
+```text
+chi_AC=(chi_AB+chi_BC)/(1+chi_AB chi_BC).
+```
+
+These are properties of compatible ordered relations. They do not force independently rebuilt
+pair calibrations to compose without additional carry data.
+
+## 5. Orchestra terms are internal to the completed metric
+
+Let the founded base pair metric be
+
+```text
+h_base=[[-T^2, -T^2 beta],
+        [-T^2 beta, L^2-T^2 beta^2]].
+```
+
+If the native complete UDT assembly supplies a symmetric screen/mixing Gram contribution
+
+```text
+P=[[x,z],[z,y]],
+```
+
+then the scalar is evaluated only after
+
+```text
+h_complete=h_base+P.
+```
+
+Direct expansion gives
+
+```text
+-det(h_complete)
+ =(T^2-x)(L^2+y)+x T^2 beta^2-2 T^2 beta z+z^2,
+```
+
+and
+
+```text
+q_complete^2
+ =(T^2-x)^2/[-det(h_complete)].
+```
+
+The exact partial derivatives with respect to `x`, `y`, and `z` are generically nonzero. Thus a
+derived orchestra can modulate the one pair response, but only by entering the complete metric
+before the terminal kernel is read.
+
+The equation does not derive `x,y,z` as independent UDT functions. The existing full coframe
+formula proves their possible structural entrance; the native assembly that determines them from
+the primary UDT metric remains open.
+
+## 6. Scope of the conformal control
+
+For an arbitrary positive `Omega`,
+
+```text
+h -> Omega^2 h
+```
+
+leaves `(-det h)/h00^2`, and therefore `delta`, `q`, and `chi`, unchanged. This is the G165
+conformal-kernel fact.
+
+But for the founded determinant-one reciprocal block,
+
+```text
+det(Omega^2 h_AB)=-Omega^4.
+```
+
+The determinant remains `-1` only when positive `Omega=1`. Hence the arbitrary conformal family is
+a broader metric-envelope control, not a freedom generated by the founded reciprocal block.
+
+## 7. Exact stop line
+
+Derived in this bounded scope:
+
+- the reciprocal pair metric block from the founding representation and interval readout;
+- the unique algebraic terminal pair kernel;
+- reversal, coincidence, and matched-depth composition;
+- orchestra-before-readout dependence for any completed pair metric;
+- exclusion of an independent post-metric response profile.
+
+Still conditional or open:
+
+- the general nonspherical, mixing, shift-bearing, time-live, and micro `3+1` assembly;
+- bare observer/event labels to calibrated physical pair relations;
+- arbitrary-network carry and global completion;
+- physical depth values, `X_max`, dynamics, sources, and observations.
+
+ succeeded in 0ms:
+# G168 audit report — ordered co-present pair-plane ownership
+
+Date: 2026-08-18
+
+Grade: `VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_OPEN`
+
+## Primary landing
+
+```text
+ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE
+__BARE_LABELS_DO_NOT
+__NO_PATH_REQUIRED
+```
+
+## Result first
+
+The final local input left open by G167 is now isolated. A physically typed local positional
+comparison must contain a calibrated clock tangent (u_A) and a nonzero ordered separation tangent
+(s_{AB}). The metric uniquely removes the clock component,
+
+\[
+r_{AB}=s_{AB}-\frac{g(u_A,s_{AB})}{g(u_A,u_A)}u_A,
+\]
+
+and thereby owns the Lorentzian pair plane
+
+\[
+E_{AB}=\operatorname{span}(u_A,r_{AB}).
+\]
+
+No path, geodesic, curvature selector, complete pair surface, independent screen, or scalar `mu`
+is needed for this local step. In the primary metric, the coordinate components of
+((u_A,s_{AB})) are exactly the G167 (Y,Z) blocks, so nonradial angular participation enters the
+pullback automatically before terminal reciprocal readout.
+
+## The important caveat
+
+Two observer names do not supply the germ. An exact flat counterfamily has the same two boundary
+worldlines and the same event pairing but different regular surface tangents—and hence different
+local pair planes. The result therefore does not derive an event-pairing or global realization
+law.
+
+This is a type closure, not a new mechanism:
+
+- the **completed local relation** supplies its one-jet;
+- the **metric** derives its ruler, pair plane, screen, and pullback;
+- the reciprocal kernel reads the completed pullback.
+
+The remaining global question is which calibrated relation germs coexist and how frames are
+carried between their different basepoints. It is no longer a local pair-plane selection problem.
+
+## Boundary controls
+
+- Local ruler reversal preserves the unoriented plane but does not alone reverse reciprocal depth.
+- Full A/B reversal changes tangent fibers and still requires lawful carry.
+- At coincidence the separation direction vanishes and the plane drops to rank one.
+- B's velocity can lie outside the A-side positional plane; the plane is not a complete
+  relative-motion state.
+- A radial pair has (Z=0); a nonradial pair has metric-determined angular (Z).
+- Rescaling the raw separation germ preserves the plane, while terminal scalar coordinates retain
+  their declared calibration dependence.
+
+## Evidence so far
+
+- preregistered and pushed at `1341994a` before production;
+- 36/36 exact symbolic/source checks pass after one recorded structural-simplification repair;
+- independent standard-library `Fraction` replay: 6,012/6,012 checks over 1,200 trials;
+- exact nonradial, radial, angular-coordinate, reversal, coincidence, relative-motion, and
+  same-label counterfamily controls pass;
+- 11/11 semantic mutation catches pass;
+- the complete 153-row current-premise verifier passes;
+- repository regression: 125 passed, 1 registered xfail;
+- the package gate passes; fresh external review remains open before startup promotion.
+
+## Maximum conclusion
+
+Within the regular local primary-metric arena, the ordered co-present pair **germ**, not a path,
+owns the pair plane needed by G167. Bare labels remain insufficient. No global relation family,
+history, profile, `X_max`, dynamics, observation, or general ambient completion is derived.
+
+ succeeded in 0ms:
+# G137 co-present relational position join
+
+Date: 2026-08-17
+
+Current grade: `VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_PASS`
+
+## Result first
+
+Charles adopted the G136 owner clarification as a `CHOSE / WORKING_FOUNDATIONAL_CLARIFICATION`:
+
+> Physical normalized position for a regular co-present observer pair is a continuous strictly
+> increasing coordinate of the completed reciprocal relation, carries that relation's native
+> Mobius composition law, and uses the local unit convention `F'(0)=1`.
+
+G136 then supplies the unique normalized chart `xi_AB=tanh(phi_AB)`. G137 derives the typed join
+
+\[
+x_{AB}=X_{\max}\tanh\phi_{AB},
+\qquad
+s_{AB}=X_{\max}|\tanh\phi_{AB}|.
+\]
+
+Here `x_AB` is signed ordered position and `s_AB` is nonnegative symmetric separation. Position is
+not bolted onto the metric: the full angular/screen/mixing orchestra first forms the pair pullback,
+which owns `T`, `L`, and `phi_pair`; the adopted constitution then says what positional coordinate
+that completed relation carries.
+
+## Main structural result
+
+Signed position preserves observer order and composes by
+
+\[
+x_{AC}
+=\frac{x_{AB}+x_{BC}}
+       {1+x_{AB}x_{BC}/X_{\max}^{2}}.
+\]
+
+Nonnegative separation cannot compose by itself because taking an absolute value erases the
+orientation needed to distinguish reinforcement from cancellation. Exact equal-magnitude inputs
+produce `3/5` in the same orientation and `0` in opposite orientations.
+
+This is a useful ontological simplification: the primitive positional datum is an ordered reciprocal
+relation. Familiar unsigned distance is a derived magnitude.
+
+## Terminology
+
+No replacement for “spacetime” is mathematically required yet. A useful working phrase is
+**co-present relational spacetime**:
+
+- “spacetime” still names the complete metric arena;
+- “co-present relational” says physical position is constituted by completed observer relations,
+  not assigned from a pre-existing independent spatial tape.
+
+This phrase is explanatory vocabulary, not a new field, structure, or canonized term.
+
+## What remains open
+
+- the numerical value, dimensional owner, profile, and global realization of `X_max`;
+- proper length, areal radius, and signal-travel-distance joins;
+- singular and null pair strata;
+- the physical pair realization and complete metric history;
+- action, source, matter, bootstrap closure, observations, and signalling.
+
+## Evidence
+
+- preregistered and pushed at `cba73382` before outcome execution;
+- production exact symbolic checks: 21/21;
+- independent stdlib numerical/source replay: 37/37;
+- source hashes checked in their frozen through-G136 scope;
+- fresh adversarial context returned `PASS` with no repairs.
+
+## Bounded landing
+
+```text
+OWNER_ADOPTED_WORKING_POSITION_CONSTITUTION__
+SIGNED_AND_NONNEGATIVE_XMAX_JOIN_DERIVED_ON_SUPPLIED_REGULAR_COMPLETE_PAIRS__
+ORIENTATION_REQUIRED_FOR_COMPOSITION__
+XMAX_VALUE_PROPER_LENGTH_PAIR_REALIZATION_HISTORY_AND_GLOBAL_COMPLETION_OPEN
+```
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/sources/udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+# G152 audit report — pair-immersion variational chord ownership
+
+Date: 2026-08-17
+Grade: `VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_PASS`
+
+## Result
+
+For one supplied smooth regular calibrated timelike pair immersion,
+
+\[
+J_1=\beta T u+Ln,
+\qquad
+r=J_1-\beta J_0=Ln,
+\qquad
+\xi=\rho n,
+\]
+
+with
+
+\[
+\rho=X_{\max}\tanh\phi_{\rm pair}
+=X_{\max}\frac{L-T}{L+T}.
+\]
+
+The immersion owns `J1`, and its pullback metric owns the orthogonal ruler `r`. It does not
+automatically identify either with the working reciprocal chord `xi`.
+
+For orientation \(\epsilon=\pm1\), ruler equality is exactly
+
+\[
+\xi=\epsilon r
+\iff
+\rho=\epsilon L
+\iff
+T=L\frac{X_{\max}-\epsilon L}{X_{\max}+\epsilon L}.
+\]
+
+Equivalently, if this identification is supplied,
+
+\[
+X_{\max}^{(\epsilon)}
+=\epsilon L\frac{L+T}{L-T}.
+\]
+
+Coordinate equality additionally requires \(\beta\equiv0\) on the comparison neighborhood.
+
+For \(f=\rho/L\), exact normalized-clock carry is
+
+\[
+[u,\xi]
+=L\,u(f)n
++f\left[J_1(\log T)-u(\beta T)\right]u.
+\]
+
+Thus a nonzero chord is connecting exactly when \(u(f)=0\) and
+\(J_1(\log T)-u(\beta T)=0\). Exact counterexamples prove that magnitude equality and connecting
+carry do not imply one another.
+
+## Interpretation
+
+This closes the local ownership question from G151. The pair immersion supplies the ingredients and
+an exact test; terminal reciprocity alone does not force the test to pass. If a coherent physical
+family is later shown to satisfy ruler equality, constancy of the displayed candidate across that
+family is a necessary test for a universal `X_max`. It is not sufficient by itself and no value is
+derived here.
+
+## Evidence
+
+- preregistration: commit `09a45aa3`;
+- production exact algebra: `derive_variational_ownership.py`;
+- independent Lie-bracket replay: `verify_variational_ownership_independent.py`;
+- package gate: `VERIFICATION_RESULT.json`;
+- fresh adversarial result: `FRESH_ADVERSARIAL_REVIEW.md` (`PASS`, no repair).
+
+## Maximum conclusion
+
+```text
+PAIR_IMMERSION_OWNS_COORDINATE_AND_ORTHOGONAL_VARIATIONS_BUT_NOT_THEIR_IDENTIFICATION_WITH_WORKING_XI__
+EXACT_MAGNITUDE_SHIFT_LAPSE_AND_COMMUTATOR_CONDITIONS_CLASSIFIED__
+UNIVERSAL_XMAX_WOULD_REQUIRE_CANDIDATE_CONSTANCY_ACROSS_THE_SUPPLIED_FAMILY__
+PHYSICAL_IDENTIFICATION_QUERY_HISTORY_DYNAMICS_XMAX_VALUE_AND_COMPLETION_OPEN
+```
+
+codex
+I have the core proof and its own caveat language. The remaining check is whether the crucial “completed local relation supplies its one-jet” step is already an admitted premise in the sealed record, or whether G168 promotes it from open status to working input without acknowledging the extra physics.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/CURRENT_SCIENTIFIC_PREMISES.md" in /intake
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+item	status	what_it_owns	what_it_does_not_own
+c_E	OBSERVED	clock/ruler unit calibration	pair germ or dynamics
+primary static-spherical UDT metric	WORKING	bilinear evaluation and areal screen coefficients	general ambient history law
+ordered co-present positional comparison	WORKING_SEMANTIC_CLARIFICATION	typed local clock/separation germ when the relation is completed	derivation from bare names
+metric orthogonal projection	DERIVED	unique ruler direction	global event pairing
+pair tangent decomposition	DERIVED	Y,Z and angular participation	path or branch selection
+reciprocal terminal readout	DERIVED_CONDITIONAL	scalar response after full pullback	local germ or global network population
+
+ succeeded in 0ms:
+# Scientific premise index
+
+`LIVE.md` and TSV own status; this is not `CANON.md`. On conflict, stop.
+## Foundational relation
+
+| Object | Current status | What is owned | What remains open |
+|---|---|---|---|
+| `c_E`, `G_obs` | `OBSERVED` | Calibration anchors | Native placement and absolute closure |
+| Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))` and determinant-one pair block on supplied ordered depth | Physical pair values and general `3+1` assembly |
+| Pointwise `phi` | `CONDITIONAL` potential | Local factorization | Universal physical scalar ownership |
+| Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
+| Complete pair orchestra | `DERIVED_CONDITIONAL` primary arena | Angular Gram precedes readout in every supplied regular pair plane | Pair-plane ownership and ambient extension |
+| Pair `c_eff` | `CONDITIONAL` observer-frame readout | Calibrated terminal ratio | Universal owner and local signal interpretation |
+| Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
+| Co-presence | `WORKING` | One-solution membership | Query population, valuation, signalling |
+
+## Current reconstruction hierarchy
+
+| Result | Bounded status | Maximum conclusion |
+|---|---|---|
+| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | `B,Q,S,Y,Z` pullback/readout |
+| G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks recover `g`; scalars stop at positive conformal class |
+| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Normalized position; overlap owns carry; endpoints do not glue sheets |
+| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Pullbacks determine `g` on a supplied atlas; realization open |
+| G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections nonunique; screen conditional; carrier open |
+| G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Covariant identity in a chosen representation; coefficient limits only |
+| G149--G162 score/carry/quotient | `VERIFIED_WITH_CAVEATS` | First jet carries; scalar kernel ignores residual rapidity; route/frame memory remains separate; realization open |
+| G163 Xmax dependency reversal | `VERIFIED_WITH_CAVEATS` | Native scalar kernel ends at dimensionless `chi`; G135--G154 dimensional descendants are conditional |
+| G165 conformal-fiber rank | `VERIFIED_WITH_CAVEATS` control | Unrestricted metric envelope has a functional conformal kernel; not physical UDT multiplicity |
+| G166 primary-metric pair descent | `VERIFIED_WITH_CAVEATS` | Founded ordered-pair metric owns its scalar kernel; general `3+1` assembly remains conditional |
+| G167 primary-metric general pair pullback | `VERIFIED_WITH_CAVEATS` | Primary spherical four-metric owns the full local regular pair-pullback orchestra; `Y,Z` remain pair data |
+
+None selects values, completion, observations, or `X_max`.
+## Scale and limits
+
+| Object | Current status | Guard |
+|---|---|---|
+| `X_max` | working asymptotic global-completion consequence target | Not a local kernel input; requires independent metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
+| Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless explicitly reauthorized |
+| Common-factor cancellation | `DERIVED` algebra only | Not a local Weyl-gauge theorem or proof that physical UDT is scale-free |
+| Founded pair common scale | `FIXED` in bounded block | Determinant-one reciprocal clock/ruler block; not a general complete-metric theorem |
+| General complete pair scale | `CONDITIONAL/RETAINED` | Present only after a native complete assembly is supplied |
+| Common-scale principal rank | `DERIVED` source-bounded zero | No active constraint or evolution equation for `kappa` in G155's frozen 41-source regular arena; not a future-law no-go |
+| Pair scale carry | `DERIVED_CONDITIONAL` | Half-density determinant character; incomplete closure |
+| Base channel balance | `DERIVED` bounded | `B+(2)` semidirect composition permits changing ratios; full screen/mixing law open |
+| Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4` law and supplied-history velocity; not physical history |
+| Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
+
+## Geometry, query, and causality
+
+- The physical kernel argument is the ordered observer pair, not a pre-existing path. Bare observer
+  names still require event/calibration typing; route observables remain separate.
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal class.
+  Metricity is not dynamics.
+- G138--G145: overlaps own carry and values determine `g`; endpoints own neither valuation nor realization.
+- G146--G150: physical carrier and `O(2)` solder remain open; `lambda` proves liveness, not values.
+- G149 chord; G150 freedom; G151 curvature; G152 ruler; G153 `dchi`; G154 scale; G155 rank; G156
+  carry; G157 balance; G158 score; G159 descent; G160 carry; G161 quotient; G162 rapidity removal;
+  G163 X-free kernel. Route/frame transport remains separate.
+- G165 remains a valid control on the unrestricted metric envelope. G166 proves that this arbitrary
+  conformal family is not generated by the founded determinant-one pair block.
+- G166 relocates the kernel to the primary metric. G167 derives its complete local regular pair
+  pullback in the primary spherical arena and narrows the open joint to ownership of the pair plane
+  plus genuinely nonspherical/ambient-mixed/time-dependent extension.
+
+## Carrier, action, source, and matter
+
+| Object | Current status | Maximum justified statement |
+|---|---|---|
+| Celestial null-direction `S^2` | `CONDITIONAL` fiber | Does not derive a matter carrier or law |
+| Matter `S^2` carrier | `POSIT` | Conditional carrier branch only |
+| Static Hopfion | scoped finite-box `SETTLED` | Not unconditional particle stability |
+| EH action | `CONDITIONAL_NOT_SELECTED` | Familiarity with GR is not derivation |
+| `C^2`/Bach action | Conditional on inactive strong-CSN premise | No priority |
+| Native source | `OPEN` | Geometric response/current roles do not supply source substance |
+| Bootstrap | `WORKING` mutual-admissibility posit | No complete fixed point, density selector, or matter theorem |
+| Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
+
+## Observational boundary
+
+R2--R5 are `OBSERVED` with caveats and select no feature, scale, significance, origin, cosmology, or
+`X_max`. Conditional SNe replays import radiative transfer and select no metric history.
+
+## Recurring prohibited promotions
+
+Do not:
+
+- derive pointwise depth from the supplied-depth character;
+- call terminal readouts the unique law or pair `c_eff` a local signal speed;
+- identify a seam, diameter, or fitted endpoint with physical `X_max`, or canonize working position;
+- promote G146--G152 controls to carrier, clock flow, exhaustive geometry, universal Jacobi, or automatic ruler equality;
+- call G153 `dchi` proper length or infer response/`X_max` from it;
+- call conformal twins one gauge-equivalent complete network, or call network reconstruction a
+  physical common-scale/history selection law;
+- promote G155--G157 rank/carry/balance controls to a physical law;
+- call G158 score observable, G159 evolution, or G160 full carry closure;
+- miswrite G161's quotient, promote its section, or restore G162 rapidity/eigenflag to the scalar kernel;
+- erase joined `C,Gamma` or collapse other transport channels into tangent `Lambda`;
+- insert `X_max` into the kernel, infer it from `x=X_max chi`, or call G154 probes native;
+- identify relational position with proper length, signal distance, universe size, or history;
+- revive strong local CSN or scale-free UDT because a common factor cancels;
+- identify celestial `S^2` with the matter carrier or density descent with a physical value law;
+- call conditional geometry a native action, source, mass, bootstrap theorem, or universe;
+- promote G167's spherical pullback globally; call supplied `Y,Z` a selected relation; replace its
+  angular Gram with scalar `mu`;
+- import GR, Lambda-CDM, Standard Model, quantum, or fluid mechanisms as UDT derivations;
+- use observational resemblance to select a branch before a preregistered comparison.
+
+## How to use the registry
+
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 153-row authority. On conflict, stop. IDs are stable.
+
+During orientation use this guide and run:
+
+```bash
+python3 verify_current_scientific_premises.py
+```
+
+Query exact TSV rows only after orientation when the requested task makes them load-bearing.
+Pre-cleanup startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/`.
+
+exec
+/bin/bash -lc "grep -RIn \"one-jet\\|completed local relation\\|semantic clarification\\|germ\\|pair germ\\|X_max\\|selector\\|path\\|immersion\" /intake/sources /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18 | sed -n '1,260p'" in /intake
+ succeeded in 0ms:
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:20:`c_E` and constrained by Reciprocity. It does not begin with a path or pre-existing distance and
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:44:and the variation of `delta`; it is not silently treated here as a physical path length known
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:104:## Pair relation versus path
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:109:the physical query supplies the ordered co-present pair, no additional path selector is needed to
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:129:4. A dimensionful separation and numerical `X_max`, which remains downstream.
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:150:assembly from the primary reciprocal structure, not a selector over arbitrary metrics and not a
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md:151:kernel applied to a pre-existing path.
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md:20:pre-existing path or distance
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md:207:- physical depth values, `X_max`, dynamics, sources, and observations.
+/intake/sources/udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md:58:- the numerical value, dimensional owner, profile, and global realization of `X_max`;
+/intake/sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md:37:have different screen planes, requiring lawful carry and typed path/order before comparison with
+/intake/sources/udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md:61:positional gyration with metric transport, or determine query population, history, `X_max`, proper
+/intake/sources/udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md:1:# G152 audit report — pair-immersion variational chord ownership
+/intake/sources/udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md:8:For one supplied smooth regular calibrated timelike pair immersion,
+/intake/sources/udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md:25:The immersion owns `J1`, and its pullback metric owns the orthogonal ruler `r`. It does not
+/intake/sources/udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md:61:This closes the local ownership question from G151. The pair immersion supplies the ingredients and
+/intake/sources/udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md:64:family is a necessary test for a universal `X_max`. It is not sufficient by itself and no value is
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:33:None selects values, completion, observations, or `X_max`.
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:38:| `X_max` | working asymptotic global-completion consequence target | Not a local kernel input; requires independent metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:47:| Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:51:- The physical kernel argument is the ordered observer pair, not a pre-existing path. Bare observer
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:76:| Bootstrap | `WORKING` mutual-admissibility posit | No complete fixed point, density selector, or matter theorem |
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:82:`X_max`. Conditional SNe replays import radiative transfer and select no metric history.
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:90:- identify a seam, diameter, or fitted endpoint with physical `X_max`, or canonize working position;
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:92:- call G153 `dchi` proper length or infer response/`X_max` from it;
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:99:- insert `X_max` into the kernel, infer it from `x=X_max chi`, or call G154 probes native;
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md:33:physical immersion. The exact flat `F_k` counterfamily still proves that distinct realizations can
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md:36:This result is therefore a type simplification, not a physical selector.
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md:62:bootstrap rule, `X_max`, SNe profile, CMB profile, signal law, or dynamics is selected. A supplied
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md:13:A supplied regular timelike observer-pair immersion carries its own pair-relative tangent plane.
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md:19:This is not a derivation of the immersion. The founding source owns the clock/ruler channel type,
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md:42:Let a typed query supply a regular immersion
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md:74:positive definite. No Petrov, Ricci, derivative, preferred congruence, or aether selector is needed
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md:92:arbitrary real mixing matrix. Split the Jacobian of the supplied pair immersion as
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md:264:for an ambient plane selector; it does not make the physical realization emerge from bare
+/intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md:277:- where it owns no unique plane, the supplied pair immersion still has its own tangent/normal
+/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md:104:   supplied pair realization are explicit. No path, fit, `X_max`, action, source, matter, bootstrap,
+/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md:18:Let a supplied regular ordered-pair realization be a local rank-two immersion
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:9:from pathlib import Path
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py:80:require(s0 != s1, "counterfamily_distinct_germs")
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:31:No path, geodesic, curvature selector, complete pair surface, independent screen, or scalar `mu`
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:38:Two observer names do not supply the germ. An exact flat counterfamily has the same two boundary
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:45:- the **completed local relation** supplies its one-jet;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:49:The remaining global question is which calibrated relation germs coexist and how frames are
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:60:- Rescaling the raw separation germ preserves the plane, while terminal scalar coordinates retain
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:77:Within the regular local primary-metric arena, the ordered co-present pair **germ**, not a path,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md:79:history, profile, `X_max`, dynamics, observation, or general ambient completion is derived.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:4:local ordered pair germ (u_A,s_AB)	SUPPLIED_BY_TYPED_RELATION	one event and nonzero separation one-jet
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:8:G167 Y,Z blocks	DERIVED_AS_COORDINATE_COMPONENTS	once primary metric chart and pair germ are supplied
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:9:angular Gram before reciprocal readout	DERIVED	nonradial local germ
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:10:bare observer labels to local pair germ	OPEN	exact same-label counterfamily
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:14:path or complete pair surface	NOT_REQUIRED_FOR_LOCAL_PLANE	may be needed for separately typed global/path outputs
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv:16:X_max profile dynamics source action bootstrap	OPEN_OR_OUT_OF_SCOPE	not used
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:10:    "g167_blocks_recovered_from_germ": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:25:    "same_labels_can_have_distinct_plane_germs": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:131:      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:136:      "path": "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:141:      "path": "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:146:      "path": "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:151:      "path": "udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:156:      "path": "udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:161:      "path": "udt_g137_copresent_relational_position_join_2026-08-17/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:166:      "path": "udt_g147_pair_directional_metric_screen_solder_2026-08-17/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:171:      "path": "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:172:      "role": "orthogonal ruler and immersion boundary",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/DERIVATION_RESULT.json:176:      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:8:from pathlib import Path
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:17:def sha256(path: Path) -> str:
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:19:    h.update(path.read_bytes())
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:68:# Recover the G167 B,Q,Y,Z pullback from the local germ.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:75:check("g167_blocks_recovered_from_germ", h_blocks == h_raw)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:91:# Positive raw-germ rescaling leaves the plane and normalized ruler unchanged.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:112:# Same observer boundaries and same event pairing, different smooth regular surface germs.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:118:check("same_labels_can_have_distinct_plane_germs", sp.Matrix.hstack(u / 2, s0).columnspace() != sp.Matrix.hstack(u / 2, s1).columnspace())
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py:133:    manifest_rows.append({"path": rel, "sha256": actual, "role": role})
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/LAY_REPORT.md:3:The last local piece was simpler than a path-selection law.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/LAY_REPORT.md:6:points and which way the other observer lies. That tiny local object is the **pair germ**. It is the
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/VERIFICATION_RESULT.json:4:  "premise_verifier_stdout": "PASS: G167-extended premise guards; PASS: 153-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py:7:from pathlib import Path
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py:54:# Mutant 7: bare labels claimed to own the surface germ.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py:65:catch("no_path_required_guard", "No path" in report and "not a\n+curve between separated endpoints".replace("\n+", "\n") in exact)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv:1:sha256	path	role
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/SOURCE_MANIFEST.tsv:10:d8ea9eb9b16257cd61f9cd694b9c202657636c74baf1c2f1274a88f1f7502383	udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md	orthogonal ruler and immersion boundary
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:7:Does one **local, calibrated, ordered co-present positional-comparison germ** already own the
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:8:rank-two clock/ruler plane needed by the primary UDT metric pullback, or must a path, complete pair
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:9:surface, ambient plane selector, or other independent mechanism be supplied?
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:17:- one regular nonzero co-present separation germ from A toward B;
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:23:Excluded: a selected path, geodesic, signal trajectory, full pair immersion, global foliation,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:24:`X_max`, fitting, source, action, bootstrap, mass, radiative transfer, protected packages, and a
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:36:| A-to-B co-present separation germ | `CANDIDATE_MINIMAL_PAIR_DATUM` | possible ruler direction |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:37:| complete path or pair surface | `NOT_SUPPLIED` | forbidden shortcut |
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:47:Landing 2 is allowed only if the plane and complete G167 tangent blocks follow from the local germ,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:62:   germ.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:64:   after both ordered germs are lawfully compared in one tangent space.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:70:   event/separation germs, producing different planes or calibration states.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:85:At most, G168 may prove that a **typed local ordered co-present pair germ** supplies the local
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:87:from two observer names, a global pair realization, a path, cross-query carry, a unique observer
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md:88:network, a physical profile, `X_max`, dynamics, signalling, or a general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/CATCH_PROOF_RESULT.json:10:    "no_path_required_guard": true,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:2:c_E	OBSERVED	clock/ruler unit calibration	pair germ or dynamics
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:4:ordered co-present positional comparison	WORKING_SEMANTIC_CLARIFICATION	typed local clock/separation germ when the relation is completed	derivation from bare names
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:6:pair tangent decomposition	DERIVED	Y,Z and angular participation	path or branch selection
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv:7:reciprocal terminal readout	DERIVED_CONDITIONAL	scalar response after full pullback	local germ or global network population
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:12:Complete for all regular local germs consisting of a timelike clock tangent and a nonzero
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:16:Not covered: coincidence, null/degenerate strata, derivation of the germ from bare labels, global
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:17:event pairing, cross-query carry, path outputs, general ambient completion, or dynamics.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:30:G167-extended guards passing. The result is explicitly stamped as a working semantic clarification
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EVIDENCE_GATES.md:31:for the typed pair germ and a derivation only for the metric projection and plane.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:1:# G168 exact derivation — the local pair plane is the one-jet of the relation
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:10:local ordered co-present positional-comparison germ (u_A,s_AB)
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:22:two observer names -> metric-selected path -> externally attached kernel.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:25:The local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:30:The founding reciprocal algebra does not manufacture this germ from two names. Its ownership is a
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:31:typing clarification of a **completed positional comparison**, not a new dynamics or path law.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:100:selector, path, curvature eigenplane, or independent screen is required.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:102:## 3. The primary metric determines all coefficients after the germ is supplied
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:111:write the two germ tangents as columns of (J=(u_A,s_{AB})). Their base and angular components are
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:215:the germ supplies
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:264:Therefore even observer labels plus a fixed boundary event pairing do not select a surface germ.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:265:The local germ is the smallest datum that closes the local plane calculation. Supplying it is much
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:266:less than supplying an entire path or surface.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:288:plane. A limiting direction exists only when a pair germ is supplied. This is a genuine boundary,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:309:2. **Typed local ordered co-present pair germ ((u_A,s_{AB})):** supplied by the completed local
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:310:   relation as a `WORKING` semantic clarification.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:311:3. **Pair plane, orthogonal ruler, positive screen, and G167 (Y,Z):** `DERIVED` from the germ and
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:315:arbitrary immersion menu. It is the tangent content of the relation being evaluated. What remains
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:316:open is which event/calibration germs form the physical global network and how distinct basepoints
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:327:This does not derive a global event-pairing rule, path, pair surface, cross-query carry, physical
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md:328:profile, `X_max`, dynamics, signalling, source, action, bootstrap, or general complete metric.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_package.py:10:from pathlib import Path
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:7:Does a local typed ordered co-present positional-comparison germ `(u_A,s_AB)` genuinely suffice to
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:8:derive the local calibrated Lorentzian pair plane used by G167, without importing a path or full
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:9:pair immersion? Or has the packet merely renamed the missing realization as a “germ”?
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:13:1. Type-check the difference among two observer names, paired events, a local separation germ, a
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:14:   complete pair surface, and a path.
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:16:3. Verify that `Y,Z` are exactly coordinate components of the supplied germ in the primary metric,
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:21:6. Identify any circular use of a pre-existing distance, `X_max`, path, selector, or post-kernel
+/intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/ADVERSARIAL_REVIEW_REQUEST.md:23:7. State whether “completed local relation supplies its one-jet” is a legitimate minimal semantic
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/PREREGISTRATION.md" in /intake
+ succeeded in 0ms:
+# G168 preregistration — ordered co-present pair-plane ownership
+
+Date: 2026-08-18
+
+## Whole question
+
+Does one **local, calibrated, ordered co-present positional-comparison germ** already own the
+rank-two clock/ruler plane needed by the primary UDT metric pullback, or must a path, complete pair
+surface, ambient plane selector, or other independent mechanism be supplied?
+
+The phrase above is deliberately stronger than two observer names. The test must determine the
+smallest exact datum between those extremes.
+
+## Bounded arena
+
+- one event on observer A with a calibrated future timelike clock tangent;
+- one regular nonzero co-present separation germ from A toward B;
+- the declared primary static-spherical UDT metric;
+- local tangent-space algebra only;
+- both radial and nonradial separation directions;
+- observer reversal, coincidence, coordinate/screen covariance, and relative-motion controls.
+
+Excluded: a selected path, geodesic, signal trajectory, full pair immersion, global foliation,
+`X_max`, fitting, source, action, bootstrap, mass, radiative transfer, protected packages, and a
+general nonspherical or ambient-time-dependent metric law.
+
+## Premise ledger before calculation
+
+| Item | Status before test | Role |
+|---|---|---|
+| observed `c_E` | `OBSERVED` | clock/ruler calibration |
+| primary static-spherical metric | `WORKING` declared macro metric | evaluates supplied tangents |
+| reciprocal character on supplied ordered depth | `DERIVED` | terminal reciprocal grading |
+| physical normalized position constitution | `CHOSE / WORKING_FOUNDATIONAL_CLARIFICATION` | ordered positional semantics |
+| observer A clock tangent | `SUPPLIED_OBSERVER_GERM` | clock direction |
+| A-to-B co-present separation germ | `CANDIDATE_MINIMAL_PAIR_DATUM` | possible ruler direction |
+| complete path or pair surface | `NOT_SUPPLIED` | forbidden shortcut |
+| physical event pairing from bare observer names | `OPEN` | must not be smuggled in |
+
+## Competing landings
+
+1. `BARE_ORDERED_OBSERVER_LABELS_AND_PRIMARY_METRIC_OWN_UNIQUE_PAIR_PLANE`
+2. `ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED`
+3. `MINIMAL_EVENT_SEPARATION_GERM_STILL_FAILS_TO_OWN_PAIR_PLANE`
+4. `SOURCE_CONTRADICTION_BLOCKS_CLASSIFICATION`
+
+Landing 2 is allowed only if the plane and complete G167 tangent blocks follow from the local germ,
+while an exact same-label counterexample proves that bare labels do not suffice.
+
+## Required exact tests
+
+1. Given a timelike clock tangent `u` and a nonzero separation vector `s`, construct the unique
+   clock-orthogonal separation
+   `r=s+g(u,s)u/(-g(u,u))` and prove its uniqueness.
+2. On the regular stratum `g(r,r)>0`, prove that `span(u,r)` is Lorentzian and its orthogonal
+   complement is positive definite.
+3. Decompose `u` and `r` in the primary spherical chart and recover the G167 `Y,Z` blocks without
+   an independent screen or mixing choice.
+4. Show explicitly how nonradial separation produces live angular `Z`, while a central radial pair
+   has `Z=0`.
+5. Prove invariance under angular-coordinate changes and positive rescaling of the raw separation
+   germ.
+6. Test reversal: direction orientation changes, while the unoriented local plane is unchanged only
+   after both ordered germs are lawfully compared in one tangent space.
+7. Test coincidence: `s=0` must be classified as a genuine rank-loss boundary, not silently given a
+   direction.
+8. Test relative motion: B's velocity need not lie in `span(u,r)`; do not promote the positional
+   plane into a complete two-observer kinematic plane.
+9. Give an exact counterfamily with the same observer worldline labels and metric but different
+   event/separation germs, producing different planes or calibration states.
+
+## Certification contract
+
+- exact symbolic production checks;
+- independent standard-library rational replay with no production imports;
+- semantic mutations that must catch projection-sign, normalization, radial-freeze, coincidence,
+  reversal-overclaim, and bare-label-ownership errors;
+- frozen source hashes;
+- current scientific-premise verifier;
+- package verifier;
+- fresh sealed adversarial review before startup promotion.
+
+## Maximum conclusion
+
+At most, G168 may prove that a **typed local ordered co-present pair germ** supplies the local
+calibrated plane and therefore the G167 pullback inputs. It may not derive which events are paired
+from two observer names, a global pair realization, a path, cross-query carry, a unique observer
+network, a physical profile, `X_max`, dynamics, signalling, or a general complete metric.
+
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+# Exact derivation — pair-first relational-plane reconstruction
+
+Date: 2026-08-12
+
+## 1. Bounded result
+
+The preregistered primary landing is obtained:
+
+```text
+PAIR_FIRST_CONDITIONAL_RESOLUTION
+```
+
+A supplied regular timelike observer-pair immersion carries its own pair-relative tangent plane.
+The Lorentz metric then supplies its unique orthogonal positive screen. In the registered complete
+coframe chart, the full angular/mixing/embedding contribution to the induced pair metric is one
+positive-semidefinite Gram term. Conditional pair evaluation therefore does not require curvature
+to choose a universal ambient reciprocal/angular split.
+
+This is not a derivation of the immersion. The founding source owns the clock/ruler channel type,
+its reciprocal pairing, and the exponential character of a supplied depth. It does not by itself
+choose paired events, ruler evolution, a branch, or a physical pair surface.
+
+## 2. Three different planes that must not be conflated
+
+### 2.1 Founded channel plane
+
+The founding presentation starts with
+
+```text
+q=(c_E dt,dr)^T,
+K=[[0,1],[1,0]],
+D(delta)=diag(exp(-delta),exp(+delta)).
+```
+
+This is an ordered two-channel clock/ruler space. In the founding spherical chart, `dt` and `dr`
+also provide a chosen local cotangent realization. Dual Reciprocity and continuous composition
+derive the reciprocal character after `delta` is supplied. They do not covariantly select a
+physical comparison surface in a general complete metric.
+
+### 2.2 Realized pair plane
+
+Let a typed query supply a regular immersion
+
+```text
+F:Sigma^2 -> (M^4,g).
+```
+
+At every regular point, `dF` is injective, so
+
+```text
+E_pair=dF(TSigma)
+```
+
+is a rank-two subspace of the ambient tangent space. If `h=F^*g` has Lorentzian signature, then
+`E_pair` is a nondegenerate timelike two-plane. It is canonical relative to `(g,F)` and independent
+of any ambient coframe presentation.
+
+### 2.3 Pair-relative screen
+
+Define
+
+```text
+H_pair=E_pair^perp.
+```
+
+Nondegeneracy gives the direct sum
+
+```text
+TM|F(Sigma)=E_pair direct-sum H_pair.
+```
+
+The ambient metric has inertia `(1,3)` and the pair plane has inertia `(1,1)`. Additivity of
+inertia for an orthogonal direct sum therefore gives inertia `(0,2)` on `H_pair`: the screen is
+positive definite. No Petrov, Ricci, derivative, preferred congruence, or aether selector is needed
+for this conditional split.
+
+An arbitrary pointwise plane field need not integrate. Here integrability is not inferred: the
+surface `F` was supplied, and `E_pair` is its tangent bundle by construction.
+
+## 3. Complete-coframe pullback
+
+On a regular local `2+2` chart write the complete coframe and metric as
+
+```text
+E=[[B,0],[Q S,Q]],
+g=E^T eta_4 E,
+eta_4=diag(eta_2,I_2),
+eta_2=diag(-1,+1).
+```
+
+Here `B` is a regular clock/ruler block, `Q` is a regular positive-screen coframe, and `S` is an
+arbitrary real mixing matrix. Split the Jacobian of the supplied pair immersion as
+
+```text
+dF=J=[Y;Z].
+```
+
+The complete coframe evaluated on the pair tangents is
+
+```text
+E J=[B Y; Q(SY+Z)].
+```
+
+The first fundamental form is therefore exactly
+
+```text
+h=J^T g J
+ =Y^T B^T eta_2 B Y +(S Y+Z)^T q(S Y+Z),          (1)
+q=Q^T Q>0.
+```
+
+Equation (1) is the complete local orchestra formula. It does not attach an angular correction
+after a reciprocal calculation. It first forms the complete metric pullback; the terminal
+reciprocal coordinate is read only afterward.
+
+## 4. The simple reduced object
+
+When the base projection `Y` is invertible, use the pair-domain basis in which that projection is
+the identity. Define
+
+```text
+W=Z Y^-1,
+C=S+W.
+```
+
+Then
+
+```text
+Y^-T h Y^-1=B^T eta_2 B+C^T q C.                 (2)
+```
+
+Thus the first fundamental form sees ambient mixing `S` and the realized surface slope `W` through
+their combined relative screen displacement `C`. The pair metric alone cannot invert that sum to
+recover `S` and `W` separately. This is an evaluator non-identifiability statement, not a claim
+that changing `(g,F)` while preserving `C` is gauge.
+
+The `C=0` limit recovers the pure base metric exactly.
+
+## 5. Complete pointwise solution space of the Gram contribution
+
+For every real `C`,
+
+```text
+P=C^T q C
+```
+
+is positive semidefinite because
+
+```text
+v^T P v=(Cv)^T q(Cv)>=0.
+```
+
+Conversely, every positive-semidefinite `2 x 2` matrix `P` occurs. With positive square roots,
+
+```text
+C=q^-1/2 P^1/2
+```
+
+gives `C^T q C=P` (choosing symmetric roots). Hence the image is exactly the full `PSD(2)` cone,
+not a selected subset.
+
+Adding a positive-semidefinite form to a Lorentzian two-form cannot increase its negative index,
+and its originally positive direction remains positive. The complete pointwise inertia atlas is
+therefore:
+
+```text
+(1 negative,0 zero,1 positive)  Lorentzian pair plane;
+(0 negative,1 zero,1 positive)  degenerate boundary;
+(0 negative,0 zero,2 positive)  positive pair surface.
+```
+
+All three are retained. Only the first supports the calibrated Lorentzian terminal readout; the
+others are characterized rather than discarded as solver failures.
+
+## 6. Exact terminal modulation
+
+In calibrated pair coordinates let
+
+```text
+B=[[T,T beta],[0,L]],
+B^T eta_2 B=
+  [[-T^2,-T^2 beta],
+   [-T^2 beta,L^2-T^2 beta^2]],
+P=[[a,d],[d,e]].
+```
+
+The complete induced pair metric is
+
+```text
+h00=-T^2+a,
+h01=-T^2 beta+d,
+h11=L^2-T^2 beta^2+e.                            (3)
+```
+
+On the A-calibrated timelike stratum
+
+```text
+A=T^2-a>0,
+det(h)<0,
+```
+
+the unique terminal decomposition gives
+
+```text
+T_pair^2=A,
+beta_pair=(T^2 beta-d)/(T^2-a),
+L_pair^2=h11+h01^2/A,
+-det(h)=T_pair^2 L_pair^2.                       (4)
+```
+
+Consequently
+
+```text
+kappa_pair=(1/4)log[-det(h)],
+phi_pair=(1/4)log[-det(h)/h00^2]
+        =(1/4)log[L_pair^2/T_pair^2],
+c_eff^(pair)/c_E=T_pair/L_pair.                  (5)
+```
+
+Equations (3)--(5) prove the user's orchestra statement in its cleanest local form. Screen scale,
+angular shape, mixing, and the pair embedding first alter the full Gram data `(a,d,e)`. The scalar
+`phi_pair` is then extracted from the completed pair metric. `c_E` calibrates the terminal ratio;
+it does not select the surface.
+
+The Gram term is positive semidefinite, but `phi_pair` need not change monotonically because its
+clock, cross, and ruler entries enter a Lorentzian determinant and ratio together.
+
+## 7. Covariance checks
+
+Three exact presentation checks pass:
+
+1. A pair-domain change `J -> J R` gives `h -> R^T h R`.
+2. A screen-frame rotation `Q -> OQ`, `O^T O=I`, leaves `q=Q^TQ` and `h` unchanged.
+3. `C=0` recovers `B^T eta_2 B`, including the base values of `T`, `L`, and `beta`.
+
+The terminal scalars in (5) require the declared A-calibrated coordinates. They are not asserted
+to be invariant under arbitrary pair-coordinate changes that destroy that calibration.
+
+## 8. Why this does not derive the physical relation
+
+In flat `1+1` geometry, fixed worldlines
+
+```text
+A(y)=(y,0),
+B(v)=(v,ell)
+```
+
+admit the exact family
+
+```text
+F_k(y,s)=(y+k s/ell,s).
+```
+
+Every member has
+
+```text
+h_k=[[-1,-k/ell],[-k/ell,1-k^2/ell^2]],
+det(h_k)=-1,
+phi_pair=0,
+```
+
+while pairing A's event `y` with B's event `y+k`. The same metric, observers, `c_E`, and terminal
+reciprocal depth therefore retain different realizations. Pair-first evaluation removes the need
+for an ambient plane selector; it does not make the physical realization emerge from bare
+observer labels.
+
+## 9. Regrade of the curvature excavation
+
+The curvature-principal and first-curvature-derivative atlases remain valid maps of intrinsic
+ambient structure. Their failure to recover the registered split on most complete metric jets no
+longer blocks conditional observer-pair evaluation:
+
+- where curvature owns a plane coincident with `E_pair`, it supplies additional intrinsic
+  structure;
+- where it owns a different plane or higher-rank distribution, those structures can be decomposed
+  relative to `E_pair direct-sum H_pair`;
+- where it owns no unique plane, the supplied pair immersion still has its own tangent/normal
+  split.
+
+No prior negative is erased. Its role is narrowed: those audits answer whether ambient curvature
+selects the registered split, not whether a realized comparison possesses a pair plane.
+
+## 10. Evidence
+
+The SymPy production derivation passes 11 exact identities. A separately expressed stdlib
+`Fraction` implementation passes:
+
+```text
+160/160 direct pullbacks,
+160/160 reduced Gram identities,
+160/160 pair-coordinate covariance checks,
+160/160 screen-frame covariance checks,
+34/34 encountered regular terminal reconstructions,
+5/5 flat counterfamily rows,
+1 exact tangent/normal positivity witness.
+```
+
+## 11. Exact bounded landing
+
+```text
+PAIR_FIRST_CONDITIONAL_RESOLUTION__THE_FOUNDING_OWNS_AN_ORDERED_CLOCK_RULER_CHANNEL_TYPE_AND_
+RECIPROCAL_CHARACTER__A_SUPPLIED_REGULAR_TIMELIKE_PAIR_IMMERSION_OWNS_ITS_PAIR_RELATIVE_TANGENT_
+PLANE_AND_UNIQUE_POSITIVE_ORTHOGONAL_SCREEN__THE_COMPLETE_COFRAME_PULLBACK_COMBINES_BASE_SCREEN_
+MIXING_AND_EMBEDDING_DATA_BEFORE_TERMINAL_PHI_IS_READ__NO_UNIVERSAL_AMBIENT_CURVATURE_SELECTOR_IS_
+REQUIRED_FOR_CONDITIONAL_PAIR_EVALUATION__THE_PHYSICAL_IMMERSION_EVENT_PAIRING_BRANCH_GLOBAL_
+COMPATIBLE_RELATION_FAMILY_HISTORY_ACTION_SOURCE_AND_DYNAMICS_REMAIN_OPEN.
+```
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/AUDIT_REPORT.md" in /intake
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+# Audit report — pair-first relational-plane reconstruction
+
+Date: 2026-08-12
+
+Status: **EXTERNALLY REVIEWED — VERIFIED WITH CAVEATS**
+
+## Result
+
+```text
+PAIR_FIRST_CONDITIONAL_RESOLUTION
+```
+
+The simpler interpretation is mathematically sound within its declared scope. A supplied regular
+observer-pair surface does not need ambient curvature to tell it which two-plane it occupies. Its
+tangent plane is the clock/ruler comparison plane, and the Lorentz metric uniquely supplies the
+orthogonal positive screen.
+
+In the complete coframe, all local angular, mixing, and surface-tilt contributions enter the
+induced pair metric through one positive-semidefinite Gram term:
+
+```text
+h_pair=h_base+C^T q C.
+```
+
+The terminal `(kappa,phi,beta)` and `c_eff^(pair)/c_E` are extracted only after this complete
+metric has been formed. This retains the phi-plus-orchestra result while eliminating the demand
+for a universal curvature-selected observer plane.
+
+## What remains open
+
+The founding algebra supplies an ordered clock/ruler channel pair and the reciprocal character of
+a supplied depth. It does not, by itself, choose the event pairing, ruler evolution, branch, or
+physical immersion. The exact flat `F_k` counterfamily still proves that distinct realizations can
+share the same observers, metric, `c_E`, and terminal `phi_pair`.
+
+This result is therefore a type simplification, not a physical selector.
+
+## Load-bearing evidence
+
+- 11/11 exact symbolic identities pass.
+- Independent exact-Fraction replay: 160/160 direct pullbacks.
+- Independent exact-Fraction replay: 160/160 reduced orchestra formulas.
+- Independent exact-Fraction replay: 160/160 pair-coordinate covariance checks.
+- Independent exact-Fraction replay: 160/160 screen-frame covariance checks.
+- 34/34 encountered regular terminal pair metrics reconstruct exactly.
+- 5/5 distinct flat event-pairing controls retain `phi_pair=0`.
+- The full Gram image is proved to be the complete `PSD(2)` cone; Lorentzian, degenerate, and
+  positive-definite pair-surface outcomes are all retained.
+- A fresh sealed reviewer independently replayed 200 rational cases, including 40 regular terminal
+  reconstructions, and returned `ACCEPT__VERIFIED_WITH_CAVEATS`.
+
+## Binding evidence caveat
+
+The internal exact-Fraction implementation performs its own matrix arithmetic, but it reopens the
+production JSON at the end and is therefore not fully hermetic. The package verifier is primarily
+an administrative/status/manifest gate. The external reviewer's separately expressed 200-sample
+replay is the fresh load-bearing algebra check. See `ADVERSARIAL_REVIEW.md`.
+
+## Scope boundary
+
+No physical `(g,Q,F)`, global pair family, curvature branch, action, source, matter carrier,
+bootstrap rule, `X_max`, SNe profile, CMB profile, signal law, or dynamics is selected. A supplied
+surface is locally integrable by definition; no arbitrary pointwise plane field is promoted to a
+global foliation.
+
+## Next posture
+
+Slow down. Do not resume derivative-order excavation or hunt a new mechanism. The next useful work
+is a metric-wide conceptual synthesis asking which apparent missing objects disappear once the
+pair-first construction and terminal reciprocal-`c_E` readout are composed. Any later derivation
+must be separately preregistered.
+
+ succeeded in 0ms:
+# G167 audit report — bounded primary-metric general pair pullback orchestra
+
+Date: 2026-08-18
+
+Grade: `VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REPAIR_FOLLOWUP_PASS`
+
+## Primary landing
+
+```text
+PRIMARY_STATIC_SPHERICAL_UDT_METRIC_OWNS_FULL_GENERAL_PAIR_PULLBACK_ORCHESTRA
+__GENERAL_AMBIENT_EXTENSION_OPEN
+```
+
+## Result first
+
+Within the declared primary static-spherical UDT metric, the complete local pair metric and scalar
+terminal response of an arbitrary regular ordered-pair realization are already assembled by the
+ordinary metric pullback. No
+independent ambient screen history, mixing matrix, scalar `mu`, or post-kernel angular correction is
+needed in this bounded arena.
+
+For arbitrary pair tangents,
+
+```text
+h_ij = -c_E^2 exp(-2 phi) t_i t_j
+       +exp(+2 phi) r_i r_j
+       +r^2 theta_i theta_j
+       +r^2 sin(theta)^2 varphi_i varphi_j.
+```
+
+The angular terms form a covariant Gram matrix and enter `h` before
+
+```text
+phi_pair=(1/4)log[(-det h)/h00^2],
+(c_eff^(pair)/c_E)^2=h00^2/(-det h).
+```
+
+Even though the ambient metric is diagonal, nonradial pair tangents can generate a nonzero pair
+cross-term and calibrated terminal shift state. Exact production and independent rational calculations exhibit a
+regular witness for which the angular Gram changes the squared reciprocal ratio from `4` to
+`152881/78524`.
+
+## What simplified
+
+The conditional complete-coframe evaluator
+
+```text
+h=Y^T B^T eta_2 B Y +(S Y+Z)^TQ^TQ(S Y+Z)
+```
+
+reduces in the primary metric to
+
+```text
+B=diag(c_E exp(-phi),exp(phi)),
+Q=diag(r,r sin(theta)),
+S=0,
+h=Y^T B^T eta_2 B Y+Z^TQ^TQZ.
+```
+
+Thus `B,Q,S` are not three independent physical histories here. The metric fixes `B,Q,S=0`; the
+supplied ordered-pair realization fixes `Y,Z`. Much of the apparent assembly problem came from
+promoting a general configuration envelope into the physical UDT input.
+
+## Exact boundary
+
+The simplification is not universal closure.
+
+- A central radial pair has `Z=0`; its scalar kernel reduces exactly to the founded reciprocal
+  block. Its angular response remains in the separate screen/Jacobi channel.
+- Nonradial or rotating pair realizations can feed angular geometry directly into the scalar pair
+  metric.
+- Query-live variation through a static metric is derived; an ambient time-dependent field law is
+  not.
+- Connection, normal transport, Jacobi, and holonomy outputs remain separately typed and are not
+  reconstructed from the terminal pair metric alone.
+- `beta_pair` depends on the supplied calibrated pair chart; it is not promoted to an invariant
+  ambient shift field.
+- A genuinely nonspherical or ambient-mixed UDT metric remains outside this declared slice.
+- The metric does not select an event/calibration realization from two bare observer names.
+
+## Evidence
+
+- preregistered and pushed at `ad748714` before production;
+- ten frozen source hashes pass;
+- 19 exact symbolic checks pass;
+- 1,200 standalone `Fraction` pullback and live-derivative trials pass, including 381 regular
+  Lorentzian witnesses;
+- named radial, nonradial, angular-covariance, live-derivative, and scalar-compression controls pass;
+- semantic mutation catches, premise verifier, and repository regression results are recorded in
+  `EVIDENCE_GATES.md`;
+- the first fresh external review independently reproduced every load-bearing scientific identity;
+- its mandatory sealed-replay and evidence-metadata repairs have been implemented locally;
+- the fresh corrected sealed-intake follow-up passes every registered repair check and returns no
+  mandatory repair.
+
+## Four gates
+
+1. Preregistered: yes.
+2. Full or bounded: complete for all local rank-two pair tangents in the declared static-spherical
+   primary metric; not a general ambient nonspherical/time-dependent theorem.
+3. Independent: exact standalone rational replay, the first fresh external scientific
+   reconstruction, and the fresh corrected sealed-replay follow-up all pass.
+4. Premises: reciprocal base, declared static spherical arena, areal screen, supplied profile, and
+   supplied pair realization are explicit. No path, fit, `X_max`, action, source, matter, bootstrap,
+   or protected work entered.
+
+## Maximum conclusion
+
+The declared primary UDT metric already contains a complete local pair orchestra: the screen is
+metric-fixed and the pair's angular participation is fixed by its supplied tangent geometry before
+the reciprocal kernel is read. The remaining assembly gap is narrower: physical pair realization,
+global carry, and any truly nonspherical or ambient-time-dependent extension. No dynamics,
+observation, or complete-universe claim follows.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/STATUS_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+claim	status	scope_or_boundary
+reciprocal character on supplied ordered depth	DERIVED	founding regular one-parameter representation
+physical normalized position constitution	CHOSE_WORKING_FOUNDATIONAL_CLARIFICATION	regular completed co-present observer pairs
+local ordered pair germ (u_A,s_AB)	SUPPLIED_BY_TYPED_RELATION	one event and nonzero separation one-jet
+orthogonal ruler r_AB	DERIVED	unique metric projection on regular timelike clock stratum
+local Lorentzian pair plane E_AB	DERIVED_FROM_GERM_AND_METRIC	nonzero projected separation
+positive pair screen	DERIVED_FROM_GERM_AND_METRIC	orthogonal complement in Lorentz signature (1,3)
+G167 Y,Z blocks	DERIVED_AS_COORDINATE_COMPONENTS	once primary metric chart and pair germ are supplied
+angular Gram before reciprocal readout	DERIVED	nonradial local germ
+bare observer labels to local pair germ	OPEN	exact same-label counterfamily
+coincidence direction	OPEN_SINGULAR_BOUNDARY	pair plane rank drops to one
+full observer reversal carry	OPEN	different tangent fibers require lawful comparison
+B velocity in A positional plane	NOT_REQUIRED_AND_FALSE_IN_GENERAL	exact relative-motion counterexample
+path or complete pair surface	NOT_REQUIRED_FOR_LOCAL_PLANE	may be needed for separately typed global/path outputs
+global physical relation network	OPEN	event/calibration population and cross-query carry
+X_max profile dynamics source action bootstrap	OPEN_OR_OUT_OF_SCOPE	not used
+
+codex
+I’ve got enough context to classify the types and see the fault line. I’m pulling precise line references now so the landing rests on the sealed text rather than on paraphrase.
+exec
+/bin/bash -lc "nl -ba /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md | sed -n '1,220p'" in /intake
+ succeeded in 0ms:
+     1	# G168 exact derivation — the local pair plane is the one-jet of the relation
+     2	
+     3	Date: 2026-08-18
+     4	
+     5	## 1. Exact type order
+     6	
+     7	The bounded construction is
+     8	
+     9	```text
+    10	local ordered co-present positional-comparison germ (u_A,s_AB)
+    11	+ primary UDT metric g
+    12	    -> orthogonal ruler r_AB
+    13	    -> local Lorentzian pair plane E_AB
+    14	    -> G167 blocks Y,Z
+    15	    -> complete pullback h_AB
+    16	    -> terminal reciprocal readout.
+    17	```
+    18	
+    19	It is not
+    20	
+    21	```text
+    22	two observer names -> metric-selected path -> externally attached kernel.
+    23	```
+    24	
+    25	The local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
+    26	clock tangent (u_A\in T_pM) and a nonzero tangent (s_{AB}\in T_pM) representing the local
+    27	ordered positional variation toward B. It is a local differential datum of the relation, not a
+    28	curve between separated endpoints.
+    29	
+    30	The founding reciprocal algebra does not manufacture this germ from two names. Its ownership is a
+    31	typing clarification of a **completed positional comparison**, not a new dynamics or path law.
+    32	
+    33	## 2. Unique clock-orthogonal ruler
+    34	
+    35	Let (g(u_A,u_A)<0). Among all representatives in the affine line
+    36	
+    37	\[
+    38	s_{AB}+\operatorname{span}(u_A),
+    39	\]
+    40	
+    41	there is exactly one clock-orthogonal vector:
+    42	
+    43	\[
+    44	\boxed{
+    45	r_{AB}=s_{AB}-
+    46	\frac{g(u_A,s_{AB})}{g(u_A,u_A)}u_A .
+    47	}
+    48	\]
+    49	
+    50	Indeed,
+    51	
+    52	\[
+    53	g(u_A,r_{AB})=0.
+    54	\]
+    55	
+    56	If (r'=s_{AB}+a u_A) is also orthogonal to (u_A), then
+    57	
+    58	\[
+    59	0=g(u_A,s_{AB})+a g(u_A,u_A),
+    60	\]
+    61	
+    62	so (a=-g(u_A,s_{AB})/g(u_A,u_A)). The ruler is therefore unique.
+    63	
+    64	Because a Lorentzian metric of index one is positive definite on (u_A^\perp), every nonzero
+    65	(r_{AB}\in u_A^\perp) is spacelike. Hence
+    66	
+    67	\[
+    68	\boxed{
+    69	E_{AB}=\operatorname{span}\{u_A,r_{AB}\}
+    70	      =\operatorname{span}\{u_A,s_{AB}\}
+    71	}
+    72	\]
+    73	
+    74	is a nondegenerate Lorentzian two-plane. Its orthogonal complement is a positive two-dimensional
+    75	screen.
+    76	
+    77	Writing
+    78	
+    79	\[
+    80	U=g(u_A,u_A)<0,
+    81	\quad G=g(u_A,s_{AB}),
+    82	\quad S=g(s_{AB},s_{AB}),
+    83	\]
+    84	
+    85	gives
+    86	
+    87	\[
+    88	g(r_{AB},r_{AB})=S-\frac{G^2}{U}>0.
+    89	\]
+    90	
+    91	In the raw basis ((u_A,s_{AB})),
+    92	
+    93	\[
+    94	h=\begin{pmatrix}U&G\\G&S\end{pmatrix},
+    95	\qquad
+    96	\det h=U\left(S-\frac{G^2}{U}\right)<0.
+    97	\]
+    98	
+    99	In the orthogonal basis ((u_A,r_{AB})), the same plane metric is diagonal. No ambient plane
+   100	selector, path, curvature eigenplane, or independent screen is required.
+   101	
+   102	## 3. The primary metric determines all coefficients after the germ is supplied
+   103	
+   104	For
+   105	
+   106	\[
+   107	g=-c_E^2e^{-2\phi}dt^2+e^{2\phi}dr^2
+   108	  +r^2d\theta^2+r^2\sin^2\theta\,d\varphi^2,
+   109	\]
+   110	
+   111	write the two germ tangents as columns of (J=(u_A,s_{AB})). Their base and angular components are
+   112	
+   113	\[
+   114	Y=
+   115	\begin{pmatrix}
+   116	u^t&s^t\\
+   117	u^r&s^r
+   118	\end{pmatrix},
+   119	\qquad
+   120	Z=
+   121	\begin{pmatrix}
+   122	u^\theta&s^\theta\\
+   123	u^\varphi&s^\varphi
+   124	\end{pmatrix}.
+   125	\]
+   126	
+   127	Therefore the G167 pullback is not missing another local assembly rule:
+   128	
+   129	\[
+   130	\boxed{
+   131	h=Y^TB^T\eta_2BY+Z^TQ^TQZ,
+   132	}
+   133	\]
+   134	
+   135	with metric-owned
+   136	
+   137	\[
+   138	B=\operatorname{diag}(c_Ee^{-\phi},e^\phi),
+   139	\qquad
+   140	Q=\operatorname{diag}(r,r\sin\theta).
+   141	\]
+   142	
+   143	Once ((u_A,s_{AB})) is supplied, (Y) and (Z) are simply its coordinate components. They are
+   144	not four additional physical functions.
+   145	
+   146	A nonradial separation has nonzero angular entries in (Z), so the angular Gram term enters before
+   147	the terminal reciprocal readout. A central radial separation has (Z=0); in that special case its
+   148	scalar kernel is radial while angular response remains in the screen/Jacobi channels.
+   149	
+   150	Under an angular coordinate change with Jacobian (K),
+   151	
+   152	\[
+   153	Z\mapsto KZ,
+   154	\qquad
+   155	q_{S^2}\mapsto K^{-T}q_{S^2}K^{-1},
+   156	\]
+   157	
+   158	and (Z^Tq_{S^2}Z) is unchanged. Positive rescaling of the raw separation tangent preserves its
+   159	line and normalized ruler direction. Pair-metric components transform covariantly; a terminal
+   160	readout remains tied to its declared calibration.
+   161	
+   162	## 4. Exact rational witness
+   163	
+   164	Take
+   165	
+   166	\[
+   167	g=\operatorname{diag}\left(-\frac14,4,9,\frac{144}{25}\right),
+   168	\quad
+   169	u=(2,0,0,0),
+   170	\quad
+   171	s=\left(1,\frac12,\frac13,\frac14\right).
+   172	\]
+   173	
+   174	Then
+   175	
+   176	\[
+   177	g(u,u)=-1,
+   178	\qquad
+   179	g(u,s)=-\frac12,
+   180	\]
+   181	
+   182	and the unique orthogonal ruler is
+   183	
+   184	\[
+   185	r=\left(0,\frac12,\frac13,\frac14\right),
+   186	\qquad
+   187	g(r,r)=\frac{59}{25}.
+   188	\]
+   189	
+   190	The raw and orthogonal pair metrics are
+   191	
+   192	\[
+   193	h_{(u,s)}=
+   194	\begin{pmatrix}
+   195	-1&-1/2\\
+   196	-1/2&211/100
+   197	\end{pmatrix},
+   198	\qquad
+   199	h_{(u,r)}=
+   200	\begin{pmatrix}
+   201	-1&0\\
+   202	0&59/25
+   203	\end{pmatrix},
+   204	\]
+   205	
+   206	and both have determinant (-59/25).
+   207	
+   208	With
+   209	
+   210	\[
+   211	B=\operatorname{diag}(1/2,2),
+   212	\quad Q=\operatorname{diag}(3,12/5),
+   213	\]
+   214	
+   215	the germ supplies
+   216	
+   217	\[
+   218	Y=\begin{pmatrix}2&1\\0&1/2\end{pmatrix},
+   219	\qquad
+   220	Z=\begin{pmatrix}0&1/3\\0&1/4\end{pmatrix},
+
+exec
+/bin/bash -lc "nl -ba /intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md | sed -n '1,180p'" in /intake
+exec
+/bin/bash -lc "nl -ba /intake/sources/udt_pair_first_relational_plane_reconstruction_2026-08-12/EXACT_DERIVATION.md | sed -n '1,220p'" in /intake
+ succeeded in 0ms:
+     1	# G167 exact derivation — bounded primary-metric general pair pullback
+     2	
+     3	Date: 2026-08-18
+     4	
+     5	## 1. Bounded arena
+     6	
+     7	The declared primary static-spherical UDT metric is
+     8	
+     9	\[
+    10	g=-c_E^2e^{-2\phi(r)}dt^2+e^{2\phi(r)}dr^2
+    11	  +r^2d\theta^2+r^2\sin^2\theta\,d\varphi^2.
+    12	\]
+    13	
+    14	This is a four-dimensional metric, not only a radial line element. Its static, spherical, diagonal,
+    15	and areal properties remain the declared macro slice. The function \(\phi(r)\) is supplied here; no
+    16	field equation or profile is derived.
+    17	
+    18	Let a supplied regular ordered-pair realization be a local rank-two immersion
+    19	
+    20	\[
+    21	F:\Sigma^2\to M^4,
+    22	\qquad
+    23	X_i=F_*\partial_i
+    24	    =t_i\partial_t+r_i\partial_r
+    25	      +\theta_i\partial_\theta+\varphi_i\partial_\varphi.
+    26	\]
+    27	
+    28	The two tangent directions need not be radial, static, geodesic, or aligned with the ambient chart.
+    29	The pair metric is not another ansatz. It is the pullback \(h=F^*g\).
+    30	
+    31	## 2. Exact general-pair pullback
+    32	
+    33	Direct substitution gives
+    34	
+    35	\[
+    36	\boxed{
+    37	h_{ij}
+    38	=-c_E^2e^{-2\phi}t_it_j
+    39	+e^{2\phi}r_ir_j
+    40	+r^2\theta_i\theta_j
+    41	+r^2\sin^2\theta\,\varphi_i\varphi_j.
+    42	}
+    43	\]
+    44	
+    45	Equivalently, if \(w_i\) is the angular component of \(X_i\) and \(\gamma_{S^2}\) is the unit-sphere
+    46	metric,
+    47	
+    48	\[
+    49	h_{ij}
+    50	=-c_E^2e^{-2\phi}t_it_j
+    51	+e^{2\phi}r_ir_j
+    52	+r^2\gamma_{S^2}(w_i,w_j).
+    53	\]
+    54	
+    55	This formula is angular-coordinate covariant. Under an angular coordinate change with Jacobian
+    56	\(K\), \(Z\mapsto KZ\) and \(q_{S^2}\mapsto K^{-T}q_{S^2}K^{-1}\), so
+    57	
+    58	\[
+    59	Z^Tq_{S^2}Z
+    60	\mapsto
+    61	Z^TK^TK^{-T}q_{S^2}K^{-1}KZ
+    62	=Z^Tq_{S^2}Z.
+    63	\]
+    64	
+    65	## 3. Exact relation to the conditional complete-coframe evaluator
+    66	
+    67	In the primary coframe,
+    68	
+    69	\[
+    70	B=\begin{pmatrix}c_Ee^{-\phi}&0\\0&e^\phi\end{pmatrix},
+    71	\qquad
+    72	Q=\begin{pmatrix}r&0\\0&r\sin\theta\end{pmatrix},
+    73	\qquad
+    74	S=0.
+    75	\]
+    76	
+    77	For
+    78	
+    79	\[
+    80	Y=\begin{pmatrix}t_0&t_1\\r_0&r_1\end{pmatrix},
+    81	\qquad
+    82	Z=\begin{pmatrix}\theta_0&\theta_1\\\varphi_0&\varphi_1\end{pmatrix},
+    83	\]
+    84	
+    85	the uncompressed formula reduces exactly to
+    86	
+    87	\[
+    88	\boxed{
+    89	h=Y^TB^T\eta_2BY+Z^TQ^TQZ.
+    90	}
+    91	\]
+    92	
+    93	Thus, in this bounded primary arena:
+    94	
+    95	- \(B\) is fixed by \(c_E\) and the supplied \(\phi\) profile;
+    96	- \(Q\) is fixed by the areal spherical metric;
+    97	- ambient base-screen mixing \(S\) is exactly zero in this coframe;
+    98	- \(Y,Z\) are the supplied pair tangents;
+    99	- the angular Gram matrix \(P=Z^TQ^TQZ\) is derived from the metric and pair realization.
+   100	
+   101	The conditional \(B,Q,S,Y,Z\) evaluator therefore does not require five independent histories in
+   102	this slice. It collapses to one supplied primary metric plus one supplied pair realization.
+   103	
+   104	## 4. Angular terms and terminal shift are internal
+   105	
+   106	Writing
+   107	
+   108	\[
+   109	P=\begin{pmatrix}x&z\\z&y\end{pmatrix},
+   110	\]
+   111	
+   112	the complete pair metric is \(h=h_{\rm base}+P\) before the terminal kernel is evaluated. Although
+   113	the ambient metric is diagonal, the pair metric generally is not:
+   114	
+   115	\[
+   116	h_{01}
+   117	=-c_E^2e^{-2\phi}t_0t_1
+   118	+e^{2\phi}r_0r_1
+   119	+r^2\theta_0\theta_1
+   120	+r^2\sin^2\theta\,\varphi_0\varphi_1.
+   121	\]
+   122	
+   123	Therefore the calibrated terminal shift state
+   124	
+   125	\[
+   126	\beta_{\rm pair}=\frac{h_{01}}{h_{00}}
+   127	\]
+   128	
+   129	can be nonzero even when the base contribution to \(h_{01}\) and every ambient off-diagonal metric
+   130	component vanish. This is pair-embedding geometry in the supplied calibrated pair chart, not a
+   131	separately posited or chart-invariant ambient shift.
+   132	
+   133	## 5. Terminal reciprocal kernel
+   134	
+   135	On the regular calibrated Lorentzian stratum
+   136	
+   137	\[
+   138	h_{00}<0,
+   139	\qquad
+   140	\det h<0,
+   141	\]
+   142	
+   143	the unique terminal readout remains
+   144	
+   145	\[
+   146	\boxed{
+   147	\phi_{\rm pair}
+   148	=\frac14\log\frac{-\det h}{h_{00}^2},
+   149	\qquad
+   150	\left(\frac{c_{\rm eff}^{(\rm pair)}}{c_E}\right)^2
+   151	=\frac{h_{00}^2}{-\det h}.
+   152	}
+   153	\]
+   154	
+   155	All angular terms have already entered \(h\). No post-readout angular correction occurs.
+   156	
+   157	An exact nonradial witness with \(c_E=1\), \(e^\phi=2\), \(r=3\), and
+   158	\(\sin\theta=4/5\) gives
+   159	
+   160	\[
+   161	h=
+   162	\begin{pmatrix}
+   163	-391/100&9/50\\
+   164	9/50&2
+   165	\end{pmatrix},
+   166	\qquad
+   167	P=
+   168	\begin{pmatrix}
+   169	9/100&9/50\\
+   170	9/50&1
+   171	\end{pmatrix}.
+   172	\]
+   173	
+   174	Here
+   175	
+   176	\[
+   177	\det h=-\frac{19631}{2500},
+   178	\qquad
+   179	\beta_{\rm pair}=-\frac{18}{391},
+   180	\qquad
+
+ succeeded in 0ms:
+     1	# Exact derivation — pair-first relational-plane reconstruction
+     2	
+     3	Date: 2026-08-12
+     4	
+     5	## 1. Bounded result
+     6	
+     7	The preregistered primary landing is obtained:
+     8	
+     9	```text
+    10	PAIR_FIRST_CONDITIONAL_RESOLUTION
+    11	```
+    12	
+    13	A supplied regular timelike observer-pair immersion carries its own pair-relative tangent plane.
+    14	The Lorentz metric then supplies its unique orthogonal positive screen. In the registered complete
+    15	coframe chart, the full angular/mixing/embedding contribution to the induced pair metric is one
+    16	positive-semidefinite Gram term. Conditional pair evaluation therefore does not require curvature
+    17	to choose a universal ambient reciprocal/angular split.
+    18	
+    19	This is not a derivation of the immersion. The founding source owns the clock/ruler channel type,
+    20	its reciprocal pairing, and the exponential character of a supplied depth. It does not by itself
+    21	choose paired events, ruler evolution, a branch, or a physical pair surface.
+    22	
+    23	## 2. Three different planes that must not be conflated
+    24	
+    25	### 2.1 Founded channel plane
+    26	
+    27	The founding presentation starts with
+    28	
+    29	```text
+    30	q=(c_E dt,dr)^T,
+    31	K=[[0,1],[1,0]],
+    32	D(delta)=diag(exp(-delta),exp(+delta)).
+    33	```
+    34	
+    35	This is an ordered two-channel clock/ruler space. In the founding spherical chart, `dt` and `dr`
+    36	also provide a chosen local cotangent realization. Dual Reciprocity and continuous composition
+    37	derive the reciprocal character after `delta` is supplied. They do not covariantly select a
+    38	physical comparison surface in a general complete metric.
+    39	
+    40	### 2.2 Realized pair plane
+    41	
+    42	Let a typed query supply a regular immersion
+    43	
+    44	```text
+    45	F:Sigma^2 -> (M^4,g).
+    46	```
+    47	
+    48	At every regular point, `dF` is injective, so
+    49	
+    50	```text
+    51	E_pair=dF(TSigma)
+    52	```
+    53	
+    54	is a rank-two subspace of the ambient tangent space. If `h=F^*g` has Lorentzian signature, then
+    55	`E_pair` is a nondegenerate timelike two-plane. It is canonical relative to `(g,F)` and independent
+    56	of any ambient coframe presentation.
+    57	
+    58	### 2.3 Pair-relative screen
+    59	
+    60	Define
+    61	
+    62	```text
+    63	H_pair=E_pair^perp.
+    64	```
+    65	
+    66	Nondegeneracy gives the direct sum
+    67	
+    68	```text
+    69	TM|F(Sigma)=E_pair direct-sum H_pair.
+    70	```
+    71	
+    72	The ambient metric has inertia `(1,3)` and the pair plane has inertia `(1,1)`. Additivity of
+    73	inertia for an orthogonal direct sum therefore gives inertia `(0,2)` on `H_pair`: the screen is
+    74	positive definite. No Petrov, Ricci, derivative, preferred congruence, or aether selector is needed
+    75	for this conditional split.
+    76	
+    77	An arbitrary pointwise plane field need not integrate. Here integrability is not inferred: the
+    78	surface `F` was supplied, and `E_pair` is its tangent bundle by construction.
+    79	
+    80	## 3. Complete-coframe pullback
+    81	
+    82	On a regular local `2+2` chart write the complete coframe and metric as
+    83	
+    84	```text
+    85	E=[[B,0],[Q S,Q]],
+    86	g=E^T eta_4 E,
+    87	eta_4=diag(eta_2,I_2),
+    88	eta_2=diag(-1,+1).
+    89	```
+    90	
+    91	Here `B` is a regular clock/ruler block, `Q` is a regular positive-screen coframe, and `S` is an
+    92	arbitrary real mixing matrix. Split the Jacobian of the supplied pair immersion as
+    93	
+    94	```text
+    95	dF=J=[Y;Z].
+    96	```
+    97	
+    98	The complete coframe evaluated on the pair tangents is
+    99	
+   100	```text
+   101	E J=[B Y; Q(SY+Z)].
+   102	```
+   103	
+   104	The first fundamental form is therefore exactly
+   105	
+   106	```text
+   107	h=J^T g J
+   108	 =Y^T B^T eta_2 B Y +(S Y+Z)^T q(S Y+Z),          (1)
+   109	q=Q^T Q>0.
+   110	```
+   111	
+   112	Equation (1) is the complete local orchestra formula. It does not attach an angular correction
+   113	after a reciprocal calculation. It first forms the complete metric pullback; the terminal
+   114	reciprocal coordinate is read only afterward.
+   115	
+   116	## 4. The simple reduced object
+   117	
+   118	When the base projection `Y` is invertible, use the pair-domain basis in which that projection is
+   119	the identity. Define
+   120	
+   121	```text
+   122	W=Z Y^-1,
+   123	C=S+W.
+   124	```
+   125	
+   126	Then
+   127	
+   128	```text
+   129	Y^-T h Y^-1=B^T eta_2 B+C^T q C.                 (2)
+   130	```
+   131	
+   132	Thus the first fundamental form sees ambient mixing `S` and the realized surface slope `W` through
+   133	their combined relative screen displacement `C`. The pair metric alone cannot invert that sum to
+   134	recover `S` and `W` separately. This is an evaluator non-identifiability statement, not a claim
+   135	that changing `(g,F)` while preserving `C` is gauge.
+   136	
+   137	The `C=0` limit recovers the pure base metric exactly.
+   138	
+   139	## 5. Complete pointwise solution space of the Gram contribution
+   140	
+   141	For every real `C`,
+   142	
+   143	```text
+   144	P=C^T q C
+   145	```
+   146	
+   147	is positive semidefinite because
+   148	
+   149	```text
+   150	v^T P v=(Cv)^T q(Cv)>=0.
+   151	```
+   152	
+   153	Conversely, every positive-semidefinite `2 x 2` matrix `P` occurs. With positive square roots,
+   154	
+   155	```text
+   156	C=q^-1/2 P^1/2
+   157	```
+   158	
+   159	gives `C^T q C=P` (choosing symmetric roots). Hence the image is exactly the full `PSD(2)` cone,
+   160	not a selected subset.
+   161	
+   162	Adding a positive-semidefinite form to a Lorentzian two-form cannot increase its negative index,
+   163	and its originally positive direction remains positive. The complete pointwise inertia atlas is
+   164	therefore:
+   165	
+   166	```text
+   167	(1 negative,0 zero,1 positive)  Lorentzian pair plane;
+   168	(0 negative,1 zero,1 positive)  degenerate boundary;
+   169	(0 negative,0 zero,2 positive)  positive pair surface.
+   170	```
+   171	
+   172	All three are retained. Only the first supports the calibrated Lorentzian terminal readout; the
+   173	others are characterized rather than discarded as solver failures.
+   174	
+   175	## 6. Exact terminal modulation
+   176	
+   177	In calibrated pair coordinates let
+   178	
+   179	```text
+   180	B=[[T,T beta],[0,L]],
+   181	B^T eta_2 B=
+   182	  [[-T^2,-T^2 beta],
+   183	   [-T^2 beta,L^2-T^2 beta^2]],
+   184	P=[[a,d],[d,e]].
+   185	```
+   186	
+   187	The complete induced pair metric is
+   188	
+   189	```text
+   190	h00=-T^2+a,
+   191	h01=-T^2 beta+d,
+   192	h11=L^2-T^2 beta^2+e.                            (3)
+   193	```
+   194	
+   195	On the A-calibrated timelike stratum
+   196	
+   197	```text
+   198	A=T^2-a>0,
+   199	det(h)<0,
+   200	```
+   201	
+   202	the unique terminal decomposition gives
+   203	
+   204	```text
+   205	T_pair^2=A,
+   206	beta_pair=(T^2 beta-d)/(T^2-a),
+   207	L_pair^2=h11+h01^2/A,
+   208	-det(h)=T_pair^2 L_pair^2.                       (4)
+   209	```
+   210	
+   211	Consequently
+   212	
+   213	```text
+   214	kappa_pair=(1/4)log[-det(h)],
+   215	phi_pair=(1/4)log[-det(h)/h00^2]
+   216	        =(1/4)log[L_pair^2/T_pair^2],
+   217	c_eff^(pair)/c_E=T_pair/L_pair.                  (5)
+   218	```
+   219	
+   220	Equations (3)--(5) prove the user's orchestra statement in its cleanest local form. Screen scale,
+
+exec
+/bin/bash -lc "nl -ba /intake/sources/CURRENT_SCIENTIFIC_PREMISES.md | sed -n '1,180p'" in /intake
+ succeeded in 0ms:
+     1	# Scientific premise index
+     2	
+     3	`LIVE.md` and TSV own status; this is not `CANON.md`. On conflict, stop.
+     4	## Foundational relation
+     5	
+     6	| Object | Current status | What is owned | What remains open |
+     7	|---|---|---|---|
+     8	| `c_E`, `G_obs` | `OBSERVED` | Calibration anchors | Native placement and absolute closure |
+     9	| Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))` and determinant-one pair block on supplied ordered depth | Physical pair values and general `3+1` assembly |
+    10	| Pointwise `phi` | `CONDITIONAL` potential | Local factorization | Universal physical scalar ownership |
+    11	| Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
+    12	| Complete pair orchestra | `DERIVED_CONDITIONAL` primary arena | Angular Gram precedes readout in every supplied regular pair plane | Pair-plane ownership and ambient extension |
+    13	| Pair `c_eff` | `CONDITIONAL` observer-frame readout | Calibrated terminal ratio | Universal owner and local signal interpretation |
+    14	| Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
+    15	| Co-presence | `WORKING` | One-solution membership | Query population, valuation, signalling |
+    16	
+    17	## Current reconstruction hierarchy
+    18	
+    19	| Result | Bounded status | Maximum conclusion |
+    20	|---|---|---|
+    21	| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | `B,Q,S,Y,Z` pullback/readout |
+    22	| G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks recover `g`; scalars stop at positive conformal class |
+    23	| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Normalized position; overlap owns carry; endpoints do not glue sheets |
+    24	| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Pullbacks determine `g` on a supplied atlas; realization open |
+    25	| G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projections nonunique; screen conditional; carrier open |
+    26	| G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Covariant identity in a chosen representation; coefficient limits only |
+    27	| G149--G162 score/carry/quotient | `VERIFIED_WITH_CAVEATS` | First jet carries; scalar kernel ignores residual rapidity; route/frame memory remains separate; realization open |
+    28	| G163 Xmax dependency reversal | `VERIFIED_WITH_CAVEATS` | Native scalar kernel ends at dimensionless `chi`; G135--G154 dimensional descendants are conditional |
+    29	| G165 conformal-fiber rank | `VERIFIED_WITH_CAVEATS` control | Unrestricted metric envelope has a functional conformal kernel; not physical UDT multiplicity |
+    30	| G166 primary-metric pair descent | `VERIFIED_WITH_CAVEATS` | Founded ordered-pair metric owns its scalar kernel; general `3+1` assembly remains conditional |
+    31	| G167 primary-metric general pair pullback | `VERIFIED_WITH_CAVEATS` | Primary spherical four-metric owns the full local regular pair-pullback orchestra; `Y,Z` remain pair data |
+    32	
+    33	None selects values, completion, observations, or `X_max`.
+    34	## Scale and limits
+    35	
+    36	| Object | Current status | Guard |
+    37	|---|---|---|
+    38	| `X_max` | working asymptotic global-completion consequence target | Not a local kernel input; requires independent metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
+    39	| Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless explicitly reauthorized |
+    40	| Common-factor cancellation | `DERIVED` algebra only | Not a local Weyl-gauge theorem or proof that physical UDT is scale-free |
+    41	| Founded pair common scale | `FIXED` in bounded block | Determinant-one reciprocal clock/ruler block; not a general complete-metric theorem |
+    42	| General complete pair scale | `CONDITIONAL/RETAINED` | Present only after a native complete assembly is supplied |
+    43	| Common-scale principal rank | `DERIVED` source-bounded zero | No active constraint or evolution equation for `kappa` in G155's frozen 41-source regular arena; not a future-law no-go |
+    44	| Pair scale carry | `DERIVED_CONDITIONAL` | Half-density determinant character; incomplete closure |
+    45	| Base channel balance | `DERIVED` bounded | `B+(2)` semidirect composition permits changing ratios; full screen/mixing law open |
+    46	| Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4` law and supplied-history velocity; not physical history |
+    47	| Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
+    48	
+    49	## Geometry, query, and causality
+    50	
+    51	- The physical kernel argument is the ordered observer pair, not a pre-existing path. Bare observer
+    52	  names still require event/calibration typing; route observables remain separate.
+    53	- Pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal class.
+    54	  Metricity is not dynamics.
+    55	- G138--G145: overlaps own carry and values determine `g`; endpoints own neither valuation nor realization.
+    56	- G146--G150: physical carrier and `O(2)` solder remain open; `lambda` proves liveness, not values.
+    57	- G149 chord; G150 freedom; G151 curvature; G152 ruler; G153 `dchi`; G154 scale; G155 rank; G156
+    58	  carry; G157 balance; G158 score; G159 descent; G160 carry; G161 quotient; G162 rapidity removal;
+    59	  G163 X-free kernel. Route/frame transport remains separate.
+    60	- G165 remains a valid control on the unrestricted metric envelope. G166 proves that this arbitrary
+    61	  conformal family is not generated by the founded determinant-one pair block.
+    62	- G166 relocates the kernel to the primary metric. G167 derives its complete local regular pair
+    63	  pullback in the primary spherical arena and narrows the open joint to ownership of the pair plane
+    64	  plus genuinely nonspherical/ambient-mixed/time-dependent extension.
+    65	
+    66	## Carrier, action, source, and matter
+    67	
+    68	| Object | Current status | Maximum justified statement |
+    69	|---|---|---|
+    70	| Celestial null-direction `S^2` | `CONDITIONAL` fiber | Does not derive a matter carrier or law |
+    71	| Matter `S^2` carrier | `POSIT` | Conditional carrier branch only |
+    72	| Static Hopfion | scoped finite-box `SETTLED` | Not unconditional particle stability |
+    73	| EH action | `CONDITIONAL_NOT_SELECTED` | Familiarity with GR is not derivation |
+    74	| `C^2`/Bach action | Conditional on inactive strong-CSN premise | No priority |
+    75	| Native source | `OPEN` | Geometric response/current roles do not supply source substance |
+    76	| Bootstrap | `WORKING` mutual-admissibility posit | No complete fixed point, density selector, or matter theorem |
+    77	| Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
+    78	
+    79	## Observational boundary
+    80	
+    81	R2--R5 are `OBSERVED` with caveats and select no feature, scale, significance, origin, cosmology, or
+    82	`X_max`. Conditional SNe replays import radiative transfer and select no metric history.
+    83	
+    84	## Recurring prohibited promotions
+    85	
+    86	Do not:
+    87	
+    88	- derive pointwise depth from the supplied-depth character;
+    89	- call terminal readouts the unique law or pair `c_eff` a local signal speed;
+    90	- identify a seam, diameter, or fitted endpoint with physical `X_max`, or canonize working position;
+    91	- promote G146--G152 controls to carrier, clock flow, exhaustive geometry, universal Jacobi, or automatic ruler equality;
+    92	- call G153 `dchi` proper length or infer response/`X_max` from it;
+    93	- call conformal twins one gauge-equivalent complete network, or call network reconstruction a
+    94	  physical common-scale/history selection law;
+    95	- promote G155--G157 rank/carry/balance controls to a physical law;
+    96	- call G158 score observable, G159 evolution, or G160 full carry closure;
+    97	- miswrite G161's quotient, promote its section, or restore G162 rapidity/eigenflag to the scalar kernel;
+    98	- erase joined `C,Gamma` or collapse other transport channels into tangent `Lambda`;
+    99	- insert `X_max` into the kernel, infer it from `x=X_max chi`, or call G154 probes native;
+   100	- identify relational position with proper length, signal distance, universe size, or history;
+   101	- revive strong local CSN or scale-free UDT because a common factor cancels;
+   102	- identify celestial `S^2` with the matter carrier or density descent with a physical value law;
+   103	- call conditional geometry a native action, source, mass, bootstrap theorem, or universe;
+   104	- promote G167's spherical pullback globally; call supplied `Y,Z` a selected relation; replace its
+   105	  angular Gram with scalar `mu`;
+   106	- import GR, Lambda-CDM, Standard Model, quantum, or fluid mechanisms as UDT derivations;
+   107	- use observational resemblance to select a branch before a preregistered comparison.
+   108	
+   109	## How to use the registry
+   110	
+   111	`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 153-row authority. On conflict, stop. IDs are stable.
+   112	
+   113	During orientation use this guide and run:
+   114	
+   115	```bash
+   116	python3 verify_current_scientific_premises.py
+   117	```
+   118	
+   119	Query exact TSV rows only after orientation when the requested task makes them load-bearing.
+   120	Pre-cleanup startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/`.
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md | sed -n '221,360p'" in /intake
+ succeeded in 0ms:
+   221	\]
+   222	
+   223	and the G167 block formula returns (h_{(u,s)}) exactly. Removing (Z) changes the pair metric.
+   224	
+   225	## 5. Why bare observer labels still do not own the plane
+   226	
+   227	In flat four-dimensional spacetime let
+   228	
+   229	\[
+   230	A(\tau)=(\tau,0,0,0),
+   231	\qquad
+   232	B(\tau)=(\tau,1,0,0).
+   233	\]
+   234	
+   235	For every real (a), the smooth timelike surface
+   236	
+   237	\[
+   238	F_a(\tau,\sigma)
+   239	=\bigl(\tau,\sigma,a\sigma(1-\sigma),0\bigr),
+   240	\qquad 0\le\sigma\le1,
+   241	\]
+   242	
+   243	has exactly the same boundary observers and the same boundary event pairing:
+   244	
+   245	\[
+   246	F_a(\tau,0)=A(\tau),
+   247	\qquad
+   248	F_a(\tau,1)=B(\tau).
+   249	\]
+   250	
+   251	But at A its separation tangent is
+   252	
+   253	\[
+   254	\partial_\sigma F_a|_{\sigma=0}=(0,1,a,0).
+   255	\]
+   256	
+   257	The planes for (a=0) and (a=1) are different. The induced metric remains Lorentzian:
+   258	
+   259	\[
+   260	F_a^*\eta=-d\tau^2+
+   261	\left[1+a^2(1-2\sigma)^2\right]d\sigma^2.
+   262	\]
+   263	
+   264	Therefore even observer labels plus a fixed boundary event pairing do not select a surface germ.
+   265	The local germ is the smallest datum that closes the local plane calculation. Supplying it is much
+   266	less than supplying an entire path or surface.
+   267	
+   268	## 6. Reversal, coincidence, and relative motion
+   269	
+   270	### Local orientation reversal
+   271	
+   272	Inside one tangent space, (r_{AB}\mapsto-r_{AB}) preserves the unoriented plane and flips its
+   273	orientation. It does **not** by itself send the terminal reciprocal depth to its negative; signed
+   274	depth reversal belongs to the ordered reciprocal calibration.
+   275	
+   276	Full observer reversal changes the base event from A to B. Comparing the A-side and B-side planes
+   277	then requires lawful calibration/transport. G168 does not invent that carry.
+   278	
+   279	### Coincidence
+   280	
+   281	At coincidence the separation tangent is zero and
+   282	
+   283	\[
+   284	\operatorname{rank}(u_A,0)=1.
+   285	\]
+   286	
+   287	The reciprocal scalar can have its coincidence value, but there is no direction-owned rank-two
+   288	plane. A limiting direction exists only when a pair germ is supplied. This is a genuine boundary,
+   289	not a failure of the regular theorem.
+   290	
+   291	### Relative motion
+   292	
+   293	B's velocity need not lie in the positional plane. In Minkowski coordinates,
+   294	
+   295	\[
+   296	u_A=(1,0,0,0),
+   297	\quad r_{AB}=(0,1,0,0),
+   298	\quad v_B=(5/4,0,3/4,0)
+   299	\]
+   300	
+   301	has (g(v_B,v_B)=-1), but (v_B\notin\operatorname{span}(u_A,r_{AB})). The local positional plane
+   302	is therefore not promoted into the complete relative-velocity kinematics of both observers.
+   303	
+   304	## 7. Epistemic ownership
+   305	
+   306	The exact result separates three levels:
+   307	
+   308	1. **Bare labels ((A,B)):** insufficient.
+   309	2. **Typed local ordered co-present pair germ ((u_A,s_{AB})):** supplied by the completed local
+   310	   relation as a `WORKING` semantic clarification.
+   311	3. **Pair plane, orthogonal ruler, positive screen, and G167 (Y,Z):** `DERIVED` from the germ and
+   312	   metric.
+   313	
+   314	Thus the local plane is not an additional physical history to be selected, and it is not an
+   315	arbitrary immersion menu. It is the tangent content of the relation being evaluated. What remains
+   316	open is which event/calibration germs form the physical global network and how distinct basepoints
+   317	carry their frames—not the local plane once a relation is present.
+   318	
+   319	## Maximum conclusion
+   320	
+   321	```text
+   322	ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE
+   323	__BARE_LABELS_DO_NOT
+   324	__NO_PATH_REQUIRED
+   325	```
+   326	
+   327	This does not derive a global event-pairing rule, path, pair surface, cross-query carry, physical
+   328	profile, `X_max`, dynamics, signalling, source, action, bootstrap, or general complete metric.
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/OUTCOME_PREMISE_LEDGER.tsv | sed -n '1,80p'" in /intake
+ succeeded in 0ms:
+     1	item	status	what_it_owns	what_it_does_not_own
+     2	c_E	OBSERVED	clock/ruler unit calibration	pair germ or dynamics
+     3	primary static-spherical UDT metric	WORKING	bilinear evaluation and areal screen coefficients	general ambient history law
+     4	ordered co-present positional comparison	WORKING_SEMANTIC_CLARIFICATION	typed local clock/separation germ when the relation is completed	derivation from bare names
+     5	metric orthogonal projection	DERIVED	unique ruler direction	global event pairing
+     6	pair tangent decomposition	DERIVED	Y,Z and angular participation	path or branch selection
+     7	reciprocal terminal readout	DERIVED_CONDITIONAL	scalar response after full pullback	local germ or global network population
+
+codex
+I’ve pinned the semantic shift in the prose. One last pass through the verification scripts will show whether the computational checks stay inside that scope or whether they smuggle in a path, selector, or other realization object under a different name.
+exec
+/bin/bash -lc "nl -ba /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/derive_pair_plane_ownership.py | sed -n '1,260p'" in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Exact symbolic checks for G168.  No numerical fitting or protected inputs."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import hashlib
+     7	import json
+     8	from pathlib import Path
+     9	
+    10	import sympy as sp
+    11	
+    12	
+    13	ROOT = Path(__file__).resolve().parents[1]
+    14	HERE = Path(__file__).resolve().parent
+    15	
+    16	
+    17	def sha256(path: Path) -> str:
+    18	    h = hashlib.sha256()
+    19	    h.update(path.read_bytes())
+    20	    return h.hexdigest()
+    21	
+    22	
+    23	checks: dict[str, bool] = {}
+    24	
+    25	
+    26	def check(name: str, condition: object) -> None:
+    27	    value = bool(condition)
+    28	    checks[name] = value
+    29	    if not value:
+    30	        raise AssertionError(name)
+    31	
+    32	
+    33	# Abstract projection algebra.
+    34	guu, gus, gss = sp.symbols("guu gus gss", nonzero=True, real=True)
+    35	a = -gus / guu
+    36	check("unique_projection_coefficient", sp.simplify(gus + a * guu) == 0)
+    37	rr = sp.simplify(gss + 2 * a * gus + a**2 * guu)
+    38	check("projected_norm", rr == sp.simplify(gss - gus**2 / guu))
+    39	check(
+    40	    "pair_gram_determinant",
+    41	    sp.simplify(sp.det(sp.Matrix([[guu, 0], [0, rr]])) - guu * rr) == 0,
+    42	)
+    43	
+    44	# Exact primary-metric witness.
+    45	g = sp.diag(sp.Rational(-1, 4), 4, 9, sp.Rational(144, 25))
+    46	u = sp.Matrix([2, 0, 0, 0])
+    47	s = sp.Matrix([1, sp.Rational(1, 2), sp.Rational(1, 3), sp.Rational(1, 4)])
+    48	inner = lambda x, y: (x.T * g * y)[0]
+    49	guu_w = inner(u, u)
+    50	gus_w = inner(u, s)
+    51	r = sp.simplify(s - gus_w / guu_w * u)
+    52	check("clock_is_unit_timelike", guu_w == -1)
+    53	check("raw_separation_has_clock_component", gus_w == sp.Rational(-1, 2))
+    54	check("projection_is_orthogonal", inner(u, r) == 0)
+    55	check("projected_ruler_is_spacelike", inner(r, r) == sp.Rational(59, 25))
+    56	
+    57	J_raw = sp.Matrix.hstack(u, s)
+    58	J_orth = sp.Matrix.hstack(u, r)
+    59	h_raw = sp.simplify(J_raw.T * g * J_raw)
+    60	h_orth = sp.simplify(J_orth.T * g * J_orth)
+    61	check(
+    62	    "raw_pair_metric",
+    63	    h_raw == sp.Matrix([[-1, sp.Rational(-1, 2)], [sp.Rational(-1, 2), sp.Rational(211, 100)]]),
+    64	)
+    65	check("orthogonal_pair_metric", h_orth == sp.diag(-1, sp.Rational(59, 25)))
+    66	check("same_plane_same_gram_determinant", h_raw.det() == h_orth.det() == sp.Rational(-59, 25))
+    67	
+    68	# Recover the G167 B,Q,Y,Z pullback from the local germ.
+    69	B = sp.diag(sp.Rational(1, 2), 2)
+    70	Q = sp.diag(3, sp.Rational(12, 5))
+    71	eta2 = sp.diag(-1, 1)
+    72	Y = sp.Matrix([[2, 1], [0, sp.Rational(1, 2)]])
+    73	Z = sp.Matrix([[0, sp.Rational(1, 3)], [0, sp.Rational(1, 4)]])
+    74	h_blocks = sp.simplify(Y.T * B.T * eta2 * B * Y + Z.T * Q.T * Q * Z)
+    75	check("g167_blocks_recovered_from_germ", h_blocks == h_raw)
+    76	check("nonradial_angular_block_live", Z != sp.zeros(2))
+    77	
+    78	Z_radial = sp.zeros(2)
+    79	Y_radial = sp.Matrix([[2, 1], [0, sp.Rational(1, 2)]])
+    80	h_radial = sp.simplify(Y_radial.T * B.T * eta2 * B * Y_radial)
+    81	check("radial_pair_has_zero_angular_block", Z_radial == sp.zeros(2))
+    82	check("angular_content_changes_pair_metric", h_radial != h_raw)
+    83	
+    84	# Angular-coordinate covariance with a nonorthogonal coordinate Jacobian.
+    85	K = sp.Matrix([[1, 1], [0, 1]])
+    86	q = Q.T * Q
+    87	q_prime = K.inv().T * q * K.inv()
+    88	Z_prime = K * Z
+    89	check("angular_coordinate_covariance", sp.simplify(Z_prime.T * q_prime * Z_prime) == Z.T * q * Z)
+    90	
+    91	# Positive raw-germ rescaling leaves the plane and normalized ruler unchanged.
+    92	lam = sp.Rational(7, 3)
+    93	s_lam = lam * s
+    94	r_lam = sp.simplify(s_lam - inner(u, s_lam) / guu_w * u)
+    95	check("separation_rescaling_projects_linearly", r_lam == lam * r)
+    96	check(
+    97	    "normalized_ruler_rescaling_invariant",
+    98	    sp.simplify(r_lam / sp.sqrt(inner(r_lam, r_lam)) - r / sp.sqrt(inner(r, r))) == sp.zeros(4, 1),
+    99	)
+   100	
+   101	# Local orientation reversal preserves the unoriented plane but flips the wedge orientation.
+   102	R = sp.diag(1, -1)
+   103	check("local_reversal_congruence", sp.simplify(R.T * h_orth * R) == h_orth)
+   104	check("local_reversal_flips_orientation", sp.det(R) == -1)
+   105	
+   106	# Relative motion does not have to lie in the positional pair plane.
+   107	v_b = sp.Matrix([sp.Rational(5, 4), 0, sp.Rational(3, 4), 0])
+   108	eta4 = sp.diag(-1, 1, 1, 1)
+   109	check("relative_velocity_unit_timelike", (v_b.T * eta4 * v_b)[0] == -1)
+   110	check("relative_velocity_not_in_position_plane", v_b[2] != 0)
+   111	
+   112	# Same observer boundaries and same event pairing, different smooth regular surface germs.
+   113	sigma, alpha = sp.symbols("sigma alpha", real=True)
+   114	spatial_speed_sq = sp.simplify(1 + alpha**2 * (1 - 2 * sigma) ** 2)
+   115	check("counterfamily_is_regular_timelike", spatial_speed_sq.subs({alpha: 1, sigma: sp.Rational(1, 3)}) > 0)
+   116	s0 = sp.Matrix([0, 1, 0, 0])
+   117	s1 = sp.Matrix([0, 1, 1, 0])
+   118	check("same_labels_can_have_distinct_plane_germs", sp.Matrix.hstack(u / 2, s0).columnspace() != sp.Matrix.hstack(u / 2, s1).columnspace())
+   119	check("counterfamily_boundary_A_fixed", sp.Matrix([0, 0, alpha * 0 * (1 - 0), 0]) == sp.zeros(4, 1))
+   120	check("counterfamily_boundary_B_fixed", sp.simplify(alpha * 1 * (1 - 1)) == 0)
+   121	
+   122	# Coincidence is a genuine rank-loss boundary.
+   123	s_zero = sp.zeros(4, 1)
+   124	J_zero = sp.Matrix.hstack(u, s_zero)
+   125	check("coincidence_rank_loss", J_zero.rank() == 1)
+   126	
+   127	# Frozen source hashes.
+   128	manifest_rows = []
+   129	for line in (HERE / "SOURCE_MANIFEST.tsv").read_text().splitlines()[1:]:
+   130	    expected, rel, role = line.split("\t")
+   131	    actual = sha256(ROOT / rel)
+   132	    check(f"source_hash__{Path(rel).name}__{len(manifest_rows)}", actual == expected)
+   133	    manifest_rows.append({"path": rel, "sha256": actual, "role": role})
+   134	
+   135	result = {
+   136	    "landing": "ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED",
+   137	    "checks_passed": sum(checks.values()),
+   138	    "checks_total": len(checks),
+   139	    "checks": checks,
+   140	    "exact_witness": {
+   141	        "g": [[str(v) for v in row] for row in g.tolist()],
+   142	        "u": [str(v) for v in u],
+   143	        "s": [str(v) for v in s],
+   144	        "r": [str(v) for v in r],
+   145	        "h_raw": [[str(v) for v in row] for row in h_raw.tolist()],
+   146	        "h_orth": [[str(v) for v in row] for row in h_orth.tolist()],
+   147	        "Y": [[str(v) for v in row] for row in Y.tolist()],
+   148	        "Z": [[str(v) for v in row] for row in Z.tolist()],
+   149	    },
+   150	    "source_manifest": manifest_rows,
+   151	}
+   152	(HERE / "DERIVATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   153	print(json.dumps({"landing": result["landing"], "passed": result["checks_passed"], "total": result["checks_total"]}))
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/verify_pair_plane_independent.py | sed -n '1,260p'" in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Independent Fraction replay for G168; imports no production code or SymPy."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import json
+     7	import random
+     8	from fractions import Fraction as F
+     9	from pathlib import Path
+    10	
+    11	
+    12	HERE = Path(__file__).resolve().parent
+    13	checks = 0
+    14	
+    15	
+    16	def require(condition: bool, name: str) -> None:
+    17	    global checks
+    18	    if not condition:
+    19	        raise AssertionError(name)
+    20	    checks += 1
+    21	
+    22	
+    23	def dot_diag(x, diag, y):
+    24	    return sum(a * d * b for a, d, b in zip(x, diag, y))
+    25	
+    26	
+    27	def add(x, y):
+    28	    return tuple(a + b for a, b in zip(x, y))
+    29	
+    30	
+    31	def scale(a, x):
+    32	    return tuple(a * b for b in x)
+    33	
+    34	
+    35	rng = random.Random(168)
+    36	trials = 1200
+    37	for i in range(trials):
+    38	    # Static diagonal primary-metric rational control.
+    39	    a = F(rng.randint(1, 9), rng.randint(1, 9))
+    40	    b = F(rng.randint(1, 9), rng.randint(1, 9))
+    41	    c = F(rng.randint(1, 9), rng.randint(1, 9))
+    42	    d = F(rng.randint(1, 9), rng.randint(1, 9))
+    43	    metric = (-a, b, c, d)
+    44	    u = (F(1), F(0), F(0), F(0))
+    45	    s = tuple(F(rng.randint(-7, 7), rng.randint(1, 7)) for _ in range(4))
+    46	    guu = dot_diag(u, metric, u)
+    47	    gus = dot_diag(u, metric, s)
+    48	    r = add(s, scale(-gus / guu, u))
+    49	    require(dot_diag(u, metric, r) == 0, f"orthogonality_{i}")
+    50	    rr = dot_diag(r, metric, r)
+    51	    require(rr == dot_diag(s, metric, s) - gus * gus / guu, f"norm_{i}")
+    52	    if any(r[j] != 0 for j in (1, 2, 3)):
+    53	        require(rr > 0, f"positive_rest_space_{i}")
+    54	        require(guu * rr < 0, f"lorentzian_plane_{i}")
+    55	    lam = F(rng.randint(1, 9), rng.randint(1, 9))
+    56	    sl = scale(lam, s)
+    57	    rl = add(sl, scale(-dot_diag(u, metric, sl) / guu, u))
+    58	    require(rl == scale(lam, r), f"rescale_{i}")
+    59	
+    60	# Exact G167 block witness by independent arithmetic.
+    61	metric = (F(-1, 4), F(4), F(9), F(144, 25))
+    62	u = (F(2), F(0), F(0), F(0))
+    63	s = (F(1), F(1, 2), F(1, 3), F(1, 4))
+    64	guu = dot_diag(u, metric, u)
+    65	gus = dot_diag(u, metric, s)
+    66	gss = dot_diag(s, metric, s)
+    67	r = add(s, scale(-gus / guu, u))
+    68	require(guu == -1, "witness_guu")
+    69	require(gus == F(-1, 2), "witness_gus")
+    70	require(dot_diag(r, metric, r) == F(59, 25), "witness_rr")
+    71	require(guu * gss - gus * gus == F(-59, 25), "witness_det")
+    72	angular = metric[2] * s[2] * s[2] + metric[3] * s[3] * s[3]
+    73	require(angular == F(34, 25), "angular_live")
+    74	require(gss - angular != gss, "radial_freeze_changes_metric")
+    75	
+    76	# Same boundary observers/event labels; two distinct surface tangents at A.
+    77	e0 = (F(1), F(0), F(0), F(0))
+    78	s0 = (F(0), F(1), F(0), F(0))
+    79	s1 = (F(0), F(1), F(1), F(0))
+    80	require(s0 != s1, "counterfamily_distinct_germs")
+    81	require(dot_diag(e0, (F(-1), F(1), F(1), F(1)), s0) == 0, "counterfamily_s0_orthogonal")
+    82	require(dot_diag(e0, (F(-1), F(1), F(1), F(1)), s1) == 0, "counterfamily_s1_orthogonal")
+    83	
+    84	# Relative velocity outside positional plane.
+    85	vb = (F(5, 4), F(0), F(3, 4), F(0))
+    86	require(dot_diag(vb, (F(-1), F(1), F(1), F(1)), vb) == -1, "relative_velocity_timelike")
+    87	require(vb[2] != 0, "relative_velocity_outside_plane")
+    88	
+    89	# Coincidence lacks a nonzero ruler line.
+    90	zero = (F(0), F(0), F(0), F(0))
+    91	require(all(x == 0 for x in zero), "coincidence_rank_loss")
+    92	
+    93	result = {
+    94	    "implementation": "stdlib Fraction; no production imports",
+    95	    "seed": 168,
+    96	    "trials": trials,
+    97	    "checks_passed": checks,
+    98	    "landing_supported": "ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED",
+    99	}
+   100	(HERE / "INDEPENDENT_VERIFICATION.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   101	print(json.dumps(result, sort_keys=True))
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/run_catch_proofs.py | sed -n '1,220p'" in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Semantic mutation catches for G168."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import json
+     7	from pathlib import Path
+     8	
+     9	import sympy as sp
+    10	
+    11	
+    12	HERE = Path(__file__).resolve().parent
+    13	catches: dict[str, bool] = {}
+    14	
+    15	
+    16	def catch(name: str, condition: object) -> None:
+    17	    value = bool(condition)
+    18	    catches[name] = value
+    19	    if not value:
+    20	        raise AssertionError(name)
+    21	
+    22	
+    23	g = sp.diag(sp.Rational(-1, 4), 4, 9, sp.Rational(144, 25))
+    24	u = sp.Matrix([2, 0, 0, 0])
+    25	s = sp.Matrix([1, sp.Rational(1, 2), sp.Rational(1, 3), sp.Rational(1, 4)])
+    26	inner = lambda x, y: (x.T * g * y)[0]
+    27	guu = inner(u, u)
+    28	gus = inner(u, s)
+    29	r = s - gus / guu * u
+    30	
+    31	# Mutant 1: wrong projection sign.
+    32	r_wrong = s + gus / guu * u
+    33	catch("wrong_projection_sign", inner(u, r_wrong) != 0)
+    34	
+    35	# Mutants 2-3: angular deletion/freeze.
+    36	h_full = sp.Matrix.hstack(u, s).T * g * sp.Matrix.hstack(u, s)
+    37	g_no_angular = sp.diag(sp.Rational(-1, 4), 4, 0, 0)
+    38	h_no_angular = sp.Matrix.hstack(u, s).T * g_no_angular * sp.Matrix.hstack(u, s)
+    39	catch("drop_angular_gram", h_no_angular != h_full)
+    40	catch("freeze_nonradial_Z", inner(r, r) != 4 * sp.Rational(1, 4))
+    41	
+    42	# Mutant 4: coincidence promoted to a plane.
+    43	catch("coincidence_plane_overclaim", sp.Matrix.hstack(u, sp.zeros(4, 1)).rank() != 2)
+    44	
+    45	# Mutant 5: ruler flip claimed to reverse scalar depth.
+    46	h_orth = sp.diag(-1, sp.Rational(59, 25))
+    47	R = sp.diag(1, -1)
+    48	catch("ruler_flip_is_not_depth_reversal", R.T * h_orth * R == h_orth)
+    49	
+    50	# Mutant 6: B velocity forced into positional plane.
+    51	vb = sp.Matrix([sp.Rational(5, 4), 0, sp.Rational(3, 4), 0])
+    52	catch("relative_velocity_plane_overclaim", vb[2] != 0)
+    53	
+    54	# Mutant 7: bare labels claimed to own the surface germ.
+    55	s0 = sp.Matrix([0, 1, 0, 0])
+    56	s1 = sp.Matrix([0, 1, 1, 0])
+    57	catch("bare_label_ownership_overclaim", sp.Matrix.hstack(u, s0).columnspace() != sp.Matrix.hstack(u, s1).columnspace())
+    58	
+    59	# Mutant 8: counterfamily ceases to share the B boundary if the taper is removed.
+    60	alpha = sp.symbols("alpha", nonzero=True)
+    61	catch("counterfamily_boundary_taper", alpha * 1 != 0)
+    62	
+    63	report = (HERE / "AUDIT_REPORT.md").read_text()
+    64	exact = (HERE / "EXACT_DERIVATION.md").read_text()
+    65	catch("no_path_required_guard", "No path" in report and "not a\n+curve between separated endpoints".replace("\n+", "\n") in exact)
+    66	catch("bare_labels_open_guard", "Bare labels" in exact and "insufficient" in exact)
+    67	catch("global_ceiling_guard", "global physical relation network" in (HERE / "STATUS_LEDGER.tsv").read_text())
+    68	
+    69	result = {
+    70	    "catches_passed": sum(catches.values()),
+    71	    "catches_total": len(catches),
+    72	    "catches": catches,
+    73	}
+    74	(HERE / "CATCH_PROOF_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    75	print(json.dumps({"passed": result["catches_passed"], "total": result["catches_total"]}))
+
+codex
+REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE
+tokens used
+61,131
+REPAIR_REQUIRED__SUPPLIED_GERM_SUFFICES_LOCALLY_BUT_COMPLETED_RELATION_OWNS_ONE_JET_IS_ADDITIONAL_WORKING_POSTULATE
