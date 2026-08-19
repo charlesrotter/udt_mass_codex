@@ -40,6 +40,10 @@ required = [
     "EXTERNAL_REVIEW_ADJUDICATION.md",
     "REPAIR_PREREGISTRATION.md",
     "TRANSMISSION_RECORD.md",
+    "EXTERNAL_FOLLOWUP_REVIEW_RAW.md",
+    "EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt",
+    "FOLLOWUP_REVIEW_ADJUDICATION.md",
+    "SECOND_REPAIR_PREREGISTRATION.md",
 ]
 for name in required:
     require((HERE / name).is_file(), f"missing {name}")
@@ -72,8 +76,16 @@ require(catches["catches_passed"] == catches["catches_total"] == 12, "mutation c
 audit = (HERE / "AUDIT_REPORT.md").read_text()
 exact = (HERE / "EXACT_DERIVATION.md").read_text()
 ledger = (HERE / "OUTCOME_PREMISE_LEDGER.tsv").read_text()
-require("REPAIR_ONLY_FOLLOWUP_OPEN" in audit, "external followup status")
-require("OPEN_NOT_DERIVED" in ledger, "ownership boundary")
+status_ledger = (HERE / "STATUS_LEDGER.tsv").read_text()
+require("FINAL_REPAIR_FOLLOWUP_OPEN" in audit, "external followup status")
+require(
+    "physical co-present relation owns both endpoint germs and inverse carry\tOPEN_NOT_DERIVED" in ledger,
+    "outcome ownership boundary",
+)
+require(
+    "physical two-ended germ and carry ownership\tOPEN_NOT_DERIVED" in status_ledger,
+    "status ownership boundary",
+)
 require("NOT_DERIVED_TYPE_FAILURE" in ledger, "physical distance boundary")
 require("surface reversal or endpoint exchange alone does not generate UDT Reciprocity" in exact, "counterexample boundary")
 require("arbitrary" in audit and "one-dimensional additive rule" in audit, "triangle category guard")
@@ -87,6 +99,16 @@ require(
     == "e3fd11474760c1885260352c76a839fe410acaceeea7355926c089375627ef2e",
     "external transcript hash",
 )
+require(
+    hashlib.sha256((HERE / "EXTERNAL_FOLLOWUP_REVIEW_RAW.md").read_bytes()).hexdigest()
+    == "ffa4e6ceb1164102b223607d2eacc984b65546f45f46175cb051b42d62ec7e2a",
+    "external followup raw hash",
+)
+require(
+    hashlib.sha256((HERE / "EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt").read_bytes()).hexdigest()
+    == "ce0260faea817b6adba97cada472b497e532cd7f25a3bf8c86c870590c7c97f4",
+    "external followup transcript hash",
+)
 
 premise = subprocess.run(
     [sys.executable, str(ROOT / "verify_current_scientific_premises.py")],
@@ -98,7 +120,7 @@ premise = subprocess.run(
 require(premise.returncode == 0, "current premise verifier")
 
 result = {
-    "status": "PASS__OWNERSHIP_REGRADE_INTERNAL_GATES__REPAIR_ONLY_FOLLOWUP_OPEN",
+    "status": "PASS__SECOND_LEDGER_REPAIR_INTERNAL_GATES__FINAL_REPAIR_FOLLOWUP_OPEN",
     "required_files": len(required),
     "source_hashes": manifest_count,
     "production_checks": derivation["checks_total"],

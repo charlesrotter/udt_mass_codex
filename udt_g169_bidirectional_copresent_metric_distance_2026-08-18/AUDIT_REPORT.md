@@ -2,7 +2,7 @@
 
 Date: 2026-08-18
 
-Grade: `VERIFIED_WITH_CAVEATS__OWNERSHIP_REGRADE_IMPLEMENTED__REPAIR_ONLY_FOLLOWUP_OPEN`
+Grade: `VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_IMPLEMENTED__FINAL_REPAIR_FOLLOWUP_OPEN`
 
 ## Primary landing
 
@@ -81,7 +81,9 @@ but no unique scalar compression is derived.
 - repository regression: 126 passed, 1 expected failure;
 - fresh adversarial review returned
   `TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION`;
-- the ownership regrade is implemented and a repair-only follow-up remains open.
+- the first repair-only follow-up returned `FOLLOWUP_REPAIR_REQUIRED__LANDING_SURVIVES` because two
+  ledger labels omitted the still-open carry ownership joint;
+- that exact ledger alignment is implemented and a final repair-only follow-up remains open.
 
 ## Maximum conclusion
 

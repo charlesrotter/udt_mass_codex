@@ -9,6 +9,6 @@ surface or endpoint reversal produces reciprocal inversion	REFUTED_IN_BOUNDED_AR
 arbitrary observer triangle scalar additivity	NOT_DERIVED_AND_NOT_REQUIRED	non-collinear middle germs differ
 complete supplied carry inversion and composition	DERIVED_CONDITIONAL	G156 and G160
 scalar closure implies complete carry closure	REFUTED	determinant-one shear witness
-physical co-present relation owns both endpoint germs	OPEN_NOT_DERIVED	external review confirmed that the quotient only renames this missing ownership input
+physical co-present relation owns both endpoint germs and inverse carry	OPEN_NOT_DERIVED	external review confirmed that the quotient only renames these missing ownership inputs
 coincidence identity for complete regular response	OPEN_BOUNDARY	rank-two plane degenerates
 path Xmax dynamics observation or completion	EXCLUDED	not part of G169

@@ -25,7 +25,9 @@ strata, general ambient metrics, global query populations, paths, dynamics, obse
 - current premise verifier: PASS over the 154-row registry;
 - repository regression: 126 passed, 1 expected failure;
 - fresh adversarial review: `TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION`;
-- ownership regrade: implemented; repair-only follow-up open.
+- ownership regrade: implemented;
+- first repair-only follow-up: `FOLLOWUP_REPAIR_REQUIRED__LANDING_SURVIVES`;
+- exact germ/carry ledger alignment: implemented; final repair-only follow-up open.
 
 ## Gate 4 — premise audit
 
@@ -35,5 +37,5 @@ two-ended germ/carry ownership `OPEN` and no longer labels the conditional quoti
 ## Current grade
 
 ```text
-VERIFIED_WITH_CAVEATS__OWNERSHIP_REGRADE_IMPLEMENTED__REPAIR_ONLY_FOLLOWUP_OPEN
+VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_IMPLEMENTED__FINAL_REPAIR_FOLLOWUP_OPEN
 ```
