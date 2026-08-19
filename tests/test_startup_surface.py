@@ -132,7 +132,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 159-row premise registry" in result.stdout
+    assert "PASS: 160-row premise registry" in result.stdout
 
 
 def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:
@@ -313,6 +313,13 @@ def test_catch_missing_g173_current_result(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", "G173", "REMOVED_RESULT_173")
     with pytest.raises(SystemExit, match="marked current block lacks G173"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_g174_current_result(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "G174", "REMOVED_RESULT_174")
+    with pytest.raises(SystemExit, match="marked current block lacks G174"):
         premise_guard.validate_startup_surface(root)
 
 

@@ -36,7 +36,10 @@ No candidate is selected.
 - General nonradial controls: 8,800 cases.
 - Distinct-candidate controls: 9,958 cases.
 - Mutation/semantic catches and repository gates are recorded separately.
-- Fresh external adversarial review is still required before final banking.
+- Fresh external gpt-5.4 review returned `G174_ACCEPTED_WITH_STATED_BOUNDS`, independently replayed
+  the algebra and turning witness, and found no load-bearing mathematical objection.
+- Its sole packaging objection was repaired: the repository outer verifier now delegates to the
+  read-only sealed verifier when it detects an intake boundary.
 
 ## Maximum conclusion
 
@@ -45,4 +48,4 @@ reciprocal scalar. It does not derive which germ/calibration is physically reali
 pair tapes carry calibration, a path, a global network, time-live/nonspherical completion,
 `X_max`, observations, action, source, matter, bootstrap, signalling, or canon.
 
-Current grade: `LEAD__INTERNALLY_DERIVED_AND_INDEPENDENTLY_REPLAYED__AWAITING_EXTERNAL_REVIEW`.
+Current grade: `VERIFIED_WITH_CAVEATS` for the bounded local typing theorem.

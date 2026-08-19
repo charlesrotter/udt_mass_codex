@@ -200,6 +200,7 @@ def validate_startup_surface(root: Path) -> None:
             "G171",
             "G172",
             "G173",
+            "G174",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -239,7 +240,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "159-row exact registry",
+            "160-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -296,6 +297,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g171_primary_metric_multi_pair_response_2026-08-19/",
             "udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/",
             "udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/",
+            "udt_g174_native_calibrated_pair_germ_chart_ownership_2026-08-19/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -338,6 +340,7 @@ def validate_startup_surface(root: Path) -> None:
             "G171",
             "G172",
             "G173",
+            "G174",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -379,6 +382,7 @@ def validate_startup_surface(root: Path) -> None:
             "G171",
             "G172",
             "G173",
+            "G174",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -408,10 +412,11 @@ def validate_startup_surface(root: Path) -> None:
             "G171",
             "G172",
             "G173",
+            "G174",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "159-row",
+            "160-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -670,9 +675,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 159, "premise registry must contain exactly 159 rows")
+    require(len(rows) == 160, "premise registry must contain exactly 160 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 159, "duplicate premise id")
+    require(len(by_id) == 160, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3956,6 +3961,43 @@ def main() -> None:
         == "udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/AUDIT_REPORT.md",
         "G173 source changed",
     )
+    require(
+        by_id["G174"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS__PREREGISTERED__M_IS_EXACT_JACOBIAN_FROM_AUXILIARY_PARAMETER_TO_SUPPLIED_CALIBRATED_RULER_COORDINATE"
+        ),
+        "G174 calibrated-germ ownership landing regressed or promoted",
+    )
+    require(by_id["G174"]["epistemic_label"] == "MIXED", "G174 label changed")
+    for open_item in (
+        "which physical ordered pair supplies the calibrated germ and ruler coordinate",
+        "how calibration is carried across independently constructed pair tapes",
+        "whether A-fixed c_E calibration alone owns one relation-wide calibration class",
+        "time-live shift nonspherical micro and ambient extension",
+        "center coincidence null singular cut focal topology-changing and global strata",
+        "non-scalar screen connection Jacobi orientation and holonomy transport",
+        "positive distance dimensionful separation numerical Xmax",
+    ):
+        require(open_item in by_id["G174"]["open_scope"], f"G174 open boundary absent: {open_item}")
+    for guard in (
+        "calibrated-germ uniqueness called selection of a physical ruler or pair family",
+        "bare line plane or pair image called fully calibrated",
+        "m_A or m_P selected",
+        "distinct positive m called two outputs for one fixed calibrated vector",
+        "auxiliary m held fixed under reparameterization",
+        "position-dependent recalibration called gauge or erased from endpoint depth",
+        "local calibrated germ claimed to determine remote or cross-query carry",
+        "G173 tensor and rank theorem erased",
+        "bounded local typing theorem globalized",
+        "scalar reversal called non-scalar transport closure",
+        "conditional pair c_eff called local signal speed",
+        "co-presence Xmax observations or G142 through G160 scaffolds inserted",
+    ):
+        require(guard in by_id["G174"]["forbidden_regression"], f"G174 guard absent: {guard}")
+    require(
+        by_id["G174"]["controlling_source"]
+        == "udt_g174_native_calibrated_pair_germ_chart_ownership_2026-08-19/AUDIT_REPORT.md",
+        "G174 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -4049,7 +4091,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G173-extended premise guards; PASS: 159-row premise "
+        "PASS: G174-extended premise guards; PASS: 160-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

@@ -40,11 +40,13 @@ G172 closes supplied smooth sphere curves in the static time-orthogonal monotone
 telescoping, and radial recovery close. External gpt-5.4 review returned
 `G172_ACCEPTED_WITH_STATED_BOUNDS`.
 
-G173 covers the first non-areal turn. With `v=dr/dsigma` and angular speed `b2`, the spatial entry is
-`H=exp(2phi)v^2+r^2b2`; `v=0,b2>0` is regular and only `v=b=0` loses rank. Raw `Phi` is an affine log-density. Every positive
-weight-one calibration gives a scalar chart, but two metric-built choices remain lawful and
-disagree at a generic turn. The tensor extension is unique; calibration selection is `OPEN`.
-External gpt-5.4 review returned `G173_ACCEPTED_WITH_STATED_BOUNDS`.
+G173 derives `H=exp(2phi)v^2+r^2b2`: `v=0,b2>0` is regular; only zero complete spatial tangent loses
+rank. G174 then identifies `m=|ds/dsigma|` as the Jacobian to a supplied calibrated ruler. One fixed
+nonzero calibrated ruler vector fixes `m` and the scalar uniquely; an uncalibrated line retains the
+G173 atlas, so distinct `m_A,m_P` are distinct inputs. Constant unit changes cancel from endpoint
+depth; varying recalibration changes the tape. External reviews returned
+`G173_ACCEPTED_WITH_STATED_BOUNDS` and `G174_ACCEPTED_WITH_STATED_BOUNDS`. Physical calibration and
+cross-tape carry remain `OPEN`.
 
 ### Current dependency spine
 
@@ -54,19 +56,16 @@ External gpt-5.4 review returned `G173_ACCEPTED_WITH_STATED_BOUNDS`.
   physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
 - **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
   G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
-- **G164--G173.** G164 removes scaffolds; G165 is a conformal-envelope control; G166 owns the scalar;
-  G167 the angular pullback; G168 the supplied-germ plane; G169 the reversal type check; G170 the
-  endpoint difference; G171 the pair-relative network; G172 the monotone-areal closure; G173 the
-  bounded turning-chart calibration atlas. Physical germ and calibration ownership remain open.
+- **G164--G174.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
+  pullback, and plane; G169--G171 give reversal, endpoint difference, and pair-relative network;
+  G172--G174 close smooth/turning families and local scalar uniqueness. Physical ownership is open.
 
-Maximum conclusion: the primary static-spherical UDT metric owns its reciprocal kernel and local
-pair-pullback orchestra on supplied germs. G171 makes its scalar network pair-relative without
-co-presence or carry scaffolds. G172 closes the monotone-areal family. G173 keeps the tensor regular
-through radial turns with angular motion but leaves a nonunique scalar calibration atlas. Physical
-calibration/family ownership, global/ambient/micro extension, completion, and numerical `X_max`
-remain open. Current control:
-`udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/`; then G172, G171, G170, G168,
-G167, and G166.
+Maximum conclusion: the primary static-spherical metric owns its reciprocal kernel and local
+orchestra on supplied germs. The network is pair-relative; smooth curves and angular turns close;
+one calibrated germ has one scalar. Physical calibration/family ownership, cross-tape carry,
+global/ambient/micro extension, completion, and numerical `X_max` remain open. Current control:
+`udt_g174_native_calibrated_pair_germ_chart_ownership_2026-08-19/`; then G173, G172, G171, G170,
+G168, G167, and G166.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain.
@@ -88,20 +87,16 @@ Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No lon
 - endpoint-relative reciprocal reversal: `DERIVED_CONDITIONAL` on each supplied completed pair;
   G171 proves arbitrary triangle additivity is not required, while matched endpoint readouts
   telescope. This is not a positive metric-space distance or global realization theorem.
-- smooth primary-metric pair-family closure: `VERIFIED_WITH_CAVEATS` for static, time-orthogonal,
-  monotone-areal supplied curves. G173 internally derives tensor regularity at radial turns with
-  angular motion and a lawful but nonunique calibration atlas; do not select a ruler from it.
+- smooth primary-metric pair-family closure: `VERIFIED_WITH_CAVEATS`; turns remain regular with
+  angular tangent, and one calibrated germ has one scalar. Do not select a ruler or claim carry.
 - pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
 - physical normalized pair position: `CHOSE / PROVISIONAL_WORKING_FOUNDATIONAL_CLARIFICATION`;
-  signed `chi=tanh(phi_pair)` is derived. It descends within each supplied congruent relation family
-  while path transport may retain holonomy; the family itself remains unselected.
+  signed `chi=tanh(phi_pair)` is derived within each supplied family; the family stays unselected.
 - angular/screen/mixing data enter before terminal readout.
-- `X_max`: owner-ratified working asymptotic global-completion consequence target, inactive as a local kernel
-  input. A dimensionful value requires an independently metric-derived separation, physical
-  relation domain, all-frame finite-supremum theorem, and divergent-depth join; not a wall, center,
-  seam, seal, or boundary term.
+- `X_max`: working asymptotic completion consequence, not a local input, wall, center, seam, seal,
+  or boundary term; value still requires metric separation, domain, supremum, and divergence.
 - strong local CSN: `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED`, inactive.
 - `S^2` matter carrier: `POSIT`; EH action: `CONDITIONAL`; bootstrap: `WORKING HYPOTHESIS`.
 
@@ -119,8 +114,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Audit which native pair-germ structure, if any, distinguishes G173 calibration charts. Do not
-select `m_A` or `m_P`, globalize, revive G142--G160, or conflate scalar and non-scalar transport.
+Audit whether the A-fixed reciprocal-`c_E` pair construction itself owns one calibration
+equivalence class along each supplied relation, or whether relation-wide/cross-tape carry remains
+additional data. Do not select `m_A` or `m_P`, invent a path or transport law, globalize, revive
+G142--G160, or conflate scalar and non-scalar transport.
 
 ### Archive
 The exact pre-cleanup startup surface is `archive/startup_surface_2026-08-17_pre_zoomout/`; older

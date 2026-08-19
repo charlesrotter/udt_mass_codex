@@ -16,6 +16,25 @@ HERE = Path(__file__).resolve().parent
 FROZEN_SOURCE_COMMIT = "9e40a840"
 
 
+# The repository outer gate intentionally uses Git, the root premise registry, and writes its
+# machine-readable result.  A sealed read-only intake has a different verifier.  Detect that
+# boundary before touching any package artifact so an external reviewer who invokes this file in
+# the intake gets the lawful read-only replay instead of a missing-root-file failure.
+if (ROOT / "REVIEW_SCOPE.json").is_file():
+    completed = subprocess.run(
+        [sys.executable, str(HERE / "verify_sealed_intake.py"), str(ROOT)],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if completed.stdout:
+        print(completed.stdout, end="")
+    if completed.stderr:
+        print(completed.stderr, end="", file=sys.stderr)
+    raise SystemExit(completed.returncode)
+
+
 def require(condition: bool, message: str) -> None:
     if not condition:
         raise AssertionError(message)
@@ -42,6 +61,10 @@ required = [
     "REVIEW_EXECUTION_BOUNDARY.md",
     "verify_sealed_intake.py",
     "build_review_intake.py",
+    "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+    "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt.gz",
+    "EXTERNAL_REVIEW_ADJUDICATION.md",
+    "TRANSMISSION_RECORD.md",
 ]
 for name in required:
     require((HERE / name).is_file(), f"missing {name}")
@@ -116,6 +139,16 @@ external_status = "PENDING"
 if external.is_file():
     review = external.read_text()
     require(review.startswith("G174_ACCEPTED_WITH_STATED_BOUNDS\n"), "external review verdict")
+    require(
+        hashlib.sha256(external.read_bytes()).hexdigest()
+        == "cd6405158f4a19677fd87f4130fcb111b82c27c3abfd34e3e17c45222202f201",
+        "banked external review hash",
+    )
+    require(
+        hashlib.sha256((HERE / "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt.gz").read_bytes()).hexdigest()
+        == "64fd8a9a00d200e37e78fa7b34867450d128a2e614a65ee0d6c7bf0e644fdf2f",
+        "compressed external transcript hash",
+    )
     external_status = "ACCEPTED_WITH_STATED_BOUNDS"
 
 result = {
