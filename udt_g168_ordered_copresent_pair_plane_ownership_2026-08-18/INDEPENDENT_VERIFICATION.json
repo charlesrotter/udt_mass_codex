@@ -1,0 +1,7 @@
+{
+  "checks_passed": 6012,
+  "implementation": "stdlib Fraction; no production imports",
+  "landing_supported": "ORDERED_COPRESENT_PAIR_GERM_OWNS_LOCAL_CALIBRATED_PAIR_PLANE__BARE_LABELS_DO_NOT__NO_PATH_REQUIRED",
+  "seed": 168,
+  "trials": 1200
+}
