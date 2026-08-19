@@ -18,11 +18,8 @@ G170 differences completed endpoint densities. G171 gives each supplied pair
 arbitrary triangle closure are unnecessary, and matched endpoint readouts telescope. Co-presence
 and scaffolded carry/score are not load-bearing.
 
-G172 closes the registered static, time-orthogonal, monotone-areal family with
-`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`; immersion, Frobenius, and radial recovery pass.
-
-G173--G175 are accepted controls: angular turns remain regular, one calibrated ruler fixes one
-scalar, and arbitrary connected tapes differ by the exact recalibration law.
+G172--G175 are accepted controls: smooth curves and turns remain regular, one calibrated ruler
+fixes one scalar, and arbitrary tapes differ by exact recalibration.
 
 Charles provisionally clarifies that the physical UDT reciprocal pair remains reciprocal after all
 complete-pullback contributions enter. G176 derives
@@ -33,18 +30,20 @@ G178 externally accepts this result with stated bounds; coordinate reversal is n
 G179 extends conditionally to arbitrary coframes and regular germs:
 `h=J^T E^T eta_4 E J`, `m=sqrt(-det h)`, `Phi=-1/2 log(-h00)`. Full-orchestra and
 covariance pass; review accepts without repair.
+G180 glues the density along supplied smooth regular families. In the primary family,
+`ds/dsigma=sqrt(v^2+exp(-2phi)r^2b^2)` and `Phi(s)=phi(r(s))`; review is pending.
 
 Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry; valuation stays open.
-G146--G163 bound the controls and remove `X_max` from the kernel. G164--G165 remove scaffolds/control
-the envelope. G166--G179 derive and extend the bounded kernel.
+G146--G163 bound controls and remove `X_max`; G164--G165 remove scaffolds/control the envelope;
+G166--G180 derive, extend, and glue the bounded kernel.
 
 Milestones: G129 G134 G135 G139 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154
-G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179. Guards: rank ten,
+G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180. Guards: rank ten,
 density, bivector area bilinear, codimension eleven, conformal; physical carrier/`O(2)` open;
 covariant `lambda` only; numerical valuation `OPEN`.
 
-Open `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/AUDIT_REPORT.md` first,
-then G178 through G166. G163 controls `X_max`; G164--G165 control scaffolds;
+Open `udt_g180_completed_pair_smooth_family_descent_2026-08-19/AUDIT_REPORT.md` first,
+then G179 through G166. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
 
 For G93--G128 provenance use `INDEX.md` or `archive/startup_surface_2026-08-17_pre_zoomout/` only
@@ -91,7 +90,6 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Preregister a primary-metric completed-pair family across separation, excluding carry/score,
-`X_max`, and observations.
+Submit sealed G180 for fresh review before global/singular or observational extension.
 
 <!-- STARTUP_CURRENT_END -->

@@ -27,6 +27,8 @@ shift enter the supplied pullback, G176 uniquely derives
 not rival kernels. Event/germ realization remains open.
 G177 removes scaffolds; G178 accepts. G179 extends to arbitrary coframes and regular germs; review
 accepts without repair.
+G180 glues the density along every supplied smooth regular interval. In the primary family,
+angular motion changes the completed tape map while `Phi(s)=phi(r(s))`; review is pending.
 
 ## Controlling local evaluator
 
@@ -45,12 +47,13 @@ with all `B,Q,S,Y,Z` upstream. G167 reduces it in the primary
 spherical metric to
 h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z,
 B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
+Smooth primary tape: ds/dsigma=sqrt(v^2+exp(-2phi)r^2b2), Phi(s)=phi(r(s)).
 ```
 
 G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities; G171
 shows that independently evaluated pairs remain native without forced scalar triangle closure;
 G172 proves monotone-areal closure; G173--G175 classify turning and arbitrary-calibration controls;
-G176 closes reciprocal normalization; G179 extends it to arbitrary complete coframes.
+G176 closes normalization; G179 extends coframes; G180 glues smooth families.
 
 Current controls: `udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/`, then
 G174--G166 in `INDEX.md`. Conditional complete evaluator:
@@ -65,7 +68,7 @@ open. G146--G163 bound direction, first jets, scale, score, carry, and quotient,
 `X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
 
 Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156
-G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179. Guards:
+G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180. Guards:
 rank ten, positive conformal class, common-scale ownership, bivector area bilinear, physical multidirectional carrier,
 first-order ceiling, and 184,300 unresolved covariance rows.
 
@@ -84,29 +87,14 @@ reversal is exact, arbitrary triangles need not telescope, and matched-readout t
 Co-presence and G142--G160 scaffolds are absent. Physical germ/global realization and non-scalar
 transport remain open.
 
-### G172--G173 — bounded smooth and turning closure
+### G172--G175 — smooth/turning and calibration controls
 
-Supplied `gamma(r)` enters through angular Gram before readout; immersion and static Frobenius close
-each regular monotone interval. In a turning chart,
-`H=exp(2phi)(dr/dsigma)^2+r^2 b2`, so `b2>0` preserves rank at a radial turn. Raw `Phi` is an affine
-log-density until calibrated. Both results are `VERIFIED_WITH_CAVEATS`; no physical curve/ruler or
-global atlas is selected, and arbitrary formal `a2` is not separately realized.
+G172--G173 close supplied smooth intervals and angular turns; no curve is selected. G174 gives one
+scalar per calibrated vector. G175 proves two connected tapes give identical endpoint depths iff
+their density ratio is constant. These externally accepted controls do not supply physical
+calibration or cross-tape carry.
 
-### G174 — calibrated-germ scalar ownership
-
-For `ds=m dsigma`, `H->lambda^2 H` and `m->|lambda|m`, so `H/m^2` and the scalar are invariant. A
-fixed calibrated vector uniquely fixes `m`; a bare line does not. Distinct `m_A,m_P` are distinct
-inputs. Constant unit rescaling cancels from endpoint depth. Grade: `VERIFIED_WITH_CAVEATS`;
-physical calibration and cross-tape carry remain open.
-
-### G175 — relation-wide calibration equivalence
-
-For `n=fm`, depth changes by `(1/2)log[f(p)/f(q)]`. A smooth shoulder preserves every A-local jet but
-changes B. All endpoint depths agree iff `n/m` is constant on each connected tape. A supplied full
-tape is sufficient; local calibration generates no carry. This remains a valid classification of
-arbitrary calibrated control tapes. Grade: `VERIFIED_WITH_CAVEATS` after external acceptance.
-
-### G176--G179 — completed-pair reciprocity and complete-coframe extension
+### G176--G180 — completed-pair normalization, coframe extension, and family descent
 
 Under the `WORKING_FOUNDATIONAL_CLARIFICATION`, every regular shifted pair has
 `m=T L_sigma=sqrt(-det h_sigma)`, the unique positive ruler density with `T L=1`; shift remains
@@ -114,6 +102,8 @@ active. In G173, `m^2=exp(-2phi)H` and `Phi=phi`, including angular turns. Grade
 `VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL_ON_WORKING_FOUNDATIONAL_CLARIFICATION`. G177 rebuilds it;
 G178 accepts it. G179 extends it to arbitrary `E,J`; BQSYZ, shift, singular-Y, covariance, and live
 controls pass; fresh review accepts.
+G180 integrates `m=sqrt(-det h)` on smooth regular intervals. In the primary family the angular
+sector changes `s(sigma)` and `r(s)`, not completed `Phi=phi`; review is pending.
 
 ## Observational anchors
 
@@ -145,6 +135,4 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Preregister a smooth primary-metric completed-pair family across separation. Keep it metric-led;
-exclude G142--G160 scaffolds, `X_max`, and observations. Test whether the pointwise kernel glues
-without a new scalar.
+Submit sealed G180 for fresh review before global/singular or observational extension.

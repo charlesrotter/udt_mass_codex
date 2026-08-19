@@ -6,14 +6,13 @@ Re-read on resume. `LIVE.md` wins.
 
 G166 owns `phi_pair`, conditional `c_eff/c_E`, and `chi`. G167 pulls the primary `B,Q,S,Y,Z` metric
 with angular Gram before readout; G168 derives the plane from a supplied germ, not bare labels.
-G170 differences endpoint densities; G171 makes the network pair-relative. G172 closes supplied
-smooth monotone-areal curves. G173 keeps angular radial turns regular but finds a calibration atlas
-on bare line data. G174 gives one scalar per calibrated ruler. G175 proves a local anchor does not
-propagate across arbitrary tapes. G176 provisionally applies Dual Reciprocity after the complete
+G170 differences endpoint densities; G171 makes the network pair-relative. G172 G173 G174 G175 classify
+smooth/turning and calibrated-tape controls. G176 provisionally applies Dual Reciprocity after the complete
 pair pullback and uniquely fixes `m=T L_sigma=sqrt(-det h_sigma)`. Arbitrary calibrations remain
 controls, not rival kernels. G177 removes scaffolds; G178 externally accepts it. G179 extends the
 conditional theorem to arbitrary coframes and regular germs; review accepts without repair.
-Physical event/germ and global realization remain open.
+G180 glues the density on smooth regular intervals; angular/common scale act through the completed
+tape, with primary `Phi(s)=phi(r(s))`. Physical event/germ/global realization remains open.
 
 Dependency spine:
 
@@ -25,8 +24,8 @@ Dependency spine:
 - G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
   bounded controls; G163 removes `X_max` from the kernel.
 - G164 G165 G166 G167 G168 G169: scaffold, kernel, pullback, germ, and reversal controls.
-- G170--G179: pair-relative differences need no universal carry; G176 fixes the ruler, G177--G178
-  check and accept it, G179 extends the local coframe domain, and G173--G175 remain controls.
+- G170--G180: pair-relative differences need no carry; G176 fixes the ruler, G177--G178 accept,
+  G179 extends coframes, G180 glues families, and G173--G175 remain controls.
 
 Physical germ realization, global extendability, ambient extension, separation,
 completion, and `X_max` remain open.
@@ -55,7 +54,6 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Derive a smooth primary-metric completed-pair family across separation; preserve the working—not
-canon—grade and exclude carry/score, `X_max`, and observational scaffolds.
+Submit sealed G180 for fresh review; preserve its working—not canon—grade and open global scope.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

@@ -35,9 +35,8 @@ observer may have different incident densities when its complete pair germ chang
 three-pair additivity is not required; matched endpoint readouts telescope. Co-presence, paths, and
 G142--G160 carry/score scaffolds are not load-bearing.
 
-G172, G173, G174, and G175 are accepted bounded controls. Smooth curves and angular turns remain
-regular when the complete spatial tangent is nonzero. One calibrated ruler gives one scalar;
-arbitrary tapes obey the exact recalibration law and endpoint depths forget one constant unit.
+G172 G173 G174 G175 are accepted controls: curves/turns remain regular; calibrated rulers give one
+scalar; arbitrary tapes recalibrate exactly.
 
 Charles provisionally adopts completed-pair Dual Reciprocity after angular, screen, mixing, and
 shift enter the supplied pullback. G176 derives uniquely `m=T L_sigma=sqrt(-det h_sigma)`, retains
@@ -46,9 +45,11 @@ shift, and gives `Phi=-log T`; on G173,
 not rival reciprocal kernels. Event and pair-germ realization remain open.
 G178 independently accepts this bounded result and confirms that spatial-coordinate reversal is not
 itself the separate observer-pair reversal theorem owned by G170--G171.
-G179 conditionally extends this to arbitrary coframes and supplied regular germs:
-`h=J^T E^T eta_4 E J`, `m=sqrt(-det h)`, `Phi=-1/2 log(-h00)`. Full BQSYZ, shift,
-singular-Y, covariance, and live controls pass. Fresh review accepts them without repair.
+G179 extends conditionally to arbitrary coframes/regular germs:
+`h=J^T E^T eta_4 E J`, `m=sqrt(-det h)`, `Phi=-1/2 log(-h00)`; full controls pass review.
+G180 glues smooth regular intervals. In the primary family,
+`ds/dsigma=sqrt(v^2+exp(-2phi)r^2b^2)` and `Phi(s)=phi(r(s))`; angular/common scale act through the
+tape, not afterward. Review is pending.
 
 ### Current dependency spine
 
@@ -58,17 +59,17 @@ singular-Y, covariance, and live controls pass. Fresh review accepts them withou
   physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
 - **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
   G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
-- **G164--G179.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
+- **G164--G180.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
   pullback, and plane; G169--G171 give reversal, endpoint difference, and pair-relative network;
   G172--G175 close controls; G176 closes reciprocal normalization; G177 independently reconstructs
-  the kernel without registered scaffolds; G178 accepts it; G179 gives the arbitrary-coframe local
-  extension. Physical germ/global realization is open.
+  the kernel without scaffolds; G178 accepts; G179 extends coframes; G180 glues smooth families.
+  Physical germ/global realization is open.
 
 Maximum conclusion: the primary metric owns a coherent reciprocal scalar kernel on every supplied
 regular completed physical pair. The complete orchestra enters first; Dual Reciprocity then fixes
 the ruler and scalar uniquely. G173--G175 classify broader control measurements, not rival kernels.
 Physical event/germ population, ambient/global extension, completion, and numerical `X_max` remain
-open. Current control: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`, then G178
+open. Current control: `udt_g180_completed_pair_smooth_family_descent_2026-08-19/`, then G179
 through G166.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
@@ -121,8 +122,7 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Preregister a smooth primary-metric completed-pair family across separation, excluding G142--G160
-scaffolds, `X_max`, and observations.
+Submit sealed G180 for fresh review before global/singular or observational extension.
 
 ### Archive
 Pre-cleanup startup surfaces are under `archive/startup_surface_2026-08-17_pre_zoomout/` and

@@ -1,0 +1,21 @@
+{
+  "audit": "G180",
+  "controls": [
+    "generic_shifted_density",
+    "calibrated_determinant",
+    "signed_auxiliary_reparameterization",
+    "common_metric_scale_retained",
+    "primary_angular_tape_density",
+    "completed_depth_clock_only",
+    "radial_turning_and_pure_angular_strata",
+    "exact_first_jet_chain_rules"
+  ],
+  "exact_assertions": 341579,
+  "exact_fraction_regular_trials": 20000,
+  "pure_angular_trials": 1461,
+  "radial_trials": 118,
+  "source_count": 9,
+  "source_hash_failures": [],
+  "status": "PASS",
+  "turning_trials": 1461
+}

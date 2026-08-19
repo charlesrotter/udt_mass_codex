@@ -26,7 +26,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   guide supplies bounded premise orientation; the verifier audits the entire 165-row exact registry
+   guide supplies bounded premise orientation; the verifier audits the entire 166-row exact registry
    without dumping its wide rows into model context. Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv`
    rows only after orientation when the requested task makes those objects load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
@@ -108,10 +108,9 @@ Disk evidence wins over conversational memory.
 - `WORKING_FOUNDATIONAL_CLARIFICATION` (G176): Dual Reciprocity applies to the completed physical
   observer-pair pullback after angular, screen, mixing, and shift contributions enter. On a supplied
   regular pair this fixes the reciprocal ruler density by
-  `m=T*L_sigma=sqrt(-det(h_sigma))`. Arbitrarily calibrated curves remain lawful control queries,
-  not alternative UDT reciprocal kernels. This does not select the observer events or pair germ.
-  G177 scaffold-checks; G178 accepts; G179 extends to arbitrary coframes and regular supplied germs,
-  externally accepted within bounds.
+  `m=T*L_sigma=sqrt(-det(h_sigma))`. Other calibrations are controls; events/germs stay unselected.
+  G177--G178 check/accept; G179 extends to arbitrary coframes; G180 glues smooth regular families,
+  placing angular effects in the completed tape map.
 - **Primary-kernel regression gate:** the active scalar route is `primary metric -> supplied pair
   germ -> h=F^*g -> complete-pair Dual Reciprocity -> endpoint Phi values -> endpoint difference`.
   The G142--G160 abstract carrier/carry/score architecture remains conditional historical control

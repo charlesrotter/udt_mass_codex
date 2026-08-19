@@ -1,0 +1,121 @@
+{
+  "audit": "G180",
+  "checks": {
+    "angular_channel_changes_tape": true,
+    "angular_channel_not_direct_depth": true,
+    "center_monotone_limit": true,
+    "common_scale_calibrated_determinant": true,
+    "common_scale_changes_completed_depth": true,
+    "common_scale_density_retained": true,
+    "depth_derivative_identity": true,
+    "distance_derivative_denominator": true,
+    "generic_calibrated_determinant": true,
+    "generic_density": true,
+    "generic_pair_determinant": true,
+    "generic_reciprocal_clock_ruler": true,
+    "generic_shift_retained": true,
+    "generic_shift_witness": true,
+    "generic_witness_calibrated": true,
+    "generic_witness_determinant": true,
+    "positive_reparameterization_density": true,
+    "positive_reparameterization_invariant": true,
+    "primary_calibrated_determinant": true,
+    "primary_calibrated_metric": true,
+    "primary_density": true,
+    "primary_density_derivative_exact": true,
+    "primary_full_witness_calibrated": true,
+    "primary_full_witness_density": true,
+    "primary_pullback_determinant": true,
+    "profile_changes_depth": true,
+    "radial_recovery": true,
+    "turning_witness_calibrated": true,
+    "turning_witness_positive": true
+  },
+  "generic_shifted_witness": {
+    "h_s": [
+      [
+        "-9/4",
+        "9/25"
+      ],
+      [
+        "9/25",
+        "2176/5625"
+      ]
+    ],
+    "h_sigma": [
+      [
+        "-9/4",
+        "9/10"
+      ],
+      [
+        "9/10",
+        "544/225"
+      ]
+    ],
+    "m_squared": "25/4"
+  },
+  "landing": "COMPLETED_PAIR_SMOOTH_FAMILY_DESCENT__ORCHESTRA_ENTERS_THE_PHYSICAL_TAPE_MAP",
+  "open": [
+    "physical_event_germ_and_family_realization",
+    "cross_family_matching_and_global_completion",
+    "null_and_degenerate_strata",
+    "non_scalar_transport",
+    "Xmax_observations_dynamics_source_matter_and_signalling"
+  ],
+  "primary_full_witness": {
+    "b_squared": "25/36",
+    "h_s": [
+      [
+        "-1/4",
+        "0"
+      ],
+      [
+        "0",
+        "4"
+      ]
+    ],
+    "h_sigma": [
+      [
+        "-1/4",
+        "0"
+      ],
+      [
+        "0",
+        "89/4"
+      ]
+    ],
+    "m_squared": "89/16",
+    "q": "1/4",
+    "r": "3",
+    "v": "2"
+  },
+  "scope": "supplied smooth connected regular completed pair families",
+  "source_count": 9,
+  "source_hash_failures": [],
+  "status": "PASS",
+  "turning_witness": {
+    "b_squared": "4/9",
+    "h_s": [
+      [
+        "-1/4",
+        "0"
+      ],
+      [
+        "0",
+        "4"
+      ]
+    ],
+    "h_sigma": [
+      [
+        "-1/4",
+        "0"
+      ],
+      [
+        "0",
+        "4"
+      ]
+    ],
+    "m_squared": "1",
+    "v": "0"
+  }
+}

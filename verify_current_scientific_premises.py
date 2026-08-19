@@ -206,6 +206,7 @@ def validate_startup_surface(root: Path) -> None:
             "G177",
             "G178",
             "G179",
+            "G180",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -247,7 +248,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "165-row exact registry",
+            "166-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -432,10 +433,11 @@ def validate_startup_surface(root: Path) -> None:
             "G177",
             "G178",
             "G179",
+            "G180",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "165-row",
+            "166-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -694,9 +696,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 165, "premise registry must contain exactly 165 rows")
+    require(len(rows) == 166, "premise registry must contain exactly 166 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 165, "duplicate premise id")
+    require(len(by_id) == 166, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -4231,6 +4233,55 @@ def main() -> None:
         (ROOT / "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXTERNAL_REVIEW_ADJUDICATION.md").is_file(),
         "G179 external adjudication missing",
     )
+    require(
+        by_id["G180"]["current_status"].startswith(
+            "DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS_PENDING_FRESH_ADVERSARIAL_REVIEW__"
+            "PREREGISTERED_AT_AE24EBBC"
+        ),
+        "G180 smooth-family landing changed",
+    )
+    require(by_id["G180"]["epistemic_label"] == "MIXED", "G180 label changed")
+    require(
+        by_id["G180"]["active_use"]
+        == "ACTIVE_INTERVAL_WIDE_DESCENT_OF_ACCEPTED_COMPLETED_PAIR_KERNEL_ON_SUPPLIED_SMOOTH_REGULAR_FAMILIES_ONLY",
+        "G180 active scope widened",
+    )
+    for open_item in (
+        "physical observer event pair-germ and family realization",
+        "cross-family matching and global completion",
+        "null degenerate zero-tangent singular cut focal topology-changing strata",
+        "non-scalar route frame screen connection Jacobi and holonomy transport",
+        "supplied metric and common-scale profile selection",
+        "positive metric-space distance numerical Xmax",
+        "observations radiative transfer dynamics action source matter bootstrap mass and signalling",
+        "fresh external adversarial review",
+    ):
+        require(open_item in by_id["G180"]["open_scope"], f"G180 open boundary absent: {open_item}")
+    for guard in (
+        "G180 called canon unconditional native global completion family selector or metric-space distance",
+        "working clarification called derived from bare metric",
+        "supplied smooth family called selected physical history",
+        "integral origin called fitted coefficient",
+        "angular contribution deleted from completed tape or bolted onto Phi after readout",
+        "G172 arbitrary-coordinate control restored as completed physical scalar",
+        "common-scale sensitivity called common-scale profile selection",
+        "auxiliary orientation called observer-pair reversal",
+        "same-family telescoping globalized across independent families",
+        "zero tangent called regular",
+        "chain rule called dynamics",
+        "G142 through G160 Xmax fit observation action source matter bootstrap or signalling imported",
+        "pair c_eff called local signal speed",
+    ):
+        require(guard in by_id["G180"]["forbidden_regression"], f"G180 guard absent: {guard}")
+    require(
+        by_id["G180"]["controlling_source"]
+        == "udt_g180_completed_pair_smooth_family_descent_2026-08-19/AUDIT_REPORT.md",
+        "G180 source changed",
+    )
+    require(
+        (ROOT / "udt_g180_completed_pair_smooth_family_descent_2026-08-19/VERIFICATION_RESULT.json").is_file(),
+        "G180 verification result missing",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -4324,7 +4375,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G179-extended premise guards; PASS: 165-row premise "
+        "PASS: G180-extended premise guards; PASS: 166-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
