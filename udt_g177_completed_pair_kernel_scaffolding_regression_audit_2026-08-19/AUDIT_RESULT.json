@@ -1,0 +1,10 @@
+{
+  "ast_census_pass": true,
+  "audit": "G177",
+  "independent_exact_assertions": 200000,
+  "independent_trials": 25000,
+  "landing": "SCAFFOLD_FREE_BOUNDED_KERNEL__ONLY_METRIC_GERM_PULLBACK_AND_DUAL_RECIPROCITY_LOAD_BEARING",
+  "pass": true,
+  "scaffold_deletion_catches": 28,
+  "source_hash_count": 9
+}

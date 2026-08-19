@@ -1,0 +1,9 @@
+{
+  "audit": "G177",
+  "deletion_catches": 28,
+  "hand_witnesses": 4,
+  "independent_exact_assertions": 200000,
+  "independent_trials": 25000,
+  "source_hashes": 9,
+  "status": "PASS__VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REVIEW_PENDING"
+}

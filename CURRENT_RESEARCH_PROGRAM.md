@@ -25,6 +25,7 @@ Charles provisionally adopts completed-pair Dual Reciprocity. After angular, scr
 shift enter the supplied pullback, G176 uniquely derives
 `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1`, and `Phi=-log T`. Other calibrations are control queries,
 not rival kernels. Event/germ realization remains open.
+G177 independently reconstructs this kernel without registered historical scaffolds.
 
 ## Controlling local evaluator
 
@@ -105,14 +106,14 @@ changes B. All endpoint depths agree iff `n/m` is constant on each connected tap
 tape is sufficient; local calibration generates no carry. This remains a valid classification of
 arbitrary calibrated control tapes. Grade: `VERIFIED_WITH_CAVEATS` after external acceptance.
 
-### G176 — completed-pair Dual Reciprocity
+### G176--G177 — completed-pair reciprocity and scaffold regression
 
 Under Charles's `WORKING_FOUNDATIONAL_CLARIFICATION`, the physical reciprocal-pair domain is
 narrower than the arbitrary-calibration arena. For every regular shifted pair,
 `m=T L_sigma=sqrt(-det h_sigma)` is the unique positive ruler density with `T L=1`; shift remains
 active. In G173, `m^2=exp(-2phi)H` and `Phi=phi`, including angular turns. Grade:
-`VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL_ON_WORKING_FOUNDATIONAL_CLARIFICATION`; fresh review and
-the G177 scaffold audit remain pending.
+`VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL_ON_WORKING_FOUNDATIONAL_CLARIFICATION`. G177 rebuilds it
+from raw pair matrices with 200,000 assertions and 28 deletion catches. Fresh review remains pending.
 
 ## Observational anchors
 
@@ -144,8 +145,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Run G177 as a scaffold-regression audit of the G176 kernel. Reconstruct it from the primary metric,
-supplied pair germ, complete pullback, and Dual Reciprocity only. Attempt to catch any dependence on
-`X_max`, paths, G142--G160 score/carry variables, observer-only density, post-readout angular terms,
-fits, actions, sources, bootstrap, or hidden calibration. Keep event/germ realization and
-non-scalar transport explicitly open.
+Prepare a sealed fresh adversarial review of G176--G177 before broader applications. It must test
+the conditional type clarification, generic shifted algebra, orchestra ordering, scaffold deletion,
+and retained open event/germ and non-scalar/global boundaries—without continuing the research.

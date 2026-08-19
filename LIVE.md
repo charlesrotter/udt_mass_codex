@@ -53,10 +53,10 @@ not rival reciprocal kernels. Event and pair-germ realization remain open.
   physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
 - **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
   G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
-- **G164--G176.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
+- **G164--G177.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
   pullback, and plane; G169--G171 give reversal, endpoint difference, and pair-relative network;
-  G172--G175 close smooth/turning and arbitrary-calibration controls; G176 closes reciprocal ruler
-  normalization on supplied completed physical pairs. Physical germ/global realization is open.
+  G172--G175 close controls; G176 closes reciprocal normalization; G177 independently reconstructs
+  the kernel without registered scaffolds. Physical germ/global realization is open.
 
 Maximum conclusion: the primary metric owns a coherent reciprocal scalar kernel on every supplied
 regular completed physical pair. The complete orchestra enters first; Dual Reciprocity then fixes
@@ -115,10 +115,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Run the bounded G177 scaffolding-regression audit on G176. Attempt to reconstruct the kernel without
-`X_max`, paths, score/carry machinery, observer-only potentials, post-readout angular corrections,
-fits, actions, sources, or hidden ruler choices. Preserve non-scalar channels and the open physical
-event/germ population.
+G177 passed 200,000 exact assertions, 25,000 orchestra variations, an AST census, and 28 deletion
+catches. Prepare one fresh adversarial review of G176--G177 before broader applications; do not
+expand the claim to event/germ selection, non-scalar transport, completion, or observations.
 
 ### Archive
 Pre-cleanup startup surfaces are under `archive/startup_surface_2026-08-17_pre_zoomout/` and

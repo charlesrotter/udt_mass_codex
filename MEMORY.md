@@ -11,7 +11,8 @@ smooth monotone-areal curves. G173 keeps angular radial turns regular but finds 
 on bare line data. G174 gives one scalar per calibrated ruler. G175 proves a local anchor does not
 propagate across arbitrary tapes. G176 provisionally applies Dual Reciprocity after the complete
 pair pullback and uniquely fixes `m=T L_sigma=sqrt(-det h_sigma)`. Arbitrary calibrations remain
-controls, not rival kernels. Physical event/germ and global realization remain open.
+controls, not rival kernels. G177 independently removes registered scaffolds. Physical event/germ
+and global realization remain open.
 
 Dependency spine:
 
@@ -23,8 +24,8 @@ Dependency spine:
 - G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
   bounded controls; G163 removes `X_max` from the kernel.
 - G164 G165 G166 G167 G168 G169: scaffold, kernel, pullback, germ, and reversal controls.
-- G170--G176: pair-relative endpoint differences need no universal carry scaffold; smooth families
-  and turns close; G176 fixes the completed reciprocal ruler while G173--G175 remain controls.
+- G170--G177: pair-relative endpoint differences need no universal carry scaffold; G176 fixes the
+  reciprocal ruler, G177 scaffold-checks it, and G173--G175 remain controls.
 
 Physical germ realization, global extendability, ambient extension, separation,
 completion, and `X_max` remain open.
@@ -53,9 +54,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Run the G177 scaffolding-regression audit on G176. Require reconstruction without carry/score
-machinery, paths, `X_max`, observer-only potentials, post-readout orchestra terms, fits, actions,
-sources, bootstrap, or hidden calibration. Preserve open event/germ realization and non-scalar
-transport.
+Prepare a fresh adversarial review of G176--G177 before applications. Preserve the working—not
+canon—grade and open event/germ, non-scalar, and global scope.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

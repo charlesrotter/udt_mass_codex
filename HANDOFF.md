@@ -32,10 +32,10 @@ kernels. Physical event/germ realization remains open.
 
 Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry; valuation stays open.
 G146--G163 bound the controls and remove `X_max` from the kernel. G164--G165 remove scaffolds/control
-the envelope. G166--G176 derive the bounded kernel through completed-pair reciprocal normalization.
+the envelope. G166--G177 derive and independently scaffold-check the bounded completed-pair kernel.
 
 Milestones: G129 G134 G135 G139 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154
-G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176. Guards: rank ten,
+G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177. Guards: rank ten,
 density, bivector area bilinear, codimension eleven, conformal; physical carrier/`O(2)` open;
 covariant `lambda` only; numerical valuation `OPEN`.
 
@@ -87,9 +87,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Run G177 as a scaffolding-regression audit: attempt to falsify the G176 kernel by removing every
-non-load-bearing path, `X_max`, score/carry, observer-only potential, post-readout angular term,
-fit, action, source, and hidden calibration. Do not confuse this with event/germ selection or
-non-scalar transport.
+G177 passes 200,000 exact assertions and 28 scaffold-deletion catches. Prepare a fresh adversarial
+review of G176--G177 before applications; preserve open event/germ, non-scalar, and global scope.
 
 <!-- STARTUP_CURRENT_END -->

@@ -1,0 +1,28 @@
+{
+  "banned_identifiers": [
+    "X_max",
+    "action",
+    "bootstrap",
+    "carry",
+    "fit",
+    "holonomy",
+    "jacobi",
+    "matter",
+    "mu",
+    "observer_potential",
+    "path",
+    "score",
+    "signal_speed",
+    "torsor"
+  ],
+  "identifier_count": 57,
+  "imports": [
+    "__future__",
+    "hashlib",
+    "json",
+    "pathlib",
+    "sympy"
+  ],
+  "pass": true,
+  "present_banned_identifiers": []
+}

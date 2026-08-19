@@ -203,6 +203,7 @@ def validate_startup_surface(root: Path) -> None:
             "G174",
             "G175",
             "G176",
+            "G177",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -244,7 +245,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "162-row exact registry",
+            "163-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -348,6 +349,7 @@ def validate_startup_surface(root: Path) -> None:
             "G174",
             "G175",
             "G176",
+            "G177",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -392,6 +394,7 @@ def validate_startup_surface(root: Path) -> None:
             "G174",
             "G175",
             "G176",
+            "G177",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -424,10 +427,11 @@ def validate_startup_surface(root: Path) -> None:
             "G174",
             "G175",
             "G176",
+            "G177",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "162-row",
+            "163-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -686,9 +690,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 162, "premise registry must contain exactly 162 rows")
+    require(len(rows) == 163, "premise registry must contain exactly 163 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 162, "duplicate premise id")
+    require(len(by_id) == 163, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -4087,6 +4091,47 @@ def main() -> None:
         == "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/AUDIT_REPORT.md",
         "G176 source changed",
     )
+    require(
+        by_id["G177"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_07DC6319__MINIMAL_CHAIN_PRIMARY_METRIC"
+        ),
+        "G177 scaffold-regression landing changed",
+    )
+    require(by_id["G177"]["epistemic_label"] == "MIXED", "G177 label changed")
+    require(
+        by_id["G177"]["active_use"]
+        == "ACTIVE_BOUNDED_LOCAL_REGULAR_COMPLETED_PAIR_KERNEL_DEPENDENCY_AND_SCAFFOLD_SUBTRACTION_ONLY",
+        "G177 active scope widened",
+    )
+    for open_item in (
+        "physical observer event and pair-germ population",
+        "complete nonspherical timelive micro and ambient history beyond supplied pullback",
+        "coincidence null degenerate singular cut focal topology-changing and global strata",
+        "route frame screen orientation connection Jacobi and holonomy transport",
+        "cross-query relation population and global completion",
+        "positive dimensionful distance numerical Xmax",
+        "observations radiative transfer dynamics action source matter bootstrap mass and signalling",
+    ):
+        require(open_item in by_id["G177"]["open_scope"], f"G177 open boundary absent: {open_item}")
+    for guard in (
+        "G177 called unconditional native canon or a global theory closure",
+        "working G176 clarification called derived from bare metric",
+        "supplied pair germ called selected",
+        "scaffold deletion called proof that scaffolds can never appear in downstream physics",
+        "Xmax path score carry observer potential post-readout angular term fit action source or hidden calibration restored as kernel antecedent",
+        "shift erased",
+        "non-scalar transport collapsed into scalar",
+        "AST lexical census called sole mathematical proof",
+        "bounded rational replay globalized",
+        "G166 G167 G173 G174 G175 or G176 erased",
+        "physical pair c_eff called local signal speed",
+    ):
+        require(guard in by_id["G177"]["forbidden_regression"], f"G177 guard absent: {guard}")
+    require(
+        by_id["G177"]["controlling_source"]
+        == "udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/AUDIT_REPORT.md",
+        "G177 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -4180,7 +4225,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G176-extended premise guards; PASS: 162-row premise "
+        "PASS: G177-extended premise guards; PASS: 163-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

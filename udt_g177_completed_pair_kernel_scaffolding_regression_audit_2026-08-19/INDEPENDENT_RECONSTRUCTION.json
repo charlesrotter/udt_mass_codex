@@ -1,0 +1,7 @@
+{
+  "exact_assertions": 200000,
+  "orchestra_variations": 25000,
+  "pass": true,
+  "seed": 17720260819,
+  "trials": 25000
+}

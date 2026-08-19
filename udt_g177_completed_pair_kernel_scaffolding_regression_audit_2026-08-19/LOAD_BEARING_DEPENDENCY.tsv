@@ -1,0 +1,19 @@
+id	object	status	depends_on	role_or_boundary
+D01	primary metric g	SUPPLIED_UDT_METRIC	founding metric	Owns local tensor values; no selector over arbitrary metrics inserted
+D02	regular pair germ F	SUPPLIED_QUERY_INPUT	observer events and separation germ	Physical population remains OPEN
+D03	complete pullback h_sigma=F^*g	DERIVED	D01;D02	All angular screen mixing and shift contributions enter here
+D04	T L_sigma beta decomposition	DERIVED_UNIQUE_REGULAR	D03	Pure pair-metric algebra
+D05	completed-pair Dual Reciprocity	WORKING_FOUNDATIONAL_CLARIFICATION	Charles adoption record	Not canon; T*L=1 after D03
+D06	m=T*L_sigma=sqrt(-det h_sigma)	DERIVED_CONDITIONAL	D04;D05	Unique positive reciprocal ruler density
+D07	Phi=-log(T)	DERIVED_CONDITIONAL	D04;D06	Scalar kernel readout
+D08	endpoint difference	DERIVED_WHEN_REQUESTED	D07 at two endpoints	Same-pair calibration only; no arbitrary triangle law
+X01	X_max and bounded position	EXCLUDED_NOT_LOAD_BEARING	none	Global completion consequence remains OPEN
+X02	path connection holonomy Jacobi	EXCLUDED_FROM_SCALAR_KERNEL	none	Separate route and non-scalar outputs when queried
+X03	G142-G160 score carry torsor	EXCLUDED_HISTORICAL_CONTROLS	none	Not used to define or repair kernel
+X04	observer-only potential	EXCLUDED	none	Pair-relative endpoint values retained
+X05	post-readout angular correction	EXCLUDED	none	Orchestra enters D03 before readout
+X06	scalar mu or frozen coefficients	EXCLUDED	none	No compressed post-processing orchestra
+X07	metric arclength or arbitrary m	CONTROL_QUERY_ONLY	none	Not a rival completed reciprocal kernel
+X08	fits and radiative transfer	EXCLUDED_DOWNSTREAM	none	Observational bridge remains separate
+X09	action source matter bootstrap dynamics	EXCLUDED_OPEN	none	No imported physical mechanism
+X10	co-presence selector or signalling	EXCLUDED	none	No event selection or signal claim
