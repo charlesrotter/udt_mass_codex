@@ -40,6 +40,9 @@ required = [
     "REVIEW_EXECUTION_BOUNDARY.md",
     "verify_sealed_intake.py",
     "build_review_intake.py",
+    "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+    "EXTERNAL_REVIEW_ADJUDICATION.md",
+    "TRANSMISSION_RECORD.md",
 ]
 for name in required:
     require((HERE / name).is_file(), f"missing {name}")
@@ -94,6 +97,11 @@ ledger = (HERE / "STATUS_LEDGER.tsv").read_text()
 require("G142--G160 scaffolded kernel\tEXCLUDED" in ledger, "scaffold guard missing")
 require("physical angular-family ownership\tOPEN" in ledger, "physical-family boundary missing")
 require("turning and pure-angular strata\tOPEN" in ledger, "turning boundary missing")
+require("G172 primary landing\tVERIFIED_WITH_CAVEATS" in ledger, "external grade missing")
+require("formal arbitrary a2 converse realization\tOPEN" in ledger, "a2 realization guard missing")
+review = (HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_text()
+require(review.startswith("G172_ACCEPTED_WITH_STATED_BOUNDS"), "external verdict missing")
+require("No load-bearing algebra or scope defect" in review, "external theorem acceptance missing")
 
 premise = subprocess.run(
     [sys.executable, str(ROOT / "verify_current_scientific_premises.py")],
@@ -106,7 +114,7 @@ require(premise.returncode == 0, f"premise verifier\n{premise.stdout}\n{premise.
 
 result = {
     "gate": "REPOSITORY_OUTER_GATE",
-    "status": "PASS__G172__READY_FOR_FRESH_EXTERNAL_REVIEW",
+    "status": "PASS__G172__VERIFIED_WITH_CAVEATS__EXTERNAL_ACCEPTED_WITH_STATED_BOUNDS",
     "required_files": len(required),
     "source_hashes": len(rows),
     "production_checks": production["checks_total"],

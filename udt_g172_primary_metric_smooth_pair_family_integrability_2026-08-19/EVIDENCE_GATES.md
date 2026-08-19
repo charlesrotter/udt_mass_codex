@@ -14,19 +14,19 @@ time-live, nonspherical, singular, and global-completion strata are explicitly e
 
 ## Gate 3 — independent verification
 
-PASS LOCALLY. The production SymPy derivation passes 26/26 checks. A separate standard-library
+PASS. The production SymPy derivation passes 26/26 checks. A separate standard-library
 Fraction/dual-number implementation imports no production code or SymPy and passes 144,000 checks
-over 12,000 registered samples. Fresh external adversarial review remains required before the
-package can be graded `VERIFIED_WITH_CAVEATS`.
+over 12,000 registered samples. A fresh sealed gpt-5.4 review reproduced the load-bearing algebra,
+reran the dependency-light verifier, and returned `G172_ACCEPTED_WITH_STATED_BOUNDS`.
 
 ## Gate 4 — premise audit
 
-PASS. `python3 verify_current_scientific_premises.py` passed the complete 157-row registry and
-current startup guards. The full regression suite returned 127 passed and one known unrelated
+PASS. `python3 verify_current_scientific_premises.py` passed the complete 158-row registry and
+current startup guards. The post-review regression suite returned 128 passed and one known unrelated
 XFAIL. The package records `phi` as supplied, the angular curve as free-and-characterized, and the
 family type as chosen and bounded. It excludes co-presence, `X_max`, observations, dynamics,
 actions, sources, and G142--G160.
 
 ## Current grade
 
-`DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW`
+`VERIFIED_WITH_CAVEATS__G172_ACCEPTED_WITH_STATED_BOUNDS`

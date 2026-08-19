@@ -8,8 +8,9 @@ G166: the founded pair metric owns `phi_pair`, conditional `c_eff/c_E`, and `chi
 `B,Q,S,Y,Z` pullback fixes `B,Q,S=0`; supplied `Y,Z` contribute angular Gram before readout. G168:
 a supplied germ derives the plane, but bare labels do not. G170 differences endpoint densities.
 G171 makes the scalar network pair-relative; arbitrary triangles need not telescope. G172 closes
-the supplied monotone-areal family with `Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`. Turning calibration
-and physical/global realization remain open; external review is pending.
+the supplied monotone-areal family with `Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]` for supplied smooth
+sphere curves. Fresh gpt-5.4 review accepted the bounded theorem. Turning calibration,
+arbitrary-formal-`a2` converse realization, and physical/global realization remain open.
 
 Dependency spine:
 
@@ -52,7 +53,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Complete fresh external review of G172; if retained, test the first excluded radial-turning chart.
+Test the first excluded G172 radial-turning stratum with a non-areal local chart.
 Do not revive co-presence, observer-only endpoint potentials, arbitrary triangle closure,
 scaffolded carry/score kernels, `X_max`, fits, or paths.
 

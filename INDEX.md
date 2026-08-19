@@ -55,14 +55,14 @@ ordered-pair metric owns its kernel. G167 derives the full local regular pair pu
 primary spherical four-metric. G168 derives the supplied-germ plane; G170 regrades G169 and derives
 endpoint-relative reversal; G171 derives the pair-germ-relative scalar network and removes
 arbitrary triangle additivity and the scaffolded carry kernel as requirements. G172 closes the
-bounded monotone-areal family; physical realization, turning charts, and global extension remain open.
+bounded monotone-areal family and was externally accepted with stated bounds; physical realization,
+turning charts, arbitrary-formal-`a2` converse realization, and global extension remain open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-
 For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open only load-bearing packages. The 158-row premise registry controls current status.
 
 ## Observational lane

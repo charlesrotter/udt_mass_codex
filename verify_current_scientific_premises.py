@@ -3878,14 +3878,14 @@ def main() -> None:
     )
     require(
         by_id["G172"]["current_status"].startswith(
-            "DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW__PREREGISTERED__SMOOTH_FAMILY_CLOSURE_ON_STATIC_TIME_ORTHOGONAL_MONOTONE_AREAL_CLASS"
+            "VERIFIED_WITH_CAVEATS__EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS__PREREGISTERED__SMOOTH_FAMILY_CLOSURE_ON_STATIC_TIME_ORTHOGONAL_MONOTONE_AREAL_CLASS"
         ),
         "G172 smooth pair-family landing regressed or promoted",
     )
     require(by_id["G172"]["epistemic_label"] == "MIXED", "G172 label changed")
     for open_item in (
-        "fresh external adversarial review",
         "physical angular-family realization",
+        "formal arbitrary a2 converse realization from a free-standing nonnegative speed field",
         "turning and pure-angular charts at dr/dsigma equals zero",
         "non-scalar screen connection orientation and holonomy transport",
         "nonspherical time-live micro and ambient extension",

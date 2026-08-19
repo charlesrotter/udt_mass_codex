@@ -34,7 +34,7 @@
 | G169 supplied-relation reversal | `VERIFIED_WITH_CAVEATS` | Conditional quotient; not physical distance |
 | G170 endpoint-relative response | `VERIFIED_WITH_CAVEATS` | `delta_AB=Phi_B-Phi_A` in one consistent calibration class; cross-query carry open |
 | G171 pair-germ-relative network | `VERIFIED_WITH_CAVEATS` | Each supplied pair is evaluated natively; arbitrary triangles need not telescope; matched endpoint readouts do |
-| G172 smooth pair-family closure | `DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW` | Arbitrary smooth angular speed closes on the monotone-areal class; turning/global open |
+| G172 smooth pair-family closure | `VERIFIED_WITH_CAVEATS` | Supplied smooth sphere curves close on the monotone-areal class; turning/formal-`a2` converse/global open |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits

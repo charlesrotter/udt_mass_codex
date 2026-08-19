@@ -18,11 +18,12 @@ G170 differences completed endpoint densities. G171 gives each supplied pair
 arbitrary triangle closure are unnecessary, and matched endpoint readouts telescope. Co-presence
 and scaffolded carry/score are not load-bearing.
 
-G172 derives smooth closure on the full registered static, time-orthogonal, monotone-areal family:
-`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`, with arbitrary supplied smooth angular speed `a2(r)`.
-The explicit immersion and static Frobenius bracket close; radial recovery is exact. The first
-boundary is calibration or regularity loss, particularly `dr/dsigma=0`. Internal and sealed gates
-pass; fresh review remains required.
+G172 derives closure on the registered static, time-orthogonal, monotone-areal family:
+`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`, for every supplied smooth sphere curve `gamma(r)` and its
+induced angular speed `a2(r)`. The explicit immersion and static Frobenius bracket close; radial
+recovery is exact. Fresh gpt-5.4 review reproduced the algebra and returned
+`G172_ACCEPTED_WITH_STATED_BOUNDS`. The first boundary is calibration or regularity loss,
+particularly `dr/dsigma=0`; arbitrary formal `a2` converse realization is also not proved.
 
 Dependency chain:
 
@@ -88,8 +89,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Complete fresh external review of G172. If it is retained, use a non-areal local chart to test the
-first excluded `dr/dsigma=0` turning stratum. Do not select an angular curve, force global
+Test the excluded `dr/dsigma=0` turning stratum in a non-areal chart. Do not select a curve or force
+global
 completion, revive carry/score scaffolds, or collapse scalar closure into non-scalar transport.
 
 <!-- STARTUP_CURRENT_END -->

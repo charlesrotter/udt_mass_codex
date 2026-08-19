@@ -1,5 +1,5 @@
 claim	status	scope
-G172 primary landing	DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW	static time-orthogonal monotone-areal smooth pair families
+G172 primary landing	VERIFIED_WITH_CAVEATS	fresh gpt-5.4 accepted the static time-orthogonal monotone-areal smooth pair-family theorem with stated bounds
 complete angular Gram enters before terminal readout	DERIVED_BOUNDED	primary static-spherical metric and supplied smooth gamma(r)
 Phi=phi+1/4 log(1+r^2 exp(-2phi) a^2)	DERIVED_BOUNDED	registered family only
 conditional c_eff_pair/c_E=exp(-2Phi)	DERIVED_BOUNDED_INTEROBSERVER_FRAME_READOUT	not a local signal-speed law
@@ -15,3 +15,5 @@ non-scalar transport closure	OPEN	not implied by scalar telescoping
 co-presence	INACTIVE	not used
 X_max	INACTIVE	not used
 G142--G160 scaffolded kernel	EXCLUDED	not in source manifest or derivation
+formal arbitrary a2 converse realization	OPEN	the theorem starts from supplied smooth gamma and uses its induced a2
+fresh external adversarial review	PASS	32-file sealed intake exact; independent algebra reproduced; G172_ACCEPTED_WITH_STATED_BOUNDS

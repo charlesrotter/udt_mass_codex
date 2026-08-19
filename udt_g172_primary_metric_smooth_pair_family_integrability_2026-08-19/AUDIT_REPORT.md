@@ -49,9 +49,10 @@ and global questions are also outside this theorem.
 - Smooth nonradial coverage: 11,953/12,000 independent samples.
 - Frozen source manifest: 11/11 hashes verified by the production derivation.
 - Mutation/semantic catch suite: 19/19 catches.
-- Repository premise verifier: PASS on the complete 157-row registry and current guards.
-- Full regression suite: 127 passed, one known unrelated XFAIL.
-- Fresh external adversarial review: pending.
+- Repository premise verifier: PASS on the complete 158-row registry and current guards.
+- Post-review full regression suite: 128 passed, one known unrelated XFAIL.
+- Fresh external gpt-5.4 review: `G172_ACCEPTED_WITH_STATED_BOUNDS`; sealed inventory and replay
+  passed, and the reviewer independently reproduced the load-bearing pullback/readout algebra.
 
 ## Maximum conclusion
 
@@ -60,3 +61,7 @@ monotone-areal class inside the supplied primary static-spherical metric. It doe
 physical angular family, prove global completion, derive positive metric-space distance, or close
 non-scalar screen/mixing/holonomy channels. No `X_max`, fit, matter, source, action, bootstrap,
 co-presence, or scaffolded G142--G160 kernel enters the result.
+
+External review adds one precision guard: the theorem begins with a supplied smooth sphere curve
+`gamma(r)` and uses its induced `a2(r)`; it is not a separate converse realization theorem for every
+formal nonnegative `a2`. Banked grade: `VERIFIED_WITH_CAVEATS` in the stated bounded class.
