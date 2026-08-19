@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "pair determinant and decomposition",
+    "terminal ratio",
+    "common-scale cancellation",
+    "reversal",
+    "matched-depth Mobius composition",
+    "independent Decimal square-root readout"
+  ],
+  "exact_fraction_trials": 1200,
+  "imports_production": false,
+  "source_hashes": 13,
+  "status": "PASS"
+}

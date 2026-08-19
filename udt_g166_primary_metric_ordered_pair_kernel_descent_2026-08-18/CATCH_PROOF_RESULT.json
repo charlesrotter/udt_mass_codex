@@ -1,0 +1,16 @@
+{
+  "catches": {
+    "ceff_not_signal_speed": true,
+    "g165_retained_as_control": true,
+    "general_assembly_still_conditional": true,
+    "general_envelope_not_solution_space": true,
+    "network_carry_not_erased": true,
+    "no_fixed_path_input": true,
+    "no_independent_kernel_profile": true,
+    "no_xmax_in_kernel": true,
+    "orchestra_precedes_readout": true
+  },
+  "passed": 9,
+  "status": "PASS",
+  "total": 9
+}

@@ -5,36 +5,50 @@ Date: 2026-08-18
 
 ## Program picture
 
-UDT has a conditional pair evaluator, faithful metric reconstruction, working bounded normalized position,
-exact chord identities, an exact variable-balance complete-coframe transition, an exact regular
-Lorentz quotient, and a residual-rapidity-independent scalar kernel; physical multidirectional carrier,
-route carry, and physical metric valuation remain open. G164--G165 reduce the ten-channel arena to
-presentation plus query plus one metric, then find no current source-owned scale restriction.
+G166 restores the primary UDT order: the determinant-one reciprocal metric of an ordered observer
+pair owns its scalar kernel algebraically. The kernel is not an extra profile, a fixed-path readout,
+or a selector among arbitrary metrics. The complete-coframe construction remains a conditional
+envelope showing how a derived orchestra must enter the one pair metric before terminal readout.
 
-Given a complete metric history, typed query, and calibrated realization, geometry can return:
+Given the primary reciprocal block and a natively completed metric assembly, geometry can return:
 
 1. the complete pair metric and terminal reciprocal readout;
 2. derivative, extrinsic, Jacobi, and transport data when the query owns them;
 3. overlap, calibration, branch, density, and holonomy compatibility.
 
-These read supplied metric and observer-relation data. Full pullbacks encode the metric; physical
-values and global completion remain open.
+These read one ordered observer relation. Bare event/calibration typing, the native complete `3+1`
+assembly, its values, cross-query carry, and global completion remain open.
+The physical multidirectional carrier and route/frame transport remain separately typed and open.
 
 ## Controlling local evaluator
 
-For supplied regular `E=[[B,0],[Q S,Q]]` and `J=[Y;Z]`, the complete pullback is formed before scalar readout:
+For the founded ordered-pair block,
+
+```text
+h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB)),
+phi_pair=delta_AB,
+c_eff^(pair)/c_E=exp(-2 delta_AB),
+chi_AB=tanh(delta_AB).
+```
+
+On any regular natively completed pair metric, the same algebraic readout is
+
+```text
+phi_pair=(1/4)log[(-det h)/h00^2],
+c_eff^(pair)/c_E=(-h00)/sqrt(-det h).
+```
+
+The verified conditional envelope
 
 ```text
 h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
-phi_pair=(1/4)log[(-det h)/h00^2],
-c_eff^(pair)/c_E=exp(-2phi_pair).
 ```
 
-All `B,Q,S,Y,Z` channels and their live derivatives remain active upstream. This is
-`VERIFIED_WITH_CAVEATS` conditional geometry. It does not select the supplied history, query,
-realization, or physical radiative transfer.
+proves that all `B,Q,S,Y,Z` channels can enter before readout. It does not derive them as independent
+physical histories. The remaining task is their native assembly from the primary UDT metric.
 
-Source: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
+Source: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; conditional complete
+evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ## Current reconstruction and ownership chain
 
@@ -65,30 +79,11 @@ G146 leaves non-collinear projection nonunique. If G147's `xi=rho n` is **define
 the query rest space, its tangent plane equals the metric pair screen. Physical carrier,
 independent `O(2)` solder, and cross-query carry remain open.
 
-### G148 — relation-first complete-pair first jet
+### G148--G150 — first-jet controls
 
-For the normalized supplied lift `chi n`, G148's exact first-jet corollary is
-
-```text
-nabla_u (chi n) = sech(phi)^2 dot(phi) n
-                + tanh(phi) Omega
-                + tanh(phi) a_n u.
-```
-
-The prior `X_max`-weighted identity remains exact only after a dimensionful realization is
-supplied. This has no solder coefficient inside that representation. `lambda` proves algebraic
-`B,Q,S,Y,Z` liveness, not clock flow, connection, or physical amplitudes.
-
-### G149 — genuine spacetime/query first-jet join
-
-One smooth coframe/immersion realizes `dot(phi_pair)`, Levi-Civita `a_n,Omega`, and `nabla_u xi`.
-Registered clock-direction jets stay live; `sigma`, history, amplitudes, and dynamics remain open.
-
-### G150 — first-order ceiling for four-output freedom
-
-At every finite depth a smooth immersion makes `(dot(phi_pair),a_n,Omega_2,Omega_3)` surjective over
-`R^4` in the unrestricted regular local class. No universal pointwise algebraic relation among
-those four follows there. Other jets, query restrictions, curvature, completion, and dynamics stay open.
+G148 gives a covariant radial/screen/rest-space identity; `lambda` proves algebraic liveness only.
+G149 joins metric and query first jets conditionally. G150's first-order ceiling makes four listed
+outputs locally free in the unrestricted class, not in derived physical UDT.
 
 ### G151--G163 — curvature, score, carry, quotient, and dependency reversal
 
@@ -105,8 +100,17 @@ descendants. Its zero X column is structural; the 26-source census finds no inde
 G164 removes an extra local profile and ten-independent-history scaffolds. G165's preregistered
 59-row census finds no active metric restrictor. The current `chi`, causal, incidence, `c_E`,
 `G_obs`, and finite-anchor map admits compact conformal bumps; full valued networks reconstruct the
-scale function supplied to them. Evolution is not uniquely required, but finite-data prediction
-needs a native nonidentity restriction reducing the quotient family to finite moduli.
+scale function supplied to them inside the unrestricted metric envelope. G166 limits this result:
+an arbitrary conformal factor is not generated by the founded determinant-one reciprocal block, so
+G165 is a general-envelope control rather than evidence of infinitely many physical UDT metrics.
+
+### G166 — primary-metric ordered-pair kernel descent
+
+The founded metric returns `phi_pair=delta_AB`, `c_eff/c_E=exp(-2 delta_AB)`, and
+`chi=tanh(delta_AB)` exactly. The scalar has no independent post-metric profile, fixed path, or
+`X_max` input. Any native orchestra must modify the completed pair metric before this readout.
+The general nonspherical, mixing, shift-bearing, time-live, and micro `3+1` assembly is not yet
+derived from the founding block.
 
 ## Observational anchors
 
@@ -130,16 +134,16 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Is the complete valued co-present network the physical state, or must UDT generate it from finite data?
+1. What native metric assembly joins the founded reciprocal pair block to angular, screen, mixing,
+   shift, and time-live sectors as one UDT geometry?
 2. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
-3. If relative scale descends to finite moduli, which lawful observational datum calibrates the
-   residue; if it stays function-valued, what native global restriction is actually owned?
-4. Does a completed realization prove a finite all-frame supremum that may then be named `X_max`,
+3. How are physical ordered-pair values and independent query calibrations carried across a network?
+4. Does a completed native realization prove a finite all-frame supremum that may then be named `X_max`,
    and what fixes regime strengths and radiative/source structure?
 
 ## Bounded next action
 
-G165 closes the current-source rank gate. Resolve the architecture fork with Charles before another
-solve. If finite-data prediction is required, map only genuinely new metric-native relative-scale
-candidates; do not repeat compatibility audits or insert `X_max`, fits, or targets.
+Derive the complete `3+1` UDT metric assembly from the primary reciprocal block. Treat the existing
+ten-component coframe as a conditional algebraic envelope, not a menu of physical metrics. Do not
+repeat selector audits or insert a fixed path, post-kernel orchestra, `X_max`, fit, or target.

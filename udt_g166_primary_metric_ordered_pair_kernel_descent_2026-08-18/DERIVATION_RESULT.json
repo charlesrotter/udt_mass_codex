@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "arbitrary_common_scale_leaves_founded_det_one_family": true,
+    "chi_is_pair_density_contrast": true,
+    "clock_density_reads_from_h00": true,
+    "coincidence_is_identity": true,
+    "common_scale_cancels_from_kernel": true,
+    "conditional_ceff_ratio_is_T_over_L_squared": true,
+    "depth_ratio_is_L_over_T_squared": true,
+    "matched_depths_compose_mobius": true,
+    "native_core_has_no_path_symbol": true,
+    "native_core_has_no_xmax_symbol": true,
+    "observer_reversal_negates_chi": true,
+    "orchestra_clock_entry_changes_terminal_ratio": true,
+    "orchestra_enters_complete_pair_before_readout": true,
+    "orchestra_ruler_entry_changes_terminal_ratio": true,
+    "orchestra_shift_entry_changes_terminal_ratio": true,
+    "pair_det_is_minus_T2L2": true,
+    "primary_block_returns_ceff_ratio": true,
+    "primary_block_returns_delta_ratio": true,
+    "primary_reciprocal_block_det_minus_one": true,
+    "ruler_density_reads_algebraically": true,
+    "shift_reads_algebraically": true,
+    "source_hashes_match": true
+  },
+  "checks_passed": 22,
+  "checks_total": 22,
+  "exact_core": {
+    "chi_pair": "(L-T)/(L+T) = (1-q)/(1+q)",
+    "phi_pair": "(1/4) log((-det h)/h00^2)",
+    "q_pair": "(-h00)/sqrt(-det h) = T/L"
+  },
+  "primary_landing": "PRIMARY_UDT_ORDERED_PAIR_KERNEL_DESCENDS_ALGEBRAICALLY__GENERAL_3PLUS1_ASSEMBLY_CONDITIONAL",
+  "scope": "Founded ordered-pair radial metric and algebraic terminal kernel; complete nonspherical, mixing, time-live metric assembly remains conditional.",
+  "source_classes": 13,
+  "source_count": 13,
+  "source_failures": []
+}

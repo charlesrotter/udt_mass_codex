@@ -4,13 +4,13 @@ Re-read on resume. `LIVE.md` wins.
 
 ## Current theory picture
 
-The evaluator forms a pair metric from `B,Q,S,Y,Z` before terminal `phi_pair` and conditional
-`c_eff/c_E`; history and values are unselected.
+G166 restores UDT order: the founded ordered-pair metric owns `phi_pair`, conditional `c_eff/c_E`,
+and `chi`, without a fixed path. The orchestra enters before readout; `B,Q,S,Y,Z` remain conditional
+until derived from the primary metric.
 
 Dependency spine:
 
-- G129--G134: pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal
-  class. Common scale remains unsourced.
+- G129--G134: pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal class.
 - G135--G139, regraded by G163: native signed `chi=tanh(phi_pair)` composes on matched depths within
   supplied families. Working normalized position is distinct from route transport; `x=X_max chi`
   is conditional.
@@ -23,11 +23,12 @@ Dependency spine:
   `dchi`; G154 fixed scale conditional; G155 scale rank zero; G156 carry; G157 balance; G158 score;
   G159 descent; G160 time-live carry; G161 quotient; G162 rapidity removal; G163 removes `X_max`
   from the native kernel and retypes dimensional descendants.
-- G164--G165: no extra local profile or ten independent histories. The 59-row census finds no owned
-  metric restrictor; finite anchors retain functional conformal freedom, while valued networks
-  reconstruct only supplied scale.
+- G164--G165: no extra local profile or ten independent histories. G165's conformal family is a
+  valid unrestricted-envelope control, not proof of physical UDT metric multiplicity.
+- G166: the primary pair metric owns its kernel; the open joint is native nonspherical, mixing,
+  shift-bearing, and time-live `3+1` assembly.
 
-Valuation, query, metric separation, completion, and `X_max` remain open.
+Complete assembly, pair values, global carry, metric separation, completion, and `X_max` remain open.
 
 ## Observational pointer
 
@@ -54,7 +55,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Choose the relational-state versus finite-data prediction architecture before another solve. Do not
-repeat identity audits or insert `X_max`, fits, preferred paths, or target responses.
+Derive the complete UDT `3+1` orchestra from the primary reciprocal metric. Do not search the
+unrestricted metric envelope for a selector or insert `X_max`, fits, preferred paths, or target responses.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

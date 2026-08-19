@@ -9,69 +9,55 @@ description.
 
 ### Current honest theory claim
 
-The externally `VERIFIED_WITH_CAVEATS` complete-pair evaluator remains the controlling local map.
-For supplied
+G166 corrects the dependency order. For a founded ordered observer pair with reciprocal depth
+`delta_AB`, the primary UDT clock/ruler metric block is
 
 ```text
-E=[[B,0],[Q S,Q]],   J=[Y;Z],
+h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB)).
 ```
 
-it forms the complete pair metric before any scalar readout:
+Its kernel is the algebraic readout of that metric, not a path-dependent or post-metric law:
 
 ```text
-h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
-phi_pair=(1/4)log[(-det h)/h00^2],
-c_eff^(pair)/c_E=(-h00)/sqrt(-det h)=exp(-2phi_pair).
+phi_pair=delta_AB,
+c_eff^(pair)/c_E=exp(-2 delta_AB),
+chi_AB=tanh(delta_AB).
 ```
 
-All `B,Q,S,Y,Z` channels and derivatives remain upstream. Fixed Gram compression is diagnostic,
-not channel attribution or evolution. Pointwise `phi` is a presentation potential; terminal
-`phi_pair` and pair `c_eff/c_E` require a supplied regular calibrated pair realization.
+On any derived complete pair metric the same terminal formula applies. Angular, screen, mixing,
+shift, and time-live sectors must enter `h_AB` before readout. The existing
+`E=[[B,0],[QS,Q]], J=[Y;Z]` formula retains the `B,Q,S,Y,Z` channels as a verified conditional envelope and
+evaluator; its arbitrary ten functions are not the derived UDT solution space. Bare observer names
+still require event/calibration typing, but the scalar kernel itself requires no fixed path.
 
 ### Current dependency spine
 
-- **G129--G134 — reconstruction.** Known rank ten pullbacks recover `g`; scalars stop at its positive
-  conformal class. The bivector area bilinear recovers `g` up to sign on a codimension eleven
-  metricity locus; density and common scale remain typed, not sourced.
-- **G135--G139, regraded by G163 — normalized position.** The complete pair natively gives
-  `chi=(L-T)/(L+T)=tanh(phi_pair)` with `-1<chi<1`; signed `chi` composes on matched depths and
-  route transport stays distinct. Charles's physical normalized-position meaning remains
-  `CHOSE / WORKING`. The dimensional display `x=X_max chi` is conditional, not kernel-native.
-- **G140--G144 — carry.** A supplied chart or genuine embedded overlap owns presentation carry;
-  shared endpoints neither create positional congruence nor glue sheets.
-- **G145 — descent.** Rank-complete valuation determines `g` on its supplied 4D atlas; query atlas,
-  calibration, numerical valuation, and realization remain `OPEN`. Opposite-curvature witnesses
-  survive with nine non-`phi` fields live.
-- **G146--G147 — multidirectional position.** G146 finds two inequivalent parity-even projections
-  sharing the collinear law; both fail reverse order on the registered non-collinear witness.
-  Inside G147's **defined conditional** `xi=rho n`, directional tangent equals metric pair screen;
-  physical carrier, independent `O(2)` solder, and cross-query carry remain `OPEN`.
-- **G148 — relation-first first jet.** The normalized lift `chi n` has an exact
-  radial/screen/rest-space corollary; the prior
-  `xi=X_max chi n` theorem remains exact only after a dimensionful realization is supplied.
-  `lambda` proves algebraic `B,Q,S,Y,Z` liveness only; coefficient limits are not physical amplitudes.
-- **G149--G163 — chord, score, carry, quotient, dependency.** G149 is one covariant chord; G150
-  frees four notes; G151 joins curvature/Jacobi conditionally; G152 owns ruler tests. G153 gives
-  native `dchi`; G154 leaves fixed scale conditional; G155 finds no active `kappa` equation. G156
-  derives scale carry; G157 removes base lockstep; G158 derives the `3+3+4` score, G159 descends it,
-  and G160 carries it.
-  G161 gives the Lorentz quotient/positive section; G162 removes residual rapidity from the scalar
-  gate. G163 removes `X_max` from the native kernel and finds no independent owner in its 26-source
-  census. Exact endpoint carry is not physical overlap; joined `C,Gamma` retain route/frame memory;
-  normal/Jacobi/extrinsic channels stay separate.
-- **G164--G165 — scaffold subtraction and conformal rank.** G164 removed an extra local profile and
-  ten-independent-history scaffolds. Preregistered G165 finds zero owned metric restrictors across
-  59 candidates: finite anchors retain functional conformal freedom, while full valued networks
-  reconstruct only supplied scale. Finite-data prediction still needs a native nonidentity
-  restriction, not necessarily evolution.
+- **G129--G145 — reconstruction/position/carry.** G129--G134 rank ten pullbacks, density, and the
+  bivector area bilinear recover `g` on a codimension eleven metricity locus; scalars stop at its
+  conformal class. G135--G139 give working `chi`; G140--G144 require genuine overlap for carry;
+  G145 leaves query atlas, numerical valuation, and realization `OPEN`.
+- **G146--G148 — direction/first jet.** G146's parity-even candidates fail reverse order on the
+  registered non-collinear witness. G147's conditional screen leaves physical carrier and `O(2)`
+  solder open. G148's covariant identity uses `lambda` only to prove algebraic liveness.
+- **G149--G163 — bounded controls.** G149 chord; G150 freedom; G151 curvature/Jacobi; G152 ruler;
+  G153 `dchi`; G154 scale; G155 rank; G156 carry; G157 balance; G158 score; G159 descent; G160
+  time-live carry; G161 quotient; G162 rapidity removal; G163 removes `X_max` from the kernel.
+- **G164--G165 — scaffold controls.** G164 removed an extra local profile and ten-independent-history
+  scaffolds. G165 correctly proves conformal blindness only after the metric is broadened to an
+  unrestricted configuration envelope; it does not establish infinitely many physical UDT metrics.
+- **G166 — primary-metric kernel descent.** The determinant-one founded ordered-pair block returns
+  `phi_pair=delta_AB`, `c_eff/c_E=exp(-2 delta_AB)`, and `chi=tanh(delta_AB)` exactly. An arbitrary
+  common conformal factor leaves that founded family unless it is trivial. The next open derivation
+  is the native complete `3+1` orchestra assembly from the primary reciprocal metric.
 
-Maximum conclusion: ten coframe channels form one coupled changing machine whose scale-free scalar
-kernel ends at `chi`; they are not ten independently selectable histories. No physical score,
-cross-query carry, complete metric valuation, independent
-dimensionful separation, finite all-frame supremum, or numerical `X_max` is derived.
-Controlling derived source: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`.
-Current rank source: `udt_g165_conformal_fiber_rank_audit_2026-08-18/`; G164 is its ponder parent.
-Upstream: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `INDEX.md` routes the chain.
+Maximum conclusion: the founded ordered-pair UDT metric algebraically owns its reciprocal kernel.
+The complete orchestra must be one upstream metric assembly, not ten independent histories or a
+post-readout correction. General nonspherical, mixing, shift-bearing, time-live, and micro assembly,
+cross-query carry, dimensional separation, global completion, and numerical `X_max` remain open.
+Controlling source: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`.
+G163 controls `X_max` dependency; G164--G165 are scaffold controls; the uncompressed evaluator is
+conditional upstream evidence at `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
+`INDEX.md` routes the chain.
 
 G93--G128 chronology is provenance under `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
@@ -83,12 +69,14 @@ rows remain unresolved. No preferred grid, feature, rank, significance, scale, B
 cosmology, or `X_max` follows.
 
 The raw archive is `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is
-running. Observations remain comparison/falsification anchors; they do not select the history.
+running. Observations remain comparison/falsification anchors; they do not derive the native
+complete metric assembly.
 
 ### High-risk premise guard
 
 - `c_E`, `G_obs`: `OBSERVED` calibration anchors.
-- founded reciprocal character on supplied ordered depth: `DERIVED`.
+- founded reciprocal character and determinant-one pair block on supplied ordered depth: `DERIVED`;
+  Charles owner-clarifies the physical kernel argument as the ordered observer pair, not a fixed path.
 - pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
@@ -117,9 +105,9 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G165 closes the current-source rank question negatively. Before another calculation, choose whether
-UDT claims a fully valued relational state or finite-data prediction requiring a still-unowned
-metric-native scale restriction. Do not repeat an identity census or insert `X_max`, fits, or targets.
+Derive the native complete `3+1` assembly joining the primary reciprocal pair block to its
+nonspherical angular, mixing, shift, and time-live sectors. Begin from the UDT metric rather than
+the unrestricted coframe envelope; do not add a path, post-kernel orchestra, `X_max`, fit, or target.
 ### Archive
 
 The exact pre-cleanup startup surface is preserved under
