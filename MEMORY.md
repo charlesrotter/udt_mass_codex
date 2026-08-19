@@ -11,8 +11,9 @@ smooth monotone-areal curves. G173 keeps angular radial turns regular but finds 
 on bare line data. G174 gives one scalar per calibrated ruler. G175 proves a local anchor does not
 propagate across arbitrary tapes. G176 provisionally applies Dual Reciprocity after the complete
 pair pullback and uniquely fixes `m=T L_sigma=sqrt(-det h_sigma)`. Arbitrary calibrations remain
-controls, not rival kernels. G177 removes scaffolds; G178 externally accepts the bounded result.
-Physical event/germ and global realization remain open.
+controls, not rival kernels. G177 removes scaffolds; G178 externally accepts it. G179 extends the
+conditional theorem to arbitrary complete coframes and supplied regular germs; fresh review is
+pending. Physical event/germ and global realization remain open.
 
 Dependency spine:
 
@@ -24,8 +25,8 @@ Dependency spine:
 - G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
   bounded controls; G163 removes `X_max` from the kernel.
 - G164 G165 G166 G167 G168 G169: scaffold, kernel, pullback, germ, and reversal controls.
-- G170--G178: pair-relative differences need no universal carry; G176 fixes the ruler, G177 checks
-  scaffolds, G178 accepts the bounded result, and G173--G175 remain controls.
+- G170--G179: pair-relative differences need no universal carry; G176 fixes the ruler, G177--G178
+  check and accept it, G179 extends the local coframe domain, and G173--G175 remain controls.
 
 Physical germ realization, global extendability, ambient extension, separation,
 completion, and `X_max` remain open.
@@ -54,7 +55,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Preregister the complete-coframe pullback extension across nonspherical, time-live, screen, and
-mixing witnesses. Preserve the working—not canon—grade and open event/germ/global scope.
+Submit sealed G179 for fresh adversarial review; preserve the working—not canon—grade and open
+event/germ/global scope.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

@@ -1,0 +1,37 @@
+{
+  "attempts": 20000,
+  "audit": "G179",
+  "controls_per_trial": [
+    "block_pullback",
+    "shifted_reconstruction",
+    "reciprocal_density",
+    "lorentz_coframe_gauge",
+    "ambient_coordinate_covariance",
+    "auxiliary_ruler_reparameterization_and_orientation",
+    "query_live_product_rule"
+  ],
+  "exact_fraction_regular_trials": 20000,
+  "full_witness_h": [
+    [
+      "-118",
+      "102"
+    ],
+    [
+      "102",
+      "822"
+    ]
+  ],
+  "singular_Y_h": [
+    [
+      "-124",
+      "-132"
+    ],
+    [
+      "-132",
+      "225"
+    ]
+  ],
+  "source_count": 10,
+  "source_hash_failures": [],
+  "status": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "audit": "G179",
+  "catch_count": 30,
+  "independent_exact_fraction_trials": 20000,
+  "landing": "GENERAL_COMPLETE_COFRAME_PULLBACK_EXTENDS_COMPLETED_PAIR_KERNEL_WITHOUT_EXTRA_SCALAR",
+  "preregistration_commit": "c8070adb",
+  "source_count": 10,
+  "status": "PASS__DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS_PENDING_FRESH_ADVERSARIAL_REVIEW"
+}

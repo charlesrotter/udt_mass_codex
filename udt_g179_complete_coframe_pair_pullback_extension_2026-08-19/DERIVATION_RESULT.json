@@ -1,0 +1,233 @@
+{
+  "audit": "G179",
+  "checks": {
+    "all_BQSYZ_sectors_live": true,
+    "all_four_mixing_entries_active": true,
+    "ambient_coordinate_pullback_invariant": true,
+    "calibrated_determinant_minus_one": true,
+    "calibrated_reciprocal_product_one": true,
+    "complete_block_pullback_identity": true,
+    "determinant_identity": true,
+    "full_witness_expected_h": true,
+    "full_witness_regular": true,
+    "full_witness_shift_nonzero": true,
+    "lorentz_gauge_exact": true,
+    "lorentz_gauge_pullback_invariant": true,
+    "nonblock_coordinate_coframe_exercised": true,
+    "orientation_reversal_determinant_invariant": true,
+    "orientation_reversal_shift_sign": true,
+    "positive_pair_scale_depth_invariant": true,
+    "positive_pair_scale_determinant_density": true,
+    "query_live_product_rule": true,
+    "reciprocal_density_unique_positive_square": true,
+    "screen_nonspherical": true,
+    "shifted_decomposition_reconstructs_h": true,
+    "singular_Y_full_J_rank_two": true,
+    "singular_Y_pair_regular": true,
+    "singular_Y_retained": true
+  },
+  "full_witness": {
+    "B": [
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "Phi": "-log(118)/2",
+    "Q": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "S": [
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        -1
+      ]
+    ],
+    "Y": [
+      [
+        3,
+        2
+      ],
+      [
+        -3,
+        1
+      ]
+    ],
+    "Z": [
+      [
+        1,
+        -2
+      ],
+      [
+        2,
+        -3
+      ]
+    ],
+    "beta": "-51/59",
+    "det_h": -107400,
+    "h": [
+      [
+        -118,
+        102
+      ],
+      [
+        102,
+        822
+      ]
+    ],
+    "m_squared": 107400
+  },
+  "landing": "GENERAL_COMPLETE_COFRAME_PULLBACK_EXTENDS_COMPLETED_PAIR_KERNEL_WITHOUT_EXTRA_SCALAR",
+  "open": [
+    "event_and_germ_realization",
+    "null_degenerate_and_global_strata",
+    "non_scalar_transport",
+    "history_completion_and_X_max",
+    "observations_dynamics_source_matter_and_signalling"
+  ],
+  "scope": "local supplied smooth regular rank-two completed pair germs",
+  "sector_effects": {
+    "B": {
+      "d_Phi": "-18/59",
+      "d_m_squared": "52120",
+      "dh": [
+        [
+          "-72",
+          "-30"
+        ],
+        [
+          "-30",
+          "-8"
+        ]
+      ],
+      "entry": [
+        0,
+        0
+      ]
+    },
+    "Q": {
+      "d_Phi": "5/118",
+      "d_m_squared": "18312",
+      "dh": [
+        [
+          "10",
+          "78"
+        ],
+        [
+          "78",
+          "90"
+        ]
+      ],
+      "entry": [
+        0,
+        0
+      ]
+    },
+    "S": {
+      "d_Phi": "-27/118",
+      "d_m_squared": "-27576",
+      "dh": [
+        [
+          "-54",
+          "-207"
+        ],
+        [
+          "-207",
+          "-252"
+        ]
+      ],
+      "entry": [
+        0,
+        0
+      ]
+    },
+    "Y": {
+      "d_Phi": "5/118",
+      "d_m_squared": "26664",
+      "dh": [
+        [
+          "10",
+          "171"
+        ],
+        [
+          "171",
+          "0"
+        ]
+      ],
+      "entry": [
+        0,
+        0
+      ]
+    },
+    "Z": {
+      "d_Phi": "-9/118",
+      "d_m_squared": "1944",
+      "dh": [
+        [
+          "-18",
+          "-63"
+        ],
+        [
+          "-63",
+          "0"
+        ]
+      ],
+      "entry": [
+        0,
+        0
+      ]
+    }
+  },
+  "singular_Y_witness": {
+    "Y": [
+      [
+        -8,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "Z": [
+      [
+        -6,
+        3
+      ],
+      [
+        -6,
+        -6
+      ]
+    ],
+    "det_h": -45324,
+    "h": [
+      [
+        -124,
+        -132
+      ],
+      [
+        -132,
+        225
+      ]
+    ],
+    "rank_J": 2
+  },
+  "source_count": 10,
+  "source_hash_failures": [],
+  "status": "PASS"
+}

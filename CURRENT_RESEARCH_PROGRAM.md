@@ -25,7 +25,8 @@ Charles provisionally adopts completed-pair Dual Reciprocity. After angular, scr
 shift enter the supplied pullback, G176 uniquely derives
 `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1`, and `Phi=-log T`. Other calibrations are control queries,
 not rival kernels. Event/germ realization remains open.
-G177 reconstructs it without registered scaffolds; G178 externally accepts it with stated bounds.
+G177 removes registered scaffolds; G178 externally accepts it. G179 extends the conditional theorem
+to arbitrary complete coframes and supplied regular rank-two germs; fresh review is pending.
 
 ## Controlling local evaluator
 
@@ -34,11 +35,10 @@ h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB)),
 phi_pair=delta_AB,
 c_eff^(pair)/c_E=exp(-2 delta_AB),
 chi_AB=tanh(delta_AB).
-On a regular completed pair metric:
-phi_pair=(1/4)log[(-det h)/h00^2],
-c_eff^(pair)/c_E=(-h00)/sqrt(-det h).
-For the completed physical reciprocal pair in an auxiliary ruler chart:
-m=T L_sigma=sqrt(-det h_sigma), T L=1, phi_pair=-log(T).
+On an arbitrary calibrated regular pair metric:
+phi_control=(1/4)log[(-det h)/h00^2].
+For the completed reciprocal pair in an auxiliary ruler chart:
+m=T L_sigma=sqrt(-det h_sigma), T L=1, Phi=-log(T)=-1/2 log(-h00).
 General conditional envelope:
 h = Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z),
 with all `B,Q,S,Y,Z` upstream. G167 reduces it in the primary
@@ -50,7 +50,7 @@ B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities; G171
 shows that independently evaluated pairs remain native without forced scalar triangle closure;
 G172 proves monotone-areal closure; G173--G175 classify turning and arbitrary-calibration controls;
-G176 closes reciprocal normalization on supplied completed physical pairs.
+G176 closes reciprocal normalization; G179 extends it to arbitrary complete coframes.
 
 Current controls: `udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/`, then
 G174--G166 in `INDEX.md`. Conditional complete evaluator:
@@ -65,7 +65,7 @@ open. G146--G163 bound direction, first jets, scale, score, carry, and quotient,
 `X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
 
 Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156
-G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176. Guards:
+G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179. Guards:
 rank ten, positive conformal class, common-scale ownership, bivector area bilinear, physical multidirectional carrier,
 first-order ceiling, and 184,300 unresolved covariance rows.
 
@@ -106,14 +106,15 @@ changes B. All endpoint depths agree iff `n/m` is constant on each connected tap
 tape is sufficient; local calibration generates no carry. This remains a valid classification of
 arbitrary calibrated control tapes. Grade: `VERIFIED_WITH_CAVEATS` after external acceptance.
 
-### G176--G178 — completed-pair reciprocity, scaffold regression, and external acceptance
+### G176--G179 — completed-pair reciprocity and complete-coframe extension
 
 Under Charles's `WORKING_FOUNDATIONAL_CLARIFICATION`, the physical reciprocal-pair domain is
 narrower than the arbitrary-calibration arena. For every regular shifted pair,
 `m=T L_sigma=sqrt(-det h_sigma)` is the unique positive ruler density with `T L=1`; shift remains
 active. In G173, `m^2=exp(-2phi)H` and `Phi=phi`, including angular turns. Grade:
-`VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL_ON_WORKING_FOUNDATIONAL_CLARIFICATION`. G177 rebuilds it
-from raw pair matrices; G178 independently accepts the bounded theorem and finds no hidden factor.
+`VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL_ON_WORKING_FOUNDATIONAL_CLARIFICATION`. G177 rebuilds it;
+G178 accepts it. G179 extends it to arbitrary `E,J`; BQSYZ, shift, singular-Y, covariance, and live
+controls pass. Review is pending.
 
 ## Observational anchors
 
@@ -145,6 +146,4 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Preregister a complete-coframe pullback extension of the accepted kernel. Test explicit
-nonspherical, time-live, screen, and mixing witnesses on supplied regular rank-two germs while
-retaining open event/germ realization, singular/global strata, and downstream physics.
+Submit sealed G179 for fresh review before singular/global or observational extension.

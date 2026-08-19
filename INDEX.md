@@ -19,7 +19,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G178 position/descent/transport/relation/scale/score/quotient/dependency and pair closure:
+- G137--G179 position/descent/transport/relation/scale/score/quotient/dependency and pair closure:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -46,7 +46,8 @@
   `udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/`;
   `udt_g171_primary_metric_multi_pair_response_2026-08-19/`; `udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/`; `udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/`;
   `udt_g174_native_calibrated_pair_germ_chart_ownership_2026-08-19/`; `udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/`;
-  `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`; `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
+  `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`; `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`;
+  `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`; `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`
 G140--G145 separate carry and reconstruction. G146--G153 keep carrier, ruler, and length conditional.
 G154--G157 classify scale and balance. G158--G160 derive, descend, and carry the score.
 G161--G162 give the quotient and remove rapidity while route/frame memory remains separate.
@@ -56,16 +57,15 @@ primary spherical four-metric. G168 derives the supplied-germ plane; G170 regrad
 endpoint-relative reversal; G171 derives the pair-germ-relative scalar network and removes
 arbitrary triangle additivity and scaffolded carry. G172--G175 remain accepted controls: turns are
 regular, one calibrated germ has one scalar, and arbitrary tapes differ lawfully. G176 provisionally
-closes the reciprocal ruler; G177 removes scaffolds; G178 externally accepts the bounded result.
-Physical event/germ realization, formal-`a2` converse, and global
-extension remain open.
+closes the ruler; G177 removes scaffolds; G178 accepts it; G179 extends it to complete coframes and
+regular germs, pending review. Event/germ and global extension remain open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open load-bearing evidence. The 164-row registry controls status.
+For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open load-bearing evidence. The 165-row registry controls.
 ## Observational lane
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
 - Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
