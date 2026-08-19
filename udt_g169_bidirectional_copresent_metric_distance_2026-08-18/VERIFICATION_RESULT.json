@@ -3,8 +3,8 @@
   "premise_verifier_returncode": 0,
   "premise_verifier_stdout": "PASS: G168-extended premise guards; PASS: 154-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
   "production_checks": 36,
-  "required_files": 15,
+  "required_files": 20,
   "semantic_catches": 12,
   "source_hashes": 12,
-  "status": "PASS__INTERNAL_GATES__FRESH_ADVERSARIAL_REVIEW_OPEN"
+  "status": "PASS__OWNERSHIP_REGRADE_INTERNAL_GATES__REPAIR_ONLY_FOLLOWUP_OPEN"
 }

@@ -12,7 +12,7 @@ HERE = Path(__file__).resolve().parent
 audit = (HERE / "AUDIT_REPORT.md").read_text()
 exact = (HERE / "EXACT_DERIVATION.md").read_text()
 ledger = (HERE / "OUTCOME_PREMISE_LEDGER.tsv").read_text()
-prereg = (HERE / "PREREGISTRATION.md").read_text()
+repair = (HERE / "REPAIR_PREREGISTRATION.md").read_text()
 
 catches: dict[str, bool] = {}
 
@@ -29,13 +29,13 @@ shear = ((1, 1), (0, 1))
 catches["scalar_closure_not_matrix_closure"] = shear != identity and shear[0][0] * shear[1][1] == 1
 
 # Semantic catches: fail closed on the main tempting promotions.
-catches["ownership_not_derived"] = "PROPOSED_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_DERIVED" in ledger
-catches["distance_definition_not_canonized"] = "PROPOSED_WORKING_DEFINITION_CANDIDATE" in ledger
+catches["ownership_not_derived"] = "OPEN_NOT_DERIVED" in ledger
+catches["physical_distance_not_derived"] = "NOT_DERIVED_TYPE_FAILURE" in ledger
 catches["no_scalar_metric_overclaim"] = "not established physical metric distances" in exact
 catches["coincidence_boundary_retained"] = "OPEN_BOUNDARY" in ledger and "rank two to rank one" in exact
-catches["arbitrary_triangle_category_guard"] = "arbitrary-triangle additivity" in prereg and "category error" in exact
-catches["path_not_inserted"] = "It is not a path, force, profile, or dynamical law." in audit
-catches["external_review_still_open"] = "FRESH_ADVERSARIAL_REVIEW_OPEN" in audit
+catches["arbitrary_triangle_category_guard"] = "arbitrary-triangle category correction" in repair and "category error" in exact
+catches["external_type_failure_recorded"] = "TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION" in audit
+catches["repair_followup_open"] = "REPAIR_ONLY_FOLLOWUP_OPEN" in audit
 
 for name, passed in catches.items():
     if not passed:

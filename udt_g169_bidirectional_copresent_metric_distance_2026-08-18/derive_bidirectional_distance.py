@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact G169 algebra for bidirectional co-present relational distance."""
+"""Exact G169 algebra for a conditional two-ended reversal quotient."""
 
 from __future__ import annotations
 
@@ -159,8 +159,9 @@ check(
 )
 
 landing = (
-    "CONDITIONAL_RELATIONAL_DISTANCE_OBJECT"
-    "__RECIPROCAL_SCALAR_REVERSAL_DERIVED_ON_ONE_SUPPLIED_RELATION"
+    "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION"
+    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+    "__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED"
     "__MATCHED_CHAIN_COMPOSITION_DERIVED"
     "__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED"
     "__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN"

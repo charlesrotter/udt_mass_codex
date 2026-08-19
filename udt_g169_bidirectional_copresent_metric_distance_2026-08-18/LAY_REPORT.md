@@ -1,11 +1,10 @@
-# G169 lay report
+# G169 lay report — corrected after adversarial review
 
-The idea works, but it tells us exactly what must be meant by “two observers.”
+The algebra works, but the proposed definition was one step ahead of what UDT currently owns.
 
-UDT distance can be treated as the whole two-sided comparison: what A's clock-and-ruler geometry
-looks like toward B, together with what B's geometry looks like toward A. Turning the relation
-around swaps those two views. The signed dilation changes sign; the full angular orchestra is
-carried along as the other endpoint's view rather than being forced to obey one simple sign rule.
+If one complete two-sided comparison is supplied, turning it around swaps its two views. The signed
+dilation changes sign, and the full angular orchestra can remain attached to the relevant endpoint
+view rather than being forced into one scalar sign rule.
 
 The metric can calculate either view once its local direction is supplied. It does not automatically
 know that two separately supplied views belong to one reciprocal pair. In an exact flat example,
@@ -17,6 +16,8 @@ properly matched middle calibration. A general triangle has different directions
 observer, so forcing the three scalar depths to add would erase the angular geometry. That was an
 unnecessary demand, not a missing physical mechanism.
 
-The remaining foundational choice is concise: does “physical co-present observer pair” mean one
-two-ended reciprocal relation carrying both local endpoint directions? If Charles adopts that as a
-working clarification, the metric evaluates the distance; no preferred path has to be added.
+But present UDT premises do not yet prove that co-presence supplies those two views as one reciprocal
+relation. Packaging supplied views together and calling the package distance would only rename that
+missing ownership step. The surviving result is narrower: once the two-ended relation is supplied,
+its reversal is exact and well behaved. Whether co-presence itself supplies that relation remains
+open.

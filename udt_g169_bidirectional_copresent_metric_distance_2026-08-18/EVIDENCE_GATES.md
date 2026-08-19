@@ -24,15 +24,16 @@ strata, general ambient metrics, global query populations, paths, dynamics, obse
 - semantic/algebraic mutation catches: 12/12;
 - current premise verifier: PASS over the 154-row registry;
 - repository regression: 126 passed, 1 expected failure;
-- fresh adversarial review: open.
+- fresh adversarial review: `TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION`;
+- ownership regrade: implemented; repair-only follow-up open.
 
 ## Gate 4 — premise audit
 
-The frozen manifest and current 154-row premise verifier pass. The landing keeps physical two-ended
-germ/carry ownership as a proposed working clarification, not a derivation.
+The frozen manifest and current 154-row premise verifier pass. The repaired landing keeps physical
+two-ended germ/carry ownership `OPEN` and no longer labels the conditional quotient as UDT distance.
 
 ## Current grade
 
 ```text
-LEAD__PREREGISTERED__INTERNAL_DUAL_EXACT_PASS__FRESH_ADVERSARIAL_REVIEW_OPEN
+VERIFIED_WITH_CAVEATS__OWNERSHIP_REGRADE_IMPLEMENTED__REPAIR_ONLY_FOLLOWUP_OPEN
 ```

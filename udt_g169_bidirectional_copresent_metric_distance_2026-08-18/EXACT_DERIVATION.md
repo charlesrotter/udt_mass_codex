@@ -1,8 +1,8 @@
-# G169 exact derivation — bidirectional co-present relational distance
+# G169 exact derivation — conditional two-ended reversal quotient
 
 Date: 2026-08-18
 
-## 1. Type the proposed distance before calculating it
+## 1. Type the supplied relation before naming any distance
 
 Let a supplied oriented physical pair relation be denoted by
 
@@ -27,11 +27,11 @@ Define reversal on supplied typed relations by
 \bigl(\mathcal P_{B\to A},\mathcal P_{A\to B},C_{BA}^{-1}\bigr).
 \]
 
-Then \(\tau^2=1\). The candidate unoriented relational distance is the orbit
+Then \(\tau^2=1\). The unoriented reversal quotient of the supplied relation is
 
 \[
 \boxed{
-\mathfrak D(A,B)
+\mathfrak Q(A,B)
 =
 [\mathcal R_{AB}]_{\tau}
 =
@@ -42,10 +42,11 @@ Then \(\tau^2=1\). The candidate unoriented relational distance is the orbit
 It is symmetric by construction:
 
 \[
-\mathfrak D(A,B)=\mathfrak D(B,A).
+\mathfrak Q(A,B)=\mathfrak Q(B,A).
 \]
 
-This is an object-valued distance definition, not yet a real-valued metric-space distance.
+This is a quotient of supplied relation data. It is not currently a physical UDT distance, because
+the existing founding semantics do not supply the relation being quotiented.
 
 Under endpoint reparameterizations \(P_A,P_B\), a carry transforms as
 
@@ -183,7 +184,7 @@ This proves:
 The two endpoint evaluations must be typed as inverse orientations of one reciprocal relation.
 That is an ontological/ownership statement with mathematical consequences, not a path selection.
 
-## 5. Scalar shadows of the object-valued distance
+## 5. Scalar shadows of the reversal quotient
 
 Any odd scalar on oriented relations gives an even magnitude on the reversal orbit. In particular,
 
@@ -259,10 +260,10 @@ q_{AC}=\frac16.
 At a non-collinear middle observer, the B-to-A and B-to-C germs also define different pair planes.
 Demanding arbitrary scalar additivity would silently identify those calibrations and directions.
 
-Therefore arbitrary-triangle additivity is neither derived nor required by the proposed distance
-definition. It is a category error to impose a one-dimensional reciprocal-chain law on every
-observer triangle. When a sequential comparison is physically requested, its middle-state carry
-must be matched or supplied.
+Therefore arbitrary-triangle additivity is neither derived nor required by the conditional reversal
+quotient. It is a category error to impose a one-dimensional reciprocal-chain law on every observer
+triangle. When a sequential comparison is physically requested, its middle-state carry must be
+matched or supplied.
 
 ## 7. Complete carry is stronger than scalar agreement
 
@@ -288,8 +289,9 @@ M_{CA}=
 The direct/staged matrix triangle fails, yet both determinant/common-scale and diagonal reciprocal
 characters see zero defect. The shear remains in their kernel.
 
-Hence the complete bidirectional response is mathematically richer than signed depth. This supports
-the proposed object-valued definition while preserving the open physical carry problem.
+Hence a supplied complete bidirectional response is mathematically richer than signed depth. This
+supports retaining the conditional reversal quotient while preserving the open physical relation
+and carry problem.
 
 ## 8. Coincidence is a boundary stratum
 
@@ -303,8 +305,9 @@ identity stratum. This audit does not perform that boundary completion.
 The exact landing is
 
 ```text
-CONDITIONAL_RELATIONAL_DISTANCE_OBJECT
-__RECIPROCAL_SCALAR_REVERSAL_DERIVED_ON_ONE_SUPPLIED_RELATION
+CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION
+__NOT_YET_PHYSICAL_UDT_DISTANCE
+__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED
 __MATCHED_CHAIN_COMPOSITION_DERIVED
 __ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED
 __PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
@@ -313,13 +316,13 @@ __PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
 The mathematical definition
 
 \[
-\mathfrak D(A,B)=[\mathcal R_{AB}]_{\mathcal R\sim\mathcal R^{-1}}
+\mathfrak Q(A,B)=[\mathcal R_{AB}]_{\mathcal R\sim\mathcal R^{-1}}
 \]
 
-is consistent on supplied regular two-ended reciprocal relations. It captures the statement that
-distance is the complete metric behavior of one co-present pair in both directions.
+is consistent on supplied regular two-ended reciprocal relations. It does not derive that physical
+distance is such an object, because it cannot supply the relation on which the quotient acts.
 
 What is **not** derived is that the present founding word “co-presence” already supplies
-\(\mathcal R_{AB}\), both endpoint germs, or their physical inverse carry. Adopting that ownership is
-a `PROPOSED_WORKING_FOUNDATIONAL_CLARIFICATION`, not a new force or path law. Charles retains the
-decision whether to adopt it provisionally.
+\(\mathcal R_{AB}\), both endpoint germs, or their physical inverse carry. Without that additional
+ownership statement, the quotient is a conditional representation theorem and not a UDT definition
+of distance.

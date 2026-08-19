@@ -2,13 +2,14 @@
 
 Date: 2026-08-18
 
-Grade: `LEAD__PREREGISTERED__INTERNAL_DUAL_EXACT_PASS__FRESH_ADVERSARIAL_REVIEW_OPEN`
+Grade: `VERIFIED_WITH_CAVEATS__OWNERSHIP_REGRADE_IMPLEMENTED__REPAIR_ONLY_FOLLOWUP_OPEN`
 
 ## Primary landing
 
 ```text
-CONDITIONAL_RELATIONAL_DISTANCE_OBJECT
-__RECIPROCAL_SCALAR_REVERSAL_DERIVED_ON_ONE_SUPPLIED_RELATION
+CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION
+__NOT_YET_PHYSICAL_UDT_DISTANCE
+__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED
 __MATCHED_CHAIN_COMPOSITION_DERIVED
 __ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED
 __PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
@@ -16,10 +17,10 @@ __PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
 
 ## Result first
 
-Charles's proposed definition is mathematically coherent after one important type correction:
-physical UDT distance may be the reversal-equivalence class of the complete endpoint metric response
-of **one supplied two-ended reciprocal relation**. It is not obtained by independently evaluating
-two observer germs and hoping the answers invert.
+The fresh adversarial review found a type failure in the proposed physical-distance wording. A
+reversal quotient is mathematically coherent **after one two-ended reciprocal relation has been
+supplied**, but current UDT premises do not supply that relation. The quotient therefore cannot yet
+be called physical UDT distance.
 
 For the oriented relation,
 
@@ -29,14 +30,15 @@ q_{BA}=q_{AB}^{-1},\qquad
 \chi_{BA}=-\chi_{AB}.
 \]
 
-The unoriented object
+The conditional quotient
 
 \[
-\mathfrak D(A,B)=\{\mathcal R_{AB},\mathcal R_{BA}\}
+\mathfrak Q(A,B)=\{\mathcal R_{AB},\mathcal R_{BA}\}
 \]
 
-is symmetric and gauge-compatible. It retains both endpoint orchestras rather than compressing all
-angular and shift information into one scalar.
+is symmetric and gauge-compatible on supplied data. It can retain both endpoint orchestras rather
+than compressing all angular and shift information into one scalar, but it does not create or select
+those endpoint data.
 
 ## The decisive boundary
 
@@ -45,8 +47,8 @@ ordinary surface reversal. For the witness `a=1`, both are `log(2)/4`; reciproca
 require opposite signs. The metric evaluates each endpoint germ but does not by itself declare two
 independently supplied germs to be inverse views of one physical relation.
 
-Thus “co-present physical pair owns a two-ended reciprocal germ” is the smallest remaining
-`PROPOSED_WORKING_FOUNDATIONAL_CLARIFICATION`. It is not a path, force, profile, or dynamical law.
+Thus “co-present physical pair owns a two-ended reciprocal germ” remains the smallest missing
+ownership statement. It is `OPEN`, not derived, and the quotient cannot substitute for it.
 
 ## Three-observer correction
 
@@ -56,8 +58,8 @@ observer's two pair directions and calibrations differ. When a full sequential c
 requested, supplied complete carries compose exactly, but scalar closure remains weaker than matrix
 closure because determinant-one shear can be invisible.
 
-This removes another artificial demand. A symmetric distance object need not be an additive scalar
-on every triangle.
+This removes another artificial demand. A conditional reversal quotient need not supply an additive
+scalar on every observer triangle.
 
 ## Scalar shadows
 
@@ -77,12 +79,14 @@ but no unique scalar compression is derived.
 - semantic mutation catches: 12/12;
 - current 154-row premise audit passes;
 - repository regression: 126 passed, 1 expected failure;
-- fresh adversarial review remains open before banking a verdict.
+- fresh adversarial review returned
+  `TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION`;
+- the ownership regrade is implemented and a repair-only follow-up remains open.
 
 ## Maximum conclusion
 
-In the bounded regular primary-metric arena, the proposed bidirectional relational-distance object
-is well typed and consistent **when a two-ended reciprocal relation is supplied**. Current premises
-derive its pure reciprocal reversal and matched composition, but not physical ownership of both
-endpoint germs, their carry, the coincidence completion, a scalar metric distance, general ambient
-completion, `X_max`, dynamics, or observations.
+In the bounded regular primary-metric arena, reversal defines a gauge-compatible quotient **when a
+two-ended reciprocal relation is supplied**. Current premises derive pure reciprocal reversal and
+matched composition, but they do not derive the supplied two-ended relation and therefore do not
+yet derive a physical UDT distance. They also do not derive the carry, coincidence completion, a
+scalar metric distance, general ambient completion, `X_max`, dynamics, or observations.

@@ -35,6 +35,11 @@ required = [
     "DERIVATION_RESULT.json",
     "INDEPENDENT_VERIFICATION.json",
     "CATCH_PROOF_RESULT.json",
+    "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+    "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt",
+    "EXTERNAL_REVIEW_ADJUDICATION.md",
+    "REPAIR_PREREGISTRATION.md",
+    "TRANSMISSION_RECORD.md",
 ]
 for name in required:
     require((HERE / name).is_file(), f"missing {name}")
@@ -51,8 +56,9 @@ derivation = json.loads((HERE / "DERIVATION_RESULT.json").read_text())
 independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text())
 catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text())
 landing = (
-    "CONDITIONAL_RELATIONAL_DISTANCE_OBJECT"
-    "__RECIPROCAL_SCALAR_REVERSAL_DERIVED_ON_ONE_SUPPLIED_RELATION"
+    "CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION"
+    "__NOT_YET_PHYSICAL_UDT_DISTANCE"
+    "__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED"
     "__MATCHED_CHAIN_COMPOSITION_DERIVED"
     "__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED"
     "__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN"
@@ -66,10 +72,21 @@ require(catches["catches_passed"] == catches["catches_total"] == 12, "mutation c
 audit = (HERE / "AUDIT_REPORT.md").read_text()
 exact = (HERE / "EXACT_DERIVATION.md").read_text()
 ledger = (HERE / "OUTCOME_PREMISE_LEDGER.tsv").read_text()
-require("FRESH_ADVERSARIAL_REVIEW_OPEN" in audit, "external review status")
-require("PROPOSED_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_DERIVED" in ledger, "ownership boundary")
+require("REPAIR_ONLY_FOLLOWUP_OPEN" in audit, "external followup status")
+require("OPEN_NOT_DERIVED" in ledger, "ownership boundary")
+require("NOT_DERIVED_TYPE_FAILURE" in ledger, "physical distance boundary")
 require("surface reversal or endpoint exchange alone does not generate UDT Reciprocity" in exact, "counterexample boundary")
 require("arbitrary" in audit and "one-dimensional additive rule" in audit, "triangle category guard")
+require(
+    hashlib.sha256((HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_bytes()).hexdigest()
+    == "722a1013b5f221e3c15cc843c1efda058375a25927e595108b6d775c12265762",
+    "external raw hash",
+)
+require(
+    hashlib.sha256((HERE / "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt").read_bytes()).hexdigest()
+    == "e3fd11474760c1885260352c76a839fe410acaceeea7355926c089375627ef2e",
+    "external transcript hash",
+)
 
 premise = subprocess.run(
     [sys.executable, str(ROOT / "verify_current_scientific_premises.py")],
@@ -81,7 +98,7 @@ premise = subprocess.run(
 require(premise.returncode == 0, "current premise verifier")
 
 result = {
-    "status": "PASS__INTERNAL_GATES__FRESH_ADVERSARIAL_REVIEW_OPEN",
+    "status": "PASS__OWNERSHIP_REGRADE_INTERNAL_GATES__REPAIR_ONLY_FOLLOWUP_OPEN",
     "required_files": len(required),
     "source_hashes": manifest_count,
     "production_checks": derivation["checks_total"],

@@ -12,11 +12,12 @@ one physical co-present two-ended relation
     -> metric response at A toward B
     -> metric response at B toward A
     -> reciprocal endpoint compatibility
-    -> unoriented relational distance object.
+    -> conditional unoriented reversal quotient.
 ```
 
-The complete endpoint response, not a pre-existing path length, is the candidate physical
-separation. A scalar such as signed depth is one readout of the oriented relation.
+If a complete two-ended relation is supplied, its endpoint response is richer than a pre-existing
+path length. Current premises do not yet establish that this conditional object is physical
+separation. A scalar such as signed depth is one readout of the oriented supplied relation.
 
 ## Three distinctions that prevent another loop
 
@@ -30,13 +31,13 @@ separation. A scalar such as signed depth is one readout of the oriented relatio
    responses. Signed reciprocal depth is odd, while angular and shift data may simply exchange
    endpoints. Their parity is not invented to force a scalar law.
 
-## Smallest candidate clarification
+## Smallest missing ownership statement
 
-> A physical ordered co-present relation is a two-ended object carrying its calibrated source and
-> target germs. Reversal exchanges the endpoints and inverts its genuinely arrow-valued channels.
-> The metric evaluates both endpoint germs. Physical distance is the reversal-equivalence class of
-> that complete endpoint metric response.
+> A physical ordered co-present relation would have to be a two-ended object carrying its calibrated
+> source and target germs. Reversal would exchange the endpoints and invert its genuinely
+> arrow-valued channels. The metric could then evaluate both endpoint germs.
 
-The definition of the reversal orbit is mathematically coherent. The statement that every physical
-co-present pair owns such a two-ended germ/carry object is not yet derived from the written founding
-record. It is the precise proposed working foundational clarification exposed by this audit.
+The reversal quotient is mathematically coherent on supplied data. The statement that every
+physical co-present pair owns such a two-ended germ/carry object is not derived from the written
+founding record. Until that ownership is independently supplied or derived, the quotient is not a
+UDT definition of distance.
