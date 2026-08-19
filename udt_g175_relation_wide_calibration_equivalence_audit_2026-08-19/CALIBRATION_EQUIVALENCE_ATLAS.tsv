@@ -1,0 +1,7 @@
+id	condition	quantity	exact_value	classification
+G175-W01	n=fm	K_n/K_m	1/f^2	exact recalibration
+G175-W02	f_p=f_q=c	R_n/R_m	1	constant unit class
+G175-W03	f_A=1,f_B=4	R_n/R_m	1/16	A-anchored nonselection
+G175-W04	m^2=H	K	A	pointwise metric unit
+G175-W05	m^2=H/A	K	A^2	determinant-one candidate
+G175-W06	H=A v^2,m^2=v^2	K	A^2	founded radial recovery

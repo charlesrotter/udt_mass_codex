@@ -1,0 +1,11 @@
+id	object	status	owned	open_or_forbidden
+G175-S01	G174 local calibrated-germ scalar	RETAINED_DERIVED_BOUNDED	one fixed calibrated vector has one scalar	physical calibration owner open
+G175-S02	A-local calibration	DERIVED_NONSELECTION_COUNTEREXAMPLE	even a full A-neighborhood fails to fix B calibration	must not be called relation-wide carry
+G175-S03	relation-wide calibrated coordinate	SUPPLIED_CONDITIONAL	fixes m and Phi throughout its domain	sufficiency is not derivation
+G175-S04	recalibration transition	DERIVED_BOUNDED	delta_n-delta_m equals one-half log f_p over f_q	no position-dependent recalibration gauge
+G175-S05	constant unit class	DERIVED_BOUNDED	all endpoint depths agree iff n equals constant times m on connected tape	overall unit remains invisible
+G175-S06	pointwise metric-unit ruler	DERIVED_OPTION_NOT_SELECTED	m squared equals H gives local metric arclength and Phi equals phi over two	not founded carried reciprocal ruler
+G175-S07	determinant-one ruler	RETAINED_CANDIDATE_NOT_SELECTED	m squared equals H over exp two phi preserves Phi equals phi	no active global determinant-one extension
+G175-S08	c_E	OBSERVED_ANCHOR_RETAINED	clock-ruler unit conversion and dimensionless terminal ratio	no m continuation equation
+G175-S09	G170 G171 G173 G174	RETAINED	pair reversal relativity turn regularity and local uniqueness	no widening to global or nonscalar carry
+G175-S10	physical carry owner	OPEN	no owner promoted	no path connection fit Xmax action source bootstrap or dynamics

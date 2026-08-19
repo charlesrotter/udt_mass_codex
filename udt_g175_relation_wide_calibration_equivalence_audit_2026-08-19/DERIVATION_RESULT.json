@@ -1,0 +1,20 @@
+{
+  "atlas_rows": 6,
+  "checks": {
+    "anchored_witness_transition": true,
+    "constant_unit_cancellation": true,
+    "determinant_one_normalization": true,
+    "endpoint_ratio_transition": true,
+    "founded_radial_normalization": true,
+    "log_shift": true,
+    "matched_telescope": true,
+    "metric_unit_differs_from_founded": true,
+    "metric_unit_normalization": true,
+    "point_recalibration": true,
+    "positive_regular_recalibration": true,
+    "same_pair_reversal": true
+  },
+  "checks_passed": 12,
+  "checks_total": 12,
+  "landing": "A_LOCAL_CALIBRATION_DOES_NOT_OWN_RELATION_WIDE_CARRY__ONE_SUPPLIED_CALIBRATED_PAIR_MAP_DOES__ALL_ENDPOINT_DEPTHS_FIX_EXACTLY_ONE_CONSTANT_UNIT_CLASS__POINTWISE_METRIC_UNIT_IS_A_DIFFERENT_CALIBRATION_NOT_THE_FOUNDED_CARRIED_TAPE"
+}

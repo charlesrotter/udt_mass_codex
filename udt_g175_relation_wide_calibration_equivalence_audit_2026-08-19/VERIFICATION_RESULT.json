@@ -1,0 +1,11 @@
+{
+  "anchored_counterfamilies": 2000,
+  "gate": "REPOSITORY_OUTER_GATE",
+  "independent_checks": 144000,
+  "premise_verifier_returncode": 0,
+  "production_checks": 12,
+  "required_files": 19,
+  "semantic_catches": 18,
+  "source_hashes": 8,
+  "status": "PASS__G175__EXTERNAL_PENDING"
+}
