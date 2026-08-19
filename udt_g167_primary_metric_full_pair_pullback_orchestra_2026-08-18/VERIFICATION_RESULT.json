@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "bounded_landing": true,
+    "catch_proofs_pass": true,
+    "displayed_component_sums_repaired": true,
+    "first_external_core_verified": true,
+    "independent_pass": true,
+    "production_19_of_19": true,
+    "repair_status_consistent": true,
+    "repository_gate_record": true,
+    "required_files": true,
+    "source_hashes": true,
+    "ten_sources": true
+  },
+  "missing": [],
+  "source_hash_failures": [],
+  "status": "PASS"
+}

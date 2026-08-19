@@ -1,0 +1,9 @@
+id	object	status	owned	open
+G167-01	primary_metric_general_pair_pullback	DERIVED_CONDITIONAL	all local rank-two pair tangents in declared static-spherical UDT metric	physical pair realization and general ambient extension
+G167-02	angular_gram	DERIVED_CONDITIONAL	Z^T Q^T Q Z from metric-fixed areal screen and supplied pair tangents	global pair population and carry
+G167-03	pair_shift	DERIVED_CONDITIONAL	terminal cross-term can arise from nonradial pair embedding in diagonal ambient metric	physical query values
+G167-04	query_live_first_derivative	DERIVED_CONDITIONAL	full dotJ and metric-along-pair derivative retained	ambient time-dependent UDT law
+G167-05	radial_pair_boundary	DERIVED_CONDITIONAL	Z=0 returns founded reciprocal block; scalar angular modulation vanishes	separate screen/Jacobi physics remains
+G167-06	scalar_mu	NO_INDEPENDENT_OWNER	full angular Gram retained	future derived reduction if any
+G167-07	general_nonspherical_ambient_assembly	OPEN	none	metric-native extension beyond declared primary slice
+G167-08	Xmax_action_source_observations	OUT_OF_SCOPE	none	all downstream physics

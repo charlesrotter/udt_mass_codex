@@ -1,0 +1,12 @@
+{
+  "commit_before_repair": "42a3cc2a",
+  "note": "Repository-side provenance record. These gates ran in the full repository and are not claimed as intake-local replays.",
+  "premise_command": "python3 verify_current_scientific_premises.py",
+  "premise_rows": 152,
+  "premise_status": "PASS",
+  "pytest_command": "python3 -m pytest -q",
+  "pytest_passed": 124,
+  "pytest_status": "PASS",
+  "pytest_xfailed": 1,
+  "status": "PASS"
+}

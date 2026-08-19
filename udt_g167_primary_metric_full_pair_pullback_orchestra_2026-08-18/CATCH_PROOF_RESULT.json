@@ -1,0 +1,17 @@
+{
+  "catches": {
+    "angular_cross_term_exists_with_diagonal_base": true,
+    "dropping_angular_gram_changes_h": true,
+    "dropping_pair_cross_term_changes_ratio": true,
+    "general_ambient_extension_remains_open": true,
+    "no_xmax_or_downstream_promotion": true,
+    "post_readout_angular_attachment_misses_ratio": true,
+    "query_live_not_ambient_dynamics": true,
+    "radial_not_promoted_to_general": true,
+    "scalar_trace_compression_false": true,
+    "supplied_pair_not_fixed_path": true
+  },
+  "caught": 10,
+  "status": "PASS",
+  "total": 10
+}

@@ -1,0 +1,71 @@
+{
+  "checks": {
+    "all_registered_live_channels_nonzero": true,
+    "ambient_mixing_S_is_zero_in_primary_metric": true,
+    "angular_coordinate_covariance": true,
+    "angular_gram_changes_terminal_ratio": true,
+    "angular_gram_enters_before_readout": true,
+    "angular_trace_does_not_determine_terminal_ratio": true,
+    "core_contains_no_path_symbol": true,
+    "core_contains_no_scalar_mu_symbol": true,
+    "core_contains_no_xmax_symbol": true,
+    "direct_pullback_equals_primary_BQZ_assembly": true,
+    "h00_component_exact": true,
+    "h01_component_exact": true,
+    "h11_component_exact": true,
+    "live_derivative_matches_full_directional_derivative": true,
+    "nonradial_witness_is_lorentzian": true,
+    "pair_shift_induced_with_zero_base_cross_term": true,
+    "radial_control_returns_primary_block": true,
+    "radial_control_returns_q_squared": true,
+    "source_hashes_match": true
+  },
+  "checks_passed": 19,
+  "checks_total": 19,
+  "exact_nonradial_witness": {
+    "angular_gram": [
+      [
+        "9/100",
+        "9/50"
+      ],
+      [
+        "9/50",
+        "1"
+      ]
+    ],
+    "base_only_q_squared": "4",
+    "beta_pair": "-18/391",
+    "det_h": "-19631/2500",
+    "h": [
+      [
+        "-391/100",
+        "9/50"
+      ],
+      [
+        "9/50",
+        "2"
+      ]
+    ],
+    "q_pair_squared": "152881/78524"
+  },
+  "live_phi_pair_derivatives": {
+    "angular_chart_motion": "2346/19631",
+    "areal_radius_along_pair": "4062775/46054326",
+    "clock_tangent_motion": "-985600/7675721",
+    "profile_along_pair": "11706825/15351442",
+    "radial_tangent_motion": "9775/19631",
+    "theta_tangent_motion": "1045395/7675721",
+    "varphi_tangent_motion": "9384/19631"
+  },
+  "ownership": {
+    "B": "metric-fixed by c_E and supplied phi in declared primary arena",
+    "Q": "metric-fixed areal spherical screen diag(r,r sin(theta))",
+    "S": "zero in declared diagonal primary ambient coframe",
+    "Y_Z": "supplied ordered-pair realization tangents",
+    "ambient_nonspherical_timelive_extension": "open outside bounded arena",
+    "mu": "no independent scalar; full angular Gram is derived from Q and Z"
+  },
+  "primary_landing": "PRIMARY_STATIC_SPHERICAL_UDT_METRIC_OWNS_FULL_GENERAL_PAIR_PULLBACK_ORCHESTRA__GENERAL_AMBIENT_EXTENSION_OPEN",
+  "source_count": 10,
+  "source_failures": []
+}

@@ -1,0 +1,19 @@
+{
+  "fraction_trials": 1200,
+  "regular_lorentzian_trials": 381,
+  "source_count": 10,
+  "source_failures": [],
+  "status": "PASS",
+  "witness_det": "-19631/2500",
+  "witness_h": [
+    [
+      "-391/100",
+      "9/50"
+    ],
+    [
+      "9/50",
+      "2"
+    ]
+  ],
+  "witness_q_squared": "152881/78524"
+}
