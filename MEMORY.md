@@ -10,7 +10,7 @@ a supplied germ derives the plane, but bare labels do not. G170 differences endp
 G171 makes the scalar network pair-relative; arbitrary triangles need not telescope. G172 closes
 the supplied monotone-areal family with `Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]` for supplied smooth
 sphere curves. G173 derives regular tensor passage through radial turns with angular motion, but
-finds a nonunique scalar calibration atlas. G172 is externally accepted; G173 awaits review.
+finds a nonunique scalar calibration atlas. Both are externally accepted with stated bounds.
 
 Dependency spine:
 
@@ -53,8 +53,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Obtain fresh adversarial review of G173. Do not select a calibration or revive co-presence,
-observer-only endpoint potentials, arbitrary triangle closure,
+Audit whether native pair-germ structure distinguishes G173 charts. Do not select a calibration,
+revive co-presence, observer-only endpoint potentials, arbitrary triangle closure,
 scaffolded carry/score kernels, `X_max`, fits, or paths.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

@@ -3918,13 +3918,12 @@ def main() -> None:
     )
     require(
         by_id["G173"]["current_status"].startswith(
-            "DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW__PREREGISTERED__PULLBACK_EXTENDS_THROUGH_RADIAL_TURN_WHEN_ANGULAR_TANGENT_NONZERO"
+            "VERIFIED_WITH_CAVEATS__EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS__PREREGISTERED__PULLBACK_EXTENDS_THROUGH_RADIAL_TURN_WHEN_ANGULAR_TANGENT_NONZERO"
         ),
         "G173 turning-chart calibration-atlas landing regressed or promoted",
     )
     require(by_id["G173"]["epistemic_label"] == "MIXED", "G173 label changed")
     for open_item in (
-        "fresh external adversarial review",
         "physical calibration and pair-family ownership",
         "whether a future native relation law selects one calibration-atlas chart",
         "cross-calibration carry",

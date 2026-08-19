@@ -27,7 +27,7 @@ G173 covers the first non-areal turn. With `v=dr/dsigma`, the pullback stays Lor
 `v=0,b2>0`; only zero complete spatial tangent loses rank. Raw `Phi` is an affine log-density.
 Positive weight-one calibrations yield scalar charts, but two metric-built choices survive and
 disagree at a generic turn. No physical calibration is selected. Internal checks pass; fresh
-external review is pending.
+external review returned `G173_ACCEPTED_WITH_STATED_BOUNDS`.
 
 Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry on supplied data; valuation
 stays open. G146--G163 bound direction, first-jet, scale, score, carry, and quotient, removing
@@ -90,7 +90,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Obtain fresh adversarial review of G173. Do not select a calibration or curve, force global
-completion, revive carry/score scaffolds, or collapse scalar closure into non-scalar transport.
+Audit whether native pair-germ structure distinguishes G173 charts. Do not select a calibration or
+curve, force global completion, revive scaffolds, or collapse scalar into non-scalar transport.
 
 <!-- STARTUP_CURRENT_END -->

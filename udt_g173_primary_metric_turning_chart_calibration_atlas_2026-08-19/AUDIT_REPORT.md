@@ -46,7 +46,9 @@ punctured turning neighborhood and remain nonzero at the turn.
 - Mutation/semantic catches: 19/19.
 - Repository premise gate: PASS on the 159-row exact registry.
 - Repository regression suite: 129 passed, 1 expected xfail.
-- Fresh external adversarial review: pending; no external-review grade is claimed.
+- Fresh external gpt-5.4 review: `G173_ACCEPTED_WITH_STATED_BOUNDS`.
+- Review-only presentation repair: two malformed `\frac` escapes corrected; algebra unchanged.
+- Verifier boundary retained: repository outer gate and sealed-intake replay are separate tools.
 
 ## Maximum conclusion
 
@@ -55,3 +57,5 @@ non-areal pair families with `r>0`. It does not establish that physical UDT has 
 select a calibration or pair family, prove a positive/global distance, cover time-live or
 nonspherical metrics, close non-scalar transport, or derive `X_max`, observations, action, source,
 matter, bootstrap, signalling, or canon.
+
+Grade: `VERIFIED_WITH_CAVEATS` under the stated bounded scope.

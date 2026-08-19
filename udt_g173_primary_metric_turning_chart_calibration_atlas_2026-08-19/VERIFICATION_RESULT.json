@@ -3,9 +3,9 @@
   "independent_checks": 144000,
   "premise_verifier_returncode": 0,
   "production_checks": 32,
-  "required_files": 20,
+  "required_files": 24,
   "semantic_catches": 19,
   "source_hashes": 11,
-  "status": "PASS__G173__READY_FOR_FRESH_EXTERNAL_REVIEW",
+  "status": "PASS__G173__EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS",
   "turning_cases": 2000
 }

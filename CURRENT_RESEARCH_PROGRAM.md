@@ -27,7 +27,8 @@ G173 then derives the non-areal turning chart. The primary pullback stays Lorent
 `dr/dsigma=0` but angular tangent is nonzero; only zero complete spatial tangent loses rank.
 Raw terminal `Phi` is an affine log-density, and any positive weight-one calibration supplies a
 scalar chart. Two metric-built calibrations survive and disagree, so the tensor extension is
-unique but physical scalar calibration remains open. G173 awaits fresh external review.
+unique but physical scalar calibration remains open. External review returned
+`G173_ACCEPTED_WITH_STATED_BOUNDS`.
 
 ## Controlling local evaluator
 
@@ -104,7 +105,7 @@ For `F(x0,sigma)=(x0,r(sigma),gamma(sigma))`, the spatial pullback entry is
 boundary is zero complete spatial tangent. Raw terminal `Phi` is not a scalar under `sigma`
 reparameterization. A positive weight-one calibration density makes it one, but two metric-built
 choices recover the radial result and disagree at a generic turn. Grade:
-`DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW`; no physical ruler or global atlas is selected.
+`VERIFIED_WITH_CAVEATS`; no physical ruler or global atlas is selected.
 
 ## Observational anchors
 
@@ -127,8 +128,7 @@ screen/Jacobi response, not an observed spectrum.
   or bootstrap selector has been derived.
 
 ## Current open joints
-1. Does fresh adversarial review retain G173's calibration-atlas theorem, and can any later native
-   relation law select a chart without target insertion?
+1. Does native pair-germ structure distinguish G173 calibration charts without target insertion?
 2. When a route/frame observable is actually requested, what supplied overlap or path owns its
    `Lambda`, and how is that kept separate from normal `U_gamma` and Jacobi/ambient transport?
 3. Which pair germs constitute the physical relation family, without collapsing pair-indexed
@@ -138,6 +138,6 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Obtain fresh adversarial review of G173. Do not select `m_A` or `m_P`, redo G172, impose
-observer-only density, triangle closure, co-presence, G142--G160, `X_max`, paths, fits, or
-postulates. Keep non-scalar transport separate.
+Audit native calibration ownership. Do not select `m_A` or `m_P`, redo G172, impose observer-only
+density, triangle closure, co-presence, G142--G160, `X_max`, paths, fits, or postulates. Keep
+non-scalar transport separate.

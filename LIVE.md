@@ -44,6 +44,7 @@ G173 covers the first non-areal turn. With `v=dr/dsigma` and angular speed `b2`,
 `H=exp(2phi)v^2+r^2b2`; `v=0,b2>0` is regular and only `v=b=0` loses rank. Raw `Phi` is an affine log-density. Every positive
 weight-one calibration gives a scalar chart, but two metric-built choices remain lawful and
 disagree at a generic turn. The tensor extension is unique; calibration selection is `OPEN`.
+External gpt-5.4 review returned `G173_ACCEPTED_WITH_STATED_BOUNDS`.
 
 ### Current dependency spine
 
@@ -118,8 +119,8 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-Obtain fresh adversarial review of G173. Do not select `m_A` or `m_P`, globalize the local atlas,
-revive G142--G160, or conflate scalar calibration with non-scalar transport.
+Audit which native pair-germ structure, if any, distinguishes G173 calibration charts. Do not
+select `m_A` or `m_P`, globalize, revive G142--G160, or conflate scalar and non-scalar transport.
 
 ### Archive
 The exact pre-cleanup startup surface is `archive/startup_surface_2026-08-17_pre_zoomout/`; older

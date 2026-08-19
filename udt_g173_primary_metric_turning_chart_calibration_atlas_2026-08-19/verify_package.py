@@ -42,6 +42,10 @@ required = [
     "REVIEW_EXECUTION_BOUNDARY.md",
     "verify_sealed_intake.py",
     "build_review_intake.py",
+    "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+    "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt.gz",
+    "EXTERNAL_REVIEW_ADJUDICATION.md",
+    "TRANSMISSION_RECORD.md",
 ]
 for name in required:
     require((HERE / name).is_file(), f"missing {name}")
@@ -91,6 +95,19 @@ require(independent["checks_passed"] == 144000, "independent checks")
 require(independent["trials"] == 12000, "independent trials")
 require(independent["turning_cases"] >= 1000, "turning coverage")
 require(catches["catches_passed"] == catches["catches_total"] == 19, "mutation catches")
+review = (HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_text()
+require(review.startswith("G173_ACCEPTED_WITH_STATED_BOUNDS\n"), "external review verdict")
+require("Banking judgment: `VERIFIED_WITH_CAVEATS`" in review, "external review grade")
+require(
+    hashlib.sha256((HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_bytes()).hexdigest()
+    == "6328b1d416f03870661185e9d3da4d4c49fa2be9c00131a6bcbc40ba0271a9aa",
+    "banked external review hash",
+)
+require(
+    hashlib.sha256((HERE / "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt.gz").read_bytes()).hexdigest()
+    == "fe0b04caa336cb7234c267d4d80172b851b65074a95e896091bf3024347bcf3b",
+    "compressed external transcript hash",
+)
 
 manifest = (HERE / "SOURCE_MANIFEST.tsv").read_text()
 require(all(f"udt_g{i}" not in manifest for i in range(142, 161)), "scaffold source entered manifest")
@@ -111,7 +128,7 @@ require(premise.returncode == 0, f"premise verifier\n{premise.stdout}\n{premise.
 
 result = {
     "gate": "REPOSITORY_OUTER_GATE",
-    "status": "PASS__G173__READY_FOR_FRESH_EXTERNAL_REVIEW",
+    "status": "PASS__G173__EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS",
     "required_files": len(required),
     "source_hashes": len(rows),
     "production_checks": production["checks_total"],

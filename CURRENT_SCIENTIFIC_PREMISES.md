@@ -35,7 +35,7 @@
 | G170 endpoint-relative response | `VERIFIED_WITH_CAVEATS` | `delta_AB=Phi_B-Phi_A` in one consistent calibration class; cross-query carry open |
 | G171 pair-germ-relative network | `VERIFIED_WITH_CAVEATS` | Each supplied pair is evaluated natively; arbitrary triangles need not telescope; matched endpoint readouts do |
 | G172 smooth pair-family closure | `VERIFIED_WITH_CAVEATS` | Supplied smooth sphere curves close on the monotone-areal class; turning/formal-`a2` converse/global open |
-| G173 turning calibration atlas | `DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW` | Tensor stays regular at radial turn with angular motion; lawful scalar calibrations remain nonunique |
+| G173 turning calibration atlas | `VERIFIED_WITH_CAVEATS` | Tensor stays regular at radial turn with angular motion; lawful scalar calibrations remain nonunique |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits

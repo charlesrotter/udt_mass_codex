@@ -17,8 +17,8 @@ nonspherical, center, singular, global, and non-scalar sectors are excluded.
 
 PASS LOCALLY. Production passes 32 exact checks. A separate standard-library Fraction
 implementation imports no production code or SymPy and passes 144,000 checks over 12,000 samples,
-including 2,000 exact radial turns. The 19 mutation/semantic catches pass. Fresh external review is
-still required before `VERIFIED_WITH_CAVEATS`.
+including 2,000 exact radial turns. The 19 mutation/semantic catches pass. Fresh external gpt-5.4
+review reproduced the sealed replay and returned `G173_ACCEPTED_WITH_STATED_BOUNDS`.
 
 ## Gate 4 — premise audit
 
@@ -27,6 +27,9 @@ PASS INTERNALLY. The 159-row premise verifier and repository regression suite pa
 time-orthogonal arena as chosen/bounded, and excludes co-presence, `X_max`, G142--G160,
 observations, action, source, matter, bootstrap, and signalling.
 
+The external sealed review did not and could not rerun the repository-only Git/premise gate. It
+instead passed the separate dependency-free `verify_sealed_intake.py`. These are distinct gates.
+
 ## Current grade
 
-`DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW`
+`VERIFIED_WITH_CAVEATS__EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS`

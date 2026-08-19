@@ -1,5 +1,5 @@
 claim	status	scope
-G173 primary landing	DERIVED_BOUNDED_AWAITING_EXTERNAL_REVIEW	static time-orthogonal non-areal primary-metric pair families with r>0
+G173 primary landing	VERIFIED_WITH_CAVEATS__EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS	static time-orthogonal non-areal primary-metric pair families with r>0
 full non-areal pair tensor	DERIVED_BOUNDED	h=diag(-exp(-2phi),exp(2phi)v2+r2b2)
 radial turn with angular motion	DERIVED_REGULAR	v=0 b>0 gives det h<0
 true local rank boundary	DERIVED_BOUNDED	v=b=0 gives zero complete spatial tangent and rank one

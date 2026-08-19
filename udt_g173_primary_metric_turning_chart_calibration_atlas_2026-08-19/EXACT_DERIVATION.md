@@ -171,7 +171,7 @@ It gives
 \begin{aligned}
 \Phi_r
 &=\frac14\log\!\left(\frac{e^{2\phi}H}{v^2}\right)\\
-&=\phi+rac14\log\!\left(
+&=\phi+\frac14\log\!\left(
 1+r^2e^{-2\phi}\frac{b^2}{v^2}
 \right),
 \end{aligned}
@@ -184,7 +184,7 @@ For any non-areal calibration \(m\), the exact overlap law is
 \[
 \boxed{
 \Phi_m
-=\Phi_r+rac12\log\frac{|v|}{m}.
+=\Phi_r+\frac12\log\frac{|v|}{m}.
 }
 \]
 
