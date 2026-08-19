@@ -1,0 +1,1847 @@
+Script started on 2026-08-19 11:38:44-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /intake
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a01aac-c4fb-7be1-9be0-5b2e8010a8e2
+--------
+user
+Perform a repair-only follow-up review of the sealed G170 intake. Read REPAIR_PREREGISTRATION.md, EXTERNAL_ADVERSARIAL_REVIEW_RAW.md, EXTERNAL_REVIEW_ADJUDICATION.md, the corrected exact derivation, evidence gates, status ledger, verifier, and sealed-replay verifier. Verify only the registered calibration-scope and sealed-replay repairs and that the bounded endpoint-relative theorem remains intact. Inspect only /intake. Do not edit files, continue the research, use the internet, inspect the repository, or access protected packages. Return one precise landing followed by bounded repair findings.
+codex
+Reviewing the registered repair scope in `/intake` only. I’m locating the preregistration, adjudication, derivation, evidence, ledger, and verifier materials first, then I’ll check whether the calibration-scope and sealed-replay repairs are complete without disturbing the bounded endpoint-relative theorem.
+exec
+/bin/bash -lc 'rg --files /intake' in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc pwd in /intake
+ succeeded in 0ms:
+/intake
+
+codex
+`rg` is unavailable here, so I’m falling back to filesystem listing inside `/intake` and then reading only the named review artifacts.
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type f | sort' in /intake
+ succeeded in 0ms:
+/intake/REVIEW_SCOPE.json
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/sources/SIMPLE_METRIC_MACRO.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/CATCH_PROOF_RESULT.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/DERIVATION_RESULT.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXECUTION_NOTE.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_RAW.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_REVIEW_ADJUDICATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/INDEPENDENT_VERIFICATION.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/LAY_REPORT.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PONDER_MAP.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/REPAIR_PREREGISTRATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SOURCE_MANIFEST.tsv
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/TRANSMISSION_RECORD.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/VERIFICATION_RESULT.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py
+
+codex
+I’ve identified the package directory and the candidate repair artifacts. Next I’m reading the preregistration and adjudication first to pin the exact allowed repair scope before I test whether the documentation, ledgers, and verifiers stay inside that boundary.
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/REPAIR_PREREGISTRATION.md' in /intake
+ succeeded in 0ms:
+     1	# G170 repair preregistration
+     2	
+     3	Date: 2026-08-19
+     4	
+     5	Trigger: fresh external return
+     6	`ENDPOINT_RELATIVE_REPAIR_VALID_BUT_CALIBRATION_CARRY_STILL_LOAD_BEARING`.
+     7	
+     8	## Accepted finding
+     9	
+    10	The endpoint-relative repair is mathematically valid on the scope already present in the
+    11	2026-08-09 source: two endpoint states on one consistently calibrated pair surface, or more
+    12	generally one endpoint family with explicitly matched reciprocal calibration carry.
+    13	
+    14	The review does not restore the G169 scalar counterexample. Equal endpoint densities still give
+    15	zero directed depth, and swapping the same endpoint data still reverses the scalar exactly.
+    16	
+    17	## Registered repairs
+    18	
+    19	1. Replace the overbroad phrase "any supplied set" with one consistently calibrated endpoint
+    20	   family. State explicitly that independently reciprocally recalibrated endpoint states do not
+    21	   belong to the same thin pair groupoid without additional carry.
+    22	2. Keep scalar endpoint differencing separate from reciprocal calibration carry and from full
+    23	   screen, connection, orientation, and holonomy carry.
+    24	3. Add a sealed-intake verifier that checks copied frozen-source hashes and replays the internal
+    25	   calculations in a writable temporary copy without repository or protected-package access.
+    26	4. State that the repository-wide premise verifier is an outer banking gate, not a self-contained
+    27	   sealed-intake replay. Preserve its exact result separately.
+    28	5. Preserve the fresh external raw return and transcript byte-for-byte and request a repair-only
+    29	   follow-up before promotion or banking.
+    30	
+    31	No new metric, path, co-presence premise, ontology, `X_max`, action, source, matter, observation, or
+    32	global completion may enter the repair.
+    33	
+    34	## Repair acceptance gates
+    35	
+    36	- the endpoint-difference, reversal, G169 reclassification, G167 angular-before-readout, and common
+    37	  scale results remain exact;
+    38	- independent reciprocal recalibration is visibly load-bearing;
+    39	- the corrected sealed verifier passes from the sealed intake without reading the repository;
+    40	- the outer repository premise and regression gates pass independently;
+    41	- a fresh repair-only external follow-up accepts the bounded landing.
+    42	
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_RAW.md' in /intake
+ succeeded in 0ms:
+     1	ENDPOINT_RELATIVE_REPAIR_VALID_BUT_CALIBRATION_CARRY_STILL_LOAD_BEARING
+     2	
+     3	1. The frozen chain supports three distinct objects. The founded metric is the G166 reciprocal block \(h_{AB}=\mathrm{diag}(-e^{-2d},e^{2d})\). A general endpoint response is the full regular pullback \(h_X=-T_X^2(dy^0+\beta_Xdy^1)^2+L_X^2(dy^1)^2\), including shift and any G167 angular Gram content. The endpoint density is \(\Phi_X=\tfrac12\log(L_X/T_X)\), the terminal endpoint ratio is \(q_X=T_X/L_X=e^{-2\Phi_X}\), and the directed depth is not either endpoint scalar alone but the relative difference \(\delta_{AB}=\Phi_B-\Phi_A\).
+     4	
+     5	2. The endpoint-relative rule is genuinely present in the 2026-08-09 source. That source explicitly states, for two points on one consistently calibrated pair surface, \(\delta_{AB}=\tfrac12\log[(L_B/T_B)/(L_A/T_A)]=\Phi_B-\Phi_A\). G170 is therefore recovering an existing rule, not inventing it, but the original scope is narrower than G170’s “any supplied set \(S\)” phrasing.
+     6	
+     7	3. On that original scope, \(q_{AB}=q_B/q_A\) and \(\delta_{AB}=\Phi_B-\Phi_A\) follow algebraically from \(q_X=e^{-2\Phi_X}\). Reversal then follows by swapping the same endpoint data, and matched composition follows by telescoping on a literally shared middle calibrated state. None of this proves closure for independently rebuilt or independently recalibrated middle states.
+     8	
+     9	4. The exact G169 flat witness does not survive as a counterexample to scalar reciprocal reversal. With \(h_A=h_B=\mathrm{diag}(-1,1+a^2)\), one gets \(\Phi_A=\Phi_B=\tfrac14\log(1+a^2)\), so \(\delta_{AB}=\delta_{BA}=0\). It remains a valid counterexample only to the mistaken identification of one endpoint density with arrow depth.
+    10	
+    11	5. The two G167 nonradial witnesses do show that shift and the full angular Gram enter before relative readout. The pullback formula \(h=Y^TB^T\eta_2BY+Z^TQ^TQZ\) is used first, both displayed endpoint witnesses have nonzero \(h_{01}\), both terminal \(q_X\) values differ from base-only values, and no hidden scalar \(\mu\) or post-readout angular patch appears in the sealed derivation or scripts.
+    12	
+    13	6. The pair-groupoid uniqueness claim is justified only on supplied endpoint states that share one consistent calibration class. The 2026-08-09 source does not justify uniqueness on an arbitrary disjoint set of regular endpoint states. G170 itself admits the obstruction: independent reciprocal recalibration changes \(\delta_{AB}\) by \(c_B-c_A\).
+    14	
+    15	7. The remaining calibration carry is real and should stay separated into layers. Scalar endpoint differencing kills independent common positive scale and any shared additive origin shift, but it does not kill independent reciprocal recalibration. Full screen/orientation/connection/holonomy and cross-query carry are still open and are not closed by the scalar ratio theorem.
+    16	
+    17	8. Co-presence is not mathematically load-bearing anywhere in the G170 scalar proof. The derivation uses supplied endpoint metrics or endpoint readouts only. But removing co-presence from this algebra does not derive the physical rule that selects which endpoints belong to one experiment.
+    18	
+    19	9. At the level of mathematical typing, “observers/endpoints are evaluator arguments” is correct for the scalar map \((h_A,h_B)\mapsto\Phi_B-\Phi_A\). It is not a solution to the separate selector problem. G168 still leaves physical germ ownership as an additional working postulate, so G170 fixes evaluator typing but not endpoint-selection typing.
+    20	
+    21	10. The production algebra is strong on the stated formulas, the mutation checks target the right failure modes, and the independent script is computationally separate. The caveats are that the independent script hardcodes the repaired endpoint-difference structure rather than independently deriving its provenance, and the sealed intake cannot replay the advertised freeze/premise verifier path because `verify_package.py` depends on `.git` history and `verify_current_scientific_premises.py`, neither of which is present inside `/intake`. The mathematical repair holds in its bounded calibrated scope, but the calibration-carry boundary remains load-bearing.
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_REVIEW_ADJUDICATION.md' in /intake
+ succeeded in 0ms:
+     1	# G170 external-review adjudication
+     2	
+     3	Date: 2026-08-19
+     4	
+     5	## Return
+     6	
+     7	```text
+     8	ENDPOINT_RELATIVE_REPAIR_VALID_BUT_CALIBRATION_CARRY_STILL_LOAD_BEARING
+     9	```
+    10	
+    11	## Adjudication
+    12	
+    13	The return is accepted.
+    14	
+    15	The reviewer independently confirmed that the endpoint-relative rule is present in the frozen
+    16	2026-08-09 source, that reversal and matched composition follow algebraically on the same endpoint
+    17	data, and that G169's equal nonzero endpoint densities imply zero directed depth rather than a
+    18	same-sign reversal failure. It also confirmed that the G167 angular Gram and shift enter each
+    19	endpoint pullback before readout, without a scalar `mu` or post-processing correction. Co-presence
+    20	is absent from the load-bearing algebra.
+    21	
+    22	The review identified one scientific scope repair and one evidence-packaging repair:
+    23	
+    24	1. The thin pair-groupoid theorem applies to endpoint states in one consistently calibrated class,
+    25	   not to an arbitrary disjoint set of independently reciprocally calibrated states. Independent
+    26	   reciprocal recalibration shifts the directed depth by `c_B-c_A`; lawful cross-query calibration
+    27	   carry therefore remains load-bearing.
+    28	2. The first sealed intake did not contain a self-contained replay of its repository-wide premise
+    29	   gate. That does not refute the mathematics, but the corrected intake must distinguish its
+    30	   internal sealed replay from the independent outer repository gate.
+    31	
+    32	The result remains a bounded integration repair. It does not derive endpoint selection, physical
+    33	germ ownership, full non-scalar carry, positive metric-space distance, ontology, or global
+    34	completion.
+    35	
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md' in /intake
+ succeeded in 0ms:
+     1	# G170 exact derivation — endpoint-relative bidirectional pair response
+     2	
+     3	Date: 2026-08-19
+     4	
+     5	## 1. The distinction recovered from the original endpoint work
+     6	
+     7	A regular calibrated endpoint pair metric has the unique form
+     8	
+     9	\[
+    10	h_X=-T_X^2(dy^0+\beta_Xdy^1)^2+L_X^2(dy^1)^2,
+    11	\qquad T_X,L_X>0.
+    12	\]
+    13	
+    14	Therefore
+    15	
+    16	\[
+    17	\det h_X=-T_X^2L_X^2,
+    18	\qquad
+    19	\Phi_X=\frac12\log\frac{L_X}{T_X}
+    20	=\frac14\log\frac{-\det h_X}{h_{00,X}^2},
+    21	\]
+    22	
+    23	and the terminal reciprocal-\(c_E\) readout is
+    24	
+    25	\[
+    26	q_X=\frac{c_{{\rm eff},X}^{({\rm pair})}}{c_E}
+    27	=\frac{T_X}{L_X}=e^{-2\Phi_X}.
+    28	\]
+    29	
+    30	The 2026-08-09 derivation already proved that the ordered pair depth is not either endpoint density
+    31	alone. On one consistently calibrated pair tape it is
+    32	
+    33	\[
+    34	\boxed{
+    35	\delta_{AB}
+    36	=-\frac12\log\frac{q_B}{q_A}
+    37	=\frac12\log\frac{L_B/T_B}{L_A/T_A}
+    38	=\Phi_B-\Phi_A.
+    39	}
+    40	\]
+    41	
+    42	G170 restores this distinction after G169 temporarily conflated \(\Phi_A\) and \(\Phi_B\) with the
+    43	directed arrow depth.
+    44	
+    45	## 2. Consistently calibrated pair-groupoid theorem
+    46	
+    47	Let \(S_{\mathcal C}\) be one supplied family of regular endpoint states carrying the same
+    48	reciprocal calibration \(\mathcal C\). The 2026-08-09 realization is two points on one consistently
+    49	calibrated pair surface. Let \(q:S_{\mathcal C}\rightarrow\mathbb R_{>0}\) be the metric terminal
+    50	readout above. For an ordered pair inside that calibrated family define
+    51	
+    52	\[
+    53	q_{AB}=\frac{q_B}{q_A},
+    54	\qquad
+    55	\delta_{AB}=-\frac12\log q_{AB}.
+    56	\]
+    57	
+    58	Then, without any additional physical or ontological premise,
+    59	
+    60	\[
+    61	q_{BA}=q_{AB}^{-1},
+    62	\qquad
+    63	\delta_{BA}=-\delta_{AB}.
+    64	\]
+    65	
+    66	For a literally shared middle calibrated state,
+    67	
+    68	\[
+    69	q_{AB}q_{BC}
+    70	=\frac{q_B}{q_A}\frac{q_C}{q_B}
+    71	=\frac{q_C}{q_A}=q_{AC},
+    72	\]
+    73	
+    74	and hence
+    75	
+    76	\[
+    77	\delta_{AB}+\delta_{BC}=\delta_{AC}.
+    78	\]
+    79	
+    80	With \(\chi_{AB}=\tanh\delta_{AB}\), reversal is odd and matched composition has the usual bounded
+    81	form.
+    82	
+    83	This is also the general form of a real cocycle on the thin pair groupoid of
+    84	\(S_{\mathcal C}\). Fix a reference state \(O\) in the same calibration class and write
+    85	\(\Phi_X=\delta_{OX}\). The composition identity
+    86	\(\delta_{OB}=\delta_{OA}+\delta_{AB}\) forces
+    87	\(\delta_{AB}=\Phi_B-\Phi_A\). The metric terminal readout fixes which endpoint potential is the
+    88	primary reciprocal channel.
+    89	
+    90	This theorem does not create arrows between disjoint endpoint families carrying independently
+    91	chosen reciprocal calibrations. Such arrows require an explicit calibration carry. Under
+    92	\(\Phi_X\mapsto\Phi_X+c_X\), the candidate cross-family depth changes by \(c_B-c_A\).
+    93	
+    94	If the middle state is rebuilt independently on the two pair tapes, the exact residual is
+    95	
+    96	\[
+    97	(\Phi_{B,{\rm left}}-\Phi_A)
+    98	+(\Phi_C-\Phi_{B,{\rm right}})
+    99	-(\Phi_C-\Phi_A)
+   100	=\Phi_{B,{\rm left}}-\Phi_{B,{\rm right}}.
+   101	\]
+   102	
+   103	Thus matched composition is derived, while arbitrary triangle closure remains correctly excluded.
+   104	
+   105	## 3. Recovery of the founded G166 kernel
+   106	
+   107	Choose A as the calibrated tape origin:
+   108	
+   109	\[
+   110	T_A=L_A=1,
+   111	\qquad \Phi_A=0.
+   112	\]
+   113	
+   114	For the founded B block,
+   115	
+   116	\[
+   117	T_B=e^{-d},
+   118	\qquad L_B=e^d,
+   119	\]
+   120	
+   121	so
+   122	
+   123	\[
+   124	q_{AB}=e^{-2d},
+   125	\qquad
+   126	\delta_{AB}=d,
+   127	\qquad
+   128	\delta_{BA}=-d.
+   129	\]
+   130	
+   131	G166 is therefore the anchored special case of the two-endpoint rule rather than a competing
+   132	single-endpoint definition.
+   133	
+   134	## 4. Reclassification of the G169 surface witness
+   135	
+   136	G169 used the exact endpoint metrics
+   137	
+   138	\[
+   139	h_A=h_B=
+   140	\begin{pmatrix}
+   141	-1&0\\
+   142	0&1+a^2
+   143	\end{pmatrix}.
+   144	\]
+   145	
+   146	Each endpoint has
+   147	
+   148	\[
+   149	\Phi_A=\Phi_B=\frac14\log(1+a^2).
+   150	\]
+   151	
+   152	At \(a=1\), each density is \(\log 2/4\). But the directed relation is
+   153	
+   154	\[
+   155	\delta_{AB}=\Phi_B-\Phi_A=0,
+   156	\qquad
+   157	\delta_{BA}=\Phi_A-\Phi_B=0.
+   158	\]
+   159	
+   160	Hence
+   161	
+   162	\[
+   163	\delta_{BA}=-\delta_{AB}
+   164	\]
+   165	
+   166	holds exactly. The witness remains valuable: it disproves using a single endpoint density as arrow
+   167	depth. It does not disprove metric-derived reciprocal reversal after the endpoints are compared.
+   168	
+   169	## 5. The full orchestra remains inside each endpoint
+   170	
+   171	For the primary static-spherical metric, G167 gives
+   172	
+   173	\[
+   174	h_X=Y_X^TB_X^T\eta_2B_XY_X+Z_X^TQ_X^TQ_XZ_X.
+   175	\]
+   176	
+   177	G170 evaluates two nonradial endpoints. At A,
+   178	
+   179	\[
+   180	h_A=
+   181	\begin{pmatrix}
+   182	-391/100&9/50\\
+   183	9/50&2
+   184	\end{pmatrix},
+   185	\qquad
+   186	P_A=
+   187	\begin{pmatrix}
+   188	9/100&9/50\\
+   189	9/50&1
+   190	\end{pmatrix},
+   191	\]
+   192	
+   193	with
+   194	
+   195	\[
+   196	q_A^2=\frac{152881}{78524},
+   197	\qquad
+   198	(q_A^2)_{\rm base}=4.
+   199	\]
+   200	
+   201	At B,
+   202	
+   203	\[
+   204	h_B=
+   205	\begin{pmatrix}
+   206	-36699/10000&3739/7500\\
+   207	3739/7500&12446/5625
+   208	\end{pmatrix},
+   209	\]
+   210	
+   211	and
+   212	
+   213	\[
+   214	q_B^2=\frac{12121349409}{7531774000},
+   215	\qquad
+   216	(q_B^2)_{\rm base}=\frac{2531281}{627264}.
+   217	\]
+   218	
+   219	Both endpoint shifts are nonzero and both angular Gram matrices change the terminal readout before
+   220	the relative ratio is formed. The exact squared relative ratio is
+   221	
+   222	\[
+   223	q_{AB}^2=\frac{237954210248079}{287866285223500},
+   224	\qquad
+   225	q_{BA}^2=(q_{AB}^2)^{-1}.
+   226	\]
+   227	
+   228	No scalar \(\mu\) or post-readout angular correction occurs.
+   229	
+   230	## 6. Common scale and calibration
+   231	
+   232	Under independent positive common endpoint rescalings
+   233	
+   234	\[
+   235	h_A\mapsto\Omega_A^2h_A,
+   236	\qquad
+   237	h_B\mapsto\Omega_B^2h_B,
+   238	\]
+   239	
+   240	each \(q_X\) is unchanged because both numerator and denominator scale equally. Consequently
+   241	\(q_{AB}\) and \(\delta_{AB}\) are unchanged.
+   242	
+   243	A shared reciprocal-origin change \(\Phi_X\mapsto\Phi_X+c\) also cancels. Independent reciprocal
+   244	recalibrations do not cancel:
+   245	
+   246	\[
+   247	(\Phi_B+c_B)-(\Phi_A+c_A)
+   248	=\delta_{AB}+c_B-c_A.
+   249	\]
+   250	
+   251	That is a load-bearing calibration-carry boundary, not a failure of the endpoint-difference
+   252	algebra. Two differently calibrated experiments are different inputs until a lawful cross-query
+   253	carry is supplied. The theorem applies to one supplied consistently calibrated two-endpoint
+   254	calculation.
+   255	
+   256	## 7. What co-presence does not do
+   257	
+   258	No co-presence equation or premise appears in the derivation or implementations. The observer
+   259	pair, endpoint metrics, and calibration are the arguments of the evaluator. The metric does not
+   260	need to select which observers an experiment compares.
+   261	
+   262	The remaining non-scalar problem is separate. A complete relation may retain screen orientation,
+   263	shift state, connection, or holonomy data not compressed by \(q\). G170 derives the primary scalar
+   264	reversal and matched scalar composition; it does not claim full matrix carry closure.
+   265	
+   266	## 8. Landing
+   267	
+   268	```text
+   269	ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS
+   270	__WITHIN_ONE_CONSISTENT_RECIPROCAL_CALIBRATION_CLASS
+   271	__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC
+   272	__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED
+   273	__COPRESENCE_NOT_LOAD_BEARING
+   274	__CROSS_QUERY_AND_FULL_NONSCALAR_CARRY_REMAIN_OPEN
+   275	```
+   276	
+   277	This is a bounded integration repair, not a derivation of a positive metric-space distance or a
+   278	global theory. It establishes that the directed reciprocal scalar response is already metric-owned
+   279	once the actual calibrated observer endpoints are supplied.
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md' in /intake
+ succeeded in 0ms:
+     1	# G170 evidence gates
+     2	
+     3	Date: 2026-08-19
+     4	
+     5	1. **Preregistered:** yes; commit `f9a6d1e6` predates all outcome code and results.
+     6	2. **Full or bounded:** complete algebraically for all regular calibrated endpoint channel metrics;
+     7	   the endpoint-difference theorem is restricted to one consistently carried reciprocal
+     8	   calibration class. Primary-metric orchestra witnesses and 1,200 random nonradial trials are
+     9	   bounded local coverage, not a general ambient theorem.
+    10	3. **Independent:** production SymPy and separate standard-library `Fraction` implementations agree;
+    11	   fresh external review validated the repair while retaining calibration carry as load-bearing.
+    12	   The corrected sealed intake has a read-only internal replay; the repository-wide premise audit
+    13	   remains a separate outer banking gate. The sealed replay passes 40/40 production checks,
+    14	   21,600/21,600 independent checks, and 13/13 mutation catches. Repair-only follow-up is still
+    15	   required.
+    16	4. **Premises:** `c_E` observed; founding character derived; endpoint-relative rule previously
+    17	   derived; endpoint pullbacks supplied; co-presence inactive; no path, `X_max`, fit, action, source,
+    18	   matter, bootstrap, observation, or protected work used.
+    19	
+    20	## Solution-space map
+    21	
+    22	- Fields/inputs covered: all entries of two regular calibrated endpoint `2x2` pair metrics; bounded
+    23	  primary diagonal ambient metric with live angular tangents.
+    24	- Dropped: general ambient mixing, time-dependent metric, singular/null/coincidence strata, global
+    25	  topology, and non-scalar transport.
+    26	- Acceptance characterizes regular versus nonregular trials; it does not filter for a desired
+    27	  physical shape.
+    28	- This is one local algebraic tile, not completion of the UDT solution space.
+    29	
+    30	## Current grade
+    31	
+    32	`LEAD__EXTERNAL_REVIEW_VALIDATED_REPAIR__FOLLOWUP_REQUIRED`
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv' in /intake
+ succeeded in 0ms:
+     1	item	status	boundary
+     2	terminal endpoint reciprocal density	DERIVED_CONDITIONAL	computed from each supplied regular calibrated endpoint pair metric after full pullback
+     3	endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A only inside one consistently carried reciprocal calibration class
+     4	bidirectional scalar reversal	DERIVED_BOUNDED	swapping the same endpoint data gives delta_BA equals minus delta_AB
+     5	matched scalar composition	DERIVED_BOUNDED	telescopes only when the middle calibrated endpoint state is literally shared
+     6	G169 same-sign endpoint witness	RECLASSIFIED	equal nonzero endpoint densities imply zero relative arrow depth
+     7	primary angular orchestra	DERIVED_CONDITIONAL	angular Gram enters each endpoint pullback before relative readout
+     8	co-presence premise	NOT_LOAD_BEARING	absent from derivation and implementations
+     9	observer pair and endpoint calibration	SUPPLIED_EVALUATOR_ARGUMENTS	one consistently calibrated endpoint family is required and is not promoted to a physical selection law
+    10	reciprocal calibration carry	OPEN_LOAD_BEARING	independent reciprocal recalibrations shift delta by c_B minus c_A and cannot be joined without lawful carry
+    11	full non-scalar carry	OPEN_SEPARATE	connection screen shift orientation holonomy and cross-query carry are not closed by scalar ratio
+    12	positive metric-space distance	NOT_CLAIMED	identity separation triangle and global axioms not derived
+    13	general ambient time-live completion	OPEN	bounded primary static-spherical local result only
+    14	Xmax action source matter bootstrap observations signalling	OUT_OF_SCOPE	none enters G170
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py' in /intake
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py' in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Verify the repository-side, repair-ready G170 endpoint-relative evidence package."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	from pathlib import Path
+    10	import subprocess
+    11	import sys
+    12	
+    13	
+    14	ROOT = Path(__file__).resolve().parents[1]
+    15	HERE = Path(__file__).resolve().parent
+    16	FROZEN_SOURCE_COMMIT = "f9a6d1e6"
+    17	
+    18	
+    19	def require(condition: bool, message: str) -> None:
+    20	    if not condition:
+    21	        raise AssertionError(message)
+    22	
+    23	
+    24	required = [
+    25	    "PREREGISTRATION.md",
+    26	    "PONDER_MAP.md",
+    27	    "SOURCE_MANIFEST.tsv",
+    28	    "derive_endpoint_relative_response.py",
+    29	    "DERIVATION_RESULT.json",
+    30	    "verify_endpoint_relative_independent.py",
+    31	    "INDEPENDENT_VERIFICATION.json",
+    32	    "run_catch_proofs.py",
+    33	    "CATCH_PROOF_RESULT.json",
+    34	    "EXACT_DERIVATION.md",
+    35	    "AUDIT_REPORT.md",
+    36	    "LAY_REPORT.md",
+    37	    "STATUS_LEDGER.tsv",
+    38	    "EVIDENCE_GATES.md",
+    39	    "EXECUTION_NOTE.md",
+    40	    "ADVERSARIAL_REVIEW_REQUEST.md",
+    41	    "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+    42	    "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt",
+    43	    "EXTERNAL_REVIEW_ADJUDICATION.md",
+    44	    "TRANSMISSION_RECORD.md",
+    45	    "REPAIR_PREREGISTRATION.md",
+    46	    "verify_sealed_intake.py",
+    47	]
+    48	for name in required:
+    49	    require((HERE / name).is_file(), f"missing {name}")
+    50	
+    51	rows = list(csv.DictReader((HERE / "SOURCE_MANIFEST.tsv").open(), delimiter="\t"))
+    52	require(len(rows) == 12, "source manifest count")
+    53	for row in rows:
+    54	    frozen = subprocess.run(
+    55	        ["git", "show", f"{FROZEN_SOURCE_COMMIT}:{row['path']}"],
+    56	        cwd=ROOT,
+    57	        capture_output=True,
+    58	        check=True,
+    59	    ).stdout
+    60	    require(hashlib.sha256(frozen).hexdigest() == row["sha256"], f"source hash {row['path']}")
+    61	
+    62	commands = [
+    63	    [sys.executable, str(HERE / "derive_endpoint_relative_response.py")],
+    64	    [sys.executable, str(HERE / "verify_endpoint_relative_independent.py")],
+    65	    [sys.executable, str(HERE / "run_catch_proofs.py")],
+    66	]
+    67	for command in commands:
+    68	    completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, check=False)
+    69	    require(completed.returncode == 0, f"command failed: {' '.join(command)}\n{completed.stdout}\n{completed.stderr}")
+    70	
+    71	production = json.loads((HERE / "DERIVATION_RESULT.json").read_text())
+    72	independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text())
+    73	catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text())
+    74	landing = (
+    75	    "ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS"
+    76	    "__WITHIN_ONE_CONSISTENT_RECIPROCAL_CALIBRATION_CLASS"
+    77	    "__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC"
+    78	    "__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED"
+    79	    "__COPRESENCE_NOT_LOAD_BEARING"
+    80	    "__CROSS_QUERY_AND_FULL_NONSCALAR_CARRY_REMAIN_OPEN"
+    81	)
+    82	require(production["landing"] == landing, "production landing")
+    83	require(production["checks_passed"] == production["checks_total"] == 40, "production checks")
+    84	require(independent["landing_supported"] == landing, "independent landing")
+    85	require(independent["checks_passed"] == 21600, "independent count")
+    86	require(independent["angular_trials"] == independent["angular_shift_live"] == 1200, "angular shift coverage")
+    87	require(independent["angular_trials"] == independent["angular_readout_changed"] == 1200, "angular readout coverage")
+    88	require(catches["catches_passed"] == catches["catches_total"] == 13, "mutation catches")
+    89	
+    90	require(
+    91	    hashlib.sha256((HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_bytes()).hexdigest()
+    92	    == "082b9207559f9e412b0f6ec595f051a9b2831776fca5adb72868bbd0fff937a3",
+    93	    "external raw hash",
+    94	)
+    95	require(
+    96	    hashlib.sha256((HERE / "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt").read_bytes()).hexdigest()
+    97	    == "b72071d46b9ab44d4db90e2c30b621b4378063bba02882ad11ff42dcbf966d80",
+    98	    "external transcript hash",
+    99	)
+   100	
+   101	audit = (HERE / "AUDIT_REPORT.md").read_text()
+   102	exact = (HERE / "EXACT_DERIVATION.md").read_text()
+   103	ledger = (HERE / "STATUS_LEDGER.tsv").read_text()
+   104	exact_normalized = " ".join(exact.split())
+   105	require("ENDPOINT_RELATIVE_REPAIR_VALID_BUT_CALIBRATION_CARRY_STILL_LOAD_BEARING" in audit, "external landing")
+   106	require(r"\Phi_B-\Phi_A" in exact, "endpoint-difference theorem")
+   107	require("one consistently calibrated pair surface" in exact_normalized, "calibration-class scope")
+   108	require("co-presence premise\tNOT_LOAD_BEARING" in ledger, "co-presence boundary")
+   109	require("positive metric-space distance\tNOT_CLAIMED" in ledger, "distance boundary")
+   110	require("full non-scalar carry\tOPEN_SEPARATE" in ledger, "carry boundary")
+   111	require("reciprocal calibration carry\tOPEN_LOAD_BEARING" in ledger, "reciprocal carry boundary")
+   112	
+   113	premise = subprocess.run(
+   114	    [sys.executable, str(ROOT / "verify_current_scientific_premises.py")],
+   115	    cwd=ROOT,
+   116	    text=True,
+   117	    capture_output=True,
+   118	    check=False,
+   119	)
+   120	require(premise.returncode == 0, f"premise verifier\n{premise.stdout}\n{premise.stderr}")
+   121	
+   122	result = {
+   123	    "status": "PASS__REPAIR_READY__EXTERNAL_FOLLOWUP_REQUIRED",
+   124	    "required_files": len(required),
+   125	    "source_hashes": len(rows),
+   126	    "production_checks": production["checks_total"],
+   127	    "independent_checks": independent["checks_passed"],
+   128	    "semantic_catches": catches["catches_total"],
+   129	    "premise_verifier_returncode": premise.returncode,
+   130	    "premise_verifier_stdout": premise.stdout.strip(),
+   131	}
+   132	(HERE / "VERIFICATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   133	print(json.dumps(result, sort_keys=True))
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Read-only self-contained replay for a sealed G170 review intake.
+     3	
+     4	The script never writes inside the intake. It verifies the sealed tree and frozen-source hashes,
+     5	copies the package and sources to a temporary directory, and reruns the three internal exact
+     6	calculations there. The repository-wide premise verifier remains a separate outer banking gate.
+     7	"""
+     8	
+     9	from __future__ import annotations
+    10	
+    11	import csv
+    12	import hashlib
+    13	import json
+    14	from pathlib import Path
+    15	import shutil
+    16	import subprocess
+    17	import sys
+    18	import tempfile
+    19	
+    20	
+    21	HERE = Path(__file__).resolve().parent
+    22	INTAKE = HERE.parent
+    23	
+    24	
+    25	def require(condition: bool, message: str) -> None:
+    26	    if not condition:
+    27	        raise AssertionError(message)
+    28	
+    29	
+    30	scope_path = INTAKE / "REVIEW_SCOPE.json"
+    31	require(scope_path.is_file(), "sealed REVIEW_SCOPE.json is required")
+    32	scope = json.loads(scope_path.read_text())
+    33	
+    34	for row in scope["tree"]:
+    35	    path = INTAKE / row["path"]
+    36	    require(path.is_file(), f"sealed file missing: {row['path']}")
+    37	    require(path.stat().st_size == row["bytes"], f"sealed size mismatch: {row['path']}")
+    38	    require(hashlib.sha256(path.read_bytes()).hexdigest() == row["sha256"], f"sealed hash mismatch: {row['path']}")
+    39	
+    40	manifest_rows = list(csv.DictReader((HERE / "SOURCE_MANIFEST.tsv").open(), delimiter="\t"))
+    41	require(len(manifest_rows) == 12, "source manifest count")
+    42	for row in manifest_rows:
+    43	    copied = INTAKE / "sources" / row["path"]
+    44	    require(copied.is_file(), f"copied source missing: {row['path']}")
+    45	    require(hashlib.sha256(copied.read_bytes()).hexdigest() == row["sha256"], f"copied source hash: {row['path']}")
+    46	
+    47	with tempfile.TemporaryDirectory(prefix="g170_sealed_replay_") as temporary:
+    48	    replay_root = Path(temporary)
+    49	    replay_package = replay_root / HERE.name
+    50	    shutil.copytree(HERE, replay_package)
+    51	    for copied in replay_package.rglob("*"):
+    52	        copied.chmod(0o755 if copied.is_dir() else 0o644)
+    53	
+    54	    for row in manifest_rows:
+    55	        source = INTAKE / "sources" / row["path"]
+    56	        target = replay_root / row["path"]
+    57	        target.parent.mkdir(parents=True, exist_ok=True)
+    58	        shutil.copy2(source, target)
+    59	
+    60	    commands = (
+    61	        "derive_endpoint_relative_response.py",
+    62	        "verify_endpoint_relative_independent.py",
+    63	        "run_catch_proofs.py",
+    64	    )
+    65	    command_returns: dict[str, int] = {}
+    66	    for name in commands:
+    67	        completed = subprocess.run(
+    68	            [sys.executable, str(replay_package / name)],
+    69	            cwd=replay_root,
+    70	            text=True,
+    71	            capture_output=True,
+    72	            check=False,
+    73	        )
+    74	        command_returns[name] = completed.returncode
+    75	        require(
+    76	            completed.returncode == 0,
+    77	            f"sealed replay failed: {name}\n{completed.stdout}\n{completed.stderr}",
+    78	        )
+    79	
+    80	    production = json.loads((replay_package / "DERIVATION_RESULT.json").read_text())
+    81	    independent = json.loads((replay_package / "INDEPENDENT_VERIFICATION.json").read_text())
+    82	    catches = json.loads((replay_package / "CATCH_PROOF_RESULT.json").read_text())
+    83	
+    84	require(production["checks_passed"] == production["checks_total"] == 40, "production replay count")
+    85	require(independent["checks_passed"] == 21600, "independent replay count")
+    86	require(independent["angular_shift_live"] == independent["angular_trials"] == 1200, "shift-live replay")
+    87	require(independent["angular_readout_changed"] == independent["angular_trials"], "angular-live replay")
+    88	require(catches["catches_passed"] == catches["catches_total"] == 13, "mutation replay count")
+    89	
+    90	result = {
+    91	    "status": "PASS__SEALED_INTERNAL_REPLAY__OUTER_PREMISE_GATE_SEPARATE",
+    92	    "sealed_tree_files": len(scope["tree"]),
+    93	    "frozen_source_hashes": len(manifest_rows),
+    94	    "production_checks": production["checks_total"],
+    95	    "independent_checks": independent["checks_passed"],
+    96	    "mutation_catches": catches["catches_total"],
+    97	    "commands": command_returns,
+    98	}
+    99	print(json.dumps(result, sort_keys=True))
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py' in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Independent exact-Fraction verification of G170; imports no production code."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	from fractions import Fraction as F
+     7	import json
+     8	from pathlib import Path
+     9	import random
+    10	
+    11	
+    12	HERE = Path(__file__).resolve().parent
+    13	RNG = random.Random(1700819)
+    14	
+    15	
+    16	def require(condition: bool, message: str) -> None:
+    17	    if not condition:
+    18	        raise AssertionError(message)
+    19	
+    20	
+    21	def det2(h: tuple[tuple[F, F], tuple[F, F]]) -> F:
+    22	    return h[0][0] * h[1][1] - h[0][1] * h[1][0]
+    23	
+    24	
+    25	def channel_metric(T: F, L: F, beta: F) -> tuple[tuple[F, F], tuple[F, F]]:
+    26	    return (
+    27	        (-T * T, -T * T * beta),
+    28	        (-T * T * beta, L * L - T * T * beta * beta),
+    29	    )
+    30	
+    31	
+    32	def q2(h: tuple[tuple[F, F], tuple[F, F]]) -> F:
+    33	    return h[0][0] * h[0][0] / (-det2(h))
+    34	
+    35	
+    36	def add2(
+    37	    a: tuple[tuple[F, F], tuple[F, F]],
+    38	    b: tuple[tuple[F, F], tuple[F, F]],
+    39	) -> tuple[tuple[F, F], tuple[F, F]]:
+    40	    return (
+    41	        (a[0][0] + b[0][0], a[0][1] + b[0][1]),
+    42	        (a[1][0] + b[1][0], a[1][1] + b[1][1]),
+    43	    )
+    44	
+    45	
+    46	def scale2(
+    47	    factor: F,
+    48	    h: tuple[tuple[F, F], tuple[F, F]],
+    49	) -> tuple[tuple[F, F], tuple[F, F]]:
+    50	    return (
+    51	        (factor * h[0][0], factor * h[0][1]),
+    52	        (factor * h[1][0], factor * h[1][1]),
+    53	    )
+    54	
+    55	
+    56	def primary_parts(
+    57	    u: F,
+    58	    radius: F,
+    59	    sine: F,
+    60	    columns: tuple[tuple[F, F, F, F], tuple[F, F, F, F]],
+    61	) -> tuple[
+    62	    tuple[tuple[F, F], tuple[F, F]],
+    63	    tuple[tuple[F, F], tuple[F, F]],
+    64	    tuple[tuple[F, F], tuple[F, F]],
+    65	]:
+    66	    weights = (-F(1, 1) / (u * u), u * u, radius * radius, radius * radius * sine * sine)
+    67	    base_weights = weights[:2]
+    68	    angular_weights = weights[2:]
+    69	
+    70	    def gram(weights_here: tuple[F, ...], offset: int) -> tuple[tuple[F, F], tuple[F, F]]:
+    71	        out = [[F(0), F(0)], [F(0), F(0)]]
+    72	        for i in range(2):
+    73	            for j in range(2):
+    74	                out[i][j] = sum(
+    75	                    weights_here[k] * columns[i][k + offset] * columns[j][k + offset]
+    76	                    for k in range(len(weights_here))
+    77	                )
+    78	        return ((out[0][0], out[0][1]), (out[1][0], out[1][1]))
+    79	
+    80	    base = gram(base_weights, 0)
+    81	    angular = gram(angular_weights, 2)
+    82	    return add2(base, angular), base, angular
+    83	
+    84	
+    85	def positive_fraction(low: int = 1, high: int = 9) -> F:
+    86	    return F(RNG.randint(low, high), RNG.randint(1, 9))
+    87	
+    88	
+    89	def signed_fraction(scale: int = 4) -> F:
+    90	    return F(RNG.randint(-scale, scale), RNG.randint(1, 9))
+    91	
+    92	
+    93	checks = 0
+    94	channel_trials = 1200
+    95	for trial in range(channel_trials):
+    96	    T_A, L_A = positive_fraction(), positive_fraction()
+    97	    T_B, L_B = positive_fraction(), positive_fraction()
+    98	    T_C, L_C = positive_fraction(), positive_fraction()
+    99	    beta_A, beta_B, beta_C = signed_fraction(), signed_fraction(), signed_fraction()
+   100	    h_A = channel_metric(T_A, L_A, beta_A)
+   101	    h_B = channel_metric(T_B, L_B, beta_B)
+   102	    h_C = channel_metric(T_C, L_C, beta_C)
+   103	
+   104	    require(det2(h_A) == -T_A * T_A * L_A * L_A, f"A determinant {trial}")
+   105	    require(det2(h_B) == -T_B * T_B * L_B * L_B, f"B determinant {trial}")
+   106	    require(det2(h_C) == -T_C * T_C * L_C * L_C, f"C determinant {trial}")
+   107	    checks += 3
+   108	    require(q2(h_A) == (T_A / L_A) ** 2, f"A q2 {trial}")
+   109	    require(q2(h_B) == (T_B / L_B) ** 2, f"B q2 {trial}")
+   110	    require(q2(h_C) == (T_C / L_C) ** 2, f"C q2 {trial}")
+   111	    checks += 3
+   112	
+   113	    exp2_AB = (L_B / T_B) / (L_A / T_A)
+   114	    exp2_BA = (L_A / T_A) / (L_B / T_B)
+   115	    exp2_BC = (L_C / T_C) / (L_B / T_B)
+   116	    exp2_AC = (L_C / T_C) / (L_A / T_A)
+   117	    require(exp2_AB * exp2_BA == 1, f"reversal ratio {trial}")
+   118	    require(exp2_AB * exp2_BC == exp2_AC, f"matched composition {trial}")
+   119	    checks += 2
+   120	
+   121	    chi_AB = (exp2_AB - 1) / (exp2_AB + 1)
+   122	    chi_BA = (exp2_BA - 1) / (exp2_BA + 1)
+   123	    require(chi_AB == -chi_BA, f"chi reversal {trial}")
+   124	    checks += 1
+   125	
+   126	    omega_A, omega_B = positive_fraction(), positive_fraction()
+   127	    require(q2(scale2(omega_A * omega_A, h_A)) == q2(h_A), f"A common scale {trial}")
+   128	    require(q2(scale2(omega_B * omega_B, h_B)) == q2(h_B), f"B common scale {trial}")
+   129	    checks += 2
+   130	
+   131	    # The same endpoint value at both ends is a zero relative response, not a same-sign arrow.
+   132	    same = positive_fraction()
+   133	    exp2_same = same / same
+   134	    require(exp2_same == 1 and (exp2_same - 1) / (exp2_same + 1) == 0, f"equal endpoint {trial}")
+   135	    checks += 1
+   136	
+   137	    # Independently rebuilt middle calibrations do not telescope unless they are equal.
+   138	    B_left = positive_fraction()
+   139	    B_right = positive_fraction()
+   140	    if B_left == B_right:
+   141	        B_right += F(1, 97)
+   142	    unmatched = (B_left / (L_A / T_A)) * ((L_C / T_C) / B_right)
+   143	    require(unmatched != exp2_AC, f"unmatched middle accidentally closed {trial}")
+   144	    checks += 1
+   145	
+   146	
+   147	angular_trials = 1200
+   148	accepted = 0
+   149	attempts = 0
+   150	angular_shift_live = 0
+   151	angular_readout_changed = 0
+   152	while accepted < angular_trials:
+   153	    attempts += 1
+   154	    require(attempts < 100000, "angular trial generation stalled")
+   155	    u = positive_fraction(1, 5)
+   156	    radius = positive_fraction(1, 6)
+   157	    sine = F(RNG.randint(1, 8), RNG.randint(9, 12))
+   158	    col0 = (
+   159	        F(RNG.randint(3, 7)),
+   160	        F(RNG.randint(-2, 2), 10),
+   161	        F(RNG.randint(1, 3), RNG.randint(10, 20)),
+   162	        F(RNG.randint(1, 3), RNG.randint(10, 20)),
+   163	    )
+   164	    col1 = (
+   165	        F(RNG.randint(-2, 2), 10),
+   166	        F(RNG.randint(2, 7), RNG.randint(3, 9)),
+   167	        F(RNG.randint(1, 4), RNG.randint(8, 18)),
+   168	        F(RNG.randint(1, 4), RNG.randint(8, 18)),
+   169	    )
+   170	    full, base, angular = primary_parts(u, radius, sine, (col0, col1))
+   171	    if full[0][0] >= 0 or det2(full) >= 0 or base[0][0] >= 0 or det2(base) >= 0:
+   172	        continue
+   173	    if full[0][1] == 0 or q2(full) == q2(base):
+   174	        continue
+   175	
+   176	    require(full == add2(base, angular), f"angular assembly {accepted}")
+   177	    require(full[0][0] < 0 and det2(full) < 0, f"angular regular {accepted}")
+   178	    require(q2(full) > 0 and q2(base) > 0, f"angular q2 positive {accepted}")
+   179	    checks += 3
+   180	    angular_shift_live += int(full[0][1] != 0)
+   181	    angular_readout_changed += int(q2(full) != q2(base))
+   182	
+   183	    omega = positive_fraction()
+   184	    require(q2(scale2(omega * omega, full)) == q2(full), f"angular scale {accepted}")
+   185	    checks += 1
+   186	
+   187	    # A second exact regular endpoint supplies a genuine relative ratio whose reverse is automatic.
+   188	    T_ref, L_ref = positive_fraction(), positive_fraction()
+   189	    q2_relative = q2(full) / ((T_ref / L_ref) ** 2)
+   190	    q2_reverse = ((T_ref / L_ref) ** 2) / q2(full)
+   191	    require(q2_relative * q2_reverse == 1, f"angular endpoint reversal {accepted}")
+   192	    checks += 1
+   193	    accepted += 1
+   194	
+   195	
+   196	landing = (
+   197	    "ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS"
+   198	    "__WITHIN_ONE_CONSISTENT_RECIPROCAL_CALIBRATION_CLASS"
+   199	    "__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC"
+   200	    "__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED"
+   201	    "__COPRESENCE_NOT_LOAD_BEARING"
+   202	    "__CROSS_QUERY_AND_FULL_NONSCALAR_CARRY_REMAIN_OPEN"
+   203	)
+   204	result = {
+   205	    "landing_supported": landing,
+   206	    "implementation": "independent standard-library Fraction; no production import",
+   207	    "seed": 1700819,
+   208	    "channel_trials": channel_trials,
+   209	    "angular_trials": angular_trials,
+   210	    "angular_generation_attempts": attempts,
+   211	    "angular_shift_live": angular_shift_live,
+   212	    "angular_readout_changed": angular_readout_changed,
+   213	    "checks_passed": checks,
+   214	    "status": "PASS",
+   215	}
+   216	(HERE / "INDEPENDENT_VERIFICATION.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   217	print(json.dumps(result, sort_keys=True))
+
+codex
+The repair boundary is now clear from the preregistration and adjudication: narrow the theorem to one consistent reciprocal calibration class, and separate the sealed internal replay from the outer repository gate. I’m checking the sealed replay implementation against that requirement and then cross-checking the bounded landing in the derivation, evidence, ledger, and existing results.
+exec
+/bin/bash -lc 'nl -ba /intake/REVIEW_SCOPE.json' in /intake
+ succeeded in 0ms:
+     1	{
+     2	  "files_before_scope": 36,
+     3	  "package": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19",
+     4	  "restrictions": [
+     5	    "read-only",
+     6	    "no edits",
+     7	    "no continuation of research",
+     8	    "no repository access outside intake",
+     9	    "no protected-package access",
+    10	    "no internet"
+    11	  ],
+    12	  "tree": [
+    13	    {
+    14	      "bytes": 8769,
+    15	      "path": "sources/CURRENT_SCIENTIFIC_PREMISES.md",
+    16	      "sha256": "74497246b6eca01e80b2bfb4b9d2871e10b237135aa3fe33485a9815ba350e06"
+    17	    },
+    18	    {
+    19	      "bytes": 4973,
+    20	      "path": "sources/SIMPLE_METRIC_MACRO.md",
+    21	      "sha256": "f0c045abf9810dc327d249d0df385cd7e8d6914eedfaf5b31c78d186eaa13d44"
+    22	    },
+    23	    {
+    24	      "bytes": 5664,
+    25	      "path": "sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+    26	      "sha256": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7"
+    27	    },
+    28	    {
+    29	      "bytes": 4709,
+    30	      "path": "sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md",
+    31	      "sha256": "9e985bbd73a2ffe099a57257ea51778fff9ec75eb48721565faafaafd14edc62"
+    32	    },
+    33	    {
+    34	      "bytes": 4611,
+    35	      "path": "sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
+    36	      "sha256": "c1a1f722e393e431b1b0805a7e2d5ad8e27813c48db989f824b76898bc499593"
+    37	    },
+    38	    {
+    39	      "bytes": 7639,
+    40	      "path": "sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md",
+    41	      "sha256": "e51704c01a72c546401e31f59ecf0b1881ee2c273324ccba2e4572fc7d01941d"
+    42	    },
+    43	    {
+    44	      "bytes": 3868,
+    45	      "path": "sources/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md",
+    46	      "sha256": "24712719136b000e64367b6ebd234a2ef8d5b5f07ab493cfc4ea54e73b483ed9"
+    47	    },
+    48	    {
+    49	      "bytes": 8007,
+    50	      "path": "sources/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md",
+    51	      "sha256": "611928ca840624448cf3c22759ecc7e9582cba8ae2f2a10749aa2ea6b0cc1913"
+    52	    },
+    53	    {
+    54	      "bytes": 4241,
+    55	      "path": "sources/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md",
+    56	      "sha256": "b31c31b2561c7d34fddee78218b4af823a69497978509841acbeab4df0d35ddd"
+    57	    },
+    58	    {
+    59	      "bytes": 8487,
+    60	      "path": "sources/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md",
+    61	      "sha256": "2e19019f6e2829eaac4ac8fef92a4bb3dbd07c37258bb37a236a4812c4c444d4"
+    62	    },
+    63	    {
+    64	      "bytes": 4804,
+    65	      "path": "sources/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
+    66	      "sha256": "a15c22901f5f8f9401fb53b04cff23a0b14c3c5f56ac7bb4f3b23882d247669e"
+    67	    },
+    68	    {
+    69	      "bytes": 15088,
+    70	      "path": "sources/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md",
+    71	      "sha256": "fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a"
+    72	    },
+    73	    {
+    74	      "bytes": 3246,
+    75	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md",
+    76	      "sha256": "cc1fa4deee96fb1aee5fcd8fa7490566abd0fa68ebf4154e86be9d4d1cd2e6f9"
+    77	    },
+    78	    {
+    79	      "bytes": 4737,
+    80	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md",
+    81	      "sha256": "257a2e6b79042100cd3935bd367dfaa4b74affcc13d32219912aeb2f94dd3f52"
+    82	    },
+    83	    {
+    84	      "bytes": 1630,
+    85	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/CATCH_PROOF_RESULT.json",
+    86	      "sha256": "b1a1c5e039e8523602e467eef1233094fe5e8e9c30477ecf7cd24130a47eac1e"
+    87	    },
+    88	    {
+    89	      "bytes": 5415,
+    90	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/DERIVATION_RESULT.json",
+    91	      "sha256": "bc91875d0a6e40ee6906af816a641619619bb47ddb9d48bea4c7fad6a851c780"
+    92	    },
+    93	    {
+    94	      "bytes": 1811,
+    95	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md",
+    96	      "sha256": "280bcc73f01614f408ca850e7b61ff1c2515831a4f0a1757b03da7e4d8c00ec9"
+    97	    },
+    98	    {
+    99	      "bytes": 6633,
+   100	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md",
+   101	      "sha256": "f4ff6489086e157deb9fb1e31ddf613e849a6806a129ec4c7d7657c0ebbd6d74"
+   102	    },
+   103	    {
+   104	      "bytes": 1374,
+   105	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXECUTION_NOTE.md",
+   106	      "sha256": "bb90fecf28868a882f004358b39d05e8d0ae35ef5081e73497f227a279616bbc"
+   107	    },
+   108	    {
+   109	      "bytes": 4152,
+   110	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+   111	      "sha256": "082b9207559f9e412b0f6ec595f051a9b2831776fca5adb72868bbd0fff937a3"
+   112	    },
+   113	    {
+   114	      "bytes": 132293,
+   115	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt",
+   116	      "sha256": "b72071d46b9ab44d4db90e2c30b621b4378063bba02882ad11ff42dcbf966d80"
+   117	    },
+   118	    {
+   119	      "bytes": 1601,
+   120	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_REVIEW_ADJUDICATION.md",
+   121	      "sha256": "8b1453d8a3b7b9f365786fce77065642c2d7d26c6a0c56d81a67d31578b92d28"
+   122	    },
+   123	    {
+   124	      "bytes": 650,
+   125	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/INDEPENDENT_VERIFICATION.json",
+   126	      "sha256": "d16870b2c2dbbd68207c7dd081623a14565bb5a5330de05f8f0a1366a26e0e01"
+   127	    },
+   128	    {
+   129	      "bytes": 1549,
+   130	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/LAY_REPORT.md",
+   131	      "sha256": "b57204fde8bc92a0fa38ba8f81d836e53ed311cacf151ad45b0d5f0abfed56db"
+   132	    },
+   133	    {
+   134	      "bytes": 1368,
+   135	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PONDER_MAP.md",
+   136	      "sha256": "30d792b8e068292fd90755beb340375d873fe2f379db3bab6e7d4065a0104be5"
+   137	    },
+   138	    {
+   139	      "bytes": 5508,
+   140	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md",
+   141	      "sha256": "2154d49be95f45892216e1b450db874868c13372e88501a46f810bb885ad4d0e"
+   142	    },
+   143	    {
+   144	      "bytes": 2153,
+   145	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/REPAIR_PREREGISTRATION.md",
+   146	      "sha256": "7ddb8380b7a0bb73d58ba7593317674c512ee74132ec8ef31b0786edb1388809"
+   147	    },
+   148	    {
+   149	      "bytes": 1969,
+   150	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SOURCE_MANIFEST.tsv",
+   151	      "sha256": "941b20e354e1793fad34f2c0e99393c2b3d2ff17c3450bc9e7453f16463f85e9"
+   152	    },
+   153	    {
+   154	      "bytes": 1611,
+   155	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv",
+   156	      "sha256": "5b01fd1c877d62339ebe85f1c6326647b8382936eac84c748ee3651c93f8f800"
+   157	    },
+   158	    {
+   159	      "bytes": 1247,
+   160	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/TRANSMISSION_RECORD.md",
+   161	      "sha256": "e166b533e0fb0ca47cbf01d3124ff6d8547c9fa83fcb5a222a9be48d80ca9536"
+   162	    },
+   163	    {
+   164	      "bytes": 491,
+   165	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/VERIFICATION_RESULT.json",
+   166	      "sha256": "f0397ed78e508a723244b7ee5a39f9800e15e815f736405b62294fe1a58eb2d3"
+   167	    },
+   168	    {
+   169	      "bytes": 10671,
+   170	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py",
+   171	      "sha256": "7066fad91f63eca546998f0a8bc40c4e2eea302200232fa2d5280867340d5e31"
+   172	    },
+   173	    {
+   174	      "bytes": 4332,
+   175	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py",
+   176	      "sha256": "dd11c7db74c76840e429ba267243a75665999d75092406faddc0395ada40b055"
+   177	    },
+   178	    {
+   179	      "bytes": 7472,
+   180	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py",
+   181	      "sha256": "16710fb6865355626c0558c10135c2e06d1f2a08356d0e95bc432a3408c1605e"
+   182	    },
+   183	    {
+   184	      "bytes": 5414,
+   185	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py",
+   186	      "sha256": "5bc3edfa670dee1e4496cc9bdb40b3360b066e18f85e783a80d21520b885c903"
+   187	    },
+   188	    {
+   189	      "bytes": 3932,
+   190	      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py",
+   191	      "sha256": "c142dde33f62c8bcc09ace410b81e19c958d902ccc5e75376627ff271bf62bad"
+   192	    }
+   193	  ]
+   194	}
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SOURCE_MANIFEST.tsv' in /intake
+ succeeded in 0ms:
+     1	sha256	path	role
+     2	f0c045abf9810dc327d249d0df385cd7e8d6914eedfaf5b31c78d186eaa13d44	SIMPLE_METRIC_MACRO.md	founding metric orientation
+     3	74497246b6eca01e80b2bfb4b9d2871e10b237135aa3fe33485a9815ba350e06	CURRENT_SCIENTIFIC_PREMISES.md	current premise boundary
+     4	fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	original endpoint-relative rule
+     5	a15c22901f5f8f9401fb53b04cff23a0b14c3c5f56ac7bb4f3b23882d247669e	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md	original terminal landing
+     6	9e985bbd73a2ffe099a57257ea51778fff9ec75eb48721565faafaafd14edc62	udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md	primary scalar kernel
+     7	3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7	udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md	G166 bounded status
+     8	e51704c01a72c546401e31f59ecf0b1881ee2c273324ccba2e4572fc7d01941d	udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md	primary metric angular pullback
+     9	c1a1f722e393e431b1b0805a7e2d5ad8e27813c48db989f824b76898bc499593	udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md	G167 bounded status
+    10	611928ca840624448cf3c22759ecc7e9582cba8ae2f2a10749aa2ea6b0cc1913	udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md	supplied-germ plane theorem
+    11	24712719136b000e64367b6ebd234a2ef8d5b5f07ab493cfc4ea54e73b483ed9	udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md	G168 bounded status
+    12	2e19019f6e2829eaac4ac8fef92a4bb3dbd07c37258bb37a236a4812c4c444d4	udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md	G169 reversal counterexample and boundary
+    13	b31c31b2561c7d34fddee78218b4af823a69497978509841acbeab4df0d35ddd	udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md	G169 final conditional landing
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/INDEPENDENT_VERIFICATION.json' in /intake
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/DERIVATION_RESULT.json' in /intake
+ succeeded in 0ms:
+     1	{
+     2	  "angular_generation_attempts": 1213,
+     3	  "angular_readout_changed": 1200,
+     4	  "angular_shift_live": 1200,
+     5	  "angular_trials": 1200,
+     6	  "channel_trials": 1200,
+     7	  "checks_passed": 21600,
+     8	  "implementation": "independent standard-library Fraction; no production import",
+     9	  "landing_supported": "ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS__WITHIN_ONE_CONSISTENT_RECIPROCAL_CALIBRATION_CLASS__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED__COPRESENCE_NOT_LOAD_BEARING__CROSS_QUERY_AND_FULL_NONSCALAR_CARRY_REMAIN_OPEN",
+    10	  "seed": 1700819,
+    11	  "status": "PASS"
+    12	}
+
+ succeeded in 0ms:
+     1	{
+     2	  "angular_endpoint_A": {
+     3	    "P": [
+     4	      [
+     5	        "9/100",
+     6	        "9/50"
+     7	      ],
+     8	      [
+     9	        "9/50",
+    10	        "1"
+    11	      ]
+    12	    ],
+    13	    "base_q_squared": "4",
+    14	    "h": [
+    15	      [
+    16	        "-391/100",
+    17	        "9/50"
+    18	      ],
+    19	      [
+    20	        "9/50",
+    21	        "2"
+    22	      ]
+    23	    ],
+    24	    "q_squared": "152881/78524"
+    25	  },
+    26	  "angular_endpoint_B": {
+    27	    "P": [
+    28	      [
+    29	        "769/2500",
+    30	        "769/1250"
+    31	      ],
+    32	      [
+    33	        "769/1250",
+    34	        "769/625"
+    35	      ]
+    36	    ],
+    37	    "base_q_squared": "2531281/627264",
+    38	    "h": [
+    39	      [
+    40	        "-36699/10000",
+    41	        "3739/7500"
+    42	      ],
+    43	      [
+    44	        "3739/7500",
+    45	        "12446/5625"
+    46	      ]
+    47	    ],
+    48	    "q_squared": "12121349409/7531774000"
+    49	  },
+    50	  "angular_relative_q_squared": "237954210248079/287866285223500",
+    51	  "checks": [
+    52	    {
+    53	      "detail": "-L_A**2*T_A**2",
+    54	      "name": "endpoint_A_determinant",
+    55	      "passed": true
+    56	    },
+    57	    {
+    58	      "detail": "-L_B**2*T_B**2",
+    59	      "name": "endpoint_B_determinant",
+    60	      "passed": true
+    61	    },
+    62	    {
+    63	      "detail": "",
+    64	      "name": "endpoint_A_shift_live",
+    65	      "passed": true
+    66	    },
+    67	    {
+    68	      "detail": "",
+    69	      "name": "endpoint_B_shift_live",
+    70	      "passed": true
+    71	    },
+    72	    {
+    73	      "detail": "",
+    74	      "name": "endpoint_A_q2_from_metric",
+    75	      "passed": true
+    76	    },
+    77	    {
+    78	      "detail": "",
+    79	      "name": "endpoint_B_q2_from_metric",
+    80	      "passed": true
+    81	    },
+    82	    {
+    83	      "detail": "",
+    84	      "name": "two_way_terminal_readout_removes_shift",
+    85	      "passed": true
+    86	    },
+    87	    {
+    88	      "detail": "",
+    89	      "name": "relative_q_is_endpoint_ratio",
+    90	      "passed": true
+    91	    },
+    92	    {
+    93	      "detail": "0",
+    94	      "name": "relative_depth_is_endpoint_difference",
+    95	      "passed": true
+    96	    },
+    97	    {
+    98	      "detail": "",
+    99	      "name": "relative_ceff_identity",
+   100	      "passed": true
+   101	    },
+   102	    {
+   103	      "detail": "",
+   104	      "name": "reversal_q",
+   105	      "passed": true
+   106	    },
+   107	    {
+   108	      "detail": "",
+   109	      "name": "reversal_depth",
+   110	      "passed": true
+   111	    },
+   112	    {
+   113	      "detail": "",
+   114	      "name": "reversal_chi",
+   115	      "passed": true
+   116	    },
+   117	    {
+   118	      "detail": "",
+   119	      "name": "pure_branch_forward_q",
+   120	      "passed": true
+   121	    },
+   122	    {
+   123	      "detail": "",
+   124	      "name": "pure_branch_forward_depth",
+   125	      "passed": true
+   126	    },
+   127	    {
+   128	      "detail": "",
+   129	      "name": "pure_branch_reverse_depth",
+   130	      "passed": true
+   131	    },
+   132	    {
+   133	      "detail": "",
+   134	      "name": "surface_endpoint_readouts_equal",
+   135	      "passed": true
+   136	    },
+   137	    {
+   138	      "detail": "",
+   139	      "name": "surface_relative_depth_zero",
+   140	      "passed": true
+   141	    },
+   142	    {
+   143	      "detail": "",
+   144	      "name": "surface_reverse_relative_depth_zero",
+   145	      "passed": true
+   146	    },
+   147	    {
+   148	      "detail": "",
+   149	      "name": "surface_reversal_holds",
+   150	      "passed": true
+   151	    },
+   152	    {
+   153	      "detail": "",
+   154	      "name": "single_endpoint_quantity_is_not_arrow_depth",
+   155	      "passed": true
+   156	    },
+   157	    {
+   158	      "detail": "",
+   159	      "name": "angular_A_pullback_identity",
+   160	      "passed": true
+   161	    },
+   162	    {
+   163	      "detail": "",
+   164	      "name": "angular_B_pullback_identity",
+   165	      "passed": true
+   166	    },
+   167	    {
+   168	      "detail": "",
+   169	      "name": "angular_A_regular",
+   170	      "passed": true
+   171	    },
+   172	    {
+   173	      "detail": "",
+   174	      "name": "angular_B_regular",
+   175	      "passed": true
+   176	    },
+   177	    {
+   178	      "detail": "",
+   179	      "name": "angular_A_shift_live",
+   180	      "passed": true
+   181	    },
+   182	    {
+   183	      "detail": "",
+   184	      "name": "angular_B_shift_live",
+   185	      "passed": true
+   186	    },
+   187	    {
+   188	      "detail": "",
+   189	      "name": "angular_A_changes_endpoint_readout",
+   190	      "passed": true
+   191	    },
+   192	    {
+   193	      "detail": "",
+   194	      "name": "angular_B_changes_endpoint_readout",
+   195	      "passed": true
+   196	    },
+   197	    {
+   198	      "detail": "",
+   199	      "name": "angular_relative_reversal",
+   200	      "passed": true
+   201	    },
+   202	    {
+   203	      "detail": "",
+   204	      "name": "common_scale_A_cancels",
+   205	      "passed": true
+   206	    },
+   207	    {
+   208	      "detail": "",
+   209	      "name": "common_scale_B_cancels",
+   210	      "passed": true
+   211	    },
+   212	    {
+   213	      "detail": "",
+   214	      "name": "common_scale_relative_ratio_cancels",
+   215	      "passed": true
+   216	    },
+   217	    {
+   218	      "detail": "",
+   219	      "name": "matched_q_composition",
+   220	      "passed": true
+   221	    },
+   222	    {
+   223	      "detail": "",
+   224	      "name": "matched_depth_telescopes",
+   225	      "passed": true
+   226	    },
+   227	    {
+   228	      "detail": "",
+   229	      "name": "unmatched_middle_residual_exposed",
+   230	      "passed": true
+   231	    },
+   232	    {
+   233	      "detail": "",
+   234	      "name": "unmatched_middle_not_forced_zero",
+   235	      "passed": true
+   236	    },
+   237	    {
+   238	      "detail": "",
+   239	      "name": "shared_reciprocal_origin_cancels",
+   240	      "passed": true
+   241	    },
+   242	    {
+   243	      "detail": "",
+   244	      "name": "independent_recalibration_exposed",
+   245	      "passed": true
+   246	    },
+   247	    {
+   248	      "detail": "[]",
+   249	      "name": "source_hashes_match",
+   250	      "passed": true
+   251	    }
+   252	  ],
+   253	  "checks_passed": 40,
+   254	  "checks_total": 40,
+   255	  "landing": "ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS__WITHIN_ONE_CONSISTENT_RECIPROCAL_CALIBRATION_CLASS__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED__COPRESENCE_NOT_LOAD_BEARING__CROSS_QUERY_AND_FULL_NONSCALAR_CARRY_REMAIN_OPEN",
+   256	  "source_count": 12,
+   257	  "source_failures": [],
+   258	  "status": "DERIVED_BOUNDED_INTEGRATION_REPAIR",
+   259	  "surface_regrade": {
+   260	    "endpoint_phi_A_at_a_1": "log(2)/4",
+   261	    "endpoint_phi_B_at_a_1": "log(2)/4",
+   262	    "relative_delta_AB": "0",
+   263	    "relative_delta_BA": "0"
+   264	  },
+   265	  "unmatched_middle_residual": "Phi_B_left - Phi_B_right"
+   266	}
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/CATCH_PROOF_RESULT.json' in /intake
+ succeeded in 0ms:
+     1	{
+     2	  "catches": [
+     3	    {
+     4	      "caught": true,
+     5	      "detail": "1",
+     6	      "name": "single_endpoint_as_arrow_depth"
+     7	    },
+     8	    {
+     9	      "caught": true,
+    10	      "detail": "(Fraction(9, 10), Fraction(10, 9))",
+    11	      "name": "wrong_endpoint_order"
+    12	    },
+    13	    {
+    14	      "caught": true,
+    15	      "detail": "100/81",
+    16	      "name": "same_sign_reverse"
+    17	    },
+    18	    {
+    19	      "caught": true,
+    20	      "detail": "(Fraction(1, 2), Fraction(4, 9))",
+    21	      "name": "diagonal_readout_freezes_shift"
+    22	    },
+    23	    {
+    24	      "caught": true,
+    25	      "detail": "(Fraction(152881, 78524), Fraction(4, 1))",
+    26	      "name": "base_only_freezes_angular_gram"
+    27	    },
+    28	    {
+    29	      "caught": true,
+    30	      "detail": "(Fraction(509, 100), Fraction(152881, 78524))",
+    31	      "name": "post_readout_angular_correction"
+    32	    },
+    33	    {
+    34	      "caught": true,
+    35	      "detail": "(Fraction(9604, 9), Fraction(36, 1))",
+    36	      "name": "common_scale_contamination"
+    37	    },
+    38	    {
+    39	      "caught": true,
+    40	      "detail": "4/9",
+    41	      "name": "correct_common_scale_control"
+    42	    },
+    43	    {
+    44	      "caught": true,
+    45	      "detail": "7/6",
+    46	      "name": "broken_matched_telescoping"
+    47	    },
+    48	    {
+    49	      "caught": true,
+    50	      "detail": "(Fraction(35, 33), Fraction(7, 6))",
+    51	      "name": "unmatched_middle_forced_closed"
+    52	    },
+    53	    {
+    54	      "caught": true,
+    55	      "detail": "2/5",
+    56	      "name": "absolute_depth_erases_orientation"
+    57	    },
+    58	    {
+    59	      "caught": true,
+    60	      "detail": "1/3",
+    61	      "name": "independent_recalibration_called_gauge"
+    62	    },
+    63	    {
+    64	      "caught": true,
+    65	      "detail": "1",
+    66	      "name": "correct_reversal_control"
+    67	    }
+    68	  ],
+    69	  "catches_passed": 13,
+    70	  "catches_total": 13,
+    71	  "status": "PASS"
+    72	}
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/VERIFICATION_RESULT.json' in /intake
+ succeeded in 0ms:
+     1	{
+     2	  "independent_checks": 21600,
+     3	  "premise_verifier_returncode": 0,
+     4	  "premise_verifier_stdout": "PASS: G169-extended premise guards; PASS: 155-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
+     5	  "production_checks": 40,
+     6	  "required_files": 22,
+     7	  "semantic_catches": 13,
+     8	  "source_hashes": 12,
+     9	  "status": "PASS__REPAIR_READY__EXTERNAL_FOLLOWUP_REQUIRED"
+    10	}
+
+codex
+I’ve confirmed the sealed tree contains the repaired artifacts and that the stored results still advertise the bounded landing. I’m running the sealed-intake replay now because that is the repair that must work without repository or protected-package access.
+exec
+/bin/bash -lc 'python3 /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py' in /intake
+ exited 1 in 0ms:
+Traceback (most recent call last):
+  File "/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py", line 75, in <module>
+    require(
+  File "/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py", line 27, in require
+    raise AssertionError(message)
+AssertionError: sealed replay failed: derive_endpoint_relative_response.py
+
+Traceback (most recent call last):
+  File "/tmp/g170_sealed_replay_1r9ivj_6/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py", line 11, in <module>
+    import sympy as sp
+ModuleNotFoundError: No module named 'sympy'
+
+
+codex
+The sealed replay does not currently satisfy the registered packaging repair. It fails immediately because the replay invokes the production derivation script in the temp copy, and that script imports `sympy`, which is not included in the sealed intake.
+exec
+/bin/bash -lc "nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py | sed -n '1,80p'" in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Exact G170 endpoint-relative reciprocal response algebra."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	from pathlib import Path
+    10	
+    11	import sympy as sp
+    12	
+    13	
+    14	ROOT = Path(__file__).resolve().parents[1]
+    15	HERE = Path(__file__).resolve().parent
+    16	checks: list[dict[str, object]] = []
+    17	
+    18	
+    19	def check(name: str, condition: object, detail: object = "") -> None:
+    20	    passed = bool(condition)
+    21	    checks.append({"name": name, "passed": passed, "detail": str(detail)})
+    22	    if not passed:
+    23	        raise AssertionError(f"{name}: {detail}")
+    24	
+    25	
+    26	def source_hashes() -> tuple[int, list[str]]:
+    27	    rows = list(csv.DictReader((HERE / "SOURCE_MANIFEST.tsv").open(), delimiter="\t"))
+    28	    failures: list[str] = []
+    29	    for row in rows:
+    30	        actual = hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest()
+    31	        if actual != row["sha256"]:
+    32	            failures.append(row["path"])
+    33	    return len(rows), failures
+    34	
+    35	
+    36	def pair_metric(T: sp.Expr, L: sp.Expr, beta: sp.Expr) -> sp.Matrix:
+    37	    return sp.Matrix(
+    38	        [
+    39	            [-T**2, -T**2 * beta],
+    40	            [-T**2 * beta, L**2 - T**2 * beta**2],
+    41	        ]
+    42	    )
+    43	
+    44	
+    45	def q_squared_from_h(h: sp.Matrix) -> sp.Expr:
+    46	    return sp.factor(h[0, 0] ** 2 / (-h.det()))
+    47	
+    48	
+    49	def chi_from_exp2_depth(exp2_depth: sp.Expr) -> sp.Expr:
+    50	    return sp.cancel((exp2_depth - 1) / (exp2_depth + 1))
+    51	
+    52	
+    53	# 1. General endpoint decomposition and terminal c_E readout, with live shift.
+    54	T_A, L_A, T_B, L_B = sp.symbols("T_A L_A T_B L_B", positive=True)
+    55	beta_A, beta_B = sp.symbols("beta_A beta_B", real=True)
+    56	h_A = pair_metric(T_A, L_A, beta_A)
+    57	h_B = pair_metric(T_B, L_B, beta_B)
+    58	
+    59	check("endpoint_A_determinant", sp.factor(h_A.det()) == -T_A**2 * L_A**2, h_A.det())
+    60	check("endpoint_B_determinant", sp.factor(h_B.det()) == -T_B**2 * L_B**2, h_B.det())
+    61	check("endpoint_A_shift_live", h_A[0, 1].has(beta_A) and h_A[1, 1].has(beta_A))
+    62	check("endpoint_B_shift_live", h_B[0, 1].has(beta_B) and h_B[1, 1].has(beta_B))
+    63	check("endpoint_A_q2_from_metric", q_squared_from_h(h_A) == T_A**2 / L_A**2)
+    64	check("endpoint_B_q2_from_metric", q_squared_from_h(h_B) == T_B**2 / L_B**2)
+    65	
+    66	w_plus_A = T_A / (L_A - T_A * beta_A)
+    67	w_minus_A = -T_A / (L_A + T_A * beta_A)
+    68	inverse_slope_A = sp.simplify((1 / w_plus_A - 1 / w_minus_A) / 2)
+    69	check("two_way_terminal_readout_removes_shift", inverse_slope_A == L_A / T_A)
+    70	
+    71	Phi_A = sp.log(L_A / T_A) / 2
+    72	Phi_B = sp.log(L_B / T_B) / 2
+    73	q_A = T_A / L_A
+    74	q_B = T_B / L_B
+    75	
+    76	# 2. The original terminal endpoint rule: directed depth is the ratio of endpoint ratios.
+    77	q_AB = sp.cancel(q_B / q_A)
+    78	q_BA = sp.cancel(q_A / q_B)
+    79	exp2_delta_AB = sp.cancel((L_B / T_B) / (L_A / T_A))
+    80	delta_AB_from_q = -sp.log(q_AB) / 2
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXECUTION_NOTE.md' in /intake
+ succeeded in 0ms:
+     1	# G170 execution note
+     2	
+     3	Date: 2026-08-19
+     4	
+     5	Commands:
+     6	
+     7	```bash
+     8	python3 udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py
+     9	python3 udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py
+    10	python3 udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py
+    11	```
+    12	
+    13	Observed outputs:
+    14	
+    15	```text
+    16	production: 40/40
+    17	independent: 21,600/21,600 over 1,200 channel and 1,200 regular angular trials
+    18	angular generation: 1,213 attempts for 1,200 accepted regular trials
+    19	angular shift live: 1,200/1,200
+    20	angular readout changed: 1,200/1,200
+    21	mutation catches: 13/13
+    22	```
+    23	
+    24	CPU-only exact algebra. No long process or GPU solve was launched.
+    25	
+    26	The first sealed intake's package verifier depended on repository Git history and the outer
+    27	premise verifier. After external review, `verify_sealed_intake.py` was added to verify copied source
+    28	hashes and replay these three internal calculations in a writable temporary copy without modifying
+    29	or reading outside the corrected sealed intake. The repository-wide premise verifier remains a
+    30	separate outer banking gate.
+    31	
+    32	Corrected sealed replay observed:
+    33	
+    34	```text
+    35	PASS__SEALED_INTERNAL_REPLAY__OUTER_PREMISE_GATE_SEPARATE
+    36	36 sealed tree files; 12 frozen sources; production 40/40;
+    37	independent 21,600/21,600; mutation catches 13/13
+    38	```
+
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md' in /intake
+ succeeded in 0ms:
+     1	# G170 audit report — endpoint-relative bidirectional pair response
+     2	
+     3	Date: 2026-08-19
+     4	Grade: `LEAD__EXTERNAL_REVIEW_VALIDATED_REPAIR__CALIBRATION_SCOPE_AND_SEALED_REPLAY_REPAIRED__FOLLOWUP_REQUIRED`
+     5	
+     6	## Primary landing after fresh review
+     7	
+     8	```text
+     9	ENDPOINT_RELATIVE_REPAIR_VALID_BUT_CALIBRATION_CARRY_STILL_LOAD_BEARING
+    10	```
+    11	
+    12	## Result first
+    13	
+    14	The fresh external reviewer confirmed that the apparent G169 reversal gap came from applying the
+    15	terminal scalar at each endpoint as though
+    16	each value were already the directed pair depth. The original 2026-08-09 reciprocal-`c_E` theorem
+    17	had already derived the correct two-endpoint rule:
+    18	
+    19	\[
+    20	\delta_{AB}
+    21	=\frac12\log\frac{L_B/T_B}{L_A/T_A}
+    22	=\Phi_B-\Phi_A.
+    23	\]
+    24	
+    25	Consequently, swapping the same two endpoint readouts forces
+    26	
+    27	\[
+    28	\delta_{BA}=-\delta_{AB},
+    29	\qquad
+    30	q_{BA}=q_{AB}^{-1},
+    31	\qquad
+    32	\chi_{BA}=-\chi_{AB}.
+    33	\]
+    34	
+    35	No co-presence premise, separately supplied negative depth, path, `X_max`, or observational input
+    36	is used.
+    37	
+    38	The theorem is scoped to endpoints on one consistently calibrated pair surface, or an equivalent
+    39	endpoint family with explicitly matched reciprocal calibration carry. Independent reciprocal
+    40	recalibrations remain different inputs and shift the candidate cross-family depth by `c_B-c_A`.
+    41	
+    42	## G169 regrade
+    43	
+    44	G169's flat surface witness has
+    45	
+    46	\[
+    47	\Phi_A=\Phi_B=\frac14\log(1+a^2).
+    48	\]
+    49	
+    50	It therefore gives \(\delta_{AB}=\delta_{BA}=0\). The witness disproves treating one endpoint's
+    51	nonzero reciprocal density as the arrow depth, but it is not a counterexample to endpoint-relative
+    52	reversal.
+    53	
+    54	G169 remains correct that ordinary surface orientation reversal does not negate a local terminal
+    55	density. Its stronger implication—that an independently supplied inverse scalar is needed—does not
+    56	survive restoration of the original endpoint-relative rule.
+    57	
+    58	## Metric and orchestra
+    59	
+    60	The endpoint readouts are computed only after the G167 pullbacks are complete. Two exact nonradial
+    61	endpoint witnesses retain live shift and angular Gram terms. Both angular sectors change their
+    62	terminal ratios, and the relative squared ratio reverses exactly. Independent common endpoint
+    63	scales cancel.
+    64	
+    65	Thus the current bounded chain is:
+    66	
+    67	```text
+    68	primary metric
+    69	  -> supplied endpoint pair germs
+    70	  -> full endpoint pullbacks h_A,h_B, including angular Gram
+    71	  -> terminal endpoint ratios q_A,q_B
+    72	  -> q_AB=q_B/q_A
+    73	  -> delta_AB=-(1/2)log(q_AB).
+    74	```
+    75	
+    76	The observers and endpoint data are arguments of this calculation. They are not an additional
+    77	physical law the metric must select. This evaluator statement does not select which endpoints form
+    78	one experiment and does not derive cross-query calibration carry.
+    79	
+    80	## Exact evidence
+    81	
+    82	- preregistered and pushed at `f9a6d1e6` before outcome algebra;
+    83	- 12/12 frozen source hashes pass;
+    84	- production symbolic/source checks: 40/40;
+    85	- independent standard-library `Fraction` checks: 21,600/21,600;
+    86	- 1,200/1,200 independent live-shift channel trials;
+    87	- 1,200/1,200 independent regular nonradial angular trials; all retain nonzero pair shift and
+    88	  angular modification of the readout;
+    89	- mutation catches: 13/13;
+    90	- fresh external review returned
+    91	  `ENDPOINT_RELATIVE_REPAIR_VALID_BUT_CALIBRATION_CARRY_STILL_LOAD_BEARING`;
+    92	- the review independently confirmed the mathematical repair and required a calibration-domain
+    93	  clarification plus a self-contained sealed replay;
+    94	- those repairs are registered and implemented; repair-only follow-up remains required;
+    95	- repository premise and regression gates must be rerun after final package assembly.
+    96	
+    97	## Scope and remaining open work
+    98	
+    99	Derived in this bounded arena:
+   100	
+   101	- terminal endpoint reciprocal densities from the complete calibrated pair metrics;
+   102	- their endpoint-relative scalar depth inside one consistently carried reciprocal calibration
+   103	  class;
+   104	- reversal by endpoint swap;
+   105	- matched scalar composition on shared calibration states;
+   106	- common-scale cancellation;
+   107	- inclusion of the primary metric's angular Gram before relative readout.
+   108	
+   109	Not derived here:
+   110	
+   111	- a positive metric-space distance or identity-of-indiscernibles;
+   112	- full non-scalar carry, connection, holonomy, or arbitrary triangle closure;
+   113	- cross-query reciprocal calibration carry;
+   114	- event selection, general ambient/time-live extension, global completion, `X_max`, action, source,
+   115	  matter, observations, or signalling.
+   116	
+   117	## Maximum conclusion
+   118	
+   119	The primary reciprocal scalar no longer has an inverse-ownership gap once it is computed as the
+   120	already-derived difference of two endpoint densities in one consistently calibrated pair
+   121	calculation. Cross-query reciprocal calibration and the full non-scalar carry remain load-bearing
+   122	open structures. The result remains a `LEAD` until a repair-only follow-up accepts the corrected
+   123	scope and sealed replay.
+
+codex
+`ENDPOINT_RELATIVE_REPAIR_VALID_BUT_CALIBRATION_CARRY_STILL_LOAD_BEARING`
+
+1. High: the sealed-replay repair is not actually self-contained. The preregistration requires a sealed verifier that replays the package “without repository or protected-package access” [REPAIR_PREREGISTRATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/REPAIR_PREREGISTRATION.md:24), but [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:60) re-executes [derive_endpoint_relative_response.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py:11), which hard-depends on `sympy`. Running `python3 /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py` from `/intake` failed with `ModuleNotFoundError: No module named 'sympy'`. That directly contradicts the claimed sealed replay success in [EXECUTION_NOTE.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXECUTION_NOTE.md:26), [EVIDENCE_GATES.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md:12), and [AUDIT_REPORT.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md:94).
+
+2. No finding on the registered calibration-scope repair or bounded theorem integrity. The derivation now explicitly confines the theorem to one consistently calibrated endpoint family and preserves independent reciprocal recalibration as load-bearing [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:47), [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:90), [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:243). The same boundary is carried into the evidence gates and ledger [EVIDENCE_GATES.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md:6), [STATUS_LEDGER.tsv](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:3), [STATUS_LEDGER.tsv](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:10). The stored production and independent outputs also retain the bounded landing rather than the overbroad one [DERIVATION_RESULT.json](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/DERIVATION_RESULT.json:255), [INDEPENDENT_VERIFICATION.json](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/INDEPENDENT_VERIFICATION.json:9).
+
+I did not run [verify_package.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py:113) because this review was restricted to `/intake`, and that verifier intentionally reaches outside the sealed intake into repository state and the outer premise gate.
+tokens used
+38,153
+
+Script done on 2026-08-19 11:40:19-04:00 [COMMAND_EXIT_CODE="0"]

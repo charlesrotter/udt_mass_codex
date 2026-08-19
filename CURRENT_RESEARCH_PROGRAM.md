@@ -12,15 +12,15 @@ of the declared primary static-spherical four-metric. In this bounded arena the 
 reciprocal and areal-screen blocks and zero ambient mixing; the supplied pair plane alone determines
 its tangent participation. G168 derives that pair plane uniquely from a **supplied** regular
 clock/separation germ by metric orthogonal projection. The metric algebra is closed locally; the
-physical relation's ownership of that germ is not yet derived. G169 shows that one supplied
-two-ended reciprocal relation has an exact reversal quotient and matched scalar composition, but
-does not promote that quotient to physical UDT distance. Both endpoint germs and their inverse
-carry still have to be physically owned.
+physical relation's ownership of that germ is not derived from bare labels. G170 then restores the
+endpoint-relative rule already implicit in the calibrated terminal ratios:
+`delta_AB=Phi_B-Phi_A`. Reversal by endpoint swap and matched composition through a literally
+shared middle calibration state are automatic. No co-presence premise or separately supplied
+inverse scalar is needed. Cross-query reciprocal calibration carry remains open.
 
-Geometry can read one ordered relation's pair metric, terminal kernel, conditional reversal,
-owned derivative/transport channels, and compatibility. Physical two-ended germ/event calibration,
-inverse carry, general ambient/micro assembly, completion, physical multidirectional carrier, and
-route/frame transport remain open.
+Geometry evaluates supplied germs, pair metrics, endpoint-relative scalar, and owned transport
+channels. Event selection, cross-query carry, ambient/micro assembly, completion,
+physical multidirectional carrier, and route/frame transport remain open.
 
 ## Controlling local evaluator
 
@@ -40,12 +40,11 @@ h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z,
 B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 ```
 
-G168 answers the one-ended algebraic part: supplied `(u_A,s_AB)` determines `Y,Z`. G169 answers the
-conditional reversal part after both endpoint germs and inverse carry are supplied. The remaining
-local question is whether physical ordered-pair semantics owns that complete two-ended data, not
-how to select five independent histories.
+G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities. The next
+scalar question is whether genuine overlap aligns separately represented queries.
 
-Source: `udt_g169_bidirectional_copresent_metric_distance_2026-08-18/`; supplied-germ projection:
+Source: `udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/`; prior reversal control:
+`udt_g169_bidirectional_copresent_metric_distance_2026-08-18/`; supplied-germ projection:
 `udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/`; pullback:
 `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; scalar descent:
 `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; conditional complete
@@ -55,15 +54,12 @@ evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ### G129--G165 — reconstruction and scaffold controls
 
-G129--G145 reconstruct `g` from rank-complete pullbacks, derive normalized `chi`, and show that
-genuine overlap—not shared endpoints—owns carry; numerical valuation and realization stay open.
-G146--G163 bound direction, carrier, first jets, curvature, scale, score, carry, and quotient, then
-remove `X_max` from the scalar kernel. G164 removes extra-profile and independent-history
-scaffolds. G165 is an unrestricted-envelope conformal control, not evidence for multiple physical
-UDT metrics. `INDEX.md` routes exact packages.
+G129--G145 reconstruct `g`, derive `chi`, and require genuine overlap for carry; valuation remains
+open. G146--G163 bound direction, first jets, scale, score, carry, and quotient, then remove
+`X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
 
 Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155
-G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169. Retained guards: rank ten;
+G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170. Retained guards: rank ten;
 positive conformal class; common-scale ownership; bivector area bilinear; physical multidirectional
 carrier; first-order ceiling; 184,300 covariance rows unresolved.
 
@@ -95,13 +91,20 @@ a proposal, not an adopted premise.
 
 ### G169 — supplied two-ended reversal quotient
 
-On one supplied two-ended reciprocal relation, endpoint exchange is a gauge-compatible involution
-and quotient. Pure reciprocal depth, its ratio, and `chi` reverse exactly, and matched
-one-dimensional scalar chains compose. Ordinary surface reversal does not generate reciprocal
-inversion; arbitrary triangle additivity is neither required nor derived; scalar closure does not
-close the full carry. The external review therefore retains the conditional reversal theorem while
-classifying the quotient as `NOT_YET_PHYSICAL_UDT_DISTANCE`. Physical ownership of both endpoint
-germs and inverse carry remains `OPEN_NOT_DERIVED`.
+G169 conditionally classified endpoint exchange and showed ordinary surface reversal is not
+reciprocal inversion. G170 supersedes its single-endpoint interpretation; arbitrary triangle and
+full carry closure remain open.
+
+### G170 — endpoint-relative bidirectional response
+
+For completed endpoint pair metrics in one consistently carried reciprocal calibration class,
+`Phi_X=(1/2)log(L_X/T_X)` and `delta_AB=Phi_B-Phi_A`. Reversal follows by exchanging the same two
+endpoint readings, and matched scalar composition telescopes through a literally shared middle
+state. G169's equal nonzero endpoint densities therefore yield zero relative depth and do not
+counterexample reversal. The primary angular Gram enters each endpoint pullback before the
+difference. Co-presence is not load-bearing. Independent recalibrations shift the proposed joined
+depth by `c_B-c_A`, so cross-query reciprocal calibration carry remains `OPEN_LOAD_BEARING`; full
+screen, connection, orientation, and holonomy carry remain separate.
 
 ## Observational anchors
 

@@ -1,0 +1,21 @@
+ENDPOINT_RELATIVE_REPAIR_VALID_BUT_CALIBRATION_CARRY_STILL_LOAD_BEARING
+
+1. The frozen chain supports three distinct objects. The founded metric is the G166 reciprocal block \(h_{AB}=\mathrm{diag}(-e^{-2d},e^{2d})\). A general endpoint response is the full regular pullback \(h_X=-T_X^2(dy^0+\beta_Xdy^1)^2+L_X^2(dy^1)^2\), including shift and any G167 angular Gram content. The endpoint density is \(\Phi_X=\tfrac12\log(L_X/T_X)\), the terminal endpoint ratio is \(q_X=T_X/L_X=e^{-2\Phi_X}\), and the directed depth is not either endpoint scalar alone but the relative difference \(\delta_{AB}=\Phi_B-\Phi_A\).
+
+2. The endpoint-relative rule is genuinely present in the 2026-08-09 source. That source explicitly states, for two points on one consistently calibrated pair surface, \(\delta_{AB}=\tfrac12\log[(L_B/T_B)/(L_A/T_A)]=\Phi_B-\Phi_A\). G170 is therefore recovering an existing rule, not inventing it, but the original scope is narrower than G170’s “any supplied set \(S\)” phrasing.
+
+3. On that original scope, \(q_{AB}=q_B/q_A\) and \(\delta_{AB}=\Phi_B-\Phi_A\) follow algebraically from \(q_X=e^{-2\Phi_X}\). Reversal then follows by swapping the same endpoint data, and matched composition follows by telescoping on a literally shared middle calibrated state. None of this proves closure for independently rebuilt or independently recalibrated middle states.
+
+4. The exact G169 flat witness does not survive as a counterexample to scalar reciprocal reversal. With \(h_A=h_B=\mathrm{diag}(-1,1+a^2)\), one gets \(\Phi_A=\Phi_B=\tfrac14\log(1+a^2)\), so \(\delta_{AB}=\delta_{BA}=0\). It remains a valid counterexample only to the mistaken identification of one endpoint density with arrow depth.
+
+5. The two G167 nonradial witnesses do show that shift and the full angular Gram enter before relative readout. The pullback formula \(h=Y^TB^T\eta_2BY+Z^TQ^TQZ\) is used first, both displayed endpoint witnesses have nonzero \(h_{01}\), both terminal \(q_X\) values differ from base-only values, and no hidden scalar \(\mu\) or post-readout angular patch appears in the sealed derivation or scripts.
+
+6. The pair-groupoid uniqueness claim is justified only on supplied endpoint states that share one consistent calibration class. The 2026-08-09 source does not justify uniqueness on an arbitrary disjoint set of regular endpoint states. G170 itself admits the obstruction: independent reciprocal recalibration changes \(\delta_{AB}\) by \(c_B-c_A\).
+
+7. The remaining calibration carry is real and should stay separated into layers. Scalar endpoint differencing kills independent common positive scale and any shared additive origin shift, but it does not kill independent reciprocal recalibration. Full screen/orientation/connection/holonomy and cross-query carry are still open and are not closed by the scalar ratio theorem.
+
+8. Co-presence is not mathematically load-bearing anywhere in the G170 scalar proof. The derivation uses supplied endpoint metrics or endpoint readouts only. But removing co-presence from this algebra does not derive the physical rule that selects which endpoints belong to one experiment.
+
+9. At the level of mathematical typing, “observers/endpoints are evaluator arguments” is correct for the scalar map \((h_A,h_B)\mapsto\Phi_B-\Phi_A\). It is not a solution to the separate selector problem. G168 still leaves physical germ ownership as an additional working postulate, so G170 fixes evaluator typing but not endpoint-selection typing.
+
+10. The production algebra is strong on the stated formulas, the mutation checks target the right failure modes, and the independent script is computationally separate. The caveats are that the independent script hardcodes the repaired endpoint-difference structure rather than independently deriving its provenance, and the sealed intake cannot replay the advertised freeze/premise verifier path because `verify_package.py` depends on `.git` history and `verify_current_scientific_premises.py`, neither of which is present inside `/intake`. The mathematical repair holds in its bounded calibrated scope, but the calibration-carry boundary remains load-bearing.

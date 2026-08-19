@@ -1,0 +1,13 @@
+{
+  "angular_generation_attempts": 1213,
+  "angular_readout_changed": 1200,
+  "angular_shift_live": 1200,
+  "angular_trials": 1200,
+  "channel_trials": 1200,
+  "checks_passed": 21600,
+  "implementation": "independent standard-library Fraction; no production import",
+  "landing_supported": "ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS__WITHIN_ONE_CONSISTENT_RECIPROCAL_CALIBRATION_CLASS__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED__COPRESENCE_NOT_LOAD_BEARING__CROSS_QUERY_AND_FULL_NONSCALAR_CARRY_REMAIN_OPEN",
+  "no_site": false,
+  "seed": 1700819,
+  "status": "PASS"
+}

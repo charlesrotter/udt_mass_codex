@@ -1,0 +1,73 @@
+{
+  "catches": [
+    {
+      "caught": true,
+      "detail": "1",
+      "name": "single_endpoint_as_arrow_depth"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(9, 10), Fraction(10, 9))",
+      "name": "wrong_endpoint_order"
+    },
+    {
+      "caught": true,
+      "detail": "100/81",
+      "name": "same_sign_reverse"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(1, 2), Fraction(4, 9))",
+      "name": "diagonal_readout_freezes_shift"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(152881, 78524), Fraction(4, 1))",
+      "name": "base_only_freezes_angular_gram"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(509, 100), Fraction(152881, 78524))",
+      "name": "post_readout_angular_correction"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(9604, 9), Fraction(36, 1))",
+      "name": "common_scale_contamination"
+    },
+    {
+      "caught": true,
+      "detail": "4/9",
+      "name": "correct_common_scale_control"
+    },
+    {
+      "caught": true,
+      "detail": "7/6",
+      "name": "broken_matched_telescoping"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(35, 33), Fraction(7, 6))",
+      "name": "unmatched_middle_forced_closed"
+    },
+    {
+      "caught": true,
+      "detail": "2/5",
+      "name": "absolute_depth_erases_orientation"
+    },
+    {
+      "caught": true,
+      "detail": "1/3",
+      "name": "independent_recalibration_called_gauge"
+    },
+    {
+      "caught": true,
+      "detail": "1",
+      "name": "correct_reversal_control"
+    }
+  ],
+  "catches_passed": 13,
+  "catches_total": 13,
+  "no_site": false,
+  "status": "PASS"
+}

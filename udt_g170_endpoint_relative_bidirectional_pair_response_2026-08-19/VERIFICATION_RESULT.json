@@ -1,0 +1,10 @@
+{
+  "independent_checks": 21600,
+  "premise_verifier_returncode": 0,
+  "premise_verifier_stdout": "PASS: G170-extended premise guards; PASS: 156-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
+  "production_checks": 40,
+  "required_files": 33,
+  "semantic_catches": 13,
+  "source_hashes": 12,
+  "status": "PASS__VERIFIED_WITH_CAVEATS__ENDPOINT_RELATIVE_THEOREM__CROSS_QUERY_CARRY_OPEN"
+}

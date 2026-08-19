@@ -196,6 +196,7 @@ def validate_startup_surface(root: Path) -> None:
             "G167",
             "G168",
             "G169",
+            "G170",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -233,7 +234,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "155-row exact registry",
+            "156-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -286,6 +287,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/",
             "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/",
             "udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/",
+            "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -324,6 +326,7 @@ def validate_startup_surface(root: Path) -> None:
             "G166",
             "G167",
             "G168",
+            "G170",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -361,6 +364,7 @@ def validate_startup_surface(root: Path) -> None:
             "G166",
             "G167",
             "G168",
+            "G170",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -381,29 +385,16 @@ def validate_startup_surface(root: Path) -> None:
             "G146",
             "G147",
             "G148",
-            "G149",
-            "G150",
-            "G151",
-            "G152",
-            "G153",
-            "G154",
-            "G155",
-            "G156",
-            "G157",
-            "G158",
-            "G159",
-            "G160",
-            "G161",
-            "G162",
-            "G163",
+            "G149--G163",
             "G165",
             "G166",
             "G167",
             "G168",
+            "G170",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "155-row",
+            "156-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -662,9 +653,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 155, "premise registry must contain exactly 155 rows")
+    require(len(rows) == 156, "premise registry must contain exactly 156 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 155, "duplicate premise id")
+    require(len(by_id) == 156, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -3803,6 +3794,41 @@ def main() -> None:
         == "udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md",
         "G169 source changed",
     )
+    require(
+        by_id["G170"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED__FINAL_MECHANICAL_CLOSURE_PASS__ENDPOINT_RELATIVE_DEPTH_EQUALS_PHI_B_MINUS_PHI_A_IN_ONE_CONSISTENT_RECIPROCAL_CALIBRATION_CLASS"
+        ),
+        "G170 endpoint-relative landing regressed or promoted",
+    )
+    require(by_id["G170"]["epistemic_label"] == "MIXED", "G170 label changed")
+    for open_item in (
+        "cross-query reciprocal calibration carry and zero alignment",
+        "event selection and query population",
+        "full screen shift orientation connection holonomy and non-scalar carry",
+        "arbitrary triangle and route closure",
+        "positive metric-space distance identity separation and triangle axioms",
+        "general ambient time-live micro and global extension",
+        "coincidence null singular and cut strata",
+        "dimensionful separation numerical Xmax",
+    ):
+        require(open_item in by_id["G170"]["open_scope"], f"G170 open boundary absent: {open_item}")
+    for guard in (
+        "single endpoint density called directed arrow depth",
+        "G169 equal nonzero endpoint densities called a reversal counterexample after endpoint differencing",
+        "independently recalibrated endpoint densities subtracted without lawful carry",
+        "endpoint swap called a positive metric-space distance theorem",
+        "scalar telescoping called full non-scalar carry closure",
+        "angular Gram or shift appended after terminal readout or replaced by scalar mu",
+        "co-presence called load-bearing",
+        "supplied endpoint arguments called a metric selection law",
+        "path Xmax fit dynamics observations or protected work inserted",
+    ):
+        require(guard in by_id["G170"]["forbidden_regression"], f"G170 guard absent: {guard}")
+    require(
+        by_id["G170"]["controlling_source"]
+        == "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md",
+        "G170 source changed",
+    )
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -3881,7 +3907,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G169-extended premise guards; PASS: 155-row premise "
+        "PASS: G170-extended premise guards; PASS: 156-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

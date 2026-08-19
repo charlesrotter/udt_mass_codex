@@ -10,26 +10,24 @@ primary spherical four-metric: the metric fixes `B,Q,S=0`, the supplied pair pla
 and the angular Gram enters before readout.
 The former `B,Q,S,Y,Z` envelope is therefore metric-fixed plus pair-kinematic in this bounded arena.
 G168 derives that plane from a supplied clock/separation germ, path-free; physical germ
-ownership remains open. G169 derives an exact reversal quotient on a supplied two-ended reciprocal
-relation, but does not supply that relation or establish physical UDT distance.
+ownership is not derived from bare labels. G170 regrades G169: on one consistently calibrated
+endpoint family the directed scalar is `delta_AB=Phi_B-Phi_A`, so reversal and matched composition
+are automatic. Cross-query calibration carry remains open; this is not a positive metric distance.
 
 Dependency spine:
 
-- G129--G134: rank ten pullbacks and bivector area bilinear recover `g`; scalars stop at conformal class.
+- G129--G134: pullbacks and bivector area bilinear recover `g`; scalars stop at conformal class.
 - G135--G139/G163: `chi=tanh(phi_pair)` composes on matched depths; route transport is
   separate and `x=X_max chi` conditional.
-- G140--G144: genuine overlap owns carry; endpoints do not glue sheets.
+- G140--G144: overlap owns carry.
 - G145: values determine `g` on a supplied atlas, not numerical/global valuation or realization.
 - G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
   bounded controls; G163 removes `X_max` from the kernel.
-- G164--G165: no extra profile or ten histories; G165 is an unrestricted-envelope control.
-- G166: the primary pair metric owns its scalar kernel.
-- G167: the primary spherical metric owns its bounded pair orchestra.
-- G168: a supplied pair germ determines the plane; physical germ ownership remains open.
-- G169: a supplied two-ended relation reverses and composes scalarly; endpoint-germ and inverse-carry
-  ownership remain open.
+- G164 G165 G166 G167 G168 G169: scaffold, kernel, pullback, germ, and reversal controls.
+- G170: completed endpoint densities differ to give directed depth; cross-query reciprocal and
+  non-scalar carry remain open.
 
-Physical two-ended germ and inverse-carry ownership, ambient extension, separation, completion, and
+Event selection, cross-query calibration carry, ambient extension, separation, completion, and
 `X_max` remain open.
 
 ## Observational pointer
@@ -56,8 +54,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Audit whether founding co-presence semantics derives both calibrated endpoint germs and inverse
-carry. Do not call the G169 quotient physical distance, redo G168, or insert `X_max`, fits, paths,
-or target responses.
+Audit whether genuine overlap of primary-metric pair pullbacks aligns reciprocal calibration across
+separately represented queries. Do not revive co-presence or a separate inverse scalar, call the
+endpoint difference a positive metric distance, redo G168, or insert `X_max`, fits, or paths.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

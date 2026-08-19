@@ -1,0 +1,266 @@
+{
+  "angular_endpoint_A": {
+    "P": [
+      [
+        "9/100",
+        "9/50"
+      ],
+      [
+        "9/50",
+        "1"
+      ]
+    ],
+    "base_q_squared": "4",
+    "h": [
+      [
+        "-391/100",
+        "9/50"
+      ],
+      [
+        "9/50",
+        "2"
+      ]
+    ],
+    "q_squared": "152881/78524"
+  },
+  "angular_endpoint_B": {
+    "P": [
+      [
+        "769/2500",
+        "769/1250"
+      ],
+      [
+        "769/1250",
+        "769/625"
+      ]
+    ],
+    "base_q_squared": "2531281/627264",
+    "h": [
+      [
+        "-36699/10000",
+        "3739/7500"
+      ],
+      [
+        "3739/7500",
+        "12446/5625"
+      ]
+    ],
+    "q_squared": "12121349409/7531774000"
+  },
+  "angular_relative_q_squared": "237954210248079/287866285223500",
+  "checks": [
+    {
+      "detail": "-L_A**2*T_A**2",
+      "name": "endpoint_A_determinant",
+      "passed": true
+    },
+    {
+      "detail": "-L_B**2*T_B**2",
+      "name": "endpoint_B_determinant",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "endpoint_A_shift_live",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "endpoint_B_shift_live",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "endpoint_A_q2_from_metric",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "endpoint_B_q2_from_metric",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "two_way_terminal_readout_removes_shift",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "relative_q_is_endpoint_ratio",
+      "passed": true
+    },
+    {
+      "detail": "0",
+      "name": "relative_depth_is_endpoint_difference",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "relative_ceff_identity",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reversal_q",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reversal_depth",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "reversal_chi",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure_branch_forward_q",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure_branch_forward_depth",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "pure_branch_reverse_depth",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_endpoint_readouts_equal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_relative_depth_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_reverse_relative_depth_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "surface_reversal_holds",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "single_endpoint_quantity_is_not_arrow_depth",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_A_pullback_identity",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_B_pullback_identity",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_A_regular",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_B_regular",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_A_shift_live",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_B_shift_live",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_A_changes_endpoint_readout",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_B_changes_endpoint_readout",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "angular_relative_reversal",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "common_scale_A_cancels",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "common_scale_B_cancels",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "common_scale_relative_ratio_cancels",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_q_composition",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "matched_depth_telescopes",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "unmatched_middle_residual_exposed",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "unmatched_middle_not_forced_zero",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "shared_reciprocal_origin_cancels",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "independent_recalibration_exposed",
+      "passed": true
+    },
+    {
+      "detail": "[]",
+      "name": "source_hashes_match",
+      "passed": true
+    }
+  ],
+  "checks_passed": 40,
+  "checks_total": 40,
+  "landing": "ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS__WITHIN_ONE_CONSISTENT_RECIPROCAL_CALIBRATION_CLASS__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED__COPRESENCE_NOT_LOAD_BEARING__CROSS_QUERY_AND_FULL_NONSCALAR_CARRY_REMAIN_OPEN",
+  "source_count": 12,
+  "source_failures": [],
+  "status": "DERIVED_BOUNDED_INTEGRATION_REPAIR",
+  "surface_regrade": {
+    "endpoint_phi_A_at_a_1": "log(2)/4",
+    "endpoint_phi_B_at_a_1": "log(2)/4",
+    "relative_delta_AB": "0",
+    "relative_delta_BA": "0"
+  },
+  "unmatched_middle_residual": "Phi_B_left - Phi_B_right"
+}

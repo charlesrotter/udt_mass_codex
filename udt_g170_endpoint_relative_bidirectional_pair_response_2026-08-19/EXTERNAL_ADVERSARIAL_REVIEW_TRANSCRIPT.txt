@@ -1,0 +1,3596 @@
+Script started on 2026-08-19 11:29:23-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /intake
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a01aa4-34fe-7481-bed7-288e1c3935af
+--------
+user
+Read /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md and perform exactly that cold adversarial review. Inspect only /intake. Do not edit files, continue the research, use the internet, or inspect anything outside the sealed intake. Return exactly one permitted landing followed by the requested bounded analysis.
+codex
+I’m reading the sealed review instructions first, then I’ll inspect only the relevant material under `/intake` and produce the bounded adversarial review in the required format.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md" in /intake
+ succeeded in 0ms:
+# G170 cold adversarial review request
+
+Review the sealed intake from scratch. Do not defend the proposed result. Do not edit files,
+continue the research, use the internet, or inspect anything outside the intake.
+
+## Question
+
+The G166--G169 chain derives a metric-owned reciprocal kernel, a bounded primary-metric angular
+pair pullback, a supplied-germ plane, and a conditional reversal quotient. G169 then found that
+ordinary surface reversal can leave the same nonzero terminal reciprocal density at both ends and
+concluded that an inverse two-ended relation remained unowned.
+
+G170 claims this was a category error. The original terminal reciprocal-`c_E` derivation defined
+the directed pair depth by comparing the two endpoint readouts:
+
+\[
+\Phi_X=\frac12\log\frac{L_X}{T_X},
+\qquad
+\delta_{AB}=\Phi_B-\Phi_A
+=-\frac12\log\frac{q_B}{q_A},
+\qquad q_X=\frac{T_X}{L_X}.
+\]
+
+The claimed consequence is that reversal and matched scalar composition are automatic when the
+same endpoint data are swapped, without any co-presence premise or separately supplied negative
+depth. G169's equal nonzero endpoint densities then yield zero relative depth rather than a
+same-sign reversal failure.
+
+## Required audit
+
+1. Reconstruct the founding metric, terminal pair decomposition, and endpoint-relative rule from
+   the frozen sources. Distinguish endpoint density, directed depth, and complete pair response.
+2. Determine whether the endpoint-relative rule was genuinely derived in the 2026-08-09 source or
+   is being reintroduced opportunistically.
+3. Prove or refute
+   \(q_{AB}=q_B/q_A\), \(\delta_{AB}=\Phi_B-\Phi_A\), reversal, and matched composition.
+4. Re-evaluate the exact G169 flat surface witness. Decide whether it is a counterexample to
+   reciprocal reversal or only to treating one endpoint density as arrow depth.
+5. Audit the two G167 nonradial endpoint witnesses. Confirm that shift and the complete angular Gram
+   enter before relative readout, and that no scalar `mu` or post-processing correction was hidden.
+6. Test the pair-groupoid uniqueness claim. State precisely whether uniqueness holds only on
+   supplied consistently calibrated endpoint states.
+7. Determine what calibration carry remains open. Separate scalar endpoint differencing from full
+   screen/connection/holonomy carry.
+8. Determine whether co-presence is mathematically load-bearing anywhere in G170.
+9. Challenge the statement that observers/endpoints are evaluator arguments rather than a missing
+   physical selection law. Compare only at the level of mathematical typing; do not import GR field
+   equations or ontology.
+10. Audit production, independent, and mutation checks for circularity, false independence, weak
+    coverage, or hidden freezes.
+
+## Required landing
+
+Return exactly one primary result, or a sharper precisely named result:
+
+- `ENDPOINT_RELATIVE_REPAIR_VERIFIED`;
+- `ENDPOINT_RELATIVE_REPAIR_VALID_BUT_CALIBRATION_CARRY_STILL_LOAD_BEARING`;
+- `G169_COUNTEREXAMPLE_SURVIVES`;
+- `ENDPOINT_DIFFERENCE_IS_AN_UNJUSTIFIED_NEW_DEFINITION`;
+- `TYPE_FAILURE_REMAINS`.
+
+State the maximum justified conclusion and every remaining caveat. Do not derive `X_max`, an
+action, source, matter, light law, observation, global completion, or ontology.
+
+exec
+/bin/bash -lc 'rg --files /intake' in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+codex
+`rg` is unavailable here, so I’m falling back to filesystem listing and then I’ll read only the frozen sources needed to test whether G170 is reconstruction or redefinition.
+exec
+/bin/bash -lc 'find /intake -maxdepth 3 -type f | sort' in /intake
+ succeeded in 0ms:
+/intake/REVIEW_SCOPE.json
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/sources/SIMPLE_METRIC_MACRO.md
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md
+/intake/sources/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/CATCH_PROOF_RESULT.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/DERIVATION_RESULT.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXECUTION_NOTE.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/INDEPENDENT_VERIFICATION.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/LAY_REPORT.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PONDER_MAP.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SOURCE_MANIFEST.tsv
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/VERIFICATION_RESULT.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py
+
+codex
+I’ve identified the sealed source set. Next I’m reading the terminal reciprocal derivation plus G166-G170 exact derivations and audits to verify whether the endpoint-difference rule exists in the 2026-08-09 record or is newly imposed.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md" in /intake
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+# G169 exact derivation — conditional two-ended reversal quotient
+
+Date: 2026-08-18
+
+## 1. Type the supplied relation before naming any distance
+
+Let a supplied oriented physical pair relation be denoted by
+
+\[
+\mathcal R_{AB}
+=
+\bigl(\mathcal P_{A\to B},\mathcal P_{B\to A},C_{BA}\bigr),
+\]
+
+where each endpoint object \(\mathcal P\) contains its calibrated clock/separation germ and
+metric-derived G168/G167 pullback, while \(C_{BA}\) denotes any genuinely arrow-valued endpoint
+identification required by the declared relation. This notation does not assert that the current
+founding record derives those data.
+
+Define reversal on supplied typed relations by
+
+\[
+\tau\mathcal R_{AB}
+=
+\mathcal R_{BA}
+=
+\bigl(\mathcal P_{B\to A},\mathcal P_{A\to B},C_{BA}^{-1}\bigr).
+\]
+
+Then \(\tau^2=1\). The unoriented reversal quotient of the supplied relation is
+
+\[
+\boxed{
+\mathfrak Q(A,B)
+=
+[\mathcal R_{AB}]_{\tau}
+=
+\{\mathcal R_{AB},\mathcal R_{BA}\}.
+}
+\]
+
+It is symmetric by construction:
+
+\[
+\mathfrak Q(A,B)=\mathfrak Q(B,A).
+\]
+
+This is a quotient of supplied relation data. It is not currently a physical UDT distance, because
+the existing founding semantics do not supply the relation being quotiented.
+
+Under endpoint reparameterizations \(P_A,P_B\), a carry transforms as
+
+\[
+C_{BA}\mapsto C'_{BA}=P_B^{-1}C_{BA}P_A.
+\]
+
+The reversed carry transforms as
+
+\[
+P_A^{-1}C_{BA}^{-1}P_B=(C'_{BA})^{-1}.
+\]
+
+Therefore reversal commutes with the endpoint gauge action. The orbit is well typed on the quotient
+once a two-ended relation and its allowed endpoint gauges are supplied.
+
+## 2. What the metric derives at each endpoint
+
+For a supplied endpoint germ \((u_A,s_{AB})\), G168 derives
+
+\[
+r_{AB}
+=
+s_{AB}
+-\frac{g(u_A,s_{AB})}{g(u_A,u_A)}u_A,
+\]
+
+the Lorentzian plane
+
+\[
+E_{AB}=\operatorname{span}(u_A,r_{AB}),
+\]
+
+its positive screen, and the G167 pullback
+
+\[
+h_{AB}=J_{AB}^{T}g_AJ_{AB}.
+\]
+
+The same construction applies independently at B after \((u_B,s_{BA})\) is supplied. The metric
+does not map \((u_A,s_{AB})\) into \((u_B,s_{BA})\). Full reversal changes tangent fibers, exactly as
+G168 records.
+
+Thus the metric is the evaluator of both ends; the current source record does not prove that one end
+or two bare observer labels own the other end.
+
+## 3. Founded reciprocal reversal is exact
+
+On the pure founded branch,
+
+\[
+h(\delta)=
+\begin{pmatrix}
+-e^{-2\delta}&0\\
+0&e^{2\delta}
+\end{pmatrix}.
+\]
+
+The inverse orientation of the **same supplied reciprocal relation** has
+
+\[
+h(-\delta)=
+\begin{pmatrix}
+-e^{2\delta}&0\\
+0&e^{-2\delta}
+\end{pmatrix}.
+\]
+
+The exact endpoint identification
+
+\[
+K_\delta=\operatorname{diag}(e^{2\delta},e^{-2\delta})
+\]
+
+satisfies
+
+\[
+K_\delta^Th(\delta)K_\delta=h(-\delta),
+\qquad
+K_{-\delta}=K_\delta^{-1}.
+\]
+
+Consequently
+
+\[
+\boxed{
+\delta_{BA}=-\delta_{AB},\qquad
+q_{BA}=q_{AB}^{-1},\qquad
+\chi_{BA}=-\chi_{AB}.
+}
+\]
+
+This is derived on one supplied reciprocal relation. It is not a theorem that two independently
+evaluated endpoint germs automatically realize this inverse pair.
+
+## 4. Ordinary geometric reversal is not reciprocal inversion
+
+Use G168's exact flat same-boundary family
+
+\[
+F_a(\tau,\sigma)
+=
+(\tau,\sigma,a\sigma(1-\sigma),0).
+\]
+
+At A, its separation tangent is \((0,1,a,0)\). At B, reversing the surface orientation gives
+the reverse-directed tangent \((0,-1,a,0)\). Both have the same norm. The endpoint pullbacks are
+
+\[
+h_A=h_B^{\rm reversed}
+=
+\operatorname{diag}(-1,1+a^2).
+\]
+
+Therefore both terminal readouts are
+
+\[
+\phi_A=\phi_B^{\rm reversed}
+=
+\frac14\log(1+a^2).
+\]
+
+For \(a=1\), both equal \(\tfrac14\log2\), whereas reciprocal inversion would require the second
+to equal \(-\tfrac14\log2\). Equivalently, both squared ratios are \(q^2=1/2\); they are equal,
+not reciprocal.
+
+This proves:
+
+\[
+\boxed{
+\text{surface reversal or endpoint exchange alone does not generate UDT Reciprocity.}
+}
+\]
+
+The two endpoint evaluations must be typed as inverse orientations of one reciprocal relation.
+That is an ontological/ownership statement with mathematical consequences, not a path selection.
+
+## 5. Scalar shadows of the reversal quotient
+
+Any odd scalar on oriented relations gives an even magnitude on the reversal orbit. In particular,
+
+\[
+|\delta_{BA}|=|\delta_{AB}|,
+\qquad
+|\chi_{BA}|=|\chi_{AB}|,
+\qquad
+\chi_{BA}^2=\chi_{AB}^2.
+\]
+
+These are symmetric scalar readouts. They are not established physical metric distances. In the
+same flat family, \(a=0\) gives two distinct boundary observers with terminal \(\delta=0\). Thus
+\(|\delta|\) and \(|\chi|\) fail identity of indiscernibles on the admitted local pair arena.
+They are at most pseudoseparation readouts unless additional complete response data or a stronger
+global theorem restores separation.
+
+The full reversal orbit retains both complete endpoint responses and need not compress their
+angular, shift, or screen data to one number. Reversal swaps those endpoint responses; this audit
+does not invent an odd/even law for every orchestra channel.
+
+## 6. Matched reciprocal chains compose; arbitrary triangles need not add
+
+For a matched one-dimensional reciprocal chain,
+
+\[
+D(\delta_{BC})D(\delta_{AB})
+=
+D(\delta_{AB}+\delta_{BC}),
+\]
+
+so
+
+\[
+\delta_{AC}=\delta_{AB}+\delta_{BC},
+\qquad
+q_{AC}=q_{AB}q_{BC},
+\]
+
+and
+
+\[
+\chi_{AC}
+=
+\frac{\chi_{AB}+\chi_{BC}}
+{1+\chi_{AB}\chi_{BC}}.
+\]
+
+The absolute signed depth obeys the ordinary triangle inequality on this matched additive chain:
+
+\[
+|\delta_{AC}|
+\le |\delta_{AB}|+|\delta_{BC}|.
+\]
+
+But three individually regular pair metrics do not automatically form one matched chain. The exact
+positive values
+
+\[
+q_{AB}=\frac12,
+\qquad
+q_{BC}=\frac13,
+\qquad
+q_{AC}=\frac15
+\]
+
+are individually admissible pair readouts, while matched composition would require
+
+\[
+q_{AC}=\frac16.
+\]
+
+At a non-collinear middle observer, the B-to-A and B-to-C germs also define different pair planes.
+
+ succeeded in 0ms:
+# Exact derivation — reciprocal `c_E` as the terminal positional evaluator
+
+Date: 2026-08-09
+Mode: metric-led, exact analytic/CPU
+Current grade: **VERIFIED-WITH-CAVEATS**
+
+## 1. The type reversal
+
+The previous solder audit asked the metric to transport already-normalized endpoint clock/ruler
+frames and then looked for dilation in that transport. Metric-compatible transport preserves the
+norms of normalized frames, so the result was necessarily zero.
+
+The corrected order is:
+
+```text
+complete metric/coframe
++ an A-calibrated ordered observer-pair relation
+    -> complete induced pair metric
+    -> clock density + orthogonal ruler density + shift
+    -> terminal reciprocal-c_E readout
+    -> reciprocal log-imbalance coordinate
+    -> conditional pair-calibration c_eff readout.
+```
+
+The dilation is not a deformation applied after a distance is known. It is the reciprocal
+anisotropy of the complete calibrated pair relation. The angular and mixing sectors enter before
+the final readout.
+
+Once a physically calibrated pair surface or comparison Jacobian is supplied, no additional
+scalar calibration variable is needed to perform the local algebraic readout. This re-expresses
+the needed calibration state in the supplied pair-map parameterization; it does **not** derive the
+physical calibration-state realization or observer/event-pair map from the complete metric alone.
+
+## 2. The complete pair metric
+
+Let `Sigma` be a two-dimensional comparison surface for an ordered observer query, and let
+
+```text
+F: Sigma -> (M,g)
+```
+
+be a regular pair map. Use dimension-matched comparison coordinates
+
+```text
+y^0 = c_E tau_A,
+y^1 = s_A,
+```
+
+where `tau_A` is observer A's proper clock parameter and `s_A` is a ruler parameter calibrated at
+A. The induced pair metric is
+
+```text
+h = F^* g.
+```
+
+For a complete coframe `theta^a` and pair-map tangents `J_i=F_*(partial_i)`, define
+
+```text
+V_i^a = theta^a(J_i),
+h_ij  = eta_ab V_i^a V_j^b.
+```
+
+This formula retains every coframe slot. Clock-screen, ruler-screen, angular, shift, twist, and
+global-branch effects can all alter `V_i^a` and therefore alter `h`. No angular correction is
+attached after the fact.
+
+The object is invariant under local Lorentz changes of complete coframe because
+
+```text
+V_i -> Lambda V_i,
+Lambda^T eta Lambda=eta,
+```
+
+leaves `h_ij` unchanged. It is also spacetime-diffeomorphism natural because it is a pullback
+metric.
+
+The physical premise lies in `F` and its calibration, not in a coordinate component identity.
+Arbitrary endpoint charts do not qualify.
+
+## 3. Unique clock–ruler–shift decomposition
+
+On the regular stratum
+
+```text
+h_00 < 0,
+det h < 0,
+```
+
+there are unique positive functions `T,L` and one real shift `beta` such that
+
+```text
+h = -T^2 (dy^0 + beta dy^1)^2 + L^2 (dy^1)^2.
+```
+
+They are read directly from the complete pair metric:
+
+```text
+T^2    = -h_00,
+beta   = h_01/h_00,
+L^2    = h_11 - h_01^2/h_00,
+T L    = sqrt(-det h).
+```
+
+`T` is the clock-line density. `L` is the ruler density after the ruler direction is
+orthogonalized against the clock line inside the complete pair plane. The shift is not thrown
+away; it is separated as its own exact datum.
+
+Now decompose the two positive densities uniquely as
+
+```text
+T = sigma exp(-phi),
+L = sigma exp(+phi).
+```
+
+Solving gives
+
+```text
+sigma = sqrt(T L) = (-det h)^(1/4),
+
+phi = (1/2) log(L/T)
+    = (1/4) log(-det h) - (1/2) log(-h_00)
+    = (1/4) log[(-det h)/h_00^2].
+```
+
+This is not an ansatz. It is the unique positive common-scale/reciprocal-depth decomposition of
+the regular pair metric relative to its calibrated clock line.
+
+The algebra has the exact required symmetries:
+
+- common scaling `(T,L)->(Omega T,Omega L)` changes `sigma` and leaves `phi` fixed;
+- reciprocal scaling `(T,L)->(exp(-a)T,exp(+a)L)` leaves `sigma` fixed and sends
+  `phi->phi+a`;
+- abstract channel exchange sends `phi->-phi` and leaves `sigma` fixed;
+- ruler orientation reversal leaves all density quantities unchanged.
+
+The common-scale cancellation is an algebraic property of this readout. It is **not** a restored
+claim that the physical metric is fundamentally scale free. `c_E` explicitly calibrates `y^0`.
+
+### Sharp uniqueness and calibration scope
+
+The uniqueness statement is exact but scoped. `phi` is the unique **reciprocal-channel coordinate**
+in the displayed common-scale/reciprocal/shift decomposition, equivalently the previously derived
+graded-density character. It is not a theorem forbidding somebody from defining a different
+higher-derivative or nonlocal scalar such as `phi+f(curvature)`; that would be an additional
+physical law, not the primary reciprocal positional channel.
+
+The pair-map calibration is load-bearing. A common rescaling of both tape coordinates changes only
+`sigma`, while an independent reciprocal rescaling changes `phi` by the rescaling depth. The latter
+is not gauge once `y^0=c_E tau_A` and the ruler parameter are physically fixed. Merely requiring
+`h=eta` at A is insufficient if arbitrary endpoint-dependent reparameterizations remain allowed;
+the supplied pair map must carry its A-fixed proper-time/affine-ruler parameterization to B.
+
+## 4. Reciprocal `c_E` is the terminal evaluator
+
+The two null slopes of the induced pair metric are
+
+```text
+w_+ = dy^1/dy^0 =  T/(L-T beta),
+w_- = dy^1/dy^0 = -T/(L+T beta).
+```
+
+The orientation-balanced inverse-slope combination is exact:
+
+```text
+(1/2)(1/w_+ - 1/w_-) = L/T.
+```
+
+Hence define the conditional geometric pair-calibration readout
+
+```text
+c_eff^(pair)/c_E = T/L = exp(-2 phi),
+
+phi = -(1/2) log[c_eff^(pair)/c_E].
+```
+
+This implements the user's proposed order on a supplied calibrated pair map: its full pullback
+metric is assembled first; the fixed reciprocal `c_E` conversion then assigns a terminal readout
+to the supplied B on A's calibrated clock/ruler tape. The shift is removed by an intrinsic two-way
+combination, not by setting it to zero.
+
+This `c_eff^(pair)` is a **conditional geometric pair-calibration readout**. On mixed complete
+geometries, identifying it with the universal physical `c_eff` ratio remains open because the
+physical pair map and calibration-state owner remain open. No statement about material signals,
+information propagation, or source dynamics follows.
+
+On the founded pure reciprocal branch,
+
+```text
+h = diag(-exp(-2phi), exp(+2phi)),
+```
+
+the determinant is `-1`, `T=exp(-phi)`, `L=exp(+phi)`, and every displayed formula returns the
+original `phi` and `c_eff/c_E=exp(-2phi)` exactly.
+
+## 5. Endpoint-relative depth and the role of A
+
+At two points on one consistently calibrated pair surface, write
+
+```text
+T_i=sigma_i exp(-phi_i),
+L_i=sigma_i exp(+phi_i).
+```
+
+The relative reciprocal depth is
+
+```text
+delta_AB
+ = (1/2) log[(L_B/T_B)/(L_A/T_A)]
+ = phi_B-phi_A.
+```
+
+All endpoint common scales cancel even when `sigma_A != sigma_B`. Choosing A's proper clock and
+ruler calibration sets `phi_A=0` on the tape origin, so the terminal value at B is `phi_AB`.
+
+This explains why the older factorization counterexamples do not refute the new result. Those
+examples allowed independent reciprocal refactorizations at each endpoint. Once one physical
+A-calibrated pair tape is supplied, such a refactorization changes the tape and is not a
+presentation gauge. Common scaling remains harmless; reciprocal rescaling is precisely the depth
+being measured.
+
+## 6. Exact supplied-Jacobian angular/mixing witnesses
+
+For the registered complete lower-mixing columns
+
+```text
+J_0=(1/2,0,1/4,0),
+J_1=(0,2,0,0),
+eta=diag(-1,1,1,1),
+```
+
+the complete induced pair metric is
+
+```text
+h=[[-3/16,0],[0,4]],
+det h=-3/4.
+```
+
+The terminal depth is
+
+```text
+phi_pair=(1/4)log(64/3)=0.7650676986728905...,
+```
+
+not the bare reciprocal-block value `log 2`.
+
+For a second witness with screen content in both pair columns,
+
+```text
+J_0=(1/2,0,1/4,0),
+J_1=(0,2,1/3,0),
+```
+
+one obtains
+
+```text
+h=[[-3/16,1/12],[1/12,37/9]],
+det h=-7/9,
+L^2=112/27,
+phi_pair=(1/4)log(1792/81)=0.7741596097156093....
+```
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+# G170 exact derivation — endpoint-relative bidirectional pair response
+
+Date: 2026-08-19
+
+## 1. The distinction recovered from the original endpoint work
+
+A regular calibrated endpoint pair metric has the unique form
+
+\[
+h_X=-T_X^2(dy^0+\beta_Xdy^1)^2+L_X^2(dy^1)^2,
+\qquad T_X,L_X>0.
+\]
+
+Therefore
+
+\[
+\det h_X=-T_X^2L_X^2,
+\qquad
+\Phi_X=\frac12\log\frac{L_X}{T_X}
+=\frac14\log\frac{-\det h_X}{h_{00,X}^2},
+\]
+
+and the terminal reciprocal-\(c_E\) readout is
+
+\[
+q_X=\frac{c_{{\rm eff},X}^{({\rm pair})}}{c_E}
+=\frac{T_X}{L_X}=e^{-2\Phi_X}.
+\]
+
+The 2026-08-09 derivation already proved that the ordered pair depth is not either endpoint density
+alone. On one consistently calibrated pair tape it is
+
+\[
+\boxed{
+\delta_{AB}
+=-\frac12\log\frac{q_B}{q_A}
+=\frac12\log\frac{L_B/T_B}{L_A/T_A}
+=\Phi_B-\Phi_A.
+}
+\]
+
+G170 restores this distinction after G169 temporarily conflated \(\Phi_A\) and \(\Phi_B\) with the
+directed arrow depth.
+
+## 2. Pair-groupoid theorem
+
+Let \(S\) be any supplied set of regular calibrated endpoint states and let
+\(q:S\rightarrow\mathbb R_{>0}\) be the metric terminal readout above. For an ordered pair define
+
+\[
+q_{AB}=\frac{q_B}{q_A},
+\qquad
+\delta_{AB}=-\frac12\log q_{AB}.
+\]
+
+Then, without any additional physical or ontological premise,
+
+\[
+q_{BA}=q_{AB}^{-1},
+\qquad
+\delta_{BA}=-\delta_{AB}.
+\]
+
+For a literally shared middle calibrated state,
+
+\[
+q_{AB}q_{BC}
+=\frac{q_B}{q_A}\frac{q_C}{q_B}
+=\frac{q_C}{q_A}=q_{AC},
+\]
+
+and hence
+
+\[
+\delta_{AB}+\delta_{BC}=\delta_{AC}.
+\]
+
+With \(\chi_{AB}=\tanh\delta_{AB}\), reversal is odd and matched composition has the usual bounded
+form.
+
+This is also the general form of a real cocycle on a thin pair groupoid. Fix a reference state
+\(O\) and write \(\Phi_X=\delta_{OX}\). The composition identity
+\(\delta_{OB}=\delta_{OA}+\delta_{AB}\) forces
+\(\delta_{AB}=\Phi_B-\Phi_A\). The metric terminal readout fixes which endpoint potential is the
+primary reciprocal channel.
+
+If the middle state is rebuilt independently on the two pair tapes, the exact residual is
+
+\[
+(\Phi_{B,{\rm left}}-\Phi_A)
++(\Phi_C-\Phi_{B,{\rm right}})
+-(\Phi_C-\Phi_A)
+=\Phi_{B,{\rm left}}-\Phi_{B,{\rm right}}.
+\]
+
+Thus matched composition is derived, while arbitrary triangle closure remains correctly excluded.
+
+## 3. Recovery of the founded G166 kernel
+
+Choose A as the calibrated tape origin:
+
+\[
+T_A=L_A=1,
+\qquad \Phi_A=0.
+\]
+
+For the founded B block,
+
+\[
+T_B=e^{-d},
+\qquad L_B=e^d,
+\]
+
+so
+
+\[
+q_{AB}=e^{-2d},
+\qquad
+\delta_{AB}=d,
+\qquad
+\delta_{BA}=-d.
+\]
+
+G166 is therefore the anchored special case of the two-endpoint rule rather than a competing
+single-endpoint definition.
+
+## 4. Reclassification of the G169 surface witness
+
+G169 used the exact endpoint metrics
+
+\[
+h_A=h_B=
+\begin{pmatrix}
+-1&0\\
+0&1+a^2
+\end{pmatrix}.
+\]
+
+Each endpoint has
+
+\[
+\Phi_A=\Phi_B=\frac14\log(1+a^2).
+\]
+
+At \(a=1\), each density is \(\log 2/4\). But the directed relation is
+
+\[
+\delta_{AB}=\Phi_B-\Phi_A=0,
+\qquad
+\delta_{BA}=\Phi_A-\Phi_B=0.
+\]
+
+Hence
+
+\[
+\delta_{BA}=-\delta_{AB}
+\]
+
+holds exactly. The witness remains valuable: it disproves using a single endpoint density as arrow
+depth. It does not disprove metric-derived reciprocal reversal after the endpoints are compared.
+
+## 5. The full orchestra remains inside each endpoint
+
+For the primary static-spherical metric, G167 gives
+
+\[
+h_X=Y_X^TB_X^T\eta_2B_XY_X+Z_X^TQ_X^TQ_XZ_X.
+\]
+
+G170 evaluates two nonradial endpoints. At A,
+
+\[
+h_A=
+\begin{pmatrix}
+-391/100&9/50\\
+9/50&2
+\end{pmatrix},
+\qquad
+P_A=
+\begin{pmatrix}
+9/100&9/50\\
+9/50&1
+\end{pmatrix},
+\]
+
+with
+
+\[
+q_A^2=\frac{152881}{78524},
+\qquad
+(q_A^2)_{\rm base}=4.
+\]
+
+At B,
+
+\[
+h_B=
+\begin{pmatrix}
+-36699/10000&3739/7500\\
+3739/7500&12446/5625
+\end{pmatrix},
+\]
+
+and
+
+\[
+q_B^2=\frac{12121349409}{7531774000},
+\qquad
+(q_B^2)_{\rm base}=\frac{2531281}{627264}.
+\]
+
+Both endpoint shifts are nonzero and both angular Gram matrices change the terminal readout before
+the relative ratio is formed. The exact squared relative ratio is
+
+\[
+q_{AB}^2=\frac{237954210248079}{287866285223500},
+\qquad
+q_{BA}^2=(q_{AB}^2)^{-1}.
+\]
+
+No scalar \(\mu\) or post-readout angular correction occurs.
+
+## 6. Common scale and calibration
+
+Under independent positive common endpoint rescalings
+
+\[
+h_A\mapsto\Omega_A^2h_A,
+\qquad
+h_B\mapsto\Omega_B^2h_B,
+\]
+
+each \(q_X\) is unchanged because both numerator and denominator scale equally. Consequently
+\(q_{AB}\) and \(\delta_{AB}\) are unchanged.
+
+A shared reciprocal-origin change \(\Phi_X\mapsto\Phi_X+c\) also cancels. Independent reciprocal
+recalibrations do not cancel:
+
+\[
+(\Phi_B+c_B)-(\Phi_A+c_A)
+=\delta_{AB}+c_B-c_A.
+\]
+
+That is not a missing ontology. It states that two differently calibrated experiments are different
+inputs. The theorem applies to one supplied consistently calibrated two-endpoint calculation.
+
+## 7. What co-presence does not do
+
+No co-presence equation or premise appears in the derivation or implementations. The observer
+pair, endpoint metrics, and calibration are the arguments of the evaluator. The metric does not
+need to select which observers an experiment compares.
+
+The remaining non-scalar problem is separate. A complete relation may retain screen orientation,
+shift state, connection, or holonomy data not compressed by \(q\). G170 derives the primary scalar
+reversal and matched scalar composition; it does not claim full matrix carry closure.
+
+## 8. Landing
+
+```text
+ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+# G166 exact derivation — the kernel is the ordered-pair metric readout
+
+Date: 2026-08-18
+
+## 1. Correct type order
+
+The bounded UDT construction is
+
+```text
+ordered co-present observer pair
++ c_E-calibrated clock/ruler channels
++ primary UDT reciprocal metric
+    -> completed ordered-pair metric h_AB
+    -> reciprocal scalar kernel.
+```
+
+It is not
+
+```text
+pre-existing path or distance
+    -> arbitrary metric choice
+    -> appended reciprocal correction.
+```
+
+The word `pair` still includes event and calibration typing. This derivation does not construct an
+arbitrary global observer network from two bare names.
+
+## 2. Unique regular pair decomposition
+
+On the regular calibrated Lorentzian stratum,
+
+```text
+h00<0,  det(h)<0,
+```
+
+there are unique positive densities `T,L` and a real shift `beta` such that
+
+```text
+h=-T^2(dy0+beta dy1)^2+L^2(dy1)^2.
+```
+
+Therefore
+
+```text
+T^2=-h00,
+beta=h01/h00,
+L^2=h11-h01^2/h00,
+-det(h)=T^2 L^2.
+```
+
+Writing
+
+```text
+T=sigma exp(-delta),
+L=sigma exp(+delta)
+```
+
+gives the unique reciprocal grading
+
+```text
+delta=(1/2)log(L/T)
+     =(1/4)log[(-det h)/h00^2].
+```
+
+The dimensionless terminal readouts are
+
+```text
+q=T/L=(-h00)/sqrt(-det h)=exp(-2 delta),
+chi=(L-T)/(L+T)=(1-q)/(1+q)=tanh(delta).
+```
+
+The common density `sigma` cancels. That cancellation is a property of the reciprocal scalar; it
+does not declare the entire metric scale gauge.
+
+## 3. Exact reduction to the primary UDT metric
+
+For the dimension-matched founded clock/ruler block,
+
+```text
+h_AB=diag(-exp(-2 delta_AB), exp(+2 delta_AB)),
+```
+
+one has
+
+```text
+det(h_AB)=-1,
+T_AB=exp(-delta_AB),
+L_AB=exp(+delta_AB).
+```
+
+Substitution into the universal algebraic readout returns
+
+```text
+phi_pair=delta_AB,
+q_AB=exp(-2 delta_AB),
+chi_AB=tanh(delta_AB).
+```
+
+No independent kernel profile is present. The pointwise notation `delta=phi(r)` in the recorded
+static spherical chart describes how the relational grading is presented across that realization;
+it does not turn `r` into a pre-kernel operational distance.
+
+## 4. Reversal, coincidence, and composition
+
+Channel reversal sends `q` to `1/q`, hence
+
+```text
+chi(1/q)=-chi(q).
+```
+
+At coincidence `q=1`, so `delta=0` and `chi=0`.
+
+For matched carried reciprocal states,
+
+```text
+delta_AC=delta_AB+delta_BC,
+q_AC=q_AB q_BC.
+```
+
+Eliminating `q` gives
+
+```text
+chi_AC=(chi_AB+chi_BC)/(1+chi_AB chi_BC).
+```
+
+These are properties of compatible ordered relations. They do not force independently rebuilt
+pair calibrations to compose without additional carry data.
+
+## 5. Orchestra terms are internal to the completed metric
+
+Let the founded base pair metric be
+
+```text
+h_base=[[-T^2, -T^2 beta],
+        [-T^2 beta, L^2-T^2 beta^2]].
+```
+
+If the native complete UDT assembly supplies a symmetric screen/mixing Gram contribution
+
+```text
+P=[[x,z],[z,y]],
+```
+
+then the scalar is evaluated only after
+
+```text
+h_complete=h_base+P.
+```
+
+Direct expansion gives
+
+```text
+-det(h_complete)
+ =(T^2-x)(L^2+y)+x T^2 beta^2-2 T^2 beta z+z^2,
+```
+
+and
+
+```text
+q_complete^2
+ =(T^2-x)^2/[-det(h_complete)].
+```
+
+The exact partial derivatives with respect to `x`, `y`, and `z` are generically nonzero. Thus a
+derived orchestra can modulate the one pair response, but only by entering the complete metric
+before the terminal kernel is read.
+
+The equation does not derive `x,y,z` as independent UDT functions. The existing full coframe
+formula proves their possible structural entrance; the native assembly that determines them from
+the primary UDT metric remains open.
+
+## 6. Scope of the conformal control
+
+For an arbitrary positive `Omega`,
+
+```text
+h -> Omega^2 h
+```
+
+leaves `(-det h)/h00^2`, and therefore `delta`, `q`, and `chi`, unchanged. This is the G165
+conformal-kernel fact.
+
+But for the founded determinant-one reciprocal block,
+
+```text
+det(Omega^2 h_AB)=-Omega^4.
+```
+
+The determinant remains `-1` only when positive `Omega=1`. Hence the arbitrary conformal family is
+a broader metric-envelope control, not a freedom generated by the founded reciprocal block.
+
+## 7. Exact stop line
+
+Derived in this bounded scope:
+
+- the reciprocal pair metric block from the founding representation and interval readout;
+- the unique algebraic terminal pair kernel;
+- reversal, coincidence, and matched-depth composition;
+- orchestra-before-readout dependence for any completed pair metric;
+- exclusion of an independent post-metric response profile.
+
+Still conditional or open:
+
+- the general nonspherical, mixing, shift-bearing, time-live, and micro `3+1` assembly;
+- bare observer/event labels to calibrated physical pair relations;
+- arbitrary-network carry and global completion;
+- physical depth values, `X_max`, dynamics, sources, and observations.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md" in /intake
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+# G168 exact derivation — the local pair plane is the one-jet of the relation
+
+Date: 2026-08-18
+
+## 1. Exact type order
+
+The bounded construction is
+
+```text
+local ordered co-present positional-comparison germ (u_A,s_AB)
++ primary UDT metric g
+    -> orthogonal ruler r_AB
+    -> local Lorentzian pair plane E_AB
+    -> G167 blocks Y,Z
+    -> complete pullback h_AB
+    -> terminal reciprocal readout.
+```
+
+It is not
+
+```text
+two observer names -> metric-selected path -> externally attached kernel.
+```
+
+The supplied local comparison germ is the one-jet needed to apply a metric: a calibrated future timelike
+clock tangent (u_A\in T_pM) and a nonzero tangent (s_{AB}\in T_pM) representing the local
+ordered positional variation toward B. It is a local differential datum of the relation, not a
+curve between separated endpoints.
+
+The founding reciprocal algebra does not manufacture this germ from two names. Declaring that a
+physical completed positional relation supplies this one-jet is an **additional working postulate**,
+not a derivation or cost-free typing clarification. The theorem below is conditional on that germ;
+it still proves that no path or full surface is needed after the germ is supplied.
+
+## 2. Unique clock-orthogonal ruler
+
+Let (g(u_A,u_A)<0). Among all representatives in the affine line
+
+\[
+s_{AB}+\operatorname{span}(u_A),
+\]
+
+there is exactly one clock-orthogonal vector:
+
+\[
+\boxed{
+r_{AB}=s_{AB}-
+\frac{g(u_A,s_{AB})}{g(u_A,u_A)}u_A .
+}
+\]
+
+Indeed,
+
+\[
+g(u_A,r_{AB})=0.
+\]
+
+If (r'=s_{AB}+a u_A) is also orthogonal to (u_A), then
+
+\[
+0=g(u_A,s_{AB})+a g(u_A,u_A),
+\]
+
+so (a=-g(u_A,s_{AB})/g(u_A,u_A)). The ruler is therefore unique.
+
+Because a Lorentzian metric of index one is positive definite on (u_A^\perp), every nonzero
+(r_{AB}\in u_A^\perp) is spacelike. Hence
+
+\[
+\boxed{
+E_{AB}=\operatorname{span}\{u_A,r_{AB}\}
+      =\operatorname{span}\{u_A,s_{AB}\}
+}
+\]
+
+is a nondegenerate Lorentzian two-plane. Its orthogonal complement is a positive two-dimensional
+screen.
+
+Writing
+
+\[
+U=g(u_A,u_A)<0,
+\quad G=g(u_A,s_{AB}),
+\quad S=g(s_{AB},s_{AB}),
+\]
+
+gives
+
+\[
+g(r_{AB},r_{AB})=S-\frac{G^2}{U}>0.
+\]
+
+In the raw basis ((u_A,s_{AB})),
+
+\[
+h=\begin{pmatrix}U&G\\G&S\end{pmatrix},
+\qquad
+\det h=U\left(S-\frac{G^2}{U}\right)<0.
+\]
+
+In the orthogonal basis ((u_A,r_{AB})), the same plane metric is diagonal. No ambient plane
+selector, path, curvature eigenplane, or independent screen is required.
+
+## 3. The primary metric determines all coefficients after the germ is supplied
+
+For
+
+\[
+g=-c_E^2e^{-2\phi}dt^2+e^{2\phi}dr^2
+  +r^2d\theta^2+r^2\sin^2\theta\,d\varphi^2,
+\]
+
+write the two germ tangents as columns of (J=(u_A,s_{AB})). Their base and angular components are
+
+\[
+Y=
+\begin{pmatrix}
+u^t&s^t\\
+u^r&s^r
+\end{pmatrix},
+\qquad
+Z=
+\begin{pmatrix}
+u^\theta&s^\theta\\
+u^\varphi&s^\varphi
+\end{pmatrix}.
+\]
+
+Therefore the G167 pullback is not missing another local assembly rule:
+
+\[
+\boxed{
+h=Y^TB^T\eta_2BY+Z^TQ^TQZ,
+}
+\]
+
+with metric-owned
+
+\[
+B=\operatorname{diag}(c_Ee^{-\phi},e^\phi),
+\qquad
+Q=\operatorname{diag}(r,r\sin\theta).
+\]
+
+Once ((u_A,s_{AB})) is supplied, (Y) and (Z) are simply its coordinate components. They are
+not four additional physical functions.
+
+A nonradial separation has nonzero angular entries in (Z), so the angular Gram term enters before
+the terminal reciprocal readout. A central radial separation has (Z=0); in that special case its
+scalar kernel is radial while angular response remains in the screen/Jacobi channels.
+
+Under an angular coordinate change with Jacobian (K),
+
+\[
+Z\mapsto KZ,
+\qquad
+q_{S^2}\mapsto K^{-T}q_{S^2}K^{-1},
+\]
+
+and (Z^Tq_{S^2}Z) is unchanged. Positive rescaling of the raw separation tangent preserves its
+line and normalized ruler direction. Pair-metric components transform covariantly; a terminal
+readout remains tied to its declared calibration.
+
+## 4. Exact rational witness
+
+Take
+
+\[
+g=\operatorname{diag}\left(-\frac14,4,9,\frac{144}{25}\right),
+\quad
+u=(2,0,0,0),
+\quad
+s=\left(1,\frac12,\frac13,\frac14\right).
+\]
+
+Then
+
+\[
+g(u,u)=-1,
+\qquad
+g(u,s)=-\frac12,
+\]
+
+and the unique orthogonal ruler is
+
+\[
+r=\left(0,\frac12,\frac13,\frac14\right),
+\qquad
+g(r,r)=\frac{59}{25}.
+\]
+
+The raw and orthogonal pair metrics are
+
+\[
+h_{(u,s)}=
+\begin{pmatrix}
+-1&-1/2\\
+-1/2&211/100
+\end{pmatrix},
+\qquad
+h_{(u,r)}=
+\begin{pmatrix}
+-1&0\\
+0&59/25
+\end{pmatrix},
+\]
+
+and both have determinant (-59/25).
+
+With
+
+\[
+B=\operatorname{diag}(1/2,2),
+\quad Q=\operatorname{diag}(3,12/5),
+\]
+
+the germ supplies
+
+\[
+Y=\begin{pmatrix}2&1\\0&1/2\end{pmatrix},
+\qquad
+Z=\begin{pmatrix}0&1/3\\0&1/4\end{pmatrix},
+\]
+
+and the G167 block formula returns (h_{(u,s)}) exactly. Removing (Z) changes the pair metric.
+
+## 5. Why bare observer labels still do not own the plane
+
+In flat four-dimensional spacetime let
+
+\[
+A(\tau)=(\tau,0,0,0),
+\qquad
+B(\tau)=(\tau,1,0,0).
+\]
+
+For every real (a), the smooth timelike surface
+
+\[
+F_a(\tau,\sigma)
+=\bigl(\tau,\sigma,a\sigma(1-\sigma),0\bigr),
+\qquad 0\le\sigma\le1,
+\]
+
+has exactly the same boundary observers and the same boundary event pairing:
+
+\[
+F_a(\tau,0)=A(\tau),
+\qquad
+F_a(\tau,1)=B(\tau).
+\]
+
+But at A its separation tangent is
+
+\[
+\partial_\sigma F_a|_{\sigma=0}=(0,1,a,0).
+\]
+
+The planes for (a=0) and (a=1) are different. The induced metric remains Lorentzian:
+
+
+ succeeded in 0ms:
+# G167 exact derivation — bounded primary-metric general pair pullback
+
+Date: 2026-08-18
+
+## 1. Bounded arena
+
+The declared primary static-spherical UDT metric is
+
+\[
+g=-c_E^2e^{-2\phi(r)}dt^2+e^{2\phi(r)}dr^2
+  +r^2d\theta^2+r^2\sin^2\theta\,d\varphi^2.
+\]
+
+This is a four-dimensional metric, not only a radial line element. Its static, spherical, diagonal,
+and areal properties remain the declared macro slice. The function \(\phi(r)\) is supplied here; no
+field equation or profile is derived.
+
+Let a supplied regular ordered-pair realization be a local rank-two immersion
+
+\[
+F:\Sigma^2\to M^4,
+\qquad
+X_i=F_*\partial_i
+    =t_i\partial_t+r_i\partial_r
+      +\theta_i\partial_\theta+\varphi_i\partial_\varphi.
+\]
+
+The two tangent directions need not be radial, static, geodesic, or aligned with the ambient chart.
+The pair metric is not another ansatz. It is the pullback \(h=F^*g\).
+
+## 2. Exact general-pair pullback
+
+Direct substitution gives
+
+\[
+\boxed{
+h_{ij}
+=-c_E^2e^{-2\phi}t_it_j
++e^{2\phi}r_ir_j
++r^2\theta_i\theta_j
++r^2\sin^2\theta\,\varphi_i\varphi_j.
+}
+\]
+
+Equivalently, if \(w_i\) is the angular component of \(X_i\) and \(\gamma_{S^2}\) is the unit-sphere
+metric,
+
+\[
+h_{ij}
+=-c_E^2e^{-2\phi}t_it_j
++e^{2\phi}r_ir_j
++r^2\gamma_{S^2}(w_i,w_j).
+\]
+
+This formula is angular-coordinate covariant. Under an angular coordinate change with Jacobian
+\(K\), \(Z\mapsto KZ\) and \(q_{S^2}\mapsto K^{-T}q_{S^2}K^{-1}\), so
+
+\[
+Z^Tq_{S^2}Z
+\mapsto
+Z^TK^TK^{-T}q_{S^2}K^{-1}KZ
+=Z^Tq_{S^2}Z.
+\]
+
+## 3. Exact relation to the conditional complete-coframe evaluator
+
+In the primary coframe,
+
+\[
+B=\begin{pmatrix}c_Ee^{-\phi}&0\\0&e^\phi\end{pmatrix},
+\qquad
+Q=\begin{pmatrix}r&0\\0&r\sin\theta\end{pmatrix},
+\qquad
+S=0.
+\]
+
+For
+
+\[
+Y=\begin{pmatrix}t_0&t_1\\r_0&r_1\end{pmatrix},
+\qquad
+Z=\begin{pmatrix}\theta_0&\theta_1\\\varphi_0&\varphi_1\end{pmatrix},
+\]
+
+the uncompressed formula reduces exactly to
+
+\[
+\boxed{
+h=Y^TB^T\eta_2BY+Z^TQ^TQZ.
+}
+\]
+
+Thus, in this bounded primary arena:
+
+- \(B\) is fixed by \(c_E\) and the supplied \(\phi\) profile;
+- \(Q\) is fixed by the areal spherical metric;
+- ambient base-screen mixing \(S\) is exactly zero in this coframe;
+- \(Y,Z\) are the supplied pair tangents;
+- the angular Gram matrix \(P=Z^TQ^TQZ\) is derived from the metric and pair realization.
+
+The conditional \(B,Q,S,Y,Z\) evaluator therefore does not require five independent histories in
+this slice. It collapses to one supplied primary metric plus one supplied pair realization.
+
+## 4. Angular terms and terminal shift are internal
+
+Writing
+
+\[
+P=\begin{pmatrix}x&z\\z&y\end{pmatrix},
+\]
+
+the complete pair metric is \(h=h_{\rm base}+P\) before the terminal kernel is evaluated. Although
+the ambient metric is diagonal, the pair metric generally is not:
+
+\[
+h_{01}
+=-c_E^2e^{-2\phi}t_0t_1
++e^{2\phi}r_0r_1
++r^2\theta_0\theta_1
++r^2\sin^2\theta\,\varphi_0\varphi_1.
+\]
+
+Therefore the calibrated terminal shift state
+
+\[
+\beta_{\rm pair}=\frac{h_{01}}{h_{00}}
+\]
+
+can be nonzero even when the base contribution to \(h_{01}\) and every ambient off-diagonal metric
+component vanish. This is pair-embedding geometry in the supplied calibrated pair chart, not a
+separately posited or chart-invariant ambient shift.
+
+## 5. Terminal reciprocal kernel
+
+On the regular calibrated Lorentzian stratum
+
+\[
+h_{00}<0,
+\qquad
+\det h<0,
+\]
+
+the unique terminal readout remains
+
+\[
+\boxed{
+\phi_{\rm pair}
+=\frac14\log\frac{-\det h}{h_{00}^2},
+\qquad
+\left(\frac{c_{\rm eff}^{(\rm pair)}}{c_E}\right)^2
+=\frac{h_{00}^2}{-\det h}.
+}
+\]
+
+All angular terms have already entered \(h\). No post-readout angular correction occurs.
+
+An exact nonradial witness with \(c_E=1\), \(e^\phi=2\), \(r=3\), and
+\(\sin\theta=4/5\) gives
+
+\[
+h=
+\begin{pmatrix}
+-391/100&9/50\\
+9/50&2
+\end{pmatrix},
+\qquad
+P=
+\begin{pmatrix}
+9/100&9/50\\
+9/50&1
+\end{pmatrix}.
+\]
+
+Here
+
+\[
+\det h=-\frac{19631}{2500},
+\qquad
+\beta_{\rm pair}=-\frac{18}{391},
+\qquad
+\left(\frac{c_{\rm eff}^{(\rm pair)}}{c_E}\right)^2
+=\frac{152881}{78524}.
+\]
+
+The base-only value is \(4\), so the metric-derived angular Gram changes the terminal reciprocal
+readout exactly.
+
+## 6. The radial and central boundary
+
+For the calibrated radial pair
+
+\[
+J=(\partial_t,\partial_r),
+\qquad
+Z=0,
+\]
+
+the pullback is the founded block
+
+\[
+h=\operatorname{diag}(-e^{-2\phi},e^{2\phi})
+\]
+
+after setting \(c_E=1\) in dimension-matched coordinates. Hence
+
+\[
+\phi_{\rm pair}=\phi,
+\qquad
+\frac{c_{\rm eff}^{(\rm pair)}}{c_E}=e^{-2\phi}.
+\]
+
+For this exact radial pair the scalar angular Gram is zero. The primary angular sector still owns
+the separate finite-radius screen/Jacobi response of G119, but it does not automatically modulate
+the scalar depth of every radial pair. Angular modulation of the scalar requires angular components
+in the pair realization or a genuine ambient nonspherical/mixed extension.
+
+This boundary prevents the result from being promoted into a universal loud-orchestra claim.
+
+## 7. Query-live derivative versus ambient dynamics
+
+Along any supplied parameter \(\lambda\),
+
+\[
+\boxed{
+\dot h
+=\dot J^TgJ+J^Tg\dot J+J^T\dot gJ.
+}
+\]
+
+For the primary metric,
+
+\[
+\dot g=\operatorname{diag}\!\left(
+2c_E^2e^{-2\phi}\dot\phi,
+2e^{2\phi}\dot\phi,
+2r\dot r,
+2r\dot r\sin^2\theta
++2r^2\sin\theta\cos\theta\dot\theta
+\right).
+\]
+
+When \(\phi=\phi(r)\), \(\dot\phi=\phi'(r)\dot r\) along the supplied realization. The terminal
+variation is
+
+\[
+\dot\phi_{\rm pair}
+=\frac14\operatorname{tr}(h^{-1}\dot h)
+-\frac12\frac{\dot h_{00}}{h_{00}}.
+\]
+
+Production algebra proves this equals the full directional derivative with every metric and pair
+tangent term retained. On the exact generic witness, profile, areal-radius, angular-chart,
+clock-tangent, radial-tangent, theta-tangent, and varphi-tangent variations are all nonzero.
+
+This is a complete query-live kinematic identity in the declared static ambient metric. It is not
+an ambient time-evolution equation and does not derive a time-dependent UDT metric.
+
+## 8. No independent scalar `mu`
+
+The primary metric supplies the full angular Gram matrix \(P\), not a scalar mixing coefficient.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+# G170 audit report — endpoint-relative bidirectional pair response
+
+Date: 2026-08-19
+Grade: `LEAD__PREREGISTERED__INTERNAL_EXACT_AND_INDEPENDENT_PASS__FRESH_ADVERSARIAL_REVIEW_REQUIRED`
+
+## Primary landing under review
+
+```text
+ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS
+__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC
+__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED
+__COPRESENCE_NOT_LOAD_BEARING
+__FULL_NONSCALAR_CARRY_REMAINS_SEPARATE
+```
+
+## Result first
+
+The apparent G169 reversal gap came from applying the terminal scalar at each endpoint as though
+each value were already the directed pair depth. The original 2026-08-09 reciprocal-`c_E` theorem
+had already derived the correct two-endpoint rule:
+
+\[
+\delta_{AB}
+=\frac12\log\frac{L_B/T_B}{L_A/T_A}
+=\Phi_B-\Phi_A.
+\]
+
+Consequently, swapping the same two endpoint readouts forces
+
+\[
+\delta_{BA}=-\delta_{AB},
+\qquad
+q_{BA}=q_{AB}^{-1},
+\qquad
+\chi_{BA}=-\chi_{AB}.
+\]
+
+No co-presence premise, separately supplied negative depth, path, `X_max`, or observational input
+is used.
+
+## G169 regrade
+
+G169's flat surface witness has
+
+\[
+\Phi_A=\Phi_B=\frac14\log(1+a^2).
+\]
+
+It therefore gives \(\delta_{AB}=\delta_{BA}=0\). The witness disproves treating one endpoint's
+nonzero reciprocal density as the arrow depth, but it is not a counterexample to endpoint-relative
+reversal.
+
+G169 remains correct that ordinary surface orientation reversal does not negate a local terminal
+density. Its stronger implication—that an independently supplied inverse scalar is needed—does not
+survive restoration of the original endpoint-relative rule.
+
+## Metric and orchestra
+
+The endpoint readouts are computed only after the G167 pullbacks are complete. Two exact nonradial
+endpoint witnesses retain live shift and angular Gram terms. Both angular sectors change their
+terminal ratios, and the relative squared ratio reverses exactly. Independent common endpoint
+scales cancel.
+
+Thus the current bounded chain is:
+
+```text
+primary metric
+  -> supplied endpoint pair germs
+  -> full endpoint pullbacks h_A,h_B, including angular Gram
+  -> terminal endpoint ratios q_A,q_B
+  -> q_AB=q_B/q_A
+  -> delta_AB=-(1/2)log(q_AB).
+```
+
+The observers and endpoint data are arguments of this calculation. They are not an additional
+physical law the metric must select.
+
+## Exact evidence
+
+- preregistered and pushed at `f9a6d1e6` before outcome algebra;
+- 12/12 frozen source hashes pass;
+- production symbolic/source checks: 40/40;
+- independent standard-library `Fraction` checks: 21,600/21,600;
+- 1,200/1,200 independent live-shift channel trials;
+- 1,200/1,200 independent regular nonradial angular trials; all retain nonzero pair shift and
+  angular modification of the readout;
+- mutation catches: 13/13;
+- repository premise and regression gates remain to be rerun after package assembly;
+- fresh zero-context adversarial review remains required before banking the outcome.
+
+## Scope and remaining open work
+
+Derived in this bounded arena:
+
+- terminal endpoint reciprocal densities from the complete calibrated pair metrics;
+- their unique endpoint-relative scalar depth;
+- reversal by endpoint swap;
+- matched scalar composition on shared calibration states;
+- common-scale cancellation;
+- inclusion of the primary metric's angular Gram before relative readout.
+
+Not derived here:
+
+- a positive metric-space distance or identity-of-indiscernibles;
+- full non-scalar carry, connection, holonomy, or arbitrary triangle closure;
+- event selection, general ambient/time-live extension, global completion, `X_max`, action, source,
+  matter, observations, or signalling.
+
+## Maximum conclusion
+
+The primary reciprocal scalar no longer has an inverse-ownership gap once it is computed as the
+already-derived difference of its two endpoint densities. The remaining carry questions concern
+non-scalar channels and cross-query calibration, not the existence of the bidirectional scalar.
+This landing remains a `LEAD` until fresh adversarial review.
+
+codex
+I have the core derivations. I’m now checking the sealed verification package itself for circularity and whether the “independent” and mutation checks genuinely test the claim rather than restating the construction.
+exec
+/bin/bash -lc "sed -n '260,420p' /intake/sources/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+
+\[
+F_a^*\eta=-d\tau^2+
+\left[1+a^2(1-2\sigma)^2\right]d\sigma^2.
+\]
+
+Therefore even observer labels plus a fixed boundary event pairing do not select a surface germ.
+The local germ is the smallest datum that closes the local plane calculation. Supplying it is much
+less than supplying an entire path or surface.
+
+## 6. Reversal, coincidence, and relative motion
+
+### Local orientation reversal
+
+Inside one tangent space, (r_{AB}\mapsto-r_{AB}) preserves the unoriented plane and flips its
+orientation. It does **not** by itself send the terminal reciprocal depth to its negative; signed
+depth reversal belongs to the ordered reciprocal calibration.
+
+Full observer reversal changes the base event from A to B. Comparing the A-side and B-side planes
+then requires lawful calibration/transport. G168 does not invent that carry.
+
+### Coincidence
+
+At coincidence the separation tangent is zero and
+
+\[
+\operatorname{rank}(u_A,0)=1.
+\]
+
+The reciprocal scalar can have its coincidence value, but there is no direction-owned rank-two
+plane. A limiting direction exists only when a pair germ is supplied. This is a genuine boundary,
+not a failure of the regular theorem.
+
+### Relative motion
+
+B's velocity need not lie in the positional plane. In Minkowski coordinates,
+
+\[
+u_A=(1,0,0,0),
+\quad r_{AB}=(0,1,0,0),
+\quad v_B=(5/4,0,3/4,0)
+\]
+
+has (g(v_B,v_B)=-1), but (v_B\notin\operatorname{span}(u_A,r_{AB})). The local positional plane
+is therefore not promoted into the complete relative-velocity kinematics of both observers.
+
+## 7. Epistemic ownership
+
+The exact result separates three levels:
+
+1. **Bare labels ((A,B)):** insufficient.
+2. **Typed local ordered co-present pair germ ((u_A,s_{AB})):** `SUPPLIED_CONDITIONALLY`; its
+   physical ownership by a completed relation is a `PROPOSED_WORKING_POSTULATE_NOT_DERIVED`.
+3. **Pair plane, orthogonal ruler, positive screen, and G167 (Y,Z):** `DERIVED` from the germ and
+   metric.
+
+Thus the local plane is not an additional freedom **after a germ is supplied**, and it is not an
+arbitrary immersion menu at that stage. What remains open is whether physical completed relations
+natively own these germs, which event/calibration germs form the physical global network, and how
+distinct basepoints carry their frames.
+
+## Maximum conclusion
+
+```text
+SUPPLIED_ORDERED_COPRESENT_PAIR_GERM_DERIVES_LOCAL_CALIBRATED_PAIR_PLANE
+__NO_PATH_REQUIRED
+__PHYSICAL_GERM_OWNERSHIP_IS_ADDITIONAL_WORKING_POSTULATE
+```
+
+This does not derive that a physical relation supplies the germ. It also does not derive a global
+event-pairing rule, path, pair surface, cross-query carry, physical profile, `X_max`, dynamics,
+signalling, source, action, bootstrap, or general complete metric.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md" in /intake
+ succeeded in 0ms:
+# G170 preregistration — endpoint-relative bidirectional pair response
+
+Date: 2026-08-19
+Mode: metric-led, exact algebra, no co-presence premise
+
+## Whole question
+
+Does the already-derived reciprocal-`c_E` endpoint rule, applied to the two endpoint pullbacks of
+one observer-pair calculation, force bidirectional reciprocal depth without an ontological
+co-presence statement or a separately supplied inverse depth?
+
+This audit tests a possible category repair in G169. G169 assigned a terminal reciprocal readout to
+each endpoint and then asked ordinary surface reversal to negate each readout. The 2026-08-09
+terminal derivation instead defines directed depth by the **relative endpoint ratio**:
+
+\[
+\delta_{AB}
+=\frac12\log\frac{L_B/T_B}{L_A/T_A}
+=\Phi_B-\Phi_A.
+\]
+
+The audit will determine whether this earlier rule survives the G166 primary kernel, the G167
+metric-owned angular pullback, and the G168 supplied-germ construction, and whether it neutralizes
+G169's same-sign endpoint witness rather than hiding it.
+
+## Exact bounded arena
+
+- The declared primary static-spherical UDT metric and its G167 local regular rank-two pullbacks.
+- Two regular calibrated endpoint pair metrics
+  \(h_X=-T_X^2(dy^0+\beta_Xdy^1)^2+L_X^2(dy^1)^2\), with \(T_X,L_X>0\).
+- Terminal endpoint readouts
+  \[
+  \Phi_X=\frac12\log\frac{L_X}{T_X}
+  =\frac14\log\frac{-\det h_X}{h_{00,X}^2},
+  \qquad q_X=\frac{T_X}{L_X}=e^{-2\Phi_X}.
+  \]
+- The same endpoint data are swapped under reversal; no independent B-to-A solve is inserted.
+- Matched composition is tested only when the middle calibrated endpoint state is literally shared.
+
+Excluded: co-presence as a premise, path selection, arbitrary triangle additivity, `X_max`, global
+completion, nonspherical/time-dependent ambient extension, action, source, matter, bootstrap,
+radiative transfer, observations, and protected local work.
+
+## Provenance ledger
+
+| Item | Status before outcome |
+|---|---|
+| `c_E` clock/ruler calibration | `OBSERVED` |
+| founded reciprocal character on supplied ordered depth | `DERIVED` |
+| endpoint-relative rule `delta_AB=Phi_B-Phi_A` | `DERIVED` in the 2026-08-09 terminal audit; under integration test here |
+| G167 angular Gram before terminal readout | `DERIVED_CONDITIONAL` in the bounded primary metric |
+| endpoint germs / calibrated endpoint metrics | supplied arguments of the bounded evaluator |
+| co-presence | inactive; neither assumed nor tested |
+| common endpoint scale | free; must cancel exactly |
+| endpoint shift and angular participation | free within regular bounded pullbacks; must remain live |
+| matched middle calibration | `pinned-by-THEORY` only for the stated composition test |
+| all numerical coefficients, profiles, fits, and cutoffs | absent |
+
+## Preregistered tests
+
+1. Recover the terminal \(T,L,\Phi,q\) identities from each general regular calibrated \(2\times2\)
+   metric, with live shift.
+2. Derive
+   \(q_{AB}=q_B/q_A=e^{-2(\Phi_B-\Phi_A)}\) and
+   \(\delta_{AB}=-\tfrac12\log q_{AB}=\Phi_B-\Phi_A\).
+3. Prove reversal by swapping the same endpoint data:
+   \(\delta_{BA}=-\delta_{AB}\), \(q_{BA}=q_{AB}^{-1}\), and
+   \(\chi_{BA}=-\chi_{AB}\).
+4. Recover G166 when A is the calibrated identity endpoint and B is the founded reciprocal block.
+5. Re-evaluate G169's exact flat same-boundary surface family. Equal endpoint readouts must give
+   zero relative depth; if the prior nonzero same-sign quantity remains the arrow depth, the repair
+   fails.
+6. Use two independently nonradial G167 pullbacks to confirm that angular Gram data enter each
+   endpoint before the relative ratio. No scalar `mu` or post-readout correction is allowed.
+7. Prove common-scale cancellation with independent positive endpoint scales.
+8. Prove exact matched A-B-C telescoping only for a literally shared B calibration state.
+9. Run at least 1,200 independent exact-rational regular trials covering live endpoint shifts,
+   angular Gram terms, unequal common scales, reversal, and matched composition.
+10. Mutation-test every load-bearing guard, including wrong endpoint order, single-endpoint depth,
+    frozen angular terms, frozen shift, common-scale contamination, and unmatched-middle closure.
+
+## Falsification contract
+
+The endpoint-relative repair fails if any of the following occurs:
+
+- it does not recover the founded pure reciprocal branch;
+- common endpoint scale contaminates relative depth;
+- the G169 surface witness remains a reversal failure after endpoint subtraction;
+- angular or shift contributions are appended after readout or silently frozen;
+- reversal requires a separately chosen negative scalar rather than swapping the same endpoint data;
+- arbitrary nonmatched endpoint states are called a composable chain;
+- co-presence, a path, `X_max`, a fit, or protected work becomes load-bearing.
+
+## Allowed landings
+
+1. `ENDPOINT_RELATIVE_RULE_DERIVES_BIDIRECTIONAL_RECIPROCAL_RESPONSE__G169_SINGLE_ENDPOINT_CATEGORY_ERROR_REPAIRED`
+2. `ENDPOINT_RELATIVE_RULE_SURVIVES_ONLY_ON_A_RESTRICTED_SUBCLASS`
+3. `ENDPOINT_RELATIVE_RULE_INCOMPATIBLE_WITH_G166_G167_OR_G168`
+4. `TYPE_FAILURE_REMAINS`
+
+## Maximum conclusion
+
+At most this audit can establish the unique endpoint-relative reciprocal scalar and its reversal on
+the bounded regular calibrated primary-metric pair arena. It cannot establish a positive
+metric-space distance, select observers, derive global spacetime, or canonize an ontology. The
+observer pair is the argument of the metric calculation, not a new law the metric must select.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md" in /intake
+ succeeded in 0ms:
+# G170 evidence gates
+
+Date: 2026-08-19
+
+1. **Preregistered:** yes; commit `f9a6d1e6` predates all outcome code and results.
+2. **Full or bounded:** complete algebraically for all regular calibrated endpoint channel metrics;
+   primary-metric orchestra witnesses and 1,200 random nonradial trials are bounded local coverage,
+   not a general ambient theorem.
+3. **Independent:** production SymPy and separate standard-library `Fraction` implementations agree;
+   fresh zero-context adversarial review is still required.
+4. **Premises:** `c_E` observed; founding character derived; endpoint-relative rule previously
+   derived; endpoint pullbacks supplied; co-presence inactive; no path, `X_max`, fit, action, source,
+   matter, bootstrap, observation, or protected work used.
+
+## Solution-space map
+
+- Fields/inputs covered: all entries of two regular calibrated endpoint `2x2` pair metrics; bounded
+  primary diagonal ambient metric with live angular tangents.
+- Dropped: general ambient mixing, time-dependent metric, singular/null/coincidence strata, global
+  topology, and non-scalar transport.
+- Acceptance characterizes regular versus nonregular trials; it does not filter for a desired
+  physical shape.
+- This is one local algebraic tile, not completion of the UDT solution space.
+
+## Current grade
+
+`LEAD__INTERNAL_EXACT_AND_INDEPENDENT_PASS__FRESH_ADVERSARIAL_REVIEW_REQUIRED`
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SOURCE_MANIFEST.tsv" in /intake
+ succeeded in 0ms:
+sha256	path	role
+f0c045abf9810dc327d249d0df385cd7e8d6914eedfaf5b31c78d186eaa13d44	SIMPLE_METRIC_MACRO.md	founding metric orientation
+74497246b6eca01e80b2bfb4b9d2871e10b237135aa3fe33485a9815ba350e06	CURRENT_SCIENTIFIC_PREMISES.md	current premise boundary
+fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	original endpoint-relative rule
+a15c22901f5f8f9401fb53b04cff23a0b14c3c5f56ac7bb4f3b23882d247669e	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md	original terminal landing
+9e985bbd73a2ffe099a57257ea51778fff9ec75eb48721565faafaafd14edc62	udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md	primary scalar kernel
+3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7	udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md	G166 bounded status
+e51704c01a72c546401e31f59ecf0b1881ee2c273324ccba2e4572fc7d01941d	udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md	primary metric angular pullback
+c1a1f722e393e431b1b0805a7e2d5ad8e27813c48db989f824b76898bc499593	udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md	G167 bounded status
+611928ca840624448cf3c22759ecc7e9582cba8ae2f2a10749aa2ea6b0cc1913	udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md	supplied-germ plane theorem
+24712719136b000e64367b6ebd234a2ef8d5b5f07ab493cfc4ea54e73b483ed9	udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md	G168 bounded status
+2e19019f6e2829eaac4ac8fef92a4bb3dbd07c37258bb37a236a4812c4c444d4	udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md	G169 reversal counterexample and boundary
+b31c31b2561c7d34fddee78218b4af823a69497978509841acbeab4df0d35ddd	udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md	G169 final conditional landing
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/VERIFICATION_RESULT.json" in /intake
+ succeeded in 0ms:
+{
+  "independent_checks": 21600,
+  "premise_verifier_returncode": 0,
+  "premise_verifier_stdout": "PASS: G169-extended premise guards; PASS: 155-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics",
+  "production_checks": 40,
+  "required_files": 16,
+  "semantic_catches": 13,
+  "source_hashes": 12,
+  "status": "PASS__PRE_REVIEW_LEAD__FRESH_ADVERSARIAL_REVIEW_REQUIRED"
+}
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/INDEPENDENT_VERIFICATION.json" in /intake
+ succeeded in 0ms:
+{
+  "angular_generation_attempts": 1213,
+  "angular_readout_changed": 1200,
+  "angular_shift_live": 1200,
+  "angular_trials": 1200,
+  "channel_trials": 1200,
+  "checks_passed": 21600,
+  "implementation": "independent standard-library Fraction; no production import",
+  "landing_supported": "ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED__COPRESENCE_NOT_LOAD_BEARING__FULL_NONSCALAR_CARRY_REMAINS_SEPARATE",
+  "seed": 1700819,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/CATCH_PROOF_RESULT.json" in /intake
+ succeeded in 0ms:
+{
+  "catches": [
+    {
+      "caught": true,
+      "detail": "1",
+      "name": "single_endpoint_as_arrow_depth"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(9, 10), Fraction(10, 9))",
+      "name": "wrong_endpoint_order"
+    },
+    {
+      "caught": true,
+      "detail": "100/81",
+      "name": "same_sign_reverse"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(1, 2), Fraction(4, 9))",
+      "name": "diagonal_readout_freezes_shift"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(152881, 78524), Fraction(4, 1))",
+      "name": "base_only_freezes_angular_gram"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(509, 100), Fraction(152881, 78524))",
+      "name": "post_readout_angular_correction"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(9604, 9), Fraction(36, 1))",
+      "name": "common_scale_contamination"
+    },
+    {
+      "caught": true,
+      "detail": "4/9",
+      "name": "correct_common_scale_control"
+    },
+    {
+      "caught": true,
+      "detail": "7/6",
+      "name": "broken_matched_telescoping"
+    },
+    {
+      "caught": true,
+      "detail": "(Fraction(35, 33), Fraction(7, 6))",
+      "name": "unmatched_middle_forced_closed"
+    },
+    {
+      "caught": true,
+      "detail": "2/5",
+      "name": "absolute_depth_erases_orientation"
+    },
+    {
+      "caught": true,
+      "detail": "1/3",
+      "name": "independent_recalibration_called_gauge"
+    },
+    {
+      "caught": true,
+      "detail": "1",
+      "name": "correct_reversal_control"
+    }
+  ],
+  "catches_passed": 13,
+  "catches_total": 13,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact G170 endpoint-relative reciprocal response algebra."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+from pathlib import Path
+
+import sympy as sp
+
+
+ROOT = Path(__file__).resolve().parents[1]
+HERE = Path(__file__).resolve().parent
+checks: list[dict[str, object]] = []
+
+
+def check(name: str, condition: object, detail: object = "") -> None:
+    passed = bool(condition)
+    checks.append({"name": name, "passed": passed, "detail": str(detail)})
+    if not passed:
+        raise AssertionError(f"{name}: {detail}")
+
+
+def source_hashes() -> tuple[int, list[str]]:
+    rows = list(csv.DictReader((HERE / "SOURCE_MANIFEST.tsv").open(), delimiter="\t"))
+    failures: list[str] = []
+    for row in rows:
+        actual = hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest()
+        if actual != row["sha256"]:
+            failures.append(row["path"])
+    return len(rows), failures
+
+
+def pair_metric(T: sp.Expr, L: sp.Expr, beta: sp.Expr) -> sp.Matrix:
+    return sp.Matrix(
+        [
+            [-T**2, -T**2 * beta],
+            [-T**2 * beta, L**2 - T**2 * beta**2],
+        ]
+    )
+
+
+def q_squared_from_h(h: sp.Matrix) -> sp.Expr:
+    return sp.factor(h[0, 0] ** 2 / (-h.det()))
+
+
+def chi_from_exp2_depth(exp2_depth: sp.Expr) -> sp.Expr:
+    return sp.cancel((exp2_depth - 1) / (exp2_depth + 1))
+
+
+# 1. General endpoint decomposition and terminal c_E readout, with live shift.
+T_A, L_A, T_B, L_B = sp.symbols("T_A L_A T_B L_B", positive=True)
+beta_A, beta_B = sp.symbols("beta_A beta_B", real=True)
+h_A = pair_metric(T_A, L_A, beta_A)
+h_B = pair_metric(T_B, L_B, beta_B)
+
+check("endpoint_A_determinant", sp.factor(h_A.det()) == -T_A**2 * L_A**2, h_A.det())
+check("endpoint_B_determinant", sp.factor(h_B.det()) == -T_B**2 * L_B**2, h_B.det())
+check("endpoint_A_shift_live", h_A[0, 1].has(beta_A) and h_A[1, 1].has(beta_A))
+check("endpoint_B_shift_live", h_B[0, 1].has(beta_B) and h_B[1, 1].has(beta_B))
+check("endpoint_A_q2_from_metric", q_squared_from_h(h_A) == T_A**2 / L_A**2)
+check("endpoint_B_q2_from_metric", q_squared_from_h(h_B) == T_B**2 / L_B**2)
+
+w_plus_A = T_A / (L_A - T_A * beta_A)
+w_minus_A = -T_A / (L_A + T_A * beta_A)
+inverse_slope_A = sp.simplify((1 / w_plus_A - 1 / w_minus_A) / 2)
+check("two_way_terminal_readout_removes_shift", inverse_slope_A == L_A / T_A)
+
+Phi_A = sp.log(L_A / T_A) / 2
+Phi_B = sp.log(L_B / T_B) / 2
+q_A = T_A / L_A
+q_B = T_B / L_B
+
+# 2. The original terminal endpoint rule: directed depth is the ratio of endpoint ratios.
+q_AB = sp.cancel(q_B / q_A)
+q_BA = sp.cancel(q_A / q_B)
+exp2_delta_AB = sp.cancel((L_B / T_B) / (L_A / T_A))
+delta_AB_from_q = -sp.log(q_AB) / 2
+delta_AB_endpoint = Phi_B - Phi_A
+log_difference = sp.simplify(
+    sp.expand_log(delta_AB_from_q, force=True)
+    - sp.expand_log(delta_AB_endpoint, force=True)
+)
+check("relative_q_is_endpoint_ratio", q_AB == 1 / exp2_delta_AB)
+check("relative_depth_is_endpoint_difference", log_difference == 0, log_difference)
+check("relative_ceff_identity", sp.simplify(q_AB - sp.exp(-2 * delta_AB_endpoint)) == 0)
+
+# 3. Reversal swaps the same endpoint data. No separately chosen negative depth enters.
+delta_BA_endpoint = Phi_A - Phi_B
+check("reversal_q", sp.cancel(q_AB * q_BA) == 1)
+check("reversal_depth", sp.simplify(delta_AB_endpoint + delta_BA_endpoint) == 0)
+chi_AB = chi_from_exp2_depth(exp2_delta_AB)
+chi_BA = chi_from_exp2_depth(1 / exp2_delta_AB)
+check("reversal_chi", sp.cancel(chi_AB + chi_BA) == 0)
+
+# 4. G166 founded branch is the A-anchored special case.
+d = sp.symbols("d", real=True)
+pure_subs = {
+    T_A: 1,
+    L_A: 1,
+    beta_A: 0,
+    T_B: sp.exp(-d),
+    L_B: sp.exp(d),
+    beta_B: 0,
+}
+check("pure_branch_forward_q", sp.simplify(q_AB.subs(pure_subs) - sp.exp(-2 * d)) == 0)
+check(
+    "pure_branch_forward_depth",
+    sp.simplify(sp.expand_log(delta_AB_endpoint.subs(pure_subs), force=True) - d) == 0,
+)
+check(
+    "pure_branch_reverse_depth",
+    sp.simplify(sp.expand_log(delta_BA_endpoint.subs(pure_subs), force=True) + d) == 0,
+)
+
+# 5. G169's same-boundary surface witness is an equal-endpoint control, not a reversal failure.
+a = sp.symbols("a", real=True)
+h_surface_A = sp.diag(-1, 1 + a**2)
+h_surface_B = sp.diag(-1, 1 + a**2)
+q2_surface_A = q_squared_from_h(h_surface_A)
+q2_surface_B = q_squared_from_h(h_surface_B)
+Phi_surface_A = sp.log(1 + a**2) / 4
+Phi_surface_B = sp.log(1 + a**2) / 4
+delta_surface_AB = sp.simplify(Phi_surface_B - Phi_surface_A)
+delta_surface_BA = sp.simplify(Phi_surface_A - Phi_surface_B)
+check("surface_endpoint_readouts_equal", sp.simplify(q2_surface_A - q2_surface_B) == 0)
+check("surface_relative_depth_zero", delta_surface_AB == 0)
+check("surface_reverse_relative_depth_zero", delta_surface_BA == 0)
+check("surface_reversal_holds", sp.simplify(delta_surface_AB + delta_surface_BA) == 0)
+check(
+    "single_endpoint_quantity_is_not_arrow_depth",
+    Phi_surface_A.subs(a, 1) != delta_surface_AB.subs(a, 1),
+)
+
+# 6. Two exact nonradial G167 endpoint pullbacks retain their angular Gram before differencing.
+def primary_pullback(
+    u: sp.Expr,
+    radius: sp.Expr,
+    sine: sp.Expr,
+    J: sp.Matrix,
+) -> tuple[sp.Matrix, sp.Matrix, sp.Matrix]:
+    u = sp.sympify(u)
+    radius = sp.sympify(radius)
+    sine = sp.sympify(sine)
+    g = sp.diag(-sp.Integer(1) / u**2, u**2, radius**2, radius**2 * sine**2)
+    g_base = sp.diag(-sp.Integer(1) / u**2, u**2)
+    q_screen = sp.diag(radius**2, radius**2 * sine**2)
+    Y = J[:2, :]
+    Z = J[2:, :]
+    return (
+        sp.simplify(J.T * g * J),
+        sp.simplify(Y.T * g_base * Y),
+        sp.simplify(Z.T * q_screen * Z),
+    )
+
+
+J_angular_A = sp.Matrix(
+    [[4, 0], [0, sp.Rational(1, 2)], [sp.Rational(1, 10), sp.Rational(1, 5)], [0, sp.Rational(1, 3)]]
+)
+h_ang_A, h_base_A, P_A = primary_pullback(2, 3, sp.Rational(4, 5), J_angular_A)
+J_angular_B = sp.Matrix(
+    [
+        [3, sp.Rational(1, 5)],
+        [sp.Rational(1, 10), sp.Rational(2, 3)],
+        [sp.Rational(1, 8), sp.Rational(1, 4)],
+        [sp.Rational(1, 10), sp.Rational(1, 5)],
+    ]
+)
+h_ang_B, h_base_B, P_B = primary_pullback(
+    sp.Rational(3, 2), 4, sp.Rational(3, 5), J_angular_B
+)
+q2_ang_A = q_squared_from_h(h_ang_A)
+q2_ang_B = q_squared_from_h(h_ang_B)
+q2_base_A = q_squared_from_h(h_base_A)
+q2_base_B = q_squared_from_h(h_base_B)
+q2_relative_angular = sp.factor(q2_ang_B / q2_ang_A)
+q2_relative_angular_reverse = sp.factor(q2_ang_A / q2_ang_B)
+
+check("angular_A_pullback_identity", sp.simplify(h_ang_A - h_base_A - P_A) == sp.zeros(2))
+check("angular_B_pullback_identity", sp.simplify(h_ang_B - h_base_B - P_B) == sp.zeros(2))
+check("angular_A_regular", h_ang_A[0, 0] < 0 and h_ang_A.det() < 0)
+check("angular_B_regular", h_ang_B[0, 0] < 0 and h_ang_B.det() < 0)
+check("angular_A_shift_live", h_ang_A[0, 1] != 0)
+check("angular_B_shift_live", h_ang_B[0, 1] != 0)
+check("angular_A_changes_endpoint_readout", q2_ang_A != q2_base_A)
+check("angular_B_changes_endpoint_readout", q2_ang_B != q2_base_B)
+check("angular_relative_reversal", sp.factor(q2_relative_angular * q2_relative_angular_reverse) == 1)
+
+# 7. Independent common scales cancel from both endpoint readouts and their ratio.
+omega_A, omega_B = sp.symbols("omega_A omega_B", positive=True)
+h_scaled_A = sp.simplify(omega_A**2 * h_ang_A)
+h_scaled_B = sp.simplify(omega_B**2 * h_ang_B)
+check("common_scale_A_cancels", q_squared_from_h(h_scaled_A) == q2_ang_A)
+check("common_scale_B_cancels", q_squared_from_h(h_scaled_B) == q2_ang_B)
+check(
+    "common_scale_relative_ratio_cancels",
+    sp.factor(q_squared_from_h(h_scaled_B) / q_squared_from_h(h_scaled_A))
+    == q2_relative_angular,
+)
+
+# 8. Matched endpoint states telescope. An unmatched middle state leaves an exact residual.
+q_C = sp.symbols("q_C", positive=True)
+q_AB_general = sp.cancel(q_B / q_A)
+q_BC_general = sp.cancel(q_C / q_B)
+q_AC_general = sp.cancel(q_C / q_A)
+check("matched_q_composition", sp.cancel(q_AB_general * q_BC_general - q_AC_general) == 0)
+
+Phi_C = sp.symbols("Phi_C", real=True)
+check(
+    "matched_depth_telescopes",
+    sp.simplify((Phi_B - Phi_A) + (Phi_C - Phi_B) - (Phi_C - Phi_A)) == 0,
+)
+Phi_B_left, Phi_B_right = sp.symbols("Phi_B_left Phi_B_right", real=True)
+unmatched_residual = sp.simplify(
+    (Phi_B_left - Phi_A) + (Phi_C - Phi_B_right) - (Phi_C - Phi_A)
+)
+check("unmatched_middle_residual_exposed", unmatched_residual == Phi_B_left - Phi_B_right)
+check("unmatched_middle_not_forced_zero", unmatched_residual != 0)
+
+# 9. A global reciprocal-origin change cancels; independent recalibration is physical input.
+c = sp.symbols("c", real=True)
+check(
+    "shared_reciprocal_origin_cancels",
+    sp.simplify(((Phi_B + c) - (Phi_A + c)) - (Phi_B - Phi_A)) == 0,
+)
+c_A, c_B = sp.symbols("c_A c_B", real=True)
+check(
+    "independent_recalibration_exposed",
+    sp.simplify(((Phi_B + c_B) - (Phi_A + c_A)) - (Phi_B - Phi_A)) == c_B - c_A,
+)
+
+source_count, source_failures = source_hashes()
+check("source_hashes_match", source_count == 12 and not source_failures, source_failures)
+
+landing = (
+    "ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS"
+    "__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC"
+    "__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED"
+    "__COPRESENCE_NOT_LOAD_BEARING"
+    "__FULL_NONSCALAR_CARRY_REMAINS_SEPARATE"
+)
+
+result = {
+    "landing": landing,
+    "status": "DERIVED_BOUNDED_INTEGRATION_REPAIR",
+    "checks_passed": sum(int(row["passed"]) for row in checks),
+    "checks_total": len(checks),
+    "checks": checks,
+    "surface_regrade": {
+        "endpoint_phi_A_at_a_1": "log(2)/4",
+        "endpoint_phi_B_at_a_1": "log(2)/4",
+        "relative_delta_AB": "0",
+        "relative_delta_BA": "0",
+    },
+    "angular_endpoint_A": {
+        "h": [[str(entry) for entry in row] for row in h_ang_A.tolist()],
+        "P": [[str(entry) for entry in row] for row in P_A.tolist()],
+        "q_squared": str(q2_ang_A),
+
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent exact-Fraction verification of G170; imports no production code."""
+
+from __future__ import annotations
+
+from fractions import Fraction as F
+import json
+from pathlib import Path
+import random
+
+
+HERE = Path(__file__).resolve().parent
+RNG = random.Random(1700819)
+
+
+def require(condition: bool, message: str) -> None:
+    if not condition:
+        raise AssertionError(message)
+
+
+def det2(h: tuple[tuple[F, F], tuple[F, F]]) -> F:
+    return h[0][0] * h[1][1] - h[0][1] * h[1][0]
+
+
+def channel_metric(T: F, L: F, beta: F) -> tuple[tuple[F, F], tuple[F, F]]:
+    return (
+        (-T * T, -T * T * beta),
+        (-T * T * beta, L * L - T * T * beta * beta),
+    )
+
+
+def q2(h: tuple[tuple[F, F], tuple[F, F]]) -> F:
+    return h[0][0] * h[0][0] / (-det2(h))
+
+
+def add2(
+    a: tuple[tuple[F, F], tuple[F, F]],
+    b: tuple[tuple[F, F], tuple[F, F]],
+) -> tuple[tuple[F, F], tuple[F, F]]:
+    return (
+        (a[0][0] + b[0][0], a[0][1] + b[0][1]),
+        (a[1][0] + b[1][0], a[1][1] + b[1][1]),
+    )
+
+
+def scale2(
+    factor: F,
+    h: tuple[tuple[F, F], tuple[F, F]],
+) -> tuple[tuple[F, F], tuple[F, F]]:
+    return (
+        (factor * h[0][0], factor * h[0][1]),
+        (factor * h[1][0], factor * h[1][1]),
+    )
+
+
+def primary_parts(
+    u: F,
+    radius: F,
+    sine: F,
+    columns: tuple[tuple[F, F, F, F], tuple[F, F, F, F]],
+) -> tuple[
+    tuple[tuple[F, F], tuple[F, F]],
+    tuple[tuple[F, F], tuple[F, F]],
+    tuple[tuple[F, F], tuple[F, F]],
+]:
+    weights = (-F(1, 1) / (u * u), u * u, radius * radius, radius * radius * sine * sine)
+    base_weights = weights[:2]
+    angular_weights = weights[2:]
+
+    def gram(weights_here: tuple[F, ...], offset: int) -> tuple[tuple[F, F], tuple[F, F]]:
+        out = [[F(0), F(0)], [F(0), F(0)]]
+        for i in range(2):
+            for j in range(2):
+                out[i][j] = sum(
+                    weights_here[k] * columns[i][k + offset] * columns[j][k + offset]
+                    for k in range(len(weights_here))
+                )
+        return ((out[0][0], out[0][1]), (out[1][0], out[1][1]))
+
+    base = gram(base_weights, 0)
+    angular = gram(angular_weights, 2)
+    return add2(base, angular), base, angular
+
+
+def positive_fraction(low: int = 1, high: int = 9) -> F:
+    return F(RNG.randint(low, high), RNG.randint(1, 9))
+
+
+def signed_fraction(scale: int = 4) -> F:
+    return F(RNG.randint(-scale, scale), RNG.randint(1, 9))
+
+
+checks = 0
+channel_trials = 1200
+for trial in range(channel_trials):
+    T_A, L_A = positive_fraction(), positive_fraction()
+    T_B, L_B = positive_fraction(), positive_fraction()
+    T_C, L_C = positive_fraction(), positive_fraction()
+    beta_A, beta_B, beta_C = signed_fraction(), signed_fraction(), signed_fraction()
+    h_A = channel_metric(T_A, L_A, beta_A)
+    h_B = channel_metric(T_B, L_B, beta_B)
+    h_C = channel_metric(T_C, L_C, beta_C)
+
+    require(det2(h_A) == -T_A * T_A * L_A * L_A, f"A determinant {trial}")
+    require(det2(h_B) == -T_B * T_B * L_B * L_B, f"B determinant {trial}")
+    require(det2(h_C) == -T_C * T_C * L_C * L_C, f"C determinant {trial}")
+    checks += 3
+    require(q2(h_A) == (T_A / L_A) ** 2, f"A q2 {trial}")
+    require(q2(h_B) == (T_B / L_B) ** 2, f"B q2 {trial}")
+    require(q2(h_C) == (T_C / L_C) ** 2, f"C q2 {trial}")
+    checks += 3
+
+    exp2_AB = (L_B / T_B) / (L_A / T_A)
+    exp2_BA = (L_A / T_A) / (L_B / T_B)
+    exp2_BC = (L_C / T_C) / (L_B / T_B)
+    exp2_AC = (L_C / T_C) / (L_A / T_A)
+    require(exp2_AB * exp2_BA == 1, f"reversal ratio {trial}")
+    require(exp2_AB * exp2_BC == exp2_AC, f"matched composition {trial}")
+    checks += 2
+
+    chi_AB = (exp2_AB - 1) / (exp2_AB + 1)
+    chi_BA = (exp2_BA - 1) / (exp2_BA + 1)
+    require(chi_AB == -chi_BA, f"chi reversal {trial}")
+    checks += 1
+
+    omega_A, omega_B = positive_fraction(), positive_fraction()
+    require(q2(scale2(omega_A * omega_A, h_A)) == q2(h_A), f"A common scale {trial}")
+    require(q2(scale2(omega_B * omega_B, h_B)) == q2(h_B), f"B common scale {trial}")
+    checks += 2
+
+    # The same endpoint value at both ends is a zero relative response, not a same-sign arrow.
+    same = positive_fraction()
+    exp2_same = same / same
+    require(exp2_same == 1 and (exp2_same - 1) / (exp2_same + 1) == 0, f"equal endpoint {trial}")
+    checks += 1
+
+    # Independently rebuilt middle calibrations do not telescope unless they are equal.
+    B_left = positive_fraction()
+    B_right = positive_fraction()
+    if B_left == B_right:
+        B_right += F(1, 97)
+    unmatched = (B_left / (L_A / T_A)) * ((L_C / T_C) / B_right)
+    require(unmatched != exp2_AC, f"unmatched middle accidentally closed {trial}")
+    checks += 1
+
+
+angular_trials = 1200
+accepted = 0
+attempts = 0
+angular_shift_live = 0
+angular_readout_changed = 0
+while accepted < angular_trials:
+    attempts += 1
+    require(attempts < 100000, "angular trial generation stalled")
+    u = positive_fraction(1, 5)
+    radius = positive_fraction(1, 6)
+    sine = F(RNG.randint(1, 8), RNG.randint(9, 12))
+    col0 = (
+        F(RNG.randint(3, 7)),
+        F(RNG.randint(-2, 2), 10),
+        F(RNG.randint(1, 3), RNG.randint(10, 20)),
+        F(RNG.randint(1, 3), RNG.randint(10, 20)),
+    )
+    col1 = (
+        F(RNG.randint(-2, 2), 10),
+        F(RNG.randint(2, 7), RNG.randint(3, 9)),
+        F(RNG.randint(1, 4), RNG.randint(8, 18)),
+        F(RNG.randint(1, 4), RNG.randint(8, 18)),
+    )
+    full, base, angular = primary_parts(u, radius, sine, (col0, col1))
+    if full[0][0] >= 0 or det2(full) >= 0 or base[0][0] >= 0 or det2(base) >= 0:
+        continue
+    if full[0][1] == 0 or q2(full) == q2(base):
+        continue
+
+    require(full == add2(base, angular), f"angular assembly {accepted}")
+    require(full[0][0] < 0 and det2(full) < 0, f"angular regular {accepted}")
+    require(q2(full) > 0 and q2(base) > 0, f"angular q2 positive {accepted}")
+    checks += 3
+    angular_shift_live += int(full[0][1] != 0)
+    angular_readout_changed += int(q2(full) != q2(base))
+
+    omega = positive_fraction()
+    require(q2(scale2(omega * omega, full)) == q2(full), f"angular scale {accepted}")
+    checks += 1
+
+    # A second exact regular endpoint supplies a genuine relative ratio whose reverse is automatic.
+    T_ref, L_ref = positive_fraction(), positive_fraction()
+    q2_relative = q2(full) / ((T_ref / L_ref) ** 2)
+    q2_reverse = ((T_ref / L_ref) ** 2) / q2(full)
+    require(q2_relative * q2_reverse == 1, f"angular endpoint reversal {accepted}")
+    checks += 1
+    accepted += 1
+
+
+landing = (
+    "ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS"
+    "__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC"
+    "__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED"
+    "__COPRESENCE_NOT_LOAD_BEARING"
+    "__FULL_NONSCALAR_CARRY_REMAINS_SEPARATE"
+)
+result = {
+    "landing_supported": landing,
+    "implementation": "independent standard-library Fraction; no production import",
+    "seed": 1700819,
+    "channel_trials": channel_trials,
+    "angular_trials": angular_trials,
+    "angular_generation_attempts": attempts,
+    "angular_shift_live": angular_shift_live,
+    "angular_readout_changed": angular_readout_changed,
+    "checks_passed": checks,
+    "status": "PASS",
+}
+(HERE / "INDEPENDENT_VERIFICATION.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+print(json.dumps(result, sort_keys=True))
+
+exec
+/bin/bash -lc "sed -n '1,200p' /intake/REVIEW_SCOPE.json" in /intake
+ succeeded in 0ms:
+{
+  "files_before_scope": 30,
+  "package": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19",
+  "restrictions": [
+    "read-only",
+    "no edits",
+    "no continuation of research",
+    "no repository access outside intake",
+    "no protected-package access",
+    "no internet"
+  ],
+  "tree": [
+    {
+      "bytes": 8769,
+      "path": "sources/CURRENT_SCIENTIFIC_PREMISES.md",
+      "sha256": "74497246b6eca01e80b2bfb4b9d2871e10b237135aa3fe33485a9815ba350e06"
+    },
+    {
+      "bytes": 4973,
+      "path": "sources/SIMPLE_METRIC_MACRO.md",
+      "sha256": "f0c045abf9810dc327d249d0df385cd7e8d6914eedfaf5b31c78d186eaa13d44"
+    },
+    {
+      "bytes": 5664,
+      "path": "sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md",
+      "sha256": "3b7bef3e8027eb95dd9070cf8844bfbbba602d4a7ce30c1772bbc540f9e97bd7"
+    },
+    {
+      "bytes": 4709,
+      "path": "sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md",
+      "sha256": "9e985bbd73a2ffe099a57257ea51778fff9ec75eb48721565faafaafd14edc62"
+    },
+    {
+      "bytes": 4611,
+      "path": "sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md",
+      "sha256": "c1a1f722e393e431b1b0805a7e2d5ad8e27813c48db989f824b76898bc499593"
+    },
+    {
+      "bytes": 7639,
+      "path": "sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md",
+      "sha256": "e51704c01a72c546401e31f59ecf0b1881ee2c273324ccba2e4572fc7d01941d"
+    },
+    {
+      "bytes": 3868,
+      "path": "sources/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md",
+      "sha256": "24712719136b000e64367b6ebd234a2ef8d5b5f07ab493cfc4ea54e73b483ed9"
+    },
+    {
+      "bytes": 8007,
+      "path": "sources/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md",
+      "sha256": "611928ca840624448cf3c22759ecc7e9582cba8ae2f2a10749aa2ea6b0cc1913"
+    },
+    {
+      "bytes": 4241,
+      "path": "sources/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md",
+      "sha256": "b31c31b2561c7d34fddee78218b4af823a69497978509841acbeab4df0d35ddd"
+    },
+    {
+      "bytes": 8487,
+      "path": "sources/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md",
+      "sha256": "2e19019f6e2829eaac4ac8fef92a4bb3dbd07c37258bb37a236a4812c4c444d4"
+    },
+    {
+      "bytes": 4804,
+      "path": "sources/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md",
+      "sha256": "a15c22901f5f8f9401fb53b04cff23a0b14c3c5f56ac7bb4f3b23882d247669e"
+    },
+    {
+      "bytes": 15088,
+      "path": "sources/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md",
+      "sha256": "fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a"
+    },
+    {
+      "bytes": 3246,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md",
+      "sha256": "cc1fa4deee96fb1aee5fcd8fa7490566abd0fa68ebf4154e86be9d4d1cd2e6f9"
+    },
+    {
+      "bytes": 4030,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md",
+      "sha256": "4407cb6441356989c5cfe0875225f495818f84523b76c29138687cc5698086ff"
+    },
+    {
+      "bytes": 1630,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/CATCH_PROOF_RESULT.json",
+      "sha256": "b1a1c5e039e8523602e467eef1233094fe5e8e9c30477ecf7cd24130a47eac1e"
+    },
+    {
+      "bytes": 5352,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/DERIVATION_RESULT.json",
+      "sha256": "152cd698376e2cdc979fde1616c8c1dfa53477ff75e9048f5e0cf6c1107bed29"
+    },
+    {
+      "bytes": 1387,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md",
+      "sha256": "10dd1734b2de6fccfd7e7d47a0eada99e999713475a401271b1d88ebe6c71c29"
+    },
+    {
+      "bytes": 5935,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md",
+      "sha256": "63966d8a959d815cdd558c5400228f52ff2b2987def574bbeff12b4f1d1865a0"
+    },
+    {
+      "bytes": 742,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXECUTION_NOTE.md",
+      "sha256": "a6f030426c74559e4108bfa6ff5481e110931d802fe0df1f6d89376665aed958"
+    },
+    {
+      "bytes": 587,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/INDEPENDENT_VERIFICATION.json",
+      "sha256": "aab1642469de57734fad2a39c9bdf7350a35bb5ae8d8e6cdfb560c7f10560b30"
+    },
+    {
+      "bytes": 1177,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/LAY_REPORT.md",
+      "sha256": "ac696663a39064847f58ba1e0ab97a590980a7cd268ff085673adb30dfe170a4"
+    },
+    {
+      "bytes": 1368,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PONDER_MAP.md",
+      "sha256": "30d792b8e068292fd90755beb340375d873fe2f379db3bab6e7d4065a0104be5"
+    },
+    {
+      "bytes": 5508,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md",
+      "sha256": "2154d49be95f45892216e1b450db874868c13372e88501a46f810bb885ad4d0e"
+    },
+    {
+      "bytes": 1969,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SOURCE_MANIFEST.tsv",
+      "sha256": "941b20e354e1793fad34f2c0e99393c2b3d2ff17c3450bc9e7453f16463f85e9"
+    },
+    {
+      "bytes": 1363,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv",
+      "sha256": "93d43b16de50add35ff232b0ddc4ea31bd5abf6ac2640f09e40ce3f7de04a7d4"
+    },
+    {
+      "bytes": 501,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/VERIFICATION_RESULT.json",
+      "sha256": "75ebea739468a3f6a3e79a8d6a033d6a0962a4e694cf14547e3bb09167e62c06"
+    },
+    {
+      "bytes": 10601,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py",
+      "sha256": "99e34eac47c59208c0265dee4224d9c9a30aa521b473f442f0c036ac1e59ee56"
+    },
+    {
+      "bytes": 4332,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py",
+      "sha256": "dd11c7db74c76840e429ba267243a75665999d75092406faddc0395ada40b055"
+    },
+    {
+      "bytes": 7402,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py",
+      "sha256": "dcd3ddce6bc18b83f57c4b51d5863068da370ac1212f5ddaccae8ae47b1a529b"
+    },
+    {
+      "bytes": 4433,
+      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py",
+      "sha256": "ff131f09a8ff027b1fe2e9da81ef746175ccb2bb6efed194d0c75baa704b8fdf"
+    }
+  ]
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Verify the pre-review G170 endpoint-relative evidence package."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+from pathlib import Path
+import subprocess
+import sys
+
+
+ROOT = Path(__file__).resolve().parents[1]
+HERE = Path(__file__).resolve().parent
+FROZEN_SOURCE_COMMIT = "f9a6d1e6"
+
+
+def require(condition: bool, message: str) -> None:
+    if not condition:
+        raise AssertionError(message)
+
+
+required = [
+    "PREREGISTRATION.md",
+    "PONDER_MAP.md",
+    "SOURCE_MANIFEST.tsv",
+    "derive_endpoint_relative_response.py",
+    "DERIVATION_RESULT.json",
+    "verify_endpoint_relative_independent.py",
+    "INDEPENDENT_VERIFICATION.json",
+    "run_catch_proofs.py",
+    "CATCH_PROOF_RESULT.json",
+    "EXACT_DERIVATION.md",
+    "AUDIT_REPORT.md",
+    "LAY_REPORT.md",
+    "STATUS_LEDGER.tsv",
+    "EVIDENCE_GATES.md",
+    "EXECUTION_NOTE.md",
+    "ADVERSARIAL_REVIEW_REQUEST.md",
+]
+for name in required:
+    require((HERE / name).is_file(), f"missing {name}")
+
+rows = list(csv.DictReader((HERE / "SOURCE_MANIFEST.tsv").open(), delimiter="\t"))
+require(len(rows) == 12, "source manifest count")
+for row in rows:
+    frozen = subprocess.run(
+        ["git", "show", f"{FROZEN_SOURCE_COMMIT}:{row['path']}"],
+        cwd=ROOT,
+        capture_output=True,
+        check=True,
+    ).stdout
+    require(hashlib.sha256(frozen).hexdigest() == row["sha256"], f"source hash {row['path']}")
+
+commands = [
+    [sys.executable, str(HERE / "derive_endpoint_relative_response.py")],
+    [sys.executable, str(HERE / "verify_endpoint_relative_independent.py")],
+    [sys.executable, str(HERE / "run_catch_proofs.py")],
+]
+for command in commands:
+    completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, check=False)
+    require(completed.returncode == 0, f"command failed: {' '.join(command)}\n{completed.stdout}\n{completed.stderr}")
+
+production = json.loads((HERE / "DERIVATION_RESULT.json").read_text())
+independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text())
+catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text())
+landing = (
+    "ENDPOINT_RELATIVE_RECIPROCAL_DEPTH_DERIVED_FROM_TERMINAL_CEFF_RATIOS"
+    "__BIDIRECTIONAL_REVERSAL_AND_MATCHED_COMPOSITION_AUTOMATIC"
+    "__G169_SINGLE_ENDPOINT_REVERSAL_COUNTEREXAMPLE_RECLASSIFIED"
+    "__COPRESENCE_NOT_LOAD_BEARING"
+    "__FULL_NONSCALAR_CARRY_REMAINS_SEPARATE"
+)
+require(production["landing"] == landing, "production landing")
+require(production["checks_passed"] == production["checks_total"] == 40, "production checks")
+require(independent["landing_supported"] == landing, "independent landing")
+require(independent["checks_passed"] == 21600, "independent count")
+require(independent["angular_trials"] == independent["angular_shift_live"] == 1200, "angular shift coverage")
+require(independent["angular_trials"] == independent["angular_readout_changed"] == 1200, "angular readout coverage")
+require(catches["catches_passed"] == catches["catches_total"] == 13, "mutation catches")
+
+audit = (HERE / "AUDIT_REPORT.md").read_text()
+exact = (HERE / "EXACT_DERIVATION.md").read_text()
+ledger = (HERE / "STATUS_LEDGER.tsv").read_text()
+require("fresh zero-context adversarial review remains required" in audit, "pre-review grade")
+require(r"\Phi_B-\Phi_A" in exact, "endpoint-difference theorem")
+require("co-presence premise\tNOT_LOAD_BEARING" in ledger, "co-presence boundary")
+require("positive metric-space distance\tNOT_CLAIMED" in ledger, "distance boundary")
+require("full non-scalar carry\tOPEN_SEPARATE" in ledger, "carry boundary")
+
+premise = subprocess.run(
+    [sys.executable, str(ROOT / "verify_current_scientific_premises.py")],
+    cwd=ROOT,
+    text=True,
+    capture_output=True,
+    check=False,
+)
+require(premise.returncode == 0, f"premise verifier\n{premise.stdout}\n{premise.stderr}")
+
+result = {
+    "status": "PASS__PRE_REVIEW_LEAD__FRESH_ADVERSARIAL_REVIEW_REQUIRED",
+    "required_files": len(required),
+    "source_hashes": len(rows),
+    "production_checks": production["checks_total"],
+    "independent_checks": independent["checks_passed"],
+    "semantic_catches": catches["catches_total"],
+    "premise_verifier_returncode": premise.returncode,
+    "premise_verifier_stdout": premise.stdout.strip(),
+}
+(HERE / "VERIFICATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+print(json.dumps(result, sort_keys=True))
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Mutation catches for the G170 endpoint-relative theorem."""
+
+from __future__ import annotations
+
+from fractions import Fraction as F
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+catches: list[dict[str, object]] = []
+
+
+def catch(name: str, detected: bool, detail: object) -> None:
+    catches.append({"name": name, "caught": bool(detected), "detail": str(detail)})
+    if not detected:
+        raise AssertionError(f"mutation escaped: {name}: {detail}")
+
+
+def metric(T: F, L: F, beta: F) -> tuple[tuple[F, F], tuple[F, F]]:
+    return ((-T * T, -T * T * beta), (-T * T * beta, L * L - T * T * beta * beta))
+
+
+def det(h: tuple[tuple[F, F], tuple[F, F]]) -> F:
+    return h[0][0] * h[1][1] - h[0][1] * h[1][0]
+
+
+def q2(h: tuple[tuple[F, F], tuple[F, F]]) -> F:
+    return h[0][0] * h[0][0] / (-det(h))
+
+
+T_A, L_A, beta_A = F(2), F(3), F(1, 2)
+T_B, L_B, beta_B = F(3), F(5), F(-1, 3)
+h_A = metric(T_A, L_A, beta_A)
+h_B = metric(T_B, L_B, beta_B)
+exp2_AB = (L_B / T_B) / (L_A / T_A)
+exp2_BA = 1 / exp2_AB
+
+# 1. The old G169 category error: a nonzero endpoint density is not the arrow depth.
+surface_endpoint_exp2 = F(2)
+surface_relative_exp2 = surface_endpoint_exp2 / surface_endpoint_exp2
+catch("single_endpoint_as_arrow_depth", surface_endpoint_exp2 != surface_relative_exp2, surface_relative_exp2)
+
+# 2. Wrong endpoint order changes the directed response.
+wrong_order = (L_A / T_A) / (L_B / T_B)
+catch("wrong_endpoint_order", wrong_order != exp2_AB, (wrong_order, exp2_AB))
+
+# 3. Copying the forward response instead of swapping endpoints breaks reversal.
+catch("same_sign_reverse", exp2_AB * exp2_AB != 1, exp2_AB * exp2_AB)
+
+# 4. Reading the diagonal spatial entry ignores the live shift.
+naive_q2_A = (-h_A[0][0]) / h_A[1][1]
+catch("diagonal_readout_freezes_shift", naive_q2_A != q2(h_A), (naive_q2_A, q2(h_A)))
+
+# 5. The G167 angular Gram cannot be discarded.
+h_full = ((F(-391, 100), F(9, 50)), (F(9, 50), F(2)))
+h_base = ((F(-4), F(0)), (F(0), F(1)))
+catch("base_only_freezes_angular_gram", q2(h_full) != q2(h_base), (q2(h_full), q2(h_base)))
+
+# 6. A trace correction bolted onto the base readout is not the full determinant readout.
+angular_trace = F(109, 100)
+post_readout = q2(h_base) + angular_trace
+catch("post_readout_angular_correction", post_readout != q2(h_full), (post_readout, q2(h_full)))
+
+# 7. A common scale must cancel; a volume-like substitute does not.
+omega = F(7, 3)
+scaled_h_A = tuple(tuple(omega * omega * value for value in row) for row in h_A)
+bad_volume_readout = -det(scaled_h_A)
+catch("common_scale_contamination", bad_volume_readout != -det(h_A), (bad_volume_readout, -det(h_A)))
+catch("correct_common_scale_control", q2(scaled_h_A) == q2(h_A), q2(scaled_h_A))
+
+# 8. Matched middle state telescopes; two independent B calibrations do not.
+R_A, R_B, R_C = F(3, 2), F(5, 3), F(7, 4)
+matched = (R_B / R_A) * (R_C / R_B)
+catch("broken_matched_telescoping", matched == R_C / R_A, matched)
+R_B_left, R_B_right = F(5, 3), F(11, 6)
+unmatched = (R_B_left / R_A) * (R_C / R_B_right)
+catch("unmatched_middle_forced_closed", unmatched != R_C / R_A, (unmatched, R_C / R_A))
+
+# 9. Absolute value cannot carry directed reversal.
+signed_marker = F(2, 5)
+catch("absolute_depth_erases_orientation", abs(signed_marker) == abs(-signed_marker) and signed_marker != -signed_marker, signed_marker)
+
+# 10. Independent reciprocal recalibration is not a shared-origin gauge shift.
+endpoint_A, endpoint_B = F(2), F(5)
+shift_A, shift_B = F(1, 3), F(2, 3)
+original_difference = endpoint_B - endpoint_A
+independently_recalibrated = (endpoint_B + shift_B) - (endpoint_A + shift_A)
+catch(
+    "independent_recalibration_called_gauge",
+    independently_recalibrated != original_difference,
+    independently_recalibrated - original_difference,
+)
+
+# 11. The actual reverse uses the same endpoint data and is exact.
+catch("correct_reversal_control", exp2_AB * exp2_BA == 1, exp2_AB * exp2_BA)
+
+result = {
+    "status": "PASS",
+    "catches_passed": sum(int(row["caught"]) for row in catches),
+    "catches_total": len(catches),
+    "catches": catches,
+}
+(HERE / "CATCH_PROOF_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+print(json.dumps({"status": result["status"], "passed": result["catches_passed"], "total": len(catches)}, sort_keys=True))
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/sources/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+# Terminal reciprocal-`c_E` positional derivation
+
+Date: 2026-08-09
+Grade: **VERIFIED-WITH-CAVEATS**
+Mode: metric-led, CPU-only exact algebra
+
+## Result
+
+Charles's type correction is mathematically productive.
+
+The prior search normalized the endpoint clock/ruler frames and then asked their metric transport
+to produce dilation. That construction must give zero. The correct object is the complete
+two-dimensional metric induced by an **A-calibrated observer-pair relation**. Reciprocal `c_E`
+then performs the final readout.
+
+Every regular induced pair metric, relative to a physically fixed clock/ruler calibration, has a
+unique decomposition into:
+
+```text
+common scale sigma,
+reciprocal depth phi,
+shift beta.
+```
+
+With `h` the full induced pair metric,
+
+```text
+T=sqrt(-h_00),
+L=sqrt(h_11-h_01^2/h_00),
+phi=(1/2)log(L/T)
+   =(1/4)log[(-det h)/h_00^2],
+c_eff^(pair)/c_E=T/L=exp(-2phi)   [conditional pair-calibration readout].
+```
+
+The complete coframe enters `h` before this readout, so supplied angular and mixing components can
+modulate the reciprocal coordinate. Exact rational supplied-Jacobian witnesses reproduce that
+structural possibility and remain invariant under endpoint Lorentz and screen-frame changes; they
+do not select a physical observer-pair map.
+
+The result clarifies a candidate physical type for `phi`: it is the unique reciprocal-channel
+log-imbalance coordinate on a **fixed regular calibrated observer-pair metric**. This is uniqueness
+within the founded algebraic density-character channel and that fixed calibration, not uniqueness
+from the complete metric alone and not a prohibition on separately positing higher-derivative or
+nonlocal scalars. A pointwise `phi(x)` is a potential/profile representation only on branches where
+a compatible family of pair relations descends to one.
+
+## What remains open
+
+The two founding postulates do not yet select the complete observer/event-pair map. A local
+Fermi/exponential pair surface is a metric-natural conditional construction once observer
+worldlines, a ruler direction, and event pairing are supplied. Cut loci, multiple paths, and global
+completion remain branch-valued.
+
+Thus reciprocal `c_E` supplies the final evaluator, not the missing global relation itself. It
+computes where a supplied B lies on an A-calibrated tape; it does not select B from all possible
+events.
+
+## Exact evidence
+
+- SymPy controller: **75/75** exact checks.
+- Independent standard-library implementation: **55/55** checks.
+- Frozen sources: **20/20** replayed.
+- Registered lower-mixing depth: `(1/4)log(64/3)=0.7650676986728905...`.
+- Full two-column orchestra witness: `(1/4)log(1792/81)=0.7741596097156093...`.
+
+## Workflow regrade
+
+The previous phrase “missing physical calibration state” can be sharpened, but not withdrawn.
+Once a calibrated pair surface is supplied, its clock/ruler densities are outputs of the pullback
+metric and no additional scalar state is needed for the local readout. The still-missing joint is
+the physical calibration-state realization: the complete pair-surface/comparison-Jacobian owner.
+
+The universal groupoid-cocycle demand is also narrowed: exact additivity belongs to compatible
+carried reciprocal channels. The founding sources do not require every independently rebuilt
+observer-pair tape or every nonnegative separation to be one real additive cocycle. Any claimed
+physical **signed** reciprocal depth still requires an owned cocycle-type realization on its
+properly typed query space.
+
+## Exact landing
+
+```text
+TERMINAL_RECIPROCAL_CE_PAIR_METRIC_DECOMPOSITION_DERIVED_ON_SUPPLIED_REGULAR_A_CALIBRATED_PAIR_METRICS__
+RELATIONAL_PHI_IS_THE_UNIQUE_RECIPROCAL_LOG_IMBALANCE_ONLY_WITHIN_THAT_FIXED_CALIBRATION_AND_PAIR_MAP__
+ANGULAR_AND_MIXING_MODULATION_ARE_STRUCTURALLY_VISIBLE_IN_SUPPLIED_PAIR_JACOBIANS_BEFORE_READOUT__
+NO_GENERAL_PHYSICAL_CEFF_RATIO_OR_CALIBRATION_STATE_REALIZATION_IS_DERIVED__
+PAIR_SURFACE_OR_COMPARISON_JACOBIAN_OWNER_ENDPOINT_SELECTION_PATH_REALIZATION_AND_XMAX_PROFILE_REMAIN_OPEN
+```
+
+No action, source, carrier, matter, mass, bootstrap return, boundary completion, `X_max` value,
+CMB spectrum, signaling law, or canon follows.
+
+## Four gates
+
+1. **Preregistered:** yes, commit `62b01a48`.
+2. **Full or bounded:** bounded complete algebraic classification on regular calibrated pair
+   metrics; global pair-map ownership and degenerate continuation remain open.
+3. **Independent verification:** independent implementation passes; fresh external Codex gpt-5.4
+   semantic review returned `VERIFIED-WITH-CAVEATS`, and this correction layer implements every
+   required wording/status repair.
+4. **Premises audited:** yes; the pair surface, A calibration, event pairing, path/branch, `c_E`,
+   angular/mixing, common scale, and endpoint-selection distinction are explicit.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+item	status	boundary
+terminal endpoint reciprocal density	DERIVED_CONDITIONAL	computed from each supplied regular calibrated endpoint pair metric after full pullback
+endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A in the bounded calibrated primary-metric arena
+bidirectional scalar reversal	DERIVED_BOUNDED	swapping the same endpoint data gives delta_BA equals minus delta_AB
+matched scalar composition	DERIVED_BOUNDED	telescopes only when the middle calibrated endpoint state is literally shared
+G169 same-sign endpoint witness	RECLASSIFIED	equal nonzero endpoint densities imply zero relative arrow depth
+primary angular orchestra	DERIVED_CONDITIONAL	angular Gram enters each endpoint pullback before relative readout
+co-presence premise	NOT_LOAD_BEARING	absent from derivation and implementations
+observer pair and endpoint calibration	SUPPLIED_EVALUATOR_ARGUMENTS	not promoted to a physical selection law
+full non-scalar carry	OPEN_SEPARATE	connection screen shift holonomy and cross-query calibration not closed by scalar ratio
+positive metric-space distance	NOT_CLAIMED	identity separation triangle and global axioms not derived
+general ambient time-live completion	OPEN	bounded primary static-spherical local result only
+Xmax action source matter bootstrap observations signalling	OUT_OF_SCOPE	none enters G170
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+# G169 audit report — bidirectional co-present metric distance
+
+Date: 2026-08-18
+
+Grade: `VERIFIED_WITH_CAVEATS__GERM_CARRY_LEDGER_ALIGNMENT_PASS__CONDITIONAL_REVERSAL_THEOREM_RETAINED`
+
+## Primary landing
+
+```text
+CONDITIONAL_REVERSAL_QUOTIENT_ON_SUPPLIED_TWO_ENDED_RELATION
+__NOT_YET_PHYSICAL_UDT_DISTANCE
+__PURE_RECIPROCAL_SCALAR_REVERSAL_DERIVED
+__MATCHED_CHAIN_COMPOSITION_DERIVED
+__ARBITRARY_TRIANGLE_ADDITIVITY_NOT_REQUIRED_OR_DERIVED
+__PHYSICAL_TWO_ENDED_GERM_AND_CARRY_OWNERSHIP_OPEN
+```
+
+## Result first
+
+The fresh adversarial review found a type failure in the proposed physical-distance wording. A
+reversal quotient is mathematically coherent **after one two-ended reciprocal relation has been
+supplied**, but current UDT premises do not supply that relation. The quotient therefore cannot yet
+be called physical UDT distance.
+
+For the oriented relation,
+
+\[
+\delta_{BA}=-\delta_{AB},\qquad
+q_{BA}=q_{AB}^{-1},\qquad
+\chi_{BA}=-\chi_{AB}.
+\]
+
+The conditional quotient
+
+\[
+\mathfrak Q(A,B)=\{\mathcal R_{AB},\mathcal R_{BA}\}
+\]
+
+is symmetric and gauge-compatible on supplied data. It can retain both endpoint orchestras rather
+than compressing all angular and shift information into one scalar, but it does not create or select
+those endpoint data.
+
+## The decisive boundary
+
+G168's exact same-boundary flat surface family gives the same terminal depth at both ends after
+ordinary surface reversal. For the witness `a=1`, both are `log(2)/4`; reciprocal reversal would
+require opposite signs. The metric evaluates each endpoint germ but does not by itself declare two
+independently supplied germs to be inverse views of one physical relation.
+
+Thus “co-present physical pair owns a two-ended reciprocal germ” remains the smallest missing
+ownership statement. It is `OPEN`, not derived, and the quotient cannot substitute for it.
+
+## Three-observer correction
+
+Matched reciprocal chains compose exactly by additive depth and the bounded Mobius law. An arbitrary
+non-collinear observer triangle need not obey that one-dimensional additive rule: the middle
+observer's two pair directions and calibrations differ. When a full sequential comparison is
+requested, supplied complete carries compose exactly, but scalar closure remains weaker than matrix
+closure because determinant-one shear can be invisible.
+
+This removes another artificial demand. A conditional reversal quotient need not supply an additive
+scalar on every observer triangle.
+
+## Scalar shadows
+
+`abs(delta)` and `abs(chi)` descend to symmetric nonnegative readouts. They are not established
+metric-space distances: distinct boundary observers can have `delta=0`, so identity of
+indiscernibles fails in the admitted local arena. The full complete response may distinguish more,
+but no unique scalar compression is derived.
+
+## Evidence
+
+- preregistered and pushed at `c3351201` before outcome algebra;
+- 12 frozen source hashes pass;
+- 36/36 exact symbolic/source checks pass;
+- independent standard-library `Fraction` replay: 12,005/12,005 over 1,200 trials;
+- exact reversal, gauge, same-surface, arbitrary-triangle, complete-carry, and scalar-blind-shear
+  witnesses pass;
+- semantic mutation catches: 12/12;
+- current 154-row premise audit passes;
+- repository regression: 126 passed, 1 expected failure;
+- fresh adversarial review returned
+  `TYPE_FAILURE__Z2_ORBIT_ONLY_RENAMES_MISSING_RELATION`;
+- the first repair-only follow-up returned `FOLLOWUP_REPAIR_REQUIRED__LANDING_SURVIVES` because two
+  ledger labels omitted the still-open carry ownership joint;
+- that exact ledger alignment was implemented;
+- the final repair-only follow-up returned
+  `FINAL_FOLLOWUP_PASS__GERM_CARRY_LEDGER_ALIGNMENT_COMPLETE__CONDITIONAL_REVERSAL_THEOREM_RETAINED`.
+
+## Maximum conclusion
+
+In the bounded regular primary-metric arena, reversal defines a gauge-compatible quotient **when a
+two-ended reciprocal relation is supplied**. Current premises derive pure reciprocal reversal and
+matched composition, but they do not derive the supplied two-ended relation and therefore do not
+yet derive a physical UDT distance. They also do not derive the carry, coincidence completion, a
+scalar metric distance, general ambient completion, `X_max`, dynamics, or observations.
+
+codex
+One packaging issue has surfaced from the sealed contents themselves: the included verifier references a premise script that does not appear inside `/intake`. I’m checking only the local intake layout now to separate a real reproducibility gap from a mere reporting shortcut.
+exec
+/bin/bash -lc 'ls -la /intake' in /intake
+ succeeded in 0ms:
+total 20
+dr-xr-xr-x  4 udt-admin udt-admin 4096 Aug 19 11:10 .
+drwxr-xr-x 15 udt-admin udt-admin  300 Aug 19 11:29 ..
+-r--r--r--  1 udt-admin udt-admin 6871 Aug 19 11:10 REVIEW_SCOPE.json
+dr-xr-xr-x  7 udt-admin udt-admin 4096 Aug 19 11:10 sources
+dr-xr-xr-x  2 udt-admin udt-admin 4096 Aug 19 11:10 udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19
+
+exec
+/bin/bash -lc 'find /intake -maxdepth 1 -type f | sort' in /intake
+ succeeded in 0ms:
+/intake/REVIEW_SCOPE.json
+
+exec
+/bin/bash -lc "find /intake -maxdepth 2 -name 'verify_current_scientific_premises.py' -o -name '.git' | sort" in /intake
+ succeeded in 0ms:
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXECUTION_NOTE.md" in /intake
+ succeeded in 0ms:
+# G170 execution note
+
+Date: 2026-08-19
+
+Commands:
+
+```bash
+python3 udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py
+python3 udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py
+python3 udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py
+```
+
+Observed outputs:
+
+```text
+production: 40/40
+independent: 21,600/21,600 over 1,200 channel and 1,200 regular angular trials
+angular generation: 1,213 attempts for 1,200 accepted regular trials
+angular shift live: 1,200/1,200
+angular readout changed: 1,200/1,200
+mutation catches: 13/13
+```
+
+CPU-only exact algebra. No long process or GPU solve was launched.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/sources/SIMPLE_METRIC_MACRO.md" in /intake
+ succeeded in 0ms:
+# Simple-metric macro — foundation (live)
+
+**Date:** 2026-07-08 · **Status: LIVE foundation** (Charles: stick to simple version; free \(D_A\) quarantined).  
+**Frame:** `UDT_ELEGANT_FRAME.md`  
+**CAS:** `simple_metric_FE_rederive.py`  
+**Quarantine:** `grok/quarantine_free_DA/` (do not treat as live)
+
+---
+
+## 0. The metric (only)
+
+\[
+\boxed{
+ds^2 = -e^{-2\phi(r)}\,c^2\,dt^2 + e^{+2\phi(r)}\,dr^2 + r^2\,d\Omega^2
+}
+\]
+
+**This is the whole geometric arena for the macro restart.**
+
+| Property | From |
+|----------|------|
+| Static, spherically symmetric, diagonal | FREE first slice (like Schwarzschild symmetry) |
+| \(g_{tt}=-e^{-2\phi}c^2\), \(g_{rr}=e^{2\phi}\) | R1–R3: differences, composition → exponential, mutual reciprocity |
+| Angular \(r^2 d\Omega^2\) | Areal radial coordinate: sphere area \(4\pi r^2\) |
+| Dynamical field | **\(\phi(r)\) only** (plus \(L_m\) later) |
+| Free \(D_A(r)\) | **Out of scope** (quarantined) |
+
+**Redshift (static observers):** \(1+z = e^{\phi_{\mathrm{src}}-\phi_{\mathrm{obs}}}\).  
+**\(\phi=0\):** this observer’s chart zero — not a preferred cosmic center.
+
+---
+
+## 1. What we derive (and what we do not)
+
+| Derive from this metric | Do not import |
+|-------------------------|----------------|
+| Measure \(\sqrt{-g}\) | Free-\(D_A\) EL “then freeze” |
+| R1-clean kinetic for \(\phi\) | Cell package, BB fluids |
+| Angular scalars on \(r=\mathrm{const}\) spheres | Edge mechanisms |
+| φ-only Euler–Lagrange for each honest bulk weight | G/P cosmology branding |
+
+---
+
+## 2. Geometric densities on this metric (CAS)
+
+### Measure
+
+\[
+\sqrt{-g} = c\, r^2 \sin\theta
+\quad\text{(independent of \(\phi\))}
+\]
+
+### R1 kinetic (shift-clean)
+
+\[
+\sqrt{-g}\, e^{2\phi}\, g^{rr}\, (\phi')^2 = \sqrt{-g}\,(\phi')^2
+\]
+
+Reduced radial density (angles stripped, overall const absorbed into \(Z\)):
+
+\[
+L_{\mathrm{kin}} = \frac{Z}{2}\, r^2\, (\phi')^2
+\]
+
+\(Z>0\): **FREE** overall constant (observational later).
+
+### Angular mismatch on spheres of radius \(r\)
+
+\[
+R^{(2)} = \frac{2}{r^2}, \qquad
+\mathcal{K} = -2 e^{-2\phi}\frac{1}{r^2}
+\quad\bigl(D_A=r,\; D_A'=1\bigr)
+\]
+
+**Flat check:** \(\phi=0\): \(R^{(2)}+\mathcal{K}=0\).  
+**Compensated:** \(R^{(2)}+e^{2\phi}\mathcal{K}=0\) for all \(\phi\).
+
+Reduced angular densities (× \(r^2\) from \(\sqrt{h}\) factors in the usual reduction):
+
+| Weight \(W\) on \(\mathcal{K}\) | Reduced bulk \(\phi\)-dependence |
+|--------------------------------|----------------------------------|
+| \(W=e^{2\phi}\) (shift exact) | angular cancels → no bulk \(\phi\) source from \(\mathcal{K}\) |
+| \(W=1\) (uncompensated) | \(\propto e^{-2\phi}\) remains |
+
+---
+
+## 3. Action (φ-only on the simple metric)
+
+\[
+S = \int dt\,dr\,d\Omega\; c\, r^2\sin\theta
+\left[
+  \frac{Z}{2}(\phi')^2 + R^{(2)} + W(\phi)\,\mathcal{K} + L_m
+\right]
+\]
+
+with \(W\in\{e^{2\phi},\,1\}\) tagged as a **fork**, not two universes.
+
+Equivalent reduced radial Lagrangian for \(\phi\) (vacuum, drop pure \(r\)-total-derivatives where they do not affect EL):
+
+### Compensated \(W=e^{2\phi}\)
+
+\[
+L = \frac{Z}{2}\, r^2\, (\phi')^2
+\quad\Rightarrow\quad
+\boxed{(r^2\phi')'=0}
+\quad\Rightarrow\quad
+\phi = \phi_\infty - \frac{q}{r}
+\]
+
+### Uncompensated \(W=1\)
+
+\[
+L = \frac{Z}{2}\, r^2\, (\phi')^2 - 2 e^{-2\phi}
+\quad\text{(up to \(\phi\)-independent terms)}
+\]
+
+Euler–Lagrange:
+
+\[
+\boxed{Z\,(r^2\phi')' = 4\, e^{-2\phi}}
+\]
+
+**Provenance:** varied **only** \(\phi\) on the simple metric with this \(L\). Not “free \(D\) then set \(D=r\).”
+
+---
+
+## 4. Matter (minimal, same metric)
+
+Prefer dilation weight (Charles): e.g. reduced
+
+\[
+L_m = -\rho(r)\, r^2\, e^{-2\phi}
+\]
+
+Then uncompensated geometric + dilated dust:
+
+\[
+Z(r^2\phi')' = 4 e^{-2\phi} + 2\rho\, r^2 e^{-2\phi}
+\]
+
+(Compensated geometric + same \(L_m\): \(Z(r^2\phi')' = 2\rho r^2 e^{-2\phi}\).)
+
+\(\rho(r)\) prescribed = FREE probe until a continuum sector is derived.
+
+---
+
+## 5. FREE ledger (simple path only)
+
+| Item | Tag |
+|------|-----|
+| Metric box above | THEORY (R1–R3 + areal chart) |
+| Static spherical | FREE first slice |
+| \(W\in\{e^{2\phi},1\}\) | FORK — principle later |
+| \(Z\) | FREE until observation |
+| \(L_m\) / \(\rho\) | OPEN |
+| Free \(D_A\) | **QUARANTINED** |
+
+---
+
+## 6. Macro question (unchanged, elegant)
+
+From this **φ-only** theory: does \(\phi(r)\) give relational redshift with reach and an asymptotic dilation barrier, without preferred center and without invented terms?
+
+**Vacuum laws (simple metric) — harmonic triangle:** see `simple_metric_third_path_derive.md`  
+- K-R1: \(\Delta\phi=0\)  
+- K-UW: \(\Delta e^{-\phi}=0\) (\(c\)-horizon)  
+- **K-A:** \(\Delta e^{-2\phi}=0\Leftrightarrow G_{\theta\theta}=0\) (Schwarzschild-like + \(c\)-horizon) — working lean for \(c\)-edge  
+Quarantine free \(D_A\): `grok/quarantine_free_DA/`.
+
+---
+
+## 7. One-line
+
+**Simple UDT macro metric: reciprocal dilation + areal \(r\); field = \(\phi(r)\); operators from that only; free \(D_A\) archived.**
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/sources/CURRENT_SCIENTIFIC_PREMISES.md" in /intake
+ succeeded in 0ms:
+# Scientific premise index
+
+`LIVE.md` and TSV own status; this is not `CANON.md`. On conflict, stop.
+## Foundational relation
+
+| Object | Current status | What is owned | What remains open |
+|---|---|---|---|
+| `c_E`, `G_obs` | `OBSERVED` | Calibration anchors | Native placement and absolute closure |
+| Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))` and determinant-one pair block on supplied ordered depth | Physical pair values and general `3+1` assembly |
+| Pointwise `phi` | `CONDITIONAL` potential | Local factorization | Universal physical scalar ownership |
+| Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
+| Complete pair orchestra | `DERIVED_CONDITIONAL` primary arena | Angular Gram precedes readout in every supplied regular pair plane | Physical germ ownership and ambient extension |
+| Two-ended reversal quotient | `VERIFIED_WITH_CAVEATS` | Conditional scalar reversal/composition | Germ/carry ownership; not physical distance |
+| Pair `c_eff` | `CONDITIONAL` observer-frame readout | Calibrated terminal ratio | Universal owner and local signal interpretation |
+| Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
+| Co-presence | `WORKING` | One-solution membership | Query population, valuation, signalling |
+
+## Current reconstruction hierarchy
+
+| Result | Bounded status | Maximum conclusion |
+|---|---|---|
+| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | `B,Q,S,Y,Z` pullback |
+| G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks recover `g`; scalars stop at positive conformal class |
+| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Normalized position; overlap owns carry |
+| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Supplied-atlas reconstruction; realization open |
+| G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projection nonunique; carrier open |
+| G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Chosen-representation identity only |
+| G149--G162 score/carry/quotient | `VERIFIED_WITH_CAVEATS` | Scalar and route memory remain distinct |
+| G163 Xmax dependency reversal | `VERIFIED_WITH_CAVEATS` | Scalar kernel ends at dimensionless `chi` |
+| G165 conformal rank | `VERIFIED_WITH_CAVEATS` control | Envelope conformal kernel; not physical multiplicity |
+| G166 primary pair descent | `VERIFIED_WITH_CAVEATS` | Founded pair metric owns its scalar kernel; general `3+1` remains conditional |
+| G167 primary-metric general pair pullback | `VERIFIED_WITH_CAVEATS` | Primary spherical four-metric owns the full local regular pair-pullback orchestra; `Y,Z` remain pair data |
+| G168 supplied-germ plane | `VERIFIED_WITH_CAVEATS` | Supplied germ yields ruler, plane, screen, `Y,Z`; physical ownership is proposed, not derived |
+| G169 supplied-relation reversal | `VERIFIED_WITH_CAVEATS` | Conditional quotient; not physical distance |
+
+None selects values, completion, observations, or `X_max`.
+## Scale and limits
+
+| Object | Current status | Guard |
+|---|---|---|
+| `X_max` | working asymptotic global-completion consequence target | Not a local kernel input; requires independent metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
+| Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless explicitly reauthorized |
+| Common-factor cancellation | `DERIVED` algebra only | Not a local Weyl-gauge theorem or proof that physical UDT is scale-free |
+| Founded pair common scale | `FIXED` in bounded block | Determinant-one reciprocal clock/ruler block; not a general complete-metric theorem |
+| General complete pair scale | `CONDITIONAL/RETAINED` | Present only after a native complete assembly is supplied |
+| Common-scale principal rank | `DERIVED` source-bounded zero | No active constraint or evolution equation for `kappa` in G155's frozen 41-source regular arena; not a future-law no-go |
+| Pair scale carry | `DERIVED_CONDITIONAL` | Half-density determinant character; incomplete closure |
+| Base channel balance | `DERIVED` bounded | `B+(2)` semidirect composition permits changing ratios; full screen/mixing law open |
+| Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4` law and supplied-history velocity; not physical history |
+| Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
+
+## Geometry, query, and causality
+
+- The physical kernel argument is the ordered observer pair, not a pre-existing path. Bare observer
+  names still require event/calibration typing; route observables remain separate.
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal class.
+  Metricity is not dynamics.
+- G138--G145: overlaps own carry and values determine `g`; endpoints own neither valuation nor realization.
+- G146--G150: physical carrier and `O(2)` solder remain open; `lambda` proves liveness, not values.
+- G149 chord; G150 freedom; G151 curvature; G152 ruler; G153 `dchi`; G154 scale; G155 rank; G156
+  carry; G157 balance; G158 score; G159 descent; G160 carry; G161 quotient; G162 rapidity removal;
+  G163 X-free kernel. Route/frame transport remains separate.
+- G165 remains a valid control on the unrestricted metric envelope. G166 proves that this arbitrary
+  conformal family is not generated by the founded determinant-one pair block.
+- G166 relocates the kernel to the metric; G167 derives its spherical pullback; G168 derives the
+  plane from a supplied germ; G169 derives reversal only on a supplied two-ended relation.
+  Physical endpoint-germ and inverse-carry ownership and general ambient extension remain open.
+
+## Carrier, action, source, and matter
+
+| Object | Current status | Maximum justified statement |
+|---|---|---|
+| Celestial null-direction `S^2` | `CONDITIONAL` fiber | Does not derive a matter carrier or law |
+| Matter `S^2` carrier | `POSIT` | Conditional carrier branch only |
+| Static Hopfion | scoped finite-box `SETTLED` | Not unconditional particle stability |
+| EH action | `CONDITIONAL_NOT_SELECTED` | Familiarity with GR is not derivation |
+| `C^2`/Bach action | Conditional on inactive strong-CSN premise | No priority |
+| Native source | `OPEN` | Geometric response/current roles do not supply source substance |
+| Bootstrap | `WORKING` mutual-admissibility posit | No complete fixed point, density selector, or matter theorem |
+| Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
+
+## Observational boundary
+
+R2--R5 are `OBSERVED` with caveats and select no feature, scale, significance, origin, cosmology, or
+`X_max`. Conditional SNe replays import radiative transfer and select no metric history.
+
+## Recurring prohibited promotions
+
+Do not:
+
+- derive pointwise depth from the supplied-depth character;
+- call terminal readouts the unique law or pair `c_eff` a local signal speed;
+- identify a seam, fit, or `x=X_max chi` with physical `X_max`; insert `X_max` into the kernel;
+- promote G146--G162 direction, first-jet, scale, score, carry, or quotient controls to carrier,
+  dynamics, observation, evolution, full closure, or proper length;
+- call conformal twins gauge-equivalent, reconstruction a selector, or relational position a signal
+  distance, universe size, or history;
+- erase joined `C,Gamma`, collapse transport into tangent `Lambda`, or restore residual rapidity to
+  the scalar kernel;
+- revive strong local CSN or scale-free UDT because a common factor cancels;
+- identify celestial `S^2` with matter or density descent with values;
+- call conditional geometry a native action, source, mass, bootstrap theorem, or universe;
+- promote G167's spherical pullback globally; call supplied `Y,Z` a selected relation; replace its
+  angular Gram with scalar `mu`; call G168's supplied germ founded, automatically physical, or
+  selected by bare observer labels; call G169's reversal quotient physical UDT distance, use
+  ordinary surface reversal as reciprocal inversion, infer arbitrary triangle additivity, or treat
+  scalar closure as complete carry closure;
+- import GR, Lambda-CDM, Standard Model, quantum, or fluid mechanisms as UDT derivations;
+- use observational resemblance to select a branch before a preregistered comparison.
+
+## How to use the registry
+
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 155-row authority. On conflict, stop. IDs are stable.
+
+During orientation use this guide and run:
+
+```bash
+python3 verify_current_scientific_premises.py
+```
+
+Query exact TSV rows only after orientation when the requested task makes them load-bearing.
+Pre-cleanup startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/`.
+
+codex
+ENDPOINT_RELATIVE_REPAIR_VALID_BUT_CALIBRATION_CARRY_STILL_LOAD_BEARING
+
+1. The frozen chain supports three distinct objects. The founded metric is the G166 reciprocal block \(h_{AB}=\mathrm{diag}(-e^{-2d},e^{2d})\). A general endpoint response is the full regular pullback \(h_X=-T_X^2(dy^0+\beta_Xdy^1)^2+L_X^2(dy^1)^2\), including shift and any G167 angular Gram content. The endpoint density is \(\Phi_X=\tfrac12\log(L_X/T_X)\), the terminal endpoint ratio is \(q_X=T_X/L_X=e^{-2\Phi_X}\), and the directed depth is not either endpoint scalar alone but the relative difference \(\delta_{AB}=\Phi_B-\Phi_A\).
+
+2. The endpoint-relative rule is genuinely present in the 2026-08-09 source. That source explicitly states, for two points on one consistently calibrated pair surface, \(\delta_{AB}=\tfrac12\log[(L_B/T_B)/(L_A/T_A)]=\Phi_B-\Phi_A\). G170 is therefore recovering an existing rule, not inventing it, but the original scope is narrower than G170’s “any supplied set \(S\)” phrasing.
+
+3. On that original scope, \(q_{AB}=q_B/q_A\) and \(\delta_{AB}=\Phi_B-\Phi_A\) follow algebraically from \(q_X=e^{-2\Phi_X}\). Reversal then follows by swapping the same endpoint data, and matched composition follows by telescoping on a literally shared middle calibrated state. None of this proves closure for independently rebuilt or independently recalibrated middle states.
+
+4. The exact G169 flat witness does not survive as a counterexample to scalar reciprocal reversal. With \(h_A=h_B=\mathrm{diag}(-1,1+a^2)\), one gets \(\Phi_A=\Phi_B=\tfrac14\log(1+a^2)\), so \(\delta_{AB}=\delta_{BA}=0\). It remains a valid counterexample only to the mistaken identification of one endpoint density with arrow depth.
+
+5. The two G167 nonradial witnesses do show that shift and the full angular Gram enter before relative readout. The pullback formula \(h=Y^TB^T\eta_2BY+Z^TQ^TQZ\) is used first, both displayed endpoint witnesses have nonzero \(h_{01}\), both terminal \(q_X\) values differ from base-only values, and no hidden scalar \(\mu\) or post-readout angular patch appears in the sealed derivation or scripts.
+
+6. The pair-groupoid uniqueness claim is justified only on supplied endpoint states that share one consistent calibration class. The 2026-08-09 source does not justify uniqueness on an arbitrary disjoint set of regular endpoint states. G170 itself admits the obstruction: independent reciprocal recalibration changes \(\delta_{AB}\) by \(c_B-c_A\).
+
+7. The remaining calibration carry is real and should stay separated into layers. Scalar endpoint differencing kills independent common positive scale and any shared additive origin shift, but it does not kill independent reciprocal recalibration. Full screen/orientation/connection/holonomy and cross-query carry are still open and are not closed by the scalar ratio theorem.
+
+8. Co-presence is not mathematically load-bearing anywhere in the G170 scalar proof. The derivation uses supplied endpoint metrics or endpoint readouts only. But removing co-presence from this algebra does not derive the physical rule that selects which endpoints belong to one experiment.
+
+9. At the level of mathematical typing, “observers/endpoints are evaluator arguments” is correct for the scalar map \((h_A,h_B)\mapsto\Phi_B-\Phi_A\). It is not a solution to the separate selector problem. G168 still leaves physical germ ownership as an additional working postulate, so G170 fixes evaluator typing but not endpoint-selection typing.
+
+10. The production algebra is strong on the stated formulas, the mutation checks target the right failure modes, and the independent script is computationally separate. The caveats are that the independent script hardcodes the repaired endpoint-difference structure rather than independently deriving its provenance, and the sealed intake cannot replay the advertised freeze/premise verifier path because `verify_package.py` depends on `.git` history and `verify_current_scientific_premises.py`, neither of which is present inside `/intake`. The mathematical repair holds in its bounded calibrated scope, but the calibration-carry boundary remains load-bearing.
+tokens used
+60,628
+
+Script done on 2026-08-19 11:32:03-04:00 [COMMAND_EXIT_CODE="0"]

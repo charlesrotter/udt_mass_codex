@@ -1,0 +1,493 @@
+Script started on 2026-08-19 11:48:58-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /intake
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a01ab6-24ad-7501-9f30-93607b7d47b8
+--------
+user
+Perform the final mechanical closure review of the sealed G170 intake. Verify only THIRD_REPAIR_PREREGISTRATION.md, explicit end-to-end python -S enforcement and observed child no_site flags in verify_sealed_intake.py, and that the retained consistent-calibration endpoint-relative theorem is unchanged. Run only the intake-contained standard-library sealed verifier with python3 -S. Inspect only /intake. Do not edit files, continue the research, use the internet, inspect the repository, or access protected packages. Return one precise final landing followed by bounded findings.
+codex
+Reviewing the sealed intake within `/intake` only. I’ll locate the preregistration note, inspect `verify_sealed_intake.py` for end-to-end `python -S` and child `no_site` enforcement, identify the retained theorem text, and then run the intake-contained standard-library verifier with `python3 -S`.
+exec
+/bin/bash -lc 'rg --files /intake' in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc "rg -n \"THIRD_REPAIR_PREREGISTRATION|consistent-calibration|endpoint-relative|no_site|python3? -S|sys\\.flags\\.no_site|site import|subprocess|argv\" /intake" in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+codex
+`rg` is unavailable here, so I’m falling back to `find` and `grep` within `/intake` only. Next I’m narrowing to the requested files and theorem reference before running the sealed verifier.
+exec
+/bin/bash -lc 'find /intake -maxdepth 3 -type f | sort' in /intake
+ succeeded in 0ms:
+/intake/REVIEW_SCOPE.json
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/sources/SIMPLE_METRIC_MACRO.md
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g168_ordered_copresent_pair_plane_ownership_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md
+/intake/sources/udt_g169_bidirectional_copresent_metric_distance_2026-08-18/EXACT_DERIVATION.md
+/intake/sources/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/AUDIT_REPORT.md
+/intake/sources/udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/CATCH_PROOF_RESULT.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/DERIVATION_RESULT.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXECUTION_NOTE.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_RAW.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_RAW.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_RAW.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_REVIEW_ADJUDICATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/FINAL_FOLLOWUP_REVIEW_ADJUDICATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/FOLLOWUP_REVIEW_ADJUDICATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/INDEPENDENT_VERIFICATION.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/LAY_REPORT.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PONDER_MAP.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/REPAIR_PREREGISTRATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SECOND_REPAIR_PREREGISTRATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SOURCE_MANIFEST.tsv
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/THIRD_REPAIR_PREREGISTRATION.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/TRANSMISSION_RECORD.md
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/VERIFICATION_RESULT.json
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py
+
+exec
+/bin/bash -lc "grep -RInE \"THIRD_REPAIR_PREREGISTRATION|consistent-calibration|endpoint-relative|no_site|python3? -S|sys\\.flags\\.no_site|subprocess|site import\" /intake" in /intake
+ succeeded in 0ms:
+/intake/REVIEW_SCOPE.json:195:      "path": "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/THIRD_REPAIR_PREREGISTRATION.md",
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:50:1. Reconstruct the founding metric, terminal pair decomposition, and endpoint-relative rule from
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:52:2. Determine whether the endpoint-relative rule was genuinely derived in the 2026-08-09 source or
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:659:# G170 exact derivation — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1662:# G170 audit report — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1711:nonzero reciprocal density as the arrow depth, but it is not a counterexample to endpoint-relative
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1716:survive restoration of the original endpoint-relative rule.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1757:- their unique endpoint-relative scalar depth;
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1858:# G170 preregistration — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1907:| endpoint-relative rule `delta_AB=Phi_B-Phi_A` | `DERIVED` in the 2026-08-09 terminal audit; under integration test here |
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1941:The endpoint-relative repair fails if any of the following occurs:
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1960:At most this audit can establish the unique endpoint-relative reciprocal scalar and its reversal on
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1978:4. **Premises:** `c_E` observed; founding character derived; endpoint-relative rule previously
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2002:fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	original endpoint-relative rule
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2123:"""Exact G170 endpoint-relative reciprocal response algebra."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2775:"""Verify the pre-review G170 endpoint-relative evidence package."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2783:import subprocess
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2821:    frozen = subprocess.run(
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2835:    completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, check=False)
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2865:premise = subprocess.run(
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2891:"""Mutation catches for the G170 endpoint-relative theorem."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3107:endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A in the bounded calibrated primary-metric arena
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3576:2. The endpoint-relative rule is genuinely present in the 2026-08-09 source. That source explicitly states, for two points on one consistently calibrated pair surface, \(\delta_{AB}=\tfrac12\log[(L_B/T_B)/(L_A/T_A)]=\Phi_B-\Phi_A\). G170 is therefore recovering an existing rule, not inventing it, but the original scope is narrower than G170’s “any supplied set \(S\)” phrasing.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/REPAIR_PREREGISTRATION.md:10:The endpoint-relative repair is mathematically valid on the scope already present in the
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/INDEPENDENT_VERIFICATION.json:10:  "no_site": false,
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_REVIEW_ADJUDICATION.md:15:The reviewer independently confirmed that the endpoint-relative rule is present in the frozen
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md:1:# G170 audit report — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md:51:nonzero reciprocal density as the arrow depth, but it is not a counterexample to endpoint-relative
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md:56:survive restoration of the original endpoint-relative rule.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md:107:- their endpoint-relative scalar depth inside one consistently carried reciprocal calibration
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:3:endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A only inside one consistently carried reciprocal calibration class
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/THIRD_REPAIR_PREREGISTRATION.md:11:Launch both sealed replay children with `python -S` explicitly. Preserve every scientific formula,
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py:2:"""Mutation catches for the G170 endpoint-relative theorem."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py:105:    "no_site": bool(sys.flags.no_site),
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SECOND_REPAIR_PREREGISTRATION.md:19:5. The scientific calibration-scope repair and endpoint-relative theorem must remain unchanged.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SECOND_REPAIR_PREREGISTRATION.md:21:The corrected verifier must pass with `python3 -S`, which disables environment site packages. A
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXECUTION_NOTE.md:45:python3 -S /path/to/sealed-intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_RAW.md:5:2. The endpoint-relative rule is genuinely present in the 2026-08-09 source. That source explicitly states, for two points on one consistently calibrated pair surface, \(\delta_{AB}=\tfrac12\log[(L_B/T_B)/(L_A/T_A)]=\Phi_B-\Phi_A\). G170 is therefore recovering an existing rule, not inventing it, but the original scope is narrower than G170’s “any supplied set \(S\)” phrasing.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:17:import subprocess
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:64:        completed = subprocess.run(
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:86:require(independent["no_site"] is True, "independent child did not enforce -S")
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:87:require(catches["no_site"] is True, "mutation child did not enforce -S")
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:98:    "child_no_site_flag_enforced": True,
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:99:    "child_no_site_flags_observed": {
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:100:        "verify_endpoint_relative_independent.py": independent["no_site"],
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:101:        "run_catch_proofs.py": catches["no_site"],
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py:216:    "no_site": bool(sys.flags.no_site),
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:14:Perform the final repair-only follow-up review of the sealed G170 intake. Verify only SECOND_REPAIR_PREREGISTRATION.md, the dependency-free verify_sealed_intake.py boundary, its python3 -S replay claim, and that the already-retained consistent-calibration endpoint-relative theorem is unchanged. You may run only intake-contained standard-library verification. Inspect only /intake. Do not edit files, continue the research, use the internet, inspect the repository, or access protected packages. Return one precise final landing followed by bounded findings.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:16:I’m limiting the review to `/intake` and the specific repair boundary you named: `SECOND_REPAIR_PREREGISTRATION.md`, `verify_sealed_intake.py`, the `python3 -S` replay path, and the retained theorem text.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:24:/bin/bash -lc 'rg -n "consistent-calibration|endpoint-relative|python3 -S|dependency-free|sealed intake|repair" /intake/SECOND_REPAIR_PREREGISTRATION.md /intake/verify_sealed_intake.py' in /intake
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:34:/bin/bash -lc 'grep -nE "consistent-calibration|endpoint-relative|python3 -S|dependency-free|sealed intake|repair" /intake/SECOND_REPAIR_PREREGISTRATION.md /intake/verify_sealed_intake.py' in /intake
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:52:I found both files under the sealed intake directory. Next I’m reading just those files and checking the replay path with `python3 -S` using only the local standard library.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:74:    19	5. The scientific calibration-scope repair and endpoint-relative theorem must remain unchanged.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:76:    21	The corrected verifier must pass with `python3 -S`, which disables environment site packages. A
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:99:    17	import subprocess
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:146:    64	        completed = subprocess.run(
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:182:I have the preregistration and verifier contents. I’m now checking the exact `python3 -S` execution result and locating the retained theorem text inside the intake to confirm it was not altered by this repair.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:184:/bin/bash -lc 'grep -RniE "consistent-calibration|endpoint-relative theorem|endpoint-relative|calibration-scope" /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19' in /intake
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:187:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:50:1. Reconstruct the founding metric, terminal pair decomposition, and endpoint-relative rule from
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:188:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:52:2. Determine whether the endpoint-relative rule was genuinely derived in the 2026-08-09 source or
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:190:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:659:# G170 exact derivation — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:191:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1662:# G170 audit report — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:192:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1711:nonzero reciprocal density as the arrow depth, but it is not a counterexample to endpoint-relative
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:193:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1716:survive restoration of the original endpoint-relative rule.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:194:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1757:- their unique endpoint-relative scalar depth;
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:195:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1858:# G170 preregistration — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:196:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1907:| endpoint-relative rule `delta_AB=Phi_B-Phi_A` | `DERIVED` in the 2026-08-09 terminal audit; under integration test here |
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:197:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1941:The endpoint-relative repair fails if any of the following occurs:
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:198:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1960:At most this audit can establish the unique endpoint-relative reciprocal scalar and its reversal on
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:199:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:1978:4. **Premises:** `c_E` observed; founding character derived; endpoint-relative rule previously
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:200:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2002:fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	original endpoint-relative rule
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:201:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2123:"""Exact G170 endpoint-relative reciprocal response algebra."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:202:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2775:"""Verify the pre-review G170 endpoint-relative evidence package."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:203:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:2891:"""Mutation catches for the G170 endpoint-relative theorem."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:204:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3107:endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A in the bounded calibrated primary-metric arena
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:205:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt:3576:2. The endpoint-relative rule is genuinely present in the 2026-08-09 source. That source explicitly states, for two points on one consistently calibrated pair surface, \(\delta_{AB}=\tfrac12\log[(L_B/T_B)/(L_A/T_A)]=\Phi_B-\Phi_A\). G170 is therefore recovering an existing rule, not inventing it, but the original scope is narrower than G170’s “any supplied set \(S\)” phrasing.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:206:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/REPAIR_PREREGISTRATION.md:10:The endpoint-relative repair is mathematically valid on the scope already present in the
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:207:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_REVIEW_ADJUDICATION.md:15:The reviewer independently confirmed that the endpoint-relative rule is present in the frozen
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:208:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md:1:# G170 audit report — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:209:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md:51:nonzero reciprocal density as the arrow depth, but it is not a counterexample to endpoint-relative
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:210:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md:56:survive restoration of the original endpoint-relative rule.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:211:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md:105:- their endpoint-relative scalar depth inside one consistently carried reciprocal calibration
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:212:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:3:endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A only inside one consistently carried reciprocal calibration class
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:213:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py:2:"""Mutation catches for the G170 endpoint-relative theorem."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:214:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SECOND_REPAIR_PREREGISTRATION.md:19:5. The scientific calibration-scope repair and endpoint-relative theorem must remain unchanged.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:215:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_ADVERSARIAL_REVIEW_RAW.md:5:2. The endpoint-relative rule is genuinely present in the 2026-08-09 source. That source explicitly states, for two points on one consistently calibrated pair surface, \(\delta_{AB}=\tfrac12\log[(L_B/T_B)/(L_A/T_A)]=\Phi_B-\Phi_A\). G170 is therefore recovering an existing rule, not inventing it, but the original scope is narrower than G170’s “any supplied set \(S\)” phrasing.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:216:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SOURCE_MANIFEST.tsv:4:fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	original endpoint-relative rule
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:217:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md:1:# G170 preregistration — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:218:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md:50:| endpoint-relative rule `delta_AB=Phi_B-Phi_A` | `DERIVED` in the 2026-08-09 terminal audit; under integration test here |
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:219:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md:84:The endpoint-relative repair fails if any of the following occurs:
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:220:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md:103:At most this audit can establish the unique endpoint-relative reciprocal scalar and its reversal on
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:221:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PONDER_MAP.md:16:directed arrow depths. Under the earlier endpoint-relative rule, the same witness instead gives
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:222:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py:2:"""Exact G170 endpoint-relative reciprocal response algebra."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:223:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md:16:4. **Premises:** `c_E` observed; founding character derived; endpoint-relative rule previously
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:224:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:1:# G170 exact derivation — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:225:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py:2:"""Verify the repository-side, repair-ready G170 endpoint-relative evidence package."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:226:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:14:Perform a repair-only follow-up review of the sealed G170 intake. Read REPAIR_PREREGISTRATION.md, EXTERNAL_ADVERSARIAL_REVIEW_RAW.md, EXTERNAL_REVIEW_ADJUDICATION.md, the corrected exact derivation, evidence gates, status ledger, verifier, and sealed-replay verifier. Verify only the registered calibration-scope and sealed-replay repairs and that the bounded endpoint-relative theorem remains intact. Inspect only /intake. Do not edit files, continue the research, use the internet, inspect the repository, or access protected packages. Return one precise landing followed by bounded repair findings.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:227:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:16:Reviewing the registered repair scope in `/intake` only. I’m locating the preregistration, adjudication, derivation, evidence, ledger, and verifier materials first, then I’ll check whether the calibration-scope and sealed-replay repairs are complete without disturbing the bounded endpoint-relative theorem.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:228:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:74:    10	The endpoint-relative repair is mathematically valid on the scope already present in the
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:229:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:115:     5	2. The endpoint-relative rule is genuinely present in the 2026-08-09 source. That source explicitly states, for two points on one consistently calibrated pair surface, \(\delta_{AB}=\tfrac12\log[(L_B/T_B)/(L_A/T_A)]=\Phi_B-\Phi_A\). G170 is therefore recovering an existing rule, not inventing it, but the original scope is narrower than G170’s “any supplied set \(S\)” phrasing.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:230:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:150:    15	The reviewer independently confirmed that the endpoint-relative rule is present in the frozen
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:231:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:175:     1	# G170 exact derivation — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:232:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:473:    16	4. **Premises:** `c_E` observed; founding character derived; endpoint-relative rule previously
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:233:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:496:     3	endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A only inside one consistently carried reciprocal calibration class
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:234:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:515:     2	"""Verify the repository-side, repair-ready G170 endpoint-relative evidence package."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:235:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1176:     4	fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	original endpoint-relative rule
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:236:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1587:     2	"""Exact G170 endpoint-relative reciprocal response algebra."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:237:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1712:     1	# G170 audit report — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:238:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1762:    51	nonzero reciprocal density as the arrow depth, but it is not a counterexample to endpoint-relative
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:239:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1767:    56	survive restoration of the original endpoint-relative rule.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:240:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1813:   102	- their endpoint-relative scalar depth inside one consistently carried reciprocal calibration
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:242:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md:31:1. Reconstruct the founding metric, terminal pair decomposition, and endpoint-relative rule from
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:243:/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md:33:2. Determine whether the endpoint-relative rule was genuinely derived in the 2026-08-09 source or
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:247:/bin/bash -lc 'python3 -S /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py' in /intake
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:252:The replay claim passes under `python3 -S`. I’m reading the exact bounded theorem lines now so the final landing can state whether the retained calibration-qualified result is unchanged.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:343:     3	endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A only inside one consistently carried reciprocal calibration class
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:372:    16	4. **Premises:** `c_E` observed; founding character derived; endpoint-relative rule previously
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:379:There is one substantive issue to check before I land this: the top-level verifier was launched with `-S`, but its subprocess replays may or may not inherit that isolation. I’m reading only the called intake scripts’ import boundaries to determine whether the claim is actually airtight.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:468:     2	"""Mutation catches for the G170 endpoint-relative theorem."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:595:    17	import subprocess
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:642:    64	        completed = subprocess.run(
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:787:     2	"""Mutation catches for the G170 endpoint-relative theorem."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:803:Landing: the second repair is substantively intact, but the sealed `python3 -S` replay guarantee is only partially enforced, so I cannot give an unqualified clean landing.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:807:2. The `verify_sealed_intake.py` boundary is dependency-free and intake-read-only as written: it imports only stdlib modules and performs replay work in a temporary directory rather than writing into the intake [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:12), [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:48). Running `python3 -S` on it succeeded and reported `sealed_tree_files=40`, `frozen_source_hashes=12`, `stored_sympy_production_checks=40`, `independent_checks=21600`, and `mutation_catches=13`.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:809:3. The remaining defect is that the replay subprocesses are launched as `sys.executable script.py` without forwarding `-S`, so the top-level no-site-packages isolation is not mechanically propagated to the two replay legs [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:64), [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:65). Those child scripts currently import only stdlib modules [verify_endpoint_relative_independent.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py:6), [run_catch_proofs.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py:6), so the replay works today, but the stricter end-to-end `-S` claim is not fully enforced by the wrapper.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:811:4. The retained consistent-calibration endpoint-relative theorem is unchanged in substance: the derivation still bounds `delta_AB = Phi_B - Phi_A` to one shared reciprocal calibration class and still treats independent recalibration carry as load-bearing [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:47), [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:87), [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:243), with the same boundary carried in [STATUS_LEDGER.tsv](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:3), [STATUS_LEDGER.tsv](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:10), and [EVIDENCE_GATES.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md:6).
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/SOURCE_MANIFEST.tsv:4:fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	original endpoint-relative rule
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md:1:# G170 preregistration — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md:50:| endpoint-relative rule `delta_AB=Phi_B-Phi_A` | `DERIVED` in the 2026-08-09 terminal audit; under integration test here |
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md:84:The endpoint-relative repair fails if any of the following occurs:
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PREREGISTRATION.md:103:At most this audit can establish the unique endpoint-relative reciprocal scalar and its reversal on
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/CATCH_PROOF_RESULT.json:71:  "no_site": false,
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/PONDER_MAP.md:16:directed arrow depths. Under the earlier endpoint-relative rule, the same witness instead gives
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/derive_endpoint_relative_response.py:2:"""Exact G170 endpoint-relative reciprocal response algebra."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md:17:4. **Premises:** `c_E` observed; founding character derived; endpoint-relative rule previously
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:1:# G170 exact derivation — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py:2:"""Verify the repository-side, repair-ready G170 endpoint-relative evidence package."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py:10:import subprocess
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py:53:    "THIRD_REPAIR_PREREGISTRATION.md",
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py:62:    frozen = subprocess.run(
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py:76:    completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, check=False)
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_package.py:141:premise = subprocess.run(
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_RAW.md:1:Landing: the second repair is substantively intact, but the sealed `python3 -S` replay guarantee is only partially enforced, so I cannot give an unqualified clean landing.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_RAW.md:5:2. The `verify_sealed_intake.py` boundary is dependency-free and intake-read-only as written: it imports only stdlib modules and performs replay work in a temporary directory rather than writing into the intake [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:12), [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:48). Running `python3 -S` on it succeeded and reported `sealed_tree_files=40`, `frozen_source_hashes=12`, `stored_sympy_production_checks=40`, `independent_checks=21600`, and `mutation_catches=13`.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_RAW.md:7:3. The remaining defect is that the replay subprocesses are launched as `sys.executable script.py` without forwarding `-S`, so the top-level no-site-packages isolation is not mechanically propagated to the two replay legs [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:64), [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:65). Those child scripts currently import only stdlib modules [verify_endpoint_relative_independent.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_endpoint_relative_independent.py:6), [run_catch_proofs.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/run_catch_proofs.py:6), so the replay works today, but the stricter end-to-end `-S` claim is not fully enforced by the wrapper.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FINAL_FOLLOWUP_REVIEW_RAW.md:9:4. The retained consistent-calibration endpoint-relative theorem is unchanged in substance: the derivation still bounds `delta_AB = Phi_B - Phi_A` to one shared reciprocal calibration class and still treats independent recalibration carry as load-bearing [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:47), [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:87), [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:243), with the same boundary carried in [STATUS_LEDGER.tsv](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:3), [STATUS_LEDGER.tsv](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:10), and [EVIDENCE_GATES.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md:6).
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:14:Perform a repair-only follow-up review of the sealed G170 intake. Read REPAIR_PREREGISTRATION.md, EXTERNAL_ADVERSARIAL_REVIEW_RAW.md, EXTERNAL_REVIEW_ADJUDICATION.md, the corrected exact derivation, evidence gates, status ledger, verifier, and sealed-replay verifier. Verify only the registered calibration-scope and sealed-replay repairs and that the bounded endpoint-relative theorem remains intact. Inspect only /intake. Do not edit files, continue the research, use the internet, inspect the repository, or access protected packages. Return one precise landing followed by bounded repair findings.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:16:Reviewing the registered repair scope in `/intake` only. I’m locating the preregistration, adjudication, derivation, evidence, ledger, and verifier materials first, then I’ll check whether the calibration-scope and sealed-replay repairs are complete without disturbing the bounded endpoint-relative theorem.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:74:    10	The endpoint-relative repair is mathematically valid on the scope already present in the
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:115:     5	2. The endpoint-relative rule is genuinely present in the 2026-08-09 source. That source explicitly states, for two points on one consistently calibrated pair surface, \(\delta_{AB}=\tfrac12\log[(L_B/T_B)/(L_A/T_A)]=\Phi_B-\Phi_A\). G170 is therefore recovering an existing rule, not inventing it, but the original scope is narrower than G170’s “any supplied set \(S\)” phrasing.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:150:    15	The reviewer independently confirmed that the endpoint-relative rule is present in the frozen
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:175:     1	# G170 exact derivation — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:473:    16	4. **Premises:** `c_E` observed; founding character derived; endpoint-relative rule previously
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:496:     3	endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A only inside one consistently carried reciprocal calibration class
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:515:     2	"""Verify the repository-side, repair-ready G170 endpoint-relative evidence package."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:523:    10	import subprocess
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:567:    54	    frozen = subprocess.run(
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:581:    68	    completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, check=False)
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:626:   113	premise = subprocess.run(
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:664:    16	import subprocess
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:715:    67	        completed = subprocess.run(
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1176:     4	fa0e31b16df98c3af3cf4aec878c4369642945ce35de20ab8e13b91eaf135e7a	udt_terminal_reciprocal_ce_positional_derivation_2026-08-09/EXACT_DERIVATION.md	original endpoint-relative rule
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1587:     2	"""Exact G170 endpoint-relative reciprocal response algebra."""
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1712:     1	# G170 audit report — endpoint-relative bidirectional pair response
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1762:    51	nonzero reciprocal density as the arrow depth, but it is not a counterexample to endpoint-relative
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1767:    56	survive restoration of the original endpoint-relative rule.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt:1813:   102	- their endpoint-relative scalar depth inside one consistently carried reciprocal calibration
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md:31:1. Reconstruct the founding metric, terminal pair decomposition, and endpoint-relative rule from
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/ADVERSARIAL_REVIEW_REQUEST.md:33:2. Determine whether the endpoint-relative rule was genuinely derived in the 2026-08-09 source or
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/FINAL_FOLLOWUP_REVIEW_ADJUDICATION.md:6:consistent-calibration endpoint-relative theorem without a scientific finding.
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/FINAL_FOLLOWUP_REVIEW_ADJUDICATION.md:8:Its sole remaining objection is accepted: invoking the wrapper with `python3 -S` did not
+
+codex
+I’ve identified the sealed intake directory and the previously recorded concern. Now I’m reading the exact registered repair lines and the current verifier implementation to confirm whether the third repair actually closes the `-S` propagation gap and records observed child `no_site` flags.
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py' in /intake
+exec
+/bin/bash -lc 'nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/THIRD_REPAIR_PREREGISTRATION.md' in /intake
+ succeeded in 0ms:
+     1	# G170 third repair preregistration
+     2	
+     3	Date: 2026-08-19
+     4	
+     5	Trigger: final repair-only follow-up confirmed the dependency-free replay and retained theorem, but
+     6	found that the top-level `-S` flag was not explicitly propagated to its two standard-library child
+     7	processes.
+     8	
+     9	## Sole registered repair
+    10	
+    11	Launch both sealed replay children with `python -S` explicitly. Preserve every scientific formula,
+    12	scope, status, count, source, and outer-gate boundary unchanged. The corrected sealed intake must
+    13	pass its entire replay with environment site packages disabled in the wrapper and both children.
+    14	
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Read-only standard-library replay for a sealed G170 review intake.
+     3	
+     4	The script never writes inside the intake. It verifies the sealed tree and frozen-source hashes,
+     5	copies the package and sources to a temporary directory, and reruns the independent rational and
+     6	mutation calculations there. The saved SymPy production artifact is hash-protected by the sealed
+     7	tree but is rerun only in the outer repository environment, alongside the premise verifier.
+     8	"""
+     9	
+    10	from __future__ import annotations
+    11	
+    12	import csv
+    13	import hashlib
+    14	import json
+    15	from pathlib import Path
+    16	import shutil
+    17	import subprocess
+    18	import sys
+    19	import tempfile
+    20	
+    21	
+    22	HERE = Path(__file__).resolve().parent
+    23	INTAKE = HERE.parent
+    24	
+    25	
+    26	def require(condition: bool, message: str) -> None:
+    27	    if not condition:
+    28	        raise AssertionError(message)
+    29	
+    30	
+    31	scope_path = INTAKE / "REVIEW_SCOPE.json"
+    32	require(scope_path.is_file(), "sealed REVIEW_SCOPE.json is required")
+    33	scope = json.loads(scope_path.read_text())
+    34	
+    35	for row in scope["tree"]:
+    36	    path = INTAKE / row["path"]
+    37	    require(path.is_file(), f"sealed file missing: {row['path']}")
+    38	    require(path.stat().st_size == row["bytes"], f"sealed size mismatch: {row['path']}")
+    39	    require(hashlib.sha256(path.read_bytes()).hexdigest() == row["sha256"], f"sealed hash mismatch: {row['path']}")
+    40	
+    41	manifest_rows = list(csv.DictReader((HERE / "SOURCE_MANIFEST.tsv").open(), delimiter="\t"))
+    42	require(len(manifest_rows) == 12, "source manifest count")
+    43	for row in manifest_rows:
+    44	    copied = INTAKE / "sources" / row["path"]
+    45	    require(copied.is_file(), f"copied source missing: {row['path']}")
+    46	    require(hashlib.sha256(copied.read_bytes()).hexdigest() == row["sha256"], f"copied source hash: {row['path']}")
+    47	
+    48	with tempfile.TemporaryDirectory(prefix="g170_sealed_replay_") as temporary:
+    49	    replay_root = Path(temporary)
+    50	    replay_package = replay_root / HERE.name
+    51	    shutil.copytree(HERE, replay_package)
+    52	    for copied in replay_package.rglob("*"):
+    53	        copied.chmod(0o755 if copied.is_dir() else 0o644)
+    54	
+    55	    for row in manifest_rows:
+    56	        source = INTAKE / "sources" / row["path"]
+    57	        target = replay_root / row["path"]
+    58	        target.parent.mkdir(parents=True, exist_ok=True)
+    59	        shutil.copy2(source, target)
+    60	
+    61	    commands = ("verify_endpoint_relative_independent.py", "run_catch_proofs.py")
+    62	    command_returns: dict[str, int] = {}
+    63	    for name in commands:
+    64	        completed = subprocess.run(
+    65	            [sys.executable, "-S", str(replay_package / name)],
+    66	            cwd=replay_root,
+    67	            text=True,
+    68	            capture_output=True,
+    69	            check=False,
+    70	        )
+    71	        command_returns[name] = completed.returncode
+    72	        require(
+    73	            completed.returncode == 0,
+    74	            f"sealed replay failed: {name}\n{completed.stdout}\n{completed.stderr}",
+    75	        )
+    76	
+    77	    independent = json.loads((replay_package / "INDEPENDENT_VERIFICATION.json").read_text())
+    78	    catches = json.loads((replay_package / "CATCH_PROOF_RESULT.json").read_text())
+    79	
+    80	production = json.loads((HERE / "DERIVATION_RESULT.json").read_text())
+    81	require(production["checks_passed"] == production["checks_total"] == 40, "stored production artifact count")
+    82	require(independent["checks_passed"] == 21600, "independent replay count")
+    83	require(independent["angular_shift_live"] == independent["angular_trials"] == 1200, "shift-live replay")
+    84	require(independent["angular_readout_changed"] == independent["angular_trials"], "angular-live replay")
+    85	require(catches["catches_passed"] == catches["catches_total"] == 13, "mutation replay count")
+    86	require(independent["no_site"] is True, "independent child did not enforce -S")
+    87	require(catches["no_site"] is True, "mutation child did not enforce -S")
+    88	
+    89	result = {
+    90	    "status": "PASS__SEALED_STDLIB_REPLAY__SYMPY_ARTIFACT_HASHED__OUTER_GATES_SEPARATE",
+    91	    "sealed_tree_files": len(scope["tree"]),
+    92	    "frozen_source_hashes": len(manifest_rows),
+    93	    "stored_sympy_production_checks": production["checks_total"],
+    94	    "sympy_production_replayed_in_sealed_sandbox": False,
+    95	    "independent_checks": independent["checks_passed"],
+    96	    "mutation_catches": catches["catches_total"],
+    97	    "commands": command_returns,
+    98	    "child_no_site_flag_enforced": True,
+    99	    "child_no_site_flags_observed": {
+   100	        "verify_endpoint_relative_independent.py": independent["no_site"],
+   101	        "run_catch_proofs.py": catches["no_site"],
+   102	    },
+   103	}
+   104	print(json.dumps(result, sort_keys=True))
+
+exec
+/bin/bash -lc 'grep -nE "consistently|reciprocal calibration class|delta_AB|Phi_B - Phi_A|endpoint-relative depth|independent recalibration carry" /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md' in /intake
+ succeeded in 0ms:
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:31:alone. On one consistently calibrated pair tape it is
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:48:reciprocal calibration \(\mathcal C\). The 2026-08-09 realization is two points on one consistently
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:253:carry is supplied. The theorem applies to one supplied consistently calibrated two-endpoint
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:3:endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A only inside one consistently carried reciprocal calibration class
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:4:bidirectional scalar reversal	DERIVED_BOUNDED	swapping the same endpoint data gives delta_BA equals minus delta_AB
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:9:observer pair and endpoint calibration	SUPPLIED_EVALUATOR_ARGUMENTS	one consistently calibrated endpoint family is required and is not promoted to a physical selection law
+/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md:7:   the endpoint-difference theorem is restricted to one consistently carried reciprocal
+
+codex
+The registered repair text and verifier code are aligned on the intended closure: child launches now include `-S`, and the verifier explicitly asserts both child `no_site` observations. I’m pulling the exact theorem boundary lines next, then I’ll run the sealed verifier once under `python3 -S`.
+exec
+/bin/bash -lc "sed -n '244,258p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md | nl -ba -v244" in /intake
+ succeeded in 0ms:
+   244	recalibrations do not cancel:
+   245	
+   246	\[
+   247	(\Phi_B+c_B)-(\Phi_A+c_A)
+   248	=\delta_{AB}+c_B-c_A.
+   249	\]
+   250	
+   251	That is a load-bearing calibration-carry boundary, not a failure of the endpoint-difference
+   252	algebra. Two differently calibrated experiments are different inputs until a lawful cross-query
+   253	carry is supplied. The theorem applies to one supplied consistently calibrated two-endpoint
+   254	calculation.
+   255	
+   256	## 7. What co-presence does not do
+   257	
+   258	No co-presence equation or premise appears in the derivation or implementations. The observer
+
+exec
+/bin/bash -lc "sed -n '26,55p' /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md | nl -ba -v26" in /intake
+ succeeded in 0ms:
+    26	q_X=\frac{c_{{\rm eff},X}^{({\rm pair})}}{c_E}
+    27	=\frac{T_X}{L_X}=e^{-2\Phi_X}.
+    28	\]
+    29	
+    30	The 2026-08-09 derivation already proved that the ordered pair depth is not either endpoint density
+    31	alone. On one consistently calibrated pair tape it is
+    32	
+    33	\[
+    34	\boxed{
+    35	\delta_{AB}
+    36	=-\frac12\log\frac{q_B}{q_A}
+    37	=\frac12\log\frac{L_B/T_B}{L_A/T_A}
+    38	=\Phi_B-\Phi_A.
+    39	}
+    40	\]
+    41	
+    42	G170 restores this distinction after G169 temporarily conflated \(\Phi_A\) and \(\Phi_B\) with the
+    43	directed arrow depth.
+    44	
+    45	## 2. Consistently calibrated pair-groupoid theorem
+    46	
+    47	Let \(S_{\mathcal C}\) be one supplied family of regular endpoint states carrying the same
+    48	reciprocal calibration \(\mathcal C\). The 2026-08-09 realization is two points on one consistently
+    49	calibrated pair surface. Let \(q:S_{\mathcal C}\rightarrow\mathbb R_{>0}\) be the metric terminal
+    50	readout above. For an ordered pair inside that calibrated family define
+    51	
+    52	\[
+    53	q_{AB}=\frac{q_B}{q_A},
+    54	\qquad
+    55	\delta_{AB}=-\frac12\log q_{AB}.
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv | sed -n '1,12p'; nl -ba /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md | sed -n '1,14p'" in /intake
+ succeeded in 0ms:
+     1	item	status	boundary
+     2	terminal endpoint reciprocal density	DERIVED_CONDITIONAL	computed from each supplied regular calibrated endpoint pair metric after full pullback
+     3	endpoint-relative depth	DERIVED_BOUNDED_INTEGRATION_REPAIR	delta_AB equals Phi_B minus Phi_A only inside one consistently carried reciprocal calibration class
+     4	bidirectional scalar reversal	DERIVED_BOUNDED	swapping the same endpoint data gives delta_BA equals minus delta_AB
+     5	matched scalar composition	DERIVED_BOUNDED	telescopes only when the middle calibrated endpoint state is literally shared
+     6	G169 same-sign endpoint witness	RECLASSIFIED	equal nonzero endpoint densities imply zero relative arrow depth
+     7	primary angular orchestra	DERIVED_CONDITIONAL	angular Gram enters each endpoint pullback before relative readout
+     8	co-presence premise	NOT_LOAD_BEARING	absent from derivation and implementations
+     9	observer pair and endpoint calibration	SUPPLIED_EVALUATOR_ARGUMENTS	one consistently calibrated endpoint family is required and is not promoted to a physical selection law
+    10	reciprocal calibration carry	OPEN_LOAD_BEARING	independent reciprocal recalibrations shift delta by c_B minus c_A and cannot be joined without lawful carry
+    11	full non-scalar carry	OPEN_SEPARATE	connection screen shift orientation holonomy and cross-query carry are not closed by scalar ratio
+    12	positive metric-space distance	NOT_CLAIMED	identity separation triangle and global axioms not derived
+     1	# G170 evidence gates
+     2	
+     3	Date: 2026-08-19
+     4	
+     5	1. **Preregistered:** yes; commit `f9a6d1e6` predates all outcome code and results.
+     6	2. **Full or bounded:** complete algebraically for all regular calibrated endpoint channel metrics;
+     7	   the endpoint-difference theorem is restricted to one consistently carried reciprocal
+     8	   calibration class. Primary-metric orchestra witnesses and 1,200 random nonradial trials are
+     9	   bounded local coverage, not a general ambient theorem.
+    10	3. **Independent:** production SymPy and separate standard-library `Fraction` implementations agree;
+    11	   fresh external review validated the repair while retaining calibration carry as load-bearing.
+    12	   The corrected sealed intake has a standard-library read-only replay; the SymPy controller and
+    13	   repository-wide premise audit remain separate outer banking gates. The sealed replay passes
+    14	   21,600/21,600 independent checks and 13/13 mutation catches while hash-verifying the stored
+
+exec
+/bin/bash -lc 'python3 -S /intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py' in /intake
+ succeeded in 296ms:
+{"child_no_site_flag_enforced": true, "child_no_site_flags_observed": {"run_catch_proofs.py": true, "verify_endpoint_relative_independent.py": true}, "commands": {"run_catch_proofs.py": 0, "verify_endpoint_relative_independent.py": 0}, "frozen_source_hashes": 12, "independent_checks": 21600, "mutation_catches": 13, "sealed_tree_files": 44, "status": "PASS__SEALED_STDLIB_REPLAY__SYMPY_ARTIFACT_HASHED__OUTER_GATES_SEPARATE", "stored_sympy_production_checks": 40, "sympy_production_replayed_in_sealed_sandbox": false}
+
+codex
+Landing: the sealed G170 intake passes final mechanical closure on the requested scope; the third repair cleanly closes the prior replay-isolation gap without changing the retained consistent-calibration endpoint-relative theorem.
+
+**Bounded Findings**
+1. No defects found in scope. The sole registered repair is exactly the explicit child `python -S` propagation and preservation of all scientific and boundary content in [THIRD_REPAIR_PREREGISTRATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/THIRD_REPAIR_PREREGISTRATION.md:5) and [THIRD_REPAIR_PREREGISTRATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/THIRD_REPAIR_PREREGISTRATION.md:11).
+2. End-to-end `-S` enforcement is now mechanical in [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:61): both children are launched as `[sys.executable, "-S", ...]`, both observed child `no_site` flags are required to be `True`, and both observations are emitted in the result payload at [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:65), [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:86), and [verify_sealed_intake.py](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/verify_sealed_intake.py:98).
+3. The required sealed verifier run succeeded under `python3 -S`: status `PASS__SEALED_STDLIB_REPLAY__SYMPY_ARTIFACT_HASHED__OUTER_GATES_SEPARATE`, child return codes `0/0`, observed child `no_site` flags `true/true`, `sealed_tree_files=44`, `frozen_source_hashes=12`, `stored_sympy_production_checks=40`, `independent_checks=21600`, and `mutation_catches=13`.
+4. The retained theorem remains unchanged in substance and boundary: `delta_AB = Phi_B - Phi_A` is still restricted to one shared consistent reciprocal calibration, and independent recalibration carry remains load-bearing in [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:30), [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:47), [EXACT_DERIVATION.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EXACT_DERIVATION.md:251), [STATUS_LEDGER.tsv](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:3), [STATUS_LEDGER.tsv](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/STATUS_LEDGER.tsv:10), and [EVIDENCE_GATES.md](/intake/udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/EVIDENCE_GATES.md:6).
+tokens used
+25,618
+
+Script done on 2026-08-19 11:50:06-04:00 [COMMAND_EXIT_CODE="0"]
