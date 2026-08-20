@@ -58,13 +58,22 @@ All repaired live checks pass. Production values are unchanged:
 The preregistered ceilings, zero shape-parameter count, imported transfer status, type failure, and
 bounded scientific landing are unchanged.
 
-## Current evidence grade
+## Repair-only follow-up
+
+The fresh sealed repair-only review returned:
 
 ```text
-EXTERNALLY_ACCEPTED_WITH_REPAIRS
-__REPAIRS_IMPLEMENTED_AND_INTERNALLY_VERIFIED
-__REPAIR_ONLY_EXTERNAL_FOLLOWUP_OPEN
+G189_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED
 ```
 
-The repairs are not described as externally closed until a fresh sealed repair-only follow-up
-verifies them.
+It confirmed that DES sources are intake-relative through the explicitly supplied
+`G189_DES_ROOT`, that the second implementation reads no production artifact or implementation,
+and that `verify_package.py` owns the cross-comparison. The complete sealed replay passed with
+cross-implementation residuals between approximately `1e-11` and `1e-14`.
+
+## Final evidence grade
+
+```text
+EXTERNALLY_ACCEPTED_WITH_REPAIRS_CLOSED
+__SCIENTIFIC_LANDING_UNCHANGED
+```

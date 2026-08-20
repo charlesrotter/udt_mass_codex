@@ -20,6 +20,9 @@ REQUIRED = (
     "EXTERNAL_REVIEW_TRANSCRIPT.txt.gz",
     "EXTERNAL_REVIEW_ADJUDICATION.md",
     "EXTERNAL_REVIEW_FOLLOWUP_REQUEST.md",
+    "EXTERNAL_REVIEW_FOLLOWUP_RAW.md",
+    "EXTERNAL_REVIEW_FOLLOWUP_TRANSCRIPT.txt.gz",
+    "EXTERNAL_REVIEW_FOLLOWUP_TRANSMISSION_RECORD.md",
     "SOURCE_MANIFEST.tsv",
     "derive_p1_free_flux_interface.py",
     "verify_p1_free_flux_independent.py",
@@ -70,6 +73,7 @@ def main() -> None:
     exact = (HERE / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
     external_review = (HERE / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8")
     adjudication = (HERE / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(encoding="utf-8")
+    followup_review = (HERE / "EXTERNAL_REVIEW_FOLLOWUP_RAW.md").read_text(encoding="utf-8")
     independent_source = (HERE / "verify_p1_free_flux_independent.py").read_text(
         encoding="utf-8"
     )
@@ -155,7 +159,10 @@ def main() -> None:
                 "Localization of P1 to profile/frequency history survives",
             )
         ),
-        "repair_followup_stays_open": "REPAIR_ONLY_EXTERNAL_FOLLOWUP_OPEN" in adjudication,
+        "repair_followup_accepted": (
+            "G189_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED" in followup_review
+            and "EXTERNALLY_ACCEPTED_WITH_REPAIRS_CLOSED" in adjudication
+        ),
     }
     result = {
         "audit": "G189_PACKAGE",

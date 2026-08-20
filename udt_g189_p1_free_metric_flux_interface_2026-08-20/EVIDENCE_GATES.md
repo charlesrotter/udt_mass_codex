@@ -16,7 +16,7 @@
 | fresh external adversarial review | `ACCEPTED_WITH_REPAIRS` | `EXTERNAL_REVIEW_RAW.md` |
 | host-independent DES source gate | PASS internally | logical `external_data/...` manifest rows |
 | production-artifact-independent second replay | PASS internally | production artifact is not read by second implementation |
-| repair-only external follow-up | OPEN | fresh repaired intake not yet transmitted |
+| repair-only external follow-up | PASS | `G189_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED` |
 
 Maximum current grade:
-`EXTERNALLY_ACCEPTED_WITH_REPAIRS__REPAIRS_IMPLEMENTED_AND_INTERNALLY_VERIFIED__FOLLOWUP_OPEN`.
+`EXTERNALLY_ACCEPTED_WITH_REPAIRS_CLOSED__SCIENTIFIC_LANDING_UNCHANGED`.

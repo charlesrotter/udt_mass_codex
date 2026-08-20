@@ -84,5 +84,5 @@ __P1_REMAINDER_IS_PROFILE_OR_FREQUENCY_HISTORY_NOT_SCREEN_SCAFFOLDING
 Fresh sealed gpt-5.4 review returned `G189_ACCEPTED_WITH_REPAIRS`. It retained the metric-to-flux
 factorization, center type failure, two-catalog numerical negative, and P1 localization. Its two
 evidence-quality defects—host-dependent DES hashing and production-artifact dependence in the
-second replay—have been repaired without changing any scientific result. A repair-only external
-follow-up remains open.
+second replay—were repaired without changing any scientific result. Fresh sealed repair-only review
+returned `G189_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`; both repairs are externally closed.
