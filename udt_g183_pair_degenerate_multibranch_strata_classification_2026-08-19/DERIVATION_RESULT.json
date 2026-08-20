@@ -1,0 +1,326 @@
+{
+  "assertions": 72115,
+  "audit": "G183",
+  "checks": {
+    "null_clock_chart_not_plane_degeneracy": true,
+    "null_curve_regular_plane": true,
+    "rank_two_null_plane_metric_degeneracy": true,
+    "rank_two_spacelike_plane_outside_domain": true,
+    "regular_crossing_branches_survive": true,
+    "sampled_focal_rank_loss": true,
+    "scalar_and_metric_do_not_select_branch": true,
+    "timelike_clock_det_zero_iff_rank_loss": true,
+    "winding_branches_survive": true
+  },
+  "dependent_trials": 3000,
+  "independent_trials": 9000,
+  "landing_candidate": "PAIR_STRATA_SEPARATED__REGULAR_MULTIBRANCH_KERNEL_REMAINS_BRANCH_LABELLED",
+  "trials": 12000,
+  "witnesses": {
+    "null_clock": {
+      "det": -1,
+      "h": [
+        0,
+        1,
+        1
+      ],
+      "timelike_replacement_norm": -1
+    },
+    "null_path": {
+      "h": [
+        -1,
+        0,
+        1
+      ],
+      "path_norm": 0,
+      "path_tangent": [
+        1,
+        1
+      ]
+    },
+    "null_plane": {
+      "det": 0,
+      "h": [
+        0,
+        0,
+        1
+      ],
+      "tangent_rank": 2
+    },
+    "polynomial_pair": {
+      "different_endpoint_tangents": true,
+      "same_endpoints": true,
+      "same_metric": true
+    },
+    "rank_loss": {
+      "h": [
+        "-1",
+        "-7/3",
+        "-49/9"
+      ],
+      "rank": 1
+    },
+    "rindler_focus": {
+      "acceleration": "3/2",
+      "rank": 1,
+      "s_focus": "-2/3"
+    },
+    "spacelike_plane": {
+      "det": 1,
+      "h": [
+        1,
+        0,
+        1
+      ],
+      "tangent_rank": 2
+    },
+    "winding": [
+      {
+        "Phi": 0,
+        "h11": 1521,
+        "lift": -39,
+        "n": -20
+      },
+      {
+        "Phi": 0,
+        "h11": 1369,
+        "lift": -37,
+        "n": -19
+      },
+      {
+        "Phi": 0,
+        "h11": 1225,
+        "lift": -35,
+        "n": -18
+      },
+      {
+        "Phi": 0,
+        "h11": 1089,
+        "lift": -33,
+        "n": -17
+      },
+      {
+        "Phi": 0,
+        "h11": 961,
+        "lift": -31,
+        "n": -16
+      },
+      {
+        "Phi": 0,
+        "h11": 841,
+        "lift": -29,
+        "n": -15
+      },
+      {
+        "Phi": 0,
+        "h11": 729,
+        "lift": -27,
+        "n": -14
+      },
+      {
+        "Phi": 0,
+        "h11": 625,
+        "lift": -25,
+        "n": -13
+      },
+      {
+        "Phi": 0,
+        "h11": 529,
+        "lift": -23,
+        "n": -12
+      },
+      {
+        "Phi": 0,
+        "h11": 441,
+        "lift": -21,
+        "n": -11
+      },
+      {
+        "Phi": 0,
+        "h11": 361,
+        "lift": -19,
+        "n": -10
+      },
+      {
+        "Phi": 0,
+        "h11": 289,
+        "lift": -17,
+        "n": -9
+      },
+      {
+        "Phi": 0,
+        "h11": 225,
+        "lift": -15,
+        "n": -8
+      },
+      {
+        "Phi": 0,
+        "h11": 169,
+        "lift": -13,
+        "n": -7
+      },
+      {
+        "Phi": 0,
+        "h11": 121,
+        "lift": -11,
+        "n": -6
+      },
+      {
+        "Phi": 0,
+        "h11": 81,
+        "lift": -9,
+        "n": -5
+      },
+      {
+        "Phi": 0,
+        "h11": 49,
+        "lift": -7,
+        "n": -4
+      },
+      {
+        "Phi": 0,
+        "h11": 25,
+        "lift": -5,
+        "n": -3
+      },
+      {
+        "Phi": 0,
+        "h11": 9,
+        "lift": -3,
+        "n": -2
+      },
+      {
+        "Phi": 0,
+        "h11": 1,
+        "lift": -1,
+        "n": -1
+      },
+      {
+        "Phi": 0,
+        "h11": 1,
+        "lift": 1,
+        "n": 0
+      },
+      {
+        "Phi": 0,
+        "h11": 9,
+        "lift": 3,
+        "n": 1
+      },
+      {
+        "Phi": 0,
+        "h11": 25,
+        "lift": 5,
+        "n": 2
+      },
+      {
+        "Phi": 0,
+        "h11": 49,
+        "lift": 7,
+        "n": 3
+      },
+      {
+        "Phi": 0,
+        "h11": 81,
+        "lift": 9,
+        "n": 4
+      },
+      {
+        "Phi": 0,
+        "h11": 121,
+        "lift": 11,
+        "n": 5
+      },
+      {
+        "Phi": 0,
+        "h11": 169,
+        "lift": 13,
+        "n": 6
+      },
+      {
+        "Phi": 0,
+        "h11": 225,
+        "lift": 15,
+        "n": 7
+      },
+      {
+        "Phi": 0,
+        "h11": 289,
+        "lift": 17,
+        "n": 8
+      },
+      {
+        "Phi": 0,
+        "h11": 361,
+        "lift": 19,
+        "n": 9
+      },
+      {
+        "Phi": 0,
+        "h11": 441,
+        "lift": 21,
+        "n": 10
+      },
+      {
+        "Phi": 0,
+        "h11": 529,
+        "lift": 23,
+        "n": 11
+      },
+      {
+        "Phi": 0,
+        "h11": 625,
+        "lift": 25,
+        "n": 12
+      },
+      {
+        "Phi": 0,
+        "h11": 729,
+        "lift": 27,
+        "n": 13
+      },
+      {
+        "Phi": 0,
+        "h11": 841,
+        "lift": 29,
+        "n": 14
+      },
+      {
+        "Phi": 0,
+        "h11": 961,
+        "lift": 31,
+        "n": 15
+      },
+      {
+        "Phi": 0,
+        "h11": 1089,
+        "lift": 33,
+        "n": 16
+      },
+      {
+        "Phi": 0,
+        "h11": 1225,
+        "lift": 35,
+        "n": 17
+      },
+      {
+        "Phi": 0,
+        "h11": 1369,
+        "lift": 37,
+        "n": 18
+      },
+      {
+        "Phi": 0,
+        "h11": 1521,
+        "lift": 39,
+        "n": 19
+      },
+      {
+        "Phi": 0,
+        "h11": 1681,
+        "lift": 41,
+        "n": 20
+      }
+    ]
+  }
+}

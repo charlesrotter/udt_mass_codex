@@ -1,0 +1,19 @@
+{
+  "assertions": 220034,
+  "audit": "G183",
+  "checks": {
+    "determinant_formula_independent": true,
+    "focus_factor": true,
+    "null_clock_nonintrinsic": true,
+    "null_plane_rank_two_degenerate_metric": true,
+    "rank_equivalence_independent": true,
+    "reflected_branch_metric": true,
+    "spacelike_plane_outside_domain": true,
+    "winding_label_survives": true
+  },
+  "collapsed_trials": 4000,
+  "method": "rational Lorentz basis and coefficient-space rank classification",
+  "regular_trials": 16000,
+  "status": "PASS",
+  "trials": 20000
+}
