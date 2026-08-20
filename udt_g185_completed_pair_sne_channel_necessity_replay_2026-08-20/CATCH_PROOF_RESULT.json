@@ -1,0 +1,35 @@
+{
+  "audit": "G185_CATCH_PROOFS",
+  "executable_catch_count": 13,
+  "executable_catches": {
+    "catalog_rows_dropped": true,
+    "imported_transfer_algebra_mutated": true,
+    "nonradial_pair_channel_silenced": true,
+    "post_readout_angular_factor_inserted": true,
+    "production_independent_shared_failure": true,
+    "radial_completed_density_changed": true,
+    "radial_pair_zero_called_zero_sky": true,
+    "screen_deleted": true,
+    "screen_duplicated": true,
+    "shape_optimizer_inserted": true,
+    "sky_basis_covariance_erased": true,
+    "terminal_Phi_inserted": true,
+    "transfer_replaced_by_one": true
+  },
+  "failed_executable_catches": [],
+  "semantic_guard_count": 11,
+  "semantic_guards": {
+    "P1_history_is_frozen_not_derived": true,
+    "Phi_not_universally_identified_with_logZ": true,
+    "full_pullback_precedes_readout": true,
+    "no_Xmax_or_global_completion": true,
+    "no_branch_population_or_nonspherical_generalization": true,
+    "no_native_light_claim": true,
+    "no_new_fit_or_coefficient": true,
+    "nonradial_angular_channel_remains_live": true,
+    "sky_area_remains_active": true,
+    "transfer_is_imported_conditional": true,
+    "zero_is_query_derived_not_regime_switch": true
+  },
+  "status": "PASS"
+}

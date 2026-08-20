@@ -1,0 +1,34 @@
+{
+  "audit": "G185_INDEPENDENT",
+  "channels": {
+    "expected_nonradial_increment": 4.1699,
+    "nonradial_density_increment": 4.1699,
+    "radial_pair_angular_gram_max": 0.0,
+    "radial_pair_zero_and_sky_live": true,
+    "sky_determinant_residual": 1.4210854715202004e-14,
+    "transfer_reduction_residual": 1.1641532182693481e-10
+  },
+  "checks": {
+    "des_chi2": true,
+    "des_count": true,
+    "des_offset": true,
+    "nonradial_pair_channel_live": true,
+    "pantheon_chi2": true,
+    "pantheon_count": true,
+    "pantheon_offset": true,
+    "production_pass": true,
+    "radial_pair_angular_zero": true,
+    "radial_zero_and_sky_live_are_compatible": true,
+    "sky_area_active": true,
+    "transfer_reduction": true
+  },
+  "method": "independent precision-domain Pantheon inversion, DES Schur complement, and direct matrix channel controls",
+  "residuals": {
+    "des_chi2": 2.2737367544323206e-12,
+    "des_offset": 7.105427357601002e-15,
+    "pantheon_chi2": 9.094947017729282e-13,
+    "pantheon_offset": 1.0658141036401503e-14
+  },
+  "shape_optimizer_called": false,
+  "status": "PASS"
+}
