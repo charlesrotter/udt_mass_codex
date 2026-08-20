@@ -12,6 +12,6 @@
 | First fresh adversarial review | REPAIR_REQUIRED | mathematics reproduced; default helper write defect |
 | Preregistered packaging repair | PASS | explicit-write helper plus live nested replay only |
 | Repaired default helper replay | PASS | direct helper and package entrypoints are default no-write |
-| Repair-only adversarial follow-up | PENDING | must precede banking |
+| Repair-only adversarial follow-up | PASS | `G184_REPAIR_ACCEPTED`; both default entrypoints no-write in sealed intake |
 
-Maximum current grade: `VERIFIED_WITH_CAVEATS__EXTERNAL_PACKAGING_REPAIR_FOLLOWUP_PENDING`.
+Maximum current grade: `VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REPAIR_FOLLOWUP_ACCEPTED`.

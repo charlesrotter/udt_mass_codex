@@ -45,11 +45,13 @@ equivalence.
 - fresh external gpt-5.4 independently reproduced the substantive witnesses and returned
   `G184_REPAIR_REQUIRED` for one default-helper write defect only;
 - the exact preregistered packaging repair now makes both default verifier entrypoints no-write and
-  makes `verify_package.py` live-replay the helper; repair-only follow-up: `PENDING`.
+  makes `verify_package.py` live-replay the helper;
+- fresh external repair-only follow-up returned `G184_REPAIR_ACCEPTED` after both entrypoints passed
+  without changing the sealed intake tree.
 
 ## Scientific grade and ceiling
 
-`VERIFIED_WITH_CAVEATS__EXTERNAL_PACKAGING_REPAIR_FOLLOWUP_PENDING`
+`VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REPAIR_FOLLOWUP_ACCEPTED`
 
 This is one bounded quotient tile on the G183 regular branch arena. It does not define the physical
 query symmetry group, select a branch or observer population, infer holonomy, extend through a

@@ -4,6 +4,7 @@
     "all_replays_pass": true,
     "default_entrypoint_read_only": true,
     "eight_immutable_sources": true,
+    "external_review_accepted": true,
     "files_present": true,
     "helper_live_replayed": true,
     "independent_assertions": true,
@@ -15,7 +16,7 @@
     "thirty_catches": true,
     "twelve_semantic_guards": true
   },
-  "external_review": "REPAIR_REQUIRED",
+  "external_review": "ACCEPTED",
   "missing_files": [],
   "replays": {
     "derive_branch_equivalence.py": {
