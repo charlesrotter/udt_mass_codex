@@ -42,6 +42,7 @@
 | G181 one-sided endpoints | `DERIVED_CONDITIONAL`; review accepted | Tape, coefficient, stall, and zero-tangent classes |
 | G182 two-sided carry | `DERIVED_CONDITIONAL`; accepted | Metric/scalar/full-germ carry; stall parity |
 | G183 pair strata | `DERIVED_CONDITIONAL`; repair follow-up accepted | Degeneracy taxonomy; regular multibranch output remains branch-labelled |
+| G184 branch equivalence | `DERIVED_CONDITIONAL`; accepted | Typed quotient; kernel is incomplete realization invariant |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits
@@ -70,8 +71,9 @@ None selects values, completion, observations, or `X_max`.
 - G149--G163 bound first jets, scale, score, carry, quotient, rapidity, and the X-free kernel;
   route/frame transport stays separate.
 - G165 controls envelope; G166 excludes it from founded block.
-- G166--G183 derive and test the supplied-pair kernel; G177--G178 verify. G182 separates scalar, metric, and immersion
-  carry; G183 separates domain failure from regular multiplicity. Germ/branch/global selection stays open.
+- G166--G184 derive and test the supplied-pair kernel; G177--G178 verify. G182 separates scalar, metric, and immersion
+  carry; G183 separates domain failure from regular multiplicity; G184 removes coordinate duplicates
+  without selecting a physical branch. Germ/branch/global selection stays open.
 
 ## Carrier, action, source, and matter
 
@@ -102,13 +104,13 @@ Do not:
   revive strong local CSN, or identify celestial `S^2` with matter;
 - globalize G167; select `Y,Z`; scalarize angular Gram; call G168 founded or G169 distance; erase
   G170; observer-collapse G171; force triangles; globalize G172--G173; call G174 physical ruler
-  selection; erase G175 controls; call G176--G183 canon, event/germ selection, global carry, or
+  selection; erase G175 controls; call G176--G184 canon, event/germ selection, global carry, or
   proof that non-scalar angular information vanishes; call G179 dynamics; revive G142--G160;
 - import familiar external mechanisms as UDT derivations or use resemblance to select a branch.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 169-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 170-row authority. On conflict, stop.
 
 During orientation use this guide and run:
 

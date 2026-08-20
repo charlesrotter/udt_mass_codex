@@ -18,7 +18,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G183 relational closure chain:
+- G137--G184 relational closure chain:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -48,7 +48,7 @@
   `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`; `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`;
   `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`; `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`;
   `udt_g180_completed_pair_smooth_family_descent_2026-08-19/`; `udt_g181_completed_pair_singular_endpoint_classification_2026-08-19/`;
-  `udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/`; `udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/`
+  `udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/`; `udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/`; `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
 G140--G162 are carry, carrier, scale, score, quotient, and transport controls.
 G163 removes `X_max` from the kernel. G164--G165 are scaffold controls. G166 proves the founded
 ordered-pair metric owns its kernel. G167 derives the full local regular pair pullback of the
@@ -57,15 +57,15 @@ endpoint-relative reversal; G171 derives the pair-germ-relative scalar network a
 arbitrary triangle additivity and scaffolded carry. G172--G175 remain accepted controls: turns are
 regular, one calibrated germ has one scalar, and arbitrary tapes differ lawfully. G176 provisionally
 closes the ruler; G177 removes scaffolds; G178 accepts; G179 extends coframes; G180 glues families.
-G181 classifies one-sided endpoints; G182 classifies two-sided carry; G183 separates local degeneracy/focal failure from regular branch multiplicity. Reviews accept.
-Physical branch equivalence, selection, non-scalar transport, and global extension remain open.
+G181 classifies endpoints; G182 carry; G183 strata; G184 regular realization equivalence. Reviews accept.
+Physical branch population and symmetry policy, non-scalar transport, and global extension remain open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open load-bearing evidence. The 169-row registry controls.
+For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open load-bearing evidence. The 170-row registry controls.
 ## Observational lane
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
 - Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`

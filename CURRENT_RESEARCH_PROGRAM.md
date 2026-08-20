@@ -23,7 +23,9 @@ G180 glues supplied smooth families; angular motion changes the tape map, not co
 G181 separates tape integrability from regular endpoint coefficients. G182 classifies supplied seam
 carry: metric carry matches `T,B` jets, scalar carry is weaker, and immersion carry needs tangent
 jets. G183 separates local domain failure from regular cut, crossing, and winding multiplicity;
-regular outputs remain branch-labelled. Reviews accept.
+regular outputs remain branch-labelled. G184 removes coordinate duplicates by typed realization
+isomorphism, permits ambient-query symmetries only when explicitly declared, and proves that equal
+kernel or pair metric does not identify a full realization. Reviews accept.
 
 ## Controlling local evaluator
 
@@ -50,10 +52,10 @@ shows that independently evaluated pairs remain native without forced scalar tri
 G172 proves monotone-areal closure; G173--G175 classify turning and arbitrary-calibration controls;
 G176 closes normalization; G179 extends coframes; G180 glues smooth families; G181 classifies their
 first one-sided endpoint boundary; G182 classifies supplied two-sided carry; G183 classifies local
-degenerate and regular multibranch strata.
+degenerate and regular multibranch strata; G184 classifies the regular realization quotient.
 
-Current control: `udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/`, then
-G182--G166 in `INDEX.md`. Conditional complete evaluator:
+Current control: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`, then
+G183--G166 in `INDEX.md`. Conditional complete evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ## Current reconstruction and ownership chain
@@ -65,7 +67,7 @@ open. G146--G163 bound direction, first jets, scale, score, carry, and quotient,
 `X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
 
 Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156
-G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180 G181 G182 G183. Guards:
+G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180 G181 G182 G183 G184. Guards:
 rank ten, positive conformal class, common-scale ownership, bivector area bilinear, physical multidirectional carrier,
 first-order ceiling, and 184,300 unresolved covariance rows.
 
@@ -91,15 +93,17 @@ scalar per calibrated vector. G175 proves two connected tapes give identical end
 their density ratio is constant. These externally accepted controls do not supply physical
 calibration or cross-tape carry.
 
-### G176--G183 — completed-pair normalization, coframe extension, family descent, carry, and strata
+### G176--G184 — completed-pair normalization, coframe extension, family descent, carry, and quotient
 
 Under the `WORKING_FOUNDATIONAL_CLARIFICATION`, G176 fixes
 `m=T L_sigma=sqrt(-det h_sigma)` with shift active. G177--G178 verify; G179 extends arbitrary
 coframes; G180 integrates regular families. G181 separates finite tape by integrability, regular
 finite endpoints by completed coefficient limits, and removable stalls from open two-sided carry.
 G182 closes supplied two-sided metric/immersion carry but selects neither incident branch nor seam
-identification. G183 distinguishes true local domain failure from regular branch multiplicity but
-selects and identifies no branch. None selects a family, physical singularity, or global completion.
+identification. G183 distinguishes true local domain failure from regular branch multiplicity.
+G184 classifies strict and query-symmetry realization equivalence, proves kernel descent, and proves
+the kernel is not a complete realization invariant. None selects a family, branch, query-symmetry
+policy, physical singularity, or global completion.
 
 ## Observational anchors
 
@@ -131,5 +135,7 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Map a branch-equivalence classification: distinguish query-preserving reparameterizations from
-genuinely distinct regular branch data without selecting a branch or scalarizing transport.
+G184 closes the regular branch-equivalence tile. Next, map whether a declared physical application
+actually requests extrinsic or non-scalar branch data beyond the scalar kernel. Do not build a
+universal complete invariant by accretion or infer physical branch selection from mathematical
+multiplicity.

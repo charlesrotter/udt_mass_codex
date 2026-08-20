@@ -210,6 +210,7 @@ def validate_startup_surface(root: Path) -> None:
             "G181",
             "G182",
             "G183",
+            "G184",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -251,7 +252,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "169-row exact registry",
+            "170-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -358,6 +359,7 @@ def validate_startup_surface(root: Path) -> None:
             "G176",
             "G177",
             "G183",
+            "G184",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -404,6 +406,7 @@ def validate_startup_surface(root: Path) -> None:
             "G176",
             "G177",
             "G183",
+            "G184",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -443,10 +446,11 @@ def validate_startup_surface(root: Path) -> None:
             "G181",
             "G182",
             "G183",
+            "G184",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "169-row",
+            "170-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -705,9 +709,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 169, "premise registry must contain exactly 169 rows")
+    require(len(rows) == 170, "premise registry must contain exactly 170 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 169, "duplicate premise id")
+    require(len(by_id) == 170, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -4478,6 +4482,66 @@ def main() -> None:
     require('"external_review": "ACCEPTED"' in g183_verification, "G183 accepted review state absent")
     require('"external_review_accepted": true' in g183_verification, "G183 acceptance check absent")
 
+    require(
+        by_id["G184"]["current_status"].startswith(
+            "DERIVED_CONDITIONAL__FRESH_EXTERNAL_REPAIR_FOLLOWUP_ACCEPTED__"
+            "PREREGISTERED_AT_32D53AB9"
+        ),
+        "G184 realization-equivalence landing changed",
+    )
+    require(by_id["G184"]["epistemic_label"] == "MIXED", "G184 label changed")
+    require(
+        by_id["G184"]["active_use"]
+        == "ACTIVE_BOUNDED_REGULAR_TYPED_REALIZATION_EQUIVALENCE_AND_COMPLETED_KERNEL_DESCENT_CLASSIFICATION_ON_SUPPLIED_QUERIES_ONLY",
+        "G184 active scope widened",
+    )
+    for open_item in (
+        "physical query symmetry group and branch population",
+        "physical observer event pair-germ and family realization",
+        "complete invariant or minimal sufficient descriptor for every possible requested channel",
+        "nontrivial holonomy Jacobi connection and non-scalar transport",
+        "degenerate topology-changing and global completion strata",
+        "positive metric-space distance and numerical Xmax",
+        "observations dynamics action source matter bootstrap radiative transfer and signalling",
+    ):
+        require(open_item in by_id["G184"]["open_scope"], f"G184 open boundary absent: {open_item}")
+    for guard in (
+        "G184 called canon unconditional physical branch quotient selector complete realization invariant or global completion",
+        "strict and query-symmetry quotients silently conflated",
+        "ambient reflection orientation reversal observer swap or screen flip admitted without query typing",
+        "equal endpoints Phi tape pair metric or image called proof of realization equivalence",
+        "completed scalar kernel weakened or reopened because it is many-to-one",
+        "extrinsic curvature or covering degree scalarized into Phi",
+        "winding label called holonomy",
+        "physical branch selected",
+        "local regular theorem globalized",
+        "Xmax observations dynamics action source matter bootstrap radiative transfer or signalling imported",
+    ):
+        require(guard in by_id["G184"]["forbidden_regression"], f"G184 guard absent: {guard}")
+    g184 = ROOT / "udt_g184_regular_branch_equivalence_classification_2026-08-19"
+    require(
+        by_id["G184"]["controlling_source"]
+        == "udt_g184_regular_branch_equivalence_classification_2026-08-19/AUDIT_REPORT.md",
+        "G184 source changed",
+    )
+    for name in (
+        "VERIFICATION_RESULT.json",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "REVIEW_REPAIR_PREREGISTRATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_ADJUDICATION.md",
+        "TRANSMISSION_RECORD.md",
+        "FOLLOWUP_TRANSMISSION_RECORD.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt.gz",
+    ):
+        require((g184 / name).is_file(), f"G184 evidence missing: {name}")
+    require(
+        "G184_REPAIR_ACCEPTED" in (g184 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        "G184 repair-only external acceptance missing",
+    )
+    g184_verification = (g184 / "VERIFICATION_RESULT.json").read_text()
+    require('"external_review": "ACCEPTED"' in g184_verification, "G184 accepted review state absent")
+    require('"external_review_accepted": true' in g184_verification, "G184 acceptance check absent")
+
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
     )
@@ -4570,7 +4634,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G183-extended premise guards; PASS: 169-row premise "
+        "PASS: G184-extended premise guards; PASS: 170-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
