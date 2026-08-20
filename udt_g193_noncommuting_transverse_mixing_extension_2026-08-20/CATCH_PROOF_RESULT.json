@@ -1,0 +1,22 @@
+{
+  "catch_count": 15,
+  "catches": {
+    "delete_outer_matrix_action": true,
+    "drop_all_quadratic_terms": true,
+    "drop_mu_nu_cross": true,
+    "drop_mu_prime": true,
+    "drop_nu_prime": true,
+    "drop_nu_squared_00": true,
+    "drop_nu_squared_11": true,
+    "force_all_histories_commuting": true,
+    "force_diagonal_tide": true,
+    "mixing_contaminates_frequency": true,
+    "positive_integrand_order": true,
+    "reverse_derivative_sign": true,
+    "reverse_factor_order": true,
+    "transpose_order_mutation": true,
+    "wrong_affine_power": true
+  },
+  "caught_count": 15,
+  "status": "PASS"
+}

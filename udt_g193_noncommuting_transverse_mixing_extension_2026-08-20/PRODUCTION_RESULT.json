@@ -1,0 +1,87 @@
+{
+  "assertions": {
+    "affine_jacobi_reduction": true,
+    "affine_ray": true,
+    "coframe_determinant": true,
+    "commutator_antisymmetric": true,
+    "completed_frame": true,
+    "frequency": true,
+    "frequency_contraction": true,
+    "g190_limit": true,
+    "g192_limit": true,
+    "matrix_factorization": true,
+    "metric_determinant": true,
+    "pair_pullback": true,
+    "screen_orthonormal": true,
+    "screen_parallel": true,
+    "tidal_matrix": true,
+    "tidal_self_adjoint": true
+  },
+  "exact": {
+    "affine_relation": "dlambda/deta=a(eta)^2",
+    "caustic_sign": "det(D)>0 for eta!=0 because det(aL)>0 and K is positive definite for eta>0, negative definite for eta<0",
+    "commutator": [
+      [
+        "0",
+        "A_a*nu_b - A_b*nu_a"
+      ],
+      [
+        "-A_a*nu_b + A_b*nu_a",
+        "0"
+      ]
+    ],
+    "det_L_integrand": "-2*sqrt(2)*mu(eta)",
+    "det_coframe": "a(eta)**4",
+    "det_metric": "-a(eta)**8",
+    "factorization": "(d/deta-2M)(d/deta+2M)y=0",
+    "frequency": "1/a(eta)",
+    "frequency_derivative": "-Derivative(a(eta), eta)/a(eta)**4",
+    "fundamental_representation": "D=a L K; L'=-2ML, L(0)=I; K=int_0^eta L^-1 L^-T ds",
+    "mixing_tide": [
+      [
+        "2*(-4*mu(eta)**2 - 2*nu(eta)**2 + sqrt(2)*Derivative(mu(eta), eta))/a(eta)**4",
+        "2*(-2*sqrt(2)*mu(eta)*nu(eta) + Derivative(nu(eta), eta))/a(eta)**4"
+      ],
+      [
+        "2*(-2*sqrt(2)*mu(eta)*nu(eta) + Derivative(nu(eta), eta))/a(eta)**4",
+        "-4*nu(eta)**2/a(eta)**4"
+      ]
+    ],
+    "pair_metric": [
+      [
+        "-a(eta)**2",
+        "0"
+      ],
+      [
+        "0",
+        "a(eta)**2"
+      ]
+    ],
+    "tidal_matrix": [
+      [
+        "-(8*a(eta)**2*mu(eta)**2 + 4*a(eta)**2*nu(eta)**2 - 2*sqrt(2)*a(eta)**2*Derivative(mu(eta), eta) + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6",
+        "2*(-2*sqrt(2)*mu(eta)*nu(eta) + Derivative(nu(eta), eta))/a(eta)**4"
+      ],
+      [
+        "2*(-2*sqrt(2)*mu(eta)*nu(eta) + Derivative(nu(eta), eta))/a(eta)**4",
+        "-(4*a(eta)**2*nu(eta)**2 + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6"
+      ]
+    ]
+  },
+  "family": {
+    "coordinates": [
+      "eta",
+      "z",
+      "p",
+      "w"
+    ],
+    "mixing": "M=[[sqrt(2)mu,nu],[nu,0]], mu and nu real C2",
+    "pair": "p=w=0, outgoing +z germ",
+    "scale": "a(eta)>0, C3, a(0)=1"
+  },
+  "scope": {
+    "derived": "displayed arbitrary positive a and real mu,nu family; supplied central pair",
+    "open": "third symmetric channel, antisymmetric rotation, arbitrary complete coframes, other germs, physical history, transfer, global completion, Xmax"
+  },
+  "status": "PASS"
+}

@@ -20,14 +20,16 @@ and matrix-screen branch. Native output is `lambda -> (Z,D,d_A)`; `d_A(Z)` desce
 monotone, noncaustic pieces. G191 verifies one exact nonconformal time-live mixing realization;
 frequency and off-diagonal screen response arise from the same metric. Repair follow-up accepts.
 G192 makes `a>0,mu` arbitrary smooth functions in one rank-one family, deriving turns, full tide,
-factorized Jacobi modes, family-scoped no-caustics, and sign-variable cross response. Review accepts.
+factorized modes, family-scoped no-caustics, and sign-variable response. G193 adds arbitrary `nu`:
+symmetric histories noncommute while factorization and the exact no-caustic proof survive. One
+control rotates. Reviews accept with caveats.
 
 G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier, score, scale, and
-transport freedoms and remove `X_max`; G164--G192 remove scaffolds, build the
+transport freedoms and remove `X_max`; G164--G193 remove scaffolds, build the
 supplied-pair kernel, and test radial/nonradial channels.
 See `INDEX.md` for exact milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192`; bivector area bilinear; numerical/global valuation stays open.
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193`; bivector area bilinear; numerical/global valuation stays open.
 
 Physical germ/global realization, ambient extension, completion, and `X_max` remain open.
 
@@ -55,9 +57,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G192 closes the first arbitrary smooth common-scale plus rank-one equal-row mixing family. Next add
-one minimal independent transverse-mixing channel and test whether exact factorization and the
-family-scoped no-caustic result survive, without fitting `phi(R)`, inserting `X_max`, selecting
-transfer, or using G116/G189 as inputs.
+Next add the third symmetric mixing function and test arbitrary smooth symmetric `2 x 2 M`, without
+fits, `X_max`, transfer, or G116/G189. Antisymmetric rotation is the later failure-boundary test.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

@@ -12,16 +12,18 @@
 
 ## Required before banking
 
-- [ ] Preregistration committed before production computation.
-- [ ] Exact metric/connection/curvature derivation passes.
-- [ ] Full matrix Jacobi characterization and affine vertex normalization pass.
-- [ ] Any no-caustic claim has an exact sign/definiteness proof.
-- [ ] G192, G190, and registered static limits pass.
-- [ ] Independent implementation passes the frozen census and error ceilings.
-- [ ] Hostile mutations prove new guards are live.
-- [ ] Current premise verifier passes.
-- [ ] Full repository tests pass.
-- [ ] `git diff --check` passes.
-- [ ] Fresh adversarial review completed and adjudicated.
+- [x] Preregistration committed before production computation (`3fdf95e5`).
+- [x] Exact metric/connection/curvature derivation passes.
+- [x] Full matrix Jacobi characterization and affine vertex normalization pass.
+- [x] No-caustic claim has an exact positive/negative-definiteness proof.
+- [x] G192, G190, and registered static limits pass.
+- [x] Independent metric-jet/Riemann spot checks and separately implemented formula-driven
+  matrix-IVP replay pass 264 histories, 3,961 assertions, and error ceilings.
+- [x] Hostile mutations prove 15/15 new guards are live.
+- [x] Current 177-row premise verifier passes.
+- [x] Full repository tests pass (130 passed, 1 expected xfail).
+- [x] `git diff --check` passes.
+- [x] Fresh adversarial review and repair-only follow-up completed and adjudicated.
 
-Until every required gate closes, G193 is `PREREGISTERED_OPEN`.
+All required gates are closed. G193 is `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS` within its
+declared symmetric-family and supplied-pair scope.

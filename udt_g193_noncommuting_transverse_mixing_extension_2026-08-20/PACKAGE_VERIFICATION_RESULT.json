@@ -1,0 +1,15 @@
+{
+  "external_review": "G193_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED",
+  "fresh_artifact_identity": true,
+  "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
+  "independent_assertions": 3961,
+  "independent_histories": 264,
+  "maximum_factorization_error": 1.9746815294041653e-11,
+  "maximum_tide_error": 1.1368683772161603e-13,
+  "mutation_catches": 15,
+  "no_write_replay": false,
+  "repository_premise_gate": "PASS",
+  "source_rows": 10,
+  "stale_artifact_mutation_caught": true,
+  "status": "PASS"
+}
