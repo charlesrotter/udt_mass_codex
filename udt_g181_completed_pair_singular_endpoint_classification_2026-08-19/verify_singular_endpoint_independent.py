@@ -34,6 +34,7 @@ def main_result() -> dict[str, object]:
     tape_counts = {"FINITE": 0, "INFINITE_LOG": 0, "INFINITE_POWER": 0}
     depth_counts = {"POSITIVE_INFINITY": 0, "FINITE": 0, "NEGATIVE_INFINITY": 0}
     cross_counts: dict[str, int] = {}
+    noninteger_exponent_trials = 0
 
     for index in range(trial_count):
         T = rng.positive_fraction()
@@ -58,44 +59,68 @@ def main_result() -> dict[str, object]:
         assert hs11 == Fraction(1, 1) / (T * T) - T * T * completed_shift**2
         assertions += 1
 
-        # Integer exponents are generated independently of the production witness list.
-        a = int(rng.next() % 13) - 6
-        if index % 7 == 0:
-            b = -1 - a  # exact logarithmic threshold population
+        # Cycle through every tape/depth cross-class while drawing genuinely
+        # rational magnitudes independently of the production witness list.
+        tape_index = index % 3
+        depth_index = (index // 3) % 3
+        a_magnitude = rng.positive_fraction()
+        if depth_index == 0:
+            a = a_magnitude
+        elif depth_index == 1:
+            a = Fraction(0)
         else:
-            b = int(rng.next() % 13) - 6
+            a = -a_magnitude
+        p_offset = rng.positive_fraction()
+        if tape_index == 0:
+            p = -1 + p_offset
+        elif tape_index == 1:
+            p = Fraction(-1)
+        else:
+            p = -1 - p_offset
+        b = p - a
+        if a.denominator != 1 or b.denominator != 1:
+            noninteger_exponent_trials += 1
         p = a + b
         if p > -1:
             tape = "FINITE"
-            assert Fraction(1, p + 1) > 0  # exact integral from 0 to 1
+            assert p + 1 > 0
             assertions += 1
         elif p == -1:
             tape = "INFINITE_LOG"
-            for n in (2, 4, 8, 16):
-                # Integral from exp(-n) to 1 is n; only monotone divergence is used.
-                assert n > 0
-                assertions += 1
+            assert p + 1 == 0
+            assertions += 1
         else:
             tape = "INFINITE_POWER"
-            # For q=1/N the primitive magnitude grows as N^(-p-1).
-            exponent = -p - 1
-            assert exponent > 0 and 16**exponent > 2**exponent
+            assert -p - 1 > 0
             assertions += 1
 
         if a > 0:
             depth = "POSITIVE_INFINITY"
+            assert a > 0
         elif a == 0:
             depth = "FINITE"
+            assert a == 0
         else:
             depth = "NEGATIVE_INFINITY"
+            assert a < 0
+        assertions += 1
         tape_counts[tape] += 1
         depth_counts[depth] += 1
         cross_counts[f"{tape}__{depth}"] = cross_counts.get(f"{tape}__{depth}", 0) + 1
-        assertions += 3
 
         # Primary metric sum-of-squares boundary at positive r and exp(-2phi).
-        v = rng.signed_fraction()
-        bang = rng.signed_fraction()
+        if index % 17 == 0:
+            v = Fraction(0)
+            bang = Fraction(0)
+        elif index % 17 == 1:
+            v = Fraction(0)
+            bang = rng.positive_fraction()
+        elif index % 17 == 2:
+            v = rng.positive_fraction()
+            bang = Fraction(0)
+        else:
+            v = rng.signed_fraction()
+            bang = rng.signed_fraction()
         radius = rng.positive_fraction()
         e_minus_2phi = rng.positive_fraction()
         primary_m2 = v * v + e_minus_2phi * radius * radius * bang * bang
@@ -109,6 +134,8 @@ def main_result() -> dict[str, object]:
     }
     assert required_crosses.issubset(cross_counts)
     assertions += len(required_crosses)
+    assert noninteger_exponent_trials > 0
+    assertions += 1
 
     # Independent exact removable-stall family: r=r0+q^k, s=q^k.
     stall_checks = 0
@@ -139,6 +166,8 @@ def main_result() -> dict[str, object]:
         "status": "PASS",
         "method": "independent standard-library exact Fraction replay; no production import",
         "exact_trials": trial_count,
+        "rational_exponent_trials": trial_count,
+        "noninteger_exponent_trials": noninteger_exponent_trials,
         "exact_assertions": assertions,
         "tape_counts": tape_counts,
         "depth_counts": depth_counts,

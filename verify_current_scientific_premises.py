@@ -207,6 +207,7 @@ def validate_startup_surface(root: Path) -> None:
             "G178",
             "G179",
             "G180",
+            "G181",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -248,7 +249,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "166-row exact registry",
+            "167-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -434,10 +435,11 @@ def validate_startup_surface(root: Path) -> None:
             "G178",
             "G179",
             "G180",
+            "G181",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "166-row",
+            "167-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -696,9 +698,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 166, "premise registry must contain exactly 166 rows")
+    require(len(rows) == 167, "premise registry must contain exactly 167 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 166, "duplicate premise id")
+    require(len(by_id) == 167, "duplicate premise id")
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -4299,6 +4301,62 @@ def main() -> None:
         (ROOT / "udt_g180_completed_pair_smooth_family_descent_2026-08-19/FOLLOWUP_TRANSMISSION_RECORD.md").is_file(),
         "G180 follow-up transmission record missing",
     )
+    require(
+        by_id["G181"]["current_status"].startswith(
+            "DERIVED_CONDITIONAL__EXTERNAL_REPAIR_ACCEPTED__"
+            "PREREGISTERED_AT_A4DACEA9"
+        ),
+        "G181 endpoint-classification landing changed",
+    )
+    require(by_id["G181"]["epistemic_label"] == "MIXED", "G181 label changed")
+    require(
+        by_id["G181"]["active_use"]
+        == "ACTIVE_BOUNDED_ONE_SIDED_ENDPOINT_CLASSIFICATION_ON_SUPPLIED_SMOOTH_REGULAR_INTERIOR_PAIR_FAMILIES_ONLY",
+        "G181 active scope widened",
+    )
+    for open_item in (
+        "physical observer event pair-germ and family selection",
+        "two-sided branch and immersion carry",
+        "null cut focal topology-changing and global completion strata",
+        "non-scalar transport",
+        "metric-space distance and numerical Xmax",
+        "dynamics action source matter bootstrap radiative transfer observations and signalling",
+    ):
+        require(open_item in by_id["G181"]["open_scope"], f"G181 open boundary absent: {open_item}")
+    for guard in (
+        "G181 called canon unconditional singularity theorem global completion family selector or metric-space distance",
+        "finite tape called physical distance",
+        "integrable m called sufficient without completed coefficient limits",
+        "m tending zero called universally regular or universally singular",
+        "m tending infinity called infinite tape",
+        "one-sided removable auxiliary stall called two-sided smooth immersion carry",
+        "pair-metric normalization called branch gluing",
+        "tape class called depth class",
+        "zero radial speed called zero complete tangent",
+        "angular turns called singular",
+        "supplied family called selected physical history",
+        "numerical Xmax fit observation action source matter bootstrap radiative transfer or signalling imported",
+    ):
+        require(guard in by_id["G181"]["forbidden_regression"], f"G181 guard absent: {guard}")
+    g181 = ROOT / "udt_g181_completed_pair_singular_endpoint_classification_2026-08-19"
+    require(
+        by_id["G181"]["controlling_source"]
+        == "udt_g181_completed_pair_singular_endpoint_classification_2026-08-19/AUDIT_REPORT.md",
+        "G181 source changed",
+    )
+    require((g181 / "VERIFICATION_RESULT.json").is_file(), "G181 verification result missing")
+    require((g181 / "EXTERNAL_REVIEW_ADJUDICATION.md").is_file(), "G181 adjudication missing")
+    require((g181 / "REVIEW_REPAIR_PREREGISTRATION.md").is_file(), "G181 repair preregistration missing")
+    require(
+        (g181 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text().startswith("G181_REPAIR_ACCEPTED"),
+        "G181 repair-only external acceptance missing",
+    )
+    require(
+        '"external_followup": "G181_REPAIR_ACCEPTED"'
+        in (g181 / "VERIFICATION_RESULT.json").read_text(),
+        "G181 accepted verdict not recorded",
+    )
+    require((g181 / "TRANSMISSION_RECORD.md").is_file(), "G181 transmission record missing")
 
     guard_rows = read_tsv(
         ROOT / "udt_foundational_semantic_regression_correction_2026-07-26/SEMANTIC_GUARD_UNIVERSE.tsv"
@@ -4392,7 +4450,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G180-extended premise guards; PASS: 166-row premise "
+        "PASS: G181-extended premise guards; PASS: 167-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

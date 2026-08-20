@@ -132,7 +132,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 166-row premise registry" in result.stdout
+    assert "PASS: 167-row premise registry" in result.stdout
 
 
 def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:

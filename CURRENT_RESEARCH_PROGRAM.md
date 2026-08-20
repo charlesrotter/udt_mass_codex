@@ -27,10 +27,10 @@ shift enter the supplied pullback, G176 uniquely derives
 not rival kernels. Event/germ realization remains open.
 G177 removes scaffolds; G178 accepts. G179 extends to arbitrary coframes and regular germs; review
 accepts without repair.
-G180 glues the density along every supplied smooth regular interval. In the primary family,
-angular motion changes the completed tape map while `Phi(s)=phi(r(s))`. Fresh review accepts the
-theorem and independently reproduces its exact population; repair-only follow-up accepts the
-corrected dependency-free no-write replays.
+G180 glues supplied smooth families; angular motion changes the tape map, not completed `Phi`.
+G181 classifies one-sided endpoints: tape is finite iff `m` is integrable; regular finite
+coefficients also need finite positive `T` and finite `beta/m`. Density limits do not classify
+extension, and removable stalls do not prove two-sided carry. Reviews accept.
 
 ## Controlling local evaluator
 
@@ -55,10 +55,11 @@ Smooth primary tape: ds/dsigma=sqrt(v^2+exp(-2phi)r^2b2), Phi(s)=phi(r(s)).
 G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities; G171
 shows that independently evaluated pairs remain native without forced scalar triangle closure;
 G172 proves monotone-areal closure; G173--G175 classify turning and arbitrary-calibration controls;
-G176 closes normalization; G179 extends coframes; G180 glues smooth families.
+G176 closes normalization; G179 extends coframes; G180 glues smooth families; G181 classifies their
+first one-sided endpoint boundary.
 
-Current controls: `udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/`, then
-G174--G166 in `INDEX.md`. Conditional complete evaluator:
+Current control: `udt_g181_completed_pair_singular_endpoint_classification_2026-08-19/`, then
+G180--G166 in `INDEX.md`. Conditional complete evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ## Current reconstruction and ownership chain
@@ -70,7 +71,7 @@ open. G146--G163 bound direction, first jets, scale, score, carry, and quotient,
 `X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
 
 Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156
-G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180. Guards:
+G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180 G181. Guards:
 rank ten, positive conformal class, common-scale ownership, bivector area bilinear, physical multidirectional carrier,
 first-order ceiling, and 184,300 unresolved covariance rows.
 
@@ -96,17 +97,13 @@ scalar per calibrated vector. G175 proves two connected tapes give identical end
 their density ratio is constant. These externally accepted controls do not supply physical
 calibration or cross-tape carry.
 
-### G176--G180 — completed-pair normalization, coframe extension, and family descent
+### G176--G181 — completed-pair normalization, coframe extension, family descent, and endpoints
 
-Under the `WORKING_FOUNDATIONAL_CLARIFICATION`, every regular shifted pair has
-`m=T L_sigma=sqrt(-det h_sigma)`, the unique positive ruler density with `T L=1`; shift remains
-active. In G173, `m^2=exp(-2phi)H` and `Phi=phi`, including angular turns. Grade:
-`VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL_ON_WORKING_FOUNDATIONAL_CLARIFICATION`. G177 rebuilds it;
-G178 accepts it. G179 extends it to arbitrary `E,J`; BQSYZ, shift, singular-Y, covariance, and live
-controls pass; fresh review accepts.
-G180 integrates `m=sqrt(-det h)` on smooth regular intervals. In the primary family the angular
-sector changes `s(sigma)` and `r(s)`, not completed `Phi=phi`; scientific review and repair-only
-evidence follow-up both accept.
+Under the `WORKING_FOUNDATIONAL_CLARIFICATION`, G176 fixes
+`m=T L_sigma=sqrt(-det h_sigma)` with shift active. G177--G178 verify; G179 extends arbitrary
+coframes; G180 integrates regular families. G181 separates finite tape by integrability, regular
+finite endpoints by completed coefficient limits, and removable stalls from open two-sided carry.
+None selects a family, physical singularity, or global completion.
 
 ## Observational anchors
 
@@ -138,5 +135,5 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G180 evidence closure is complete. Preregister one bounded next extension—its first excluded
-singular/branch stratum or one conditional observational replay—without reopening the kernel.
+G181 evidence closure is complete. Zoom out before choosing either a second singular/branch stratum
+or one conditional observational replay; do not reopen or scaffold the accepted kernel.

@@ -27,3 +27,27 @@ Date: 2026-08-19
 The bounded geometry was not refuted. The review rejected the evidence layer because the sealed
 production replay required unavailable SymPy and the registered 33-catch count included
 tautological and metadata-presence checks rather than only executable mutations.
+
+## Corrected repair-only follow-up
+
+- Authorized intake: `/tmp/udt_g181_endpoint_review_6sm70o49`.
+- Total files: 34 (33 payloads plus `REVIEW_SCOPE.json`).
+- Scope SHA-256:
+  `8cbd6fdb199e8ae2782f11960566282abad47d722b5497b04a29fd8b07a54acf`.
+- The first follow-up process, session `01a01c6d-f4c0-7841-9b99-fa81d5839e6a`, ended during
+  validation without returning a verdict. Its transcript SHA-256 before compression is
+  `b61438f51cc4f45ea6ff0f5717729c0ab5a16f7c42b72094fde1170f88f831a4`.
+- The second fresh follow-up, session `01a01c6f-600a-7c80-a1a6-3b1e77a77dbc`, passed all displayed
+  commands but exhausted its context after dumping documents and returned
+  `G181_REPAIR_INCOMPLETE` without naming a failed repair. Raw response SHA-256:
+  `f5482f7774a9eae1ea6fc346eeb36c755e3ec2c2fa9a3d1c140b416d49d6669a`; transcript SHA-256 before
+  compression: `ba6c77f17a789792a6e8a9625754e588675fecafe8e13669ddfbdb6112dcf77e`.
+- A third fresh recovery review, session `01a01c72-b720-7233-b069-25f9af4cd63b`, was constrained
+  not to dump documents and independently reran every registered repair check. It returned
+  `G181_REPAIR_ACCEPTED`. Raw response SHA-256:
+  `fd2b5cf31f8a550555d96c917c260cf5a8fe280b1827f3061bca584514765625`; transcript SHA-256 before
+  compression: `7d09f747dd629600b7a9f5a6d1c652a4368b541b11e95d7b6e58a5bf3b3f227a`.
+- Accepted-review result: all isolated scripts and verifiers passed; 28 executable mutants and six
+  separate semantic guards passed; the intake hashes were unchanged after every replay; the
+  formulas, 19 witnesses, seven sources, landing, premise grade, and maximum conclusion were
+  retained.

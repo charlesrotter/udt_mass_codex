@@ -50,6 +50,9 @@ G179 extends conditionally to arbitrary coframes/regular germs:
 G180 glues smooth regular intervals. In the primary family,
 `ds/dsigma=sqrt(v^2+exp(-2phi)r^2b^2)` and `Phi(s)=phi(r(s))`; angular/common scale act through the
 tape, not afterward. Scientific and repair reviews accept; no-write sealed replays pass.
+G181 classifies the first one-sided endpoint stratum: finite tape is integrability of
+`m=sqrt(-det h)`; regular finite coefficients also require finite positive `T` and finite `beta/m`.
+Density limits alone do not classify extension; removable stalls do not prove two-sided carry. Review accepts.
 
 ### Current dependency spine
 
@@ -59,18 +62,19 @@ tape, not afterward. Scientific and repair reviews accept; no-write sealed repla
   physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
 - **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
   G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
-- **G164--G180.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
+- **G164--G181.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
   pullback, and plane; G169--G171 give reversal, endpoint difference, and pair-relative network;
   G172--G175 close controls; G176 closes reciprocal normalization; G177 independently reconstructs
-  the kernel without scaffolds; G178 accepts; G179 extends coframes; G180 glues smooth families.
+  the kernel without scaffolds; G178 accepts; G179 extends coframes; G180 glues smooth families;
+  G181 classifies their first one-sided endpoint boundary.
   Physical germ/global realization is open.
 
 Maximum conclusion: the primary metric owns a coherent reciprocal scalar kernel on every supplied
-regular completed physical pair. The complete orchestra enters first; Dual Reciprocity then fixes
-the ruler and scalar uniquely. G173--G175 classify broader control measurements, not rival kernels.
+regular completed physical pair and an exact one-sided endpoint classification. The complete
+orchestra enters first; Dual Reciprocity then fixes the ruler and scalar uniquely. G173--G175
+classify broader control measurements, not rival kernels.
 Physical event/germ population, ambient/global extension, completion, and numerical `X_max` remain
-open. Current control: `udt_g180_completed_pair_smooth_family_descent_2026-08-19/`, then G179
-through G166.
+open. Current control: `udt_g181_completed_pair_singular_endpoint_classification_2026-08-19/`, then G180--G166.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain.
@@ -87,16 +91,12 @@ Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No lon
 ### High-risk premise guard
 
 - `c_E`, `G_obs`: `OBSERVED` calibration anchors.
-- founded reciprocal character and determinant-one pair block on supplied ordered depth: `DERIVED`;
-  Charles owner-clarifies the physical kernel argument as the ordered observer pair, not a fixed path.
-- endpoint-relative reciprocal reversal: `DERIVED_CONDITIONAL` on each supplied completed pair;
-  G171 proves arbitrary triangle additivity is not required, while matched endpoint readouts
-  telescope. This is not a positive metric-space distance or global realization theorem.
-- smooth pair-family closure: `VERIFIED_WITH_CAVEATS`; angular turns remain regular, one calibrated
-  germ has one scalar, and A-local calibration does not propagate across arbitrary control tapes.
-- completed-pair Dual Reciprocity: `WORKING_FOUNDATIONAL_CLARIFICATION`; G176 conditionally derives
-  the unique reciprocal ruler after the full pair pullback. Do not call this event/germ selection,
-  global carry, or canon.
+- reciprocal character and determinant-one block: `DERIVED` on supplied depth; ordered pair, not path.
+- pair reversal: `DERIVED_CONDITIONAL`; G171 rejects forced triangles and retains matched telescoping.
+  It is not positive metric-space distance or global realization.
+- smooth pair-family closure: `VERIFIED_WITH_CAVEATS`; turns are regular; control calibrations do not propagate.
+- completed-pair Dual Reciprocity: `WORKING_FOUNDATIONAL_CLARIFICATION`; G176 fixes the ruler after
+  the full pullback. This is not event/germ selection, global carry, or canon.
 - pointwise `phi`: `CONDITIONAL` presentation potential; universal owner `OPEN`.
 - terminal `phi_pair`: `DERIVED` on a supplied regular calibrated pair metric.
 - pair `c_eff`: `CONDITIONAL` inter-observer readout, not automatically local signal speed.
@@ -122,12 +122,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G180 evidence closure is complete. Next, preregister one bounded extension without reopening the
-kernel: either its first excluded singular/branch stratum or one conditional observational replay.
+G181 is closed. Zoom out before a second singular stratum or observational replay; do not reopen the kernel.
 
 ### Archive
-Pre-cleanup startup surfaces are under `archive/startup_surface_2026-08-17_pre_zoomout/` and
-`archive/startup_surface_2026-08-14/`.
+Pre-cleanup startup surfaces: `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-14/`.
 The superseded G173--G175 rival-kernel framing is summarized at
 `archive/g173_g175_rival_calibration_reframe_2026-08-19.md`; historical packages remain unchanged.
 <!-- STARTUP_CURRENT_END -->

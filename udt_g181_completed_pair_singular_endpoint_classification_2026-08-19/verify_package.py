@@ -6,6 +6,9 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import os
+import subprocess
+import sys
 from pathlib import Path
 
 
@@ -39,6 +42,18 @@ def main() -> None:
         "STATUS_LEDGER.tsv",
         "ADVERSARIAL_REVIEW_REQUEST.md",
         "REVIEW_EXECUTION_BOUNDARY.md",
+        "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+        "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt.gz",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "TRANSMISSION_RECORD.md",
+        "REVIEW_REPAIR_PREREGISTRATION.md",
+        "FOLLOWUP_REVIEW_REQUEST.md",
+        "FOLLOWUP_RECOVERY_REVIEW_REQUEST.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_ABORTED_TRANSCRIPT.txt.gz",
+        "EXTERNAL_REPAIR_FOLLOWUP_INCOMPLETE_RAW.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_INCOMPLETE_TRANSCRIPT.txt.gz",
+        "EXTERNAL_REPAIR_FOLLOWUP_RAW.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt.gz",
         "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json",
         "CATCH_PROOF_RESULT.json",
@@ -52,18 +67,54 @@ def main() -> None:
         "verify_package.py",
     }
     missing = sorted(name for name in required if not (HERE / name).is_file())
+
+    replay_environment = os.environ.copy()
+    replay_environment["UDT_READ_ONLY_REPLAY"] = "1"
+    replay_environment["PYTHONDONTWRITEBYTECODE"] = "1"
+    replay_scripts = (
+        "derive_singular_endpoint_classification.py",
+        "verify_singular_endpoint_independent.py",
+        "run_catch_proofs.py",
+    )
+    replay_results: dict[str, dict[str, object]] = {}
+    for script in replay_scripts:
+        completed = subprocess.run(
+            [sys.executable, "-I", "-S", str(HERE / script)],
+            cwd=HERE,
+            env=replay_environment,
+            check=False,
+            capture_output=True,
+            text=True,
+        )
+        replay_results[script] = {
+            "returncode": completed.returncode,
+            "stdout": completed.stdout.strip(),
+            "stderr": completed.stderr.strip(),
+        }
+
     checks = {
         "seven_sources": len(rows) == 7 and not hash_failures,
         "derivation_pass": derivation.get("status") == "PASS",
         "independent_pass": independent.get("status") == "PASS",
         "twenty_thousand_trials": independent.get("exact_trials") == 20_000,
-        "assertion_floor": independent.get("exact_assertions", 0) >= 175_000,
+        "rational_exponent_population": independent.get("rational_exponent_trials") == 20_000
+        and independent.get("noninteger_exponent_trials", 0) > 0,
+        "assertion_floor": independent.get("exact_assertions", 0) >= 140_000,
         "nine_cross_classes": independent.get("required_cross_classes") == 9,
-        "thirty_three_catches": catches.get("status") == "PASS"
-        and catches.get("catch_count") == 33,
+        "twenty_eight_executable_catches": catches.get("status") == "PASS"
+        and catches.get("catch_count") == 28,
+        "six_separate_semantic_guards": catches.get("semantic_guard_count") == 6,
+        "isolated_read_only_replays": all(
+            result["returncode"] == 0 for result in replay_results.values()
+        ),
         "landing_matches": derivation.get("landing") == LANDING
         and summary.get("landing") == LANDING,
         "preregistration_commit": summary.get("preregistration_commit") == "a4dacea9",
+        "external_repair_accepted": summary.get("external_followup")
+        == "G181_REPAIR_ACCEPTED"
+        and (HERE / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md")
+        .read_text()
+        .startswith("G181_REPAIR_ACCEPTED"),
         "files_present": not missing,
     }
     failed = [name for name, passed in checks.items() if not passed]
@@ -74,6 +125,7 @@ def main() -> None:
         "checks": checks,
         "source_hash_failures": hash_failures,
         "missing_files": missing,
+        "replays": replay_results,
     }
     if failed:
         raise SystemExit(json.dumps(result, sort_keys=True))

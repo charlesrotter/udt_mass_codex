@@ -12,3 +12,5 @@ null cut focal topology and global completion	OPEN	not included in one-sided end
 non-scalar transport Xmax dynamics observations	OPEN	separately typed downstream questions
 fresh adversarial review	REQUIRES_REPAIR	bounded geometry retained; production replay and mutation evidence incomplete
 repair scope	PREREGISTERED	dependency-free replay, 28 executable mutants, six separate semantic guards
+local registered repairs	PASS	corrected isolated replays pass; later external repair-only follow-up accepted
+external repair-only follow-up	G181_REPAIR_ACCEPTED	all registered repairs pass with no intake writes; bounded geometry retained

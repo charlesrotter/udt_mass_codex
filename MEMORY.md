@@ -14,6 +14,9 @@ conditional theorem to arbitrary coframes and regular germs; review accepts with
 G180 glues the density on smooth regular intervals; angular/common scale act through the completed
 tape, with primary `Phi(s)=phi(r(s))`. Fresh scientific review and repair-only no-write replay both
 accept. Physical event/germ/global realization remains open.
+G181: finite tape iff `m` is integrable; regular finite coefficients also need finite positive `T`
+and finite `beta/m`. Density limits do not classify extension; stalls do not prove two-sided carry.
+Review accepts.
 
 Dependency spine:
 
@@ -25,8 +28,9 @@ Dependency spine:
 - G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
   bounded controls; G163 removes `X_max` from the kernel.
 - G164 G165 G166 G167 G168 G169: scaffold, kernel, pullback, germ, and reversal controls.
-- G170--G180: pair-relative differences need no carry; G176 fixes the ruler, G177--G178 accept,
-  G179 extends coframes, G180 glues families, and G173--G175 remain controls.
+- G170--G181: pair-relative differences need no carry; G176 fixes the ruler, G177--G178 accept,
+  G179 extends coframes, G180 glues families, G181 classifies one-sided endpoints, and G173--G175
+  remain controls.
 
 Physical germ realization, global extendability, ambient extension, separation,
 completion, and `X_max` remain open.
@@ -55,7 +59,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G180 evidence is closed. Preserve its working—not canon—grade; preregister the next bounded
-singular/branch or conditional observational extension.
+G181 evidence is closed. Preserve its conditional—not canon—grade; zoom out before preregistering
+the next bounded singular/branch or conditional observational extension.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

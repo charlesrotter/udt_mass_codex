@@ -37,16 +37,17 @@ regular. At the center, `m=abs(v)`.
 ## Evidence
 
 - outcome-blind preregistration committed at `a4dacea9`;
-- exact symbolic derivation and 19 registered witnesses;
-- independent standard-library replay: 20,000 exact families, 192,841 assertions, all nine
-  tape/depth cross-classes, and 512 stall checks;
+- exact analytic derivation, dependency-free production replay, and 19 registered witnesses;
+- independent standard-library replay: 20,000 rational-exponent families, 140,530 assertions,
+  16,575 noninteger-exponent trials, all nine tape/depth cross-classes, and 512 stall checks;
+- 28 executable mutation catches plus six separately reported semantic scope guards;
 - first external review reproduced the bounded geometry but regraded the 33-catch claim as
   overstated and found the sealed production replay dependency-incomplete;
 - seven frozen source hashes.
 
 ## Grade and ceiling
 
-`DERIVED_CONDITIONAL_LEAD__PREREGISTERED_AT_A4DACEA9__G181_REQUIRES_REPAIR`
+`DERIVED_CONDITIONAL__PREREGISTERED_AT_A4DACEA9__EXTERNAL_REPAIR_ACCEPTED__BOUNDED_GEOMETRY_RETAINED`
 
 This is a one-sided supplied-family endpoint classification. Physical family selection,
 two-sided branches, null/cut/focal/topology-changing strata, non-scalar transport, global

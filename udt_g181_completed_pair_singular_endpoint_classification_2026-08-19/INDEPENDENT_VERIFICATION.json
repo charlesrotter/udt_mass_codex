@@ -1,31 +1,33 @@
 {
   "audit": "G181",
   "cross_class_counts": {
-    "FINITE__FINITE": 667,
-    "FINITE__NEGATIVE_INFINITY": 2180,
-    "FINITE__POSITIVE_INFINITY": 6328,
-    "INFINITE_LOG__FINITE": 312,
-    "INFINITE_LOG__NEGATIVE_INFINITY": 1945,
-    "INFINITE_LOG__POSITIVE_INFINITY": 1847,
-    "INFINITE_POWER__FINITE": 563,
-    "INFINITE_POWER__NEGATIVE_INFINITY": 5169,
-    "INFINITE_POWER__POSITIVE_INFINITY": 989
+    "FINITE__FINITE": 2222,
+    "FINITE__NEGATIVE_INFINITY": 2222,
+    "FINITE__POSITIVE_INFINITY": 2223,
+    "INFINITE_LOG__FINITE": 2222,
+    "INFINITE_LOG__NEGATIVE_INFINITY": 2222,
+    "INFINITE_LOG__POSITIVE_INFINITY": 2223,
+    "INFINITE_POWER__FINITE": 2222,
+    "INFINITE_POWER__NEGATIVE_INFINITY": 2222,
+    "INFINITE_POWER__POSITIVE_INFINITY": 2222
   },
   "depth_counts": {
-    "FINITE": 1542,
-    "NEGATIVE_INFINITY": 9294,
-    "POSITIVE_INFINITY": 9164
+    "FINITE": 6666,
+    "NEGATIVE_INFINITY": 6666,
+    "POSITIVE_INFINITY": 6668
   },
-  "exact_assertions": 192841,
+  "exact_assertions": 140530,
   "exact_trials": 20000,
   "method": "independent standard-library exact Fraction replay; no production import",
+  "noninteger_exponent_trials": 16575,
+  "rational_exponent_trials": 20000,
   "required_cross_classes": 9,
   "stall_exact_checks": 512,
   "status": "PASS",
   "tape_counts": {
-    "FINITE": 9175,
-    "INFINITE_LOG": 4104,
-    "INFINITE_POWER": 6721
+    "FINITE": 6667,
+    "INFINITE_LOG": 6667,
+    "INFINITE_POWER": 6666
   },
   "verified": [
     "generic determinant and completed determinant",

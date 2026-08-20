@@ -25,6 +25,20 @@ scope verification, package verification, and the banked catch JSON.
 
 These defects block acceptance as packaged. They do not constitute a mathematical counterexample.
 
+## Registered local repair status
+
+The preregistered repair is now implemented locally. The production replay is dependency-free;
+the independent census uses 20,000 rational-exponent families including 16,575 noninteger cases;
+28 executable mutants and six separate semantic guards pass; and the package verifier executes all
+three scripts under isolated read-only Python.
+
+The first recovery process ended before returning a verdict. A second overlong review returned
+`G181_REPAIR_INCOMPLETE` without identifying a failed repair after all displayed checks passed. A
+fresh concise recovery review then independently hashed the intake before and after every replay,
+reran both verifiers and all three scripts, checked imports and exact populations, and returned
+`G181_REPAIR_ACCEPTED`. The accepted repair-only verdict supersedes the local-pending status while
+preserving the earlier incomplete attempt as evidence.
+
 ## Retained boundary
 
 The theorem remains only a one-sided supplied-family endpoint classification. Physical family

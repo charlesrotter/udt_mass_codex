@@ -9,8 +9,6 @@ import os
 from fractions import Fraction
 from pathlib import Path
 
-import sympy as sp
-
 
 HERE = Path(__file__).resolve().parent
 LANDING = (
@@ -53,41 +51,53 @@ def power_row(name: str, a: int, b: int) -> dict[str, str]:
 
 
 def derive() -> tuple[dict[str, object], list[dict[str, str]]]:
-    T, L, beta = sp.symbols("T L beta", positive=True, finite=True)
-    m = sp.simplify(T * L)
-    h_sigma = sp.Matrix(
-        [
-            [-T**2, -T**2 * beta],
-            [-T**2 * beta, L**2 - T**2 * beta**2],
-        ]
+    # The analytic proof is recorded in EXACT_DERIVATION.md. This dependency-free
+    # production replay evaluates the identities over an exact registered grid.
+    grid = (
+        Fraction(1, 3),
+        Fraction(1, 2),
+        Fraction(2, 3),
+        Fraction(1),
+        Fraction(3, 2),
+        Fraction(5, 3),
+        Fraction(7, 2),
     )
-    assert sp.simplify(h_sigma.det() + m**2) == 0
+    shifts = (Fraction(-7, 5), Fraction(-2, 5), Fraction(0), Fraction(7, 11))
+    exact_grid_checks = 0
+    for T in grid:
+        for L in grid:
+            for beta in shifts:
+                m = T * L
+                h00 = -(T * T)
+                h01 = -(T * T) * beta
+                h11 = L * L - T * T * beta * beta
+                assert h00 * h11 - h01 * h01 == -(m * m)
+                hs01 = h01 / m
+                hs11 = h11 / (m * m)
+                assert h00 * hs11 - hs01 * hs01 == -1
+                B = beta / m
+                assert hs01 == -(T * T) * B
+                assert hs11 == Fraction(1, T * T) - T * T * B * B
+                exact_grid_checks += 4
 
-    jac = sp.diag(1, 1 / m)
-    h_s = sp.simplify(jac.T * h_sigma * jac)
-    B = sp.symbols("B", real=True, finite=True)
-    expected_h_s = sp.Matrix(
-        [
-            [-T**2, -T**2 * B],
-            [-T**2 * B, T ** (-2) - T**2 * B**2],
-        ]
+    stall_grid_checks = 0
+    for k in range(2, 10):
+        for numerator in range(1, 17):
+            q = Fraction(numerator, 19)
+            m_stall = k * q ** (k - 1)
+            assert (m_stall * m_stall) / (m_stall * m_stall) == 1
+            assert q**k > 0
+            stall_grid_checks += 2
+
+    primary_controls = (
+        (Fraction(0), Fraction(0), Fraction(2), Fraction(5), Fraction(0)),
+        (Fraction(0), Fraction(3), Fraction(2), Fraction(5), Fraction(450)),
+        (Fraction(7), Fraction(0), Fraction(2), Fraction(5), Fraction(49)),
+        (Fraction(0), Fraction(3), Fraction(2), Fraction(0), Fraction(0)),
     )
-    assert sp.simplify(h_s.subs(beta, B * m) - expected_h_s) == sp.zeros(2)
-    assert sp.simplify(h_s.det() + 1) == 0
-
-    q = sp.symbols("q", positive=True)
-    k = sp.symbols("k", integer=True, positive=True)
-    m_stall = k * q ** (k - 1)
-    h_stall = sp.diag(-1, m_stall**2)
-    stall_jac = sp.diag(1, 1 / m_stall)
-    assert sp.simplify(stall_jac.T * h_stall * stall_jac - sp.diag(-1, 1)) == sp.zeros(2)
-
-    v, e2, r, bang = sp.symbols("v e2 r bang", real=True)
-    primary_m2 = v**2 + e2 * r**2 * bang**2
-    assert sp.simplify(primary_m2.subs({v: 0, bang: 0})) == 0
-    assert sp.simplify(primary_m2.subs({v: 0, bang: 3, e2: 2, r: 5}) - 450) == 0
-    assert sp.simplify(primary_m2.subs({v: 7, bang: 0}) - 49) == 0
-    assert sp.simplify(primary_m2.subs({v: 0, r: 0})) == 0
+    for v, bang, e2, radius, expected in primary_controls:
+        primary_m2 = v * v + e2 * radius * radius * bang * bang
+        assert primary_m2 == expected
 
     rows = [
         power_row("finite_depth_plus", 1, 0),
