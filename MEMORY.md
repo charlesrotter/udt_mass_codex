@@ -5,15 +5,12 @@ Re-read on resume. `LIVE.md` wins.
 ## Current theory picture
 
 G166 owns `phi_pair`, `c_eff/c_E`, and `chi`. G167 pulls `B,Q,S,Y,Z` before readout; G168 uses a
-supplied germ. G170--G171 give pair-relative endpoint differences. G172 G173 G174 G175 are controls.
+supplied germ. G170--G171 give pair-relative endpoint differences. G172--G175 are controls.
 G176 applies provisional Dual Reciprocity after the complete pair pullback and fixes
 `m=T L_sigma=sqrt(-det h_sigma)`. Arbitrary calibrations remain
-controls, not rival kernels. G177 removes scaffolds; G178 externally accepts it. G179 extends the
-conditional theorem to arbitrary coframes and regular germs. G180 glues intervals; angular/common
-scale act through the tape. G181 separates tape integrability from endpoint coefficients. G182 requires matching `T,B`
-jets; scalar carry is weaker and immersion carry needs tangent jets. G183 separates local domain
-failures from regular branch-labelled cut, crossing, and winding families. G184 removes coordinate
-duplicates; equal kernel or pair metric does not identify realizations. Reviews accept.
+controls. G177--G180 remove scaffolds, accept, extend coframes, and glue families. G181--G184
+classify endpoints, carry, branches, and coordinate equivalence; equal summaries do not identify
+realizations. Reviews accept.
 G185 verifies central-spherical SNe channel accounting: zero radial angular Gram and live `R^2` sky
 area coexist; Pantheon+ and DES replays survive without fitting. Light transfer remains imported
 and P1 `R(Z)` frozen. G186 routes a nonradial germ into depth, tape/shift, and a local screen while static clocks retain
@@ -21,13 +18,17 @@ and P1 `R(Z)` frozen. G186 routes a nonradial germ into depth, tape/shift, and a
 shear needs no added coefficient. G188 derives the complete-metric quotient screen, carry, tidal
 matrix, and finite Jacobi map; coframe mixing generates cross-screen response
 without an added coefficient. Reviews accept. Transfer and physical ray population remain open.
+G189 conditionally joins the static frequency ratio and screen to imported transparent transfer:
+`d_L(Z)=Z^2 phi_inverse(log Z+phi_o)`. P1 is one supplied profile. The zero-shape-parameter
+`R=R0 tanh(phi)` control fails regular-center typing and both SNe ceilings; external repair review
+accepts this bounded negative unchanged. The kernel and time-live histories remain outside it.
 
 G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier, score, scale, and
-transport freedoms and remove `X_max`; G164--G188 remove scaffolds, build the
+transport freedoms and remove `X_max`; G164--G189 remove scaffolds, build the
 supplied-pair kernel, and test radial/nonradial channels.
 See `INDEX.md` for exact milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188`; bivector area bilinear; numerical/global valuation stays open.
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189`; bivector area bilinear; numerical/global valuation stays open.
 
 Physical germ/global realization, ambient extension, completion, and `X_max` remain open.
 
@@ -55,8 +56,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G188 closes coefficient-free complete-metric screen/Jacobi evaluation on supplied affine null
-queries. Next isolate the explicitly imported radiative-transfer interface and determine what must
-join Jacobi area before flux can be evaluated; do not fit or add post-readout factors.
+G189 closes the conditional static metric-to-flux interface and rejects the simple
+`R proportional chi` shortcut. Next derive frequency evolution and Jacobi screen from the same
+supplied complete time-live metric/null query without fitting `phi(R)`, inserting `X_max`, or
+selecting transfer from the outcome.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

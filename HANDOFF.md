@@ -16,11 +16,8 @@ G170--G171 give `delta_XY=Phi_Y|XY-Phi_X|XY`: reversal is exact and matched read
 Co-presence and scaffolded carry/score are inactive.
 
 Completed-pair Reciprocity is provisional. G176 fixes `m=T L_sigma=sqrt(-det h_sigma)` and
-`Phi=-log T`; G178 accepts, G179 extends coframes, and G180 integrates smooth families. G181
-separates tape integrability from finite coefficient limits; removable stalls do not prove carry.
-G182 separates metric, scalar, and immersion carry. G183 separates failure from regular
-branch-labelled multiplicity. G184 classifies realization isomorphism and query symmetries.
-Physical germ realization remains open.
+`Phi=-log T`; G178--G180 verify, extend coframes, and glue families. G181--G184 classify endpoints,
+carry, regular branches, and typed realization equivalence. Physical germ realization stays open.
 
 G185 checks central-spherical SNe channels: radial pair angular Gram is zero while sky area remains
 `R^2`. Frozen Pantheon+ and DES replays survive without fitting; transfer is imported and P1 `R(Z)` frozen.
@@ -32,16 +29,21 @@ screen, metric carry, self-adjoint tidal matrix, and finite Jacobi map on a supp
 query. Exact mixing gives off-diagonal response; deleting it gives flat propagation. Reviews
 accept; transfer and physical ray population remain open.
 
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G188 build,
+G189 conditionally joins the static frequency ratio and G188/G119 screen to the explicitly imported
+transparent transfer. Every supplied monotone static profile gives
+`d_L(Z)=Z^2 phi_inverse(log Z+phi_o)`, so P1 is one supplied profile rather than screen machinery.
+The zero-shape-parameter `R=R0 tanh(phi)` control fails regular-center typing and both SNe ceilings.
+External review and repair follow-up accept the landing unchanged.
+
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G189 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 
-Open G188 first, then G187, G186, G185, and G184--G166 for structure. G163 controls `X_max`; G164--G165 control scaffolds;
-`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
-
-G93--G128 provenance is under `archive/startup_surface_2026-08-17_pre_zoomout/`.
+Open G189 first, then G188--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional evidence.
+Provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ### Observational state
 
@@ -49,26 +51,22 @@ R2--R5 are verified with caveats; 184,300 covariance rows remain unresolved and 
 follows. Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`; raw:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. G185 conditionally
 preserves frozen Pantheon+ and DES likelihoods with zero radial pair angular tangent but live `R^2`
-sky area; native transfer and `R(Z)` remain open. Raw BOSS paths are indexed. No solve is running.
+sky area; native transfer and `R(Z)` remain open. No solve is running.
+G189 separately shows that the zero-shape-parameter static join `R=R0 tanh(phi)` is not a regular
+center history and fails both SNe ceilings under the imported transfer. It is a bounded negative,
+not a new fit or a kernel verdict.
 
 ### Premise guard
 
 `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise status and source ownership.
 
-- `delta -> D(delta)` and the determinant-one pair metric block are derived on supplied ordered
-  depth; the physical kernel argument is owner-clarified as the ordered pair, not a fixed path.
-- completed-pair Dual Reciprocity is a `WORKING_FOUNDATIONAL_CLARIFICATION`: after the complete
-  pullback it uniquely fixes the reciprocal ruler; it does not select the events or germ.
-- reciprocal reversal is `DERIVED_CONDITIONAL` on the same completed pair; G171 removes arbitrary
-  triangle additivity and retains matched-readout telescoping. No global distance follows.
-- `phi_pair` is derived on a supplied regular calibrated pair metric; pointwise `phi` is a
-  conditional presentation potential.
-- the orchestra enters before terminal readout.
-- pair `c_eff` is an inter-observer readout, not automatically a local signal speed.
-- signed `chi=tanh(phi_pair)` is working normalized position, not proper length.
-- `X_max` is an asymptotic completion consequence, not a local input, wall, center, or seam.
-- strong local CSN is inactive.
-- carrier, action, source, matter, bootstrap selection, and dynamics remain posit/conditional/open.
+- `delta -> D(delta)` is derived on supplied ordered depth; the orchestra enters before readout.
+- completed-pair Dual Reciprocity is a `WORKING_FOUNDATIONAL_CLARIFICATION`; it fixes the ruler,
+  not events, germs, or global distance. G171 retains reversal and matched telescoping only.
+- terminal `phi_pair` is conditional on a supplied pair; pointwise `phi` remains a presentation.
+- pair `c_eff` is an inter-observer readout; `chi=tanh(phi_pair)` is not proper length.
+- `X_max` is an asymptotic consequence, not a local input, wall, center, or seam.
+- strong CSN is inactive; carrier, action, source, matter, bootstrap, and dynamics remain open.
 
 ### Protected dirt
 
@@ -83,7 +81,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Next isolate the explicitly imported radiative-transfer interface and determine exactly which data
-beyond the G188 Jacobi map are required; do not promote Jacobi area alone to flux.
+Next test one supplied complete time-live history by deriving frequency evolution and Jacobi screen
+from the same metric/null query. Do not choose a static `phi(R)`, fit a replacement profile, insert
+`X_max`, or promote the imported transparent transfer to native UDT.
 
 <!-- STARTUP_CURRENT_END -->

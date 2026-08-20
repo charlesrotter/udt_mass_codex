@@ -47,6 +47,7 @@
 | G186 | externally accepted | Nonradial channels and local screen |
 | G187 | externally accepted | G186 screen propagates into a two-mode map; no added coefficient |
 | G188 | externally accepted with caveat | General complete-metric quotient screen and finite matrix Jacobi map; live mixing; independent replay scoped to witness family |
+| G189 | externally accepted; repairs closed | Static metric-to-flux factorization conditional; P1 localized to profile; `R proportional chi` control type-fails and is data-rejected |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -66,19 +67,14 @@ None selects completion or `X_max`.
 
 ## Geometry, query, and causality
 
-- The kernel argument is the ordered pair, not a path. Bare names need event/calibration typing;
-  route observables remain separate.
-- Pullbacks and the bivector area bilinear recover `g`; scalars stop at its conformal class.
-  Metricity is not dynamics.
-- G138--G145: overlaps own carry and values determine `g`; endpoints own neither valuation nor realization.
-- G146--G150: physical carrier and `O(2)` solder remain open; `lambda` proves liveness, not values.
-- G149--G163 bound first jets, scale, score, carry, quotient, rapidity, and the X-free kernel;
-  route/frame transport stays separate.
-- G165 controls envelope; G166 excludes it from founded block.
-- G166--G188 test the kernel; G177--G178 verify. G182 separates carry types; G183 regular
-  multiplicity; G184 coordinate duplicates; G185 radial SNe channels; G186 nonradial channels and
-  screen; G187 finite static-spherical Jacobi propagation; G188 general complete-metric matrix
-  propagation. No branch or flux law is selected.
+- The kernel takes an ordered pair, not a path; route observables remain separate.
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
+  Metricity is not dynamics. G138--G145 assign carry to overlaps, not endpoints.
+- G146--G148 and G149--G163 bound carrier, `O(2)`, `lambda`, first jets, scale, score, transport, and `X_max`.
+  G165 controls the envelope; G166 restores the founded block.
+- G166--G189 derive and test the kernel; G177--G178 verify. The chain covers carry, branches, screens, Jacobi propagation, and first
+  conditional flux interface. G189 rejects one static join; no branch, native transfer, or physical
+  frequency history is selected.
 
 ## Carrier, action, source, and matter
 
@@ -98,23 +94,24 @@ None selects completion or `X_max`.
 R2--R5 are `OBSERVED` with caveats and select no feature, scale, origin, cosmology, or
 `X_max`. G185 is an externally reviewed conditional SNe non-regression/channel check; it imports
 radiative transfer, freezes P1 `R(Z)`, and selects no metric history.
+G189 is a separate externally accepted zero-shape-parameter negative: under the same imported
+transfer, `R=R0 tanh(phi)` fails regular-center typing and both preregistered SNe ceilings. It does
+not reject the kernel, time-live histories, or every P1-free construction.
 
 ## Recurring prohibited promotions
 
 Do not:
 
-- derive pointwise depth from the supplied-depth character; call pair `c_eff` signal speed; or insert
-  `X_max`, fits, proper length, universe size, or seams into the kernel;
-- promote G146--G162 controls to carrier, dynamics, observation, evolution, or closure;
-- erase joined `C,Gamma`, collapse route into tangent transport, revive strong CSN, or identify
+- derive pointwise depth from supplied depth; call pair `c_eff` signal speed; or insert `X_max`, fits,
+  proper length, universe size, or seams into the kernel;
+- promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize G167--G188, select `Y,Z`, scalarize angular Gram, force triangles, erase calibration
-  controls, or call the chain canon, event/germ selection, global carry, or dynamics;
-- import familiar mechanisms as UDT derivations or select branches by resemblance.
+- globalize G167--G189, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
+  import familiar mechanisms as UDT derivations.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 173-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 174-row authority. On conflict, stop.
 
 During orientation use this guide and run:
 

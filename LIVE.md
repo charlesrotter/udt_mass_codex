@@ -22,20 +22,11 @@ G168 derives `Y,Z` from supplied `(u_A,s_AB)`.
 
 G170--G171 give `delta_XY=Phi_Y|XY-Phi_X|XY`: same-pair reversal and matched-readout telescoping are
 exact, but arbitrary triangles are unnecessary. G142--G160 carry/score scaffolds are not load-bearing.
-G172 G173 G174 G175 are controls: turns stay regular and calibrated tapes recalibrate exactly.
-
-Completed-pair Dual Reciprocity is provisional after the full pullback. G176 uniquely gives
-`m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; arbitrary calibrations remain controls.
-G179 extends conditionally to arbitrary coframes/germs: `h=J^T E^T eta_4 E J`.
-G180 glues smooth regular intervals. In the primary family,
-`ds/dsigma=sqrt(v^2+exp(-2phi)r^2b^2)` and `Phi(s)=phi(r(s))`; angular/common scale act through the
-tape, not afterward. Scientific and repair reviews accept; no-write sealed replays pass.
-G181 classifies tape integrability and finite coefficients. G182 classifies supplied two-sided
-metric/scalar/immersion carry. G183 separates domain failure from regular branch-labelled cut,
-crossing, and winding. Reviews accept.
-G184 removes query-preserving coordinate duplicates and admits ambient symmetries only when typed
-by the query. Equal endpoints, `Phi`, tape, pair metric, or image do not identify realizations.
-Review accepts.
+G172--G175 are turning/calibration controls. Provisional completed-pair Dual Reciprocity gives G176
+`m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. G179--G180 extend coframes and glue smooth
+families; angular/common scale enter through the tape. G181--G184 classify endpoints, supplied
+carry, regular branches, and coordinate equivalence; equal summaries do not identify realizations.
+Reviews and sealed replays accept.
 
 G185 checks central-spherical SNe channels: radial pair angular Gram is zero while sky area
 `|det D_sky|=R^2` remains live. With transfer `IMPORTED_CONDITIONAL` and P1 `R(Z)`
@@ -49,22 +40,30 @@ without a fitted coefficient. G188 generalizes this: a supplied complete metric 
 screen, metric carry, tidal matrix, and finite Jacobi map on a supplied affine null query. Exact
 mixing gives cross-response; deleting it is flat. Review accepts. Flux and ray population stay open.
 
+G189 closes the bounded static metric-to-flux interface conditionally. On a supplied monotone
+static profile, `Z=exp(phi_s-phi_o)` and the G188/G119 screen plus the explicitly imported
+transparent transfer give `d_L(Z)=Z^2 phi_inverse(log Z+phi_o)`. P1 is thereby localized to one
+supplied `phi(R)` profile, not an extra screen or kernel factor. The zero-shape-parameter control
+`R=R0 tanh(phi)` fails smooth regular-center scalar typing and exceeds both preregistered SNe
+ceilings. External review and repair follow-up accept the bounded landing unchanged.
+
 ### Current dependency spine
 
 - **G129 G134--G163.** Reconstruct `g`/`chi`, require overlap carry, bound freedoms, remove `X_max`.
-- **G164--G188.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
+- **G164--G189.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
   equivalence; check radial SNe channels; derive bounded nonradial channels and finite Jacobi map.
   Physical pair population, transfer, ambient extension, and `R(Z)` stay open.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 G146 parity-even candidates fail on the registered non-collinear witness.
 
 Maximum conclusion: the primary metric owns its reciprocal kernel on supplied completed pairs.
-G185--G188 extend radial channels through the general finite matrix evaluator. Transfer, `R(Z)`,
-pair population, global extension, and numerical `X_max` remain open.
+G185--G189 extend radial channels through the general finite matrix evaluator and localize the
+remaining static SNe freedom to transfer and `phi(R)`/frequency history. Native transfer, physical
+`R(Z)`, pair population, global extension, and numerical `X_max` remain open.
 Current structural result: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`;
-current application check: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`.
+current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain; G93--G128 are archived provenance.
@@ -77,6 +76,10 @@ G185 is separately an externally reviewed conditional SNe non-regression/channel
 Pantheon+ 1367 rows, chi-square `1260.8480887274907`; DES 1623 rows, chi-square
 `1444.1864417504896`. It is not a new fit, native light theory, or physical-history derivation.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
+
+G189 is a separate zero-shape-parameter control, not a fit: `R=R0 tanh(phi)` gives Pantheon+
+chi-square `3204.9509632650042` and DES chi-square `2685.9110340934367`, above the preregistered
+ceilings. This rejects only that formal annular/static join under imported transfer.
 
 ### High-risk premise guard
 
@@ -112,10 +115,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G188 closes coefficient-free finite screen/Jacobi evaluation for supplied regular complete metrics
-and affine null queries. Next isolate the smallest explicitly imported radiative-transfer interface
-and prove which source/frequency/conservation data are still needed to turn `|det D|` into flux. Do
-not fit, bolt on factors, reopen the scalar kernel, or call Jacobi area alone a luminosity law.
+G189 conditionally closes the static metric-to-flux factorization and proves that the simplest
+`R proportional tanh(phi)` shortcut is neither regular-center admissible nor SNe compatible. Next
+preregister a metric-led time-live frequency/screen derivation on one supplied complete history and
+affine null query: compute frequency evolution and `|det D|` from the same geometry without choosing
+a static `phi(R)`, inserting `X_max`, fitting a profile, or selecting transfer after the outcome.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.
