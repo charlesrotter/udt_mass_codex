@@ -1,0 +1,11 @@
+{
+  "frozen_scientific_landing_changed": false,
+  "independence_grade": "METRIC_JET_RIEMANN_SPOTCHECK_PLUS_FORMULA_DRIVEN_MATRIX_IVP",
+  "no_write_replay": "FAIL_IN_GENUINELY_READ_ONLY_EXTERNAL_SANDBOX",
+  "r1_tempfile_discovery_repair": "REJECTED__DOWNSTREAM_TORCH_TEMPORARY_DIRECTORY_WRITE",
+  "r2_ambient_repository_dependency_removed": "PASS",
+  "r3_independence_grade_recorded": "PASS",
+  "repository_premise_gate": "SEPARATE_REPOSITORY_GATE_NOT_PART_OF_SEALED_REPLAY",
+  "review_runtime_empty_after_replay": true,
+  "status": "REPAIR_CYCLE_REJECTED__R4_PREREGISTERED"
+}
