@@ -1,0 +1,21 @@
+{
+  "assertions": 240100,
+  "audit": "G182",
+  "checks": {
+    "determinant_minus_one": true,
+    "gram_map_noninjective": true,
+    "metric_jet_inverse": true,
+    "metric_jet_sufficiency": true,
+    "outward_parity": true,
+    "stall_parity": true
+  },
+  "distinct_equal_gram_witnesses": 20000,
+  "even_power_cusped": 50,
+  "method": "independent actual-derivative jets with binomial Leibniz recursion and rational Gram fibers",
+  "odd_power_smooth": 50,
+  "order": 6,
+  "parity_mutants_rejected": 20000,
+  "stall_checks": 100,
+  "status": "PASS",
+  "trials": 20000
+}

@@ -18,8 +18,7 @@ G170 differences completed endpoint densities. G171 gives each supplied pair
 arbitrary triangle closure are unnecessary, and matched endpoint readouts telescope. Co-presence
 and scaffolded carry/score are not load-bearing.
 
-G172--G175 are accepted controls: smooth curves and turns remain regular, one calibrated ruler
-fixes one scalar, and arbitrary tapes differ by exact recalibration.
+G172--G175 controls: turns remain regular; calibrated tapes recalibrate.
 
 Completed-pair Reciprocity is provisional. After the full pullback, G176 fixes
 `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; control tapes are not rival kernels. G178 accepts.
@@ -27,19 +26,21 @@ G179 extends to arbitrary coframes. G180 integrates
 `ds/dsigma=sqrt(v^2+exp(-2phi)r^2b^2)` with `Phi(s)=phi(r(s))`. G181 proves finite tape iff `m` is
 integrable; regular finite coefficients also require finite positive `T` and finite `beta/m`.
 Density limits alone do not classify extension; removable stalls do not prove two-sided carry.
-Reviews accept; physical germ realization remains open.
+G182 then proves, after supplied seam calibration carry, that `C^k` metric carry is exactly matching
+`T,B` jets; scalar `Phi` carry is weaker, and `C^k` immersion carry needs full coframe-valued tangent
+jets through order `k-1`. Reviews accept; physical germ realization remains open.
 
 Dependency chain: G129--G145 reconstruct `g`, `chi`, and overlap carry; valuation stays open.
 G146--G163 bound controls and remove `X_max`; G164--G165 remove scaffolds/control the envelope;
-G166--G181 derive, extend, glue, and classify the first bounded endpoint stratum of the kernel.
+G166--G182 derive, extend, glue, and classify supplied one- and two-sided carry.
 
 Milestones: G129 G134 G135 G139 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154
-G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180 G181. Guards: rank ten,
+G155 G156 G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180 G181 G182. Guards: rank ten,
 density, bivector area bilinear, codimension eleven, conformal; physical carrier/`O(2)` open;
 covariant `lambda` only; numerical valuation `OPEN`.
 
-Open `udt_g181_completed_pair_singular_endpoint_classification_2026-08-19/AUDIT_REPORT.md` first,
-then G180 through G166. G163 controls `X_max`; G164--G165 control scaffolds;
+Open `udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/AUDIT_REPORT.md` first,
+then G181 through G166. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
 
 For G93--G128 provenance use `INDEX.md` or `archive/startup_surface_2026-08-17_pre_zoomout/` only
@@ -47,12 +48,10 @@ when load-bearing.
 
 ### Observational state
 
-R2--R5 are verified with caveats. R5 retains one dominant direction; 184,300 covariance rows remain
-unresolved. No preferred scale follows.
+R2--R5 are verified with caveats; 184,300 covariance rows remain unresolved and no preferred scale follows.
 
 Controlling package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
-Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
-No long process is running.
+Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long process is running.
 
 ### Premise guard
 
@@ -86,7 +85,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G181 evidence closure is complete. Zoom out before choosing a second singular/branch stratum or one
-conditional observational replay; do not reopen or scaffold the accepted kernel.
+G182 evidence closure is complete. Classify null/rank-degenerate, cut/crossing, focal/caustic, and
+winding strata without collapsing branch or holonomy data into the accepted scalar kernel.
 
 <!-- STARTUP_CURRENT_END -->

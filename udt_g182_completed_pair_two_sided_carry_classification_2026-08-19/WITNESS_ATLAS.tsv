@@ -1,0 +1,13 @@
+id	T_left	T_right	B_left	B_right	pair_metric_class	immersion_class	meaning
+W01	1	1	0	0	C_INFINITY	C_INFINITY_STRAIGHT	fully matched control
+W02	1	1	0	1	DEPTH_ONLY_METRIC_JUMP	NOT_TESTED	Phi matching does not carry shift or metric
+W03	1	2	0	0	DEPTH_AND_METRIC_JUMP	NOT_TESTED	clock limit mismatch
+W04	1	1	0	0	C_INFINITY_FLAT	C0_NOT_C1_CUSP	equal Gram with reversed tangent
+W05	1	1	0	0	C_INFINITY_FLAT	C0_NOT_C1_ROTATED	equal Gram with different angular direction
+W06	1	1	0	0	C_INFINITY_FLAT	C1_NOT_C2_CURVED	straight versus unit-speed circle
+W07	1	1	0	0	C_INFINITY_FLAT	C_INFINITY_ODD_STALL	r=r0+a q^3 becomes affine in s
+W08	1	1	0	0	C_INFINITY_FLAT	C0_NOT_C1_EVEN_STALL	r=r0+a q^2 becomes absolute value in s
+W09	variable	matched through k	variable	matched through k	C_K	GERM_DEPENDENT	generic sufficient metric-jet class
+W10	matched	matched	mismatch at derivative j	mismatch at derivative j	NOT_C_J	GERM_DEPENDENT	shift kink invisible to Phi
+W11	mismatch at derivative j	mismatch at derivative j	matched	matched	NOT_C_J	GERM_DEPENDENT	depth and metric kink
+W12	1	1	0	0	C_INFINITY_FLAT	C0_NOT_C1_GRAM_FIBER	rational unit-circle direction family

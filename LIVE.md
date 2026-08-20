@@ -16,43 +16,29 @@ c_eff^(pair)/c_E=exp(-2 delta_AB),
 chi_AB=tanh(delta_AB).
 ```
 
-G167 pulls the declared primary static-spherical four-metric onto every supplied local regular
-rank-two pair realization:
+G167 pulls the primary static-spherical metric onto each supplied regular plane:
+`h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`, with metric-fixed
+`B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0`. The `B,Q,S,Y,Z` orchestra precedes
+readout; no scalar `mu` is needed. G168 derives `Y,Z` from supplied `(u_A,s_AB)`.
 
-```text
-h=F^*g=Y^T B^T eta_2 B Y+Z^T Q^T Q Z,
-B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
-```
-The metric fixes `B,Q,S=0`; the plane supplies `Y,Z`. The angular Gram enters before readout and can
-induce a cross-term. `B,Q,S,Y,Z` is metric-fixed plus pair-kinematic; no scalar `mu` is needed.
-
-G168 derives ruler, plane, screen, and G167 `Y,Z` from supplied `(u_A,s_AB)`, without a path. Bare
-labels do not derive the germ; physical one-jet ownership remains `OPEN_NOT_DERIVED`.
-
-G170 differences completed endpoint densities. G171 removes the universal-carry scaffold. For each
-supplied completed pair `(XY)`, `delta_XY=Phi_Y|XY-Phi_X|XY`. Same-pair reversal is exact. A shared
-observer may have different incident densities when its complete pair germ changes. Thus arbitrary
-three-pair additivity is not required; matched endpoint readouts telescope. Co-presence, paths, and
-G142--G160 carry/score scaffolds are not load-bearing.
-
-G172 G173 G174 G175 are accepted controls: curves/turns remain regular; calibrated rulers give one
-scalar; arbitrary tapes recalibrate exactly.
+G170--G171 give `delta_XY=Phi_Y|XY-Phi_X|XY`: same-pair reversal and matched-readout telescoping are
+exact, but arbitrary triangles are unnecessary. G142--G160 carry/score scaffolds are not load-bearing.
+G172 G173 G174 G175 are controls: turns stay regular and calibrated tapes recalibrate exactly.
 
 Charles provisionally adopts completed-pair Dual Reciprocity after angular, screen, mixing, and
 shift enter the supplied pullback. G176 derives uniquely `m=T L_sigma=sqrt(-det h_sigma)`, retains
 shift, and gives `Phi=-log T`; on G173,
 `m^2=exp(-2phi)H` and `Phi=phi`. Arbitrary metric/arclength calibrations remain control queries,
 not rival reciprocal kernels. Event and pair-germ realization remain open.
-G178 independently accepts this bounded result and confirms that spatial-coordinate reversal is not
-itself the separate observer-pair reversal theorem owned by G170--G171.
 G179 extends conditionally to arbitrary coframes/regular germs:
 `h=J^T E^T eta_4 E J`, `m=sqrt(-det h)`, `Phi=-1/2 log(-h00)`; full controls pass review.
 G180 glues smooth regular intervals. In the primary family,
 `ds/dsigma=sqrt(v^2+exp(-2phi)r^2b^2)` and `Phi(s)=phi(r(s))`; angular/common scale act through the
 tape, not afterward. Scientific and repair reviews accept; no-write sealed replays pass.
-G181 classifies the first one-sided endpoint stratum: finite tape is integrability of
-`m=sqrt(-det h)`; regular finite coefficients also require finite positive `T` and finite `beta/m`.
-Density limits alone do not classify extension; removable stalls do not prove two-sided carry. Review accepts.
+G181: finite tape is integrability of `m`; regular finite coefficients also need positive finite `T`
+and finite `beta/m`. G182: after supplied seam identification, `C^k` metric carry is matching `T,B`
+jets; `Phi` alone is weaker and immersion carry also needs coframe-valued tangent jets. Odd stalls
+are smooth; even stalls cusp. Reviews accept.
 
 ### Current dependency spine
 
@@ -62,30 +48,25 @@ Density limits alone do not classify extension; removable stalls do not prove tw
   physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
 - **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
   G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
-- **G164--G181.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
+- **G164--G182.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
   pullback, and plane; G169--G171 give reversal, endpoint difference, and pair-relative network;
   G172--G175 close controls; G176 closes reciprocal normalization; G177 independently reconstructs
   the kernel without scaffolds; G178 accepts; G179 extends coframes; G180 glues smooth families;
-  G181 classifies their first one-sided endpoint boundary.
-  Physical germ/global realization is open.
+  G181--G182 classify supplied one- and two-sided carry. Physical germ/global realization is open.
 
-Maximum conclusion: the primary metric owns a coherent reciprocal scalar kernel on every supplied
-regular completed physical pair and an exact one-sided endpoint classification. The complete
-orchestra enters first; Dual Reciprocity then fixes the ruler and scalar uniquely. G173--G175
-classify broader control measurements, not rival kernels.
-Physical event/germ population, ambient/global extension, completion, and numerical `X_max` remain
-open. Current control: `udt_g181_completed_pair_singular_endpoint_classification_2026-08-19/`, then G180--G166.
+Maximum conclusion: the primary metric owns a reciprocal scalar kernel and exact carry tests on
+supplied regular completed pairs. The orchestra enters first; Dual Reciprocity then fixes the ruler.
+Physical event/germ population, null/cut/focal/winding strata, ambient/global extension, completion,
+and numerical `X_max` remain open. Current control:
+`udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/`, then G181--G166.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
-`INDEX.md` routes the chain.
-
-G93--G128 chronology is provenance under `archive/startup_surface_2026-08-17_pre_zoomout/`.
+`INDEX.md` routes the chain; G93--G128 are archived provenance.
 
 ### Banked observational lane
 
-R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats. R5 has
-one dominant direction; 184,300 covariance rows remain unresolved. No preferred scale follows.
-
+R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
+covariance rows remain unresolved and no preferred scale follows.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### High-risk premise guard
@@ -122,10 +103,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G181 is closed. Zoom out before a second singular stratum or observational replay; do not reopen the kernel.
+G182 is closed. Preregister the second bounded classification: distinguish intrinsic null or
+rank-degenerate pullbacks from regular multi-branch cut/crossing/winding behavior and from
+query-generated focal/caustic rank loss. Do not scalarize branch or holonomy data and do not reopen
+the accepted kernel.
 
 ### Archive
-Pre-cleanup startup surfaces: `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-14/`.
-The superseded G173--G175 rival-kernel framing is summarized at
-`archive/g173_g175_rival_calibration_reframe_2026-08-19.md`; historical packages remain unchanged.
+Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.
 <!-- STARTUP_CURRENT_END -->

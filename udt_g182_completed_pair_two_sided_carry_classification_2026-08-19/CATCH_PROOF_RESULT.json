@@ -1,0 +1,41 @@
+{
+  "audit": "G182",
+  "executable_catch_count": 22,
+  "executable_mutant_catches": {
+    "T_negative_not_regular": true,
+    "T_zero_not_regular": true,
+    "depth_forces_shift": true,
+    "determinant_only_erases_shift": true,
+    "drop_shift_cross_term": true,
+    "even_stall_parity_mutant": true,
+    "gram_forces_tangent_cusp": true,
+    "gram_forces_tangent_rotation": true,
+    "magnitude_forces_direction": true,
+    "odd_stall_parity_mutant": true,
+    "omit_reciprocal_spatial_term": true,
+    "recover_B_wrong_sign": true,
+    "recover_T_as_h00": true,
+    "same_tangent_forces_acceleration": true,
+    "wrong_B_even_parity": true,
+    "wrong_B_odd_parity": true,
+    "wrong_T_even_parity": true,
+    "wrong_T_odd_parity": true,
+    "wrong_determinant_plus_one": true,
+    "wrong_determinant_zero": true,
+    "wrong_h00_sign": true,
+    "wrong_h11_plus_shift": true
+  },
+  "failed_executable_catches": [],
+  "semantic_guard_count": 8,
+  "semantic_guards": {
+    "carried_clock_chart_explicit": true,
+    "metric_carry_not_immersion_carry": true,
+    "no_Xmax_or_observational_input": true,
+    "no_action_source_matter_or_dynamics": true,
+    "null_cut_focal_winding_deferred": true,
+    "spatial_orientation_not_pair_reversal": true,
+    "supplied_branches_not_selected": true,
+    "time_orientation_separate": true
+  },
+  "status": "PASS"
+}

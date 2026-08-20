@@ -1,0 +1,129 @@
+{
+  "assertions": 96025,
+  "audit": "G182",
+  "checks": {
+    "T_B_matching_sufficient": true,
+    "completed_metric_determinant_minus_one": true,
+    "depth_only_not_metric": true,
+    "metric_not_immersion": true,
+    "metric_recovers_T_squared_and_B": true,
+    "odd_even_stall_split": true,
+    "outward_coordinate_parity": true,
+    "same_tangent_not_higher_jet": true
+  },
+  "landing_candidate": "TWO_SIDED_PAIR_METRIC_CARRY_CLASSIFIED__FULL_GERM_JETS_REQUIRED_FOR_IMMERSION_CARRY",
+  "order_checked": 7,
+  "trials": 12000,
+  "witnesses": {
+    "depth_only_not_metric": {
+      "B_left": 0,
+      "B_right": 1,
+      "Phi_both": 0,
+      "T_left": 1,
+      "T_right": 1
+    },
+    "flat_cusp": {
+      "gram_left": 1,
+      "gram_right": 1,
+      "left_tangent": [
+        1,
+        0
+      ],
+      "right_tangent": [
+        -1,
+        0
+      ]
+    },
+    "flat_direction_rotation": {
+      "gram_left": 1,
+      "gram_right": 1,
+      "left_tangent": [
+        1,
+        0
+      ],
+      "right_tangent": [
+        0,
+        1
+      ]
+    },
+    "radial_stall_parity": [
+      {
+        "immersion_C1": false,
+        "left_completed_slope": -1,
+        "power": 2,
+        "right_completed_slope": 1
+      },
+      {
+        "immersion_C1": true,
+        "left_completed_slope": 1,
+        "power": 3,
+        "right_completed_slope": 1
+      },
+      {
+        "immersion_C1": false,
+        "left_completed_slope": -1,
+        "power": 4,
+        "right_completed_slope": 1
+      },
+      {
+        "immersion_C1": true,
+        "left_completed_slope": 1,
+        "power": 5,
+        "right_completed_slope": 1
+      },
+      {
+        "immersion_C1": false,
+        "left_completed_slope": -1,
+        "power": 6,
+        "right_completed_slope": 1
+      },
+      {
+        "immersion_C1": true,
+        "left_completed_slope": 1,
+        "power": 7,
+        "right_completed_slope": 1
+      },
+      {
+        "immersion_C1": false,
+        "left_completed_slope": -1,
+        "power": 8,
+        "right_completed_slope": 1
+      },
+      {
+        "immersion_C1": true,
+        "left_completed_slope": 1,
+        "power": 9,
+        "right_completed_slope": 1
+      },
+      {
+        "immersion_C1": false,
+        "left_completed_slope": -1,
+        "power": 10,
+        "right_completed_slope": 1
+      },
+      {
+        "immersion_C1": true,
+        "left_completed_slope": 1,
+        "power": 11,
+        "right_completed_slope": 1
+      },
+      {
+        "immersion_C1": false,
+        "left_completed_slope": -1,
+        "power": 12,
+        "right_completed_slope": 1
+      }
+    ],
+    "same_tangent_different_acceleration": {
+      "circle_acceleration": [
+        0,
+        3
+      ],
+      "line_acceleration": [
+        0,
+        0
+      ],
+      "pair_metric_both": "diag(-1,1)"
+    }
+  }
+}

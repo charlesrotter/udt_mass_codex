@@ -5,14 +5,14 @@
 
 | Object | Current status | What is owned | What remains open |
 |---|---|---|---|
-| `c_E`, `G_obs` | `OBSERVED` | Calibration anchors | Native placement and absolute closure |
+| `c_E`, `G_obs` | `OBSERVED` | Anchors | Native placement and closure |
 | Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))`; determinant-one block on supplied depth | Pair values and general `3+1` assembly |
-| Pointwise `phi` | `CONDITIONAL` potential | Local factorization | Universal physical scalar ownership |
+| Pointwise `phi` | `CONDITIONAL` | Local factorization | Universal ownership |
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied regular planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Pair-relative scalar network | `VERIFIED_WITH_CAVEATS` | Pair endpoint difference; exact same-pair reversal | Physical germ/global extension; not distance |
-| Pair `c_eff` | `CONDITIONAL` observer-frame readout | Calibrated terminal ratio | Universal owner and local signal interpretation |
+| Pair-relative scalar network | `VERIFIED_WITH_CAVEATS` | Endpoint difference; same-pair reversal | Germ/global extension; not distance |
+| Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
 
@@ -20,7 +20,7 @@
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
-| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | `B,Q,S,Y,Z` pullback |
+| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Full pullback |
 | G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks recover `g`; scalars stop at positive conformal class |
 | G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Normalized position; overlap owns carry |
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Supplied-atlas reconstruction; realization open |
@@ -39,8 +39,9 @@
 | G173 turning atlas | `VERIFIED_WITH_CAVEATS` | Angular turns stay regular; bare lines retain scalar charts |
 | G174 calibrated germ | `VERIFIED_WITH_CAVEATS` | One calibrated ruler fixes one scalar; bare line retains atlas |
 | G175 calibration equivalence | `VERIFIED_WITH_CAVEATS` | Local anchor does not propagate; endpoint depths fix tape modulo constant unit |
-| G176--G180 completed-pair kernel | conditional; both reviews accepted | Ruler extends through smooth families |
+| G176--G180 completed-pair kernel | conditional; reviews accepted | Ruler extends through families |
 | G181 one-sided endpoints | `DERIVED_CONDITIONAL`; review accepted | Tape, coefficient, stall, and zero-tangent classes |
+| G182 two-sided carry | `DERIVED_CONDITIONAL`; accepted | Metric/scalar/full-germ carry; stall parity |
 
 None selects values, completion, observations, or `X_max`.
 ## Scale and limits
@@ -69,9 +70,9 @@ None selects values, completion, observations, or `X_max`.
 - G149--G163 bound first jets, scale, score, carry, quotient, rapidity, and the X-free kernel;
   route/frame transport stays separate.
 - G165 controls envelope; G166 excludes it from founded block.
-- G166--G180 derive kernel, ruler, coframes, and smooth descent; G177 rebuilds; G178 accepts. G181 makes tape finiteness
-  integrability of `m`; regular finite extension also needs finite clock and shift limits. Stalls do
-  not prove two-sided carry. Germ/global stay open.
+- G166--G182 derive kernel, ruler, coframes, smooth descent, endpoint classes, and supplied two-sided
+  carry; G177 rebuilds and G178 accepts. G182 proves scalar carry is weaker than metric carry and
+  full-germ tangent jets are needed for immersion carry. Germ/branch/global selection stays open.
 
 ## Carrier, action, source, and matter
 
@@ -102,13 +103,13 @@ Do not:
   revive strong local CSN, or identify celestial `S^2` with matter;
 - globalize G167; select `Y,Z`; scalarize angular Gram; call G168 founded or G169 distance; erase
   G170; observer-collapse G171; force triangles; globalize G172--G173; call G174 physical ruler
-  selection; erase G175 controls; call G176--G181 canon, event/germ selection, global carry, or
+  selection; erase G175 controls; call G176--G182 canon, event/germ selection, global carry, or
   proof that non-scalar angular information vanishes; call G179 dynamics; revive G142--G160;
 - import familiar external mechanisms as UDT derivations or use resemblance to select a branch.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 167-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 168-row authority. On conflict, stop.
 
 During orientation use this guide and run:
 

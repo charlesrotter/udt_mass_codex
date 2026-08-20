@@ -1,0 +1,12 @@
+object	status	maximum_conclusion
+completed-pair two-sided metric join	DERIVED_CONDITIONAL	T and B carried jets match iff the intrinsic completed metric joins in the retained calibration
+outward-coordinate parity	DERIVED	T jets have parity (-1)^j and directed B jets parity (-1)^(j+1)
+completed scalar join	DERIVED_CONDITIONAL	Phi joins iff T joins; shift remains independent
+pair metric versus complete germ	DERIVED_NONSELECTION	Gram data do not recover tangent direction or extrinsic jets
+full germ immersion join	DERIVED_CONDITIONAL	common endpoint plus carried V jets through k-1 iff supplied immersion joins Ck in a common coframe
+radial stall parity	DERIVED_BOUNDED	odd power carries smoothly; even power gives a metric-smooth immersion cusp
+clock and ruler seam identification	SUPPLIED_CARRY	not selected by G182
+physical branch or event population	OPEN	no selection claim
+null cut focal winding and topology-changing strata	OPEN	next gated classification only
+global completion Xmax observations dynamics source matter	OPEN	no downstream claim
+external adversarial review	ACCEPTED_WITH_STATED_BOUNDS	no mathematical wording or packaging repair required
