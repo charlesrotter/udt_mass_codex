@@ -1,0 +1,44 @@
+{
+  "audit": "G184",
+  "checks": {
+    "all_replays_pass": true,
+    "default_entrypoint_read_only": true,
+    "eight_immutable_sources": true,
+    "files_present": true,
+    "helper_live_replayed": true,
+    "independent_assertions": true,
+    "independent_pass": true,
+    "landing_matches": true,
+    "orientation_populations_complete": true,
+    "production_pass": true,
+    "read_only_replays": true,
+    "thirty_catches": true,
+    "twelve_semantic_guards": true
+  },
+  "external_review": "REPAIR_REQUIRED",
+  "missing_files": [],
+  "replays": {
+    "derive_branch_equivalence.py": {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS: G184 exact branch equivalence; trials=12000; assertions=121544"
+    },
+    "run_catch_proofs.py": {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS: G184 catches=30; semantic_guards=12"
+    },
+    "verify_branch_equivalence_independent.py": {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS: G184 independent replay; trials=20000; assertions=145709"
+    },
+    "verify_default_read_only_entrypoint.py": {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "PASS: G184 default verify_package.py entrypoint is read-only"
+    }
+  },
+  "source_hash_failures": [],
+  "status": "PASS"
+}

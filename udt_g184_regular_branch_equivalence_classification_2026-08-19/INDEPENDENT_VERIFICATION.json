@@ -1,0 +1,18 @@
+{
+  "assertions": 145709,
+  "audit": "G184",
+  "checks": {
+    "completed_density_covariance_independent": true,
+    "degree_invariance_independent": true,
+    "determinant_covariance_independent": true,
+    "nonlinear_reparameterization_independent": true,
+    "pullback_composition_independent": true,
+    "reflection_pairing_independent": true,
+    "same_metric_extrinsic_separation_independent": true
+  },
+  "method": "entrywise pullback expansion, direct determinant law, sampled embedding derivatives, integer degree",
+  "orientation_preserving_jacobians": 10158,
+  "orientation_reversing_jacobians": 9842,
+  "status": "PASS",
+  "trials": 20000
+}
