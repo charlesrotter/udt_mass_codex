@@ -19,12 +19,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 PANTHEON_TABLE = ROOT / "Data/Pantheon+SH0ES.dat"
 PANTHEON_COV = ROOT / "Data/Pantheon+SH0ES_STAT+SYS.cov"
-DES_ROOT = Path(
-    os.environ.get(
-        "G189_DES_ROOT",
-        "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT",
-    )
-)
+DES_ROOT = Path(os.environ["G189_DES_ROOT"])
 N_FROZEN = 1.0559332414320268
 P1_PANTHEON_CHI2 = 1260.8480887274907
 P1_DES_CHI2 = 1444.1864417504896
@@ -43,9 +38,11 @@ def verify_sources() -> dict[str, bool]:
         rows = list(csv.DictReader(handle, delimiter="\t"))
     checks: dict[str, bool] = {}
     for row in rows:
-        path = Path(row["path"])
-        if not path.is_absolute():
-            path = ROOT / path
+        registered = Path(row["path"])
+        if registered.parts and registered.parts[0] == "external_data":
+            path = DES_ROOT / registered.name
+        else:
+            path = ROOT / registered
         checks[row["path"]] = path.is_file() and sha256(path) == row["sha256"]
     if len(rows) != 17 or not all(checks.values()):
         raise RuntimeError("G189 source integrity failure")

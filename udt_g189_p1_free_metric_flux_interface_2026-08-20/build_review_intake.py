@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import os
 from pathlib import Path
 import shutil
 import tempfile
@@ -13,9 +14,16 @@ import tempfile
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
+DES_ROOT = Path(os.environ["G189_DES_ROOT"])
 PACKAGE_FILES = (
     "PREREGISTRATION.md",
     "SCOPE_CORRECTION_PREREGISTRATION.md",
+    "EXTERNAL_REVIEW_REPAIR_PREREGISTRATION.md",
+    "TRANSMISSION_RECORD.md",
+    "EXTERNAL_REVIEW_RAW.md",
+    "EXTERNAL_REVIEW_TRANSCRIPT.txt.gz",
+    "EXTERNAL_REVIEW_ADJUDICATION.md",
+    "EXTERNAL_REVIEW_FOLLOWUP_REQUEST.md",
     "SOURCE_MANIFEST.tsv",
     "ADVERSARIAL_REVIEW_REQUEST.md",
     "EXACT_DERIVATION.md",
@@ -27,6 +35,7 @@ PACKAGE_FILES = (
     "verify_p1_free_flux_independent.py",
     "run_catch_proofs.py",
     "verify_package.py",
+    "build_review_intake.py",
     "PRODUCTION_RESULT.json",
     "INDEPENDENT_VERIFICATION.json",
     "CATCH_PROOF_RESULT.json",
@@ -56,13 +65,13 @@ def main() -> None:
         rows = list(csv.DictReader(handle, delimiter="\t"))
     for row in rows:
         registered = Path(row["path"])
-        source = registered if registered.is_absolute() else ROOT / registered
+        if registered.parts and registered.parts[0] == "external_data":
+            source = DES_ROOT / registered.name
+        else:
+            source = ROOT / registered
         if sha256(source) != row["sha256"]:
             raise RuntimeError(f"source hash mismatch: {registered}")
-        if registered.is_absolute():
-            target = intake / "external_data" / source.name
-        else:
-            target = intake / registered
+        target = intake / registered
         copy_file(source, target)
 
     entries = []

@@ -11,4 +11,7 @@ Pantheon_result	OBSERVED_BOUNDED	chi2=3204.950963265004 versus P1=1260.848088727
 DES_result	OBSERVED_BOUNDED	chi2=2685.911034093437 versus P1=1444.186441750489
 reciprocal_kernel	UNCHANGED	outside the rejected provisional screen-position join
 timelive_frequency_screen_history	OPEN	next metric-led P1-removal route
-external_review	OPEN	fresh adversarial review not yet run
+external_review	ACCEPTED_WITH_REPAIRS	all four bounded scientific claims retained; two evidence-quality repairs required
+DES_source_integrity	REPAIRED_INTERNAL	logical external_data paths resolve only through G189_DES_ROOT
+implementation_distinct_replay	REPAIRED_INTERNAL	second implementation no longer reads production artifact; package verifier owns cross-comparison
+repair_followup_review	OPEN	fresh repaired sealed intake not yet transmitted

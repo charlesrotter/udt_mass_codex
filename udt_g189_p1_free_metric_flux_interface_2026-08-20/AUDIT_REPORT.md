@@ -42,7 +42,7 @@ Reciprocity, `chi`, G188, a time-live history, or UDT.
 - exact symbolic static-frequency, Jacobi-area, transfer, profile-inverse, and regular-center checks;
 - frozen source-hash gate over 17 repository/data sources;
 - production Cholesky likelihood calculation with zero shape parameters;
-- implementation-distinct Pantheon precision and DES Schur-complement replay;
+- artifact-independent implementation-distinct Pantheon precision and DES Schur-complement replay;
 - 9 algebraic mutation catches and 9 semantic/scope guards;
 - frozen P1 reference reproduced without entering the candidate.
 
@@ -64,7 +64,9 @@ Reciprocity, `chi`, G188, a time-live history, or UDT.
 1. Preregistered: **PASS**, including a separately committed regular-center scope correction.
 2. Full or bounded: **PASS** for the declared static central regular algebra and formal annular
    catalog control; time-live/global/singular/source strata remain open.
-3. Independently verified: **PASS** by a different formula and precision-domain likelihood route.
+3. Independently verified: **PASS internally after review repair** by a different formula and
+   precision-domain likelihood route that no longer reads the production artifact. The package
+   verifier performs the explicit cross-comparison.
 4. Premises audited: **PASS internally** for metric, query, screen, transfer, profile, and data roles.
 
 ## Grade
@@ -77,4 +79,10 @@ __METRIC_TO_FLUX_FACTORIZATION_CONDITIONALLY_CLOSED
 __P1_REMAINDER_IS_PROFILE_OR_FREQUENCY_HISTORY_NOT_SCREEN_SCAFFOLDING
 ```
 
-Fresh external adversarial review remains open before stronger banking.
+## External review
+
+Fresh sealed gpt-5.4 review returned `G189_ACCEPTED_WITH_REPAIRS`. It retained the metric-to-flux
+factorization, center type failure, two-catalog numerical negative, and P1 localization. Its two
+evidence-quality defects—host-dependent DES hashing and production-artifact dependence in the
+second replay—have been repaired without changing any scientific result. A repair-only external
+follow-up remains open.

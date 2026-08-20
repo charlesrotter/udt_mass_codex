@@ -16,12 +16,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 P_TABLE = ROOT / "Data/Pantheon+SH0ES.dat"
 P_COV = ROOT / "Data/Pantheon+SH0ES_STAT+SYS.cov"
-DES = Path(
-    os.environ.get(
-        "G189_DES_ROOT",
-        "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT",
-    )
-)
+DES = Path(os.environ["G189_DES_ROOT"])
 
 
 def direct_shape(redshift: np.ndarray) -> np.ndarray:
@@ -124,24 +119,14 @@ def algebraic_controls() -> dict[str, float | bool]:
 
 
 def main() -> None:
-    production = json.loads((HERE / "PRODUCTION_RESULT.json").read_text(encoding="utf-8"))
     p_chi2, p_offset, p_count = pantheon()
     d_chi2, d_offset, d_count = des()
     algebra = algebraic_controls()
-    residuals = {
-        "pantheon_chi2": abs(p_chi2 - float(production["pantheon"]["chi2"])),
-        "pantheon_offset": abs(p_offset - float(production["pantheon"]["offset"])),
-        "des_chi2": abs(d_chi2 - float(production["des"]["chi2"])),
-        "des_offset": abs(d_offset - float(production["des"]["offset"])),
-    }
     checks = {
-        "production_pass": production.get("status") == "PASS",
         "pantheon_count": p_count == 1367,
         "des_count": d_count == 1623,
-        "pantheon_chi2": residuals["pantheon_chi2"] <= 3e-6,
-        "pantheon_offset": residuals["pantheon_offset"] <= 3e-9,
-        "des_chi2": residuals["des_chi2"] <= 3e-6,
-        "des_offset": residuals["des_offset"] <= 3e-9,
+        "pantheon_result_finite": math.isfinite(p_chi2) and math.isfinite(p_offset),
+        "des_result_finite": math.isfinite(d_chi2) and math.isfinite(d_offset),
         "chi_identity": float(algebra["chi_identity_max_error"]) <= 2e-15,
         "transparent_transfer": float(algebra["transparent_transfer_max_error"]) <= 1e-8,
         "profile_inverse": float(algebra["quadratic_profile_inverse_max_error"]) <= 1e-12,
@@ -162,11 +147,11 @@ def main() -> None:
         "audit": "G189_INDEPENDENT",
         "status": "PASS" if all(checks.values()) else "FAIL",
         "checks": checks,
-        "residuals": residuals,
         "algebra": algebra,
         "pantheon": {"chi2": p_chi2, "offset": p_offset, "n_data": p_count},
         "des": {"chi2": d_chi2, "offset": d_offset, "n_data": d_count},
-        "method": "direct rational chi formula, Pantheon precision solve, DES Schur complement, and non-SymPy profile controls",
+        "method": "artifact-independent direct rational chi formula, Pantheon precision solve, DES Schur complement, and non-SymPy profile controls",
+        "production_artifact_read": False,
         "shape_optimizer_called": False,
     }
     if os.environ.get("UDT_WRITE_G189_INDEPENDENT") == "1":

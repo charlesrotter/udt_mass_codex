@@ -76,11 +76,11 @@
   "scientific_landing": "STATIC_CHI_SCREEN_JOIN_TYPE_FAILS_REGULAR_CENTER_AND_IS_DATA_REJECTED_AS_FORMAL_ANNULAR_CONTROL__METRIC_TO_FLUX_FACTORIZATION_CLOSES_CONDITIONALLY__P1_ROLE_LOCALIZED_TO_UNOWNED_PHI_OF_R_OR_TIMELIVE_FREQUENCY_HISTORY",
   "shape_optimizer_called": false,
   "source_hashes": {
-    "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv": true,
-    "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/STAT+SYS.npz": true,
     "Data/Pantheon+SH0ES.dat": true,
     "Data/Pantheon+SH0ES_STAT+SYS.cov": true,
     "SIMPLE_METRIC_MACRO.md": true,
+    "external_data/DES-Dovekie_HD.csv": true,
+    "external_data/STAT+SYS.npz": true,
     "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/EXACT_DERIVATION.md": true,
     "udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/EXACT_DERIVATION.md": true,
     "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md": true,
