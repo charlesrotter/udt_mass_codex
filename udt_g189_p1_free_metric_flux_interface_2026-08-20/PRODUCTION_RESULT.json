@@ -1,0 +1,99 @@
+{
+  "audit": "G189_PRODUCTION",
+  "candidate": {
+    "formula": "dL_over_R0=Z^2*tanh(log(Z))",
+    "shape_parameters": 0,
+    "status": "CHOSE_PROVISIONAL_CONTROL_NOT_DERIVED",
+    "transfer": "IMPORTED_CONDITIONAL_eta_1_epsilon_1_over_Z"
+  },
+  "ceilings": {
+    "des": 1906.7806173179629,
+    "pantheon": 1627.3426869074397
+  },
+  "checks": {
+    "all_17_source_hashes": true,
+    "all_exact_checks": true,
+    "des_count": true,
+    "p1_reference_reproduced": true,
+    "pantheon_count": true,
+    "positive_outgoing_candidate": true,
+    "post_readout_angular_factor_not_used": true,
+    "shape_optimizer_not_called": true,
+    "shape_parameter_count_zero": true,
+    "xmax_not_used": true
+  },
+  "controls": {
+    "candidate_vs_p1_max_mag_des": 1.3648514102681713,
+    "candidate_vs_p1_max_mag_pantheon": 1.4587920182095768,
+    "des_deleted_screen_chi2": 16406.38783447045,
+    "des_wrong_transfer_chi2": 1467.8418221438217,
+    "pantheon_deleted_screen_chi2": 117950.09281570319,
+    "pantheon_wrong_transfer_chi2": 1379.5535013354568
+  },
+  "des": {
+    "chi2": 2685.9110340934367,
+    "delta_chi2_vs_p1": 1241.7245923429475,
+    "n_data": 1623,
+    "offset": 42.58415558863622,
+    "p1_chi2_replay": 1444.1864417504892
+  },
+  "exact": {
+    "central_screen_dA_equals_R": true,
+    "chi_expression": "(Z**2 - 1)/(Z**2 + 1)",
+    "chi_join_center_slope_nonzero": true,
+    "chi_join_phi_of_R": "atanh(R/R0)",
+    "chi_rational_identity": true,
+    "normalized_profiles_differ": true,
+    "p1_phi_of_R": "-n*log(-R/(X_eff*n) + 1)/2",
+    "p1_profile_inverse": true,
+    "quadratic_profile_inverse": true,
+    "second_profile_inverse": "(sqrt(4*a*y + 1) - 1)/(2*a)",
+    "smooth_even_R_of_logZ": "sqrt(y)/sqrt(a)",
+    "smooth_even_center_slope_zero": true,
+    "smooth_even_inverse": true,
+    "static_frequency_ratio": true,
+    "transparent_transfer_gives_Z2_dA": true,
+    "two_profiles_same_coincidence_jet": true
+  },
+  "landing": "R_PROPORTIONAL_CHI_JOIN_REJECTED_IN_DECLARED_SNE_INTERFACE",
+  "maximum_conclusion": "regular-center type failure and annular observational rejection of one provisional screen-position join; reciprocal kernel, time-live histories, and native transfer remain outside the negative",
+  "ownership": {
+    "R_equals_R0_chi": "CHOSE_PROVISIONAL_CONTROL",
+    "R_equals_R0_chi_global_center_status": "TYPE_FAILURE_NONZERO_RADIAL_DERIVATIVE_AT_REGULAR_CENTER",
+    "flux_factorization": "DERIVED_CONDITIONAL_REGULAR_BRANCH",
+    "metric_to_screen": "DERIVED_CONDITIONAL",
+    "p1_role": "EXACTLY_A_PARTICULAR_PHI_OF_R_PROFILE_NOT_USED_BY_CANDIDATE",
+    "static_frequency_ratio": "DERIVED_CONDITIONAL_ON_STATIC_SOURCE_OBSERVER_QUERY",
+    "transfer": "IMPORTED_CONDITIONAL"
+  },
+  "pantheon": {
+    "chi2": 3204.9509632650042,
+    "delta_chi2_vs_p1": 1944.1028745375133,
+    "n_data": 1367,
+    "offset": 23.52499388020549,
+    "p1_chi2_replay": 1260.848088727491
+  },
+  "scientific_landing": "STATIC_CHI_SCREEN_JOIN_TYPE_FAILS_REGULAR_CENTER_AND_IS_DATA_REJECTED_AS_FORMAL_ANNULAR_CONTROL__METRIC_TO_FLUX_FACTORIZATION_CLOSES_CONDITIONALLY__P1_ROLE_LOCALIZED_TO_UNOWNED_PHI_OF_R_OR_TIMELIVE_FREQUENCY_HISTORY",
+  "shape_optimizer_called": false,
+  "source_hashes": {
+    "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv": true,
+    "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/STAT+SYS.npz": true,
+    "Data/Pantheon+SH0ES.dat": true,
+    "Data/Pantheon+SH0ES_STAT+SYS.cov": true,
+    "SIMPLE_METRIC_MACRO.md": true,
+    "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/EXACT_DERIVATION.md": true,
+    "udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/EXACT_DERIVATION.md": true,
+    "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md": true,
+    "udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/EXACT_DERIVATION.md": true,
+    "udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/EXACT_DERIVATION.md": true,
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md": true,
+    "udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/EXACT_DERIVATION.md": true,
+    "udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/run_g185_channel_replay.py": true,
+    "udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/EXACT_DERIVATION.md": true,
+    "udt_native_flux_luminosity_law_ownership_audit_2026-08-15/AUDIT_REPORT.md": true,
+    "udt_native_radiative_current_energy_owner_audit_2026-08-15/AUDIT_REPORT.md": true,
+    "udt_null_carrier_measure_ownership_audit_2026-08-15/AUDIT_REPORT.md": true
+  },
+  "status": "PASS",
+  "type_landing": "R_PROPORTIONAL_CHI_NOT_A_SMOOTH_REGULAR_CENTER_STATIC_HISTORY"
+}

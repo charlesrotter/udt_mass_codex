@@ -1,0 +1,14 @@
+object	status	maximum_statement
+static_frequency_ratio	DERIVED_CONDITIONAL	Z=exp(phi_s-phi_o) for supplied static source/observer and regular null branch
+complete_metric_screen	DERIVED_CONDITIONAL	d_A^2=abs(det D) on supplied regular affine null query
+central_spherical_screen	DERIVED_CONDITIONAL	d_A=R on supplied regular central radial spherical branch
+flux_factorization	DERIVED_CONDITIONAL	d_L^2=Z^3 d_A^2/(eta epsilon) after standardized-source/isotropy typing
+transparent_transfer	IMPORTED_CONDITIONAL	eta=1 and epsilon=1/Z; not native UDT light theory
+general_static_profile_interface	DERIVED_CONDITIONAL	d_L(Z)=Z^2 phi_inverse(log Z+phi_o) on monotone branch
+P1_remaining_role	FROZEN_REFERENCE_ONLY	one empirical radius-frequency or phi(R) profile
+R_equals_R0_chi	CHOSE_PROVISIONAL_CONTROL_REJECTED	not regular-center admissible and formal annular SNe curve exceeds both ceilings
+Pantheon_result	OBSERVED_BOUNDED	chi2=3204.950963265004 versus P1=1260.848088727491
+DES_result	OBSERVED_BOUNDED	chi2=2685.911034093437 versus P1=1444.186441750489
+reciprocal_kernel	UNCHANGED	outside the rejected provisional screen-position join
+timelive_frequency_screen_history	OPEN	next metric-led P1-removal route
+external_review	OPEN	fresh adversarial review not yet run

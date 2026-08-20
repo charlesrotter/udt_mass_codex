@@ -1,0 +1,28 @@
+{
+  "algebraic_mutation_catches": {
+    "chi_is_positive_on_outgoing_domain": true,
+    "coincidence_limit_zero": true,
+    "fitted_shape_power_changes_curve": true,
+    "p1_injection_changes_curve": true,
+    "production_classification_is_preregistered_negative": true,
+    "regular_center_type_failure_retained": true,
+    "reversal_is_odd": true,
+    "screen_deletion_changes_curve": true,
+    "transfer_exponent_change_changes_curve": true
+  },
+  "algebraic_mutation_count": 9,
+  "audit": "G189_CATCH_PROOFS",
+  "scope_guard_count": 9,
+  "scope_guards": {
+    "candidate_function_contains_no_frozen_n": true,
+    "globalization_forbidden": true,
+    "join_is_provisional": true,
+    "kernel_negative_forbidden": true,
+    "p1_reference_only": true,
+    "scope_correction_present": true,
+    "shape_optimizer_forbidden": true,
+    "transfer_is_imported": true,
+    "xmax_forbidden": true
+  },
+  "status": "PASS"
+}

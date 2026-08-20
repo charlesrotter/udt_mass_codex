@@ -1,0 +1,48 @@
+{
+  "algebra": {
+    "chi_identity_max_error": 1.1102230246251565e-16,
+    "chi_join_center_slope_estimate": 0.3333333333333333,
+    "chi_join_expected_center_slope": 0.3333333333333333,
+    "finite_profiles_differ": true,
+    "quadratic_profile_inverse_max_error": 1.7763568394002505e-15,
+    "same_origin_slope": true,
+    "same_origin_value": true,
+    "smooth_even_center_slope_estimate": 3.7000000000000005e-09,
+    "transparent_transfer_max_error": 4.547473508864641e-13
+  },
+  "audit": "G189_INDEPENDENT",
+  "checks": {
+    "chi_identity": true,
+    "chi_join_not_smooth_center": true,
+    "des_chi2": true,
+    "des_count": true,
+    "des_offset": true,
+    "pantheon_chi2": true,
+    "pantheon_count": true,
+    "pantheon_offset": true,
+    "production_pass": true,
+    "profile_inverse": true,
+    "same_anchor_but_different_profile": true,
+    "smooth_even_center_slope_zero": true,
+    "transparent_transfer": true
+  },
+  "des": {
+    "chi2": 2685.911034093426,
+    "n_data": 1623,
+    "offset": 42.58415558863624
+  },
+  "method": "direct rational chi formula, Pantheon precision solve, DES Schur complement, and non-SymPy profile controls",
+  "pantheon": {
+    "chi2": 3204.9509632650133,
+    "n_data": 1367,
+    "offset": 23.524993880205482
+  },
+  "residuals": {
+    "des_chi2": 1.0459189070388675e-11,
+    "des_offset": 2.1316282072803006e-14,
+    "pantheon_chi2": 9.094947017729282e-12,
+    "pantheon_offset": 7.105427357601002e-15
+  },
+  "shape_optimizer_called": false,
+  "status": "PASS"
+}
