@@ -1,0 +1,21 @@
+{
+  "catches": {
+    "G116_not_a_production_input": true,
+    "G189_not_a_production_input": true,
+    "P1_not_a_production_input": true,
+    "Xmax_not_a_production_input": true,
+    "branch_descent_is_control_scoped": true,
+    "curvature_sign_flip_goes_red": true,
+    "frequency_sign_flip_goes_red": true,
+    "matrix_cross_response_retained": true,
+    "mixing_deletion_goes_red": true,
+    "nonaffine_a_minus_one_ray_goes_red": true,
+    "physical_history_not_promoted": true,
+    "radiative_transfer_not_promoted": true,
+    "screen_scalarization_goes_red": true,
+    "static_substitution_loses_frequency": true,
+    "tracefree_weyl_channel_is_live": true
+  },
+  "caught": 15,
+  "status": "PASS"
+}

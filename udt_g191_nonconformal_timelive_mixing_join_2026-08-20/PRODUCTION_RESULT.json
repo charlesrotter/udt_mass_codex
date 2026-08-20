@@ -1,0 +1,165 @@
+{
+  "H_zero_jacobi": [
+    [
+      "lambda/2 + sqrt(2)*sinh(2*sqrt(2)*lambda*mu)/(8*mu)",
+      "-lambda/2 + sqrt(2)*sinh(2*sqrt(2)*lambda*mu)/(8*mu)"
+    ],
+    [
+      "-lambda/2 + sqrt(2)*sinh(2*sqrt(2)*lambda*mu)/(8*mu)",
+      "lambda/2 + sqrt(2)*sinh(2*sqrt(2)*lambda*mu)/(8*mu)"
+    ]
+  ],
+  "affine_elimination": {
+    "Z_of_lambda": "1/sqrt(2*H*lambda + 1)",
+    "dZ_dlambda": "-H/(2*H*lambda + 1)**(3/2)",
+    "eta_of_lambda": "log(2*H*lambda + 1)/(2*H)",
+    "q": "2*H*lambda + 1"
+  },
+  "affine_ray": [
+    "exp(-2*H*eta)",
+    "exp(-2*H*eta)",
+    "0",
+    "0"
+  ],
+  "branch_classification": {
+    "cross_response": "strictly_positive_for_lambda>0",
+    "dA_of_Z": "single_valued_on_0<Z<=1_for_this_control",
+    "domain": "H>0, mu>0, lambda>=0",
+    "frequency": "strictly_decreasing_for_lambda>=0",
+    "frequency_turns": 0,
+    "post_vertex_caustics": 0
+  },
+  "central_metric": "Matrix([[-exp(2*H*eta), 0, 0, 0], [0, exp(2*H*eta), 0, 0], [0, 0, exp(2*H*eta), 0], [0, 0, 0, exp(2*H*eta)]])",
+  "coframe": "Matrix([[exp(H*eta), 0, 0, 0], [0, exp(H*eta), 0, 0], [sqrt(2)*mu*(x + y)*exp(H*eta)/2, sqrt(2)*mu*(x + y)*exp(H*eta)/2, exp(H*eta), 0], [sqrt(2)*mu*(x + y)*exp(H*eta)/2, sqrt(2)*mu*(x + y)*exp(H*eta)/2, 0, exp(H*eta)]])",
+  "coframe_determinant": "exp(4*H*eta)",
+  "dA_squared_of_Z": "sqrt(2)*log(Z)*sinh(2*sqrt(2)*mu*log(Z)/H)/(4*H*Z**2*mu)",
+  "determinant": "sqrt(2)*(2*H*lambda + 1)*log(2*H*lambda + 1)*sinh(sqrt(2)*mu*log(2*H*lambda + 1)/H)/(8*H*mu)",
+  "domega_dlambda": "-H*exp(-3*H*eta)",
+  "frequency_residual": "0",
+  "frequency_rhs": "-H*exp(-3*H*eta)",
+  "geodesic_residual": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "jacobi": [
+    [
+      "sqrt(2*H*lambda + 1)*(sqrt(2)*H*sinh(sqrt(2)*mu*log(2*H*lambda + 1)/H) + 2*mu*log(2*H*lambda + 1))/(8*H*mu)",
+      "sqrt(2*H*lambda + 1)*(sqrt(2)*H*sinh(sqrt(2)*mu*log(2*H*lambda + 1)/H) - 2*mu*log(2*H*lambda + 1))/(8*H*mu)"
+    ],
+    [
+      "sqrt(2*H*lambda + 1)*(sqrt(2)*H*sinh(sqrt(2)*mu*log(2*H*lambda + 1)/H) - 2*mu*log(2*H*lambda + 1))/(8*H*mu)",
+      "sqrt(2*H*lambda + 1)*(sqrt(2)*H*sinh(sqrt(2)*mu*log(2*H*lambda + 1)/H) + 2*mu*log(2*H*lambda + 1))/(8*H*mu)"
+    ]
+  ],
+  "jacobi_eigenmodes": {
+    "antisymmetric": "sqrt(2*H*lambda + 1)*log(2*H*lambda + 1)/(2*H)",
+    "symmetric": "sqrt(2)*sqrt(2*H*lambda + 1)*sinh(sqrt(2)*mu*log(2*H*lambda + 1)/H)/(4*mu)"
+  },
+  "jacobi_residual": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "metric": "Matrix([[(mu**2*(x + y)**2 - 1)*exp(2*H*eta), mu**2*(x + y)**2*exp(2*H*eta), sqrt(2)*mu*(x + y)*exp(2*H*eta)/2, sqrt(2)*mu*(x + y)*exp(2*H*eta)/2], [mu**2*(x + y)**2*exp(2*H*eta), (mu**2*(x + y)**2 + 1)*exp(2*H*eta), sqrt(2)*mu*(x + y)*exp(2*H*eta)/2, sqrt(2)*mu*(x + y)*exp(2*H*eta)/2], [sqrt(2)*mu*(x + y)*exp(2*H*eta)/2, sqrt(2)*mu*(x + y)*exp(2*H*eta)/2, exp(2*H*eta), 0], [sqrt(2)*mu*(x + y)*exp(2*H*eta)/2, sqrt(2)*mu*(x + y)*exp(2*H*eta)/2, 0, exp(2*H*eta)]])",
+  "metric_determinant": "-exp(8*H*eta)",
+  "mu_zero_jacobi": [
+    [
+      "sqrt(2*H*lambda + 1)*log(2*H*lambda + 1)/(2*H)",
+      "0"
+    ],
+    [
+      "0",
+      "sqrt(2*H*lambda + 1)*log(2*H*lambda + 1)/(2*H)"
+    ]
+  ],
+  "omega": "exp(-H*eta)",
+  "pair_frame_residuals": {
+    "NN_minus_1": "0",
+    "UN": "0",
+    "UU_plus_1": "0",
+    "ell_frequency_minus_1": "0",
+    "ell_null": "0"
+  },
+  "pair_pullback": "Matrix([[-exp(2*H*eta), 0], [0, exp(2*H*eta)]])",
+  "parallel_screen_residual": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "scaled_tidal": [
+    [
+      "H**2 - 4*mu**2",
+      "-4*mu**2"
+    ],
+    [
+      "-4*mu**2",
+      "H**2 - 4*mu**2"
+    ]
+  ],
+  "tidal": [
+    [
+      "(H**2 - 4*mu**2)*exp(-4*H*eta)",
+      "-4*mu**2*exp(-4*H*eta)"
+    ],
+    [
+      "-4*mu**2*exp(-4*H*eta)",
+      "(H**2 - 4*mu**2)*exp(-4*H*eta)"
+    ]
+  ],
+  "tidal_of_lambda": [
+    [
+      "(H**2 - 4*mu**2)/(2*H*lambda + 1)**2",
+      "-4*mu**2/(2*H*lambda + 1)**2"
+    ],
+    [
+      "-4*mu**2/(2*H*lambda + 1)**2",
+      "(H**2 - 4*mu**2)/(2*H*lambda + 1)**2"
+    ]
+  ],
+  "tracefree_tidal": [
+    [
+      "0",
+      "-4*mu**2/(2*H*lambda + 1)**2"
+    ],
+    [
+      "-4*mu**2/(2*H*lambda + 1)**2",
+      "0"
+    ]
+  ],
+  "vertex_derivative": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "1"
+    ]
+  ],
+  "vertex_jacobi": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ]
+}

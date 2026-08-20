@@ -1,0 +1,12 @@
+# G191 commands
+
+```bash
+python3 udt_g191_nonconformal_timelive_mixing_join_2026-08-20/derive_nonconformal_timelive_mixing.py
+python3 udt_g191_nonconformal_timelive_mixing_join_2026-08-20/verify_nonconformal_timelive_mixing_independent.py
+python3 udt_g191_nonconformal_timelive_mixing_join_2026-08-20/run_catch_proofs.py
+python3 udt_g191_nonconformal_timelive_mixing_join_2026-08-20/build_source_manifest.py
+python3 udt_g191_nonconformal_timelive_mixing_join_2026-08-20/verify_package.py
+python3 verify_current_scientific_premises.py
+pytest -q
+git diff --check
+```

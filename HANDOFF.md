@@ -27,15 +27,17 @@ G189 conditionally factors static flux and rejects `R=R0 tanh(phi)`. G190 derive
 joint evaluator without G116/G189 inputs: a completed pair fixes two null germs up to ruler
 orientation, and the same metric gives the affine branch, frequency, and matrix screen. Native
 output is `lambda -> (Z,D,d_A)`; `d_A(Z)` is only a local monotone, noncaustic descent. External
-review accepts without repair.
+review accepts. G191 verifies the joint evaluator on one exact time-live, mixing-active,
+nonconformally-flat complete metric. Frequency is monotone, no post-vertex caustic occurs, and the
+off-diagonal Jacobi response is live without fitted or post-readout factors. Repair follow-up accepts.
 
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G190 build,
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G191 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 
-Open G190 first, then G189--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
+Open G191 first, then G190--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional evidence.
 Provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
@@ -75,8 +77,9 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Next apply G190 to one preregistered nonconformal, mixing-active complete time-live witness and
-classify its parametric frequency/screen branch. Do not choose a static `phi(R)`, fit a replacement
-profile, insert `X_max`, select transfer, or use G116/G189 as construction inputs.
+Next derive a minimal smooth function-valued extension of the G191 complete coframe to distinguish
+universal metric identities from constant-`H,mu` control behavior. Classify frequency turns and
+screen caustics without fitting a profile, inserting `X_max`, selecting transfer, or using
+G116/G189 as construction inputs.
 
 <!-- STARTUP_CURRENT_END -->

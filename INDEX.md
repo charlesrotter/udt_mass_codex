@@ -18,7 +18,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G190 relational closure and first application chain:
+- G137--G191 relational closure and first application chain:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -51,24 +51,24 @@
   `udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/`; `udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/`; `udt_g184_regular_branch_equivalence_classification_2026-08-19/`;
   `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`;
   `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`; `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`;
-  `udt_g189_p1_free_metric_flux_interface_2026-08-20/`; `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`
-G140--G162 control carry, scale, score, and transport. G163 removes `X_max`; G164--G165 control scaffolds. G166 proves
-ordered-pair metric owns its kernel. G167 derives the full local regular pair pullback of the
+  `udt_g189_p1_free_metric_flux_interface_2026-08-20/`; `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`; `udt_g191_nonconformal_timelive_mixing_join_2026-08-20/`
+G140--G162 control carry, scale, score, and transport. G163 removes `X_max`; G164--G165 control scaffolds. G166 proves ordered-pair metric owns its kernel. G167 derives the full local regular pair pullback of the
 primary spherical four-metric. G168 derives the supplied-germ plane; G170 regrades G169 and derives
 endpoint-relative reversal; G171 derives the pair-germ-relative scalar network and removes
 arbitrary triangle additivity and scaffolded carry. G172--G175 remain accepted controls: turns are
 regular, one calibrated germ has one scalar, and arbitrary tapes differ lawfully. G176 provisionally
 closes the ruler; G177 removes scaffolds; G178 accepts; G179 extends coframes; G180 glues families.
-G181--G184 classify endpoints/carry/strata/equivalence; G185--G189 cover radial SNe; G190 derives the time-live frequency/screen join. Reviews accept; physical population and global/radiative extension remain open.
+G181--G184 classify endpoints/carry/strata/equivalence; G185--G189 cover radial SNe; G190 derives
+the time-live frequency/screen join. G191 verifies one exact nonconformal live-mixing witness. Reviews accept; physical population and global/radiative extension remain open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-G93--G128: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; the 175-row registry controls.
+G93--G128: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; the 176-row registry controls.
 ## Observational lane
-- `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`; `udt_g189_p1_free_metric_flux_interface_2026-08-20/`;
+- `udt_g191_nonconformal_timelive_mixing_join_2026-08-20/`; `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`; `udt_g189_p1_free_metric_flux_interface_2026-08-20/`;
   `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`; `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
 - Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`

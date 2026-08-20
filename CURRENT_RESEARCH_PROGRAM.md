@@ -27,7 +27,9 @@ G189 conditionally factors static flux and rejects the regular-center-invalid co
 `R=R0 tanh(phi)`. G190 derives the time-live join without G116/G189 inputs. A completed pair fixes
 two null germs up to ruler orientation; the same metric gives the affine branch, endpoint
 frequency, and matrix screen. Native output is `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on
-locally monotone, noncaustic pieces. External review accepts without repair.
+locally monotone, noncaustic pieces. G191 verifies this join on one exact nonconformally-flat,
+mixing-active time-live control; frequency is monotone, the branch is post-vertex noncaustic, and
+off-diagonal screen response is live without a fitted coefficient. Repair follow-up accepts.
 
 ## Controlling local evaluator
 
@@ -59,9 +61,10 @@ degenerate and regular multibranch strata; G184 classifies the regular realizati
 resolves one local nonradial scalar/tape/shift/screen split; G187 propagates that screen into one
 finite two-mode Jacobi map; G188 derives the general complete-metric matrix evaluator; G189 closes
 the bounded static metric-to-flux interface and rejects one provisional `R proportional chi` join;
-G190 derives the time-live parametric frequency/screen evaluator from the completed pair.
+G190 derives the time-live parametric frequency/screen evaluator from the completed pair; G191
+verifies one exact nonconformal live-mixing realization.
 
-Current structural result: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`.
+Current structural result: `udt_g191_nonconformal_timelive_mixing_join_2026-08-20/`.
 Current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`; then
 `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/` and
 G184--G166 in `INDEX.md`. Conditional complete evaluator:
@@ -85,7 +88,7 @@ G184--G166 in `INDEX.md`. Conditional complete evaluator:
   native time-live core with one parametric frequency/screen branch. Physical query population,
   native transfer, branch aggregation, and physical complete history remain open.
 Guard index: `G129,G134,G135,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190`; rank ten, positive conformal class, common-scale ownership,
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191`; rank ten, positive conformal class, common-scale ownership,
 bivector area bilinear, physical multidirectional carrier, first-order ceiling, and 184,300 rows.
 
 ## Observational anchors
@@ -121,8 +124,8 @@ response, not an observed spectrum.
 
 ## Bounded next action
 
-G190 closes the bounded metric-led time-live frequency/screen join on supplied completed pairs.
-Next preregister one nonconformal, mixing-active complete time-live witness and run the same native
-evaluator across its regular affine branch. Classify `Z` monotonicity, caustics, and honest
-multi-branch output; do not choose a static `phi(R)`, fit regime switches, insert `X_max`, infer a
-physical branch population, select transfer from outcomes, or use G116/G189 as construction inputs.
+G191 closes one exact metric-led nonconformal time-live mixing witness. Next preregister a minimal
+smooth function-valued extension of its complete coframe and derive the general local frequency and
+matrix-screen equations. Classify which monotonicity and caustic statements are identities and
+which are control-specific; do not fit histories, insert `X_max`, infer physical branch population,
+select transfer, or use G116/G189 as construction inputs.

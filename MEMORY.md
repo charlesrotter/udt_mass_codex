@@ -17,14 +17,15 @@ matrix screen; mixing creates cross-response without a fitted coefficient. G189 
 factors static flux and rejects `R=R0 tanh(phi)`. G190 derives the time-live joint evaluator from
 the completed pair and metric: two null germs up to ruler orientation, then one affine frequency
 and matrix-screen branch. Native output is `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on
-monotone, noncaustic pieces. External review accepts without repair.
+monotone, noncaustic pieces. G191 verifies one exact nonconformal time-live mixing realization;
+frequency and off-diagonal screen response arise from the same metric. Repair follow-up accepts.
 
 G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier, score, scale, and
-transport freedoms and remove `X_max`; G164--G190 remove scaffolds, build the
+transport freedoms and remove `X_max`; G164--G191 remove scaffolds, build the
 supplied-pair kernel, and test radial/nonradial channels.
 See `INDEX.md` for exact milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190`; bivector area bilinear; numerical/global valuation stays open.
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191`; bivector area bilinear; numerical/global valuation stays open.
 
 Physical germ/global realization, ambient extension, completion, and `X_max` remain open.
 
@@ -52,8 +53,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G190 closes the bounded time-live frequency/screen join. Next apply it to one preregistered
-nonconformal, mixing-active complete time-live witness and classify the parametric branch without
-fitting `phi(R)`, inserting `X_max`, selecting transfer, or using G116/G189 as inputs.
+G191 closes one exact nonconformal time-live mixing witness. Next derive a minimal smooth
+function-valued extension and classify which turns/caustics are metric identities versus
+constant-control behavior, without fitting `phi(R)`, inserting `X_max`, selecting transfer, or
+using G116/G189 as inputs.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

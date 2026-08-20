@@ -1,0 +1,11 @@
+{
+  "external_review": "G191_ACCEPTED_WITH_STATED_BOUNDS",
+  "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
+  "independent_assertions": 387680,
+  "maximum_jacobi_error": 2.609086280358497e-10,
+  "mutation_catches": 15,
+  "no_write_replay": false,
+  "repository_premise_gate": "PASS",
+  "source_rows": 8,
+  "status": "PASS"
+}

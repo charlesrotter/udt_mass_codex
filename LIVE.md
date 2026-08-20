@@ -37,26 +37,29 @@ G189 conditionally factors static flux and rejects the regular-center-invalid, d
 `R=R0 tanh(phi)`. G190 then removes static `R(Z)` from the native core: the completed pair fixes two
 null germs up to ruler orientation, and the same metric gives the affine ray, frequency, and matrix
 screen. Native output is `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, noncaustic
-pieces. Exact control, 161,024 assertions, 15 catches, and fresh external review pass. G189/G116 are
-downstream specializations.
+pieces. G191 proves that join survives one exact time-live, mixing-active, nonconformally-flat
+complete metric: the same affine branch gives monotone frequency and a live off-diagonal Jacobi
+response without P1, a static profile, `X_max`, transfer, or a post-readout orchestra. Exact
+symbolics, 387,680 independent assertions, 15 catches, and repair-follow-up external review pass.
 
 ### Current dependency spine
 
 - **G129 G134--G163.** Reconstruct `g`/`chi`, require overlap carry, bound freedoms, remove `X_max`.
-- **G164--G190.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
+- **G164--G191.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
   equivalence; check radial SNe channels; derive bounded nonradial channels and finite Jacobi map.
   Physical pair population, transfer, branch aggregation, and ambient extension stay open.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 G146 parity-even candidates fail on the registered non-collinear witness.
 
 Maximum conclusion: the primary metric owns its reciprocal kernel on supplied completed pairs.
-G185--G190 extend radial and nonradial channels through the general finite matrix evaluator. G190
-joins frequency and angular area in one metric-led time-live initial-value problem, replacing a
-separately supplied static `R(Z)` with a native parametric branch. Native transfer, physical pair
-population/history, global extension, and numerical `X_max` remain open.
-Current structural result: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
+G185--G191 extend radial and nonradial channels through the general finite matrix evaluator. G190
+joins frequency and angular area in one metric-led time-live initial-value problem; G191 verifies
+the join with live nonconformal mixing in one exact control. Native transfer, physical pair
+population/history, general time-live branch classification, global extension, and numerical
+`X_max` remain open.
+Current structural result: `udt_g191_nonconformal_timelive_mixing_join_2026-08-20/`;
 current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
@@ -109,11 +112,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G190 closes the bounded time-live frequency/screen join on supplied completed pairs. Next test the
-same evaluator on one preregistered nonconformal, mixing-active complete time-live witness. Compute
-the parametric `lambda -> (Z,D,d_A)` branch and classify monotonicity, caustics, and regular
-multi-branch output without fitting `phi(R)`, inserting `X_max`, selecting transfer, or using G116
-or G189 as construction inputs.
+G191 closes one exact nonconformal time-live mixing witness. Next separate what is universal from
+what is special to its constant `H,mu` control: preregister a minimal smooth function-valued
+complete-coframe family and derive its `lambda -> (Z,D)` equations, turns, and caustic conditions
+from the metric. Do not fit a history, insert `X_max`, select transfer, or use G116/G189 as
+construction inputs.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.

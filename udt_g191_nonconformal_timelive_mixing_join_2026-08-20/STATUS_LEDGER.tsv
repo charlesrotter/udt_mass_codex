@@ -1,0 +1,19 @@
+claim	status	scope
+complete_coframe_regular	DERIVED_EXACT	H>0 mu>0 finite analytic chart
+pair_pullback	DERIVED_CONDITIONAL	supplied central completed pair surface
+outgoing_null_germ	DERIVED_CONDITIONAL	supplied ruler orientation
+central_affine_ray	DERIVED_CONDITIONAL	local and declared eta>=0 branch
+frequency_ratio	DERIVED_CONDITIONAL	supplied completed clock carry
+parallel_screen	DERIVED_CONDITIONAL	central affine branch
+nonconformal_tracefree_tide	DERIVED_EXACT	mu nonzero
+full_matrix_jacobi	DERIVED_CONDITIONAL	vertex-normalized screen on supplied branch
+joint_parametric_response	DERIVED_CONDITIONAL	lambda to Z D dA
+dA_of_Z	DERIVED_CONDITIONAL_CONTROL_ONLY	strictly monotone noncaustic G191 branch
+mu_zero_G190_limit	VERIFIED_EXACT	mixing deletion
+H_zero_G188_limit	VERIFIED_EXACT	affine normalization accounted
+independent_replay	PASS	20000 frames 256 RK4 branches 387680 assertions
+hostile_catches	PASS	15 registered mutations and semantic promotions
+external_review	ACCEPTED_WITH_STATED_BOUNDS	repair-only follow-up closed packaging defect with scientific artifacts unchanged
+physical_history_query_population	OPEN_NOT_SELECTED	outside G191
+radiative_transfer_flux_SNe	OPEN_NOT_DERIVED	outside G191
+X_max	OPEN_NOT_USED	possible later global consequence only

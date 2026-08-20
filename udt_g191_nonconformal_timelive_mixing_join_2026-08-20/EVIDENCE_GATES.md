@@ -13,7 +13,8 @@
 | physical-history/transfer/Xmax exclusions | PASS | premise ledger and catches |
 | first sealed no-write replay | FAIL_PACKAGING_ONLY | source layout and absent repository-wide premise verifier |
 | first fresh external review | REPAIR_REQUIRED | no scientific formula failure found; replay self-containment repair required |
-| corrected sealed no-write replay | PENDING | repair preregistered; follow-up intake not yet reviewed |
-| repair-only external follow-up | PENDING | requires fresh sealed intake and authorization |
+| corrected sealed no-write replay | PASS | end-to-end in the read-only 36-file intake |
+| scientific artifact byte identity | PASS | production, independent, and catch JSON hashes unchanged |
+| repair-only external follow-up | ACCEPTED_WITH_STATED_BOUNDS | no repair remains in registered scope |
 
-Current maximum status: `VERIFIED_WITH_CAVEATS_EXTERNAL_REPAIR_PENDING`.
+Current maximum status: `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS`.

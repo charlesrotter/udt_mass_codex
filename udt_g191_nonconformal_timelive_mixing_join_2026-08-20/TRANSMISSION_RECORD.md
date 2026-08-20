@@ -39,3 +39,32 @@ correctly refused acceptance until the same replay finishes end-to-end inside a 
 - deterministic gzip transcript: `EXTERNAL_REVIEW_TRANSCRIPT.txt.gz`
   - SHA-256: `9400170f7786dbc714f953e9c31da04eee5d527bddf135757bf7dbd32aa75776`
 
+## Corrected repair-only follow-up
+
+- intake: `/tmp/udt_g191_review_cm9ezs6t`
+- total files: `36`
+- `REVIEW_SCOPE.json` SHA-256:
+  `a5ff51e34888e35a51391e4fc90fdcd824cadfb64532f32ac45a285e442e1a10`
+- sealed tree SHA-256:
+  `bf4856edb5fa06947fb0d4cb2c40de510d2ecff416c73b3d5dd9c6305bd21ec8`
+- registered no-write replay: `PASS`
+- payload and tree identity after review: `PASS`
+- primary grade: `G191_ACCEPTED_WITH_STATED_BOUNDS`
+- remaining repair: none within the preregistered packaging scope
+
+The reviewer recovered the first-intake hashes from the preserved transcript and confirmed that
+`PRODUCTION_RESULT.json`, `INDEPENDENT_VERIFICATION.json`, and `CATCH_PROOF_RESULT.json` were
+byte-identical across the repair. The premise/status ledgers and audit report were also unchanged.
+
+## Preserved follow-up evidence
+
+- verbatim final message: `EXTERNAL_FOLLOWUP_REVIEW_RAW.md`
+  - SHA-256: `048063b93a63db1e8147bc639a7723a992e4289ebb147dceab7dafca22edab3e`
+- raw terminal transcript before compression:
+  - SHA-256: `9ec4e0c44211b504a17639300388aafd08a9cf0cb780fc46f96af375a9d1a126`
+- deterministic gzip transcript: `EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt.gz`
+  - SHA-256: `9e18372cdde90f7927fd1e3b71f7aacbb05b545fe7dab7a9639658e891bd8a0a`
+
+After acceptance, banking G191 added its exact premise row to the current registry and therefore
+refreshed the registry hash in `SOURCE_MANIFEST.tsv`. This is post-review authority routing only.
+The three reviewed scientific artifact hashes remain exactly the values verified above.
