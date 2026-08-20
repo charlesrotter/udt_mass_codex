@@ -49,3 +49,33 @@ census, turn typing, and no-caustic theorem with its stated regular-interval cav
 
 The catch artifact is expected to change under the preregistered structural repair. The production
 and independent artifacts are required to remain byte-identical.
+
+## Corrected repair-only follow-up
+
+- intake: `/tmp/udt_g192_review_wji2nckl`
+- total files: `38`
+- `REVIEW_SCOPE.json` SHA-256:
+  `f841c338a73ad7137aced2026606728fe33d2db245919f9c56412fb429bfdedc`
+- sealed tree SHA-256 before and after review:
+  `e76d186e8bc1984e7a9d52b1636419278eecad1a3e9dd87c15d503f3d580416a`
+- registered no-write replay: pass
+- file identity through replay: pass
+- primary grade: `G192_ACCEPTED_WITH_STATED_BOUNDS`
+- remaining repair: none within the preregistered scope
+
+The reviewer confirmed the structural matrix/factorization/input catches, all 18 registered catch
+names, the live fresh/sealed comparator, and byte identity of the first-reviewed production and
+independent artifacts.
+
+## Preserved follow-up evidence
+
+- verbatim final message: `EXTERNAL_FOLLOWUP_REVIEW_RAW.md`
+  - SHA-256: `37ec5b05499e346ce73e2a56691d5b4ff906816bdcde1de0a02e773be828fd8b`
+- raw terminal transcript before compression:
+  - SHA-256: `2c997ff0359ab6a5813a4a9af85135a5cc0457c1cba71d4476572faa70b08d91`
+- deterministic gzip transcript: `EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt.gz`
+  - SHA-256: `bc6c985c3bec0377a5ca51ead071194ee1d84c0e590663e218a83d4684c292cf`
+
+After acceptance, banking G192 added its exact premise row to the current registry and therefore
+refreshed the registry hash in `SOURCE_MANIFEST.tsv`. This is post-review authority routing only.
+The two reviewed scientific artifact hashes remain exactly the values verified above.

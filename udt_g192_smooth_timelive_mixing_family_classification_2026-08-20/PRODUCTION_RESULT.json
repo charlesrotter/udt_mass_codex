@@ -1,0 +1,136 @@
+{
+  "affine_ray": [
+    "a(eta)**(-2)",
+    "a(eta)**(-2)",
+    "0",
+    "0"
+  ],
+  "affine_relation": "lambda(eta)=Integral(a(s)^2,(s,0,eta)); strictly increasing because a>0",
+  "caustic_classification": {
+    "eta_negative": "f_plus<0 and f_minus<0 for every eta<0 in the regular interval",
+    "eta_positive": "f_plus>0 and f_minus>0 for every eta>0 in the regular interval",
+    "nonvertex_zeros": 0,
+    "scope": "displayed two-function coframe family only"
+  },
+  "coframe": "Matrix([[a(eta), 0, 0, 0], [0, a(eta), 0, 0], [sqrt(2)*p*a(eta)*mu(eta), sqrt(2)*p*a(eta)*mu(eta), a(eta), 0], [0, 0, 0, a(eta)]])",
+  "coframe_determinant": "a(eta)**4",
+  "descent_classification": {
+    "Z": "1/a(eta)",
+    "dA_of_Z": "local only where a'(eta)!=0; branch-labelled across frequency turns",
+    "dA_squared": "a(eta)^2*eta*exp(-2*I(eta))*J(eta)",
+    "native_output": "eta -> (lambda,Z,D,d_A)"
+  },
+  "family": {
+    "coordinates": [
+      "eta",
+      "z",
+      "p=(x+y)/sqrt(2)",
+      "w=(x-y)/sqrt(2)"
+    ],
+    "mixing": "mu(eta) real, C2",
+    "mixing_plus": "A(eta)=sqrt(2)*mu(eta)",
+    "scale": "a(eta)>0, C3, a(0)=1"
+  },
+  "frequency": "1/a(eta)",
+  "frequency_derivative": "-Derivative(a(eta), eta)/a(eta)**4",
+  "frequency_residual": "0",
+  "frequency_rhs": "-Derivative(a(eta), eta)/a(eta)**4",
+  "frequency_turn_condition": "a'(eta)=0; a' sign changes distinguish true turns from stalls",
+  "geodesic_residual": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "isotropic_tide": "-(a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6",
+  "jacobi_determinant": "eta*J(eta)*a(eta)**2*exp(-2*I(eta))",
+  "jacobi_modes": {
+    "I": "I(eta)=Integral(A(s),(s,0,eta))",
+    "J": "J(eta)=Integral(exp(4*I(s)),(s,0,eta))",
+    "f_minus": "eta*a(eta)",
+    "f_minus_residual": "0",
+    "f_plus": "J(eta)*a(eta)*exp(-2*I(eta))",
+    "f_plus_residual": "0",
+    "y_plus": "J(eta)*exp(-2*I(eta))",
+    "y_plus_residual": "0"
+  },
+  "jacobi_original": [
+    [
+      "(eta*exp(2*I(eta)) + J(eta))*a(eta)*exp(-2*I(eta))/2",
+      "(-eta*exp(2*I(eta)) + J(eta))*a(eta)*exp(-2*I(eta))/2"
+    ],
+    [
+      "(-eta*exp(2*I(eta)) + J(eta))*a(eta)*exp(-2*I(eta))/2",
+      "(eta*exp(2*I(eta)) + J(eta))*a(eta)*exp(-2*I(eta))/2"
+    ]
+  ],
+  "metric_determinant": "-a(eta)**8",
+  "mixing_tide": "2*(-4*mu(eta)**2 + sqrt(2)*Derivative(mu(eta), eta))/a(eta)**4",
+  "pair_frame_residuals": {
+    "NN_minus_1": "0",
+    "UN": "0",
+    "UU_plus_1": "0",
+    "ell_frequency_minus_1": "0",
+    "ell_null": "0"
+  },
+  "pair_pullback": "Matrix([[-a(eta)**2, 0], [0, a(eta)**2]])",
+  "parallel_screen_residual": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "regressions": {
+    "G188_static_constant_mu": "f_plus=sinh(2*sqrt(2)*mu*eta)/(2*sqrt(2)*mu), f_minus=eta",
+    "G190_mu_zero": "y_plus=eta and D=a(eta)*eta*I2",
+    "G191_constant_plus_mode": "sqrt(2)*sinh(2*sqrt(2)*eta*mu)/(4*mu)",
+    "G191_rotated_tide": [
+      [
+        "(H**2 - 8*mu**2)*exp(-4*H*eta)",
+        "0"
+      ],
+      [
+        "0",
+        "H**2*exp(-4*H*eta)"
+      ]
+    ]
+  },
+  "tidal_original": [
+    [
+      "-(4*a(eta)**2*mu(eta)**2 - sqrt(2)*a(eta)**2*Derivative(mu(eta), eta) + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6",
+      "(-4*mu(eta)**2 + sqrt(2)*Derivative(mu(eta), eta))/a(eta)**4"
+    ],
+    [
+      "(-4*mu(eta)**2 + sqrt(2)*Derivative(mu(eta), eta))/a(eta)**4",
+      "-(4*a(eta)**2*mu(eta)**2 - sqrt(2)*a(eta)**2*Derivative(mu(eta), eta) + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6"
+    ]
+  ],
+  "tidal_rotated": [
+    [
+      "-(8*a(eta)**2*mu(eta)**2 - 2*sqrt(2)*a(eta)**2*Derivative(mu(eta), eta) + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6",
+      "0"
+    ],
+    [
+      "0",
+      "-(a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6"
+    ]
+  ],
+  "tracefree_tidal_original": [
+    [
+      "0",
+      "(-4*mu(eta)**2 + sqrt(2)*Derivative(mu(eta), eta))/a(eta)**4"
+    ],
+    [
+      "(-4*mu(eta)**2 + sqrt(2)*Derivative(mu(eta), eta))/a(eta)**4",
+      "0"
+    ]
+  ]
+}

@@ -30,6 +30,9 @@ frequency, and matrix screen. Native output is `lambda -> (Z,D,d_A)`; `d_A(Z)` d
 locally monotone, noncaustic pieces. G191 verifies this join on one exact nonconformally-flat,
 mixing-active time-live control; frequency is monotone, the branch is post-vertex noncaustic, and
 off-diagonal screen response is live without a fitted coefficient. Repair follow-up accepts.
+G192 frees smooth `a>0,mu` within one rank-one family. It derives `Z=1/a`, turns, the full
+`mu',mu^2` tide, factorized modes, family-scoped no-caustics, sign-variable response, and
+branch-local `d_A(Z)`. Review accepts.
 
 ## Controlling local evaluator
 
@@ -62,9 +65,10 @@ resolves one local nonradial scalar/tape/shift/screen split; G187 propagates tha
 finite two-mode Jacobi map; G188 derives the general complete-metric matrix evaluator; G189 closes
 the bounded static metric-to-flux interface and rejects one provisional `R proportional chi` join;
 G190 derives the time-live parametric frequency/screen evaluator from the completed pair; G191
-verifies one exact nonconformal live-mixing realization.
+verifies one exact nonconformal live-mixing realization; G192 classifies its first arbitrary smooth
+two-function extension.
 
-Current structural result: `udt_g191_nonconformal_timelive_mixing_join_2026-08-20/`.
+Current structural result: `udt_g192_smooth_timelive_mixing_family_classification_2026-08-20/`.
 Current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`; then
 `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/` and
 G184--G166 in `INDEX.md`. Conditional complete evaluator:
@@ -86,9 +90,11 @@ G184--G166 in `INDEX.md`. Conditional complete evaluator:
   metric matrix propagation with live mixing. G189 then conditionally factors static flux and
   localizes the remaining static profile freedom. G190 replaces the separate `R(Z)` input in the
   native time-live core with one parametric frequency/screen branch. Physical query population,
-  native transfer, branch aggregation, and physical complete history remain open.
+  native transfer, branch aggregation, and physical complete history remain open. G191 supplies one
+  exact analytic witness; G192 classifies arbitrary smooth common scale plus one rank-one mixing
+  channel without selecting their physical functions.
 Guard index: `G129,G134,G135,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191`; rank ten, positive conformal class, common-scale ownership,
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192`; rank ten, positive conformal class, common-scale ownership,
 bivector area bilinear, physical multidirectional carrier, first-order ceiling, and 184,300 rows.
 
 ## Observational anchors
@@ -101,7 +107,8 @@ G185 preserves the historical P1 SNe reference. G189 makes the current boundary 
 metric-to-flux factorization closes conditionally, but the simplest P1-free static `R proportional
 chi` control is type-invalid at a regular center and data-rejected. Neither result is a branch
 selector or native luminosity theory. G190 now supplies the time-live geometric frequency/screen
-joint before any radiative bridge. Existing CMB geometry packages map conditional screen/Jacobi
+joint before any radiative bridge; G192 classifies one smooth family of that joint response.
+Existing CMB geometry packages map conditional screen/Jacobi
 response, not an observed spectrum.
 
 ## Other live scientific lanes
@@ -124,8 +131,8 @@ response, not an observed spectrum.
 
 ## Bounded next action
 
-G191 closes one exact metric-led nonconformal time-live mixing witness. Next preregister a minimal
-smooth function-valued extension of its complete coframe and derive the general local frequency and
-matrix-screen equations. Classify which monotonicity and caustic statements are identities and
-which are control-specific; do not fit histories, insert `X_max`, infer physical branch population,
-select transfer, or use G116/G189 as construction inputs.
+G192 closes the first arbitrary smooth common-scale plus rank-one equal-row mixing family. Next
+preregister one minimal independent transverse-mixing extension and derive the resulting matrix
+screen, testing whether exact factorization and no-caustic behavior survive beyond rank one. Do not
+fit histories, insert `X_max`, infer physical branch population, select transfer, or use G116/G189
+as construction inputs.

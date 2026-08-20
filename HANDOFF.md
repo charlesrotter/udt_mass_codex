@@ -23,21 +23,21 @@ G185 preserves frozen Pantheon+/DES radial controls with zero pair angular Gram,
 imported transfer, and frozen P1 `R(Z)`. G186--G188 derive nonradial allocation and the general
 matrix Jacobi screen; live mixing needs no fitted coefficient.
 
-G189 conditionally factors static flux and rejects `R=R0 tanh(phi)`. G190 derives the time-live
-joint evaluator without G116/G189 inputs: a completed pair fixes two null germs up to ruler
-orientation, and the same metric gives the affine branch, frequency, and matrix screen. Native
-output is `lambda -> (Z,D,d_A)`; `d_A(Z)` is only a local monotone, noncaustic descent. External
-review accepts. G191 verifies the joint evaluator on one exact time-live, mixing-active,
-nonconformally-flat complete metric. Frequency is monotone, no post-vertex caustic occurs, and the
-off-diagonal Jacobi response is live without fitted or post-readout factors. Repair follow-up accepts.
+G189 conditionally factors static flux and rejects `R=R0 tanh(phi)`. G190 derives the metric-led
+`lambda -> (Z,D,d_A)` branch; `d_A(Z)` is only local. G191 verifies one nonconformal live-mixing
+control. G192 replaces its constants with arbitrary smooth `a>0,mu` in one rank-one family,
+deriving turns, the full `mu',mu^2` tide, and factorized Jacobi modes. That family has no nonvertex
+caustic; cross response has no fixed sign. External reviews accept.
 
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G191 build,
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G192 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178`;
+`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192`; rank ten, conformal,
+density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 
-Open G191 first, then G190--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
+Open G192 first, then G191--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional evidence.
 Provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
@@ -77,9 +77,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Next derive a minimal smooth function-valued extension of the G191 complete coframe to distinguish
-universal metric identities from constant-`H,mu` control behavior. Classify frequency turns and
-screen caustics without fitting a profile, inserting `X_max`, selecting transfer, or using
-G116/G189 as construction inputs.
+Next add one minimal independent transverse-mixing channel to the G192 family and determine whether
+its factorization and no-caustic theorem survive. Keep the calculation metric-led and bounded;
+do not fit a profile, insert `X_max`, select transfer, or use G116/G189 as construction inputs.
 
 <!-- STARTUP_CURRENT_END -->

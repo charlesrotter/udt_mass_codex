@@ -49,6 +49,7 @@
 | G189 | accepted; repairs closed | Conditional static flux; `R proportional chi` rejected |
 | G190 | accepted; no repair | Time-live null/frequency/matrix screen; parametric output; local `d_A(Z)` |
 | G191 | accepted after packaging repair | Exact nonconformal time-live mixing join; monotone/noncaustic control; live cross-screen response |
+| G192 | accepted after verifier repairs | Smooth `a,mu` in one rank-one family; turns and sign-variable screen response; family-scoped no-caustic theorem |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -73,11 +74,11 @@ None selects completion or `X_max`.
   Metricity is not dynamics. G138--G145 assign carry to overlaps, not endpoints.
 - G146--G148 and G149--G163 bound carrier, `O(2)`, `lambda`, first jets, scale, score, transport, and `X_max`.
   G165 controls the envelope; G166 restores the founded block.
-- G166--G191 derive and test the kernel; G177--G178 verify. The chain covers carry, branches,
+- G166--G192 derive and test the kernel; G177--G178 verify. The chain covers carry, branches,
   screens, Jacobi propagation, and the first conditional flux interface. G190 derives frequency
   and angular area jointly on supplied time-live completed pairs; G191 verifies one exact
-  nonconformal mixing-active realization. No physical branch population, native transfer, or
-  complete history is selected.
+  nonconformal mixing-active realization; G192 classifies its first arbitrary smooth two-function
+  family. No physical branch population, native transfer, or complete history is selected.
 
 ## Carrier, action, source, and matter
 
@@ -96,8 +97,8 @@ None selects completion or `X_max`.
 
 R2--R5 are `OBSERVED` with caveats and select no feature, scale, origin, cosmology, or `X_max`.
 G185 imports transfer and freezes P1. G189 rejects only `R=R0 tanh(phi)`. G190 returns native
-`lambda -> (Z,D,d_A)`; G191 supplies one exact live-mixing control. Neither derives transfer,
-physical metric history, observer population, or global branch.
+`lambda -> (Z,D,d_A)`; G191 supplies one live-mixing control; G192 supplies one smooth family.
+None derives transfer, history, population, or global branch.
 
 ## Recurring prohibited promotions
 
@@ -107,12 +108,12 @@ Do not:
   proper length, universe size, or seams into the kernel;
 - promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize G167--G191, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
+- globalize G167--G192, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
   import familiar mechanisms as UDT derivations.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 176-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 177-row authority. On conflict, stop.
 
 During orientation use this guide and run:
 

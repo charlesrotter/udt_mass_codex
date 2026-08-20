@@ -1,0 +1,13 @@
+{
+  "external_review": "G192_ACCEPTED_WITH_STATED_BOUNDS",
+  "fresh_artifact_identity": true,
+  "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
+  "independent_assertions": 2134,
+  "maximum_jacobi_error": 1.099564883588755e-12,
+  "mutation_catches": 18,
+  "no_write_replay": false,
+  "repository_premise_gate": "PASS",
+  "source_rows": 10,
+  "stale_artifact_mutation_caught": true,
+  "status": "PASS"
+}

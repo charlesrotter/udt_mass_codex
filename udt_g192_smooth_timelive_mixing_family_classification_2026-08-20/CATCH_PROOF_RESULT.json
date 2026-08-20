@@ -1,0 +1,51 @@
+{
+  "catches": {
+    "G116_not_a_production_input": true,
+    "G189_not_a_production_input": true,
+    "P1_not_a_production_input": true,
+    "Xmax_not_a_production_input": true,
+    "constant_G191_substitution_goes_red": true,
+    "curvature_sign_reversal_goes_red": true,
+    "factorized_positive_mode_retained": true,
+    "forced_monotone_frequency_goes_red": true,
+    "forced_positive_cross_goes_red": true,
+    "frequency_sign_reversal_goes_red": true,
+    "global_dA_of_Z_across_turn_goes_red": true,
+    "matrix_response_retained": true,
+    "mu_prime_deletion_goes_red": true,
+    "mu_squared_deletion_goes_red": true,
+    "nonzero_mix_need_not_have_tracefree_tide": true,
+    "radiative_transfer_not_promoted": true,
+    "screen_scalarization_goes_red": true,
+    "turns_are_characterized_not_filtered": true
+  },
+  "caught": 18,
+  "control_differences": {
+    "delete_mu_prime": 0.16900767705958986,
+    "delete_mu_squared": 0.03479784332090752,
+    "forced_constant_G191": 0.2588853000433058,
+    "reverse_curvature_sign": 0.2868717104944003,
+    "same_Z_area_difference": 0.7187521149582159
+  },
+  "status": "PASS",
+  "structural_evidence": {
+    "banned_executable_names": [],
+    "factor_formula_residual": "0",
+    "factorized_ode_residual": "0",
+    "functional_atoms": [
+      "I",
+      "J",
+      "a",
+      "mu"
+    ],
+    "functional_atoms_allowed": true,
+    "matrix_cross_term_nonzero": true,
+    "matrix_determinant_residual": "0",
+    "matrix_modal_residual_zero": true,
+    "matrix_shape": [
+      2,
+      2
+    ],
+    "matrix_symmetric": true
+  }
+}

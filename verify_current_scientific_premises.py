@@ -218,6 +218,7 @@ def validate_startup_surface(root: Path) -> None:
             "G189",
             "G190",
             "G191",
+            "G192",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -259,7 +260,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "176-row exact registry",
+            "177-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -320,6 +321,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/",
             "udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/",
             "udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/",
+            "udt_g192_smooth_timelive_mixing_family_classification_2026-08-20/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -372,6 +374,7 @@ def validate_startup_surface(root: Path) -> None:
             "G189",
             "G190",
             "G191",
+            "G192",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -423,6 +426,7 @@ def validate_startup_surface(root: Path) -> None:
             "G189",
             "G190",
             "G191",
+            "G192",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -467,10 +471,11 @@ def validate_startup_surface(root: Path) -> None:
             "G189",
             "G190",
             "G191",
+            "G192",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "176-row",
+            "177-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -730,9 +735,56 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 176, "premise registry must contain exactly 176 rows")
+    require(len(rows) == 177, "premise registry must contain exactly 177 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 176, "duplicate premise id")
+    require(len(by_id) == 177, "duplicate premise id")
+    require(
+        "REPAIR_FOLLOWUP_GPT54_ACCEPTED_WITH_STATED_BOUNDS_NO_REMAINING_REPAIR"
+        in by_id["G192"]["current_status"],
+        "G192 external repair follow-up acceptance absent",
+    )
+    require(
+        "FREQUENCY_Z_EQUALS_ONE_OVER_A_AND_TURNS_AT_SIGN_CHANGING_ZEROS_OF_A_PRIME"
+        in by_id["G192"]["current_status"],
+        "G192 frequency-turn classification absent",
+    )
+    require(
+        "FULL_ORIGINAL_SCREEN_TIDE_WITH_C_EQUALS_SQRT2_MU_PRIME_MINUS4MU2_OVER_A4"
+        in by_id["G192"]["current_status"],
+        "G192 full live mixing tide absent",
+    )
+    require(
+        "NO_NONVERTEX_CAUSTIC_ONLY_IN_DECLARED_CONNECTED_REGULAR_FAMILY"
+        in by_id["G192"]["current_status"],
+        "G192 family-scoped no-caustic guard absent",
+    )
+    require(
+        "NO_P1_G116_G189_STATIC_PROFILE_XMAX_TRANSFER_SOURCE_FIT_OR_POST_READOUT_ORCHESTRA"
+        in by_id["G192"]["current_status"],
+        "G192 scaffold exclusion absent",
+    )
+    g192 = ROOT / "udt_g192_smooth_timelive_mixing_family_classification_2026-08-20"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "EXTERNAL_REVIEW_TRANSCRIPT.txt.gz",
+        "EXTERNAL_FOLLOWUP_REVIEW_RAW.md",
+        "EXTERNAL_FOLLOWUP_REVIEW_TRANSCRIPT.txt.gz",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "TRANSMISSION_RECORD.md",
+    ):
+        require((g192 / name).is_file(), f"G192 evidence missing: {name}")
+    require(
+        "G192_ACCEPTED_WITH_STATED_BOUNDS"
+        in (g192 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(),
+        "G192 external acceptance missing",
+    )
+    require(
+        '"external_review": "G192_ACCEPTED_WITH_STATED_BOUNDS"'
+        in (g192 / "PACKAGE_VERIFICATION_RESULT.json").read_text(),
+        "G192 accepted package state absent",
+    )
     require(
         "REPAIR_FOLLOWUP_GPT54_ACCEPTED_WITH_STATED_BOUNDS_NO_REMAINING_REPAIR"
         in by_id["G191"]["current_status"],
@@ -4770,7 +4822,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G191-extended premise guards; PASS: 176-row premise "
+        "PASS: G192-extended premise guards; PASS: 177-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
