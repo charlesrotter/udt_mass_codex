@@ -1,0 +1,13 @@
+{
+  "assertions": 161024,
+  "imports_production_module": false,
+  "jacobi_trials": 256,
+  "maximum_RK4_D_error": 1.9984014443252818e-14,
+  "maximum_frequency_or_descent_error": 1.5543122344752192e-15,
+  "maximum_pair_residual": 7.275957614183426e-12,
+  "maximum_static_recovery_error": 7.105427357601002e-15,
+  "pair_trials": 20000,
+  "reads_production_artifact": false,
+  "seed": 19020260820,
+  "status": "PASS"
+}

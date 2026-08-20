@@ -28,41 +28,35 @@ families; angular/common scale enter through the tape. G181--G184 classify endpo
 carry, regular branches, and coordinate equivalence; equal summaries do not identify realizations.
 Reviews and sealed replays accept.
 
-G185 checks central-spherical SNe channels: radial pair angular Gram is zero while sky area
-`|det D_sky|=R^2` remains live. With transfer `IMPORTED_CONDITIONAL` and P1 `R(Z)`
-`FROZEN_HISTORICAL_CALIBRATION`, frozen Pantheon+ and DES replays persist without fitting. Reviews
-accept with caveats.
+G185 preserves frozen Pantheon+/DES radial controls: pair angular Gram is zero, sky area `R^2` is
+live, transfer is imported, and P1 `R(Z)` is historical calibration. G186--G188 derive nonradial
+depth/screen allocation and the complete-metric matrix Jacobi evaluator; mixing creates
+cross-response without a fitted coefficient.
 
-G186 routes one nonradial germ into depth, tape/shift, and a rank-two local screen; static clocks
-retain `Phi=phi` while nonradial rulers stay live. G187 propagates that screen on one supplied
-static-spherical null query. Two metric-fixed Jacobi modes with zero cross term yield generic shear
-without a fitted coefficient. G188 generalizes this: a supplied complete metric fixes the quotient
-screen, metric carry, tidal matrix, and finite Jacobi map on a supplied affine null query. Exact
-mixing gives cross-response; deleting it is flat. Review accepts. Flux and ray population stay open.
-
-G189 closes the bounded static metric-to-flux interface conditionally. On a supplied monotone
-static profile, `Z=exp(phi_s-phi_o)` and the G188/G119 screen plus the explicitly imported
-transparent transfer give `d_L(Z)=Z^2 phi_inverse(log Z+phi_o)`. P1 is thereby localized to one
-supplied `phi(R)` profile, not an extra screen or kernel factor. The zero-shape-parameter control
-`R=R0 tanh(phi)` fails smooth regular-center scalar typing and exceeds both preregistered SNe
-ceilings. External review and repair follow-up accept the bounded landing unchanged.
+G189 conditionally factors static flux and rejects the regular-center-invalid, data-poor control
+`R=R0 tanh(phi)`. G190 then removes static `R(Z)` from the native core: the completed pair fixes two
+null germs up to ruler orientation, and the same metric gives the affine ray, frequency, and matrix
+screen. Native output is `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, noncaustic
+pieces. Exact control, 161,024 assertions, 15 catches, and fresh external review pass. G189/G116 are
+downstream specializations.
 
 ### Current dependency spine
 
 - **G129 G134--G163.** Reconstruct `g`/`chi`, require overlap carry, bound freedoms, remove `X_max`.
-- **G164--G189.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
+- **G164--G190.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
   equivalence; check radial SNe channels; derive bounded nonradial channels and finite Jacobi map.
-  Physical pair population, transfer, ambient extension, and `R(Z)` stay open.
+  Physical pair population, transfer, branch aggregation, and ambient extension stay open.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 G146 parity-even candidates fail on the registered non-collinear witness.
 
 Maximum conclusion: the primary metric owns its reciprocal kernel on supplied completed pairs.
-G185--G189 extend radial channels through the general finite matrix evaluator and localize the
-remaining static SNe freedom to transfer and `phi(R)`/frequency history. Native transfer, physical
-`R(Z)`, pair population, global extension, and numerical `X_max` remain open.
-Current structural result: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`;
+G185--G190 extend radial and nonradial channels through the general finite matrix evaluator. G190
+joins frequency and angular area in one metric-led time-live initial-value problem, replacing a
+separately supplied static `R(Z)` with a native parametric branch. Native transfer, physical pair
+population/history, global extension, and numerical `X_max` remain open.
+Current structural result: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
 current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
@@ -115,11 +109,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G189 conditionally closes the static metric-to-flux factorization and proves that the simplest
-`R proportional tanh(phi)` shortcut is neither regular-center admissible nor SNe compatible. Next
-preregister a metric-led time-live frequency/screen derivation on one supplied complete history and
-affine null query: compute frequency evolution and `|det D|` from the same geometry without choosing
-a static `phi(R)`, inserting `X_max`, fitting a profile, or selecting transfer after the outcome.
+G190 closes the bounded time-live frequency/screen join on supplied completed pairs. Next test the
+same evaluator on one preregistered nonconformal, mixing-active complete time-live witness. Compute
+the parametric `lambda -> (Z,D,d_A)` branch and classify monotonicity, caustics, and regular
+multi-branch output without fitting `phi(R)`, inserting `X_max`, selecting transfer, or using G116
+or G189 as construction inputs.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.

@@ -19,29 +19,23 @@ Completed-pair Reciprocity is provisional. G176 fixes `m=T L_sigma=sqrt(-det h_s
 `Phi=-log T`; G178--G180 verify, extend coframes, and glue families. G181--G184 classify endpoints,
 carry, regular branches, and typed realization equivalence. Physical germ realization stays open.
 
-G185 checks central-spherical SNe channels: radial pair angular Gram is zero while sky area remains
-`R^2`. Frozen Pantheon+ and DES replays survive without fitting; transfer is imported and P1 `R(Z)` frozen.
+G185 preserves frozen Pantheon+/DES radial controls with zero pair angular Gram, live sky `R^2`,
+imported transfer, and frozen P1 `R(Z)`. G186--G188 derive nonradial allocation and the general
+matrix Jacobi screen; live mixing needs no fitted coefficient.
 
-G186 routes one nonradial germ into depth, tape/shift, and a local screen; static clocks retain
-`Phi=phi`. G187 propagates it on one static-spherical null query: two metric-fixed finite Jacobi
-modes yield generic shear without an added coefficient. G188 derives the complete-metric quotient
-screen, metric carry, self-adjoint tidal matrix, and finite Jacobi map on a supplied affine null
-query. Exact mixing gives off-diagonal response; deleting it gives flat propagation. Reviews
-accept; transfer and physical ray population remain open.
+G189 conditionally factors static flux and rejects `R=R0 tanh(phi)`. G190 derives the time-live
+joint evaluator without G116/G189 inputs: a completed pair fixes two null germs up to ruler
+orientation, and the same metric gives the affine branch, frequency, and matrix screen. Native
+output is `lambda -> (Z,D,d_A)`; `d_A(Z)` is only a local monotone, noncaustic descent. External
+review accepts without repair.
 
-G189 conditionally joins the static frequency ratio and G188/G119 screen to the explicitly imported
-transparent transfer. Every supplied monotone static profile gives
-`d_L(Z)=Z^2 phi_inverse(log Z+phi_o)`, so P1 is one supplied profile rather than screen machinery.
-The zero-shape-parameter `R=R0 tanh(phi)` control fails regular-center typing and both SNe ceilings.
-External review and repair follow-up accept the landing unchanged.
-
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G189 build,
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G190 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 
-Open G189 first, then G188--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
+Open G190 first, then G189--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional evidence.
 Provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
@@ -81,8 +75,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Next test one supplied complete time-live history by deriving frequency evolution and Jacobi screen
-from the same metric/null query. Do not choose a static `phi(R)`, fit a replacement profile, insert
-`X_max`, or promote the imported transparent transfer to native UDT.
+Next apply G190 to one preregistered nonconformal, mixing-active complete time-live witness and
+classify its parametric frequency/screen branch. Do not choose a static `phi(R)`, fit a replacement
+profile, insert `X_max`, select transfer, or use G116/G189 as construction inputs.
 
 <!-- STARTUP_CURRENT_END -->

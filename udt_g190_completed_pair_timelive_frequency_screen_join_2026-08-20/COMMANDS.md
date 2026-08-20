@@ -1,0 +1,9 @@
+# G190 commands
+
+```bash
+python3 udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/derive_timelive_frequency_screen.py
+python3 udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/verify_timelive_frequency_screen_independent.py
+python3 udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/run_catch_proofs.py
+python3 udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/verify_package.py
+python3 udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/verify_package.py --no-write
+```

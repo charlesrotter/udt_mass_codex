@@ -32,6 +32,7 @@ CURRENT_TARGETS = (
     "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/AUDIT_REPORT.md",
     "udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/AUDIT_REPORT.md",
     "udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/AUDIT_REPORT.md",
+    "udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/AUDIT_REPORT.md",
     "udt_g129_copresent_relational_network_faithfulness_2026-08-16/AUDIT_REPORT.md",
     "udt_g130_copresence_rank_complete_network_ownership_2026-08-16/AUDIT_REPORT.md",
     "udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/AUDIT_REPORT.md",
@@ -133,7 +134,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 174-row premise registry" in result.stdout
+    assert "PASS: 175-row premise registry" in result.stdout
 
 
 def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:

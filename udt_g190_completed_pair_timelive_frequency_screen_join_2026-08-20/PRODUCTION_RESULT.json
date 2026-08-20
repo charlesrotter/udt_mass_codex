@@ -1,0 +1,106 @@
+{
+  "full_matrix_screen_regression": {
+    "D": [
+      [
+        "lambda/2 + sinh(2*lambda)/4",
+        "-lambda/2 + sinh(2*lambda)/4"
+      ],
+      [
+        "-lambda/2 + sinh(2*lambda)/4",
+        "lambda/2 + sinh(2*lambda)/4"
+      ]
+    ],
+    "offdiagonal_series": "lambda**3/3 + O(lambda**5)",
+    "residual": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "tidal": [
+      [
+        "-2",
+        "-2"
+      ],
+      [
+        "-2",
+        "-2"
+      ]
+    ]
+  },
+  "landing": "COMPLETED_PAIR_TIMELIVE_FREQUENCY_SCREEN_JOINT_EVALUATOR_DERIVED_CONDITIONALLY",
+  "pair_frame_residuals": {
+    "NN_minus_1": "0",
+    "UN": "0",
+    "UU_plus_1": "0",
+    "det_plus_T2L2": "0",
+    "ell_minus_normalization": "0",
+    "ell_minus_null": "0",
+    "ell_plus_normalization": "0",
+    "ell_plus_null": "0",
+    "m_minus_TL": "0"
+  },
+  "regressions": {
+    "g116_post_result_regression_residual": "0",
+    "static_frequency_ratio": "exp(-phi_o + phi_s)",
+    "static_recovery_residual": "0"
+  },
+  "scope": {
+    "p1_used": false,
+    "phi_of_R_used": false,
+    "physical_history_selected": false,
+    "radiative_transfer_derived": false,
+    "xmax_used": false
+  },
+  "time_live_control": {
+    "D_of_lambda": "sqrt(2*H*lambda + 1)*log(2*H*lambda + 1)/(2*H)",
+    "Phi": "-H*eta",
+    "Z_of_eta": "exp(-H*eta)",
+    "dA_of_Z": "-log(Z)/(H*Z)",
+    "dA_of_eta": "eta*exp(H*eta)",
+    "domega_dlambda": "-H*exp(-3*H*eta)",
+    "frequency_identity_residual": "0",
+    "geodesic_residual": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "jacobi_residual": "0",
+    "logZ_minus_Phi": "0",
+    "metric_determinant": "-exp(8*H*eta)",
+    "null_residual": "0",
+    "omega": "exp(-H*eta)",
+    "screen_parallel_residual": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "tidal_matrix": [
+      [
+        "H**2*exp(-4*H*eta)",
+        "0"
+      ],
+      [
+        "0",
+        "H**2*exp(-4*H*eta)"
+      ]
+    ],
+    "unit_clock_residual": "0",
+    "vertex_D": "0",
+    "vertex_Dprime": "1"
+  }
+}

@@ -43,11 +43,11 @@
 | G182 two-sided carry | conditional; accepted | Carry types; stall parity |
 | G183 pair strata | `DERIVED_CONDITIONAL`; accepted | Degeneracy taxonomy; regular output remains branch-labelled |
 | G184 branch equivalence | conditional; accepted | Typed quotient; kernel incomplete |
-| G185 SNe channels | externally reviewed | Radial angular Gram zero; sky `R^2` live; replay preserved; transfer imported; `R(Z)` frozen |
-| G186 | externally accepted | Nonradial channels and local screen |
-| G187 | externally accepted | G186 screen propagates into a two-mode map; no added coefficient |
-| G188 | externally accepted with caveat | General complete-metric quotient screen and finite matrix Jacobi map; live mixing; independent replay scoped to witness family |
-| G189 | externally accepted; repairs closed | Static metric-to-flux factorization conditional; P1 localized to profile; `R proportional chi` control type-fails and is data-rejected |
+| G185 | accepted | Radial Gram zero; sky `R^2` live; transfer/P1 imported |
+| G186--G187 | accepted | Nonradial allocation and two-mode screen |
+| G188 | accepted with caveat | Complete-metric matrix screen; live mixing |
+| G189 | accepted; repairs closed | Conditional static flux; `R proportional chi` rejected |
+| G190 | accepted; no repair | Time-live null/frequency/matrix screen; parametric output; local `d_A(Z)` |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -72,9 +72,10 @@ None selects completion or `X_max`.
   Metricity is not dynamics. G138--G145 assign carry to overlaps, not endpoints.
 - G146--G148 and G149--G163 bound carrier, `O(2)`, `lambda`, first jets, scale, score, transport, and `X_max`.
   G165 controls the envelope; G166 restores the founded block.
-- G166--G189 derive and test the kernel; G177--G178 verify. The chain covers carry, branches, screens, Jacobi propagation, and first
-  conditional flux interface. G189 rejects one static join; no branch, native transfer, or physical
-  frequency history is selected.
+- G166--G190 derive and test the kernel; G177--G178 verify. The chain covers carry, branches,
+  screens, Jacobi propagation, and the first conditional flux interface. G190 derives frequency
+  and angular area jointly on supplied time-live completed pairs; no physical branch population,
+  native transfer, or complete history is selected.
 
 ## Carrier, action, source, and matter
 
@@ -91,12 +92,9 @@ None selects completion or `X_max`.
 
 ## Observational boundary
 
-R2--R5 are `OBSERVED` with caveats and select no feature, scale, origin, cosmology, or
-`X_max`. G185 is an externally reviewed conditional SNe non-regression/channel check; it imports
-radiative transfer, freezes P1 `R(Z)`, and selects no metric history.
-G189 is a separate externally accepted zero-shape-parameter negative: under the same imported
-transfer, `R=R0 tanh(phi)` fails regular-center typing and both preregistered SNe ceilings. It does
-not reject the kernel, time-live histories, or every P1-free construction.
+R2--R5 are `OBSERVED` with caveats and select no feature, scale, origin, cosmology, or `X_max`.
+G185 imports transfer and freezes P1. G189 rejects only `R=R0 tanh(phi)`. G190 returns native
+`lambda -> (Z,D,d_A)` but derives no transfer, physical metric, observer population, or global branch.
 
 ## Recurring prohibited promotions
 
@@ -106,12 +104,12 @@ Do not:
   proper length, universe size, or seams into the kernel;
 - promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize G167--G189, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
+- globalize G167--G190, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
   import familiar mechanisms as UDT derivations.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 174-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 175-row authority. On conflict, stop.
 
 During orientation use this guide and run:
 

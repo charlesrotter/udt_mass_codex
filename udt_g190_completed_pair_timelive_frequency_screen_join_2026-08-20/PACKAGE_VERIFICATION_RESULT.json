@@ -1,0 +1,9 @@
+{
+  "external_review": "G190_ACCEPTED_WITH_STATED_BOUNDS",
+  "independent_assertions": 161024,
+  "mutation_catches": 15,
+  "no_write_replay": false,
+  "repository_premise_gate": "PASS",
+  "source_rows": 10,
+  "status": "PASS"
+}

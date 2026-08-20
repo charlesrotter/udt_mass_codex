@@ -1,0 +1,21 @@
+{
+  "catches": {
+    "claim_history_selection": true,
+    "delete_shift_from_ruler_frame": true,
+    "drop_nonaffine_term": true,
+    "flip_lorentzian_null_sign": true,
+    "force_single_D_of_Z_across_turn": true,
+    "frequency_sign_flip": true,
+    "insert_Xmax": true,
+    "insert_static_phi_of_R": true,
+    "insert_tanh_or_P1_curve": true,
+    "invert_position_block_at_caustic": true,
+    "jacobi_curvature_sign_flip": true,
+    "promote_transfer_to_native": true,
+    "replace_ruler_scale_L_by_clock_scale_T": true,
+    "scalarize_full_screen_matrix": true,
+    "use_G116_as_general_input": true
+  },
+  "caught": 15,
+  "status": "PASS"
+}

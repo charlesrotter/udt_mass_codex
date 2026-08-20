@@ -19,27 +19,15 @@ G177--G180 remove scaffolds, verify, extend coframes, and glue families. G181--G
 endpoints, supplied carry, regular branches, and typed equivalence; equal summaries do not identify
 realizations. Event/germ ownership stays open.
 
-G185 is the first bounded application replay. On the supplied central-spherical outgoing SNe query,
-the radial pair tangent makes the pair angular Gram
-zero while sky Jacobi determinant remains `R^2`. Frozen Pantheon+ and DES
-likelihoods are preserved without fitting or angular bolt-on. Radiative transfer is imported and
-P1 `R(Z)` remains frozen calibration.
+G185 preserves frozen radial SNe controls: zero pair angular Gram, live sky `R^2`, imported
+transfer, and frozen P1 `R(Z)`. G186--G188 derive nonradial allocation and the complete-metric
+matrix Jacobi evaluator; mixing creates off-diagonal response without an added coefficient.
 
-G186 gives `Phi=phi-1/2 log(1-nu^2)` on one nonradial germ, routing the remaining angular data into
-tape/shift and a positive local screen. Static clocks retain `Phi=phi` with nonradial rulers live.
-
-G187 carries the screen along one supplied nonradial null query. Two metric-fixed diagonal Jacobi
-modes yield bounded generic shear without an added coefficient. It is not radiative transfer or a
-physical ray-population law.
-
-G188 derives the complete-metric quotient screen, Levi-Civita carry, tidal matrix, and finite Jacobi
-map on a supplied affine null query. Mixing yields off-diagonal response; deleting it is flat. The
-accepted independent census covers its declared witness family, not every arbitrary coframe parser.
-
-G189 conditionally gives `d_L(Z)=Z^2 phi_inverse(log Z+phi_o)` after importing transparent transfer,
-so P1 is one supplied profile. The zero-shape `R=R0 tanh(phi)` control type-fails at the center and
-fails both SNe ceilings. External reviews accept this bounded negative; the kernel and time-live
-histories remain outside it.
+G189 conditionally factors static flux and rejects the regular-center-invalid control
+`R=R0 tanh(phi)`. G190 derives the time-live join without G116/G189 inputs. A completed pair fixes
+two null germs up to ruler orientation; the same metric gives the affine branch, endpoint
+frequency, and matrix screen. Native output is `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on
+locally monotone, noncaustic pieces. External review accepts without repair.
 
 ## Controlling local evaluator
 
@@ -70,9 +58,10 @@ first one-sided endpoint boundary; G182 classifies two-sided carry; G183 classif
 degenerate and regular multibranch strata; G184 classifies the regular realization quotient; G186
 resolves one local nonradial scalar/tape/shift/screen split; G187 propagates that screen into one
 finite two-mode Jacobi map; G188 derives the general complete-metric matrix evaluator; G189 closes
-the bounded static metric-to-flux interface and rejects one provisional `R proportional chi` join.
+the bounded static metric-to-flux interface and rejects one provisional `R proportional chi` join;
+G190 derives the time-live parametric frequency/screen evaluator from the completed pair.
 
-Current structural result: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`.
+Current structural result: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`.
 Current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`; then
 `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/` and
 G184--G166 in `INDEX.md`. Conditional complete evaluator:
@@ -92,10 +81,11 @@ G184--G166 in `INDEX.md`. Conditional complete evaluator:
 - G186 verifies nonradial channel allocation and a local screen without an added scalar;
   G187 derives its static-spherical finite two-mode propagation; G188 derives the general supplied
   metric matrix propagation with live mixing. G189 then conditionally factors static flux and
-  localizes the remaining static profile freedom; physical query population, native transfer, and
-  time-live frequency/screen history remain open.
+  localizes the remaining static profile freedom. G190 replaces the separate `R(Z)` input in the
+  native time-live core with one parametric frequency/screen branch. Physical query population,
+  native transfer, branch aggregation, and physical complete history remain open.
 Guard index: `G129,G134,G135,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189`; rank ten, positive conformal class, common-scale ownership,
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190`; rank ten, positive conformal class, common-scale ownership,
 bivector area bilinear, physical multidirectional carrier, first-order ceiling, and 184,300 rows.
 
 ## Observational anchors
@@ -107,8 +97,9 @@ rank, and 184,300 rows remain unresolved. No preferred feature, scale, origin, c
 G185 preserves the historical P1 SNe reference. G189 makes the current boundary precise: the
 metric-to-flux factorization closes conditionally, but the simplest P1-free static `R proportional
 chi` control is type-invalid at a regular center and data-rejected. Neither result is a branch
-selector or native luminosity theory. Existing CMB geometry packages map conditional
-screen/Jacobi response, not an observed spectrum.
+selector or native luminosity theory. G190 now supplies the time-live geometric frequency/screen
+joint before any radiative bridge. Existing CMB geometry packages map conditional screen/Jacobi
+response, not an observed spectrum.
 
 ## Other live scientific lanes
 
@@ -130,8 +121,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G189 closes the bounded static interface and rejects the `R proportional chi` shortcut. Next
-preregister one metric-led time-live frequency/screen calculation on a supplied complete history
-and affine null query. Frequency evolution and `|det D|` must come from the same geometry; do not
-choose a static `phi(R)`, fit regime switches, insert `X_max`, infer branch population, select the
-transfer law from outcomes, or reopen the accepted scalar kernel.
+G190 closes the bounded metric-led time-live frequency/screen join on supplied completed pairs.
+Next preregister one nonconformal, mixing-active complete time-live witness and run the same native
+evaluator across its regular affine branch. Classify `Z` monotonicity, caustics, and honest
+multi-branch output; do not choose a static `phi(R)`, fit regime switches, insert `X_max`, infer a
+physical branch population, select transfer from outcomes, or use G116/G189 as construction inputs.

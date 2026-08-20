@@ -216,6 +216,7 @@ def validate_startup_surface(root: Path) -> None:
             "G187",
             "G188",
             "G189",
+            "G190",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -257,7 +258,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "174-row exact registry",
+            "175-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -368,6 +369,7 @@ def validate_startup_surface(root: Path) -> None:
             "G184",
             "G188",
             "G189",
+            "G190",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -417,6 +419,7 @@ def validate_startup_surface(root: Path) -> None:
             "G184",
             "G188",
             "G189",
+            "G190",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -459,10 +462,11 @@ def validate_startup_surface(root: Path) -> None:
             "G184",
             "G188",
             "G189",
+            "G190",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "174-row",
+            "175-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -722,9 +726,48 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 174, "premise registry must contain exactly 174 rows")
+    require(len(rows) == 175, "premise registry must contain exactly 175 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 174, "duplicate premise id")
+    require(len(by_id) == 175, "duplicate premise id")
+    require(
+        "FRESH_EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS_NO_REPAIRS"
+        in by_id["G190"]["current_status"],
+        "G190 external bounded acceptance absent",
+    )
+    require(
+        "JOINT_NATIVE_OUTPUT_LAMBDA_TO_Z_D_DA" in by_id["G190"]["current_status"],
+        "G190 parametric joint evaluator absent",
+    )
+    require(
+        "DA_OF_Z_DESCENDS_ONLY_WHERE_Z_IS_LOCALLY_ONE_TO_ONE_AND_SCREEN_NONCAUSTIC"
+        in by_id["G190"]["current_status"],
+        "G190 local descent boundary absent",
+    )
+    require(
+        "NO_P1_STATIC_PHI_OF_R_R_OF_Z_XMAX_FIT_OR_POST_READOUT_ANGULAR_FACTOR"
+        in by_id["G190"]["current_status"],
+        "G190 scaffold exclusion absent",
+    )
+    g190 = ROOT / "udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "EXTERNAL_REVIEW_TRANSCRIPT.txt.gz",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "TRANSMISSION_RECORD.md",
+    ):
+        require((g190 / name).is_file(), f"G190 evidence missing: {name}")
+    require(
+        "G190_ACCEPTED_WITH_STATED_BOUNDS"
+        in (g190 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(),
+        "G190 external acceptance missing",
+    )
+    require(
+        '"external_review": "G190_ACCEPTED_WITH_STATED_BOUNDS"'
+        in (g190 / "PACKAGE_VERIFICATION_RESULT.json").read_text(),
+        "G190 accepted package state absent",
+    )
     require(
         "REPAIR_FOLLOWUP_ACCEPTED_SCIENTIFIC_LANDING_UNCHANGED"
         in by_id["G189"]["current_status"],
@@ -4679,7 +4722,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G189-extended premise guards; PASS: 174-row premise "
+        "PASS: G190-extended premise guards; PASS: 175-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

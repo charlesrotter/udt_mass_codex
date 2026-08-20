@@ -1,0 +1,17 @@
+claim	status	scope
+completed_pair_orthonormal_clock_ruler	DERIVED_CONDITIONAL	supplied regular completed pair pullback
+two_normalized_null_directions	DERIVED_CONDITIONAL	future and ruler orientations fixed
+local_affine_null_branch_from_pair_germ	DERIVED_CONDITIONAL	local regular initial-value interval
+endpoint_frequency_ratio	DERIVED_CONDITIONAL	supplied endpoint clocks on one common ray
+frequency_evolution	DERIVED_CONDITIONAL	smooth completed clock carry supplied along branch
+finite_matrix_jacobi_screen	DERIVED_CONDITIONAL	G188 regular affine null branch
+joint_parametric_frequency_area_response	DERIVED_CONDITIONAL	same supplied metric query and affine normalization
+dA_of_Z	DERIVED_CONDITIONAL_LOCAL	Z locally one-to-one and screen noncaustic
+static_G189_recovery	VERIFIED_CONDITIONAL	primary static radial branch
+local_G116_recovery	POST_RESULT_REGRESSION_PASS	G115 central spherical two-jet only
+time_live_conformal_control	EXACT_MATHEMATICAL_WITNESS	not a proposed physical cosmology
+transparent_luminosity_transfer	IMPORTED_CONDITIONAL_NOT_DERIVED	optional downstream bridge only
+physical_metric_history	OPEN	not selected
+physical_observer_population_and_endpoint_intersection	OPEN	not selected
+X_max	OPEN_NOT_USED	not an input
+external_adversarial_review	G190_ACCEPTED_WITH_STATED_BOUNDS	fresh sealed gpt-5.4 review; no repairs
