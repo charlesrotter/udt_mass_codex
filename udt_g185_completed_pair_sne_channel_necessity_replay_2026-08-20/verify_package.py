@@ -106,7 +106,7 @@ def main() -> None:
     review_path = followup_path if followup_path.is_file() else external_path
     if review_path.is_file():
         raw = review_path.read_text(encoding="utf-8")
-        if "G185_ACCEPTED_WITH_STATED_BOUNDS" in raw:
+        if "G185_ACCEPTED_WITH_STATED_BOUNDS" in raw or "G185_REPAIR_ACCEPTED" in raw:
             external = "ACCEPTED"
             checks["external_review_accepted"] = True
         elif "G185_REPAIR_REQUIRED" in raw:

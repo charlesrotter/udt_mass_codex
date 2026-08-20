@@ -211,6 +211,7 @@ def validate_startup_surface(root: Path) -> None:
             "G182",
             "G183",
             "G184",
+            "G185",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -4634,7 +4635,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G184-extended premise guards; PASS: 170-row premise "
+        "PASS: G185-extended premise guards; PASS: 170-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

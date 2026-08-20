@@ -15,22 +15,16 @@ G181 separates tape integrability from regular endpoint coefficients. G182 requi
 jets; scalar carry is weaker and immersion carry needs tangent jets. G183 separates local domain
 failures from regular branch-labelled cut, crossing, and winding families. G184 removes coordinate
 duplicates; equal kernel or pair metric does not identify realizations. Reviews accept.
+G185 verifies the central-spherical radial SNe channel accounting: zero radial pair angular Gram
+and live `R^2` sky area coexist; frozen Pantheon+ and DES replays survive with no fit. External
+reviews accept; light transfer remains imported and P1 `R(Z)` remains frozen calibration.
 
-Dependency spine:
-
-- G129--G134: pullbacks and bivector area bilinear recover `g`; scalars stop at conformal class.
-- G135--G139/G163: `chi=tanh(phi_pair)` composes on matched depths; route transport is
-  separate and `x=X_max chi` conditional.
-- G140--G144: overlap owns carry.
-- G145: values determine `g` on a supplied atlas, not numerical/global valuation or realization.
-- G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
-  bounded controls; G163 removes `X_max` from the kernel.
-- G164 G165 G166 G167 G168 G169: scaffold, kernel, pullback, germ, and reversal controls.
-- G170--G184: pair-relative differences need no carry; G176 fixes the ruler, G177--G178 accept,
-  G179 extends coframes, G180 glues families, G181 classifies one-sided endpoints, G182 classifies
-  supplied two-sided carry, G183 classifies remaining local strata, G184 classifies regular
-  realization equivalence, and G173--G175
-  remain controls.
+Dependency spine: G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier,
+score, scale, and transport freedoms and remove `X_max`; G164--G184 remove scaffolds and build the
+supplied-pair kernel, carry, strata, and quotient; G185 checks the bounded radial SNe application.
+See `INDEX.md` for exact milestones.
+Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185`; bivector area bilinear; numerical/global valuation stays open.
 
 Physical germ/global realization, ambient extension, completion, and `X_max` remain open.
 
@@ -58,8 +52,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G184 evidence is closed. Preserve its supplied-query, regular, quotient-classification—not canon—
-grade. Next map whether a declared application needs extrinsic or non-scalar branch data; do not
-build a universal complete invariant or infer physical selection from multiplicity.
+G185 evidence is closed. Preserve its supplied-query, imported-transfer, frozen-history—not
+canon—grade. Next map one nonradial or nonspherical supplied observation query with live angular
+pair participation; do not fit a regime switch or add the orchestra after terminal readout.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

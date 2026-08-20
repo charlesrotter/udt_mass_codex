@@ -20,6 +20,6 @@
 | Dependency-free sealed replay | PASS | Node.js replay works under `python3 -S`; both legacy entrypoints delegate without scientific Python |
 | Sealed numerical replay | PASS | both catalogs remain within frozen tolerances; all hostile controls remain worse |
 | Sealed default no-write gate | PASS | complete before/after intake hash census identical |
-| Repair-only external follow-up | PENDING | required before final verified banking |
+| Repair-only external follow-up | PASS | fresh gpt-5.4 returned `G185_REPAIR_ACCEPTED` after live minimal-runtime replay and syscall/path audit |
 
-Maximum current grade: `TECHNICALLY_REPAIRED_CONDITIONAL_LEAD__EXTERNAL_FOLLOWUP_PENDING`.
+Maximum current grade: `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS`.

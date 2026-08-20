@@ -11,7 +11,7 @@ __AREAL_SKY_RESPONSE_R2_REMAINS_ACTIVE
 __FROZEN_DUAL_SNE_REPLAY_IS_CONDITIONALLY_PRESERVED
 ```
 
-Grade before fresh external review: `INTERNALLY_VERIFIED_CONDITIONAL_LEAD`.
+Final grade: `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS`.
 
 ## What was learned
 
@@ -38,6 +38,12 @@ post-readout angular factor.
 - Mutation catches: 13/13; semantic guards: 11/11.
 - Exact premise registry: PASS, 170 rows plus 754 historical dispositions.
 - Repository regression: 130 passed, 1 expected xfail.
+- First fresh external review independently reproduced the bounded science and requested only a
+  sealed-path/dependency repair.
+- Fresh repair-only gpt-5.4 review returned `G185_REPAIR_ACCEPTED`: all fourteen sealed source
+  paths/hashes passed; Node and both original entrypoints passed under `python3 -S`; syscall traces
+  found no repository, `/media`, socket, authentication-data, or intake-write access; the complete
+  before/after intake hash census was identical.
 
 ## Premise audit
 

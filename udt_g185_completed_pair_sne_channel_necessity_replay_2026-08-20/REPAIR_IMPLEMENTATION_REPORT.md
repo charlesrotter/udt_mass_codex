@@ -2,7 +2,7 @@
 
 ## Result
 
-`G185_SEALED_REPLAY_TECHNICALLY_REPAIRED__EXTERNAL_FOLLOWUP_PENDING`
+`G185_SEALED_REPLAY_REPAIRED__BOUNDED_SCIENTIFIC_LANDING_UNCHANGED`
 
 No scientific content changed. The repair made the already reviewed intake self-contained and dependency-free.
 
@@ -33,6 +33,8 @@ The small DES difference from the SciPy reference (`2.12e-7` in chi-square) is w
 - current scientific-premise registry: PASS (170 rows; 754 historical dispositions);
 - repository tests: 130 passed; 1 expected xfail.
 
-## Remaining gate
+## External closure
 
-A fresh sealed repair-only external review must verify this packaging repair and retain the bounded scientific landing. Until then the package remains a conditional lead, not a fully accepted external result.
+Fresh external repair-only gpt-5.4 review returned `G185_REPAIR_ACCEPTED`. It live-ran the sealed
+Node replay and both original entrypoints under `python3 -S`, traced file and network syscalls, and
+found no forbidden access or intake mutation. The conditional scientific bounds remain unchanged.

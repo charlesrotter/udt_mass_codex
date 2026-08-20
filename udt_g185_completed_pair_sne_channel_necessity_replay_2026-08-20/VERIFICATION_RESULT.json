@@ -4,6 +4,7 @@
     "all_replays_pass": true,
     "default_replays_are_read_only": true,
     "eleven_semantic_guards": true,
+    "external_review_accepted": true,
     "files_present": true,
     "fourteen_sources_immutable": true,
     "independent_pass": true,
@@ -13,7 +14,7 @@
     "stored_sealed_replay_pass": true,
     "thirteen_catches": true
   },
-  "external_review": "REPAIR_REQUIRED",
+  "external_review": "ACCEPTED",
   "missing": [],
   "replays": {
     "/usr/bin/python3 run_catch_proofs.py": {
@@ -33,6 +34,6 @@
     }
   },
   "source_failures": [],
-  "status": "TECHNICAL_PASS__EXTERNAL_REPAIR_FOLLOWUP_PENDING",
+  "status": "PASS",
   "technical_pass": true
 }

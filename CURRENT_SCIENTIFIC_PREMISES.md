@@ -1,9 +1,9 @@
-# Scientific premise index
+# Premise index
 
-`LIVE.md` and TSV own status; this is not `CANON.md`. On conflict, stop.
+`LIVE.md` and TSV own status; this is not `CANON.md`.
 ## Foundational relation
 
-| Object | Current status | What is owned | What remains open |
+| Object | Status | What is owned | What remains open |
 |---|---|---|---|
 | `c_E`, `G_obs` | `OBSERVED` | Anchors | Native placement and closure |
 | Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))`; determinant-one block on supplied depth | Pair values and general `3+1` assembly |
@@ -16,14 +16,14 @@
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
 
-## Current reconstruction hierarchy
+## Reconstruction hierarchy
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
-| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Full pullback |
+| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
 | G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks recover `g`; scalars stop at positive conformal class |
 | G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Normalized position; overlap owns carry |
-| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Supplied-atlas reconstruction; realization open |
+| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Atlas reconstruction; realization open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projection nonunique; carrier open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Chosen-representation identity only |
 | G149--G162 score/carry/quotient | `VERIFIED_WITH_CAVEATS` | Scalar and route memory remain distinct |
@@ -38,16 +38,17 @@
 | G173 turning atlas | `VERIFIED_WITH_CAVEATS` | Angular turns stay regular; bare lines retain scalar charts |
 | G174 calibrated germ | `VERIFIED_WITH_CAVEATS` | One calibrated ruler fixes one scalar; bare line retains atlas |
 | G175 calibration equivalence | `VERIFIED_WITH_CAVEATS` | Endpoint depths fix tape modulo unit |
-| G176--G180 completed-pair kernel | conditional; reviews accepted | Ruler extends through families |
+| G176--G180 completed-pair kernel (including G179) | conditional; reviews accepted | Ruler extends through families |
 | G181 one-sided endpoints | `DERIVED_CONDITIONAL`; review accepted | Tape, coefficient, stall, and zero-tangent classes |
 | G182 two-sided carry | `DERIVED_CONDITIONAL`; accepted | Metric/scalar/full-germ carry; stall parity |
 | G183 pair strata | `DERIVED_CONDITIONAL`; repair follow-up accepted | Degeneracy taxonomy; regular multibranch output remains branch-labelled |
 | G184 branch equivalence | `DERIVED_CONDITIONAL`; accepted | Typed quotient; kernel is incomplete realization invariant |
+| G185 SNe channels | `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS` | Radial pair angular Gram is zero; sky area `R^2` is live; dual-catalog replay preserved; transfer imported; `R(Z)` frozen |
 
-None selects values, completion, observations, or `X_max`.
+None selects values, completion, or `X_max`.
 ## Scale and limits
 
-| Object | Current status | Guard |
+| Object | Status | Guard |
 |---|---|---|
 | `X_max` | working asymptotic global-completion consequence target | Not a local kernel input; requires independent metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
 | Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless explicitly reauthorized |
@@ -71,13 +72,14 @@ None selects values, completion, observations, or `X_max`.
 - G149--G163 bound first jets, scale, score, carry, quotient, rapidity, and the X-free kernel;
   route/frame transport stays separate.
 - G165 controls envelope; G166 excludes it from founded block.
-- G166--G184 derive and test the supplied-pair kernel; G177--G178 verify. G182 separates scalar, metric, and immersion
+- G166--G185 derive and test the supplied-pair kernel; G177--G178 verify. G182 separates scalar, metric, and immersion
   carry; G183 separates domain failure from regular multiplicity; G184 removes coordinate duplicates
-  without selecting a physical branch. Germ/branch/global selection stays open.
+  without selecting a branch; G185 checks bounded central-spherical SNe channels
+  without deriving native transfer or `R(Z)`. Germ/branch/global selection stays open.
 
 ## Carrier, action, source, and matter
 
-| Object | Current status | Maximum justified statement |
+| Object | Status | Maximum statement |
 |---|---|---|
 | Celestial null-direction `S^2` | `CONDITIONAL` fiber | Does not derive a matter carrier or law |
 | Matter `S^2` carrier | `POSIT` | Conditional carrier branch only |
@@ -91,22 +93,21 @@ None selects values, completion, observations, or `X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no feature, scale, origin, cosmology, or
-`X_max`. Conditional SNe replays import radiative transfer and select no metric history.
+`X_max`. G185 is an externally reviewed conditional SNe non-regression/channel check; it imports
+radiative transfer, freezes P1 `R(Z)`, and selects no metric history.
 
 ## Recurring prohibited promotions
 
 Do not:
 
-- derive pointwise depth from the supplied-depth character, call pair `c_eff` local signal speed, or
-  insert `X_max`, a fit, proper length, signal distance, universe size, or a seam into the kernel;
+- derive pointwise depth from the supplied-depth character; call pair `c_eff` signal speed; or insert
+  `X_max`, fits, proper length, universe size, or seams into the kernel;
 - promote G146--G162 controls to carrier, dynamics, observation, evolution, or closure;
-- erase joined `C,Gamma`, collapse route transport into tangent `Lambda`, restore residual rapidity,
-  revive strong local CSN, or identify celestial `S^2` with matter;
-- globalize G167; select `Y,Z`; scalarize angular Gram; call G168 founded or G169 distance; erase
-  G170; observer-collapse G171; force triangles; globalize G172--G173; call G174 physical ruler
-  selection; erase G175 controls; call G176--G184 canon, event/germ selection, global carry, or
-  proof that non-scalar angular information vanishes; call G179 dynamics; revive G142--G160;
-- import familiar external mechanisms as UDT derivations or use resemblance to select a branch.
+- erase joined `C,Gamma`, collapse route into tangent transport, revive strong CSN, or identify
+  celestial `S^2` with matter;
+- globalize G167--G185, select `Y,Z`, scalarize angular Gram, force triangles, erase calibration
+  controls, or call the chain canon, event/germ selection, global carry, or dynamics;
+- import familiar mechanisms as UDT derivations or select branches by resemblance.
 
 ## How to use the registry
 
@@ -119,4 +120,4 @@ python3 verify_current_scientific_premises.py
 ```
 
 Query exact TSV rows only after orientation when the requested task makes them load-bearing.
-Pre-cleanup startup prose is preserved under `archive/startup_surface_2026-08-17_pre_zoomout/`.
+Prior startup prose: `archive/startup_surface_2026-08-17_pre_zoomout/`.

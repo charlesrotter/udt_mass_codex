@@ -1,5 +1,5 @@
 # INDEX
-`LIVE.md` controls current status.
+`LIVE.md` controls status.
 ## Startup
 1. Follow `AGENTS.md` synchronization and bounded-read rules.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
@@ -18,7 +18,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G184 relational closure chain:
+- G137--G185 relational closure and first application chain:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -48,16 +48,18 @@
   `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`; `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`;
   `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`; `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`;
   `udt_g180_completed_pair_smooth_family_descent_2026-08-19/`; `udt_g181_completed_pair_singular_endpoint_classification_2026-08-19/`;
-  `udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/`; `udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/`; `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
-G140--G162 are carry, carrier, scale, score, quotient, and transport controls.
-G163 removes `X_max` from the kernel. G164--G165 are scaffold controls. G166 proves the founded
+  `udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/`; `udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/`; `udt_g184_regular_branch_equivalence_classification_2026-08-19/`;
+  `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
+G140--G162 control carry, carrier, scale, score, quotient, and transport.
+G163 removes `X_max`; G164--G165 control scaffolds. G166 proves the founded
 ordered-pair metric owns its kernel. G167 derives the full local regular pair pullback of the
 primary spherical four-metric. G168 derives the supplied-germ plane; G170 regrades G169 and derives
 endpoint-relative reversal; G171 derives the pair-germ-relative scalar network and removes
 arbitrary triangle additivity and scaffolded carry. G172--G175 remain accepted controls: turns are
 regular, one calibrated germ has one scalar, and arbitrary tapes differ lawfully. G176 provisionally
 closes the ruler; G177 removes scaffolds; G178 accepts; G179 extends coframes; G180 glues families.
-G181 classifies endpoints; G182 carry; G183 strata; G184 regular realization equivalence. Reviews accept.
+G181 classifies endpoints; G182 carry; G183 strata; G184 equivalence; G185 checks radial SNe
+channels. Reviews accept.
 Physical branch population and symmetry policy, non-scalar transport, and global extension remain open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -67,6 +69,7 @@ Physical branch population and symmetry policy, non-scalar transport, and global
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open load-bearing evidence. The 170-row registry controls.
 ## Observational lane
+- Completed-pair SNe channel check: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
 - Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
 - R4 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md`
@@ -75,7 +78,6 @@ For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, the
 - R5 accepted follow-up: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`
 - R5 evidence manifest: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
 - Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
-
 R2--R5 are verified with caveats and remain metric-neutral data characterization. They select no
 feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
 ## Foundational and premise authorities
@@ -94,13 +96,11 @@ feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
 - Scaffold controls: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
-
 ## Matter/stability lane
 
 Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`.
 It preserves plural conditional mass-from-geometry branches. For topology begin with
 `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
-
 ## Protected local paths
 
 See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected curvature-atlas work,

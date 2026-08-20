@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-19
+Date: 2026-08-20
 `LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise classification. This file states only the current architecture, open gates, and next bounded move.
 
 ## Program picture
@@ -26,6 +26,12 @@ jets. G183 separates local domain failure from regular cut, crossing, and windin
 regular outputs remain branch-labelled. G184 removes coordinate duplicates by typed realization
 isomorphism, permits ambient-query symmetries only when explicitly declared, and proves that equal
 kernel or pair metric does not identify a full realization. Reviews accept.
+
+G185 then performs the first bounded post-kernel application replay. On the supplied
+central-spherical outgoing regular SNe query, the radial pair tangent makes the pair angular Gram
+zero while the separate sky Jacobi determinant remains `R^2`. The frozen Pantheon+ and DES
+likelihoods are preserved with no fit and no angular bolt-on. This is externally reviewed with
+caveats because radiative transfer remains imported and P1 `R(Z)` remains frozen calibration.
 
 ## Controlling local evaluator
 
@@ -54,56 +60,25 @@ G176 closes normalization; G179 extends coframes; G180 glues smooth families; G1
 first one-sided endpoint boundary; G182 classifies supplied two-sided carry; G183 classifies local
 degenerate and regular multibranch strata; G184 classifies the regular realization quotient.
 
-Current control: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`, then
+Current application check: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`.
+Current structural control: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`, then
 G183--G166 in `INDEX.md`. Conditional complete evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ## Current reconstruction and ownership chain
 
-### G129--G165 — reconstruction and scaffold controls
-
-G129--G145 reconstruct `g`, derive `chi`, and require genuine overlap for carry; valuation remains
-open. G146--G163 bound direction, first jets, scale, score, carry, and quotient, then remove
-`X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
-
-Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156
-G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180 G181 G182 G183 G184. Guards:
-rank ten, positive conformal class, common-scale ownership, bivector area bilinear, physical multidirectional carrier,
-first-order ceiling, and 184,300 unresolved covariance rows.
-
-### G166--G168 — kernel, pullback, and supplied germ
-
-G166 returns `phi_pair=delta_AB`, conditional `c_eff/c_E`, and `chi` without a post-metric profile,
-path, or `X_max`. G167 derives `h=F^*g` as reciprocal base plus upstream angular Gram for every
-supplied local regular pair plane. G168 derives its ruler, plane, screen, and `Y,Z` from supplied
-timelike `u_A` and nonzero `s_AB`. Bare labels still do not select the germ; general ambient,
-time-live, mixing, shift, and micro assembly remains open.
-
-### G169--G171 — reversal and pair-germ-relative network
-
-G170 derives `delta_XY=Phi_Y|XY-Phi_X|XY`; G171 lets each pair own its incidence values. Same-pair
-reversal is exact, arbitrary triangles need not telescope, and matched-readout triangles do.
-Co-presence and G142--G160 scaffolds are absent. Physical germ/global realization and non-scalar
-transport remain open.
-
-### G172--G175 — smooth/turning and calibration controls
-
-G172--G173 close supplied smooth intervals and angular turns; no curve is selected. G174 gives one
-scalar per calibrated vector. G175 proves two connected tapes give identical endpoint depths iff
-their density ratio is constant. These externally accepted controls do not supply physical
-calibration or cross-tape carry.
-
-### G176--G184 — completed-pair normalization, coframe extension, family descent, carry, and quotient
-
-Under the `WORKING_FOUNDATIONAL_CLARIFICATION`, G176 fixes
-`m=T L_sigma=sqrt(-det h_sigma)` with shift active. G177--G178 verify; G179 extends arbitrary
-coframes; G180 integrates regular families. G181 separates finite tape by integrability, regular
-finite endpoints by completed coefficient limits, and removable stalls from open two-sided carry.
-G182 closes supplied two-sided metric/immersion carry but selects neither incident branch nor seam
-identification. G183 distinguishes true local domain failure from regular branch multiplicity.
-G184 classifies strict and query-symmetry realization equivalence, proves kernel descent, and proves
-the kernel is not a complete realization invariant. None selects a family, branch, query-symmetry
-policy, physical singularity, or global completion.
+- G129--G165 reconstruct `g`/`chi`, localize overlap carry, bound carrier/score/scale freedoms,
+  remove `X_max` from the kernel, and subtract scaffolds.
+- G166--G175 derive the supplied-germ pullback, pair-relative reversal/network, smooth turns, and
+  calibration controls. Bare labels still do not select a germ.
+- G176--G184 normalize the completed pair, extend coframes, glue families, and classify endpoints,
+  supplied carry, regular multiplicity, and coordinate equivalence. They select no physical branch.
+- G185 verifies that zero radial pair angular Gram and live sky `R^2` coexist. With transfer
+  `IMPORTED_CONDITIONAL` and P1 `R(Z)` frozen, Pantheon+ and DES replays survive without fitting.
+  This is externally reviewed channel accounting, not native luminosity or history selection.
+Guard index: `G129,G134,G135,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185`; rank ten, positive conformal class, common-scale ownership,
+bivector area bilinear, physical multidirectional carrier, first-order ceiling, and 184,300 rows.
 
 ## Observational anchors
 
@@ -111,8 +86,9 @@ R2--R5 are metric-neutral characterization. R5 finds one dominant direction; cov
 rank, and 184,300 rows remain unresolved. No preferred feature, scale, origin, cosmology, or
 `X_max` is established.
 
-SNe work remains a conditional comparison/non-regression anchor with imported radiative transfer,
-not a branch selector or native luminosity theory. Existing CMB geometry packages map conditional
+G185 makes the current SNe status precise: an externally reviewed conditional non-regression and
+channel-ownership result with imported radiative transfer and frozen `R(Z)`, not a branch selector
+or native luminosity theory. Existing CMB geometry packages map conditional
 screen/Jacobi response, not an observed spectrum.
 
 ## Other live scientific lanes
@@ -135,7 +111,7 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G184 closes the regular branch-equivalence tile. Next, map whether a declared physical application
-actually requests extrinsic or non-scalar branch data beyond the scalar kernel. Do not build a
-universal complete invariant by accretion or infer physical branch selection from mathematical
-multiplicity.
+G185 closes the central-spherical radial SNe tile. Next, map one supplied nonradial or nonspherical
+observation query where angular pair participation is nonzero, and test the existing completed
+pullback before introducing observational coefficients. Do not add post-readout angular factors,
+fit regime switches, infer branch population, or reopen the accepted scalar kernel.

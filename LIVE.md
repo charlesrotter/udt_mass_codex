@@ -2,7 +2,7 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-## CURRENT STATE — 2026-08-19
+## CURRENT STATE — 2026-08-20
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
@@ -38,25 +38,32 @@ domain diffeomorphisms remove coordinate duplicates; ambient symmetry enters onl
 admits it. The kernel descends, but endpoints, `Phi`, tape, pair metric, or image do not identify
 full realizations. External repair-only review accepts.
 
+G185 is the first post-kernel physical-application check. For the supplied central-spherical
+outgoing regular SNe query, the radial pair-plane angular Gram vanishes because its angular tangent
+is zero; this does not disable the separate sky Jacobi area `|det D_sky|=R^2`. With the old transfer
+bridge explicitly `IMPORTED_CONDITIONAL` and P1 `R(Z)` explicitly
+`FROZEN_HISTORICAL_CALIBRATION`, the completed kernel preserves the frozen Pantheon+ and DES
+replays without fitting or post-readout angular factors. Fresh gpt-5.4 scientific and repair-only
+reviews accept with stated caveats; the sealed dependency-free replay passes.
+
 ### Current dependency spine
 
-- **G129--G145.** G129 G134 rank ten pullbacks, density, and bivector area bilinear recover `g` on a
-  codimension eleven locus; G135 G139 give `chi`; G140 G144 require overlap; numerical valuation stays `OPEN`.
-- **G146--G148.** G146 G147 parity-even candidates fail on the registered non-collinear witness;
-  physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
-- **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
-  G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
-- **G164--G184.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
-  pullback, and plane; G169--G171 give reversal, endpoint difference, and pair-relative network;
-  G172--G175 close controls; G176 G177 G178 G179 G180 normalize, verify, extend, and glue the kernel;
-  G181--G182 classify supplied one- and two-sided carry; G183 separates local degeneracy from
-  regular multibranch behavior; G184 removes coordinate duplicates and proves the scalar kernel is
-  not a complete realization invariant. Physical germ/global realization, branch population, and
-  query-symmetry policy remain open.
+- **G129 G134--G163.** Reconstruct `g`, derive normalized `chi`, require overlap for carry, and bound
+  carrier/score/scale freedoms; G163 removes `X_max`. Valuation and carrier stay open.
+- **G164--G185.** Remove scaffolds; derive, normalize, extend, and glue the supplied-pair kernel;
+  classify carry, regular branches, and coordinate equivalence; then verify bounded radial SNe
+  accounting. Physical germ/branch population, symmetry policy, transfer, and `R(Z)` stay open.
+Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
+G146 parity-even candidates fail on the registered non-collinear witness.
 
 Maximum conclusion: the primary metric owns a reciprocal scalar kernel and carry tests on supplied
-regular completed pairs. Physical germ/branch population, symmetry policy, non-scalar transport,
-global extension, and numerical `X_max` remain open. Current control:
+regular completed pairs. G185 additionally verifies, with caveats, the central-spherical SNe
+channel decomposition and frozen dual-catalog non-regression. Native radiative transfer, physical
+`R(Z)`, physical germ/branch population, symmetry policy, non-scalar transport, global extension,
+and numerical `X_max` remain open. Current application check:
+`udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; current structural control:
 `udt_g184_regular_branch_equivalence_classification_2026-08-19/`, then G183--G166.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
@@ -66,6 +73,9 @@ G163 controls `X_max`; the conditional uncompressed evaluator is
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 covariance rows remain unresolved and no preferred scale follows.
+G185 is separately an externally reviewed conditional SNe non-regression/channel-ownership check:
+Pantheon+ 1367 rows, chi-square `1260.8480887274907`; DES 1623 rows, chi-square
+`1444.1864417504896`. It is not a new fit, native light theory, or physical-history derivation.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### High-risk premise guard
@@ -102,10 +112,11 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G184 closes the regular branch-equivalence question. Before another derivation, make a zoomed-out
-stop/go map: identify which next physical application, if any, actually requires extrinsic or
-non-scalar branch data beyond the accepted kernel. Do not build a universal complete invariant by
-accretion, select a branch or query symmetry, infer holonomy from a label, or reopen the scalar kernel.
+G185 closes the central-spherical SNe channel check. Next map one genuinely nonradial or
+nonspherical supplied observation query where the completed pullback has a live angular pair
+tangent, and preregister whether the existing kernel alone determines its scalar/screen response.
+Do not fit observations, invent regime switches, bolt an angular factor on after readout, reopen
+the scalar kernel, or import physical branch population/native light transfer.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.
