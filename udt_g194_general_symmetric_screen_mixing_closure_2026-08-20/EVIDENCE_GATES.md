@@ -12,16 +12,18 @@
 
 ## Required before banking
 
-- [ ] Preregistration committed before production computation.
-- [ ] Exact metric/connection/curvature derivation passes.
-- [ ] Full matrix Jacobi characterization and affine vertex normalization pass.
-- [ ] Any no-caustic claim has an exact definiteness proof.
-- [ ] G193, G192, and G190 limits pass.
-- [ ] Independent metric-jet/Riemann spot checks and separately implemented matrix-IVP replay pass.
-- [ ] Every preregistered hostile mutation is caught.
+- [x] Preregistration committed before production computation (`90057d83`).
+- [x] Exact metric/connection/curvature derivation passes.
+- [x] Full matrix Jacobi characterization and affine vertex normalization pass.
+- [x] The no-caustic claim has an exact definiteness proof.
+- [x] G193, G192, and G190 limits pass.
+- [x] Independent metric-jet/Riemann spot checks and separately implemented matrix-IVP replay pass.
+- [x] Every preregistered hostile mutation is caught (22/22).
 - [ ] Current premise verifier passes after registry update.
-- [ ] Full repository tests pass.
-- [ ] `git diff --check` passes.
-- [ ] Fresh adversarial review is completed and adjudicated.
+- [x] Current 178-row pre-G194 premise verifier passes.
+- [x] Full repository tests pass (130 passed, 1 expected xfail).
+- [x] `git diff --check` passes.
+- [x] Fresh adversarial review is completed and adjudicated with bounded theorem retained.
+- [ ] Preregistered R1--R3 packaging repairs pass a fresh repair-only follow-up.
 
 Until all required gates close, G194 is a preregistered open calculation, not a result.
