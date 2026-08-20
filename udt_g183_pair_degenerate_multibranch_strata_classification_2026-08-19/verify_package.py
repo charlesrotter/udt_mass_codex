@@ -30,6 +30,8 @@ REQUIRED = [
     "DERIVATION_RESULT.json",
     "INDEPENDENT_VERIFICATION.json",
     "CATCH_PROOF_RESULT.json",
+    "DEFAULT_ENTRYPOINT_VERIFICATION.json",
+    "verify_default_read_only_entrypoint.py",
 ]
 SCRIPTS = ["derive_pair_strata.py", "verify_pair_strata_independent.py", "run_catch_proofs.py"]
 
@@ -96,15 +98,25 @@ def run():
         "landing_matches": production.get("landing_candidate")
         == "PAIR_STRATA_SEPARATED__REGULAR_MULTIBRANCH_KERNEL_REMAINS_BRANCH_LABELLED",
     }
+    default_entrypoint = json.loads((ROOT / "DEFAULT_ENTRYPOINT_VERIFICATION.json").read_text())
+    checks["default_entrypoint_read_only"] = (
+        default_entrypoint.get("status") == "PASS"
+        and default_entrypoint.get("returncode") == 0
+        and default_entrypoint.get("hashes_unchanged") is True
+    )
+
     external_path = ROOT / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md"
+    followup_path = ROOT / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md"
     review_state = "PENDING"
-    if external_path.is_file():
+    if followup_path.is_file():
         review_state = (
             "ACCEPTED"
-            if "G183_ACCEPTED_WITH_STATED_BOUNDS" in external_path.read_text(encoding="utf-8")
+            if "G183_REPAIR_ACCEPTED" in followup_path.read_text(encoding="utf-8")
             else "NOT_ACCEPTED"
         )
         checks["external_review_accepted"] = review_state == "ACCEPTED"
+    elif external_path.is_file() and "G183_REPAIR_REQUIRED" in external_path.read_text(encoding="utf-8"):
+        review_state = "REPAIR_REQUIRED"
 
     status = "PASS" if all(checks.values()) else "FAIL"
     result = {
@@ -116,7 +128,7 @@ def run():
         "source_hash_failures": source_failures,
         "replays": replay,
     }
-    if os.environ.get("UDT_READ_ONLY_REPLAY") != "1":
+    if os.environ.get("UDT_WRITE_VERIFICATION_RESULT") == "1":
         (ROOT / "VERIFICATION_RESULT.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(result, sort_keys=True))
     if status != "PASS":

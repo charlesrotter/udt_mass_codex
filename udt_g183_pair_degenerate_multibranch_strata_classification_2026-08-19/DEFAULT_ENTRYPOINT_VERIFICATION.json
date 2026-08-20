@@ -1,0 +1,8 @@
+{
+  "audit": "G183",
+  "hashes_unchanged": true,
+  "returncode": 0,
+  "status": "PASS",
+  "stderr": "",
+  "stdout": "{\"audit\": \"G183\", \"checks\": {\"all_replays_pass\": true, \"default_entrypoint_read_only\": true, \"eight_immutable_sources\": true, \"files_present\": true, \"independent_assertions\": true, \"independent_pass\": true, \"landing_matches\": true, \"production_pass\": true, \"read_only_replays\": true, \"twelve_semantic_guards\": true, \"twenty_eight_catches\": true}, \"external_review\": \"REPAIR_REQUIRED\", \"missing_files\": [], \"replays\": {\"derive_pair_strata.py\": {\"returncode\": 0, \"stderr\": \"\", \"stdout\": \"PASS: G183 exact pair strata; trials=12000; assertions=72115\"}, \"run_catch_proofs.py\": {\"returncode\": 0, \"stderr\": \"\", \"stdout\": \"PASS: G183 catches=28; semantic_guards=12\"}, \"verify_pair_strata_independent.py\": {\"returncode\": 0, \"stderr\": \"\", \"stdout\": \"PASS: G183 independent Lorentz-basis replay; trials=20000; assertions=220034\"}}, \"source_hash_failures\": [], \"status\": \"PASS\"}"
+}
