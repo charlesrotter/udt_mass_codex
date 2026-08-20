@@ -8,7 +8,7 @@ NONRADIAL_COMPLETED_PAIR_CHANNELS_RESOLVE_WITHOUT_EXTRA_SCALAR
 __CLOCK_ANGULAR_NORM_CONTROLS_DEPTH
 __FULL_ANGULAR_GRAM_CONTROLS_TAPE_SHIFT_AND_LOCAL_SCREEN
 
-Current grade: INTERNALLY_VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_PENDING.
+Current grade: EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS.
 
 ## What was learned
 
@@ -43,10 +43,11 @@ that angular physics was disabled or numerically tuned away.
 - exact collinear, non-collinear, static-clock, rotation, and reparameterization controls;
 - 18/18 executable mutation catches;
 - 12/12 semantic guards.
+- fresh external gpt-5.4 replay: `G186_ACCEPTED_WITH_STATED_BOUNDS`.
 
 ## Caveats
 
 The pair germ is supplied, and the clock/ruler component restrictions define one bounded local
 query class. The local screen projector is not a finite Jacobi map or luminosity response. G186
 does not derive physical observer population, finite propagation, transfer, R(Z), a nonspherical
-ambient metric, global completion, or downstream physics. External adversarial review is pending.
+ambient metric, global completion, or downstream physics.

@@ -58,6 +58,11 @@ def main() -> None:
         "derive_nonradial_channels.py",
         "verify_nonradial_channels_independent.py",
         "run_catch_proofs.py",
+        "FROZEN_CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
+        "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt.gz",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "TRANSMISSION_RECORD.md",
     ]
     missing = [name for name in required if not (HERE / name).is_file()]
 
@@ -66,7 +71,11 @@ def main() -> None:
     if manifest.is_file():
         for line in manifest.read_text(encoding="utf-8").splitlines()[1:]:
             relative, expected, _role = line.split("\t", 2)
-            source = ROOT / relative
+            source = (
+                HERE / "FROZEN_CURRENT_SCIENTIFIC_PREMISES.tsv"
+                if relative == "CURRENT_SCIENTIFIC_PREMISES.tsv"
+                else ROOT / relative
+            )
             if not source.is_file() or sha256(source) != expected:
                 source_failures.append(relative)
 
@@ -101,6 +110,12 @@ def main() -> None:
                 ("verify_nonradial_channels_independent.py", "INDEPENDENT_VERIFICATION.json"),
                 ("run_catch_proofs.py", "CATCH_PROOF_RESULT.json"),
             ]
+        ),
+        "external_review_accepted": (
+            "G186_ACCEPTED_WITH_STATED_BOUNDS"
+            in (HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").read_text(encoding="utf-8")
+            if (HERE / "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md").is_file()
+            else False
         ),
     }
     status = "PASS" if all(checks.values()) else "FAIL"

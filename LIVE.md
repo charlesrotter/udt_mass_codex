@@ -46,25 +46,29 @@ bridge explicitly `IMPORTED_CONDITIONAL` and P1 `R(Z)` explicitly
 replays without fitting or post-readout angular factors. Fresh gpt-5.4 scientific and repair-only
 reviews accept with stated caveats; the sealed dependency-free replay passes.
 
+G186 tests one nonradial germ. `Phi=phi-1/2 log(1-nu^2)`: clock-angular norm changes depth; the
+angular Gram feeds tape/shift and fixes the local screen. Static clocks keep `Phi=phi` while
+nonradial rulers stay live, explaining G185 without switching physics off. External review accepts;
+finite Jacobi/flux propagation remains open.
+
 ### Current dependency spine
 
 - **G129 G134--G163.** Reconstruct `g`, derive normalized `chi`, require overlap for carry, and bound
   carrier/score/scale freedoms; G163 removes `X_max`. Valuation and carrier stay open.
-- **G164--G185.** Remove scaffolds; derive, normalize, extend, and glue the supplied-pair kernel;
-  classify carry, regular branches, and coordinate equivalence; then verify bounded radial SNe
-  accounting. Physical germ/branch population, symmetry policy, transfer, and `R(Z)` stay open.
+- **G164--G186.** Remove scaffolds; derive and glue the supplied-pair kernel; classify carry,
+  branches and equivalence; verify radial SNe accounting; then resolve bounded nonradial channels.
+  Physical germ/branch population, finite transfer, and `R(Z)` stay open.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 G146 parity-even candidates fail on the registered non-collinear witness.
 
-Maximum conclusion: the primary metric owns a reciprocal scalar kernel and carry tests on supplied
-regular completed pairs. G185 additionally verifies, with caveats, the central-spherical SNe
-channel decomposition and frozen dual-catalog non-regression. Native radiative transfer, physical
-`R(Z)`, physical germ/branch population, symmetry policy, non-scalar transport, global extension,
-and numerical `X_max` remain open. Current application check:
-`udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; current structural control:
-`udt_g184_regular_branch_equivalence_classification_2026-08-19/`, then G183--G166.
+Maximum conclusion: the primary metric owns a reciprocal scalar kernel and local channel split on
+supplied regular completed pairs. G185 verifies radial SNe channel accounting; G186 verifies the
+nonradial clock/ruler split and local screen. Native radiative transfer, physical `R(Z)`, physical
+germ/branch population, finite propagation, global extension, and numerical `X_max` remain open.
+Current structural result: `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`;
+current application check: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain; G93--G128 are archived provenance.
@@ -112,11 +116,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G185 closes the central-spherical SNe channel check. Next map one genuinely nonradial or
-nonspherical supplied observation query where the completed pullback has a live angular pair
-tangent, and preregister whether the existing kernel alone determines its scalar/screen response.
-Do not fit observations, invent regime switches, bolt an angular factor on after readout, reopen
-the scalar kernel, or import physical branch population/native light transfer.
+G186 closes the local nonradial channel split. Next map one supplied finite nonradial observation
+query and test whether its Jacobi/screen propagation follows from the same metric and local screen.
+Do not fit observations, invent regime switches, bolt on angular factors, reopen the scalar kernel,
+or claim a local projector is already a flux/luminosity law.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.

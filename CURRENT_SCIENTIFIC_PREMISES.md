@@ -44,8 +44,9 @@
 | G183 pair strata | `DERIVED_CONDITIONAL`; repair follow-up accepted | Degeneracy taxonomy; regular multibranch output remains branch-labelled |
 | G184 branch equivalence | `DERIVED_CONDITIONAL`; accepted | Typed quotient; kernel is incomplete realization invariant |
 | G185 SNe channels | `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS` | Radial pair angular Gram is zero; sky area `R^2` is live; dual-catalog replay preserved; transfer imported; `R(Z)` frozen |
+| G186 | externally accepted | Nonradial channels and local screen |
 
-None selects values, completion, or `X_max`.
+None selects completion or `X_max`.
 ## Scale and limits
 
 | Object | Status | Guard |
@@ -72,10 +73,10 @@ None selects values, completion, or `X_max`.
 - G149--G163 bound first jets, scale, score, carry, quotient, rapidity, and the X-free kernel;
   route/frame transport stays separate.
 - G165 controls envelope; G166 excludes it from founded block.
-- G166--G185 derive and test the supplied-pair kernel; G177--G178 verify. G182 separates scalar, metric, and immersion
+- G166--G186 test the supplied-pair kernel; G177--G178 verify. G182 separates scalar, metric, and immersion
   carry; G183 separates domain failure from regular multiplicity; G184 removes coordinate duplicates
   without selecting a branch; G185 checks bounded central-spherical SNe channels
-  without deriving native transfer or `R(Z)`. Germ/branch/global selection stays open.
+  without native transfer or `R(Z)`; G186 resolves nonradial channels/screen.
 
 ## Carrier, action, source, and matter
 
@@ -105,13 +106,13 @@ Do not:
 - promote G146--G162 controls to carrier, dynamics, observation, evolution, or closure;
 - erase joined `C,Gamma`, collapse route into tangent transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize G167--G185, select `Y,Z`, scalarize angular Gram, force triangles, erase calibration
+- globalize G167--G186, select `Y,Z`, scalarize angular Gram, force triangles, erase calibration
   controls, or call the chain canon, event/germ selection, global carry, or dynamics;
 - import familiar mechanisms as UDT derivations or select branches by resemblance.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 170-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 171-row authority. On conflict, stop.
 
 During orientation use this guide and run:
 

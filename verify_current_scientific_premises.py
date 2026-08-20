@@ -212,6 +212,7 @@ def validate_startup_surface(root: Path) -> None:
             "G183",
             "G184",
             "G185",
+            "G186",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -253,7 +254,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "170-row exact registry",
+            "171-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -451,7 +452,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "170-row",
+            "171-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -710,9 +711,13 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 170, "premise registry must contain exactly 170 rows")
+    require(len(rows) == 171, "premise registry must contain exactly 171 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 170, "duplicate premise id")
+    require(len(by_id) == 171, "duplicate premise id")
+    require(
+        "FRESH_EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS" in by_id["G186"]["current_status"],
+        "G186 external bounded acceptance absent",
+    )
     require(
         by_id["G01"]["current_status"] == "DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH",
         "founded relational character",
@@ -4635,7 +4640,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G185-extended premise guards; PASS: 170-row premise "
+        "PASS: G186-extended premise guards; PASS: 171-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

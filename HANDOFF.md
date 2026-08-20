@@ -28,14 +28,18 @@ retains `|det D_sky|=R^2`. Frozen Pantheon+ and DES replays survive with no fit 
 angular factor. The transfer rule remains imported and P1 `R(Z)` remains frozen calibration.
 Fresh gpt-5.4 reviews accept.
 
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G184 build
-the scaffold-free kernel and quotient; G185 is the radial SNe check. `INDEX.md` lists milestones.
+G186 activates one nonradial germ. Clock-angular norm changes completed depth; the rest of
+the angular Gram feeds tape/shift and fixes the screen. Static clocks retain `Phi=phi` with
+nonradial ruler data live. Fresh gpt-5.4 review accepts; finite Jacobi/flux propagation stays open.
+
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G186 build,
+test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 
-Open `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/AUDIT_REPORT.md` first for
-the current application check, then G184 through G166 for structure. G163 controls `X_max`; G164--G165 control scaffolds;
+Open `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/AUDIT_REPORT.md` first, then
+G185 for the application check and G184--G166 for structure. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
 
 G93--G128 provenance is under `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -80,8 +84,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G185 evidence closure is complete. Map one supplied nonradial or nonspherical observation query
-whose pair tangent has live angular participation, then test whether the existing completed
-pullback determines the response without any fitted regime switch or post-readout orchestra.
+G186 local channel closure is complete. Map one supplied finite nonradial observation query and
+test Jacobi/screen propagation from the same metric without fitted or post-readout factors.
 
 <!-- STARTUP_CURRENT_END -->

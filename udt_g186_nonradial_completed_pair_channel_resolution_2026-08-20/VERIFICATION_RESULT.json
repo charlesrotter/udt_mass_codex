@@ -4,6 +4,7 @@
     "all_required_files": true,
     "all_sources_immutable": true,
     "catch_count_18": true,
+    "external_review_accepted": true,
     "independent_20000_pass": true,
     "landing_matches": true,
     "live_replays_pass": true,

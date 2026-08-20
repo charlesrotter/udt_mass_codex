@@ -33,6 +33,12 @@ zero while the separate sky Jacobi determinant remains `R^2`. The frozen Pantheo
 likelihoods are preserved with no fit and no angular bolt-on. This is externally reviewed with
 caveats because radiative transfer remains imported and P1 `R(Z)` remains frozen calibration.
 
+G186 then activates a bounded nonradial germ. The complete pullback gives
+`Phi=phi-1/2 log(1-nu^2)`: clock-angular norm changes depth, while ruler-angular norm, cross Gram,
+and wedge area remain in tape and shift. The metric and pair plane also fix the positive rank-two
+local screen. Static clocks retain `Phi=phi` with nonradial ruler data live, explaining G185
+non-regression without freezing angular physics. Fresh gpt-5.4 review accepts with stated bounds.
+
 ## Controlling local evaluator
 
 ```text
@@ -51,6 +57,7 @@ spherical metric to
 h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z,
 B=diag(c_E exp(-phi),exp(phi)), Q=diag(r,r sin(theta)), S=0.
 Smooth primary tape: ds/dsigma=sqrt(v^2+exp(-2phi)r^2b2), Phi(s)=phi(r(s)).
+Bounded G186 germ: Phi=phi-1/2 log(1-exp(2phi)r^2 A).
 ```
 
 G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities; G171
@@ -58,11 +65,12 @@ shows that independently evaluated pairs remain native without forced scalar tri
 G172 proves monotone-areal closure; G173--G175 classify turning and arbitrary-calibration controls;
 G176 closes normalization; G179 extends coframes; G180 glues smooth families; G181 classifies their
 first one-sided endpoint boundary; G182 classifies supplied two-sided carry; G183 classifies local
-degenerate and regular multibranch strata; G184 classifies the regular realization quotient.
+degenerate and regular multibranch strata; G184 classifies the regular realization quotient; G186
+resolves one local nonradial scalar/tape/shift/screen split.
 
-Current application check: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`.
-Current structural control: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`, then
-G183--G166 in `INDEX.md`. Conditional complete evaluator:
+Current structural result: `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`.
+Current application check: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; then
+G184--G166 in `INDEX.md`. Conditional complete evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ## Current reconstruction and ownership chain
@@ -76,8 +84,10 @@ G183--G166 in `INDEX.md`. Conditional complete evaluator:
 - G185 verifies that zero radial pair angular Gram and live sky `R^2` coexist. With transfer
   `IMPORTED_CONDITIONAL` and P1 `R(Z)` frozen, Pantheon+ and DES replays survive without fitting.
   This is externally reviewed channel accounting, not native luminosity or history selection.
+- G186 verifies the bounded nonradial channel allocation and local screen without an added scalar;
+  finite Jacobi/flux propagation and physical query population remain open.
 Guard index: `G129,G134,G135,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185`; rank ten, positive conformal class, common-scale ownership,
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186`; rank ten, positive conformal class, common-scale ownership,
 bivector area bilinear, physical multidirectional carrier, first-order ceiling, and 184,300 rows.
 
 ## Observational anchors
@@ -111,7 +121,7 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G185 closes the central-spherical radial SNe tile. Next, map one supplied nonradial or nonspherical
-observation query where angular pair participation is nonzero, and test the existing completed
-pullback before introducing observational coefficients. Do not add post-readout angular factors,
-fit regime switches, infer branch population, or reopen the accepted scalar kernel.
+G186 closes the local nonradial channel split. Next map one supplied finite nonradial observation
+query and test whether Jacobi/screen propagation follows from the same metric and local projector.
+Do not add post-readout angular factors, fit regime switches, infer branch population, identify the
+local projector with flux, or reopen the accepted scalar kernel.

@@ -11,6 +11,6 @@
 | Mutation and semantic catches | PASS | 18 executable catches; 12 semantic guards |
 | Premise audit | PASS | 170 rows and 754 historical dispositions |
 | Repository regression | PASS | 130 passed; 1 expected xfail |
-| Fresh adversarial review | PENDING | required for external grade |
+| Fresh adversarial review | PASS | gpt-5.4: `G186_ACCEPTED_WITH_STATED_BOUNDS` |
 
-Maximum current grade: `INTERNALLY_VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_PENDING`.
+Maximum current grade: `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS`.
