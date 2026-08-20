@@ -1,0 +1,13 @@
+{
+  "all_original_scientific_gates_passed": true,
+  "changed_field_classes": {
+    "implementation": 1,
+    "max_tide_asymmetry": 113,
+    "max_tide_error": 140
+  },
+  "changed_values": 254,
+  "maximum_absolute_numeric_drift": 4.440892098500626e-16,
+  "r4_exact_json_identity_except_implementation": false,
+  "read_only_single_metric_jet_probe": "PASS",
+  "status": "R4_REJECTED_BY_PREREGISTERED_EXACT_IDENTITY_GATE"
+}
