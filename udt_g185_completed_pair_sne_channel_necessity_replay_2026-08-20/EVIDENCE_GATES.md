@@ -14,6 +14,12 @@
 | Mutation/semantic catches | PASS | 13 executable catches; 11 semantic guards |
 | Premise audit | PASS | exact 170-row registry and 754 historical dispositions |
 | Repository regression | PASS | 130 passed; 1 expected xfail |
-| Fresh adversarial review | PENDING | required before banking a verified verdict |
+| Fresh adversarial review | REPAIR REQUIRED | bounded science independently reproduced; first intake was not self-replayable |
+| Packaging repair preregistered | PASS | commit `6800b187` before implementation |
+| Sealed source containment | PASS | 14/14 manifest paths resolve only under intake `sources/` |
+| Dependency-free sealed replay | PASS | Node.js replay works under `python3 -S`; both legacy entrypoints delegate without scientific Python |
+| Sealed numerical replay | PASS | both catalogs remain within frozen tolerances; all hostile controls remain worse |
+| Sealed default no-write gate | PASS | complete before/after intake hash census identical |
+| Repair-only external follow-up | PENDING | required before final verified banking |
 
-Maximum current grade: `INTERNALLY_VERIFIED_CONDITIONAL_LEAD`.
+Maximum current grade: `TECHNICALLY_REPAIRED_CONDITIONAL_LEAD__EXTERNAL_FOLLOWUP_PENDING`.

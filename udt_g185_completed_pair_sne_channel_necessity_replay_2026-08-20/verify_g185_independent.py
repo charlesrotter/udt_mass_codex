@@ -7,12 +7,22 @@ import json
 import math
 import os
 from pathlib import Path
+import subprocess
+import sys
+
+
+HERE = Path(__file__).resolve().parent
+SEALED_REPLAY = HERE / "verify_sealed_intake.js"
+if (HERE.parent.joinpath("sources").is_dir() and SEALED_REPLAY.is_file()):
+    completed = subprocess.run(
+        ["node", str(SEALED_REPLAY)], cwd=HERE, check=False, text=True
+    )
+    raise SystemExit(completed.returncode)
 
 import numpy as np
 from scipy.linalg import cho_factor, cho_solve
 
 
-HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 P_TABLE = ROOT / "Data/Pantheon+SH0ES.dat"
 P_COV = ROOT / "Data/Pantheon+SH0ES_STAT+SYS.cov"

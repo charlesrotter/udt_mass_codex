@@ -27,11 +27,7 @@ def main() -> None:
     intake = Path(tempfile.mkdtemp(prefix="udt_g185_review_"))
     package_target = intake / HERE.name
     package_target.mkdir()
-    excluded = {
-        "EXTERNAL_ADVERSARIAL_REVIEW_RAW.md",
-        "EXTERNAL_ADVERSARIAL_REVIEW_TRANSCRIPT.txt.gz",
-        "TRANSMISSION_RECORD.md",
-    }
+    excluded: set[str] = set()
     for source in sorted(HERE.iterdir()):
         if source.is_file() and source.name not in excluded:
             shutil.copy2(source, package_target / source.name)
@@ -40,6 +36,7 @@ def main() -> None:
         rows = list(csv.DictReader(handle, delimiter="\t"))
     if len(rows) != 14:
         raise RuntimeError("expected 14 registered sources")
+    sealed_rows = []
     for index, row in enumerate(rows, start=1):
         source = Path(row["path"])
         if not source.is_absolute():
@@ -51,6 +48,23 @@ def main() -> None:
         target = intake / "sources" / safe_name
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, target)
+        sealed_rows.append({
+            "path": f"sources/{safe_name}",
+            "sha256": row["sha256"],
+            "role": row["role"],
+        })
+
+    # The repository manifest remains a provenance ledger. Only the sealed copy
+    # is rewritten so every registered byte resolves inside the intake.
+    with (package_target / "SOURCE_MANIFEST.tsv").open(
+        "w", encoding="utf-8", newline=""
+    ) as handle:
+        writer = csv.DictWriter(
+            handle, fieldnames=["path", "sha256", "role"], delimiter="\t",
+            lineterminator="\n",
+        )
+        writer.writeheader()
+        writer.writerows(sealed_rows)
 
     files = []
     for path in sorted(item for item in intake.rglob("*") if item.is_file()):

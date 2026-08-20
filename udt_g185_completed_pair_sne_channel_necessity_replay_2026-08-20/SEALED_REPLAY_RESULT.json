@@ -1,0 +1,35 @@
+{
+  "pantheon": {
+    "n": 1367,
+    "chi2": 1260.848088727467,
+    "offset": 22.34352850161705,
+    "deleted": 117950.09281570304,
+    "duplicated": 115567.50270059567,
+    "wrongTransfer": 2279.7628244181838
+  },
+  "des": {
+    "n": 1623,
+    "chi2": 1444.186441962819,
+    "offset": 41.70895660296941,
+    "deleted": 16406.387834532656,
+    "duplicated": 16539.659239739754,
+    "wrongTransfer": 2135.4666045036997
+  },
+  "audit": "G185_SEALED_DEPENDENCY_FREE_REPLAY",
+  "status": "PASS",
+  "checks": {
+    "pantheonCount": true,
+    "desCount": true,
+    "pantheonChi2": true,
+    "pantheonOffset": true,
+    "desChi2": true,
+    "desOffset": true,
+    "pantheonDeletedCaught": true,
+    "pantheonDuplicatedCaught": true,
+    "pantheonWrongTransferCaught": true,
+    "desDeletedCaught": true,
+    "desDuplicatedCaught": true,
+    "desWrongTransferCaught": true
+  }
+}
+
