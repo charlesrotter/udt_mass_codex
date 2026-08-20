@@ -1,0 +1,19 @@
+claim	status	scope
+complete_coframe_metric	free-and-explored	supplied smooth Lorentzian history
+affine_null_query	CHOSE	one supplied regular branch and normalization
+quotient_screen	DERIVED_CONDITIONAL	k-perp modulo k on supplied branch
+screen_positive_metric	DERIVED_CONDITIONAL	Lorentzian index one regular stratum
+screen_connection	DERIVED_CONDITIONAL	Levi-Civita quotient connection
+screen_tidal_operator	DERIVED_CONDITIONAL	self-adjoint curvature endomorphism
+finite_jacobi_map	DERIVED_CONDITIONAL	continuous tidal matrix and unit vertex data
+g187_diagonal_specialization	DERIVED_CONDITIONAL	static-spherical reflection symmetry
+mixing_witness	CHOSE_MATHEMATICAL_CONTROL	nonspherical complete coframe with live S
+offdiagonal_tidal_response	OBSERVED_EXACT_CONTROL	minus two in both cross entries
+offdiagonal_finite_response	OBSERVED_EXACT_CONTROL	sinh(2lambda)/4 minus lambda/2
+independent_replay_scope	VERIFIED_WITH_CAVEAT	witness-family metric-jet reconstruction; not generic arbitrary-coframe parser
+external_review	ACCEPTED_WITH_STATED_BOUNDS	fresh gpt-5.4 review; bounded landing unchanged
+extra_angular_coefficient	EXCLUDED_IN_BOUNDED_CLASS	no coefficient in metric evaluator
+physical_metric_history	OPEN	not selected
+physical_ray_population	OPEN	not selected
+flux_luminosity_transfer	OPEN	not derived from Jacobi area
+R_of_Z_Xmax	OPEN	not used or derived

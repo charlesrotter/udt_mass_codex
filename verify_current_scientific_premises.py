@@ -214,6 +214,7 @@ def validate_startup_surface(root: Path) -> None:
             "G185",
             "G186",
             "G187",
+            "G188",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -255,7 +256,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "172-row exact registry",
+            "173-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -315,6 +316,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g174_native_calibrated_pair_germ_chart_ownership_2026-08-19/",
             "udt_g175_relation_wide_calibration_equivalence_audit_2026-08-19/",
             "udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/",
+            "udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "CLAUDE.md",
             "MEMORY.md",
@@ -363,6 +365,7 @@ def validate_startup_surface(root: Path) -> None:
             "G177",
             "G183",
             "G184",
+            "G188",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -410,6 +413,7 @@ def validate_startup_surface(root: Path) -> None:
             "G177",
             "G183",
             "G184",
+            "G188",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -450,10 +454,11 @@ def validate_startup_surface(root: Path) -> None:
             "G182",
             "G183",
             "G184",
+            "G188",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "172-row",
+            "173-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -686,6 +691,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g151_pair_chord_generalized_deviation_join_2026-08-17/AUDIT_REPORT.md",
         "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md",
         "udt_g153_relational_position_ruler_differential_join_2026-08-17/AUDIT_REPORT.md",
+        "udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -712,9 +718,18 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 172, "premise registry must contain exactly 172 rows")
+    require(len(rows) == 173, "premise registry must contain exactly 173 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 172, "duplicate premise id")
+    require(len(by_id) == 173, "duplicate premise id")
+    require(
+        "FRESH_EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS" in by_id["G188"]["current_status"],
+        "G188 external bounded acceptance absent",
+    )
+    require(
+        "WITNESS_FAMILY_LEVEL_NOT_GENERIC_ARBITRARY_COFRAME_PARSER"
+        in by_id["G188"]["current_status"],
+        "G188 independent-replay scope caveat absent",
+    )
     require(
         "CERTIFICATION_REPAIR_FOLLOWUP_ACCEPTED_SCIENTIFIC_LANDING_UNCHANGED"
         in by_id["G187"]["current_status"],
@@ -4646,7 +4661,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G187-extended premise guards; PASS: 172-row premise "
+        "PASS: G188-extended premise guards; PASS: 173-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

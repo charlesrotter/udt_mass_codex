@@ -1,17 +1,17 @@
 # Premise index
 
-`LIVE.md` and TSV own status; this is not `CANON.md`.
+`LIVE.md` and TSV own status; not `CANON.md`.
 ## Foundational relation
 
 | Object | Status | What is owned | What remains open |
 |---|---|---|---|
-| `c_E`, `G_obs` | `OBSERVED` | Anchors | Native placement and closure |
-| Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))`; determinant-one block on supplied depth | Pair values and general `3+1` assembly |
-| Pointwise `phi` | `CONDITIONAL` | Local factorization | Universal ownership |
+| `c_E`, `G_obs` | `OBSERVED` | Anchors | Placement and closure |
+| Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))`; determinant-one block on supplied depth | Pair values; `3+1` assembly |
+| Pointwise `phi` | `CONDITIONAL` | Local factorization | Ownership |
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
-| Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied regular planes | Physical germ/ambient extension |
+| Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Pair-relative scalar network | `VERIFIED_WITH_CAVEATS` | Endpoint difference; same-pair reversal | Germ/global extension; not distance |
+| Pair-relative scalar network | `VERIFIED_WITH_CAVEATS` | Endpoint difference; reversal | Germ/global extension; not distance |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
@@ -22,45 +22,46 @@
 |---|---|---|
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
 | G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks recover `g`; scalars stop at positive conformal class |
-| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Normalized position; overlap owns carry |
+| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Position; overlap owns carry |
 | G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Atlas reconstruction; realization open |
 | G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projection nonunique; carrier open |
 | G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Chosen-representation identity only |
 | G149--G162 score/carry/quotient | `VERIFIED_WITH_CAVEATS` | Scalar and route memory remain distinct |
 | G163 Xmax dependency reversal | `VERIFIED_WITH_CAVEATS` | Scalar kernel ends at dimensionless `chi` |
 | G165 conformal rank | `VERIFIED_WITH_CAVEATS` control | Envelope conformal kernel; not physical multiplicity |
-| G166 primary pair descent | `VERIFIED_WITH_CAVEATS` | Founded pair metric owns its scalar kernel; general `3+1` remains conditional |
-| G167 primary-metric pair pullback | `VERIFIED_WITH_CAVEATS` | Primary spherical metric owns the local pair orchestra; `Y,Z` remain pair data |
+| G166 primary pair descent | `VERIFIED_WITH_CAVEATS` | Pair metric owns its scalar kernel; general `3+1` remains conditional |
+| G167 primary-metric pair pullback | `VERIFIED_WITH_CAVEATS` | Spherical metric owns the local orchestra; `Y,Z` remain pair data |
 | G168 supplied-germ plane | `VERIFIED_WITH_CAVEATS` | Supplied germ yields `Y,Z`; ownership open |
-| G170 endpoint-relative response | `VERIFIED_WITH_CAVEATS` | `delta_AB=Phi_B-Phi_A` in one consistent calibration class; cross-query carry open |
+| G170 endpoint-relative response | `VERIFIED_WITH_CAVEATS` | `delta_AB=Phi_B-Phi_A` in one calibration class; cross-query carry open |
 | G171 pair-germ-relative network | `VERIFIED_WITH_CAVEATS` | Native pair evaluation; only matched endpoint readouts telescope |
-| G172 smooth pair-family closure | `VERIFIED_WITH_CAVEATS` | Supplied monotone-areal sphere curves close; converse/global open |
-| G173 turning atlas | `VERIFIED_WITH_CAVEATS` | Angular turns stay regular; bare lines retain scalar charts |
-| G174 calibrated germ | `VERIFIED_WITH_CAVEATS` | One calibrated ruler fixes one scalar; bare line retains atlas |
+| G172 smooth pair-family closure | `VERIFIED_WITH_CAVEATS` | Monotone-areal sphere curves close; converse/global open |
+| G173 turning atlas | `VERIFIED_WITH_CAVEATS` | Turns stay regular; bare lines retain scalar charts |
+| G174 calibrated germ | `VERIFIED_WITH_CAVEATS` | Calibrated ruler fixes one scalar; bare line retains atlas |
 | G175 calibration equivalence | `VERIFIED_WITH_CAVEATS` | Endpoint depths fix tape modulo unit |
 | G176--G180/G179 kernel | conditional; accepted | Ruler extends through families |
 | G181 endpoints | conditional; accepted | Tape, stall, zero-tangent classes |
 | G182 two-sided carry | conditional; accepted | Carry types; stall parity |
-| G183 pair strata | `DERIVED_CONDITIONAL`; repair follow-up accepted | Degeneracy taxonomy; regular multibranch output remains branch-labelled |
+| G183 pair strata | `DERIVED_CONDITIONAL`; accepted | Degeneracy taxonomy; regular output remains branch-labelled |
 | G184 branch equivalence | conditional; accepted | Typed quotient; kernel incomplete |
-| G185 SNe channels | externally reviewed | Radial pair angular Gram zero; sky area `R^2` live; replay preserved; transfer imported; `R(Z)` frozen |
+| G185 SNe channels | externally reviewed | Radial angular Gram zero; sky `R^2` live; replay preserved; transfer imported; `R(Z)` frozen |
 | G186 | externally accepted | Nonradial channels and local screen |
-| G187 | externally accepted | G186 screen propagates into a finite two-mode map; no added coefficient |
+| G187 | externally accepted | G186 screen propagates into a two-mode map; no added coefficient |
+| G188 | externally accepted with caveat | General complete-metric quotient screen and finite matrix Jacobi map; live mixing; independent replay scoped to witness family |
 
 None selects completion or `X_max`.
 ## Scale and limits
 
 | Object | Status | Guard |
 |---|---|---|
-| `X_max` | working asymptotic global-completion consequence target | Not a local kernel input; requires independent metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
+| `X_max` | working asymptotic global-completion consequence target | Not a local input; requires metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
 | Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless explicitly reauthorized |
-| Common-factor cancellation | `DERIVED` algebra only | Not a local Weyl-gauge theorem or proof that physical UDT is scale-free |
+| Common-factor cancellation | `DERIVED` algebra only | Not a Weyl-gauge theorem or proof UDT is scale-free |
 | Founded pair common scale | `FIXED` in bounded block | Determinant-one reciprocal clock/ruler block; not a general complete-metric theorem |
-| General complete pair scale | `CONDITIONAL/RETAINED` | Present only after a native complete assembly is supplied |
+| General complete pair scale | `CONDITIONAL/RETAINED` | Present after a complete assembly is supplied |
 | Common-scale principal rank | `DERIVED` source-bounded zero | G155 finds no active `kappa` equation; not a no-go |
-| Pair scale carry | `DERIVED_CONDITIONAL` | Half-density determinant character; incomplete closure |
-| Base channel balance | `DERIVED` bounded | `B+(2)` semidirect composition permits changing ratios; full screen/mixing law open |
-| Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4` law and supplied-history velocity; not physical history |
+| Pair scale carry | `DERIVED_CONDITIONAL` | Half-density character; incomplete closure |
+| Base channel balance | `DERIVED` bounded | `B+(2)` composition permits changing ratios; screen/mixing law open |
+| Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4` law and history velocity; not physical history |
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
 
 ## Geometry, query, and causality
@@ -74,9 +75,10 @@ None selects completion or `X_max`.
 - G149--G163 bound first jets, scale, score, carry, quotient, rapidity, and the X-free kernel;
   route/frame transport stays separate.
 - G165 controls envelope; G166 excludes it from founded block.
-- G166--G187 test the pair kernel; G177--G178 verify. G182 separates carry types; G183 regular
+- G166--G188 test the kernel; G177--G178 verify. G182 separates carry types; G183 regular
   multiplicity; G184 coordinate duplicates; G185 radial SNe channels; G186 nonradial channels and
-  screen; G187 finite static-spherical Jacobi propagation. No branch or flux law is selected.
+  screen; G187 finite static-spherical Jacobi propagation; G188 general complete-metric matrix
+  propagation. No branch or flux law is selected.
 
 ## Carrier, action, source, and matter
 
@@ -106,13 +108,13 @@ Do not:
 - promote G146--G162 controls to carrier, dynamics, observation, evolution, or closure;
 - erase joined `C,Gamma`, collapse route into tangent transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize G167--G187, select `Y,Z`, scalarize angular Gram, force triangles, erase calibration
+- globalize G167--G188, select `Y,Z`, scalarize angular Gram, force triangles, erase calibration
   controls, or call the chain canon, event/germ selection, global carry, or dynamics;
 - import familiar mechanisms as UDT derivations or select branches by resemblance.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 172-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 173-row authority. On conflict, stop.
 
 During orientation use this guide and run:
 

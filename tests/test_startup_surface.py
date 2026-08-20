@@ -68,6 +68,7 @@ CURRENT_TARGETS = (
     "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
     "udt_g172_primary_metric_smooth_pair_family_integrability_2026-08-19/AUDIT_REPORT.md",
     "udt_g173_primary_metric_turning_chart_calibration_atlas_2026-08-19/AUDIT_REPORT.md",
+    "udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/AUDIT_REPORT.md",
 )
 
 
@@ -132,7 +133,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 172-row premise registry" in result.stdout
+    assert "PASS: 173-row premise registry" in result.stdout
 
 
 def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:

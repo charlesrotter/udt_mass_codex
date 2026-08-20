@@ -6,28 +6,28 @@ Re-read on resume. `LIVE.md` wins.
 
 G166 owns `phi_pair`, `c_eff/c_E`, and `chi`. G167 pulls `B,Q,S,Y,Z` before readout; G168 uses a
 supplied germ. G170--G171 give pair-relative endpoint differences. G172 G173 G174 G175 are controls.
-G176 provisionally applies Dual Reciprocity after the complete
-pair pullback and uniquely fixes `m=T L_sigma=sqrt(-det h_sigma)`. Arbitrary calibrations remain
+G176 applies provisional Dual Reciprocity after the complete pair pullback and fixes
+`m=T L_sigma=sqrt(-det h_sigma)`. Arbitrary calibrations remain
 controls, not rival kernels. G177 removes scaffolds; G178 externally accepts it. G179 extends the
-conditional theorem to arbitrary coframes and regular germs; review accepts without repair.
-G180 glues intervals; angular/common scale act through the tape. Review accepts.
-G181 separates tape integrability from regular endpoint coefficients. G182 requires matching `T,B`
+conditional theorem to arbitrary coframes and regular germs. G180 glues intervals; angular/common
+scale act through the tape. G181 separates tape integrability from endpoint coefficients. G182 requires matching `T,B`
 jets; scalar carry is weaker and immersion carry needs tangent jets. G183 separates local domain
 failures from regular branch-labelled cut, crossing, and winding families. G184 removes coordinate
 duplicates; equal kernel or pair metric does not identify realizations. Reviews accept.
-G185 verifies the central-spherical radial SNe channel accounting: zero radial pair angular Gram
-and live `R^2` sky area coexist; frozen Pantheon+ and DES replays survive with no fit. External
-reviews accept; light transfer remains imported and P1 `R(Z)` remains frozen calibration.
-G186 routes one nonradial germ into depth, tape/shift, and a local screen while static clocks retain
+G185 verifies central-spherical SNe channel accounting: zero radial angular Gram and live `R^2` sky
+area coexist; Pantheon+ and DES replays survive without fitting. Light transfer remains imported
+and P1 `R(Z)` frozen. G186 routes a nonradial germ into depth, tape/shift, and a local screen while static clocks retain
 `Phi=phi`. G187 propagates that screen into a finite two-mode static-spherical Jacobi map. Generic
-shear needs no added coefficient; reviews accept. Transfer and ambient extension remain open.
+shear needs no added coefficient. G188 derives the complete-metric quotient screen, carry, tidal
+matrix, and finite Jacobi map; coframe mixing generates cross-screen response
+without an added coefficient. Reviews accept. Transfer and physical ray population remain open.
 
-Dependency spine: G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier,
-score, scale, and transport freedoms and remove `X_max`; G164--G187 remove scaffolds, build the
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier, score, scale, and
+transport freedoms and remove `X_max`; G164--G188 remove scaffolds, build the
 supplied-pair kernel, and test radial/nonradial channels.
 See `INDEX.md` for exact milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187`; bivector area bilinear; numerical/global valuation stays open.
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188`; bivector area bilinear; numerical/global valuation stays open.
 
 Physical germ/global realization, ambient extension, completion, and `X_max` remain open.
 
@@ -55,8 +55,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G187 finite static-spherical nonradial propagation is closed. Next test one supplied regular
-nonspherical or mixed complete-coframe history for coefficient-free screen/Jacobi ownership; do not
-fit, add post-readout factors, or call Jacobi area a flux law.
+G188 closes coefficient-free complete-metric screen/Jacobi evaluation on supplied affine null
+queries. Next isolate the explicitly imported radiative-transfer interface and determine what must
+join Jacobi area before flux can be evaluated; do not fit or add post-readout factors.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

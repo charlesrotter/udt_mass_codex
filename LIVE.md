@@ -33,42 +33,37 @@ tape, not afterward. Scientific and repair reviews accept; no-write sealed repla
 G181 classifies tape integrability and finite coefficients. G182 classifies supplied two-sided
 metric/scalar/immersion carry. G183 separates domain failure from regular branch-labelled cut,
 crossing, and winding. Reviews accept.
-G184 now classifies equivalence within that regular branch arena. Query-preserving commuting
-domain diffeomorphisms remove coordinate duplicates; ambient symmetry enters only when the query
-admits it. The kernel descends, but endpoints, `Phi`, tape, pair metric, or image do not identify
-full realizations. External repair-only review accepts.
+G184 removes query-preserving coordinate duplicates and admits ambient symmetries only when typed
+by the query. Equal endpoints, `Phi`, tape, pair metric, or image do not identify realizations.
+Review accepts.
 
-G185 is the first post-kernel physical-application check. For the supplied central-spherical
-outgoing regular SNe query, the radial pair-plane angular Gram vanishes because its angular tangent
-is zero; this does not disable the separate sky Jacobi area `|det D_sky|=R^2`. With the old transfer
-bridge explicitly `IMPORTED_CONDITIONAL` and P1 `R(Z)` explicitly
-`FROZEN_HISTORICAL_CALIBRATION`, the completed kernel preserves the frozen Pantheon+ and DES
-replays without fitting or post-readout angular factors. Fresh gpt-5.4 scientific and repair-only
-reviews accept with stated caveats; the sealed dependency-free replay passes.
+G185 checks central-spherical SNe channels: radial pair angular Gram is zero while sky area
+`|det D_sky|=R^2` remains live. With transfer `IMPORTED_CONDITIONAL` and P1 `R(Z)`
+`FROZEN_HISTORICAL_CALIBRATION`, frozen Pantheon+ and DES replays persist without fitting. Reviews
+accept with caveats.
 
 G186 routes one nonradial germ into depth, tape/shift, and a rank-two local screen; static clocks
 retain `Phi=phi` while nonradial rulers stay live. G187 propagates that screen on one supplied
 static-spherical null query. Two metric-fixed Jacobi modes with zero cross term yield generic shear
-without a fitted coefficient. Reviews accept; flux, ray selection, and nonspherical/time-live scope
-remain open.
+without a fitted coefficient. G188 generalizes this: a supplied complete metric fixes the quotient
+screen, metric carry, tidal matrix, and finite Jacobi map on a supplied affine null query. Exact
+mixing gives cross-response; deleting it is flat. Review accepts. Flux and ray population stay open.
 
 ### Current dependency spine
 
-- **G129 G134--G163.** Reconstruct `g`, derive normalized `chi`, require overlap for carry, and bound
-  carrier/score/scale freedoms; G163 removes `X_max`. Valuation and carrier stay open.
-- **G164--G187.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
+- **G129 G134--G163.** Reconstruct `g`/`chi`, require overlap carry, bound freedoms, remove `X_max`.
+- **G164--G188.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
   equivalence; check radial SNe channels; derive bounded nonradial channels and finite Jacobi map.
   Physical pair population, transfer, ambient extension, and `R(Z)` stay open.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 G146 parity-even candidates fail on the registered non-collinear witness.
 
-Maximum conclusion: the primary metric owns a reciprocal scalar kernel and local channel split on
-supplied regular completed pairs. G185 checks radial SNe channels; G186 derives the nonradial split
-and screen; G187 derives its finite two-mode static-spherical propagation. Transfer, `R(Z)`, pair
-population, ambient/global extension, and numerical `X_max` remain open.
-Current structural result: `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`;
+Maximum conclusion: the primary metric owns its reciprocal kernel on supplied completed pairs.
+G185--G188 extend radial channels through the general finite matrix evaluator. Transfer, `R(Z)`,
+pair population, global extension, and numerical `X_max` remain open.
+Current structural result: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`;
 current application check: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
@@ -117,9 +112,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G187 closes one static-spherical finite screen map. Next test a supplied nonspherical or mixed
-complete coframe for coefficient-free screen/Jacobi ownership. Do not fit, bolt on factors, reopen
-the scalar kernel, or identify Jacobi area with flux.
+G188 closes coefficient-free finite screen/Jacobi evaluation for supplied regular complete metrics
+and affine null queries. Next isolate the smallest explicitly imported radiative-transfer interface
+and prove which source/frequency/conservation data are still needed to turn `|det D|` into flux. Do
+not fit, bolt on factors, reopen the scalar kernel, or call Jacobi area alone a luminosity law.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.

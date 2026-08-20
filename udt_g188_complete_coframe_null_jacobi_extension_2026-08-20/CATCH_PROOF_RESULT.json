@@ -1,0 +1,37 @@
+{
+  "algebraic_mutation_catch_count": 14,
+  "algebraic_mutation_catches": {
+    "caustic_inverse_rejected": true,
+    "cross_tidal_deletion_goes_red": true,
+    "endpoint_basis_erasure_goes_red": true,
+    "endpoint_o2_abs_det_covariant": true,
+    "finite_cross_deletion_goes_red": true,
+    "finite_cross_response_is_generated": true,
+    "flat_deletion_has_no_cubic_response": true,
+    "flat_deletion_retains_vertex_slope": true,
+    "forced_g187_diagonal_form_goes_red": true,
+    "mixing_square_tidal_exact": true,
+    "post_readout_scalar_goes_red": true,
+    "tidal_sign_flip_goes_red": true,
+    "trace_scalarization_goes_red": true,
+    "wrong_trigonometric_sign_goes_red": true
+  },
+  "artifact_scope_guard_count": 11,
+  "artifact_scope_guards": {
+    "flux_promotion_injection_goes_red": true,
+    "globalization_injection_goes_red": true,
+    "metric_jet_clause_deletion_goes_red": true,
+    "no_ray_selection_clause_deletion_goes_red": true,
+    "open_history_status_deletion_goes_red": true,
+    "open_ray_status_deletion_goes_red": true,
+    "path_selection_injection_goes_red": true,
+    "post_readout_orchestra_injection_goes_red": true,
+    "supplied_history_clause_deletion_goes_red": true,
+    "supplied_null_branch_clause_deletion_goes_red": true,
+    "xmax_injection_goes_red": true
+  },
+  "audit": "G188_CATCH_PROOFS",
+  "failed_algebraic_mutation_catches": [],
+  "failed_artifact_scope_guards": [],
+  "status": "PASS"
+}

@@ -1,47 +1,54 @@
 # Current UDT research program
 
 Date: 2026-08-20
-`LIVE.md` controls execution status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls exact premise classification. This file states only the current architecture, open gates, and next bounded move.
+`LIVE.md` controls status; `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premises. This gives the architecture, gates, and next move.
 
 ## Program picture
 
-G166 restores the primary order: the determinant-one ordered-pair metric owns its scalar kernel,
-not an extra profile or fixed-path readout. G167 pulls back the declared static-spherical metric;
-the metric fixes reciprocal/areal-screen blocks and zero mixing, while the supplied plane fixes
-tangent participation. G168 derives that plane from a **supplied** regular germ, not bare labels.
-G170 differences calibrated endpoint ratios. G171 gives every supplied pair
+G166 restores the primary order: the determinant-one pair metric owns its scalar kernel, not an
+extra profile or fixed-path readout. G167 pulls back the static-spherical metric: it fixes
+reciprocal/areal-screen blocks and zero mixing; the supplied plane fixes tangent participation.
+G168 derives that plane from a **supplied** regular germ, not labels.
+G170 differences endpoint ratios. G171 gives every pair
 `delta_XY=Phi_Y|XY-Phi_X|XY`: reversal is exact, arbitrary triangles need not telescope, and matched
-readouts do. No co-presence, observer-only potential, or scaffolded carry/score kernel is needed.
+readouts do. No co-presence, observer-only potential, or scaffolded carry/score is needed.
 
 Charles provisionally adopts completed-pair Dual Reciprocity. After angular, screen, mixing, and
 shift enter the supplied pullback, G176 uniquely derives
 `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1`, and `Phi=-log T`. Other calibrations are control queries,
 not rival kernels. Event/germ realization remains open.
-G177 removes scaffolds; G178 accepts. G179 extends to arbitrary coframes and regular germs; review
-accepts without repair.
-G180 glues supplied smooth families; angular motion changes the tape map, not completed `Phi`.
-G181 separates tape integrability from regular endpoint coefficients. G182 classifies supplied seam
-carry: metric carry matches `T,B` jets, scalar carry is weaker, and immersion carry needs tangent
-jets. G183 separates local domain failure from regular cut, crossing, and winding multiplicity;
-regular outputs remain branch-labelled. G184 removes coordinate duplicates by typed realization
+G177 removes scaffolds; G178 accepts. G179 extends to arbitrary coframes and regular germs.
+G180 glues smooth families; angular motion changes the tape map, not `Phi`.
+G181 separates tape integrability from endpoint coefficients. G182 classifies supplied seam carry:
+metric carry matches `T,B` jets, scalar carry is weaker, and immersion carry needs tangent jets.
+G183 separates domain failure from regular cut, crossing, and winding multiplicity;
+outputs remain branch-labelled. G184 removes coordinate duplicates by realization
 isomorphism, permits ambient-query symmetries only when explicitly declared, and proves that equal
 kernel or pair metric does not identify a full realization. Reviews accept.
 
-G185 then performs the first bounded post-kernel application replay. On the supplied
-central-spherical outgoing regular SNe query, the radial pair tangent makes the pair angular Gram
-zero while the separate sky Jacobi determinant remains `R^2`. The frozen Pantheon+ and DES
-likelihoods are preserved with no fit and no angular bolt-on. This is externally reviewed with
-caveats because radiative transfer remains imported and P1 `R(Z)` remains frozen calibration.
+G185 is the first bounded application replay. On the supplied central-spherical outgoing SNe query,
+the radial pair tangent makes the pair angular Gram
+zero while sky Jacobi determinant remains `R^2`. Frozen Pantheon+ and DES
+likelihoods are preserved without fitting or angular bolt-on. Radiative transfer is imported and
+P1 `R(Z)` remains frozen calibration.
 
-G186 then activates a bounded nonradial germ. The complete pullback gives
+G186 activates a bounded nonradial germ. The pullback gives
 `Phi=phi-1/2 log(1-nu^2)`: clock-angular norm changes depth, while ruler-angular norm, cross Gram,
 and wedge area remain in tape and shift. The metric and pair plane also fix the positive rank-two
 local screen. Static clocks retain `Phi=phi` with nonradial ruler data live, explaining G185
-non-regression without freezing angular physics. Fresh gpt-5.4 review accepts with stated bounds.
+non-regression without freezing angular physics. Review accepts.
 
-G187 carries the G186 screen along one supplied nonradial null query. Two metric-fixed diagonal
-Jacobi modes with zero cross term yield bounded generic shear without an extra coefficient. Reviews
-accept; this is not radiative transfer or a physical ray-population law.
+G187 carries the screen along one supplied nonradial null query. Two metric-fixed diagonal Jacobi
+modes yield bounded generic shear without an added coefficient. It is not radiative transfer or a
+physical ray-population law.
+
+G188 derives the complete-metric construction under G187. On a smooth regular Lorentzian
+metric and affine null query, the positive quotient screen, metric Levi-Civita carry,
+self-adjoint tidal matrix, and unique finite vertex-normalized
+Jacobi map are metric-fixed. A genuine coframe-mixing witness produces off-diagonal finite response
+without an appended coefficient; deleting mixing returns flat propagation. External review
+accepts. The independent exact-Fraction census certifies the declared mixing
+witness family, not a generic arbitrary-coframe parser.
 
 ## Controlling local evaluator
 
@@ -64,36 +71,37 @@ Smooth primary tape: ds/dsigma=sqrt(v^2+exp(-2phi)r^2b2), Phi(s)=phi(r(s)).
 Bounded G186 germ: Phi=phi-1/2 log(1-exp(2phi)r^2 A).
 ```
 
-G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint densities; G171
-shows that independently evaluated pairs remain native without forced scalar triangle closure;
+G168 maps `(u_A,s_AB)` to `Y,Z`; G170 differences endpoint densities; G171 shows independently
+evaluated pairs remain native without forced scalar triangle closure;
 G172 proves monotone-areal closure; G173--G175 classify turning and arbitrary-calibration controls;
 G176 closes normalization; G179 extends coframes; G180 glues smooth families; G181 classifies their
-first one-sided endpoint boundary; G182 classifies supplied two-sided carry; G183 classifies local
+first one-sided endpoint boundary; G182 classifies two-sided carry; G183 classifies local
 degenerate and regular multibranch strata; G184 classifies the regular realization quotient; G186
 resolves one local nonradial scalar/tape/shift/screen split; G187 propagates that screen into one
-finite two-mode Jacobi map.
+finite two-mode Jacobi map; G188 derives the general complete-metric matrix evaluator.
 
-Current structural result: `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`.
+Current structural result: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`.
 Current application check: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; then
 G184--G166 in `INDEX.md`. Conditional complete evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
-## Current reconstruction and ownership chain
+## Reconstruction and ownership chain
 
 - G129--G165 reconstruct `g`/`chi`, localize overlap carry, bound carrier/score/scale freedoms,
   remove `X_max` from the kernel, and subtract scaffolds.
-- G166--G175 derive the supplied-germ pullback, pair-relative reversal/network, smooth turns, and
+- G166--G175 derive the germ pullback, pair-relative reversal/network, turns, and
   calibration controls. Bare labels still do not select a germ.
-- G176--G184 normalize the completed pair, extend coframes, glue families, and classify endpoints,
+- G176--G184 normalize the pair, extend coframes, glue families, and classify endpoints,
   supplied carry, regular multiplicity, and coordinate equivalence. They select no physical branch.
-- G185 verifies that zero radial pair angular Gram and live sky `R^2` coexist. With transfer
+- G185 verifies zero radial pair angular Gram and live sky `R^2` coexist. With transfer
   `IMPORTED_CONDITIONAL` and P1 `R(Z)` frozen, Pantheon+ and DES replays survive without fitting.
   This is externally reviewed channel accounting, not native luminosity or history selection.
-- G186 verifies the bounded nonradial channel allocation and local screen without an added scalar;
-  G187 derives its finite two-mode Jacobi propagation on one supplied static-spherical null query.
-  Physical query population, radiative transfer, and nonspherical/time-live extension remain open.
+- G186 verifies nonradial channel allocation and a local screen without an added scalar;
+  G187 derives its static-spherical finite two-mode propagation; G188 derives the general supplied
+  metric matrix propagation with live mixing. Physical query population and radiative
+  transfer remain open.
 Guard index: `G129,G134,G135,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187`; rank ten, positive conformal class, common-scale ownership,
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188`; rank ten, positive conformal class, common-scale ownership,
 bivector area bilinear, physical multidirectional carrier, first-order ceiling, and 184,300 rows.
 
 ## Observational anchors
@@ -127,8 +135,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G187 closes finite screen propagation for one supplied static-spherical nonradial null query. Next
-preregister a bounded complete-coframe extension and test whether one supplied regular
-nonspherical or mixed metric history fixes its transported screen and finite Jacobi map without an
-added coefficient. Do not add post-readout angular factors, fit regime switches, infer branch
-population, identify Jacobi area with flux, or reopen the accepted scalar kernel.
+G188 closes the bounded complete-coframe screen/Jacobi extension. Next preregister the smallest
+explicitly imported radiative-transfer interface and determine exactly which source, frequency,
+and conservation data must join `|det D|` before a flux can be evaluated. Do not add post-readout
+angular factors, fit regime switches, infer branch population, identify Jacobi area alone with
+flux, or reopen the accepted scalar kernel.

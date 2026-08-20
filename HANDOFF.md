@@ -8,8 +8,8 @@
 
 ### Current theory state
 
-G166 derives the pair scalars. G167 gives
-`h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z` with metric-fixed `B,Q,S=0` in `B,Q,S,Y,Z`; the orchestra precedes readout.
+G166 derives pair scalars. G167 gives
+`h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z` with metric-fixed `B,Q,S=0` within `B,Q,S,Y,Z`; the orchestra precedes readout.
 G168 derives the plane from a supplied germ; physical ownership is `OPEN_NOT_DERIVED`.
 
 G170--G171 give `delta_XY=Phi_Y|XY-Phi_X|XY`: reversal is exact and matched readouts telescope.
@@ -18,27 +18,27 @@ Co-presence and scaffolded carry/score are inactive.
 Completed-pair Reciprocity is provisional. G176 fixes `m=T L_sigma=sqrt(-det h_sigma)` and
 `Phi=-log T`; G178 accepts, G179 extends coframes, and G180 integrates smooth families. G181
 separates tape integrability from finite coefficient limits; removable stalls do not prove carry.
-G182 separates metric, scalar, and immersion carry. G183 separates domain failure from regular
-branch-labelled multiplicity. G184 classifies realization isomorphism and admitted query
-symmetries. Reviews accept; physical germ realization remains open.
+G182 separates metric, scalar, and immersion carry. G183 separates failure from regular
+branch-labelled multiplicity. G184 classifies realization isomorphism and query symmetries.
+Physical germ realization remains open.
 
-G185 checks the central-spherical SNe channels: radial pair angular Gram is zero while sky area
-remains `R^2`. Frozen Pantheon+ and DES replays survive without fitting. Transfer remains imported,
-P1 `R(Z)` frozen, and reviews accept.
+G185 checks central-spherical SNe channels: radial pair angular Gram is zero while sky area remains
+`R^2`. Frozen Pantheon+ and DES replays survive without fitting; transfer is imported and P1 `R(Z)` frozen.
 
-G186 routes one nonradial germ into depth, tape/shift, and a local screen while static clocks retain
-`Phi=phi`. G187 propagates that screen on one supplied static-spherical null query: two metric-fixed
-finite Jacobi modes with zero cross term yield generic shear without an extra coefficient. Reviews
-accept; transfer, pair population, and ambient extension remain open.
+G186 routes one nonradial germ into depth, tape/shift, and a local screen; static clocks retain
+`Phi=phi`. G187 propagates it on one static-spherical null query: two metric-fixed finite Jacobi
+modes yield generic shear without an added coefficient. G188 derives the complete-metric quotient
+screen, metric carry, self-adjoint tidal matrix, and finite Jacobi map on a supplied affine null
+query. Exact mixing gives off-diagonal response; deleting it gives flat propagation. Reviews
+accept; transfer and physical ray population remain open.
 
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G187 build,
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G188 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187,G188`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 
-Open G187 first, then G186 for its local screen, G185 for the application check, and G184--G166 for
-structure. G163 controls `X_max`; G164--G165 control scaffolds;
+Open G188 first, then G187, G186, G185, and G184--G166 for structure. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
 
 G93--G128 provenance is under `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -83,7 +83,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Next test one supplied nonspherical or mixed complete coframe for coefficient-free screen/Jacobi
-ownership; do not promote Jacobi area to flux.
+Next isolate the explicitly imported radiative-transfer interface and determine exactly which data
+beyond the G188 Jacobi map are required; do not promote Jacobi area alone to flux.
 
 <!-- STARTUP_CURRENT_END -->

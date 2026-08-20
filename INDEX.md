@@ -1,5 +1,5 @@
 # INDEX
-`LIVE.md` controls status.
+`LIVE.md` wins.
 ## Startup
 1. Follow `AGENTS.md` synchronization and bounded-read rules.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
@@ -8,8 +8,8 @@
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only task-triggered `.claude/skills/*/SKILL.md` files.
 6. Read `INDEX.md` and `MEMORY.md` as compact pointers, then stop and give the orientation report.
 7. After orientation, query only task-relevant registry rows and evidence.
-## Current relational-geometry frontier
-- Complete-pair evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
+## Relational frontier
+- Pair evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
 - G129 full-pullback faithfulness: `udt_g129_copresent_relational_network_faithfulness_2026-08-16/`
 - G130 co-presence ownership: `udt_g130_copresence_rank_complete_network_ownership_2026-08-16/`
 - G131 scalar conformal ceiling: `udt_g131_all_plane_terminal_reciprocal_scalar_faithfulness_2026-08-16/`
@@ -18,7 +18,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G187 relational closure and first application chain:
+- G137--G188 relational closure and first application chain:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -49,17 +49,16 @@
   `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`; `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`;
   `udt_g180_completed_pair_smooth_family_descent_2026-08-19/`; `udt_g181_completed_pair_singular_endpoint_classification_2026-08-19/`;
   `udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/`; `udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/`; `udt_g184_regular_branch_equivalence_classification_2026-08-19/`;
-  `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`; `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`
-G140--G162 control carry, scale, score, and transport.
-G163 removes `X_max`; G164--G165 control scaffolds. G166 proves the founded
+  `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`;
+  `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`; `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`
+G140--G162 control carry, scale, score, and transport. G163 removes `X_max`; G164--G165 control scaffolds. G166 proves
 ordered-pair metric owns its kernel. G167 derives the full local regular pair pullback of the
 primary spherical four-metric. G168 derives the supplied-germ plane; G170 regrades G169 and derives
 endpoint-relative reversal; G171 derives the pair-germ-relative scalar network and removes
 arbitrary triangle additivity and scaffolded carry. G172--G175 remain accepted controls: turns are
 regular, one calibrated germ has one scalar, and arbitrary tapes differ lawfully. G176 provisionally
 closes the ruler; G177 removes scaffolds; G178 accepts; G179 extends coframes; G180 glues families.
-G181 classifies endpoints; G182 carry; G183 strata; G184 equivalence; G185 radial SNe; G186
-nonradial channels; G187 finite nonradial Jacobi propagation. Reviews accept.
+G181 endpoints; G182 carry; G183 strata; G184 equivalence; G185 radial SNe; G186 nonradial channels; G187 spherical Jacobi propagation; G188 complete-metric Jacobi propagation with live mixing. Reviews accept.
 Branch population and global extension remain open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -67,9 +66,10 @@ Branch population and global extension remain open.
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open load-bearing evidence. The 172-row registry controls.
+For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open load-bearing evidence. The 173-row registry controls.
 ## Observational lane
-- `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`; `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`; `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
+- `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`; `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`;
+  `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`; `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
 - Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
 - R4 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md`

@@ -1,0 +1,40 @@
+{
+  "assertions": 240000,
+  "audit": "G188_INDEPENDENT_EXACT_FRACTION_METRIC_JET_REPLAY",
+  "controls": {
+    "finite_cross_series_leading_coefficient": "1/3",
+    "flat_tidal": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "mixing_matrix": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "mixing_tidal": [
+      [
+        "-2",
+        "-2"
+      ],
+      [
+        "-2",
+        "-2"
+      ]
+    ]
+  },
+  "seed": 1880820,
+  "status": "PASS",
+  "trials": 10000
+}
