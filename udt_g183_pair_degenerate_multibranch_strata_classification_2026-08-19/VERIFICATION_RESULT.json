@@ -4,6 +4,7 @@
     "all_replays_pass": true,
     "default_entrypoint_read_only": true,
     "eight_immutable_sources": true,
+    "external_review_accepted": true,
     "files_present": true,
     "independent_assertions": true,
     "independent_pass": true,
@@ -13,7 +14,7 @@
     "twelve_semantic_guards": true,
     "twenty_eight_catches": true
   },
-  "external_review": "REPAIR_REQUIRED",
+  "external_review": "ACCEPTED",
   "missing_files": [],
   "replays": {
     "derive_pair_strata.py": {

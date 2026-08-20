@@ -23,3 +23,24 @@ Date: 2026-08-19
 
 The first local CLI command also failed before transmission because the global approval flag was
 placed after `exec`; no intake file changed during any attempt.
+
+## Repair-only follow-up
+
+- Authorization: explicit user authorization for the sealed 35-file repair-only intake.
+- Intake: `/tmp/udt_g183_repair_followup_n8eqy1h4`.
+- Scope SHA-256: `c048449f6c2904f6dc6771060a5095e0ae01fe4ce98891f599310c15d1d84709`.
+- Tree digest SHA-256: `b6cc069e998de44588154683cf844c63c48aaf6a77a20127a72458e580cd36a9`.
+- Contents: 34 payloads plus `REVIEW_SCOPE.json`.
+- Reviewer: fresh ephemeral external Codex `gpt-5.4`, high reasoning, web disabled, approvals
+  disabled, read-only sandbox.
+- Session: `01a01ce8-9141-74c1-97af-9abea67a8e67`.
+- Raw review SHA-256 before repository transcription:
+  `745fde39d29ffc8b0ccac4ae0ca3c9f2fef94060351e30148b36888247e1ecd4`.
+- Repository transcription SHA-256 (newline-normalized):
+  `3971d583d363478af0818756c969ae7b5416af5d64ba06932a5ebb00d370a895`.
+- Transcript SHA-256 before deterministic compression:
+  `e5af833a4bf5e394250f33426a04cde93aa9a44dc8bae19058f49061a476e822`.
+- Deterministic gzip SHA-256:
+  `9812b7caea2568a9c58233c336bb0a5c334209284962dbf48e5b552c65867665`.
+- Result: `G183_REPAIR_ACCEPTED`; exact no-write repair accepted and bounded scientific landing
+  unchanged.

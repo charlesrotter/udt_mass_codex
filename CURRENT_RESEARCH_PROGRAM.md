@@ -13,14 +13,6 @@ G170 differences calibrated endpoint ratios. G171 gives every supplied pair
 `delta_XY=Phi_Y|XY-Phi_X|XY`: reversal is exact, arbitrary triangles need not telescope, and matched
 readouts do. No co-presence, observer-only potential, or scaffolded carry/score kernel is needed.
 
-G172 closes supplied monotone-areal sphere curves with
-`Phi=phi+(1/4)log[1+r^2 exp(-2phi)a2]`. G173 keeps angular radial turns regular. G174 identifies the
-ruler Jacobian: one calibrated vector fixes one scalar; a bare line retains the atlas. Constant
-units cancel; varying calibration changes the tape. G172--G174 are externally accepted.
-
-G175 proves a local anchor does not propagate; endpoint depths fix a supplied connected tape modulo
-constant unit. It is externally accepted as an arbitrary-calibration control theorem.
-
 Charles provisionally adopts completed-pair Dual Reciprocity. After angular, screen, mixing, and
 shift enter the supplied pullback, G176 uniquely derives
 `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1`, and `Phi=-log T`. Other calibrations are control queries,
@@ -28,12 +20,10 @@ not rival kernels. Event/germ realization remains open.
 G177 removes scaffolds; G178 accepts. G179 extends to arbitrary coframes and regular germs; review
 accepts without repair.
 G180 glues supplied smooth families; angular motion changes the tape map, not completed `Phi`.
-G181 classifies one-sided endpoints: tape is finite iff `m` is integrable; regular finite
-coefficients also need finite positive `T` and finite `beta/m`. Density limits do not classify
-extension, and removable stalls do not prove two-sided carry. Reviews accept.
-G182 classifies two supplied one-sided branches after a supplied seam identification: `C^k` metric
-carry is exactly `T,B` jet matching, scalar carry is weaker, and immersion carry needs the full
-coframe-valued tangent jets. Odd/even primary stalls separate smooth carry from cusps. Review accepts.
+G181 separates tape integrability from regular endpoint coefficients. G182 classifies supplied seam
+carry: metric carry matches `T,B` jets, scalar carry is weaker, and immersion carry needs tangent
+jets. G183 separates local domain failure from regular cut, crossing, and winding multiplicity;
+regular outputs remain branch-labelled. Reviews accept.
 
 ## Controlling local evaluator
 
@@ -59,10 +49,11 @@ G168 maps supplied `(u_A,s_AB)` to `Y,Z`; G170 differences completed endpoint de
 shows that independently evaluated pairs remain native without forced scalar triangle closure;
 G172 proves monotone-areal closure; G173--G175 classify turning and arbitrary-calibration controls;
 G176 closes normalization; G179 extends coframes; G180 glues smooth families; G181 classifies their
-first one-sided endpoint boundary; G182 classifies supplied two-sided carry.
+first one-sided endpoint boundary; G182 classifies supplied two-sided carry; G183 classifies local
+degenerate and regular multibranch strata.
 
-Current control: `udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/`, then
-G181--G166 in `INDEX.md`. Conditional complete evaluator:
+Current control: `udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/`, then
+G182--G166 in `INDEX.md`. Conditional complete evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ## Current reconstruction and ownership chain
@@ -74,7 +65,7 @@ open. G146--G163 bound direction, first jets, scale, score, carry, and quotient,
 `X_max` from the kernel. G164 removes scaffolds. G165 is an unrestricted-envelope control.
 
 Milestones: G129 G134 G135 G140 G144 G145 G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156
-G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180 G181 G182. Guards:
+G157 G158 G159 G160 G161 G162 G163 G165 G166 G167 G168 G169 G170 G171 G172 G173 G174 G175 G176 G177 G178 G179 G180 G181 G182 G183. Guards:
 rank ten, positive conformal class, common-scale ownership, bivector area bilinear, physical multidirectional carrier,
 first-order ceiling, and 184,300 unresolved covariance rows.
 
@@ -100,14 +91,15 @@ scalar per calibrated vector. G175 proves two connected tapes give identical end
 their density ratio is constant. These externally accepted controls do not supply physical
 calibration or cross-tape carry.
 
-### G176--G182 — completed-pair normalization, coframe extension, family descent, and carry
+### G176--G183 — completed-pair normalization, coframe extension, family descent, carry, and strata
 
 Under the `WORKING_FOUNDATIONAL_CLARIFICATION`, G176 fixes
 `m=T L_sigma=sqrt(-det h_sigma)` with shift active. G177--G178 verify; G179 extends arbitrary
 coframes; G180 integrates regular families. G181 separates finite tape by integrability, regular
 finite endpoints by completed coefficient limits, and removable stalls from open two-sided carry.
 G182 closes supplied two-sided metric/immersion carry but selects neither incident branch nor seam
-identification. None selects a family, physical singularity, or global completion.
+identification. G183 distinguishes true local domain failure from regular branch multiplicity but
+selects and identifies no branch. None selects a family, physical singularity, or global completion.
 
 ## Observational anchors
 
@@ -139,6 +131,5 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-Preregister a null/branch/cut/focal/winding atlas that first separates intrinsic pair-metric or
-clock-chart degeneracy from query-realization rank loss and from regular branch multiplicity. Keep
-path/holonomy labels outside the scalar kernel.
+Map a branch-equivalence classification: distinguish query-preserving reparameterizations from
+genuinely distinct regular branch data without selecting a branch or scalarizing transport.

@@ -11,11 +11,9 @@ pair pullback and uniquely fixes `m=T L_sigma=sqrt(-det h_sigma)`. Arbitrary cal
 controls, not rival kernels. G177 removes scaffolds; G178 externally accepts it. G179 extends the
 conditional theorem to arbitrary coframes and regular germs; review accepts without repair.
 G180 glues intervals; angular/common scale act through the tape. Review accepts.
-G181: finite tape iff `m` is integrable; regular finite coefficients also need finite positive `T`
-and finite `beta/m`. Density limits do not classify extension; stalls do not prove two-sided carry.
-Review accepts.
-G182: supplied seam carry requires matching `T,B` jets; `Phi` is weaker, while immersion carry needs
-full tangent jets. Odd stalls are smooth and even stalls cusp. Review accepts.
+G181 separates tape integrability from regular endpoint coefficients. G182 requires matching `T,B`
+jets; scalar carry is weaker and immersion carry needs tangent jets. G183 separates local domain
+failures from regular branch-labelled cut, crossing, and winding families. Reviews accept.
 
 Dependency spine:
 
@@ -27,9 +25,9 @@ Dependency spine:
 - G146 G147 G148 G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162 G163:
   bounded controls; G163 removes `X_max` from the kernel.
 - G164 G165 G166 G167 G168 G169: scaffold, kernel, pullback, germ, and reversal controls.
-- G170--G182: pair-relative differences need no carry; G176 fixes the ruler, G177--G178 accept,
+- G170--G183: pair-relative differences need no carry; G176 fixes the ruler, G177--G178 accept,
   G179 extends coframes, G180 glues families, G181 classifies one-sided endpoints, G182 classifies
-  supplied two-sided carry, and G173--G175
+  supplied two-sided carry, G183 classifies remaining local strata, and G173--G175
   remain controls.
 
 Physical germ/global realization, ambient extension, completion, and `X_max` remain open.
@@ -58,7 +56,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G182 evidence is closed. Preserve its supplied-branch conditional—not canon—grade. Next separate
-null/rank degeneracy, focal/caustic rank loss, and regular cut/crossing/winding multiplicity.
+G183 evidence is closed. Preserve its supplied-query, local, branch-labelled conditional—not canon—
+grade. Next map branch equivalence without selecting a branch or inferring holonomy from labels.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

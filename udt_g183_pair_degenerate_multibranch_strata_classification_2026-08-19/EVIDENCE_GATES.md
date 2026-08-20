@@ -9,4 +9,4 @@
 | Mutation catches | PASS | 28 executable catches; twelve semantic guards |
 | Premise audit | PASS | eight immutable source hashes; no scaffolded kernel |
 | Read-only dependency-free replay | PASS AFTER REPAIR | literal default verifier and independent hash catch both return zero without writes |
-| Fresh adversarial review | FOLLOW-UP PENDING | first review required packaging repair; no mathematical contradiction reported |
+| Fresh adversarial review | PASS AFTER REPAIR | first review isolated one packaging defect; repair-only follow-up returned `G183_REPAIR_ACCEPTED` |

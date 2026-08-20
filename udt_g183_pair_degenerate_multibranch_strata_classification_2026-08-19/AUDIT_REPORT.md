@@ -29,11 +29,12 @@ particular query realization loses rank in the sampled variation.
 
 ## Grade and ceiling
 
-`DERIVED_CONDITIONAL__PREREGISTERED_AT_65645E65__INDEPENDENT_EXACT_REPLAY_PASS`
+`DERIVED_CONDITIONAL__PREREGISTERED_AT_65645E65__INDEPENDENT_EXACT_REPLAY_PASS__EXTERNAL_REPAIR_FOLLOWUP_ACCEPTED`
 
 The metric, query, calibration, and branch family remain supplied. G183 classifies their local
 domain and output type; it does not select a physical branch, define a positive metric-space
 distance, identify a singularity or global completion, derive nontrivial holonomy, or import
 `X_max`, observations, radiative transfer, dynamics, action, source, matter, bootstrap, or signalling.
 
-Fresh external review is required before banking this positive classification.
+Fresh external review isolated one packaging defect. The exact repair-only follow-up returned
+`G183_REPAIR_ACCEPTED`; the bounded classification is bankable with the unchanged ceiling above.

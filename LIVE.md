@@ -39,6 +39,11 @@ G181: finite tape is integrability of `m`; regular finite coefficients also need
 and finite `beta/m`. G182: after supplied seam identification, `C^k` metric carry is matching `T,B`
 jets; `Phi` alone is weaker and immersion carry also needs coframe-valued tangent jets. Odd stalls
 are smooth; even stalls cusp. Reviews accept.
+G183 separates the remaining local strata. Null curves may live inside a regular pair plane; a null
+chosen clock is a calibration-chart failure; rank-two null and spacelike planes lie outside the
+regular observer kernel for different reasons. With a valid timelike clock, `det h=0` exactly means
+tangent-rank loss. Cut, crossing, and winding can leave every branch regular, so the output remains
+branch-labelled. The repaired no-write package and bounded landing pass external follow-up review.
 
 ### Current dependency spine
 
@@ -48,17 +53,18 @@ are smooth; even stalls cusp. Reviews accept.
   physical carrier and `O(2)` remain open; G148 covariant `lambda` proves only liveness.
 - **G149--G163 controls.** G149 G150 G151 G152 G153 G154 G155 G156 G157 G158 G159 G160 G161 G162
   G163 bound chord, curvature, ruler, scale, carry, score, and quotient; G163 removes `X_max`.
-- **G164--G182.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
+- **G164--G183.** G164 removes scaffolds; G165 controls the conformal envelope; G166--G168 give scalar,
   pullback, and plane; G169--G171 give reversal, endpoint difference, and pair-relative network;
   G172--G175 close controls; G176 closes reciprocal normalization; G177 independently reconstructs
   the kernel without scaffolds; G178 accepts; G179 extends coframes; G180 glues smooth families;
-  G181--G182 classify supplied one- and two-sided carry. Physical germ/global realization is open.
+  G181--G182 classify supplied one- and two-sided carry; G183 separates local degeneracy from
+  regular multibranch behavior. Physical germ/global realization and branch equivalence remain open.
 
 Maximum conclusion: the primary metric owns a reciprocal scalar kernel and exact carry tests on
 supplied regular completed pairs. The orchestra enters first; Dual Reciprocity then fixes the ruler.
-Physical event/germ population, null/cut/focal/winding strata, ambient/global extension, completion,
-and numerical `X_max` remain open. Current control:
-`udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/`, then G181--G166.
+Physical event/germ population, branch equivalence, non-scalar transport, ambient/global extension,
+completion, and numerical `X_max` remain open. Current control:
+`udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/`, then G182--G166.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 `INDEX.md` routes the chain; G93--G128 are archived provenance.
@@ -103,10 +109,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G182 is closed. Preregister the second bounded classification: distinguish intrinsic null or
-rank-degenerate pullbacks from regular multi-branch cut/crossing/winding behavior and from
-query-generated focal/caustic rank loss. Do not scalarize branch or holonomy data and do not reopen
-the accepted kernel.
+G183 is closed. Before another derivation, map the bounded next question: classify when two supplied
+regular branches are merely query-preserving reparameterizations of one realization versus genuinely
+distinct branch data. Do not select a branch, infer holonomy from a label, or reopen the accepted
+scalar kernel.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.
