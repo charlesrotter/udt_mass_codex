@@ -1,11 +1,16 @@
 {
   "frozen_scientific_landing_changed": false,
   "independence_grade": "METRIC_JET_RIEMANN_SPOTCHECK_PLUS_FORMULA_DRIVEN_MATRIX_IVP",
-  "no_write_replay": "FAIL_IN_GENUINELY_READ_ONLY_EXTERNAL_SANDBOX",
+  "no_write_replay": "PASS_IN_LOCAL_BWRAP_READ_ONLY_PREFLIGHT",
   "r1_tempfile_discovery_repair": "REJECTED__DOWNSTREAM_TORCH_TEMPORARY_DIRECTORY_WRITE",
   "r2_ambient_repository_dependency_removed": "PASS",
   "r3_independence_grade_recorded": "PASS",
+  "r5_autodiff_artifact_drift_gate": "PASS",
+  "r5_fresh_seed_autodiff_equivalence": "PASS_384_OF_384",
+  "r5_maximum_autodiff_artifact_drift": 4.440892098500626e-16,
+  "r5_maximum_autodiff_equivalence_error": 5.551115123125783e-16,
+  "r5_read_only_external_followup": "PASS__G194_R5_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED",
   "repository_premise_gate": "SEPARATE_REPOSITORY_GATE_NOT_PART_OF_SEALED_REPLAY",
   "review_runtime_empty_after_replay": true,
-  "status": "REPAIR_CYCLE_REJECTED__R4_PREREGISTERED"
+  "status": "PASS__EXTERNAL_R5_REPAIR_FOLLOWUP_ACCEPTED"
 }

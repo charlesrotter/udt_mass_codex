@@ -32,15 +32,18 @@ noncommuting symmetric screen histories. The ordered matrix factorization and ex
 no-caustic proof survive; one control has a nonsymmetric Jacobi map and finite polar rotation.
 External cold review and repair follow-up accept with caveats.
 
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G193 build,
+G194 closes arbitrary smooth symmetric `M`: exact factorization and the Gram no-caustic proof
+survive for the supplied central pair. R5 accepts with caveats; rotation remains open.
+
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G194 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
 `G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178`;
-`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193`; rank ten, conformal,
+`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194`; rank ten, conformal,
 density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 
-Open G193 first, then G192--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
+Open G194 first, then G193--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional evidence.
 Provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
@@ -80,9 +83,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Next add the third independent symmetric screen-mixing function and test the arbitrary smooth
-symmetric `2 x 2 M` class. Keep the calculation metric-led and bounded; do not fit a profile,
-insert `X_max`, select transfer, or use G116/G189 as construction inputs. Antisymmetric rotation
-remains a later, distinct failure-boundary test.
+Next test antisymmetric screen rotation. Stay metric-led; do not fit a profile, insert `X_max`,
+select transfer, or use G116/G189.
 
 <!-- STARTUP_CURRENT_END -->

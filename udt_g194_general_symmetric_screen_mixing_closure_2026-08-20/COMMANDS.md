@@ -1,0 +1,15 @@
+# G194 commands
+
+Run from the repository root.
+
+```bash
+python3 udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/derive_general_symmetric_screen_mixing.py
+python3 udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/verify_general_symmetric_screen_mixing_independent.py
+python3 udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/run_catch_proofs.py
+python3 udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/build_source_manifest.py
+python3 udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/verify_package.py
+python3 udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/verify_package.py --no-write
+python3 verify_current_scientific_premises.py
+python3 -m pytest tests/
+git diff --check
+```

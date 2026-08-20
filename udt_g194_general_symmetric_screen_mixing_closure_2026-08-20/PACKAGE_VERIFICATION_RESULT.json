@@ -1,0 +1,20 @@
+{
+  "autodiff_artifact_forbidden_differences": 0,
+  "autodiff_equivalence_assertions": 384,
+  "autodiff_equivalence_replayed": true,
+  "external_review": "G194_R5_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED",
+  "fresh_artifact_identity": true,
+  "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
+  "independent_assertions": 4007,
+  "independent_histories": 267,
+  "maximum_autodiff_artifact_drift": 4.440892098500626e-16,
+  "maximum_autodiff_equivalence_error": 5.551115123125783e-16,
+  "maximum_factorization_error": 1.4583445562266206e-11,
+  "maximum_tide_error": 5.329070518200751e-15,
+  "mutation_catches": 22,
+  "no_write_replay": false,
+  "repository_premise_gate": "SEPARATE_REPOSITORY_GATE_NOT_PART_OF_SEALED_REPLAY",
+  "source_rows": 10,
+  "stale_artifact_mutation_caught": true,
+  "status": "PASS"
+}

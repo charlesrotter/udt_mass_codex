@@ -1,0 +1,29 @@
+{
+  "catch_count": 22,
+  "catches": {
+    "delete_outer_matrix_action": true,
+    "drop_A_prime": true,
+    "drop_A_squared": true,
+    "drop_B_prime": true,
+    "drop_B_squared": true,
+    "drop_N_A_plus_B_cross": true,
+    "drop_N_prime": true,
+    "drop_N_squared_00": true,
+    "drop_N_squared_11": true,
+    "drop_all_quadratic_terms": true,
+    "drop_outer_L_action": true,
+    "force_B_zero": true,
+    "force_ordered_history_commuting": true,
+    "force_scalar_matrix": true,
+    "force_trace_free": true,
+    "indefinite_gram_mutation": true,
+    "mixing_contaminates_frequency": true,
+    "positive_gram_square_identity": true,
+    "reverse_derivative_sign": true,
+    "reverse_factor_order": true,
+    "transpose_order_in_gram": true,
+    "wrong_affine_power": true
+  },
+  "caught_count": 22,
+  "status": "PASS"
+}

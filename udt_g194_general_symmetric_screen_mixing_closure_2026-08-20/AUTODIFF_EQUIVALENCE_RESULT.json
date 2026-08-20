@@ -1,0 +1,19 @@
+{
+  "assertion_count": 384,
+  "ceiling": 2e-08,
+  "maximum_errors": {
+    "first_jet": 3.3306690738754696e-16,
+    "metric": 0.0,
+    "second_jet": 4.440892098500626e-16,
+    "tide": 5.551115123125783e-16
+  },
+  "points": [
+    -0.23,
+    0.11,
+    0.47
+  ],
+  "profile_count": 32,
+  "role": "VERIFIER_ONLY_AUTODIFF_EQUIVALENCE__NOT_SCIENTIFIC_CENSUS",
+  "seed": 1940821,
+  "status": "PASS"
+}

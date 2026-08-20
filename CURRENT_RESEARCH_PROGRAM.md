@@ -33,8 +33,9 @@ off-diagonal screen response is live without a fitted coefficient. Repair follow
 G192 frees smooth `a>0,mu` within one rank-one family. It derives `Z=1/a`, turns, the full
 `mu',mu^2` tide, factorized modes, family-scoped no-caustics, sign-variable response, and
 branch-local `d_A(Z)`. G193 adds `nu` and genuine noncommutativity; ordered factorization and the
-positive-Gram no-caustic proof survive. One control rotates. Reviews accept; general symmetric and
-antisymmetric extensions remain open.
+positive-Gram no-caustic proof survive. One control rotates. G194 closes arbitrary smooth real
+symmetric `2 x 2 M`: the same factorization and no-caustic result survive. R5 accepts with caveats;
+antisymmetric rotation remains open.
 
 ## Controlling local evaluator
 
@@ -67,9 +68,9 @@ resolves one local nonradial scalar/tape/shift/screen split; G187 propagates tha
 finite two-mode Jacobi map; G188 derives the general complete-metric matrix evaluator; G189 closes
 the bounded static metric-to-flux interface and rejects one provisional `R proportional chi` join;
 G190 derives the time-live parametric frequency/screen evaluator from the completed pair; G191
-verifies one exact live-mixing realization; G192--G193 classify nested smooth mixing families.
+verifies one exact live-mixing realization; G192--G194 classify nested smooth mixing families.
 
-Current structural result: `udt_g193_noncommuting_transverse_mixing_extension_2026-08-20/`.
+Current structural result: `udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/`.
 Current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`; then
 `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/` and
 G184--G166 in `INDEX.md`. Conditional complete evaluator:
@@ -91,10 +92,10 @@ G184--G166 in `INDEX.md`. Conditional complete evaluator:
   metric matrix propagation with live mixing. G189 then conditionally factors static flux and
   localizes the remaining static profile freedom. G190 replaces the separate `R(Z)` input in the
   native time-live core with one parametric frequency/screen branch. Query population, transfer,
-  branch aggregation, and complete history remain open. G191 is one analytic witness; G192--G193
+  branch aggregation, and complete history remain open. G191 is one analytic witness; G192--G194
   classify nested smooth mixing families without selecting their functions.
 Guard index: `G129,G134,G135,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193`; rank ten, positive conformal class, common-scale ownership,
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194`; rank ten, positive conformal class, common-scale ownership,
 bivector area bilinear, physical multidirectional carrier, first-order ceiling, and 184,300 rows.
 
 ## Observational anchors
@@ -107,7 +108,7 @@ G185 preserves the historical P1 SNe reference. G189 makes the current boundary 
 metric-to-flux factorization closes conditionally, but the simplest P1-free static `R proportional
 chi` control is type-invalid at a regular center and data-rejected. Neither result is a branch
 selector or native luminosity theory. G190 supplies the time-live frequency/screen joint before any
-radiative bridge; G192--G193 classify nested smooth families.
+radiative bridge; G192--G194 classify nested smooth families.
 Existing CMB geometry packages map conditional screen/Jacobi
 response, not an observed spectrum.
 
@@ -131,6 +132,6 @@ response, not an observed spectrum.
 
 ## Bounded next action
 
-Next add the third symmetric mixing function and test arbitrary smooth symmetric `2 x 2 M`. Do not
-fit histories, insert `X_max`, select transfer, or use G116/G189. Antisymmetric rotation is the
-subsequent failure-boundary test.
+Next test the adjacent antisymmetric screen-rotation boundary and determine which exact ordered
+factorization, Wronskian, and caustic statements survive. Do not fit histories, insert `X_max`,
+select transfer, or use G116/G189.

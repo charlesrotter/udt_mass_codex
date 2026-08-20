@@ -1,0 +1,16 @@
+{
+  "all_other_fields_exactly_identical": true,
+  "candidate_sha256": "d8b01bf61d616b9f83d00910b242932860990246bd4c46c267fb75a2ff1fa8f2",
+  "ceiling": 2e-08,
+  "changed_numeric_fields": [
+    "max_tide_asymmetry",
+    "max_tide_error"
+  ],
+  "difference_count": 254,
+  "forbidden_difference_count": 0,
+  "implementation_difference_count": 1,
+  "maximum_absolute_numeric_drift": 4.440892098500626e-16,
+  "numerical_difference_count": 253,
+  "reference_sha256": "06411f03e16f5a2be604925e896cde121ddf2d68e3a9a9aeadbe1edac695b456",
+  "status": "PASS"
+}

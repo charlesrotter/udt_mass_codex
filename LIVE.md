@@ -41,28 +41,30 @@ That family is noncaustic away from the vertex, while cross response has no fixe
 reviews pass. G193 adds arbitrary `nu`: symmetric screen histories genuinely noncommute, yet ordered
 factorization and a positive-Gram proof give no nonvertex caustic in this family. One control has
 finite polar rotation. Reviews accept with caveats; P1, `X_max`, transfer, and post-readout orchestra
-remain absent.
+remain absent. G194 closes arbitrary smooth symmetric `M`: factorization and the Gram proof survive;
+R5 review accepts with caveats. Antisymmetric rotation remains open.
 
 ### Current dependency spine
 
 - **G129 G134--G163.** Reconstruct `g`/`chi`, require overlap carry, bound freedoms, remove `X_max`.
-- **G164--G193.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
+- **G164--G194.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
   equivalence; check radial SNe channels; derive bounded nonradial channels and finite Jacobi map.
   Physical pair population, transfer, branch aggregation, and ambient extension stay open.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
 `G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178`;
-`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193`; rank ten, conformal,
+`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194`; rank ten, conformal,
 density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 G146 parity-even candidates fail on the registered non-collinear witness.
 
 Maximum conclusion: the primary metric owns its reciprocal kernel on supplied completed pairs.
-G185--G193 extend radial and nonradial channels through the matrix evaluator. G190 joins frequency
+G185--G194 extend radial and nonradial channels through the matrix evaluator. G190 joins frequency
 and area; G191 supplies one live control; G192 classifies its first smooth two-function family;
-G193 proves the factorization survives one genuinely noncommuting symmetric extension.
+G193 proves the factorization survives one genuinely noncommuting symmetric extension; G194 closes
+the entire arbitrary smooth symmetric `2 x 2` mixing tile for the supplied central pair.
 Transfer, physical population/history, other coframe channels, global extension, and numerical
 `X_max` remain open.
-Current structural result: `udt_g193_noncommuting_transverse_mixing_extension_2026-08-20/`;
+Current structural result: `udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/`;
 current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
@@ -115,10 +117,8 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G193 shows noncommutativity alone does not break factorization; symmetry is load-bearing. Next add
-the third symmetric screen-mixing function and test arbitrary smooth symmetric `2 x 2 M`. Do not
-fit a history, insert `X_max`, select transfer, or use G116/G189. Antisymmetric rotation remains the
-next distinct failure-boundary test.
+G194 closes the smooth symmetric tile for one supplied central pair. Next test antisymmetric screen
+rotation. Do not fit a history, insert `X_max`, select transfer, or use G116/G189.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.

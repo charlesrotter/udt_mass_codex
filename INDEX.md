@@ -18,7 +18,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G193 relational closure and first application chain:
+- G137--G194 relational closure and first application chain:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -52,22 +52,23 @@
   `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`;
   `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`; `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`;
   `udt_g189_p1_free_metric_flux_interface_2026-08-20/`; `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`; `udt_g191_nonconformal_timelive_mixing_join_2026-08-20/`;
-  `udt_g192_smooth_timelive_mixing_family_classification_2026-08-20/`; `udt_g193_noncommuting_transverse_mixing_extension_2026-08-20/`
+  `udt_g192_smooth_timelive_mixing_family_classification_2026-08-20/`; `udt_g193_noncommuting_transverse_mixing_extension_2026-08-20/`; `udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/`
 G140--G165 control carry, scale, transport, `X_max`, and scaffolds. G166--G171 derive the primary
 pair pullback, supplied-germ plane, reversal, and pair-relative network. G172--G180 control turns,
 calibration, normalization, coframes, and smooth families. G181--G189 classify branches and radial
 applications. G190 derives the time-live frequency/screen join; G191 supplies one nonconformal
-witness; G192 classifies one rank-one family; G193 adds a noncommuting symmetric extension. Reviews
-accept with caveats; general symmetric and antisymmetric extensions remain open.
+witness; G192 classifies a rank-one family; G193 adds noncommutativity; G194 closes arbitrary
+smooth symmetric `2 x 2` mixing. Reviews accept with caveats; antisymmetric rotation remains open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-G93--G128: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; the 178-row registry controls.
+G93--G128: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; the 179-row registry controls.
 ## Observational lane
-- `udt_g193_noncommuting_transverse_mixing_extension_2026-08-20/`; `udt_g192_smooth_timelive_mixing_family_classification_2026-08-20/`; `udt_g191_nonconformal_timelive_mixing_join_2026-08-20/`;
+- `udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/`; `udt_g193_noncommuting_transverse_mixing_extension_2026-08-20/`;
+  `udt_g192_smooth_timelive_mixing_family_classification_2026-08-20/`; `udt_g191_nonconformal_timelive_mixing_join_2026-08-20/`;
   `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`; `udt_g189_p1_free_metric_flux_interface_2026-08-20/`;
   `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`; `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
@@ -97,7 +98,6 @@ feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
 ## Matter/stability lane
-
 Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`.
 It preserves plural conditional mass-from-geometry branches. For topology begin with
 `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
