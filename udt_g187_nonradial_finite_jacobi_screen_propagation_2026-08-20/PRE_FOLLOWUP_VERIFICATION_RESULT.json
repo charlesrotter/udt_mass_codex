@@ -1,0 +1,21 @@
+{
+  "audit": "G187_PACKAGE",
+  "checks": {
+    "algebraic_mutation_count_15": true,
+    "all_required_files": true,
+    "all_sources_immutable": true,
+    "artifact_scope_guard_count_14": true,
+    "external_review_accepted": true,
+    "independent_10000_pass": true,
+    "landing_matches": true,
+    "live_replays_pass": true,
+    "no_literal_true_placeholder": true,
+    "production_20_checks": true,
+    "repository_gates_pass": true,
+    "stored_results_match_live": true
+  },
+  "repair_followup_present": false,
+  "review_present": true,
+  "source_failures": [],
+  "status": "PRE_FOLLOWUP_PASS"
+}

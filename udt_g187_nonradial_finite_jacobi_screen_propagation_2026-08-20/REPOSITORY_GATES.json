@@ -1,0 +1,12 @@
+{
+  "premise_registry": {
+    "historical_dispositions": 754,
+    "rows": 171,
+    "status": "PASS"
+  },
+  "repository_tests": {
+    "expected_xfail": 1,
+    "passed": 130,
+    "status": "PASS"
+  }
+}

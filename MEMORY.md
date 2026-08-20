@@ -18,16 +18,16 @@ duplicates; equal kernel or pair metric does not identify realizations. Reviews 
 G185 verifies the central-spherical radial SNe channel accounting: zero radial pair angular Gram
 and live `R^2` sky area coexist; frozen Pantheon+ and DES replays survive with no fit. External
 reviews accept; light transfer remains imported and P1 `R(Z)` remains frozen calibration.
-G186 verifies one bounded nonradial germ: clock-angular norm changes completed depth, the remaining
-angular Gram feeds tape/shift, and the metric fixes the positive local screen. A static clock keeps
-`Phi=phi` with nonradial ruler data live. External review accepts; finite Jacobi/flux remains open.
+G186 routes one nonradial germ into depth, tape/shift, and a local screen while static clocks retain
+`Phi=phi`. G187 propagates that screen into a finite two-mode static-spherical Jacobi map. Generic
+shear needs no added coefficient; reviews accept. Transfer and ambient extension remain open.
 
 Dependency spine: G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier,
-score, scale, and transport freedoms and remove `X_max`; G164--G186 remove scaffolds, build the
+score, scale, and transport freedoms and remove `X_max`; G164--G187 remove scaffolds, build the
 supplied-pair kernel, and test radial/nonradial channels.
 See `INDEX.md` for exact milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186`; bivector area bilinear; numerical/global valuation stays open.
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187`; bivector area bilinear; numerical/global valuation stays open.
 
 Physical germ/global realization, ambient extension, completion, and `X_max` remain open.
 
@@ -55,8 +55,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G186 local channel evidence is closed. Next map one supplied finite nonradial observation query and
-test Jacobi/screen propagation; do not fit, add post-readout factors, or call the local projector a
-flux law.
+G187 finite static-spherical nonradial propagation is closed. Next test one supplied regular
+nonspherical or mixed complete-coframe history for coefficient-free screen/Jacobi ownership; do not
+fit, add post-readout factors, or call Jacobi area a flux law.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

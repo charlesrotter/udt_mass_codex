@@ -1,0 +1,23 @@
+{
+  "assertions": 220000,
+  "audit": "G187_INDEPENDENT_EXACT_FRACTION_CURVATURE_REPLAY",
+  "controls": {
+    "flat_finite_map": [
+      [
+        "17/9",
+        "0"
+      ],
+      [
+        "0",
+        "17/9"
+      ]
+    ],
+    "schwarzschild_parallel": "-23232/4117715",
+    "schwarzschild_perpendicular": "23232/4117715",
+    "vertex_parallel_slope": "1",
+    "vertex_perpendicular_slope": "1"
+  },
+  "seed": 1870820,
+  "status": "PASS",
+  "trials": 10000
+}

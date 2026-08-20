@@ -22,24 +22,23 @@ G182 separates metric, scalar, and immersion carry. G183 separates domain failur
 branch-labelled multiplicity. G184 classifies realization isomorphism and admitted query
 symmetries. Reviews accept; physical germ realization remains open.
 
-G185 applies the accepted kernel to the supplied central-spherical outgoing regular SNe query. The
-radial pair angular Gram is zero because the query tangent is radial, while the distinct sky screen
-retains `|det D_sky|=R^2`. Frozen Pantheon+ and DES replays survive with no fit or post-readout
-angular factor. The transfer rule remains imported and P1 `R(Z)` remains frozen calibration.
-Fresh gpt-5.4 reviews accept.
+G185 checks the central-spherical SNe channels: radial pair angular Gram is zero while sky area
+remains `R^2`. Frozen Pantheon+ and DES replays survive without fitting. Transfer remains imported,
+P1 `R(Z)` frozen, and reviews accept.
 
-G186 activates one nonradial germ. Clock-angular norm changes completed depth; the rest of
-the angular Gram feeds tape/shift and fixes the screen. Static clocks retain `Phi=phi` with
-nonradial ruler data live. Fresh gpt-5.4 review accepts; finite Jacobi/flux propagation stays open.
+G186 routes one nonradial germ into depth, tape/shift, and a local screen while static clocks retain
+`Phi=phi`. G187 propagates that screen on one supplied static-spherical null query: two metric-fixed
+finite Jacobi modes with zero cross term yield generic shear without an extra coefficient. Reviews
+accept; transfer, pair population, and ambient extension remain open.
 
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G186 build,
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G187 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
+`G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178,G179,G180,G181,G182,G183,G184,G185,G186,G187`; rank ten, conformal, density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 
-Open `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/AUDIT_REPORT.md` first, then
-G185 for the application check and G184--G166 for structure. G163 controls `X_max`; G164--G165 control scaffolds;
+Open G187 first, then G186 for its local screen, G185 for the application check, and G184--G166 for
+structure. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional upstream evidence.
 
 G93--G128 provenance is under `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -84,7 +83,7 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-G186 local channel closure is complete. Map one supplied finite nonradial observation query and
-test Jacobi/screen propagation from the same metric without fitted or post-readout factors.
+Next test one supplied nonspherical or mixed complete coframe for coefficient-free screen/Jacobi
+ownership; do not promote Jacobi area to flux.
 
 <!-- STARTUP_CURRENT_END -->

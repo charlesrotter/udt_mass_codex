@@ -213,6 +213,7 @@ def validate_startup_surface(root: Path) -> None:
             "G184",
             "G185",
             "G186",
+            "G187",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -254,7 +255,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "171-row exact registry",
+            "172-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -452,7 +453,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "171-row",
+            "172-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -711,9 +712,14 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 171, "premise registry must contain exactly 171 rows")
+    require(len(rows) == 172, "premise registry must contain exactly 172 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 171, "duplicate premise id")
+    require(len(by_id) == 172, "duplicate premise id")
+    require(
+        "CERTIFICATION_REPAIR_FOLLOWUP_ACCEPTED_SCIENTIFIC_LANDING_UNCHANGED"
+        in by_id["G187"]["current_status"],
+        "G187 external repair follow-up acceptance absent",
+    )
     require(
         "FRESH_EXTERNAL_GPT54_ACCEPTED_WITH_STATED_BOUNDS" in by_id["G186"]["current_status"],
         "G186 external bounded acceptance absent",
@@ -4640,7 +4646,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G186-extended premise guards; PASS: 171-row premise "
+        "PASS: G187-extended premise guards; PASS: 172-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

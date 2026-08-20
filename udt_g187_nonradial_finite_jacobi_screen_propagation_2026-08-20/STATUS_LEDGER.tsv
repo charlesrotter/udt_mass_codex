@@ -1,0 +1,18 @@
+claim	status	scope
+primary_static_spherical_metric	pinned-by-THEORY	bounded macro metric under test
+smooth_positive_f_history	free-and-explored	supplied history; no profile equation derived
+nonradial_null_query	CHOSE	one source event direction normalization and branch
+g186_screen_matches_null_initial_screen	DERIVED_CONDITIONAL	supplied static observer and nonradial ray
+screen_parallel_propagation	DERIVED_CONDITIONAL	one smooth regular affine branch
+two_diagonal_tidal_modes	DERIVED_CONDITIONAL	primary static-spherical metric
+finite_nonradial_jacobi_map	DERIVED_CONDITIONAL	unit vertex data on supplied branch
+generic_nonradial_shape_response	DERIVED_CONDITIONAL	when the two finite singular values differ
+extra_angular_coefficient	EXCLUDED_IN_BOUNDED_CLASS	no coefficient enters the derived map
+physical_ray_population	OPEN	not selected by G187
+flux_or_luminosity	OPEN	not derived from the Jacobi map alone
+native_em_or_light_theory	OPEN	not attempted
+R_of_Z	OPEN	not used or derived
+X_max	OPEN	not used or derived
+global_or_timelive_history	OPEN	outside static-spherical bounded arena
+external_review	G187_ACCEPTED_WITH_STATED_BOUNDS	fresh zero-context gpt-5.4 replay and off-script curvature spot check
+certification_repair	EXTERNAL_REPAIR_FOLLOWUP_ACCEPTED	15 algebraic catches and 14 artifact-scope guards verified; scientific landing unchanged

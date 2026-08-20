@@ -39,6 +39,10 @@ and wedge area remain in tape and shift. The metric and pair plane also fix the 
 local screen. Static clocks retain `Phi=phi` with nonradial ruler data live, explaining G185
 non-regression without freezing angular physics. Fresh gpt-5.4 review accepts with stated bounds.
 
+G187 carries the G186 screen along one supplied nonradial null query. Two metric-fixed diagonal
+Jacobi modes with zero cross term yield bounded generic shear without an extra coefficient. Reviews
+accept; this is not radiative transfer or a physical ray-population law.
+
 ## Controlling local evaluator
 
 ```text
@@ -66,9 +70,10 @@ G172 proves monotone-areal closure; G173--G175 classify turning and arbitrary-ca
 G176 closes normalization; G179 extends coframes; G180 glues smooth families; G181 classifies their
 first one-sided endpoint boundary; G182 classifies supplied two-sided carry; G183 classifies local
 degenerate and regular multibranch strata; G184 classifies the regular realization quotient; G186
-resolves one local nonradial scalar/tape/shift/screen split.
+resolves one local nonradial scalar/tape/shift/screen split; G187 propagates that screen into one
+finite two-mode Jacobi map.
 
-Current structural result: `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`.
+Current structural result: `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`.
 Current application check: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; then
 G184--G166 in `INDEX.md`. Conditional complete evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
@@ -85,9 +90,10 @@ G184--G166 in `INDEX.md`. Conditional complete evaluator:
   `IMPORTED_CONDITIONAL` and P1 `R(Z)` frozen, Pantheon+ and DES replays survive without fitting.
   This is externally reviewed channel accounting, not native luminosity or history selection.
 - G186 verifies the bounded nonradial channel allocation and local screen without an added scalar;
-  finite Jacobi/flux propagation and physical query population remain open.
+  G187 derives its finite two-mode Jacobi propagation on one supplied static-spherical null query.
+  Physical query population, radiative transfer, and nonspherical/time-live extension remain open.
 Guard index: `G129,G134,G135,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186`; rank ten, positive conformal class, common-scale ownership,
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187`; rank ten, positive conformal class, common-scale ownership,
 bivector area bilinear, physical multidirectional carrier, first-order ceiling, and 184,300 rows.
 
 ## Observational anchors
@@ -121,7 +127,8 @@ screen/Jacobi response, not an observed spectrum.
 
 ## Bounded next action
 
-G186 closes the local nonradial channel split. Next map one supplied finite nonradial observation
-query and test whether Jacobi/screen propagation follows from the same metric and local projector.
-Do not add post-readout angular factors, fit regime switches, infer branch population, identify the
-local projector with flux, or reopen the accepted scalar kernel.
+G187 closes finite screen propagation for one supplied static-spherical nonradial null query. Next
+preregister a bounded complete-coframe extension and test whether one supplied regular
+nonspherical or mixed metric history fixes its transported screen and finite Jacobi map without an
+added coefficient. Do not add post-readout angular factors, fit regime switches, infer branch
+population, identify Jacobi area with flux, or reopen the accepted scalar kernel.

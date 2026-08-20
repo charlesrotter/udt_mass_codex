@@ -1,0 +1,49 @@
+{
+  "audit": "G187_PRODUCTION",
+  "checks": {
+    "affine_geodesic": true,
+    "flat_tidal_zero": true,
+    "g186_projector_annihilates_pair": true,
+    "g186_projector_contains_in_plane_screen": true,
+    "g186_projector_contains_out_of_plane_screen": true,
+    "g186_projector_trace_two": true,
+    "in_plane_screen_is_unit": true,
+    "in_plane_screen_orthogonal_to_ray": true,
+    "in_plane_screen_parallel_modulo_null": true,
+    "null_ray": true,
+    "out_of_plane_killing_mode": true,
+    "out_of_plane_screen_is_parallel": true,
+    "out_of_plane_screen_is_unit": true,
+    "out_of_plane_screen_orthogonal_to_ray": true,
+    "schwarzschild_trace_zero": true,
+    "tidal_cross_zero": true,
+    "tidal_in_formula": true,
+    "tidal_out_formula": true,
+    "vertex_in_slope": true,
+    "vertex_out_slope": true
+  },
+  "controls": {
+    "flat": {
+      "in": true,
+      "out": true
+    },
+    "schwarzschild_parallel": "-3*L**2*M/r**5",
+    "schwarzschild_perpendicular": "3*L**2*M/r**5"
+  },
+  "finite_map": "D=diag(D_parallel,D_perp) in the propagated orbital/reflection screen; D_parallel solves D''+T_parallel D=0 with D(0)=0,D'(0)=1; D_perp=r sin(varphi-varphi_o)/sin(alpha_o)",
+  "first_integrals": {
+    "angular": "L=r^2 varphi_dot",
+    "energy": "E=f t_dot",
+    "radial": "r_dot^2=E^2-f L^2/r^2"
+  },
+  "landing": "FINITE_NONRADIAL_JACOBI_MAP_DERIVED_CONDITIONALLY__G186_LOCAL_SCREEN_SEEDS_TWO_METRIC_FIXED_MODES__NONRADIAL_SHEAR_EMERGES_WITHOUT_EXTRA_COEFFICIENT",
+  "screen_tidal": {
+    "cross": "0",
+    "parallel": "L**2*(r*Derivative(f(r), (r, 2)) - Derivative(f(r), r))/(2*r**3)",
+    "parallel_phi_form": "L**2*(2*phi_prime**2*r + phi_prime - phi_second*r)*f(r)/r**3",
+    "perpendicular": "L**2*(r*Derivative(f(r), r) - 2*f(r) + 2)/(2*r**4)",
+    "perpendicular_phi_form": "-L**2*(phi_prime*r*f(r) + f(r) - 1)/r**4",
+    "trace": "L**2*(r**2*Derivative(f(r), (r, 2)) - 2*f(r) + 2)/(2*r**4)"
+  },
+  "status": "PASS"
+}

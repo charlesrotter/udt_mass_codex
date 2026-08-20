@@ -38,13 +38,14 @@
 | G173 turning atlas | `VERIFIED_WITH_CAVEATS` | Angular turns stay regular; bare lines retain scalar charts |
 | G174 calibrated germ | `VERIFIED_WITH_CAVEATS` | One calibrated ruler fixes one scalar; bare line retains atlas |
 | G175 calibration equivalence | `VERIFIED_WITH_CAVEATS` | Endpoint depths fix tape modulo unit |
-| G176--G180 completed-pair kernel (including G179) | conditional; reviews accepted | Ruler extends through families |
-| G181 one-sided endpoints | `DERIVED_CONDITIONAL`; review accepted | Tape, coefficient, stall, and zero-tangent classes |
-| G182 two-sided carry | `DERIVED_CONDITIONAL`; accepted | Metric/scalar/full-germ carry; stall parity |
+| G176--G180/G179 kernel | conditional; accepted | Ruler extends through families |
+| G181 endpoints | conditional; accepted | Tape, stall, zero-tangent classes |
+| G182 two-sided carry | conditional; accepted | Carry types; stall parity |
 | G183 pair strata | `DERIVED_CONDITIONAL`; repair follow-up accepted | Degeneracy taxonomy; regular multibranch output remains branch-labelled |
-| G184 branch equivalence | `DERIVED_CONDITIONAL`; accepted | Typed quotient; kernel is incomplete realization invariant |
-| G185 SNe channels | `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS` | Radial pair angular Gram is zero; sky area `R^2` is live; dual-catalog replay preserved; transfer imported; `R(Z)` frozen |
+| G184 branch equivalence | conditional; accepted | Typed quotient; kernel incomplete |
+| G185 SNe channels | externally reviewed | Radial pair angular Gram zero; sky area `R^2` live; replay preserved; transfer imported; `R(Z)` frozen |
 | G186 | externally accepted | Nonradial channels and local screen |
+| G187 | externally accepted | G186 screen propagates into a finite two-mode map; no added coefficient |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -73,10 +74,9 @@ None selects completion or `X_max`.
 - G149--G163 bound first jets, scale, score, carry, quotient, rapidity, and the X-free kernel;
   route/frame transport stays separate.
 - G165 controls envelope; G166 excludes it from founded block.
-- G166--G186 test the supplied-pair kernel; G177--G178 verify. G182 separates scalar, metric, and immersion
-  carry; G183 separates domain failure from regular multiplicity; G184 removes coordinate duplicates
-  without selecting a branch; G185 checks bounded central-spherical SNe channels
-  without native transfer or `R(Z)`; G186 resolves nonradial channels/screen.
+- G166--G187 test the pair kernel; G177--G178 verify. G182 separates carry types; G183 regular
+  multiplicity; G184 coordinate duplicates; G185 radial SNe channels; G186 nonradial channels and
+  screen; G187 finite static-spherical Jacobi propagation. No branch or flux law is selected.
 
 ## Carrier, action, source, and matter
 
@@ -106,13 +106,13 @@ Do not:
 - promote G146--G162 controls to carrier, dynamics, observation, evolution, or closure;
 - erase joined `C,Gamma`, collapse route into tangent transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize G167--G186, select `Y,Z`, scalarize angular Gram, force triangles, erase calibration
+- globalize G167--G187, select `Y,Z`, scalarize angular Gram, force triangles, erase calibration
   controls, or call the chain canon, event/germ selection, global carry, or dynamics;
 - import familiar mechanisms as UDT derivations or select branches by resemblance.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 171-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 172-row authority. On conflict, stop.
 
 During orientation use this guide and run:
 

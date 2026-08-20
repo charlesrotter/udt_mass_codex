@@ -1,0 +1,41 @@
+{
+  "algebraic_mutation_catch_count": 15,
+  "algebraic_mutation_catches": {
+    "angular_momentum_deletion_goes_red": true,
+    "caustic_inverse_is_rejected": true,
+    "cross_mode_insertion_goes_red": true,
+    "endpoint_o2_erasure_goes_red": true,
+    "endpoint_o2_law_preserves_abs_det": true,
+    "finite_map_to_projector_goes_red": true,
+    "flat_finite_map_is_not_unit_projector": true,
+    "forced_mode_equality_goes_red": true,
+    "forced_zero_trace_goes_red": true,
+    "one_mode_forced_on_both_axes_goes_red": true,
+    "parallel_mode_deletion_goes_red": true,
+    "parallel_sign_flip_goes_red": true,
+    "perpendicular_mode_deletion_goes_red": true,
+    "perpendicular_sign_flip_goes_red": true,
+    "post_readout_scalar_goes_red": true
+  },
+  "artifact_scope_guard_count": 14,
+  "artifact_scope_guards": {
+    "flux_promotion_injection_goes_red": true,
+    "globalization_injection_goes_red": true,
+    "history_supply_clause_deletion_goes_red": true,
+    "no_flux_clause_deletion_goes_red": true,
+    "no_physical_population_clause_deletion_goes_red": true,
+    "no_xmax_clause_deletion_goes_red": true,
+    "open_flux_status_deletion_goes_red": true,
+    "open_global_history_status_deletion_goes_red": true,
+    "open_physical_population_status_deletion_goes_red": true,
+    "path_selection_injection_goes_red": true,
+    "query_supply_clause_deletion_goes_red": true,
+    "rz_injection_goes_red": true,
+    "signal_speed_injection_goes_red": true,
+    "xmax_injection_goes_red": true
+  },
+  "audit": "G187_CATCH_PROOFS_REPAIRED",
+  "failed_algebraic_mutation_catches": [],
+  "failed_artifact_scope_guards": [],
+  "status": "PASS"
+}

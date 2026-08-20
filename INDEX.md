@@ -18,7 +18,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G186 relational closure and first application chain:
+- G137--G187 relational closure and first application chain:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -49,8 +49,8 @@
   `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`; `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`;
   `udt_g180_completed_pair_smooth_family_descent_2026-08-19/`; `udt_g181_completed_pair_singular_endpoint_classification_2026-08-19/`;
   `udt_g182_completed_pair_two_sided_carry_classification_2026-08-19/`; `udt_g183_pair_degenerate_multibranch_strata_classification_2026-08-19/`; `udt_g184_regular_branch_equivalence_classification_2026-08-19/`;
-  `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`
-G140--G162 control carry, carrier, scale, score, quotient, and transport.
+  `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`; `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`; `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`
+G140--G162 control carry, scale, score, and transport.
 G163 removes `X_max`; G164--G165 control scaffolds. G166 proves the founded
 ordered-pair metric owns its kernel. G167 derives the full local regular pair pullback of the
 primary spherical four-metric. G168 derives the supplied-germ plane; G170 regrades G169 and derives
@@ -59,17 +59,17 @@ arbitrary triangle additivity and scaffolded carry. G172--G175 remain accepted c
 regular, one calibrated germ has one scalar, and arbitrary tapes differ lawfully. G176 provisionally
 closes the ruler; G177 removes scaffolds; G178 accepts; G179 extends coframes; G180 glues families.
 G181 classifies endpoints; G182 carry; G183 strata; G184 equivalence; G185 radial SNe; G186
-nonradial channels. Reviews accept.
-Physical branch population and symmetry policy, non-scalar transport, and global extension remain open.
+nonradial channels; G187 finite nonradial Jacobi propagation. Reviews accept.
+Branch population and global extension remain open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open load-bearing evidence. The 171-row registry controls.
+For G93--G128 use `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`, then open load-bearing evidence. The 172-row registry controls.
 ## Observational lane
-- G186: `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`; G185: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
+- `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`; `udt_g186_nonradial_completed_pair_channel_resolution_2026-08-20/`; `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
 - Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
 - R4 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md`
