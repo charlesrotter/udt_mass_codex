@@ -1,0 +1,16 @@
+{
+  "audit": "G186_PACKAGE",
+  "checks": {
+    "all_required_files": true,
+    "all_sources_immutable": true,
+    "catch_count_18": true,
+    "independent_20000_pass": true,
+    "landing_matches": true,
+    "live_replays_pass": true,
+    "production_pass": true,
+    "semantic_guard_count_12": true,
+    "stored_results_match_live": true
+  },
+  "source_failures": [],
+  "status": "PASS"
+}

@@ -1,0 +1,15 @@
+{
+  "assertions": 320000,
+  "audit": "G186_INDEPENDENT",
+  "named_witnesses": {
+    "collinear_h": [["-3/16", "1/4"], ["1/4", "2"]],
+    "collinear_m2": "7/16",
+    "noncollinear_h": [["-3/16", "0"], ["0", "2"]],
+    "noncollinear_m2": "3/8",
+    "static_h": [["-1/4", "0"], ["0", "2"]],
+    "static_m2": "1/2"
+  },
+  "seed": 1860820,
+  "status": "PASS",
+  "trials": 20000
+}

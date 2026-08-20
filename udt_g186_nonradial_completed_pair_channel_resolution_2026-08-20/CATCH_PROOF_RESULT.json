@@ -1,0 +1,42 @@
+{
+  "audit": "G186_CATCH_PROOFS",
+  "executable_catch_count": 18,
+  "executable_catches": {
+    "all_angular_terms_silenced": true,
+    "angular_clock_deleted": true,
+    "angular_ruler_deleted": true,
+    "arbitrary_calibration_substituted": true,
+    "base_only_density": true,
+    "cross_gram_deleted": true,
+    "cross_term_appended_to_depth": true,
+    "depth_made_v_dependent": true,
+    "finite_sky_identified_with_local_projector": true,
+    "pair_ceff_called_signal_speed": true,
+    "physical_query_claimed_selected": true,
+    "post_readout_regime_coefficient": true,
+    "ruler_norm_appended_to_depth": true,
+    "scalar_mu_inserted": true,
+    "shift_erased": true,
+    "wedge_sign_flipped": true,
+    "wedge_term_deleted": true,
+    "xmax_inserted": true
+  },
+  "failed_executable_catches": [],
+  "failed_semantic_guards": [],
+  "semantic_guard_count": 12,
+  "semantic_guards": {
+    "bounded_query_is_chosen": true,
+    "completed_reciprocity_remains_working": true,
+    "finite_jacobi_screen_not_derived": true,
+    "full_pullback_precedes_readout": true,
+    "local_projector_is_not_flux": true,
+    "no_R_of_Z": true,
+    "no_Xmax": true,
+    "no_fit_or_new_coefficient": true,
+    "no_global_history": true,
+    "no_native_light_claim": true,
+    "static_clock_boundary_retained": true,
+    "w0_w1_not_assumed_collinear": true
+  },
+  "status": "PASS"
+}

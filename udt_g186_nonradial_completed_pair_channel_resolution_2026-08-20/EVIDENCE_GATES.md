@@ -2,15 +2,15 @@
 
 | Gate | Status | Evidence |
 |---|---|---|
-| Preregistered before implementation | PENDING | commit required |
+| Preregistered before implementation | PASS | commit `ac5877d1` |
 | Bounded scope | PASS | supplied local nonradial germ family in primary metric only |
-| Source integrity | PENDING | ten frozen SHA-256 entries |
-| Exact pullback and channel classification | PENDING | no outcome computed |
-| Local screen projector | PENDING | no outcome computed |
-| Independent exact replay | PENDING | no outcome computed |
-| Mutation and semantic catches | PENDING | no outcome computed |
-| Premise audit | PENDING | required after implementation |
-| Repository regression | PENDING | required after implementation |
+| Source integrity | PASS | 10/10 frozen SHA-256 entries |
+| Exact pullback and channel classification | PASS | 14/14 symbolic identities |
+| Local screen projector | PASS | symbolic identities and positive independent screens |
+| Independent exact replay | PASS | 20,000 witnesses; 320,000 exact assertions |
+| Mutation and semantic catches | PASS | 18 executable catches; 12 semantic guards |
+| Premise audit | PASS | 170 rows and 754 historical dispositions |
+| Repository regression | PASS | 130 passed; 1 expected xfail |
 | Fresh adversarial review | PENDING | required for external grade |
 
-Maximum current grade: `PREREGISTERED_ONLY__NO_SCIENTIFIC_OUTCOME`.
+Maximum current grade: `INTERNALLY_VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_PENDING`.

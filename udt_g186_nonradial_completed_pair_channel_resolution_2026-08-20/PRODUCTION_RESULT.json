@@ -1,0 +1,62 @@
+{
+  "audit": "G186_PRODUCTION",
+  "checks": {
+    "annihilates_pair_tangents": true,
+    "beta_formula": true,
+    "direct_pullback": true,
+    "g_self_adjoint": true,
+    "idempotent": true,
+    "m2_formula": true,
+    "rank_trace_two": true,
+    "reparam_h00_invariant": true,
+    "reparam_h01_oriented_scaling": true,
+    "reparam_h11_quadratic_scaling": true,
+    "reparam_m2_quadratic_scaling": true,
+    "rotation_invariant": true,
+    "static_clock_phi_equals_phi": true,
+    "wedge_is_squared_angular_area": true
+  },
+  "endpoint_response": "delta_AB = phi_B-phi_A - 1/2 log[(1-nu_B^2)/(1-nu_A^2)]",
+  "expressions": {
+    "Phi": "phi - 1/2 log(1-nu^2)",
+    "beta": "p*r**2*(w00*w10 + w01*w11)/(p*r**2*w00**2 + p*r**2*w01**2 - 1)",
+    "h00": "(p*r**2*w00**2 + p*r**2*w01**2 - 1)/p",
+    "h01": "r**2*(w00*w10 + w01*w11)",
+    "h11": "p*v**2 + r**2*(w10**2 + w11**2)",
+    "m2": "-(p**2*r**2*v**2*w00**2 + p**2*r**2*v**2*w01**2 + p*r**4*w00**2*w11**2 - 2*p*r**4*w00*w01*w10*w11 + p*r**4*w01**2*w10**2 - p*v**2 - r**2*w10**2 - r**2*w11**2)/p",
+    "nu2": "p*r**2*w00**2 + p*r**2*w01**2",
+    "wedge2": "(w00*w11 - w01*w10)**2"
+  },
+  "landing": "NONRADIAL_COMPLETED_PAIR_CHANNELS_RESOLVE_WITHOUT_EXTRA_SCALAR__CLOCK_ANGULAR_NORM_CONTROLS_DEPTH__FULL_ANGULAR_GRAM_CONTROLS_TAPE_SHIFT_AND_LOCAL_SCREEN",
+  "local_screen": "Pi = I - J (J^T g J)^-1 J^T g; finite Jacobi response not inferred",
+  "status": "PASS",
+  "witnesses": {
+    "collinear": {
+      "beta": "-4/3",
+      "h": [["-3/16", "1/4"], ["1/4", "2"]],
+      "m2": "7/16",
+      "nu2": "1/4",
+      "phi_completed": "-log(3)/2 + 2*log(2)",
+      "projector_trace": "2",
+      "regular": true
+    },
+    "noncollinear": {
+      "beta": "0",
+      "h": [["-3/16", "0"], ["0", "2"]],
+      "m2": "3/8",
+      "nu2": "1/4",
+      "phi_completed": "-log(3)/2 + 2*log(2)",
+      "projector_trace": "2",
+      "regular": true
+    },
+    "static_clock_nonradial_ruler": {
+      "beta": "0",
+      "h": [["-1/4", "0"], ["0", "2"]],
+      "m2": "1/2",
+      "nu2": "0",
+      "phi_completed": "log(2)",
+      "projector_trace": "2",
+      "regular": true
+    }
+  }
+}
