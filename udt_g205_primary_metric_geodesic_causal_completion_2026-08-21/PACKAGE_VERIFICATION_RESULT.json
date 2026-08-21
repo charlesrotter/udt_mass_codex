@@ -1,0 +1,16 @@
+{
+  "all_pass": true,
+  "diagnostic_precision_digits": 80,
+  "distinct_cases": 10000,
+  "independent_assertions": 150000,
+  "independent_cases": 10000,
+  "initial_adversarial_review": "REPAIR_REQUIRED_WITH_LANDING_RETAINED",
+  "live_source_hash_check": "SEPARATE_REPOSITORY_CONTEXT_GATE",
+  "live_source_hashes_recorded": 7,
+  "mutation_catches": 17,
+  "no_write_replay": true,
+  "production_assertions": 112,
+  "provenance_manifest_rows": 7,
+  "registered_repairs": "VERIFIED",
+  "repair_only_followup": "REPAIRS_VERIFIED__LANDING_RETAINED"
+}

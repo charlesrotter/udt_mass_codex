@@ -34,7 +34,8 @@
 - Current primary-metric regime-amplitude result:
   `udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/`
 - Current quiet-overlap/anchor result: `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`
-- Current global regularity result: `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`
+- Static regularity: `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`
+- Completion: `udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/`
 
 G129--G165 are reconstruction, scale, carry, `X_max`, and scaffold controls. G166--G184 build the
 completed-pair scalar chain. G185--G189 are application controls. G190--G198 evaluate chosen metric
@@ -45,7 +46,7 @@ coframe. G199 derives both radial null directions directly from the primary metr
 native chiral radial split. G200 derives the two reversed nonradial local laws and shows that their
 first finite difference is opposite radial-gradient sampling. G201 proves the reciprocal and
 angular channels need not share one envelope; G202--G203 classify quiet crossings and descriptors;
-G204 adds the smooth-center/outer-asymptotic alternatives without selecting a profile or `X_max`.
+G204 supplies alternatives; G205 proves causal completion without selection.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -54,7 +55,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Historical chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 188-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 189-row registry controls.
 ## Observational lane
 
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`

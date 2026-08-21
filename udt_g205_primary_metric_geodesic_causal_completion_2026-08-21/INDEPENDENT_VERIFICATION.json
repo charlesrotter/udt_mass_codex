@@ -1,0 +1,22 @@
+{
+  "all_pass": true,
+  "assertions": 150000,
+  "cases": 10000,
+  "distinct_cases": 10000,
+  "method": "independent_exact_rational_algebraic_core_only",
+  "not_independently_verified_here": [
+    "smooth_center_crossing",
+    "bounded_geodesic_ODE_extension",
+    "optical_metric_completeness",
+    "Cauchy_slice_global_hyperbolicity",
+    "all_odd_n_universal_quantifier"
+  ],
+  "production_artifact_read": false,
+  "production_imported": false,
+  "verified_scope": [
+    "Hamiltonian_first_integral_identity",
+    "radial_acceleration_identity",
+    "zero_energy_sign_classification",
+    "trapping_polynomial_identity_and_sign"
+  ]
+}

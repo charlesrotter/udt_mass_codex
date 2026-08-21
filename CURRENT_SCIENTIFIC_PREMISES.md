@@ -33,6 +33,7 @@
 | G202 quiet-overlap/profile-anchor audit | independently verified with caveats | Quietness is a zero logarithmic second jet; infinite profiles survive and anchors calibrate rather than derive |
 | G203 quiet-parameter ownership audit | independently verified with caveats | Order, orbit area, and log-areal steepness are invariant descriptors whose values remain unselected |
 | G204 global regularity/asymptotic audit | independently verified with caveats | Smooth center excludes the monotone log extension; an infinite even-areal trough/asymptote family survives without parameter selection |
+| G205 geodesic/causal completion audit | externally verified with caveats | The supplied family is fully geodesically complete and globally hyperbolic; exact null-trapping strata do not select parameters or `X_max` |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -62,8 +63,9 @@ None selects completion or `X_max`.
   directional asymmetry from being promoted to the primary metric; G200 shows that native finite
   differences arise by radial sampling; G201 permits non-lockstep volumes, G202 makes quiet overlap
   exact, G203 separates invariant profile descriptors from numerical selection, and G204 adds the
-  bounded smooth-center/outer-asymptotic alternatives. Population, transfer, profile ownership,
-  completion, and global realization stay open.
+  bounded smooth-center/outer-asymptotic alternatives. G205 proves their declared static-spherical
+  geodesic/causal completion. Population, transfer, profile ownership, maximal extension, and
+  nonspherical/global realization stay open.
 
 ## Carrier, action, source, and matter
 
@@ -98,7 +100,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 188-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 189-row authority. On conflict, stop.
 
 Run:
 

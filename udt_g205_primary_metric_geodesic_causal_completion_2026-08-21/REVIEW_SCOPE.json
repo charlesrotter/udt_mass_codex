@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-21",
+  "package": "udt_g205_primary_metric_geodesic_causal_completion_2026-08-21",
+  "purpose": "fresh read-only adversarial verification of the bounded G205 landing",
+  "required_command": "PYTHONDONTWRITEBYTECODE=1 UDT_NO_WRITE=1 python3 udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/verify_package.py",
+  "allowed": [
+    "inspect files in the sealed intake",
+    "run bounded read-only checks",
+    "write the review response outside the evidence package"
+  ],
+  "forbidden": [
+    "edit evidence files",
+    "continue the research",
+    "access repository files outside the intake",
+    "import observations or protected packages"
+  ]
+}

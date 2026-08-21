@@ -1,0 +1,12 @@
+object	status	maximum_conclusion
+geodesic_first_integrals	DERIVED	all causal types on supplied family
+smooth_center_extension	DERIVED_CONDITIONAL	center is ordinary point on declared R times R3 realization
+timelike_completeness	DERIVED_CONDITIONAL_ANALYTIC	all registered parameters
+null_completeness	DERIVED_CONDITIONAL_ANALYTIC	all registered parameters
+spacelike_completeness	DERIVED_CONDITIONAL_ANALYTIC	all registered parameters
+optical_metric_completeness	DERIVED_CONDITIONAL_ANALYTIC	all registered parameters
+global_hyperbolicity	DERIVED_CONDITIONAL_ANALYTIC_HISTORY_PROPERTY	not founding postulate or selector
+finite_radius_Killing_horizon	DERIVED_ABSENT	f positive at every finite radius
+null_trapping_threshold	DERIVED_CONDITIONAL	subcritical critical supercritical amplitude strata
+maximal_extension_event_horizon_Xmax	OPEN	not implied by completeness
+physical_profile_parameters_history	OPEN	no selection

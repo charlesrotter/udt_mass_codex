@@ -1,0 +1,23 @@
+{
+  "all_pass": true,
+  "catches": [
+    "all_pass",
+    "assertion_count",
+    "missing_spacelike",
+    "missing_E0_case",
+    "finite_horizon_invented",
+    "selection_guard_removed",
+    "inner_orbit_stability_flip",
+    "outer_orbit_stability_flip",
+    "optical_proof_falsely_mechanized",
+    "global_proof_falsely_mechanized",
+    "optical_analytic_scope_removed",
+    "global_analytic_scope_removed",
+    "independent_case_count",
+    "duplicate_independent_cases",
+    "production_import_smuggled",
+    "independence_scope_overclaimed",
+    "diagnostic_precision_drop"
+  ],
+  "caught": 17
+}

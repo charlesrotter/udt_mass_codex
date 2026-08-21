@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G204. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G205. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -34,7 +34,7 @@ parametric branch `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, non
 G191--G198 explore chosen complete-coframe families and supplied germs. Their Levi-Civita/Jacobi machinery is a
 `STANDARD_GEOMETRIC_EVALUATOR`, not a UDT field equation or history selector.
 
-Current structural result: `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`.
+Current structural result: `udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/`.
 G199 proved that the exploratory chain introduced the one-sided `deta+dz` screen coupling as a
 `CHOSE_MATHEMATICAL_FUNCTION_FAMILY`; it is not in the primary static-spherical metric. Directly
 on that primary metric, both normalized future radial null germs are affine, share
@@ -60,15 +60,13 @@ Independent exact replay passes 10,000 arbitrary jets, 1,000 cancellation cases,
 controls, and 23,606 assertions. This proves lawful regime-dependent instrument ratios, not a
 selected physical profile or universal response score.
 
-G202--G203 derive quiet overlap and show that its odd crossing order, orbit area, and log-areal
-steepness are invariant descriptors whose values remain unselected. G204 adds global
-static-spherical regularity. The monotone two-sided log profile is center-singular; a smooth center
-forces `phi=O(r^2)`. An exact even-areal family survives for every odd order, positive quiet radius,
-and positive steepness: it has one finite negative inner trough, returns through the quiet crossing,
-and grows to a curvature-decaying outer reciprocal asymptote. The first repair failed smoothness and
-was replaced only after explicit correction preregistration. Direct reconstruction passes 113
-assertions; independent exact replay passes 10,000 distinct cases and 160,010 assertions. The outer
-limit is not standard asymptotic flatness, a horizon, wall, completion, or `X_max`.
+G202--G203 derive quiet overlap and invariant but unselected descriptors. G204 excludes the
+center-singular monotone log extension and supplies an infinite smooth even-areal trough/asymptote
+family. G205 proves on declared `R x R3` that this family is fully geodesically complete and globally
+hyperbolic. Circular null orbits have exact zero/one/two strata across `a_crit(n)`; above threshold
+the inner orbit is stable and the outer unstable. External review retained these analytic theorems;
+finite scripts verify only the algebraic core. No parameter, profile, physical history, maximal
+extension, event horizon, or `X_max` is selected.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -108,8 +106,7 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G204 closes the bounded static-spherical center/asymptotic classification. Next PONDER whether to
-test full geodesic/causal completion of the surviving family or extend beyond static spherical
-geometry. Do not fit, identify the outer limit with `X_max`, select transfer, derive a time-live
-metric by template, or use G116/G189 as construction inputs.
+G205 closes bounded static-spherical geodesic and causal completion. Next PONDER a metric-led
+nonspherical/time-live extension. Do not fit, identify the outer limit with `X_max`, select
+transfer, derive a metric by template, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

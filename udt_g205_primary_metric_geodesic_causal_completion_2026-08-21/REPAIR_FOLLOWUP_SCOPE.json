@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-21",
+  "package": "udt_g205_primary_metric_geodesic_causal_completion_2026-08-21",
+  "purpose": "read-only repair-only follow-up for the retained G205 landing",
+  "required_command": "PYTHONDONTWRITEBYTECODE=1 UDT_NO_WRITE=1 python3 udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/verify_package.py",
+  "allowed": [
+    "inspect files in the sealed package-only intake",
+    "run the registered no-write replay",
+    "run bounded read-only checks of the six registered evidence repairs"
+  ],
+  "forbidden": [
+    "edit files",
+    "continue the research",
+    "access repository files outside the intake",
+    "change or extend the scientific landing"
+  ]
+}

@@ -67,8 +67,11 @@ physical scalar after the working premise. They must not be conflated.
   necessary smooth-center condition, and supplies an infinite even-areal family with one finite
   inner trough and a curvature-decaying outer reciprocal asymptote. Regularity does not select its
   order, radius, steepness, completion, or `X_max`.
+- G205 proves that exact supplied family fully geodesically complete and globally hyperbolic on
+  declared `R x R3`. Its null circular orbits have exact subcritical/critical/supercritical strata.
+  These are analytic theorems; finite replays independently certify only the algebraic core.
 
-Current structural package: `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`.
+Current structural package: `udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -98,6 +101,6 @@ contractions.
 
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
 volumes need not be lockstep. Quiet overlap, its descriptors, and the bounded smooth-center/outer
-asymptotic alternatives are now exact. Their values and completion remain unselected. Next PONDER
-full geodesic/causal completion versus nonspherical extension. Do not fit, invent channel
+asymptotic alternatives are exact; G205 closes their static-spherical geodesic/causal completion.
+Their values remain unselected. Next PONDER a metric-led nonspherical/time-live extension. Do not fit, invent channel
 coefficients, identify the outer limit with `X_max`, select transfer, or use G116/G189 as inputs.
