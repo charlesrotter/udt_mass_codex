@@ -21,39 +21,12 @@
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
-| G129--G134 reconstruction | `VERIFIED_WITH_CAVEATS` | Pullbacks recover `g`; scalars stop at positive conformal class |
-| G135--G144 position/carry | `VERIFIED_WITH_CAVEATS` | Position; overlap owns carry |
-| G145 relation/history descent | `VERIFIED_WITH_CAVEATS` | Atlas reconstruction; realization open |
-| G146--G147 multidirectional position | `VERIFIED_WITH_CAVEATS` | Projection nonunique; carrier open |
-| G148 relation-first first jet | `VERIFIED_WITH_CAVEATS` | Chosen-representation identity only |
-| G149--G162 score/carry/quotient | `VERIFIED_WITH_CAVEATS` | Scalar and route memory remain distinct |
-| G163 Xmax dependency reversal | `VERIFIED_WITH_CAVEATS` | Scalar kernel ends at dimensionless `chi` |
-| G165 conformal rank | `VERIFIED_WITH_CAVEATS` control | Envelope conformal kernel; not physical multiplicity |
-| G166 primary pair descent | `VERIFIED_WITH_CAVEATS` | Pair metric owns its scalar kernel; general `3+1` remains conditional |
-| G167 primary-metric pair pullback | `VERIFIED_WITH_CAVEATS` | Spherical metric owns the local orchestra; `Y,Z` remain pair data |
-| G168 supplied-germ plane | `VERIFIED_WITH_CAVEATS` | Supplied germ yields `Y,Z`; ownership open |
-| G170 endpoint-relative response | `VERIFIED_WITH_CAVEATS` | `delta_AB=Phi_B-Phi_A` in one calibration class; cross-query carry open |
-| G171 pair-germ-relative network | `VERIFIED_WITH_CAVEATS` | Native pair evaluation; only matched endpoint readouts telescope |
-| G172 smooth pair-family closure | `VERIFIED_WITH_CAVEATS` | Monotone-areal sphere curves close; converse/global open |
-| G173 turning atlas | `VERIFIED_WITH_CAVEATS` | Turns stay regular; bare lines retain scalar charts |
-| G174 calibrated germ | `VERIFIED_WITH_CAVEATS` | Calibrated ruler fixes one scalar; bare line retains atlas |
-| G175 calibration equivalence | `VERIFIED_WITH_CAVEATS` | Endpoint depths fix tape modulo unit |
-| G176--G180/G179 kernel | conditional; accepted | Ruler extends through families |
-| G181 endpoints | conditional; accepted | Tape, stall, zero-tangent classes |
-| G182 two-sided carry | conditional; accepted | Carry types; stall parity |
-| G183 pair strata | `DERIVED_CONDITIONAL`; accepted | Degeneracy taxonomy; regular output remains branch-labelled |
-| G184 branch equivalence | conditional; accepted | Typed quotient; kernel incomplete |
-| G185 | accepted | Radial Gram zero; sky `R^2` live; transfer/P1 imported |
-| G186--G187 | accepted | Nonradial allocation and two-mode screen |
-| G188 | accepted with caveat | Complete-metric matrix screen; live mixing |
-| G189 | accepted; repairs closed | Conditional static flux; `R proportional chi` rejected |
-| G190 | accepted; no repair | Time-live null/frequency/matrix screen; parametric output; local `d_A(Z)` |
-| G191 | accepted after packaging repair | Exact nonconformal time-live mixing join; monotone/noncaustic control; live cross-screen response |
-| G192 | accepted after verifier repairs | Smooth `a,mu` in one rank-one family; turns and sign-variable screen response; family-scoped no-caustic theorem |
-| G193 | accepted with caveats | Noncommuting symmetric `a,mu,nu`; factorization; scoped no-caustics; control rotation |
-| G194 | accepted with caveats | Arbitrary symmetric `M`; factorization; scoped no-caustics |
-| G195 | accepted with caveats | Arbitrary real `M=S+Omega`; rotation carry; scoped no-caustics |
-| G196 | externally reviewed; repair follow-up accepted | `M(eta,z)` on one outgoing germ; `D_plus` descent; scoped no-caustics |
+| G129--G165 reconstruction/controls | accepted with caveats | Pullbacks recover `g`; scalar views stop at conformal/scale/carrier ceilings; `X_max` and scaffolds are not kernel inputs |
+| G166--G175 primary supplied-pair chain | accepted with caveats | Pullback, endpoint difference, reversal, turns, and calibration atlas; germ and profile remain supplied |
+| G176--G180 completed pair | conditional; externally accepted | Working completed-pair premise selects the reciprocal ruler; coframe/family evaluators do not select histories |
+| G181--G184 strata/equivalence | conditional; externally accepted | Endpoints, carry, branches, and typed quotient; equal summaries do not identify realizations |
+| G185--G189 application boundary | accepted with caveats | Radial/nonradial screen and conditional flux controls; transfer/P1 remain imported or historical |
+| G190--G196 time-live families | accepted with caveats | Parametric frequency/screen evaluator and nested chosen mixing families; latest `D_plus` descent remains one-germ/family scoped |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -76,10 +49,9 @@ None selects completion or `X_max`.
 - The kernel takes an ordered pair, not a path; route observables remain separate.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
   Metricity is not dynamics. G138--G145 assign carry to overlaps, not endpoints.
-- G146--G148 and G149--G163 bound carrier, `O(2)`, `lambda`, first jets, scale, score, transport, and `X_max`.
-  G165 controls the envelope; G166 restores the founded block.
-- G166--G196 derive and test the kernel; G177--G178 verify. The chain covers carry, branches, screens, Jacobi response,
-  conditional flux, and nested live families. Population, transfer, and history stay open.
+- G146--G163 bound carrier, `O(2)`, `lambda`, first jets, scale, score, transport, and `X_max`;
+  G165 is an envelope control rather than a physical multiplicity theorem.
+- G166--G196 derive and test the supplied-pair kernel. Population, transfer, and history stay open.
 
 ## Carrier, action, source, and matter
 
@@ -97,9 +69,8 @@ None selects completion or `X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no feature, scale, origin, cosmology, or `X_max`.
-G185 imports transfer and freezes P1. G189 rejects only `R=R0 tanh(phi)`. G190 returns
-`lambda -> (Z,D,d_A)`; G191--G196 supply nested controls/families and one directional descent.
-None derives transfer, history, population, or global branch.
+The application lane imports transfer and freezes P1; the time-live lane returns a parametric
+frequency/screen branch on supplied histories. None derives transfer, population, or a global branch.
 
 ## Recurring prohibited promotions
 
@@ -109,7 +80,7 @@ Do not:
   proper length, universe size, or seams into the kernel;
 - promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize G167--G196, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
+- globalize the G166--G196 chain, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
   import familiar mechanisms as UDT derivations.
 
 ## How to use the registry

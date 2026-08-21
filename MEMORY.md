@@ -4,33 +4,19 @@ Re-read on resume. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166 owns `phi_pair`, `c_eff/c_E`, and `chi`. G167 pulls `B,Q,S,Y,Z` before readout; G168 uses a
-supplied germ. G170--G171 give pair-relative endpoint differences. G172--G175 are controls.
-G176 applies provisional Dual Reciprocity after the complete pair pullback and fixes
-`m=T L_sigma=sqrt(-det h_sigma)`. Arbitrary calibrations remain
-controls. G177--G180 remove scaffolds, accept, extend coframes, and glue families. G181--G184
-classify endpoints, carry, branches, and coordinate equivalence; equal summaries do not identify
-realizations. Reviews accept.
-G185 preserves frozen radial SNe controls with zero pair angular Gram, live sky `R^2`, imported
-transfer, and frozen P1 `R(Z)`. G186--G188 derive nonradial allocation and the complete-metric
-screen; mixing creates coefficient-free cross-response. G189 rejects `R=R0 tanh(phi)`. G190 derives
-`lambda -> (Z,D,d_A)`, local on monotone noncaustic pieces. G191 verifies one nonconformal metric
-realization. G192--G194 extend it from arbitrary smooth `a>0,mu` through arbitrary symmetric `M`;
-turns, full tide, noncommutation, factorization, scoped noncausticity, sign-variable response, and
-finite rotation occur. G195 adds antisymmetric rotation, closing arbitrary smooth real `M=S+Omega`
-in the displayed time-dependent family; rotation is screen carry. G196 adds arbitrary longitudinal
-`M(eta,z)` on one outgoing germ; the response uses `D_plus` and retains factorization and scoped
-no-caustics. Fresh external review accepts the bounded theorem, and repair-only follow-up externally
-closes both evidence repairs.
+G166--G196 is the active supplied-pair chain. The metric and pair germ first produce the full
+`B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
+after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
+metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
+control, not completed `Phi`.
 
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier, score, scale, and
-transport freedoms and remove `X_max`; G164--G196 remove scaffolds, build the
-supplied-pair kernel, and test radial/nonradial channels.
-See `INDEX.md` for exact milestones.
-Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195,G196`; bivector area bilinear; numerical/global valuation stays open.
+G190--G196 use chosen metric families and standard Levi-Civita/Jacobi evaluators. Latest bounded
+result: one `a(eta),M(eta,z)` family and one outgoing germ yield `D_plus`, ordered factorization,
+and scoped no-nonvertex-caustics. The IVP comparison is formula-level regression; metric-side
+contractions are independent. One germ does not reconstruct off-ray data.
 
-Physical germ/global realization, ambient extension, completion, and `X_max` remain open.
+Physical germs/functions, ambient/global realization, transfer, completion, and `X_max` remain
+open. `INDEX.md` routes exact evidence; earlier chronology is archived.
 
 ## Observational pointer
 
@@ -46,9 +32,8 @@ Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
 - Pointwise `phi` is conditional; terminal `phi_pair` is derived on a supplied pair whose orchestra
   precedes readout.
 - Pair `c_eff` is an observer-frame readout, not automatically signal speed.
-- working pair position `chi` is not proper length.
-- `X_max` is a working asymptotic global-completion consequence target, not a local kernel input, wall, center,
-  or seam.
+- Working pair position `chi` is not proper length.
+- `X_max` is a working asymptotic completion target, not a local input, wall, center, or seam.
 - Strong local CSN is inactive.
 - Carrier, action, source, matter, dynamics, and bootstrap remain posit/conditional/open.
 
@@ -56,7 +41,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Map a second/opposite germ or minimal multidirectional network, without fits, `X_max`, transfer, or
-G116/G189.
+Finish G197 provenance/startup audit. If clean, MAP a second/opposite germ or minimal
+multidirectional network without fits, `X_max`, transfer, or G116/G189 construction inputs.
 
-G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
+Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
+`archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:
+`CURRENT_SCIENTIFIC_PREMISES.tsv`.

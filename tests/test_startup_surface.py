@@ -134,7 +134,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 180-row premise registry" in result.stdout
+    assert "PASS: 181-row premise registry" in result.stdout
 
 
 def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:
@@ -178,150 +178,11 @@ def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_missing_g134_current_result(tmp_path: Path) -> None:
+@pytest.mark.parametrize("token", ("G166--G196", "G196", "G197"))
+def test_catch_missing_current_dependency_spine(tmp_path: Path, token: str) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G134", "REMOVED_RESULT_134")
-    with pytest.raises(SystemExit, match="marked current block lacks G134"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g135_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G135", "REMOVED_RESULT_135")
-    with pytest.raises(SystemExit, match="marked current block lacks G135"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g139_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G139", "REMOVED_RESULT_139")
-    with pytest.raises(SystemExit, match="marked current block lacks G139"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g140_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G140", "REMOVED_RESULT_140")
-    with pytest.raises(SystemExit, match="marked current block lacks G140"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g145_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G145", "REMOVED_RESULT_145")
-    with pytest.raises(SystemExit, match="marked current block lacks G145"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g153_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G153", "REMOVED_RESULT_153")
-    with pytest.raises(SystemExit, match="marked current block lacks G153"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g154_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G154", "REMOVED_RESULT_154")
-    with pytest.raises(SystemExit, match="marked current block lacks G154"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g155_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G155", "REMOVED_RESULT_155")
-    with pytest.raises(SystemExit, match="marked current block lacks G155"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g156_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G156", "REMOVED_RESULT_156")
-    with pytest.raises(SystemExit, match="marked current block lacks G156"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g158_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G158", "REMOVED_RESULT_158")
-    with pytest.raises(SystemExit, match="marked current block lacks G158"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g159_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G159", "REMOVED_RESULT_159")
-    with pytest.raises(SystemExit, match="marked current block lacks G159"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g160_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G160", "REMOVED_RESULT_160")
-    with pytest.raises(SystemExit, match="marked current block lacks G160"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g162_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G162", "REMOVED_RESULT_162")
-    with pytest.raises(SystemExit, match="marked current block lacks G162"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g163_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G163", "REMOVED_RESULT_163")
-    with pytest.raises(SystemExit, match="marked current block lacks G163"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g165_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G165", "REMOVED_RESULT_165")
-    with pytest.raises(SystemExit, match="marked current block lacks G165"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g166_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G166", "REMOVED_RESULT_166")
-    with pytest.raises(SystemExit, match="marked current block lacks G166"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g167_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G167", "REMOVED_RESULT_167")
-    with pytest.raises(SystemExit, match="marked current block lacks G167"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g168_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G168", "REMOVED_RESULT_168")
-    with pytest.raises(SystemExit, match="marked current block lacks G168"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g172_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G172", "REMOVED_RESULT_172")
-    with pytest.raises(SystemExit, match="marked current block lacks G172"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g173_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G173", "REMOVED_RESULT_173")
-    with pytest.raises(SystemExit, match="marked current block lacks G173"):
-        premise_guard.validate_startup_surface(root)
-
-
-def test_catch_missing_g174_current_result(tmp_path: Path) -> None:
-    root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G174", "REMOVED_RESULT_174")
-    with pytest.raises(SystemExit, match="marked current block lacks G174"):
+    _replace(root / "LIVE.md", token, "REMOVED_CURRENT_SPINE")
+    with pytest.raises(SystemExit, match="marked current block lacks"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -599,8 +460,8 @@ def test_startup_keeps_dependency_spine_not_execution_chronology() -> None:
         "MEMORY.md",
     ):
         text = (REPO / relative).read_text(encoding="utf-8")
-        mentions = re.findall(r"\bG(?:9\d|1[0-3]\d)\b", text)
-        assert len(mentions) <= 14, (
+        mentions = re.findall(r"\bG(?:9\d|1\d\d)\b", text)
+        assert len(mentions) <= 24, (
             f"{relative} regrew an execution chronology with {len(mentions)} G-result mentions"
         )
 
