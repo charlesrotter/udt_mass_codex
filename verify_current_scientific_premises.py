@@ -221,6 +221,7 @@ def validate_startup_surface(root: Path) -> None:
             "G192",
             "G193",
             "G194",
+            "G195",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -262,7 +263,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "179-row exact registry",
+            "180-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -381,6 +382,7 @@ def validate_startup_surface(root: Path) -> None:
             "G192",
             "G193",
             "G194",
+            "G195",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -435,6 +437,7 @@ def validate_startup_surface(root: Path) -> None:
             "G192",
             "G193",
             "G194",
+            "G195",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -482,10 +485,11 @@ def validate_startup_surface(root: Path) -> None:
             "G192",
             "G193",
             "G194",
+            "G195",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "179-row",
+            "180-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -745,9 +749,56 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 179, "premise registry must contain exactly 179 rows")
+    require(len(rows) == 180, "premise registry must contain exactly 180 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 179, "duplicate premise id")
+    require(len(by_id) == 180, "duplicate premise id")
+    require(
+        "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
+        in by_id["G195"]["current_status"],
+        "G195 external R1 acceptance absent",
+    )
+    require(
+        "ARBITRARY_REAL_C2_M_EQUALS_S_PLUS_OMEGA"
+        in by_id["G195"]["current_status"],
+        "G195 arbitrary real matrix family absent",
+    )
+    require(
+        "NO_NONVERTEX_CAUSTIC_ONLY_IN_DECLARED_CONNECTED_REGULAR_DISPLAYED_FAMILY"
+        in by_id["G195"]["current_status"],
+        "G195 displayed-family no-caustic guard absent",
+    )
+    require(
+        "NOT_FULL_END_TO_END_METRIC_JACOBI_INTERVAL_PROPAGATION"
+        in by_id["G195"]["current_status"],
+        "G195 independent-evidence ceiling absent",
+    )
+    require(
+        "NO_P1_G116_G189_XMAX_TRANSFER_SOURCE_FIT_OR_POST_READOUT_ORCHESTRA"
+        in by_id["G195"]["current_status"],
+        "G195 scaffold exclusion absent",
+    )
+    g195 = ROOT / "udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "EXTERNAL_REPAIR_RETRY_RAW.md",
+        "EXTERNAL_REPAIR_RETRY_TRANSCRIPT.txt.gz",
+        "NO_WRITE_REPLAY_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "REPAIR_VERIFICATION_RESULT.json",
+        "TRANSMISSION_RECORD.md",
+    ):
+        require((g195 / name).is_file(), f"G195 evidence missing: {name}")
+    require(
+        "G195_NO_WRITE_EVIDENCE_REPAIR_ACCEPTED__BOUNDED_LANDING_RETAINED"
+        in (g195 / "EXTERNAL_REVIEW_ADJUDICATION.md").read_text(),
+        "G195 external R1 acceptance missing",
+    )
+    require(
+        '"external_review": "G195_NO_WRITE_EVIDENCE_REPAIR_ACCEPTED__BOUNDED_LANDING_RETAINED"'
+        in (g195 / "PACKAGE_VERIFICATION_RESULT.json").read_text(),
+        "G195 accepted package state absent",
+    )
     require(
         "R5_REPAIR_FOLLOWUP_GPT54_ACCEPTED_BOUNDED_LANDING_RETAINED"
         in by_id["G194"]["current_status"],
@@ -4925,7 +4976,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G194-extended premise guards; PASS: 179-row premise "
+        "PASS: G195-extended premise guards; PASS: 180-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

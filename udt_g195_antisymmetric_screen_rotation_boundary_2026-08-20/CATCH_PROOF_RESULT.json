@@ -1,0 +1,25 @@
+{
+  "catch_count": 18,
+  "catches": {
+    "assume_M_symmetric_in_inverse_transpose": true,
+    "covariant_factorization_identity": true,
+    "declare_coordinate_screen_parallel": true,
+    "delete_R_prime_from_coordinate_operator": true,
+    "drop_S_Omega_commutator": true,
+    "drop_quadratic_R_contribution": true,
+    "factorization_identity": true,
+    "finite_sampling_not_universal_caustic_proof": true,
+    "force_R_zero": true,
+    "non_self_adjoint_tide": true,
+    "omit_parallel_screen_rotation": true,
+    "positive_gram_square_identity": true,
+    "replace_ordered_transport_by_commuting_exponential": true,
+    "reverse_factor_order": true,
+    "reverse_screen_connection_sign": true,
+    "symmetrize_M_before_reconstruction": true,
+    "transpose_order_in_gram": true,
+    "wrong_affine_power": true
+  },
+  "caught_count": 18,
+  "status": "PASS"
+}

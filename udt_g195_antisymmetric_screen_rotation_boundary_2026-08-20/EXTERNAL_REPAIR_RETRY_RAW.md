@@ -1,0 +1,3 @@
+G195_NO_WRITE_EVIDENCE_REPAIR_ACCEPTED__BOUNDED_LANDING_RETAINED
+
+Exit code: `0`. JSON identity: `true`, matching [`udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/NO_WRITE_REPLAY_RESULT.json`](/tmp/udt_g195_repair_followup_5457omae/udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/NO_WRITE_REPLAY_RESULT.json). Hash changes: none; all 38 declared SHA-256 values matched before and after replay. Runtime state: [`.review_runtime`](/tmp/udt_g195_repair_followup_5457omae/.review_runtime) was empty before replay and remained empty after completion. R1 closes: yes. Bounded science changed: no.

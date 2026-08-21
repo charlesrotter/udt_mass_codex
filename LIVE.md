@@ -20,51 +20,48 @@ G167 pulls the primary metric onto supplied regular planes:
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`, with metric-fixed `B,Q,S=0`; the `B,Q,S,Y,Z` orchestra precedes readout.
 G168 derives `Y,Z` from supplied `(u_A,s_AB)`.
 
-G170--G171 give `delta_XY=Phi_Y|XY-Phi_X|XY`: same-pair reversal and matched-readout telescoping are
-exact, but arbitrary triangles are unnecessary. G142--G160 carry/score scaffolds are not load-bearing.
-G172--G175 are turning/calibration controls. Provisional completed-pair Dual Reciprocity gives G176
-`m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. G179--G180 extend coframes and glue smooth
-families; angular/common scale enter through the tape. G181--G184 classify endpoints, supplied
-carry, regular branches, and coordinate equivalence; equal summaries do not identify realizations.
-Reviews and sealed replays accept.
+G170--G171 derive same-pair reversal and matched-readout telescoping; arbitrary triangles are
+unnecessary. G142--G160 carry/score scaffolds are not load-bearing. G172--G184 are turning,
+completed-pair calibration, coframe, gluing, endpoint, carry, branch, and coordinate-equivalence
+controls. G176 provisionally fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; equal summaries
+do not identify realizations.
 
 G185 preserves frozen Pantheon+/DES radial controls: pair angular Gram is zero, sky area `R^2` is
-live, transfer is imported, and P1 `R(Z)` is historical calibration. G186--G188 derive nonradial
-depth/screen allocation and the complete-metric matrix Jacobi evaluator; mixing creates
-cross-response without a fitted coefficient.
+live, transfer is imported, and P1 `R(Z)` is historical. G186--G188 derive nonradial depth/screen
+allocation and the complete-metric matrix Jacobi evaluator; mixing creates coefficient-free
+cross-response.
 
 G189 conditionally factors static flux and rejects `R=R0 tanh(phi)`. G190 derives the metric-led
-`lambda -> (Z,D,d_A)` branch; `d_A(Z)` is only local across turns or caustics. G191 verifies one
-nonconformal live-mixing control. G192 replaces its constants with arbitrary smooth `a>0,mu` in one
-rank-one family: `Z=1/a`, turns follow `a'`, both `mu'` and `mu^2` enter, and Jacobi modes factorize.
-That family is noncaustic away from the vertex, while cross response has no fixed sign. External
-reviews pass. G193 adds arbitrary `nu`: symmetric screen histories genuinely noncommute, yet ordered
-factorization and a positive-Gram proof give no nonvertex caustic in this family. One control has
-finite polar rotation. Reviews accept with caveats; P1, `X_max`, transfer, and post-readout orchestra
-remain absent. G194 closes arbitrary smooth symmetric `M`: factorization and the Gram proof survive;
-R5 review accepts with caveats. Antisymmetric rotation remains open.
+`lambda -> (Z,D,d_A)` branch, local across turns or caustics. G191 verifies one live-mixing control.
+G192--G194 extend it from arbitrary smooth `a>0,mu` through arbitrary smooth symmetric `M`; ordered
+factorization and a positive-Gram proof retain scoped noncausticity while turns, `mu'`, `mu^2`,
+noncommutation, cross-response, and finite polar rotation occur. G195 adds antisymmetric rotation,
+closing arbitrary smooth real `2 x 2` `M=S+Omega` in the displayed time-dependent affine family.
+Rotation is Levi-Civita screen carry: it rotates parallel strain but supplies no independent `R'` or
+`R^2` tide. Factorization, scoped no-caustic proof, and external R1 replay pass with caveats.
 
 ### Current dependency spine
 
 - **G129 G134--G163.** Reconstruct `g`/`chi`, require overlap carry, bound freedoms, remove `X_max`.
-- **G164--G194.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
+- **G164--G195.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
   equivalence; check radial SNe channels; derive bounded nonradial channels and finite Jacobi map.
   Physical pair population, transfer, branch aggregation, and ambient extension stay open.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
 `G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178`;
-`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194`; rank ten, conformal,
+`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195`; rank ten, conformal,
 density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 G146 parity-even candidates fail on the registered non-collinear witness.
 
 Maximum conclusion: the primary metric owns its reciprocal kernel on supplied completed pairs.
-G185--G194 extend radial and nonradial channels through the matrix evaluator. G190 joins frequency
+G185--G195 extend radial and nonradial channels through the matrix evaluator. G190 joins frequency
 and area; G191 supplies one live control; G192 classifies its first smooth two-function family;
 G193 proves the factorization survives one genuinely noncommuting symmetric extension; G194 closes
-the entire arbitrary smooth symmetric `2 x 2` mixing tile for the supplied central pair.
-Transfer, physical population/history, other coframe channels, global extension, and numerical
+the symmetric tile; G195 closes arbitrary smooth real `2 x 2` mixing in the same displayed
+time-dependent affine family and supplied central pair. Spatial dependence, transfer, physical
+population/history, other coframe families and germs, global extension, and numerical
 `X_max` remain open.
-Current structural result: `udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/`;
+Current structural result: `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`;
 current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
@@ -117,8 +114,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G194 closes the smooth symmetric tile for one supplied central pair. Next test antisymmetric screen
-rotation. Do not fit a history, insert `X_max`, select transfer, or use G116/G189.
+G195 closes arbitrary smooth real `2 x 2` mixing only for one time-dependent affine family and
+supplied central pair. Next MAP the smallest adjacent metric extension—longitudinal/spatial
+dependence versus another germ—then preregister one bounded failure-boundary test. Do not fit a
+history, insert `X_max`, select transfer, or use G116/G189.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.

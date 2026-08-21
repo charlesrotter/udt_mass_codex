@@ -52,6 +52,7 @@
 | G192 | accepted after verifier repairs | Smooth `a,mu` in one rank-one family; turns and sign-variable screen response; family-scoped no-caustic theorem |
 | G193 | accepted with caveats | Noncommuting symmetric `a,mu,nu`; factorization; scoped no-caustics; control rotation |
 | G194 | accepted with caveats | Arbitrary symmetric `M`; factorization; scoped no-caustics |
+| G195 | accepted with caveats | Arbitrary real `M=S+Omega`; rotation carry; scoped no-caustics |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -76,9 +77,8 @@ None selects completion or `X_max`.
   Metricity is not dynamics. G138--G145 assign carry to overlaps, not endpoints.
 - G146--G148 and G149--G163 bound carrier, `O(2)`, `lambda`, first jets, scale, score, transport, and `X_max`.
   G165 controls the envelope; G166 restores the founded block.
-- G166--G194 derive and test the kernel; G177--G178 verify. The chain covers carry, branches,
-  screens, Jacobi response, and conditional flux. G190 joins frequency and area; G191 is one live
-  realization; G192--G194 classify families. Population, transfer, history stay open.
+- G166--G195 derive and test the kernel; G177--G178 verify. The chain covers carry, branches, screens, Jacobi response,
+  conditional flux, and nested live families. Population, transfer, and history stay open.
 
 ## Carrier, action, source, and matter
 
@@ -97,7 +97,7 @@ None selects completion or `X_max`.
 
 R2--R5 are `OBSERVED` with caveats and select no feature, scale, origin, cosmology, or `X_max`.
 G185 imports transfer and freezes P1. G189 rejects only `R=R0 tanh(phi)`. G190 returns
-`lambda -> (Z,D,d_A)`; G191--G194 supply nested controls/families.
+`lambda -> (Z,D,d_A)`; G191--G195 supply nested controls/families.
 None derives transfer, history, population, or global branch.
 
 ## Recurring prohibited promotions
@@ -108,14 +108,14 @@ Do not:
   proper length, universe size, or seams into the kernel;
 - promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize G167--G194, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
+- globalize G167--G195, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
   import familiar mechanisms as UDT derivations.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 179-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 180-row authority. On conflict, stop.
 
-During orientation use this guide and run:
+Run:
 
 ```bash
 python3 verify_current_scientific_premises.py

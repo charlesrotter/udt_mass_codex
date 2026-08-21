@@ -1,0 +1,99 @@
+{
+  "assertions": {
+    "affine_jacobi_reduction": true,
+    "affine_ray": true,
+    "coframe_determinant": true,
+    "coordinate_tide": true,
+    "coordinate_tide_self_adjoint": true,
+    "covariant_factorization": true,
+    "frequency": true,
+    "g194_limit": true,
+    "general_factorization": true,
+    "gram_positive_template": true,
+    "metric_determinant": true,
+    "pair_pullback": true,
+    "parallel_strain_derivative": true,
+    "parallel_symmetric_strain": true,
+    "parallel_tide": true,
+    "parallel_transport": true,
+    "pure_rotation_no_tide": true,
+    "rotation_orientation": true,
+    "rotation_orthogonal": true,
+    "screen_connection": true,
+    "screen_connection_skew": true,
+    "screen_orthonormal": true
+  },
+  "caustic_sign": "det(D)>0 for eta!=0 because det(aL)>0 and K is definite; no symmetry of M is required",
+  "coordinate_factorization": "(d/deta-2M^T)(d/deta+2M)Y=0",
+  "coordinate_tide": [
+    [
+      "-(4*A(eta)**2*a(eta)**2 + 4*N(eta)**2*a(eta)**2 - 8*N(eta)*R(eta)*a(eta)**2 - 2*a(eta)**2*Derivative(A(eta), eta) + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6",
+      "-2*(2*A(eta)*N(eta) + 2*A(eta)*R(eta) + 2*B(eta)*N(eta) - 2*B(eta)*R(eta) - Derivative(N(eta), eta))/a(eta)**4"
+    ],
+    [
+      "-2*(2*A(eta)*N(eta) + 2*A(eta)*R(eta) + 2*B(eta)*N(eta) - 2*B(eta)*R(eta) - Derivative(N(eta), eta))/a(eta)**4",
+      "-(4*B(eta)**2*a(eta)**2 + 4*N(eta)**2*a(eta)**2 + 8*N(eta)*R(eta)*a(eta)**2 - 2*a(eta)**2*Derivative(B(eta), eta) + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6"
+    ]
+  ],
+  "coordinate_tide_self_adjoint": true,
+  "covariant_factorization": "[(d/deta+2Omega)^2+2S'-4S^2-4[S,Omega]]Y=0",
+  "det_coframe": "a(eta)**4",
+  "det_metric": "-a(eta)**8",
+  "family": {
+    "coordinates": [
+      "eta",
+      "z",
+      "p",
+      "w"
+    ],
+    "mixing": "M=[[A,N+R],[N-R,B]], A,N,B,R arbitrary real C2",
+    "pair": "p=w=0, outgoing +z germ",
+    "scale": "a(eta)>0, C3, a(0)=1"
+  },
+  "frequency": "1/a(eta)",
+  "fundamental_representation": "D_coordinate=a L K; L'=-2ML, L(0)=I; K=int_0^eta L^-1 L^-T ds",
+  "landing": "ROTATION_CARRIES_COVARIANTLY__GENERAL_REAL_MATRIX_FACTORIZATION_AND_NO_CAUSTIC_CLOSE",
+  "mixing_tide": [
+    [
+      "-2*(2*A(eta)**2 + 2*N(eta)**2 - 4*N(eta)*R(eta) - Derivative(A(eta), eta))",
+      "-2*(2*A(eta)*N(eta) + 2*A(eta)*R(eta) + 2*B(eta)*N(eta) - 2*B(eta)*R(eta) - Derivative(N(eta), eta))"
+    ],
+    [
+      "-2*(2*A(eta)*N(eta) + 2*A(eta)*R(eta) + 2*B(eta)*N(eta) - 2*B(eta)*R(eta) - Derivative(N(eta), eta))",
+      "-2*(2*B(eta)**2 + 2*N(eta)**2 + 4*N(eta)*R(eta) - Derivative(B(eta), eta))"
+    ]
+  ],
+  "pair_metric": [
+    [
+      "-a(eta)**2",
+      "0"
+    ],
+    [
+      "0",
+      "a(eta)**2"
+    ]
+  ],
+  "parallel_rotation": "O'= -2 R J O, O(0)=I",
+  "parallel_strain": "S_parallel=O^T S O",
+  "screen_connection_eta": [
+    [
+      "0",
+      "2*R(eta)"
+    ],
+    [
+      "-2*R(eta)",
+      "0"
+    ]
+  ],
+  "screen_connection_lambda": [
+    [
+      "0",
+      "2*R(eta)/a(eta)**2"
+    ],
+    [
+      "-2*R(eta)/a(eta)**2",
+      "0"
+    ]
+  ],
+  "status": "PASS"
+}

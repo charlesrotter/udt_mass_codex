@@ -13,24 +13,19 @@ classify endpoints, carry, branches, and coordinate equivalence; equal summaries
 realizations. Reviews accept.
 G185 preserves frozen radial SNe controls with zero pair angular Gram, live sky `R^2`, imported
 transfer, and frozen P1 `R(Z)`. G186--G188 derive nonradial allocation and the complete-metric
-matrix screen; mixing creates cross-response without a fitted coefficient. G189 conditionally
-factors static flux and rejects `R=R0 tanh(phi)`. G190 derives the time-live joint evaluator from
-the completed pair and metric: two null germs up to ruler orientation, then one affine frequency
-and matrix-screen branch. Native output is `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on
-monotone, noncaustic pieces. G191 verifies one exact nonconformal time-live mixing realization;
-frequency and off-diagonal screen response arise from the same metric. Repair follow-up accepts.
-G192 makes `a>0,mu` arbitrary smooth functions in one rank-one family, deriving turns, full tide,
-factorized modes, family-scoped no-caustics, and sign-variable response. G193 adds arbitrary `nu`:
-symmetric histories noncommute while factorization and the exact no-caustic proof survive. One
-control rotates. G194 frees the final symmetric entry and closes the arbitrary smooth symmetric
-`2 x 2 M` tile for the supplied central pair. Reviews accept with caveats.
+screen; mixing creates coefficient-free cross-response. G189 rejects `R=R0 tanh(phi)`. G190 derives
+`lambda -> (Z,D,d_A)`, local on monotone noncaustic pieces. G191 verifies one nonconformal metric
+realization. G192--G194 extend it from arbitrary smooth `a>0,mu` through arbitrary symmetric `M`;
+turns, full tide, noncommutation, factorization, scoped noncausticity, sign-variable response, and
+finite rotation occur. G195 adds antisymmetric rotation, closing arbitrary smooth real `M=S+Omega`
+in the displayed time-dependent family; rotation is screen carry. Reviews accept with caveats.
 
 G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier, score, scale, and
-transport freedoms and remove `X_max`; G164--G194 remove scaffolds, build the
+transport freedoms and remove `X_max`; G164--G195 remove scaffolds, build the
 supplied-pair kernel, and test radial/nonradial channels.
 See `INDEX.md` for exact milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194`; bivector area bilinear; numerical/global valuation stays open.
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195`; bivector area bilinear; numerical/global valuation stays open.
 
 Physical germ/global realization, ambient extension, completion, and `X_max` remain open.
 
@@ -58,7 +53,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Next test antisymmetric screen rotation as the adjacent failure boundary, without fits, `X_max`,
-transfer, or G116/G189.
+Next map spatial dependence versus another germ as the smallest extension beyond G195, without
+fits, `X_max`, transfer, or G116/G189.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

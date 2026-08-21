@@ -24,7 +24,9 @@
   expected xfail).
 - [x] `git diff --check` passes.
 - [x] Fresh adversarial review is completed and adjudicated; it accepts the bounded mathematics.
-- [ ] The reviewer-required package-level no-write replay artifact is frozen and repair-reviewed.
+- [x] The reviewer-required package-level no-write replay artifact is frozen; the final retry ran
+  two live replays, obtained exit `0` and exact JSON identity, preserved 38/38 hashes, and left the
+  runtime empty.
 
-Until the packaging-only repair gate closes, G195 is a mathematically accepted verified lead, not a
-banked result.
+All four bounded evidence gates are closed. G195 may be banked as
+`EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS` after the repository premise and regression gates pass.

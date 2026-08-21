@@ -1,0 +1,14 @@
+{
+  "bounded_scientific_content_changed": false,
+  "enlarged_package_digest_after_replay": "630a36b6c5087a647edfd9f0eb372d2376fc73f32d262b9e28a6c3f2de02ce46",
+  "enlarged_package_digest_before_replay": "630a36b6c5087a647edfd9f0eb372d2376fc73f32d262b9e28a6c3f2de02ce46",
+  "first_no_write_exit_code": 0,
+  "first_package_digest_after_replay": "a3393a1d0200520c0b3714b4d3899eba473d1d1ffdec6cfff6f49899579c29dc",
+  "first_package_digest_before_replay": "a3393a1d0200520c0b3714b4d3899eba473d1d1ffdec6cfff6f49899579c29dc",
+  "frozen_no_write_result_sha256": "1d9087b6bb3b34cb98992f4ece7cb66603338aabbb2fee56c14d01a004a3d570",
+  "frozen_result_reports_no_write_replay": true,
+  "registered_results_identical_across_runs": true,
+  "repair": "R1_FREEZE_AND_EXPOSE_REGISTERED_NO_WRITE_REPLAY",
+  "second_no_write_exit_code": 0,
+  "status": "PASS"
+}

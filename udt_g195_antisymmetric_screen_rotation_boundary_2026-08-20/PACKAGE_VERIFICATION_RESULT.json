@@ -1,0 +1,16 @@
+{
+  "external_review": "G195_NO_WRITE_EVIDENCE_REPAIR_ACCEPTED__BOUNDED_LANDING_RETAINED",
+  "fresh_artifact_identity": true,
+  "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
+  "independent_assertions": 5059,
+  "independent_histories": 266,
+  "maximum_factorization_error": 3.162536899026236e-11,
+  "maximum_screen_connection_error": 2.936618967697372e-15,
+  "maximum_tide_error": 1.1368683772161603e-13,
+  "mutation_catches": 18,
+  "no_write_replay": false,
+  "repository_premise_gate": "SEPARATE_REPOSITORY_GATE_NOT_PART_OF_SEALED_REPLAY",
+  "source_rows": 10,
+  "stale_artifact_mutation_caught": true,
+  "status": "PASS"
+}

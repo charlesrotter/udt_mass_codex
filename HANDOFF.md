@@ -25,25 +25,25 @@ matrix Jacobi screen; live mixing needs no fitted coefficient.
 
 G189 conditionally factors static flux and rejects `R=R0 tanh(phi)`. G190 derives the metric-led
 `lambda -> (Z,D,d_A)` branch; `d_A(Z)` is only local. G191 verifies one nonconformal live-mixing
-control. G192 replaces its constants with arbitrary smooth `a>0,mu` in one rank-one family,
-deriving turns, the full `mu',mu^2` tide, and factorized Jacobi modes. That family has no nonvertex
-caustic; cross response has no fixed sign. G193 adds arbitrary real `nu`, producing genuinely
-noncommuting symmetric screen histories. The ordered matrix factorization and exact positive-Gram
-no-caustic proof survive; one control has a nonsymmetric Jacobi map and finite polar rotation.
-External cold review and repair follow-up accept with caveats.
+control. G192--G193 extend it through arbitrary smooth `a>0,mu,nu`, deriving turns, the full
+`mu',mu^2` tide, noncommuting symmetric screen histories, and factorized Jacobi modes. The
+positive-Gram no-caustic proof survives; cross-response has no fixed sign and one control has finite
+polar rotation. Reviews accept with caveats.
 
-G194 closes arbitrary smooth symmetric `M`: exact factorization and the Gram no-caustic proof
-survive for the supplied central pair. R5 accepts with caveats; rotation remains open.
+G194 closes arbitrary smooth symmetric `M`. G195 adds arbitrary antisymmetric rotation and closes
+arbitrary smooth real `M=S+Omega` in the displayed time-dependent affine family. Rotation is screen
+connection carry, not an independent area-focusing term; factorization and the exact scoped
+no-caustic proof survive. Fresh review and the R1 retry accept with caveats.
 
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G194 build,
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G195 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
 `G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178`;
-`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194`; rank ten, conformal,
+`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195`; rank ten, conformal,
 density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 
-Open G194 first, then G193--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
+Open G195 first, then G194--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional evidence.
 Provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
@@ -83,7 +83,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Next test antisymmetric screen rotation. Stay metric-led; do not fit a profile, insert `X_max`,
-select transfer, or use G116/G189.
+Next MAP the smallest extension beyond G195's time-dependent central affine family—spatial
+dependence versus another germ—before choosing one bounded failure-boundary derivation. Stay
+metric-led; do not fit a profile, insert `X_max`, select transfer, or use G116/G189.
 
 <!-- STARTUP_CURRENT_END -->
