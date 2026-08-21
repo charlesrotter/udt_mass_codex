@@ -1,0 +1,13 @@
+object	status	role
+G205_base_family	DERIVED_CONDITIONAL	supplied complete static base
+radial_screen_split	PINNED_BY_DECLARED_G205_REALIZATION	pure angular screen type
+smooth_center_extension	PINNED_BY_REGULARITY	full declared manifold
+tracefree_selfadjoint_screen_S	CHOSE_EXTENSION_CLASS	determinant-one nonconformal screen shear
+screen_exponential_A	DERIVED_FROM_CLASS	positive spatial automorphism
+compact_time_bump	CHOSE_CONTROL	time-live survivor witness
+unbounded_quadratic_time_profile	CHOSE_CONTROL	null-incomplete witness
+supercritical_circular_orbit	DERIVED_CONDITIONAL_FROM_G205	exact failure-test path
+completed_pair_dual_reciprocity	WORKING_FOUNDATIONAL_CLARIFICATION	post-pullback scalar
+common_scale_shift_mixing	OMITTED_HELD_AT_BASE	one-tile scope only
+physical_S_history	OPEN	no selection
+Xmax_action_source_transfer_observations	OMITTED_OPEN	outside bounded theorem
