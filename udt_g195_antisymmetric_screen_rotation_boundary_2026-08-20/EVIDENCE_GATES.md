@@ -12,15 +12,19 @@
 
 ## Required before banking
 
-- [ ] Preregistration committed before production computation.
-- [ ] Exact metric/connection/curvature derivation passes.
-- [ ] Parallel-screen and Jacobi characterization pass.
-- [ ] Any universal caustic statement has an exact proof.
-- [ ] G194 and pure-rotation controls pass.
-- [ ] Independent metric-jet/Riemann and matrix-IVP replay passes.
-- [ ] Every preregistered hostile mutation is caught.
-- [ ] Current premise verifier and full repository tests pass.
-- [ ] `git diff --check` passes.
-- [ ] Fresh adversarial review is completed and adjudicated.
+- [x] Preregistration committed before production computation (`9a99d3f8`).
+- [x] Exact metric/connection/curvature derivation passes (22 exact assertions).
+- [x] Parallel-screen and Jacobi characterization pass.
+- [x] The bounded no-nonvertex-caustic statement has an exact positive-Gram proof.
+- [x] G194 and pure-rotation controls pass.
+- [x] Independent metric-jet/Riemann/connection and matrix-IVP replay passes (266 histories;
+  5,059 assertions).
+- [x] Every preregistered hostile mutation is caught (18/18).
+- [x] Current premise verifier passes (179 rows) and full repository tests pass (130 passed, one
+  expected xfail).
+- [x] `git diff --check` passes.
+- [x] Fresh adversarial review is completed and adjudicated; it accepts the bounded mathematics.
+- [ ] The reviewer-required package-level no-write replay artifact is frozen and repair-reviewed.
 
-Until all required gates close, G195 is a preregistered open calculation, not a result.
+Until the packaging-only repair gate closes, G195 is a mathematically accepted verified lead, not a
+banked result.
