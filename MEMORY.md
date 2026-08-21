@@ -1,10 +1,10 @@
 # MEMORY — compact disk pointer
 
-Re-read on resume. `LIVE.md` wins.
+Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G200 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G201 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -20,12 +20,16 @@ G200 turns on both primary nonradial modes without that chosen coupling: same lo
 tide for both reversed germs, with the first finite difference caused by opposite radial-gradient
 sampling. G198's two-ray off-ray reconstruction ceiling remains active.
 
+G201 shows instruments are not lockstep. Reciprocal depth has a two-sided contrast, but
+the primary angular modes depend on `phi`, `r phi'`, and `r^2 phi''`. Quietness at `phi=0` requires
+both jets to vanish, and exact smooth profiles can cancel angular tides at either extreme.
+
 G197 retained this native core after an end-to-end provenance audit. It found no load-bearing P1,
 G116/G189 transfer, fit, `X_max`, G142--G160 mechanism, or protected local payload. Required repairs
 are descriptive: keep G176 provisional, supplied choices explicit, and G190--G192 IVP evidence
 at the formula-level regression ceiling.
 
-Physical germs/functions, ambient/global realization, transfer, completion, and `X_max` remain
+Germs/functions, global realization, transfer, completion, and `X_max` remain
 open. `INDEX.md` routes exact evidence; earlier chronology is archived.
 
 ## Observational pointer
@@ -51,10 +55,10 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G200 closes the local two-direction primary-metric audit; do not activate the independent
-`C_eta,C_z` envelope as native. Next PONDER whether the exact nonradial tides written in
-`phi,phi',phi''` force the proposed quiet-middle/loud-extremes magnitude or leave it conditional on
-the supplied radial history. No fits, `X_max`, transfer, time-live template, or G116/G189 inputs.
+G201 closes the lockstep-amplitude audit; do not activate the independent `C_eta,C_z` envelope as
+native or invent channel coefficients. Next PONDER the minimal profile conditions and legitimate
+anchors for quiet overlap plus two-sided reciprocal growth. No fits, `X_max`, transfer, time-live
+template, or G116/G189 inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

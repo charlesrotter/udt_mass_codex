@@ -1,0 +1,11 @@
+{
+  "all_pass": true,
+  "cancellation_cases": 1000,
+  "family_controls": 400,
+  "independent_assertions": 23606,
+  "independent_cases": 10000,
+  "mutation_catches": 9,
+  "no_write_replay": true,
+  "production_assertions": 20,
+  "source_hashes": 9
+}

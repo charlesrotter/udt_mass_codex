@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G200. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G201. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -34,7 +34,7 @@ parametric branch `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, non
 G191--G198 explore chosen complete-coframe families and supplied germs. Their Levi-Civita/Jacobi machinery is a
 `STANDARD_GEOMETRIC_EVALUATOR`, not a UDT field equation or history selector.
 
-Current structural result: `udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/`.
+Current structural result: `udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/`.
 G199 proved that the exploratory chain introduced the one-sided `deta+dz` screen coupling as a
 `CHOSE_MATHEMATICAL_FUNCTION_FAMILY`; it is not in the primary static-spherical metric. Directly
 on that primary metric, both normalized future radial null germs are affine, share
@@ -50,6 +50,15 @@ an independent exact-Fraction third-jet replay passes 2,000 cases and 38,160 ass
 there is no native chiral loud/quiet switch: direction chooses which radial regime is sampled, while
 the supplied regime controls magnitude. The G196/G198 result remains a chosen complete-coframe
 control, and the two-ray off-ray reconstruction ceiling remains.
+
+G201 rewrites the exact primary nonradial tides using `p=r phi'` and `q=r^2 phi''`:
+`A_parallel=exp(-2phi)(2p^2+p-q)` and `A_perp=1-exp(-2phi)(1+p)`. Thus reciprocal depth has a
+two-sided algebraic magnitude, but angular instruments need not share one lockstep envelope.
+Angular quietness at `phi=0` requires `p=q=0`; an exact smooth family `f=1+C r^2` cancels both
+angular tides while approaching either signed `phi` extreme on appropriate positive domains.
+Independent exact replay passes 10,000 arbitrary jets, 1,000 cancellation cases, 400 smooth-family
+controls, and 23,606 assertions. This proves lawful regime-dependent instrument ratios, not a
+selected physical profile or universal response score.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -89,10 +98,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G200 closes the local two-direction primary-metric audit: do **not** activate the arbitrary
-`C_eta,C_z` extension as native. The next bounded PONDER is to rewrite the two exact tidal modes in
-`phi,phi',phi''` and test whether the primary metric alone forces quiet response near `phi=0` and
-louder response at both signed extremes, or whether that magnitude pattern still depends on the
-supplied radial history. Do not fit functions, insert `X_max`, select transfer, derive a time-live
-metric by template, or use G116/G189 as construction inputs.
+G201 closes the lockstep-amplitude question: do **not** force every instrument to follow one scalar
+loudness curve. The next bounded PONDER is to derive the minimal profile conditions and anchor data
+that make the complete primary history pass through a quiet overlap while retaining lawful
+two-sided reciprocal growth—without fitting a profile or inventing channel-volume coefficients.
+Do not insert `X_max`, select transfer, derive a time-live metric by template, or use G116/G189 as
+construction inputs.
 <!-- STARTUP_CURRENT_END -->

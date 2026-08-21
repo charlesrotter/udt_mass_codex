@@ -1,0 +1,10 @@
+object	status	role
+c_E	OBSERVED	clock/ruler dimensional calibration; absorbed into x0=c_E t
+primary_static_spherical_metric	PINNED_BY_THEORY_WITHIN_DECLARED_SLICE	full tested metric g=-f dx0^2+f^-1 dr^2+r^2 dOmega^2
+f_equals_exp_minus_2phi	DERIVED_PRESENTATION_IDENTITY	used to rewrite G200 exact tides
+phi_radial_history_and_jets	FREE_AND_EXPLORED	no profile selected
+completed_pair_dual_reciprocity	WORKING_FOUNDATIONAL_CLARIFICATION	owns supplied completed reciprocal depth
+nonradial_incidence	SUPPLIED_QUERY	normalized away from dimensionless amplitude
+reciprocal_contrast	DERIVED_ALGEBRAIC_DIAGNOSTIC	not promoted to a new observable or universal score
+angular_amplitudes	DERIVED_CONDITIONAL	metric screen evaluator on supplied history and query
+profile_transfer_Xmax_source_action_matter	OPEN_OR_OMITTED	outside bounded classification

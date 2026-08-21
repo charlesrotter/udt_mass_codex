@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-21
 
-The active chain is G166--G200. The primary metric is pulled back to a **supplied** regular pair
+The active chain is G166--G201. The primary metric is pulled back to a **supplied** regular pair
 germ; `B,Q` are metric-fixed, `S=0` in the spherical slice, and `Y,Z` come from the germ. All
 `B,Q,S,Y,Z` channels enter before scalar readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -29,6 +29,13 @@ gradient, because the branches sample opposite radial regimes. Production passes
 independent exact-Fraction third-jet replay passes 2,000 cases and 38,160 assertions. Thus G198 is
 not promoted to a primary-metric direction law, the arbitrary `C_eta,C_z` extension is inactive,
 and the two-ray off-ray reconstruction ceiling remains.
+
+G201 classifies the regime magnitude directly in the primary metric. With `p=r phi'` and
+`q=r^2 phi''`, the two dimensionless angular modes depend on both jets, not `phi` alone. At
+`phi=0` both are quiet iff `p=q=0`; the exact `f=1+C r^2` family cancels both even while approaching
+either signed `phi` extreme. The reciprocal block still has an even two-sided algebraic contrast.
+Therefore native instrument ratios may change by regime; no universal lockstep loudness score is
+derived or needed.
 
 G197 independently audited the full G166--G196 provenance chain. Landing:
 `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
@@ -54,11 +61,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G200 closes the local two-direction primary-metric audit. Next PONDER the exact two tidal modes in
-`phi,phi',phi''`: does the primary metric itself force quiet response near `phi=0` and loud response
-at both signed extremes, or does that still require a supplied radial history? Do not activate an
-arbitrary second-null coframe term, fit a profile, insert `X_max`, select transfer, or use G116/G189
-as construction inputs. The physical carrier/`O(2)`,
+G201 closes the lockstep-amplitude audit. Next PONDER the minimal profile conditions and external
+anchors needed for a quiet overlap plus two-sided reciprocal growth, without fitting a profile or
+adding channel coefficients. Do not activate an arbitrary second-null coframe term, insert
+`X_max`, select transfer, or use G116/G189 as construction inputs. The physical carrier/`O(2)`,
 covariant `lambda`, rank ten,
 conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
 valuation retain their exact registry status and remain `OPEN` where stated.

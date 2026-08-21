@@ -1,0 +1,16 @@
+{
+  "all_pass": true,
+  "catches": {
+    "erase_p_from_perpendicular": true,
+    "erase_q_from_parallel": true,
+    "force_phi_evenness": true,
+    "import_chiral_complete_coframe": true,
+    "import_fitted_profile_or_xmax": true,
+    "negative_extreme_forced_angular_tide": true,
+    "phi_zero_called_sufficiently_quiet": true,
+    "positive_extreme_forced_angular_tide": true,
+    "reciprocal_contrast_confused_with_angular_tide": true
+  },
+  "caught": 9,
+  "total": 9
+}

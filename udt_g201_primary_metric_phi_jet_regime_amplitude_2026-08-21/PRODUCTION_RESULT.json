@@ -1,0 +1,48 @@
+{
+  "all_pass": true,
+  "arbitrary_phi_cancellation_jets": {
+    "amplitudes": [
+      "0",
+      "0"
+    ],
+    "p": "exp(2*phi) - 1",
+    "q": "2*(exp(2*phi) - 1)**2 + exp(2*phi) - 1"
+  },
+  "assertions": 20,
+  "constant_phi_subclass": {
+    "amplitudes": [
+      "0",
+      "1 - exp(-2*phi)"
+    ],
+    "negative_extreme_limits": [
+      "0",
+      "-oo"
+    ],
+    "positive_extreme_limits": [
+      "0",
+      "1"
+    ]
+  },
+  "dimensionless_angular_amplitudes": {
+    "parallel": "(2*p**2 + p - q)*exp(-2*phi)",
+    "perpendicular": "(-p + exp(2*phi) - 1)*exp(-2*phi)"
+  },
+  "exact_smooth_zero_tide_family": {
+    "f": "C*r**2 + 1",
+    "tides": [
+      "0",
+      "0"
+    ]
+  },
+  "flat_overlap_phi_p_q_zero": [
+    "0",
+    "0"
+  ],
+  "landing": "TWO_SIDED_RECIPROCAL_MAGNITUDE__ANGULAR_VOLUME_IS_PHI_JET_DEPENDENT__NO_LOCKSTEP_LOUDNESS_FORCED",
+  "passed": 20,
+  "phi_zero_live_jet_p1_q0": [
+    "3",
+    "-1"
+  ],
+  "reciprocal_block_contrast_diagnostic": "cosh(2*Delta) - 1"
+}

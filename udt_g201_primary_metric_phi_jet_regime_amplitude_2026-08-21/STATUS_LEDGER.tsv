@@ -1,0 +1,10 @@
+claim	status	scope
+phi_jet_angular_amplitude_formulas	DERIVED_CONDITIONAL	regular primary static-spherical nonradial source
+phi_zero_quiet_iff_p_q_zero	DERIVED_CONDITIONAL	local second-jet classification
+arbitrary_phi_local_zero_tide_jets	DERIVED_CONDITIONAL	pointwise smooth jets
+f_equals_1_plus_Cr2_zero_tide_family	DERIVED_CONDITIONAL	connected domains with f>0
+constant_phi_jet_asymptotic_subclass	DERIVED_CONDITIONAL	illustration only; not selected
+two_sided_reciprocal_contrast	DERIVED_ALGEBRAIC_DIAGNOSTIC	supplied completed depth; not physical score
+universal_lockstep_channel_loudness	NOT_DERIVED	counterexample exists inside primary profile space
+physical_radial_history_and_regime_ratios	OPEN	not selected
+finite_path_global_transfer_completion	OPEN	not attempted

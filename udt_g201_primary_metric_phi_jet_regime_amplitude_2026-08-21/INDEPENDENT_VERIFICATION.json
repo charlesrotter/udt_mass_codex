@@ -1,0 +1,14 @@
+{
+  "all_pass": true,
+  "assertions": 23606,
+  "cancellation_cases": 1000,
+  "cases": 10000,
+  "family_controls_requested": 400,
+  "family_signs_seen": [
+    -1,
+    1
+  ],
+  "method": "independent exact-Fraction metric-jet to phi-jet identity replay",
+  "production_artifacts_read": false,
+  "production_imports": false
+}

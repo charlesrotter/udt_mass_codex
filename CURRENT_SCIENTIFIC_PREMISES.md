@@ -29,6 +29,7 @@
 | G190--G198 time-live families | accepted with caveats | Nested chosen mixing families; the loud/quiet split is valid only in its chosen metric family |
 | G199 primary radial two-direction audit | independently verified with caveats | Both primary radial null germs are reversal-related with the same frequency/screen law; no native chiral radial split |
 | G200 primary nonradial two-direction audit | independently verified with caveats | Same local two-mode tide; finite directional difference begins through opposite radial-gradient sampling |
+| G201 primary phi-jet amplitude audit | independently verified with caveats | Reciprocal magnitude is two-sided; angular modes depend on radial jets and need not share one envelope |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -56,7 +57,8 @@ None selects completion or `X_max`.
   multiplicity theorem.
 - The current chain derives and tests the supplied-pair kernel. G199 prevents a chosen coframe's
   directional asymmetry from being promoted to the primary metric; G200 shows that native finite
-  directional differences instead arise by sampling different radial regimes of one law.
+  differences arise by radial sampling, and G201 proves native instrument volumes need not be
+  lockstep across regimes.
   Population, transfer, profile ownership, and global realization stay open.
 
 ## Carrier, action, source, and matter
@@ -92,7 +94,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 184-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 185-row authority. On conflict, stop.
 
 Run:
 
