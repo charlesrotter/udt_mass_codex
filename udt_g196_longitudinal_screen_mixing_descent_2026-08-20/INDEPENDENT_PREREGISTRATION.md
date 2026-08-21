@@ -5,6 +5,21 @@ Date: 2026-08-20
 This freezes the independent numerical leg before its first outcome-producing run. The verifier may
 not import `derive_longitudinal_screen_mixing.py` or read `PRODUCTION_RESULT.json`.
 
+## Post-review evidence-scope correction — 2026-08-21
+
+The original preregistration below is retained as historical evidence. Fresh external review found
+that its phrase “integrate the direct second-order coordinate Jacobi equation” can overstate the
+independence of that interval comparison. The exact current grade is:
+
+- the Torch metric-jet, inverse-metric, Christoffel, Riemann, screen-connection, and tide
+  contractions are implemented independently of the SymPy production script;
+- the interval direct-versus-ordered Jacobi comparison is formula-level regression, not an
+  independent metric-to-Jacobi derivation, because both IVPs use the same separately coded
+  `candidate_matrices(...)` coefficient path.
+
+This correction changes only the evidence description. It does not alter the frozen census,
+formulas, tolerances, saved numerical result, or bounded theorem.
+
 ## Independent method
 
 - reconstruct the full four-dimensional coframe metric with Torch `float64` automatic
@@ -15,8 +30,9 @@ not import `derive_longitudinal_screen_mixing.py` or read `PRODUCTION_RESULT.jso
   metric;
 - compare against a separately coded candidate using
   `D_plus M = partial_eta M + partial_z M`;
-- integrate the direct second-order coordinate Jacobi equation and the ordered `L,K`
-  representation with SciPy `DOP853` and compare them pointwise.
+- integrate the candidate direct second-order coordinate Jacobi equation and the ordered `L,K`
+  representation with SciPy `DOP853` and compare them pointwise. As corrected above, both use the
+  same separately coded candidate coefficient path, so this is formula-level regression evidence.
 
 ## Frozen census
 

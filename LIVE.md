@@ -2,7 +2,7 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-## CURRENT STATE — 2026-08-20
+## CURRENT STATE — 2026-08-21
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
@@ -41,8 +41,11 @@ Rotation is Levi-Civita screen carry: it rotates parallel strain but supplies no
 `R^2` tide. Factorization, scoped no-caustic proof, and external R1 replay pass with caveats. G196
 extends that displayed family to arbitrary smooth `M(eta,z)` on the same supplied central outgoing
 germ. Direct metric reconstruction selects `D_plus=partial_eta+partial_z`; factorization and the
-Gram sign proof survive. The 204-history independent replay and 9 hostile catches pass; external
-review is pending. One germ restricts the field along its ray but does not reconstruct off-ray data.
+Gram sign proof survive. Fresh external review accepts the bounded theorem. It correctly regrades
+the Torch metric-side contractions as independent while the interval IVP comparison is formula-level
+regression. Both evidence-description and read-only replay repairs pass the full local no-write
+replay; repair-only external confirmation remains pending. One germ restricts the field along its
+ray but does not reconstruct off-ray data.
 
 ### Current dependency spine
 
@@ -120,9 +123,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 ### Immediate next action
 
 G196 closes longitudinal `M(eta,z)` descent only for one displayed affine family and supplied
-central outgoing pair. After fresh external review, next MAP a second/opposite supplied germ or a
-minimal multidirectional network to test whether directional restrictions jointly constrain the
-surrounding field. Do not fit functions, insert `X_max`, select transfer, or use G116/G189.
+central outgoing pair. Obtain repair-only external confirmation of the already locally passing R1/R2
+evidence repairs. If accepted, next MAP a second/opposite supplied germ or a minimal
+multidirectional network to test whether directional restrictions jointly constrain the surrounding
+field. Do not fit functions, insert `X_max`, select transfer, or use G116/G189.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.

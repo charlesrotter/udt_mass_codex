@@ -759,9 +759,9 @@ def main() -> None:
     require(len(by_id) == 181, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
-            "VERIFIED_WITH_CAVEATS_PENDING_EXTERNAL_REVIEW__PREREGISTERED"
+            "EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING__PREREGISTERED"
         ),
-        "G196 internal bounded grade changed",
+        "G196 external-review/repair grade changed",
     )
     for guard in (
         "ARBITRARY_REAL_C2_M_OF_ETA_Z_IN_DECLARED_AFFINE_FAMILY",
@@ -779,14 +779,33 @@ def main() -> None:
         "INDEPENDENT_VERIFICATION.json",
         "CATCH_PROOF_RESULT.json",
         "PACKAGE_VERIFICATION_RESULT.json",
+        "EXTERNAL_REVIEW_RAW.md",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "REVIEW_REPAIR_PREREGISTRATION.md",
+        "REPAIR_VERIFICATION_RESULT.json",
         "SOURCE_MANIFEST.tsv",
     ):
         require((g196 / name).is_file(), f"G196 evidence missing: {name}")
     g196_package = json.loads((g196 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
     require(g196_package["status"] == "PASS", "G196 package verification failed")
+    require(
+        g196_package["grade"]
+        == "EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING",
+        "G196 package grade changed",
+    )
+    require(g196_package["no_write_replay"] is True, "G196 repaired no-write replay absent")
     require(g196_package["independent_histories"] == 204, "G196 history count changed")
     require(g196_package["independent_assertions"] == 5313, "G196 assertion count changed")
     require(g196_package["mutation_catches"] == 9, "G196 hostile count changed")
+    g196_repair = json.loads((g196 / "REPAIR_VERIFICATION_RESULT.json").read_text())
+    require(g196_repair["status"] == "PASS", "G196 repair verification failed")
+    require(g196_repair["r1_independence_scope_corrected"] is True, "G196 R1 absent")
+    require(g196_repair["r2_torch_import_read_only_replay"] is True, "G196 R2 absent")
+    require(
+        g196_repair["ivp_evidence_type"]
+        == "formula_level_regression_from_shared_candidate_matrices",
+        "G196 IVP evidence scope changed",
+    )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],

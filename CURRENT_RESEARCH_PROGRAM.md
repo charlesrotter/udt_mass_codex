@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-20
+Date: 2026-08-21
 `LIVE.md` controls status; `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premises. This gives the architecture, gates, and next move.
 
 ## Program picture
@@ -33,7 +33,9 @@ affine family and supplied central germ. Rotation is covariant screen carry, not
 `R'` or `R^2` tide. External R1 accepts with caveats. G196 extends that displayed family to
 arbitrary `M(eta,z)` on the supplied outgoing germ. The full metric selects
 `D_plus=partial_eta+partial_z`; ordered factorization and the scoped Gram sign theorem survive.
-Internal exact, independent, and hostile gates pass; external review is pending.
+Fresh external review accepts the bounded theorem. It regrades the Torch metric-side contractions
+as independent and the interval IVP comparison as formula-level regression. Both preregistered
+evidence repairs pass the full local no-write replay; repair-only external confirmation is pending.
 
 ## Controlling local evaluator
 
@@ -69,7 +71,7 @@ G190 derives the time-live parametric frequency/screen evaluator from the comple
 verifies one exact live-mixing realization; G192--G196 classify nested smooth mixing families and
 the first longitudinal directional descent.
 
-Current structural result: `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`.
+Current structural result: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`.
 Current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`; then
 `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/` and
 G184--G166 in `INDEX.md`. Conditional complete evaluator:
@@ -134,6 +136,7 @@ response, not an observed spectrum.
 ## Bounded next action
 
 G196 closes the first longitudinal extension of the displayed affine family on one outgoing germ.
-After external review, next MAP a second/opposite supplied germ or minimal multidirectional network
-and preregister whether its directional restrictions jointly constrain off-ray structure. Do not
-fit histories, insert `X_max`, select transfer, or use G116/G189.
+First obtain repair-only external confirmation of its locally passing R1/R2 repairs. If accepted,
+next MAP a second/opposite supplied germ or minimal multidirectional network and preregister whether
+its directional restrictions jointly constrain off-ray structure. Do not fit histories, insert
+`X_max`, select transfer, or use G116/G189.

@@ -1,6 +1,6 @@
 # G196 audit report — longitudinal screen-mixing descent
 
-Date: 2026-08-20
+Date: 2026-08-21
 
 ## Landing
 
@@ -11,7 +11,7 @@ NULL_DIRECTIONAL_DESCENT__FACTORIZATION_AND_NO_CAUSTIC_SURVIVE
 Current grade:
 
 ```text
-VERIFIED_WITH_CAVEATS_PENDING_EXTERNAL_REVIEW
+EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING
 ```
 
 ## What was asked
@@ -64,11 +64,14 @@ Consequently `det D>0` at every nonvertex point of a connected regular outgoing-
 - Pair pullback, affine ray, frequency, screen connection, directional tide, both factorizations,
   the G195 limit, pure rotation, and positive-Gram template all passed.
 
-### Independent replay
+### Independent metric-side replay and formula-level IVP regression
 
-The verifier does not import the production script or read its output. It reconstructs second metric
-jets with Torch `float64`, builds Riemann and the screen connection by separate index contractions,
-and compares a directly integrated second-order Jacobi map with a separate ordered `L,K` IVP.
+The verifier does not import the production script or read its output. It independently reconstructs
+second metric jets with Torch `float64` and builds Riemann, the screen connection, and the central
+tide by separate index contractions. Its interval Jacobi comparison has a narrower evidence type:
+the direct second-order and ordered `L,K` IVPs both use the same separately coded
+`candidate_matrices(...)` coefficients. Their agreement is therefore formula-level regression, not
+an independent metric-to-Jacobi derivation.
 
 | Gate | Result | Ceiling |
 |---|---:|---:|

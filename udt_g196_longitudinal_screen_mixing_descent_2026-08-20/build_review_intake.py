@@ -57,14 +57,15 @@ def main():
 
     scope = {
         "schema": "udt-sealed-review-scope-v1",
-        "task": "G196 fresh read-only adversarial review",
+        "task": "G196 repair-only read-only external follow-up review",
         "payload_file_count": len(payload_rows),
         "total_file_count_including_scope": len(payload_rows) + 1,
         "restrictions": [
             "inspect only this intake",
             "do not edit evidence files",
             "do not continue the research",
-            "run only the registered no-write replay or bounded read-only checks",
+            "verify only preregistered repairs R1 and R2 and the unchanged bounded landing",
+            "run only the registered no-write replay or bounded read-only repair checks",
         ],
         "registered_replay": (
             "TMPDIR=.review_runtime TMP=.review_runtime TEMP=.review_runtime "

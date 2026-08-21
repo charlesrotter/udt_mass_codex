@@ -4,7 +4,7 @@
 
 `LIVE.md` wins.
 
-## Resume anchor — 2026-08-20
+## Resume anchor — 2026-08-21
 
 ### Current theory state
 
@@ -36,7 +36,9 @@ connection carry, not an independent area-focusing term; factorization and the e
 no-caustic proof survive. Fresh review and the R1 retry accept with caveats. G196 extends the same
 family to arbitrary smooth `M(eta,z)` on the supplied outgoing germ. The metric selects
 `D_plus=partial_eta+partial_z`; factorization and the Gram proof survive. Internal exact and
-independent gates pass; external review is pending. One ray does not reconstruct off-ray structure.
+metric-side gates pass; the interval IVP comparison is formula-level regression. Fresh external
+review accepts the bounded theorem. Its two evidence repairs pass the full local no-write replay;
+repair-only external confirmation remains pending. One ray does not reconstruct off-ray structure.
 
 G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G196 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
@@ -86,8 +88,9 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-After G196 external review, MAP a second/opposite supplied germ or minimal multidirectional network
-to test whether several directional restrictions constrain the surrounding field. Stay metric-led;
-do not fit a profile, insert `X_max`, select transfer, or use G116/G189.
+Obtain repair-only external confirmation for G196 R1/R2. If accepted, MAP a second/opposite supplied
+germ or minimal multidirectional network to test whether several directional restrictions constrain
+the surrounding field. Stay metric-led; do not fit a profile, insert `X_max`, select transfer, or
+use G116/G189.
 
 <!-- STARTUP_CURRENT_END -->

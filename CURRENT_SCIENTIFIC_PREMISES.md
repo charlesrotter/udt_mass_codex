@@ -53,7 +53,7 @@
 | G193 | accepted with caveats | Noncommuting symmetric `a,mu,nu`; factorization; scoped no-caustics; control rotation |
 | G194 | accepted with caveats | Arbitrary symmetric `M`; factorization; scoped no-caustics |
 | G195 | accepted with caveats | Arbitrary real `M=S+Omega`; rotation carry; scoped no-caustics |
-| G196 | internally verified; awaits fresh adversarial review | `M(eta,z)` on one outgoing germ; `D_plus` descent; scoped no-caustics |
+| G196 | bounded theorem externally accepted; repairs locally pass; follow-up pending | `M(eta,z)` on one outgoing germ; `D_plus` descent; scoped no-caustics |
 
 None selects completion or `X_max`.
 ## Scale and limits

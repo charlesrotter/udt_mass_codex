@@ -45,6 +45,13 @@ Both repairs are preregistered separately before implementation. Until they are 
 re-reviewed, the package grade is
 `EXTERNALLY_ACCEPTED_BOUNDED_THEOREM__EVIDENCE_REPAIRS_PENDING`.
 
+## Local repair outcome
+
+Both preregistered repairs subsequently passed the full local no-write package replay under a
+mode-`0555` declared temporary directory, with the complete 204-history census, artifact identity,
+and zero runtime-directory entries. The current grade is therefore
+`EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING`. Repair-only external
+confirmation remains open.
+
 No canonization is implied. The result does not cover arbitrary complete metrics or coframes, all
 directions, selected physical histories, transfer or observations, or `X_max`.
-

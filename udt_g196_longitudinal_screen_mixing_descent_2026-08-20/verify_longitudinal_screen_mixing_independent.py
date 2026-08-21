@@ -7,10 +7,19 @@ import json
 import math
 import os
 import sys
+import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 
 import numpy as np
+
+# Torch's optional serialization import asks tempfile for a writable directory even though this
+# verifier never writes a temporary file.  In registered no-write mode, trust the already declared
+# TMPDIR name without probing its writability so a strictly read-only review sandbox can import the
+# numerical stack.  Normal evidence-producing execution is unchanged.
+if os.environ.get("G196_NO_WRITE") == "1" and os.environ.get("TMPDIR"):
+    tempfile.tempdir = os.environ["TMPDIR"]
+
 import torch
 from scipy.integrate import solve_ivp
 
