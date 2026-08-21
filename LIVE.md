@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G199. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G200. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -34,16 +34,22 @@ parametric branch `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, non
 G191--G198 explore chosen complete-coframe families and supplied germs. Their Levi-Civita/Jacobi machinery is a
 `STANDARD_GEOMETRIC_EVALUATOR`, not a UDT field equation or history selector.
 
-Current structural result: `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`.
-The frame audit proved that the exploratory chain introduced the one-sided `deta+dz` screen coupling as a
+Current structural result: `udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/`.
+G199 proved that the exploratory chain introduced the one-sided `deta+dz` screen coupling as a
 `CHOSE_MATHEMATICAL_FUNCTION_FAMILY`; it is not in the primary static-spherical metric. Directly
 on that primary metric, both normalized future radial null germs are affine, share
 `Z=sqrt(f_o/f_s)=exp(phi_s-phi_o)`, carry parallel angular screens, have zero radial optical tide
-despite generically nonzero ambient curvature, and give the same vertex map `D=lambda I`.
-Independent exact-Fraction metric-two-jet reconstruction passes on 2,000 nonflat cases. Thus the
-primary radial pair has no native chiral loud/quiet split. The G196/G198 result remains correct as a chosen
-complete-coframe control, not as a primary-metric theorem. Nonradial G187 screen response and the
-general G188 evaluator remain active; the two-ray off-ray reconstruction ceiling is unchanged.
+despite generically nonzero ambient curvature, and give `D=lambda I`.
+
+G200 turns on the primary metric's nonradial angular response for both reversed germs. At the same
+event they have one frequency law and one diagonal tidal matrix. Their common vertex distortion
+first appears at cubic order; the first possible difference is quartic,
+`D_A,+-D_A,-=-(q_o partial_r T_A)_o lambda^4/6+O(lambda^5)`, because they sample opposite radial
+directions of the same supplied metric history. Exact symbolic reconstruction passes 64 assertions;
+an independent exact-Fraction third-jet replay passes 2,000 cases and 38,160 assertions. Therefore
+there is no native chiral loud/quiet switch: direction chooses which radial regime is sampled, while
+the supplied regime controls magnitude. The G196/G198 result remains a chosen complete-coframe
+control, and the two-ray off-ray reconstruction ceiling remains.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -83,11 +89,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G199 closes the frame audit: do **not** activate the arbitrary `C_eta,C_z` extension as if it were
-native. The smallest adjacent PONDER is whether the two normalized **nonradial** null directions of
-the same primary static-spherical pair yield one reversal-related finite G187 response family, with
-any observed difference arising only from the different metric regions/endpoints sampled. If that
-typing is clean, preregister the direct two-direction nonradial calculation. Do not fit functions,
-insert `X_max`, select transfer, derive a time-live metric by template, or use G116/G189 as
-construction inputs.
+G200 closes the local two-direction primary-metric audit: do **not** activate the arbitrary
+`C_eta,C_z` extension as native. The next bounded PONDER is to rewrite the two exact tidal modes in
+`phi,phi',phi''` and test whether the primary metric alone forces quiet response near `phi=0` and
+louder response at both signed extremes, or whether that magnitude pattern still depends on the
+supplied radial history. Do not fit functions, insert `X_max`, select transfer, derive a time-live
+metric by template, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

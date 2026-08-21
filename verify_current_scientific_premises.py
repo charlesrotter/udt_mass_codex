@@ -162,11 +162,12 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G199",
+            "G166--G200",
             "G196",
             "G197",
             "G198",
             "G199",
+            "G200",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -220,7 +221,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "183-row exact registry",
+            "184-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -250,6 +251,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/",
             "udt_g198_bidirectional_null_germ_map_2026-08-21/",
             "udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/",
+            "udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -260,10 +262,11 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G199",
+            "G166--G200",
             "G197",
             "G198",
             "G199",
+            "G200",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -281,6 +284,7 @@ def validate_startup_surface(root: Path) -> None:
             "G197",
             "G198",
             "G199",
+            "G200",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -297,10 +301,11 @@ def validate_startup_surface(root: Path) -> None:
             "G185--G189",
             "G190--G198",
             "G199",
+            "G200",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "183-row",
+            "184-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -560,9 +565,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 183, "premise registry must contain exactly 183 rows")
+    require(len(rows) == 184, "premise registry must contain exactly 184 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 183, "duplicate premise id")
+    require(len(by_id) == 184, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -712,6 +717,60 @@ def main() -> None:
     require(g199_package["independent_nonflat_cases"] == 2000, "G199 nonflat count changed")
     require(g199_package["mutation_catches"] == 9, "G199 hostile count changed")
     require(g199_package["source_hashes"] == 12, "G199 source count changed")
+    require(
+        by_id["G200"]["current_status"].startswith(
+            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_7B92835E"
+        ),
+        "G200 bounded grade changed or promoted",
+    )
+    for guard in (
+        "PRIMARY_STATIC_SPHERICAL_RECIPROCAL_AREAL_METRIC_ONLY",
+        "BOTH_REVERSED_FUTURE_NONRADIAL_NULL_GERMS_AFFINE",
+        "SAME_EVENT_FREQUENCY_LAW",
+        "SAME_EVENT_TWO_MODE_TIDAL_MATRIX",
+        "COMMON_VERTEX_CUBIC_DISTORTION",
+        "FIRST_FINITE_DIFFERENCE_AT_QUARTIC_ORDER_EQUALS_RADIAL_TIDAL_GRADIENT_SAMPLING",
+        "STRICT_RADIAL_FLAT_AND_TURNING_CONTROLS_VANISH",
+        "NO_NATIVE_CHIRAL_NONRADIAL_SWITCH",
+        "NO_CETA_CZ_EXTENSION_P1_G116_G189_XMAX_TRANSFER_SOURCE_FIT_OR_PROTECTED_PAYLOAD",
+    ):
+        require(guard in by_id["G200"]["current_status"], f"G200 guard absent: {guard}")
+    require(
+        by_id["G200"]["active_use"]
+        == "ACTIVE_BOUNDED_TWO_REVERSED_EQUATORIAL_NONRADIAL_NULL_GERMS_OF_THE_DECLARED_PRIMARY_STATIC_SPHERICAL_UDT_METRIC_THROUGH_VERTEX_ORDER_FOUR_ONLY",
+        "G200 active scope widened",
+    )
+    require(
+        by_id["G200"]["controlling_source"]
+        == "udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/AUDIT_REPORT.md",
+        "G200 controlling source changed",
+    )
+    g200 = ROOT / "udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g200 / name).is_file(), f"G200 evidence missing: {name}")
+    g200_package = json.loads((g200 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g200_package["all_pass"] is True, "G200 package verification failed")
+    require(g200_package["no_write_replay"] is True, "G200 no-write replay absent")
+    require(g200_package["production_assertions"] == 64, "G200 production count changed")
+    require(g200_package["independent_assertions"] == 38160, "G200 assertion count changed")
+    require(g200_package["independent_cases"] == 2000, "G200 case count changed")
+    require(
+        g200_package["independent_nonzero_gradient_cases"] == 2000,
+        "G200 nonzero-gradient count changed",
+    )
+    require(g200_package["flat_controls"] == 40, "G200 flat control count changed")
+    require(g200_package["mutation_catches"] == 9, "G200 hostile count changed")
+    require(g200_package["source_hashes"] == 9, "G200 source count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -4928,7 +4987,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G199-extended premise guards; PASS: 183-row premise "
+        "PASS: G200-extended premise guards; PASS: 184-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

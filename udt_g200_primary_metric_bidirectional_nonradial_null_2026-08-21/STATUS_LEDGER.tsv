@@ -1,0 +1,12 @@
+claim	status	scope
+primary_metric_nonradial_pair_frame	DERIVED_CONDITIONAL	regular static-spherical equatorial event with f>0 and r>0
+two_reversed_future_nonradial_null_germs	DERIVED_CONDITIONAL	completed oriented pair plane and source calibration
+both_nonradial_germs_affine	DERIVED_CONDITIONAL	connected regular local interval
+same_event_frequency_sign_blind	DERIVED_CONDITIONAL	static unit clock
+same_event_quotient_screen_tide_sign_blind	DERIVED_CONDITIONAL	matched branchwise G187 screen bases
+common_vertex_cubic_distortion	DERIVED_CONDITIONAL	Jacobi series through lambda cubed
+first_directional_difference_radial_gradient_sampling	DERIVED_CONDITIONAL	Jacobi series through lambda fourth
+radial_flat_and_turning_controls	DERIVED_CONDITIONAL	L=0; flat metric; or initial q=0
+full_finite_path_response	OPEN	not integrated beyond local series
+physical_phi_profile_and_regime_amplitude	OPEN	not selected or derived
+nonspherical_timelive_metric_population_transfer_completion	OPEN	not attempted

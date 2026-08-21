@@ -29,6 +29,8 @@
   `udt_g198_bidirectional_null_germ_map_2026-08-21/`
 - Current primary-metric radial two-direction result:
   `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`
+- Current primary-metric nonradial two-direction result:
+  `udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/`
 
 G129--G165 are reconstruction, scale, carry, `X_max`, and scaffold controls. G166--G184 build the
 supplied completed-pair scalar chain. G185--G189 are application controls. G190--G198 are standard
@@ -36,7 +38,8 @@ geometric evaluations on chosen metric families; they do not select physical his
 G197 confirms that no earlier scaffold is load-bearing and records the formula-level numerical
 evidence ceiling for G190--G192. G198 derives the opposite-germ control in its chosen chiral
 coframe. G199 derives both radial null directions directly from the primary metric and finds no
-native chiral radial split.
+native chiral radial split. G200 derives the two reversed nonradial local laws and shows that their
+first finite difference is opposite radial-gradient sampling.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -45,7 +48,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Historical chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 183-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 184-row registry controls.
 ## Observational lane
 
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`

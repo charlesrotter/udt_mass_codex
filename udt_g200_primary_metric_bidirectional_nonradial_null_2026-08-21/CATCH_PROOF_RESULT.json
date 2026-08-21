@@ -1,0 +1,16 @@
+{
+  "all_pass": true,
+  "catches": {
+    "delete_tidal_gradient": true,
+    "drop_minus_branch": true,
+    "fail_strict_radial_control": true,
+    "fail_turning_control": true,
+    "force_finite_equality_with_nonzero_gradient": true,
+    "import_G196_chiral_coframe": true,
+    "inject_signed_local_tide": true,
+    "reverse_only_angular_component": true,
+    "reverse_only_radial_component": true
+  },
+  "caught": 9,
+  "total": 9
+}

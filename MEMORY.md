@@ -4,7 +4,7 @@ Re-read on resume. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G199 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G200 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -16,7 +16,9 @@ metric and derives an exact opposite-germ control. G199 traces the asymmetry to 
 `deta+dz` coframe and computes both radial null directions directly in the primary metric: same
 frequency law, parallel screen, zero radial optical tide, and `D=lambda I`. G198 remains a valid
 chosen-family control, not a primary-metric direction law.
-G198's two-ray off-ray reconstruction ceiling remains active.
+G200 turns on both primary nonradial modes without that chosen coupling: same local frequency and
+tide for both reversed germs, with the first finite difference caused by opposite radial-gradient
+sampling. G198's two-ray off-ray reconstruction ceiling remains active.
 
 G197 retained this native core after an end-to-end provenance audit. It found no load-bearing P1,
 G116/G189 transfer, fit, `X_max`, G142--G160 mechanism, or protected local payload. Required repairs
@@ -49,10 +51,10 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G199 closes the radial frame audit; do not activate the independent `C_eta,C_z` envelope as native.
-Next PONDER whether the two normalized nonradial directions of the same primary pair form one
-reversal-related finite G187 family, with any difference coming from the metric regions/endpoints
-sampled. No fits, `X_max`, transfer, time-live template, or G116/G189 inputs.
+G200 closes the local two-direction primary-metric audit; do not activate the independent
+`C_eta,C_z` envelope as native. Next PONDER whether the exact nonradial tides written in
+`phi,phi',phi''` force the proposed quiet-middle/loud-extremes magnitude or leave it conditional on
+the supplied radial history. No fits, `X_max`, transfer, time-live template, or G116/G189 inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

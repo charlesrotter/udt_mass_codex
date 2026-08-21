@@ -1,0 +1,10 @@
+{
+  "all_pass": true,
+  "assertions": 38160,
+  "cases": 2000,
+  "flat_controls": 40,
+  "method": "independent exact-Fraction radial-dual metric-two-jet reconstruction",
+  "nonzero_gradient_cases": 2000,
+  "production_artifacts_read": false,
+  "production_imports": false
+}

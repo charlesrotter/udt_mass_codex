@@ -1,0 +1,10 @@
+object	status	role
+c_E	OBSERVED	clock/ruler dimensional calibration; absorbed into x0=c_E t
+primary_static_spherical_metric	PINNED_BY_THEORY_WITHIN_DECLARED_SLICE	full tested metric g=-f dx0^2+f^-1 dr^2+r^2 dOmega^2
+f_of_r_and_first_three_derivatives	FREE_AND_EXPLORED	smooth positive supplied local history; no profile selected
+completed_pair_dual_reciprocity	WORKING_FOUNDATIONAL_CLARIFICATION	applied after the full pair pullback
+static_clock_and_oriented_nonradial_ruler	SUPPLIED_QUERY	seeds the two normalized future null germs U plus or minus N
+source_affine_normalization	SUPPLIED_QUERY_CALIBRATION	minus g(Uo,ko)=1
+levi_civita_frequency_screen_tide_jacobi	DERIVED_CONDITIONAL	metric evaluators
+G191_G198_chiral_complete_coframe	OMITTED_CONTROL	provenance comparison only; not an input to G200
+finite_long_path_turning_cut_focal_global_transfer	OPEN_OR_OMITTED	outside the bounded local and fourth-order theorem

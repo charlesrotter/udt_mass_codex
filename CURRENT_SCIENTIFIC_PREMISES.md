@@ -28,6 +28,7 @@
 | G185--G189 application boundary | accepted with caveats | Radial/nonradial screen and conditional flux controls; transfer/P1 remain imported or historical |
 | G190--G198 time-live families | accepted with caveats | Nested chosen mixing families; the loud/quiet split is valid only in its chosen metric family |
 | G199 primary radial two-direction audit | independently verified with caveats | Both primary radial null germs are reversal-related with the same frequency/screen law; no native chiral radial split |
+| G200 primary nonradial two-direction audit | independently verified with caveats | Same local two-mode tide; finite directional difference begins through opposite radial-gradient sampling |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -53,9 +54,10 @@ None selects completion or `X_max`.
 - The bounded carrier/transport chain types `O(2)`, `lambda`, first jets, scale, score, transport,
   and `X_max`; the conformal-family result is an envelope control rather than a physical
   multiplicity theorem.
-- The current chain derives and tests the supplied-pair kernel. G199 prevents a chosen coframe's directional
-  asymmetry from being promoted to the primary metric; population, transfer, and global realization
-  stay open.
+- The current chain derives and tests the supplied-pair kernel. G199 prevents a chosen coframe's
+  directional asymmetry from being promoted to the primary metric; G200 shows that native finite
+  directional differences instead arise by sampling different radial regimes of one law.
+  Population, transfer, profile ownership, and global realization stay open.
 
 ## Carrier, action, source, and matter
 
@@ -90,7 +92,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 183-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 184-row authority. On conflict, stop.
 
 Run:
 

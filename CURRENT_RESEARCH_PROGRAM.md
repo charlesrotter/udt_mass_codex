@@ -53,8 +53,11 @@ physical scalar after the working premise. They must not be conflated.
 - G199 audits that specialization against the primary static-spherical metric. Its two radial null
   germs are reversal-related and have the same frequency law, parallel screen, zero radial optical
   tide, and `D=lambda I`. The G198 split is therefore retained only as a chosen-family control.
+- G200 activates the primary nonradial angular modes for both reversed germs. Their same-event
+  frequency and tidal laws coincide; the first finite branch difference is the fourth-order radial
+  tidal-gradient sampling term, not a chiral on/off coefficient.
 
-Current structural package: `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`.
+Current structural package: `udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -82,9 +85,10 @@ exploration families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole G176 wo
 numerical IVP legs are formula-level regression evidence; G193--G196 contain the independent metric-side
 contractions.
 
-The latest frame/ownership audit shows that the primary static-spherical metric excludes the chosen
-chiral coupling because it is not one of its metric terms; both primary radial null directions are
-reversal-related. The arbitrary independent `C_eta,C_z` family is therefore an envelope extension,
-not the next native derivation. The next bounded action is to PONDER and, if clean, preregister the
-two-direction **nonradial** primary-metric calculation. Do not fit functions, insert `X_max`,
-select transfer, construct a time-live metric by template, or use G116/G189 as inputs.
+The primary metric excludes the chosen chiral coupling because it is not one of its terms. Its
+radial and nonradial reversed germs use one local law; finite nonradial differences arise through
+opposite radial sampling. The arbitrary `C_eta,C_z` family is therefore an envelope extension. The
+next bounded action is to PONDER the exact nonradial tides in `phi,phi',phi''` and determine whether
+the proposed loud--quiet--loud magnitude follows from the metric algebra or remains conditional on
+the supplied radial history. Do not fit functions, insert `X_max`, select transfer, construct a
+time-live metric by template, or use G116/G189 as inputs.

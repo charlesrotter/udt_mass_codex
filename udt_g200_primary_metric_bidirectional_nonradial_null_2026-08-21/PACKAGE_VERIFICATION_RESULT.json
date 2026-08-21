@@ -1,0 +1,11 @@
+{
+  "all_pass": true,
+  "flat_controls": 40,
+  "independent_assertions": 38160,
+  "independent_cases": 2000,
+  "independent_nonzero_gradient_cases": 2000,
+  "mutation_catches": 9,
+  "no_write_replay": true,
+  "production_assertions": 64,
+  "source_hashes": 9
+}
