@@ -69,13 +69,16 @@ R2--R5 remain metric-neutral observed characterization with 184,300 unresolved c
 no preferred scale. SNe is a frozen non-regression check under imported transfer, not native light
 physics or a new fit.
 
-## Current audit and restart
+## Audited restart
 
-G197 audits the G166--G196 provenance chain and startup integrity. It must distinguish
-`FOUNDING_DERIVED`, `PRIMARY_METRIC_DERIVED`, `QUERY_SUPPLIED`, `CHOSE_EXPLORATION_FAMILY`,
-`STANDARD_GEOMETRIC_EVALUATOR`, `WORKING_FOUNDATIONAL_CLARIFICATION`, `IMPORTED_CONDITIONAL`,
-historical scaffold, and `OPEN`.
+G197 classified the full chain as `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No P1,
+G116/G189 transfer, fit, `X_max`, G142--G160 construction, or protected local package is
+load-bearing. The active dependency types are metric/founding algebra, supplied query data, chosen
+exploration families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole G176 working clarification. G190--G192's
+numerical IVP legs are formula-level evidence; G193--G196 contain the independent metric-side
+contractions.
 
-If the audit finds no load-bearing scaffold, resume with MAP only: a second/opposite supplied germ
-or minimal multidirectional network. Do not fit functions, insert `X_max`, select transfer, or use
-G116/G189 as construction inputs.
+Resume with MAP only: a second/opposite supplied germ or minimal multidirectional network from the
+same supplied complete metric. Test whether joint rays constrain common off-ray structure beyond
+G196. Do not fit functions, insert `X_max`, select transfer, or use G116/G189 as construction
+inputs.

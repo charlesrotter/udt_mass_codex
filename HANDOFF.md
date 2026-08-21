@@ -22,6 +22,12 @@ one displayed `a(eta),M(eta,z)` affine coframe family and one supplied central o
 no-nonvertex-caustic theorem. Metric-side contractions are independent; interval IVP agreement is
 formula-level regression. One ray cannot reconstruct off-ray structure.
 
+G197 independently audited the full G166--G196 provenance chain. Landing:
+`NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
+scaffold or protected local payload is load-bearing. The repairs are typing and evidence-scope
+repairs, not a scientific counterexample: G176 remains working, germs/families remain supplied, and
+G190--G192 numerical IVP checks are formula-level.
+
 P1, G116, G189 transfer, fits, and `X_max` are not construction inputs. R2--R5 in
 `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300 rows are
 unresolved and no preferred scale follows. Raw archive:
@@ -40,9 +46,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G197 is the bounded native-provenance/startup audit. If it passes, next MAP a second/opposite germ
-or minimal multidirectional network. Do not fit a profile, insert `X_max`, select transfer, or use
-G116/G189 as construction inputs. physical carrier/`O(2)`, covariant `lambda`, rank ten,
+Next MAP a second/opposite supplied germ or minimal multidirectional network from the same complete
+metric, asking whether joint rays constrain shared off-ray structure. Do not fit a profile, insert
+`X_max`, select transfer, or use G116/G189 as construction inputs. The physical carrier/`O(2)`,
+covariant `lambda`, rank ten,
 conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
 valuation retain their exact registry status and remain `OPEN` where stated.
 

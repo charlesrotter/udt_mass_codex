@@ -1,0 +1,881 @@
+Script started on 2026-08-21 10:42:01-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /tmp/g197_rehearsal1_retry_lYrSgr/repo
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: medium
+reasoning summaries: none
+session id: 01a024c5-8f10-77e3-ad70-6743cd2d34ce
+--------
+user
+Follow AGENTS.md from zero context. This is a parent-synchronized disposable clone; the inner sandbox may deny writes to .git, which is an infrastructure limitation rather than repository dirt. Run the mandatory startup commands in order as permitted, then read only the bounded startup surface. Do not edit files, inspect protected payloads, open scientific packages, or continue research. Report actual HEAD and dirt, the current honest claim with premise stamps, G196 exact maximum conclusion and evidence caveat, protected work, and the next authorized gate. List commands and files read, then stop.
+codex
+I’ll perform the mandated read-only startup exactly in order, treating any `.git` write denial as infrastructure output, then restrict file reads to the bounded orientation surface and stop.
+exec
+/bin/bash -lc 'git checkout grok
+git fetch origin
+git pull --ff-only origin grok
+git status --short --branch
+git log -8 --oneline' in /tmp/g197_rehearsal1_retry_lYrSgr/repo
+ succeeded in 204ms:
+## grok...origin/grok
+ M CURRENT_RESEARCH_PROGRAM.md
+ M HANDOFF.md
+ M INDEX.md
+ M LIVE.md
+ M MEMORY.md
+b0fb970d Repair and compress G197 startup surface
+8462797d Preregister G197 native provenance audit
+9837ea5c Accept G196 external repair follow-up
+6c1baa77 Repair G196 review evidence gates
+c4614048 Preregister G196 external review repairs
+463e606c Bank G196 longitudinal mixing descent
+0d64735f Freeze G196 hostile catches
+7956b46d Freeze G196 independent replay
+
+codex
+The branch is already `grok`; checkout/fetch/pull were denied only because `.git` is read-only. Status reports five modified startup documents, so I’ll use their on-disk contents as actual dirt and now read only the prescribed blocks and compact guides.
+exec
+/bin/bash -lc "awk '/STARTUP_CURRENT/{emit=1} emit{print} emit && /END_STARTUP_CURRENT/{exit}' LIVE.md" in /tmp/g197_rehearsal1_retry_lYrSgr/repo
+ succeeded in 0ms:
+<!-- STARTUP_CURRENT_BEGIN -->
+
+## CURRENT STATE — 2026-08-21
+
+Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
+
+### Honest claim
+
+On the founded supplied ordered-depth block,
+
+```text
+h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB))
+phi_pair=delta_AB
+c_eff^(pair)/c_E=exp(-2 delta_AB)
+chi_AB=tanh(delta_AB)
+```
+
+The active primary chain is G166--G196. In the spherical slice, the full pair pullback is
+`h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
+`Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
+
+The one non-metric selection premise in the scalar kernel is completed-pair Dual Reciprocity,
+`WORKING_FOUNDATIONAL_CLARIFICATION`, applied after the pullback. It gives
+`m=T L_sigma=sqrt(-det h_sigma)` and completed depth `Phi=-log T`. The older
+`(1/4)log[(-det h)/h00^2]` quantity is an arbitrary-calibration control, not the completed physical
+depth. Events, germs, observer population, and global realization remain `QUERY_SUPPLIED` or
+`OPEN`; equal scalar summaries do not identify realizations.
+
+G185--G189 are bounded radial/application controls. Their P1 profile and radiative transfer are
+historical or `IMPORTED_CONDITIONAL`, not kernel inputs. G190 derives the supplied-history
+parametric branch `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, noncaustic pieces.
+G191--G196 explore chosen complete-coframe families. Their Levi-Civita/Jacobi machinery is a
+`STANDARD_GEOMETRIC_EVALUATOR`, not a UDT field equation or history selector.
+
+Current structural result: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`. On one
+displayed `a(eta),M(eta,z)` family and supplied central outgoing germ, the metric gives
+`D_plus=partial_eta+partial_z`, exact ordered factorization, and a positive-Gram no-nonvertex-caustic
+proof on the connected regular ray interval. External review accepts this bounded theorem. The
+metric-side contractions are independently implemented; the interval IVP comparison is only
+formula-level regression. One germ does not reconstruct off-ray structure.
+
+Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
+the nested live families show components interlock once a metric and query are supplied. They do
+not select physical functions, directions, branches, transfer, a complete history, or numerical
+`X_max`; that target remains asymptotic and downstream. The physical carrier/`O(2)`, covariant
+`lambda`, rank ten completion, conformal/common-scale ownership, density, bivector area bilinear,
+codimension eleven closure, and numerical valuation remain separately typed and `OPEN` where the
+registry says so. The parity-even candidates fail on the registered non-collinear witness.
+
+G197's native-provenance audit lands
+`NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no P1, G116, G189 transfer, fit, `X_max`,
+G142--G160 mechanism, or protected payload is load-bearing. The repairs are descriptive: G176 must
+remain visibly provisional, supplied germs and chosen families must remain typed, and G190--G192's
+numerical IVP legs are formula-level rather than independent metric-to-Jacobi reconstructions.
+
+Exact premise authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
+`archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
+`archive/startup_surface_2026-08-21_pre_g197/`.
+
+### Observational boundary
+
+R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
+covariance rows remain unresolved and no preferred scale follows. The frozen SNe replay is a
+non-regression check under imported transfer, not native light physics or a new fit. Raw archive:
+`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
+
+### Protected local work
+
+Do not stage, modify, delete, mine, or cite without a specific dispatch:
+
+- `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`;
+- `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
+- `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`;
+- `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` when present.
+
+### Next gate
+
+MAP a second/opposite supplied germ or minimal multidirectional network. The bounded question is
+whether two rays from the same supplied complete metric constrain shared off-ray structure beyond
+the one-germ G196 theorem. Do not fit functions, insert `X_max`, select transfer, or use G116/G189
+as construction inputs.
+<!-- STARTUP_CURRENT_END -->
+
+exec
+/bin/bash -lc "awk '/STARTUP_CURRENT_BEGIN/{emit=1} emit{print} emit && /STARTUP_CURRENT_END/{exit}' HANDOFF.md" in /tmp/g197_rehearsal1_retry_lYrSgr/repo
+ succeeded in 0ms:
+<!-- STARTUP_CURRENT_BEGIN -->
+
+`LIVE.md` wins.
+
+## Resume anchor — 2026-08-21
+
+The active chain is G166--G196. The primary metric is pulled back to a **supplied** regular pair
+germ; `B,Q` are metric-fixed, `S=0` in the spherical slice, and `Y,Z` come from the germ. All
+`B,Q,S,Y,Z` channels enter before scalar readout. On the founded block, `phi_pair=delta` and the
+conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
+
+Completed-pair Dual Reciprocity is a `WORKING_FOUNDATIONAL_CLARIFICATION`, not metric-derived or
+canon. It selects `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T` after the pullback. The earlier
+arbitrary-calibration formula is a control. Physical events, germs, functions, population, and
+global realization remain supplied or `OPEN`.
+
+G190--G196 are metric-evaluator results on chosen families, not field equations. Current G196 scope:
+one displayed `a(eta),M(eta,z)` affine coframe family and one supplied central outgoing germ;
+`D_plus=partial_eta+partial_z`, exact ordered factorization, and a scoped positive-Gram
+no-nonvertex-caustic theorem. Metric-side contractions are independent; interval IVP agreement is
+formula-level regression. One ray cannot reconstruct off-ray structure.
+
+G197 independently audited the full G166--G196 provenance chain. Landing:
+`NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
+scaffold or protected local payload is load-bearing. The repairs are typing and evidence-scope
+repairs, not a scientific counterexample: G176 remains working, germs/families remain supplied, and
+G190--G192 numerical IVP checks are formula-level.
+
+P1, G116, G189 transfer, fits, and `X_max` are not construction inputs. R2--R5 in
+`udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300 rows are
+unresolved and no preferred scale follows. Raw archive:
+`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Conditional evaluator:
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Exact authority:
+`CURRENT_SCIENTIFIC_PREMISES.tsv`. Earlier chronology:
+`archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 prose:
+`archive/startup_surface_2026-08-21_pre_g197/`.
+
+Protected—do not stage, modify, mine, or cite without a specific dispatch:
+
+- `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/`;
+- `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`;
+- `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
+- `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
+
+Directory presence does not prove banking. No long solve is running.
+
+Next MAP a second/opposite supplied germ or minimal multidirectional network from the same complete
+metric, asking whether joint rays constrain shared off-ray structure. Do not fit a profile, insert
+`X_max`, select transfer, or use G116/G189 as construction inputs. The physical carrier/`O(2)`,
+covariant `lambda`, rank ten,
+conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
+valuation retain their exact registry status and remain `OPEN` where stated.
+
+<!-- STARTUP_CURRENT_END -->
+
+exec
+/bin/bash -lc "sed -n '1,240p' CURRENT_RESEARCH_PROGRAM.md
+sed -n '1,260p' CURRENT_SCIENTIFIC_PREMISES.md
+python3 verify_current_scientific_premises.py" in /tmp/g197_rehearsal1_retry_lYrSgr/repo
+ succeeded in 0ms:
+# Current UDT research program
+
+Date: 2026-08-21
+
+`LIVE.md` controls status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+
+## Architecture
+
+The active program distinguishes three layers:
+
+1. **Founded relation.** On supplied ordered depth, the reciprocal character gives the
+   determinant-one clock/ruler block and its algebraic ratios.
+2. **Supplied metric and pair.** A supplied Lorentz metric and regular rank-two pair germ give
+   `h=F^*g`; angular, screen, mixing, and shift data enter before readout. Pullback, decomposition,
+   Levi-Civita transport, curvature, and Jacobi propagation are geometric evaluators.
+3. **Completed reciprocal calibration.** The provisionally adopted
+   `WORKING_FOUNDATIONAL_CLARIFICATION` applies Dual Reciprocity after the pullback. It selects
+   `m=sqrt(-det h_sigma)` and `Phi=-log T`. This is the sole active physical selection beyond
+   metric/query typing; it is not derived from the bare metric and is not canon.
+
+The controlling formulas are:
+
+```text
+h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB))
+phi_pair=delta_AB
+c_eff^(pair)/c_E=exp(-2 delta_AB)
+chi_AB=tanh(delta_AB)
+
+h=Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z)
+
+phi_control=(1/4)log[(-det h)/h00^2]
+m=T L_sigma=sqrt(-det h_sigma)
+Phi=-log(T)=-1/2 log(-h00)
+```
+
+`phi_control` belongs to the arbitrary-calibration atlas. Completed `Phi` is the provisional
+physical scalar after the working premise. They must not be conflated.
+
+## Dependency spine
+
+- G129--G165 are reconstruction, conformal/common-scale, carry, `X_max`, and scaffold controls.
+  They are not kernel mechanisms.
+- G166--G184 derive the bounded supplied-pair pullback, completed normalization, reversal,
+  family gluing, endpoint/carry strata, and typed realization equivalence.
+- G185--G189 are radial/application and flux-interface controls; P1 and radiative transfer remain
+  historical or imported.
+- G190--G196 derive the parametric frequency/screen evaluator and classify nested **chosen**
+  time-live coframe families. The latest result is longitudinal `M(eta,z)` descent through
+  `D_plus` on one supplied outgoing germ. Exact factorization and the positive-Gram sign theorem
+  are family-scoped. The IVP comparison is formula-level regression; metric-side curvature and
+  connection contractions are independently implemented.
+
+Current structural package: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`.
+Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
+Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
+Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
+
+## Current open joints
+
+- The primary static-spherical/areal slice is declared; its profile is supplied. A general UDT
+  ambient history is not derived by the arbitrary-coframe evaluator.
+- Events, germs, functions, observer population, branch aggregation, and multidirectional/global
+  realization remain open.
+- Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
+  numerical `X_max` remain open.
+- `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
+
+R2--R5 remain metric-neutral observed characterization with 184,300 unresolved covariance rows and
+no preferred scale. SNe is a frozen non-regression check under imported transfer, not native light
+physics or a new fit.
+
+## Audited restart
+
+G197 classified the full chain as `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No P1,
+G116/G189 transfer, fit, `X_max`, G142--G160 construction, or protected local package is
+load-bearing. The active dependency types are metric/founding algebra, supplied query data, chosen
+exploration families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole G176 working clarification. G190--G192's
+numerical IVP legs are formula-level evidence; G193--G196 contain the independent metric-side
+contractions.
+
+Resume with MAP only: a second/opposite supplied germ or minimal multidirectional network from the
+same supplied complete metric. Test whether joint rays constrain common off-ray structure beyond
+G196. Do not fit functions, insert `X_max`, select transfer, or use G116/G189 as construction
+inputs.
+# Premise index
+
+`LIVE.md` and TSV own status; not `CANON.md`.
+## Foundational relation
+
+| Object | Status | What is owned | What remains open |
+|---|---|---|---|
+| `c_E`, `G_obs` | `OBSERVED` | Anchors | Placement and closure |
+| Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))`; determinant-one block on supplied depth | Pair values; `3+1` assembly |
+| Pointwise `phi` | `CONDITIONAL` | Local factorization | Ownership |
+| Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
+| Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
+| Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
+| Pair-relative scalar network | `VERIFIED_WITH_CAVEATS` | Endpoint difference; reversal | Germ/global extension; not distance |
+| Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
+| Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
+| Co-presence | `WORKING` | Solution membership | Query population, signalling |
+
+## Reconstruction hierarchy
+
+| Result | Bounded status | Maximum conclusion |
+|---|---|---|
+| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
+| G129--G165 reconstruction/controls | accepted with caveats | Pullbacks recover `g`; scalar views stop at conformal/scale/carrier ceilings; `X_max` and scaffolds are not kernel inputs |
+| G166--G175 primary supplied-pair chain | accepted with caveats | Pullback, endpoint difference, reversal, turns, and calibration atlas; germ and profile remain supplied |
+| G176--G180 completed pair | conditional; externally accepted | Working completed-pair premise selects the reciprocal ruler; coframe/family evaluators do not select histories |
+| G181--G184 strata/equivalence | conditional; externally accepted | Endpoints, carry, branches, and typed quotient; equal summaries do not identify realizations |
+| G185--G189 application boundary | accepted with caveats | Radial/nonradial screen and conditional flux controls; transfer/P1 remain imported or historical |
+| G190--G196 time-live families | accepted with caveats | Parametric frequency/screen evaluator and nested chosen mixing families; latest `D_plus` descent remains one-germ/family scoped |
+
+None selects completion or `X_max`.
+## Scale and limits
+
+| Object | Status | Guard |
+|---|---|---|
+| `X_max` | working asymptotic global-completion consequence target | Not a local input; requires metric separation and finite all-frame supremum; not a wall, center, seam, seal, or boundary term |
+| Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless explicitly reauthorized |
+| Common-factor cancellation | `DERIVED` algebra only | Not a Weyl-gauge theorem or proof UDT is scale-free |
+| Founded pair common scale | `FIXED` in bounded block | Determinant-one reciprocal clock/ruler block; not a general complete-metric theorem |
+| General complete pair scale | `CONDITIONAL/RETAINED` | Present after a complete assembly is supplied |
+| Common-scale principal rank | `DERIVED` source-bounded zero | G155 finds no active `kappa` equation; not a no-go |
+| Pair scale carry | `DERIVED_CONDITIONAL` | Half-density character; incomplete closure |
+| Base channel balance | `DERIVED` bounded | `B+(2)` composition permits changing ratios; screen/mixing law open |
+| Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4` law and history velocity; not physical history |
+| Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
+
+## Geometry, query, and causality
+
+- The kernel takes an ordered pair, not a path; route observables remain separate.
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
+  Metricity is not dynamics. G138--G145 assign carry to overlaps, not endpoints.
+- G146--G163 bound carrier, `O(2)`, `lambda`, first jets, scale, score, transport, and `X_max`;
+  G165 is an envelope control rather than a physical multiplicity theorem.
+- G166--G196 derive and test the supplied-pair kernel. Population, transfer, and history stay open.
+
+## Carrier, action, source, and matter
+
+| Object | Status | Maximum statement |
+|---|---|---|
+| Celestial null-direction `S^2` | `CONDITIONAL` fiber | Does not derive a matter carrier or law |
+| Matter `S^2` carrier | `POSIT` | Conditional carrier branch only |
+| Static Hopfion | scoped finite-box `SETTLED` | Not unconditional particle stability |
+| EH action | `CONDITIONAL_NOT_SELECTED` | Familiarity with GR is not derivation |
+| `C^2`/Bach action | Conditional on inactive strong-CSN premise | No priority |
+| Native source | `OPEN` | Geometric response/current roles do not supply source substance |
+| Bootstrap | `WORKING` mutual-admissibility posit | No complete fixed point, density selector, or matter theorem |
+| Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
+
+## Observational boundary
+
+R2--R5 are `OBSERVED` with caveats and select no feature, scale, origin, cosmology, or `X_max`.
+The application lane imports transfer and freezes P1; the time-live lane returns a parametric
+frequency/screen branch on supplied histories. None derives transfer, population, or a global branch.
+
+## Recurring prohibited promotions
+
+Do not:
+
+- derive pointwise depth from supplied depth; call pair `c_eff` signal speed; or insert `X_max`, fits,
+  proper length, universe size, or seams into the kernel;
+- promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
+  celestial `S^2` with matter;
+- globalize the G166--G196 chain, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
+  import familiar mechanisms as UDT derivations.
+
+## How to use the registry
+
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 181-row authority. On conflict, stop.
+
+Run:
+
+```bash
+python3 verify_current_scientific_premises.py
+```
+
+Query exact TSV rows only after orientation when the requested task makes them load-bearing.
+Prior startup prose: `archive/startup_surface_2026-08-17_pre_zoomout/`.
+PASS: G196-extended premise guards; PASS: 181-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics
+
+exec
+/bin/bash -lc "rg -n '"'^#{1,6} .*([Hh]ow we work|DRIVER TRIGGERS|[Rr]epo discipline)'"' CLAUDE.md" in /tmp/g197_rehearsal1_retry_lYrSgr/repo
+ succeeded in 0ms:
+44:## How we work (binding method — Charles, 2026-06-14)
+163:## DRIVER TRIGGERS (binding, always-loaded — fire WITHOUT being challenged)
+258:## Repo discipline (use git AS git — Charles 2026-06-24)
+
+exec
+/bin/bash -lc "awk '
+/"'^## How we work /{emit=1}
+/''^## DRIVER TRIGGERS /{emit=1}
+/''^## Repo discipline /{emit=1}
+emit && /''^## / && $0 !~ /''^## How we work / && $0 !~ /''^## DRIVER TRIGGERS / && $0 !~ /''^## Repo discipline /{emit=0}
+emit{print}
+'"' CLAUDE.md" in /tmp/g197_rehearsal1_retry_lYrSgr/repo
+ succeeded in 0ms:
+## How we work (binding method — Charles, 2026-06-14)
+
+The bottleneck has been the METHOD, not the physics. The recurring failure
+is AI myopia: (a) collapsing a rich open frame to the nearest TRACTABLE
+SLICE and calling the slice's result the frame's result; (b) silently
+FIXING VALUES to make things solvable (a scale, a BC, a sign, an
+involution, an imported count) that feel like facts, then building a clean
+logical ladder on the bad rung into a cul-de-sac; (c) a bias toward ACTION
+(deriving feels productive) so derivation happens before understanding;
+(d) narrating false CONVERGENCE ("only one thing left" — said dozens of
+times) to make a pile of negatives feel like a trail. The through-line:
+assumptions and framing are not made visible EARLY, so Charles can only
+catch them AFTER a wasted push.
+
+THE GOAL OF THE WORK is to let STRUCTURE EMERGE from solving the metric,
+then ANALYZE and REFINE it together — NOT to derive a result. Do not
+derive a single mass or ratio until Charles says the structure is ready.
+Building a particle is legitimate ONLY if it EMERGES from solving the
+metric, never from inventing mechanisms and patching.
+
+INVERT THE DEFAULT from "derive/launch" to "make-visible-and-ponder."
+Four modes, in order; OBSERVE/PONDER are primary, DERIVE is gated:
+1. MAP (first, no compute). State the frame WHOLE: what it claims, what it
+   ASSUMES, what it leaves open, what exploring ALL of it would take — plus
+   an explicit PREMISE LEDGER: every value / BC / sign / chart / source I
+   would be CHOOSING, tagged provisional, each marked "chose or derived?".
+   Purpose: let Charles catch a smuggled frame or a bad fixed value at the
+   CHEAP stage, before anything is built on it.
+2. OBSERVE (primary). Agents solve the metric in a regime and report WHAT
+   IS THERE — not "show X." Let structure emerge; report it with premises
+   attached. No verdict-hunting.
+3. PONDER (with Charles). Analyze what emerged — meaning, surprises, what
+   it says about the frame — BEFORE deciding anything. Deliverable =
+   understanding. More zooming out and pondering, less deriving.
+4. DERIVE (gated, last). Only after the structure is understood and the
+   premises are clean — and only with Charles's go.
+
+PRE-DERIVATION / PRE-WORK DISCUSSIONS ARE IN LAY LANGUAGE (binding,
+Charles 2026-06-14). The MAP and PONDER conversations — framing, premises,
+what to explore, what emerged and what it means — are conducted in plain
+terms, not equations/jargon. (Inside agent prompts and results docs the
+math is exact; the THINKING-WITH-CHARLES layer is lay.)
+
+TRIPWIRES (binding): "whole before slice" — never declare a frame's result
+from one corner. "Chose or derived?" — every fixed value gets the tag, out
+loud, before use. "Observing or targeting?" — asked before every agent
+launch; if targeting a desired answer, STOP and ponder. Refusal/elimination
+RUN -> mandatory zoom-out and REFRAME, never "one more thing." Count the
+run; a string of negatives indicts the QUESTION/method, not "the next
+place to drill." "Mismatch -> SOLVER, not MECHANISM" — see below.
+
+MISMATCH -> SOLVER, NOT MECHANISM (binding, Charles 2026-06-19). When a result
+is far from observation, the FIRST hunt is the SOLVER and our application of
+it — NEVER a mechanism. In order: (1) what did we leave OUT of the solver (a
+term/coupling/sector/boundary); (2) is it a NUMERIC problem (convergence,
+box-control, conditioning, a bug, grid); (3) did we FREEZE or forget to turn
+on a degree of freedom; (4) have we explored the solution space with
+EVERYTHING ON, or only a corner — plus the many WAYS to examine the same solve
+(bases, grids, seeds, continuation, gauge tests, independent re-derivation).
+Reaching for a MECHANISM to close a gap is FORBIDDEN until the solver is
+demonstrably complete and the solution space genuinely explored. A mismatch
+indicts the solver's COMPLETENESS first, the metric last, and a mechanism
+never (that is the import reflex). This is Principle 1 applied to our own
+numerics. (Historical instrument = `archive/SOLVER_COMPLETENESS_MAP.md`; forward frame =
+`archive/POST_POSTULATE_PROGRAM.md` — both ARCHIVED/subsumed now the static solver is code-complete;
+the live status is LIVE.md + `pytest tests/`.)
+SCAR it heads off: the year-long catalog/mechanism hunt that read a graveyard
+of contaminated/classical-solver negatives as a verdict on the metric;
+microphysics was UNENTERED, not walled.
+
+SOLUTION-SPACE, NOT IMPOSITION (binding, Charles 2026-06-25). The simple goal:
+perform PURE MATH and explore the metric's solution space for WHAT EMERGES,
+which LATER we consider as physics. The recurring drift (multiple times in ~2
+weeks): we slide from EXPLORING the solution space to IMPOSING the physics we
+expect. The purity gate catches IMPORTS; this catches IMPOSITIONS. Before any
+solve/result: (a) tag every BC / matter-sector / coupling / acceptance criterion
+as free-and-explored, pinned-by-THEORY (cite it), or pinned-by-HABIT (= drift
+flag — free or justify); (b) ask "does this diagnostic CHARACTERIZE the solution
+or FILTER it (demand a shape / smoothness / a lump / the expected answer)?" — a
+filter throws solutions away and is an imposition; (c) "observing or TARGETING?"
+checked against the SM-template list (lump/mass/particle/spectrum). GOVERNING
+LIMIT — any gate/guard/lint we build to enforce this may check only PROVENANCE
+(numeric-vs-smuggled import; derived-vs-pinned value) and HONESTY (is the pin
+tagged/surfaced) — NEVER MERIT (is the solution the right shape). A check that
+judges merit becomes a blocker that imposes, and that judgment accumulates into
+the very drift we fight; merit is judged LATER, with Charles. This limit is
+enforced BY HAND (verifier), deliberately not by a machine meta-test (a label is
+satisfiable by a drifting author; a binding principle is not). Skill =
+`solution-space-not-imposition`; gate = `tests/test_solution_space_gate.py`
+(numeric-only imports + premise-ledger tags, both physics-blind). [[solution-space-not-imposition]]
+
+DIVISION OF LABOR (honest): the driver genuinely cannot always see its own
+smuggled assumptions — Charles holding the frame is irreplaceable, the
+verifier catches errors/assembly. The method does not remove this; it moves
+the catching-surface EARLIER by front-loading the frame-map + premise
+ledger so Charles steers at the assumption stage, not after the build.
+
+## DRIVER TRIGGERS (binding, always-loaded — fire WITHOUT being challenged)
+
+The double-bracket names below are mnemonic trigger labels, not filesystem paths. Their live
+protocol mapping is: `apply-purist-logic-proactively` and `derive-natively-not-inherited-form` use
+`.claude/skills/no-shortcuts/SKILL.md`; `solver-first-not-mechanism` uses
+`.claude/skills/solver-first/SKILL.md`; `sweep-whole-not-fragments` uses
+`.claude/skills/completeness-map/SKILL.md`; and `session-handoff-pointer` uses
+`.claude/skills/verifier-before-record/SKILL.md`. `solution-space-not-imposition` maps to its
+same-named live skill. Read a mapped skill only when its trigger fires.
+
+The cognitive corral above is recall-class: this session it fired only when Charles challenged, not on
+its own (the driver drifted to a "cured" headline; the verifier caught it). These triggers fix that:
+each binds to an OBSERVABLE SELF-OUTPUT TOKEN the driver is about to write — you cannot emit the token
+without owing the procedure. They force a PAUSE + HONESTY/PROVENANCE; they NEVER judge MERIT (is the
+answer the right shape / a lump / the expected mass). (Spec: COGNITIVE_CORRAL_TRIGGERS_SETUP.md.)
+
+**LEAVES ROOM FOR THE WORK — the allowed lane (binding; no trigger may fire to block these).** These
+triggers police the SMUGGLE OF PHYSICS, never the BORROWING OF METHOD. CATEGORY-A (conditioning /
+numerical technique / *how* we solve) is ALWAYS GREEN and only needs a soundness/convergence check:
+borrowing JFNK/Newton-Krylov, continuation/homotopy, spectral/collocation, preconditioners, junction-
+condition/DtN/Calderón & geon formalism, machine-precision Taylor replacement — and USING GR AS A
+REFERENCE/LIMIT (flat/Schwarzschild/de Sitter anchors, contrasting to see where UDT departs). A technique
+changes HOW we solve the UDT equations, not the physics: it is NOT a "mechanism/term/coupling" (does not
+trip #2) and need NOT be "derived from the metric" (does not trip #5); only two duties — apply it to the
+UDT equations (don't silently swap in GR's), and soundness-check it. CATEGORY-B (a change to the PHYSICS
+— a mechanism, coupling, equation-form, source, or a structure-holding BC) is gated. Default for a real
+technique or a GR-as-reference comparison is GREEN; progress is the point. *(This clause is non-droppable
+and MUST travel verbatim with any cross-check payload / local-LLM export — a "forbid"-only half over-blocks.)*
+
+Each: **TRIGGER** (the tokens/moment) → **STOP-AND-DO**.
+1. **Purist-logic / anti-tractable-slice.** TRIGGER: before recommending an approach, or writing
+   *easiest / simplest / just / cleaner / for now / tractable*. STOP-AND-DO: name the PUREST/least-imposed
+   option AND the easy one, with the objective cost of each; if the pure option is blocked by a flaw
+   (grid limit, frozen DOF, an import), the action is FIX THE FLAW — name it, refuse the shortcut (legal
+   only as an explicitly-ledgered temporary stand-in). THEN recommend. [[apply-purist-logic-proactively]]
+2. **Solver-first, not mechanism.** TRIGGER: before proposing a new mechanism/coupling/term/BC to explain
+   a gap, or writing *maybe if we add / a mechanism / what if the metric also*. STOP-AND-DO: run the four
+   solver questions — (1) what did we leave OUT? (2) is it NUMERIC (convergence/conditioning/grid/bug)?
+   (3) did we FREEZE a DOF? (4) explored the whole space with everything ON? Mechanism FORBIDDEN until the
+   solver is demonstrably complete; mismatch indicts solver first, metric last, mechanism never. [[solver-first-not-mechanism]]
+3. **Whole before slice.** TRIGGER: before reporting a result, or writing *the metric does / this shows /
+   scale-free / no localization / featureless / continuum*. STOP-AND-DO: name the regime actually solved
+   and the FREE choices held fixed (static / diagonal / branch G-or-P / grid / frozen rows); label the
+   result SCOPED to that regime. Never state a one-corner result as the frame's verdict. [[sweep-whole-not-fragments]]
+4. **Provisional until verified.** TRIGGER: before banking a verdict — committing a result doc, or writing
+   *cured / conclusive / confirmed / dead / no-go / proven / it works*. STOP-AND-DO: confirm all four —
+   pre-registered? full-space (or bounded slice justified)? blind-verified on the load-bearing premise?
+   every forced premise audited? If any is missing, label it PROVISIONAL / a LEAD, not a result. [[session-handoff-pointer]] (verifier-before-record)
+5. **Chose or derived.** TRIGGER: before any numeric value / BC / sign / chart enters a solve or a banked
+   claim. STOP-AND-DO: tag each FREE / THEORY(cite) / HABIT; a HABIT is a drift flag (free or justify it);
+   a result riding a FREE constant is conditioned on it — say so. SCOPE: PHYSICS premises only; conditioning/
+   solver params (grid, tol, continuation step, preconditioner) are category-A (soundness, not derivation).
+6. **Derive natively, not GR's form.** TRIGGER: before writing *folds away / reduces to the standard case /
+   as in GR / vacuum is / the usual Einstein*. STOP-AND-DO: that step is the prime suspect for smuggling GR
+   back in — show the term's fate from the positional-dilation operator NATIVELY; do not assume the
+   inherited form. (GR as reference is allowed (lane #2); ADOPTING GR's answer as UDT's is the smuggle.) [[derive-natively-not-inherited-form]]
+
+## Repo discipline (use git AS git — Charles 2026-06-24)
+
+- **EDIT files in place; let git history be the audit trail.** Commit per
+  logical change with a clear message; roll back via `git revert`/history if a
+  change regresses. The point of committing is ROLLBACK capability, not freezing.
+  REPEALED (Charles 2026-06-24, "patently absurd... the opposite of using a git
+  repository"): the old "committed scripts are immutable / new work = new files /
+  research-record markdown append-never-edit" rule. It froze improvement and
+  caused SOLVER PROLIFERATION — a stale harnessed path (p1_residual) while the
+  live work moved to an un-harnessed file (branchGP). When you improve a solver,
+  EDIT it (and update its harness); do not spawn branchGP_v2. Append-only is fine
+  for a running LAB-LOG section of a results doc, but correcting/superseding an
+  earlier claim by EDITING (with the change visible in git) is now preferred over
+  piling addenda. A RECONCILIATION is owed: consolidate the proliferated
+  solvers/scripts to ONE canonical solver + its harness, retire the rest.
+- **Verifier-before-record**: every result (positive or negative) gets a
+  blind adversarial verifier pass, recorded in its results doc with agent
+  id and date, before commit.
+- **Pre-register before testing**: falsification contracts (frozen model,
+  candidate lists, tolerances, look-elsewhere accounting) are committed
+  BEFORE the test runs. No retuning after.
+- Calibrate, never dramatize. Failures are recorded as failures. Negative
+  results are first-class deliverables.
+- Null-test discipline: exact rational matches are cheap (small-rational
+  coverage ~16-23%, see dimension_ladder_null_audit.md). New value
+  identities must pass the TEST-B-style classifier (generalize, solve,
+  check N-specificity) before being banked as evidence.
+- **Negative results are scoped, never absolute** (Charles, 2026-06-11):
+  every banked negative/no-go carries its PREMISE SET (background,
+  source treatment, boundary conditions, domain class, truncation,
+  method). The living index is NEGATIVES_REGISTRY.md. When any premise
+  is later revised or refuted, every negative carrying it is flagged
+  CONDITIONS-CHANGED in the registry and loses blocking authority until
+  re-graded under the new conditions. Check the registry at every push
+  plan and every premise-changing result.
+- **Hypothesis discipline** (Charles, 2026-06-11: "I'm trying to find
+  what's real, not what confirms my priors"): Charles's physical
+  pictures are direction, not evidence. Aim verifiers hardest at
+  results that would confirm the standing picture; accommodations to a
+  hypothesis are pre-registered, never retrofitted after a residual.
+- **Interrogation discipline** (Charles, 2026-06-11; adopted after the
+  oscillator-thread audit): every push DECLARES up front whether its
+  question is METRIC-LED ("what does derived structure X do?") or
+  TEMPLATE-LED ("can the metric perform mechanism Y?"). Template-led
+  pushes are legal falsification exercises, but their negatives indict
+  the TEMPLATE first, the metric second — and a run of template
+  refusals triggers a REFRAME, not a deeper drill. Watch the questions
+  for smuggled mechanisms (the resonator/mass-as-eigenvalue template
+  ran ten months before being named). Principles 1 and 3 police
+  answers and vocabulary; this rule polices the questions.
+- Commit per result; push to github.com/charlesrotter/udt_mass_codex.
+
+
+codex
+The verifier passes the full 181-row registry without exposing its rows. The “whole before slice” reporting trigger applies to this orientation, so I’m reading its mapped protocol before the final compact pointer files; it will keep G196 explicitly bounded to its one family and supplied germ.
+exec
+/bin/bash -lc "sed -n '1,260p' .claude/skills/completeness-map/SKILL.md" in /tmp/g197_rehearsal1_retry_lYrSgr/repo
+ succeeded in 0ms:
+---
+name: completeness-map
+description: Use every push to declare solver coverage before trusting a result. The ten completeness criteria + the standing questions; anti per-step-inflation (every result is ONE tile).
+---
+
+# Completeness map (the solver-architect view)
+
+The real project is a COMPLETE, numerically-tractable, UDT-native solver that drops NO
+potentially-emergent sector/effect/operator and is honest about its regime of validity. Track
+COVERAGE, not just the next step. Every result is ONE TILE with a regime stamp, next to the
+still-blank sectors. Instrument = `SOLVER_COMPLETENESS_MAP.md` (update every push).
+
+## The ten completeness criteria (a variational theory's full solution space is exhausted iff all ten are covered)
+LAYER 1 — what you're solving:
+ 1. FIELDS — every varying DOF (10 g_munu + matter + phi).
+ 2. ACTION TERMS — every term (L2, L4, gravity, seal/boundary); the "operators".
+ 3. FULL EQUATIONS — every variation of every field, NEVER a subset (the #55 scar).
+ 4. DOMAIN & COORDINATES — r,theta,psi,t live unless a STATED symmetry (the 2-D-in-4-D scar).
+ 5. BOUNDARY & REGULARITY — seal, center/axis, finite cell (they SELECT solutions).
+LAYER 2 — which world:
+ 6. TOPOLOGICAL SECTOR — winding/charge m (each a disconnected world).
+ 7. DYNAMICAL CHARACTER — static / stationary / time-periodic / dynamic; elliptic vs eigenvalue
+    vs hyperbolic (the time-selector lives in "ring").
+LAYER 3 — what emerges:
+ 8. BRANCH / BIFURCATION — are there OTHER disconnected solutions? (= the catalog).
+ 9. STABILITY SPECTRUM — which solutions persist; a "particle" = a STABLE solution.
+ 10. REGIME OF VALIDITY — scale/coupling range; where the math changes character.
+
+## Standing questions (run every push)
+1. For EACH criterion: what does this push cover, and what does it DROP (explicitly)?
+2. Could any DROPPED criterion host emergent structure? If yes => flagged blind-spot, not a closure.
+3. State the REGIME OF VALIDITY (criterion 10) of the result.
+4. Is every technique category-A (conditioning) — not category-B (physics simplification)?
+5. What tooling/tractability step covers the dropped criteria next?
+6. (anti-inflation) This is ONE tile — how much of the ten-criteria space is still blank?
+
+exec
+/bin/bash -lc "sed -n '1,260p' INDEX.md
+sed -n '1,260p' MEMORY.md" in /tmp/g197_rehearsal1_retry_lYrSgr/repo
+ succeeded in 0ms:
+# INDEX
+`LIVE.md` wins.
+## Startup
+1. Follow `AGENTS.md` synchronization and bounded-read rules.
+2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
+3. Read `CURRENT_RESEARCH_PROGRAM.md`.
+4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
+5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only
+   task-triggered `.claude/skills/*/SKILL.md` files.
+6. Read `INDEX.md` and `MEMORY.md` as compact pointers, then stop and give the orientation report.
+7. After orientation, query only task-relevant registry rows and evidence.
+## Active relational frontier
+
+- Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
+- Native pair descent: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
+- Full spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
+- Completed-pair working premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
+- Scaffold deletion and review: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`;
+  `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
+- Complete-coframe pullback: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`
+- Branch/equivalence ceiling: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
+- General matrix screen: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`
+- Parametric frequency/screen evaluator: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`
+- Real-matrix time-live tile: `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`
+- Current longitudinal result: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
+- Accepted provenance/startup audit:
+  `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`
+
+G129--G165 are reconstruction, scale, carry, `X_max`, and scaffold controls. G166--G184 build the
+supplied completed-pair scalar chain. G185--G189 are application controls. G190--G196 are standard
+geometric evaluations on chosen metric families; they do not select physical histories or germs.
+G197 confirms that no earlier scaffold is load-bearing and records the formula-level numerical
+evidence ceiling for G190--G192.
+Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
+## Durable prerequisites
+- Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
+- Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
+- Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
+- Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
+- Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
+Historical chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 181-row registry controls.
+## Observational lane
+
+- Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
+- Conditional static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`
+- Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
+- Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
+- R4 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md`
+- R5 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_OUTCOME_REPORT.md`
+- R5 verification: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_VERIFICATION_RESULT.json`
+- R5 accepted follow-up: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`
+- R5 evidence manifest: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
+- Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
+R2--R5 are verified with caveats and remain metric-neutral data characterization. They select no
+feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
+## Foundational and premise authorities
+- Current status/program: `LIVE.md`; `CURRENT_RESEARCH_PROGRAM.md`
+- Premise guide: `CURRENT_SCIENTIFIC_PREMISES.md`
+- Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
+- Known-old-path relocation lookup only:
+  `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
+- Founding metric orientation: `SIMPLE_METRIC_MACRO.md`
+- Current `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
+- Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
+- Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
+- Supplied-germ and pair-relative network: query exact G168--G171 rows in the premise registry.
+- Scaffold controls: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
+- Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
+- Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
+## Matter/stability lane
+Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`.
+It preserves plural conditional mass-from-geometry branches. For topology begin with
+`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
+## Protected local paths
+See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected curvature-atlas work,
+the stopped native-on-shell draft, or local unbanked packages without explicit authority.
+## Archives
+- Startup snapshots: `archive/startup_surface_2026-08-21_pre_g197/`,
+  `archive/startup_surface_2026-08-17_pre_zoomout/`, and `archive/startup_surface_2026-08-14/`.
+# MEMORY — compact disk pointer
+
+Re-read on resume. `LIVE.md` wins.
+
+## Current theory picture
+
+G166--G196 is the active supplied-pair chain. The metric and pair germ first produce the full
+`B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
+after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
+metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
+control, not completed `Phi`.
+
+G190--G196 use chosen metric families and standard Levi-Civita/Jacobi evaluators. Latest bounded
+result: one `a(eta),M(eta,z)` family and one outgoing germ yield `D_plus`, ordered factorization,
+and scoped no-nonvertex-caustics. The IVP comparison is formula-level regression; metric-side
+contractions are independent. One germ does not reconstruct off-ray data.
+
+G197 retained this native core after an end-to-end provenance audit. It found no load-bearing P1,
+G116/G189 transfer, fit, `X_max`, G142--G160 mechanism, or protected local payload. Required repairs
+are descriptive: keep G176 provisional, supplied choices explicit, and G190--G192 IVP evidence
+formula-level.
+
+Physical germs/functions, ambient/global realization, transfer, completion, and `X_max` remain
+open. `INDEX.md` routes exact evidence; earlier chronology is archived.
+
+## Observational pointer
+
+R2--R5 are verified with caveats; interpretation remains unresolved.
+
+Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
+Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
+
+## Premise memory
+
+- `c_E`, `G_obs` are observed anchors.
+- Founded Reciprocity acts on supplied ordered depth.
+- Pointwise `phi` is conditional; terminal `phi_pair` is derived on a supplied pair whose orchestra
+  precedes readout.
+- Pair `c_eff` is an observer-frame readout, not automatically signal speed.
+- Working pair position `chi` is not proper length.
+- `X_max` is a working asymptotic completion target, not a local input, wall, center, or seam.
+- Strong local CSN is inactive.
+- Carrier, action, source, matter, dynamics, and bootstrap remain posit/conditional/open.
+
+Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and sources.
+
+## Next gate
+
+MAP a second/opposite supplied germ or minimal multidirectional network from the same complete
+metric, without fits, `X_max`, transfer, or G116/G189 construction inputs.
+
+Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
+`archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:
+`CURRENT_SCIENTIFIC_PREMISES.tsv`.
+
+exec
+/bin/bash -lc 'git rev-parse --abbrev-ref HEAD
+git rev-parse HEAD
+wc -l CURRENT_RESEARCH_PROGRAM.md CURRENT_SCIENTIFIC_PREMISES.md INDEX.md MEMORY.md .claude/skills/completeness-map/SKILL.md' in /tmp/g197_rehearsal1_retry_lYrSgr/repo
+ succeeded in 0ms:
+grok
+b0fb970dc7b1ceba0d52ff32c2709c882e2c932a
+   84 CURRENT_RESEARCH_PROGRAM.md
+   97 CURRENT_SCIENTIFIC_PREMISES.md
+   80 INDEX.md
+   54 MEMORY.md
+   35 .claude/skills/completeness-map/SKILL.md
+  350 total
+
+codex
+Orientation complete. No files were edited, no protected payloads or scientific packages were opened, and no research was continued.
+
+## Repository state
+
+- Branch: `grok`
+- HEAD: `b0fb970dc7b1ceba0d52ff32c2709c882e2c932a` — `Repair and compress G197 startup surface`
+- Dirt:
+
+  - `CURRENT_RESEARCH_PROGRAM.md`
+  - `HANDOFF.md`
+  - `INDEX.md`
+  - `LIVE.md`
+  - `MEMORY.md`
+
+`git checkout grok`, `git fetch origin`, and `git pull --ff-only origin grok` were attempted in order. Each write failed because `.git` is read-only (`index.lock`/`FETCH_HEAD`), consistent with the stated infrastructure limitation. The working branch was already `grok`.
+
+## Current honest claim
+
+On supplied ordered depth, the reciprocal character is `DERIVED`:
+
+```text
+h_AB = diag(-exp(-2 delta_AB), exp(+2 delta_AB))
+phi_pair = delta_AB
+c_eff^(pair)/c_E = exp(-2 delta_AB)
+chi_AB = tanh(delta_AB)
+```
+
+Premise stamps:
+
+- The full `B,Q,S,Y,Z` pair pullback precedes scalar readout; the metric and regular pair germ are supplied.
+- Completed-pair Dual Reciprocity is `WORKING_FOUNDATIONAL_CLARIFICATION` plus `DERIVED_CONDITIONAL`, not metric-derived and not canon. It gives `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`.
+- Pair `c_eff` is a `CONDITIONAL` observer-frame readout, not a signal-speed theorem.
+- `chi` is `CHOSE/PROVISIONAL` plus bounded `DERIVED`; it is not proper length or a numerical `X_max` law.
+- Events, germs, functions, observer population, histories, transfer, completion, and global realization remain supplied or `OPEN`.
+- G197’s audited landing is `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No P1, G116/G189 transfer, fit, `X_max`, G142–G160 mechanism, or protected payload is load-bearing. G176 must remain provisional and G190–G192’s IVP evidence formula-level.
+- The 181-row premise verifier passed.
+
+## G196 exact maximum conclusion
+
+For one displayed `a(eta),M(eta,z)` family and one supplied central outgoing germ, the metric yields:
+
+- `D_plus = partial_eta + partial_z`
+- exact ordered factorization
+- a positive-Gram proof of no nonvertex caustic on the connected regular ray interval
+
+This is one bounded tile, not a global metric/history result. The metric-side connection and curvature contractions were independently implemented. The interval IVP comparison is only formula-level regression—not an independent metric-to-Jacobi reconstruction—and one germ cannot reconstruct off-ray structure.
+
+## Protected work
+
+Not inspected, mined, modified, staged, or cited:
+
+- `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`
+- `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
+- `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
+- `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/` when present
+
+## Next authorized gate
+
+MAP only: a second/opposite supplied germ or minimal multidirectional network from the same complete metric, asking whether joint rays constrain shared off-ray structure beyond G196.
+
+Do not fit functions, insert `X_max`, select transfer, or use G116/G189 as construction inputs.
+
+## Commands run
+
+```text
+git checkout grok
+git fetch origin
+git pull --ff-only origin grok
+git status --short --branch
+git log -8 --oneline
+awk … LIVE.md
+awk … HANDOFF.md
+sed … CURRENT_RESEARCH_PROGRAM.md
+sed … CURRENT_SCIENTIFIC_PREMISES.md
+python3 verify_current_scientific_premises.py
+rg … CLAUDE.md
+awk … CLAUDE.md
+sed … .claude/skills/completeness-map/SKILL.md
+sed … INDEX.md
+sed … MEMORY.md
+git rev-parse --abbrev-ref HEAD
+git rev-parse HEAD
+wc -l …
+```
+
+Files read: bounded current blocks of `LIVE.md` and `HANDOFF.md`; `CURRENT_RESEARCH_PROGRAM.md`; `CURRENT_SCIENTIFIC_PREMISES.md`; the verifier script and its registry audit; only the requested `CLAUDE.md` sections; task-triggered `.claude/skills/completeness-map/SKILL.md`; `INDEX.md`; and `MEMORY.md`.
+tokens used
+29,784
+
+Script done on 2026-08-21 10:43:30-04:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,12 @@
+{
+  "banned_live_family_executable_names": 0,
+  "g176_working_premise_guard": true,
+  "g190_post_result_control_order": true,
+  "g196_evidence_scope_guard": true,
+  "landing": "NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED",
+  "live_family_files_checked": 6,
+  "production_files_parsed": 16,
+  "repository_local_scientific_imports": 0,
+  "startup_wording_guards": true,
+  "status": "PASS"
+}

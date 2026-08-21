@@ -44,10 +44,16 @@ formula-level regression. One germ does not reconstruct off-ray structure.
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
 not select physical functions, directions, branches, transfer, a complete history, or numerical
-`X_max`; that target remains asymptotic and downstream. physical carrier/`O(2)`, covariant `lambda`, rank ten completion, conformal/common-scale
-ownership, density, bivector area bilinear, codimension eleven closure, and numerical valuation
-remain separately typed and `OPEN` where the registry says so. parity-even candidates fail on the
-registered non-collinear witness.
+`X_max`; that target remains asymptotic and downstream. The physical carrier/`O(2)`, covariant
+`lambda`, rank ten completion, conformal/common-scale ownership, density, bivector area bilinear,
+codimension eleven closure, and numerical valuation remain separately typed and `OPEN` where the
+registry says so. The parity-even candidates fail on the registered non-collinear witness.
+
+G197's native-provenance audit lands
+`NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no P1, G116, G189 transfer, fit, `X_max`,
+G142--G160 mechanism, or protected payload is load-bearing. The repairs are descriptive: G176 must
+remain visibly provisional, supplied germs and chosen families must remain typed, and G190--G192's
+numerical IVP legs are formula-level rather than independent metric-to-Jacobi reconstructions.
 
 Exact premise authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
@@ -72,7 +78,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G197 is auditing native provenance and startup integrity. If it finds no load-bearing scaffold,
-resume by MAPping a second/opposite supplied germ or minimal multidirectional network. Do not fit
-functions, insert `X_max`, select transfer, or use G116/G189 as construction inputs.
+MAP a second/opposite supplied germ or minimal multidirectional network. The bounded question is
+whether two rays from the same supplied complete metric constrain shared off-ray structure beyond
+the one-germ G196 theorem. Do not fit functions, insert `X_max`, select transfer, or use G116/G189
+as construction inputs.
 <!-- STARTUP_CURRENT_END -->
