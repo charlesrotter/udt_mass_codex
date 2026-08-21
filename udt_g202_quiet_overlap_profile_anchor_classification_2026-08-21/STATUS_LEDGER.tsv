@@ -1,0 +1,11 @@
+claim	status	scope
+log_radius_amplitude_transform	DERIVED_CONDITIONAL	regular primary static-spherical slice
+quiet_overlap_phi_P_Q_zero	DERIVED_CONDITIONAL	local zero-depth second jet
+analytic_first_active_order_odd_at_least_three	DERIVED_CONDITIONAL	nontrivial analytic sign crossing
+cubic_two_sided_control	CHOSE_CONTROL	minimal example only
+infinite_positive_odd_profile_family	DERIVED_CONDITIONAL	lawful profile witnesses
+finite_anchor_nonselection	DERIVED_CONDITIONAL	unrestricted smooth profile space
+cE_G_no_length	DERIVED_DIMENSIONAL	without mass-dimension anchor
+mass_density_length_combinations	CONDITIONAL_DIMENSIONAL_CANDIDATES	not physical scale laws
+physical_profile_class_scale_and_coefficients	OPEN	not selected
+observational_transfer_Xmax_completion	OPEN	not attempted

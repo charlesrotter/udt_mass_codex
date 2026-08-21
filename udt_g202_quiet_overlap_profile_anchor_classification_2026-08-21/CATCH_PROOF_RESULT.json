@@ -1,0 +1,16 @@
+{
+  "all_pass": true,
+  "catches": {
+    "cE_and_G_called_length_without_mass_anchor": true,
+    "cubic_control_promoted_to_unique_profile": true,
+    "dimensional_candidate_promoted_to_physical_law": true,
+    "even_order_called_sign_crossing": true,
+    "finite_anchors_called_global_selector": true,
+    "first_log_derivative_erased": true,
+    "import_fit_xmax_or_transfer": true,
+    "phi_zero_called_full_quiet_overlap": true,
+    "second_log_derivative_erased": true
+  },
+  "caught": 9,
+  "total": 9
+}

@@ -1,0 +1,9 @@
+{
+  "all_pass": true,
+  "anchor_controls": 1000,
+  "assertions": 170003,
+  "cases": 20000,
+  "method": "independent exact-Fraction odd-profile anchor-jet and dimension replay",
+  "production_artifacts_read": false,
+  "production_imports": false
+}

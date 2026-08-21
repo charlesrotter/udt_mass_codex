@@ -1,0 +1,69 @@
+{
+  "all_pass": true,
+  "assertions": 32,
+  "cubic_control": {
+    "P": "3*a*s**2",
+    "Q": "6*a*s",
+    "phi": "a*s**3",
+    "series": {
+      "parallel": "-12*a**2*s**5 + 30*a**2*s**4 + 6*a*s**2 - 6*a*s",
+      "perpendicular": "6*a**2*s**5 + 2*a*s**3 - 3*a*s**2",
+      "reciprocal_contrast": "2*a**2*s**6"
+    }
+  },
+  "dimensional_length_solutions": {
+    "cE_and_G_only": [],
+    "with_density": [
+      {
+        "a_e": "1",
+        "b_G": "-1/2",
+        "d_rho": "-1/2"
+      }
+    ],
+    "with_mass": [
+      {
+        "a_e": "-2",
+        "b_G": "1",
+        "c_M": "1"
+      }
+    ]
+  },
+  "finite_anchor_counterfamily": {
+    "all_anchor_residuals": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "anchors": [
+      -1,
+      0,
+      1
+    ],
+    "orders_preserved": [
+      0,
+      1,
+      2
+    ],
+    "perturbation": "s**3*(s - 1)**3*(s + 1)**3*exp(-s**2)"
+  },
+  "infinite_odd_family_control": {
+    "P": "s**2*(3*a + 5*b*s**2 + 7*c*s**4)",
+    "phi": "a*s**3 + b*s**5 + c*s**7"
+  },
+  "landing": "QUIET_OVERLAP_FORCES_SECOND_ORDER_FLATNESS__TWO_SIDED_GROWTH_HAS_INFINITE_NATIVE_PROFILES__ANCHORS_CALIBRATE_BUT_DO_NOT_DERIVE_HISTORY",
+  "log_radius_amplitudes": {
+    "parallel": "(2*P**2 + 2*P - Q)*exp(-2*phi)",
+    "perpendicular": "-(P + 1)*exp(-2*phi) + 1"
+  },
+  "passed": 32,
+  "quiet_overlap_solution": {
+    "P": "0",
+    "Q": "0"
+  }
+}

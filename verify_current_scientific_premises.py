@@ -162,13 +162,14 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G201",
+            "G166--G202",
             "G196",
             "G197",
             "G198",
             "G199",
             "G200",
             "G201",
+            "G202",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -222,7 +223,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "185-row exact registry",
+            "186-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -254,6 +255,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/",
             "udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/",
             "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/",
+            "udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -264,12 +266,13 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G201",
+            "G166--G202",
             "G197",
             "G198",
             "G199",
             "G200",
             "G201",
+            "G202",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -289,6 +292,7 @@ def validate_startup_surface(root: Path) -> None:
             "G199",
             "G200",
             "G201",
+            "G202",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -307,10 +311,11 @@ def validate_startup_surface(root: Path) -> None:
             "G199",
             "G200",
             "G201",
+            "G202",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "185-row",
+            "186-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -570,9 +575,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 185, "premise registry must contain exactly 185 rows")
+    require(len(rows) == 186, "premise registry must contain exactly 186 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 185, "duplicate premise id")
+    require(len(by_id) == 186, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -827,6 +832,56 @@ def main() -> None:
     require(g201_package["family_controls"] == 400, "G201 family count changed")
     require(g201_package["mutation_catches"] == 9, "G201 hostile count changed")
     require(g201_package["source_hashes"] == 9, "G201 source count changed")
+    require(
+        by_id["G202"]["current_status"].startswith(
+            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_8503A413"
+        ),
+        "G202 bounded grade changed or promoted",
+    )
+    for guard in (
+        "SYMBOLIC_NONNEGATIVE_LIMIT_REPLACED_BY_EXACT_LOWER_BOUND_FACTORIZATION_AFTER_FIRST_RUN_FAILED_CLOSED",
+        "QUIET_ZERO_DEPTH_OVERLAP_IFF_PHI_P_AND_Q_ZERO",
+        "NONTRIVIAL_ANALYTIC_SIGN_CROSSING_FIRST_ACTIVE_ORDER_ODD_AT_LEAST_THREE",
+        "CUBIC_IS_MINIMAL_CHOSEN_CONTROL_NOT_SELECTED_HISTORY",
+        "INFINITE_POSITIVE_ODD_PROFILE_FAMILY_HAS_QUIET_SECOND_JET_MONOTONE_TWO_SIDED_GROWTH",
+        "FINITE_ANCHOR_JETS_DO_NOT_SELECT_UNRESTRICTED_SMOOTH_GLOBAL_PROFILE",
+        "CE_AND_GOBS_ALONE_CANNOT_FORM_LENGTH",
+        "MASS_PERMITS_GM_OVER_CE2_AND_DENSITY_PERMITS_CE_OVER_SQRT_G_RHO_AS_DIMENSIONAL_CANDIDATES_ONLY",
+        "NO_FIT_XMAX_TRANSFER_PROFILE_SELECTION_OR_PROTECTED_PAYLOAD",
+    ):
+        require(guard in by_id["G202"]["current_status"], f"G202 guard absent: {guard}")
+    require(
+        by_id["G202"]["active_use"]
+        == "ACTIVE_BOUNDED_PRIMARY_METRIC_LOG_RADIUS_QUIET_OVERLAP_ANALYTIC_CROSSING_FINITE_ANCHOR_AND_DIMENSIONAL_CANDIDATE_CLASSIFICATION_ONLY",
+        "G202 active scope widened",
+    )
+    require(
+        by_id["G202"]["controlling_source"]
+        == "udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/AUDIT_REPORT.md",
+        "G202 controlling source changed",
+    )
+    g202 = ROOT / "udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g202 / name).is_file(), f"G202 evidence missing: {name}")
+    g202_package = json.loads((g202 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g202_package["all_pass"] is True, "G202 package verification failed")
+    require(g202_package["no_write_replay"] is True, "G202 no-write replay absent")
+    require(g202_package["production_assertions"] == 32, "G202 production count changed")
+    require(g202_package["independent_assertions"] == 170003, "G202 assertion count changed")
+    require(g202_package["independent_cases"] == 20000, "G202 case count changed")
+    require(g202_package["anchor_controls"] == 1000, "G202 anchor control count changed")
+    require(g202_package["mutation_catches"] == 9, "G202 hostile count changed")
+    require(g202_package["source_hashes"] == 9, "G202 source count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -5043,7 +5098,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G201-extended premise guards; PASS: 185-row premise "
+        "PASS: G202-extended premise guards; PASS: 186-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

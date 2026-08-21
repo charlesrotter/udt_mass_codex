@@ -1,0 +1,11 @@
+object	status	role
+primary_static_spherical_metric	PINNED_BY_THEORY_WITHIN_DECLARED_SLICE	full metric supplying G201 amplitudes
+log_radius_s	SUPPLIED_CALIBRATED_COORDINATE	s=log(r/r0); r0 not selected
+quiet_overlap_second_jet	DERIVED_CONDITIONAL	phi=P=Q=0
+analytic_crossing	CONDITIONAL_REGULARITY_CLASS	first active order odd and at least three
+cubic_profile	CHOSE_CONTROL	minimal nondegenerate example; not physical history
+positive_odd_profile_family	FREE_AND_EXPLORED	infinite metric-native witnesses
+finite_observational_anchors	OBSERVED_OR_FUTURE_CALIBRATION	can fix family coefficients; not unrestricted function
+c_E_and_G_obs	OBSERVED	dimensional anchors; insufficient alone for length
+mass_or_density_anchor	CONDITIONAL_DIMENSIONAL_INPUT	permits candidate length combination; no law selected
+Xmax_transfer_source_action_matter	OPEN_OR_OMITTED	outside bounded theorem

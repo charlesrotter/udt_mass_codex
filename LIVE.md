@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G201. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G202. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -34,7 +34,7 @@ parametric branch `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, non
 G191--G198 explore chosen complete-coframe families and supplied germs. Their Levi-Civita/Jacobi machinery is a
 `STANDARD_GEOMETRIC_EVALUATOR`, not a UDT field equation or history selector.
 
-Current structural result: `udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/`.
+Current structural result: `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`.
 G199 proved that the exploratory chain introduced the one-sided `deta+dz` screen coupling as a
 `CHOSE_MATHEMATICAL_FUNCTION_FAMILY`; it is not in the primary static-spherical metric. Directly
 on that primary metric, both normalized future radial null germs are affine, share
@@ -59,6 +59,15 @@ angular tides while approaching either signed `phi` extreme on appropriate posit
 Independent exact replay passes 10,000 arbitrary jets, 1,000 cancellation cases, 400 smooth-family
 controls, and 23,606 assertions. This proves lawful regime-dependent instrument ratios, not a
 selected physical profile or universal response score.
+
+G202 derives the exact quiet-overlap condition in `s=log(r/r0)`: `phi=phi_s=phi_ss=0`. A
+nontrivial analytic sign crossing must first activate at odd order at least three. Cubic is the
+minimal control, not a selected history; infinitely many positive odd profiles share quiet overlap
+and two-sided reciprocal growth. Explicit decaying perturbations prove finite anchor jets do not
+select an unrestricted smooth global profile. Dimensional analysis also proves `c_E,G_obs` alone
+cannot form `r0`; a mass permits `G M/c_E^2` and a density permits `c_E/sqrt(G rho)`, only as
+candidate dimensional scales. Independent replay passes 20,000 profiles, 1,000 anchor
+counterfamilies, and 170,003 assertions.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -98,10 +107,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G201 closes the lockstep-amplitude question: do **not** force every instrument to follow one scalar
-loudness curve. The next bounded PONDER is to derive the minimal profile conditions and anchor data
-that make the complete primary history pass through a quiet overlap while retaining lawful
-two-sided reciprocal growth—without fitting a profile or inventing channel-volume coefficients.
-Do not insert `X_max`, select transfer, derive a time-live metric by template, or use G116/G189 as
-construction inputs.
+G202 closes the local profile/anchor classification. Next PONDER which of the remaining profile
+data—analytic order, reference scale, and dimensionless steepness—are owned by the founding
+normalization or by legitimate observations. If no owner exists, keep a small calibrated family
+explicitly conditional rather than calling it derived. Do not fit, insert `X_max`, select transfer,
+derive a time-live metric by template, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

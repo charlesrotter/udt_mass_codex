@@ -1,0 +1,10 @@
+{
+  "all_pass": true,
+  "anchor_controls": 1000,
+  "independent_assertions": 170003,
+  "independent_cases": 20000,
+  "mutation_catches": 9,
+  "no_write_replay": true,
+  "production_assertions": 32,
+  "source_hashes": 9
+}
