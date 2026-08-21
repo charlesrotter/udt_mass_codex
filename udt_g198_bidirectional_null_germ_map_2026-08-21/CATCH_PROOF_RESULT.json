@@ -1,0 +1,28 @@
+{
+  "catch_count": 9,
+  "catches": {
+    "activate_independent_minus_channel": true,
+    "equate_opposite_jacobi_maps": true,
+    "erase_metric_encoded_asymmetry": true,
+    "finite_samples_prove_no_caustic": true,
+    "force_entire_incoming_tide_zero": true,
+    "impose_z_mirror": true,
+    "insert_wrong_directional_operator": true,
+    "replace_minus_by_plus": true,
+    "two_rays_reconstruct_field": true
+  },
+  "caught_count": 9,
+  "generalized_minus_contraction": [
+    [
+      "-1",
+      "3"
+    ],
+    [
+      "-1",
+      "5"
+    ]
+  ],
+  "landing": "ALL_PREREGISTERED_G198_HOSTILE_MUTATIONS_CAUGHT",
+  "status": "PASS",
+  "two_ray_alias_offray_value": "4/625"
+}

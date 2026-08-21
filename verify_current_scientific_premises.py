@@ -162,9 +162,10 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G196",
+            "G166--G198",
             "G196",
             "G197",
+            "G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -218,7 +219,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "181-row exact registry",
+            "182-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -246,6 +247,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/",
             "udt_g196_longitudinal_screen_mixing_descent_2026-08-20/",
             "udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/",
+            "udt_g198_bidirectional_null_germ_map_2026-08-21/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -256,8 +258,9 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G196",
+            "G166--G198",
             "G197",
+            "G198",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -271,8 +274,9 @@ def validate_startup_surface(root: Path) -> None:
             "G129--G165",
             "G166--G184",
             "G185--G189",
-            "G190--G196",
+            "G190--G198",
             "G197",
+            "G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -287,11 +291,11 @@ def validate_startup_surface(root: Path) -> None:
             "G176--G180",
             "G181--G184",
             "G185--G189",
-            "G190--G196",
+            "G190--G198",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "181-row",
+            "182-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -551,9 +555,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 181, "premise registry must contain exactly 181 rows")
+    require(len(rows) == 182, "premise registry must contain exactly 182 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 181, "duplicate premise id")
+    require(len(by_id) == 182, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -614,6 +618,47 @@ def main() -> None:
         == "formula_level_regression_from_shared_candidate_matrices",
         "G196 IVP evidence scope changed",
     )
+    require(
+        by_id["G198"]["current_status"].startswith(
+            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED__EXACT_FULL_METRIC_23_OF_23_PASS"
+        ),
+        "G198 bounded grade changed or promoted",
+    )
+    for guard in (
+        "OPPOSITE_GERM_HAS_ZERO_M_DEPENDENT_SCREEN_CONNECTION_AND_TIDE",
+        "COMMON_SCALE_TAU0_REMAINS",
+        "DIRECT_COORDINATE_JACOBI_DMINUS_SQUARED_Y_EQUALS_ZERO",
+        "PHYSICAL_VERTEX_MAP_A_U_TIMES_U_I_HAS_POSITIVE_NONVERTEX_DETERMINANT",
+        "TWO_RAY_ALIAS_PROVES_NO_OFFRAY_RECONSTRUCTION",
+        "INDEPENDENT_CETA_CZ_FAMILY_MAPPED_NOT_ACTIVE",
+        "NO_P1_G116_G189_XMAX_TRANSFER_SOURCE_FIT_OR_PROTECTED_PAYLOAD",
+    ):
+        require(guard in by_id["G198"]["current_status"], f"G198 guard absent: {guard}")
+    g198 = ROOT / "udt_g198_bidirectional_null_germ_map_2026-08-21"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "FALSIFICATION_CONTRACT.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g198 / name).is_file(), f"G198 evidence missing: {name}")
+    g198_package = json.loads((g198 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g198_package["status"] == "PASS", "G198 package verification failed")
+    require(
+        g198_package["grade"] == "INDEPENDENTLY_VERIFIED_WITH_CAVEATS",
+        "G198 package grade changed",
+    )
+    require(g198_package["production_assertions"] == 23, "G198 production count changed")
+    require(g198_package["independent_histories"] == 68, "G198 history count changed")
+    require(g198_package["independent_assertions"] == 1838, "G198 assertion count changed")
+    require(g198_package["base_residual_evaluations"] == 816, "G198 base-residual count changed")
+    require(g198_package["mutation_catches"] == 9, "G198 hostile count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -4830,7 +4875,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G196-extended premise guards; PASS: 181-row premise "
+        "PASS: G198-extended premise guards; PASS: 182-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

@@ -44,13 +44,14 @@ physical scalar after the working premise. They must not be conflated.
   family gluing, endpoint/carry strata, and typed realization equivalence.
 - G185--G189 are radial/application and flux-interface controls; P1 and radiative transfer remain
   historical or imported.
-- G190--G196 derive the parametric frequency/screen evaluator and classify nested **chosen**
-  time-live coframe families. The latest result is longitudinal `M(eta,z)` descent through
-  `D_plus` on one supplied outgoing germ. Exact factorization and the positive-Gram sign theorem
-  are family-scoped. The IVP comparison is formula-level regression; metric-side curvature and
-  connection contractions are independently implemented.
+- G190--G198 derive the parametric frequency/screen evaluator and classify nested **chosen**
+  time-live coframe families and supplied germs. G196 gives longitudinal `D_plus` descent, exact
+  factorization, and the positive-Gram sign theorem on the outgoing germ. G198 keeps the same metric
+  and derives an exact opposite-germ null control: no `M`-dependent connection or tide and
+  `D_minus^2Y=0`. The asymmetry is encoded by the chosen one-null-component coframe and remains
+  family-scoped.
 
-Current structural package: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`.
+Current structural package: `udt_g198_bidirectional_null_germ_map_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -75,12 +76,13 @@ G197 classified the full chain as `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQU
 G116/G189 transfer, fit, `X_max`, G142--G160 construction, or protected local package is
 load-bearing. The active dependency types are metric/founding algebra, supplied query data, chosen
 exploration families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole G176 working clarification. G190--G192's
-numerical IVP legs are formula-level evidence; G193--G196 contain the independent metric-side
+numerical IVP legs are formula-level regression evidence; G193--G196 contain the independent metric-side
 contractions.
 
-G198 completes the MAP for a second/opposite supplied germ on the same G196 metric. It identifies a
-load-bearing family restriction: the displayed coframe includes the `deta+dz` null screen coupling
-but freezes the independent `deta-dz` component. The next bounded derivation evaluates the
-same-metric incoming germ directly. A quiet or asymmetric response is family-scoped. The minimally
-less-frozen independent `C_eta,C_z` affine family is mapped for later consideration, not active.
-Do not fit functions, insert `X_max`, select transfer, or use G116/G189 as construction inputs.
+G198 completes the direct same-metric opposite-germ calculation. It identifies a load-bearing
+family restriction: the displayed coframe includes the `deta+dz` null screen coupling but freezes
+the independent `deta-dz` component. The result is an exact loud/quiet directional pair without a
+fitted switch. The next bounded action is a frame/ownership PONDER: decide whether the primary
+metric excludes the missing component or whether the mapped independent `C_eta,C_z` affine family
+is the least-frozen adjacent test. Do not activate it before that audit, fit functions, insert
+`X_max`, select transfer, or use G116/G189 as construction inputs.

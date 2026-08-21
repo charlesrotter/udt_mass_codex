@@ -25,15 +25,15 @@
 - Current longitudinal result: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
 - Accepted provenance/startup audit:
   `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`
-- Bidirectional same-metric germ MAP:
+- Current bidirectional same-metric germ result:
   `udt_g198_bidirectional_null_germ_map_2026-08-21/`
 
 G129--G165 are reconstruction, scale, carry, `X_max`, and scaffold controls. G166--G184 build the
-supplied completed-pair scalar chain. G185--G189 are application controls. G190--G196 are standard
+supplied completed-pair scalar chain. G185--G189 are application controls. G190--G198 are standard
 geometric evaluations on chosen metric families; they do not select physical histories or germs.
 G197 confirms that no earlier scaffold is load-bearing and records the formula-level numerical
-evidence ceiling for G190--G192. G198 maps the opposite-germ control and exposes the frozen
-independent null screen-connection component before any new derivation.
+evidence ceiling for G190--G192. G198 directly derives the opposite-germ null control and exposes
+the frozen independent null screen-connection component as the next frame question.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -42,7 +42,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Historical chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 181-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 182-row registry controls.
 ## Observational lane
 
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`

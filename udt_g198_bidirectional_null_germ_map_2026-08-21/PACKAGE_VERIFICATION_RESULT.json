@@ -1,0 +1,14 @@
+{
+  "base_residual_evaluations": 816,
+  "fresh_artifact_identity": true,
+  "grade": "INDEPENDENTLY_VERIFIED_WITH_CAVEATS",
+  "independent_assertions": 1838,
+  "independent_histories": 68,
+  "maximum_incoming_operator_error": 2.220446049250313e-16,
+  "maximum_outgoing_operator_error": 5.551115123125783e-16,
+  "mutation_catches": 9,
+  "no_write_replay": false,
+  "production_assertions": 23,
+  "source_rows": 7,
+  "status": "PASS"
+}

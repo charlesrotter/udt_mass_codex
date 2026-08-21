@@ -26,7 +26,7 @@
 | G176--G180 completed pair | conditional; externally accepted | Working completed-pair premise selects the reciprocal ruler; coframe/family evaluators do not select histories |
 | G181--G184 strata/equivalence | conditional; externally accepted | Endpoints, carry, branches, and typed quotient; equal summaries do not identify realizations |
 | G185--G189 application boundary | accepted with caveats | Radial/nonradial screen and conditional flux controls; transfer/P1 remain imported or historical |
-| G190--G196 time-live families | accepted with caveats | Parametric frequency/screen evaluator and nested chosen mixing families; latest `D_plus` descent remains one-germ/family scoped |
+| G190--G198 time-live families | accepted with caveats | Nested chosen mixing families; latest result derives a loud outgoing and quiet incoming null channel on the same G196 metric, still family/germ scoped |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -51,7 +51,8 @@ None selects completion or `X_max`.
   Metricity is not dynamics. G138--G145 assign carry to overlaps, not endpoints.
 - G146--G163 bound carrier, `O(2)`, `lambda`, first jets, scale, score, transport, and `X_max`;
   G165 is an envelope control rather than a physical multiplicity theorem.
-- G166--G196 derive and test the supplied-pair kernel. Population, transfer, and history stay open.
+- G166--G198 derive and test the supplied-pair kernel. The latest directional asymmetry is metric-encoded
+  in one chosen coframe family; population, transfer, and global realization stay open.
 
 ## Carrier, action, source, and matter
 
@@ -80,12 +81,13 @@ Do not:
   proper length, universe size, or seams into the kernel;
 - promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize the G166--G196 chain, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
+- globalize the G166--G198 chain, turn G198's quiet germ into a universal switch, silently activate
+  the absent second null coupling, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
   import familiar mechanisms as UDT derivations.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 181-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 182-row authority. On conflict, stop.
 
 Run:
 

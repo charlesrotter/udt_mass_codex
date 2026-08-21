@@ -1,0 +1,114 @@
+{
+  "assertions": {
+    "coframe_determinant": true,
+    "metric_determinant": true,
+    "minus_affine": true,
+    "minus_connection_quiet": true,
+    "minus_coordinate_jacobi": true,
+    "minus_frequency": true,
+    "minus_jacobi_screen_closed": true,
+    "minus_null": true,
+    "minus_screen_orthonormal": true,
+    "minus_tide_control": true,
+    "minus_tide_self_adjoint": true,
+    "pair_pullback": true,
+    "plus_affine": true,
+    "plus_connection_regression": true,
+    "plus_frequency": true,
+    "plus_jacobi_screen_closed": true,
+    "plus_null": true,
+    "plus_screen_orthonormal": true,
+    "plus_tide_regression": true,
+    "plus_tide_self_adjoint": true,
+    "two_ray_alias_first_jets": true,
+    "two_ray_alias_offray": true,
+    "two_ray_alias_values": true
+  },
+  "coframe_one_form": "screen mixing is M(eta,z) X (deta+dz)",
+  "det_coframe": "a(eta)**4",
+  "det_metric": "-a(eta)**8",
+  "incoming": {
+    "caustic_sign": "det D_minus=a(u)^2 u^2>0 at every nonvertex point because a>0",
+    "coordinate_jacobi": "D_minus^2 Y=0",
+    "coordinate_operator": [
+      "Derivative(y1_minus(eta, z), (eta, 2)) + Derivative(y1_minus(eta, z), (z, 2)) - 2*Derivative(y1_minus(eta, z), eta, z)",
+      "Derivative(y2_minus(eta, z), (eta, 2)) + Derivative(y2_minus(eta, z), (z, 2)) - 2*Derivative(y2_minus(eta, z), eta, z)"
+    ],
+    "coordinate_tide": [
+      [
+        "-(a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6",
+        "0"
+      ],
+      [
+        "0",
+        "-(a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6"
+      ]
+    ],
+    "coordinate_vertex_map": "Y_minus(u)=u I for Y(0)=0 and dY/du(0)=I",
+    "directional_derivative": "D_minus=partial_eta-partial_z",
+    "frequency": "1/a(eta)",
+    "fundamental_solution": "Y(u)=Y0+u V0 in null coordinate u with d/du=D_minus",
+    "physical_vertex_map": "D_minus(u)=a(u) u I in the orthonormal-screen amplitude",
+    "screen_connection_s": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "landing": "OPPOSITE_GERM_NULL_CONTROL__ASYMMETRY_IS_METRIC_ENCODED",
+  "outgoing": {
+    "coordinate_operator": [
+      "-4*A(eta, z)**2*y1_plus(eta, z) - 4*A(eta, z)*N(eta, z)*y2_plus(eta, z) - 4*A(eta, z)*R(eta, z)*y2_plus(eta, z) - 4*B(eta, z)*N(eta, z)*y2_plus(eta, z) + 4*B(eta, z)*R(eta, z)*y2_plus(eta, z) - 4*N(eta, z)**2*y1_plus(eta, z) + 8*N(eta, z)*R(eta, z)*y1_plus(eta, z) - 4*R(eta, z)**2*y1_plus(eta, z) + 4*R(eta, z)*Derivative(y2_plus(eta, z), eta) + 4*R(eta, z)*Derivative(y2_plus(eta, z), z) + 2*y1_plus(eta, z)*Derivative(A(eta, z), eta) + 2*y1_plus(eta, z)*Derivative(A(eta, z), z) + 2*y2_plus(eta, z)*Derivative(N(eta, z), eta) + 2*y2_plus(eta, z)*Derivative(N(eta, z), z) + 2*y2_plus(eta, z)*Derivative(R(eta, z), eta) + 2*y2_plus(eta, z)*Derivative(R(eta, z), z) + Derivative(y1_plus(eta, z), (eta, 2)) + Derivative(y1_plus(eta, z), (z, 2)) + 2*Derivative(y1_plus(eta, z), eta, z)",
+      "-4*A(eta, z)*N(eta, z)*y1_plus(eta, z) - 4*A(eta, z)*R(eta, z)*y1_plus(eta, z) - 4*B(eta, z)**2*y2_plus(eta, z) - 4*B(eta, z)*N(eta, z)*y1_plus(eta, z) + 4*B(eta, z)*R(eta, z)*y1_plus(eta, z) - 4*N(eta, z)**2*y2_plus(eta, z) - 8*N(eta, z)*R(eta, z)*y2_plus(eta, z) - 4*R(eta, z)**2*y2_plus(eta, z) - 4*R(eta, z)*Derivative(y1_plus(eta, z), eta) - 4*R(eta, z)*Derivative(y1_plus(eta, z), z) + 2*y1_plus(eta, z)*Derivative(N(eta, z), eta) + 2*y1_plus(eta, z)*Derivative(N(eta, z), z) - 2*y1_plus(eta, z)*Derivative(R(eta, z), eta) - 2*y1_plus(eta, z)*Derivative(R(eta, z), z) + 2*y2_plus(eta, z)*Derivative(B(eta, z), eta) + 2*y2_plus(eta, z)*Derivative(B(eta, z), z) + Derivative(y2_plus(eta, z), (eta, 2)) + Derivative(y2_plus(eta, z), (z, 2)) + 2*Derivative(y2_plus(eta, z), eta, z)"
+    ],
+    "coordinate_tide": [
+      [
+        "-(4*A(eta, z)**2*a(eta)**2 + 4*N(eta, z)**2*a(eta)**2 - 8*N(eta, z)*R(eta, z)*a(eta)**2 - 2*a(eta)**2*Derivative(A(eta, z), eta) - 2*a(eta)**2*Derivative(A(eta, z), z) + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6",
+        "-2*(2*A(eta, z)*N(eta, z) + 2*A(eta, z)*R(eta, z) + 2*B(eta, z)*N(eta, z) - 2*B(eta, z)*R(eta, z) - Derivative(N(eta, z), eta) - Derivative(N(eta, z), z))/a(eta)**4"
+      ],
+      [
+        "-2*(2*A(eta, z)*N(eta, z) + 2*A(eta, z)*R(eta, z) + 2*B(eta, z)*N(eta, z) - 2*B(eta, z)*R(eta, z) - Derivative(N(eta, z), eta) - Derivative(N(eta, z), z))/a(eta)**4",
+        "-(4*B(eta, z)**2*a(eta)**2 + 4*N(eta, z)**2*a(eta)**2 + 8*N(eta, z)*R(eta, z)*a(eta)**2 - 2*a(eta)**2*Derivative(B(eta, z), eta) - 2*a(eta)**2*Derivative(B(eta, z), z) + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6"
+      ]
+    ],
+    "directional_derivative": "D_plus=partial_eta+partial_z",
+    "frequency": "1/a(eta)",
+    "regression": "exact G196 formula recovered",
+    "screen_connection_s": [
+      [
+        "0",
+        "2*R(eta, z)"
+      ],
+      [
+        "-2*R(eta, z)",
+        "0"
+      ]
+    ]
+  },
+  "pair_metric": [
+    [
+      "-a(eta)**2",
+      "0"
+    ],
+    [
+      "0",
+      "a(eta)**2"
+    ]
+  ],
+  "scope": "same full nonlinear G196 metric; central pair; supplied future plus-z and minus-z null germs; no mirror substitution or independent d_eta-d_z coframe channel",
+  "status": "PASS",
+  "tau0": "-(a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6",
+  "two_ray_alias": {
+    "difference": "(eta-z)^2(eta+z)^2 times any fixed real 2x2 coefficient",
+    "first_directional_jet_on_minus_ray": "0",
+    "first_directional_jet_on_plus_ray": "0",
+    "offray_value_at_3_10_1_10": "4/625",
+    "value_on_minus_ray": "0",
+    "value_on_plus_ray": "0"
+  }
+}

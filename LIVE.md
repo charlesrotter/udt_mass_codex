@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G196. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G198. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -31,15 +31,17 @@ depth. Events, germs, observer population, and global realization remain `QUERY_
 G185--G189 are bounded radial/application controls. Their P1 profile and radiative transfer are
 historical or `IMPORTED_CONDITIONAL`, not kernel inputs. G190 derives the supplied-history
 parametric branch `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, noncaustic pieces.
-G191--G196 explore chosen complete-coframe families. Their Levi-Civita/Jacobi machinery is a
+G191--G198 explore chosen complete-coframe families and supplied germs. Their Levi-Civita/Jacobi machinery is a
 `STANDARD_GEOMETRIC_EVALUATOR`, not a UDT field equation or history selector.
 
-Current structural result: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`. On one
-displayed `a(eta),M(eta,z)` family and supplied central outgoing germ, the metric gives
-`D_plus=partial_eta+partial_z`, exact ordered factorization, and a positive-Gram no-nonvertex-caustic
-proof on the connected regular ray interval. External review accepts this bounded theorem. The
-metric-side contractions are independently implemented; the interval IVP comparison is only
-formula-level regression. One germ does not reconstruct off-ray structure.
+Current structural result: `udt_g198_bidirectional_null_germ_map_2026-08-21/`. On the same displayed
+G196 `a(eta),M(eta,z)` metric, the outgoing germ exactly retains `D_plus`, ordered factorization,
+and the positive-Gram sign theorem. The opposite future germ is an exact `M`-quiet control:
+`C_minus=0`, `T_minus=tau0 I`, and direct coordinate Jacobi law `D_minus^2 Y=0`; its physical
+vertex map is `a(u)uI` in null coordinate `u`, so its nonvertex determinant is positive. Independent second-metric-jet
+reconstruction passes. This directional asymmetry is encoded by the chosen `deta+dz` coframe
+coupling; it is not yet an arbitrary-complete-metric theorem. Two germs still do not reconstruct
+off-ray structure.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -53,7 +55,8 @@ G197's native-provenance audit lands
 `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no P1, G116, G189 transfer, fit, `X_max`,
 G142--G160 mechanism, or protected payload is load-bearing. The repairs are descriptive: G176 must
 remain visibly provisional, supplied germs and chosen families must remain typed, and G190--G192's
-numerical IVP legs are formula-level rather than independent metric-to-Jacobi reconstructions.
+numerical IVP legs are formula-level regression rather than independent metric-to-Jacobi
+reconstructions.
 
 Exact premise authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
@@ -78,10 +81,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G198 has MAPped the second/opposite supplied germ on the same G196 metric. The map exposes that the
-chosen G196 coframe itself contains only the `deta+dz` null screen coupling; the independent
-`deta-dz` component is frozen. First derive the same-metric opposite-germ response without imposing
-mirror symmetry. A quiet result classifies that family, not general UDT. The adjacent independent
-`C_eta,C_z` family is mapped but not yet active. Do not fit functions, insert `X_max`, select
+G198 has derived both central future null germs on the same G196 metric. The outgoing channel is
+loud and the incoming channel is exactly `M`-quiet, with only the common-scale tide retained. This
+is a family-scoped metric result, not a fitted regime switch or universal UDT theorem. Next PONDER
+whether the intended primary metric itself excludes the frozen independent `deta-dz` screen
+component, or whether the minimally less-frozen `C_eta,C_z` family is the honest adjacent test.
+Do not activate that family before the frame audit; do not fit functions, insert `X_max`, select
 transfer, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

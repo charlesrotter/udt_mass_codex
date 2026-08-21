@@ -1,0 +1,28 @@
+{
+  "assertion_count": 1838,
+  "base_residual_evaluations": 816,
+  "ceilings": {
+    "algebra": 2e-10,
+    "tensor": 8e-08
+  },
+  "history_count": 68,
+  "implementation": "independent Torch float64 coframe construction, automatic first/second metric jets, direct Christoffel/Riemann contractions, and direct coordinate Jacobi residuals; no production import or artifact read",
+  "landing": "OPPOSITE_GERM_NULL_CONTROL__ASYMMETRY_IS_METRIC_ENCODED",
+  "max_errors": {
+    "affine": 1.3877787807814457e-16,
+    "frequency": 2.220446049250313e-16,
+    "incoming_base_residual": 0.0,
+    "incoming_connection": 4.1324542558998963e-17,
+    "incoming_operator": 2.220446049250313e-16,
+    "incoming_tide_control": 2.1510571102112408e-16,
+    "metric": 0.0,
+    "outgoing_connection": 2.220446049250313e-16,
+    "outgoing_operator": 5.551115123125783e-16
+  },
+  "point_count_per_history": 3,
+  "random_history_count": 64,
+  "seed": 1980821,
+  "status": "PASS",
+  "two_ray_alias_offray_value": 0.0064,
+  "two_ray_alias_onray_error": 0.0
+}

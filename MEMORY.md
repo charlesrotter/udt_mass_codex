@@ -4,21 +4,22 @@ Re-read on resume. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G196 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G198 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
 control, not completed `Phi`.
 
-G190--G196 use chosen metric families and standard Levi-Civita/Jacobi evaluators. Latest bounded
-result: one `a(eta),M(eta,z)` family and one outgoing germ yield `D_plus`, ordered factorization,
-and scoped no-nonvertex-caustics. The IVP comparison is formula-level regression; metric-side
-contractions are independent. One germ does not reconstruct off-ray data.
+G190--G198 use chosen metric families and standard Levi-Civita/Jacobi evaluators. G196's outgoing
+germ yields `D_plus`, ordered factorization, and scoped no-nonvertex-caustics. G198 keeps that same
+metric and derives an exact opposite-germ control: zero `M` connection, common-scale-only tide,
+and `D_minus^2Y=0`, with positive physical nonvertex determinant. The asymmetry is encoded by the
+chosen `deta+dz` coupling; two germs still do not reconstruct off-ray data.
 
 G197 retained this native core after an end-to-end provenance audit. It found no load-bearing P1,
 G116/G189 transfer, fit, `X_max`, G142--G160 mechanism, or protected local payload. Required repairs
 are descriptive: keep G176 provisional, supplied choices explicit, and G190--G192 IVP evidence
-formula-level.
+at the formula-level regression ceiling.
 
 Physical germs/functions, ambient/global realization, transfer, completion, and `X_max` remain
 open. `INDEX.md` routes exact evidence; earlier chronology is archived.
@@ -46,10 +47,10 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G198 has MAPped the opposite germ. The same G196 coframe freezes the independent `deta-dz` screen
-coupling, so next derive the incoming response without assuming mirror symmetry; interpret any
-quiet result as family-scoped. The independent `C_eta,C_z` extension remains mapped but inactive.
-No fits, `X_max`, transfer, or G116/G189 construction inputs.
+G198 has derived the opposite germ and found an exact family-scoped quiet control. The same G196
+coframe freezes the independent `deta-dz` screen coupling. Next PONDER whether the primary metric
+excludes that component or whether the independent `C_eta,C_z` extension is the least-frozen
+adjacent test. It remains mapped but inactive. No fits, `X_max`, transfer, or G116/G189 inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

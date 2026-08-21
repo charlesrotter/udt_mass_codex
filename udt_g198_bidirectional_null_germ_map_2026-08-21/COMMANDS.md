@@ -1,0 +1,9 @@
+# G198 commands
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 udt_g198_bidirectional_null_germ_map_2026-08-21/derive_bidirectional_null_germs.py
+PYTHONDONTWRITEBYTECODE=1 python3 udt_g198_bidirectional_null_germ_map_2026-08-21/verify_bidirectional_null_germs_independent.py
+PYTHONDONTWRITEBYTECODE=1 python3 udt_g198_bidirectional_null_germ_map_2026-08-21/run_catch_proofs.py
+PYTHONDONTWRITEBYTECODE=1 python3 udt_g198_bidirectional_null_germ_map_2026-08-21/build_source_manifest.py
+PYTHONDONTWRITEBYTECODE=1 python3 udt_g198_bidirectional_null_germ_map_2026-08-21/verify_package.py --no-write
+```

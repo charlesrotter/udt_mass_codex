@@ -23,15 +23,17 @@ G196 supplied the affine coframe
 on the central pair `X=(p,w)=0`. It evaluated only the outgoing germ
 
 \[
-\gamma_+(s)=(s,s,0,0),\qquad
-k_+=a^{-2}(\partial_\eta+\partial_z).
+\gamma_+(u)=(u,u,0,0),\qquad
+\ell_+=\partial_\eta+\partial_z,\qquad
+k_+=a^{-2}\ell_+.
 \]
 
 The same central Lorentzian pair plane contains the opposite future null germ
 
 \[
-\gamma_-(s)=(s,-s,0,0),\qquad
-k_-=a^{-2}(\partial_\eta-\partial_z).
+\gamma_-(u)=(u,-u,0,0),\qquad
+\ell_-=\partial_\eta-\partial_z,\qquad
+k_-=a^{-2}\ell_-.
 \]
 
 G198 asks:
@@ -40,6 +42,9 @@ G198 asks:
 2. What screen connection, curvature tide, frequency, Jacobi map, and caustic class does it assign?
 3. Which combinations of `partial_eta M` and `partial_z M` are sampled by each germ?
 4. What, if anything, do the two responses jointly determine about the same supplied field?
+
+Here `u` is the null coordinate along the displayed curve; `k_\pm` is the affine tangent. They
+coincide only when the common scale is constant.
 
 ## Why this is not automatically a mirror test
 
